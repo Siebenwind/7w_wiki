@@ -22,8 +22,10 @@ layout: wiki_page
         title: [Display Title]
         category: [Persönlichkeit | Geschichte | Erzählung | Geografie | Religion | Magie]
         quelle: ../../Quellen/[Unterordner]/[Dateiname].md
+        report_id: [UUID des zugehörigen Audit-Reports, falls vorhanden]
         ---
         ```
+    *   **Report-ID:** Wenn der Artikel aufgrund eines Audit-Reports (z.B. Lückenschluss) erstellt wurde, trage hier die UUID des Reports ein. Dies dient als "Funddatum".
     *   **Quelle-Regel:** Das `quelle:` Feld MUSS einen **relativen Pfad** zur Urquelle enthalten. Absolute Pfade sind verboten.
     *   **Inhalt:** Markdown mit H1-Überschrift, die exakt dem `title` im Frontmatter entspricht.
     *   **Links:** Nutze `[[WikiLink]]` Syntax für interne Verweise.

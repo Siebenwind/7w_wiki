@@ -97,28 +97,43 @@ def get_chronik_index_numbers(index_path: Path) -> set[int]:
 
 def main():
     report_id = str(uuid.uuid4())
-    print("=" * 60)
-    print("  SIEBENWIND WIKI — REGISTER-CHECK")
-    print(f"  Report-ID: {report_id}")
-    print("=" * 60)
-    print()
-
     issues_found = 0
+    
+    # --- Summary ---
+    summary = []
+    summary.append("=" * 60)
+    summary.append("  SIEBENWIND WIKI — REGISTER-CHECK")
+    summary.append(f"  Report-ID: {report_id}")
+    summary.append("=" * 60)
+    summary.append("")
+    
+    # Capture output for file writing
+    output_lines = []
+    
+    def log(msg=""):
+        print(msg)
+        output_lines.append(msg)
+
+    log("=" * 60)
+    log("  SIEBENWIND WIKI — REGISTER-CHECK")
+    log(f"  Report-ID: {report_id}")
+    log("=" * 60)
+    log()
 
     # --- 1. Duplikat-Scan ---
-    print("## 1. Duplikate im Personenregister")
+    log("## 1. Duplikate im Personenregister")
     register_names = extract_register_names(REGISTER_FILE)
     duplicates = find_duplicates(register_names)
     if duplicates:
         for name, count in sorted(duplicates.items()):
-            print(f"  ⚠️  {name} — {count}x vorhanden")
+            log(f"  ⚠️  {name} — {count}x vorhanden")
             issues_found += 1
     else:
-        print("  ✅ Keine Duplikate gefunden.")
-    print()
+        log("  ✅ Keine Duplikate gefunden.")
+    log()
 
     # --- 2. Verwaiste Profile ---
-    print("## 2. Verwaiste Profile (Datei ohne Register-Eintrag)")
+    log("## 2. Verwaiste Profile (Datei ohne Register-Eintrag)")
     profile_files = get_profile_files(PROFILE_DIR)
     register_set = set(register_names)
     orphans = sorted(profile_files - register_set)
@@ -133,14 +148,14 @@ def main():
             except Exception:
                 pass
             status = "📎 hat quelle:" if has_quelle else "❓ keine quelle:"
-            print(f"  ⚠️  {name} — {status}")
+            log(f"  ⚠️  {name} — {status}")
             issues_found += 1
     else:
-        print("  ✅ Alle Profile sind registriert.")
-    print()
+        log("  ✅ Alle Profile sind registriert.")
+    log()
 
     # --- 3. Registriert ohne Profildatei ---
-    print("## 3. Registrierte Personen ohne Profildatei")
+    log("## 3. Registrierte Personen ohne Profildatei")
     missing_profiles = sorted(register_set - profile_files)
     # Filter out common non-person links
     skip_prefixes = ("Siebenwind", "Region_", "Rasse_", "Ecclesia", "Kirche",
@@ -151,47 +166,57 @@ def main():
                        if not any(n.startswith(p) for p in skip_prefixes)]
     if missing_profiles:
         for name in missing_profiles[:30]:
-            print(f"  📝 {name} — Profildatei fehlt")
+            log(f"  📝 {name} — Profildatei fehlt")
             issues_found += 1
         if len(missing_profiles) > 30:
-            print(f"  ... und {len(missing_profiles) - 30} weitere.")
+            log(f"  ... und {len(missing_profiles) - 30} weitere.")
     else:
-        print("  ✅ Alle registrierten Personen haben Profildateien.")
-    print()
+        log("  ✅ Alle registrierten Personen haben Profildateien.")
+    log()
 
     # --- 4. Boten-Lücken ---
-    print("## 4. Boten-Lücken (Quellen vorhanden, nicht integriert)")
+    log("## 4. Boten-Lücken (Quellen vorhanden, nicht integriert)")
     quellen_numbers = get_boten_numbers(QUELLEN_DIR, r'Bote\s+(\d+)')
     wiki_numbers = get_boten_numbers(CHRONIK_DIR, r'Bote_(\d+)')
     missing_boten = sorted(quellen_numbers - wiki_numbers)
     if missing_boten:
         for num in missing_boten:
-            print(f"  ⚠️  Bote {num} — Quelle vorhanden, nicht integriert")
+            log(f"  ⚠️  Bote {num} — Quelle vorhanden, nicht integriert")
             issues_found += 1
     else:
-        print("  ✅ Alle verfügbaren Boten sind integriert.")
-    print()
+        log("  ✅ Alle verfügbaren Boten sind integriert.")
+    log()
 
     # --- 5. Index-Lücken ---
-    print("## 5. Index-Lücken (Dateien vorhanden, nicht in Die_Chronik.md)")
+    log("## 5. Index-Lücken (Dateien vorhanden, nicht in Die_Chronik.md)")
     index_numbers = get_chronik_index_numbers(CHRONIK_INDEX)
     unindexed = sorted(wiki_numbers - index_numbers)
     if unindexed:
         for num in unindexed:
-            print(f"  ⚠️  Bote {num} — Datei existiert, fehlt im Index")
+            log(f"  ⚠️  Bote {num} — Datei existiert, fehlt im Index")
             issues_found += 1
     else:
-        print("  ✅ Alle Boten-Dateien sind im Index erfasst.")
-    print()
+        log("  ✅ Alle Boten-Dateien sind im Index erfasst.")
+    log()
 
     # --- Summary ---
-    print("=" * 60)
-    print(f"  ERGEBNIS: {issues_found} Probleme gefunden.")
+    log("=" * 60)
+    log(f"  ERGEBNIS: {issues_found} Probleme gefunden.")
     if issues_found == 0:
-        print("  🎉 Das Wiki ist konsistent!")
+        log("  🎉 Das Wiki ist konsistent!")
     else:
-        print("  → Siehe /audit Workflow für Bearbeitungsschritte.")
-    print("=" * 60)
+        log("  → Siehe /audit Workflow für Bearbeitungsschritte.")
+    log("=" * 60)
+
+    # Save report to file
+    log_dir = PROJECT_ROOT / "Logs" / "Archive"
+    log_dir.mkdir(parents=True, exist_ok=True)
+    report_file = log_dir / f"Audit_{report_id}.txt"
+    try:
+        report_file.write_text("\n".join(output_lines), encoding="utf-8")
+        print(f"\n[INFO] Report gespeichert unter: {report_file}")
+    except Exception as e:
+        print(f"\n[ERROR] Konnte Report nicht speichern: {e}")
 
     return 1 if issues_found > 0 else 0
 

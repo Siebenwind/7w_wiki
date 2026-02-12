@@ -48,6 +48,7 @@ layout: wiki_page
         category: [Category]
         status: [Canon/Legend]
         quelle: ../../Quellen/[Unterordner]/[Dateiname].md
+        report_id: [UUID des Audit-Reports, falls zutreffend]
         ---
         # [Title]
         
