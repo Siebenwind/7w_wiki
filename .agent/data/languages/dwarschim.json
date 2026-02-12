@@ -1,0 +1,36 @@
+{
+    "name": "Dwarschim",
+    "tag": "dw",
+    "rules": {
+        "suffix": {
+            "plural": "a"
+        },
+        "composition": {
+            "separator": "'"
+        }
+    },
+    "dictionary": {
+        "bresch": "bruder",
+        "trosh": "bier",
+        "kharadarn": "bote",
+        "grargosch": "elf/spitzohr",
+        "terrabrim": "erdwächter",
+        "terrabrham": "erdwächter priester",
+        "drak'tar": "ausbilder",
+        "brak'taor": "waffenschmied",
+        "rogal": "anwärter",
+        "arphet": "tal",
+        "dwarschim": "zwerge/zwergenvolk",
+        "binge": "zwergenbehausung/mine",
+        "bragarim": "garde",
+        "bra'gar": "gardist",
+        "grag'tor": "hauptmann",
+        "kan'thrag": "heerführer",
+        "kreh": "auf bald",
+        "khem": "grüsse",
+        "kha'khem": "zum gruße",
+        "krell": "der",
+        "kroll": "den",
+        "ahr": "und"
+    }
+}

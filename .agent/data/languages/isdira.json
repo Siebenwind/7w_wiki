@@ -1,0 +1,25 @@
+{
+    "name": "Isdira",
+    "tag": "isd",
+    "rules": {
+        "suffix": {
+            "plural": "i",
+            "honorific": "re"
+        }
+    },
+    "dictionary": {
+        "miandrell": "auenelfen-dorf",
+        "ma'ahn": "das unbekannte land",
+        "na'li": "stadt am tor",
+        "il'drûn": "magier-akademie (hochelfen)",
+        "auren": "elfenland",
+        "falandrien": "kontinent",
+        "i'tarel": "magie-pfad? (elemental)",
+        "i'shanna": "magie-pfad? (white)",
+        "i'melen": "magie-pfad? (grey)",
+        "i'fari": "magie-pfad? (black)",
+        "e'ara": "elfische anrede?",
+        "galadon": "reich der menschen",
+        "mira'li": "elfendorf in tares"
+    }
+}

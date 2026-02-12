@@ -1,0 +1,22 @@
+---
+layout: wiki_page
+title: Verhaftung von Marnie Ruatha
+category: Geschichte
+---
+
+# Verhaftung von Marnie Ruatha
+
+**Epistemischer Status:** #bote
+**Datum:** 10. Carmer 22 n.H. (Bote 186)
+**Ort:** [[Brandenstein]]
+
+## Verlauf
+Die Edelfrau [[Marnie_Ruatha]], Patrizierin von Malthust, wurde in Brandenstein von der Malthuster Wacht unter Leutnant [[Erin_Caoimme]] festgesetzt.
+**Vorwürfe:** Unterstützung von Ketzern ([[Arn_Toron]], [[Tjure_Odal]]) und Verschleierung eigener Taten.
+
+## Eskalation
+Im Zuge der Verhaftung kam es zu Übergriffen auf Zivilisten. [[Khyra_Hohentann]], die Gattin des Ersonter Gardehauptmanns, wurde mit ihren Kindern von Soldaten niedergeschlagen.
+Dies rief die Kirche auf den Plan: [[Custodias]] stellte Marnie Ruatha unter den Schutz des Kirchenrechts ("Asyl"), um sie dem Zugriff der Malthuster Militärjustiz zu entziehen.
+
+---
+**Siehe auch:** [[Malthust]], [[Brandenstein]], [[Custodias]]

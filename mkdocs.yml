@@ -1,0 +1,43 @@
+site_name: Siebenwind Wiki
+site_description: Das zentrale Wissensarchiv der Siebenwind-Welt.
+site_author: Oberarchivar
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: deep orange
+      accent: amber
+    - scheme: default
+      primary: indigo
+      accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Wiki-Inhalte:
+      - Fundament: Siebenwind_Wiki/00_Fundament/
+      - Pantheon: Siebenwind_Wiki/01_Pantheon/
+      - Geografie: Siebenwind_Wiki/02_Geografie/
+      - Gesellschaft: Siebenwind_Wiki/03_Gesellschaft/
+      - Chronik: Siebenwind_Wiki/04_Chronik/
+      - Geschichte: Siebenwind_Wiki/05_Geschichte/
+      - Persönlichkeiten: Siebenwind_Wiki/07_Persoenlichkeiten/
+      - Bestiarium: Siebenwind_Wiki/08_Bestiarium/
+      - Bibliothek: Siebenwind_Wiki/09_Bibliothek/
+      - Amtliches Archiv: Siebenwind_Wiki/10_Archiv/
+  - Projekt:
+      - Master Task List: MASTER_TASK_LIST.md
+      - Changelog: CHANGELOG.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html

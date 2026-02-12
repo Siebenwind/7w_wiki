@@ -1,0 +1,22 @@
+{
+    "name": "Alt-Linfan",
+    "tag": "linfan",
+    "rules": {
+        "base": "latin"
+    },
+    "dictionary": {
+        "lex": "gesetz",
+        "codex": "gesetzbuch",
+        "iuridicum": "rechtlich",
+        "criminalis": "strafrechtlich",
+        "privatae": "privat",
+        "iuribus": "rechte",
+        "de": "über",
+        "et": "und",
+        "deiis": "götter",
+        "deorum": "götter",
+        "falsis": "falsch",
+        "simulacris": "abbilder",
+        "canonici": "kanonisch"
+    }
+}

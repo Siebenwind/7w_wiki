@@ -1,0 +1,52 @@
+---
+layout: wiki_page
+title: Zwerge
+category: Rasse
+author: [[Siebenwind]] Chronicler
+---
+
+# Zwerge
+
+**Epistemischer Status:** #canon
+
+**Kategorie:** Rasse
+**Eigenbezeichnung:** Dwarschim
+**Unterarten:** Bergzwerge (Bingen), Talzwerge (Oberirdisch)
+**Glaube:** Angrosch (Schöpfer/Schmied), oft assoziiert mit [[03_Bellum]] oder [[06_Ignis]]
+
+## Einleitung
+Die Zwerge, oder Dwarschim, wie sie sich selbst nennen, sind ein Volk von kleiner Statur, aber enormer Kraft und handwerklichem Geschick. Sie sind die Meister des Bergbaus, der Metallverarbeitung und der Architektur.
+
+## Die Völker der Zwerge
+
+### 1. Bergzwerge
+*   **Lebensraum:** Leben in riesigen unterirdischen Städten, den **Bingen**. Bekannte Bingen liegen im **Klauengebirge**, der **Drachenschwinge** (Tiefenwald) und im **Dabus**-Massiv.
+*   **Kultur:** Streng traditionell, organisiert in Kasten und Zünften. Ehre, Ahnenkult und der Besitz von Gold und Edelsteinen spielen eine große Rolle.
+*   **Handwerk:** Schaffen die besten Waffen und Rüstungen Falandriens.
+
+### 2. Talzwerge
+*   **Lebensraum:** Leben oberirdisch in Tälern, oft am Fuße der Gebirge (z.B. **Narko** in Kettel oder **Fordergord** in Tiefenwald).
+*   **Kultur:** Etwas offener als ihre Bergbrüder. Sie betreiben auch Ackerbau, Handel und sind Schnittstelle zwischen Bingen und [[Rasse_Menschen]].
+*   **Eigenschaften:** Oft "gemütlicher" und weniger verbittert als Bergzwerge, aber genauso stur.
+
+## Herkunft und Götter
+Nach ihrem Glauben wurden die Dwarschim von ihrem Schöpfergott (oft **Angrosch** genannt, in Galadon teils mit Aspekten von **[[06_Ignis]]** oder **[[03_Bellum]]** identifiziert) aus dem Fels gehauen und mit Feuer beseelt.
+*   **Die Esse:** Das zentrale Symbol ihres Glaubens.
+*   **Schmiedekunst:** Gilt als heiliger Akt.
+
+## [[index]]
+*   **König:** Die Bingen werden oft von einem Zwergenkönig oder einem Ältestenrat regiert.
+*   **Clans:** Die Zugehörigkeit zum Clan ist identitätsstiftend.
+*   **Frauen:** Zwergenfrauen sind selten und werden streng behütet (oder sind für Außenstehende schwer von Männern zu unterscheiden, wie böse Zungen behaupten).
+
+## Beziehungen zu anderen Völkern
+*   **[[Rasse_Menschen]]:** Gute Handelsbeziehungen. Zwerge schätzen galadonisches Bier und Gold, [[Rasse_Menschen]] schätzen zwergische Waffen.
+*   **[[Rasse_Elfen]]:** "Baumkuschler". Man geht sich aus dem Weg. Zwerge finden Rasse_Elfen arrogant und schwächlich, [[Rasse_Elfen]] finden Zwerge gierig und grob.
+*   **[[Rasse_Orken]]:** Erbfeindschaft. Der Kampf um die Berge und Bingen tobt seit Urzeiten.
+*   **[[Rasse_Halblinge]]:** Manchmal belächelt, aber als Handelspartner für Nahrungsmittel geschätzt.
+
+## Verlinkte Themen
+*   [[Region Kettel|Narko]]
+*   [[Region Tiefenwald|Drachenschwinge]]
+*   [[Gott Bellum]]
+*   [[Gott Ignis]]

@@ -1,0 +1,38 @@
+name: "⚠️ Lore-Widerspruch melden"
+description: "Melde einen Widerspruch zwischen verschiedenen Quellen oder dem Wiki-Stand."
+title: "[LORE-KONFLIKT]: "
+labels: ["lore-conflict", "needs-verification"]
+body:
+  - type: input
+    id: entity_name
+    attributes:
+      label: "Betroffene Entität"
+      description: "Um welche Person, Ort oder Ereignis geht es?"
+      placeholder: "z.B. Baron von Ravel"
+    validations:
+      required: true
+  - type: textarea
+    id: conflict_description
+    attributes:
+      label: "Beschreibung des Widerspruchs"
+      description: "Was widerspricht sich hier?"
+      placeholder: "In Quelle A steht X, aber im Wiki steht Y..."
+    validations:
+      required: true
+  - type: input
+    id: sources
+    attributes:
+      label: "Quellennachweise"
+      description: "Links zur Homepage oder Namen der Boten-Artikel."
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "Schweregrad"
+      options:
+        - "Gering (Detailfehler)"
+        - "Mittel (Chronologie/Namen)"
+        - "Kritisch (Axiom-Bruch)"
+    validations:
+      required: true

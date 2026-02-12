@@ -1,0 +1,31 @@
+{
+    "name": "Orkisch",
+    "tag": "ork",
+    "rules": {
+        "phonetic": {
+            "s": "z",
+            "ch": "gh",
+            "ei": "ai",
+            "ie": "ee",
+            "er$": "är",
+            "en$": "änz",
+            "e$": "ä",
+            "w": "f",
+            "u": "uu"
+        }
+    },
+    "dictionary": {
+        "spitzohren": "Zpitzohrän",
+        "elfen": "Zpitzohrän",
+        "menschen": "haarlozän Affänz",
+        "zwerge": "Tözängitze",
+        "weicheier": "Waikhpixeiz",
+        "kaputt": "puth",
+        "nicht": "noargh",
+        "noch": "noargh",
+        "weglaufen": "fähklaufanz",
+        "funkelsteine": "Funkälsteinä",
+        "gold": "Funkälsteinä",
+        "edelsteine": "Funkälsteinä"
+    }
+}
