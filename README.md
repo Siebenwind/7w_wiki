@@ -1,67 +1,74 @@
-# Siebenwind Wiki
+# Siebenwind Wiki 2.0
 
-**Status:** Aktiv
+**Status:** Aktiv & Gepflegt
 **System:** Google Antigravity Agentic Framework
-**Ziel:** Konsolidierung von 20 Jahren Rollenspiel-Lore in ein strukturiertes Markdown-Wiki.
+**Ziel:** Konsolidierung von 20 Jahren Rollenspiel-Lore in ein strukturiertes, semantisch durchsuchbares Markdown-Wiki.
 
 ## 1. Projekt-Übersicht
 
-Dieses Projekt dient der Erstellung einer zentralen Wissensdatenbank ("Wiki") für die Welt von Siebenwind. Ein KI-Agent ("Oberarchivar") liest historische Quellen, verifiziert sie gegen den aktuellen Web-Kanon und erstellt standardisierte Markdown-Dateien.
+Dieses Projekt ist mehr als nur eine Sammlung von Textdateien. Es ist eine **intelligente Wissensdatenbank** für die Welt von Siebenwind. Ein KI-Agent ("Oberarchivar") liest historische Quellen, verifiziert sie gegen den aktuellen Web-Kanon und erstellt standardisierte Markdown-Dateien.
+
+Neu in v2.0 ist **Das Orakel**, ein RAG-System (Retrieval-Augmented Generation), das es ermöglicht, Fragen an die Lore zu stellen ("Wer ist der Gott des Feuers?") und Antworten aus tausenden von Dokumenten zu erhalten.
 
 ### Verzeichnisstruktur
+Das Projekt wurde für maximale Übersichtlichkeit reorganisiert:
 
-*   **`/.agent/`**: Die "Gehirn-Konfiguration" des Antigravity-Agenten.
-    *   `/skills/`: Definierte Fähigkeiten (Scanner, Web-Check, Wiki-Schreiben).
-    *   `/workflows/`: Definierte Prozesse (z.B. der RVW-Loop).
+*   **`/.agent/`**: Das "Gehirn" des Systems.
+    *   `/skills/`: Modulare Fähigkeiten (Oracle, Scanner, Linguist).
+    *   `/workflows/`: Definierte Arbeitsabläufe (z.B. `/ask`, `/audit`).
+    *   `/prompts/`: Persona-Definitionen (Oberarchivar, Archivar).
+    *   `/docs/`: Technische Dokumentation und Handover-Dossiers.
+*   **`/Logs/`**: Das Gedächtnis.
+    *   `MASTER_TASK_LIST.md`: Der zentrale Fortschrittsbalken.
+    *   `CHANGELOG.md`: Historie aller Änderungen.
+    *   `Konsistenzbericht_2026.md`: Offene Lore-Konflikte.
 *   **`/Quellen/`**: Das Rohmaterial (Alte Website-Dumps, Zeitungsartikel, Geschichten).
-    *   `/_ARCHIV_ORIGINAL/`: Archivierte Originaldateien (HTML, DOCX, etc.) nach der Markdown-Integration.
-*   **`/Siebenwind_Wiki/`**: Das Output-Verzeichnis (Das fertige Wiki).
-    *   `00_Fundament`: Götter, Magie, Zeit, **Personenregister**, **Glossar**.
-    *   `01_Pantheon`: Die Götterwelt.
-    *   `02_Geografie`: Länder und Orte.
-    *   `03_Gesellschaft`: Gilden, Adel und Rassen.
-    *   `04_Chronik`: Zeitgeschichte.
-    *   `05_Geschichte`: Wichtige Ereignisse, **Zeitstrahl**.
-    *   `06_Erzählungen`: Verarbeitete Spielergeschichten.
-    *   `07_Persoenlichkeiten`: Biografien von Personen.
-    *   `08_Bestiarium`: Kreaturen und Monster.
-    *   `09_Bibliothek`: Bücher und Schriften.
-    *   `10_Archiv`: Offizielle Erlasse und Gesetze.
-*   **`/.agent/docs/`**: Prozessuale Dokumentation.
-    *   `PROZESS_EVALUATION.md`: Analyse und Optimierung der Arbeitsweise.
-    *   `WORKFLOW_LORE_CONSISTENCY.md`: Best Practices für Konsistenz (v2.0).
+*   **`/Siebenwind_Wiki/`**: Das Output-Verzeichnis (Das fertige Produkt).
 
-## 2. Nutzung des Agenten
+## 2. Das Orakel (RAG System)
 
-Der Agent arbeitet autonom nach dem **RVW-Standard (Read-Verify-Write)**.
+Das Herzstück der Recherche ist die semantische Suche. Sie versteht Zusammenhänge, nicht nur Keywords.
 
-### Initialisierung
-Um den Agenten in einer neuen Session zu starten, nutze den Inhalt von `.agent/prompts/Kickoff.md`. Dies lädt alle Skills und Workflows.
+- **Technologie:** `jina-embeddings-v3` (8k Context) + `ChromaDB` + `BGE Re-Ranker`.
+- **Hardware:** Optimiert für Apple Silicon (MPS) mit Auto-Tuning.
 
-### Die Skills
-*   **Scanner:** Liest Quellen ein.
-*   **Kanon-Wächter:** Prüft Fakten auf `siebenwind.de`.
-*   **Wiki-Schmied:** Erstellt formattierte `.md` Dateien.
-*   **Hilfsskripte** (in `.agent/scripts/`):
-    *   `fix_nested_links.py`: Repariert verschachtelte Wiki-Links.
-    *   `standardize_filenames.py`: Passt Dateinamen an die Titel-Konvention an.
-    *   `source_integrator.py`: Integriert hochwertige Markdown-Konvertierungen und archiviert die Originale.
-    *   `reference_fixer.py`: Korrigiert Dateiendungen in internen Wiki-Links nach der Integration.
+**Nutzung (CLI):**
+```bash
+# Einfache Frage (Sucht im Wiki)
+.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Was weißt du über die Gilde der Diebe?"
 
-### Der Prozess (RVW-Loop) & Wahrheitshierarchie
-1.  **READ:** Agent liest eine Quelle (Priorität: `.md` > `.html`).
-2.  **VERIFY (Wahrheitshierarchie):**
-    *   **Level 1:** Lokal-Kanon (`/Hintergrund`) - Gesetz.
-    *   **Level 2:** Lokale Quelle (Bote/Story).
-    *   **Level 3:** Live-Web (`siebenwind.de`) - Verifikation.
-    *   **Level 4:** Eskalation an den Nutzer.
-3.  **WRITE:** Agent schreibt den Wiki-Artikel. Markiert Unsicherheiten mit `[UNGEKLÄRT]`.
+# Tiefenbohrung (Sucht in Roh-Quellen)
+.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Auktion Turek" --source quellen
+```
 
-## 3. Dokumentation für Maintainer
+**Setup:**
+Führe einmalig `bash .agent/skills/oracle/setup.sh` aus, um die Umgebung zu installieren.
 
-*   **`.agent/prompts/Archivar.md`**: Die Persona-Definition.
-*   **`.agent/docs/Projektdossier_Siebenwind_Chroniken.md`**: Die "Bibel" des Projekts (Axiome, Regeln).
-*   **`Logs/INVENTUR_QUELLEN.md`**: Eine halb-automatische Liste aller verfügbaren Quelldateien.
+## 3. Workflows für Agenten
+
+Der Agent arbeitet nicht chaotisch, sondern folgt strikten Protokollen:
+
+| Befehl | Funktion |
+|--------|----------|
+| **/ask** | Beantwortet Lore-Fragen. Nutzt das Orakel. Priorisiert Wiki > Quellen. |
+| **/audit** | Prüft Konsistenz, findet Duplikate und verwaiste Einträge. |
+| **/rvw_loop** | **Read-Verify-Write**. Der Standard-Zyklus zur Erstellung neuer Artikel. |
+| **/handover** | Erstellt ein Übergabeprotokoll für den nächsten Agenten. |
+
+## 4. Die Wahrheitshierarchie (Truth Hierarchy)
+
+Bei Widersprüchen gilt strikt folgende Priorität:
+1.  **Lokal-Kanon (#canon):** Ordner `/Hintergrund`. Das Gesetz.
+2.  **Siebenwind_Wiki:** Das verarbeitete, geprüfte Wissen.
+3.  **Lokale Quelle (#bote):** Historische Zeitungsartikel (können veraltet sein).
+4.  **Live-Web:** Zur Verifikation (Dritte Instanz).
+
+## 5. Dokumentation
+
+Für Entwickler und Maintainer:
+*   [Projektdossier (Oracle)](Logs/PROJEKT_DOSSIER_ORACLE.md): Technische Details zur KI-Suche.
+*   [Master Task List](MASTER_TASK_LIST.md): Was noch zu tun ist.
+*   [Handover Dossier](.agent/docs/handover_dossier.md): Statusbericht für Nachfolger.
 
 ---
-*Zuletzt aktualisiert: 12.02.2026*
+*Zuletzt aktualisiert: 12.02.2026 – Projektleitung: Antigravity*

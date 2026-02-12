@@ -75,10 +75,11 @@ def load_embedding_model():
     return model
 
 
-def load_reranker():
+def load_reranker(device: str = None):
     """Lädt den Cross-Encoder Re-Ranker."""
+    if device is None:
+        device = "mps" if sys.platform == "darwin" else "cpu"
     from FlagEmbedding import FlagReranker
-    device = "mps" if sys.platform == "darwin" else "cpu"
     reranker = FlagReranker(
         RERANKER_MODEL,
         use_fp16=True,
@@ -197,25 +198,84 @@ def format_result(hit: dict, index: int, raw: bool = False) -> str:
     return "\n".join(lines)
 
 
+def search(query: str, top_k: int = 5, source: str = "all", use_reranker: bool = True, device: str = None):
+    """Führt die Suche aus."""
+    if device is None:
+        device = "mps" if sys.platform == "darwin" else "cpu"
+
+    client = chromadb.PersistentClient(path=str(CHROMA_DIR))
+    
+    # Embedding generieren
+    # Wir laden das Modell kurzfristig (oder cachen es, wenn wir als Service laufen würden)
+    # Für CLI ist Laden pro Call okay (Jina v3 lädt schnell genug, ~2s)
+    model = load_embedding_model(device)
+    query_embedding = model.encode(
+        [query],
+        task="retrieval.query",
+        prompt_name="retrieval.query",
+    ).tolist()[0]
+    
+    # Collections durchsuchen
+    collections_to_search = (
+        ["quellen", "wiki"] if source == "all"
+        else [source]
+    )
+    
+    # Pre-Rerank: Mehr Ergebnisse holen, dann filtern
+    pre_rerank_n = PRE_RERANK_RESULTS if use_reranker else top_k
+    
+    all_hits = []
+    for source_key in collections_to_search:
+        coll_name = COLLECTION_MAP[source_key]
+        hits = search_collection(client, coll_name, query_embedding, pre_rerank_n)
+        all_hits.extend(hits)
+    
+    if not all_hits:
+        return []
+    
+    # Re-Ranking
+    if use_reranker and len(all_hits) > 1:
+        reranker = load_reranker(device)
+        all_hits = rerank_results(reranker, query, all_hits, top_k)
+    else:
+        # Nur nach Similarity sortieren und beschneiden
+        all_hits.sort(key=lambda x: x["similarity"], reverse=True)
+        all_hits = all_hits[:top_k]
+    
+    return all_hits
+
+
 def main():
+    # Config laden falls vorhanden
+    config_path = SCRIPT_DIR / "config.json"
+    default_device = "mps" if sys.platform == "darwin" else "cpu"
+    
+    if config_path.exists():
+        import json
+        try:
+            with open(config_path) as f:
+                cfg = json.load(f)
+                if "device" in cfg: default_device = cfg["device"]
+        except: pass
+
     parser = argparse.ArgumentParser(
         description="Das Orakel – Semantische Suche im Siebenwind-Archiv"
     )
-    parser.add_argument("query", nargs="?", help="Suchanfrage")
-    parser.add_argument("--source", choices=["quellen", "wiki", "all"],
-                        default="all", help="Welche Datenbank durchsucht wird")
-    parser.add_argument("--top", type=int, default=5,
-                        help="Anzahl der Ergebnisse (default: 5)")
-    parser.add_argument("--no-rerank", action="store_true",
-                        help="Ohne Re-Ranking (schneller)")
+    parser.add_argument("query", help="Suchanfrage")
+    parser.add_argument("--top", type=int, default=20,
+                        help="Anzahl Ergebnisse")
+    parser.add_argument("--source", choices=["wiki", "quellen", "all"],
+                        default="wiki", help="Welche Datenbank durchsucht wird (Default: wiki)")
+    parser.add_argument("--re-rank", action=argparse.BooleanOptionalAction, default=True,
+                        help="Re-Ranking aktivieren/deaktivieren")
     parser.add_argument("--raw", action="store_true",
-                        help="Rohtext-Ausgabe (für Pipes)")
+                        help="Gibt nur Raw-Text zurück")
+    parser.add_argument("--cpu", action="store_true", help="Erzwingt CPU")
     args = parser.parse_args()
     
-    if not args.query:
-        parser.print_help()
-        sys.exit(1)
-    
+    if args.cpu:
+        default_device = "cpu"
+        
     query = args.query
     start_time = time.time()
     
@@ -225,68 +285,35 @@ def main():
         print("╚═══════════════════════════════════════════════════╝")
         print(f"  Query: \"{query}\"")
         print(f"  Quelle: {args.source} | Top: {args.top} | "
-              f"Re-Rank: {'Nein' if args.no_rerank else 'Ja'}")
+              f"Re-Rank: {'Nein' if not args.re_rank else 'Ja'}")
     
-    # ChromaDB Client
-    import chromadb
-    client = chromadb.PersistentClient(path=str(CHROMA_DIR))
-    
-    # Embedding-Modell laden
     if not args.raw:
         print("\n  🧠 Lade Modell...", end="", flush=True)
-    model = load_embedding_model()
+        
+    start_time = time.time()
+    
+    # Suche ausführen
+    results = search(args.query, top_k=args.top, source=args.source, 
+                     use_reranker=args.re_rank, device=default_device)
+                     
     if not args.raw:
         print(" ✅")
-    
-    # Query einbetten (task='retrieval.query' nutzt den Query-LoRA-Adapter)
-    query_vec = model.encode(
-        [query],
-        task="retrieval.query",
-    ).tolist()[0]
-    
-    # Collections durchsuchen
-    collections_to_search = (
-        ["quellen", "wiki"] if args.source == "all"
-        else [args.source]
-    )
-    
-    # Pre-Rerank: Mehr Ergebnisse holen, dann filtern
-    pre_rerank_n = PRE_RERANK_RESULTS if not args.no_rerank else args.top
-    
-    all_hits = []
-    for source_key in collections_to_search:
-        coll_name = COLLECTION_MAP[source_key]
-        hits = search_collection(client, coll_name, query_vec, pre_rerank_n)
-        all_hits.extend(hits)
+        
+    if not results:
         if not args.raw:
-            print(f"  📊 {coll_name}: {len(hits)} Treffer")
-    
-    if not all_hits:
-        print("\n  ❌ Keine Ergebnisse gefunden.")
-        print("     Tipp: Führe zuerst 'build_index.py' aus, um den Index aufzubauen.")
+            print("\n  ❌ Keine Ergebnisse gefunden.")
+            print("     Tipp: Führe zuerst 'build_index.py' aus, um den Index aufzubauen.")
         sys.exit(0)
-    
-    # Re-Ranking
-    if not args.no_rerank and len(all_hits) > 1:
-        if not args.raw:
-            print("  🔍 Re-Ranking...", end="", flush=True)
-        reranker = load_reranker()
-        all_hits = rerank_results(reranker, query, all_hits, args.top)
-        if not args.raw:
-            print(" ✅")
-    else:
-        # Nur nach Similarity sortieren und beschneiden
-        all_hits.sort(key=lambda x: x["similarity"], reverse=True)
-        all_hits = all_hits[:args.top]
     
     # Ergebnisse ausgeben
     search_time = time.time() - start_time
     
     if not args.raw:
         print(f"\n  ⏱️  Suchzeit: {search_time:.1f}s")
-        print(f"  📋 Top-{len(all_hits)} Ergebnisse:")
+        print(f"  📋 Top-{len(results)} Ergebnisse:")
     
-    for i, hit in enumerate(all_hits, 1):
+    for i, hit in enumerate(results, 1):
+        # Raw-Flag an formatter durchreichen
         print(format_result(hit, i, raw=args.raw))
     
     if not args.raw:

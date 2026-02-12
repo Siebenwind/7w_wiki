@@ -27,8 +27,8 @@ Dieses Dokument ist das agentenübergreifende Gedächtnis des Projekts. Jeder Ag
 ## 🧠 Priorität 3b: Intelligente Wissensvernetzung (Phase 3)
 - [/] **Das Orakel** – RAG-System (Semantische Vektorsuche)
   - [x] Architektur & Modellauswahl (jina-embeddings-v3 + bge-reranker-v2-m3)
-  - [/] Setup, Indexierung & Verifikation
-  - [ ] Historiker-Workflow (Deep Lore Review)
+  - [x] Setup, Indexierung & Verifikation (Auto-Config via `benchmark_hardware.py`)
+  - [x] Historiker-Workflow (Deep Lore Review)
 
 ---
 *Zuletzt aktualisiert: 12.02.2026 durch Antigravity (Takeover Complete)*

@@ -28,11 +28,12 @@ Alles signifikanten technischen und inhaltlichen Änderungen werden hier festgeh
 - `.agent/skills/oracle/search.py`: Suchskript mit Zwei-Stufen-Pipeline (Embedding + Re-Ranking).
 - `.agent/skills/oracle/setup.sh`: Einrichtungs-Skript (venv, Dependencies, Modell-Download).
 
-### Technische Details
+- **Hardware-Optimierung:** `benchmark_hardware.py` (Auto-Tuner) für Jina v3 auf Apple Silicon.
+- **Learnings:** Jina v3 (8192 Context) nutzt Flash Attention, was auf MPS bei langen Texten (>2000 Chars) zu massivem Memory-Swapping führt. 
+  - **Lösung:** Batch-Size drastisch reduzieren (32 -> 2) für stabilen Betrieb auf 16GB RAM.
 - **Embedding:** `jinaai/jina-embeddings-v3` (570M Params, 8192 Token Kontext, LoRA-Adapter)
 - **Re-Ranker:** `BAAI/bge-reranker-v2-m3` (568M Params, Cross-Encoder)
 - **Chunking:** 2500 Zeichen, 300 Overlap, Paragraph-/Satz-aware Splitting
-- **GPU:** Apple MPS Beschleunigung
 
 ## [2026-02-12.3] - GitHub-Interaktivität & Automatisierung
 ### Hinzugefügt

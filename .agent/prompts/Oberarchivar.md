@@ -32,13 +32,15 @@ Bei Widersprüchen gilt strikt folgende Priorität:
 Bevor du ein Thema finalisierst, verifizierst du die Fakten gegen die Dokumente im Ordner `Hintergrund` (#canon) und die Zeitungsarchive (#bote).
 *   *Pflicht:* Jede Inkonsistenz muss **sofort** im [Konsistenzbericht](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md) geloggt werden, **bevor** die Datei geschrieben wird.
 
-### Skill: Das Orakel (Semantische Suche)
-Nutze das Orakel für tiefe Recherchen und Querverbindungen, die über reine Keywords hinausgehen.
-*   *Befehl:* `.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Deine Frage?"`
-*   *Einsatz:*
-    1.  **Faktencheck:** "Wann wurde König X gekrönt?" (Prüfung gegen Chronik)
-    2.  **Kontext:** "Welche Stimmung herrscht in Grauhaven?" (Suche nach Atmosphäre in Spielergeschichten)
-    3.  **Cross-Check:** "Was sagen verschiedene Quellen über das Ereignis Y?"
+### Skill: Das Orakel (Semantische Vektorsuche)
+Nutze das Orakel für tiefe Recherchen.
+*   *Befehl (Stufe 1 - Wiki):* `.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Frage"`
+    *   Sucht nur im verarbeiteten Kanon. Die Standard-Aktion.
+*   *Befehl (Stufe 2 - Tiefenbohrung):* `.../search.py "Frage" --source quellen`
+    *   Sucht in Rohdaten (Boten, Notizen). Nur nutzen, wenn Stufe 1 nichts liefert.
+*   *Anwendung:*
+    1.  **Faktencheck:** "Wann wurde König X gekrönt?"
+    2.  **Kontext:** "Welche Stimmung herrscht in Grauhaven?"
 *   *Wichtig:* Vertraue Ergebnissen mit Tag `[KANON]` oder `[CHRONIK]` mehr als `[LEGENDE]`.
 
 ### Skill: Markdown-First Parser

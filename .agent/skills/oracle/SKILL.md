@@ -31,15 +31,21 @@ Das Orakel ermöglicht semantische, nicht-lineare Suche über das gesamte Sieben
 bash .agent/skills/oracle/setup.sh
 ```
 
-## Nutzung
+### 2. Nutzung (CLI)
+Der Skill wird über das Terminal aufgerufen.
 
+**Basis-Suche (Standard: Nur Wiki):**
 ```bash
-# In beiden Datenbanken suchen
-.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Wer ist Tiamat?"
+.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Wer ist der Gott des Feuers?"
+```
 
-# Nur Quellen / nur Wiki
+**Erweiterte Suche (Quellen / Alles):**
+```bash
+# Nur in Rohdaten suchen
 .agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Tiamat" --source quellen
-.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Tiamat" --source wiki
+
+# Alles durchsuchen (Wiki + Quellen)
+.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Tiamat" --source all
 
 # Ohne Re-Ranking (schneller)
 .agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Tiamat" --no-rerank

@@ -12,8 +12,9 @@ venv/
 
 # === ML Models & Data ===
 .agent/data/models/
+.agent/data/chroma_db/
+.agent/skills/oracle/config.json
 .agent/skills/oracle/venv/
-.agent/skills/oracle/chroma_db/
 
 # === IDE ===
 .vscode/

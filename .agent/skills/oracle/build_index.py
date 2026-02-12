@@ -6,9 +6,9 @@
 # =============================================================================
 """
 Usage:
-    python3 build_index.py                  # Vollständige Neuindexierung
-    python3 build_index.py --source quellen # Nur Quellen neu indexieren
-    python3 build_index.py --source wiki    # Nur Wiki neu indexieren
+    python3 build_index.py                  # Standard (MPs, Batch-Size 4)
+    python3 build_index.py --cpu            # CPU erzwingen (falls MPS crasht/langsam)
+    python3 build_index.py --batch-size 8   # Größere Batches (wenn RAM reicht)
 """
 
 import os
@@ -293,7 +293,7 @@ def process_file(file_info: dict) -> list[dict]:
     return results
 
 
-def build_collection(client, collection_name: str, source_key: str, model):
+def build_collection(client, collection_name: str, source_key: str, model, batch_size: int):
     """Baut eine einzelne ChromaDB-Collection auf."""
     config = SOURCE_CONFIG[source_key]
     files = collect_files(config["paths"])
@@ -355,11 +355,14 @@ def build_collection(client, collection_name: str, source_key: str, model):
     
     # Batch-Embedding mit MPS-Beschleunigung
     # task='retrieval.passage' nutzt den passenden LoRA-Adapter
+    # Batch-Size wird vom Main durchgereicht, hier hartcodiert -> Fix nötig
+    # Wir übergeben jetzt batch_size an build_collection oder nutzen globales args?
+    # Besser: build_collection bekommt batch_size
     embeddings = model.encode(
         texts,
         task="retrieval.passage",
         show_progress_bar=True,
-        batch_size=32,
+        batch_size=batch_size,
     ).tolist()
     
     embed_time = time.time() - embed_start
@@ -390,9 +393,28 @@ def build_collection(client, collection_name: str, source_key: str, model):
 # =============================================================================
 
 def main():
+    # Config laden falls vorhanden
+    config_path = SCRIPT_DIR / "config.json"
+    default_device = "mps" if sys.platform == "darwin" else "cpu"
+    default_batch = 4
+    
+    if config_path.exists():
+        import json
+        try:
+            with open(config_path) as f:
+                cfg = json.load(f)
+                if "device" in cfg: default_device = cfg["device"]
+                if "batch_size" in cfg: default_batch = cfg["batch_size"]
+            print(f"📋 Config geladen: {default_device.upper()} (Batch: {default_batch})")
+        except Exception as e:
+            print(f"⚠️  Config-Fehler: {e}")
+
     parser = argparse.ArgumentParser(description="Das Orakel – Index Builder")
     parser.add_argument("--source", choices=["quellen", "wiki", "all"],
                         default="all", help="Welche Quelle indexiert werden soll")
+    parser.add_argument("--cpu", action="store_true", help="Erzwingt CPU statt MPS")
+    parser.add_argument("--batch-size", type=int, default=default_batch, 
+                        help=f"Batch-Größe (Default aus Config: {default_batch})")
     args = parser.parse_args()
     
     print("╔═══════════════════════════════════════════════════╗")
@@ -400,20 +422,26 @@ def main():
     print("╚═══════════════════════════════════════════════════╝")
     print(f"  Repo:        {REPO_ROOT}")
     print(f"  Chunk-Größe: {CHUNK_SIZE} Zeichen (~{CHUNK_SIZE // 7} Token)")
-    print(f"  Overlap:     {CHUNK_OVERLAP} Zeichen ({CHUNK_OVERLAP / CHUNK_SIZE * 100:.0f}%)")
     print(f"  Modell:      {EMBEDDING_MODEL}")
     
     # Modell laden
     print("\n  🧠 Lade Embedding-Modell...")
     from sentence_transformers import SentenceTransformer
     
-    device = "mps" if sys.platform == "darwin" else "cpu"
+    # Device-Logik: --cpu Flag sticht Config
+    if args.cpu:
+        device = "cpu"
+    else:
+        device = default_device
+        
+    print(f"  🔌 Device: {device.upper()} (Batch-Size: {args.batch_size})")
+
     model = SentenceTransformer(
         EMBEDDING_MODEL,
         trust_remote_code=True,
         device=device,
     )
-    print(f"  ✅ Modell geladen (Device: {device})")
+    print(f"  ✅ Modell geladen")
     
     # ChromaDB Client
     CHROMA_DIR.mkdir(parents=True, exist_ok=True)
@@ -435,6 +463,7 @@ def main():
             SOURCE_CONFIG[source_key]["collection"],
             source_key,
             model,
+            args.batch_size,
         )
         total_files += n_files
         total_chunks += n_chunks

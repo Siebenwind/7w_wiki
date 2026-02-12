@@ -15,8 +15,16 @@ Sobald dieser Workflow aufgerufen wird:
 ## 2. Bearbeitung von Anfragen
 Der Agent geht bei jeder Frage `/ask [Deine Frage]` wie folgt vor:
 
-### A. Analyse & Suche
-- Durchsuche alle relevanten Kategorien (Geografie, Pantheon, Chronik etc.).
+### A. Analyse & Suche (Eskalationsstufen)
+1.  **Stufe 1 (Wiki-Check):** Suche zuerst nur im verarbeiteten Wissen:
+    `.agent/skills/oracle/search.py "Frage" --source wiki`
+    *Ziel: Was gilt als verarbeiteter, aktueller Kanon?*
+
+2.  **Stufe 2 (Quellen-Tiefenbohrung):** Falls Stufe 1 keine oder widersprüchliche Ergebnisse liefert, suche in den Rohdaten:
+    `.agent/skills/oracle/search.py "Frage" --source quellen`
+    *Ziel: Was steht in den alten Boten, Notizen oder Archiven?*
+
+- Durchsuche ergänzend die relevanten Kategorien (Geografie, Pantheon, Chronik etc.) manuell.
 - Identifiziere primäre Quellen (#kanon) und sekundäre Quellen (#bote).
 
 ### B. Konsistenzcheck
