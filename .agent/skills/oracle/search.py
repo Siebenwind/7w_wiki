@@ -20,6 +20,19 @@ import argparse
 import time
 from pathlib import Path
 
+# --- Dependency-Check ---
+try:
+    import chromadb
+    from sentence_transformers import SentenceTransformer
+except ImportError:
+    print("❌ Dependencies nicht gefunden!")
+    print("   Bitte zuerst setup.sh in einem normalen Terminal ausführen:")
+    print("   bash .agent/skills/oracle/setup.sh")
+    print("")
+    print("   Danach mit dem venv-Python starten:")
+    print("   .agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py \"Suchbegriff\"")
+    sys.exit(1)
+
 # --- Pfade auflösen ---
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent.parent.parent

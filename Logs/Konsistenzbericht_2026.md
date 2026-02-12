@@ -36,8 +36,8 @@ Keine kritischen Widersprüche in der Erzählung gefunden, jedoch strukturelle D
 ## [GEOGRAFIE] Fehlende Orts-Stubs
 **Quelle:** Diverse Boten / [[Personenregister]]
 **Inhalt:** Zentrale Orte wie [[Brandenstein]], [[Falkensee]] und [[Greifenklipp]] werden verlinkt, existieren aber nicht in `/02_Geografie/`.
-**Status:** ⚠️ Offen
-**Aktion:** Erstellung von Basis-Stubs für die Hauptstädte und Siedlungen.
+**Status:** ✅ Fixiert (alle drei existieren in `02_Geografie/`)
+**Aktion:** Keine.
 
 ---
 ## [ENRICHMENT] Detail-Artikel erstellt
@@ -92,3 +92,32 @@ Keine kritischen Widersprüche in der Erzählung gefunden, jedoch strukturelle D
 - **Bote 190:** König Hilgorad lebt, Angriff auf Brandenstein, Zerstörung Westhever, Fürst Raziel zurück
 **Status:** ✅ Nachträglich dokumentiert
 **Aktion:** Keine.
+
+---
+## [INDEX] Die_Chronik Boten-Archiv unvollständig
+**Quelle:** [[Die_Chronik]] / `04_Chronik/`
+**Datum:** 2026-02-12 (Audit)
+**Inhalt:** Das Boten-Archiv in `Die_Chronik.md` listet nur Boten 120-175. Dateien für Boten 176-190 existieren im Verzeichnis, fehlen aber im Index.
+**Status:** ⚠️ Offen
+**Aktion:** Ergänzung der Boten 176-190 im Archiv-Index.
+
+---
+## [REGISTER] Duplikate im Personenregister
+**Quelle:** [[Personenregister]]
+**Datum:** 2026-02-12 (Audit)
+**Inhalt:** Folgende Personen haben doppelte Einträge mit abweichenden Rollen/Titeln:
+- `[[Waldemar_Delarie]]` — Zeile 100 (Gardehauptmann, #canon) & Zeile 129 (Gardewaibel, #bote)
+- `[[Paule_Bitterling]]` — Zeile 84 (Fischer/Turniersieger) & Zeile 251 (Turniersieger)
+- `[[Altumion_Eisenbruch]]` — Zeile 25 (Inselrichter, Dwarshim) & Zeile 247 (Inselrichter, Zwerg)
+- `[[Arman]]` — Zeile 27 (Ordensmitglied/"Hexer") & Zeile 257 (Legendenfigur/Märtyrer)
+**Status:** ⚠️ Offen
+**Aktion:** Duplikate zusammenführen (jeweils den informationsreicheren Eintrag behalten).
+
+---
+## [LÜCKE] Fehlende Boten-Ausgaben
+**Quelle:** `04_Chronik/`
+**Datum:** 2026-02-12 (Audit)
+**Inhalt:** Zwischen den vorhandenen Boten-Dateien fehlen folgende Ausgaben: **133, 134, 135, 137, 138, 139, 140**. Es ist unklar, ob diese Quellen nie integriert wurden oder ob sie nicht existieren.
+**Status:** ⚠️ Offen
+**Aktion:** Prüfen ob Quellen in `/Quellen/` vorliegen. Falls ja: integrieren. Falls nein: als Lücke dokumentieren.
+

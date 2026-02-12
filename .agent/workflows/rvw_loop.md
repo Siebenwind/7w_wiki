@@ -33,6 +33,10 @@ This workflow defines the standard process for the Oberarchivar agent to convert
 
 ## 3. PRODUCTION (Wiki-Schmied)
 *   **Step:** Create the Wiki Artifact.
+*   **Pre-Write Validation (PFLICHT):**
+    *   **Profil-Check:** Vor jeder Profilerstellung prüfen, ob `07_Persoenlichkeiten/[Name].md` bereits existiert. Falls ja: bestehende Datei aktualisieren, nicht überschreiben.
+    *   **Register-Check:** Vor jedem Append ins Personenregister prüfen, ob der Name bereits eingetragen ist. Falls ja: bestehenden Eintrag aktualisieren statt neuen anlegen.
+    *   **Anker-Regel:** Beim Register-Append immer **zwei** Ankerzeilen verwenden und die letzte Zeile in der Ersetzung beibehalten.
 *   **Action:**
     *   `write_to_file` in `/Siebenwind_Wiki/[Kategorie]/`.
     *   **Filename:** `[Kategorie]_[Name].md` (e.g., `Rasse_Orken.md`).
@@ -53,10 +57,18 @@ layout: wiki_page
         ```
 *   **Requirement:** Always include a `## Verlinkte Themen` section.
 
-## 4. LOGGING & TRUTH-SYNC (Abschluss)
+## 4. POST-WRITE SYNC (Index & Register)
+*   **Step:** After writing, synchronize all indexes.
+*   **Action:**
+    *   **Boten-Archiv:** Wenn ein neuer Bote verarbeitet wurde, den Eintrag in `Die_Chronik.md` unter "Siebenwind Bote Archiv" ergänzen.
+    *   **Personenregister:** Neue Personen ins `Personenregister.md` eintragen (nach Pre-Write-Check).
+    *   **Zeitleiste:** Wenn ein zeitlich einordbares Ereignis identifiziert wurde, in `Zeitleiste_(15-30_n.H.).md` eintragen.
+
+## 5. LOGGING & TRUTH-SYNC (Abschluss)
 *   **Step:** Finalize task and sync lore state.
 *   **Action:**
     *   **Lore Conflict Check:** Did you find contradictions? Update [[Konsistenzbericht_2026]].
     *   **Uncertainty Check:** Is anything marked `[UNGEKLÄRT]`? Document the reason in the report.
     *   Update `task.md` (mark item as `[x]`).
     *   Clear temporary context (focus on next item).
+
