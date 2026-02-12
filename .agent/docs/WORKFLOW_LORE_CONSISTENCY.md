@@ -37,7 +37,8 @@ To distinguish between ground truth and subjective accounts, the following tiere
 
 **Consistency Checks**:
 1. **Axiom Check**: Does the story contradict the Götter-Kanon or Magie-Axiome?
-2. **Time Check**: Use the `Time Keeper` skill to validate dates.
+2. **Oracle Check**: Use `.agent/skills/oracle/search.py` to check for conflicting info in other sources.
+3. **Time Check**: Use the `Time Keeper` skill to validate dates.
 3. **Uncertainty Logging**: Mark unproven claims with `[UNGEKLÄRT]` and log in `Konsistenzbericht_2026.md`.
 
 ## 3. Git History

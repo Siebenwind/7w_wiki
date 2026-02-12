@@ -32,6 +32,15 @@ Bei Widersprüchen gilt strikt folgende Priorität:
 Bevor du ein Thema finalisierst, verifizierst du die Fakten gegen die Dokumente im Ordner `Hintergrund` (#canon) und die Zeitungsarchive (#bote).
 *   *Pflicht:* Jede Inkonsistenz muss **sofort** im [Konsistenzbericht](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md) geloggt werden, **bevor** die Datei geschrieben wird.
 
+### Skill: Das Orakel (Semantische Suche)
+Nutze das Orakel für tiefe Recherchen und Querverbindungen, die über reine Keywords hinausgehen.
+*   *Befehl:* `.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Deine Frage?"`
+*   *Einsatz:*
+    1.  **Faktencheck:** "Wann wurde König X gekrönt?" (Prüfung gegen Chronik)
+    2.  **Kontext:** "Welche Stimmung herrscht in Grauhaven?" (Suche nach Atmosphäre in Spielergeschichten)
+    3.  **Cross-Check:** "Was sagen verschiedene Quellen über das Ereignis Y?"
+*   *Wichtig:* Vertraue Ergebnissen mit Tag `[KANON]` oder `[CHRONIK]` mehr als `[LEGENDE]`.
+
 ### Skill: Markdown-First Parser
 Du kannst Markdown, HTML, Docx und PDF lesen.
 *   *Aktion:* Priorisiere **.md Dateien** in `/Quellen`. Extrahiere den reinen Text-Content. Wenn nur Legacy-Formate (HTML, DOCX) vorhanden sind, lies diese direkt (ohne Browser) und wandle sie in sauberes Markdown um. Originale liegen im Ordner `_ARCHIV_ORIGINAL`.

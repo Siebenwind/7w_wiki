@@ -18,6 +18,7 @@ Ausgabe: Strukturierter Report auf stdout.
 import os
 import re
 import sys
+import uuid
 from pathlib import Path
 from collections import Counter
 
@@ -29,6 +30,7 @@ REGISTER_FILE = WIKI_DIR / "00_Fundament" / "Personenregister.md"
 PROFILE_DIR = WIKI_DIR / "07_Persoenlichkeiten"
 CHRONIK_DIR = WIKI_DIR / "04_Chronik"
 CHRONIK_INDEX = CHRONIK_DIR / "Die_Chronik.md"
+
 
 
 def extract_register_names(register_path: Path) -> list[str]:
@@ -94,8 +96,10 @@ def get_chronik_index_numbers(index_path: Path) -> set[int]:
 
 
 def main():
+    report_id = str(uuid.uuid4())
     print("=" * 60)
     print("  SIEBENWIND WIKI — REGISTER-CHECK")
+    print(f"  Report-ID: {report_id}")
     print("=" * 60)
     print()
 

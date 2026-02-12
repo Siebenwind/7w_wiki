@@ -50,6 +50,7 @@ pip install --upgrade pip --quiet
 pip install --quiet \
     chromadb \
     sentence-transformers \
+    "transformers==4.45.2" \
     torch \
     "FlagEmbedding>=1.2" \
     einops \
@@ -83,6 +84,8 @@ from FlagEmbedding import FlagReranker
 reranker = FlagReranker('BAAI/bge-reranker-v2-m3', use_fp16=True)
 print('✅ Re-Ranker geladen.')
 score = reranker.compute_score(['Wer ist Tiamat?', 'Tiamat ist die Göttin des Lebens.'])
+if isinstance(score, list):
+    score = score[0]
 print(f'   Test-Score: {score:.4f}')
 "
 

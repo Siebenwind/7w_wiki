@@ -52,6 +52,8 @@ Für jedes vom Skript oder manuell identifizierte verwaiste Profil:
 
 ## 5. Audit-Report
 - Erstelle einen datierten Audit-Report in `Logs/Audit_Report_[DATUM].md`.
+- **Pflichtfeld:** Jeder Report muss im Header eine eindeutige ID (UUID) tragen:
+  `**Report-ID:** [UUID aus register_check.py]`
 - Der Report dokumentiert **alle Prüfergebnisse** mit konkreten Zahlen und Tabellen.
 - Empfehlungen für Prozessverbesserungen werden im Report formuliert und in die betroffenen Workflows übernommen.
 
