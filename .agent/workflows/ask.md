@@ -25,6 +25,7 @@ Der Agent geht bei jeder Frage `/ask [Deine Frage]` wie folgt vor:
     *Ziel: Was steht in den alten Boten, Notizen oder Archiven?*
 
 - Durchsuche ergänzend die relevanten Kategorien (Geografie, Pantheon, Chronik etc.) manuell.
+- **NEU: Search-Fallback:** Falls der Oasis/Oracle-Skill (`search.py`) nicht funktional ist oder ein Timeout liefert, MUSS der Agent zwingend manuell mittels `grep_search` oder `find_by_name` in den Verzeichnissen suchen.
 - Identifiziere primäre Quellen (#kanon) und sekundäre Quellen (#bote).
 
 ### B. Konsistenzcheck

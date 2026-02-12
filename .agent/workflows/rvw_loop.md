@@ -24,7 +24,7 @@ This workflow defines the standard process for the Oberarchivar agent to convert
 *   **Action:**
     1.  **Level 1: Lokal-Kanon (Absolute Wahrheit):** Cross-check with `/Hintergrund/` (#canon). Diese Dokumente sind das unumstößliche Gesetz.
     2.  **Level 2: Lokale Quell-Integrität:** Prüfe die Konsistenz innerhalb der aktuell bearbeiteten Quelle (z.B. `/Bote/` oder `/Bibliothek/`).
-    3.  **Level 3: Live Web (Verifikation):** Nutze `search_web` mit `site:siebenwind.de [Entity Name]`, um Fakten zu ergänzen oder bei Unklarheiten im Archiv nachzuschlagen.
+    3.  **Level 3: Live Web (Verifikation):** Nutze `search_web` mit `site:siebenwind.de [Entity Name]`, um Fakten zu ergänzen oder bei Unklarheiten im Archiv nachzuschlagen. Falls automatisierte Suchen (Oasis/Oracle) fehlschlagen, nutze `grep_search` auf `/Hintergrund/` und `/Quellen/`.
     4.  **Level 4: User Escalation:** Wenn Informationen fehlen oder über alle Ebenen hinweg widersprüchlich sind, frage den Nutzer.
 *   **Decisions:**
     - **Conflict:** Mark as `[KONFLIKT]` and log in [[Konsistenzbericht_2026]].

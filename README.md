@@ -8,7 +8,10 @@
 
 Dieses Projekt ist mehr als nur eine Sammlung von Textdateien. Es ist eine **intelligente Wissensdatenbank** für die Welt von Siebenwind. Ein KI-Agent ("Oberarchivar") liest historische Quellen, verifiziert sie gegen den aktuellen Web-Kanon und erstellt standardisierte Markdown-Dateien.
 
-Neu in v2.0 ist **Das Orakel**, ein RAG-System (Retrieval-Augmented Generation), das es ermöglicht, Fragen an die Lore zu stellen ("Wer ist der Gott des Feuers?") und Antworten aus tausenden von Dokumenten zu erhalten.
+Neu in v2.0 ist **Das Orakel**, ein RAG-System (Retrieval-Augmented Generation), das es ermöglicht, Fragen an die Lore zu stellen ("Wer ist der Gott des Feuers?") und Antworten aus tausenden von Dokumenten zu erhalten. 
+
+> [!IMPORTANT]
+> **Status Oasis:** Die automatisierte Suche via Orakel ist derzeit volatil. Bei Timeouts oder Fehlern ist zwingend die **manuelle Suche** (grep, find) als Fallback zu nutzen.
 
 ### Verzeichnisstruktur
 Das Projekt wurde für maximale Übersichtlichkeit reorganisiert:
@@ -53,6 +56,7 @@ Der Agent arbeitet nicht chaotisch, sondern folgt strikten Protokollen:
 | **/ask** | Beantwortet Lore-Fragen. Nutzt das Orakel. Priorisiert Wiki > Quellen. |
 | **/audit** | Prüft Konsistenz, findet Duplikate und verwaiste Einträge. |
 | **/rvw_loop** | **Read-Verify-Write**. Der Standard-Zyklus zur Erstellung neuer Artikel. |
+| **/batch** | Konsolidierte Massenverarbeitung (Ingestion + RVW + Register-Update). |
 | **/handover** | Erstellt ein Übergabeprotokoll für den nächsten Agenten. |
 
 ## 4. Die Wahrheitshierarchie (Truth Hierarchy)
@@ -71,4 +75,4 @@ Für Entwickler und Maintainer:
 *   [Handover Dossier](.agent/docs/handover_dossier.md): Statusbericht für Nachfolger.
 
 ---
-*Zuletzt aktualisiert: 12.02.2026 – Projektleitung: Antigravity*
+*Zuletzt aktualisiert: 13.02.2026 – Projektleitung: Antigravity*

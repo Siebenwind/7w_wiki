@@ -30,6 +30,7 @@ To distinguish between ground truth and subjective accounts, the following tiere
 1.  **Lokal-Kanon (#canon):** Ordner `/Hintergrund/`. Axiomatic world laws (Absolute Truth).
 2.  **Lokale Quelle (#bote, #überlieferung, #perspektive):** The specific document being integrated.
 3.  **Web-Kanon (`siebenwind.de`):** Used for verification and filling gaps.
+    - **Note:** If Oasis search fails/times out, fallback to `grep_search` is mandatory.
 4.  **User Enquiry:** The final authority in case of irreconcilable conflicts.
 
 **Escalation Logic:**

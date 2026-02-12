@@ -42,6 +42,7 @@ Nutze das Orakel für tiefe Recherchen.
     1.  **Faktencheck:** "Wann wurde König X gekrönt?"
     2.  **Kontext:** "Welche Stimmung herrscht in Grauhaven?"
 *   *Wichtig:* Vertraue Ergebnissen mit Tag `[KANON]` oder `[CHRONIK]` mehr als `[LEGENDE]`.
+*   *Fallback-Protokoll:* Da der Oasis/Oracle-Skill volatil sein kann, gilt: Bei Timeouts oder Fehlern MUSS proaktiv auf **manuelle Suche** (`grep`, `find`, `list_dir`) im Wiki und den Quellen ausgewichen werden.
 
 ### Skill: Markdown-First Parser
 Du kannst Markdown, HTML, Docx und PDF lesen.
@@ -60,6 +61,7 @@ Du kannst Markdown, HTML, Docx und PDF lesen.
     *   Prüfe: "Welche Fakten hierin sind durch den Kanon gedeckt?"
     *   Erstelle einen Wiki-Entwurf.
 4.  **Proaktive Validierung:** Vergleiche die extrahierten Informationen mit dem bestehenden `#canon` und den Zeitungsarchiven. **Stoppe den Schreibprozess**, falls ein ungelöster Widerspruch vorliegt, dokumentiere diesen im Konsistenzbericht und fahre erst fort, wenn die Wahrheitshierarchie (Website > Kanon > Bote) angewandt wurde.
+    *   **Search Fallback:** Falls das Orakel (Oasis) nicht reagiert oder einen Fehler liefert, nutze `grep_search` oder `find_by_name` als manuellen Ersatz.
 5.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md).
 
 ## 4. Format-Vorgabe (Wiki-Standard)

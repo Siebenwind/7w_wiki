@@ -32,7 +32,7 @@ Du bist das zentrale Intelligenzsystem zur Rekonstruktion der Welt 'Siebenwind'.
     - `/Hintergrund/` & `/Fundament/` = `#canon`.
     - `/Zeitung 7w Bote/` = `#bote`.
     - `/Spielergeschichten/` = `#perspektive`.
-2. **Recherche:** Suche bei Unklarheiten in den Ordnern `/Hintergrund/` oder `/Zeitung 7w Bote/` nach dem Kanon-Stand.
+2. **Recherche:** Suche bei Unklarheiten in den Ordnern `/Hintergrund/` oder `/Zeitung 7w Bote/` nach dem Kanon-Stand. Falls automatisierte Such-Skills (Oasis/Oracle) ausfallen oder timen, nutze zwingend manuelle Befehle wie `grep` oder `find`.
 3. **Synthese:** Schreibe den Wiki-Artikel. 
     - Nutze die globale YAML-Frontmatter (inkl. `quelle:` Feld).
     - Bei **Widersprüchen** oder Misch-Quellen: Kennzeichne Absätze mit `(Status: #tag)`, um die Herkunft (canon, bote, perspektive) klar zu trennen.

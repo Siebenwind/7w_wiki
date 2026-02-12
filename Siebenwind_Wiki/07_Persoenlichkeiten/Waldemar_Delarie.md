@@ -6,35 +6,36 @@ category: Persönlichkeit
 
 # Waldemar Delarie
 
-**Titel:** Edelherr, Gardehauptmann / Putschist
+**Titel:** Edelherr, ehem. Gardehauptmann / Putschist
 **Epistemischer Status:** #canon / #bote
 **Zugehörigkeit:** Ersonter Bund / Haus Delarie
-**Zeitraum:** Aktiv (Bis ca. 28 n.H. als Hauptmann)
+**Zeitraum:** Aktiv (Bis ca. 28 n.H. im aktiven Dienst)
 
 ## Beschreibung
-Waldemar Delarie war über Jahre hinweg der militärische Kopf von [[Falkensee]]. Als Hauptmann der Garde ([[Finianswacht]]) und überzeugter Anhänger des Ersonter Bundes trieb er den Ausbau der Infrastruktur und die militärische Sicherung der Region voran.
-Im Jahr 21 n.H. (Bote 183) führte er einen Militärputsch gegen den Ersonter Rat an, den er des Hochverrats bezichtigte. Er gilt als stolzer, oft eigenwilliger Führer.
+**Waldemar Delarie** war über Jahre hinweg das militärische Gesicht von [[Falkensee]]. Als Hauptmann der Garde — oft respektvoll oder furchtvoll **Finianswacht** genannt — verkörperte er die eiserne Disziplin und den unbedingten Willen des Ersonter Bundes. Er gilt als stolzer, oft eigenwilliger Führer, dessen markante Stimme und kompromisslose Art die Atmosphäre in den Kasernen und auf den Wallanlagen von Falkensee prägten. Sein Blick, so sagen Augenzeugen, war stets auf die nächste Bedrohung gerichtet, während er das komplexe Spiel der politischen Ränke oft mit offener Verachtung strafte.
 
 ## Karriere & Timeline
-- **Frühe Jahre:** Übernahme der Hauptmannschaft von **Hauptmann Mengars**.
-- **21 n.H. (Bote 180):** Erhebung in den Adelsstand zum **Edlen** durch Ihre Durchlaucht.
-- **~25 n.H.:** Reise nach **Papin**, um Goldbarren zur Unterstützung von Wallenburg an den Ersonter Bund (Graf Gero) zu übergeben.
-- **~26-28 n.H. (Der Putsch):** In Waldemars Abwesenheit führt sein Stellvertreter **[[Hektor]]** eine gewaltsame Aktion gegen den Rat durch. Waldemar wird bei seiner Rückkehr der Mitwissenschaft beschuldigt und verliert seinen Rang.
-- **Späte Jahre:** Rückzug nach **[[Südfall]]**, wo er ein Haus bewohnt, aber politisch isoliert bleibt.
+- **Anfänge:** Übernahme der Hauptmannschaft von **Hauptmann Mengars** in einer Zeit des Umbruchs.
+- **21 n.H. (Bote 180):** Für seine Verdienste um die Sicherung des Lehens wurde er von Ihrer Durchlaucht [[Hannah_Berndorf]] in den Adelsstand zum **Edlen** erhoben.
+- **25 n.H. (Die Reise):** Waldemar begab sich auf eine riskante Mission nach **Papin**, um Goldbarren zur Unterstützung von Wallenburg an den Ersonter Bund (Graf Gero) zu übergeben. Sein Fehlen hinterließ ein Machtvakuum in Falkensee.
+- **21-22 n.H. (Der Putsch):** In Waldemars Abwesenheit (oder unter seiner Mitwisserschaft, je nach Quelle) führte sein Stellvertreter **[[Steinhauer]]** zusammen mit Teilen der Garde eine gewaltsame Aktion gegen den Ersonter Rat durch. Delarie wurde bei seiner Rückkehr der moralischen Urheberschaft bezichtigt. Er verlor seinen Rang und seinen politischen Einfluss.
+- **Späte Jahre:** Rückzug nach **[[Südfall]]**, wo er ein bescheidenes Haus bewohnt. Er gilt als gebrochener, aber nach wie vor loyaler Soldat, der die Geschicke der Insel nur noch aus der Distanz beobachtet.
 
-## Wirken
-- Bau der Straße nach [[Südfall]].
-- Herausgeber der "Ersonter Postille" (später verboten).
-- Sicherung des Friedens mit den [[Rasse_Orken]] durch diplomatische Missionen.
+## Wirken & Vermächtnis
+- **Infrastruktur:** Er forcierte den strategisch wichtigen Bau der befestigten Straße nach [[Südfall]].
+- **Propaganda:** Er fungierte als Herausgeber der "Ersonter Postille", eines Propagandablattes des Bundes, das später aufgrund "aufwiegelnder Tendenzen" verboten wurde.
+- **Diplomatie:** Trotz seiner Härte bewies er diplomatisches Geschick bei der Sicherung des Friedens mit den [[Rasse_Orken]], was die Nordgrenze Falkensees stabilisierte.
 
 ## Konflikte
-Waldemar hegte eine tiefe Feindschaft gegenüber dem Hochgeweihten **[[Custodias]]**, den er offen des Hochverrats und der Ketzerei beschuldigte.
+Seine tiefste Abneigung galt dem Hochgeweihten **[[Custodias]]**. Delarie sah in der religiösen Einmischung in militärische Belange eine Gefahr für die Effektivität der Garde und beschuldigte Custodias wiederholt der Ketzerei und des Hochverrats — Anschuldigungen, die letztlich zu seinem eigenen politischen Fall beitrugen.
 
+## Überlieferungen & Quellen
+> [!NOTE]
+> **Primärquellen:**
+> - [[Siebenwind_Bote_183]] (Sonderausgabe zum Militärputsch)
+> - [[Siebenwind_Bote_180]] (Dokumentation der Adelserhebung)
+> - [[Siebenwind_Bote_176]] (Erwähnung als Regierungsrat)
+> - [[Waldemars_Reise_Papin]] (Narrative Chronik seiner Expedition)
 
-## Überlieferungen
-- [[Zeitstrahl]]: Erwähnung in der Überlieferung.
-- [[Waldemar_Delaries_Reise_nach_Papin]]: Erwähnung in der Überlieferung.
-- [[Der_Putsch_von_Falkensee]]: Erwähnung in der Überlieferung.
-## Quellen
-- [[Adelskalender]]
-- [[Waldemars_Reise_Papin]] (Erzählung)
+---
+**Siehe auch:** [[Falkensee]], [[Der_Putsch_von_Falkensee]], [[Custodias]], [[Organisationsregister]]

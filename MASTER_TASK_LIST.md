@@ -31,4 +31,4 @@ Dieses Dokument ist das agentenübergreifende Gedächtnis des Projekts. Jeder Ag
   - [x] Historiker-Workflow (Deep Lore Review)
 
 ---
-*Zuletzt aktualisiert: 12.02.2026 durch Antigravity (Takeover Complete)*
+*Zuletzt aktualisiert: 13.02.2026 durch Antigravity (Batch-Processing & Fallback implemented)*
