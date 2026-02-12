@@ -1,7 +1,7 @@
 # Konsistenzbericht 2026 - Batch 120-145
 
 **Status:** ⚠️ Dokumentierte Lücken
-**Datum:** 2026-02-12
+**Datum:** 2026-02-12T20:00+01:00
 
 ## Prüfobjekte
 - Siebenwind Bote 120 - 145
@@ -63,7 +63,7 @@ Keine kritischen Widersprüche in der Erzählung gefunden, jedoch strukturelle D
 ---
 ## [REGISTER] Datenverlust durch fehlerhaftes Append-Muster
 **Quelle:** [[Personenregister]]
-**Datum:** 2026-02-12 (Session Bote 189-123)
+**Datum:** 2026-02-12T19:00+01:00 (Session Bote 189-123)
 **Inhalt:** Beim Hinzufügen neuer Einträge zum Personenregister wurde ein Ersetzungsmuster verwendet, das die letzte Zeile der vorherigen Charge **ersetzte** statt nach ihr einzufügen. Folgende 6 Einträge gingen verloren:
 - `[[Halvard]]` (Bote 188) — ersetzt durch Bote 189
 - `[[Orgolosch]]` (Bote 189) — ersetzt durch Bote 190
@@ -77,7 +77,7 @@ Keine kritischen Widersprüche in der Erzählung gefunden, jedoch strukturelle D
 ---
 ## [KOLLISION] Vorexistierende Profile bei Charge 3 (Bote 120-123)
 **Quelle:** `07_Persoenlichkeiten/`
-**Datum:** 2026-02-12
+**Datum:** 2026-02-12T19:30+01:00
 **Inhalt:** Beim Erstellen neuer Profile für Bote 120-123 stießen folgende Dateien auf bereits existierende Einträge (vermutlich aus einer früheren Bearbeitungs-Session):
 - `Paule_Bitterling.md`, `Vincent_Ebenstein.md`, `Altumion_Eisenbruch.md`, `Harwarn.md`, `Arman.md`
 - `Elares_Valjean.md` — überschrieben (standardisiert)
@@ -96,7 +96,7 @@ Keine kritischen Widersprüche in der Erzählung gefunden, jedoch strukturelle D
 ---
 ## [INDEX] Die_Chronik Boten-Archiv unvollständig
 **Quelle:** [[Die_Chronik]] / `04_Chronik/`
-**Datum:** 2026-02-12 (Audit)
+**Datum:** 2026-02-12T22:25+01:00 (Audit)
 **Inhalt:** Das Boten-Archiv in `Die_Chronik.md` listet nur Boten 120-175. Dateien für Boten 176-190 existieren im Verzeichnis, fehlen aber im Index.
 **Status:** ⚠️ Offen
 **Aktion:** Ergänzung der Boten 176-190 im Archiv-Index.
@@ -104,7 +104,7 @@ Keine kritischen Widersprüche in der Erzählung gefunden, jedoch strukturelle D
 ---
 ## [REGISTER] Duplikate im Personenregister
 **Quelle:** [[Personenregister]]
-**Datum:** 2026-02-12 (Audit)
+**Datum:** 2026-02-12T22:25+01:00 (Audit)
 **Inhalt:** Folgende Personen haben doppelte Einträge mit abweichenden Rollen/Titeln:
 - `[[Waldemar_Delarie]]` — Zeile 100 (Gardehauptmann, #canon) & Zeile 129 (Gardewaibel, #bote)
 - `[[Paule_Bitterling]]` — Zeile 84 (Fischer/Turniersieger) & Zeile 251 (Turniersieger)
@@ -116,7 +116,7 @@ Keine kritischen Widersprüche in der Erzählung gefunden, jedoch strukturelle D
 ---
 ## [LÜCKE] Fehlende Boten-Ausgaben
 **Quelle:** `04_Chronik/`
-**Datum:** 2026-02-12 (Audit)
+**Datum:** 2026-02-12T22:25+01:00 (Audit)
 **Inhalt:** Zwischen den vorhandenen Boten-Dateien fehlen folgende Ausgaben: **133, 134, 135, 137, 138, 139, 140**. Es ist unklar, ob diese Quellen nie integriert wurden oder ob sie nicht existieren.
 **Status:** ⚠️ Offen
 **Aktion:** Prüfen ob Quellen in `/Quellen/` vorliegen. Falls ja: integrieren. Falls nein: als Lücke dokumentieren.

@@ -1,5 +1,5 @@
 # Audit-Report: Konsistenz & Vollständigkeit
-**Datum:** 12.02.2026  
+**Datum:** 2026-02-12T22:25+01:00  
 **Durchgeführt von:** Antigravity (Audit-Workflow)  
 **Scope:** Gesamtes Wiki — Quellen-Abgleich, Register-Kreuzprüfung, Index-Validierung
 

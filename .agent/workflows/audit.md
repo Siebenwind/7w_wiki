@@ -41,6 +41,7 @@ Jeder Workflow MUSS bei Fund einer Inkongruenz folgenden Block im Bericht ergän
 ---
 ## [KATEGORIE] Titel des Konflikts
 **Quelle:** [[Wiki-Link]] / [Dateipfad]
+**Datum:** [ISO 8601 Zeitstempel, z.B. 2026-02-12T22:30+01:00]
 **Inhalt:** Kurze Beschreibung der Abweichung.
 **Status:** ⚠️ Offen
 **Aktion:** Was muss getan werden?
