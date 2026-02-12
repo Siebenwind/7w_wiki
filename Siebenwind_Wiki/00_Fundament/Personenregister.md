@@ -265,3 +265,5 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Sophalia]] | Mutter (vermisstes Kind) | [Bote 124] | 15 n.H. | #bote |
 | [[Rekar_Sturmklinge]] | Trophäenhändler | [Bote 125] | 15 n.H. | #bote |
 | [[Frau_von_Wankenbach]] | Gefreite ([[Schutzzug]]) | [Bote 125] | 15 n.H. | #bote |
+| [[Edomawyr]] | Primus ([[Graue_Garde]]) | [Bote 127] | 15 n.H. | #bote |
+| [[Ranis]] | Lehrmeister ([[Kriegerakademie]]) | [Bote 127] | 15 n.H. | #bote |

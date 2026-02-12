@@ -1,26 +1,29 @@
 ---
 layout: wiki_page
-title: XIII_Kronregiment
-category: Organisation
+title: XIII. Kronregiment
+category: Organisationen
 ---
 
 # XIII. Kronregiment
 
-**Typ:** Militärische Einheit / Kronregiment
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** Baronie [[Siebenwind]] / Krone
-**Zeitraum:** Neugründung 20 n.H.
 
-## Beschreibung
-Das **XIII. Kronregiment** (auch bekannt als das "Regiment der Vergessenen") wurde im Jahr 20 n.H. offiziell neu gegründet und vereidigt. Es dient als zentrale militärische Stütze der Baronie und untersteht direkt der Heermeisterin [[Mirian_Lasar]].
+## Überblick
+Das **XIII. Kronregiment** ist die zentrale militärische Einheit der Krone auf der Insel [[Siebenwind]]. Es dient dem Schutz der Bewohner, der Wahrung des königlichen Rechts und der Verteidigung gegen äußere und innere Feinde.
 
-## [[Geschichte]]
+## Geschichte und Status
+Das Regiment hat eine legendäre Vergangenheit und wurde nach den Verlusten im Vandrienkrieg auf Siebenwind endgültig neu aufgestellt. Trotz seiner vergleichsweise geringen Mannstärke gilt es als den anderen Kronregimentern des Festlands gleichrangig.
 
-### Neugründung (20 n.H.)
-Nach Jahren der Vernachlässigung wurde das Regiment im Zuge der militärischen Reformen von [[Siegfried_Steiner]] und [[Mirian_Lasar]] wieder zum Leben erweckt. Die Vereidigung fand in einer feierlichen Zeremonie statt, bei der die Soldaten ihre Treue zur Krone und zur Verteidigung Siebenwinds schworen.
+## Führung und Struktur
+Das Regiment untersteht der [[Ritterschaft_der_Sieben_Winde]], wobei die Heermeisterin ([[Mirian_Lasar]]) das Oberkommando innehat.
+*   **Bekannte Offiziere:**
+    *   Hauptmann [[Tionne]]
+    *   Leutnant [[Urs]]
+    *   Leutnant [[Quenian]] (befördert 20 n.H.)
+*   **Standort:** Hauptquartier ist die Kaserne in [[Falkensee]] sowie Präsenz in der Feste [[Finianswacht]].
 
-### Aufgaben
-Das Regiment ist für den Schutz der Hauptverkehrswege, die Unterstützung der Ritterorden und die Grenzsicherung gegen die Bedrohungen aus dem [[Dunkeltief]] verantwortlich.
+## Besonderheiten
+Die Vereidigung des Regiments erfolgt traditionell vor den Göttern und der Krone, wobei die Soldaten Gehorsam gegenüber dem König, der Ritterschaft und der [[Kronmark]] schwören.
 
 ---
-**Quellen:** [[Siebenwind_Bote_173]], [[Siebenwind_Bote_174]]
+**Siehe auch:** [[Königliche_Armee]], [[Falkensee]], [[Ritterschaft_der_Sieben_Winde]]
