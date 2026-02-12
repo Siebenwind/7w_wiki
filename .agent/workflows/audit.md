@@ -25,16 +25,37 @@ Dieser Workflow dient der regelmäßigen Überprüfung der Lore-Integrität und 
   - **Quellen-Lücken:** Vergleiche integrierte Boten gegen verfügbare Quellen in `/Quellen/Zeitung 7w Bote/`.
 - Validiere, ob vorgeschlagene Aktionen bereits in EXECUTION sind.
 
-## 3. Dokumentation des Status
+## 2b. Automatisierte Prüfung (Skript)
+- Führe `.agent/scripts/register_check.py` aus.
+- Das Skript liefert eine maschinenlesbare Übersicht über:
+  - Duplikate im Personenregister
+  - Verwaiste Profile (Datei existiert, kein Register-Eintrag)
+  - Registrierte Personen ohne Profildatei
+  - Boten-Lücken (Quellen vorhanden, aber nicht integriert)
+  - Index-Lücken (Dateien vorhanden, aber nicht in `Die_Chronik.md`)
+- Nutze die Skript-Ausgabe als Grundlage für den Audit-Report.
+
+## 3. Orphan-Resolution (Verwaiste Profile)
+Für jedes vom Skript oder manuell identifizierte verwaiste Profil:
+1. **Öffne die Datei** und prüfe den Inhalt.
+2. **Provenienz prüfen:**
+   - Hat die Datei ein `quelle:`-Feld im Frontmatter? → Quelle verifizieren.
+   - Fehlt `quelle:`? → Inhalt gegen bekannte Boten und Kanon-Quellen abgleichen.
+3. **Entscheide:**
+   - **Quelle identifiziert:** Profil ins Personenregister eintragen, `quelle:` ergänzen.
+   - **Quelle unklar, Inhalt plausibel:** Profil registrieren mit Status `#überlieferung` und Vermerk `[QUELLE UNKLAR]`.
+   - **Inhalt nicht zuordenbar:** Eintrag im Konsistenzbericht als `[ORPHAN]` + `⚠️ Offen` loggen.
+
+## 4. Dokumentation des Status
 - Aktualisiere den Status im Bericht von `[Offen]` zu `[Fixiert]` oder `[In Arbeit]`.
 - Ergänze neue Fundstellen, die während anderer Workflows (z.B. `/ask` oder `/wiki_process`) automatisch dort abgelegt wurden.
 
-## 4. Audit-Report
+## 5. Audit-Report
 - Erstelle einen datierten Audit-Report in `Logs/Audit_Report_[DATUM].md`.
 - Der Report dokumentiert **alle Prüfergebnisse** mit konkreten Zahlen und Tabellen.
 - Empfehlungen für Prozessverbesserungen werden im Report formuliert und in die betroffenen Workflows übernommen.
 
-## 5. Vollständigkeits-Vorgabe
+## 6. Vollständigkeits-Vorgabe
 Jeder Workflow MUSS bei Fund einer Inkongruenz folgenden Block im Bericht ergänzen:
 
 ```markdown
@@ -47,7 +68,7 @@ Jeder Workflow MUSS bei Fund einer Inkongruenz folgenden Block im Bericht ergän
 **Aktion:** Was muss getan werden?
 ```
 
-## 6. Audit-Zyklen
+## 7. Audit-Zyklen
 Führe diesen Workflow wöchentlich oder nach Abschluss eines großen Ingestion-Batches aus, um die Qualität des Wikis zu sichern.
 
 #audit #qualität #konsistenz

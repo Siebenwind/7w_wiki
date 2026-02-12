@@ -267,3 +267,5 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Frau_von_Wankenbach]] | Gefreite ([[Schutzzug]]) | [Bote 125] | 15 n.H. | #bote |
 | [[Edomawyr]] | Primus ([[Graue_Garde]]) | [Bote 127] | 15 n.H. | #bote |
 | [[Ranis]] | Lehrmeister ([[Kriegerakademie]]) | [Bote 127] | 15 n.H. | #bote |
+| [[Falk_Steinhauer]] | Baumeister ([[Falkensee]]) | [Bote 128] | 15 n.H. | #bote |
+| [[Anijane_Salmoranes]] | Finanzverwalter/in | [Bote 128] | 15 n.H. | #bote |

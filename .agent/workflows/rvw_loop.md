@@ -47,15 +47,25 @@ layout: wiki_page
         title: [Entity Name]
         category: [Category]
         status: [Canon/Legend]
-        quelle: [Path to MD source in /Quellen]
+        quelle: ../../Quellen/[Unterordner]/[Dateiname].md
         ---
         # [Title]
         
         **Epistemischer Status:** #[tag]
 
-        ... Narrative description (motivations, atmosphere, social status) ...
+        ... Narrative description ...
+
+        ## Verlinkte Themen
+        *   [[Verwandter_Artikel]]
+
+        ## Referenzen
+        - Primärquelle: [Quellenname](../../Quellen/[Unterordner]/[Dateiname].md)
+        - Siehe auch: [Verwandter Boten-Artikel](../04_Chronik/Siebenwind_Bote_XXX.md)
         ```
-*   **Requirement:** Always include a `## Verlinkte Themen` section.
+*   **Pflichtfelder:**
+    *   `## Verlinkte Themen` — Wiki-interne Querverweise.
+    *   `## Referenzen` — Quellenangaben mit **relativen Pfaden**, wie bei akademischen Publikationen.
+*   **Quelle-Regel:** Das `quelle:` Frontmatter-Feld MUSS einen **relativen Pfad** zur Urquelle enthalten (z.B. `../../Quellen/Zeitung 7w Bote/Siebenwind Bote 123.md`). Absolute Pfade sind verboten.
 
 ## 4. POST-WRITE SYNC (Index & Register)
 *   **Step:** After writing, synchronize all indexes.
@@ -63,6 +73,7 @@ layout: wiki_page
     *   **Boten-Archiv:** Wenn ein neuer Bote verarbeitet wurde, den Eintrag in `Die_Chronik.md` unter "Siebenwind Bote Archiv" ergänzen.
     *   **Personenregister:** Neue Personen ins `Personenregister.md` eintragen (nach Pre-Write-Check).
     *   **Zeitleiste:** Wenn ein zeitlich einordbares Ereignis identifiziert wurde, in `Zeitleiste_(15-30_n.H.).md` eintragen.
+    *   **Boten-Referenzen:** Am Ende des verarbeiteten Boten-Artikels (in `04_Chronik/`) eine `## Derivate` Sektion ergänzen, die alle aus diesem Boten erstellten Wiki-Artikel auflistet.
 
 ## 5. LOGGING & TRUTH-SYNC (Abschluss)
 *   **Step:** Finalize task and sync lore state.
@@ -71,4 +82,5 @@ layout: wiki_page
     *   **Uncertainty Check:** Is anything marked `[UNGEKLÄRT]`? Document the reason in the report.
     *   Update `task.md` (mark item as `[x]`).
     *   Clear temporary context (focus on next item).
+
 
