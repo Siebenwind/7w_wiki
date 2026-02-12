@@ -269,3 +269,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Ranis]] | Lehrmeister ([[Kriegerakademie]]) | [Bote 127] | 15 n.H. | #bote |
 | [[Falk_Steinhauer]] | Baumeister ([[Falkensee]]) | [Bote 128] | 15 n.H. | #bote |
 | [[Anijane_Salmoranes]] | Finanzverwalter/in | [Bote 128] | 15 n.H. | #bote |
+| [[Lario_Anderus]] | Königlicher Richter | [Bote 130] | 16 n.H. | #bote |
+| [[Kiraya_Rabenschlag]] | Leutnant ([[Lehensbanner]]) | [Bote 130] | 16 n.H. | #bote |
+| [[Kurga]] | Dorfoberster ([[Greifenklipp]]) | [Bote 130] | 16 n.H. | #bote |
+| [[Sarthas_Glaser]] | Gesuchter (Schmähungen) | [Bote 130] | 16 n.H. | #bote |

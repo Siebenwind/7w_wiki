@@ -1,6 +1,25 @@
 # Changelog: Siebenwind-Wiki-Rekonstruktion
 
-Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
+Alles signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
+
+## [2026-02-12.5] - Konsistenz-Offensive & Workflow-Härtung
+### Hinzugefügt
+- `.agent/scripts/register_check.py`: Automatisiertes Audit-Tool (findet Duplikate, Orphans, Boten-Lücken, Index-Lücken).
+- `Logs/Audit_Report_2026-02-12.md`: Detaillierter Bestandsbericht der Register-Integrität.
+
+### Geändert
+- **Workflow-Härtung (`rvw_loop` & `wiki_schmied`)**:
+    - **Pre-Write Validation:** Pflicht-Check auf Duplikate vor Erstellung.
+    - **Post-Write Sync:** Automatische Index-Aktualisierung (Chronik & Register).
+    - **Relative Pfade:** `quelle:`-Feld im Frontmatter erlaubt nur noch relative Pfade.
+    - **Referenzen:** Neue Pflicht-Sektion `## Referenzen` mit akademischer Zitierweise.
+- **Audit-Prozess**:
+    - ISO-8601 Zeitstempel-Pflicht für alle Berichte.
+    - Neue "Orphan-Resolution" Phase für verwaiste Profile.
+
+### Ergebnisse
+- Audit identifizierte 9 echte Personenduplikate, 22 Orphans, 10 fehlende Boten (Quellen existieren) und 15 Index-Lücken.
+- "Orts-Stubs" Issue (Brandenstein, Falkensee, Greifenklipp) final gelöst.
 
 ## [2026-02-12.4] - Das Orakel (RAG-System)
 ### Hinzugefügt

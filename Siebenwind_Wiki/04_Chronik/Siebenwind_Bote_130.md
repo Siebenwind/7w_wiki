@@ -1,44 +1,42 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 130
+title: Siebenwind Bote 130
 category: Chronik
 ---
 
-# [[Siebenwind]] Bote 130
+# Siebenwind Bote 130
 
 **Epistemischer Status:** #bote
+**Datum:** 21. Oner 16 n.H.
+**Redaktion:** SvS / GN / B.
 
-## Ehrung des Dorfes [[Greifenklipp]] durch den Baron
-**Location:** [[Greifenklipp]].
-**Thema:** Vorbildliche Zusammenarbeit der Völker.
-**Inhalt:** Das Dorf [[Greifenklipp]] wird als Zeichen für den Wiederaufbau und vorbildliche Völkerverständigung (insb. der [[Nortraven]]) gelobt.
-**Autor:** *SvS*
+## Schlagzeilen
 
-## Kopfgeld ausgesetzt
-**Persona:** [[Sarthas_Glaser]], [[Steiner]], [[Ritter_von_Weidenbach]].
-**Thema:** Kopfgeldjagd.
-**Inhalt:** Die Häuser von Steiner und von Weidenbach setzen 5000 Dukaten auf die Ergreifung des Mörders [[Sarthas_Glaser]] aus. Er ist für vogelfrei erklärt.
-**Autor:** *SvS*
+### Ritterschaft & Adel
+- **Ritterschlag:** [[Fedral_Lavid]] (ehem. Knappe des Hauses von Steiner) zum Ritter geschlagen.
+- **Hochmeisterwechsel:** [[Agranor_von_Eahlstan]] (Hochmeister des Greifen) legt sein Amt nieder und verlässt die Insel. [[Athos]] wird neuer Hochmeister der Greifen.
+- **Ordungswechsel:** [[Siegfried_von_Steiner]] wechselt vom Falkenorden in den Greifenorden. Hochmeister der Falken bleibt vakant.
 
-## Anschlag auf die Wache und Auflösung des Handelsbundes
-**Persona:** [[Brandeis]] (verstorben), [[Woran_Lebensmueh]].
-**Thema:** Mord und Auflösung.
-**Inhalt:** Ein Mörder schoss mit einem Glasbolzen auf den Wachmann [[Brandeis]], der verstarb. Der stellvertretende Kastellan [[Woran_Lebensmüh]] verschwand spurlos. Der Handelsbund wurde aufgelöst.
-**Autor:** *GN*
+### Recht & Gesetz
+- **Neues Recht:** Neue Gesetze (§1-§10) für Freie und Bürger verkündet. Richter: [[Lario_Anderus]]. Das alte "Iuribus de Siebenwind" gilt nur noch für den Adel.
+- **Beamtenbriefe:** Alle bestehenden Beamtenbriefe nach dem 30. Oner ungültig; Neuerteilung nur durch Ritterschaft oder Lehensgericht.
 
-## Ein Wort über Schelme
-**Persona:** [[Benion_Sandelholz]] (Hochwürden).
-**Thema:** Schelmentum und Religion.
-**Inhalt:** Plädoyer für einen gewaltfreien Umgang mit Schelmen, deren Ziel es ist, Freude zu verbreiten.
-**Autor:** *SvS*
+### Militär
+- **Patrouille Falkensee:** Neue Einheit unter Fähnrich [[Vincent_Ebenstein]]. Taktischer Offizier: Leutnant [[Kiraya_Rabenschlag]].
 
-## Aufruf zur Unterstützung der Bibliothek zu [[Siebenwind]]
-**Persona:** [[Aldaro]] (Bibliotheksleiter).
-**Thema:** Bibliothekswesen.
-**Inhalt:** Aufruf zur Unterstützung der Bibliothek; jeder Spender wird in einem Buch in der Eingangshalle verewigt.
-**Autor:** *SvS*
+### Handel & Wirtschaft
+- **Handelsbund aufgelöst:** Am 16. Sekar 15 n.H. wurde Wachmann **Brandeis** im Handelsbundhaus mit einem Glasbolzen ermordet. [[Woran_Lebensmueh]] (stellv. Kastellan) verschwand spurlos. Der Handelsbund existiert nicht mehr.
 
-## Die Kleine Fee, des Gedichtes zweiter Teil
-**Persona:** [[M._Pfahl]] (Dichterin).
-**Inhalt:** Zweiter Teil des Gedichts.
-**Autor:** *B.*
+### Greifenklipp
+- **Preisvergabe:** Baron [[Baron_von_Gerdenwald|Friedward von Gerdenwald]] übergibt persönlich 50.000 Dukaten und 5 Fässer Met an Dorfobersten [[Kurga]] (Nortraven). Greifenklipp hat als erstes Dorf 30+ Einwohner aus 3 Völkern.
+
+### Kopfgeld
+- **Sarthas Glaser:** Je 5.000 Dukaten Kopfgeld von den Häusern Steiner und Weidenbach auf [[Sarthas_Glaser]] (Schmähungen gegen Ritter).
+
+### Kultur & Bildung
+- **Bibliothek:** Bibliothekar [[Aldaro]] plant Bibliotheksgründung auf Siebenwind.
+- **Schelme:** Hochwürden [[Benion_Sandelholz]] (Geweihter) verteidigt die Schelme als treue Diener Vitamas.
+
+---
+**Quellen:** [[Siebenwind_Bote_130]] (Original)
+**Siehe auch:** [[Chronik]], [[Handelsbund]], [[Greifenklipp]], [[Falkensee]]

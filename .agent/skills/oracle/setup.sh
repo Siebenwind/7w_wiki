@@ -29,6 +29,11 @@ done
 echo "🐍 Python: $($PYTHON_BIN --version)"
 
 # --- 2. Venv erstellen ---
+if [ -d "$VENV_DIR" ] && [ ! -f "$VENV_DIR/bin/activate" ]; then
+    echo "⚠️  Venv Verzeichnis existiert, aber scheint defekt zu sein. Lösche..."
+    rm -rf "$VENV_DIR"
+fi
+
 if [ ! -d "$VENV_DIR" ]; then
     echo "📦 Erstelle Virtual Environment..."
     "$PYTHON_BIN" -m venv "$VENV_DIR"

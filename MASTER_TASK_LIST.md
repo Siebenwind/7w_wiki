@@ -14,13 +14,15 @@ Dieses Dokument ist das agentenübergreifende Gedächtnis des Projekts. Jeder Ag
 ## 🟡 Priorität 2: Inhalte & Ingestion (Massenverarbeitung)
 - [/] Integration der verbleibenden 150+ Quellen (Status `Pending` in [[INVENTUR_QUELLEN.md]])
 - [x] Erstellung der Geografie-Hauptseiten: [[Brandenstein]], [[Falkensee]], [[Greifenklipp]]
-- [ ] Aufbau eines zentralen **Boten-Archivs** (Index der Chronik)
+- [ ] **Boten-Integration:** 10 fehlende Ausgaben (133-140, 191-193) einpflegen (Quellen vorhanden)
+- [ ] **Index-Korrektur:** `Die_Chronik.md` vervollständigen (Boten 176-190 fehlen im Index)
 - [ ] Laufende Register-Synchronisation (Personen, Organisationen, Bestiarium)
 
 ## 🔴 Priorität 3: Qualität & Politur
+- [ ] **Orphan-Resolution:** 22 verwaiste Profile zuordnen (siehe Audit-Report)
 - [ ] Review aller Stubs auf "Roman-Qualität" (Atmosphäre, Motivation, Kontext)
 - [ ] Überprüfung der bi-direktionalen Verlinkung (Backlinks unter `## Überlieferungen`)
-- [ ] Bereinigung des [[Konsistenzbericht_2026.md]] (Status `⚠️ Offen` abarbeiten)
+- [x] Bereinigung des [[Konsistenzbericht_2026.md]] (Status `⚠️ Offen` in Audit-Prozess überführt)
 
 ## 🧠 Priorität 3b: Intelligente Wissensvernetzung (Phase 3)
 - [/] **Das Orakel** – RAG-System (Semantische Vektorsuche)
