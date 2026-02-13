@@ -299,19 +299,26 @@ def get_indexed_files(collection) -> dict[str, float]:
     """Liest alle bereits indexierten Dateien + deren mtime aus der Collection."""
     indexed = {}
     try:
-        # Wir holen ALLE Metadaten, aber nur die 'source' und 'mtime' Felder
-        # ChromaDB hat kein 'distinct', also holen wir alles und deduplizieren
-        result = collection.get(
-            include=["metadatas"],
-        )
-        if result and result["metadatas"]:
-            for meta in result["metadatas"]:
-                source = meta.get("source", "")
-                mtime = meta.get("mtime", 0)
-                if source and source not in indexed:
-                    indexed[source] = float(mtime)
-    except Exception:
-        pass
+        count = collection.count()
+        if count == 0:
+            return {}
+            
+        # Paging, da .get() ein Limit hat (meist 10 oder 100)
+        batch_size = 5000
+        for offset in range(0, count, batch_size):
+            result = collection.get(
+                include=["metadatas"],
+                limit=batch_size,
+                offset=offset
+            )
+            if result and result["metadatas"]:
+                for meta in result["metadatas"]:
+                    source = meta.get("source", "")
+                    mtime = meta.get("mtime", 0)
+                    if source and source not in indexed:
+                        indexed[source] = float(mtime)
+    except Exception as e:
+        print(f"  ⚠️  Fehler beim Lesen des Index-Status: {e}")
     return indexed
 
 
@@ -435,7 +442,8 @@ def build_collection(client, collection_name: str, source_key: str, model, batch
         )
         
         total_new_chunks += len(chunks)
-        _print_progress(idx, len(files_to_process), file_info, len(chunks), start_time, "gespeichert")
+        _print_progress(idx, len(files_to_process), file_info, len(chunks), 
+                        start_time, total_new_chunks)
     
     print()  # Neue Zeile nach Fortschrittsbalken
     
@@ -453,24 +461,37 @@ def build_collection(client, collection_name: str, source_key: str, model, batch
 
 
 def _print_progress(idx: int, total: int, file_info: dict, n_chunks: int, 
-                    start_time: float, status: str):
+                    start_time: float, total_chunks: int):
     """Zeigt den Fortschrittsbalken an."""
     elapsed = time.time() - start_time
-    if idx > 1 and elapsed > 0:
-        avg_time = elapsed / (idx - 1)
-        remaining = avg_time * (total - idx)
-        eta = f"~{remaining:.0f}s"
-    else:
-        eta = "..."
     
-    bar_width = 30
+    # Durchsatz
+    throughput = total_chunks / elapsed if elapsed > 0 else 0
+    
+    # ETA als HH:MM:SS
+    if idx > 1 and elapsed > 0:
+        avg_time = elapsed / idx
+        remaining = avg_time * (total - idx)
+        h, rem = divmod(int(remaining), 3600)
+        m, s = divmod(rem, 60)
+        eta = f"{h}:{m:02d}:{s:02d}" if h else f"{m}:{s:02d}"
+    else:
+        eta = "--:--"
+    
+    # Vergangene Zeit als HH:MM:SS
+    eh, erem = divmod(int(elapsed), 3600)
+    em, es = divmod(erem, 60)
+    elapsed_str = f"{eh}:{em:02d}:{es:02d}" if eh else f"{em}:{es:02d}"
+    
+    bar_width = 25
     progress = idx / total
     filled = int(bar_width * progress)
     bar = "━" * filled + "╺" + "─" * (bar_width - filled - 1)
     
-    chunk_info = f"({n_chunks} {status})" if n_chunks else f"({status})"
-    print(f"\r  [{idx}/{total}] {file_info['path'].name[:35]:<35} {chunk_info:<20} "
-          f"{bar} {progress*100:5.1f}% | {elapsed:.0f}s | ETA {eta}", end="", flush=True)
+    print(f"\r  [{idx}/{total}] {bar} {progress*100:5.1f}% | "
+          f"{elapsed_str} | ETA {eta} | {throughput:.1f} ch/s | "
+          f"{total_chunks} gespeichert | {file_info['path'].name[:30]}", 
+          end="", flush=True)
 
 
 # =============================================================================
@@ -483,16 +504,16 @@ def main():
     default_device = "mps" if sys.platform == "darwin" else "cpu"
     default_batch = 4
     
-    if config_path.exists():
-        import json
-        try:
+    try:
+        if config_path.exists():
+            import json
             with open(config_path) as f:
                 cfg = json.load(f)
                 if "device" in cfg: default_device = cfg["device"]
                 if "batch_size" in cfg: default_batch = cfg["batch_size"]
             print(f"📋 Config geladen: {default_device.upper()} (Batch: {default_batch})")
-        except Exception as e:
-            print(f"⚠️  Config-Fehler: {e}")
+    except Exception as e:
+        print(f"⚠️  Config-Pfad {config_path} nicht lesbar oder fehlerhaft (Permission oder Format): {e}")
 
     parser = argparse.ArgumentParser(description="Das Orakel – Index Builder")
     parser.add_argument("--source", choices=["quellen", "wiki", "all"],
@@ -529,8 +550,11 @@ def main():
                 count = coll.count()
                 indexed = get_indexed_files(coll)
                 print(f"     {coll_name}: {count} Chunks aus {len(indexed)} Dateien")
-            except Exception:
-                print(f"     {coll_name}: ❌ Nicht vorhanden")
+            except Exception as e:
+                if "does not exist" in str(e):
+                    print(f"     {coll_name}: ❌ Nicht vorhanden")
+                else:
+                    print(f"     {coll_name}: ❌ Fehler beim Lesen: {e}")
         sys.exit(0)
     
     # Modell laden
