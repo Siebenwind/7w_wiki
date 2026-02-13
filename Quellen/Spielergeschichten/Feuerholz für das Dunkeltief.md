@@ -3,7 +3,7 @@ layout: wiki_page
 title: Feuerholz für das Dunkeltief
 category: Erzählung
 uuid: AE014005-DCEA-4A8E-87E7-9E81EF7AC658
-status: Perspektive (Level 4)
+status: #perspektive
 tags: [Zwerge, Krieg, Dwarschim]
 letzter_check: 2026-02-13T14:40:00+01:00
 ---

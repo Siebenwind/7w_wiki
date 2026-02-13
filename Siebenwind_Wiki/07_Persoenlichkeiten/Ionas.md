@@ -12,7 +12,7 @@ category: Persönlichkeiten
 
 ## Beschreibung
 **Ionas** ist ein Geweihter des Gottes [[02_Astrael]]. Er begann als Novize am Tempel zu Falkensee.
-Im Jahr 22 n.H. (Bote 185) übernahm er vorübergehend die Leitung des **Siebenwind Boten**, nachdem [[Alricio_Romero_di_Madjani]] zurückgetreten war. Später wurde er von [[Custodias]] zum Geweihten geweiht (Bote 186/in Bote 185 vorweggenommen?).
+Im Jahr 21 n.H. (Bote 185) übernahm er vorübergehend die Leitung des **Siebenwind Boten**, nachdem [[Alricio_Romero_di_Madjani]] zurückgetreten war. Später wurde er von [[Custodias]] zum Geweihten geweiht (Bote 185).
 
 ---
 **Siehe auch:** [[Ordo_Astrael]], [[Siebenwind_Bote]]

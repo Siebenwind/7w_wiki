@@ -6,16 +6,16 @@ category: Index
 
 # Wiki Statistiken
 
-**Letztes Update:** 2026-02-13 19:49:11
+**Letztes Update:** 2026-02-13 21:10:35
 
 ## 📊 High-Level KPIs
 
 | Metrik | Wert |
 | :--- | :--- |
-| **Gesamtanzahl Artikel** | 666 |
-| **Bekannte Persönlichkeiten** | 349 |
-| **Gesamtwortzahl** | 97,981 |
-| **Vernetzungsgrad (Links/1k Worte)** | 71.97 |
+| **Gesamtanzahl Artikel** | 674 |
+| **Bekannte Persönlichkeiten** | 350 |
+| **Gesamtwortzahl** | 99,933 |
+| **Vernetzungsgrad (Links/1k Worte)** | 72.08 |
 
 ---
 
@@ -23,8 +23,8 @@ category: Index
 
 ```mermaid
 pie title Quellen Integrations-Status
-    "Integriert" : 95
-    "Ausstehend" : 149
+    "Integriert" : 105
+    "Ausstehend" : 139
 ```
 
 ---
@@ -35,7 +35,7 @@ pie title Quellen Integrations-Status
 bar-chart
     title Artikel pro Kategorie
     x-axis [ "Root", "07_Persoenlichkeiten", "08_Bestiarium", "03_Gesellschaft", "05_Geschichte", "10_Archiv", "02_Geografie", "01_Pantheon", "04_Chronik", "06_Erzählungen", "06_Myten_und_Legenden", "09_Bibliothek", "00_Fundament" ]
-    y-axis Artikel [ 1, 349, 27, 45, 50, 5, 50, 25, 78, 9, 1, 3, 23 ]
+    y-axis Artikel [ 1, 350, 31, 47, 51, 5, 50, 25, 78, 9, 1, 3, 23 ]
 ```
 
 ---
@@ -44,10 +44,10 @@ bar-chart
 
 ```mermaid
 pie title Wissens-Fundament
-    "Canon" : 552
-    "Bote" : 942
-    "Überlieferung" : 19
-    "Perspektive" : 25
+    "Canon" : 548
+    "Bote" : 960
+    "Überlieferung" : 20
+    "Perspektive" : 26
 ```
 
 ---
@@ -60,7 +60,7 @@ xychart-beta
     title Erwähnungen pro Jahr (n.H.)
     x-axis [ "16", "17", "18", "19", "20", "21", "22", "23", "25", "26", "28", "29", "30", "123", "165" ]
     y-axis "Nennungen"
-    bar [ 151, 119, 236, 165, 177, 118, 64, 14, 5, 7, 15, 61, 79, 9, 2 ]
+    bar [ 151, 119, 236, 164, 177, 146, 63, 14, 5, 7, 14, 61, 79, 9, 2 ]
 ```
 
 ---
@@ -70,14 +70,14 @@ Die am häufigsten verlinkten Artikel im Wiki.
 
 | Rang | Entität | Verlinkungen |
 | :--- | :--- | :--- |
-| 1 | [[Falkensee]] | 310 |
-| 2 | [[Brandenstein]] | 301 |
-| 3 | [[Siebenwind]] | 277 |
-| 4 | [[Nortraven]] | 76 |
-| 5 | [[Custodias]] | 62 |
+| 1 | [[Falkensee]] | 319 |
+| 2 | [[Brandenstein]] | 307 |
+| 3 | [[Siebenwind]] | 281 |
+| 4 | [[Nortraven]] | 77 |
+| 5 | [[Custodias]] | 68 |
 | 6 | [[Bellum]] | 61 |
 | 7 | [[Vitama]] | 61 |
-| 8 | [[Kirche_der_Viere]] | 57 |
+| 8 | [[Kirche_der_Viere]] | 58 |
 | 9 | [[Ecclesia_Elementorum]] | 57 |
 | 10 | [[Tare]] | 50 |
 

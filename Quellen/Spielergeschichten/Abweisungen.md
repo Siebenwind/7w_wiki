@@ -3,7 +3,7 @@ layout: wiki_page
 title: Abweisungen
 category: Erzählung
 uuid: F6F7C600-C9F4-43A7-8476-07356D0A6724
-status: Perspektive (Level 4)
+status: #perspektive
 tags: [Elf, Beziehung, Yota]
 letzter_check: 2026-02-13T14:30:00+01:00
 ---

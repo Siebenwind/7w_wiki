@@ -8,12 +8,14 @@ Dieses Protokoll standardisiert die Erfassung **aller** Quellentypen und stellt 
 
 ## Quellentyp bestimmen
 
-| Ordner | Quellentyp | Epistemik |
-|---|---|---|
-| `/Quellen/Hintergrund/` | Hintergrund | #canon |
-| `/Quellen/Zeitung 7w Bote/` | Bote | #bote |
-| `/Quellen/Bibliothek/` | Bibliothek | #überlieferung |
-| `/Quellen/Spielergeschichten/` | Spielergeschichte | #perspektive |
+> Siehe [Wiki Style Guide §3.1 (Epistemisches System)](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/workflows/wiki_style_guide.md) für Entscheidungsregeln bei Widersprüchen.
+
+| Ordner | Quellentyp | Epistemik | Verlässlichkeit |
+|---|---|---|---|
+| `/Quellen/Hintergrund/` | Hintergrund | #canon | 🥇 Absolut |
+| `/Quellen/Zeitung 7w Bote/` | Bote | #bote | 🥈 Hoch |
+| `/Quellen/Bibliothek/` | Bibliothek | #überlieferung | 🥉 Mittel |
+| `/Quellen/Spielergeschichten/` | Spielergeschichte | #perspektive | Gering |
 
 ## Checkliste pro Quelle
 

@@ -1,10 +1,15 @@
-|  |  |   
----  
-**Ausgabe 183** -**Königstag, 30. Carmar 21 nach Hilgorad**  
-  
+---
+layout: bote_page
+title: Siebenwind Bote 183
+date: 21-04-30
+category: Chronik
+author: ARdM, Felis
+---
 
-30\. Carmar - SONDERAUSGABE: Militärputsch in Falkensee  
----  
+# Siebenwind Bote 183
+**Königstag, 30. Carmar 21 nach Hilgorad**
+
+## 30. Carmar - SONDERAUSGABE: Militärputsch in Falkensee
 Ersonter Garde erklärt Rat für abgesetzt  
   
 Schon länger kursieren Gerüchte über Machtkämpfe zwischen dem Ersonter Rat und

@@ -17,7 +17,8 @@ Dieses Dokument ist das agentenübergreifende Gedächtnis des Projekts. Jeder Ag
 - [/] Integration der verbleibenden 150+ Quellen (Status `Pending` in [[INVENTUR_QUELLEN.md]])
 - [x] Erstellung der Geografie-Hauptseiten: [[Brandenstein]], [[Falkensee]], [[Greifenklipp]]
 - [x] **Phase 11: Boten 171-175** – Politischer Umbruch (Erlass des Königs, Auflösung der Kronmark, Ersonter Bund, Pakt der Viereinigkeit), klerikale Aufstiege (Benion → Erzgeweihter, Proveus Herand → Erzgeweihter), Dämonen (Blinder Maler, Hutmacher), Terra'Dorotor-Krieg, Schwarzer Samen
-- [ ] **Phase 12: Boten 176-180** – Integration ausstehend
+- [x] **Phase 12:** Integrate Siebenwind Bote 176-180 (21 n.H.).
+- [x] **Phase 13:** Integrate Siebenwind Bote 181-185 (21-22 n.H.).
 - [ ] **Boten-Integration:** 10 fehlende Ausgaben (133-140, 191-193) einpflegen (Quellen vorhanden)
 - [ ] **Index-Korrektur:** `Die_Chronik.md` vervollständigen (Boten 176-190 fehlen im Index)
 - [ ] Laufende Register-Synchronisation (Personen, Organisationen, Bestiarium)

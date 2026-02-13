@@ -3,7 +3,7 @@ layout: wiki_page
 title: Kriegstagebuch eines Soldaten
 category: Erzählung
 uuid: F3ACE6D2-E235-42EB-A469-0389EAC94B02
-status: Perspektive (Level 4)
+status: #perspektive
 tags: [Dunkeltief, Krieg, Schwingenwacht, Harpyien, Kherbal]
 letzter_check: 2026-02-13T14:50:00+01:00
 ---

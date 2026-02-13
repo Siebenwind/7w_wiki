@@ -10,7 +10,7 @@ category: [[Gesellschaft]]
 **Epistemischer Status:** #bote
 
 ## Beschreibung
-Die **Schattenjäger** sind eine spezialisierte Gruppierung oder ein Ehrentitel innerhalb der [[Ecclesia_Elementorum]]. Sie fungieren als Wächter gegen übernatürliche Bedrohungen und "Schatten", die das Gleichgewicht der Elemente gefährden.
+Die **Schattenjäger** sind eine spezialisierte Gruppierung, die ursprünglich eng mit der [[Ecclesia_Elementorum]] verbunden war, sich aber auch als "berüchtigte Söldnergruppierung" für das Grobe einen Namen gemacht hat ([[Siebenwind_Bote_179]]). Sie fungieren als Wächter gegen übernatürliche Bedrohungen und "Schatten", nehmen aber auch Söldneraufträge an, die Schlagkraft erfordern.
 
 ## Bekannte Schattenjäger
 - **[[Calin_Dakar]]**: Sieger des Turniers in [[Falkensee]] (16 n.H.), bezeichnet als Schattenjäger und Wächter der Ecclesia.

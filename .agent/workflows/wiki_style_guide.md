@@ -33,6 +33,28 @@ Directly under the H1, include key-value pairs for quick scanning:
 - **Zugehörigkeit:** [Faction/Family]
 - **Zeitraum:** [Active Period in n.H.]
 
+## 3.1 Epistemisches System (Verlässlichkeitsränge)
+
+Die vier epistemischen Tags definieren die **Verlässlichkeit** einer Information.
+**Höherer Rang überschreibt niedrigeren Rang bei Widersprüchen.**
+
+| Rang | Tag | Quellordner | Bedeutung | Vertrauen |
+|---|---|---|---|---|
+| 🥇 1 | `#canon` | `/Hintergrund/` | Offizieller Kanon, Spielleiter-Festlegung | Absolut |
+| 🥈 2 | `#bote` | `/Zeitung 7w Bote/` | Redaktionelle Berichterstattung (In-World) | Hoch |
+| 🥉 3 | `#überlieferung` | `/Bibliothek/` | In-World-Literatur, Mythen, Legenden | Mittel |
+| 4 | `#perspektive` | `/Spielergeschichten/` | Subjektive Erzählung, Hörensagen | Gering |
+
+### Entscheidungsregeln
+1. **Widerspruch `#canon` vs. `#bote`:** `#canon` gewinnt immer.
+2. **Widerspruch `#bote` vs. `#perspektive`:** `#bote` gewinnt. Die Spielergeschichte wird ergänzend notiert, nicht als Fakt übernommen.
+3. **Neue Fakten nur aus `#perspektive`:** Dürfen ins Wiki, wenn sie dem Kanon nicht widersprechen. Müssen als `#perspektive` getaggt bleiben.
+
+### Zusätzliche Meta-Tags (KEINE Verlässlichkeitsränge)
+- `#meta` — Register, Index-Dateien, Übersichtsseiten (aggregieren Wissen, sind selbst keine Quellen)
+- `#gemischt` — Artikel mit Informationen aus mehreren Verlässlichkeitsrängen (z.B. Kanon-Basis + Boten-Details)
+
+
 ## 4. Standardized Headers per Category
 To maintain consistency, use these dedicated headers:
 ### Bestiarium (Creatures)

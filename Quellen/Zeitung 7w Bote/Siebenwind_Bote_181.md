@@ -1,10 +1,15 @@
-|  |  |   
----  
-**Ausgabe 181** -**Mittentag, 21. Querler 21 nach Hilgorad**  
-  
+---
+layout: bote_page
+title: Siebenwind Bote 181
+date: 21-04-21
+category: Chronik
+author: Ionas, Felis, ARdM, Haldur Toda
+---
 
-21\. Querler - Der Tod des Ventusdieners Brand Windflüsterer  
----  
+# Siebenwind Bote 181
+**Mittentag, 21. Querler 21 nach Hilgorad**
+
+## 21. Querler - Der Tod des Ventusdieners Brand Windflüsterer
 Am 9. Querler 21 nach Hilgorad starb der inselbekannte Diener des Ventus,
 Brand Windflüsterer. Sicher wird jeder inzwischen davon gehört haben, doch die
 wenigsten kennen die genauen Umstände seines Todes. Diese sollen nun hier

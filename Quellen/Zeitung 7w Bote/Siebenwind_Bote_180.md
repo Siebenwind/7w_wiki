@@ -1,10 +1,15 @@
-|  |  |   
----  
-**Ausgabe 180** -**Felatag, 6. Triar 21 nach Hilgorad**  
-  
+---
+layout: bote_page
+title: Siebenwind Bote 180
+date: 21-03-06
+category: Chronik
+author: Felis, ARdM, Eminenz Benion Sandelholz
+---
 
-6\. Triar - Angriff durch Riesenspinnen  
----  
+# Siebenwind Bote 180
+**Felatag, 6. Triar 21 nach Hilgorad**
+
+## 6. Triar - Angriff durch Riesenspinnen
 Seit ein paar Wochen gibt es vermehrt Probleme mit riesigen Spinnen rund um
 die und unter der Stadt Falkensee, weshalb durch die Garde Ersonts bereits zur
 Vorsicht gemahnt wurde, aber auch eine Belohnung von 1.500 Dukaten bei

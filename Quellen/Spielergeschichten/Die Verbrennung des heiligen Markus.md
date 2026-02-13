@@ -1,5 +1,6 @@
 ---
 layout: wiki_page
+status: #perspektive
 title: Die Verbrennung des heiligen Markus
 category: Sonstiges
 ---

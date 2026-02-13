@@ -65,13 +65,20 @@ Bei Texten über 100 Zeilen **MUSS** ein Zwei-Pass-Verfahren angewendet werden:
 - [Name] | [Typ] | [Kontext]
 ```
 
-## 2. VERIFICATION (Truth Hierarchy & Escalation)
+## 2. VERIFICATION (Eskalationsmatrix)
 *   **Step:** Validate extracted facts against the tiered source of truth.
-*   **Action:**
-    1.  **Level 1: Lokal-Kanon (Absolute Wahrheit):** Cross-check with `/Hintergrund/` (#canon). Diese Dokumente sind das unumstößliche Gesetz.
-    2.  **Level 2: Lokale Quell-Integrität:** Prüfe die Konsistenz innerhalb der aktuell bearbeiteten Quelle (z.B. `/Bote/` oder `/Bibliothek/`).
-    3.  **Level 3: Live Web (Verifikation):** Nutze `search_web` mit `site:siebenwind.de [Entity Name]`, um Fakten zu ergänzen oder bei Unklarheiten im Archiv nachzuschlagen. Falls automatisierte Suchen (Oasis/Oracle) fehlschlagen, nutze `grep_search` auf `/Hintergrund/` und `/Quellen/`.
-    4.  **Level 4: User Escalation:** Wenn Informationen fehlen oder über alle Ebenen hinweg widersprüchlich sind, frage den Nutzer.
+*   **Action:** Prüfe in dieser Reihenfolge. **Stoppe, sobald eine Ebene eine definitive Antwort liefert.**
+
+| Schritt | Prüfebene | Aktion | Bei Treffer |
+|---|---|---|---|
+| 🥇 | **Lokal-Kanon** (`/Hintergrund/`, `#canon`) | Cross-check mit Kanon-Dateien. Diese Dokumente sind das unumstößliche Gesetz. | → Fakt ist verifiziert |
+| 🥈 | **Quell-Integrität** (aktuelle Quelle) | Prüfe die Konsistenz innerhalb der aktuell bearbeiteten Quelle (z.B. `/Bote/` oder `/Bibliothek/`). | → Fakt ist plausibel |
+| 🥉 | **Web-Verifikation** (`siebenwind.de`) | Nutze `search_web` mit `site:siebenwind.de [Entity Name]`, um Fakten zu ergänzen. Falls Oasis/Oracle fehlschlagen, nutze `grep_search` auf `/Hintergrund/` und `/Quellen/`. | → Fakt ergänzt |
+| ❓ | **User-Eskalation** (letztes Mittel) | Wenn Informationen fehlen oder über alle Ebenen hinweg widersprüchlich sind, frage den Nutzer. | → Nutzer entscheidet |
+
+> **Verlässlichkeitsregel:** Höherer Rang überschreibt niedrigeren bei Widersprüchen.
+> Siehe **Epistemisches System** im [Wiki Style Guide](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/workflows/wiki_style_guide.md#epistemisches-system).
+
 *   **Decisions:**
     - **Conflict:** Mark as `[KONFLIKT]` and log in [[Konsistenzbericht_2026]].
     - **Uncertainty:** If a check yields no conclusive result, tag as `[UNGEKLÄRT]`.

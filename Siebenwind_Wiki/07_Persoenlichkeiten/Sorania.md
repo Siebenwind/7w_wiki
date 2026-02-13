@@ -7,7 +7,8 @@ category: Persönlichkeit
 # Sorania
 
 **Titel:** Ehemalige Kriegerin, Dienerin des Einen (unfreiwillig)
-**Epistemischer Status:** #canon / #tragödie
+**Epistemischer Status:** #perspektive
+**Lebensstatus:** Transformiert / Verschollen
 **Zugehörigkeit:** Ehem. Volk der [[Rasse_Menschen]] / Nun [[Ödland]]-Kreatur
 **Zeitraum:** Verschollen/Transformiert ca. 28-30 n.H.
 

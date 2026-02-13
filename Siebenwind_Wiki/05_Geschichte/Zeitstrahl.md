@@ -359,7 +359,7 @@ Seine Eminenz [[Tion_Altor]] ist ein hochrangiger Priester des Gottes 03_Bellum.
 | 30 n.H. | 28-30 n.H.
 **Ort:** [[Ödland]] / Jenseits des Falkenwalls
 **Status:** Abgeschlossen, traumatisches Ereignis
-**Kategorie:** #geschichte #tragödie #krieg
+**Kategorie:** Geschichte
 
 ## Überblick
 Dieses Ereignis beschreibt das Verschwinden und den grausamen Tod/Fall einer Gruppe von Verteidigern jenseits des Walls. | [[Die_Tragödie_am_Wall]] |

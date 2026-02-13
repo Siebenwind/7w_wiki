@@ -48,9 +48,52 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 *   **Personalien:** [[Siegfried_Steiner]] wird Großmeister der Rd7W und Hochmeister des Drachenordens; [[Mirian_Lasar]] wird Heermeisterin.
 *   **Seuche:** Ausbruch des **[[Atmender_Tod|Atmenden Todes]]**. [[Falkensee]] und [[Brandenstein]] sind schwer betroffen. [[Alassea]] und [[Markus_Panscher]] beginnen mit der Erforschung eines Heilmittels.
 *   **Konflikt:** Zerschlagung der **[[Terra_Dorotor]]** ([[Merros]]-Anhänger) durch eine koordinierte Aktion von Rittern und Kronregiment.
+*   **Terror:** Anschlag auf das Fest "Lob der Schwestern" in [[Seeberg]] (27. Sekar) durch Unbekannte ([[Schwarze_Magie]]).
 
 ### 21 nach Hilgorad
+*   **Monster:** Die **[[Bestie_von_Brandenstein]]** (Chimäre) terrorisiert die Hafenstadt im Oner.
+*   **Kriminalität:** Tod der Verbrecher [[Cacama]] (durch Dämon) und [[Viktor_Menzer]].
+*   **Konflikt:** Dämon **[[Tarrant]]** tötet [[Ashram_Yeshmir]] im Duell auf dem Marktplatz von [[Falkensee]] (9. Oner).
 *   **Konflikt:** **[[Der_Putsch_von_Falkensee|Der Putsch von Falkensee]]** (28. Carmar). Die Ersonter Garde unter [[Waldemar_Delarie]] und [[Steinhauer]] versucht den Rat abzusetzen.
+*   **Kultur:** **Tag der Helden** (20. Oner) in [[Seeberg]]. Ehrung der Verteidiger des Dunkeltiefs. Öffentlicher Eklat durch Gardewaibel [[Waldemar_Delarie]].
+*   **Krieg:** **[[Trollkrieg_von_Brandenstein]]** (Frühjahr). Angriff einer Troll-Armee auf [[Brandenstein]]. Beendet durch Verhandlung von Leutnant [[Caiomme]]; Verbot von Trollleder-Produkten.
+*   **Religion:** Einweihung des neuen **Tempels der Viere** in Falkensee (7. Dular).
+*   **Politik:** Rücktritt der Statthalterin [[Noalim_al_Achid]]. [[Hebren_Zemand]] übernimmt die Amtsgeschäfte kommissarisch.
+*   **Bildung:** Wiedereröffnung der **Kgl. Kriegerakademie zu Seeberg** unter der Leitung von [[Calanhen_Lilthameigol]].
+*   **Kultur:** **Lachsfest** in [[Vänskap]] (25. Dular). Krönung von [[Alavia_Rabenschrey]] zur Lachskönigin.
+*   **Politik:** **Waffenrat** in [[Brandenstein]] (11. Dular) zur Bekämpfung der [[Sammler]].
+*   **Konflikt:** Sieg über den Dämon **[[Hutmacher]]** durch eine Gemeinschaft um [[Custodias]]; Rettung der Seele von [[Laske]].
+*   **Kriminalität:** Hinrichtung des Freien [[Silas]] nach Attentat auf [[Custodias]].
+*   **Adel:** Ankunft des neuen Marschalls von Brandenstein, [[Erhard_Merthes]].
+*   **Krieg:** **[[Schlacht_um_Lilienwall]]** (Triar). Allianz aus Malthustern, Nortraven, Dwarschim und Löwenorden gegen Goblins. Bruch der Allianz zwischen Malthust und Nortraven/Dwarschim nach Massaker an Goblincivilians.
+*   **Kriminalität:** Ermordung des Ratsherrn **[[Kharas_Palanthas]]**.
+*   **Politik:** **[[Solice_Aurora]]** (Freifrau) übernimmt das Amt der Statthalterin von Falkensee. **[[Hebren_Zemand]]** und **[[Imea_Ekula]]** werden in den Beamtenstand erhoben.
+*   **Monster/Krieg:** **Spinnenplage** in Falkensee (Triar). Vernichtung der Mutterspinne in der Kanalisation.
+*   **Konflikt:** Ehrenhaftes Duell zwischen Marschall **[[Erhard_Merthes]]** und Bundesgardist **[[Johan_Gottfried]]**.
+*   **Adel:** Nobilitierung von **[[Waldemar_Delarie]]** zum Edlen (Triar).
+*   **Religion/Magie:** **Tod/Verschwinden von [[Brand_Windfluesterer]]** (21. Querler). Auflösung im Kerker nach Blitzschlag während eines Verhörs.
+*   **Politik:** **Aufhebung des Toleranzediktes** in [[Falkensee]] / [[Ersont]]. Verbot von Enhor-Symbolik und Predigten. Strikte Ausrichtung auf die Sahor.
+*   **Justiz:** Ernennung von [[Custodias]] zum "Hüter des Rechts" durch den Ersonter Rat.
+*   **Justiz:** **Prozess gegen Talbin** in Brandenstein (26. Carmer). Verurteilung wegen Wegelagerei und Befehlsverweigerung. Milde durch Verteidigung von [[Nadeeda_al_Nuribad]].
+*   **Organisation:** **50. Konvent des [[Löwenorden]]**. Ernennung von [[Toran_Dur]] zum Meister, [[Benedict_Rabenfels]] zum 2. Meister, [[Tyrus_Helbas]] zum Waffenmeister. Pakt mit [[Dwarschim]] und [[Brandenstein]].
+*   **Magie:** Duell zwischen [[Johannes_Tiberias]] und einem Doppelgänger am Falkenwall.
+*   **Kultur:** Auftritt des Bardenduos [[Paule_Hickings]] und [[Bastian_Vega]] ("Hicks & Basti").
+*   **Politik/Militär:** **Militärputsch in Falkensee** (30. Carmar). Die [[Ersonter_Garde]] unter [[Waldemar_Delarie]] und [[Steinhauer]] erklärt den Rat für abgesetzt. Belagerung des Schlossviertels.
+*   **Militär:** Aufstellung einer **Bürgerwehr** unter Waibel [[Gorem_Motlow]] zur Sicherung der Stadt. Intervention durch [[Malthust]] und [[Löwenorden]] zur Wahrung der Ordnung.
+*   **Gewalt:** Angriff von Skeletten am Südtor (abgewehrt). Erster Todesfall durch interne Kämpfe in der Garde.
+*   **Politik/Militär:** **Ende des Putsches** (3. Duler). Die [[Ersonter_Garde]] ergibt sich der Übermacht aus Malthustern, Löwenrittern, Zwergen und Nortraven. Entwaffnung der Garde und Arrestierung der Führung (inkl. [[Waldemar_Delarie]]).
+*   **Justiz:** Rücktritt von [[Waldemar_Delarie]] und Übergabe des Säbels. Beginn der Untersuchungen gegen die Putschisten.
+*   **Migration:** [[Arn_Toron]] verlässt Falkensee aus Protest gegen die Zustände.
+*   **Politik:** Nachbeben des Putsches; Verhängung des Kriegsrechts und Einzug von Truppen aus [[Malthust]] und dem [[Löwenorden]].
+*   **Gesellschaft:** Beginn der **Aufräumarbeiten** in Falkensee. Rückkehr zur Normalität.
+*   **Religion:** Weihe von Redakteur [[Ionas]] zum Geweihten des [[Astrael]]-Tempels in Falkensee.
+*   **Adel:** Ankunft von Fürst [[Serass]] von [[Vandrien]] und Prinz [[Astreyonas]] von [[Sae]]. Gerüchte um diplomatische Missionen.
+*   **Militär:** Bericht über den Tod von Feldherr [[Kassimir_zu_Ossian]] (Ossian).
+*   **Kultur:** Vermählung von [[Zacharias_Gropp]] und [[Khyra_Hohentann]].
+*   **Kriminalität:** Enthüllung des Verrats von Gardewaibel **[[Johan_Gottfried]]** ("Hund"). Flucht nach Offenbarung als Kultist.
+*   **Konflikt:** Scharmützel zwischen [[Ersont]] und [[Malthust]]. Entführung von [[Felis]] und [[Emanuel_Sanderus]]. Waffenstillstand nach Verhandlungen in Brandenstein.
+*   **Wirtschaft:** Erster "Astraelmarkt" in Falkensee. Eröffnung der Taverne "Zum Wolpertinger" durch die Ersonter Garde.
+*   **Organisation:** Neugründung der **Tempelwache** in Falkensee durch [[Reto_Finkenfahn]].
 *   **Politik:** Nachbeben des Putsches; Verhängung des Kriegsrechts und Einzug von Truppen aus [[Malthust]] und dem [[Löwenorden]].
 *   **Adel:** [[Waldemar_Delarie]] wird für seine Verdienste geadelt (Edler), fällt aber kurz darauf durch den Putsch in Ungnade.
 

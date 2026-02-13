@@ -7,7 +7,8 @@ category: Persönlichkeit
 # Emanuel
 
 **Titel:** Soldat der Malthuster Armee (Löwenorden-nah)
-**Epistemischer Status:** #canon / #verstorben
+**Epistemischer Status:** #perspektive
+**Lebensstatus:** Gefallen (†)
 **Zugehörigkeit:** Malthuster Armee / Volk der [[Rasse_Menschen]]
 **Zeitraum:** Gefallen ca. 30 n.H.
 

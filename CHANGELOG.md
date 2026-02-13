@@ -2,6 +2,38 @@
 
 Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
 
+## [2026-02-13.5] - Phase 13 Abschluss (Falkensee Putsch)
+### Hinzugefügt
+- **Phase 13 (Boten 181-185):** Integrated 5 issues.
+    - Standardized Boten 181-185.
+    - Updated `Personenregister.md` (Ionas, Serass, Astreyonas, Delarie).
+    - Updated `Zeitleiste_(15-30_n.H.).md` (21 n.H. Falkensee Coup completely covered).
+    - Updated `INVENTUR_QUELLEN.md` (All 181-185 Integrated).
+    - Validated `Ionas.md` and `Serass.md` dates.
+
+### Ergebnisse
+- Der "Putsch von Falkensee" ist nun vollständig dokumentiert.
+- Die Timeline für das Jahr 21 n.H. ist mit Bote 185 abgeschlossen.
+- Wiki-Statistiken wurden aktualisiert (`/stats`).
+
+## [2026-02-13.4] - Phase 11 Abschluss & Phase 12 Vorbereitung
+### Hinzugefügt
+- **Phase 12 Planung:** Detaillierte Recherche der Boten 176-180 (Bestie von Brandenstein, Troll-Krieg, Spinnenplage, Mord an Palanthas).
+- `implementation_plan.md`: Update mit granularer Task-Liste für Phase 12.
+
+### Geändert
+- [x] **Phase 12 (Boten 17-180):** Integrated 5 issues.
+    - Standardized Boten 176-180.
+    - Updated `Personenregister.md` (Palanthas †, Aurora, Delarie, Merthes).
+    - Updated `Zeitleiste_(15-30_n.H.).md` (21 n.H. filled).
+    - Updated `INVENTUR_QUELLEN.md`.
+- [x] **Phase 11 (Boten 171-175):** Complete.
+- **Inventur:** Boten 171-175 erfolgreich von `Pending` auf `Integrated` gesetzt.
+
+### Ergebnisse
+- Das Fundament für die Integration der Boten 176-180 ist gelegt.
+- Kritische Ereignisse (Rücktritt Noalim, Tod Falk, Mord Palanthas) sind identifiziert und vorbereitet.
+
 ## [2026-02-13.3] - Wiki-Statistiken & Dokumentations-Audit
 ### Hinzugefügt
 - `.agent/scripts/generate_wiki_stats.py`: Automatisiertes Statistik-Dashboard (Ingestion, Lore-Dichte, Epistemik, Link-Hubs, Temporal-Density).

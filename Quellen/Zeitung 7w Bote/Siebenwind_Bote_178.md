@@ -1,10 +1,15 @@
-|  |  |   
----  
-**Ausgabe 178** -**Felatag, 21. Duler 21 nach Hilgorad**  
-  
+---
+layout: bote_page
+title: Siebenwind Bote 178
+date: 21-02-21
+category: Chronik
+author: Ionas, Felis, ARdM, Flammende Feder, Der Ersonter
+---
 
-21\. Duler - Neuer Tempel in Falkensee  
----  
+# Siebenwind Bote 178
+**Felatag, 21. Duler 21 nach Hilgorad**
+
+## 21. Duler - Neuer Tempel in Falkensee
 Seit einigen Wochen schon konnte man täglich die Veränderungen im
 Tempelviertel beobachten - von den ersten Abrissarbeiten bis zu den letzten
 Handgriffen an den neuen Parkanlagen des Tempels. Nun endlich erstrahlt alles

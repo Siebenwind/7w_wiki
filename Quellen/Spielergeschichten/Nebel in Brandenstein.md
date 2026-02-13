@@ -3,7 +3,7 @@ layout: wiki_page
 title: Nebel in Brandenstein
 category: Erzählung
 uuid: 01BE59FA-FCF5-4F3A-B634-CEFA7ED73776
-status: Perspektive (Level 4)
+status: #perspektive
 tags: [Brandenstein, Nebel, Magie, Zerstörung, Angamon]
 letzter_check: 2026-02-13T14:50:00+01:00
 ---

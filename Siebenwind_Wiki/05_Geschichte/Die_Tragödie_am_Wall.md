@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Die Tragödie am Wall
-category: [[index]]
+category: Geschichte
 ---
 
 # Die Tragödie am Wall
@@ -11,7 +11,7 @@ category: [[index]]
 **Datum:** Ca. 28-30 n.H.
 **Ort:** [[Ödland]] / Jenseits des Falkenwalls
 **Status:** Abgeschlossen, traumatisches Ereignis
-**Kategorie:** #geschichte #tragödie #krieg
+**Kategorie:** Geschichte
 
 ## Überblick
 Dieses Ereignis beschreibt das Verschwinden und den grausamen Tod/Fall einer Gruppe von Verteidigern jenseits des Walls. Es gilt als Symbol für die unerbittliche Korruption durch den "Einen" und die Gefahr der Schlangenwesen (Sammler).

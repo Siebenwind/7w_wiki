@@ -9,7 +9,7 @@ category: Erzählung
 **Epistemischer Status:** #perspektive
 
 **Autoren:** [[Sorania]], Krümel, [[Emanuel]], [[Marnie_Ruatha]], Felis (Einzelberichte)
-**Kanon-Status:** #tragödie / #perspektive
+**Verlässlichkeit:** #perspektive (Subjektive Spielerberichte)
 **Zeitraum:** Ca. 28-30 n.H.
 
 ---

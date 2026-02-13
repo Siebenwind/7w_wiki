@@ -1,10 +1,15 @@
-|  |  |   
----  
-**Ausgabe 182** -**Felatag, 26. Carmer 21 nach Hilgorad**  
-  
+---
+layout: bote_page
+title: Siebenwind Bote 182
+date: 21-04-26
+category: Chronik
+author: ARdM, Ionas, Felis, Toran Dur, Haldur Toda
+---
 
-26\. Carmer - Prozess gegen den Wegelagerer Talbin  
----  
+# Siebenwind Bote 182
+**Felatag, 26. Carmer 21 nach Hilgorad**
+
+## 26. Carmer - Prozess gegen den Wegelagerer Talbin
 Verhandlung offenbart gravierende Mängel in Malthuster Recht und
 Prozessordnung  
   

@@ -1,10 +1,15 @@
-|  |  |   
----  
-**Ausgabe 176** -**Königstag, 16. Oner 21 nach Hilgorad**  
-  
+---
+layout: bote_page
+title: Siebenwind Bote 176
+date: 21-01-16
+category: Chronik
+author: Felis, Ionas, ARdM
+---
 
-16\. Oner - Das neue Jahr beginnt  
----  
+# Siebenwind Bote 176
+**Königstag, 16. Oner 21 nach Hilgorad**
+
+## 16. Oner - Das neue Jahr beginnt
 Das Dunkeltief ist vergangen, die Aufräumarbeiten weitgehend abgeschlossen und
 kehrt für ein neues Jahr in die Normalität zurück. Auch der Bote
 macht sich auf, weiter die Bevölkerung Siebenwinds mit Berichten,

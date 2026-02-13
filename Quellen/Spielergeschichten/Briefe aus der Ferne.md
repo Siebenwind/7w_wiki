@@ -1,5 +1,6 @@
 ---
 layout: wiki_page
+status: #perspektive
 title: Briefe aus der Ferne
 category: Sonstiges
 ---

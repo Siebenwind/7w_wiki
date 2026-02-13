@@ -22,6 +22,10 @@ Zentraler Treffpunkt des Dorfes ist die örtliche Taverne, die besonders bei Fes
 
 Das Dorf wird von einem „Leitwolf“ angeführt, einem traditionellen Titel der Nortraven. Bekanntester Träger dieses Titels ist **Havarr**. Die Bevölkerung besteht primär aus Nortraven und gilt als wehrhaft und traditionsbewusst.
 
+## Kultur und Tradition
+*   **Lachsfest:** Ein jährliches Fest, das im Dular gefeiert wird. Es beinhaltet Wettessen, Angeln und die Wahl einer Lachskönigin ([[Siebenwind_Bote_179]]).
+*   **Fischerei:** Die Nortraven von Vänskap sind exzellente Fischer und Seefahrer.
+
 ## Geschichte
 
 *   **Der Angriff Ersonts:** Im 18. Jahr n.H. marschierten Truppen des Ersonter Bundes vor die Tore von Vänskap. Während der Bote zunächst von einem Angriff berichtete, wurde dies später als Missverständnis und friedlicher Aufmarsch deklariert, auch wenn die Spannungen in der Region spürbar blieben ([[Siebenwind_Bote_177]], [[Siebenwind_Bote_178]]).

@@ -7,7 +7,7 @@ category: Pantheon
 # Merros
 
 **Typ:** Dämon / Widersacher
-**Epistemischer Status:** #ueberlieferung
+**Epistemischer Status:** #überlieferung
 **Zugehörigkeit:** Dunkle Mächte / Widersacher von [[Terra]]
 
 ## Beschreibung

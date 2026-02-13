@@ -1,10 +1,15 @@
-|  |  |   
----  
-**Ausgabe 179** -**Felatag, 25. Dular 21 nach Hilgorad**  
-  
+---
+layout: bote_page
+title: Siebenwind Bote 179
+date: 21-02-25
+category: Chronik
+author: Felis, Ionas, ARdM, Enoha Adorne, Der Ersonter
+---
 
-25\. Dular - Lachsschwemme - Fest in Vänskap  
----  
+# Siebenwind Bote 179
+**Felatag, 25. Dular 21 nach Hilgorad**
+
+## 25. Dular - Lachsschwemme - Fest in Vänskap
 Der 28. Duler stand in Vänskap ganz im Zeichen des köstlichen Lachses. Das
 Volk der Nortraven hatte geladen und dank der Organisation seitens des
 Nortraven Avanjanas, der dieses Fest aus seiner Heimat auf die Insel

@@ -3,7 +3,7 @@ layout: wiki_page
 title: Im Sumpf
 category: Erzählung
 uuid: 2C1AA1BA-0A3A-4742-9311-05EE45E78DCE
-status: Perspektive (Level 4)
+status: #perspektive
 tags: [Falkensee, Ferrin, Untote, Morsan, Sumpf]
 letzter_check: 2026-02-13T14:50:00+01:00
 ---

@@ -1,10 +1,15 @@
-|  |  |   
----  
-**Ausgabe 177** -**Felatag, 14. Onar 21 nach Hilgorad**  
-  
+---
+layout: bote_page
+title: Siebenwind Bote 177
+date: 21-01-14
+category: Chronik
+author: ARdM, Ionas, Felis, Flammende Feder
+---
 
-14\. Onar - Von Pferdemist, Geschrei und gedungenen Schlägern  
----  
+# Siebenwind Bote 177
+**Felatag, 14. Onar 21 nach Hilgorad**
+
+## 14. Onar - Von Pferdemist, Geschrei und gedungenen Schlägern
 Hochintellektuelle Reaktionen auf Artikel des Siebenwindboten  
   
 Seit Jahren nun berichtet derüber Ereignisse auf Siebenwind, und um
