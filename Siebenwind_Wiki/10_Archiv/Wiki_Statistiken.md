@@ -6,7 +6,7 @@ category: Index
 
 # Wiki Statistiken
 
-**Letztes Update:** 2026-02-13 19:15:06
+**Letztes Update:** 2026-02-13 19:42:45
 
 ## 📊 High-Level KPIs
 
