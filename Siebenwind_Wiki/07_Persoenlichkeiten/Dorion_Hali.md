@@ -9,13 +9,13 @@ quelle:
 ---
 # Dorion Hali
 
-**Titel:** Dorfphysikus / Gesundheitlicher Berater
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Siedlung [[Brandenstein]] / Ortsrat
-**Zeitraum:** aktiv 17 n.H.
+**Titel:** Dorfphysikus (Brandenstein) / ehem. Wächter (Löwenorden)
+**Epistemischer Status:** #bote / #perspektive
+**Zugehörigkeit:** Siedlung [[Brandenstein]] / [[Löwenorden]] (Ehrenamt)
+**Zeitraum:** aktiv 17-21 n.H.
 
 ## Beschreibung
-**Dorion Hali** ist der Dorfphysikus im Ortsrat von [[Brandenstein]]. Er ist zuständig für den Seuchenschutz und den allgemeinen Gesundheitszustand der Bevölkerung.
+**Dorion Hali** ist ein vielseitiger und introspektiver Charakter in [[Falkensee]]. Bekannt als Dorfphysikus von [[Brandenstein]], wo er für den Seuchenschutz zuständig war, trat er später als ehrenamtliches Mitglied dem **[[Löwenorden]]** bei. Hali ist ein Mann von melancholischer Natur, der sich oft in philosophische Grübeleien über Gott, die Welt und seine eigene Schuld (bezüglich des Todes von **Hermia**) verliert. Er lebt im Turm von **[[Akora]]** im Westen der Stadt.
 
 ---
 **Siehe auch:** [[Brandenstein]]

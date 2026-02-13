@@ -19,8 +19,8 @@ confidence: Certain
 ## Karriere & Timeline
 - **Anfänge:** Übernahme der Hauptmannschaft von **Hauptmann Mengars** in einer Zeit des Umbruchs.
 - **21 n.H. (Bote 180):** Für seine Verdienste um die Sicherung des Lehens wurde er von Ihrer Durchlaucht [[Hannah_Berndorf]] in den Adelsstand zum **Edlen** erhoben.
-- **21 n.H. (Die Reise):** Waldemar begab sich auf eine riskante Mission nach **Papin**, um Goldbarren zur Unterstützung von Wallenburg an den Ersonter Bund (Graf Gero) zu übergeben. Sein Fehlen hinterließ ein Machtvakuum in Falkensee. [Synapse:2026-003]
-- **21-22 n.H. (Der Putsch):** In Waldemars Abwesenheit (während der Reise nach Papin) führte sein Stellvertreter **[[Steinhauer]]** zusammen mit Teilen der Garde eine gewaltsame Aktion gegen den Ersonter Rat durch. Delarie wurde bei seiner Rückkehr der moralischen Urheberschaft bezichtigt. Er verlor seinen Rang und seinen politischen Einfluss.
+- **21 n.H. (Die Reise):** Waldemar begab sich auf eine riskante Mission nach **Papin**, um Goldbarren zur Unterstützung von Wallenburg an den Ersonter Bund (**[[Gero_von_Papin]]**) zu übergeben. Sein Fehlen hinterließ ein Machtvakuum in Falkensee.
+- **21-22 n.H. (Der Putsch):** In Waldemars Abwesenheit (während der Reise nach Papin) führte sein Stellvertreter **[[Steinhauer]]** zusammen mit seinem Adjutanten **[[Hektor]]** und Teilen der Garde eine gewaltsame Aktion gegen den Ersonter Rat durch. Delarie wurde bei seiner Rückkehr der moralischen Urheberschaft bezichtigt, verlor seinen Rang und wurde faktisch ins Exil nach **[[Südfall]]** gedrängt.
 - **Späte Jahre:** Rückzug nach **[[Südfall]]**, wo er ein bescheidenes Haus bewohnt. Er gilt als gebrochener, aber nach wie vor loyaler Soldat, der die Geschicke der Insel nur noch aus der Distanz beobachtet.
 
 ## Wirken & Vermächtnis

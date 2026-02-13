@@ -96,6 +96,53 @@ Jeder Eintrag dokumentiert: **Wann** wurde **was** aus **welcher Quelle** extrah
 - **Register-Sync:** Eleonore, Erdur, Madame Lafayette, Eret und T. im Personenregister hinzugefügt.
 
 ---
+### 2026-02-14 | Detail-Ingestion: Blutschwert
+**Quelle:** `Blutschwert | ... .md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Blutschwert` in `/09_Bibliothek/` angelegt.
+- **Profil-Check/Update:** `Veridon.md`, `Herzog_Blutschwert.md`, `Schwarze_Legion.md` und `Oculus_Ecclesiae.md` verifiziert/erstellt.
+- **Register-Sync:** Herzog Blutschwert, Ilja, Siljana und Narbenschnauze im Personenregister hinzugefügt. Schwarze Legion, Oculus Ecclesiae und Klauenwölfe im Organisationsregister ergänzt.
+
+---
+### 2026-02-14 | Detail-Ingestion: Waldemar Delaries Reise nach Papin
+**Quelle:** `Waldemar Delaries Reise nach Papin.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Waldemars_Reise_Papin` in `/09_Bibliothek/` angelegt.
+- **Profil-Update:** `Waldemar_Delarie.md` mit Details zur Reise, dem Goldtransport und dem politischen Fallout ergänzt.
+- **Register-Sync:** Gero von Papin, Hektor, Miran Draken und Mondsilberhaar im Personenregister hinzugefügt.
+
+---
+---
+### 2026-02-14 | Detail-Ingestion: Erinnerungen eines alternden Zwergen
+**Quelle:** `Erinnerungen eines alternden Zwergen | ... .md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Erinnerungen_eines_alternden_Zwergen` in `/09_Bibliothek/` angelegt.
+- **Profil-Check/Update:** `Thorgat.md` (Dwarschim) erstellt.
+- **Register-Sync:** Thorgat, Hadhal und Tantalla im Personenregister hinzugefügt.
+
+---
+---
+### 2026-02-14 | Detail-Ingestion: Nichts und ohne Pointe
+**Quelle:** `Nichts und ohne Pointe | ... .md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Nichts_und_ohne_Pointe` in `/09_Bibliothek/` angelegt.
+- **Profil-Update:** `Dorion_Hali.md` ergänzt (Löwenorden, Melancholie). `Akora.md` neu erstellt.
+- **Register-Sync:** Akora und Alashar im Personenregister hinzugefügt.
+
+---
+---
+### 2026-02-14 | Detail-Ingestion: Von gesplitterten Seelen und blutigen Kehlen
+**Quelle:** `Von gesplitterten Seelen und blutigen Kehlen.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Von_gesplitterten_Seelen` in `/09_Bibliothek/` angelegt.
+- **Register-Sync:** Al-Barlis-Nekor, Harok, Samuel und die "Blutige Faust" in den Registern hinzugefügt.
+
+---
 *Einträge werden chronologisch angehängt (neueste unten).*
 
 ## 2026-02-13 | Re-Scan: Spielergeschichten (Batch 1–18)

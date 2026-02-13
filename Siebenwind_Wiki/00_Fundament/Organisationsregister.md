@@ -33,7 +33,10 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Kaufmannsgilde]] | Wirtschaftsgilde | [[Falkensee]] | #bote |
 | [[Graue_Garde]] | Arkane Exekutive | [[Falkensee]] | #bote |
 | [[Seegarde]] | Marine / Küstenschutz | [[Ersonter_Bund]] | #bote |
+| [[Schwarze_Legion]] | Militärkult (Angamon) | Vandrien / Pas | #perspektive |
+| [[Oculus_Ecclesiae]] | Geheimbund d. Kirche | Inselweit / Festland | #perspektive |
 | [[Koenigliche_Kriegerakademie]] | Militärische Ausbildung | [[Seeberg]] | #bote |
+
 | [[Kuenstlerakademie]] | Kultur / Ausbildung | [[Falkensee]] | #bote |
 | [[Handwerkshaus_Falkensee]] | Zunft / Ausbildung | [[Falkensee]] | #bote |
 | [[Schattenhand]] | Unterwelt / Diebesgilde | Unbekannt | #bote |
@@ -48,7 +51,9 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Pakt_der_Viereinigkeit]] | Militärbündnis | [[Brandenstein]] / [[Falkenwall]] | #bote |
 | [[Ersonter_Bund]] | Politisches Bündnis | [[Ersont]] | #bote |
 | [[Bragarim]] | Militärische Garde ([[Dwarschim]]) | [[Kesselklamm]] | #canon |
+| [[Klauenwoelfe]] | Intelligentes Wolfsvolk | Klauenberge | #perspektive |
 | [[Lafays_Stab]] | Weißmagische Schule | Galadon | #perspektive |
+
 | [[Anstalt_fuer_ozeanische_Thaumaturgie]] | Magieschule (Blau) | Swa | #perspektive |
 | [[Akademie_des_gruenen_Zweiges]] | Magieschule (Grün) | Tiefenwald | #perspektive |
 | [[Schule_der_tausend_Funken]] | Magieschule (Ignis) | Malthust | #perspektive |
