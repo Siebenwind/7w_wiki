@@ -1,147 +1,87 @@
-# Siebenwind Wiki 2.0
+# ⚔️ Siebenwind Wiki 2.0
 
-**Status:** Aktiv & Gepflegt
-**System:** Google Antigravity Agentic Framework
-**Ziel:** Konsolidierung von 20 Jahren Rollenspiel-Lore in ein strukturiertes, semantisch durchsuchbares Markdown-Wiki.
+![Project Status](https://img.shields.io/badge/Status-Aktiv-vibrantgreen?style=for-the-badge)
+![System](https://img.shields.io/badge/System-Google_Antigravity-blue?style=for-the-badge)
+![Lore](https://img.shields.io/badge/Lore-20_Jahre-gold?style=for-the-badge)
 
-## 1. Projekt-Übersicht
+Das zentrale Wissensarchiv der Siebenwind-Welt. Konsolidierung von zwei Jahrzehnten Rollenspiel-Lore in eine hochstrukturierte, semantisch durchsuchbare Markdown-Datenbank.
 
-Dieses Projekt ist mehr als nur eine Sammlung von Textdateien. Es ist eine **intelligente Wissensdatenbank** für die Welt von Siebenwind. Ein KI-Agent ("Oberarchivar") liest historische Quellen, verifiziert sie und erstellt standardisierte Markdown-Dateien.
+---
 
-Kernkomponenten:
-- **Das Orakel** – RAG-System für semantische Suche über die gesamte Lore.
-- **Wiki-Statistiken** – Automatisiertes Dashboard zur Erfassung von Wachstum, Qualität und Vernetzung.
-- **GitHub Pages** – Automatisierte Veröffentlichung via MkDocs Material.
+## 🗺️ Schnellnavigation
 
-> [!IMPORTANT]
-> **Status Orakel:** Die automatisierte Suche ist derzeit volatil. Bei Timeouts oder Fehlern ist zwingend die **manuelle Suche** (grep, find) als Fallback zu nutzen.
+| Dokument | Zweck |
+| :--- | :--- |
+| 📜 **[Changelog](CHANGELOG.md)** | **Alle technischen & inhaltlichen Updates auf einen Blick.** |
+| ✅ **[Master Task List](MASTER_TASK_LIST.md)** | **Aktueller Projektstatus und offene Aufgaben.** |
+| 📊 **[Wiki Statistiken](Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md)** | Wachstum, Lore-Dichte und Vernetzungsgrad. |
+| 🗃️ **[Ingestion Log](Logs/INGESTION_LOG.md)** | Verlauf der Quellen-Verarbeitung. |
 
-### Verzeichnisstruktur
+---
 
-*   **`/.agent/`**: Das "Gehirn" des Systems.
-    *   `/skills/`: Modulare Fähigkeiten (8 Skills, siehe §3).
-    *   `/workflows/`: Definierte Arbeitsabläufe (14 Workflows, siehe §4).
-    *   `/scripts/`: Automatisierungsskripte (8 Scripts, siehe §5).
-    *   `/prompts/`: Persona-Definitionen (Oberarchivar, Archivar, Auskunfts-Archivar, Kickoff).
-    *   `/docs/`: Technische Dokumentation und Handover-Dossiers.
-*   **`/.github/`**: CI/CD-Pipeline für automatisiertes Deployment.
-*   **`/Logs/`**: Das Gedächtnis.
-    *   `INVENTUR_QUELLEN.md`: Status aller Quellen (Integrated/Pending).
-    *   `Konsistenzbericht_2026.md`: Offene Lore-Konflikte.
-*   **`/Quellen/`**: Das Rohmaterial (Alte Website-Dumps, Zeitungsartikel, Geschichten).
-*   **`/Siebenwind_Wiki/`**: Das Output-Verzeichnis (Das fertige Produkt).
+## 🚀 Kernfunktionen
 
-## 2. Das Orakel (RAG System & Befehlsreferenz)
+### 🧠 Das Orakel (RAG-Suche)
+Semantische Suche, die den Kontext der Welt versteht.
+```bash
+# Suche starten
+.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Frage"
 
-Das Herzstück der Recherche ist die semantische Suche. Sie versteht Zusammenhänge, nicht nur Keywords.
+# Index aktualisieren
+.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/build_index.py
+```
 
-- **Technologie:** `jina-embeddings-v3` (8k Context) + `ChromaDB` + `BGE Re-Ranker`.
-- **Hardware:** Optimiert für Apple Silicon (MPS) mit Auto-Tuning.
+### 🌍 Digitale Bibliothek
+Automatisierte Ingestion von über 500+ Originalquellen (Boten, Schriften, Geschichten).
 
-### 📚 Befehlsreferenz (Command Cheat Sheet)
+### 🛡️ Kanon-Sicherheit
+Ein 4-stufiges Epistemik-System (#canon, #bote, #perspektive, #überlieferung) garantiert die Integrität der Weltgesetze.
 
-Alle Befehle werden aus dem **Root-Verzeichnis** ausgeführt.
+---
 
-#### A. Suche (Wissen abfragen)
-| Befehl | Funktion |
-|--------|----------|
-| `.../search.py "Frage"` | **Standard:** Sucht präzise im **Wiki** (Level 1). |
-| `.../search.py "..." --source quellen` | **Tiefensuche:** Sucht in den **Rohdaten/Quellen** (Level 2). |
-| `.../search.py "..." --source all` | **Alles:** Sucht in Wiki UND Quellen. |
+## 🏗️ System-Architektur
 
-*(Pfad-Abkürzung: `.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py ...`)*
+```mermaid
+graph TD
+    A[Quellen / Rohdaten] -->|Ingestion| B(Wiki-Schmied)
+    B --> C{Synthese & Audit}
+    C -->|Kanon-Check| D[Siebenwind Wiki]
+    D -->|Vektorisierung| E[Das Orakel]
+    D -->|Hosting| F[GitHub Pages]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#00ff00,stroke:#333,stroke-width:4px
+    style E fill:#00ffff,stroke:#333,stroke-width:2px
+```
 
-#### B. Indexierung (Wissen aufbauen)
-Der Index wird **inkrementell** gebaut. Das System erkennt Änderungen (via Content-Hash) und Renames automatisch.
+---
 
-| Befehl | Funktion |
-|--------|----------|
-| `.../build_index.py` | **Standard:** Aktualisiert den Index (nur Neues/Geändertes). |
-| `.../build_index.py --status` | **Check:** Zeigt Anzahl der Chunks im Index (ohne Änderungen). |
-| `.../build_index.py --rebuild` | **Reset:** Löscht alles und baut den Index komplett neu auf. |
-| `.../build_index.py --cpu` | **Safe Mode:** Erzwingt CPU-Nutzung (falls MPS instabil ist). |
+## 🛠️ Verzeichnisstruktur
 
-*(Pfad-Abkürzung: `.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/build_index.py ...`)*
+- **`/.agent/`**: Das "Gehirn" des Systems.
+    - `/skills/`: Modulare Fähigkeiten (Orakel, Linguist, Wiki-Schmied).
+    - `/workflows/`: Definierte Arbeitsabläufe (Audit, Handover, RVW).
+    - `/prompts/`: Persona-Definitionen des Oberarchivars.
+- **`/Logs/`**: Revisionen & Injektions-Logs.
+- **`/Quellen/`**: Primäre Rohdaten (Boten, Bibliotheks-Dumps).
+- **`/Siebenwind_Wiki/`**: Das finale Markdown-Wiki (Produktions-Ready).
 
-#### C. System-Wartung
-| Befehl | Funktion |
-|--------|----------|
-| `.../benchmark_hardware.py` | **Tuning:** Misst Hardware-Speed und setzt optimale Batch-Size. |
-| `bash .agent/skills/oracle/setup.sh` | **Install:** Richtet die Umgebung initial ein. |
+---
 
-## 3. Skills (Modulare Fähigkeiten)
+## 💻 Entwicklung & Deployment
 
-| Skill | Beschreibung |
-|-------|--------------|
-| **Das Orakel** | Semantische Vektorsuche (RAG) über das gesamte Wissen. |
-| **Kanon-Wächter** | Faktenprüfung gegen die offizielle Homepage. |
-| **Linguist** | Analyse & Pflege der falandrischen Sprachen (Erkennung, Interpretation, Datensätze). |
-| **Lore-Gelehrter** | Aggregation des gesamten Wiki-Wissens, Inkonsistenzfindung und präzise Auskunft. |
-| **Persona-Extractor** | Automatische Extraktion von Persönlichkeits-Profilen aus Quellen. |
-| **Scanner** | Ingestion – Verzeichnisse analysieren und relevante Dateien lesen. |
-| **Time Keeper** | Utilities für den Siebenwind-Kalender ("Sonnenzirkel": Kalender, Jahreszeiten, Daten). |
-| **Wiki-Schmied** | Produktion standardisierter Wiki-Artikel nach v2.0-Standard. |
-
-## 4. Workflows (Arbeitsabläufe)
-
-| Befehl | Funktion |
-|--------|----------|
-| `/ask` | Beantwortet Lore-Fragen. Nutzt das Orakel. Priorisiert Wiki > Quellen. |
-| `/audit` | Prüft Konsistenz, findet Duplikate und verwaiste Einträge. |
-| `/batch` | Konsolidierte Massenverarbeitung (Ingestion + RVW + Register-Update). |
-| `/contrib_audit` | Review & Sanitize von Community-Beiträgen. |
-| `/docs` | Dokumentation, Verwendungsprüfung und Git-Synchronisation. |
-| `/handover` | Erstellt ein Übergabeprotokoll für den nächsten Agenten. |
-| `/ingestion_protocol` | Standardisierter Prozess zur Erfassung von Boten-Ausgaben. |
-| `/rvw_loop` | **Read-Verify-Write**. Der Standard-Zyklus zur Erstellung neuer Artikel. |
-| `/stats` | **Neu.** Generiert das Wiki-Statistik-Dashboard (Ingestion, Lore-Dichte, Epistemik). |
-| `/takeover` | Onboarding-Prozess für einen neuen Agenten. |
-| `/translate` | Falandrische Texte übersetzen & Sprachdatensätze pflegen. |
-| `/update` | System-Audit & Update von Skills, Agents und Workflows. |
-| `/wiki_process` | Der "Zyklus der Weisheit" – Prozess zur Integration neuer Dokumente. |
-| `/wiki_style_guide` | Siebenwind Wiki Style Guide & Konventionen. |
-
-## 5. Scripts (Automatisierung)
-
-| Script | Funktion |
-|--------|----------|
-| `register_check.py` | Konsistenzprüfung: Duplikate, verwaiste Profile, Boten-Lücken. |
-| `generate_wiki_stats.py` | **Neu.** Generiert das Statistik-Dashboard als Markdown mit Mermaid-Charts. |
-| `source_integrator.py` | Automatisierte Konvertierung von Quellen nach Markdown. |
-| `reference_fixer.py` | Automatische Korrektur von HTML→MD Links. |
-| `fix_nested_links.py` | Bereinigung verschachtelter WikiLinks. |
-| `standardize_filenames.py` | Dateinamen-Normalisierung. |
-| `metadata_helper.py` | Frontmatter-Hilfsfunktionen. |
-| `translator.py` | Übersetzungs-Utilities für falandrische Sprachen. |
-
-## 6. Die Wahrheitshierarchie (Truth Hierarchy)
-
-Bei Widersprüchen gilt strikt folgende Priorität:
-1.  **Lokal-Kanon (#canon):** Ordner `/Hintergrund`. Das Gesetz.
-2.  **Siebenwind_Wiki:** Das verarbeitete, geprüfte Wissen.
-3.  **Lokale Quelle (#bote):** Historische Zeitungsartikel (können veraltet sein).
-4.  **Live-Web:** Zur Verifikation (Dritte Instanz).
-
-## 7. Deployment (GitHub Pages)
-
-Das Wiki wird automatisch via MkDocs Material auf GitHub Pages veröffentlicht.
-
-**Lokale Vorschau:**
+### Lokale Vorschau
 ```bash
 pip install mkdocs-material
 mkdocs serve
 ```
 
-**Deployment:**
-Wird automatisch bei Push auf `main` via `.github/workflows/deploy.yml` ausgelöst.
-
-## 8. Dokumentation
-
-Für Entwickler und Maintainer:
-*   [Master Task List](MASTER_TASK_LIST.md): Was noch zu tun ist.
-*   [Changelog](CHANGELOG.md): Historie aller Änderungen.
-*   [Handover Dossier](.agent/docs/handover_dossier.md): Statusbericht für Nachfolger.
-*   [Wiki-Statistiken](Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md): Aktuelles Dashboard.
+### Automatisierung
+Das Repository nutzt GitHub Actions für ein automatisiertes Deployment bei jedem Push.
 
 ---
-*Zuletzt aktualisiert: 13.02.2026 – Projektleitung: Antigravity*
+> [!TIP]
+> **Für neue Agenten:** Führe den Workflow `/takeover` oder `/stats` aus, um einen schnellen Überblick über den aktuellen Stand zu erhalten.
+
+*© 2026 Siebenwind Chronisten-Gilde | Powered by Google Antigravity*
+
