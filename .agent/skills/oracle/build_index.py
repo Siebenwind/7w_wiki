@@ -421,24 +421,34 @@ def build_collection(client, collection_name: str, source_key: str, model, batch
         
         if rel_path in indexed_files:
             old_info = indexed_files[rel_path]
-            if old_info["hash"] and old_info["hash"] == file_hash:
-                # Gleicher Pfad, gleicher Inhalt → unverändert
-                skipped += 1
-                continue
+            if old_info["hash"] and file_hash:
+                # Beide haben Hash → Hash-Vergleich (zuverlässigste Methode)
+                if old_info["hash"] == file_hash:
+                    skipped += 1
+                    continue
+                else:
+                    # Content geändert → re-index
+                    removed = remove_file_chunks(collection, chunk_ids=old_info["ids"])
+                    if removed:
+                        print(f"  🔄 Geändert: {file_info['path'].name} ({removed} Chunks entfernt)")
+                    files_to_process.append(file_info)
             else:
-                # Gleicher Pfad, anderer Inhalt → Content geändert → re-index
-                removed = remove_file_chunks(collection, chunk_ids=old_info["ids"])
-                if removed:
-                    print(f"  🔄 Geändert: {file_info['path'].name} ({removed} Chunks entfernt)")
-                files_to_process.append(file_info)
+                # Legacy-Daten ohne Hash → Fallback auf mtime
+                if abs(file_mtime - old_info["mtime"]) < 1.0:
+                    skipped += 1
+                    continue
+                else:
+                    removed = remove_file_chunks(collection, chunk_ids=old_info["ids"])
+                    if removed:
+                        print(f"  🔄 Geändert (mtime): {file_info['path'].name} ({removed} Chunks entfernt)")
+                    files_to_process.append(file_info)
         elif file_hash and file_hash in hash_to_source:
             # Neuer Pfad, aber gleicher Content → Rename!
             old_source, old_info = hash_to_source[file_hash]
             update_chunk_metadata(collection, old_info["ids"], rel_path)
-            print(f"  📝 Rename erkannt: {Path(old_source).name} → {file_info['path'].name} "
+            print(f"  📝 Rename: {Path(old_source).name} → {file_info['path'].name} "
                   f"({len(old_info['ids'])} Chunks behalten)")
             renamed += 1
-            # Alten Pfad aus der "gelöscht"-Prüfung ausnehmen
             current_sources.add(old_source)
             skipped += 1
         else:
@@ -522,34 +532,35 @@ def _print_progress(idx: int, total: int, file_info: dict, n_chunks: int,
                     start_time: float, total_chunks: int):
     """Zeigt den Fortschrittsbalken an."""
     elapsed = time.time() - start_time
-    
-    # Durchsatz
     throughput = total_chunks / elapsed if elapsed > 0 else 0
     
     # ETA als HH:MM:SS
     if idx > 1 and elapsed > 0:
-        avg_time = elapsed / idx
-        remaining = avg_time * (total - idx)
+        remaining = (elapsed / idx) * (total - idx)
         h, rem = divmod(int(remaining), 3600)
         m, s = divmod(rem, 60)
         eta = f"{h}:{m:02d}:{s:02d}" if h else f"{m}:{s:02d}"
     else:
         eta = "--:--"
     
-    # Vergangene Zeit als HH:MM:SS
+    # Vergangene Zeit
     eh, erem = divmod(int(elapsed), 3600)
     em, es = divmod(erem, 60)
     elapsed_str = f"{eh}:{em:02d}:{es:02d}" if eh else f"{em}:{es:02d}"
     
-    bar_width = 25
+    # Kompakter Fortschrittsbalken
+    bar_width = 20
     progress = idx / total
     filled = int(bar_width * progress)
-    bar = "━" * filled + "╺" + "─" * (bar_width - filled - 1)
+    bar = "━" * filled + "╺" + "─" * max(0, bar_width - filled - 1)
     
-    print(f"\r  [{idx}/{total}] {bar} {progress*100:5.1f}% | "
-          f"{elapsed_str} | ETA {eta} | {throughput:.1f} ch/s | "
-          f"{total_chunks} gespeichert | {file_info['path'].name[:30]}", 
-          end="", flush=True)
+    # Kompakte Zeile, aufgeräumt mit Leerzeichen-Padding
+    line = (f"  [{idx:>{len(str(total))}}/{total}] {bar} {progress*100:5.1f}%"
+            f" │ {elapsed_str} │ ETA {eta}"
+            f" │ {throughput:.1f} ch/s │ Σ {total_chunks}")
+    
+    # Terminal-Zeile komplett überschreiben (120 Zeichen breit)
+    print(f"\r{line:<120}", end="", flush=True)
 
 
 # =============================================================================
