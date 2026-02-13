@@ -63,10 +63,11 @@ LEVEL_ICONS = {
 PRE_RERANK_RESULTS = 20
 
 
-def load_embedding_model():
-    """Lädt das Embedding-Modell mit MPS-Beschleunigung."""
+def load_embedding_model(device: str = None):
+    """Lädt das Embedding-Modell."""
+    if device is None:
+        device = "mps" if sys.platform == "darwin" else "cpu"
     from sentence_transformers import SentenceTransformer
-    device = "mps" if sys.platform == "darwin" else "cpu"
     model = SentenceTransformer(
         EMBEDDING_MODEL,
         trust_remote_code=True,

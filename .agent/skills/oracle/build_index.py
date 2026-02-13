@@ -6,9 +6,11 @@
 # =============================================================================
 """
 Usage:
-    python3 build_index.py                  # Standard (MPs, Batch-Size 4)
-    python3 build_index.py --cpu            # CPU erzwingen (falls MPS crasht/langsam)
+    python3 build_index.py                  # Inkrementell (nur neue/geänderte Dateien)
+    python3 build_index.py --rebuild        # Voller Neuaufbau (löscht alten Index)
+    python3 build_index.py --cpu            # CPU erzwingen
     python3 build_index.py --batch-size 8   # Größere Batches (wenn RAM reicht)
+    python3 build_index.py --status         # Zeigt Index-Status ohne Änderungen
 """
 
 import os
@@ -293,8 +295,44 @@ def process_file(file_info: dict) -> list[dict]:
     return results
 
 
-def build_collection(client, collection_name: str, source_key: str, model, batch_size: int):
-    """Baut eine einzelne ChromaDB-Collection auf."""
+def get_indexed_files(collection) -> dict[str, float]:
+    """Liest alle bereits indexierten Dateien + deren mtime aus der Collection."""
+    indexed = {}
+    try:
+        # Wir holen ALLE Metadaten, aber nur die 'source' und 'mtime' Felder
+        # ChromaDB hat kein 'distinct', also holen wir alles und deduplizieren
+        result = collection.get(
+            include=["metadatas"],
+        )
+        if result and result["metadatas"]:
+            for meta in result["metadatas"]:
+                source = meta.get("source", "")
+                mtime = meta.get("mtime", 0)
+                if source and source not in indexed:
+                    indexed[source] = float(mtime)
+    except Exception:
+        pass
+    return indexed
+
+
+def remove_file_chunks(collection, source_path: str):
+    """Entfernt alle Chunks einer bestimmten Datei aus der Collection."""
+    try:
+        # ChromaDB WHERE-Filter auf Metadaten
+        result = collection.get(
+            where={"source": source_path},
+            include=[],
+        )
+        if result and result["ids"]:
+            collection.delete(ids=result["ids"])
+            return len(result["ids"])
+    except Exception:
+        pass
+    return 0
+
+
+def build_collection(client, collection_name: str, source_key: str, model, batch_size: int, rebuild: bool = False):
+    """Baut eine ChromaDB-Collection auf (inkrementell oder voll)."""
     config = SOURCE_CONFIG[source_key]
     files = collect_files(config["paths"])
     
@@ -302,41 +340,89 @@ def build_collection(client, collection_name: str, source_key: str, model, batch
         print(f"  ❌ Keine Dateien gefunden für '{source_key}'.")
         return 0, 0
     
-    # Alte Collection löschen
-    try:
-        client.delete_collection(collection_name)
-    except Exception:
-        pass
+    if rebuild:
+        # Voller Neuaufbau
+        try:
+            client.delete_collection(collection_name)
+            print(f"  🗑️  Collection '{collection_name}' gelöscht (Rebuild).")
+        except Exception:
+            pass
     
-    collection = client.create_collection(
+    collection = client.get_or_create_collection(
         name=collection_name,
         metadata={"hnsw:space": "cosine"}
     )
     
+    # Bereits indexierte Dateien ermitteln
+    indexed_files = get_indexed_files(collection) if not rebuild else {}
+    
+    # Dateien klassifizieren
+    current_sources = set()
+    files_to_process = []
+    skipped = 0
+    
+    for file_info in files:
+        rel_path = file_info["relative"]
+        current_sources.add(rel_path)
+        file_mtime = file_info["path"].stat().st_mtime
+        
+        if rel_path in indexed_files:
+            old_mtime = indexed_files[rel_path]
+            if abs(file_mtime - old_mtime) < 1.0:  # Gleiche mtime → unverändert
+                skipped += 1
+                continue
+            else:
+                # Datei geändert → alte Chunks entfernen
+                removed = remove_file_chunks(collection, rel_path)
+                if removed:
+                    print(f"  🔄 Aktualisiert: {file_info['path'].name} ({removed} alte Chunks entfernt)")
+        
+        file_info["mtime"] = file_mtime
+        files_to_process.append(file_info)
+    
+    # Gelöschte Dateien aufräumen
+    deleted_sources = set(indexed_files.keys()) - current_sources
+    for deleted in deleted_sources:
+        removed = remove_file_chunks(collection, deleted)
+        if removed:
+            print(f"  🗑️  Entfernt: {deleted} ({removed} Chunks)")
+    
+    if not files_to_process:
+        existing_count = collection.count()
+        print(f"\n  ✅ '{collection_name}': Keine Änderungen. {existing_count} Chunks aktuell.")
+        if skipped:
+            print(f"     ({skipped} Dateien übersprungen, {len(deleted_sources)} gelöscht)")
+        return len(files), existing_count
+    
+    print(f"\n  📂 Verarbeite {len(files_to_process)} von {len(files)} Dateien "
+          f"({skipped} übersprungen, {len(deleted_sources)} gelöscht)...")
+    
     all_chunks = []
     start_time = time.time()
     
-    print(f"\n  📂 Verarbeite {len(files)} Dateien für '{collection_name}'...")
-    
-    for idx, file_info in enumerate(files, 1):
+    for idx, file_info in enumerate(files_to_process, 1):
         chunks = process_file(file_info)
+        
+        # mtime in Metadaten einfügen
+        for chunk in chunks:
+            chunk["metadata"]["mtime"] = file_info["mtime"]
         
         # Fortschrittsanzeige
         elapsed = time.time() - start_time
         if idx > 1:
             avg_time = elapsed / (idx - 1)
-            remaining = avg_time * (len(files) - idx)
+            remaining = avg_time * (len(files_to_process) - idx)
             eta = f"~{remaining:.0f}s verbleibend"
         else:
             eta = "berechne..."
         
         bar_width = 30
-        progress = idx / len(files)
+        progress = idx / len(files_to_process)
         filled = int(bar_width * progress)
         bar = "━" * filled + "╺" + "─" * (bar_width - filled - 1)
         
         chunk_info = f"({len(chunks)} Chunks)" if chunks else "(übersprungen)"
-        print(f"\r  [{idx}/{len(files)}] {file_info['path'].name[:40]:<40} {chunk_info:<16} "
+        print(f"\r  [{idx}/{len(files_to_process)}] {file_info['path'].name[:40]:<40} {chunk_info:<16} "
               f"{bar} {progress*100:5.1f}% | {elapsed:.0f}s | {eta}", end="", flush=True)
         
         all_chunks.extend(chunks)
@@ -345,7 +431,7 @@ def build_collection(client, collection_name: str, source_key: str, model, batch
     
     if not all_chunks:
         print(f"  ❌ Keine Chunks generiert.")
-        return len(files), 0
+        return len(files), collection.count()
     
     # Embeddings generieren
     print(f"\n  🧠 Generiere Embeddings für {len(all_chunks)} Chunks...")
@@ -353,11 +439,6 @@ def build_collection(client, collection_name: str, source_key: str, model, batch
     
     texts = [c["text"] for c in all_chunks]
     
-    # Batch-Embedding mit MPS-Beschleunigung
-    # task='retrieval.passage' nutzt den passenden LoRA-Adapter
-    # Batch-Size wird vom Main durchgereicht, hier hartcodiert -> Fix nötig
-    # Wir übergeben jetzt batch_size an build_collection oder nutzen globales args?
-    # Besser: build_collection bekommt batch_size
     embeddings = model.encode(
         texts,
         task="retrieval.passage",
@@ -367,13 +448,13 @@ def build_collection(client, collection_name: str, source_key: str, model, batch
     
     embed_time = time.time() - embed_start
     print(f"  ✅ Embeddings in {embed_time:.1f}s generiert "
-          f"({len(all_chunks) / embed_time:.0f} Chunks/Sek)")
+          f"({len(all_chunks) / embed_time:.1f} Chunks/Sek)")
     
     # In ChromaDB speichern (Batches von 200)
     print(f"  💾 Speichere in ChromaDB...")
-    batch_size = 200
-    for i in range(0, len(all_chunks), batch_size):
-        batch_end = min(i + batch_size, len(all_chunks))
+    db_batch = 200
+    for i in range(0, len(all_chunks), db_batch):
+        batch_end = min(i + db_batch, len(all_chunks))
         collection.add(
             ids=[c["id"] for c in all_chunks[i:batch_end]],
             embeddings=embeddings[i:batch_end],
@@ -382,10 +463,11 @@ def build_collection(client, collection_name: str, source_key: str, model, batch
         )
     
     total_time = time.time() - start_time
-    print(f"  ✅ Collection '{collection_name}': {len(all_chunks)} Chunks "
-          f"aus {len(files)} Dateien in {total_time:.1f}s")
+    final_count = collection.count()
+    print(f"  ✅ Collection '{collection_name}': {final_count} Chunks total "
+          f"(+{len(all_chunks)} neu) in {total_time:.1f}s")
     
-    return len(files), len(all_chunks)
+    return len(files), final_count
 
 
 # =============================================================================
@@ -415,6 +497,10 @@ def main():
     parser.add_argument("--cpu", action="store_true", help="Erzwingt CPU statt MPS")
     parser.add_argument("--batch-size", type=int, default=default_batch, 
                         help=f"Batch-Größe (Default aus Config: {default_batch})")
+    parser.add_argument("--rebuild", action="store_true",
+                        help="Erzwingt vollen Neuaufbau (löscht alten Index)")
+    parser.add_argument("--status", action="store_true",
+                        help="Zeigt nur den Index-Status an")
     args = parser.parse_args()
     
     print("╔═══════════════════════════════════════════════════╗")
@@ -423,6 +509,26 @@ def main():
     print(f"  Repo:        {REPO_ROOT}")
     print(f"  Chunk-Größe: {CHUNK_SIZE} Zeichen (~{CHUNK_SIZE // 7} Token)")
     print(f"  Modell:      {EMBEDDING_MODEL}")
+    print(f"  Modus:       {'🔄 REBUILD (Voll)' if args.rebuild else '⚡ INKREMENTELL'}")
+    
+    # ChromaDB Client (wird für --status UND Indexierung gebraucht)
+    CHROMA_DIR.mkdir(parents=True, exist_ok=True)
+    import chromadb
+    client = chromadb.PersistentClient(path=str(CHROMA_DIR))
+    
+    # Status-Modus: Nur anzeigen, nichts ändern
+    if args.status:
+        print("\n  📊 Index-Status:")
+        for source_key in ["quellen", "wiki"]:
+            coll_name = SOURCE_CONFIG[source_key]["collection"]
+            try:
+                coll = client.get_collection(coll_name)
+                count = coll.count()
+                indexed = get_indexed_files(coll)
+                print(f"     {coll_name}: {count} Chunks aus {len(indexed)} Dateien")
+            except Exception:
+                print(f"     {coll_name}: ❌ Nicht vorhanden")
+        sys.exit(0)
     
     # Modell laden
     print("\n  🧠 Lade Embedding-Modell...")
@@ -443,11 +549,6 @@ def main():
     )
     print(f"  ✅ Modell geladen")
     
-    # ChromaDB Client
-    CHROMA_DIR.mkdir(parents=True, exist_ok=True)
-    import chromadb
-    client = chromadb.PersistentClient(path=str(CHROMA_DIR))
-    
     # Indexierung
     total_files = 0
     total_chunks = 0
@@ -464,6 +565,7 @@ def main():
             source_key,
             model,
             args.batch_size,
+            rebuild=args.rebuild,
         )
         total_files += n_files
         total_chunks += n_chunks
