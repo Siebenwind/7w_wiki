@@ -17,6 +17,7 @@ import os
 import re
 import sys
 import time
+import hashlib
 import argparse
 from pathlib import Path
 
@@ -264,6 +265,9 @@ def process_file(file_info: dict) -> list[dict]:
     results = []
     filename = file_info["path"].stem
     
+    # Content-Hash über den gesamten bereinigten Text
+    content_hash = hashlib.sha256(clean_text.encode("utf-8")).hexdigest()[:16]
+    
     for i, chunk_text in enumerate(chunks):
         # Chunk-spezifische Entitäten
         chunk_entities = extract_entities(chunk_text)
@@ -289,21 +293,24 @@ def process_file(file_info: dict) -> list[dict]:
                 "chunk_index": i,
                 "total_chunks": len(chunks),
                 "char_count": len(chunk_text),
+                "content_hash": content_hash,
             }
         })
     
     return results
 
 
-def get_indexed_files(collection) -> dict[str, float]:
-    """Liest alle bereits indexierten Dateien + deren mtime aus der Collection."""
+def get_indexed_files(collection) -> dict[str, dict]:
+    """Liest alle indexierten Dateien mit mtime und content_hash.
+    
+    Returns: {source_path: {"mtime": float, "hash": str, "ids": [str]}}
+    """
     indexed = {}
     try:
         count = collection.count()
         if count == 0:
             return {}
             
-        # Paging, da .get() ein Limit hat (meist 10 oder 100)
         batch_size = 5000
         for offset in range(0, count, batch_size):
             result = collection.get(
@@ -312,30 +319,51 @@ def get_indexed_files(collection) -> dict[str, float]:
                 offset=offset
             )
             if result and result["metadatas"]:
-                for meta in result["metadatas"]:
+                for chunk_id, meta in zip(result["ids"], result["metadatas"]):
                     source = meta.get("source", "")
-                    mtime = meta.get("mtime", 0)
-                    if source and source not in indexed:
-                        indexed[source] = float(mtime)
+                    if not source:
+                        continue
+                    if source not in indexed:
+                        indexed[source] = {
+                            "mtime": float(meta.get("mtime", 0)),
+                            "hash": meta.get("content_hash", ""),
+                            "ids": [],
+                        }
+                    indexed[source]["ids"].append(chunk_id)
     except Exception as e:
         print(f"  ⚠️  Fehler beim Lesen des Index-Status: {e}")
     return indexed
 
 
-def remove_file_chunks(collection, source_path: str):
-    """Entfernt alle Chunks einer bestimmten Datei aus der Collection."""
+def remove_file_chunks(collection, source_path: str = None, chunk_ids: list = None):
+    """Entfernt Chunks aus der Collection (per Pfad oder IDs)."""
     try:
-        # ChromaDB WHERE-Filter auf Metadaten
-        result = collection.get(
-            where={"source": source_path},
-            include=[],
-        )
-        if result and result["ids"]:
-            collection.delete(ids=result["ids"])
-            return len(result["ids"])
+        if chunk_ids:
+            collection.delete(ids=chunk_ids)
+            return len(chunk_ids)
+        elif source_path:
+            result = collection.get(
+                where={"source": source_path},
+                include=[],
+            )
+            if result and result["ids"]:
+                collection.delete(ids=result["ids"])
+                return len(result["ids"])
     except Exception:
         pass
     return 0
+
+
+def update_chunk_metadata(collection, chunk_ids: list, new_source: str):
+    """Aktualisiert den source-Pfad bestehender Chunks (für Renames)."""
+    try:
+        for chunk_id in chunk_ids:
+            collection.update(
+                ids=[chunk_id],
+                metadatas=[{"source": new_source}],
+            )
+    except Exception as e:
+        print(f"  ⚠️  Metadata-Update fehlgeschlagen: {e}")
 
 
 def build_collection(client, collection_name: str, source_key: str, model, batch_size: int, rebuild: bool = False):
@@ -363,46 +391,76 @@ def build_collection(client, collection_name: str, source_key: str, model, batch
     # Bereits indexierte Dateien ermitteln
     indexed_files = get_indexed_files(collection) if not rebuild else {}
     
+    # Hash-Index für Rename-Erkennung: {hash -> (source, info)}
+    hash_to_source = {}
+    for src, info in indexed_files.items():
+        if info["hash"]:
+            hash_to_source[info["hash"]] = (src, info)
+    
     # Dateien klassifizieren
     current_sources = set()
     files_to_process = []
     skipped = 0
+    renamed = 0
     
     for file_info in files:
         rel_path = file_info["relative"]
         current_sources.add(rel_path)
         file_mtime = file_info["path"].stat().st_mtime
         
+        # Content-Hash berechnen
+        try:
+            raw = file_info["path"].read_text(encoding="utf-8")
+            clean = strip_yaml_frontmatter(raw)
+            file_hash = hashlib.sha256(clean.encode("utf-8")).hexdigest()[:16]
+        except Exception:
+            file_hash = ""
+        
+        file_info["mtime"] = file_mtime
+        file_info["content_hash"] = file_hash
+        
         if rel_path in indexed_files:
-            old_mtime = indexed_files[rel_path]
-            if abs(file_mtime - old_mtime) < 1.0:  # Gleiche mtime → unverändert
+            old_info = indexed_files[rel_path]
+            if old_info["hash"] and old_info["hash"] == file_hash:
+                # Gleicher Pfad, gleicher Inhalt → unverändert
                 skipped += 1
                 continue
             else:
-                # Datei geändert → alte Chunks entfernen
-                removed = remove_file_chunks(collection, rel_path)
+                # Gleicher Pfad, anderer Inhalt → Content geändert → re-index
+                removed = remove_file_chunks(collection, chunk_ids=old_info["ids"])
                 if removed:
-                    print(f"  🔄 Aktualisiert: {file_info['path'].name} ({removed} alte Chunks entfernt)")
-        
-        file_info["mtime"] = file_mtime
-        files_to_process.append(file_info)
+                    print(f"  🔄 Geändert: {file_info['path'].name} ({removed} Chunks entfernt)")
+                files_to_process.append(file_info)
+        elif file_hash and file_hash in hash_to_source:
+            # Neuer Pfad, aber gleicher Content → Rename!
+            old_source, old_info = hash_to_source[file_hash]
+            update_chunk_metadata(collection, old_info["ids"], rel_path)
+            print(f"  📝 Rename erkannt: {Path(old_source).name} → {file_info['path'].name} "
+                  f"({len(old_info['ids'])} Chunks behalten)")
+            renamed += 1
+            # Alten Pfad aus der "gelöscht"-Prüfung ausnehmen
+            current_sources.add(old_source)
+            skipped += 1
+        else:
+            # Komplett neue Datei
+            files_to_process.append(file_info)
     
     # Gelöschte Dateien aufräumen
     deleted_sources = set(indexed_files.keys()) - current_sources
     for deleted in deleted_sources:
-        removed = remove_file_chunks(collection, deleted)
+        removed = remove_file_chunks(collection, chunk_ids=indexed_files[deleted]["ids"])
         if removed:
-            print(f"  🗑️  Entfernt: {deleted} ({removed} Chunks)")
+            print(f"  🗑️  Entfernt: {Path(deleted).name} ({removed} Chunks)")
     
     if not files_to_process:
         existing_count = collection.count()
         print(f"\n  ✅ '{collection_name}': Keine Änderungen. {existing_count} Chunks aktuell.")
-        if skipped:
-            print(f"     ({skipped} Dateien übersprungen, {len(deleted_sources)} gelöscht)")
+        if skipped or renamed:
+            print(f"     ({skipped} übersprungen, {renamed} umbenannt, {len(deleted_sources)} gelöscht)")
         return len(files), existing_count
     
     print(f"\n  📂 Verarbeite {len(files_to_process)} von {len(files)} Dateien "
-          f"({skipped} übersprungen, {len(deleted_sources)} gelöscht)...")
+          f"({skipped} übersprungen, {renamed} umbenannt, {len(deleted_sources)} gelöscht)...")
     
     # =========================================================================
     # PER-FILE PIPELINE: Chunk → Embed → Save (sofort persistent!)
