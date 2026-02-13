@@ -20,6 +20,9 @@ Dieser Workflow ist das "Arbeitstier" des Oberarchivars. Er bündelt die Ingesti
 ### B. RVW-Loop (Massendurchlauf)
 Für jede identifizierte Datei wird der [RVW-Loop](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/workflows/rvw_loop.md) ausgeführt:
 1. **Read:** Extraktion des Inhalts (Fokus auf "Roman-Qualität").
+    - **PFLICHT:** Entity Manifest erstellen (Schritt 1.5 des RVW-Loops).
+    - **PFLICHT:** Manifest gegen bestehende Register abgleichen (✅/❌).
+    - **PFLICHT:** Bei Texten > 100 Zeilen das Zwei-Pass-Verfahren anwenden.
 2. **Verify:** Abgleich mit dem `#canon` (Lokal-Kanon ist oberstes Gesetz).
 3. **Write:** Erstellung/Aktualisierung der Wiki-Files unter Einhaltung des [Style Guides](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/workflows/wiki_style_guide.md).
 
@@ -31,6 +34,9 @@ Am Ende des Batches erstellt der Agent eine Zusammenfassung im Chat mit folgende
 
 ### 📦 Batch-Report: [Bereich Bezeichnung]
 - [x] **Quelle 1:** Integriert (Entitäten: [[Name1]], [[Name2]])
+    - Neue Organisationen: [[Gilde_X]], [[Bund_Y]]
+    - Neue Kreaturen: [[Wesen_Z]]
+    - Fehlende Artikel: N (→ Backlog)
 - [x] **Quelle 2:** Integriert (Inkonsistenz geloggt: [Typ])
 - [ ] **Quelle 3:** Übersprungen (Grund: [Grund])
 
@@ -38,6 +44,7 @@ Am Ende des Batches erstellt der Agent eine Zusammenfassung im Chat mit folgende
 - Erstellte Artikel: X
 - Aktualisierte Register: Y
 - Geloggte Konflikte: Z (siehe [Konsistenzbericht](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md))
+- Ingestion-Log Einträge: X (siehe [INGESTION_LOG.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/INGESTION_LOG.md))
 
 ---
 **Nutzung:** `/batch Bote 191-193`

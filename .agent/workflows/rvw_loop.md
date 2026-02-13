@@ -19,6 +19,52 @@ This workflow defines the standard process for the Oberarchivar agent to convert
     - **Entity Targets:** Specifically hunt for **Notable Figures**, **Historic Events**, **Guild/Craft Secrets**, and **Creature Lore**. Aim for "Roman-Qualität" (Novel quality).
     - **Linguistic Extraction (Skill: Linguist):** Identify new vocabulary or language fragments (e.g., `[isd]`, `[dw]`).
 
+### Lange Texte (> 100 Zeilen) – Zwei-Pass-Verfahren
+Bei Texten über 100 Zeilen **MUSS** ein Zwei-Pass-Verfahren angewendet werden:
+
+**Pass 1 – Struktur-Scan:** Den gesamten Text überfliegen und grobe Sektionen identifizieren (Kapitel, Zeitsprünge, Perspektivenwechsel). Jede Sektion kurz zusammenfassen.
+
+**Pass 2 – Detail-Scan:** Jede Sektion einzeln durchgehen und das Entity Manifest (Schritt 1.5) befüllen. Besonders auf **beiläufig erwähnte Entitäten** achten (z.B. "die Gilde der Feinschmiede" in einem Nebensatz, ein Ortsname in einer Wegbeschreibung, ein Titel eines Amtsträgers).
+
+## 1.5 ENTITY MANIFEST (Pflicht-Scan)
+*   **Step:** Erstelle nach dem Lesen des Textes ein strukturiertes Manifest.
+*   **Action:** Dieses Manifest wird im Chat ausgegeben und dient als Checkliste für Phase 3 (Production) und Phase 4 (Post-Write Sync). Gleiche **jede** gefundene Entität gegen die bestehenden Register ab.
+
+### Scan-Kategorien (ALLE prüfen):
+
+| Kategorie | Scan-Frage | Register-Ziel |
+|---|---|---|
+| **Personen** | Wer wird namentlich erwähnt? (inkl. Titel, Amt, Spitzname) | `Personenregister.md` |
+| **Organisationen** | Welche Gilden, Orden, Bünde, Einheiten, Kulte werden genannt? | `Organisationsregister.md` |
+| **Kreaturen** | Welche Wesen/Monster/Tiere werden beschrieben? | `Bestiarium_Register.md` |
+| **Orte** | Welche Städte, Gebäude, Landmarken, Regionen werden erwähnt? | Geografie-Artikel |
+| **Ereignisse** | Welche historischen Events werden erwähnt? (Kriege, Krönungen, Seuchen) | Chronik / Geschichte |
+| **Gegenstände** | Werden besondere Artefakte oder Waffen erwähnt? | Bibliothek / Glossar |
+| **Konzepte** | Werden Magie-Systeme, Rituale, Gesetze, Bräuche erklärt? | Fundament |
+
+### Output-Format:
+```
+📋 ENTITY MANIFEST: [Quellenname]
+───────────────────────────────────
+👤 PERSONEN:
+- [Name] | [Rolle/Titel] | [Kontext] | [Existiert im Register: ✅/❌]
+
+🏛️ ORGANISATIONEN:
+- [Name] | [Typ] | [Kontext] | [Existiert im Register: ✅/❌]
+
+🐉 KREATUREN:
+- [Name] | [Klassifizierung] | [Kontext] | [Existiert im Register: ✅/❌]
+
+📍 ORTE:
+- [Name] | [Typ] | [Region] | [Existiert als Artikel: ✅/❌]
+
+⚔️ EREIGNISSE:
+- [Event] | [Datum falls bekannt] | [Kontext]
+
+🔮 KONZEPTE/GEGENSTÄNDE:
+- [Name] | [Typ] | [Kontext]
+```
+
 ## 2. VERIFICATION (Truth Hierarchy & Escalation)
 *   **Step:** Validate extracted facts against the tiered source of truth.
 *   **Action:**
@@ -81,6 +127,11 @@ layout: wiki_page
 *   **Action:**
     *   **Lore Conflict Check:** Did you find contradictions? Update [[Konsistenzbericht_2026]].
     *   **Uncertainty Check:** Is anything marked `[UNGEKLÄRT]`? Document the reason in the report.
+    *   **Ingestion Log [PFLICHT]:** Append einen Eintrag in `Logs/INGESTION_LOG.md` mit:
+        - Datum (ISO-8601), Quellenname, Quellentyp und Epistemik.
+        - Tabelle aller extrahierten Entitäten mit Aktion (NEU/AKTUALISIERT/VERLINKT) und Zieldatei.
+        - Tabelle der Register-Updates.
+        - Notizen zu Inkonsistenzen (Verweis auf Konsistenzbericht).
     *   Update `task.md` (mark item as `[x]`).
     *   Clear temporary context (focus on next item).
 
