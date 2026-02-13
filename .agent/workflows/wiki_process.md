@@ -12,7 +12,8 @@ Dieser Workflow beschreibt den standardisierten Prozess, um neue Quellen (HTML, 
     - `/Quellen/Zeitung 7w Bote/` -> `#bote`
     - `/Quellen/Bibliothek/` -> `#überlieferung`
     - `/Quellen/Spielergeschichten/` -> `#perspektive`
-4.  **Inkonsistenz-Precheck:** Suche nach bestehenden Artikeln zum Thema. Falls die neue Quelle dem vorhandenen Wiki-Stand widerspricht, lege **sofort** einen Eintrag im [Konsistenzbericht 2026](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md) an.
+4.  **Synapse check:** Prüfe das `/System/Synapse_Board/` auf offene Tickets zum Thema.
+5.  **Inkonsistenz-Precheck:** Suche nach bestehenden Artikeln zum Thema. Falls die neue Quelle dem vorhandenen Wiki-Stand widerspricht, lege **sofort** ein Ticket auf dem Synapse-Board an.
 5.  **Auto-Sync:** Führe den Sync-Automator aus:
     ```bash
     python3 .agent/skills/wiki_schmied/scripts/source_sync_automator.py
@@ -33,9 +34,12 @@ layout: wiki_page
     python3 .agent/skills/wiki_schmied/scripts/wiki_sanitizer.py [Dateipfad]
     ```
 
-### Phase 4: Validierung & Konsistenz (Validation)
+### Phase 4: Validierung, Konsistenz & Scoring (Validation)
 1.  **Kanon-Check:** Abgleich mit `/Hintergrund/` (#canon) und `/Zeitung 7w Bote/` (#bote).
-2.  **Linguistik-Check (Skill: Linguist):** 
+2.  **Lore Trust Scoring:** 
+    - Berechne den initialen Score (0-10).
+    - Nutze `python3 .agent/scripts/lore_score_manager.py [Dateipfad]`.
+3.  **Linguistik-Check (Skill: Linguist):** 
     - Werden Begriffe korrekt übersetzt? 
     - Sind die Sprach-Flags (`[run]`, `[isd]`, etc.) korrekt gesetzt?
     - Entspricht das Vokabular der [[Linguistik_Übersicht]]?
@@ -53,6 +57,11 @@ layout: wiki_page
     - **Organisationen:** Konsistenz-Check mit dem Personenregister (Gildenmeister).
     - **Chronik:** Sicherstellung der korrekten Datumslinks.
 
-### Phase 5: Dokumentation (Logging)
+### Phase 6: Lore-Auditor & Scoring-Boost (Post-Integration)
+1.  **Revisions-Check:** Der Historiker prüft den Artikel auf erzählerische Dichte (Novel-Quality).
+2.  **Score-Erhöhung:** Falls die Kriterien erfüllt sind, erhöhe den `lore_trust` manuell oder via Skript-Flag.
+3.  **Transparenz-Markierung:** Setze den unsichtbaren Audit-Kommentar im Markdown.
+
+### Phase 7: Dokumentation (Logging)
 1.  **Inventar aktualisieren:** Ändere den Status in `Logs/INVENTUR_QUELLEN.md` von "Pending" auf "Integrated".
-2.  **Commit:** Erstelle einen Git-Commit: `Wiki-Processing: [Dateiname] integriert.`
+2.  **Commit:** Erstelle einen Git-Commit: `Wiki-Processing: [Dateiname] integriert (Lore-Score: X).`

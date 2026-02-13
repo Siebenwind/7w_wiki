@@ -169,14 +169,14 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Filename | Library | Author (inferred) | Status |
 |----------|---------|-------------------|--------|
 | Aequilibrium Philosophie des Gleichgewichts das Tor des Bösen in unsere Sphäre?.md | Astrael | - | Done |
-| Aequitas.md | Astrael | - | Pending |
+| Aequitas.md | Astrael | - | Integrated |
 | Bibliothek vom Heiligen Auge Astraels - Brandenstein.md | Astrael | Bibliothek vom Heiligen Auge Astraels | Done |
-| Brevier des Ordo Astraeli.md | Astrael | - | Pending |
+| Brevier des Ordo Astraeli.md | Astrael | - | Integrated |
 | Brevier des Ordo Belli.md | Astrael | - | Done |
 | Brevier des Ordo Morsanes.md | Astrael | - | Done |
 | Brevier des Ordo Vitamae.md | Astrael | - | Done |
 | Codex Astraeli.md | Astrael | - | Done |
-| Codex Iuris Canonici.md | Astrael | - | Pending |
+| Codex Iuris Canonici.md | Astrael | - | Integrated |
 | Das Buch der Bartanatomie.md | Astrael | - | Done |
 | De Deis Et Deorum Falsis Simulacris.md | Astrael | - | Done |
 | De Itinere Honoris.md | Astrael | - | Done |

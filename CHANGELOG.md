@@ -152,6 +152,11 @@ Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgeha
 
 ### Ergebnisse
 - Erfolgreiche Eliminierung von "Fanon"-Elementen (Halluzinationen), die sich in die Regionsbeschreibungen eingeschlichen hatten.
+### [Phase 14] - 2026-02-13
+- **Ingestion:** Verarbeitung von 5 Spielergeschichten (Batch 19).
+- **Entitäten:** Erstellung von 12+ neuen Personenprofilen und 3 Organisationen.
+- **Lore:** Dokumentation der Argionemes-Verschwörung und der Schwarzen Legion.
+- **Wartung:** Konsolidierung von Dubletten und Update des Personenregisters.
 - Klare Trennung zwischen aktiven (Königliche Akademie) und historischen (Tiefenbach, Schwarze Künste) Magieschulen hergestellt.
 
 ## [2026-02-13.1] - Historiker-Review & Register-Cleanup

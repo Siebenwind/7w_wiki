@@ -2,27 +2,35 @@
 layout: wiki_page
 title: Tintin (Waljakov)
 category: Persönlichkeit
+uuid: 4a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p
+quelle: ../../Quellen/Spielergeschichten/Der Flug der Ente..md
+letzter_check: 2026-02-13T22:45:00
 ---
 
 # Tintin (Waljakov)
 
 **Epistemischer Status:** #perspektive
+**Titel:** Däumling-Schiffsbauer / Ventus-Priester
+**Zugehörigkeit:** [[Ecclesia]] / [[Brandenstein]]
+**Zeitraum:** Aktiv um 22 n.H.
 
-**Status:** Verschollen / Auf See
-**Fraktion:** [[Brandenstein]] / [[Ventus-Kirche]]
-**Epistemic Status:** #canon #perspektive
+## Beschreibung
+Tintin, bürgerlich Waljakov, ist ein für seinen unbändigen Forschergeist und seinen unerschütterlichen Optimismus bekannter Däumling (Kobold). Er zeichnet sich durch blonde Haare und eine zierliche Statur aus, die jedoch von einer überraschenden Zähigkeit und handwerklichem Geschick in der Maritimen Architektur kompensiert wird. In [[Brandenstein]] war er als Schüler des Erzpriesters [[Vencurius]] bekannt, bevor ihn das Fernweh in die unbekannten Weiten der See trieb.
 
-## Hintergrund
-Tintin, bürgerlich Waljakov, war ein talentierter Schiffsbauer und geweihter Diener des [[08_Ventus]] in [[Brandenstein]]. Er war bekannt für seine unkonventionellen Ideen (wie die "Ente") und seinen unbändigen Forschergeist.
+## Wirken
+Im Jahr 22 n.H. konstruierte Tintin in einer Werft westlich des Brandensteiner Marktplatzes sein Lebenswerk: Die [[Ente]], ein robustes, wenn auch eigenwilliges Schiff für Einhandsegler. 
 
-## Die Expedition (22 n.H.)
-Tintin brach mit der "Ente", einem von ihm selbst konstruierten Schiff, zu einer Reise ins Unbekannte auf. Ziel war es, die Grenzen der bekannten See zu kartieren.
-- **Entdeckungen:** Er berichtete von dem [[Obsidian_Spire]] und gigantischen Algennetzen in den fernen Gewässern.
-- **Schicksal:** Er gilt offiziell als verschollen, obwohl Berichte über eine telepathische oder visionäre Stärkung durch [[Vencurius]] darauf hindeuten, dass er zumindest die frühen Gefahren seiner Reise überlebt hat.
+### Der Flug der Ente
+Seine Reise führte ihn weit über die bekannten Karten hinaus. In seinen Logbüchern dokumentierte er:
+*   **Wetterphänomene:** Das Durchqueren eines gigantischen "Rings aus Stürmen".
+*   **Das Säulenmeer:** Ein unendliches Feld aus unzerstörbaren, obsidianartigen Steinstelen im Ozean.
+*   **Algennetze:** Riesige, organische Fallen, die ganze Wal-Skelette und Schwärme von fliegenden Fischwesen beherbergen.
 
-## Lore-Anker
-- **Die "Ente":** Ein Symbol für technologische Innovation im Schiffsbau.
-- **Seefieber:** Tintins Logbücher geben Einblick in die psychischen Belastungen extremer Einsamkeit auf dem Ozean.
+Während der Reise litt Tintin unter extremer Einsamkeit, die er durch Gespräche mit einem geschnitzten Kürbis namens "Clara" zu kompensieren versuchte. 
 
 ## Überlieferungen
-- [[Der_Flug_der_Ente]]: Erwähnung in der Überlieferung.
+*   [[Der_Flug_der_Ente]] (Erzählung seiner Reise)
+*   [[Vencurius]] (Sein Mentor, der versuchte, ihn magisch zu suchen)
+
+## Quellen
+*   [Der Flug der Ente](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)

@@ -2,26 +2,27 @@
 layout: wiki_page
 title: Telandrion
 category: Persönlichkeit
+uuid: t3l-4ndr-i0n-ignis
+quelle: ../../Quellen/Spielergeschichten/Der Flug der Ente..md
+letzter_check: 2026-02-13T22:45:00
 ---
 
 # Telandrion
 
 **Epistemischer Status:** #perspektive
+**Titel:** Diener des Ignis
+**Zugehörigkeit:** [[Ignis-Kirche]] / [[Kesselklamm]]
+**Zeitraum:** Aktiv um 22 n.H.
 
-**Status:** Aktiv
-**Fraktion:** [[Dwarschim]] / Schwarzmagier ([[06_Ignis]]-Diener)
-**Ort:** [[Kesselklamm]]
-**Epistemic Status:** #canon
+## Beschreibung
+Telandrion ist ein Diener des Gottes [[Ignis]], erkennbar an seinen roten Roben und seinem schwarzen, mit Ignisrunen übersäten Stab. Er ist ein Kenner des elementaren Gewebes und in der Lage, magische Erschütterungen über große Distanzen hinweg zu spüren.
 
-## Hintergrund
-Telandrion ist ein in Kesselklamm ansässiger Gelehrter, der sich oft in der Taverne der Dwarschim aufhält. Er trägt üblicherweise rote Roben und einen schwarzen Stab, der mit [[06_Ignis]]-Runen übersät ist.
-
-## Rolle & Aktivitäten
-- **Elementar-Spürsinn:** Als [[06_Ignis]]-Diener besitzt er eine hohe Sensibilität für elementare Erschütterungen. Er spürte die Entfesselung der Kräfte durch Vencurius während dessen Suche nach [[Tintin]].
-- **Verbindung zu Vencurius:** Er eilte Vencurius zur Hilfe, als dieser nach dem "Tanz des Windes" erschöpft auf den Klippen von [[Brandenstein]] zusammenbrach, und brachte ihn zur Priorei.
-
-## Lore-Anker
-- **Kesselklamm:** Telandrion ist ein wichtiges Bindeglied zwischen der zwergischen Kultur der Kesselklamm und den menschlichen Magiewirkern.
+## Wirken
+Während er in einer Taverne in der [[Kesselklamm]] zwergisches Bier genoss und alte Schriftrollen studierte, spürte Telandrion die massive magische Entladung von [[Vencurius]]. Er ritt daraufhin nach Brandenstein, fand den erschöpften Erzpriester auf den Klippen und rettete ihn, indem er ihn in die Priorei der [[Ecclesia]] brachte.
 
 ## Überlieferungen
-- [[Der_Flug_der_Ente]]: Erwähnung in der Überlieferung.
+*   [[Der_Flug_der_Ente]]
+*   [[Vencurius]]
+
+## Quellen
+*   [Der Flug der Ente](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)

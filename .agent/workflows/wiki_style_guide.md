@@ -18,6 +18,7 @@ title: [Display Title]
 category: [Persönlichkeit | Geschichte | Erzählung | Geografie | Religion | Magie]
 uuid: [UUID-v4]
 quelle: ../../Quellen/[Unterordner]/[Dateiname].md
+lore_trust: [0-10]
 letzter_check: [ISO-8601 Zeitstempel inkl. Uhrzeit]
 ---
 ```
@@ -51,8 +52,9 @@ Die vier epistemischen Tags definieren die **Verlässlichkeit** einer Informatio
 3. **Neue Fakten nur aus `#perspektive`:** Dürfen ins Wiki, wenn sie dem Kanon nicht widersprechen. Müssen als `#perspektive` getaggt bleiben.
 
 ### Zusätzliche Meta-Tags (KEINE Verlässlichkeitsränge)
-- `#meta` — Register, Index-Dateien, Übersichtsseiten (aggregieren Wissen, sind selbst keine Quellen)
-- `#gemischt` — Artikel mit Informationen aus mehreren Verlässlichkeitsrängen (z.B. Kanon-Basis + Boten-Details)
+- `#meta` — Register, Index-Dateien, Übersichtsseiten.
+- `#gemischt` — Artikel mit Informationen aus mehreren Verlässlichkeitsrängen.
+- `[Synapse]` — Markiert Abschnitte im Fließtext, die Gegenstand eines aktiven oder gelösten Tickets auf dem Synapse-Board sind.
 
 
 ## 4. Standardized Headers per Category

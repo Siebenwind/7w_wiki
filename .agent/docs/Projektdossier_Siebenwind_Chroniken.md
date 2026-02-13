@@ -1,62 +1,50 @@
+# Projektdossier: Siebenwind Lore Engine v2.1
+
+**Epistemischer Status:** #canon
+**Status:** Primäre Projekt-Spezifikation (v2.1)
+**Ziel:** Transformation von 20 Jahren Rollenspiel-Geschichte in eine standardisierte, KI-gesteuerte Lore-Intelligence-Plattform.
+
 ---
-layout: wiki_page
-title: Projektdossier Siebenwind Chroniken
-category: Sonstiges
+
+## 1. Vision & Leitbild
+Die **Siebenwind Lore Engine** ist mehr als ein Wiki. Sie ist ein intelligentes Ökosystem, das historische Kausalitäten, göttliche Einflüsse und subjektive Überlieferungen in ein kohärentes Ganzes verwebt. 
+
+Das Ziel ist die Erstellung einer **"Single Source of Truth"**, die sowohl für menschliche Leser (MkDocs) als auch für künstliche Agenten (LLMs via CLI/API) als ultimative Referenz für die Welt von Siebenwind dient.
+
 ---
 
-# Projektdossier Siebenwind Chroniken
+## 2. Das Epistemische System (Die 4 Säulen der Wahrheit)
+Wir sind von starren Quell-Leveln zu einem dynamischen Wahrheitsmodell übergegangen:
 
-**Epistemischer Status:** #perspektive
-**Status:** Projekt-Spezifikation für KI-Agenten
-**Ziel:** Erstellung eines konsistenten, strukturierten Wikis auf Basis historischer und aktueller Daten.
+1.  **🔴 #canon (Das Fundament):** Unumstößliche Weltgesetze, geografische Axiome und göttliche Ordnung. (Quelle: `/Hintergrund`)
+2.  **🟡 #bote (Die Chronik):** Zeitgeschichtliche Berichte des "Siebenwind Boten". Faktisch korrekt im Kontext ihrer Zeit. (Quelle: `/7w Bote`)
+3.  **🔵 #perspektive (Das Echo):** Spielerberichte, Briefe, Biografien. Subjektiv, atmosphärisch, potenziell widersprüchlich. (Quelle: `/Spielergeschichten`)
+4.  **⚪ #überlieferung (Der Mythos):** Legenden, archaische Sagen und volkstümliches Wissen. (Quelle: `## Überlieferungen` Sektionen)
 
-## 1. Vision
-Das Ziel ist die Überführung von über 20 Jahren gewachsener Rollenspiel-Geschichte in eine strukturierte Wissensdatenbank (Wiki). Die KI muss dabei nicht nur Texte zusammenfassen, sondern die **Kausalitäten** der Welt verstehen (z.B. Wie beeinflusst der Zorn eines Gottes das Klima oder die Politik einer Region?).
+---
 
-## 2. Die Quell-Architektur
-Die Daten sind in drei logische Layer unterteilt:
+## 3. Die Intelligenz-Architektur
+Das Projekt ist in drei funktionale Schichten unterteilt:
 
-*   **Layer 1: Das Fundament (Kanon):** Daten der Homepage (www.siebenwind.de). Diese enthalten die „Naturgesetze“ (Götter, Magiesystem, Zeitrechnung, Geografie). **Priorität: Absolut.**
-*   **Layer 2: Die Chronik (Staff-Lore):** Offizielle Berichte, Bücher und Weltereignisse, die von Spielleitern verfasst wurden. **Priorität: Hoch.**
-*   **Layer 3: Das Echo (Spieler-Lore):** Tagebücher, Geschichten und Berichte von Charakteren. Diese enthalten wertvolle Details, können aber subjektiv gefärbt sein. **Priorität: Interpretativ.**
+- **Layer 1: Das Archiv (Markdown)**: Hochstandardisierte Dateien mit striktem YAML-Frontmatter und relativer Verlinkung.
+- **Layer 2: Das Gehirn (Intelligence Layer)**: Modulare KI-Skills (Orakel/RAG, Linguist, Wiki-Schmied) und automatisierte Workflows.
+- **Layer 3: Das Interface (Unified CLI)**: Die Schnittstelle `7w.py`, die menschlichen Nutzern und externen KIs (z.B. Gemini CLI) Zugriff auf die Lore ermöglicht.
 
-## 3. Die „Siebenwind-Axiome“ (Kern-Regeln)
-1.  **Göttliche Kausalität:** Magie ist kein Naturgesetz, sondern ein Geschenk oder Werkzeug der Götter.
-2.  **Zeitrechnung:** Alles muss in den „Sonnenzirkel“ (Siebenwind-Kalender) eingeordnet werden.
-3.  **Das Königreich:** Die zentrale politische Entität mit spezifischen Hierarchien und Rechtssystemen.
-4.  **Low-Fantasy-Einschlag:** Trotz Magie und Göttern ist die Welt dreckig, gefährlich und menschlich-politisch motiviert.
+---
 
-# Projektdossier: Wissensdatenbank Siebenwind
-**Zweck:** Migration und Konsolidierung von 20 Jahren Lore in ein strukturiertes Wiki.
-**System-Umgebung:** Google Antigravity Agentic Workflow.
+## 4. Die Siebenwind-Axiome (Core Logic)
+Jede Ingestion und jeder Wiki-Artikel muss diese Axiome respektieren:
+1.  **Göttlicher Ursprung:** Magie und Wunder sind keine autonomen Kräfte. Sie entspringen den Göttern oder Dämonen.
+2.  **Temporal-Präzision:** Ereignisse werden im "Sonnenzirkel" (n.H. - nach Gründung Helighenstadts) datiert.
+3.  **Narrative Tiefe:** Artikel streben "Roman-Qualität" an. Fakten werden narrativ eingebettet, ohne die Übersichtlichkeit zu opfern.
 
-## 1. Daten-Hierarchie (Weighting)
-Die Quellen im Verzeichnis `/Quellen/` werden nach folgender Priorität gewichtet:
+---
 
-1.  **Level 1 - Der Anker (Kanon):** 
-    - URL: `www.siebenwind.de` (Hintergrund-Sektion)
-    - Lokal: `/Quellen/Hintergrund/`
-    - *Bedeutung:* Unumstößliche Wahrheit.
+## 5. Standardisierung & Wartung
+Das Projekt nutzt automatisierte **Audit-Loops** (`/audit`, `/repair`), um:
+- Duplikate in Registern zu verhindern.
+- Verwaiste Profile (Orphans) zu erkennen und zu heilen.
+- Die Konsistenz zwischen verschiedenen epistemischen Ebenen zu wahren.
 
-2.  **Level 2 - Die Chronik (Offizielles Wissen):**
-    - Lokal: `/Quellen/Zeitung 7w Bote/`
-    - *Bedeutung:* Zeitliche Abfolge der Weltereignisse.
-
-3.  **Level 3 - Die Überlieferung (Gelehrtentum):**
-    - Lokal: `/Quellen/Bibliothek Astrael/` und `/Quellen/Bibliothek Toran Dur/`
-    - *Bedeutung:* Tiefgehende Lore, oft aus spezifischen kulturellen Blickwinkeln (z.B. menschlich vs. zwergisch).
-
-4.  **Level 4 - Das Echo (Individuelle Lore):**
-    - Lokal: `/Quellen/Spielergeschichten/`
-    - *Bedeutung:* Details, Atmosphäre, persönliche Schicksale. Darf Kanon ergänzen, aber nicht verändern.
-
-## 2. Die Siebenwind-Axiome (Kern-Logik)
-Jeder Agent muss diese Logik bei der Erstellung des Wikis anwenden:
-- **Zeitrechnung:** Basis ist der "Sonnenzirkel".
-- **Magie:** Immer göttlichen oder dämonischen Ursprungs. Keine "technische" Magie ohne Entität im Hintergrund.
-- **Geografie:** Das Königreich und die Inselwelt von Siebenwind sind das primäre Setting.
-
-## 3. Ziel-Struktur der Wissensdatenbank
-Jeder Output muss als valide Markdown-Datei (`.md`) erfolgen:
-- **Dateiname:** `Kategorie_Name des Artikels.md`
-- **Inhalt:** Frontmatter -> Einleitung -> Strukturierter Hauptteil -> Verlinkte Themen.
+---
+*Zuletzt aktualisiert: 13.02.2026 durch Antigravity (Archivar & System-Architekt)*

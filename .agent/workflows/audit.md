@@ -6,9 +6,9 @@ description: Konsistenz-Audit & Vollständigkeitsprüfung (/audit)
 
 Dieser Workflow dient der regelmäßigen Überprüfung der Lore-Integrität und der Abarbeitung identifizierter Inkonsistenzen.
 
-## 1. Sichtung der Berichte
-1.  Öffne den aktuellen Bericht: [Konsistenzbericht 2026](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md).
-2.  Filtere nach Einträgen mit dem Status **⚠️ Offen** oder **Widerspruch**.
+## 1. Sichtung der Berichte & Tickets
+1.  **Synapse Board:** Öffne das `/System/Synapse_Board/` und prüfe auf offene Tickets mit Status `NEEDS_REVIEW`.
+2.  **Legacy:** Öffne den [Konsistenzbericht 2026](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md) für ältere Einträge.
 
 ## 2. Verifikation & Cross-Check
 - Nutze den **[Lore-Gelehrten]** Skill, um die betroffenen Artikel im Wiki gegen den Kanon (`/Hintergrund/`) zu prüfen.
@@ -57,18 +57,8 @@ Für jedes vom Skript oder manuell identifizierte verwaiste Profil:
 - Der Report dokumentiert **alle Prüfergebnisse** mit konkreten Zahlen und Tabellen.
 - Empfehlungen für Prozessverbesserungen werden im Report formuliert und in die betroffenen Workflows übernommen.
 
-## 6. Vollständigkeits-Vorgabe
-Jeder Workflow MUSS bei Fund einer Inkongruenz folgenden Block im Bericht ergänzen:
-
-```markdown
----
-## [KATEGORIE] Titel des Konflikts
-**Quelle:** [[Wiki-Link]] / [Dateipfad]
-**Datum:** [ISO 8601 Zeitstempel, z.B. 2026-02-12T22:30+01:00]
-**Inhalt:** Kurze Beschreibung der Abweichung.
-**Status:** ⚠️ Offen
-**Aktion:** Was muss getan werden?
-```
+## 6. Synapse-Vorgabe (Melde-Modus)
+Jeder Workflow MUSS bei Fund einer Inkongruenz ein Ticket auf dem Synapse-Board erstellen. Nutze dazu die Vorlage `_TEMPLATE_TICKET.md`.
 
 ## 7. Audit-Abschluss & Statistiken
 - Führe den Workflow `/stats` aus, um die globalen Wiki-Werte (Ingestion-Rate, Lore-Dichte) zu aktualisieren.

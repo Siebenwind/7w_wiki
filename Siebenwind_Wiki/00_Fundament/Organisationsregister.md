@@ -16,6 +16,9 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | :--- | :--- | :--- | :--- |
 | [[Communis_Medici]] | Heilergilde | [[Falkensee]] | #bote |
 | [[Ecclesia_Elementorum]] | Religionsgemeinschaft | Inselweit | #canon |
+| [[Ring_des_Argionemes]] | Astraelitischer Geheimbund | Galadon / [[Sae]] | #perspektive |
+| [[Bruderschaft_Gofilm]] | Graumagischer Orden | Gofilm | #perspektive |
+
 | [[Handelskontore_der_Dwarschim_(H&H)]] | Handelsvertretung | [[Dwarshim]] | #canon |
 | [[Inselrat]] | Politische Verwaltung | [[Burg_Finianswacht]] | #canon |
 | [[Orden_der_Wachenden_Löwen]] | Religiöser Ritterorden | [[Falkenwall]] / [[Finianswacht]] | #canon |
@@ -45,6 +48,11 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Pakt_der_Viereinigkeit]] | Militärbündnis | [[Brandenstein]] / [[Falkenwall]] | #bote |
 | [[Ersonter_Bund]] | Politisches Bündnis | [[Ersont]] | #bote |
 | [[Bragarim]] | Militärische Garde ([[Dwarschim]]) | [[Kesselklamm]] | #canon |
+| [[Lafays_Stab]] | Weißmagische Schule | Galadon | #perspektive |
+| [[Anstalt_fuer_ozeanische_Thaumaturgie]] | Magieschule (Blau) | Swa | #perspektive |
+| [[Akademie_des_gruenen_Zweiges]] | Magieschule (Grün) | Tiefenwald | #perspektive |
+| [[Schule_der_tausend_Funken]] | Magieschule (Ignis) | Malthust | #perspektive |
+
 
 ## Handwerks- und Handelsgilden
 *Noch im Aufbau / Ingestion läuft*

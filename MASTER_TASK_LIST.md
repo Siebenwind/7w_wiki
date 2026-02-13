@@ -15,7 +15,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] Epistemic Status & Link-Audit (Phase 13)
 - [x] Restore Wiki Consistency (Deduplication, Orphan-Fix)
 - [ ] Spielergeschichten Re-Scan & Entity Integration
-    - **Fortsetzung Ingestion**: Ab Batch 9 (ca. 100+ Dateien verbleibend). Ziel: Vollständige Erfassung aller Meta-Tags und Entitäten.
+    - [x] Phase 14: Ingestion Player Stories Batch 19 (Ente, Dichter, Blutschwert, Briefe, Könige) <!-- id: 50 -->
+    Ziel: Vollständige Erfassung aller Meta-Tags und Entitäten.
     - **Register-Synchronisation**: Übertragung der im `Logs/INGESTION_LOG.md` gesicherten Entitäten (u.a. [[Jassavia]], [[Veridon]], [[Zoran Gosh]]) in das [[Personenregister.md]] und [[Ortsregister.md]].
     - **Duplikat-Auflösung**: Finale Entscheidung und Bereinigung der Dateisystem-Dubletten (z.B. `Der Flug der Ente`).
 - [ ] **Handover-Vorbereitung**:

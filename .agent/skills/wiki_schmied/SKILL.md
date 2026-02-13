@@ -23,6 +23,7 @@ Dieser Skill generiert die finalen Artefakte im Ordner `/Siebenwind_Wiki`.
         title: [Display Title]
         category: [Persönlichkeit | Geschichte | Erzählung | Geografie | Religion | Magie]
         quelle: ../../Quellen/[Unterordner]/[Dateiname].md
+        lore_trust: [0-10]
         letzter_check: [ISO-8601 Zeitstempel mit Uhrzeit]
         report_id: [UUID des zugehörigen Audit-Reports, falls vorhanden]
         ---
@@ -39,7 +40,10 @@ Dieser Skill generiert die finalen Artefakte im Ordner `/Siebenwind_Wiki`.
         - Primärquelle: [Siebenwind Bote 123](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20123.md)
         - Siehe auch: [Siebenwind_Bote_122](../04_Chronik/Siebenwind_Bote_122.md)
         ```
-4.  **Validierung:** Prüfe, ob die Datei erfolgreich erstellt wurde und alle Pflicht-Sektionen vorhanden sind.
+4.  **Konflikt-Management (Synapsen-System):**
+    *   **Proaktive Erkennung:** Falls während der Erstellung ein unlösbarer Widerspruch auftritt (z.B. zwei Quellen widersprechen sich fundamental im Kanon), erstelle ein Ticket via `trigger_conflict_alert`.
+    *   **Ticket-Zuweisung:** Nutze das `/System/Synapse_Board/_TEMPLATE_TICKET.md` und speichere es als `Conflict_[ID].md`.
+5.  **Validierung:** Prüfe, ob die Datei erfolgreich erstellt wurde und alle Pflicht-Sektionen vorhanden sind.
 
 ## Ziel
 Erstellung eines sauberen, vernetzten, akademisch referenzierten Wikis ohne manuellen Eingriff des Nutzers.

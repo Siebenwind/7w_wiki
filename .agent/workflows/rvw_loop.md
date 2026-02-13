@@ -26,7 +26,10 @@ Bei Texten über 100 Zeilen **MUSS** ein Zwei-Pass-Verfahren angewendet werden:
 
 **Pass 2 – Detail-Scan:** Jede Sektion einzeln durchgehen und das Entity Manifest (Schritt 1.5) befüllen. Besonders auf **beiläufig erwähnte Entitäten** achten (z.B. "die Gilde der Feinschmiede" in einem Nebensatz, ein Ortsname in einer Wegbeschreibung, ein Titel eines Amtsträgers).
 
-## 1.5 ENTITY MANIFEST (Pflicht-Scan)
+## 1.5 ENTITY MANIFEST (Pflicht-Scan)### 4. Lore-Auditor (Scoring & Qualität)
+- **Score-Zuweisung:** Bewertet jeden neuen Eintrag auf einer Skala von 0 bis 10.
+- **Novel Quality Check:** Sucht aktiv nach Möglichkeiten, den `lore_trust` durch präzisere Beschreibungen, sensorische Details und Kausalitäts-Checks zu erhöhen.
+- **Audit-Log:** Hinterlässt einen unsichtbaren Audit-Kommentar im Markdown-File: `<!-- Audit: [Datum] | Status: [Boosted to 8] | Grund: [Bote-Kanon-Abgleich erfolgreich] -->`.
 *   **Step:** Erstelle nach dem Lesen des Textes ein strukturiertes Manifest.
 *   **Action:** Dieses Manifest wird im Chat ausgegeben und dient als Checkliste für Phase 3 (Production) und Phase 4 (Post-Write Sync). Gleiche **jede** gefundene Entität gegen die bestehenden Register ab.
 
@@ -74,10 +77,10 @@ Bei Texten über 100 Zeilen **MUSS** ein Zwei-Pass-Verfahren angewendet werden:
 | 🥇 | **Lokal-Kanon** (`/Hintergrund/`, `#canon`) | Cross-check mit Kanon-Dateien. Diese Dokumente sind das unumstößliche Gesetz. | → Fakt ist verifiziert |
 | 🥈 | **Quell-Integrität** (aktuelle Quelle) | Prüfe die Konsistenz innerhalb der aktuell bearbeiteten Quelle (z.B. `/Bote/` oder `/Bibliothek/`). | → Fakt ist plausibel |
 | 🥉 | **Web-Verifikation** (`siebenwind.de`) | Nutze `search_web` mit `site:siebenwind.de [Entity Name]`, um Fakten zu ergänzen. Falls Oasis/Oracle fehlschlagen, nutze `grep_search` auf `/Hintergrund/` und `/Quellen/`. | → Fakt ergänzt |
-| ❓ | **User-Eskalation** (letztes Mittel) | Wenn Informationen fehlen oder über alle Ebenen hinweg widersprüchlich sind, frage den Nutzer. | → Nutzer entscheidet |
+| ❓ | **User-Eskalation** (letztes Mittel) | Wenn Informationen fehlen oder über alle Ebenen hinweg widersprüchlich sind, frage den Nutzer via Synapse-Board. | → Ticket auf `AWAITING_USER` |
 
 > **Verlässlichkeitsregel:** Höherer Rang überschreibt niedrigeren bei Widersprüchen.
-> Siehe **Epistemisches System** im [Wiki Style Guide](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/workflows/wiki_style_guide.md#epistemisches-system).
+> **Synapsen-Trigger:** Wenn die Wahrheitshierarchie keine Lösung bietet (z.B. Kanon vs. Kanon), triggere `trigger_conflict_alert` und erstelle ein Ticket auf dem Synapse-Board.
 
 *   **Decisions:**
     - **Conflict:** Mark as `[KONFLIKT]` and log in [[Konsistenzbericht_2026]].
@@ -101,6 +104,8 @@ layout: wiki_page
         category: [Category]
         status: [Canon/Legend]
         quelle: ../../Quellen/[Unterordner]/[Dateiname].md
+        lore_trust: [0-10] # Initialer Score gemäß Matrix
+        confidence: Certain # Grad der Gewissheit
         report_id: [UUID des Audit-Reports, falls zutreffend]
         ---
         # [Title]
@@ -139,6 +144,11 @@ layout: wiki_page
         - Tabelle aller extrahierten Entitäten mit Aktion (NEU/AKTUALISIERT/VERLINKT) und Zieldatei.
         - Tabelle der Register-Updates.
         - Notizen zu Inkonsistenzen (Verweis auf Konsistenzbericht).
+    *   **Lore Scoring [PFLICHT]:** Führe das Scoring-Skript aus, um den `lore_trust` final zu berechnen:
+        ```bash
+        python3 .agent/scripts/lore_score_manager.py [Zieldatei]
+        ```
+    *   **Historian Boost:** Markiere den Artikel für den Historiker zur Prüfung (falls Score < 7), um das Audit-Potential zu nutzen.
     *   Update `task.md` (mark item as `[x]`).
     *   Clear temporary context (focus on next item).
 

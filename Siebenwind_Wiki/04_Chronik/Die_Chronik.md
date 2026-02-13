@@ -34,5 +34,13 @@ Sammlung der integrierten Boten-Ausgaben:
 *   [[Siebenwind_Bote_187]], [[Siebenwind_Bote_188]], [[Siebenwind_Bote_189]], [[Siebenwind_Bote_190]]
 *   [[Siebenwind_Bote_191]], [[Siebenwind_Bote_192]], [[Siebenwind_Bote_193]], [[Siebenwind_Bote_194]]
 
+## Literarische Quellen & Berichte
+Ereignisberichte und Erzählungen (Spielergeschichten):
+*   [[Der_Flug_der_Ente]] (Bürgerkriegszeit / Säulenmeer)
+*   [[Aus_dem_Liebesleben_eines_Dichters]] (Kultur / Galadonien)
+*   [[Blutschwert]] (Militär / Vandrien-Krise)
+*   [[Briefe_aus_der_Ferne]] (Politik / Dreiteilung)
+*   [[Das_Ende_der_Zeit_der_Koenige]] (Verschwörung / Ring des Argionemes)
+
 ---
 *   [Zeitungsarchiv](../../Quellen/Zeitung%207w%20Bote/) - (Rohdaten des [[Siebenwind]] Boten)

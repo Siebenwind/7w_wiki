@@ -51,6 +51,8 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 *   **Terror:** Anschlag auf das Fest "Lob der Schwestern" in [[Seeberg]] (27. Sekar) durch Unbekannte ([[Schwarze_Magie]]).
 
 ### 21 nach Hilgorad
+*   **Verschwörung:** Heimliche Versammlung des **[[Ring_des_Argionemes]]** am Ort "Lafays Stab". Planung der theokratischen Vorherrschaft nach dem Verschwinden des Königs.
+*   **Politik:** Faktische Dreiteilung der Verwaltung von Siebenwind in [[Seeberg]] (Königsbau), [[Falkensee]] (Ersonter Bund) und [[Brandenstein]] (Malthuster Viereinigkeit).
 *   **Monster:** Die **[[Bestie_von_Brandenstein]]** (Chimäre) terrorisiert die Hafenstadt im Oner.
 *   **Kriminalität:** Tod der Verbrecher [[Cacama]] (durch Dämon) und [[Viktor_Menzer]].
 *   **Konflikt:** Dämon **[[Tarrant]]** tötet [[Ashram_Yeshmir]] im Duell auf dem Marktplatz von [[Falkensee]] (9. Oner).
@@ -96,6 +98,10 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 *   **Organisation:** Neugründung der **Tempelwache** in Falkensee durch [[Reto_Finkenfahn]].
 *   **Politik:** Nachbeben des Putsches; Verhängung des Kriegsrechts und Einzug von Truppen aus [[Malthust]] und dem [[Löwenorden]].
 *   **Adel:** [[Waldemar_Delarie]] wird für seine Verdienste geadelt (Edler), fällt aber kurz darauf durch den Putsch in Ungnade.
+
+### 22 nach Hilgorad
+*   **Krieg:** **Vandrien-Krise**. Offensive der **[[Schwarze_Legion|Schwarzen Legion]]** unter [[Herzog_Blutschwert]] in der Region Vandrien. Zerstörung zahlreicher Dörfer und Fluchtbewegungen Richtung Siebenwind.
+*   **Abenteuer:** Das Verschwinden der "Ente" im [[Saeulenmeer|Säulenmeer]] und die Entdeckung maritimer Anomalien durch [[Vencurius]] und [[Tintin_(Waljakov)]].
 
 ### 25 nach Hilgorad
 *   **Reise:** Hauptmann [[Waldemar_Delarie]] begibt sich auf seine Mission nach Papin, was ein Machtvakuum in Falkensee hinterlässt.

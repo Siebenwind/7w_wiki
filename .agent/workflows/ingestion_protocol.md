@@ -23,6 +23,7 @@ Dieses Protokoll standardisiert die Erfassung **aller** Quellentypen und stellt 
 - [ ] Datum (Sonnenzirkel) erfassen (falls vorhanden)
 - [ ] Ausgabe-Nummer / Titel
 - [ ] Epistemischer Status bestimmen (siehe Tabelle oben)
+- [ ] **Lore Trust Score**: Vorläufigen Score (0-10) vergeben (siehe [Score Guide](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/CORE_LORE_SCORE_GUIDE.md))
 
 ### 2. Entitäts-Extraktion (Vollständig)
 - [ ] **Hauptakteure**: Alle namentlich genannten Personen mit Titel/Amt/Funktion

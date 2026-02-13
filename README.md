@@ -14,6 +14,7 @@ Das zentrale Intelligenz-Framework für die Welt von Siebenwind. Dieses Projekt 
 | :--- | :--- |
 | 📜 **[Changelog](CHANGELOG.md)** | **Evolution & Meilensteine.** |
 | ✅ **[Master Task List](MASTER_TASK_LIST.md)** | **Zukunft & Strategischer Fokus.** |
+| 📖 **[Lore Engine Spec](.agent/docs/LORE_ENGINE_SPEC.md)** | **Technische Architektur & CLI-Standard.** |
 | 📊 **[Wiki Statistiken](Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md)** | **Lore-Dichte & KPI-Dashboard.** |
 
 ---
@@ -25,7 +26,7 @@ Wir haben alle Intelligenz-Tools in einer zentralen Schnittstelle gebündelt. Di
 ### 📚 Nutzung
 ```bash
 # Semantische Lore-Suche (Das Orakel)
-./7w.py search "Wer war Benedict Rabenfels?"
+./7w.py search "Wer war Hilgorad?"
 
 # Wiki-Statistiken generieren
 ./7w.py stats

@@ -6,16 +6,16 @@ category: Index
 
 # Wiki Statistiken
 
-**Letztes Update:** 2026-02-13 22:34:18
+**Letztes Update:** 2026-02-13 23:00:12
 
 ## 📊 High-Level KPIs
 
 | Metrik | Wert |
 | :--- | :--- |
-| **Gesamtanzahl Artikel** | 737 |
-| **Bekannte Persönlichkeiten** | 411 |
-| **Gesamtwortzahl** | 106,369 |
-| **Vernetzungsgrad (Links/1k Worte)** | 68.78 |
+| **Gesamtanzahl Artikel** | 777 |
+| **Bekannte Persönlichkeiten** | 441 |
+| **Gesamtwortzahl** | 113,717 |
+| **Vernetzungsgrad (Links/1k Worte)** | 66.31 |
 
 ---
 
@@ -35,7 +35,7 @@ pie title Quellen Integrations-Status
 bar-chart
     title Artikel pro Kategorie
     x-axis [ "Root", "07_Persoenlichkeiten", "08_Bestiarium", "03_Gesellschaft", "05_Geschichte", "10_Archiv", "02_Geografie", "01_Pantheon", "04_Chronik", "06_Erzählungen", "06_Myten_und_Legenden", "09_Bibliothek", "00_Fundament" ]
-    y-axis Artikel [ 1, 411, 31, 48, 51, 5, 50, 25, 79, 9, 1, 3, 23 ]
+    y-axis Artikel [ 1, 441, 32, 51, 56, 5, 51, 25, 79, 9, 1, 3, 23 ]
 ```
 
 ---
@@ -44,10 +44,10 @@ bar-chart
 
 ```mermaid
 pie title Wissens-Fundament
-    "Canon" : 553
-    "Bote" : 1002
-    "Überlieferung" : 22
-    "Perspektive" : 27
+    "Canon" : 552
+    "Bote" : 1013
+    "Überlieferung" : 31
+    "Perspektive" : 69
 ```
 
 ---
@@ -58,9 +58,9 @@ Häufigkeit der Erwähnung von Jahren in der Zeitrechnung "n.H.".
 ```mermaid
 xychart-beta
     title Erwähnungen pro Jahr (n.H.)
-    x-axis [ "17", "18", "19", "20", "21", "22", "23", "25", "26", "28", "29", "30", "36", "123", "165" ]
+    x-axis [ "18", "19", "20", "21", "22", "23", "24", "25", "26", "28", "29", "30", "36", "123", "165" ]
     y-axis "Nennungen"
-    bar [ 121, 234, 164, 170, 169, 64, 14, 5, 7, 15, 62, 78, 10, 9, 2 ]
+    bar [ 235, 164, 170, 188, 86, 14, 2, 5, 7, 15, 62, 81, 10, 9, 2 ]
 ```
 
 ---
@@ -70,15 +70,15 @@ Die am häufigsten verlinkten Artikel im Wiki.
 
 | Rang | Entität | Verlinkungen |
 | :--- | :--- | :--- |
-| 1 | [[Falkensee]] | 323 |
-| 2 | [[Brandenstein]] | 302 |
+| 1 | [[Falkensee]] | 326 |
+| 2 | [[Brandenstein]] | 309 |
 | 3 | [[Siebenwind]] | 279 |
-| 4 | [[Personenregister]] | 80 |
+| 4 | [[Personenregister]] | 79 |
 | 5 | [[Nortraven]] | 77 |
 | 6 | [[Custodias]] | 69 |
-| 7 | [[Bellum]] | 61 |
-| 8 | [[Vitama]] | 60 |
-| 9 | [[Kirche_der_Viere]] | 58 |
+| 7 | [[Bellum]] | 64 |
+| 8 | [[Vitama]] | 62 |
+| 9 | [[Kirche_der_Viere]] | 56 |
 | 10 | [[Ecclesia_Elementorum]] | 54 |
 
 ---
@@ -87,7 +87,7 @@ Die am häufigsten verlinkten Artikel im Wiki.
 
 | Zeitraum | Neue Artikel | Geänderte Artikel |
 | :--- | :--- | :--- |
-| **Letzte 24h** | 176 | 126 |
+| **Letzte 24h** | 170 | 123 |
 | **Letzte 7 Tage** | 657 | 129 |
 | **Letzte 30 Tage** | 657 | 129 |
 
@@ -95,6 +95,7 @@ Die am häufigsten verlinkten Artikel im Wiki.
 
 | Datum | Aktion | Artikel | Kategorie |
 | :--- | :--- | :--- | :--- |
+| 2026-02-13 | Geändert | Wiki Statistiken | 10_Archiv |
 | 2026-02-13 | Geändert | Personenregister | 00_Fundament |
 | 2026-02-13 | Geändert | Merros | 01_Pantheon |
 | 2026-02-13 | Geändert | Ecclesia Elementorum | 03_Gesellschaft |
@@ -109,7 +110,6 @@ Die am häufigsten verlinkten Artikel im Wiki.
 | 2026-02-13 | Neu | Kharas Palanthas | 07_Persoenlichkeiten |
 | 2026-02-13 | Geändert | Serass | 07_Persoenlichkeiten |
 | 2026-02-13 | Geändert | Sorania | 07_Persoenlichkeiten |
-| 2026-02-13 | Neu | Bestie von Brandenstein | 08_Bestiarium |
 
 ---
 > [!NOTE]

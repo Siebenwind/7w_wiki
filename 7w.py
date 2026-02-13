@@ -11,7 +11,15 @@ Unified entry point for all archival and intelligence tools.
 
 def run_script(path, args=[]):
     script_path = os.path.join(os.path.dirname(__file__), path)
-    cmd = [sys.executable, script_path] + args
+    
+    # Use venv for oracle scripts if available
+    executable = sys.executable
+    if "oracle" in path:
+        venv_python = os.path.join(os.path.dirname(__file__), ".agent/skills/oracle/venv/bin/python3")
+        if os.path.exists(venv_python):
+            executable = venv_python
+            
+    cmd = [executable, script_path] + args
     try:
         subprocess.run(cmd, check=True)
     except subprocess.CalledProcessError as e:

@@ -29,6 +29,10 @@ Für jede identifizierte Datei wird der [RVW-Loop](file:///Users/alexandrerabe/s
 ### C. Register-Synchronisation
 Nach jedem erfolgreichen Schreibvorgang werden die zentralen Register (`Personenregister.md`, `Organisationsregister.md`) aktualisiert.
 
+### D. Scoring & Board-Reporting
+1.  **Lore Scoring:** Führe `lore_score_manager.py` über den gesamten Batch-Output aus.
+2.  **Board Report:** Erstelle bei signifikanten Konflikten oder Massen-Updates ein automatisches Ticket (Status: `AUTO_RESOLVED` oder `NEEDS_REVIEW`), um die Batch-Integrität zu dokumentieren.
+
 ## 3. Reporting (Ergebnisbericht)
 Am Ende des Batches erstellt der Agent eine Zusammenfassung im Chat mit folgendem Schema:
 
@@ -43,7 +47,7 @@ Am Ende des Batches erstellt der Agent eine Zusammenfassung im Chat mit folgende
 **Gesamtstatus:**
 - Erstellte Artikel: X
 - Aktualisierte Register: Y
-- Geloggte Konflikte: Z (siehe [Konsistenzbericht](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md))
+- Synapse-Board: Z neue Tickets erstellt (siehe `/System/Synapse_Board/`)
 - Ingestion-Log Einträge: X (siehe [INGESTION_LOG.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/INGESTION_LOG.md))
 
 ---

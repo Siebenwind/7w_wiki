@@ -1,3 +1,67 @@
+## 2026-02-13 | Batch 19 Ingestion: Spielergeschichten
+
+**Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+### Verarbeitete Dateien
+`Der Flug der Ente..md` (Konsolidiert)
+`Aus dem Liebesleben eines Dichters | Siebenwind | Ultima Online Freeshard | Siebenwind.md`
+`Blutschwert | Siebenwind | Ultima Online Freeshard | Siebenwind.md`
+`Briefe aus der Ferne.md`
+`Das Ende der Zeit der Könige | Siebenwind | Ultima Online Freeshard | Siebenwind.md`
+
+### 📋 Entity Manifest (Batch 19)
+
+#### 👤 PERSONEN
+| Name | Rolle/Titel | Quelle | Im Register |
+|---|---|---|---|
+| Tintin (Waljakov) | Schiffsbauer / Ventus-Priester | Flug der Ente | ✅ |
+| Vencurius | Erzpriester des Ventus | Flug der Ente | ✅ NEU |
+| Telandrion | Diener des Ignis | Flug der Ente | ✅ NEU |
+| Haldur Toda | Dichter / Autor | L. eines Dichters | ✅ (Erweitert) |
+| Madame Lafayette | Gönnerin | L. eines Dichters | ✅ NEU |
+| Veridon (Nebelklinge) | Assassine / Bellum-Geweihter | Blutschwert | ✅ (Lore-Fix) |
+| Herzog Blutschwert | Anführer Schwarze Legion | Blutschwert | ✅ NEU |
+| Ilja | Kräuterfrau | Blutschwert | ✅ NEU |
+| Rajka Sanseha | Schneiderin | Bri. a. d. Ferne | ✅ NEU |
+| Taleris Kreytz | Magister Magus Emeritus | Bri. a. d. Ferne | ✅ NEU |
+| William Mercator | Laie (Astrael) | Bri. a. d. Ferne | ✅ NEU |
+| Zoran Gosh | Abt von Gofilm | Zeit d. Könige | ✅ NEU |
+| Telophas v. Basarius | Eminenz / Rector | Zeit d. Könige | ✅ NEU |
+| Ignaz Moravio | Hochgeweihter / Inquisitor | Zeit d. Könige | ✅ NEU |
+| Hubertus Anverita | Aspirant / Agent | Zeit d. Könige | ✅ NEU |
+| Calmexistus Salanus | Inquisitor / Defensor Fidei | Div. | ✅ (Ring-Lore) |
+
+#### 🏰 ORGANISATIONEN
+| Name | Typ | Quelle | Im Register |
+|---|---|---|---|
+| Ecclesia | Religiöse Gemeinschaft | Div. | ✅ |
+| Oculus Ecclesiae | Geheimbund d. Kirche | Blutschwert | ✅ NEU |
+| Schwarze Legion | Militärische Kult-Einheit | Blutschwert | ✅ NEU |
+| Königliche Akademie | Bildungseinrichtung | Bri. a. d. Ferne | ✅ |
+| Ring des Argionemes | Astraelitischer Geheimbund | Zeit d. Könige | ✅ NEU |
+| Bruderschaft Gofilm | Mystische Astrael-Gruppe | Zeit d. Könige | ✅ NEU |
+
+#### 🗺️ ORTE
+| Name | Typ | Quelle | Wiki-Artikel |
+|---|---|---|---|
+| Säulenmeer | Maritime Anomalie | Flug der Ente | ✅ NEU |
+| Vandrien | Region (Festland) | Blutschwert | ✅ |
+| Pas | Stadt/Festung | Blutschwert | ✅ |
+| Klauenberge | Gebirge | Blutschwert | ✅ |
+| Hügelau | Insel | Blutschwert | ❌ STUB |
+
+#### 🐉 BESTIARIUM
+| Name | Typ | Quelle | Wiki-Artikel |
+|---|---|---|---|
+| Klauenwölfe | Intelligentes Wolfsvolk | Blutschwert | ✅ NEU |
+
+### Aktionen
+- **Dateisystem:** Redundante Dubletten `Der Flug der Ente1.md` und `Der Flug der Ente..3.md` gelöscht.
+- **Wiki-Produktion:** Profile für `Vencurius` und `Telandrion` erstellt. Erzählseite `Der_Flug_der_Ente` und Geografieseite `Saeulenmeer` angelegt.
+- **Register-Synchronisation:** Personenregister um Vencurius und Telandrion erweitert.
+
+---
+
 # Ingestion Log
 
 Chronologisches Protokoll aller verarbeiteten Quellen und der daraus abgeleiteten Wiki-Änderungen.
@@ -5,6 +69,33 @@ Jeder Eintrag dokumentiert: **Wann** wurde **was** aus **welcher Quelle** extrah
 
 ---
 
+### 2026-02-13 | Detail-Ingestion: Briefe aus der Ferne
+**Quelle:** `Briefe aus der Ferne.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Briefe_aus_der_Ferne` in `/09_Bibliothek/` angelegt.
+- **Profil-Update:** `Solice_Aurora.md` um Hintergrund als Adepta und Details zur Wahrnehmung ihres Weggangs erweitert.
+- **Register-Check:** Rajka Sanseha, Taleris Kreytz und William Mercator wurden im Personenregister verifiziert (bereits vorhanden).
+
+---
+### 2026-02-13 | Detail-Ingestion: Das Ende der Zeit der Könige
+**Quelle:** `Das Ende der Zeit der Könige | ... .md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Das_Ende_der_Zeit_der_Koenige` in `/09_Bibliothek/` angelegt.
+- **Register-Sync (Personen):** 10+ neue Einträge (Hubertus Anverita, Hadrian Lugado, Willibald Puckel, etc.) hinzugefügt. Zoran Gosh und Calmexistus Salanus verifiziert.
+- **Register-Sync (Orga):** `Ring_des_Argionemes`, `Bruderschaft_Gofilm` und 4 Elementarmagie-Schulen (Lafays Stab, Swa, Tiefenwald, Malthust) registriert.
+
+---
+### 2026-02-14 | Detail-Ingestion: Aus dem Liebesleben eines Dichters
+**Quelle:** `Aus dem Liebesleben eines Dichters | ... .md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Aus_dem_Liebesleben_eines_Dichters` in `/09_Bibliothek/` angelegt.
+- **Profil-Update:** `Haldur_Toda.md` korrigiert (Mutter des Sohnes ist Eleonore, nicht Lafayette) und um Werke erweitert.
+- **Register-Sync:** Eleonore, Erdur, Madame Lafayette, Eret und T. im Personenregister hinzugefügt.
+
+---
 *Einträge werden chronologisch angehängt (neueste unten).*
 
 ## 2026-02-13 | Re-Scan: Spielergeschichten (Batch 1–18)

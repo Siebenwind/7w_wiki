@@ -47,8 +47,10 @@ Nachher: **Epistemischer Status:** #canon
 Wenn der Kanon einem bestehenden Wiki-Artikel **widerspricht**:
 
 1. **Kanon gewinnt immer.** Der Wiki-Artikel wird korrigiert.
-2. Der Widerspruch wird im [Konsistenzbericht](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md) dokumentiert.
-3. Falls der Widerspruch unklar ist (z.B. mehrdeutige Formulierung), wird der Nutzer eskaliert.
+2. Der Widerspruch wird auf dem **Synapse-Board** als Ticket dokumentiert.
+3. Falls der Widerspruch unklar ist (z.B. mehrdeutige Formulierung), wird das Ticket auf `AWAITING_USER` gesetzt.
+4. **Synapse Alert:** Falls die Kanon-Änderung bestehende Tickets auf dem Board obsolet macht, schließe diese mit Verweis auf den neuen Kanon.
+5. **Score Boost:** Erhöhe den `lore_trust` der betroffenen Dokumente auf 9 (Standard-Kanon).
 
 ### 5. Register-Synchronisation
 - **Personenregister.md**: Neue Personen hinzufügen, bestehende Einträge ggf. mit `#canon` markieren.

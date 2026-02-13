@@ -9,6 +9,9 @@ Dieser Workflow dient der Dokumentation der Anwendung sowie der Sicherung des Pr
 Überprüfe die zentralen Dokumentationsdateien auf Richtigkeit und Vollständigkeit:
 - [README.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/README.md)
 - [WORKFLOW_LORE_CONSISTENCY.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/WORKFLOW_LORE_CONSISTENCY.md)
+- [SYNAPSEN_SYSTEM_SPEC.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/docs/SYNAPSEN_SYSTEM_SPEC.md)
+- **Board Check:** Sind alle Tickets auf dem [Synapse-Board](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/) im korrekten Status?
+- **Lore Trust Audit:** Stichprobenartige Prüfung der `lore_trust` Scores im Wiki auf Plausibilität gemäß [Score Guide](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/CORE_LORE_SCORE_GUIDE.md).
 - [wiki_style_guide.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/workflows/wiki_style_guide.md)
 
 ### 2. Implementierungsverzeichnis
