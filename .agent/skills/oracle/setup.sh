@@ -54,7 +54,8 @@ pip install --quiet \
     torch \
     "FlagEmbedding>=1.2" \
     einops \
-    tqdm
+    tqdm \
+    watchdog
 
 # --- 4. Modell-Cache vorbereiten ---
 mkdir -p "$MODEL_CACHE"

@@ -38,6 +38,7 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Terra_Dorotor]] | Kult (zerschlagen) | [[Brandenstein]] | #bote |
 | [[Magierturm_zu_Tiefenbach]] | Magische Ausbildung (Zerstört) | [[Tiefenbach]] (Hist.) | #canon |
 | [[Akademie_der_Schwarzen_Kuenste]] | Magische Ausbildung (Verboten) | Unbekannt | #canon |
+| [[Kult_des_Einen]] | Verbotener Kult / Diener des Einen | Zerstreut (Schreine) | #bote |
 | [[Warenhaus_Vela_und_Arn]] | Handelshaus | [[Falkensee]] | #bote |
 | [[Orden_vom_Roten_Salamander]] | Alchemisten | Unbekannt | #bote |
 | [[Brandensteiner_Reiter]] | Botendienst / Reiterei | [[Brandenstein]] | #bote |

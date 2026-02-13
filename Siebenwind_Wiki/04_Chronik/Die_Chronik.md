@@ -32,7 +32,7 @@ Sammlung der integrierten Boten-Ausgaben:
 *   [[Siebenwind_Bote_179]], [[Siebenwind_Bote_180]], [[Siebenwind_Bote_181]], [[Siebenwind_Bote_182]]
 *   [[Siebenwind_Bote_183]], [[Siebenwind_Bote_184]], [[Siebenwind_Bote_185]], [[Siebenwind_Bote_186]]
 *   [[Siebenwind_Bote_187]], [[Siebenwind_Bote_188]], [[Siebenwind_Bote_189]], [[Siebenwind_Bote_190]]
-*   [[Siebenwind_Bote_191]], [[Siebenwind_Bote_192]], [[Siebenwind_Bote_193]]
+*   [[Siebenwind_Bote_191]], [[Siebenwind_Bote_192]], [[Siebenwind_Bote_193]], [[Siebenwind_Bote_194]]
 
 ---
 *   [Zeitungsarchiv](../../Quellen/Zeitung%207w%20Bote/) - (Rohdaten des [[Siebenwind]] Boten)

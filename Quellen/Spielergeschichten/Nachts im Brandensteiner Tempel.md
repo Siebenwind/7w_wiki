@@ -1,5 +1,6 @@
 ---
 layout: wiki_page
+status: #perspektive
 title: Nachts im Brandensteiner Tempel
 category: Sonstiges
 ---

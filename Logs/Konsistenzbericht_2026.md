@@ -110,8 +110,8 @@ Keine kritischen Widersprüche in der Erzählung gefunden, jedoch strukturelle D
 - `[[Paule_Bitterling]]` — Zeile 84 (Fischer/Turniersieger) & Zeile 251 (Turniersieger)
 - `[[Altumion_Eisenbruch]]` — Zeile 25 (Inselrichter, Dwarshim) & Zeile 247 (Inselrichter, Zwerg)
 - `[[Arman]]` — Zeile 27 (Ordensmitglied/"Hexer") & Zeile 257 (Legendenfigur/Märtyrer)
-**Status:** ⚠️ Offen
-**Aktion:** Duplikate zusammenführen (jeweils den informationsreicheren Eintrag behalten).
+**Status:** ✅ Fixiert (Session 2026-02-13)
+**Aktion:** Sämtliche 24 Duplikate (inkl. Waldemar, Bitterling, Eisenbruch, Arman) wurden zusammengeführt und die Register-Tabelle bereinigt.
 
 ---
 ## [LÜCKE] Fehlende Boten-Ausgaben
@@ -134,3 +134,23 @@ Keine kritischen Widersprüche in der Erzählung gefunden, jedoch strukturelle D
 - Interne Verlinkung zu Entitäten ([[Falandrien]], [[Yota]], [[Kregor_Arthax_Stahlauge]], [[Dwarschim]], [[Dunkeltief]]) gesetzt.
 **Status:** ✅ Integriert
 **Aktion:** Keine weiteren Aktionen erforderlich.
+
+---
+## [NARRATIV] Qualitätsprüfung Übernahme
+**Datum:** 2026-02-13T21:45+01:00
+**Prüfobjekt:** [[Ionas]]
+**Befund:** Der Artikel ist faktisch korrekt und verlinkt, erfüllt aber noch nicht die "Roman-Qualität". Es fehlen sensorische Beschreibungen, innere Motivation und atmosphärische Dichte.
+**Status:** ⚠️ Verbessungswürdig
+**Aktion:** Markierung für Narrative Enrichment Phase.
+
+---
+## [WARTUNG] Konsistenz-Restauration & Audit
+**Quelle:** [[Personenregister]], `/audit` Workflow
+**Datum:** 2026-02-13T22:30+01:00
+**Inhalt:**### [2026-02-13] — Große Konsistenz-Restaurierung (Session 202)
+- **Deduplizierung:** ✅ 24 Duplikate aufgelöst.
+- **Orphans:** ✅ 10 Dateien integriert/merged.
+- **Stubs:** ✅ 57 Profil-Stubs erstellt, um 100% Dateipräsenz zu garantieren.
+- **Tools:** ✅ `/repair` Workflow und `repair.py` erfolgreich zur Bereinigung eingesetzt.
+- **Status:** Wiki-Kern (Personen) ist 100% konsistent.
+**Aktion:** Keine weiteren Aktionen erforderlich für Batch 1. Monitoring der verbleibenden 30 Profildatei-Lücken.

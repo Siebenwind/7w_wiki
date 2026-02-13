@@ -68,7 +68,11 @@ Du kannst Markdown, HTML, Docx und PDF lesen.
     *   Erstelle einen Wiki-Entwurf.
 4.  **Proaktive Validierung:** Vergleiche die extrahierten Informationen mit dem bestehenden `#canon` und den Zeitungsarchiven. **Stoppe den Schreibprozess**, falls ein ungelöster Widerspruch vorliegt, dokumentiere diesen im Konsistenzbericht und fahre erst fort, wenn die Wahrheitshierarchie (Website > Kanon > Bote) angewandt wurde.
     *   **Search Fallback:** Falls das Orakel (Oasis) nicht reagiert oder einen Fehler liefert, nutze `grep_search` oder `find_by_name` als manuellen Ersatz.
-5.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md).
+5.  **Dokumentation (PFLICHT):**
+    - Pflege die **[MASTER_TASK_LIST.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/MASTER_TASK_LIST.md)** nach dem Prioritäten-Schema: 🔴 (Kritisch/Aktiv), 🟡 (Inhalt/Ingestion), 🔵 (Qualität/Politur), ⚪ (Backlog).
+    - Erkläre komplexe Aufgaben kurz, um Kontinuität über Agentenwechsel hinweg zu gewährleisten.
+    - Halte die Liste sauber, indem erledigte Phasen in die **Historie** verschoben werden.
+6.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md).
 
 ## 4. Format-Vorgabe (Wiki-Standard)
 ```markdown

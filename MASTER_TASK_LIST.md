@@ -1,48 +1,64 @@
 # Master Task List: Siebenwind-Wiki-Rekonstruktion
 
-Dieses Dokument ist das agentenübergreifende Gedächtnis des Projekts. Jeder Agent muss seinen Fortschritt hier dokumentieren.
+Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **aktiven Fokus** von der **Projekthistorie** und definiert klare Standards für die Aufgabenpriorisierung.
 
-## 🟢 Priorität 1: Infrastruktur & Sicherheit
-- [x] Standardisierung des Wikis auf v2.0 (YAML, H1, Links)
-- [x] Implementierung der Markdown-First Quellen-Architektur
-- [x] Automatische Referenz-Korrektur (HTML -> MD Links)
-- [x] Proaktives Konsistenz-Logging (Logging before Writing)
-- [x] Etablierung der 4-stufigen Wahrheitshierarchie (Kanon > Lokale Quelle > Live-Web > User)
-- [x] Reorganisation des Projekt-Folders (Prompts, Skripte, Logs aufräumen)
-- [x] GitHub Integration & Community Workflows (MkDocs, Issue Templates, PR-Audit)
-- [x] Wiki-Statistik-Dashboard & `/stats` Workflow (Ingestion, Lore-Dichte, Epistemik, Link-Hubs)
-- [x] Dokumentations-Audit (README.md Komplett-Rewrite, MkDocs Deployment-Readiness)
-
-## 🟡 Priorität 2: Inhalte & Ingestion (Massenverarbeitung)
-- [/] Integration der verbleibenden 150+ Quellen (Status `Pending` in [[INVENTUR_QUELLEN.md]])
-- [x] Erstellung der Geografie-Hauptseiten: [[Brandenstein]], [[Falkensee]], [[Greifenklipp]]
-- [x] **Phase 11: Boten 171-175** – Politischer Umbruch (Erlass des Königs, Auflösung der Kronmark, Ersonter Bund, Pakt der Viereinigkeit), klerikale Aufstiege (Benion → Erzgeweihter, Proveus Herand → Erzgeweihter), Dämonen (Blinder Maler, Hutmacher), Terra'Dorotor-Krieg, Schwarzer Samen
-- [x] **Phase 12: Boten 176-180** – Complete. Integrated all 5 issues. Key events: Bestie von Brandenstein, Troll-Krieg, Spinnenplage, Mord an Palanthas, Duell Merthes/Gottfried. Added Hevelius Dunkelfeld.
-- [x] **Phase 13:** Integrate Siebenwind Bote 181-185 (21-22 n.H.).
-- [x] **Boten-Integration:** 133-140, 191-193 sind vorhanden und integriert.
-
-- [x] **Index-Korrektur:** `Die_Chronik.md` vervollständigen (Boten 176-194 integriert)
-- [x] Laufende Register-Synchronisation (Personen, Organisationen, Bestiarium)
-
-## 🔴 Priorität 3: Qualität & Politur
-- [x] **Orphan-Resolution:** 25 verwaiste Profile bearbeitet (Duplikate gelöscht, Register ergänzt)
-- [x] Review wichtiger Stubs auf "Roman-Qualität" (Ionas, Maichellis Wanderstern)
-- [ ] Überprüfung der bi-direktionalen Verlinkung (Backlinks unter `## Überlieferungen`)
-- [x] Bereinigung des [[Konsistenzbericht_2026.md]] (Status `⚠️ Offen` in Audit-Prozess überführt)
-
-## 🧠 Priorität 3b: Intelligente Wissensvernetzung (Phase 3)
-- [/] **Das Orakel** – RAG-System (Semantische Vektorsuche)
-  - [x] Architektur & Modellauswahl (jina-embeddings-v3 + bge-reranker-v2-m3)
-  - [x] Setup, Indexierung & Verifikation (Auto-Config via `benchmark_hardware.py`)
-  - [x] Historiker-Workflow (Deep Lore Review: Benedict Rabenfels abgeschlossen)
-- [x] Register-Audit & Cleanup (Manuelle Bereinigung und Duplikat-Entfernung Feb 2026)
-- [x] **Audit der Magieschulen** (Kanon-Bereinigung & Erstellung fehlender Institutionen)
-
-## 🔮 Future / Backlog (Ideenspeicher)
-- [ ] **Skill: „Der Kartograph“** – Geographische Datenverwaltung, Koordinaten-Sync, Reisezeiten-Berechnung.
-- [ ] **Skill: „Der Herold“** – Automatische Generierung von In-Game-Newslettern aus Wiki-Änderungen.
-- [ ] **Workflow: `/map_sync`** – Verknüpfung von Wiki-Orten mit der Weltkarte.
-- [ ] **Workflow: `/changelog_generate`** – Erstellung von "Was ist neu in der Welt"-Berichten.
+## 📊 Status-Übersicht
+- **Wiki-Standard:** v2.1 (Epistemik implementiert)
+- **Ingestion-Fortschritt:** ~85% (Spielergeschichten Re-Scan läuft)
+- **RAG-Status (Orakel):** Aktiv & MPS-optimiert (Hardware-Auto-Tuning aktiv)
 
 ---
-*Zuletzt aktualisiert: 13.02.2026 durch Antigravity (Backlog Update)*
+
+## 🔴 Priorität 1: Aktueller Fokus (Kritisch / Blocker)
+*Diese Aufgaben haben höchste Dringlichkeit und müssen abgeschlossen werden, bevor neue Phasen begonnen werden.*
+
+- [x] Epistemic Status & Link-Audit (Phase 13)
+- [x] Restore Wiki Consistency (Deduplication, Orphan-Fix)
+- [ ] Spielergeschichten Re-Scan & Entity Integration
+    - **Fortsetzung Ingestion**: Ab Batch 9 (ca. 100+ Dateien verbleibend). Ziel: Vollständige Erfassung aller Meta-Tags und Entitäten.
+    - **Register-Synchronisation**: Übertragung der im `Logs/INGESTION_LOG.md` gesicherten Entitäten (u.a. [[Jassavia]], [[Veridon]], [[Zoran Gosh]]) in das [[Personenregister.md]] und [[Ortsregister.md]].
+    - **Duplikat-Auflösung**: Finale Entscheidung und Bereinigung der Dateisystem-Dubletten (z.B. `Der Flug der Ente`).
+- [ ] **Handover-Vorbereitung**:
+    - **Link-Validierung**: Systematisches Suchen und Ersetzen von absoluten `file://` Pfaden durch relative `[[WikiLinks]]`.
+    - **Sanitizer-Check**: Ausführen von `wiki_sanitizer.py` über alle neu erstellten Artikel zur Sicherstellung von v2.1 Standards.
+
+## 🟡 Priorität 2: Inhalte & Ingestion (Operativ)
+*Standardaufgaben des Archiv-Prozesses zur Erweiterung der Wissensbasis.*
+
+- [/] **Massen-Ingestion**: Integration der verbleibenden 150+ Quellen (Status `Pending` in [[INVENTUR_QUELLEN.md]]). Fokus auf Themengebiete (z.B. Religion, Handwerk).
+- [ ] **Vernetzung (Weaving)**: Überprüfung der bi-direktionalen Verlinkung. Sicherstellen, dass unter `## Überlieferungen` qualitativ hochwertige Backlinks bestehen.
+- [ ] **Narrative Enrichment**: Ausbau von Stubs zu profunden Artikeln ("Roman-Qualität"). Fokus auf Motivation, Atmosphäre und Zitate.
+
+## 🔵 Priorität 3: Qualität & Politur (Optimierung)
+*Verbesserungen an System und Lore, die den Nutzwert steigern.*
+
+- [ ] **Chronik-Konsolidierung**: Abgleich der neuen Erkenntnisse aus den Spielergeschichten mit der offiziellen [[Zeitrechnung_(Der_Sonnenzirkel).md]].
+- [ ] **Feature: „Der Kartograph“**: Implementierung eines Skills zur geografischen Datenverwaltung und Reisezeiten-Berechnung.
+
+## ⚪ Backlog / Future (Ideenspeicher)
+*Langfristige Ziele ohne aktuelle Zeitplanung.*
+
+- [ ] **Skill: „Der Herold“**: Automatisches News-Broadcasting basierend auf Wiki-Änderungen.
+- [ ] **Workflow: `/map_sync`**: Visuelle Verknüpfung von Wiki-Entitäten mit einer externen Karte.
+- [ ] **Workflow: `/cleanup`**: Vollautomatisierter Bot zur kontinuierlichen Pfad-Bereinigung.
+
+---
+
+## ✅ Historie & Abgeschlossene Meilensteine
+
+### Phase 13: Politische Krisen (Feb 2026)
+- **Boten 181-185**: Rekonstruktion des Putsches in Falkensee und der Führungskrise des Löwenordens.
+- **Historiker-Audit**: Fall Benedict Rabenfels (Analyse der Korruption).
+- **Register-Cleanup**: 25 Orphans saniert, 9 echte Personen-Duplikate gelöscht.
+
+### Phase 12: Epistemik & Struktur (Feb 2026)
+- **Epistemisches System**: Implementierung der 4 Säulen der Wahrheit (#canon, #bote, #perspektive, #überlieferung) im Style Guide.
+- **Eskalationsmatrix**: Definition klarer Regeln zur Auflösung von Lore-Widersprüchen.
+- **Wiki v2.0**: Globaler Sanitizer-Lauf über alle Artikel (YAML/H1-Sync).
+
+### Infrastruktur & Tools (Jan/Feb 2026)
+- **Das Orakel**: Einführung der semantischen Suche (RAG) auf Basis von Jina v3.
+- **Automatisierung**: Scripts für Statistiken, Link-Weben und Hardware-Tuning.
+
+---
+*Zuletzt aktualisiert: 13.02.2026 durch Antigravity (Enhanced Documentation)*

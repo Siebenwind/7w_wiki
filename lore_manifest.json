@@ -1,0 +1,30 @@
+{
+    "project": "Siebenwind Lore Engine",
+    "version": "2.1.0",
+    "philosophy": "AI-Agnostic Lore Intelligence",
+    "interface": {
+        "cli": "./7w.py",
+        "commands": [
+            "search",
+            "stats",
+            "repair",
+            "audit",
+            "index"
+        ]
+    },
+    "capabilities": {
+        "rag": "Oracle (jina-embeddings-v3 / ChromaDB)",
+        "verification": "Epistemic System (#canon, #bote, #perspektive, #überlieferung)",
+        "audit": "Redundancy and Orphan detection"
+    },
+    "structure": {
+        "wiki_root": "Siebenwind_Wiki/",
+        "sources_root": "Quellen/",
+        "agent_configs": ".agent/"
+    },
+    "docs": {
+        "changelog": "CHANGELOG.md",
+        "task_list": "MASTER_TASK_LIST.md",
+        "stats": "Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md"
+    }
+}

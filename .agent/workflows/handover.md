@@ -44,9 +44,22 @@ In `.agent/skills/wiki_schmied/scripts/` liegen geschäftskritische Python-Skrip
 
 ### 6. Dokumentation & Kontinuität (PFLICHT)
 Vor dem Beenden deiner Session musst du:
-1.  Die **[MASTER_TASK_LIST.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/MASTER_TASK_LIST.md)** aktualisieren (Erledigte Aufgaben abhaken, neue hinzufügen).
-2.  Einen Eintrag im **[CHANGELOG.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/CHANGELOG.md)** erstellen, der deine technischen und inhaltlichen Highlights zusammenfasst.
-3.  **Wiki-Statistiken:** Führe den Workflow `/stats` aus, um das Dashboard zu aktualisieren.
+
+1.  **[MASTER_TASK_LIST.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/MASTER_TASK_LIST.md)** aktualisieren:
+    - Verwende strikt das Prioritäten-Schema:
+        - 🔴 **Priorität 1**: Aktueller Fokus / Kritisch.
+        - 🟡 **Priorität 2**: Operative Ingestion / Inhalte.
+        - 🔵 **Priorität 3**: Qualität / Politur.
+        - ⚪ **Backlog**: Zukunftsideen.
+    - Verschiebe abgeschlossene Blöcke in die **Historie**, um die Liste übersichtlich zu halten.
+    - Schreibe kurze Erklärungen (1-2 Sätze) zu jedem komplexen Task.
+2.  **[CHANGELOG.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/CHANGELOG.md)** aktualisieren.
+3.  **Wiki-Statistiken**: Führe den Workflow `/stats` aus.
+4.  **Dokumentation:**
+    - Führe die **[MASTER_TASK_LIST.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/MASTER_TASK_LIST.md)** nach dem Farbschema 🔴 (Kritisch), 🟡 (Inhalt), 🔵 (Qualität), ⚪ (Backlog).
+    - Jede Aufgabe muss eine kurze Erläuterung enthalten, was das Ziel ist.
+    - Erledigte Phasen werden in die **Historie** am Ende der Datei verschoben.
+5.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md).
 
 ### 7. Lessons Learnt für dich
 - **Hüte dich vor "file://"**: Kopiere niemals absolute Pfade aus deiner Umgebung in das Wiki. Nutze nur die Wiki-Syntax.

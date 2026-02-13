@@ -1,3 +1,11 @@
+---
+layout: wiki_page
+title: Das Ende der Zeit der Könige
+category: Erzählung
+status: #perspektive
+tags: [Calmexistus, Zoran Gosh, Ordo Astraeli, Papin, Malthust, Bernstein]
+---
+
 ## Das Ende der Zeit der Könige
 
   * 1\. Calmexistus

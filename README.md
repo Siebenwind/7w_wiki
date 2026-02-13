@@ -1,87 +1,76 @@
-# ⚔️ Siebenwind Wiki 2.0
+# ⚔️ Siebenwind Lore Engine 2.0
 
 ![Project Status](https://img.shields.io/badge/Status-Aktiv-vibrantgreen?style=for-the-badge)
-![System](https://img.shields.io/badge/System-Google_Antigravity-blue?style=for-the-badge)
-![Lore](https://img.shields.io/badge/Lore-20_Jahre-gold?style=for-the-badge)
+![CLI](https://img.shields.io/badge/Interface-Unified_CLI-orange?style=for-the-badge)
+![Intelligence](https://img.shields.io/badge/AI-Agnostic_Connectable-purple?style=for-the-badge)
 
-Das zentrale Wissensarchiv der Siebenwind-Welt. Konsolidierung von zwei Jahrzehnten Rollenspiel-Lore in eine hochstrukturierte, semantisch durchsuchbare Markdown-Datenbank.
+Das zentrale Intelligenz-Framework für die Welt von Siebenwind. Dieses Projekt ist nicht nur ein Wiki, sondern eine **standardisierte Lore-Engine**, die 20 Jahre Rollenspielgeschichte durch KI-gestützte Architektur vereint.
 
 ---
 
-## 🗺️ Schnellnavigation
+## 🏛️ Projekt-Dokumentation
 
-| Dokument | Zweck |
+| Dokument | Fokus |
 | :--- | :--- |
-| 📜 **[Changelog](CHANGELOG.md)** | **Alle technischen & inhaltlichen Updates auf einen Blick.** |
-| ✅ **[Master Task List](MASTER_TASK_LIST.md)** | **Aktueller Projektstatus und offene Aufgaben.** |
-| 📊 **[Wiki Statistiken](Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md)** | Wachstum, Lore-Dichte und Vernetzungsgrad. |
-| 🗃️ **[Ingestion Log](Logs/INGESTION_LOG.md)** | Verlauf der Quellen-Verarbeitung. |
+| 📜 **[Changelog](CHANGELOG.md)** | **Evolution & Meilensteine.** |
+| ✅ **[Master Task List](MASTER_TASK_LIST.md)** | **Zukunft & Strategischer Fokus.** |
+| 📊 **[Wiki Statistiken](Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md)** | **Lore-Dichte & KPI-Dashboard.** |
 
 ---
 
-## 🚀 Kernfunktionen
+## 🚀 Unified CLI: Die Schnittstelle `7w.py`
 
-### 🧠 Das Orakel (RAG-Suche)
-Semantische Suche, die den Kontext der Welt versteht.
+Wir haben alle Intelligenz-Tools in einer zentralen Schnittstelle gebündelt. Dies erlaubt eine nahtlose Integration mit externen Anwendungen (wie dem **Gemini CLI**) oder Shell-Automatisierungen.
+
+### 📚 Nutzung
 ```bash
-# Suche starten
-.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Frage"
+# Semantische Lore-Suche (Das Orakel)
+./7w.py search "Wer war Benedict Rabenfels?"
 
-# Index aktualisieren
-.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/build_index.py
-```
+# Wiki-Statistiken generieren
+./7w.py stats
 
-### 🌍 Digitale Bibliothek
-Automatisierte Ingestion von über 500+ Originalquellen (Boten, Schriften, Geschichten).
+# Konsistenz-Audit ausführen
+./7w.py audit
 
-### 🛡️ Kanon-Sicherheit
-Ein 4-stufiges Epistemik-System (#canon, #bote, #perspektive, #überlieferung) garantiert die Integrität der Weltgesetze.
-
----
-
-## 🏗️ System-Architektur
-
-```mermaid
-graph TD
-    A[Quellen / Rohdaten] -->|Ingestion| B(Wiki-Schmied)
-    B --> C{Synthese & Audit}
-    C -->|Kanon-Check| D[Siebenwind Wiki]
-    D -->|Vektorisierung| E[Das Orakel]
-    D -->|Hosting| F[GitHub Pages]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style D fill:#00ff00,stroke:#333,stroke-width:4px
-    style E fill:#00ffff,stroke:#333,stroke-width:2px
+# Index-Wartung
+./7w.py index --status
 ```
 
 ---
 
-## 🛠️ Verzeichnisstruktur
+## 🏗️ Architektur & Portabilität
 
-- **`/.agent/`**: Das "Gehirn" des Systems.
-    - `/skills/`: Modulare Fähigkeiten (Orakel, Linguist, Wiki-Schmied).
-    - `/workflows/`: Definierte Arbeitsabläufe (Audit, Handover, RVW).
-    - `/prompts/`: Persona-Definitionen des Oberarchivars.
-- **`/Logs/`**: Revisionen & Injektions-Logs.
-- **`/Quellen/`**: Primäre Rohdaten (Boten, Bibliotheks-Dumps).
-- **`/Siebenwind_Wiki/`**: Das finale Markdown-Wiki (Produktions-Ready).
+Das Projekt folgt einer **AI-Agnostischen Philosophie**. Während es für den *Oberarchivar* (Google Antigravity) optimiert ist, nutzt es strikte Markdown-Standards und entkoppelte Python-Tools, um mit jedem modernen LLM-Framework kompatibel zu sein.
+
+### Verzeichnis-Struktur (Standardized)
+- **`/Siebenwind_Wiki/`**: Das funktionale Herz – 100% Markdown-Wiki.
+- **`/.agent/`**: Das "Gehirn" – Enthält Workflows, Skills und Prompts.
+- **`/7w.py`**: Der Unified Entry-Point für Agenten und User.
+- **`/docs/`**: Virtuelle Referenzen (Symlinks) für das MkDocs-Hosting, um Konflikte zwischen Repo-Struktur und Web-Präsentation zu vermeiden.
 
 ---
 
-## 💻 Entwicklung & Deployment
+## 🧠 Intelligence Integration
 
-### Lokale Vorschau
+Dieses Repository ist darauf ausgelegt, als **Wissens-Plugin** für KI-Agenten zu fungieren. Durch virtuelle Verweise und standardisierte Metadata (YAML) im Wiki kann das System:
+1.  **Semantisch navigieren** (Orakel).
+2.  **Epistemisch validieren** (Wahrheitshierarchie #canon bis #perspektive).
+3.  **Proaktiv reparieren** (Audit & Repair).
+
+---
+
+## 💻 Deployment & Vorschau
+
+Lokal via MkDocs Material:
 ```bash
 pip install mkdocs-material
 mkdocs serve
 ```
 
-### Automatisierung
-Das Repository nutzt GitHub Actions für ein automatisiertes Deployment bei jedem Push.
-
 ---
-> [!TIP]
-> **Für neue Agenten:** Führe den Workflow `/takeover` oder `/stats` aus, um einen schnellen Überblick über den aktuellen Stand zu erhalten.
+> [!IMPORTANT]
+> **Für Agenten & Entwickler:** Dieses Projekt nutzt ein virtuelles Verweissystem (`docs/`), um Dokumentations-Stubs von funktionalen Dateien zu trennen. Bearbeite immer die Master-Dateien im Root oder Wiki-Ordner.
 
-*© 2026 Siebenwind Chronisten-Gilde | Powered by Google Antigravity*
+*© 2026 Siebenwind Chronisten-Gilde | Engineered for Intelligence*
 

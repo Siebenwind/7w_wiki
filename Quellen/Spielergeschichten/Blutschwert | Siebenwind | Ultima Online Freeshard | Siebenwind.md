@@ -1,3 +1,11 @@
+---
+layout: wiki_page
+title: Blutschwert
+category: Erzählung
+status: #perspektive
+tags: [Veridon, Benion, Tim_Benion, Oculus Ecclesiae, Vandrien]
+---
+
 ## Blutschwert
 
 Dies ist eine Geschichte von **Tim_Benion**

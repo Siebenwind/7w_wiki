@@ -7,13 +7,14 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 167.md
 ---
 # Arn Toron
 
-**Titel:** Verräter
+**Titel:** Verräter / ehem. Konsul & Kaufmann
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Orks]] (Verbündeter)
+**Zugehörigkeit:** [[Orks]] (Verbündeter) / ehem. [[Falkensee]]
 **Zeitraum:** aktiv 19-22 n.H.
 
 ## Beschreibung
-**Arn Toron** ist ein Mensch, der sich auf die Seite der Feinde der Krone gestellt hat. Er gilt als einer der prominentesten Verräter auf [[Siebenwind]].
+**Arn Toron** ist ein ehemals erfolgreicher Kaufmann und Inhaber des **Warenkontors Falkensee**, der sich auf die Seite der Feinde der Krone gestellt hat. Er diente einst als **Konsul** im Ersonter Rat, bevor er zum Verräter wurde.
+
 
 ## Wirken
 *   **Orken-Aufstand (19 n.H.):** Er wurde im Zuge der Mobilmachung gegen die [[Orks]] als einer jener Menschen gebrandmarkt, die das Schwert gegen die Krone erhoben und die Orks unterstützten. Er wurde für vogelfrei erklärt (Bote 168).

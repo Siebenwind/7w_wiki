@@ -2,7 +2,10 @@
 
 Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
 
-## [2026-02-13.9] - Wiki Consistency Restoration completed. Deduplicated 24 Personenregister entries, integrated 10 orphans, resolved Gropp entity ambiguity, and created critical Kanon stubs.
+## [2026-02-13.9] - Wiki Consistency Restoration- 🏛️ **Total Consistency Restoration:** Alle 69+ Konsistenzprobleme im Personenregister behoben (0 Duplikate, 0 Orphans, 0 Missing Profiles).
+- ✍️ **Stub Creation:** 57 neue Profil-Stubs für registrierte Charaktere erstellt.
+- 🔗 **Register Fixes:** Naming-Mismatches (Apostrophe, Leerzeichen) in `Personenregister.md` korrigiert.
+- 📜 **New Workflow:** `/repair` Workflow zur systematischen Fehlerbehebung implementiert.
 ## [2026-02-13.8] - Epistemics & Source Ingestion Audit (Interrupted)
 ### Hinzugefügt
 - **Epistemisches System**: Formale Einführung der Verlässlichkeitsränge (#canon, #bote, #perspektive, #überlieferung) im Style Guide und in der Eskalationsmatrix des RVW-Loops.

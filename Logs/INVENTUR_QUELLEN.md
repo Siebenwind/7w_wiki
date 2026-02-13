@@ -153,15 +153,15 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Siebenwind Bote 183.md | Integrated |
 | Siebenwind Bote 184.md | Integrated |
 | Siebenwind Bote 185.md | Integrated |
-| Siebenwind Bote 186.md | Pending |
-| Siebenwind Bote 187.md | Pending |
-| Siebenwind Bote 188.md | Pending |
-| Siebenwind Bote 189.md | Pending |
-| Siebenwind Bote 190.md | Pending |
+| Siebenwind Bote 186.md | Integrated |
+| Siebenwind Bote 187.md | Integrated |
+| Siebenwind Bote 188.md | Integrated |
+| Siebenwind Bote 189.md | Integrated |
+| Siebenwind Bote 190.md | Integrated |
 | Siebenwind Bote 191.md | Integrated |
 | Siebenwind Bote 192.md | Integrated |
 | Siebenwind Bote 193.md | Integrated |
-| Siebenwind Bote.md | Pending |
+| Siebenwind Bote 194.md | Integrated |
 
 ## Level 3: Die Überlieferung (Gelehrtentum)
 *Path: /Quellen/Bibliothek Astrael/ & /Quellen/Bibliothek Toran Dur/*

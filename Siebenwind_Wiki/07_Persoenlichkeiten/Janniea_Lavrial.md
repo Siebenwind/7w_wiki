@@ -1,24 +1,28 @@
 ---
 layout: wiki_page
+uuid: 9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b
 title: Janniea Lavrial
-category: Persönlichkeiten
-status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 160.md
+category: Persönlichkeit
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 158.md
+letzter_check: 2026-02-13T22:40:00
+report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---
+
 # Janniea Lavrial
 
-**Titel:** Stadtkonsula von [[Falkensee]]
+**Titel:** Stadtconsula
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** Stadtverwaltung [[Falkensee]]
-**Zeitraum:** aktiv 18 n.H.
+**Zugehörigkeit:** Falkensee / Verwaltung
 
 ## Beschreibung
-**Janniea Lavrial** ist die amtierende Stadtkonsula von [[Falkensee]]. Sie ist maßgeblich an der Verwaltung und dem Wiederaufbau der Hauptstadt beteiligt.
+**Janniea Lavrial** ist die Stadtconsula von Falkensee. Sie ist für die zivile Verwaltung und die Belange der Bürger zuständig (Bote 158).
 
 ## Wirken
-*   **18 n.H. (Bote 158):** Sie wird im Zusammenhang mit der Bekämpfung der Rattenplage in der Kanalisation von Falkensee erwähnt, die durch Lichtrituale der Lavrial-Geschwister und anderer Magier beendet wurde.
-*   **18 n.H. (Bote 160):** Sie veranlasste den offiziellen Umtausch der Bürgerbriefe in Falkensee gegen neue, fälschungssichere Dokumente.
-*   **Volkszählung (19 n.H.):** Am 6. Dular führte sie die erste offizielle Volkszählung in [[Falkensee]] durch und erfasste Namen, Berufe und Rassen aller Bewohner (Bote 165).
+- **Verwaltung:** Leitung der Konsularkanzlei in Falkensee ab 18 n.H.
 
----
-**Siehe auch:** [[Falkensee]], [[Solos_Nhergas]]
+## Verlinkte Themen
+- [[Falkensee]]
+- [[Personenregister]]
+
+## Referenzen
+- Primärquelle: [Siebenwind Bote 158](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20158.md)

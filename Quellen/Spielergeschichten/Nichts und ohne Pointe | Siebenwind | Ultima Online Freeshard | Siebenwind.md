@@ -1,3 +1,11 @@
+---
+layout: wiki_page
+title: Nichts und ohne Pointe
+category: Erzählung
+status: #perspektive
+tags: [Dorion Hali, Akora, Psychologie]
+---
+
 ## Nichts und ohne Pointe
 
 1\. Kapitel  

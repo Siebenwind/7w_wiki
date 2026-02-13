@@ -366,13 +366,22 @@ def update_chunk_metadata(collection, chunk_ids: list, new_source: str):
         print(f"  ⚠️  Metadata-Update fehlgeschlagen: {e}")
 
 
-def build_collection(client, collection_name: str, source_key: str, model, batch_size: int, rebuild: bool = False):
+def build_collection(client, collection_name: str, source_key: str, model, batch_size: int, rebuild: bool = False, target_file: str = None):
     """Baut eine ChromaDB-Collection auf (inkrementell oder voll)."""
     config = SOURCE_CONFIG[source_key]
     files = collect_files(config["paths"])
     
+    if target_file:
+        # Filter auf spezifische Datei
+        # Wir prüfen, ob der Pfad auf die Zieldatei endet (flexibel für rel/abs Pfade)
+        files = [f for f in files if str(f["path"]).endswith(target_file)]
+        if not files:
+            # Datei ist nicht in dieser Source (macht nichts, vielleicht in der anderen)
+            return 0, 0
+    
     if not files:
-        print(f"  ❌ Keine Dateien gefunden für '{source_key}'.")
+        if not target_file:
+            print(f"  ❌ Keine Dateien gefunden für '{source_key}'.")
         return 0, 0
     
     if rebuild:
@@ -594,6 +603,8 @@ def main():
                         help="Erzwingt vollen Neuaufbau (löscht alten Index)")
     parser.add_argument("--status", action="store_true",
                         help="Zeigt nur den Index-Status an")
+    parser.add_argument("--file", type=str,
+                        help="Nur diese spezifische Datei aktualisieren (für Watcher)")
     args = parser.parse_args()
     
     print("╔═══════════════════════════════════════════════════╗")
@@ -660,8 +671,9 @@ def main():
             SOURCE_CONFIG[source_key]["collection"],
             source_key,
             model,
-            args.batch_size,
-            rebuild=args.rebuild,
+            args.batch_size, # Pass batch_size from args/config
+            args.rebuild,
+            args.file
         )
         total_files += n_files
         total_chunks += n_chunks

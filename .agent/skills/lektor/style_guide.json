@@ -1,0 +1,30 @@
+{
+  "no_go_words": [
+    "Level", 
+    "XP", 
+    "Spawn", 
+    "Mob", 
+    "Nerd", 
+    "OOC",
+    "Admin",
+    "Game Master",
+    "GM",
+    "NPC",
+    "PC",
+    "Stats",
+    "Skillbaum",
+    "Questmarker"
+  ],
+  "preferred_terms": {
+    "Character": "Charakter",
+    "Skill": "Fähigkeit",
+    "Quest": "Aufgabe",
+    "Plot": "Handlung",
+    "Story": "Geschichte",
+    "Item": "Gegenstand",
+    "Loot": "Beute",
+    "Dungeon": "Gewölbe"
+  },
+  "passive_threshold": 0.3,
+  "required_frontmatter": ["layout", "title", "category"]
+}

@@ -1,3 +1,11 @@
+---
+layout: wiki_page
+title: Studenten – WG
+category: Erzählung
+status: #perspektive
+tags: [Traim Eisenblut, Gimbart Galdora, Nirluk, Zwerge, Dwarschim]
+---
+
 ## Studenten – WG
 
 Dies ist eine Geschichte geschrieben von **Traim Eisenblut** und **Gimbart
