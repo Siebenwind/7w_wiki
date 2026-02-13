@@ -1,6 +1,6 @@
 # Changelog: Siebenwind-Wiki-Rekonstruktion
 
-Alles signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
+Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
 
 ## [2026-02-13.3] - Wiki-Statistiken & Dokumentations-Audit
 ### Hinzugefügt
