@@ -1,25 +1,38 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 147
+title: Siebenwind Bote 147
 category: Chronik
+status: Bote
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a909
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 147.md
+letzter_check: 2026-02-13T01:50:00+01:00
 ---
-
-# [[Siebenwind]] Bote 147
+# Siebenwind Bote 147
 
 **Epistemischer Status:** #bote
-**Datum:** 20. Dular 17 n.H.
+**Datum:** 20. Dular 17 n.H. (Sonderausgabe)
 
-## Schlagzeilen
+## Überblick
+Diese Sonderausgabe berichtet vom Angriff der königlichen Marine auf die Insel, der Niederschlagung des Orkenaufstands und der Suche nach Schwertsplittern.
 
-### Orkenaufstand niedergeschlagen!
-Ruhe kehrt in die Gassen zurück. In einer gemeinsamen Anstrengung von [[Menschen]], [[Nortraven]] und [[Elfen]] wurde das Dorf [[Südfall]] entsetzt und die drohende Landung feindlicher Truppen verhindert. Dieser Sieg wird als Zeichen der Verbundenheit der Völker unter dem Banner der Viere gefeiert.
+## Kriegszustand
+*   **Marineangriff:** Die 4. Marinebrigade des Reiches griff [[Brandenstein]], [[Falkensee]] und [[Südfall]] an.
+*   **Wille alter Meister:** Ein magisches Konstrukt der [[Mazzareem|Mazzaremer]], der **[[Wille_alter_Meister]]**, vernichtete drei Schiffe der Marine in einem Flammeninferno, da er sie als Bedrohung für die Insel einstufte.
+*   **Bombardement:** Die Marine bombardierte Falkensee und Südfall, vermutlich um den [[Magierturm]] zu treffen.
 
-### Das Gefecht vor Etriska
-Dunkle Wolken hingen über der See, als die Flotte vor Etriska in einen magischen Konflikt verwickelt wurde. Es wird gemunkelt, dass "alte Meister" versuchten, die Schiffe zu versenken, doch die Graumagier hielten stand. Die Lage bleibt angespannt; Kontakt zum Admiralsstab wird verzweifelt gesucht.
+## Interne Sicherheit
+*   **Orkenaufstand:** Der Aufstand der [[Rasse_Orken]] wurde niedergeschlagen.
+*   **Razzia:** Leutnant **[[Gropp]]** und Obergefreiter **[[Winzlig]]** führten eine Razzia in der Taverne **[[Seiltaenzer]]** durch. Es wurden große Mengen Nachtschatten und Gifte gefunden.
 
-### Die Schwertsplitter des Feldherren
-Die Suche nach den Relikten des heiligen Lichts geht weiter. Doch Vorsicht ist geboten: Fälscher versuchen, Profit aus der Hoffnung der Gläubigen zu schlagen. Man mahnt zur Wachsamkeit, denn nur die wahren Splitter werden dem Dunkel trotzen können.
+## Mysterien
+*   **Der Feldherr:** Magische Tore erlauben Einblick in den Geist des "Feldherren" (einer brennenden Gestalt im Ödland).
+*   **Schwertsplitter:** Hinter den Toren finden sich Splitter seines Saphirschwertes. Es heißt, wenn das Schwert neu geschmiedet wird, kann der Feldherr erlöst werden. Auch Diener des Namenlosen suchen danach.
 
----
-**Redaktion:** L. H.
-**Quelle:** [[[Siebenwind]] Bote 147](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20147.md)
+## Derivate
+*   [[Wille_alter_Meister]]
+*   [[Gropp]]
+*   [[Winzlig]]
+*   [[Feldherr]]
+
+## Referenzen
+- Primärquelle: [Siebenwind Bote 147](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20147.md)

@@ -11,17 +11,17 @@ tags: [Gott, Sahor, Krieg, Handwerk, Ehre, Herbst]
 
 **Glaube:** [[Bellum]] (Kampf), [[Ignis]] (Feuer), [[Vitama]] (Heilung)
 
-**Bellum** ist einer der vier Hauptgötter (Sahor) und verkörpert die Kraft, den Kampf, die Ehre und das Handwerk. Er ist der Wächter über Mut und Gerechtigkeit, der die Schwachen schützt und das Böse ([[10_Angamon]]) aktiv bekämpft.
+**Bellum** ist der Schmied des Schicksals und der Hüter der Ehre. Er verkörpert die notwendige Stärke, um das Recht zu schützen, und die Disziplin, die aus roher Gewalt eine ritterliche Kunst formt. Er ist der Amboss, an dem die Seele der Insel in Zeiten der Not geschmiedet wird.
 
 ## Aspekte und Prinzipien
 - **Jahreszeit:** Herbst
 - **Element:** Feuer / Erde (Schmiede)
-- **Zugehöriger Mond:** *Kein eigener Mond*, aber oft mit dem roten Schein des Feuers assoziiert.
-- **Tugenden:** Tapferkeit, Ehre, Stärke, Gerechtigkeit, Schmiedekunst.
-- **Symbole:** Das Schwert, der Hammer, der Schild.
+- **Assoziierter Mond:** Keiner direkt. Es heißt, er habe sein Leuchten geopfert, um die Sterne am Firmament als ewige Wachtfeuer gegen die Finsternis [[Angamon]]s zu entzünden.
+- **Tugenden:** Stoische Tapferkeit, unbestechliche Ehre, schöpferische Kraft.
+- **Symbole:** Der flammende Hammer, der gespaltene Fels, das aufrechte Schwert.
 
 ## Mythologie
-In den Legenden ist Bellum der Krieger unter den Sahor. Er schmiedete die Waffen, mit denen die Götter gegen die Finsternis stritten. Zusammen mit seiner Halbschwester **[[07_Rien]] (Erde)** erschuf er die **[[Rasse_Zwerge]]**, um ein Volk zu haben, das ebenso stark und standhaft ist wie der Fels und das Metall selbst.
+Bellum ist der unermüdliche Krieger der Sahor. In den Äonen der Schöpfung schmiedete er die Waffen der Götter aus dem ersten Sternenmetall. In enger Verbundenheit mit **[[Rien]] (Erde)** formte er die **[[Rasse_Zwerge]]**, denen er die Standhaftigkeit des Berges und das Feuer der Esse in die Herzen legte.
 
 ## Verehrung
 Die **[[Kirche_der_Viere]]** ehrt Bellum als den Beschützer des Reiches.

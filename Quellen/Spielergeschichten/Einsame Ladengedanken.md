@@ -1,7 +1,11 @@
 ---
 layout: wiki_page
 title: Einsame Ladengedanken
-category: Sonstiges
+category: Erzählung
+status: #perspektive
+tags: [Markus Panscher, Sorania, Putsch, Brandenstein, Astrael]
+uuid: f1234567-a916-48b3-9a30-8de6fbc712da
+letzter_check: 2026-02-13T15:15:00+01:00
 ---
 
 # Einsame Ladengedanken
@@ -12,7 +16,7 @@ Wer schon immer einmal wissen wollte was so ein einsamer wartender Gelehrter so 
 
 ### 1.Teil 
 
-> 20. Carmer 21 n. Hilgorat
+> 20. [[Carmer]] 21 n. [[Hilgorad]]
 > 
 > Er starrte auf den Tresen und dachte:
 > 
@@ -22,12 +26,12 @@ Wer schon immer einmal wissen wollte was so ein einsamer wartender Gelehrter so 
 > 
 > Wie fühlt sich wohl mein eingeschlagener Schädel an?
 > 
-> Würde Astrael meinen Tod für das erlangen jenes Wissens tolerieren?
+> Würde [[Astrael]] meinen Tod für das erlangen jenes Wissens tolerieren?
 > 
 > Er starrte mit jenen Gedanken weiter auf den Tresen und wartete auf Kundschaft,Mitarbeiter oder Freunde...
 
 ### 2.Teil 
-> 21. Carmer 21 n. Hilgorat
+> 21. [[Carmer]] 21 n. [[Hilgorad]]
 > 
 > Er sitzt mal wieder am Tresen und schaut herab zu jenem in Gedanken versunken...
 > 
@@ -54,27 +58,27 @@ Wer schon immer einmal wissen wollte was so ein einsamer wartender Gelehrter so 
 > Und so wartet er wieder darauf das einer die schwelle zu seinem Laden übertritt...
 
 ### 3.Teil 
-> 23. Carmer 21 n. Hilgorat
+> 23. [[Carmer]] 21 n. [[Hilgorad]]
 > 
 > Er sitzt wieder am Tresen und popelt in der Nase als er etwas aus seiner Nase zieht und es begutachtet.
 > 
-> Ob ich damit meine Heiltränke verbessern könnte?
+> Ob ich damit meine [[Heiltränke]] verbessern könnte?
 > 
 > Aus was besteht das wohl?
 > 
-> Ob Astrael das eklig findet?
+> Ob [[Astrael]] das eklig findet?
 > 
-> Findet Astrael überhaupt etwas eklig?
+> Findet [[Astrael]] überhaupt etwas eklig?
 > 
 > So sitzt er nun weiterhin da und starrt auf seinen beschmutzten Finger bis ein Kunde, Mitarbeiter oder Freund über die Türschwelle tritt.
 
--- verfasst von Markus Panscher
+-- verfasst von [[Markus_Panscher]]
 
 ### Interlude:
 
 > Langsam hatte sie das Gefühl, daß der Wahnsinn des Putsches immer weiter um sich griff. Eigentlich hatte sie gehofft, daß nun Alles besser werden würde, aber...
 > 
-> Als sie den Laden, wie allzuoft schon betrat, bot sich ihr ein seltsames Bild: Bis zur Decke hinauf gestapelt ein Chaos aus Tischen, Stühlen, Brettern und Allem, was irgendwie sperrig war. Dahinter verborgen, wie von Sinnen geifernd und bewaffnet Herr Panscher.
+> Als sie den Laden, wie allzuoft schon betrat, bot sich ihr ein seltsames Bild: Bis zur Decke hinauf gestapelt ein Chaos aus Tischen, Stühlen, Brettern und Allem, was irgendwie sperrig war. Dahinter verborgen, wie von Sinnen geifernd und bewaffnet Herr [[Markus_Panscher|Panscher]].
 > 
 > War er nun vollkommen durchgedreht?
 > Wird es nicht nur ihm so gehen?
@@ -86,13 +90,13 @@ Wer schon immer einmal wissen wollte was so ein einsamer wartender Gelehrter so 
 > 
 > Und so - trotz vollem Raume und sich ausbreitender Hektik - war sie allein.
 
--- verfasst von Sorania
+-- verfasst von [[Sorania]]
 
 ### Letzter Teil:
 
 > Einsam und allein sitzt er im Keller.
 > Nur eine Kerze erhellt den Raum auf dem Altar.
-> Er hockt daneben im Bett und umklammert seinen Plüschhasen von Awa.
+> Er hockt daneben im Bett und umklammert seinen Plüschhasen von [[Awa]].
 > Leise spricht er verzweifelt, fast wimmernd in kindlicher Stimme zu ihm:
 > 
 > Wann wird es vorbei sein Argionemes?
@@ -107,9 +111,9 @@ Wer schon immer einmal wissen wollte was so ein einsamer wartender Gelehrter so 
 > 
 > Beschützt du mich Argionemes?
 > 
-> Und wo ist eigentlich Nurya?
+> Und wo ist eigentlich [[Nurya]]?
 > 
 > 
 > Die Kerze verlischt langsam und nur noch das leise Wimmern ist zu hören im Keller hinter den Wänden.
  
--- verfasst von Markus Panscher
+-- verfasst von [[Markus_Panscher]]

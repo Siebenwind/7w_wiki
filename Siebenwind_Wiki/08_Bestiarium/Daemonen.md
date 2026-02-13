@@ -24,8 +24,13 @@ Dämonen können die erste Sphäre ([[Tare]]) nicht aus eigener Kraft betreten, 
 - **Abbilder:** Auf [[Tare]] erscheint lediglich ein Abbild des Dämons. Wird dieses zerstört, verbleibt die Essenz in der zweiten Sphäre, benötigt aber lange Zeit, um sich zu regenerieren.
 - **Gefahren:** Fehler bei der Beschwörung führen dazu, dass der Dämon seinen Beschwörer angreift. Wer zu oft Dämonen ruft, riskiert, die Aufmerksamkeit Angamons zu erregen, der einen mächtigeren Bestrafungs-Dämon senden kann.
 
+## Bekannte Infiltrationen & Bedrohungen
+Dämonische Präsenzen manifestieren sich oft subtil und verführerisch, bevor sie ihr wahres Antlitz zeigen:
+- **Der [[Hutmacher]]:** Ein Dämon, der Künstler und Träumer in eine wirre Globule entführte und erst durch eine Allianz aus Geweihten ([[Custodias]]) und Abenteurern vernichtet wurde.
+- **Der [[Blinde_Maler]]:** Ein Wesen der Schatten, das die Wahrnehmung seiner Opfer verzerrte und die Grenzen zwischen den Sphären schwächte.
+
 ## Mysteriöse Chaoswesen
-Es gibt Berichte über Wesen wie die **Scheeter** oder **Reendompekas**, die nur zur Zerstörung auf [[Tare]] erscheinen. Sie verfügen über seltsame Magie und werden oft sogar von Anhängern Angamons gejagt, da sie reine Chaosstifter sind.
+Es gibt Berichte über Wesen wie die **Scheeter** oder **Reendompekas**, die nur zur Zerstörung auf [[Tare]] erscheinen. Sie verfügen über seltsame Magie und werden oft sogar von Anhängern Angamons gejagt, da sie reine Chaosstifter sind. Ihr Erscheinen kündigt oft das Versagen einer größeren Beschwörung an.
 
 ---
 **Siehe auch:** [[Bestiarium_Register]], [[Angamon]]

@@ -2,38 +2,43 @@
 layout: wiki_page
 title: Siebenwind Bote 172
 category: Chronik
+status: Bote
+uuid: b2c3d4e5-f6a1-4b2c-3d4e-5f6g7h8i9j0k
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 172.md
+letzter_check: 2026-02-13T16:35:00+01:00
 ---
-
 # Siebenwind Bote 172
 
 **Epistemischer Status:** #bote
-**Datum:** 23. Onar 20 n.H.
+**Datum:** 23. Onar 20 n.H. (Mondtag)
 
-## Schlagzeilen
+## Highlights
+*   **Doppelter Ritterschlag:** Am 4. Oner 20 n.H. wurden **[[Pharalis_Avistur]]** und **[[Yves_Rondragon]]** durch Großmeister [[Siegfried_Steiner]] zu Rittern geschlagen.
+*   **Umstrukturierung der Ritterschaft:**
+    *   **[[Mirian_Lasar]]**: Erhoben zur **Hochmeisterin des Greifenordens** und Stellvertreterin des Großmeisters.
+    *   **[[Luther_Dueff]]**: Übergab das Hochmeisteramt des Falkenordens und dient nun als Greifenritter.
+    *   **[[Laske]]**: Erhoben zum **Hochmeister des Falkenordens**.
+*   **Inselrat & Politik:**
+    *   **Abgabenregelung:** Neue Finanzplanung (Budget 100.000 Dukaten) für Projekte wie ein Flaggschiff der Kronmark und Begrünungsprojekte der [[Dwarschim]].
+    *   **Neues Mitglied:** **[[Johannes_Tiberias]]** (Erzprinzipial der Kaufmannsgilde) erhält Sitz im Rat.
+    *   **Titel:** **[[Cendaric_Tibur]]** erhält den Titel "**Schwert der Kronmark**" stellvertretend für den [[Orden_der_Wachenden_Löwen]].
+    *   **Jagdgesetze:** Neuer Erlass zur Regulierung der Jagd (Forstgilden in Brandenstein, Greifenwald, Südfall, Falkensee und Kesselklamm).
+*   **Kämpferschule:** Neuaufbau der Schule unter der Leitung von Ritter [[Laske]] und Ritter [[Pharalis_Avistur]]. Lehrer für verschiedene Disziplinen werden gesucht.
+*   **Chronik & Ereignisse:**
+    *   **Mordfall:** **[[Niklas_Rattenfaenger]]**, ein bekannter Zeitungsjunge, wurde im Südwest-Viertel [[Falkensee|Falkensees]] ermordet. Ein Mann mit Säbel (Totenkopfgriff) wird gesucht.
+    *   **Bibliothek:** Einweihung der Bibliothek in [[Brandenstein]] unter Leitung von **[[Maelve_Rhyntarin]]**.
+    *   **Hochzeit:** [[Felis_Andras]] und [[Emanuel_Sanderus]] heirateten am 30. Seker 19 n.H.
+    *   **Visionen:** Massenvisionen heimsuchen die Bewohner, u.a. während einer Messe im Elementarkloster.
 
-### Zweifacher Ritterschlag
-Am 4. Oner 20 n.H. wurden die Knappen [[Pharalis_Avistur]] und [[Yves_Rondragon]] im Tempel zu Falkensee von Großmeister [[Siegfried_Steiner]] zu Rittern geschlagen. 
-*   **Feierlichkeiten:** Nach der Zeremonie bildeten das [[Kronregiment]] und der [[Löwenorden]] ein Ehrenspalier. Die Feier fand in der Taverne „Zur roten Seeschlange“ in [[Brandenstein]] statt.
+## Personen
+*   **[[Pharalis_Avistur]]**: Neue Ritterin und Co-Leiterin der Kämpferschule.
+*   **[[Yves_Rondragon]]**: Neuer Ritter.
+*   **[[Johannes_Tiberias]]**: Neues Inselratsmitglied.
+*   **[[Cendaric_Tibur]]**: Ordensmeister, "Schwert der Kronmark".
+*   **[[Niklas_Rattenfaenger]]**: Ermordeter Botenmitarbeiter.
+*   **[[Maelve_Rhyntarin]]**: Bibliothekarin.
+*   **[[Toran_Dur]]**: Inselpatrizier.
+*   **[[Heeron_Dherayne]]**: Söldnerführer, in Begleitung von Freifrau [[Nhergas]] gesehen.
 
-### Verkündung des Inselrates
-Der [[Inselrat]] erhält durch neue Erlasse der Patrizier ([[Toran_Dur]] und [[Nithavela]]) eine größere Bedeutung, insbesondere durch ein eigenes Budget für gemeinnützige Projekte.
-*   **Budget:** 100.000 Dukaten wurden für Projekte wie ein Flaggschiff der Kronmark, ein Begrünungsprojekt der [[Dwarschim]], das Hospiz zu [[Falkensee]] und den Ankauf von Büchern bewilligt.
-*   **Kaufmannsgilde:** Die [[Kaufmannsgilde]], vertreten durch Erzprinzipial [[Johannes_Tiberias]], wurde in den Inselrat aufgenommen.
-*   **Ehrentitel:** Der [[Löwenorden]] (vertreten durch [[Cendaric_Tibur]]) erhielt den Titel "Schwert der Kronmark".
-
-### Neue Gesetze der Kronmark
-*   **Abgabenregelung:** Neuordnung der Pachtabgaben der Siedlungen an die Patrizier und den Inselrat.
-*   **Jagdgesetze:** Einrichtung lokaler [[Forstgilde]]n zum Schutz von Flora und Fauna. [[Waldelfen]] und [[Auenelfen]] sind von diesen Regelungen ausgenommen.
-*   **Ehrentitel:** Einführung offizieller Orden ([[Schwertorden]], [[Drachenorden]], [[Herz_aus_Gold]], [[Auge_Astraels]]) und Titel ([[Protektor]], [[Patron]], [[Schwert_der_Kronmark]]).
-
-### Mord an Niklas Rattenfänger
-Der beliebte Zeitungsjunge [[Niklas_Rattenfänger]] wurde im Südwest-Viertel [[Falkensee]]s ermordet. Als Täter wird ein Mann mit einem Säbel mit Totenkopfgriff vermutet, der einer zwielichtigen Gruppierung angehören soll. Der Bote hat eine hohe Belohnung ausgesetzt.
-
-### Weitere Meldungen
-*   **Kämpferschule:** Die [[Kämpferschule_Falkensee]] soll unter der Leitung von Ritter [[Laske]] und Ritter [[Pharalis_Avistur]] neu aufgebaut werden.
-*   **Bibliothek Brandenstein:** Offizielle Einweihung am 26. Onar durch [[Valentin_Varus]]. Leitung: [[Maelve_Rhyntarin]].
-*   **Seltsame Visionen:** Inselweit wird von kollektiven Visionen berichtet. Das [[Elementarkloster]] stuft diese als ungefährlich ein.
-
----
-**Quellen:** [[Siebenwind_Bote_172]] (Original)
-**Siehe auch:** [[Chronik]], [[Inselrat]], [[Falkensee]]
+## Referenzen
+- Primärquelle: [Siebenwind Bote 172](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20172.md)

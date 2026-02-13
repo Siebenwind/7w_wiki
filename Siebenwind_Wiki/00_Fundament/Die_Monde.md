@@ -17,7 +17,8 @@ Der größte und hellste Mond. In der Mythologie wird er oft mit [[Astrael]] (Wi
 Ein Mond mit einem bläulichen Schimmer, der eng mit der Göttin [[Vitama]] (Leben/Heilung) verbunden ist. Er beeinflusst die Gezeiten und das Wachstum der Pflanzen.
 
 ## 3. Dorayon
-Der kleinste und dunkelste der drei Monde. Er wird oft mit [[Morsan]] (Tod/Ruhe) oder verborgenen Aspekten der Magie in Verbindung gebracht.
+Der kleinste und dunkelste der Monde. In der sakralen Lehre wird er **[[Morsan]]** (Tod/Ruhe) zugeordnet und symbolisiert den Übergang ins Jenseits. Doch in finsteren Zeiten und unter Schwarzmagiern gilt er als der "Blick des **[[Angamon]]**", da sein bleiches, kaum wahrnehmbares Licht die Schatten mehr vertieft als vertreibt.
 
 ## Phänomene
-Während des [[Dunkeltief|Dunkeltiefs]] verschwinden alle drei Monde gleichzeitig vom Himmel, was als Zeichen für das vorübergehende Erstarken finsterer Mächte gewertet wird.
+- **[[Dunkeltief]]**: Alle drei Monde verschwinden gleichzeitig vom Himmel (Wintersonnenwende).
+- **[[Lichthoch]]**: Die Bahnen von **Astreyon** und **Vitamalin** kreuzen sich, und beide stehen gleichzeitig in voller Pracht am Himmel (Sommersonnenwende).

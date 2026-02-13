@@ -9,6 +9,7 @@ category: Persönlichkeiten
 **Titel:** Leutnant der Wacht
 **Epistemischer Status:** #bote
 **Zugehörigkeit:** [[Malthust]] / [[Brandenstein]]
+**Zeitraum:** aktiv 19-22 n.H.
 
 ## Beschreibung
 **Erin Caoimme** ist eine Leutnantin der Malthuster Wacht in [[Brandenstein]].

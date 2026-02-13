@@ -15,7 +15,12 @@ category: Persönlichkeit
 Zacharias [[Gropp]] ist ein Knappe, der seinen Dienst auf der Burg **[[Finianswacht]]** verrichtet. Er gehört zum einflussreichen Haus [[Gropp]] und ist vermutlich ein Verwandter des Inselpatriziers [[Gropp]].
 
 ## Wirken
-Im Jahr 18 n.H. war Zacharias beauftragt, Personal für das Gestüt in [[Brandenstein]] zu suchen. Er fungierte als Ansprechpartner für Bewerber auf Burg [[Finianswacht]] und koordinierte die Einstellungsgespräche. Sein Wirken zeigt die fortwährende Einbindung des Hauses [[Gropp]] in die strategischen und wirtschaftlichen Belange der Insel.
+*   **18 n.H. (Bote 161):** Er betreute den Hahnenkampf in [[Brandenstein]] tiermedizinisch und stellte die Versorgung der Kontrahenten sicher.
+*   **18 n.H. (Bote 162):** Er suchte Personal für sein Gestüt in [[Brandenstein]] und koordinierte Bewerbungsgespräche auf der Burg Finianswacht.
+*   **19 n.H. (Bote 166):**
+    *   **Drakenwälder Großjagd:** Er errang den **1. Platz** bei der Großjagd (u.a. bezwang er einen Grizzlybären im Ringen und fing einen Silberhirsch lebendig). Als Belohnung erhielt er 5 Morgen Land in [[Neuentau]].
+    *   **Rattenplage:** Er beteiligte sich maßgeblich an der Bekämpfung der Rattenplage in [[Brandenstein]] und tötete gemeinsam mit [[Niklas_Rattenfaenger]] die riesige Rudelführerin auf einem Schiff im Hafen.
+    *   **Wolfshatz:** Er versuchte am Wall einen riesigen, intelligenten schwarzen Wolf aufzuhalten und verfolgte ihn später mit Jagdhunden bis ins Ödland.
 
 ---
 **Quellen:** [[Siebenwind_Bote_162]]

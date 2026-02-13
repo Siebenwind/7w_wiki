@@ -1,21 +1,22 @@
 ---
 layout: wiki_page
 title: Kaspian Tiefenwald
-category: Persönlichkeit
+category: Persönlichkeiten
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 160.md
 ---
-
 # Kaspian Tiefenwald
 
-**Titel:** Leiter der [[Ventusreiter]]
+**Titel:** Leiter der Ventusreiter
 **Epistemischer Status:** #bote
 **Zugehörigkeit:** [[Ventusreiter]]
-**Zeitraum:** aktiv um 18 n.H.
+**Zeitraum:** aktiv 18 n.H.
 
 ## Beschreibung
-Kaspian Tiefenwald ist der Leiter des Nachrichtendienstes **[[Ventusreiter]]** in [[Falkensee]]. Er ist ein pragmatischer und organisierter Anführer, der großen Wert auf die Zuverlässigkeit und Pünktlichkeit seines Kurierdienstes legt. Sein Hauptquartier befindet sich in [[Falkensee]] 39.
+**Kaspian Tiefenwald** übernahm im Jahr 18 n.H. (Bote 160) die Leitung der **[[Ventusreiter]]** auf [[Siebenwind]] von seinem Vorgänger [[Mythandir]].
 
 ## Wirken
-Unter seiner Führung expandierten die [[Ventusreiter]] und suchten im Jahr 18 n.H. aktiv nach neuen Mitarbeitern, um die steigende Nachfrage nach gesicherter Kommunikation auf der Insel zu decken. Tiefenwald gilt als Ansprechpartner für alle Belange, die den Post- und Botenlauf betreffen, und steht in regem Kontakt mit dem [[Inselrat]].
+*   **Modernisierung:** Unter seiner Führung wurde der Postdienst massiv ausgebaut. Neben dem klassischen Briefversand wurden Paketdienste, Sperrguttransport und sogar Schreibdienste für Analphabeten eingeführt. Er legte Wert auf eine tägliche Leerung der Ventuskisten und eine Zustellung binnen Tagesfrist.
 
 ---
-**Quellen:** [[Siebenwind_Bote_157]]
+**Siehe auch:** [[Ventusreiter]], [[Falkensee]]

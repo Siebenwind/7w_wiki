@@ -1,7 +1,11 @@
 ---
 layout: wiki_page
 title: Kriegstagebuch eines Soldaten
-category: Sonstiges
+category: Erzählung
+uuid: F3ACE6D2-E235-42EB-A469-0389EAC94B02
+status: Perspektive (Level 4)
+tags: [Dunkeltief, Krieg, Schwingenwacht, Harpyien, Kherbal]
+letzter_check: 2026-02-13T14:50:00+01:00
 ---
 
 # Kriegstagebuch eines Soldaten
@@ -24,18 +28,18 @@ Der Blick starr auf das Buch gerichtet.. müde.. ausgezerrt wirkt der Soldat, di
 > 
 > Den Männern scheint sie nicht viel auszumachen.. Sie halten durch, wie immer.
 > 
-> Dieses Kreischen, verfluchte Harpyien.. immer wieder kreisen sie über der Außenburg, zwei Gardisten haben sie schon von den Zinnen in den Tod gerissen..
+> Dieses Kreischen, verfluchte [[Harpyien]].. immer wieder kreisen sie über der Außenburg, zwei Gardisten haben sie schon von den Zinnen in den Tod gerissen..
 > 
 > Die Tore halten .. ein Glück .. Vereinzelte Angriffe am Ost und Nord-Tor, die Lage beruhigt sich schnell - Trotzdem immer wieder schwerst Verletzte..
 > 
-> Solide Verteidigungen .. haben außer uns, wohl nur die Malthuster und Dwarschim auf die Beine gestellt .. Berichte vom belagerten Vänskap machen die Runde..
+> Solide Verteidigungen .. haben außer uns, wohl nur die Malthuster und [[Dwarschim]] auf die Beine gestellt .. Berichte vom belagerten [[Vänskap]] machen die Runde..
 > 
 > Zu schnell standen die Elfen vor unseren Toren .. Überrannt..? Schlecht vorbereitet? .. Der gefrorene See hat seinen Teil dazu beigetragen.
 > 
-> Dilettanten .. waren wohl in Falkensee am Werk - Der zusammengewürfelte Haufen .. bestehend aus Strauchdieben und Marktplatzwächtern hatte bestimmt schon die Tore geöffnet, als die Dunkeln Streitmächte sich näherten..
+> Dilettanten .. waren wohl in [[Falkensee]] am Werk - Der zusammengewürfelte Haufen .. bestehend aus Strauchdieben und Marktplatzwächtern hatte bestimmt schon die Tore geöffnet, als die Dunkeln Streitmächte sich näherten..
 > 
-> Zusammen mit dem Löwnorden trafen sie ein.. Alle treiben sie sich in der Außenburg herum.. Werden sie nützlich sein.. oder sind sie unser Untergang..?
+> Zusammen mit dem [[Orden_der_Wachenden_Löwen|Löwenorden]] trafen sie ein.. Alle treiben sie sich in der Außenburg herum.. Werden sie nützlich sein.. oder sind sie unser Untergang..?
 > 
 > Ereignisreich war der erste Tag in der Dunkelheit .. hoffentlich halten wir die restlichen Tage auch noch aus ..
 > 
-> Kherbal - Burg Schwingenwacht, den 6.Oner - Dunkeltief
+> Kherbal - [[Burg_Schwingenwacht]], den 6.Oner - [[Dunkeltief]]

@@ -34,5 +34,5 @@ Wassermagier (Hydromanten) können heilen, Wasser atmen, Eiswände erschaffen od
 
 ## Verwandte Themen
 - [[00_Religion_Uebersicht]]
-- [[12_Magie_Grundlagen]]
-- [[21_Rassen_Elfen]] - Auenelfen leben oft an Flüssen.
+- [[Magie_Grundlagen]]
+- [[Rasse_Elfen]] - Auenelfen leben oft an Flüssen.

@@ -10,9 +10,9 @@ category: Persönlichkeiten
 **Epistemischer Status:** #bote
 **Zugehörigkeit:** [[Lehensverwaltung]] / [[Wirtschaft]]
 
-## Beschreibung
-**Midraan Minerius** war im Jahr 15 n.H. (Bote 123) Oberkommerzienrat der Lehensverwaltung.
-Er ließ durch [[Fayola]] eine Schutztruppe für Geld- und Warentransporte rekrutieren.
+## Wirken
+*   **15 n.H. (Bote 123):** Er war als Oberkommerzienrat der Lehensverwaltung tätig und ließ eine Schutztruppe für Transporte rekrutieren.
+*   **18 n.H. (Bote 161):** Er (oder ein gleichnamiger Verwandter) dient als Gardist in der Rittergarde und wurde mit dem kleinen Ehrenband ausgezeichnet.
 
 ---
 **Siehe auch:** [[Lehensverwaltung]], [[Wirtschaft]]

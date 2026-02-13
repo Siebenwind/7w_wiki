@@ -16,8 +16,10 @@ Der **Orden der Tränen Vitamas** ist ein neuer religiöser Zweig innerhalb der 
 
 ## Wirken
 
-### Gründung und Zweck (20 n.H.)
-Der Orden entstand als Reaktion auf das zunehmende Leid durch das [[Dunkeltief]] und die Seuche [[Atmender_Tod]]. Die Mitglieder, oft als "Tränensucher" bezeichnet, leisten humanitäre Hilfe und führen Reinigungsrituale an Orten durch, die vom Bösen berührt wurden.
+### Struktur und Besonderheiten (20 n.H.)
+Der Orden zeichnet sich dadurch aus, dass Laien gleichberechtigt neben Geweihten dienen können. Er unterhält die Obdachlosenunterkunft im Armenviertel von [[Falkensee]] sowie das dortige Badehaus. Im Gegensatz zum älteren [[Orden_des_lieblichen_Kelches]] hat der Orden der Tränen eine sehr junge, spezifische Ausrichtung auf die Unterstützung der Ärmsten.
+
+Hochwürden [[Benion_Sandelholz]] betont, dass Armut nicht mit Kriminalität gleichzusetzen sei und der Orden als "helfende Hand" die Liebe Vitamas zeigen wolle ([[Siebenwind_Bote_173]]).
 
 ---
 **Quellen:** [[Siebenwind_Bote_171]], [[Siebenwind_Bote_172]]

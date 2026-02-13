@@ -11,8 +11,8 @@ category: Persönlichkeiten
 **Zugehörigkeit:** [[Nortraven]] / [[Greifenklipp]]
 
 ## Beschreibung
-**Kurga** war im Jahr 16 n.H. (Bote 130) Dorfoberster von [[Greifenklipp]].
-Er nahm die Preisvergabe von 50.000 Dukaten und 5 Fässern Met von Baron [[Baron_von_Gerdenwald|Friedward von Gerdenwald]] entgegen, als Greifenklipp als erstes Dorf die königliche Siedlungsauflage erfüllte (30+ Einwohner aus 3 Völkern).
+*   **16 n.H. (Bote 130):** Dorfoberster von [[Greifenklipp]]. Er nahm die Belohnung für die Erfüllung der Siedlungsauflage entgegen.
+*   **19 n.H. (Bote 164):** Erhebung in den Stand eines **Edelmanns** durch Graf Robaar als Anerkennung für seine Verdienste um die Besiedlung.
 
 ---
 **Siehe auch:** [[Greifenklipp]], [[Nortraven]]

@@ -17,7 +17,10 @@ Pharalis Avistur ist eine talentierte Ritterin der Sieben Winde, die im Jahr 20 
 ## Wirken
 
 ### Ritterschlag (20 n.H.)
-Pharalis wurde zusammen mit [[Yves_Rondragon]] im Jahr 20 n.H. zum Ritter geschlagen.
+Pharalis wurde zusammen mit [[Yves_Rondragon]] am **4. Oner 20 n.H.** im Tempel zu Falkensee durch Großmeister [[Siegfried_Steiner]] zum Ritter geschlagen ([[Siebenwind_Bote_172]]). Die Zeremonie wurde von Hochwürden [[Provenus_Herand|Herand]] geleitet.
+
+### Kämpferschule (20 n.H.)
+Seit Onar 20 n.H. leitet sie gemeinsam mit Ritter [[Laske]] den Neuaufbau der **Kämpferschule** in Falkensee ([[Siebenwind_Bote_172]]).
 
 ---
 **Quellen:** [[Siebenwind_Bote_172]], [[Siebenwind_Bote_173]]

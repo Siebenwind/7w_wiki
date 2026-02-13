@@ -29,6 +29,9 @@ category: Persönlichkeit
 ## Konflikte
 Seine tiefste Abneigung galt dem Hochgeweihten **[[Custodias]]**. Delarie sah in der religiösen Einmischung in militärische Belange eine Gefahr für die Effektivität der Garde und beschuldigte Custodias wiederholt der Ketzerei und des Hochverrats — Anschuldigungen, die letztlich zu seinem eigenen politischen Fall beitrugen.
 
+## Gerüchte & Kontroversen
+Rund um das Jahr 21 n.H., insbesondere im Vorfeld des Putsches, kursierten düstere Gerüchte über Delarie. In der *Gerüchteküche* ([[Siebenwind_Bote_180]]) wurde gemunkelt, er sei "besessen" oder "ein Diener des Einen". Spezifisch wurde der **"Geist eines verstorbenen Gefangenen"** genannt, der von ihm Besitz ergriffen haben soll, und er wurde mit dem Mondanheulen auf dem Gardeturm in Verbindung gebracht. Auch wenn dies Propaganda sein mag, fällt es zeitlich mit dem Auftreten des Dämons "Hutmacher" und den Vorfällen um die "Shilor-Spinne" (Gnaden Tarnuk) zusammen.
+
 ## Überlieferungen & Quellen
 > [!NOTE]
 > **Primärquellen:**

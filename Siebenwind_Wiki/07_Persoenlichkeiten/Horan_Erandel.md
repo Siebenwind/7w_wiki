@@ -11,7 +11,8 @@ category: [[Persönlichkeiten]]
 Ein Anwärter der Kriegerakademie auf [[Siebenwind]].
 
 ## Taten
-Gemeinsam mit [[Gerion_Flammwurf]] bewies Horan Erandel seine Einsatzbereitschaft bei der Verhaftung des Wegelagerers [[Aaron]] im Jahr 15 n.H. ([[Siebenwind_Bote_132]]). Sein Handeln wurde als Zeichen für die Qualität der Ausbildung an der Akademie gewertet.
+- **16 n.H. (Bote 135):** Beteiligung an der Verhaftung des Wegelagerers [[Aaron]] bei [[Seeberg]].
+- **16 n.H. (Bote 139):** Teilnahme an der Expedition zur Bergung des Reichsschwertes aus der Feste des Alten Feindes. Er lieferte den Bericht über die Kämpfe und die anschließende Lichterscheinung.
 
 ## Motivation
 Sein Ziel ist der Dienst im [[Lehens_Banner|Lehensbanner]], um für Recht und Ordnung auf der Insel zu sorgen.

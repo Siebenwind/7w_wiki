@@ -16,6 +16,9 @@ Every file must start with a YAML frontmatter block containing exactly these fie
 layout: wiki_page
 title: [Display Title]
 category: [Persönlichkeit | Geschichte | Erzählung | Geografie | Religion | Magie]
+uuid: [UUID-v4]
+quelle: ../../Quellen/[Unterordner]/[Dateiname].md
+letzter_check: [ISO-8601 Zeitstempel inkl. Uhrzeit]
 ---
 ```
 

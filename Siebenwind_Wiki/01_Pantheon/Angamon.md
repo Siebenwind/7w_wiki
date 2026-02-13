@@ -14,9 +14,9 @@ tags: [Gott, Antagonist, Böses, Zerstörung, Schatten]
 
 ## Aspekte und Prinzipien
 - **Element:** Leere / Schatten
-- **Charakter:** Hass, Neid, Korruption, Tyrannei.
-- **Zugehöriger Mond:** Dorayon (Der dritte, dunkle Mond).
-- **Symbole:** Das gebrochene Rad, die schwarze Sonne, die Klaue.
+- **Charakter:** Grenzenloser Hass, zehrender Neid, absolute Tyrannei.
+- **Zugehöriger Mond:** Dorayon (Der dritte, dunkle Mond — er beansprucht dessen Finsternis für sich).
+- **Symbole:** Das gebrochene Rad, die schwarze Sonne, die schneidende Klaue.
 
 ## Mythologie
 Die Legenden besagen, dass Angamon aus den Schatten entstand, die *Galamnor* (Materie) warf, als *Timanor* (Zeit) das erste Licht entzündete. Er ist der ewige Neider, der selbst nichts erschaffen kann, sondern nur das Vorhandene verzerren, korrumpieren oder zerstören will. Er erschuf die **[[Daemonen]]** als Spottbilder des Lebens.
@@ -30,12 +30,12 @@ Die Verehrung Angamons ist im Königreich Galadon bei Todesstrafe verboten. Sein
 Hexenmeister und Nekromanten (die nicht den *[[05_Morsan]]*-Riten folgen) rufen oft Angamons Macht an, um [[Daemonen]] zu beschwören oder Flüche zu weben. Diese Magie fordert stets einen blutigen Preis.
 
 ## Beziehungen
-- **[[03_Bellum]]:** Sein erbittertster Feind. [[03_Bellum]] bekämpft Angamon mit dem Schwert.
-- **[[04_Vitama]]:** Sie ist das Gegenteil von allem, was er ist. Er will sie nicht töten, sondern korrumpieren, um das Leben selbst zu pervertieren.
-- **[[02_Astrael]]:** [[02_Astrael]] bekämpft ihn mit dem Licht des Wissens, denn Angst gedeiht im Unbekannten.
+- **[[Bellum]]:** Sein erbittertster Feind. Wo Bellum loderndes Feuer gegen die Schatten führt, versucht Angamon, jede Flamme des Mutes zu ersticken.
+- **[[Vitama]]:** Sie ist der Inbegriff dessen, was er hasst. Er trachtet nicht danach, sie zu vernichten, sondern ihr Werk zu pervertieren.
+- **[[Astrael]]:** Das Licht des Wissens ist sein Gift. Astraels Klarheit bannt die Angst, in der Angamons Einflüsterungen gedeihen.
 
 ## Verwandte Themen
-- [[00_Religion_Uebersicht]]
-- [[11_Die_Viere_Kirche]] verdammt ihn.
-- [[12_Magie_grundlagen]] - Dunkle Magie
-- [[20_Kreaturen]] - [[Daemonen]]
+- [[Religion_Übersicht]]
+- [[Die_Viere_Kirche]] verdammt ihn.
+- [[Magie_Grundlagen]] - Dunkle Magie
+- [[Kreaturen]] - [[Dämonen]]

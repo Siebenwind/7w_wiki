@@ -2,20 +2,21 @@
 layout: wiki_page
 title: Flavius Lewenstein
 category: Persönlichkeiten
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 174.md
 ---
-
 # Flavius Lewenstein
 
+**Titel:** Oberst
 **Epistemischer Status:** #bote
+**Zugehörigkeit:** [[Malthust]] / [[Pakt_der_Viereinigkeit]]
+**Zeitraum:** aktiv ab 20 n.H.
 
-## Überblick
-**Flavius Lewenstein** ist Oberst der Malthuster Armee und der führende Vertreter des [[Pakt_der_Viereinigkeit|Paktes der Viereinigkeit]] auf [[Siebenwind]]. Er leitet die Gesandtschaft in [[Brandenstein]], das seinem Pakt als Lehen überantwortet wurde.
+## Beschreibung
+**Flavius Lewenstein** ist ein Oberst der Malthuster Armee und der führende Vertreter des **[[Pakt_der_Viereinigkeit|Paktes der Viereinigkeit]]** auf Siebenwind. Er residiert in [[Brandenstein]].
 
-## Charakter und Regierungsstil
-Im Gegensatz zur formellen Art der Ersonter Gesandtschaft gilt Lewenstein als zugänglich, freundlich und pragmatisch. Er pflegt einen engen Kontakt zur Bevölkerung und hält Audienzen oft in informellem Rahmen (z.B. in der Taverne „Zur roten Seeschlange“) ab. Er betont den Wert von harter Arbeit, Wohlstand und Sicherheit.
-
-## Ziele
-Sein primäres Ziel ist die Förderung des Handels und Handwerks in Brandenstein. Er strebt enge Bündnisse mit den [[Nortraven]] und [[Dwarschim]] an und plant den Ausbau der Infrastruktur (z.B. Fährverbindungen). Trotz seines militärischen Hintergrunds betont er, dass der Wohlstand des Volkes im Vordergrund steht.
+## Wirken
+*   **Malthuster Landung (20 n.H.):** Er leitete die Landung der Malthuster Truppen und übernahm im Namen des Paktes die Verwaltung von [[Brandenstein]]. In einem Gespräch mit dem Siebenwind-Boten betonte er das Ziel, den Handel und das Handwerk zu fördern und eine enge Partnerschaft mit den [[Nortraven]] und [[Dwarschim]] einzugehen ([[Siebenwind_Bote_174]]).
 
 ---
-**Siehe auch:** [[Pakt_der_Viereinigkeit]], [[Brandenstein]], [[Siebenwind_Bote_174]]
+**Siehe auch:** [[Malthust]], [[Pakt_der_Viereinigkeit]], [[Brandenstein]]

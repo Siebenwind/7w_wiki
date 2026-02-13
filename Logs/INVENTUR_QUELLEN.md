@@ -113,36 +113,36 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Siebenwind Bote 143.md | Integrated |
 | Siebenwind Bote 144.md | Integrated |
 | Siebenwind Bote 145.md | Integrated |
-| Siebenwind Bote 146.md | Pending |
-| Siebenwind Bote 147.md | Pending |
-| Siebenwind Bote 148.md | Pending |
-| Siebenwind Bote 149.md | Pending |
-| Siebenwind Bote 150.md | Pending |
-| Siebenwind Bote 151.md | Pending |
-| Siebenwind Bote 152.md | Pending |
-| Siebenwind Bote 153.md | Pending |
-| Siebenwind Bote 154.md | Pending |
-| Siebenwind Bote 155.md | Pending |
-| Siebenwind Bote 156.md | Pending |
-| Siebenwind Bote 157.md | Pending |
-| Siebenwind Bote 158.md | Pending |
-| Siebenwind Bote 159.md | Pending |
-| Siebenwind Bote 160.md | Pending |
-| Siebenwind Bote 161.md | Pending |
-| Siebenwind Bote 162.md | Pending |
-| Siebenwind Bote 163.md | Pending |
-| Siebenwind Bote 164.md | Pending |
-| Siebenwind Bote 165.md | Pending |
-| Siebenwind Bote 166.md | Pending |
-| Siebenwind Bote 167.md | Pending |
-| Siebenwind Bote 168.md | Pending |
-| Siebenwind Bote 169.md | Pending |
-| Siebenwind Bote 170.md | Pending |
-| Siebenwind Bote 171.md | Pending |
-| Siebenwind Bote 172.md | Pending |
-| Siebenwind Bote 173.md | Pending |
-| Siebenwind Bote 174.md | Pending |
-| Siebenwind Bote 175.md | Pending |
+| Siebenwind Bote 146.md | Integrated |
+| Siebenwind Bote 147.md | Integrated |
+| Siebenwind Bote 148.md | Integrated |
+| Siebenwind Bote 149.md | Integrated |
+| Siebenwind Bote 150.md | Integrated |
+| Siebenwind Bote 151.md | Integrated |
+| Siebenwind Bote 152.md | Integrated |
+| Siebenwind Bote 153.md | Integrated |
+| Siebenwind Bote 154.md | Integrated |
+| Siebenwind Bote 155.md | Integrated |
+| Siebenwind Bote 156.md | Integrated |
+| Siebenwind Bote 157.md | Integrated |
+| Siebenwind Bote 158.md | Integrated |
+| Siebenwind Bote 159.md | Integrated |
+| Siebenwind Bote 160.md | Integrated |
+| Siebenwind Bote 161.md | Integrated |
+| Siebenwind Bote 162.md | Integrated |
+| Siebenwind Bote 163.md | Integrated |
+| Siebenwind Bote 164.md | Integrated |
+| Siebenwind Bote 165.md | Integrated |
+| Siebenwind Bote 166.md | Integrated |
+| Siebenwind Bote 167.md | Integrated |
+| Siebenwind Bote 168.md | Integrated |
+| Siebenwind Bote 169.md | Integrated |
+| Siebenwind Bote 170.md | Integrated |
+| Siebenwind Bote 171.md | Integrated |
+| Siebenwind Bote 172.md | Integrated |
+| Siebenwind Bote 173.md | Integrated |
+| Siebenwind Bote 174.md | Integrated |
+| Siebenwind Bote 175.md | Integrated |
 | Siebenwind Bote 176.md | Pending |
 | Siebenwind Bote 177.md | Pending |
 | Siebenwind Bote 178.md | Pending |
@@ -158,9 +158,9 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Siebenwind Bote 188.md | Pending |
 | Siebenwind Bote 189.md | Pending |
 | Siebenwind Bote 190.md | Pending |
-| Siebenwind Bote 191.md | Pending |
-| Siebenwind Bote 192.md | Pending |
-| Siebenwind Bote 193.md | Pending |
+| Siebenwind Bote 191.md | Integrated |
+| Siebenwind Bote 192.md | Integrated |
+| Siebenwind Bote 193.md | Integrated |
 | Siebenwind Bote.md | Pending |
 
 ## Level 3: Die Überlieferung (Gelehrtentum)
@@ -253,7 +253,7 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Kalveron Dai - Das System arkaner LokalitÑten.md | Toran Dur | Kalveron Dai | Pending |
 | Kalveron Dai - De Magica Angamoniensis.md | Toran Dur | Kalveron Dai | Pending |
 | Kida Gilwen - Erweiterte SphÑrentheorie.md | Toran Dur | Kida Gilwen | Pending |
-| Kulin Lateal - Das_Daimonicon.md | Toran Dur | Kulin Lateal | Pending |
+| Kulin Lateal - Das_Daimonicon.md | Toran Dur | Kulin Lateal | Integrated |
 | Lewyn Anacar - Ars Magica Metamorphosia.md | Toran Dur | Lewyn Anacar | Pending |
 | Logrin Goldaxt - Bartanatomie.md | Toran Dur | Logrin Goldaxt | Pending |
 | Magica Procella Die Lehre der arkanen Wellenbewegung.md | Toran Dur | - | Pending |
@@ -279,7 +279,7 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Toran Dur - Die Magie.md | Toran Dur | Toran Dur | Done |
 | Toran Dur - Die Ordenssatzung des Ordens vom Wachenden Lîwen auf Siebenwind.md | Toran Dur | Toran Dur | Pending |
 | Toran Dur - Die Sprache Run.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Graue Charta II.md | Toran Dur | Toran Dur | Pending |
+| Toran Dur - Graue Charta II.md | Toran Dur | Toran Dur | Integrated |
 | Toran Dur - Hellsichtritual Konstrukt am Wall.md | Toran Dur | Toran Dur | Pending |
 | Toran Dur - Index Siebenwind Band 2.md | Toran Dur | Toran Dur | Pending |
 | Toran Dur - Index Siebenwind Band IV.md | Toran Dur | Toran Dur | Pending |
@@ -303,7 +303,7 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Filename | Est. Topic | Status |
 |----------|------------|--------|
 | Abschied und Verrat | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
-| Abweisungen.md | - | Pending |
+| Abweisungen.md | - | Integrated |
 | Alles ohne Pointe | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
 | Aus dem Leben eines Schwarzmagiers | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
 | Aus dem Liebesleben eines Dichters | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
@@ -314,29 +314,29 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Der Flug der Ente..md | - | Pending |
 | Der Flug der Ente1.md | - | Pending |
 | Die Elemente - ungleiche Geschwister.md | - | Pending |
-| Die Nacht des Dunkeltiefs.md | - | Pending |
+| Die Nacht des Dunkeltiefs.md | - | Integrated |
 | Die Namikleris.md | - | Pending |
 | Die Verbrennung des heiligen Markus.md | - | Pending |
-| Dunkeltief- Vänskap.md | - | Pending |
-| Ein Abschiedsbrief.md | - | Pending |
-| Einer Löwin Traum.md | - | Pending |
-| Einsame Ladengedanken.md | - | Pending |
-| Erinnerungen eines alternden Zwergen | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
-| Feuerholz für das Dunkeltief.md | - | Pending |
-| Geschäftiges Treiben.md | - | Pending |
-| Geschichten eines silbernen Adlers.md | - | Pending |
-| Hannibal Thule.md | - | Pending |
-| Illis‘ G’schichtenecke | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
-| Im Sumpf.md | - | Pending |
-| Jassavia | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
-| Jenseits des Walls.md | - | Pending |
-| Khalandra | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
+| Dunkeltief- Vänskap.md | - | Integrated |
+| Ein Abschiedsbrief.md | - | Integrated |
+| Einer Löwin Traum.md | - | Integrated |
+| Einsame Ladengedanken.md | - | Integrated |
+| Erinnerungen_eines_alternden_Zwergen.md | - | Integrated |
+| Feuerholz für das Dunkeltief.md | - | Integrated |
+| Geschäftiges Treiben.md | - | Integrated |
+| Geschichten eines silbernen Adlers.md | - | Integrated |
+| Hannibal Thule.md | - | Integrated |
+| Illis_Geschichtenecke.md | - | Integrated |
+| Im Sumpf.md | - | Integrated |
+| Jassavia.md | - | Integrated |
+| Jenseits des Walls.md | - | Integrated |
+| Khalandra.md | - | Integrated |
 | Kraken.md | - | Pending |
-| Kriegstagebuch eines Soldaten.md | - | Pending |
+| Kriegstagebuch eines Soldaten.md | - | Integrated |
 | Letzte Vorbereitungen.md | - | Pending |
 | Logbuch des Kerkers.md | - | Pending |
 | Nachts im Brandensteiner Tempel.md | - | Pending |
-| Nebel in Brandenstein.md | - | Pending |
+| Nebel in Brandenstein.md | - | Integrated |
 | Nichts und ohne Pointe | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
 | Prüfung und Entsagung.md | - | Pending |
 | Pueppchens Flucht.md | - | Pending |

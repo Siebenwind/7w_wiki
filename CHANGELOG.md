@@ -2,6 +2,44 @@
 
 Alles signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
 
+## [2026-02-13.2] - Audit der Magieschulen (Kanon-Härtung)
+### Hinzugefügt
+- **Kanonische Institutionen**: 
+    - `Königliche Akademie der arkanen Künste` (Zentrales Element).
+    - `Magierturm zu Tiefenbach` (Historisch/Zerstört).
+    - `Akademie der Schwarzen Künste` (Historisch/Verboten).
+ 
+### Geändert
+- **Kanon-Bereinigung**: 
+    - Entfernung der nicht-kanonischen "Akademie des Grünen Zweiges" aus `Region_Tiefenwald.md`.
+    - Entfernung der nicht-kanonischen "Akademie in den Grauen Höhlen" aus `Region_Kadamark.md`.
+    - Korrektur der Verlinkungen in `Graue_Garde.md` auf die offizielle Königliche Akademie.
+- **Register-Update**: Vollständige Integration der neuen Akademien in `Organisationsregister.md` und `registry.jsonl`.
+
+### Ergebnisse
+- Erfolgreiche Eliminierung von "Fanon"-Elementen (Halluzinationen), die sich in die Regionsbeschreibungen eingeschlichen hatten.
+- Klare Trennung zwischen aktiven (Königliche Akademie) und historischen (Tiefenbach, Schwarze Künste) Magieschulen hergestellt.
+
+## [2026-02-13.1] - Historiker-Review & Register-Cleanup
+### Hinzugefügt
+- `Logs/Historiker_Bericht_Rabenfels_2026.md`: Detaillierter Bericht über Benedict Rabenfels und die Führungskrise des Löwenordens.
+
+### Geändert
+- **Metadaten-Härtung**: 
+    - Einführung von ISO-8601 Zeitstempeln **mit Uhrzeit** für alle Metadaten (`letzter_check`).
+    - Neue performante JSONL-Registry (`registry.jsonl`) zur Dokumentenverfolgung.
+    - Standardisierung aller Boten (133-140) mit permanenten UUIDs.
+- **Register-Cleanup**: 
+    - Zusammenführung von Duplikaten (Steiner, Bitterling, Eisenbruch, Arman, Delarie, Caeden, Wendolyn, Horan Erandel).
+    - Konsolidierung von Karrieredaten (z.B. Fedral Lavid, Benion Sandelholz).
+    - Bereinigung von Dateisystem-Dubletten (`Woran_Lebensmüh.md`).
+- **Lore-Konsistenz**:
+    - Dokumentation der Diskrepanz zwischen Bote 172 (Tibur/Avistur als Halbgeschwister) und Wiki (als Onkel/Nichte).
+
+### Ergebnisse
+- Das Profil von Benedict Rabenfels wurde dekomponiert, die Erkenntnisse aber im Historiker-Bericht gesichert.
+- Die Register-Synchronität wurde durch die Konsolidierung von Mehrfacheinträgen signifikant verbessert.
+
 ## [2026-02-12.5] - Konsistenz-Offensive & Workflow-Härtung
 ### Hinzugefügt
 - `.agent/scripts/register_check.py`: Automatisiertes Audit-Tool (findet Duplikate, Orphans, Boten-Lücken, Index-Lücken).

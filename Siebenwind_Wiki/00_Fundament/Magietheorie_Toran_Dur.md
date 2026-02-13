@@ -19,7 +19,7 @@ Magie gilt als eine der drei fundamentalen Konstanten der Existenz (neben Raum u
 Der Kosmos ist in drei Sphären gegliedert:
 1.  **Mandon:** Die materielle Welt (Sitz von [[Tare]], Fela und Vitamalin).
 2.  **Horandon:** Das Heim der Götter und höheren Wesen (unterteilt in Ashordon, Mandor/Yerrodon und Nidihor).
-3.  **Vidon:** Das Reich von [[Morsan]], in dem die Geister der Toten ruhen.
+3.  **Vidor:** Das Reich von [[Morsan]], in dem die Geister der Toten ruhen.
 *   **Der Limbus:** Ein ätherischer Raum negativer Energie, der die Sphären trennt.
 
 ## Aufbau des Geistes & Gnosis

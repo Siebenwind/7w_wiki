@@ -14,7 +14,7 @@ Die **Siebenwindakte** ist eines der bedeutendsten politischen Dokumente der jü
 ## Kerninhalte
 
 ### Einsetzung des Großen Rates
-Das Herzstück der Akte ist die Schaffung des **[[Der_Große_Rat|Großen Rates]]**. Dieses Gremium sollte die verschiedenen Völker und Interessengruppen der Insel an der Verwaltung beteiligen. Zu den stimmberechtigten Mitgliedern zählten:
+Das Herzstück der Akte ist die Schaffung des **[[Grosser_Rat|Großen Rates]]**. Dieses Gremium sollte die verschiedenen Völker und Interessengruppen der Insel an der Verwaltung beteiligen. Zu den stimmberechtigten Mitgliedern zählten:
 - Das Volk der [[Rasse_Zwerge|Dwarschim]]
 - Das Volk der Landelfen und Hocelfen ([[Rasse_Elfen]])
 - Das Volk der [[Halblinge]]

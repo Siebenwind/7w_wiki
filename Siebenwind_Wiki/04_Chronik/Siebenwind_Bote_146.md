@@ -1,22 +1,34 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 146
+title: Siebenwind Bote 146
 category: Chronik
+status: Bote
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a908
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 146.md
+letzter_check: 2026-02-13T01:45:00+01:00
 ---
-
-# [[Siebenwind]] Bote 146
+# Siebenwind Bote 146
 
 **Epistemischer Status:** #bote
-**Datum:** Mondtag, 17. Dular 17 n.H.
+**Datum:** 17. Dular 17 n.H. (Sonderausgabe)
 
-## Schlagzeilen
+## Überblick
+Diese Sonderausgabe warnt vor einer falschen Evakuierungsanordnung und berichtet von einem Aufstand der Orks.
 
-### Orkenaufstand in der Hauptstadt!
-Die Straßen von [[Falkensee]] erzitterten unter dem Marsch schwer bewaffneter [[Orken]]. Was als provokanter Truppenaufmarsch begann, gipfelte in einem feigen Angriff auf einen Bannersoldaten und schließlich auf den Lehensherrn selbst. Die Stadt ist in höchster Alarmbereitschaft; Tore und Wege werden schwer bewacht. Man hofft auf die Gnade des Lehensherrn, um die Wilden zur Besinnung zu bringen.
+## Die falsche Evakuierung
+Gerüchte über eine bevorstehende totale Vernichtung der Insel durch einen "Krieg der Götter" und eine Evakuierung nach [[Etriska]] verbreiteten Panik.
+*   **Der Betrug:** Ein angeblicher Abgesandte des [[Grauer_Turm|Grauen Turms]] legte Dokumente ohne korrektes Siegel vor. Bei einem Verhör durch die Ritterschaft und Hochmagus [[Toran_Dur]] flog der Schwindel auf.
+*   **Der Täter:** Indizien deuten darauf hin, dass der "Abgesandte" in Wahrheit der gesuchte Massenmörder **[[Telion]]** war. Er entkam durch den astralen Raum.
+*   **Hintergrund:** Es wird vermutet, dass dies eine List des Fürsten **[[Raziel]]** von [[Vandrien]] war, um die Bevölkerung schutzlos zu machen. Eine schwarze Barke wurde vor der Küste gesichtet.
 
-### Sonderausgabe: Invasion droht?
-In den Hallen der Macht wird geflüstert. Die Führung des Lehens, beraten von der Kirche und den Magiern des Grauen Turmes, bereitet sich auf einen baldigen Angriff vor. Es heißt, der "Dunkle Fürst" selbst ziehe gegen die Insel. Eine Evakuierung wird derzeit abgelehnt, doch die Klingen werden geschärft.
+## Konflikte
+### Orkenaufstand
+Ein Trupp bewaffneter **[[Rasse_Orken]]** marschierte durch die Hauptstadt und griff Vertreter der Obrigkeit sowie den Lehensherren an. Die Stadt befindet sich in Alarmbereitschaft.
 
----
-**Redaktion:** L. H., A. D.
-**Quelle:** [[[Siebenwind]] Bote 146](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20146.md)
+## Derivate
+*   [[Telion]]
+*   [[Raziel]]
+*   [[Toran_Dur]]
+
+## Referenzen
+- Primärquelle: [Siebenwind Bote 146](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20146.md)

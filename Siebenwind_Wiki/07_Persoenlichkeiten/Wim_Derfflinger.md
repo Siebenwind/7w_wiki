@@ -12,7 +12,8 @@ category: Persönlichkeiten
 
 ## Beschreibung
 **Vater Wim Derfflinger** ist ein Geweihter des Astrael.
-Im Jahr 15 n.H. (Bote 123) wurde er von Richter [[Aurax_Ellrothon]] zum Inselstaatsanwalt ernannt, um die Einheit von Glaube und Recht zu stärken.
+- **15 n.H. (Bote 123):** Ernennung zum Inselstaatsanwalt durch Richter [[Aurax_Ellrothon]].
+- **16 n.H. (Bote 135):** Leitung des kirchlichen Konvents zur Entschlüsselung der Inschriften aus Niemands Höhle und Warnung vor dem Dämon [[Sha'Naz'Ghul]].
 
 ---
 **Siehe auch:** [[Recht]], [[Kirche_der_Viere]]

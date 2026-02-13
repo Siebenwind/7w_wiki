@@ -1,28 +1,34 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 170
+title: Siebenwind Bote 170
 category: Chronik
+status: Bote
+uuid: f3g4h5i6-j7k8-l9m0-n1o2-p3q4r5s6t7u8
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 170.md
+letzter_check: 2026-02-13T16:15:00+01:00
 ---
-
-# [[Siebenwind]] Bote 170
+# Siebenwind Bote 170
 
 **Epistemischer Status:** #bote
-**Datum:** 27. Carmar 19 n.H.
+**Datum:** 27. Carmar 19 n.H. (Mondtag)
 
-## Schlagzeilen
+## Highlights
+*   **Das Statut der Kronmark:** Truchsess [[Beladriel_Blaettertanz]] hat das offizielle Statut der Kronmark erlassen. Es regelt die Verteilung der Machtbefugnisse:
+    *   **Ritterschaft:** Zuständig für Sicherheit; der Großmeister (Sir [[Aspin_Schwertklinge_von_Fahlenau|Aspin Schwertklinge]]) trägt nun den Titel **"Heerführer der Kronmark"**.
+    *   **Königliches Gericht:** Zuständig für Rechtsprechung; die oberste Richterin ([[Solos_Nhergas]]) trägt den Titel **"Hüter des Großsiegel der Kronmark"**.
+    *   **Inselpatrizier:** Führen die Verwaltung als **"Verweser der Kronmark"** und stehen dem **Völkerrat** vor.
+*   **Stadtrechte und Titel:** Alle Siedlungen erhielten offizielle Titel innerhalb der Kronmark:
+    *   [[Falkensee]]: Hauptstadt der Kronmark (Stadtrecht).
+    *   [[Brandenstein]]: Freihafen der Kronmark.
+    *   [[Kesselklamm]]: Heimstatt in der Kesselklamm.
+    *   [[Suedfall|Südfall]]: Dorf Südfall.
+    *   [[Dunquell]]: Dorf Dunquell.
+    *   [[Greifenklipp]] & Vänskap: Dorf Greifenklipp und Vänskap.
+    *   [[Avindhrell]]: Dorf Avindhrell bei den Wassern.
+*   **Rechtsgültigkeit:** Alle bisherigen Provinzialstatuten und Milizrechtsverträge wurden mit sofortiger Wirkung aufgehoben. Die Verwaltung untersteht nun zentral den Inselpatriziern.
 
-### Das [[Statut_der_Kronmark_Siebenwind]]
-Die Baronin **[[Beladriel_Blaettertanz]]** hat neue Statute für die freie Kronmark [[Siebenwind]] festgelegt. Diese betreffen die Zusammenarbeit zwischen Ritterschaft, Gericht, Inselpatriziern und der Truchsess. (Siehe [[Statut_der_Kronmark_Siebenwind]])
+## Lokales
+*   **Rechtsprechung:** Das [[Koenigliches_Gericht]] unter [[Solos_Nhergas]] sucht neues Personal (Schreiber, Gerichtsdiener, Advokaten).
 
-### [[Provinzstatuten_Erlass]]
-Bisherige Statuten, die dem neuen Statut der Kronmark widersprechen, werden aufgehoben. Neue Regelungen müssen mit den Inselpatriziern und der Ritterschaft abgestimmt werden.
-
-### Auflösung der Milizrechtsverträge
-Sämtliche bisherigen Verträge mit Milizen sind mit sofortiger Wirkung aufgehoben. Milizen genießen keinerlei Sonderrechte mehr.
-
-### Suche nach Mitarbeitern
-Auf [[Burg_Finianswacht]] werden neue Mitarbeiter gesucht. Bewerber müssen ein einwandfreies Leumundszeugnis vorzeigen können.
-
----
-**Redaktion:** Redaktion
-**Quelle:** [[[Siebenwind]] Bote 170](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20170.md)
+## Referenzen
+- Primärquelle: [Siebenwind Bote 170](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20170.md)

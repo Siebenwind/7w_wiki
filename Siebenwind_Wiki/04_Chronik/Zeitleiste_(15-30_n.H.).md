@@ -49,15 +49,26 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 *   **Seuche:** Ausbruch des **[[Atmender_Tod|Atmenden Todes]]**. [[Falkensee]] und [[Brandenstein]] sind schwer betroffen. [[Alassea]] und [[Markus_Panscher]] beginnen mit der Erforschung eines Heilmittels.
 *   **Konflikt:** Zerschlagung der **[[Terra_Dorotor]]** ([[Merros]]-Anhänger) durch eine koordinierte Aktion von Rittern und Kronregiment.
 
-### ... Lücke in der Datierung ...
+### 21 nach Hilgorad
+*   **Konflikt:** **[[Der_Putsch_von_Falkensee|Der Putsch von Falkensee]]** (28. Carmar). Die Ersonter Garde unter [[Waldemar_Delarie]] und [[Steinhauer]] versucht den Rat abzusetzen.
+*   **Politik:** Nachbeben des Putsches; Verhängung des Kriegsrechts und Einzug von Truppen aus [[Malthust]] und dem [[Löwenorden]].
+*   **Adel:** [[Waldemar_Delarie]] wird für seine Verdienste geadelt (Edler), fällt aber kurz darauf durch den Putsch in Ungnade.
+
+### 25 nach Hilgorad
+*   **Reise:** Hauptmann [[Waldemar_Delarie]] begibt sich auf seine Mission nach Papin, was ein Machtvakuum in Falkensee hinterlässt.
+
+### 29 nach Hilgorad
+*   **Große Wende:** **Rückkehr von [[Hilgorad_I_ap_Mer|König Hilgorad]]** (Bote 190). Er sammelt Truppen in [[Khalandra]], um gegen [[Cortan]] und die Dämonenbedrohung vorzugehen.
+*   **Krieg:** Beginn der Mobilmachung der Nortraven und orkischen Hilfstruppen unter dem Banner der Krone.
+*   **Kultur:** Wiederbelebung der Handwerksstrukturen in [[Falkensee]] durch [[Awa_Aldorn]].
 
 ### 30 nach Hilgorad
 *   **Aktueller Stand:** Datum der letzten erfassten Boten-Ausgabe (Nr. 193).
 
 ## Undatierte Ereignisse in dieser Epoche
-*   **Der Hutmacher & Der Blinde Maler:** Auftauchen von [[Daemonen]], die Künstler und Ritter (Sire [[Laske]]) verführen und entführen. Bekämpfung durch custodiases und Magier.
-*   **Vandrien:** Gerüchte über die Rückkehr von Fürst Raziel und den Tardukai.
-*   **Khalandra:** Aufstieg des "Turm des Nordwinds" zur Universität durch Finanzierung von König Theobald I. von Cortan.
+*   **Der Hutmacher & Der Blinde Maler:** Auftauchen von [[Dämonen]], die Künstler und Ritter (Sire [[Laske]]) verführen und entführen. Bekämpfung durch [[Custodias]] und Magier.
+*   **Vandrien:** Gerüchte über die Rückkehr von Fürst Raziel und den [[Tardukai]].
+*   **Khalandra:** Aufstieg des "Turm des Nordwinds" zur Universität durch Finanzierung von König Theobald I. von [[Cortan]].
 *   **[[Rasse_Elfen]]-Konflikt:** Ultimatum der Waldelfen an den Ersonter Bund bezüglich Umbauten am Dorf [[Südfall]] ("Wenn die Äpfel fallen").
 
 ## [[index]] dieser Zeit

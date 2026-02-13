@@ -1,23 +1,26 @@
 ---
 layout: wiki_page
 title: Laske
-category: Persönlichkeit
+category: Persönlichkeiten
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 160.md
 ---
-
 # Laske
 
-**Titel:** Ritter / Hochmeister des Falkenordens
+**Titel:** Ritter / Sire / Leiter der Kämpferschule / Knappe (ehem.)
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritter_der_Sieben_Winde]]
-**Zeitraum:** aktiv ab 20 n.H.
+**Zugehörigkeit:** [[Siebenwind]] / Kämpferschule [[Falkensee]] / [[Ritterschaft_zu_Siebenwind]]
+**Zeitraum:** aktiv 18 n.H.
 
 ## Beschreibung
-Ritter Laske ist ein Mitglied der [[Ritter_der_Sieben_Winde]] und wurde zum Hochmeister des Falkenordens ernannt. Er ist bekannt für seine Besonnenheit und seinen scharfen Verstand.
+**Sire Laske** ist ein Ritter auf Siebenwind und Leiter der **königlich-siebenwind’schen Kämpferschule**. Er stammt aus einfachen Verhältnissen in Vandrien, wo er als Ziegenhirte arbeitete, bevor er nach Siebenwind reiste, um sich als Soldat zu beweisen.
 
 ## Wirken
-
-### Der Blinde Maler (20 n.H.)
-Laske war in die Ermittlungen rund um den mysteriösen "Blinden Maler" in [[Falkensee]] verwickelt. Er erkannte die übernatürlichen Warnsignale, die in den Werken des Malers verborgen waren, und warnte den Orden vor kommenden Gefahren.
+*   **18 n.H. (Bote 160):** Kommissarische Leitung der neu gegründeten Kämpferschule.
+*   **18 n.H. (Bote 161):** Am 30. Carmer wurde er von Graf [[Hagen_Robaar]] für seine Verdienste beim Aufbau der Schule und seinen treuen Dienst als Knappe zum Ritter geschlagen.
+*   **Botschafter (19 n.H.):** Am 31. Sekar 19 n.H. wurde er zum Gesandten der Ritterschaft für die Völker der **[[Nortraven]]** und der **[[Halblinge|Hobbits]]** auf Siebenwind ernannt ([[Siebenwind_Bote_171]]).
+*   **Hochmeister (20 n.H.):** Im Onar 20 n.H. wurde er zum **Hochmeister des Falkenordens** erhoben und übernahm die Nachfolge von Sire [[Luther_Dueff]] ([[Siebenwind_Bote_172]]).
+*   **Kämpferschule (20 n.H.):** Gemeinsam mit Ritterin [[Pharalis_Avistur]] leitet er seit Onar 20 n.H. den Neuaufbau der **Kämpferschule** in Falkensee ([[Siebenwind_Bote_172]]).
 
 ---
-**Quellen:** [[Siebenwind_Bote_172]], [[Siebenwind_Bote_173]]
+**Siehe auch:** [[Falkensee]], [[Hagen_Robaar]]

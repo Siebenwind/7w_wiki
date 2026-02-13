@@ -1,22 +1,24 @@
 ---
 layout: wiki_page
 title: Beladriel Blättertanz
-category: Persönlichkeit
+category: Persönlichkeiten
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 165.md
 ---
-
 # Beladriel Blättertanz
 
-**Titel:** Baronin, Wohlgeboren
+**Titel:** Ihre wohlgeborene Exzellenz / Baronin von Harpenstein zu Tiefenwald / Kommandantin von [[Feste_Seeberg]]
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** Adel von [[Siebenwind]]
-**Zeitraum:** aktiv um 18-19 n.H.
+**Zugehörigkeit:** Galadonische Krone / [[Ritter_der_Sieben_Winde]]
+**Zeitraum:** aktiv ab 19 n.H.
 
 ## Beschreibung
-Beladriel Blättertanz ist die Baronin der Kronmark [[Siebenwind]]. Sie gilt als reformfreudige Herrscherin, die bestrebt ist, die rechtlichen und sozialen Strukturen der Insel zu modernisieren und zu festigen.
+**Beladriel Blättertanz** war die vom König eingesetzte **Truchsess** (Seneschallin) der [[Kronmark]]. Seit deren Auflösung im Jahr 20 n.H. ([[Der_Erlass_des_Koenigs]]) ist sie die offizielle **Kommandantin** des königlichen Hoheitsgebietes [[Feste_Seeberg]].
 
-- **Bis 20 n.H.:** Truchsess der [[Kronmark]].
-- **Ab 20 n.H. (Bote 174):** Befehlshaberin über das königliche Gebiet [[Seeberg]], die [[Ritterschaft_der_Sieben_Winde]] und das [[XIII_Kronregiment]].
+## Wirken
+*   **Ankunft (19 n.H.):** Sie traf im Dular 19 n.H. auf Siebenwind ein.
+*   **Erlass des Königs (20 n.H.):** Am 26. Trier 20 n.H. verkündete sie im Namen des Königs die Auflösung der Kronmark und die Neuverteilung der Hoheitsgebiete. Sie wurde ihres Amtes als Truchsess enthoben, erhielt jedoch die alleinige Befehlsgewalt über das königliche Gebiet (Seeberg), die [[Ritter_der_Sieben_Winde]] und das [[XIII_Kronregiment]] ([[Siebenwind_Bote_174]]).
+*   **Gerüchte (19 n.H.):** Der Bote berichtet über eine aufkeimende Romanze zwischen der Baronin und dem Großmeister der Ritterschaft, [[Aspin_Schwertklinge_von_Fahlenau]]. Man sah sie oft gemeinsam in der Burg mit einem "sanften Lächeln" (Bote 169).
 
 ---
-**Siehe auch:** [[Seeberg]], [[Ritterschaft_der_Sieben_Winde]], [[Siebenwind_Bote_174]]
-**Quellen:** [[Siebenwind_Bote_170]], [[Siebenwind_Bote_166]]
+**Siehe auch:** [[Siebenwind_Bote_165]], [[Hilgorad_I_ap_Mer]], [[Grosser_Rat]]

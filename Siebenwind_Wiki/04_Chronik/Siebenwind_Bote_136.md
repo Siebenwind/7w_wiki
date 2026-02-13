@@ -1,46 +1,50 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 136
+title: Siebenwind Bote 136
 category: Chronik
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 136.md
 ---
-
-# [[Siebenwind]] Bote 136
+# Siebenwind Bote 136
 
 **Epistemischer Status:** #bote
+**Datum:** 30. Trier 16 n.H.
 
-*Hinweis: Die Ausgaben 137 bis 140 sind inhaltlich identisch mit dieser Ausgabe.*
+## Überblick
+Diese Ausgabe ist geprägt von Trauer um eine verdiente Ritterin, der Rückkehr einer heiligen Reliquie und Berichten über wachsende Gefahren durch "schwarze Reiter" und mysteriöse Funde in den Sumpfhöhlen.
 
-## Suche nach dem verlorenen Mädchen
-**Theme:** Mystery / Magic.
-**Inhalt:** Ein Mädchen wurde gesucht und schließlich als Geist in tiefen Gewölben unter Ruinen gefunden. Die Ruinen sind marmorn und von gespenstischem grünen Licht erfüllt. Dort finden sich "eingefrorene Gedanken" in Form von Lichtkugeln. Es wird spekuliert, dass dies mit einer Gestalt namens "[[Niemand]]" zusammenhängt.
-**Autor:** *L. H.*
+## Wichtige Ereignisse
+### Nachruf auf Malika Nohadi
+Die Viergöttliche Kirche und das Volk von [[Brandenstein]] ehren das Andenken an **[[Malika_Nohadi]]**, Ritterin des Falken, die in Morsans Hallen eingegangen ist.
 
-## Umtriebe eines gefährlichen Hexenweibs
-**Theme:** Witch Hunt.
-**Inhalt:** Warnung vor einer entstellten Hexe mit vernarbtem Mund. Sie soll im Bunde mit [[Daemonen]] oder dem "Einen" stehen. Sichtungen sollen der Magierschaft oder der Kirche gemeldet werden.
-**Autor:** *L. H.*
+### Rückkehr der Vitama-Reliquie
+Eine grüne Smaragdkugel, die aus dem verloren geglaubten [[Finsterwangen]] stammt, wurde von Elfen an die Kapelle in [[Brandenstein]] übergeben. Der [[Ordo_Vitamae]] wertet dies als glückliches Zeichen.
 
-## Gefahr von ausbrechenden Seuchen
-**Location:** [[Brandenstein]].
-**Thema:** Seuchenprävention.
-**Inhalt:** Lob für die Wachen, die Seuchen- und Aussatzträger aus [[Brandenstein]] führen, um die Ordnung und Gesundheit der rechtgläubigen Bürger zu schützen.
-**Autor:** *L. H.*
+### Anschlag auf Richter Anderus
+Es wird nach einem etwa 60-jährigen, bärtigen Mann in weißer Robe und spitzem Hut gefahndet, der einen Anschlag auf den königlichen Richter **[[Lario_Anderus]]** verübt hat. Ein Kopfgeld von 50.000 Dukaten wurde ausgesetzt.
 
-## Kopfgeld ausgesetzt
-**Persona:** [[Truba_Bierbart]] (Opfer), [[Jorwo]] (Oberjäger), [[V._T.]] (Autor).
-**Inhalt:** Ein Unbekannter versuchte [[Truba_Bierbart]] zu überfallen und stahl ihren Jagdschein (unterzeichnet von Oberjäger [[Jorwo]]). Kopfgeldjäger sind aufgerufen, den Täter zu stellen.
-**Autor:** *V. T.*
+### Überfall auf Erich Rosenquarz
+Der Bankier von [[Falkensee]], **[[Erich_Rosenquarz]]**, wurde von sogenannten **"Schwarzen Reitern"** überfallen und schwer verletzt. Dank des Feldschers **[[Rolosin_Vadebor]]** und arkaner Unterstützung durch eine Magistra konnte er gerettet werden.
 
-## Kochwettbewerb
-**Inhalt:** Bekanntgabe eines Wettbewerbs vom 16. Querler.
-**Autor:** *Orden der Tränen Vitamas*
+### Wiederbelebung der Brandensteiner Reiter
+**[[Samuel_Lichtenthal]]** kündigt unter Schirmherrschaft von **[[Sire_Fedral_Lavid]]** die Reaktivierung der **[[Brandensteiner_Reiter]]** als Botendienst an.
 
-## Kontaktanzeige: [[Der_Krämer]]
-**Persona:** [[Der_Krämer]] (Hause [[Gropp]]).
-**Inhalt:** Ein Mittdreißiger mit Kellerwohnung sucht eine humorvolle Frau.
-**Autor:** *[[Gropp]]*
+### Forschungsberichte
+*   **Aschene Wüste:** Der Rekultivierungsversuch von [[Nakoti]] scheiterte an einem massiven Angriff von Riesenspinnen.
+*   **Sumpfhöhle:** **[[Gerrion_Arres]]** und **[[San'cho]]** entdeckten einen schwarzen Monolithen mit bedrohlicher Aura in einer "Rattenloch" genannten Sumpfhöhle.
 
-## Aufruf zur Sammlung von Laternen
-**Location:** [[Brandenstein]], [[Falkensee]].
-**Inhalt:** Die Ritterschaft plant eine Wegbeleuchtung zwischen den Städten und bittet um Abgabe von Laternen an der Brandensteiner Burg. Entschädigung: 100 Dukaten oder eine Fackel.
-**Autor:** *Ritter des Falken*
+## Geschichten & Legenden
+*   **Ritter Braunbart:** Eine Erzählung über die Begegnung des Ritters Braunbart mit Orken und einem Bären im Wald.
+
+## Derivate
+*   [[Malika_Nohadi]]
+*   [[Samuel_Lichtenthal]]
+*   [[Erich_Rosenquarz]]
+*   [[Rolosin_Vadebor]]
+*   [[Gerrion_Arres]]
+*   [[San'cho]]
+*   [[Avaratio_Mischelgrimm]]
+*   [[Brandensteiner_Reiter]]
+
+## Referenzen
+- Primärquelle: [Siebenwind Bote 136](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20136.md)

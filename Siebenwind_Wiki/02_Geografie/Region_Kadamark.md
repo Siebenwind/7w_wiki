@@ -18,7 +18,7 @@ Eine hügelige, waldreiche Region im Nordosten. Bekannt für die **Feuerwälder*
 
 ## Wichtige Orte
 *   **Gofilm:** Eine Stadt, die sich tief in den Berg schlängelt, berühmt für ihre Fachwerkbauten und das "Haus der Zünfte".
-*   **Die Grauen Höhlen:** Ein Tunnelsystem unter Gofilm, Sitz einer Magierakademie (Grauer Pfad).
+*   **Die Grauen Höhlen:** Ein weitverzweigtes Tunnelsystem unter Gofilm.
 
 ## Wirtschaft & Kultur
 *   **Holz:** Exportiert in alle Welt.

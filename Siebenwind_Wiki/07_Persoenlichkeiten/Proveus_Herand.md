@@ -1,31 +1,22 @@
 ---
 layout: wiki_page
 title: Proveus Herand
-category: Persönlichkeit
+category: Persönlichkeiten
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 175.md
 ---
-
 # Proveus Herand
 
-**Titel:** Erzgeweihter Bellums, Gründer des Ordens "Banner Maynaghs"
-**Epistemischer Status:** #canon
-**Zugehörigkeit:** Kirche des [[03_Bellum]] / Banner Maynaghs
-**Zeitraum:** Aktiv (Erzweihe 20 n.H.)
+**Titel:** Erzgeweihter des [[01_Bellum|Bellum]]
+**Epistemischer Status:** #bote
+**Zugehörigkeit:** [[Ecclesia_Elementorum]] / [[01_Bellum|Ordo Bellum]]
+**Zeitraum:** aktiv ab 20 n.H.
 
 ## Beschreibung
-Proveus Herand ist ein kriegerischer Geweihter des [[03_Bellum]]. Im Gegensatz zu eher administrativen Priestern liegt sein Fokus auf der Vorbereitung zur "Letzten Schlacht" gegen den Einen ([[10_Angamon]]).
+**Proveus Herand** ist ein hochrangiger Geweihter des Gottes [[01_Bellum|Bellum]]. Er ist bekannt für seine tiefe Verbundenheit mit dem Schrein zu [[Brandenstein]] und seine gerechte Urteilsfindung.
 
-## Karriere & Timeline
-- **Frühe Jahre:** Kämpfte in Vandrien gegen die Khalandrier. Diente als Inquisitor und Paladin.
-- **~19 n.H.:** Trennung vom [[Ordo_Belli]] (Heiliges Schwert) aufgrund von kircheninternen Unruhen und Einschränkungen. Gründung des Ordens **"Banner Maynaghs"**, der sich gezielt auf den Endkampf vorbereitet.
-- **~20 n.H. (Bote 175):** Erhalt der **Erzweihe** durch Erzgeweihter Bernhardt Wiesinger im Bellumsschrein zu [[Brandenstein]].
+## Wirken
+*   **Erzweihe (20 n.H.):** Am 5. Seker 20 n.H. wurde er im Bellumsschrein zu [[Brandenstein]] zum Erzgeweihten erhoben. Die Zeremonie wurde von Eminenz [[Bernhardt_Wiesinger]] geleitet. Während der Weihe wurden die Säulen des Schreins in ein silbriges, heiliges Licht getaucht ([[Siebenwind_Bote_175]]).
 
-## Philosophie
-Herand vertritt eine radikale, tatenorientierte Auslegung des [[03_Bellum]]-Glaubens. Er fordert Blut und Schweiß im Dienst des Gottes und lehnt "Sesselpolitik" ab.
-
-
-## Überlieferungen
-- [[Zeitstrahl]]: Erwähnung in der Überlieferung.
-## Quellen
-- [[Adelskalender]]
-- [[Siebenwind_Bote_167]]
-- [[Siebenwind]] Bote 175
+---
+**Siehe auch:** [[01_Bellum]], [[Brandenstein]], [[Bernhardt_Wiesinger]]

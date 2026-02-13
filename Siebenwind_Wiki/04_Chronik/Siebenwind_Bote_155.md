@@ -1,22 +1,36 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 155
+title: Siebenwind Bote 155
 category: Chronik
+status: Bote
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a917
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 155.md
+letzter_check: 2026-02-13T03:30:00+01:00
 ---
-
-# [[Siebenwind]] Bote 155
+# Siebenwind Bote 155
 
 **Epistemischer Status:** #bote
-**Datum:** 5. Onar 18 n.H.
+**Datum:** 5. Onar 18 n.H. (Mondtag) - Sonderausgabe
 
-## Schlagzeilen
+## Highlights
+*   **Siebenwindakte:** Lehnsherr **[[Hagen_Robaar]]** erlässt die **[[Siebenwindakte]]**.
+*   **Entmachtung:** Die zivile Verwaltung der Insel wird vom Lehnsherrn an den **[[Grosser_Rat|Großen Rat]]** übertragen. Robaar bleibt militärischer Oberbefehlshaber.
+*   **Inselpatrizier:** **[[Solos_Nhergas]]** wird zur ersten (interim) **Inselpatrizierin** ernannt.
+*   **Hauptstadt:** **[[Falkensee]]** wird zum ritterlichen Hauslehen und zur Hauptstadt erklärt.
 
-### SONDERAUSGABE: [[Siebenwindakte]]
-Großmeister [[Siegfried_Steiner]] erließ eine neue Verfassung für die Insel. Die [[Siebenwindakte]] setzt einen [[Der_Große_Rat|Großen Rat]] ein, der die verschiedenen Völker und Institutionen repräsentiert. Dies ist ein entscheidender Schritt zur Stabilisierung der politischen Lage in Krisenzeiten.
+## Dokumente
+*   [[Siebenwindakte]]
 
-### [[Der_Große_Rat]] tritt zusammen
-Die erste Sitzung des neugebildeten Rates wurde für den 12. Onar in der Burg [[Finianswacht]] einberufen. Es ist geplant, dass der Rat über die zukünftige Strategie der Inselverteidigung berät.
+## Personen
+*   **[[Hagen_Robaar]]**: Verfasser der Akte.
+*   **[[Solos_Nhergas]]**: Neue Inselpatrizierin.
 
----
-**Redaktion:** ~SS~ (Siegfried Steiner)
-**Quelle:** [[[Siebenwind]] Bote 155](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20155.md)
+## Organisationen
+*   **[[Grosser_Rat]]**: Neues Regierungsorgan.
+
+## Derivate
+*   [[Siebenwindakte]]
+*   [[Grosser_Rat]]
+
+## Referenzen
+- Primärquelle: [Siebenwind Bote 155](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20155.md)

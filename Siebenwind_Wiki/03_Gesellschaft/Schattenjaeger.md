@@ -16,7 +16,8 @@ Die **Schattenjäger** sind eine spezialisierte Gruppierung oder ein Ehrentitel 
 - **[[Calin_Dakar]]**: Sieger des Turniers in [[Falkensee]] (16 n.H.), bezeichnet als Schattenjäger und Wächter der Ecclesia.
 
 ## Aufgaben und Wirken
-Obwohl wenig über ihre interne Struktur bekannt ist, scheinen Schattenjäger sowohl im Kampf als auch in der Untersuchung paranormaler Phänomene ausgebildet zu sein. Sie treten oft dort auf, wo die Grenze zwischen der materiellen Welt und den finsteren Mächten verschwimmt.
+*   **Rückeroberung des Walles (19 n.H.):** Die Schattenjäger spielten eine entscheidende Rolle bei der Rückeroberung des von den [[Sammler]]-Wesen besetzten Walles. Sie drangen als erste Gruppe durch einen geheimen Gang der [[Ferrin]] in den Rücken der Feinde vor und bereiteten den Weg für den Hauptangriff der Ritterschaft und der Armee (Bote 166).
+*   **Schutz des Grafen:** Eine Schattenjägerin bewies ihre Tapferkeit, indem sie Graf [[Hagen_Robaar]] bei einem Raubüberfall im Brandensteiner Park erfolgreich verteidigte (Bote 166).
 
 ---
 **Siehe auch:** [[Ecclesia_Elementorum]], [[Organisationsregister]]

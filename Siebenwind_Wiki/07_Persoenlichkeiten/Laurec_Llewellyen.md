@@ -11,8 +11,11 @@ category: Persönlichkeiten
 **Zugehörigkeit:** [[Adel]] / [[Llewellyen]]
 
 ## Beschreibung
-**Sire Laurec Llewellyen** ist ein Adliger.
-Im Jahr 15 n.H. (Bote 121) wurde er als Zeuge im [[Inquisitionsprozess_gegen_Maar_und_Llewellyen]] geladen, in dem (vermutlich) ein Verwandter, [[Stephan_Llewellyen]], der Ketzerei angeklagt war.
+**Sire Laurec Llewellyen** ist ein Ritter des Falken und Mitglied der [[Ritterschaft_zu_Siebenwind]]. Er hält das Lehen [[Greifenwald]] als Vasall des Grafen [[Koorun_McKevin]].
+
+## Geschichte & Wirken
+- **15 n.H. (Bote 121):** Zeuge im Inquisitionsprozess gegen Maar und Llewellyen.
+- **16 n.H. (Bote 140):** Offizielle Nennung als einer der Lehensvasallen und Ritter der heiligen Tafelrunde auf [[Siebenwind]].
 
 ---
 **Siehe auch:** [[Adel]], [[Inquisition]]

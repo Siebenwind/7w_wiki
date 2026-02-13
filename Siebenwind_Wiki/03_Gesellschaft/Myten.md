@@ -26,3 +26,4 @@ Trotz ihrer oft barbarisch anmutenden Art (sie fertigen Rüstungen und Helme aus
 
 ## Ursprung & Wahrnehmung
 Laut den Berichten von [[Thjarek]] (Gott der [[Nortraven]]) wurden die Myten von ihm selbst aus den Knochen verstorbener Wesen auf einer einsamen Vulkaninsel geschaffen – als finsteres Gegenbild zu den [[Elfen]] ([[Nortraven|Schöpfungsgeschichte der Nortraven]]). Die [[Kirche_der_Viere]] sieht in ihnen oft Kinder [[Morsan|Morsans]], während das einfache Volk sie als "[[Seelenfresser]]" fürchtet.
+*   **17 n.H.:** Sichtungen von Myten in [[Falkensee]] häufen sich (Bote 149). Sie scheinen gezielt Orte aufzusuchen, teils sogar in Begleitung untoter Reittiere.

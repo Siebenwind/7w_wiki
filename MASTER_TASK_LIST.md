@@ -28,7 +28,9 @@ Dieses Dokument ist das agentenübergreifende Gedächtnis des Projekts. Jeder Ag
 - [/] **Das Orakel** – RAG-System (Semantische Vektorsuche)
   - [x] Architektur & Modellauswahl (jina-embeddings-v3 + bge-reranker-v2-m3)
   - [x] Setup, Indexierung & Verifikation (Auto-Config via `benchmark_hardware.py`)
-  - [x] Historiker-Workflow (Deep Lore Review)
+  - [x] Historiker-Workflow (Deep Lore Review: Benedict Rabenfels abgeschlossen)
+- [x] Register-Audit & Cleanup (Manuelle Bereinigung und Duplikat-Entfernung Feb 2026)
+- [x] **Audit der Magieschulen** (Kanon-Bereinigung & Erstellung fehlender Institutionen)
 
 ---
-*Zuletzt aktualisiert: 13.02.2026 durch Antigravity (Batch-Processing & Fallback implemented)*
+*Zuletzt aktualisiert: 13.02.2026 durch Antigravity (Audit der Magieschulen)*

@@ -1,27 +1,33 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 162
+title: Siebenwind Bote 162
 category: Chronik
+status: Bote
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a924
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 162.md
+letzter_check: 2026-02-13T15:10:00+01:00
 ---
-
-# [[Siebenwind]] Bote 162
+# Siebenwind Bote 162
 
 **Epistemischer Status:** #bote
-**Datum:** 7. Seker 18 n.H.
+**Datum:** 8. Seker 18 n.H. (Vierentag)
 
-## Schlagzeilen
+## Highlights
+*   **Ankunft des Schatzmeisters:** Baron von und zu **[[Gerdenwald]]**, der vom König eingesetzte Schatzmeister und Verwalter, wird für den 12. Seker auf Siebenwind erwartet. Eine große Volksversammlung auf dem Turnierplatz zu [[Falkensee]] ist geplant.
+*   **Der Grix:** Ein Koboldwesen aus der zweiten Sphäre namens **[[Grix]]** trieb sein Unwesen an der Magierakademie und am [[Falkenwall]] (wo er die Tore öffnete). Er wurde von Magister **[[Jabin]]** und Hochwürden **[[Mantaris]]** gefasst, im Tempel geläutert und in seine Heimsphäre zurückgeschickt.
+*   **Barden in Not:** Die Redaktion beklagt zunehmende Übergriffe auf Schausteller und Gaukler, insbesondere durch "freie Krieger". Der Bote bietet fortan kostenfreie Anzeigen für Barden an und droht Tätern mit einer "Schandliste".
+*   **Akademie-Feier:** Die Magierschaft lädt für den 21. Seker zu einer großen Feier im Brandensteiner Umland ein, um die Siege über die [[Magiefresser-Wolke]], den [[Sichelzahngnoll]] und den Grix zu zelebrieren.
 
-### [[Der_Grix]] geläutert
-Das seltene Wesen namens **[[Der_Grix|Grix]]** wurde im Tempel von [[Falkensee]] von seinem bösartigen Einfluss befreit und in Frieden entlassen.
+## Lokales
+*   **Wahrzeichen:** Erwähnung der großen Mauer aus weißem Stein ([[Falkenwall]]), die das Ödland sichert.
+*   **Kultur:** Rezension des populären (und pikanten) Romans "Flamme der Leidenschaft" von G. Anwin. Der Autor ist mutmaßlich **Hanbalt Ballinor**.
 
-### Versiegelung der Urne
-Die Magierschaft bereitet die endgültige Verbannung der [[Magiefresser_Wolke]] vor. **Exzellenz [[Dur]]** und **Edeldame [[Nhergas]]** werden zur Zeremonie im Brandensteiner Umland erwartet. (Siehe [[Angriff_der_Schwarzmagier]])
+## Personen
+*   **Baron von [[Gerdenwald]]**: Königlicher Schatzmeister.
+*   **[[Grix]]**: Magisches Wesen (Kobold).
+*   **[[Mantaris]]**: Astrael-Geweihter, half bei der Bändigung des Grix.
+*   **[[Fruger_Hansen]]**: Wortführer der Handelshäuser im Streit um Karrenführerlizenzen.
+*   **[[Jabin]]**: Magister, bändigte den Grix.
 
-### Neue Sitten: Luxus und Exotik
-Einflüsse aus [[Endophal]] (Dampfbäder, ausschweifende Feste) und [[Nortraven]] (Knotenmuster) bereichern das kulturelle Leben in Galadon. Selbst die **Königin** zeigt sich in nortravischer Mode.
-
-### Stellen im Gestüt [[Brandenstein]]
-Knappe **[[Zacharias_Gropp]]** sucht Personal für das Gestüt. Bewerbungen werden auf Burg [[Finianswacht]] entgegengenommen.
-
----
-**Quelle:** [[[Siebenwind]] Bote 162](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20162.md)
+## Referenzen
+- Primärquelle: [Siebenwind Bote 162](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20162.md)

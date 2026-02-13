@@ -15,12 +15,12 @@ tags: [Gott, Sahor, Tod, Traum, Ruhe, Winter]
 ## Aspekte und Prinzipien
 - **Jahreszeit:** Winter
 - **Element:** Geist / Dunkelheit (als Ruhepol)
-- **Zugehöriger Mond:** *Kein eigener Mond*, da er die Finsternis zwischen den Sternen ist.
-- **Tugenden:** Gelassenheit, Akzeptanz, Erkenntnis durch Innenschau, Trauerbewältigung.
-- **Symbole:** Der Totenkopf, die Sanduhr, die schwarze Kutte.
+- **Assoziierter Mond:** Dorayon (Der kleine, dunkle Mond). In der Astronomie oft als Morsans Auge bezeichnet, wird sein Einfluss heute oft als durch [[Angamon]] korrumpiert gefürchtet.
+- **Tugenden:** Unendliche Gelassenheit, Akzeptanz der Vergänglichkeit, Innenschau.
+- **Symbole:** Die lautlose Sanduhr, die schwarze Kutte, der leere Thron.
 
 ## Mythologie
-Morsan ist der Wächter über die Pforten des Todes und das Ende aller irdischen Dinge. Als Hüter des Übergangs nimmt er die Seelen der Verstorbenen auf und geleitet sie in sein Reich [[Die_Monde#3.-dorayon|Vidor]], die "Dunklen Lande", wo sie fernab von irdischem Leid ihre ewige Ruhe finden. Er ist der stille Beobachter, der um die notwendige Endlichkeit alles Seins weiß.
+Morsan ist der lautlose Wächter über die Pforten des Todes. Er ist der Übergang selbst — die Schwelle zwischen dem pulsierenden Leben und dem Jenseits (**Vidor**). In den Dunklen Landen nimmt er die Seelen auf, um sie vom Ballast des irdischen Leids zu reinigen. Sein Schweigen ist kein Zeichen von Unmut, sondern die Gnade der vollkommenen Ruhe.
 
 ## Verehrung
 Die **[[Kirche_der_Viere]]** ehrt Morsan als den Tröster der Hinterbliebenen und den Bewahrer der Geheimnisse.

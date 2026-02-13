@@ -22,6 +22,7 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Siebenwind_Kronregiment]] | Armee der Krone | [[Burg_Finianswacht]] | #canon |
 | [[Ventusreiter]] | Berittene Post / Miliz | [[Falkensee]] | #bote |
 | [[Zirkel_der_Magie]] | Magische Vereinigung | Akademie | #bote |
+| [[Koenigliche_Akademie_der_Arkanen_Kuenste]] | Magische Ausbildung | [[Falkensee]] / [[Südfall]] | #canon |
 | [[Schattenjaeger]] | Elite-Wächter der Ecclesia | Inselweit | #bote |
 | [[Nortraven]] | Kriegerische Gemeinschaft / Grenzwächter | Nord-[[Siebenwind]] | #bote |
 | [[XIII_Kronregiment]] | Armee der Krone | [[Brandenstein]] / [[Falkenwall]] | #bote |
@@ -35,8 +36,14 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Schattenhand]] | Unterwelt / Diebesgilde | Unbekannt | #bote |
 | [[Bruderschaft_der_Tardukai]] | Orden des Angamon | [[Ewigwacht]] | #bote |
 | [[Terra_Dorotor]] | Kult (zerschlagen) | [[Brandenstein]] | #bote |
+| [[Magierturm_zu_Tiefenbach]] | Magische Ausbildung (Zerstört) | [[Tiefenbach]] (Hist.) | #canon |
+| [[Akademie_der_Schwarzen_Kuenste]] | Magische Ausbildung (Verboten) | Unbekannt | #canon |
 | [[Warenhaus_Vela_und_Arn]] | Handelshaus | [[Falkensee]] | #bote |
 | [[Orden_vom_Roten_Salamander]] | Alchemisten | Unbekannt | #bote |
+| [[Brandensteiner_Reiter]] | Botendienst / Reiterei | [[Brandenstein]] | #bote |
+| [[Pakt_der_Viereinigkeit]] | Militärbündnis | [[Brandenstein]] / [[Falkenwall]] | #bote |
+| [[Ersonter_Bund]] | Politisches Bündnis | [[Ersont]] | #bote |
+| [[Bragarim]] | Militärische Garde ([[Dwarschim]]) | [[Kesselklamm]] | #canon |
 
 ## Handwerks- und Handelsgilden
 *Noch im Aufbau / Ingestion läuft*

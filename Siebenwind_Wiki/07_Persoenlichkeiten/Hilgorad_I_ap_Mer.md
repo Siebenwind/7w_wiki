@@ -17,6 +17,10 @@ category: Persönlichkeit
 ## Wirken & Historie
 Unter seiner Ägide wurde [[Siebenwind]] zur **Kronmark** erhoben, was die direkte Kontrolle der Krone über die Insel sicherte. 
 
+### Die Entführung und Rettung (18-19 n.H.)
+*   **Verschwinden (18 n.H.):** Der König und sein Gefolge verschwanden unter mysteriösen Umständen (Bote 159).
+*   **Befreiung (19 n.H.):** In Bote 163 wird die Rettung des Königs aus einer Unterwasserhöhle auf **Etriska** dokumentiert. Eine Expedition unter [[Toran_Dur]] drang mithilfe eines Tauchboots in das Verlies ein. Hinter der Entführung steckte der abtrünnige Hofberater [[Ignatius_von_Mendel]]. Der König wurde ohnmächtig, aber lebend geborgen.
+
 ### Die Jahre der Abwesenheit (ca. 26-28 n.H.)
 König Hilgorad galt für drei Jahre als verschollen, was zu erheblicher politischer Instabilität in den Provinzen führte. In dieser Zeit übernahm der Große Rat in vielen Regionen de facto die Regierungsgeschäfte.
 

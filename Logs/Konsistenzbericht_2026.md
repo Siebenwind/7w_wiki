@@ -121,3 +121,16 @@ Keine kritischen Widersprüche in der Erzählung gefunden, jedoch strukturelle D
 **Status:** ⚠️ Offen
 **Aktion:** Prüfen ob Quellen in `/Quellen/` vorliegen. Falls ja: integrieren. Falls nein: als Lücke dokumentieren.
 
+
+---
+## [BATCH-LOG] Spielergeschichten Integration (Batch 1)
+**Datum:** 2026-02-13T14:45+01:00
+**Inhalt:** Folgende 3 Geschichten wurden erfolgreich von `Pending` zu `Integrated` überführt:
+- `Abweisungen.md` (UUID: F6F7C600...)
+- `Die Nacht des Dunkeltiefs.md` (UUID: 6BFB4A6D...)
+- `Feuerholz für das Dunkeltief.md` (UUID: AE014005...)
+**Maßnahmen:**
+- Frontmatter auf v2.0 Standard gehoben.
+- Interne Verlinkung zu Entitäten ([[Falandrien]], [[Yota]], [[Kregor_Arthax_Stahlauge]], [[Dwarschim]], [[Dunkeltief]]) gesetzt.
+**Status:** ✅ Integriert
+**Aktion:** Keine weiteren Aktionen erforderlich.

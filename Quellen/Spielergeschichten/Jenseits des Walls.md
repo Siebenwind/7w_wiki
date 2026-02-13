@@ -1,7 +1,11 @@
 ---
 layout: wiki_page
 title: Jenseits des Walls
-category: Sonstiges
+category: Erzählung
+status: #perspektive
+tags: [Sorania, Krümel, Sammler, Ödland, Brandenstein, Morsan, Felis, Emanuel, Marnie Ruatha]
+uuid: s1234567-a916-48b3-9a30-8de6fbc712da
+letzter_check: 2026-02-13T16:00:00+01:00
 ---
 
 # Jenseits des Walls
@@ -12,7 +16,7 @@ category: Sonstiges
 > 
 > Es geht nicht. Ich kann mich nicht bewegen. Der Schmerz nagelt mich am Boden fest. Wo bin ich? Ich kann Nicht's sehen. Rabenschwarze Finsternis. Eine Zelle? Irgendetwas bohrt sich in meinen Rücken. Knochen, sie liegen überall um mich herum. Waren das Menschen? Es stinkt... Unrat und Verwesung rauben mir den Atem. Ich muss hier raus... Wo ist...
 > 
-> Ein Schaben, ein Kratzen, Schuppen über Stein. Irgendetwas kommt. Du musst aufstehen, Sorania. Weglaufen, fliehen, fort von hier. Ich greife in die Leere - Metall. Ketten. Daran kann ich mich hochziehen. Noch ein kleines Stück, dann...
+> Ein Schaben, ein Kratzen, Schuppen über Stein. Irgendetwas kommt. Du musst aufstehen, [[Sorania]]. Weglaufen, fliehen, fort von hier. Ich greife in die Leere - Metall. Ketten. Daran kann ich mich hochziehen. Noch ein kleines Stück, dann...
 > 
 > Fahles Licht erhellt langsam den Raum. Schemen, die ich erkennen kann. Wie ein steinerner Riese steht er da, am Gitter. Er bewegt sich nicht. Geh da weg, du musst vom Tor weg, sonst kriegen sie dich. Das Geräusch verstärkt sich; zischelnde Laute - sind das Schlangen? Ganz nah...
 > 
@@ -24,7 +28,7 @@ category: Sonstiges
 > Der Gestank wird stärker. Ledriges Knarzen, als Schwingen sich ausbreiten. Schwingen? Lauf doch endlich... Warum hörst du nicht auf mich?
 > Er kann mich nicht hören. Ich schreie - aber kein Laut, der über meine Lippen kommt. Der Dämon ist mittlerweile ganz nah. Ich kann deutliches die schwarzen Adern erkennen, die sich von der roten Haut abheben; die Hörner, die sich wie riesige Haken vom monströsen Schädel hinaufwinden. Lauf, du Narr! Siehst du nicht, was er vorhat?
 > 
-> Eine Pranke schnellt nach vorn. Wie eine Puppe hebt er ihn hoch, die Klauen pressen sich in seinen Körper. Er wirkt so zerbrechlich, in diesem Moment, obwohl er doch der Riese sein müsste. Helf' ihm, Sorania. Er kann nicht entkommen so. Egal, wie ich es versuche. Ich kann mich nicht rühren. Meine Beine fühlen sich taub an, das Zischeln der Sammler paart sich dröhnend mit dem Schmerz in meinem Kopf. Lass ihn los...
+> Eine Pranke schnellt nach vorn. Wie eine Puppe hebt er ihn hoch, die Klauen pressen sich in seinen Körper. Er wirkt so zerbrechlich, in diesem Moment, obwohl er doch der Riese sein müsste. Helf' ihm, [[Sorania]]. Er kann nicht entkommen so. Egal, wie ich es versuche. Ich kann mich nicht rühren. Meine Beine fühlen sich taub an, das Zischeln der [[Sammler]] paart sich dröhnend mit dem Schmerz in meinem Kopf. Lass ihn los...
 > 
 > Die andere Klaue legt sich um seine Beine. Geifernder Sabber tropft aus den spitzen Zähnen herunter auf den Boden. Die zischenden Laute der Sammler werden lauter. Feuern sie ihn an?
 > Die Pranken heben seinen Körper hoch - er hängt wie leblos zwischen den Krallen. Sie drücken sich fester um seinen Brustkorb, die Beine... Die bulligen Musklen spannen sich an. Sieh' nicht hin. Dreh' den Kopf zur Seite. Du darfst nicht hinsehen.
@@ -32,7 +36,7 @@ category: Sonstiges
 > Ein Knirschen, dann ein Knacken... Mein Mund öffnet sich, ich will schreien. Wie Hadern wird sein Körper...
 > 
 > Ein gellender Schrei, der den Raum durchflutet, als der dürre Körper der Frau sich in die Höhe schnellen lässt. Kaum fähig, einen Atemzug zu tun, schwenkt der panische Blick durch das kleine Zimmer. Die Kerze auf dem Tisch gibt nur dämmrig den Lichtschein wieder, der die Kammer erhellt.
-> Das wildpochende Herz droht ihr fast aus der Brust zu springen. Ein fahriger Griff mit den Fingern, die die nassen Strähnen der roten Locken aus dem Gesicht wischen. Sie musste in Seeberg sein - oder doch am Wall?
+> Das wildpochende Herz droht ihr fast aus der Brust zu springen. Ein fahriger Griff mit den Fingern, die die nassen Strähnen der roten Locken aus dem Gesicht wischen. Sie musste in [[Seeberg]] sein - oder doch am Wall?
 > Zitternd umgreifen die Finger die beseite gewischte Bettdecke auf, ziehen sie näher an den Körper heran. Langsam scheint sich der Atem zu beruhigen, während die Augen weiter ziellos durch den Raum wandern, verzweifelt suchend. Sie ist allein. Weder Marion, Lennard oder Richard sind hier. Nur das Nachhallen des Traumes, dessen Bilder immer noch vor ihrem Geiste flimmern.
 > 
 > Es war kein Traum.
@@ -45,7 +49,7 @@ category: Sonstiges
 > Gewonnen... oder...
 > 
 > Nur mühsam riss sie sich aus den Gedanken. Wie lange war er schon fort? Ein, zwei Zyklen? Ob er bereits schon Erfolg hatte? Endloses Warten...
-> Mit einer fahrigen Geste mir der Hand wischte sie sich über das Gesicht. Im Schenkenraum herrschte Grabesstille - nur dann und wann von Hufgetrappel und Stimmgewirr unterbrochen, wenn die Bewohner Brandensteins und ihre Tiere das Fenster am Hafengebäude passierten.
+> Mit einer fahrigen Geste mir der Hand wischte sie sich über das Gesicht. Im Schenkenraum herrschte Grabesstille - nur dann und wann von Hufgetrappel und Stimmgewirr unterbrochen, wenn die Bewohner [[Brandenstein|Brandensteins]] und ihre Tiere das Fenster am Hafengebäude passierten.
 > Das Bier im Krug war mittlerweile schon nahezu schal - vielleicht saß sie doch schon länger hier? Sie wusste es nicht - sie wollte es gar nicht wissen. Innerlich fühlte sich der Rotschopf nur noch leer und ausgebrannt.
 > 
 > So nah dran. Sie hätte nur noch zugreifen müssen und dann...
@@ -80,7 +84,7 @@ category: Sonstiges
 > Dann machte sie sich auf den Weg um ihr Pferd zu holen.
 > Sie erzählte alles und jedem, der lange genug stehen blieb, das sie Sorania suchen würde. Das sie sie finden würde.
 > 
-> Wenig später ritt sie direkt ins Ödland und wurde schnell fündig. Ein kleines Kerlchen kam sagte ihr, dass er sie zu Sorania führen würde. Und sie ging. Ohne nachzudenken.
+> Wenig später ritt sie direkt ins [[Ödland]] und wurde schnell fündig. Ein kleines Kerlchen kam sagte ihr, dass er sie zu [[Sorania]] führen würde. Und sie ging. Ohne nachzudenken.
 > Alles in ihrem Kopf war fortgewischt, ihr Verstand abgeschaltet. Es gab nur eins und das war das Gesicht Soranias. Nichts anderes war mehr da und würde nie wieder kommen.
 > 
 > Und dann fand sie Sorania.
@@ -158,7 +162,7 @@ category: Sonstiges
 > 
 > ..die Worte waren naiv, das wusste er. Man könnte es nicht mehr ungeschehen machen. Sie würde ihm nicht helfen, und erst recht nicht gehen lassen. Die Schlangenwesen redeten vom Foltermeister, Experimenten, für die er geeignet war.. Er schloss die Augen und lehnte den Hinterkopf an die Wand, die Gebetskette fest umschlossen. Er wollte nicht darüber nachdenken, was ihn noch erwarten würde. Tonlos bewegte er seine Lippen und betete, die Gedanken schweiften dabei fernab gen Heimat. Brandenstein, Kameraden, Freunde, Sevilla...Ob er sie allesamt je wiedersehen würde?
 > 
-> Eisig peitschte der Wind ihm ins Gesicht, während er am Semaphor des Falkenwalls hing, zur Schau gestellt von den Dienern des Einen. Der gesenkte Kopf, die geschlossenen Lider, zeugten davon, dass er wohl kaum noch im Stande dazu war, sich an den eisigen Klauen Morsans zu stören. Die Glieder waren schmerzhaft weit durch die Seilkonstruktion gestreckt. Die zyklenlange Folter machte sich bemerkbar.. Die Umgebung wurde schwammiger, die leichenblasse Rothaarige, die den Dolch immer wieder ins Fleisch bohrte, nahm er nur noch am Rande wahr .. Der Speichel tropfte ihm aus dem Mundwinkel, verteilte sich auf der blutbesudelten, verdreckten Malthuster Uniform .. Dunkelheit ..
+> Eisig peitschte der Wind ihm ins Gesicht, während er am Semaphor des Falkenwalls hing, zur Schau gestellt von den Dienern des Einen. Der gesenkte Kopf, die geschlossenen Lider, zeugten davon, dass er wohl kaum noch im Stande dazu war, sich an den eisigen Klauen [[Morsan|Morsans]] zu stören. Die Glieder waren schmerzhaft weit durch die Seilkonstruktion gestreckt. Die zyklenlange Folter machte sich bemerkbar.. Die Umgebung wurde schwammiger, die leichenblasse Rothaarige, die den Dolch immer wieder ins Fleisch bohrte, nahm er nur noch am Rande wahr .. Der Speichel tropfte ihm aus dem Mundwinkel, verteilte sich auf der blutbesudelten, verdreckten [[Malthuster]] Uniform .. Dunkelheit ..
 > 
 > ..wie lange war er ohnmächtig? Aus halbgeöffneten Augen sah er sich um, versuchte sich zu orientieren, derweil Sorania ihn über den harten, gefrorenen Boden aus dem Torhaus schliff. Im Vorland ließ sie ihn fallen, beugte sich über ihn .. Fast meinte er, ihren Atem spüren zu können.. hatte sie noch einen Atem?.. Widerwillig blickte er ihr in die Augen, Hass machte sich in der schmerzverzerrten Mimik breit..
 > 
@@ -184,12 +188,12 @@ category: Sonstiges
 > 
 > Diese Worte hörte Felis nicht zum ersten Mal. Sie kamen von William, der sie nach dem Konvent abseits führte, um mit ihr unter vier Augen zu sprechen.
 > 
-> Der Konvent. Am Ende war sie sich unsicher gewesen, ob sie im Löwenorden richtig war. Ein Dunkeltief stand an, doch waren die Konflikte unübersehbar. Es gab sicher auch Personen, die ruhig blieben, die sich lieber auf das konzentrieren wollten, wofür der Orden stand. Aber auffällig blieben immer die unzufriedenen Aufrührer, selbst wenn sie in der Unterzahl waren. Ein Gutes hatte es - sie merkte, dass sie im Durcheinander, wenn man um sie herum ein wenig gereizter zu werden drohte, selber ruhiger wurde. Die meiste Zeit hatte sie die Personen um sich herum beobachtet, ja, geradezu studiert, um sie in Zukunft besser einschätzen zu können. Aber eben auch, weil sie als frischgebackene Anwärterin eh noch nicht den nötigen Einblick und sicheren Stand innerhalb des Ordens hatte, um etwas zu den einzelnen Themen sagen zu können. Nur selten warf sie daher etwas ein.
+> Der Konvent. Am Ende war sie sich unsicher gewesen, ob sie im [[Löwenorden]] richtig war. Ein Dunkeltief stand an, doch waren die Konflikte unübersehbar. Es gab sicher auch Personen, die ruhig blieben, die sich lieber auf das konzentrieren wollten, wofür der Orden stand. Aber auffällig blieben immer die unzufriedenen Aufrührer, selbst wenn sie in der Unterzahl waren. Ein Gutes hatte es - sie merkte, dass sie im Durcheinander, wenn man um sie herum ein wenig gereizter zu werden drohte, selber ruhiger wurde. Die meiste Zeit hatte sie die Personen um sich herum beobachtet, ja, geradezu studiert, um sie in Zukunft besser einschätzen zu können. Aber eben auch, weil sie als frischgebackene Anwärterin eh noch nicht den nötigen Einblick und sicheren Stand innerhalb des Ordens hatte, um etwas zu den einzelnen Themen sagen zu können. Nur selten warf sie daher etwas ein.
 > Dennoch blieb ein Gefühl des Unwohlseins zurück, als sie den Keller der Gardeschenke verließ und sich draußen zu den Verbliebenen gesellte, und sie hatte gesehen, dass sie nicht die Einzige war, der es so erging.
 > 
 > "Emanuel hat das gleiche Schicksal wie Sorania ereilt."
 > 
-> Felis erinnerte sich an den Anblick der einstmals Bekannten vor dem Nordtor Falkensees, erst wenige Tage zuvor. Bleich und schwarzgewandet, das Auftreten ganz und gar nicht mehr das der Sorania von einst ähnelnd - es war nicht der einzige Grund, warum ihr ein Kloß im Hals saß. Auch wenn Manu ihr am Ende ein Fremder geworden war, auch wenn es so viele Probleme zwischen ihnen gegeben hatte, so hatte sie doch auch noch einen Funken Hoffnung gehabt. Vor einigen Wochen noch die Hoffnung, dass sie sich vielleicht doch irgendwann zusammenraufen könnten als Mann und Frau. Bis vor wenigen Augenblicken wiederum den letzten Rest Hoffnung, sie könnten sich mit der Zeit soweit vertragen, dass sie irgendwann sich wieder halbwegs vertrauen konnten und freundschaftlich miteinander umgehen würden.
+> Felis erinnerte sich an den Anblick der einstmals Bekannten vor dem Nordtor [[Falkensee|Falkensees]], erst wenige Tage zuvor. Bleich und schwarzgewandet, das Auftreten ganz und gar nicht mehr das der [[Sorania]] von einst ähnelnd - es war nicht der einzige Grund, warum ihr ein Kloß im Hals saß. Auch wenn Manu ihr am Ende ein Fremder geworden war, auch wenn es so viele Probleme zwischen ihnen gegeben hatte, so hatte sie doch auch noch einen Funken Hoffnung gehabt. Vor einigen Wochen noch die Hoffnung, dass sie sich vielleicht doch irgendwann zusammenraufen könnten als Mann und Frau. Bis vor wenigen Augenblicken wiederum den letzten Rest Hoffnung, sie könnten sich mit der Zeit soweit vertragen, dass sie irgendwann sich wieder halbwegs vertrauen konnten und freundschaftlich miteinander umgehen würden.
 > 
 > Diese Hoffnung hatte das Schlangengezücht aus dem Ödland zerstört. Dieses namenlose Pack, was den Wall, die Heimat der Löwen, zu denen sie sich mehr und mehr zu zählen begann, besetzt hielt.
 > 

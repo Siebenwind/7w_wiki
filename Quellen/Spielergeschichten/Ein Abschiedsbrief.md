@@ -1,14 +1,18 @@
 ---
 layout: wiki_page
 title: Ein Abschiedsbrief
-category: Sonstiges
+category: Erzählung
+status: #perspektive
+tags: [Löwenorden, William Glaron, Abschied, 22 n.H.]
+uuid: d1234567-a916-48b3-9a30-8de6fbc712da
+letzter_check: 2026-02-13T15:15:00+01:00
 ---
 
 # Ein Abschiedsbrief
 
 **Epistemischer Status:** #perspektive
 
-> 7. Oner des Jahres 22 nach Hilgorad
+> 7. [[Oner]] des Jahres 22 nach [[Hilgorad]]
 > 
 > Meine geliebte Frau,
 > 
@@ -20,6 +24,5 @@ category: Sonstiges
 > 
 > Und ich hoffe, dass du wieder die Kraft haben wirst, vom Anfang zu beginnen.
 > 
-> 
 > In treuester Liebe,
-> William Glaron
+> [[William_Glaron]]

@@ -1,21 +1,32 @@
 ---
 layout: wiki_page
 title: Communis Medici
-category: [[Gesellschaft]]
+category: Gesellschaft
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 161.md
 ---
-
 # Communis Medici
 
 **Epistemischer Status:** #bote
+**Rolle:** Heilergilde / Hospizverwaltung
+**Sitz:** [[Falkensee]] (Hospiz)
 
-## Überblick
-Die **Communis Medici** ist die im Jahr 18 n.H. neu formierte Heilergilde der Insel [[Siebenwind]]. Sie trat die Nachfolge der alten Heilergilde an und hat sich zum Ziel gesetzt, die medizinische Versorgung der Bevölkerung zu koordinieren und zu verbessern.
+## Beschreibung
+Die **Communis Medici** ist die neugegründete (bzw. unter altem Namen wiederbelebte) Vereinigung der Heilkundigen auf [[Siebenwind]]. Sie wurde im Jahr 18 n.H. (Bote 161) ins Leben gerufen, um die medizinische Versorgung der Bevölkerung zu koordinieren.
 
-## Organisation und Führung
-Die Gründung erfolgte nach einem Treffen führender Heilkundiger in [[Falkensee]]. Als Leiter der Communis Medici fungiert **[[Jabin]]**, der zuvor bereits als Hospizleiter tätig war. Die Gilde dient als Anlaufstelle für Patienten und regelt die Ausbildung sowie die Honorierung der Heilberufe.
+## Aufgaben & Struktur
+*   **Hospiz-Dienst:** Die Mitglieder besetzen das städtische Hospiz in [[Falkensee]] nach einem festen Dienstplan, um ständige Hilfe für Bedürftige zu gewährleisten.
+*   **Zusammenarbeit:** Es wird eine enge Kooperation mit dem [[Orden_der_Viere]], dem [[Löwenorden]] und der [[Magierakademie]] (insb. [[Ecclesia_Elementorum]]) angestrebt.
+*   **Wissenschaftlicher Austausch:** Die Gilde dient als Forum für den Austausch über Heilmethoden und Kräuterkunde.
 
-## Bedeutung
-In einer Zeit von Konflikten und gefährlichen Kreaturen (wie den [[Schleimwesen]] in der Kanalisation) ist die Communis Medici ein unverzichtbarer Pfeiler der städtischen Ordnung. Sie arbeitet eng mit dem [[Inselrat]] zusammen, um die hygienischen Bedingungen in der Hauptstadt zu überwachen.
+## Bekannte Mitglieder
+*   **[[Jabin]]** (Hospizleiter / Graue Garde)
+*   **[[Leomar_Finkenfarn]]**
+*   **[[Aileena_Loewenstein]]**
+*   **[[Alavia_Rabenschrey]]**
+*   **[[Adana_Regan]]**
+*   **[[Nithavela]]**
+*   **[[Layen]]**
 
 ---
-**Quellen:** [[Siebenwind_Bote_161]]
+**Siehe auch:** [[Falkensee]], [[Heilung]], [[Ecclesia_Elementorum]]

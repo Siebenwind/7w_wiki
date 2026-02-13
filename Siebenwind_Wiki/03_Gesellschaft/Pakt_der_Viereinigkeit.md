@@ -1,27 +1,26 @@
 ---
 layout: wiki_page
 title: Pakt der Viereinigkeit
-category: Organisationen
+category: Gesellschaft
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 174.md
 ---
-
 # Pakt der Viereinigkeit
 
-**Epistemischer Status:** #bote
+**Epistemischer Status:** #bote  
+**Rolle:** Wirtschaftliches und Militärisches Bündnis
 
-## Überblick
-Der **Pakt der Viereinigkeit** ist eine Allianz der festländischen Küstenlehen **Malthust**, **Vandrien**, **Lichtenfeld** und **Ossian**. Im Jahr 20 n.H. wurde der Pakt (über das Fürstentum Malthust) vom König mit dem Lehen über die Stadt [[Brandenstein]] und deren Umland betraut.
+## Beschreibung
+Der **Pakt der Viereinigkeit** ist eine Allianz der küstennahen festländischen Lehen Malthust, Vandrien, Lichtenfeld und Ossian. Ziel des Paktes ist die Sicherung des freien Handels und des Wohlstandes im Einklang mit dem Glauben an die Viere.
 
-## Ziele und Mission
-Das Hauptaugenmerk des Paktes liegt auf der Förderung von Handel und Handwerk sowie dem Schutz der Seewege zwischen Siebenwind und dem Festland. 
-- **Handel:** Sicherung exklusiver Handelsrechte für siebenwindsche Waren.
-- **Wohlstand:** Förderung der lokalen Wirtschaft unter Wahrung des Viereglaubens.
-- **Pragmatismus:** Im Gegensatz zum [[Ersonter_Bund]] pflegt der Pakt einen weniger förmlichen, eher militärisch-pragmatischen Stil.
+## Wirken auf Siebenwind
+Seit dem [[Der_Erlass_des_Koenigs|Erlass des Königs]] (20 n.H.) hält der Pakt (vertreten durch das Fürstentum [[Malthust]]) das Lehen über die Stadt [[Brandenstein]]. Die Malthuster Armee unter Oberst **[[Flavius_Lewenstein]]** sichert das Gebiet.
 
-## Führung und Militär
-Auf Siebenwind wird der Pakt durch Oberst **[[Flavius_Lewenstein]]** (Malthuster Armee) vertreten. Sitz der Gesandtschaft ist Brandenstein. Die Malthuster Armee bildet das Rückgrat der Verteidigung in diesem Gebiet.
-
-## Verhältnis zu anderen Völkern
-Der Pakt strebt enge Kooperationen mit den [[Nortraven]] und [[Dwarschim]] an, um handwerkliche und militärische Synergien zu nutzen.
+## Ziele
+*   Förderung von Handel und Handwerk.
+*   Exklusiver Export siebenwindscher Waren auf das Festland.
+*   Enge Zusammenarbeit mit den [[Nortraven]] und [[Dwarschim]].
+*   Ausbau der Infrastruktur (z.B. Fähre Brandenstein–Vänskap).
 
 ---
-**Siehe auch:** [[Brandenstein]], [[Flavius_Lewenstein]], [[Siebenwind_Bote_174]]
+**Siehe auch:** [[Malthust]], [[Brandenstein]], [[Flavius_Lewenstein]], [[Der_Erlass_des_Koenigs]]

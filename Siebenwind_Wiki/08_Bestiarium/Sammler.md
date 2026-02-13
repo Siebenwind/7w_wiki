@@ -12,12 +12,12 @@ category: Bestiarium
 Die **Sammler** (engl. *Collectors*) sind monströse Kreaturen und Diener des "Einen". Sie gelten als eine seiner übelsten Schöpfungen und treten oft gemeinsam mit den [[Tardukai]] (dunklen Reitern) auf. Ihr Erscheinen markiert meist den Beginn großangelegter Invasionen während des [[Dunkeltief]]s.
 
 ## Merkmale und Verhalten
-- **Ursprung:** Sie stammen aus der Öde und dienen direkt dem dunklen Gott, dem "Einen".
-- **Fähigkeiten:** Es ist bekannt, dass sie sich durch unterirdische Tunnelsysteme bewegen können, was sie extrem gefährlich macht, da sie Verteidigungswälle umgehen und Siedlungen von innen heraus angreifen können.
-- **Bedrohung:** Sie werden als "Schlangen" bezeichnet (metaphorisch oder anatomisch), was auf eine heimtückische und gefährliche Natur hindeutet.
+- **Physische Form:** Die Sammler werden oft als bleiche, vielgliedrige Entstellungen beschrieben, deren Körper an eine groteske Mischung aus Schlange und Insekt erinnert. Ihre Haut soll von einem kalten, unnatürlichen Schimmer überzogen sein.
+- **Taktik:** Sie bewegen sich bevorzugt durch unterirdische Tunnelsysteme, die sie mit erschreckender Geschwindigkeit graben. Dies erlaubt es ihnen, selbst die stärksten Festungswälle, wie den [[Falkenwall]], zu unterwandern und das Herz einer Siedlung ohne Vorwarnung anzugreifen.
+- **Terror:** Ihr Name rührt von der schaurigen Erwartung her, dass sie nicht bloß töten, sondern "ernten" — Seelen oder Körperteile für die finsteren Zwecke ihres Meisters.
 
 ## Geschichte
-- **Belagerung von 19 n.H.:** Im Vorfeld des Dunkeltiefs 19 n.H. wurde im [[Siebenwind_Bote_171]] berichtet, dass die Sammler, obgleich bereits einmal zurückgedrängt, erneut in der Öde aktiv seien und einen Angriff auf das Grünland vorbereiteten.
+- **Angriff auf den Wall (19 n.H.):** In Bote 166 wird berichtet, dass Sammler den Wall überrannten, nachdem sie die Verteidiger durch einen Scheinangriff auf [[Brandenstein]] abgelenkt hatten. Bei einem gleichzeitigen Angriff auf [[Falkensee]] drangen sie in die Katakomben der [[Ferrin]] ein und richteten dort ein Blutbad an. Eine Explosion begrub schließlich die tiefen Ebenen der Katakomben. Durch eine koordinierte Aktion der Ritterschaft und der [[Schattenjaeger]] konnte der Wall am zweiten Lichthoch zurückerobert werden.
 
 ---
 **Siehe auch:** [[Tardukai]], [[Bestiarium_Register]], [[Dunkeltief]]

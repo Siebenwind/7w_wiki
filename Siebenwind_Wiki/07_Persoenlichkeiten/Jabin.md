@@ -1,21 +1,24 @@
 ---
 layout: wiki_page
 title: Jabin
-category: Persönlichkeit
+category: Persönlichkeiten
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 161.md
 ---
-
 # Jabin
 
-**Titel:** Leiter der [[Communis_Medici]]
+**Titel:** Magister / Leiter des Hospizes / Grauer Gardist
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Communis_Medici]]
-**Zeitraum:** aktiv um 18 n.H.
+**Zugehörigkeit:** [[Magierakademie]] / [[Graue_Garde]] / [[Communis_Medici]]
+**Zeitraum:** aktiv 18 n.H.
 
 ## Beschreibung
-Jabin ist ein erfahrener Heilkundiger in [[Falkensee]]. Vor seiner Ernennung zum Leiter der neuen Heilergilde war er bereits als Leiter des städtischen Hospizes bekannt, wo er sich um die Armen und Kranken der Hauptstadt kümmerte.
+**Magister Jabin** ist ein Mitglied der [[Graue_Garde|Grauen Garde]] und Leiter des städtischen Hospizes in [[Falkensee]].
 
 ## Wirken
-Im Jahr 18 n.H. wurde er zum ersten Leiter der **[[Communis_Medici]]** gewählt. Unter seiner Führung soll die medizinische Versorgung auf [[Siebenwind]] professionalisiert und besser koordiniert werden. Er gilt als besonnener und pflichtbewusster Mann, der stets das Wohl der Allgemeinheit im Blick hat.
+*   **Sichelzahngnoll-Jagd (18 n.H.):** Er führte die Graue Garde bei der Aufklärung einer Mordserie an, die fälschlicherweise dem mythischen "Sichelzahngnoll" zugeschrieben wurde. Er stellte den wahren Täter – einen wahnsinnigen Seemann – und beendete die Bedrohung.
+*   **Bändigung des [[Grix]] (18 n.H.):** Zusammen mit dem Geweihten [[Mantaris]] gelang es ihm, das Koboldwesen [[Grix]] zu fassen, indem er ihm einen bannenden Kragen aus Eisen anlegte.
+*   **Heilergilde:** Im selben Jahr beteiligte er sich an der Neugründung der [[Communis_Medici]], um die ärztliche Versorgung auf Siebenwind zu verbessern.
 
 ---
-**Quellen:** [[Siebenwind_Bote_161]]
+**Siehe auch:** [[Graue_Garde]], [[Communis_Medici]], [[Heilung]]

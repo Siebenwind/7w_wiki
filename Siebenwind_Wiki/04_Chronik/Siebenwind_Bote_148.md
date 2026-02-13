@@ -1,28 +1,39 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 148
+title: Siebenwind Bote 148
 category: Chronik
+status: Bote
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a910
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 148.md
+letzter_check: 2026-02-13T01:55:00+01:00
 ---
-
-# [[Siebenwind]] Bote 148
+# Siebenwind Bote 148
 
 **Epistemischer Status:** #bote
 **Datum:** 21. Trier 17 n.H.
 
-## Schlagzeilen
+## Highlights
+*   **Die Inquisition:** Der Prinz von [[Vandrien]] traf als Großinquisitor ein, um gegen Häresie vorzugehen. Er exekutierte öffentlich einen Ketzer in [[Falkensee]]. Seine Ankunft signalisiert das Ende des Feldzugs gegen die **Razieltreuen** Rebellen.
+*   **Mazzaremer-Warnung:** [[A.D.]] (vermutlich [[Amanda_Dunkelbaum]]) warnt vor der Schwarzmagierin **[[Wisper]]** und einem Illusionisten (**[[Lasned]]** oder **[[Kirstan]]**), die Menschen in die Höhlen locken.
+*   **Ork-Ehrung:** Der Ork **[[Szlark]]** wurde beim Stabsappell für seine Loyalität geehrt und erhielt eine Belobigung.
 
-### Schatten in der Stadt: Die [[Myten]]
-Unheimliche Besucher wurden auf dem Marktplatz von [[Falkensee]] gesichtet. Die als "[[Seelenfresser]]" berüchtigten [[Myten]] verharren stundenlang regungslos vor dem Tempel. Obgleich sie kein Wort sprechen, ist ihre Präsenz eine Last für die Einwohner. Man rät, Kinder fernzuhalten.
+## Lokales
+*   **Forstgesetze:** [[Solos_Nhergas]] und die [[Jägergilde]] veröffentlichten neue Regeln zur nachhaltigen Jagd ("Waldgerechtigkeit").
+*   **Kriminalität:** Brandstiftung im Felaviertel (Haus 30). Verdächtigt wird **[[Daniel_Donares]]** (Alias: Leon).
+*   **Fall Distelstein:** **[[Flaake_Distelstein]]** täuschte seinen Selbstmord nur vor, um sich vor Attentätern zu schützen.
+*   **Finianswacht:** Ein Bericht über die neue Burg zu Falkensee ([[Finianswacht]]), inklusive Interview mit der Wache **[[Anissa_Merden]]**.
 
-### Ein Kindertraum: Page [[Maluk]]
-Vom einfachen Knaben zum edlen Ritter? Der Page [[Maluk]] hat seinen Weg begonnen. Unter der Obhut der Ritterschaft lernt er die Tugenden der Treue und Untertänigkeit gegenüber der Krone. Ein langer Pfad voller Hürden liegt vor ihm.
+## Personen
+*   **[[Maluk]]**: Ein 13-jähriger Page im Dienst von Ritter [[Amaris_Aurinas]].
+*   **[[Anissa_Merden]]**: Wache an der Burg Finianswacht.
+*   **[[Szlark]]**: Loyaler Ork-Soldat.
 
-### Die Burg zu [[Falkensee]]
-Ein Blick hinter die robusten Mauern offenbart mehr als nur Wehrhaftigkeit. Ein stiller Park und saubere Höfe bieten Kontrast zum geschäftigen Treiben der Stadt. Unter der Leitung von Frau [[Merden]] wahren die aufmerksamen Wachen die Sicherheit der Residenz.
+## Derivate
+*   [[Wisper]]
+*   [[Szlark]]
+*   [[Maluk]]
+*   [[Anissa_Merden]]
+*   [[Flaake_Distelstein]]
 
-### Volksfest in [[Südfall]]
-Heiterkeit in schweren Zeiten: Ein Schweinewettrennen lockte Händler und Bauern nach [[Südfall]]. Trotz der Kriegswirren blüht das lokale Leben auf, wenn Schnitzer und Köche ihre Waren feilbieten.
-
----
-**Redaktion:** Leomar Finkenfarn, M. R.
-**Quelle:** [[[Siebenwind]] Bote 148](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20148.md)
+## Referenzen
+- Primärquelle: [Siebenwind Bote 148](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20148.md)

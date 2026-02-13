@@ -24,7 +24,7 @@ Orken sind von stämmiger Statur, muskulös und deutlich robuster als [[Rasse_Me
 
 ## [[index]] und Kultur
 Die orkische [[index]] ist stammesorganisiert. Das Recht des Stärkeren gilt als oberstes Gesetz.
-*   **Stämme:** Die zwei Hauptgruppen sind die in Ravel lebenden Stämme (Ravelorken) und die wilderen Stämme im Norden (Khalandrische Orken).
+*   **Stämme:** Die zwei Hauptgruppen sind die in Ravel lebenden Stämme (Ravelorken) und die wilderen Stämme im Norden (Khalandrische Orken). Der auf [[Siebenwind]] einflussreichste Stamm sind die **[[Kazla]]**, die über einen eigenen Sitz im [[Der_Große_Rat|Großen Rat]] verfügen.
 *   **Hierarchie:** An der Spitze steht meist ein Häuptling oder Kriegsherr, der seine Position durch körperliche Überlegenheit und strategisches Geschick behaupten muss.
 *   **Schamanismus:** Die spirituelle Führung obliegt Schamanen, die den Willen von Be'rglum und Ci'rgbus deuten und über primitive, aber mächtige Magie verfügen.
 

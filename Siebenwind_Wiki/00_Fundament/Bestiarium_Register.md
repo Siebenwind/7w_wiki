@@ -20,8 +20,10 @@ Dieses Register dient der systematischen Erfassung aller Kreaturen, Unholde und 
 | [[Dämonen]] | Beelzebuben / [[Daemonen]] | Zweite Sphäre / [[Tare]] | #canon |
 | [[Elementare]] | [[Elementare]] | Orte arkaner Energie | #canon |
 | [[Feen]] | Übernatürliche Wesen | Wälder / Zweite Sphäre | #canon |
+| [[Ferrin]] | [[Chimären]] (Mensch/Ratte) | Sümpfe, [[Falkensee]] | #canon |
 | [[Gargoyles]] | Bestien (Magische Konstrukte) | Ruinen, Gebirge | #canon |
 | [[Goblins]] | Humanoide (Kleingestalten) | Untergrund, Ruinen | #canon |
+| [[Harpyien]] | [[Chimären]] (Magierin/Geier) | Gebirge, Befestigungen | #canon |
 | [[Kopflose]] | Bestien (Mutationen) | Höhlen, Sümpfe | #canon |
 | [[Liche]] | [[Untote]] (Geisterwesen) | Schlachtfelder, Krypten | #canon |
 | [[Oger]] | Humanoide | Wälder, Grönland | #canon |

@@ -2,36 +2,35 @@
 layout: wiki_page
 title: Siebenwind Bote 175
 category: Chronik
+status: Bote
+uuid: e5f6a7b8-c9d0-4e1f-a2b3-c4d5e6f7g8h9
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 175.md
+letzter_check: 2026-02-13T17:15:00+01:00
 ---
-
 # Siebenwind Bote 175
 
 **Epistemischer Status:** #bote
-**Datum:** 11. Seker 20 n.H.
+**Datum:** 11. Seker 20 n.H. (Mittentag)
 
-## Schlagzeilen
+## Highlights
+*   **Führungswechsel in [[Feste_Seeberg]]:** Die Baronin **[[Beladriel_Blaettertanz]]** hat die Insel auf königlichen Befehl verlassen und ist nach Draconis zurückgekehrt. Neuer Lehnsherr von Seeberg ist **[[Yves_Rondragon]]** (Hochmeister des Drachen).
+*   **Religiöse Erhebungen:**
+    *   **[[Benion_Sandelholz]]** wurde am Vitamateich zum **Erzgeweihten** der [[Vitama]] erhoben. Die Zeremonie wurde durch einen Störversuch von **[[Clavius_Aurelius]]** (Gefolge von **[[Calmexistus_Salanus]]**) überschattet.
+    *   **[[Proveus_Herand]]** wurde im Schreine [[01_Bellum|Bellums]] zu [[Brandenstein]] zum **Erzgeweihten** erhoben (durch **[[Bernhardt_Wiesinger]]**).
+*   **Der [[Der_Blinde_Maler|Blinde Maler]]:** Ein neuer Dämon plagt die Insel. Er entführte **[[Laske]]** (Hochmeister des Falkenordens) und hinterließ dessen scheinbar leblosen, mumifizierten Körper als Statue. **[[Custodias]]** opferte sein Augenlicht, um in das Reich des Dämons vorzudringen und Laske zu retten.
+*   **Krieg im [[Oedland]]:** Eine Koalition der freien Völker unter dem Oberbefehl von **[[Traim_Eisenblut]]** griff das **[[Tal_der_Ahnen]]** an, um die **[[Terra_Dorotor]]** (Verräter-Zwerge unter dem Kult des Merros) zu besiegen. Der Anführer der Dorotor wurde vernichtet.
+*   **Gesellschaft:**
+    *   **[[Graue_Garde]]**: Primus **[[Quirian_Grint]]** erläutert die Aufgaben der Garde als magische Exekutive im Dienste des [[Ersonter_Bund|Ersonter Bundes]].
+    *   **Heilung:** **[[Laylira_Hohentann]]** wurde für ihren Einsatz gegen den [[Atmender_Tod|Atmenden Tod]] als „Heilende Hand Vitamas“ geehrt.
+    *   **Falkensee:** Eine Serie von Bränden (u.a. bei **[[Baldasti]]**) sorgt für Beunruhigung.
 
-### Wechsel in Seeberg
-- **Abreise:** Baronin [[Beladriel_Blaettertanz]] hat die Insel auf königlichen Befehl verlassen und ist nach [[Draconis]] zurückgekehrt.
-- **Neue Führung:** Die [[Ritterschaft_der_Sieben_Winde]] übernimmt die Verwaltung von [[Seeberg]] unter der Leitung von Hochmeister [[Yves_Rondragon]].
-- **Struktur:** Die Oberburg wird nun vom Hofstaat und Regiment genutzt, während die Unterburg Platz für Bürger, Läden und Gilden bietet.
+## Personen
+*   **[[Yves_Rondragon]]**: Neuer Lehnsherr von Seeberg.
+*   **[[Benion_Sandelholz]]**: Erzgeweihter der Vitama.
+*   **[[Proveus_Herand]]**: Erzgeweihter des Bellum.
+*   **[[Quirian_Grint]]**: Primus der Grauen Garde.
+*   **[[Der_Blinde_Maler]]**: Neuer Dämon.
+*   **[[Traim_Eisenblut]]**: Dwarschim-Heerführer.
 
-### Erhebungen in der Kirche
-- **[[Benion_Sandelholz]]:** Erhebung zum Erzgeweihten der [[Vitama]] am Vitamateich. Die Zeremonie wurde durch [[Arianna_Morgentau]] vollzogen.
-- **[[Proveus_Herand]]:** Erhebung zum Erzgeweihten des [[Bellum]] im Schrein zu [[Brandenstein]].
-- **Eklat:** Der Anwärter [[Clavius_Aurelius]] (Gefolge von [[Salanus]]) störte die Weihe von Vater Benion demonstrativ, was zu kirchinternen Spannungen führte.
-
-### Sieg über Terra'Dorotor
-Eine vereinte Streitmacht aus Menschen, [[Elfen]] und [[Dwarschim]] unter dem Kommando von [[Traim_Eisenblut]] hat den Kult der [[Terra_Dorotor]] im Tal der Ahnen zerschlagen. Der bartlose Anführer des Kults wurde getötet.
-
-### Die Graue Garde
-Vorstellung der [[Graue_Garde|Grauen Garde]] unter Primus [[Quirian_Grint]]. Die Garde dient als arkane Exekutive und Schutzmacht der Akademie in [[Falkensee]].
-
-### Neue Bedrohung: Der blinde Maler
-Ein Dämon, bekannt als der „blinde Maler“, hat Sire [[Laske]] entführt.
-- **Dämonischer Pakt:** [[Custodias]] opferte sein Augenlicht in einem Versuch, den Ritter aus einem magischen Gemälde zu befreien.
-- **Status:** Die Seele von Sire Laske gilt als gefangen; sein Körper wurde in die Kapelle von Seeberg überführt.
-
----
-**Quellen:** [[Siebenwind_Bote_175]] (Original)
-**Siehe auch:** [[Chronik]], [[Terra_Dorotor]], [[Graue_Garde]], [[Der_blinde_Maler]]
+## Referenzen
+- Primärquelle: [Siebenwind Bote 175](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20175.md)

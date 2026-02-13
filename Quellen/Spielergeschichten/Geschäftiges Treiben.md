@@ -1,10 +1,14 @@
 ---
 layout: wiki_page
-title: Geschäftiges Treiben
-category: Sonstiges
+title: Geschäftiges Treiben
+category: Erzählung
+status: #perspektive
+tags: [Magister ad Sinister, Ru'n, Nekromantie, Ritual]
+uuid: h1234567-a916-48b3-9a30-8de6fbc712da
+letzter_check: 2026-02-13T15:25:00+01:00
 ---
 
-# Geschäftiges Treiben
+# Geschäftiges Treiben
 
 **Epistemischer Status:** #perspektive
 
@@ -23,7 +27,7 @@ Gleichsam akribisch werden die Arme nun mit den Gelenken verbunden, die groben S
 
 Einiges an Zeit vergeht bei seinem Handwerker, ist es doch bisher nur Handwerk und keine Magie. Jene Würde noch folgen… doch bevor es soweit ist… der Stapel der Leichen ist noch groß.
 
-Zum höchsten Stand des Dorayon vollzog sich der Wechsel. Mit einem anerkennenden Blick schritt der Magister ad Sinister an dem Hochmagus, dessen Kleidung und Hände von Blut gezeichnet waren vorrüber und übernahm die Arbeit an den sich langsam formenden Körpern. Ihm wurde die Ehre zu Teil die sauber geschaffenen Körper zu verbinden. So legte er immer und immer wieder die Hände auf die Schnittstellen, welche hier fein säuberlich mit engem Zwirn, dort mit Nägeln verbunden war. Scharf gefauchte Worte drangen aus seiner Kehle, immer wieder hätte man in Anwesenheit die Run'schen Wörter "Say'", "Shra" und "Briaz" hören können.
+Zum höchsten Stand des [[Dorayon]] vollzog sich der Wechsel. Mit einem anerkennenden Blick schritt der [[Magister ad Sinister]] an dem Hochmagus, dessen Kleidung und Hände von Blut gezeichnet waren vorrüber und übernahm die Arbeit an den sich langsam formenden Körpern. Ihm wurde die Ehre zu Teil die sauber geschaffenen Körper zu verbinden. So legte er immer und immer wieder die Hände auf die Schnittstellen, welche hier fein säuberlich mit engem Zwirn, dort mit Nägeln verbunden war. Scharf gefauchte Worte drangen aus seiner Kehle, immer wieder hätte man in Anwesenheit die [[Ru'n|Run'schen]] Wörter "Say'", "Shra" und "Briaz" hören können.
 
 Nach einiger Zeit traf seine Eminenz wieder ein. Er hatte sein Äusseres gesäubert und begutachtete nun das Werk. Es war kein Angst, ob Dilletantismus, es war derweil vielleicht ein gewisses Vertrauen in den ehemaligen Schüler gewachsen.
 

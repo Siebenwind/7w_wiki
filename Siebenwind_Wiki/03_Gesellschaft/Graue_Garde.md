@@ -1,34 +1,33 @@
 ---
 layout: wiki_page
 title: Graue Garde
-category: Organisationen
+category: Gesellschaft
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 175.md
 ---
-
 # Graue Garde
 
-**Epistemischer Status:** #bote
+**Epistemischer Status:** #bote  
+**Rolle:** Magische Exekutive / Sicherheitsdienst
 
-## Überblick
-Die **Graue Garde** ist die militärische Exekutive für arkane Belange auf [[Siebenwind]]. Sie untersteht primär dem grauen Pfad der Magie, agiert jedoch als Schutzmacht für die gesamte königliche Akademie und das Territorium des [[Ersonter_Bund|Ersonter Bundes]].
+## Beschreibung
+Die **Graue Garde** ist eine militärisch organisierte Kampftruppe von Magiern auf Siebenwind. Ursprünglich eine Schutzmacht für das gesamte Reich, konzentriert sie sich seit der Auflösung der [[Kronmark]] (20 n.H.) vornehmlich auf das Territorium des [[Ersonter_Bund|Ersonter Bundes]]. Sie untersteht dem Primus Magus Laude.
 
-## Aufgaben und Mission
-- **Magische Sicherheit:** Kontrolle und Eindämmung magischer Verbrechen.
-- **Akademieschutz:** Verteidigung der königlichen Akademie der arkanen Künste in [[Falkensee]].
-- **Ausbildung:** Schulung junger Magierschüler in praktischen und taktischen Belangen.
-- **Reichetreue:** Sicherstellung der Loyalität der Magier gegenüber Thron und Kirche.
+## Aufgaben
+*   **Kontrolle arkaner Belange:** Eindämmung und Verfolgung magischer Verbrechen.
+*   **Schutzmacht:** Verteidigung der [[Koenigliche_Magierakademie_zu_Siebenwind|Magierakademie]] und des Ersonter Territoriums.
+*   **Ausbildung:** Schulung junger Magier (Anwärter, Rekruten) in praktischer Kampfmagie und Reichtreue.
 
-## Führung und Struktur
-Die operative Leitung obliegt dem **Primus Magus Laude [[Quirian_Grint]]**. 
-### Ränge
-1. **Anwärter:** Schüler in der Kennenlernphase.
-2. **Rekrut:** Magier in der Grundausbildung.
-3. **Luhush:** Vollwertiger Gardist.
-4. **Akoluth:** Unteroffizier mit Führungsaufgaben.
-5. **Primus:** Erfahrene Gardisten mit administrativen Aufgaben.
-6. **Primus Magus Laude:** Operatives Oberhaupt.
+## Hierarchie
+1.  **Erzmagus des grauen Pfades:** Repräsentatives Oberhaupt (z.B. [[Toran_Dur]]).
+2.  **Primus Magus Laude:** Operativer Leiter der Garde (z.B. [[Quirian_Grint]]).
+3.  **Primus:** Erfahrene Gardisten, zuständig für Verwaltung und Ausbildung.
+4.  **Akoluth:** Truppführer im Gefecht.
+5.  **Luhush:** Vollwertige Gardisten.
+6.  **Rekrut / Anwärter:** Auszubildende.
 
-## Standort
-Das Hauptquartier der Grauen Garde befindet sich auf dem Gelände der Akademie in [[Falkensee]].
+## Philosophie
+Die Garde ist dem König, dem Reich und der Kirche verpflichtet. Sie setzt auf Zusammenarbeit mit der [[Ersonter_Garde]] und anderen Milizen. Während sie den Namen des grauen Pfades trägt, sind auch Weiß- und Elementarmagier willkommen.
 
 ---
-**Siehe auch:** [[Zirkel_der_Magie]], [[Falkensee]], [[Quirian_Grint]]
+**Siehe auch:** [[Ersonter_Bund]], [[Quirian_Grint]], [[Koenigliche_Magierakademie_zu_Siebenwind]]

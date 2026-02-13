@@ -1,12 +1,19 @@
 ---
 layout: wiki_page
 title: Die Nacht des Dunkeltiefs
-category: Sonstiges
+category: Erzählung
+uuid: 6BFB4A6D-4C1A-4473-96BF-56A0CD8581E2
+status: Perspektive (Level 4)
+tags: [Lyrik, OutGame, Dunkeltief]
+letzter_check: 2026-02-13T14:35:00+01:00
 ---
 
 # Die Nacht des Dunkeltiefs
 
-**Epistemischer Status:** #perspektive
+**Epistemischer Status:** #perspektive (Lyrik)
+
+> [!NOTE]
+> Dies ist ein Out-of-Character Gedicht von Georg Heym ("Die Nacht"), das zur atmosphärischen Untermalung verwendet wurde.
 
 Alle Flammen starben in Nacht auf den Stufen.
 Alle Kränze verwehten. Und unten im Blute verloren
@@ -14,7 +21,7 @@ Seufzte das Grauen. Wie hinter gestorbener Toren
 Manchmal es fern noch hallt von dunkelen Rufen.
 
 Eine Fackel noch oben bog aus den Gängen,
-Lief im Chor. Und versank wie das Heer der Dämonen
+Lief im Chor. Und versank wie das Heer der [[Dämonen]]
 Rot und rauchend. Doch draußen der Waldung Kronen
 Wuchsen im Sturm und zerrten sich in die Länge.
 

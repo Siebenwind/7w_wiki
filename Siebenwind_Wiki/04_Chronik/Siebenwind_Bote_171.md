@@ -2,32 +2,35 @@
 layout: wiki_page
 title: Siebenwind Bote 171
 category: Chronik
+status: Bote
+uuid: a1b2c3d4-e5f6-4a1b-9c2d-3e4f5g6h7i8j
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 171.md
+letzter_check: 2026-02-13T16:30:00+01:00
 ---
-
 # Siebenwind Bote 171
 
 **Epistemischer Status:** #bote
-**Datum:** 31. Sekar 19 n.H.
+**Datum:** 31. Sekar 19 n.H. (Mittentag)
 
-## Schlagzeilen
+## Highlights
+*   **Neuer Großmeister der Ritterschaft:** Die Tafelrunde wählte **[[Siegfried_Steiner]]** einstimmig zum neuen **Großmeister** der [[Ritter_der_Sieben_Winde]] und Hochmeister des Drachenordens. Er tritt die Nachfolge von [[Aspin_Schwertklinge_von_Fahlenau]] an.
+*   **Neue Heermeisterin:** **[[Mirian_Lasar]]** wurde zur neuen **Heermeisterin** der königlichen Armee ernannt und zum Greifenritter erhoben. Sie übernimmt das Oberkommando über die Armee und die Milizen.
+*   **Diplomatie & Gesandte:** Zur Pflege der Beziehungen zu den verschiedenen Völkern wurden Gesandte ernannt:
+    *   **[[Mirian_Lasar]]**: Gesandte für die [[Orken]] (insb. Stamm der [[Kazla]]).
+    *   **[[Arlon_Windtanz]]**: Gesandter für die [[Dwarschim]].
+    *   **[[Laske]]**: Gesandter für die [[Nortraven]] und [[Halblinge|Hobbits]].
+*   **Kriegsrecht & Dunkeltief:** Aufgrund des nahenden **[[Dunkeltief|Dunkeltiefs]]** und der Bedrohung durch die [[Sammler]] wurde das **Kriegsrecht** verhängt. Die Landbevölkerung wurde aufgefordert, Schutz in der Hauptstadt [[Falkensee]] zu suchen. Waffen- und Rüstverbote in der Stadt wurden aufgehoben. Das Süd- und Westtor von Falkensee wurden geschlossen, der Zugang erfolgt nur noch über das Nordtor.
 
-### Das Dunkeltief rückt näher
-Die Redaktion warnt vor den bevorstehenden dunkelsten Tagen des Götterlaufs. Die Bewohner werden aufgerufen, in die schützenden Mauern von [[Falkensee]] zu fliehen. Vorräte wurden gehortet und Quartiere bereitgestellt. 
-*   **Feindlage:** Es wird vor den [[Sammler]]n und den dunklen Reitern, den [[Tardukai]], gewarnt. Diese Diener des "Einen" nutzen unterirdische Tunnelsysteme für ihre Angriffe.
-*   **Verteidigung:** Der Wall wurde notdürftig befestigt. Der Schutz wird durch die [[Königliche_Armee]] und den [[Orden_des_wachenden_Löwen]] gewährleistet.
+## Lokales
+*   **Falkensee:** Vorräte wurden gehortet und Quartiere für Flüchtlinge bereitgestellt. Der [[Orden_der_Wachenden_Löwen]] befestigte den [[Falkenwall|Wall]] notdürftig.
+*   **Kämpferschule:** Sire [[Laske]] führt weiterhin die Kämpferschule, um tapfere Recken für das Soldatenhandwerk auszubilden.
 
-### Neuer Großmeister: Siegfried Steiner
-[[Siegfried_Steiner]], bisheriger Drachenritter, wurde einstimmig zum Hochmeister des Drachenordens und neuen Großmeister der [[Ritterschaft_der_Sieben_Winde]] gewählt. Er tritt die Nachfolge von Ritter Schwertklinge an.
-*   **Vita:** Veteran zahlreicher Schlachten, ehemals Knappe von [[Leonard_von_Wolfenbach]], wurde von [[Kanzler_McKevin]] zum Ritter geschlagen. Er rettete den König im Tauchboot und beendete den Skelettkrieg am Feuerberg.
+## Personen
+*   **[[Siegfried_Steiner]]**: Neuer Großmeister und Heerführer.
+*   **[[Mirian_Lasar]]**: Neue Heermeisterin und Orken-Gesandte.
+*   **[[Arlon_Windtanz]]**: Zwergen-Gesandter.
+*   **[[Laske]]**: Leiter der Kämpferschule und Gesandter für Nortraven/Hobbits.
+*   **[[Leonard_von_Wolfenbach]]**: Erwähnt als ehemaliger Mentor Steiners.
 
-### Neue Heermeisterin: Mirian Lasar
-[[Mirian_Lasar]] wurde zur neuen Heermeisterin der [[Königliche_Armee]] ernannt und zur Greifenritterin erhoben. Sie war einst Knappin von [[Siegfried_Steiner]].
-*   **Diplomatie:** Lasar wurde als Gesandte für die [[Orken]] ernannt. Weitere Gesandte sind [[Arlon_Windtanz]] ([[Dwarschim]]) und [[Sire_Laske]] ([[Nortraven]] & [[Hobbits]]).
-
-### Kriegsrecht über Siebenwind
-Aufgrund des herannahenden Dunkeltiefs wurde das Kriegsrecht verhängt. 
-*   **Maßnahmen:** Das Rüst- und Waffenverbot in [[Falkensee]] ist aufgehoben. Das Süd- und Westtor der Stadt werden geschlossen; nur das Nordtor bleibt unter dem Schutz des [[Kronregiment]]s offen.
-
----
-**Quellen:** [[Siebenwind_Bote_171]] (Original)
-**Siehe auch:** [[Chronik]], [[Falkensee]], [[Dunkeltief]]
+## Referenzen
+- Primärquelle: [Siebenwind Bote 171](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20171.md)

@@ -4,15 +4,16 @@ title: Merden
 category: Persönlichkeit
 ---
 
-# Merden
+# Anissa Merden
 
-**Titel:** Burgfrau?
+**Titel:** Wache / Burgfrau
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** Hofstaat [[Falkensee]]
+**Zugehörigkeit:** Hofstaat [[Falkensee]] / [[Finianswacht]]
 **Zeitraum:** aktiv um 17 n.H.
 
 ## Beschreibung
-Frau Merden ist eine zentrale Figur in der Verwaltung der Burg zu [[Falkensee]]. Sie empfängt offizielle Besucher und sorgt für den reibungslosen Ablauf des ritterlichen Alltags innerhalb der Mauern.
+**Anissa Merden** ist eine Wache an der Burg [[Finianswacht]] zu [[Falkensee]]. Sie stammt ursprünglich aus dem Herzogtum Bernstein in Falandrien und hat eine Schwäche für Pferde.
+Sie empfängt offizielle Besucher und gibt Auskunft über die Burg (Bote 148).
 
 ---
 **Quellen:** [[Siebenwind_Bote_148]]

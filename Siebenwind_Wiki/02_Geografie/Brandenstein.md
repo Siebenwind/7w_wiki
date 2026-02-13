@@ -8,7 +8,7 @@ category: [[Geografie]]
 
 **Epistemischer Status:** #bote
 
-**Brandenstein** ist die aufstrebende, junge Hauptstadt der Insel [[Siebenwind]]. Gegründet inmitten einer ehemals ungezähmten Waldlandschaft, markiert die Siedlung den unbändigen Willen der Siedler, sich gegen die Widrigkeiten der neuen Heimat zu behaupten. Überall prägt das Geräusch von Äxten und Sägen die Atmosphäre, während der dichte Wald Stück für Stück prächtigen urbanen Strukturen weicht.
+**Brandenstein** ist die aufstrebende, junge Hauptstadt der Insel [[Siebenwind]]. Gegründet inmitten einer ehemals ungezähmten Waldlandschaft, markiert die Siedlung den unbändigen Willen der Siedler, sich gegen die Schatten der Wildnis zu behaupten. Überall prägt das rhythmische Geräusch von Äxten und das Kreischen der Sägemühlen die Atmosphäre, während der Geruch von frisch geschlagenem Harz und nasser Erde in den Straßen hängt.
 
 ## Bergbau & Handwerk
 Die wirtschaftliche Grundlage der Stadt bildet der reiche Bergbau. In den nordöstlichen Minen werden hochwertige Erze wie Eisen und Quarz gefördert. 

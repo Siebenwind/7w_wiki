@@ -19,10 +19,10 @@ Ein Jahr auf [[Tare]] hat **365 Tage** (im Schaltjahr 366). Es ist unterteilt in
 
 | Jahreszeit | Gott | Charakteristik |
 | :--- | :--- | :--- |
-| **[[Morsan]]** | [[Morsan]] | Winter. Kälte, Ruhe, Dunkelheit. |
-| **[[Vitama]]** | [[Vitama]] | Frühling. Erwachen, Blüte, Leben. |
-| **[[Astrael]]** | [[Astrael]] | Sommer. Hitze, Kraft, Energie. |
-| **[[Bellum]]** | [[Bellum]] | Herbst. Stürme, Ernte, Verfall. |
+| **[[Morsan]]** | [[Morsan]] | Winter. Stille des Schnees, Zeit des Schlafs und der Ahnen. |
+| **[[Vitama]]** | [[Vitama]] | Frühling. Das Erwachen der Säfte, Liebe und Blütezeit. |
+| **[[Astrael]]** | [[Astrael]] | Sommer. Zenith des Wissens, flirrende Hitze und Klarheit. |
+| **[[Bellum]]** | [[Bellum]] | Herbst. Eisenharte Stürme, Ernte dank des Stahls und der Ehre. |
 
 ### Die Monate
 
@@ -47,8 +47,8 @@ Das Jahr beginnt im tiefsten Winter. Jeder Monat hat exakt 4 Wochen à 7 Tage (2
 
 Rechnet man das Standardjahr (12 x 28 Tage), kommt man auf 336 Tage. Die fehlenden ~30 Tage verteilen sich auf besondere Phasen zwischen den Monaten und Jahreszeiten, vor allem auf die beiden großen Sonnenwenden:
 
-*   **Lichthoch (Sommersonnenwende):** Das Fest des Lichts. Zwei Tage lan herrscht Helligkeit (oder zumindest sehr lange Tage). Es markiert den Höhepunkt von Astraels Macht.
-*   **[[Dunkeltief]] (Wintersonnenwende):** Die Zeit der Finsternis. Drei Tage lang bleibt Felas Licht verborgen. Dies ist eine gefährliche Zeit, in der Geister und [[Daemonen]] stärker sind. Der Tag davor (01. Oner) wird "Scheidetag" oder "Zapfenstreicher" genannt.
+*   **[[Lichthoch]] (Sommersonnenwende):** Das Fest des Lichts. Zwei Tage lang herrscht Helligkeit (oder zumindest sehr lange Tage). Es findet zwischen den Monaten **Triar** und **Querler** statt und markiert den Höhepunkt von Astraels Macht.
+*   **[[Dunkeltief]] (Wintersonnenwende):** Die Zeit der Finsternis. Drei Tage lang bleibt Felas Licht verborgen. Dies ist eine gefährliche Zeit zu Beginn des Monats **Oner**, in der Geister und [[Daemonen]] stärker sind. Der Tag davor (01. Oner) wird "Scheidetag" oder "Zapfenstreicher" genannt.
 
 ## Ären und Zählung
 

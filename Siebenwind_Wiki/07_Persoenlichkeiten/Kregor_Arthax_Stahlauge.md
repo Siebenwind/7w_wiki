@@ -16,7 +16,7 @@ Kregor Stahlauge ist der politische und militärische Führer der [[Rasse_Zwerge
 
 ## Karriere & Timeline
 - **17 n.H.:** Anwesend bei der Weihe von [[Fraomar_Arkad_Grembargh]] zum Arkadhrall in den Bingen.
-- **~25-30 n.H.:** Verteidigte Dunquell gegen die Angriffe der roten Lindwürmer (Aschehorn & Rotschuppe). Er führte die zwergischen Truppen persönlich in die Schlacht und trieb die Bestien mit Hilfe des "Drachenfalls" zum Rückzug (Bote 193).
+- **30 n.H. (Bote 193):** Er wurde erneut zum Kregor von [[Dunquell]] gewählt. Unmittelbar nach seiner Wahl beteiligte er sich an der Verteidigung von [[Claiomhs_Wacht]] gegen die roten Lindwürmer (**[[Aschehorn]]** & **[[Rotschuppe]]**). Er führte die Streiter persönlich an und trieb die Bestien mit Hilfe des Geschützes "Drachenfall" zum Rückzug.
 
 ## Bedeutung
 Er ist das Gesicht der zwergischen Beteiligung im [[Inselrat]] und sorgt dafür, dass die Dwarschim als gleichberechtigte Partner im Kampf gegen den "Einen" ([[10_Angamon]]) wahrgenommen werden.

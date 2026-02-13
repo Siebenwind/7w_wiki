@@ -11,7 +11,10 @@ category: [[Gesellschaft]]
 **Glaubenswelt:** [[Religion_Übersicht|Die Vier Elemente]]
 
 ## Beschreibung
-Die **Ecclesia Elementorum** ist die religiöse Vereinigung, welche die Verehrung der vier Elemente ([[Xan]], [[Vitama]], [[Enhor]], [[Morsan]]) in den Mittelpunkt stellt. Sie bildet das geistige Fundament der [[Gesellschaft]] auf [[Siebenwind]].
+## Wirken
+*   Die Kirche bildet das geistige Fundament der [[Gesellschaft]] auf [[Siebenwind]].
+*   **18 n.H. (Bote 159):** Bei der Bekanntgabe des Rücktritts der Inselpatrizierin [[Solos_Nhergas]] zeigten Vertreter der Ecclesia eine auffällige Zufriedenheit und "Gier" in den Augen, was auf politische Ambitionen oder Spannungen innerhalb des [[Grosser_Rat|Großen Rates]] hindeutet.
+*   **Rosenbund (19 n.H.):** In Bote 165 wurde die Einführung des **Rosenbundes** durch den Orden der lieblichen Rose (Papinstadt) verkündet. Dabei handelt es sich um eine Form der Ehe innerhalb der Vitama-Kirche, die im Gegensatz zum ewigen **Smaragdbund** wieder getrennt werden kann.
 
 ## Konflikte
 Obwohl die Kirche zur Neutralität und Besonnenheit mahnt, kam es in der Vergangenheit zu internen Spannungen, wie etwa dem Vorfall um den Priester **[[Brand_Windfluesterer]]**, der die Balance zwischen religiöser Pflicht und weltlicher Einmischung in Frage stellte.

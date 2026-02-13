@@ -2,22 +2,21 @@
 layout: wiki_page
 title: Quirian Grint
 category: Persönlichkeiten
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 175.md
 ---
-
 # Quirian Grint
 
+**Titel:** Primus Magus Laude
 **Epistemischer Status:** #bote
+**Zugehörigkeit:** [[Graue_Garde]] / [[Ersonter_Bund]]
+**Zeitraum:** aktiv ab 20 n.H.
 
-## Überblick
-**Quirian Grint** ist der Primus Magus Laude der [[Graue_Garde|Grauen Garde]] auf [[Siebenwind]]. Er ist ein erfahrener Magier des grauen Pfades und leitet die arkane Exekutive in [[Falkensee]].
+## Beschreibung
+**Quirian Grint** ist der operative Leiter (Primus Magus Laude) der [[Graue_Garde|Grauen Garde]]. Er residiert in [[Brandenstein]] (oder Falkensee, Hauptsitz der Garde). Er ist ein Verfechter der Zusammenarbeit zwischen magischen und weltlichen Autoritäten zur Eindämmung arkaner Verbrechen.
 
-## Rolle und Ansichten
-Unter seiner Führung fungiert die Graue Garde als Schutzmacht für die [[Ersonter_Bund|Ersonter Ländereien]]. Grint gilt als Pragmatiker, der die Zusammenarbeit mit anderen Milizen und der Kirche sucht. 
-- **Magiekontrolle:** Er steht den strikten magischen Regulierungen der Malthuster in [[Brandenstein]] (Registrierungspflicht) skeptisch gegenüber und hält sie für wenig praktikabel. Er befürwortet stattdessen eine fachkundige Überwachung durch Organisationen wie die Graue Garde.
-- **Ausbildung:** Er legt großen Wert auf die praktische Schulung der Magieanwärter und die Verteidigungsbereitschaft der Akademie.
-
-## Geschichte
-Vor seiner Ernennung zum Primus diente er vermutlich lange Jahre in den Reihen der Garde und erwarb sich durch seine Fachkenntnis und Loyalität das Vertrauen von Persönlichkeiten wie [[Toran_Dur]].
+## Wirken
+*   **Führung der Garde (20 n.H.):** In einem Interview mit dem Siebenwind-Boten erläuterte er die Struktur und die Aufgaben der [[Graue_Garde|Grauen Garde]], insbesondere ihre Rolle als magische Exekutive im Dienste des [[Ersonter_Bund|Ersonter Bundes]] nach der Auflösung der Kronmark. Er äußerte sich kritisch zu den neuen Magie-Vorschriften in Brandenstein und plädierte stattdessen für eine professionelle Überwachung nach dem Vorbild seiner Garde ([[Siebenwind_Bote_175]]).
 
 ---
-**Siehe auch:** [[Graue_Garde]], [[Zirkel_der_Magie]], [[Siebenwind_Bote_175]]
+**Siehe auch:** [[Graue_Garde]], [[Ersonter_Bund]], [[Falkensee]]
