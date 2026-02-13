@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import os
 import re
+import subprocess
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 from collections import Counter
 
 # Configuration
@@ -78,7 +79,75 @@ def collect_stats():
             target = link.split('|')[0].split('#')[0].strip()
             stats["link_hubs"][target] += 1
 
+    # 3. Git Activity (recent changes)
+    stats["activity"] = collect_git_activity()
+
     return stats
+
+def collect_git_activity():
+    """Collect recent file changes from git history."""
+    activity = {"day": {"new": 0, "modified": 0}, "week": {"new": 0, "modified": 0}, "month": {"new": 0, "modified": 0}, "recent_files": []}
+    
+    try:
+        # Check if we're in a git repo
+        subprocess.run(["git", "rev-parse", "--is-inside-work-tree"], cwd=str(PROJECT_ROOT), capture_output=True, check=True)
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return activity
+
+    periods = {
+        "day": (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d"),
+        "week": (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d"),
+        "month": (datetime.now() - timedelta(days=30)).strftime("%Y-%m-%d"),
+    }
+
+    for period_name, since_date in periods.items():
+        try:
+            # New files (A = added)
+            result = subprocess.run(
+                ["git", "log", f"--since={since_date}", "--diff-filter=A", "--name-only", "--pretty=format:", "--", "Siebenwind_Wiki/"],
+                cwd=str(PROJECT_ROOT), capture_output=True, text=True, timeout=10
+            )
+            new_files = set(f for f in result.stdout.strip().split("\n") if f.strip() and f.endswith(".md"))
+            activity[period_name]["new"] = len(new_files)
+
+            # Modified files (M = modified)
+            result = subprocess.run(
+                ["git", "log", f"--since={since_date}", "--diff-filter=M", "--name-only", "--pretty=format:", "--", "Siebenwind_Wiki/"],
+                cwd=str(PROJECT_ROOT), capture_output=True, text=True, timeout=10
+            )
+            mod_files = set(f for f in result.stdout.strip().split("\n") if f.strip() and f.endswith(".md"))
+            activity[period_name]["modified"] = len(mod_files)
+        except (subprocess.TimeoutExpired, subprocess.CalledProcessError):
+            pass
+
+    # Recent files (last 15 changes with dates)
+    try:
+        result = subprocess.run(
+            ["git", "log", "--since=" + periods["month"], "--diff-filter=AM", "--name-status", "--pretty=format:%ai", "--", "Siebenwind_Wiki/"],
+            cwd=str(PROJECT_ROOT), capture_output=True, text=True, timeout=10
+        )
+        seen = set()
+        current_date = ""
+        for line in result.stdout.strip().split("\n"):
+            line = line.strip()
+            if not line:
+                continue
+            if re.match(r'\d{4}-\d{2}-\d{2}', line):
+                current_date = line[:10]
+            elif "\t" in line:
+                status, filepath = line.split("\t", 1)
+                if filepath.endswith(".md") and filepath not in seen:
+                    seen.add(filepath)
+                    basename = Path(filepath).stem.replace("_", " ")
+                    category = Path(filepath).parts[1] if len(Path(filepath).parts) > 1 else "Root"
+                    action = "Neu" if status == "A" else "Geändert"
+                    activity["recent_files"].append((current_date, action, basename, category))
+                    if len(activity["recent_files"]) >= 15:
+                        break
+    except (subprocess.TimeoutExpired, subprocess.CalledProcessError):
+        pass
+
+    return activity
 
 def generate_markdown(stats):
     # Calculate density
@@ -166,6 +235,30 @@ Die am häufigsten verlinkten Artikel im Wiki.
 """
     for i, (name, count) in enumerate(top_hubs, 1):
         md += f"| {i} | [[{name}]] | {count} |\n"
+
+    # Recent Activity Section
+    act = stats.get("activity", {})
+    day = act.get("day", {})
+    week = act.get("week", {})
+    month = act.get("month", {})
+
+    md += f"""
+---
+
+## 📅 Aktivität (Letzte Änderungen)
+
+| Zeitraum | Neue Artikel | Geänderte Artikel |
+| :--- | :--- | :--- |
+| **Letzte 24h** | {day.get('new', 0)} | {day.get('modified', 0)} |
+| **Letzte 7 Tage** | {week.get('new', 0)} | {week.get('modified', 0)} |
+| **Letzte 30 Tage** | {month.get('new', 0)} | {month.get('modified', 0)} |
+"""
+
+    recent = act.get("recent_files", [])
+    if recent:
+        md += """\n### Letzte Änderungen\n\n| Datum | Aktion | Artikel | Kategorie |\n| :--- | :--- | :--- | :--- |\n"""
+        for date, action, name, cat in recent:
+            md += f"| {date} | {action} | {name} | {cat} |\n"
 
     md += """
 ---

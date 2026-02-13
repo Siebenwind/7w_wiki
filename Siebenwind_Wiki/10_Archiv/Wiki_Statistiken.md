@@ -6,7 +6,7 @@ category: Index
 
 # Wiki Statistiken
 
-**Letztes Update:** 2026-02-13 19:42:45
+**Letztes Update:** 2026-02-13 19:49:11
 
 ## 📊 High-Level KPIs
 
@@ -80,6 +80,36 @@ Die am häufigsten verlinkten Artikel im Wiki.
 | 8 | [[Kirche_der_Viere]] | 57 |
 | 9 | [[Ecclesia_Elementorum]] | 57 |
 | 10 | [[Tare]] | 50 |
+
+---
+
+## 📅 Aktivität (Letzte Änderungen)
+
+| Zeitraum | Neue Artikel | Geänderte Artikel |
+| :--- | :--- | :--- |
+| **Letzte 24h** | 649 | 123 |
+| **Letzte 7 Tage** | 649 | 123 |
+| **Letzte 30 Tage** | 649 | 123 |
+
+### Letzte Änderungen
+
+| Datum | Aktion | Artikel | Kategorie |
+| :--- | :--- | :--- | :--- |
+| 2026-02-13 | Geändert | Wiki Statistiken | 10_Archiv |
+| 2026-02-13 | Geändert | Personenregister | 00_Fundament |
+| 2026-02-13 | Neu | Skapenfestung | 02_Geografie |
+| 2026-02-13 | Geändert | Orken | 03_Gesellschaft |
+| 2026-02-13 | Neu | Tyrana I | 03_Gesellschaft |
+| 2026-02-13 | Geändert | Dorion Hali | 07_Persoenlichkeiten |
+| 2026-02-13 | Geändert | Bestiarium Register | 00_Fundament |
+| 2026-02-13 | Geändert | Die Monde | 00_Fundament |
+| 2026-02-13 | Geändert | Dunkeltief | 00_Fundament |
+| 2026-02-13 | Neu | Lichthoch | 00_Fundament |
+| 2026-02-13 | Geändert | Magie Grundlagen | 00_Fundament |
+| 2026-02-13 | Geändert | Magietheorie Toran Dur | 00_Fundament |
+| 2026-02-13 | Geändert | Organisationsregister | 00_Fundament |
+| 2026-02-13 | Geändert | Zeitrechnung (Der Sonnenzirkel) | 00_Fundament |
+| 2026-02-13 | Geändert | Angamon | 01_Pantheon |
 
 ---
 > [!NOTE]
