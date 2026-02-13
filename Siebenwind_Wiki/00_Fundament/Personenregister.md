@@ -425,4 +425,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Schneid]] | Marinesoldat | [Bote 192] | 30 n.H. | #bote |
 | [[Kazla]] | Orkischer Stamm / Ratsmitglied | [Hierarchie] | - | #canon |
 | [[Azgar_Kazanin]] | Rekrut / Ork | [Bote 121] | 15 n.H. | #bote |
+| [[Felix Goldschein]] | Novize des [[Bellum]] | [[Aus dem Leben eines Schwarzmagiers]] | #perspektive |
+| [[Tyrana_I|Tyrana I. Ahm Senal]] | König von [[Galadon]] | [[Khalandra]] | #bote |
 

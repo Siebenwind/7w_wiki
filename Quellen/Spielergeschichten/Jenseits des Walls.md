@@ -108,7 +108,7 @@ letzter_check: 2026-02-13T16:00:00+01:00
 > Aber sie hörten nicht auf. Sie machten weiter und weiter, bis der Geist gebrochen war. Bis sie auf Knien vor ihren Peinigern krochen und sich deren Willen unterwarfen.
 > 
 > "Ist es das, was mich letzten Endes erwartet..?
-> Saß Sorania vielleicht an der selben Stelle wo ich gerade sitze und haderte der Dinge die da kamen..?"
+> Saß [[Sorania]] vielleicht an der selben Stelle wo ich gerade sitze und haderte der Dinge die da kamen..?"
 > 
 > Sie war hier. Das sagte man ihr. Und sie lebte. Aber nichtmehr als die Person die sie kennengelernt hatte. Mit ihr zu sprechen, zu sehen was aus ihr geworden war.. Dazu würde sie schon noch Gelegenheit genug haben, sagten sie.
 > Und wieder drangen diese Schreie an ihr Ohr..

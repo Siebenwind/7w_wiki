@@ -70,7 +70,11 @@ Jeder Workflow MUSS bei Fund einer Inkongruenz folgenden Block im Bericht ergän
 **Aktion:** Was muss getan werden?
 ```
 
-## 7. Audit-Zyklen
+## 7. Audit-Abschluss & Statistiken
+- Führe den Workflow `/stats` aus, um die globalen Wiki-Werte (Ingestion-Rate, Lore-Dichte) zu aktualisieren.
+- Verlinke den Audit-Report in `Die_Chronik.md` oder relevanten Registern.
+
+## 8. Audit-Zyklen
 Führe diesen Workflow wöchentlich oder nach Abschluss eines großen Ingestion-Batches aus, um die Qualität des Wikis zu sichern.
 
 #audit #qualität #konsistenz

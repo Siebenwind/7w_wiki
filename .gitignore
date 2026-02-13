@@ -23,6 +23,13 @@ venv/
 # === Logs & Temp ===
 *.log
 Logs/Archive/
+site/
+missing_links.txt
+register_links.txt
+walkthrough.md
+
+# === Archives (Raw originals, not needed in deployed wiki) ===
+Quellen/_ARCHIV_ORIGINAL/
 
 # === Antigravity Agent Brain (conversation-specific) ===
 .gemini/

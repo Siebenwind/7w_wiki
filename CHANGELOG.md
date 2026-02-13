@@ -2,6 +2,23 @@
 
 Alles signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
 
+## [2026-02-13.3] - Wiki-Statistiken & Dokumentations-Audit
+### Hinzugefügt
+- `.agent/scripts/generate_wiki_stats.py`: Automatisiertes Statistik-Dashboard (Ingestion, Lore-Dichte, Epistemik, Link-Hubs, Temporal-Density).
+- `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md`: Visualisierte KPIs mit Mermaid-Charts.
+- `.agent/workflows/stats.md`: Neuer Workflow `/stats` zur Dashboard-Generierung.
+- `docs/`: Symlink-Verzeichnis für MkDocs-Kompatibilität (Symlinks zu Wiki, README, CHANGELOG, MASTER_TASK_LIST).
+
+### Geändert
+- **README.md (Komplett-Rewrite):** Alle 8 Skills, 14 Workflows und 8 Scripts vollständig dokumentiert.
+- **mkdocs.yml:** Mermaid-Support (custom_fences), fehlende Nav-Einträge (Erzählungen, Wiki Statistiken), `docs_dir`/`site_dir` korrekt gesetzt.
+- **Workflow-Integration:** `/stats` als Pflichtschritt in `/audit` (§7) und `/handover` (§6.3) integriert.
+- **.gitignore:** `site/` hinzugefügt.
+
+### Ergebnisse
+- **666 Artikel**, **349 Persönlichkeiten**, **~98k Wörter**, **72 Links/1k Wörter** (Vernetzungsgrad).
+- MkDocs-Build erfolgreich (3.99s, keine Errors).
+
 ## [2026-02-13.2] - Audit der Magieschulen (Kanon-Härtung)
 ### Hinzugefügt
 - **Kanonische Institutionen**: 

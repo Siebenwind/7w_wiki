@@ -46,6 +46,7 @@ In `.agent/skills/wiki_schmied/scripts/` liegen geschäftskritische Python-Skrip
 Vor dem Beenden deiner Session musst du:
 1.  Die **[MASTER_TASK_LIST.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/MASTER_TASK_LIST.md)** aktualisieren (Erledigte Aufgaben abhaken, neue hinzufügen).
 2.  Einen Eintrag im **[CHANGELOG.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/CHANGELOG.md)** erstellen, der deine technischen und inhaltlichen Highlights zusammenfasst.
+3.  **Wiki-Statistiken:** Führe den Workflow `/stats` aus, um das Dashboard zu aktualisieren.
 
 ### 7. Lessons Learnt für dich
 - **Hüte dich vor "file://"**: Kopiere niemals absolute Pfade aus deiner Umgebung in das Wiki. Nutze nur die Wiki-Syntax.

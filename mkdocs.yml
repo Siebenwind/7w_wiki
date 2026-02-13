@@ -1,6 +1,8 @@
 site_name: Siebenwind Wiki
 site_description: Das zentrale Wissensarchiv der Siebenwind-Welt.
 site_author: Oberarchivar
+docs_dir: docs
+site_dir: site
 
 theme:
   name: material
@@ -27,6 +29,7 @@ nav:
       - Gesellschaft: Siebenwind_Wiki/03_Gesellschaft/
       - Chronik: Siebenwind_Wiki/04_Chronik/
       - Geschichte: Siebenwind_Wiki/05_Geschichte/
+      - Erzählungen: Siebenwind_Wiki/06_Erzählungen/
       - Persönlichkeiten: Siebenwind_Wiki/07_Persoenlichkeiten/
       - Bestiarium: Siebenwind_Wiki/08_Bestiarium/
       - Bibliothek: Siebenwind_Wiki/09_Bibliothek/
@@ -34,10 +37,16 @@ nav:
   - Projekt:
       - Master Task List: MASTER_TASK_LIST.md
       - Changelog: CHANGELOG.md
+      - Wiki Statistiken: Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md
 
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
   - md_in_html
+  - tables

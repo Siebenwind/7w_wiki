@@ -39,9 +39,14 @@ Ihre Religion ist pragmatisch und fordert oft Opfer und Beweise der Stärke.
 *   **[[Rasse_Zwerge]]:** Erzfeindschaft. Die Kriege zwischen Orken und Zwergen (besonders um Bingen in den Bergen) sind legendär und von tiefem Hass geprägt.
 *   **[[Rasse_Elfen]]:** Verachtung. [[Rasse_Elfen]] gelten als feige "Baumkuschler", die keinen ehrenhaften Kampf kennen.
 
-## Besonderheiten
-*   **Sprache:** Das Orkisch ist eine kehlige, harte Sprache.
-*   **Ausrüstung:** Orken nutzen oft grobe, aber effektive Waffen und Rüstungen aus Leder, Knochen und erbeutetem Metall.
+## Technologie und Architektur
+Die Orken sind technologisch vergleichsweise rückständig. Ihre Siedlungen bestehen meist aus einfachen Hütten aus Holz, Buschwerk und Tierhäuten; Lehmbauten sind selten. 
+*   **Ausrüstung:** Die meisten Krieger tragen verstärkte Lederrüstungen. Nur höherrangige Orken verfügen über Eisenteile.
+*   **Bewaffnung:** Bevorzugt werden schwere Waffen wie Äxte, Streithämmer und mächtige Schwerter. Schilde werden als Zeichen von Feigheit (typisch für [[Galadon|Galadonier]]) abgelehnt. Fernwaffen (Bögen) werden primär für die Jagd genutzt.
+
+## Gesellschaftliche Struktur
+Die orkische Gesellschaft basiert auf einem disziplinierten Kastensystem, in dem Auf- und Abstieg durch Brutalität und rituelle Zweikämpfe (Turniere) geregelt werden. Auch die Position des Häuptlings wird so bestimmt.
+*   **Schamanen:** Sie bilden eine Ausnahme in der intellektuellen Struktur. Schamanen sind oft belesen, beherrschen das Schreiben und können komplexe Diskussionen führen. Ihre Magie ist fast ausschließlich auf den Angriff fixiert.
 
 ## Verlinkte Themen
 *   [[Region Ravel]]

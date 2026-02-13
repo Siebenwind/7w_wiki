@@ -3,7 +3,9 @@ layout: wiki_page
 title: Dorion Hali
 category: Persönlichkeiten
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 152.md
+quelle: 
+  - "../../Quellen/Zeitung 7w Bote/Siebenwind Bote 152.md"
+  - "../../Quellen/Spielergeschichten/Alles_ohne_Pointe.md"
 ---
 # Dorion Hali
 

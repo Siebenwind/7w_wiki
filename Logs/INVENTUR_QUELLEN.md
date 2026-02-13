@@ -302,10 +302,9 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 
 | Filename | Est. Topic | Status |
 |----------|------------|--------|
-| Abschied und Verrat | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
+| Abschied_und_Verrat.md | - | Integrated |
 | Abweisungen.md | - | Integrated |
-| Alles ohne Pointe | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
-| Aus dem Leben eines Schwarzmagiers | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
+| Aus_dem_Leben_eines_Schwarzmagiers.md | - | Integrated |
 | Aus dem Liebesleben eines Dichters | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
 | Blutschwert | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
 | Briefe aus der Ferne.md | - | Pending |
@@ -337,7 +336,7 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Logbuch des Kerkers.md | - | Pending |
 | Nachts im Brandensteiner Tempel.md | - | Pending |
 | Nebel in Brandenstein.md | - | Integrated |
-| Nichts und ohne Pointe | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
+| Alles_ohne_Pointe.md | - | Integrated |
 | Prüfung und Entsagung.md | - | Pending |
 | Pueppchens Flucht.md | - | Pending |
 | Ritus, Gebet und Erleuchtung.md | - | Pending |
