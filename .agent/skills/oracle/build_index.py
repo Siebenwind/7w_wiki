@@ -397,77 +397,80 @@ def build_collection(client, collection_name: str, source_key: str, model, batch
     print(f"\n  📂 Verarbeite {len(files_to_process)} von {len(files)} Dateien "
           f"({skipped} übersprungen, {len(deleted_sources)} gelöscht)...")
     
-    all_chunks = []
+    # =========================================================================
+    # PER-FILE PIPELINE: Chunk → Embed → Save (sofort persistent!)
+    # Jede fertig verarbeitete Datei ist sofort in der DB gesichert.
+    # Bei Ctrl+C geht nur die aktuelle Datei verloren.
+    # =========================================================================
     start_time = time.time()
+    total_new_chunks = 0
     
     for idx, file_info in enumerate(files_to_process, 1):
+        # 1. Chunk
         chunks = process_file(file_info)
+        
+        if not chunks:
+            _print_progress(idx, len(files_to_process), file_info, 0, start_time, "übersprungen")
+            continue
         
         # mtime in Metadaten einfügen
         for chunk in chunks:
             chunk["metadata"]["mtime"] = file_info["mtime"]
         
-        # Fortschrittsanzeige
-        elapsed = time.time() - start_time
-        if idx > 1:
-            avg_time = elapsed / (idx - 1)
-            remaining = avg_time * (len(files_to_process) - idx)
-            eta = f"~{remaining:.0f}s verbleibend"
-        else:
-            eta = "berechne..."
+        # 2. Embed (nur die Chunks dieser Datei)
+        texts = [c["text"] for c in chunks]
+        embeddings = model.encode(
+            texts,
+            task="retrieval.passage",
+            show_progress_bar=False,
+            batch_size=batch_size,
+        ).tolist()
         
-        bar_width = 30
-        progress = idx / len(files_to_process)
-        filled = int(bar_width * progress)
-        bar = "━" * filled + "╺" + "─" * (bar_width - filled - 1)
+        # 3. Save (sofort in ChromaDB)
+        collection.add(
+            ids=[c["id"] for c in chunks],
+            embeddings=embeddings,
+            documents=[c["text"] for c in chunks],
+            metadatas=[c["metadata"] for c in chunks],
+        )
         
-        chunk_info = f"({len(chunks)} Chunks)" if chunks else "(übersprungen)"
-        print(f"\r  [{idx}/{len(files_to_process)}] {file_info['path'].name[:40]:<40} {chunk_info:<16} "
-              f"{bar} {progress*100:5.1f}% | {elapsed:.0f}s | {eta}", end="", flush=True)
-        
-        all_chunks.extend(chunks)
+        total_new_chunks += len(chunks)
+        _print_progress(idx, len(files_to_process), file_info, len(chunks), start_time, "gespeichert")
     
     print()  # Neue Zeile nach Fortschrittsbalken
     
-    if not all_chunks:
-        print(f"  ❌ Keine Chunks generiert.")
-        return len(files), collection.count()
-    
-    # Embeddings generieren
-    print(f"\n  🧠 Generiere Embeddings für {len(all_chunks)} Chunks...")
-    embed_start = time.time()
-    
-    texts = [c["text"] for c in all_chunks]
-    
-    embeddings = model.encode(
-        texts,
-        task="retrieval.passage",
-        show_progress_bar=True,
-        batch_size=batch_size,
-    ).tolist()
-    
-    embed_time = time.time() - embed_start
-    print(f"  ✅ Embeddings in {embed_time:.1f}s generiert "
-          f"({len(all_chunks) / embed_time:.1f} Chunks/Sek)")
-    
-    # In ChromaDB speichern (Batches von 200)
-    print(f"  💾 Speichere in ChromaDB...")
-    db_batch = 200
-    for i in range(0, len(all_chunks), db_batch):
-        batch_end = min(i + db_batch, len(all_chunks))
-        collection.add(
-            ids=[c["id"] for c in all_chunks[i:batch_end]],
-            embeddings=embeddings[i:batch_end],
-            documents=[c["text"] for c in all_chunks[i:batch_end]],
-            metadatas=[c["metadata"] for c in all_chunks[i:batch_end]],
-        )
-    
     total_time = time.time() - start_time
     final_count = collection.count()
-    print(f"  ✅ Collection '{collection_name}': {final_count} Chunks total "
-          f"(+{len(all_chunks)} neu) in {total_time:.1f}s")
+    
+    if total_new_chunks > 0:
+        speed = total_new_chunks / total_time if total_time > 0 else 0
+        print(f"  ✅ Collection '{collection_name}': {final_count} Chunks total "
+              f"(+{total_new_chunks} neu, {speed:.1f} Chunks/s) in {total_time:.1f}s")
+    else:
+        print(f"  ✅ '{collection_name}': Keine neuen Chunks.")
     
     return len(files), final_count
+
+
+def _print_progress(idx: int, total: int, file_info: dict, n_chunks: int, 
+                    start_time: float, status: str):
+    """Zeigt den Fortschrittsbalken an."""
+    elapsed = time.time() - start_time
+    if idx > 1 and elapsed > 0:
+        avg_time = elapsed / (idx - 1)
+        remaining = avg_time * (total - idx)
+        eta = f"~{remaining:.0f}s"
+    else:
+        eta = "..."
+    
+    bar_width = 30
+    progress = idx / total
+    filled = int(bar_width * progress)
+    bar = "━" * filled + "╺" + "─" * (bar_width - filled - 1)
+    
+    chunk_info = f"({n_chunks} {status})" if n_chunks else f"({status})"
+    print(f"\r  [{idx}/{total}] {file_info['path'].name[:35]:<35} {chunk_info:<20} "
+          f"{bar} {progress*100:5.1f}% | {elapsed:.0f}s | ETA {eta}", end="", flush=True)
 
 
 # =============================================================================
