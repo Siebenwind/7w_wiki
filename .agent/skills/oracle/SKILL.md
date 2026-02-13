@@ -54,11 +54,30 @@ Der Skill wird über das Terminal aufgerufen.
 .agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Tiamat" --top 10
 ```
 
-## Index neu aufbauen
+## 3. Indexierung & Wartung
+Der Index wird **inkrementell** gebaut. Das System erkennt Änderungen (via Content-Hash) und Renames automatisch.
 
+**Standard (Update):**
 ```bash
-# Nach neuen Quellen oder Wiki-Änderungen
 .agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/build_index.py
+```
+
+**Erweiterte Optionen:**
+```bash
+# Status prüfen (ohne Änderungen)
+.../build_index.py --status
+
+# Vollständiger Neuaufbau (Reset)
+.../build_index.py --rebuild
+
+# CPU-Modus erzwingen (falls MPS instabil)
+.../build_index.py --cpu
+```
+
+**Hardware-Optimierung:**
+```bash
+# Misst Geschwindigkeit und ermittelt optimale Batch-Size
+.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/benchmark_hardware.py
 ```
 
 ## Agent-Integration (Historiker-Workflow)

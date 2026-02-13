@@ -31,24 +31,43 @@ Kernkomponenten:
 *   **`/Quellen/`**: Das Rohmaterial (Alte Website-Dumps, Zeitungsartikel, Geschichten).
 *   **`/Siebenwind_Wiki/`**: Das Output-Verzeichnis (Das fertige Produkt).
 
-## 2. Das Orakel (RAG System)
+## 2. Das Orakel (RAG System & Befehlsreferenz)
 
 Das Herzstück der Recherche ist die semantische Suche. Sie versteht Zusammenhänge, nicht nur Keywords.
 
 - **Technologie:** `jina-embeddings-v3` (8k Context) + `ChromaDB` + `BGE Re-Ranker`.
 - **Hardware:** Optimiert für Apple Silicon (MPS) mit Auto-Tuning.
 
-**Nutzung (CLI):**
-```bash
-# Einfache Frage (Sucht im Wiki)
-.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Was weißt du über die Gilde der Diebe?"
+### 📚 Befehlsreferenz (Command Cheat Sheet)
 
-# Tiefenbohrung (Sucht in Roh-Quellen)
-.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py "Auktion Turek" --source quellen
-```
+Alle Befehle werden aus dem **Root-Verzeichnis** ausgeführt.
 
-**Setup:**
-Führe einmalig `bash .agent/skills/oracle/setup.sh` aus, um die Umgebung zu installieren.
+#### A. Suche (Wissen abfragen)
+| Befehl | Funktion |
+|--------|----------|
+| `.../search.py "Frage"` | **Standard:** Sucht präzise im **Wiki** (Level 1). |
+| `.../search.py "..." --source quellen` | **Tiefensuche:** Sucht in den **Rohdaten/Quellen** (Level 2). |
+| `.../search.py "..." --source all` | **Alles:** Sucht in Wiki UND Quellen. |
+
+*(Pfad-Abkürzung: `.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py ...`)*
+
+#### B. Indexierung (Wissen aufbauen)
+Der Index wird **inkrementell** gebaut. Das System erkennt Änderungen (via Content-Hash) und Renames automatisch.
+
+| Befehl | Funktion |
+|--------|----------|
+| `.../build_index.py` | **Standard:** Aktualisiert den Index (nur Neues/Geändertes). |
+| `.../build_index.py --status` | **Check:** Zeigt Anzahl der Chunks im Index (ohne Änderungen). |
+| `.../build_index.py --rebuild` | **Reset:** Löscht alles und baut den Index komplett neu auf. |
+| `.../build_index.py --cpu` | **Safe Mode:** Erzwingt CPU-Nutzung (falls MPS instabil ist). |
+
+*(Pfad-Abkürzung: `.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/build_index.py ...`)*
+
+#### C. System-Wartung
+| Befehl | Funktion |
+|--------|----------|
+| `.../benchmark_hardware.py` | **Tuning:** Misst Hardware-Speed und setzt optimale Batch-Size. |
+| `bash .agent/skills/oracle/setup.sh` | **Install:** Richtet die Umgebung initial ein. |
 
 ## 3. Skills (Modulare Fähigkeiten)
 
