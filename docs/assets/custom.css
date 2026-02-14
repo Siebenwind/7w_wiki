@@ -1,96 +1,28 @@
-/* Siebenwind Wiki 2.1 - Light Sanguine Sketchbook (Minimalist) */
+/* Custom Styling for Siebenwind Wiki 2.0 */
 
-:root {
-    --md-primary-fg-color: #b26e63;
-    /* Faded Sanguine */
-    --md-primary-fg-color--light: #d19a92;
-    --md-accent-fg-color: #6e5a4e;
-    /* Light Sepia */
-    --md-default-fg-color: #4a3728;
-    --md-default-bg-color: #ffffff;
-}
-
-/* Typography */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400&family=Playfair+Display:ital,wght@1,400&family=Inter:wght@300;400&display=swap');
-
-h1,
-h2,
-h3 {
-    font-family: 'Cinzel', serif !important;
-    color: #b26e63 !important;
-    font-weight: 300;
-    letter-spacing: 0.2em;
-    border-bottom: 0.5px solid rgba(178, 110, 99, 0.2);
-    padding-bottom: 1rem;
-    margin-top: 3rem !important;
-}
-
-body,
-.md-typeset {
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    line-height: 2;
-    color: #6e5a4e;
-}
-
-/* Airy Layout */
-.md-content {
-    background: white !important;
-    border-radius: 2px;
-    padding: 4rem !important;
-    box-shadow: none !important;
-    border: none !important;
-}
-
-.md-main__inner {
-    max-width: 1000px;
-}
-
-/* Navigation - Thin & Light */
-.md-nav__link {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-weight: 400;
-    color: #6e5a4e !important;
-    transition: all 0.4s;
-}
-
-.md-nav__link:hover,
-.md-nav__link--active {
-    color: #b26e63 !important;
-    padding-left: 0.5rem;
-}
-
-/* Banner Styling - Subtle */
-.wiki-banner {
+/* Enforce 3:1 Aspect Ratio for the Hero Banner and prevent stretching */
+[data-md-component="content"] img[alt="Siebenwind Lore Engine Banner"] {
     width: 100%;
-    opacity: 0.8;
-    filter: grayscale(20%);
-    margin-bottom: 3rem;
-    border-bottom: 0.5px solid rgba(178, 110, 99, 0.1);
+    height: 250px; /* Enforced height for the banner strip */
+    object-fit: cover; /* Crops the center part of the 1:1 image */
+    object-position: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 2rem;
+    border: 1px solid rgba(255, 138, 101, 0.2); /* Subtle Rötel-colored border */
 }
 
-/* Tool Overrides */
+/* Minimalist Header Adjustments */
 .md-header {
-    background-color: white !important;
-    border-bottom: 0.5px solid rgba(178, 110, 99, 0.2);
-    color: #b26e63 !important;
+    background-color: #1e1e1e !important;
+    border-bottom: 2px solid #ff8a65;
 }
 
-.md-header__topic {
+/* Typography Polish (Renaissance feel) */
+h1, h2, h3 {
     font-family: 'Cinzel', serif;
-    letter-spacing: 0.1em;
 }
 
-/* Tables */
-.md-typeset table:not([class]) {
-    border: 0.5px solid rgba(110, 90, 78, 0.2);
-    border-radius: 0;
-}
-
-.md-typeset table:not([class]) th {
-    background-color: transparent;
-    color: #b26e63;
-    font-weight: 400;
-    border-bottom: 1px solid rgba(178, 110, 99, 0.2);
+body {
+    font-family: 'Inter', sans-serif;
 }
