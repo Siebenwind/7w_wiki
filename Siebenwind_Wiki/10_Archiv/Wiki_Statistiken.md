@@ -1,45 +1,46 @@
 ---
 layout: wiki_page
-title: Wiki Statistiken
+title: Wiki Statistiken 2.0
 category: Index
 ---
 
-# Wiki Statistiken
+# 📊 Wiki Statistiken 2.0
 
-**Letztes Update:** 2026-02-14 22:23:03
-
-## 📊 High-Level KPIs
-
-| Metrik | Wert |
-| :--- | :--- |
-| **Gesamtanzahl Artikel** | 1047 |
-| **Bekannte Persönlichkeiten** | 563 |
-| **Gesamtwortzahl** | 169,323 |
-| **Vernetzungsgrad (Links/1k Worte)** | 51.07 |
+**Letztes Update:** 2026-02-14 23:15:54
+*Das pulsierende Herz der Siebenwind Lore Engine.*
 
 ---
 
-## 📥 Ingestions-Status (Quellen)
+## 🏛️ High-Level KPIs
+
+| Metrik | Wert | Status |
+| :--- | :--- | :--- |
+| **Gesamtanzahl Artikel** | 1047 | 📈 |
+| **Persönlichkeiten** | 563 | 🎭 |
+| **Organisationen** | 56 | 🛡️ |
+| **Geografische Orte** | 55 | 🗺️ |
+| **Bestiarium (Wesen)** | 32 | 🐉 |
+| **Gesamtwortzahl** | 169,323 | ✍️ |
+| **Vernetzungsgrad** | 51.07 Links/1k | 🔗 |
+| **Quellen-Fidelity** | 44.2% | 📜 |
+
+---
+
+## 📥 Ingestions-Status (Lore Machine)
 
 ```mermaid
-pie title Quellen Integrations-Status
-    "Integriert" : 0
-    "Ausstehend" : 0
+pie title Fortschritt der Rekonstruktion
+    "Integriert" : 201
+    "Ausstehend" : 41
 ```
 
 ---
 
-## 📂 Verteilung nach Kategorien
+## 📂 Wissensverteilung (Kategorien)
 
 ```mermaid
 bar-chart
     title Artikel pro Kategorie
-    x-axis [ "Root", "07_Persoenlichkeiten", "05_Magie", "08_Bestiarium", "03_Wissen", "03_Gesellschaft", "05_Geschichte", "10_Archiv", "02_Geografie", "01_Pantheon", "04_Chronik", "06_Erzählungen", "06_Geschichte", "06_Myten_und_Legenden", "09_Bibliothek", "00_Fundament" ]
-    y-axis Artikel [ 1, 563, 38, 32, 50, 56, 56, 5, 55, 49, 80, 9, 1, 1, 28, 23 ]
-```
-
----
-
 ## ⚖️ Epistemische Sicherheit
 
 ```mermaid

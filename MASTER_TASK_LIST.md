@@ -77,6 +77,9 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Judicial Logging**: `Logs/JUDICIARY_LOG.md` für Level-3 Entscheidungen implementiert.
 
 ### Phase 13: Politische Krisen (Feb 2026)
+- [x] **Agenten-Personas**: Dedizierte Instruktions-Dateien für Ingestor, Wächter, Historiker und Koordinator aktiv.
+- [x] **Coordination Hub**: Zentrales Grundbuch (`COORDINATION_HUB.md`) für Dokumenten-Registrierung und Board-Metadaten aktiv.
+- [x] **Silicon Inquisition**: AI-internes Parallel-Archiv für kritische Hinterfragung und Lore-Hypothesen initialisiert.
 - **Boten 181-185**: Rekonstruktion des Putsches in Falkensee und der Führungskrise des Löwenordens.
 - **Historiker-Audit**: Fall Benedict Rabenfels (Analyse der Korruption).
 - **Register-Cleanup**: 25 Orphans saniert, 9 echte Personen-Duplikate gelöscht.

@@ -1,6 +1,15 @@
-Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
+## [2026-02-14.16] - Phase 19: GitHub Pages Overhaul & Link Repair
+### Hinzugefügt
+- **Wiki-Plugins**: Aktivierung von `mkdocs-roamlinks-plugin` zur Unterstützung von `[[WikiLinks]]`.
+- **Visuals**: Vollständiges Redesign der Homepage (`index.md`) im "Lore Engine" Stil.
+- **Navigation**: Strukturierte `mkdocs.yml` mit Direktzugriff auf Register und Chronik.
+- **GitHub Actions**: Automatisierte Installation der notwendigen Plugins im Deployment-Workflow.
 
-## [2026-02-14.14] - Phase 1: Netz-Wächter & Visual Identity
+### Geändert
+- **Link-System**: Konvertierung aller statischen Pfade in `index.md` auf relative Formate.
+- **Aestetik**: Umstellung der Farbpalette auf "Slate & Gold" (Renaissance-Tech Look).
+- **Cleanup**: Entfernung der Art-Director-Sektion von der Homepage (Fokus auf Lore & Tech).
+
 ### Hinzugefügt
 - **Visual Identity**: Premium-Banner ("Anatomia Magica Mundi"), Logo und Favicon im Renaissance-Stil implementiert.
 - **System**: CLI zu `7w_wiki.py` vereinheitlicht; `Art Director` Skill für Stil-Konsistenz installiert.

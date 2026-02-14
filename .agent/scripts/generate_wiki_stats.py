@@ -12,7 +12,8 @@ WIKI_DIR = PROJECT_ROOT / "Siebenwind_Wiki"
 QUELLEN_DIR = PROJECT_ROOT / "Quellen"
 LOGS_DIR = PROJECT_ROOT / "Logs"
 OUTPUT_FILE = WIKI_DIR / "10_Archiv" / "Wiki_Statistiken.md"
-INVENTUR_FILE = LOGS_DIR / "INVENTUR_QUELLEN.md"
+INVENTUR_FILE = LOGS_DIR / "Archive" / "INVENTUR_QUELLEN.md"
+ORGANISATIONS_REGISTER = WIKI_DIR / "00_Fundament" / "Organisationsregister.md"
 
 def has_frontmatter(content):
     return content.startswith('---') and '---' in content[3:]
@@ -28,7 +29,13 @@ def collect_stats():
         "ingestion": {"Integrated": 0, "Pending": 0, "Done": 0},
         "temporal": Counter(),
         "personalities_count": 0,
-        "link_hubs": Counter()
+        "organisations_count": 0,
+        "places_count": 0,
+        "bestiary_count": 0,
+        "files_per_category": Counter(),
+        "words_per_category": Counter(),
+        "link_hubs": Counter(),
+        "source_fidelity": Counter()
     }
 
     # 1. Ingestion Stats from INVENTUR_QUELLEN.md
@@ -49,10 +56,16 @@ def collect_stats():
         # Category (folder based or FM)
         rel_path = md_file.relative_to(WIKI_DIR)
         category = rel_path.parts[0] if len(rel_path.parts) > 1 else "Root"
-        stats["categories"][category] = stats["categories"].get(category, 0) + 1
+        stats["files_per_category"][category] += 1
         
         if "07_Persoenlichkeiten" in str(md_file):
             stats["personalities_count"] += 1
+        elif "02_Geografie" in str(md_file):
+            stats["places_count"] += 1
+        elif "08_Bestiarium" in str(md_file):
+            stats["bestiary_count"] += 1
+        elif "03_Gesellschaft" in str(md_file):
+             stats["organisations_count"] += 1
 
         # Frontmatter check
         if has_frontmatter(content):
@@ -71,13 +84,19 @@ def collect_stats():
         # Word Count & Links
         words = len(re.findall(r'\w+', content))
         stats["total_word_count"] += words
+        stats["words_per_category"][category] += words
         
         links = re.findall(r'\[\[([^\]]+)\]\]', content)
         stats["total_links"] += len(links)
         for link in links:
-            # Normalize link (remove section, alias)
             target = link.split('|')[0].split('#')[0].strip()
             stats["link_hubs"][target] += 1
+            
+        # Source Fidelity (quelle: in frontmatter)
+        if re.search(r'^quelle:', content, re.MULTILINE):
+            stats["source_fidelity"]["with_source"] += 1
+        else:
+            stats["source_fidelity"]["no_source"] += 1
 
     # 3. Git Activity (recent changes)
     stats["activity"] = collect_git_activity()
@@ -150,58 +169,65 @@ def collect_git_activity():
     return activity
 
 def generate_markdown(stats):
-    # Calculate density
+    # Calculate density & Fidelity
     density = stats["total_links"] / (stats["total_word_count"] / 1000) if stats["total_word_count"] > 0 else 0
+    with_src = stats["source_fidelity"].get("with_source", 0)
+    no_src = stats["source_fidelity"].get("no_source", 0)
+    fidelity_score = (with_src / stats["total_files"] * 100) if stats["total_files"] > 0 else 0
+    
+    # Sort categories by file count
+    sorted_cats = sorted(stats["files_per_category"].items(), key=lambda x: x[1], reverse=True)
+    
+    # Temporal stats
+    sorted_years = sorted(stats["temporal"].items(), key=lambda x: int(x[0]) if x[0].isdigit() else 999)
+    top_years = sorted_years[-15:]
     
     # Top Hubs
     top_hubs = stats["link_hubs"].most_common(10)
     
-    # Sort temporal stats
-    sorted_years = sorted(stats["temporal"].items(), key=lambda x: int(x[0]) if x[0].isdigit() else 999)
-    top_years = sorted_years[-15:] # Last 15 mentioned years
-
     md = f"""---
 layout: wiki_page
-title: Wiki Statistiken
+title: Wiki Statistiken 2.0
 category: Index
 ---
 
-# Wiki Statistiken
+# 📊 Wiki Statistiken 2.0
 
 **Letztes Update:** {stats["timestamp"]}
-
-## 📊 High-Level KPIs
-
-| Metrik | Wert |
-| :--- | :--- |
-| **Gesamtanzahl Artikel** | {stats["total_files"]} |
-| **Bekannte Persönlichkeiten** | {stats["personalities_count"]} |
-| **Gesamtwortzahl** | {stats["total_word_count"]:,} |
-| **Vernetzungsgrad (Links/1k Worte)** | {density:.2f} |
+*Das pulsierende Herz der Siebenwind Lore Engine.*
 
 ---
 
-## 📥 Ingestions-Status (Quellen)
+## 🏛️ High-Level KPIs
+
+| Metrik | Wert | Status |
+| :--- | :--- | :--- |
+| **Gesamtanzahl Artikel** | {stats["total_files"]} | 📈 |
+| **Persönlichkeiten** | {stats["personalities_count"]} | 🎭 |
+| **Organisationen** | {stats["organisations_count"]} | 🛡️ |
+| **Geografische Orte** | {stats["places_count"]} | 🗺️ |
+| **Bestiarium (Wesen)** | {stats["bestiary_count"]} | 🐉 |
+| **Gesamtwortzahl** | {stats["total_word_count"]:,} | ✍️ |
+| **Vernetzungsgrad** | {density:.2f} Links/1k | 🔗 |
+| **Quellen-Fidelity** | {fidelity_score:.1f}% | 📜 |
+
+---
+
+## 📥 Ingestions-Status (Lore Machine)
 
 ```mermaid
-pie title Quellen Integrations-Status
+pie title Fortschritt der Rekonstruktion
     "Integriert" : {stats["ingestion"]["Integrated"] + stats["ingestion"]["Done"]}
     "Ausstehend" : {stats["ingestion"]["Pending"]}
 ```
 
 ---
 
-## 📂 Verteilung nach Kategorien
+## 📂 Wissensverteilung (Kategorien)
 
 ```mermaid
 bar-chart
     title Artikel pro Kategorie
-    x-axis [ {", ".join([f'"{k}"' for k in stats["categories"].keys()])} ]
-    y-axis Artikel [ {", ".join([str(v) for v in stats["categories"].values()])} ]
-```
-
----
-
 ## ⚖️ Epistemische Sicherheit
 
 ```mermaid
