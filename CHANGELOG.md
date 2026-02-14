@@ -1,5 +1,14 @@
 Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
 
+## [2026-02-14.9] - Documentation & Maintenance: Path D (Der Chronist)
+### Hinzugefügt
+- **Wiki-Statistiken**: Neues Statistik-Dashboard generiert (984 Artikel, 521 Persönlichkeiten). Dokumentiert unter `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md`.
+- **Projekt-Wartung**: Überprüfung der zentralen Dokumentation (`README.md`, `WORKFLOW_LORE_CONSISTENCY.md`, `SYNAPSEN_SYSTEM_SPEC.md`).
+- **Onboarding-Status**: Fortschreibung des `/start` Prozesses und Festlegung der nächsten Prioritäten.
+
+### Geändert
+- **Wiki-Integrität**: Validierung der Pfade für Lore-Engineering-Dokumente im `.agent/docs/` Verzeichnis.
+
 ## [2026-02-14.7] - Phase 17: Infrastructure & Intelligence
 ### Hinzugefügt
 - **Finsterwangen / Tiefenbach Korrektur**:

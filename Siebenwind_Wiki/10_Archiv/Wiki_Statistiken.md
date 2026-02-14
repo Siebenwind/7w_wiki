@@ -6,7 +6,7 @@ category: Index
 
 # Wiki Statistiken
 
-**Letztes Update:** 2026-02-14 16:30:03
+**Letztes Update:** 2026-02-14 17:01:09
 
 ## 📊 High-Level KPIs
 
@@ -23,8 +23,8 @@ category: Index
 
 ```mermaid
 pie title Quellen Integrations-Status
-    "Integriert" : 173
-    "Ausstehend" : 69
+    "Integriert" : 193
+    "Ausstehend" : 49
 ```
 
 ---
@@ -105,29 +105,29 @@ Die am häufigsten verlinkten Artikel im Wiki.
 
 | Zeitraum | Neue Artikel | Geänderte Artikel |
 | :--- | :--- | :--- |
-| **Letzte 24h** | 265 | 154 |
-| **Letzte 7 Tage** | 908 | 249 |
-| **Letzte 30 Tage** | 908 | 249 |
+| **Letzte 24h** | 326 | 157 |
+| **Letzte 7 Tage** | 969 | 252 |
+| **Letzte 30 Tage** | 969 | 252 |
 
 ### Letzte Änderungen
 
 | Datum | Aktion | Artikel | Kategorie |
 | :--- | :--- | :--- | :--- |
-| 2026-02-14 | Geändert | Brevier Ordo Morsanes | 01_Pantheon |
-| 2026-02-14 | Geändert | Brevier Ordo Vitamae | 01_Pantheon |
-| 2026-02-14 | Geändert | Elementum Commentari | 01_Pantheon |
-| 2026-02-14 | Geändert | Recht Siebenwinds | 03_Gesellschaft |
-| 2026-02-14 | Geändert | Aarion | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Aelwin | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Anais | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Arnhorte | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Barath Or | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Baron Gerdenwald | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Donarius Derrvus | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Eire | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Elgar von Utracht | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Erik | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Etril Gamajeff | 07_Persoenlichkeiten |
+| 2026-02-14 | Geändert | Personenregister | 00_Fundament |
+| 2026-02-14 | Geändert | Astrael | 01_Pantheon |
+| 2026-02-14 | Geändert | Die Gohor | 01_Pantheon |
+| 2026-02-14 | Geändert | Die Legende von Galahad Ritter der Rosen | 01_Pantheon |
+| 2026-02-14 | Neu | Finsterwangen | 02_Geografie |
+| 2026-02-14 | Neu | Tiefenbach | 02_Geografie |
+| 2026-02-14 | Neu | Magietheorie nach Dunvallo Linari | 03_Wissen |
+| 2026-02-14 | Neu | Toran Dur | 03_Wissen |
+| 2026-02-14 | Neu | Iuribus Siebenwind | 03_Wissen |
+| 2026-02-14 | Neu | Sprache Run | 03_Wissen |
+| 2026-02-14 | Neu | Sprache Yerredoni | 03_Wissen |
+| 2026-02-14 | Neu | Arcana Procella (Unbekannt) | 03_Wissen |
+| 2026-02-14 | Neu | Ariin (Rhadan der Graue) | 03_Wissen |
+| 2026-02-14 | Neu | Arkane Kriegsfuehrung Band I (Erynnion Comari) | 03_Wissen |
+| 2026-02-14 | Neu | Arkane Verbindung hoeherer Wesenheiten (Johann Liebig) | 03_Wissen |
 
 ---
 > [!NOTE]

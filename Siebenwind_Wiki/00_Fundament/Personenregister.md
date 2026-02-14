@@ -207,7 +207,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Vincent_Ebenstein]] | Ritter / Geweihter | [Kanon] / [Bote 165] | amtierend | #canon |
 | [[Waldemar_Delarie]] | Edelherr / ehem. Gardehauptmann | [Bote 176/180/183] | amtierend (bis 28 n.H.) | #canon |
 | [[Wolf_Baelborn]] | Stadtwache | [Bote 158] | amtierend | #bote |
-| [[Wolfgang_Ravinsthal]] | Adeptus / Autor | [Sphärenkunde] | Historisch | #überlieferung |
 | [[Woran_Lebensmüh]] | Stellv. Kastellan / Einsiedler | [Bote 130] | ~15-16 n.H. | #bote |
 | [[Zacharias_Cana]] | Knappe | [Bote 139] | 16 n.H. | #bote |
 | [[al_Wechnett]] | Beamter / Buchhändler | [Bote 143] | ~15 n.H. | #bote |
@@ -321,7 +320,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Alricio_Romero_di_Madjani]] | Redaktionsleitung ([[03_Gesellschaft#Siebenwind_Bote|Siebenwind Bote]]) | [Bote 182] | 21 n.H. | #bote |
 | [[Cedric_Rotfuchs]] | Ritter ([[03_Gesellschaft#Löwenorden|Löwenorden]]) | [Bote 182] | 21 n.H. | #bote |
 | [[Erik_Pedran]] | Ritter ([[Löwenorden]]) | [Bote 182] | 21 n.H. | #bote |
-| [[Rhadan_der_Graue]] | Erzmagier / Autor / Ko-Autor (Großere Kraftströme) | [Rituallehre_Sphaeren] | Historisch | #überlieferung |
+| [[Rhadan_der_Graue]] | Erzmagier / Autor / Ko-Autor (Großere Kraftströme) | [Rituallehre_Sphaeren] / [Die Ritualisierung] | Historisch | #überlieferung |
 
 | [[Steinhauer]] | Stellv. Gardehauptmann ([[Ersonter_Garde]]) | [Bote 183] | 21 n.H. | #bote |
 | [[Gorem_Motlow]] | Waibel ([[Bürgerwehr]]) / Ex-Gardist | [Bote 183] | 21 n.H. | #bote |
@@ -436,8 +435,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Sanduros]] | Hochwürden | [Bote 153] | 17 n.H. | #bote |
 | [[Mantaris]] | Hochwürden / Geweihter | [Bote 153/162] | 17-18 n.H. | #bote |
 | [[Sanduros_Mantaris]] | Novize d. Astrael | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
-| [[Rianna]] | Magierin (Teilnehmerin Hellsichtritual) | [[Forschungsberichte (Toran Dur)]] | 33 n.H. | #überlieferung |
-| [[Rianna]] | Magierin (Teilnahme Hellsichtritual Wall) | [[Forschungsberichte (Toran Dur)]] | 33 n.H. | #überlieferung |
+| [[Rianna]] | Magierin (Teilnahme Hellsichtritual Wall/Wache) | [[Forschungsberichte (Toran Dur)]] | 33 n.H. | #überlieferung |
 | [[Utrich_Rothnang]] | Magier | [Bote 154] | 18 n.H. | #bote |
 
 | [[Garreth_Moss]] | Hofmagier (?) / Adeptus Arkanis | [Bote 154] / [Kompendium der Völker] | 18 n.H. | #bote |
@@ -607,7 +605,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Nuir_Ekre]] | Akoluth (Graue Garde) | [Kunst der Diener] | Historisch | #überlieferung |
 | [[Nirluk]] | Dämonentöter ([[Dwarschim]]) | [Die Zwergen-WG] | - | #perspektive |
 | [[Raisha_al_Javet]] | Magierin (Elementar) | [Invocatio Elementharii] | Historisch | #überlieferung |
-| [[Rhadan_der_Graue]] | Magier (Tiefenbach) | [Die Ritualisierung] | Historisch | #überlieferung |
 | [[Rose_von_Sonnentau]] | Bardin / Dichterin | [Der letzte Falke] | Historisch | #überlieferung |
 | [[Sylest_le_Felyhn]] | Adepta Arkana (Rechts) | [Vjera Batama Magica] | Historisch | #überlieferung |
 | [[Tjure_Odal]] | Ketzer / Magier (?) | [Bote 186] | 22 n.H. | #bote |
@@ -615,4 +612,4 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Terenon_Sarophilan]] | Magier (Elfenfreund) | [Theorien der Magie] | Historisch | #überlieferung |
 | [[Themus_Takai]] | Magier (Baumwesen) | [Theorem zu den Baumwesen] | Historisch | #überlieferung |
 | [[Uron_Sbocaj]] | Magier / Theoretiker | [Thesen der Magiezweige] | Historisch | #überlieferung |
-| [[Wolfgang_Ravinsthal]] | Adeptus Arkanis | [Sphärenkunde] | Historisch | #überlieferung |
+| [[Wolfgang_Ravinsthal]] | Adeptus / Adeptus Arkanis / Autor | [Sphärenkunde] | Historisch | #überlieferung |

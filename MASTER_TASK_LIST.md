@@ -4,7 +4,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.1 (Epistemik implementiert)
-- **Ingestion-Fortschritt:** ~85% (Spielergeschichten Re-Scan läuft)
+- **Artikel-Anzahl:** 984 (inkl. 521 Persönlichkeiten)
+- **Ingestion-Fortschritt:** ~80% (193 integriert, 49 ausstehend)
 - **RAG-Status (Orakel):** Aktiv & MPS-optimiert (Hardware-Auto-Tuning aktiv)
 
 ---
@@ -19,9 +20,10 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 - [x] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`). Batch 25 (Toran Dur Library) abgeschlossen. Nächster Schritt: Batch 26.
 - [x] **Batch 25c**: Integration der Toran Dur Magie-Bibliothek (Toran Dur Reports).
-- [ ] **Vernetzung (Weaving)**: Überprüfung der bi-direktionalen Verlinkung.
+- [x] **Vernetzung (Weaving)**: Überprüfung der bi-direktionalen Verlinkung und Reparatur toter Links.
 - [x] **Lore Research Board**: Initialisierung des Boards mit 3 aktiven Ausschreibungen.
-- [ ] **Narrative Enrichment**: Ausbau von Stubs zu profunden Artikeln ("Roman-Qualität"). Fokus auf Motivation, Atmosphäre und Zitate.
+- [x] **Consistency Blitz Feb 2026**: Behebung von 28 Register-Inkonsistenzen (0 Fehler Status erreicht).
+- [/] **Narrative Enrichment**: Ausbau von Stubs zu profunden Artikeln ("Roman-Qualität"). Fokus auf Motivation, Atmosphäre und Zitate.
 
 ## 🔬 Aktuelle Lore-Ausschreibungen (Research Board)
 *Detaillierte Aufträge siehe [[LORE_RESEARCH_BOARD.md]]*
@@ -44,11 +46,12 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ---
 
-### Phase 17: Advanced Intelligence Infrastructure (Feb 2026)
+### Phase 17: Advanced Intelligence Infrastructure & Consistency Blitz (Feb 2026)
 - **Orakel-Resilience**: Behebung von Permission-Issues durch Cache-Redirection und Optimierung der Boot-Sequenz.
 - **Historiker-Workflow**: Einführung des `/historian` Workflows zur Rekonstruktion komplexer Kausalitäten.
-- **Lore Audit & Peer Review**: Implementierung eines formalen Audit-Protokolls mit Eskalationsmatrix für hohe Unsicherheit oder Komplexität.
-- **CLI Erweiterung**: `./7w.py historian` und pass-through Flags für tiefe Suchen.
+- **Lore Audit & Peer Review**: Implementierung eines formalen Audit-Protokolls mit Eskalationsmatrix.
+- **Consistency Blitz**: Vollständige Bereinigung des Personenregisters (Deduplizierung & Erstellung von 25 Stubs). Wiki-Status: 100% konsistent.
+- **Chronicler Duties**: Automatisierte Statistik-Generierung und Dokumentations-Audit.
 - **Onboarding Workflow**: Einführung von `/start` (`./7w.py start`) als zentraler Einstiegspunkt für neue Agenten.
 
 ### Phase 16: Magie & Kosmologie (Feb 2026)
