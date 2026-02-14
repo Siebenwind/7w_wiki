@@ -87,10 +87,10 @@ Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgeha
 - **Synapse Board**:
     - Ticket `Conflict_2026-003_Ionas_Narrative` geschlossen (RESOLVED).
     - Ticket `Conflict_TEST_001_Falkensee_Timeline` geschlossen (RESOLVED durch Finsterwangen-Lore).
-- **Onboarding Workflow**: Neuentwickelter `/start` Prozess (`./7w.py start`) für eine strukturierte Agenten-Übernahme.
+- **Onboarding Workflow**: Neuentwickelter `/start` Prozess (`./7w_wiki.py start`) für eine strukturierte Agenten-Übernahme.
 - **Historiker-Workflow**: `/historian` Workflow zur tiefen Analyse von Kausalitäten und Lore-Rekonstruktion.
 - **Lore Audit**: Protokoll und Template für Lore-Peer-Reviews und Eskalationen bei Unsicherheit.
-- **CLI Erweiterung**: Unified CLI (`7w.py`) unterstützt nun `start`, `historian` mit Query-Support und flexiblen Oracle-Parametern (`--cpu`, `--no-re-rank`).
+- **CLI Erweiterung**: Unified CLI (`7w_wiki.py`) unterstützt nun `start`, `historian` mit Query-Support und flexiblen Oracle-Parametern (`--cpu`, `--no-re-rank`).
 
 ### Geändert
 - **Orakel-Redirection**: Aggressive Umleitung aller HuggingFace- und Transformers-Caches in das Projektverzeichnis (`.agent/data/models`) zur Umgehung von Sandbox-Restriktionen.
@@ -138,7 +138,7 @@ Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgeha
 - **Eskalationsstufen**: Definition von 3 Leveln (Standard, Kontrolliert, Judiziell) zur Balance zwischen Effizienz und Sicherheit.
 
 ### Geändert
-- **7w CLI (`7w.py`)**: Advisor-Modus ist nun der Default-Befehl (Situationsbewusstsein bei Start).
+- **7w CLI (`7w_wiki.py`)**: Advisor-Modus ist nun der Default-Befehl (Situationsbewusstsein bei Start).
 - **Onboarding (`takeover.md`)**: Mandat für High-Verification und Subdivision-Prinzipien.
 
 ## [2026-02-14.4] - Batch 23: Astrael Religious Texts

@@ -28,7 +28,7 @@ Um Informationsverlust zu vermeiden, gelten ab sofort folgende **Default-Einstel
 Führe den **Onboarding-Workflow** aus, um alle Optionen und den aktuellen Systemstatus zu sehen.
 
 // turbo
-1. Führe `./7w.py start` aus.
+1. Führe `./7w_wiki.py start` aus.
 2a. **Synapse-Board/Research lesen:** Öffne `/System/Synapse_Board/` und verschaffe dir einen Überblick über alle Tickets (`NEEDS_REVIEW`) sowie das [[System/Synapse_Board/LORE_RESEARCH_BOARD.md|Lore Research Board]] (`TENDERS`).
 2b. **Claiming:** Entscheide, ob du einen Forschungsauftrag übernimmst und setze den Status auf `CLAIMED`.
 

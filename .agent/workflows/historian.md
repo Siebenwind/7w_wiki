@@ -10,7 +10,7 @@ Dieser Workflow wird genutzt, wenn ein komplexer Sachverhalt eine tiefere Analys
 Identifiziere den Gegenstand der Untersuchung (Person, Ort, Ereignis oder theoretisches Konzept).
 
 ## 2. Quellen-Aggregation (Sichtungsphase)
-1.  **Semantische Suche**: Nutze das **[Orakel]** mit `./7w.py search "[Thema]" --source all --top 20`.
+1.  **Semantische Suche**: Nutze das **[Orakel]** mit `./7w_wiki.py search "[Thema]" --source all --top 20`.
 2.  **Register-Check**: Prüfe alle Erwähnungen im `Personenregister.md` oder `Organisationsregister.md`.
 3.  **Hintergrund-Abgleich**: Suche nach Axiomen im Verzeichnis `/Hintergrund/`, die das Thema betreffen (#canon).
 

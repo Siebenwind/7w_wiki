@@ -60,7 +60,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Lore Reconstruction**: Klärung der "Hauptstadt-Frage". Rohehafen als erste Kolonie (1 n.H.) etabliert; Tiefenbach als Magiezentrum korrigiert. 
 - **Consistency Blitz**: Vollständige Bereinigung des Personenregisters (Deduplizierung & Erstellung von 25 Stubs). Wiki-Status: 100% konsistent.
 - **Chronicler Duties**: Automatisierte Statistik-Generierung und Dokumentations-Audit.
-- **Onboarding Workflow**: Einführung von `/start` (`./7w.py start`) als zentraler Einstiegspunkt für neue Agenten.
+- **Onboarding Workflow**: Einführung von `/start` (`./7w_wiki.py start`) als zentraler Einstiegspunkt für neue Agenten.
 
 ### Phase 16: Magie & Kosmologie (Feb 2026)
 - **Batch 25 (Toran Dur Library)**: Vollständige Integration von 13 magietheoretischen und kosmologischen Texten.
@@ -71,7 +71,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Lore-Board**: Erstellung des `LORE_RESEARCH_BOARD.md` zur Nachverfolgung offener Lore-Fragen.
 
 ### Phase 15: Die Verfassung der Verantwortung (Feb 2026)
-- **Safe Defaults**: `7w.py` läuft nun standardmäßig im Advisor-Modus (Situationsbewusstsein zuerst).
+- **Safe Defaults**: `7w_wiki.py` läuft nun standardmäßig im Advisor-Modus (Situationsbewusstsein zuerst).
 - **Konstitution**: Erstellung der `WORKFLOW_ARCHITECTURE.md` (Gewaltenteilung: Legislative, Judikative, Exekutive).
 - **Eskalations-Matrix**: Einführung von 3 Log-Levels zur Vermeidung bürokratischer Overheads.
 - **Ur-Prozess**: Workflow `/antigravity` als Master-Protokoll etabliert.

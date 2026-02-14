@@ -23,7 +23,7 @@ Routineaufgaben werden weiterhin nur via Git und Changelog dokumentiert.
 Der erste Schritt ist immer das Onboarding. Es analysiert den Status und gibt dir Handlungsoptionen.
 
 // turbo
-./7w.py start
+./7w_wiki.py start
 
 ## 3. Die Exekution
 Führe **exakt** das aus, was der Advisor empfiehlt.
@@ -34,7 +34,7 @@ Führe **exakt** das aus, was der Advisor empfiehlt.
 ## 4. Die Sicherheits-Garantie
 Solltest du jemals unsicher sein, was zu tun ist:
 1.  Halte inne.
-2.  Führe `./7w.py audit` aus.
+2.  Führe `./7w_wiki.py audit` aus.
 3.  Lies das Ergebnis.
 4.  Handle danach.
 

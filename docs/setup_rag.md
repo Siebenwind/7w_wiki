@@ -6,7 +6,7 @@ Das "Orakel" ist die semantische Suchmaschine der Siebenwind Lore Engine. Es bas
 - **Embeddings:** `jinaai/jina-embeddings-v3` (Optimiert für Semantic Search).
 - **Reranker:** `BAAI/bge-reranker-v2-m3` (Präzise Nachsortierung der Ergebnisse).
 - **Vektor-Store:** Lokal (FAISS oder HNSW via `chromadb` / `lancethree` - *Implementierungsabhängig*).
-- **Interface:** CLI (`7w.py`).
+- **Interface:** CLI (`7w_wiki.py`).
 
 ## 🚀 Installation & Setup
 
@@ -23,7 +23,7 @@ Bevor du suchen kannst, muss das Wissen "gelernt" (indiziert) werden. Dieser Pro
 
 ```bash
 # Baut den Index komplett neu auf
-./7w.py index --rebuild
+./7w_wiki.py index --rebuild
 ```
 *Dauer: Je nach Hardware 2-10 Minuten für das gesamte Wiki.*
 
@@ -31,20 +31,20 @@ Bevor du suchen kannst, muss das Wissen "gelernt" (indiziert) werden. Dieser Pro
 Überprüfe, ob der Index bereit ist:
 
 ```bash
-./7w.py index --status
+./7w_wiki.py index --status
 ```
 
 ---
 
 ## 🔮 Nutzung (The Oracle)
 
-Die Suche erfolgt über das Unified CLI Tool `7w.py`.
+Die Suche erfolgt über das Unified CLI Tool `7w_wiki.py`.
 
 ### Einfache Frage
 Stelle eine Frage in natürlicher Sprache.
 
 ```bash
-./7w.py search "Wer gründete den Löwenorden?"
+./7w_wiki.py search "Wer gründete den Löwenorden?"
 ```
 
 ### Quellen-Filter
@@ -52,17 +52,17 @@ Du kannst die Suche auf bestimmte Bereiche einschränken:
 
 ```bash
 # Nur im offiziellen Wiki suchen (Höchste Kanon-Treue)
-./7w.py search "Magiegesetze" --source wiki
+./7w_wiki.py search "Magiegesetze" --source wiki
 
 # Nur in den Quellen suchen (Historische Forschung)
-./7w.py search "Alte Schlachtberichte" --source quellen
+./7w_wiki.py search "Alte Schlachtberichte" --source quellen
 ```
 
 ### Historiker-Modus
 Für tiefe Analysen gibt es den Historiker-Modus, der eine breitere Suche durchführt und die Ergebnisse synthetisiert:
 
 ```bash
-./7w.py historian "Die Entwicklung der Magie über die Jahrhunderte"
+./7w_wiki.py historian "Die Entwicklung der Magie über die Jahrhunderte"
 ```
 
 ---
@@ -73,7 +73,7 @@ Für tiefe Analysen gibt es den Historiker-Modus, der eine breitere Suche durchf
 Stelle sicher, dass du das Virtual Environment aktiviert hast oder die Requirements installiert sind.
 
 **Fehler: `Index not found`**
-Führe `./7w.py index --rebuild` aus.
+Führe `./7w_wiki.py index --rebuild` aus.
 
 **Falsche Ergebnisse?**
 Die Qualität hängt von der Granularität der Wiki-Artikel ab. Lange, unstrukturierte Texte sind schwerer zu durchsuchen. Nutze den `/audit` Workflow, um die Struktur zu verbessern.

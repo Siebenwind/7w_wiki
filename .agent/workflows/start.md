@@ -10,7 +10,7 @@ Willkommen, Oberarchivar. Du stehst vor dem gewaltigen Wissen von 20 Jahren Sieb
 Der erste Schritt jedes Agenten ist zu verstehen, wo wir stehen.
 
 // turbo
-1. Führe `./7w.py advisor` aus, um eine aktuelle Status-Analyse zu erhalten.
+1. Führe `./7w_wiki.py advisor` aus, um eine aktuelle Status-Analyse zu erhalten.
 2. Prüfe die [MASTER_TASK_LIST.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/MASTER_TASK_LIST.md) auf Prioritäten.
 3. Suche im [Synapse Board](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/LORE_RESEARCH_BOARD.md) nach unerledigten Forschungsaufträgen.
 
