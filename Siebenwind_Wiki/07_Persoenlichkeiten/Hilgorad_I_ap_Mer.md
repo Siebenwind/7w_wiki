@@ -15,7 +15,7 @@ category: Persönlichkeit
 **Hilgorad I. ap Mer** ist der amtierende Großkönig und die zentrale Autorität des galadonischen Reiches. Er entstammt dem **Haus Mer**, dem derzeit mächtigsten der sechs verbliebenen Königsgeschlechter Falandriens. Sein Herrschaftsstil gilt als traditionell, gottesfürchtig und ordnungsbetont. In der Atmosphäre seines Hofes mischt sich das kühle Kalkül eines Strategen mit dem Prunk der alten Monarchie.
 
 ## Wirken & Historie
-Unter seiner Ägide wurde [[Siebenwind]] zur **Kronmark** erhoben, was die direkte Kontrolle der Krone über die Insel sicherte. 
+Hilgorad I. ap Mer ist vor allem als der Monarch bekannt, der die **Expedition nach Siebenwind** ermöglichte. Durch einen geschickten diplomatischen Pakt mit den Nortraven unter Hetmann Wulfhold sicherte er sich deren Schiffbaukunst, was zur Entdeckung der Insel durch Armgard Torbenson im Jahr **1 n.H.** führte. Unter seiner Ägide wurde [[Siebenwind]] zur **Kronmark** erhoben.
 
 ### Die Entführung und Rettung (18-19 n.H.)
 *   **Verschwinden (18 n.H.):** Der König und sein Gefolge verschwanden unter mysteriösen Umständen (Bote 159).

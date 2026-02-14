@@ -11,14 +11,20 @@ category: Geografie
 **Epistemischer Status:** #bote / #überlieferung
 
 ## 📜 Beschreibung
-**Tiefenbach** war einst die strahlende Hauptstadt von [[Siebenwind]] (im Zeitalter vor König Hilgorad), bekannt für ihre magischen Akademien und den legendären **[[Magierturm_zu_Tiefenbach]]** ("Weißer Dorn"). Heute ist sie eine Geisterstadt im [[Ödland]], zerstört im Krieg gegen [[10_Angamon|Angamon]].
+**Tiefenbach** war einst eine bedeutende Hafenstadt im Osten von [[Siebenwind]], bekannt als Zentrum der Gelehrsamkeit und Sitz des legendären **[[Magierturm_zu_Tiefenbach]]** ("Weißer Dorn"). Die Stadt blühte im Zeitalter vor der großen Dunkelheit, wurde jedoch im Krieg gegen [[10_Angamon|den Einen]] vollständig vernichtet.
 
 ## ⚔️ Geschichte
-### Die Alte Hauptstadt
-Vor ihrer Zerstörung war Tiefenbach das Zentrum von Macht und Wissen auf der Insel. Hier lehrten Erzmagier wie **[[Dunvallo_Linari]]** und die Stadt blühte im Glanz der "Weißen Magie".
+### Zentrum der Magie
+Vor ihrer Zerstörung galt Tiefenbach als eine der ältesten Institutionen der Insel. Hier wirkten bedeutende Magier wie **[[Dunvallo_Linari]]**, **[[Toran_Dur]]** und **[[Elurai_Calades]]**. Der Magierturm, der wie ein weißer Dorn östlich der Stadt aufragte, war weithin sichtbar und ein Hort arkanen Wissens.
+
+### Der Hafen
+Tiefenbach besaß einen Hafen, der als wichtiger Ankunftsort für Schiffsreisende aus Falandrien diente (z.B. Auenelfen-Siedler). Der Geruch des Hafens und das geschäftige Treiben am Marktplatz sind in alten Reiseberichten überliefert.
 
 ### Der Untergang
-Im Dritten Zeitalter (während der Kriege gegen den Einen) wurde Tiefenbach vernichtet. Dunkle Horden und magische Katastrophen schleiften die Stadt und verwandelten das Umland in das heutige Ödland. Die Ruinen sind nun von Monstern, Untoten und magischen Anomalien verseucht.
+Im Dritten Zeitalter wurde Tiefenbach durch die Horden des Einen verwüstet. Während die Magier versuchten, die Insel zu schützen, fiel die Stadt schließlich den Flammen und der Verderbnis zum Opfer. Die Ruinen liegen heute tief im [[Ödland]] und sind von magischen Anomalien und Untoten gezeichnet.
+
+---
+**Siehe auch:** [[Magierturm_zu_Tiefenbach]], [[Ödland]], [[Dunvallo_Linari]], [[Rohehafen]]
 
 ---
 **Siehe auch:** [[Magierturm_zu_Tiefenbach]], [[Ödland]], [[Dunvallo_Linari]], [[Jassavia]] (Inspiration?)

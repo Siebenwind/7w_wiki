@@ -13,7 +13,9 @@ category: [[Geografie]]
 **Siebenwind** ist die zentrale Insel und das Herz der Welt. Sie ist geprägt von dichten Wäldern, schroffen Gebirgen und fruchtbaren Ebenen. Politisch ist die Insel als **Kronmark Siebenwind** organisiert und untersteht der Verwaltung der Krone (aktuell vertreten durch Baronin [[Beladriel_Blaettertanz]]).
 
 ## Wichtige Regionen
-- **[[Falkensee]]**: Die Hauptstadt und das politische Zentrum.
+- **[[Falkensee]]**: Die aktuelle Hauptstadt und das politische Zentrum der Kronmark.
+- **[[Brandenstein]]**: Aufstrebende Grenzstadt und Bollwerk.
+- **[[Rohehafen]]**: Die ehemalige Hauptstadt (Ruinen im [[Ödland]]).
 - **[[Brandenstein]]**: Eine aufstrebende Region im Herzogtum.
 - **Grönlanden**: Das fruchtbare Hinterland.
 

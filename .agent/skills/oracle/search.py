@@ -30,7 +30,20 @@ os.environ["SENTENCE_TRANSFORMERS_HOME"] = str(MODEL_CACHE)
 os.environ["HF_HOME"] = str(MODEL_CACHE / "huggingface")
 os.environ["HF_HUB_CACHE"] = str(MODEL_CACHE / "huggingface" / "hub")
 os.environ["XDG_CACHE_HOME"] = str(MODEL_CACHE / "xdg_cache")
-os.environ["TOKENIZERS_PARALLELISM"] = "false" # Warnung unterdrücken
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+# --- Tokenizer Fix (Monkey-Patch) ---
+# Behebt die Warnung "You're using a XLMRobertaTokenizerFast tokenizer..."
+# Indem wir das Logging für diesen spezifischen Fall während des Re-Rankings unterdrücken.
+import logging
+transformers_logger = logging.getLogger("transformers.tokenization_utils_base")
+original_level = transformers_logger.level
+
+def patch_tokenizer_warning():
+    transformers_logger.setLevel(logging.ERROR)
+
+def unpatch_tokenizer_warning():
+    transformers_logger.setLevel(original_level)
 
 # --- Pfade für Imports ---
 # (Path-Setup für relative Imports falls nötig)
@@ -70,7 +83,7 @@ LEVEL_ICONS = {
 PRE_RERANK_RESULTS = 20
 
 
-def load_embedding_model(device: str = None):
+def load_embedding_model(device: str = None, local_files_only: bool = False):
     """Lädt das Embedding-Modell."""
     if device is None:
         device = "mps" if sys.platform == "darwin" else "cpu"
@@ -79,11 +92,12 @@ def load_embedding_model(device: str = None):
         EMBEDDING_MODEL,
         trust_remote_code=True,
         device=device,
+        local_files_only=local_files_only,
     )
     return model
 
 
-def load_reranker(device: str = None):
+def load_reranker(device: str = None, local_files_only: bool = False):
     """Lädt den Cross-Encoder Re-Ranker."""
     if device is None:
         device = "mps" if sys.platform == "darwin" else "cpu"
@@ -92,6 +106,7 @@ def load_reranker(device: str = None):
         RERANKER_MODEL,
         use_fp16=True,
         device=device,
+        local_files_only=local_files_only,
     )
     return reranker
 
@@ -137,8 +152,12 @@ def rerank_results(reranker, query: str, hits: list[dict],
     # Paare bilden: (Query, Dokument-Text)
     pairs = [[query, hit["text"]] for hit in hits]
     
-    # Scores berechnen
-    scores = reranker.compute_score(pairs, normalize=True)
+    # Scores berechnen mit Tokenizer-Fix
+    patch_tokenizer_warning()
+    try:
+        scores = reranker.compute_score(pairs, normalize=True)
+    finally:
+        unpatch_tokenizer_warning()
     
     # Scores können als einzelner Float oder Liste zurückkommen
     if isinstance(scores, (int, float)):
@@ -214,9 +233,10 @@ def search(query: str, top_k: int = 5, source: str = "all", use_reranker: bool =
     client = chromadb.PersistentClient(path=str(CHROMA_DIR))
     
     # Embedding generieren
-    # Wir laden das Modell kurzfristig (oder cachen es, wenn wir als Service laufen würden)
-    # Für CLI ist Laden pro Call okay (Jina v3 lädt schnell genug, ~2s)
-    model = load_embedding_model(device)
+    # Im Sandbox-Modus (oder wenn offline) nutzen wir nur lokale Dateien
+    is_sandbox = os.environ.get("ANTIGRAVITY_SANDBOX") == "true"
+    
+    model = load_embedding_model(device, local_files_only=is_sandbox)
     query_embedding = model.encode(
         [query],
         task="retrieval.query",
@@ -243,7 +263,7 @@ def search(query: str, top_k: int = 5, source: str = "all", use_reranker: bool =
     
     # Re-Ranking
     if use_reranker and len(all_hits) > 1:
-        reranker = load_reranker(device)
+        reranker = load_reranker(device, local_files_only=is_sandbox)
         all_hits = rerank_results(reranker, query, all_hits, top_k)
     else:
         # Nur nach Similarity sortieren und beschneiden

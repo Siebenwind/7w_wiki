@@ -7,9 +7,17 @@ quelle: "/Quellen/Bibliothek Astrael/Die Stadtchronik Rohehafens.md"
 author: "Etril Gamajeff"
 ---
 
-# Die Stadtchronik Rohehafens
+# Die Stadtchronik Rohehafens (Historisches Dokument)
 
-**Rohehafen** ist die prächtige Hauptstadt [[Siebenwind]]s und gilt als größte und schönste Stadt der Insel. Sie befindet sich in einem ständigen Wandel, insbesondere hin zu einer Marmorstadt mit befestigter Stadtmauer.
+**Epistemischer Status:** #perspektive / #hist
+**Datum der Abfassung:** ca. 5 n.H.
+**Autor:** Etril Gamajeff
+
+> [!IMPORTANT]
+> Dieses Dokument beschreibt **Rohehafen** auf dem Höhepunkt seines Glanzes als erste Hauptstadt der Kronmark Siebenwind. Es spiegelt den Zustand vor der großen Verwüstung und der Entstehung des [[Ödland]]s wider.
+
+## Die prächtige Hauptstadt
+Rohehafen ist die prächtige Hauptstadt [[Siebenwind]]s und gilt als größte und schönste Stadt der Insel. Sie befindet sich in einem ständigen Wandel, insbesondere hin zu einer Marmorstadt mit befestigter Stadtmauer. Sie gilt als erster Treffpunkt für alle höheren Herren und als beliebtester Bauplatz für neue Siedler.
 
 ## Bevölkerung
 Rohehafen ist ein Schmelztiegel aller Rassen. Neben Menschen haben sich hier auch viele [[Volkskunde#Hochelfen|Hochelfen]] niedergelassen. König [[Hilgorad_I_ap_Mer|Hilgorad]] ließ gezielt Häuser errichten, um Siedler aus Falandrien anzuziehen.

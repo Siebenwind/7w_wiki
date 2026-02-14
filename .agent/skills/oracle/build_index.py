@@ -649,12 +649,14 @@ def main():
     else:
         device = default_device
         
+    is_sandbox = os.environ.get("ANTIGRAVITY_SANDBOX") == "true"
     print(f"  🔌 Device: {device.upper()} (Batch-Size: {args.batch_size})")
 
     model = SentenceTransformer(
         EMBEDDING_MODEL,
         trust_remote_code=True,
         device=device,
+        local_files_only=is_sandbox,
     )
     print(f"  ✅ Modell geladen")
     

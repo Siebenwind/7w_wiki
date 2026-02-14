@@ -15,7 +15,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] **Konstitution & Sicherheit**: Implementierung der "Constitution of Responsibility".
 - [x] **Batch 25**: Integration der Toran Dur Magie-Bibliothek.
 - [x] **Audit**: Vollständiger System-Audit Feb 2026.
-- [x] **Lore Investigations**: Astralnetz-Ursprung, Ionas-Narrative, Finsterwangen/Tiefenbach Historie.
+- [x] **Lore Investigations**: Astralnetz-Ursprung, Ionas-Narrative, Finsterwangen/Tiefenbach Historie. (Rohehafen as first capital resolved).
 
 
 - [x] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`). Batch 25 (Toran Dur Library) abgeschlossen. Nächster Schritt: Batch 26.
@@ -46,10 +46,10 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ---
 
-### Phase 17: Advanced Intelligence Infrastructure & Consistency Blitz (Feb 2026)
+### Phase 17: Advanced Intelligence Infrastructure & Lore Reconstruction (Feb 2026)
 - **Orakel-Resilience**: Behebung von Permission-Issues durch Cache-Redirection und Optimierung der Boot-Sequenz.
 - **Historiker-Workflow**: Einführung des `/historian` Workflows zur Rekonstruktion komplexer Kausalitäten.
-- **Lore Audit & Peer Review**: Implementierung eines formalen Audit-Protokolls mit Eskalationsmatrix.
+- **Lore Reconstruction**: Klärung der "Hauptstadt-Frage". Rohehafen als erste Kolonie (1 n.H.) etabliert; Tiefenbach als Magiezentrum korrigiert. 
 - **Consistency Blitz**: Vollständige Bereinigung des Personenregisters (Deduplizierung & Erstellung von 25 Stubs). Wiki-Status: 100% konsistent.
 - **Chronicler Duties**: Automatisierte Statistik-Generierung und Dokumentations-Audit.
 - **Onboarding Workflow**: Einführung von `/start` (`./7w.py start`) als zentraler Einstiegspunkt für neue Agenten.

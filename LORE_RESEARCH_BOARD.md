@@ -17,6 +17,20 @@ Dies ist das zentrale Board für offene Forschungsfragen, Lore-Inkonsistenzen un
 - **Ziel:** Rekonstruktion ihrer Historie und Verbindung zur Hafenvogtin Brandensteins.
 - **Zuständig:** Historiker
 
+### [RESEARCH-2026-005] Historie von Tiefenbach & Finsterwangen
+- **Status:** ✅ Gelöst (siehe `Logs/Historian_Report_2026_003_Siebenwind_Origins.md`)
+- **Quelle:** User-Korrektur (Hilgorad enabled expedition)
+- **Problem:** Frühere Annahme (Tiefenbach = Alte Inselhauptstadt) widerlegt. Hilgorad ermöglichte erst die Expedition.
+- **Ziel:** Klärung des Status von Tiefenbach und des allgemeinen Ursprung von Finsterwangen.
+- **Zuständig:** Historiker
+
+### [RESEARCH-2026-006] Finsterwangen & Der Ursprung des Ödlands
+- **Status:** ✅ Gelöst (siehe `Logs/Historian_Report_2026_003_Siebenwind_Origins.md`)
+- **Quelle:** User-Korrektur (Ödland & Geografie Audit)
+- **Problem:** Unklare Definition von Finsterwangen und der Entstehung des Ödlands.
+- **Ziel:** Kanonische Historie des Ödlands und der Rolle von Finsterwangen (Wachposten vs. Legende).
+- **Zuständig:** Historiker
+
 ## 🟡 Mittlere Priorität (Detail-Forschung)
 
 ### [RESEARCH-2026-002] Die Transformation des Ödlands
