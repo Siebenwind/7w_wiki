@@ -5,13 +5,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/LeCorbeau/7w_wiki">
+  <a href="https://github.com/Siebenwind/7w_wiki">
     <img src="https://img.shields.io/badge/Status-Aktiv-vibrantgreen?style=for-the-badge&logo=github" alt="Project Status">
   </a>
-  <a href="https://LeCorbeau.github.io/7w_wiki/">
+  <a href="https://Siebenwind.github.io/7w_wiki/">
     <img src="https://img.shields.io/badge/Live-Wiki_Pages-blue?style=for-the-badge&logo=googledocs" alt="Live Wiki">
   </a>
-  <a href="https://github.com/LeCorbeau/7w_wiki/blob/main/CHANGELOG.md">
+  <a href="https://github.com/Siebenwind/7w_wiki/blob/main/CHANGELOG.md">
     <img src="https://img.shields.io/badge/Version-Reconstruction_v2.1-orange?style=for-the-badge" alt="Version">
   </a>
 </p>
@@ -28,7 +28,7 @@ Die Engine dient als **Single Source of Truth** für Spieler, Geschichtenschreib
 ## 🌐 Interaktive Erlebnisse
 
 > [!TIP]
-> **[Hier geht es zum interaktiven Siebenwind Wiki (Live Preview)](https://LeCorbeau.github.io/7w_wiki/)**
+> **[Hier geht es zum interaktiven Siebenwind Wiki (Live Preview)](https://Siebenwind.github.io/7w_wiki/)**
 > *MkDocs Material v9 | Durchsuchbar | Mobiloptimiert | Dunkelmodus*
 
 ---
