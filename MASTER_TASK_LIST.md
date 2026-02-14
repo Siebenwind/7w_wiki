@@ -41,6 +41,12 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ---
 
+### Phase 1: Netz-Wächter & GitHub Professionalisierung (Feb 2026)
+- **Netz-Wächter**: OOC-Timeline (`04_Chronik`) etabliert und Pilot-Ingestion (`siebenwind.de`) erfolgreich.
+- **GitHub Deployment**: Wiki live unter `Siebenwind.github.io`. Repository-Transfer an Organisation `Siebenwind`.
+- **Documentation Overhaul**: Erstellung von `architecture.md`, `setup_rag.md` und Community-Standards.
+- **System-Härtung**: Token-Optimierung und CLI-Delegation (`/delegate`) vorbereitet.
+
 ### Phase 18: Toran Dur Advanced Doctrines & Register Polish (Feb 2026)
 - **Batch 27 (Toran Dur Advanced)**: Integration of Sub-Batches 1-4.
 - **Arcane Science**: Integration of `Arkan-Metalle.md`, `Elementare_Atomlehre.md`, and `Metamorphose_und_Gestaltwandel.md`.
