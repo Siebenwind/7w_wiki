@@ -43,6 +43,14 @@ def run_script(path, args=[]):
         print(f"Error executing {path}: {e}")
         sys.exit(1)
 
+def view_workflow(name):
+    path = os.path.join(os.path.dirname(__file__), f".agent/workflows/{name}.md")
+    if os.path.exists(path):
+        with open(path, 'r') as f:
+            print(f.read())
+    else:
+        print(f"Workflow {name} not found at {path}")
+
 def main():
     parser = argparse.ArgumentParser(description="Siebenwind Lore Engine CLI")
     subparsers = parser.add_subparsers(dest="command", help="Available commands")
@@ -56,6 +64,9 @@ def main():
 
     # Stats
     subparsers.add_parser("stats", help="Generate Wiki Statistics and Dashboard")
+
+    # Start (Onboarding)
+    subparsers.add_parser("start", help="Start here (Onboarding & Options)")
 
     # Historian
     hist_parser = subparsers.add_parser("historian", help="Deep Lore Analysis (Workflow)")
@@ -92,6 +103,10 @@ def main():
     elif args.command == "advisor":
         run_script(".agent/scripts/advisor.py")
 
+    elif args.command == "start":
+        print(f"🌟 {BOLD}Willkommen beim Siebenwind Archiv-System{RESET}")
+        view_workflow("start")
+
     elif args.command == "stats":
         run_script(".agent/scripts/generate_wiki_stats.py")
 
@@ -106,7 +121,7 @@ def main():
             print(f"\n💡 {YELLOW}Tipp:{RESET} Nutze den Workflow `/historian` für die tiefe Rekonstruktion.")
         else:
             print(f"📖 {BOLD}Workflow: /historian{RESET}")
-            run_script(".agent/workflows/historian.md") # Just show the file
+            view_workflow("historian")
 
     elif args.command == "repair":
         run_script(".agent/scripts/repair.py")

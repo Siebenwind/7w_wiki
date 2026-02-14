@@ -1,6 +1,16 @@
-# Changelog: Siebenwind-Wiki-Rekonstruktion
-
 Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
+
+## [2026-02-14.7] - Phase 17: Infrastructure & Intelligence
+### Hinzugefügt
+- **Onboarding Workflow**: Neuentwickelter `/start` Prozess (`./7w.py start`) für eine strukturierte Agenten-Übernahme.
+- **Historiker-Workflow**: `/historian` Workflow zur tiefen Analyse von Kausalitäten und Lore-Rekonstruktion.
+- **Lore Audit**: Protokoll und Template für Lore-Peer-Reviews und Eskalationen bei Unsicherheit.
+- **CLI Erweiterung**: Unified CLI (`7w.py`) unterstützt nun `start`, `historian` mit Query-Support und flexiblen Oracle-Parametern (`--cpu`, `--no-re-rank`).
+
+### Geändert
+- **Orakel-Redirection**: Aggressive Umleitung aller HuggingFace- und Transformers-Caches in das Projektverzeichnis (`.agent/data/models`) zur Umgehung von Sandbox-Restriktionen.
+- **Indexer-Stabilität**: Fix eines kritischen Bugs im Index-Builder, der bei Einzeldatei-Updates fälschlicherweise den restlichen Index gelöscht hat.
+
 ## [2026-02-14.6] - Batch 25: Toran Dur Magie-Bibliothek & System Audit
 ### Hinzugefügt
 - **Batch 25: Toran Dur Library**:
