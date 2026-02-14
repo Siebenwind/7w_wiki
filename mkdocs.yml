@@ -6,6 +6,7 @@ site_dir: site
 
 repo_name: LeCorbeau/7w_wiki
 repo_url: https://github.com/LeCorbeau/7w_wiki
+site_url: https://LeCorbeau.github.io/7w_wiki/
 edit_uri: edit/main/docs/
 
 theme:
