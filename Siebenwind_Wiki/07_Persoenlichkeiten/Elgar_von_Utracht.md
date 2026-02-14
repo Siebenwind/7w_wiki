@@ -12,4 +12,4 @@ author: "Antigravity"
 **Elgar von Utracht** ist ein Gelehrter und Autor eines Traktats über das *Exercitium*, die geistige und körperliche Schulung im Sinne der Götter.
 
 ## Überlieferung
-* [Exercitium](file:///Quellen/Bibliothek Astrael/Exercitium.md)
+* [Exercitium]

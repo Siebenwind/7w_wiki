@@ -39,4 +39,4 @@ Dieses Gebet wird im Namen von [[Galtor]], dem Seelenboten, gesprochen. Es bitte
 > [!NOTE]
 > Die Texte betonen die Rolle Morsans als Wächter über den Schlaf und die Seelen im Jenseits.
 
-**Quelle:** [Brevier des [[Ordo_Morsanes]].html](file:///Quellen/Bibliothek%20Astrael/Brevier%20des%20Ordo%20Morsanes.html)
+**Quelle:** [Brevier des [[Ordo_Morsanes]].html]

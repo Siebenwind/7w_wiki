@@ -6,7 +6,7 @@ category: Index
 
 # Wiki Statistiken
 
-**Letztes Update:** 2026-02-14 05:30:36
+**Letztes Update:** 2026-02-14 05:51:03
 
 ## 📊 High-Level KPIs
 
@@ -105,29 +105,29 @@ Die am häufigsten verlinkten Artikel im Wiki.
 
 | Zeitraum | Neue Artikel | Geänderte Artikel |
 | :--- | :--- | :--- |
-| **Letzte 24h** | 341 | 217 |
-| **Letzte 7 Tage** | 825 | 223 |
-| **Letzte 30 Tage** | 825 | 223 |
+| **Letzte 24h** | 424 | 221 |
+| **Letzte 7 Tage** | 908 | 227 |
+| **Letzte 30 Tage** | 908 | 227 |
 
 ### Letzte Änderungen
 
 | Datum | Aktion | Artikel | Kategorie |
 | :--- | :--- | :--- | :--- |
-| 2026-02-14 | Geändert | Die Monde | 00_Fundament |
-| 2026-02-14 | Geändert | Die Sprache Run | 00_Fundament |
-| 2026-02-14 | Geändert | Magietheorie Toran Dur | 00_Fundament |
-| 2026-02-14 | Geändert | Organisationsregister | 00_Fundament |
 | 2026-02-14 | Geändert | Personenregister | 00_Fundament |
-| 2026-02-14 | Geändert | Brevier Ordo Belli | 01_Pantheon |
-| 2026-02-14 | Geändert | Brevier Ordo Morsanes | 01_Pantheon |
-| 2026-02-14 | Geändert | Brevier Ordo Vitamae | 01_Pantheon |
-| 2026-02-14 | Geändert | Burg Finianswacht | 02_Geografie |
-| 2026-02-14 | Geändert | Region Sae | 02_Geografie |
-| 2026-02-14 | Geändert | Saeulenmeer | 02_Geografie |
-| 2026-02-14 | Neu | Weteka | 02_Geografie |
-| 2026-02-14 | Geändert | Grosser Rat | 03_Gesellschaft |
-| 2026-02-14 | Geändert | Hafengilde Brandenstein | 03_Gesellschaft |
-| 2026-02-14 | Geändert | Oculus Ecclesiae | 03_Gesellschaft |
+| 2026-02-14 | Neu | Der Blutrote Stier | 01_Pantheon |
+| 2026-02-14 | Neu | Der Traum der Tausend | 01_Pantheon |
+| 2026-02-14 | Neu | Der letzte Falke | 01_Pantheon |
+| 2026-02-14 | Neu | Der naive Mensch | 01_Pantheon |
+| 2026-02-14 | Neu | Die Eisernen Tafeln | 01_Pantheon |
+| 2026-02-14 | Neu | Die Goldenen Tafeln | 01_Pantheon |
+| 2026-02-14 | Neu | Die Legende von Galahad Ritter der Rosen | 01_Pantheon |
+| 2026-02-14 | Neu | Die Silbernen Tafeln | 01_Pantheon |
+| 2026-02-14 | Neu | Die Werke des Barath Or | 01_Pantheon |
+| 2026-02-14 | Neu | Divinum et Elementum | 01_Pantheon |
+| 2026-02-14 | Neu | Elementum Commentari | 01_Pantheon |
+| 2026-02-14 | Neu | Exercitium | 01_Pantheon |
+| 2026-02-14 | Neu | Gohor Haeresie | 01_Pantheon |
+| 2026-02-14 | Neu | Heilige Liturgien | 01_Pantheon |
 
 ---
 > [!NOTE]

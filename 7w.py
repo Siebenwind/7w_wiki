@@ -9,6 +9,18 @@ Siebenwind Lore Engine CLI (7w)
 Unified entry point for all archival and intelligence tools.
 """
 
+# --- GLOBAL CACHE REDIRECTION (For Sandbox compatibility) ---
+# Ensure models and caches are stored project-local
+REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
+MODEL_CACHE = os.path.join(REPO_ROOT, ".agent/data/models")
+os.makedirs(MODEL_CACHE, exist_ok=True)
+
+os.environ["HF_HOME"] = os.path.join(MODEL_CACHE, "huggingface")
+os.environ["HF_HUB_CACHE"] = os.path.join(MODEL_CACHE, "huggingface/hub")
+os.environ["SENTENCE_TRANSFORMERS_HOME"] = MODEL_CACHE
+os.environ["XDG_CACHE_HOME"] = os.path.join(MODEL_CACHE, "xdg_cache")
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 # UI Helpers
 BOLD = "\033[1m"
 YELLOW = "\033[93m"
@@ -38,7 +50,9 @@ def main():
     # Search (Oracle)
     search_parser = subparsers.add_parser("search", help="Semantic search via the Oracle (RAG)")
     search_parser.add_argument("query", help="The search query")
-    search_parser.add_argument("--source", choices=["wiki", "quellen"], default="wiki", help="Search target")
+    search_parser.add_argument("--source", choices=["wiki", "quellen", "all"], default="wiki", help="Search target")
+    # Add remnant args to pass through
+    search_parser.add_argument('remaining', nargs=argparse.REMAINDER, help="Additional arguments for search.py")
 
     # Stats
     subparsers.add_parser("stats", help="Generate Wiki Statistics and Dashboard")
@@ -69,8 +83,10 @@ def main():
 
     if args.command == "search":
         search_args = [args.query]
-        if args.source == "quellen":
-            search_args.extend(["--source", "quellen"])
+        if args.source:
+            search_args.extend(["--source", args.source])
+        if args.remaining:
+            search_args.extend(args.remaining)
         run_script(".agent/skills/oracle/search.py", search_args)
 
     elif args.command == "advisor":

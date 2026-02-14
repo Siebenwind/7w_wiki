@@ -12,4 +12,4 @@ author: "Antigravity"
 **Bruder Erik** ist ein Mitglied des [[Astrael]]-Ordens, der in den [[Siebenwind_Wiki/01_Pantheon/Heilige_Liturgien|Heiligen Liturgien]] erwähnt wird.
 
 ## Überlieferung
-* [Heilige Liturgien](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/01_Pantheon/Heilige_Liturgien.md)
+* [Heilige Liturgien]

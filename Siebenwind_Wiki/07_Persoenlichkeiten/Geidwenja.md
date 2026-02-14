@@ -12,4 +12,4 @@ author: "Antigravity"
 **Magister Geidwenja** ist ein Theoretiker der arkanen Künste, der an der Ausarbeitung der Matrixtheorie beteiligt war.
 
 ## Überlieferung
-* [Derrvus Matrix-Theorie](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/03_Gesellschaft/Derrvus_Matrixtheorie.md)
+* [Derrvus Matrix-Theorie]

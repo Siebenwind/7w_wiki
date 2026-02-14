@@ -42,6 +42,12 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ---
 
+### Phase 17: Advanced Intelligence Infrastructure (Feb 2026)
+- **Orakel-Resilience**: Behebung von Permission-Issues durch Cache-Redirection und Optimierung der Boot-Sequenz.
+- **Historiker-Workflow**: Einführung des `/historian` Workflows zur Rekonstruktion komplexer Kausalitäten.
+- **Lore Audit & Peer Review**: Implementierung eines formalen Audit-Protokolls mit Eskalationsmatrix für hohe Unsicherheit oder Komplexität.
+- **CLI Erweiterung**: `./7w.py historian` und pass-through Flags für tiefe Suchen.
+
 ### Phase 16: Magie & Kosmologie (Feb 2026)
 - **Batch 25 (Toran Dur Library)**: Vollständige Integration von 13 magietheoretischen und kosmologischen Texten.
 - **Dämonologie & Rituale**: Erstellung des `Daimonicon` und der `Rituallehre`.

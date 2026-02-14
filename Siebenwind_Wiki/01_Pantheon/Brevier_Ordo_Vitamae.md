@@ -46,4 +46,4 @@ Bitten um reiche Ernte, Heilung von Wunden und Kinderreichtum.
 > [!TIP]
 > Die Texte spiegeln die enge Verbundenheit der [[Vitama]]-Gläubigen mit der Natur und den Künsten wider.
 
-**Quelle:** [Brevier des [[Ordo_Vitamae]].html](file:///Quellen/Bibliothek%20Astrael/Brevier%20des%20Ordo%20Vitamae.html)
+**Quelle:** [Brevier des [[Ordo_Vitamae]].html]

@@ -12,4 +12,4 @@ author: "Antigravity"
 **Roland Ronde** ist der Autor der Legende über die Entstehung von [[Vandrien]] und die Taten des Grafen Aarion.
 
 ## Überlieferung
-* [Vandriens Entstehung](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/01_Pantheon/Vandriens_Entstehung.md)
+* [Vandriens Entstehung]

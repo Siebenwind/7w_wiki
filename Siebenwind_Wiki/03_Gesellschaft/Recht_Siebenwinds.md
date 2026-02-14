@@ -49,4 +49,4 @@ Enthält Ausnahmeregelungen für bestimmte Völker:
 > [!IMPORTANT]
 > Des Königs Wille ist das höchste Gesetz. Das De Iuribus steht über allen anderen Gilden- oder Stadtsatzungen.
 
-**Quelle:** [De Iuribus [[Siebenwind]].html](file:///Quellen/Bibliothek%20Astrael/De%20Iuribus%20Siebenwind.html)
+**Quelle:** [De Iuribus [[Siebenwind]].html]

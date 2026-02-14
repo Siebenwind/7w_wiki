@@ -464,12 +464,14 @@ def build_collection(client, collection_name: str, source_key: str, model, batch
             # Komplett neue Datei
             files_to_process.append(file_info)
     
-    # Gelöschte Dateien aufräumen
-    deleted_sources = set(indexed_files.keys()) - current_sources
-    for deleted in deleted_sources:
-        removed = remove_file_chunks(collection, chunk_ids=indexed_files[deleted]["ids"])
-        if removed:
-            print(f"  🗑️  Entfernt: {Path(deleted).name} ({removed} Chunks)")
+    # Gelöschte Dateien aufräumen (NUR wenn wir nicht im Single-File-Modus sind)
+    deleted_sources = set()
+    if not target_file:
+        deleted_sources = set(indexed_files.keys()) - current_sources
+        for deleted in deleted_sources:
+            removed = remove_file_chunks(collection, chunk_ids=indexed_files[deleted]["ids"])
+            if removed:
+                print(f"  🗑️  Entfernt: {Path(deleted).name} ({removed} Chunks)")
     
     if not files_to_process:
         existing_count = collection.count()

@@ -12,5 +12,5 @@ author: "Antigravity"
 **Etril Gamajeff** war ein Chronist und Autor, der vor der Bedrohung durch [[Angamon]] warnte und die Stadtchronik von **Rohehafen** verfasste.
 
 ## Überlieferung
-* [Die Stadtchronik Rohehafens](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/06_Geschichte/Stadtchronik_Rohehafens.md)
-* [Von dem Bösen](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/01_Pantheon/Von_dem_Boesen.md)
+* [Die Stadtchronik Rohehafens]
+* [Von dem Bösen]

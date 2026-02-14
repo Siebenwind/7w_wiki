@@ -22,4 +22,4 @@ Jedes Lebewesen ist eine Mischung der vier Elemente, gebunden durch die Kraft de
 Obwohl die „Herren der Elemente“ Respekt verdienen, steht der schöpfende Geist der Götter weit über ihnen. Die Vernunft gilt als das schönste Geschenk der Götter, das nur durch das Zusammenspiel aller Elemente unter göttlicher Führung möglich wurde.
 
 ## Überlieferung
-* [Divinum et Elementum](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/01_Pantheon/Divinum_et_Elementum.md) (Bezugstext)
+* [Divinum et Elementum] (Bezugstext)

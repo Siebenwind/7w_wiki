@@ -12,4 +12,4 @@ author: "Antigravity"
 **Bruder Timothios** ist ein Mitglied des [[Astrael]]-Ordens, der **Aelwin** riet, seinem Herzen zu folgen.
 
 ## Überlieferung
-* [Heilige Liturgien](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/01_Pantheon/Heilige_Liturgien.md)
+* [Heilige Liturgien]
