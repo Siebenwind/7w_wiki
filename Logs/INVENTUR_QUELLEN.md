@@ -181,62 +181,62 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | De Deis Et Deorum Falsis Simulacris.md | Astrael | - | Done |
 | De Itinere Honoris.md | Astrael | - | Done |
 | De Iuribus Siebenwind.md | Astrael | - | Done |
-| Der Blutrote Stier.md | Astrael | - | Pending |
-| Der Traum der Tausend.md | Astrael | - | Pending |
-| Der letzte Falke.md | Astrael | - | Pending |
-| Der naive Mensch.md | Astrael | - | Pending |
-| Die Eisernen Tafeln.md | Astrael | - | Pending |
-| Die Goldenen Tafeln.md | Astrael | - | Pending |
-| Die Legende von Galahad, Ritter der Rosen.md | Astrael | - | Pending |
-| Die Silbernen Tafeln.md | Astrael | - | Pending |
+| Der Blutrote Stier.md | Astrael | - | Integrated |
+| Der Traum der Tausend.md | Astrael | - | Integrated |
+| Der letzte Falke.md | Astrael | - | Integrated |
+| Der naive Mensch.md | Astrael | - | Integrated |
+| Die Eisernen Tafeln.md | Astrael | - | Integrated |
+| Die Goldenen Tafeln.md | Astrael | - | Integrated |
+| Die Legende von Galahad, Ritter der Rosen.md | Astrael | - | Integrated |
+| Die Silbernen Tafeln.md | Astrael | - | Integrated |
 | Die Sprache Run.md | Astrael | - | Done |
-| Die Stadtchronik Rohehafens.md | Astrael | - | Pending |
-| Die Werke des Barath Or.md | Astrael | - | Pending |
-| Divinum et Elementum Von der Substanz der Götter und der Elementarherren.md | Astrael | - | Pending |
-| Elementum et Gens Humanis.md | Astrael | - | Pending |
-| Exercitium.md | Astrael | - | Pending |
+| Die Stadtchronik Rohehafens.md | Astrael | - | Integrated |
+| Die Werke des Barath Or.md | Astrael | - | Integrated |
+| Divinum et Elementum Von der Substanz der Götter und der Elementarherren.md | Astrael | - | Integrated |
+| Elementum et Gens Humanis.md | Astrael | - | Integrated |
+| Exercitium.md | Astrael | - | Integrated |
 | Geschichte der Mondamulette.md | Astrael | - | Done |
-| Heilige Liturgien.md | Astrael | - | Pending |
+| Heilige Liturgien.md | Astrael | - | Integrated |
 | Lit Ita'Im'Elarum Odalim ir Galadon.md | Astrael | - | Pending |
-| Opus i de alchimiae.md | Astrael | - | Pending |
-| Ortus et Integritas.md | Astrael | - | Pending |
-| Postulat der idealen Form von Matricen im Raum und in der Zeit.md | Astrael | - | Pending |
-| Regulatorium der Bibliothek zum Heiligen Auge Astraels.md | Astrael | - | Pending |
+| Opus i de alchimiae.md | Astrael | - | Integrated |
+| Ortus et Integritas.md | Astrael | - | Integrated |
+| Postulat der idealen Form von Matricen im Raum und in der Zeit.md | Astrael | - | Integrated |
+| Regulatorium der Bibliothek zum Heiligen Auge Astraels.md | Astrael | - | Integrated |
 | Sagen und Lieder der Nortraven.md | Astrael | - | Visited (HTML) |
-| Spiegel.md | Astrael | - | Pending |
-| Über den heiligen Ritus der Exercitio.md | Astrael | - | Pending |
-| Über die Gebete.md | Astrael | - | Pending |
-| Über die Gohor.md | Astrael | - | Pending |
-| Vandriens Entstehung.md | Astrael | - | Pending |
-| Von dem Bösen.md | Astrael | - | Pending |
-| Von den Myten.md | Astrael | - | Pending |
-| Von der rechten Art der Mission und dem gesunden Mass.md | Astrael | - | Pending |
-| Althea Danea - Kompendium der Wei·magie.md | Toran Dur | Althea Danea | Pending |
-| Amanda Dunkelbaum - Der Elementare Pfad.md | Toran Dur | Amanda Dunkelbaum | Pending |
+| Spiegel.md | Astrael | - | Integrated |
+| Über den heiligen Ritus der Exercitio.md | Astrael | - | Integrated |
+| Über die Gebete.md | Astrael | - | Integrated |
+| Über die Gohor.md | Astrael | - | Integrated |
+| Vandriens Entstehung.md | Astrael | - | Integrated |
+| Von dem Bösen.md | Astrael | - | Integrated |
+| Von den Myten.md | Astrael | - | Integrated |
+| Von der rechten Art der Mission und dem gesunden Mass.md | Astrael | - | Integrated |
+| Althea Danea - Kompendium der Wei·magie.md | Toran Dur | Althea Danea | Integrated |
+| Amanda Dunkelbaum - Der Elementare Pfad.md | Toran Dur | Amanda Dunkelbaum | Integrated |
 | Amanda Dunkelbaum - Eigenschaften der Elemente.md | Toran Dur | Amanda Dunkelbaum | Pending |
 | Amanda Dunkelbaum - Elementarmagie 1.md | Toran Dur | Amanda Dunkelbaum | Pending |
-| Anonymous - Alchemie.md | Toran Dur | Anonymous | Pending |
+| Anonymous - Alchemie.md | Toran Dur | Anonymous | Integrated |
 | Anonymous - Beschwîrung eines DÑmonen.md | Toran Dur | Anonymous | Pending |
 | Anonymous - Etikette.md | Toran Dur | Anonymous | Pending |
 | Anonymous - Homunkuli.md | Toran Dur | Anonymous | Pending |
 | Anonymous - Lexikon des Run.xls | Toran Dur | Anonymous | Pending |
 | Anonymous - Ritual zur Bannung des Grix.md | Toran Dur | Anonymous | Pending |
-| Anonymous - Theorie zur arkanen Magie.md | Toran Dur | Anonymous | Pending |
+| Anonymous - Theorie zur arkanen Magie.md | Toran Dur | Anonymous | Integrated |
 | Anonymous - öber die Verhaltensweisen von Daimonen.md | Toran Dur | Anonymous | Pending |
-| Aren Remouldo - Horlafstrom-Theorie.md | Toran Dur | Aren Remouldo | Pending |
+| Aren Remouldo - Horlafstrom-Theorie.md | Toran Dur | Aren Remouldo | Integrated |
 | Arknor - Die Sprache Yerredoni.md | Toran Dur | Arknor | Pending |
 | Baron Morgenroith - Iruibus Siebenwind.md | Toran Dur | Baron Morgenroith | Pending |
-| Bastean Asanra - Theorethik der arkanen Magie.md | Toran Dur | Bastean Asanra | Pending |
+| Bastean Asanra - Theorethik der arkanen Magie.md | Toran Dur | Bastean Asanra | Integrated |
 | Diminona - Die Foki.md | Toran Dur | Diminona | Pending |
-| Dunvallo Linari - Alte Magietheorie.md | Toran Dur | Dunvallo Linari | Pending |
+| Dunvallo Linari - Alte Magietheorie.md | Toran Dur | Dunvallo Linari | Integrated |
 | Dunvallo Linari - Artefakte.md | Toran Dur | Dunvallo Linari | Pending |
 | Dunvallo Linari - Daimonen.md | Toran Dur | Dunvallo Linari | Pending |
 | Dunvallo Linari - DÑmonen - Eine EinfÅhrung.md | Toran Dur | Dunvallo Linari | Pending |
 | Dunvallo Linari - Lexikon der Magie.md | Toran Dur | Dunvallo Linari | Pending |
-| Dunvallo Linari - Magietheoretische Grundlagen zur Zauberwirkung Matrixtheorie.md | Toran Dur | Dunvallo Linari | Pending |
-| Dunvallo Linari - Matrixtheorie.md | Toran Dur | Dunvallo Linari | Pending |
+| Dunvallo Linari - Magietheoretische Grundlagen zur Zauberwirkung Matrixtheorie.md | Toran Dur | Dunvallo Linari | Integrated |
+| Dunvallo Linari - Matrixtheorie.md | Toran Dur | Dunvallo Linari | Integrated |
 | Dunvallo Linari - Philosophie.md | Toran Dur | Dunvallo Linari | Pending |
-| Dunvallo Linari - Reagenzien.md | Toran Dur | Dunvallo Linari | Pending |
+| Dunvallo Linari - Reagenzien.md | Toran Dur | Dunvallo Linari | Integrated |
 | Dunvallo Linari - Rituale des Magierturms.md | Toran Dur | Dunvallo Linari | Pending |
 | Dunvallo Linari - Thesen der Magiezweige.md | Toran Dur | Dunvallo Linari | Pending |
 | Dunvallo Linari - öber die Verwendung der Gesten und des Run in der Magie.md | Toran Dur | Dunvallo Linari | Pending |
@@ -252,7 +252,7 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Johannes Klos - Locus Magicae.md | Toran Dur | Johannes Klos | Pending |
 | Kalveron Dai - Das System arkaner LokalitÑten.md | Toran Dur | Kalveron Dai | Pending |
 | Kalveron Dai - De Magica Angamoniensis.md | Toran Dur | Kalveron Dai | Pending |
-| Kida Gilwen - Erweiterte SphÑrentheorie.md | Toran Dur | Kida Gilwen | Pending |
+| Kida Gilwen - Erweiterte SphÑrentheorie.md | Toran Dur | Kida Gilwen | Integrated |
 | Kulin Lateal - Das_Daimonicon.md | Toran Dur | Kulin Lateal | Integrated |
 | Lewyn Anacar - Ars Magica Metamorphosia.md | Toran Dur | Lewyn Anacar | Pending |
 | Logrin Goldaxt - Bartanatomie.md | Toran Dur | Logrin Goldaxt | Pending |
@@ -260,7 +260,7 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Nistram Rigas - Magica Contraria.md | Toran Dur | Nistram Rigas | Pending |
 | Nuir Ekre - Die Kunst der erschaffenen Diener I.md | Toran Dur | Nuir Ekre | Pending |
 | Nuir Ekre - Die Kunst der erschaffenen Diener II.md | Toran Dur | Nuir Ekre | Pending |
-| Radan der Graue - Die Ritualisierung.md | Toran Dur | Radan der Graue | Pending |
+| Radan der Graue - Die Ritualisierung.md | Toran Dur | Radan der Graue | Integrated |
 | Raisha al Javet - Invocatio Elementharii.md | Toran Dur | Raisha al Javet | Pending |
 | Rhadan der Graue - AriÔin.md | Toran Dur | Rhadan der Graue | Pending |
 | Rhadan der Graue - Zeichnung Tares.jpg | Toran Dur | Rhadan der Graue | Pending |
@@ -283,7 +283,7 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Toran Dur - Hellsichtritual Konstrukt am Wall.md | Toran Dur | Toran Dur | Pending |
 | Toran Dur - Index Siebenwind Band 2.md | Toran Dur | Toran Dur | Pending |
 | Toran Dur - Index Siebenwind Band IV.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Lehrbuch der Magietheorie.md | Toran Dur | Toran Dur | Pending |
+| Toran Dur - Lehrbuch der Magietheorie.md | Toran Dur | Toran Dur | Integrated |
 | Toran Dur - Magica Curativa - Die Heilmagie.md | Toran Dur | Toran Dur | Pending |
 | Toran Dur - Mazzarem Sprache 2.xls | Toran Dur | Toran Dur | Pending |
 | Toran Dur - Mazzaren-Sprache.xls | Toran Dur | Toran Dur | Pending |
@@ -295,7 +295,7 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Toran Dur - Theorie der aspektierten Magie.md | Toran Dur | Toran Dur | Pending |
 | Toran Dur - Theorie der grî·eren Kraftstrîme.md | Toran Dur | Toran Dur | Pending |
 | Uron Sbocaj - Thesen der Magiezweige.md | Toran Dur | Uron Sbocaj | Pending |
-| Wolfgang Ravinsthal - SphÑrenkunde.md | Toran Dur | Wolfgang Ravinsthal | Pending |
+| Wolfgang Ravinsthal - SphÑrenkunde.md | Toran Dur | Wolfgang Ravinsthal | Integrated |
 
 ## Level 4: Das Echo (Spieler-Lore)
 *Path: /Quellen/Spielergeschichten/*

@@ -1,18 +1,16 @@
 ---
 layout: wiki_page
-title: Aelwin
+title: "Aelwin"
 category: Persönlichkeiten
+status: stub
+quelle: "/Quellen/Bibliothek Astrael/Heilige Liturgien.md"
+author: "Antigravity"
 ---
 
 # Aelwin
 
-**Titel:** Seine Gnaden (Geweihter)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Kirche_der_Viere]]
+**Aelwin** ist ein Anwärter des [[Astrael]]-Ordens und Inquisitor, der für die Zusammenstellung heiliger Liturgien und die Dokumentation des [[Siebenwind_Wiki/01_Pantheon/Ritus_der_Exercitio|Ritus der Exercitio]] bekannt ist.
 
-## Beschreibung
-- **15 n.H. (Bote 120):** Schlichter im Konflikt um die [[Auktion_der_Familie_Turek]].
-- **16 n.H. (Bote 133):** Mitorganisator des Turniers in [[Falkensee]] (vertretend den [[Ordo_Astraeli]]) und Abhaltung einer feierlichen Messe.
-
----
-**Siehe auch:** [[Kirche_der_Viere]], [[Brandenstein]]
+## Überlieferung
+* [Heilige Liturgien](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/01_Pantheon/Heilige_Liturgien.md)
+* [Der heilige Ritus der Exercitio](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/01_Pantheon/Ritus_der_Exercitio.md)

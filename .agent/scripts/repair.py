@@ -35,11 +35,11 @@ def derive_category(path: Path) -> str:
         "04_Chronik": "Chronik",
         "07_Persoenlichkeiten": "Personen",
         "02_Geografie": "Geografie",
-        "03_Hintergrund": "Hintergrund",
+        "03_Gesellschaft": "Gesellschaft",
         "10_Archiv": "Archiv",
-        "05_Religion": "Religion",
-        "06_Gruppen": "Gruppen",
-        "01_Welt": "Welt"
+        "01_Pantheon": "Religion",
+        "05_Magie": "Magie",
+        "05_Geschichte": "Geschichte"
     }
     return mapping.get(parent_name, "Allgemein")
 

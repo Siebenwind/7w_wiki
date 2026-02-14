@@ -6,16 +6,16 @@ category: Index
 
 # Wiki Statistiken
 
-**Letztes Update:** 2026-02-14 02:47:38
+**Letztes Update:** 2026-02-14 05:30:36
 
 ## 📊 High-Level KPIs
 
 | Metrik | Wert |
 | :--- | :--- |
-| **Gesamtanzahl Artikel** | 837 |
-| **Bekannte Persönlichkeiten** | 472 |
-| **Gesamtwortzahl** | 122,851 |
-| **Vernetzungsgrad (Links/1k Worte)** | 64.16 |
+| **Gesamtanzahl Artikel** | 923 |
+| **Bekannte Persönlichkeiten** | 520 |
+| **Gesamtwortzahl** | 143,402 |
+| **Vernetzungsgrad (Links/1k Worte)** | 56.79 |
 
 ---
 
@@ -23,8 +23,8 @@ category: Index
 
 ```mermaid
 pie title Quellen Integrations-Status
-    "Integriert" : 121
-    "Ausstehend" : 121
+    "Integriert" : 173
+    "Ausstehend" : 69
 ```
 
 ---
@@ -34,8 +34,8 @@ pie title Quellen Integrations-Status
 ```mermaid
 bar-chart
     title Artikel pro Kategorie
-    x-axis [ "Root", "07_Persoenlichkeiten", "08_Bestiarium", "03_Gesellschaft", "05_Geschichte", "10_Archiv", "02_Geografie", "01_Pantheon", "04_Chronik", "06_Erzählungen", "06_Myten_und_Legenden", "09_Bibliothek", "00_Fundament" ]
-    y-axis Artikel [ 1, 472, 32, 51, 56, 5, 52, 28, 79, 9, 1, 28, 23 ]
+    x-axis [ "Root", "07_Persoenlichkeiten", "05_Magie", "08_Bestiarium", "03_Gesellschaft", "05_Geschichte", "10_Archiv", "02_Geografie", "01_Pantheon", "04_Chronik", "06_Erzählungen", "06_Geschichte", "06_Myten_und_Legenden", "09_Bibliothek", "00_Fundament" ]
+    y-axis Artikel [ 1, 520, 12, 32, 55, 56, 5, 52, 49, 79, 9, 1, 1, 28, 23 ]
 ```
 
 ---
@@ -44,10 +44,10 @@ bar-chart
 
 ```mermaid
 pie title Wissens-Fundament
-    "Canon" : 551
-    "Bote" : 1013
-    "Überlieferung" : 41
-    "Perspektive" : 201
+    "Canon" : 548
+    "Bote" : 1008
+    "Überlieferung" : 101
+    "Perspektive" : 199
 ```
 
 ---
@@ -60,7 +60,7 @@ xychart-beta
     title Erwähnungen pro Jahr (n.H.)
     x-axis [ "18", "19", "20", "21", "22", "23", "24", "25", "26", "28", "29", "30", "36", "123", "165" ]
     y-axis "Nennungen"
-    bar [ 237, 168, 174, 215, 94, 14, 2, 4, 7, 14, 65, 81, 10, 9, 2 ]
+    bar [ 237, 165, 174, 216, 93, 14, 2, 4, 7, 14, 65, 81, 10, 9, 2 ]
 ```
 
 ---
@@ -71,11 +71,11 @@ xychart-beta
 | Rang | Persönlichkeit | Umfang (Worte) | Links |
 | :--- | :--- | :--- | :--- |
 | 1 | [[Waldemar_Delarie]] | 626 | 48 |
-| 2 | [[Toran_Dur]] | 515 | 44 |
+| 2 | [[Toran_Dur]] | 540 | 45 |
 | 3 | [[Custodias]] | 445 | 71 |
 | 4 | [[Aspin_Schwertklinge_von_Fahlenau]] | 322 | 8 |
 | 5 | [[Haldur_Toda]] | 310 | 5 |
-| 6 | [[Hilgorad_I_ap_Mer]] | 307 | 20 |
+| 6 | [[Hilgorad_I_ap_Mer]] | 307 | 23 |
 | 7 | [[Thorgat]] | 292 | 3 |
 | 8 | [[Veridon]] | 288 | 6 |
 | 9 | [[Calmexistus_Salanus]] | 283 | 15 |
@@ -88,16 +88,16 @@ Die am häufigsten verlinkten Artikel im Wiki.
 
 | Rang | Entität | Verlinkungen |
 | :--- | :--- | :--- |
-| 1 | [[Falkensee]] | 341 |
-| 2 | [[Brandenstein]] | 314 |
+| 1 | [[Falkensee]] | 337 |
+| 2 | [[Brandenstein]] | 313 |
 | 3 | [[Siebenwind]] | 269 |
-| 4 | [[Personenregister]] | 110 |
+| 4 | [[Personenregister]] | 112 |
 | 5 | [[Nortraven]] | 77 |
-| 6 | [[Custodias]] | 71 |
-| 7 | [[Bellum]] | 69 |
-| 8 | [[Vitama]] | 63 |
-| 9 | [[Kirche_der_Viere]] | 60 |
-| 10 | [[Dwarschim]] | 58 |
+| 6 | [[Bellum]] | 76 |
+| 7 | [[Custodias]] | 71 |
+| 8 | [[Angamon]] | 70 |
+| 9 | [[Vitama]] | 69 |
+| 10 | [[Kirche_der_Viere]] | 56 |
 
 ---
 
@@ -105,29 +105,29 @@ Die am häufigsten verlinkten Artikel im Wiki.
 
 | Zeitraum | Neue Artikel | Geänderte Artikel |
 | :--- | :--- | :--- |
-| **Letzte 24h** | 294 | 132 |
-| **Letzte 7 Tage** | 778 | 138 |
-| **Letzte 30 Tage** | 778 | 138 |
+| **Letzte 24h** | 341 | 217 |
+| **Letzte 7 Tage** | 825 | 223 |
+| **Letzte 30 Tage** | 825 | 223 |
 
 ### Letzte Änderungen
 
 | Datum | Aktion | Artikel | Kategorie |
 | :--- | :--- | :--- | :--- |
+| 2026-02-14 | Geändert | Die Monde | 00_Fundament |
+| 2026-02-14 | Geändert | Die Sprache Run | 00_Fundament |
+| 2026-02-14 | Geändert | Magietheorie Toran Dur | 00_Fundament |
 | 2026-02-14 | Geändert | Organisationsregister | 00_Fundament |
 | 2026-02-14 | Geändert | Personenregister | 00_Fundament |
-| 2026-02-14 | Neu | Akora | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Dorion Hali | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Thorgat | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Waldemar Delarie | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Erinnerungen eines alternden Zwergen | 09_Bibliothek |
-| 2026-02-14 | Neu | Nichts und ohne Pointe | 09_Bibliothek |
-| 2026-02-14 | Neu | Von gesplitterten Seelen | 09_Bibliothek |
-| 2026-02-14 | Neu | Waldemars Reise Papin | 09_Bibliothek |
-| 2026-02-13 | Neu | Aequitas | 01_Pantheon |
-| 2026-02-13 | Neu | Brevier des Ordo Astraeli | 01_Pantheon |
-| 2026-02-13 | Neu | Codex Iuris Canonici | 01_Pantheon |
-| 2026-02-13 | Neu | Saeulenmeer | 02_Geografie |
-| 2026-02-13 | Neu | Oculus Ecclesiae | 03_Gesellschaft |
+| 2026-02-14 | Geändert | Brevier Ordo Belli | 01_Pantheon |
+| 2026-02-14 | Geändert | Brevier Ordo Morsanes | 01_Pantheon |
+| 2026-02-14 | Geändert | Brevier Ordo Vitamae | 01_Pantheon |
+| 2026-02-14 | Geändert | Burg Finianswacht | 02_Geografie |
+| 2026-02-14 | Geändert | Region Sae | 02_Geografie |
+| 2026-02-14 | Geändert | Saeulenmeer | 02_Geografie |
+| 2026-02-14 | Neu | Weteka | 02_Geografie |
+| 2026-02-14 | Geändert | Grosser Rat | 03_Gesellschaft |
+| 2026-02-14 | Geändert | Hafengilde Brandenstein | 03_Gesellschaft |
+| 2026-02-14 | Geändert | Oculus Ecclesiae | 03_Gesellschaft |
 
 ---
 > [!NOTE]

@@ -55,11 +55,10 @@ Vor dem Beenden deiner Session musst du:
     - Schreibe kurze Erklärungen (1-2 Sätze) zu jedem komplexen Task.
 2.  **[CHANGELOG.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/CHANGELOG.md)** aktualisieren.
 3.  **Wiki-Statistiken**: Führe den Workflow `/stats` aus.
-4.  **Dokumentation:**
-    - Führe die **[MASTER_TASK_LIST.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/MASTER_TASK_LIST.md)** nach dem Farbschema 🔴 (Kritisch), 🟡 (Inhalt), 🔵 (Qualität), ⚪ (Backlog).
-    - Jede Aufgabe muss eine kurze Erläuterung enthalten, was das Ziel ist.
-    - Erledigte Phasen werden in die **Historie** am Ende der Datei verschoben.
 5.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md).
+6.  **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:
+    - Naming-Scheme: `Handover Phase [NR]: [Zusammenfassung] ([UUID]) ([Datum])`
+    - Beispiel: `git commit -m "Handover Phase 16: Batch 25 & Audit (0D1DD705) (2026-02-14)"`
 
 ### 7. Lessons Learnt für dich
 - **Hüte dich vor "file://"**: Kopiere niemals absolute Pfade aus deiner Umgebung in das Wiki. Nutze nur die Wiki-Syntax.

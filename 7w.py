@@ -9,6 +9,11 @@ Siebenwind Lore Engine CLI (7w)
 Unified entry point for all archival and intelligence tools.
 """
 
+# UI Helpers
+BOLD = "\033[1m"
+YELLOW = "\033[93m"
+RESET = "\033[0m"
+
 def run_script(path, args=[]):
     script_path = os.path.join(os.path.dirname(__file__), path)
     
@@ -38,6 +43,10 @@ def main():
     # Stats
     subparsers.add_parser("stats", help="Generate Wiki Statistics and Dashboard")
 
+    # Historian
+    hist_parser = subparsers.add_parser("historian", help="Deep Lore Analysis (Workflow)")
+    hist_parser.add_argument("query", nargs="?", help="Subject to analyze")
+
     # Repair
     subparsers.add_parser("repair", help="Interactive repair of links and metadata")
 
@@ -49,7 +58,14 @@ def main():
     index_parser.add_argument("--rebuild", action="store_true", help="Full re-indexing")
     index_parser.add_argument("--status", action="store_true", help="Check index status")
 
-    args = parser.parse_args()
+    # Advisor (Default)
+    subparsers.add_parser("advisor", help="Show system status and recommendations (Default)")
+
+    # Check if no arguments provided, default to advisor
+    if len(sys.argv) == 1:
+        args = parser.parse_args(["advisor"])
+    else:
+        args = parser.parse_args()
 
     if args.command == "search":
         search_args = [args.query]
@@ -57,8 +73,24 @@ def main():
             search_args.extend(["--source", "quellen"])
         run_script(".agent/skills/oracle/search.py", search_args)
 
+    elif args.command == "advisor":
+        run_script(".agent/scripts/advisor.py")
+
     elif args.command == "stats":
         run_script(".agent/scripts/generate_wiki_stats.py")
+
+    elif args.command == "historian":
+        # Historian logic: If query is provided, start a search + analysis briefing
+        # If not, just show the workflow instructions.
+        if args.query:
+            print(f"🏛️  {BOLD}Historiker-Analyse für: {args.query}{RESET}")
+            # First, trigger a search to gather context
+            search_args = [args.query, "--top", "10", "--source", "all"]
+            run_script(".agent/skills/oracle/search.py", search_args)
+            print(f"\n💡 {YELLOW}Tipp:{RESET} Nutze den Workflow `/historian` für die tiefe Rekonstruktion.")
+        else:
+            print(f"📖 {BOLD}Workflow: /historian{RESET}")
+            run_script(".agent/workflows/historian.md") # Just show the file
 
     elif args.command == "repair":
         run_script(".agent/scripts/repair.py")

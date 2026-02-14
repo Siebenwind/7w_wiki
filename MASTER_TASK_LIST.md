@@ -9,21 +9,23 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ---
 
-## 🔴 Priorität 1: Aktueller Fokus (Kritisch / Blocker)
-*Diese Aufgaben haben höchste Dringlichkeit und müssen abgeschlossen werden, bevor neue Phasen begonnen werden.*
-
-- [x] Epistemic Status & Link-Audit (Phase 13)
-- [x] Restore Wiki Consistency (Deduplication, Orphan-Fix)
 - [x] **Handover-Vorbereitung**: Statistiken generiert, Changelog gepflegt.
-- [ ] **System-Repair**: Behebung von 13 Inkonsistenzen (gemeldet durch Advisor).
+- [x] **System-Repair**: Behebung von register_check Inkonsistenzen (Healthy Register).
+- [x] **Konstitution & Sicherheit**: Implementierung der "Constitution of Responsibility".
+- [x] **Batch 25**: Integration der Toran Dur Magie-Bibliothek.
+- [x] **Audit**: Vollständiger System-Audit Feb 2026.
 
 
-## 🟡 Priorität 2: Inhalte & Ingestion (Operativ)
-*Standardaufgaben des Archiv-Prozesses zur Erweiterung der Wissensbasis.*
-
-- [/] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`). Batch 20-22 abgeschlossen. Nächster Schritt: Batch 23.
-- [ ] **Vernetzung (Weaving)**: Überprüfung der bi-direktionalen Verlinkung. Sicherstellen, dass unter `## Überlieferungen` qualitativ hochwertige Backlinks bestehen.
+- [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`). Batch 25 (Toran Dur Library) abgeschlossen. Nächster Schritt: Batch 26.
+- [ ] **Vernetzung (Weaving)**: Überprüfung der bi-direktionalen Verlinkung.
+- [x] **Lore Research Board**: Initialisierung des Boards mit 3 aktiven Ausschreibungen.
 - [ ] **Narrative Enrichment**: Ausbau von Stubs zu profunden Artikeln ("Roman-Qualität"). Fokus auf Motivation, Atmosphäre und Zitate.
+
+## 🔬 Aktuelle Lore-Ausschreibungen (Research Board)
+*Detaillierte Aufträge siehe [[LORE_RESEARCH_BOARD.md]]*
+- [ ] **RESEARCH-2026-001**: Die Neun Domänen des Angamon (🔴)
+- [ ] **RESEARCH-2026-002**: Die Transformation des Ödlands (🟡)
+- [ ] **RESEARCH-2026-003**: Die Linari-Matrix (🟡)
 
 ## 🔵 Priorität 3: Qualität & Politur (Optimierung)
 *Verbesserungen an System und Lore, die den Nutzwert steigern.*
@@ -40,7 +42,18 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ---
 
-## ✅ Historie & Abgeschlossene Meilensteine
+### Phase 16: Magie & Kosmologie (Feb 2026)
+- **Batch 25 (Toran Dur Library)**: Vollständige Integration von 13 magietheoretischen und kosmologischen Texten.
+- **Dämonologie & Rituale**: Erstellung des `Daimonicon` und der `Rituallehre`.
+- **System-Repair**: Healthy Register Status erreicht (0 Duplikate, 0 Orphans).
+- **Lore-Board**: Erstellung des `LORE_RESEARCH_BOARD.md` zur Nachverfolgung offener Lore-Fragen.
+
+### Phase 15: Die Verfassung der Verantwortung (Feb 2026)
+- **Safe Defaults**: `7w.py` läuft nun standardmäßig im Advisor-Modus (Situationsbewusstsein zuerst).
+- **Konstitution**: Erstellung der `WORKFLOW_ARCHITECTURE.md` (Gewaltenteilung: Legislative, Judikative, Exekutive).
+- **Eskalations-Matrix**: Einführung von 3 Log-Levels zur Vermeidung bürokratischer Overheads.
+- **Ur-Prozess**: Workflow `/antigravity` als Master-Protokoll etabliert.
+- **Judicial Logging**: `Logs/JUDICIARY_LOG.md` für Level-3 Entscheidungen implementiert.
 
 ### Phase 13: Politische Krisen (Feb 2026)
 - **Boten 181-185**: Rekonstruktion des Putsches in Falkensee und der Führungskrise des Löwenordens.
@@ -68,9 +81,10 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Lore-Härtung**: Definition von "Horwah", Nekromantie-Ritualen und Dämonenseuchen.
 - **Register-Sync**: ~20 neue Profile erstellt und verknüpft.
 
-### Phase 13b: Historiker-Review (Feb 2026)
-- **Waldemar Delarie**: Timeline-Korrektur (25 -> 21 n.H.) und redaktionelle Überarbeitung (Regierungsrat, Gerüchte).
-- **William Glaron**: Biografie-Erweiterung (Turniersieg & Tragödie) basierend auf Bote 184/Abschiedsbrief.
+### Phase 14c: Astrael Integration & System Health (Feb 2026)
+- **Batch 23**: Integration von 8 religiösen Texten der Bibliothek Astrael.
+- **System-Repair**: Bereinigung von 13 Inkonsistenzen (Gorem-Duplikate, fehlende Profile).
+- **Register-Sync**: Konsolidierung von Aspin/Athos und Erstellung von 8 neuen Profilen.
 
 ### Infrastruktur & Tools (Jan/Feb 2026)
 - **Das Orakel**: Einführung der semantischen Suche (RAG) auf Basis von Jina v3.

@@ -1,42 +1,50 @@
-
 import os
-from pathlib import Path
 
 names = [
-    "Alashar", "Andaris_Maran", "Eleonore", "Erdur", "Eret",
-    "Gero_von_Papin", "Hadhal", "K_endalor_Aothes", "Kaarem_Balta",
-    "Maltus_Shuarshirad", "Narbenschnauze", "Plinius_Deseglieri",
-    "Romualdo_Jakta", "Romualdo_Lavarin", "Samuel_der_Heiler",
-    "T.", "Tantalla", "Willibald_Puckel"
+    "Aelfrid_Wildgaden",
+    "Gimbart_Galdora",
+    "Gorion",
+    "Hornstoß",
+    "Knochenfürst",
+    "Magister_ad_Sinister",
+    "Markus",
+    "Mehr'thak",
+    "Nirluk",
+    "Püppchen",
+    "Szarmaduk",
+    "Todward_von_Saalhorn"
 ]
 
-base_path = Path("Siebenwind_Wiki/07_Persoenlichkeiten")
+target_dir = "/Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/07_Persoenlichkeiten"
 
 template = """---
 layout: post
 title: "{title}"
 category: Personen
+status: Stub
 ---
 
 # {title}
 
-**Epistemischer Status:** #perspektive
+> [!INFO]
+> Dieser Artikel ist ein Stub. Er wurde automatisch aus dem Personenregister generiert.
 
-*Dieser Artikel ist ein Stub. Er wurde im Rahmen des Konsistenz-Audits automatisch angelegt.*
+**Zugehörigkeit:** Unbekannt
+**Status:** Unbekannt
 
 ## Beschreibung
-{name} ist eine Person, die im [[Personenregister]] verzeichnet ist.
-
-## Quelle
-[Unbekannt]
+Bisher liegen keine detaillierten Informationen zu **{title}** vor.
 """
 
 for name in names:
-    file_path = base_path / f"{name}.md"
-    if not file_path.exists():
-        title = name.replace("_", " ")
-        content = template.format(title=title, name=title)
-        file_path.write_text(content, encoding="utf-8")
-        print(f"Created {file_path}")
-    else:
-        print(f"Skipped {file_path} (Exists)")
+    title = name.replace("_", " ")
+    filename = f"{name}.md"
+    filepath = os.path.join(target_dir, filename)
+    
+    if os.path.exists(filepath):
+        print(f"Skipping {filename}, already exists.")
+        continue
+        
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(template.format(title=title))
+    print(f"Created {filename}")

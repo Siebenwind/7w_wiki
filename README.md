@@ -15,6 +15,7 @@ Das zentrale Intelligenz-Framework für die Welt von Siebenwind. Dieses Projekt 
 | 📜 **[Changelog](CHANGELOG.md)** | **Evolution & Meilensteine.** |
 | ✅ **[Master Task List](MASTER_TASK_LIST.md)** | **Zukunft & Strategischer Fokus.** |
 | 📖 **[Lore Engine Spec](.agent/docs/LORE_ENGINE_SPEC.md)** | **Technische Architektur & CLI-Standard.** |
+| 🏰 **[Workflow-Architektur](.agent/docs/WORKFLOW_ARCHITECTURE.md)** | **Philosophie & Ökosystem (Strategie).** |
 | 📊 **[Wiki Statistiken](Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md)** | **Lore-Dichte & KPI-Dashboard.** |
 
 ---
@@ -25,6 +26,10 @@ Wir haben alle Intelligenz-Tools in einer zentralen Schnittstelle gebündelt. Di
 
 ### 📚 Nutzung
 ```bash
+# SYSTEM STATUS & DASHBOARD (Default Option)
+./7w.py
+# (Führt automatisch den Advisor aus und zeigt offene Tasks/Probleme)
+
 # Semantische Lore-Suche (Das Orakel)
 ./7w.py search "Wer war Hilgorad?"
 
@@ -36,6 +41,9 @@ Wir haben alle Intelligenz-Tools in einer zentralen Schnittstelle gebündelt. Di
 
 # Index-Wartung
 ./7w.py index --status
+
+# Historiker-Analyse (Deep Lore)
+./7w.py historian "Angamon"
 ```
 
 ---
@@ -56,10 +64,22 @@ Das Projekt folgt einer **AI-Agnostischen Philosophie**. Während es für den *O
 
 Dieses Repository ist darauf ausgelegt, als **Wissens-Plugin** für KI-Agenten zu fungieren. Durch virtuelle Verweise und standardisierte Metadata (YAML) im Wiki kann das System:
 1.  **Semantisch navigieren** (Orakel).
-2.  **Epistemisch validieren** (Wahrheitshierarchie #canon bis #perspektive).
-3.  **Proaktiv reparieren** (Audit & Repair).
+2.  **Epistemisch validieren** (Wahrheitshierarchie).
+3.  **Proaktiv forschen** (Lore Research Board & Assignments).
+4.  **Kontinuierlich reparieren** (Audit & Repair).
 
 ---
+
+## 🛡️ Default Safety Protocols
+
+Das System ist **"Secure by Default"**. Um Informationsverlust zu verhindern, gelten folgende Automatismen:
+
+1.  **Advisor-First:** Der Aufruf von `./7w.py` ohne Argumente startet immer die System-Diagnose.
+2.  **Strict Audit:** Jeder `/takeover` erzwingt eine Konsistenz-Prüfung.
+3.  **Antigravity Protocol:** Der Workflow `/antigravity` dient als Fallback-Ebene für strikte, skript-gesteuerte Exekution.
+
+---
+
 
 ## 💻 Deployment & Vorschau
 

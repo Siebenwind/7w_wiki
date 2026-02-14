@@ -1,6 +1,43 @@
 # Changelog: Siebenwind-Wiki-Rekonstruktion
 
 Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
+## [2026-02-14.6] - Batch 25: Toran Dur Magie-Bibliothek & System Audit
+### Hinzugefügt
+- **Batch 25: Toran Dur Library**:
+    - Integration der magietheoretischen Grundlagen (8 Texte: Matrix, Elemente, Zensor etc.).
+    - Integration der praktischen Arkanologie (5 Texte: Dämonologie, Alchemie, Rituale, Zeit- & Sphärentheorie).
+    - Erstellung zentraler Magie-Artikel: `Daimonicon`, `Rituallehre_Sphaeren`, `Alchemie_Grundlagen`, `Sphaerenkunde_Kosmologie`.
+    - Profile für `Kulin_Laetall`, `Rhadan_der_Graue`, `Kida_Gilwen`, `Wolfgang_Ravinsthal`, `Dunvallo_Linari`.
+- **System & Lore**:
+    - **Lore Research Board**: `LORE_RESEARCH_BOARD.md` zur workflow-gestützten Lore-Klärung.
+    - **System Audit**: Durchführung des `/audit` Workflows (Report 2026-02-14). 
+    - **Register Status**: Healthy Register bestätigt (0 Duplikate/Orphans).
+
+### Geändert
+- **Wiki-Statistiken**: Dashboard aktualisiert (923 Artikel, Lore-Hubs neu berechnet).
+- **Repair Tool**: `repair.py` auf aktuelle Wiki-V2.1-Struktur angepasst.
+
+### Hinzugefügt
+- **Konstitutionelles Framework**:
+    - `WORKFLOW_ARCHITECTURE.md`: Einführung der strategischen Architektur (Trias Politica Modell).
+    - `/antigravity`: Neuer Master-Workflow für strikte, skriptgesteuerte Exekution.
+    - `Logs/JUDICIARY_LOG.md`: Offizielles Entscheidungsprotokoll für kritische Lore-Eingriffe (Level 3).
+    - `.agent/tests/TEST_CASES.md`: Validierungssuite für das Systemverhalten.
+- **Eskalationsstufen**: Definition von 3 Leveln (Standard, Kontrolliert, Judiziell) zur Balance zwischen Effizienz und Sicherheit.
+
+### Geändert
+- **7w CLI (`7w.py`)**: Advisor-Modus ist nun der Default-Befehl (Situationsbewusstsein bei Start).
+- **Onboarding (`takeover.md`)**: Mandat für High-Verification und Subdivision-Prinzipien.
+
+## [2026-02-14.4] - Batch 23: Astrael Religious Texts
+### Hinzugefügt
+- **Batch 23: Bibliothek Astrael**:
+    - Integration von 8 religiösen Texten und Mythen: `Der_Blutrote_Stier`, `Der_Traum_der_Tausend`, `Der_letzte_Falke`, `Der_naive_Mensch`, `Die_Eisernen_Tafeln`, `Die_Goldenen_Tafeln`, `Die_Silbernen_Tafeln`, `Die_Legende_von_Galahad_Ritter_der_Rosen`.
+    - Erstellung von 8 Personenprofil-Stubs: `Azaris`, `Barnabas`, `Dannor`, `Galahad`, `Irindal`, `Jeremias`, `Kedrin`, `Tai_Sah_Halour_Glurias`.
+- **System-Wartung**:
+    - Vorbereitende Konsistenzprüfung und Bereinigung von 13 initialen Fehlern (Gorem, etc.).
+    - Bereinigung von Duplikaten (Aspin, Athos) nach Register-Sync.
+
 ## [2026-02-14.3] - Spielergeschichten Integration (Batches 20-22)
 ### Hinzugefügt
 - **Batch 20: Dark Lore & Cults**:
@@ -210,6 +247,17 @@ Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgeha
 
 ### Ergebnisse
 - Erfolgreiche Eliminierung von "Fanon"-Elementen (Halluzinationen), die sich in die Regionsbeschreibungen eingeschlichen hatten.
+### [Batch 24] - Astrael's Legacy (II) - 2026-02-14
+- **Dateien**: 19 historische & theologische Schriften der Bibliothek Astrael integriert.
+- **Highlights**: Stadtchronik Rohehafens, Myten-Bericht, Matrixtheorie von Derrvus, Ritus der Exercitio.
+- **Register**: 12+ neue Entitäten synchronisiert (Derrvus, Anais, Aelwin, etc.).
+
+### [Batch 23] - Astrael's Erbe (I) - 2026-02-14
+- **Ingestion:** Verarbeitung von 5 Spielergeschichten (Batch 19).
+- **Entitäten:** Erstellung von 12+ neuen Personenprofilen und 3 Organisationen.
+- **Lore:** Dokumentation der Argionemes-Verschwörung und der Schwarzen Legion.
+- **Wartung:** Konsolidierung von Dubletten und Update des Personenregisters.
+- Klare Trennung zwischen aktiven (Königliche Akademie) und historischen (Tiefenbach, Schwarze Künste) Magieschulen hergestellt.
 ### [Phase 14] - 2026-02-13
 - **Ingestion:** Verarbeitung von 5 Spielergeschichten (Batch 19).
 - **Entitäten:** Erstellung von 12+ neuen Personenprofilen und 3 Organisationen.

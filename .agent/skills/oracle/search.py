@@ -20,7 +20,20 @@ import argparse
 import time
 from pathlib import Path
 
-# --- Dependency-Check ---
+# --- Pfade auflösen ---
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent.parent.parent
+MODEL_CACHE = REPO_ROOT / ".agent" / "data" / "models"
+
+# --- Umgebungsvariablen (MÜSSEN vor den Modell-Imports gesetzt werden) ---
+os.environ["SENTENCE_TRANSFORMERS_HOME"] = str(MODEL_CACHE)
+os.environ["HF_HOME"] = str(MODEL_CACHE / "huggingface")
+os.environ["HF_HUB_CACHE"] = str(MODEL_CACHE / "huggingface" / "hub")
+os.environ["XDG_CACHE_HOME"] = str(MODEL_CACHE / "xdg_cache")
+os.environ["TOKENIZERS_PARALLELISM"] = "false" # Warnung unterdrücken
+
+# --- Pfade für Imports ---
+# (Path-Setup für relative Imports falls nötig)
 try:
     import chromadb
     from sentence_transformers import SentenceTransformer
@@ -33,14 +46,8 @@ except ImportError:
     print("   .agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/search.py \"Suchbegriff\"")
     sys.exit(1)
 
-# --- Pfade auflösen ---
-SCRIPT_DIR = Path(__file__).resolve().parent
-REPO_ROOT = SCRIPT_DIR.parent.parent.parent
-MODEL_CACHE = REPO_ROOT / ".agent" / "data" / "models"
+# --- Pfade ---
 CHROMA_DIR = REPO_ROOT / ".agent" / "data" / "chroma_db"
-
-os.environ["SENTENCE_TRANSFORMERS_HOME"] = str(MODEL_CACHE)
-os.environ["HF_HOME"] = str(MODEL_CACHE / "huggingface")
 
 # --- Konfiguration ---
 EMBEDDING_MODEL = "jinaai/jina-embeddings-v3"
@@ -251,13 +258,15 @@ def main():
     config_path = SCRIPT_DIR / "config.json"
     default_device = "mps" if sys.platform == "darwin" else "cpu"
     
-    if config_path.exists():
-        import json
-        try:
+    try:
+        if config_path.exists():
+            import json
             with open(config_path) as f:
                 cfg = json.load(f)
                 if "device" in cfg: default_device = cfg["device"]
-        except: pass
+    except Exception as e:
+        # Fallback to default device if permission or other errors occur
+        pass
 
     parser = argparse.ArgumentParser(
         description="Das Orakel – Semantische Suche im Siebenwind-Archiv"

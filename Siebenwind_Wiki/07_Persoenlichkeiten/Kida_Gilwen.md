@@ -2,22 +2,18 @@
 layout: wiki_page
 title: Kida Gilwen
 category: Persönlichkeiten
-status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 163.md
 ---
+
 # Kida Gilwen
 
-**Titel:** Erzmaga des Grauen Pfades (ehem.)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Magierakademie]] / [[Graue_Garde]]
-**Zeitraum:** aktiv 18-19 n.H.
+**Titel:** Gelehrte der Arkanen Zeitrechnung
+**Epistemischer Status:** #überlieferung
+**Zugehörigkeit:** unbekannt (vermutlich Elbische Herkunft oder starke elbenfreundliche Prägung)
 
 ## Beschreibung
-**Kida Gilwen** ist eine hochrangige Magierin des Grauen Pfades auf [[Siebenwind]]. Sie leitete den Pfad zur Mitte in den unruhigen Zeiten nach dem Verschwinden des Königs.
+**Kida Gilwen** ist die Verfasserin der **[[Sphaerenkunde_Kosmologie|Erweiterten Sphärentheorie]]**. Ihr Werk ist revolutionär für das Verständnis des Zeitflusses auf Siebenwind. Sie postulierte das Modell des "Sphärenbaums", in dem Entscheidungen neue Realitätszweige erschaffen.
 
-## Wirken
-*   **Pfadleitung:** Sie hielt das Amt der Erzmaga inne, bis sie im Jahr 19 n.H. (Bote 163) beim Konvent in [[Brandenstein]] zur Neuwahl antrat.
-*   **Wahl (19 n.H.):** Bei der Wahl erhielt sie zwei Stimmen, während ihr Kontrahent [[Toran_Dur]] mit sieben Stimmen zum neuen Erzmagus gewählt wurde. Nach der Wahl übergab sie die Pfadleitung an Dur.
+Ihre Texte sind oft mit feinen elbischen Zügen unterschrieben, was auf eine tiefe Verbindung zum Volk der Elfen hindeutet, insbesondere da sie deren intuitive Magie als Beweis für ihre Thesen heranzieht.
 
 ---
-**Siehe auch:** [[Toran_Dur]], [[Magierakademie]]
+**Siehe auch:** [[Sphaerenkunde_Kosmologie]], [[Magie]]

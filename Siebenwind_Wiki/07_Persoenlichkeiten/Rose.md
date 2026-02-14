@@ -1,22 +1,15 @@
 ---
 layout: wiki_page
-title: Rose
+title: "Rose"
 category: Persönlichkeiten
-status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 139.md
+status: stub
+quelle: "/Quellen/Bibliothek Astrael/Spiegel.md"
+author: "Antigravity"
 ---
+
 # Rose
 
-**Titel:** Wirtin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Taverne "Zum Seiltänzer" / [[Falkensee]]
-**Zeitraum:** aktiv um 16 n.H.
+**Rose** ist eine Autorin und Poetin, bekannt für das mystische Gedicht [[Siebenwind_Wiki/01_Pantheon/Spiegel_Poem|Spiegel]].
 
-## Beschreibung
-**Rose** ist die Wirtin der Taverne "Zum Seiltänzer" in der aufstrebenden Hauptstadt [[Falkensee]]. Sie gilt als großzügig und unterstützt tatkräftig das soziale Leben der Stadt.
-
-## Wirken
-Im Jahr 16 n.H. (Bote 139) stellte sie Nahrungsmittel für den Kochwettstreit des [[Orden_der_Traenen_Vitamas]] zur Verfügung, um jene Köche zu unterstützen, die sich die Zutaten nicht selbst leisten konnten.
-
----
-**Siehe auch:** [[Falkensee]], [[Orden_der_Traenen_Vitamas]]
+## Überlieferung
+* [Spiegel (Gedicht)](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/01_Pantheon/Spiegel_Poem.md)

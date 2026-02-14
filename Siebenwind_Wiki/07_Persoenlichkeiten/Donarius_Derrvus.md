@@ -1,19 +1,18 @@
 ---
 layout: wiki_page
-title: Donarius Derrvus
-category: [[Persönlichkeiten]]
+title: "Donarius Derrvus"
+category: Persönlichkeiten
+status: stub
+quelle: "/Quellen/Bibliothek Astrael/Von den Myten.md"
+author: "Antigravity"
 ---
 
 # Donarius Derrvus
 
-**Epistemischer Status:** #canon
+**Donarius Derrvus** ist ein hochrangiger Geweihter des [[Astrael]] (oder [[Morsan]] laut anderen Quellen), der als *Defensor Fidei* und Dozent bekannt ist. Er verfasste grundlegende Werke über die [[Siebenwind_Wiki/01_Pantheon/Von_den_Myten|Myten]], die [[Siebenwind_Wiki/01_Pantheon/Gohor_Haeresie|Gohor-Häresie]] und die [[Siebenwind_Wiki/03_Gesellschaft/Derrvus_Matrixtheorie|Matrixtheorie]].
 
-Ein hochgelehrter Magus und Chronist der [[Kirche_der_Viere]].
-
-## Wirken & Forschung
-Donarius Derrvus ist bekannt für seine analytischen Abhandlungen über die Völker und philosophischen Strömungen Tares. Zu seinen bekanntesten Werken gehören:
-*   **Von den [[Myten]]:** Ein detaillierter (wenn auch aus kirchlicher Sicht gefärbter) Bericht über die Sozialstruktur und Physis der Kabale.
-*   **[[Aequilibrium]]:** Eine kritische Auseinandersetzung mit der Lehre des Gleichgewichts, in der er vor den Gefahren des Dualismus warnt.
-
-## Perspektive
-Sein Schreibstil ist akademisch und von einem tiefen Glauben an die Überlegenheit der göttlichen Ordnung der Sahor (Viere) geprägt. Er gilt als eine der verlässlichsten Quellen für die ethnographische Erfassung der "fremden" Völker, auch wenn er diese oft als "barbarisch" oder "elementar unausgewogen" einstuft.
+## Überlieferung
+* [Von den Myten](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/01_Pantheon/Von_den_Myten.md)
+* [Über die Gohor](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/01_Pantheon/Gohor_Haeresie.md)
+* [Derrvus Matrix-Theorie](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/03_Gesellschaft/Derrvus_Matrixtheorie.md)
+* [Von der rechten Art der Mission](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/03_Gesellschaft/Astrael_Missionslehre.md)
