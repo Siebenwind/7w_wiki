@@ -312,10 +312,10 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Der Flug der Ente..3.md | - | Integrated (Merged) |
 | Der Flug der Ente..md | - | Integrated |
 | Der Flug der Ente1.md | - | Integrated (Merged) |
-| Die Elemente - ungleiche Geschwister.md | - | Pending |
+| Die Elemente - ungleiche Geschwister.md | - | Integrated |
 | Die Nacht des Dunkeltiefs.md | - | Integrated |
-| Die Namikleris.md | - | Pending |
-| Die Verbrennung des heiligen Markus.md | - | Pending |
+| Die Namikleris.md | - | Integrated |
+| Die Verbrennung des heiligen Markus.md | - | Integrated |
 | Dunkeltief- Vänskap.md | - | Integrated |
 | Ein Abschiedsbrief.md | - | Integrated |
 | Einer Löwin Traum.md | - | Integrated |
@@ -330,18 +330,18 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Jassavia.md | - | Integrated |
 | Jenseits des Walls.md | - | Integrated |
 | Khalandra.md | - | Integrated |
-| Kraken.md | - | Pending |
+| Kraken.md | - | Integrated |
 | Kriegstagebuch eines Soldaten.md | - | Integrated |
-| Letzte Vorbereitungen.md | - | Pending |
-| Logbuch des Kerkers.md | - | Pending |
-| Nachts im Brandensteiner Tempel.md | - | Pending |
+| Letzte Vorbereitungen.md | - | Integrated |
+| Logbuch des Kerkers.md | - | Integrated |
+| Nachts im Brandensteiner Tempel.md | - | Integrated |
 | Nebel in Brandenstein.md | - | Integrated |
 | Alles_ohne_Pointe.md | - | Integrated |
-| Prüfung und Entsagung.md | - | Pending |
-| Pueppchens Flucht.md | - | Pending |
-| Ritus, Gebet und Erleuchtung.md | - | Pending |
-| Solfeister Kin.md | - | Pending |
-| Studenten – WG | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
+| Prüfung und Entsagung.md | - | Integrated |
+| Pueppchens Flucht.md | - | Integrated |
+| Ritus, Gebet und Erleuchtung.md | - | Integrated |
+| Solfeister Kin.md | - | Integrated |
+| Studenten – WG | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Integrated |
 | Von gesplitterten Seelen und blutigen Kehlen.md | - | Integrated |
 | Waldemar Delaries Reise nach Papin.md | - | Integrated |
 

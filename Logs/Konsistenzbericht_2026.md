@@ -153,4 +153,14 @@ Keine kritischen Widersprüche in der Erzählung gefunden, jedoch strukturelle D
 - **Stubs:** ✅ 57 Profil-Stubs erstellt, um 100% Dateipräsenz zu garantieren.
 - **Tools:** ✅ `/repair` Workflow und `repair.py` erfolgreich zur Bereinigung eingesetzt.
 - **Status:** Wiki-Kern (Personen) ist 100% konsistent.
-**Aktion:** Keine weiteren Aktionen erforderlich für Batch 1. Monitoring der verbleibenden 30 Profildatei-Lücken.
+- **Aktion:** Keine weiteren Aktionen erforderlich für Batch 1. Monitoring der verbleibenden 30 Profildatei-Lücken.
+
+---
+## [RECHERCHE] Fallakte Marnie Ruatha (Bote 167-186)
+**Datum:** 2026-02-14T04:15+01:00 (Handover)
+**Inhalt:** Prüfung der Hintergründe zur Hafenvogtin von Brandenstein.
+- **Fakt:** Verhaftung 22 n.H., Asyl bei Custodias.
+- **Lücke:** [[Tjure_Odal]] wird als unterstützter Ketzer genannt, existiert aber nicht im Wiki.
+- **Prüfbedarf:** [[Arn_Toron]] existiert, Rolle unklar.
+**Status:** ⚠️ Offen (Gap: Tjure Odal)
+**Aktion:** Erstellung des Profils `Tjure_Odal.md` und Prüfung der Verbindungen zu Toron.
