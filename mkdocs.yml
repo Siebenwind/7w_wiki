@@ -1,6 +1,7 @@
-site_name: Siebenwind Wiki 2.0
-site_description: Das zentrale Wissensarchiv der Siebenwind-Welt.
-site_author: Oberarchivar
+site_name: Siebenwind Lore Engine 2.4
+site_description: Das digitale Gedächtnis von Falandrien.
+site_author: Siebenwind Gemeinschaft
+copyright: "© 2026 Siebenwind Gemeinschaft | CC BY-NC-SA 4.0"
 docs_dir: docs
 site_dir: site
 

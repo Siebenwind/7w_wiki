@@ -73,9 +73,9 @@ Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
 
 ---
 
-## 🤝 Mitarbeit & Lizenz
-Wir bewahren das Werk von Vielen. Wenn du Fehler findest oder Lore ergänzen möchtest:
-- **Code:** [MIT License](https://github.com/Siebenwind/7w_wiki/blob/main/LICENSE)
-- **Content:** CC BY-NC-SA 4.0 (Community Legacy)
+## 🤝 Mitarbeit & Vermächtnis
+Wir bewahren das Werk einer ganzen Gemeinschaft. Beteiligungen sind ausdrücklich erwünscht.
+- **Detaillierte Richtlinien:** Siehe [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Lizenzen:** Code unter [MIT](LICENSE), Inhalte unter [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-*© 2026 Siebenwind Archivare | Bewahrung durch Diskretion.*
+*© 2026 Siebenwind Gemeinschaft | Das Gedächtnis der Welt.*

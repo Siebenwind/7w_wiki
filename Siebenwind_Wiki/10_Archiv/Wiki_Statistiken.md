@@ -6,14 +6,14 @@ category: Index
 
 # 📊 Wiki Status
 
-**Stand:** 2026-02-14 23:56
+**Stand:** 2026-02-15 00:00
 
 ---
 
 | Metrik | Wert |
 | :--- | :--- |
 | **Artikel** | 1047 |
-| **Worte** | 169,323 |
+| **Worte** | 169,579 |
 | **Personen** | 563 |
 
 ---
@@ -42,8 +42,8 @@ Die am stärksten vernetzten Artikel.
 | :--- | :--- |
 | [[Falkensee]] | 338 |
 | [[Brandenstein]] | 322 |
-| [[Siebenwind]] | 275 |
-| [[Personenregister]] | 127 |
+| [[Siebenwind]] | 273 |
+| [[Personenregister]] | 126 |
 | [[Nortraven]] | 77 |
 
 ---

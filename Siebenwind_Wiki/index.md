@@ -4,22 +4,78 @@ title: Siebenwind Wiki
 category: Index
 ---
 
-# [[Siebenwind]] Wiki
+![Siebenwind Lore Engine Banner](assets/banner.png){ .wiki-banner }
 
-**Epistemischer Status:** #perspektive
-
-Willkommen in der Wissensdatenbank der [[Siebenwind]]-Chroniken. Hier wird die [[Geschichte]], [[Geografie]] und Kultur von 20 Jahren Rollenspiel zusammengeführt.
-
-## Navigation
-
-*   **[[Das Fundament]]** - Grundgesetze, Zeitrechnung und das [[Personenregister]].
-*   **[[Das Pantheon]]** - Die Götter, Elementarherren und Religionen.
-*   **[[Geografie]]** - Regionen, Städte und die Inselwelt.
-*   **[[Gesellschaft]]** - Politik, Recht und Bündnisse.
-*   **[[Die Chronik]]** - Historische Zeitlinien und Ereignisse.
-*   **[[Erzählungen]]** - Gesammelte Geschichten und Legenden.
-*   **[[Persönlichkeiten]]** - Biografien bedeutender NPCs.
-*   **[[Die Archive]]** - Rohdaten und Quellensammlungen.
+<p align="center">
+  <a href="https://github.com/Siebenwind/7w_wiki" target="_blank">
+    <img src="https://img.shields.io/badge/Status-Aktiv-vibrantgreen?style=for-the-badge&logo=github" alt="Project Status">
+  </a>
+  <a href="https://Siebenwind.github.io/7w_wiki/">
+    <img src="https://img.shields.io/badge/Live-Wiki_Docs-blue?style=for-the-badge&logo=materialformkdocs" alt="Live Wiki">
+  </a>
+  <a href="CHANGELOG.md">
+    <img src="https://img.shields.io/badge/Version-Reconstruction_v2.1-orange?style=for-the-badge" alt="Version">
+  </a>
+</p>
 
 ---
-**Status:** Rekonstruktion läuft (v2.0)
+
+## 🏛️ Das Vermächtnis (The Core)
+
+Willkommen in der **Siebenwind Lore Engine**. Dies ist ein lebendes Denkmal für über **20 Jahre kollektive Kreativität**. 
+
+Seit zwei Jahrzehnten weben Hunderte von Köpfen an diesem Teppich aus Geschichten und Schicksalen. Unsere Mission ist es, dieses Erbe – diesen Schatz menschlicher Interaktion – mit moderner Intelligenz zu bewahren und für die Zukunft sicherzustellen.
+
+---
+
+## 🧠 System-Architektur (The Wisdom Loop)
+
+Das Projekt basiert auf einem kybernetischen Kreislauf der Wissensgenerierung:
+
+```mermaid
+graph TD
+    A["🗂️ Rohdaten (Archive/Bote)"] -->|Ingestion| B("🤖 Lore Extraktion")
+    B -->|Validation| C{"⚖️ Konsistenz-Audit"}
+    C -->|Kanon| D["📚 Wiki-Fundament"]
+    C -->|Widerspruch| E["🏮 Synapse Board"]
+    E -->|Entscheidung| D
+    D -->|Semantic Search| F["👁️ Das Orakel"]
+    F -->|Result| G["👤 Endnutzer / Staff"]
+```
+
+---
+
+## 📜 Die Goldenen Protokolle
+
+| Sektion | Zweck | Dokumentation |
+| :--- | :--- | :--- |
+| **🧭 Navigation** | Der Einstieg in die Welt. | [Wiki-Startpunkt](Siebenwind_Wiki/index.md) |
+| **🛠️ Setup** | Architektur des Orakels. | [Setup RAG](setup_rag.md) |
+| **📜 Philosophie** | Grundgesetze des Systems. | [Architektur](architecture.md) |
+| **📈 Fortschritt** | Rekonstruktions-Status. | [Master Task List](MASTER_TASK_LIST.md) |
+
+---
+
+## 🚀 Unified CLI: `7w_wiki.py`
+
+Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
+
+```bash
+# Das Wissen des Orakels abfragen
+./7w_wiki.py search "Wer war Benedict Rabenfels?"
+
+# Den Konsistenz-Status prüfen
+./7w_wiki.py audit
+
+# Den Status des Archivars abrufen
+./7w_wiki.py advisor
+```
+
+---
+
+## 🤝 Mitarbeit & Vermächtnis
+Wir bewahren das Werk einer ganzen Gemeinschaft. Beteiligungen sind ausdrücklich erwünscht.
+- **Detaillierte Richtlinien:** Siehe [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Lizenzen:** Code unter [MIT](LICENSE), Inhalte unter [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+*© 2026 Siebenwind Gemeinschaft | Das Gedächtnis der Welt.*
