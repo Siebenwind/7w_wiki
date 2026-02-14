@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Hagen Robaar von Saalhorn und Siebenwind
+title: Hagen Robaar
 category: Persönlichkeiten
 status: Kanon
 quelle: [[Siebenwind_Bote_151]], [[Siebenwind_Bote_155]], [[Siebenwind_Bote_174]], [[Adelskalender]]

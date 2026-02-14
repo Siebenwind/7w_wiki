@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Veridon
+title: Veridon (Nebelklinge)
 category: Persönlichkeit
 uuid: v3r-id0n-n3b3lk11ng3-22nh
 quelle: ../../Quellen/Spielergeschichten/Blutschwert | Siebenwind | Ultima Online Freeshard | Siebenwind.md
@@ -31,4 +31,4 @@ Nach Jahren des ziellosen Umherziehens als "Mann ohne Vergangenheit" wurde Verid
 *   **[[Benion]] (Tim Benion):** Sein Sohn, den er jahrelang für tot hielt, der jedoch unter dem Schutz von [[Vitama]]-Geweihten überlebte.
 
 ## Quellen
-*   [Blutschwert](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Blutschwert%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [Blutschwert](../../Quellen/Spielergeschichten/Blutschwert%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)

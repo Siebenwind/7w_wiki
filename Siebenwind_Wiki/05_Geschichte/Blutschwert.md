@@ -33,4 +33,4 @@ Auf seiner Flucht konfrontiert Veridon seine eigene Vergangenheit. Durch die Beg
 "Blutschwert" erweitert das Verständnis über die dunklen Kulte und militärischen Geheimorganisationen in den Gebieten außerhalb von Siebenwind und liefert wichtige Kontextinformationen zu den Hintergrundgeschichten vieler Spielercharaktere.
 
 ## Quellen
-*   [Blutschwert](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Blutschwert%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [Blutschwert](../../Quellen/Spielergeschichten/Blutschwert%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)

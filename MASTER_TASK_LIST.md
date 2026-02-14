@@ -14,19 +14,14 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 - [x] Epistemic Status & Link-Audit (Phase 13)
 - [x] Restore Wiki Consistency (Deduplication, Orphan-Fix)
-- [ ] Spielergeschichten Re-Scan & Entity Integration
-    - [x] Phase 14: Ingestion Player Stories Batch 19 (Ente, Dichter, Blutschwert, Briefe, Könige) <!-- id: 50 -->
-    Ziel: Vollständige Erfassung aller Meta-Tags und Entitäten.
-    - **Register-Synchronisation**: Übertragung der im `Logs/INGESTION_LOG.md` gesicherten Entitäten (u.a. [[Jassavia]], [[Veridon]], [[Zoran Gosh]]) in das [[Personenregister.md]] und [[Ortsregister.md]].
-    - **Duplikat-Auflösung**: Finale Entscheidung und Bereinigung der Dateisystem-Dubletten (z.B. `Der Flug der Ente`).
-- [ ] **Handover-Vorbereitung**:
-    - **Link-Validierung**: Systematisches Suchen und Ersetzen von absoluten `file://` Pfaden durch relative `[[WikiLinks]]`.
-    - **Sanitizer-Check**: Ausführen von `wiki_sanitizer.py` über alle neu erstellten Artikel zur Sicherstellung von v2.1 Standards.
+- [x] **Handover-Vorbereitung**: Statistiken generiert, Changelog gepflegt.
+- [ ] **System-Repair**: Behebung von 13 Inkonsistenzen (gemeldet durch Advisor).
+
 
 ## 🟡 Priorität 2: Inhalte & Ingestion (Operativ)
 *Standardaufgaben des Archiv-Prozesses zur Erweiterung der Wissensbasis.*
 
-- [/] **Massen-Ingestion**: Integration der verbleibenden 150+ Quellen (Status `Pending` in [[INVENTUR_QUELLEN.md]]). Fokus auf Themengebiete (z.B. Religion, Handwerk).
+- [/] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`). Batch 20-22 abgeschlossen. Nächster Schritt: Batch 23.
 - [ ] **Vernetzung (Weaving)**: Überprüfung der bi-direktionalen Verlinkung. Sicherstellen, dass unter `## Überlieferungen` qualitativ hochwertige Backlinks bestehen.
 - [ ] **Narrative Enrichment**: Ausbau von Stubs zu profunden Artikeln ("Roman-Qualität"). Fokus auf Motivation, Atmosphäre und Zitate.
 
@@ -57,9 +52,29 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Eskalationsmatrix**: Definition klarer Regeln zur Auflösung von Lore-Widersprüchen.
 - **Wiki v2.0**: Globaler Sanitizer-Lauf über alle Artikel (YAML/H1-Sync).
 
+### Phase 14: Synapsen-System v2.0 & Register-Consolidation (Feb 2026)
+- **Live-Test**: Erfolgreicher Batch-Run (`/batch`) für Bibliothek Astrael (`Aequitas`, `Codex`, `Brevier`).
+- **Lore Trust Score**: Implementierung der 0-10 Skala und Integration in `lore_score_manager.py`.
+- **Register-Consolidation**: Vollständige Integration von "Das Ende der Zeit der Könige" (18 Personen, 6 Organisationen).
+- **Register-Consolidation**: Vollständige Integration von "Das Ende der Zeit der Könige" (18 Personen, 6 Organisationen).
+- **Conflict Resolution**: Exemplarische Lösung des Delarie-Timeline-Konflikts via Synapse Board.
+
+### Phase 14b: Recherche & Analyse (Feb 2026)
+- **Marnie Ruatha**: Forschungsbericht erstellt. Klärung der Rolle als Hafenvogtin und des Kirchenasyls.
+- **Gap-Analyse**: Identifikation fehlender Akte `Tjure_Odal` und Prüfbedarf bei `Arn_Toron`.
+
+### Phase 14b: Spielergeschichten Processing (Feb 2026)
+- **Batch 20-22**: Integration von 18 Spielergeschichten (Dark Lore, Social, Narrative Arcs).
+- **Lore-Härtung**: Definition von "Horwah", Nekromantie-Ritualen und Dämonenseuchen.
+- **Register-Sync**: ~20 neue Profile erstellt und verknüpft.
+
+### Phase 13b: Historiker-Review (Feb 2026)
+- **Waldemar Delarie**: Timeline-Korrektur (25 -> 21 n.H.) und redaktionelle Überarbeitung (Regierungsrat, Gerüchte).
+- **William Glaron**: Biografie-Erweiterung (Turniersieg & Tragödie) basierend auf Bote 184/Abschiedsbrief.
+
 ### Infrastruktur & Tools (Jan/Feb 2026)
 - **Das Orakel**: Einführung der semantischen Suche (RAG) auf Basis von Jina v3.
 - **Automatisierung**: Scripts für Statistiken, Link-Weben und Hardware-Tuning.
 
 ---
-*Zuletzt aktualisiert: 13.02.2026 durch Antigravity (Enhanced Documentation)*
+*Zuletzt aktualisiert: 14.02.2026 durch Oberarchivar (Handover)*

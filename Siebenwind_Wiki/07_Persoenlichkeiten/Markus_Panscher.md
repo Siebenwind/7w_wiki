@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Markus_Panscher
+title: Markus Panscher
 category: Persönlichkeit
 ---
 

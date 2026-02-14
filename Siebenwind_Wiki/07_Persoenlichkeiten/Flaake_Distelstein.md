@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Herr Distelstein
+title: Flaake Distelstein
 category: [[Persönlichkeiten]]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Anschlag auf den Handelsbund
+title: Anschlag auf den Handelsbund und Auflösung
 category: Geschichte
 ---
 

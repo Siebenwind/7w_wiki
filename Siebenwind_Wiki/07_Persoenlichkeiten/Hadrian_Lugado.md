@@ -22,4 +22,4 @@ Hadrian ist ein Meister des strategischen Abwartens. Er vertritt das Ideal des k
 *   **Mission nach Siebenwind:** Er wählte [[Hubertus_Anverita]] aus, um ihn als seinen Agenten auf das Eiland zu senden.
 
 ## Quellen
-*   [Das Ende der Zeit der Könige](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Ko%CC%88nige%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [Das Ende der Zeit der Könige](../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Ko%CC%88nige%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)

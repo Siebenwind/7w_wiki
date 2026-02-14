@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Brand Windflüsterers Zorn
+title: Brand Windflüsterers Zorn (19 n.H.)
 category: [[Geschichte]]
 ---
 

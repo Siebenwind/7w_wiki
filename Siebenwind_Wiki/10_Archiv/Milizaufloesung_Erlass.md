@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Verkündung über die Auflösung der Milizrechtsverträge
+title: Auflösung der Milizrechtsverträge (19 n.H.)
 category: Archiv
 ---
 

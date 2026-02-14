@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Oger
+title: Oger (Grüne Ungetüme)
 category: Bestiarium
 ---
 

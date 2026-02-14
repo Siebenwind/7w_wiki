@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Vorfall im Haus TharSala
+title: Vorfall im Haus Thar'Sala
 category: Geschichte
 ---
 

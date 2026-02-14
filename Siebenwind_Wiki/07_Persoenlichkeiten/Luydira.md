@@ -16,4 +16,4 @@ letzter_check: 2026-02-13T23:45:00
 Luydira ist eine Knappin, die im [[Siebenwind_Bote_139|Siebenwind Boten]] im Zusammenhang mit ritterlichen Belangen erwähnt wird.
 
 ## Quellen
-*   [Siebenwind Bote 139](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20139.md)
+*   [Siebenwind Bote 139](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20139.md)

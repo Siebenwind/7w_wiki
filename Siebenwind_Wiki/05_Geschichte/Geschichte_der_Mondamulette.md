@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Geschichte]] der [[Mondamulette]]
+title: Geschichte der Mondamulette
 category: [[Geschichte]]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Der Sichelzahngnoll
+title: Der Fall des Sichelzahngnolls (18 n.H.)
 category: [[Geschichte]]
 ---
 

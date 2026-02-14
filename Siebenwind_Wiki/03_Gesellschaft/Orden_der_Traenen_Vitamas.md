@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Orden_der_Traenen_Vitamas
+title: Orden der Tränen Vitamas
 category: Organisation
 ---
 

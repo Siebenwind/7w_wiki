@@ -48,4 +48,4 @@ Run zeichnet sich durch ein systematisches Endungsschema aus:
 > [!TIP]
 > Die Substantivierung erfolgt oft über die Endung **~ai** (Der, der etwas tut, z.B. *Odalj* - Magier).
 
-**Quelle:** [Die Sprache Run.html](file:///Quellen/Bibliothek%20Astrael/Die%20Sprache%20Run.html)
+**Quelle:** [Die Sprache Run.html](../../Quellen/Bibliothek%20Astrael/Die%20Sprache%20Run.html)

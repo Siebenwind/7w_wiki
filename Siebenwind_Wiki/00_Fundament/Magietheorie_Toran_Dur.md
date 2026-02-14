@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Magietheorie (Toran [[Dur]])
+title: Magietheorie (Toran Dur)
 category: Fundament
 ---
 

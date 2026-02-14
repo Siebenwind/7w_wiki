@@ -10,7 +10,7 @@ category: Erzählung
 
 **Autor:** [[Waldemar_Delarie]] / Spielerbericht
 **Kanon-Status:** #perspektive (Bericht eines Beteiligten)
-**Zeitraum:** Ca. 25-28 n.H.
+**Zeitraum:** 21 n.H.
 
 ---
 

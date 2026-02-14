@@ -35,4 +35,4 @@ Die Erzählung zeichnet sich durch eine dichte, beklemmende Atmosphäre aus. Sie
 "Der Flug der Ente" dient als primäre Quelle für Informationen über maritime Anomalien weitab der Küsten von Siebenwind. Sie festigt das Bild von [[Ventus]] als launischer, aber wegeweisender Gottheit.
 
 ## Quellen
-*   [Der Flug der Ente](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)
+*   [Der Flug der Ente](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Brevier des [[Ordo_Belli]]
+title: Brevier des Ordo_Belli
 category: Religion
 ---
 

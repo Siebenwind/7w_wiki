@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Erhebung Kaspar Brandner
+title: Erhebung Kaspar Brandner zum Freiherrn
 category: Geschichte
 ---
 

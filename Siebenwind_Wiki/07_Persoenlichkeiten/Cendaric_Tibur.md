@@ -1,18 +1,19 @@
 ---
 layout: wiki_page
-title: Cendaric_Tibur
+title: Cendaric Tibur
 category: Persönlichkeit
+lore_trust: 6
 ---
 
 # Cendaric Tibur
 
-**Titel:** Baron / Familienoberhaupt
+**Titel:** Ordensmeister / Schwert der Kronmark
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** Adel von [[Siebenwind]]
+**Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]]
 **Zeitraum:** amtierend
 
 ## Beschreibung
-Baron Cendaric Tibur ist ein einflussreich Adliger auf [[Siebenwind]] und das Oberhaupt des Hauses Tibur. Er ist der Onkel von [[Pharalis_Avistur]] und bekannt für seine Loyalität zur Krone und seine Bemühungen um den Erhalt der aristokratischen Traditionen.
+**Bruder Cendaric Tibur** ist der amtierende **Ordensmeister** des [[Orden_der_Wachenden_Löwen|Ordens der Wachenden Löwen]] und Träger des Titels "**Schwert der Kronmark**". Er ist das Oberhaupt der Familie Tibur und der Halbbruder von Ritterin [[Pharalis_Avistur]] (vgl. [[Siebenwind_Bote_172]]). Innerhalb des Ordens pflegen die Mitglieder die Anrede "Bruder" und "Schwester", ähnlich einer monastischen Gemeinschaft. Er ist bekannt für seine strikte Loyalität zur Krone und den Erhalt der ordensinternen Traditionen.
 
 ## Wirken
 *   **Schwert der Kronmark (20 n.H.):** Im Onar 20 n.H. verlieh ihm der [[Inselrat]] diesen Ehrentitel stellvertretend für den [[Orden_der_Wachenden_Löwen]] ([[Siebenwind_Bote_172]]).

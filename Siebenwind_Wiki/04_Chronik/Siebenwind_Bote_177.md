@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 177
+title: Siebenwind Bote 176
 category: Chronik
 ---
 

@@ -25,4 +25,4 @@ Während er in einer Taverne in der [[Kesselklamm]] zwergisches Bier genoss und 
 *   [[Vencurius]]
 
 ## Quellen
-*   [Der Flug der Ente](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)
+*   [Der Flug der Ente](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)

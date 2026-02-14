@@ -57,6 +57,9 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Anstalt_fuer_ozeanische_Thaumaturgie]] | Magieschule (Blau) | Swa | #perspektive |
 | [[Akademie_des_gruenen_Zweiges]] | Magieschule (Grün) | Tiefenwald | #perspektive |
 | [[Schule_der_tausend_Funken]] | Magieschule (Ignis) | Malthust | #perspektive |
+| [[Ring_der_Wissenden]] | Zirkel innerhalb des Argionemes | - | #perspektive |
+| [[Blutige_Faust]] | Söldnertruppe | Unbekannt | #perspektive |
+| [[Magister_ad_Sinister]] | Nekromanten-Orden | Unbekannt | #perspektive |
 
 
 ## Handwerks- und Handelsgilden

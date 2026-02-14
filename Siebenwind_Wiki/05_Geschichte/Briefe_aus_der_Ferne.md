@@ -34,4 +34,4 @@ Die Erzählung vermittelt eine Stimmung des Umbruchs, der Melancholie über verg
 Die Erzählung ist eine wichtige Quelle für die politische Geografie von Siebenwind in der Spätphase nach dem Bürgerkrieg und beleuchtet die zivile Perspektive auf die großen Machtverschiebungen.
 
 ## Quellen
-*   [Briefe aus der Ferne](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Briefe%20aus%20der%20Ferne.md)
+*   [Briefe aus der Ferne](../../Quellen/Spielergeschichten/Briefe%20aus%20der%20Ferne.md)

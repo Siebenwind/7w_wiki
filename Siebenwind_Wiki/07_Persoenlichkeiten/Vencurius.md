@@ -28,4 +28,4 @@ Auf einer Klippe am westlichsten Ufer von Malthust-Brandenstein bündelte Vencur
 *   [[Telandrion]] (Der ihn nach seinem Ritual rettete)
 
 ## Quellen
-*   [Der Flug der Ente](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)
+*   [Der Flug der Ente](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)

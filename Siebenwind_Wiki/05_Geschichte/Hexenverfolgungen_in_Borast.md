@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Hexenverfolgungen in Borast
+title: Hexenverfolgungen in Borast (18 n.H.)
 category: [[Geschichte]]
 ---
 

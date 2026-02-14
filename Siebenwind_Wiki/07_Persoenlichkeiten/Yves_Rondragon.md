@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Yves_Rondragon
+title: Yves Rondragon
 category: Persönlichkeit
 ---
 

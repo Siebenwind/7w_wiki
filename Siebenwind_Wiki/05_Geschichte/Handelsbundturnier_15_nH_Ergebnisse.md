@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Handelsbundturnier 15 nH Ergebnisse
+title: Handelsbundturnier 15 n.H. Ergebnisse
 category: Geschichte
 ---
 

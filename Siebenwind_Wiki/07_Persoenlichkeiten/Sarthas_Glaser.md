@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Sarthas Glaser
+title: Sarthas_Glaser
 category: Persönlichkeit
 ---
 

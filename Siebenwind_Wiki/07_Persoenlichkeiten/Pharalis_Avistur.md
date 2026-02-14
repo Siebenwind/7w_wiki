@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Pharalis_Avistur
+title: Pharalis Avistur
 category: Persönlichkeit
 ---
 

@@ -27,4 +27,4 @@ Akora ist das Zentrum eines komplexen sozialen Gefüges, das Hali ironisch als "
 Sie zeigt sich Hali gegenüber zuweilen nachdenklich und scheint wichtige Geheimnisse zu hüten. Ihr Verhalten gegenüber ihren Verehrern ist oft von Ablehnung oder pragmatischer Distanz geprägt, was zu dramatischen Szenen (bis hin zu Suizidabsichten ihrer Bewunderer) führen kann.
 
 ## Quellen
-*   [Nichts und ohne Pointe](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/09_Bibliothek/Nichts_und_ohne_Pointe.md)
+*   [[Nichts_und_ohne_Pointe]]

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Massenentlassung Kriegerakademie 15 nH
+title: Massenentlassung Kriegerakademie 15 n.H.
 category: Geschichte
 ---
 

@@ -16,4 +16,4 @@ letzter_check: 2026-02-13T23:45:00
 Zyprian ist ein Eremit, der im [[Siebenwind_Bote_147|Siebenwind Boten]] als zurückgezogen lebende Person erwähnt wird.
 
 ## Quellen
-*   [Siebenwind Bote 147](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20147.md)
+*   [Siebenwind Bote 147](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20147.md)

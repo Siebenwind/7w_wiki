@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Weiher-Ungetüm
+title: Weiher-Ungetüm (Spinnenkrebs)
 category: Bestiarium
 ---
 

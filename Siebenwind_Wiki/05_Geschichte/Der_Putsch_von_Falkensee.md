@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Der Putsch von [[Falkensee]]
+title: Der Putsch von Falkensee
 category: Geschichte
 ---
 

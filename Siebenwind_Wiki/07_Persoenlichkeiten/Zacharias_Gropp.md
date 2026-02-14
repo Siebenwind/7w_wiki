@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Zacharias [[Gropp]]
+title: Zacharias Gropp
 category: Persönlichkeit
 ---
 

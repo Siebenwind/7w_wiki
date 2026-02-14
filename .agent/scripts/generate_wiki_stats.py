@@ -227,7 +227,39 @@ xychart-beta
 
 ---
 
-## 🏆 Zentrale Wissensknoten (Top Hubs)
+## 🏆 Top 10 Best-Dokumentierte Persönlichkeiten
+(Basierend auf geschätztem Umfang/Relevanz)
+
+| Rang | Persönlichkeit | Umfang (Worte) | Links |
+| :--- | :--- | :--- | :--- |
+"""
+    # Helper to get word count for a file
+    def get_word_count(name):
+        # Scan wiki for file with this name
+        for f in WIKI_DIR.rglob(f"{name}.md"):
+            return len(re.findall(r'\w+', f.read_text(encoding="utf-8")))
+        return 0
+
+    # Collect personalities with significant content
+    personas = []
+    # We use link_hubs keys that are in 07_Persoenlichkeiten
+    # Or just iterate all files in 07_Persoenlichkeiten
+    for f in (WIKI_DIR / "07_Persoenlichkeiten").rglob("*.md"):
+        name = f.stem
+        words = len(re.findall(r'\w+', f.read_text(encoding="utf-8")))
+        links_in = stats["link_hubs"].get(name, 0)
+        personas.append((name, words, links_in))
+    
+    # Sort by word count desc
+    top_personas = sorted(personas, key=lambda x: x[1], reverse=True)[:10]
+
+    for i, (name, words, links) in enumerate(top_personas, 1):
+        md += f"| {i} | [[{name}]] | {words} | {links} |\n"
+
+    md += """
+---
+
+## 🔗 Zentrale Wissensknoten (Top Hubs)
 Die am häufigsten verlinkten Artikel im Wiki.
 
 | Rang | Entität | Verlinkungen |

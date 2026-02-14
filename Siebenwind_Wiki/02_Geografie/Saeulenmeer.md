@@ -29,4 +29,4 @@ Die bekannteste (und einzige) Beschreibung stammt aus den Logbüchern von [[Tint
 Es existieren Spekulationen, ob das Säulenmeer mit den mythischen "Zähnen des Tares" oder den Küsten von Ma'ahn in Verbindung steht, doch für diese Thesen fehlen kanonische Beweise.
 
 ## Quellen
-*   [Der Flug der Ente](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)
+*   [Der Flug der Ente](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)

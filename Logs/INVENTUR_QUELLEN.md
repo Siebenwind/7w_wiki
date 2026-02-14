@@ -305,13 +305,13 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Abschied_und_Verrat.md | - | Integrated |
 | Abweisungen.md | - | Integrated |
 | Aus_dem_Leben_eines_Schwarzmagiers.md | - | Integrated |
-| Aus dem Liebesleben eines Dichters | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
-| Blutschwert | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
-| Briefe aus der Ferne.md | - | Pending |
-| Das Ende der Zeit der Könige | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
-| Der Flug der Ente..3.md | - | Pending |
-| Der Flug der Ente..md | - | Pending |
-| Der Flug der Ente1.md | - | Pending |
+| Aus dem Liebesleben eines Dichters | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Integrated |
+| Blutschwert | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Integrated |
+| Briefe aus der Ferne.md | - | Integrated |
+| Das Ende der Zeit der Könige | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Integrated |
+| Der Flug der Ente..3.md | - | Integrated (Merged) |
+| Der Flug der Ente..md | - | Integrated |
+| Der Flug der Ente1.md | - | Integrated (Merged) |
 | Die Elemente - ungleiche Geschwister.md | - | Pending |
 | Die Nacht des Dunkeltiefs.md | - | Integrated |
 | Die Namikleris.md | - | Pending |
@@ -342,6 +342,6 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Ritus, Gebet und Erleuchtung.md | - | Pending |
 | Solfeister Kin.md | - | Pending |
 | Studenten – WG | Siebenwind | Ultima Online Freeshard | Siebenwind.md | - | Pending |
-| Von gesplitterten Seelen und blutigen Kehlen.md | - | Pending |
-| Waldemar Delaries Reise nach Papin.md | - | Pending |
+| Von gesplitterten Seelen und blutigen Kehlen.md | - | Integrated |
+| Waldemar Delaries Reise nach Papin.md | - | Integrated |
 

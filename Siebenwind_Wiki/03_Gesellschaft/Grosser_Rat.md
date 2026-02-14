@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Grosser Rat
+title: Großer Rat
 category: Gesellschaft
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 155.md

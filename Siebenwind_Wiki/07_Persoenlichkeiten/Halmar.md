@@ -16,4 +16,4 @@ letzter_check: 2026-02-13T23:55:00
 Halmar ist ein Söldner, der im [[Siebenwind_Bote_154|Siebenwind Boten]] erwähnt wird.
 
 ## Quellen
-*   [Siebenwind Bote 154](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20154.md)
+*   [Siebenwind Bote 154](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20154.md)

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siegfried_Steiner
+title: Siegfried Steiner
 category: Persönlichkeit
 ---
 

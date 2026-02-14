@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Der Erlass des Königs
+title: Der Erlass des Königs (20 n.H.)
 category: Geschichte
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 174.md

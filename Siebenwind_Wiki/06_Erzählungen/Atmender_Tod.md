@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Atmender_Tod
+title: Atmender Tod
 category: Ereignis
 ---
 

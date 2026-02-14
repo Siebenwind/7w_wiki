@@ -43,7 +43,7 @@ def derive_category(path: Path) -> str:
     }
     return mapping.get(parent_name, "Allgemein")
 
-def fix_frontmatter(files: list[Path]):
+def fix_frontmatter(files: list[Path], auto: bool = False):
     """Sucht und repariert fehlendes Frontmatter."""
     print(f"\n{BLUE}--- Frontmatter Fixer ---{RESET}")
     count = 0
@@ -70,7 +70,11 @@ def fix_frontmatter(files: list[Path]):
                 "---\n\n"
             )
             
-            choice = input(f"  Reparieren? (Fügt Titel '{title}' & Kategorie '{category}' hinzu) [y/n/q]: ").lower()
+            if auto:
+                choice = 'y'
+                print(f"  Reparieren? (Auto-Mode) [y]")
+            else:
+                choice = input(f"  Reparieren? (Fügt Titel '{title}' & Kategorie '{category}' hinzu) [y/n/q]: ").lower()
             if choice == 'q':
                 break
             if choice == 'y':
@@ -129,6 +133,7 @@ def check_links(files: list[Path]):
 def main():
     parser = argparse.ArgumentParser(description="Siebenwind Repair Tool")
     parser.add_argument("--path", default=str(WIKI_DIR), help="Zielverzeichnis scanning")
+    parser.add_argument("--auto", action="store_true", help="Automatische Reparatur ohne Rückfragen")
     args = parser.parse_args()
     
     target_dir = Path(args.path)
@@ -149,7 +154,7 @@ def main():
         choice = input("\nWahl: ").lower()
         
         if choice == '1':
-            fix_frontmatter(files)
+            fix_frontmatter(files, auto=args.auto)
         elif choice == '2':
             check_links(files)
         elif choice == 'q':

@@ -26,4 +26,4 @@ Gosh ist ein Meister der Geduld und der weitreichenden strategischen Planung.
 Als einer der "alten Meister" genießt er selbst unter anderen hochrangigen Magiern und Geweihten tiefen Respekt, aber auch Furcht vor seiner asketischen Entschlossenheit.
 
 ## Quellen
-*   [Das Ende der Zeit der Könige](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Ko%CC%88nige%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [Das Ende der Zeit der Könige](../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Ko%CC%88nige%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)

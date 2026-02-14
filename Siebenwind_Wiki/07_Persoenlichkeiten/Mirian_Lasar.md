@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Mirian_Lasar
+title: Mirian Lasar
 category: Persönlichkeit
 ---
 

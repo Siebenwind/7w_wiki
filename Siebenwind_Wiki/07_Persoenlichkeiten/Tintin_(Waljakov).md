@@ -15,7 +15,7 @@ letzter_check: 2026-02-13T22:45:00
 **Zeitraum:** Aktiv um 22 n.H.
 
 ## Beschreibung
-Tintin, bürgerlich Waljakov, ist ein für seinen unbändigen Forschergeist und seinen unerschütterlichen Optimismus bekannter Däumling (Kobold). Er zeichnet sich durch blonde Haare und eine zierliche Statur aus, die jedoch von einer überraschenden Zähigkeit und handwerklichem Geschick in der Maritimen Architektur kompensiert wird. In [[Brandenstein]] war er als Schüler des Erzpriesters [[Vencurius]] bekannt, bevor ihn das Fernweh in die unbekannten Weiten der See trieb.
+Tintin, bürgerlich Waljakov, ist ein für seinen unbändigen Forschergeist und seinen unerschütterlichen Optimismus bekannter Däumling (Kobold). Er zeichnet sich durch blonde Haare und eine zierliche Statur aus, die jedoch von einer überraschenden Zähigkeit und handwerklichem Geschick in der Maritimen Architektur kompensiert wird. In [[Brandenstein]] war er als Schüler des Erzpriesters [[Vencurius]] bekannt. Vor seiner Reise mit der *Ente* restaurierte er die Kogge *Stolz von Brandenstein* (umbenannt in *Namikleris*) und unternahm damit eine erste Expedition, die von Begegnungen mit Kraken und Seeschlangen geprägt war. Später trieb ihn das Fernweh erneut in die unbekannten Weiten der See.
 
 ## Wirken
 Im Jahr 22 n.H. konstruierte Tintin in einer Werft westlich des Brandensteiner Marktplatzes sein Lebenswerk: Die [[Ente]], ein robustes, wenn auch eigenwilliges Schiff für Einhandsegler. 
@@ -33,4 +33,4 @@ Während der Reise litt Tintin unter extremer Einsamkeit, die er durch Gespräch
 *   [[Vencurius]] (Sein Mentor, der versuchte, ihn magisch zu suchen)
 
 ## Quellen
-*   [Der Flug der Ente](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)
+*   [Der Flug der Ente](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)

@@ -1,6 +1,6 @@
 ---
 id: 2026-003
-status: NEEDS_REVIEW
+status: RESOLVED
 priority: 2
 source_files: ["Siebenwind_Wiki/07_Persoenlichkeiten/Waldemar_Delarie.md", "Quellen/Spielergeschichten/Waldemar Delaries Reise nach Papin.md", "Quellen/Zeitung 7w Bote/Siebenwind Bote 183.md"]
 detected_by: Archivar (Consistency Scan)
@@ -29,5 +29,5 @@ Korrektur der Jahreszahl für die Reise nach Papin im Wiki-Artikel von **25 n.H.
 ## 🏛️ Der Oberarchivar (Ops Recommendation)
 "Sofortige Korrektur einleiten. Nach der Änderung ist der `lore_trust` des Artikels von unbekannt auf **6 (Verified Bote/Historian Audit)** anzuheben. Der Status kann auf `AUTO_RESOLVED` gesetzt werden, da die Quellenlage (180/183) absolut eindeutig ist."
 
-# Status: AUTO_RESOLVED
-*Korrektur durchgeführt (25 -> 21 n.H.). Trust Score auf 6 angehoben.*
+# Status: RESOLVED
+*Korrektur durchgeführt (25 -> 21 n.H.). Artikel vollständig überarbeitet (Regierungsrat, Gerüchte ergänzt). Trust Score auf 7 (Verified Revision/Oberarchivar) angehoben.*

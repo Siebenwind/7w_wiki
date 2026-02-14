@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Vogelfreierklaerung Elares Valjean
+title: Vogelfreierklärung Elares Valjean
 category: Geschichte
 ---
 

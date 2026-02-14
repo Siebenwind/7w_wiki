@@ -2,13 +2,13 @@
 layout: wiki_page
 title: Waldemar Delarie
 category: Persönlichkeit
-lore_trust: 6
+lore_trust: 7
 confidence: Certain
 ---
 
 # Waldemar Delarie
 
-**Titel:** Edelherr, ehem. Gardehauptmann / Putschist
+**Titel:** Edelherr, ehem. Regierungsrat, ehem. Gardehauptmann / Putschist
 **Epistemischer Status:** #canon / #bote
 **Zugehörigkeit:** Ersonter Bund / Haus Delarie
 **Zeitraum:** Aktiv (Bis ca. 28 n.H. im aktiven Dienst)
@@ -18,9 +18,11 @@ confidence: Certain
 
 ## Karriere & Timeline
 - **Anfänge:** Übernahme der Hauptmannschaft von **Hauptmann Mengars** in einer Zeit des Umbruchs.
-- **21 n.H. (Bote 180):** Für seine Verdienste um die Sicherung des Lehens wurde er von Ihrer Durchlaucht [[Hannah_Berndorf]] in den Adelsstand zum **Edlen** erhoben.
-- **21 n.H. (Die Reise):** Waldemar begab sich auf eine riskante Mission nach **Papin**, um Goldbarren zur Unterstützung von Wallenburg an den Ersonter Bund (**[[Gero_von_Papin]]**) zu übergeben. Sein Fehlen hinterließ ein Machtvakuum in Falkensee.
-- **21-22 n.H. (Der Putsch):** In Waldemars Abwesenheit (während der Reise nach Papin) führte sein Stellvertreter **[[Steinhauer]]** zusammen mit seinem Adjutanten **[[Hektor]]** und Teilen der Garde eine gewaltsame Aktion gegen den Ersonter Rat durch. Delarie wurde bei seiner Rückkehr der moralischen Urheberschaft bezichtigt, verlor seinen Rang und wurde faktisch ins Exil nach **[[Südfall]]** gedrängt.
+- **21 n.H. (Schwertmonat / Oner):** Als **Regierungsrat** und Ankläger im Prozess gegen die falschen Inquisitoren ([[Siebenwind_Bote_176]]) zeigte er absolute Härte und forderte drastische Strafen (Brandmarkung, Amputation), was seinen Ruf als unbarmherziger Gesetzeshüter festigte.
+- **21 n.H. (16. Triar, Bote 180):** Für seine Verdienste um die Sicherung des Lehens wurde er von Ihrer Durchlaucht [[Hannah_Berndorf]] in den Adelsstand zum **Edlen** erhoben.
+- **21 n.H. (Dunkeltief):** Während des 7. Dunkelzyklus geriet er in [[Falkensee]] in Gefangenschaft des **[[Knochenfürst]]en**, der die Stadt kurzzeitig besetzt hielt. Er wurde gefoltert und im Kerker unter dem Falkenwall festgehalten ([[Logbuch_des_Kerkers]]).
+- **21 n.H. (Die Reise):** Waldemar begab sich auf eine riskante Mission nach **Papin**, um Goldbarren zur Unterstützung von Wallenburg an den Ersonter Bund (**[[Gero_von_Papin]]**) zu übergeben. Sein Fehlen am Hofe begünstigte das folgende Machtvakuum.
+- **21-22 n.H. (Der Putsch):** Auslöser des Konflikts war die schwere Erkrankung der Burggräfin und das Fehlen schriftlicher Anweisungen zur Machtübergabe an den Rat. In Waldemars Abwesenheit (bzw. während seiner Rückkehr) eskalierte der Konflikt zwischen Rat und Garde. Sein Stellvertreter **[[Steinhauer]]** und Adjutant **[[Hektor]]** versuchten den Rat abzusetzen. Delarie wurde bei seiner Rückkehr als Rädelsführer identifiziert, verlor seinen Rang und wurde faktisch ins Exil nach **[[Südfall]]** gedrängt.
 - **Späte Jahre:** Rückzug nach **[[Südfall]]**, wo er ein bescheidenes Haus bewohnt. Er gilt als gebrochener, aber nach wie vor loyaler Soldat, der die Geschicke der Insel nur noch aus der Distanz beobachtet.
 
 ## Wirken & Vermächtnis
@@ -32,7 +34,10 @@ confidence: Certain
 Seine tiefste Abneigung galt dem Hochgeweihten **[[Custodias]]**. Delarie sah in der religiösen Einmischung in militärische Belange eine Gefahr für die Effektivität der Garde und beschuldigte Custodias wiederholt der Ketzerei und des Hochverrats — Anschuldigungen, die letztlich zu seinem eigenen politischen Fall beitrugen.
 
 ## Gerüchte & Kontroversen
-Rund um das Jahr 21 n.H., insbesondere im Vorfeld des Putsches, kursierten düstere Gerüchte über Delarie. In der *Gerüchteküche* ([[Siebenwind_Bote_180]]) wurde gemunkelt, er sei "besessen" oder "ein Diener des Einen". Spezifisch wurde der **"Geist eines verstorbenen Gefangenen"** genannt, der von ihm Besitz ergriffen haben soll, und er wurde mit dem Mondanheulen auf dem Gardeturm in Verbindung gebracht. Auch wenn dies Propaganda sein mag, fällt es zeitlich mit dem Auftreten des Dämons "Hutmacher" und den Vorfällen um die "Shilor-Spinne" (Gnaden Tarnuk) zusammen.
+Rund um das Jahr 21 n.H., insbesondere im Vorfeld des Putsches, kursierten düstere Gerüchte über Delarie. In der *Gerüchteküche* ([[Siebenwind_Bote_180]]) wurde gemunkelt, er sei "besessen" oder gar "ein Diener des Einen". 
+- **"Geist eines Gefangenen":** Spezifisch wurde behauptet, der Geist eines verstorbenen Gefangenen habe von ihm Besitz ergriffen. Dies wurde oft mit nächtlichem "Mondanheulen" auf dem Gardeturm in Verbindung gebracht (wobei andere Quellen behaupten, dies sei der Gardist [[Johan_Gottfried]] gewesen).
+- **Der Spinnen-Vorfall:** Delarie wollte eine sprechende Riesenspinne, die im Schlosshof erschien, sofort hinrichten lassen. Die Spinne entpuppte sich später als der verandelte Magister **Gnaden Tarnuk**. Delaries kompromisslose Härte ("Erschlagt es!") wurde von Kritikern als Beweis seiner mangelnden Besonnenheit gewertet.
+- **Zusammenhang:** Auch wenn vieles Propaganda sein mag, fallen diese Berichte zeitlich mit dem Auftreten des Dämons "Hutmacher" und den Vorfällen um die "Shilor-Spinne" zusammen.
 
 ## Überlieferungen & Quellen
 > [!NOTE]

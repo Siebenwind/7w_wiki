@@ -235,3 +235,125 @@ Jeder Eintrag dokumentiert: **Wann** wurde **was** aus **welcher Quelle** extrah
 ### Notizen
 - Längere Geschichten (Khalandra, Jenseits des Walls, Aus dem Leben eines Schwarzmagiers, etc.) wurden in früheren Batches bereits detailliert verarbeitet
 - Die Taverne "Wolpertinger" in Falkensee taucht in mehreren Quellen auf – Kandidat für eigenen Artikel
+
+### 2026-02-14 | Detail-Ingestion: Die Namikleris
+**Quelle:** `Die Namikleris.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Die_Namikleris` in `/09_Bibliothek/` angelegt.
+- **Profil-Update:** `Tintin_(Waljakov)` mit Expeditionshistorie ergänzt.
+- **Register-Sync:** `Szarmaduk` (Personenregister) und `Namikleris` (Mythos) referenziert.
+
+### 2026-02-14 | Detail-Ingestion: Kraken
+**Quelle:** `Kraken.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Kraken` in `/09_Bibliothek/` angelegt.
+- **Geografie:** Stub für `Weteka` (Stadt in Vandrien) erstellt.
+- **Register-Sync:** General `Hornstoß` (Personenregister) hinzugefügt. `Raziel` (bereits vorhanden) verifiziert.
+
+### 2026-02-14 | Detail-Ingestion: Logbuch des Kerkers
+**Quelle:** `Logbuch des Kerkers.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Logbuch_des_Kerkers` in `/09_Bibliothek/` angelegt.
+- **Profil-Update:** `Waldemar_Delarie` mit Gefangenschafts-Episode ergänzt.
+- **Register-Sync:** `Knochenfürst` (Untoter Herrscher) und `Gorem` (Gardist) neu angelegt. `Hektor` Rolle als "Verräter/Besatzungsdiener" dokumentiert.
+
+### 2026-02-14 | Detail-Ingestion: Solfeister Kin
+**Quelle:** `Solfeister Kin.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Solfeister_Kin` in `/09_Bibliothek/` angelegt.
+- **Register-Check:** `Solfeister_Kin` war bereits im Register.
+- **Lore:** Rituale des Angamon-Kults (Folter, biologische Kriegsführung?) im Dunkeltief erfasst.
+
+### 2026-02-14 | Detail-Ingestion: Die Verbrennung des heiligen Markus
+**Quelle:** `Die Verbrennung des heiligen Markus.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Die_Verbrennung_des_heiligen_Markus` in `/09_Bibliothek/` angelegt.
+- **Lore:** Dekonstruktion des Aberglaubens, dass im Dunkeltief nur Schwarzmagie wirkt.
+- **Register-Sync:** `Markus` (Magister/Heiliger) hinzugefügt.
+
+### 2026-02-14 | Detail-Ingestion: Ritus, Gebet und Erleuchtung
+**Quelle:** `Ritus, Gebet und Erleuchtung.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Ritus_Gebet_und_Erleuchtung` in `/09_Bibliothek/` angelegt.
+- **Lore:** Angamon-Ritus und "Der Erzähler" (Mehr'thak) als Entität.
+- **Register-Sync:** `Mehr'thak` als Entität erfasst.
+
+---
+**Ingestion-Logbuch: Batch 21 - Social & Tales**
+**Datum:** 2026-02-14
+**Verantwortlich:** Antigravity
+
+**Quelle:** `Studenten – WG | Siebenwind | Ultima Online Freeshard | Siebenwind.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Die_Zwergen_WG` in `/09_Bibliothek/` angelegt.
+- **Register-Sync:** `Gimbart`, `Nirluk`, `Galdora` erfasst.
+
+**Quelle:** `Geschäftiges Treiben.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Geschaeftiges_Treiben` in `/09_Bibliothek/` angelegt.
+- **Lore:** Nekromantisches Ritual.
+- **Register-Sync:** `Magister ad Sinister` erfasst.
+
+**Quelle:** `Nachts im Brandensteiner Tempel.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Nachts_im_Brandensteiner_Tempel` in `/09_Bibliothek/` angelegt.
+- **Lore:** Morsan-Schutzritual, Horwah-Erwähnung.
+
+**Quelle:** `Prüfung und Entsagung.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Pruefung_und_Entsagung` in `/09_Bibliothek/` angelegt.
+- **Register-Sync:** `Lucienne` erfasst.
+
+**Quelle:** `Pueppchens Flucht.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Pueppchens_Flucht` in `/09_Bibliothek/` angelegt.
+- **Register-Sync:** `Püppchen` erfasst.
+
+**Quelle:** `Letzte Vorbereitungen.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Letzte_Vorbereitungen` in `/09_Bibliothek/` angelegt.
+- **Register-Sync:** `Sandholz` erfasst.
+
+**Quelle:** `Die Elemente - ungleiche Geschwister.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Die_Elemente_ungleiche_Geschwister` in `/09_Bibliothek/` angelegt.
+- **Lore:** Elementar-Ritual (Ecclesia Elementorum).
+- **Register-Sync:** `Gorion` erfasst, `Nithavela` aktualisiert.
+
+---
+**Ingestion-Logbuch: Batch 22 - Narrative & Character Arcs**
+**Datum:** 2026-02-14
+**Verantwortlich:** Antigravity
+
+**Quelle:** `Abschied_und_Verrat.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Abschied_und_Verrat` in `/09_Bibliothek/` angelegt.
+- **Register-Sync:** `Todward_von_Saalhorn`, `Aelfrid_Wildgaden` erfasst.
+
+**Quelle:** `Abweisungen.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Abweisungen` in `/09_Bibliothek/` angelegt.
+- **Register-Sync:** -
+
+**Quelle:** `Alles_ohne_Pointe.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Alles_ohne_Pointe` in `/09_Bibliothek/` angelegt.
+- **Lore:** Dämonenseuche in Falkensee.
+- **Register-Sync:** `Dorion_Hali` (aktualisiert/referenziert), `Akora` (referenziert).
+
+**Quelle:** `Aus_dem_Leben_eines_Schwarzmagiers.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Aus_dem_Leben_eines_Schwarzmagiers` in `/09_Bibliothek/` angelegt.
+- **Lore:** Nekromant (unbenannt), Gefallener Novize.
+- **Register-Sync:** `Felix_Goldschein` erfasst.
+
+**Quelle:** `Briefe aus der Ferne.md` | **Quellentyp:** Spielergeschichte | **Epistemik:** #perspektive
+#### Aktionen:
+- **Wiki-Produktion:** Erzählseite `Briefe_aus_der_Ferne` in `/09_Bibliothek/` angelegt.
+- **Register-Sync:** `Taleris_Kreytz`, `Rajka_Sanseha` erfasst.

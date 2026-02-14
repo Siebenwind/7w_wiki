@@ -31,4 +31,4 @@ Thorgat stammt ursprünglich aus den **Drachenschwingen** auf dem Festland. Er b
 Thorgat ist ein Verfechter der zwergischen Tugenden: Treue, Gehorsam und vor allem Ehre. Er sieht es als seine Pflicht an, den "Jungbärten" ein Vorbild zu sein und ihnen beizubringen, ihr inneres Feuer (**Arkadons Feuer**) durch Disziplin zu zügeln. Er schätzt einen ehrlichen Kampf mehr als politische Intrigen.
 
 ## Quellen
-*   [Erinnerungen eines alternden Zwergen](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Spielergeschichten/Erinnerungen%20eines%20alternden%20Zwergen%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)
+*   [Erinnerungen eines alternden Zwergen](../../Quellen/Spielergeschichten/Erinnerungen%20eines%20alternden%20Zwergen%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)

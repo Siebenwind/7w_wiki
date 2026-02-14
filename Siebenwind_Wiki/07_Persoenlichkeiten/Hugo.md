@@ -16,4 +16,4 @@ letzter_check: 2026-02-13T23:55:00
 Hugo ist ein Fischer, der im [[Siebenwind_Bote_150|Siebenwind Boten]] im Zusammenhang mit dem lokalen Leben am Hafen erwähnt wird.
 
 ## Quellen
-*   [Siebenwind Bote 150](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20150.md)
+*   [Siebenwind Bote 150](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20150.md)

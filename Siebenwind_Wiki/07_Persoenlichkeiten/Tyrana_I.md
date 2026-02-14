@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 uuid: 4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c
-title: Tyrana I.
+title: Tyrana I. Ahm Senal
 category: Persönlichkeit
 quelle: ../../Quellen/Hintergrund/Khalandra.md
 letzter_check: 2026-02-13T23:05:00

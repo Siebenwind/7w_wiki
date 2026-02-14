@@ -1,6 +1,64 @@
 # Changelog: Siebenwind-Wiki-Rekonstruktion
 
 Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
+## [2026-02-14.3] - Spielergeschichten Integration (Batches 20-22)
+### Hinzugefügt
+- **Batch 20: Dark Lore & Cults**:
+    - Neue Artikel: `Die_Namikleris`, `Kraken`, `Logbuch_des_Kerkers`, `Solfeister_Kin`, `Die_Verbrennung_des_heiligen_Markus`, `Ritus_Gebet_und_Erleuchtung`.
+    - Register-Updates: `Szarmaduk`, `General Hornstoß`, `Knochenfürst`, `Markus`, `Mehr'thak`.
+- **Batch 21: Social & Tales**:
+    - Neue Artikel: `Die_Zwergen_WG`, `Geschaeftiges_Treiben`, `Nachts_im_Brandensteiner_Tempel`, `Pruefung_und_Entsagung`, `Pueppchens_Flucht`, `Letzte_Vorbereitungen`, `Die_Elemente_ungleiche_Geschwister`.
+    - Register-Updates: `Gimbart`, `Nirluk`, `Sandholz`, `Gorion`, `Püppchen`, `Lucienne`.
+    - Lore-Korrektur: **Horwah** als Manifestationen/Avatare der Götter definiert (User-Feedback).
+- **Batch 22: Narrative & Character Arcs**:
+    - Neue Artikel: `Abschied_und_Verrat`, `Abweisungen`, `Alles_ohne_Pointe`, `Aus_dem_Leben_eines_Schwarzmagiers`, `Briefe_aus_der_Ferne`.
+    - Register-Updates: `Todward von Saalhorn`, `Aelfrid Wildgaden`, `Dorion Hali`, `Felix Goldschein`, `Taleris Kreytz`, `Rajka Sanseha`.
+
+### Geändert
+- **Personenregister**: Bereinigung von Duplikaten und Konsolidierung von Einträgen (Akora, Taleris, Rajka).
+- **Ingestion Log**: Lückenlose Dokumentation aller Verarbeitungsschritte.
+
+## [2026-02-14.3] - Recherche Marnie Ruatha & Handover
+### Hinzugefügt
+- **Forschungsbericht**: `Forschungsbericht_Marnie_Ruatha.md` (Intern) erstellt.
+    - Zusammenstellung der Biographischen Daten (Hafenvogtin 19-21 n.H., Asyl 22 n.H.).
+    - Analyse der Boten 167, 168, 173, 186.
+- **Gap-Identifikation**:
+    - `Tjure_Odal`: Fehlt im System (Lücke).
+    - `Arn_Toron`: Vorhanden, aber Prüfung empfohlen.
+
+### Geändert
+- **Dokumentation**:
+    - `MASTER_TASK_LIST.md`: Aktualisiert.
+    - `Wiki_Statistiken.md`: Neu generiert (837 Artikel, 472 Persönlichkeiten).
+
+## [2026-02-14.2] - Synapsen-System v2.0 & Register-Consolidation
+### Hinzugefügt
+- **Synapsen-System v2.0**: Erfolgreicher End-to-End Test des neuen Konfliktlösungs-Frameworks.
+    - **Lore Trust Score (0-10)**: Automatisierte Berechnung integriert (`lore_score_manager.py`).
+    - **Synapse Board**: Ticketsystem für Konflikte (`Conflict_2026-003_Delarie_Timeline`).
+- **Register-Consolidation**:
+    - **Quelle**: "Das Ende der Zeit der Könige" (Spielergeschichte) vollständig integriert.
+    - **Personen**: 18 neue Profile (u.a. `Zoran_Gosh`, `Hadrian_Lugado`, `Hubertus_Anverita`).
+    - **Organisationen**: 6 neue Organisationen (u.a. `Ring_des_Argionemes`, `Bruderschaft_Gofilm`).
+- **Wiki-Content**:
+    - Neue Artikel: `Codex_Iuris_Canonici`, `Aequitas`, `Brevier_des_Ordo_Astraeli` (Bibliothek Astrael).
+
+### Geändert
+- **Priorisierung**: User-Eingaben (`#user_canon`) sind nun vom Trust-Score entkoppelt (Score reflektiert Quellenreinheit, nicht Zustimmung).
+
+
+## [2026-02-14.1] - Historiker-Review: Delarie & Glaron
+### Geändert
+- **Waldemar Delarie (`Waldemar_Delarie.md`)**:
+    - **Timeline-Retcon**: "Reise nach Papin" von 25-28 n.H. auf **21 n.H.** korrigiert (Fit für Bote 183/Putsch).
+    - **Titel**: Ergänzung um "Regierungsrat" und "Adjutant".
+    - **Lore**: Erweiterung der "Gerüchteküche" (Spinnen-Vorfall, Besessenheit).
+- **William Glaron (`William_Glaron.md`)**:
+    - **Biografie-Erweiterung**: Vom Stub zum Vollprofil (Turniersieger 21 n.H., Tragödie 22 n.H.).
+    - **OOC-Integration**: Berücksichtigung der späteren Erhebung zum Ritter und der Auflösung des "Diener des Einen"-Plots.
+- **System**:
+    - **Orakel**: Permission-Issue bei `search.py` dokumentiert (Workaround via grep genutzt).
 
 ## [2026-02-13.9] - Wiki Consistency Restoration- 🏛️ **Total Consistency Restoration:** Alle 69+ Konsistenzprobleme im Personenregister behoben (0 Duplikate, 0 Orphans, 0 Missing Profiles).
 - ✍️ **Stub Creation:** 57 neue Profil-Stubs für registrierte Charaktere erstellt.
