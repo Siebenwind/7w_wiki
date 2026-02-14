@@ -61,6 +61,7 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Ring_der_Wissenden]] | Zirkel innerhalb des Argionemes | - | #perspektive |
 | [[Blutige_Faust]] | Söldnertruppe | Unbekannt | #perspektive |
 | [[Magister_ad_Sinister]] | Nekromanten-Orden | Unbekannt | #perspektive |
+| [[Malthuster_Wacht]] | Städtische/Lehenswache | Malthust / [[Brandenstein]] | #bote |
 
 
 ## Handwerks- und Handelsgilden

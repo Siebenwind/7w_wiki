@@ -2,21 +2,18 @@
 layout: wiki_page
 title: Petrichor
 category: Persönlichkeiten
-status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 191.md
 ---
+
 # Petrichor
 
 **Titel:** Blauer Lindwurm
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Lilienwall]] / [[Echsenmenschen]]
-**Zeitraum:** aktiv ab ca. 30 n.H.
+**Zugehörigkeit:** [[Echsenmenschen]] ([[Lilienwall]]) / [[Xan]]-Einfluss
 
 ## Beschreibung
-**Petrichor** ist ein blauer Lindwurm und der Bruder von [[Akassvae]]. Er schlüpfte aus einem der Eier, die von Ras Altanin nach [[Siebenwind]] gelangten. Sein Wachstum stand unter dem Einfluss der Gottheit [[Xan]].
+**Petrichor** ist ein männlicher blauer Lindwurm und der Bruder von [[Akassvae]]. Er schlüpfte 30 n.H. aus einem Ei von [[Ras_Altanin]]. Im Gegensatz zu seiner Schwester wurde er von den Echsenmenschen bei [[Lilienwall]] in einem fernen Hort umhegt, wobei diese ihm Respekt und Verehrung entgegenbrachten, ohne ihn jedoch als Waffe zu lenken.
 
-## Wirken
-- **30 n.H. (Bote 191/193):** Er lebte zeitweise in menschlicher Gestalt in [[Brandenstein]], um die Gesellschaft der Menschen zu studieren. Schließlich verließ er [[Siebenwind]] in Richtung Festland ([[Wallenburg]]), um dortige Konflikte zwischen neugeborenen Lindwürmern und Menschen zu verhindern und als Friedensbotschafter zu wirken.
+Sein Wesen wurde durch die Domäne des Gottes [[Xan]] beeinflusst. Er wird als potenziell friedlichere oder zumindest weniger aggressive Entität im Vergleich zu Akassvae angesehen.
 
 ---
-**Siehe auch:** [[Akassvae]], [[Echsenmenschen]], [[Lindwürmer]]
+**Siehe auch:** [[Akassvae]], [[Lindwurm]], [[Siebenwind_Bote_191]]

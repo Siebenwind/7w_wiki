@@ -6,13 +6,14 @@ category: Persönlichkeiten
 
 # Alricio Romero di Madjani
 
-**Titel:** Wirt ("Vitamas Rosengarten") / Ex-Redakteur
+**Titel:** Leitender Redakteur ([[Siebenwind_Bote]])
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Siebenwind_Bote]] (ehemals) / [[Falkensee]] / [[Vitamas_Rosengarten]]
+**Zugehörigkeit:** [[Siebenwind_Bote]] / [[Brandenstein]]
 
 ## Beschreibung
-**Alricio Romero di Madjani** (Kürzel: ARdM) war lange Zeit der leitende Redakteur des **[[Siebenwind_Bote]]n**. Er kommentierte das Zeitgeschehen oft mit scharfer Zunge und moralischem Appell.
-Im Jahr 22 n.H. (Bote 185) trat er zurück, um sich ganz seinem neuen Projekt zu widmen: Dem Teehaus und der Weinstube **"Vitamas Rosengarten"** (im ehemaligen Gebäude des "Ersonter Kessels") in Falkensee.
+**Alricio Romero di Madjani** (Kürzel: ARdM) ist ein erfahrener Redakteur und Publizist, der nach jahrelanger Abwesenheit im Jahr 30 n.H. (Bote 192) die Leitung des **Siebenwind-Boten** erneut übernahm. Er hatte diese Position bereits einige Jahre zuvor inne und gilt als Kenner der politischen und gesellschaftlichen Verhältnisse auf Siebenwind und dem Festland.
+
+Unter seiner Führung soll der Bote wieder zu alter Größe finden und eine verlässliche Informationsquelle für die Bewohner der Insel werden. Er residiert in der neuen Schreibstube des Boten (Haus Nr. 13) in [[Brandenstein]].
 
 ---
-**Siehe auch:** [[Siebenwind_Bote]], [[Falkensee]]
+**Siehe auch:** [[Siebenwind_Bote]], [[Siebenwind_Bote_192]]

@@ -1,27 +1,19 @@
 ---
 layout: wiki_page
-uuid: b2c3d4e5-f6a7-4b8c-9a0d-1e2f3a4b5c6d
 title: Helfric von Wallenburg
-category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 194.md
-letzter_check: 2026-02-13T22:45:00
-report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
+category: Persönlichkeiten
 ---
 
 # Helfric von Wallenburg
 
-**Titel:** Sire / Ritter
+**Titel:** Sire / Kronritter
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** Adel / Brandenstein
+**Zugehörigkeit:** [[Festland]] / [[Brandenstein]]
 
 ## Beschreibung
-**Sire Helfric von Wallenburg** ist ein galadonischer Ritter, der im Jahr 36 n.H. in regionalen Berichten erwähnt wird (Bote 194).
+**Helfric von Wallenburg** ist ein Kronritter, der aus der Baronie Wallenburg (Festland) nach Siebenwind reiste, um die Baronie im Kampf gegen die Lindwürmer zu unterstützen. Im Jahre 36 n.H. (Bote 194) übernahm er das Kommando über die weltlichen Truppen zur Verteidigung [[Brandenstein]]s gegen das kommende Dunkeltief.
 
-## Wirken
-- **Rittertum:** Dienst zur Verteidigung der Lehen und Aufrechterhaltung der ritterlichen Ordnung.
+Eines seiner größten Verdienste war die Tötung des roten Lindwurms [[Aschehorn]] während einer Expedition, wobei er jedoch selbst schwer verwundet wurde. Dank modernster Heilarbeit im Hospital von Brandenstein konnte er sich vollständig erholen.
 
-## Verlinkte Themen
-- [[Personenregister]]
-
-## Referenzen
-- Primärquelle: [Siebenwind Bote 194](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20194.md)
+---
+**Siehe auch:** [[Siebenwind_Bote_194]], [[Aschehorn]], [[Brandenstein]]

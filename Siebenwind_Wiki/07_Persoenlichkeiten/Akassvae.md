@@ -2,21 +2,18 @@
 layout: wiki_page
 title: Akassvae
 category: Persönlichkeiten
-status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 191.md
 ---
+
 # Akassvae
 
-**Titel:** Grüner Lindwurm / "Tochter der Echsen"
+**Titel:** Grüner Lindwurm / "Die Geschuppte"
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Splitterfelsen]] / [[Echsenmenschen]]
-**Zeitraum:** aktiv ab ca. 30 n.H.
+**Zugehörigkeit:** [[Echsenmenschen]] ([[Splitterfelsen]]) / [[Rien]]-Einfluss
 
 ## Beschreibung
-**Akassvae** ist ein grüner weiblicher Lindwurm, der aus einem der von Ras Altanin nach [[Siebenwind]] verschleppten Eier schlüpfte. Ihre Entwicklung wurde maßgeblich von der Gottheit [[04_Rien]] (oder echsischen Riten, die ihr zugeordnet werden) beeinflusst.
+**Akassvae** ist ein weiblicher grüner Lindwurm, der im Jahre 30 n.H. aus einem Ei schlüpfte, das von [[Ras_Altanin]] nach Siebenwind gebracht wurde. Sie wurde von den Echsenmenschen des Splitterfelsens aufgezogen und im Sinne der Prophezeiung vom "Anbrechen des Zeitalters der Geschuppten" als Waffe gegen die "Ungeschuppten" (Menschen, Elfen, Dwarschim) erzogen.
 
-## Wirken
-Im Jahr 30 n.H. (Bote 191) wird berichtet, dass sie von den Echsen in den Tiefen der [[Splitterfelsen]] aufgezogen und zu einer Waffe gegen die ungeschuppten Völker erzogen wird. Sie gilt als zentrale Figur in der Prophezeiung der Echsen über das "Anbrechen des Zeitalters der Geschuppten".
+Ihr Wesen wurde durch die Domäne der Göttin [[Rien]] beeinflusst. Sie wird als mächtiges, aber noch unmündiges Wesen beschrieben, das von den Echsen instrumentalisiert wird. Ihr Bruder ist der blaue Lindwurm [[Petrichor]].
 
 ---
-**Siehe auch:** [[Petrichor]], [[Echsenmenschen]], [[Lindwürmer]]
+**Siehe auch:** [[Petrichor]], [[Lindwurm]], [[Siebenwind_Bote_191]]

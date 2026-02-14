@@ -2,21 +2,16 @@
 layout: wiki_page
 title: Maelve Rhyntarin
 category: Persönlichkeiten
-status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 172.md
 ---
+
 # Maelve Rhyntarin
 
-**Titel:** Bibliothekarin
+**Titel:** Bibliothekarin / Arkanistin
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]] / Bibliothek
-**Zeitraum:** aktiv ab 20 n.H.
+**Zugehörigkeit:** [[Brandenstein]] / [[Koenigliche_Akademie_der_Arkanen_Kuenste]]
 
 ## Beschreibung
-**Maelve Rhyntarin** ist die verantwortliche Bibliothekarin der neu eingeweihten Bibliothek in [[Brandenstein]].
-
-## Wirken
-*   **Bibliothekseinweihung (20 n.H.):** Unter ihrer Leitung wurde am 26. Onar 20 n.H. die Bibliothek zu Brandenstein offiziell eröffnet. Das Projekt wurde maßgeblich von Baronin [[Beladriel_Blaettertanz]] gefördert ([[Siebenwind_Bote_172]]).
+**Maelve Rhyntarin** dient als Bibliothekarin in [[Brandenstein]]. Sie ist eine erfahrene Arkanistin und war maßgeblich an dem großen Ritual zur Vernichtung des Kältedämons am Wall beteiligt (22 n.H.). Dabei arbeitete sie eng mit [[Laylira_Hohentann]] und Vertretern der Kirche zusammen.
 
 ---
-**Siehe auch:** [[Brandenstein]], [[Beladriel_Blaettertanz]]
+**Siehe auch:** [[Brandenstein]], [[Siebenwind_Bote_186]], [[Koenigliche_Akademie_der_Arkanen_Kuenste]]

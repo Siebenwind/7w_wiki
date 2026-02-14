@@ -2,21 +2,18 @@
 layout: wiki_page
 title: Tanja Wollframm
 category: Persönlichkeiten
-status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 193.md
 ---
+
 # Tanja Wollframm
 
-**Titel:** Abrichterin / Jägerin
+**Titel:** Abrichterin / Meisterschützin
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]]
-**Zeitraum:** aktiv um 30 n.H.
+**Zugehörigkeit:** [[Brandenstein]] / [[03_Gesellschaft#Handwerk|Abrichter]]
 
 ## Beschreibung
-**Tanja Wollframm** ist eine begabte Abrichterin und Jägerin aus [[Brandenstein]].
+**Tanja Wollframm** ist eine bekannte Abrichterin und Jägerin aus [[Brandenstein]]. Im Jahre 30 n.H. (Bote 193) erlangte sie Ruhm, als sie die große Inseljagd des Nathar Erres gewann. 
 
-## Wirken
-Sie ging als Siegerin aus der von **[[Nathar_Erres]]** ausgeschriebenen großen Jagdprüfung des Jahres 30 n.H. hervor (Bote 193). Sie erlegte erfolgreich einen Adler und einen Hirsch und konnte schließlich auch den Schreckenswolf im Küstengebirge des Nordens stellen. Als Belohnung erhielt sie 1.000 Dukaten Preisgeld und einen wertvollen Wolfshund zur Zucht.
+Es gelang ihr, zwei der drei geforderten legendären Tiere (Adler und Hirsch) aufzuspüren und zu erlegen. Den mysteriösen Schreckenswolf im fernen Norden stellte sie schließlich gemeinsam mit dem Veranstalter Nathar Erres. Als Gewinn erhielt sie ein stattliches Preisgeld und einen edlen Wolfshund für ihre eigene Zucht.
 
 ---
-**Siehe auch:** [[Nathar_Erres]], [[Jagd]]
+**Siehe auch:** [[Nathar_Erres]], [[Siebenwind_Bote_193]]
