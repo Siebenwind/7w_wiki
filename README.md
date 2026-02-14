@@ -18,14 +18,8 @@
 
 ---
 
-## 🏛️ Die Vision
+## 🏛️ Der Codex (Vision)
 Das zentrale Intelligenz-Framework für die Welt von Siebenwind. Dieses Projekt ist nicht nur ein Wiki, sondern eine **standardisierte Lore-Engine**, die 20 Jahre Rollenspielgeschichte durch eine KI-gestützte Architektur vereint, saniert und für die Zukunft bewahrt.
-
-Die Engine dient als **Single Source of Truth** für Spieler, Geschichtenschreiber und KI-Agenten gleichermaßen.
-
----
-
-## 🌐 Interaktive Erlebnisse
 
 > [!TIP]
 > **[Hier geht es zum interaktiven Siebenwind Wiki (Live Preview)](https://Siebenwind.github.io/7w_wiki/)**
@@ -33,9 +27,9 @@ Die Engine dient als **Single Source of Truth** für Spieler, Geschichtenschreib
 
 ---
 
-## 🧠 Die Lore-Architektur (Wisdom Loop)
+## 🧠 Die Architektur (Wisdom Loop)
 
-Das System funktioniert als geschlossener, **kybernetischer Kreislauf**, der menschliche Kreativität mit maschineller Präzision verbindet.
+Das System funktioniert als geschlossener, kybernetischer Kreislauf (Trias Politica).
 
 ```mermaid
 graph TD
@@ -49,63 +43,53 @@ graph TD
     G -->|Feedback| A
 ```
 
-> 📖 **Mehr Details:** [Lies die vollständige Architektur-Dokumentation (Trias Politica)](docs/architecture.md)
+> 📖 **Deep Dive:** [Architektur & Philosophie (Trias Politica)](docs/architecture.md)
 
 ---
 
-## 🔮 Das Orakel (RAG System)
-Wir nutzen ein lokales Retrieval Augmented Generation (RAG) System für semantische Suchen.
+## 📜 Die Protokolle (Handbücher)
 
-- **Technologie:** `jina-embeddings-v3` + `bge-reranker-v2-m3`
-- **Funktion:** Beantwortet komplexe Fragen wie *"Wie entwickelte sich die Magie in Tiefenbach?"* statt nur Keywords zu matchen.
+Hier finden Agenten und Entwickler die Gesetzestexte der Engine:
 
-> 🛠️ **Setup & Nutzung:** [Installationsanleitung & RAG Guide](docs/setup_rag.md)
+| Protokoll | Beschreibung | Status |
+| :--- | :--- | :--- |
+| **[Ingestion Protocol v3.0](docs/ingestion_protocol.md)** | Standard für die Aufnahme neuer Daten (Boten, Forum). | ✅ Aktiv |
+| **[Wiki Style Guide](docs/wiki_style_guide.md)** | Formatierung, Tone of Voice und Tagging-Regeln. | ✅ Aktiv |
+| **[RAG / Orakel Setup](docs/setup_rag.md)** | Technische Anleitung für die semantische Suche. | ✅ Aktiv |
+| **[Contributing Guide](CONTRIBUTING.md)** | Wie man mitarbeitet (Issues, Pull Requests). | ✅ Aktiv |
 
 ---
 
-## 🚀 Unified CLI: Der Entry-Point `7w.py`
+## 🎨 Art Direction: "Codex Atlanticus" (Vorschlag)
 
-Wir haben alle Intelligenz-Tools in einer zentralen Schnittstelle gebündelt. Dies erlaubt eine nahtlose Integration mit externen Anwendungen oder Shell-Automatisierungen.
+*Wir streben eine visuelle Identität an, die technische Präzision mit der Ästhetik der Renaissance verbindet.*
 
-### 📚 Nutzung (Beispiele)
+**Stil-Vorgabe:** Leonardo da Vinci (Rötel, Silberstift, Sepia-Tinte).
+**Konzept:** Die "Lore Engine" wird nicht als Computerprogramm dargestellt, sondern als komplexe mechanische Apparatur aus Holz, Messing und Pergament.
+
+**Vorgeschlagene Banner-Motive:**
+1.  **"Der Webstuhl der Wahrheit"**: Eine hölzerne Maschine, die Fäden (Storylines) zu einem Teppich (Wiki) verwebt. Rötel-Zeichnung.
+2.  **"Das Orakel-Getriebe"**: Ein Querschnitt durch einen mechanischen Kopf, in dem Zahnräder (Vektoren) ineinandergreifen. Silberstift auf vergilbtem Papier.
+3.  **"Die Anatomie des Archivs"**: Eine vitruvianische Darstellung der Siebenwind-Welt, vermessen mit Zirkel und Lineal.
+
+*(Diese Assets sind noch zu erstellen)*
+
+---
+
+## 🚀 Unified CLI: `7w.py`
+
+Wir haben alle Intelligenz-Tools in einer zentralen Schnittstelle gebündelt.
+
 ```bash
-# SYSTEM STATUS & DASHBOARD
-./7w.py  # Führt Diagnose aus & zeigt offene Tasks
-
 # Lore-Suche (Orakel)
 ./7w.py search "Wer gründete den Löwenorden?"
 
-# Konsistenz-Audit & Register-Cleanup
+# Konsistenz-Audit
 ./7w.py audit
-./7w.py repair
 
-# KI-Delegation (Token-Schonung)
-./7w.py delegate --scout --source forum
+# Status-Check (Advisor)
+./7w.py advisor
 ```
-
----
-
-## 🏗️ Struktur des Repositories
-
-| Kategorie | Verzeichnis | Beschreibung |
-| :--- | :--- | :--- |
-| **Lore-Content** | `/Siebenwind_Wiki/` | Das Herzstück – 100% Markdown-Wiki. |
-| **Agentic Brain** | `/.agent/` | Workflows, Skills, Prompts & Lore-Gedächtnis. |
-| **Intelligence** | `/System/` | Python-Logik, Orakel-Vektoren & Audit-Scripts. |
-| **Rohmaterial** | `/Quellen/` | Digitalisierte Boten, Zeitzeugnisse & Forum-Archiv. |
-
----
-
-## 💻 Für Entwickler & KI-Agenten
-
-Dieses Repository ist **AI-Native**. Jede Datei folgt strikten Konventionen (YAML Metadata, Epistemische Tags), um eine optimale maschinelle Lesbarkeit und semantische Vernetzung zu gewährleisten.
-
-### Installation & Setup
-1. Repository klonen
-2. Abhängigkeiten installieren: `pip install -r requirements.txt`
-3. Wiki lokal starten: `mkdocs serve`
-
----
 
 ---
 
