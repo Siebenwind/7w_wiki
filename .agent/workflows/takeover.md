@@ -24,12 +24,11 @@ Um Informationsverlust zu vermeiden, gelten ab sofort folgende **Default-Einstel
 3.  **Subdivision:** `Granular`. Zerlege komplexe Aufgaben in `task.md` in atomare Schritte.
 4.  **Protokoll:** Nutze im Zweifel immer den Workflow `/antigravity`.
 
-## 2. Das Ritual (Status-Analyse)
-Führe den **Advisor** aus (oder nutze `/antigravity`), um den aktuellen Stand der Dinge zu erfahren. Er prüft Aufgaben, Quellen und Konsistenz für dich.
+## 2. Das Ritual (Onboarding)
+Führe den **Onboarding-Workflow** aus, um alle Optionen und den aktuellen Systemstatus zu sehen.
 
-```bash
-python3 .agent/scripts/advisor.py
-```
+// turbo
+1. Führe `./7w.py start` aus.
 2a. **Synapse-Board/Research lesen:** Öffne `/System/Synapse_Board/` und verschaffe dir einen Überblick über alle Tickets (`NEEDS_REVIEW`) sowie das [[System/Synapse_Board/LORE_RESEARCH_BOARD.md|Lore Research Board]] (`TENDERS`).
 2b. **Claiming:** Entscheide, ob du einen Forschungsauftrag übernimmst und setze den Status auf `CLAIMED`.
 
