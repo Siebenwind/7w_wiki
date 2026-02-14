@@ -4,6 +4,12 @@ title: Organisationsregister
 category: [[Gesellschaft]]
 ---
 
+---
+layout: wiki_page
+title: Organisationsregister
+category: Fundament
+---
+
 # Organisationsregister
 
 **Epistemischer Status:** #canon
@@ -11,6 +17,7 @@ category: [[Gesellschaft]]
 Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politischen Vereinigungen auf [[Siebenwind]].
 
 ## Zentrale Organisationen
+
 
 | Name | Typ | Sitz | Status |
 | :--- | :--- | :--- | :--- |

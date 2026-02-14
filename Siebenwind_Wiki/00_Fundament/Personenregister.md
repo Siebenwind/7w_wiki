@@ -5,6 +5,12 @@ category: Geografie
 uuid: d173e080-a2dd-42ec-b616-f7f614fa9368
 ---
 
+---
+layout: wiki_page
+title: Personenregister
+category: Fundament
+---
+
 # Personenregister
 
 **Epistemischer Status:** #canon
@@ -12,6 +18,7 @@ uuid: d173e080-a2dd-42ec-b616-f7f614fa9368
 Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten Personen und [[Persönlichkeiten]] der Welt [[Siebenwind]].
 
 ## Zentrale Personenliste
+
 | Name | Rolle / Titel | Erstes Auftreten (Quelle) | Aktivitätszeitraum | Status |
 | [[Aelwin]] | Inquisitor / Geweihter | [Heilige Liturgien] / [Bote 120] | Historisch / 15 n.H. | #überlieferung |
 | [[Arenus_der_Weise]] | Erzmagus / Philosoph / Autor | [Dunvallo Linari - Philosophie] / [Philosophie] | Historisch (ca. 70 b.H.) | #überlieferung |

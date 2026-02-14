@@ -9,6 +9,9 @@ repo_url: https://github.com/Siebenwind/7w_wiki
 site_url: https://Siebenwind.github.io/7w_wiki/
 edit_uri: edit/main/docs/
 
+extra_css:
+  - assets/custom.css
+
 theme:
   name: material
   logo: assets/logo.png

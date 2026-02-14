@@ -1,0 +1,96 @@
+/* Siebenwind Wiki 2.1 - Renaissance-Modern CSS */
+
+:root {
+  --md-primary-fg-color: #2c3e50; /* Deep Slate */
+  --md-primary-fg-color--light: #34495e;
+  --md-accent-fg-color: #d4af37; /* Metallic Gold */
+  --md-default-bg-color: #fdfaf3; /* Parchment White */
+}
+
+/* Typography Overrides */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;700&display=swap');
+
+h1, h2, h3, .md-nav__link--active {
+  font-family: 'Cinzel', serif !important;
+  letter-spacing: 0.05em;
+  color: #8c6d1f !important; /* Deep Gold */
+}
+
+body, .md-typeset {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+}
+
+/* Monumental Page Header */
+.md-content__inner h1 {
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Card Style for content */
+.md-content {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  margin-top: 20px;
+}
+
+/* Table Styling - Renaissance Look */
+.md-typeset table:not([class]) {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #e0d0b0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fffaf0; /* Ivory */
+}
+
+.md-typeset table:not([class]) th {
+  background-color: #2c3e50;
+  color: #d4af37;
+  font-family: 'Cinzel', serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.md-typeset table:not([class]) td {
+  border-top: 1px solid #eee;
+}
+
+/* Subtle Animated Gradient (The 'Cloud' Effect) */
+.md-header {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.md-header::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(circle at 50% 50%, rgba(212, 175, 55, 0.05) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* Link Styling */
+.md-typeset a {
+  color: #2980b9;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+.md-typeset a:hover {
+  color: #d4af37;
+  border-bottom-color: #d4af37;
+}
+
+/* Mermaid Customization */
+.mermaid {
+  background: #fff !important;
+  border: 1px solid #e0d0b0 !important;
+  border-radius: 8px;
+  padding: 10px;
+}
