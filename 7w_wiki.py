@@ -83,6 +83,9 @@ def main():
     index_parser.add_argument("--rebuild", action="store_true", help="Full re-indexing")
     index_parser.add_argument("--status", action="store_true", help="Check index status")
 
+    # Index Pages
+    subparsers.add_parser("index-pages", help="Automatically generate index.md files for all wiki categories")
+
     # Advisor (Default)
     subparsers.add_parser("advisor", help="Show system status and recommendations (Default)")
 
@@ -136,6 +139,10 @@ def main():
         if args.status:
             index_args.append("--status")
         run_script(".agent/skills/oracle/build_index.py", index_args)
+
+    elif args.command == "index-pages":
+        print(f"📂 {BOLD}Generiere Kategorie-Indizes...{RESET}")
+        run_script(".agent/scripts/generate_wiki_indices.py")
 
     else:
         parser.print_help()
