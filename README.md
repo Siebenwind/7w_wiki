@@ -35,7 +35,7 @@ Die Engine dient als **Single Source of Truth** für Spieler, Geschichtenschreib
 
 ## 🧠 Die Lore-Architektur (Wisdom Loop)
 
-Das System funktioniert als geschlossener Kreislauf aus Extraktion, Validierung und Wissensaufbau:
+Das System funktioniert als geschlossener, **kybernetischer Kreislauf**, der menschliche Kreativität mit maschineller Präzision verbindet.
 
 ```mermaid
 graph TD
@@ -43,10 +43,23 @@ graph TD
     B -->|Audit & Check| C{Wahrheits-Prüfung}
     C -->|Canon| D[Wiki-Kern / Fundament]
     C -->|Widerspruch| E[Lore Research Board]
+    E -->|Entscheidung| C
     D -->|Semantic Search| F[Das Orakel]
     F -->|Antwort| G[Endnutzer / Agenten]
     G -->|Feedback| A
 ```
+
+> 📖 **Mehr Details:** [Lies die vollständige Architektur-Dokumentation (Trias Politica)](docs/architecture.md)
+
+---
+
+## 🔮 Das Orakel (RAG System)
+Wir nutzen ein lokales Retrieval Augmented Generation (RAG) System für semantische Suchen.
+
+- **Technologie:** `jina-embeddings-v3` + `bge-reranker-v2-m3`
+- **Funktion:** Beantwortet komplexe Fragen wie *"Wie entwickelte sich die Magie in Tiefenbach?"* statt nur Keywords zu matchen.
+
+> 🛠️ **Setup & Nutzung:** [Installationsanleitung & RAG Guide](docs/setup_rag.md)
 
 ---
 
@@ -103,4 +116,4 @@ Dieses Projekt nutzt ein **Dual-License Modell**:
 
 Bitte beachte `CONTRIBUTING.md` und `CODE_OF_CONDUCT.md` für die Mitarbeit.
 
-*© 2026 Siebenwind Chronisten-Gilde | Engineered for Intelligence*
+*© 2026 LeCorbeau | Engineered for Intelligence*
