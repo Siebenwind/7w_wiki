@@ -30,6 +30,9 @@ Die **[[Kirche_der_Viere]]** verehrt Astrael als den Stifter von Gesetz und Ordn
 ## Die Magie
 Astrael ist der Schirmherr der arkanen Künste. Anders als die *Elementarherren*, die die rohe Kraft der Natur verkörpern, steht Astrael für die *geformte* Magie – die Matrix, das Ritual, die Formel. Magie wird als Werkzeug verstanden, um Ordnung in das Chaos zu bringen.
 
+### Kontroverse: Ursprung des Netzes
+Während das kirchliche Dogma (basierend auf dem *Yehramnis*) lehrt, dass das **[[Astralnetz]]** ein direktes Geschenk Astraels an die Sterblichen sei, existieren in der akademischen Magietheorie abweichende Thesen. Prominent vertritt der Erzmagus **[[Toran_Dur]]** die Ansicht, dass das Netz bereits existierte (möglicherweise geschaffen von den [[Gohor]]) und Astrael den Sterblichen lediglich die *Gabe* (den Zugang) verlieh. Diese Theorie gilt unter strengen Dogmatikern als grenzwertig, da sie die Schöpfungsmacht des Gottes relativiert (siehe [[Gohor_Haeresie]]).
+
 ## Beziehungen
 - [[Bellum]]: Sein Bruder, mit dem er die Liebe zur Ordnung teilt, wenngleich [[Bellum]] diese durch Stärke und Astrael durch Gesetz durchsetzt.
 - **[[Morsan]]:** Der stille Bruder. Astrael respektiert die Ruhe des Winters, da im Schlaf oft Erkenntnis reift.

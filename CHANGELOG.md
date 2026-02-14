@@ -2,6 +2,19 @@ Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgeha
 
 ## [2026-02-14.7] - Phase 17: Infrastructure & Intelligence
 ### Hinzugefügt
+- **Finsterwangen / Tiefenbach Korrektur**:
+    - `Tiefenbach.md`: Als historische Hauptstadt ("Jassavia-Analogie" auf der Insel) definiert.
+    - `Finsterwangen.md`: Als Festung der Galahad-Legende definiert (nicht Jassavia/Hauptstadt).
+    - `Historie_&_Ären.md`: Trennung von Jassavia (Festland) und Tiefenbach (Insel).
+    - `Die_Legende_von_Galahad_Ritter_der_Rosen.md`: Verlinkungen korrigiert.
+- **Lore-Untersuchungen**:
+    - **Astralnetz-Ursprung**: Kontroverse (Kirche vs. Toran Dur) in `Astrael.md`, `Toran_Dur.md`, `Die_Gohor.md` dokumentiert.
+    - **Ionas Narrative**: `Ionas.md` mit atmosphärischen Detailsangereichert (Resolved Synapse Ticket 2026-003).
+
+### Geändert
+- **Synapse Board**:
+    - Ticket `Conflict_2026-003_Ionas_Narrative` geschlossen (RESOLVED).
+    - Ticket `Conflict_TEST_001_Falkensee_Timeline` geschlossen (RESOLVED durch Finsterwangen-Lore).
 - **Onboarding Workflow**: Neuentwickelter `/start` Prozess (`./7w.py start`) für eine strukturierte Agenten-Übernahme.
 - **Historiker-Workflow**: `/historian` Workflow zur tiefen Analyse von Kausalitäten und Lore-Rekonstruktion.
 - **Lore Audit**: Protokoll und Template für Lore-Peer-Reviews und Eskalationen bei Unsicherheit.

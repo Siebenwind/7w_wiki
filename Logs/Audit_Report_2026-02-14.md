@@ -35,3 +35,21 @@ Folgende Themen wurden zur vertieften Forschung ausgeschrieben:
 
 ---
 **Status:** ✅ Konsistenzprüfung bestanden.
+
+---
+
+## 4. Nachtrag: Research-Audit (Session 2)
+**Zeitpunkt:** 14.02.2026, 06:40
+**Verantwortlich:** Advisor (Antigravity)
+
+### 🔬 Konfliktlösung
+*   **Ticket 2026-005 (Angamon):** ✅ Der Widerspruch wurde durch den *Advisor Report 2026-001* gelöst. Die "9 Domänen" sind die funktionale Ebene (Laetall/Toran Dur), die "10. Sphäre" (Festung) ist die theoretische Spitze (Ravinsthal).
+    *   **Aktion:** Ticket kann geschlossen werden.
+
+### ⚠️ Neue Befunde
+*   **Personenlücke:** Aus der Recherche *Marnie Ruatha* wurde das Fehlen von `[[Tjure_Odal]]` bestätigt.
+    *   **Aktion:** Profil muss erstellt werden (Priorität: Hoch).
+
+### 📈 Statistik-Update
+(Siehe `[[Wiki_Statistiken]]` für Details)
+*   **Konsistenz:** 100% (Technisch)

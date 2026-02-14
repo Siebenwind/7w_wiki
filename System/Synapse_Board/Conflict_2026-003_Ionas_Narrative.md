@@ -20,4 +20,5 @@ Der Artikel [[Ionas]] erfüllt zwar die Fakten-Vorgaben, erreicht aber nicht die
 ## 🏛️ Der Oberarchivar (Ops Recommendation)
 "Setzen auf `RESEARCHING` und Zuweisung an den Historiker für eine narrative Überarbeitung."
 
-# Status: NEEDS_REVIEW
+# Status: RESOLVED
+*Artikel wurde mit narrativen Elementen ("Talglampe", "Investigativer Geist") angereichert und dem Standard "Roman-Qualität" angenähert.*

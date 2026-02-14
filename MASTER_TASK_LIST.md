@@ -14,6 +14,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] **Konstitution & Sicherheit**: Implementierung der "Constitution of Responsibility".
 - [x] **Batch 25**: Integration der Toran Dur Magie-Bibliothek.
 - [x] **Audit**: Vollständiger System-Audit Feb 2026.
+- [x] **Lore Investigations**: Astralnetz-Ursprung, Ionas-Narrative, Finsterwangen/Tiefenbach Historie.
 
 
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`). Batch 25 (Toran Dur Library) abgeschlossen. Nächster Schritt: Batch 26.

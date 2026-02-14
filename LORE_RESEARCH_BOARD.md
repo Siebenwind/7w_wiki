@@ -5,11 +5,17 @@ Dies ist das zentrale Board für offene Forschungsfragen, Lore-Inkonsistenzen un
 ## 🔴 Hohe Priorität (Lore-Blocker)
 
 ### [RESEARCH-2026-001] Die Neun Domänen des Angamon
-- **Status:** Offen
+- **Status:** ✅ Gelöst (siehe `Logs/Advisor_Report_2026_001_Angamon.md`)
 - **Quelle:** [[Daimonicon]] (Kulin Laetall), [[Sphaerenkunde_Kosmologie]] (Wolfgang Ravinsthal)
-- **Problem:** Laetall beschreibt 9 Domänen, Ravinsthal erwähnt in der Liste 10 (Festung der Finsternis als 10. Untersphäre).
-- **Ziel:** Klärung der Hierarchie. Ist die Festung eine eigene Domäne oder Teil der 9.?
+- **Ergebnis:** Die "9 Domänen" sind das funktionale Modell (Erzdämonen), die "10. Sphäre" (Festung der Finsternis) ist die theoretische Spitze.
 - **Zuständig:** Lore-Gelehrter
+
+### [RESEARCH-2026-004] Causa Tjure Odal & Arn Toron
+- **Status:** 🔴 Offen (In Bearbeitung)
+- **Quelle:** Recherche Marnie Ruatha (Bote 167-186)
+- **Problem:** Tjure Odal wird als "unterstützter Ketzer" genannt, existiert aber nicht im Wiki. Arn Toron wird im Kontext erwähnt, Rolle unklar.
+- **Ziel:** Rekonstruktion ihrer Historie und Verbindung zur Hafenvogtin Brandensteins.
+- **Zuständig:** Historiker
 
 ## 🟡 Mittlere Priorität (Detail-Forschung)
 

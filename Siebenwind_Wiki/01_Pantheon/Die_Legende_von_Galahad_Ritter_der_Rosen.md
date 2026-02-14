@@ -11,7 +11,7 @@ quelle: "Bibliothek Astrael"
 
 ---
 
-In jener Zeit aber, als Jassavia, die Schoene gefallen war und sich Dunkelheit über ganz Galadon senkte, ging im bis dahin unbedeutenden Lehen Silberwald ein Stern auf, dessen Licht noch heute hell erstrahlt. Und der Name des Sterns war Galahad, den man den Ritter der Rose nannte.
+In jener Zeit aber, als **[[Jassavia]]**, die Schoene gefallen war und sich Dunkelheit über ganz Galadon senkte, ging im bis dahin unbedeutenden Lehen Silberwald ein Stern auf, dessen Licht noch heute hell erstrahlt. Und der Name des Sterns war Galahad, den man den Ritter der Rose nannte.
 
 Drei Jahre nach Jassavias Fall tobte im Sueden Galdons der Dornenkrieg. Es waren die Tage des Dunkeltiefs und allein Doringarth, die eherne Feste Silberwalds hielt den Horden Azaris, den Nekromanten, stand. Blut hatte den Schnee vor den Toren Doringarths tiefrot gefaerbt und die Reihen der von der Schlacht heimkehrenden Falken hatten sich schmerzlich gelichtet. Gross war der Trauer an jenem Tag, den Ian Saranis, Erbe von Doringarth war nicht unter dennen dich sich im fahlen Morgenlicht durch die Burgtore schleppten. Niemand wusste ob der Held vom Sichelfeld gefallen war -oder schlimmeres.
 

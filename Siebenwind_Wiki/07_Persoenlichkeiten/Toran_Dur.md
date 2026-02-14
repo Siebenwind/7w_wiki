@@ -22,7 +22,7 @@ category: Persönlichkeiten
 
 ## Wirken & Forschung
 Toran Dur ist bekannt für seinen unstillbaren Wissensdurst und seine oft waghalsigen Methoden:
-- **Magietheorie:** Sein **[[Lehrbuch_Magietheorie]]** definiert fundamentale Konzepte wie das [[Lehrbuch_Magietheorie#Zensor|Zensor-Modell]] und die Elementarknoten. Er integriert dabei sowohl arkan-kosmologische als auch theologische Ansätze.
+- **Magietheorie:** Sein **[[Lehrbuch_Magietheorie]]** definiert fundamentale Konzepte wie das [[Lehrbuch_Magietheorie#Zensor|Zensor-Modell]] und die Elementarknoten. Er integriert dabei sowohl arkan-kosmologische als auch theologische Ansätze. Bekannt ist er auch für seine (umstrittene) **Gohor-Theorie**, nach der das [[Astralnetz]] nicht von [[Astrael]] geschaffen wurde, sondern ein kosmisches Relikt der [[Gohor]] ist – eine These, die ihn oft in Konflikt mit orthodoxen Klerikern bringt.
 - **Niemand & Mazareem:** Er war maßgeblich an der Erforschung des Volkes von [[Niemand]] und der Stadt [[Mazareem]] beteiligt. Er interpretierte Prophezeiungen über den Krieg gegen den Dämonenkönig und die "letzte Schlacht" auf Siebenwind (Bote 142).
 - **Goblin-Forschung:** Um die Kultur der Goblins zu studieren, unterzog er sich angeblich einem Selbstversuch und lebte – möglicherweise magisch verwandelt – unter ihnen (Bote 180).
 - **Tal der Ahnen (18 n.H.):** In Bote 157 rettete er durch sein eigenmächtiges Handeln eine Armee vor der Vernichtung durch Spinnenmatronen im Tal der Ahnen, nachdem die [[Dwarschim]] ("Zwergenlogik") die Verstärkung verbannt hatten.

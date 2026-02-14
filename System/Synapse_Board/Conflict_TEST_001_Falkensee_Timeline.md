@@ -30,5 +30,5 @@ Drei-Wege-Widerspruch zur Gründung von Falkensee:
 ## 🏛️ Der Oberarchivar (Ops Recommendation)
 "Ich empfehle die Umsetzung des 'Soft-Retcon' (Siedlungsspuren 8 n.H.). Technisch gesehen sollten wir das Tag `#überlieferung` nutzen, um die Distanz zum `#canon` zu wahren. Dies verhindert 'Lore-Bleeding' und hält das System konsistent. Die 5 n.H.-Quelle sollte im Ingestion-Log als 'Discarded/Inconsistent' markiert werden."
 
-# Status: AWAITING_USER
-*Meister, welche dieser Experten-Meinungen entspricht deiner Vision? (A) Nur Kanon (12 n.H.), (B) Soft-Retcon mit Siedlungsspuren (8 n.H.).*
+# Status: RESOLVED
+*Der Konflikt wurde durch die Etablierung von **[[Finsterwangen]]** als Nachfolger der Hauptstadt **[[Jassavia]]** gelöst. Die "Siedlungsspuren" 8 n.H. beziehen sich auf erste Wiederbesiedlungs-Versuche der Ruinen, während die offizielle Neugründung später erfolgte. Die Zerstörungs-Daten (5 n.H.) wurden als Fehlinformation/Aberglaube eingestuft, da Jassavia bereits im Dritten Zeitalter fiel.*

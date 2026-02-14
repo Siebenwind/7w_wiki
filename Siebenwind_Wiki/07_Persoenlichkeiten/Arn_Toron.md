@@ -18,7 +18,11 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 167.md
 
 ## Wirken
 *   **Orken-Aufstand (19 n.H.):** Er wurde im Zuge der Mobilmachung gegen die [[Orks]] als einer jener Menschen gebrandmarkt, die das Schwert gegen die Krone erhoben und die Orks unterstützten. Er wurde für vogelfrei erklärt (Bote 168).
-*   **Ketzerei (22 n.H.):** In Bote 186 wird er erneut im Zusammenhang mit der Verhaftung von [[Marnie_Ruatha]] erwähnt, der vorgeworfen wurde, ihn und andere Verräter unterstützt zu haben.
+*   **Ersonter Putsch (21 n.H.):** In Bote 184 tritt Arn Toron als **ehemaliger Konsul** auf, der zwischen den Rebellen der Garbe (Hauptmann Steinhauer) und den Loyalisten vermittelte. Er floh nach einer Geiselnahme durch die Viertler nach [[Brandenstein]], wo er Asyl erhielt. Später zog er sich gänzlich dorthin zurück.
+*   **Anklage (22 n.H.):** Im *Carmer 22 n.H.* (Bote 186) wird er von der Malthuster Wacht als "bekannter Ketzer" bezeichnet, dessen Auslieferung oder Bekämpfung gefordert wird.
+
+## Historische Einordnung
+> *Historiker-Gutachten: Die Wandlung Torons vom angesehenen Konsul und Sponsor des "Ersonter Bellumsmarktes" (Bote 184) zum "Ketzer" (Bote 186) zeichnet das Bild eines politischen Flüchtlings. Seine Flucht nach Brandenstein brachte ihn in das Umfeld von [[Marnie_Ruatha]]. Die "Ketzer"-Anklage dürfte primär politisch motiviert sein, um das Asyl in Brandenstein zu brechen.*
 
 ---
-**Siehe auch:** [[Orks]], [[Marnie_Ruatha]]
+**Siehe auch:** [[Orks]], [[Marnie_Ruatha]], [[Tjure_Odal]], [[Brandenstein]]

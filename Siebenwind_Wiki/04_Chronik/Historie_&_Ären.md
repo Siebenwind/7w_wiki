@@ -25,7 +25,7 @@ Die [[index]] Tares wird in Zeitalter unterteilt.
 ### Das Dritte Zeitalter (Ära der Kriege)
 *   **Angamons Krieg:** Der Dämonengott [[10_Angamon]] überzog die Welt mit Krieg.
 *   **Der Amulettkrieg:** Ein verheerender Konflikt, der das Gleichgewicht der Welt bedrohte.
-*   **Jassavias Fall:** Ein Schlüsselereignis, das das Ende alter Reiche markierte.
+*   **Jassavias Fall:** Ein Schlüsselereignis, das das Ende alter Reiche markierte. Die legendäre "Weiße Stadt" **[[Jassavia]]** (auf Falandrien) fiel. Auf Siebenwind wurde die Hauptstadt **[[Tiefenbach]]** vernichtet.
 *   **Der Dornenkrieg:** Tobte drei Jahre nach Jassavias Fall im Süden Galadons.
 
 ## Die Zeitrechnung "Nach Hilgorad" (n.H.)

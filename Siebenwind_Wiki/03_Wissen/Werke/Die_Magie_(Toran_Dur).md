@@ -1,0 +1,32 @@
+# Die Magie
+
+**Autor:** [[Toran Dur]]
+**Kategorie:** Magietheorie / Kosmologie
+
+## Inhalt
+
+"Die Magie" ist eines der fundamentalen Werke von Toran Dur, in dem er versucht, das Wesen der Magie umfassend zu erklären. Es behandelt die Definition von Magie, die kosmologische Struktur der Welt und verschiedene magische Traditionen.
+
+### Definition der Magie
+Toran Dur definiert Magie als "die Manipulation des astralen Netzes durch einen sterblichen Geist". Er beschreibt sie als eine Konstante der Existenz, die aus dem astralen Netz gewoben ist.
+
+### Kosmologie
+Das Werk beschreibt die drei Sphären der Existenz:
+*   **Mandon**: Die erste Sphäre, die materielle Welt.
+*   **Horandon**: Die zweite Sphäre, die Welt des Geistes und der Götter.
+*   **Vidon**: Die dritte Sphäre, die Welt der Toten (wenn auch hier Theorien variieren).
+
+Zwischen den Sphären existiert der **Limbus**, eine chaotische Zone des Übergangs.
+
+### Magische Theorien
+Dur stellt verschiedene Theorien vor, um das Wirken von Magie zu erklären:
+*   **Fadentheorie**: Das astrale Netz besteht aus Fäden der fünf Elemente (Feuer, Wasser, Erde, Luft, Geist).
+*   **Aurentheorie**: Jedes Lebewesen besitzt eine Aura, die manipuliert werden kann.
+*   **Theorie der größeren Ströme**: Eine fortgeschrittene Theorie, die Ströme im astralen Netz (sowohl im fixen als auch im flexiblen Netz) betrachtet (siehe dazu auch [[Theorien der Magie (Toran Dur)]]).
+
+### Magische Praktiken
+Das Buch geht auch auf verschiedene Anwendungsgebiete ein:
+*   **Ritualkunde**: Die Bedeutung von Pentagrammen, Kreisen und Foki.
+*   **Illusionismus**: Die Kunst der Täuschung.
+*   **Kampfmagie**: Der Einsatz von Magie im Gefecht.
+*   **Gnosis**: Der veränderte Bewusstseinszustand, der nötig ist, um Magie zu wirken.

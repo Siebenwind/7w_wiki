@@ -26,6 +26,9 @@ Das "Drachenkind". **[[Tare]]** ist nicht nur der Name der Welt, auf der wir leb
 ## Ihre Rolle im Glauben
 Die Gohor werden selten direkt angebetet, da sie als zu fern und abstrakt gelten. Sie sind die "Götter der Götter". Die meisten Gebete der Sterblichen richten sich an die *Viere (Sahor)*, die als Wächter der Ordnung agieren, oder an die *Elementarherren ([[Enhor]])*, um die Naturgewalten zu besänftigen.
 
+## Magietheoretische Bedeutung
+Einige Erzmagier, insbesondere **[[Toran_Dur]]**, postulieren, dass das **[[Astralnetz]]** ein ursprüngliches Werk der Gohor sei (eine Struktur aus Raum und Zeit), das bereits vor dem Eingreifen der Götter existierte. Diese Theorie steht im Widerspruch zum Dogma der [[Astrael]]-Kirche, welche das Netz als Geschenk ihres Gottes betrachtet. Die Verehrung der Gohor als "wahre Schöpfer" gilt unter Orthodoxen als Häresie (siehe [[Gohor_Haeresie]]).
+
 ## Verwandte Themen
 - [[Astrael]] - Einer der Viere
 - [[Bellum]] - Einer der Viere
