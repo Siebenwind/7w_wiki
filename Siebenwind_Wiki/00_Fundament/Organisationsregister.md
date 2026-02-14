@@ -1,6 +1,3 @@
-category: [[Gesellschaft]]
-
-
 ---
 layout: wiki_page
 title: Organisationsregister
