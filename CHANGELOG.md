@@ -1,5 +1,15 @@
 Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
 
+## [2026-02-14.13] - Batch 26: Toran Dur Ingestion (Pfad A)
+### Hinzugefügt
+- **Wiki-Content**:
+    - **Magietheorie**: `Locus_Magicae.md`, `Magietheorie_Toran_Dur.md` (Arcana Procella), `Artefaktlehre.md`.
+    - **Forschung**: `Bartanatomie.md` (Goldaxt), `Finsterwangen.md` (Krise 14 n.H.), `Brandenstein.md` (Diamant-Matrix).
+    - **Bestiarium**: Klassifizierung nach Liebig (**Lazperday** vs **Warthun**).
+- **Register**:
+    - Neue Personas: `Birnbaum`, `Fogrim Goldaxt`, `Logrin Goldaxt`, `Johannes Klos`, `Johann Liebig`, `Hernaphas Lenarmberg`, `Hahngard Esteron`.
+    - Updates: `Kida Gilwen`, `Kalveron Dai`.
+
 ## [2026-02-14.12] - Batch 27: Toran Dur Advanced Doctrines (Sub-Batches 1-4)
 ### Hinzugefügt
 - **Wiki-Content**:

@@ -12,7 +12,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [ ] **Batch 26 (Ingestion)**: Erste Anwendung des Ingestion 3.0 Protokolls auf die verbleibenden Quellen.
+- [x] **Batch 26 (Ingestion)**: Erste Anwendung des Ingestion 3.0 Protokolls auf die verbleibenden Quellen. (Completed: 2026-02-14)
 - [ ] **Audit (Register)**: Nach-Cleanup Check des Personenregisters (nach Ingestion 3.0 Standard).
 
 ## 🟡 Priorität 2: Operative Ingestion (Inhalte)
