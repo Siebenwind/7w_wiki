@@ -76,19 +76,19 @@ Hier finden Agenten und Entwickler die Gesetzestexte der Engine:
 
 ---
 
-## 🚀 Unified CLI: `7w.py`
+## 🚀 Unified CLI: `7w_wiki.py`
 
 Wir haben alle Intelligenz-Tools in einer zentralen Schnittstelle gebündelt.
 
 ```bash
 # Lore-Suche (Orakel)
-./7w.py search "Wer gründete den Löwenorden?"
+./7w_wiki.py search "Wer gründete den Löwenorden?"
 
 # Konsistenz-Audit
-./7w.py audit
+./7w_wiki.py audit
 
 # Status-Check (Advisor)
-./7w.py advisor
+./7w_wiki.py advisor
 ```
 
 ---
