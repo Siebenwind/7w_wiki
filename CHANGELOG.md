@@ -1,5 +1,20 @@
 Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
 
+## [2026-02-14.10] - Lore Reconstruction: The Origins of Siebenwind
+### Hinzugefügt
+- **Wiki-Archiv**: `Logs/Historian_Report_2026_003_Siebenwind_Origins.md` als Forschungs-Zusammenfassung erstellt.
+- **Geografie**: `Rohehafen.md` (Ehemalige Hauptstadt der ersten Kolonie) erstellt.
+
+### Geändert
+- **Lore-Zentralisierung**: 
+    - `Tiefenbach.md`: Status als Hauptstadt entfernt; Fokus auf Hafen und Magie-Akademie (historisch).
+    - `Finsterwangen.md`: Fokus auf den Sphärenriss und die Galahad-Verteidigung präzisiert.
+    - `Historie_&_Ären.md`: Umfassender Retcon der Hilgorad-Expedition (1 n.H.) und der "Ersten Kolonie".
+    - `Hilgorad_I_ap_Mer.md`: Rolle als Expeditions-Initiator ergänzt.
+    - `Siebenwind.md`: Regionen-Übersicht um Rohehafen ergänzt.
+    - `Stadtchronik_Rohehafens.md`: Als historisches Dokument markiert (vordatiert auf ca. 5 n.H.).
+- **Research Board**: RESEARCH-2026-005 und 006 als `COMPLETED` markiert.
+
 ## [2026-02-14.9] - Documentation & Maintenance: Path D (Der Chronist)
 ### Hinzugefügt
 - **Wiki-Statistiken**: Neues Statistik-Dashboard generiert (984 Artikel, 521 Persönlichkeiten). Dokumentiert unter `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md`.
