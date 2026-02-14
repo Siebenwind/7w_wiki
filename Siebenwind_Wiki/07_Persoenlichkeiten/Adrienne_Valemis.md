@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Adrienne Valemis
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Linari - Reagenzien]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Adrienne Valemis
 
 ## Beschreibung
-Erzmagus / Autor
+Spektabilität / Magister (Toran Dur)
 
 ## Referenzen
 - [[Personenregister]]

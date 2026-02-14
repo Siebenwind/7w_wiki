@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Alma
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Linari - Philosophie]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Alma
 
 ## Beschreibung
-Erzmagus / Autor
+Philosophin / Autorin
 
 ## Referenzen
 - [[Personenregister]]

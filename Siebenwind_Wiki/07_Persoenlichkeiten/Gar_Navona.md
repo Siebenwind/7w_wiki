@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Gar Navona
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Johann Liebig - Arkane Verbindung]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Gar Navona
 
 ## Beschreibung
-Erzmagus / Autor
+Magister / Schöpfer (Gargoyles)
 
 ## Referenzen
 - [[Personenregister]]

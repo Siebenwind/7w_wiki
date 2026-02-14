@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Abdera
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Linari - Philosophie]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Abdera
 
 ## Beschreibung
-Erzmagus / Autor
+Philosoph / Autor
 
 ## Referenzen
 - [[Personenregister]]

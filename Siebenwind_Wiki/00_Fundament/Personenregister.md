@@ -14,9 +14,9 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 ## Zentrale Personenliste
 | Name | Rolle / Titel | Erstes Auftreten (Quelle) | Aktivitätszeitraum | Status |
 | [[Aelwin]] | Inquisitor / Geweihter | [Heilige Liturgien] / [Bote 120] | Historisch / 15 n.H. | #überlieferung |
-| [[Arenus_der_Weise]] | Erzmagus / Philosoph | [Dunvallo Linari - Philosophie] | Historisch | #überlieferung |
+| [[Arenus_der_Weise]] | Erzmagus / Philosoph / Autor | [Dunvallo Linari - Philosophie] / [Philosophie] | Historisch (ca. 70 b.H.) | #überlieferung |
 | [[Aren_Remouldo]] | Adeptus Major | [Horlafstrom-Theorie] | Historisch | #überlieferung |
-| [[Amanda_Dunkelbaum]] | Elementaristin (Novizin) | [Der Elementare Pfad] | Historisch | #überlieferung |
+| [[Amanda_Dunkelbaum]] | Elementaristin (Novizin) | [Der Elementare Pfad] / [Eigenschaften_der_Elemente] | Historisch | #überlieferung |
 | [[Arknor]] | Adept zur Linken | [Sprache Yerredoni] | Historisch | #überlieferung |
 | [[Anais]] | Ihre Gnaden / Inquisitorin | [Heilige Liturgien] | Historisch | #überlieferung |
 | [[Aarion]] | Graf der Wolfsmark | [Vandriens Entstehung] | Historisch | #überlieferung |
@@ -49,7 +49,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Anonymus]] | Autor (Generaltheorie/Dämonologie) | [Theorie_arkane_Magie] / [Alchemie_Kompendium] / [Magietheorie_Daimonen_Domaenen] | Historisch | #überlieferung |
 | [[Aleis]] | Entdecker | [Bote 145] | ~15 n.H. | #bote |
 | [[Alek_Lancan]] | Leutnant (Lehensbanner) / Turniersieger | [Bote 133] | 16 n.H. | #bote |
-| [[Amanda_Dunkelbaum]] | Elementaristin | [Der Elementare Pfad] / [Eigenschaften_der_Elemente] | Historisch | #überlieferung |
 | [[Andaris_Maran]] | Diener Astraels (Blauer Pfad) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
 | [[Argus_Ebonhart]] | Magier | [Kanon] | amtierend | #canon |
 | [[Armgard_Torenson]] | Kapitän / Entdecker | [Bote 137] | Legendär | #bote |
@@ -65,7 +64,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Caiomme]] | Leutnant ([[03_Gesellschaft#Siebenwind_Kronregiment|Kronregiment]]) | [Bote 177] | 19 n.H. | #bote |
 | [[Dame_al_Javet]] | Magierin | [Bote 139] | 16 n.H. | #bote |
 | [[Adrienne_Valemis]] | Spektabilität / Magister (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
-| [[Arenus_der_Weise]] | Philosoph / Autor | [Philosophie] | Historisch (ca. 70 b.H.) | #überlieferung |
 | [[Alma]] | Philosophin / Autorin | [Linari - Philosophie] | Historisch | #überlieferung |
 | [[Abdera]] | Philosoph / Autor | [Linari - Philosophie] | Historisch | #überlieferung |
 | [[Aschehorn]] | Roter Lindwurm | [Bote 193] | 30 n.H. | #bote |
@@ -416,7 +414,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Hubertus_Anverita]] | Aspirant (Astrael) / Agent | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
 | [[Hugo]] | Fischer | [Bote 150] | 17 n.H. | #bote |
 
-| [[Thanthul]] | Magus / Nekromant | [Daimonicon] / [Schwarze Ritualmagie] | 24 n.H. | #überlieferung |
+| [[Tanthul]] | Magus / Nekromant / Lehrmeister / Autor | [Daimonicon] / [Schwarze Ritualmagie] | Historisch / 24 n.H. | #überlieferung |
 | [[Luydira]] | Knappin | [Bote 139] | 16 n.H. | #bote |
 
 | [[Mael_Duin]] | Marschall / Lehensherr ([[Tannenstein]]) | [Bote 122] | 15 n.H. | #bote |
@@ -465,8 +463,8 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Enoah_Sullin]] | Magier (Teilnehmer Hellsichtritual) | [[Forschungsberichte (Toran Dur)]] | 33 n.H. | #überlieferung |
 | [[Elurai_Calades]] | Erzmagier / Autor | [Bindungslehre] | Historisch | #überlieferung |
 | [[Elyran_Fischer]] | Adeptus Arkanis (Ita'Glur) | [Die Elemente aus der Sicht der Mitte] | Historisch | #überlieferung |
-| [[Kulin_Lateal]] | Erzmagus / Autor | [Das Daimonicon] | Historisch | #überlieferung |
-| [[Johann_Liebig]] | Adeptus Arkanis / Autor | [Arkane Verbindung] | Historisch | #überlieferung |
+
+| [[Johann_Liebig]] | Adeptus Arkanis (Mitte) / Autor | [Arkane Verbindung] | Historisch | #überlieferung |
 | [[Dimiona]] | Adepta Maior | [Die Foki] | Historisch | #überlieferung |
 | [[Morin_Thamaz]] | Pfadleiter (Elementar) | [Bote 158] | 18 n.H. | #bote |
 | [[Richard_Tiefenwasser]] | Freier | [Bote 158] | 18 n.H. | #bote |
@@ -575,7 +573,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[T.]] | Buchhändler / Freund (Mainland) | [L. eines Dichters] | 22 n.H. | #perspektive |
 | [[Janniea_Lavrial]] | Stadtkonsula ([[Falkensee]]) | [Bote 158] | amtierend | #bote |
 | [[Jennaia_Lavrial]] | Magistra | [Theorie der elementaren Atome] | Historisch | #überlieferung |
-| [[Johann_Liebig]] | Adeptus Arkanis (Mitte) | [Arkane Verbindung] | Historisch | #überlieferung |
 | [[Johannes_Klos]] | Magietheoretiker | [Locus Magicae] | Historisch | #überlieferung |
 
 | [[Haldhold_Hammerhall]] | Turniersieger (Zwerg) | [Bote 152] | 17 n.H. | #bote |
@@ -614,7 +611,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Mehr'thak]] | "Der Erzähler" / Entität (Angamon?) | [Ritus, Gebet und Erleuchtung] | - | #perspektive |
 | [[Merden]] | ? | - | - | #überlieferung |
 | [[Nakoti]] | ? | - | - | #überlieferung |
-| [[Nefustor]] | Schwarzmagier / Lehrer | [[Daimonologie und Schwarze Magie (Toran Dur)]] | Historisch | #überlieferung |
+| [[Nefustor]] | Schwarzmagier / Magister / Lehrer / Autor | [[Daimonologie und Schwarze Magie (Toran Dur)]] / [Protokoll/Schwarze Magietheorie] | Historisch | #überlieferung |
 | [[Nhergas]] | ? | - | - | #überlieferung |
 | [[Nistram_Rigas]] | Adeptus Arkanis (Antimagie) | [Magica Contraria] | Historisch | #überlieferung |
 | [[Nuir_Ekre]] | Akoluth (Graue Garde) | [Kunst der Diener] | Historisch | #überlieferung |
@@ -630,5 +627,5 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Wolfgang_Ravinsthal]] | Adeptus / Adeptus Arkanis / Autor | [Sphärenkunde] | Historisch | #überlieferung |
 | [[Zyraghlos_cé_Vegano]] | Magister (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
 | [[Keljar]] | Student / Bannweber (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
-| [[Tanthul]] | Lehrmeister / Autor | [Schwarze Ritualmagie] | Historisch | #überlieferung |
-| [[Nefustor]] | Magister / Autor | [Protokoll/Schwarze Magietheorie] | Historisch | #überlieferung |
+
+

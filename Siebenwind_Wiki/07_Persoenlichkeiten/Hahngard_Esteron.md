@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Hahngard Esteron
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Johann Liebig - Arkane Verbindung]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Hahngard Esteron
 
 ## Beschreibung
-Erzmagus / Autor
+Magister (Toran Dur)
 
 ## Referenzen
 - [[Personenregister]]

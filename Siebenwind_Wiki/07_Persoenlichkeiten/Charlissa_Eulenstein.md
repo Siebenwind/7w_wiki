@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Charlissa Eulenstein
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Linari - Reagenzien]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Charlissa Eulenstein
 
 ## Beschreibung
-Erzmagus / Autor
+Erzmaga / Magister (Toran Dur)
 
 ## Referenzen
 - [[Personenregister]]

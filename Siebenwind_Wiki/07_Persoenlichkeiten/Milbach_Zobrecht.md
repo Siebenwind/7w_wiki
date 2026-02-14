@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Milbach Zobrecht
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Linari - Philosophie]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Milbach Zobrecht
 
 ## Beschreibung
-Erzmagus / Autor
+Philosoph / Wissenschaftler
 
 ## Referenzen
 - [[Personenregister]]

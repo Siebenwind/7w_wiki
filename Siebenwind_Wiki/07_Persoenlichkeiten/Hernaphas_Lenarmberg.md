@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Hernaphas Lenarmberg
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Johann Liebig - Arkane Verbindung]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Hernaphas Lenarmberg
 
 ## Beschreibung
-Erzmagus / Autor
+Geweihter (Astrael) / Lehrmeister
 
 ## Referenzen
 - [[Personenregister]]

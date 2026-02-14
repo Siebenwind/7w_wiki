@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Rhadamanth
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Linari - Reagenzien]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Rhadamanth
 
 ## Beschreibung
-Erzmagus / Autor
+Spektabilität / Magister (Toran Dur)
 
 ## Referenzen
 - [[Personenregister]]

@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Zyraghlos cé Vegano
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Linari - Reagenzien]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Zyraghlos cé Vegano
 
 ## Beschreibung
-Erzmagus / Autor
+Magister (Toran Dur)
 
 ## Referenzen
 - [[Personenregister]]

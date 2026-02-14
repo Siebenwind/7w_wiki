@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Herzog von Kant
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Linari - Philosophie]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Herzog von Kant
 
 ## Beschreibung
-Erzmagus / Autor
+Philosoph / Autor
 
 ## Referenzen
 - [[Personenregister]]

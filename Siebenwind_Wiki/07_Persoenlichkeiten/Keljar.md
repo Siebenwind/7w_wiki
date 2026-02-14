@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Keljar
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Linari - Reagenzien]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Keljar
 
 ## Beschreibung
-Erzmagus / Autor
+Student / Bannweber (Toran Dur)
 
 ## Referenzen
 - [[Personenregister]]

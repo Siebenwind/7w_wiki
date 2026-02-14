@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
-title: Kulin Laetall
+title: Arenus der Weise
 category: Persönlichkeiten
-quelle: [Daimonicon]
+quelle: [Dunvallo Linari - Philosophie] / [Philosophie]
 status: #überlieferung
 ---
 
-# Kulin Laetall
+# Arenus der Weise
 
 ## Beschreibung
-Erzmagus / Autor
+Erzmagus / Philosoph / Autor
 
 ## Referenzen
 - [[Personenregister]]
