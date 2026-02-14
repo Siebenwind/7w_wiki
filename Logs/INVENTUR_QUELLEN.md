@@ -270,31 +270,31 @@ Aktualisiert am: 2026-02-12 (Massive MD-Integration)
 | Terenon Sarophilan - Theorien Åber die Herkunft und das Wirken der Magie.md | Toran Dur | Terenon Sarophilan | Pending |
 | Thanthul - Schwarze Ritualmagie.md | Toran Dur | Thanthul | Pending |
 | Themus Takai - Theorem zu den Baumwesen.md | Toran Dur | Themus Takai | Pending |
-| Toran Dur - Adeptenarbeit Visor Noctis.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Bannung Hrasmiren.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Bericht der Erkundung des Tals der Ahnen.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Bericht Åber die GrabstÑtte der Ferrins.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Beschreibung einer Illusion aus der Hîhle Niemands.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Daimonologie.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Die Magie.md | Toran Dur | Toran Dur | Done |
-| Toran Dur - Die Ordenssatzung des Ordens vom Wachenden Lîwen auf Siebenwind.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Die Sprache Run.md | Toran Dur | Toran Dur | Pending |
+| Toran Dur - Adeptenarbeit Visor Noctis.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Bannung Hrasmiren.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Bericht der Erkundung des Tals der Ahnen.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Bericht Åber die GrabstÑtte der Ferrins.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Beschreibung einer Illusion aus der Hîhle Niemands.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Daimonologie.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Die Magie.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Die Ordenssatzung des Ordens vom Wachenden Lîwen auf Siebenwind.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Die Sprache Run.md | Toran Dur | Toran Dur | Integrated |
 | Toran Dur - Graue Charta II.md | Toran Dur | Toran Dur | Integrated |
-| Toran Dur - Hellsichtritual Konstrukt am Wall.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Index Siebenwind Band 2.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Index Siebenwind Band IV.md | Toran Dur | Toran Dur | Pending |
+| Toran Dur - Hellsichtritual Konstrukt am Wall.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Index Siebenwind Band 2.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Index Siebenwind Band IV.md | Toran Dur | Toran Dur | Integrated |
 | Toran Dur - Lehrbuch der Magietheorie.md | Toran Dur | Toran Dur | Integrated |
-| Toran Dur - Magica Curativa - Die Heilmagie.md | Toran Dur | Toran Dur | Pending |
+| Toran Dur - Magica Curativa - Die Heilmagie.md | Toran Dur | Toran Dur | Integrated |
 | Toran Dur - Mazzarem Sprache 2.xls | Toran Dur | Toran Dur | Pending |
 | Toran Dur - Mazzaren-Sprache.xls | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Niemandsrede.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Reisebericht durch das ôdland.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Sammlerfragmente I-IV.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Schwarze Magietheorie, Protokoll von Nefustor.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Schwarzer Ritualkreis.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Theorie der aspektierten Magie.md | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Theorie der grî·eren Kraftstrîme.md | Toran Dur | Toran Dur | Pending |
-| Uron Sbocaj - Thesen der Magiezweige.md | Toran Dur | Uron Sbocaj | Pending |
+| Toran Dur - Niemandsrede.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Reisebericht durch das ôdland.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Sammlerfragmente I-IV.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Schwarze Magietheorie, Protokoll von Nefustor.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Schwarzer Ritualkreis.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Theorie der aspektierten Magie.md | Toran Dur | Toran Dur | Integrated |
+| Toran Dur - Theorie der grî·eren Kraftstrîme.md | Toran Dur | Toran Dur | Integrated |
+| Uron Sbocaj - Thesen der Magiezweige.md | Toran Dur | Uron Sbocaj | Integrated |
 | Wolfgang Ravinsthal - SphÑrenkunde.md | Toran Dur | Wolfgang Ravinsthal | Integrated |
 
 ## Level 4: Das Echo (Spieler-Lore)

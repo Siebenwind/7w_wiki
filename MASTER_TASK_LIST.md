@@ -17,7 +17,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] **Lore Investigations**: Astralnetz-Ursprung, Ionas-Narrative, Finsterwangen/Tiefenbach Historie.
 
 
-- [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`). Batch 25 (Toran Dur Library) abgeschlossen. Nächster Schritt: Batch 26.
+- [x] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`). Batch 25 (Toran Dur Library) abgeschlossen. Nächster Schritt: Batch 26.
+- [x] **Batch 25c**: Integration der Toran Dur Magie-Bibliothek (Toran Dur Reports).
 - [ ] **Vernetzung (Weaving)**: Überprüfung der bi-direktionalen Verlinkung.
 - [x] **Lore Research Board**: Initialisierung des Boards mit 3 aktiven Ausschreibungen.
 - [ ] **Narrative Enrichment**: Ausbau von Stubs zu profunden Artikeln ("Roman-Qualität"). Fokus auf Motivation, Atmosphäre und Zitate.
@@ -54,6 +55,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Batch 25 (Toran Dur Library)**: Vollständige Integration von 13 magietheoretischen und kosmologischen Texten.
 - **Dämonologie & Rituale**: Erstellung des `Daimonicon` und der `Rituallehre`.
 - **System-Repair**: Healthy Register Status erreicht (0 Duplikate, 0 Orphans).
+- **Batch 25c (Toran Dur Reports)**: Integration von 10 weiteren Texten (Forschungsberichte, Ordenssatzung, Sprache Run).
+- **Register-Sync**: Vollständige Erfassung der Gründungsmitglieder des Löwenordens und Toran Durs Biographie.
 - **Lore-Board**: Erstellung des `LORE_RESEARCH_BOARD.md` zur Nachverfolgung offener Lore-Fragen.
 
 ### Phase 15: Die Verfassung der Verantwortung (Feb 2026)
