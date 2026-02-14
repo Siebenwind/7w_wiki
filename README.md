@@ -1,97 +1,97 @@
-# ⚔️ Siebenwind Lore Engine 2.0
+# <p align="center">⚔️ Siebenwind Lore Engine 2.0</p>
 
-![Project Status](https://img.shields.io/badge/Status-Aktiv-vibrantgreen?style=for-the-badge)
-![CLI](https://img.shields.io/badge/Interface-Unified_CLI-orange?style=for-the-badge)
-![Intelligence](https://img.shields.io/badge/AI-Agnostic_Connectable-purple?style=for-the-badge)
+<p align="center">
+  <img src="assets/banner.png" alt="Siebenwind Lore Engine Banner" width="100%">
+</p>
 
-Das zentrale Intelligenz-Framework für die Welt von Siebenwind. Dieses Projekt ist nicht nur ein Wiki, sondern eine **standardisierte Lore-Engine**, die 20 Jahre Rollenspielgeschichte durch KI-gestützte Architektur vereint.
-
----
-
-## 🏛️ Projekt-Dokumentation
-
-| Dokument | Fokus |
-| :--- | :--- |
-| 📜 **[Changelog](CHANGELOG.md)** | **Evolution & Meilensteine.** |
-| ✅ **[Master Task List](MASTER_TASK_LIST.md)** | **Zukunft & Strategischer Fokus.** |
-| 📖 **[Lore Engine Spec](.agent/docs/LORE_ENGINE_SPEC.md)** | **Technische Architektur & CLI-Standard.** |
-| 🏰 **[Workflow-Architektur](.agent/docs/WORKFLOW_ARCHITECTURE.md)** | **Philosophie & Ökosystem (Strategie).** |
-| 📊 **[Wiki Statistiken](Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md)** | **Lore-Dichte & KPI-Dashboard.** |
+<p align="center">
+  <a href="https://github.com/LeCorbeau/7w_wiki">
+    <img src="https://img.shields.io/badge/Status-Aktiv-vibrantgreen?style=for-the-badge&logo=github" alt="Project Status">
+  </a>
+  <a href="https://LeCorbeau.github.io/7w_wiki/">
+    <img src="https://img.shields.io/badge/Live-Wiki_Pages-blue?style=for-the-badge&logo=googledocs" alt="Live Wiki">
+  </a>
+  <a href="https://github.com/LeCorbeau/7w_wiki/blob/main/CHANGELOG.md">
+    <img src="https://img.shields.io/badge/Version-Reconstruction_v2.1-orange?style=for-the-badge" alt="Version">
+  </a>
+</p>
 
 ---
 
-## 🚀 Unified CLI: Die Schnittstelle `7w.py`
+## 🏛️ Die Vision
+Das zentrale Intelligenz-Framework für die Welt von Siebenwind. Dieses Projekt ist nicht nur ein Wiki, sondern eine **standardisierte Lore-Engine**, die 20 Jahre Rollenspielgeschichte durch eine KI-gestützte Architektur vereint, saniert und für die Zukunft bewahrt.
 
-Wir haben alle Intelligenz-Tools in einer zentralen Schnittstelle gebündelt. Dies erlaubt eine nahtlose Integration mit externen Anwendungen (wie dem **Gemini CLI**) oder Shell-Automatisierungen.
+Die Engine dient als **Single Source of Truth** für Spieler, Geschichtenschreiber und KI-Agenten gleichermaßen.
 
-### 📚 Nutzung
+---
+
+## 🌐 Interaktive Erlebnisse
+
+> [!TIP]
+> **[Hier geht es zum interaktiven Siebenwind Wiki (Live Preview)](https://LeCorbeau.github.io/7w_wiki/)**
+> *MkDocs Material v9 | Durchsuchbar | Mobiloptimiert | Dunkelmodus*
+
+---
+
+## 🧠 Die Lore-Architektur (Wisdom Loop)
+
+Das System funktioniert als geschlossener Kreislauf aus Extraktion, Validierung und Wissensaufbau:
+
+```mermaid
+graph TD
+    A[Quellen / Rohdaten] -->|Ingestion Protocol| B(Lore Extraktion)
+    B -->|Audit & Check| C{Wahrheits-Prüfung}
+    C -->|Canon| D[Wiki-Kern / Fundament]
+    C -->|Widerspruch| E[Lore Research Board]
+    D -->|Semantic Search| F[Das Orakel]
+    F -->|Antwort| G[Endnutzer / Agenten]
+    G -->|Feedback| A
+```
+
+---
+
+## 🚀 Unified CLI: Der Entry-Point `7w.py`
+
+Wir haben alle Intelligenz-Tools in einer zentralen Schnittstelle gebündelt. Dies erlaubt eine nahtlose Integration mit externen Anwendungen oder Shell-Automatisierungen.
+
+### 📚 Nutzung (Beispiele)
 ```bash
-# SYSTEM STATUS & DASHBOARD (Default Option)
-./7w.py
-# (Führt automatisch den Advisor aus und zeigt offene Tasks/Probleme)
+# SYSTEM STATUS & DASHBOARD
+./7w.py  # Führt Diagnose aus & zeigt offene Tasks
 
-# Semantische Lore-Suche (Das Orakel)
-./7w.py search "Wer war Hilgorad?"
+# Lore-Suche (Orakel)
+./7w.py search "Wer gründete den Löwenorden?"
 
-# Wiki-Statistiken generieren
-./7w.py stats
-
-# Konsistenz-Audit ausführen
+# Konsistenz-Audit & Register-Cleanup
 ./7w.py audit
+./7w.py repair
 
-# Index-Wartung
-./7w.py index --status
-
-# Historiker-Analyse (Deep Lore)
-./7w.py historian "Angamon"
+# KI-Delegation (Token-Schonung)
+./7w.py delegate --scout --source forum
 ```
 
 ---
 
-## 🏗️ Architektur & Portabilität
+## 🏗️ Struktur des Repositories
 
-Das Projekt folgt einer **AI-Agnostischen Philosophie**. Während es für den *Oberarchivar* (Google Antigravity) optimiert ist, nutzt es strikte Markdown-Standards und entkoppelte Python-Tools, um mit jedem modernen LLM-Framework kompatibel zu sein.
-
-### Verzeichnis-Struktur (Standardized)
-- **`/Siebenwind_Wiki/`**: Das funktionale Herz – 100% Markdown-Wiki.
-- **`/.agent/`**: Das "Gehirn" – Enthält Workflows, Skills und Prompts.
-- **`/7w.py`**: Der Unified Entry-Point für Agenten und User.
-- **`/docs/`**: Virtuelle Referenzen (Symlinks) für das MkDocs-Hosting, um Konflikte zwischen Repo-Struktur und Web-Präsentation zu vermeiden.
-
----
-
-## 🧠 Intelligence Integration
-
-Dieses Repository ist darauf ausgelegt, als **Wissens-Plugin** für KI-Agenten zu fungieren. Durch virtuelle Verweise und standardisierte Metadata (YAML) im Wiki kann das System:
-1.  **Semantisch navigieren** (Orakel).
-2.  **Epistemisch validieren** (Wahrheitshierarchie).
-3.  **Proaktiv forschen** (Lore Research Board & Assignments).
-4.  **Kontinuierlich reparieren** (Audit & Repair).
+| Kategorie | Verzeichnis | Beschreibung |
+| :--- | :--- | :--- |
+| **Lore-Content** | `/Siebenwind_Wiki/` | Das Herzstück – 100% Markdown-Wiki. |
+| **Agentic Brain** | `/.agent/` | Workflows, Skills, Prompts & Lore-Gedächtnis. |
+| **Intelligence** | `/System/` | Python-Logik, Orakel-Vektoren & Audit-Scripts. |
+| **Rohmaterial** | `/Quellen/` | Digitalisierte Boten, Zeitzeugnisse & Forum-Archiv. |
 
 ---
 
-## 🛡️ Default Safety Protocols
+## 💻 Für Entwickler & KI-Agenten
 
-Das System ist **"Secure by Default"**. Um Informationsverlust zu verhindern, gelten folgende Automatismen:
+Dieses Repository ist **AI-Native**. Jede Datei folgt strikten Konventionen (YAML Metadata, Epistemische Tags), um eine optimale maschinelle Lesbarkeit und semantische Vernetzung zu gewährleisten.
 
-1.  **Advisor-First:** Der Aufruf von `./7w.py` ohne Argumente startet immer die System-Diagnose.
-2.  **Strict Audit:** Jeder `/takeover` erzwingt eine Konsistenz-Prüfung.
-3.  **Antigravity Protocol:** Der Workflow `/antigravity` dient als Fallback-Ebene für strikte, skript-gesteuerte Exekution.
-
----
-
-
-## 💻 Deployment & Vorschau
-
-Lokal via MkDocs Material:
-```bash
-pip install mkdocs-material
-mkdocs serve
-```
+### Installation & Setup
+1. Repository klonen
+2. Abhängigkeiten installieren: `pip install -r requirements.txt`
+3. Wiki lokal starten: `mkdocs serve`
 
 ---
-> [!IMPORTANT]
-> **Für Agenten & Entwickler:** Dieses Projekt nutzt ein virtuelles Verweissystem (`docs/`), um Dokumentations-Stubs von funktionalen Dateien zu trennen. Bearbeite immer die Master-Dateien im Root oder Wiki-Ordner.
 
 *© 2026 Siebenwind Chronisten-Gilde | Engineered for Intelligence*
-

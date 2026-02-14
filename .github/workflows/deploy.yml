@@ -23,6 +23,18 @@ jobs:
         run: |
           pip install mkdocs-material
 
-      - name: Build and Deploy
+      - name: Build site
         run: |
-          mkdocs gh-deploy --force
+          mkdocs build
+
+      - name: Generate gh-pages README
+        run: |
+          echo "# 🚀 Siebenwind Wiki - Deployment Branch" > site/README.md
+          echo "Dies ist der automatisierte Deployment-Branch für die GitHub Pages." >> site/README.md
+          echo "Der Quellcode und die Dokumentation befinden sich im [main-Branch](https://github.com/alexandrerabe/7w_wiki/tree/main)." >> site/README.md
+          echo "---" >> site/README.md
+          echo "🌐 **Live Wiki:** [https://alexandrerabe.github.io/7w_wiki/](https://alexandrerabe.github.io/7w_wiki/)" >> site/README.md
+
+      - name: Deploy
+        run: |
+          mkdocs gh-deploy --force --dirty
