@@ -1,5 +1,11 @@
 Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
 
+## [2026-02-14.14] - Phase 1: Netz-Wächter & Visual Identity
+### Hinzugefügt
+- **Visual Identity**: Premium-Banner ("Anatomia Magica Mundi"), Logo und Favicon im Renaissance-Stil implementiert.
+- **System**: CLI zu `7w_wiki.py` vereinheitlicht; `Art Director` Skill für Stil-Konsistenz installiert.
+- **GitHub**: Repository erfolgreich an Org `Siebenwind` übertragen und via GitHub Pages deployt.
+
 ## [2026-02-14.13] - Batch 26: Toran Dur Ingestion (Pfad A)
 ### Hinzugefügt
 - **Wiki-Content**:

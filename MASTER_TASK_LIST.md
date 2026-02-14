@@ -4,16 +4,14 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.1 (Epistemik & Ingestion 3.0 implementiert)
-- **Artikel-Anzahl:** 1024
-- **Ingestion-Fortschritt:** ~85%
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Letzter Handover:** (2026-02-14) durch Antigravity
+- **Letzter Handover:** (2026-02-14) durch Antigravity (Phase 1 Abschluss)
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [x] **Batch 26 (Ingestion)**: Erste Anwendung des Ingestion 3.0 Protokolls auf die verbleibenden Quellen. (Completed: 2026-02-14)
 - [ ] **Audit (Register)**: Nach-Cleanup Check des Personenregisters (nach Ingestion 3.0 Standard).
+- [ ] **News-Delegation**: Start von `/delegate` für das Forum und alte News-Archive.
 
 ## 🟡 Priorität 2: Operative Ingestion (Inhalte)
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
@@ -41,11 +39,12 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ---
 
-### Phase 1: Netz-Wächter & GitHub Professionalisierung (Feb 2026)
-- **Netz-Wächter**: OOC-Timeline (`04_Chronik`) etabliert und Pilot-Ingestion (`siebenwind.de`) erfolgreich.
+### Phase 1: Netz-Wächter & Brand Identity (Feb 2026)
+- **Netz-Wächter**: OOC-Timeline (`04_Chronik`) etabliert; Pilot-Ingestion (`siebenwind.de`) erfolgreich.
+- **Brand Identity**: Premium-Banner ("Anatomia Magica Mundi"), Logo und Favicon im Renaissance-Stil implementiert.
 - **GitHub Deployment**: Wiki live unter `Siebenwind.github.io`. Repository-Transfer an Organisation `Siebenwind`.
 - **Documentation Overhaul**: Erstellung von `architecture.md`, `setup_rag.md` und Community-Standards.
-- **System-Härtung**: Token-Optimierung und CLI-Delegation (`/delegate`) vorbereitet.
+- **System-Härtung**: Art Director Skill installiert; CLI zum `7w_wiki.py` Standard vereinheitlicht.
 
 ### Phase 18: Toran Dur Advanced Doctrines & Register Polish (Feb 2026)
 - **Batch 27 (Toran Dur Advanced)**: Integration of Sub-Batches 1-4.

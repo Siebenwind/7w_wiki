@@ -6,7 +6,7 @@ category: Index
 
 # Wiki Statistiken
 
-**Letztes Update:** 2026-02-14 21:41:58
+**Letztes Update:** 2026-02-14 22:23:03
 
 ## 📊 High-Level KPIs
 
@@ -113,6 +113,7 @@ Die am häufigsten verlinkten Artikel im Wiki.
 
 | Datum | Aktion | Artikel | Kategorie |
 | :--- | :--- | :--- | :--- |
+| 2026-02-14 | Geändert | Wiki Statistiken | 10_Archiv |
 | 2026-02-14 | Neu | OOC TIMELINE | 04_Chronik |
 | 2026-02-14 | Geändert | Bestiarium Register | 00_Fundament |
 | 2026-02-14 | Geändert | Magie Grundlagen | 00_Fundament |
@@ -127,7 +128,6 @@ Die am häufigsten verlinkten Artikel im Wiki.
 | 2026-02-14 | Geändert | Zeitleiste (15-30 n.H.) | 04_Chronik |
 | 2026-02-14 | Geändert | Artefaktlehre | 05_Magie |
 | 2026-02-14 | Geändert | Magietheorie Daemonenbeschwoerung | 05_Magie |
-| 2026-02-14 | Neu | Birnbaum | 07_Persoenlichkeiten |
 
 ---
 > [!NOTE]

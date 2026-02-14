@@ -14,29 +14,34 @@ Der erste Schritt jedes Agenten ist zu verstehen, wo wir stehen.
 2. Prüfe die [MASTER_TASK_LIST.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/MASTER_TASK_LIST.md) auf Prioritäten.
 3. Suche im [Synapse Board](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/LORE_RESEARCH_BOARD.md) nach unerledigten Forschungsaufträgen.
 
-## 2. Wähle deinen Pfad (Options)
+## 2. Wähle deinen Pfad (Choose your Department)
 
 Welche Rolle nimmst du heute ein?
 
-### 🛡️ Pfad A: Der Ingestor (Quell-Verarbeitung)
+### 🏛️ Department Lore-Archiv (INGEST)
 *Ziel: Rohes Wissen aus den Quellen ins Wiki überführen.*
 - **Wann?** Wenn der Advisor meldet, dass noch "Offene Quellen" (Pending) vorhanden sind.
-- **Tools:** `/batch`, `/ingestion_protocol`.
+- **Workflow:** `/ingest_master`.
 
-### ⚖️ Pfad B: Der Lektor (Qualität & Konsistenz)
+### 🔍 Department Inquisition (CHECK)
 *Ziel: Das Wiki sauber halten und Link-Dämonen bannen.*
-- **Wann?** Wenn der Advisor/Audit Fehler meldet oder Brüche in der Verlinkung auffallen.
-- **Tools:** `/repair`, `/audit`.
+- **Wann?** Wenn das Audit Fehler meldet oder Brüche in der Verlinkung auffallen.
+- **Workflow:** `/check_master`.
 
-### 🏛️ Pfad C: Der Historiker (Lore-Klärung)
+### 📜 Department Geschichtsschreibung (LORE)
 *Ziel: Komplexe Widersprüche auflösen und tiefe Recherche betreiben.*
-- **Wann?** Wenn du einen Forschungsauftrag übernimmst oder User-Fragen zu tiefen Lore-Zusammenhängen hast.
-- **Tools:** `/historian`, `/ask`.
+- **Wann?** Wenn du einen Forschungsauftrag übernimmst oder User-Fragen zu Lore-Zusammenhängen hast.
+- **Workflow:** `/lore_master`.
 
-### 📊 Pfad D: Der Chronist (Wartung & Reporting)
+### 🎨 Das Atelier (HEROLD)
+*Ziel: PR, Design und visuelle Aufwertung.*
+- **Wann?** Zur Verbesserung der Präsentation oder nach großen Meilensteinen.
+- **Workflow:** `/herold`.
+
+### 📦 Department Logistik (META)
 *Ziel: Fortschritte dokumentieren und Statistiken pflegen.*
-- **Wann?** Am Ende jeder Session oder nach großen Batches.
-- **Tools:** `/stats`, `/docs`, `/handover`.
+- **Wann?** Am Ende jeder Session oder zur Orientierung.
+- **Workflow:** `/meta_master`.
 
 ## 3. Goldene Regeln
 - **Keine Halluzinationen:** Wenn Wissen fehlt, markiere es mit `[UNGEKLÄRT]` oder schreibe ein Ticket.
