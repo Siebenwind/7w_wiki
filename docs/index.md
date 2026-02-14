@@ -1,8 +1,10 @@
-# <p align="center">⚔️ Siebenwind Lore Engine 2.0</p>
+---
+layout: wiki_page
+title: Siebenwind Wiki
+category: Index
+---
 
-<p align="center">
-  <img src="assets/banner.png" alt="Siebenwind Lore Engine Banner" width="100%" style="border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
-</p>
+![Siebenwind Lore Engine Banner](assets/banner.png){ .wiki-banner }
 
 <p align="center">
   <a href="https://github.com/Siebenwind/7w_wiki" target="_blank">

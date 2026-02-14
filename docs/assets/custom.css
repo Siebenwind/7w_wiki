@@ -1,128 +1,93 @@
-/* Siebenwind Wiki 2.1 - Monumental Obsidian & Gold */
+/* Siebenwind Wiki 2.1 - Leonardo Sanguine Sketchbook */
 
 :root {
-    --md-primary-fg-color: #0f172a;
-    /* Deep Obsidian */
-    --md-primary-fg-color--light: #1e293b;
-    --md-accent-fg-color: #fbbf24;
-    /* Radiant Gold */
-    --md-default-fg-color: #f1f5f9;
-    --md-default-bg-color: #111827;
-    /* Dark Obsidian Background */
-    --md-code-bg-color: #1e293b;
+    --md-primary-fg-color: #8b322c;
+    /* Sanguine Red */
+    --md-primary-fg-color--light: #a3433a;
+    --md-accent-fg-color: #4a3728;
+    /* Sepia Ink */
+    --md-default-fg-color: #4a3728;
+    --md-default-bg-color: #f8f1e7;
+    /* Elegant Paper White */
 }
 
 /* Typography Overrides */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:ital,wght@1,400;1,700&family=Inter:wght@400;500&display=swap');
 
 h1,
 h2,
-h3,
-.md-nav__link--active {
+h3 {
     font-family: 'Cinzel', serif !important;
-    letter-spacing: 0.08em;
-    color: #fbbf24 !important;
-    /* Radiant Gold */
-    text-transform: uppercase;
+    color: #8b322c !important;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    border-bottom: 1px solid rgba(139, 50, 44, 0.2);
+    padding-bottom: 0.5rem;
 }
 
 body,
 .md-typeset {
     font-family: 'Inter', sans-serif;
     line-height: 1.8;
-    color: #e2e8f0;
+    color: #4a3728;
 }
 
-/* Monumental Page Header */
-.md-content__inner h1 {
-    border-bottom: 3px solid #fbbf24;
-    padding-bottom: 1rem;
-    margin-top: 3rem;
-    text-shadow: 0 0 20px rgba(251, 191, 36, 0.3);
+/* Sketchbook Content Card */
+.md-content {
+    background: white !important;
+    border: 1px solid rgba(74, 55, 40, 0.1);
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    padding: 3rem !important;
+}
+
+/* Navigation - Refined & Literary */
+.md-nav__link {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.md-nav__link--active {
+    color: #8b322c !important;
     font-weight: 700;
 }
 
-/* Glassmorphism for content cards */
-.md-content {
-    background: rgba(30, 41, 59, 0.7) !important;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-radius: 12px;
-    border: 1px solid rgba(251, 191, 36, 0.1);
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
-    margin-top: 30px;
-    padding: 40px;
+/* Banner Styling */
+.wiki-banner {
+    width: 100%;
+    border: 1px solid rgba(139, 50, 44, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
 }
 
-/* Table Styling - Monumental & Clear */
+/* Tables - Precise & Clean */
 .md-typeset table:not([class]) {
-    border-collapse: separate;
-    border-spacing: 0;
-    border: 1px solid rgba(251, 191, 36, 0.2);
-    border-radius: 12px;
-    overflow: hidden;
-    background-color: rgba(15, 23, 42, 0.8) !important;
-    width: 100%;
+    border: 1px solid #4a3728;
+    background-color: #fff !important;
 }
 
 .md-typeset table:not([class]) th {
-    background-color: #fbbf24;
-    color: #0f172a;
+    background-color: #f8f1e7;
+    color: #8b322c;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+}
+
+/* Admonitions */
+.md-typeset .admonition {
+    background-color: #fcf9f5;
+    border-left-color: #8b322c;
+}
+
+/* Floating Elements (Subtle 'Leonardo' feel) */
+.md-header {
+    background-color: #f8f1e7 !important;
+    border-bottom: 2px solid #8b322c;
+    color: #8b322c !important;
+}
+
+.md-header__topic {
     font-family: 'Cinzel', serif;
     font-weight: 700;
-    letter-spacing: 0.1em;
-    padding: 12px;
-}
-
-.md-typeset table:not([class]) td {
-    border-top: 1px solid rgba(251, 191, 36, 0.05);
-    padding: 12px;
-}
-
-/* Animated Atmospherics (The 'Passing Cloud') */
-.md-header {
-    background: #0f172a !important;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
-}
-
-.md-header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(90deg, transparent, rgba(251, 191, 36, 0.03), transparent);
-    animation: cloud-pass 15s infinite linear;
-    pointer-events: none;
-}
-
-@keyframes cloud-pass {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(100%);
-    }
-}
-
-/* Links */
-.md-typeset a {
-    color: #fbbf24;
-    font-weight: 500;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.md-typeset a:hover {
-    text-shadow: 0 0 10px rgba(251, 191, 36, 0.5);
-    color: #fff;
-}
-
-/* Admonitions (Info boxes) */
-.md-typeset .admonition {
-    border-left-width: 0.4rem;
-    border-radius: 8px;
-    background-color: rgba(251, 191, 36, 0.05);
-    border-color: #fbbf24;
 }
