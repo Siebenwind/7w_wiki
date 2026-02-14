@@ -1,14 +1,8 @@
 ---
 layout: wiki_page
 title: Personenregister
-category: Geografie
-uuid: d173e080-a2dd-42ec-b616-f7f614fa9368
----
-
----
-layout: wiki_page
-title: Personenregister
 category: Fundament
+uuid: d173e080-a2dd-42ec-b616-f7f614fa9368
 ---
 
 # Personenregister

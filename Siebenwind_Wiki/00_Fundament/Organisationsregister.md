@@ -1,8 +1,5 @@
----
-layout: wiki_page
-title: Organisationsregister
 category: [[Gesellschaft]]
----
+
 
 ---
 layout: wiki_page
@@ -20,7 +17,6 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 
 
 | Name | Typ | Sitz | Status |
-| :--- | :--- | :--- | :--- |
 | [[Communis_Medici]] | Heilergilde | [[Falkensee]] | #bote |
 | [[Ecclesia_Elementorum]] | Religionsgemeinschaft | Inselweit | #canon |
 | [[Ring_des_Argionemes]] | Astraelitischer Geheimbund | Galadon / [[Sae]] | #perspektive |
@@ -80,5 +76,4 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 - **[[Der_Große_Rat]]**: Oberstes Entscheidungsgremium der Allianz.
 - **Truchsess-Amt:** Verwaltung der Kronmark.
 
----
 **Siehe auch:** [[Gesellschaft]], [[Personenregister]]

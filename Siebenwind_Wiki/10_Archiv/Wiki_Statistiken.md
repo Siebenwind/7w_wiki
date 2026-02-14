@@ -13,7 +13,7 @@ category: Index
 | Metrik | Wert |
 | :--- | :--- |
 | **Artikel** | 1047 |
-| **Worte** | 169,335 |
+| **Worte** | 169,325 |
 | **Personen** | 563 |
 
 ---
