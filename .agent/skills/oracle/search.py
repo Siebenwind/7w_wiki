@@ -234,7 +234,9 @@ def search(query: str, top_k: int = 5, source: str = "all", use_reranker: bool =
     
     # Embedding generieren
     # Im Sandbox-Modus (oder wenn offline) nutzen wir nur lokale Dateien
-    is_sandbox = os.environ.get("ANTIGRAVITY_SANDBOX") == "true"
+    # Wir erkennen die Sandbox an verschiedenen Umgebungsvariablen
+    is_sandbox = (os.environ.get("ANTIGRAVITY_SANDBOX") == "true" or 
+                  os.environ.get("ANTIGRAVITY_AGENT") == "1")
     
     model = load_embedding_model(device, local_files_only=is_sandbox)
     query_embedding = model.encode(

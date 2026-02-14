@@ -8,8 +8,15 @@ status: "#überlieferung"
 
 # Uron Sbocaj
 
-## Beschreibung
-Magier und Theoretiker. Historische Persönlichkeit der Magiegeschichte, bekannt durch seine Thesen zu den verschiedenen Zweigen der Magie.
+## Biografie
+**Uron Sbocaj** war ein Magier, Alchemist und Theoretiker, der für seine profunden Auseinandersetzungen mit den Magiezweigen bekannt ist. Er vertrat die These, dass jeder Magiezweig auf einem der vier Elemente beruht:
+- **Feuer:** [[Schwarze_Magie]] (aggressiv, verzehrend)
+- **Wasser:** [[Weissmagie]] (ruhig, lebensspendend, Antipode zu Feuer)
+- **Erde:** [[Elementarmagie]] (bodenständig, geduldig)
+- **Luft:** [[Graumagie]] (ausgewogen, vermittelnd)
+
+Er stand in wissenschaftlichem Diskurs mit [[Dunvallo_Linari]], dessen "Geist-Theorie" er teilweise als Grundlage nutzte.
 
 ## Referenzen
-- [[Thesen_der_Magiezweige]]
+- [[Magiezweige]]
+- [[Urmagie]]

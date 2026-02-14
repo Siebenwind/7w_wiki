@@ -2,37 +2,38 @@
 layout: wiki_page
 title: "Magietheorie: Dämonenbeschwörung"
 category: Magie
-status: Canon
-quelle: "../../Quellen/Bibliothek Toran Dur/Anonymous - Beschwîrung eines DÑmonen.md"
-lore_trust: 8
-confidence: Certain
-author: "Anonymus"
+status: integrated
+quelle: "/Quellen/Bibliothek Toran Dur/Dunvallo Linari - Daimonen.md"
 ---
 
-# Theorie der Dämonenbeschwörung
+# Theorie der Dämonenbeschwörung (Daimonologie)
 
-**Epistemischer Status:** #verboten (Schwarze Magie)
+**Epistemischer Status:** #verboten / #überlieferung
 
-Diese Abhandlung beschreibt die theoretischen Grundlagen der *Conjuratio* (Beschwörung) von Wesen aus der zweiten Sphäre (Yerrodon).
+Die Daimonologie beschreibt die Invokation (Manifestation) und die Unterwerfung (Beherrschung) transsphärischer Wesenheiten. Sie gilt als der gefährlichste Pfad der Magie, da ein Kontrollverlust oft mit dem Tod oder dem Verlust der Seele endet.
 
-## Die 3 Phasen der Beschwörung
-1.  **Das Locken:** Geistreise in den Flux (Zwischenwelt), Navigation zu Knotenpunkten der 2. Sphäre, Anlocken des Dämonen. Benötigt Gnosis.
-2.  **Der Transport:** Nutzung von *Transportknoten* im Flux. Manifestation des Dämons in der 1. Sphäre (Tare) innerhalb eines *Portals* oder *Bannkreises*.
-    *   *Verbindung:* Wird durch Mana aufrechterhalten. Solange Mana fließt, ist das Tor offen.
-3.  **Die Beherrschung:** Unterwerfung des Dämonenwillens durch den Willen des Beschwörers oder durch einen Pakt.
-    *   *Risiko:* Bei Kontrollverlust kann der Dämon frei agieren.
+## 1. Die Magische Formel (nach Nefustor)
+Das Wirken schwarzer Magie und die Beschwörung folgen einer erweiterten Formel:
+**Wille + Imagination + Gnosis + Formular/Gestik = Magischer Akt**
+- **Imagination:** Die geistige Projektion des Ziels.
+- **Gnosis:** Die magische Trance, um den "Zensor" (den Filter zwischen Bewusstsein und Unbewusstem) zu umgehen.
+- **Formular:** Die Nutzung der Runen-Sprache ([[Rune|Wörter der Macht]]).
 
-## Theorie des Flux
-Der Flux ist ein imaginäres Gebilde ("alles umfassender See"), das durch Magie in Schwingung gerät.
-*   **Knotenpunkte:**
-    *   *Markierungsknoten:* Kennzeichnet eine Stelle.
-    *   *Transportknoten:* Verbindet zwei Orte.
-    *   *Übergangsknoten:* Ermöglicht Sphärenwechsel.
-*   **Der Mond Dorayon:** Dient als *fester Übergangsknoten* zwischen Tare und Yerrodon.
+## 2. Physische Voraussetzungen des Beschwörers
+Ein erfolgreicher Daimonologe muss seine Aura maximieren, um dem Dämon gegenüberzutreten:
+- **Haar/Nägel:** Lang und offen getragen, um die Aura des Kopfes und die Präsenz zu vergrößern.
+- **Kleidung:** Leicht, einlagig, kein Leder (da totes Material die Aura dämpft).
+- **Physis:** Barfuß oder in leichten Stoffschuhen, um den Kontakt zum Flux nicht zu stören. Kein Schmuck oder Metall.
 
-## Mana und Mano
-*   **Mana:** Die geistige Ausdauer/Kraft ("Seelen-Energie").
-*   **Mano:** Die Fähigkeit der Kontrolle und Denkfähigkeit (Potential + Kontrolle = Mano).
+## 3. Der Ritualaufbau (Cuthal Anar)
+Eine sichere Invokation erfordert den **Cuthal Anar** (Rituskreis):
+- **Noctis (Pentagramm):** Dient als Wegbereiter in die Domäne. In der Mitte steht der **Ssador** (Beschwörungsfokus).
+- **Azeel Anar (Bannkreis):** Aus reinstem Salz gestreut und mit Runen verstärkt.
+- **Cuthal Ithos (Ritualkerzen):** An den Spitzen des Pentagramms platziert:
+  - **Schwarz:** Repräsentiert Hass/Zorn.
+  - **Rot:** Repräsentiert List/Tücke.
+  - **Weiß:** Repräsentiert magische Macht.
+  *Kerzen werden rituell aus dem Fett und Blut von Verbrechern, Dieben oder Adepten gefertigt.*
 
-## Referenzen
-- Primärquelle: [Anonymous - Beschwörung eines Dämonen](../../Quellen/Bibliothek%20Toran%20Dur/Anonymous%20-%20Beschw%C3%AErung%20eines%20D%C3%91monen.md)
+---
+**Siehe auch:** [[Daimonicon]], [[Nefustor]], [[Tanthul]]

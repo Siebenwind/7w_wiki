@@ -649,7 +649,8 @@ def main():
     else:
         device = default_device
         
-    is_sandbox = os.environ.get("ANTIGRAVITY_SANDBOX") == "true"
+    is_sandbox = (os.environ.get("ANTIGRAVITY_SANDBOX") == "true" or 
+                  os.environ.get("ANTIGRAVITY_AGENT") == "1")
     print(f"  🔌 Device: {device.upper()} (Batch-Size: {args.batch_size})")
 
     model = SentenceTransformer(

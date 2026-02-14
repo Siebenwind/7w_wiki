@@ -66,16 +66,20 @@ Dieses Protokoll standardisiert die Erfassung **aller** Quellentypen und stellt 
 
 ## Output-Erstellung
 
-1. **Entity Manifest**: Erstelle das Manifest gemäß RVW-Loop Schritt 1.5
-2. **Wiki-Einträge**: Erstellung fehlender Dateien in den zuständigen Ordnern
-3. **Register-Update**: Nutzung von `multi_replace_file_content` für:
-   - `Personenregister.md`
-   - `Organisationsregister.md`
-   - `Bestiarium_Register.md`
-4. **Ingestion Log**: Eintrag in `Logs/INGESTION_LOG.md` (Pflicht)
+1.  **Ingestion Report [PFLICHT]**:
+    *   Erstelle für jede Quelle ein Protokoll basierend auf `System/Templates/INGESTION_REPORT_TEMPLATE.md`.
+    *   Speichere den Report unter `Logs/Ingestion/[ISO-DATE]_[QUELLE].md`.
+    *   Berechne den **Lore Quality Score (LQS)** gewissenhaft.
+2.  **Wiki-Einträge**: Erstellung fehlender Dateien in den zuständigen Ordnern.
+    *   **PFLICHT**: Verlinke die `report_id` im Frontmatter jedes neuen/aktualisierten Artikels.
+3.  **Register-Update**: Nutzung von `multi_replace_file_content` für:
+    - `Personenregister.md`
+    - `Organisationsregister.md`
+    - `Bestiarium_Register.md`
+4.  **Truth-Sync**: Bei gravierenden Widersprüchen (LQS-Konsistenz < 2) zwingende Eskalation via Synapse Board.
 
 ## Qualitätssicherung
-- [ ] Sind alle **roten Links** (fehlende Seiten) gewollt oder ein Versäumnis?
+- [ ] Wurde der **LQS** ehrlich vergeben?
 - [ ] Wurden "Tote" (†) markiert?
-- [ ] Wurden Ämterwechsel historisch korrekt datiert?
+- [ ] Wurde die `report_id` bi-direktional verknüpft?
 - [ ] Wurde das Entity Manifest vollständig abgearbeitet?

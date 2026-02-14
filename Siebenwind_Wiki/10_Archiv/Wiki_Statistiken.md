@@ -6,16 +6,16 @@ category: Index
 
 # Wiki Statistiken
 
-**Letztes Update:** 2026-02-14 18:13:37
+**Letztes Update:** 2026-02-14 18:43:20
 
 ## 📊 High-Level KPIs
 
 | Metrik | Wert |
 | :--- | :--- |
-| **Gesamtanzahl Artikel** | 1010 |
+| **Gesamtanzahl Artikel** | 1027 |
 | **Bekannte Persönlichkeiten** | 546 |
-| **Gesamtwortzahl** | 162,713 |
-| **Vernetzungsgrad (Links/1k Worte)** | 51.72 |
+| **Gesamtwortzahl** | 166,755 |
+| **Vernetzungsgrad (Links/1k Worte)** | 51.39 |
 
 ---
 
@@ -23,8 +23,8 @@ category: Index
 
 ```mermaid
 pie title Quellen Integrations-Status
-    "Integriert" : 193
-    "Ausstehend" : 49
+    "Integriert" : 0
+    "Ausstehend" : 0
 ```
 
 ---
@@ -35,7 +35,7 @@ pie title Quellen Integrations-Status
 bar-chart
     title Artikel pro Kategorie
     x-axis [ "Root", "07_Persoenlichkeiten", "05_Magie", "08_Bestiarium", "03_Wissen", "03_Gesellschaft", "05_Geschichte", "10_Archiv", "02_Geografie", "01_Pantheon", "04_Chronik", "06_Erzählungen", "06_Geschichte", "06_Myten_und_Legenden", "09_Bibliothek", "00_Fundament" ]
-    y-axis Artikel [ 1, 546, 20, 32, 50, 55, 56, 5, 55, 49, 79, 9, 1, 1, 28, 23 ]
+    y-axis Artikel [ 1, 546, 37, 32, 50, 55, 56, 5, 55, 49, 79, 9, 1, 1, 28, 23 ]
 ```
 
 ---
@@ -46,8 +46,8 @@ bar-chart
 pie title Wissens-Fundament
     "Canon" : 548
     "Bote" : 1012
-    "Überlieferung" : 156
-    "Perspektive" : 200
+    "Überlieferung" : 182
+    "Perspektive" : 203
 ```
 
 ---
@@ -97,7 +97,7 @@ Die am häufigsten verlinkten Artikel im Wiki.
 | 7 | [[Angamon]] | 73 |
 | 8 | [[Custodias]] | 71 |
 | 9 | [[Vitama]] | 69 |
-| 10 | [[Dwarschim]] | 57 |
+| 10 | [[Astrael]] | 60 |
 
 ---
 
@@ -105,14 +105,21 @@ Die am häufigsten verlinkten Artikel im Wiki.
 
 | Zeitraum | Neue Artikel | Geänderte Artikel |
 | :--- | :--- | :--- |
-| **Letzte 24h** | 351 | 157 |
-| **Letzte 7 Tage** | 994 | 252 |
-| **Letzte 30 Tage** | 994 | 252 |
+| **Letzte 24h** | 352 | 162 |
+| **Letzte 7 Tage** | 995 | 256 |
+| **Letzte 30 Tage** | 995 | 256 |
 
 ### Letzte Änderungen
 
 | Datum | Aktion | Artikel | Kategorie |
 | :--- | :--- | :--- | :--- |
+| 2026-02-14 | Geändert | Finsterwangen | 02_Geografie |
+| 2026-02-14 | Neu | Rohehafen | 02_Geografie |
+| 2026-02-14 | Geändert | Siebenwind | 02_Geografie |
+| 2026-02-14 | Geändert | Tiefenbach | 02_Geografie |
+| 2026-02-14 | Geändert | Stadtchronik Rohehafens | 06_Geschichte |
+| 2026-02-14 | Geändert | Hilgorad I ap Mer | 07_Persoenlichkeiten |
+| 2026-02-14 | Geändert | Wiki Statistiken | 10_Archiv |
 | 2026-02-14 | Geändert | Personenregister | 00_Fundament |
 | 2026-02-14 | Neu | Arknor | 07_Persoenlichkeiten |
 | 2026-02-14 | Neu | Baron Morgenroith | 07_Persoenlichkeiten |
@@ -121,13 +128,6 @@ Die am häufigsten verlinkten Artikel im Wiki.
 | 2026-02-14 | Neu | Elurai Calades | 07_Persoenlichkeiten |
 | 2026-02-14 | Neu | Elyran Fischer | 07_Persoenlichkeiten |
 | 2026-02-14 | Neu | Enoah Sullin | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Jennaia Lavrial | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Johann Liebig | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Johannes Klos | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Kalveron Dai | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Lewyn Anacar | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Logrin Goldaxt | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Lothar Gavinwald | 07_Persoenlichkeiten |
 
 ---
 > [!NOTE]

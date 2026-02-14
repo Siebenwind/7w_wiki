@@ -1,5 +1,42 @@
 Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgehalten.
 
+## [2026-02-14.12] - Batch 27: Toran Dur Advanced Doctrines (Sub-Batches 1-4)
+### Hinzugefügt
+- **Wiki-Content**:
+    - **Constructs**: `Konstruktbau_und_Ariin.md`, `Erschaffene_Diener.md`.
+    - **Arcane Science**: `Arkan-Metalle.md`, `Elementare_Atomlehre.md`.
+    - **Combat/Defense**: `Antimagie_und_Gegenzauber.md`, `Arkane_Kriegfuehrung.md`.
+    - **Transformation/Gems**: `Metamorphose_und_Gestaltwandel.md`, `Vjera_Batama_Magica.md`.
+- **Register**:
+    - Synchronisation der Magister: `Edomawyr`, `Jennaia Lavrial`, `Nistram Rigas`, `Erynnion Comari`, `Lewyn Anacar`, `Sylest le Felyhn`.
+    - Akoluthen/Diener: `Nuir Ekre`, `Rhadan`.
+
+### Geändert
+- **Wiki-Statistiken**: Dashboard aktualisiert (1027 Artikel, 546 Persönlichkeiten).
+
+## [2026-02-14.11] - Infrastructure: Ingestion 3.0 & Oracle Hardening
+### Hinzugefügt
+- **Ingestion v3.0**: 
+    - Einführung des **Lore Quality Score (LQS)** (0-10) zur Bewertung von Extraktionen.
+    - Neues Template: `System/Templates/INGESTION_REPORT_TEMPLATE.md`.
+    - Dedizierter Ablageort für Reports: `Logs/Ingestion/`.
+- **Sandbox-Resilience**:
+    - Automatische Sandbox-Erkennung via `ANTIGRAVITY_AGENT` und `ANTIGRAVITY_SANDBOX`.
+    - Implementierung von `local_files_only=True` für embedding und reranking Modelle.
+
+### Geändert
+- **Orakel-Optimierung**: 
+    - Behebung der XLMRoberta-Warnung durch gezielten Proxy-Logging-Patch (Monkey-Patch).
+    - Performance-Bestätigung (Search ~20s in Sandbox-Umgebung).
+- **Projekt-Wartung**: 
+    - Repository-Cleanup (Löschen von Root-Junk wie `.DS_Store`, `missing_links.txt`, `walkthrough.md`).
+    - Korrektur der Dokumentationspfade in `README.md`.
+    - Archivierung alter Logs in `Logs/Archive/`.
+
+### Entfernt
+- Veraltete `walkthrough.md` im Root-Verzeichnis.
+- Temporäre Register-Logs.
+
 ## [2026-02-14.10] - Lore Reconstruction: The Origins of Siebenwind
 ### Hinzugefügt
 - **Wiki-Archiv**: `Logs/Historian_Report_2026_003_Siebenwind_Origins.md` als Forschungs-Zusammenfassung erstellt.

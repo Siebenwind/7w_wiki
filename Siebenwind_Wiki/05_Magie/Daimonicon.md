@@ -2,43 +2,41 @@
 layout: wiki_page
 title: Daimonicon
 category: Magie
+status: integrated
+quelle: "/Quellen/Bibliothek Toran Dur/Kulin Lateal - Das_Daimonicon.md"
 ---
 
-# Daimonicon
+# Das Daimonicon
 
-Das **Daimonicon** ist das Standardwerk der Dämonologie auf Siebenwind, verfasst von Erzmagus [[Kulin_Laetall]] (Akademie der Schwarzen Künste). Es beschreibt die Natur der 2. Sphäre, die Hierarchie der Niederhöllen und die neun Domänen des [[Angamon]].
+**Epistemischer Status:** #lehrbuch / #verboten
 
-## Die Natur der Niederhöllen (Yerrodon)
-Die 2. Sphäre wird als **Yerrodon** bezeichnet – ein pervertiertes Spiegelbild der Welt Tare. Es wird vom Atem Angamons durchzogen und steht unter dem Schein des Mondes Dorayon. Wo in Tare Wasser fließt, ist es in Yerrodon Blut; wo Wärme ist, herrscht dämonische Kälte.
+Das **Daimonicon**, verfasst von Erzmagus [[Kulin_Laetall]] (Akademie der Schwarzen Künste, 12 n.H.), ist das Standardwerk über transsphärische Wesenheiten der zweiten Sphäre (**Yerrodon**). 
 
-## Die Neun Domänen
-Yerrodon ist in neun Machtbereiche unterteilt, die jeweils von einem Erzdämon (Dreizehngehörnter) regiert werden:
+## 1. Natur der Daimoniden
+Daimoniden sind Wesenheiten, die von [[Angamon]] aus grenzenlosem Hass geschaffen wurden. Sie sind unsterblich, da sie keinen Zugang zum Totenreich [[Morsan]]s haben. Sie manifestieren sich in der ersten Sphäre (Tare) in vorbereiteter, "geläuterter" Materie.
 
-1.  **Ifri’gha’Sirrak (Feuer)**: Domäne der Flammen und Vulkane, bewohnt von Feuerelementaren und Dienern des Fürsten Irdirim.
-2.  **Mysell Tangoris (Erde)**: Eine Welt aus Obsidian und wuchernden, fleischfressenden Pilzen.
-3.  **Aiwenn Dâmahn (Luft/Krankheit)**: Geisterhafte Gestalten, die Krankheiten erschaffen und heilen können (Atem Angamons).
-4.  **El’ra’Khor (Wasser/Fleisch)**: Manifestation von Blut und Fleisch; Herrscher über Verwandlung und Heilung.
-5.  **Kawôr (Krieg)**: Heimat der Höllenschmiede und gewaltiger Legionen in schwarzem Stahl. Domäne des Shag’zor’Ga’Zul.
-6.  **Kulmar Sanghûlis (Ekstase)**: Domäne des Schmerzes, der Folter und der dunklen Lust.
-7.  **Moghtor (Tod)**: Hort der Verdammten und Untoten, Spherä des Siechtums.
-8.  **Agoth'ro'Hawenn (Angst)**: Ursprung allen Grauens und der Illusionen (Heimat der Irahfar).
-9.  **Mele Môrthere (Wissen)**: Eine gigantische, dämonische Bibliothek, die alles Wissen der Äonen hütet.
+## 2. Das Horntheorem (Hierarchie)
+Die Macht eines Dämonen wird in "Hörnern" gemessen (primär im Astralraum sichtbar). Ein Dämon kann durch den Sieg über einen anderen dessen Macht (und Horn) absorbieren.
 
-## Das Horntheorem (Hierarchie)
-Die Macht eines Dämons wird in "Hörnern" gemessen, die meist nur im Astralraum sichtbar sind. Durch den Sieg über einen anderen Dämon kann dessen Macht (und sein Horn) absorbiert werden.
-
-| Rang | Bezeichnung | Funktion |
+| Rang | Bezeichnung | Funktion / Macht |
 | :--- | :--- | :--- |
-| 1 - 4 | Ein- bis Viergehörnte | Kleinere Kommandatur |
-| 2 - 6 | Zwei- bis Sechsgehörnte | Führung von Garnisonen |
-| 7 - 11 | Sieben- bis Elfgehörnte | Kommando über Legionen |
-| 12 | Zwölfgehörnte | Gesamtkommandatur eines Bereichs |
-| 13 | Dreizehngehörnte | Regenten einer ganzen Domäne |
+| **0 Hörner** | Niedere Dämonen | Gefallene Seelen, Paktierer, Irahfar. |
+| **1-6 Hörner** | Gehörnte | Befehlshaber von Garnisonen (z.B. [[Sha_Naz_Ghul]]). |
+| **7-11 Hörner** | Legionäre | Kommandieren ganze Legionen von Yerrodon. |
+| **12 Hörner** | Hohe Kommandanten | Führen große Bereiche einer Domäne. |
+| **13 Hörner** | Domänenfürsten | Regenten einer ganzen Domäne (Erzdämonen). |
 
-## Bekannte Wesenheiten
-*   **Betrachter**: Stammen aus den Zwischenebenen (Limbus). Sie dienen als Spione und sind die am leichtesten zu beschwörenden Wesen.
-*   **Irahfar**: Niedere Schattenwesen, die Alpträume verursachen.
-*   **Sha'Naz'Ghul**: Mächtige Fünfgehörnte der Kriegsdomäne, die ihre Gestalt beliebig wandeln können.
+## 3. Die Neun Domänen Yerrodons
+Yerrodon ist in neun pervertierte Domänen unterteilt, die den Göttern und Elementen als Antipoden gegenüberstehen:
+1. **Ifri’gha’Sirrak (Feuer):** Regiert von Fürst **Irdirim**. Vulkane und flüssiges Feuer.
+2. **Mysell Tangoris (Erde):** Obsidian und fleischfressende Pilzwälder.
+3. **Aiwenn Dâmahn (Luft/Krankheit):** Pestilenz und Heilung durch Geister im Wind.
+4. **El’ra’Khor (Wasser/Blut):** Flüsse aus Blut; Herrschaft über Fleisch und Verwandlung.
+5. **Kawôr (Krieg):** Auch *Il'kas'Myrith*. Schwarze Legionen unter **Shag’zor’Ga’Zul**.
+6. **Kulmar Sanghûlis (Schmerz/Lust):** Auch *Esparell’it Mosali*. Folter und Glücksrausch.
+7. **Moghtor (Tod):** Reich des Siechtums und der Untoten.
+8. **Agoth'ro'Hawenn (Angst):** Ursprung allen Grauens und der Illusionen.
+9. **Mele Môrthere (Wissen):** Auch *Zensyn Lramori*. Dämonische Bibliothek aller Leben.
 
 ---
-**Siehe auch:** [[Magie]], [[Angamon]], [[Kulin_Laetall]]
+**Siehe auch:** [[Magietheorie_Daemonenbeschwoerung]], [[Kulin_Laetall]], [[Angamon]]

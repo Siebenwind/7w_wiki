@@ -23,12 +23,12 @@ Dieser Skill generiert die finalen Artefakte im Ordner `/Siebenwind_Wiki`.
         title: [Display Title]
         category: [Persönlichkeit | Geschichte | Erzählung | Geografie | Religion | Magie]
         quelle: ../../Quellen/[Unterordner]/[Dateiname].md
-        lore_trust: [0-10]
-        letzter_check: [ISO-8601 Zeitstempel mit Uhrzeit]
-        report_id: [UUID des zugehörigen Audit-Reports, falls vorhanden]
+        lore_trust: [0-10] # Gemäß Lore Quality Score (LQS) des Ingestion Reports
+        letzter_check: [ISO-8601 Zeitstempel]
+        report_id: [UUID des zugehörigen Ingestion Reports] # ZWINGEND ERFORDERLICH
         ---
         ```
-    *   **Report-ID:** Wenn der Artikel aufgrund eines Audit-Reports (z.B. Lückenschluss) erstellt wurde, trage hier die UUID des Reports ein. Dies dient als "Funddatum".
+    *   **Report-ID:** Jeder Artikel MUSS die `report_id` des zugehörigen Ingestion Reports (oder Audit Reports) tragen. Dies stellt die Rechenschaftspflicht ("Chain of Custody") für jede Information sicher.
     *   **Quelle-Regel:** Das `quelle:` Feld MUSS einen **relativen Pfad** zur Urquelle enthalten. Absolute Pfade sind verboten.
     *   **Inhalt:** Markdown mit H1-Überschrift, die exakt dem `title` im Frontmatter entspricht.
     *   **Links:** Nutze `[[WikiLink]]` Syntax für interne Verweise.

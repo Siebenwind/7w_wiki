@@ -14,7 +14,9 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 ## Zentrale Personenliste
 | Name | Rolle / Titel | Erstes Auftreten (Quelle) | Aktivitätszeitraum | Status |
 | [[Aelwin]] | Inquisitor / Geweihter | [Heilige Liturgien] / [Bote 120] | Historisch / 15 n.H. | #überlieferung |
+| [[Arenus_der_Weise]] | Erzmagus / Philosoph | [Dunvallo Linari - Philosophie] | Historisch | #überlieferung |
 | [[Aren_Remouldo]] | Adeptus Major | [Horlafstrom-Theorie] | Historisch | #überlieferung |
+| [[Amanda_Dunkelbaum]] | Elementaristin (Novizin) | [Der Elementare Pfad] | Historisch | #überlieferung |
 | [[Arknor]] | Adept zur Linken | [Sprache Yerredoni] | Historisch | #überlieferung |
 | [[Anais]] | Ihre Gnaden / Inquisitorin | [Heilige Liturgien] | Historisch | #überlieferung |
 | [[Aarion]] | Graf der Wolfsmark | [Vandriens Entstehung] | Historisch | #überlieferung |
@@ -62,6 +64,10 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Calin_Drakar]] | Schattenjäger / Turniersieger | [Bote 133] | 16 n.H. | #bote |
 | [[Caiomme]] | Leutnant ([[03_Gesellschaft#Siebenwind_Kronregiment|Kronregiment]]) | [Bote 177] | 19 n.H. | #bote |
 | [[Dame_al_Javet]] | Magierin | [Bote 139] | 16 n.H. | #bote |
+| [[Adrienne_Valemis]] | Spektabilität / Magister (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
+| [[Arenus_der_Weise]] | Philosoph / Autor | [Philosophie] | Historisch (ca. 70 b.H.) | #überlieferung |
+| [[Alma]] | Philosophin / Autorin | [Linari - Philosophie] | Historisch | #überlieferung |
+| [[Abdera]] | Philosoph / Autor | [Linari - Philosophie] | Historisch | #überlieferung |
 | [[Aschehorn]] | Roter Lindwurm | [Bote 193] | 30 n.H. | #bote |
 | [[Custodias]] | Hochgeweihter ([[02_Astrael|Astrael]]) / Calator / Hüter des Rechts | [Bote 173/181] | amtierend | #canon |
 | [[Daena_Maga]] | Magierin | Akademie | 18 n.H. | #bote |
@@ -158,6 +164,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Mirian]] | Knappin | [Bote 139] | 16 n.H. | #bote |
 | [[Dunvallo_Linari]] | Erzmagus | [Magietheorie] / [Dämonologie] / [Lexikon] | Historisch | #überlieferung |
 | [[Donarius_Derrvus]] | Defensor Fidei / Docent (Astrael) | [Von den Myten] / [Über die Gohor] | Historisch | #überlieferung |
+| [[Charlissa_Eulenstein]] | Erzmaga / Magister (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
 | [[Eire]] | Vater / Geistlicher | [Heilige Liturgien] | Historisch | #überlieferung |
 | [[Erik]] | Bruder (Astrael) | [Heilige Liturgien] | Historisch | #überlieferung |
 | [[Elgar_von_Utracht]] | Autor | [Exercitium] | Historisch | #überlieferung |
@@ -240,6 +247,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Tai_Sah_Halour_Glurias]] | Autor / Gelehrter | [Astrael Tafeln] | Historisch | #überlieferung |
 | [[Pharalis_Avistur]] | Ritterin / Co-Leitung Kämpferschule | [Bote 172] | 20 n.H. | #bote |
 | [[Maltus_Shuarshirad]] | Bruderschaftler (Gofilm) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
+| [[Hahngard_Esteron]] | Magister (Toran Dur) | [Johann Liebig - Arkane Verbindung] | Historisch | #überlieferung |
 | [[Yves_Rondragon]] | Ritter / Lehnsherr ([[Seeberg]]) | [Bote 172] | 20 n.H. | #bote |
 
 | [[Cendaric_Tibur]] | Baron / 2. Ordensmeister (Löwenorden) | [Bote 172] / [Ordenssatzung] | 17-20 n.H. | #bote |
@@ -285,6 +293,8 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Eliath]] | Künstler / Verlobter von Aurora | [Bote 180] | 21 n.H. | #bote |
 | [[Taleris_Kreytz]] | Magister Emeritus (Akademie) | [Briefe aus der Ferne] | 21 n.H. | #perspektive |
 | [[Rajka_Sanseha]] | Briefpartnerin von T. Kreytz | [Briefe aus der Ferne] | 21 n.H. | #perspektive |
+| [[Hernaphas_Lenarmberg]] | Geweihter ([[02_Astrael|Astrael]]) / Lehrmeister | [Johann Liebig - Arkane Verbindung] | Historisch | #überlieferung |
+| [[Herzog_von_Kant]] | Philosoph / Autor | [Linari - Philosophie] | Historisch | #überlieferung |
 
 | [[Mirila_Mik-Honigzopf]] | Bürgermeisterin ([[Rothenbucht]]) | [Bote 192] | 30 n.H. | #bote |
 | [[Murrin_Hammerschwinger]] | Dwarschim-Krieger | [Bote 180] | 21 n.H. | #bote |
@@ -320,10 +330,12 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Alricio_Romero_di_Madjani]] | Redaktionsleitung ([[03_Gesellschaft#Siebenwind_Bote|Siebenwind Bote]]) | [Bote 182] | 21 n.H. | #bote |
 | [[Cedric_Rotfuchs]] | Ritter ([[03_Gesellschaft#Löwenorden|Löwenorden]]) | [Bote 182] | 21 n.H. | #bote |
 | [[Erik_Pedran]] | Ritter ([[Löwenorden]]) | [Bote 182] | 21 n.H. | #bote |
-| [[Rhadan_der_Graue]] | Erzmagier / Autor / Ko-Autor (Großere Kraftströme) | [Rituallehre_Sphaeren] / [Die Ritualisierung] | Historisch | #überlieferung |
+| [[Rhadan_der_Graue]] | Erzmagier / Autor / Zeichner | [Rituallehre_Sphaeren] / [Ari´in] / [Zeichnung Tares] | Historisch | #überlieferung |
+| [[Rhadamanth]] | Spektabilität / Magister (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
 
 | [[Steinhauer]] | Stellv. Gardehauptmann ([[Ersonter_Garde]]) | [Bote 183] | 21 n.H. | #bote |
 | [[Gorem_Motlow]] | Waibel ([[Bürgerwehr]]) / Ex-Gardist | [Bote 183] | 21 n.H. | #bote |
+| [[Gar_Navona]] | Magister / Schöpfer (Gargoyles) | [Johann Liebig - Arkane Verbindung] | Historisch | #überlieferung |
 | [[William_Glaron]] | Ritter / Sprecher ([[Löwenorden]]) | [Bote 183] | 21 n.H. | #bote |
 | [[Maltheos_Thorn]] | Hoher Diener ([[Bellum]]) | [Bote 183] | 21 n.H. | #bote |
 | [[Gin]] | Gardehauptmann ([[Ersonter_Garde]]) | [Bote 184] | 21 n.H. | #bote |
@@ -451,8 +463,10 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Lorence]] | Geweihter Bellums | [Bote 158] | 18 n.H. | #bote |
 | [[Edomawyr]] | Primus ([[Graue_Garde]]) / Pfadleiter (Grau) | [Bote 127/158] / [Wirkung von Metallen] | 15-18 n.H. | #bote |
 | [[Enoah_Sullin]] | Magier (Teilnehmer Hellsichtritual) | [[Forschungsberichte (Toran Dur)]] | 33 n.H. | #überlieferung |
-| [[Elurai_Calades]] | Erzmagier (Elementar) | [Bindungslehre] | Historisch | #überlieferung |
-| [[Elyran_Fischer]] | Adeptus Arkanis | [Elemente der Mitte] | Historisch | #überlieferung |
+| [[Elurai_Calades]] | Erzmagier / Autor | [Bindungslehre] | Historisch | #überlieferung |
+| [[Elyran_Fischer]] | Adeptus Arkanis (Ita'Glur) | [Die Elemente aus der Sicht der Mitte] | Historisch | #überlieferung |
+| [[Kulin_Lateal]] | Erzmagus / Autor | [Das Daimonicon] | Historisch | #überlieferung |
+| [[Johann_Liebig]] | Adeptus Arkanis / Autor | [Arkane Verbindung] | Historisch | #überlieferung |
 | [[Dimiona]] | Adepta Maior | [Die Foki] | Historisch | #überlieferung |
 | [[Morin_Thamaz]] | Pfadleiter (Elementar) | [Bote 158] | 18 n.H. | #bote |
 | [[Richard_Tiefenwasser]] | Freier | [Bote 158] | 18 n.H. | #bote |
@@ -492,6 +506,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Roland_Ronde]] | Autor | [Vandriens Entstehung] | Historisch | #überlieferung |
 | [[Shiion]] | 1. Fürst von Vandrien | [Vandriens Entstehung] | Historisch | #überlieferung |
 | [[Swerdan_Samoth]] | Werftmeister | [Bote 163] | 19 n.H. | #bote |
+| [[Milbach_Zobrecht]] | Philosoph / Wissenschaftler | [Linari - Philosophie] | Historisch | #überlieferung |
 
 | [[Dirian_zu_Neuentau]] | Landsbaron (Großjagd) | [Bote 164] | 19 n.H. | #bote |
 | [[Lhynar_Silmaril]] | Edelmann / Ex-Leiter Thar'Sala | [Bote 164] | 19 n.H. | #bote |
@@ -613,3 +628,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Themus_Takai]] | Magier (Baumwesen) | [Theorem zu den Baumwesen] | Historisch | #überlieferung |
 | [[Uron_Sbocaj]] | Magier / Theoretiker | [Thesen der Magiezweige] | Historisch | #überlieferung |
 | [[Wolfgang_Ravinsthal]] | Adeptus / Adeptus Arkanis / Autor | [Sphärenkunde] | Historisch | #überlieferung |
+| [[Zyraghlos_cé_Vegano]] | Magister (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
+| [[Keljar]] | Student / Bannweber (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
+| [[Tanthul]] | Lehrmeister / Autor | [Schwarze Ritualmagie] | Historisch | #überlieferung |
+| [[Nefustor]] | Magister / Autor | [Protokoll/Schwarze Magietheorie] | Historisch | #überlieferung |

@@ -45,6 +45,13 @@ Dies ist das zentrale Board für offene Forschungsfragen, Lore-Inkonsistenzen un
 - **Frage:** Können die "verschiebbaren Knotenpunkte" der Reagenzien direkt in eine Matrix eingewebt werden, um permanente Artefakte ohne physische Materie zu erschaffen?
 - **Ziel:** Vertiefung der Artefaktkunde-Lore.
 
+### [RESEARCH-2026-007] Dossier Rhadan: Die Zeichnung Tares
+- **Status:** 🔴 Offen (Historiker-Auftrag)
+- **Quelle:** [[Ari´in]], [[Zeichnung_Tares]]
+- **Frage:** Was stellt die Zeichnung exakt dar? Welche kosmologischen Details lassen sich aus der Lithografie Rhadan des Grauen ableiten?
+- **Ziel:** Erstellung eines detaillierten Dossiers über das Weltbild des Erzmagiers.
+- **Zuständig:** Historiker
+
 ## 🟢 Niedrige Priorität (Auskunft/Konsistenz)
 
 ### [RESEARCH-2026-004] Der Ursprung des Astralnetzes

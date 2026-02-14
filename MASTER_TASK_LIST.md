@@ -3,33 +3,28 @@
 Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **aktiven Fokus** von der **Projekthistorie** und definiert klare Standards für die Aufgabenpriorisierung.
 
 ## 📊 Status-Übersicht
-- **Wiki-Standard:** v2.1 (Epistemik implementiert)
-- **Artikel-Anzahl:** 984 (inkl. 521 Persönlichkeiten)
-- **Ingestion-Fortschritt:** ~80% (193 integriert, 49 ausstehend)
-- **RAG-Status (Orakel):** Aktiv & MPS-optimiert (Hardware-Auto-Tuning aktiv)
+- **Wiki-Standard:** v2.1 (Epistemik & Ingestion 3.0 implementiert)
+- **Artikel-Anzahl:** 1027
+- **Ingestion-Fortschritt:** ~85%
+- **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
+- **Letzter Handover:** (2026-02-14) durch Antigravity
 
 ---
 
-- [x] **Handover-Vorbereitung**: Statistiken generiert, Changelog gepflegt.
-- [x] **System-Repair**: Behebung von register_check Inkonsistenzen (Healthy Register).
-- [x] **Konstitution & Sicherheit**: Implementierung der "Constitution of Responsibility".
-- [x] **Batch 25**: Integration der Toran Dur Magie-Bibliothek.
-- [x] **Audit**: Vollständiger System-Audit Feb 2026.
-- [x] **Lore Investigations**: Astralnetz-Ursprung, Ionas-Narrative, Finsterwangen/Tiefenbach Historie. (Rohehafen as first capital resolved).
+## 🔴 Priorität 1: Aktueller Fokus (Next Step)
+- [ ] **Batch 26 (Ingestion)**: Erste Anwendung des Ingestion 3.0 Protokolls auf die verbleibenden Quellen.
+- [ ] **Audit (Register)**: Nach-Cleanup Check des Personenregisters (nach Ingestion 3.0 Standard).
 
-
-- [x] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`). Batch 25 (Toran Dur Library) abgeschlossen. Nächster Schritt: Batch 26.
-- [x] **Batch 25c**: Integration der Toran Dur Magie-Bibliothek (Toran Dur Reports).
-- [x] **Vernetzung (Weaving)**: Überprüfung der bi-direktionalen Verlinkung und Reparatur toter Links.
-- [x] **Lore Research Board**: Initialisierung des Boards mit 3 aktiven Ausschreibungen.
-- [x] **Consistency Blitz Feb 2026**: Behebung von 28 Register-Inkonsistenzen (0 Fehler Status erreicht).
-- [/] **Narrative Enrichment**: Ausbau von Stubs zu profunden Artikeln ("Roman-Qualität"). Fokus auf Motivation, Atmosphäre und Zitate.
+## 🟡 Priorität 2: Operative Ingestion (Inhalte)
+- [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
+- [ ] **Lore Research Board**: Abarbeitung der offenen Ausschreibungen (Angamon, Ödland, Linari).
 
 ## 🔬 Aktuelle Lore-Ausschreibungen (Research Board)
 *Detaillierte Aufträge siehe [[LORE_RESEARCH_BOARD.md]]*
 - [ ] **RESEARCH-2026-001**: Die Neun Domänen des Angamon (🔴)
 - [ ] **RESEARCH-2026-002**: Die Transformation des Ödlands (🟡)
 - [ ] **RESEARCH-2026-003**: Die Linari-Matrix (🟡)
+- [ ] **RESEARCH-2026-007**: Dossier Rhadan (Zeichnung Tares) (🔴)
 
 ## 🔵 Priorität 3: Qualität & Politur (Optimierung)
 *Verbesserungen an System und Lore, die den Nutzwert steigern.*
@@ -45,6 +40,13 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [ ] **Workflow: `/cleanup`**: Vollautomatisierter Bot zur kontinuierlichen Pfad-Bereinigung.
 
 ---
+
+### Phase 18: Toran Dur Advanced Doctrines (Feb 2026)
+- **Batch 27 (Toran Dur Advanced)**: Integration of Sub-Batches 1-4.
+- **Arcane Science**: Integration of `Arkan-Metalle.md`, `Elementare_Atomlehre.md`, and `Metamorphose_und_Gestaltwandel.md`.
+- **Constructs & Servants**: New documentation on `Konstruktbau_und_Ariin.md` and `Erschaffene_Diener.md`.
+- **Combat & Counter-Magic**: Detailed articles on `Antimagie_und_Gegenzauber.md` and `Arkane_Kriegfuehrung.md`.
+- **Gemstone Magic**: Comprehensive integration of `Vjera_Batama_Magica.md` (5 Pillars of Gem Magic).
 
 ### Phase 17: Advanced Intelligence Infrastructure & Lore Reconstruction (Feb 2026)
 - **Orakel-Resilience**: Behebung von Permission-Issues durch Cache-Redirection und Optimierung der Boot-Sequenz.

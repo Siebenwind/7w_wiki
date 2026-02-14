@@ -13,21 +13,28 @@ author: "Amanda Dunkelbaum"
 
 [[Amanda_Dunkelbaum]] beschreibt in ihrem Werk *Der Elementare Pfad* das Wesen der vier Elemente und deren Bedeutung für das Gleichgewicht der Welt.
 
-## 1. Die Natur der Elemente
-Jedes Element wird nicht nur als physische Materie, sondern als **arkanes Prinzip** verstanden:
+## 1. Der wahre Pfad
+Dunkelbaum postulierte, dass der **[[Elementarpfad]]** der einzig wahre Pfad der Magie sei, da alles Sein aus den vier Elementen bestehe.
 
-- **Feuer (Ignis):** Das Prinzip der Wandlung, Zerstörung und Wärme.
-- **Wasser (Aqua):** Das Prinzip des Flusses, der Anpassung und der Reinigung.
-- **Erde (Terra):** Das Prinzip der Beständigkeit, des Schutzes und der Schwere.
-- **Luft (Aer):** Das Prinzip der Freiheit, der Bewegung und der Schnelligkeit.
+## 2. Die Natur der Elemente
+Jedes Element wird als physisches und arkanes Prinzip verstanden:
+- **Feuer (Ignis):** Seelisches Feuer, Wandlung und Zerstörung.
+- **Wasser (Xan):** Fluss des Blutes, Anpassung und Reinigung.
+- **Erde (Riens):** Muskeln und Leib, Beständigkeit und Schutz.
+- **Luft (Ventus):** Atem in der Brust, Freiheit und Bewegung.
 
-## 2. Der Geist als Brücke
-Dunkelbaum betont, dass der Magier selbst (durch das Element **Geist**) die Brücke bildet, um diese oft widersprüchlichen Kräfte zu vereinen. Ohne die lenkende Kraft des Geistes würde die Beschwörung eines Elements im Chaos enden.
+## 3. Elementar-Beziehung zum Leib
+Ein zentraler Aspekt ist die Entsprechung der inneren Elemente:
+- **[[Ignis]]:** Seele.
+- **[[Ventus]]:** Lunge/Atem.
+- **[[Riens]]:** Muskeln/Leib.
+- **[[Xan]]:** Blut.
 
-## 3. Elementare Hierarchie
-Sie postuliert, dass kein Element über dem anderen steht, sondern ein ewiger Kreislauf herrscht. In der Magie äußert sich dies darin, dass ein Element oft durch sein Gegenteil gebändigt oder neutralisiert werden kann.
+## 4. Elementarwerdung
+Dunkelbaum warnt davor, dass Magier zunehmend die Wesenszüge ihres Elements annehmen (Elementarwerdung), bis hin zum Verlust der Identität oder dem Unvermögen, geschlossene Räume (Ventus) zu ertragen.
 
 ---
 **Siehe auch:**
+- [[Magiezweige]]
+- [[Elementarwerdung]]
 - [[Lehrbuch_Magietheorie]]
-- [[Kompendium_Weissmagie]]
