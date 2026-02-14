@@ -3,15 +3,15 @@
 Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **aktiven Fokus** von der **Projekthistorie** und definiert klare Standards für die Aufgabenpriorisierung.
 
 ## 📊 Status-Übersicht
-- **Wiki-Standard:** v2.1 (Epistemik & Ingestion 3.0 implementiert)
+- **Wiki-Standard:** v2.4 (Light Sanguine Abstraction & Master Sketchbook)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Letzter Handover:** (2026-02-14) durch Antigravity (Phase 1 Abschluss)
+- **Letzter Handover:** (14.02.2026) durch Antigravity (Phase 19 Abschluss)
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [ ] **Audit (Register)**: Nach-Cleanup Check des Personenregisters (nach Ingestion 3.0 Standard).
-- [ ] **News-Delegation**: Start von `/delegate` für das Forum und alte News-Archive.
+- [ ] **Audit (Register)**: Nach-Cleanup Check des Personenregisters (v2.4 Rendering Validierung).
+- [ ] **Ingestion Loop**: Fortsetzung der Boten-Verarbeitung (Bote 186+).
 
 ## 🟡 Priorität 2: Operative Ingestion (Inhalte)
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
@@ -38,6 +38,13 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [ ] **Workflow: `/cleanup`**: Vollautomatisierter Bot zur kontinuierlichen Pfad-Bereinigung.
 
 ---
+
+### Phase 19: Leonardo Sanguine & Master Sketchbook (Feb 2026)
+- **Design Pivot**: Abkehr vom Obsidian-Style hin zur "Leonardo Sanguine" Ästhetik.
+- **Light & Airy**: Implementierung eines minimalistischen, auf Weißraum und 0.5px Linien basierenden Layouts (v2.4).
+- **Abstraktion**: Ersetzung spezifischer Lore-Symbole durch universelle architektonische Geometrie (Kreis, Quadrate, Proportionsstudien).
+- **Archivierung**: Lückenlose Sicherung aller Design-Iterationen (Obsidian, Astrael, Sanguine) in `docs/assets/archive/`.
+- **Structural Purity**: Sanierung der Markdown-Inkompatibilitäten in allen Register-Tabellen.
 
 ### Phase 1: Netz-Wächter & Brand Identity (Feb 2026)
 - **Netz-Wächter**: OOC-Timeline (`04_Chronik`) etabliert; Pilot-Ingestion (`siebenwind.de`) erfolgreich.
@@ -115,4 +122,4 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Automatisierung**: Scripts für Statistiken, Link-Weben und Hardware-Tuning.
 
 ---
-*Zuletzt aktualisiert: 14.02.2026 durch Oberarchivar (Handover)*
+*Zuletzt aktualisiert: 14.02.2026 durch Antigravity (Handover Phase 19)*

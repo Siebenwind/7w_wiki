@@ -1,3 +1,14 @@
+## [2026-02-14.17] - Phase 19: Light Sanguine & General Abstraction
+### Hinzugefügt
+- **Visuals**: Neues "Light Sanguine" Branding-System (Rötelzeichnung im Leonardo-Stil).
+- **Asset-Archiv**: Dediziertes Archiv unter `docs/assets/archive/` für Design-Konzepte.
+- **Mockups**: High-Fidelity UI-Mockup des Interface-Konzepts für zukünftige Iterationen (Sanguine-Stil).
+
+### Geändert
+- **Interface Design**: Umstellung auf v2.4 (Paper-Minimalism, Thin Lines, Sanguine & Sepia).
+- **Integrität**: Korrektur von Rendering-Fehlern in Markdown-Tabellen (Register).
+- **Abstraktion**: Wechsel von spezifischer Astrael-Symbolik zu allgemeiner Architektur-Geometrie.
+
 ## [2026-02-14.16] - Phase 19: GitHub Pages Overhaul & Link Repair
 ### Hinzugefügt
 - **Wiki-Plugins**: Aktivierung von `mkdocs-roamlinks-plugin` zur Unterstützung von `[[WikiLinks]]`.
