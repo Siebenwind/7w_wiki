@@ -94,4 +94,13 @@ Dieses Repository ist **AI-Native**. Jede Datei folgt strikten Konventionen (YAM
 
 ---
 
+---
+
+## 📜 Lizenz & Nutzung
+Dieses Projekt nutzt ein **Dual-License Modell**:
+- **Code:** [MIT License](LICENSE) (Freie Nutzung der Software).
+- **Lore & Assets:** [CC BY-NC-SA 4.0](LICENSE) (Namensnennung, Nicht-Kommerziell, Weitergabe unter gleichen Bedingungen).
+
+Bitte beachte `CONTRIBUTING.md` und `CODE_OF_CONDUCT.md` für die Mitarbeit.
+
 *© 2026 Siebenwind Chronisten-Gilde | Engineered for Intelligence*
