@@ -16,7 +16,7 @@ category: Geografie
 
 ## ⚔️ Geschichte
 ### Der Fall & Der Sphärenriss
-Im Krieg gegen den Einen wurde Finsterwangen durch ein dunkles Ritual zum Schauplatz eines gewaltigen **Sphärenrisses**. Durch dieses Tor strömten Myriaden von Dämonen (darunter der Herrscher **Sha'Naz'Ghul**) und Untoten ein, was den Fall der Stadt besiegelte. Die Galahad-Legende ("Finsterwangen ist nicht mehr") bezieht sich auf die heroische, aber vergebliche Verteidigung gegen diese Übermacht.
+Im Krieg gegen den Einen wurde Finsterwangen durch ein dunkles Ritual zum Schauplatz eines gewaltigen **Sphärenrisses**. Der Riss wurde vermutlich durch die Invokation eines Feuerdämonen ausgelöst, der am Himmel zerbarst. Durch dieses Tor strömten Myriaden von Dämonen (darunter der Herrscher **Sha'Naz'Ghul**) und Untoten ein. Eine unnatürliche Matrix breitete sich vom Riss aus, welche die Seelen ehemaliger Paktierer in die Körper der Untoten leitet und sie regenerieren lässt.
 
 ### Magische Anomalien
 Aufgrund des fortbestehenden Risses ist die Realität in Finsterwangen instabil. Reisende berichten von Phänomenen, bei denen sie wahllos durch verschiedene Zeitebenen versetzt werden. Jegliche Anwendung von Magie innerhalb der Stadtgrenzen gilt als lebensgefährlich.

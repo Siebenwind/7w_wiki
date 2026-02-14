@@ -30,5 +30,18 @@ In der Praxis der Gelehrten wird die Magie oft nach ihrer philosophischen Ausric
 ## Astralenergie
 Die Fähigkeit, Magie zu wirken, entspringt der **Astralenergie** (AE) des Individuums. Während [[Rasse_Elfen|Elfen]] diese Kraft als natürlichen Teil ihres Seins empfinden, müssen andere Rassen sie durch jahrelanges Studium an den [[Akademie|Akademien]] (wie in [[Brandenstein]]) mühsam bündeln lernen.
 
+## Der Zaubervorgang (Locus Magicae)
+Nach der Theorie von **[[Johannes_Klos]]** wird Magie nicht direkt, sondern über eine mentale Schnittstelle gewirkt, den sogenannten **Locus Magicae**.
+
+### Die drei Instanzen
+1. **Empfänger:** Nimmt Signale (Worte, Gesten, Gedanken) auf.
+2. **Interpreter:** Ordnet Signale erlernten Mustern oder Modellen zu.
+3. **Konstruktor:** Erzeugt basierend auf der Interpretation den eigentlichen magischen Akt.
+
+### Arten der Magiewirkung
+- **[[Gefühlsmagie]]:** Intuitive Nutzung von Emotionen (z.B. bei [[Rasse_Elfen|Elfen]] oder Kindern).
+- **Niedere Magie:** Nutzung fester "Vokabeln" (starke Reiz-Reaktions-Verknüpfung durch ständiges Üben).
+- **Höhere Magie:** Anwendung komplexer Sprachen ([[Die_Sprache_Run|Run]]) und theoretischer Modelle (z.B. Astralgitter).
+
 ---
 **Siehe auch:** [[Magietheorie_Toran_Dur]], [[Sphärenkunde]], [[Codex_Astraeli]], [[Astrael]]

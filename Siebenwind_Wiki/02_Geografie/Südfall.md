@@ -18,6 +18,9 @@ Die Stadt beherbergt einen auffälligen Turm, der Teil der [[Magie_Grundlagen|k�
 - **18 n.H.:** Heimsuchung des Turms durch einen bösartigen Geist ([[Heimsuchung_der_Akademie]]).
 - **17 n.H.:** Das "Wunder von Südfall" während des [[Orkenaufstand_17_nH|Orkenaufstands]].
 
+### Die Realitätsverwerfung
+Tief im Wald von Südfall existiert ein Riss im Bindegewebe der Realität. Nach der Theorie der **[[Magietheorie_Toran_Dur#Arkane_Wellenlehre|Arcana Procella]]** entstand dieser durch das Brechen zweier gigantischer arkaner Wellen an einer natürlichen Verwerfungslinie. Der Riss bildet eine instabile Brücke zu einer künstlich erschaffenen "Raumtasche" der antiken **Mazzarener**, in der ein geheimnisvoller Tempel verborgen liegt.
+
 ---
 **Siehe auch:** [[Geografie]], [[Falkensee]], [[Magie_Grundlagen]]
 

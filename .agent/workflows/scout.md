@@ -4,7 +4,7 @@ description: Web-Scouting für News und Shard-Updates (/scout)
 
 # Workflow: `/scout` (Netz-Wache)
 
-Dieser Workflow dient der regelmäßigen Prüfung der Siebenwind-Homepage auf neue Nachrichten und technische Updates.
+Dieser Workflow dient der regelmäßigen Prüfung der Siebenwind-Homepage auf neue Nachrichten und technische Updates. **Wichtig:** Der Agent agiert als rein passiver Forscher; Interaktionen mit der Webseite oder dem Forum sind untersagt.
 
 ## Schritte
 

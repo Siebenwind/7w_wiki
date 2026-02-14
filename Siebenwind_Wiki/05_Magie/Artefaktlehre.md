@@ -12,6 +12,19 @@ report_id: b6a7d2e4-9f81-4a3b-8c7a-9f8e4d2e7b1a
 
 Das Wissen über die Schaffung magischer Gegenstände, die in ihnen gebundene Zauberwirkungen entfalten können. Die hier dargelegten Theorien basieren maßgeblich auf den Forschungsarbeiten von Erzmagus [[Dunvallo_Linari]], später bearbeitet von [[Santanos_Alexandrius_von_Eichstatt]].
 
+## Technische Terminologie
+
+Nach Linari wird die Beschaffenheit eines Artefakts durch folgende Kategorien definiert:
+
+- **Arkanogenese**: Der Prozess der Erschaffung eines magischen Gegenstandes.
+- **Abraxas**: Der Auslöser des Artefakts. Dies kann ein Zauberwort sein oder ein speziell geschliffener Edelstein-Fokus, der den **Tunneleffekt** hervorruft.
+- **Phonik**: Gibt die Anzahl der wirkenden Sprüche an (mono-, bi-, tri-phonisch etc.).
+- **Präservanz (Wirkungsdauer)**:
+    - **Kadunom**: Artefakte, die auf Ladungen basieren.
+    - **Aeternom**: Semi-permanente oder permanente Artefakte.
+- **Okkupation**: Die Art der Beseeltheit (astral, elementar, daimonisch oder transnekrotisch).
+- **Monophil**: Eigenschaft eines Artefakts, das nur von einem einzigen Träger (meist dem Erschaffer) genutzt werden kann.
+
 ## Grundprinzipien
 
 Die Artefakterstellung ist eine komplexe Disziplin, die verschiedene magietheoretische Felder vereint. Im Gegensatz zur Feldmagie eines Magiers müssen bei einem leblosen Gegenstand die Komponenten für Ursache und Wirkung permanent aufeinander abgestimmt werden.

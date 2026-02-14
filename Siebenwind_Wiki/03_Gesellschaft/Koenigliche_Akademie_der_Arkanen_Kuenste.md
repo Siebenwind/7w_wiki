@@ -27,6 +27,12 @@ Die Akademie lehrt alle anerkannten Pfade der Magie, mit einem Schwerpunkt auf d
 *   **Grundlagen:** Vermittlung der [[Magie_Grundlagen]] und der [[Magietheorie_Toran_Dur]].
 *   **Spezialisierung:** Ausbildung in den Schulen der Magica (Combativa, Curativa, etc.).
 
+## Prüfungen & Rituale
+Die Akademie nutzt komplexe Rituale zur Einweihung und Prüfung ihrer Mitglieder:
+- **Essenz des Magierturms:** Ein kollektiver Wille der Turmbewohner, der in einem aufwendigen Ritual auf dem Dach des Turms beschworen wird, um Novizen auf ihre Würdigkeit zum Adepten-Rang zu prüfen (einschließlich eines Ethik-Tests).
+- **Die Graue Garde:** Die Aufnahme in die Garde erfolgt durch einen feierlichen Schwur vor dem heiligen Feuer, meist in der Nacht.
+- **Sphärenrisse:** Die Akademie verfügt über spezifische Rituale zur Schließung von Sphärenrissen (historisch bedeutsam für [[Finsterwangen]]).
+
 ## Geschichte
 Die Akademie blickt auf eine bewegte Geschichte zurück, einschließlich der Zerstörung alter Standorte im Krieg gegen den Einen (siehe [[Magierturm_zu_Tiefenbach]]) und der Abwehr dämonischer Bedrohungen.
 

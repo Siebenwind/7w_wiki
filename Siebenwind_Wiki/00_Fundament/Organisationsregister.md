@@ -26,6 +26,7 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Ventusreiter]] | Berittene Post / Miliz | [[Falkensee]] | #bote |
 | [[Zirkel_der_Magie]] | Magische Vereinigung | Akademie | #bote |
 | [[Koenigliche_Akademie_der_Arkanen_Kuenste]] | Magische Ausbildung | [[Falkensee]] / [[Südfall]] | #canon |
+| [[Custos_artis_Magicae]] | Magischer Rat / Gelehrtengesellschaft | Akademie | #überlieferung |
 | [[Schattenjaeger]] | Elite-Wächter der Ecclesia | Inselweit | #bote |
 | [[Nortraven]] | Kriegerische Gemeinschaft / Grenzwächter | Nord-[[Siebenwind]] | #bote |
 | [[XIII_Kronregiment]] | Armee der Krone | [[Brandenstein]] / [[Falkenwall]] | #bote |

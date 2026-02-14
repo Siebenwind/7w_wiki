@@ -18,6 +18,13 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 
 ## Ereignisse nach Jahren
 
+### 12 nach Hilgorad
+*   **Krieg:** **Angriff auf [[Brandenstein]]** (7. Seker). Anhänger des Einen beschwören zwei mächtige Dämonen (Drachen-Niveau) vor den Toren der Stadt. Die Verteidiger werden fast aufgerieben, bis ein plötzliches Aufreißen der Wolkendecke (Astraels Eingreifen?) die Dämonen vertreibt.
+*   **Literatur:** [[Dunvallo_Linari]] verfasst seine Magisterarbeit über Dämonen (Einführung).
+
+### 13 nach Hilgorad
+*   **Literatur:** Erzmagus [[Dunvallo_Linari]] veröffentlicht den *Octalogus de Daimonibus*, ein grundlegendes Werk zur Daimonologie.
+
 ### 15 nach Hilgorad
 *   **Allgemein:** Beginn der regelmäßigen Berichterstattung durch den *[[Siebenwind]] Boten* (Ausgabe 120).
 *   **Kultur:** Der "Circus Wendolyn" (gegründet 23 v.H.) erfreut sich großer Beliebtheit.

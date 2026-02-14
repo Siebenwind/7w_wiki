@@ -10,6 +10,19 @@ category: Index
 
 Dieses Register dient der systematischen Erfassung aller Kreaturen, Unholde und mystischen Wesen, die die Insel [[Siebenwind]] und das Königreich Galadon bevölkern.
 
+## Einteilung der Mächte (Liebig-Thesen)
+Johann Liebig unterscheidet in seiner Magisterarbeit zwischen zwei Hauptgruppen arkaner Wesenheiten:
+
+### Lazperday-Wesen (Hand-Bewegende-Wesen)
+Nutzen Gestik zur Kontrolle der Mächte.
+- **Man-Lazperday:** Auf [[Tare]] geborene Wesen (z.B. [[Kobold|Kobolde]], [[Gnome]]).
+- **Ing-Lazperday:** Erschaffene oder aus Anomalien entstandene Wesen (z.B. [[Gargoyles]], [[Harpyien]]).
+
+### Warthun-Wesen (Geist-Wirkende-Wesen)
+Nutzen reine Konzentration zur Entfesselung arkaner Kräfte.
+- **Uruzman-Warthun:** Geboren oder aus starken Anomalien (z.B. höhere [[Elementare]], [[Djinns]]).
+- **Nuinarra-Warthun:** Durch hohe Arkanisten erschaffen (z.B. [[Liche]], [[Golems]]).
+
 ## Kreaturenverzeichnis
 
 | Name | Klassifizierung | Primärer Lebensraum | Epistemischer Status |
@@ -54,6 +67,7 @@ Dieses Register dient der systematischen Erfassung aller Kreaturen, Unholde und 
 - **[[Elementare]]:** Manifestationen der Urkräfte.
 - **[[Untote]]:** Wiedergänger und körperlose Geister.
 - **Bestien:** Gefährliche Raubtiere arkaner oder natürlicher Herkunft.
+- **Lazperday / Warthun:** Systematik nach Johann Liebig zur Unterscheidung von Gesten- und Geist-Wirkern.
 
 ---
 **Siehe auch:** [[Gesellschaft]], [[Geografie]], [[Religion_Übersicht]]

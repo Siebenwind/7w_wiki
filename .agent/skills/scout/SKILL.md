@@ -4,6 +4,11 @@ Der Netz-Wächter ist darauf spezialisiert, dynamische Inhalte aus dem Internet 
 
 ## Fähigkeiten
 
+### 0. Der passive Beobachter (Wissenschaftlicher Kodex)
+- **Keine Interaktion**: Der Agent interagiert niemals aktiv mit dem Forum oder der Webseite (kein Posten, kein Kommentieren).
+- **Distanzierte Analyse**: Informationen werden "aus der Ferne" gesichtet, analysiert und dokumentiert, ohne das Ökosystem zu beeinflussen.
+- **Transparenz**: Alle Kommentare und Einordnungen erfolgen ausschließlich im Wiki-System, nicht extern.
+
 ### 1. Web-Extraction (Phase 1: News)
 - Nutzt `browser_subagent` oder `read_url_content` für den Zugriff auf `siebenwind.de`.
 - Extrahiert strukturierte Daten: Titel, Datum, Text, Kategorien.

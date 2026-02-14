@@ -26,6 +26,9 @@ letzter_check: 2026-02-13T14:55:00+01:00
 
 Harpyien werden vor allem während des [[Dunkeltief]]s gesichtet, wenn die Dunkelheit ihnen Deckung bietet. Augenzeugenberichte schildern sie als Jäger, die bevorzugt exponierte Stellungen wie Türme und Wehrgänge attackieren.
 
+### Besonderheiten
+In den Tiefen der **Harpyienhöhle** soll laut Berichten von [[Dunvallo_Linari]] ein riesenhafter Dämon existieren, der möglicherweise durch die Präsenz eines Lichen oder die allgemeine Verfluchtheit des Ortes dorthin gelangt ist.
+
 > *„Dieses Kreischen, verfluchte Harpyien.. immer wieder kreisen sie über der Außenburg, zwei Gardisten haben sie schon von den Zinnen in den Tod gerissen.."* — Kherbal, Soldat auf [[Burg_Schwingenwacht]]
 
 ---

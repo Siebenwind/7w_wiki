@@ -629,5 +629,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Zyraghlos_cé_Vegano]] | Magister (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
 | [[Keljar]] | Student / Bannweber (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
 | [[Santanos_Alexandrius_von_Eichstatt]] | Erzmagus / Autor | [Linari - Artefakte] | Historisch | #überlieferung |
+| [[Birnbaum]] | Magister Extraordinarius | [Angamoniensis] | Historisch | #überlieferung |
+| [[Fogrim_Goldaxt]] | Schmied (Arkadons Schmiede) | [Bartanatomie] | Historisch | #überlieferung |
 
 

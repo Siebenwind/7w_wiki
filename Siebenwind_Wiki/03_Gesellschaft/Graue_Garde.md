@@ -24,7 +24,15 @@ Die **Graue Garde** ist eine militärisch organisierte Kampftruppe von Magiern a
 3.  **Primus:** Erfahrene Gardisten, zuständig für Verwaltung und Ausbildung.
 4.  **Akoluth:** Truppführer im Gefecht.
 5.  **Luhush:** Vollwertige Gardisten.
-6.  **Rekrut / Anwärter:** Auszubildende.
+6.  **Rekrut / Anwärter**: Beginn der Ausbildung.
+7.  **Fuchs**: Anwärter in der Endphase der Ausbildung.
+
+## Der Schwur der Grauen Garde
+Vollwertige Mitglieder (ab dem Rang des Fuchses) leisten einen feierlichen Eid bei den allmächtigen Gohor und den acht Göttern:
+> „Ich schwöre, aus freiem Willen [...] immer den Weisungen der ewigen acht Götter treu zu folgen, gegen ihren gemeinsamen Feind, den Einen, zu kämpfen und jedem Missbrauch von Magie entschieden entgegenzutreten. [...] Ich werde den Turm vor allen Feinden beschützen und die Einhaltung der Regeln des Turms überwachen.“
+
+### Ränge im Detail
+- **Fuchs:** Anwärter, die bereits alle Prüfungen bestanden haben und feierlich in die Garde aufgenommen wurden. Sie tragen ein Hemd mit dem Abzeichen der Grauen Garde und eine Robe mit dem Schriftzug „Graue Garde“ auf Run.
 
 ## Philosophie
 Die Garde ist dem König, dem Reich und der Kirche verpflichtet. Sie setzt auf Zusammenarbeit mit der [[Ersonter_Garde]] und anderen Milizen. Während sie den Namen des grauen Pfades trägt, sind auch Weiß- und Elementarmagier willkommen.

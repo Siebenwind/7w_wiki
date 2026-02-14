@@ -19,21 +19,22 @@ Das Wirken schwarzer Magie und die Beschwörung folgen einer erweiterten Formel:
 - **Gnosis:** Die magische Trance, um den "Zensor" (den Filter zwischen Bewusstsein und Unbewusstem) zu umgehen.
 - **Formular:** Die Nutzung der Runen-Sprache ([[Rune|Wörter der Macht]]).
 
-## 2. Physische Voraussetzungen des Beschwörers
-Ein erfolgreicher Daimonologe muss seine Aura maximieren, um dem Dämon gegenüberzutreten:
+## 2. Physische Voraussetzungen des Beschwörers (nach Linari)
+Ein erfolgreicher Daimonologe muss seine Aura maximieren, um dem Dämon gegenüberzutreten und ihn einzuschüchtern ("Das Sein bestimmt das Bewusstsein"):
 - **Haar/Nägel:** Lang und offen getragen, um die Aura des Kopfes und die Präsenz zu vergrößern.
-- **Kleidung:** Leicht, einlagig, kein Leder (da totes Material die Aura dämpft).
-- **Physis:** Barfuß oder in leichten Stoffschuhen, um den Kontakt zum Flux nicht zu stören. Kein Schmuck oder Metall.
+- **Kleidung:** Leicht, einlagig, kein Leder (da totes Material die Aura dämpft). 
+- **Physis:** Barfuß oder in leichten Stoffschuhen. Kein Schmuck oder Metall (Ringe, Ketten), da diese die Aura blockieren.
 
-## 3. Der Ritualaufbau (Cuthal Anar)
-Eine sichere Invokation erfordert den **Cuthal Anar** (Rituskreis):
-- **Noctis (Pentagramm):** Dient als Wegbereiter in die Domäne. In der Mitte steht der **Ssador** (Beschwörungsfokus).
-- **Azeel Anar (Bannkreis):** Aus reinstem Salz gestreut und mit Runen verstärkt.
-- **Cuthal Ithos (Ritualkerzen):** An den Spitzen des Pentagramms platziert:
-  - **Schwarz:** Repräsentiert Hass/Zorn.
-  - **Rot:** Repräsentiert List/Tücke.
-  - **Weiß:** Repräsentiert magische Macht.
-  *Kerzen werden rituell aus dem Fett und Blut von Verbrechern, Dieben oder Adepten gefertigt.*
+## 3. Die Hierarchien (Octalogus de Daimonibus)
+Erzmagus Linari definiert zwei Achsen der dämonischen Ordnung:
+- **Horizontale Hierarchie (Hörner):** Die Macht eines Dämons zeigt sich in der Anzahl seiner Hörner (0 bis 7). 0 = gefallene Seelen.
+- **Vertikale Hierarchie (Antipoden):** Dämonenreiche sind die pervertierten Spiegelbilder (Antipoden) der 4 Götter und 4 Elementarherren.
+
+## 4. Der Ritualaufbau & Kreise
+Eine sichere Invokation erfordert laut Linari mindestens drei Kreise:
+1. **Haltekreis (Bannkreis):** Fixiert den Dämon und beinhaltet das **geläuterte Element** (Vorbereitung: 4-16 Tage).
+2. **Schutzkreis:** Umgibt den Magus. Muss semipermeabel sein.
+3. **Notfall-Haltekreis:** Ein starker äußerer Kreis für den Fall eines Ausbruchs.
 
 ---
 **Siehe auch:** [[Daimonicon]], [[Nefustor]], [[Tanthul]]
