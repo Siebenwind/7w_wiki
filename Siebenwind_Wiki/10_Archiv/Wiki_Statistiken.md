@@ -6,7 +6,7 @@ category: Index
 
 # 📊 Wiki Status
 
-**Letztes Update:** 2026-02-14 23:26:04
+**Letztes Update:** 2026-02-14 23:27:00
 
 ---
 

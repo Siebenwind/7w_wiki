@@ -198,7 +198,7 @@ category: Index
 
 ```mermaid
 pie title Artikel nach Sektion
-{"\n".join([f'    "{k}" : {v}' for k, v in stats['files_per_category'].items() if v > 0])}
+{"\n".join([f'    "{k}" : {v}' for k, v in stats["files_per_category"].items() if v > 0])}
 ```
 
 ---

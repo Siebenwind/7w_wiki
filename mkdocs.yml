@@ -57,7 +57,8 @@ nav:
 
 plugins:
   - search
-  - roamlinks
+  - roamlinks:
+      link_relative: true
   - mermaid2:
       arguments:
         theme: dark
