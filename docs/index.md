@@ -20,9 +20,9 @@
 
 ## 🏛️ Das Vermächtnis (The Core)
 
-Willkommen in der **Siebenwind Lore Engine**. Dies ist kein gewöhnliches Wiki, sondern ein lebendes Denkmal für über **20 Jahre kollektive Kreativität**. 
+Willkommen in der **Siebenwind Lore Engine**. Dies ist ein lebendes Denkmal für über **20 Jahre kollektive Kreativität**. 
 
-Seit zwei Jahrzehnten weben Hunderte von Spielern und Stafflern an diesem Teppich aus Geschichten, Schicksalen und Welten. Unsere Mission ist es, dieses Erbe – diesen "Treasure Trove" menschlicher Kommunikation aus der Vor-AI-Ära – mit modernster Intelligenz zu bewahren, zu vernetzen und für die Zukunft sicherzustellen.
+Seit zwei Jahrzehnten weben Hunderte von Köpfen an diesem Teppich aus Geschichten und Schicksalen. Unsere Mission ist es, dieses Erbe – diesen Schatz menschlicher Interaktion – mit moderner Intelligenz zu bewahren und für die Zukunft sicherzustellen.
 
 ---
 
@@ -48,9 +48,9 @@ graph TD
 | Sektion | Zweck | Dokumentation |
 | :--- | :--- | :--- |
 | **🧭 Navigation** | Der Einstieg in die Welt. | [Wiki-Startpunkt](Siebenwind_Wiki/index.md) |
-| **🛠️ Setup** | Installation & Konfiguration. | [RAG / Orakel Architektur](setup_rag.md) |
-| **📜 Philosophie** | Die "Trias Politica" des Systems. | [Architektur & Mission](architecture.md) |
-| **📈 Fortschritt** | Was wurde bereits rekonstruiert? | [Master Task List](MASTER_TASK_LIST.md) |
+| **🛠️ Setup** | Architektur des Orakels. | [Setup RAG](setup_rag.md) |
+| **📜 Philosophie** | Grundgesetze des Systems. | [Architektur](architecture.md) |
+| **📈 Fortschritt** | Rekonstruktions-Status. | [Master Task List](MASTER_TASK_LIST.md) |
 
 ---
 
@@ -76,4 +76,4 @@ Wir bewahren das Werk von Vielen. Wenn du Fehler findest oder Lore ergänzen mö
 - **Code:** [MIT License](https://github.com/Siebenwind/7w_wiki/blob/main/LICENSE)
 - **Content:** CC BY-NC-SA 4.0 (Community Legacy)
 
-*© 2026 Siebenwind Archivar-Kollektiv | Built for Intelligence, Driven by Legacy.*
+*© 2026 Siebenwind Archivare | Bewahrung durch Diskretion.*
