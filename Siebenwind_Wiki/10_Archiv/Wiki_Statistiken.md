@@ -1,135 +1,61 @@
 ---
 layout: wiki_page
-title: Wiki Statistiken 2.0
+title: Wiki Status
 category: Index
 ---
 
-# 📊 Wiki Statistiken 2.0
+# 📊 Wiki Status
 
-**Letztes Update:** 2026-02-14 23:15:54
-*Das pulsierende Herz der Siebenwind Lore Engine.*
-
----
-
-## 🏛️ High-Level KPIs
-
-| Metrik | Wert | Status |
-| :--- | :--- | :--- |
-| **Gesamtanzahl Artikel** | 1047 | 📈 |
-| **Persönlichkeiten** | 563 | 🎭 |
-| **Organisationen** | 56 | 🛡️ |
-| **Geografische Orte** | 55 | 🗺️ |
-| **Bestiarium (Wesen)** | 32 | 🐉 |
-| **Gesamtwortzahl** | 169,323 | ✍️ |
-| **Vernetzungsgrad** | 51.07 Links/1k | 🔗 |
-| **Quellen-Fidelity** | 44.2% | 📜 |
+**Letztes Update:** 2026-02-14 23:26:04
 
 ---
 
-## 📥 Ingestions-Status (Lore Machine)
+## 🏛️ Kern-Metriken
+
+| Metrik | Wert |
+| :--- | :--- |
+| **Artikel** | 1047 |
+| **Worte (Gesamt)** | 169,323 |
+| **Vernetzung** | 51.07 Links/1k |
+| **Persönlichkeiten** | 563 |
+
+---
+
+## 📂 Kategorien
 
 ```mermaid
-pie title Fortschritt der Rekonstruktion
-    "Integriert" : 201
-    "Ausstehend" : 41
+pie title Artikel nach Sektion
+    "Root" : 1
+    "07_Persoenlichkeiten" : 563
+    "05_Magie" : 38
+    "08_Bestiarium" : 32
+    "03_Wissen" : 50
+    "03_Gesellschaft" : 56
+    "05_Geschichte" : 56
+    "10_Archiv" : 5
+    "02_Geografie" : 55
+    "01_Pantheon" : 49
+    "04_Chronik" : 80
+    "06_Erzählungen" : 9
+    "06_Geschichte" : 1
+    "06_Myten_und_Legenden" : 1
+    "09_Bibliothek" : 28
+    "00_Fundament" : 23
 ```
 
 ---
 
-## 📂 Wissensverteilung (Kategorien)
+## 🏆 Top Hubs
+Die am stärksten vernetzten Artikel.
 
-```mermaid
-bar-chart
-    title Artikel pro Kategorie
-## ⚖️ Epistemische Sicherheit
-
-```mermaid
-pie title Wissens-Fundament
-    "Canon" : 548
-    "Bote" : 1012
-    "Überlieferung" : 203
-    "Perspektive" : 203
-```
-
----
-
-## ⏳ Lore-Evolution (Zeitliche Dichte)
-Häufigkeit der Erwähnung von Jahren in der Zeitrechnung "n.H.".
-
-```mermaid
-xychart-beta
-    title Erwähnungen pro Jahr (n.H.)
-    x-axis [ "20", "21", "22", "23", "24", "25", "26", "28", "29", "30", "33", "34", "36", "123", "165" ]
-    y-axis "Nennungen"
-    bar [ 174, 215, 103, 14, 2, 4, 10, 15, 66, 81, 7, 1, 10, 9, 2 ]
-```
-
----
-
-## 🏆 Top 10 Best-Dokumentierte Persönlichkeiten
-(Basierend auf geschätztem Umfang/Relevanz)
-
-| Rang | Persönlichkeit | Umfang (Worte) | Links |
-| :--- | :--- | :--- | :--- |
-| 1 | [[Waldemar_Delarie]] | 626 | 48 |
-| 2 | [[Toran_Dur]] | 576 | 51 |
-| 3 | [[Custodias]] | 445 | 71 |
-| 4 | [[Ionas]] | 413 | 9 |
-| 5 | [[Hilgorad_I_ap_Mer]] | 344 | 24 |
-| 6 | [[Aspin_Schwertklinge_von_Fahlenau]] | 322 | 8 |
-| 7 | [[Haldur_Toda]] | 310 | 5 |
-| 8 | [[Thorgat]] | 292 | 3 |
-| 9 | [[Veridon]] | 288 | 6 |
-| 10 | [[Calmexistus_Salanus]] | 283 | 15 |
-
----
-
-## 🔗 Zentrale Wissensknoten (Top Hubs)
-Die am häufigsten verlinkten Artikel im Wiki.
-
-| Rang | Entität | Verlinkungen |
-| :--- | :--- | :--- |
-| 1 | [[Falkensee]] | 338 |
-| 2 | [[Brandenstein]] | 322 |
-| 3 | [[Siebenwind]] | 275 |
-| 4 | [[Personenregister]] | 127 |
-| 5 | [[Nortraven]] | 77 |
-| 6 | [[Bellum]] | 76 |
-| 7 | [[Custodias]] | 71 |
-| 8 | [[Angamon]] | 70 |
-| 9 | [[Vitama]] | 69 |
-| 10 | [[Astrael]] | 60 |
-
----
-
-## 📅 Aktivität (Letzte Änderungen)
-
-| Zeitraum | Neue Artikel | Geänderte Artikel |
-| :--- | :--- | :--- |
-| **Letzte 24h** | 378 | 172 |
-| **Letzte 7 Tage** | 1032 | 270 |
-| **Letzte 30 Tage** | 1032 | 270 |
-
-### Letzte Änderungen
-
-| Datum | Aktion | Artikel | Kategorie |
-| :--- | :--- | :--- | :--- |
-| 2026-02-14 | Geändert | Wiki Statistiken | 10_Archiv |
-| 2026-02-14 | Neu | OOC TIMELINE | 04_Chronik |
-| 2026-02-14 | Geändert | Bestiarium Register | 00_Fundament |
-| 2026-02-14 | Geändert | Magie Grundlagen | 00_Fundament |
-| 2026-02-14 | Geändert | Magietheorie Toran Dur | 00_Fundament |
-| 2026-02-14 | Geändert | Organisationsregister | 00_Fundament |
-| 2026-02-14 | Geändert | Personenregister | 00_Fundament |
-| 2026-02-14 | Geändert | Brandenstein | 02_Geografie |
-| 2026-02-14 | Geändert | Finsterwangen | 02_Geografie |
-| 2026-02-14 | Geändert | Graue Garde | 03_Gesellschaft |
-| 2026-02-14 | Geändert | Koenigliche Akademie der Arkanen Kuenste | 03_Gesellschaft |
-| 2026-02-14 | Geändert | Zwerge | 03_Gesellschaft |
-| 2026-02-14 | Geändert | Zeitleiste (15-30 n.H.) | 04_Chronik |
-| 2026-02-14 | Geändert | Artefaktlehre | 05_Magie |
-| 2026-02-14 | Geändert | Magietheorie Daemonenbeschwoerung | 05_Magie |
+| Entität | Links |
+| :--- | :--- |
+| [[Falkensee]] | 338 |
+| [[Brandenstein]] | 322 |
+| [[Siebenwind]] | 275 |
+| [[Personenregister]] | 127 |
+| [[Nortraven]] | 77 |
 
 ---
 > [!NOTE]
-> Diese Seite wird automatisch generiert. Sie dient der Übersicht über das Wachstum und die Qualität des Wissensarchivs.
+> Fokus auf Essenz. Weniger Rauschen, mehr Lore.

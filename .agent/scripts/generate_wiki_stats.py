@@ -169,159 +169,53 @@ def collect_git_activity():
     return activity
 
 def generate_markdown(stats):
-    # Calculate density & Fidelity
     density = stats["total_links"] / (stats["total_word_count"] / 1000) if stats["total_word_count"] > 0 else 0
-    with_src = stats["source_fidelity"].get("with_source", 0)
-    no_src = stats["source_fidelity"].get("no_source", 0)
-    fidelity_score = (with_src / stats["total_files"] * 100) if stats["total_files"] > 0 else 0
-    
-    # Sort categories by file count
-    sorted_cats = sorted(stats["files_per_category"].items(), key=lambda x: x[1], reverse=True)
-    
-    # Temporal stats
-    sorted_years = sorted(stats["temporal"].items(), key=lambda x: int(x[0]) if x[0].isdigit() else 999)
-    top_years = sorted_years[-15:]
-    
-    # Top Hubs
-    top_hubs = stats["link_hubs"].most_common(10)
     
     md = f"""---
 layout: wiki_page
-title: Wiki Statistiken 2.0
+title: Wiki Status
 category: Index
 ---
 
-# 📊 Wiki Statistiken 2.0
+# 📊 Wiki Status
 
-**Letztes Update:** {stats["timestamp"]}
-*Das pulsierende Herz der Siebenwind Lore Engine.*
-
----
-
-## 🏛️ High-Level KPIs
-
-| Metrik | Wert | Status |
-| :--- | :--- | :--- |
-| **Gesamtanzahl Artikel** | {stats["total_files"]} | 📈 |
-| **Persönlichkeiten** | {stats["personalities_count"]} | 🎭 |
-| **Organisationen** | {stats["organisations_count"]} | 🛡️ |
-| **Geografische Orte** | {stats["places_count"]} | 🗺️ |
-| **Bestiarium (Wesen)** | {stats["bestiary_count"]} | 🐉 |
-| **Gesamtwortzahl** | {stats["total_word_count"]:,} | ✍️ |
-| **Vernetzungsgrad** | {density:.2f} Links/1k | 🔗 |
-| **Quellen-Fidelity** | {fidelity_score:.1f}% | 📜 |
+**Letztes Update:** {stats['timestamp']}
 
 ---
 
-## 📥 Ingestions-Status (Lore Machine)
+## 🏛️ Kern-Metriken
+
+| Metrik | Wert |
+| :--- | :--- |
+| **Artikel** | {stats['total_files']} |
+| **Worte (Gesamt)** | {stats['total_word_count']:,} |
+| **Vernetzung** | {density:.2f} Links/1k |
+| **Persönlichkeiten** | {stats['personalities_count']} |
+
+---
+
+## 📂 Kategorien
 
 ```mermaid
-pie title Fortschritt der Rekonstruktion
-    "Integriert" : {stats["ingestion"]["Integrated"] + stats["ingestion"]["Done"]}
-    "Ausstehend" : {stats["ingestion"]["Pending"]}
+pie title Artikel nach Sektion
+{"\n".join([f'    "{k}" : {v}' for k, v in stats['files_per_category'].items() if v > 0])}
 ```
 
 ---
 
-## 📂 Wissensverteilung (Kategorien)
+## 🏆 Top Hubs
+Die am stärksten vernetzten Artikel.
 
-```mermaid
-bar-chart
-    title Artikel pro Kategorie
-## ⚖️ Epistemische Sicherheit
-
-```mermaid
-pie title Wissens-Fundament
-    "Canon" : {stats["epistemic"]["canon"]}
-    "Bote" : {stats["epistemic"]["bote"]}
-    "Überlieferung" : {stats["epistemic"]["überlieferung"]}
-    "Perspektive" : {stats["epistemic"]["perspektive"]}
-```
-
----
-
-## ⏳ Lore-Evolution (Zeitliche Dichte)
-Häufigkeit der Erwähnung von Jahren in der Zeitrechnung "n.H.".
-
-```mermaid
-xychart-beta
-    title Erwähnungen pro Jahr (n.H.)
-    x-axis [ {", ".join([f'"{y}"' for y, _ in top_years])} ]
-    y-axis "Nennungen"
-    bar [ {", ".join([str(c) for _, c in top_years])} ]
-```
-
----
-
-## 🏆 Top 10 Best-Dokumentierte Persönlichkeiten
-(Basierend auf geschätztem Umfang/Relevanz)
-
-| Rang | Persönlichkeit | Umfang (Worte) | Links |
-| :--- | :--- | :--- | :--- |
+| Entität | Links |
+| :--- | :--- |
 """
-    # Helper to get word count for a file
-    def get_word_count(name):
-        # Scan wiki for file with this name
-        for f in WIKI_DIR.rglob(f"{name}.md"):
-            return len(re.findall(r'\w+', f.read_text(encoding="utf-8")))
-        return 0
-
-    # Collect personalities with significant content
-    personas = []
-    # We use link_hubs keys that are in 07_Persoenlichkeiten
-    # Or just iterate all files in 07_Persoenlichkeiten
-    for f in (WIKI_DIR / "07_Persoenlichkeiten").rglob("*.md"):
-        name = f.stem
-        words = len(re.findall(r'\w+', f.read_text(encoding="utf-8")))
-        links_in = stats["link_hubs"].get(name, 0)
-        personas.append((name, words, links_in))
-    
-    # Sort by word count desc
-    top_personas = sorted(personas, key=lambda x: x[1], reverse=True)[:10]
-
-    for i, (name, words, links) in enumerate(top_personas, 1):
-        md += f"| {i} | [[{name}]] | {words} | {links} |\n"
-
-    md += """
----
-
-## 🔗 Zentrale Wissensknoten (Top Hubs)
-Die am häufigsten verlinkten Artikel im Wiki.
-
-| Rang | Entität | Verlinkungen |
-| :--- | :--- | :--- |
-"""
-    for i, (name, count) in enumerate(top_hubs, 1):
-        md += f"| {i} | [[{name}]] | {count} |\n"
-
-    # Recent Activity Section
-    act = stats.get("activity", {})
-    day = act.get("day", {})
-    week = act.get("week", {})
-    month = act.get("month", {})
-
-    md += f"""
----
-
-## 📅 Aktivität (Letzte Änderungen)
-
-| Zeitraum | Neue Artikel | Geänderte Artikel |
-| :--- | :--- | :--- |
-| **Letzte 24h** | {day.get('new', 0)} | {day.get('modified', 0)} |
-| **Letzte 7 Tage** | {week.get('new', 0)} | {week.get('modified', 0)} |
-| **Letzte 30 Tage** | {month.get('new', 0)} | {month.get('modified', 0)} |
-"""
-
-    recent = act.get("recent_files", [])
-    if recent:
-        md += """\n### Letzte Änderungen\n\n| Datum | Aktion | Artikel | Kategorie |\n| :--- | :--- | :--- | :--- |\n"""
-        for date, action, name, cat in recent:
-            md += f"| {date} | {action} | {name} | {cat} |\n"
+    for name, count in stats["link_hubs"].most_common(5):
+        md += f"| [[{name}]] | {count} |\n"
 
     md += """
 ---
 > [!NOTE]
-> Diese Seite wird automatisch generiert. Sie dient der Übersicht über das Wachstum und die Qualität des Wissensarchivs.
+> Fokus auf Essenz. Weniger Rauschen, mehr Lore.
 """
     return md
 
