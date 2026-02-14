@@ -6,16 +6,16 @@ category: Index
 
 # Wiki Statistiken
 
-**Letztes Update:** 2026-02-14 18:43:20
+**Letztes Update:** 2026-02-14 19:14:12
 
 ## 📊 High-Level KPIs
 
 | Metrik | Wert |
 | :--- | :--- |
-| **Gesamtanzahl Artikel** | 1027 |
-| **Bekannte Persönlichkeiten** | 546 |
-| **Gesamtwortzahl** | 166,755 |
-| **Vernetzungsgrad (Links/1k Worte)** | 51.39 |
+| **Gesamtanzahl Artikel** | 1044 |
+| **Bekannte Persönlichkeiten** | 561 |
+| **Gesamtwortzahl** | 167,605 |
+| **Vernetzungsgrad (Links/1k Worte)** | 51.33 |
 
 ---
 
@@ -35,7 +35,7 @@ pie title Quellen Integrations-Status
 bar-chart
     title Artikel pro Kategorie
     x-axis [ "Root", "07_Persoenlichkeiten", "05_Magie", "08_Bestiarium", "03_Wissen", "03_Gesellschaft", "05_Geschichte", "10_Archiv", "02_Geografie", "01_Pantheon", "04_Chronik", "06_Erzählungen", "06_Geschichte", "06_Myten_und_Legenden", "09_Bibliothek", "00_Fundament" ]
-    y-axis Artikel [ 1, 546, 37, 32, 50, 55, 56, 5, 55, 49, 79, 9, 1, 1, 28, 23 ]
+    y-axis Artikel [ 1, 561, 38, 32, 50, 56, 56, 5, 55, 49, 79, 9, 1, 1, 28, 23 ]
 ```
 
 ---
@@ -46,7 +46,7 @@ bar-chart
 pie title Wissens-Fundament
     "Canon" : 548
     "Bote" : 1012
-    "Überlieferung" : 182
+    "Überlieferung" : 198
     "Perspektive" : 203
 ```
 
@@ -91,11 +91,11 @@ Die am häufigsten verlinkten Artikel im Wiki.
 | 1 | [[Falkensee]] | 338 |
 | 2 | [[Brandenstein]] | 321 |
 | 3 | [[Siebenwind]] | 275 |
-| 4 | [[Personenregister]] | 112 |
+| 4 | [[Personenregister]] | 127 |
 | 5 | [[Nortraven]] | 77 |
 | 6 | [[Bellum]] | 76 |
-| 7 | [[Angamon]] | 73 |
-| 8 | [[Custodias]] | 71 |
+| 7 | [[Custodias]] | 71 |
+| 8 | [[Angamon]] | 70 |
 | 9 | [[Vitama]] | 69 |
 | 10 | [[Astrael]] | 60 |
 
@@ -105,29 +105,29 @@ Die am häufigsten verlinkten Artikel im Wiki.
 
 | Zeitraum | Neue Artikel | Geänderte Artikel |
 | :--- | :--- | :--- |
-| **Letzte 24h** | 352 | 162 |
-| **Letzte 7 Tage** | 995 | 256 |
-| **Letzte 30 Tage** | 995 | 256 |
+| **Letzte 24h** | 382 | 170 |
+| **Letzte 7 Tage** | 1025 | 264 |
+| **Letzte 30 Tage** | 1025 | 264 |
 
 ### Letzte Änderungen
 
 | Datum | Aktion | Artikel | Kategorie |
 | :--- | :--- | :--- | :--- |
-| 2026-02-14 | Geändert | Finsterwangen | 02_Geografie |
-| 2026-02-14 | Neu | Rohehafen | 02_Geografie |
-| 2026-02-14 | Geändert | Siebenwind | 02_Geografie |
-| 2026-02-14 | Geändert | Tiefenbach | 02_Geografie |
-| 2026-02-14 | Geändert | Stadtchronik Rohehafens | 06_Geschichte |
-| 2026-02-14 | Geändert | Hilgorad I ap Mer | 07_Persoenlichkeiten |
-| 2026-02-14 | Geändert | Wiki Statistiken | 10_Archiv |
 | 2026-02-14 | Geändert | Personenregister | 00_Fundament |
-| 2026-02-14 | Neu | Arknor | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Baron Morgenroith | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Caieta Ajunier | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Dimiona | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Elurai Calades | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Elyran Fischer | 07_Persoenlichkeiten |
-| 2026-02-14 | Neu | Enoah Sullin | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Abdera | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Adrienne Valemis | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Alma | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Arenus der Weise | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Charlissa Eulenstein | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Gar Navona | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Hahngard Esteron | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Hernaphas Lenarmberg | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Herzog von Kant | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Keljar | 07_Persoenlichkeiten |
+| 2026-02-14 | Geändert | Kulin Laetall | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Milbach Zobrecht | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Rhadamanth | 07_Persoenlichkeiten |
+| 2026-02-14 | Neu | Tanthul | 07_Persoenlichkeiten |
 
 ---
 > [!NOTE]

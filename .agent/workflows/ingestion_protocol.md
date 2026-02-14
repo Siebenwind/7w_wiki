@@ -13,9 +13,11 @@ Dieses Protokoll standardisiert die Erfassung **aller** Quellentypen und stellt 
 | Ordner | Quellentyp | Epistemik | Verlässlichkeit |
 |---|---|---|---|
 | `/Quellen/Hintergrund/` | Hintergrund | #canon | 🥇 Absolut |
-| `/Quellen/Zeitung 7w Bote/` | Bote | #bote | 🥈 Hoch |
+| `/Quellen/Zeitung 7w Bote/` | Periodika | #bote | 🥈 Hoch |
 | `/Quellen/Bibliothek/` | Bibliothek | #überlieferung | 🥉 Mittel |
 | `/Quellen/Spielergeschichten/` | Spielergeschichte | #perspektive | Gering |
+| `/Quellen/Forum/` | Forum | #perspektive | Gering |
+| `/Quellen/News/` | News | #news | OOC |
 
 ## Checkliste pro Quelle
 

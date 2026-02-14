@@ -18,6 +18,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Aren_Remouldo]] | Adeptus Major | [Horlafstrom-Theorie] | Historisch | #überlieferung |
 | [[Amanda_Dunkelbaum]] | Elementaristin (Novizin) | [Der Elementare Pfad] / [Eigenschaften_der_Elemente] | Historisch | #überlieferung |
 | [[Arknor]] | Adept zur Linken | [Sprache Yerredoni] | Historisch | #überlieferung |
+| [[Arlin_Sturmfels]] | Initiator der Zusammenkunft | [Linari - Artefakte] | Historisch | #überlieferung |
 | [[Anais]] | Ihre Gnaden / Inquisitorin | [Heilige Liturgien] | Historisch | #überlieferung |
 | [[Aarion]] | Graf der Wolfsmark | [Vandriens Entstehung] | Historisch | #überlieferung |
 | [[Arnhorte]] | Adliger (Wolfsmark) | [Vandriens Entstehung] | Historisch | #überlieferung |
@@ -627,5 +628,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Wolfgang_Ravinsthal]] | Adeptus / Adeptus Arkanis / Autor | [Sphärenkunde] | Historisch | #überlieferung |
 | [[Zyraghlos_cé_Vegano]] | Magister (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
 | [[Keljar]] | Student / Bannweber (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
+| [[Santanos_Alexandrius_von_Eichstatt]] | Erzmagus / Autor | [Linari - Artefakte] | Historisch | #überlieferung |
 
 

@@ -9,7 +9,8 @@ Alle signifikanten technischen und inhaltlichen Änderungen werden hier festgeha
     - **Transformation/Gems**: `Metamorphose_und_Gestaltwandel.md`, `Vjera_Batama_Magica.md`.
 - **Register**:
     - Synchronisation der Magister: `Edomawyr`, `Jennaia Lavrial`, `Nistram Rigas`, `Erynnion Comari`, `Lewyn Anacar`, `Sylest le Felyhn`.
-    - Akoluthen/Diener: `Nuir Ekre`, `Rhadan`.
+    - Manuelle Bereinigung und Deduplizierung (u.a. `Arenus`, `Tanthul`, `Nefustor`, `Amanda Dunkelbaum`).
+    - Neueinträge: `Arlin Sturmfels`, `Santanos Alexandrius von Eichstatt`.
 
 ### Geändert
 - **Wiki-Statistiken**: Dashboard aktualisiert (1027 Artikel, 546 Persönlichkeiten).

@@ -15,7 +15,7 @@ Every file must start with a YAML frontmatter block containing exactly these fie
 ---
 layout: wiki_page
 title: [Display Title]
-category: [Persönlichkeit | Geschichte | Erzählung | Geografie | Religion | Magie]
+category: [Persönlichkeit | Geschichte | Erzählung | Geografie | Religion | Magie | Forum | Periodika & Zeitzeugnisse]
 uuid: [UUID-v4]
 quelle: ../../Quellen/[Unterordner]/[Dateiname].md
 lore_trust: [0-10]
@@ -44,7 +44,8 @@ Die vier epistemischen Tags definieren die **Verlässlichkeit** einer Informatio
 | 🥇 1 | `#canon` | `/Hintergrund/` | Offizieller Kanon, Spielleiter-Festlegung | Absolut |
 | 🥈 2 | `#bote` | `/Zeitung 7w Bote/` | Redaktionelle Berichterstattung (In-World) | Hoch |
 | 🥉 3 | `#überlieferung` | `/Bibliothek/` | In-World-Literatur, Mythen, Legenden | Mittel |
-| 4 | `#perspektive` | `/Spielergeschichten/` | Subjektive Erzählung, Hörensagen | Gering |
+| 4 | `#perspektive` | `/Spielergeschichten/`, `/Forum/` | Subjektive Erzählung, Aussagen, Foren-RP | Gering |
+| 5 | `#news` | `/News/` | OOC-Ankündigungen, Tech-Updates, Shard-News | OOC |
 
 ### Entscheidungsregeln
 1. **Widerspruch `#canon` vs. `#bote`:** `#canon` gewinnt immer.
@@ -53,6 +54,7 @@ Die vier epistemischen Tags definieren die **Verlässlichkeit** einer Informatio
 
 ### Zusätzliche Meta-Tags (KEINE Verlässlichkeitsränge)
 - `#meta` — Register, Index-Dateien, Übersichtsseiten.
+- `#news` — Out-of-Character Informationen (Shard-Entwicklung).
 - `#gemischt` — Artikel mit Informationen aus mehreren Verlässlichkeitsrängen.
 - `[Synapse]` — Markiert Abschnitte im Fließtext, die Gegenstand eines aktiven oder gelösten Tickets auf dem Synapse-Board sind.
 

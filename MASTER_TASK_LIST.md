@@ -4,7 +4,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.1 (Epistemik & Ingestion 3.0 implementiert)
-- **Artikel-Anzahl:** 1027
+- **Artikel-Anzahl:** 1024
 - **Ingestion-Fortschritt:** ~85%
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
 - **Letzter Handover:** (2026-02-14) durch Antigravity
@@ -41,12 +41,12 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ---
 
-### Phase 18: Toran Dur Advanced Doctrines (Feb 2026)
+### Phase 18: Toran Dur Advanced Doctrines & Register Polish (Feb 2026)
 - **Batch 27 (Toran Dur Advanced)**: Integration of Sub-Batches 1-4.
 - **Arcane Science**: Integration of `Arkan-Metalle.md`, `Elementare_Atomlehre.md`, and `Metamorphose_und_Gestaltwandel.md`.
-- **Constructs & Servants**: New documentation on `Konstruktbau_und_Ariin.md` and `Erschaffene_Diener.md`.
 - **Combat & Counter-Magic**: Detailed articles on `Antimagie_und_Gegenzauber.md` and `Arkane_Kriegfuehrung.md`.
-- **Gemstone Magic**: Comprehensive integration of `Vjera_Batama_Magica.md` (5 Pillars of Gem Magic).
+- **Gemstone Magic**: Comprehensive integration of `Vjera_Batama_Magica.md`.
+- **Register Maintenance**: Manual deduplication and refinement of magister profiles in `Personenregister.md` (Arenus, Tanthul, Nefustor, etc.).
 
 ### Phase 17: Advanced Intelligence Infrastructure & Lore Reconstruction (Feb 2026)
 - **Orakel-Resilience**: Behebung von Permission-Issues durch Cache-Redirection und Optimierung der Boot-Sequenz.
