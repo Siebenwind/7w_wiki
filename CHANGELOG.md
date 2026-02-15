@@ -524,6 +524,8 @@
 - WikiLink Engine: Migrated from `ezlinks` to `roamlinks` (Case-Sensitivity Fix).
 - Build Workflow: Replaced problematic symlinks in `docs/` with physical sync logic in `deploy.yml`.
 - Standardized file naming for "Das Ende der Zeit der Könige" (Removed pipes).
+- Registry Polish: Consolidated `Organisationsregister` and `Personenregister` into clean, continuous table formats.
+- Research Board: Standardized current task visualization in `MASTER_TASK_LIST.md`.
 
 ## [1.11.0] - 2026-02-15
 - **Ingestion:** Verarbeitung von 5 Spielergeschichten (Batch 19).

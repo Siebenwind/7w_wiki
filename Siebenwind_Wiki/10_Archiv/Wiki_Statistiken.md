@@ -6,14 +6,14 @@ category: Index
 
 # 📊 Wiki Status
 
-**Stand:** 2026-02-15 19:32
+**Stand:** 2026-02-15 22:08
 
 ---
 
 | Metrik | Wert |
 | :--- | :--- |
-| **Artikel** | 1094 |
-| **Worte** | 181,630 |
+| **Artikel** | 1105 |
+| **Worte** | 181,674 |
 | **Personen** | 587 |
 
 ---
@@ -30,7 +30,7 @@ pie title Sektionen
     "01_Pantheon" : 50
     "04_Chronik" : 84
     "09_Bibliothek" : 29
-    "00_Fundament" : 26
+    "00_Fundament" : 37
 ```
 
 ---
@@ -42,7 +42,7 @@ Die am stärksten vernetzten Artikel.
 | :--- | :--- |
 | [[Falkensee]] | 371 |
 | [[Brandenstein]] | 337 |
-| [[Siebenwind]] | 298 |
+| [[Siebenwind]] | 301 |
 | [[Personenregister]] | 126 |
 | [[Custodias]] | 78 |
 

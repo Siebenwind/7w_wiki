@@ -17,14 +17,16 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 🟡 Priorität 2: Operative Ingestion (Inhalte)
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
 - [ ] **Lore Research Board**: Abarbeitung der offenen Ausschreibungen (Angamon, Ödland, Linari).
-- [ ] **Lore Research Board**: Abarbeitung der offenen Ausschreibungen (Angamon, Ödland, Linari).
 
 ## 🔬 Aktuelle Lore-Ausschreibungen (Research Board)
 *Detaillierte Aufträge siehe [[LORE_RESEARCH_BOARD.md]]*
-- [ ] **RESEARCH-2026-001**: Die Neun Domänen des Angamon (🔴)
-- [ ] **RESEARCH-2026-002**: Die Transformation des Ödlands (🟡)
-- [ ] **RESEARCH-2026-003**: Die Linari-Matrix (🟡)
-- [ ] **RESEARCH-2026-007**: Dossier Rhadan (Zeichnung Tares) (🔴)
+
+| ID | Thema | Priorität | Status |
+| :--- | :--- | :--- | :--- |
+| RESEARCH-2026-001 | Die Neun Domänen des Angamon | 🔴 | [ ] Offen |
+| RESEARCH-2026-002 | Die Transformation des Ödlands | 🟡 | [ ] Offen |
+| RESEARCH-2026-003 | Die Linari-Matrix | 🟡 | [ ] Offen |
+| RESEARCH-2026-007 | Dossier Rhadan (Zeichnung Tares) | 🔴 | [ ] Offen |
 
 ## 🔵 Priorität 3: Qualität & Politur (Optimierung)
 *Verbesserungen an System und Lore, die den Nutzwert steigern.*
