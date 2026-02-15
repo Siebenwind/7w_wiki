@@ -76,7 +76,6 @@ plugins:
   - search
   - ezlinks:
       wikilinks: true
-      slugify: true
       reference_type: relative
 
 markdown_extensions:
