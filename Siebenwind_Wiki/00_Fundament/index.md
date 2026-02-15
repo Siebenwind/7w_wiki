@@ -29,6 +29,8 @@ Das Archiv der Fundament.
 *   [[Personenregister|Personenregister]]
 *   [[Religion_Übersicht|Religion Übersicht]]
 *   [[Ritter_der_Sieben_Winde|Ritter der Sieben Winde]]
+*   [[Siebenwind_Bote_Index|[[Siebenwind]] Bote Index]]
 *   [[Staubbindungs_Mechanik|Die Staubbindungs-Mechanik]]
 *   [[Tare|Tare]]
+*   [[Wiki_Style_Guide|Wiki Style Guide]]
 *   [[Zeitrechnung_(Der_Sonnenzirkel)|Zeitrechnung (Der Sonnenzirkel)]]

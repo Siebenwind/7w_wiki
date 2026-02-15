@@ -61,7 +61,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Brandeis]] | Wachmann (verstorben) | [Bote 130] | ~15 n.H. | #bote |
 | [[Brand_Windfluesterer]] | Hohepriester ([[01_Ventus|Ventus]]/[[01_Enhor|Enhor]]) (†) | [[Ecclesia_Elementorum]] / [Bote 181] | 19 n.H. - † 21 n.H. | #bote |
 | [[Caeden]] | Knappe | [Bote 139] | 16 n.H. | #bote |
-| [[Chernides]] | Horwah (Vergessen) | [Bote 186] | 22 n.H. (Münze entdeckt) | #bote |
 | [[Cylia_Rosenmond]] | Reporterin / Redaktion ([[Siebenwind_Bote]]) | [Bote 186] | 22 n.H. | #bote |
 
 | [[Calin_Drakar]] | Schattenjäger / Turniersieger | [Bote 133] | 16 n.H. | #bote |
@@ -136,7 +135,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Jabin]] | Leiter der [[Communis_Medici]] / Magister / Hospizleiter | [[Falkensee]] / [Bote 161] | 18 n.H. | #bote |
 | [[Himduir_III_ap_Vjer]] | Letzter König von Galadon / Untoter Heerfüher | [Bote 188] / [Kanon] | Historisch / 29 n.H. | #canon |
 | [[Hanna_Gropp]] | Dichterin (Jung) | [Bote 186] | 22 n.H. | #bote |
-| [[Hagen_Siegfried_Kaspar]] | Sohn von [[Lucius_Gropp]] | [Bote 186] | Geboren 22 n.H. | #bote |
+| [[Hagen_Siegfried_Kaspar]] | Sohn von [[Lucius_Gropp]] | [[Gropp_Zwillinge|Bote 186]] | Geboren 22 n.H. | #bote |
 | [[Jack_the_Ripper]] | Gesuchter | [Bote 122] (FEHLERHAFT: Phantom-Eintrag) | ~15 n.H. | #bote |
 | [[Jalina]] | Ziehmutter | [Bote 123] | 15 n.H. | #bote |
 | [[Jassyria_el_Vanjath]] | Autorin | [Bote 141] | 15 n.H. | #bote |
@@ -310,7 +309,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Imea_Ekula]] | Konsula ([[Falkensee]]) | [Bote 178] | 21 n.H. | #bote |
 | [[Toran_Dur]] | Erzmagus / Edler / Gründer ([[Löwenorden]]) | [Bote 180] / [[Toran Dur]] | 17-21 n.H. | #bote |
 | [[Tantalla]] | Bürgerin (Kesselklamm) | [Erinnerungen e. a. Zwergen] | amtierend | #perspektive |
-| [[Solos_Nadeeda_Laylira]] | Tochter von [[Lucius_Gropp]] | [Bote 186] | Geboren 22 n.H. | #bote |
+| [[Solos_Nadeeda_Laylira]] | Tochter von [[Lucius_Gropp]] | [[Gropp_Zwillinge|Bote 186]] | Geboren 22 n.H. | #bote |
 | [[Eliath]] | Künstler / Verlobter von Aurora | [Bote 180] | 21 n.H. | #bote |
 | [[Taleris_Kreytz]] | Magister Emeritus (Akademie) | [Briefe aus der Ferne] | 21 n.H. | #perspektive |
 | [[Rajka_Sanseha]] | Briefpartnerin von T. Kreytz | [Briefe aus der Ferne] | 21 n.H. | #perspektive |
@@ -401,7 +400,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Decaras_Pelenus]] | Adept ([[Grauer_Pfad]]) | [Bote 189] | 29 n.H. | #bote |
 | [[Jasna]] | Bürgerin ([[Brandenstein]]) | [Bote 189] | 29 n.H. | #bote |
 | [[Lynn]] | Äbtissin ([[Ecclesia_Elementorum]]) | [Bote 189] | 29 n.H. | #bote |
-| [[Orgolosch]] | Dämon ([[Erde]]) | [Bote 189] | 29 n.H. | #bote |
 | [[Guntram_Sonnacker]] | Ex-Vizekanzler | [Bote 190] | 29 n.H. | #bote |
 | [[Gero_von_Papin]] | Durchlaucht (Papin) | [Delaries Reise] | 21 n.H. | #perspektive |
 | [[Gerrion_Arres]] | Abenteurer / Entdecker | [Bote 136] | 16 n.H. | #bote |
@@ -521,7 +519,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Ignatius_von_Mendel]] | Verräter / Ex-Hofberater | [Bote 163] | 18-19 n.H. | #bote |
 | [[Hendwig]] | Gardist (Baronsgarde) (†) | [Bote 163] | † 19 n.H. | #bote |
 | [[Hartwine_Hilamos]] | Bänkerin / Attentäterin (†) | [Bote 163] | † 19 n.H. | #bote |
-| [[Arthax_Stahlauge]] | Kregor ([[Dunquell]]) / Veteran | [Bote 193] / [Legende der Zwerge] | 30 n.H. | #bote |
+| [[Arthax_Stahlauge]] | Kregor ([[Dunquell]]) / Veteran | [[Kregor_Arthax_Stahlauge|Bote 193]] / [Legende der Zwerge] | 30 n.H. | #bote |
 | [[Minelthuya]] | Adept ([[Grauer_Pfad]]) | [Bote 193/194] | 30 n.H. | #bote |
 | [[K_endalor_Aothes]] | Hohepriester (Argionemes) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
 | [[Ziska_Himmelmann]] | Reporterin (Verräterin) | [Bote 163] | 19 n.H. | #bote |
