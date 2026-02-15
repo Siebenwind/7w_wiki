@@ -14,11 +14,11 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 
 
 | Name | Typ | Sitz | Status |
+| :--- | :--- | :--- | :--- |
 | [[Communis_Medici]] | Heilergilde | [[Falkensee]] | #bote |
 | [[Ecclesia_Elementorum]] | Religionsgemeinschaft | Inselweit | #canon |
 | [[Ring_des_Argionemes]] | Astraelitischer Geheimbund | Galadon / [[Sae]] | #perspektive |
 | [[Bruderschaft_Gofilm]] | Graumagischer Orden | Gofilm | #perspektive |
-
 | [[Handelskontore_der_Dwarschim_(H&H)]] | Handelsvertretung | [[Dwarshim]] | #canon |
 | [[Inselrat]] | Politische Verwaltung | [[Burg_Finianswacht]] | #canon |
 | [[Orden_der_Wachenden_Löwen]] | Religiöser Ritterorden | [[Falkenwall]] / [[Finianswacht]] | #canon |
@@ -37,7 +37,6 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Schwarze_Legion]] | Militärkult (Angamon) | Vandrien / Pas | #perspektive |
 | [[Oculus_Ecclesiae]] | Geheimbund d. Kirche | Inselweit / Festland | #perspektive |
 | [[Koenigliche_Kriegerakademie]] | Militärische Ausbildung | [[Seeberg]] | #bote |
-
 | [[Kuenstlerakademie]] | Kultur / Ausbildung | [[Falkensee]] | #bote |
 | [[Handwerkshaus_Falkensee]] | Zunft / Ausbildung | [[Falkensee]] | #bote |
 | [[Schattenhand]] | Unterwelt / Diebesgilde | Unbekannt | #bote |
@@ -54,7 +53,6 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Bragarim]] | Militärische Garde ([[Dwarschim]]) | [[Kesselklamm]] | #canon |
 | [[Klauenwoelfe]] | Intelligentes Wolfsvolk | Klauenberge | #perspektive |
 | [[Lafays_Stab]] | Weißmagische Schule | Galadon | #perspektive |
-
 | [[Anstalt_fuer_ozeanische_Thaumaturgie]] | Magieschule (Blau) | Swa | #perspektive |
 | [[Akademie_des_gruenen_Zweiges]] | Magieschule (Grün) | Tiefenwald | #perspektive |
 | [[Schule_der_tausend_Funken]] | Magieschule (Ignis) | Malthust | #perspektive |
