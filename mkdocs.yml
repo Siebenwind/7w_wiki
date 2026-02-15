@@ -1,7 +1,7 @@
 site_name: Siebenwind Lore Engine 2.4
 site_description: Das digitale Gedächtnis von Falandrien.
 site_author: Siebenwind Gemeinschaft
-copyright: "© 2026 Siebenwind Gemeinschaft | CC BY-NC-SA 4.0"
+copyright: "© 2026 LeCorbeau & Siebenwind Gemeinschaft | CC BY-NC-SA 4.0"
 docs_dir: docs
 site_dir: site
 
@@ -64,10 +64,10 @@ nav:
       - Siebenwind: Siebenwind_Wiki/02_Geografie/Siebenwind.md
     - 🎭 Persönlichkeiten:
       - Übersicht: Siebenwind_Wiki/07_Persoenlichkeiten/index.md
-    - 🐉 Bestiarium:
-      - Register: Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md
+    - 🐉 Bestiarium: Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md
     - ⏳ Chronik:
-      - Zeitlinie: Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md
+        - Übersicht: Siebenwind_Wiki/04_Chronik/index.md
+        - Zeitlinie: Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md
   - 🏗️ Projekt-Management:
     - 📈 Master Task List: MASTER_TASK_LIST.md
     - 📊 Wiki Statistiken: Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md
