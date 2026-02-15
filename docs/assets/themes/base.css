@@ -1,0 +1,106 @@
+/* Siebenwind Wiki theme tokens + portable base layer */
+
+:root {
+  --sw-roetel: #923a34;
+  --sw-roetel-soft: #b25a52;
+  --sw-roetel-dark: #6f2a26;
+  --sw-ink: #352f2b;
+  --sw-paper: #faf7f2;
+  --sw-soft: #efe8df;
+  --sw-border: rgba(146, 58, 52, 0.2);
+  --sw-grid: rgba(146, 58, 52, 0.08);
+  --sw-sketch: rgba(111, 42, 38, 0.14);
+}
+
+html,
+body {
+  color: var(--sw-ink);
+  background:
+    radial-gradient(circle at 15% 8%, #fffdfb 0%, var(--sw-paper) 45%, #f3ece3 100%);
+}
+
+body {
+  font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+  position: relative;
+}
+
+/* engineering sketch overlay */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    repeating-linear-gradient(0deg, transparent 0 31px, var(--sw-grid) 31px 32px),
+    repeating-linear-gradient(90deg, transparent 0 31px, var(--sw-grid) 31px 32px),
+    linear-gradient(12deg, transparent 0 47%, var(--sw-sketch) 47% 48%, transparent 48% 100%);
+  mix-blend-mode: multiply;
+  opacity: 0.35;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  color: var(--sw-roetel);
+  letter-spacing: 0.01em;
+}
+
+p,
+li,
+td,
+th,
+blockquote {
+  font-family: "Garamond", "Times New Roman", serif;
+  line-height: 1.65;
+}
+
+h2 {
+  border-top: 1px solid var(--sw-border);
+  padding-top: 0.55rem;
+}
+
+a {
+  color: var(--sw-roetel-dark);
+  text-decoration-color: rgba(146, 58, 52, 0.45);
+  text-underline-offset: 2px;
+}
+
+code,
+pre {
+  border: 1px dashed rgba(146, 58, 52, 0.28);
+  border-radius: 4px;
+}
+
+img[alt="Siebenwind Lore Engine Banner"] {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid rgba(146, 58, 52, 0.18);
+  border-bottom: 2px solid rgba(146, 58, 52, 0.45);
+  border-radius: 4px;
+  box-shadow: 0 8px 22px rgba(44, 20, 17, 0.08);
+}
+
+table {
+  border: 1px solid rgba(146, 58, 52, 0.18);
+  background: rgba(255, 252, 247, 0.72);
+}
+
+th {
+  background: rgba(146, 58, 52, 0.08);
+  border-bottom: 1px solid rgba(146, 58, 52, 0.25);
+}
+
+main,
+.md-main,
+.md-content,
+.md-content__inner {
+  position: relative;
+  z-index: 1;
+}

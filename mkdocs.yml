@@ -11,7 +11,8 @@ site_url: https://Siebenwind.github.io/7w_wiki/
 edit_uri: edit/main/docs/
 
 extra_css:
-  - assets/custom.css
+  - assets/themes/base.css
+  - assets/themes/material.css
 
 theme:
   name: material
@@ -70,14 +71,10 @@ nav:
   - 🏗️ Projekt-Management:
     - 📈 Master Task List: MASTER_TASK_LIST.md
     - 📊 Wiki Statistiken: Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md
+    - 🎨 Styling-Profil: STYLING.md
 
 plugins:
   - search
-  - roamlinks:
-      link_relative: true
-  - mermaid2:
-      arguments:
-        theme: dark
 
 markdown_extensions:
   - admonition
@@ -97,7 +94,3 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
-
-extra_css:
-  - assets/custom.css
-
