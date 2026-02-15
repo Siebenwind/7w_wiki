@@ -1,3 +1,15 @@
+## [2026-02-15.21] - Phase 20: Deep Bote Ingestion & Codex Delegation
+### Hinzugefügt
+- **Wiki-Inhalt (Chronik)**: Tiefgreifende Anreicherung der Boten-Seiten 186 bis 194.
+- **Persönlichkeiten**: Über 20 neue Profile erstellt (u.a. [[Solos_Nhergas]], [[Akassvae]], [[Helfric_von_Wallenburg]]).
+- **System**: Delegations-Prompt `System/DELEGATION_CODEX_PHASE_20.md` für den narrativen Feinschliff erstellt.
+- **Silicon Inquisition**: Forschungsbericht `INQ-2026-001_Historian_Report.md` zum Astralgeflecht.
+
+### Geändert
+- **Register**: Über 40 Einträge in `Personenregister.md` und `Organisationsregister.md` synchronisiert.
+- **Konfiguration**: `.gitignore` um Delegations-Dateien erweitert.
+- **Handover**: `MASTER_TASK_LIST.md` auf Phase 20 aktualisiert.
+
 ## [2026-02-15.20] - Production Persistence Layer (Conclusions, Ideas, Artworks, Presentations)
 ### Hinzugefügt
 - **Protokoll**: `System/PRODUCTION_PROTOCOL.md` als verbindliche Persistenzregel für erzeugte Artefakte.

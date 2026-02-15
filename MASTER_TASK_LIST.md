@@ -5,16 +5,17 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.4 (Light Sanguine Abstraction & Master Sketchbook)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Letzter Handover:** (14.02.2026) durch Antigravity (Phase 19 Abschluss)
+- **Letzter Handover:** (15.02.2026) durch Antigravity (Phase 20 Abschluss)
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
+- [ ] **Phase 20 Polish (via Codex)**: Review der narrativen Veredelung von [[Solos_Nhergas]], [[Akassvae]], [[Helfric_von_Wallenburg]] und [[Arthax_Stahlauge]].
 - [ ] **Audit (Register)**: Nach-Cleanup Check des Personenregisters (v2.4 Rendering Validierung).
-- [ ] **Ingestion Loop**: Fortsetzung der Boten-Verarbeitung (Bote 186+).
 
 ## 🟡 Priorität 2: Operative Ingestion (Inhalte)
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
+- [ ] **Lore Research Board**: Abarbeitung der offenen Ausschreibungen (Angamon, Ödland, Linari).
 - [ ] **Lore Research Board**: Abarbeitung der offenen Ausschreibungen (Angamon, Ödland, Linari).
 
 ## 🔬 Aktuelle Lore-Ausschreibungen (Research Board)
@@ -38,6 +39,13 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [ ] **Workflow: `/cleanup`**: Vollautomatisierter Bot zur kontinuierlichen Pfad-Bereinigung.
 
 ---
+
+### Phase 20: Deep Ingestion & Delegation (Feb 2026)
+- **Bote 186-194**: Vollständige Ingestion von 9 Boten-Ausgaben.
+- **Register-Sync**: Über 40 neue/aktualisierte Entitäten im Personenregister und Organisationsregister.
+- **Narrative Infrastructure**: Erstellung von Schlüsselprofilen ([[Solos_Nhergas]], [[Akassvae]], [[Helfric_von_Wallenburg]], etc.).
+- **Silicon Inquisition**: Dokumentation der Astralgeflecht-Anomalie (INQ-2026-001).
+- **Delegation**: Vorbereitung des Codex-Agents für den "Golden Polish" (Phase 20).
 
 ### Phase 19: Leonardo Sanguine & Master Sketchbook (Feb 2026)
 - **Design Pivot**: Abkehr vom Obsidian-Style hin zur "Leonardo Sanguine" Ästhetik.
