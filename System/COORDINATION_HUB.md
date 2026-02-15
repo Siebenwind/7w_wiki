@@ -38,6 +38,8 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [SILICON_INQUISITION/MANIFEST.md](Synapse_Board/SILICON_INQUISITION/MANIFEST.md)
 - [x] [INQ-2026-001_Astral_Web_Doubt.md](Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Astral_Web_Doubt.md)
 - [x] [INQ-2026-001_Historian_Report.md](Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Historian_Report.md)
+- [x] [PRODUCTION_PROTOCOL.md](PRODUCTION_PROTOCOL.md)
+- [x] [PRODUCTION_NOTE_TEMPLATE.md](Templates/PRODUCTION_NOTE_TEMPLATE.md)
 
 ---
 *Zuletzt aktualisiert: 2026-02-14T23:05:00Z | Ref: #standards_formalized*
