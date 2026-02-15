@@ -1,116 +1,96 @@
-/* Siebenwind Wiki - Light Red-Chalk Minimal (sandbox-friendly, no external font fetch) */
+/* 
+   Siebenwind Wiki 2.0 - MINIMALIST TOOL (Beige & Rötel)
+   Focus: High Contrast, Legibility, and Functional Clarity.
+*/
 
 :root {
-  --md-primary-fg-color: #923a34;
-  --md-primary-fg-color--light: #b25a52;
-  --md-primary-fg-color--dark: #6f2a26;
-  --md-accent-fg-color: #923a34;
-  --md-default-bg-color: #faf7f2;
-  --md-default-fg-color: #352f2b;
-  --sw-roetel: #923a34;
-  --sw-ink: #352f2b;
-  --sw-paper: #faf7f2;
-  --sw-soft: #efe8df;
+  --md-primary-fg-color: #722f37 !important;
+  /* Deep Rötel */
+  --md-primary-bg-color: #f5f2e9 !important;
+  /* Warm Beige / Parchment Tone */
+  --md-accent-fg-color: #722f37 !important;
 }
 
 body {
-  font-family: "Trebuchet MS", "Gill Sans", sans-serif;
-  color: var(--sw-ink);
-  background: radial-gradient(circle at 15% 8%, #fffdfb 0%, var(--sw-paper) 45%, #f3ece3 100%);
+  background-color: #f5f2e9 !important;
+  /* Enforced Beige */
+  color: #2c2420;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* subtle logo hint */
-body::before {
-  content: "";
-  position: fixed;
-  right: -40px;
-  top: 56px;
-  width: 360px;
-  height: 360px;
-  background: url("../assets/logo.png") no-repeat center/contain;
-  opacity: 0.03;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.md-main,
-.md-header,
-.md-tabs,
-.md-nav,
-.md-content {
-  position: relative;
-  z-index: 1;
-}
-
+/* HIGH CONTRAST HEADERS - No more invisible text */
 h1,
 h2,
 h3,
-h4 {
-  font-family: "Palatino Linotype", "Book Antiqua", serif;
-  color: var(--sw-roetel);
-  letter-spacing: 0.01em;
-}
-
-.md-content {
-  font-family: "Garamond", "Times New Roman", serif;
-  font-size: 1.18rem;
-  line-height: 1.7;
+h4,
+h5,
+h6 {
+  color: #4a1c1c !important;
+  /* Darkest Rötel */
+  font-weight: 700 !important;
+  margin-top: 1.5em !important;
+  margin-bottom: 0.5em !important;
 }
 
 .md-header {
-  background: rgba(250, 247, 242, 0.95) !important;
-  color: var(--sw-roetel) !important;
-  border-bottom: 1px solid rgba(146, 58, 52, 0.25);
-  backdrop-filter: blur(4px);
+  background-color: #ffffff !important;
+  color: #4a1c1c !important;
+  border-bottom: 2px solid #722f37 !important;
 }
 
-.md-tabs {
-  background: linear-gradient(180deg, #f4ede4 0%, #efe6dc 100%) !important;
-  border-bottom: 1px solid rgba(146, 58, 52, 0.15);
+.md-header__title {
+  color: #4a1c1c !important;
+  font-weight: 700;
 }
 
-.md-header__button.md-logo img {
-  height: 1.7rem;
-  opacity: 0.8;
-  filter: sepia(0.35) hue-rotate(-10deg) saturate(1.2);
+/* Navigation & Sidebar */
+.md-nav__link--active {
+  color: #722f37 !important;
+  font-weight: bold;
 }
 
-.md-nav__title,
-.md-nav__link--active,
-.md-tabs__link--active {
-  color: var(--sw-roetel) !important;
+.md-nav__link:hover {
+  color: #a63d40 !important;
+  background-color: rgba(114, 47, 55, 0.05);
 }
 
-.md-nav__link {
-  color: #5a5048 !important;
+/* Content Area - Clean White Paper effect on Beige background */
+.md-content {
+  background-color: #ffffff;
+  padding: 2em;
+  border-radius: 4px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2em;
 }
 
-/* light ornamental separators */
-.md-typeset h2 {
-  border-top: 1px solid rgba(146, 58, 52, 0.2);
-  padding-top: 0.55rem;
+/* Link Styling */
+.md-content a {
+  color: #722f37;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
+/* Banner handling */
 [data-md-component="content"] img[alt="Siebenwind Lore Engine Banner"] {
   width: 100%;
-  height: 180px;
+  max-height: 200px;
   object-fit: cover;
   object-position: center;
-  border: 1px solid rgba(146, 58, 52, 0.18);
-  border-bottom: 2px solid rgba(146, 58, 52, 0.45);
-  border-radius: 4px;
-  box-shadow: 0 8px 22px rgba(44, 20, 17, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 1em 0;
 }
 
-.md-typeset table:not([class]) {
-  border: 1px solid rgba(146, 58, 52, 0.18);
-}
-
-.md-typeset table:not([class]) th {
-  background: rgba(146, 58, 52, 0.08);
-}
-
+/* Footer Neutrality */
 .md-footer {
-  background: transparent !important;
-  color: #6c5f57;
+  background-color: transparent !important;
+  color: #666;
+  font-size: 0.8rem;
+  padding: 1em 0;
+}
+
+.md-copyright {
+  color: #4a1c1c !important;
+  font-weight: 500;
 }

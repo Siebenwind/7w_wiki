@@ -13,18 +13,16 @@ category: Index
   <a href="https://Siebenwind.github.io/7w_wiki/">
     <img src="https://img.shields.io/badge/Live-Wiki_Docs-blue?style=for-the-badge&logo=materialformkdocs" alt="Live Wiki">
   </a>
-  <a href="CHANGELOG.md">
+  <a href="../CHANGELOG.md">
     <img src="https://img.shields.io/badge/Version-Reconstruction_v2.1-orange?style=for-the-badge" alt="Version">
   </a>
 </p>
 
 ---
 
-## 🏛️ Das Vermächtnis (The Core)
+## Projekt-Hintergrund
 
-Willkommen in der **Siebenwind Lore Engine**. Dies ist ein lebendes Denkmal für über **20 Jahre kollektive Kreativität**. 
-
-Seit zwei Jahrzehnten weben Hunderte von Köpfen an diesem Teppich aus Geschichten und Schicksalen. Unsere Mission ist es, dieses Erbe – diesen Schatz menschlicher Interaktion – mit moderner Intelligenz zu bewahren und für die Zukunft sicherzustellen.
+Die Siebenwind Lore-Engine ist ein technisches Archiv zur Bewahrung und Erschließung von Rollenspiel-Dokumentationen. Der Fokus liegt auf der quellengetreuen Rekonstruktion historischer Datenbestände.
 
 ---
 
@@ -73,9 +71,9 @@ Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
 
 ---
 
-## 🤝 Mitarbeit & Vermächtnis
-Wir bewahren das Werk einer ganzen Gemeinschaft. Beteiligungen sind ausdrücklich erwünscht.
-- **Detaillierte Richtlinien:** Siehe [CONTRIBUTING.md](../CONTRIBUTING.md)
-- **Lizenzen:** Code unter [MIT](LICENSE), Inhalte unter [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+## Projekt-Metadaten
+- **Entwicklung:** LeCorbeau & Siebenwind Gemeinschaft
+- **Inhalte:** Autoren & Projekt Siebenwind
+- **Lizenzen:** Code (MIT), Inhalte (CC BY-NC-SA 4.0)
 
-*© 2026 Siebenwind Gemeinschaft | Das Gedächtnis der Welt.*
+*Stand: 2026 | LeCorbeau & Siebenwind*

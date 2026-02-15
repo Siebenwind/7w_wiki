@@ -1,73 +1,41 @@
----
-layout: wiki_page
-title: Siebenwind Wiki
-category: Index
----
+# Siebenwind Lore Engine
 
-![Siebenwind Lore Engine Banner](assets/banner.png){ .wiki-banner }
+Das zentrale Archiv der Siebenwind-Welt. Fokus auf Quellentreue, Konsistenzprüfung und semantische Vernetzung.
 
----
+## Projekt-Übersicht
 
-<p class="sw-lede">
-Ein rekonstruiertes Weltarchiv: klar strukturiert, quellenbasiert und auf Dauerbetrieb ausgelegt.
-</p>
-
-## Das Vermächtnis
-
-Willkommen in der **Siebenwind Lore Engine**. Dies ist ein lebendes Denkmal für über **20 Jahre kollektive Kreativität**.
-
-Seit zwei Jahrzehnten weben Hunderte von Köpfen an diesem Teppich aus Geschichten und Schicksalen. Unsere Mission ist es, dieses Erbe – diesen Schatz menschlicher Interaktion – mit moderner Intelligenz zu bewahren und für die Zukunft sicherzustellen.
+Dieses Wiki dient als technischer Knotenpunkt für die Rekonstruktion und Bewahrung der Siebenwind-Lore. Es konsolidiert über 20 Jahre In-Game-Geschichte, Bote-Archive und Spieler-Interaktionen in einem einheitlichen Markdown-Format.
 
 ---
 
-## System-Architektur
+## Architektur & Komponenten
 
-Das Projekt basiert auf einem kybernetischen Kreislauf der Wissensgenerierung:
-
-```mermaid
-graph TD
-    A["🗂️ Rohdaten (Archive/Bote)"] -->|Ingestion| B("🤖 Lore Extraktion")
-    B -->|Validation| C{"⚖️ Konsistenz-Audit"}
-    C -->|Kanon| D["📚 Wiki-Fundament"]
-    C -->|Widerspruch| E["🏮 Synapse Board"]
-    E -->|Entscheidung| D
-    D -->|Semantic Search| F["👁️ Das Orakel"]
-    F -->|Result| G["👤 Endnutzer / Staff"]
-```
-
----
-
-## Kernpfade
-
-| Sektion | Zweck | Dokumentation |
+| Komponente | Funktion | Dokumentation |
 | :--- | :--- | :--- |
-| **Navigation** | Der Einstieg in die Welt. | [Wiki-Startpunkt](Siebenwind_Wiki/index.md) |
-| **Setup** | Architektur des Orakels. | [Setup RAG](setup_rag.md) |
-| **Philosophie** | Grundgesetze des Systems. | [Architektur](architecture.md) |
-| **Fortschritt** | Rekonstruktions-Status. | [Master Task List](MASTER_TASK_LIST.md) |
+| **Ingestion** | Verarbeitung von Boten & Quellen | [Wiki-Inhalte](Siebenwind_Wiki/index.md) |
+| **Orakel** | Semantische RAG-Suche | [Setup RAG](setup_rag.md) |
+| **Integrity** | Konsistenz-Audit (Trias Politica) | [Architektur](architecture.md) |
+| **Status** | Aktuelle Meilensteine | [Master Task List](MASTER_TASK_LIST.md) |
 
 ---
 
-## Unified CLI: `7w_wiki.py`
+## Nutzung & CLI
 
-Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
+Die Lore-Engine wird primär über das `7w_wiki.py` Tool gesteuert:
 
 ```bash
-# Das Wissen des Orakels abfragen
-./7w_wiki.py search "Wer war Benedict Rabenfels?"
+# Suche im Lore-Bestand
+./7w_wiki.py search "Thema"
 
-# Den Konsistenz-Status prüfen
+# Audit der Register
 ./7w_wiki.py audit
-
-# Den Status des Archivars abrufen
-./7w_wiki.py advisor
 ```
 
 ---
 
-## Mitarbeit & Vermächtnis
-Wir bewahren das Werk einer ganzen Gemeinschaft. Beteiligungen sind ausdrücklich erwünscht.
-- **Detaillierte Richtlinien:** Siehe [CONTRIBUTING.md](CONTRIBUTING.md)
-- **Lizenzen:** Code unter [MIT](LICENSE.md), Inhalte unter [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+## Projekt-Metadaten
+- **Entwicklung:** LeCorbeau & Siebenwind Gemeinschaft
+- **Dokumentation:** [CHANGELOG.md](CHANGELOG.md) | [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Lizenzen:** Code (MIT), Inhalte (CC BY-NC-SA 4.0)
 
-*© 2026 Siebenwind Gemeinschaft | Das Gedächtnis der Welt.*
+*Stand: 2026 | LeCorbeau & Siebenwind*

@@ -1,29 +1,24 @@
-# Die Architektur der Verantwortung
+# System-Architektur und Prinzipien
 
-> *"Ordnung ist nicht das Fehlen von Chaos, sondern die Präsenz von Struktur."*
+Das Siebenwind Wiki ist ein strukturiertes Archivsystem zur Konsolidierung von Rollenspiel-Lore. Es kombiniert manuelle Dokumentation mit automatisierter Konsistenzprüfung.
 
-Das Siebenwind Wiki ist mehr als eine Sammlung von Textdateien. Es ist ein **Kybernetisches System**, das menschliche Kreativität mit maschineller Präzision verbindet. Dieses Dokument beschreibt die Prinzipien, nach denen wir arbeiten.
+## System-Komponenten (Trias Politica)
 
-## 1. Die Gewaltenteilung (Trias Politica)
-Um Willkür und Halluzination zu vermeiden, trennt das System strikt zwischen drei Gewalten:
+Das System ist in drei funktionale Bereiche unterteilt:
 
-### 👑 Legislative (Der Nutzer / Der Kanon)
-*Die gesetzgebende Gewalt.*
-- **Funktion:** Definiert, was "Wahrheit" ist. Nur der Nutzer kann Kanon brechen oder neu definieren.
-- **Instrumente:** `/decide` (Entscheidung), `/canon_update` (Gesetzesänderung).
-- **Verantwortung:** Strategische Führung und kreative letzte Instanz.
+### Legislative (Nutzer/Kanon)
+*Die definierende Instanz.*
+- Legt den Kanon und die Regeln der Lore-Extraktion fest.
+- Validiert widersprüchliche Quellen über das Synapse Board.
 
-### ⚖️ Judikative (Die Skripte)
-*Die rechtsprechende Gewalt.*
-- **Funktion:** Überwacht die Einhaltung der Regeln neutral und unbestechlich. Ein Skript "meint" nichts, es "prüft".
-- **Instrumente:** `advisor.py` (Status-Prüfung), `register_check.py` (Gesetzes-Treue), `/audit` (Untersuchungsausschuss).
-- **Verantwortung:** Konsistenz und technische Integrität. Meldet Verstöße, aber bestraft nicht selbstständig.
+### Judikative (Prüfskripte)
+*Die überwachende Instanz.*
+- Skriptbasierte Prüfung von Registern und Links.
+- Identifikation von Redundanzen und Fehlinterpretationen.
 
-### ⚔️ Exekutive (Der Agent / KI)
-*Die ausführende Gewalt.*
-- **Funktion:** Setzt den Willen der Legislative unter Aufsicht der Judikative um.
-- **Instrumente:** `/antigravity` (Dienst nach Vorschrift), `/repair` (Reparatur), `/wiki_process` (Verwaltung).
-- **Verantwortung:** Operative Exzellenz. Der "Beamte", der den Vorgang akribisch bearbeitet.
+### Exekutive (KI-Agenten)
+*Die ausführende Instanz.*
+- Durchführung der Datenextraktion und Dokumentenpflege nach vorgegebenen Protokollen.
 
 ---
 

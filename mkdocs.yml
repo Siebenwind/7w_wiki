@@ -1,7 +1,7 @@
 site_name: Siebenwind Lore Engine 2.4
 site_description: Das digitale Gedächtnis von Falandrien.
 site_author: Siebenwind Gemeinschaft
-copyright: "© 2026 LeCorbeau & Siebenwind Gemeinschaft | CC BY-NC-SA 4.0"
+copyright: "© 2026 LeCorbeau & Siebenwind Gemeinschaft | Inhalte: Autoren & Projekt Siebenwind"
 docs_dir: docs
 site_dir: site
 
@@ -11,8 +11,7 @@ site_url: https://Siebenwind.github.io/7w_wiki/
 edit_uri: edit/main/docs/
 
 extra_css:
-  - assets/themes/base.css
-  - assets/themes/material.css
+  - assets/custom.css
 
 theme:
   name: material
@@ -77,6 +76,9 @@ plugins:
   - search
 
 markdown_extensions:
+  - wikilinks:
+      base_url: ""
+      end_url: ""
   - admonition
   - pymdownx.details
   - pymdownx.superfences:
