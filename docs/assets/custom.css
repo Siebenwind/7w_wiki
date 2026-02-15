@@ -9,6 +9,10 @@
   --md-primary-bg-color: #f5f2e9 !important;
   /* Warm Beige / Parchment Tone */
   --md-accent-fg-color: #722f37 !important;
+
+  /* Typography overhaul */
+  --md-text-font: 'Cormorant Garamond', serif !important;
+  --md-head-font: 'Inter', sans-serif !important;
 }
 
 body {
@@ -34,9 +38,18 @@ h6 {
 }
 
 .md-header {
-  background-color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   color: #4a1c1c !important;
   border-bottom: 2px solid #722f37 !important;
+}
+
+.md-nav,
+.md-footer {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .md-header__title {
@@ -65,21 +78,39 @@ h6 {
 }
 
 /* Link Styling */
+/* Link Styling & Micro-Animations */
 .md-content a {
   color: #722f37;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.md-content a:hover {
+  color: #aa2f34 !important;
+  background-color: rgba(170, 47, 52, 0.05);
+  text-decoration-color: #aa2f34;
 }
 
 /* Banner handling */
+/* Banner handling */
 [data-md-component="content"] img[alt="Siebenwind Lore Engine Banner"] {
   width: 100%;
-  max-height: 200px;
-  object-fit: cover;
+  max-height: 250px;
+  object-fit: contain;
   object-position: center;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: none;
   margin: 1em 0;
+}
+
+/* Table readability */
+.md-typeset table:not([class]) th {
+  background-color: rgba(114, 47, 55, 0.1);
+}
+
+.md-typeset table:not([class]) tr:nth-child(2n) {
+  background-color: rgba(114, 47, 55, 0.03);
 }
 
 /* Footer Neutrality */

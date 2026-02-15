@@ -74,11 +74,10 @@ nav:
 
 plugins:
   - search
+  - ezlinks:
+      wikilinks: true
 
 markdown_extensions:
-  - wikilinks:
-      base_url: ""
-      end_url: ""
   - admonition
   - pymdownx.details
   - pymdownx.superfences:
