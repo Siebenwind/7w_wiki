@@ -1,0 +1,1 @@
+../04_Chronik/Siebenwind_Bote_Index.md

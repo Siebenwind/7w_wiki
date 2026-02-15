@@ -65,9 +65,9 @@ nav:
     - 🎭 Persönlichkeiten:
       - Übersicht: Siebenwind_Wiki/07_Persoenlichkeiten/index.md
     - 🐉 Bestiarium:
-      - Register: Siebenwind_Wiki/08_Bestiarium/Bestiarium_Register.md
+      - Register: Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md
     - ⏳ Chronik:
-      - Zeitlinie: Siebenwind_Wiki/04_Chronik/04_Chronik/Zeitleiste_(15-30_n.H.).md
+      - Zeitlinie: Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md
   - 🏗️ Projekt-Management:
     - 📈 Master Task List: MASTER_TASK_LIST.md
     - 📊 Wiki Statistiken: Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md

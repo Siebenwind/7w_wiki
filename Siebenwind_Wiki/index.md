@@ -4,7 +4,7 @@ title: Siebenwind Wiki
 category: Index
 ---
 
-![Siebenwind Lore Engine Banner](assets/banner.png){ .wiki-banner }
+![Siebenwind Lore Engine Banner](../assets/banner.png){ .wiki-banner }
 
 <p align="center">
   <a href="https://github.com/Siebenwind/7w_wiki" target="_blank">
@@ -49,10 +49,10 @@ graph TD
 
 | Sektion | Zweck | Dokumentation |
 | :--- | :--- | :--- |
-| **🧭 Navigation** | Der Einstieg in die Welt. | [Wiki-Startpunkt](Siebenwind_Wiki/index.md) |
-| **🛠️ Setup** | Architektur des Orakels. | [Setup RAG](setup_rag.md) |
-| **📜 Philosophie** | Grundgesetze des Systems. | [Architektur](architecture.md) |
-| **📈 Fortschritt** | Rekonstruktions-Status. | [Master Task List](MASTER_TASK_LIST.md) |
+| **🧭 Navigation** | Der Einstieg in die Welt. | [Wiki-Startpunkt](index.md) |
+| **🛠️ Setup** | Architektur des Orakels. | [Setup RAG](../setup_rag.md) |
+| **📜 Philosophie** | Grundgesetze des Systems. | [Architektur](../architecture.md) |
+| **📈 Fortschritt** | Rekonstruktions-Status. | [Master Task List](../MASTER_TASK_LIST.md) |
 
 ---
 
@@ -75,7 +75,7 @@ Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
 
 ## 🤝 Mitarbeit & Vermächtnis
 Wir bewahren das Werk einer ganzen Gemeinschaft. Beteiligungen sind ausdrücklich erwünscht.
-- **Detaillierte Richtlinien:** Siehe [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Detaillierte Richtlinien:** Siehe [CONTRIBUTING.md](../CONTRIBUTING.md)
 - **Lizenzen:** Code unter [MIT](LICENSE), Inhalte unter [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 *© 2026 Siebenwind Gemeinschaft | Das Gedächtnis der Welt.*
