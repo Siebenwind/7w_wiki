@@ -21,32 +21,21 @@ Dieses Department ist für die Transformation von rohem Wissen in strukturierte 
 - [ ] **Inventur-Check**: Öffne `INVENTUR_QUELLEN.md` und wähle eine `Pending` Quelle.
 - [ ] **Epistemische Klassifizierung**: Bestimme den Status (#canon, #bote, #überlieferung, #perspektive).
 
-## 2. Extraktion (Das Zwei-Pass-Verfahren)
-Um 100% Detail-Tiefe zu garantieren, ist dieses Verfahren bei jedem Text > 100 Zeilen verpflichtend:
+## 2. Durchführung (Standard-Loops)
+Dieses Department koordiniert die technische Umsetzung mittels spezialisierter Sub-Workflows.
 
-### Pass 1: Struktur-Scan
-Überfliege den Text. Identifiziere Sektionen, Zeitabschnitte und Perspektiven. Erstelle eine grobe Zusammenfassung.
+### A. Extraktion & Produktion
+Nutze den [rvw_loop.md](../../.agent/workflows/rvw_loop.md) (Standard-Prozess) für:
+- **Zwei-Pass-Verfahren**: Pflicht bei Texten > 100 Zeilen.
+- **Entity Manifest**: Vollständige Erfassung aller Entitäten.
+- **Verifizierung**: Abgleich gegen Lokal-Kanon und Orakel.
 
-### Pass 2: Detail-Scan (Entity Manifest)
-Extrahiere **jede** namentlich genannte oder implizite Entität.
-- **Personen**: Name, Titel, Amt, Kontext.
-- **Organisationen**: Gilden, Orden, militärische Einheiten.
-- **Geografie**: Städte, Gebäude, Landmarken, Distanzen.
-- **Bestiarium**: Flora, Fauna, magische Wesen.
-- **Lore-Bits**: Bräuche, Redewendungen, Gerüchte, Kleidung.
+### B. Ingestion-Checkliste
+Nutze das [ingestion_protocol.md](../../.agent/workflows/ingestion_protocol.md) zur inhaltlichen Vollständigkeitsprüfung (Gilden, Bestiarium, Gerüchteküche).
 
-## 3. Verifizierung (Kanon-Abgleich)
-1. **Lokal-Kanon**: Prüfe gegen `/Quellen/Hintergrund/`.
-2. **Web-Audit**: Nutze das **[Orakel]** (`/7w_wiki.py search`) für Ergänzungen.
-3. **Konflikt-Trigger**: Bei Widersprüchen zwingend ein Ticket auf dem **Synapse Board** anlegen.
+## 3. Synchronisation & Abschluss
+- [ ] **Register-Updates**: Synchronisation mit `Personenregister.md` etc.
+- [ ] **Archiv-Sync**: `./7w_wiki.py archive sync` ausführen.
+- [ ] **Logging**: Eintrag in `Logs/INGESTION_LOG.md`.
 
-## 4. Produktion (Wiki-Schmied)
-- [ ] **UUID & Frontmatter**: Generiere Metadaten. `report_id` ist Pflicht!
-- [ ] **Relative Pfade**: Nutze ausschließlich relative Links zu Quellen und anderen Artikeln.
-- [ ] **Roman-Qualität**: Erzeuge atmosphärische, dichte Texte ("Show, don't tell").
-
-## 5. Synchronisation
-- [ ] **Register-Updates**: Trage neue Entitäten in `Personenregister.md`, `Organisationsregister.md`, etc. ein.
-- [ ] **Chronik-Update**: Verknüpfe Ereignisse mit der globalen Zeitlinie.
-
-#ingestion #extraktion #kanon #produktion
+#ingestion #produktion #master

@@ -75,7 +75,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Dame_Rose]] | Leitung Obdachlosenheim | [Bote 131] | ~15 n.H. | #bote |
 | [[Der_Krämer]] | Bürger (Hause [[Gropp]]) | [Bote 136] | ~15 n.H. | #bote |
 | [[Divero]] | Schankknecht | [Bote 123] | ~15 n.H. | #bote |
-| [[Dur]] | Magier / Exzellenz | [[Siebenwind]] | 18 n.H. | #bote |
 | [[Ekart_Gradeg]] | Forscher / Dieb (†) | [Bote 186] | † 22 n.H. | #bote |
 | [[Eliam_Schlosser]] | Stadtwart ([[Falkensee]]) | [Bote 186] | 22 n.H. | #bote |
 | [[Eichstamm_B]] | Redakteur | [Bote 150] | 17 n.H. | #bote |
@@ -308,7 +307,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Enoha_Adorne]] | Unteroffizier ([[Malthust]]) / Sammler-Experte | [Bote 179] | 21 n.H. | #bote |
 | [[Anlohr_Flatnah]] | Hofschneider (Brandenstein) / "Lavendel-Mode" | [Bote 179] | aktiv | #bote |
 | [[Imea_Ekula]] | Konsula ([[Falkensee]]) | [Bote 178] | 21 n.H. | #bote |
-| [[Toran_Dur]] | Erzmagus / Edler / Gründer ([[Löwenorden]]) | [Bote 180] / [[Toran Dur]] | 17-21 n.H. | #bote |
+| [[Toran_Dur]] | Erzmagus / Edler / Gründer ([[Löwenorden]]) | [Bote 180] / [Bote 162] / [[Toran Dur]] | 17-33 n.H. | #bote |
 | [[Tantalla]] | Bürgerin (Kesselklamm) | [Erinnerungen e. a. Zwergen] | amtierend | #perspektive |
 | [[Solos_Nadeeda_Laylira]] | Tochter von [[Lucius_Gropp]] | [[Gropp_Zwillinge|Bote 186]] | Geboren 22 n.H. | #bote |
 | [[Eliath]] | Künstler / Verlobter von Aurora | [Bote 180] | 21 n.H. | #bote |

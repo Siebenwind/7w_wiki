@@ -89,10 +89,28 @@ def main():
     # Advisor (Default)
     subparsers.add_parser("advisor", help="Show system status and recommendations (Default)")
 
-    # Inquisition (Great Re-Ingestion)
+    # Ingestion (Silicon Inquisition)
     inq_parser = subparsers.add_parser("inquisition", help="Great Re-Ingestion of legacy sources (Silicon Inquisition)")
     inq_parser.add_argument("--batch", type=int, default=10, help="Number of sources to process in this run")
     inq_parser.add_argument("--audit-only", action="store_true", help="Only list missing reports without processing")
+
+    # QA & Sanitization
+    sanitize_parser = subparsers.add_parser("sanitize", help="Run Wiki Sanitizer (layout, H1-alignment, frontmatter)")
+    sanitize_parser.add_argument("--auto", action="store_true", help="Auto-fix violations")
+    
+    # Lore Scoring
+    score_parser = subparsers.add_parser("score", help="Calculate Lore Quality Score (LQS) for a file")
+    score_parser.add_argument("file", help="Path to the markdown file")
+
+    # Translation
+    trans_parser = subparsers.add_parser("translate", help="Translate Falandric texts or manage dictionaries")
+    trans_parser.add_argument("args", nargs=argparse.REMAINDER, help="Arguments for translator.py")
+
+    # Watcher
+    subparsers.add_parser("watch", help="Start the live watcher for real-time indexing")
+
+    # QA & Style Check (Lektor)
+    subparsers.add_parser("check", help="Run professional style and grammar check (Lektor)")
 
     # Archive Management
     archive_parser = subparsers.add_parser("archive", help="Manage Wiki Archive (Symlinks, Research Board)")
@@ -161,6 +179,24 @@ def main():
         if args.audit_only:
             inq_args.append("--audit-only")
         run_script(".agent/scripts/inquisition.py", inq_args)
+
+    elif args.command == "sanitize":
+        sanitize_args = []
+        if args.auto:
+            sanitize_args.append("--auto")
+        run_script(".agent/scripts/wiki_sanitizer.py", sanitize_args)
+
+    elif args.command == "score":
+        run_script(".agent/scripts/lore_score_manager.py", [args.file])
+
+    elif args.command == "translate":
+        run_script(".agent/scripts/translator.py", args.args)
+
+    elif args.command == "watch":
+        run_script(".agent/scripts/watcher.py")
+
+    elif args.command == "check":
+        run_script(".agent/skills/lektor/style_checker.py")
 
     elif args.command == "archive":
         if args.archive_cmd == "sync":

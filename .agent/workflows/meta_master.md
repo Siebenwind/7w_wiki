@@ -10,6 +10,7 @@ Dieses Department regelt den Agenten-Alltag, die Dokumentation und den Wissenstr
 - runtime_commands:
   - `7w_wiki.py start`
   - `7w_wiki.py stats`
+  - `7w_wiki.py archive sync`
   - `7w_wiki.py mail post --to ALL ...`
 - method_only:
   - `/meta_master`

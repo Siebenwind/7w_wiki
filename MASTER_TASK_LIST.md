@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CI-Ready)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-15 22:00 (Antigravity -> User)
-- **Status**: WikiLink Engine stabilisiert (Phase 1.12), Physischer Sync implementiert, System-Integrität codifiziert.
+- **Last Handover**: 2026-02-15 23:45 (Antigravity -> User)
+- **Status**: Gilden-Struktur & Dur-Identität erforscht; Wiki v2.7 Ingestion läuft.
 
 ---
 
@@ -23,10 +23,10 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 | ID | Thema | Priorität | Status |
 | :--- | :--- | :--- | :--- |
-| RESEARCH-2026-001 | Die Neun Domänen des Angamon | 🔴 | [ ] Offen |
-| RESEARCH-2026-002 | Die Transformation des Ödlands | 🟡 | [ ] Offen |
-| RESEARCH-2026-003 | Die Linari-Matrix | 🟡 | [ ] Offen |
-| RESEARCH-2026-007 | Dossier Rhadan (Zeichnung Tares) | 🔴 | [ ] Offen |
+| [[RESEARCH-2026-001]] | Die Neun Domänen des Angamon | 🔴 | [ ] Offen |
+| [[RESEARCH-2026-002]] | Die Transformation des Ödlands | 🟡 | [ ] Offen |
+| [[RESEARCH-2026-003]] | Die Linari-Matrix | 🟡 | [ ] Offen |
+| [[RESEARCH-2026-007]] | Dossier Rhadan (Zeichnung Tares) | 🔴 | [ ] Offen |
 
 ## 🔵 Priorität 3: Qualität & Politur (Optimierung)
 *Verbesserungen an System und Lore, die den Nutzwert steigern.*
@@ -42,6 +42,11 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [ ] **Workflow: `/cleanup`**: Vollautomatisierter Bot zur kontinuierlichen Pfad-Bereinigung.
 
 ---
+
+### Phase 1.12: Lore Research & Profile Merger (Feb 2026)
+- **Gilden Research**: RESEARCH-2026-009 abgeschlossen. Artikel [[Gilden_und_Handwerk]] erstellt.
+- **Dur Identity**: RESEARCH-2026-008 abgeschlossen. Shorthand "Dur" als Toran Dur identifiziert und Profile konsolidiert.
+- **System Health**: Audit-Lauf bestätigt 0 Fehler. Wiki-Statistiken aktualisiert.
 
 ### Phase 1.11: CI/CD Reliability & Success (Feb 2026)
 - **Build-Success**: Behebung von Pipeline-Fehlern durch Plugin-Cleanup und Dependency-Fixes.

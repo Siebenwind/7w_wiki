@@ -15,19 +15,15 @@ Dieser Workflow fokussiert sich auf die systematische Abarbeitung von Forschungs
 - [ ] Erstelle ein Arbeitsticket basierend auf `_TEMPLATE_RESEARCH.md`.
 - [ ] Claimer: Setze deinen Namen und das aktuelle Datum.
 
-## 3. Vertiefte Forschung (Historian Mode)
-- [ ] Wechsle in den **Historiker-Modus**:
-    - Nutze `./7w_wiki.py search "[Thema]" --source all --top 50`.
-    - Durchsuche `/Quellen/Hintergrund/` manuell nach Axiomen.
-    - Befrage das **Orakel** zu Kausalzusammenhängen.
+## 3. Vertiefte Forschung (Analyse)
+Die Analyse der Quellen und die Klärung von Kausalitäten folgen dem Historiker-Protokoll.
 
-## 4. Dokumentation der Erkenntnisse
+> [!TIP]
+> Sie see [historian.md](../../.agent/workflows/historian.md) für die methodische Vorgehensweise bei komplexen Lore-Fragen.
+
+## 4. Dokumentation & Wiki-Transfer
 - [ ] Erstelle einen Forschungsbericht unter `Logs/Research/[ID]_[Thema].md`.
-- [ ] Fasse die Quellenlage zusammen: Was ist gesichert (#canon), was ist Gerücht (#überlieferung)?
+- [ ] Überführe die Erkenntnisse ins Wiki gemäß **Wiki-Schmied** Standard.
+- [ ] Setze das Board-Ticket auf `COMPLETED`.
 
-## 5. Transfer ins Wiki
-- [ ] Überführe die Erkenntnisse in bestehende oder neue Wiki-Artikel.
-- [ ] Nutze den **Wiki-Schmied** Standard (UUID, Frontmatter, relative Links).
-- [ ] Setze das Board-Ticket auf `COMPLETED` und verlinke den Wikipedia-Artikel / Forschungsbericht.
-
-#recherche #forscher #historik #board #wissen
+#recherche #forscher #historik #board

@@ -64,10 +64,13 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 
 
 ## Handwerks- und Handelsgilden
-*Noch im Aufbau / Ingestion läuft*
-- **[[Gilde_der_Feinschmiede]]:** (dw.: *Angar-Gôm*) Zentrales Handwerk für Metallveredelung.
-- **[[Hafengilde_Brandenstein]]:** Verwaltung der Docks und des Handels in [[Brandenstein]].
-- **Die Redaktion:** Herausgeber des [[[Siebenwind]] Bote](Siebenwind_Bote_Index.md).
+*Siehe Hauptartikel: [[Gilden_und_Handwerk]]*
+
+- **[[Gilde_der_Feinschmiede]]:** (dw.: *Angar-Gôm*) Zentrales Handwerk für Metallveredelung. #bote
+- **[[Hafengilde_Brandenstein]]:** Verwaltung der Docks und des Handels in [[Brandenstein]]. #bote
+- **[[Kaufmannsgilde]]:** Global agierende Wirtschaftsgilde. #bote
+- **[[Handwerkshaus_Falkensee]]:** Zentrale Ausbildungs- und Zunftstätte in der Hauptstadt. #bote
+- **Die Redaktion:** Herausgeber des [[[Siebenwind]] Bote](Siebenwind_Bote_Index.md). #canon
 
 ## Politische Gremien
 - **[[Der_Große_Rat]]**: Oberstes Entscheidungsgremium der Allianz.

@@ -19,70 +19,32 @@ Dieses Protokoll standardisiert die Erfassung **aller** Quellentypen und stellt 
 | `/Quellen/Forum/` | Forum | #perspektive | Gering |
 | `/Quellen/News/` | News | #news | OOC |
 
-## Checkliste pro Quelle
+## 2. Der Prozess (Technische Standards)
+Die technische Durchführung der Ingestion folgt strikt dem **Read-Verify-Write Loop**.
 
-### 1. Metadaten-Scan
-- [ ] Datum (Sonnenzirkel) erfassen (falls vorhanden)
-- [ ] Ausgabe-Nummer / Titel
-- [ ] Epistemischer Status bestimmen (siehe Tabelle oben)
-- [ ] **Lore Trust Score**: Vorläufigen Score (0-10) vergeben (siehe [Score Guide](../../System/Synapse_Board/CORE_LORE_SCORE_GUIDE.md))
+> [!TIP]
+> Siehe [rvw_loop.md](../../.agent/workflows/rvw_loop.md) für detaillierte Instruktionen zum Zwei-Pass-Verfahren und zur Wiki-Produktion.
 
-### 2. Entitäts-Extraktion (Vollständig)
-- [ ] **Hauptakteure**: Alle namentlich genannten Personen mit Titel/Amt/Funktion
-- [ ] **Nebenfiguren**: Personen in Nebensätzen, Leserbriefen, Dialogen
-- [ ] **Autoren/Erzähler**: Redakteure, Gastautoren, Ich-Erzähler
-- [ ] **Erwähnte (nicht anwesende) Personen**: "Man sagte, dass König X..."
+## 3. Entitäts-Schema (Was muss erfasst werden?)
+Stelle bei jeder Quelle sicher, dass folgende Dimensionen geprüft werden:
 
-### 3. Organisations-Scan
-- [ ] Politische Gruppen (Räte, Bünde, Adelsverbände)
-- [ ] Gilden & Zünfte (auch lokale wie "Handwerkshaus Falkensee")
-- [ ] Militärische Einheiten (Garden, Regimenter, Wachen, Bataillone)
-- [ ] Religiöse Gruppen (Orden, Kulte, Tempelgemeinschaften)
-- [ ] Informelle Gruppen (Banden, Netzwerke, "die Rebellen")
-- [ ] Akademische Institutionen (Akademien, Schulen, Lehrstühle)
+### A. Personen & Organisationen
+- [ ] **Haupt- & Nebenakteure**: Namentliche Erwähnung inkl. Titel/Amt.
+- [ ] **Gruppierungen**: Gilden, Orden, militärische Einheiten, Kulte.
 
-### 4. Bestiarium-Scan
-- [ ] Namentlich genannte Kreaturen (z.B. "Riesenspinne")
-- [ ] Vage Beschreibungen (z.B. "Schattenwesen", "Ungeheuer")
-- [ ] Flora & Fauna (z.B. "Moorläuferin") → Abgleich mit Bestiarium-Register
-- [ ] Haustiere & Reittiere (z.B. "Krümel die Katze")
+### B. Geografie & Bestiarium
+- [ ] **Orte**: Städte, Gebäude, Landmarken, Distanzen.
+- [ ] **Kreaturen**: Flora & Fauna basierend auf Beschreibungen oder Namen.
 
-### 5. Geografie & Orte
-- [ ] Genannte Orte (Städte, Gebäude, Landmarken)
-- [ ] Neue Orte (z.B. "Tanzender Drache (Taverne, neu)") erfassen
-- [ ] Geographische Relationen (z.B. "Ravel grenzt an Khalandra")
-- [ ] Festungen, Türme, Brücken, Pässe (militärische Infrastruktur)
+### C. Lore & Atmosphäre (Roman-Qualität)
+- [ ] **Gerüchte**: Als Listenpunkte für das Personenprofil erfassen.
+- [ ] **Motivationen**: Warum handeln die Akteure so? (Basierend auf Kontext).
 
-### 6. Flavor-Scan (Atmosphäre & Lore)
-- [ ] **Gerüchteküche**: Jedes Gerücht als Listenpunkt erfassen
-- [ ] **Kleinanzeigen**: Relevante Dienstleister oder kuriose Angebote
-- [ ] **Gedichte/Lyrik**: Kurz erwähnen oder Volltext bei Relevanz
-- [ ] **Alltags-Lore**: Handwerke, Berufe, Alltagsgegenstände, Bräuche
-- [ ] **Redewendungen / Slang**: Sprachliche Besonderheiten
+## 4. Output & Synchronisation
 
-### 7. Spielergeschichte-Spezifika (nur bei Quellentyp: Spielergeschichte)
-- [ ] **Erzähler-Perspektive**: Wer erzählt? (Ich-Erzähler = #perspektive)
-- [ ] **Soziales Netz**: Welche Beziehungen zwischen Personen werden beschrieben?
-- [ ] **Charakter-Entwicklung**: Welche Veränderungen durchlaufen die Figuren?
-- [ ] **Fiktive vs. kanonische Elemente**: Was ist Spieler-Erfindung, was Lore?
+1.  **Ingestion Report**: Basierend auf `System/Templates/INGESTION_REPORT_TEMPLATE.md`. Speichern unter `Logs/Ingestion/`.
+2.  **Wiki-Produktion**: Standard-Format gemäß [Wiki Style Guide](../../.agent/workflows/wiki_style_guide.md).
+3.  **Archiv-Sync**: Stets `./7w archive sync` ausführen.
+4.  **Register-Update**: `Personenregister.md`, `Organisationsregister.md`, `Bestiarium_Register.md`.
 
-## Output-Erstellung
-
-1.  **Ingestion Report [PFLICHT]**:
-    *   Erstelle für jede Quelle ein Protokoll basierend auf `System/Templates/INGESTION_REPORT_TEMPLATE.md`.
-    *   Speichere den Report unter `Logs/Ingestion/[ISO-DATE]_[QUELLE].md`.
-    *   Berechne den **Lore Quality Score (LQS)** gewissenhaft.
-2.  **Wiki-Einträge**: Erstellung fehlender Dateien in den zuständigen Ordnern.
-    *   **PFLICHT**: Verlinke die `report_id` im Frontmatter jedes neuen/aktualisierten Artikels.
-3.  **Archiv-Synchronisation**: Führe `./7w archive sync` aus, um den neuen Report im Wiki-Archiv sichtbar zu machen.
-4.  **Register-Update**: Nutzung von `multi_replace_file_content` für:
-    - `Personenregister.md`
-    - `Organisationsregister.md`
-    - `Bestiarium_Register.md`
-4.  **Truth-Sync**: Bei gravierenden Widersprüchen (LQS-Konsistenz < 2) zwingende Eskalation via Synapse Board.
-
-## Qualitätssicherung
-- [ ] Wurde der **LQS** ehrlich vergeben?
-- [ ] Wurden "Tote" (†) markiert?
-- [ ] Wurde die `report_id` bi-direktional verknüpft?
-- [ ] Wurde das Entity Manifest vollständig abgearbeitet?
+#ingestion #protokoll #qualität

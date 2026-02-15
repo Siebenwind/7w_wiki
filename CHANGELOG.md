@@ -1,3 +1,27 @@
+## [2026-02-15.30] - Phase 1.13: Archiv-Deep-Integration & Research Board
+### Hinzugefügt
+- **Archiv-Integration**: Systemweite Verknüpfung von Ingestion Reports in das Wiki-Archiv (`docs/Archiv/Ingestion_Reports`).
+- **Research Board Expansion**: Neuer Forschungsauftrag [[RESEARCH-2026-008]] (Die Dur-Identität).
+- **Research Board Expansion**: Neuer Forschungsauftrag [[RESEARCH-2026-009]] (Gilden-Struktur & Handwerkstraditionen).
+- **Automatisierung**: `7w archive sync` zur automatisierten Wartung der Archiv-Symlinks.
+- **Skill-Evolution**: `Wiki-Schmied` integriert nun automatisch Prüfbericht-Referenzen (`[!ABSTRACT]`).
+
+### Geändert
+- **Navigation**: `mkdocs.yml` um den zentralen Bereich `📚 Das Archiv` erweitert.
+- **Workflows**: `ingestion_protocol` um den Synchronisationsschritt ergänzt.
+
+## [2026-02-16.29] - Phase 1.12: Silicon Inquisition Batch 1 & Archive Sync
+### Hinzugefügt
+- **Silicon Inquisition**: Batch 1 vollständig abgeschlossen (10/10 Quellen).
+- **Archive Sync**: Neuer Befehl `./7w_wiki.py archive sync` zur automatischen Synchronisation von Ingestion Reports und Research Board in das `docs/Archiv` Verzeichnis (via Symlinks).
+- **Metadaten v2.7**: Einführung des v2.7 Standards für alle verarbeiteten Batch-1 Quellen (UUID, `report_id`, ISO-8601 Timestamps).
+
+### Geändert
+- **Magietheorie**: Härtung der Kern-Theorien (Fila-Modell, Horlaf-Theorie) durch Re-Ingestion von Asanra, Remouldo und Anonymus.
+- **Kirchenrecht**: Vollständige Integration des `Codex Iuris Canonici`.
+- **Redundanz**: Konsolidierung von `Briefe aus der Ferne` (Zusammenführung doppelter Artikel).
+- **CLI**: `7w_wiki.py` um das Subcommand `archive` erweitert.
+
 ## [2026-02-15.28] - Phase 1.11: CI/CD Reliability & Success
 ### Hinzugefügt
 - **Headers**: `docs/_headers` Datei zur Deaktivierung des CDN-Caches implementiert.
@@ -519,6 +543,20 @@
 ### Added
 - `System/SYSTEM_INTEGRITY.md`: Codification of directory structures and safety rules.
 - Redirection Stubs: `Hochelfen.md`, `Löwenorden.md`, etc. to fix WikiLink aliases.
+
+## [Phase 1.6] - 2026-02-15
+### Hinzugefügt
+- Forschungsbericht RESEARCH-2026-008 (Die Dur-Identität) erstellt.
+- Forschungsbericht RESEARCH-2026-009 (Gilden-Struktur & Handwerk) erstellt.
+- Hauptartikel [[Gilden_und_Handwerk]] zum Wiki hinzugefügt.
+
+### Geändert
+- [[Toran_Dur]] mit Informationen aus Bote 162 und dem redundanten Dur-Profil konsolidiert.
+- [[Organisationsregister]] und [[Personenregister]] aktualisiert.
+- MASTER_TASK_LIST.md und Research Board synchronisiert.
+
+### Entfernt
+- Redundantes Profil `07_Persoenlichkeiten/Dur.md` gelöscht.
 
 ### Changed
 - WikiLink Engine: Migrated from `ezlinks` to `roamlinks` (Case-Sensitivity Fix).

@@ -16,24 +16,20 @@ Dieses Department klärt komplexe Lore-Widersprüche und veredelt Artikel narrat
   - `/narrative_enrichment`
   - `/translate`
 
-## 1. Auftragsklärung (Research Board)
-- [ ] Öffne `LORE_RESEARCH_BOARD.md`.
-- [ ] Wähle eine `TENDERED` Aufgabe und setze sie auf `CLAIMED`.
+## 2. Durchführung (Analyse & Veredelung)
+Dieses Department nutzt spezialisierte Methoden zur Klärung von Lore-Fragen.
 
-## 2. Recherche (Das Orakel)
-- [ ] Nutze `./7w_wiki.py search` mit dem Flag `--source all`.
-- [ ] Aggregiere Informationen aus unterschiedlichen Epochen und Perspektiven.
+### A. Lore-Analyse
+Nutze den [historian.md](../../.agent/workflows/historian.md) (Standard-Analyse) für:
+- **Rekonstruktion**: Kausalitäten und zeitliche Abfolgen.
+- **Wahrheitsmodell**: Epistemische Einordnung (#canon vs #bote).
+- **Gutachten**: Erstellung der finalen historischen Einordnung.
 
-## 3. Synthese & Analyse
-- [ ] Rekonstruiere Kausalitäten. Warum geschah Ereignis X?
-- [ ] **Linguistik-Check**: Prüfe falandrische Begriffe und Fragmente.
+### B. Narrative Veredelung
+Nutze [narrative_enrichment.md](../../.agent/workflows/narrative_enrichment.md) zur Aufwertung von Fakt-Artikeln auf **Novel Quality**.
 
-## 4. Veredelung (Novel Quality)
-- [ ] Schreibe Artikel um, um mehr "Tiefe" und Atmosphäre zu erreichen.
-- [ ] Füge sensorische Details hinzu, die im Roh-Text fehlen (Gerüche, Stimmungen, Klänge).
+## 3. Projektabschluss
+- [ ] Überführung der Erkenntnisse ins Wiki.
+- [ ] Schließen des Forschungstickets (CLAIMED -> COMPLETED).
 
-## 5. Resultat
-- [ ] Erstelle ein **Historiker-Gutachten** (kursiv am Ende des Artikels).
-- [ ] Schließe das Synapse-Ticket mit einer Zusammenfassung der Erkenntnisse.
-
-#lore #forschung #geschichte #narrativ
+#lore #forschung #geschichte #master
