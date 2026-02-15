@@ -74,7 +74,8 @@ Dieses Protokoll standardisiert die Erfassung **aller** Quellentypen und stellt 
     *   Berechne den **Lore Quality Score (LQS)** gewissenhaft.
 2.  **Wiki-Einträge**: Erstellung fehlender Dateien in den zuständigen Ordnern.
     *   **PFLICHT**: Verlinke die `report_id` im Frontmatter jedes neuen/aktualisierten Artikels.
-3.  **Register-Update**: Nutzung von `multi_replace_file_content` für:
+3.  **Archiv-Synchronisation**: Führe `./7w archive sync` aus, um den neuen Report im Wiki-Archiv sichtbar zu machen.
+4.  **Register-Update**: Nutzung von `multi_replace_file_content` für:
     - `Personenregister.md`
     - `Organisationsregister.md`
     - `Bestiarium_Register.md`

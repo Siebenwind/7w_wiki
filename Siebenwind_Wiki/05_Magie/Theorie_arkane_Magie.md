@@ -1,9 +1,10 @@
----
 layout: wiki_page
 title: "Theorie zur arkanen Magie"
 category: Magie
 status: integrated
-quelle: "/Quellen/Bibliothek Toran Dur/Anonymous - Theorie zur arkanen Magie.md"
+uuid: T1234567-B2C3-4D5E-8F9A-0A1B2C3D4E5F
+report_id: c4d5e6f7-a8b9-0d1e-2f3a-4b5c6d7e8f9a
+letzter_check: 2026-02-15T23:35:00+01:00
 author: "Anonymus"
 ---
 

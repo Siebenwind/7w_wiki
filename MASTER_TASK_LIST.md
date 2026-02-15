@@ -11,8 +11,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
+- [ ] **Silicon Inquisition**: Große Neueinlesung (v2.7 Migration) aller ~190 integrierten Quellen.
 - [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - *Delegiert an Ingestor*.
-- [ ] **Technical Maintenance**: Periodischer Check der Link-Integrität nach Plugin-Migration.
 
 ## 🟡 Priorität 2: Operative Ingestion (Inhalte)
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
@@ -102,6 +102,9 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **System-Härtung**: Art Director Skill installiert; CLI zum `7w_wiki.py` Standard vereinheitlicht.
 
 ### Phase 18: Toran Dur Advanced Doctrines & Register Polish (Feb 2026)
+- [x] Pilot Batch (5/5)
+    - [x] Batch 1 (10/10)
+    - [ ] Batch 2 (0/10)
 - **Batch 27 (Toran Dur Advanced)**: Integration of Sub-Batches 1-4.
 - **Arcane Science**: Integration of `Arkan-Metalle.md`, `Elementare_Atomlehre.md`, and `Metamorphose_und_Gestaltwandel.md`.
 - **Combat & Counter-Magic**: Detailed articles on `Antimagie_und_Gegenzauber.md` and `Arkane_Kriegfuehrung.md`.
@@ -167,7 +170,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ### Infrastruktur & Tools (Jan/Feb 2026)
 - **Das Orakel**: Einführung der semantischen Suche (RAG) auf Basis von Jina v3.
-- **Automatisierung**: Scripts für Statistiken, Link-Weben und Hardware-Tuning.
+- **Automatisierung**: Scripts für Statistiken, Link-Weben, Silicon Inquisition (`7w inquisition`) und Hardware-Tuning.
 
 ---
 *Zuletzt aktualisiert: 14.02.2026 durch Antigravity (Handover Phase 19)*

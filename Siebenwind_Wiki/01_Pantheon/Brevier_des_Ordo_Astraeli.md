@@ -3,11 +3,12 @@ layout: wiki_page
 uuid: 6c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f
 title: Brevier des Ordo Astraeli
 category: Religion
-status: Legende
-quelle: ../../Quellen/Bibliothek Astrael/Brevier des Ordo Astraeli.md
-lore_trust: 3
+status: integrated
+quelle: "../../Quellen/Bibliothek Astrael/Brevier des Ordo Astraeli.md"
+lore_trust: 9
 confidence: Certain
-report_id: BATCH-TEST-2026-02-13
+report_id: a2b3c4d5-e6f7-4a1b-2c3d-4e5f6a7b8c9d
+letzter_check: 2026-02-15T23:55:00+01:00
 ---
 
 # Brevier des Ordo Astraeli

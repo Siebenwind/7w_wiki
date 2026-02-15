@@ -24,6 +24,7 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Orden_der_Wachenden_Löwen]] | Religiöser Ritterorden | [[Falkenwall]] / [[Finianswacht]] | #canon |
 | [[Siebenwind_Kronregiment]] | Armee der Krone | [[Burg_Finianswacht]] | #canon |
 | [[Ventusreiter]] | Berittene Post / Miliz | [[Falkensee]] | #bote |
+| [[Die_arkane_Gesellschaft]] | Magische Vereinigung (Pfade) | Galadon | #überlieferung |
 | [[Zirkel_der_Magie]] | Magische Vereinigung | Akademie | #bote |
 | [[Koenigliche_Akademie_der_Arkanen_Kuenste]] | Magische Ausbildung | [[Falkensee]] / [[Südfall]] | #canon |
 | [[Custos_artis_Magicae]] | Magischer Rat / Gelehrtengesellschaft | Akademie | #überlieferung |

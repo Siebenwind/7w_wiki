@@ -67,7 +67,10 @@ nav:
     - ⏳ Chronik:
         - Übersicht: Siebenwind_Wiki/04_Chronik/index.md
         - Zeitlinie: Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md
-  - 🏗️ Projekt-Management:
+    - 🏗️ Projekt-Management:
+    - 📚 Das Archiv:
+      - 📋 Research Board: Archiv/Research_Board.md
+      - 🔬 Ingestion Reports: Archiv/Ingestion_Reports/index.md
     - 📈 Master Task List: MASTER_TASK_LIST.md
     - 📊 Wiki Statistiken: Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md
     - 🎨 Styling-Profil: STYLING.md

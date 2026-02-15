@@ -1,9 +1,10 @@
----
 layout: wiki_page
 title: "Der Elementare Pfad"
 category: Magie
 status: integrated
-quelle: "/Quellen/Bibliothek Toran Dur/Amanda Dunkelbaum - Der Elementare Pfad.md"
+uuid: E1234567-B2C3-4D5E-8F9A-0A1B2C3D4E5F
+report_id: a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d
+letzter_check: 2026-02-15T23:25:00+01:00
 author: "Amanda Dunkelbaum"
 ---
 

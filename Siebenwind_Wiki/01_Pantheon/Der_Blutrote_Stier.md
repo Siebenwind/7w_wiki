@@ -1,14 +1,28 @@
 ---
-layout: post
+layout: wiki_page
 title: "Der Blutrote Stier"
-category: Pantheon
-status: Integrated
-quelle: "Bibliothek Astrael"
+category: Religion
+status: integrated
+uuid: b1u1r0-t3-s713r-2026
+report_id: i0j1k2l3-m4n5-6o7p-8q9r-0s1t2u3v4w5x
+letzter_check: 2026-02-16T00:10:00+01:00
 ---
 
 # Der Blutrote Stier
 **Eine Mär der Su'un**  
 **Tai Sah'Halour - Glurias**
+
+**Epistemischer Status:** #überlieferung (Legendensammlung)
+
+Die Erzählung vom **Blutroten Stier** ist eine moralische Sage der Nordmänner ([[Su-un]]), die vor habgierigen Wünschen und den Schrecken des Krieges warnt.
+
+## Die Legende
+Zwei Herrscher im Norden (hinter den Skapen) führten einen achtjährigen Krieg um die Vorherrschaft. Ein verzweifelter König wünschte sich von einem "bunten Fremden", dass sein Wappentier, der rote Stier, über beide Reiche herrschen und in den Schädeln seiner Feinde waten solle.
+
+Der Wunsch wurde auf grausame Weise erfüllt: Ein monströses, aufgedunsenes Wesen aus Fleisch und Blut ("Der Rote Stier") erschien und vernichtete innerhalb von 99 Tagen alles Leben in beiden Reichen. Schließlich verschlang die Bestie auch den König selbst.
+
+## Lore-Bedeutung
+Die Geschichte dient als warnendes Beispiel gegenüber der Anrufung unbekannter Mächte und illustriert das tragische Schicksal der Su'un-Völker vor ihrer Einigung. Der "bunte Fremde" weist Ähnlichkeiten mit Trickster-Gottheiten oder dämonischen Verführern auf.
 
 ---
 

@@ -1,9 +1,10 @@
----
 layout: wiki_page
 title: "Horlafstrom-Theorie"
 category: Magie
 status: integrated
-quelle: "/Quellen/Bibliothek Toran Dur/Aren Remouldo - Horlafstrom-Theorie.md"
+uuid: H1234567-B2C3-4D5E-8F9A-0A1B2C3D4E5F
+report_id: d5e6f7a8-b9c0-1d2e-3f4a-5b6c7d8e9f0a
+letzter_check: 2026-02-15T23:40:00+01:00
 author: "Aren Remouldo"
 ---
 

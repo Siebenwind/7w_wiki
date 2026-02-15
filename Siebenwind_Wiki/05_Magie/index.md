@@ -10,6 +10,7 @@ Das Archiv der Magie.
 
 ### Artikel
 *   [[Alchemie_Kompendium|Alchemie Kompendium]]
+*   [[Die_arkane_Gesellschaft|Die arkane Gesellschaft (Ita'Im'Elarum)]]
 *   [[Antimagie|Antimagie (Magica Contraria)]]
 *   [[Antimagie_und_Gegenzauber|Antimagie und Gegenzauber]]
 *   [[Arcana_Procella|Arcana Procella (Die arkanen Wellen)]]

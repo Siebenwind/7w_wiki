@@ -1,9 +1,10 @@
 ---
 layout: wiki_page
 title: Aus dem Leben eines Schwarzmagiers
-category: Bibliothek
-tags: [Erzählung, Bellum, Angamon, Nekromantie, Horror]
-status: #perspektive
+castatus: integrated
+tags: [Felix Goldschein, Bellum, Angamon, Schwarzmagie, Kanalisation, Malakor]
+report_id: e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b
+letzter_check: 2026-02-15T23:45:00+01:00
 ---
 
 # Aus dem Leben eines Schwarzmagiers

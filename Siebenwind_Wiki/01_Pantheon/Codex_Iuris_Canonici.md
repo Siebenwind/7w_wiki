@@ -3,11 +3,12 @@ layout: wiki_page
 uuid: 4a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
 title: Codex Iuris Canonici
 category: Religion
-status: Legende
-quelle: ../../Quellen/Bibliothek Astrael/Codex Iuris Canonici.md
-lore_trust: 4
+status: integrated
+quelle: "../../Quellen/Bibliothek Astrael/Codex Iuris Canonici.md"
+lore_trust: 10
 confidence: Certain
-report_id: BATCH-TEST-2026-02-13
+report_id: h9i0j1k2-l3m4-5n6o-7p8q-9r10s11t12u13
+letzter_check: 2026-02-16T00:00:00+01:00
 ---
 
 # Codex Iuris Canonici

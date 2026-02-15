@@ -2,13 +2,16 @@
 layout: wiki_page
 title: Abschied und Verrat
 category: Bibliothek
-tags: [Erzählung, Brandenstein, Saalhorn, Krieg]
-status: #perspektive
+status: integrated
+tags: [Brandenstein, Robaar von Saalhorn, Ritterorden, Saalhorn, Falkensee, Seeberg, Falandrien]
+uuid: a1234567-a916-48b3-9a30-8de6fbc712da
+report_id: f432a1b1-6c7d-4e8a-8d2b-1c3a4b5d6e7f
+letzter_check: 2026-02-15T22:58:00+01:00
 ---
 
 # Abschied und Verrat
 
-**Epistemischer Status:** #perspektive (Briefwechsel)
+** #perspektive (Briefwechsel)
 
 Der Text **"Abschied und Verrat"** beinhaltet einen dramatischen Briefwechsel, der den Verlust von Familienmitgliedern im Krieg thematisiert.
 

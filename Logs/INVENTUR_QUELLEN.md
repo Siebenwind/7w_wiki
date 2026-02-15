@@ -14,7 +14,7 @@ Zentrale Inventur für Ingestion-Batches.
 | Filename | Library | Author (inferred) | Status |
 |----------|---------|-------------------|--------|
 | Siebenwind Bote 118.md | Zeitung | - | Integrated (Stub) |
-| Lit Ita'Im'Elarum Odalim ir Galadon.md | Astrael | - | Pending |
+| Lit Ita'Im'Elarum Odalim ir Galadon.md | Bibliothek Astrael | - | Integrated |
 | Amanda Dunkelbaum - Eigenschaften der Elemente.md | Toran Dur | Amanda Dunkelbaum | Pending |
 | Amanda Dunkelbaum - Elementarmagie 1.md | Toran Dur | Amanda Dunkelbaum | Pending |
 | Anonymous - Beschwîrung eines DÑmonen.md | Toran Dur | Anonymous | Pending |

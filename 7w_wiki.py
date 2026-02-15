@@ -89,9 +89,17 @@ def main():
     # Advisor (Default)
     subparsers.add_parser("advisor", help="Show system status and recommendations (Default)")
 
+    # Inquisition (Great Re-Ingestion)
+    inq_parser = subparsers.add_parser("inquisition", help="Great Re-Ingestion of legacy sources (Silicon Inquisition)")
+    inq_parser.add_argument("--batch", type=int, default=10, help="Number of sources to process in this run")
+    inq_parser.add_argument("--audit-only", action="store_true", help="Only list missing reports without processing")
+
+    # Archive Management
+    archive_parser = subparsers.add_parser("archive", help="Manage Wiki Archive (Symlinks, Research Board)")
+    archive_sub = archive_parser.add_subparsers(dest="archive_cmd")
+    archive_sub.add_parser("sync", help="Synchronize reports and board into the docs directory")
+
     # Agent Messaging (Dispatch)
-    mail_parser = subparsers.add_parser("mail", help="Inter-agent dispatch queue")
-    mail_parser.add_argument("mail_args", nargs=argparse.REMAINDER, help="Pass-through arguments for agent_mail.py")
 
     # Check if no arguments provided, default to advisor
     if len(sys.argv) == 1:
@@ -147,6 +155,38 @@ def main():
     elif args.command == "index-pages":
         print(f"📂 {BOLD}Generiere Kategorie-Indizes...{RESET}")
         run_script(".agent/scripts/generate_wiki_indices.py")
+
+    elif args.command == "inquisition":
+        inq_args = ["--batch", str(args.batch)]
+        if args.audit_only:
+            inq_args.append("--audit-only")
+        run_script(".agent/scripts/inquisition.py", inq_args)
+
+    elif args.command == "archive":
+        if args.archive_cmd == "sync":
+            print(f"🔄 {BOLD}Synchronisiere Archiv-Symlinks...{RESET}")
+            # Ensure docs/Archiv exists
+            archive_dir = os.path.join(REPO_ROOT, "docs/Archiv")
+            ingestion_dir = os.path.join(REPO_ROOT, "docs/Archiv/Ingestion_Reports")
+            os.makedirs(ingestion_dir, exist_ok=True)
+            
+            # Link Research Board
+            rb_source = os.path.join(REPO_ROOT, "System/Synapse_Board/LORE_RESEARCH_BOARD.md")
+            rb_target = os.path.join(archive_dir, "Research_Board.md")
+            if os.path.exists(rb_source) and not os.path.exists(rb_target):
+                os.symlink("../../System/Synapse_Board/LORE_RESEARCH_BOARD.md", rb_target)
+                print(f"  - Research Board verknüpft.")
+            
+            # Sync Ingestion Reports
+            logs_ingestion = os.path.join(REPO_ROOT, "Logs/Ingestion")
+            if os.path.exists(logs_ingestion):
+                for f in os.listdir(logs_ingestion):
+                    if f.endswith(".md"):
+                        src = f"../../../Logs/Ingestion/{f}"
+                        dst = os.path.join(ingestion_dir, f)
+                        if not os.path.exists(dst):
+                            os.symlink(src, dst)
+                print(f"  - Ingestion Reports synchronisiert.")
 
     elif args.command == "mail":
         if not args.mail_args:

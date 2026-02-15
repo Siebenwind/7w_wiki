@@ -12,8 +12,9 @@ report_id: BATCH-TEST-2026-02-13
 
 # Aequitas
 
-**Epistemischer Status:** #überlieferung
-
+**Epistemischer Status:** integrated
+report_id: b2c3d4e5-f6a1-4b2c-3d4e-5f6a7b8c9d0e
+letzter_check: 2026-02-15T23:05:00+01:00
 **Aequitas** (lat. für Gerechtigkeit/Gleichmaß) ist eine philosophisch-theologische Abhandlung des Gelehrten **Plinius Deseglieri**. Das Werk setzt sich kritisch mit der Legitimität weltlicher Herrschaft und deren Verhältnis zur göttlichen Ordnung auseinander.
 
 ## Kernargumentation

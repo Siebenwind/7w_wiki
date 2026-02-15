@@ -34,7 +34,12 @@ Dieser Skill generiert die finalen Artefakte im Ordner `/Siebenwind_Wiki`.
     *   **Links:** Nutze `[[WikiLink]]` Syntax für interne Verweise.
 3.  **Pflicht-Sektionen:**
     *   `## Verlinkte Themen` — Wiki-interne Querverweise.
-    *   `## Referenzen` — Quellenangaben mit **relativen Pfaden** zur Urquelle. Format wie akademische Publikationen:
+    *   `## Referenzen` — Quellenangaben mit **relativen Pfaden** zur Urquelle sowie Verweise auf Archiv-Reports.
+    *   **Prüfbericht-Referenz:** Falls eine `report_id` im Frontmatter existiert, MUSS ein Hinweis in den Referenzen stehen:
+        ```markdown
+        > [!ABSTRACT] Prüfbericht verfügbar: [[2026-02-15_Quelle_Name]] (ID: [UUID])
+        ```
+    *   **Referenzen-Format:**
         ```markdown
         ## Referenzen
         - Primärquelle: [Siebenwind Bote 123](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20123.md)

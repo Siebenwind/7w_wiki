@@ -2,8 +2,10 @@
 layout: wiki_page
 title: Abweisungen
 category: Bibliothek
-tags: [Erzählung, Elf, Beziehungen, Yota]
-status: #perspektive
+status: integrated
+tags: [Elf, Beziehung, Yota]
+report_id: e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b
+letzter_check: 2026-02-15T23:00:00+01:00
 ---
 
 # Abweisungen
