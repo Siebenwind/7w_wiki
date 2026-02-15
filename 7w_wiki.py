@@ -89,6 +89,10 @@ def main():
     # Advisor (Default)
     subparsers.add_parser("advisor", help="Show system status and recommendations (Default)")
 
+    # Agent Messaging (Dispatch)
+    mail_parser = subparsers.add_parser("mail", help="Inter-agent dispatch queue")
+    mail_parser.add_argument("mail_args", nargs=argparse.REMAINDER, help="Pass-through arguments for agent_mail.py")
+
     # Check if no arguments provided, default to advisor
     if len(sys.argv) == 1:
         args = parser.parse_args(["advisor"])
@@ -143,6 +147,12 @@ def main():
     elif args.command == "index-pages":
         print(f"📂 {BOLD}Generiere Kategorie-Indizes...{RESET}")
         run_script(".agent/scripts/generate_wiki_indices.py")
+
+    elif args.command == "mail":
+        if not args.mail_args:
+            print("Usage: 7w mail <post|inbox|read|claim|done> [args]")
+            sys.exit(1)
+        run_script(".agent/scripts/agent_mail.py", args.mail_args)
 
     else:
         parser.print_help()

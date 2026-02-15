@@ -7,13 +7,13 @@ Dieser Workflow dient der Dokumentation der Anwendung sowie der Sicherung des Pr
 
 ### 1. Dokumentations-Check
 Überprüfe die zentralen Dokumentationsdateien auf Richtigkeit und Vollständigkeit:
-- [README.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/README.md)
-- [COORDINATION_HUB.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/COORDINATION_HUB.md) (**Zentrale Registrierungspflicht!**)
-- [WORKFLOW_LORE_CONSISTENCY.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/WORKFLOW_LORE_CONSISTENCY.md)
-- [SYNAPSEN_SYSTEM_SPEC.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/docs/SYNAPSEN_SYSTEM_SPEC.md)
-- **Board Check:** Sind alle Tickets auf dem [Synapse-Board](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/) sowie den neuen Koordinations-Boards ([SY_REVIEW](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SY_REVIEW.md), [SY_STANDARDS](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SY_STANDARDS.md)) im korrekten Status?
-- **Lore Trust Audit:** Stichprobenartige Prüfung der `lore_trust` Scores im Wiki auf Plausibilität gemäß [Score Guide](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/CORE_LORE_SCORE_GUIDE.md).
-- [wiki_style_guide.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/workflows/wiki_style_guide.md)
+- [README.md](README.md)
+- [COORDINATION_HUB.md](System/COORDINATION_HUB.md) (**Zentrale Registrierungspflicht!**)
+- [WORKFLOW_LORE_CONSISTENCY.md](WORKFLOW_LORE_CONSISTENCY.md)
+- [SYNAPSEN_SYSTEM_SPEC.md](.agent/docs/SYNAPSEN_SYSTEM_SPEC.md)
+- **Board Check:** Sind alle Tickets auf dem [Synapse-Board](System/Synapse_Board/) sowie den neuen Koordinations-Boards ([SY_REVIEW](System/Synapse_Board/SY_REVIEW.md), [SY_STANDARDS](System/Synapse_Board/SY_STANDARDS.md)) im korrekten Status?
+- **Lore Trust Audit:** Stichprobenartige Prüfung der `lore_trust` Scores im Wiki auf Plausibilität gemäß [Score Guide](System/Synapse_Board/CORE_LORE_SCORE_GUIDE.md).
+- [wiki_style_guide.md](.agent/workflows/wiki_style_guide.md)
 
 ### 2. Implementierungsverzeichnis
 Dokumentiere neue Funktionen oder Änderungen an der Struktur:

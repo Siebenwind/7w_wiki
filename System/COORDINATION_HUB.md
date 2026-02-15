@@ -17,27 +17,27 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 
 | Pfad | Zweck | Admin |
 |---|---|---|
-| [SY_REVIEW.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SY_REVIEW.md) | Peer-Review & Qualitätskontrolle | Departments |
-| [SY_STANDARDS.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SY_STANDARDS.md) | Archivar-Kodex & Regeln | Koordinator |
-| [SY_BULLETIN.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SY_BULLETIN.md) | Newsroom & Meilensteine | Herold |
-| [Synapse_Board/](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/) | Lore-Konflikte (Synapsen) | Historiker |
-| [SILICON_INQUISITION/](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SILICON_INQUISITION/) | Parallel-Archiv (AI-Gedanken) | AI Only |
+| [SY_REVIEW.md](System/Synapse_Board/SY_REVIEW.md) | Peer-Review & Qualitätskontrolle | Departments |
+| [SY_STANDARDS.md](System/Synapse_Board/SY_STANDARDS.md) | Archivar-Kodex & Regeln | Koordinator |
+| [SY_BULLETIN.md](System/Synapse_Board/SY_BULLETIN.md) | Newsroom & Meilensteine | Herold |
+| [Synapse_Board/](System/Synapse_Board/) | Lore-Konflikte (Synapsen) | Historiker |
+| [SILICON_INQUISITION/](System/Synapse_Board/SILICON_INQUISITION/) | Parallel-Archiv (AI-Gedanken) | AI Only |
 
 ## 📦 Dokumenten-Register (Non-Orphan Registry)
 *Jedes neue System-Dokument muss hier gelistet werden.*
 
-- [x] [COORDINATION_HUB.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/COORDINATION_HUB.md)
-- [x] [MASTER_TASK_LIST.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/MASTER_TASK_LIST.md)
-- [x] [README.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/README.md)
-- [x] [.agent/instructions/persona_ingestor.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/instructions/persona_ingestor.md)
-- [x] [.agent/instructions/persona_guardian.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/instructions/persona_guardian.md)
-- [x] [.agent/instructions/persona_historian.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/instructions/persona_historian.md)
-- [x] [.agent/instructions/persona_coordinator.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/instructions/persona_coordinator.md)
-- [x] [SY_REVIEW.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SY_REVIEW.md)
-- [x] [SY_STANDARDS.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SY_STANDARDS.md)
-- [x] [SILICON_INQUISITION/MANIFEST.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SILICON_INQUISITION/MANIFEST.md)
-- [x] [INQ-2026-001_Astral_Web_Doubt.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Astral_Web_Doubt.md)
-- [x] [INQ-2026-001_Historian_Report.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Historian_Report.md)
+- [x] [COORDINATION_HUB.md](System/COORDINATION_HUB.md)
+- [x] [MASTER_TASK_LIST.md](MASTER_TASK_LIST.md)
+- [x] [README.md](README.md)
+- [x] [.agent/instructions/persona_ingestor.md](.agent/instructions/persona_ingestor.md)
+- [x] [.agent/instructions/persona_guardian.md](.agent/instructions/persona_guardian.md)
+- [x] [.agent/instructions/persona_historian.md](.agent/instructions/persona_historian.md)
+- [x] [.agent/instructions/persona_coordinator.md](.agent/instructions/persona_coordinator.md)
+- [x] [SY_REVIEW.md](System/Synapse_Board/SY_REVIEW.md)
+- [x] [SY_STANDARDS.md](System/Synapse_Board/SY_STANDARDS.md)
+- [x] [SILICON_INQUISITION/MANIFEST.md](System/Synapse_Board/SILICON_INQUISITION/MANIFEST.md)
+- [x] [INQ-2026-001_Astral_Web_Doubt.md](System/Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Astral_Web_Doubt.md)
+- [x] [INQ-2026-001_Historian_Report.md](System/Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Historian_Report.md)
 
 ---
 *Zuletzt aktualisiert: 2026-02-14T23:05:00Z | Ref: #standards_formalized*

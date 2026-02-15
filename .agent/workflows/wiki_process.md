@@ -5,7 +5,7 @@ description: Der "Zyklus der Weisheit" – Prozess zur Integration neuer Dokumen
 Dieser Workflow beschreibt den standardisierten Prozess, um neue Quellen (HTML, DOCX, PDF, MD) in das Siebenwind-Wiki zu integrieren.
 
 ### Phase 1: Sichtung & Klassifizierung (Screening)
-1.  **Inventar prüfen:** Öffne die [INVENTUR_QUELLEN.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/INVENTUR_QUELLEN.md).
+1.  **Inventar prüfen:** Öffne die [INVENTUR_QUELLEN.md](INVENTUR_QUELLEN.md).
 2.  **Dateiwahl:** Wähle eine Datei mit dem Status "Pending".
 3.  **Wahrheitsgehalt (Epistemik) bestimmen:**
     - `/Quellen/Hintergrund/` -> `#canon`
@@ -26,7 +26,7 @@ Dieser Workflow beschreibt den standardisierten Prozess, um neue Quellen (HTML, 
 2.  **Markdown-Konvertierung:** Erzeuge (falls nötig) eine saubere Markdown-Datei.
 
 ### Phase 3: Standardisierung (Normalization)
-1.  **Style Guide:** Wende den [Wiki Style Guide](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/workflows/wiki_style_guide.md) an.
+1.  **Style Guide:** Wende den [Wiki Style Guide](.agent/workflows/wiki_style_guide.md) an.
 layout: wiki_page
 3.  **H1-Check:** Die `# H1` Überschrift muss exakt dem `title` im YAML entsprechen.
 4.  **Skript-Einsatz:** Nutze zur Automatisierung:

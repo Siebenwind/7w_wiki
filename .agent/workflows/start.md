@@ -11,8 +11,13 @@ Der erste Schritt jedes Agenten ist zu verstehen, wo wir stehen.
 
 // turbo
 1. Führe `./7w_wiki.py advisor` aus, um eine aktuelle Status-Analyse zu erhalten.
-2. Prüfe die [MASTER_TASK_LIST.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/MASTER_TASK_LIST.md) auf Prioritäten.
-3. Suche im [Synapse Board](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/LORE_RESEARCH_BOARD.md) nach unerledigten Forschungsaufträgen.
+2. Prüfe die [MASTER_TASK_LIST.md](MASTER_TASK_LIST.md) auf Prioritäten.
+3. Suche im [Synapse Board](System/Synapse_Board/LORE_RESEARCH_BOARD.md) nach unerledigten Forschungsaufträgen.
+4. Verifiziere die Interop-Basis:
+   - [SY_INTEROP.md](System/Synapse_Board/SY_INTEROP.md)
+   - [SY_DISPATCH.md](System/Synapse_Board/SY_DISPATCH.md)
+   - [SY_STANDARDS.md](System/Synapse_Board/SY_STANDARDS.md)
+   - [COORDINATION_HUB.md](System/COORDINATION_HUB.md)
 
 ## 2. Wähle deinen Pfad (Choose your Department)
 

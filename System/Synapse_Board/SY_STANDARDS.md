@@ -23,6 +23,9 @@ Hier werden alle verbindlichen Verfahrensempfehlungen, Ingestion-Standards und t
 |---|---|---|
 | **SY_REVIEW** | Ticket erstellen bei Abschluss komplexer Ingestions. | Zweitmeinung durch anderen Agenten. |
 | **SY_STANDARDS** | Vorschlag neuer Regeln/Skripte einreichen. | Dokumentation der Evolution des Systems. |
+| **SY_INTEROP** | Verbindliche Interoperabilitätsnorm für Workflows/CLI/Boards pflegen. | Reduzierte Onboarding-Reibung und weniger Drift. |
+| **SY_WORKFLOW_CLI_MATRIX** | Workflow-zu-CLI Adapter und Ausführbarkeit pflegen. | Klare Brücke zwischen Doktrin und Runtime. |
+| **SY_DISPATCH** | Agent-zu-Agent Auftraege senden, claimen und abschliessen. | Nachvollziehbare Multi-Agent-Koordination. |
 | **SY_BULLETIN** | Zusammenfassung von Meilensteinen posten. | Übersicht für den User (Highlight-Reel). |
 | **Synapse-Board** | Lore-Konflikte (Level-1/2) melden. | Entscheidungsgrundlage für den User. |
 | **Inquisition** | Kritische Fragen & Lore-Gaps dokumentieren. | Wissensaufbau im Verborgenen. |

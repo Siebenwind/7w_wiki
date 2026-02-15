@@ -13,7 +13,7 @@ Solange dieser Workflow aktiv ist, gibst du deine kreative Freiheit auf.
 - **Du vertraust dem Code** mehr als deiner Intuition.
 
 ## 1b. Das Gerichtsprotokoll (Eskalation)
-Nutze das [JUDICIARY_LOG.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/JUDICIARY_LOG.md) **nur bei Eskalation (Level 3)**:
+Nutze das [JUDICIARY_LOG.md](Logs/JUDICIARY_LOG.md) **nur bei Eskalation (Level 3)**:
 - Wenn der Kanon unklar ist.
 - Wenn du eine schwerwiegende Entscheidung ohne direkte Anweisung triffst.
 - Bei allen `[UNGEKLÄRT]` Fällen.

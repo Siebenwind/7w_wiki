@@ -84,7 +84,7 @@ Don't just list facts. Describe:
 
 ## 4. Internal Linking
 - Use standard Wiki-brackets: `[[Page_Name]]`.
-- For external or source links, use absolute paths: `[Label](file:///absolute/path/to/source.html)`.
+- For external or source links, use absolute paths: `[Label](sources/example-source.html)`.
 
 ## 5. Directory Mapping
 - `00_Fundament/`: Core laws and axioms.

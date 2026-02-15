@@ -1,3 +1,17 @@
+## [2026-02-14.18] - News Reconstruction, Forum Indexing, and Synapse Dispatch
+### Hinzugefügt
+- **News-Archiv**: Vollstaendige Quellenanlage fuer Homepage-News ab 2010 unter `Quellen/News/` (standardisiertes Frontmatter).
+- **Forum-Kategorien**: Neue Quellenkategorien `Quellen/Forum/Bekanntmachungen` und `Quellen/Forum/Newsticker` fuer technische/teambezogene Forenhinweise.
+- **Synapse Dispatch**:
+    - Neues Board-Dokument `System/Synapse_Board/SY_DISPATCH.md`.
+    - Persistente Queue unter `System/Synapse_Board/DISPATCH/`.
+    - Neue CLI-Erweiterung `7w mail ...` fuer Agent-zu-Agent Nachrichten (`post`, `inbox`, `read`, `claim`, `done`).
+
+### Geändert
+- **Chronik**: `Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md` um News- und Forum-Auswertung erweitert.
+- **Standards**: `System/Synapse_Board/SY_STANDARDS.md` um Board-Eintrag `SY_DISPATCH` erweitert.
+- **CLI**: `7w_wiki.py` um Subcommand `mail` ergaenzt.
+
 ## [2026-02-14.17] - Phase 19: Light Sanguine & General Abstraction
 ### Hinzugefügt
 - **Visuals**: Neues "Light Sanguine" Branding-System (Rötelzeichnung im Leonardo-Stil).

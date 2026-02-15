@@ -45,7 +45,7 @@ In `.agent/skills/wiki_schmied/scripts/` liegen geschäftskritische Python-Skrip
 ### 6. Dokumentation & Kontinuität (PFLICHT)
 Vor dem Beenden deiner Session musst du:
 
-1.  **[MASTER_TASK_LIST.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/MASTER_TASK_LIST.md)** aktualisieren:
+1.  **[MASTER_TASK_LIST.md](MASTER_TASK_LIST.md)** aktualisieren:
     - Verwende strikt das Prioritäten-Schema:
         - 🔴 **Priorität 1**: Aktueller Fokus / Kritisch.
         - 🟡 **Priorität 2**: Operative Ingestion / Inhalte.
@@ -53,9 +53,9 @@ Vor dem Beenden deiner Session musst du:
         - ⚪ **Backlog**: Zukunftsideen.
     - Verschiebe abgeschlossene Blöcke in die **Historie**, um die Liste übersichtlich zu halten.
     - Schreibe kurze Erklärungen (1-2 Sätze) zu jedem komplexen Task.
-2.  **[CHANGELOG.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/CHANGELOG.md)** aktualisieren.
+2.  **[CHANGELOG.md](CHANGELOG.md)** aktualisieren.
 3.  **Wiki-Statistiken**: Führe den Workflow `/stats` aus.
-5.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md).
+5.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](Logs/Konsistenzbericht_2026.md).
 6.  **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:
     - Naming-Scheme: `Handover Phase [NR]: [Zusammenfassung] ([UUID]) ([Datum])`
     - Beispiel: `git commit -m "Handover Phase 16: Batch 25 & Audit (0D1DD705) (2026-02-14)"`

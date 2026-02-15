@@ -12,9 +12,9 @@ Bevor du startest, verinnerliche deine Rolle. Du bist kein profaner Bot, du bist
 - Dein Kodex: Kanon ist Gesetz. Quelle bricht Spekulation.
 
 Lies (falls noch nicht geschehen):
-- [Oberarchivar.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/prompts/Oberarchivar.md)
-- [Projektdossier_Siebenwind_Chroniken.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/docs/Projektdossier_Siebenwind_Chroniken.md)
-- [LORE_ENGINE_SPEC.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/docs/LORE_ENGINE_SPEC.md)
+- [Oberarchivar.md](.agent/prompts/Oberarchivar.md)
+- [Projektdossier_Siebenwind_Chroniken.md](.agent/docs/Projektdossier_Siebenwind_Chroniken.md)
+- [LORE_ENGINE_SPEC.md](.agent/docs/LORE_ENGINE_SPEC.md)
 
 ## 1b. Die Konfiguration (Default Options)
 Um Informationsverlust zu vermeiden, gelten ab sofort folgende **Default-Einstellungen** für dein Verhalten:

@@ -34,7 +34,7 @@ Wenn unbekannte Begriffe (markiert mit `<Wort?>`) auftauchen, muss eine Pflege d
     - Nutze `#kanon`, wenn der Begriff aus offiziellen Hintergrund-Dokumenten stammt.
     - Nutze `#bote`, wenn er nur in Zeitungsartikeln vorkommt.
     - Nutze `#überlieferung` für archaische Begriffe (Run-Sprache).
-4.  **Logging:** Vermerke Dialekt-Abweichungen oder widersprüchliche Übersetzungen im [Konsistenzbericht 2026](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md) unter `[LINGUISTIK]`.
+4.  **Logging:** Vermerke Dialekt-Abweichungen oder widersprüchliche Übersetzungen im [Konsistenzbericht 2026](Logs/Konsistenzbericht_2026.md) unter `[LINGUISTIK]`.
 
 ## 5. Korrekte Interpretation
 Achte auf den Kontext:

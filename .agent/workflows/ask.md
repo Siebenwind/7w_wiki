@@ -8,9 +8,9 @@ Dieser Workflow dient der direkten Abfrage von Wissen und der Prüfung von Lore-
 
 ## 1. Initialisierung
 Sobald dieser Workflow aufgerufen wird:
-1.  **Persona laden:** Lies den [Auskunfts-Archivar - Master Prompt](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/prompts/Auskunfts_Archivar.md).
+1.  **Persona laden:** Lies den [Auskunfts-Archivar - Master Prompt](.agent/prompts/Auskunfts_Archivar.md).
 2.  **Board Check:** Prüfe `/System/Synapse_Board/` auf ungelöste Tickets zu dem Thema.
-3.  **Skill-Aktivierung:** Nutze primär den [Lore-Gelehrten (Skill)](file:///Users/alexandrerabe/siebenwind/7w_wiki/.agent/skills/lore_gelehrter/SKILL.md).
+3.  **Skill-Aktivierung:** Nutze primär den [Lore-Gelehrten (Skill)](.agent/skills/lore_gelehrter/SKILL.md).
 4.  **Wiki-Kontext:** Erfasse das gesamte Wiki (`/Siebenwind_Wiki/`) als Arbeitsgrundlage.
 
 ## 2. Bearbeitung von Anfragen
@@ -40,7 +40,7 @@ Der Agent geht bei jeder Frage `/ask [Deine Frage]` wie folgt vor:
 
 ## 3. Regeln & Logging
 - **Keine Änderungen:** Der Agent darf während dieses Workflows keine Dateien im Wiki erstellen oder modifizieren.
-- **Log-Pflicht:** Identifiziert der Agent während der Anfrage eine Inkonsistenz oder eine Wissenslücke, MUSS er diese im [Konsistenzbericht 2026](file:///Users/alexandrerabe/siebenwind/7w_wiki/Logs/Konsistenzbericht_2026.md) unter Angabe der Kategorie `[KONFLIKT]` oder `[GAP]` vermerken.
+- **Log-Pflicht:** Identifiziert der Agent während der Anfrage eine Inkonsistenz oder eine Wissenslücke, MUSS er diese im [Konsistenzbericht 2026](Logs/Konsistenzbericht_2026.md) unter Angabe der Kategorie `[KONFLIKT]` oder `[GAP]` vermerken.
 - **Transparenz:** Gib immer an, auf welcher Faktenbasis (Epistemischer Status) deine Antwort beruht, und nenne den `lore_trust` Score (0-10) der verwendeten Artikel.
 
 ---
