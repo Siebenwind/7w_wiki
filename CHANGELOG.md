@@ -1,3 +1,14 @@
+## [2026-02-15.22] - Phase 1.5: Minimalist Restoration & Structural Purity
+### Hinzugefügt
+- **Standard**: `STYLING.md` zur Kodifizierung des "Minimalist Tool" Ansatzes und der Symlink-Architektur.
+- **System**: Native `wikilinks` Extension aktiviert für stabilere `[[WikiLink]]` Auflösung auf GitHub Pages.
+
+### Geändert
+- **Design**: Pivot zum "Modern Scholar" Aesthetic (Beige/Rötel, Hochkontrast, schlichte Funktionalität).
+- **Tonalität**: Vollständige Neutralisierung der Texte auf Landing-Page und Architektur-Dokumenten (Entfernung von "Flavor Text").
+- **Copyright**: Aktualisierung der Claims (LeCorbeau für Technik, Autoren/Projekt für Inhalte).
+- **Struktur**: Verifizierung und Sicherung der Symlink-Struktur (`docs/Siebenwind_Wiki` -> `Siebenwind_Wiki`).
+
 ## [2026-02-15.21] - Phase 20: Deep Bote Ingestion & Codex Delegation
 ### Hinzugefügt
 - **Wiki-Inhalt (Chronik)**: Tiefgreifende Anreicherung der Boten-Seiten 186 bis 194.
