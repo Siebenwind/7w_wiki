@@ -8,6 +8,10 @@ category: Index
 
 ---
 
+<p class="sw-lede">
+Ein rekonstruiertes Weltarchiv: klar strukturiert, quellenbasiert und auf Dauerbetrieb ausgelegt.
+</p>
+
 ## Das Vermächtnis
 
 Willkommen in der **Siebenwind Lore Engine**. Dies ist ein lebendes Denkmal für über **20 Jahre kollektive Kreativität**.

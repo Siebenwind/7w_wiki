@@ -1,30 +1,32 @@
-/* Siebenwind Wiki theme tokens + portable base layer */
+/* Siebenwind Wiki theme tokens + portable base layer (modernized) */
 
 :root {
-  --sw-roetel: #923a34;
-  --sw-roetel-soft: #b25a52;
-  --sw-roetel-dark: #6f2a26;
-  --sw-ink: #352f2b;
-  --sw-paper: #faf7f2;
-  --sw-soft: #efe8df;
-  --sw-border: rgba(146, 58, 52, 0.2);
-  --sw-grid: rgba(146, 58, 52, 0.08);
-  --sw-sketch: rgba(111, 42, 38, 0.14);
+  --sw-roetel: #9c3f35;
+  --sw-roetel-soft: #b7675d;
+  --sw-roetel-dark: #6b2c27;
+  --sw-ink: #2f2a27;
+  --sw-muted: #665b54;
+  --sw-paper: #f8f4ee;
+  --sw-paper-strong: #fffdf9;
+  --sw-soft: #efe7dd;
+  --sw-border: rgba(156, 63, 53, 0.2);
+  --sw-shadow: 0 12px 34px rgba(58, 33, 28, 0.08);
+  --sw-radius: 14px;
 }
 
 html,
 body {
   color: var(--sw-ink);
-  background:
-    radial-gradient(circle at 15% 8%, #fffdfb 0%, var(--sw-paper) 45%, #f3ece3 100%);
+  background: radial-gradient(circle at 12% 8%, #fffdfb 0%, var(--sw-paper) 48%, #f1e9df 100%);
 }
 
 body {
-  font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+  font-family: "Avenir Next", "Segoe UI", "Trebuchet MS", sans-serif;
   position: relative;
+  letter-spacing: 0.005em;
 }
 
-/* engineering sketch overlay */
+/* subtle engineering texture */
 body::after {
   content: "";
   position: fixed;
@@ -32,11 +34,10 @@ body::after {
   pointer-events: none;
   z-index: 0;
   background:
-    repeating-linear-gradient(0deg, transparent 0 31px, var(--sw-grid) 31px 32px),
-    repeating-linear-gradient(90deg, transparent 0 31px, var(--sw-grid) 31px 32px),
-    linear-gradient(12deg, transparent 0 47%, var(--sw-sketch) 47% 48%, transparent 48% 100%);
+    linear-gradient(120deg, rgba(156, 63, 53, 0.06), transparent 35%),
+    repeating-linear-gradient(90deg, transparent 0 35px, rgba(156, 63, 53, 0.05) 35px 36px);
   mix-blend-mode: multiply;
-  opacity: 0.35;
+  opacity: 0.18;
 }
 
 h1,
@@ -45,9 +46,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
   color: var(--sw-roetel);
-  letter-spacing: 0.01em;
+  letter-spacing: 0.015em;
 }
 
 p,
@@ -55,46 +56,77 @@ li,
 td,
 th,
 blockquote {
-  font-family: "Garamond", "Times New Roman", serif;
-  line-height: 1.65;
+  font-family: "Baskerville", "Garamond", "Times New Roman", serif;
+  line-height: 1.7;
+}
+
+h1 {
+  font-size: clamp(2rem, 1.5rem + 2vw, 3rem);
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: clamp(1.45rem, 1.2rem + 0.8vw, 1.95rem);
 }
 
 h2 {
   border-top: 1px solid var(--sw-border);
-  padding-top: 0.55rem;
+  padding-top: 0.7rem;
+  margin-top: 2.1rem;
 }
 
 a {
   color: var(--sw-roetel-dark);
-  text-decoration-color: rgba(146, 58, 52, 0.45);
-  text-underline-offset: 2px;
+  text-decoration-color: rgba(156, 63, 53, 0.45);
+  text-underline-offset: 3px;
+  transition: color 160ms ease;
 }
 
-code,
-pre {
-  border: 1px dashed rgba(146, 58, 52, 0.28);
-  border-radius: 4px;
+a:hover {
+  color: var(--sw-roetel);
+}
+
+p code,
+li code,
+td code {
+  border: 1px solid rgba(156, 63, 53, 0.25);
+  border-radius: 5px;
+  padding: 0.1rem 0.32rem;
+  background: rgba(255, 252, 247, 0.8);
 }
 
 img[alt="Siebenwind Lore Engine Banner"] {
   width: 100%;
-  height: 180px;
+  height: clamp(190px, 24vw, 300px);
   object-fit: cover;
   object-position: center;
-  border: 1px solid rgba(146, 58, 52, 0.18);
-  border-bottom: 2px solid rgba(146, 58, 52, 0.45);
-  border-radius: 4px;
-  box-shadow: 0 8px 22px rgba(44, 20, 17, 0.08);
+  border: 1px solid rgba(156, 63, 53, 0.25);
+  border-radius: var(--sw-radius);
+  box-shadow: var(--sw-shadow);
 }
 
 table {
-  border: 1px solid rgba(146, 58, 52, 0.18);
-  background: rgba(255, 252, 247, 0.72);
+  border: 1px solid rgba(156, 63, 53, 0.18);
+  border-radius: var(--sw-radius);
+  overflow: hidden;
+  background: rgba(255, 253, 249, 0.8);
+  box-shadow: 0 8px 26px rgba(61, 35, 30, 0.06);
 }
 
 th {
-  background: rgba(146, 58, 52, 0.08);
-  border-bottom: 1px solid rgba(146, 58, 52, 0.25);
+  background: linear-gradient(180deg, rgba(156, 63, 53, 0.14), rgba(156, 63, 53, 0.07));
+  border-bottom: 1px solid rgba(156, 63, 53, 0.25);
+  color: var(--sw-roetel-dark);
+}
+
+.sw-lede {
+  margin: 1rem 0 1.75rem;
+  padding: 0.9rem 1rem;
+  border-left: 3px solid rgba(156, 63, 53, 0.45);
+  background: rgba(255, 252, 247, 0.62);
+  border-radius: 8px;
+  color: var(--sw-muted);
+  font-size: 1.06rem;
 }
 
 main,
