@@ -1,3 +1,21 @@
+## [2026-02-15.28] - Phase 1.11: CI/CD Reliability & Success
+### Hinzugefügt
+- **Headers**: `docs/_headers` Datei zur Deaktivierung des CDN-Caches implementiert.
+
+### Geändert
+- **Stability**: Build-Prozess in `deploy.yml` durch Entfernung von `--strict` stabilisiert.
+- **Engine**: Inkompatible Plugin-Parameter (`slugify`, `reference_type`) aus `mkdocs.yml` entfernt.
+
+## [2026-02-15.27] - Phase 1.10: Link Engine Stabilization
+### Geändert
+- **WikiLinks**: Umstellung des gesamten Link-Engine-Standards auf das `ezlinks`-Modell.
+- **Standard**: `STYLING.md` an die neue technische Realität angepasst.
+
+## [2026-02-15.26] - Phase 1.9: CI/CD Troubleshooting
+### Hinzugefügt
+- **Build**: Automatisierte Installation aller Abhängigkeiten via `requirements.txt` im CI-Workflow.
+- **Debug**: Transparenz-Schritte (`cat` Befehle) in die Build-Pipeline integriert.
+
 ## [2026-02-15.25] - Phase 1.8: Cleanup & Organization
 ### Geändert
 - **Root-Ordner**: Verschiebung von Meta-Dokumenten (`STYLING.md`, `WORKFLOW_LORE_CONSISTENCY.md`, PDF-Analyse) nach `System/`.

@@ -3,9 +3,9 @@
 Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **aktiven Fokus** von der **Projekthistorie** und definiert klare Standards für die Aufgabenpriorisierung.
 
 ## 📊 Status-Übersicht
-- **Wiki-Standard:** v2.6 (Modern Scholar / Advanced Interop)
+- **Wiki-Standard:** v2.7 (Engine Stabilized / CI-Ready)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Letzter Handover:** (15.02.2026) durch Antigravity (Phase 1.8 - Restoration & Optimization)
+- **Letzter Handover:** (15.02.2026) durch Antigravity (Phase 1.11 - Engineering & CI Success)
 
 ---
 
@@ -39,6 +39,19 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [ ] **Workflow: `/cleanup`**: Vollautomatisierter Bot zur kontinuierlichen Pfad-Bereinigung.
 
 ---
+
+### Phase 1.11: CI/CD Reliability & Success (Feb 2026)
+- **Build-Success**: Behebung von Pipeline-Fehlern durch Plugin-Cleanup und Dependency-Fixes.
+- **Cache-Control**: Implementierung von CDN-Headers zur sofortigen Sichtbarkeit von Wiki-Updates.
+- **Stability**: Entfernung strikter Build-Regeln zur Sicherstellung kontinuierlicher Deploys während der Lore-Migration.
+
+### Phase 1.10: Link Engine Stabilization (Feb 2026)
+- **Ezlinks-Migration**: Erfolgreiche Umstellung auf das `mkdocs-ezlinks-plugin` für globale `[[WikiLinks]]`.
+- **Optimization**: Verfeinerung der Engine-Konfiguration für verzeichnisübergreifende Pfadauflösung.
+
+### Phase 1.9: CI/CD Troubleshooting (Feb 2026)
+- **Dependency Fix**: Integration der `requirements.txt` in den GitHub Actions Workflow.
+- **Build Monitoring**: Implementierung von Debug-Logging für Konfigurationsdateien im CI-Runner.
 
 ### Phase 1.8: Cleanup & Organization (Feb 2026)
 - **Root-Hygiene**: Verschiebung von Meta-Dokumenten nach `System/` (PDFs, Lore-Doktrin).
