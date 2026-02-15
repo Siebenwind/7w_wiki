@@ -30,6 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           cat requirements.txt
+          cat mkdocs.yml
           pip install -r requirements.txt
 
       - name: Build site
