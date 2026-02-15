@@ -76,7 +76,6 @@ plugins:
   - search
   - ezlinks:
       wikilinks: true
-      reference_type: relative
 
 markdown_extensions:
   - admonition
