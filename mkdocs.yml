@@ -1,4 +1,4 @@
-site_name: Siebenwind Lore Engine 2.4
+site_name: Siebenwind Lore Engine 2.8
 site_description: Das digitale Gedächtnis von Falandrien.
 site_author: Siebenwind Gemeinschaft
 copyright: "© 2026 LeCorbeau & Siebenwind Gemeinschaft | Inhalte: Autoren & Projekt Siebenwind"
@@ -67,7 +67,6 @@ nav:
     - ⏳ Chronik:
         - Übersicht: Siebenwind_Wiki/04_Chronik/index.md
         - Zeitlinie: Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md
-    - 🏗️ Projekt-Management:
     - 📚 Das Archiv:
       - 📋 Research Board: Archiv/Research_Board.md
       - 🔬 Ingestion Reports: Archiv/Ingestion_Reports/index.md
