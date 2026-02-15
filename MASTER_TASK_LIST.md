@@ -3,9 +3,9 @@
 Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **aktiven Fokus** von der **Projekthistorie** und definiert klare Standards für die Aufgabenpriorisierung.
 
 ## 📊 Status-Übersicht
-- **Wiki-Standard:** v2.4 (Automated Indices & Structural Purity)
+- **Wiki-Standard:** v2.5 (Minimalist Restoration / High Contrast)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Letzter Handover:** (15.02.2026) durch Antigravity (Phase 19.4 Abschluss)
+- **Letzter Handover:** (15.02.2026) durch Antigravity (Phase 1.5 & Restoration Abschluss)
 
 ---
 
@@ -39,6 +39,13 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [ ] **Workflow: `/cleanup`**: Vollautomatisierter Bot zur kontinuierlichen Pfad-Bereinigung.
 
 ---
+
+### Phase 1.5: Minimalist Restoration & Structural Purity (Feb 2026)
+- **Design Pivot**: Umstellung auf das "Modern Scholar" Aesthetic (Beige/Rötel).
+- **Usability**: Fokus auf hohen Kontrast und Lesbarkeit (Dunkelrot auf Beige).
+- **Integrität**: Bereinigung der Landing-Page von "Bla Bla" und dramatischem Ton; Fix der Link-Rendering Engine (Native Wikilinks).
+- **Struktur**: Codifizierung der Symlink-Architektur in `STYLING.md` zur Vermeidung zukünftiger Duplikats-Missverständnisse.
+- **Git Deployment**: Erfolgreiche Live-Verifikation auf GitHub Pages.
 
 ### Phase 20: Deep Ingestion & Delegation (Feb 2026)
 - **Bote 186-194**: Vollständige Ingestion von 9 Boten-Ausgaben.
