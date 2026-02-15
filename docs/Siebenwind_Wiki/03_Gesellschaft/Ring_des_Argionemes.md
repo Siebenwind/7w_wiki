@@ -3,7 +3,7 @@ layout: wiki_page
 title: Ring des Argionemes
 category: Gesellschaft
 uuid: r1ng-d35-4rg10n3m35-secret
-quelle: ../../Quellen/Spielergeschichten/Das Ende der Zeit der Könige | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 letzter_check: 2026-02-13T23:25:00
 ---
 

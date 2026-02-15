@@ -3,7 +3,7 @@ layout: wiki_page
 title: Sanduros Mantaris
 category: Persönlichkeit
 uuid: 54ndur05-m4nt4r15-45tr43l
-quelle: ../../Quellen/Spielergeschichten/Das Ende der Zeit der Könige | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 letzter_check: 2026-02-13T23:35:00
 ---
 

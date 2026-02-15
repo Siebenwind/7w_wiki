@@ -3,7 +3,7 @@ layout: wiki_page
 title: Hadrian Lugado
 category: Persönlichkeit
 uuid: h4dr14n-lug4d0-45tr43l
-quelle: ../../Quellen/Spielergeschichten/Das Ende der Zeit der Könige | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 letzter_check: 2026-02-13T23:35:00
 ---
 

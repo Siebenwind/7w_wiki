@@ -3,7 +3,7 @@ layout: wiki_page
 title: Zoran Gosh
 category: Persönlichkeit
 uuid: z0r4n-g05h-45tr43l-g0f1lm
-quelle: ../../Quellen/Spielergeschichten/Das Ende der Zeit der Könige | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 letzter_check: 2026-02-13T23:25:00
 ---
 

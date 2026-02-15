@@ -515,6 +515,23 @@
 - **Wartung:** Konsolidierung von Dubletten und Update des Personenregisters.
 - Klare Trennung zwischen aktiven (Königliche Akademie) und historischen (Tiefenbach, Schwarze Künste) Magieschulen hergestellt.
 
+## [1.12.0] - 2026-02-15
+### Added
+- `System/SYSTEM_INTEGRITY.md`: Codification of directory structures and safety rules.
+- Redirection Stubs: `Hochelfen.md`, `Löwenorden.md`, etc. to fix WikiLink aliases.
+
+### Changed
+- WikiLink Engine: Migrated from `ezlinks` to `roamlinks` (Case-Sensitivity Fix).
+- Build Workflow: Replaced problematic symlinks in `docs/` with physical sync logic in `deploy.yml`.
+- Standardized file naming for "Das Ende der Zeit der Könige" (Removed pipes).
+
+## [1.11.0] - 2026-02-15
+- **Ingestion:** Verarbeitung von 5 Spielergeschichten (Batch 19).
+- **Entitäten:** Erstellung von 12+ neuen Personenprofilen und 3 Organisationen.
+- **Lore:** Dokumentation der Argionemes-Verschwörung und der Schwarzen Legion.
+- **Wartung:** Konsolidierung von Dubletten und Update des Personenregisters.
+- Klare Trennung zwischen aktiven (Königliche Akademie) und historischen (Tiefenbach, Schwarze Künste) Magieschulen hergestellt.
+
 ## [2026-02-13.1] - Historiker-Review & Register-Cleanup
 ### Hinzugefügt
 - `Logs/Historiker_Bericht_Rabenfels_2026.md`: Detaillierter Bericht über Benedict Rabenfels und die Führungskrise des Löwenordens.

@@ -3,7 +3,7 @@ layout: wiki_page
 title: Telophas von Basarius
 category: Persönlichkeit
 uuid: t3l0ph45-v0n-b454r1u5
-quelle: ../../Quellen/Spielergeschichten/Das Ende der Zeit der Könige | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 letzter_check: 2026-02-13T23:35:00
 ---
 

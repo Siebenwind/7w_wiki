@@ -3,7 +3,7 @@ layout: wiki_page
 title: Hubertus Anverita
 category: Persönlichkeit
 uuid: hub3rtu5-4nv3r1t4-45tr43l
-quelle: ../../Quellen/Spielergeschichten/Das Ende der Zeit der Könige | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 letzter_check: 2026-02-13T23:25:00
 ---
 

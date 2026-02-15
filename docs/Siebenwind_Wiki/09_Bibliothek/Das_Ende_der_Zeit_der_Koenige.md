@@ -3,7 +3,7 @@ layout: wiki_page
 title: Das Ende der Zeit der Könige
 category: Erzählung
 uuid: d3s-3nd3-d3r-z31t-k03n1g3
-quelle: ../../Quellen/Spielergeschichten/Das Ende der Zeit der Könige | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 lore_trust: 8
 letzter_check: 2026-02-14T00:00:00
 ---
