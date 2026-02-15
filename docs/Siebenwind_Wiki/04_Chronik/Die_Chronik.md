@@ -16,7 +16,7 @@ Die [[index]] der Welt, geordnet nach dem Sonnenzirkel.
 ## [[Siebenwind]] Bote Archiv
 Sammlung der integrierten Boten-Ausgaben:
 
-*   [[Siebenwind_Bote_120]], [[Siebenwind_Bote_121]], [[Siebenwind_Bote_122]], [[Siebenwind_Bote_123]]
+*   [[Siebenwind_Bote_118]], [[Siebenwind_Bote_120]], [[Siebenwind_Bote_121]], [[Siebenwind_Bote_122]], [[Siebenwind_Bote_123]]
 *   [[Siebenwind_Bote_124]], [[Siebenwind_Bote_125]], [[Siebenwind_Bote_126]], [[Siebenwind_Bote_127]]
 *   [[Siebenwind_Bote_128]], [[Siebenwind_Bote_129]], [[Siebenwind_Bote_130]], [[Siebenwind_Bote_131]]
 *   [[Siebenwind_Bote_132]], [[Siebenwind_Bote_133]], [[Siebenwind_Bote_134]], [[Siebenwind_Bote_135]], [[Siebenwind_Bote_136]], [[Siebenwind_Bote_137]], [[Siebenwind_Bote_138]], [[Siebenwind_Bote_139]], [[Siebenwind_Bote_140]], [[Siebenwind_Bote_141]], [[Siebenwind_Bote_142]]

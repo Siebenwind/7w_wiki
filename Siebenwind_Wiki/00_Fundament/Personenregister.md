@@ -103,6 +103,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Gorn_Estrik]] | Hauptmann ([[Schattenjaeger]]) | [Bote 189] | 29 n.H. | #bote |
 | [[Linduc]] | Büttel ([[Rasse_Hobbits]]) | [Bote 189] | 29 n.H. | #bote |
 | [[Orgolosch]] | Dämon (Gegendomäne Erde) | [Bote 189] | 29 n.H. | #bote |
+| [[Gropp_Zwillinge]] | Solos Nadeeda Laylira & Hagen Siegfried Kaspar | [Bote 186] | Geboren 22 n.H. | #bote |
 | [[Faesa_Farell]] | Gastronomin / Theaterbuffet | [Bote 186] | 22 n.H. | #bote |
 | [[Hadrian]] | Ritter (Löwenorden) | [Bote 167] | 18 n.H. | #bote |
 | [[Hevelius_Dunkelfeld]] | Bürger / Kultist / Magus | [Bote 180] / [Chronik] | † 21 n.H. / 30 n.H. (?) | #bote |
@@ -480,6 +481,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Hendwig]] | Gardist (Baronsgarde) (†) | [Bote 163] | † 19 n.H. | #bote |
 | [[Hartwine_Hilamos]] | Bänkerin / Attentäterin (†) | [Bote 163] | † 19 n.H. | #bote |
 | [[Arthax_Stahlauge]] | Kregor ([[Dunquell]]) / Veteran | [[Kregor_Arthax_Stahlauge|Bote 193]] / [Legende der Zwerge] | 30 n.H. | #bote |
+| [[Kregor_Arthax_Stahlauge]] | Zwergen-Veteran / Ratsmitglied | [Bote 193] | 30 n.H. | #bote |
 | [[Minelthuya]] | Adept ([[Grauer_Pfad]]) | [Bote 193/194] | 30 n.H. | #bote |
 | [[K_endalor_Aothes]] | Hohepriester (Argionemes) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
 | [[Ziska_Himmelmann]] | Reporterin (Verräterin) | [Bote 163] | 19 n.H. | #bote |

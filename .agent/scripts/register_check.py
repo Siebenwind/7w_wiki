@@ -136,6 +136,7 @@ def main():
     log("## 2. Verwaiste Profile (Datei ohne Register-Eintrag)")
     profile_files = get_profile_files(PROFILE_DIR)
     register_set = set(register_names)
+    register_set.add("index") # Special case: directory indexes are not person profiles
     orphans = sorted(profile_files - register_set)
     if orphans:
         for name in orphans:
