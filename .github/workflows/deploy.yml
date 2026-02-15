@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -21,20 +22,15 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs-material mkdocs-roamlinks-plugin mkdocs-mermaid2-plugin
+          pip install mkdocs mkdocs-material pymdown-extensions
 
       - name: Build site
         run: |
-          mkdocs build
+          mkdocs build --clean --strict
 
-      - name: Generate gh-pages README
-        run: |
-          echo "# 🚀 Siebenwind Wiki - Deployment Branch" > site/README.md
-          echo "Dies ist der automatisierte Deployment-Branch für die GitHub Pages." >> site/README.md
-          echo "Der Quellcode und die Dokumentation befinden sich im [main-Branch](https://github.com/Siebenwind/7w_wiki/tree/main)." >> site/README.md
-          echo "---" >> site/README.md
-          echo "🌐 **Live Wiki:** [https://Siebenwind.github.io/7w_wiki/](https://Siebenwind.github.io/7w_wiki/)" >> site/README.md
-
-      - name: Deploy
-        run: |
-          mkdocs gh-deploy --force --dirty
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          force_orphan: true
