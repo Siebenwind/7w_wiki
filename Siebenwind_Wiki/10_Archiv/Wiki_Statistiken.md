@@ -6,21 +6,21 @@ category: Index
 
 # 📊 Wiki Status
 
-**Stand:** 2026-02-15 17:06
+**Stand:** 2026-02-15 19:32
 
 ---
 
 | Metrik | Wert |
 | :--- | :--- |
-| **Artikel** | 1083 |
-| **Worte** | 181,123 |
-| **Personen** | 576 |
+| **Artikel** | 1094 |
+| **Worte** | 181,630 |
+| **Personen** | 587 |
 
 ---
 
 ```mermaid
 pie title Sektionen
-    "07_Persoenlichkeiten" : 576
+    "07_Persoenlichkeiten" : 587
     "05_Magie" : 39
     "08_Bestiarium" : 33
     "03_Wissen" : 55
@@ -40,7 +40,7 @@ Die am stärksten vernetzten Artikel.
 
 | Entität | Links |
 | :--- | :--- |
-| [[Falkensee]] | 370 |
+| [[Falkensee]] | 371 |
 | [[Brandenstein]] | 337 |
 | [[Siebenwind]] | 298 |
 | [[Personenregister]] | 126 |

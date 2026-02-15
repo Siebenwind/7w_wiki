@@ -3,15 +3,15 @@
 Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **aktiven Fokus** von der **Projekthistorie** und definiert klare Standards für die Aufgabenpriorisierung.
 
 ## 📊 Status-Übersicht
-- **Wiki-Standard:** v2.5 (Minimalist Restoration / High Contrast)
+- **Wiki-Standard:** v2.6 (Modern Scholar / Advanced Interop)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Letzter Handover:** (15.02.2026) durch Antigravity (Phase 1.5 & Restoration Abschluss)
+- **Letzter Handover:** (15.02.2026) durch Antigravity (Phase 1.8 - Restoration & Optimization)
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 186+).
-- [ ] **Technical Maintenance**: Periodischer Check der automatischen Index-Generierung via `./7w_wiki.py index-pages`.
+- [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - *Delegiert an Ingestor*.
+- [ ] **Technical Maintenance**: Periodischer Check der Link-Integrität nach Plugin-Migration.
 
 ## 🟡 Priorität 2: Operative Ingestion (Inhalte)
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
@@ -39,6 +39,23 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [ ] **Workflow: `/cleanup`**: Vollautomatisierter Bot zur kontinuierlichen Pfad-Bereinigung.
 
 ---
+
+### Phase 1.8: Cleanup & Organization (Feb 2026)
+- **Root-Hygiene**: Verschiebung von Meta-Dokumenten nach `System/` (PDFs, Lore-Doktrin).
+- **Asset-Management**: Konsolidierung der Design-Quellen nach `System/Design_Assets/`.
+- **Archivierung**: Löschen temporärer Logs und Archivierung alter Handover-Berichte.
+
+### Phase 1.7: Styling & Engine Optimization (Feb 2026)
+- **Plugin Migration**: Umstellung auf `mkdocs-ezlinks-plugin` zur Behebung des Wikilink-Problems (Rendering klickbarer Links über alle Ordner).
+- **Visual Overhaul**: Implementierung des neuen horizontalen "Modern Scholar" Banners.
+- **Aesthetics**: Glassmorphism für Header/Nav, verbesserte Tabellenlesbarkeit und Renaissance-Typografie integriert.
+- **CI-Readiness**: `requirements.txt` für automatisierten GitHub Pages Build angelegt.
+
+### Phase 1.6: Structural Maintenance & Consistency Repair (Feb 2026)
+- **Deduplizierung**: Konsolidierung von [[Chernides]] und [[Orgolosch]] im Personenregister.
+- **Vervollständigung**: Erstellung von 11 fehlenden Profil-Stubs (u.a. [[Eliam_Schlosser]], [[Geist]]).
+- **Orphan-Links**: Korrekte Verknüpfung verwaister Profile ([[Gropp_Zwillinge]], [[Kregor_Arthax_Stahlauge]]).
+- **Realignment**: Bereinigung aller absoluten `file://` Pfade im Wiki und den System-Instruktionen (Mission MSG-2026-0002).
 
 ### Phase 1.5: Minimalist Restoration & Structural Purity (Feb 2026)
 - **Design Pivot**: Umstellung auf das "Modern Scholar" Aesthetic (Beige/Rötel).

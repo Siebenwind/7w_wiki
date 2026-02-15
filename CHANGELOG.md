@@ -1,3 +1,28 @@
+## [2026-02-15.25] - Phase 1.8: Cleanup & Organization
+### Geändert
+- **Root-Ordner**: Verschiebung von Meta-Dokumenten (`STYLING.md`, `WORKFLOW_LORE_CONSISTENCY.md`, PDF-Analyse) nach `System/`.
+- **Assets**: Konsolidierung von `assets/` nach `System/Design_Assets/`.
+- **Cleanup**: Entfernung von `banner_proposal.png` und `git-push-log.aR0d5B`.
+
+## [2026-02-15.24] - Phase 1.7: Styling & Engine Optimization
+### Hinzugefügt
+- **Build**: `requirements.txt` für automatisierten Plugin-Install auf GitHub Pages erstellt.
+- **Design**: Renaissance-Typografie (Inter & Cormorant Garamond) und Micro-Animations für Links.
+
+### Geändert
+- **Plugins**: Migration von `wikilinks` (Extension) auf `mkdocs-ezlinks-plugin` (Plugin) zur Behebung der Broken Links.
+- **Header**: Quadratisches Banner durch horizontales „Modern Scholar“ Banner ersetzt (`docs/assets/banner.png`).
+- **UI**: Glassmorphism-Effekte für Header, Nav und Footer implementiert (Blured Transparency).
+
+## [2026-02-15.23] - Phase 1.6: Structural Maintenance & Consistency Repair
+### Hinzugefügt
+- **Persönlichkeiten**: 11 neue Profil-Stubs angelegt (u.a. [[Eliam_Schlosser]], [[Geist]], [[Himduir_III_ap_Vjer]]).
+
+### Geändert
+- **Register**: Manuelle Deduplizierung von [[Chernides]] und [[Orgolosch]].
+- **Verknüpfung**: Korrekte Einbindung der [[Gropp_Zwillinge]] und [[Kregor_Arthax_Stahlauge]] ins Personenregister.
+- **Mission MSG-2026-0002**: Globale Bereinigung von absoluten `file://` Pfaden in Wiki- und System-Dokumenten.
+
 ## [2026-02-15.22] - Phase 1.5: Minimalist Restoration & Structural Purity
 ### Hinzugefügt
 - **Standard**: `STYLING.md` zur Kodifizierung des "Minimalist Tool" Ansatzes und der Symlink-Architektur.
