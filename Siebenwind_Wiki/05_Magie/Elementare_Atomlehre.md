@@ -1,14 +1,14 @@
 ---
 layout: wiki_page
-title: Elementare Atomlehre
-category: Magie
+title: [[Elementare]] Atomlehre
+category: [[index]]
 status: integrated
-quelle: "/Quellen/Bibliothek Toran Dur/Jennaia Lavrial - Die These der elementaren Atome.md"
+quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Jennaia_Lavrial]] - Die These der elementaren Atome.md"
 ---
 
-# Elementare Atomlehre
+# [[Elementare]] Atomlehre
 
-Die elementare Atomlehre ist ein von Magister **Jennaia Lavrial** postuliertes Modell der Weltenentstehung. Es besagt, dass sämtliche Materie nicht aus Fäden (wie in der *Filiae Astraeli*), sondern aus kleinsten, unteilbaren **Atomen** der vier Elemente besteht.
+Die elementare Atomlehre ist ein von Magister **[[Jennaia_Lavrial]]** postuliertes Modell der Weltenentstehung. Es besagt, dass sämtliche Materie nicht aus Fäden (wie in der *Filiae Astraeli*), sondern aus kleinsten, unteilbaren **Atomen** der vier Elemente besteht.
 
 ## 1. Die Elementaratome
 
@@ -28,7 +28,7 @@ Durch enge Bindungen (*Anungim Nahi*) bilden die Primäratome komplexere Stoffe:
 - **[[Blitz]] (Luft + Feuer):** Energiegeladene Ketten aus Luftatomen, an denen Feueratome "einhaken".
 
 ## 3. Das Element Wrathe
-In Lavrials Modell ist **Wrathe** (Äther/Geist) kein atomarer Stoff, sondern das Medium, in dem die Atome schwimmen. Magiebegabte besitzen ein (hypothetisches) Organ, mit dem sie dieses Medium und damit die darin befindlichen Atome beeinflussen können.
+In Lavrials Modell ist **Wrathe** (Äther/[[Geist]]) kein atomarer Stoff, sondern das Medium, in dem die Atome schwimmen. Magiebegabte besitzen ein (hypothetisches) Organ, mit dem sie dieses Medium und damit die darin befindlichen Atome beeinflussen können.
 
 ---
 **Siehe auch:** [[Magietheorie]], [[Arkan-Metalle]], [[Jennaia_Lavrial]]

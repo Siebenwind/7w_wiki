@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "T."
-category: Personen
+category: [[index]]
 ---
 
 # T.

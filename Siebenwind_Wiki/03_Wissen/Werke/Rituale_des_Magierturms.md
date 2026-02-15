@@ -1,9 +1,9 @@
 ---
 title: Rituale des Magierturms
 file_name: Rituale_des_Magierturms.md
-description: Eine Sammlung von Ritualen, Prüfungen und zeremoniellen Handlungen, wie sie im Magierturm zu Tiefenbach und innerhalb der Grauen Garde praktiziert wurden.
+description: Eine Sammlung von Ritualen, Prüfungen und zeremoniellen Handlungen, wie sie im [[Magierturm_zu_Tiefenbach]] und innerhalb der Grauen Garde praktiziert wurden.
 date: 2024-05-24
-author: Dunvallo Linari (Original), Archivteam (Zusammenstellung)
+author: [[Dunvallo_Linari]] (Original), Archivteam (Zusammenstellung)
 ---
 
 # Rituale des Magierturms
@@ -42,4 +42,4 @@ Ein dokumentiertes Beispiel einer Prüfungssituation, vermutlich für einen Adep
 
 ---
 
-**Hinweis:** Die genauen Inchantationen und Gesten sind in den entsprechenden Lehrbüchern der Bibliothek von [[Toran_Dur]] zu finden und werden nur Eingeweihten mündlich weitergegeben.
+**Hinweis:** Die genauen Inchantationen und Gesten sind in den entsprechenden Lehrbüchern der [[index]] von [[Toran_Dur]] zu finden und werden nur Eingeweihten mündlich weitergegeben.

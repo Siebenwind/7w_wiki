@@ -1,9 +1,9 @@
 ---
-title: Bartanatomie (Logrin Goldaxt)
+title: Bartanatomie ([[Logrin_Goldaxt]])
 file_name: Bartanatomie_(Logrin_Goldaxt).md
-description: Eine humoristische, aber kulturell tief blickende Abhandlung von Magister Logrin Goldaxt über die Bedeutung des Bartes für Zwerge (Dwarschim).
+description: Eine humoristische, aber kulturell tief blickende Abhandlung von Magister [[Logrin_Goldaxt]] über die Bedeutung des Bartes für [[Zwerge]] (Dwarschim).
 date: 2024-05-24
-author: Logrin Goldaxt (Original), Archivteam (Zusammenstellung)
+author: [[Logrin_Goldaxt]] (Original), Archivteam (Zusammenstellung)
 ---
 
 # Bartanatomie - Band 1
@@ -20,8 +20,8 @@ Goldaxt stellt die These auf, dass der Bartwuchs direkt proportional zu **Ehre**
 Der Bart darf **niemals mit Wasser** gewaschen werden! Nur **Met** ist zur Reinigung und Pflege zulässig ("damit er herrlich riecht").
 
 ## Über andere Rassen
-*   **Langbeine (Menschen):** Ihr Bart wächst nicht aus Ehre, sondern aus **Mitleid der Götter**, um ihre Hässlichkeit zu verbergen.
-*   **Langohren (Elfen):** Haben keinen Bart, weil sie **Lügner und Betrüger** sind (Keine Ehre = Kein Bart).
+*   **Langbeine ([[Menschen]]):** Ihr Bart wächst nicht aus Ehre, sondern aus **Mitleid der Götter**, um ihre Hässlichkeit zu verbergen.
+*   **Langohren ([[Elfen]]):** Haben keinen Bart, weil sie **Lügner und Betrüger** sind (Keine Ehre = Kein Bart).
 
 ## Zitat
 > "Wer sagt, den Weibern kommt es nicht auf die Länge an, der lügt Brescha!"

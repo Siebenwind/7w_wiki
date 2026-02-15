@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Wasserkreaturen
-category: Bestiarium
+category: [[index]]
 ---
 
 # Wasserkreaturen

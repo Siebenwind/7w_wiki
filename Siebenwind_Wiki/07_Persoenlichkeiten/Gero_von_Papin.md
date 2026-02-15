@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gero von Papin"
-category: Personen
+category: [[index]]
 ---
 
 # Gero von Papin

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Agranor von Eahlstan
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Agranor von Eahlstan

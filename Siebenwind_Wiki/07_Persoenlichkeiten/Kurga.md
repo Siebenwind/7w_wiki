@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Kurga
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Kurga

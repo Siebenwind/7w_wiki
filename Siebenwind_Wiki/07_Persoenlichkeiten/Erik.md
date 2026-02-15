@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Erik"
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
-quelle: "/Quellen/Bibliothek Astrael/Heilige Liturgien.md"
+quelle: "/Quellen/[[index]] [[Astrael]]/Heilige Liturgien.md"
 author: "Antigravity"
 ---
 

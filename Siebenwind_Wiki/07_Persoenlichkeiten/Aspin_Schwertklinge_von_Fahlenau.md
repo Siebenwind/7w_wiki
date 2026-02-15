@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Aspin Schwertklinge von Fahlenau
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 164.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_164]].md
 ---
 # Aspin Schwertklinge von Fahlenau
 
@@ -16,10 +16,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 164.md
 **Sir Aspin**, auch bekannt als **Aspin Schwertklinge**, ist der Großmeister der Ritterschaft und designierte Lehnsherr von [[Siebenwind]]. Er ist ein Ritter der alten Schule, der für seinen unerschütterlichen Eid und seine Opferbereitschaft bekannt ist.
 
 ## Historie
-*   **Ausbildung:** Er begann mit 6 Jahren als Page bei der *Ritterschaft der drei Brüder*. 12 n.H. kam er nach Siebenwind, wo er Knappe von Sir **Hegtor Garlon** wurde. Seinen Ritterschlag erhielt er Anfang 13 n.H. durch **Dragonor Ragnarok**.
+*   **Ausbildung:** Er begann mit 6 Jahren als Page bei der *Ritterschaft der drei Brüder*. 12 n.H. kam er nach [[Siebenwind]], wo er Knappe von Sir **Hegtor Garlon** wurde. Seinen Ritterschlag erhielt er Anfang 13 n.H. durch **Dragonor Ragnarok**.
 *   **Lordritter:** Aufgrund seiner Verdienste wurde er Lordritter des Falken und später Reichsritter.
 *   **Der Fluch (Invasion des Einen):** Bei der Belagerung von Burg **Schieferhorst** blieb er entgegen dem Evakuierungsbefehl zurück, um die Festung bis zum letzten Atemzug zu verteidigen. Er wurde von den Schergen des Einen gefangen genommen und verflucht. Er wurde in eine lebende Statue aus Stein verwandelt, unsterblich, aber ohne Erlösung.
-*   **Erlösung (19 n.H.):** Nach Jahren am Grund des Falkensees (wo Schieferhorst einst stand) wurde er geborgen. Die Richterin [[Solos_Nhergas]] (Freifrau Nhergas) konnte den Fluch schließlich lösen und ihn in seine menschliche Gestalt zurückversetzen.
+*   **Erlösung (19 n.H.):** Nach Jahren am Grund des Falkensees (wo Schieferhorst einst stand) wurde er geborgen. Die Richterin [[Solos_Nhergas]] (Freifrau [[Nhergas]]) konnte den Fluch schließlich lösen und ihn in seine menschliche Gestalt zurückversetzen.
 
 ## Wirken
 *   **Großmeister (19 n.H.):** Nach dem Rücktritt von [[Hagen_Robaar]] wurde er von der Tafelrunde zum neuen Großmeister der Ritterschaft gewählt. Er sieht seine Hauptaufgabe im Schutz der gesamten Bevölkerung, unabhängig von der Rasse. Er plant, die verschiedenen Völker der Insel persönlich aufzusuchen.

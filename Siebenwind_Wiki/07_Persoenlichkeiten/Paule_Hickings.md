@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Paule Hickings
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Paule Hickings
@@ -12,7 +12,7 @@ category: Persönlichkeiten
 **Zugehörigkeit:** [[Falkensee]] (Gast)
 
 ## Beschreibung
-**Paule "Hicks" Hickings** ist ein Barde, der im Jahr 21 n.H. (Bote 182) zusammen mit seinem Partner [[Bastian_Vega]] auf der Insel ankam. Das Duo tritt vor allem im "Ersonter Kessel" in Falkensee auf.
+**Paule "Hicks" Hickings** ist ein Barde, der im Jahr 21 n.H. (Bote 182) zusammen mit seinem Partner [[Bastian_Vega]] auf der Insel ankam. Das Duo tritt vor allem im "Ersonter Kessel" in [[Falkensee]] auf.
 
 ---
 **Siehe auch:** [[Bastian_Vega]], [[Kunst_und_Kultur]]

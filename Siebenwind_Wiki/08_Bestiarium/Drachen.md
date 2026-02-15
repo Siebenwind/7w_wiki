@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Drachen
-category: Bestiarium
+category: [[index]]
 ---
 
 # Drachen

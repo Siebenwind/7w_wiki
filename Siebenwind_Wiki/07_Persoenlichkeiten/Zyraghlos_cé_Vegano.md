@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Zyraghlos cé Vegano
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 quelle: [Linari - Reagenzien]
 status: #überlieferung
 ---
@@ -9,7 +9,7 @@ status: #überlieferung
 # Zyraghlos cé Vegano
 
 ## Beschreibung
-Magister (Toran Dur)
+Magister ([[Toran_Dur]])
 
 ## Referenzen
 - [[Personenregister]]

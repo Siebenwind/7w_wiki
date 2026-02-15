@@ -1,9 +1,9 @@
 ---
-title: Ari'in (Rhadan der Graue)
+title: Ari'in ([[Rhadan_der_Graue]])
 file_name: Ariin_(Rhadan_der_Graue).md
-description: Ein seltenes Werk von Rhadan dem Grauen über die "Ari'in" - magisch erschaffene, halbgeistige Werkzeuge und Konstrukte (ähnlich Golems, aber als Werkzeuge definiert).
+description: Ein seltenes Werk von Rhadan dem Grauen über die "Ari'in" - magisch erschaffene, halbgeistige Werkzeuge und Konstrukte (ähnlich [[Golems]], aber als Werkzeuge definiert).
 date: 2024-05-24
-author: Rhadan der Graue (Original), Archivteam (Zusammenstellung)
+author: [[Rhadan_der_Graue]] (Original), Archivteam (Zusammenstellung)
 ---
 
 # Ari'in
@@ -11,7 +11,7 @@ author: Rhadan der Graue (Original), Archivteam (Zusammenstellung)
 Verfasst von [[Rhadan_der_Graue]].
 
 ## Definition
-**Ari'in** (Singular: *Arias*) sind magische Werkzeuge, die durch den Geist gesteuert werden oder rudimentäre Eigenständigkeit besitzen. Sie gelten als Vorläufer oder verwandte Form der Golems, wurden aber ursprünglich von Waldvölkern (Druiden/Hexen) entwickelt und später akademisch verfeinert.
+**Ari'in** (Singular: *Arias*) sind magische Werkzeuge, die durch den [[Geist]] gesteuert werden oder rudimentäre Eigenständigkeit besitzen. Sie gelten als Vorläufer oder verwandte Form der [[Golems]], wurden aber ursprünglich von Waldvölkern (Druiden/Hexen) entwickelt und später akademisch verfeinert.
 
 ## Natur der Ari'in
 *   **Werkzeuge:** Sie haben keine Seele, keine Gefühle und können nicht lernen. Sie sind fehlbar wie ihre Erschaffer.
@@ -25,4 +25,4 @@ Verfasst von [[Rhadan_der_Graue]].
 4.  **Ari'in Mereij (Menschenähnliche):** Die höchste Stufe. Können komplexe Arbeiten (Schmied, Bote) verrichten, sind aber extrem aufwendig und fehleranfällig.
 
 ## Zitat
-> "Wissen ist Macht. Macht ist nichts, ohne Einsicht und Mässigung."
+> "[[index]] ist Macht. Macht ist nichts, ohne Einsicht und Mässigung."

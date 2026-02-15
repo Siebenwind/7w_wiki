@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Rasse Zwerge
+title: Rasse [[Zwerge]]
 category: [[Gesellschaft]]
 ---
 

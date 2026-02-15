@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Plinius Deseglieri"
-category: Personen
+category: [[index]]
 ---
 
 # Plinius Deseglieri

@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Inquisitionsprozess gegen Maar und Llewellyen
-category: Geschichte
+title: Inquisitionsprozess gegen Maar und [[Llewellyen]]
+category: [[index]]
 ---
 
-# Inquisitionsprozess gegen Maar und Llewellyen
+# Inquisitionsprozess gegen Maar und [[Llewellyen]]
 
 **Epistemischer Status:** #bote
 **Datum:** 19. Querlar 15 n.H. (Bote 121)

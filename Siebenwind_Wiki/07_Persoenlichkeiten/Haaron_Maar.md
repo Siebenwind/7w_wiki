@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Haaron Maar
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Haaron Maar

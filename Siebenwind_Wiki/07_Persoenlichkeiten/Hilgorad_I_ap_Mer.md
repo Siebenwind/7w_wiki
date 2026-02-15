@@ -6,7 +6,7 @@ category: Persönlichkeit
 
 # Hilgorad I. ap Mer
 
-**Titel:** König von [[Galadonien]], Heredon, Endophal, den Nordlanden und [[Siebenwind]], Protektor Falandriens
+**Titel:** König von [[Galadonien]], Heredon, [[Endophal]], den Nordlanden und [[Siebenwind]], Protektor Falandriens
 **Epistemischer Status:** #canon / #bote
 **Zugehörigkeit:** [[Galadonien]] / [[Haus_ap_Mer]]
 **Zeitraum:** Amtierend (ca. 15-30 n.H.)
@@ -15,7 +15,7 @@ category: Persönlichkeit
 **Hilgorad I. ap Mer** ist der amtierende Großkönig und die zentrale Autorität des galadonischen Reiches. Er entstammt dem **Haus Mer**, dem derzeit mächtigsten der sechs verbliebenen Königsgeschlechter Falandriens. Sein Herrschaftsstil gilt als traditionell, gottesfürchtig und ordnungsbetont. In der Atmosphäre seines Hofes mischt sich das kühle Kalkül eines Strategen mit dem Prunk der alten Monarchie.
 
 ## Wirken & Historie
-Hilgorad I. ap Mer ist vor allem als der Monarch bekannt, der die **Expedition nach Siebenwind** ermöglichte. Durch einen geschickten diplomatischen Pakt mit den Nortraven unter Hetmann Wulfhold sicherte er sich deren Schiffbaukunst, was zur Entdeckung der Insel durch Armgard Torbenson im Jahr **1 n.H.** führte. Unter seiner Ägide wurde [[Siebenwind]] zur **Kronmark** erhoben.
+Hilgorad I. ap Mer ist vor allem als der Monarch bekannt, der die **Expedition nach [[Siebenwind]]** ermöglichte. Durch einen geschickten diplomatischen Pakt mit den [[Nortraven]] unter Hetmann Wulfhold sicherte er sich deren Schiffbaukunst, was zur Entdeckung der Insel durch Armgard Torbenson im Jahr **1 n.H.** führte. Unter seiner Ägide wurde [[Siebenwind]] zur **Kronmark** erhoben.
 
 ### Die Entführung und Rettung (18-19 n.H.)
 *   **Verschwinden (18 n.H.):** Der König und sein Gefolge verschwanden unter mysteriösen Umständen (Bote 159).
@@ -25,7 +25,7 @@ Hilgorad I. ap Mer ist vor allem als der Monarch bekannt, der die **Expedition n
 König Hilgorad galt für drei Jahre als verschollen, was zu erheblicher politischer Instabilität in den Provinzen führte. In dieser Zeit übernahm der Große Rat in vielen Regionen de facto die Regierungsgeschäfte.
 
 ### Die Rückkehr (29 n.H.)
-Im Jahr 29 n.H. wurde durch den [[Siebenwind_Bote_190]] bestätigt, dass Hilgorad I. lebt. Er sammelt derzeit in **[[Khalandra]]** ein gewaltiges Heer aus treuen Nortraven und — ungewöhnlicherweise — orkischen Hilfstruppen, um gegen das abtrünnige **[[Cortan]]** und die drängende Dämonenbedrohung vorzugehen. Sein Auftreten nach der Rückkehr wird als entschlossen, aber gezeichnet von den Strapazen der Ungewissheit beschrieben.
+Im Jahr 29 n.H. wurde durch den [[Siebenwind_Bote_190]] bestätigt, dass Hilgorad I. lebt. Er sammelt derzeit in **[[Khalandra]]** ein gewaltiges Heer aus treuen [[Nortraven]] und — ungewöhnlicherweise — orkischen Hilfstruppen, um gegen das abtrünnige **[[Cortan]]** und die drängende Dämonenbedrohung vorzugehen. Sein Auftreten nach der Rückkehr wird als entschlossen, aber gezeichnet von den Strapazen der Ungewissheit beschrieben.
 
 ## Überlieferungen & Quellen
 > [!NOTE]

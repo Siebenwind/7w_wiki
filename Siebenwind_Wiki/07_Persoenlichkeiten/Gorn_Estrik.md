@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Gorn Estrik
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 uuid: ff9c6d4e-4567-7890-1234-56bf2597e836
 epistemic: "#bote"
 ---

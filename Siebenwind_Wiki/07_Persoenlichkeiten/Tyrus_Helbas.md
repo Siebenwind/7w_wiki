@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Tyrus Helbas
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Tyrus Helbas

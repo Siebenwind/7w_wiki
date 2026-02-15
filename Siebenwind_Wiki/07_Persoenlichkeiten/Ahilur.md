@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Ahilur
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Ahilur

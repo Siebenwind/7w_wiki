@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Deros Gudowisch
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Deros Gudowisch

@@ -4,7 +4,7 @@ title: Gesellschaft
 ---
 
 # [[Siebenwind]] Wiki - Gesellschaft
-Das Archiv der Gesellschaft.
+Das [[index]] der Gesellschaft.
 
 ## Inhalte
 
@@ -12,7 +12,7 @@ Das Archiv der Gesellschaft.
 *   [[Astrael_Missionslehre|Von der rechten Art der Mission und dem gesunden Maß]]
 *   [[Avaratio_Mischelgrimm_Alchemie|Theorie der Form und des Funkens (Opus i de alchimiae)]]
 *   [[Bartanatomie|Das Buch der Bartanatomie]]
-*   [[Bibliothek_Astrael_Regeln|Regulatorium der Bibliothek zum Heiligen Auge Astraels]]
+*   [[Bibliothek_Astrael_Regeln|Regulatorium der [[index]] zum Heiligen Auge Astraels]]
 *   [[Bragarim|Bragarim]]
 *   [[Brandensteiner_Reiter|Brandensteiner Reiter]]
 *   [[Bruderschaft_der_Tardukai|Bruderschaft der Tardukai]]
@@ -50,7 +50,7 @@ Das Archiv der Gesellschaft.
 *   [[Rasse_Elfen|Rasse [[Elfen]]]]
 *   [[Rasse_Menschen|Rasse [[Menschen]]]]
 *   [[Rasse_Zwerge|Rasse [[Zwerge]]]]
-*   [[Recht_Siebenwinds|Recht Siebenwinds (De Iuribus)]]
+*   [[Recht_Siebenwinds|[[index]] Siebenwinds (De Iuribus)]]
 *   [[Ring_des_Argionemes|Ring des Argionemes]]
 *   [[Ritterehre_De_Itinere_Honoris|Ritterehre (De Itinere Honoris)]]
 *   [[Sammler|Sammler]]
@@ -62,6 +62,6 @@ Das Archiv der Gesellschaft.
 *   [[Terra_Dorotor|Terra'Dorotor]]
 *   [[Tyrana_I|Tyrana I. Ahm Senal]]
 *   [[Ventusreiter|Ventusreiter]]
-*   [[Warenhaus_Vela_und_Arn|Warenhaus Vela und Arn]]
+*   [[Warenhaus_Vela_und_Arn|Warenhaus [[Vela]] und Arn]]
 *   [[XIII_Kronregiment|XIII. Kronregiment]]
 *   [[Zwerge|Zwerge]]

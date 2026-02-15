@@ -1,9 +1,9 @@
 ---
-title: Wirkung von Metallen auf arkane Kräfte (Edomawyr)
-file_name: Wirkung_von_Metallen_auf_arkane_Kraefte_(Edomawyr).md
+title: Wirkung von Metallen auf arkane Kräfte ([[Edomawyr]])
+file_name: Wirkung_von_Metallen_auf_arkane_Kraefte_([[Edomawyr]]).md
 description: Eine Untersuchung über den Einfluss verschiedener Metalle auf das Thaumaturgische Gitter und deren Eignung als magische Foki oder Störfaktoren.
 date: 2024-05-24
-author: Edomawyr (Original), Archivteam (Zusammenstellung)
+author: [[Edomawyr]] (Original), Archivteam (Zusammenstellung)
 ---
 
 # Die Wirkung von Metallen auf die arkanen Kräfte
@@ -20,10 +20,10 @@ Die Metalle entsprechen in ihrem Wesen den Elementarherren:
 
 | Metall | Element | Elementarherr | Wirkung als Fokus | Wirkung als Gegenfokus (Störung) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Bronze** | Feuer / Erde | Ingis / Rien | Feuer, Erde | Wasser, Luft |
+| **Bronze** | Feuer / Erde | Ingis / [[Rien]] | Feuer, Erde | Wasser, Luft |
 | **Gold** | Feuer | Ingis | Feuer | Wasser |
 | **Kupfer** | Feuer | Ingis | Feuer | Wasser |
-| **Silber** | Wasser | Xan | Wasser | Feuer |
+| **Silber** | Wasser | [[Xan]] | Wasser | Feuer |
 | **Stahl/Eisen** | Luft | Khalel | Luft | Erde |
 | **Fethril** | (Feuer?) | (Ingis?) | *Unbekannt (keine Probe)* | *Unbekannt* |
 
@@ -33,7 +33,7 @@ Die Metalle entsprechen in ihrem Wesen den Elementarherren:
 
 ### Das Problem der Hitze
 *   **Heißes Schmieden:** Zerstört die natürliche Ordnung der Elementarknoten im Metall.
-*   **Folge:** Das Metall verliert seine spezifische Fokus-Wirkung und wird zu einem **chaotischen Störfaktor** (Gegenfokus) für *alle* Arten von Magie. Dies erklärt, warum Magier keine geschmiedeten Rüstungen tragen können.
+*   **Folge:** Das Metall verliert seine spezifische Fokus-Wirkung und wird zu einem **chaotischen Störfaktor** (Gegenfokus) für *alle* Arten von [[index]]. Dies erklärt, warum Magier keine geschmiedeten Rüstungen tragen können.
 
 ### Kaltes Schmieden
 *   Nur kalt geschmiedetes Metall behält seine reine Struktur und könnte theoretisch als Fokus dienen.
@@ -46,4 +46,4 @@ Die Metalle entsprechen in ihrem Wesen den Elementarherren:
 
 ## Fazit
 
-Metalle sind in ihrer geschmiedeten Form fast immer hinderlich für die Magie. Eine gezielte Nutzung als Fokus (z.B. Kupfer für Feuermagie) wäre nur bei extrem aufwendiger kalter Verarbeitung und unter Vermeidung jeglicher Hitzbehandlung denkbar – eine in der Praxis kaum erreichbare Bedingung.
+Metalle sind in ihrer geschmiedeten Form fast immer hinderlich für die [[index]]. Eine gezielte Nutzung als Fokus (z.B. Kupfer für Feuermagie) wäre nur bei extrem aufwendiger kalter Verarbeitung und unter Vermeidung jeglicher Hitzbehandlung denkbar – eine in der Praxis kaum erreichbare Bedingung.

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Elares Valjean
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Elares Valjean

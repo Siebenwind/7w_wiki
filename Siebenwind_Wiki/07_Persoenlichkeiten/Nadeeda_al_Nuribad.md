@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Nadeeda al Nuribad
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Nadeeda al Nuribad

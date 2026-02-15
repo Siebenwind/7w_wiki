@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Arvid Ryandoris
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 134.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_134]].md
 ---
 # Arvid Ryandoris
 
@@ -16,7 +16,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 134.md
 ## Beschreibung
 **Arvid Ryandoris** ist ein Schmied aus Ventria. Er ist der Sohn von Ramirez Ryandoris und der Bruder von **[[Quendan_Ryandoris]]**.
 
-## Geschichte
+## [[index]]
 Arvid verließ seine Heimat, um auf [[Siebenwind]] sein Glück zu suchen. Er wird seitdem von seinem Bruder gesucht. Es wird vermutet, dass er unter dem Künstlernamen *Arvido D'Ryandoris* tätig ist.
 
 ---

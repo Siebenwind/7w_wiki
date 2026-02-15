@@ -16,15 +16,15 @@ Custodias ist eine der einflussreichsten geistlichen und politischen Figuren in 
 
 ## Karriere & Timeline
 - **15 n.H. (Bote 123):** Wirkt als Geweihter in [[Falkensee]], unterstützt das königliche Gericht.
-- **20 n.H. (Bote 173):** Weihe zum Geweihten (zusammen mit Myrandhir).
-- **20 n.H. (Bote 174):** Mit dem [[Der_Erlass_des_Koenigs|Erlass des Königs]] verliert Custodias den Titel "**Hüter des Großsiegels**", da der Inselrat aufgelöst wird.
-- **20 n.H. (Bote 175):** Der Dämon [[Der_Blinde_Maler|Blinde Maler]] entführt Laske. Custodias fordert den Dämon heraus, teilt das Leid und opfert schließlich sein **Augenlicht**, um Laske zu retten.
-- **21 n.H. (Bote 179):** Custodias führt eine Gruppe (u.a. Reto Finkenfahn) in die Globule des Hutmachers und vernichtet den Dämon mit Hilfe des Verräters Tarrant.
+- **20 n.H. (Bote 173):** Weihe zum Geweihten (zusammen mit [[Myrandhir]]).
+- **20 n.H. (Bote 174):** Mit dem [[Der_Erlass_des_Koenigs|Erlass des Königs]] verliert Custodias den Titel "**Hüter des Großsiegels**", da der [[Inselrat]] aufgelöst wird.
+- **20 n.H. (Bote 175):** Der Dämon [[Der_Blinde_Maler|Blinde Maler]] entführt [[Laske]]. Custodias fordert den Dämon heraus, teilt das Leid und opfert schließlich sein **Augenlicht**, um [[Laske]] zu retten.
+- **21 n.H. (Bote 179):** Custodias führt eine Gruppe (u.a. [[Reto_Finkenfahn]]) in die Globule des Hutmachers und vernichtet den Dämon mit Hilfe des Verräters [[Tarrant]].
 - **21 n.H. (6. Triar, Bote 181):** Ernennung zum **Hüter des Rechts** durch Rätin Aurora während der Ersonter Hofhaltung.
-- **21 n.H. (Bote 183/184):** [[Der_Putsch_von_Falkensee]]: Custodias gerät ins Visier der Ersonter Garde (Hauptmann Delarie/Steinhauer), die ihn des Hochverrats beschuldigt. Er tritt auf Druck von Malthust kurzzeitig zurück, wird aber im neuen Rat unter Aurora bestätigt.
+- **21 n.H. (Bote 183/184):** [[Der_Putsch_von_Falkensee]]: Custodias gerät ins Visier der Ersonter Garde (Hauptmann Delarie/[[Steinhauer]]), die ihn des Hochverrats beschuldigt. Er tritt auf Druck von Malthust kurzzeitig zurück, wird aber im neuen Rat unter Aurora bestätigt.
 - **22 n.H. (Bote 185):** Übernimmt erneut das Amt des **Calators** (Nachfolge von Galdiell).
-- **22 n.H. (Bote 186):** Custodias weiht den Novizen Ionas zum [[02_Astrael]]-Geweihten.
-- **~30 n.H. (Bote 193):** Vertretung der Baronie in Verhandlungen mit dem Lindwurm Akassvae unter Nutzung des "Pergaments Astraels".
+- **22 n.H. (Bote 186):** Custodias weiht den Novizen [[Ionas]] zum [[02_Astrael]]-Geweihten.
+- **~30 n.H. (Bote 193):** Vertretung der Baronie in Verhandlungen mit dem Lindwurm [[Akassvae]] unter Nutzung des "Pergaments Astraels".
 
 ## Wirken
 (Status: #canon) Custodias leitete zahlreiche Dämonenaustreibungen (u.a. gegen den "Hutmacher") und ist ein Verfechter der sahorgläubigen Ordnung. 

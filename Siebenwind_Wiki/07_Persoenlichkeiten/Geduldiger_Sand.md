@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Geduldiger Sand
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 193.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_193]].md
 ---
 # Geduldiger Sand
 
@@ -16,7 +16,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 193.md
 **Geduldiger Sand** ist ein Erdrufer (Magier/Schamane) der [[Echsenmenschen]], die in den [[Splitterfelsen]] leben. Er gilt als besonnen und pragmatisch im Vergleich zu den fanatischen Hohepriestern seines Volkes.
 
 ## Wirken
-Im Jahr 30 n.H. (Bote 193) fungierte er als offizieller Ansprechpartner für den Botschafter der Baronie, **[[Custodias]]**. Dank des magischen Pergaments Astraels konnte er direkt mit dem Menschen verhandeln. Er führte Custodias zu einer Audienz bei dem Lindwurm **[[Akassvae]]** und zeigte sich offen für alternative Lösungen zum Krieg, da er die Macht der ungeschuppten Völker respektiert. Er gilt als Schlüsselstelle für den angestrebten Friedensschluss auf der [[Winzerinsel]].
+Im Jahr 30 n.H. (Bote 193) fungierte er als offizieller Ansprechpartner für den Botschafter der Baronie, **[[Custodias]]**. Dank des magischen Pergaments Astraels konnte er direkt mit dem [[Menschen]] verhandeln. Er führte [[Custodias]] zu einer Audienz bei dem Lindwurm **[[Akassvae]]** und zeigte sich offen für alternative Lösungen zum Krieg, da er die Macht der ungeschuppten Völker respektiert. Er gilt als Schlüsselstelle für den angestrebten Friedensschluss auf der [[Winzerinsel]].
 
 ---
 **Siehe auch:** [[Echsenmenschen]], [[Akassvae]], [[Custodias]]

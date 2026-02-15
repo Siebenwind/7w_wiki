@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Sophalia
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Sophalia

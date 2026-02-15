@@ -4,12 +4,12 @@ title: Geschichte
 ---
 
 # [[Siebenwind]] Wiki - Geschichte
-Das Archiv der Geschichte.
+Das [[index]] der Geschichte.
 
 ## Inhalte
 
 ### Artikel
-*   [[Angriff_auf_Brandenstein_29_nH|Angriff auf Brandenstein (29 n.H.)]]
+*   [[Angriff_auf_Brandenstein_29_nH|Angriff auf [[Brandenstein]] (29 n.H.)]]
 *   [[Angriff_der_Schwarzmagier|Angriff der Schwarzmagier (18 n.H.)]]
 *   [[Anschlag_auf_den_Handelsbund|Anschlag auf den Handelsbund und Auflösung]]
 *   [[Aufbau_von_Greifenklipp|Aufbau von Greifenklipp]]
@@ -30,12 +30,12 @@ Das Archiv der Geschichte.
 *   [[Die_Mazzaremer|Die Mazzaremer]]
 *   [[Die_Spinnenplage_von_Falkensee|Die Spinnenplage von Falkensee]]
 *   [[Die_Tragödie_am_Wall|Die Tragödie am Wall]]
-*   [[Dunkeltief_29_nH|Dunkeltief 29 n.H.]]
-*   [[Entdeckung_der_Chernides_Muenze|Entdeckung der Chernides Münze]]
-*   [[Erhebung_Kaspar_Brandner|Erhebung Kaspar Brandner zum Freiherrn]]
+*   [[Dunkeltief_29_nH|[[Dunkeltief]] 29 n.H.]]
+*   [[Entdeckung_der_Chernides_Muenze|Entdeckung der [[Chernides]] Münze]]
+*   [[Erhebung_Kaspar_Brandner|Erhebung [[Kaspar_Brandner]] zum Freiherrn]]
 *   [[Ernennung_Wim_Derfflinger|Ernennung Wim Derfflinger]]
 *   [[Ernennung_von_Ayk_Areson|Ernennung von Ayk Areson]]
-*   [[Expedition_ins_Oedland_29_nH|Expedition ins Ödland (29 n.H.)]]
+*   [[Expedition_ins_Oedland_29_nH|Expedition ins [[Ödland]] (29 n.H.)]]
 *   [[Expedition_nach_Kesselklamm|Expedition nach Kesselklamm]]
 *   [[Gefecht_vor_Etriska|Das magische Gefecht vor Etriska]]
 *   [[Geschichte|Geschichte]]

@@ -27,7 +27,7 @@ Trotz dieses Bildes der Einheit herrscht innerhalb der Kirche oft Uneinigkeit ü
 
 ## Die Vier Götter und ihre Orden
 1.  **[[02_Astrael]] (Das Allsehende Auge):**
-    *   Aspekt: Wissen, Magie, Ordnung, Herrschaft.
+    *   Aspekt: [[index]], [[index]], Ordnung, Herrschaft.
     *   Orden: "Orden des Allsehenden Auges Astraels".
     *   Anhänger: Gelehrte, Magier, Richter, Herrscher.
     *   Zentrum: Herzogtum [[Region [[Sae]]|Sae]] (Lafay's Stab).

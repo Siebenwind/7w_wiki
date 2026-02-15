@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Postulat der idealen Form von Matricen"
-category: Gesellschaft
+category: [[index]]
 status: integrated
-quelle: "/Quellen/Bibliothek Astrael/Postulat der idealen Form von Matricen im Raum und in der Zeit.md"
+quelle: "/Quellen/[[index]] [[Astrael]]/Postulat der idealen Form von Matricen im Raum und in der Zeit.md"
 author: "Donarius Derrvus"
 ---
 
@@ -16,7 +16,7 @@ Derrvus unterteilt die Wirkkraft der Schöpfung in vier Ebenen absteigender Rein
 1. **Aziluth (Urkraft)**: Der reinste, abstrakte Entwurf der [[Gohor]]. Unfassbar.
 2. **Beriah (Göttliche Kraft)**: Die organisierte Kraft, derer sich die Götter ([[Siebenwind_Wiki/01_Pantheon/Gohor_Haeresie|Demiurgen]]) bedienen.
 3. **Jezirah (Astrale Kraft)**: Die intelligente Kraft, die seit Astraels Augenopfer zur Ausführung des Plans freigesetzt wurde.
-4. **Assiah (Manifestierte Materie)**: Das Ergebnis, die durch Elementare geformte Wirklichkeit.
+4. **Assiah (Manifestierte Materie)**: Das Ergebnis, die durch [[Elementare]] geformte Wirklichkeit.
 
 ## Kritik am Quantitäts-Qualitäts-Sprung
 Derrvus kritisiert Geidwenjas Ansatz, durch schiere Menge an Astralkraft einen Sprung zur göttlichen Wirkkraft zu erzwingen. Er bezeichnet dies als „Potenzierung durch Verrohung“ und fordert stattdessen den **Weg der Perfektion**: Die Vereinfachung und Idealisierung der Matrizen zu ihrer reinsten geometrischen Form.
@@ -33,6 +33,6 @@ Die ideale Struktur einer Matrix folgt der Zahlenlehre der Alten:
 ## Ziel der magischen Forschung
 Statt Materie nur umzuformen (Mutanda/Transformica), sollte das Ziel sein, die komplexen astralen Matrizen auf ihre zugrundeliegenden idealen Geometrien zu reduzieren, um sich dem Punkt (der Urquelle) zu nähern.
 
-## Personen
+## [[index]]
 * [[Donarius_Derrvus]] (Autor)
 * [[Geidwenja]] (Wissenschaftlicher Rivale)

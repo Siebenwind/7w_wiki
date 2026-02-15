@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Landrin Eisklinge
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 133.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_133]].md
 ---
 # Landrin Eisklinge
 

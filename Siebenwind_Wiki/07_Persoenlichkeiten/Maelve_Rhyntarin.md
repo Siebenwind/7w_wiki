@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Maelve Rhyntarin
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Maelve Rhyntarin

@@ -1,16 +1,43 @@
-## [2026-02-15.30] - Phase 1.13: Archiv-Deep-Integration & Research Board
+# Changelog
+
+<details open>
+<summary><b>[2026-02-15.29] - Project Evolution & Aesthetic Refinement</b></summary>
 ### Hinzugefügt
-- **Archiv-Integration**: Systemweite Verknüpfung von Ingestion Reports in das Wiki-Archiv (`docs/Archiv/Ingestion_Reports`).
-- **Research Board Expansion**: Neuer Forschungsauftrag [[RESEARCH-2026-008]] (Die Dur-Identität).
-- **Research Board Expansion**: Neuer Forschungsauftrag [[RESEARCH-2026-009]] (Gilden-Struktur & Handwerkstraditionen).
-- **Automatisierung**: `7w archive sync` zur automatisierten Wartung der Archiv-Symlinks.
-- **Skill-Evolution**: `Wiki-Schmied` integriert nun automatisch Prüfbericht-Referenzen (`[!ABSTRACT]`).
+- New Gargoyle Banner (Renaissance Style)
+- Automation Tools: link_guard.py, changelog_tool.py
+- Visual Standards: Epistemics Headers & Mermaid Genealogy
+- Content Excellency: Dossier Rhadan (DOS-2026-007)
+
+</details>
+
+
+<details>
+<summary><b>[Phase 1.6] - 2026-02-15</b></summary>
+
+### Hinzugefügt
+- Forschungsbericht RESEARCH-2026-008 (Die Dur-Identität) erstellt.
+- Forschungsbericht RESEARCH-2026-009 (Gilden-Struktur & Handwerk) erstellt.
+- Hauptartikel [[Gilden_und_Handwerk]] zum Wiki hinzugefügt.
 
 ### Geändert
-- **Navigation**: `mkdocs.yml` um den zentralen Bereich `📚 Das Archiv` erweitert.
-- **Workflows**: `ingestion_protocol` um den Synchronisationsschritt ergänzt.
+- [[Toran_Dur]] mit Informationen aus Bote 162 und dem redundanten Dur-Profil konsolidiert.
+- [[Organisationsregister]] und [[Personenregister]] aktualisiert.
+- MASTER_TASK_LIST.md und Research Board synchronisiert.
 
-## [2026-02-16.29] - Phase 1.12: Silicon Inquisition Batch 1 & Archive Sync
+### Entfernt
+- Redundantes Profil `07_Persoenlichkeiten/Dur.md` gelöscht.
+
+### Changed
+- WikiLink Engine: Migrated from `ezlinks` to `roamlinks` (Case-Sensitivity Fix).
+- Build Workflow: Replaced problematic symlinks in `docs/` with physical sync logic in `deploy.yml`.
+- Standardized file naming for "Das Ende der Zeit der Könige" (Removed pipes).
+- Registry Polish: Consolidated `Organisationsregister` and `Personenregister` into clean, continuous table formats.
+- Research Board: Standardized current task visualization in `MASTER_TASK_LIST.md`.
+</details>
+
+<details>
+<summary><b>[2026-02-16.29] - Phase 1.12: Silicon Inquisition Batch 1 & Archive Sync</b></summary>
+
 ### Hinzugefügt
 - **Silicon Inquisition**: Batch 1 vollständig abgeschlossen (10/10 Quellen).
 - **Archive Sync**: Neuer Befehl `./7w_wiki.py archive sync` zur automatischen Synchronisation von Ingestion Reports und Research Board in das `docs/Archiv` Verzeichnis (via Symlinks).
@@ -21,32 +48,47 @@
 - **Kirchenrecht**: Vollständige Integration des `Codex Iuris Canonici`.
 - **Redundanz**: Konsolidierung von `Briefe aus der Ferne` (Zusammenführung doppelter Artikel).
 - **CLI**: `7w_wiki.py` um das Subcommand `archive` erweitert.
+</details>
 
-## [2026-02-15.28] - Phase 1.11: CI/CD Reliability & Success
+<details>
+<summary><b>[2026-02-15.28] - Phase 1.11: CI/CD Reliability & Success</b></summary>
+
 ### Hinzugefügt
 - **Headers**: `docs/_headers` Datei zur Deaktivierung des CDN-Caches implementiert.
 
 ### Geändert
 - **Stability**: Build-Prozess in `deploy.yml` durch Entfernung von `--strict` stabilisiert.
 - **Engine**: Inkompatible Plugin-Parameter (`slugify`, `reference_type`) aus `mkdocs.yml` entfernt.
+</details>
 
-## [2026-02-15.27] - Phase 1.10: Link Engine Stabilization
+<details>
+<summary><b>[2026-02-15.27] - Phase 1.10: Link Engine Stabilization</b></summary>
+
 ### Geändert
 - **WikiLinks**: Umstellung des gesamten Link-Engine-Standards auf das `ezlinks`-Modell.
 - **Standard**: `STYLING.md` an die neue technische Realität angepasst.
+</details>
 
-## [2026-02-15.26] - Phase 1.9: CI/CD Troubleshooting
+<details>
+<summary><b>[2026-02-15.26] - Phase 1.9: CI/CD Troubleshooting</b></summary>
+
 ### Hinzugefügt
 - **Build**: Automatisierte Installation aller Abhängigkeiten via `requirements.txt` im CI-Workflow.
 - **Debug**: Transparenz-Schritte (`cat` Befehle) in die Build-Pipeline integriert.
+</details>
 
-## [2026-02-15.25] - Phase 1.8: Cleanup & Organization
+<details>
+<summary><b>[2026-02-15.25] - Phase 1.8: Cleanup & Organization</b></summary>
+
 ### Geändert
 - **Root-Ordner**: Verschiebung von Meta-Dokumenten (`STYLING.md`, `WORKFLOW_LORE_CONSISTENCY.md`, PDF-Analyse) nach `System/`.
 - **Assets**: Konsolidierung von `assets/` nach `System/Design_Assets/`.
 - **Cleanup**: Entfernung von `banner_proposal.png` und `git-push-log.aR0d5B`.
+</details>
 
-## [2026-02-15.24] - Phase 1.7: Styling & Engine Optimization
+<details>
+<summary><b>[2026-02-15.24] - Phase 1.7: Styling & Engine Optimization</b></summary>
+
 ### Hinzugefügt
 - **Build**: `requirements.txt` für automatisierten Plugin-Install auf GitHub Pages erstellt.
 - **Design**: Renaissance-Typografie (Inter & Cormorant Garamond) und Micro-Animations für Links.
@@ -55,8 +97,11 @@
 - **Plugins**: Migration von `wikilinks` (Extension) auf `mkdocs-ezlinks-plugin` (Plugin) zur Behebung der Broken Links.
 - **Header**: Quadratisches Banner durch horizontales „Modern Scholar“ Banner ersetzt (`docs/assets/banner.png`).
 - **UI**: Glassmorphism-Effekte für Header, Nav und Footer implementiert (Blured Transparency).
+</details>
 
-## [2026-02-15.23] - Phase 1.6: Structural Maintenance & Consistency Repair
+<details>
+<summary><b>[2026-02-15.23] - Phase 1.6: Structural Maintenance & Consistency Repair</b></summary>
+
 ### Hinzugefügt
 - **Persönlichkeiten**: 11 neue Profil-Stubs angelegt (u.a. [[Eliam_Schlosser]], [[Geist]], [[Himduir_III_ap_Vjer]]).
 
@@ -64,8 +109,11 @@
 - **Register**: Manuelle Deduplizierung von [[Chernides]] und [[Orgolosch]].
 - **Verknüpfung**: Korrekte Einbindung der [[Gropp_Zwillinge]] und [[Kregor_Arthax_Stahlauge]] ins Personenregister.
 - **Mission MSG-2026-0002**: Globale Bereinigung von absoluten `file://` Pfaden in Wiki- und System-Dokumenten.
+</details>
 
-## [2026-02-15.22] - Phase 1.5: Minimalist Restoration & Structural Purity
+<details>
+<summary><b>[2026-02-15.22] - Phase 1.5: Minimalist Restoration & Structural Purity</b></summary>
+
 ### Hinzugefügt
 - **Standard**: `STYLING.md` zur Kodifizierung des "Minimalist Tool" Ansatzes und der Symlink-Architektur.
 - **System**: Native `wikilinks` Extension aktiviert für stabilere `[[WikiLink]]` Auflösung auf GitHub Pages.
@@ -75,8 +123,11 @@
 - **Tonalität**: Vollständige Neutralisierung der Texte auf Landing-Page und Architektur-Dokumenten (Entfernung von "Flavor Text").
 - **Copyright**: Aktualisierung der Claims (LeCorbeau für Technik, Autoren/Projekt für Inhalte).
 - **Struktur**: Verifizierung und Sicherung der Symlink-Struktur (`docs/Siebenwind_Wiki` -> `Siebenwind_Wiki`).
+</details>
 
-## [2026-02-15.21] - Phase 20: Deep Bote Ingestion & Codex Delegation
+<details>
+<summary><b>[2026-02-15.21] - Phase 20: Deep Bote Ingestion & Codex Delegation</b></summary>
+
 ### Hinzugefügt
 - **Wiki-Inhalt (Chronik)**: Tiefgreifende Anreicherung der Boten-Seiten 186 bis 194.
 - **Persönlichkeiten**: Über 20 neue Profile erstellt (u.a. [[Solos_Nhergas]], [[Akassvae]], [[Helfric_von_Wallenburg]]).
@@ -87,8 +138,11 @@
 - **Register**: Über 40 Einträge in `Personenregister.md` und `Organisationsregister.md` synchronisiert.
 - **Konfiguration**: `.gitignore` um Delegations-Dateien erweitert.
 - **Handover**: `MASTER_TASK_LIST.md` auf Phase 20 aktualisiert.
+</details>
 
-## [2026-02-15.20] - Production Persistence Layer (Conclusions, Ideas, Artworks, Presentations)
+<details>
+<summary><b>[2026-02-15.20] - Production Persistence Layer (Conclusions, Ideas, Artworks, Presentations)</b></summary>
+
 ### Hinzugefügt
 - **Protokoll**: `System/PRODUCTION_PROTOCOL.md` als verbindliche Persistenzregel für erzeugte Artefakte.
 - **Präsentation**: `Logs/Presentations/2026-02-15_Interop_Dossier_Praesentation.md`.
@@ -98,8 +152,11 @@
 ### Geändert
 - **Standards**: `SY_STANDARDS.md` um `PRODUCTION_PROTOCOL` ergänzt.
 - **Coordination Hub**: Register um Produktionsprotokoll und Vorlage erweitert.
+</details>
 
-## [2026-02-15.19] - Interop Phase 3: Relative Links, Workflow Runtime Markers, Re-Evaluation
+<details>
+<summary><b>[2026-02-15.19] - Interop Phase 3: Relative Links, Workflow Runtime Markers, Re-Evaluation</b></summary>
+
 ### Hinzugefügt
 - **Dossier**: `Logs/Ingestion/2026-02-15_Interop_Dossier_Phase3.md` als offizieller Nachher-Befund.
 - **Workflow-Härtung**: `runtime_commands`/`method_only` Blöcke in den Department-Workflows ergänzt.
@@ -108,22 +165,11 @@
 - **Pfad-Normierung**: Antigravity-Workflows und Koordinationsdokumente auf kontextkorrekte relative Links umgestellt.
 - **Inquisition-Quellenverweise**: Historian-Report und Manifest von absoluten URI-Referenzen auf relative Pfade migriert.
 - **Re-Audit**: Linkkonsistenz nach Migration verifiziert; nur definierte Platzhalter bleiben offen.
+</details>
 
-## [2026-02-14.18] - News Reconstruction, Forum Indexing, and Synapse Dispatch
-### Hinzugefügt
-- **News-Archiv**: Vollstaendige Quellenanlage fuer Homepage-News ab 2010 unter `Quellen/News/` (standardisiertes Frontmatter).
-- **Forum-Kategorien**: Neue Quellenkategorien `Quellen/Forum/Bekanntmachungen` und `Quellen/Forum/Newsticker` fuer technische/teambezogene Forenhinweise.
-- **Synapse Dispatch**:
-    - Neues Board-Dokument `System/Synapse_Board/SY_DISPATCH.md`.
-    - Persistente Queue unter `System/Synapse_Board/DISPATCH/`.
-    - Neue CLI-Erweiterung `7w mail ...` fuer Agent-zu-Agent Nachrichten (`post`, `inbox`, `read`, `claim`, `done`).
+<details>
+<summary><b>[2026-02-15.01] - Phase 19.4: Structural Purity & Automation</b></summary>
 
-### Geändert
-- **Chronik**: `Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md` um News- und Forum-Auswertung erweitert.
-- **Standards**: `System/Synapse_Board/SY_STANDARDS.md` um Board-Eintrag `SY_DISPATCH` erweitert.
-- **CLI**: `7w_wiki.py` um Subcommand `mail` ergaenzt.
-
-## [2026-02-15.01] - Phase 19.4: Structural Purity & Automation
 ### Hinzugefügt
 - **Automatisierung**: Skript `generate_wiki_indices.py` zur automatischen Erstellung von Kategorie-Indizes.
 - **CLI**: Neuer Befehl `./7w_wiki.py index-pages` zur Wartung der Wiki-Hierarchie.
@@ -133,99 +179,11 @@
 - **Navigation**: Umstellung auf explizite Pfade in `mkdocs.yml` zur Vermeidung von 404-Fehlern in Unterverzeichnissen.
 - **Branding**: Bereinigung der Homepage von veraltetem Slogan-Lore ("Diskretion").
 - **Statistiken**: Dashboard-Refresh für den neuen Struktur-Stand.
+</details>
 
-## [2026-02-14.17] - Phase 19: Light Sanguine & General Abstraction
-### Hinzugefügt
-- **Visuals**: Neues "Light Sanguine" Branding-System (Rötelzeichnung im Leonardo-Stil).
-- **Asset-Archiv**: Dediziertes Archiv unter `docs/assets/archive/` für Design-Konzepte.
-- **Mockups**: High-Fidelity UI-Mockup des Interface-Konzepts für zukünftige Iterationen (Sanguine-Stil).
+<details>
+<summary><b>[2026-02-14.9] - Documentation & Maintenance: Path D (Der Chronist)</b></summary>
 
-### Geändert
-- **Interface Design**: Umstellung auf v2.4 (Paper-Minimalism, Thin Lines, Sanguine & Sepia).
-- **Integrität**: Korrektur von Rendering-Fehlern in Markdown-Tabellen (Register).
-- **Abstraktion**: Wechsel von spezifischer Astrael-Symbolik zu allgemeiner Architektur-Geometrie.
-
-## [2026-02-14.16] - Phase 19: GitHub Pages Overhaul & Link Repair
-### Hinzugefügt
-- **Wiki-Plugins**: Aktivierung von `mkdocs-roamlinks-plugin` zur Unterstützung von `[[WikiLinks]]`.
-- **Visuals**: Vollständiges Redesign der Homepage (`index.md`) im "Lore Engine" Stil.
-- **Navigation**: Strukturierte `mkdocs.yml` mit Direktzugriff auf Register und Chronik.
-- **GitHub Actions**: Automatisierte Installation der notwendigen Plugins im Deployment-Workflow.
-
-### Geändert
-- **Link-System**: Konvertierung aller statischen Pfade in `index.md` auf relative Formate.
-- **Aestetik**: Umstellung der Farbpalette auf "Slate & Gold" (Renaissance-Tech Look).
-- **Cleanup**: Entfernung der Art-Director-Sektion von der Homepage (Fokus auf Lore & Tech).
-
-### Hinzugefügt
-- **Visual Identity**: Premium-Banner ("Anatomia Magica Mundi"), Logo und Favicon im Renaissance-Stil implementiert.
-- **System**: CLI zu `7w_wiki.py` vereinheitlicht; `Art Director` Skill für Stil-Konsistenz installiert.
-- **GitHub**: Repository erfolgreich an Org `Siebenwind` übertragen und via GitHub Pages deployt.
-
-## [2026-02-14.13] - Batch 26: Toran Dur Ingestion (Pfad A)
-### Hinzugefügt
-- **Wiki-Content**:
-    - **Magietheorie**: `Locus_Magicae.md`, `Magietheorie_Toran_Dur.md` (Arcana Procella), `Artefaktlehre.md`.
-    - **Forschung**: `Bartanatomie.md` (Goldaxt), `Finsterwangen.md` (Krise 14 n.H.), `Brandenstein.md` (Diamant-Matrix).
-    - **Bestiarium**: Klassifizierung nach Liebig (**Lazperday** vs **Warthun**).
-- **Register**:
-    - Neue Personas: `Birnbaum`, `Fogrim Goldaxt`, `Logrin Goldaxt`, `Johannes Klos`, `Johann Liebig`, `Hernaphas Lenarmberg`, `Hahngard Esteron`.
-    - Updates: `Kida Gilwen`, `Kalveron Dai`.
-
-## [2026-02-14.12] - Batch 27: Toran Dur Advanced Doctrines (Sub-Batches 1-4)
-### Hinzugefügt
-- **Wiki-Content**:
-    - **Constructs**: `Konstruktbau_und_Ariin.md`, `Erschaffene_Diener.md`.
-    - **Arcane Science**: `Arkan-Metalle.md`, `Elementare_Atomlehre.md`.
-    - **Combat/Defense**: `Antimagie_und_Gegenzauber.md`, `Arkane_Kriegfuehrung.md`.
-    - **Transformation/Gems**: `Metamorphose_und_Gestaltwandel.md`, `Vjera_Batama_Magica.md`.
-- **Register**:
-    - Synchronisation der Magister: `Edomawyr`, `Jennaia Lavrial`, `Nistram Rigas`, `Erynnion Comari`, `Lewyn Anacar`, `Sylest le Felyhn`.
-    - Manuelle Bereinigung und Deduplizierung (u.a. `Arenus`, `Tanthul`, `Nefustor`, `Amanda Dunkelbaum`).
-    - Neueinträge: `Arlin Sturmfels`, `Santanos Alexandrius von Eichstatt`.
-
-### Geändert
-- **Wiki-Statistiken**: Dashboard aktualisiert (1027 Artikel, 546 Persönlichkeiten).
-
-## [2026-02-14.11] - Infrastructure: Ingestion 3.0 & Oracle Hardening
-### Hinzugefügt
-- **Ingestion v3.0**: 
-    - Einführung des **Lore Quality Score (LQS)** (0-10) zur Bewertung von Extraktionen.
-    - Neues Template: `System/Templates/INGESTION_REPORT_TEMPLATE.md`.
-    - Dedizierter Ablageort für Reports: `Logs/Ingestion/`.
-- **Sandbox-Resilience**:
-    - Automatische Sandbox-Erkennung via `ANTIGRAVITY_AGENT` und `ANTIGRAVITY_SANDBOX`.
-    - Implementierung von `local_files_only=True` für embedding und reranking Modelle.
-
-### Geändert
-- **Orakel-Optimierung**: 
-    - Behebung der XLMRoberta-Warnung durch gezielten Proxy-Logging-Patch (Monkey-Patch).
-    - Performance-Bestätigung (Search ~20s in Sandbox-Umgebung).
-- **Projekt-Wartung**: 
-    - Repository-Cleanup (Löschen von Root-Junk wie `.DS_Store`, `missing_links.txt`, `walkthrough.md`).
-    - Korrektur der Dokumentationspfade in `README.md`.
-    - Archivierung alter Logs in `Logs/Archive/`.
-
-### Entfernt
-- Veraltete `walkthrough.md` im Root-Verzeichnis.
-- Temporäre Register-Logs.
-
-## [2026-02-14.10] - Lore Reconstruction: The Origins of Siebenwind
-### Hinzugefügt
-- **Wiki-Archiv**: `Logs/Historian_Report_2026_003_Siebenwind_Origins.md` als Forschungs-Zusammenfassung erstellt.
-- **Geografie**: `Rohehafen.md` (Ehemalige Hauptstadt der ersten Kolonie) erstellt.
-
-### Geändert
-- **Lore-Zentralisierung**: 
-    - `Tiefenbach.md`: Status als Hauptstadt entfernt; Fokus auf Hafen und Magie-Akademie (historisch).
-    - `Finsterwangen.md`: Fokus auf den Sphärenriss und die Galahad-Verteidigung präzisiert.
-    - `Historie_&_Ären.md`: Umfassender Retcon der Hilgorad-Expedition (1 n.H.) und der "Ersten Kolonie".
-    - `Hilgorad_I_ap_Mer.md`: Rolle als Expeditions-Initiator ergänzt.
-    - `Siebenwind.md`: Regionen-Übersicht um Rohehafen ergänzt.
-    - `Stadtchronik_Rohehafens.md`: Als historisches Dokument markiert (vordatiert auf ca. 5 n.H.).
-- **Research Board**: RESEARCH-2026-005 und 006 als `COMPLETED` markiert.
-
-## [2026-02-14.9] - Documentation & Maintenance: Path D (Der Chronist)
 ### Hinzugefügt
 - **Wiki-Statistiken**: Neues Statistik-Dashboard generiert (984 Artikel, 521 Persönlichkeiten). Dokumentiert unter `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md`.
 - **Projekt-Wartung**: Überprüfung der zentralen Dokumentation (`README.md`, `WORKFLOW_LORE_CONSISTENCY.md`, `SYNAPSEN_SYSTEM_SPEC.md`).
@@ -233,8 +191,30 @@
 
 ### Geändert
 - **Wiki-Integrität**: Validierung der Pfade für Lore-Engineering-Dokumente im `.agent/docs/` Verzeichnis.
+</details>
 
-## [2026-02-14.7] - Phase 17: Infrastructure & Intelligence
+<details>
+<summary><b>[2026-02-14.8] - Batch 25c: Toran Dur Reports & Order of the Lion</b></summary>
+
+### Hinzugefügt
+- **Wiki-Content**:
+    - **Toran Dur**: Umfassendes Personenprofil und Biographie.
+    - **Forschungsberichte**: Integration von `Forschungsberichte (Toran Dur)`, `Index Siebenwind (Toran Dur)`, `Die Sprache Run (Toran Dur)`.
+    - **Magietheorie**: Integration von `Die Magie (Toran Dur)`, `Lehrbuch der Magietheorie (Toran Dur)`, `Theorien der Magie (Toran Dur)`, `Magica Curativa (Toran Dur)`, `Daimonologie und Schwarze Magie (Toran Dur)`.
+    - **Historie/Recht**: `Die Ordenssatzung des Ordens vom Wachenden Löwen (Toran Dur)`, `Graue Charta (Zweiter Entwurf)`.
+- **Register**:
+    - **Löwenorden**: Erfassung der Gründungsmitglieder 17 n.H. (`Cendaric Tibur`, `Lothar Gavinwald`, `Akora Dur`, `Dorion Hali`).
+    - **Personen**: Diverser Magier und Zeitgenossen (`Nefustor`, `Rianna`, `Caieta Ajunier`, etc.).
+- **System**:
+    - `INVENTUR_QUELLEN.md`: Status-Update für 20+ Toran Dur Dateien auf `Integrated`.
+
+### Geändert
+- **Personenregister**: Konsolidierung von Cendaric Tibur (Baron & Ordensmeister) und Dorion Hali (Physikus & Ordensmeister).
+</details>
+
+<details>
+<summary><b>[2026-02-14.7] - Phase 17: Infrastructure & Intelligence</b></summary>
+
 ### Hinzugefügt
 - **Finsterwangen / Tiefenbach Korrektur**:
     - `Tiefenbach.md`: Als historische Hauptstadt ("Jassavia-Analogie" auf der Insel) definiert.
@@ -258,24 +238,11 @@
 - **Orakel-Redirection**: Aggressive Umleitung aller HuggingFace- und Transformers-Caches in das Projektverzeichnis (`.agent/data/models`) zur Umgehung von Sandbox-Restriktionen.
 - **Orakel-Redirection**: Aggressive Umleitung aller HuggingFace- und Transformers-Caches in das Projektverzeichnis (`.agent/data/models`) zur Umgehung von Sandbox-Restriktionen.
 - **Indexer-Stabilität**: Fix eines kritischen Bugs im Index-Builder, der bei Einzeldatei-Updates fälschlicherweise den restlichen Index gelöscht hat.
+</details>
 
-## [2026-02-14.8] - Batch 25c: Toran Dur Reports & Order of the Lion
-### Hinzugefügt
-- **Wiki-Content**:
-    - **Toran Dur**: Umfassendes Personenprofil und Biographie.
-    - **Forschungsberichte**: Integration von `Forschungsberichte (Toran Dur)`, `Index Siebenwind (Toran Dur)`, `Die Sprache Run (Toran Dur)`.
-    - **Magietheorie**: Integration von `Die Magie (Toran Dur)`, `Lehrbuch der Magietheorie (Toran Dur)`, `Theorien der Magie (Toran Dur)`, `Magica Curativa (Toran Dur)`, `Daimonologie und Schwarze Magie (Toran Dur)`.
-    - **Historie/Recht**: `Die Ordenssatzung des Ordens vom Wachenden Löwen (Toran Dur)`, `Graue Charta (Zweiter Entwurf)`.
-- **Register**:
-    - **Löwenorden**: Erfassung der Gründungsmitglieder 17 n.H. (`Cendaric Tibur`, `Lothar Gavinwald`, `Akora Dur`, `Dorion Hali`).
-    - **Personen**: Diverser Magier und Zeitgenossen (`Nefustor`, `Rianna`, `Caieta Ajunier`, etc.).
-- **System**:
-    - `INVENTUR_QUELLEN.md`: Status-Update für 20+ Toran Dur Dateien auf `Integrated`.
+<details>
+<summary><b>[2026-02-14.6] - Batch 25: Toran Dur Magie-Bibliothek & System Audit</b></summary>
 
-### Geändert
-- **Personenregister**: Konsolidierung von Cendaric Tibur (Baron & Ordensmeister) und Dorion Hali (Physikus & Ordensmeister).
-
-## [2026-02-14.6] - Batch 25: Toran Dur Magie-Bibliothek & System Audit
 ### Hinzugefügt
 - **Batch 25: Toran Dur Library**:
     - Integration der magietheoretischen Grundlagen (8 Texte: Matrix, Elemente, Zensor etc.).
@@ -302,8 +269,11 @@
 ### Geändert
 - **7w CLI (`7w_wiki.py`)**: Advisor-Modus ist nun der Default-Befehl (Situationsbewusstsein bei Start).
 - **Onboarding (`takeover.md`)**: Mandat für High-Verification und Subdivision-Prinzipien.
+</details>
 
-## [2026-02-14.4] - Batch 23: Astrael Religious Texts
+<details>
+<summary><b>[2026-02-14.4] - Batch 23: Astrael Religious Texts</b></summary>
+
 ### Hinzugefügt
 - **Batch 23: Bibliothek Astrael**:
     - Integration von 8 religiösen Texten und Mythen: `Der_Blutrote_Stier`, `Der_Traum_der_Tausend`, `Der_letzte_Falke`, `Der_naive_Mensch`, `Die_Eisernen_Tafeln`, `Die_Goldenen_Tafeln`, `Die_Silbernen_Tafeln`, `Die_Legende_von_Galahad_Ritter_der_Rosen`.
@@ -311,8 +281,11 @@
 - **System-Wartung**:
     - Vorbereitende Konsistenzprüfung und Bereinigung von 13 initialen Fehlern (Gorem, etc.).
     - Bereinigung von Duplikaten (Aspin, Athos) nach Register-Sync.
+</details>
 
-## [2026-02-14.3] - Spielergeschichten Integration (Batches 20-22)
+<details>
+<summary><b>[2026-02-14.3] - Spielergeschichten Integration (Batches 20-22)</b></summary>
+
 ### Hinzugefügt
 - **Batch 20: Dark Lore & Cults**:
     - Neue Artikel: `Die_Namikleris`, `Kraken`, `Logbuch_des_Kerkers`, `Solfeister_Kin`, `Die_Verbrennung_des_heiligen_Markus`, `Ritus_Gebet_und_Erleuchtung`.
@@ -328,8 +301,11 @@
 ### Geändert
 - **Personenregister**: Bereinigung von Duplikaten und Konsolidierung von Einträgen (Akora, Taleris, Rajka).
 - **Ingestion Log**: Lückenlose Dokumentation aller Verarbeitungsschritte.
+</details>
 
-## [2026-02-14.3] - Recherche Marnie Ruatha & Handover
+<details>
+<summary><b>[2026-02-14.3] - Recherche Marnie Ruatha & Handover</b></summary>
+
 ### Hinzugefügt
 - **Forschungsbericht**: `Forschungsbericht_Marnie_Ruatha.md` (Intern) erstellt.
     - Zusammenstellung der Biographischen Daten (Hafenvogtin 19-21 n.H., Asyl 22 n.H.).
@@ -342,8 +318,11 @@
 - **Dokumentation**:
     - `MASTER_TASK_LIST.md`: Aktualisiert.
     - `Wiki_Statistiken.md`: Neu generiert (837 Artikel, 472 Persönlichkeiten).
+</details>
 
-## [2026-02-14.2] - Synapsen-System v2.0 & Register-Consolidation
+<details>
+<summary><b>[2026-02-14.2] - Synapsen-System v2.0 & Register-Consolidation</b></summary>
+
 ### Hinzugefügt
 - **Synapsen-System v2.0**: Erfolgreicher End-to-End Test des neuen Konfliktlösungs-Frameworks.
     - **Lore Trust Score (0-10)**: Automatisierte Berechnung integriert (`lore_score_manager.py`).
@@ -357,9 +336,137 @@
 
 ### Geändert
 - **Priorisierung**: User-Eingaben (`#user_canon`) sind nun vom Trust-Score entkoppelt (Score reflektiert Quellenreinheit, nicht Zustimmung).
+</details>
 
+<details>
+<summary><b>[2026-02-14.18] - News Reconstruction, Forum Indexing, and Synapse Dispatch</b></summary>
 
-## [2026-02-14.1] - Historiker-Review: Delarie & Glaron
+### Hinzugefügt
+- **News-Archiv**: Vollstaendige Quellenanlage fuer Homepage-News ab 2010 unter `Quellen/News/` (standardisiertes Frontmatter).
+- **Forum-Kategorien**: Neue Quellenkategorien `Quellen/Forum/Bekanntmachungen` und `Quellen/Forum/Newsticker` fuer technische/teambezogene Forenhinweise.
+- **Synapse Dispatch**:
+    - Neues Board-Dokument `System/Synapse_Board/SY_DISPATCH.md`.
+    - Persistente Queue unter `System/Synapse_Board/DISPATCH/`.
+    - Neue CLI-Erweiterung `7w mail ...` fuer Agent-zu-Agent Nachrichten (`post`, `inbox`, `read`, `claim`, `done`).
+
+### Geändert
+- **Chronik**: `Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md` um News- und Forum-Auswertung erweitert.
+- **Standards**: `System/Synapse_Board/SY_STANDARDS.md` um Board-Eintrag `SY_DISPATCH` erweitert.
+- **CLI**: `7w_wiki.py` um Subcommand `mail` ergaenzt.
+</details>
+
+<details>
+<summary><b>[2026-02-14.17] - Phase 19: Light Sanguine & General Abstraction</b></summary>
+
+### Hinzugefügt
+- **Visuals**: Neues "Light Sanguine" Branding-System (Rötelzeichnung im Leonardo-Stil).
+- **Asset-Archiv**: Dediziertes Archiv unter `docs/assets/archive/` für Design-Konzepte.
+- **Mockups**: High-Fidelity UI-Mockup des Interface-Konzepts für zukünftige Iterationen (Sanguine-Stil).
+
+### Geändert
+- **Interface Design**: Umstellung auf v2.4 (Paper-Minimalism, Thin Lines, Sanguine & Sepia).
+- **Integrität**: Korrektur von Rendering-Fehlern in Markdown-Tabellen (Register).
+- **Abstraktion**: Wechsel von spezifischer Astrael-Symbolik zu allgemeiner Architektur-Geometrie.
+</details>
+
+<details>
+<summary><b>[2026-02-14.16] - Phase 19: GitHub Pages Overhaul & Link Repair</b></summary>
+
+### Hinzugefügt
+- **Wiki-Plugins**: Aktivierung von `mkdocs-roamlinks-plugin` zur Unterstützung von `[[WikiLinks]]`.
+- **Visuals**: Vollständiges Redesign der Homepage (`index.md`) im "Lore Engine" Stil.
+- **Navigation**: Strukturierte `mkdocs.yml` mit Direktzugriff auf Register und Chronik.
+- **GitHub Actions**: Automatisierte Installation der notwendigen Plugins im Deployment-Workflow.
+
+### Geändert
+- **Link-System**: Konvertierung aller statischen Pfade in `index.md` auf relative Formate.
+- **Aestetik**: Umstellung der Farbpalette auf "Slate & Gold" (Renaissance-Tech Look).
+- **Cleanup**: Entfernung der Art-Director-Sektion von der Homepage (Fokus auf Lore & Tech).
+
+### Hinzugefügt
+- **Visual Identity**: Premium-Banner ("Anatomia Magica Mundi"), Logo und Favicon im Renaissance-Stil implementiert.
+- **System**: CLI zu `7w_wiki.py` vereinheitlicht; `Art Director` Skill für Stil-Konsistenz installiert.
+- **GitHub**: Repository erfolgreich an Org `Siebenwind` übertragen und via GitHub Pages deployt.
+</details>
+
+<details>
+<summary><b>[2026-02-14.13] - Batch 26: Toran Dur Ingestion (Pfad A)</b></summary>
+
+### Hinzugefügt
+- **Wiki-Content**:
+    - **Magietheorie**: `Locus_Magicae.md`, `Magietheorie_Toran_Dur.md` (Arcana Procella), `Artefaktlehre.md`.
+    - **Forschung**: `Bartanatomie.md` (Goldaxt), `Finsterwangen.md` (Krise 14 n.H.), `Brandenstein.md` (Diamant-Matrix).
+    - **Bestiarium**: Klassifizierung nach Liebig (**Lazperday** vs **Warthun**).
+- **Register**:
+    - Neue Personas: `Birnbaum`, `Fogrim Goldaxt`, `Logrin Goldaxt`, `Johannes Klos`, `Johann Liebig`, `Hernaphas Lenarmberg`, `Hahngard Esteron`.
+    - Updates: `Kida Gilwen`, `Kalveron Dai`.
+</details>
+
+<details>
+<summary><b>[2026-02-14.12] - Batch 27: Toran Dur Advanced Doctrines (Sub-Batches 1-4)</b></summary>
+
+### Hinzugefügt
+- **Wiki-Content**:
+    - **Constructs**: `Konstruktbau_und_Ariin.md`, `Erschaffene_Diener.md`.
+    - **Arcane Science**: `Arkan-Metalle.md`, `Elementare_Atomlehre.md`.
+    - **Combat/Defense**: `Antimagie_und_Gegenzauber.md`, `Arkane_Kriegfuehrung.md`.
+    - **Transformation/Gems**: `Metamorphose_und_Gestaltwandel.md`, `Vjera_Batama_Magica.md`.
+- **Register**:
+    - Synchronisation der Magister: `Edomawyr`, `Jennaia Lavrial`, `Nistram Rigas`, `Erynnion Comari`, `Lewyn Anacar`, `Sylest le Felyhn`.
+    - Manuelle Bereinigung und Deduplizierung (u.a. `Arenus`, `Tanthul`, `Nefustor`, `Amanda Dunkelbaum`).
+    - Neueinträge: `Arlin Sturmfels`, `Santanos Alexandrius von Eichstatt`.
+
+### Geändert
+- **Wiki-Statistiken**: Dashboard aktualisiert (1027 Artikel, 546 Persönlichkeiten).
+</details>
+
+<details>
+<summary><b>[2026-02-14.11] - Infrastructure: Ingestion 3.0 & Oracle Hardening</b></summary>
+
+### Hinzugefügt
+- **Ingestion v3.0**: 
+    - Einführung des **Lore Quality Score (LQS)** (0-10) zur Bewertung von Extraktionen.
+    - Neues Template: `System/Templates/INGESTION_REPORT_TEMPLATE.md`.
+    - Dedizierter Ablageort für Reports: `Logs/Ingestion/`.
+- **Sandbox-Resilience**:
+    - Automatische Sandbox-Erkennung via `ANTIGRAVITY_AGENT` und `ANTIGRAVITY_SANDBOX`.
+    - Implementierung von `local_files_only=True` für embedding und reranking Modelle.
+
+### Geändert
+- **Orakel-Optimierung**: 
+    - Behebung der XLMRoberta-Warnung durch gezielten Proxy-Logging-Patch (Monkey-Patch).
+    - Performance-Bestätigung (Search ~20s in Sandbox-Umgebung).
+- **Projekt-Wartung**: 
+    - Repository-Cleanup (Löschen von Root-Junk wie `.DS_Store`, `missing_links.txt`, `walkthrough.md`).
+    - Korrektur der Dokumentationspfade in `README.md`.
+    - Archivierung alter Logs in `Logs/Archive/`.
+
+### Entfernt
+- Veraltete `walkthrough.md` im Root-Verzeichnis.
+- Temporäre Register-Logs.
+</details>
+
+<details>
+<summary><b>[2026-02-14.10] - Lore Reconstruction: The Origins of Siebenwind</b></summary>
+
+### Hinzugefügt
+- **Wiki-Archiv**: `Logs/Historian_Report_2026_003_Siebenwind_Origins.md` als Forschungs-Zusammenfassung erstellt.
+- **Geografie**: `Rohehafen.md` (Ehemalige Hauptstadt der ersten Kolonie) erstellt.
+
+### Geändert
+- **Lore-Zentralisierung**: 
+    - `Tiefenbach.md`: Status als Hauptstadt entfernt; Fokus auf Hafen und Magie-Akademie (historisch).
+    - `Finsterwangen.md`: Fokus auf den Sphärenriss und die Galahad-Verteidigung präzisiert.
+    - `Historie_&_Ären.md`: Umfassender Retcon der Hilgorad-Expedition (1 n.H.) und der "Ersten Kolonie".
+    - `Hilgorad_I_ap_Mer.md`: Rolle als Expeditions-Initiator ergänzt.
+    - `Siebenwind.md`: Regionen-Übersicht um Rohehafen ergänzt.
+    - `Stadtchronik_Rohehafens.md`: Als historisches Dokument markiert (vordatiert auf ca. 5 n.H.).
+- **Research Board**: RESEARCH-2026-005 und 006 als `COMPLETED` markiert.
+</details>
+
+<details>
+<summary><b>[2026-02-14.1] - Historiker-Review: Delarie & Glaron</b></summary>
+
 ### Geändert
 - **Waldemar Delarie (`Waldemar_Delarie.md`)**:
     - **Timeline-Retcon**: "Reise nach Papin" von 25-28 n.H. auf **21 n.H.** korrigiert (Fit für Bote 183/Putsch).
@@ -370,12 +477,19 @@
     - **OOC-Integration**: Berücksichtigung der späteren Erhebung zum Ritter und der Auflösung des "Diener des Einen"-Plots.
 - **System**:
     - **Orakel**: Permission-Issue bei `search.py` dokumentiert (Workaround via grep genutzt).
+</details>
 
-## [2026-02-13.9] - Wiki Consistency Restoration- 🏛️ **Total Consistency Restoration:** Alle 69+ Konsistenzprobleme im Personenregister behoben (0 Duplikate, 0 Orphans, 0 Missing Profiles).
+<details>
+<summary><b>[2026-02-13.9] - Wiki Consistency Restoration- 🏛️ **Total Consistency Restoration:** Alle 69+ Konsistenzprobleme im Personenregister behoben (0 Duplikate, 0 Orphans, 0 Missing Profiles).</b></summary>
+
 - ✍️ **Stub Creation:** 57 neue Profil-Stubs für registrierte Charaktere erstellt.
 - 🔗 **Register Fixes:** Naming-Mismatches (Apostrophe, Leerzeichen) in `Personenregister.md` korrigiert.
 - 📜 **New Workflow:** `/repair` Workflow zur systematischen Fehlerbehebung implementiert.
-## [2026-02-13.8] - Epistemics & Source Ingestion Audit (Interrupted)
+</details>
+
+<details>
+<summary><b>[2026-02-13.8] - Epistemics & Source Ingestion Audit (Interrupted)</b></summary>
+
 ### Hinzugefügt
 - **Epistemisches System**: Formale Einführung der Verlässlichkeitsränge (#canon, #bote, #perspektive, #überlieferung) im Style Guide und in der Eskalationsmatrix des RVW-Loops.
 - **Ingestion Log**: Dokumentation der Re-Scan Ergebnisse für ~30 Spielergeschichten (Batches 1-8).
@@ -387,8 +501,11 @@
 ### Ergebnisse
 - Das Wiki verfügt nun über ein robustes System zur Handhabung von Wahrheitsansprüchen.
 - Ein Großteil der Spielergeschichten ist metadata-technisch saniert; Entitäten sind für die Register-Integration im Log gesichert.
+</details>
 
-## [2026-02-13.7] - Narrative Enrichment & Orphan Resolution
+<details>
+<summary><b>[2026-02-13.7] - Narrative Enrichment & Orphan Resolution</b></summary>
+
 ### Hinzugefügt
 - **Narrative Enrichment**:
     - `narrative_enrichment.md`: Neuer Workflow für "Roman-Qualität".
@@ -405,8 +522,11 @@
 ### Ergebnisse
 - Das Personenregister ist bereinigt und vollständig.
 - Erste Schlüsselcharaktere (Ionas, Maichellis) entsprechen dem neuen Qualitätsstandard.
+</details>
 
-## [2026-02-13.7] - Feature Drop: Orakel & Skills v2.0
+<details>
+<summary><b>[2026-02-13.7] - Feature Drop: Orakel & Skills v2.0</b></summary>
+
 ### Hinzugefügt
 - **Das Orakel:** Vollständiges RAG-System (Search, Indexing, MPS-Tuning).
 - **Skills v2.0:**
@@ -428,8 +548,11 @@
     - Updated `Organisationsregister.md` (Added `Kult_des_Einen`).
     - Verified `Zeitleiste` (21 n.H. entries).
 - **Wiki-Statistiken:** Aktualisiert via `/stats`.
+</details>
 
-## [2026-02-13.5] - Phase 13 Abschluss (Falkensee Putsch)
+<details>
+<summary><b>[2026-02-13.5] - Phase 13 Abschluss (Falkensee Putsch)</b></summary>
+
 ### Hinzugefügt
 - **Phase 13 (Boten 181-185):** Integrated 5 issues.
     - Standardized Boten 181-185.
@@ -442,8 +565,11 @@
 - Der "Putsch von Falkensee" ist nun vollständig dokumentiert.
 - Die Timeline für das Jahr 21 n.H. ist mit Bote 185 abgeschlossen.
 - Wiki-Statistiken wurden aktualisiert (`/stats`).
+</details>
 
-## [2026-02-13.4] - Phase 11 Abschluss & Phase 12 Vorbereitung
+<details>
+<summary><b>[2026-02-13.4] - Phase 11 Abschluss & Phase 12 Vorbereitung</b></summary>
+
 ### Hinzugefügt
 - **Phase 12 Planung:** Detaillierte Recherche der Boten 176-180 (Bestie von Brandenstein, Troll-Krieg, Spinnenplage, Mord an Palanthas).
 - `implementation_plan.md`: Update mit granularer Task-Liste für Phase 12.
@@ -460,8 +586,11 @@
 ### Ergebnisse
 - Das Fundament für die Integration der Boten 176-180 ist gelegt.
 - Kritische Ereignisse (Rücktritt Noalim, Tod Falk, Mord Palanthas) sind identifiziert und vorbereitet.
+</details>
 
-## [2026-02-13.3] - Wiki-Statistiken & Dokumentations-Audit
+<details>
+<summary><b>[2026-02-13.3] - Wiki-Statistiken & Dokumentations-Audit</b></summary>
+
 ### Hinzugefügt
 - `.agent/scripts/generate_wiki_stats.py`: Automatisiertes Statistik-Dashboard (Ingestion, Lore-Dichte, Epistemik, Link-Hubs, Temporal-Density).
 - `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md`: Visualisierte KPIs mit Mermaid-Charts.
@@ -477,35 +606,17 @@
 ### Ergebnisse
 - **666 Artikel**, **349 Persönlichkeiten**, **~98k Wörter**, **72 Links/1k Wörter** (Vernetzungsgrad).
 - MkDocs-Build erfolgreich (3.99s, keine Errors).
+</details>
 
-## [2026-02-13.2] - [ ] **Phase 14: Spielergeschichten Re-Scan** – Fortsetzung der Ingestion (Batches 9+), Register-Sync der extrahierten Entitäten.
+<details>
+<summary><b>[2026-02-13.2] - [ ] **Phase 14: Spielergeschichten Re-Scan** – Fortsetzung der Ingestion (Batches 9+), Register-Sync der extrahierten Entitäten.</b></summary>
+
 - [x] Laufende Register-Synchronisation (Personen, Organisationen, Bestiarium)
+</details>
 
-## 🔴 Priorität 3: Qualität & Politur
-- [x] **Orphan-Resolution:** 25 verwaiste Profile bearbeitet (Duplikate gelöscht, Register ergänzt)
-- [x] Review wichtiger Stubs auf "Roman-Qualität" (Ionas, Maichellis Wanderstern)
-- [ ] Überprüfung der bi-direktionalen Verlinkung (Backlinks unter `## Überlieferungen`)
-- [x] **Epistemik-System:** Formale Trust-Hierarchy und Eskalationsmatrix implementiert.
-- [x] Bereinigung des [[Konsistenzbericht_2026.md]] (Status `⚠️ Offen` in Audit-Prozess überführt)
+<details>
+<summary><b>[2026-02-13.2] - Audit der Magieschulen (Kanon-Härtung)</b></summary>
 
-## 🧠 Priorität 3b: Intelligente Wissensvernetzung (Phase 3)
-- [/] **Das Orakel** – RAG-System (Semantische Vektorsuche)
-  - [x] Architektur & Modellauswahl (jina-embeddings-v3 + bge-reranker-v2-m3)
-  - [x] Setup, Indexierung & Verifikation (Auto-Config via `benchmark_hardware.py`)
-  - [x] Historiker-Workflow (Deep Lore Review: Benedict Rabenfels abgeschlossen)
-- [x] Register-Audit & Cleanup (Manuelle Bereinigung und Duplikat-Entfernung Feb 2026)
-- [x] **Audit der Magieschulen** (Kanon-Bereinigung & Erstellung fehlender Institutionen)
-
-## 🔮 Future / Backlog (Ideenspeicher)
-- [ ] **Skill: „Der Kartograph“** – Geographische Datenverwaltung, Koordinaten-Sync, Reisezeiten-Berechnung.
-- [ ] **Skill: „Der Herold“** – Automatische Generierung von In-Game-Newslettern aus Wiki-Änderungen.
-- [ ] **Workflow: `/map_sync`** – Verknüpfung von Wiki-Orten mit der Weltkarte.
-- [ ] **Workflow: `/changelog_generate`** – Erstellung von "Was ist neu in der Welt"-Berichten.
-- [ ] **Workflow: `/cleanup`** – Automatisches Finden und Bereinigen von file-URLs in Wiki-Artikeln.
-
----
-*Zuletzt aktualisiert: 13.02.2026 durch Antigravity (Epistemics & Ingestion)*
-## [2026-02-13.2] - Audit der Magieschulen (Kanon-Härtung)
 ### Hinzugefügt
 - **Kanonische Institutionen**: 
     - `Königliche Akademie der arkanen Künste` (Zentrales Element).
@@ -538,41 +649,11 @@
 - **Lore:** Dokumentation der Argionemes-Verschwörung und der Schwarzen Legion.
 - **Wartung:** Konsolidierung von Dubletten und Update des Personenregisters.
 - Klare Trennung zwischen aktiven (Königliche Akademie) und historischen (Tiefenbach, Schwarze Künste) Magieschulen hergestellt.
+</details>
 
-## [1.12.0] - 2026-02-15
-### Added
-- `System/SYSTEM_INTEGRITY.md`: Codification of directory structures and safety rules.
-- Redirection Stubs: `Hochelfen.md`, `Löwenorden.md`, etc. to fix WikiLink aliases.
+<details>
+<summary><b>[2026-02-13.1] - Historiker-Review & Register-Cleanup</b></summary>
 
-## [Phase 1.6] - 2026-02-15
-### Hinzugefügt
-- Forschungsbericht RESEARCH-2026-008 (Die Dur-Identität) erstellt.
-- Forschungsbericht RESEARCH-2026-009 (Gilden-Struktur & Handwerk) erstellt.
-- Hauptartikel [[Gilden_und_Handwerk]] zum Wiki hinzugefügt.
-
-### Geändert
-- [[Toran_Dur]] mit Informationen aus Bote 162 und dem redundanten Dur-Profil konsolidiert.
-- [[Organisationsregister]] und [[Personenregister]] aktualisiert.
-- MASTER_TASK_LIST.md und Research Board synchronisiert.
-
-### Entfernt
-- Redundantes Profil `07_Persoenlichkeiten/Dur.md` gelöscht.
-
-### Changed
-- WikiLink Engine: Migrated from `ezlinks` to `roamlinks` (Case-Sensitivity Fix).
-- Build Workflow: Replaced problematic symlinks in `docs/` with physical sync logic in `deploy.yml`.
-- Standardized file naming for "Das Ende der Zeit der Könige" (Removed pipes).
-- Registry Polish: Consolidated `Organisationsregister` and `Personenregister` into clean, continuous table formats.
-- Research Board: Standardized current task visualization in `MASTER_TASK_LIST.md`.
-
-## [1.11.0] - 2026-02-15
-- **Ingestion:** Verarbeitung von 5 Spielergeschichten (Batch 19).
-- **Entitäten:** Erstellung von 12+ neuen Personenprofilen und 3 Organisationen.
-- **Lore:** Dokumentation der Argionemes-Verschwörung und der Schwarzen Legion.
-- **Wartung:** Konsolidierung von Dubletten und Update des Personenregisters.
-- Klare Trennung zwischen aktiven (Königliche Akademie) und historischen (Tiefenbach, Schwarze Künste) Magieschulen hergestellt.
-
-## [2026-02-13.1] - Historiker-Review & Register-Cleanup
 ### Hinzugefügt
 - `Logs/Historiker_Bericht_Rabenfels_2026.md`: Detaillierter Bericht über Benedict Rabenfels und die Führungskrise des Löwenordens.
 
@@ -591,8 +672,11 @@
 ### Ergebnisse
 - Das Profil von Benedict Rabenfels wurde dekomponiert, die Erkenntnisse aber im Historiker-Bericht gesichert.
 - Die Register-Synchronität wurde durch die Konsolidierung von Mehrfacheinträgen signifikant verbessert.
+</details>
 
-## [2026-02-12.5] - Konsistenz-Offensive & Workflow-Härtung
+<details>
+<summary><b>[2026-02-12.5] - Konsistenz-Offensive & Workflow-Härtung</b></summary>
+
 ### Hinzugefügt
 - `.agent/scripts/register_check.py`: Automatisiertes Audit-Tool (findet Duplikate, Orphans, Boten-Lücken, Index-Lücken).
 - `Logs/Audit_Report_2026-02-12.md`: Detaillierter Bestandsbericht der Register-Integrität.
@@ -610,8 +694,11 @@
 ### Ergebnisse
 - Audit identifizierte 9 echte Personenduplikate, 22 Orphans, 10 fehlende Boten (Quellen existieren) und 15 Index-Lücken.
 - "Orts-Stubs" Issue (Brandenstein, Falkensee, Greifenklipp) final gelöst.
+</details>
 
-## [2026-02-12.4] - Das Orakel (RAG-System)
+<details>
+<summary><b>[2026-02-12.4] - Das Orakel (RAG-System)</b></summary>
+
 ### Hinzugefügt
 - `.agent/skills/oracle/SKILL.md`: Skill-Definition für semantische Vektorsuche.
 - `.agent/skills/oracle/build_index.py`: Indexierungsskript mit Semantic-Aware Chunking, Auto-Tagging, zwei getrennten Collections.
@@ -624,15 +711,21 @@
 - **Embedding:** `jinaai/jina-embeddings-v3` (570M Params, 8192 Token Kontext, LoRA-Adapter)
 - **Re-Ranker:** `BAAI/bge-reranker-v2-m3` (568M Params, Cross-Encoder)
 - **Chunking:** 2500 Zeichen, 300 Overlap, Paragraph-/Satz-aware Splitting
+</details>
 
-## [2026-02-12.3] - GitHub-Interaktivität & Automatisierung
+<details>
+<summary><b>[2026-02-12.3] - GitHub-Interaktivität & Automatisierung</b></summary>
+
 ### Hinzugefügt
 - `.github/workflows/deploy.yml`: Automatische Konvertierung und Deployment nach GitHub Pages.
 - `mkdocs.yml`: Konfiguration für das professionelle Wiki-Layout (MkDocs Material).
 - `.github/ISSUE_TEMPLATE/lore_conflict.yml`: Strukturierte Lore-Tickets für Nutzer.
 - `.agent/workflows/contrib_audit.md`: Neuer Prozess für die Prüfung von Community-Beiträgen (PRs).
+</details>
 
-## [2026-02-12.2] - Projekt-Reorganisation & Cleanup
+<details>
+<summary><b>[2026-02-12.2] - Projekt-Reorganisation & Cleanup</b></summary>
+
 ### Hinzugefügt
 - Strukturierte Unterverzeichnisse: `.agent/prompts/`, `.agent/scripts/`, `.agent/docs/`, `Logs/Archive/`.
 
@@ -640,8 +733,11 @@
 - **Projekt-Struktur**: Alle Management-Dateien, Prompts und Skripte wurden aus dem Root-Verzeichnis in logische Unterordner verschoben.
 - **Referenz-Update**: Alle internen Pfade in README, Workflows, Master-Prompts und Skripten wurden an die neue Struktur angepasst.
 - **Cleanup**: Temporäre Extraktionslogs und alte Zips wurden nach `Logs/Archive/` verschoben.
+</details>
 
-## [2026-02-12.1] - Infrastruktur-Update & Massen-Integration
+<details>
+<summary><b>[2026-02-12.1] - Infrastruktur-Update & Massen-Integration</b></summary>
+
 ### Hinzugefügt
 - `source_integrator.py`: Skript zur Integration hochwertiger Markdown-Quellen und Archivierung von Originalen.
 - `reference_fixer.py`: Skript zur Korrektur interner Wiki-Links von `.html` zu `.md`.
@@ -654,6 +750,62 @@
 ### Integriert
 - 254 Markdown-Quellen erfolgreich ins Wiki-System integriert.
 - `Brevier der Kirche der Viere.md` als neue Quelle identifiziert und verarbeitet.
+
+---
+*Archivar: Antigravity*
+</details>
+
+<details>
+<summary><b>[1.12.0] - 2026-02-15</b></summary>
+
+### Added
+- `System/SYSTEM_INTEGRITY.md`: Codification of directory structures and safety rules.
+- Redirection Stubs: `Hochelfen.md`, `Löwenorden.md`, etc. to fix WikiLink aliases.
+</details>
+
+<details>
+<summary><b>[1.11.0] - 2026-02-15</b></summary>
+
+- **Ingestion:** Verarbeitung von 5 Spielergeschichten (Batch 19).
+- **Entitäten:** Erstellung von 12+ neuen Personenprofilen und 3 Organisationen.
+- **Lore:** Dokumentation der Argionemes-Verschwörung und der Schwarzen Legion.
+- **Wartung:** Konsolidierung von Dubletten und Update des Personenregisters.
+- Klare Trennung zwischen aktiven (Königliche Akademie) und historischen (Tiefenbach, Schwarze Künste) Magieschulen hergestellt.
+</details>
+
+<details>
+<summary><b>🔴 Priorität 3: Qualität & Politur</b></summary>
+
+- [x] **Orphan-Resolution:** 25 verwaiste Profile bearbeitet (Duplikate gelöscht, Register ergänzt)
+- [x] Review wichtiger Stubs auf "Roman-Qualität" (Ionas, Maichellis Wanderstern)
+- [ ] Überprüfung der bi-direktionalen Verlinkung (Backlinks unter `## Überlieferungen`)
+- [x] **Epistemik-System:** Formale Trust-Hierarchy und Eskalationsmatrix implementiert.
+- [x] Bereinigung des [[Konsistenzbericht_2026.md]] (Status `⚠️ Offen` in Audit-Prozess überführt)
+</details>
+
+<details>
+<summary><b>🧠 Priorität 3b: Intelligente Wissensvernetzung (Phase 3)</b></summary>
+
+- [/] **Das Orakel** – RAG-System (Semantische Vektorsuche)
+  - [x] Architektur & Modellauswahl (jina-embeddings-v3 + bge-reranker-v2-m3)
+  - [x] Setup, Indexierung & Verifikation (Auto-Config via `benchmark_hardware.py`)
+  - [x] Historiker-Workflow (Deep Lore Review: Benedict Rabenfels abgeschlossen)
+- [x] Register-Audit & Cleanup (Manuelle Bereinigung und Duplikat-Entfernung Feb 2026)
+- [x] **Audit der Magieschulen** (Kanon-Bereinigung & Erstellung fehlender Institutionen)
+</details>
+
+<details>
+<summary><b>🔮 Future / Backlog (Ideenspeicher)</b></summary>
+
+- [ ] **Skill: „Der Kartograph“** – Geographische Datenverwaltung, Koordinaten-Sync, Reisezeiten-Berechnung.
+- [ ] **Skill: „Der Herold“** – Automatische Generierung von In-Game-Newslettern aus Wiki-Änderungen.
+- [ ] **Workflow: `/map_sync`** – Verknüpfung von Wiki-Orten mit der Weltkarte.
+- [ ] **Workflow: `/changelog_generate`** – Erstellung von "Was ist neu in der Welt"-Berichten.
+- [ ] **Workflow: `/cleanup`** – Automatisches Finden und Bereinigen von file-URLs in Wiki-Artikeln.
+
+---
+*Zuletzt aktualisiert: 13.02.2026 durch Antigravity (Epistemics & Ingestion)*
+</details>
 
 ---
 *Archivar: Antigravity*

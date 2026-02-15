@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Barad Hael
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Barad Hael

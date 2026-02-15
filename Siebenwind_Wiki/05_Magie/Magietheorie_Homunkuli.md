@@ -1,19 +1,19 @@
 ---
 layout: wiki_page
 title: "Magietheorie: Homunkuli"
-category: Magie
+category: [[index]]
 status: Canon
-quelle: "../../Quellen/Bibliothek Toran Dur/Anonymous - Homunkuli.md"
+quelle: "../../Quellen/[[index]] [[Toran_Dur]]/Anonymous - Homunkuli.md"
 lore_trust: 8
 confidence: Certain
-author: "Anonymus"
+author: "[[Anonymus]]"
 ---
 
 # Homunkuli ("Die falschen Seelen")
 
 **Epistemischer Status:** #verboten (Schwarzmagie/Graumagie Grenzbereich)
 
-Homunkuli sind künstlich erschaffene Wesen mit eigenem Bewusstsein, die (anders als Golems) über eine Art "falsche Seele" verfügen.
+Homunkuli sind künstlich erschaffene Wesen mit eigenem Bewusstsein, die (anders als [[Golems]]) über eine Art "falsche Seele" verfügen.
 
 ## Herkunft
 *   **Ursprung:** Vermutlich um 843 n.E.A. (Magierkriege).
@@ -36,4 +36,4 @@ Der Magier bietet einen Teil seiner eigenen Seele in der Zwischenwelt an.
 *Warnung:* Das Ritual ist extrem kraftzehrend und lebensgefährlich.
 
 ## Referenzen
-- Primärquelle: [Anonymous - Homunkuli](../../Quellen/Bibliothek%20Toran%20Dur/Anonymous%20-%20Homunkuli.md)
+- Primärquelle: [Anonymous - Homunkuli](../../Quellen/[[index]]%20Toran%20Dur/Anonymous%20-%20Homunkuli.md)

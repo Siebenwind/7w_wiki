@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sandir"
-category: Personen
+category: [[index]]
 ---
 
 # Sandir

@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Garreth Moss
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 154.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_154]].md
 ---
 # Garreth Moss
 
@@ -14,7 +14,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 154.md
 
 ## Beschreibung
 **Magister Garreth Moss** ist ein fähiger Magier, der sich in die Gestalt eines Falken verwandeln kann.
-*   **18 n.H. (Bote 154):** Rettung der Tochter von [[Caeden_Ecanas]] aus dem Ödland durch List und Falkengestalt.
+*   **18 n.H. (Bote 154):** Rettung der Tochter von [[Caeden_Ecanas]] aus dem [[Ödland]] durch List und Falkengestalt.
 *   **18 n.H. (Bote 158):** Ernennung zum **Leiter des Weißen Pfades** an der [[Magierakademie]] (Nachfolger von Kalvaron Dai). Beteiligung an der Abwehr der Untoten bei Kesselklamm.
 
 ---

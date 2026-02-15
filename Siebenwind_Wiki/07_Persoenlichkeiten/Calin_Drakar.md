@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Calin Drakar
-category: Personen
+category: [[index]]
 ---
 
 # Calin Drakar

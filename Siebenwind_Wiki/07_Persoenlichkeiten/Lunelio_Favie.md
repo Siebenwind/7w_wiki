@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Lunelio Favie
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 154.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_154]].md
 ---
 # Lunelio Favie
 

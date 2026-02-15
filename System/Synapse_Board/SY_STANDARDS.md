@@ -17,6 +17,11 @@ Hier werden alle verbindlichen Verfahrensempfehlungen, Ingestion-Standards und t
 - **Tagging**: Hypothesen müssen mit `#user_speculation` oder `#ai_theory` markiert sein.
 - **Administration**: Rein AI-gesteuert, aber für den User (Mensch) transparent lesbar.
 
+### Standard 2026-004: Archiv-Hygiene (Changelog)
+- **Sortierung**: Das Changelog (`CHANGELOG.md`) wird strikt in **umgekehrt chronologischer** Reihenfolge geführt.
+- **Struktur**: Nutzung von `<details>` Tags für alle historischen Einträge, um die Scannability zu erhalten.
+- **Aktualität**: Der Header muss das Format `[YYYY-MM-DD.Version]` enthalten.
+
 ## 📠 Interface-Spezifikation (Nutzung der Boards)
 
 | Board | Aktion durch Agent | Erwartetes Ergebnis |

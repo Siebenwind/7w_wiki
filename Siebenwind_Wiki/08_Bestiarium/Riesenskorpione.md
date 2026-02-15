@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Riesenskorpione
-category: Bestiarium
+category: [[index]]
 ---
 
 # Riesenskorpione

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Fayola
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Fayola

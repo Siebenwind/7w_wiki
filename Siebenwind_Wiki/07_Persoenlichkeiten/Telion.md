@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Telion
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 146.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_146]].md
 ---
 # Telion
 

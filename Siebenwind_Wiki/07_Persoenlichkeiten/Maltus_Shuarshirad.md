@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Maltus Shuarshirad"
-category: Personen
+category: [[index]]
 ---
 
 # Maltus Shuarshirad

@@ -1,17 +1,17 @@
 ---
 layout: wiki_page
 title: Cylia Rosenmond
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Cylia Rosenmond
 
-**Titel:** Reporterin / Redakteurin des Siebenwind Boten
+**Titel:** Reporterin / Redakteurin des [[Siebenwind]] Boten
 **Epistemischer Status:** #bote
 **Zugehörigkeit:** [[Siebenwind_Bote]] / [[Falkensee]]
 
 ## Beschreibung
-**Cylia Rosenmond** ist eine Reporterin für den [[Siebenwind_Bote|Siebenwind Boten]]. Sie berichtet regelmäßig über gesellschaftliche Ereignisse in [[Falkensee]], wie Markttage oder kuriose Vorkommnisse (z.B. der "Ork im Baum" im Tempelbezirk). 
+**Cylia Rosenmond** ist eine Reporterin für den [[Siebenwind_Bote|[[Siebenwind]] Boten]]. Sie berichtet regelmäßig über gesellschaftliche Ereignisse in [[Falkensee]], wie Markttage oder kuriose Vorkommnisse (z.B. der "Ork im Baum" im Tempelbezirk). 
 
 ---
 **Siehe auch:** [[Siebenwind_Bote_186]], [[Falkensee]]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Alashar"
-category: Personen
+category: [[index]]
 ---
 
 # Alashar

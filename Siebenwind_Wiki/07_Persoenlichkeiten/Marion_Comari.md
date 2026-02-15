@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Marion Comari
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Marion Comari

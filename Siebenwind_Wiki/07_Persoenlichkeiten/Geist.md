@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Geist
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 uuid: ef8b5c3d-3456-6789-0123-45bf2597e836
 epistemic: "#bote"
 ---

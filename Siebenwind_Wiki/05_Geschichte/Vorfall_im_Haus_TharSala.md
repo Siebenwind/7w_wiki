@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Vorfall im Haus Thar'Sala
-category: Geschichte
+category: [[index]]
 ---
 
 # Vorfall im Haus Thar'Sala
@@ -12,8 +12,8 @@ category: Geschichte
 
 ## Verlauf
 Das Elfenhaus "Thar'Sala" wurde vom [[Lehensbanner]] abgeriegelt und durchsucht.
-Auslöser war ein Angriff eines Elfen mit vermuteter **Schwarzer Magie** auf eine Wache.
-Bei der Durchsuchung wurden menschliche Organe (Herz, Hirn) und dunkle Notizen gefunden. Dies führte zu Gerüchten über Kannibalismus und Paktiererei unter den Elfen, insbesondere gegen [[Ravia_Thyrandor]].
+Auslöser war ein Angriff eines [[Elfen]] mit vermuteter **Schwarzer [[index]]** auf eine Wache.
+Bei der Durchsuchung wurden menschliche Organe (Herz, Hirn) und dunkle Notizen gefunden. Dies führte zu Gerüchten über Kannibalismus und Paktiererei unter den [[Elfen]], insbesondere gegen [[Ravia_Thyrandor]].
 
 ---
 **Siehe auch:** [[Elfen]], [[Brandenstein]], [[Ravia_Thyrandor]]

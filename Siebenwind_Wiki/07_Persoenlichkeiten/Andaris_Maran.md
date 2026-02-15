@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Andaris Maran"
-category: Personen
+category: [[index]]
 ---
 
 # Andaris Maran

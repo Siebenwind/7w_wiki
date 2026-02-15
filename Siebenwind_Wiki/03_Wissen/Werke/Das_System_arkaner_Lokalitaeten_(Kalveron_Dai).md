@@ -1,14 +1,14 @@
 ---
-title: Das System arkaner Lokalitäten (Kalveron Dai)
+title: Das System arkaner Lokalitäten ([[Kalveron_Dai]])
 file_name: Das_System_arkaner_Lokalitaeten_(Kalveron_Dai).md
-description: Eine Magisterarbeit von Kalveron Dai über das Aufspüren, Klassifizieren und Nutzen von arkanen Orten (Knotenpunkten) mittels Flux- und Gittersicht.
+description: Eine Magisterarbeit von [[Kalveron_Dai]] über das Aufspüren, Klassifizieren und Nutzen von arkanen Orten (Knotenpunkten) mittels Flux- und Gittersicht.
 date: 2024-05-24
-author: Kalveron Dai (Original), Archivteam (Zusammenstellung)
+author: [[Kalveron_Dai]] (Original), Archivteam (Zusammenstellung)
 ---
 
 # Das System arkaner Lokalitäten
 
-Verfasst von Magister [[Kalveron_Dai]] (Abschlussarbeit Tiefenbach, 13 n.H.).
+Verfasst von Magister [[Kalveron_Dai]] (Abschlussarbeit [[Tiefenbach]], 13 n.H.).
 
 ## Inhalt
 Die Arbeit beschäftigt sich mit der Identifikation und Analyse magischer Orte ("Arkane Lokalitäten"), an denen sich das Thaumaturgische Gitter verdichtet.
@@ -23,12 +23,12 @@ Dai beschreibt ein zweistufiges Verfahren zur Ortung:
 Lokalitäten werden nach **Quantität** (Stärke) und **Qualität** (Art) unterschieden:
 *   **Energiefluss:**
     *   *Passiv:* Natürliche, unberührte Häufung (Potential zum "Erwecken").
-    *   *Aktiv:* Durch Magie bereits geformt oder gebunden (erkennbar an Manipulationsmustern im Gitter).
-*   **Elementare Zuordnung:** Bestimmung des vorherrschenden Elements durch Knotenfärbung und Muster. (Geist/Wrathe wurde bisher nie als lokale Häufung gefunden).
+    *   *Aktiv:* Durch [[index]] bereits geformt oder gebunden (erkennbar an Manipulationsmustern im Gitter).
+*   **[[Elementare]] Zuordnung:** Bestimmung des vorherrschenden Elements durch Knotenfärbung und Muster. ([[Geist]]/Wrathe wurde bisher nie als lokale Häufung gefunden).
 *   **Wächter:** Identifikation von Wächter-Elementaren oder Geistern anhand ihrer spezifischen Signaturen im Gitter.
 
 ### 3. Anrufung
-Für die Kontaktaufnahme mit den Wächtern verweist Dai auf die Werke von **Rhadan** ("Traktate zur Ritualisierung") und **Aurax Ellrothon** ("Batama Magica" - Edelsteine).
+Für die Kontaktaufnahme mit den Wächtern verweist Dai auf die [[index]] von **Rhadan** ("Traktate zur Ritualisierung") und **[[Aurax_Ellrothon]]** ("Batama Magica" - Edelsteine).
 
 ## Zitat
 > "Der erste Schritt zur Auffindung einer solchen Lokalität sei das Sammeln von Informationen... ohne genaue Angaben über die Lage sind nähere Untersuchungen gänzlich unmöglich."

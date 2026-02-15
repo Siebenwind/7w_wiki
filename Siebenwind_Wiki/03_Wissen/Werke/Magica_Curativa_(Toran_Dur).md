@@ -6,15 +6,15 @@
 
 ## Inhalt
 
-Ein umfassendes Lehrbuch zur Heilmagie, verfasst von Toran Dur als Magister der Königlichen Magierakademie.
+Ein umfassendes Lehrbuch zur Heilmagie, verfasst von [[Toran_Dur]] als Magister der Königlichen Magierakademie.
 
 ### Grundprinzipien
 Das Werk betont ethische Grundsätze:
 1.  **Respekt vor dem Leben**: Heilung statt Schaden.
 2.  **Verantwortung**: Kenntnis der eigenen Grenzen.
-3.  **Ganzheitlichkeit**: Einbeziehung von Körper, Geist und Seele.
+3.  **Ganzheitlichkeit**: Einbeziehung von Körper, [[Geist]] und Seele.
 
-Es zitiert dabei auch Werke von [[Althea Danea]] (Kompendium der Weißmagie).
+Es zitiert dabei auch [[index]] von [[Althea Danea]] (Kompendium der Weißmagie).
 
 ### Fachbereiche
 Das Buch gliedert sich in mehrere Kapitel:
@@ -27,7 +27,7 @@ Das Buch gliedert sich in mehrere Kapitel:
 
 ### Anhang
 Das Werk verweist auf weiterführende Literatur, darunter:
-*   [[Toran Dur]]: Die Magie
-*   [[Sylest le Felyhn]]: Die erweiterte Thematik der Vjera Batama Magica
+*   [[Toran Dur]]: Die [[index]]
+*   [[Sylest le Felyhn]]: Die erweiterte Thematik der [[Vjera_Batama_Magica]]
 *   [[Edomwayr]]: Die Wirkung von Metallen auf die arkanen Kräfte
 *   [[Althea Danea]]: Kompendium der Weißmagie

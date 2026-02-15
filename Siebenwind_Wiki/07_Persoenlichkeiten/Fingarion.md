@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Fingarion
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 166.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_166]].md
 ---
 # Fingarion
 

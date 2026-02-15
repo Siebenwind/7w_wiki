@@ -1,11 +1,11 @@
-# Die Sprache Run
+# [[Die_Sprache_Run]]
 
 **Autor:** [[Toran Dur]]
-**Kategorie:** Linguistik / Alte Sprachen
+**Kategorie:** Linguistik / Alte [[index]]
 
 ## Inhalt
 
-Dieses Dokument beschreibt die Grammatik und das Vokabular der Sprache "Run", vermutlich eine alte oder magische Sprache, die Toran Dur erforscht hat.
+Dieses Dokument beschreibt die Grammatik und das Vokabular der Sprache "Run", vermutlich eine alte oder magische Sprache, die [[Toran_Dur]] erforscht hat.
 
 ### Grammatik
 Die Sprache verwendet spezifische Endungen, um Zeiten, Modi und Wortarten zu kennzeichnen:

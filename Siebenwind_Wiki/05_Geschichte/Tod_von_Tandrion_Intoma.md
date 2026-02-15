@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Tod von Tandrion Intoma
-category: Geschichte
+title: Tod von [[Tandrion_Intoma]]
+category: [[index]]
 ---
 
-# Tod von Tandrion Intoma
+# Tod von [[Tandrion_Intoma]]
 
 **Epistemischer Status:** #bote
 **Datum:** Anfang Querlar 22 n.H. (Bote 186)

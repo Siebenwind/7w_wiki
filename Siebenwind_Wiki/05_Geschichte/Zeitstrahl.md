@@ -23,11 +23,11 @@ category: Persönlichkeit
 
 **Titel:** Inselrichter (Dwarschim)
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Volk der Dwarschim / Königliches Gericht
+**Zugehörigkeit:** Volk der Dwarschim / [[Koenigliches_Gericht]]
 **Zeitraum:** Aktiv (Ernannt vor 123 n.H.)
 
 ## Beschreibung
-[[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone Recht spricht. | [[Altumion_Eisenbruch]] |
+[[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone [[index]] spricht. | [[Altumion_Eisenbruch]] |
 | 123 n.H. | ---
 layout: wiki_page
 title: [[Altumion_Eisenbruch]]
@@ -38,11 +38,11 @@ category: Persönlichkeit
 
 **Titel:** Inselrichter (Dwarschim)
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Volk der Dwarschim / Königliches Gericht
+**Zugehörigkeit:** Volk der Dwarschim / [[Koenigliches_Gericht]]
 **Zeitraum:** Aktiv (Ernannt vor 123 n.H.)
 
 ## Beschreibung
-[[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone Recht spricht. | [[Altumion_Eisenbruch]] |
+[[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone [[index]] spricht. | [[Altumion_Eisenbruch]] |
 | 123 n.H. | ---
 layout: wiki_page
 title: [[Altumion_Eisenbruch]]
@@ -53,11 +53,11 @@ category: Persönlichkeit
 
 **Titel:** Inselrichter (Dwarschim)
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Volk der Dwarschim / Königliches Gericht
+**Zugehörigkeit:** Volk der Dwarschim / [[Koenigliches_Gericht]]
 **Zeitraum:** Aktiv (Ernannt vor 123 n.H.)
 
 ## Beschreibung
-[[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone Recht spricht. | [[Altumion_Eisenbruch]] |
+[[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone [[index]] spricht. | [[Altumion_Eisenbruch]] |
 | 14 n.H. | ### Die Frühen Jahre (1 - 14 n.H.)
 Diese Zeit ist geprägt vom Wiederaufbau und der Festigung des Königreichs Galadon und der Kolonie [[Siebenwind]]. | [[Historie]] |
 | 14 n.H. | ### Die Frühen Jahre (1 - 14 n.H.)
@@ -71,7 +71,7 @@ Diese Zeit ist geprägt vom Wiederaufbau und der Festigung des Königreichs Gala
 | 15 n.H. | ---
 layout: wiki_page
 title: [[Historie_&_Ären]]
-category: Chronik
+category: [[index]]
 status: Kanon
 ---
 
@@ -79,11 +79,11 @@ status: Kanon
 
 **Epistemischer Status:** #bote
 
-Diese Chronik fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
+Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
 | 15 n.H. | ---
 layout: wiki_page
 title: [[Historie_&_Ären]]
-category: Chronik
+category: [[index]]
 status: Kanon
 ---
 
@@ -91,11 +91,11 @@ status: Kanon
 
 **Epistemischer Status:** #bote
 
-Diese Chronik fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
+Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
 | 15 n.H. | ---
 layout: wiki_page
 title: [[Historie_&_Ären]]
-category: Chronik
+category: [[index]]
 status: Kanon
 ---
 
@@ -103,7 +103,7 @@ status: Kanon
 
 **Epistemischer Status:** #bote
 
-Diese Chronik fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
+Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
 | 15 n.H. | *   [[Historie]] - Die großen Zeitalter und die [[index]] vor 15 n.H.
 *   [[Zeitleiste_15_30_nH]] - Die Ära des [[Siebenwind]] Boten. | [[index]] |
 | 15 n.H. | *   **Aktuelle Zeit:** Die Ereignisse des *[[Siebenwind]] Boten* spielen im Zeitraum **15 n.H. bis 30 n. | [[Zeitrechnung]] |
@@ -160,7 +160,7 @@ category: Persönlichkeit
 **Zeitraum:** Bis 18 n.H. (Lehnsherr & Großmeister)
 
 ## Beschreibung
-Hagen Robaar ist ein hochrangiger Blutsadliger des Hauses Saalhorn. | [[Hagen_Robaar]] |
+[[Hagen_Robaar]] ist ein hochrangiger Blutsadliger des Hauses Saalhorn. | [[Hagen_Robaar]] |
 | 18 n.H. | ---
 layout: wiki_page
 title: [[Hagen_Robaar_von_Saalhorn_und_Siebenwind]]
@@ -175,7 +175,7 @@ category: Persönlichkeit
 **Zeitraum:** Bis 18 n.H. (Lehnsherr & Großmeister)
 
 ## Beschreibung
-Hagen Robaar ist ein hochrangiger Blutsadliger des Hauses Saalhorn. | [[Hagen_Robaar]] |
+[[Hagen_Robaar]] ist ein hochrangiger Blutsadliger des Hauses Saalhorn. | [[Hagen_Robaar]] |
 | 18 n.H. | ---
 layout: wiki_page
 title: [[Hagen_Robaar_von_Saalhorn_und_Siebenwind]]
@@ -190,15 +190,15 @@ category: Persönlichkeit
 **Zeitraum:** Bis 18 n.H. (Lehnsherr & Großmeister)
 
 ## Beschreibung
-Hagen Robaar ist ein hochrangiger Blutsadliger des Hauses Saalhorn. | [[Hagen_Robaar]] |
+[[Hagen_Robaar]] ist ein hochrangiger Blutsadliger des Hauses Saalhorn. | [[Hagen_Robaar]] |
 | 18 n.H. | (aktuell Kanzlerin)
 
 ## Karriere & Timeline
-- **Vor 18 n.H.:** Lehenskämmerin und später Lehenskanzlerin unter Hagen Robaar (Bote 151). | [[Solos_Nhergas]] |
+- **Vor 18 n.H.:** Lehenskämmerin und später Lehenskanzlerin unter [[Hagen_Robaar]] (Bote 151). | [[Solos_Nhergas]] |
 | 18 n.H. | (aktuell Kanzlerin)
 
 ## Karriere & Timeline
-- **Vor 18 n.H.:** Lehenskämmerin und später Lehenskanzlerin unter Hagen Robaar (Bote 151). | [[Solos_Nhergas]] |
+- **Vor 18 n.H.:** Lehenskämmerin und später Lehenskanzlerin unter [[Hagen_Robaar]] (Bote 151). | [[Solos_Nhergas]] |
 | 18 n.H. | 15-18 n.H.). | [[Ritter_der_Sieben_Winde]] |
 | 19 n.H. | - **~19 n.H.:** Trennung vom [[Ordo_Belli]] (Heiliges Schwert) aufgrund von kircheninternen Unruhen und Einschränkungen. | [[Proveus_Herand]] |
 | 19 n.H. | - **19 n.H. (Bote 165):** Empfängt im Tempel zu [[Falkensee]] die **Weihe zum Geweihten des [[05_Morsan]]**. | [[Vincent_Ebenstein]] |
@@ -217,9 +217,9 @@ category: Persönlichkeit
 
 ## Beschreibung
 Kregor Stahlauge ist der politische und militärische Führer der [[Rasse_Zwerge]] in der Region Dunquell. | [[Kregor_Stahlauge]] |
-| 20 n.H. | - **~20 n.H. (Bote 175):** Erhebung zum **Erzgeweihten Vitamas** durch Erzgeweihte Arianna Morgentau am Vitamateich. | [[Benion_Sandelholz]] |
+| 20 n.H. | - **~20 n.H. (Bote 175):** Erhebung zum **Erzgeweihten Vitamas** durch Erzgeweihte [[Arianna_Morgentau]] am Vitamateich. | [[Benion_Sandelholz]] |
 | 20 n.H. | - **~20 n.H. (Bote 175):** Erhalt der **Erzweihe** durch Erzgeweihter Bernhardt Wiesinger im Bellumsschrein zu [[Brandenstein]]. | [[Proveus_Herand]] |
-| 20 n.H. | - **20 n.H. (Bote 173):** Weihe zum Geweihten (zusammen mit Myrandhir). | [[Custodias]] |
+| 20 n.H. | - **20 n.H. (Bote 173):** Weihe zum Geweihten (zusammen mit [[Myrandhir]]). | [[Custodias]] |
 | 20 n.H. | 20 n.H.). | [[Ritter_der_Sieben_Winde]] |
 | 21 n.H. | Abt
 **Epistemischer Status:** #canon
@@ -261,7 +261,7 @@ category: Persönlichkeit
 
 ## Beschreibung
 [[Proveus_Herand]] ist ein kriegerischer Geweihter des 03_Bellum. | [[Proveus_Herand]] |
-| 22 n.H. | - **22 n.H. (Bote 186):** [[Custodias]] weiht den Novizen Ionas zum 02_Astrael-Geweihten. | [[Custodias]] |
+| 22 n.H. | - **22 n.H. (Bote 186):** [[Custodias]] weiht den Novizen [[Ionas]] zum 02_Astrael-Geweihten. | [[Custodias]] |
 | 22 n.H. | ---
 layout: wiki_page
 title: [[Der_Flug_der_Ente]]
@@ -278,9 +278,9 @@ category: Erzählung
 **Status:** #perspektive #entdeckung
 
 ## Zusammenfassung
-Die Erzählung beschreibt die ehrgeizige Expedition von **Tintin** (Lazalantin), einem jungen Schiffsbauer und [[08_Ventus]]-Priester, der mit seinem selbstgebauten Schiff, der **"Ente"**, die Grenzen der bekannten Welt überschreitet. | [[Der_Flug_der_Ente]] |
-| 25 n.H. | - **~25 n.H.:** Reise nach **Papin**, um Goldbarren zur Unterstützung von Wallenburg an den Ersonter Bund (Graf Gero) zu übergeben. | [[Waldemar_Delarie]] |
-| 25 n.H. | (Status: #bote) **~25 n.H. (Bote 183):** [[Custodias]] gerät ins Visier der Ersonter Garde (Hauptmann Delarie/Steinhauer), die ihn des Hochverrats beschuldigt. | [[Custodias]] |
+Die Erzählung beschreibt die ehrgeizige Expedition von **Tintin** ([[Lazalantin]]), einem jungen Schiffsbauer und [[08_Ventus]]-Priester, der mit seinem selbstgebauten Schiff, der **"Ente"**, die Grenzen der bekannten Welt überschreitet. | [[Der_Flug_der_Ente]] |
+| 25 n.H. | - **~25 n.H.:** Reise nach **Papin**, um Goldbarren zur Unterstützung von Wallenburg an den [[Ersonter_Bund]] (Graf Gero) zu übergeben. | [[Waldemar_Delarie]] |
+| 25 n.H. | (Status: #bote) **~25 n.H. (Bote 183):** [[Custodias]] gerät ins Visier der Ersonter Garde (Hauptmann Delarie/[[Steinhauer]]), die ihn des Hochverrats beschuldigt. | [[Custodias]] |
 | 26 n.H. | 26 n.H.)
 
 ## Beschreibung
@@ -342,7 +342,7 @@ Seine Eminenz [[Tion_Altor]] ist ein hochrangiger Priester des Gottes 03_Bellum.
 
 ## Beschreibung
 [[Adhemar_Ravenforth]] diente über mehrere Jahre als Kanzler des Inselrats. | [[Adhemar_Ravenforth]] |
-| 30 n.H. | - **~25-30 n.H.:** Verteidigte Dunquell gegen die Angriffe der roten Lindwürmer (Aschehorn & Rotschuppe). | [[Kregor_Stahlauge]] |
+| 30 n.H. | - **~25-30 n.H.:** Verteidigte Dunquell gegen die Angriffe der roten Lindwürmer ([[Aschehorn]] & [[Rotschuppe]]). | [[Kregor_Stahlauge]] |
 | 30 n.H. | 25-30 n.H.
 
 ## Beschreibung
@@ -355,11 +355,11 @@ Seine Eminenz [[Tion_Altor]] ist ein hochrangiger Priester des Gottes 03_Bellum.
 
 ## Beschreibung
 [[Emanuel]] war ein loyaler Soldat, der oft an der Seite von **[[Sorania]]** kämpfte. | [[Emanuel]] |
-| 30 n.H. | - **~30 n.H. (Bote 193):** Vertretung der Baronie in Verhandlungen mit dem Lindwurm Akassvae unter Nutzung des "Pergaments Astraels". | [[Custodias]] |
+| 30 n.H. | - **~30 n.H. (Bote 193):** Vertretung der Baronie in Verhandlungen mit dem Lindwurm [[Akassvae]] unter Nutzung des "Pergaments Astraels". | [[Custodias]] |
 | 30 n.H. | 28-30 n.H.
 **Ort:** [[Ödland]] / Jenseits des Falkenwalls
 **Status:** Abgeschlossen, traumatisches Ereignis
-**Kategorie:** Geschichte
+**Kategorie:** [[index]]
 
 ## Überblick
 Dieses Ereignis beschreibt das Verschwinden und den grausamen Tod/Fall einer Gruppe von Verteidigern jenseits des Walls. | [[Die_Tragödie_am_Wall]] |
@@ -368,7 +368,7 @@ Dieses Ereignis beschreibt das Verschwinden und den grausamen Tod/Fall einer Gru
 | 30 n.H. | ---
 layout: wiki_page
 title: Zeitleiste (15-30 n.H.)
-category: Chronik
+category: [[index]]
 author: [[Siebenwind]] Chronicler
 ---
 
@@ -376,7 +376,7 @@ author: [[Siebenwind]] Chronicler
 | 30 n.H. | ---
 layout: wiki_page
 title: Zeitleiste (15-30 n.H.)
-category: Chronik
+category: [[index]]
 author: [[Siebenwind]] Chronicler
 ---
 
@@ -386,7 +386,7 @@ author: [[Siebenwind]] Chronicler
 ---
 
 ## Zusammenfassung
-Diese Sammlung von Berichten dokumentiert das tragische Schicksal einer Gruppe von Verteidigern Siebenwinds, die jenseits des Walls in die Hände der Schlangenwesen (Sammler) fielen. | [[Jenseits_des_Walls]] |
+Diese Sammlung von Berichten dokumentiert das tragische Schicksal einer Gruppe von Verteidigern Siebenwinds, die jenseits des Walls in die Hände der Schlangenwesen ([[Sammler]]) fielen. | [[Jenseits_des_Walls]] |
 | 30 n.H. | bis 30 n.H.**
 
 ## Wichtige Feiertage

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Elementare
-category: Bestiarium
+category: [[index]]
 ---
 
 # Elementare

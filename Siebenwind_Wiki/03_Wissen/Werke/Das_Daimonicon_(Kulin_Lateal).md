@@ -1,17 +1,17 @@
 ---
-title: Das Daimonicon (Kulin Lateal)
+title: Das [[Daimonicon]] (Kulin Lateal)
 file_name: Das_Daimonicon_(Kulin_Lateal).md
-description: Ein umfassendes Werk der Dämonologie von Kulin Lateal (Akademie der Schwarzen Künste) über die 9 Domänen der Niederhöllen (Yerrodon), Dämonenklassen und Beschwörungsrituale.
+description: Ein umfassendes Werk der Dämonologie von Kulin Lateal ([[Akademie_der_Schwarzen_Kuenste]]) über die 9 Domänen der Niederhöllen (Yerrodon), Dämonenklassen und Beschwörungsrituale.
 date: 2024-05-24
 author: Kulin Lateal (Original), Archivteam (Zusammenstellung)
 ---
 
-# Das Daimonicon
+# Das [[Daimonicon]]
 
-Verfasst von Erzmagus [[Kulin_Lateal]], Akademie der Schwarzen Künste zu Siebenwind (12 n.H.).
+Verfasst von Erzmagus [[Kulin_Lateal]], [[Akademie_der_Schwarzen_Kuenste]] zu [[Siebenwind]] (12 n.H.).
 
 ## Übersicht
-Das Standardwerk der dunklen Künste auf Siebenwind. Es beschreibt die 2. Sphäre ([[Yerrodon]]), das Reich des "Einen" ([[Angamon]]), und klassifiziert dessen Bewohner.
+Das Standardwerk der dunklen Künste auf [[Siebenwind]]. Es beschreibt die 2. Sphäre ([[Yerrodon]]), das Reich des "Einen" ([[Angamon]]), und klassifiziert dessen Bewohner.
 
 ## Die 9 Domänen von Yerrodon
 Yerrodon (die Niederhöllen) ist in 9 Herrschaftsbereiche unterteilt:
@@ -24,27 +24,27 @@ Yerrodon (die Niederhöllen) ist in 9 Herrschaftsbereiche unterteilt:
 6.  **Kulmar Sanghûlis (Lust/Schmerz):** Blutige Ekstasen, Folter, Orgien.
 7.  **Moghtor (Untod):** Das Reich der Rastlosen. Ursprung der Nekromantie.
 8.  **Agoth'ro'Hawenn (Angst):** Herrschaft durch Furcht, Illusionen, Alpträume. Diener: **Irahfar**.
-9.  **Mele Môrthere (Wissen):** Eine gigantische Bibliothek, die alles Wissen (Vergangenheit und Zukunft) speichert.
+9.  **Mele Môrthere ([[index]]):** Eine gigantische [[index]], die alles [[index]] (Vergangenheit und Zukunft) speichert.
 
 ## Hierarchie (Das Horntheorem)
-Dämonen steigen durch Siege auf ("Hörner rauben").
+[[Daemonen]] steigen durch Siege auf ("Hörner rauben").
 *   **Niedere Diener:** (z.B. Betrachter, Irahfar).
 *   **1-4 Hörner:** Kommandanten.
-*   **5 Hörner:** **Sha'Naz'Ghul** (Kriegsdämon, kann andere rufen).
+*   **5 Hörner:** **[[Sha'Naz'Ghul]]** (Kriegsdämon, kann andere rufen).
 *   **...**
 *   **12 Hörner:** Gebieter eines Bereichs.
 *   **13 Hörner:** Domänenfürsten (Erzdämonen).
-*   **Angamon:** Der Herrscher über alles.
+*   **[[Angamon]]:** Der Herrscher über alles.
 
-## Bekannte Dämonen & Zauber
+## Bekannte [[Daemonen]] & Zauber
 *   **Betrachter:** Spione aus der Zwischensphäre (Limbus). Viele Augen, magisch begabt, dienen dem Beschwörer solange die Bindung hält.
 *   **Irahfar:** Mindere Geister der Angst (Agoth'ro'Hawenn). Zauber: *Coscentia* (Schwarzes Gewissen). Verursachen Alpträume.
-*   **Skelettkrieger:** Zauber: *Skeletarius*. Beseelung von Knochen durch niedere Dämonen aus Moghtor.
+*   **Skelettkrieger:** Zauber: *Skeletarius*. Beseelung von Knochen durch niedere [[Daemonen]] aus Moghtor.
 *   **Heptagon:** Beschwörung von Schreckensdienern (Betrachtern).
 
 ## Paraphernalia (Zuordnungen)
 *   **Amethyst:** Lust/Schmerz (Esparell’it Mosali).
-*   **Diamant:** Wissen/Erkenntnis (Zensyn Lramori).
+*   **Diamant:** [[index]]/Erkenntnis (Zensyn Lramori).
 *   **Schwarze Perlen:** Untod (Moghtor).
 *   **Topas:** (?) Kathul Eddon.
 *   **Rubin:** Krieg (Il'kas'Myrith).
@@ -53,4 +53,4 @@ Dämonen steigen durch Siege auf ("Hörner rauben").
 *   **Blutopal:** Blut/Wasser (El’ra’Khor).
 *   **Schwefel:** Feuer (Ifri’gha’Sirrak).
 
-> **Warnung:** "Der Umgang mit Dämonen wäre für jene Unachtsamen und Unvorsichtigen Seelen die ewige Verdammnis gewesen."
+> **Warnung:** "Der Umgang mit [[Daemonen]] wäre für jene Unachtsamen und Unvorsichtigen Seelen die ewige Verdammnis gewesen."

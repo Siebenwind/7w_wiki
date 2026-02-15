@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Kopflose
-category: Bestiarium
+category: [[index]]
 ---
 
 # Kopflose

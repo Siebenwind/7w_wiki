@@ -12,7 +12,7 @@ category: Persönlichkeit
 **Zeitraum:** aktiv um 17 n.H.
 
 ## Beschreibung
-**Laurus Delany** ist ein hochgeweihter Diener der Viere (speziell Bellum).
+**Laurus Delany** ist ein hochgeweihter Diener der Viere (speziell [[Bellum]]).
 *   **Weihe 17 n.H. (Bote 151):** Er wurde durch Eminenz [[Eire]] in einer spektakulären Zeremonie (rotes Licht, Nebel) zum **Hochgeweihten** erhoben und trägt seither das entsprechende Wappen.
 
 ## Wirken

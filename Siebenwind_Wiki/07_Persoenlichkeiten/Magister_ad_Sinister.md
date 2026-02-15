@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Magister ad Sinister"
-category: Personen
+category: [[index]]
 status: Stub
 ---
 
 # Magister ad Sinister
 
 > [!INFO]
-> Dieser Artikel ist ein Stub. Er wurde automatisch aus dem Personenregister generiert.
+> Dieser Artikel ist ein Stub. Er wurde automatisch aus dem [[Personenregister]] generiert.
 
 **Zugehörigkeit:** Unbekannt
 **Status:** Unbekannt

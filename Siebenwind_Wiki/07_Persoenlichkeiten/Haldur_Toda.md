@@ -3,7 +3,7 @@ layout: wiki_page
 uuid: a1b2c3d4-e5f6-4a1b-8c9d-0e1f2a3b4c5d
 title: Haldur Toda
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/Aus dem Liebesleben eines Dichters | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+quelle: ../../Quellen/Spielergeschichten/[[Aus_dem_Liebesleben_eines_Dichters]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
 letzter_check: 2026-02-13T22:50:00
 ---
 
@@ -19,9 +19,9 @@ Haldur Toda ist ein galadonischer Dichter, dessen Schaffen von tiefer Melancholi
 
 ## Wirken
 Toda ist bekannt für seine Gedichtbände und Briefsammlungen, die auch auf dem Festland Anhänger finden.
-*   **Wichtigste Werke:**
+*   **Wichtigste [[index]]:**
     *   *Briefe an die Herzdamen*: Eine Sammlung, die besonders bei der galadonischen Damenwelt (u.a. [[Madame_Lafayette]]) Anklang fand.
-    *   *Die Geschichte von der Maus und dem Baum*: Eine Parabel über Aufmerksamkeit und Ignoranz.
+    *   *Die [[index]] von der Maus und dem Baum*: Eine Parabel über Aufmerksamkeit und Ignoranz.
     *   *Den Kleingeistigen das Himmelreich*: Ein sozialkritisches Werk über die Enge des Geistes.
 
 ### Das Privatleben (Der tragische Dichter)
@@ -34,5 +34,5 @@ In späteren Jahren erhielt er einen Brief seiner ehemaligen Geliebten **[[Eleon
 *   [[Brandenstein]] (Sein langjähriger Wohnort)
 
 ## Quellen
-*   [Aus dem Liebesleben eines Dichters](../../Quellen/Spielergeschichten/Aus%20dem%20Liebesleben%20eines%20Dichters%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
-*   [Siebenwind Bote 182](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20182.md)
+*   [[[Aus_dem_Liebesleben_eines_Dichters]]](../../Quellen/Spielergeschichten/Aus%20dem%20Liebesleben%20eines%20Dichters%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [[[Siebenwind_Bote_182]]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20182.md)

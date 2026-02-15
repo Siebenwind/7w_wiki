@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Arthax Stahlauge
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Arthax Stahlauge

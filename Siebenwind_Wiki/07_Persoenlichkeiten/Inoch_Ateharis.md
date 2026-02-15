@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Inoch Ateharis
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Inoch Ateharis

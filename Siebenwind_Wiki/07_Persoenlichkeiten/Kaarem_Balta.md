@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kaarem Balta"
-category: Personen
+category: [[index]]
 ---
 
 # Kaarem Balta

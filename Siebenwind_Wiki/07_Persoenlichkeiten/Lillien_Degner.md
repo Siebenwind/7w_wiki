@@ -1,13 +1,13 @@
 ---
 layout: wiki_page
 title: Lillien Degner
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 152.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_152]].md
 ---
 # Lillien Degner
 
-**Titel:** Sprecherin der Ortswache Brandenstein
+**Titel:** Sprecherin der Ortswache [[Brandenstein]]
 **Epistemischer Status:** #bote
 **Zugehörigkeit:** Siedlung [[Brandenstein]] / Ortsrat
 **Zeitraum:** aktiv 17 n.H.

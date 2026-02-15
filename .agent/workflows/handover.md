@@ -49,7 +49,10 @@ Vor dem Beenden deiner Session musst du:
         - ⚪ **Backlog**: Zukunftsideen.
     - Verschiebe abgeschlossene Blöcke in die **Historie**, um die Liste übersichtlich zu halten.
     - Schreibe kurze Erklärungen (1-2 Sätze) zu jedem komplexen Task.
-2.  **[CHANGELOG.md](../../CHANGELOG.md)** aktualisieren.
+2.  **[CHANGELOG.md](../../CHANGELOG.md)** aktualisieren:
+    - **Strikte Sortierung**: Neueste Einträge nach oben.
+    - **Spoiler-Format**: Jeder Eintrag muss in einem `<details>` Tag gekapselt sein. Aktuelle Phasen des Tages können `open` bleiben.
+    - **Syntax**: `<details><summary><b>[Version] - Thema</b></summary>...内容...</details>`
 3.  **Wiki-Statistiken**: Führe den Workflow `/stats` aus.
 5.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](../../Logs/Konsistenzbericht_2026.md).
 6.  **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:

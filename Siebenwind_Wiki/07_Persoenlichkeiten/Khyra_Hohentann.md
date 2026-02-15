@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Khyra Hohentann
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Khyra Hohentann

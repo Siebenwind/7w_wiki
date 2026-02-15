@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hadhal"
-category: Personen
+category: [[index]]
 ---
 
 # Hadhal

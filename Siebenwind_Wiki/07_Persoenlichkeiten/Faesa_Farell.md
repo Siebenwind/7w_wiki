@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Faesa Farell
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 uuid: df7a4b2c-2345-5678-9012-34bf2597e836
 epistemic: "#bote"
 ---

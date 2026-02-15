@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Schwarzer Samen
-category: Geschichte
+category: [[index]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 173.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_173]].md
 ---
 # Schwarzer Samen
 

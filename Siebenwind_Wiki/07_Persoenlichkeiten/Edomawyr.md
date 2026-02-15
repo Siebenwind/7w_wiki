@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Edomawyr
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Edomawyr

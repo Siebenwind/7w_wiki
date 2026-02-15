@@ -3,7 +3,7 @@ layout: wiki_page
 title: Brandensteiner Reiter
 category: Organisationen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 136.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_136]].md
 ---
 # Brandensteiner Reiter
 

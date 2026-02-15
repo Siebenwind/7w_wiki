@@ -1,9 +1,9 @@
 ---
-title: Die These der elementaren Atome (Jennaia Lavrial)
+title: Die These der elementaren Atome ([[Jennaia_Lavrial]])
 file_name: Theorie_der_elementaren_Atome_(Jennaia_Lavrial).md
-description: Eine Magisterarbeit von Jennaia Lavrial, die eine atomare Struktur der Elemente (statt Fäden/Matrix) postuliert.
+description: Eine Magisterarbeit von [[Jennaia_Lavrial]], die eine atomare Struktur der Elemente (statt Fäden/Matrix) postuliert.
 date: 2024-05-24
-author: Jennaia Lavrial (Original), Archivteam (Zusammenstellung)
+author: [[Jennaia_Lavrial]] (Original), Archivteam (Zusammenstellung)
 ---
 
 # Die These der elementaren Atome
@@ -29,9 +29,9 @@ Atome können zwei Bindungsarten eingehen: *Anungai hamnai* (lose Mischung) und 
     *   *Magische Implikation:* Wrathe (Äther) kann dieses dichte Gitter kaum durchdringen, was die magische Inaktivität von Metall erklärt.
 *   **Blitz:** Feuer + Luft (Feuerketten an Luftfäden). Hochenergetisch, springt gut über Wasser (leitet).
 
-## Das Element Wrathe (Äther/Geist)
+## Das Element Wrathe (Äther/[[Geist]])
 In Lavrials Theorie ist Wrathe kein Element aus Atomen, sondern das **Medium** (eine Art Ur-Flüssigkeit), in dem alle anderen Atome schwimmen.
-*   **Magie:** Magier besitzen ein Organ/Fähigkeit, um Wrathe zu bewegen. Wer Wrathe bewegt, bewegt auch die darin schwimmenden Atome (Telekinese, Feuerball).
+*   **[[index]]:** Magier besitzen ein Organ/Fähigkeit, um Wrathe zu bewegen. Wer Wrathe bewegt, bewegt auch die darin schwimmenden Atome (Telekinese, Feuerball).
 
 ## Schlussfolgerung
 Die Atomtheorie bietet physikalische Erklärungen für magische Phänomene (z.B. warum Feuer Holz verbrennt: Feueratome verdrängen Wasseratome, Struktur bricht auf). Sie ist ein alternatives Modell zur Matrix-Theorie.

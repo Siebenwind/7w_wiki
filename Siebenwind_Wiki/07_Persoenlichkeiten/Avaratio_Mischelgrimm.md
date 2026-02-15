@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Avaratio Mischelgrimm
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 134.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_134]].md
 ---
 # Avaratio Mischelgrimm
 
@@ -16,7 +16,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 134.md
 **Avaratio Mischelgrimm** ist der Liegenschaftsverwalter von [[Falkensee]]. Er ist für die Zuweisung und Versteigerung von Pachtflächen in der künftigen Hauptstadt verantwortlich.
 
 ## Wirken
-Im Jahr 16 n.H. (Bote 134) organisierte er die Versteigerung der letzten freien Grundstücke in Falkensee. Er gilt als loyaler Diener der Krone und achtet streng darauf, dass nur königstreue Bürger mit festem Glauben an die [[Kirche_der_Viere|Viere]] als Pächter akzeptiert werden.
+Im Jahr 16 n.H. (Bote 134) organisierte er die Versteigerung der letzten freien Grundstücke in [[Falkensee]]. Er gilt als loyaler Diener der Krone und achtet streng darauf, dass nur königstreue Bürger mit festem Glauben an die [[Kirche_der_Viere|Viere]] als Pächter akzeptiert werden.
 
 ---
 **Siehe auch:** [[Falkensee]], [[Lehensverwaltung]]

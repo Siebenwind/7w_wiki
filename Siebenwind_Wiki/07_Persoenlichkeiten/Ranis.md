@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Ranis
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Ranis
@@ -11,7 +11,7 @@ category: Persönlichkeiten
 **Zugehörigkeit:** [[Kriegerakademie]]
 
 ## Beschreibung
-**Ranis** war im Jahr 15 n.H. (Bote 127) Lehrmeister an der Königlichen Kriegerakademie auf Siebenwind.
+**Ranis** war im Jahr 15 n.H. (Bote 127) Lehrmeister an der Königlichen Kriegerakademie auf [[Siebenwind]].
 Er begleitete mit seinen Schülern die Expedition zum Sternfall bei [[Rohehafen]] und sorgte für den Geleitschutz.
 
 ---

@@ -1,14 +1,14 @@
-# Die Magie
+# Die [[index]]
 
 **Autor:** [[Toran Dur]]
 **Kategorie:** Magietheorie / Kosmologie
 
 ## Inhalt
 
-"Die Magie" ist eines der fundamentalen Werke von Toran Dur, in dem er versucht, das Wesen der Magie umfassend zu erklären. Es behandelt die Definition von Magie, die kosmologische Struktur der Welt und verschiedene magische Traditionen.
+"Die [[index]]" ist eines der fundamentalen [[index]] von [[Toran_Dur]], in dem er versucht, das Wesen der [[index]] umfassend zu erklären. Es behandelt die Definition von [[index]], die kosmologische Struktur der Welt und verschiedene magische Traditionen.
 
-### Definition der Magie
-Toran Dur definiert Magie als "die Manipulation des astralen Netzes durch einen sterblichen Geist". Er beschreibt sie als eine Konstante der Existenz, die aus dem astralen Netz gewoben ist.
+### Definition der [[index]]
+[[Toran_Dur]] definiert [[index]] als "die Manipulation des astralen Netzes durch einen sterblichen [[Geist]]". Er beschreibt sie als eine Konstante der Existenz, die aus dem astralen Netz gewoben ist.
 
 ### Kosmologie
 Das Werk beschreibt die drei Sphären der Existenz:
@@ -19,14 +19,14 @@ Das Werk beschreibt die drei Sphären der Existenz:
 Zwischen den Sphären existiert der **Limbus**, eine chaotische Zone des Übergangs.
 
 ### Magische Theorien
-Dur stellt verschiedene Theorien vor, um das Wirken von Magie zu erklären:
-*   **Fadentheorie**: Das astrale Netz besteht aus Fäden der fünf Elemente (Feuer, Wasser, Erde, Luft, Geist).
+[[Dur]] stellt verschiedene Theorien vor, um das Wirken von [[index]] zu erklären:
+*   **Fadentheorie**: Das astrale Netz besteht aus Fäden der fünf Elemente (Feuer, Wasser, Erde, Luft, [[Geist]]).
 *   **Aurentheorie**: Jedes Lebewesen besitzt eine Aura, die manipuliert werden kann.
-*   **Theorie der größeren Ströme**: Eine fortgeschrittene Theorie, die Ströme im astralen Netz (sowohl im fixen als auch im flexiblen Netz) betrachtet (siehe dazu auch [[Theorien der Magie (Toran Dur)]]).
+*   **Theorie der größeren Ströme**: Eine fortgeschrittene Theorie, die Ströme im astralen Netz (sowohl im fixen als auch im flexiblen Netz) betrachtet (siehe dazu auch [[Theorien der [[index]] ([[Toran_Dur]])]]).
 
 ### Magische Praktiken
 Das Buch geht auch auf verschiedene Anwendungsgebiete ein:
 *   **Ritualkunde**: Die Bedeutung von Pentagrammen, Kreisen und Foki.
 *   **Illusionismus**: Die Kunst der Täuschung.
-*   **Kampfmagie**: Der Einsatz von Magie im Gefecht.
-*   **Gnosis**: Der veränderte Bewusstseinszustand, der nötig ist, um Magie zu wirken.
+*   **Kampfmagie**: Der Einsatz von [[index]] im Gefecht.
+*   **Gnosis**: Der veränderte Bewusstseinszustand, der nötig ist, um [[index]] zu wirken.

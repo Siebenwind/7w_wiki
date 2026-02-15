@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Hormtosh Wuchthammer
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Hormtosh Wuchthammer

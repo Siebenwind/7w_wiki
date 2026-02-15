@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
 title: Dorion Hali
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
 quelle: 
-  - "../../Quellen/Zeitung 7w Bote/Siebenwind Bote 152.md"
+  - "../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_152]].md"
   - "../../Quellen/Spielergeschichten/Alles_ohne_Pointe.md"
 ---
 # Dorion Hali
 
-**Titel:** Dorfphysikus (Brandenstein) / ehem. Wächter (Löwenorden)
+**Titel:** Dorfphysikus ([[Brandenstein]]) / ehem. Wächter (Löwenorden)
 **Epistemischer Status:** #bote / #perspektive
 **Zugehörigkeit:** Siedlung [[Brandenstein]] / [[Löwenorden]] (Ehrenamt)
 **Zeitraum:** aktiv 17-21 n.H.

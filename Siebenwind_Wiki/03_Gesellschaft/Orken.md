@@ -23,10 +23,10 @@ Nach den Legenden der Orken wurden sie nicht wie die anderen Völker von den "We
 Orken sind von stämmiger Statur, muskulös und deutlich robuster als [[Rasse_Menschen]]. Ihre Hautfarbe variiert von verschiedenen Grüntönen (bei den weit verbreiteten Grünorken) bis hin zu dunkleren, fast schwarzen Tönen (bei den selteneren Schwarzorken). Markant sind ihre Hauere, die aus dem Unterkiefer ragen.
 
 ## [[index]] und Kultur
-Die orkische [[index]] ist stammesorganisiert. Das Recht des Stärkeren gilt als oberstes Gesetz.
+Die orkische [[index]] ist stammesorganisiert. Das [[index]] des Stärkeren gilt als oberstes Gesetz.
 *   **Stämme:** Die zwei Hauptgruppen sind die in Ravel lebenden Stämme (Ravelorken) und die wilderen Stämme im Norden (Khalandrische Orken). Der auf [[Siebenwind]] einflussreichste Stamm sind die **[[Kazla]]**, die über einen eigenen Sitz im [[Der_Große_Rat|Großen Rat]] verfügen.
 *   **Hierarchie:** An der Spitze steht meist ein Häuptling oder Kriegsherr, der seine Position durch körperliche Überlegenheit und strategisches Geschick behaupten muss.
-*   **Schamanismus:** Die spirituelle Führung obliegt Schamanen, die den Willen von Be'rglum und Ci'rgbus deuten und über primitive, aber mächtige Magie verfügen.
+*   **Schamanismus:** Die spirituelle Führung obliegt Schamanen, die den Willen von Be'rglum und Ci'rgbus deuten und über primitive, aber mächtige [[index]] verfügen.
 
 ## Religion
 Die Orken verehren zwei Hauptgottheiten:
@@ -45,8 +45,8 @@ Die Orken sind technologisch vergleichsweise rückständig. Ihre Siedlungen best
 *   **Bewaffnung:** Bevorzugt werden schwere Waffen wie Äxte, Streithämmer und mächtige Schwerter. Schilde werden als Zeichen von Feigheit (typisch für [[Galadon|Galadonier]]) abgelehnt. Fernwaffen (Bögen) werden primär für die Jagd genutzt.
 
 ## Gesellschaftliche Struktur
-Die orkische Gesellschaft basiert auf einem disziplinierten Kastensystem, in dem Auf- und Abstieg durch Brutalität und rituelle Zweikämpfe (Turniere) geregelt werden. Auch die Position des Häuptlings wird so bestimmt.
-*   **Schamanen:** Sie bilden eine Ausnahme in der intellektuellen Struktur. Schamanen sind oft belesen, beherrschen das Schreiben und können komplexe Diskussionen führen. Ihre Magie ist fast ausschließlich auf den Angriff fixiert.
+Die orkische [[index]] basiert auf einem disziplinierten Kastensystem, in dem Auf- und Abstieg durch Brutalität und rituelle Zweikämpfe (Turniere) geregelt werden. Auch die Position des Häuptlings wird so bestimmt.
+*   **Schamanen:** Sie bilden eine Ausnahme in der intellektuellen Struktur. Schamanen sind oft belesen, beherrschen das Schreiben und können komplexe Diskussionen führen. Ihre [[index]] ist fast ausschließlich auf den Angriff fixiert.
 
 ## Verlinkte Themen
 *   [[Region Ravel]]

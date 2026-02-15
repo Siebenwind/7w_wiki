@@ -1,14 +1,14 @@
 ---
 layout: wiki_page
 title: Vjera Batama Magica
-category: Magie
+category: [[index]]
 status: integrated
-quelle: "/Quellen/Bibliothek Toran Dur/Sylest le Felyhn - Vjera Batama Magica.md"
+quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Sylest_le_Felyhn]] - Vjera Batama Magica.md"
 ---
 
 # Vjera Batama Magica (Edelsteinmagie)
 
-Die *Vjera Batama Magica* ist eine uralte Form der Magie, die Edelsteine als "Gefäße" (*Gefäße*) für arkane Energien nutzt. Ihre Wurzeln reichen bis in die Zeit der Amulettkriege zurück.
+Die *Vjera Batama Magica* ist eine uralte Form der [[index]], die Edelsteine als "Gefäße" (*Gefäße*) für arkane Energien nutzt. Ihre Wurzeln reichen bis in die Zeit der Amulettkriege zurück.
 
 ## 1. Die fünf Künste der Edelsteinmagie
 
@@ -28,9 +28,9 @@ In der Edelsteinmagie bestimmt die **Reinheit** die Wirkungsstärke und die **Gr
 | Edelstein | Element | Gottheit | Wirkung (Auszug) |
 | :--- | :--- | :--- | :--- |
 | **Amethyst** | Hagal / Fe | [[02_Vitama|Vitama]] | Würde, Schutz gegen Schwarzmagie. |
-| **Aquamarin** | Xa | Vitama / [[02_Xan|Xan]] | Frieden, Schutz vor Dämonen. |
+| **Aquamarin** | Xa | [[Vitama]] / [[02_Xan|Xan]] | Frieden, Schutz vor [[Daemonen]]. |
 | **Bergkristall** | Neutral (Laf) | [[02_Astrael|Astrael]] | Essenz der Reinheit, negiert dunkle Kräfte. |
-| **Bernstein** | Ri / Xa | Bellum / [[02_Rien|Rien]] | Gerechtigkeit, seelische Genesung. |
+| **Bernstein** | Ri / Xa | [[Bellum]] / [[02_Rien|Rien]] | Gerechtigkeit, seelische Genesung. |
 | **Blutachat** | Neutral (Naquo) | [[02_Angamon|Angamon]] | Gefährlich; Entfesselung dämonischer Energien, Gedankenkontrolle. |
 | **Tansanit** | Variabel | - | Labyrinthartige Struktur; Schlüsselelement für die *Amlewa'*-Bannung. |
 

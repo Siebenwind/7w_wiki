@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adrianus Herwart von Yngelsburg"
-category: Personen
+category: [[index]]
 ---
 
 # Adrianus Herwart von Yngelsburg

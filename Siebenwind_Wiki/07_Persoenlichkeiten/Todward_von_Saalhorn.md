@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Todward von Saalhorn"
-category: Personen
+category: [[index]]
 status: Stub
 ---
 
 # Todward von Saalhorn
 
 > [!INFO]
-> Dieser Artikel ist ein Stub. Er wurde automatisch aus dem Personenregister generiert.
+> Dieser Artikel ist ein Stub. Er wurde automatisch aus dem [[Personenregister]] generiert.
 
 **Zugehörigkeit:** Unbekannt
 **Status:** Unbekannt

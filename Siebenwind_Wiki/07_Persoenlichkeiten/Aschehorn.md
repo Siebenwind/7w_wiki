@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Aschehorn
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 193.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_193]].md
 ---
 # Aschehorn
 

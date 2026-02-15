@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Magier-Etikette"
-category: Magie
+category: [[index]]
 status: Canon
-quelle: "../../Quellen/Bibliothek Toran Dur/Anonymous - Etikette.md"
+quelle: "../../Quellen/[[index]] [[Toran_Dur]]/Anonymous - Etikette.md"
 lore_trust: 8
 confidence: Certain
 author: "Allakath (Adeptus Minor)"
@@ -44,9 +44,9 @@ Ein Magus sollte fünf Arten von Gewändern besitzen:
 *   *ir hires Ita'En:* Elementarer Pfad
 
 ## Verhaltensregeln im Turm
-*   **Angamon:** Der Name darf aufgrund invokativer Wirkung **nicht** ausgesprochen werden.
-*   **Magie:** Kein Zaubern in den Gängen oder auf dem oberen Platz ohne Genehmigung.
-*   **Ruhe:** In der Bibliothek und den Schlafsälen herrscht Flüsterpflicht.
+*   **[[Angamon]]:** Der Name darf aufgrund invokativer Wirkung **nicht** ausgesprochen werden.
+*   **[[index]]:** Kein Zaubern in den Gängen oder auf dem oberen Platz ohne Genehmigung.
+*   **Ruhe:** In der [[index]] und den Schlafsälen herrscht Flüsterpflicht.
 
 ## Referenzen
-- Primärquelle: [Anonymous - Etikette](../../Quellen/Bibliothek%20Toran%20Dur/Anonymous%20-%20Etikette.md)
+- Primärquelle: [Anonymous - Etikette](../../Quellen/[[index]]%20Toran%20Dur/Anonymous%20-%20Etikette.md)

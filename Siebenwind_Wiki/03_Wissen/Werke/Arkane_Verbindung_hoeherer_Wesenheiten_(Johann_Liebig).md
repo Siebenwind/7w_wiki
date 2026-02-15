@@ -1,9 +1,9 @@
 ---
-title: Arkane Verbindung und Wirkung höherer Wesenheiten (Johann Liebig)
+title: Arkane Verbindung und Wirkung höherer Wesenheiten ([[Johann_Liebig]])
 file_name: Arkane_Verbindung_hoeherer_Wesenheiten_(Johann_Liebig).md
-description: Eine Untersuchung über die Klassifizierung magischer Wesenheiten (Lazperday vs. Warthun) und die Erschaffung von Golems.
+description: Eine Untersuchung über die Klassifizierung magischer Wesenheiten (Lazperday vs. Warthun) und die Erschaffung von [[Golems]].
 date: 2024-05-24
-author: Johann Liebig (Original), Archivteam (Zusammenstellung)
+author: [[Johann_Liebig]] (Original), Archivteam (Zusammenstellung)
 ---
 
 # Arkane Verbindung und Wirkung von höheren Wesenheiten
@@ -12,29 +12,29 @@ Verfasst von Adeptus Arkanis [[Johann_Liebig]] (Pfad der Mitte).
 
 ## Klassifizierung der Wesenheiten
 
-Liebig unterteilt magische Wesenheiten anhand ihrer Art, Magie zu wirken (Gestik vs. Geist) in zwei Hauptgruppen:
+Liebig unterteilt magische Wesenheiten anhand ihrer Art, [[index]] zu wirken (Gestik vs. [[Geist]]) in zwei Hauptgruppen:
 
 ### 1. Lazperday-Wesen ("Hand-Bewegende")
-Wesen, die Magie primär durch instinktive oder gelernte **Gesten** wirken.
+Wesen, die [[index]] primär durch instinktive oder gelernte **Gesten** wirken.
 *   **Merkmale:** Schnelle Reaktion, mittleres Machtpotenzial.
 *   **Untergruppen:**
-    *   *Man-Lazperday:* Natürlich geboren (z.B. **Gnome**, Waldgeister, Feen).
-    *   *Ing-Lazperday:* Erschaffen (z.B. **Gargoyles**).
+    *   *Man-Lazperday:* Natürlich geboren (z.B. **Gnome**, Waldgeister, [[Feen]]).
+    *   *Ing-Lazperday:* Erschaffen (z.B. **[[Gargoyles]]**).
 *   **Beispiele:**
-    *   **Gnome:** Wirken Feuerzauber durch komplexe Handbewegungen. Instinktive Magie.
-    *   **Gargoyles:** Erschaffen durch Magister Gar Navona. Wirken Magie im Flug durch Klauen-Gesten.
+    *   **Gnome:** Wirken Feuerzauber durch komplexe Handbewegungen. Instinktive [[index]].
+    *   **[[Gargoyles]]:** Erschaffen durch Magister [[Gar_Navona]]. Wirken [[index]] im Flug durch Klauen-Gesten.
 
-### 2. Warthun-Wesen ("Geist-Wirkende")
-Wesen, die Magie durch reine **Gedankenkraft/Konzentration** wirken.
+### 2. Warthun-Wesen ("[[Geist]]-Wirkende")
+Wesen, die [[index]] durch reine **Gedankenkraft/Konzentration** wirken.
 *   **Merkmale:** Hohes bis sehr hohes Machtpotenzial, trägere Reaktion.
 *   **Untergruppen:**
-    *   *Uruzman-Warthun:* Natürlich/Anomalie (z.B. **Liche**, Höhere Elementare).
-    *   *Nuinarra-Warthun:* Durch mächtige Magier erschaffen (z.B. **Golems**, Djinn).
+    *   *Uruzman-Warthun:* Natürlich/Anomalie (z.B. **[[Liche]]**, Höhere [[Elementare]]).
+    *   *Nuinarra-Warthun:* Durch mächtige Magier erschaffen (z.B. **[[Golems]]**, Djinn).
 *   **Beispiele:**
-    *   **Liche:** Untote Magier (vermutlich aus Amulettkriegen). Wirken mächtige Zauber fast ohne Gestik. Gefährlich.
-    *   **Golems:** Mächtige Konstrukte aus Lehm/Erde. Wirken (selten) Naturmagie rein geistig.
+    *   **[[Liche]]:** [[Untote]] Magier (vermutlich aus Amulettkriegen). Wirken mächtige Zauber fast ohne Gestik. Gefährlich.
+    *   **[[Golems]]:** Mächtige Konstrukte aus Lehm/Erde. Wirken (selten) Naturmagie rein geistig.
 
-## Die Erschaffung eines Golems
+## Die Erschaffung eines [[Golems]]
 
 Liebig beschreibt detailliert das Ritual zur Erschaffung eines Lehmgolems ("Nuinarra-Warthun").
 *   **Vorbereitung:** Reinigung (Hankuk), Schutzkreise (Sigil), Tonstatue.
@@ -43,4 +43,4 @@ Liebig beschreibt detailliert das Ritual zur Erschaffung eines Lehmgolems ("Nuin
 *   **Ergebnis:** Ein Golem ohne eigene Sinnesorgane (Edelsteine als Augen), der absolut dem Willen des Erschaffers gehorcht. Wird die Bindung getrennt, wird der Golem aggressiv (Amoklauf).
 
 ## Zitat
-> "Das Wissen um die Mächte ist das Wissen was die Mächte erst zu den Mächten macht."
+> "Das [[index]] um die Mächte ist das [[index]] was die Mächte erst zu den Mächten macht."

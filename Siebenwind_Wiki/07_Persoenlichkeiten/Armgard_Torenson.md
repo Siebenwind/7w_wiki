@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Armgard Torenson
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 137.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_137]].md
 ---
 # Armgard Torenson
 
@@ -13,7 +13,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 137.md
 **Zeitraum:** Legendär
 
 ## Beschreibung
-**Armgard Torenson** war der Kapitän jener legendären Entdeckungsfahrt, die zur Wiederentdeckung [[Siebenwind]]s führte. Sein Name ist untrennbar mit der frühen Geschichte der Kolonialisierung verbunden.
+**Armgard Torenson** war der Kapitän jener legendären Entdeckungsfahrt, die zur Wiederentdeckung [[Siebenwind]]s führte. Sein Name ist untrennbar mit der frühen [[index]] der Kolonialisierung verbunden.
 
 ## Reliquien
 Sein eiserner Sextant, ein Navigationsinstrument von unschätzbarem historischem Wert, wurde im Jahr 16 n.H. (Bote 137) im Rahmen einer Kunstauktion in [[Falkensee]] versteigert.

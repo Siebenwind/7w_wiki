@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Erynnion Comari
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Erynnion Comari

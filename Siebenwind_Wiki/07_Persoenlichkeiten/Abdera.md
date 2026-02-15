@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Abdera
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 quelle: [Linari - Philosophie]
 status: #überlieferung
 ---

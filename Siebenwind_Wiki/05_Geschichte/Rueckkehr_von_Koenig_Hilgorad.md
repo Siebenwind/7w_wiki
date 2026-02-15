@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Rückkehr von König Hilgorad
-category: Geschichte
+category: [[index]]
 ---
 
 # Rückkehr von König Hilgorad
@@ -12,8 +12,8 @@ category: Geschichte
 
 ## Verlauf
 Nach drei Jahren Ungewissheit wurde bestätigt, dass König **[[Hilgorad_I_ap_Mer]]** lebt.
-Er sammelt in den Nordlanden (Khalandra) Truppen aus Orks und Nortraven, um gegen das abtrünnige [[Cortan]] und die Dämonenbedrohung zu ziehen.
-Diese Nachricht löste auf Siebenwind Jubel und Hoffnung aus.
+Er sammelt in den Nordlanden (Khalandra) Truppen aus Orks und [[Nortraven]], um gegen das abtrünnige [[Cortan]] und die Dämonenbedrohung zu ziehen.
+Diese Nachricht löste auf [[Siebenwind]] Jubel und Hoffnung aus.
 
 ---
 **Siehe auch:** [[Galadonien]], [[Hilgorad_I_ap_Mer]]

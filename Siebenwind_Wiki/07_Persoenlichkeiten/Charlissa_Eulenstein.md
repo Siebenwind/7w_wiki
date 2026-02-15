@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Charlissa Eulenstein
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 quelle: [Linari - Reagenzien]
 status: #überlieferung
 ---
@@ -9,7 +9,7 @@ status: #überlieferung
 # Charlissa Eulenstein
 
 ## Beschreibung
-Erzmaga / Magister (Toran Dur)
+Erzmaga / Magister ([[Toran_Dur]])
 
 ## Referenzen
 - [[Personenregister]]

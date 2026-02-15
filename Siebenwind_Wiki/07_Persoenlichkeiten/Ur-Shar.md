@@ -2,7 +2,7 @@
 layout: wiki_page
 title: Ur-Shar
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 185.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_185]].md
 letzter_check: 2026-02-13T23:45:00
 ---
 
@@ -13,7 +13,7 @@ letzter_check: 2026-02-13T23:45:00
 **Zeitraum:** Aktiv um 30 n.H.
 
 ## Beschreibung
-Ur-Shar ist ein Hohepriester der Schlangenwesen, der im [[Siebenwind_Bote_185|Siebenwind Boten]] erwähnt wird. Er repräsentiert die exotischeren und gefährlicheren Kulte der Insel.
+Ur-Shar ist ein Hohepriester der Schlangenwesen, der im [[Siebenwind_Bote_185|[[Siebenwind]] Boten]] erwähnt wird. Er repräsentiert die exotischeren und gefährlicheren Kulte der Insel.
 
 ## Quellen
-*   [Siebenwind Bote 185](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20185.md)
+*   [[[Siebenwind_Bote_185]]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20185.md)

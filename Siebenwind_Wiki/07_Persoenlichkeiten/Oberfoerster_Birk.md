@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Oberförster Birk
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 152.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_152]].md
 ---
 # Oberförster Birk
 

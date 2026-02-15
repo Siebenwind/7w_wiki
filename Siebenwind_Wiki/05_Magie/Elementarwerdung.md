@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Elementarwerdung
-category: Magie
+category: [[index]]
 status: integrated
-quelle: "/Quellen/Bibliothek Toran Dur/Elurai Calades - Bindungslehre der Elementarmagier.md"
+quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Elurai_Calades]] - Bindungslehre der Elementarmagier.md"
 ---
 
 # Elementarwerdung (Die Bindung an das Element)

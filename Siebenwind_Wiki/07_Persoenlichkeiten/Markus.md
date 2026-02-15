@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Markus"
-category: Personen
+category: [[index]]
 status: Stub
 ---
 
 # Markus
 
 > [!INFO]
-> Dieser Artikel ist ein Stub. Er wurde automatisch aus dem Personenregister generiert.
+> Dieser Artikel ist ein Stub. Er wurde automatisch aus dem [[Personenregister]] generiert.
 
 **Zugehörigkeit:** Unbekannt
 **Status:** Unbekannt

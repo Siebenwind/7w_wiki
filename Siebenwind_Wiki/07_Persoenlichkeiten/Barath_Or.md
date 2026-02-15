@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Barath Or"
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
-quelle: "/Quellen/Bibliothek Astrael/Die Werke des Barath Or.md"
+quelle: "/Quellen/[[index]] [[Astrael]]/Die [[index]] des Barath Or.md"
 author: "Antigravity"
 ---
 
@@ -12,4 +12,4 @@ author: "Antigravity"
 **Barath Or** war ein bedeutender **Bresch** (Großmeister) des [[Astrael]]-Ordens. Seine Traktate befassen sich mit der Symbolik der Rauten und dem göttlichen Geschenk der Selbstwahrnehmung.
 
 ## Überlieferung
-* [Die Werke des Barath Or]
+* [Die [[index]] des Barath Or]

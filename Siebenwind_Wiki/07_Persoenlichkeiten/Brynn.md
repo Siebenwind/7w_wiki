@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Brynn
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 159.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_159]].md
 ---
 # Brynn
 

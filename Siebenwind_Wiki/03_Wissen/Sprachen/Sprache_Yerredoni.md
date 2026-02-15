@@ -3,7 +3,7 @@ title: Sprache Yerredoni
 file_name: Sprache_Yerredoni.md
 description: Eine Untersuchung der geheimen Sprache Yerredoni, die angeblich von Kultisten und Schwarzmagiern während der Amulettkriege genutzt wurde.
 date: 2024-05-24
-author: Arknor (Original), Archivteam (Zusammenstellung)
+author: [[Arknor]] (Original), Archivteam (Zusammenstellung)
 ---
 
 # Die Sprache Yerredoni
@@ -20,7 +20,7 @@ Das **Yerredoni** ist eine geheime Kunstsprache, deren Ursprünge bis in die Zei
 
 Yerredoni scheint keine eigenständige Grammatik zu haben, sondern ersetzt zentrale Begriffe (Substantive) einer Basissprache (vermutlich Handelssprache/Garethi) durch Codenamen.
 
-### Glossar (Rekonstruktion nach Arknor)
+### [[Glossar]] (Rekonstruktion nach [[Arknor]])
 
 **Beschwörung & Ritual:**
 *   **Cuthal:** Ritual / Ritus
@@ -33,8 +33,8 @@ Yerredoni scheint keine eigenständige Grammatik zu haben, sondern ersetzt zentr
 *   **Kathul:** Dämon / Daimon
 *   **Cuthal Ithos:** Ritualkerzen
 
-**Magie & Ränge:**
-*   **Are:** Magie
+**[[index]] & Ränge:**
+*   **Are:** [[index]]
 *   **Ares:** Magister
 *   **Spectru:** Novize
 *   **Boldares:** Adept
@@ -59,4 +59,4 @@ Yerredoni scheint keine eigenständige Grammatik zu haben, sondern ersetzt zentr
 *   **Solfei:** Akademie / Schule
 
 ## Warnung
-Der Verfasser des analysierten Quelltextes, ein gewisser "Tobias Blokre", soll nach Abschluss seiner Arbeit den Tod gefunden haben (Selbstmord oder Mord). Arknor warnt, dass die Beschäftigung mit diesen Texten Risiken bergen kann.
+Der Verfasser des analysierten Quelltextes, ein gewisser "Tobias Blokre", soll nach Abschluss seiner Arbeit den Tod gefunden haben (Selbstmord oder Mord). [[Arknor]] warnt, dass die Beschäftigung mit diesen Texten Risiken bergen kann.

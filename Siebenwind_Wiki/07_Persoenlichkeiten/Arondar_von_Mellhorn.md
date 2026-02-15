@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Arondar von Mellhorn"
-category: Personen
+category: [[index]]
 ---
 
 # Arondar von Mellhorn

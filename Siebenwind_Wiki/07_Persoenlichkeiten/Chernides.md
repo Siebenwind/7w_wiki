@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Chernides
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Chernides

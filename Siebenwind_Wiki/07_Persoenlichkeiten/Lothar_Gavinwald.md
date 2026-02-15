@@ -2,7 +2,7 @@
 layout: wiki_page
 title: Lothar Gavinwald
 category: Persönlichkeit
-quelle: "[[Die Ordenssatzung des Ordens vom Wachenden Löwen (Toran Dur)]]"
+quelle: "[[Die Ordenssatzung des Ordens vom Wachenden Löwen ([[Toran_Dur]])]]"
 status: "#überlieferung"
 ---
 

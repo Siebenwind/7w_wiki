@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Sire von Weidenbach
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Sire von Weidenbach

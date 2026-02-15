@@ -1,13 +1,13 @@
 ---
 layout: wiki_page
 title: Mythandir
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 157.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_157]].md
 ---
 # Mythandir
 
-**Titel:** Gildenmeister der Ventusreiter
+**Titel:** Gildenmeister der [[Ventusreiter]]
 **Epistemischer Status:** #bote
 **Zugehörigkeit:** [[Ventusreiter]]
 **Zeitraum:** aktiv 18 n.H.

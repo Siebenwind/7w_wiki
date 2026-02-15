@@ -1,9 +1,9 @@
 ---
-title: Arkane Kriegsführung - Band I (Erynnion Comari)
+title: Arkane Kriegsführung - Band I ([[Erynnion_Comari]])
 file_name: Arkane_Kriegsfuehrung_Band_I_(Erynnion_Comari).md
-description: Baupläne und Einsatzberichte für magische Kriegsgeräte (Blitzkatalysator, Felsspalter), entwickelt von Erynnion Comari während des Cortanischen Feldzugs.
+description: Baupläne und Einsatzberichte für magische Kriegsgeräte (Blitzkatalysator, Felsspalter), entwickelt von [[Erynnion_Comari]] während des Cortanischen Feldzugs.
 date: 2024-05-24
-author: Erynnion Comari (Original), Archivteam (Zusammenstellung)
+author: [[Erynnion_Comari]] (Original), Archivteam (Zusammenstellung)
 ---
 
 # Arkane Kriegsführung: Konstrukte und Artefakte (Band I)
@@ -26,7 +26,7 @@ Basierend auf den Theorien von **Diana Weidenbach** (Artefaktbau) und **Magister
 ---
 
 ## 1. Der Comarische Blitzkatalysator
-*Kategorie 1: Anti-Personen-Waffe*
+*Kategorie 1: Anti-[[index]]-Waffe*
 
 Ein Konstrukt zur Vernichtung feindlicher Infanterie durch eine Kettenreaktion von Kugelblitzen.
 

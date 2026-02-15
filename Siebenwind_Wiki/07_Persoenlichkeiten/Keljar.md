@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Keljar
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 quelle: [Linari - Reagenzien]
 status: #überlieferung
 ---
@@ -9,7 +9,7 @@ status: #überlieferung
 # Keljar
 
 ## Beschreibung
-Student / Bannweber (Toran Dur)
+Student / Bannweber ([[Toran_Dur]])
 
 ## Referenzen
 - [[Personenregister]]

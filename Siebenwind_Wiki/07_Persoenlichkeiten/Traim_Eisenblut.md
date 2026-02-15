@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Traim Eisenblut
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 175.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_175]].md
 ---
 # Traim Eisenblut
 
@@ -16,7 +16,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 175.md
 **Traim Eisenblut** ist ein bedeutender Heerführer der [[Dwarschim]]. Er gilt als entschlossener Anführer, der in der Lage ist, verschiedene Völker für ein gemeinsames Ziel zu vereinen.
 
 ## Wirken
-*   **Sieg im Tal der Ahnen (20 n.H.):** Er übernahm das Oberkommando über die vereinigte Streitmacht der Menschen, Elfen, Dwarschim und Nortraven beim Angriff auf das **[[Tal_der_Ahnen]]**. Unter seiner Führung gelang die Vernichtung der [[Terra_Dorotor]] und ihres Hohepriesters im Seker 20 n.H. ([[Siebenwind_Bote_175]]).
+*   **Sieg im [[Tal_der_Ahnen]] (20 n.H.):** Er übernahm das Oberkommando über die vereinigte Streitmacht der [[Menschen]], [[Elfen]], Dwarschim und [[Nortraven]] beim Angriff auf das **[[Tal_der_Ahnen]]**. Unter seiner Führung gelang die Vernichtung der [[Terra_Dorotor]] und ihres Hohepriesters im Seker 20 n.H. ([[Siebenwind_Bote_175]]).
 
 ---
 **Siehe auch:** [[Dwarschim]], [[Tal_der_Ahnen]], [[Terra_Dorotor]]

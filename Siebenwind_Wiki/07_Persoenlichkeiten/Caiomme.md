@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Caiomme
-category: Personen
+category: [[index]]
 ---
 
 # Caiomme

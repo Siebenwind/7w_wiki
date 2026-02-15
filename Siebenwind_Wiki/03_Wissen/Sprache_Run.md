@@ -1,19 +1,19 @@
 ---
 layout: wiki_page
 title: "Sprache: Run"
-category: Wissen
+category: [[index]]
 status: Canon
-quelle: "../../Quellen/Bibliothek Toran Dur/Toran Dur - Die Sprache Run.md"
+quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Toran_Dur]] - [[Die_Sprache_Run]].md"
 lore_trust: 9
 confidence: Certain
-author: "Anonymus"
+author: "[[Anonymus]]"
 ---
 
-# Die Sprache Run
+# [[Die_Sprache_Run]]
 
 **Epistemischer Status:** #wissen (Linguistik)
 
-Grundlagen der Grammatik und des Vokabulars der Sprache *Run*, wie sie in den Archiven von Toran Dur verzeichnet ist.
+Grundlagen der Grammatik und des Vokabulars der Sprache *Run*, wie sie in den Archiven von [[Toran_Dur]] verzeichnet ist.
 
 ## Grammatik
 
@@ -25,7 +25,7 @@ Die Konjugation erfolgt durch Suffixe:
 *   `~et`: Konjunktiv (Möglichkeitsform)
 *   `~ek`: Negierung (Verneinung)
 
-### Substantivierung (Personen/Objekte)
+### Substantivierung ([[index]]/Objekte)
 *   `~ai`: Das Subjekt (Der Täter / "Der, der etwas tut")
 *   `~as`: Das Objekt (Das Opfer / "Der, an dem etwas getan wird")
 *   `~im`: Plural von *~ai*
@@ -58,4 +58,4 @@ Die Konjugation erfolgt durch Suffixe:
 | | *Han* | Sich |
 
 ## Referenzen
-- Primärquelle: [Toran Dur - Die Sprache Run](../../Quellen/Bibliothek%20Toran%20Dur/Toran%20Dur%20-%20Die%20Sprache%20Run.md)
+- Primärquelle: [[[Toran_Dur]] - [[Die_Sprache_Run]]](../../Quellen/[[index]]%20Toran%20Dur/Toran%20Dur%20-%20Die%20Sprache%20Run.md)

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Mirila Mik-Honigzopf
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Mirila Mik-Honigzopf

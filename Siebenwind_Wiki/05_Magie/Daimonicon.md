@@ -1,26 +1,26 @@
 ---
 layout: wiki_page
 title: Daimonicon
-category: Magie
+category: [[index]]
 status: integrated
-quelle: "/Quellen/Bibliothek Toran Dur/Kulin Lateal - Das_Daimonicon.md"
+quelle: "/Quellen/[[index]] [[Toran_Dur]]/Kulin Lateal - Das_Daimonicon.md"
 ---
 
 # Das Daimonicon
 
 **Epistemischer Status:** #lehrbuch / #verboten
 
-Das **Daimonicon**, verfasst von Erzmagus [[Kulin_Laetall]] (Akademie der Schwarzen Künste, 12 n.H.), ist das Standardwerk über transsphärische Wesenheiten der zweiten Sphäre (**Yerrodon**). 
+Das **Daimonicon**, verfasst von Erzmagus [[Kulin_Laetall]] ([[Akademie_der_Schwarzen_Kuenste]], 12 n.H.), ist das Standardwerk über transsphärische Wesenheiten der zweiten Sphäre (**Yerrodon**). 
 
 ## 1. Natur der Daimoniden
-Daimoniden sind Wesenheiten, die von [[Angamon]] aus grenzenlosem Hass geschaffen wurden. Sie sind unsterblich, da sie keinen Zugang zum Totenreich [[Morsan]]s haben. Sie manifestieren sich in der ersten Sphäre (Tare) in vorbereiteter, "geläuterter" Materie.
+Daimoniden sind Wesenheiten, die von [[Angamon]] aus grenzenlosem Hass geschaffen wurden. Sie sind unsterblich, da sie keinen Zugang zum Totenreich [[Morsan]]s haben. Sie manifestieren sich in der ersten Sphäre ([[Tare]]) in vorbereiteter, "geläuterter" Materie.
 
 ## 2. Das Horntheorem (Hierarchie)
-Die Macht eines Dämonen wird in "Hörnern" gemessen (primär im Astralraum sichtbar). Ein Dämon kann durch den Sieg über einen anderen dessen Macht (und Horn) absorbieren.
+Die Macht eines [[Daemonen]] wird in "Hörnern" gemessen (primär im Astralraum sichtbar). Ein Dämon kann durch den Sieg über einen anderen dessen Macht (und Horn) absorbieren.
 
 | Rang | Bezeichnung | Funktion / Macht |
 | :--- | :--- | :--- |
-| **0 Hörner** | Niedere Dämonen | Gefallene Seelen, Paktierer, Irahfar. |
+| **0 Hörner** | Niedere [[Daemonen]] | Gefallene Seelen, Paktierer, Irahfar. |
 | **1-6 Hörner** | Gehörnte | Befehlshaber von Garnisonen (z.B. [[Sha_Naz_Ghul]]). |
 | **7-11 Hörner** | Legionäre | Kommandieren ganze Legionen von Yerrodon. |
 | **12 Hörner** | Hohe Kommandanten | Führen große Bereiche einer Domäne. |
@@ -36,7 +36,7 @@ Yerrodon ist in neun pervertierte Domänen unterteilt, die den Göttern und Elem
 6. **Kulmar Sanghûlis (Schmerz/Lust):** Auch *Esparell’it Mosali*. Folter und Glücksrausch.
 7. **Moghtor (Tod):** Reich des Siechtums und der Untoten.
 8. **Agoth'ro'Hawenn (Angst):** Ursprung allen Grauens und der Illusionen.
-9. **Mele Môrthere (Wissen):** Auch *Zensyn Lramori*. Dämonische Bibliothek aller Leben.
+9. **Mele Môrthere ([[index]]):** Auch *Zensyn Lramori*. Dämonische [[index]] aller Leben.
 
 ---
 **Siehe auch:** [[Magietheorie_Daemonenbeschwoerung]], [[Kulin_Laetall]], [[Angamon]]

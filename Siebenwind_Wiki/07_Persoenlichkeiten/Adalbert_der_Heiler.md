@@ -12,13 +12,13 @@ report_id: 890b0622-d0c2-4d8e-8518-41047c90817d
 
 **Titel:** Heiler
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Falkensee / Klerus (angelehnt)
+**Zugehörigkeit:** [[Falkensee]] / Klerus (angelehnt)
 
 ## Beschreibung
 **Adalbert der Heiler** ist eine bekannte Gestalt in [[Falkensee]], die für ihre medizinischen Kenntnisse und ihren unermüdlichen Einsatz für die Kranken und Bedürftigen geschätzt wird. Er gilt als moralischer Kompass der lokalen Gemeinschaft.
 
 ## Wirken
-- **Kanonischer Status:** Er wird in den Grundlagendokumenten als amtierender Heiler von Falkensee geführt.
+- **Kanonischer Status:** Er wird in den Grundlagendokumenten als amtierender Heiler von [[Falkensee]] geführt.
 - **Leistungen:** Bekannt für die Entwicklung von Kräutermixturen gegen Sumpffieber.
 
 ## Verlinkte Themen

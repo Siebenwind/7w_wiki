@@ -1,12 +1,12 @@
 ---
 layout: wiki_page
 title: "Elementarmagie I"
-category: Magie
+category: [[index]]
 status: Canon
-quelle: "../../Quellen/Bibliothek Toran Dur/Amanda Dunkelbaum - Elementarmagie 1.md"
+quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Amanda_Dunkelbaum]] - Elementarmagie 1.md"
 lore_trust: 8
 confidence: Certain
-author: "Amanda Dunkelbaum"
+author: "[[Amanda_Dunkelbaum]]"
 ---
 
 # Elementarmagie I
@@ -18,7 +18,7 @@ Ein vertiefendes Werk von [[Amanda_Dunkelbaum]], das sich mit der Philosophie de
 ## Kernthesen
 
 ### Das 5. Element
-Anders als in der Metamagie (wo der Geist das 5. Element ist), definiert Dunkelbaum für die Elementarmagie **Eis** (Isaz) als das 5. Element – eine Mischung aus Wasser und Wind.
+Anders als in der Metamagie (wo der [[Geist]] das 5. Element ist), definiert Dunkelbaum für die Elementarmagie **Eis** (Isaz) als das 5. Element – eine Mischung aus Wasser und Wind.
 
 ### Die Natur des Leibes
 Der Körper selbst besteht aus Elementen:
@@ -33,8 +33,8 @@ Da auch Tiere aus Elementarknoten bestehen, kann der Magier sein eigenes Element
 *   **Runen-Beispiel:** `narra odal radine tar hian ki hian vuchaleij` (Verwandlung in einen Vogel).
 
 ### Illusionen
-Dunkelbaum argumentiert, dass Illusionen ("Zaubermantel", "unscheinbarer Stein") nicht auf Geist-Magie beruhen, sondern physikalische Manipulationen von Luft und Feuer (Hitze-Flimmern) sind.
+Dunkelbaum argumentiert, dass Illusionen ("Zaubermantel", "unscheinbarer Stein") nicht auf [[Geist]]-[[index]] beruhen, sondern physikalische Manipulationen von Luft und Feuer (Hitze-Flimmern) sind.
 
 ## Referenzen
-- Primärquelle: [Amanda Dunkelbaum - Elementarmagie 1](../../Quellen/Bibliothek%20Toran%20Dur/Amanda%20Dunkelbaum%20-%20Elementarmagie%201.md)
+- Primärquelle: [[[Amanda_Dunkelbaum]] - Elementarmagie 1](../../Quellen/[[index]]%20Toran%20Dur/Amanda%20Dunkelbaum%20-%20Elementarmagie%201.md)
 - Siehe auch: [[Magietheorie_Eigenschaften_der_Elemente]], [[Elementarlehre_Dunkelbaum]]

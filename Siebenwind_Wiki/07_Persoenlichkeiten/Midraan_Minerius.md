@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Midraan Minerius
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Midraan Minerius

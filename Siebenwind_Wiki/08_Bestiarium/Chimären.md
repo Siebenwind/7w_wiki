@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Chimären
-category: Bestiarium
+category: [[index]]
 ---
 
 # Chimären
@@ -13,14 +13,14 @@ Die Entstehungsgeschichte der **Chimären** wurde erst vor wenigen Jahrhunderten
 
 ## Bekannte Chimären-Rassen
 
-### Harpyien
+### [[Harpyien]]
 Hervorgegangen aus der Verschmelzung einer Magierin mit einem Gebirgsgeier.
-- **Verhalten:** Harpyien besitzen eine tierische Intelligenz und sind extrem aggressiv.
-- **Fortpflanzung:** Es existieren nur weibliche Harpyien. Sie können sich jedoch durch das Legen von Eiern ungeschlechtlich fortpflanzen, sobald eine ausreichende räumliche Distanz zu Artgenossen besteht. Ihre Aggressivität verhindert die Bildung größerer Gruppen.
+- **Verhalten:** [[Harpyien]] besitzen eine tierische Intelligenz und sind extrem aggressiv.
+- **Fortpflanzung:** Es existieren nur weibliche [[Harpyien]]. Sie können sich jedoch durch das Legen von Eiern ungeschlechtlich fortpflanzen, sobald eine ausreichende räumliche Distanz zu Artgenossen besteht. Ihre Aggressivität verhindert die Bildung größerer Gruppen.
 
-### Ferrin
+### [[Ferrin]]
 Diese Chimärenart entstand aus der Verbindung von Mensch und Ratte.
-- **Intelligenz:** Ferrin verfügen über eine menschenähnliche Intelligenz, folgen jedoch einer fremdartigen Logik.
+- **Intelligenz:** [[Ferrin]] verfügen über eine menschenähnliche Intelligenz, folgen jedoch einer fremdartigen Logik.
 - **Verhalten:** Sie sind sehr ängstliche Wesen, die [[Menschen]] aus dem Weg gehen und nur in großen Gruppen angreifen.
 
 ---

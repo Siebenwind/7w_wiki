@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Gin
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Gin

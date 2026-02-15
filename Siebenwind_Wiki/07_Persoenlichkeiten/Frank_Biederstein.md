@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Frank Biederstein
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 156.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_156]].md
 ---
 # Frank Biederstein
 

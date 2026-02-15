@@ -17,7 +17,7 @@ Benion Sandelholz ist der ranghöchste Diener der Göttin [[04_Vitama]] auf [[Si
 ## Karriere & Timeline
 - **16 n.H. (Bote 145):** Bekannt als "Vater Benion", Organisator von Schönheitswettbewerben und Messen zu Ehren Vitamas.
 - **19 n.H. (Bote 164):** Erhebung in den Stand eines **Edelmanns** durch Graf Robaar nebst seiner Gemahlin Samira.
-- **20 n.H. (Bote 175):** Erhebung zum **Erzgeweihten Vitamas** durch Erzgeweihte Arianna Morgentau am Vitamateich. Trotz Störversuchen durch Clavius Aurelius (Anhänger des Calmexistus) wurde die Weihe als gesegnetes Ereignis wahrgenommen.
+- **20 n.H. (Bote 175):** Erhebung zum **Erzgeweihten Vitamas** durch Erzgeweihte [[Arianna_Morgentau]] am Vitamateich. Trotz Störversuchen durch Clavius Aurelius (Anhänger des Calmexistus) wurde die Weihe als gesegnetes Ereignis wahrgenommen.
 
 ## Wirken
 Benion genießt hohes Ansehen über alle Völkergrenzen hinweg. Er vermittelt oft in Konflikten und ist eine moralische Instanz auf der Insel.

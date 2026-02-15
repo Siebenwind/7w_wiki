@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Stephan von Weidenbach
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Stephan von Weidenbach

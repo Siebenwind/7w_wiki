@@ -2,11 +2,11 @@
 
 **Autor:** [[Toran Dur]] (vermutlich als Erzmagus)
 **Datum:** Nach 28 n.H. (Bezugnahme auf die erste Charta)
-**Kategorie:** Recht / Satzung
+**Kategorie:** [[index]] / Satzung
 
 ## Inhalt
 
-Dieses Dokument ist die zweite Fassung der Charta des **Ita’Glur** (Grauer Pfad) auf Siebenwind. Sie ersetzt die erste Charta, die sich als unzulänglich erwiesen hatte.
+Dieses Dokument ist die zweite Fassung der Charta des **Ita’Glur** (Grauer Pfad) auf [[Siebenwind]]. Sie ersetzt die erste Charta, die sich als unzulänglich erwiesen hatte.
 
 ### Präambel
 Die Charta soll den Grauen Pfad angesichts des drohenden "Krieges der Götter" einen. Die Revision erfolgte, da der Graue Rat der ersten Charta mangelnden Einsatz zeigte.

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Aufhebung des Toleranzedikts
-category: Geschichte
+category: [[index]]
 ---
 
 # Aufhebung des Toleranzedikts
@@ -14,7 +14,7 @@ category: Geschichte
 ## Inhalt
 Im Jahr 21 n.H. hob der Relator im Namen von König [[Hilgorad_I._ap_Mer_von_Galadon]] das Toleranzedikt auf, welches zuvor den Schutz von [[Enhor]]- und [[Gohor]]-Gläubigen garantierte.
 
-## Maßnahmen im Ersonter Bund
+## Maßnahmen im [[Ersonter_Bund]]
 Rätin [[Solice_Aurora]] verkündete strikte Maßnahmen:
 1.  **Verbot** elementarer Grüße (außer nach Gruß der Viere/Sahor).
 2.  **Verbot** offener religiöser Insignien (außer Sahor).

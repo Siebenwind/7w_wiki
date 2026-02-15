@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Seelenfresser
-category: Bestiarium
+category: [[index]]
 ---
 
 # Seelenfresser

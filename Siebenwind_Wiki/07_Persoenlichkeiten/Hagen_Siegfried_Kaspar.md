@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Hagen Siegfried Kaspar
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 uuid: a1b2c3d4-5678-8901-2345-67bf2597e836
 epistemic: "#bote"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Anonymus
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 quelle: [[Wissen_Siebenwind]]
 ---
 
@@ -13,10 +13,10 @@ quelle: [[Wissen_Siebenwind]]
 ## Beschreibung
 Der Eintrag **Anonymus** dient als Sammelbezeichnung für Autoren historischer Schriften, deren Identität über die Jahrhunderte verloren ging oder absichtlich im Dunkeln gelassen wurde.
 
-Häufig handelt es sich um Gelehrte, die verbotenes Wissen (z.B. über die arkanen Wellenbewegungen oder die Magie der 2. Sphäre) festhielten und sich durch Anonymität vor Verfolgung durch die [[Inquisition]] oder rivalisierende Magierorden schützten.
+Häufig handelt es sich um Gelehrte, die verbotenes [[index]] (z.B. über die arkanen Wellenbewegungen oder die [[index]] der 2. Sphäre) festhielten und sich durch Anonymität vor Verfolgung durch die [[Inquisition]] oder rivalisierende Magierorden schützten.
 
 ---
-**Bekannte Werke:**
+**Bekannte [[index]]:**
 - [[Theorie zur arkan. Magie]]
 - [[Alchemie]]
 - [[Etikette]]

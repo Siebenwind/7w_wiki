@@ -4,7 +4,7 @@ title: Personen
 ---
 
 # [[Siebenwind]] Wiki - Personen
-Das Archiv der Personen.
+Das [[index]] der Personen.
 
 ## Inhalte
 

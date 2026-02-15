@@ -3,7 +3,7 @@ layout: wiki_page
 uuid: 4c5d6e7f-8a9b-4c0d-1e2f-3a4b5c6d7e8f
 title: Vela
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_181]].md
 letzter_check: 2026-02-13T23:00:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---
@@ -12,7 +12,7 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 **Titel:** Inhaberin Warenhaus
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** Handelsgilde / Brandenstein
+**Zugehörigkeit:** Handelsgilde / [[Brandenstein]]
 
 ## Beschreibung
 **Vela** ist eine erfolgreiche Kauffrau und Inhaberin eines Warenhauses, die im Jahr 21 n.H. zusammen mit [[Arn]] den lokalen Handel stützte (Bote 181).
@@ -25,4 +25,4 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 - [[Personenregister]]
 
 ## Referenzen
-- Primärquelle: [Siebenwind Bote 181](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20181.md)
+- Primärquelle: [[[Siebenwind_Bote_181]]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20181.md)

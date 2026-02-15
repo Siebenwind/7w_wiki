@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Eleonore"
-category: Personen
+category: [[index]]
 ---
 
 # Eleonore

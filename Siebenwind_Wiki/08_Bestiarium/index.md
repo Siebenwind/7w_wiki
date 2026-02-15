@@ -4,7 +4,7 @@ title: Bestiarium
 ---
 
 # [[Siebenwind]] Wiki - Bestiarium
-Das Archiv der Bestiarium.
+Das [[index]] der Bestiarium.
 
 ## Inhalte
 

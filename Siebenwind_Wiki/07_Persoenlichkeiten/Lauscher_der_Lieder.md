@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Lauscher der Lieder
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 uuid: c3d4e5f6-7890-0123-4567-89bf2597e836
 epistemic: "#bote"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Harpyien
-category: Bestiarium
+category: [[index]]
 uuid: 6210D748-4BE8-42FD-BE01-44D35CE40EFB
 letzter_check: 2026-02-13T14:55:00+01:00
 ---
@@ -22,7 +22,7 @@ letzter_check: 2026-02-13T14:55:00+01:00
 - **Fortpflanzung:** Ungeschlechtlich durch Eiablage, sobald eine ausreichende räumliche Distanz zu Artgenossen besteht.
 - **Erscheinungsbild:** Geflügelte Kreaturen mit durchdringendem Kreischen.
 
-## Auftreten auf Siebenwind
+## Auftreten auf [[Siebenwind]]
 
 Harpyien werden vor allem während des [[Dunkeltief]]s gesichtet, wenn die Dunkelheit ihnen Deckung bietet. Augenzeugenberichte schildern sie als Jäger, die bevorzugt exponierte Stellungen wie Türme und Wehrgänge attackieren.
 

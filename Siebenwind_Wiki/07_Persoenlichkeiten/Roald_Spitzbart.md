@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Roald Spitzbart
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 167.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_167]].md
 ---
 # Roald Spitzbart
 

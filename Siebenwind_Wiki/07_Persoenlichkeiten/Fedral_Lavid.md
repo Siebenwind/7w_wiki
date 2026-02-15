@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Fedral Lavid
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 156.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_156]].md
 ---
 # Fedral Lavid
 
@@ -17,9 +17,9 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 156.md
 Er war bekannt dafür, selbst Hand anzulegen und Seite an Seite mit den Maurern und Bauarbeitern zu arbeiten.
 
 ## Wirken
-*   **Gründung:** Er legte das Fundament für Falkensee, errichtete den Marktplatz und schuf den Raum für den Tempel der Viere sowie die Ritterburg.
-*   **Heldentod (19 n.H.):** Am 5. Dular fiel er in seinem letzten Kampf am Wall gegen eine Übermacht untoter Kreaturen. Trotz schwerer Verwundungen aus dem Dunkeltief (er verlor dabei ein Bein) stellte er sich erneut dem Feind. Er wurde unter großer Anteilnahme der Bevölkerung am 14. Dular (Saatfest) nahe des Walls beigesetzt (Bote 165).
-*   **Privates:** Er war verheiratet mit Anijane Lavid und hinterlässt einen Sohn namens Jonah Lavid.
+*   **Gründung:** Er legte das [[index]] für [[Falkensee]], errichtete den Marktplatz und schuf den Raum für den Tempel der Viere sowie die Ritterburg.
+*   **Heldentod (19 n.H.):** Am 5. Dular fiel er in seinem letzten Kampf am Wall gegen eine Übermacht untoter Kreaturen. Trotz schwerer Verwundungen aus dem [[Dunkeltief]] (er verlor dabei ein Bein) stellte er sich erneut dem Feind. Er wurde unter großer Anteilnahme der Bevölkerung am 14. Dular (Saatfest) nahe des Walls beigesetzt (Bote 165).
+*   **Privates:** Er war verheiratet mit [[Anijane_Lavid]] und hinterlässt einen Sohn namens Jonah Lavid.
 
 ---
 **Siehe auch:** [[Falkensee]], [[Mirian_Lasar]]

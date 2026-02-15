@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Yaris Ferano
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 152.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_152]].md
 ---
 # Yaris Ferano
 
@@ -14,7 +14,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 152.md
 
 ## Beschreibung
 **Yaris Ferano** (auch Yanis Ferano, Bote 151) ist für die Bergbauverwaltung im Ortsrat von [[Brandenstein]] zuständig (zusammen mit [[Rebecca_Gruenenberg]]).
-Er wird in Bote 151 auch als Leiter des Freien Handelskontors in Falkensee erwähnt, wo ein Brand ausbrach.
+Er wird in Bote 151 auch als Leiter des Freien Handelskontors in [[Falkensee]] erwähnt, wo ein Brand ausbrach.
 
 ---
 **Siehe auch:** [[Brandenstein]], [[Falkensee]]

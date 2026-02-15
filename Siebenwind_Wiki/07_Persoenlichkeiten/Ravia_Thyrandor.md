@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Ravia Thyrandor
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Ravia Thyrandor

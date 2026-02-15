@@ -13,7 +13,7 @@ category: Persönlichkeit
 
 ## Beschreibung
 Siegfried Steiner (oft mit ~SS~ gezeichnet) ist ein hochrangiger Ritter und der 8. Großmeister des Ordens der [[Ritter_der_Sieben_Winde]]. 
-*   **Angriff (19 n.H.):** Während der Unruhen um die Verhaftung von **Raela** in [[Falkensee]] wurde er durch eine magische Flammenwand angegriffen und schwer verletzt. Er erholte sich jedoch in der Burg Finianswacht (Bote 165).
+*   **Angriff (19 n.H.):** Während der Unruhen um die Verhaftung von **Raela** in [[Falkensee]] wurde er durch eine magische Flammenwand angegriffen und schwer verletzt. Er erholte sich jedoch in der [[Burg_Finianswacht]] (Bote 165).
 
 ### Ernennung zum Drachenritter (17 n.H.)
 Im 10. Sekar 17 n.H. (Bote 153) wurde Siegfried Steiner von Großmeister Robaar für seine Verdienste als Marschall und Burgvogt zum **Drachenritter** erhoben.

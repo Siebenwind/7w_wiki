@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Hafengilde Brandenstein
+title: Hafengilde [[Brandenstein]]
 category: [[Gesellschaft]]
 ---
 

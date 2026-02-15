@@ -1,11 +1,11 @@
 layout: wiki_page
 title: "Alchemie Kompendium"
-category: Magie
+category: [[index]]
 status: integrated
 uuid: A1234567-B2C3-4D5E-8F9A-0A1B2C3D4E5F
 report_id: b3c4d5e6-f7a8-4b9c-0d1e-2f3a4b5c6d7e
 letzter_check: 2026-02-15T23:30:00+01:00
-author: "Anonymus"
+author: "[[Anonymus]]"
 ---
 
 # Alchemie Kompendium
@@ -17,7 +17,7 @@ Die Alchemie ist die Lehre von den stofflichen Wirkungsweisen in Verbindung ihre
 ## 1. Klassifizierung der Alchemie
 Die Alchemie wird in zwei wesentliche Disziplinen unterteilt:
 - **Niedere Alchemie:** Befasst sich mit der materiellen Suche nach dem "Stein der Weisen", der Herstellung gebräuchlicher Tränke und der Verfeinerung von Apparaturen. Sie finanziert sich oft durch Märkte oder Anstellungen an Adelskursen.
-- **Hohe Alchemie:** Die Domäne der Magi. Sie ist geheimnisvoll und nutzt oft magische Formeln (latente Magie), seltene Edelsteine oder bereits extrahierte Substanzen der niederen Alchemie als Basis. Prozesse können Jahre dauern.
+- **Hohe Alchemie:** Die Domäne der Magi. Sie ist geheimnisvoll und nutzt oft magische Formeln (latente [[index]]), seltene Edelsteine oder bereits extrahierte Substanzen der niederen Alchemie als Basis. Prozesse können Jahre dauern.
 
 ## 2. Der alchemistische Dekalog (Sicherheitsregeln)
 Arbeiten in Laboren unterliegen strengen Sicherheitsvorkehrungen:

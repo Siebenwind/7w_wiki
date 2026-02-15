@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tantalla"
-category: Personen
+category: [[index]]
 ---
 
 # Tantalla

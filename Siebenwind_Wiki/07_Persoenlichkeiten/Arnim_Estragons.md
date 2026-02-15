@@ -11,7 +11,7 @@ category: [[Persönlichkeiten]]
 Der stellvertretende Leiter der Redaktion des [[Siebenwind_Boten]] und ein engagierter Bürger Brandensteins.
 
 ## Werdegang
-Gemeinsam mit [[Madame_Estrella]] übernahm er im Jahr 15 n.H. die Leitung des Boten von [[Madame_Delevha]] ([[Siebenwind_Bote_131]]). Er tritt oft als Autor unter dem Kürzel "Arn" auf.
+Gemeinsam mit [[Madame_Estrella]] übernahm er im Jahr 15 n.H. die Leitung des Boten von [[Madame_Delevha]] ([[Siebenwind_Bote_131]]). Er tritt oft als Autor unter dem Kürzel "[[Arn]]" auf.
 
 ## Soziales Engagement & Projekte
 Arnim Estragons zeigt ein starkes Interesse an der Infrastruktur und dem sozialen Wohl der Insel:

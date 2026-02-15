@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Aufstand in Wallenburg
-category: Geschichte
+category: [[index]]
 ---
 
 # Aufstand in Wallenburg

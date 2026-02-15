@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Amanda Dunkelbaum
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Amanda Dunkelbaum
@@ -11,7 +11,7 @@ category: Persönlichkeiten
 **Zugehörigkeit:** Unabhängige Forscherin / Magierakademie
 
 ## Beschreibung
-**Amanda Dunkelbaum** verfasste das Werk **[[Elementarlehre_Dunkelbaum|Der Elementare Pfad]]**, in dem sie die vier klassischen Elemente als arkane Prinzipien beschreibt und die Rolle des Geistes als verbindende Kraft betont.
+**Amanda Dunkelbaum** verfasste das Werk **[[Elementarlehre_Dunkelbaum|Der [[Elementare]] Pfad]]**, in dem sie die vier klassischen Elemente als arkane Prinzipien beschreibt und die Rolle des Geistes als verbindende Kraft betont.
 
 ---
 **Siehe auch:** [[Elementarlehre_Dunkelbaum]], [[Magie]]

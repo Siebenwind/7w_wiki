@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Goblins
-category: Bestiarium
+category: [[index]]
 ---
 
 # Goblins

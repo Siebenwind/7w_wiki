@@ -1,19 +1,19 @@
 ---
 layout: wiki_page
 title: "Magietheorie: Dämonenbeschwörung"
-category: Magie
+category: [[index]]
 status: integrated
-quelle: "/Quellen/Bibliothek Toran Dur/Dunvallo Linari - Daimonen.md"
+quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Dunvallo_Linari]] - Daimonen.md"
 ---
 
 # Theorie der Dämonenbeschwörung (Daimonologie)
 
 **Epistemischer Status:** #verboten / #überlieferung
 
-Die Daimonologie beschreibt die Invokation (Manifestation) und die Unterwerfung (Beherrschung) transsphärischer Wesenheiten. Sie gilt als der gefährlichste Pfad der Magie, da ein Kontrollverlust oft mit dem Tod oder dem Verlust der Seele endet.
+Die Daimonologie beschreibt die Invokation (Manifestation) und die Unterwerfung (Beherrschung) transsphärischer Wesenheiten. Sie gilt als der gefährlichste Pfad der [[index]], da ein Kontrollverlust oft mit dem Tod oder dem Verlust der Seele endet.
 
-## 1. Die Magische Formel (nach Nefustor)
-Das Wirken schwarzer Magie und die Beschwörung folgen einer erweiterten Formel:
+## 1. Die Magische Formel (nach [[Nefustor]])
+Das Wirken schwarzer [[index]] und die Beschwörung folgen einer erweiterten Formel:
 **Wille + Imagination + Gnosis + Formular/Gestik = Magischer Akt**
 - **Imagination:** Die geistige Projektion des Ziels.
 - **Gnosis:** Die magische Trance, um den "Zensor" (den Filter zwischen Bewusstsein und Unbewusstem) zu umgehen.

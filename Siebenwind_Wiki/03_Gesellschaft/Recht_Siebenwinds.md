@@ -1,16 +1,16 @@
 ---
 layout: wiki_page
-title: Recht Siebenwinds (De Iuribus)
+title: [[index]] Siebenwinds (De Iuribus)
 category: [[Gesellschaft]]
-tags: [Gesetz, Recht, Verfassung, Strafe, Adel, Bürger]
+tags: [Gesetz, [[index]], Verfassung, Strafe, Adel, Bürger]
 status: #überlieferung
 ---
 
-# Recht Siebenwinds (De Iuribus)
+# [[index]] Siebenwinds (De Iuribus)
 
 **Epistemischer Status:** #canon
 
-Das **De Iuribus [[Siebenwind]]** ist das grundlegende Gesetzeswerk des Lehens [[Siebenwind]]. Es wurde im Jahr 14 nach [[Hilgorad_I_ap_Mer|Hilgorad]] unter Graf [[Koruun_McKevin]] und den königlichen Richtern Aurax Ellrothon und Lario Anderus erlassen.
+Das **De Iuribus [[Siebenwind]]** ist das grundlegende Gesetzeswerk des Lehens [[Siebenwind]]. Es wurde im Jahr 14 nach [[Hilgorad_I_ap_Mer|Hilgorad]] unter Graf [[Koruun_McKevin]] und den königlichen Richtern [[Aurax_Ellrothon]] und [[Lario_Anderus]] erlassen.
 
 ## Constitutio [[Siebenwind]] (Verfassung)
 
@@ -37,7 +37,7 @@ Regelt private Rechtsverhältnisse und Verträge.
 ## Lex Patritiorum (Adelsrecht)
 
 Definiert die Privilegien des Adels und des hohen Klerus (ab Erzgeweihtem).
-*   **Ehrenduell:** Adlige haben das Recht, Beleidigungen durch ein Duell unter Aufsicht eines [[Bellum]]-Geweihten zu klären.
+*   **Ehrenduell:** Adlige haben das [[index]], Beleidigungen durch ein Duell unter Aufsicht eines [[Bellum]]-Geweihten zu klären.
 *   **Asylrecht:** Adlige können Schutzbefohlenen Asyl gewähren, das sie vor weltlicher Verfolgung schützt.
 
 ## Lex Exceptionis (Sonderrechte)

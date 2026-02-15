@@ -1,9 +1,9 @@
 ---
-title: Die Elemente aus der Sicht der Mitte (Elyran Fischer)
+title: Die Elemente aus der Sicht der Mitte ([[Elyran_Fischer]])
 file_name: Die_Elemente_aus_der_Sicht_der_Mitte_(Elyran_Fischer).md
 description: Eine magietheoretische Betrachtung der Elemente aus der pragmatischen Sicht eines Graumagiers ("Mitte"), mit Fokus auf Symbolik und effektiven Nutzen.
 date: 2024-05-24
-author: Elyran Fischer (Original), Archivteam (Zusammenstellung)
+author: [[Elyran_Fischer]] (Original), Archivteam (Zusammenstellung)
 ---
 
 # Die Elemente aus der Sicht der Mitte
@@ -24,13 +24,13 @@ Fischer ordnet die Elemente nach **Ordnung** und **Chaos** sowie ihrem praktisch
 | **Wasser** | Chaos (Welle) | Tiefgründig, launisch | Verwandlung, Heilung (C. Curativa) |
 | **Erde** | Ordnung (Standhaftigkeit) | Behäbig, traditionsbewusst | Schutz (Wälle), Veränderung v. Materie |
 | **Feuer** | Chaos (Zerstörung) | Jähzornig, leidenschaftlich | Kampf (C. Combattiva), "Ausbrennen" v. Krankheit |
-| **Geist** | Neutral | Manipulierend, intelligent | Metamagie, Analyse, Steuerung der anderen Elemente |
+| **[[Geist]]** | Neutral | Manipulierend, intelligent | Metamagie, Analyse, Steuerung der anderen Elemente |
 
-## Anwendung in der Grauen Magie
+## Anwendung in der Grauen [[index]]
 
 ### Magica Combattiva (Kampf)
 Effizienz ist der Schlüssel.
-*   **Beispiel Feuerball:** Der Magier nutzt das Element Geist, um Feuerfäden in Schwingung zu versetzen (Chaos) und schleudert sie mit einer kontrollierten Geste (Ordnung) auf das Ziel.
+*   **Beispiel Feuerball:** Der Magier nutzt das Element [[Geist]], um Feuerfäden in Schwingung zu versetzen (Chaos) und schleudert sie mit einer kontrollierten Geste (Ordnung) auf das Ziel.
 
 ### Magica Moventia (Bewegung)
 *   **Luft:** Ideal für Levitation, da sie von Erde (Boden) abgestoßen wird. Ein "Luftpolster" verhindert Kollisionen.

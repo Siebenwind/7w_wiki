@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Ferrin
-category: Bestiarium
+category: [[index]]
 uuid: B14AB2FD-46E5-4799-AA87-D1660F87E881
 letzter_check: 2026-02-13T14:55:00+01:00
 ---
@@ -20,7 +20,7 @@ Die **Ferrin** — im Volksmund auch als „Rattenmenschen" bezeichnet — sind 
 - **Verhalten:** Sehr ängstliche Wesen, die [[Menschen]] aus dem Weg gehen und nur in großen Gruppen angreifen. In der Gruppe können sie sich jedoch als ernstzunehmende Bedrohung erweisen.
 - **Vermehrung:** Ferrin vermehren sich rapide und können verlassene Gebiete schnell wieder besiedeln.
 
-## Siedlungsgebiet auf Siebenwind
+## Siedlungsgebiet auf [[Siebenwind]]
 
 Die Ferrin bewohnen vorwiegend die Sümpfe bei [[Falkensee]], wo sie in Behausungen unter der Erde leben. Obwohl sie den Bewohnern der Insel nur selten in offenem Kampf begegnen, führen sie regelmäßig Scharmützel mit Abenteurern und Grenzsiedlern.
 

@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
 title: "Von der rechten Art der Mission"
-category: Gesellschaft
+category: [[index]]
 status: integrated
-quelle: "/Quellen/Bibliothek Astrael/Von der rechten Art der Mission und dem gesunden Mass.md"
+quelle: "/Quellen/[[index]] [[Astrael]]/Von der rechten Art der Mission und dem gesunden Mass.md"
 author: "Donarius Derrvus"
 ---
 
 # Von der rechten Art der Mission und dem gesunden Maß
 
-In diesem Traktat legt **Donarius Derrvus** die philosophischen Grundlagen und praktischen Richtlinien für die Missionierung Ungläubiger (Heiden, Nortraven) dar.
+In diesem Traktat legt **Donarius Derrvus** die philosophischen Grundlagen und praktischen Richtlinien für die Missionierung Ungläubiger (Heiden, [[Nortraven]]) dar.
 
 ## Die vierfache Seele
 Derrvus postuliert, dass die menschliche Seele aus zwei Hauptbereichen besteht:
@@ -18,7 +18,7 @@ Derrvus postuliert, dass die menschliche Seele aus zwei Hauptbereichen besteht:
 Eine einseitige Betonung oder Ablehnung eines Teils (z.B. die völlige Askese oder die Ablehnung der Logik) führt zum Absterben der Seele, da die Schöpfung nur in ihrer Vierheit verstanden werden kann.
 
 ## Mission durch Vernunft (Naturalis Ratio)
-Da Heiden und Nortraven die Offenbarungsschriften der Viere nicht anerkennen, muss die Mission auf der **natürlichen Vernunft** basieren, die allen Menschen eigen ist.
+Da Heiden und [[Nortraven]] die Offenbarungsschriften der Viere nicht anerkennen, muss die Mission auf der **natürlichen Vernunft** basieren, die allen [[Menschen]] eigen ist.
 
 ### Die drei Prinzipien der Bekehrung:
 1. **Zuhören und Verstehen**: Man muss das Weltbild des Gegenübers durchdringen und sein Vertrauen gewinnen.

@@ -9,7 +9,7 @@ category: [[Gesellschaft]]
 **Epistemischer Status:** #überlieferung
 **Autor:** [[Logrin_Goldaxt]], Magister der Bartanatomie, Mitglied der H&H der [[Dwarschim]]
 
-Dieses Werk, ursprünglich in zwergischen Runen verfasst, gilt als eines der Standardwerke der zwergischen Bartkunde auf [[Siebenwind]]. Es wurde von Magister [[Logrin_Goldaxt]] verfasst, der darin die Lehren seines Vaters Fogrim Goldaxt fortsetzt.
+Dieses Werk, ursprünglich in zwergischen Runen verfasst, gilt als eines der Standardwerke der zwergischen Bartkunde auf [[Siebenwind]]. Es wurde von Magister [[Logrin_Goldaxt]] verfasst, der darin die Lehren seines Vaters [[Fogrim_Goldaxt]] fortsetzt.
 
 ## Der Bart des Dwarschim
 

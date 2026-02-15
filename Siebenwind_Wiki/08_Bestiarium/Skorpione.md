@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Skorpione
-category: Bestiarium
+category: [[index]]
 ---
 
 # Skorpione

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nurya"
-category: Personen
+category: [[index]]
 ---
 
 # Nurya

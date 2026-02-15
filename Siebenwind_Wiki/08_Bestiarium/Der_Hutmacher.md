@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Der Hutmacher
-category: Bestiarium
+category: [[index]]
 ---
 
 # Der Hutmacher

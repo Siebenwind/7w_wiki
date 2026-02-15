@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Talida
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Talida
@@ -11,7 +11,7 @@ category: Persönlichkeiten
 **Zugehörigkeit:** [[Nortraven]] / [[Vänskap]]
 
 ## Beschreibung
-**Talida** ist eine nortravische Schneiderin in [[Vänskap]], bekannt für ihre Leder- und Fellarbeiten. Sie war auch bei der Bündniszeremonie zwischen Nortraven und Seeberg anwesend (Bote 184) und überreichte [[Yves_Rondragon]] einen Kilt.
+**Talida** ist eine nortravische Schneiderin in [[Vänskap]], bekannt für ihre Leder- und Fellarbeiten. Sie war auch bei der Bündniszeremonie zwischen [[Nortraven]] und [[Seeberg]] anwesend (Bote 184) und überreichte [[Yves_Rondragon]] einen Kilt.
 
 ---
 **Siehe auch:** [[Nortraven]], [[Handwerk]]

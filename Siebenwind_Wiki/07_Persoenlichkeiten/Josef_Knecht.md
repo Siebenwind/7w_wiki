@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Josef Knecht"
-category: Personen
+category: [[index]]
 ---
 
 # Josef Knecht

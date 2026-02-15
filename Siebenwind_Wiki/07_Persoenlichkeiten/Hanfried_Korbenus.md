@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Hanfried Korbenus
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Hanfried Korbenus
@@ -11,7 +11,7 @@ category: Persönlichkeiten
 **Zugehörigkeit:** [[Recht]] / [[Galadonien]]
 
 ## Beschreibung
-**Hanfried Korbenus** war im Jahr 15 n.H. (Bote 124) Königlicher Richter auf Siebenwind.
+**Hanfried Korbenus** war im Jahr 15 n.H. (Bote 124) Königlicher Richter auf [[Siebenwind]].
 Er sprach die Todesurteile über [[Elares_Valjean]] und [[Barad_Hael]].
 
 ---

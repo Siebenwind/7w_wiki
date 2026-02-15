@@ -1,11 +1,11 @@
 ---
 layout: wiki_page
-title: Akora Dur
-category: Persönlichkeiten
+title: [[Akora]] [[Dur]]
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 167.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_167]].md
 ---
-# Akora Dur
+# [[Akora]] [[Dur]]
 
 **Titel:** Händlerin
 **Epistemischer Status:** #bote
@@ -13,10 +13,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 167.md
 **Zeitraum:** aktiv 19 n.H.
 
 ## Beschreibung
-**Akora Dur** ist eine erfolgreiche Händlerin in [[Falkensee]]. Sie ist die Tochter des berühmten Magiers **[[Toran_Dur]]**.
+**[[Akora]] [[Dur]]** ist eine erfolgreiche Händlerin in [[Falkensee]]. Sie ist die Tochter des berühmten Magiers **[[Toran_Dur]]**.
 
 ## Wirken
-*   **Wirtschaft:** Sie führt einen florierenden Laden im Handwerksviertel von Falkensee und besitzt einen Turm im Wald westlich der Stadt. Trotz ihres Wohlstands geriet sie in die Schlagzeilen des Boten, als sie vorgab, sich den Kauf einer Zeitungsausgabe nicht leisten zu können, während sie gleichzeitig ihre neuste Seidenmode ausführte (Bote 167).
+*   **Wirtschaft:** Sie führt einen florierenden Laden im Handwerksviertel von [[Falkensee]] und besitzt einen Turm im Wald westlich der Stadt. Trotz ihres Wohlstands geriet sie in die Schlagzeilen des Boten, als sie vorgab, sich den Kauf einer Zeitungsausgabe nicht leisten zu können, während sie gleichzeitig ihre neuste Seidenmode ausführte (Bote 167).
 
 ---
 **Siehe auch:** [[Toran_Dur]], [[Falkensee]]

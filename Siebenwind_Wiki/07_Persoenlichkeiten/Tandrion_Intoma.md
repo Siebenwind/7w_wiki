@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Tandrion Intoma
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Tandrion Intoma

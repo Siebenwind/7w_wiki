@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Adrienne Valemis
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 quelle: [Linari - Reagenzien]
 status: #überlieferung
 ---
@@ -9,7 +9,7 @@ status: #überlieferung
 # Adrienne Valemis
 
 ## Beschreibung
-Spektabilität / Magister (Toran Dur)
+Spektabilität / Magister ([[Toran_Dur]])
 
 ## Referenzen
 - [[Personenregister]]

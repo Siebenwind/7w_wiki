@@ -12,7 +12,7 @@ status: "#überlieferung"
 Magistra. Historische Persönlichkeit der Magietheorie, bekannt durch ihre Arbeiten zur Theorie der elementaren Atome.
 
 > [!NOTE]
-> Nicht zu verwechseln mit der zeitgenössischen [Janniea Lavrial].
+> Nicht zu verwechseln mit der zeitgenössischen [[[Janniea_Lavrial]]].
 
 ## Referenzen
 - [[Theorie_der_elementaren_Atome]]

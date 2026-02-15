@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Jagd auf Elares Valjean
-category: Geschichte
+title: Jagd auf [[Elares_Valjean]]
+category: [[index]]
 ---
 
-# Jagd auf Elares Valjean
+# Jagd auf [[Elares_Valjean]]
 
 **Epistemischer Status:** #bote
 **Datum:** 20. Querlar 15 n.H. (Bote 122)

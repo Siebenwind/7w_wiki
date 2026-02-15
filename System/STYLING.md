@@ -39,8 +39,34 @@ Das Wiki ist ein **Spezialisten-Werkzeug**, keine immersive Rollenspieldarstellu
 
 ---
 
-## IV. Legal & Copyright (Standard)
+---
+
+## V. Epistemik-Visualisierung (Status-Header)
+Jeder Wiki-Artikel muss mit einem standardisierten Status-Header beginnen, der die Verlässlichkeit der Information (Epistemik) sofort klärt.
+
+- **Syntax:** `!!! note "Status: [Typ]"`
+- **Typen:** `#canon` (Zentral), `#bote` (Zeitgeschehen), `#perspektive` (Subjektiv), `#überlieferung` (Vage), `#fanon` (Nicht-Kanon/Legacy).
+
+Beispiel:
+```markdown
+!!! note "Status: #canon"
+    Diese Information entspricht dem offiziellen Kern-Kanon von Siebenwind.
+```
+
+---
+
+## VI. Visualisierung & Komplexe Daten
+- **Stammbäume:** Nutzung von Mermaid-Syntax (`graph TD`) für familiäre Verhältnisse.
+- **Galerien:** Nutzung von Markdown-Carousels für Artworks und Skizzen.
+- **Dossiers:** Wissenschaftliche Berichte nutzen das `[!ABSTRACT]` Tag für Zusammenfassungen.
+
+---
+
+## VII. Legal & Copyright (Standard)
 Der Footer muss zwingend folgende Information enthalten:
 `© 2026 LeCorbeau & Siebenwind Gemeinschaft | Inhalte: Autoren & Projekt Siebenwind`
 
 *Hinweis: Der Code steht unter MIT (LeCorbeau), die Inhalte unter CC BY-NC-SA 4.0 (Gemeinschaft).*
+
+---
+*Zuletzt aktualisiert: 15.02.2026 durch Antigravity (Standard v2.8)*

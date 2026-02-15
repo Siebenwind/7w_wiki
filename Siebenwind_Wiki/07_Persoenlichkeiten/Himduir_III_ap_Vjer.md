@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Himduir III ap Vjer
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 uuid: b2c3d4e5-6789-9012-3456-78bf2597e836
 epistemic: "#canon"
 ---

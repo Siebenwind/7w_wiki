@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Isolde Wendolyn
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 138.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_138]].md
 ---
 # Isolde Wendolyn
 

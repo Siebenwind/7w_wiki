@@ -1,11 +1,11 @@
 ---
 layout: wiki_page
-title: Caeden Ecanas
-category: Persönlichkeiten
+title: [[Caeden]] Ecanas
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 151.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_151]].md
 ---
-# Caeden Ecanas
+# [[Caeden]] Ecanas
 
 **Titel:** Ritter / Kommandant am Wall
 **Epistemischer Status:** #bote
@@ -13,7 +13,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 151.md
 **Zeitraum:** aktiv 17 n.H.
 
 ## Beschreibung
-**Sire Caeden Ecanas** ist ein Ritter und Kommandant am [[Falkenwall]]. Er gilt als strenger, aber gerechter Anführer, der seinen Soldaten Mut spendet.
+**Sire [[Caeden]] Ecanas** ist ein Ritter und Kommandant am [[Falkenwall]]. Er gilt als strenger, aber gerechter Anführer, der seinen Soldaten Mut spendet.
 
 ## Wirken
 *   **Bote 151 (17 n.H.):** Wurde bei einem diplomatischen Versuch im Orklager zusammen mit dem Lehnsherrn entführt und schwer verwundet.

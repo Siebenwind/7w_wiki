@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Graue Garde
-category: Gesellschaft
+category: [[index]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 175.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_175]].md
 ---
 # Graue Garde
 
@@ -11,7 +11,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 175.md
 **Rolle:** Magische Exekutive / Sicherheitsdienst
 
 ## Beschreibung
-Die **Graue Garde** ist eine militärisch organisierte Kampftruppe von Magiern auf Siebenwind. Ursprünglich eine Schutzmacht für das gesamte Reich, konzentriert sie sich seit der Auflösung der [[Kronmark]] (20 n.H.) vornehmlich auf das Territorium des [[Ersonter_Bund|Ersonter Bundes]]. Sie untersteht dem Primus Magus Laude.
+Die **Graue Garde** ist eine militärisch organisierte Kampftruppe von Magiern auf [[Siebenwind]]. Ursprünglich eine Schutzmacht für das gesamte Reich, konzentriert sie sich seit der Auflösung der [[Kronmark]] (20 n.H.) vornehmlich auf das Territorium des [[Ersonter_Bund|Ersonter Bundes]]. Sie untersteht dem Primus Magus Laude.
 
 ## Aufgaben
 *   **Kontrolle arkaner Belange:** Eindämmung und Verfolgung magischer Verbrechen.
@@ -29,7 +29,7 @@ Die **Graue Garde** ist eine militärisch organisierte Kampftruppe von Magiern a
 
 ## Der Schwur der Grauen Garde
 Vollwertige Mitglieder (ab dem Rang des Fuchses) leisten einen feierlichen Eid bei den allmächtigen Gohor und den acht Göttern:
-> „Ich schwöre, aus freiem Willen [...] immer den Weisungen der ewigen acht Götter treu zu folgen, gegen ihren gemeinsamen Feind, den Einen, zu kämpfen und jedem Missbrauch von Magie entschieden entgegenzutreten. [...] Ich werde den Turm vor allen Feinden beschützen und die Einhaltung der Regeln des Turms überwachen.“
+> „Ich schwöre, aus freiem Willen [...] immer den Weisungen der ewigen acht Götter treu zu folgen, gegen ihren gemeinsamen Feind, den Einen, zu kämpfen und jedem Missbrauch von [[index]] entschieden entgegenzutreten. [...] Ich werde den Turm vor allen Feinden beschützen und die Einhaltung der Regeln des Turms überwachen.“
 
 ### Ränge im Detail
 - **Fuchs:** Anwärter, die bereits alle Prüfungen bestanden haben und feierlich in die Garde aufgenommen wurden. Sie tragen ein Hemd mit dem Abzeichen der Grauen Garde und eine Robe mit dem Schriftzug „Graue Garde“ auf Run.

@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Communis Medici
-category: Gesellschaft
+category: [[index]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 161.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_161]].md
 ---
 # Communis Medici
 
@@ -20,7 +20,7 @@ Die **Communis Medici** ist die neugegründete (bzw. unter altem Namen wiederbel
 *   **Wissenschaftlicher Austausch:** Die Gilde dient als Forum für den Austausch über Heilmethoden und Kräuterkunde.
 
 ## Bekannte Mitglieder
-*   **[[Jabin]]** (Hospizleiter / Graue Garde)
+*   **[[Jabin]]** (Hospizleiter / [[Graue_Garde]])
 *   **[[Leomar_Finkenfarn]]**
 *   **[[Aileena_Loewenstein]]**
 *   **[[Alavia_Rabenschrey]]**

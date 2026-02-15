@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Lhynhar Silmaril
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 157.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_157]].md
 ---
 # Lhynhar Silmaril
 

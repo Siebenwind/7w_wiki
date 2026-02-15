@@ -1,9 +1,9 @@
 ---
-title: Erweiterte Sphärentheorie (Kida Gilwen)
+title: Erweiterte Sphärentheorie ([[Kida_Gilwen]])
 file_name: Erweiterte_Sphaerentheorie_(Kida_Gilwen).md
-description: Eine theoretische Abhandlung von Kida Gilwen über das Multiversum, Entscheidungssphären, Zeitreisen und die Mechanik von Zeitstop/Zeitraffung.
+description: Eine theoretische Abhandlung von [[Kida_Gilwen]] über das Multiversum, Entscheidungssphären, Zeitreisen und die Mechanik von Zeitstop/Zeitraffung.
 date: 2024-05-24
-author: Kida Gilwen (Original), Archivteam (Zusammenstellung)
+author: [[Kida_Gilwen]] (Original), Archivteam (Zusammenstellung)
 ---
 
 # Erweiterte Sphärentheorie
@@ -27,7 +27,7 @@ Nach Gilwens Theorie sind Zeitreisen theoretisch möglich und paradoxfrei.
 *   **Technik:** Der Magier isoliert einen Bereich (Sphere-in-Sphere) und verankert ihn statisch in der Zeitsphäre.
 *   **Problem:** Unsere Realität ("Der Baum") wächst rasend schnell weiter. Die Verbindung zur statischen Blase reißt ab ("Fäden spannen sich").
 *   **Aufwand:** Der Magier muss die Verbindungsfäden in extrem hoher Frequenz neu knüpfen, um den "Abstand" zur weiterlaufenden Zeit zu überbrücken. Je größer das Areal/Objekt, desto mehr Fäden, desto schwieriger.
-*   **Erschwernis:** Lebende Wesen (besonders Elfen/Magier) wehren sich unbewusst gegen die Isolation ("Schnittstellen-Theorem"), was den Zauber erschwert.
+*   **Erschwernis:** Lebende Wesen (besonders [[Elfen]]/Magier) wehren sich unbewusst gegen die Isolation ("Schnittstellen-Theorem"), was den Zauber erschwert.
 
 ### 2. Zeitraffung (Verfall)
 *   **Technik:** Der Magier simuliert einen beschleunigten Entscheidungsprozess innerhalb der Blase. Er muss Fäden lösen und neu knüpfen, *schneller* als der natürliche Zeitfluss.

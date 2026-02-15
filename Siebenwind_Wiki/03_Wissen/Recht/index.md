@@ -4,7 +4,7 @@ title: Recht
 ---
 
 # [[Siebenwind]] Wiki - Recht
-Das Archiv der Recht.
+Das [[index]] der Recht.
 
 ## Inhalte
 

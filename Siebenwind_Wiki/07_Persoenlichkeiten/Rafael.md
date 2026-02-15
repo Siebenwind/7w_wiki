@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Rafael
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 uuid: f6a7b8c9-0123-3456-7890-12bf2597e836
 epistemic: "#bote"
 ---

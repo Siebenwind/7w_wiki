@@ -1,25 +1,25 @@
 ---
 layout: wiki_page
 title: Arkan-Metalle
-category: Magie
+category: [[index]]
 status: integrated
-quelle: "/Quellen/Bibliothek Toran Dur/Edomawyr - Die Wirkung von Metallen.md"
+quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Edomawyr]] - Die Wirkung von Metallen.md"
 ---
 
 # Arkan-Metalle
 
 Die Interaktion zwischen Metallen und [[Magietheorie|arkanen Kräften]] ist ein zentrales Thema der alchemistischen und magietheoretischen Forschung. Metalle wirken aufgrund ihrer atomaren Struktur (eine Verbindung aus Feuer- und Erdatomen) oft als Barrieren oder Fokusse für den [[Magischer_Flux|Magischen Flux]].
 
-## 1. Elementare Zuordnung (nach Edomawyr)
+## 1. [[Elementare]] Zuordnung (nach [[Edomawyr]])
 
-Metalle können als **Fokus** (erleichtert die Magie eines Elements) oder **Gegenfokus** (stört/blockiert ein Element) wirken.
+Metalle können als **Fokus** (erleichtert die [[index]] eines Elements) oder **Gegenfokus** (stört/blockiert ein Element) wirken.
 
 | Metall | Element | Gott/Prinzip | Fokus für | Gegenfokus für |
 | :--- | :--- | :--- | :--- | :--- |
-| **Gold & Kupfer** | [[Elementarlehre_Feuer|Feuer]] | [[02_Ingis|Ingis]] | Feuer-Magie | Wasser-Magie |
-| **Bronze** | [[Elementarlehre_Erde|Erde]] | [[02_Rien|Rien]] | Erd-Magie | Luft-Magie |
-| **Stahl / Eisen** | [[Elementarlehre_Luft|Luft]] | [[02_Khaleb|Khaleb]] | Luft-Magie | Erd-Magie |
-| **Silber** | [[Elementarlehre_Wasser|Wasser]] | [[02_Xan|Xan]] | Wasser-Magie | Feuer-Magie |
+| **Gold & Kupfer** | [[Elementarlehre_Feuer|Feuer]] | [[02_Ingis|Ingis]] | Feuer-[[index]] | Wasser-[[index]] |
+| **Bronze** | [[Elementarlehre_Erde|Erde]] | [[02_Rien|Rien]] | Erd-[[index]] | Luft-[[index]] |
+| **Stahl / Eisen** | [[Elementarlehre_Luft|Luft]] | [[02_Khaleb|Khaleb]] | Luft-[[index]] | Erd-[[index]] |
+| **Silber** | [[Elementarlehre_Wasser|Wasser]] | [[02_Xan|Xan]] | Wasser-[[index]] | Feuer-[[index]] |
 | **Fethril** | Heilig / Feuer | Ingis | Unbekannt / Extrem stark | - |
 
 ## 2. Der Metall-Effekt

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Johan "Hund" Gottfried
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Johan "Hund" Gottfried
@@ -17,7 +17,7 @@ category: Persönlichkeiten
 Im Jahr 21 n.H. (Bote 181) offenbarte er sich als Anhänger des "Einen" ([[Angamon]]) und Schüler dunkler Ritter. Er bezeichnete sein bisheriges Leben als Lüge und floh, nachdem er sein gesamtes Hab und Gut der Garde vermachte.
 
 ## Feindschaft
-Sein ehemaliger Hauptmann Waldemar Delarie schwor Rache und kündigte an, ihn im Zweikampf töten zu wollen.
+Sein ehemaliger Hauptmann [[Waldemar_Delarie]] schwor Rache und kündigte an, ihn im Zweikampf töten zu wollen.
 
 ---
 **Siehe auch:** [[Ersonter_Bund]], [[Waldemar_Delarie]], [[Siebenwind_Bote_181]]

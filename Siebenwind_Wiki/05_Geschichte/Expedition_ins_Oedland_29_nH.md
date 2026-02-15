@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Expedition ins Ödland (29 n.H.)
-category: Geschichte
+title: Expedition ins [[Ödland]] (29 n.H.)
+category: [[index]]
 ---
 
-# Expedition ins Ödland (29 n.H.)
+# Expedition ins [[Ödland]] (29 n.H.)
 
 **Epistemischer Status:** #bote
 **Datum:** 8. Onar 29 n.H. (Bote 189)

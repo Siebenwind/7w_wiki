@@ -4,25 +4,25 @@ title: Werke
 ---
 
 # [[Siebenwind]] Wiki - Werke
-Das Archiv der Werke.
+Das [[index]] der Werke.
 
 ## Inhalte
 
 ### Artikel
-*   [[Arcana_Procella_(Unbekannt)|Arcana Procella - Die Lehre der arkanen Wellenbewegung]]
+*   [[Arcana_Procella_(Unbekannt)|[[Arcana_Procella]] - Die Lehre der arkanen Wellenbewegung]]
 *   [[Ariin_(Rhadan_der_Graue)|Ari'in]]
 *   [[Arkane_Kriegsfuehrung_Band_I_(Erynnion_Comari)|Arkane Kriegsführung: Konstrukte und Artefakte (Band I)]]
 *   [[Arkane_Verbindung_hoeherer_Wesenheiten_(Johann_Liebig)|Arkane Verbindung und Wirkung von höheren Wesenheiten]]
 *   [[Ars_Magica_Metamorphosia_(Lewyn_Anacar)|Ars Magica Metamorphosia]]
 *   [[Bartanatomie_(Logrin_Goldaxt)|Bartanatomie - Band 1]]
 *   [[Bindungslehre_der_Elementarmagier_(Elurai_Calades)|Bindungslehre der Elementarmagier]]
-*   [[Daimonologie_und_Schwarze_Magie_(Toran_Dur)|Daimonologie und Schwarze Magie (Sammelband)]]
+*   [[Daimonologie_und_Schwarze_Magie_(Toran_Dur)|Daimonologie und Schwarze [[index]] (Sammelband)]]
 *   [[Das_Daimonicon_(Kulin_Lateal)|Das Daimonicon]]
 *   [[Das_System_arkaner_Lokalitaeten_(Kalveron_Dai)|Das System arkaner Lokalitäten]]
 *   [[De_Magica_Angamoniensis_(Kalveron_Dai)|De Magica Angamoniensis]]
 *   [[Der_letzte_Falke_(Rose_von_Sonnentau)|Der letzte Falke]]
 *   [[Die_Elemente_aus_der_Sicht_der_Mitte_(Elyran_Fischer)|Die Elemente aus der Sicht der Mitte]]
-*   [[Die_Foki_(Dimiona)|Die Foki - Bedeutung in der praktischen Magie]]
+*   [[Die_Foki_([[Dimiona]])|Die Foki - Bedeutung in der praktischen Magie]]
 *   [[Die_Kunst_der_erschaffenen_Diener_(Nuir_Ekre)|Die Kunst der erschaffenen Diener]]
 *   [[Die_Magie_(Toran_Dur)|Die Magie]]
 *   [[Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur)|Die Ordenssatzung des Ordens vom Wachenden Löwen]]
@@ -47,10 +47,10 @@ Das Archiv der Werke.
 *   [[Schwarze_Ritualmagie_(Thanthul)|Schwarze Ritualmagie]]
 *   [[Sphaerenkunde_(Wolfgang_Ravinsthal)|Sphärenkunde]]
 *   [[Theorem_zu_den_Baumwesen_(Themus_Takai)|Theorem zu den Baumwesen]]
-*   [[Theorie_der_Illusionistik_(Bastean_Asanra)|Theorethik der arkanen Magie: Illusionistik]]
+*   [[Theorie_der_Illusionistik_(Bastean_Asanra)|Theorethik der arkanen [[index]]: Illusionistik]]
 *   [[Theorie_der_elementaren_Atome_(Jennaia_Lavrial)|Die These der elementaren Atome]]
 *   [[Theorien_der_Magie_(Terenon_Sarophilan)|Theorien über die Herkunft und das Wirken der Magie]]
-*   [[Theorien_der_Magie_(Toran_Dur)|Theorien der Magie (Sammelband)]]
+*   [[Theorien_der_Magie_(Toran_Dur)|Theorien der [[index]] (Sammelband)]]
 *   [[Thesen_der_Magiezweige_(Uron_Sbocaj)|Thesen der Magiezweige]]
 *   [[Vjera_Batama_Magica_(Sylest_le_Felyhn)|Die Erweiterte Thematik der Vjera Batama Magica]]
-*   [[Wirkung_von_Metallen_auf_arkane_Kraefte_(Edomawyr)|Die Wirkung von Metallen auf die arkanen Kräfte]]
+*   [[Wirkung_von_Metallen_auf_arkane_Kraefte_([[Edomawyr]])|Die Wirkung von Metallen auf die arkanen Kräfte]]

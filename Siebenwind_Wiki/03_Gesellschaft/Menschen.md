@@ -23,7 +23,7 @@ Die Gründung des Großreiches Galadon unter König Hilgorad XIII. ap Mer verein
 
 ## [[Chronik]] und Adel
 Die menschliche [[Chronik]] ist streng hierarchisch gegliedert (Feudalismus).
-*   **Der König:** An der Spitze steht der Großkönig (derzeit Hilgorad I. ap Mer).
+*   **Der König:** An der Spitze steht der Großkönig (derzeit [[Hilgorad_I_ap_Mer]]).
 *   **Hochadel:** Herzöge (Verwandte des Königs) und Fürsten (ehemalige Königslinien).
 *   **Blutsadel:** Grafen und Barone, deren Titel vererbbar sind und auf alten Landschenkungen beruhen.
 *   **Dienstadel:** Ritter, Edle und Freiherre, die ihren Titel durch Verdienste erlangt haben (nicht vererbbar, führen ein "zu" im Namen).
@@ -31,7 +31,7 @@ Die menschliche [[Chronik]] ist streng hierarchisch gegliedert (Feudalismus).
 
 ## Religion: [[Kirche_der_Viere]]
 Der Glaube durchdringt das tägliche Leben in Galadon. Die Menschen verehren die **Viereinigkeit** der guten Götter:
-*   **[[Astrael]]:** Gott des Wissens, der Magie und der Ordnung.
+*   **[[Astrael]]:** Gott des Wissens, der [[index]] und der Ordnung.
 *   **[[Bellum]]:** Gott des Kampfes, der Ehre und des Schutzes.
 *   **[[Vitama]]:** Göttin des Lebens, der Heilung und der Fruchtbarkeit.
 *   **[[Morsan]]:** Gott des Todes, der Ruhe und des Übergangs (wird als notwendiger Teil des Zyklus verehrt, nicht als böse).
@@ -44,7 +44,7 @@ Das Reich Galadon ist in zahlreiche **Lehen** unterteilt, die jeweils eigene kul
 *   **Wallenburg:** Bekannt für Reichtum, Edelsteine und Goldschmiedekunst.
 *   **Tiefenwald:** Waldreiche Region mit enger Bindung zu [[Rasse_Elfen]].
 *   **Ravel:** Wildes Grenzland, Heimat vieler [[Rasse_Orken]] und harter Grenzer.
-*   **[[Sae]]:** Zentrum der Gelehrsamkeit und Magie ("Lafay's Stab").
+*   **[[Sae]]:** Zentrum der Gelehrsamkeit und [[index]] ("Lafay's Stab").
 
 ## Beziehungen zu anderen Völkern
 *   **[[Rasse_Zwerge]]:** Enge Handelsbeziehungen und gegenseitiger Respekt, besonders im Handwerk und Bergbau.

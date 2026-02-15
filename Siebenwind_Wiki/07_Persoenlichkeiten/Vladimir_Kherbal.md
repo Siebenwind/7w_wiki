@@ -16,7 +16,7 @@ letzter_check: 2026-02-13T15:10:00+01:00
 
 Kherbal ist vor allem für seinen Dienst auf [[Burg_Schwingenwacht]] bekannt. Während des [[Dunkeltief]]s führte er ein Kriegstagebuch, das die verzweifelte Lage der Verteidiger gegen die Kälte und die Angriffe von [[Harpyien]] dokumentierte. Er gilt als pflichtbewusster Soldat, der auch in Krisenzeiten die Moral seiner Männer im Blick behielt.
 
-Im 22. Jahr n.H. nahm er am Bellum-Turnier in Seeberg teil, wo er in der zweiten Runde gegen Tyrus Helbas vom Löwenorden antrat ([[Siebenwind_Bote_184]]).
+Im 22. Jahr n.H. nahm er am [[Bellum]]-Turnier in [[Seeberg]] teil, wo er in der zweiten Runde gegen [[Tyrus_Helbas]] vom Löwenorden antrat ([[Siebenwind_Bote_184]]).
 
 ## Trivia
 

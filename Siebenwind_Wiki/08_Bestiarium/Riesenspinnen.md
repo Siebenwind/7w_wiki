@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Riesenspinnen
-category: Bestiarium
+category: [[index]]
 ---
 
 # Riesenspinnen

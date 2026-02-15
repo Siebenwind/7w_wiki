@@ -18,7 +18,7 @@ report_id: bea60047-d2f3-4513-b2ca-a6494a919c3c
 **Kazla** wird in den Hierarchiedokumenten als Vertreter oder Symbolfigur einer orkischen Gemeinschaft geführt.
 
 ## Wirken
-- **Politik:** Vertretung orkischer Belange im Siedlungsrat oder in Verhandlungen mit den Menschen.
+- **Politik:** Vertretung orkischer Belange im Siedlungsrat oder in Verhandlungen mit den [[Menschen]].
 
 ## Verlinkte Themen
 - [[Hintergrund#Rasse_Orken]]

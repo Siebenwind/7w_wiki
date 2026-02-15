@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Erhebung Kaspar Brandner zum Freiherrn
-category: Geschichte
+title: Erhebung [[Kaspar_Brandner]] zum Freiherrn
+category: [[index]]
 ---
 
-# Erhebung Kaspar Brandner zum Freiherrn
+# Erhebung [[Kaspar_Brandner]] zum Freiherrn
 
 **Epistemischer Status:** #bote
 **Datum:** 25. Querlar 15 n.H. (Bote 124)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lucienne"
-category: Personen
+category: [[index]]
 ---
 
 # Lucienne

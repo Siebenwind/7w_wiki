@@ -4,25 +4,25 @@ title: Magie
 ---
 
 # [[Siebenwind]] Wiki - Magie
-Das Archiv der Magie.
+Das [[index]] der Magie.
 
 ## Inhalte
 
 ### Artikel
 *   [[Alchemie_Kompendium|Alchemie Kompendium]]
-*   [[Die_arkane_Gesellschaft|Die arkane Gesellschaft (Ita'Im'Elarum)]]
-*   [[Antimagie|Antimagie (Magica Contraria)]]
-*   [[Antimagie_und_Gegenzauber|Antimagie und Gegenzauber]]
-*   [[Arcana_Procella|Arcana Procella (Die arkanen Wellen)]]
+*   [[Die_arkane_Gesellschaft|[[Die_arkane_Gesellschaft]] (Ita'Im'Elarum)]]
+*   [[Antimagie|[[Antimagie]] (Magica Contraria)]]
+*   [[Antimagie_und_Gegenzauber|[[Antimagie]] und Gegenzauber]]
+*   [[Arcana_Procella|[[Arcana_Procella]] (Die arkanen Wellen)]]
 *   [[Arkan-Metalle|Arkan-Metalle]]
 *   [[Arkane_Kriegfuehrung|Arkane Kriegführung]]
 *   [[Artefaktlehre|Artefaktlehre]]
 *   [[Daimonicon|Das Daimonicon]]
-*   [[Elementare_Atomlehre|Elementare Atomlehre]]
+*   [[Elementare_Atomlehre|[[Elementare]] Atomlehre]]
 *   [[Elementarlehre_Dunkelbaum|Elementarlehre (Dunkelbaum)]]
-*   [[Elementarpfad|Der Elementare Pfad]]
-*   [[Elementarwerdung|Elementarwerdung (Die Bindung an das Element)]]
-*   [[Erschaffene_Diener|Erschaffene Diener (Golems)]]
+*   [[Elementarpfad|Der [[Elementare]] Pfad]]
+*   [[Elementarwerdung|[[Elementarwerdung]] (Die Bindung an das Element)]]
+*   [[Erschaffene_Diener|[[Erschaffene_Diener]] ([[Golems]])]]
 *   [[Golems|Golems]]
 *   [[Hoehere_Wesenheiten|Höhere Wesenheiten]]
 *   [[Horlafstrom_Theorie|Horlafstrom-Theorie]]
@@ -42,9 +42,9 @@ Das Archiv der Magie.
 *   [[Matrixtheorie_Linari|Matrixtheorie (Linari)]]
 *   [[Metamorphose_und_Gestaltwandel|Metamorphose und Gestaltwandel]]
 *   [[Philosophie_der_Magie|Philosophie der Magie]]
-*   [[Reagenzien_Lehre|Reagenzien-Lehre (Fokus-Theorie)]]
+*   [[Reagenzien_Lehre|[[Reagenzien_Lehre]] (Fokus-Theorie)]]
 *   [[Ritual_Bannung_des_Grix|Ritual zur Bannung des Grix]]
 *   [[Rituallehre_Sphaeren|Rituallehre & Sphären]]
 *   [[Sphaerenkunde_Kosmologie|Sphärenkunde & Kosmologie]]
 *   [[Theorie_arkane_Magie|Theorie zur arkanen Magie (Generaltheorie)]]
-*   [[Vjera_Batama_Magica|Vjera Batama Magica (Edelsteinmagie)]]
+*   [[Vjera_Batama_Magica|[[Vjera_Batama_Magica]] (Edelsteinmagie)]]

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Bastian Vega
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Bastian Vega

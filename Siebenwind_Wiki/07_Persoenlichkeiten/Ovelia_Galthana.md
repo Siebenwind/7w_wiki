@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Ovelia Galthana
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 140.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_140]].md
 ---
 # Ovelia Galthana
 
@@ -17,7 +17,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 140.md
 
 ## Wirken
 *   **16 n.H. (Bote 140):** Offiziell als Lehensvasallin der Krone benannt. Sie ist dem Grafen [[Koorun_McKevin]] und dem König zur Treue verpflichtet.
-*   **18 n.H. (Bote 158):** Übernahm die Verteidigung der Insel am [[Falkenwall]] (Wallwache). Sie führte Expeditionen gegen die [[Sammler]] (Schlangenvolk) und gegen eine untote Bedrohung bei der Feste Seeberg an. Zuvor wurde sie zusammen mit [[Amaris_Aurinas]] von [[Toran_Dur]] aus der orkischen Gefangenschaft gerettet.
+*   **18 n.H. (Bote 158):** Übernahm die Verteidigung der Insel am [[Falkenwall]] (Wallwache). Sie führte Expeditionen gegen die [[Sammler]] (Schlangenvolk) und gegen eine untote Bedrohung bei der [[Feste_Seeberg]] an. Zuvor wurde sie zusammen mit [[Amaris_Aurinas]] von [[Toran_Dur]] aus der orkischen Gefangenschaft gerettet.
 
 ---
 **Siehe auch:** [[Ritterschaft_zu_Siebenwind]], [[Koorun_McKevin]]

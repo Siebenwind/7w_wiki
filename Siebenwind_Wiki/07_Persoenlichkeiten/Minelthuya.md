@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Minelthuya
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 uuid: e5f6a7b8-9012-2345-6789-01bf2597e836
 epistemic: "#bote"
 ---

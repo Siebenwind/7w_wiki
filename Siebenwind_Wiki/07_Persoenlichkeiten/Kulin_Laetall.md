@@ -1,8 +1,8 @@
 ---
 layout: wiki_page
 title: Kulin Laetall
-category: Persönlichkeiten
-quelle: [Daimonicon]
+category: [[Persoenlichkeiten_Uebersicht]]
+quelle: [[[Daimonicon]]]
 status: #überlieferung
 ---
 

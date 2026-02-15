@@ -1,13 +1,13 @@
 ---
 layout: wiki_page
 title: Kaspian Tiefenwald
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 160.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_160]].md
 ---
 # Kaspian Tiefenwald
 
-**Titel:** Leiter der Ventusreiter
+**Titel:** Leiter der [[Ventusreiter]]
 **Epistemischer Status:** #bote
 **Zugehörigkeit:** [[Ventusreiter]]
 **Zeitraum:** aktiv 18 n.H.

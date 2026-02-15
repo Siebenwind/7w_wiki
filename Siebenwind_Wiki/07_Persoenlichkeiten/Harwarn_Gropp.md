@@ -1,11 +1,11 @@
 ---
 layout: wiki_page
-title: Harwarn Gropp
-category: Persönlichkeiten
+title: [[Harwarn]] Gropp
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 139.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_139]].md
 ---
-# Harwarn Gropp
+# [[Harwarn]] Gropp
 
 **Titel:** Wirt
 **Epistemischer Status:** #bote
@@ -13,10 +13,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 139.md
 **Zeitraum:** aktiv um 16 n.H.
 
 ## Beschreibung
-**Harwarn Gropp** ist ein Mitglied der einflussreichen [[Familie_Gropp]] und Wirt der renommierten Taverne "Zur Roten Seeschlange" in [[Brandenstein]].
+**[[Harwarn]] Gropp** ist ein Mitglied der einflussreichen [[Familie_Gropp]] und Wirt der renommierten Taverne "Zur Roten Seeschlange" in [[Brandenstein]].
 
 ## Wirken
-Im Jahr 16 n.H. (Bote 139) sponserte er den Kochwettstreit des [[Orden_der_Traenen_Vitamas]] durch die Bereitstellung von Preisen, darunter Fässer mit Eiswasser und Meisterbrand. Trotz eines Überfalls durch Orken auf seine Taverne kurz zuvor (Bote 139) engagiert er sich weiterhin für die Gemeinschaft.
+Im Jahr 16 n.H. (Bote 139) sponserte er den Kochwettstreit des [[Orden_der_Traenen_Vitamas]] durch die Bereitstellung von Preisen, darunter Fässer mit Eiswasser und Meisterbrand. Trotz eines Überfalls durch [[Orken]] auf seine Taverne kurz zuvor (Bote 139) engagiert er sich weiterhin für die Gemeinschaft.
 
 ---
 **Siehe auch:** [[Familie_Gropp]], [[Brandenstein]], [[Regina_Gropp]]

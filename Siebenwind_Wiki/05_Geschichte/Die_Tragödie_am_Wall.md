@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Die Tragödie am Wall
-category: Geschichte
+category: [[index]]
 ---
 
 # Die Tragödie am Wall
@@ -11,14 +11,14 @@ category: Geschichte
 **Datum:** Ca. 28-30 n.H.
 **Ort:** [[Ödland]] / Jenseits des Falkenwalls
 **Status:** Abgeschlossen, traumatisches Ereignis
-**Kategorie:** Geschichte
+**Kategorie:** [[index]]
 
 ## Überblick
-Dieses Ereignis beschreibt das Verschwinden und den grausamen Tod/Fall einer Gruppe von Verteidigern jenseits des Walls. Es gilt als Symbol für die unerbittliche Korruption durch den "Einen" und die Gefahr der Schlangenwesen (Sammler).
+Dieses Ereignis beschreibt das Verschwinden und den grausamen Tod/Fall einer Gruppe von Verteidigern jenseits des Walls. Es gilt als Symbol für die unerbittliche Korruption durch den "Einen" und die Gefahr der Schlangenwesen ([[Sammler]]).
 
 ## Schlüsselereignisse
 - **Die Mission:** Eine Gruppe um [[Sorania]] und [[Emanuel]] geriet jenseits des Walls in einen Hinterhalt.
-- **Gefangenschaft:** Die Gruppe wurde in die Verliese der Sammler verschleppt. [[Marnie_Ruatha]] überlebte als einzige, um von den Torturen zu berichten.
+- **Gefangenschaft:** Die Gruppe wurde in die Verliese der [[Sammler]] verschleppt. [[Marnie_Ruatha]] überlebte als einzige, um von den Torturen zu berichten.
 - **Der Fall Soranias:** [[Sorania]] wurde rituell gebrochen und zur Dienerin des Einen transformiert.
 - **Emanuels Opfer:** [[Emanuel]] verweigerte den Dienst am Einen und wurde von der gefallenen [[Sorania]] getötet.
 

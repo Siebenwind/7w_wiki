@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Milbach Zobrecht
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 quelle: [Linari - Philosophie]
 status: #überlieferung
 ---

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Rekar Sturmklinge
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Rekar Sturmklinge

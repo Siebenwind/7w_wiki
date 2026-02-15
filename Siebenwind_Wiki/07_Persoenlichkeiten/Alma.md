@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Alma
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 quelle: [Linari - Philosophie]
 status: #überlieferung
 ---

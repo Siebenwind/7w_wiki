@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Theobald I.
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Theobald I.

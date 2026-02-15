@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Blakkurvald Orla
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Blakkurvald Orla
@@ -12,7 +12,7 @@ category: Persönlichkeiten
 
 ## Beschreibung
 **Blakkurvald Orla** ist ein einflussreicher Nortrave.
-Im Jahr 15 n.H. (Bote 121) trug er die Titel: Leitwolf von [[Westhever]] und [[Greifenklipp]], Ratsherr zu Westhever, Greifenklipp und [[Tuhle]], sowie Jarl des Aetts des Roten Stieres.
+Im Jahr 15 n.H. (Bote 121) trug er die Titel: Leitwolf von [[Westhever]] und [[Greifenklipp]], Ratsherr zu Westhever, [[Greifenklipp]] und [[Tuhle]], sowie Jarl des Aetts des Roten Stieres.
 Er trieb den Aufbau der Siedlung [[Greifenklipp]] im [[Greifenwald]] voran und suchte dafür Handwerker.
 
 ---

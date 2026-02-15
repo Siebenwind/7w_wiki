@@ -19,11 +19,11 @@ Ignaz Moravio ist eine der fanatischsten und gefürchtetsten Gestalten innerhalb
 
 ## Werdegang und Philosophie
 Moravio war ein Schüler von [[Josef_Knecht]], einem Hochgeweihten, der vom König wegen Ketzerei verbrannt wurde. Dieses traumatische Ereignis befeuerte seinen unbändigen Hass auf weltliche Herrscher und seinen Wunsch nach einer totalen theokratischen Ordnung. 
-*   **Machtstreben:** Er befürwortet radikale Maßnahmen, wie Pakte mit dem schwarzen Pfad der Magie, um die Feinde der Kirche zu vernichten.
+*   **Machtstreben:** Er befürwortet radikale Maßnahmen, wie Pakte mit dem schwarzen Pfad der [[index]], um die Feinde der Kirche zu vernichten.
 *   **Charakter:** Er ist bekannt für seinen herrischen Ton und seinen grauenhaften Starrsinn, der keine Kompromisse zulässt.
 
 ## Lore
 Innerhalb des Rings des Argionemes gilt er als die treibende Kraft für aggressive Expansion und rücksichtslose Beseitigung von "Ruchlosen".
 
 ## Quellen
-*   [Das Ende der Zeit der Könige](../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Ko%CC%88nige%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [[[Das_Ende_der_Zeit_der_Koenige]]](../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Ko%CC%88nige%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)

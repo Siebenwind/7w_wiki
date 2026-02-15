@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Romualdo Jakta"
-category: Personen
+category: [[index]]
 ---
 
 # Romualdo Jakta

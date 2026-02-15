@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Geidwenja"
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
-quelle: "/Quellen/Bibliothek Astrael/Postulat der idealen Form von Matricen im Raum und in der Zeit.md"
+quelle: "/Quellen/[[index]] [[Astrael]]/Postulat der idealen Form von Matricen im Raum und in der Zeit.md"
 author: "Antigravity"
 ---
 

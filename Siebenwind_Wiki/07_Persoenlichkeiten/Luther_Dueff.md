@@ -12,7 +12,7 @@ category: Persönlichkeit
 **Zeitraum:** aktiv ab 15 n.H.
 
 ## Beschreibung
-Sire Luther Dueff ist ein hochrangiger Ritter der Sieben Winde. Er diente lange Zeit als **Hochmeister des Falkenordens**, ehe er im Onar 20 n.H. dieses Amt an Ritter [[Laske]] übergab, um fortan als **Greifenritter** den Greifenorden unter Hochmeisterin [[Mirian_Lasar]] zu unterstützen ([[Siebenwind_Bote_172]]).
+Sire Luther Dueff ist ein hochrangiger [[Ritter_der_Sieben_Winde]]. Er diente lange Zeit als **Hochmeister des Falkenordens**, ehe er im Onar 20 n.H. dieses Amt an Ritter [[Laske]] übergab, um fortan als **Greifenritter** den Greifenorden unter Hochmeisterin [[Mirian_Lasar]] zu unterstützen ([[Siebenwind_Bote_172]]).
 
 ## Wirken
 *   **15 n.H. (Bote 124):** Als Mitglied der Bannerschaft zeichnete er sich durch Standhaftigkeit aus.

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Eliam Schlosser
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 uuid: bc8f4a2d-1234-4567-8901-23bf2597e836
 epistemic: "#bote"
 ---

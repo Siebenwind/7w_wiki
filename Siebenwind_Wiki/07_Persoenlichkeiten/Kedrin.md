@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: "Kedrin"
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "Die Legende von Galahad, Ritter der Rosen"
 ---

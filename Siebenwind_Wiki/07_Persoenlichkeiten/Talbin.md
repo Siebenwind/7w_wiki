@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Talbin
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Talbin
@@ -11,7 +11,7 @@ category: Persönlichkeiten
 **Zugehörigkeit:** [[Malthust]] (ehemals)
 
 ## Beschreibung
-**Talbin** war ein Rekrut der Malthuster Armee, der im Jahr 21 n.H. (Bote 182) wegen Wegelagerei, Befehlsverweigerung und Angriffe auf Zwerge verurteilt wurde.
+**Talbin** war ein Rekrut der Malthuster Armee, der im Jahr 21 n.H. (Bote 182) wegen Wegelagerei, Befehlsverweigerung und Angriffe auf [[Zwerge]] verurteilt wurde.
 Er wurde unehrenhaft entlassen, ausgepeitscht, gebrandmarkt und verlor zwei Finger seiner Waffenhand.
 
 ---

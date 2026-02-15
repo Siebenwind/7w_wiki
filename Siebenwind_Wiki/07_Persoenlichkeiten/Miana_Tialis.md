@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Miana Tialis
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Miana Tialis

@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
 title: Fruger Hansen
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 162.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_162]].md
 ---
 # Fruger Hansen
 
 **Titel:** Familienoberhaupt / Fernhändler
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** Handelshaus Hansen / Galadonische Kaufmannsgilde
+**Zugehörigkeit:** Handelshaus Hansen / Galadonische [[Kaufmannsgilde]]
 **Zeitraum:** aktiv 18 n.H.
 
 ## Beschreibung

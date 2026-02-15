@@ -1,20 +1,20 @@
 ---
-title: Iuribus Siebenwind
+title: Iuribus [[Siebenwind]]
 file_name: Iuribus_Siebenwind.md
-description: Das Gesetzbuch der Baronie Siebenwind, erlassen von Baron Morgenroth. Enthält Constitutio, Codex Criminalis, Codex Privatae und Lex Patritorium.
+description: Das Gesetzbuch der Baronie [[Siebenwind]], erlassen von Baron Morgenroth. Enthält Constitutio, Codex Criminalis, Codex Privatae und Lex Patritorium.
 date: 2024-05-24
 author: Baron Siegmund Friedrich Morgenroth von Taras (Erlass), Archivteam (Digitalisierung)
 ---
 
-# Iuribus Siebenwind
+# Iuribus [[Siebenwind]]
 
-*Erlassen im Namen Seiner Majestät Hilgorad I. ap Mer durch Baron Siegmund Friedrich Morgenroth von Taras und Siebenwind.*
+*Erlassen im Namen Seiner Majestät [[Hilgorad_I_ap_Mer]] durch Baron Siegmund Friedrich Morgenroth von Taras und [[Siebenwind]].*
 
 Dieses Dokument enthält die geltenden Gesetze der Baronie [[Siebenwind]].
 
 ---
 
-## Teil 1: Constitutio Siebenwind (Verfassung)
+## Teil 1: Constitutio [[Siebenwind]] (Verfassung)
 
 Die Constitutio regelt die Grundordnung der Baronie, die Rechte der Stände und die Struktur der Verwaltung.
 
@@ -29,8 +29,8 @@ Die Constitutio regelt die Grundordnung der Baronie, die Rechte der Stände und 
 *   **Ritterschaft der Sieben Winde:** Unterstützt die Verwaltung.
 
 ### Art. 6-9: Institutionen
-*   **Kirche der Viere:** Staatskirche, genießt besonderen Schutz.
-*   **Ecclesia Elementorum:** Wird geduldet, sofern kein Bann durch die Mutterkirche besteht.
+*   **[[Kirche_der_Viere]]:** Staatskirche, genießt besonderen Schutz.
+*   **[[Ecclesia_Elementorum]]:** Wird geduldet, sofern kein Bann durch die Mutterkirche besteht.
 *   **Adel:** Genießt Privilegien (Lex Patritorium), ist aber der Krone zu besonderer Treue verpflichtet.
 
 ### Art. 10: Militär und Sicherheit
@@ -51,12 +51,12 @@ Regelt Verbrechen und deren Bestrafung. Strafen umfassen Tod, Haft, Pranger, Gel
 ### Verbrechen und Vergehen (Auszug)
 *   **Körperverletzung:** Pranger, Geldstrafe oder Haft, je nach Schwere und Stand des Opfers.
 *   **Diebstahl:** Pranger oder Geldstrafe.
-*   **Missbrauch von Magie:** Pranger oder Haft (bei Verbrechen).
+*   **Missbrauch von [[index]]:** Pranger oder Haft (bei Verbrechen).
 *   **Amtsanmaßung:** Pranger oder Geldstrafe.
 
 **Besonderheiten:**
 *   **Notwehr:** Ist straffrei.
-*   **Magie:** Missbrauch zu kriminellen Zwecken wirkt strafverschärfend.
+*   **[[index]]:** Missbrauch zu kriminellen Zwecken wirkt strafverschärfend.
 *   **Adel:** Wird oft milder oder ehrenvoller bestraft (Hausarrest statt Kerker), außer bei Hochverrat.
 
 ---
@@ -68,7 +68,7 @@ Regelt das Zusammenleben, Verträge und Eigentum.
 *   **Verträge:** Werden durch Handschlag oder Schriftform (beglaubigt) gültig.
 *   **Eigentum:** Der Besitzer gilt als Eigentümer, bis das Gegenteil bewiesen ist.
 *   **Schadensersatz:** Wer anderen Schaden zufügt, muss diesen ersetzen.
-*   **Geschäftsfähigkeit:** Ab dem 15. Lebensjahr (Menschen), 30 (Zwerge), 50 (Elfen).
+*   **Geschäftsfähigkeit:** Ab dem 15. Lebensjahr ([[Menschen]]), 30 ([[Zwerge]]), 50 ([[Elfen]]).
 
 ---
 
@@ -78,10 +78,10 @@ Sonderrechte und Pflichten für den Adelsstand.
 
 *   **Gerichtsbarkeit:** Adlige haben Anspruch auf ein Urteil durch den Lehensherrn.
 *   **Privilegien:** Schutz vor körperlicher Züchtigung und unehrenhaften Strafen (Pranger).
-*   **Ehrenduell:** Recht zur Verteidigung der Ehre durch Waffen.
-*   **Asylrecht:** Adlige können Personen Schutz gewähren.
+*   **Ehrenduell:** [[index]] zur Verteidigung der Ehre durch Waffen.
+*   **Asylrecht:** Adlige können [[index]] Schutz gewähren.
 *   **Pflichten:** Treue zur Krone und Waffendienst im Kriegsfall.
 
 ---
 
-*(Vollständiger Text im Archiv der Bibliothek zu Toran Dur einsehbar)*
+*(Vollständiger Text im [[index]] der [[index]] zu [[Toran_Dur]] einsehbar)*

@@ -12,7 +12,7 @@ category: Persönlichkeit
 **Zeitraum:** aktiv um 15 n.H.
 
 ## Beschreibung
-M. Pfahl ist eine Dichterin, deren Verse oft die Schönheit der Natur und die Vergänglichkeit des Seins besingen. Ihre Werke finden in bürgerlichen Kreisen großen Anklang.
+M. Pfahl ist eine Dichterin, deren Verse oft die Schönheit der Natur und die Vergänglichkeit des Seins besingen. Ihre [[index]] finden in bürgerlichen Kreisen großen Anklang.
 
 ---
 **Quellen:** [[Siebenwind_Bote_128]]

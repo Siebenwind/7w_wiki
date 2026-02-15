@@ -11,7 +11,7 @@ author: [[Siebenwind]] Chronicler
 
 **Kategorie:** [[index]] / Politik
 **Struktur:** Hochadel, Blutsadel, Dienstadel
-**Herrscher:** König Hilgorad I. ap Mer
+**Herrscher:** König [[Hilgorad_I_ap_Mer]]
 
 ## Einleitung
 Das Königreich Galadon ist feudal organisiert. Die Machtstruktur ist in drei klare Ebenen unterteilt, die jedem Bürger bekannt sein sollten (auch wenn die Details oft nur Gelehrten geläufig sind).
@@ -19,7 +19,7 @@ Das Königreich Galadon ist feudal organisiert. Die Machtstruktur ist in drei kl
 ## I. Hochadel & Blutsadel
 
 ### 1. Der König
-An der Spitze steht der König (derzeit **Hilgorad I. ap Mer**). Er entstammt einer der 9 (vermeintlich 6 verbliebenen) Ur-Linien.
+An der Spitze steht der König (derzeit **[[Hilgorad_I_ap_Mer]]**). Er entstammt einer der 9 (vermeintlich 6 verbliebenen) Ur-Linien.
 
 ### 2. Herzöge und Fürsten (Hochadel)
 Dies sind die mächtigsten Herrscher unter dem König.

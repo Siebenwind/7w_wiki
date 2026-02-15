@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Zerstörung von Westhever
-category: Geschichte
+category: [[index]]
 ---
 
 # Zerstörung von Westhever
@@ -11,7 +11,7 @@ category: Geschichte
 **Ort:** [[Westhever]] / [[Brecher]]
 
 ## Verlauf
-Die Nortraven-Siedlung [[Westhever]] wurde von Trollen und Feinden überrannt und zerstört. Die Bewohner wurden größtenteils getötet oder versklavt.
+Die [[Nortraven]]-Siedlung [[Westhever]] wurde von Trollen und Feinden überrannt und zerstört. Die Bewohner wurden größtenteils getötet oder versklavt.
 Auch die Siedlung "Brecher" fiel einem Angriff von Schwarzorken zum Opfer und brannte nieder. Die Überlebenden flohen per Boot nach [[Brandenstein]].
 
 ---

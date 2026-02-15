@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Willibald Puckel"
-category: Personen
+category: [[index]]
 ---
 
 # Willibald Puckel

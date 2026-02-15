@@ -4,7 +4,7 @@ title: Wissen
 ---
 
 # [[Siebenwind]] Wiki - Wissen
-Das Archiv der Wissen.
+Das [[index]] der Wissen.
 
 ## Inhalte
 

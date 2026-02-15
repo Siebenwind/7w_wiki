@@ -6,15 +6,15 @@ category: Index
 
 # 📊 Wiki Status
 
-**Stand:** 2026-02-15 23:43
+**Stand:** 2026-02-15 23:52
 
 ---
 
 | Metrik | Wert |
 | :--- | :--- |
 | **Artikel** | 1105 |
-| **Worte** | 182,075 |
-| **Personen** | 587 |
+| **Worte** | 180,876 |
+| **[[index]]** | 587 |
 
 ---
 
@@ -40,11 +40,11 @@ Die am stärksten vernetzten Artikel.
 
 | Entität | Links |
 | :--- | :--- |
-| [[Falkensee]] | 370 |
-| [[Brandenstein]] | 336 |
-| [[Siebenwind]] | 301 |
-| [[Personenregister]] | 125 |
-| [[Custodias]] | 78 |
+| [[index]] | 678 |
+| [[Siebenwind]] | 521 |
+| [[Falkensee]] | 453 |
+| [[Brandenstein]] | 409 |
+| [[Persoenlichkeiten_Uebersicht]] | 333 |
 
 ---
 > [!NOTE]

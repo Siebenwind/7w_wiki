@@ -17,7 +17,7 @@ Verzeichnis der einflussreichen und bekannten Gestalten Siebenwinds.
 *   [[Hektor]] - Waibel der Garde (ca. 26 n.H.).
 *   [[Markward_von_Falkensee]] - Ehem. Graf & Putschist (~26-30 n.H.).
 
-## Klerus & Magie
+## Klerus & [[index]]
 *   [[Custodias]] - Hochgeweihter des [[Astrael]] (amtierend).
 *   [[Tion_Altor]] - Erzgeweihter des [[Bellum]] (amtierend).
 *   [[Erzpriester_Vencurius]] - Erzpriester des [[Ventus]] (amtierend).

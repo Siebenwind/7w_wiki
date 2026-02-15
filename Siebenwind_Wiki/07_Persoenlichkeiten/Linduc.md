@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Linduc
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 uuid: d4e5f6a7-8901-1234-5678-90bf2597e836
 epistemic: "#bote"
 ---

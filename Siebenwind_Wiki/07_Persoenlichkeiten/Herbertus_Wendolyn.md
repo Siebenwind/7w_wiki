@@ -1,16 +1,16 @@
 ---
 layout: wiki_page
 title: Herbertus Wendolyn
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 138.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_138]].md
 ---
 # Herbertus Wendolyn
 
 **Titel:** Zirkusdirektor / Gründer
 **Epistemischer Status:** #bote
 **Zugehörigkeit:** [[Circus_Wendolyn]]
-**Zeitraum:** aktiv ab 23 v.H. (Galadon), ab 16 n.H. (Siebenwind)
+**Zeitraum:** aktiv ab 23 v.H. (Galadon), ab 16 n.H. ([[Siebenwind]])
 
 ## Beschreibung
 **Herbertus Wendolyn** (ca. 65 Jahre alt) ist der Gründer und Direktor des [[Circus_Wendolyn]]. Ursprünglich ein Student der arkanen Künste am Turm der Baronie Wallenburg, brach er sein Studium ab, um seinem Traum von einer Welt voller Phantastik und Unterhaltung zu folgen.

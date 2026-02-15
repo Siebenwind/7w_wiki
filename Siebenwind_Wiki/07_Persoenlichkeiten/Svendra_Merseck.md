@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Svendra Merseck
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Svendra Merseck

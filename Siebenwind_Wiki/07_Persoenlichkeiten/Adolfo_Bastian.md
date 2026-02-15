@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Adolfo Bastian
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 160.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_160]].md
 ---
 # Adolfo Bastian
 
@@ -16,7 +16,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 160.md
 **Adolfo Bastian** ist ein draconischer Völkerkundler, der durch seine unkonventionellen Thesen zur zwergischen Anatomie bekannt wurde.
 
 ## Wirken
-*   **Barttheorie (18 n.H.):** In einer Sonderausgabe des Draconischen Heilerblatts (Bote 160) stellte er die bahnbrechende These auf, dass Zwergenbärte keine bloße Körperbehaarung, sondern eigenständige Symbionten seien. Er argumentiert, dass diese "Wesen" den Verstand der Zwerge beeinflussen und für deren charakteristische Sturheit verantwortlich seien.
+*   **Barttheorie (18 n.H.):** In einer Sonderausgabe des Draconischen Heilerblatts (Bote 160) stellte er die bahnbrechende These auf, dass Zwergenbärte keine bloße Körperbehaarung, sondern eigenständige Symbionten seien. Er argumentiert, dass diese "Wesen" den Verstand der [[Zwerge]] beeinflussen und für deren charakteristische Sturheit verantwortlich seien.
 *   **Wissenschaftlicher Diskurs:** Seine Thesen stießen in der Fachwelt und insbesondere bei den Zwergen auf heftigen Widerstand und führten zu gewaltsamen Auseinandersetzungen.
 
 ---

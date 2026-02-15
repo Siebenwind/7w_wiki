@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Vogelfreierklärung Elares Valjean
-category: Geschichte
+title: Vogelfreierklärung [[Elares_Valjean]]
+category: [[index]]
 ---
 
-# Vogelfreierklärung Elares Valjean
+# Vogelfreierklärung [[Elares_Valjean]]
 
 **Epistemischer Status:** #bote
 **Datum:** 5. Carmer 15 n.H. (Bote 123)

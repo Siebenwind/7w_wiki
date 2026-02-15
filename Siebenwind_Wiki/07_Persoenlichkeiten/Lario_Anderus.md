@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Lario Anderus
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Lario Anderus
@@ -11,7 +11,7 @@ category: Persönlichkeiten
 **Zugehörigkeit:** [[Recht]] / [[Galadonien]]
 
 ## Beschreibung
-**Lario Anderus** war im Jahr 16 n.H. (Bote 130) Königlicher Richter auf Siebenwind.
+**Lario Anderus** war im Jahr 16 n.H. (Bote 130) Königlicher Richter auf [[Siebenwind]].
 Er verkündete die neuen Gesetze (§1-§10) für Freie und Bürger und ordnete die Erneuerung aller Beamtenbriefe an.
 
 ---

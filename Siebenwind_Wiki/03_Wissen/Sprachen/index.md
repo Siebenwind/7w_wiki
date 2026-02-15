@@ -4,7 +4,7 @@ title: Sprachen
 ---
 
 # [[Siebenwind]] Wiki - Sprachen
-Das Archiv der Sprachen.
+Das [[index]] der Sprachen.
 
 ## Inhalte
 

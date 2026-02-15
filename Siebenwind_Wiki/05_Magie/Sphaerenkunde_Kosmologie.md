@@ -1,18 +1,18 @@
 ---
 layout: wiki_page
 title: Sphärenkunde & Kosmologie
-category: Magie
+category: [[index]]
 ---
 
 # Sphärenkunde & Kosmologie
 
-Das Verständnis der Sphären ist die Grundlage jeder höheren Arkanologie. Die Welt Tare ist nur eine von mehreren Existenzebenen, die durch das Wirken der Ur-Schöpfer (**Gohor**) und ihrer Nachfolger entstanden sind.
+Das Verständnis der Sphären ist die Grundlage jeder höheren Arkanologie. Die Welt [[Tare]] ist nur eine von mehreren Existenzebenen, die durch das Wirken der Ur-Schöpfer (**Gohor**) und ihrer Nachfolger entstanden sind.
 
 ## Die Drei Hauptsphären
 1.  **Mandon (1. Sphäre)**: Das Diesseits. Die materielle Welt, in die Sterbliche hineingeboren werden.
 2.  **Horandon (2. Sphäre)**: Die göttliche Sphäre.
-    *   **Ashordon**: Wohnstatt der Götter (Enhor & Sahor).
-    *   **Mandor / Yerrodon**: Die Domäne des Namenlosen (Angamon). Unterteilt in 9 bis 10 Gegendomänen.
+    *   **Ashordon**: Wohnstatt der Götter ([[Enhor]] & Sahor).
+    *   **Mandor / Yerrodon**: Die Domäne des Namenlosen ([[Angamon]]). Unterteilt in 9 bis 10 Gegendomänen.
     *   **Nidihor**: Die Feenwelt.
 3.  **Vidon (3. Sphäre)**: Das Totenreich Morsans.
 
@@ -26,8 +26,8 @@ Nach der Theorie von [[Kida_Gilwen]] existiert eine allumfassende **Zeitsphäre*
 
 ## Die Hierarchie der Schöpfung
 1.  **Gohor**: Galamnor (Raum) und Timanor (Zeit). Die Ur-Schöpfer.
-2.  **Enhor (Elementarherren)**: Rien (Erde), Xan (Wasser), Ventus (Luft), Ignis (Feuer). Sie ordneten das Chaos.
-3.  **Sahor (Die Viere)**: Astrael, Vitama, Bellum, Morsan. Die Hüter der Seelen.
+2.  **[[Enhor]] (Elementarherren)**: [[Rien]] (Erde), [[Xan]] (Wasser), [[Ventus]] (Luft), [[Ignis]] (Feuer). Sie ordneten das Chaos.
+3.  **Sahor (Die Viere)**: [[Astrael]], [[Vitama]], [[Bellum]], [[Morsan]]. Die Hüter der Seelen.
 4.  **Laf'ay & Horwah**: Erhabene Dienerwesen der Götter.
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Hannah Berndorf zu Lichtenwald
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Hannah Berndorf zu Lichtenwald
@@ -17,7 +17,7 @@ Im Jahr 21 n.H. (Bote 183) wurde bekannt, dass sie schwer erkrankt und nicht meh
 Die Burggräfin ist für ihr vollendetes Verständnis der höfischen Etikette und ihre hoheitsvolle, teils unnahbare Ausstrahlung bekannt. Sie hält ihre Audienzen in der Feste [[Finianswacht]] ab und legt großen Wert auf draconisches Zeremoniell. Ihr Regierungsstil gilt als distanziert, aber bestimmt, wobei sie die Ideale von Krone und Kirche konsequent vertritt.
 
 ## Politische Rolle
-Unter ihrer Führung wurde Falkensee der Status als Hauptstadt der Kronmark entzogen, da die Kronmark selbst aufgelöst wurde. Sie koordiniert den Aufbau der Strukturen des Ersonter Bundes auf der Insel und zeigt reges Interesse an den Tätigkeiten des Volkes, sofern diese mit den Interessen des Bundes vereinbar sind.
+Unter ihrer Führung wurde [[Falkensee]] der Status als Hauptstadt der Kronmark entzogen, da die Kronmark selbst aufgelöst wurde. Sie koordiniert den Aufbau der Strukturen des Ersonter Bundes auf der Insel und zeigt reges Interesse an den Tätigkeiten des Volkes, sofern diese mit den Interessen des Bundes vereinbar sind.
 
 ---
 **Siehe auch:** [[Ersonter_Bund]], [[Falkensee]], [[Siebenwind_Bote_174]]

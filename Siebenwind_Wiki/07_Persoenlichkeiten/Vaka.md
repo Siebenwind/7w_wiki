@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Vaka
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 154.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_154]].md
 ---
 # Vaka
 
@@ -13,7 +13,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 154.md
 **Zeitraum:** aktiv 18 n.H.
 
 ## Beschreibung
-**Vaka** ist die Dorfvorsteherin der Nortraven-Siedlung [[Greifenklipp]].
+**Vaka** ist die Dorfvorsteherin der [[Nortraven]]-Siedlung [[Greifenklipp]].
 *   **18 n.H. (Bote 154):** Sie leitete die Verteidigung der Siedlung gegen einen Angriff von Untoten.
 
 ---

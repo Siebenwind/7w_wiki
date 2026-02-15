@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Kregor Arthax Stahlauge
+title: Kregor [[Arthax_Stahlauge]]
 category: Persönlichkeit
 ---
 
-# Kregor Arthax Stahlauge
+# Kregor [[Arthax_Stahlauge]]
 
 **Titel:** Herr unter dem Berg, Anführer der Dwarschim in Dunquell
 **Epistemischer Status:** #canon

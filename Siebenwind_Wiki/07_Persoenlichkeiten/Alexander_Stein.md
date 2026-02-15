@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Alexander Stein
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Alexander Stein

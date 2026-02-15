@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Althea Danea
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Althea Danea
@@ -11,7 +11,7 @@ category: Persönlichkeiten
 **Zugehörigkeit:** [[Weißer_Pfad]] / [[Il_Drun]] (Historisch)
 
 ## Beschreibung
-**Althea Danea** ist die Verfasserin des **[[Kompendium_Weissmagie|Kompendiums der Weißmagie]]**. Sie lebte vermutlich während der sogenannten "Weißen Ära" und prägte die ethischen und technischen Grundlagen der Heil- und Antimagie.
+**Althea Danea** ist die Verfasserin des **[[Kompendium_Weissmagie|Kompendiums der Weißmagie]]**. Sie lebte vermutlich während der sogenannten "Weißen Ära" und prägte die ethischen und technischen Grundlagen der Heil- und [[Antimagie]].
 
 ---
 **Siehe auch:** [[Kompendium_Weissmagie]], [[Weißer_Pfad]]

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Wim Derfflinger
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Wim Derfflinger
@@ -11,7 +11,7 @@ category: Persönlichkeiten
 **Zugehörigkeit:** [[Kirche_der_Viere]] ([[Ordo_Astrael]]) / [[Recht]]
 
 ## Beschreibung
-**Vater Wim Derfflinger** ist ein Geweihter des Astrael.
+**Vater Wim Derfflinger** ist ein Geweihter des [[Astrael]].
 - **15 n.H. (Bote 123):** Ernennung zum Inselstaatsanwalt durch Richter [[Aurax_Ellrothon]].
 - **16 n.H. (Bote 135):** Leitung des kirchlichen Konvents zur Entschlüsselung der Inschriften aus Niemands Höhle und Warnung vor dem Dämon [[Sha'Naz'Ghul]].
 

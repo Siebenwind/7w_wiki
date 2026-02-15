@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Hevelius Dunkelfeld
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Hevelius Dunkelfeld

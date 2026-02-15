@@ -1,13 +1,13 @@
 ---
 layout: wiki_page
-title: Herzog Blutschwert
+title: Herzog [[Blutschwert]]
 category: Persönlichkeit
 uuid: h3rz0g-blut-schw3rt-22nh
-quelle: ../../Quellen/Spielergeschichten/Blutschwert | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+quelle: ../../Quellen/Spielergeschichten/[[Blutschwert]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
 letzter_check: 2026-02-13T23:00:00
 ---
 
-# Herzog Blutschwert
+# Herzog [[Blutschwert]]
 
 **Epistemischer Status:** #perspektive
 **Titel:** Anführer der [[Schwarze_Legion]] / "Der alte Jüngling"
@@ -15,7 +15,7 @@ letzter_check: 2026-02-13T23:00:00
 **Zeitraum:** Aktiv um 22 n.H.
 
 ## Beschreibung
-Herzog Blutschwert ist eine mysteriöse und furchteinflößende Gestalt des vandrischen Bürgerkriegs. Er wird als Mann von makelloser, fast puppenhafter jugendlicher Schönheit mit schwarzem Haar und unnatürlich blasser Haut beschrieben. Seine markantesten Merkmale sind seine blutroten Augen ohne Pupillen und sein ebenfalls blutrotes Schwert. Er wird von der Kräuterfrau [[Ilja]] als "der alte Jüngling" bezeichnet, was auf ein unnatürlich hohes Alter oder eine magische Konservierung hindeutet.
+Herzog [[Blutschwert]] ist eine mysteriöse und furchteinflößende Gestalt des vandrischen Bürgerkriegs. Er wird als Mann von makelloser, fast puppenhafter jugendlicher Schönheit mit schwarzem Haar und unnatürlich blasser Haut beschrieben. Seine markantesten Merkmale sind seine blutroten Augen ohne Pupillen und sein ebenfalls blutrotes Schwert. Er wird von der Kräuterfrau [[Ilja]] als "der alte Jüngling" bezeichnet, was auf ein unnatürlich hohes Alter oder eine magische Konservierung hindeutet.
 
 ## Wirken
 Als Anführer der [[Schwarze_Legion]] führt er einen Feldzug der Vernichtung und Unterwerfung im Namen des Gottkönigs. Er vertritt eine radikale Ideologie der Stärke, in der "Schwache" (Säufer, Kranke, Unwillige) keinen Platz haben und liquidiert werden.
@@ -26,7 +26,7 @@ Als Anführer der [[Schwarze_Legion]] führt er einen Feldzug der Vernichtung un
 *   **Verbindung zu Klauenwölfen:** Es gibt Berichte, dass er mächtige, womöglich korrumpierte [[Klauenwoelfe]] als Begleiter und Henker einsetzt.
 
 ## Lore
-Es wird vermutet, dass Blutschwert eine direkte Manifestation oder ein hochrangiger Avatar der dunklen Mächte Vandriens ist. Seine Existenz ist untrennbar mit dem Aufstieg der [[Schwarze_Legion]] verbunden.
+Es wird vermutet, dass [[Blutschwert]] eine direkte Manifestation oder ein hochrangiger Avatar der dunklen Mächte Vandriens ist. Seine Existenz ist untrennbar mit dem Aufstieg der [[Schwarze_Legion]] verbunden.
 
 ## Quellen
-*   [Blutschwert](../../Quellen/Spielergeschichten/Blutschwert%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [[[Blutschwert]]](../../Quellen/Spielergeschichten/[[Blutschwert]]%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Handelsbundturnier 15 n.H. Ergebnisse
-category: Geschichte
+category: [[index]]
 ---
 
 # Handelsbundturnier 15 n.H. Ergebnisse
@@ -13,7 +13,7 @@ category: Geschichte
 ## Verlauf
 Das große Turnier des Handelsbundes fand unter großem Jubel statt.
 Im Finale standen sich Gefreiter **[[Vincent_Ebenstein]]** (unbesiegt bis dahin) und der Krieger **[[Paule_Bitterling]]** gegenüber.
-**Sieger:** Paule Bitterling gewann knapp.
+**Sieger:** [[Paule_Bitterling]] gewann knapp.
 Das Turnier wurde kurzzeitig unterbrochen, um die Hochzeit von **[[Stephan_von_Weidenbach]]** und **[[Miana_Tialis]]** zu verkünden.
 
 ---

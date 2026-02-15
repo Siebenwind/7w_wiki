@@ -12,7 +12,7 @@ Verfasst von Lehrmeister [[Thanthul]].
 
 ## Grundlagen
 Thanthul unterteilt die Ritualmagie (*Ritus magicae*) in zwei Bereiche:
-1.  **Area Conjurationis:** Beschwörung von Dämonen (Besessenheit, Seelenhandel, Opferung).
+1.  **Area Conjurationis:** Beschwörung von [[Daemonen]] (Besessenheit, Seelenhandel, Opferung).
 2.  **Area Evocationis:** Metamagische Manipulation (Verstärkung *Ritus soli/plurium*, Flüche).
 
 ## Ritualaufbau (Cuthal Anar)
@@ -28,7 +28,7 @@ Die Vorbereitung eines Rituals (*Cuthal*) in der alten Sprache **Yerrodoni**:
 ## Durchführung
 1.  **Gnosis:** Der Geisteszustand der trancartigen Konzentration.
 2.  **Flux:** Eintauchen in die magische Woge.
-3.  **Gebet:** Anrufung des "Herrn und Meisters" (Angamon/Der Eine) als Leuchtturm.
+3.  **Gebet:** Anrufung des "Herrn und Meisters" ([[Angamon]]/Der Eine) als Leuchtturm.
 4.  **Verführung:** Den Dämon mit "spitzer Zunge" locken, als wolle man eine Frau verführen.
 5.  **Kampf:** Der Dämon erscheint (Schönheit und Grauen vereint) und brandet gegen die Schutzwälle.
 

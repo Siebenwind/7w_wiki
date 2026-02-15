@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Saphyriella
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Saphyriella

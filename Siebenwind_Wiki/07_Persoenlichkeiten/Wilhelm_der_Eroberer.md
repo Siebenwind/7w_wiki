@@ -13,7 +13,7 @@ letzter_check: 2026-02-13T23:45:00
 **Zeitraum:** Legendär / Antike
 
 ## Beschreibung
-Wilhelm der Eroberer ist eine legendäre historische Figur, die in den Annalen von Galadon und Siebenwind als früher Eroberer und Staatsgründer geführt wird.
+Wilhelm der Eroberer ist eine legendäre historische Figur, die in den Annalen von Galadon und [[Siebenwind]] als früher Eroberer und Staatsgründer geführt wird.
 
 ## Quellen
 *   Galadonische Historie (Überlieferungen)

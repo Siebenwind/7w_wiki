@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Schleimwesen
-category: Bestiarium
+category: [[index]]
 ---
 
 # Schleimwesen

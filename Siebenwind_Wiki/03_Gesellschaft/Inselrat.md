@@ -19,15 +19,15 @@ Der **Inselrat** war das oberste administrative und gerichtliche Gremium der Ins
 Der Inselrat tagt in der Burg [[Finianswacht]] in [[Falkensee]]. Er setzt sich aus Vertretern der verschiedenen Siedlungen und Völker zusammen:
 
 ### Stimmberechtigte Mitglieder (Auszug)
-*   **Falkensee:** (4 Stimmen)
-*   **Brandenstein:** (2 Stimmen)
-*   **Südfall:** (2 Stimmen)
+*   **[[Falkensee]]:** (4 Stimmen)
+*   **[[Brandenstein]]:** (2 Stimmen)
+*   **[[Südfall]]:** (2 Stimmen)
 *   **Dwarschim:** (3 Stimmen)
-*   **Nortraven:** (2 Stimmen)
+*   **[[Nortraven]]:** (2 Stimmen)
 *   **Hobbits:** (2 Stimmen)
 *   **Magierturm:** (1 Stimme)
 *   **Hochelfen:** (1 Stimme)
-*   **Kaufmannsgilde:** Erzprinzipial [[Johannes_Tiberias]] (Aufgenommen 20 n.H.)
+*   **[[Kaufmannsgilde]]:** Erzprinzipial [[Johannes_Tiberias]] (Aufgenommen 20 n.H.)
 
 ## Finanzregelung (20 n.H.)
 Seit dem 23. Onar 20 n.H. gilt eine neu geordnete Abgabenregelung. Die Siedlungen führen einen Teil ihrer Pachten an die Kronmark ab. Diese Gelder werden zwischen den Inselpatriziern (90%) und dem Inselrat (10%) aufgeteilt. Die Ratskasse dient der Finanzierung gemeinnütziger Projekte (z.B. Bau eines Flaggschiffs, Begrünungsprojekte, Hospizkosten).

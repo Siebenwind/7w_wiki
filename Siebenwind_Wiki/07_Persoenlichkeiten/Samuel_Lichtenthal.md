@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Samuel Lichtenthal
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 136.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_136]].md
 ---
 # Samuel Lichtenthal
 

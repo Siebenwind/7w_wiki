@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Solos Nadeeda Laylira
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 uuid: 07b8c9d0-1234-4567-8901-23bf2597e836
 epistemic: "#bote"
 ---

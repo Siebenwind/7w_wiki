@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Vex
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Vex

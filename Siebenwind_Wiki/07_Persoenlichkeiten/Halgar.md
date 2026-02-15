@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Halgar
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Halgar
@@ -11,7 +11,7 @@ category: Persönlichkeiten
 **Zugehörigkeit:** [[Nortraven]]
 
 ## Beschreibung
-**Halgar** ist ein Krieger der Nortraven.
+**Halgar** ist ein Krieger der [[Nortraven]].
 Im Jahr 23 n.H. (Bote 187) besiegte er in [[Brandenstein]] einen berittenen und gerüsteten Tempelwächter im Zweikampf, obwohl er selbst nur Jagdkleidung trug. Anlass war die Verweigerung des Zutritts zum Tempel für den Gesandten des Hetmanns.
 
 ---

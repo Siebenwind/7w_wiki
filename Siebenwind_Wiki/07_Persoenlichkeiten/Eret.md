@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Eret"
-category: Personen
+category: [[index]]
 ---
 
 # Eret

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: "Barnabas"
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "Der letzte Falke"
 ---

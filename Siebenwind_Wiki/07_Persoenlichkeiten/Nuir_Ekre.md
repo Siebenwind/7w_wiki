@@ -9,7 +9,7 @@ status: "#überlieferung"
 # Nuir Ekre
 
 ## Beschreibung
-Akoluth (Graue Garde). Historische Persönlichkeit der Magiegeschichte, dokumentiert in den Schriften über die "Kunst der Diener".
+Akoluth ([[Graue_Garde]]). Historische Persönlichkeit der Magiegeschichte, dokumentiert in den Schriften über die "Kunst der Diener".
 
 ## Referenzen
 - [[Graue_Garde]]

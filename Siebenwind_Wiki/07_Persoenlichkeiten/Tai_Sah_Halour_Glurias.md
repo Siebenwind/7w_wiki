@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: "Tai Sah'Halour - Glurias"
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "Die Eisernen Tafeln"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Eric Martarian
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Eric Martarian

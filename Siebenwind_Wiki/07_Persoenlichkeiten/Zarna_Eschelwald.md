@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Zarna Eschelwald
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Zarna Eschelwald

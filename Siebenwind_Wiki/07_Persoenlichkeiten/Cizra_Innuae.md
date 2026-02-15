@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Cizra Innuae
-category: Persönlichkeiten
+category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Cizra Innuae

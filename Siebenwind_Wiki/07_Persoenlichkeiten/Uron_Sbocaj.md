@@ -15,7 +15,7 @@ status: "#überlieferung"
 - **Erde:** [[Elementarmagie]] (bodenständig, geduldig)
 - **Luft:** [[Graumagie]] (ausgewogen, vermittelnd)
 
-Er stand in wissenschaftlichem Diskurs mit [[Dunvallo_Linari]], dessen "Geist-Theorie" er teilweise als Grundlage nutzte.
+Er stand in wissenschaftlichem Diskurs mit [[Dunvallo_Linari]], dessen "[[Geist]]-Theorie" er teilweise als Grundlage nutzte.
 
 ## Referenzen
 - [[Magiezweige]]

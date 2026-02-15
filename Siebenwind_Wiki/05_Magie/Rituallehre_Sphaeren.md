@@ -1,12 +1,12 @@
 ---
 layout: wiki_page
 title: Rituallehre & Sphären
-category: Magie
+category: [[index]]
 ---
 
 # Rituallehre & Sphären
 
-In der arkanen Forschung bezeichnet die **Ritualisierung** den Prozess, komplexe magische Wirkungen durch strukturierte Handlungen, Symbole und Konzentration dauerhaft oder großflächig zu manifestieren. Wesentliche Grundlagen wurden von [[Rhadan_der_Graue]] (Turm zu Tiefenbach) dokumentiert.
+In der arkanen Forschung bezeichnet die **Ritualisierung** den Prozess, komplexe magische Wirkungen durch strukturierte Handlungen, Symbole und Konzentration dauerhaft oder großflächig zu manifestieren. Wesentliche Grundlagen wurden von [[Rhadan_der_Graue]] (Turm zu [[Tiefenbach]]) dokumentiert.
 
 ## Reinigung des Selbst
 Bevor ein Ritual begonnen werden kann, müssen Magier und Ort von parasitären magischen Einflüssen gereinigt werden.
@@ -19,7 +19,7 @@ Bevor ein Ritual begonnen werden kann, müssen Magier und Ort von parasitären m
 ### Bewegte Reinigung (Gesten)
 *   **Mithandrinische Handbewegung**: Reinigt Augen und Zunge von schwarzen Einflüssen (Rechte Hand).
 *   **Hankukbewegung**: Schutz gegen dunkle Einflüsterungen.
-*   **Stabbewegungen**: Gezielte Auflösung oder Abwehr schwarzer Magie durch kreisende Stabführung.
+*   **Stabbewegungen**: Gezielte Auflösung oder Abwehr schwarzer [[index]] durch kreisende Stabführung.
 
 ## Geometrische Knotenpunkte
 Die Form des Ritualplatzes bestimmt die Art des Kraftflusses.
@@ -34,10 +34,10 @@ Der Kreis steht für absolute Neutralität und hat keine Angriffspunkte.
 Vereinigung dreier gleichwertiger Kräfte.
 *   **Tahim-Dreieck**: Fokus auf die Sphären (Traum, Wirklichkeit, Erinnerung).
 *   **Xivrahim-Dreieck**: Fokus auf die Pfade (Weiß/Schöpfung, Grau/Wahrung, Schwarz/Vernichtung).
-*   **Manae-Dreieck**: Fokus auf die Existenz (Körper, Geist, Seele).
+*   **Manae-Dreieck**: Fokus auf die Existenz (Körper, [[Geist]], Seele).
 
 ### Das Viereck
-Bündelt vier gleichwertige Kräfte (z.B. die vier Elemente im **Enhor-Viereck** oder die Kraft der Vier im **Sahor-Viereck**). Vierecke sind im Gegensatz zum Kreis arkan leicht fassbar und dadurch angreifbarer.
+Bündelt vier gleichwertige Kräfte (z.B. die vier Elemente im **[[Enhor]]-Viereck** oder die Kraft der Vier im **Sahor-Viereck**). Vierecke sind im Gegensatz zum Kreis arkan leicht fassbar und dadurch angreifbarer.
 
 ## Die Gesetze des Hankuk
 1.  **Gesetz der Unruhe**: Gebilde mit ungerader Anzahl an Knotenpunkten (z.B. Dreieck) sind instabil und suchen stets einen äußeren Zielpunkt für ihre Wirkung.

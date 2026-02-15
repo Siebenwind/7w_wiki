@@ -48,33 +48,38 @@ def weave_links(filepath, wiki_map):
             f.write(processed_content)
 
 def backlink_stories():
-    stories_dirs = ["06_Erzählungen", "05_Geschichte"]
+    # Expand to all research and dossier dirs
+    stories_dirs = ["06_Erzählungen", "05_Geschichte", "docs/Archiv"]
     for s_dir in stories_dirs:
-        full_s_dir = os.path.join(WIKI_ROOT, s_dir)
+        # Check if absolute OR relative to WIKI_ROOT
+        if s_dir.startswith("/"):
+            full_s_dir = s_dir
+        else:
+            full_s_dir = os.path.join(WIKI_ROOT, s_dir)
+            
         if not os.path.exists(full_s_dir):
             continue
             
-        for file in os.listdir(full_s_dir):
-            if file.endswith(".md"):
-                filepath = os.path.join(full_s_dir, file)
-                story_filename = os.path.splitext(file)[0]
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                    story_title_match = re.search(r'title:\s*(.*)', content)
-                    story_title = story_title_match.group(1).strip() if story_title_match else story_filename
-                    
-                    # Find all links
-                    links = re.findall(r'\[\[(.*?)\]\]', content)
-                    for link in set(links):
-                        target_file = None
-                        # Search for the file corresponding to the link
-                        for root, dirs, files in os.walk(WIKI_ROOT):
-                            if f"{link}.md" in files:
-                                target_file = os.path.join(root, f"{link}.md")
-                                break
+        for root, dirs, files in os.walk(full_s_dir):
+            for file in files:
+                if file.endswith(".md"):
+                    filepath = os.path.join(root, file)
+                    story_filename = os.path.splitext(file)[0]
+                    with open(filepath, 'r', encoding='utf-8') as f:
+                        content = f.read()
                         
-                        if target_file and ("07_Persoenlichkeiten" in target_file or "02_Geografie" in target_file):
-                            add_backlink(target_file, story_title, story_filename)
+                        # Find all links
+                        links = re.findall(r'\[\[(.*?)\]\]', content)
+                        for link in set(links):
+                            target_file = None
+                            # Search for the file corresponding to the link
+                            for w_root, w_dirs, w_files in os.walk(WIKI_ROOT):
+                                if f"{link}.md" in w_files:
+                                    target_file = os.path.join(w_root, f"{link}.md")
+                                    break
+                            
+                            if target_file and any(cat in target_file for cat in ["07_Persoenlichkeiten", "02_Geografie", "00_Fundament"]):
+                                add_backlink(target_file, story_filename)
 
 def add_backlink(filepath, story_title, story_filename):
     with open(filepath, 'r', encoding='utf-8') as f:

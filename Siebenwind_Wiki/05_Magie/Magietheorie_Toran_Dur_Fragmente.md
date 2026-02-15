@@ -1,19 +1,19 @@
 ---
 layout: wiki_page
-title: "Toran Dur Fragmente"
-category: Magie
+title: "[[Toran_Dur]] Fragmente"
+category: [[index]]
 status: Canon
-quelle: "../../Quellen/Bibliothek Toran Dur/Toran Dur - Sammlerfragmente I-IV.md"
+quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Toran_Dur]] - Sammlerfragmente I-IV.md"
 lore_trust: 6
 confidence: Speculative
-author: "Der Sammler / Niemand"
+author: "Der [[Sammler]] / [[Niemand]]"
 ---
 
-# Fragmente aus Toran Dur
+# Fragmente aus [[Toran_Dur]]
 
 **Epistemischer Status:** #apokryphen
 
-Diese Sammlung enthält Fragmente und Prophezeiungen aus der Bibliothek von Toran Dur, deren Urheber oft unklar oder mysteriös ("Niemand") sind.
+Diese Sammlung enthält Fragmente und Prophezeiungen aus der [[index]] von [[Toran_Dur]], deren Urheber oft unklar oder mysteriös ("[[Niemand]]") sind.
 
 ## Die Sammlerfragmente (Dämonologie)
 Vier Fragmente eines unvollständigen Werkes über El'ra Khor und dämonische Hierarchien.
@@ -35,12 +35,12 @@ Hinweise zu Ritualkomponenten: Verunreinigte Elemente, geschändete Reliquien un
 ---
 
 ## Die Niemandsrede
-Prophetische Worte einer Entität oder Person names "Niemand".
+Prophetische Worte einer Entität oder Person names "[[Niemand]]".
 
-*   **An die Elfen (Daluwirh):** "Niemand hört und so ist das Wissen verloren... Ihr glaubt es wird was war, ihr glaubt es ist was verging."
+*   **An die [[Elfen]] (Daluwirh):** "[[Niemand]] hört und so ist das [[index]] verloren... Ihr glaubt es wird was war, ihr glaubt es ist was verging."
 *   **An Bastean:** "Keine Weltliche Macht kann erschaffen was so treu im Dienste seiner Herren steht."
 *   **Über Ferrinmoschding:** "Loch gefüllt mit toten Körpern... Ihre Diener... vielleicht sind sie nicht das, was du glaubst."
 
 ## Referenzen
-- Primärquelle: [Toran Dur - Sammlerfragmente I-IV](../../Quellen/Bibliothek%20Toran%20Dur/Toran%20Dur%20-%20Sammlerfragmente%20I-IV.md)
-- Primärquelle: [Toran Dur - Niemandsrede](../../Quellen/Bibliothek%20Toran%20Dur/Toran%20Dur%20-%20Niemandsrede.md)
+- Primärquelle: [[[Toran_Dur]] - Sammlerfragmente I-IV](../../Quellen/[[index]]%20Toran%20Dur/Toran%20Dur%20-%20Sammlerfragmente%20I-IV.md)
+- Primärquelle: [[[Toran_Dur]] - Niemandsrede](../../Quellen/[[index]]%20Toran%20Dur/Toran%20Dur%20-%20Niemandsrede.md)
