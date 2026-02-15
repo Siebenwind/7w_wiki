@@ -33,9 +33,9 @@ Das Wiki ist ein **Spezialisten-Werkzeug**, keine immersive Rollenspieldarstellu
 
 ---
 
-## III. Verlinkung & Rendering
-- **Wikilinks:** Nutzung der Syntax `[[Seitenname]]`. Konfiguriert über die native Python-Markdown `wikilinks` Extension.
-- **Relative Pfade:** Innerhalb von Markdown-Dateien für Bilder und Badges immer relative Pfade verwenden (z.B. `../assets/banner.png`).
+### III. Verlinkung & Rendering
+- **Wikilinks:** Nutzung der Syntax `[[Seitenname]]`. Technisch realisiert über das `mkdocs-ezlinks-plugin`, das eine intelligente Pfadauflösung über alle Unterverzeichnisse hinweg ermöglicht.
+- **Relative Pfade:** Innerhalb von Markdown-Dateien für Bilder und statische Assets immer relative Pfade verwenden (z.B. `../assets/banner.png`).
 
 ---
 
