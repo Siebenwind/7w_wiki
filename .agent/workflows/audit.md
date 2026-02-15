@@ -8,7 +8,7 @@ Dieser Workflow dient der regelmäßigen Überprüfung der Lore-Integrität und 
 
 ## 1. Sichtung der Berichte & Tickets
 1.  **Synapse Board:** Öffne das `/System/Synapse_Board/` und prüfe auf offene Tickets mit Status `NEEDS_REVIEW`.
-2.  **Legacy:** Öffne den [Konsistenzbericht 2026](Logs/Konsistenzbericht_2026.md) für ältere Einträge.
+2.  **Legacy:** Öffne den [Konsistenzbericht 2026](../../Logs/Konsistenzbericht_2026.md) für ältere Einträge.
 
 ## 2. Verifikation & Cross-Check
 - Nutze den **[Lore-Gelehrten]** Skill, um die betroffenen Artikel im Wiki gegen den Kanon (`/Hintergrund/`) zu prüfen.

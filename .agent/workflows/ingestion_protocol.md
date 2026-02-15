@@ -8,7 +8,7 @@ Dieses Protokoll standardisiert die Erfassung **aller** Quellentypen und stellt 
 
 ## Quellentyp bestimmen
 
-> Siehe [Wiki Style Guide §3.1 (Epistemisches System)](.agent/workflows/wiki_style_guide.md) für Entscheidungsregeln bei Widersprüchen.
+> Siehe [Wiki Style Guide §3.1 (Epistemisches System)](../../.agent/workflows/wiki_style_guide.md) für Entscheidungsregeln bei Widersprüchen.
 
 | Ordner | Quellentyp | Epistemik | Verlässlichkeit |
 |---|---|---|---|
@@ -25,7 +25,7 @@ Dieses Protokoll standardisiert die Erfassung **aller** Quellentypen und stellt 
 - [ ] Datum (Sonnenzirkel) erfassen (falls vorhanden)
 - [ ] Ausgabe-Nummer / Titel
 - [ ] Epistemischer Status bestimmen (siehe Tabelle oben)
-- [ ] **Lore Trust Score**: Vorläufigen Score (0-10) vergeben (siehe [Score Guide](System/Synapse_Board/CORE_LORE_SCORE_GUIDE.md))
+- [ ] **Lore Trust Score**: Vorläufigen Score (0-10) vergeben (siehe [Score Guide](../../System/Synapse_Board/CORE_LORE_SCORE_GUIDE.md))
 
 ### 2. Entitäts-Extraktion (Vollständig)
 - [ ] **Hauptakteure**: Alle namentlich genannten Personen mit Titel/Amt/Funktion

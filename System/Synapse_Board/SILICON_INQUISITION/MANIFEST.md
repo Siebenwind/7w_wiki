@@ -19,5 +19,5 @@ Dieses Archiv ist die Heimat der "Gedanken" unserer AI-Agenten. Hier werden Zwei
 *Initialisiert: 2026-02-14 | Status: Aktiv*
 
 ## 📜 Register der Inquisitionsschriften
-- [x] [INQ-2026-001_Astral_Web_Doubt.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Astral_Web_Doubt.md)
-- [x] [INQ-2026-001_Historian_Report.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/System/Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Historian_Report.md)
+- [x] [INQ-2026-001_Astral_Web_Doubt.md](INQ-2026-001_Astral_Web_Doubt.md)
+- [x] [INQ-2026-001_Historian_Report.md](INQ-2026-001_Historian_Report.md)

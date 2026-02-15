@@ -41,6 +41,6 @@ Für Dateien, die existieren, aber nicht im Register stehen:
 ## 6. Abschlussprüfung
 - Führe `python3 .agent/scripts/register_check.py` erneut aus.
 - Das Ergebnis sollte **"✅ Keine Duplikate"** und **"✅ Alle Profile registriert"** zeigen.
-- Dokumentiere die durchgeführten Korrekturen im [Konsistenzbericht 2026](Logs/Konsistenzbericht_2026.md).
+- Dokumentiere die durchgeführten Korrekturen im [Konsistenzbericht 2026](../../Logs/Konsistenzbericht_2026.md).
 
 #repair #maintenance #qualität

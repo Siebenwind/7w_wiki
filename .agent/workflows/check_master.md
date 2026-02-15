@@ -6,6 +6,17 @@ description: Department Master Workflow für Qualitätssicherung und Konsistenz
 
 Dieses Department überwacht die Integrität des Wikis und bannt "Link-Dämonen". Es fusioniert `/audit`, `/repair`, `/watch` und `/update`.
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py audit`
+  - `7w_wiki.py repair`
+  - `7w_wiki.py index --status`
+- method_only:
+  - `/check_master`
+  - `/watch`
+  - `/update`
+  - `/contrib_audit`
+
 ## 1. Überwachung (Watch)
 - [ ] Regelmäßige Prüfung der `Personenregister.md` auf "Broken Links" (unbesetzte Profile).
 - [ ] Scan auf absolute Pfade (`file://`), die gegen relative Wiki-Links getauscht werden müssen.

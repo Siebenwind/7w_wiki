@@ -6,6 +6,17 @@ description: Department Master Workflow für Projekt-Meta und Handover
 
 Dieses Department regelt den Agenten-Alltag, die Dokumentation und den Wissenstransfer. Es fusioniert `/start`, `/takeover`, `/handover`, `/docs` und `/stats`.
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py start`
+  - `7w_wiki.py stats`
+  - `7w_wiki.py mail post --to ALL ...`
+- method_only:
+  - `/meta_master`
+  - `/takeover`
+  - `/handover`
+  - `/docs`
+
 ## 1. Onboarding (Start)
 - [ ] Führe `./7w_wiki.py start` aus, um Optionen zu sehen.
 - [ ] Analysiere den **Advisor-Report**.

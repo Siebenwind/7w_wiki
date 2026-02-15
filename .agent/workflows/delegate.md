@@ -10,14 +10,14 @@ Dieser Workflow bereitet alles vor, um eine Aufgabe (z. B. Scouting, Ingestion) 
    Stelle sicher, dass die externe CLI (z. B. `gemini-cli`) im Antigravity-Terminal einsatzbereit ist.
 
 2. **System-Kickoff**:
-   Kopiere den Inhalt von [.agent/prompts/EXTERNAL_KICKOFF.md](.agent/prompts/EXTERNAL_KICKOFF.md) in die externe CLI, um den Agenten auf das Projekt einzunorden.
+   Kopiere den Inhalt von [.agent/prompts/EXTERNAL_KICKOFF.md](../../.agent/prompts/EXTERNAL_KICKOFF.md) in die externe CLI, um den Agenten auf das Projekt einzunorden.
    
    > [!NOTE]
    > Ersetze `[TASK_NAME]` im Text durch den Namen deiner Aufgabe.
 
 3. **Task-Spezifizierung**:
    Wähle den passenden Aufgaben-Prompt:
-   - **Scouting/News**: Nutze [.agent/prompts/EXTERNAL_SCOUT_TASK.md](.agent/prompts/EXTERNAL_SCOUT_TASK.md).
+   - **Scouting/News**: Nutze [.agent/prompts/EXTERNAL_SCOUT_TASK.md](../../.agent/prompts/EXTERNAL_SCOUT_TASK.md).
    - **Andere**: Formuliere die Aufgabe basierend auf dem Kickoff-Dokument.
 
 4. **Monitoring**:

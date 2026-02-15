@@ -6,6 +6,17 @@ description: Department Master Workflow für die Ingestion (Quellen -> Wiki)
 
 Dieses Department ist für die Transformation von rohem Wissen in strukturierte Wiki-Artefakte verantwortlich. Es fusioniert die Workflows `/ingestion_protocol`, `/batch`, `/wiki_process` und `/rvw_loop`.
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py advisor`
+  - `7w_wiki.py search <query> --source all`
+- method_only:
+  - `/ingest_master`
+  - `/ingestion_protocol`
+  - `/batch`
+  - `/wiki_process`
+  - `/rvw_loop`
+
 ## 1. Sichtung (Screening)
 - [ ] **Inventur-Check**: Öffne `INVENTUR_QUELLEN.md` und wähle eine `Pending` Quelle.
 - [ ] **Epistemische Klassifizierung**: Bestimme den Status (#canon, #bote, #überlieferung, #perspektive).

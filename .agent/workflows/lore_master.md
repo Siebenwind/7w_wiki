@@ -6,6 +6,16 @@ description: Department Master Workflow für Lore-Forschung und Narrative
 
 Dieses Department klärt komplexe Lore-Widersprüche und veredelt Artikel narrativ. Es fusioniert `/historian`, `/ask`, `/narrative_enrichment` und `/translate`.
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py historian <query>`
+  - `7w_wiki.py search <query> --source all`
+- method_only:
+  - `/lore_master`
+  - `/ask`
+  - `/narrative_enrichment`
+  - `/translate`
+
 ## 1. Auftragsklärung (Research Board)
 - [ ] Öffne `LORE_RESEARCH_BOARD.md`.
 - [ ] Wähle eine `TENDERED` Aufgabe und setze sie auf `CLAIMED`.
