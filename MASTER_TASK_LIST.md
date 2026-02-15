@@ -3,15 +3,15 @@
 Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **aktiven Fokus** von der **Projekthistorie** und definiert klare Standards für die Aufgabenpriorisierung.
 
 ## 📊 Status-Übersicht
-- **Wiki-Standard:** v2.4 (Light Sanguine Abstraction & Master Sketchbook)
+- **Wiki-Standard:** v2.4 (Automated Indices & Structural Purity)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Letzter Handover:** (15.02.2026) durch Antigravity (Phase 20 Abschluss)
+- **Letzter Handover:** (15.02.2026) durch Antigravity (Phase 19.4 Abschluss)
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [ ] **Phase 20 Polish (via Codex)**: Review der narrativen Veredelung von [[Solos_Nhergas]], [[Akassvae]], [[Helfric_von_Wallenburg]] und [[Arthax_Stahlauge]].
-- [ ] **Audit (Register)**: Nach-Cleanup Check des Personenregisters (v2.4 Rendering Validierung).
+- [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 186+).
+- [ ] **Technical Maintenance**: Periodischer Check der automatischen Index-Generierung via `./7w_wiki.py index-pages`.
 
 ## 🟡 Priorität 2: Operative Ingestion (Inhalte)
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
