@@ -45,6 +45,17 @@
 - **Standards**: `System/Synapse_Board/SY_STANDARDS.md` um Board-Eintrag `SY_DISPATCH` erweitert.
 - **CLI**: `7w_wiki.py` um Subcommand `mail` ergaenzt.
 
+## [2026-02-15.01] - Phase 19.4: Structural Purity & Automation
+### Hinzugefügt
+- **Automatisierung**: Skript `generate_wiki_indices.py` zur automatischen Erstellung von Kategorie-Indizes.
+- **CLI**: Neuer Befehl `./7w_wiki.py index-pages` zur Wartung der Wiki-Hierarchie.
+- **Dokumentation**: `CONTRIBUTING.md` für Community-Kollaboration und Lizenz-Governance.
+
+### Geändert
+- **Navigation**: Umstellung auf explizite Pfade in `mkdocs.yml` zur Vermeidung von 404-Fehlern in Unterverzeichnissen.
+- **Branding**: Bereinigung der Homepage von veraltetem Slogan-Lore ("Diskretion").
+- **Statistiken**: Dashboard-Refresh für den neuen Struktur-Stand.
+
 ## [2026-02-14.17] - Phase 19: Light Sanguine & General Abstraction
 ### Hinzugefügt
 - **Visuals**: Neues "Light Sanguine" Branding-System (Rötelzeichnung im Leonardo-Stil).

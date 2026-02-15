@@ -12,8 +12,8 @@ category: Index
 
 | Metrik | Wert |
 | :--- | :--- |
-| **Artikel** | 1064 |
-| **Worte** | 175,904 |
+| **Artikel** | 1080 |
+| **Worte** | 179,700 |
 | **Personen** | 576 |
 
 ---
@@ -21,15 +21,15 @@ category: Index
 ```mermaid
 pie title Sektionen
     "07_Persoenlichkeiten" : 576
-    "05_Magie" : 38
-    "08_Bestiarium" : 32
-    "03_Wissen" : 50
-    "03_Gesellschaft" : 56
-    "05_Geschichte" : 56
+    "05_Magie" : 39
+    "08_Bestiarium" : 33
+    "03_Wissen" : 55
+    "03_Gesellschaft" : 57
+    "05_Geschichte" : 57
     "02_Geografie" : 56
     "01_Pantheon" : 50
-    "04_Chronik" : 81
-    "09_Bibliothek" : 28
+    "04_Chronik" : 83
+    "09_Bibliothek" : 29
     "00_Fundament" : 24
 ```
 
@@ -40,11 +40,11 @@ Die am stärksten vernetzten Artikel.
 
 | Entität | Links |
 | :--- | :--- |
-| [[Falkensee]] | 359 |
-| [[Brandenstein]] | 328 |
-| [[Siebenwind]] | 276 |
-| [[Personenregister]] | 127 |
-| [[Bellum]] | 77 |
+| [[Falkensee]] | 361 |
+| [[Brandenstein]] | 329 |
+| [[Siebenwind]] | 292 |
+| [[Personenregister]] | 126 |
+| [[Nortraven]] | 77 |
 
 ---
 > [!NOTE]
