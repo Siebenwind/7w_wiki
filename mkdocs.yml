@@ -74,8 +74,7 @@ nav:
 
 plugins:
   - search
-  - ezlinks:
-      wikilinks: true
+  - roamlinks
 
 markdown_extensions:
   - admonition
