@@ -1,0 +1,116 @@
+/* Siebenwind Wiki - Light Red-Chalk Minimal (sandbox-friendly, no external font fetch) */
+
+:root {
+  --md-primary-fg-color: #923a34;
+  --md-primary-fg-color--light: #b25a52;
+  --md-primary-fg-color--dark: #6f2a26;
+  --md-accent-fg-color: #923a34;
+  --md-default-bg-color: #faf7f2;
+  --md-default-fg-color: #352f2b;
+  --sw-roetel: #923a34;
+  --sw-ink: #352f2b;
+  --sw-paper: #faf7f2;
+  --sw-soft: #efe8df;
+}
+
+body {
+  font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+  color: var(--sw-ink);
+  background: radial-gradient(circle at 15% 8%, #fffdfb 0%, var(--sw-paper) 45%, #f3ece3 100%);
+}
+
+/* subtle logo hint */
+body::before {
+  content: "";
+  position: fixed;
+  right: -40px;
+  top: 56px;
+  width: 360px;
+  height: 360px;
+  background: url("../assets/logo.png") no-repeat center/contain;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.md-main,
+.md-header,
+.md-tabs,
+.md-nav,
+.md-content {
+  position: relative;
+  z-index: 1;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  color: var(--sw-roetel);
+  letter-spacing: 0.01em;
+}
+
+.md-content {
+  font-family: "Garamond", "Times New Roman", serif;
+  font-size: 1.18rem;
+  line-height: 1.7;
+}
+
+.md-header {
+  background: rgba(250, 247, 242, 0.95) !important;
+  color: var(--sw-roetel) !important;
+  border-bottom: 1px solid rgba(146, 58, 52, 0.25);
+  backdrop-filter: blur(4px);
+}
+
+.md-tabs {
+  background: linear-gradient(180deg, #f4ede4 0%, #efe6dc 100%) !important;
+  border-bottom: 1px solid rgba(146, 58, 52, 0.15);
+}
+
+.md-header__button.md-logo img {
+  height: 1.7rem;
+  opacity: 0.8;
+  filter: sepia(0.35) hue-rotate(-10deg) saturate(1.2);
+}
+
+.md-nav__title,
+.md-nav__link--active,
+.md-tabs__link--active {
+  color: var(--sw-roetel) !important;
+}
+
+.md-nav__link {
+  color: #5a5048 !important;
+}
+
+/* light ornamental separators */
+.md-typeset h2 {
+  border-top: 1px solid rgba(146, 58, 52, 0.2);
+  padding-top: 0.55rem;
+}
+
+[data-md-component="content"] img[alt="Siebenwind Lore Engine Banner"] {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid rgba(146, 58, 52, 0.18);
+  border-bottom: 2px solid rgba(146, 58, 52, 0.45);
+  border-radius: 4px;
+  box-shadow: 0 8px 22px rgba(44, 20, 17, 0.08);
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid rgba(146, 58, 52, 0.18);
+}
+
+.md-typeset table:not([class]) th {
+  background: rgba(146, 58, 52, 0.08);
+}
+
+.md-footer {
+  background: transparent !important;
+  color: #6c5f57;
+}

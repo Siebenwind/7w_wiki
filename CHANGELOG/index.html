@@ -1,0 +1,5234 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Das digitale Gedächtnis von Falandrien.">
+      
+      
+        <meta name="author" content="Siebenwind Gemeinschaft">
+      
+      
+        <link rel="canonical" href="https://Siebenwind.github.io/7w_wiki/CHANGELOG/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../CONTRIBUTING/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>🗞️ Changelog - Siebenwind Lore Engine 2.4</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/themes/base.css">
+    
+      <link rel="stylesheet" href="../assets/themes/material.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2026-02-1521-phase-20-deep-bote-ingestion-codex-delegation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Siebenwind Lore Engine 2.4" class="md-header__button md-logo" aria-label="Siebenwind Lore Engine 2.4" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Siebenwind Lore Engine 2.4
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              🗞️ Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="gold"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Siebenwind/7w_wiki" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Siebenwind/7w_wiki
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  🏠 Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🗞️ Changelog
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../CONTRIBUTING/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  🤝 Mitarbeit
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Siebenwind_Wiki/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  🗺️ Wiki-Inhalte
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../MASTER_TASK_LIST/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  🏗️ Projekt-Management
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Siebenwind Lore Engine 2.4" class="md-nav__button md-logo" aria-label="Siebenwind Lore Engine 2.4" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    Siebenwind Lore Engine 2.4
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Siebenwind/7w_wiki" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Siebenwind/7w_wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🏠 Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🗞️ Changelog
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🗞️ Changelog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1521-phase-20-deep-bote-ingestion-codex-delegation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-15.21] - Phase 20: Deep Bote Ingestion &amp; Codex Delegation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-15.21] - Phase 20: Deep Bote Ingestion &amp; Codex Delegation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1520-production-persistence-layer-conclusions-ideas-artworks-presentations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-15.20] - Production Persistence Layer (Conclusions, Ideas, Artworks, Presentations)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-15.20] - Production Persistence Layer (Conclusions, Ideas, Artworks, Presentations)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1519-interop-phase-3-relative-links-workflow-runtime-markers-re-evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-15.19] - Interop Phase 3: Relative Links, Workflow Runtime Markers, Re-Evaluation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-15.19] - Interop Phase 3: Relative Links, Workflow Runtime Markers, Re-Evaluation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1418-news-reconstruction-forum-indexing-and-synapse-dispatch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.18] - News Reconstruction, Forum Indexing, and Synapse Dispatch
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.18] - News Reconstruction, Forum Indexing, and Synapse Dispatch">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1501-phase-194-structural-purity-automation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-15.01] - Phase 19.4: Structural Purity &amp; Automation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-15.01] - Phase 19.4: Structural Purity &amp; Automation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1417-phase-19-light-sanguine-general-abstraction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.17] - Phase 19: Light Sanguine &amp; General Abstraction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.17] - Phase 19: Light Sanguine &amp; General Abstraction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1416-phase-19-github-pages-overhaul-link-repair" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.16] - Phase 19: GitHub Pages Overhaul &amp; Link Repair
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.16] - Phase 19: GitHub Pages Overhaul &amp; Link Repair">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1413-batch-26-toran-dur-ingestion-pfad-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.13] - Batch 26: Toran Dur Ingestion (Pfad A)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.13] - Batch 26: Toran Dur Ingestion (Pfad A)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1412-batch-27-toran-dur-advanced-doctrines-sub-batches-1-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.12] - Batch 27: Toran Dur Advanced Doctrines (Sub-Batches 1-4)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.12] - Batch 27: Toran Dur Advanced Doctrines (Sub-Batches 1-4)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1411-infrastructure-ingestion-30-oracle-hardening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.11] - Infrastructure: Ingestion 3.0 &amp; Oracle Hardening
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.11] - Infrastructure: Ingestion 3.0 &amp; Oracle Hardening">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entfernt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entfernt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1410-lore-reconstruction-the-origins-of-siebenwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.10] - Lore Reconstruction: The Origins of Siebenwind
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.10] - Lore Reconstruction: The Origins of Siebenwind">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-149-documentation-maintenance-path-d-der-chronist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.9] - Documentation &amp; Maintenance: Path D (Der Chronist)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.9] - Documentation &amp; Maintenance: Path D (Der Chronist)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-147-phase-17-infrastructure-intelligence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.7] - Phase 17: Infrastructure &amp; Intelligence
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.7] - Phase 17: Infrastructure &amp; Intelligence">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-148-batch-25c-toran-dur-reports-order-of-the-lion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.8] - Batch 25c: Toran Dur Reports &amp; Order of the Lion
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.8] - Batch 25c: Toran Dur Reports &amp; Order of the Lion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-146-batch-25-toran-dur-magie-bibliothek-system-audit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.6] - Batch 25: Toran Dur Magie-Bibliothek &amp; System Audit
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.6] - Batch 25: Toran Dur Magie-Bibliothek &amp; System Audit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-144-batch-23-astrael-religious-texts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.4] - Batch 23: Astrael Religious Texts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.4] - Batch 23: Astrael Religious Texts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-143-spielergeschichten-integration-batches-20-22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.3] - Spielergeschichten Integration (Batches 20-22)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.3] - Spielergeschichten Integration (Batches 20-22)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-143-recherche-marnie-ruatha-handover" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.3] - Recherche Marnie Ruatha &amp; Handover
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.3] - Recherche Marnie Ruatha &amp; Handover">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-142-synapsen-system-v20-register-consolidation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.2] - Synapsen-System v2.0 &amp; Register-Consolidation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.2] - Synapsen-System v2.0 &amp; Register-Consolidation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-141-historiker-review-delarie-glaron" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.1] - Historiker-Review: Delarie &amp; Glaron
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.1] - Historiker-Review: Delarie &amp; Glaron">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#geandert_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-139-wiki-consistency-restoration-total-consistency-restoration-alle-69-konsistenzprobleme-im-personenregister-behoben-0-duplikate-0-orphans-0-missing-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.9] - Wiki Consistency Restoration- 🏛️ Total Consistency Restoration: Alle 69+ Konsistenzprobleme im Personenregister behoben (0 Duplikate, 0 Orphans, 0 Missing Profiles).
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-138-epistemics-source-ingestion-audit-interrupted" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.8] - Epistemics &amp; Source Ingestion Audit (Interrupted)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.8] - Epistemics &amp; Source Ingestion Audit (Interrupted)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-137-narrative-enrichment-orphan-resolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.7] - Narrative Enrichment &amp; Orphan Resolution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.7] - Narrative Enrichment &amp; Orphan Resolution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-137-feature-drop-orakel-skills-v20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.7] - Feature Drop: Orakel &amp; Skills v2.0
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.7] - Feature Drop: Orakel &amp; Skills v2.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-135-phase-13-abschluss-falkensee-putsch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.5] - Phase 13 Abschluss (Falkensee Putsch)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.5] - Phase 13 Abschluss (Falkensee Putsch)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-134-phase-11-abschluss-phase-12-vorbereitung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.4] - Phase 11 Abschluss &amp; Phase 12 Vorbereitung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.4] - Phase 11 Abschluss &amp; Phase 12 Vorbereitung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-133-wiki-statistiken-dokumentations-audit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.3] - Wiki-Statistiken &amp; Dokumentations-Audit
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.3] - Wiki-Statistiken &amp; Dokumentations-Audit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-132-phase-14-spielergeschichten-re-scan-fortsetzung-der-ingestion-batches-9-register-sync-der-extrahierten-entitaten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.2] - [ ] Phase 14: Spielergeschichten Re-Scan – Fortsetzung der Ingestion (Batches 9+), Register-Sync der extrahierten Entitäten.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prioritat-3-qualitat-politur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔴 Priorität 3: Qualität &amp; Politur
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prioritat-3b-intelligente-wissensvernetzung-phase-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧠 Priorität 3b: Intelligente Wissensvernetzung (Phase 3)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-backlog-ideenspeicher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔮 Future / Backlog (Ideenspeicher)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-132-audit-der-magieschulen-kanon-hartung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.2] - Audit der Magieschulen (Kanon-Härtung)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.2] - Audit der Magieschulen (Kanon-Härtung)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#batch-24-astraels-legacy-ii-2026-02-14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [Batch 24] - Astrael's Legacy (II) - 2026-02-14
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#batch-23-astraels-erbe-i-2026-02-14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [Batch 23] - Astrael's Erbe (I) - 2026-02-14
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-14-2026-02-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [Phase 14] - 2026-02-13
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-131-historiker-review-register-cleanup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.1] - Historiker-Review &amp; Register-Cleanup
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.1] - Historiker-Review &amp; Register-Cleanup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-125-konsistenz-offensive-workflow-hartung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-12.5] - Konsistenz-Offensive &amp; Workflow-Härtung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-12.5] - Konsistenz-Offensive &amp; Workflow-Härtung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-124-das-orakel-rag-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-12.4] - Das Orakel (RAG-System)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-12.4] - Das Orakel (RAG-System)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-123-github-interaktivitat-automatisierung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-12.3] - GitHub-Interaktivität &amp; Automatisierung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-12.3] - GitHub-Interaktivität &amp; Automatisierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-122-projekt-reorganisation-cleanup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-12.2] - Projekt-Reorganisation &amp; Cleanup
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-12.2] - Projekt-Reorganisation &amp; Cleanup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-121-infrastruktur-update-massen-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-12.1] - Infrastruktur-Update &amp; Massen-Integration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-12.1] - Infrastruktur-Update &amp; Massen-Integration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integriert" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integriert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CONTRIBUTING/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🤝 Mitarbeit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../Siebenwind_Wiki/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🗺️ Wiki-Inhalte
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🗺️ Wiki-Inhalte
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../Siebenwind_Wiki/00_Fundament/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📜 Register & Basis
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    📜 Register & Basis
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Siebenwind_Wiki/00_Fundament/Personenregister/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personenregister
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Siebenwind_Wiki/00_Fundament/Organisationsregister/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Organisationsregister
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Siebenwind_Wiki/00_Fundament/Zeitrechnung_%28Der_Sonnenzirkel%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zeitrechnung
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--Kanon"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../Siebenwind_Wiki/01_Pantheon/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🏛️ Pantheon & Religion
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🏛️ Pantheon & Religion
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Siebenwind_Wiki/01_Pantheon/Das_Pantheon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Das Pantheon
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Siebenwind_Wiki/01_Pantheon/Astrael/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Astrael
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--Kanon (Level 1)"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../Siebenwind_Wiki/02_Geografie/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧭 Geografie & Orte
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🧭 Geografie & Orte
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Siebenwind_Wiki/02_Geografie/Siebenwind/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Siebenwind
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../Siebenwind_Wiki/07_Persoenlichkeiten/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎭 Persönlichkeiten
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🎭 Persönlichkeiten
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🐉 Bestiarium
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🐉 Bestiarium
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Siebenwind_Wiki/00_Fundament/Bestiarium_Register/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Register
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ⏳ Chronik
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    ⏳ Chronik
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Siebenwind_Wiki/04_Chronik/Zeitleiste_%2815-30_n.H.%29/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zeitlinie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🏗️ Projekt-Management
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🏗️ Projekt-Management
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MASTER_TASK_LIST/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📈 Master Task List
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Siebenwind_Wiki/10_Archiv/Wiki_Statistiken/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📊 Wiki Statistiken
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../STYLING/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎨 Styling-Profil
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1521-phase-20-deep-bote-ingestion-codex-delegation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-15.21] - Phase 20: Deep Bote Ingestion &amp; Codex Delegation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-15.21] - Phase 20: Deep Bote Ingestion &amp; Codex Delegation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1520-production-persistence-layer-conclusions-ideas-artworks-presentations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-15.20] - Production Persistence Layer (Conclusions, Ideas, Artworks, Presentations)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-15.20] - Production Persistence Layer (Conclusions, Ideas, Artworks, Presentations)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1519-interop-phase-3-relative-links-workflow-runtime-markers-re-evaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-15.19] - Interop Phase 3: Relative Links, Workflow Runtime Markers, Re-Evaluation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-15.19] - Interop Phase 3: Relative Links, Workflow Runtime Markers, Re-Evaluation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1418-news-reconstruction-forum-indexing-and-synapse-dispatch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.18] - News Reconstruction, Forum Indexing, and Synapse Dispatch
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.18] - News Reconstruction, Forum Indexing, and Synapse Dispatch">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1501-phase-194-structural-purity-automation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-15.01] - Phase 19.4: Structural Purity &amp; Automation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-15.01] - Phase 19.4: Structural Purity &amp; Automation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1417-phase-19-light-sanguine-general-abstraction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.17] - Phase 19: Light Sanguine &amp; General Abstraction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.17] - Phase 19: Light Sanguine &amp; General Abstraction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1416-phase-19-github-pages-overhaul-link-repair" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.16] - Phase 19: GitHub Pages Overhaul &amp; Link Repair
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.16] - Phase 19: GitHub Pages Overhaul &amp; Link Repair">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1413-batch-26-toran-dur-ingestion-pfad-a" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.13] - Batch 26: Toran Dur Ingestion (Pfad A)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.13] - Batch 26: Toran Dur Ingestion (Pfad A)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1412-batch-27-toran-dur-advanced-doctrines-sub-batches-1-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.12] - Batch 27: Toran Dur Advanced Doctrines (Sub-Batches 1-4)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.12] - Batch 27: Toran Dur Advanced Doctrines (Sub-Batches 1-4)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1411-infrastructure-ingestion-30-oracle-hardening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.11] - Infrastructure: Ingestion 3.0 &amp; Oracle Hardening
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.11] - Infrastructure: Ingestion 3.0 &amp; Oracle Hardening">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entfernt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entfernt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-1410-lore-reconstruction-the-origins-of-siebenwind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.10] - Lore Reconstruction: The Origins of Siebenwind
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.10] - Lore Reconstruction: The Origins of Siebenwind">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-149-documentation-maintenance-path-d-der-chronist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.9] - Documentation &amp; Maintenance: Path D (Der Chronist)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.9] - Documentation &amp; Maintenance: Path D (Der Chronist)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-147-phase-17-infrastructure-intelligence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.7] - Phase 17: Infrastructure &amp; Intelligence
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.7] - Phase 17: Infrastructure &amp; Intelligence">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-148-batch-25c-toran-dur-reports-order-of-the-lion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.8] - Batch 25c: Toran Dur Reports &amp; Order of the Lion
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.8] - Batch 25c: Toran Dur Reports &amp; Order of the Lion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-146-batch-25-toran-dur-magie-bibliothek-system-audit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.6] - Batch 25: Toran Dur Magie-Bibliothek &amp; System Audit
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.6] - Batch 25: Toran Dur Magie-Bibliothek &amp; System Audit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_15" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-144-batch-23-astrael-religious-texts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.4] - Batch 23: Astrael Religious Texts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.4] - Batch 23: Astrael Religious Texts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-143-spielergeschichten-integration-batches-20-22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.3] - Spielergeschichten Integration (Batches 20-22)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.3] - Spielergeschichten Integration (Batches 20-22)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_16" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-143-recherche-marnie-ruatha-handover" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.3] - Recherche Marnie Ruatha &amp; Handover
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.3] - Recherche Marnie Ruatha &amp; Handover">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_17" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-142-synapsen-system-v20-register-consolidation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.2] - Synapsen-System v2.0 &amp; Register-Consolidation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.2] - Synapsen-System v2.0 &amp; Register-Consolidation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_18" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-141-historiker-review-delarie-glaron" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-14.1] - Historiker-Review: Delarie &amp; Glaron
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-14.1] - Historiker-Review: Delarie &amp; Glaron">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#geandert_19" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-139-wiki-consistency-restoration-total-consistency-restoration-alle-69-konsistenzprobleme-im-personenregister-behoben-0-duplikate-0-orphans-0-missing-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.9] - Wiki Consistency Restoration- 🏛️ Total Consistency Restoration: Alle 69+ Konsistenzprobleme im Personenregister behoben (0 Duplikate, 0 Orphans, 0 Missing Profiles).
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-138-epistemics-source-ingestion-audit-interrupted" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.8] - Epistemics &amp; Source Ingestion Audit (Interrupted)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.8] - Epistemics &amp; Source Ingestion Audit (Interrupted)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-137-narrative-enrichment-orphan-resolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.7] - Narrative Enrichment &amp; Orphan Resolution
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.7] - Narrative Enrichment &amp; Orphan Resolution">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-137-feature-drop-orakel-skills-v20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.7] - Feature Drop: Orakel &amp; Skills v2.0
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.7] - Feature Drop: Orakel &amp; Skills v2.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_22" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_23" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-135-phase-13-abschluss-falkensee-putsch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.5] - Phase 13 Abschluss (Falkensee Putsch)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.5] - Phase 13 Abschluss (Falkensee Putsch)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-134-phase-11-abschluss-phase-12-vorbereitung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.4] - Phase 11 Abschluss &amp; Phase 12 Vorbereitung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.4] - Phase 11 Abschluss &amp; Phase 12 Vorbereitung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_24" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-133-wiki-statistiken-dokumentations-audit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.3] - Wiki-Statistiken &amp; Dokumentations-Audit
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.3] - Wiki-Statistiken &amp; Dokumentations-Audit">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_25" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-132-phase-14-spielergeschichten-re-scan-fortsetzung-der-ingestion-batches-9-register-sync-der-extrahierten-entitaten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.2] - [ ] Phase 14: Spielergeschichten Re-Scan – Fortsetzung der Ingestion (Batches 9+), Register-Sync der extrahierten Entitäten.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prioritat-3-qualitat-politur" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔴 Priorität 3: Qualität &amp; Politur
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prioritat-3b-intelligente-wissensvernetzung-phase-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧠 Priorität 3b: Intelligente Wissensvernetzung (Phase 3)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-backlog-ideenspeicher" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔮 Future / Backlog (Ideenspeicher)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-132-audit-der-magieschulen-kanon-hartung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.2] - Audit der Magieschulen (Kanon-Härtung)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.2] - Audit der Magieschulen (Kanon-Härtung)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_26" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#batch-24-astraels-legacy-ii-2026-02-14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [Batch 24] - Astrael's Legacy (II) - 2026-02-14
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#batch-23-astraels-erbe-i-2026-02-14" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [Batch 23] - Astrael's Erbe (I) - 2026-02-14
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phase-14-2026-02-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [Phase 14] - 2026-02-13
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-131-historiker-review-register-cleanup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-13.1] - Historiker-Review &amp; Register-Cleanup
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-13.1] - Historiker-Review &amp; Register-Cleanup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_27" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-125-konsistenz-offensive-workflow-hartung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-12.5] - Konsistenz-Offensive &amp; Workflow-Härtung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-12.5] - Konsistenz-Offensive &amp; Workflow-Härtung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_28" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ergebnisse_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ergebnisse
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-124-das-orakel-rag-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-12.4] - Das Orakel (RAG-System)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-12.4] - Das Orakel (RAG-System)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-123-github-interaktivitat-automatisierung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-12.3] - GitHub-Interaktivität &amp; Automatisierung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-12.3] - GitHub-Interaktivität &amp; Automatisierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_31" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-122-projekt-reorganisation-cleanup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-12.2] - Projekt-Reorganisation &amp; Cleanup
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-12.2] - Projekt-Reorganisation &amp; Cleanup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_32" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_29" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2026-02-121-infrastruktur-update-massen-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        [2026-02-12.1] - Infrastruktur-Update &amp; Massen-Integration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="[2026-02-12.1] - Infrastruktur-Update &amp; Massen-Integration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hinzugefugt_33" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hinzugefügt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geandert_30" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geändert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integriert" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integriert
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/Siebenwind/7w_wiki/edit/main/docs/CHANGELOG.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/Siebenwind/7w_wiki/raw/main/docs/CHANGELOG.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+  <h1>🗞️ Changelog</h1>
+
+<h2 id="2026-02-1521-phase-20-deep-bote-ingestion-codex-delegation">[2026-02-15.21] - Phase 20: Deep Bote Ingestion &amp; Codex Delegation<a class="headerlink" href="#2026-02-1521-phase-20-deep-bote-ingestion-codex-delegation" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt">Hinzugefügt<a class="headerlink" href="#hinzugefugt" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Wiki-Inhalt (Chronik)</strong>: Tiefgreifende Anreicherung der Boten-Seiten 186 bis 194.</li>
+<li><strong>Persönlichkeiten</strong>: Über 20 neue Profile erstellt (u.a. [[Solos_Nhergas]], [[Akassvae]], [[Helfric_von_Wallenburg]]).</li>
+<li><strong>System</strong>: Delegations-Prompt <code>System/DELEGATION_CODEX_PHASE_20.md</code> für den narrativen Feinschliff erstellt.</li>
+<li><strong>Silicon Inquisition</strong>: Forschungsbericht <code>INQ-2026-001_Historian_Report.md</code> zum Astralgeflecht.</li>
+</ul>
+<h3 id="geandert">Geändert<a class="headerlink" href="#geandert" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Register</strong>: Über 40 Einträge in <code>Personenregister.md</code> und <code>Organisationsregister.md</code> synchronisiert.</li>
+<li><strong>Konfiguration</strong>: <code>.gitignore</code> um Delegations-Dateien erweitert.</li>
+<li><strong>Handover</strong>: <code>MASTER_TASK_LIST.md</code> auf Phase 20 aktualisiert.</li>
+</ul>
+<h2 id="2026-02-1520-production-persistence-layer-conclusions-ideas-artworks-presentations">[2026-02-15.20] - Production Persistence Layer (Conclusions, Ideas, Artworks, Presentations)<a class="headerlink" href="#2026-02-1520-production-persistence-layer-conclusions-ideas-artworks-presentations" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_1">Hinzugefügt<a class="headerlink" href="#hinzugefugt_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Protokoll</strong>: <code>System/PRODUCTION_PROTOCOL.md</code> als verbindliche Persistenzregel für erzeugte Artefakte.</li>
+<li><strong>Präsentation</strong>: <code>Logs/Presentations/2026-02-15_Interop_Dossier_Praesentation.md</code>.</li>
+<li><strong>Vorlagen</strong>: <code>System/Templates/PRODUCTION_NOTE_TEMPLATE.md</code> für standardisierte Ergebnisablagen.</li>
+<li><strong>Ablageordner</strong>: <code>Logs/Conclusions/</code>, <code>Logs/Ideas/</code>, <code>Logs/Artworks/</code>, <code>Logs/Presentations/</code>.</li>
+</ul>
+<h3 id="geandert_1">Geändert<a class="headerlink" href="#geandert_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Standards</strong>: <code>SY_STANDARDS.md</code> um <code>PRODUCTION_PROTOCOL</code> ergänzt.</li>
+<li><strong>Coordination Hub</strong>: Register um Produktionsprotokoll und Vorlage erweitert.</li>
+</ul>
+<h2 id="2026-02-1519-interop-phase-3-relative-links-workflow-runtime-markers-re-evaluation">[2026-02-15.19] - Interop Phase 3: Relative Links, Workflow Runtime Markers, Re-Evaluation<a class="headerlink" href="#2026-02-1519-interop-phase-3-relative-links-workflow-runtime-markers-re-evaluation" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_2">Hinzugefügt<a class="headerlink" href="#hinzugefugt_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Dossier</strong>: <code>Logs/Ingestion/2026-02-15_Interop_Dossier_Phase3.md</code> als offizieller Nachher-Befund.</li>
+<li><strong>Workflow-Härtung</strong>: <code>runtime_commands</code>/<code>method_only</code> Blöcke in den Department-Workflows ergänzt.</li>
+</ul>
+<h3 id="geandert_2">Geändert<a class="headerlink" href="#geandert_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Pfad-Normierung</strong>: Antigravity-Workflows und Koordinationsdokumente auf kontextkorrekte relative Links umgestellt.</li>
+<li><strong>Inquisition-Quellenverweise</strong>: Historian-Report und Manifest von absoluten URI-Referenzen auf relative Pfade migriert.</li>
+<li><strong>Re-Audit</strong>: Linkkonsistenz nach Migration verifiziert; nur definierte Platzhalter bleiben offen.</li>
+</ul>
+<h2 id="2026-02-1418-news-reconstruction-forum-indexing-and-synapse-dispatch">[2026-02-14.18] - News Reconstruction, Forum Indexing, and Synapse Dispatch<a class="headerlink" href="#2026-02-1418-news-reconstruction-forum-indexing-and-synapse-dispatch" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_3">Hinzugefügt<a class="headerlink" href="#hinzugefugt_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>News-Archiv</strong>: Vollstaendige Quellenanlage fuer Homepage-News ab 2010 unter <code>Quellen/News/</code> (standardisiertes Frontmatter).</li>
+<li><strong>Forum-Kategorien</strong>: Neue Quellenkategorien <code>Quellen/Forum/Bekanntmachungen</code> und <code>Quellen/Forum/Newsticker</code> fuer technische/teambezogene Forenhinweise.</li>
+<li><strong>Synapse Dispatch</strong>:<ul>
+<li>Neues Board-Dokument <code>System/Synapse_Board/SY_DISPATCH.md</code>.</li>
+<li>Persistente Queue unter <code>System/Synapse_Board/DISPATCH/</code>.</li>
+<li>Neue CLI-Erweiterung <code>7w mail ...</code> fuer Agent-zu-Agent Nachrichten (<code>post</code>, <code>inbox</code>, <code>read</code>, <code>claim</code>, <code>done</code>).</li>
+</ul>
+</li>
+</ul>
+<h3 id="geandert_3">Geändert<a class="headerlink" href="#geandert_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Chronik</strong>: <code>Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md</code> um News- und Forum-Auswertung erweitert.</li>
+<li><strong>Standards</strong>: <code>System/Synapse_Board/SY_STANDARDS.md</code> um Board-Eintrag <code>SY_DISPATCH</code> erweitert.</li>
+<li><strong>CLI</strong>: <code>7w_wiki.py</code> um Subcommand <code>mail</code> ergaenzt.</li>
+</ul>
+<h2 id="2026-02-1501-phase-194-structural-purity-automation">[2026-02-15.01] - Phase 19.4: Structural Purity &amp; Automation<a class="headerlink" href="#2026-02-1501-phase-194-structural-purity-automation" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_4">Hinzugefügt<a class="headerlink" href="#hinzugefugt_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Automatisierung</strong>: Skript <code>generate_wiki_indices.py</code> zur automatischen Erstellung von Kategorie-Indizes.</li>
+<li><strong>CLI</strong>: Neuer Befehl <code>./7w_wiki.py index-pages</code> zur Wartung der Wiki-Hierarchie.</li>
+<li><strong>Dokumentation</strong>: <code>CONTRIBUTING.md</code> für Community-Kollaboration und Lizenz-Governance.</li>
+</ul>
+<h3 id="geandert_4">Geändert<a class="headerlink" href="#geandert_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Navigation</strong>: Umstellung auf explizite Pfade in <code>mkdocs.yml</code> zur Vermeidung von 404-Fehlern in Unterverzeichnissen.</li>
+<li><strong>Branding</strong>: Bereinigung der Homepage von veraltetem Slogan-Lore ("Diskretion").</li>
+<li><strong>Statistiken</strong>: Dashboard-Refresh für den neuen Struktur-Stand.</li>
+</ul>
+<h2 id="2026-02-1417-phase-19-light-sanguine-general-abstraction">[2026-02-14.17] - Phase 19: Light Sanguine &amp; General Abstraction<a class="headerlink" href="#2026-02-1417-phase-19-light-sanguine-general-abstraction" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_5">Hinzugefügt<a class="headerlink" href="#hinzugefugt_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Visuals</strong>: Neues "Light Sanguine" Branding-System (Rötelzeichnung im Leonardo-Stil).</li>
+<li><strong>Asset-Archiv</strong>: Dediziertes Archiv unter <code>docs/assets/archive/</code> für Design-Konzepte.</li>
+<li><strong>Mockups</strong>: High-Fidelity UI-Mockup des Interface-Konzepts für zukünftige Iterationen (Sanguine-Stil).</li>
+</ul>
+<h3 id="geandert_5">Geändert<a class="headerlink" href="#geandert_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Interface Design</strong>: Umstellung auf v2.4 (Paper-Minimalism, Thin Lines, Sanguine &amp; Sepia).</li>
+<li><strong>Integrität</strong>: Korrektur von Rendering-Fehlern in Markdown-Tabellen (Register).</li>
+<li><strong>Abstraktion</strong>: Wechsel von spezifischer Astrael-Symbolik zu allgemeiner Architektur-Geometrie.</li>
+</ul>
+<h2 id="2026-02-1416-phase-19-github-pages-overhaul-link-repair">[2026-02-14.16] - Phase 19: GitHub Pages Overhaul &amp; Link Repair<a class="headerlink" href="#2026-02-1416-phase-19-github-pages-overhaul-link-repair" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_6">Hinzugefügt<a class="headerlink" href="#hinzugefugt_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Wiki-Plugins</strong>: Aktivierung von <code>mkdocs-roamlinks-plugin</code> zur Unterstützung von <code>[[WikiLinks]]</code>.</li>
+<li><strong>Visuals</strong>: Vollständiges Redesign der Homepage (<code>index.md</code>) im "Lore Engine" Stil.</li>
+<li><strong>Navigation</strong>: Strukturierte <code>mkdocs.yml</code> mit Direktzugriff auf Register und Chronik.</li>
+<li><strong>GitHub Actions</strong>: Automatisierte Installation der notwendigen Plugins im Deployment-Workflow.</li>
+</ul>
+<h3 id="geandert_6">Geändert<a class="headerlink" href="#geandert_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Link-System</strong>: Konvertierung aller statischen Pfade in <code>index.md</code> auf relative Formate.</li>
+<li><strong>Aestetik</strong>: Umstellung der Farbpalette auf "Slate &amp; Gold" (Renaissance-Tech Look).</li>
+<li><strong>Cleanup</strong>: Entfernung der Art-Director-Sektion von der Homepage (Fokus auf Lore &amp; Tech).</li>
+</ul>
+<h3 id="hinzugefugt_7">Hinzugefügt<a class="headerlink" href="#hinzugefugt_7" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Visual Identity</strong>: Premium-Banner ("Anatomia Magica Mundi"), Logo und Favicon im Renaissance-Stil implementiert.</li>
+<li><strong>System</strong>: CLI zu <code>7w_wiki.py</code> vereinheitlicht; <code>Art Director</code> Skill für Stil-Konsistenz installiert.</li>
+<li><strong>GitHub</strong>: Repository erfolgreich an Org <code>Siebenwind</code> übertragen und via GitHub Pages deployt.</li>
+</ul>
+<h2 id="2026-02-1413-batch-26-toran-dur-ingestion-pfad-a">[2026-02-14.13] - Batch 26: Toran Dur Ingestion (Pfad A)<a class="headerlink" href="#2026-02-1413-batch-26-toran-dur-ingestion-pfad-a" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_8">Hinzugefügt<a class="headerlink" href="#hinzugefugt_8" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Wiki-Content</strong>:<ul>
+<li><strong>Magietheorie</strong>: <code>Locus_Magicae.md</code>, <code>Magietheorie_Toran_Dur.md</code> (Arcana Procella), <code>Artefaktlehre.md</code>.</li>
+<li><strong>Forschung</strong>: <code>Bartanatomie.md</code> (Goldaxt), <code>Finsterwangen.md</code> (Krise 14 n.H.), <code>Brandenstein.md</code> (Diamant-Matrix).</li>
+<li><strong>Bestiarium</strong>: Klassifizierung nach Liebig (<strong>Lazperday</strong> vs <strong>Warthun</strong>).</li>
+</ul>
+</li>
+<li><strong>Register</strong>:<ul>
+<li>Neue Personas: <code>Birnbaum</code>, <code>Fogrim Goldaxt</code>, <code>Logrin Goldaxt</code>, <code>Johannes Klos</code>, <code>Johann Liebig</code>, <code>Hernaphas Lenarmberg</code>, <code>Hahngard Esteron</code>.</li>
+<li>Updates: <code>Kida Gilwen</code>, <code>Kalveron Dai</code>.</li>
+</ul>
+</li>
+</ul>
+<h2 id="2026-02-1412-batch-27-toran-dur-advanced-doctrines-sub-batches-1-4">[2026-02-14.12] - Batch 27: Toran Dur Advanced Doctrines (Sub-Batches 1-4)<a class="headerlink" href="#2026-02-1412-batch-27-toran-dur-advanced-doctrines-sub-batches-1-4" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_9">Hinzugefügt<a class="headerlink" href="#hinzugefugt_9" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Wiki-Content</strong>:<ul>
+<li><strong>Constructs</strong>: <code>Konstruktbau_und_Ariin.md</code>, <code>Erschaffene_Diener.md</code>.</li>
+<li><strong>Arcane Science</strong>: <code>Arkan-Metalle.md</code>, <code>Elementare_Atomlehre.md</code>.</li>
+<li><strong>Combat/Defense</strong>: <code>Antimagie_und_Gegenzauber.md</code>, <code>Arkane_Kriegfuehrung.md</code>.</li>
+<li><strong>Transformation/Gems</strong>: <code>Metamorphose_und_Gestaltwandel.md</code>, <code>Vjera_Batama_Magica.md</code>.</li>
+</ul>
+</li>
+<li><strong>Register</strong>:<ul>
+<li>Synchronisation der Magister: <code>Edomawyr</code>, <code>Jennaia Lavrial</code>, <code>Nistram Rigas</code>, <code>Erynnion Comari</code>, <code>Lewyn Anacar</code>, <code>Sylest le Felyhn</code>.</li>
+<li>Manuelle Bereinigung und Deduplizierung (u.a. <code>Arenus</code>, <code>Tanthul</code>, <code>Nefustor</code>, <code>Amanda Dunkelbaum</code>).</li>
+<li>Neueinträge: <code>Arlin Sturmfels</code>, <code>Santanos Alexandrius von Eichstatt</code>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="geandert_7">Geändert<a class="headerlink" href="#geandert_7" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Wiki-Statistiken</strong>: Dashboard aktualisiert (1027 Artikel, 546 Persönlichkeiten).</li>
+</ul>
+<h2 id="2026-02-1411-infrastructure-ingestion-30-oracle-hardening">[2026-02-14.11] - Infrastructure: Ingestion 3.0 &amp; Oracle Hardening<a class="headerlink" href="#2026-02-1411-infrastructure-ingestion-30-oracle-hardening" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_10">Hinzugefügt<a class="headerlink" href="#hinzugefugt_10" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Ingestion v3.0</strong>: <ul>
+<li>Einführung des <strong>Lore Quality Score (LQS)</strong> (0-10) zur Bewertung von Extraktionen.</li>
+<li>Neues Template: <code>System/Templates/INGESTION_REPORT_TEMPLATE.md</code>.</li>
+<li>Dedizierter Ablageort für Reports: <code>Logs/Ingestion/</code>.</li>
+</ul>
+</li>
+<li><strong>Sandbox-Resilience</strong>:<ul>
+<li>Automatische Sandbox-Erkennung via <code>ANTIGRAVITY_AGENT</code> und <code>ANTIGRAVITY_SANDBOX</code>.</li>
+<li>Implementierung von <code>local_files_only=True</code> für embedding und reranking Modelle.</li>
+</ul>
+</li>
+</ul>
+<h3 id="geandert_8">Geändert<a class="headerlink" href="#geandert_8" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Orakel-Optimierung</strong>: <ul>
+<li>Behebung der XLMRoberta-Warnung durch gezielten Proxy-Logging-Patch (Monkey-Patch).</li>
+<li>Performance-Bestätigung (Search ~20s in Sandbox-Umgebung).</li>
+</ul>
+</li>
+<li><strong>Projekt-Wartung</strong>: <ul>
+<li>Repository-Cleanup (Löschen von Root-Junk wie <code>.DS_Store</code>, <code>missing_links.txt</code>, <code>walkthrough.md</code>).</li>
+<li>Korrektur der Dokumentationspfade in <code>README.md</code>.</li>
+<li>Archivierung alter Logs in <code>Logs/Archive/</code>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="entfernt">Entfernt<a class="headerlink" href="#entfernt" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Veraltete <code>walkthrough.md</code> im Root-Verzeichnis.</li>
+<li>Temporäre Register-Logs.</li>
+</ul>
+<h2 id="2026-02-1410-lore-reconstruction-the-origins-of-siebenwind">[2026-02-14.10] - Lore Reconstruction: The Origins of Siebenwind<a class="headerlink" href="#2026-02-1410-lore-reconstruction-the-origins-of-siebenwind" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_11">Hinzugefügt<a class="headerlink" href="#hinzugefugt_11" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Wiki-Archiv</strong>: <code>Logs/Historian_Report_2026_003_Siebenwind_Origins.md</code> als Forschungs-Zusammenfassung erstellt.</li>
+<li><strong>Geografie</strong>: <code>Rohehafen.md</code> (Ehemalige Hauptstadt der ersten Kolonie) erstellt.</li>
+</ul>
+<h3 id="geandert_9">Geändert<a class="headerlink" href="#geandert_9" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Lore-Zentralisierung</strong>: <ul>
+<li><code>Tiefenbach.md</code>: Status als Hauptstadt entfernt; Fokus auf Hafen und Magie-Akademie (historisch).</li>
+<li><code>Finsterwangen.md</code>: Fokus auf den Sphärenriss und die Galahad-Verteidigung präzisiert.</li>
+<li><code>Historie_&amp;_Ären.md</code>: Umfassender Retcon der Hilgorad-Expedition (1 n.H.) und der "Ersten Kolonie".</li>
+<li><code>Hilgorad_I_ap_Mer.md</code>: Rolle als Expeditions-Initiator ergänzt.</li>
+<li><code>Siebenwind.md</code>: Regionen-Übersicht um Rohehafen ergänzt.</li>
+<li><code>Stadtchronik_Rohehafens.md</code>: Als historisches Dokument markiert (vordatiert auf ca. 5 n.H.).</li>
+</ul>
+</li>
+<li><strong>Research Board</strong>: RESEARCH-2026-005 und 006 als <code>COMPLETED</code> markiert.</li>
+</ul>
+<h2 id="2026-02-149-documentation-maintenance-path-d-der-chronist">[2026-02-14.9] - Documentation &amp; Maintenance: Path D (Der Chronist)<a class="headerlink" href="#2026-02-149-documentation-maintenance-path-d-der-chronist" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_12">Hinzugefügt<a class="headerlink" href="#hinzugefugt_12" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Wiki-Statistiken</strong>: Neues Statistik-Dashboard generiert (984 Artikel, 521 Persönlichkeiten). Dokumentiert unter <code>Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md</code>.</li>
+<li><strong>Projekt-Wartung</strong>: Überprüfung der zentralen Dokumentation (<code>README.md</code>, <code>WORKFLOW_LORE_CONSISTENCY.md</code>, <code>SYNAPSEN_SYSTEM_SPEC.md</code>).</li>
+<li><strong>Onboarding-Status</strong>: Fortschreibung des <code>/start</code> Prozesses und Festlegung der nächsten Prioritäten.</li>
+</ul>
+<h3 id="geandert_10">Geändert<a class="headerlink" href="#geandert_10" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Wiki-Integrität</strong>: Validierung der Pfade für Lore-Engineering-Dokumente im <code>.agent/docs/</code> Verzeichnis.</li>
+</ul>
+<h2 id="2026-02-147-phase-17-infrastructure-intelligence">[2026-02-14.7] - Phase 17: Infrastructure &amp; Intelligence<a class="headerlink" href="#2026-02-147-phase-17-infrastructure-intelligence" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_13">Hinzugefügt<a class="headerlink" href="#hinzugefugt_13" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Finsterwangen / Tiefenbach Korrektur</strong>:<ul>
+<li><code>Tiefenbach.md</code>: Als historische Hauptstadt ("Jassavia-Analogie" auf der Insel) definiert.</li>
+<li><code>Finsterwangen.md</code>: Als Festung der Galahad-Legende definiert (nicht Jassavia/Hauptstadt).</li>
+<li><code>Historie_&amp;_Ären.md</code>: Trennung von Jassavia (Festland) und Tiefenbach (Insel).</li>
+<li><code>Die_Legende_von_Galahad_Ritter_der_Rosen.md</code>: Verlinkungen korrigiert.</li>
+</ul>
+</li>
+<li><strong>Lore-Untersuchungen</strong>:<ul>
+<li><strong>Astralnetz-Ursprung</strong>: Kontroverse (Kirche vs. Toran Dur) in <code>Astrael.md</code>, <code>Toran_Dur.md</code>, <code>Die_Gohor.md</code> dokumentiert.</li>
+<li><strong>Ionas Narrative</strong>: <code>Ionas.md</code> mit atmosphärischen Detailsangereichert (Resolved Synapse Ticket 2026-003).</li>
+</ul>
+</li>
+</ul>
+<h3 id="geandert_11">Geändert<a class="headerlink" href="#geandert_11" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Synapse Board</strong>:<ul>
+<li>Ticket <code>Conflict_2026-003_Ionas_Narrative</code> geschlossen (RESOLVED).</li>
+<li>Ticket <code>Conflict_TEST_001_Falkensee_Timeline</code> geschlossen (RESOLVED durch Finsterwangen-Lore).</li>
+</ul>
+</li>
+<li><strong>Onboarding Workflow</strong>: Neuentwickelter <code>/start</code> Prozess (<code>./7w_wiki.py start</code>) für eine strukturierte Agenten-Übernahme.</li>
+<li><strong>Historiker-Workflow</strong>: <code>/historian</code> Workflow zur tiefen Analyse von Kausalitäten und Lore-Rekonstruktion.</li>
+<li><strong>Lore Audit</strong>: Protokoll und Template für Lore-Peer-Reviews und Eskalationen bei Unsicherheit.</li>
+<li><strong>CLI Erweiterung</strong>: Unified CLI (<code>7w_wiki.py</code>) unterstützt nun <code>start</code>, <code>historian</code> mit Query-Support und flexiblen Oracle-Parametern (<code>--cpu</code>, <code>--no-re-rank</code>).</li>
+</ul>
+<h3 id="geandert_12">Geändert<a class="headerlink" href="#geandert_12" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Orakel-Redirection</strong>: Aggressive Umleitung aller HuggingFace- und Transformers-Caches in das Projektverzeichnis (<code>.agent/data/models</code>) zur Umgehung von Sandbox-Restriktionen.</li>
+<li><strong>Orakel-Redirection</strong>: Aggressive Umleitung aller HuggingFace- und Transformers-Caches in das Projektverzeichnis (<code>.agent/data/models</code>) zur Umgehung von Sandbox-Restriktionen.</li>
+<li><strong>Indexer-Stabilität</strong>: Fix eines kritischen Bugs im Index-Builder, der bei Einzeldatei-Updates fälschlicherweise den restlichen Index gelöscht hat.</li>
+</ul>
+<h2 id="2026-02-148-batch-25c-toran-dur-reports-order-of-the-lion">[2026-02-14.8] - Batch 25c: Toran Dur Reports &amp; Order of the Lion<a class="headerlink" href="#2026-02-148-batch-25c-toran-dur-reports-order-of-the-lion" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_14">Hinzugefügt<a class="headerlink" href="#hinzugefugt_14" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Wiki-Content</strong>:<ul>
+<li><strong>Toran Dur</strong>: Umfassendes Personenprofil und Biographie.</li>
+<li><strong>Forschungsberichte</strong>: Integration von <code>Forschungsberichte (Toran Dur)</code>, <code>Index Siebenwind (Toran Dur)</code>, <code>Die Sprache Run (Toran Dur)</code>.</li>
+<li><strong>Magietheorie</strong>: Integration von <code>Die Magie (Toran Dur)</code>, <code>Lehrbuch der Magietheorie (Toran Dur)</code>, <code>Theorien der Magie (Toran Dur)</code>, <code>Magica Curativa (Toran Dur)</code>, <code>Daimonologie und Schwarze Magie (Toran Dur)</code>.</li>
+<li><strong>Historie/Recht</strong>: <code>Die Ordenssatzung des Ordens vom Wachenden Löwen (Toran Dur)</code>, <code>Graue Charta (Zweiter Entwurf)</code>.</li>
+</ul>
+</li>
+<li><strong>Register</strong>:<ul>
+<li><strong>Löwenorden</strong>: Erfassung der Gründungsmitglieder 17 n.H. (<code>Cendaric Tibur</code>, <code>Lothar Gavinwald</code>, <code>Akora Dur</code>, <code>Dorion Hali</code>).</li>
+<li><strong>Personen</strong>: Diverser Magier und Zeitgenossen (<code>Nefustor</code>, <code>Rianna</code>, <code>Caieta Ajunier</code>, etc.).</li>
+</ul>
+</li>
+<li><strong>System</strong>:<ul>
+<li><code>INVENTUR_QUELLEN.md</code>: Status-Update für 20+ Toran Dur Dateien auf <code>Integrated</code>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="geandert_13">Geändert<a class="headerlink" href="#geandert_13" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Personenregister</strong>: Konsolidierung von Cendaric Tibur (Baron &amp; Ordensmeister) und Dorion Hali (Physikus &amp; Ordensmeister).</li>
+</ul>
+<h2 id="2026-02-146-batch-25-toran-dur-magie-bibliothek-system-audit">[2026-02-14.6] - Batch 25: Toran Dur Magie-Bibliothek &amp; System Audit<a class="headerlink" href="#2026-02-146-batch-25-toran-dur-magie-bibliothek-system-audit" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_15">Hinzugefügt<a class="headerlink" href="#hinzugefugt_15" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Batch 25: Toran Dur Library</strong>:<ul>
+<li>Integration der magietheoretischen Grundlagen (8 Texte: Matrix, Elemente, Zensor etc.).</li>
+<li>Integration der praktischen Arkanologie (5 Texte: Dämonologie, Alchemie, Rituale, Zeit- &amp; Sphärentheorie).</li>
+<li>Erstellung zentraler Magie-Artikel: <code>Daimonicon</code>, <code>Rituallehre_Sphaeren</code>, <code>Alchemie_Grundlagen</code>, <code>Sphaerenkunde_Kosmologie</code>.</li>
+<li>Profile für <code>Kulin_Laetall</code>, <code>Rhadan_der_Graue</code>, <code>Kida_Gilwen</code>, <code>Wolfgang_Ravinsthal</code>, <code>Dunvallo_Linari</code>.</li>
+</ul>
+</li>
+<li><strong>System &amp; Lore</strong>:<ul>
+<li><strong>Lore Research Board</strong>: <code>LORE_RESEARCH_BOARD.md</code> zur workflow-gestützten Lore-Klärung.</li>
+<li><strong>System Audit</strong>: Durchführung des <code>/audit</code> Workflows (Report 2026-02-14). </li>
+<li><strong>Register Status</strong>: Healthy Register bestätigt (0 Duplikate/Orphans).</li>
+</ul>
+</li>
+</ul>
+<h3 id="geandert_14">Geändert<a class="headerlink" href="#geandert_14" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Wiki-Statistiken</strong>: Dashboard aktualisiert (923 Artikel, Lore-Hubs neu berechnet).</li>
+<li><strong>Repair Tool</strong>: <code>repair.py</code> auf aktuelle Wiki-V2.1-Struktur angepasst.</li>
+</ul>
+<h3 id="hinzugefugt_16">Hinzugefügt<a class="headerlink" href="#hinzugefugt_16" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Konstitutionelles Framework</strong>:<ul>
+<li><code>WORKFLOW_ARCHITECTURE.md</code>: Einführung der strategischen Architektur (Trias Politica Modell).</li>
+<li><code>/antigravity</code>: Neuer Master-Workflow für strikte, skriptgesteuerte Exekution.</li>
+<li><code>Logs/JUDICIARY_LOG.md</code>: Offizielles Entscheidungsprotokoll für kritische Lore-Eingriffe (Level 3).</li>
+<li><code>.agent/tests/TEST_CASES.md</code>: Validierungssuite für das Systemverhalten.</li>
+</ul>
+</li>
+<li><strong>Eskalationsstufen</strong>: Definition von 3 Leveln (Standard, Kontrolliert, Judiziell) zur Balance zwischen Effizienz und Sicherheit.</li>
+</ul>
+<h3 id="geandert_15">Geändert<a class="headerlink" href="#geandert_15" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>7w CLI (<code>7w_wiki.py</code>)</strong>: Advisor-Modus ist nun der Default-Befehl (Situationsbewusstsein bei Start).</li>
+<li><strong>Onboarding (<code>takeover.md</code>)</strong>: Mandat für High-Verification und Subdivision-Prinzipien.</li>
+</ul>
+<h2 id="2026-02-144-batch-23-astrael-religious-texts">[2026-02-14.4] - Batch 23: Astrael Religious Texts<a class="headerlink" href="#2026-02-144-batch-23-astrael-religious-texts" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_17">Hinzugefügt<a class="headerlink" href="#hinzugefugt_17" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Batch 23: Bibliothek Astrael</strong>:<ul>
+<li>Integration von 8 religiösen Texten und Mythen: <code>Der_Blutrote_Stier</code>, <code>Der_Traum_der_Tausend</code>, <code>Der_letzte_Falke</code>, <code>Der_naive_Mensch</code>, <code>Die_Eisernen_Tafeln</code>, <code>Die_Goldenen_Tafeln</code>, <code>Die_Silbernen_Tafeln</code>, <code>Die_Legende_von_Galahad_Ritter_der_Rosen</code>.</li>
+<li>Erstellung von 8 Personenprofil-Stubs: <code>Azaris</code>, <code>Barnabas</code>, <code>Dannor</code>, <code>Galahad</code>, <code>Irindal</code>, <code>Jeremias</code>, <code>Kedrin</code>, <code>Tai_Sah_Halour_Glurias</code>.</li>
+</ul>
+</li>
+<li><strong>System-Wartung</strong>:<ul>
+<li>Vorbereitende Konsistenzprüfung und Bereinigung von 13 initialen Fehlern (Gorem, etc.).</li>
+<li>Bereinigung von Duplikaten (Aspin, Athos) nach Register-Sync.</li>
+</ul>
+</li>
+</ul>
+<h2 id="2026-02-143-spielergeschichten-integration-batches-20-22">[2026-02-14.3] - Spielergeschichten Integration (Batches 20-22)<a class="headerlink" href="#2026-02-143-spielergeschichten-integration-batches-20-22" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_18">Hinzugefügt<a class="headerlink" href="#hinzugefugt_18" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Batch 20: Dark Lore &amp; Cults</strong>:<ul>
+<li>Neue Artikel: <code>Die_Namikleris</code>, <code>Kraken</code>, <code>Logbuch_des_Kerkers</code>, <code>Solfeister_Kin</code>, <code>Die_Verbrennung_des_heiligen_Markus</code>, <code>Ritus_Gebet_und_Erleuchtung</code>.</li>
+<li>Register-Updates: <code>Szarmaduk</code>, <code>General Hornstoß</code>, <code>Knochenfürst</code>, <code>Markus</code>, <code>Mehr'thak</code>.</li>
+</ul>
+</li>
+<li><strong>Batch 21: Social &amp; Tales</strong>:<ul>
+<li>Neue Artikel: <code>Die_Zwergen_WG</code>, <code>Geschaeftiges_Treiben</code>, <code>Nachts_im_Brandensteiner_Tempel</code>, <code>Pruefung_und_Entsagung</code>, <code>Pueppchens_Flucht</code>, <code>Letzte_Vorbereitungen</code>, <code>Die_Elemente_ungleiche_Geschwister</code>.</li>
+<li>Register-Updates: <code>Gimbart</code>, <code>Nirluk</code>, <code>Sandholz</code>, <code>Gorion</code>, <code>Püppchen</code>, <code>Lucienne</code>.</li>
+<li>Lore-Korrektur: <strong>Horwah</strong> als Manifestationen/Avatare der Götter definiert (User-Feedback).</li>
+</ul>
+</li>
+<li><strong>Batch 22: Narrative &amp; Character Arcs</strong>:<ul>
+<li>Neue Artikel: <code>Abschied_und_Verrat</code>, <code>Abweisungen</code>, <code>Alles_ohne_Pointe</code>, <code>Aus_dem_Leben_eines_Schwarzmagiers</code>, <code>Briefe_aus_der_Ferne</code>.</li>
+<li>Register-Updates: <code>Todward von Saalhorn</code>, <code>Aelfrid Wildgaden</code>, <code>Dorion Hali</code>, <code>Felix Goldschein</code>, <code>Taleris Kreytz</code>, <code>Rajka Sanseha</code>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="geandert_16">Geändert<a class="headerlink" href="#geandert_16" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Personenregister</strong>: Bereinigung von Duplikaten und Konsolidierung von Einträgen (Akora, Taleris, Rajka).</li>
+<li><strong>Ingestion Log</strong>: Lückenlose Dokumentation aller Verarbeitungsschritte.</li>
+</ul>
+<h2 id="2026-02-143-recherche-marnie-ruatha-handover">[2026-02-14.3] - Recherche Marnie Ruatha &amp; Handover<a class="headerlink" href="#2026-02-143-recherche-marnie-ruatha-handover" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_19">Hinzugefügt<a class="headerlink" href="#hinzugefugt_19" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Forschungsbericht</strong>: <code>Forschungsbericht_Marnie_Ruatha.md</code> (Intern) erstellt.<ul>
+<li>Zusammenstellung der Biographischen Daten (Hafenvogtin 19-21 n.H., Asyl 22 n.H.).</li>
+<li>Analyse der Boten 167, 168, 173, 186.</li>
+</ul>
+</li>
+<li><strong>Gap-Identifikation</strong>:<ul>
+<li><code>Tjure_Odal</code>: Fehlt im System (Lücke).</li>
+<li><code>Arn_Toron</code>: Vorhanden, aber Prüfung empfohlen.</li>
+</ul>
+</li>
+</ul>
+<h3 id="geandert_17">Geändert<a class="headerlink" href="#geandert_17" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Dokumentation</strong>:<ul>
+<li><code>MASTER_TASK_LIST.md</code>: Aktualisiert.</li>
+<li><code>Wiki_Statistiken.md</code>: Neu generiert (837 Artikel, 472 Persönlichkeiten).</li>
+</ul>
+</li>
+</ul>
+<h2 id="2026-02-142-synapsen-system-v20-register-consolidation">[2026-02-14.2] - Synapsen-System v2.0 &amp; Register-Consolidation<a class="headerlink" href="#2026-02-142-synapsen-system-v20-register-consolidation" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_20">Hinzugefügt<a class="headerlink" href="#hinzugefugt_20" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Synapsen-System v2.0</strong>: Erfolgreicher End-to-End Test des neuen Konfliktlösungs-Frameworks.<ul>
+<li><strong>Lore Trust Score (0-10)</strong>: Automatisierte Berechnung integriert (<code>lore_score_manager.py</code>).</li>
+<li><strong>Synapse Board</strong>: Ticketsystem für Konflikte (<code>Conflict_2026-003_Delarie_Timeline</code>).</li>
+</ul>
+</li>
+<li><strong>Register-Consolidation</strong>:<ul>
+<li><strong>Quelle</strong>: "Das Ende der Zeit der Könige" (Spielergeschichte) vollständig integriert.</li>
+<li><strong>Personen</strong>: 18 neue Profile (u.a. <code>Zoran_Gosh</code>, <code>Hadrian_Lugado</code>, <code>Hubertus_Anverita</code>).</li>
+<li><strong>Organisationen</strong>: 6 neue Organisationen (u.a. <code>Ring_des_Argionemes</code>, <code>Bruderschaft_Gofilm</code>).</li>
+</ul>
+</li>
+<li><strong>Wiki-Content</strong>:<ul>
+<li>Neue Artikel: <code>Codex_Iuris_Canonici</code>, <code>Aequitas</code>, <code>Brevier_des_Ordo_Astraeli</code> (Bibliothek Astrael).</li>
+</ul>
+</li>
+</ul>
+<h3 id="geandert_18">Geändert<a class="headerlink" href="#geandert_18" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Priorisierung</strong>: User-Eingaben (<code>#user_canon</code>) sind nun vom Trust-Score entkoppelt (Score reflektiert Quellenreinheit, nicht Zustimmung).</li>
+</ul>
+<h2 id="2026-02-141-historiker-review-delarie-glaron">[2026-02-14.1] - Historiker-Review: Delarie &amp; Glaron<a class="headerlink" href="#2026-02-141-historiker-review-delarie-glaron" title="Permanent link">&para;</a></h2>
+<h3 id="geandert_19">Geändert<a class="headerlink" href="#geandert_19" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Waldemar Delarie (<code>Waldemar_Delarie.md</code>)</strong>:<ul>
+<li><strong>Timeline-Retcon</strong>: "Reise nach Papin" von 25-28 n.H. auf <strong>21 n.H.</strong> korrigiert (Fit für Bote 183/Putsch).</li>
+<li><strong>Titel</strong>: Ergänzung um "Regierungsrat" und "Adjutant".</li>
+<li><strong>Lore</strong>: Erweiterung der "Gerüchteküche" (Spinnen-Vorfall, Besessenheit).</li>
+</ul>
+</li>
+<li><strong>William Glaron (<code>William_Glaron.md</code>)</strong>:<ul>
+<li><strong>Biografie-Erweiterung</strong>: Vom Stub zum Vollprofil (Turniersieger 21 n.H., Tragödie 22 n.H.).</li>
+<li><strong>OOC-Integration</strong>: Berücksichtigung der späteren Erhebung zum Ritter und der Auflösung des "Diener des Einen"-Plots.</li>
+</ul>
+</li>
+<li><strong>System</strong>:<ul>
+<li><strong>Orakel</strong>: Permission-Issue bei <code>search.py</code> dokumentiert (Workaround via grep genutzt).</li>
+</ul>
+</li>
+</ul>
+<h2 id="2026-02-139-wiki-consistency-restoration-total-consistency-restoration-alle-69-konsistenzprobleme-im-personenregister-behoben-0-duplikate-0-orphans-0-missing-profiles">[2026-02-13.9] - Wiki Consistency Restoration- 🏛️ <strong>Total Consistency Restoration:</strong> Alle 69+ Konsistenzprobleme im Personenregister behoben (0 Duplikate, 0 Orphans, 0 Missing Profiles).<a class="headerlink" href="#2026-02-139-wiki-consistency-restoration-total-consistency-restoration-alle-69-konsistenzprobleme-im-personenregister-behoben-0-duplikate-0-orphans-0-missing-profiles" title="Permanent link">&para;</a></h2>
+<ul>
+<li>✍️ <strong>Stub Creation:</strong> 57 neue Profil-Stubs für registrierte Charaktere erstellt.</li>
+<li>🔗 <strong>Register Fixes:</strong> Naming-Mismatches (Apostrophe, Leerzeichen) in <code>Personenregister.md</code> korrigiert.</li>
+<li>📜 <strong>New Workflow:</strong> <code>/repair</code> Workflow zur systematischen Fehlerbehebung implementiert.</li>
+</ul>
+<h2 id="2026-02-138-epistemics-source-ingestion-audit-interrupted">[2026-02-13.8] - Epistemics &amp; Source Ingestion Audit (Interrupted)<a class="headerlink" href="#2026-02-138-epistemics-source-ingestion-audit-interrupted" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_21">Hinzugefügt<a class="headerlink" href="#hinzugefugt_21" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Epistemisches System</strong>: Formale Einführung der Verlässlichkeitsränge (#canon, #bote, #perspektive, #überlieferung) im Style Guide und in der Eskalationsmatrix des RVW-Loops.</li>
+<li><strong>Ingestion Log</strong>: Dokumentation der Re-Scan Ergebnisse für ~30 Spielergeschichten (Batches 1-8).</li>
+</ul>
+<h3 id="geandert_20">Geändert<a class="headerlink" href="#geandert_20" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Metadata-Härtung</strong>: YAML Frontmatter und Status-Tags für ~20 Spielergeschichten ergänzt/korrigiert (u.a. <code>Jassavia</code>, <code>Blutschwert</code>, <code>Waldemar Delarie</code>).</li>
+<li><strong>Kanon-Schutz</strong>: Widersprüchliche oder subjektive Tags (#verstorben, #tragödie) durch formale epistemische Tags ersetzt.</li>
+</ul>
+<h3 id="ergebnisse">Ergebnisse<a class="headerlink" href="#ergebnisse" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Das Wiki verfügt nun über ein robustes System zur Handhabung von Wahrheitsansprüchen.</li>
+<li>Ein Großteil der Spielergeschichten ist metadata-technisch saniert; Entitäten sind für die Register-Integration im Log gesichert.</li>
+</ul>
+<h2 id="2026-02-137-narrative-enrichment-orphan-resolution">[2026-02-13.7] - Narrative Enrichment &amp; Orphan Resolution<a class="headerlink" href="#2026-02-137-narrative-enrichment-orphan-resolution" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_22">Hinzugefügt<a class="headerlink" href="#hinzugefugt_22" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Narrative Enrichment</strong>:<ul>
+<li><code>narrative_enrichment.md</code>: Neuer Workflow für "Roman-Qualität".</li>
+<li><code>Ionas.md</code> &amp; <code>Maichellis_Wanderstern.md</code>: Von Stubs zu narrativen Profilen aufgewertet (Atmosphäre, Motivation, Zitate).</li>
+</ul>
+</li>
+<li><strong>Orphan-Resolution</strong>:<ul>
+<li>4 Duplikate gelöscht (<code>Siegfried_von_Steiner</code>, <code>Fedral</code>, <code>Feldherr</code>, <code>Toron</code>).</li>
+<li>15 fehlende Personen im Register nachgetragen (u.a. <code>Winzlig</code>, <code>Lucius_Gropp</code>).</li>
+<li><code>Benedict_Rabenfels</code>: Als Stub wiederhergestellt.</li>
+</ul>
+</li>
+</ul>
+<h3 id="geandert_21">Geändert<a class="headerlink" href="#geandert_21" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Register-Synchronisation</strong>: <code>Personenregister.md</code> ist nun vollständig synchron mit dem Dateisystem (25 Orphans processed).</li>
+<li><strong>Inhalte</strong>: <code>Arn_Toron.md</code> erhielt die Backstory aus der gelöschten Duplikat-Datei (<code>Toron.md</code>).</li>
+</ul>
+<h3 id="ergebnisse_1">Ergebnisse<a class="headerlink" href="#ergebnisse_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Das Personenregister ist bereinigt und vollständig.</li>
+<li>Erste Schlüsselcharaktere (Ionas, Maichellis) entsprechen dem neuen Qualitätsstandard.</li>
+</ul>
+<h2 id="2026-02-137-feature-drop-orakel-skills-v20">[2026-02-13.7] - Feature Drop: Orakel &amp; Skills v2.0<a class="headerlink" href="#2026-02-137-feature-drop-orakel-skills-v20" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_23">Hinzugefügt<a class="headerlink" href="#hinzugefugt_23" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Das Orakel:</strong> Vollständiges RAG-System (Search, Indexing, MPS-Tuning).</li>
+<li><strong>Skills v2.0:</strong><ul>
+<li><code>Der Lektor</code> (Style-Checker &amp; QA).</li>
+<li><code>Workflow /repair</code> (Interaktive Wartung).</li>
+<li><code>Workflow /watch</code> (Live-Indexierung).</li>
+</ul>
+</li>
+<li><strong>Der Berater:</strong> <code>advisor.py</code> für automatisiertes <code>/takeover</code>.</li>
+</ul>
+<h3 id="geandert_22">Geändert<a class="headerlink" href="#geandert_22" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Dokumentation:</strong><ul>
+<li><code>README.md</code> komplett überarbeitet und modularisiert.</li>
+<li>Neue Benutzerhandbücher für Skills erstellt.</li>
+</ul>
+</li>
+<li><strong>System:</strong> <code>setup.sh</code> aktualisiert (neue Dependencies).</li>
+</ul>
+<h3 id="geandert_23">Geändert<a class="headerlink" href="#geandert_23" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Phase 12 (Boten 176-180):</strong> Complete.<ul>
+<li>Verified content for Boten 176-180.</li>
+<li>Verified/Updated articles: <code>Bestie_von_Brandenstein</code>, <code>Trollkrieg_von_Brandenstein</code>, <code>Die_Spinnenplage_von_Falkensee</code>, <code>Kharas_Palanthas</code>.</li>
+<li>Created new article: <code>Hevelius_Dunkelfeld</code> (Bote 180).</li>
+<li>Updated <code>Personenregister.md</code> (Resolved duplicates for Solice, Gottfried, Merthes, Caoimme; added Dunkelfeld).</li>
+<li>Updated <code>Organisationsregister.md</code> (Added <code>Kult_des_Einen</code>).</li>
+<li>Verified <code>Zeitleiste</code> (21 n.H. entries).</li>
+</ul>
+</li>
+<li><strong>Wiki-Statistiken:</strong> Aktualisiert via <code>/stats</code>.</li>
+</ul>
+<h2 id="2026-02-135-phase-13-abschluss-falkensee-putsch">[2026-02-13.5] - Phase 13 Abschluss (Falkensee Putsch)<a class="headerlink" href="#2026-02-135-phase-13-abschluss-falkensee-putsch" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_24">Hinzugefügt<a class="headerlink" href="#hinzugefugt_24" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Phase 13 (Boten 181-185):</strong> Integrated 5 issues.<ul>
+<li>Standardized Boten 181-185.</li>
+<li>Updated <code>Personenregister.md</code> (Ionas, Serass, Astreyonas, Delarie).</li>
+<li>Updated <code>Zeitleiste_(15-30_n.H.).md</code> (21 n.H. Falkensee Coup completely covered).</li>
+<li>Updated <code>INVENTUR_QUELLEN.md</code> (All 181-185 Integrated).</li>
+<li>Validated <code>Ionas.md</code> and <code>Serass.md</code> dates.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ergebnisse_2">Ergebnisse<a class="headerlink" href="#ergebnisse_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Der "Putsch von Falkensee" ist nun vollständig dokumentiert.</li>
+<li>Die Timeline für das Jahr 21 n.H. ist mit Bote 185 abgeschlossen.</li>
+<li>Wiki-Statistiken wurden aktualisiert (<code>/stats</code>).</li>
+</ul>
+<h2 id="2026-02-134-phase-11-abschluss-phase-12-vorbereitung">[2026-02-13.4] - Phase 11 Abschluss &amp; Phase 12 Vorbereitung<a class="headerlink" href="#2026-02-134-phase-11-abschluss-phase-12-vorbereitung" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_25">Hinzugefügt<a class="headerlink" href="#hinzugefugt_25" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Phase 12 Planung:</strong> Detaillierte Recherche der Boten 176-180 (Bestie von Brandenstein, Troll-Krieg, Spinnenplage, Mord an Palanthas).</li>
+<li><code>implementation_plan.md</code>: Update mit granularer Task-Liste für Phase 12.</li>
+</ul>
+<h3 id="geandert_24">Geändert<a class="headerlink" href="#geandert_24" title="Permanent link">&para;</a></h3>
+<ul>
+<li>[x] <strong>Phase 12 (Boten 17-180):</strong> Integrated 5 issues.<ul>
+<li>Standardized Boten 176-180.</li>
+<li>Updated <code>Personenregister.md</code> (Palanthas †, Aurora, Delarie, Merthes).</li>
+<li>Updated <code>Zeitleiste_(15-30_n.H.).md</code> (21 n.H. filled).</li>
+<li>Updated <code>INVENTUR_QUELLEN.md</code>.</li>
+</ul>
+</li>
+<li>[x] <strong>Phase 11 (Boten 171-175):</strong> Complete.</li>
+<li><strong>Inventur:</strong> Boten 171-175 erfolgreich von <code>Pending</code> auf <code>Integrated</code> gesetzt.</li>
+</ul>
+<h3 id="ergebnisse_3">Ergebnisse<a class="headerlink" href="#ergebnisse_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Das Fundament für die Integration der Boten 176-180 ist gelegt.</li>
+<li>Kritische Ereignisse (Rücktritt Noalim, Tod Falk, Mord Palanthas) sind identifiziert und vorbereitet.</li>
+</ul>
+<h2 id="2026-02-133-wiki-statistiken-dokumentations-audit">[2026-02-13.3] - Wiki-Statistiken &amp; Dokumentations-Audit<a class="headerlink" href="#2026-02-133-wiki-statistiken-dokumentations-audit" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_26">Hinzugefügt<a class="headerlink" href="#hinzugefugt_26" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>.agent/scripts/generate_wiki_stats.py</code>: Automatisiertes Statistik-Dashboard (Ingestion, Lore-Dichte, Epistemik, Link-Hubs, Temporal-Density).</li>
+<li><code>Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md</code>: Visualisierte KPIs mit Mermaid-Charts.</li>
+<li><code>.agent/workflows/stats.md</code>: Neuer Workflow <code>/stats</code> zur Dashboard-Generierung.</li>
+<li><code>docs/</code>: Symlink-Verzeichnis für MkDocs-Kompatibilität (Symlinks zu Wiki, README, CHANGELOG, MASTER_TASK_LIST).</li>
+</ul>
+<h3 id="geandert_25">Geändert<a class="headerlink" href="#geandert_25" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>README.md (Komplett-Rewrite):</strong> Alle 8 Skills, 14 Workflows und 8 Scripts vollständig dokumentiert.</li>
+<li><strong>mkdocs.yml:</strong> Mermaid-Support (custom_fences), fehlende Nav-Einträge (Erzählungen, Wiki Statistiken), <code>docs_dir</code>/<code>site_dir</code> korrekt gesetzt.</li>
+<li><strong>Workflow-Integration:</strong> <code>/stats</code> als Pflichtschritt in <code>/audit</code> (§7) und <code>/handover</code> (§6.3) integriert.</li>
+<li><strong>.gitignore:</strong> <code>site/</code> hinzugefügt.</li>
+</ul>
+<h3 id="ergebnisse_4">Ergebnisse<a class="headerlink" href="#ergebnisse_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>666 Artikel</strong>, <strong>349 Persönlichkeiten</strong>, <strong>~98k Wörter</strong>, <strong>72 Links/1k Wörter</strong> (Vernetzungsgrad).</li>
+<li>MkDocs-Build erfolgreich (3.99s, keine Errors).</li>
+</ul>
+<h2 id="2026-02-132-phase-14-spielergeschichten-re-scan-fortsetzung-der-ingestion-batches-9-register-sync-der-extrahierten-entitaten">[2026-02-13.2] - [ ] <strong>Phase 14: Spielergeschichten Re-Scan</strong> – Fortsetzung der Ingestion (Batches 9+), Register-Sync der extrahierten Entitäten.<a class="headerlink" href="#2026-02-132-phase-14-spielergeschichten-re-scan-fortsetzung-der-ingestion-batches-9-register-sync-der-extrahierten-entitaten" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[x] Laufende Register-Synchronisation (Personen, Organisationen, Bestiarium)</li>
+</ul>
+<h2 id="prioritat-3-qualitat-politur">🔴 Priorität 3: Qualität &amp; Politur<a class="headerlink" href="#prioritat-3-qualitat-politur" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[x] <strong>Orphan-Resolution:</strong> 25 verwaiste Profile bearbeitet (Duplikate gelöscht, Register ergänzt)</li>
+<li>[x] Review wichtiger Stubs auf "Roman-Qualität" (Ionas, Maichellis Wanderstern)</li>
+<li>[ ] Überprüfung der bi-direktionalen Verlinkung (Backlinks unter <code>## Überlieferungen</code>)</li>
+<li>[x] <strong>Epistemik-System:</strong> Formale Trust-Hierarchy und Eskalationsmatrix implementiert.</li>
+<li>[x] Bereinigung des [[Konsistenzbericht_2026.md]] (Status <code>⚠️ Offen</code> in Audit-Prozess überführt)</li>
+</ul>
+<h2 id="prioritat-3b-intelligente-wissensvernetzung-phase-3">🧠 Priorität 3b: Intelligente Wissensvernetzung (Phase 3)<a class="headerlink" href="#prioritat-3b-intelligente-wissensvernetzung-phase-3" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[/] <strong>Das Orakel</strong> – RAG-System (Semantische Vektorsuche)</li>
+<li>[x] Architektur &amp; Modellauswahl (jina-embeddings-v3 + bge-reranker-v2-m3)</li>
+<li>[x] Setup, Indexierung &amp; Verifikation (Auto-Config via <code>benchmark_hardware.py</code>)</li>
+<li>[x] Historiker-Workflow (Deep Lore Review: Benedict Rabenfels abgeschlossen)</li>
+<li>[x] Register-Audit &amp; Cleanup (Manuelle Bereinigung und Duplikat-Entfernung Feb 2026)</li>
+<li>[x] <strong>Audit der Magieschulen</strong> (Kanon-Bereinigung &amp; Erstellung fehlender Institutionen)</li>
+</ul>
+<h2 id="future-backlog-ideenspeicher">🔮 Future / Backlog (Ideenspeicher)<a class="headerlink" href="#future-backlog-ideenspeicher" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[ ] <strong>Skill: „Der Kartograph“</strong> – Geographische Datenverwaltung, Koordinaten-Sync, Reisezeiten-Berechnung.</li>
+<li>[ ] <strong>Skill: „Der Herold“</strong> – Automatische Generierung von In-Game-Newslettern aus Wiki-Änderungen.</li>
+<li>[ ] <strong>Workflow: <code>/map_sync</code></strong> – Verknüpfung von Wiki-Orten mit der Weltkarte.</li>
+<li>[ ] <strong>Workflow: <code>/changelog_generate</code></strong> – Erstellung von "Was ist neu in der Welt"-Berichten.</li>
+<li>[ ] <strong>Workflow: <code>/cleanup</code></strong> – Automatisches Finden und Bereinigen von file-URLs in Wiki-Artikeln.</li>
+</ul>
+<hr />
+<p><em>Zuletzt aktualisiert: 13.02.2026 durch Antigravity (Epistemics &amp; Ingestion)</em></p>
+<h2 id="2026-02-132-audit-der-magieschulen-kanon-hartung">[2026-02-13.2] - Audit der Magieschulen (Kanon-Härtung)<a class="headerlink" href="#2026-02-132-audit-der-magieschulen-kanon-hartung" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_27">Hinzugefügt<a class="headerlink" href="#hinzugefugt_27" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Kanonische Institutionen</strong>: <ul>
+<li><code>Königliche Akademie der arkanen Künste</code> (Zentrales Element).</li>
+<li><code>Magierturm zu Tiefenbach</code> (Historisch/Zerstört).</li>
+<li><code>Akademie der Schwarzen Künste</code> (Historisch/Verboten).</li>
+</ul>
+</li>
+</ul>
+<h3 id="geandert_26">Geändert<a class="headerlink" href="#geandert_26" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Kanon-Bereinigung</strong>: <ul>
+<li>Entfernung der nicht-kanonischen "Akademie des Grünen Zweiges" aus <code>Region_Tiefenwald.md</code>.</li>
+<li>Entfernung der nicht-kanonischen "Akademie in den Grauen Höhlen" aus <code>Region_Kadamark.md</code>.</li>
+<li>Korrektur der Verlinkungen in <code>Graue_Garde.md</code> auf die offizielle Königliche Akademie.</li>
+</ul>
+</li>
+<li><strong>Register-Update</strong>: Vollständige Integration der neuen Akademien in <code>Organisationsregister.md</code> und <code>registry.jsonl</code>.</li>
+</ul>
+<h3 id="ergebnisse_5">Ergebnisse<a class="headerlink" href="#ergebnisse_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Erfolgreiche Eliminierung von "Fanon"-Elementen (Halluzinationen), die sich in die Regionsbeschreibungen eingeschlichen hatten.</li>
+</ul>
+<h3 id="batch-24-astraels-legacy-ii-2026-02-14">[Batch 24] - Astrael's Legacy (II) - 2026-02-14<a class="headerlink" href="#batch-24-astraels-legacy-ii-2026-02-14" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Dateien</strong>: 19 historische &amp; theologische Schriften der Bibliothek Astrael integriert.</li>
+<li><strong>Highlights</strong>: Stadtchronik Rohehafens, Myten-Bericht, Matrixtheorie von Derrvus, Ritus der Exercitio.</li>
+<li><strong>Register</strong>: 12+ neue Entitäten synchronisiert (Derrvus, Anais, Aelwin, etc.).</li>
+</ul>
+<h3 id="batch-23-astraels-erbe-i-2026-02-14">[Batch 23] - Astrael's Erbe (I) - 2026-02-14<a class="headerlink" href="#batch-23-astraels-erbe-i-2026-02-14" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Ingestion:</strong> Verarbeitung von 5 Spielergeschichten (Batch 19).</li>
+<li><strong>Entitäten:</strong> Erstellung von 12+ neuen Personenprofilen und 3 Organisationen.</li>
+<li><strong>Lore:</strong> Dokumentation der Argionemes-Verschwörung und der Schwarzen Legion.</li>
+<li><strong>Wartung:</strong> Konsolidierung von Dubletten und Update des Personenregisters.</li>
+<li>Klare Trennung zwischen aktiven (Königliche Akademie) und historischen (Tiefenbach, Schwarze Künste) Magieschulen hergestellt.</li>
+</ul>
+<h3 id="phase-14-2026-02-13">[Phase 14] - 2026-02-13<a class="headerlink" href="#phase-14-2026-02-13" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Ingestion:</strong> Verarbeitung von 5 Spielergeschichten (Batch 19).</li>
+<li><strong>Entitäten:</strong> Erstellung von 12+ neuen Personenprofilen und 3 Organisationen.</li>
+<li><strong>Lore:</strong> Dokumentation der Argionemes-Verschwörung und der Schwarzen Legion.</li>
+<li><strong>Wartung:</strong> Konsolidierung von Dubletten und Update des Personenregisters.</li>
+<li>Klare Trennung zwischen aktiven (Königliche Akademie) und historischen (Tiefenbach, Schwarze Künste) Magieschulen hergestellt.</li>
+</ul>
+<h2 id="2026-02-131-historiker-review-register-cleanup">[2026-02-13.1] - Historiker-Review &amp; Register-Cleanup<a class="headerlink" href="#2026-02-131-historiker-review-register-cleanup" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_28">Hinzugefügt<a class="headerlink" href="#hinzugefugt_28" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>Logs/Historiker_Bericht_Rabenfels_2026.md</code>: Detaillierter Bericht über Benedict Rabenfels und die Führungskrise des Löwenordens.</li>
+</ul>
+<h3 id="geandert_27">Geändert<a class="headerlink" href="#geandert_27" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Metadaten-Härtung</strong>: <ul>
+<li>Einführung von ISO-8601 Zeitstempeln <strong>mit Uhrzeit</strong> für alle Metadaten (<code>letzter_check</code>).</li>
+<li>Neue performante JSONL-Registry (<code>registry.jsonl</code>) zur Dokumentenverfolgung.</li>
+<li>Standardisierung aller Boten (133-140) mit permanenten UUIDs.</li>
+</ul>
+</li>
+<li><strong>Register-Cleanup</strong>: <ul>
+<li>Zusammenführung von Duplikaten (Steiner, Bitterling, Eisenbruch, Arman, Delarie, Caeden, Wendolyn, Horan Erandel).</li>
+<li>Konsolidierung von Karrieredaten (z.B. Fedral Lavid, Benion Sandelholz).</li>
+<li>Bereinigung von Dateisystem-Dubletten (<code>Woran_Lebensmüh.md</code>).</li>
+</ul>
+</li>
+<li><strong>Lore-Konsistenz</strong>:<ul>
+<li>Dokumentation der Diskrepanz zwischen Bote 172 (Tibur/Avistur als Halbgeschwister) und Wiki (als Onkel/Nichte).</li>
+</ul>
+</li>
+</ul>
+<h3 id="ergebnisse_6">Ergebnisse<a class="headerlink" href="#ergebnisse_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Das Profil von Benedict Rabenfels wurde dekomponiert, die Erkenntnisse aber im Historiker-Bericht gesichert.</li>
+<li>Die Register-Synchronität wurde durch die Konsolidierung von Mehrfacheinträgen signifikant verbessert.</li>
+</ul>
+<h2 id="2026-02-125-konsistenz-offensive-workflow-hartung">[2026-02-12.5] - Konsistenz-Offensive &amp; Workflow-Härtung<a class="headerlink" href="#2026-02-125-konsistenz-offensive-workflow-hartung" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_29">Hinzugefügt<a class="headerlink" href="#hinzugefugt_29" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>.agent/scripts/register_check.py</code>: Automatisiertes Audit-Tool (findet Duplikate, Orphans, Boten-Lücken, Index-Lücken).</li>
+<li><code>Logs/Audit_Report_2026-02-12.md</code>: Detaillierter Bestandsbericht der Register-Integrität.</li>
+</ul>
+<h3 id="geandert_28">Geändert<a class="headerlink" href="#geandert_28" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Workflow-Härtung (<code>rvw_loop</code> &amp; <code>wiki_schmied</code>)</strong>:<ul>
+<li><strong>Pre-Write Validation:</strong> Pflicht-Check auf Duplikate vor Erstellung.</li>
+<li><strong>Post-Write Sync:</strong> Automatische Index-Aktualisierung (Chronik &amp; Register).</li>
+<li><strong>Relative Pfade:</strong> <code>quelle:</code>-Feld im Frontmatter erlaubt nur noch relative Pfade.</li>
+<li><strong>Referenzen:</strong> Neue Pflicht-Sektion <code>## Referenzen</code> mit akademischer Zitierweise.</li>
+</ul>
+</li>
+<li><strong>Audit-Prozess</strong>:<ul>
+<li>ISO-8601 Zeitstempel-Pflicht für alle Berichte.</li>
+<li>Neue "Orphan-Resolution" Phase für verwaiste Profile.</li>
+</ul>
+</li>
+</ul>
+<h3 id="ergebnisse_7">Ergebnisse<a class="headerlink" href="#ergebnisse_7" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Audit identifizierte 9 echte Personenduplikate, 22 Orphans, 10 fehlende Boten (Quellen existieren) und 15 Index-Lücken.</li>
+<li>"Orts-Stubs" Issue (Brandenstein, Falkensee, Greifenklipp) final gelöst.</li>
+</ul>
+<h2 id="2026-02-124-das-orakel-rag-system">[2026-02-12.4] - Das Orakel (RAG-System)<a class="headerlink" href="#2026-02-124-das-orakel-rag-system" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_30">Hinzugefügt<a class="headerlink" href="#hinzugefugt_30" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>.agent/skills/oracle/SKILL.md</code>: Skill-Definition für semantische Vektorsuche.</li>
+<li><code>.agent/skills/oracle/build_index.py</code>: Indexierungsskript mit Semantic-Aware Chunking, Auto-Tagging, zwei getrennten Collections.</li>
+<li><code>.agent/skills/oracle/search.py</code>: Suchskript mit Zwei-Stufen-Pipeline (Embedding + Re-Ranking).</li>
+<li>
+<p><code>.agent/skills/oracle/setup.sh</code>: Einrichtungs-Skript (venv, Dependencies, Modell-Download).</p>
+</li>
+<li>
+<p><strong>Hardware-Optimierung:</strong> <code>benchmark_hardware.py</code> (Auto-Tuner) für Jina v3 auf Apple Silicon.</p>
+</li>
+<li><strong>Learnings:</strong> Jina v3 (8192 Context) nutzt Flash Attention, was auf MPS bei langen Texten (&gt;2000 Chars) zu massivem Memory-Swapping führt. </li>
+<li><strong>Lösung:</strong> Batch-Size drastisch reduzieren (32 -&gt; 2) für stabilen Betrieb auf 16GB RAM.</li>
+<li><strong>Embedding:</strong> <code>jinaai/jina-embeddings-v3</code> (570M Params, 8192 Token Kontext, LoRA-Adapter)</li>
+<li><strong>Re-Ranker:</strong> <code>BAAI/bge-reranker-v2-m3</code> (568M Params, Cross-Encoder)</li>
+<li><strong>Chunking:</strong> 2500 Zeichen, 300 Overlap, Paragraph-/Satz-aware Splitting</li>
+</ul>
+<h2 id="2026-02-123-github-interaktivitat-automatisierung">[2026-02-12.3] - GitHub-Interaktivität &amp; Automatisierung<a class="headerlink" href="#2026-02-123-github-interaktivitat-automatisierung" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_31">Hinzugefügt<a class="headerlink" href="#hinzugefugt_31" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>.github/workflows/deploy.yml</code>: Automatische Konvertierung und Deployment nach GitHub Pages.</li>
+<li><code>mkdocs.yml</code>: Konfiguration für das professionelle Wiki-Layout (MkDocs Material).</li>
+<li><code>.github/ISSUE_TEMPLATE/lore_conflict.yml</code>: Strukturierte Lore-Tickets für Nutzer.</li>
+<li><code>.agent/workflows/contrib_audit.md</code>: Neuer Prozess für die Prüfung von Community-Beiträgen (PRs).</li>
+</ul>
+<h2 id="2026-02-122-projekt-reorganisation-cleanup">[2026-02-12.2] - Projekt-Reorganisation &amp; Cleanup<a class="headerlink" href="#2026-02-122-projekt-reorganisation-cleanup" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_32">Hinzugefügt<a class="headerlink" href="#hinzugefugt_32" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Strukturierte Unterverzeichnisse: <code>.agent/prompts/</code>, <code>.agent/scripts/</code>, <code>.agent/docs/</code>, <code>Logs/Archive/</code>.</li>
+</ul>
+<h3 id="geandert_29">Geändert<a class="headerlink" href="#geandert_29" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Projekt-Struktur</strong>: Alle Management-Dateien, Prompts und Skripte wurden aus dem Root-Verzeichnis in logische Unterordner verschoben.</li>
+<li><strong>Referenz-Update</strong>: Alle internen Pfade in README, Workflows, Master-Prompts und Skripten wurden an die neue Struktur angepasst.</li>
+<li><strong>Cleanup</strong>: Temporäre Extraktionslogs und alte Zips wurden nach <code>Logs/Archive/</code> verschoben.</li>
+</ul>
+<h2 id="2026-02-121-infrastruktur-update-massen-integration">[2026-02-12.1] - Infrastruktur-Update &amp; Massen-Integration<a class="headerlink" href="#2026-02-121-infrastruktur-update-massen-integration" title="Permanent link">&para;</a></h2>
+<h3 id="hinzugefugt_33">Hinzugefügt<a class="headerlink" href="#hinzugefugt_33" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>source_integrator.py</code>: Skript zur Integration hochwertiger Markdown-Quellen und Archivierung von Originalen.</li>
+<li><code>reference_fixer.py</code>: Skript zur Korrektur interner Wiki-Links von <code>.html</code> zu <code>.md</code>.</li>
+<li><code>MASTER_TASK_LIST.md</code>: Globales Aufgabenverzeichnis für Agenten.</li>
+<li><code>CHANGELOG.md</code>: Dieses Dokument.</li>
+</ul>
+<h3 id="geandert_30">Geändert<a class="headerlink" href="#geandert_30" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Wahrheitshierarchie (Korrektur)</strong>: Der lokale Kanon (<code>/Hintergrund</code>) ist nun die absolute Letztinstanz. Das Live-Web dient der Verifikation und Ergänzung. Die neue Eskalation lautet: Kanon &gt; Lokale Quelle &gt; Homepage &gt; User.</li>
+</ul>
+<h3 id="integriert">Integriert<a class="headerlink" href="#integriert" title="Permanent link">&para;</a></h3>
+<ul>
+<li>254 Markdown-Quellen erfolgreich ins Wiki-System integriert.</li>
+<li><code>Brevier der Kirche der Viere.md</code> als neue Quelle identifiziert und verarbeitet.</li>
+</ul>
+<hr />
+<p><em>Archivar: Antigravity</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2026 Siebenwind Gemeinschaft | CC BY-NC-SA 4.0
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.edit", "content.action.view"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
