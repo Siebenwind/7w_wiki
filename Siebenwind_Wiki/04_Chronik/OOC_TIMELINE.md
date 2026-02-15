@@ -15,9 +15,9 @@ Diese Chronik fuehrt technische und organisatorische OOC-Entwicklungen aus News 
 
 ## Archivstand
 
-- Homepage-News erfasst: **222**
+- Homepage-News erfasst: **224**
 - News-OOC-Highlights (Patch/Tech/Team): **32**
-- Forum-OOC-Highlights (indexbasiert): **272**
+- Forum-OOC-Highlights (indexbasiert): **271**
 - Quellen: [[Quellen/News]], [[Quellen/Forum/Bekanntmachungen]], [[Quellen/Forum/Newsticker]]
 
 ## News 2024
@@ -146,7 +146,6 @@ Die Forenquellen wurden ueber die offiziellen Unterforen **Bekanntmachungen (f=6
 
 | Datum | Ereignis | Typ | Forum | Quelle |
 |---|---|---|---|---|
-| 09.12.2025 | Patch auf Wintermap | Patch | Bekanntmachungen | [[Quellen/Forum/Bekanntmachungen/2025-12-09_Patch_auf_Wintermap|Patch auf Wintermap]] |
 | 09.12.2025 | Patch auf Wintermap | Patch | Bekanntmachungen | [[Quellen/Forum/Bekanntmachungen/2025-12-09_Patch_auf_Wintermap|Patch auf Wintermap]] |
 | 28.05.2024 | Scriptupdate | Patch | Bekanntmachungen | [[Quellen/Forum/Bekanntmachungen/2024-05-28_Scriptupdate|Scriptupdate]] |
 | 14.03.2024 | Mitstreiter gesucht | Team-News | Bekanntmachungen | [[Quellen/Forum/Bekanntmachungen/2024-03-14_Mitstreiter_gesucht|Mitstreiter gesucht]] |
