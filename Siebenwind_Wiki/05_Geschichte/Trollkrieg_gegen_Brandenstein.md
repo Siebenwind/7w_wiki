@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Trollkrieg gegen Brandenstein
-category: Geschichte
+title: Trollkrieg gegen [[Brandenstein]]
+category: [[index]]
 ---
 
-# Trollkrieg gegen Brandenstein
+# Trollkrieg gegen [[Brandenstein]]
 
 **Epistemischer Status:** #bote
 **Datum:** 21 n.H. (Bote 177)
@@ -12,7 +12,7 @@ category: Geschichte
 **Beteiligte:** [[Malthust]], [[Trolle]], [[Goblins]]
 
 ## Verlauf
-Im Jahr 21 n.H. kam es zu einem massiven Angriff von Trollen und Goblins aus dem [[Oedland]] auf [[Brandenstein]]. Die Angreifer drangen über den Orkenpass vor und bedrohten die Stadt.
+Im Jahr 21 n.H. kam es zu einem massiven Angriff von Trollen und [[Goblins]] aus dem [[Oedland]] auf [[Brandenstein]]. Die Angreifer drangen über den Orkenpass vor und bedrohten die Stadt.
 
 ## Ausgang
 Der Konflikt konnte durch die Kapitulation von Leutnant [[Erin_Caiomme]] beendet werden.

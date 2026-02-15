@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Die Eisernen Tafeln"
-category: Pantheon
+category: [[index]]
 status: Integrated
-quelle: "Bibliothek Astrael"
+quelle: "[[index]] [[Astrael]]"
 ---
 
 # Die Eisernen Tafeln
@@ -101,4 +101,4 @@ Wer Augen hat zu lesen, der lese. Denn dies sind die Worte der Weisen, wie sie g
 **TAFELN DER ASCHE**  
 **SCHREIBEN**
 
-*Brandenstein, 12 n.H.*
+*[[Brandenstein]], 12 n.H.*

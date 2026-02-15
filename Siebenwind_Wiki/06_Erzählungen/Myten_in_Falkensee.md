@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Die Myten in Falkensee
+title: Die [[Myten]] in [[Falkensee]]
 category: Erzählung
 ---
 

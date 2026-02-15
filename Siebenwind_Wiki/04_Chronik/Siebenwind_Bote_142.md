@@ -1,16 +1,16 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 142
-category: Chronik
+title: [[Siebenwind]] Bote 142
+category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 142
 
 **Epistemischer Status:** #bote
 
-## Bibliothek von [[Yota]] eröffnet
+## [[index]] von [[Yota]] eröffnet
 **Location:** [[Yota]].
-**Inhalt:** In [[Yota]] wurde eine neue Bibliothek eröffnet. Die Universität in [[Sae]] reagierte mit Spott und sieht [[Yota]] nicht als ernsthafte Konkurrenz.
+**Inhalt:** In [[Yota]] wurde eine neue [[index]] eröffnet. Die Universität in [[Sae]] reagierte mit Spott und sieht [[Yota]] nicht als ernsthafte Konkurrenz.
 **Autor:** *S.*
 
 ## Wiederaufbau in [[Endophal]]

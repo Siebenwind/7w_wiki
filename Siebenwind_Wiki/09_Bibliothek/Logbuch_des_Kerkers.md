@@ -1,8 +1,8 @@
 ---
 layout: wiki_page
 title: Logbuch des Kerkers
-category: Bibliothek
-tags: [Erzählung, Dunkeltief, Falkensee, Untote, Waldemar Delarie]
+category: [[index]]
+tags: [Erzählung, [[Dunkeltief]], [[Falkensee]], [[Untote]], [[Waldemar_Delarie]]]
 status: #perspektive
 ---
 
@@ -15,7 +15,7 @@ Das **"Logbuch des Kerkers"** dokumentiert die Erlebnisse des damaligen Gardehau
 ## Inhalt
 
 ### Die Besetzung
-Der Bericht beginnt am "7. Oner - Beginn des 7. Dunkelzyklus". Waldemar erwacht in einer Herberge und stellt fest, dass Falkensee von Untoten ("Skelette") und Söldnern (Orks, eine Frau in roter Robe) besetzt ist. Er wird beim Versuch, die Stadt zu verlassen, festgenommen, da er gegen das "Gesetz des Knochenfürsten" verstoße.
+Der Bericht beginnt am "7. Oner - Beginn des 7. Dunkelzyklus". Waldemar erwacht in einer Herberge und stellt fest, dass [[Falkensee]] von Untoten ("Skelette") und Söldnern (Orks, eine Frau in roter Robe) besetzt ist. Er wird beim Versuch, die Stadt zu verlassen, festgenommen, da er gegen das "Gesetz des Knochenfürsten" verstoße.
 
 ### Gefangenschaft und Folter
 Waldemar wird auf dem Marktplatz an den Pranger gestellt. Er trifft auf seinen Stellvertreter **[[Hektor]]**, den er als Diener der Ketzer wahrnimmt (oder missversteht?). Später erscheint der **Knochenfürst** persönlich. Waldemar leistet Widerstand durch Gebete an die [[Viere]], wird jedoch gefoltert (der Mund wird ihm zugenäht). 
@@ -25,7 +25,7 @@ Zusammen mit anderen Gefangenen, darunter der Gardist **[[Gorem]]**, wird Waldem
 
 ## Relevante Entitäten
 
-### Personen
+### [[index]]
 *   **[[Waldemar_Delarie]]**: Autor und Protagonist.
 *   **[[Knochenfürst]]**: Anführer der Untoten Besatzungsmacht.
 *   **[[Hektor]]**: Waldemars Stellvertreter, dessen Loyalität in dieser Phase ambivalent erscheint.

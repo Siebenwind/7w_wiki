@@ -17,7 +17,7 @@ Im Jahr 18 n.H. erschütterte eine Reihe von grausamen Morden das kleine Dorf Bo
 In der Folge kam es zu einer Welle von Hysterie und Verfolgungen. Zumeist rothaarige Frauen gerieten unter Verdacht. In Borast und der nahegelegenen Stadt Ventria wurden Frauen in Holzkäfige gesperrt, öffentlich geschmäht und zum Teil schwer bestraft. Erste Verbrennungen von "überführten" Hexen wurden gemeldet.
 
 ## Gesellschaftliche Folgen
-Die Ereignisse markierten ein Klima des Misstrauens und der Angst. Während die Kirche der [[Viere]] zur Besonnenheit mahnte, forderten Teile des Volkes ein hartes Durchgreifen gegen jegliche Form von Magie, die nicht unter der Kontrolle der Akademie stand. Auch der Fluch des Ritters [[Hadrian]] trug indirekt zum negativen Image der Zauberei in dieser Zeit bei.
+Die Ereignisse markierten ein Klima des Misstrauens und der Angst. Während die Kirche der [[Viere]] zur Besonnenheit mahnte, forderten Teile des Volkes ein hartes Durchgreifen gegen jegliche Form von [[index]], die nicht unter der Kontrolle der Akademie stand. Auch der Fluch des Ritters [[Hadrian]] trug indirekt zum negativen Image der Zauberei in dieser Zeit bei.
 
 ---
 **Siehe auch:** [[Geschichte]], [[Religion_Übersicht]]

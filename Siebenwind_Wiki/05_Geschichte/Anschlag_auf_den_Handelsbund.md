@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Anschlag auf den Handelsbund und Auflösung
-category: Geschichte
+category: [[index]]
 ---
 
 # Anschlag auf den Handelsbund und Auflösung
@@ -11,7 +11,7 @@ category: Geschichte
 **Ort:** Handelsbundhaus, [[Brandenstein]]
 
 ## Verlauf
-Am 16. Sekar 15 n.H. betrat ein unbekannter Mann das Haus des [[Handelsbund|Handelsbundes]], griff zu einer versteckten Armbrust und erschoss den langjährigen Wachmann **Brandeis** mit einem Glasbolzen. In der Folge verschwand auch [[Woran_Lebensmueh]], der stellvertretende Kastellan.
+Am 16. Sekar 15 n.H. betrat ein unbekannter Mann das Haus des [[Handelsbund|Handelsbundes]], griff zu einer versteckten Armbrust und erschoss den langjährigen Wachmann **[[Brandeis]]** mit einem Glasbolzen. In der Folge verschwand auch [[Woran_Lebensmueh]], der stellvertretende Kastellan.
 Der Handelsbund wurde aufgelöst. Das Gebäude ging an die [[Brandensteiner_Zunft]] über (Bote 129).
 
 ## Chronologie des Handelsbundes

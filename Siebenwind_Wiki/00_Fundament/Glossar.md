@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Glossar
-category: Fundament
+category: [[index]]
 ---
 
 # Glossar
@@ -55,7 +55,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Bund | [DEFINITION_BENÖTIGT] | #canon |
 | Charakter | [DEFINITION_BENÖTIGT] | #canon |
 | Chronicler | [DEFINITION_BENÖTIGT] | #canon |
-| Chronik | [DEFINITION_BENÖTIGT] | #canon |
+| [[index]] | [DEFINITION_BENÖTIGT] | #canon |
 | [[Custodias]] | [DEFINITION_BENÖTIGT] | #canon |
 | Delarie | [DEFINITION_BENÖTIGT] | #canon |
 | Delaries | [DEFINITION_BENÖTIGT] | #canon |
@@ -111,7 +111,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Fluss | [DEFINITION_BENÖTIGT] | #canon |
 | Fraomar | [DEFINITION_BENÖTIGT] | #canon |
 | Fruchtbarkeit | [DEFINITION_BENÖTIGT] | #canon |
-| Fundament | [DEFINITION_BENÖTIGT] | #canon |
+| [[index]] | [DEFINITION_BENÖTIGT] | #canon |
 | Führer | [DEFINITION_BENÖTIGT] | #canon |
 | Führung | [DEFINITION_BENÖTIGT] | #canon |
 | Fürsten | [DEFINITION_BENÖTIGT] | #canon |
@@ -120,7 +120,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Galamnor | [DEFINITION_BENÖTIGT] | #canon |
 | Garde | [DEFINITION_BENÖTIGT] | #canon |
 | Gefangenschaft | [DEFINITION_BENÖTIGT] | #canon |
-| Geist | [DEFINITION_BENÖTIGT] | #canon |
+| [[Geist]] | [DEFINITION_BENÖTIGT] | #canon |
 | Gerdenwald | [DEFINITION_BENÖTIGT] | #canon |
 | Gericht | [DEFINITION_BENÖTIGT] | #canon |
 | Gesetz | [DEFINITION_BENÖTIGT] | #canon |
@@ -212,7 +212,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Luft | [DEFINITION_BENÖTIGT] | #canon |
 | Löwenorden | [DEFINITION_BENÖTIGT] | #canon |
 | Macht | [DEFINITION_BENÖTIGT] | #canon |
-| Magie | [DEFINITION_BENÖTIGT] | #canon |
+| [[index]] | [DEFINITION_BENÖTIGT] | #canon |
 | Magier | [DEFINITION_BENÖTIGT] | #canon |
 | Malthust | [DEFINITION_BENÖTIGT] | #canon |
 | Marnie | [DEFINITION_BENÖTIGT] | #canon |
@@ -246,7 +246,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Quellen | [DEFINITION_BENÖTIGT] | #canon |
 | Rasse | [DEFINITION_BENÖTIGT] | #canon |
 | Ravel | [DEFINITION_BENÖTIGT] | #canon |
-| Recht | [DEFINITION_BENÖTIGT] | #canon |
+| [[index]] | [DEFINITION_BENÖTIGT] | #canon |
 | Rechts | [DEFINITION_BENÖTIGT] | #canon |
 | Region | [DEFINITION_BENÖTIGT] | #canon |
 | Regionen | [DEFINITION_BENÖTIGT] | #canon |
@@ -266,7 +266,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Saalhorn | [DEFINITION_BENÖTIGT] | #canon |
 | [[Safiriel]] | [DEFINITION_BENÖTIGT] | #canon |
 | Sahor | [DEFINITION_BENÖTIGT] | #canon |
-| Sammler | [DEFINITION_BENÖTIGT] | #canon |
+| [[Sammler]] | [DEFINITION_BENÖTIGT] | #canon |
 | Savaro | [DEFINITION_BENÖTIGT] | #canon |
 | Schicksal | [DEFINITION_BENÖTIGT] | #canon |
 | Schiff | [DEFINITION_BENÖTIGT] | #canon |
@@ -303,7 +303,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Tion | [DEFINITION_BENÖTIGT] | #canon |
 | Titel | [DEFINITION_BENÖTIGT] | #canon |
 | Vandrien | [DEFINITION_BENÖTIGT] | #canon |
-| Vencurius | [DEFINITION_BENÖTIGT] | #canon |
+| [[Vencurius]] | [DEFINITION_BENÖTIGT] | #canon |
 | [[Ventus]] | [DEFINITION_BENÖTIGT] | #canon |
 | Verbindung | [DEFINITION_BENÖTIGT] | #canon |
 | Verehrung | [DEFINITION_BENÖTIGT] | #canon |
@@ -332,7 +332,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Winter | [DEFINITION_BENÖTIGT] | #canon |
 | Wirken | [DEFINITION_BENÖTIGT] | #canon |
 | Wirtschaft | [DEFINITION_BENÖTIGT] | #canon |
-| Wissen | [DEFINITION_BENÖTIGT] | #canon |
+| [[index]] | [DEFINITION_BENÖTIGT] | #canon |
 | Wissens | [DEFINITION_BENÖTIGT] | #canon |
 | Wächter | [DEFINITION_BENÖTIGT] | #canon |
 | Während | [DEFINITION_BENÖTIGT] | #canon |

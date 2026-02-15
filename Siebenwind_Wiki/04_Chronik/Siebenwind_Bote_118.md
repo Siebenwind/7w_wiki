@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 118
-category: Chronik
+title: [[Siebenwind]] Bote 118
+category: [[index]]
 ---
 
-# Siebenwind Bote 118
+# [[Siebenwind]] Bote 118
 
 **Epistemischer Status:** #bote
 **Datum:** Unbekannt (ca. 14 n.H.)
@@ -12,7 +12,7 @@ category: Chronik
 
 ## Hinweis
 
-Die Originalquelle für diese Ausgabe des Siebenwind Boten konnte im aktuellen Archivbestand nicht gefunden werden. Dieser Artikel dient als Platzhalter, um die Integrität historischer Verknüpfungen zu wahren.
+Die Originalquelle für diese Ausgabe des [[Siebenwind]] Boten konnte im aktuellen Archivbestand nicht gefunden werden. Dieser Artikel dient als Platzhalter, um die Integrität historischer Verknüpfungen zu wahren.
 
 ---
 **Quellen:** [[Siebenwind_Bote_118]] (Platzhalter)

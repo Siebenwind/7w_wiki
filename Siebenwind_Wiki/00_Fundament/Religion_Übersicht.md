@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Religion Übersicht
-category: Fundament
+category: [[index]]
 ---
 
 # Religion Übersicht
@@ -21,7 +21,7 @@ Die Hauptgötter der [[Menschen]] (besonders in Galadon). Sie stehen für die ge
 
 | Gott | Aspekt | Jahreszeit | Zugehöriger Mond |
 |------|--------|------------|------------------|
-| **[[Astrael]]** | Wissen, Magie, Recht | Sommer | Astreyon (Der weiße Mond) |
+| **[[Astrael]]** | [[index]], [[index]], [[index]] | Sommer | Astreyon (Der weiße Mond) |
 | **[[Bellum]]** | Ehre, Krieg, Gerechtigkeit, Handwerk | Herbst | - |
 | **[[Vitama]]** | Liebe, Fruchtbarkeit, Frieden, Kunst | Frühling | Vitamalin (Der rosa Mond) |
 | **[[Morsan]]** | Tod, Traum, Ruhe | Winter | - |
@@ -40,8 +40,8 @@ Geschwister der Viere, aber zuständig für die physischen Bausteine der Welt. S
 
 ## 5. Korrektur früherer Annahmen
 - **Falsch:** Annahme, dass Elementarherren untergeordnet sind.
-- **Korrekt:** Sie sind gleichberechtigte Geschwister (Große Götter/Sahor vs. Elementarherren/[[Enhor]]), haben aber andere Zuständigkeitsbereiche (Geist vs. Materie).
+- **Korrekt:** Sie sind gleichberechtigte Geschwister (Große Götter/Sahor vs. Elementarherren/[[Enhor]]), haben aber andere Zuständigkeitsbereiche ([[Geist]] vs. Materie).
 - **Falsch:** Standard "Gut vs. Böse" Dualismus.
 - **Korrekt:** Ein komplexeres Geflecht aus Ordnung (Viere), Elementargewalt ([[Enhor]]) und Zerstörung ([[Angamon]]), eingebettet in einen drachischen Schöpfungsmythos.
 
-Bitte bestätigen Sie, dass dieses Fundament nun korrekt ist, damit ich mit **Phase 2** beginnen kann.
+Bitte bestätigen Sie, dass dieses [[index]] nun korrekt ist, damit ich mit **Phase 2** beginnen kann.

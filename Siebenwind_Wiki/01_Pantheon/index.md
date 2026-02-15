@@ -4,7 +4,7 @@ title: Pantheon
 ---
 
 # [[Siebenwind]] Wiki - Pantheon
-Das Archiv der Pantheon.
+Das [[index]] der Pantheon.
 
 ## Inhalte
 
@@ -30,7 +30,7 @@ Das Archiv der Pantheon.
 *   [[Die_Goldenen_Tafeln|Die Goldenen Tafeln]]
 *   [[Die_Legende_von_Galahad_Ritter_der_Rosen|Die Legende von Galahad, Ritter der Rosen]]
 *   [[Die_Silbernen_Tafeln|Die Silbernen Tafeln]]
-*   [[Die_Werke_des_Barath_Or|Die Werke des Barath Or]]
+*   [[Die_Werke_des_Barath_Or|Die [[index]] des Barath Or]]
 *   [[Divinum_et_Elementum|Divinum et Elementum (Von der Substanz der Götter und der Elementarherren)]]
 *   [[Elementum_Commentari|Elementum et Gens Humanis (Kommentar zu Divinum et Elementum)]]
 *   [[Exercitium|Exercitium]]

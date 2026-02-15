@@ -1,24 +1,24 @@
 ---
 layout: wiki_page
 title: Personenregister
-category: Fundament
+category: [[index]]
 uuid: d173e080-a2dd-42ec-b616-f7f614fa9368
 ---
 # Personenregister
 
 **Epistemischer Status:** #canon
 
-Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten Personen und [[Persönlichkeiten]] der Welt [[Siebenwind]].
+Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten [[index]] und [[Persönlichkeiten]] der Welt [[Siebenwind]].
 
 ## Zentrale Personenliste
 
 | Name | Rolle / Titel | Erstes Auftreten (Quelle) | Aktivitätszeitraum | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | [[Aelwin]] | Inquisitor / Geweihter | [Heilige Liturgien] / [Bote 120] | Historisch / 15 n.H. | #überlieferung |
-| [[Arenus_der_Weise]] | Erzmagus / Philosoph / Autor | [Dunvallo Linari - Philosophie] / [Philosophie] | Historisch (ca. 70 b.H.) | #überlieferung |
+| [[Arenus_der_Weise]] | Erzmagus / Philosoph / Autor | [[[Dunvallo_Linari]] - Philosophie] / [Philosophie] | Historisch (ca. 70 b.H.) | #überlieferung |
 | [[Aren_Remouldo]] | Adeptus Major | [Horlafstrom-Theorie] | Historisch | #überlieferung |
-| [[Amanda_Dunkelbaum]] | Elementaristin (Novizin) | [Der Elementare Pfad] / [Eigenschaften_der_Elemente] | Historisch | #überlieferung |
-| [[Arknor]] | Adept zur Linken | [Sprache Yerredoni] | Historisch | #überlieferung |
+| [[Amanda_Dunkelbaum]] | Elementaristin (Novizin) | [Der [[Elementare]] Pfad] / [Eigenschaften_der_Elemente] | Historisch | #überlieferung |
+| [[Arknor]] | Adept zur Linken | [[[Sprache_Yerredoni]]] | Historisch | #überlieferung |
 | [[Arlin_Sturmfels]] | Initiator der Zusammenkunft | [Linari - Artefakte] | Historisch | #überlieferung |
 | [[Anais]] | Ihre Gnaden / Inquisitorin | [Heilige Liturgien] | Historisch | #überlieferung |
 | [[Aarion]] | Graf der Wolfsmark | [Vandriens Entstehung] | Historisch | #überlieferung |
@@ -27,15 +27,15 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Athos]] | Reichsritter (i.R.) / Sire | [Bote 140] / [Der letzte Falke] | Historisch / 16 n.H. | #überlieferung |
 | [[Azaris]] | Nekromant | [Legende von Galahad] | Legendär | #überlieferung |
 | [[Avaratio_Mischelgrimm]] | Alchemist / Autor | [Opus i de alchimiae] | Historisch | #überlieferung |
-| [[Barath_Or]] | Bresch / Großmeister (Astrael) | [Werke des Barath Or] | Historisch | #überlieferung |
-| [[Baron_Gerdenwald]] | Baron | [Stadtchronik Rohehafen] | Historisch | #überlieferung |
-| [[Baron_Morgenroith]] | Baron / Gesetzgeber | [Iuribus Siebenwind] | Historisch | #überlieferung |
+| [[Barath_Or]] | Bresch / Großmeister ([[Astrael]]) | [[[index]] des Barath Or] | Historisch | #überlieferung |
+| [[Baron_Gerdenwald]] | Baron | [Stadtchronik [[Rohehafen]]] | Historisch | #überlieferung |
+| [[Baron_Morgenroith]] | Baron / Gesetzgeber | [[[Iuribus_Siebenwind]]] | Historisch | #überlieferung |
 | [[Barnabas]] | Großmeister / Ritter | [Der letzte Falke] | Historisch | #überlieferung |
 | [[Aaron]] | Wegelagerer (frivol) / Ex-Anwärter (verhaftet) | [Bote 133/135] | 15-16 n.H. | #bote |
 | [[Cacama]] | Verbrecher / Ex-Malthuster (†) | [Bote 176] | † 21 n.H. | #bote |
 | [[Viktor_Menzer]] | Verbrecher / Ex-Malthuster (†) | [Bote 176] | † 21 n.H. | #bote |
 | [[Akassvae]] | Grüner Lindwurm | [Bote 191] | 30 n.H. | #bote |
-| [[Akora]] | Bürgerin (Falkensee) / Turmbesitzerin | [Nichts und ohne Pointe] | amtierend | #perspektive |
+| [[Akora]] | Bürgerin ([[Falkensee]]) / Turmbesitzerin | [[[Nichts_und_ohne_Pointe]]] | amtierend | #perspektive |
 | [[Amaris_Aurinas]] | Ritter / Sire / ehem. Knappe | [Bote 139/153] | 16-17 n.H. | #bote |
 | [[Anijane_Lavid]] | Lehenskämmerin / Finanzverwalterin (ehem. Salmoranes) | [Bote 128/139] | amtierend | #bote |
 | [[Abdolus_Nachengalle]] | Forscher / Mystiker | [[Draconis]] | 18 n.H. | #bote |
@@ -56,16 +56,16 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Armgard_Torenson]] | Kapitän / Entdecker | [Bote 137] | Legendär | #bote |
 | [[Arnim_Estragons]] | Stellv. Botenleitung / Lehensherr | [Bote 131] | ~15 n.H. | #bote |
 | [[Beladriel_Blaettertanz]] | Heerführerin ([[Seeberg]]) / Truchsess | [Bote 165/174] | 18-20 n.H. | #bote |
-| [[Benion_Sandelholz]] | Hochgeweihter (Vitama) / Gründer (Tränenorden) | [Bote 130/140/149] | ~15-17 n.H. | #bote |
+| [[Benion_Sandelholz]] | Hochgeweihter ([[Vitama]]) / Gründer (Tränenorden) | [Bote 130/140/149] | ~15-17 n.H. | #bote |
 | [[Biskulon]] | Bibliothekar / Bauleiter | [[Falkensee]] | 17 n.H. | #bote |
 | [[Brandeis]] | Wachmann (verstorben) | [Bote 130] | ~15 n.H. | #bote |
 | [[Brand_Windfluesterer]] | Hohepriester ([[01_Ventus|Ventus]]/[[01_Enhor|Enhor]]) (†) | [[Ecclesia_Elementorum]] / [Bote 181] | 19 n.H. - † 21 n.H. | #bote |
 | [[Caeden]] | Knappe | [Bote 139] | 16 n.H. | #bote |
 | [[Cylia_Rosenmond]] | Reporterin / Redaktion ([[Siebenwind_Bote]]) | [Bote 186] | 22 n.H. | #bote |
-| [[Calin_Drakar]] | Schattenjäger / Turniersieger | [Bote 133] | 16 n.H. | #bote |
+| [[Calin_Drakar]] | [[Schattenjaeger]] / Turniersieger | [Bote 133] | 16 n.H. | #bote |
 | [[Caiomme]] | Leutnant ([[03_Gesellschaft#Siebenwind_Kronregiment|Kronregiment]]) | [Bote 177] | 19 n.H. | #bote |
 | [[Dame_al_Javet]] | Magierin | [Bote 139] | 16 n.H. | #bote |
-| [[Adrienne_Valemis]] | Spektabilität / Magister (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
+| [[Adrienne_Valemis]] | Spektabilität / Magister ([[Toran_Dur]]) | [Linari - Reagenzien] | Historisch | #überlieferung |
 | [[Alma]] | Philosophin / Autorin | [Linari - Philosophie] | Historisch | #überlieferung |
 | [[Abdera]] | Philosoph / Autor | [Linari - Philosophie] | Historisch | #überlieferung |
 | [[Aschehorn]] | Roter Lindwurm | [Bote 193/194] | † 36 n.H. | #bote |
@@ -81,11 +81,11 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Elares_Valjean]] | Gesuchter / Aufrührer | [Bote 122] | 15 n.H. | #bote |
 | [[Elias_von_Rothschild]] | Adliger | [Kanon] | amtierend | #canon |
 | [[Emanuel]] | Paladin | [Kanon] | amtierend | #canon |
-| [[Enzo_Wendolyn]] | Tierpfleger (Circus Wendolyn) | [Bote 138] | 16 n.H. | #bote |
+| [[Enzo_Wendolyn]] | Tierpfleger ([[Circus_Wendolyn]]) | [Bote 138] | 16 n.H. | #bote |
 | [[Estriol_Karantes]] | Bürger (Opfer) | [Bote 135] | 16 n.H. | #bote |
 | [[Erzpriester_Vencurius]] | Klerus ([[Xan]]) | [Kanon] | amtierend | #canon |
-| [[Eleonore]] | Ehemalige Geliebte (Haldur Toda) | [L. eines Dichters] | 13-22 n.H. | #perspektive |
-| [[Erdur]] | Sohn von Haldur Toda | [L. eines Dichters] | Geboren ~13 n.H. | #perspektive |
+| [[Eleonore]] | Ehemalige Geliebte ([[Haldur_Toda]]) | [L. eines Dichters] | 13-22 n.H. | #perspektive |
+| [[Erdur]] | Sohn von [[Haldur_Toda]] | [L. eines Dichters] | Geboren ~13 n.H. | #perspektive |
 | [[Eret]] | Fleischer (Mainland) | [L. eines Dichters] | 22 n.H. | #perspektive |
 | [[Famir]] | Bürger / Gefreite | [[Falkensee]] | 15 n.H. | #bote |
 | [[Feanthil_(Arinth)]] | Krieger | [Kanon] | aktiv | #canon |
@@ -95,28 +95,28 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Fred]] | Schankknecht | [Bote 123] | ~15 n.H. | #bote |
 | [[Frederik_Hamsberg]] | Ritter ([[03_Gesellschaft#Löwenorden|Löwenorden]]) | [[02_Geografie#Falkenwall|Falkenwall]] / [Bote 161] | 18 n.H. | #bote |
 | [[Friedward_von_und_zu_Gerdenwald]] | Graf | [Kanon] | amtierend | #canon |
-| [[Gerelda_Wendolyn]] | Dompteurin (Circus Wendolyn) | [Bote 138] | 16 n.H. | #bote |
+| [[Gerelda_Wendolyn]] | Dompteurin ([[Circus_Wendolyn]]) | [Bote 138] | 16 n.H. | #bote |
 | [[G.K.]] | Autor | [Bote 134] | ~15 n.H. | #bote |
 | [[Gerion_Flammwurf]] | Magieranwärter | [Bote 133] | ~15 n.H. | #bote |
-| [[Gorem]] | Gardist / Gefangener | [Logbuch des Kerkers] | 21 n.H. | #perspektive |
+| [[Gorem]] | Gardist / Gefangener | [[[Logbuch_des_Kerkers]]] | 21 n.H. | #perspektive |
 | [[Lucius_Gropp]] | Inselpatrizier / Leutnant / Freiherr | [Bote 147/160/164] | 17-22 n.H. | #bote |
 | [[Gorn_Estrik]] | Hauptmann ([[Schattenjaeger]]) | [Bote 189] | 29 n.H. | #bote |
 | [[Linduc]] | Büttel ([[Rasse_Hobbits]]) | [Bote 189] | 29 n.H. | #bote |
 | [[Orgolosch]] | Dämon (Gegendomäne Erde) | [Bote 189] | 29 n.H. | #bote |
-| [[Gropp_Zwillinge]] | Solos Nadeeda Laylira & Hagen Siegfried Kaspar | [Bote 186] | Geboren 22 n.H. | #bote |
+| [[Gropp_Zwillinge]] | [[Gropp_Zwillinge]] | [Bote 186] | Geboren 22 n.H. | #bote |
 | [[Faesa_Farell]] | Gastronomin / Theaterbuffet | [Bote 186] | 22 n.H. | #bote |
 | [[Hadrian]] | Ritter (Löwenorden) | [Bote 167] | 18 n.H. | #bote |
-| [[Hevelius_Dunkelfeld]] | Bürger / Kultist / Magus | [Bote 180] / [Chronik] | † 21 n.H. / 30 n.H. (?) | #bote |
+| [[Hevelius_Dunkelfeld]] | Bürger / Kultist / Magus | [Bote 180] / [[[index]]] | † 21 n.H. / 30 n.H. (?) | #bote |
 | [[Hagen_Robaar]] | Graf / Lehnsherr / Großmeister ([[03_Gesellschaft#Löwenorden|Löwenorden]]) | [Bote 136/140/151/155/174] | bis 20 n.H. | #canon |
-| [[Todward_von_Saalhorn]] | Bruder v. Graf Robaar (Verschollen) | [Abschied und Verrat] | 20 n.H. | #perspektive |
-| [[Aelfrid_Wildgaden]] | Kastellan ([[Burg_Saalhorn]]) | [Abschied und Verrat] | 20 n.H. | #perspektive |
+| [[Todward_von_Saalhorn]] | Bruder v. Graf Robaar (Verschollen) | [[[Abschied_und_Verrat]]] | 20 n.H. | #perspektive |
+| [[Aelfrid_Wildgaden]] | Kastellan ([[Burg_Saalhorn]]) | [[[Abschied_und_Verrat]]] | 20 n.H. | #perspektive |
 | [[Harlas]] | Feldmeister | [Bote 143] | ~15 n.H. | #bote |
 | [[Harwarn_Gropp]] | Wirt ("Zur Roten Seeschlange") | [Bote 139] | ~16 n.H. | #bote |
-| [[Herbertus_Wendolyn]] | Zirkusdirektor (Circus Wendolyn) | [Bote 138] | 16 n.H. | #bote |
+| [[Herbertus_Wendolyn]] | Zirkusdirektor ([[Circus_Wendolyn]]) | [Bote 138] | 16 n.H. | #bote |
 | [[Horan_Erandel]] | Anwärter Kriegerakademie / Rekrut | [Bote 133/139] | ~15-16 n.H. | #bote |
 | [[Geduldiger_Sand]] | Echsen-Erdrufer | [Bote 193] | 30 n.H. | #bote |
-| [[Geist]] | Herr Geist / Assassine | [Bote 194] | 36 n.H. | #bote |
-| [[Isolde_Wendolyn]] | Kostümbildnerin (Circus Wendolyn) | [Bote 138] | 16 n.H. | #bote |
+| [[Geist]] | Herr [[Geist]] / Assassine | [Bote 194] | 36 n.H. | #bote |
+| [[Isolde_Wendolyn]] | Kostümbildnerin ([[Circus_Wendolyn]]) | [Bote 138] | 16 n.H. | #bote |
 | [[Hadrian_Lugado]] | Hochgeweihter (Argionemes) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
 | [[Henricus_Decredon_Catae]] | Hochgeweihter / Prätor Lichtenfeld | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
 | [[Harok]] | Krieger / Söldnerführer ([[Blutige_Faust]]) | [Kanon] / [Gesplitterte Seelen] | amtierend / † 21 n.H. (?) | #canon |
@@ -136,7 +136,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Jack_the_Ripper]] | Gesuchter | [Bote 122] (FEHLERHAFT: Phantom-Eintrag) | ~15 n.H. | #bote |
 | [[Jalina]] | Ziehmutter | [Bote 123] | 15 n.H. | #bote |
 | [[Jassyria_el_Vanjath]] | Autorin | [Bote 141] | 15 n.H. | #bote |
-| [[Jeremias]] | Geweihter (Astrael) | [Über die Gebete] | Historisch | #überlieferung |
+| [[Jeremias]] | Geweihter ([[Astrael]]) | [Über die Gebete] | Historisch | #überlieferung |
 | [[Kaa]] | Autor | [Bote 150] | 17 n.H. | #bote |
 | [[Rose]] | Autorin / Wirtin | [Spiegel] / [Bote 139] | Historisch / 16 n.H. | #überlieferung |
 | [[Jorwo]] | Oberjäger | [Bote 136] | ~15 n.H. | #bote |
@@ -160,10 +160,10 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Madame_Lafayette]] | Gönnerin (Mainland) | [L. eines Dichters] | 22 n.H. | #perspektive |
 | [[Lucy]] | Vogtin ([[Finsterwangen]]) | [Bote 190] | 29 n.H. | #bote |
 | [[Lysidia_Silithelen]] | Hofschneiderin | [Bote 135] | 16 n.H. | #bote |
-| [[Khorne]] | Kriegsgott (Häresie) | [Astrael Batch] | Historisch | #überlieferung |
+| [[Khorne]] | Kriegsgott (Häresie) | [[[Astrael]] Batch] | Historisch | #überlieferung |
 | [[Kalveron_Dai]] | Hoher Arkanist (Weißer Zweig) | [De Magica Angamoniensis] / [System arkaner Lokalitäten] | 13/14 n.H. | #überlieferung |
 | [[Kida_Gilwen]] | Erzmaga / Zeittheoretikerin | [Bote 163] / [Erw. Sphärentheorie] | 18-19 n.H. | #bote |
-| [[Kulin_Laetall]] | Erzmagus / Autor | [Daimonicon] | Historisch | #überlieferung |
+| [[Kulin_Laetall]] | Erzmagus / Autor | [[[Daimonicon]]] | Historisch | #überlieferung |
 | [[Kaarem_Balta]] | Schwarzmagier / Meister | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
 | [[Vladimir_Kherbal]] | Soldat ([[Rittergarde]]) | [Bote 184] | amtierend | #bote |
 | [[Lyam_Anarjion]] | Autor | [Bote 141] | 15 n.H. | #bote |
@@ -174,12 +174,12 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Dunvallo_Linari]] | Erzmagus | [Magietheorie] / [Dämonologie] / [Lexikon] | Historisch | #überlieferung |
 | [[Lauscher_der_Lieder]] | Auenelf / Dichter | [Bote 186] | 22 n.H. | #bote |
 | [[Layna_Rabenstein]] | Patrizierin / Dichterin | [Bote 186] | 22 n.H. | #bote |
-| [[Donarius_Derrvus]] | Defensor Fidei / Docent (Astrael) | [Von den Myten] / [Über die Gohor] | Historisch | #überlieferung |
-| [[Charlissa_Eulenstein]] | Erzmaga / Magister (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
+| [[Donarius_Derrvus]] | Defensor Fidei / Docent ([[Astrael]]) | [Von den [[Myten]]] / [Über die Gohor] | Historisch | #überlieferung |
+| [[Charlissa_Eulenstein]] | Erzmaga / Magister ([[Toran_Dur]]) | [Linari - Reagenzien] | Historisch | #überlieferung |
 | [[Eire]] | Vater / Geistlicher | [Heilige Liturgien] | Historisch | #überlieferung |
-| [[Erik]] | Bruder (Astrael) | [Heilige Liturgien] | Historisch | #überlieferung |
+| [[Erik]] | Bruder ([[Astrael]]) | [Heilige Liturgien] | Historisch | #überlieferung |
 | [[Elgar_von_Utracht]] | Autor | [Exercitium] | Historisch | #überlieferung |
-| [[Etril_Gamajeff]] | Autor / Chronist | [Stadtchronik Rohehafen] | Historisch | #überlieferung |
+| [[Etril_Gamajeff]] | Autor / Chronist | [Stadtchronik [[Rohehafen]]] | Historisch | #überlieferung |
 | [[Goslian]] | Hochwürden (Venturia) | [Über die Gebete] | Historisch | #überlieferung |
 | [[Galahad]] | Ritter der Rosen | [Legende von Galahad] | Legendär | #überlieferung |
 | [[Syr_Geron]] | Ritter | [Bote 122] | 15 n.H. | #bote |
@@ -189,11 +189,11 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Ur-Shar]] | Schlangenwesen / Hohepriester | [Bote 185] | 30 n.H. | #bote |
 | [[Ra-Harakte]] | Gott (altägyptisch/fremd) | [Mythologie] | Antike | #überlieferung |
 | [[Rakurion_Argus]] | Magier / Adeptus | [Bote 158] / [G. eines s. Adlers] | 18-22 n.H. | #perspektive |
-| [[Vencurius]] | Erzpriester des Ventus | [Flug der Ente] | 22 n.H. | #perspektive |
+| [[Vencurius]] | Erzpriester des [[Ventus]] | [Flug der Ente] | 22 n.H. | #perspektive |
 | [[Haldur_Toda]] | Dichter / Autor | [L. eines Dichters] | 22 n.H. | #perspektive |
 | [[Halmar]] | Söldner | [Bote 154] | 18 n.H. | #bote |
 | [[Niemand]] | Mysteriöse Gestalt | [Bote 136] | ~15 n.H. | #bote |
-| [[Niklas_Rattenfaenger]] | Held von Brandenstein (†) | [Bote 166/172] | † 20 n.H. | #bote |
+| [[Niklas_Rattenfaenger]] | Held von [[Brandenstein]] (†) | [Bote 166/172] | † 20 n.H. | #bote |
 | [[Paule_Bitterling]] | Bürger (Zeuge) | [Bote 123] | 15 n.H. | #bote |
 | [[Pio'han_Samfyrlin]] | Heiler ([[Communis_Medici]]) | [Bote 133] | 16 n.H. | #bote |
 | [[Proveus_Herand]] | Magus / Erzgeweihter / Hochwürden ([[01_Bellum|Bellum]]) | [Kanon] / [Bote 158/166/175] | amtierend | #canon |
@@ -213,12 +213,12 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Fedral_Lavid]] | Baron / Lehnsherr / Ritter (†) | [Bote 121/156/165] | 15-19 n.H. | #bote |
 | [[Solos_Nhergas]] | Erzmaga / Kanzlerin / Inselpatrizierin | [Bote 151/186] | amtierend | #canon |
 | [[Sorania]] | Waldelfin | [Kanon] | amtierend | #canon |
-| [[Telandrion]] | Elfenpriester / Diener des Ignis | [Kanon] / [Flug d. Ente] | amtierend / 22 n.H. | #canon |
+| [[Telandrion]] | Elfenpriester / Diener des [[Ignis]] | [Kanon] / [Flug d. Ente] | amtierend / 22 n.H. | #canon |
 | [[Tionne]] | Hauptmann ([[Siebenwind_Kronregiment]]) | [Bote 169] | 19 n.H. | #bote |
-| [[Tzara_Rengis]] | Prätorin (Diözese Siebenwind) / Ordo Vitamae | [Bote 137] | 16 n.H. | #bote |
+| [[Tzara_Rengis]] | Prätorin (Diözese [[Siebenwind]]) / [[Ordo_Vitamae]] | [Bote 137] | 16 n.H. | #bote |
 | [[Tion_Altor]] | Händler | [Kanon] | amtierend | #canon |
 | [[Thorgat]] | Bra'gar (Zwergenwache) / ehem. Hauptmann | [Erinnerungen e. a. Zwergen] | amtierend | #perspektive |
-| [[Thorgon_Goldschlag]] | Dwarschim-Anwärter (Ordo Belli) | [Bote 133] | 16 n.H. | #bote |
+| [[Thorgon_Goldschlag]] | Dwarschim-Anwärter ([[Ordo_Belli]]) | [Bote 133] | 16 n.H. | #bote |
 | [[Truba_Bierbart]] | Wirtin / Jägerin | [Bote 136] | ~15 n.H. | #bote |
 | [[V._Catrone]] | Autor / Bürger / Händler | [Bote 131] | ~15 n.H. | #bote |
 | [[Vincent_Ebenstein]] | Ritter / Geweihter | [Kanon] / [Bote 165] | amtierend | #canon |
@@ -227,15 +227,15 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Woran_Lebensmüh]] | Stellv. Kastellan / Einsiedler | [Bote 130] | ~15-16 n.H. | #bote |
 | [[Zacharias_Cana]] | Knappe | [Bote 139] | 16 n.H. | #bote |
 | [[al_Wechnett]] | Beamter / Buchhändler | [Bote 143] | ~15 n.H. | #bote |
-| [[Hannah_Berndorf_zu_Lichtenwald]] | Burggrafin (Ersonter Bund) | [Bote 174] | amtierend | #bote |
-| [[Flavius_Lewenstein]] | Oberst ([[03_Gesellschaft#Malthust|Malthust]]) / Pakt der Viereinigkeit | [Bote 174] | amtierend | #bote |
+| [[Hannah_Berndorf_zu_Lichtenwald]] | Burggrafin ([[Ersonter_Bund]]) | [Bote 174] | amtierend | #bote |
+| [[Flavius_Lewenstein]] | Oberst ([[03_Gesellschaft#Malthust|Malthust]]) / [[Pakt_der_Viereinigkeit]] | [Bote 174] | amtierend | #bote |
 | [[Hadhal]] | Ausbilder (Zwergenwache) | [Erinnerungen e. a. Zwergen] | amtierend | #perspektive |
-| [[Hebren_Zemand]] | [[Stadtconsula]] (Falkensee) / Beamtin | [Bote 180] | amtierend | #bote |
+| [[Hebren_Zemand]] | [[Stadtconsula]] ([[Falkensee]]) / Beamtin | [Bote 180] | amtierend | #bote |
 | [[Plinius_Deseglieri]] | Gelehrter / Autor ([[Aequitas]]) | [[Aequitas]] | Historisch | #überlieferung |
-| [[Solice_Aurora]] | [[Statthalterin]] (Falkensee) / Freifrau (ehem. Rätin) | [Bote 176/180] | ab 21 n.H. | #bote |
+| [[Solice_Aurora]] | [[Statthalterin]] ([[Falkensee]]) / Freifrau (ehem. Rätin) | [Bote 176/180] | ab 21 n.H. | #bote |
 | [[Laylira_Hohentann]] | Novizia / Heilende Hand / Magistra ([[03_Gesellschaft#Weißer_Pfad|Weißer Pfad]]) | [Bote 175] | 20-22 n.H. | #bote |
 | [[Alassea]] | Heilerin | [Bote 174] | 20 n.H. | #bote |
-| [[Alashar]] | Schneider | [Nichts und ohne Pointe] | amtierend | #perspektive |
+| [[Alashar]] | Schneider | [[[Nichts_und_ohne_Pointe]]] | amtierend | #perspektive |
 | [[Traim_Eisenblut]] | Oberkommandierender / Heerführer ([[Dwarschim]]) | [Bote 175] | 20 n.H. | #bote |
 | [[Püppchen]] | Frau (schwarzes Haar) | [Pueppchens Flucht] | - | #perspektive |
 | [[Quirian_Grint]] | Primus ([[Graue_Garde]]) | [Bote 175] | amtierend | #bote |
@@ -248,20 +248,20 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Riens_Lorien_Arden]] | Hohepriester ([[Ecclesia_Elementorum]]) | [Bote 173] | 20 n.H. | #bote |
 | [[Mirian_Lasar]] | Heermeisterin / Hochmeisterin (Greifenorden) | [Bote 171/172] | 19-20 n.H. | #bote |
 | [[Neraja]] | Gräfin (Wolfsmark) | [Vandriens Entstehung] | Historisch | #überlieferung |
-| [[Sebastian]] | Bruder (Astrael) | [Heilige Liturgien] | Historisch | #überlieferung |
-| [[Timothios]] | Bruder (Astrael) | [Heilige Liturgien] | Historisch | #überlieferung |
-| [[Tai_Sah_Halour_Glurias]] | Autor / Gelehrter | [Astrael Tafeln] | Historisch | #überlieferung |
+| [[Sebastian]] | Bruder ([[Astrael]]) | [Heilige Liturgien] | Historisch | #überlieferung |
+| [[Timothios]] | Bruder ([[Astrael]]) | [Heilige Liturgien] | Historisch | #überlieferung |
+| [[Tai_Sah_Halour_Glurias]] | Autor / Gelehrter | [[[Astrael]] Tafeln] | Historisch | #überlieferung |
 | [[Pharalis_Avistur]] | Ritterin / Co-Leitung Kämpferschule | [Bote 172] | 20 n.H. | #bote |
 | [[Maltus_Shuarshirad]] | Bruderschaftler (Gofilm) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
-| [[Hahngard_Esteron]] | Magister (Toran Dur) | [Johann Liebig - Arkane Verbindung] | Historisch | #überlieferung |
+| [[Hahngard_Esteron]] | Magister ([[Toran_Dur]]) | [[[Johann_Liebig]] - Arkane Verbindung] | Historisch | #überlieferung |
 | [[Yves_Rondragon]] | Ritter / Lehnsherr ([[Seeberg]]) | [Bote 172] | 20 n.H. | #bote |
 | [[Cendaric_Tibur]] | Baron / 2. Ordensmeister (Löwenorden) | [Bote 172] / [Ordenssatzung] | 17-20 n.H. | #bote |
 | [[Dannor]] | Ritter / "Hauptmann der Falken" | [Legende von Galahad] | Legendär | #überlieferung |
-| [[Johannes_Tiberias]] | Erzprinzipial (Kaufmannsgilde) / Inselrat / Magus | [Bote 172/182] | 20-21 n.H. | #bote |
+| [[Johannes_Tiberias]] | Erzprinzipial ([[Kaufmannsgilde]]) / [[Inselrat]] / Magus | [Bote 172/182] | 20-21 n.H. | #bote |
 | [[Maelve_Rhyntarin]] | Bibliothekarin ([[Brandenstein]]) | [Bote 172] | 20 n.H. | #bote |
 | [[Herbren_Maltis]] | Hofkünstler | [Bote 137] | 11 n.H. | #bote |
 | [[Rafael]] | Bürger (Tempelwache?) | [Bote 186] | 22 n.H. | #bote |
-| [[Heeron_Dherayne]] | Söldnerführer / Sprecher Schattenjäger | [Bote 152/172] | 17-20 n.H. | #bote |
+| [[Heeron_Dherayne]] | Söldnerführer / Sprecher [[Schattenjaeger]] | [Bote 152/172] | 17-20 n.H. | #bote |
 | [[Arlon_Windtanz]] | Ritter / Gesandter für [[Dwarschim]] | [Bote 153/171] | 17-19 n.H. | #bote |
 | [[Arvid_Ryandoris]] | Schmied (vermisst) | [Bote 134] | 16 n.H. | #bote |
 | [[Quenian]] | Leutnant ([[XIII_Kronregiment]]) | [Bote 173] | 20 n.H. | #bote |
@@ -269,7 +269,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Salanus]] | Ex-Astraeldiener | [Bote 173] | 20 n.H. | #bote |
 | [[Samuel_der_Heiler]] | Heiler / Giftmischer (Blutige Faust) | [Gesplitterte Seelen] | † 21 n.H. (?) | #perspektive |
 | [[Hannah_Berndorf]] | Burggräfin ([[Ersonter_Bund]]) | [Bote 174] | 20 n.H. | #bote |
-| [[Gorion]] | Elementarist | [Die Elemente - ungleiche Geschwister] | - | #perspektive |
+| [[Gorion]] | Elementarist | [[[Die_Elemente_ungleiche_Geschwister]]] | - | #perspektive |
 | [[Arianna_Morgentau]] | Erzgeweihte ([[Vitama]]) | [Bote 175] | 20 n.H. (Festland) | #bote |
 | [[Kharas_Palanthas]] | Ratsherr (Ersont) | [Bote 180] | † 21 n.H. (Ermordet) | #bote |
 | [[Derontas_Marilus]] | Exzellenz / Regierungsrat | [Bote 176] | 21 n.H. | #bote |
@@ -282,16 +282,16 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Bernhelm_Tarek]] | Novize ([[Bellum]]) | [Bote 179] | 21 n.H. | #bote |
 | [[Rondal_Botun]] | Anwärter ([[Bellum]]) | [Bote 179] | 21 n.H. | #bote |
 | [[Silas]] | Freier (Hingerichtet durch [[Delarie]]) | [Bote 179] | † 21 n.H. | #bote |
-| [[Enoha_Adorne]] | Unteroffizier ([[Malthust]]) / Sammler-Experte | [Bote 179] | 21 n.H. | #bote |
-| [[Anlohr_Flatnah]] | Hofschneider (Brandenstein) / "Lavendel-Mode" | [Bote 179] | aktiv | #bote |
+| [[Enoha_Adorne]] | Unteroffizier ([[Malthust]]) / [[Sammler]]-Experte | [Bote 179] | 21 n.H. | #bote |
+| [[Anlohr_Flatnah]] | Hofschneider ([[Brandenstein]]) / "Lavendel-Mode" | [Bote 179] | aktiv | #bote |
 | [[Imea_Ekula]] | Konsula ([[Falkensee]]) | [Bote 178] | 21 n.H. | #bote |
 | [[Toran_Dur]] | Erzmagus / Edler / Gründer ([[Löwenorden]]) | [Bote 180] / [[Toran Dur]] | 17-21 n.H. | #bote |
 | [[Tantalla]] | Bürgerin (Kesselklamm) | [Erinnerungen e. a. Zwergen] | amtierend | #perspektive |
 | [[Solos_Nadeeda_Laylira]] | Tochter von [[Lucius_Gropp]] | [[Gropp_Zwillinge|Bote 186]] | Geboren 22 n.H. | #bote |
 | [[Eliath]] | Künstler / Verlobter von Aurora | [Bote 180] | 21 n.H. | #bote |
-| [[Taleris_Kreytz]] | Magister Emeritus (Akademie) | [Briefe aus der Ferne] | 21 n.H. | #perspektive |
-| [[Rajka_Sanseha]] | Briefpartnerin von T. Kreytz | [Briefe aus der Ferne] | 21 n.H. | #perspektive |
-| [[Hernaphas_Lenarmberg]] | Geweihter ([[02_Astrael|Astrael]]) / Lehrmeister | [Johann Liebig - Arkane Verbindung] | Historisch | #überlieferung |
+| [[Taleris_Kreytz]] | Magister Emeritus (Akademie) | [[[Briefe_aus_der_Ferne]]] | 21 n.H. | #perspektive |
+| [[Rajka_Sanseha]] | Briefpartnerin von T. Kreytz | [[[Briefe_aus_der_Ferne]]] | 21 n.H. | #perspektive |
+| [[Hernaphas_Lenarmberg]] | Geweihter ([[02_Astrael|Astrael]]) / Lehrmeister | [[[Johann_Liebig]] - Arkane Verbindung] | Historisch | #überlieferung |
 | [[Herzog_von_Kant]] | Philosoph / Autor | [Linari - Philosophie] | Historisch | #überlieferung |
 | [[Mirila_Mik-Honigzopf]] | Bürgermeisterin ([[Rothenbucht]]) | [Bote 192] | 30 n.H. | #bote |
 | [[Murrin_Hammerschwinger]] | Dwarschim-Krieger | [Bote 180] | 21 n.H. | #bote |
@@ -316,7 +316,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Bragthor_Wuchthammer]] | Richter ([[Dwarschim]]) | [Bote 182] | 21 n.H. | #bote |
 | [[Paule_Hickings]] | Barde ("Hicks") | [Bote 182] | 21 n.H. | #bote |
 | [[Bastian_Vega]] | Barde ("Basti") | [Bote 182] | 21 n.H. | #bote |
-| [[Erhard_Merthes]] | Marschall von Brandenstein / Landsbaron | [Bote 179/180] | ab 21 n.H. | #bote |
+| [[Erhard_Merthes]] | Marschall von [[Brandenstein]] / Landsbaron | [Bote 179/180] | ab 21 n.H. | #bote |
 | [[Johan_Gottfried]] | ehem. Gardewaibel ("Hund") / Verräter / Kultist | [Bote 180/181] | flüchtig 21 n.H. | #bote |
 | [[Goerts]] | Feldhauptmann (Malthust) | [Bote 179] | ab 21 n.H. | #bote |
 | [[Ambareth]] | Gnaden (Malthust?) | [Bote 179] | ab 21 n.H. | #bote |
@@ -328,20 +328,20 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Cedric_Rotfuchs]] | Ritter ([[03_Gesellschaft#Löwenorden|Löwenorden]]) | [Bote 182] | 21 n.H. | #bote |
 | [[Erik_Pedran]] | Ritter ([[Löwenorden]]) | [Bote 182] | 21 n.H. | #bote |
 | [[Rhadan_der_Graue]] | Erzmagier / Autor / Zeichner | [Rituallehre_Sphaeren] / [Ari´in] / [Zeichnung Tares] | Historisch | #überlieferung |
-| [[Rhadamanth]] | Spektabilität / Magister (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
+| [[Rhadamanth]] | Spektabilität / Magister ([[Toran_Dur]]) | [Linari - Reagenzien] | Historisch | #überlieferung |
 | [[Steinhauer]] | Stellv. Gardehauptmann ([[Ersonter_Garde]]) | [Bote 183] | 21 n.H. | #bote |
 | [[Gorem_Motlow]] | Waibel ([[Bürgerwehr]]) / Ex-Gardist | [Bote 183] | 21 n.H. | #bote |
-| [[Gar_Navona]] | Magister / Schöpfer (Gargoyles) | [Johann Liebig - Arkane Verbindung] | Historisch | #überlieferung |
+| [[Gar_Navona]] | Magister / Schöpfer ([[Gargoyles]]) | [[[Johann_Liebig]] - Arkane Verbindung] | Historisch | #überlieferung |
 | [[William_Glaron]] | Ritter / Sprecher ([[Löwenorden]]) | [Bote 183] | 21 n.H. | #bote |
 | [[Maltheos_Thorn]] | Hoher Diener ([[Bellum]]) | [Bote 183] | 21 n.H. | #bote |
 | [[Gin]] | Gardehauptmann ([[Ersonter_Garde]]) | [Bote 184] | 21 n.H. | #bote |
-| [[Arn_Toron]] | Kaufmann / Ex-Konsul (Falkensee) / "Ketzer" | [Bote 168/184/186] | 19-22 n.H. | #bote |
+| [[Arn_Toron]] | Kaufmann / Ex-Konsul ([[Falkensee]]) / "Ketzer" | [Bote 168/184/186] | 19-22 n.H. | #bote |
 | [[Beatrix]] | Rekrutin ([[Ersonter_Garde]]) | [Bote 184] | 21 n.H. | #bote |
 | [[Krellgrimm_Glutschreiter]] | König ([[Dwarschim]]) | [Bote 184] | 21 n.H. | #bote |
 | [[Ingjald]] | Jarl / Edler ([[Nortraven]]) | [Bote 184] | 21 n.H. | #bote |
 | [[Talida]] | Schneiderin ([[Nortraven]]) | [Bote 184] | 21 n.H. | #bote |
 | [[Ionas]] | Redakteur / [[02_Astrael]]-Geweihter | [Bote 185] | 22 n.H. | #bote |
-| [[Narbenschnauze]] | Klauenwolf | [Blutschwert] | 22 n.H. | #perspektive |
+| [[Narbenschnauze]] | Klauenwolf | [[[Blutschwert]]] | 22 n.H. | #perspektive |
 | [[Khyra_Hohentann]] | Magierin / Ehefrau Gropp | [Bote 185] | 22 n.H. | #bote |
 | [[Feydis]] | Geweihter ([[Vitama]]) | [Bote 185] | 22 n.H. | #bote |
 | [[Serass]] | Fürst ([[Vandrien]]) | [Bote 185] | 22 n.H. | #bote |
@@ -402,10 +402,10 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Taranis]] | Gott (keltisch/fremd) | [Mythologie] | Antike | #überlieferung |
 | [[Laszlo_von_Wegenstein]] | Hochgeweihter ([[Vitama]]) | [Bote 192] | 30 n.H. | #bote |
 | [[Herkules]] | Halbgott / Held | [Mythologie] | Antike | #überlieferung |
-| [[Herzog_Blutschwert]] | Anführer d. Schwarzen Legion | [Blutschwert] | 22 n.H. | #perspektive |
-| [[Hubertus_Anverita]] | Aspirant (Astrael) / Agent | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
+| [[Herzog_Blutschwert]] | Anführer d. Schwarzen Legion | [[[Blutschwert]]] | 22 n.H. | #perspektive |
+| [[Hubertus_Anverita]] | Aspirant ([[Astrael]]) / Agent | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
 | [[Hugo]] | Fischer | [Bote 150] | 17 n.H. | #bote |
-| [[Tanthul]] | Magus / Nekromant / Lehrmeister / Autor | [Daimonicon] / [Schwarze Ritualmagie] | Historisch / 24 n.H. | #überlieferung |
+| [[Tanthul]] | Magus / Nekromant / Lehrmeister / Autor | [[[Daimonicon]]] / [Schwarze Ritualmagie] | Historisch / 24 n.H. | #überlieferung |
 | [[Luydira]] | Knappin | [Bote 139] | 16 n.H. | #bote |
 | [[Mael_Duin]] | Marschall / Lehensherr ([[Tannenstein]]) | [Bote 122] | 15 n.H. | #bote |
 | [[Wilhelm_der_Eroberer]] | König (historisch) | [Historie] | Legendär | #überlieferung |
@@ -426,29 +426,29 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Dorion_Hali]] | Dorfphysikus ([[Brandenstein]]) / 2. Handwerksmeister (Löwenorden) | [Bote 152] / [Ordenssatzung] | 17 n.H. | #bote |
 | [[Rebecca_Gruenenberg]] | Bergbauverwalterin | [Bote 152] | 17 n.H. | #bote |
 | [[Yaris_Ferano]] | Bergbauverwalter | [Bote 152] | 17 n.H. | #bote |
-| [[Caieta_Ajunier]] | Magier (Teilnehmer Hellsichtritual) | [[Forschungsberichte (Toran Dur)]] | 33 n.H. | #überlieferung |
+| [[Caieta_Ajunier]] | Magier (Teilnehmer Hellsichtritual) | [[Forschungsberichte ([[Toran_Dur]])]] | 33 n.H. | #überlieferung |
 | [[Oberfoerster_Birk]] | Oberförster ([[Brandenstein]]) | [Bote 152] | 17 n.H. | #bote |
-| [[Akora_Dur]] | Händlerin (Falkensee) / Sprecherin [[03_Gesellschaft#Löwenorden|Löwenorden]] / Meisterin der Handwerker | [Bote 152/167] | 17-19 n.H. | #bote |
+| [[Akora_Dur]] | Händlerin ([[Falkensee]]) / Sprecherin [[03_Gesellschaft#Löwenorden|Löwenorden]] / Meisterin der Handwerker | [Bote 152/167] | 17-19 n.H. | #bote |
 | [[Lillien_Degner]] | Sprecherin Ortswache | [Bote 152] | 17 n.H. | #bote |
 | [[Sean_Eire]] | Prätor / Eminenz | [Bote 153] | 17 n.H. | #bote |
 | [[Sanduros]] | Hochwürden | [Bote 153] | 17 n.H. | #bote |
 | [[Mantaris]] | Hochwürden / Geweihter | [Bote 153/162] | 17-18 n.H. | #bote |
-| [[Sanduros_Mantaris]] | Novize d. Astrael | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
-| [[Rianna]] | Magierin (Teilnahme Hellsichtritual Wall/Wache) | [[Forschungsberichte (Toran Dur)]] | 33 n.H. | #überlieferung |
+| [[Sanduros_Mantaris]] | Novize d. [[Astrael]] | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
+| [[Rianna]] | Magierin (Teilnahme Hellsichtritual Wall/Wache) | [[Forschungsberichte ([[Toran_Dur]])]] | 33 n.H. | #überlieferung |
 | [[Utrich_Rothnang]] | Magier | [Bote 154] | 18 n.H. | #bote |
 | [[Garreth_Moss]] | Hofmagier (?) / Adeptus Arkanis | [Bote 154] / [Kompendium der Völker] | 18 n.H. | #bote |
 | [[Lantea_Greifenstein]] | Löwenritterin (Getreue) | [Bote 154] | 18 n.H. | #bote |
-| [[Vaka]] | Dorfvorsteherin Greifenklipp | [Bote 154] | 18 n.H. | #bote |
-| [[Gyrth]] | Nortrave (Greifenklipp) | [Bote 154] | 18 n.H. | #bote |
+| [[Vaka]] | Dorfvorsteherin [[Greifenklipp]] | [Bote 154] | 18 n.H. | #bote |
+| [[Gyrth]] | Nortrave ([[Greifenklipp]]) | [Bote 154] | 18 n.H. | #bote |
 | [[Lunelio_Favie]] | Chronist / Reisender | [Bote 154] | 18 n.H. | #bote |
 | [[Daena]] | Maga | [Bote 154] | 18 n.H. | #bote |
 | [[Frank_Biederstein]] | Secretarius | [Bote 156] | 18 n.H. | #bote |
 | [[Lhynhar_Silmaril]] | Secretarius | [Bote 157] | 18 n.H. | #bote |
-| [[Mythandir]] | Gildenmeister Ventusreiter | [Bote 157] | 18 n.H. | #bote |
+| [[Mythandir]] | Gildenmeister [[Ventusreiter]] | [Bote 157] | 18 n.H. | #bote |
 | [[Annika_Rokan]] | Magierin (verstorben) | [Bote 157] | 18 n.H. | #bote |
 | [[Lorence]] | Geweihter Bellums | [Bote 158] | 18 n.H. | #bote |
 | [[Edomawyr]] | Primus ([[Graue_Garde]]) / Pfadleiter (Grau) | [Bote 127/158] / [Wirkung von Metallen] | 15-18 n.H. | #bote |
-| [[Enoah_Sullin]] | Magier (Teilnehmer Hellsichtritual) | [[Forschungsberichte (Toran Dur)]] | 33 n.H. | #überlieferung |
+| [[Enoah_Sullin]] | Magier (Teilnehmer Hellsichtritual) | [[Forschungsberichte ([[Toran_Dur]])]] | 33 n.H. | #überlieferung |
 | [[Elurai_Calades]] | Erzmagier / Autor | [Bindungslehre] | Historisch | #überlieferung |
 | [[Elyran_Fischer]] | Adeptus Arkanis (Ita'Glur) | [Die Elemente aus der Sicht der Mitte] | Historisch | #überlieferung |
 | [[Johann_Liebig]] | Adeptus Arkanis (Mitte) / Autor | [Arkane Verbindung] | Historisch | #überlieferung |
@@ -467,7 +467,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Zacharias_Gropp]] | Gestütsbesitzer / Ritterknappe | [Bote 161/166] | 18-19 n.H. | #bote |
 | [[Aileena_Loewenstein]] | Heilerin | [Bote 161] | 18 n.H. | #bote |
 | [[Adana_Regan]] | Heilerin | [Bote 161] | 18 n.H. | #bote |
-| [[Nithavela]] | Heilerin / Inselpatrizierin (Xan) | [Bote 161/173] | 18 n.H. | #bote |
+| [[Nithavela]] | Heilerin / Inselpatrizierin ([[Xan]]) | [Bote 161/173] | 18 n.H. | #bote |
 | [[Layen]] | Heiler | [Bote 161] | 18 n.H. | #bote |
 | [[Zinnmännchen]] | Spielzeug (verzaubert?) | [Bote 150] | 17 n.H. | #bote |
 | [[Willibald_Puckel]] | Hochgeweihter (Gnom) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
@@ -480,7 +480,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Ignatius_von_Mendel]] | Verräter / Ex-Hofberater | [Bote 163] | 18-19 n.H. | #bote |
 | [[Hendwig]] | Gardist (Baronsgarde) (†) | [Bote 163] | † 19 n.H. | #bote |
 | [[Hartwine_Hilamos]] | Bänkerin / Attentäterin (†) | [Bote 163] | † 19 n.H. | #bote |
-| [[Arthax_Stahlauge]] | Kregor ([[Dunquell]]) / Veteran | [[Kregor_Arthax_Stahlauge|Bote 193]] / [Legende der Zwerge] | 30 n.H. | #bote |
+| [[Arthax_Stahlauge]] | Kregor ([[Dunquell]]) / Veteran | [[Kregor_Arthax_Stahlauge|Bote 193]] / [Legende der [[Zwerge]]] | 30 n.H. | #bote |
 | [[Kregor_Arthax_Stahlauge]] | Zwergen-Veteran / Ratsmitglied | [Bote 193] | 30 n.H. | #bote |
 | [[Minelthuya]] | Adept ([[Grauer_Pfad]]) | [Bote 193/194] | 30 n.H. | #bote |
 | [[K_endalor_Aothes]] | Hohepriester (Argionemes) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
@@ -495,11 +495,11 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Gignoskein]] | Däumling / Gnom | [Bote 164] | 19 n.H. | #bote |
 | [[Luther_Dueff]] | Lehnsherr ([[Suedfall]]) / Hochmeister | [Bote 124/165] | 15-20 n.H. | #bote |
 | [[Conrad_Bejnkirchner]] | Sekretarius | [Bote 165] | 19 n.H. | #bote |
-| [[Bardas_Loredis]] | Novize (Vitama) | [Bote 165] | 19 n.H. | #bote |
+| [[Bardas_Loredis]] | Novize ([[Vitama]]) | [Bote 165] | 19 n.H. | #bote |
 | [[Fingarion]] | Jäger (Elf) | [Bote 166] | 19 n.H. | #bote |
 | [[Roald_Spitzbart]] | Kandidat (Hafenvogt) | [Bote 167] | 19 n.H. | #bote |
 | [[Lyrius_Telrunya]] | Kandidat (Hafenvogt) | [Bote 167] | 19 n.H. | #bote |
-| [[Tadschirim]] | Blauer Geist / Schelm | [Bote 167] | 19 n.H. | #bote |
+| [[Tadschirim]] | Blauer [[Geist]] / Schelm | [Bote 167] | 19 n.H. | #bote |
 | [[Buergerwehr]] | Siedlungsmiliz | [Bote 168] | 19 n.H. | #bote |
 | [[Elodril_Myrtholis]] | Inselpatrizier | [Bote 169] | 19 n.H. | #bote |
 | [[Felis_Andras]] | Inselpatrizier | [Bote 169] | 19 n.H. | #bote |
@@ -522,9 +522,9 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Sophalia]] | Mutter (vermisstes Kind) | [Bote 124] | 15 n.H. | #bote |
 | [[Rekar_Sturmklinge]] | Trophäenhändler | [Bote 125] | 15 n.H. | #bote |
 | [[Frau_von_Wankenbach]] | Gefreite ([[Schutzzug]]) | [Bote 125] | 15 n.H. | #bote |
-| [[Calanhen_Lilthameigol]] | Leiter der Kgl. Kriegerakademie zu Seeberg / Hochelf | [Bote 178] | aktiv | #bote |
-| [[Galdiell_Sietarr]] | Geweihte (Vitama) / Calatora | [Bote 178] | aktiv | #bote |
-| [[Aradam]] | Künstler / Leiter der Künstlerakademie Falkensee | [Bote 178] | aktiv | #bote |
+| [[Calanhen_Lilthameigol]] | Leiter der Kgl. Kriegerakademie zu [[Seeberg]] / Hochelf | [Bote 178] | aktiv | #bote |
+| [[Galdiell_Sietarr]] | Geweihte ([[Vitama]]) / Calatora | [Bote 178] | aktiv | #bote |
+| [[Aradam]] | Künstler / Leiter der Künstlerakademie [[Falkensee]] | [Bote 178] | aktiv | #bote |
 | [[Falk_Steinhauer]] | Baumeister ([[Falkensee]]) | [Bote 128] | 15 n.H. | #bote |
 | [[Lario_Anderus]] | Königlicher Richter | [Bote 130] | 16 n.H. | #bote |
 | [[Kiraya_Rabenschlag]] | Leutnant ([[Lehensbanner]]) | [Bote 130] | 16 n.H. | #bote |
@@ -550,13 +550,13 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Jennaia_Lavrial]] | Magistra | [Theorie der elementaren Atome] | Historisch | #überlieferung |
 | [[Johannes_Klos]] | Magietheoretiker | [Locus Magicae] | Historisch | #überlieferung |
 | [[Haldhold_Hammerhall]] | Turniersieger (Zwerg) | [Bote 152] | 17 n.H. | #bote |
-| [[Fabius_Letarien]] | Vertreter der Menschen / Barde | [Bote 160] | 18 n.H. | #bote |
-| [[Emanuel_Sanderus]] | Bürger (Ehemann von Felis) | [Bote 172] | 19 n.H. | #bote |
+| [[Fabius_Letarien]] | Vertreter der [[Menschen]] / Barde | [Bote 160] | 18 n.H. | #bote |
+| [[Emanuel_Sanderus]] | Bürger (Ehemann von [[Felis]]) | [Bote 172] | 19 n.H. | #bote |
 | [[Louis]] | Dieb / Ehem. Leiter Handelsbund | [Bote 152] | 17 n.H. | #bote |
 | [[Laurus_Delany]] | Hochgeweihter ([[Bellum | Bellum]]) | [Bote 149/151] | 17 n.H. | #bote |
 | [[Igor]] | Diener | [Bote 150] | 17 n.H. | #bote |
-| [[Ilja]] | Kräuterfrau | [Blutschwert] | 22 n.H. | #perspektive |
-| [[Ignaz_Moravio]] | Hochgeweihter (Astrael) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
+| [[Ilja]] | Kräuterfrau | [[[Blutschwert]]] | 22 n.H. | #perspektive |
+| [[Ignaz_Moravio]] | Hochgeweihter ([[Astrael]]) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
 | [[Ilmar]] | Fischer | [Bote 134] | 16 n.H. | #bote |
 | [[M._Pfahl]] | Dichterin | [Bote 128] | 15 n.H. | #bote |
 | [[Arondar_von_Mellhorn]] | Bruder (Verschollen) | [E. d. Zeit d. Könige] | 13 n.H. | #perspektive |
@@ -564,40 +564,40 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Calveas_Catae]] | Sohn des Henricus? | [E. d. Zeit d. Könige] | - | #perspektive |
 | [[Josef_Knecht]] | Hochgeweihter (Historisch/Verbrannt) | [E. d. Zeit d. Könige] | † | #perspektive |
 | [[Hannibal_Thule]] | Jugendlicher ([[Falkensee]]) | [Hannibal Thule] | 22 n.H. | #perspektive |
-| [[Sandholz]] | Eminenz (Morsan?) | [Letzte Vorbereitungen] | - | #perspektive |
+| [[Sandholz]] | Eminenz ([[Morsan]]?) | [[[Letzte_Vorbereitungen]]] | - | #perspektive |
 | [[Sandir]] | Bürger ([[Falkensee]]) | [Einsame Ladengedanken] | - | #perspektive |
 | [[Cardos]] | Bürger ([[Falkensee]]) | [Einsame Ladengedanken] | - | #perspektive |
 | [[Nurya]] | Bürgerin | [Einsame Ladengedanken] | - | #perspektive |
-| [[Lucienne]] | Ehefrau | [Prüfung und Entsagung] | - | #perspektive |
-| [[Magister_ad_Sinister]] | Titel / Nekromant | [Geschäftiges Treiben] | - | #perspektive |
-| [[Solfeister_Kin]] | Kultist (Angamon) | [Solfeister Kin] | - | #perspektive |
-| [[Szarmaduk]] | "Meister" / Entität (?) | [Die Namikleris] | - | #perspektive |
-| [[Knochenfürst]] | Untoter Herrscher / Titel | [Logbuch des Kerkers] | 21 n.H. | #perspektive |
+| [[Lucienne]] | Ehefrau | [[[Pruefung_und_Entsagung]]] | - | #perspektive |
+| [[Magister_ad_Sinister]] | Titel / Nekromant | [[[Geschaeftiges_Treiben]]] | - | #perspektive |
+| [[Solfeister_Kin]] | Kultist ([[Angamon]]) | [[[Solfeister_Kin]]] | - | #perspektive |
+| [[Szarmaduk]] | "Meister" / Entität (?) | [[[Die_Namikleris]]] | - | #perspektive |
+| [[Knochenfürst]] | Untoter Herrscher / Titel | [[[Logbuch_des_Kerkers]]] | 21 n.H. | #perspektive |
 | [[Lewyn_Anacar]] | Magier (Veränderung) | [Ars Magica Metamorphosia] | Historisch | #überlieferung |
-| [[Lothar_Gavinwald]] | Waffenmeister (Löwenorden) | [[Die Ordenssatzung des Ordens vom Wachenden Löwen (Toran Dur)]] | 17 n.H. | #überlieferung |
+| [[Lothar_Gavinwald]] | Waffenmeister (Löwenorden) | [[Die Ordenssatzung des Ordens vom Wachenden Löwen ([[Toran_Dur]])]] | 17 n.H. | #überlieferung |
 | [[Logrin_Goldaxt]] | Magister (Bartanatomie) | [Bartanatomie] | Historisch ([[Dwarschim]]) | #überlieferung |
 | [[Lothgar]] | ? | - | - | #überlieferung |
 | [[Maluk]] | ? | - | - | #überlieferung |
-| [[Magica_Procella]] | Pseudonym / Magier | [Arcana Procella] | Historisch | #überlieferung |
-| [[Mehr'thak]] | "Der Erzähler" / Entität (Angamon?) | [Ritus, Gebet und Erleuchtung] | - | #perspektive |
+| [[Magica_Procella]] | Pseudonym / Magier | [[[Arcana_Procella]]] | Historisch | #überlieferung |
+| [[Mehr'thak]] | "Der Erzähler" / Entität ([[Angamon]]?) | [[[Ritus_Gebet_und_Erleuchtung]]] | - | #perspektive |
 | [[Merden]] | ? | - | - | #überlieferung |
 | [[Nakoti]] | ? | - | - | #überlieferung |
-| [[Nefustor]] | Schwarzmagier / Magister / Lehrer / Autor | [[Daimonologie und Schwarze Magie (Toran Dur)]] / [Protokoll/Schwarze Magietheorie] | Historisch | #überlieferung |
+| [[Nefustor]] | Schwarzmagier / Magister / Lehrer / Autor | [[Daimonologie und Schwarze [[index]] ([[Toran_Dur]])]] / [Protokoll/Schwarze Magietheorie] | Historisch | #überlieferung |
 | [[Nhergas]] | ? | - | - | #überlieferung |
-| [[Nistram_Rigas]] | Adeptus Arkanis (Antimagie) | [Magica Contraria] | Historisch | #überlieferung |
-| [[Nuir_Ekre]] | Akoluth (Graue Garde) | [Kunst der Diener] | Historisch | #überlieferung |
-| [[Nirluk]] | Dämonentöter ([[Dwarschim]]) | [Die Zwergen-WG] | - | #perspektive |
+| [[Nistram_Rigas]] | Adeptus Arkanis ([[Antimagie]]) | [Magica Contraria] | Historisch | #überlieferung |
+| [[Nuir_Ekre]] | Akoluth ([[Graue_Garde]]) | [Kunst der Diener] | Historisch | #überlieferung |
+| [[Nirluk]] | Dämonentöter ([[Dwarschim]]) | [[[Die_Zwergen_WG]]] | - | #perspektive |
 | [[Raisha_al_Javet]] | Magierin (Elementar) | [Invocatio Elementharii] | Historisch | #überlieferung |
 | [[Rose_von_Sonnentau]] | Bardin / Dichterin | [Der letzte Falke] | Historisch | #überlieferung |
-| [[Sylest_le_Felyhn]] | Adepta Arkana (Rechts) | [Vjera Batama Magica] | Historisch | #überlieferung |
+| [[Sylest_le_Felyhn]] | Adepta Arkana (Rechts) | [[[Vjera_Batama_Magica]]] | Historisch | #überlieferung |
 | [[Tjure_Odal]] | Ketzer / Magier (?) | [Bote 186] | 22 n.H. | #bote |
 | [[Veridon]] | ? | - | - | #überlieferung |
-| [[Terenon_Sarophilan]] | Magier (Elfenfreund) | [Theorien der Magie] | Historisch | #überlieferung |
+| [[Terenon_Sarophilan]] | Magier (Elfenfreund) | [Theorien der [[index]]] | Historisch | #überlieferung |
 | [[Themus_Takai]] | Magier (Baumwesen) | [Theorem zu den Baumwesen] | Historisch | #überlieferung |
 | [[Uron_Sbocaj]] | Magier / Theoretiker | [Thesen der Magiezweige] | Historisch | #überlieferung |
 | [[Wolfgang_Ravinsthal]] | Adeptus / Adeptus Arkanis / Autor | [Sphärenkunde] | Historisch | #überlieferung |
-| [[Zyraghlos_cé_Vegano]] | Magister (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
-| [[Keljar]] | Student / Bannweber (Toran Dur) | [Linari - Reagenzien] | Historisch | #überlieferung |
+| [[Zyraghlos_cé_Vegano]] | Magister ([[Toran_Dur]]) | [Linari - Reagenzien] | Historisch | #überlieferung |
+| [[Keljar]] | Student / Bannweber ([[Toran_Dur]]) | [Linari - Reagenzien] | Historisch | #überlieferung |
 | [[Santanos_Alexandrius_von_Eichstatt]] | Erzmagus / Autor | [Linari - Artefakte] | Historisch | #überlieferung |
 | [[Birnbaum]] | Magister Extraordinarius | [Angamoniensis] | Historisch | #überlieferung |
 | [[Fogrim_Goldaxt]] | Schmied (Arkadons Schmiede) | [Bartanatomie] | Historisch | #überlieferung |

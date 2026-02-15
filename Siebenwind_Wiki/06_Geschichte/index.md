@@ -4,7 +4,7 @@ title: Geschichte
 ---
 
 # [[Siebenwind]] Wiki - Geschichte
-Das Archiv der Geschichte.
+Das [[index]] der Geschichte.
 
 ## Inhalte
 

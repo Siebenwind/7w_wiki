@@ -10,7 +10,7 @@ author: [[Siebenwind]] Chronicler
 **Epistemischer Status:** #canon
 
 **Kategorie:** [[index]] / Grafschaft
-**Herrscher:** Graf Feestar von Lichtenfeld ap Harkonn
+**Herrscher:** Graf [[Feestar_von_Lichtenfeld]] ap Harkonn
 
 ## Beschreibung
 Eine malerische Küstenregion mit weißen Klippen und grünen Auen.

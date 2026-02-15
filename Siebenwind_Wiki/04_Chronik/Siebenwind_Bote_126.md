@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 126
-category: Chronik
+title: [[Siebenwind]] Bote 126
+category: [[index]]
 ---
 
-# Siebenwind Bote 126
+# [[Siebenwind]] Bote 126
 
 **Epistemischer Status:** #bote
 **Datum:** 15. Carmar 15 n.H.

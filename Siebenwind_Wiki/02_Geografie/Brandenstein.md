@@ -23,14 +23,14 @@ Die wirtschaftliche Grundlage der Stadt bildet der reiche Bergbau. In den nordö
 ## Infrastruktur
 *   **Sicherheitswege:** Bereits im Jahr 15 n.H. sorgte die Ritterschaft des Falkenordens für eine durchgehende Beleuchtung der Wege nach [[Falkensee]], um den Handelsfluss auch in der Dunkelheit zu gewährleisten.
 
-## Geschichte & Chronik
-- **7. Seker 12 n.H.**: Schwerer Angriff der "Anhänger des Einen" auf die Stadt. Unter Einsatz von zwei mächtigen Dämonen (Drachen-Niveau) wird die Verteidigung fast überrannt. Nur durch ein plötzliches Aufreißen der Wolkendecke und das Verschwinden der Dämonen wird die totale Vernichtung abgewendet.
+## [[index]] & [[index]]
+- **7. Seker 12 n.H.**: Schwerer Angriff der "Anhänger des Einen" auf die Stadt. Unter Einsatz von zwei mächtigen [[Daemonen]] ([[Drachen]]-Niveau) wird die Verteidigung fast überrannt. Nur durch ein plötzliches Aufreißen der Wolkendecke und das Verschwinden der [[Daemonen]] wird die totale Vernichtung abgewendet.
 
 ### Die Zeit der Dunkelheit (um 14 n.H.)
 Brandenstein diente als letzte Bastion während der Krise um den [[Finsterwangen|Sphärenriss]]. In der Krypta wurde ein machtvoller Diamant-Artefakt mit hochkomprimierter Matrix geborgen, der heute im Turm der [[Custos_artis_Magicae]] die Stadt mit einer Schutzwellen-Matrix schirmt.
 
 ## Überlieferungen
-- [[Atmender_Tod]] (Chronik der Seuche)
+- [[Atmender_Tod]] ([[index]] der Seuche)
 - [[Angriff_der_Schwarzmagier]] (Verteidigungsberichte)
 - [[Zeitstrahl]] (Historische Einordnung)
 - [[Der_Flug_der_Ente]] (Bardenlieder & Legenden)

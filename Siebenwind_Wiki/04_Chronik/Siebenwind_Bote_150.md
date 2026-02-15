@@ -1,13 +1,13 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 150
-category: Chronik
+title: [[Siebenwind]] Bote 150
+category: [[index]]
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a912
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 150.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 150.md
 letzter_check: 2026-02-13T02:15:00+01:00
 ---
-# Siebenwind Bote 150
+# [[Siebenwind]] Bote 150
 
 **Epistemischer Status:** #bote
 **Datum:** 26. Querler 17 n.H. (Mittentag)
@@ -23,7 +23,7 @@ letzter_check: 2026-02-13T02:15:00+01:00
 *   **Tempelmord:** Ein Ork tötete eine Tempelwache nach einem Streit über eine Nortravin.
 *   **Zwergenweihe:** **[[Fraomar_Arkad_Grembargh]]** wurde zum Arkadhrall (Priester des [[Ignis]]/Arkadon) geweiht.
 
-## Personen
+## [[index]]
 *   **[[Fraomar_Arkad_Grembargh]]**: Neuer Zwergenpriester.
 *   **[[Gropp]]**: Überlebender eines Attentats.
 *   **[[Herr_Merik]]**: Opfer eines Dämonenangriffs (†).
@@ -33,4 +33,4 @@ letzter_check: 2026-02-13T02:15:00+01:00
 *   [[Herr_Merik]]
 
 ## Referenzen
-- Primärquelle: [Siebenwind Bote 150](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20150.md)
+- Primärquelle: [[[Siebenwind]] Bote 150](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20150.md)

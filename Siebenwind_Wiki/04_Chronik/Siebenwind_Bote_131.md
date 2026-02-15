@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 131
-category: Chronik
+title: [[Siebenwind]] Bote 131
+category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 131
@@ -21,9 +21,9 @@ category: Chronik
 
 ## Spenden zum Bau eines Obdachlosenheimes
 **Location:** [[Brandenstein]].
-**Persona:** [[Dame_Rose]], [[Arnim_Estragons]] (Arn).
+**Persona:** [[Dame_Rose]], [[Arnim_Estragons]] ([[Arn]]).
 **Inhalt:** Aufruf zu Materialspenden für ein kostenfreies Schlafhaus für Obdachlose und Reisende.
-**Autor:** *Arn*
+**Autor:** *[[Arn]]*
 
 ## Markttag in [[Falkensee]]
 **Location:** [[Falkensee]].

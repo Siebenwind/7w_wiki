@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Organisationsregister
-category: Fundament
+category: [[index]]
 ---
 
 # Organisationsregister
@@ -35,13 +35,13 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Kaufmannsgilde]] | Wirtschaftsgilde | [[Falkensee]] | #bote |
 | [[Graue_Garde]] | Arkane Exekutive | [[Falkensee]] | #bote |
 | [[Seegarde]] | Marine / Küstenschutz | [[Ersonter_Bund]] | #bote |
-| [[Schwarze_Legion]] | Militärkult (Angamon) | Vandrien / Pas | #perspektive |
+| [[Schwarze_Legion]] | Militärkult ([[Angamon]]) | Vandrien / Pas | #perspektive |
 | [[Oculus_Ecclesiae]] | Geheimbund d. Kirche | Inselweit / Festland | #perspektive |
 | [[Koenigliche_Kriegerakademie]] | Militärische Ausbildung | [[Seeberg]] | #bote |
 | [[Kuenstlerakademie]] | Kultur / Ausbildung | [[Falkensee]] | #bote |
 | [[Handwerkshaus_Falkensee]] | Zunft / Ausbildung | [[Falkensee]] | #bote |
 | [[Schattenhand]] | Unterwelt / Diebesgilde | Unbekannt | #bote |
-| [[Bruderschaft_der_Tardukai]] | Orden des Angamon | [[Ewigwacht]] | #bote |
+| [[Bruderschaft_der_Tardukai]] | Orden des [[Angamon]] | [[Ewigwacht]] | #bote |
 | [[Terra_Dorotor]] | Kult (zerschlagen) | [[Brandenstein]] | #bote |
 | [[Magierturm_zu_Tiefenbach]] | Magische Ausbildung (Zerstört) | [[Tiefenbach]] (Hist.) | #canon |
 | [[Akademie_der_Schwarzen_Kuenste]] | Magische Ausbildung (Verboten) | Unbekannt | #canon |
@@ -56,7 +56,7 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Lafays_Stab]] | Weißmagische Schule | Galadon | #perspektive |
 | [[Anstalt_fuer_ozeanische_Thaumaturgie]] | Magieschule (Blau) | Swa | #perspektive |
 | [[Akademie_des_gruenen_Zweiges]] | Magieschule (Grün) | Tiefenwald | #perspektive |
-| [[Schule_der_tausend_Funken]] | Magieschule (Ignis) | Malthust | #perspektive |
+| [[Schule_der_tausend_Funken]] | Magieschule ([[Ignis]]) | Malthust | #perspektive |
 | [[Ring_der_Wissenden]] | Zirkel innerhalb des Argionemes | - | #perspektive |
 | [[Blutige_Faust]] | Söldnertruppe | Unbekannt | #perspektive |
 | [[Magister_ad_Sinister]] | Nekromanten-Orden | Unbekannt | #perspektive |

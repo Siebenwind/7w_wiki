@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Historie & Ären
-category: Chronik
+category: [[index]]
 status: Kanon
 ---
 
@@ -9,7 +9,7 @@ status: Kanon
 
 **Epistemischer Status:** #bote
 
-Diese Chronik fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen.
+Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen.
 
 ## Die Zeitalter (Ären)
 
@@ -26,11 +26,11 @@ Die [[index]] Tares wird in Zeitalter unterteilt.
 *   **Angamons Krieg:** Der Dämonengott [[10_Angamon]] überzog die Welt mit Krieg.
 *   **Der Amulettkrieg:** Ein verheerender Konflikt, der das Gleichgewicht der Welt bedrohte.
 *   **Jassavias Fall:** Ein Schlüsselereignis auf Falandrien. Die legendäre "Weiße Stadt" **[[Jassavia]]** fiel.
-*   **Antike Ruinen:** Die geheimnisvolle Stadt **[[Mazareem]]** (Mazzaremer-Kultur) sank in die Schatten der Geschichte.
+*   **Antike Ruinen:** Die geheimnisvolle Stadt **[[Mazareem]]** (Mazzaremer-Kultur) sank in die Schatten der [[index]].
 
 ## Die Zeitrechnung "Nach Hilgorad" (n.H.)
 
-Die aktuelle Zeitrechnung beginnt mit dem Jahr der Thronbesteigung von **König Hilgorad I. ap Mer**.
+Die aktuelle Zeitrechnung beginnt mit dem Jahr der Thronbesteigung von **König [[Hilgorad_I_ap_Mer]]**.
 
 ### Die Entdeckung & Die Erste Kolonie (1 - 10 n.H.)
 *   **1 n.H.:** Entdeckung der Insel durch **Armgard Torbenson**.
@@ -38,10 +38,10 @@ Die aktuelle Zeitrechnung beginnt mit dem Jahr der Thronbesteigung von **König 
 *   **Blütezeit:** Bau des **[[Magierturm_zu_Tiefenbach|Magierturms zu Tiefenbach]]** und Besiedlung von **[[Finsterwangen]]**.
 
 ### Die Große Verwüstung & Der Rückzug (ca. 11 - 14 n.H.)
-*   **Der Fall von Rohehafen:** Ein Überraschungsangriff der Mächte [[10_Angamon|des Einen]] (begünstigt durch den Sphärenriss in Finsterwangen) zerstörte die erste Kolonie.
+*   **Der Fall von [[Rohehafen]]:** Ein Überraschungsangriff der Mächte [[10_Angamon|des Einen]] (begünstigt durch den Sphärenriss in [[Finsterwangen]]) zerstörte die erste Kolonie.
 *   **11 n.H.:** "Die Jüngste Schlacht" bei Venturia (Sieg über die Reste der Invasoren, aber hoher Preis).
-*   **Die Entstehung des Ödlands:** Die Gebiete um Rohehafen, Tiefenbach und Finsterwangen wurden durch dämonische Verderbnis unbewohnbar und bilden heute das **[[Ödland]]**.
-*   **Verlegung der Hauptstadt:** Die Überlebenden gründeten **[[Falkensee]]** (später Brandenstein-Region) als neues, befestigtes Zentrum hinter dem [[Falkenwall]].
+*   **Die Entstehung des Ödlands:** Die Gebiete um [[Rohehafen]], [[Tiefenbach]] und [[Finsterwangen]] wurden durch dämonische Verderbnis unbewohnbar und bilden heute das **[[Ödland]]**.
+*   **Verlegung der Hauptstadt:** Die Überlebenden gründeten **[[Falkensee]]** (später [[Brandenstein]]-Region) als neues, befestigtes Zentrum hinter dem [[Falkenwall]].
 
 *   **11 n.H.:** "Die Jüngste Schlacht" bei Venturia (Sieg über unbekannte Feinde, evtl. Reste von Angamons Horden).
 *   **12 n.H.:**
@@ -55,4 +55,4 @@ Die aktuelle Zeitrechnung beginnt mit dem Jahr der Thronbesteigung von **König 
 
 ## Undatierte historische Ereignisse
 *   **Sturm auf die Feste:** Rückeroberung des Reichsschwertes von Graf [[Koruun_McKevin]] (vor 15 n.H., erwähnt in Bote 149).
-*   **Vandrischer Bürgerkrieg:** Ein Konflikt, der viele Söldner nach [[Siebenwind]] trieb (z.B. die "Kraken").
+*   **Vandrischer Bürgerkrieg:** Ein Konflikt, der viele Söldner nach [[Siebenwind]] trieb (z.B. die "[[Kraken]]").

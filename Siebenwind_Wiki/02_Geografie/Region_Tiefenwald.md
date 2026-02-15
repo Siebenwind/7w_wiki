@@ -22,7 +22,7 @@ Ein riesiges Waldgebiet, das fast unberührt wirkt. Es ist die Heimat vieler **W
 
 ## Wirtschaft & Kultur
 *   **Holz:** Die Zimmerleute von Tiefenwald gelten als die besten Tares.
-*   **Magie:** Vereinzelte elfische Lehrmeister (Naturmagie).
+*   **[[index]]:** Vereinzelte elfische Lehrmeister (Naturmagie).
 
 ## Verlinkte Themen
 *   [[Rasse Elfen]]

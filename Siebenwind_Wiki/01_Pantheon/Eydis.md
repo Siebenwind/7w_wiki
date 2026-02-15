@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Eydis
-category: Pantheon
+category: [[index]]
 ---
 
 # Eydis

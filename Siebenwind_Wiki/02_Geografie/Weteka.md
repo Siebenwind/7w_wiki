@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Weteka
-category: Geografie
+category: [[index]]
 tags: [Ort, Vandrien, Stadt]
 status: #stub
 ---
@@ -10,7 +10,7 @@ status: #stub
 
 **Epistemischer Status:** #stub
 
-**Weteka** ist eine Stadt im Lehen [[Vandrien]]. Während der Rebellion des Fürsten [[Raziel]] (Vandrischer Bürgerkrieg) war Weteka ein umkämpfter Schauplatz. Laut Berichten aus dem [[Siebenwind_Bote|Siebenwind Boten]] (Ausgabe 142) wurden die Aufständischen hier von General [[Hornstoß]] vernichtend geschlagen.
+**Weteka** ist eine Stadt im Lehen [[Vandrien]]. Während der Rebellion des Fürsten [[Raziel]] (Vandrischer Bürgerkrieg) war Weteka ein umkämpfter Schauplatz. Laut Berichten aus dem [[Siebenwind_Bote|[[Siebenwind]] Boten]] (Ausgabe 142) wurden die Aufständischen hier von General [[Hornstoß]] vernichtend geschlagen.
 
 Auch später litt die Stadt unter den Folgen des Krieges und Naturkatastrophen (Sturmfluten).
 

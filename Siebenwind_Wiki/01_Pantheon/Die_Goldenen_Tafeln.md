@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Die Goldenen Tafeln"
-category: Pantheon
+category: [[index]]
 status: Integrated
-quelle: "Bibliothek Astrael"
+quelle: "[[index]] [[Astrael]]"
 ---
 
 # Die Goldenen Tafeln

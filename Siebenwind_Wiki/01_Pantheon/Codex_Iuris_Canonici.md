@@ -4,7 +4,7 @@ uuid: 4a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
 title: Codex Iuris Canonici
 category: Religion
 status: integrated
-quelle: "../../Quellen/Bibliothek Astrael/Codex Iuris Canonici.md"
+quelle: "../../Quellen/[[index]] [[Astrael]]/Codex Iuris Canonici.md"
 lore_trust: 10
 confidence: Certain
 report_id: h9i0j1k2-l3m4-5n6o-7p8q-9r10s11t12u13
@@ -15,7 +15,7 @@ letzter_check: 2026-02-16T00:00:00+01:00
 
 **Epistemischer Status:** #überlieferung
 
-Der **Codex Iuris Canonici** (CIC) stellt das fundamentale klerikale Gesetzwerk der [[Kirche_der_Viere]] dar. Er wurde vom Erzconsilium der Viere zu Draconis erlassen und regelt die hierarchische Struktur, die rechtliche Stellung gegenüber der weltlichen Macht sowie die inneren Abläufe der Orden.
+Der **Codex Iuris Canonici** (CIC) stellt das fundamentale klerikale Gesetzwerk der [[Kirche_der_Viere]] dar. Er wurde vom Erzconsilium der Viere zu [[Draconis]] erlassen und regelt die hierarchische Struktur, die rechtliche Stellung gegenüber der weltlichen Macht sowie die inneren Abläufe der Orden.
 
 ## Inhaltliche Schwerpunkte
 
@@ -48,7 +48,7 @@ Der CIC enthält einen detaillierten Strafkatalog für Verfehlungen gegen den Gl
 * [[Vitama]]
 
 ## Referenzen
-- Primärquelle: [Codex Iuris Canonici](../../Quellen/Bibliothek%20Astrael/Codex%20Iuris%20Canonici.md)
+- Primärquelle: [Codex Iuris Canonici](../../Quellen/[[index]]%20Astrael/Codex%20Iuris%20Canonici.md)
 - Siehe auch: [[Aequitas]] (Philosophische Ergänzung zum Kirchenrecht)
 
 <!-- Audit: 2026-02-13 | Status: Initial Ingestion | Score: 4 (Source: Library/Überlieferung) -->

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Die Sprache Run
-category: Fundament
+category: [[index]]
 tags: [Sprache, Run, Linguistik, Mythologie, Gohor]
 status: #überlieferung
 ---
@@ -10,7 +10,7 @@ status: #überlieferung
 
 **Epistemischer Status:** #canon
 
-Die Sprache **Run** (auch Altgaladonisch genannt) gilt laut Gelehrten wie Edomawyr als die älteste Sprache des Universums. Legenden besagen, dass sie die Sprache der [[Die_Gohor|Gohor]] (Götter/[[Drachen]]) ist und sich im Laufe der Zeitalter zum heutigen Galadonisch wandelte.
+Die Sprache **Run** (auch Altgaladonisch genannt) gilt laut Gelehrten wie [[Edomawyr]] als die älteste Sprache des Universums. Legenden besagen, dass sie die Sprache der [[Die_Gohor|Gohor]] (Götter/[[Drachen]]) ist und sich im Laufe der Zeitalter zum heutigen Galadonisch wandelte.
 
 ## Linguistischer Hintergrund
 
@@ -42,10 +42,10 @@ Run zeichnet sich durch ein systematisches Endungsschema aus:
 *   **Corp:** Tod
 *   **Dyr:** Wille
 *   **Enwunji:** Buch
-*   **Odal:** Magie
+*   **Odal:** [[index]]
 
 ---
 > [!TIP]
 > Die Substantivierung erfolgt oft über die Endung **~ai** (Der, der etwas tut, z.B. *Odalj* - Magier).
 
-**Quelle:** [Die Sprache Run.html](../../Quellen/Bibliothek%20Astrael/Die%20Sprache%20Run.html)
+**Quelle:** [Die Sprache Run.html](../../Quellen/[[index]]%20Astrael/Die%20Sprache%20Run.html)

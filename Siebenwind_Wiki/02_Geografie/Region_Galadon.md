@@ -31,7 +31,7 @@ Das Reich ist in zahlreiche Herzogtümer, Fürstentümer, Grafschaften und Baron
 *   **[[Region Malthust]]:** (Ost/Südost) Ehemaliges Bergbauzentrum, heute im Wiederaufbau unter Fürst Kasimier.
 *   **[[Region Ossian]]:** (Ostküste) Seehandel, Schiffbau, Tor nach [[Siebenwind]], Fürstin Asodayr.
 *   **[[Region Tiefenwald]]:** (Nordwest) Waldreich, Elfenfreundlich, Holzindustrie.
-*   **[[Region Vandrien]]:** (Süd) Religiös unruhig, Pakt der Viereinigkeit.
+*   **[[Region Vandrien]]:** (Süd) Religiös unruhig, [[Pakt_der_Viereinigkeit]].
 
 ### 3. Grafschaften & Baronien (Blutsadel)
 *   **[[Region Ersont]]:** (Nord) Militärische Garnisonen, Graf Gernod.
@@ -41,7 +41,7 @@ Das Reich ist in zahlreiche Herzogtümer, Fürstentümer, Grafschaften und Baron
 *   **[[Region Gerdenwald]]:** (Insel Hügelau) Heimat der [[Rasse_Halblinge]].
 *   **[[Region Kadamark]]:** (Nordost) Holz, Handwerk, Baron Siegfried.
 *   **[[Region Kettel]]:** (Nordost) Tradition, Textil (Librasulus), Zwergenstadt Narko.
-*   **[[Region Morthum]]:** (Ost) Düster, Bergbau am Dabus, Seuche "Atmender Tod".
+*   **[[Region Morthum]]:** (Ost) Düster, Bergbau am Dabus, Seuche "[[Atmender_Tod]]".
 *   **[[Region Ravel]]:** (Ostgrenze) Wildes Orkenland, Sümpfe, Baronin Luvaril.
 *   **[[Region Wallenburg]]:** (Süd) Reichtum, Edelsteine, Goldschmiedekunst.
 

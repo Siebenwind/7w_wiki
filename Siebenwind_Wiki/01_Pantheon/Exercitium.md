@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
 title: "Exercitium"
-category: Pantheon
+category: [[index]]
 status: integrated
-quelle: "/Quellen/Bibliothek Astrael/Exercitium.md"
+quelle: "/Quellen/[[index]] [[Astrael]]/Exercitium.md"
 author: "Elgar von Utracht"
 ---
 
 # Exercitium
 
-Diese Sammlung von **Elgar von Utracht** dient der geistigen Schulung der Diener [[Astrael]]s. Sie ist in drei Teile gegliedert, die den Geist flink und empfänglich für die Wunder der Götter halten sollen.
+Diese Sammlung von **Elgar von Utracht** dient der geistigen Schulung der Diener [[Astrael]]s. Sie ist in drei Teile gegliedert, die den [[Geist]] flink und empfänglich für die Wunder der Götter halten sollen.
 
 ## I. Obscura (Die Rätsel)
 Rätsel zur Schulung der Logik. 
@@ -17,7 +17,7 @@ Rätsel zur Schulung der Logik.
 
 ## II. Gemma (Worte der Weisheit)
 Aphorismen und Lehrsätze aus Savaro:
-* „Wer die Menschen kennt, der ist klug. Wer sich selber kennt, ist erleuchtet.“
+* „Wer die [[Menschen]] kennt, der ist klug. Wer sich selber kennt, ist erleuchtet.“
 * „Glaube ist der Finger, der zum Mond zeigt. Nicht der Mond selbst.“
 * „Der Weise lässt, was er nicht tun kann.“
 

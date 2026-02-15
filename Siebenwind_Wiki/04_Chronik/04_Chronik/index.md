@@ -4,7 +4,7 @@ title: Chronik
 ---
 
 # [[Siebenwind]] Wiki - Chronik
-Das Archiv der Chronik.
+Das [[index]] der Chronik.
 
 ## Inhalte
 

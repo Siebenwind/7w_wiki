@@ -1,8 +1,8 @@
 ---
 layout: wiki_page
 title: Solfeister Kin
-category: Bibliothek
-tags: [Erzählung, Angamon, Dunkeltief, Kult]
+category: [[index]]
+tags: [Erzählung, [[Angamon]], [[Dunkeltief]], Kult]
 status: #perspektive
 ---
 
@@ -20,14 +20,14 @@ Der Text beginnt mit Visionen von Blut ("Meer aus Blut"), einer "Feste aus dunke
 ### Das Amt (Folter)
 Der Protagonist beschreibt Folterungen ("Instrumente", "Finger brechen", "Haut ablösen"), die jedoch nicht als Bestrafung, sondern als transzendentes Spiel ("Das Kräftemessen") oder Initiation verstanden werden. Schmerz wird als Weg zur Erkenntnis oder Läuterung dargestellt, wobei Heilung nur dazu dient, das Leid zu verlängern. Er spricht eine "Exzellenz" an.
 
-### Das Dunkeltief
-Im letzten Abschnitt wird der Anbruch der **Ewigen Nacht** ([[Dunkeltief]]) gefeiert. Angamon, der Herr der Angst, wird als nahe empfunden.
+### Das [[Dunkeltief]]
+Im letzten Abschnitt wird der Anbruch der **Ewigen Nacht** ([[Dunkeltief]]) gefeiert. [[Angamon]], der Herr der Angst, wird als nahe empfunden.
 *   **Das Ritual:** Eine "Tochter" führt ein Ritual durch, um eine ekelerregende Kreatur zu rufen.
 *   **Biologische Kriegsführung?**: Die Kreatur löst sich auf und wird "in Fässer verpackt", um "ausgebracht" zu werden. Dies deutet auf die Verbreitung von Seuchen oder Giften während des Dunkeltiefs hin.
 
 ## Relevante Entitäten
 
-### Personen
+### [[index]]
 *   **Solfeister Kin / Are Kin**: Der Erzähler und Kultist.
 *   **Die Tochter**: Führt Rituale durch.
 *   **Exzellenz**: Ein höherrangiger Kultist oder Foltermeister.

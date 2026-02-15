@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Ordo Belli
-category: Pantheon
+category: [[index]]
 ---
 
 # Ordo Belli

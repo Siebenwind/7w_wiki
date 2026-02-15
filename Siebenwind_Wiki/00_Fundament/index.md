@@ -4,14 +4,14 @@ title: Fundament
 ---
 
 # [[Siebenwind]] Wiki - Fundament
-Das Archiv der Fundament.
+Das [[index]] der Fundament.
 
 ## Inhalte
 
 ### Artikel
 *   [[Adelskalender|Adelskalender]]
-*   [[Archiv_Register|Archiv Register]]
-*   [[Bestiarium_Register|Bestiarium Register]]
+*   [[Archiv_Register|[[index]] Register]]
+*   [[Bestiarium_Register|[[index]] Register]]
 *   [[Bibliotheks_Register|Bibliotheks Register]]
 *   [[Das_Fundament|Das Fundament]]
 *   [[Die_Monde|Die Monde von [[Tare]]]]
@@ -22,7 +22,7 @@ Das Archiv der Fundament.
 *   [[Handwerk_Übersicht|Handwerk Übersicht]]
 *   [[Lichthoch|Lichthoch]]
 *   [[Linguistik_Übersicht|Linguistik Übersicht]]
-*   [[Magie_Grundlagen|Magie Grundlagen]]
+*   [[Magie_Grundlagen|[[index]] Grundlagen]]
 *   [[Magietheorie_Toran_Dur|Magietheorie (Toran [[Dur]])]]
 *   [[Orden_der_Wachenden_Löwen|Orden der Wachenden Löwen]]
 *   [[Organisationsregister|Organisationsregister]]

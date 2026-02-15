@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Skapenfestung
-category: Geografie
+category: [[index]]
 status: #bote
-tags: [Festung, Ravel, Skapengebirge, Verteidigung, Orken]
+tags: [Festung, Ravel, Skapengebirge, Verteidigung, [[Orken]]]
 uuid: f1234567-a916-48b3-9a30-8de6fbc712da
 ---
 
@@ -22,13 +22,13 @@ Unter dem Hochmeister **Ahorat Betlis von Meerfest** sind in der Festung etwa 9.
 *   Pikeniere und Schwertkämpfer-Brigaden (ca. 8.400 Mann).
 *   Eine Einheit von [[Graumagier|Graumagiern]] zur arkanan Unterstützung.
 
-Zusammen mit Freiwilligen erreicht die Wehrkraft in Krisenzeiten bis zu 11.000 Personen.
+Zusammen mit Freiwilligen erreicht die Wehrkraft in Krisenzeiten bis zu 11.000 [[index]].
 
 ## Architektur und Bau
 Die Festung wurde mit Unterstützung der [[Rasse_Zwerge|Zwerge]] errichtet, welche auch für die Konstruktion der gewaltigen Belagerungs- und Verteidigungswaffen (Ballisten, Katapulte) verantwortlich zeichneten. 
 
-## Geschichte
-Im Jahr 4415 n. A. (4. Jahr der Krönung von [[Tyrana_I|König Tyrana I.]]) kam es zu einer massiven Belagerung durch eine Allianz aus Orken, Trollen und Ogern. Dabei gelang es den Angreifern mit einer spezialisierten Belagerungsmaschine, das erste Torhaus zu durchbrechen.
+## [[index]]
+Im Jahr 4415 n. A. (4. Jahr der Krönung von [[Tyrana_I|König Tyrana I.]]) kam es zu einer massiven Belagerung durch eine Allianz aus [[Orken]], Trollen und Ogern. Dabei gelang es den Angreifern mit einer spezialisierten Belagerungsmaschine, das erste Torhaus zu durchbrechen.
 
 ---
 **Siehe auch:** [[Region_Ravel]], [[Orken]], [[Region_Khalandra]]

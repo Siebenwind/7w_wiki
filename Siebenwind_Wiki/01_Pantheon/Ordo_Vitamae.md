@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Ordo Vitamae
-category: Pantheon
+category: [[index]]
 ---
 
 # Ordo Vitamae

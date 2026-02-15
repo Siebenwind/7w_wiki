@@ -15,7 +15,7 @@ category: [[Geografie]]
 Die Stadt beherbergt einen auffälligen Turm, der Teil der [[Magie_Grundlagen|königlichen Akademie zu Siebenwind]] ist. Südfall gilt als ein Schmelztiegel der Kulturen, in dem Händler, Seeleute und Magier aufeinandertreffen.
 
 ## Ereignisse
-- **18 n.H.:** Heimsuchung des Turms durch einen bösartigen Geist ([[Heimsuchung_der_Akademie]]).
+- **18 n.H.:** Heimsuchung des Turms durch einen bösartigen [[Geist]] ([[Heimsuchung_der_Akademie]]).
 - **17 n.H.:** Das "Wunder von Südfall" während des [[Orkenaufstand_17_nH|Orkenaufstands]].
 
 ### Die Realitätsverwerfung

@@ -26,16 +26,16 @@ Die Verehrung Angamons ist im Königreich Galadon bei Todesstrafe verboten. Sein
 - **Dunkle Kulte:** Versprechen Macht um jeden Preis.
 - **Ziele:** Die Schwächung der *Viere* und die Vorbereitung der Welt auf die Herrschaft des Schattens.
 
-## Die Dunkle Seite der Magie
-Hexenmeister und Nekromanten (die nicht den *[[05_Morsan]]*-Riten folgen) rufen oft Angamons Macht an, um [[Daemonen]] zu beschwören oder Flüche zu weben. Diese Magie fordert stets einen blutigen Preis.
+## Die Dunkle Seite der [[index]]
+Hexenmeister und Nekromanten (die nicht den *[[05_Morsan]]*-Riten folgen) rufen oft Angamons Macht an, um [[Daemonen]] zu beschwören oder Flüche zu weben. Diese [[index]] fordert stets einen blutigen Preis.
 
 ## Beziehungen
-- **[[Bellum]]:** Sein erbittertster Feind. Wo Bellum loderndes Feuer gegen die Schatten führt, versucht Angamon, jede Flamme des Mutes zu ersticken.
+- **[[Bellum]]:** Sein erbittertster Feind. Wo [[Bellum]] loderndes Feuer gegen die Schatten führt, versucht Angamon, jede Flamme des Mutes zu ersticken.
 - **[[Vitama]]:** Sie ist der Inbegriff dessen, was er hasst. Er trachtet nicht danach, sie zu vernichten, sondern ihr Werk zu pervertieren.
 - **[[Astrael]]:** Das Licht des Wissens ist sein Gift. Astraels Klarheit bannt die Angst, in der Angamons Einflüsterungen gedeihen.
 
 ## Verwandte Themen
 - [[Religion_Übersicht]]
 - [[Die_Viere_Kirche]] verdammt ihn.
-- [[Magie_Grundlagen]] - Dunkle Magie
+- [[Magie_Grundlagen]] - Dunkle [[index]]
 - [[Kreaturen]] - [[Dämonen]]

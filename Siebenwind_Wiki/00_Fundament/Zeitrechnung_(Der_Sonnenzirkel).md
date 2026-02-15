@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Zeitrechnung (Der Sonnenzirkel)
-category: Fundament
+category: [[index]]
 status: Kanon
 ---
 
@@ -58,7 +58,7 @@ Die gebräuchlichste Zeitrechnung auf [[Siebenwind]] ist **"nach Hilgorad" (n.H.
 
 ## Wichtige Feiertage
 *   **3. Dular:** Fest der [[Vitama]] (Frühlingsfest).
-*   **Lichthoch:** Siehe oben.
+*   **[[Lichthoch]]:** Siehe oben.
 *   **[[Dunkeltief]]:** Siehe oben.
 
 ## Der Mond Vitamalin

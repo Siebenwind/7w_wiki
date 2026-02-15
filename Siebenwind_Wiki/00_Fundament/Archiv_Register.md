@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Archiv Register
+title: [[index]] Register
 category: Index
 ---
 
-# Archiv Register
+# [[index]] Register
 
 **Epistemischer Status:** #canon
 

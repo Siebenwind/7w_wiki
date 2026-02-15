@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Die Stadtchronik Rohehafens"
-category: Geschichte
+category: [[index]]
 status: integrated
-quelle: "/Quellen/Bibliothek Astrael/Die Stadtchronik Rohehafens.md"
+quelle: "/Quellen/[[index]] [[Astrael]]/Die Stadtchronik Rohehafens.md"
 author: "Etril Gamajeff"
 ---
 
@@ -14,13 +14,13 @@ author: "Etril Gamajeff"
 **Autor:** Etril Gamajeff
 
 > [!IMPORTANT]
-> Dieses Dokument beschreibt **Rohehafen** auf dem Höhepunkt seines Glanzes als erste Hauptstadt der Kronmark Siebenwind. Es spiegelt den Zustand vor der großen Verwüstung und der Entstehung des [[Ödland]]s wider.
+> Dieses Dokument beschreibt **[[Rohehafen]]** auf dem Höhepunkt seines Glanzes als erste Hauptstadt der Kronmark [[Siebenwind]]. Es spiegelt den Zustand vor der großen Verwüstung und der Entstehung des [[Ödland]]s wider.
 
 ## Die prächtige Hauptstadt
-Rohehafen ist die prächtige Hauptstadt [[Siebenwind]]s und gilt als größte und schönste Stadt der Insel. Sie befindet sich in einem ständigen Wandel, insbesondere hin zu einer Marmorstadt mit befestigter Stadtmauer. Sie gilt als erster Treffpunkt für alle höheren Herren und als beliebtester Bauplatz für neue Siedler.
+[[Rohehafen]] ist die prächtige Hauptstadt [[Siebenwind]]s und gilt als größte und schönste Stadt der Insel. Sie befindet sich in einem ständigen Wandel, insbesondere hin zu einer Marmorstadt mit befestigter Stadtmauer. Sie gilt als erster Treffpunkt für alle höheren Herren und als beliebtester Bauplatz für neue Siedler.
 
 ## Bevölkerung
-Rohehafen ist ein Schmelztiegel aller Rassen. Neben Menschen haben sich hier auch viele [[Volkskunde#Hochelfen|Hochelfen]] niedergelassen. König [[Hilgorad_I_ap_Mer|Hilgorad]] ließ gezielt Häuser errichten, um Siedler aus Falandrien anzuziehen.
+[[Rohehafen]] ist ein Schmelztiegel aller Rassen. Neben [[Menschen]] haben sich hier auch viele [[Volkskunde#Hochelfen|Hochelfen]] niedergelassen. König [[Hilgorad_I_ap_Mer|Hilgorad]] ließ gezielt Häuser errichten, um Siedler aus Falandrien anzuziehen.
 
 ## Geographie und Wirtschaft
 * **Lage**: Im Süden und Nordwesten von Wald umgeben, im Osten eine weite Ebene. Im Nordosten befindet sich das Hochelfenviertel.
@@ -40,13 +40,13 @@ Die Stadt ist ein zentraler Wegeknotenpunkt:
 * **Taverne "Zur goldenen Harfe"**
 * **Streunerlager**: Ein Zeltlager im Süden für Reisende mit wenig Geld, Zigeuner und Abenteurer.
 
-## Recht und Ordnung
-Die Stadtwachen patrouillieren regelmäßig. Zudem ist auf der Burg eine Abteilung der **Ritter von Siebenwind** stationiert, die im Notfall gegen Monster oder Diebesbanden ausrückt.
+## [[index]] und Ordnung
+Die Stadtwachen patrouillieren regelmäßig. Zudem ist auf der Burg eine Abteilung der **Ritter von [[Siebenwind]]** stationiert, die im Notfall gegen Monster oder Diebesbanden ausrückt.
 
-## Religion und Magie
+## Religion und [[index]]
 König Hilgorad befahl die Anlage eines Platzes zu Ehren der Götter. Magisch ist die Stadt durch einen Außenposten der Magierakademie im Norden und das Haus des elementaren Erzmagus im Süden geprägt.
 
-## Personen
+## [[index]]
 * [[Hilgorad_I_ap_Mer|König Hilgorad]]
 * [[Baron_Gerdenwald]]
 * [[Etril_Gamajeff]] (Chronist)

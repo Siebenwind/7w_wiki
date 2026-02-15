@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 129
-category: Chronik
+title: [[Siebenwind]] Bote 129
+category: [[index]]
 ---
 
-# Siebenwind Bote 129
+# [[Siebenwind]] Bote 129
 
 **Epistemischer Status:** #bote
 **Datum:** 5. Oner 16 n.H.
@@ -17,8 +17,8 @@ category: Chronik
 - **6 Teilzünfte:** Holzverarbeitung, Metallverarbeitung, Nahrungsproduktion, Landwirtschaft, Schneider & Jäger, Krämer & Händler (plus "Sonstige": Alchemisten, Heiler, Schreiber).
 - **Zunftgarde:** "Brandensteiner Schwerter" — zunfteigene Garde unter einem "Ersten Schwert".
 - **Zunftgebäude:** Ehemaliges [[Handelsbund]]-Haus wird Zunfthaus. Weitere: Handwerksschule Gropp, Mühle am Goldquell, Hafenmeisterei.
-- **Handel:** Elfenholz nur durch Elfen, Fethril nur durch Zwerge handelbar.
-- **Siegfried von Steiner Titel:** Ritter der Sieben Winde, Ritter der Tafelrunde, Hochmeister des Falken, Marschall, Lehensvasall, Oberster Statthalter, Zunftherr, **Leiter der Königlichen Zensurbehörde**.
+- **Handel:** Elfenholz nur durch [[Elfen]], Fethril nur durch [[Zwerge]] handelbar.
+- **Siegfried von Steiner Titel:** [[Ritter_der_Sieben_Winde]], Ritter der Tafelrunde, Hochmeister des Falken, Marschall, Lehensvasall, Oberster Statthalter, Zunftherr, **Leiter der Königlichen Zensurbehörde**.
 
 ---
 **Quellen:** [[Siebenwind_Bote_129]] (Original)

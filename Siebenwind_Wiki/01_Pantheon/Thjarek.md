@@ -1,14 +1,14 @@
 ---
 layout: wiki_page
 title: Thjarek
-category: Pantheon
+category: [[index]]
 ---
 
 # Thjarek
 
 **Epistemischer Status:** #überlieferung | #bote
 
-**Thjarek** (der Allmächtige) ist der Hauptgott im Pantheon der [[Nortraven]].
+**Thjarek** (der Allmächtige) ist der Hauptgott im [[index]] der [[Nortraven]].
 
 ## Rolle & Attribute
 Er gilt als der Schöpfer der Welt [[Tare]] und des nortravischen Volkes. Thjarek wird als gewaltiger Mann mit blondem Haar und blauen Augen beschrieben, der Stärke, Stolz und Unbeugsamkeit verkörpert. Sein Element ist das Wasser und das Meer, sein Symbol der Hammer.

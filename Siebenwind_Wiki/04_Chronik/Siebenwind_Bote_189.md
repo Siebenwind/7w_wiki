@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 189
-category: Chronik
+title: [[Siebenwind]] Bote 189
+category: [[index]]
 ---
 
-# Siebenwind Bote 189
+# [[Siebenwind]] Bote 189
 
 **Epistemischer Status:** #bote
 **Datum:** 19. Onar 29 n.H.
@@ -12,20 +12,20 @@ category: Chronik
 
 ## Schlagzeilen
 
-### Der Kampf gegen die Dämonen
-- **Ödland-Expedition:** [[Tardukai]], Magier und Geweihte erkundeten das Ödland. Ergebnis: Sumpf des Todes, korrumpierte Natur. [[Erynnion_Comari]] wurde zum Chronisten ernannt.
+### Der Kampf gegen die [[Daemonen]]
+- **[[Ödland]]-Expedition:** [[Tardukai]], Magier und Geweihte erkundeten das [[Ödland]]. Ergebnis: Sumpf des Todes, korrumpierte Natur. [[Erynnion_Comari]] wurde zum Chronisten ernannt.
 - **Kesselklamm:** Die [[Ecclesia_Elementorum]] (u.a. [[Zarna_Eschelwald]]) brachte einen Smaragdriesen zum Schrein der Erdenmutter, um den Erddämon [[Orgolosch]] zu schwächen. Warnung: Die Wurzeln saugen das Leben aus der Insel.
 - **Magierturm:** Ritual zur Analyse der Teleportblockade.
 
-### Politik & Gesellschaft
-- **Nortraven:** [[Ayk_Areson]] (Exil-Nortraven) ist neuer Jarl von [[Westhever]] (Nachfolger von Halvard).
-- **Elfen:** Vogt [[Maichellis_Wanderstern]] wurde geehrt und trägt nun den Titel "Morgenstern".
+### Politik & [[index]]
+- **[[Nortraven]]:** [[Ayk_Areson]] (Exil-[[Nortraven]]) ist neuer Jarl von [[Westhever]] (Nachfolger von [[Halvard]]).
+- **[[Elfen]]:** Vogt [[Maichellis_Wanderstern]] wurde geehrt und trägt nun den Titel "Morgenstern".
 - **Soziales:** [[Marnie_Ruatha]] und [[Jasna]] eröffneten ein Armenhaus in [[Brandenstein]].
-- **Magie:** Das **Große Konzil** scheiterte endgültig, da der Schwarze Pfad die Dämonologie legalisieren wollte. Der Weiße Pfad verließ die Versammlung. [[Decaras_Pelenus]] scheiterte mit dem Versuch, ein Graues Konvent einzuberufen.
+- **[[index]]:** Das **Große Konzil** scheiterte endgültig, da der Schwarze Pfad die Dämonologie legalisieren wollte. Der Weiße Pfad verließ die Versammlung. [[Decaras_Pelenus]] scheiterte mit dem Versuch, ein Graues Konvent einzuberufen.
 - **Akademie:** [[Erynnion_Comari]] wurde zum **Magister Magus Ita Glur** erhoben. Neuer Adept: [[Roland_Telvos]].
 
 ### Trivia
-- **Turnier:** [[Halvard]] gewann das Turnier von Brandenstein.
+- **Turnier:** [[Halvard]] gewann das Turnier von [[Brandenstein]].
 - **Korrektur:** Eine fälschlich als "Ausgabe 190" kursierende Zeitung war eigentlich Bote 188.
 
 ---

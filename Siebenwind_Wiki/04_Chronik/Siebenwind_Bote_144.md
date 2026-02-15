@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 144
-category: Chronik
+title: [[Siebenwind]] Bote 144
+category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 144

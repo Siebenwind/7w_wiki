@@ -1,13 +1,13 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 163
-category: Chronik
+title: [[Siebenwind]] Bote 163
+category: [[index]]
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a925
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 163.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 163.md
 letzter_check: 2026-02-13T15:10:00+01:00
 ---
-# Siebenwind Bote 163
+# [[Siebenwind]] Bote 163
 
 **Epistemischer Status:** #bote
 **Datum:** 30. Oner 19 n.H. (Mittentag)
@@ -19,11 +19,11 @@ letzter_check: 2026-02-13T15:10:00+01:00
 *   **Konvent der Graumagier:** Auf Burg [[Brandenstein]] wurde **[[Toran_Dur]]** mit großer Mehrheit zum neuen Erzmagus des Grauen Pfades gewählt (Nachfolge von **[[Kida_Gilwen]]**). Eine Störung durch die zwielichtige **Isabella von Lichtenau** wurde abgewehrt.
 
 ## Lokales
-*   **Technik:** In Venturia wurde der Kiel für das revolutionäre Eisenschiff **"Rorsa"** gelegt (Konstrukteur: **Swerdan Samoth**).
+*   **Technik:** In Venturia wurde der Kiel für das revolutionäre Eisenschiff **"Rorsa"** gelegt (Konstrukteur: **[[Swerdan_Samoth]]**).
 *   **Gastronomie:** Die Taverne **"Zum Seiltänzer"** im Fremdenviertel von [[Falkensee]] wurde unter neuer Führung wiedereröffnet.
 *   **Justiz:** In Ventria (Festland) wurde eine komplette Wachgarnison wegen rüpelhaften Verhaltens und Dienstversäumnissen entlassen.
 
-## Personen
+## [[index]]
 *   **[[Ignatius_von_Mendel]]**: Drahtzieher der Königsentführung.
 *   **[[Toran_Dur]]**: Leiter der Rettungsexpedition und neu gewählter Erzmagus.
 *   **[[Hendwig]]**: Gefallener Gardist (Heldenstatur).
@@ -31,4 +31,4 @@ letzter_check: 2026-02-13T15:10:00+01:00
 *   **[[Ziska_Himmelmann]]**: Reporterin des "Spatzen", die mit den Entführern unter einer Decke steckte.
 
 ## Referenzen
-- Primärquelle: [Siebenwind Bote 163](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20163.md)
+- Primärquelle: [[[Siebenwind]] Bote 163](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20163.md)

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Burg Finianswacht
+title: Burg [[Finianswacht]]
 category: [[Geografie]]
 ---
 

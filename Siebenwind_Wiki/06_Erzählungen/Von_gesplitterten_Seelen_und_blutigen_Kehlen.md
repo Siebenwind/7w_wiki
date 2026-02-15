@@ -32,7 +32,7 @@ Die Erzählung beschreibt die gefährliche Reise einer Gruppe durch die Steinwü
 
 ## Lore-Anker
 - **[[Dunkeltief]]:** Bestätigung der dreitägigen Finsternis im Winter, in der keine Sterne oder Monde (auch kein Felaschein) zu sehen sind und die Schergen des Einen auf [[Tare]] wandeln.
-- **[[Region_Endophal]]:** Charakterisierung als karge Steinwüste mit gefährlichen Bewohnern (Harpyien, [[Untote]]).
+- **[[Region_Endophal]]:** Charakterisierung als karge Steinwüste mit gefährlichen Bewohnern ([[Harpyien]], [[Untote]]).
 - **Blutige Faust:** Eine Söldnergruppe, bestehend aus Abgängern der Kriegerakademie.
 - **Waffenschmuggel:** Hinweis auf minderwertige Rüstungen und Waffen, die von [[Al-Barlis-Nekor]] unter falschem Namen (z.B. "zwergische Meisterarbeit") verkauft werden.
 

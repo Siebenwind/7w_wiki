@@ -4,7 +4,7 @@ title: Bibliothek
 ---
 
 # [[Siebenwind]] Wiki - Bibliothek
-Das Archiv der Bibliothek.
+Das [[index]] der Bibliothek.
 
 ## Inhalte
 

@@ -3,7 +3,7 @@ layout: wiki_page
 title: Ignis
 type: Religion
 status: Kanon (Level 1)
-tags: [Elementarherr, [[Enhor]], Feuer, Magie]
+tags: [Elementarherr, [[Enhor]], Feuer, [[index]]]
 ---
 
 # Ignis
@@ -24,7 +24,7 @@ Ignis wurde von *Galamnor* aus dem Urfeuer geformt. Er ist der wildeste der [[En
 ## Verehrung
 Ignis wird nicht wie die *Viere* in Tempeln verehrt, sondern eher gefürchtet und respektiert. Magier rufen ihn an, um Feuer zu kontrollieren. Schmiede bitten ihn um ein heißes Feuer.
 
-## Magie (Elementarer Pfad)
+## [[index]] (Elementarer Pfad)
 Anhänger des Elementaren Pfades, die sich Ignis verschreiben, können Feuerbälle schleudern, Flammenwände erschaffen oder sich selbst gegen Hitze immunisieren.
 
 ## Beziehungen

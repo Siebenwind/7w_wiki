@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Ritter der Sieben Winde
-category: Fundament
+category: [[index]]
 ---
 
 # Ritter der Sieben Winde
@@ -18,9 +18,9 @@ Es gibt zu jedem Zeitpunkt nur **einen** amtierenden Großmeister des Ordens. Di
 3.  **Dragonor Ragnarok**: Gilt als der untadeligste Ritter.
 4.  **Talliostro Barnabas**.
 5.  **[[Koruun_McKevin]]**: Wurde später in den Grafenstand erhoben.
-6.  **Hagen Robaar von Saalhorn**: Gilt als bedeutender Lehnsherr Siebenwinds (ca. 15-18 n.H.).
+6.  **[[Hagen_Robaar]] von Saalhorn**: Gilt als bedeutender Lehnsherr Siebenwinds (ca. 15-18 n.H.).
 7.  **Aspin Schwertklinge**: Heldengestalt, Rückkehr aus dem Tod.
-8.  **Siegfried Steiner**: Amtierend während der Zeit des Abschieds von Robaar (ca. 20 n.H.).
+8.  **[[Siegfried_Steiner]]**: Amtierend während der Zeit des Abschieds von Robaar (ca. 20 n.H.).
 
 ## Struktur
 Der Orden verwaltet traditionell die Burg **[[Finianswacht]]** und die Burg **[[Brandenstein]]**. 

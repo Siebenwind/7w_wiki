@@ -3,14 +3,14 @@ layout: wiki_page
 title: Ventus
 type: Religion
 status: Kanon (Level 1)
-tags: [Elementarherr, [[Enhor]], Luft, Wind, Magie]
+tags: [Elementarherr, [[Enhor]], Luft, Wind, [[index]]]
 ---
 
 # Ventus
 
 **Epistemischer Status:** #canon
 
-**Ventus** ist einer der vier Elementarherren ([[Enhor]]) und der Herrscher über das Element Luft. Er steht für Freiheit, Bewegung, Unbeständigkeit und den Geist (in seiner flüchtigen Form).
+**Ventus** ist einer der vier Elementarherren ([[Enhor]]) und der Herrscher über das Element Luft. Er steht für Freiheit, Bewegung, Unbeständigkeit und den [[Geist]] (in seiner flüchtigen Form).
 
 ## Aspekte und Prinzipien
 - **Element:** Luft
@@ -24,7 +24,7 @@ Ventus ist der Bruder, der niemals ruht. Die [[Rasse_Elfen]] sagen, er sei derje
 ## Verehrung
 Seefahrer und Händler opfern ihm vor jeder Reise. Magier der Luft wenden sich an ihn, um Stürme zu rufen oder lautlos wie der Wind zu werden.
 
-## Magie (Elementarer Pfad)
+## [[index]] (Elementarer Pfad)
 Der Pfad der Luft bietet Kontrolle über Winde (Segel setzen, Gegner wegwehen), Unsichtbarkeit oder das Schweben.
 
 ## Beziehungen

@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Der letzte Falke"
-category: Pantheon
+category: [[index]]
 status: Integrated
-quelle: "Bibliothek Astrael"
+quelle: "[[index]] [[Astrael]]"
 ---
 
 # Der letzte Falke
-**Anonymus**
+**[[Anonymus]]**
 
 ---
 
@@ -48,7 +48,7 @@ erhob sich still mein hoher Herr
 als drückt' ihm eine Last gar schwer.  
 
 "Es gilt zu halten Burg und Stadt,  
-und alle Menschen, die's dort hat.  
+und alle [[Menschen]], die's dort hat.  
 Solang wir halten unsre Zinnen  
 können sie nach Stein entrinnen!  
 Und so lautet mein Beschluss:  
@@ -60,7 +60,7 @@ Ihren Gefährten galt der Blick,
 als man sie ließ allein zurück.  
 Alle Herzen waren schwer  
 an Wiedersehn glaubt keiner mehr.  
-Die Schar zog still nach Brandenstein  
+Die Schar zog still nach [[Brandenstein]]  
 um dort dann Schutz und Trost zu sein.  
 
 So hielten dann bei Tag und Nacht  
@@ -148,7 +148,7 @@ die in Vitamas Diensten stand.
 Und doch saß er nun hier allein,  
 denn sie, sie sollte sicher sein.  
 
-Sir Athos wurde er genannt,  
+Sir [[Athos]] wurde er genannt,  
 die Zunge flink und so gewand,  
 er führte, wie er führt sein Schwert  
 und war damit auch doppelt wert  
@@ -162,7 +162,7 @@ Frauen sanken seufzend hin
 nahte sich der Diplomat.  
 Und man schätze auch den Rat,  
 den er willig stets gewährt  
-genauso hoch wie Athos Schwert.  
+genauso hoch wie [[Athos]] Schwert.  
 Er war tapfer und voll Kraft  
 besonnen und gewissenhaft.  
 
@@ -176,7 +176,7 @@ dann hob es zu sprechen an:
 "Sagt mir guter Rittersmann!  
 Entführ ich Dich, was steht dann an?"  
 Und sprach's, dass es wie Scherzen klang  
-Und Athos lächelt: "Nun - der Strang."  
+Und [[Athos]] lächelt: "Nun - der Strang."  
 
 Das Kätzchen schlucke einmal schwer,  
 denn am Leben hing es sehr.  
@@ -229,7 +229,7 @@ zu schützen uns und unser Land.
 Stets direkt ist sein Gebahren.  
 Leidgeprüft und kriegserfahren,  
 führt er stets selbst die Ritter an  
-und fürchtet weder Geist noch Mann.  
+und fürchtet weder [[Geist]] noch Mann.  
 Den Schwarzen gilt sein ganzer Zorn  
 ihnen hat er Tod geschworn.  
 Fürs Volk, er tut, was er nur kann,  
@@ -274,7 +274,7 @@ da begann die letzte Schlacht.
 Sie maunzt ganz laut: "Gefahr, Gefahr!"  
 Und es erwacht die kleine Schar.  
 Die Schwerter liegen schon bereit  
-und Athos spricht: "Nun ist es Zeit!  
+und [[Athos]] spricht: "Nun ist es Zeit!  
 
 Lasst und fest das Schwert umgreifen,  
 wir werden nicht die Flucht ergreifen.  
@@ -300,7 +300,7 @@ Dann ein Lächeln, hell und klar:
 "Sire Aspin, ihr sprecht wahr!  
 Zu viel wir haben schon verloren,  
 seit wir die alten Eide schworen.  
-Finsterwangen ist nicht mehr,  
+[[Finsterwangen]] ist nicht mehr,  
 ich liebte diese Burg so sehr.  
 
 Lang wurden wir zurückgetrieben,  
@@ -316,7 +316,7 @@ Mit dem Schwert in seiner Hand,
 dem Feind das Antlitz zugewand  
 tritt Sire Barnabas hinaus.  
 "Wir löschen diese Brut nun aus!"  
-Worauf Athos leise lacht:  
+Worauf [[Athos]] leise lacht:  
 "Wohlan Bruder, abgemacht!"  
 
 Im Angesicht der dunklen Macht  
@@ -343,13 +343,13 @@ wie sie rufen in der Nacht
 ihres Meisters finstre Macht.  
 
 Und Kätzchen maunzt so laut wie nie:  
-"Oh hütet euch! Es ist Magie!"  
+"Oh hütet euch! Es ist [[index]]!"  
 Doch ehe sie zu Ende spricht,  
 hört sie wie das Tor zerbricht.  
 Das dunkle Heer stürmt schon herein  
 Und schlägt auf die drei Ritter ein.  
 
-Sir Athos aber ungerührt  
+Sir [[Athos]] aber ungerührt  
 rief während er sein Schwert noch führt:  
 "So haben wir in unsrer Feste  
 tatsächlich ungebetne Gäste.  
@@ -358,7 +358,7 @@ wie man solche Gäste ehrt?
 Drum Brüder lasst die Schwerter sprechen,  
 bis unsre treuen Klingen brechen!"  
 
-"Nein Athos, weicht nun zurück,  
+"Nein [[Athos]], weicht nun zurück,  
 denn die Innenburg zum Glück  
 ist im Torgang noch zu schützen  
 wenn wir diesen Engpass nützen."  
@@ -404,7 +404,7 @@ die Dunklen sollten's besser wissen.
 Meine Geduld ist nun vorbei,  
 auf die Pferde nun, ihr Zwei!"  
 
-Sire Athos wirkt verstört  
+Sire [[Athos]] wirkt verstört  
 und ruft dann aus, zutiefst empört:  
 "Wie meint ihr das? Wir sollen weg?  
 Ich weiche nicht von diesem Fleck!  
@@ -413,9 +413,9 @@ Lasse Euch doch nicht allein!"
 
 Doch Aspin verharrt und schweigt,  
 während er sein Haupt leicht neigt.  
-Das Schwert liegt nun an Athos Kehle  
+Das Schwert liegt nun an [[Athos]] Kehle  
 "Ihr verweigert die Befehle?"  
-Athos wütend senkt das Haupt.  
+[[Athos]] wütend senkt das Haupt.  
 "Mein hoher Herr, wenn ihr erlaubt?"  
 
 Doch Barnabas fährt ihn nur an:  
@@ -427,7 +427,7 @@ was dort unten vor sich geht.
 
 Und sieh: ein kleiner Gegenstand  
 wechselt nun von Hand zu Hand.  
-Sir Athos verneigte sich nur stumm  
+Sir [[Athos]] verneigte sich nur stumm  
 dann wendet er sich bitter um.  
 Allein das scharfe Katzenohr,  
 vernahm was sich im Lärm verlor:  
@@ -479,24 +479,24 @@ nun geht, die Dunklen kommen schon!"
 erwidert Aspin, lächelt leicht,  
 als er dem Herrn die Hand noch reicht.  
 
-"Seht: Athos ist davon gestürmt,  
+"Seht: [[Athos]] ist davon gestürmt,  
 ihr habt ihn ja zutiefst erzürnt"  
 
 "Ich wollte ihn nicht sterben sehn,  
 und hieß ihn darum nun zu gehen.  
-Gewährt Bellum ihm ein langes Leben,  
+Gewährt [[Bellum]] ihm ein langes Leben,  
 so mag er mir vielleicht vergeben.  
 Noch einmal bitt ich: komm doch mit,  
 in jeden Kampf warn wir zu dritt"  
 
 "Ihr wisst mein Freund, dass es nicht geht  
 Und mein Entschluss geschrieben steht.  
-Seht: Athos versucht gerad allein,  
+Seht: [[Athos]] versucht gerad allein,  
 ein Ausfalltrupp zu Pferd zu sein"  
 
 Von fern man das Geräusch von Hufen  
-vernimmt und Athos lautes Rufen.  
-"Bellum schenk uns heute Flügel!  
+vernimmt und [[Athos]] lautes Rufen.  
+"[[Bellum]] schenk uns heute Flügel!  
 Vorwärts Brüder, nehmt die Zügel!  
 Niemals reite ich allein!  
 Will an Eurer Seite sein!  
@@ -508,13 +508,13 @@ seine Hand am Heft vom Schwert.
 "Ich bin nun hin und her gerissen  
 Was befiehlt mir mein Gewissen?  
 Lass ich Aspin hier allein?  
-Soll ich an Athos Seite sein?  
+Soll ich an [[Athos]] Seite sein?  
 Ist mein Platz, denn nun in Stein?  
 Sollte hier mein Bleiben sein?  
 Welchem Ziel gehört mein Streben?  
 Sagt, wem schulde ich mein Leben?"  
 
-"Ohne Euch geht Athos nicht"  
+"Ohne Euch geht [[Athos]] nicht"  
 "Nun, dann kenn ich meine Pflicht.  
 Lebt wohl Aspin, reicht mir die Hand.  
 Für König und fürs Vaterland"  
@@ -531,7 +531,7 @@ oder in jener Nacht vergessen geht,
 bis es vor seinen Schöpfer steht.  
 
 Und von fern, ganz sacht und leis:  
-Athos Stimme, wie sie weiß:  
+[[Athos]] Stimme, wie sie weiß:  
 "Hat Aspin den Ruf vernommen?"  
 "Er wird nie wieder mit uns kommen.  
 Kommt mein Freund, lasst uns nun reiten.  
@@ -571,7 +571,7 @@ Eines musst du Dich noch fragen:
 wer wird nun die Mäuse jagen?  
 
 Wer auf Meisters Schoss nun sitzen?  
-Wer wir Sir Athos Fisch stibitzen?  
+Wer wir Sir [[Athos]] Fisch stibitzen?  
 Einjeder tu, was er gut kann  
 und ich bin nur ein Rittersmann."  
 Sprach Aspin leis und lächelt leicht,  
@@ -585,7 +585,7 @@ Was gab er ihm?" "Du ahnst es schon"
 "Das Vermächtnis von Herrn Finion?"  
 
 "Wie klug mein kleines Kätzchen spricht!  
-Doch Athos selbst, er ahnt es nicht"  
+Doch [[Athos]] selbst, er ahnt es nicht"  
 "Ach mein lieber Rittersmann,  
 kein Wort Dein Herz erschüttern kann?  
 Wofür gibst Du Dein Leben her?  
@@ -608,7 +608,7 @@ sein Leben er dem Herrn befahl.
 Als Kätzchen floh, hört sie ihn rufen,  
 zu den Mächten die ihn schufen:  
 "Seht herab auf euer Kind!  
-Für Euch und für Siebenwind!"  
+Für Euch und für [[Siebenwind]]!"  
 
 Dann wurd es still, nichts hört man mehr,  
 allein den Lärm vom toten Heer.  

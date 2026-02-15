@@ -4,7 +4,7 @@ title: Geografie
 ---
 
 # [[Siebenwind]] Wiki - Geografie
-Das Archiv der Geografie.
+Das [[index]] der Geografie.
 
 ## Inhalte
 

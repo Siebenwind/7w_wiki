@@ -1,13 +1,13 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 155
-category: Chronik
+title: [[Siebenwind]] Bote 155
+category: [[index]]
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a917
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 155.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 155.md
 letzter_check: 2026-02-13T03:30:00+01:00
 ---
-# Siebenwind Bote 155
+# [[Siebenwind]] Bote 155
 
 **Epistemischer Status:** #bote
 **Datum:** 5. Onar 18 n.H. (Mondtag) - Sonderausgabe
@@ -21,7 +21,7 @@ letzter_check: 2026-02-13T03:30:00+01:00
 ## Dokumente
 *   [[Siebenwindakte]]
 
-## Personen
+## [[index]]
 *   **[[Hagen_Robaar]]**: Verfasser der Akte.
 *   **[[Solos_Nhergas]]**: Neue Inselpatrizierin.
 
@@ -33,4 +33,4 @@ letzter_check: 2026-02-13T03:30:00+01:00
 *   [[Grosser_Rat]]
 
 ## Referenzen
-- Primärquelle: [Siebenwind Bote 155](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20155.md)
+- Primärquelle: [[[Siebenwind]] Bote 155](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20155.md)

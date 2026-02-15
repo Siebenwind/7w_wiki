@@ -1,24 +1,24 @@
 ---
 layout: wiki_page
-title: Bestiarium Register
+title: [[index]] Register
 category: Index
 ---
 
-# Bestiarium Register
+# [[index]] Register
 
 **Epistemischer Status:** #canon
 
 Dieses Register dient der systematischen Erfassung aller Kreaturen, Unholde und mystischen Wesen, die die Insel [[Siebenwind]] und das Königreich Galadon bevölkern.
 
 ## Einteilung der Mächte (Liebig-Thesen)
-Johann Liebig unterscheidet in seiner Magisterarbeit zwischen zwei Hauptgruppen arkaner Wesenheiten:
+[[Johann_Liebig]] unterscheidet in seiner Magisterarbeit zwischen zwei Hauptgruppen arkaner Wesenheiten:
 
 ### Lazperday-Wesen (Hand-Bewegende-Wesen)
 Nutzen Gestik zur Kontrolle der Mächte.
 - **Man-Lazperday:** Auf [[Tare]] geborene Wesen (z.B. [[Kobold|Kobolde]], [[Gnome]]).
 - **Ing-Lazperday:** Erschaffene oder aus Anomalien entstandene Wesen (z.B. [[Gargoyles]], [[Harpyien]]).
 
-### Warthun-Wesen (Geist-Wirkende-Wesen)
+### Warthun-Wesen ([[Geist]]-Wirkende-Wesen)
 Nutzen reine Konzentration zur Entfesselung arkaner Kräfte.
 - **Uruzman-Warthun:** Geboren oder aus starken Anomalien (z.B. höhere [[Elementare]], [[Djinns]]).
 - **Nuinarra-Warthun:** Durch hohe Arkanisten erschaffen (z.B. [[Liche]], [[Golems]]).
@@ -52,8 +52,8 @@ Nutzen reine Konzentration zur Entfesselung arkaner Kräfte.
 | [[Seelenfresser]] | Geisterwesen | Schattenwelt / Urbane Legenden | #bote |
 | [[Wasserkreaturen]] | Bestien (Gefahren aus der Tiefe) | Weiher, Küsten | #bote |
 | [[Sammler]] | Ungetüme | Öde / Inseleinbrüche | #bote |
-| [[Tardukai]] | Humanoid / Bruderschaft | Ewigwacht (Ödland) | #bote |
-| [[Der_blinde_Maler]] | Dämon | Seeberg / Falkensee | #bote |
+| [[Tardukai]] | Humanoid / Bruderschaft | Ewigwacht ([[Ödland]]) | #bote |
+| [[Der_blinde_Maler]] | Dämon | [[Seeberg]] / [[Falkensee]] | #bote |
 | [[Weiher_Ungetuem]] | Insekten / Krebstiere | [[Greifenweiher]] | #bote |
 | [[Tarrant]] | Dämon (Verräter) | Flüchtig | #bote |
 | [[Kobold]] | Feenwesen | [[Brandenstein]] | #bote |
@@ -67,7 +67,7 @@ Nutzen reine Konzentration zur Entfesselung arkaner Kräfte.
 - **[[Elementare]]:** Manifestationen der Urkräfte.
 - **[[Untote]]:** Wiedergänger und körperlose Geister.
 - **Bestien:** Gefährliche Raubtiere arkaner oder natürlicher Herkunft.
-- **Lazperday / Warthun:** Systematik nach Johann Liebig zur Unterscheidung von Gesten- und Geist-Wirkern.
+- **Lazperday / Warthun:** Systematik nach [[Johann_Liebig]] zur Unterscheidung von Gesten- und [[Geist]]-Wirkern.
 
 ---
 **Siehe auch:** [[Gesellschaft]], [[Geografie]], [[Religion_Übersicht]]

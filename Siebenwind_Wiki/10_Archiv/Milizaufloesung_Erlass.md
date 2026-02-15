@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Auflösung der Milizrechtsverträge (19 n.H.)
-category: Archiv
+category: [[index]]
 ---
 
 # Auflösung der Milizrechtsverträge (19 n.H.)

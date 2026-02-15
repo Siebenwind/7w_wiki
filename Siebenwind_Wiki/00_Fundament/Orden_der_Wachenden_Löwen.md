@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Orden der Wachenden Löwen
-category: Fundament
+category: [[index]]
 ---
 
 # Orden der Wachenden Löwen

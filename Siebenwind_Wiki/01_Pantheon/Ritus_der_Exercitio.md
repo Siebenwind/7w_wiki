@@ -1,15 +1,15 @@
 ---
 layout: wiki_page
 title: "Der heilige Ritus der Exercitio"
-category: Pantheon
+category: [[index]]
 status: integrated
-quelle: "/Quellen/Bibliothek Astrael/Über den heiligen Ritus der Exercitio.md"
+quelle: "/Quellen/[[index]] [[Astrael]]/Über den heiligen Ritus der Exercitio.md"
 author: "Aelwin"
 ---
 
 # Der heilige Ritus der Exercitio
 
-Dieses geheime Dokument von **Bruder [[Aelwin]]** beschreibt den gefährlichen Ritus der **Exercitio** – der Austreibung von Dämonen oder dem Einfluss des [[Angamon|Einen]] aus einer besessenen Person oder einem Ort.
+Dieses geheime Dokument von **Bruder [[Aelwin]]** beschreibt den gefährlichen Ritus der **Exercitio** – der Austreibung von [[Daemonen]] oder dem Einfluss des [[Angamon|Einen]] aus einer besessenen Person oder einem Ort.
 
 ## Voraussetzungen
 Die Durchführung ist ausschließlich geweihten Priestern gestattet. Der Ausführende muss:

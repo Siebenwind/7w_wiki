@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Ortus et Integritas"
-category: Pantheon
+category: [[index]]
 status: integrated
-quelle: "/Quellen/Bibliothek Astrael/Ortus et Integritas.md"
+quelle: "/Quellen/[[index]] [[Astrael]]/Ortus et Integritas.md"
 author: "Anais"
 ---
 
@@ -21,7 +21,7 @@ Alles Leben hat seinen Ursprung in den **Sahor** (Ein alter Name für die [[Sieb
 ## Die Rolle der Kirche
 Die Thesis besagt, dass es die Pflicht jeder Seele ist, den reinen Ursprung als Maßstab für die eigene Entwicklung zu bewahren.
 * **Wegweiser**: Da die Reinheit der Götter nur im Ursprung unverfälscht erkennbar ist, muss jede Entwicklung an den Anfängen gemessen werden.
-* **Hüter**: Die Kirche der Viere ist dazu berufen, als Hüter und Richter über diese geistliche Entwicklung zu wachen.
+* **Hüter**: Die [[Kirche_der_Viere]] ist dazu berufen, als Hüter und Richter über diese geistliche Entwicklung zu wachen.
 
 ## Beispiele
 * **Das Königtum**: Der Ursprung des Königs ist die Berufung durch die Götter (unantastbar). Seine Entwicklung als Mensch jedoch muss vom Klerus gehütet werden, damit er sich stets auf diesen göttlichen Ursprung rückbesinnt.

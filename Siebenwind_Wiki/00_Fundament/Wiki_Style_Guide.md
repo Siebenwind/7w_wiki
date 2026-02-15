@@ -1,13 +1,13 @@
 ---
 layout: wiki_page
 title: Wiki Style Guide
-category: Fundament
+category: [[index]]
 uuid: 8a45d8ab-f9f6-49ab-9d56-edf44781a164
 ---
 
 # Wiki Style Guide
 
-Dieser Leitfaden fasst die zentralen Schreib- und Strukturregeln fuer das Siebenwind-Wiki zusammen.
+Dieser Leitfaden fasst die zentralen Schreib- und Strukturregeln fuer das [[Siebenwind]]-Wiki zusammen.
 
 ## Kernregeln
 

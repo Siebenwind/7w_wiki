@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Das Pantheon
+title: Das [[index]]
 category: Index
 ---
 
-# Das Pantheon
+# Das [[index]]
 
 **Epistemischer Status:** #canon
 
@@ -14,7 +14,7 @@ Die Mächte, die Falandrien und [[Siebenwind]] formen.
 *   [[Die_Gohor]] - Die Ur-[[Drachen]] und Schöpfer.
 
 ## Die Viereinigkeit (Die Guten)
-*   [[Astrael]] - Wissen & Ordnung.
+*   [[Astrael]] - [[index]] & Ordnung.
 *   [[Bellum]] - Kampf & Ehre.
 *   [[Vitama]] - Leben & Heilung.
 *   [[Morsan]] - Tod & Ruhe.
@@ -27,7 +27,7 @@ Die Mächte, die Falandrien und [[Siebenwind]] formen.
 *   [[Ignis]] - Feuer.
 *   [[Rien]] - Natur.
 *   [[Ventus]] - Luft/Freiheit.
-*   [[Xan]] - Magie.
+*   [[Xan]] - [[index]].
 
 ## Die Gegenspieler
 *   [[Angamon]] - Der Dämonenfürst.

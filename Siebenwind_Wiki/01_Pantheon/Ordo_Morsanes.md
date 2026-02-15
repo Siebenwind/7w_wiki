@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Ordo Morsanes
-category: Pantheon
+category: [[index]]
 ---
 
 # Ordo Morsanes

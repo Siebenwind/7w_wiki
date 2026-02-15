@@ -7,7 +7,7 @@ category: Religion
 # Brevier des [[Ordo_Belli]]
 
 **Epistemischer Status:** #überlieferung
-**Autor:** Anonymus (Mitglieder des [[Ordo_Belli]])
+**Autor:** [[Anonymus]] (Mitglieder des [[Ordo_Belli]])
 
 Dieses Brevier enthält die zentralen Preissprüche und Gebete des [[Ordo_Belli]], des kriegerischen Ordens, der dem Gott [[Bellum]] (Gott des Kampfes, der Ehre und des Mutes) geweiht ist.
 

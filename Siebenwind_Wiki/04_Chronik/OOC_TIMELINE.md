@@ -11,7 +11,7 @@ letzter_check: 2026-02-14T23:59:00
 
 **Epistemischer Status:** #news #forum
 
-Diese Chronik fuehrt technische und organisatorische OOC-Entwicklungen aus News und Forum zusammen (ab **2010-01-01**).
+Diese [[index]] fuehrt technische und organisatorische OOC-Entwicklungen aus News und Forum zusammen (ab **2010-01-01**).
 
 ## Archivstand
 
@@ -39,7 +39,7 @@ Diese Chronik fuehrt technische und organisatorische OOC-Entwicklungen aus News 
 | Datum | Ereignis | Typ | Kurznotiz | Quelle |
 |---|---|---|---|---|
 | 30.06.2022 | Teams, Strategische Ausrichtung & Umfrage | Team-News | Aenderung in Teamstruktur, Zustaendigkeiten oder Personal. | [[Quellen/News/2022-06-30_Teams_Strategische_Ausrichtung_und_Umfrage|Teams, Strategische Ausrichtung & Umfrage]] |
-| 04.06.2022 | Übergabe von Siebenwind und Abschied | Team-News | Aenderung in Teamstruktur, Zustaendigkeiten oder Personal. | [[Quellen/News/2022-06-04_Ubergabe_von_Siebenwind_und_Abschied|Übergabe von Siebenwind und Abschied]] |
+| 04.06.2022 | Übergabe von [[Siebenwind]] und Abschied | Team-News | Aenderung in Teamstruktur, Zustaendigkeiten oder Personal. | [[Quellen/News/2022-06-04_Ubergabe_von_Siebenwind_und_Abschied|Übergabe von [[Siebenwind]] und Abschied]] |
 
 ## News 2019
 

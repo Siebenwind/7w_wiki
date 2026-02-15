@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Konzil aller Pfade
-category: Geschichte
+category: [[index]]
 ---
 
 # Konzil aller Pfade
@@ -11,7 +11,7 @@ category: Geschichte
 **Ort:** [[Akademie_der_Arkanen_Künste]]
 
 ## Verlauf
-Ein historisches Treffen der Magierschaft, zu dem erstmals auch offiziell Vertreter des **Pfades zur Linken** ("Schwarze Magie") eingeladen waren.
+Ein historisches Treffen der Magierschaft, zu dem erstmals auch offiziell Vertreter des **Pfades zur Linken** ("Schwarze [[index]]") eingeladen waren.
 Ziel war die Regelung der Zusammenarbeit und die Legalisierung bestimmter Praktiken im Kampf gegen die Bedrohung.
 Der **Weiße Pfad** äußerte Bedenken und verließ Teile der Versammlung vorzeitig.
 

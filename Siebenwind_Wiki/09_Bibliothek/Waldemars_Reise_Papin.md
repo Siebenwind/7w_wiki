@@ -22,11 +22,11 @@ Waldemar begab sich im Auftrag des **Ersonter Bundes** (und wohl auch aus eigene
 *   **Hafen von Papin:** Waldemar demonstrierte seine militärische Autorität gegenüber den lokalen Gardisten und sorgte für den bewachten Transport der Goldreserven in die gräfliche Feste.
 *   **Hof von Gero von Papin:** Er begegnete dem Hofmeister und sah sich mit den feinen höfischen Sitten konfrontiert, die ihm als Soldaten fremd waren. Dennoch gelang es ihm, die Kisten erfolgreich abzuliefern.
 
-## Politische Konsequenzen in Falkensee
+## Politische Konsequenzen in [[Falkensee]]
 
 Die Abwesenheit Delaries (ca. 2 Monde) löste in **[[Falkensee]]** eine dramatische Kettenreaktion aus:
 *   **Der Putsch:** Sein Stellvertreter **[[Steinhauer]]** und der Adjutant **[[Hektor]]** versuchten, in Abwesenheit der Gräfin und des Hauptmanns die Ordnung mit Gewalt aufrechtzuerhalten, was als Putsch interpretiert wurde.
-*   **Machtwechsel:** Bei seiner Rückkehr fand Waldemar ein verändertes Falkensee vor. **[[Solice_Aurora]]** war zur Kanzlerin aufgestiegen, und der Rat (unter [[Custodias]] und [[Aldorn]]) hatte ihn faktisch entmachtet.
+*   **Machtwechsel:** Bei seiner Rückkehr fand Waldemar ein verändertes [[Falkensee]] vor. **[[Solice_Aurora]]** war zur Kanzlerin aufgestiegen, und der Rat (unter [[Custodias]] und [[Aldorn]]) hatte ihn faktisch entmachtet.
 *   **Exil:** Waldemar verlor seinen Posten als Gardehauptmann, konnte jedoch seinen Adelstitel retten und erhielt (unter Vorbehalt) ein Haus in **[[Südfall]]**. Er wurde als Verräter und Schwarzgeldwäscher gebrandmarkt.
 
 ## Lore-Bedeutung

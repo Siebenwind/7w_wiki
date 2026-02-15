@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Finsterwangen
-category: Geografie
+category: [[index]]
 ---
 
 # Finsterwangen
@@ -14,12 +14,12 @@ category: Geografie
 ## 📜 Beschreibung
 **Finsterwangen** war einst eine mächtige Stadt unter dem Schutz einer imposanten Burg. Heute ist der Ort im [[Ödland]] primär für seine extremen **magischen Abnormalitäten** und Zeit-Raum-Risse bekannt.
 
-## ⚔️ Geschichte
+## ⚔️ [[index]]
 ### Der Fall & Der Sphärenriss
-Im Krieg gegen den Einen wurde Finsterwangen durch ein dunkles Ritual zum Schauplatz eines gewaltigen **Sphärenrisses**. Der Riss wurde vermutlich durch die Invokation eines Feuerdämonen ausgelöst, der am Himmel zerbarst. Durch dieses Tor strömten Myriaden von Dämonen (darunter der Herrscher **Sha'Naz'Ghul**) und Untoten ein. Eine unnatürliche Matrix breitete sich vom Riss aus, welche die Seelen ehemaliger Paktierer in die Körper der Untoten leitet und sie regenerieren lässt.
+Im Krieg gegen den Einen wurde Finsterwangen durch ein dunkles Ritual zum Schauplatz eines gewaltigen **Sphärenrisses**. Der Riss wurde vermutlich durch die Invokation eines Feuerdämonen ausgelöst, der am Himmel zerbarst. Durch dieses Tor strömten Myriaden von [[Daemonen]] (darunter der Herrscher **[[Sha'Naz'Ghul]]**) und Untoten ein. Eine unnatürliche Matrix breitete sich vom Riss aus, welche die Seelen ehemaliger Paktierer in die Körper der Untoten leitet und sie regenerieren lässt.
 
 ### Magische Anomalien
-Aufgrund des fortbestehenden Risses ist die Realität in Finsterwangen instabil. Reisende berichten von Phänomenen, bei denen sie wahllos durch verschiedene Zeitebenen versetzt werden. Jegliche Anwendung von Magie innerhalb der Stadtgrenzen gilt als lebensgefährlich.
+Aufgrund des fortbestehenden Risses ist die Realität in Finsterwangen instabil. Reisende berichten von Phänomenen, bei denen sie wahllos durch verschiedene Zeitebenen versetzt werden. Jegliche Anwendung von [[index]] innerhalb der Stadtgrenzen gilt als lebensgefährlich.
 
 ### Die Wachposten
 Um die von Finsterwangen ausgehende Gefahr einzudämmen, wurden westlich der Stadt Wachposten und Massengräber errichtet. In der Neuzeit (nach 15 n.H.) begannen Siedler unter Vogtin [[Vex]], die Randbereiche erneut zu bewohnen.

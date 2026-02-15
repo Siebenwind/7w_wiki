@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Lichthoch
-category: Fundament
+category: [[index]]
 uuid: FB643755-B765-45FF-9810-CFD3269B3C6A
 letzter_check: 2026-02-13T15:15:00+01:00
 ---
@@ -17,7 +17,7 @@ Während des zweitägigen Lichthochs (zwischen den Monaten **Triar** und **Querl
 
 ## Religiöse Bedeutung
 Für die Gläubigen der [[Kirche_der_Viere]] ist dies die heiligste Zeit des Jahres. Es gilt als Fest der Güte, der Freude und des göttlichen Lichts.
-*   **Lichthoch-Offenbarung:** In der Kathedrale zu [[Falkensee]] (oder Draconis) findet eine feierliche Zeremonie statt, bei der oft göttliche Botschaften oder Visionen verkündet werden.
+*   **Lichthoch-Offenbarung:** In der Kathedrale zu [[Falkensee]] (oder [[Draconis]]) findet eine feierliche Zeremonie statt, bei der oft göttliche Botschaften oder Visionen verkündet werden.
 *   **Segen:** Alle Kinder, die während des Lichthochs geboren werden, gelten als besonders gesegnet.
 
 ## Weltliche Feierlichkeiten
@@ -26,8 +26,8 @@ Das Lichthoch ist eine Zeit des Friedens. Die Arbeit ruht, und es wird landeswei
 *   **Vitamaball:** Große Bälle und Feste (wie der Vitamaball in [[Brandenstein]]) finden zu dieser Zeit statt.
 *   **Lichthochfeuer:** Überall werden große Feuer entzündet, die den Sieg des Lichts feiern.
 
-## Auswirkungen auf die Magie
-Weißmagische Affinitäten sind in dieser Zeit extrem verstärkt, während schwarzmagische Kräfte und Dämonen deutlich geschwächt werden und sich in die tiefsten Schatten zurückziehen müssen.
+## Auswirkungen auf die [[index]]
+Weißmagische Affinitäten sind in dieser Zeit extrem verstärkt, während schwarzmagische Kräfte und [[Daemonen]] deutlich geschwächt werden und sich in die tiefsten Schatten zurückziehen müssen.
 
 ---
 **Siehe auch:** [[Dunkeltief]], [[Zeitrechnung_(Der_Sonnenzirkel)]], [[Vitamalin]], [[Astreyon]]

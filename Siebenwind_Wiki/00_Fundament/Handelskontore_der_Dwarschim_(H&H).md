@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Handelskontore der Dwarschim (H&H)
-category: Fundament
+category: [[index]]
 ---
 
 # Handelskontore der Dwarschim (H&H)
@@ -21,7 +21,7 @@ Die Dwarschim betreiben Handelskontore in den wichtigsten Hafenstädten und Sied
 - **[[Kregor_Arthax_Stahlauge]]**: Der politische Führer der Dwarschim auf [[Siebenwind]].
 
 ## Handelsbeziehungen
-Die H&H pflegt enge Beziehungen zur menschlichen **Kaufmannsgilde** (vertreten durch Johannes Tiberias) und zur Verwaltung der **Kronmark**. Ihr Gründungstag wird jährlich mit einem großen Fest gefeiert, zu dem alle Völker eingeladen sind (Bote 145).
+Die H&H pflegt enge Beziehungen zur menschlichen **[[Kaufmannsgilde]]** (vertreten durch [[Johannes_Tiberias]]) und zur Verwaltung der **Kronmark**. Ihr Gründungstag wird jährlich mit einem großen Fest gefeiert, zu dem alle Völker eingeladen sind (Bote 145).
 
 ## Siehe auch
 - [[Adelskalender]]

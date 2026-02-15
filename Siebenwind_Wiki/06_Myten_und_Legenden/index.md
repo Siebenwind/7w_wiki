@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Myten und Legenden
+title: [[Myten]] und Legenden
 ---
 
-# [[Siebenwind]] Wiki - Myten und Legenden
-Das Archiv der Myten und Legenden.
+# [[Siebenwind]] Wiki - [[Myten]] und Legenden
+Das [[index]] der [[Myten]] und Legenden.
 
 ## Inhalte
 

@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 125
-category: Chronik
+title: [[Siebenwind]] Bote 125
+category: [[index]]
 ---
 
-# Siebenwind Bote 125
+# [[Siebenwind]] Bote 125
 
 **Epistemischer Status:** #bote
 **Datum:** 6. Carmar 15 n.H.
@@ -16,14 +16,14 @@ category: Chronik
 - **Trophäenhändler:** [[Rekar_Sturmklinge]], ehemaliger Jäger, eröffnete einen Trophäenhandel vor den Westtoren von [[Brandenstein]] im Auftrag der Krone.
 - **Botengebäude:** Die Redaktion des Boten sucht Handwerker für den Umbau ihrer Räumlichkeiten.
 
-### Gesellschaft & Völker
-- **Orken-Problem:** Bericht über zunehmende Kriminalität durch [[Ork|Orken]] (Entführung, Bärenangriff). Gefreite [[Frau_von_Wankenbach]] vom Schutzzug schildert ihren Fall. Plädoyer für Völkerverständigung trotz Konflikten.
+### [[index]] & Völker
+- **[[Orken]]-Problem:** Bericht über zunehmende Kriminalität durch [[Ork|Orken]] (Entführung, Bärenangriff). Gefreite [[Frau_von_Wankenbach]] vom Schutzzug schildert ihren Fall. Plädoyer für Völkerverständigung trotz Konflikten.
 
-### Geografie
-- **Rundreise Greifenwald:** Beschreibung des Unterlehens [[Greifenwald]] unter Vasall Sir [[Laurec_Llewellyen]]. Regionen: [[Nordforst]] (Halblingslager), [[Auenwald]], [[Hügelwald]] (Ruine), [[Greifenklipp]] (Nortraven-Dorf mit Palisaden).
+### [[index]]
+- **Rundreise [[Greifenwald]]:** Beschreibung des Unterlehens [[Greifenwald]] unter Vasall Sir [[Laurec_Llewellyen]]. Regionen: [[Nordforst]] (Halblingslager), [[Auenwald]], [[Hügelwald]] (Ruine), [[Greifenklipp]] ([[Nortraven]]-Dorf mit Palisaden).
 
 ### Kultur & Religion
-- **Vitama-Schrein:** Einweihung des Vitamaschreins mit Feier im "Seiltänzer".
+- **[[Vitama]]-Schrein:** Einweihung des Vitamaschreins mit Feier im "Seiltänzer".
 
 ---
 **Quellen:** [[Siebenwind_Bote_125]] (Original)

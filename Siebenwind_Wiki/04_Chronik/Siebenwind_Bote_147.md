@@ -1,13 +1,13 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 147
-category: Chronik
+title: [[Siebenwind]] Bote 147
+category: [[index]]
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a909
-quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 147.md
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 147.md
 letzter_check: 2026-02-13T01:50:00+01:00
 ---
-# Siebenwind Bote 147
+# [[Siebenwind]] Bote 147
 
 **Epistemischer Status:** #bote
 **Datum:** 20. Dular 17 n.H. (Sonderausgabe)
@@ -17,15 +17,15 @@ Diese Sonderausgabe berichtet vom Angriff der königlichen Marine auf die Insel,
 
 ## Kriegszustand
 *   **Marineangriff:** Die 4. Marinebrigade des Reiches griff [[Brandenstein]], [[Falkensee]] und [[Südfall]] an.
-*   **Wille alter Meister:** Ein magisches Konstrukt der [[Mazzareem|Mazzaremer]], der **[[Wille_alter_Meister]]**, vernichtete drei Schiffe der Marine in einem Flammeninferno, da er sie als Bedrohung für die Insel einstufte.
-*   **Bombardement:** Die Marine bombardierte Falkensee und Südfall, vermutlich um den [[Magierturm]] zu treffen.
+*   **[[Wille_alter_Meister]]:** Ein magisches Konstrukt der [[Mazzareem|Mazzaremer]], der **[[Wille_alter_Meister]]**, vernichtete drei Schiffe der Marine in einem Flammeninferno, da er sie als Bedrohung für die Insel einstufte.
+*   **Bombardement:** Die Marine bombardierte [[Falkensee]] und [[Südfall]], vermutlich um den [[Magierturm]] zu treffen.
 
 ## Interne Sicherheit
 *   **Orkenaufstand:** Der Aufstand der [[Rasse_Orken]] wurde niedergeschlagen.
 *   **Razzia:** Leutnant **[[Gropp]]** und Obergefreiter **[[Winzlig]]** führten eine Razzia in der Taverne **[[Seiltaenzer]]** durch. Es wurden große Mengen Nachtschatten und Gifte gefunden.
 
 ## Mysterien
-*   **Der Feldherr:** Magische Tore erlauben Einblick in den Geist des "Feldherren" (einer brennenden Gestalt im Ödland).
+*   **Der Feldherr:** Magische Tore erlauben Einblick in den [[Geist]] des "Feldherren" (einer brennenden Gestalt im [[Ödland]]).
 *   **Schwertsplitter:** Hinter den Toren finden sich Splitter seines Saphirschwertes. Es heißt, wenn das Schwert neu geschmiedet wird, kann der Feldherr erlöst werden. Auch Diener des Namenlosen suchen danach.
 
 ## Derivate
@@ -35,4 +35,4 @@ Diese Sonderausgabe berichtet vom Angriff der königlichen Marine auf die Insel,
 *   [[Feldherr]]
 
 ## Referenzen
-- Primärquelle: [Siebenwind Bote 147](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20147.md)
+- Primärquelle: [[[Siebenwind]] Bote 147](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20147.md)

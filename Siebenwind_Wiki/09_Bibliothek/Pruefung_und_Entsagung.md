@@ -1,8 +1,8 @@
 ---
 layout: wiki_page
 title: Prüfung und Entsagung
-category: Bibliothek
-tags: [Erzählung, Bellum, Vandrien, Liebe, Tragödie]
+category: [[index]]
+tags: [Erzählung, [[Bellum]], Vandrien, Liebe, Tragödie]
 status: #perspektive
 ---
 
@@ -22,8 +22,8 @@ Später, während einer Dunkelheit (vermutlich ein [[Dunkeltief]]), schreibt/bet
 
 ## Relevante Entitäten
 
-### Personen
-*   **Der Erzähler**: Ein unbekannter Bellum-Anhänger, der sein Leben als "Prüfung und Entsagung" versteht.
+### [[index]]
+*   **Der Erzähler**: Ein unbekannter [[Bellum]]-Anhänger, der sein Leben als "Prüfung und Entsagung" versteht.
 *   **[[Lucienne]]**: Seine Ehefrau, deren Schicksal ungeklärt bleibt.
 
 ### Zitate

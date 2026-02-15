@@ -41,5 +41,5 @@ Orte, Regionen und Länder auf Falandrien und [[Siebenwind]].
 ## Die Inseln
 *   [[Region_Gerdenwald]] - Hügelau ([[Halblinge]]).
 *   [[I_Siebenwind]] - Die neue Welt.
-    *   [[Vänskap]] - Dorf der Nortraven.
-    *   [[Burg_Schwingenwacht]] - Festung in Seeberg.
+    *   [[Vänskap]] - Dorf der [[Nortraven]].
+    *   [[Burg_Schwingenwacht]] - Festung in [[Seeberg]].

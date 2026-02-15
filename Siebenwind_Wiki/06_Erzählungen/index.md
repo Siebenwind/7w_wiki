@@ -4,7 +4,7 @@ title: Erzählungen
 ---
 
 # [[Siebenwind]] Wiki - Erzählungen
-Das Archiv der Erzählungen.
+Das [[index]] der Erzählungen.
 
 ## Inhalte
 

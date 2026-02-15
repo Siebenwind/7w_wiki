@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 122
-category: Chronik
+title: [[Siebenwind]] Bote 122
+category: [[index]]
 ---
 
-# Siebenwind Bote 122
+# [[Siebenwind]] Bote 122
 
 **Epistemischer Status:** #bote
 **Datum:** 20. Querlar 15 n.H.

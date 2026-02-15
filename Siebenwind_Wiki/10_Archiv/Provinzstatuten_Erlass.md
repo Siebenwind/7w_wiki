@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Rechtsgültigkeit der Provinz-Statuten (19 n.H.)
-category: Archiv
+category: [[index]]
 ---
 
 # Rechtsgültigkeit der Provinz-Statuten (19 n.H.)

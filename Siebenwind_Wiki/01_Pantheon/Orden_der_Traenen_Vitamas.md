@@ -15,7 +15,7 @@ Der **Orden der Tränen Vitamas** ist ein kirchlicher Orden, der sich dem barmhe
 Die Mitglieder des Ordens widmen sich der Linderung von Leid durch:
 - **Armenspeisungen** und Kleiderspenden.
 - Betreuung der **Obdachlosenunterkunft** im Armenviertel von [[Falkensee]].
-- Betrieb des **Badehauses** in Falkensee als Ort der gemeinschaftlichen Hygiene und Erholung.
+- Betrieb des **Badehauses** in [[Falkensee]] als Ort der gemeinschaftlichen Hygiene und Erholung.
 - Geistlicher Beistand und Unterricht für alle Gläubigen, unabhängig von ihrem Stand.
 
 ## Struktur

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Kleiner Almanach übernatürlicher Wesen
-category: Bibliothek
+category: [[index]]
 ---
 
 # Kleiner Almanach übernatürlicher Wesen
@@ -11,7 +11,7 @@ category: Bibliothek
 **Epistemischer Status:** #bote
 
 ## Inhalt
-Dieser Almanach gilt als eines der fundiertesten Werke über die übernatürliche Flora und Fauna von [[Siebenwind]]. Dr. Nachengalle beschreibt darin detailliert Wesen wie den [[Der_Grix|Grix]], die [[Magiefresser_Wolke]] und verschiedene aquatische Schrecken.
+Dieser Almanach gilt als eines der fundiertesten [[index]] über die übernatürliche Flora und Fauna von [[Siebenwind]]. Dr. Nachengalle beschreibt darin detailliert Wesen wie den [[Der_Grix|Grix]], die [[Magiefresser_Wolke]] und verschiedene aquatische Schrecken.
 
 ## Rezeption
 Das Werk wird in akademischen Kreisen für seine wissenschaftliche Präzision geschätzt. Es dient Abenteurern und Gelehrten gleichermaßen als Referenz zur Vorbereitung auf Begegnungen mit dem Unbekannten. Im [[Siebenwind_Bote|Boten]] (Bote 163) wurde das Werk besonders für seine sachliche Darstellung gelobt, im Gegensatz zu populärwissenschaftlichen Märchensammlungen.

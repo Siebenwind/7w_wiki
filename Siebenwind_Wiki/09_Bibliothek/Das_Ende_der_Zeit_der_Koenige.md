@@ -21,11 +21,11 @@ Die Erzählung setzt im Kloster des **[[Ordo_Astraeli]]** zu **Gofilm** ein. Hie
 ### Kernereignisse
 *   **Der Fall Galadons:** Während die weltlichen Mächte (wie die Grafen von **Papin** und **Lichtenfeld**) in Fehden verstrickt sind, plant der Argionemes-Ring die Übernahme der geistigen und politischen Führung.
 *   **Infiltration der Magieschulen:** Boten werden an alle großen Elementarschulen (u.a. **[[Lafays_Stab]]**, die **Anstalt zu Swa**, die **Akademie des grünen Zweiges**) gesandt, um den Einfluss des Ringes zu sichern.
-*   **Die Siebenwind-Expedition:** Hubertus Anverita wird als Aspirant und ehemaliger Inquisitor auserwählt, um auf [[Siebenwind]] die dortigen Bestrebungen des Ringes zu unterstützen. Er wird von zwei kampferprobten Brüdern der **[[Bruderschaft_Gofilm]]** – [[K_endalor_Aothes]] und [[Maltus_Shuarshirad]] – eskortiert.
+*   **Die [[Siebenwind]]-Expedition:** [[Hubertus_Anverita]] wird als Aspirant und ehemaliger Inquisitor auserwählt, um auf [[Siebenwind]] die dortigen Bestrebungen des Ringes zu unterstützen. Er wird von zwei kampferprobten Brüdern der **[[Bruderschaft_Gofilm]]** – [[K_endalor_Aothes]] und [[Maltus_Shuarshirad]] – eskortiert.
 *   **Mysteriöse Prophetie:** In den Kreisen des Ringes kursiert eine kodierte Warnung: *"In Lafays’ Stab finden sich drei dunkle Katzen ein – 15 zornige Jungen werden sie werfen."* Dies scheint ein Signal für den Beginn einer neuen Ära oder eines spezifischen Angriffs zu sein.
 
 ## Bedeutung für die Lore
-Dieses Werk offenbart die Existenz einer tief verwurzelten Verschwörung innerhalb der Astrael-Kirche. Es verbindet die Ereignisse auf dem Festland direkt mit der Mission von **[[Calmexistus_Salanus]]** auf Siebenwind und gibt Einblick in die grauenhaften Ausbildungsmethoden der Bruderschaft Gofilm.
+Dieses Werk offenbart die Existenz einer tief verwurzelten Verschwörung innerhalb der [[Astrael]]-Kirche. Es verbindet die Ereignisse auf dem Festland direkt mit der Mission von **[[Calmexistus_Salanus]]** auf [[Siebenwind]] und gibt Einblick in die grauenhaften Ausbildungsmethoden der Bruderschaft Gofilm.
 
 ## Referenzen
 - Primärquelle: [Das Ende der Zeit der Könige](../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Könige%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)

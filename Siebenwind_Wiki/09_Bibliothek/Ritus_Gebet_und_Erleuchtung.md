@@ -1,8 +1,8 @@
 ---
 layout: wiki_page
 title: Ritus, Gebet und Erleuchtung
-category: Bibliothek
-tags: [Erzählung, Angamon, Kult, Ritus]
+category: [[index]]
+tags: [Erzählung, [[Angamon]], Kult, Ritus]
 status: #perspektive
 ---
 
@@ -28,7 +28,7 @@ Mehr'thak verspricht, das zu erzählen, was "sie vergessen wollen". Der Protagon
 ### Entitäten
 *   **[[Angamon]]**: Die verehrte Gottheit (Angst/Schmerz).
 *   **[[Mehr'thak]]**: "Der Erzähler". Eine Wesenheit, die im Wahnsinn oder in der Tiefe des Bewusstseins existiert und "vergessene Geschichten" (Lügen/Wahrheiten?) offenbart.
-*   **Schattenhand**: Eine erwähnte Autorität oder ein Titel innerhalb des Kults.
+*   **[[Schattenhand]]**: Eine erwähnte Autorität oder ein Titel innerhalb des Kults.
 
 ### Konzepte
 *   **Ritus**: Der Weg zur "Erleuchtung" durch Aufgabe von Moral und Identität.

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Adelskalender
-category: Fundament
+category: [[index]]
 ---
 
 # Adelskalender
@@ -83,7 +83,7 @@ Sitz: **Dunquell** (Bingen & Tal-Siedlungen)
 ### Die Priesterschaft nach Orden
 | Gottheit | Rang | Name | Primärer Wirkungsort |
 | :--- | :--- | :--- | :--- |
-| **[[Astrael]]** | Geweihter | Ionas | [[Falkensee]] (Astraelschrein) |
+| **[[Astrael]]** | Geweihter | [[Ionas]] | [[Falkensee]] (Astraelschrein) |
 | **[[Xan]]** | Geweihter | [[Vincent_Ebenstein]] | Friedhöfe & Lazarette |
 | **[[Ignis]]** | Arkadhrall | [[Fraomar_Arkad_Grembargh]] | Dunquell (Feuerhallen) |
 

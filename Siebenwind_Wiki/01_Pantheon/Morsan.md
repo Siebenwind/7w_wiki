@@ -14,7 +14,7 @@ tags: [Gott, Sahor, Tod, Traum, Ruhe, Winter]
 
 ## Aspekte und Prinzipien
 - **Jahreszeit:** Winter
-- **Element:** Geist / Dunkelheit (als Ruhepol)
+- **Element:** [[Geist]] / Dunkelheit (als Ruhepol)
 - **Assoziierter Mond:** Dorayon (Der kleine, dunkle Mond). In der Astronomie oft als Morsans Auge bezeichnet, wird sein Einfluss heute oft als durch [[Angamon]] korrumpiert gefürchtet.
 - **Tugenden:** Unendliche Gelassenheit, Akzeptanz der Vergänglichkeit, Innenschau.
 - **Symbole:** Die lautlose Sanduhr, die schwarze Kutte, der leere Thron.
@@ -32,7 +32,7 @@ Morsan wird oft gefürchtet, aber auch als Erlöser von Schmerz und Altersschwä
 
 ## Beziehungen
 - **[[04_Vitama]]:** Seine Schwester des Lebens. Morsan weiß, dass sein Walten ohne ihr Geschenk bedeutungslos wäre. Ein Tod ohne vorheriges Leben ist Nichts.
-- **[[02_Astrael]]:** Sein Bruder des Wissens. Morsan birgt das Wissen, das jenseits des Verstandes liegt – das Mysterium des Endes.
+- **[[02_Astrael]]:** Sein Bruder des Wissens. Morsan birgt das [[index]], das jenseits des Verstandes liegt – das Mysterium des Endes.
 - **[[03_Bellum]]:** Sein Bruder des Kampfes. Morsan beendet jeden Kampf, sei es durch Sieg oder Niederlage. Am Ende finden alle Krieger Ruhe bei ihm.
 
 ## Verwandte Themen

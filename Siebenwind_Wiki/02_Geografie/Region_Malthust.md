@@ -15,7 +15,7 @@ author: [[Siebenwind]] Chronicler
 
 ## Beschreibung
 Eine Region der schroffen Felsklippen und schattigen Berge. Einst reich, verarmte es durch Kriege und Fehden (mit Papin).
-Unter dem neuen Fürsten erlebt es eine Renaissance ("Restaurierung"), gefördert durch den **Pakt der Viereinigkeit** (mit Ossian, Vandrien, Lichtenfeld).
+Unter dem neuen Fürsten erlebt es eine Renaissance ("Restaurierung"), gefördert durch den **[[Pakt_der_Viereinigkeit]]** (mit Ossian, Vandrien, Lichtenfeld).
 
 ## Wirtschaft & Kultur
 *   **Bergbau:** Früher bedeutend.
