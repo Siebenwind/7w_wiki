@@ -1,0 +1,1232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Der Flug der Ente.</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '3');
+	var perpage = '30';
+	var base_url = './viewtopic.php?f=27&amp;t=91444&amp;st=0&amp;sk=t&amp;sd=a';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+											<a href="viewforum.php?f=482"><img src="./styles/siebenwind/theme/images/button_gilden.gif" width="144" height="32" alt="Gildenforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=logout&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Abmelden [ LeCorbeau ]</a>&nbsp; &nbsp;<a href="./ucp.php?i=pm&amp;folder=inbox"><img src="./styles/siebenwind/theme/images/icon_mini_message.gif" width="16" height="16" alt="*" /> <strong>0</strong> neue Nachrichten</a>			</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php"><img src="./styles/siebenwind/theme/images/icon_mini_members.gif" width="16" height="16" alt="*" /> Mitglieder</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>&nbsp; &nbsp;<a href="./ucp.php"><img src="./styles/siebenwind/theme/images/icon_mini_profile.gif" width="16" height="16" alt="*" /> Persönlicher Bereich</a>&nbsp; &nbsp;<a href="./mcp.php?i=main&amp;mode=topic_view&amp;f=27&amp;t=91444&amp;start=60&amp;st=0&amp;sk=t&amp;sd=a&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/theme/images/icon_mini_mcp.gif" width="16" height="16" alt="*" /> Moderations-Bereich</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall">Ihr letzter Besuch: 2.02.25, 17:10</td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 7.02.25, 18:47<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+				<span style="float: right;"><a href="./search.php?search_id=newposts">Neue Beiträge</a> | <a href="./search.php?search_id=egosearch">Eigene Beiträge</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=91444&amp;start=60&amp;st=0&amp;sk=t&amp;sd=a">Der Flug der Ente.</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=91444"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>3</strong> von <strong>3</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 67 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Klicken Sie, um auf Seite … zu gehen">Gehe zu Seite</a> <a href="./viewtopic.php?f=27&amp;t=91444&amp;st=0&amp;sk=t&amp;sd=a&amp;start=30">Vorherige</a>&nbsp;&nbsp;<a href="./viewtopic.php?f=27&amp;t=91444&amp;st=0&amp;sk=t&amp;sd=a">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=91444&amp;st=0&amp;sk=t&amp;sd=a&amp;start=30">2</a><span class="page-sep">, </span><strong>3</strong></b></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=91444&amp;watch=topic&amp;start=60" title="Thema beobachten">Thema beobachten</a> | <a href="./viewtopic.php?f=27&amp;t=91444&amp;start=60&amp;st=0&amp;sk=t&amp;sd=a&amp;bookmark=1" title="Lesezeichen setzen">Lesezeichen setzen</a> | <a href="./viewtopic.php?f=27&amp;t=91444&amp;start=60&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a> | <a href="./memberlist.php?mode=email&amp;t=91444" title="Thema weiterempfehlen">Thema weiterempfehlen</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=91444&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=91444&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p852317"></a>
+				<b class="postauthor">Brand&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Der Flug der Ente.</div><div style="float: right;"><a href="./viewtopic.php?p=852317#p852317"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 22.07.12, 15:59&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Event-Teamleiter</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/5red.gif" alt="Event-Teamleiter" title="Event-Teamleiter" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=7207_1532258676.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.08, 20:14<br /><b>Beiträge:</b> 2882<br /><b>Wohnort:</b> USA				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><a class="postlink" href="http://t-j-b.deviantart.com/art/Wrath-141549065?q=boost%3Apopular%20wrath&amp;qo=25" target="_blank"><img src="http://img6.imagebanana.com/img/xdlujbty/Wrath_by_T_J_B.jpg" alt="Bild" /></a></div><br /><div align="right"><a class="postlink" href="http://www.youtube.com/watch?v=UvV-SE3dDZ0" target="_blank">♫ ♫</a></div><div align="right"></div><br /><div align="center"><span style="text-decoration: underline"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">Z</span>orn &amp; <span style="font-weight: bold">W</span>ut</span></span></div><br /><br /><span style="color: #400000">Es heißt, dass mit dem letzten Atemzug eines Menschen seine Seele entweicht, losgelöst von ihrer sterblichen Hülle und frei, dem Ruf des Göttlichen zu folgen. Nicht wenige galadonische Adelige vertreiben sich Zeit und Geld damit, Gläser gefüllt mit der vermeintlich zuletzt geatmeten Luft von Sterbenden zu sammeln, in der Hoffnung darauf, Weisheit und Prestige zugleich zu erlangen. Sie jagen Büchern hinterher, die vermeintliche Letzte Worte diverser Persönlichkeiten aufgezeichnet haben. Niemand war an Ort und Stelle gewesen, als der letzte Hauch Lazalantins davon geweht war, ein einsames Lüftchen in der ewig windstillen Wüste am fernsten Ende Tares. Der Körper des Reisenden lag leblos auf dem Boden des Boots, die Arme und Beine weit von sich gestreckt, den Kopf überstreckt in den Nacken gelegt, sodass der Mund und die Augen gespenstisch weit offenstanden und klagend zu der fernen Höhlendecke aufblickten.<br /><br />Es klang, als würde man beim Einatmen versuchen zu pfeifen - Luft bahnte sich ihren Weg an beinahe verschlossenen Stimmlippen vorbei, recht gewaltsam. Mit einem Ruck saß der vermeintliche Leichnam senkrecht auf, hustend, schnaufend, keuchend als wollte er seine Lungen hervorwürgen. Erst langsam kriegte er sich wieder ein, spuckte ein paar Tropfen Blut beiseite und wischte sich über die spröden Lippen. Es war angenehm, den Fesseln seines Körpers für einen Moment zu entkommen. Er hatte es genossen, sich freier bewegen zu können, im Spiel mit dem Segel, das er erfüllte um seine verzweifelte Reise Stück um Stück voranzutreiben. Nun war er wieder zurück, begrüßt von quälendem Durst und schmerzenden Gliedern. Vielleicht hatte er seine Hülle doch etwas zu lang vernachlässigt.<br /><br />Er raffte sich auf, zog sich hoch an der schmalen Reling und stapfte herüber zu dem nahen Wasserfass. Er füllte seine hohlen Hände nur spärlich mit dem erfrischenden Nass: gerade genug, um das Gesicht zu befeuchten und einen Schluck zu trinken. Die Sparsamkeit mit seinen schwindenden Ressourcen war ihm in Fleisch in Blut übergegangen. Soweit unterschied sich dieser Tag noch nicht von den Vielen. Doch als er wieder von der spiegelnden Wassoberfläche aufschaute, erblickte er eine.. Überraschung. Ein Blick herab, um sich zu vergewissern, ob das Ding sich im Wasser spiegelte (es musste doch schließlich ein Trugbild sein!), aber auch von dort aus blickte ihn das sanft lächelnde Antlitz gütig an. </span><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;"><div align="center"><img src="http://idesigniphone.net/wallpapers/03381.jpg" alt="Bild" /></div></div></div></div><br /><br /><span style="color: #400000">Um zu verstehen, was für einen Eindruck solche Schönheit auf ihn hatte, müsste man sich nur umsehen. Ein verdreckter, ausgemergelter Kerl auf einem antiken Boot, in ständiger Gesellschaft einer mumifizierten Leiche, der sich nurnoch von Pökelfleisch und schalem Wasser ernährte. Lange hatte er nichtmehr etwas erblickt, das die Augen und den Geist so erfreute, so grundlegend erfrischte. Still, stumm vor Ehrfurcht, starrte er sie an (wahrscheinlich stand auch der Mund ein gutes Stück weit offen). Das fremde Wesen auf seinem Schiff war zweifellos weiblicher Natur. Edle, fahle Haut ohne Makel gesellte sich zu unnatürlich hellem, blonden Haar, oder war es ein zeitloses Grau? Gekleidet war sie in edelste Gewänder, zusammengehalten von dekorativen Broschen aus edlen Metallen, glänzend selbst im matten Licht der trostlosen Wüste. Sie hob eine Hand und legte sie behutsam auf den Kopf Lazalantins. <br /><br />Von einem Moment auf den Anderen veränderte sich die Szene schlagartig. Plötzlich stand Tintin, die grobe, raue Hand fest um die Kehle der Fremden geschlossen, mit genug Kraft dahinter um sie einen Fingerbreit vom Boden zu heben. Der Glanz, der sie umgab, erlosch ein wenig und die volle, sinnliche Stimme, die man erwartet hätte, zitterte vor Schreck: &quot;W-was..&quot;, brachte sie lediglich hervor, ehe sie mit Gewalt gegen den Mast geschleudert wurde und zu Boden rutschte, in einem Häufchen Elend. &quot;I-ich kam um z-zu helfen, ich bin..&quot;, hob sie wieder an, doch erneut wurde sie unterbrochen, als Lazalantin sich mit einem Aufschrei auf sie stürzte und weit ausholte, die Faust in ihr zerbrechliches Gesicht rammend. &quot;<span style="font-style: italic">Es ist mir egal! Du kannst ein Trugbild sein, ein heraufbeschworener Geist oder Litheth* selbst, aber dies hier ist mein Schiff. Was fällt dir ein in mein Reich einzudringen, ganz erhaben und gnädig in deiner Absicht, den götterverlassenen Bastard, der ich bin, zu erlösen? Warum, warum erst jetzt?!</span>&quot;. Jedes Satzende wurde von wiederholten Schlägen in die Bauchgrube begleitet, bis das Opfer seiner Tobsucht nurnoch würgen und winseln konnte. Mit einem letzten Ruck packte er sie unter den Schultern und warf sie über Bord, in den kühlen Sand der Wüste.</span><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">*Litheth: Tochter des Ventus, Herrin der Stürme und Gewitter.</div></div></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+							<a href="./report.php?f=27&amp;p=852317"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_report.gif" alt="Diesen Beitrag melden" title="Diesen Beitrag melden" /></a> <a href="./mcp.php?i=main&amp;mode=post_details&amp;f=27&amp;p=852317&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_info.gif" alt="Beitrags-Details" title="Beitrags-Details" /></a> <a href="./mcp.php?i=warn&amp;mode=warn_post&amp;f=27&amp;p=852317&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_warn.gif" alt="Benutzer verwarnen" title="Benutzer verwarnen" /></a> <a href="./posting.php?mode=delete&amp;f=27&amp;p=852317"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_delete.gif" alt="Beitrag löschen" title="Beitrag löschen" /></a> 							</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=7207"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=852317"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="./posting.php?mode=edit&amp;f=27&amp;p=852317"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_edit.gif" alt="Ändere Beitrag" title="Ändere Beitrag" /></a> <a href="./posting.php?mode=quote&amp;f=27&amp;p=852317"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_quote.gif" alt="Mit Zitat antworten" title="Mit Zitat antworten" /></a> &nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p853662"></a>
+				<b class="postauthor">Brand&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Der Flug der Ente.</div><div style="float: right;"><a href="./viewtopic.php?p=853662#p853662"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 3.08.12, 23:10&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Event-Teamleiter</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/5red.gif" alt="Event-Teamleiter" title="Event-Teamleiter" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=7207_1532258676.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.08, 20:14<br /><b>Beiträge:</b> 2882<br /><b>Wohnort:</b> USA				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="http://img6.imagebanana.com/img/bushzjhn/neptune_s_rage_by_utopic_man.jpg" alt="Bild" /></div><br /><div align="right"><a class="postlink" href="http://www.youtube.com/watch?v=WpWgYsgZm9k&amp;feature=related" target="_blank">♫ ♫</a></div><div align="right"></div><br /><div align="center"><span style="text-decoration: underline"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">G</span>ischt</span></span></div><br /><br /><span style="color: #400000">Morgenthau war nicht immer so ruhig gewesen - in den früheren Zeitaltern, als das galadonische Großreich noch in den Kinderschuhen gesteckt hatte, da litt das idyllische Lehen im Osten unter ungewöhnlichen Besuchern. Aus dem nahen Ma'ahn zog es immer wieder neugierige Elfen und Tiere jeder Art, vom Ungeziefer bis zu fürchterlichsten Bestien, in die Nähe der Zivilisation. Aus diesen Zeiten stammen noch die Schauermärchen über Ma'ahn und seine vielfältigen, mysteriösen Bewohner, die Mütter im ganzen Reich gute Dienste dabei leisten, ihren Kindern Gehorsam einzujagen. Aus der Realität der Gegenwart wurden zunehmend Gerüchte, und Reisende erzählten am abendlichen Lagerfeuer einander davon, dass diejenigen, die der Natur nicht ihren gebührenden Respekt erweisten auf ihren Wegen, plötzlich von den wilden Elfen Ma'ahns verschleppt wurden, die blitzschnell aus dem Dickicht am Wegesrand erscheinen konnten. Aus Jahren wurden Jahrzehnte, und bald war die Rede von Hirschkäfern, die in der Wildnis unter dem Einfluss uralter Zauberei so groß wurden, dass sie gar von Astreyon abbissen und so seine abnehmenden Phasen verursachten. <br /><br />Aber all das war unvorstellbar lange her. Irgendwann, in der ersten frühen Blüte des Königreiches, fand man die Mittel und Wege einen Wall von nie zuvor dagewesener Länge zu errichten, der sich von den Ausläufern des Drachengebirges im Süden bis zum Kadagebirge im Norden erstreckte. Im Sicherheit versprechenden Schatten dieses Monuments menschlicher Baukunst wagten sich die Menschen aus dem Hinterland hervorzukommen und erbauten die Stadt Grenzfeest, die ihre Anfänge als Garnison für ein Kronregiment bestritt. Und mit der einkehrenden Ruhe wurde Morgenthau beschaulich, fast schon hinterwäldlerisch. Das Phoenixgebirge trennte das Lehen vom Kern des Reiches, Draconis, ab, sodass man über Gofilm reisen musste, hatte man Geschäfte in der Hauptstadt zu erledigen. Bald zogen die Händler fort, dann folgten die Handwerker, die nicht für das Nötigste gebraucht wurden. Es verblieben die Soldaten, durch ihre Befehle dort gebunden.</span><br /><br /><div align="center">- - -</div><br /><br /><span style="color: #400000">Im Torhaus über dem Hauptdurchgang brannte in einem Fenster noch Licht, ein einzelner, warmer Punkt inmitten der nächtlichen Dunkelheit. In diesen Zeiten lohnte es nicht einmal mehr, den Durchgang zu erleuchten, geschweige denn, die Zugbrücke hochzuziehen. Von dem wehrhaften Schutzgraben war ein ausgetrocknetes Flußbett, übersät von Gerümpel, geblieben, so verwahrlost wie die von Wind und Wettern gezeichneten Steinquader des Walls. Die Aufruhr im Herzen des Reiches, ganz zu schweigen von dem Chaos in Endophal und Khalandra, hatten die unterstützenden Geldströme aus der Hauptstadt abgeschnürt, bis gerade noch genug überblieb, die verbleibende Kohorte Soldaten zu ernähren. Und wen es hierher verschlug, der war entweder ein unverbesserlicher Nichtsnutz oder der Sohn eines Adligen (oder Beides), der entweder zu wichtig zum Sterben war, oder in den Krisenherden Endophals nur im Wege stehen würde.</span><br /><br /><span style="color: #400000">Kam man näher an das Torhaus heran, so hörte man aus dem Fenster auch die ersten Klänge - schiefes Geklimper malträtierter Musikinstrumente, das Prasseln eines lebhaften Feuers und, immer wieder, den Klang prostender Krüge. Im Inneren waren die Soldaten, wie so oft, am Versaufen der Vorräte. Die Offiziere hatten sich längst zu ihrer Familie im nahen Grenzfeest begeben. Wie ein Rudel umgaben sie zwei junge Kerle, jeder einen ordentlich gefüllten Krug in der Hand, und feuerten sie an, klopften ihnen auf die Schultern und prosteten einander zu. Es waren zwei Rekruten, die hergeschickten worden waren, um ihre (im hohen Alter) gestorbenen Vorgänger zu ersetzen - und nun wurden sie gleich einmal an das Leben hier gewöhnt. &quot;<span style="font-weight: bold">Sauf</span>, Bursche!&quot;, gröhlte einer der Alteingesessenen und packte den Krug des Rekruten in einer Hand, seinen Hinterkopf in der Anderen und hielt ihn so fest, bis das dünne Bier ihm schon vorn herab lief.<br /><br />All die besoffene Fröhlichkeit war rasant verflogen, als ein höllischer Lärm sie heimsuchte. Im Wind tobende Takelage, das Poltern von Holz auf Stein und schließlich ein Bersten wie von einem dutzend Fässer direkt unter ihren Füßen, im Torhaus. Verdutzte Blicke wurden ausgetauscht, bis man sich darauf einigte, einem der Rekruten eine Fackel in die Hand zu drücken, um dort unten nach dem Rechten zu sehen. Auch schon ordentlich angetrunken wankte der Kerl die Stufen herab, öffnete die Tür durch einfaches Dagegenlehnen.. und musste erst einmal ein paar Holzplanken aus dem Weg schieben.<br /><br />Ein entzwei geborstener Mast durchzog das Torhaus diagonal, losgerissen vom Kiel des ehemaligen Bootes - das Segeltuch hatte sich in den eisernen Zinken des Torgitters verhangen und hing in Fetzen zurück. Das Boot selbst war in dutzende Teile zersprungen, doch immernoch konnte man erkennen, was für eine ruppige Reise es hinter sich gehabt haben musste. Das Holz war abgeschmirgelt und von Pflanzenresten verfärbt. Fingerbreitentief steckten Pfeile verschiedenster Machart darin, von gekonnt gefletschten kleinen Kunstwerken, bis zu primitiven Stücken aus Teer und Dornen. Selbst ein drei Schritt langer Speer gesellte sich dazu, seine eigene Geschichte von einer wilden Jagd durch die Nacht erzählend.<br /><br />Unter all den Trümmern blickte ein Leichnam hervor. Der Mann war herabgehungert, bis man jede einzelne Rippe abzählen konnte, und lag mit dem Gesicht im Dreck, sodass sein mehr als schulterlanges, filziges Haar und der zottelige Bart in jede Richtung abstanden. Sein linker Unterschenkel fehlte - der Stumpf endete unterhalb des Knies und war behelfsmäßig mit dem selben, rauen Stoff verbunden, in den er auch gewandet war. Der Rekrut war ein Gläubiger Morsans, sodass er behutsam sein Amulett in Form einer Sanduhr hervorholte und an den Verstorbenen herantrat, um seine Augen zu schließen. Die Hand führte er dabei vor dem fast geschlossenen Mund vorbei, und erwischte so einen leichten Atemhauch.<br /><br />&quot;<span style="font-weight: bold">MEDICUS!</span> H-hier, hier lebt wer! Hilfe!&quot; </span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+							<a href="./report.php?f=27&amp;p=853662"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_report.gif" alt="Diesen Beitrag melden" title="Diesen Beitrag melden" /></a> <a href="./mcp.php?i=main&amp;mode=post_details&amp;f=27&amp;p=853662&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_info.gif" alt="Beitrags-Details" title="Beitrags-Details" /></a> <a href="./mcp.php?i=warn&amp;mode=warn_post&amp;f=27&amp;p=853662&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_warn.gif" alt="Benutzer verwarnen" title="Benutzer verwarnen" /></a> <a href="./posting.php?mode=delete&amp;f=27&amp;p=853662"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_delete.gif" alt="Beitrag löschen" title="Beitrag löschen" /></a> 							</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=7207"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=853662"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="./posting.php?mode=edit&amp;f=27&amp;p=853662"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_edit.gif" alt="Ändere Beitrag" title="Ändere Beitrag" /></a> <a href="./posting.php?mode=quote&amp;f=27&amp;p=853662"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_quote.gif" alt="Mit Zitat antworten" title="Mit Zitat antworten" /></a> &nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p854057"></a>
+				<b class="postauthor">Brand&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Der Flug der Ente.</div><div style="float: right;"><a href="./viewtopic.php?p=854057#p854057"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 8.08.12, 19:00&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Event-Teamleiter</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/5red.gif" alt="Event-Teamleiter" title="Event-Teamleiter" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=7207_1532258676.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.08, 20:14<br /><b>Beiträge:</b> 2882<br /><b>Wohnort:</b> USA				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="http://img6.imagebanana.com/img/w0bj0zs9/pegleg.jpg" alt="Bild" /></div><br /><div align="right"><a class="postlink" href="http://www.youtube.com/watch?v=n7YFyM3Ay2k&amp;feature=relmfu" target="_blank">♫ ♫</a></div><div align="right"></div><br /><div align="center"><span style="text-decoration: underline"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">F</span>ragmente</span></span></div><br /><br /><span style="color: #400000">Zuerst war da einfach nur ein schlichtes Geräusch: Ein Buch wurde zugeklappt und abgelegt - das Holz des vermeintlichen altersschwachen Nachttisches knarzte unter der Last. Bald schon kam ein ganzes Panorama an Sinneseindrücken dazu: Stuhlbeine kratzten schräg über steinernes Pflaster, alte Knie knackten. In der Nähe musste irgendwo ein Kamin brennen, dessen Abzug nicht mehr so recht tat, denn Rauch juckte ihm in der Nase und hatte einen schalen Nachgeschmack im Mund hinterlassen. Seine Zunge fühlte sich trocken wie Pergament an, und auf seinem Brustkorb musste dem Gefühl nach ein heißer Felsen liegen, der ihm den Atem abschnürte. Immerhin schien er in einem gründlich durchgelegenen, aber gemütlichen Bett zu liegen. Die dicke Wolldecke war bis zu seinem Kinn hochgezogen und sorgte für eine wonnige Atmosphäre. Schnell war ein Entschluss gefasst: Noch eine Weile liegen bleiben. Nurnoch ein Weilchen, dann musste er wieder weiter.   </span><br /><br /><span style="color: #400000">Als er wieder zu sich kam, schlug er die Augen immerhin schonmal auf. Einige Schritte über ihm befand sich eine tiefe, durchhängende Decke aus Holzbalken, ausgeblichen und rissig. Bald aber schob sich ein Gesicht in sein Blickfeld, samt tiefer Falten, einer rötlich geäderten Knollnase und buschigen Augenbrauen. Der herabhängende, bemerkenswert lange Rauschebart kitzelte ihn am Kinn, brachte ihn zum Niesen. Ein Fehler, denn sogleich ereilte ihn, vom Gefühl her, ein Messerstich in den Brustkorb. Der Atem entfloh, er hielt schlicht die Luft an, in der Hoffnung, nicht wieder so unangenehm überrascht zu werden. Der Bart entschwand aus seinem Blick als der Alte ihn sich mit einer Klemme an die Robe heftete und eine brummelige Entschuldigung nuschelte. &quot;Ganz ruhig, ganz ruhig.&quot;, besänftigte er ihn noch, aber da war Tintin schon längst wieder weggetreten.</span><br /><br /><span style="color: #400000">Der nächste Sinneseindruck war Geschmack. Der Heiler hatte mit Kissen seinen Oberkörper aufgerichtet und gestützt und musste seinen Mund geöffnet haben und war gerade dabei, ihm lauwarme Brühe einzuflößen. Als Tintin das realisierte verschluckte er sich erst gründlich, hustete dann und versuchte sich vornüberzubeugen um zu erbrechen. Die Quittung erfolgte sogleich in Form des sengenden Schmerzes, der von seinem Oberkörper ausging. &quot;Ho! Ruhig, Bursche. Hast du eine Ahnung, wieviele Rippen du dir zerdeppert hast?&quot;, herrschte ihn der Alte an und drückte ihn an den Schultern zurück ins Liegen. Aus einer gebräunten Tinkturenflasche tropfte er ihm eine weißlich-matte Flüssigkeit auf die Lippen. Erst war es um die Schmerzen geschehen, dann um sein Bewusstsein.</span><br /><br /><span style="color: #400000">Er erwachte zu dem Gepolter von Hammerschlägen, dem Klicken metallischer Schnallen und einem drückenden Gefühl um seinen linken Oberschenkel. Als er sich aus Reflex ruckartig erhob - blieb der Protest seiner lädierten Rippen zu seiner freudigen Überraschung aus. Die Decke war untenherum zurückgeschlagen, sodass die Beine freilagen. Das rechte Bein und das linke Holzbein, das ein bärbeißig aussehender Schmied gerade befestigt hatte. Er klopfte sich die schwieligen Hände an der Lederschürze ab und blickte zu dem Heiler, der es sich in einem Polstersessel an der Seite des Betts gemütlich gemacht hatte und sprach: &quot;Ich wollt' es dir eigentlich schonend beibringen. Aber nach all der Zeit, die du nun schon hier liegst, dachte ich, es wär in deinem Interesse, wenn's etwas zügiger geht. Hab mich immerhin schon zweimal durch dein Logbuch lesen können.&quot;<br /><br />Hätte er stehen können, hätten ihm vor Schreck die Beine den Dienst versagt. So blieb ihm nur, wieder in Ohnmacht zu fallen - eher aus Schreck, als aus Schmerz. </span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+							<a href="./report.php?f=27&amp;p=854057"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_report.gif" alt="Diesen Beitrag melden" title="Diesen Beitrag melden" /></a> <a href="./mcp.php?i=main&amp;mode=post_details&amp;f=27&amp;p=854057&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_info.gif" alt="Beitrags-Details" title="Beitrags-Details" /></a> <a href="./mcp.php?i=warn&amp;mode=warn_post&amp;f=27&amp;p=854057&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_warn.gif" alt="Benutzer verwarnen" title="Benutzer verwarnen" /></a> <a href="./posting.php?mode=delete&amp;f=27&amp;p=854057"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_delete.gif" alt="Beitrag löschen" title="Beitrag löschen" /></a> 							</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=7207"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=854057"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="./posting.php?mode=edit&amp;f=27&amp;p=854057"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_edit.gif" alt="Ändere Beitrag" title="Ändere Beitrag" /></a> <a href="./posting.php?mode=quote&amp;f=27&amp;p=854057"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_quote.gif" alt="Mit Zitat antworten" title="Mit Zitat antworten" /></a> &nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p854753"></a>
+				<b class="postauthor">Brand&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Der Flug der Ente.</div><div style="float: right;"><a href="./viewtopic.php?p=854753#p854753"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 16.08.12, 21:52&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Event-Teamleiter</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/5red.gif" alt="Event-Teamleiter" title="Event-Teamleiter" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=7207_1532258676.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.08, 20:14<br /><b>Beiträge:</b> 2882<br /><b>Wohnort:</b> USA				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="http://img6.imagebanana.com/img/cbf8fizb/roadnottaken1.jpg" alt="Bild" /></div><br /><div align="right"><a class="postlink" href="http://www.youtuberepeat.com/watch?v=QdJE4tB8vhQ" target="_blank">♫ ♫</a></div><div align="right"></div><br /><div align="center"><span style="text-decoration: underline"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">F</span>elaglanz</span></span></div><br /><br /><span style="color: #400000">Es war noch ungewohnt, das Bein zu belasten. Mit einem leisen Knacken meldete sich der hölzerne Unterschenkel zu Wort als er sich aus dem Bett erhob, die schwere, muffige Daunendecke beiseite schlagend. Schon in den letzten Tagen war er wie ein eingesperrtes Tier in dem Raum auf und ab gestampft, in stiller Erwartung der endgültigen Zusage des Heilers. Der alte Sack (wie er ihn inzwischen liebevoll nannte) war vermutlich noch nicht einmal wach, aber die Zwischenzeit konnte er sich gut vertreiben, indem er sein Bündel packte.<br /><br />Er stutzte, als sein Blick auf den Tisch am Fußende des Betts fiel. Dort fand sich ein größerer Haufen kleinerer Aufmerksamkeiten: Eine Korbflasche mit Bier, eine kleinere Flasche selbiger Machart mit Met. Ein paar Krüge aus Steingut, mit Korken versiegelt, aus denen es nach Eingemachtem duftete. Ein ordentlicher Klotz Schinken, eingewickelt in ein besticktes Tuch, daneben direkt ein frischer Laib Brot, der, das würde er beschwören, gerade frisch aus dem Ofen gekommen sein musste.<br /><br />&quot;Bursche!&quot;, klang es da grummlig aus dem offenen Türrahmen. Gemächlich schob sich der beleibte, bärtige Garnisonsheiler in den Raum und wedelte mit einer der dürren Hände in die vage Richtung des kleinen Banketts. &quot;Habe vielleicht ein Bisschen viel aus deinem Logbuch weitererzählt. Haben die Männer von daheim mitgebracht. Haben hier schließlich nicht oft jemanden auf Durchreise, und erst recht keinen, der uns dabei beinahe das Tor einrammt.&quot; Der Alte packte seinen Stock, knallte damit auf ein Stück freie Tischfläche. &quot;Wo wir bei den beiden Logbüchern sind, die du mitgeschleppt hast&quot;, nuschelte er und warf eine Ledertasche herüber, die Tintin gerade noch so zu fassen bekam. &quot;Habe die zusammengefasst, selbst noch was dazugeschrieben und nach Draconis geschickt. Sollte wer mitbekommen, dachte ich mir, also ging es an die Hafenbehörde da. Wissen schon, was damit zu tun ist, dacht ich mir. Genau.&quot;<br /><br />Einen Moment stand der Greis einfach dort, starrte Löcher in die Luft, ehe er sich erst räusperte, dann scheinbar verschluckte und hustend das Proviantbündel packte. Grob drückte er es ihm gegen die Brust, patschte ihm auf die Schulter und fügte etwas herzlicher hinzu: &quot;Keine Ahnung, was davon wahr ist und was erstunken und gelogen, aber jetzt scher dich heim. Deine Eltern sorgen sich wahrscheinlich schon krank, Junge.&quot; Ein unerwartet kräftiger Schubser brachte Tintin aus dem Gleichgewicht, er stolperte voran, hielt sich am Türrahmen fest und humpelte schließlich ins Freie.<br /><br />Es nieselte und schwerer Nebel hing auf dem taufrischen Gras. Aber irgendwo oberhalb der Wolkendecke verbarg sich die so sehnlich vermisste Fela und warf kecke Strahlen herab, wo sie nur konnte. Mit einem Ächzen schulterte er das Bündel, sog die frische Landluft tief ein - und begann loszuhumpeln. Es würde dauern, aber er war auf dem Heimweg. Nurnoch das zählte.  </span><br /><br /><div align="center">- - -</div><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;"><div class="quotetitle">Ein Brief auf dem Weg an den Königshof hat geschrieben:</div><div class="quotecontent"><span style="color: #404000"><span style="font-size: 85%; line-height: normal"><div align="right">Grenzfeest, zum Endtag, dem sechzehnten Querlar</div></span><br /><span style="font-size: 85%; line-height: normal">An das Sekretariat des Königshofes<br />Betreffend Angelegenheiten des Grenzlands Morgenthau</span><br /><br />Vierfaltige Grüße entbieten die Männer des Grenzfeester Walls vor Ma&#39;ahn,<br /><br />Beigelegt zu diesem Schreiben finden sich Abschriften im Umfang von dreißig Seiten, dazu insbesondere die Beglaubigung des Astraelgeweihten Ionas zu Siebenwind.<br />Bei einer Durchsicht werdet ihr feststellen, dass beschrieben wird, wie sich ein Seemann von Siebenwind aus aufmachte im wahnwitzigen Unterfangen, Tare zu umrunden. Es handelt sich um seine eigenen Aufzeichnungen, die teils spärlich ausfallen und zusammenhangslos wirken, aber doch alle größeren Ereignisse zusammenfassen. Lest, bevor ihr zu diesen Unterlagen greift, den Brief zu Ende, denn wir befürchten, dass ihr es sonst als das Geschreibsel eines Wahnsinnigen abtun könntet.<br />Eben dieser Mann erreichte vor vier Tagen den Wall, in einem Boot. Ihr werdet euch erinnern, dass im Umland kein größeres Gewässer zu finden ist, dementsprechend waren wir allesamt überrascht. Er durchschlug ungebremst das Haupttor und zog sich dabei schwere Verletzungen zu. Er befindet sich in der Pflege unseres Feldschers und wird vorraussichtlich den linken Unterschenkel verlieren. Noch ist er ohne Bewusstsein, doch wollten wir nach Durchsicht seines spärlichen Besitzes nicht länger zögern, euch zu informieren. An seinem Körper trug er Andenken an die vermeintliche Reise, wie wir sie noch nie zuvor sahen. Unter Anderem eine Frucht wie eine blaue Orange, pockennarbig und vertrocknet. Dazu ein Affenschädel, dem von Geburt an die Augen fehlen mussten. Gehüllt war der Reisende in einen Mantel der galadonischen Marine aus den Zeiten Asodayr Ahm Ersons, entsprechend über zweitausend Götterläufe alt.<br /><br />Wir vermögen nicht, dies abschließend zu beurteilen, und überlassen somit die Logbücher und die Beglaubigung in Abschrift euren Händen, in der Hoffnung, dass ihr damit mehr anzufangen vermögt. Der Seemann hört auf den Namen &#39;Lazalantin&#39; und stammt aus der Hafenstadt Brandenstein auf Siebenwind. Wir werden ihn anhalten, heimzukehren und eure Antwort geduldig zu erwarten.<br /><br />Möge Bellums Mut uns nie verlassen,<br />Die Grenzfeester.<br /></span></div></div></div></div></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=7207">Brand</a>: 11.01.13, 23:57, insgesamt 2-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+							<a href="./report.php?f=27&amp;p=854753"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_report.gif" alt="Diesen Beitrag melden" title="Diesen Beitrag melden" /></a> <a href="./mcp.php?i=main&amp;mode=post_details&amp;f=27&amp;p=854753&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_info.gif" alt="Beitrags-Details" title="Beitrags-Details" /></a> <a href="./mcp.php?i=warn&amp;mode=warn_post&amp;f=27&amp;p=854753&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_warn.gif" alt="Benutzer verwarnen" title="Benutzer verwarnen" /></a> <a href="./posting.php?mode=delete&amp;f=27&amp;p=854753"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_delete.gif" alt="Beitrag löschen" title="Beitrag löschen" /></a> 							</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=7207"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=854753"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="./posting.php?mode=edit&amp;f=27&amp;p=854753"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_edit.gif" alt="Ändere Beitrag" title="Ändere Beitrag" /></a> <a href="./posting.php?mode=quote&amp;f=27&amp;p=854753"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_quote.gif" alt="Mit Zitat antworten" title="Mit Zitat antworten" /></a> &nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p854912"></a>
+				<b class="postauthor">Brand&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Der Flug der Ente.</div><div style="float: right;"><a href="./viewtopic.php?p=854912#p854912"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 19.08.12, 15:15&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Event-Teamleiter</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/5red.gif" alt="Event-Teamleiter" title="Event-Teamleiter" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=7207_1532258676.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.08, 20:14<br /><b>Beiträge:</b> 2882<br /><b>Wohnort:</b> USA				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="http://img6.imagebanana.com/img/p602ahtq/Atlas.jpg" alt="Bild" /></div><br /><div align="right"><a class="postlink" href="http://www.youtube.com/watch?v=mLXQltR7vUQ" target="_blank">♫ ♫</a></div><div align="right"></div><br /><div align="center"><span style="text-decoration: underline"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">A</span>uf Achse</span></span></div><br /><br /><span style="color: #400000">Ein scharfes Einatmen, er hielt die Luft an - und pellte sich noch einen der Hautfetzen ab, die der Felabrand abgelöst hatte. Es war weder besonders heiß, noch schien Fela besonders stark. Er war es schlicht nicht mehr gewöhnt, und konnte doch nicht davon lassen, immer mal wieder Fela direkt anzublicken oder seine beschwerliche Reise für einen Zyklus oder zwei zu unterbrechen, um sich noch ein wenig zu bräunen. Natürlich taten ihm die Augen weh, natürlich schmerzte jede Bewegung der rissigen, malträtierten Haut, aber das war es irgendwie doch wert. Die Dunkelheit hatte er auf jeden Fall gründlich satt, sodass er in den Dunkelzyklen regelmäßig in das nächste Gasthaus einkehrte, um dort die Nacht zum Tag zu machen.<br /><br />So kam es, dass er nun mit einem ausgewachsenen Brummschädel und einem förmlich verkohlten Rücken den Weg entlangstapfte. Bei einem Schritt löste sich eine Schnalle des Holzbeins und er knickte zur Seite hin weg - er fing sich ab, aber das hielt ihn nicht davon ab, über die &quot;horenverdammte Rienschande&quot; zu fluchen. Mit Schwung wuchtete er die Fassung des Beins gegen den nächstbesten Stein, bis er seinen Rachedurst getilgt hatte, ehe er es notgedrungen wieder anbrachte und prüfend auftrat. Bei all der Aufregung musste er das Herannahen einer Kutsche überhört haben, denn nun drückte eines der Pferde die Nüstern grob gegen seinen geschundenen Rücken und schnaubte laut.<br /><br />Die Pferde waren Bernsteiner, mit hellem, glänzenden Fell und großen Blessen. Sie wirkten gut gepflegt, von den neuen Hufeisen bis zu den geflochtenen Mähnen und Schweifen. Vom Rest der Kutsche hätte man das früher sicher auch behaupten können, aber sie hatte definitiv bessere Zeiten gesehen. Die matte, edle schwarze Farbe blätterte großflächig ab und offenbarte von grünlichem Schimmel und Moos befallenes Holz darunter. Der Kutscher passte in das generelle Bild, schien es doch, dass die meisten seiner Zähne einer Fäulnis anheim gefallen waren. Er hob seine Kappe mit dem Daumen an und deutete dann über seine Schulter. &quot;Keine Mätzchen.&quot;<br /><br />Tintin zögerte für einen Moment, aber dann siegte die Neugier und er öffnete eine der Türen - behutsam, bevor sie ihm noch entgegenfiel. Die geöffnete Tür brachte etwas Licht ins düstere Innere und offenbarte das fröhliche, offene Antlitz einer jungen Frau. &quot;Nur herein in die gute Stube, und zu mit der Türe!&quot;, forderte sie ihn in einem Tonfall auf, der davon zeugte, dass sie es gewöhnt war, ihre Wünsche erfüllt zu bekommen. Er zog sich hoch, das Holzbein hinter sich herschleifend, und nahm Platz. Staubwolken stiegen aus den alten Polstern auf und brachten das Fräulein zu einem kurzen Niesen.<br /><br />Sie klopfte behutsam gegen die Rückwand der Kutsche, die sich daraufhin knirschend in Bewegung versetzte. &quot;Eigentlich schreibt das Fräulein Nhergas ja, dass es sich für ein junges Fräulein nicht geziemt, die Kutsche mit einem Herren zu teilen. Es ist unschicklich!&quot;, informierte sie ihn geflissentlich. Dabei klopfte sie auf den kleinen Stapel von Büchern und Heftchen, der einen Sitz belegte. &quot;Aber sie schreibt ja auch, dass man einem Krüppel Brot und Suppe geben soll, ehe man ihn fortjagt. Seht ihr?&quot;. Dabei packte sie eins der Heftchen und hielt es ihm entgegen. Der Titel war 'Herzogin Nhergas empfiehlt: Zehn Möglichkeiten, eure Bundschließung zu einem gesellschaftlichen Erlebnis werden zu lassen', darunter etwas kleiner: '<span style="font-size: 85%; line-height: normal">Signiert von der berühmten Weißmaga höchstpersönlich</span>'.<br /><br />Er saß mit offenem Mund dort, rieb sich mit Daumen und Zeigefinger über die Augenwinkel und packte das Heft schließlich. Ein kurzes Überfliegen der ersten paar Seiten. Reißerische Artikel wechselten sich mit verschwenderischen Kupferstichen ab, die Ratschläge zu jedem Thema gaben, das sich ein Mädchen wünschen könnte. Da fanden sich Anleitungen zum Nachnähen und beliebte Motive zum Sticken, aber auch Ideen zur Gestaltung des Ehelebens und zur Suche nach 'Ihm'. &quot;Wertes Fräulein, ich glaube nicht, dass das hier.. wie soll ich sagen, authentisch ist.&quot;, wandte er behutsam ein. &quot;'Fräulein Nhergas' schreibt ihren Vornamen falsch. Ein Schwindel, vermute ich.&quot; Die junge Frau ihm gegenüber, in ihrem leicht mottenbefallenen Kleid, kicherte nur auf und riß ihm das Heftchen aus den Fingern. &quot;Weiß doch jeder, dass Krüppel auch schwachsinnig sind! Macht euch nur keine Sorgen, das hat schon alles seine Richtigkeit.&quot;, in einem Tonfall gesprochen, als hätte sie es mit einem kleinen Kind zu tun.<br /><br />&quot;Sie schreibt auch, dass eine junge Frau auf der Suche nach einer guten Partie, will heißen, einem angemessenen Ehemann, am Besten alleine reisen sollte. So kam ich auch an den lieben Herrn Kutscher - er hat sich einfach so angeboten, mich ganz ohne Entlohnung zu meiner Tante zu bringen. Ein richtiger Kavalier!&quot;. Lazalantin war währenddessen in sich zusammengesunken, den Kopf in beiden Händen geborgen. Wo war er nur hereingeraten?<br /><br />   </span></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=7207">Brand</a>: 31.08.12, 06:03, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+							<a href="./report.php?f=27&amp;p=854912"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_report.gif" alt="Diesen Beitrag melden" title="Diesen Beitrag melden" /></a> <a href="./mcp.php?i=main&amp;mode=post_details&amp;f=27&amp;p=854912&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_info.gif" alt="Beitrags-Details" title="Beitrags-Details" /></a> <a href="./mcp.php?i=warn&amp;mode=warn_post&amp;f=27&amp;p=854912&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_warn.gif" alt="Benutzer verwarnen" title="Benutzer verwarnen" /></a> <a href="./posting.php?mode=delete&amp;f=27&amp;p=854912"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_delete.gif" alt="Beitrag löschen" title="Beitrag löschen" /></a> 							</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=7207"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=854912"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="./posting.php?mode=edit&amp;f=27&amp;p=854912"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_edit.gif" alt="Ändere Beitrag" title="Ändere Beitrag" /></a> <a href="./posting.php?mode=quote&amp;f=27&amp;p=854912"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_quote.gif" alt="Mit Zitat antworten" title="Mit Zitat antworten" /></a> &nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p855048"></a>
+				<b class="postauthor">Brand&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Der Flug der Ente.</div><div style="float: right;"><a href="./viewtopic.php?p=855048#p855048"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 21.08.12, 11:16&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Event-Teamleiter</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/5red.gif" alt="Event-Teamleiter" title="Event-Teamleiter" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=7207_1532258676.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.08, 20:14<br /><b>Beiträge:</b> 2882<br /><b>Wohnort:</b> USA				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="http://img6.imagebanana.com/img/vh7bkhhf/Atlas1.jpg" alt="Bild" /></div><br /><div align="right"><a class="postlink" href="http://www.youtube.com/watch?v=3uz7XeJhecE" target="_blank">♫ ♫</a></div><div align="right"></div><br /><div align="center"><span style="text-decoration: underline"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">Ü</span>ber Stock und Stein</span></span></div><br /><br /><span style="color: #400000">Er hakte sich mit dem Griff des Gehstocks in einem Ast über ihm ein und rutscht auf den Stamm zu, das kleine Bächlein überwindend, das unter ihm fröhlich plätscherte. Aus dem Schwung heraus fing er sich ab und hinkte einbeinig weiter, um sich den Seidenstrumpf vom Holzbein ziehen zu können. Das Rüschchenkleid stellte sich als hinderlich heraus - es flatterte und knatterte in der steifen Brise, behinderte seine Bewegungen durch das lose geschnürte Korsett und wie fürchterlich er darunter schwitzte! Kurzerhand riß er die Schnürleiste hinten auf und zog es sich vom Körper, um oben ohne weiter durch den Wald zu humpeln (mit Ausnahme des spitzenverzierten Büstenhalters). Bald folgte das Blümchenkopftuch, das zusammengeknüllt über eine Schulter geworfen wurde. Davon würde er ganz, ganz sicher nichts im Logbuch erwähnen, bei den Horen! Weder von der weiblichen Aufmachung, noch von dem einarmigen Endophali, den drei Pfund Rüben oder dem Affen (einem wahrhaften) im Bellumschrein.<br /><br />Er taumelte durch das letzte Stück Dickickt am Waldrand und stand plötzlich auf dem halb gemähten Feld. Ein paar dutzend Schritt entfernt stand der zugehörige Bauer, der seine Sense in weiten Schwüngen führte. Er warf nur einen Blick auf den wirren Stadtvogel und widmete sich dann wieder bedächtig seiner ordentlichen, bodenständigen Arbeit. Wäre nicht der erste angetrunkene Jüngling oder weltfremde Adelssprößling, der sich aus den nahen Gutshöfen oder von Draconis herverirrt hätte. Lediglich als der Kerl begann, durch das fast hüfthohe Roggenfeld zu waten, war es doch etwas zuviel des Guten. Die Arbeit war bei der Hitze schon hart genug, da brauchte es nicht auch noch jemanden, der die Halme umknickte!<br /><br />Jetzt wurde es hässlich - er hatte nun auch noch zwei Spurlaut gebende Wachhunde und den sensenbewaffneten Bauern auf den Hacken, die zügig zu dem verkrüppelten Tintin aufschlossen. Er zog die verbleibende Strumpfhose hoch, bevor sie ihn noch hinderte, und legte einen Zahn zu. Das war das Leben!<br /><br />Mit Schwung rutschte er das erodierte Ufer eines ausgetrockneten, kleinen Kanals herab und zog sich auf der anderen Seite am hartnäckigen Unkraut wieder hoch. Nach einer unbeholfenen akrobatischen Einlage hatte er auch den folgenden Holzzaun überwunden und fand sich auf einer ausgedehnten Weide samt friedlich grasender Pferde wieder. Da gab es wenig zu fackeln - er hielt dem erstbesten Gaul den Handrücken vor die Nüstern, ließ ihn einen Moment schnuppern und sich vertraut machen, dann packte er mit einer Hand in die Mähne, mit der anderen Hand auf den Rücken und stieß sich vom Boden ab.<br /><br />Der Fehler in seinem Plan wurde ihm recht schnell klar: Er hatte sich ausgerechnet einen sehr jungen Hengst ausgesucht, den man noch nicht eingeritten hatte. Und es mangelte ihm an einem rechten Unterschenkel oder Fuß, um irgendwie Halt zu finden. Durch ein halbes Wunder schaffte er es, sich irgendwie festzukrallen, während das biestige Vieh unter ihm ein, zwei Mal buckelte und schließlich davonzischte, den Zaun ohne Mühen hinter sich lassend, begleitet vom panischen Geschrei des Reiters.</span></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=7207">Brand</a>: 31.08.12, 06:03, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+							<a href="./report.php?f=27&amp;p=855048"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_report.gif" alt="Diesen Beitrag melden" title="Diesen Beitrag melden" /></a> <a href="./mcp.php?i=main&amp;mode=post_details&amp;f=27&amp;p=855048&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_info.gif" alt="Beitrags-Details" title="Beitrags-Details" /></a> <a href="./mcp.php?i=warn&amp;mode=warn_post&amp;f=27&amp;p=855048&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_warn.gif" alt="Benutzer verwarnen" title="Benutzer verwarnen" /></a> <a href="./posting.php?mode=delete&amp;f=27&amp;p=855048"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_delete.gif" alt="Beitrag löschen" title="Beitrag löschen" /></a> 							</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=7207"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=855048"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="./posting.php?mode=edit&amp;f=27&amp;p=855048"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_edit.gif" alt="Ändere Beitrag" title="Ändere Beitrag" /></a> <a href="./posting.php?mode=quote&amp;f=27&amp;p=855048"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_quote.gif" alt="Mit Zitat antworten" title="Mit Zitat antworten" /></a> &nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p855323"></a>
+				<b class="postauthor">Brand&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Der Flug der Ente.</div><div style="float: right;"><a href="./viewtopic.php?p=855323#p855323"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 28.03.14, 21:03&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Event-Teamleiter</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/5red.gif" alt="Event-Teamleiter" title="Event-Teamleiter" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=7207_1532258676.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.08, 20:14<br /><b>Beiträge:</b> 2882<br /><b>Wohnort:</b> USA				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="http://img6.imagebanana.com/img/ae3goed3/Atlas1.jpg" alt="Bild" /></div><br /><div align="right"><a class="postlink" href="http://www.youtuberepeat.com/watch?v=M5HOXfo-UO0" target="_blank">♫ ♫</a></div><div align="right"></div><br /><div align="center"><span style="text-decoration: underline"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">E</span>pilog</span></span></div><br /><br /><span style="color: #400000">Die meisten Geschichten enden auf einprägsame Weise. Die erfolgreichen Heerführer Khalandras wurden am Ende der Kampagne gegen die Orken geadelt und ehrenhaft entlassen, um ihren Lebensabend verdient genießen zu können. Die Gelehrten Savaros, die den Kalender reformierten, sahen ihr gutes Werk und fanden Zufriedenheit (außerdem, auch das sei angemerkt, wurden sie mit Gold überschüttet). Die biestigen Mörder, die teils ganze Städte in Aufruhr versetzten und Tag um Tag in aller Munde waren fanden ihre Ruhe am Ende eines Stricks und in Morsans Armen.<br /><br />Diese Geschichte endet mit einem müden Fuß, einem Holzbein und dem Burschen, der dran hängt. Er hätte den Fuß in einen Trog Wasser gehalten, um ihn etwas zu kühlen nach dem beschwerlichen Marsch hierher, aber im Hafen Rothenbuchts sollte man insbesondere vom Wasser abstand nehmen. Entweder es war, wie die kalten Fluten im Hafenbecken, zäh wie Suppe und schwarz wie die Nacht, oder es schwammen absonderliche Dinge und kleinere (und größere) Lebewesen darin - oder jemand hatte schlicht aus böser Absicht reingestrullert. So kühlte er zumindest seine Kehle mit einem Krug Altbier, während er auf der Bank vor einer Hafenkaschemme wieder zu Atem kam.<br /><br />Es sind diese schwachen Momente, in denen man sich hüten muss. Nicht wenige Seemänner, und jene, die es werden würden, saßen so herum und bekamen ein Bier nach dem Anderen von einem freundlichen Spender ausgegeben, um am nächsten Morgen mit einem Brummschädel in einer Hängematte an Bord eines unbekannten Schiffs mit ungewissem Ziel aufzuwachen. Nicht Wenige hatten es auch bei Tintin versucht, woher auch der momentane Bierkrug in seinen müden Händen rührte. Nach einer Weile war das Gespräch immer auf das Meer im fernen Westen gekommen, und seitens der Kapitäne wurden eifrig Xanzeichen geschlagen und über solch Seemannsgarn geflucht, bevor sie sich eilig aufmachten.<br /><br />Nicht so bei dem nächsten Exemplar. Es war eine recht junge Frau, gewandet in roter Schärpe und rotem Kopftuch, die sich zu ihm setzte und ihm einen Kurzen hinstellte. Man laberte, fachsimpelte und plauderte gemütlich bis zu der entscheidenden Frage: &quot;Was wisst ihr eigentlich von den Meeren jenseits Siebenwinds?&quot;. Ein Zögern, dann antwortete sie mit einem verhaltenen Feuer in den Augen, dass sie hoffte, sie irgendwann selbst erblicken zu dürfen.<br /><br />&quot;Ihr werdet einen Navigator brauchen.&quot;, sprach er und stellte seinen leeren Krug vor sich ab. Manche Geschichten enden einfach - nie.  </span><br /><br /><br /><span style="font-weight: bold">[Verklickt - Ignorieren, bitte!]</span></div>
+
+											<span class="gensmall"><br /><br />Zuletzt als neu markiert von Brand am 28.03.14, 21:03.</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+							<a href="./report.php?f=27&amp;p=855323"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_report.gif" alt="Diesen Beitrag melden" title="Diesen Beitrag melden" /></a> <a href="./mcp.php?i=main&amp;mode=post_details&amp;f=27&amp;p=855323&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_info.gif" alt="Beitrags-Details" title="Beitrags-Details" /></a> <a href="./mcp.php?i=warn&amp;mode=warn_post&amp;f=27&amp;p=855323&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_warn.gif" alt="Benutzer verwarnen" title="Benutzer verwarnen" /></a> <a href="./posting.php?mode=delete&amp;f=27&amp;p=855323"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_delete.gif" alt="Beitrag löschen" title="Beitrag löschen" /></a> 							</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=7207"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./ucp.php?i=pm&amp;mode=compose&amp;action=quotepost&amp;p=855323"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_pm.gif" alt="Private Nachricht senden" title="Private Nachricht senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;"><a href="./posting.php?mode=edit&amp;f=27&amp;p=855323"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_edit.gif" alt="Ändere Beitrag" title="Ändere Beitrag" /></a> <a href="./posting.php?mode=quote&amp;f=27&amp;p=855323"><img src="./styles/siebenwind/imageset/de_x_sie/icon_post_quote.gif" alt="Mit Zitat antworten" title="Mit Zitat antworten" /></a> &nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=91444&amp;start=60"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=91444"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>3</strong> von <strong>3</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 67 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Klicken Sie, um auf Seite … zu gehen">Gehe zu Seite</a> <a href="./viewtopic.php?f=27&amp;t=91444&amp;st=0&amp;sk=t&amp;sd=a&amp;start=30">Vorherige</a>&nbsp;&nbsp;<a href="./viewtopic.php?f=27&amp;t=91444&amp;st=0&amp;sk=t&amp;sd=a">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=91444&amp;st=0&amp;sk=t&amp;sd=a&amp;start=30">2</a><span class="page-sep">, </span><strong>3</strong></b></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 4 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"><form method="post" action="./mcp.php?f=27&amp;t=91444&amp;quickmod=1&amp;redirect=.%2Fviewtopic.php%3Ff%3D27%26t%3D91444%26start%3D60%26st%3D0%26sk%3Dt%26sd%3Da&amp;sid=13a5f784d50fee3badb034fb5b9d3723"><span class="gensmall">Schnellmoderation:</span> <select name="action" id="quick-mod-select"><option value="lock">Thema sperren</option><option value="delete_topic">Thema löschen</option><option value="move">Thema verschieben</option><option value="split">Thema teilen</option><option value="merge">Beiträge zusammenführen</option><option value="merge_topic">Thema zusammenführen</option><option value="fork">Thema duplizieren</option><option value="make_sticky">In wichtiges Thema ändern</option><option value="make_announce">In Bekanntmachung ändern</option><option value="make_global">In globale Bekanntmachung ändern</option><option value="topic_logs">Protokoll anzeigen</option></select> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie <strong>dürfen</strong> neue Themen in diesem Forum erstellen.<br />Sie <strong>dürfen</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie <strong>dürfen</strong> Ihre Beiträge in diesem Forum ändern.<br />Sie <strong>dürfen</strong> Ihre Beiträge in diesem Forum löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=91444"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="1100">Mitarbeiterforum</option>
+					<option value="1103">&nbsp; &nbsp;Wissenswertes, Abläufe, interne Regelungen</option>
+					<option value="1101">&nbsp; &nbsp;Bekanntmachungen, Ideen und Konzepte</option>
+					<option value="1102">&nbsp; &nbsp;Allgemeines und Feedback</option>
+					<option value="1104">&nbsp; &nbsp;Mitarbeiter - Archiv</option>
+					<option value="447">&nbsp; &nbsp;&nbsp; &nbsp;Mitarbeiterforen</option>
+					<option value="36">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Mitarbeiter] Interne Bekanntmachungen</option>
+					<option value="22">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Mitarbeiter] Allgemeines</option>
+					<option value="520">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Mitarbeiter] Ideen &amp; Konzepte</option>
+					<option value="1005">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Ideen Archiv</option>
+					<option value="1006">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Ideen - umgesetzt</option>
+					<option value="1007">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Ideen - in Arbeit</option>
+					<option value="1008">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Ideen - abgelehnt</option>
+					<option value="527">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Mitarbeiter] Feedback</option>
+					<option value="521">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Mitarbeiter] Offtopic</option>
+					<option value="1111">7w-Reorganisation</option>
+					<option value="1106">&nbsp; &nbsp;7w-Reorganisation</option>
+					<option value="1107">&nbsp; &nbsp;&nbsp; &nbsp;Restrukturierung Rat &amp; Staff - Aufgaben, Rechte &amp; Pflichten</option>
+					<option value="1108">&nbsp; &nbsp;&nbsp; &nbsp;Vision, Kommunikation &amp; Motivation</option>
+					<option value="1109">&nbsp; &nbsp;&nbsp; &nbsp;Serverversion</option>
+					<option value="1113">&nbsp; &nbsp;&nbsp; &nbsp;Gesamtkonzept</option>
+					<option value="651">Projektforen</option>
+					<option value="1094">&nbsp; &nbsp;Projekt Dungeons-Kämpfer/Magier</option>
+					<option value="1095">&nbsp; &nbsp;&nbsp; &nbsp;Ideen/Brainstorming</option>
+					<option value="1096">&nbsp; &nbsp;&nbsp; &nbsp;Planung/Umsetzung</option>
+					<option value="986">&nbsp; &nbsp;Magiereform &amp; Geweihtenreform V2.0</option>
+					<option value="990">&nbsp; &nbsp;&nbsp; &nbsp;Zauber &amp; Zauberbäume</option>
+					<option value="1056">&nbsp; &nbsp;&nbsp; &nbsp;Wunder &amp; Wunderbäume</option>
+					<option value="1055">&nbsp; &nbsp;&nbsp; &nbsp;Zauber und Wunder Werkstatt</option>
+					<option value="991">&nbsp; &nbsp;&nbsp; &nbsp;Entschieden</option>
+					<option value="1050">&nbsp; &nbsp;&nbsp; &nbsp;Umfragen</option>
+					<option value="987">&nbsp; &nbsp;&nbsp; &nbsp;Zurückgestellte Themen</option>
+					<option value="988">&nbsp; &nbsp;&nbsp; &nbsp;Archiv</option>
+					<option value="975">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projekt Gerüchteküche</option>
+					<option value="976">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Gerüchte - Entwurf</option>
+					<option value="977">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Gerüchte - Zur Verwendung</option>
+					<option value="978">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Gerüchte - Alt (Nicht mehr benutzen)</option>
+					<option value="985">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Level 25+</option>
+					<option value="1054">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Die Rückkehr - Festlandsplot</option>
+					<option value="1053">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Das Bardentum</option>
+					<option value="1105">&nbsp; &nbsp;Großbaustelle: Wie wipen wir?</option>
+					<option value="451">Leitungsforen</option>
+					<option value="17">&nbsp; &nbsp;[Leitung] Leitung</option>
+					<option value="866">&nbsp; &nbsp;[Leitung] Tickets und Anfragen</option>
+					<option value="10">&nbsp; &nbsp;[Leitung] Allgemeines &amp; Diskussionen</option>
+					<option value="522">&nbsp; &nbsp;[Leitung] Grundlagen des Projekts</option>
+					<option value="981">&nbsp; &nbsp;&nbsp; &nbsp;Ausbildungsalmanach</option>
+					<option value="523">&nbsp; &nbsp;[Leitung] Personalangelegenheiten</option>
+					<option value="46">&nbsp; &nbsp;[Leitung] Archiv</option>
+					<option value="922">&nbsp; &nbsp;&nbsp; &nbsp;Leitungsarchiv - Allgemeines und Diskussionen</option>
+					<option value="923">&nbsp; &nbsp;&nbsp; &nbsp;Leitungsarchiv - Tickets und Anfragen</option>
+					<option value="89">&nbsp; &nbsp;&nbsp; &nbsp;Leitungsarchiv - Ideen</option>
+					<option value="48">&nbsp; &nbsp;&nbsp; &nbsp;Leitungsarchiv - Support</option>
+					<option value="16">&nbsp; &nbsp;&nbsp; &nbsp;Leitungsarchiv - Ingame + Event</option>
+					<option value="983">&nbsp; &nbsp;&nbsp; &nbsp;Leitungsarchiv - Projekte</option>
+					<option value="708">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projekt &quot;Werbung für Siebenwind&quot;</option>
+					<option value="715">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projekt &quot;Werbung&quot; - Archiv</option>
+					<option value="716">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Siebenwindvideos</option>
+					<option value="763">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Ratsprojekt: &quot;Zeit des Wandels - Kapitel II&quot;</option>
+					<option value="822">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projekt Inseldesign</option>
+					<option value="809">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projekt Cataclysm</option>
+					<option value="867">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projekt Hexenplot 2012</option>
+					<option value="709">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projekt &quot;Hilfesystem, Neulingsfreundlichkeit&quot;</option>
+					<option value="919">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projekt: Dialoge/Neulinge</option>
+					<option value="936">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Ratsprojekt: Charakter erstellen</option>
+					<option value="907">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projekt Questsystem</option>
+					<option value="810">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projekt &quot;Regelüberarbeitung&quot;</option>
+					<option value="747">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Ratsprojekt: Hintergrund &amp; Plot</option>
+					<option value="938">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Mitarbeiter] Projekt Sonderitems</option>
+					<option value="958">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Mitarbeiter] Spieleranfragen</option>
+					<option value="969">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;RPC 2015</option>
+					<option value="992">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Klassenreform</option>
+					<option value="993">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Dungeonüberarbeitung</option>
+					<option value="1027">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Magiereform (light)</option>
+					<option value="877">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projekt Norland-Strukturen</option>
+					<option value="1010">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Radak 3.0</option>
+					<option value="1011">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Der Forscherstreit [Event]</option>
+					<option value="1016">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;PVP - Konzeption</option>
+					<option value="453">&nbsp; &nbsp;&nbsp; &nbsp;InGameforen</option>
+					<option value="95">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[InGame] Allgemeines Konzepterforum</option>
+					<option value="86">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[InGame] Anträge</option>
+					<option value="612">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[InGame] Konzepte</option>
+					<option value="686">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[InGame] Geweihtenreform</option>
+					<option value="783">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[InGame] Wunder</option>
+					<option value="834">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[InGame] Rassen-/Klassenreform</option>
+					<option value="713">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[InGame] Ideen</option>
+					<option value="550">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[InGame] Archiv</option>
+					<option value="50">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[InGame] Homepage</option>
+					<option value="59">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[InGame] Gruppensprecher - Diskussionen</option>
+					<option value="551">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[InGame] Gruppensprecher - Archiv</option>
+					<option value="524">&nbsp; &nbsp;&nbsp; &nbsp;Plotforen</option>
+					<option value="924">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] Tiefen</option>
+					<option value="525">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] - Entwicklung &amp; Orga</option>
+					<option value="918">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] - Design</option>
+					<option value="34">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] - Umsetzungen</option>
+					<option value="925">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] Kataklysmus</option>
+					<option value="926">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] Kataklysmus Allgemein</option>
+					<option value="927">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] Kataklysmus K1</option>
+					<option value="928">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] Kataklysmus K2</option>
+					<option value="929">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] Kataklysmus K3</option>
+					<option value="930">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] Kataklysmus K4</option>
+					<option value="832">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projekt Ma'ahn</option>
+					<option value="970">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot]Die Rebellen</option>
+					<option value="971">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot]Rebellen - Allgemein</option>
+					<option value="972">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot]Rebellen - Festlandereignisse</option>
+					<option value="973">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot]Rebellen - Charaktere</option>
+					<option value="974">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot]Rebellen - P1 - Die Ankunft</option>
+					<option value="950">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] Arme des Kraken</option>
+					<option value="951">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Krake - Allgemein</option>
+					<option value="952">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Krake - Questchars/Berichte</option>
+					<option value="953">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Krake - Konzept/Hintergründe/Wissenswertes</option>
+					<option value="931">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] Wissen / Alte Entwicklungen</option>
+					<option value="526">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Plot] - Archiv</option>
+					<option value="35">&nbsp; &nbsp;[Leitung] Papierkorb</option>
+					<option value="454">Eventforen</option>
+					<option value="63">&nbsp; &nbsp;[Event] - Allgemein</option>
+					<option value="881">&nbsp; &nbsp;&nbsp; &nbsp;Anleitungen, Informationen und Abläufe</option>
+					<option value="838">&nbsp; &nbsp;&nbsp; &nbsp;Zu Veröffentlichen</option>
+					<option value="932">&nbsp; &nbsp;&nbsp; &nbsp;[Event] Bewerbungen</option>
+					<option value="933">&nbsp; &nbsp;&nbsp; &nbsp;[Event] Wichtel-Dokumentation</option>
+					<option value="945">&nbsp; &nbsp;&nbsp; &nbsp;[Konzepte] Hintergrund &amp; Festlandsgeschichten</option>
+					<option value="24">&nbsp; &nbsp;[Event] - Tickets &amp; Spieleranfragen</option>
+					<option value="96">&nbsp; &nbsp;[Event] - Ideen, Pläne &amp; Sonstiges</option>
+					<option value="781">&nbsp; &nbsp;[Event] - Aufstiege</option>
+					<option value="1118">&nbsp; &nbsp;&nbsp; &nbsp;[Event] Checklisten Ausbildungs Almanach</option>
+					<option value="25">&nbsp; &nbsp;[Event] - Archiv</option>
+					<option value="879">&nbsp; &nbsp;&nbsp; &nbsp;[Event] Archiv - Aufstiege</option>
+					<option value="880">&nbsp; &nbsp;&nbsp; &nbsp;[Event] Archiv - Bewerbungen</option>
+					<option value="917">&nbsp; &nbsp;&nbsp; &nbsp;[Event] Archiv - Questchars</option>
+					<option value="916">&nbsp; &nbsp;[Event] - Teamleitung</option>
+					<option value="668">&nbsp; &nbsp;&nbsp; &nbsp;[Event] - Questchars</option>
+					<option value="937">&nbsp; &nbsp;&nbsp; &nbsp;[Event-TL] Archiv</option>
+					<option value="1119">&nbsp; &nbsp;[Event] Plot Reissbrett</option>
+					<option value="1120">&nbsp; &nbsp;&nbsp; &nbsp;Biss zum Untergang</option>
+					<option value="1131">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Allgemeines</option>
+					<option value="1123">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Planung</option>
+					<option value="1124">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;In Umsetzung</option>
+					<option value="1121">&nbsp; &nbsp;&nbsp; &nbsp;Festland Verwicklungen</option>
+					<option value="1130">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Allgemeines</option>
+					<option value="1125">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Norland</option>
+					<option value="1126">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Nord-Galadon</option>
+					<option value="1127">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Süd-Galadon</option>
+					<option value="1128">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Endophal</option>
+					<option value="1129">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Sonstige Gebiete</option>
+					<option value="1122">&nbsp; &nbsp;&nbsp; &nbsp;Die Tiefe erwacht</option>
+					<option value="812">Festlandsforen</option>
+					<option value="813">&nbsp; &nbsp;[Festland] - Festlandsplot</option>
+					<option value="819">&nbsp; &nbsp;&nbsp; &nbsp;Plot-Norland</option>
+					<option value="820">&nbsp; &nbsp;&nbsp; &nbsp;Plot-Galadon</option>
+					<option value="821">&nbsp; &nbsp;&nbsp; &nbsp;Plot-Endophal</option>
+					<option value="814">&nbsp; &nbsp;[Festland] - Strukturen</option>
+					<option value="816">&nbsp; &nbsp;&nbsp; &nbsp;Norland</option>
+					<option value="817">&nbsp; &nbsp;&nbsp; &nbsp;Galadon</option>
+					<option value="818">&nbsp; &nbsp;&nbsp; &nbsp;Endophal</option>
+					<option value="815">&nbsp; &nbsp;[Festland] - Publikationen</option>
+					<option value="531">&nbsp; &nbsp;&nbsp; &nbsp;[Plot] - Festland (veraltet)</option>
+					<option value="882">Design</option>
+					<option value="901">&nbsp; &nbsp;[Design] Leitung</option>
+					<option value="883">&nbsp; &nbsp;[Design] Allgemeines</option>
+					<option value="902">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Regeln, Anleitung, Informationen, Prozesse</option>
+					<option value="1110">&nbsp; &nbsp;[Design] Dokumentation</option>
+					<option value="886">&nbsp; &nbsp;[Design] Gumps</option>
+					<option value="911">&nbsp; &nbsp;[Design] Corporate Design</option>
+					<option value="887">&nbsp; &nbsp;[Design] Event-Design</option>
+					<option value="889">&nbsp; &nbsp;[Design] Archiv</option>
+					<option value="895">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Archiv - Allgemein</option>
+					<option value="896">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Archiv - Tickets</option>
+					<option value="897">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Archiv - Umzüge</option>
+					<option value="898">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Archiv - Gumps</option>
+					<option value="899">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Archiv - Eventdesign</option>
+					<option value="900">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Archiv - Spielerprojekte</option>
+					<option value="935">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Designer-Projekte</option>
+					<option value="885">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Umzüge</option>
+					<option value="884">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Tickets</option>
+					<option value="890">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Design] Tickets - Offline</option>
+					<option value="891">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Design] Tickets - Ingame</option>
+					<option value="888">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Spielerprojekte</option>
+					<option value="892">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Design] Projekt 1</option>
+					<option value="893">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Design] Projekt 2</option>
+					<option value="894">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Design] Projekt 3</option>
+					<option value="457">Technikforen</option>
+					<option value="12">&nbsp; &nbsp;[Technik] - Allgemein</option>
+					<option value="965">&nbsp; &nbsp;&nbsp; &nbsp;Geweihtenreform</option>
+					<option value="488">&nbsp; &nbsp;[Technik] - Forum</option>
+					<option value="566">&nbsp; &nbsp;[Technik] - KnowHow Transfer</option>
+					<option value="1045">&nbsp; &nbsp;[Technik] Neue Zauberengine</option>
+					<option value="491">Debugforen</option>
+					<option value="64">&nbsp; &nbsp;[Debug] - Allgemein</option>
+					<option value="38">&nbsp; &nbsp;[Debug] - Archiv</option>
+					<option value="459">Supportforen</option>
+					<option value="20">&nbsp; &nbsp;[Support] Allgemeines Hüterforum</option>
+					<option value="1064">&nbsp; &nbsp;[Support] Spielerakten</option>
+					<option value="91">&nbsp; &nbsp;[Support] Freischalter</option>
+					<option value="41">&nbsp; &nbsp;[Support] Moderation</option>
+					<option value="759">&nbsp; &nbsp;[Support] Moderation - Akten</option>
+					<option value="1063">&nbsp; &nbsp;[Support] Archive</option>
+					<option value="718">&nbsp; &nbsp;&nbsp; &nbsp;[Support] Moderation - Archiv</option>
+					<option value="701">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Support] Mod Übungsforen</option>
+					<option value="702">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Support] Mod Übungsforum 1</option>
+					<option value="703">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[Support] Mod Übungsforum 2</option>
+					<option value="21">&nbsp; &nbsp;&nbsp; &nbsp;[Support] Spielerakten - Archiv</option>
+					<option value="1072">&nbsp; &nbsp;[Support] Beschwerdesammelstelle</option>
+					<option value="1085">&nbsp; &nbsp;[Support] Eroberbare Gebiete</option>
+					<option value="1093">&nbsp; &nbsp;[Support] Tickets und Anfragen</option>
+					<option value="1114">&nbsp; &nbsp;Regeln &amp; Verfahrensweisen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+					<option value="463">Ideen für das Spiel</option>
+					<option value="989">&nbsp; &nbsp;Neue Ideen für das Spiel</option>
+					<option value="100">&nbsp; &nbsp;Ideen - Umsetzung</option>
+					<option value="31">&nbsp; &nbsp;Ideen - Archiv</option>
+					<option value="839">OG Foren</option>
+					<option value="7">&nbsp; &nbsp;Allgemeines</option>
+					<option value="42">&nbsp; &nbsp;Umfragen</option>
+					<option value="29">&nbsp; &nbsp;Geschichtskritiken</option>
+					<option value="30">&nbsp; &nbsp;Gilden</option>
+					<option value="841">Offtopic Foren</option>
+					<option value="735">&nbsp; &nbsp;Community</option>
+					<option value="33">&nbsp; &nbsp;Offtopic</option>
+					<option value="734">&nbsp; &nbsp;Forenspiele</option>
+					<option value="507">Die Hoheitsgebiete Siebenwinds</option>
+					<option value="614">&nbsp; &nbsp;Provinz Brandenstein</option>
+					<option value="615">&nbsp; &nbsp;&nbsp; &nbsp;Provinz und Stadt Brandenstein</option>
+					<option value="616">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Marktplatz der Stadt Brandenstein</option>
+					<option value="617">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Außerhalb des Spiels: Brandenstein</option>
+					<option value="699">&nbsp; &nbsp;&nbsp; &nbsp;Brandensteiner Marine</option>
+					<option value="619">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Berichte, Befehle und Akten der Marine</option>
+					<option value="673">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Offiziers- und Unteroffiziersforum</option>
+					<option value="659">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Aktenlager</option>
+					<option value="634">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Außerhalb des Spiels: Internes Forum der Marine</option>
+					<option value="705">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Küchentisch und Anschlagbrett des Hofstaats</option>
+					<option value="618">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Burgschreibstube der Provinzführung</option>
+					<option value="672">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Brandensteiner Ratskammer</option>
+					<option value="707">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Internes Forum der Provinz</option>
+					<option value="878">&nbsp; &nbsp;&nbsp; &nbsp;Arbeitsforum für den Wiederaufbau</option>
+					<option value="908">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Erarbeitung Brandensteiner Gesetze</option>
+					<option value="509">&nbsp; &nbsp;Die Ritter der sieben Winde</option>
+					<option value="420">&nbsp; &nbsp;&nbsp; &nbsp;Die Ritterschaft der Sieben Winde</option>
+					<option value="959">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Ritterschaft</option>
+					<option value="189">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Internes Ritterforum</option>
+					<option value="168">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Ritter Berichteforum</option>
+					<option value="962">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Ritter Archiv</option>
+					<option value="954">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Burghof</option>
+					<option value="955">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Hofstaat</option>
+					<option value="956">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;gemeinsame Akten</option>
+					<option value="784">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Lehen Seeberg</option>
+					<option value="785">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Burgsiedlung</option>
+					<option value="761">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Der Schankraum</option>
+					<option value="762">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Die Küche</option>
+					<option value="417">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Kämpferschule</option>
+					<option value="711">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Kämpferschule - Schüler</option>
+					<option value="198">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Kämpferschule - Schüler - alt</option>
+					<option value="960">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Garde der Ritterschaft</option>
+					<option value="961">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Hofstaat</option>
+					<option value="963">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Der Burghof</option>
+					<option value="1028">&nbsp; &nbsp;Lehensverwaltung und Hofstaat des Kanzlers</option>
+					<option value="1029">&nbsp; &nbsp;&nbsp; &nbsp;Lehensverwaltung des Lehen Siebenwind</option>
+					<option value="1035">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Lehensverwaltung öffentlich</option>
+					<option value="1036">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Baronieführung intern</option>
+					<option value="1067">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Lehensverwaltung intern</option>
+					<option value="1030">&nbsp; &nbsp;&nbsp; &nbsp;Gericht des Lehen Siebenwind</option>
+					<option value="1037">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Aushänge und Verlautbarungen des Lehensgerichts</option>
+					<option value="1038">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Gerichtsakten intern</option>
+					<option value="1044">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Aktenlager</option>
+					<option value="1033">&nbsp; &nbsp;&nbsp; &nbsp;Gericht intern</option>
+					<option value="1043">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Aktenlager</option>
+					<option value="1058">&nbsp; &nbsp;&nbsp; &nbsp;Korrespondenz des Inselrates</option>
+					<option value="1059">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[IG] Schreibstube</option>
+					<option value="1060">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[OG] Schreibstube</option>
+					<option value="1046">&nbsp; &nbsp;Provinz Dunquell</option>
+					<option value="1047">&nbsp; &nbsp;&nbsp; &nbsp;Dorfplatz von Dunquell</option>
+					<option value="1048">&nbsp; &nbsp;&nbsp; &nbsp;Außerhalb des Spiels: Dunquell</option>
+					<option value="1049">&nbsp; &nbsp;&nbsp; &nbsp;Dorfgemeinschaft Dunquell</option>
+					<option value="1076">&nbsp; &nbsp;Provinz Finsterwangen</option>
+					<option value="1080">&nbsp; &nbsp;&nbsp; &nbsp;Öffentliches IG Forum Finsterwangen</option>
+					<option value="1081">&nbsp; &nbsp;&nbsp; &nbsp;Öffentliches OG Forum Finsterwangen</option>
+					<option value="1082">&nbsp; &nbsp;&nbsp; &nbsp;Internes Bürgerforum Finsterwangen</option>
+					<option value="1077">&nbsp; &nbsp;&nbsp; &nbsp;Provinzverwaltung Finsterwangen</option>
+					<option value="1078">&nbsp; &nbsp;&nbsp; &nbsp;Hofstaat Finsterwangen</option>
+					<option value="1079">&nbsp; &nbsp;&nbsp; &nbsp;Reichsgarde und Kriegsrat</option>
+					<option value="1061">&nbsp; &nbsp;Die heilige Inquisition</option>
+					<option value="1062">&nbsp; &nbsp;&nbsp; &nbsp;Archiv</option>
+					<option value="506">Gruppenforen</option>
+					<option value="467">&nbsp; &nbsp;Götter und Geweihte Foren</option>
+					<option value="243">&nbsp; &nbsp;&nbsp; &nbsp;Allgemeines Geweihtenforum</option>
+					<option value="408">&nbsp; &nbsp;&nbsp; &nbsp;Viergötterkirche</option>
+					<option value="111">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Tempelhalle (öffentlich)</option>
+					<option value="508">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Die Truchsess</option>
+					<option value="512">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Schreibstube</option>
+					<option value="412">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Orden vom Heiligen Schwerte Bellums</option>
+					<option value="380">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Orden vom Heiligen Schwerte Bellums - öffentlich</option>
+					<option value="246">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Orden der Tränen Vitamas</option>
+					<option value="995">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Orden des lieblichen Kelches der Vitama</option>
+					<option value="679">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Ordo Astraeli</option>
+					<option value="369">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Opus Astraeli</option>
+					<option value="823">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Ordo Morsan</option>
+					<option value="824">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Schwarzes Brett</option>
+					<option value="863">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Tempelwache</option>
+					<option value="786">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Tempelwache</option>
+					<option value="409">&nbsp; &nbsp;&nbsp; &nbsp;Gefilde des Einen</option>
+					<option value="172">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Die Vorhalle</option>
+					<option value="171">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Der Schrein</option>
+					<option value="581">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Die Bruderschaft der Tardukai</option>
+					<option value="1057">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Die schwarze Burg</option>
+					<option value="1116">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Archiv</option>
+					<option value="1115">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Schüler-Quartier</option>
+					<option value="1117">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Das Wolfsbanner</option>
+					<option value="1086">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Glaubensgemeinschaft Angamons</option>
+					<option value="516">&nbsp; &nbsp;&nbsp; &nbsp;Elementargeweihte</option>
+					<option value="240">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Die Kapelle der Elementarherren</option>
+					<option value="474">&nbsp; &nbsp;&nbsp; &nbsp;Orden der Gohor</option>
+					<option value="159">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Order der Gohor - öffentliches Forum</option>
+					<option value="622">&nbsp; &nbsp;Elfen</option>
+					<option value="623">&nbsp; &nbsp;&nbsp; &nbsp;Allgemeines Elfenforum</option>
+					<option value="670">&nbsp; &nbsp;&nbsp; &nbsp;Auenelfen</option>
+					<option value="671">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Schilf</option>
+					<option value="756">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Auenelfen (öffentlich)</option>
+					<option value="446">&nbsp; &nbsp;&nbsp; &nbsp;Hochelfen</option>
+					<option value="371">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Empfangshalle</option>
+					<option value="653">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Thar'Sala</option>
+					<option value="654">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Wachhaus der Thar'Sala</option>
+					<option value="502">&nbsp; &nbsp;&nbsp; &nbsp;Waldelfen</option>
+					<option value="503">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Allgemeines</option>
+					<option value="504">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Internes Forum</option>
+					<option value="465">&nbsp; &nbsp;Endophali</option>
+					<option value="272">&nbsp; &nbsp;&nbsp; &nbsp;Öffentliches Forum der Endophali</option>
+					<option value="274">&nbsp; &nbsp;&nbsp; &nbsp;Hintergrund der Endophali</option>
+					<option value="1020">&nbsp; &nbsp;&nbsp; &nbsp;Endophalische Gemeinschaft</option>
+					<option value="469">&nbsp; &nbsp;Halblinge</option>
+					<option value="203">&nbsp; &nbsp;&nbsp; &nbsp;Taverne</option>
+					<option value="204">&nbsp; &nbsp;&nbsp; &nbsp;InGame</option>
+					<option value="205">&nbsp; &nbsp;&nbsp; &nbsp;Buch der Hobbits</option>
+					<option value="468">&nbsp; &nbsp;Nortraven</option>
+					<option value="536">&nbsp; &nbsp;&nbsp; &nbsp;Besucherplatz [OG]</option>
+					<option value="312">&nbsp; &nbsp;&nbsp; &nbsp;Zur Nordwindschänke [IG]</option>
+					<option value="478">&nbsp; &nbsp;Orken</option>
+					<option value="105">&nbsp; &nbsp;&nbsp; &nbsp;Orken - Öffentlich</option>
+					<option value="322">&nbsp; &nbsp;&nbsp; &nbsp;Orken - RP-Forum</option>
+					<option value="483">&nbsp; &nbsp;Zwerge</option>
+					<option value="727">&nbsp; &nbsp;&nbsp; &nbsp;Zwerge - Öffentliches</option>
+					<option value="115">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Zwerge - Der Marktplatz</option>
+					<option value="128">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Zwerge - Der Spucknapf</option>
+					<option value="462">&nbsp; &nbsp;Druidenzirkel</option>
+					<option value="150">&nbsp; &nbsp;&nbsp; &nbsp;Lichtung der Besucher</option>
+					<option value="413">&nbsp; &nbsp;&nbsp; &nbsp;Druiden - intern</option>
+					<option value="342">&nbsp; &nbsp;Handwerker</option>
+					<option value="402">&nbsp; &nbsp;Hexen</option>
+					<option value="106">&nbsp; &nbsp;&nbsp; &nbsp;Besucherhöhle</option>
+					<option value="432">&nbsp; &nbsp;Kriminelle, Diebe und dubiose Vereinigungen</option>
+					<option value="356">&nbsp; &nbsp;&nbsp; &nbsp;Öffentliches Forum - Kriminelle</option>
+					<option value="436">&nbsp; &nbsp;&nbsp; &nbsp;Armenviertel Falkensee</option>
+					<option value="596">&nbsp; &nbsp;Magier</option>
+					<option value="314">&nbsp; &nbsp;&nbsp; &nbsp;Magier - arkan</option>
+					<option value="597">&nbsp; &nbsp;&nbsp; &nbsp;Weissmagier</option>
+					<option value="636">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Weissmagier - öffentlich</option>
+					<option value="637">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Weissmagier - intern</option>
+					<option value="431">&nbsp; &nbsp;&nbsp; &nbsp;Elementarmagier</option>
+					<option value="331">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;öffentliches Forum der Elementarmagier</option>
+					<option value="804">&nbsp; &nbsp;&nbsp; &nbsp;Schwarzmagier</option>
+					<option value="803">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Schwarzmagier - öffentlich</option>
+					<option value="805">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Schwarzmagier - intern</option>
+					<option value="829">&nbsp; &nbsp;&nbsp; &nbsp;Graumagier</option>
+					<option value="830">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Graumagier - öffentlich</option>
+					<option value="831">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Graumagier - intern</option>
+					<option value="625">&nbsp; &nbsp;Schamanen</option>
+					<option value="626">&nbsp; &nbsp;&nbsp; &nbsp;Schamanen - Öffentlich</option>
+					<option value="627">&nbsp; &nbsp;&nbsp; &nbsp;Schamanen - Intern</option>
+					<option value="666">&nbsp; &nbsp;Scharlatane</option>
+					<option value="358">&nbsp; &nbsp;&nbsp; &nbsp;Scharlatane</option>
+					<option value="688">&nbsp; &nbsp;Myten</option>
+					<option value="689">&nbsp; &nbsp;&nbsp; &nbsp;Myten Allgemein - öffentlich</option>
+					<option value="690">&nbsp; &nbsp;&nbsp; &nbsp;Myten Allgemein - intern</option>
+					<option value="691">&nbsp; &nbsp;&nbsp; &nbsp;Myten Geschichten</option>
+					<option value="692">&nbsp; &nbsp;&nbsp; &nbsp;Die Kammer der Halus</option>
+					<option value="482">Gildenforen</option>
+					<option value="639">&nbsp; &nbsp;Der Blaue Pfad</option>
+					<option value="640">&nbsp; &nbsp;&nbsp; &nbsp;Blauer Pfad - Öffentlich</option>
+					<option value="641">&nbsp; &nbsp;&nbsp; &nbsp;Blauer Pfad - Intern</option>
+					<option value="476">&nbsp; &nbsp;Magierturm - Die Akademie</option>
+					<option value="140">&nbsp; &nbsp;&nbsp; &nbsp;Magierturm - Campus</option>
+					<option value="1084">&nbsp; &nbsp;&nbsp; &nbsp;Magierturm - Bibliothek</option>
+					<option value="411">&nbsp; &nbsp;&nbsp; &nbsp;Magierturm - intern</option>
+					<option value="797">&nbsp; &nbsp;Halle der vier Pfade</option>
+					<option value="751">&nbsp; &nbsp;&nbsp; &nbsp;Halle der vier Pfade</option>
+					<option value="912">&nbsp; &nbsp;Die Akademie zur Linken</option>
+					<option value="913">&nbsp; &nbsp;&nbsp; &nbsp;Anschlagsbrett</option>
+					<option value="914">&nbsp; &nbsp;&nbsp; &nbsp;Halle der Schülerschaft</option>
+					<option value="920">&nbsp; &nbsp;&nbsp; &nbsp;Hallen der Magister</option>
+					<option value="921">&nbsp; &nbsp;&nbsp; &nbsp;Akten</option>
+					<option value="1017">&nbsp; &nbsp;Handwerksbund Brandenstein</option>
+					<option value="1018">&nbsp; &nbsp;&nbsp; &nbsp;Öffentliches Anschlagbrett</option>
+					<option value="1019">&nbsp; &nbsp;&nbsp; &nbsp;Interner Bereich</option>
+					<option value="1021">&nbsp; &nbsp;Das II Lehnsbanner Siebenwinds</option>
+					<option value="1022">&nbsp; &nbsp;&nbsp; &nbsp;Apellplatz</option>
+					<option value="1023">&nbsp; &nbsp;&nbsp; &nbsp;Kaserne</option>
+					<option value="1024">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Aktenschrank</option>
+					<option value="1025">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Klatsch &amp; Tratsch</option>
+					<option value="1026">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Operation: Geeintes Königreich</option>
+					<option value="442">&nbsp; &nbsp;Siebenwind Bote</option>
+					<option value="110">&nbsp; &nbsp;&nbsp; &nbsp;Siebenwind Bote Anschlagbrett</option>
+					<option value="452">Altratlerforen</option>
+					<option value="52">&nbsp; &nbsp;Gesprächssaal</option>
+					<option value="757">&nbsp; &nbsp;&nbsp; &nbsp;Metallwaren &amp; Anderes</option>
+					<option value="758">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Metallwaren &amp; Anderes - öffentlich</option>
+					<option value="764">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Metallwaren &amp; Anderes - intern</option>
+					<option value="778">&nbsp; &nbsp;&nbsp; &nbsp;Kolonialwaren Mongrammor &amp; Gromnatz</option>
+					<option value="779">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Kolonialwaren Mongrammor &amp; Gromnatz</option>
+					<option value="780">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Kolonialwaren Mongrammor &amp; Gromnatz - Intern</option>
+					<option value="782">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Kolonialwaren Mongrammor &amp; Gromnatz - Lagerverwaltung</option>
+					<option value="773">&nbsp; &nbsp;&nbsp; &nbsp;Ersonter Reichsuniversität zu Falkensee</option>
+					<option value="774">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Universitätscampus</option>
+					<option value="775">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Schwarzes Brett</option>
+					<option value="776">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Universitätsleitung</option>
+					<option value="795">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Die Wächter</option>
+					<option value="796">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;[IG] Im Versammlungssaal der Wächter</option>
+					<option value="677">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Handelshaus Lethandor - Anschläge</option>
+					<option value="678">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Handelshaus Lethandor - Verwaltungsraum</option>
+					<option value="788">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Schankraum - Zur wilden Sau</option>
+					<option value="657">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Schankraum (Öffentlich)</option>
+					<option value="658">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Küche (Privat)</option>
+					<option value="669">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Das freie Blatt</option>
+					<option value="605">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Handelshaus Goldblatt - Öffentlich</option>
+					<option value="606">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Handelshaus Goldblatt - Intern</option>
+					<option value="571">&nbsp; &nbsp;&nbsp; &nbsp;Khalandrier</option>
+					<option value="572">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Das Lagerfeuer (öffentlich)</option>
+					<option value="573">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Der Ritualplatz (intern)</option>
+					<option value="429">&nbsp; &nbsp;&nbsp; &nbsp;Heiler Siebenwinds</option>
+					<option value="288">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Eingangshalle der Heiler</option>
+					<option value="806">&nbsp; &nbsp;&nbsp; &nbsp;Die Familie Arragar</option>
+					<option value="807">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;öffentliches Forum der Familie Arragar</option>
+					<option value="869">&nbsp; &nbsp;&nbsp; &nbsp;Am Rande der Gesellschaft - Die Gosse</option>
+					<option value="870">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Der Weg in die Gosse</option>
+					<option value="871">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Geschichten aus der Gosse - RP Forum</option>
+					<option value="872">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Die Gosse - kein Entrinnen</option>
+					<option value="903">&nbsp; &nbsp;&nbsp; &nbsp;Der Meisterbund</option>
+					<option value="904">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Der Meisterbund</option>
+					<option value="905">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Der Meisterbund - intern</option>
+					<option value="906">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Der Meisterbund - Leitung</option>
+					<option value="719">&nbsp; &nbsp;&nbsp; &nbsp;Kriegerschule Brandenstein</option>
+					<option value="721">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Kriegerschule - Allgemeines</option>
+					<option value="723">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Kriegerschule - Aktenschrank</option>
+					<option value="724">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Kriegerschule - Lehrmaterial</option>
+					<option value="725">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Kriegerschule - Besprechungsraum</option>
+					<option value="475">&nbsp; &nbsp;&nbsp; &nbsp;Orden der wachenden Löwen</option>
+					<option value="250">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Löwenorden - öffentliches Forum</option>
+					<option value="251">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Löwenorden - internes Forum</option>
+					<option value="254">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Löwenorden - Berichte</option>
+					<option value="865">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Aktuelle Berichtsmappen</option>
+					<option value="435">&nbsp; &nbsp;&nbsp; &nbsp;Radak</option>
+					<option value="325">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Radak - Öffentlich</option>
+					<option value="326">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Radak - Intern</option>
+					<option value="542">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Die Arena Radaks</option>
+					<option value="966">&nbsp; &nbsp;&nbsp; &nbsp;Handwerksbund Falkensee</option>
+					<option value="967">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Handwerksbund Falkensee - Anschlagbrett</option>
+					<option value="968">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Handwerksbund Falkensee - Aktensammlung</option>
+					<option value="859">&nbsp; &nbsp;&nbsp; &nbsp;Berserker im Zeichen Halgirs</option>
+					<option value="860">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Götterhain</option>
+					<option value="861">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Rat der Berserker</option>
+					<option value="1004">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Gemeinschaft Fornvinnr</option>
+					<option value="456">&nbsp; &nbsp;&nbsp; &nbsp;Chael Nad'ra</option>
+					<option value="124">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Hain der Winde</option>
+					<option value="873">&nbsp; &nbsp;&nbsp; &nbsp;Manaaz Ita'Glur</option>
+					<option value="874">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Manaaz Ita'Glur - Öffentlich</option>
+					<option value="875">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Manaaz Ita'Glur - Schüler</option>
+					<option value="876">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Manaaz Ita'Glur - Mitglieder</option>
+					<option value="582">&nbsp; &nbsp;&nbsp; &nbsp;Schattenjäger</option>
+					<option value="583">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Öffentliches Forum der Schattenjäger</option>
+					<option value="584">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Internes Forum der Schattenjäger</option>
+					<option value="862">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Internes OG Forum der Schattenjäger</option>
+					<option value="588">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Gildenevents</option>
+					<option value="589">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Kleinevents</option>
+					<option value="590">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Großevents</option>
+					<option value="1073">&nbsp; &nbsp;&nbsp; &nbsp;Schwanenorden</option>
+					<option value="1074">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Schwanenorden Intern</option>
+					<option value="1068">&nbsp; &nbsp;&nbsp; &nbsp;Die Fornvinnr</option>
+					<option value="1069">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Lagerfeuer der Fornvinnr (öffentlich)</option>
+					<option value="700">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Völkerbund</option>
+					<option value="849">&nbsp; &nbsp;&nbsp; &nbsp;Öffentliches Forum</option>
+					<option value="857">&nbsp; &nbsp;&nbsp; &nbsp;Tempelviertel</option>
+					<option value="777">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Baukoordination</option>
+					<option value="533">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Großprojekte/Eventanträge</option>
+					<option value="532">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Spielgrafik</option>
+					<option value="534">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Diskussion und Anregungen</option>
+					<option value="535">&nbsp; &nbsp;&nbsp; &nbsp;[Design] Archiv alter Foren</option>
+					<option value="77">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Großprojekte</option>
+					<option value="87">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Spielgrafik</option>
+					<option value="70">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Diskussion</option>
+					<option value="56">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Archiv &amp; Weltwunder</option>
+					<option value="69">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projektübersicht</option>
+					<option value="505">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Offlinedesign Ödland</option>
+					<option value="717">&nbsp; &nbsp;Siebenwindvideos</option>
+					<option value="375">&nbsp; &nbsp;Krieger</option>
+					<option value="99">&nbsp; &nbsp;Neue Ideen für das Spiel (ALT)</option>
+					<option value="1039">&nbsp; &nbsp;&nbsp; &nbsp;Hofstaat öffentlich</option>
+					<option value="1040">&nbsp; &nbsp;&nbsp; &nbsp;Hofstaat intern</option>
+					<option value="613">&nbsp; &nbsp;Provinz Luth Chalid</option>
+					<option value="629">&nbsp; &nbsp;&nbsp; &nbsp;Marktplatz der Provinz Luth Chalid</option>
+					<option value="681">&nbsp; &nbsp;&nbsp; &nbsp;Am Hofe Schloss Finianswachts</option>
+					<option value="630">&nbsp; &nbsp;&nbsp; &nbsp;Ratskammer der Provinz Luth Chalid</option>
+					<option value="632">&nbsp; &nbsp;&nbsp; &nbsp;Banner Falkensee</option>
+					<option value="997">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Banner Falkensee - Interne Verwaltung</option>
+					<option value="998">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Banner Falkensee - Befehle &amp; Appelle</option>
+					<option value="999">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Banner Falkensee - Berichte &amp; Schriftverkehr</option>
+					<option value="1000">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Banner Falkensee - Archiv</option>
+					<option value="631">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Banner Falkensee - Burghof</option>
+					<option value="628">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Banner Falkensee - Akten und Archiv</option>
+					<option value="1001">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Banner Falkensee - OG Forum</option>
+					<option value="1002">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Banner Falkensee - Öffentliche Aushänge</option>
+					<option value="980">&nbsp; &nbsp;&nbsp; &nbsp;Questinseln</option>
+					<option value="984">&nbsp; &nbsp;&nbsp; &nbsp;Spielweltdynamic</option>
+					<option value="994">&nbsp; &nbsp;&nbsp; &nbsp;Die Rückkehr</option>
+					<option value="1009">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Char Dokumentation</option>
+					<option value="1003">&nbsp; &nbsp;&nbsp; &nbsp;Projekt: Charbilder</option>
+					<option value="1051">&nbsp; &nbsp;&nbsp; &nbsp;Dialoge</option>
+					<option value="1041">&nbsp; &nbsp;&nbsp; &nbsp;Projekt: Neue Horizonte</option>
+					<option value="1083">&nbsp; &nbsp;&nbsp; &nbsp;Datensammlung Technik</option>
+					<option value="1066">&nbsp; &nbsp;&nbsp; &nbsp;Projekt: Werbemanagement</option>
+					<option value="90">&nbsp; &nbsp;&nbsp; &nbsp;Projektportfolio Management</option>
+					<option value="682">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projektportfolio Management - Archiv</option>
+					<option value="833">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Projektportfolio Management - Wunder (Geweihtenreform)</option>
+					<option value="1015">&nbsp; &nbsp;&nbsp; &nbsp;Schwarzmagier</option>
+					<option value="1087">&nbsp; &nbsp;&nbsp; &nbsp;Quester und Konzepter</option>
+					<option value="1088">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Quest Archiv</option>
+					<option value="1089">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Neue Horizonte</option>
+					<option value="1091">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Konzeptbearbeitung</option>
+					<option value="1092">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Endophali HG und Wüsteninsel</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

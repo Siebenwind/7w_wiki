@@ -1,0 +1,31 @@
+---
+layout: wiki_page
+title: Die Entstehung des Paktes der Viereinigkeit
+category: Sonstiges
+---
+
+# Die Entstehung des Paktes der Viereinigkeit
+
+**Epistemischer Status:** #perspektive
+
+Die Geschichte des **Paktes der Viereinigkeit** ist eine längere als die des Ersonter Bundes, auch wenn sich beide formal beinahe zur gleichen Zeit gegründet wurden.
+Nach der Entdeckung Siebenwinds durch die Nordleute auf dem Schiff Nordwind besprachen sich die Fürstentümer Malthust und Ossian und gründeten einen Handelsbund, der zum ersten den Ausbau des Handels mit Siebenwind zum Ziel hatte und zum anderen die, von den beiden Fürstentümern mit Missgunst betrachtete, Vorherrschaft Papins auf der See und den damit verbundenen Handel zu beenden.
+
+Fürst Kaspian von Malthust ließ sich eine riesige Handelsflotte aufbauen und stürzte sich dafür in große Schulden. Fest im Glauben ließ er dann die ganze Flotte nach dem Segen aller Viere ins Westmeer auslaufen um die günstigste Handelsroute nach Siebenwind zu finden. Nach einigen Verlusten durch Stürme und andere Naturgewalten wurde dieser auch gefunden, doch stellte sich heraus, dass auf Siebenwind keinerlei Handelsgüter von Interesse zu finden waren, die einen solch weiten Transport und die damit verbundenen Kosten rechtfertigten. Am Ende jeglicher finanzieller Kraft verkaufte er schließlich die restlichen Schiffe seiner Flotte zu Spottpreisen an private Kaufleute. Diese Schaluppen sind es zum Teil heute noch, welche die Siedler von Falandrien nach Siebenwind bringen, doch Malthust war wirtschaftlich schwer gebeutelt und nur durch die großzügige Unterstützung Ossians und Vandriens konnte das Schlimmste abgewendet werden.
+
+Nur wenige Jahre später wurde der gesalbte Fürst von Vandrien, Fürst Raziel, wahnsinnig und wandte sich von den Vieren und vom König ab. Der daraus resultierende Bürgerkrieg setzte sich bis heute fort und hinterließ bei Menschen und Ländereien tiefe, fast unheilbare Wunden.
+Der noch junge König Hilgorad ernannte den Vetter des gefallenen Fürsten, Zoltan von Vandrien zum Nachfolger desselben. Zudem entsandte er ein Heer nach Vandrien um die abtrünnige Provinz wieder in das Reich einzuverleiben, an der Spitze des Heeres ritten Fürst Zoltan an der Seite des Fürsten von Malthust, Fürst Kaspian von Malthust, welcher sich durch sein militärisches Engagement im Bürgerkrieg eine Verbesserung der Finanzlage seines Lehens erhoffte.
+
+Das Kriegsglück in Vandrien wankte hin und her, doch letztlich gelang es den königstreuen Truppen, den abtrünnigen Raziel bei der Seeschlacht von Vandris zu stellen. Der maritim unterstützte Eroberungsversuch von Vandris wurde abgewehrt und das Heer der Abtrünnigen zerschlagen. Raziel musste vor seinen Häschern fliehen und flüchtete sich über das Meer nach Siebenwind. Bei dieser verlustreichen Schlacht musste auch Fürst Kaspian von Malthust sein Leben lassen und auf den Fürstenthron folgte ihm sein Sohn Kasimier Herwald von Malthust.
+Der begabte Feudalherr läutete in Malthust umfassende Verwaltungsreformen ein, welche er während sein Vater im Bürgerkrieg focht, als Stellvertreter im heimatlichen Lehen ausgearbeitet hatte. Diese sorgten für einen wirtschaftlichen Aufschwung Malthusts, hilfreich war dabei auch die Kriegsbeute seines Vaters aus dem Großen Vandrischen Krieg.
+
+Nur wenige Monde später kehrte Raziel nach Vandrien zurück und sammelte wieder zahlreiche Anhänger um sich, der Bürgerkrieg entflammte erneut. Fürst Zoltan von Vandrien wandte sich verzweifelt an den König, doch dieser war das Opfer einer breiten Verschwörung und einer Entführung. Das Reich war eine zeitlang ohne Führung und so sahen sich die Lehen um Vandrien zum eigenständigen Handeln gefordert. Fürst Kasimier von Malthust erinnerte sich der Verpflichtungen die sein Vater bereits eingegangen ist und unterstützte Zoltan von Vandrien im Süden des Lehens. Auch Ossian folgte dem Waffenruf und unterstützte die beiden nördlichen Lehen im Kampf gegen den gefallenen Raziel. Wenig später fiel Zoltan in einer Schlacht mit den Dissidenten und Prinz Serass von Vandrien folgte ihm auf den Thron. Die Truppen Malthusts, Vandriens und Ossians entzogen sich dem Oberbefehl des offenbar geschwächten Königs und trugen den Konflikt mit zunehmendem Erfolg aus.
+
+Doch auch der Konflikt mit Papin trat nun deutlicher zu Tage, Malthust senkte seine Seezölle und begann damit einen offensiveren Handelskrieg mit der benachbarten Grafschaft. Nur durch das Grassieren des Atmenden Todes und die eindeutige Stellungnahme Ersonts auf der papin’schen Seite wurde ein weiterer bewaffneter Konflikt in diesem Teil des Galadonischen Reiches verhindert.
+Als Papin eine Klage beim Königlichen Gericht gegen Malthust wegen Kriegsgewinnlertum einreichte, stellten sich Vandrien und Ossian eindeutig hinter den beklagten Fürsten und konnten somit einen Prozeß abwenden. Auch die benachbarte Grafschaft Lichtenfeld unter dem naiven Grafen Feestar wurde durch großzügige Geldgeschenke und andere Einflussnahmen davon überzeugt einem Lehensbündnis beizutreten.
+
+Fürst Kasimier von Malthust entsandte seinen getreuen Burggrafen, Valdo Hoheneych von Bellumsfeld nach Draconis, um dort als Repräsentant des Paktes der Viereinigkeit aufzutreten und weitere Kompromisse mit dem Ersonter Bund auszuhandeln.
+Die beiden Lehensbündnisse erkannten die Schwäche des Königs sehr schnell und sprachen weit reichende Forderungen aus. Beide Bündnisse wurden vom König anerkannt und sie erhielten außerdem die Erlaubnis eigene Truppenverbände aufzustellen. Zudem teilte der König die ehemalige Kronmark Siebenwind auf und gab sie den beiden Bündnissen sowie dem treuen Volk der Dwarschim, den Elfen aus den Wäldern und Auen sowie den rauen Nortraven, welche so tapfer an der Seite Ersonts gegen die Khalandrier gestritten hatten als Lehen.
+Vom Pakt der Viereinigkeit wurde Marschall Siveren Vardenberg zum Lehensherr auf Siebenwind auserkoren und die Verwaltung des Lehens aufzubauen und zu führen.
+
+Möge Bellum davor sein, dass sich der Konflikt zwischen den beiden Lehensbündnissen zu einem weiteren Bürgerkrieg entwickelt…

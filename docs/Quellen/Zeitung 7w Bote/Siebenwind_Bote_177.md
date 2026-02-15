@@ -1,0 +1,820 @@
+---
+layout: bote_page
+title: Siebenwind Bote 177
+date: 21-01-14
+category: Chronik
+author: ARdM, Ionas, Felis, Flammende Feder
+---
+
+# Siebenwind Bote 177
+**Felatag, 14. Onar 21 nach Hilgorad**
+
+## 14. Onar - Von Pferdemist, Geschrei und gedungenen Schlägern
+Hochintellektuelle Reaktionen auf Artikel des Siebenwindboten  
+  
+Seit Jahren nun berichtet derüber Ereignisse auf Siebenwind, und um
+Laufe dieser Zeit hat sich die Art der Berichterstattung mehrfach gewandelt.
+So gab es Zeiten, in denen dieses Blatt kaum mehr als ein Sprachrohr der
+Obrigkeit war oder ein Klatschblatt voller Gerüchte und völlig überzogener
+Meldungen, aber auch Zeiten in denen mutige Redakteure ungeliebte Wahrheiten
+und Geheimnisse der Mächtigen aufspürten und öffentlich machten, sowie
+natürlich auch Zeiten, in denen dereinfach nur über das berichtete, was
+die Gemüter der Insel bewegte.  
+So unterschiedlich diese Arten der Berichterstattung auch sein mögen, so
+besteht doch immer die Gefahr, wenn nicht sogar die Absicht, auch über Dinge
+zu schreiben, die manch einer nicht gerne hört, so dass sich derund
+seine Redaktion über die Jahre auch immer wieder bei den verschiedensten
+Personen unbeliebt gemacht hat. Die einzige Möglichkeit, eine Gazette
+herauszubringen, die ein solches Risiko nicht eingeht, ist eine
+Berichterstattung über Dinge, die so belanglos sind, dass sich niemand
+betroffen fühlt - eine Gazette im Stil des "Friedewind Boten". Und selbst dann
+läuft man noch Gefahr, sich den Zorn derjenigen zuzuziehen, die es für
+unsäglich halten, dass Brandenstein durch eine bewegende Liebesgeschichte in
+günstiges Licht gerückt wird, wogegen Falkensee nur durch einen banalen
+wandernden Schneemann vertreten ist, oder umgekehrt...  
+Die Gefahr, sich mit mehr oder weniger mächtigen Personen anzulegen, besteht
+also bei fast jedem Artikel, besonders solchen, die sich mit Missständen oder
+sonderlichem Verhalten bei verschiedenen Personen oder Institutionen befassen.
+Diese Gefahr ist teilweise durchaus beabsichtigt, kann ein entsprechender
+Artikel ja durchaus auch die Zielsetzung haben, eine öffentliche Debatte über
+ein bestimmtes Thema loszutreten. Und Leserzuschriften, die einzelne Artikel
+des Boten kommentieren, ihnen zustimmen oder sie auch völlig in der Luft
+zerreißen würden nicht nur akzeptiert sondern sind oft sogar ausdrücklich
+erwünscht... alleine eine solche "vergeistliche" Form der Auseinandersetzung
+scheint auf so gut wie unbekannt.  
+Anders ist es wohl kaum zu erklären, wie im allgemeinen auf unliebsame Artikel
+des Boten reagiert wird. So wurden in der Vergangenheit schon Redakteure vor
+die Obrigkeit zitiert, von aufgebrachten Bürgern angeschrien und beschimpft
+oder gar von gedungenen Schlägern verprügelt, wurde die Botenredaktion
+beschmiert oder in einem extremen Fall sogar angezündet oder der Briefkasten
+der Redaktion über Wochen hinweg immer wieder mit ganzen Schaufelladungen von
+Pferdedung vollgestopft. Kein einziges Mal ist es dagegen in den letzten
+Jahren vorgekommen, dass ein schlichtes Schreiben mit einer Richtigstellung
+eines Betroffenen eingegangen oder eine ähnlich sachliche Form der Kritik
+gewählt worden wäre.  
+Der Siebenwindbote ist natürlich bereit, die Verantwortung dafür zu
+übernehmen, wenn einem unbescholtenen Bewohner Siebenwinds aufgrund von
+Recherchefehlern durch einen redaktionellen Artikel im Boten unrecht geschehen
+sein sollte, und wird natürlich in solchen Fällen in der nächsten Ausgabe eine
+Richtigstellung zusammen mit einer Entschuldigung abdrucken. Ebenso bietet der
+Siebenwindbote völlig selbstverständlich jedem Betroffenen eines Artikels die
+Gelegenheit, seine eigene Sicht in einer Leserzuschrift darzustellen, selbst
+wenn derweiterhin die Ansicht vertreten sollte, dass der Artikel
+sachlich korrekt war. Was die Botenredaktion allerdings nicht tun wird ist
+sich irgend einer Form von verbaler, materieller oder körperlicher Gewalt zu
+beugen, die gegen Personen oder Sachen des Siebenwindboten ausgeübt wird. Im
+übrigen sei angemerkt, dass anonyme Anschläge schon alleine deshalb keinerlei
+Auswirkungen auf die Art der Berichterstattung der Redaktion haben können, da
+für diese in keinster Weise nachvollziehbar bleibt, welche der vielen
+potentiell verärgerten Leser für den Anschlag verantwortlich sein könnten. Das
+scheint allerdings den Horizont der Personen, die zu solchen Formen der Kritik
+neigen, zu übersteigen, oder es geht ihnen tatsächlich nur darum, der
+Botenredaktion auf die Nerven zu fallen, nicht darum, an konkreten Artikeln
+kritik zu üben.  
+  
+_ARdM_  
+  
+  
+14\. Onar - Gesucht? - Gefunden!  
+---  
+Die Siebenwind-Tauschbörse  
+  
+Große Mengen Pferdedung als erstklassiger Dünger vo der Redaktion des
+Boten kostenlos abzugeben. Termin nach Vereinbarung, eigene
+Schubkarre oder anderes geeignetes Transportmittel ist mitzubringen.  
+  
+_Ionas_  
+  
+  
+14\. Onar - Des Volkes Stimme  
+---  
+Heftige Kritik an Leserzuschriften  
+  
+Seit der letzten Ausgabe hat sich derdazu entschlossen, nicht
+nur eigene, selbst recherchierte Artikel abzudrucken, sondern auch der
+Leserschaft die Möglichkeit zu bieten, eigene Artikel oder Zuschriften
+einzureichen. Dies soll sowohl dazu dienen, den Stimmungen und Meinungen im
+Volk ausdruck zu verleihen, als auch dazu, die vielen Ereignisse und
+Veranstaltungen zur Sprache zu bringen, die von der Redaktion selbst nicht
+beobachtet und niedergeschrieben werden konnten. Allerdings bedeutet dies,
+dass damit auch Artikel den Weg in den Boten finden können, die weder den
+Ansprüche der Redaktion an eigene Artikel bezüglich Neutralität und
+Sachlichkeit entsprechen, noch die Ansicht der Redaktion wiedergeben müssen.  
+Dies hat in den letzten Wochen zu heftigen Protesten und mancher Kritik
+geführt, da offenbar für viele trotz einem einleitenden Artikel im letzten
+Boten nicht klar war, wo die Berichterstattung des Boten aufhört und die
+Gerüchte und Leserzuschriften anfangen, so dass auch von diesen das selbe Maß
+an Sachlichkeit erwartet wurde, das berechtigterweise von einem Artikel aus
+der Botenredaktion zu erwarten wäre. So viel Verständniss von Seiten der
+Redaktion für diese Reaktion besteht, müssen wir doch darauf hinweisen, dass
+das Gefühl des Verrates an den Prinzipien einer sachlichen Berichterstattung
+nicht auf der unkritischen oder gar boshaften Arbeit der Redaktion beruht,
+sondern auf einem Missverständniss über den Stellenwert dieser Artikel.  
+Der Botenredaktion ist es schlicht unmöglich, jeden Sachverhalt, der in
+Leserzuschriften beschrieben wird, auf seinen Wahrheitsgehalt zu überprüfen,
+so dass uns keine andere Wahl bleibt, als die Aussagen ungeprüft stehn zu
+lassen und nur darauf hinzuweisen, dass wir für den Wahrheitsgehalt keine
+Verantwortung übernehmen können. Ein ähnliches Problem besteht bei der
+Sachlichkeit. Gewiss ist es auch der Redaktion aufgefallen, das manch eine der
+Leserzuschriften ein ausgesprochen einseitiges Bild gewisser Ereignisse
+zeichnen. Dich was bleibt der Redaktion dagegen zu tun? Ein nachträgliches
+Ändern der Zuschriften steht außer frage, da dies rasch den Sinn dieser Texte
+entstellen würde, womit es eben doch keine Leserzuschriften mehr währen.
+Ähnliches gilt für eine Zensur. Wenn derLeserzuschriften
+abdruckt, muss dies neutral geschehen, ungeachtet dessen welche Ansicht der
+Schreiber vertritt und ob die Botenredation dieser Ansicht zustimmt oder
+nicht. Würden nur Texte gedruckt, die die ausdrückliche Zustimmung der
+Redaktion findet, wäre es ja doch wieder nur die Meinung der Redakteure, nicht
+des Volkes Stimme.  
+Will deralso das Konzept der freien Leserzuschrift
+beibehalten, bleibt der Redaktion nichts weiter üblich, als weiter Zuschriften
+ohne Bewertung und Zensur anzunehmen diese ausdrücklich als Leserartikel
+kenntlich zu machen und ansonsten darauf zu hoffen, dass der aufmerksame Leser
+selbst die Glaubwürdigkeit dieser Texte zu bewerten versteht. Ausgenommen
+davon sind natürlich Artikel, die offensichtlich sachlich falsch sind oder die
+grob gegen die kirchliche oder weltliche Ordnung verstoßen. Außerdem kann es
+natürlich passieren, dass Zuschriften aus Platzgründen oder auch
+Belanglosigkeit nicht in den Druck gelangen.  
+  
+_ARdM_  
+  
+  
+14\. Onar - "Tag der Helden" auf der Burg Schwingenwacht  
+---  
+Der 20. Oner ist ein noch recht junger Feiertag. Vom Königshaus nach dessen
+Rettung ins Leben gerufen, soll dieser Tag an dieses besondere Ereignis
+erinnern. Doch nicht nur allein daran gedachte man in diesem Götterlauf,
+sondern auch an jenen Personen, welche sich im Kampf gegen die Horden des
+Ungenannten am Dunkeltief stellten und nicht selten Leib und Leben damit
+riskierten.  
+So fand an diesem Tag die Ehrung in der Taverne "Zum tanzenden Drachen" in
+Seeberg statt, wo sich allerlei Volk der gesamten Insel aufhielt. Zur Hälfte
+des 7. Dunkelzyklus begann die Ehrung mit einer Ansprache des Ritters und
+Hochmeisters Sir Rondragon, der die Werte, die einen Helden ausmachen, wobei
+vor allem das Einstehen für andere hervorgehoben wurde, betonte und auch von
+den Freunden sprach, die hinter einem Helden stehen, ihn bei seiner Aufgabe
+stärken und stützen. Sogleich danach wurden die Helden des Dunkeltiefs
+verlesen und folgenden Personen sprach Sir Rondragon in diesem feierlichen Akt
+seinen Dank um besondere Verdienste im vergangenen Dunkeltief im Namen seiner
+Majestät König Hilgorad I. ap Mer aus:  
+  
+Gardist Hektor Steinhauer  
+Gardist Alarich Falkenhain  
+Gardist Hemalar  
+Gardistin Amriele Silberfels  
+Gardistin Laila Nah Vessir  
+Rekrut Jaque Flynn  
+Rekrut Khaldor  
+Magistra Maelve Rhyntarin  
+Magister Quirian Grint  
+Adeptus Aldarim  
+Adeptus Allakath  
+Gardist Richard Gropp  
+  
+Der Gardehelfer der Rittergarde Aurel Weisshaupt wurde im Anschluss ebenso
+geehrt und öffentlich gefragt, ob er bereit wäre, den Weg in der Garde mit
+gleichen Eifer weiter zu beschreiten, was er bejahte und somit als
+vollwertiges Mitglied aufgenommen wurde.  
+Es wurde jedoch noch eingeworfen, dass die Malthuster Wacht, Nortraven und ein
+paar andere Personen vergessen wurden. Leutnant Caiomme der Malthuster erhob
+wiederum ihr Wort und gab zu verstehen, dass Malthust keine Personen ernannt
+hatte, da jeder, sei er von der Armee oder den Freiwilligen, in ihren Augen
+ein Held wäre.  
+Fast wäre es nun zu einem unschönen Disput gekommen, denn sogleich erhob auch
+der Waibel der Ersonter Garde, Waldemar Delarie, sein Wort und warf ein, dass
+sich Malthust nur aufspielen und Aufmerksamkeit erlangen wolle, doch wusste
+Ritter Rondragon seine Stimme zu erheben und dem Geplänkel Einhalt zu
+gebieten. Demut, so sprach er, ist auch eine Tugend der Helden.  
+Danach machte sich die Festgesellschaft auf zum Schrein am Schlachtenpass, wo
+seine Eminenz Sandelholz über all jene Helden sprach, die ihr Leben riskiert
+hatten, aber auch jene, die den König befreiten. In jedem, so sprach er,
+steckt ein Held und man braucht nicht mal ein Schwert, um ein Held zu sein.
+Eine Heldentat kann es schon sein, dem nächsten zu helfen, wenn er es nötig
+hat. Darum forderte alle auf, sich selber des Helden bewusst zu sein, der in
+einem steckt und ihn herauszulassen. Jede Heldentat, so sprach er, ist wichtig
+und man soll auch an all jene denken, die ihr Leben gaben. Es folgte ein
+stiller Moment des Gedenkens, ehe zu den Vieren gebetet wurde.  
+Im Anschluß daran wurde teilweise noch in Seeberg weiter gefeiert, bis sich
+die Festgesellschaft allmählich auflöste und, hoffentlich gestärkt im weiteren
+Streben für das Richtige einzustehen, ein jeder nach Hause zurückkehrte.  
+  
+_Felis_  
+  
+  
+14\. Onar - Leserartikel: Eklat beim Fest der Helden  
+---  
+Sicher ist es dem ein oder anderen geneigten Leser schon zu Ohren gekommen:
+Der sonst für seine vor Schleim triefenden Anschmiegungen und Hilferufe an die
+Ritterschaft bekannte Gardewaibel hat sich beim Fest der Helden einen
+Ausrutscher erlaubt, der manchen seiner bisherigen Fehltritte weit in den
+Schatten stellt.  
+Dieser Tag, der traditionell die Taten all derjenigen hervorhebt, die sich für
+die Verteidigung alles den Göttern gefälligen Lebens eingesetzt haben, hat
+dadurch einen großen Teil seiner Würde eingebüßt.  
+Um die lobenswerten Taten keines der Bürger Brandensteins, die ihren Teil dazu
+beitrugen, daß zumindest eine Stadt der Menschen nicht von den Horden des
+Ungenannten überrannt wurde, nicht zu schmälern, hatte sich die Malthuster
+Obrigkeit entschieden, keine einzelnen Namen von Helden zu benennen, da in
+ihren Augen JEDER Zivilist und Soldat Brandensteins ein Held des vergangenen
+Dunkeltiefs ist.  
+Statt diese Entscheidung zu respektieren (so wie auch die Malthuster Soldaten
+es respektierten, daß so mancher Ersonter Gardist aufgezählt wurde, den man
+zwar nicht bei der Verteidigung der letzten Bastion Seebergs gegen die
+dämonischen Bestien, sondern nur bei der Würdigung jener Verteidiger zu sehen
+bekam), machte sich besagter Gardewaibel mit dem Ausruf lächerlich, daß sich
+die Malthuster mit der Würdigung aller ihrer Helden nur als etwas Besonderes
+und Besseres darstellen wollten. Angesichts vieler Opfer, die Bürger und Freie
+der Stadt Brandensteins gebracht wurden, wobei eine der Verteidigerinnen sogar
+ihr Leben für das Wohl anderer gab, ist jene Aussage mehr als schandhaft.
+Gardewaibel Delarie sollte sich angesichts seines Ranges zukünftig vielleicht
+besser überlegen, was er über Taten sagt, von denen er selbst nur träumen
+kann.  
+  
+_Flammende Feder_  
+  
+  
+14\. Onar - Kochwettbewerb des Ersonter Bundes  
+---  
+Am 31. Oner wurde zu einem Kochwettbewerb in der Burg Finianswacht in
+Falkensee geladen. 4 Köche traten dort gegeneinander an, um den Titel
+"Meisterkoch des Ersonter Bundes zu Siebenwind" zu erringen und schon bald
+wurde der große Saal der Burg von köstlichen Düften erfüllt, die die Mägen der
+Zuschauer deutlich anzuregen wussten.  
+Der Gewinner des Wettbewerbes, der Bierbaron vom Volke der Dwarschim
+höchstpersönlich, überzeugte die Juroren mit einem Schweinebraten, der sich
+durch offenbar etliche raffinierte Zutaten auszeichnete und, ganz seinem Volk
+verpflichtet, von ihm auf Goldteller aufgetragen wurde. Neben dem Titel
+erhielt der Bierbaron zudem einen goldenen Löffel, der jedoch wohl nach dem
+Gießen allzu eilig auf dem Tisch abgelegt wurde - es brauchte einige Mühen,
+das wertvolle Stück vom Tisch zu lösen.  
+Den zweiten Platz erhielt Frau Mik vom Volk der Hobbits, die ein offenbar
+süßes Menü auftischte.  
+Weitere Teilnehmer, die großzügigerweise mit Geldpreisen bedacht wurden, waren
+Herr Peter "Pitter" Tünn, der Koch der "Roten Seeschlange" zu Brandenstein und
+der mit seinem ausgesprochen bodenständigen Mahl heimatliche Gefühle zu wecken
+wusste und Herr Markus Panscher, Alchemist aus Südfall, von dessen ebenso
+köstlichen Mahl sich derselber überzeugen konnte.  
+  
+_Felis_  
+  
+  
+14\. Onar - Trollangriff auf Brandenstein  
+---  
+Ein gewaltiger Angriff seitens der Trolle auf Brandenstein, hielt vor kurzem
+nahezu die gesamte Insel in Atem, denn neben Angehörigen der Malthuster Wacht,
+Brandensteiner Zivilisten, dem Löwenorden, Nortraven und noch einige mehr,
+kämpften auch Angehörige der Ersonter Garde gegen die scheinbar unbezwingbare
+Masse an Gegnern. Die Gefahr für die Zivlisation der Insel war ohne Frage zu
+groß, um diesen Angriff ungerührt an sich vorbeiziehen zu lassen. Doch wie kam
+es dazu?  
+Seinen Anfang nahm der Konflikt mit den Trollen im Ödland, wo wohl jemand die
+Trolle gereizt hatte. Diese erschienen am Falkenwall, der Grenze zum Ödland,
+um auf ihre Weise zu verhandeln - ein Troll forderte wohl einen Angehörigen
+des Löwenordens heraus, der sich jedoch laut Aussage Korporal Leandras,
+weigerte, doch stellte sich diesem Duell auf ehrenhafte Art und Weise ein Mann
+namens "Grauer". Dieser unterlag jedoch und es kam zu weiteren Verhandlungen,
+wobei der Troll wohl darauf aufmerksam gemacht wurde, dass Leutnant Caiomme
+der Malthuster Wacht eine Rüstung aus Trollleder trug. Zwar zog sich der Troll
+zurück, doch sagte wohl jemand, dass sie aus Brandenstein stamme - unbedachte
+Worte, die das Schicksal Brandensteins beinahe besiegelt hätten.  
+Am nächsten Abend begann der erste große Angriff der Trolle auf das Osttor.
+Ein Heer aus unzähligen Goblins und Trollen standen zahlenmäßig
+vergleichsweise wenigen Verteidigern gegenüber. Eine Weile lang konnten die
+Malthuster die Angreifer noch zurückhalten, doch hätten sie wohl nicht mehr
+lange durchgehalten. Durch einige Magier unter der Führung von Freifrau
+Nhergas wurde das feindliche Heer aus dem Ödland mit einer Art Steinregen
+vertrieben. Erkundigungen brachten das Ergebnis, dass die Trolle und Goblins
+über die Schlucht beim Orkenpass ins Lehen eingedrungen waren, weswegen die
+Malthuster Wacht Vorbereitungen traf, um sie gleich dort stellen zu können und
+die Stadt zu schonen.  
+Zwei Abende später jedoch erreichten erneut Trolle die Schlucht, legten
+nunmehr eine riesige Planke über diese und stürmten den engen Pass. Zwar
+konnten sie an den errichteten Barrikaden gestoppt werden und auch die
+Verteidigung verlief bis zu dem Zeitpunkt noch gut, doch dann legten bei der
+Fischerhütte, die sich auf der Brandensteiner Seite des Orkenpasses befindet,
+riesige Schiffe an und es sprangen unzählige Trolle von diesen. Sie kamen
+somit von allen Seiten und die Verteidiger mussten sich zur Stadt
+zurückziehen.  
+Hier wollten sie ihre Angreifer mit Katapultbeschuss "begrüßen", jedoch hatten
+wohl bereits einige Schwarzmagier mit ihrer finsteren Macht Goblins in die
+Stadt eingeschleust, die die Mauerwachen überwältigen konnten. Die Schlacht
+vernahm von dem Zeitpunkt an einen entsprechend harten Verlauf, wobei die
+Trolle nicht davor zurückschreckten, Gefangene zu häuten und dann ihre Köpfe
+über die Mauern Brandensteins zu werfen.  
+Neben Malthustern, Brandensteiner Zivilisten und Nortraven, die wie eh und je
+tapfer fochten, eilten sogar Ersonter Gardisten nach Brandenstein und kämpften
+nunmehr sogar an der Seite ihrer sonst so erklärten Feinde. Dennoch - es
+schien, als wäre Brandenstein ob der schieren Masse des Gegners verloren und
+vermutlich wäre das auch der Fall gewesen, hätte sich Leutnant Caiomme nicht
+zu dem in diesem Fall wohl weisen Entschluss durchgerungen, vor dem
+Trollanführer zu kapitulieren - das Knie zwar gebeugt, doch das Haupt
+weiterhin erhoben; ohne Frage ein Musterbeispiel Brandensteiner Zähigkeit,
+sich dem Sturm zwar zu ergeben, doch sich niemals von diesem knicken zu
+lassen.  
+Es kam erneut zu Verhandlungen und sie schaffte es gar, ihn davon zu
+überzeugen, seine Trolle und Verbündeten abzuziehen. Doch wurden auch
+Bedingungen seitens der Trolle gestellt, welche demnächst vom Malthuster
+Kabinett verkündet werden:  
+  
+\- das Jagen auf Trolle wird eingestellt  
+\- dementsprechend wird auch keine Trollhaut mehr abgezogen  
+\- keine Rüstung aus Trollleder soll mehr im Lehen Malthust auf Siebenwind
+getragen werden  
+\- der Handel mit solchen Rüstungen und dem Leder werden komplett verboten.  
+  
+Es mag dieser Vorfall hoffentlich auch für das Ersonter Lehen, wie auch für
+die anderen Völker Siebenwinds eine Mahnung sein, auf dass es kein zweites Mal
+zu solch grauenvollen und verlustreichen Kämpfen kommt! So tragt die Kunde
+hinaus an einen jeden, was ihm blühen mag, wenn er die Haut eines Trolls an
+seinem Leib trägt.  
+  
+_Felis_  
+  
+  
+14\. Onar - Leserartikel: Zufall? oder: Was es noch zum Trollkrieg zu sagen
+gibt  
+---  
+Ein großes Heer von Trollen hat vor kurzem Brandenstein angegriffen. Das
+wissen wohl viele bereits, seit das Freie Blatt unlängst hierüber berichtete.  
+  
+Unbekannt dahingegen mag die Tatsache sein, daß der Trollanführer eine
+unheilig schimmernde und überaus machtvolle Waffe mit sich trug. Daß zudem
+jene Goblins, die die tapferen Wachen auf den Stadtmauern überwältigten, nur
+durch die Hilfe von Schwarzmagiern in die Stadt gelangten.  
+  
+Nachdenklich stimmt es dann, wenn man zudem erfährt, daß sich bis auf wenige
+Weißmagier aus Seeberg, die gesamte Akademie der Magier, die ja dem Ersonter
+Bund aus welchem Grund auch immer zugetan ist, weigerte, den Bürgern
+Brandensteins im Namen der Viere beizustehen.  
+  
+Kaum, daß dann eine Abordnung zweifelsohne tapferer Recken der Ersonter Garde
+und ein Magier der Akademie, der neuerdings, Gerüchten zufolge, bei den
+Nortraven als Verbrecher gesucht wird, Brandenstein betritt, lässt sich der
+Trollanführer, der zuvor jedwede Verhandlung verweigerte, nun doch dazu
+überzeugen, seinen Angriff abzubrechen.  
+  
+Ob das alles nur Zufall ist? Oder sollte hier Schaden an Verbündeten vermieden
+werden? Wer schickte tatsächlich diese Trolle in den sinnlosen Krieg?  
+  
+_Ein besorgter Beobachter_  
+  
+  
+14\. Onar - kurios - Der verwunschene Hund  
+---  
+Das mit Magie nicht zu spaßen ist, musste kürzlich ein junger Mann, Renzan, am
+eigenen Leib erfahren. Als Hund verwandelt, doch nicht mehr in der Lage,
+diesen Zauber rückgängig zu machen, suchte er die Markthalle zu Falkensee auf,
+wo sich zu diesem Zeitpunkt der Akoluth der Grauen Garde Allakath und die
+freie Schreiberin des Boten Felis aufhielten. Mit Gewinsel und Gekläffe, denn
+zu mehr war er leider nicht mehr fähig nachdem die Verwandlung wohl schon
+etliche Zeit angehalten hatte, machte der vermeindliche Hund auf sich
+aufmerksam und durch geschickte Fragen wusste der astraelsgesegnete Akoluth
+schon bald, um was für ein Problem es sich hier handeln mag.  
+Angeregt wiederum durch etliche Sagen und Legenden kam der Schreiberin jedoch
+die Idee, es mit einem erlösenden Kuss zu versuchen. Insgesamt vier - man
+bedenke das Sprichwort "Alle guten Dinge sind vier" - Küsse waren jedoch
+notwendig, ehe sich die tierische Gestalt mühsam auflöste und der Rotschopf
+erlöst war und schon bald dankbar das Weite suchte.  
+  
+_Felis_  
+  
+  
+14\. Onar - Vitamaabende  
+---  
+Seit einigen Wochen nun wird an jedem Vieretag der Vitamaabend veranstaltet.
+In lockerer Runde treffen sich die Gläubigen im Vitamaschrein des Tempels zu
+Falkensee und reden über die gütige Mutter, stellen Fragen und hören manch
+eine Geschichte.  
+Seine Eminenz Sandelholz und ihre Gnaden Sandelholz nehmen sich die Zeit auch
+langwierige Diskussionen zu leiten und geben immerwieder Anregungen einen
+Sachverhalt auch einmal aus einem anderen Blickwinkel zu betrachten.  
+Bei Gebäck, Wein oder anderen Getränken und in angenehmer Gesellschaft
+erfreuen sich diese Abende immer größerer Beliebtheit.  
+Eine der dort vorgetragenen Geschichten soll in diesem Siebenwindboten
+veröffentlicht werden.  
+  
+Die Legende von Meralion  
+  
+Als das erste Kinderlachen zum Himmel stieg und auf den ersten Felatrahl des
+neuen Morgens traf, zersprang es in tausende wirbelnde, strahlende Funken. Aus
+diesen Funken schwang sich Meralion hervor, Vitamas kleiner Sänger. Und wie
+das Lachen, dem er entsprang, ist er voller Unschuld und ohne Arg. Gegenüber
+den anderen Horwen sind seine Kräfte nur gering. Seine Stimme aber ist
+strahlend wie der junge Morgen, frisch wie der Tau im Wald und warm wie die
+Glut im heimischen Feuer.  
+Seine Geschwister, die anderen Horwen blickten voller Liebe und Sorge auf
+ihren kleinen Bruder hinab, der lachend, singend und ohne Sorgen zu kennen
+durch die Welt zog. So wollte man ihm auch keine Aufgabe anvertrauen, denn zu
+unstet, zu kindlich war sein Gemüt - und doch stand ihm eine große Aufgabe
+bevor.  
+Als der Eine sah, wie seine Eltern die sterblichen Seelen erschufen und für
+diese Wesen die Horwen erschufen, da wurde er neidisch. Sollte nicht er es
+sein, der über Tare herrscht? War nicht er es, der seinen Eltern näher stand
+als jeder andere? Und so griff er nach Tare, wie ein Kind, dass etwas
+verbotenes tut. Doch er brachte nur Finsternis und Fäulnis. Voll Kummer
+blickte Vitama auf die Taten des Einen, doch sein Herz wurde erfüllt von
+blindem Zorn. Er fühlte sich verraten, denn die Viere hatten die Sterblichen
+so reich beschenkt, er aber war leer ausgegangen. Und so floh er schließlich
+in die tiefen Abgründe der Sphären.  
+Meralion aber, voll kindischem Übermut, flatterte dem Einen hinterher, folgt
+ihm in die tiefsten Abgründe, denn er verstand nicht was mit dem Ungenannten
+geschehen war. So flog er ihm nach und sang seine fröhlichen Lieder von
+saftigen Wiesen, Tau im Wald, von Licht und Freude. Der Eine aber packte den
+kleinen Horwah, der ihm in Gestalt eines Vogels gefolgt war, und ließ seinen
+ganzen Zorn, seinen ganzen Hass und seine ganze Verzweiflung an ihm aus.  
+Meralion war dem nicht gewachsen. Er zerbrach in den Fängen des Einen, denn in
+seinem Herzen war kein Platz für so viel Hass. Und so sang er sein
+allerletztes Lied für den Einen. Nichts als Kummer und Leid lag in diesem Lied
+und für einen Augenblick füllte sich das Herz des Einen mit dem Grauen über
+seine Tat, denn er sah sich selbst in den Augen des kleinen Vogels. So
+schleuderte er den Leib des Horwah davon.  
+Vitama fand Meralion, der nun gebunden war an den Körper eines Vogels und
+dessen eines Bein gebrochen war vom Griff des Einen. Meralion hatte gelernt
+was Leid war und schwieg lange, sehr lange.  
+Dann jährte sich der Tag, als der Eine in sein Reich geflohen war und den
+Kleinen gequält hatte und die Dunkelheit kam. Doch da erklang erneut die
+Stimme Meralions, seine ganze Liebe legte er in dieses Lied. In das Lied, dass
+er begonnen hatte für den Einen zu singen. Und dieses Lied singt er seit dem
+in jedem Dunkeltief und es heißt auch, dass dieses Lied noch bis in die
+tiefsten Tiefen der Niederhöllen dringen wird, bis an die Ohren desjenigen,
+für den es bestimmt ist.  
+Und dann, als das Lied erstarb, erwachte das Licht und das Leben von neuem.
+Nach dieser Tat erwählte Vitama den kleinen Meralion zu ihrem Boten um von der
+Liebe auf Tare zu verkünden. Es heißt man erkennt ihn an seinem verkrüppelten
+Fuß, der vom Einen geschunden wurde. Nur kurz kann er die Gestalt als Mensch
+halten, dann muss er zurückkehren in seine Vogelgestalt. In seinen Augen soll
+alles Leid der Welt liegen, doch seine Stimme ist so fröhlich wie das
+Kinderlachen, aus dem er einst geboren wurde. Es heißt auch, dass er noch
+immer auf der Suche ist nach dem Einen, umherflatternd auf Tare und sein Lied
+singend. Und es heißt, dass so lange er sein Lied singt, das Herz des Einen
+niemals ganz verschlossen werden kann.  
+  
+_Ionas_  
+  
+  
+14\. Onar - Die Tempelwache erwacht  
+---  
+Alte Institution mit neuem Leben erfüllt  
+  
+Seit kurzem sieht man sie wieder, die grau Uniformröcke mit dem roten Umhang,
+und manch ein Bürger oder Besucher Falkensees mag sich gefragt haben, was
+diese wohl zu bedeuten haben. Die Antwort ist einfach, die Tempelwache der
+viergöttlichen Kirche ist zu neuem Leben erwacht. Lange Zeit fehlte diese in
+Falkensee, nachdem die alte Wache vor vielen Monden augelöst worden war, dem
+Vernehmen nach zumindest teilweise auch wegen heftiger Konflikte mit der
+weltlichen Obrigkeit, aber auch wegen innerer Kontroversen in der Kirche.  
+Das sie nun wieder neu gegründet wurde geht auf die Initiative eines einzelnen
+motivierten Gläubigen zurück, der in der Kirche mit dem Ziel vorsprach, sich
+als gläubiger Laie für Schutz und Sicherheit der Geweihten und des Tempels
+einsetzen zu wollen. Unbeirrt blieb er diesem Vorhaben auch noch treu, als er
+erfahren musste, dass eine solche Tempelwache zwar einmal existiert hatte,
+aber schon vor langem wieder aufgelöst worden war, bis auch die Dienerschaft
+der Viere zur Erkenntniss gelangte, dass es Zeit für eine Neugründung sei. Und
+so wurde Reto Finkenfahn zum ersten Streiter der neu gegründeten Tempelwache,
+die inzwischen auch schon weitere Neuzugänge zu verzeichnen hat.  
+Bisher belaufen sich die Befugnisse dieser Wache nur auf den Tempelbezirk, wo
+sie das Hausrecht wahrnehmen. Darüber hinaus besitzt sie keine Vollmachten,
+ist aber natürlich wie jeder sonstige Bürger oder Freie auch befugt, zum
+Schutze eines Geweihten einzugreifen, so diese tätlich angegriffen werden
+sollten. Zudem wurde der Tempelwache ein provisorisches Waffen- und Rüstrecht
+verliehen, bis der Ersonter Rat endgültig über den Status der neu gegründeten
+Gruppe entschieden hat.  
+Kirche und Tempelwache streben dabei an, eine möglichst gute Zusammenarbeit
+zwischen der Wache und der Ersonter Garde zu gewährleisten, um Konflikte wie
+zur Zeit der alten Tempelwache zu vermeiden. So ist angedacht, dass Mitglieder
+der Wache an den Appellen der Garde teilnehmen, nicht nur um dort zu lernen,
+sondern auch um den Kontakt und die Zusammenarbeit zwischen den beiden Gruppen
+zu verbessern.  
+So sei an dieser Stelle auch jeder gläubige Bewohner der Insel, der das
+Bestreben hat, in Treue und Demut den Vieren zu dienen, ohne dabei die Weihe
+anzustreben, dazu eingeladen, sich bei einem Tempelwächter oder dem Calator
+weiter über die Tempelwache zu informieren oder sich gleich dort zu bewerben.
+Außer einem aufrechten Geist und der Treue zu den Vieren sowie der
+Bereitschaft, Leib und Leben zum Schutz ihrer tarischen Vertreter in die
+Waagschale zu werfen, werden nur Grundkenntnisse im Waffenhandwerk erwartet,
+so dass dies besonders auch für junge Kämpfer ohne große Erfahrung eine
+Überlegung wert sein dürfte.  
+  
+_ARdM_  
+  
+  
+14\. Onar - Armenviertel von Falkensee in Brand gesetzt  
+---  
+Am 2. Onar kam es zu einem Brand im Armenviertel vor dem Südtor Falkensees.
+Laut Augenzeugenberichten waren es wohl Nortraven gewesen, die sich damit für
+einen Überfall des Viertels bei den Dwarschim rächen wollten.  
+Auffällig war jedoch bei diesem Geschehniss der Einsatz eines Mannes der
+Ersonter Garde, der ohne Zweifel neben Mut und Entschlusskraft, auch ein
+großes Herz bewiesen hat - der Gardist Gorem.  
+Fällt der Mann doch meist eher durch seine Größe und Kraft auf, zeigte er bei
+diesem Vorfall, dass noch mehr in ihm steckt. So brachte er Verletzte zum
+Hospital, kümmerte sich um den Brand und versprach auch Hilfe beim
+Wiederaufbau zu leisten. Bei einem Gespräch mit ihm zeigte sich ebenso, dass
+er schon immer ein Herz für die Schwächeren der Bevölkerung hatte und eine
+ausgesprochen ehrenhafte Einstellung besitzt. Es bleibt kein Zweifel, dass
+Waibel Delarie mit der Wahl dieses Mannes für die Garde einen guten Riecher
+besessen hatte und dass Gardist Gorem mit seiner Kraft, aber vor allem auch
+mit seiner menschlichen Wärme, noch eine besondere Karriere machen wird.  
+  
+_Felis_  
+  
+  
+14\. Onar - Angriff Ersonts auf Vänskap  
+---  
+Derweil in Brandenstein noch der Markt im vollen Gang war, geschah es
+wiederum, dass die Ersonter Garde gemeinsam mit Magiern der königlichen
+Magierakademie Siebenwinds einen Angriff auf das Dorf Vänskap vornahmen. Einer
+der Gründe dieses Angriffs war wohl der kürzlich erfolgte Brandanschlag der
+Nortraven auf das Armenviertel vor dem Südtor Falkensees, als Rache auf deren
+Überfall im Tal der Dwarschim. Zwar gab es wohl ein Gespräch zwischen dem
+"Grauen" mit Waibel Delarie und es schien, als wäre der Vorfall geklärt, doch
+kam es wohl im Nachhinein noch zu einem weiteren Vorfall, bei dem der
+Südfaller Bürger Markus Panscher von dem Nortraven Halgar im Ersonter Kessel
+verprügelt worden war. Die Hintergründe zu dieser Prügelei sind bis dato dem
+Boten nicht bekannt.  
+Ersont marschierte daher vor die Tore Vänskaps, versuchte nunmehr Halgar zu
+entführen, doch endete der Angriff damit, dass einige Gardisten, darunter auch
+der Waibel Delarie, in den Zellen der Nortraven gesperrt wurden. Es gab
+daraufhin Verhandlungen zwischen den Ersontern und Nortraven und die
+Gefangenen wurden letztlich freigelassen. Nach dieser Freilassung kam es
+darüber hinaus noch zu einem Gespräch zwischen Halgar und der Ersonter Rätin
+Solice Aurora, doch ist bisher nicht bekannt, was im Verlauf des Gesprächs
+geschah. Augenzeugen sprachen von einer brennenden Tür und dass die Rätin
+nunmehr in Vänskap als Gesuchte gilt.  
+Es bleibt abzuwarten, zu welchen Konflikten diese Vorfälle nun führen mögen
+oder ob es unter Umständen noch erfolgreiche, diplomatische Verhandlungen
+geben mag, die zu einer Entspannung der aktuellen Situation führen werden.  
+  
+_Felis_  
+  
+  
+14\. Onar - Gerüchteküche  
+---  
+\- Drohender Putsch durch Gardewaibel Delarie? -  
+Von einem Putsch wird gesprochen und der ein oder andere sagt dem ansonsten so
+freundlich wirkenden Waibel Delarie nach, dass er wohl im Hinterstübchen die
+Machtergreifung plane, um ein Lehen im Stile Malthusts mit ihm als Marschall
+an der Spitze aufzubauen.  
+Doch andererseits fällt auch auf, dass es zumeist männliche Personen sind, die
+über dieses Gerücht reden, während weibliche Bürger und Bewohner Falkensees
+ganz andere Töne erklingen lassen.  
+  
+\- Liebesberatung in Brandenstein -  
+Hoffnung mag nun endlich für all jene aufkeimen, welche sich mit allerlei
+Liebessorgen rumplagen! So soll es nun künftig in Brandenstein eine
+Liebesberatung geben, bei der man seine Nöte schriftlich gebannt in eine Kiste
+werfen soll. Details sind noch nicht bekannt, doch darf man gewiss sein, dass
+diese Dienstleistung in Zukunft auf fruchtbaren Boden fallen mag.  
+  
+__  
+  
+  
+14\. Onar - Brandensteiner Markttag und Ehrungen  
+---  
+Am 7. Onar fand in Brandenstein erneut ein gut besuchter Markttag statt, der
+dieses Mal als besondere Attraktionen Tanz-, Musik- und Illusionsvorführungen,
+Talismanverkäufe und Wahrsagerei, letztere angeboten durch die begnadete
+Kartenleserin und Endophali Mama Vadhu, des fahrenden Volkes bieten konnte.
+Ein weiterer Höhepunkt war die zum 7. Dunkelzyklus stattfindende Ehrung derer,
+die sich im Dunkeltief für die Sicherheit und Verteidigung Brandensteins
+eingesetzt hatten. Neben einer persönlichen Gratulation durch die Patrizierin
+Ruatha, die auch zuvor eine Ansprache hielt, und Leutnant Caiomme, erhielten
+die Geehrten durch einen Bürger Brandensteins eine Nadel mit dem Wappen der
+Hafenstadt angeheftet.  
+Geehrt wurden folgende Personen:  
+  
+\- Andakor Karas  
+\- Litizia Silberfeder  
+\- "Grauer"  
+\- Elamio  
+\- Ansgar Lamia  
+\- Leandra  
+\- Zahira  
+\- Aresia Caiomme  
+\- Enoah Adorne  
+\- Dimiona  
+\- Gerald Tanneck  
+\- Caldris al Veron u Rohin  
+\- Avanjanas  
+  
+Im Anschluß an die Ehrung wurde eine Ehren- und Gedenktafel vor der Taverne
+"Zur Roten Seeschlange" durch die Patrizierin Ruatha enthüllt. Diese führt
+nicht nur die Namen derer auf, deren Leistung zuvor auf dem Marktplatz
+gewürdigt wurde, sondern auch die Namen der Gefallenen, welche ihr Leben für
+die Sicherheit Brandensteins gaben.  
+Mögen ihre Namen, gleich ob auf Tare wandelnd oder in Morsans Hallen,
+unvergessen bleiben und ihre Taten einem jeden ein Vorbild sein.  
+  
+_Felis_  
+  
+  
+14\. Onar - Preisrätsel  
+---  
+Herr Panscher, der bekannte Alchemist aus Südall, hat der
+Siebenwindbotenredaktion ein Preisrätsel zukommen lassen und sponsort auch den
+Preis.  
+Unter allen richtigen Einsendungen verlosen wir ein Preisgeld von 500 Dukaten.  
+Die Einsendungen sind bis zum Ende des Monds in den Briefkasten der Redaktion
+in Seeberg einzuwerfen.  
+  
+Und hier nun das Rätsel:  
+  
+Ich habe zwei Köpfe aber nur einen Körper.  
+Erst wenn ich still stehe, dann laufe ich.  
+Was bin ich?  
+  
+_Die Redaktion_  
+  
+  
+14\. Onar - Leserartikel: Über effektive Verbrechensbekämpfung  
+---  
+Mit großem Bedauern habe ich in der Ausgabe 176 des Boten gelesen, daß eine
+ach so gutgläubige Person, die offenkundig dermaßen schlechte Quellen hat, daß
+sie sich meines vollsten Mitleides sicher sein kann, sich von der Malthuster
+Wacht innerhalb der Grenzen Ersonts bedroht fühlt.  
+Es mutet mir seltsam an, dies zu lesen, da doch die Mitglieder der Malthuster
+Wacht bereits seit langer Zeit auf Bitten der Ersonter Obrigkeit, vertreten
+durch den stets um Eifrigkeit bemühten Gardewaibels Delarie das Lehen Ersont
+nicht einmal mehr betritt.  
+Umso erstaunlicher, da dieser Umstand, daß sie hierum gebeten wurden, nicht
+etwa durch Handlungen der Malthuster Wacht auf Ersonter Grund hervorgerufen
+wurde, sondern durch die Einzelhandlungen zweier auch in Malthust danach
+gesuchter Verbrecher, die bei Erscheinen des Boten bereits berechtigterweise
+das Zeitliche gesegnet hatten.  
+Es sei hier noch anzumerken, daß es wohl das Beste für Falkensee wäre, die
+Aufgaben der Stadtwache durch effiziente Malthuster Soldaten erledigen zu
+lassen, damit manches offene Verbrechen in Falkensee endlich einmal aufgeklärt
+würde, statt nur zu behaupten, der Schuldige wäre nach Brandenstein geflohen,
+(wo er nachweislich nicht wohnt), und sich damit aller Aufklärungsarbeit
+freizusprechen.  
+Überdies sollte die zurecht von der Ecclesia als effektiv betitelte Arbeit der
+Malthuster Wacht auch von den Vieren wohlwollend beachtet werden, ist man doch
+in Brandenstein wenigstens bemüht, einen nachweislichen Schwarzmagier zu
+jagen, der in FalkenseeTag für Tag frei herumlaufen darf. Ob diese schützende
+Hand der Ersonter Obrigkeit über den Schwarzmagier im Sinne der Viere ist,
+wage ich als ebenfalls sehr gläubige Person nun dann doch stark zu bezweifeln.  
+Doch dem geneigten Leser steht es wie immer frei, sich hierüber selbst ein
+Urteil zu bilden.  
+  
+_Flammende Feder_  
+  
+  
+14\. Onar - Leserartikel: Hilfsangebot ausgeschlagen  
+---  
+Offene Ohren konnten vor kurzem in Falkensee vernehmen, daß der Waibel der
+Garde ein offenherzig und uneigennützig unterbreitetes Angebot der Malthuster
+Wacht, Hilfe bei der Aufklärung eines Verbrechens zu leisten, rüde ablehnte.
+Ob er hierbei nur von Eitelkeit und falschem Stolz getrieben wurde, daß ihm
+seine Sturheit wichtiger ist, als das Wohl der Bürger seiner Stadt? Jedoch
+sollten sich die Bürger Falkensees nun in Acht nehmen, da eben jene offene
+Ohren ebenso berichteten, dass weitere Straftaten in Falkensee verübt werden.
+Vielleicht wird der Waibel, mögen die Viere uns beistehen dass es nicht so
+weit kommt, wenn die Stadt den ersten Toten zu beklagen hat, über seinen
+Schatten springen und die Hilfe der Malthuster Wacht annehmen.  
+  
+_Anonym_  
+  
+  
+14\. Onar - Leserartikel: Konflikt der Orken  
+---  
+Seit langem herrscht zwischen dem Ersonter Bund und dem Volk der Orken
+Frieden. Wenn man es denn Frieden nennen will. Selten aber ist der Anblick von
+Orken geworden, die gegen die Stadtgesetze Falkensees verstoßen. Noch seltener
+sieht man, dass Orken Gardisten angreifen. Das ist auf der einen Seite
+löblich. Auf der anderen Seite muss man es aber Kritisch sehen, denn was tut
+der Ersonter Bund, das die Orken nicht marodierend gegen ihn zieht?  
+  
+Darauf will ich dem gewillten Leser die Antwort bieten. Es sind die
+Eigenschaften des Ersonter Bundes. Aufrichtigkeit, Ehre und Offenheit. Mit
+diesen Eigenschaften schaffen sie es die Orken ruhig zu halten. Die Garde
+führt ruhige Gespräche mit den Orken über die Fehler, die sie machen. Unlängst
+mag jeder interessierte Bürger mitbekommen haben, dass es eine Vereinbarung
+zwischen den Orken und dem Ersonter Bund gibt. Diese Vereinbarung besagt, dass
+die Orken sich an die Gesetze des Ersonter Bundes halten und diese dafür nicht
+das ganze Volk der Orken für Vergehen einzelner bestrafen. Eine Ehrbare Sache,
+denn war es in der Vergangenheit doch so, dass immer der schnelle Weg zur
+Waffe gesucht wurde. Stattdessen sieht man den Gardewaibel Delarie auf offener
+Straße mit dem Anführer der Orken, Cho’harar nennt er sich, wie sie sich über
+Vergehen einzelner Orken unterhalten. Auch gibt es ab und an Geschenke an die
+Orken, so dass ich heute von einem Fass Pilzschnaps erfahren habe, dass den
+Orken, die wegelagernd an der Lavabrücke der Dwarschim standen, zugesandt
+wurde. Auch als die Orken einen neuen Anführer, Shnaz, erhielten wurde den
+Orken ein Geschenk überreicht. Diese friedliche und offene Kooperation ist es,
+die den Frieden bewahrt.  
+  
+Dies hat auch Schattenseiten, denn vor kurzem konnte man die Garde beobachten,
+wie sie sich mit dem Gardewaibel um die Behandlung der Orken stritt. Groß ist
+die Wut scheinbar in den Reihen der Gardisten, doch sind die Argumente des
+Gardewaibels stets weise und appellierend. So konnte er die Gardisten davon
+überzeugen, dass man die Beleidigungen der Orken hinnehmen sollte. Sie sind
+ein raues Volk, das andere Sitten pflegt. Man muss sich nicht auf die
+Beleidigungen einlassen. Natürlich fällt dies einem sehr schwer, aber es wird
+sich für die Zukunft zeigen, wie die Gardisten auf diesen Appell reagieren.  
+  
+Es gibt natürlich auch Zwischenfälle mit den Orken. Gerade vor wenigen Tagen
+blockierten die Orken die Brücke über den Lavafluss im Lehen der Dwarschim. Es
+heißt, dass die Garde mit 10 Mann ausgerückt ist um diese Blockade, in
+Amtshilfe für die Dwarschim, aufzulösen. Der Versuch sollte in Frieden
+erfolgen. Doch als die Garde dort eintraf war der Kampf zwischen der
+Rittergarde, den Nortraven, den Dwarschim und den Orken bereits im vollen
+Gange. Mit der Verstärkung, von Süden kommend, konnten die Orken
+niedergestreckt werden. Aber es geschah nicht das was ein jeder jetzt denken
+mag. Nein. Die Orken wurden freigelassen. Allesamt. Einzig wurden sie auf
+Waffenwerk anderer Völker durchsucht. Geschlagen konnten die Orken wieder
+abziehen.  
+  
+Nun mag es einem in den Sinn kommen, dass die Orken sauer wären auf die
+Beteiligung des Ersonter Bundes an dieser Niederlage, doch scheinen sie ihre
+Wut gegen die Ritter richten zu wollen. Denn wie sonst wäre es zu erklären,
+dass der Gardewaibel Delarie mit drei Gardisten heute friedlich eine
+Unterhaltung mit dem Anführer der Orken führte über diesen Vorfall?  
+  
+So mancher sollte sich am Diplomatischen Geschick des Ersonter Bundes etwas
+abschauen. Denn er zeigt deutlich und wahr wie man Frieden macht und ihn
+bewahrt.  
+  
+_Der Ersonter_  
+  
+  
+14\. Onar - Leserartikel: Reges Treiben auf den Märkten Falkensees  
+---  
+Auf den Märkten Falkensees tut sich wieder etwas! Die frierenden Handelsleute,
+die kein Interesse hatten sich auf dem Marktplatz einen Stand zu sichern um
+ihre Waren feil zu bieten haben eine neue Heimat. Seit einer Weile schon gibt
+es im alten Bau der Ecclesia Elementorium eine Markthalle. Darüber der
+Ersonter Kessel, eine recht gemütliche Stadttaverne.  
+  
+In der Markthalle sieht man nun immer öfter Handelsleute, die regen Zulauf an
+den großzügigen Ständen haben. Selbst die Dwarschim nutzen die Gelegenheit um
+ihre Geldkatzen zu füllen. Waren aller Art kann man in der Markthalle immer
+wieder finden. So hoffe ich, dass die Halle in Zukunft noch mehr Zulauf
+erhält.  
+Als Bürger Falkensees möchte ich aber hier meinen persönlichen Dank an den
+Wuchthammer Clan der Dwarschim richten. Denn dieser ist es, der die Händler
+und Käufer in die Halle treibt. Mit drei Anwesenden des Clans kehren sie immer
+wieder ein.  
+  
+Für den Durst nach dem Handel kann man sich im Ersonter Kessel einfinden. Auf
+Initiative des berühmten Händlers Andarius Mondsilberhaar, einer meiner
+Mitbürger und Leiter des Handelshaus Goldblatt, wurde die Taverne aufgebaut.
+Und als Elf versteht er es wirklich eine solche Einrichtung aufzubieten. Die
+Taverne bietet für jeden Geschmack Raum. So findet man abgelegene Tische,
+Feuerstellen mit Bänken und die Theke. Ich wünsche mir für die Zukunft, dass
+sich dort mehr Personal für die edle Taverne finden lässt um sie zu bewirten.
+Denn leider noch viel zu oft sieht man sie geschlossen.  
+  
+Das Essen im Ersonter Kessel ist wunderbar und frisch zubereitet. Man bekommt
+das beste Geschirr, dass Falkensee aufzubieten hat, und den besten Trunk. Die
+Auswahl an Getränken ist aber Verbesserungswürdig. Es gibt gar Gerüchte, dass
+man dort auch die Führung des Lehens vorfinden kann und mit ihnen gemütlich,
+als seien es Freie, einen Plausch halten kann.  
+  
+_Der Ersonter_  
+  
+  
+14\. Onar - Leserartikel: Gerücht um Überlauf  
+---  
+In der Stadt Falkensee gibt es einige Gerüchte um die Patrizierin Marnie
+Ruatha. Manch einer mag sie kennen. Sie ist für Brandenstein das was die
+Statthalterin Noalim al Achid für Falkensee ist. Es heißt, dass die
+Patrizierin vorhat sich von dem Lehen Malthust loszusagen. Ich möchte dieses
+Gerücht nun nicht beschwören, da ich es nicht sicher weiß. Die Anzeichen dazu
+gibt es aber.  
+  
+Die Patrizierin ist in letzter Zeit auffällig oft in Falkensee zu sehen.  
+Die Patrizierin hat oft Kontakt zu hohen Personen in der Regierung des
+Ersonter Bundes, alleine.  
+Die Patritzerin transportiert des Öfteren ganze Ladungen Material und Nahrung
+nach Falkensee.  
+  
+Man könnte dahinter auch Handelsbeziehungen vermuten. Warum aber sollte eine
+hohe Offizielle der Stadt Brandenstein den Handel in Falkensee pflegen? Warum
+sollte sie den Ersonter Bund unterstützen, wenn sie doch vor kurzem erst ihre
+Wut kund tat über gewisse Vorgänge zwischen dem Ersonter Bund und Malthust?  
+  
+Angeblich soll der Patritzerin ein Haus gebaut und dieses auch eingerichtet
+werden in Südfall. Sie wäre ein wirklicher Gewinn für den Ersonter Bund, daher
+kann ich nur dazu aufrufen sie bei Sichtung unbedingt zu unterstützen in ihren
+Plänen, sollten sie sich bewahrheiten. Die Stadtverwaltung Falkensees könnte
+die Patritzerin sicher sehr gut in Amt und Würden als Offizielle der Stadt
+unterbringen. Arbeit mag es genug geben um den desaströsen Ruf der
+Stadtverwaltung unter uns Bürgern wieder aufzubessern.  
+  
+_Der Ersonter_  
+  
+  
+14\. Onar - Impressum  
+---  
+Redaktionssitz: Seeberg  
+  
+Leitender Redakteur: Alricio Romero di Madjani (ARdM)  
+Stellvertreter: Novize Ionas  
+Freie Mitarbeiter: Felis  
+  
+Satz und Druck: ARdM, Ionas  
+  
+  
+  
+__  
+  
+  
