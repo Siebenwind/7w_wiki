@@ -115,9 +115,9 @@ def main():
     # Archive Management
     archive_parser = subparsers.add_parser("archive", help="Manage Wiki Archive (Symlinks, Research Board)")
     archive_sub = archive_parser.add_subparsers(dest="archive_cmd")
-    archive_sub.add_parser("sync", help="Synchronize reports and board into the docs directory")
-
     # Agent Messaging (Dispatch)
+    mail_parser = subparsers.add_parser("mail", help="Agent Messaging (Dispatch)")
+    mail_parser.add_argument("mail_args", nargs=argparse.REMAINDER, help="Arguments for agent_mail.py")
 
     # Check if no arguments provided, default to advisor
     if len(sys.argv) == 1:

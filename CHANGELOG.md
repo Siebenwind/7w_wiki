@@ -1,6 +1,16 @@
 # Changelog
 
 <details open>
+<summary><b>[2026-02-16.32] - Phase 1.16: Interop Upgrade & Jules Readiness</b></summary>
+### Hinzugefügt
+- **Entry Points**: `AGENTS.md` (Canonical Instruction) und `GEMINI.md` (CLI Shim) erstellt.
+- **Skills Mirror**: `.agents/skills/` erstellt für kompatible Nutzung durch Codex/Jules.
+### Geändert
+- **CLI Fix**: `mail` Befehl in `7w_wiki.py` registriert.
+- **Workflow Standard**: `start.md` mit Interop-Headern (`runtime_commands`) versehen.
+</details>
+
+<details>
 <summary><b>[2026-02-16.31] - Phase 1.15: Society & Cultures Enrichment</b></summary>
 
 ### Hinzugefügt

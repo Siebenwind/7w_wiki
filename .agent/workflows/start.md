@@ -4,6 +4,13 @@ description: Zentraler Startpunkt & Entscheidungshilfe für neue Agenten
 
 # Workflow: `/start` (Das Orakel von Siebenwind)
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py advisor`
+  - `7w_wiki.py archive sync`
+- method_only:
+  - `/start`
+
 Willkommen, Oberarchivar. Du stehst vor dem gewaltigen Wissen von 20 Jahren Siebenwind. Dieser Workflow hilft dir, dich zu orientieren und die nächsten Schritte zu wählen.
 
 ## 1. Lagefeststellung (Situational Awareness)

@@ -13,6 +13,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
 - [ ] **Silicon Inquisition**: Fortsetzung der v2.7 Migration (Batch 5+).
 - [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - *Delegiert an Ingestor*.
+- [ ] **Jules Readiness**: Validation der neuen `.agents/` Struktur durch externe Agenten.
 
 ## 🟡 Priorität 2: Operative Ingestion (Inhalte)
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
@@ -52,6 +53,15 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Sub-Race Architecture**: Created dedicated articles for Hochelfen, Waldelfen, Auenelfen.
 - **Social Infrastructure**: Implementation of the Prison System (Gefaengnissystem) and Measurement Units (Masseinheiten).
 - **Register Synchronization**: 10+ historical figures added to registers; Armgard Torbenson spelling corrected.
+</details>
+
+<details open>
+<summary><b>Phase 1.16: Interop Upgrade & Jules Readiness (Feb 2026)</b></summary>
+
+- **Agent Sovereignty**: Created `AGENTS.md` as the single source of truth for all autonomous agents (Jules, Codex, Gemini).
+- **CLI Shim**: Added `GEMINI.md` for zero-shot CLI compatibility.
+- **Skills Mirror**: Established `.agents/skills/` hierarchy to expose internal capabilities (`oracle`, `historian`) to external agents.
+- **Bugfix**: Registered `mail` command in `7w_wiki.py` argparse.
 </details>
 
 <details open>
