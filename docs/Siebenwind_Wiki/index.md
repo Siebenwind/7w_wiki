@@ -4,6 +4,8 @@ title: Siebenwind Wiki
 category: Index
 ---
 
+# Siebenwind Wiki
+
 ![Siebenwind Lore Engine Banner](../assets/banner.png){ .wiki-banner }
 
 <p align="center">
@@ -60,7 +62,7 @@ Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
 
 ```bash
 # Das Wissen des Orakels abfragen
-./7w_wiki.py search "Wer war Benedict Rabenfels?"
+./7w_wiki.py search "Wer war Benedict Rabenfels?" --source all
 
 # Den Konsistenz-Status prüfen
 ./7w_wiki.py audit

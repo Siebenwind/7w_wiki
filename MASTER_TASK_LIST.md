@@ -6,7 +6,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
 - **Last Handover**: 2026-02-16 18:30 (Antigravity -> User)
-- **Status**: Phase 1.15 complete; Batch 4 (Societies) fully integrated.
+- **Status**: Phase 1.16 complete; Batch 4 (Societies) fully integrated.
 
 ---
 
@@ -44,16 +44,9 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ---
 
----
+## 🗂️ Projekthistorie (neu → alt)
 
-<details open>
-<summary><b>Phase 1.15: Silicon Inquisition Batch 4 - Societies & Cultures (Feb 2026)</b></summary>
-
-- **Race Enrichment**: Major races (Elves, Dwarves, Nortraven, Myten) updated with creation myths and religious foundations (Thjarek/Eydis).
-- **Sub-Race Architecture**: Created dedicated articles for Hochelfen, Waldelfen, Auenelfen.
-- **Social Infrastructure**: Implementation of the Prison System (Gefaengnissystem) and Measurement Units (Masseinheiten).
-- **Register Synchronization**: 10+ historical figures added to registers; Armgard Torbenson spelling corrected.
-</details>
+### v2.7 Upgrade-Phasen
 
 <details open>
 <summary><b>Phase 1.16: Interop Upgrade & Jules Readiness (Feb 2026)</b></summary>
@@ -62,6 +55,15 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **CLI Shim**: Added `GEMINI.md` for zero-shot CLI compatibility.
 - **Skills Mirror**: Established `.agents/skills/` hierarchy to expose internal capabilities (`oracle`, `historian`) to external agents.
 - **Bugfix**: Registered `mail` command in `7w_wiki.py` argparse.
+</details>
+
+<details open>
+<summary><b>Phase 1.15: Silicon Inquisition Batch 4 - Societies & Cultures (Feb 2026)</b></summary>
+
+- **Race Enrichment**: Major races (Elves, Dwarves, Nortraven, Myten) updated with creation myths and religious foundations (Thjarek/Eydis).
+- **Sub-Race Architecture**: Created dedicated articles for Hochelfen, Waldelfen, Auenelfen.
+- **Social Infrastructure**: Implementation of the Prison System (Gefaengnissystem) and Measurement Units (Masseinheiten).
+- **Register Synchronization**: 10+ historical figures added to registers; Armgard Torbenson spelling corrected.
 </details>
 
 <details open>
@@ -147,6 +149,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Git Deployment**: Erfolgreiche Live-Verifikation auf GitHub Pages.
 </details>
 
+### Legacy-Phasen (v2.0 bis v2.6)
+
 <details>
 <summary><b>Phase 20: Deep Ingestion & Delegation (Feb 2026)</b></summary>
 
@@ -168,21 +172,11 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 </details>
 
 <details>
-<summary><b>Phase 1: Netz-Wächter & Brand Identity (Feb 2026)</b></summary>
-
-- **Netz-Wächter**: OOC-Timeline (`04_Chronik`) etabliert; Pilot-Ingestion (`siebenwind.de`) erfolgreich.
-- **Brand Identity**: Premium-Banner ("Anatomia Magica Mundi"), Logo und Favicon im Renaissance-Stil implementiert.
-- **GitHub Deployment**: Wiki live unter `Siebenwind.github.io`. Repository-Transfer an Organisation `Siebenwind`.
-- **Documentation Overhaul**: Erstellung von `architecture.md`, `setup_rag.md` und Community-Standards.
-- **System-Härtung**: Art Director Skill installiert; CLI zum `7w_wiki.py` Standard vereinheitlicht.
-</details>
-
-<details>
 <summary><b>Phase 18: Toran Dur Advanced Doctrines & Register Polish (Feb 2026)</b></summary>
 
 - [x] Pilot Batch (5/5)
-    - [x] Batch 1 (10/10)
-    - [ ] Batch 2 (0/10)
+  - [x] Batch 1 (10/10)
+  - [ ] Batch 2 (0/10)
 - **Batch 27 (Toran Dur Advanced)**: Integration of Sub-Batches 1-4.
 - **Arcane Science**: Integration of `Arkan-Metalle.md`, `Elementare_Atomlehre.md`, and `Metamorphose_und_Gestaltwandel.md`.
 - **Combat & Counter-Magic**: Detailed articles on `Antimagie_und_Gegenzauber.md` and `Arkane_Kriegfuehrung.md`.
@@ -195,7 +189,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 - **Orakel-Resilience**: Behebung von Permission-Issues durch Cache-Redirection und Optimierung der Boot-Sequenz.
 - **Historiker-Workflow**: Einführung des `/historian` Workflows zur Rekonstruktion komplexer Kausalitäten.
-- **Lore Reconstruction**: Klärung der "Hauptstadt-Frage". Rohehafen als erste Kolonie (1 n.H.) etabliert; Tiefenbach als Magiezentrum korrigiert. 
+- **Lore Reconstruction**: Klärung der "Hauptstadt-Frage". Rohehafen als erste Kolonie (1 n.H.) etabliert; Tiefenbach als Magiezentrum korrigiert.
 - **Consistency Blitz**: Vollständige Bereinigung des Personenregisters (Deduplizierung & Erstellung von 25 Stubs). Wiki-Status: 100% konsistent.
 - **Chronicler Duties**: Automatisierte Statistik-Generierung und Dokumentations-Audit.
 - **Onboarding Workflow**: Einführung von `/start` (`./7w_wiki.py start`) als zentraler Einstiegspunkt für neue Agenten.
@@ -223,6 +217,34 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 </details>
 
 <details>
+<summary><b>Phase 14c: Astrael Integration & System Health (Feb 2026)</b></summary>
+
+- **Batch 23**: Integration von 8 religiösen Texten der Bibliothek Astrael.
+- **System-Repair**: Bereinigung von 13 Inkonsistenzen (Gorem-Duplikate, fehlende Profile).
+- **Register-Sync**: Konsolidierung von Aspin/Athos und Erstellung von 8 neuen Profilen.
+- **Infrastruktur & Tools**: Einführung der semantischen Suche (RAG, Jina v3) sowie Skripte für Statistiken, Link-Weben und Silicon Inquisition.
+</details>
+
+<details>
+<summary><b>Phase 14b: Recherche, Analyse & Spielergeschichten Processing (Feb 2026)</b></summary>
+
+- **Marnie Ruatha**: Forschungsbericht erstellt. Klärung der Rolle als Hafenvogtin und des Kirchenasyls.
+- **Gap-Analyse**: Identifikation fehlender Akte `Tjure_Odal` und Prüfbedarf bei `Arn_Toron`.
+- **Batch 20-22**: Integration von 18 Spielergeschichten (Dark Lore, Social, Narrative Arcs).
+- **Lore-Härtung**: Definition von "Horwah", Nekromantie-Ritualen und Dämonenseuchen.
+- **Register-Sync**: ~20 neue Profile erstellt und verknüpft.
+</details>
+
+<details>
+<summary><b>Phase 14: Synapsen-System v2.0 & Register-Consolidation (Feb 2026)</b></summary>
+
+- **Live-Test**: Erfolgreicher Batch-Run (`/batch`) für Bibliothek Astrael (`Aequitas`, `Codex`, `Brevier`).
+- **Lore Trust Score**: Implementierung der 0-10 Skala und Integration in `lore_score_manager.py`.
+- **Register-Consolidation**: Vollständige Integration von "Das Ende der Zeit der Könige" (18 Personen, 6 Organisationen).
+- **Conflict Resolution**: Exemplarische Lösung des Delarie-Timeline-Konflikts via Synapse Board.
+</details>
+
+<details>
 <summary><b>Phase 13: Politische Krisen (Feb 2026)</b></summary>
 
 - [x] **Agenten-Personas**: Dedizierte Instruktions-Dateien für Ingestor, Wächter, Historiker und Koordinator aktiv.
@@ -242,41 +264,14 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 </details>
 
 <details>
-<summary><b>Phase 14: Synapsen-System v2.0 & Register-Consolidation (Feb 2026)</b></summary>
+<summary><b>Phase 1: Netz-Wächter & Brand Identity (Feb 2026)</b></summary>
 
-- **Live-Test**: Erfolgreicher Batch-Run (`/batch`) für Bibliothek Astrael (`Aequitas`, `Codex`, `Brevier`).
-- **Lore Trust Score**: Implementierung der 0-10 Skala und Integration in `lore_score_manager.py`.
-- **Register-Consolidation**: Vollständige Integration von "Das Ende der Zeit der Könige" (18 Personen, 6 Organisationen).
-- **Register-Consolidation**: Vollständige Integration von "Das Ende der Zeit der Könige" (18 Personen, 6 Organisationen).
-- **Conflict Resolution**: Exemplarische Lösung des Delarie-Timeline-Konflikts via Synapse Board.
+- **Netz-Wächter**: OOC-Timeline (`04_Chronik`) etabliert; Pilot-Ingestion (`siebenwind.de`) erfolgreich.
+- **Brand Identity**: Premium-Banner ("Anatomia Magica Mundi"), Logo und Favicon im Renaissance-Stil implementiert.
+- **GitHub Deployment**: Wiki live unter `Siebenwind.github.io`. Repository-Transfer an Organisation `Siebenwind`.
+- **Documentation Overhaul**: Erstellung von `architecture.md`, `setup_rag.md` und Community-Standards.
+- **System-Härtung**: Art Director Skill installiert; CLI zum `7w_wiki.py` Standard vereinheitlicht.
 </details>
-
-<details>
-<summary><b>Phase 14b: Recherche & Analyse (Feb 2026)</b></summary>
-
-- **Marnie Ruatha**: Forschungsbericht erstellt. Klärung der Rolle als Hafenvogtin und des Kirchenasyls.
-- **Gap-Analyse**: Identifikation fehlender Akte `Tjure_Odal` und Prüfbedarf bei `Arn_Toron`.
-</details>
-
-<details>
-<summary><b>Phase 14b: Spielergeschichten Processing (Feb 2026)</b></summary>
-
-- **Batch 20-22**: Integration von 18 Spielergeschichten (Dark Lore, Social, Narrative Arcs).
-- **Lore-Härtung**: Definition von "Horwah", Nekromantie-Ritualen und Dämonenseuchen.
-- **Register-Sync**: ~20 neue Profile erstellt und verknüpft.
-</details>
-
-<details>
-<summary><b>Phase 14c: Astrael Integration & System Health (Feb 2026)</b></summary>
-
-- **Batch 23**: Integration von 8 religiösen Texten der Bibliothek Astrael.
-- **System-Repair**: Bereinigung von 13 Inkonsistenzen (Gorem-Duplikate, fehlende Profile).
-- **Register-Sync**: Konsolidierung von Aspin/Athos und Erstellung von 8 neuen Profilen.
-
-### Infrastruktur & Tools (Jan/Feb 2026)
-- **Das Orakel**: Einführung der semantischen Suche (RAG) auf Basis von Jina v3.
-- **Automatisierung**: Scripts für Statistiken, Link-Weben, Silicon Inquisition (`7w inquisition`) und Hardware-Tuning.
 
 ---
-*Zuletzt aktualisiert: 14.02.2026 durch Antigravity (Handover Phase 19)*
-</details>
+*Zuletzt aktualisiert: 2026-02-16 | Block 2: Struktur-Sortierung*

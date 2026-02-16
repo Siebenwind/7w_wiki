@@ -1,10 +1,11 @@
 ---
 layout: wiki_page
 title: Chronik
+category: Index
 ---
 
-# [[Siebenwind]] Wiki - Chronik
-Das [[index]] der Chronik.
+# Chronik
+Das Register der Chronik.
 
 ## Inhalte
 
@@ -14,7 +15,7 @@ Das [[index]] der Chronik.
 ### Artikel
 *   [[Die_Chronik|Die Chronik]]
 *   [[Historie_&_Ären|Historie & Ären]]
-*   [[OOC_TIMELINE|OOC Timeline (Shard-Historie)]]
+*   [[OOC_TIMELINE|Shard-Timeline]]
 *   [[Siebenwind_Bote_120|[[Siebenwind]] Bote 120]]
 *   [[Siebenwind_Bote_121|[[Siebenwind]] Bote 121]]
 *   [[Siebenwind_Bote_122|[[Siebenwind]] Bote 122]]
@@ -72,7 +73,7 @@ Das [[index]] der Chronik.
 *   [[Siebenwind_Bote_174|[[Siebenwind]] Bote 174]]
 *   [[Siebenwind_Bote_175|[[Siebenwind]] Bote 175]]
 *   [[Siebenwind_Bote_176|[[Siebenwind]] Bote 176]]
-*   [[Siebenwind_Bote_177|[[Siebenwind]] Bote 176]]
+*   [[Siebenwind_Bote_177|[[Siebenwind]] Bote 177]]
 *   [[Siebenwind_Bote_178|[[Siebenwind]] Bote 178]]
 *   [[Siebenwind_Bote_179|[[Siebenwind]] Bote 179]]
 *   [[Siebenwind_Bote_180|[[Siebenwind]] Bote 180]]
@@ -92,4 +93,4 @@ Das [[index]] der Chronik.
 *   [[Siebenwind_Bote_194|[[Siebenwind]] Bote 194]]
 *   [[Siebenwind_Bote_Index|[[Siebenwind]] Bote Index]]
 *   [[Zeitleiste_(15-30_n.H.)|Zeitleiste (15-30 n.H.)]]
-*   [[Zeitleiste_15_30_nH|Zeitleiste (15-30 n.H.)]]
+*   [[Zeitleiste_15_30_nH|Zeitleiste (15-30 n.H., Alias)]]

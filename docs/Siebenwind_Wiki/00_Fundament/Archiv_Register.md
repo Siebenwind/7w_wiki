@@ -19,7 +19,7 @@ Dieses Register bewahrt die offiziellen Dokumente, Gesetze und Verkündungen der
 | [[Provinzstatuten_Erlass|Rechtsgültigkeit der Provinz-Statuten]] | [[Beladriel_Blaettertanz]] | 19 n.H. | Erlass |
 
 ## Archivierungsgrundsätze
-Alle offiziellen Erlasse werden auf [[Burg_Finianswacht]] hinterlegt und im [[[Siebenwind]] Bote](Siebenwind_Bote_Index.md) öffentlich kundgetan.
+Alle offiziellen Erlasse werden auf [[Burg_Finianswacht]] hinterlegt und im [[Siebenwind_Bote_Index|Siebenwind Bote Index]] oeffentlich kundgetan.
 
 ---
 **Siehe auch:** [[Recht_Siebenwinds]], [[Organisationsregister]]

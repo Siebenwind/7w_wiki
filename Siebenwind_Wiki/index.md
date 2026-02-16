@@ -1,16 +1,18 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Wiki
+title: Siebenwind Wiki
 category: Index
 ---
 
-![[[Siebenwind]] Lore Engine Banner](../assets/banner.png){ .wiki-banner }
+# Siebenwind Wiki
+
+![Siebenwind Lore Engine Banner](../assets/banner.png){ .wiki-banner }
 
 <p align="center">
-  <a href="https://github.com/[[Siebenwind]]/7w_wiki" target="_blank">
+  <a href="https://github.com/Siebenwind/7w_wiki" target="_blank">
     <img src="https://img.shields.io/badge/Status-Aktiv-vibrantgreen?style=for-the-badge&logo=github" alt="Project Status">
   </a>
-  <a href="https://[[Siebenwind]].github.io/7w_wiki/">
+  <a href="https://siebenwind.github.io/7w_wiki/">
     <img src="https://img.shields.io/badge/Live-Wiki_Docs-blue?style=for-the-badge&logo=materialformkdocs" alt="Live Wiki">
   </a>
   <a href="../CHANGELOG.md">
@@ -22,7 +24,7 @@ category: Index
 
 ## Projekt-Hintergrund
 
-Die [[Siebenwind]] Lore-Engine ist ein technisches [[index]] zur Bewahrung und Erschließung von Rollenspiel-Dokumentationen. Der Fokus liegt auf der quellengetreuen Rekonstruktion historischer Datenbestände.
+Die [[Siebenwind]] Lore-Engine ist ein technisches Archiv zur Bewahrung und Erschliessung von Rollenspiel-Dokumentationen. Der Fokus liegt auf der quellengetreuen Rekonstruktion historischer Datenbestaende.
 
 ---
 
@@ -34,7 +36,7 @@ Das Projekt basiert auf einem kybernetischen Kreislauf der Wissensgenerierung:
 graph TD
     A["🗂️ Rohdaten (Archive/Bote)"] -->|Ingestion| B("🤖 Lore Extraktion")
     B -->|Validation| C{"⚖️ Konsistenz-Audit"}
-    C -->|Kanon| D["📚 Wiki-[[index]]"]
+    C -->|Kanon| D["📚 Wiki-Archiv"]
     C -->|Widerspruch| E["🏮 Synapse Board"]
     E -->|Entscheidung| D
     D -->|Semantic Search| F["👁️ Das Orakel"]
@@ -59,8 +61,8 @@ graph TD
 Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
 
 ```bash
-# Das [[index]] des Orakels abfragen
-./7w_wiki.py search "Wer war [[Benedict_Rabenfels]]?"
+# Das Orakel abfragen
+./7w_wiki.py search "Wer war Benedict Rabenfels?" --source all
 
 # Den Konsistenz-Status prüfen
 ./7w_wiki.py audit
@@ -72,8 +74,8 @@ Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
 ---
 
 ## Projekt-Metadaten
-- **Entwicklung:** LeCorbeau & [[Siebenwind]] Gemeinschaft
-- **Inhalte:** Autoren & Projekt [[Siebenwind]]
+- **Entwicklung:** LeCorbeau & Siebenwind Gemeinschaft
+- **Inhalte:** Autoren & Projekt Siebenwind
 - **Lizenzen:** Code (MIT), Inhalte (CC BY-NC-SA 4.0)
 
-*Stand: 2026 | LeCorbeau & [[Siebenwind]]*
+*Stand: 2026 | LeCorbeau & Siebenwind*

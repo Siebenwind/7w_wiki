@@ -1,6 +1,24 @@
 # Changelog
 
 <details open>
+<summary><b>[2026-02-16.33] - Block 2: Master/Changelog Ordnung & Index-Hygiene</b></summary>
+
+### Geändert
+- **Master Task List**: Historienbereich strukturell neu geordnet (neu -> alt), doppelte Phase- und Bullet-Eintraege bereinigt.
+- **Statuspflege**: Projektstatus auf `Phase 1.16 complete` synchronisiert.
+- **Changelog-Format**: Defekte Details-Struktur repariert und fehlplatzierte Prioritaets-/Backlog-Sektionen aus dem Changelog entfernt.
+
+### Behoben
+- **Index-Hygiene (Wiki)**: Korrekturen an `Siebenwind_Wiki/index.md`, `00_Fundament/Archiv_Register.md` und `04_Chronik/index.md` (Titel/H1-Konsistenz, fehlerhafte Linksyntax, Bote-177-Label).
+- **Pages-Sync (docs)**: Entsprechende Index-Korrekturen in `docs/Siebenwind_Wiki/...` nachgezogen fuer konsistente GitHub-Pages-Ausgabe.
+
+### Validiert
+- `./7w_wiki.py audit` mit 0 Problemen.
+- `./7w_wiki.py check` erfolgreich fuer alle bearbeiteten Index-Dateien (`Siebenwind_Wiki/...` und `docs/Siebenwind_Wiki/...`).
+
+</details>
+
+<details open>
 <summary><b>[2026-02-16.32] - Phase 1.16: Interop Upgrade & Jules Readiness</b></summary>
 ### Hinzugefügt
 - **Entry Points**: `AGENTS.md` (Canonical Instruction) und `GEMINI.md` (CLI Shim) erstellt.
@@ -24,18 +42,17 @@
 - **Korrektur**: Armgard Torenson zu [[Armgard_Torbenson]] korrigiert.
 
 </details>
-<summary><b>[2026-02-16.13] - Phase 1.13: Workflow Consolidation & CLI Expansion</b></summary>
+<details>
+<summary><b>[2026-02-16.30] - Phase 1.14: Silicon Inquisition Batches 2 & 3</b></summary>
 
 ### Hinzugefügt
-- **CLI Erweiterung**: Kommandos `sanitize`, `score`, `check`, `translate`, `watch` in `7w_wiki.py` integriert.
-- **Archive Sync**: Verknüpfung von `LORE_RESEARCH_BOARD.md` und Ingestion Reports in `docs/Archiv`.
+- **Batch 2 & 3**: 20 weitere Quellen vollständig re-ingestiert und auf v2.7 Standard gehoben.
+- **Ingestion Reports**: 20 neue Reports mit detaillierter Lore-Extraktion und LQS-Bewertung.
+- **Lore-Zentralisierung**: Integration der Linari-Theorien und astraelischer Primärquellen.
 
 ### Geändert
-- **Workflow-Architektur**: Konsolidierung von 30 Workflows. Entfernung von Redundanzen (Zwei-Pass-Verfahren, Epistemik) durch zentrale Referenzierung.
-- **Handover-Protokoll**: `/handover` und `/takeover` auf den neuen Standard (v2.1) aktualisiert.
-
-### Entfernt
-- **Redundante Skripte**: `find_orphans.py` gelöscht (ersetzt durch `audit`).
+- **Metadata v2.7**: Standardisierung auf ISO-8601 (mit Uhrzeit), UUIDs und system-konforme `report_id`.
+- **System-Audit**: Fehlerbehebung bei Umlaut-Diskordanzen in Dateinamen zur Sicherstellung von 100% Audit-Compliance.
 
 </details>
 
@@ -49,42 +66,19 @@
 
 </details>
 
-
 <details>
-<summary><b>[Phase 1.6] - 2026-02-15</b></summary>
+<summary><b>[2026-02-16.13] - Phase 1.13: Workflow Consolidation & CLI Expansion</b></summary>
 
 ### Hinzugefügt
-- Forschungsbericht RESEARCH-2026-008 (Die Dur-Identität) erstellt.
-- Forschungsbericht RESEARCH-2026-009 (Gilden-Struktur & Handwerk) erstellt.
-- Hauptartikel [[Gilden_und_Handwerk]] zum Wiki hinzugefügt.
+- **CLI Erweiterung**: Kommandos `sanitize`, `score`, `check`, `translate`, `watch` in `7w_wiki.py` integriert.
+- **Archive Sync**: Verknüpfung von `LORE_RESEARCH_BOARD.md` und Ingestion Reports in `docs/Archiv`.
 
 ### Geändert
-- [[Toran_Dur]] mit Informationen aus Bote 162 und dem redundanten Dur-Profil konsolidiert.
-- [[Organisationsregister]] und [[Personenregister]] aktualisiert.
-- MASTER_TASK_LIST.md und Research Board synchronisiert.
+- **Workflow-Architektur**: Konsolidierung von 30 Workflows. Entfernung von Redundanzen (Zwei-Pass-Verfahren, Epistemik) durch zentrale Referenzierung.
+- **Handover-Protokoll**: `/handover` und `/takeover` auf den neuen Standard (v2.1) aktualisiert.
 
 ### Entfernt
-- Redundantes Profil `07_Persoenlichkeiten/Dur.md` gelöscht.
-
-### Changed
-- WikiLink Engine: Migrated from `ezlinks` to `roamlinks` (Case-Sensitivity Fix).
-- Build Workflow: Replaced problematic symlinks in `docs/` with physical sync logic in `deploy.yml`.
-- Standardized file naming for "Das Ende der Zeit der Könige" (Removed pipes).
-- Registry Polish: Consolidated `Organisationsregister` and `Personenregister` into clean, continuous table formats.
-- Research Board: Standardized current task visualization in `MASTER_TASK_LIST.md`.
-</details>
-
-<details open>
-<summary><b>[2026-02-16.30] - Phase 1.14: Silicon Inquisition Batches 2 & 3</b></summary>
-
-### Hinzugefügt
-- **Batch 2 & 3**: 20 weitere Quellen vollständig re-ingestiert und auf v2.7 Standard gehoben.
-- **Ingestion Reports**: 20 neue Reports mit detaillierter Lore-Extraktion und LQS-Bewertung.
-- **Lore-Zentralisierung**: Integration der Linari-Theorien und astraelischer Primärquellen.
-
-### Geändert
-- **Metadata v2.7**: Standardisierung auf ISO-8601 (mit Uhrzeit), UUIDs und system-konforme `report_id`.
-- **System-Audit**: Fehlerbehebung bei Umlaut-Diskordanzen in Dateinamen zur Sicherstellung von 100% Audit-Compliance.
+- **Redundante Skripte**: `find_orphans.py` gelöscht (ersetzt durch `audit`).
 
 </details>
 
@@ -824,40 +818,3 @@
 - **Wartung:** Konsolidierung von Dubletten und Update des Personenregisters.
 - Klare Trennung zwischen aktiven (Königliche Akademie) und historischen (Tiefenbach, Schwarze Künste) Magieschulen hergestellt.
 </details>
-
-<details>
-<summary><b>🔴 Priorität 3: Qualität & Politur</b></summary>
-
-- [x] **Orphan-Resolution:** 25 verwaiste Profile bearbeitet (Duplikate gelöscht, Register ergänzt)
-- [x] Review wichtiger Stubs auf "Roman-Qualität" (Ionas, Maichellis Wanderstern)
-- [ ] Überprüfung der bi-direktionalen Verlinkung (Backlinks unter `## Überlieferungen`)
-- [x] **Epistemik-System:** Formale Trust-Hierarchy und Eskalationsmatrix implementiert.
-- [x] Bereinigung des [[Konsistenzbericht_2026.md]] (Status `⚠️ Offen` in Audit-Prozess überführt)
-</details>
-
-<details>
-<summary><b>🧠 Priorität 3b: Intelligente Wissensvernetzung (Phase 3)</b></summary>
-
-- [/] **Das Orakel** – RAG-System (Semantische Vektorsuche)
-  - [x] Architektur & Modellauswahl (jina-embeddings-v3 + bge-reranker-v2-m3)
-  - [x] Setup, Indexierung & Verifikation (Auto-Config via `benchmark_hardware.py`)
-  - [x] Historiker-Workflow (Deep Lore Review: Benedict Rabenfels abgeschlossen)
-- [x] Register-Audit & Cleanup (Manuelle Bereinigung und Duplikat-Entfernung Feb 2026)
-- [x] **Audit der Magieschulen** (Kanon-Bereinigung & Erstellung fehlender Institutionen)
-</details>
-
-<details>
-<summary><b>🔮 Future / Backlog (Ideenspeicher)</b></summary>
-
-- [ ] **Skill: „Der Kartograph“** – Geographische Datenverwaltung, Koordinaten-Sync, Reisezeiten-Berechnung.
-- [ ] **Skill: „Der Herold“** – Automatische Generierung von In-Game-Newslettern aus Wiki-Änderungen.
-- [ ] **Workflow: `/map_sync`** – Verknüpfung von Wiki-Orten mit der Weltkarte.
-- [ ] **Workflow: `/changelog_generate`** – Erstellung von "Was ist neu in der Welt"-Berichten.
-- [ ] **Workflow: `/cleanup`** – Automatisches Finden und Bereinigen von file-URLs in Wiki-Artikeln.
-
----
-*Zuletzt aktualisiert: 13.02.2026 durch Antigravity (Epistemics & Ingestion)*
-</details>
-
----
-*Archivar: Antigravity*
