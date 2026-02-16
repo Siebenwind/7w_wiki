@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-16T22:13:39Z",
+  "generated_at": "2026-02-16T22:17:25Z",
   "records": [
     {
       "content_hash": "04f3ca3651837e4b",
@@ -26658,18 +26658,46 @@
       "size_bytes": 3447
     },
     {
-      "content_hash": "5b1cac9aab784703",
+      "content_hash": "12334e6f43bb005e",
+      "content_uuid": "",
+      "corpus": "system",
+      "extension": ".json",
+      "filename": "ARCHIVREGISTER.json",
+      "has_content_uuid": false,
+      "indexable": false,
+      "modified_at": "2026-02-16T22:14:14Z",
+      "rag_source": "",
+      "record_uuid": "6c15edc2-e046-50fc-a98a-059d2b3709f3",
+      "relative_path": "System/Archivregister/ARCHIVREGISTER.json",
+      "size_bytes": 1880682
+    },
+    {
+      "content_hash": "17b3f3a6de4fa108",
+      "content_uuid": "e5a58257-4798-4d59-91f5-a14fb331ce32",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "ARCHIVREGISTER.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-16T22:14:14Z",
+      "rag_source": "",
+      "record_uuid": "5b36010b-8039-547b-a1d5-3dabf786d9a3",
+      "relative_path": "System/Archivregister/ARCHIVREGISTER.md",
+      "size_bytes": 2782
+    },
+    {
+      "content_hash": "eed32af3a02f99ff",
       "content_uuid": "",
       "corpus": "system",
       "extension": ".md",
       "filename": "COORDINATION_HUB.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-16T21:19:21Z",
+      "modified_at": "2026-02-16T22:16:24Z",
       "rag_source": "",
       "record_uuid": "c89cae3c-48f3-5504-b5e0-dbb53c4fe49d",
       "relative_path": "System/COORDINATION_HUB.md",
-      "size_bytes": 2955
+      "size_bytes": 3114
     },
     {
       "content_hash": "c6666c56c5b49545",
@@ -26966,18 +26994,18 @@
       "size_bytes": 998
     },
     {
-      "content_hash": "067834540e6bbd82",
+      "content_hash": "8bc88c6d569f3dd3",
       "content_uuid": "",
       "corpus": "system",
       "extension": ".md",
       "filename": "LORE_RESEARCH_BOARD.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-15T22:42:53Z",
+      "modified_at": "2026-02-16T22:17:14Z",
       "rag_source": "",
       "record_uuid": "5dd71b78-7bfd-5340-b43d-798ea917d7a3",
       "relative_path": "System/Synapse_Board/LORE_RESEARCH_BOARD.md",
-      "size_bytes": 1391
+      "size_bytes": 1680
     },
     {
       "content_hash": "bcfc14839afb49d5",
@@ -27428,18 +27456,18 @@
       "size_bytes": 2150
     },
     {
-      "content_hash": "067834540e6bbd82",
+      "content_hash": "8bc88c6d569f3dd3",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "Research_Board.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-15T22:42:53Z",
+      "modified_at": "2026-02-16T22:17:14Z",
       "rag_source": "",
       "record_uuid": "6eef6855-bfb1-564e-80c4-f804b5142d77",
       "relative_path": "docs/Archiv/Research_Board.md",
-      "size_bytes": 1391
+      "size_bytes": 1680
     },
     {
       "content_hash": "b7c182c95497a44e",
@@ -54364,7 +54392,7 @@
       "size_bytes": 2721
     }
   ],
-  "register_uuid": "aebab2d1-7fce-46e0-83a9-ad52d41dd4f6",
+  "register_uuid": "134225f9-9322-4a80-8b1f-dc21917a0ea8",
   "repo_root": "/Users/alexandrerabe/siebenwind/7w_wiki",
   "stats": {
     "board_metrics": {
@@ -54422,7 +54450,7 @@
     "by_corpus": {
       "docs": 1933,
       "quellen": 795,
-      "system": 47,
+      "system": 49,
       "wiki": 1108
     },
     "indexable_total": {
@@ -54460,8 +54488,8 @@
         "stale_index_entries": 0
       }
     },
-    "total_records": 3883,
-    "uuid_coverage_pct": 11.28,
-    "with_content_uuid": 438
+    "total_records": 3885,
+    "uuid_coverage_pct": 11.3,
+    "with_content_uuid": 439
   }
 }

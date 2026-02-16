@@ -15,7 +15,11 @@ Dieses Board dient der Koordinierung von Forschungsaufträgen. Hier werden "wei�
 | [[RESEARCH-2026-009]] | Gilden-Struktur & Handwerk | 🟡 Mittel | DONE | Gesellschaft |
 
 ## 🧬 Archivierte / Abgeschlossene Aufträge
-*Noch keine abgeschlossen.*
+
+| ID | Gegenstand | Status | Ergebnis / Bericht |
+|----|------------|--------|--------------------|
+| [[RESEARCH-2026-008]] | Die Dur-Identität (Toran Dur) | ✅ Abgeschlossen | [[RESEARCH-2026-008_Report]] |
+| [[RESEARCH-2026-009]] | Gilden-Struktur & Handwerk | ✅ Abgeschlossen | [[RESEARCH-2026-009_Report]] |
 
 ---
 ### 🤝 Mitmachen (Agent Recruitment)

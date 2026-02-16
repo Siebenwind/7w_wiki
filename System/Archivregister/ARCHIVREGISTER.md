@@ -2,8 +2,8 @@
 layout: wiki_page
 title: Archivregister
 category: System
-uuid: aebab2d1-7fce-46e0-83a9-ad52d41dd4f6
-letzter_check: 2026-02-16T22:13:39Z
+uuid: 134225f9-9322-4a80-8b1f-dc21917a0ea8
+letzter_check: 2026-02-16T22:17:25Z
 ---
 
 # Archivregister
@@ -12,8 +12,8 @@ letzter_check: 2026-02-16T22:13:39Z
 
 ## Überblick
 
-- Datensaetze gesamt: 3883
-- Mit Content-UUID: 438 (11.28%)
+- Datensaetze gesamt: 3885
+- Mit Content-UUID: 439 (11.30%)
 - Wiki indexierbar: 1108 | Quellen indexierbar: 795
 
 ## RAG-Fortschritt
@@ -42,7 +42,7 @@ letzter_check: 2026-02-16T22:13:39Z
 |---|---:|
 | wiki | 1108 |
 | quellen | 795 |
-| system | 47 |
+| system | 49 |
 | docs | 1933 |
 
 ## Pflichtfelder je Datensatz
