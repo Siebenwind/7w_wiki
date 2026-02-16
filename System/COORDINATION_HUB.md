@@ -40,6 +40,9 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [INQ-2026-001_Historian_Report.md](Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Historian_Report.md)
 - [x] [PRODUCTION_PROTOCOL.md](PRODUCTION_PROTOCOL.md)
 - [x] [PRODUCTION_NOTE_TEMPLATE.md](Templates/PRODUCTION_NOTE_TEMPLATE.md)
+- [x] [.agent/workflows/rvw_loop.md](../.agent/workflows/rvw_loop.md) (Technischer Standard)
+- [x] [.agent/workflows/wiki_style_guide.md](../.agent/workflows/wiki_style_guide.md) (Zentrales Regelwerk)
+- [x] [LORE_RESEARCH_BOARD.md](../LORE_RESEARCH_BOARD.md)
 
 ---
 *Zuletzt aktualisiert: 2026-02-14T23:05:00Z | Ref: #standards_formalized*

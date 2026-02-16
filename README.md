@@ -59,14 +59,23 @@ graph TD
 Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
 
 ```bash
-# Das Wissen des Orakels abfragen
+# Suchen & Forschen
 ./7w_wiki.py search "Wer war Benedict Rabenfels?"
+./7w_wiki.py historian "Benedict Rabenfels"
 
-# Den Konsistenz-Status prüfen
-./7w_wiki.py audit
+# Ingestion (Silicon Inquisition)
+./7w_wiki.py inquisition --batch 10
 
-# Den Status des Archivars abrufen
-./7w_wiki.py advisor
+# Qualität & Wartung
+./7w_wiki.py audit        # Konsistenz-Check (Duplikate, Orphans)
+./7w_wiki.py check        # Stil- & Grammatik-Prüfung (Lektor)
+./7w_wiki.py sanitize     # Struktur-Korrektur (YAML/H1 Sync)
+./7w_wiki.py score [file] # Lore Quality Score berechnen
+
+# System & Archiv
+./7w_wiki.py advisor      # Status & Empfehlungen
+./7w_wiki.py archive sync # Archiv-Symlinks aktualisieren
+./7w_wiki.py stats        # Statistiken generieren
 ```
 
 ---

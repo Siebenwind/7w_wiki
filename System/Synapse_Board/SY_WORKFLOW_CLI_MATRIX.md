@@ -10,7 +10,7 @@ epistemic: "#meta"
 Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich ausfuehrbaren CLI-Kommandos.
 
 ## Runtime Commands
-- `advisor`, `audit`, `historian`, `index`, `index-pages`, `mail`, `repair`, `search`, `start`, `stats`
+- `advisor`, `archive`, `audit`, `check`, `historian`, `index`, `index-pages`, `inquisition`, `mail`, `repair`, `sanitize`, `score`, `search`, `start`, `stats`, `translate`, `watch`
 
 ## Adaptermatrix
 
@@ -22,25 +22,25 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 | `/historian` | executable | `7w_wiki.py historian [query]` | Lore-Analyse |
 | `/stats` | executable | `7w_wiki.py stats` | Projektmetriken |
 | `/ask` | method_only | `7w_wiki.py search <query> --source all` | Auskunftsmodus ueber Suche |
-| `/batch` | method_only | `7w_wiki.py advisor` + manuelle Abarbeitung `INVENTUR_QUELLEN` | Batch-Prozess, kein eigener Parser |
-| `/check_master` | method_only | `7w_wiki.py audit` -> `7w_wiki.py repair` | Department-Prozess |
+| `/batch` | method_only | `7w_wiki.py advisor` + manuelle Abarbeitung `INVENTUR_QUELLEN` | Batch-Prozess |
+| `/check_master` | executable | `7w_wiki.py check` | Stil- & QA-Pruefung |
 | `/contrib_audit` | method_only | `7w_wiki.py audit` + manuelle Review-Checks | kein eigener Parser |
-| `/decide` | method_only | `7w_wiki.py mail post --to ALL ...` | Entscheidungsanforderung via Dispatch |
-| `/docs` | method_only | `7w_wiki.py stats` + manuelle Doku-Syncs | kein eigener Parser |
+| `/decide` | method_only | `7w_wiki.py mail post --to ALL ...` | Entscheidungsanforderung |
+| `/docs` | method_only | `7w_wiki.py stats` + manuelle Doku-Syncs | `/docs` Workflow |
 | `/handover` | method_only | `7w_wiki.py mail post --to ALL --subject "Handover" ...` | Uebergabe via Dispatch |
 | `/herold` | method_only | `7w_wiki.py stats` + Changelog/README Pflege | kein eigener Parser |
 | `/ingest_master` | method_only | `7w_wiki.py advisor` + `7w_wiki.py search` | Prozessrahmen |
-| `/ingestion_protocol` | method_only | `System/Templates/INGESTION_REPORT_TEMPLATE.md` | Protokoll, kein Parser |
-| `/lore_master` | method_only | `7w_wiki.py historian <query>` + `7w_wiki.py search` | Department-Prozess |
-| `/meta_master` | method_only | `7w_wiki.py start` + `7w_wiki.py stats` | Department-Prozess |
+| `/ingestion_protocol` | executable | `7w_wiki.py sanitize` / `score` | Teilweise automatisiert |
+| `/lore_master` | executable | `7w_wiki.py historian <query>` | Department-Prozess |
+| `/meta_master` | executable | `7w_wiki.py archive sync` | Archiv-Management |
 | `/narrative_enrichment` | method_only | `7w_wiki.py historian <query>` | kein eigener Parser |
 | `/researcher` | method_only | `7w_wiki.py search <query> --source all` | Recherchemodus |
-| `/rvw_loop` | method_only | `7w_wiki.py search` + manuelle Write/Verify-Schritte | kein Parser |
-| `/scout` | method_only | `7w_wiki.py search` | Scouting ohne eigenen Parser |
+| `/rvw_loop` | method_only | `7w_wiki.py search` + manuelle Schritte | kein Parser |
+| `/scout` | method_only | `7w_wiki.py search` | Scouting |
 | `/takeover` | method_only | `7w_wiki.py start` + `SY_INTEROP` Check | kein eigener Parser |
-| `/translate` | method_only | Manuell/Skill-basiert | kein Parser |
-| `/update` | method_only | `7w_wiki.py index --status` / `--rebuild` | kein Parser |
-| `/watch` | method_only | `.agent/scripts/watcher.py` (direkt) | ausserhalb von `7w_wiki.py` |
+| `/translate` | executable | `7w_wiki.py translate` | Sprach-Parser |
+| `/update` | executable | `7w_wiki.py index --rebuild` | Index-Management |
+| `/watch` | executable | `7w_wiki.py watch` | Live-Watcher |
 | `/wiki_process` | method_only | `ingestion_protocol` + `rvw_loop` | methodischer Rahmen |
 
 ## Regel
