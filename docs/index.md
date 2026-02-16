@@ -1,29 +1,42 @@
-# Siebenwind Wiki Portal
+<div class="hero-wrapper">
+  <h1 class="hero-title">Siebenwind Wiki Portal</h1>
+  <p class="hero-subtitle">Das Archiv der Welt – Wissen, Legenden und Chroniken der Sieben Winde.</p>
+</div>
 
-Willkommen im oeffentlichen Siebenwind-Wiki auf GitHub Pages.
+![Siebenwind Lore Engine Banner](assets/banner.png)
 
-## Fuer Leser
+## Portal-Einstieg
 
-Hier geht es direkt zu den Inhalten:
+<div class="portal-grid">
+  <a href="Siebenwind_Wiki/index.md" class="portal-card">
+    <h3>🏰 Welten-Archiv</h3>
+    <p>Der zentrale Einstieg in die Lore, das Fundament und die tiefen Geheimnisse der Welt.</p>
+  </a>
+  <a href="Siebenwind_Wiki/04_Chronik/index.md" class="portal-card">
+    <h3>⏳ Chronik der Zeit</h3>
+    <p>Verfolge die Geschichte von Siebenwind von der Vergangenheit bis in die Gegenwart.</p>
+  </a>
+  <a href="Siebenwind_Wiki/07_Persoenlichkeiten/index.md" class="portal-card">
+    <h3>🎭 Persönlichkeiten</h3>
+    <p>Die Helden, Schurken und Legenden, die das Schicksal der Welt formen.</p>
+  </a>
+  <a href="Siebenwind_Wiki/01_Pantheon/index.md" class="portal-card">
+    <h3>🏛️ Götter & Glauben</h3>
+    <p>Erfahre mehr über das Pantheon, die Kulte und die spirituellen Mächte.</p>
+  </a>
+  <a href="Siebenwind_Wiki/02_Geografie/index.md" class="portal-card">
+    <h3>🧭 Geografie</h3>
+    <p>Karten, Orte und die vielfältigen Landschaften der bekannten Welt.</p>
+  </a>
+  <a href="Siebenwind_Wiki/08_Bestiarium/index.md" class="portal-card">
+    <h3>🐉 Bestiarium</h3>
+    <p>Die Kreaturen und Ungeheuer, die die Wildnis von Siebenwind durchstreifen.</p>
+  </a>
+</div>
 
-- [Wiki-Startpunkt](Siebenwind_Wiki/index.md)
-- [Chronik](Siebenwind_Wiki/04_Chronik/index.md)
-- [Persoenlichkeiten](Siebenwind_Wiki/07_Persoenlichkeiten/index.md)
-- [Pantheon](Siebenwind_Wiki/01_Pantheon/index.md)
-- [Geografie](Siebenwind_Wiki/02_Geografie/index.md)
-- [Bestiarium](Siebenwind_Wiki/08_Bestiarium/index.md)
-
-## Fuer Mitwirkende
+## Projekt & Redaktion
 
 - [Mitarbeit und Regeln](CONTRIBUTING.md)
 - [Master Task List](MASTER_TASK_LIST.md)
 - [Changelog](CHANGELOG.md)
-
-## Fuer Agenten und technische Redaktion
-
-Die technische Betriebsdoku ist bewusst getrennt vom Endnutzer-Wiki:
-
-- [Agenten-Hub (Pages)](Agenten/index.md)
-- [Agent Operations Handbook (Pages)](AGENT_OPERATIONS_HANDBOOK.md)
-
-Kanonische Quellen liegen weiterhin im Repository unter `System/` und `.agent/`.
+- [Agenten-Hub](Agenten/index.md)

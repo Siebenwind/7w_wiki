@@ -74,7 +74,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Dame_Rose]] | Leitung Obdachlosenheim | [Bote 131] | ~15 n.H. | #bote |
 | [[Der_Krämer]] | Bürger (Hause [[Gropp]]) | [Bote 136] | ~15 n.H. | #bote |
 | [[Divero]] | Schankknecht | [Bote 123] | ~15 n.H. | #bote |
-| [[Dur]] | Magier / Exzellenz | [[Siebenwind]] | 18 n.H. | #bote |
 | [[Ekart_Gradeg]] | Forscher / Dieb (†) | [Bote 186] | † 22 n.H. | #bote |
 | [[Eliam_Schlosser]] | Stadtwart ([[Falkensee]]) | [Bote 186] | 22 n.H. | #bote |
 | [[Eichstamm_B]] | Redakteur | [Bote 150] | 17 n.H. | #bote |

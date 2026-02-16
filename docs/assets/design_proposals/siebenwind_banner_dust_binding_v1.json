@@ -1,0 +1,15 @@
+{
+    "asset_name": "siebenwind_banner_dust_binding_v1",
+    "timestamp": "2026-02-17T00:29:00Z",
+    "style_preset": "Codex Atlanticus",
+    "prompt_used": "Leonardo da Vinci style red chalk and sepia study on textured paper. An anatomical and alchemical visualization of the 'Dust Binding' (Staubbindung) mechanic. A human-like figure with translucent layers showing the soul or spirit, with fine dust particles and magical threads (ley-lines) binding to it. Geometric diagrams, alchemical symbols, and scientific annotations in mirror writing. Detailed, atmospheric, 3:1 aspect ratio.",
+    "parameters": {
+        "aspect_ratio": "3:1",
+        "model": "gemini-3-pro-image"
+    },
+    "context": "Wiki Homepage Header Proposal 3",
+    "user_constraints": [
+        "Lore Relevant: Dust Binding",
+        "Alchemical/Anatomical"
+    ]
+}

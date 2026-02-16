@@ -24,3 +24,9 @@ Diese Datei wurde als Interop-Blocker-Fix angelegt. Neue Ingestion-Laeufe mit Da
 - **Note**: Forum export contained only metadata stubs. No deep content extraction possible.
 
 
+### 2026-02-17: Toran Dur Ingestion (Amanda Dunkelbaum)
+- **Magietheorie_Eigenschaften_der_Elemente.md**: Enriched with detailed elemental principles, runes, and experiments from primary source.
+- **Amanda_Dunkelbaum.md**: Updated works list.
+- **Ronwo.md**: Created stub profile for the novice mentioned in experiment.
+- **Register**: Updated `Personenregister.md`.
+- **Archive**: Synced via `./7w_wiki.py archive sync`.

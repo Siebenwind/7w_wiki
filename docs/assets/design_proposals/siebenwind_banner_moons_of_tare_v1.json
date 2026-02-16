@@ -1,0 +1,12 @@
+{
+  "asset_name": "siebenwind_banner_moons_of_tare_v1",
+  "timestamp": "2026-02-17T00:25:00Z",
+  "style_preset": "Codex Atlanticus",
+  "prompt_used": "Leonardo da Vinci style red chalk and sepia ink sketch on aged parchment. A scientific and mystical study of the 'Moons of Tare' in the night sky over Siebenwind. Multiple moons of varying sizes, some as crescent, some full, with complex orbital paths and geometric lines connecting them. Faint mirror writing in the margins, anatomical style details of the craters or magical aura. Masterpiece, detailed, 3:1 aspect ratio.",
+  "parameters": {
+    "aspect_ratio": "3:1",
+    "model": "gemini-3-pro-image"
+  },
+  "context": "Wiki Homepage Header Proposal 1",
+  "user_constraints": ["No Gears", "Magic Focus", "Lore Relevant: Moons of Tare"]
+}

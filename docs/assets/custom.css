@@ -94,14 +94,79 @@ h6 {
 }
 
 /* Banner handling */
-/* Banner handling */
 [data-md-component="content"] img[alt="Siebenwind Lore Engine Banner"] {
   width: 100%;
-  max-height: 250px;
-  object-fit: contain;
+  max-height: 400px;
+  object-fit: cover;
   object-position: center;
-  border: none;
-  margin: 1em 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  margin: 1em 0 2em 0;
+}
+
+/* Hero Section */
+.hero-wrapper {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, rgba(114, 47, 55, 0.05) 0%, rgba(245, 242, 233, 0) 100%);
+  border-radius: 12px;
+  margin-bottom: 3rem;
+}
+
+.hero-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem !important;
+  color: #4a1c1c !important;
+  margin-bottom: 0.5rem !important;
+  letter-spacing: -1px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #722f37;
+  font-style: italic;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+}
+
+/* Portal Cards */
+.portal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.portal-card {
+  padding: 1.5rem;
+  background: white;
+  border: 1px solid rgba(114, 47, 55, 0.1);
+  border-radius: 8px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.portal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(114, 47, 55, 0.1);
+  border-color: #722f37;
+  background-color: rgba(114, 47, 55, 0.02);
+}
+
+.portal-card h3 {
+  margin-top: 0 !important;
+  color: #722f37 !important;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.6rem !important;
+}
+
+.portal-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0.5rem 0 0 0;
+  line-height: 1.4;
 }
 
 /* Table readability */

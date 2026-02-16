@@ -1,0 +1,15 @@
+{
+    "asset_name": "siebenwind_banner_seven_winds_v1",
+    "timestamp": "2026-02-17T00:27:00Z",
+    "style_preset": "Codex Atlanticus",
+    "prompt_used": "Leonardo da Vinci style red chalk sketch on old vellum. A nautical and atmospheric study of the 'Seven Winds' (Siebenwind) converging over a stormy sea. A large, ornate compass rose in the center with ley-lines and mystical air currents swirling around it. Anatomical-style sketches of clouds and wave patterns. Faint mirror writing and scientific annotations. High contrast, professional, 3:1 aspect ratio.",
+    "parameters": {
+        "aspect_ratio": "3:1",
+        "model": "gemini-3-pro-image"
+    },
+    "context": "Wiki Homepage Header Proposal 2",
+    "user_constraints": [
+        "No Gears",
+        "Lore Relevant: Seven Winds"
+    ]
+}

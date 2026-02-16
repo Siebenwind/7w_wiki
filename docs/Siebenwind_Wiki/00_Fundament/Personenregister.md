@@ -18,6 +18,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Arenus_der_Weise]] | Erzmagus / Philosoph / Autor | [Dunvallo Linari - Philosophie] / [Philosophie] | Historisch (ca. 70 b.H.) | #überlieferung |
 | [[Aren_Remouldo]] | Adeptus Major | [Horlafstrom-Theorie] | Historisch | #überlieferung |
 | [[Amanda_Dunkelbaum]] | Elementaristin (Novizin) | [Der Elementare Pfad] / [Eigenschaften_der_Elemente] | Historisch | #überlieferung |
+| [[Ronwo]] | Novize (Magie) | [Eigenschaften_der_Elemente] | Historisch | #überlieferung |
 | [[Arknor]] | Adept zur Linken | [Sprache Yerredoni] | Historisch | #überlieferung |
 | [[Arlin_Sturmfels]] | Initiator der Zusammenkunft | [Linari - Artefakte] | Historisch | #überlieferung |
 | [[Anais]] | Ihre Gnaden / Inquisitorin | [Heilige Liturgien] | Historisch | #überlieferung |
