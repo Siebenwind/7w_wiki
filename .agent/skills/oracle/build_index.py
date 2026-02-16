@@ -17,8 +17,11 @@ import os
 import re
 import sys
 import time
+import json
 import hashlib
 import argparse
+import uuid
+from datetime import datetime, timezone
 from pathlib import Path
 
 # --- Dependency-Check ---
@@ -39,6 +42,10 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent.parent.parent  # .agent/skills/oracle -> repo root
 MODEL_CACHE = REPO_ROOT / ".agent" / "data" / "models"
 CHROMA_DIR = REPO_ROOT / ".agent" / "data" / "chroma_db"
+ARCHIVE_REGISTER_DIR = REPO_ROOT / "System" / "Archivregister"
+ARCHIVE_REGISTER_JSON = ARCHIVE_REGISTER_DIR / "ARCHIVREGISTER.json"
+ARCHIVE_REGISTER_MD = ARCHIVE_REGISTER_DIR / "ARCHIVREGISTER.md"
+ARCHIVE_REGISTER_NAMESPACE = uuid.UUID("6bc810f8-2e4f-4ad0-8b19-8f0b72566b70")
 
 os.environ["SENTENCE_TRANSFORMERS_HOME"] = str(MODEL_CACHE)
 os.environ["HF_HOME"] = str(MODEL_CACHE / "huggingface")
@@ -124,10 +131,391 @@ SOURCE_CONFIG = {
     }
 }
 
+REGISTER_CORPORA = [
+    ("wiki", REPO_ROOT / "Siebenwind_Wiki"),
+    ("quellen", REPO_ROOT / "Quellen"),
+    ("system", REPO_ROOT / "System"),
+    ("docs", REPO_ROOT / "docs"),
+]
+
+REGISTER_EXTENSIONS = {".md", ".txt", ".json"}
+
 
 # =============================================================================
 # Chunking Engine
 # =============================================================================
+
+def now_iso() -> str:
+    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def to_iso(ts: float) -> str:
+    return datetime.fromtimestamp(ts, tz=timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def extract_frontmatter_uuid(raw_text: str) -> str:
+    """Extrahiert uuid aus YAML-Frontmatter, falls vorhanden."""
+    if not raw_text.startswith("---"):
+        return ""
+    end = raw_text.find("\n---", 3)
+    if end == -1:
+        return ""
+    frontmatter = raw_text[:end]
+    match = re.search(r"^uuid:\s*([^\n]+)$", frontmatter, re.MULTILINE)
+    return match.group(1).strip() if match else ""
+
+
+def parse_inventur_progress() -> dict:
+    """Liest Inventur-Status aus Logs/INVENTUR_QUELLEN.md."""
+    inv_path = REPO_ROOT / "Logs" / "INVENTUR_QUELLEN.md"
+    if not inv_path.exists():
+        return {"total": 0, "pending": 0, "processed": 0}
+
+    total = 0
+    pending = 0
+    for line in inv_path.read_text(encoding="utf-8", errors="ignore").splitlines():
+        line = line.strip()
+        if not line.startswith("|") or line.startswith("|---"):
+            continue
+        cells = [c.strip() for c in line.split("|")[1:-1]]
+        if len(cells) < 4:
+            continue
+        status = cells[-1].lower()
+        total += 1
+        if status.startswith("pending"):
+            pending += 1
+
+    processed = max(0, total - pending)
+    return {"total": total, "pending": pending, "processed": processed}
+
+
+def parse_frontmatter_state(path: Path) -> dict:
+    """Liest id/uuid/status aus Frontmatter, sofern vorhanden."""
+    try:
+        raw = path.read_text(encoding="utf-8")
+    except Exception:
+        return {"id": "", "uuid": "", "status": ""}
+
+    if not raw.startswith("---"):
+        return {"id": "", "uuid": "", "status": ""}
+    end = raw.find("\n---", 3)
+    if end == -1:
+        return {"id": "", "uuid": "", "status": ""}
+    frontmatter = raw[:end]
+
+    id_match = re.search(r"^id:\s*([^\n]+)$", frontmatter, re.MULTILINE)
+    uuid_match = re.search(r"^uuid:\s*([^\n]+)$", frontmatter, re.MULTILINE)
+    status_match = re.search(r"^status:\s*([^\n#]+)$", frontmatter, re.MULTILINE)
+    return {
+        "id": id_match.group(1).strip() if id_match else "",
+        "uuid": uuid_match.group(1).strip() if uuid_match else "",
+        "status": status_match.group(1).strip() if status_match else "",
+    }
+
+
+def collect_board_metrics() -> dict:
+    """Sammelt operative Metriken für Dispatch, Research und Conflict-Boards."""
+    board_root = REPO_ROOT / "System" / "Synapse_Board"
+    dispatch_dir = board_root / "DISPATCH"
+    inq_dir = board_root / "SILICON_INQUISITION"
+
+    def scan(glob_pattern: str, allowed: set[str]) -> dict:
+        files = sorted(board_root.glob(glob_pattern))
+        status_counts = {k: 0 for k in sorted(allowed)}
+        invalid = []
+        missing_uuid = 0
+        for file in files:
+            fm = parse_frontmatter_state(file)
+            status = fm["status"].upper()
+            if not fm["uuid"]:
+                missing_uuid += 1
+            if status in allowed:
+                status_counts[status] = status_counts.get(status, 0) + 1
+            else:
+                invalid.append(str(file.relative_to(REPO_ROOT)))
+        return {
+            "total": len(files),
+            "status_counts": status_counts,
+            "invalid_status_files": invalid,
+            "missing_uuid": missing_uuid,
+        }
+
+    dispatch_files = sorted(dispatch_dir.glob("MSG-*.md")) if dispatch_dir.exists() else []
+    dispatch_status = {"OPEN": 0, "CLAIMED": 0, "DONE": 0}
+    dispatch_invalid = []
+    dispatch_missing_uuid = 0
+    for file in dispatch_files:
+        fm = parse_frontmatter_state(file)
+        status = fm["status"].upper()
+        if not fm["uuid"]:
+            dispatch_missing_uuid += 1
+        if status in dispatch_status:
+            dispatch_status[status] += 1
+        else:
+            dispatch_invalid.append(str(file.relative_to(REPO_ROOT)))
+
+    research = scan("RESEARCH-*.md", {"TENDERED", "CLAIMED", "IN_PROGRESS", "REVIEW", "DONE", "COMPLETED"})
+    conflicts = scan("Conflict_*.md", {"NEEDS_REVIEW", "RESEARCHING", "AWAITING_USER", "AUTO_RESOLVED", "HUMAN_RESOLVED", "RESOLVED"})
+
+    inq_files = sorted(inq_dir.glob("*.md")) if inq_dir.exists() else []
+    inq_status_counts = {}
+    inq_missing_uuid = 0
+    for file in inq_files:
+        fm = parse_frontmatter_state(file)
+        status = fm["status"].upper() if fm["status"] else "UNSPECIFIED"
+        inq_status_counts[status] = inq_status_counts.get(status, 0) + 1
+        if not fm["uuid"]:
+            inq_missing_uuid += 1
+
+    return {
+        "dispatch": {
+            "total": len(dispatch_files),
+            "status_counts": dispatch_status,
+            "invalid_status_files": dispatch_invalid,
+            "missing_uuid": dispatch_missing_uuid,
+        },
+        "research": research,
+        "conflicts": conflicts,
+        "inquisition": {
+            "total": len(inq_files),
+            "status_counts": inq_status_counts,
+            "missing_uuid": inq_missing_uuid,
+        },
+    }
+
+
+def _register_record_for_file(corpus: str, path: Path) -> dict | None:
+    if path.suffix.lower() not in REGISTER_EXTENSIONS or not path.is_file():
+        return None
+
+    rel = path.relative_to(REPO_ROOT)
+    stat = path.stat()
+    rel_str = str(rel)
+    record_uuid = str(uuid.uuid5(ARCHIVE_REGISTER_NAMESPACE, rel_str))
+
+    content_uuid = ""
+    content_hash = ""
+    try:
+        raw = path.read_text(encoding="utf-8")
+        content_uuid = extract_frontmatter_uuid(raw)
+        content_hash = hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
+    except Exception:
+        # Binäre/inkonsistente Dateien dürfen das Register nicht blockieren.
+        content_hash = ""
+
+    rag_source = corpus if corpus in ("wiki", "quellen") else ""
+    indexable = bool(rag_source and path.suffix.lower() in {".md", ".txt"})
+
+    return {
+        "record_uuid": record_uuid,
+        "filename": path.name,
+        "relative_path": rel_str,
+        "corpus": corpus,
+        "extension": path.suffix.lower(),
+        "size_bytes": stat.st_size,
+        "modified_at": to_iso(stat.st_mtime),
+        "content_uuid": content_uuid,
+        "has_content_uuid": bool(content_uuid),
+        "indexable": indexable,
+        "rag_source": rag_source,
+        "content_hash": content_hash,
+    }
+
+
+def build_archive_register(rag_progress: dict) -> tuple[dict, Path, Path]:
+    """Erstellt zentrales Archivregister (JSON + Markdown Summary)."""
+    records = []
+    corpus_counts = {name: 0 for name, _ in REGISTER_CORPORA}
+
+    for corpus, root in REGISTER_CORPORA:
+        if not root.exists():
+            continue
+        for path in sorted(root.rglob("*")):
+            rec = _register_record_for_file(corpus, path)
+            if rec is None:
+                continue
+            records.append(rec)
+            corpus_counts[corpus] += 1
+
+    total_records = len(records)
+    with_content_uuid = sum(1 for r in records if r["has_content_uuid"])
+    uuid_coverage = (with_content_uuid / total_records * 100.0) if total_records else 0.0
+
+    indexable_total = {
+        "wiki": sum(1 for r in records if r["indexable"] and r["rag_source"] == "wiki"),
+        "quellen": sum(1 for r in records if r["indexable"] and r["rag_source"] == "quellen"),
+    }
+
+    inventur = parse_inventur_progress()
+    board_metrics = collect_board_metrics()
+
+    payload = {
+        "register_uuid": str(uuid.uuid4()),
+        "generated_at": now_iso(),
+        "repo_root": str(REPO_ROOT),
+        "stats": {
+            "total_records": total_records,
+            "with_content_uuid": with_content_uuid,
+            "uuid_coverage_pct": round(uuid_coverage, 2),
+            "by_corpus": corpus_counts,
+            "indexable_total": indexable_total,
+            "rag_progress": rag_progress,
+            "inventur_progress": inventur,
+            "board_metrics": board_metrics,
+        },
+        "records": records,
+    }
+
+    ARCHIVE_REGISTER_DIR.mkdir(parents=True, exist_ok=True)
+    ARCHIVE_REGISTER_JSON.write_text(
+        json.dumps(payload, ensure_ascii=True, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+
+    lines = []
+    lines.append("---")
+    lines.append("layout: wiki_page")
+    lines.append("title: Archivregister")
+    lines.append("category: System")
+    lines.append(f"uuid: {payload['register_uuid']}")
+    lines.append(f"letzter_check: {payload['generated_at']}")
+    lines.append("---")
+    lines.append("")
+    lines.append("# Archivregister")
+    lines.append("")
+    lines.append("**Epistemischer Status:** #meta")
+    lines.append("")
+    lines.append("## Überblick")
+    lines.append("")
+    lines.append(f"- Datensaetze gesamt: {total_records}")
+    lines.append(f"- Mit Content-UUID: {with_content_uuid} ({uuid_coverage:.2f}%)")
+    lines.append(f"- Wiki indexierbar: {indexable_total['wiki']} | Quellen indexierbar: {indexable_total['quellen']}")
+    lines.append("")
+    lines.append("## RAG-Fortschritt")
+    lines.append("")
+    lines.append("| Corpus | Indexierte Dateien | Indexierbare Dateien | Coverage | Chunks | Stale Index-Eintraege |")
+    lines.append("|---|---:|---:|---:|---:|---:|")
+    for key in ("wiki", "quellen"):
+        p = rag_progress.get(key, {})
+        lines.append(
+            f"| {key} | {p.get('indexed_files', 0)} | {p.get('indexable_files', 0)} | {p.get('coverage_pct', 0.0):.2f}% | {p.get('chunks', 0)} | {p.get('stale_index_entries', 0)} |"
+        )
+    lines.append("")
+    lines.append("## Ingestion-Fortschritt (Inventur)")
+    lines.append("")
+    lines.append(
+        f"- INVENTUR_QUELLEN: {inventur.get('processed', 0)}/{inventur.get('total', 0)} verarbeitet; Pending: {inventur.get('pending', 0)}"
+    )
+    lines.append("")
+    lines.append("## Dispatch & Board Status")
+    lines.append("")
+    dispatch = board_metrics["dispatch"]
+    lines.append("| Domain | Total | Status Breakdown | Missing UUID | Invalid Status Files |")
+    lines.append("|---|---:|---|---:|---:|")
+
+    def _render_status_counts(status_counts: dict) -> str:
+        parts = [f"{k}={v}" for k, v in sorted(status_counts.items()) if v > 0]
+        return ", ".join(parts) if parts else "-"
+
+    lines.append(
+        f"| Dispatch | {dispatch['total']} | {_render_status_counts(dispatch['status_counts'])} | {dispatch['missing_uuid']} | {len(dispatch['invalid_status_files'])} |"
+    )
+
+    for name in ("research", "conflicts", "inquisition"):
+        section = board_metrics[name]
+        lines.append(
+            f"| {name} | {section['total']} | {_render_status_counts(section['status_counts'])} | {section.get('missing_uuid', 0)} | {len(section.get('invalid_status_files', []))} |"
+        )
+    lines.append("")
+
+    if dispatch["invalid_status_files"]:
+        lines.append("### Dispatch: Ungueltige Stati")
+        lines.append("")
+        for rel in dispatch["invalid_status_files"][:10]:
+            lines.append(f"- `{rel}`")
+        if len(dispatch["invalid_status_files"]) > 10:
+            lines.append(f"- ... (+{len(dispatch['invalid_status_files']) - 10} weitere)")
+        lines.append("")
+
+    lines.append("## Corpus-Verteilung")
+    lines.append("")
+    lines.append("| Corpus | Dateien |")
+    lines.append("|---|---:|")
+    for corpus in ("wiki", "quellen", "system", "docs"):
+        lines.append(f"| {corpus} | {corpus_counts.get(corpus, 0)} |")
+    lines.append("")
+    lines.append("## Pflichtfelder je Datensatz")
+    lines.append("")
+    lines.append("- `record_uuid` (deterministisch aus Pfad)")
+    lines.append("- `filename`")
+    lines.append("- `relative_path`")
+    lines.append("- `content_uuid` (falls Frontmatter vorhanden)")
+    lines.append("- `indexable`, `rag_source`, `modified_at`, `content_hash`")
+    lines.append("")
+    lines.append("## Vollregister")
+    lines.append("")
+    lines.append("- Siehe `System/Archivregister/ARCHIVREGISTER.json`")
+    lines.append("")
+
+    missing_uuid = [r["relative_path"] for r in records if not r["has_content_uuid"] and r["extension"] == ".md"]
+    if missing_uuid:
+        lines.append("## UUID-Lücken (Markdown, Top 25)")
+        lines.append("")
+        for rel in missing_uuid[:25]:
+            lines.append(f"- `{rel}`")
+        if len(missing_uuid) > 25:
+            lines.append(f"- ... (+{len(missing_uuid) - 25} weitere)")
+        lines.append("")
+
+    ARCHIVE_REGISTER_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return payload, ARCHIVE_REGISTER_MD, ARCHIVE_REGISTER_JSON
+
+
+def collect_rag_progress(client) -> dict:
+    """Berechnet Coverage-/Chunk-Status je RAG-Quelle."""
+    rag_progress: dict[str, dict] = {}
+    for source_key in ("quellen", "wiki"):
+        coll_name = SOURCE_CONFIG[source_key]["collection"]
+        current_files = collect_files(SOURCE_CONFIG[source_key]["paths"])
+        current_sources = {f["relative"] for f in current_files}
+        indexable_files = len(current_sources)
+
+        chunks = 0
+        indexed_files = 0
+        stale_index_entries = 0
+        stale_examples: list[str] = []
+        available = True
+        error = ""
+
+        try:
+            coll = client.get_collection(coll_name)
+            chunks = coll.count()
+            indexed = get_indexed_files(coll)
+            indexed_sources = set(indexed.keys())
+            indexed_files = len(indexed_sources.intersection(current_sources))
+            stale = sorted(indexed_sources - current_sources)
+            stale_index_entries = len(stale)
+            stale_examples = stale[:10]
+        except Exception as e:
+            available = False
+            error = str(e)
+            if "does not exist" not in error:
+                print(f"     {coll_name}: ❌ Fehler beim Lesen: {error}")
+
+        coverage = (indexed_files / indexable_files * 100.0) if indexable_files else 0.0
+        rag_progress[source_key] = {
+            "collection": coll_name,
+            "available": available,
+            "error": error,
+            "chunks": chunks,
+            "indexed_files": indexed_files,
+            "indexable_files": indexable_files,
+            "coverage_pct": round(coverage, 2),
+            "stale_index_entries": stale_index_entries,
+            "stale_examples": stale_examples,
+        }
+    return rag_progress
+
 
 def strip_yaml_frontmatter(text: str) -> str:
     """Entfernt YAML-Frontmatter (---...---) vom Anfang des Textes."""
@@ -654,18 +1042,38 @@ def main():
     # Status-Modus: Nur anzeigen, nichts ändern
     if args.status:
         print("\n  📊 Index-Status:")
-        for source_key in ["quellen", "wiki"]:
-            coll_name = SOURCE_CONFIG[source_key]["collection"]
-            try:
-                coll = client.get_collection(coll_name)
-                count = coll.count()
-                indexed = get_indexed_files(coll)
-                print(f"     {coll_name}: {count} Chunks aus {len(indexed)} Dateien")
-            except Exception as e:
-                if "does not exist" in str(e):
-                    print(f"     {coll_name}: ❌ Nicht vorhanden")
-                else:
-                    print(f"     {coll_name}: ❌ Fehler beim Lesen: {e}")
+        rag_progress = collect_rag_progress(client)
+        for source_key in ("quellen", "wiki"):
+            p = rag_progress[source_key]
+            coll_name = p["collection"]
+            if p["available"]:
+                print(
+                    f"     {coll_name}: {p['chunks']} Chunks | "
+                    f"{p['indexed_files']}/{p['indexable_files']} Dateien "
+                    f"({p['coverage_pct']:.2f}% Coverage)"
+                )
+                if p["stale_index_entries"] > 0:
+                    print(
+                        f"       ⚠️  Stale Index-Eintraege: {p['stale_index_entries']} "
+                        "(Dateien nicht mehr im Dateisystem)"
+                    )
+            elif "does not exist" in p["error"]:
+                print(f"     {coll_name}: ❌ Nicht vorhanden")
+            else:
+                print(f"     {coll_name}: ❌ Fehler beim Lesen: {p['error']}")
+
+        payload, md_path, json_path = build_archive_register(rag_progress)
+        dispatch = payload["stats"]["board_metrics"]["dispatch"]
+        print("\n  🧾 Archivregister erstellt:")
+        print(f"     Markdown: {md_path.relative_to(REPO_ROOT)}")
+        print(f"     JSON:     {json_path.relative_to(REPO_ROOT)}")
+        print(
+            "  📮 Dispatch: "
+            f"OPEN={dispatch['status_counts'].get('OPEN', 0)} | "
+            f"CLAIMED={dispatch['status_counts'].get('CLAIMED', 0)} | "
+            f"DONE={dispatch['status_counts'].get('DONE', 0)} | "
+            f"Missing UUID={dispatch['missing_uuid']}"
+        )
         sys.exit(0)
     
     # Modell laden

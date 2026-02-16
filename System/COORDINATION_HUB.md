@@ -46,6 +46,8 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [.agent/workflows/wiki_style_guide.md](../.agent/workflows/wiki_style_guide.md) (Zentrales Regelwerk)
 - [x] [LORE_RESEARCH_BOARD.md](../LORE_RESEARCH_BOARD.md)
 - [x] [AGENT_OPERATIONS_HANDBOOK.md](AGENT_OPERATIONS_HANDBOOK.md)
+- [x] [Archivregister/ARCHIVREGISTER.md](Archivregister/ARCHIVREGISTER.md)
+- [x] [Archivregister/ARCHIVREGISTER.json](Archivregister/ARCHIVREGISTER.json)
 
 ---
 *Zuletzt aktualisiert: 2026-02-16T21:18:56Z | Ref: #testing_protocol_rollout*

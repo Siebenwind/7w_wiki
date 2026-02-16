@@ -81,3 +81,31 @@ Ergebnisse:
 - Netzwerk-Fehlerklasse behoben (keine HF-Resolver-Retry-Schleife mehr).
 - Device-Fehlerklasse behoben (MPS -> CPU-Fallback wenn nicht verfügbar).
 - RAG-Status ist konsistent lesbar, Suche läuft wieder durch.
+
+## Benchmark-Run: `rag-relevance-smoke` (seriell, 3 Läufe)
+Messmethode:
+- `./7w_wiki.py test --suite rag-relevance-smoke`
+- Auswertung aus den generierten Reports (Case-Laufzeiten aus dem Runner).
+
+Reports:
+1. `Logs/Archive/TEST_rag-relevance-smoke_2026-02-16_230008.md`
+2. `Logs/Archive/TEST_rag-relevance-smoke_2026-02-16_230207.md`
+3. `Logs/Archive/TEST_rag-relevance-smoke_2026-02-16_230350.md`
+
+Status:
+- Alle drei Läufe: `PASS=1 | FAIL=3 | SKIP=0`
+- Relevanz-Checks schlagen stabil fehl (Dunvallo/Matrixtheorie/Reagenzien).
+
+Laufzeit-Statistik (3 Läufe):
+- Suite-Summe: `109.13s`, `101.73s`, `97.86s` -> Mittel `102.91s`
+- Suite-Mittel pro Case: `27.28s`, `25.43s`, `24.47s` -> Mittel `25.73s`
+
+Case-Mittelwerte:
+- `rag-status`: `10.82s`
+- `rag-q-dunvallo`: `32.58s`
+- `rag-q-matrix`: `29.52s`
+- `rag-q-reagenzien`: `29.98s`
+
+Interpretation:
+- Performance ist reproduzierbar (ca. 98-109s pro Lauf).
+- Relevanz ist aktuell nicht ausreichend stabil fuer die gesetzten Zieltreffer in `--source wiki`.

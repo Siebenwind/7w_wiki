@@ -74,6 +74,10 @@ Der Index wird **inkrementell** gebaut. Das System erkennt Änderungen (via Cont
 .../build_index.py --cpu
 ```
 
+`--status` schreibt zusätzlich ein Archivregister inkl. RAG-Coverage und Synapse-Board-Status:
+- `System/Archivregister/ARCHIVREGISTER.md`
+- `System/Archivregister/ARCHIVREGISTER.json`
+
 **Hardware-Optimierung:**
 ```bash
 # Misst Geschwindigkeit und ermittelt optimale Batch-Size

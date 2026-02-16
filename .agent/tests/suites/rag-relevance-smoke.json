@@ -4,10 +4,16 @@
   "cases": [
     {
       "id": "rag-status",
-      "name": "Index status is readable and non-empty",
+      "name": "Index status reports coverage and writes archive register",
       "cmd": ["./7w_wiki.py", "index", "--status"],
       "expect_exit": 0,
-      "expect_stdout": ["siebenwind_quellen:", "siebenwind_wiki:"],
+      "expect_stdout": [
+        "siebenwind_quellen:",
+        "siebenwind_wiki:",
+        "Archivregister erstellt:",
+        "System/Archivregister/ARCHIVREGISTER.md",
+        "Dispatch: OPEN="
+      ],
       "forbid_stderr": ["Traceback"],
       "max_duration_sec": 120
     },

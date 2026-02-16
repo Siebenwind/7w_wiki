@@ -34,6 +34,10 @@ Bevor du suchen kannst, muss das Wissen "gelernt" (indiziert) werden. Dieser Pro
 ./7w_wiki.py index --status
 ```
 
+Der Statuslauf erzeugt zugleich ein zentrales Archivregister mit Fortschritts- und Board-Metriken:
+- `System/Archivregister/ARCHIVREGISTER.md`
+- `System/Archivregister/ARCHIVREGISTER.json`
+
 ---
 
 ## 🔮 Nutzung (The Oracle)

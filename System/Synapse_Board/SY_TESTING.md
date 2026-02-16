@@ -36,6 +36,7 @@ Testberichte liegen in:
 
 RAG-Diagnose- und Benchmarkdoku:
 - `docs/Archiv/RAG_DIAGNOSE_2026-02-16.md`
+- `System/Archivregister/ARCHIVREGISTER.md` (wird durch `./7w_wiki.py index --status` aktualisiert)
 
 ## Agentenmentalitaet
 
