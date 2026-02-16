@@ -32,6 +32,22 @@ os.environ["HF_HUB_CACHE"] = str(MODEL_CACHE / "huggingface" / "hub")
 os.environ["XDG_CACHE_HOME"] = str(MODEL_CACHE / "xdg_cache")
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
+def is_offline_runtime() -> bool:
+    """Erkennt Sandboxes/Offline-Umgebungen robust."""
+    return any([
+        os.environ.get("ANTIGRAVITY_SANDBOX") == "true",
+        os.environ.get("ANTIGRAVITY_AGENT") == "1",
+        bool(os.environ.get("CODEX_SANDBOX")),
+        os.environ.get("CODEX_SANDBOX_NETWORK_DISABLED") == "1",
+        os.environ.get("HF_HUB_OFFLINE") == "1",
+        os.environ.get("TRANSFORMERS_OFFLINE") == "1",
+    ])
+
+# In Offline-/Sandbox-Laufzeiten harte Offline-Modi aktivieren.
+if is_offline_runtime():
+    os.environ["HF_HUB_OFFLINE"] = "1"
+    os.environ["TRANSFORMERS_OFFLINE"] = "1"
+
 # --- Tokenizer Fix (Monkey-Patch) ---
 # Behebt die Warnung "You're using a XLMRobertaTokenizerFast tokenizer..."
 # Indem wir das Logging für diesen spezifischen Fall während des Re-Rankings unterdrücken.
@@ -82,11 +98,24 @@ LEVEL_ICONS = {
 # Wie viele Ergebnisse pro Collection VOR dem Re-Ranking geholt werden
 PRE_RERANK_RESULTS = 20
 
+def resolve_device(device: str | None) -> str:
+    """Standard-Fallback: MPS nur nutzen, wenn zur Laufzeit verfügbar."""
+    if device is None:
+        device = "mps" if sys.platform == "darwin" else "cpu"
+    if device != "mps":
+        return device
+    try:
+        import torch
+        if torch.backends.mps.is_available():
+            return "mps"
+    except Exception:
+        pass
+    return "cpu"
+
 
 def load_embedding_model(device: str = None, local_files_only: bool = False):
     """Lädt das Embedding-Modell."""
-    if device is None:
-        device = "mps" if sys.platform == "darwin" else "cpu"
+    device = resolve_device(device)
     from sentence_transformers import SentenceTransformer
     model = SentenceTransformer(
         EMBEDDING_MODEL,
@@ -99,8 +128,7 @@ def load_embedding_model(device: str = None, local_files_only: bool = False):
 
 def load_reranker(device: str = None, local_files_only: bool = False):
     """Lädt den Cross-Encoder Re-Ranker."""
-    if device is None:
-        device = "mps" if sys.platform == "darwin" else "cpu"
+    device = resolve_device(device)
     from FlagEmbedding import FlagReranker
     reranker = FlagReranker(
         RERANKER_MODEL,
@@ -227,18 +255,13 @@ def format_result(hit: dict, index: int, raw: bool = False) -> str:
 
 def search(query: str, top_k: int = 5, source: str = "all", use_reranker: bool = True, device: str = None):
     """Führt die Suche aus."""
-    if device is None:
-        device = "mps" if sys.platform == "darwin" else "cpu"
+    device = resolve_device(device)
 
     client = chromadb.PersistentClient(path=str(CHROMA_DIR))
     
-    # Embedding generieren
-    # Im Sandbox-Modus (oder wenn offline) nutzen wir nur lokale Dateien
-    # Wir erkennen die Sandbox an verschiedenen Umgebungsvariablen
-    is_sandbox = (os.environ.get("ANTIGRAVITY_SANDBOX") == "true" or 
-                  os.environ.get("ANTIGRAVITY_AGENT") == "1")
-    
-    model = load_embedding_model(device, local_files_only=is_sandbox)
+    # Embedding generieren: In Sandbox/Offline nur lokale Modell-Dateien verwenden.
+    offline_mode = is_offline_runtime()
+    model = load_embedding_model(device, local_files_only=offline_mode)
     query_embedding = model.encode(
         [query],
         task="retrieval.query",
@@ -265,7 +288,7 @@ def search(query: str, top_k: int = 5, source: str = "all", use_reranker: bool =
     
     # Re-Ranking
     if use_reranker and len(all_hits) > 1:
-        reranker = load_reranker(device, local_files_only=is_sandbox)
+        reranker = load_reranker(device, local_files_only=offline_mode)
         all_hits = rerank_results(reranker, query, all_hits, top_k)
     else:
         # Nur nach Similarity sortieren und beschneiden

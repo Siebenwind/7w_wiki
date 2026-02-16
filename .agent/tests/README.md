@@ -36,7 +36,11 @@ Standardisierte Test-Suiten fuer den Runtime-Einstieg `./7w_wiki.py test`.
 - `expect_stderr`: Liste erwarteter Substrings in stderr
 - `forbid_stdout`: Liste verbotener Substrings in stdout
 - `forbid_stderr`: Liste verbotener Substrings in stderr
+- `min_duration_sec`: optionale Untergrenze fuer Laufzeit (Benchmark-Guard)
+- `max_duration_sec`: optionale Obergrenze fuer Laufzeit (Timeout-/Regressions-Guard)
 - `skip_if_context_missing`: Context-Keys, bei deren Fehlen der Case als `SKIP` markiert wird
+
+Der Runner schreibt pro Case die gemessene Laufzeit (`Laufzeit (s)`) in den Report.
 
 ## Kontext-Token
 
@@ -53,3 +57,11 @@ Empfohlen:
 ```
 
 Fixes erfolgen erst nach Dispatch- oder Task-Referenz.
+
+## RAG-Relevanz Smoke
+
+Fuer retrieval-orientierte Rauchtests steht die Suite `rag-relevance-smoke` bereit:
+
+```bash
+./7w_wiki.py test --suite rag-relevance-smoke
+```

@@ -36,7 +36,7 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
 
 ## Norm 3: Command Registry (Single Source)
 Die operative Kommandoliste lautet aktuell:
-- `advisor`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `mail`, `repair`, `sanitize`, `score`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
+- `advisor`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `mail`, `pages`, `repair`, `sanitize`, `score`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
 
 Bei CLI-Aenderungen muss diese Liste in derselben Session synchronisiert werden.
 
@@ -72,7 +72,7 @@ Bei jedem groesseren Update:
 1. Scan auf `file://` in `.agent/workflows`, `.agent/instructions`, `System/`.
 2. Abgleich Workflow-Kommandos gegen `7w_wiki.py`.
 3. Dispatch-Queue auf offene Direktiven pruefen.
-4. Interop-Testlauf ausfuehren (`./7w_wiki.py test --suite clean-client-state` und `./7w_wiki.py test --suite interop-doc-links`).
+4. Interop-Testlauf ausfuehren (`./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-doc-links`, `./7w_wiki.py test --suite rag-relevance-smoke`).
 5. Changelog-Eintrag mit Interop-Delta erstellen.
 
 ## Beschluss

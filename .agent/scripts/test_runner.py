@@ -12,6 +12,7 @@ import argparse
 import json
 import re
 import subprocess
+import time
 import uuid
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -34,6 +35,7 @@ class CaseResult:
     reason: str
     stdout: str
     stderr: str
+    duration_sec: float | None
 
 
 def now_iso() -> str:
@@ -135,7 +137,11 @@ def check_links_in_files(files: list[str]) -> tuple[bool, str]:
     return False, f"Broken links: {preview}{extra}"
 
 
-def check_case_expectations(case: dict, proc: subprocess.CompletedProcess[str]) -> tuple[bool, str]:
+def check_case_expectations(
+    case: dict,
+    proc: subprocess.CompletedProcess[str],
+    duration_sec: float,
+) -> tuple[bool, str]:
     expected_exit = int(case.get("expect_exit", 0))
     if proc.returncode != expected_exit:
         return False, f"Exitcode {proc.returncode} != erwartet {expected_exit}"
@@ -158,6 +164,14 @@ def check_case_expectations(case: dict, proc: subprocess.CompletedProcess[str]) 
     for needle in case.get("forbid_stderr", []):
         if needle in stderr:
             return False, f"stderr enthaelt verbotenes Muster: {needle!r}"
+
+    min_duration = case.get("min_duration_sec")
+    if min_duration is not None and duration_sec < float(min_duration):
+        return False, f"Laufzeit {duration_sec:.2f}s < min_duration_sec {float(min_duration):.2f}s"
+
+    max_duration = case.get("max_duration_sec")
+    if max_duration is not None and duration_sec > float(max_duration):
+        return False, f"Laufzeit {duration_sec:.2f}s > max_duration_sec {float(max_duration):.2f}s"
 
     return True, "ok"
 
@@ -183,13 +197,16 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     reason=f"Kontext fehlt: {', '.join([k for k in skip_keys if k not in context])}",
                     stdout="",
                     stderr="",
+                    duration_sec=None,
                 )
             )
             continue
 
         link_files = case.get("link_check_files", [])
         if link_files:
+            started = time.perf_counter()
             ok, reason = check_links_in_files(list(link_files))
+            duration_sec = time.perf_counter() - started
             results.append(
                 CaseResult(
                     case_id=case_id,
@@ -200,6 +217,7 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     reason=reason,
                     stdout="",
                     stderr="",
+                    duration_sec=duration_sec,
                 )
             )
             continue
@@ -216,6 +234,7 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     reason="Keine cmd definiert",
                     stdout="",
                     stderr="",
+                    duration_sec=None,
                 )
             )
             continue
@@ -232,13 +251,16 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     reason="Runtime-Verletzung: Testfall muss mit ./7w_wiki.py starten.",
                     stdout="",
                     stderr="",
+                    duration_sec=None,
                 )
             )
             continue
 
+        started = time.perf_counter()
         try:
             proc = run_cmd(command, timeout)
         except subprocess.TimeoutExpired:
+            duration_sec = time.perf_counter() - started
             results.append(
                 CaseResult(
                     case_id=case_id,
@@ -249,11 +271,13 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     reason=f"Timeout nach {timeout}s",
                     stdout="",
                     stderr="",
+                    duration_sec=duration_sec,
                 )
             )
             continue
+        duration_sec = time.perf_counter() - started
 
-        ok, reason = check_case_expectations(case, proc)
+        ok, reason = check_case_expectations(case, proc, duration_sec)
         status = "PASS" if ok else "FAIL"
         results.append(
             CaseResult(
@@ -265,6 +289,7 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                 reason=reason,
                 stdout=proc.stdout or "",
                 stderr=proc.stderr or "",
+                duration_sec=duration_sec,
             )
         )
 
@@ -295,12 +320,18 @@ def build_report(
     lines.append(f"- Suite-Datei: `{suite_path.relative_to(PROJECT_ROOT)}`")
     lines.append(f"- Ergebnis: **{overall}**")
     lines.append(f"- PASS: {pass_count} | FAIL: {fail_count} | SKIP: {skip_count}")
+    measured = [r.duration_sec for r in results if r.duration_sec is not None]
+    if measured:
+        total_runtime = sum(measured)
+        avg_runtime = total_runtime / len(measured)
+        lines.append(f"- Laufzeit (gemessen): Summe {total_runtime:.2f}s | Mittel {avg_runtime:.2f}s")
     lines.append("")
-    lines.append("| ID | Name | Status | Exit | Hinweis |")
-    lines.append("|---|---|---|---|---|")
+    lines.append("| ID | Name | Status | Exit | Laufzeit (s) | Hinweis |")
+    lines.append("|---|---|---|---|---|---|")
     for r in results:
         exit_txt = "-" if r.exit_code is None else str(r.exit_code)
-        lines.append(f"| `{r.case_id}` | {r.name} | {r.status} | {exit_txt} | {r.reason} |")
+        duration_txt = "-" if r.duration_sec is None else f"{r.duration_sec:.2f}"
+        lines.append(f"| `{r.case_id}` | {r.name} | {r.status} | {exit_txt} | {duration_txt} | {r.reason} |")
     lines.append("")
 
     for r in results:
@@ -309,6 +340,8 @@ def build_report(
         lines.append(f"## FAIL: {r.case_id} - {r.name}")
         lines.append("")
         lines.append(f"- Kommando: `{' '.join(r.command)}`")
+        if r.duration_sec is not None:
+            lines.append(f"- Laufzeit: {r.duration_sec:.2f}s")
         lines.append(f"- Grund: {r.reason}")
         lines.append("")
         if r.stdout.strip():

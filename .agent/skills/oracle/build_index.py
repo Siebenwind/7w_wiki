@@ -43,6 +43,35 @@ CHROMA_DIR = REPO_ROOT / ".agent" / "data" / "chroma_db"
 os.environ["SENTENCE_TRANSFORMERS_HOME"] = str(MODEL_CACHE)
 os.environ["HF_HOME"] = str(MODEL_CACHE / "huggingface")
 
+def is_offline_runtime() -> bool:
+    """Erkennt Sandboxes/Offline-Umgebungen robust."""
+    return any([
+        os.environ.get("ANTIGRAVITY_SANDBOX") == "true",
+        os.environ.get("ANTIGRAVITY_AGENT") == "1",
+        bool(os.environ.get("CODEX_SANDBOX")),
+        os.environ.get("CODEX_SANDBOX_NETWORK_DISABLED") == "1",
+        os.environ.get("HF_HUB_OFFLINE") == "1",
+        os.environ.get("TRANSFORMERS_OFFLINE") == "1",
+    ])
+
+if is_offline_runtime():
+    os.environ["HF_HUB_OFFLINE"] = "1"
+    os.environ["TRANSFORMERS_OFFLINE"] = "1"
+
+def resolve_device(device: str | None) -> str:
+    """Standard-Fallback: MPS nur nutzen, wenn zur Laufzeit verfügbar."""
+    if device is None:
+        device = "mps" if sys.platform == "darwin" else "cpu"
+    if device != "mps":
+        return device
+    try:
+        import torch
+        if torch.backends.mps.is_available():
+            return "mps"
+    except Exception:
+        pass
+    return "cpu"
+
 # --- Konfiguration ---
 EMBEDDING_MODEL = "jinaai/jina-embeddings-v3"
 
@@ -649,15 +678,15 @@ def main():
     else:
         device = default_device
         
-    is_sandbox = (os.environ.get("ANTIGRAVITY_SANDBOX") == "true" or 
-                  os.environ.get("ANTIGRAVITY_AGENT") == "1")
+    offline_mode = is_offline_runtime()
+    device = resolve_device(device)
     print(f"  🔌 Device: {device.upper()} (Batch-Size: {args.batch_size})")
 
     model = SentenceTransformer(
         EMBEDDING_MODEL,
         trust_remote_code=True,
         device=device,
-        local_files_only=is_sandbox,
+        local_files_only=offline_mode,
     )
     print(f"  ✅ Modell geladen")
     

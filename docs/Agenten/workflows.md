@@ -25,6 +25,14 @@ Dieser Bereich zeigt die Bruecke zwischen autoritativen Workflows in `.agent/` u
 - `/docs`
 - `/test_run`
 
+## Pages-Validierung (Runtime)
+
+```bash
+./7w_wiki.py pages status
+./7w_wiki.py pages validate
+./7w_wiki.py pages build --strict
+```
+
 ## Kanonische Quellen
 
 - `.agent/workflows/start.md`

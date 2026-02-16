@@ -46,6 +46,7 @@ Wichtige Kommandos:
 # Qualitaet / Interop
 ./7w_wiki.py test --suite clean-client-state
 ./7w_wiki.py test --suite interop-doc-links
+./7w_wiki.py pages validate
 ./7w_wiki.py audit
 ```
 

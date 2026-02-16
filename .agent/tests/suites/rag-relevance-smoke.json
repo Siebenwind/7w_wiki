@@ -1,0 +1,42 @@
+{
+  "suite": "rag-relevance-smoke",
+  "description": "RAG status + retrieval relevance smoke checks for core Linari knowledge paths.",
+  "cases": [
+    {
+      "id": "rag-status",
+      "name": "Index status is readable and non-empty",
+      "cmd": ["./7w_wiki.py", "index", "--status"],
+      "expect_exit": 0,
+      "expect_stdout": ["siebenwind_quellen:", "siebenwind_wiki:"],
+      "forbid_stderr": ["Traceback"],
+      "max_duration_sec": 120
+    },
+    {
+      "id": "rag-q-dunvallo",
+      "name": "Query Dunvallo Linari retrieves core person article",
+      "cmd": ["./7w_wiki.py", "search", "Dunvallo Linari", "--source", "wiki"],
+      "expect_exit": 0,
+      "expect_stdout": ["Siebenwind_Wiki/07_Persoenlichkeiten/Dunvallo_Linari.md"],
+      "forbid_stderr": ["Traceback"],
+      "max_duration_sec": 120
+    },
+    {
+      "id": "rag-q-matrix",
+      "name": "Query Matrixtheorie Linari retrieves matrix article",
+      "cmd": ["./7w_wiki.py", "search", "Matrixtheorie Linari", "--source", "wiki"],
+      "expect_exit": 0,
+      "expect_stdout": ["Siebenwind_Wiki/05_Magie/Matrixtheorie_Linari.md"],
+      "forbid_stderr": ["Traceback"],
+      "max_duration_sec": 120
+    },
+    {
+      "id": "rag-q-reagenzien",
+      "name": "Query Reagenzien Lehre Linari retrieves reagent article",
+      "cmd": ["./7w_wiki.py", "search", "Reagenzien Lehre Linari", "--source", "wiki"],
+      "expect_exit": 0,
+      "expect_stdout": ["Siebenwind_Wiki/05_Magie/Reagenzien_Lehre.md"],
+      "forbid_stderr": ["Traceback"],
+      "max_duration_sec": 120
+    }
+  ]
+}

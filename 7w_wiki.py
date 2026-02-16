@@ -101,6 +101,21 @@ def main():
     # Index Pages
     subparsers.add_parser("index-pages", help="Automatically generate index.md files for all wiki categories")
 
+    # Pages Build / Validation
+    pages_parser = subparsers.add_parser("pages", help="Build and validate GitHub Pages documentation")
+    pages_sub = pages_parser.add_subparsers(dest="pages_cmd")
+    pages_sub.add_parser("status", help="Show mkdocs availability and pages build prerequisites")
+    pages_build = pages_sub.add_parser("build", help="Run mkdocs build via project-local tooling")
+    pages_build.add_argument("--strict", action="store_true", help="Enable strict mode for mkdocs build")
+    pages_build.add_argument("--no-clean", action="store_true", help="Skip mkdocs --clean")
+    pages_build.add_argument("--config", default="mkdocs.yml", help="Path to mkdocs config (default: mkdocs.yml)")
+    pages_validate = pages_sub.add_parser("validate", help="Run docs link suite, audit, and pages build")
+    pages_validate.add_argument("--strict", action="store_true", help="Enable strict mode for mkdocs build")
+    pages_validate.add_argument("--no-clean", action="store_true", help="Skip mkdocs --clean")
+    pages_validate.add_argument("--skip-link-suite", action="store_true", help="Skip test --suite interop-doc-links")
+    pages_validate.add_argument("--skip-audit", action="store_true", help="Skip audit")
+    pages_validate.add_argument("--config", default="mkdocs.yml", help="Path to mkdocs config (default: mkdocs.yml)")
+
     # Advisor (Default)
     subparsers.add_parser("advisor", help="Show system status and recommendations (Default)")
 
@@ -209,6 +224,23 @@ def main():
     elif args.command == "index-pages":
         print(f"📂 {BOLD}Generiere Kategorie-Indizes...{RESET}")
         run_script(".agent/scripts/generate_wiki_indices.py")
+
+    elif args.command == "pages":
+        if not args.pages_cmd:
+            pages_parser.print_help()
+            sys.exit(1)
+        page_args = [args.pages_cmd]
+        if hasattr(args, "strict") and args.strict:
+            page_args.append("--strict")
+        if hasattr(args, "no_clean") and args.no_clean:
+            page_args.append("--no-clean")
+        if hasattr(args, "skip_link_suite") and args.skip_link_suite:
+            page_args.append("--skip-link-suite")
+        if hasattr(args, "skip_audit") and args.skip_audit:
+            page_args.append("--skip-audit")
+        if hasattr(args, "config") and args.config:
+            page_args.extend(["--config", args.config])
+        run_script(".agent/scripts/pages_tool.py", page_args)
 
     elif args.command == "inquisition":
         inq_args = ["--batch", str(args.batch)]

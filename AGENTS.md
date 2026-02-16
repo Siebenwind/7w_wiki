@@ -42,6 +42,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `score <file>` | Lore Quality Score (LQS) for one markdown file. | `.agent/scripts/lore_score_manager.py` |
 | `index [--status] [--rebuild]` | Semantic index status or rebuild. | `.agent/skills/oracle/build_index.py` |
 | `index-pages` | Generate `index.md` for wiki categories. | `.agent/scripts/generate_wiki_indices.py` |
+| `pages status\|build\|validate` | Validate and build GitHub Pages docs via project-local mkdocs tooling. | `.agent/scripts/pages_tool.py` |
 | `inquisition [--batch N] [--audit-only]` | Batch ingestion of legacy sources. | `Silicon Inquisition` |
 | `translate ...` | Translation and dictionary operations. | `.agent/scripts/translator.py` |
 | `watch` | Live watcher for real-time indexing. | `.agent/scripts/watcher.py` |

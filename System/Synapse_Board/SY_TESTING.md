@@ -1,7 +1,7 @@
 ---
 uuid: 9e6a6a7c-4ef6-4f73-96d7-967f21bf90e8
 status: ACTIVE
-updated_at: 2026-02-16T21:18:56Z
+updated_at: 2026-02-16T23:15:00Z
 owners:
   - Koordinator
   - Test-Waechter
@@ -14,7 +14,7 @@ Verbindlicher Standard fuer reproduzierbare Testdurchlaeufe, Defect-Kommunikatio
 
 ## Ziel
 
-1. Testlaeufe standardisieren (`clean-client-state`, `takeover-handover`, `all`).
+1. Testlaeufe standardisieren (`clean-client-state`, `takeover-handover`, `interop-doc-links`, `rag-relevance-smoke`, `all`).
 2. Defects ohne stille Fixes behandeln.
 3. Fixes nur auf Basis kommunizierter Auftraege umsetzen.
 
@@ -24,6 +24,7 @@ Verbindlicher Standard fuer reproduzierbare Testdurchlaeufe, Defect-Kommunikatio
 - `./7w_wiki.py test --suite clean-client-state`
 - `./7w_wiki.py test --suite takeover-handover`
 - `./7w_wiki.py test --suite interop-doc-links`
+- `./7w_wiki.py test --suite rag-relevance-smoke`
 - `./7w_wiki.py test --suite all`
 - `./7w_wiki.py test --suite <name> --post-failures --from-agent <name> --to-agent ALL --priority HIGH`
 
@@ -32,6 +33,9 @@ Suite-Definitionen liegen in:
 
 Testberichte liegen in:
 - `Logs/Archive/TEST_<suite>_<timestamp>.md`
+
+RAG-Diagnose- und Benchmarkdoku:
+- `docs/Archiv/RAG_DIAGNOSE_2026-02-16.md`
 
 ## Agentenmentalitaet
 
