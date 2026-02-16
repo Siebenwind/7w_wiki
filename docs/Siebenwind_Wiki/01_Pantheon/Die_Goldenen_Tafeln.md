@@ -1,13 +1,31 @@
----
-layout: post
+layout: wiki_page
 title: "Die Goldenen Tafeln"
-category: Pantheon
-status: Integrated
-quelle: "Bibliothek Astrael"
+category: Religion
+status: integrated
+uuid: g0ld-t4f3l-2026
+report_id: g0ld-t4f3l-2026
+letzter_check: 2026-02-16T17:50:00+01:00
 ---
 
 # Die Goldenen Tafeln
+**Worte der Uralten aus der zerbrochenen Stadt**  
 **Tai Sah'Halour - Glurias**
+
+**Epistemischer Status:** #überlieferung (Schöpfungsmythos)
+
+Die **Goldenen Tafeln** sind fundamentale mythologische Texte, die im Jahr 9 n.H. in der Ruinenstadt [[Kanath]] im Süden entdeckt wurden. Während die [[Eisernen Tafeln]] eher prophetisch-warnend wirken, befassen sich die Goldenen Tafeln mit den Ursprüngen und den essenziellen Wahrheiten der Welt **[[Tare]]**.
+
+## Zentrale Verse und Mythen
+Die Tafeln bestehen aus elf Versen, die zentrale Aspekte der Schöpfung behandeln:
+
+### Die Erste Mutter
+Der erste Vers beschreibt die **[[Erste_Mutter]]**, die drei Kinder gebar: ein schwarzes, ein weißes und ein graues. Dies wird oft als die Entstehung der drei Pfade der Magie oder der göttlichen Prinzipien gedeutet.
+
+### Der Goldene Drache
+Ein Vers berichtet vom Opfer eines **Goldenen Drachen**, der seinen Leib gab, um tausend Leben zu retten. Er steht im Kontrast zum drohenden Bild des Drachen der Eisernen Tafeln.
+
+### Die Liebe und ihr Feind
+"Die Liebe schuf der Welt ihren größten Feind" – ein philosophisches Paradoxon, das besagt, dass erst der Verlust oder die Pervertierung der Liebe die größte Gefahr darstellt.
 
 ---
 

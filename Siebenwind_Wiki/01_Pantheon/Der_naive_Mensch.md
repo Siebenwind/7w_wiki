@@ -1,14 +1,25 @@
----
-layout: post
+layout: wiki_page
 title: "Der naive Mensch"
-category: [[index]]
-status: Integrated
-quelle: "[[index]] [[Astrael]]"
+category: Religion
+status: integrated
+uuid: n4iv-m3nsch-2026
+report_id: n4iv-m3nsch-2026
+letzter_check: 2026-02-16T17:35:00+01:00
 ---
 
 # Der naive Mensch
 **Über Pilpulismus und seine Folgen**  
 **Jeremias, Geweihter des Ordo Astraeli**
+
+**Epistemischer Status:** #überlieferung (Religionsphilosophische Abhandlung)
+
+In dieser Schrift erörtert der Geweihte **Jeremias** die Problematik der Gelehrsamkeit innerhalb der menschlichen Gesellschaft und stellt die These auf, dass ein einfacher ("naiver") Geist eine ebenso hohe religiöse Stufe erreichen kann wie ein Gelehrter.
+
+## Pilpulismus
+Jeremias kritisiert den sogenannten **Pilpulismus** (von hebr. *pilpul* für Schärfe/Würze). Er beschreibt damit eine übermäßige theologische Haarspalterei, bei der Gelehrte ihre Werke immer weiter "schärfen" und "würzen", dabei jedoch den eigentlichen Dienst an den [[Gottheiten]] vernachlässigen. Dieser Prozess führt laut Jeremias zur Egozentrik, die den Platz für das Göttliche im Herzen des Menschen einschränkt.
+
+## Die Naivität als Schlüssel
+Der einfache Mensch, wie etwa der Tagelöhner, besitze keine Zeit für komplexe Studien. Sein Gebet sei oft naiver gestaltet, aber gerade diese Reinheit von egozentrischem Denken und intellektuellem Stolz sei der Schlüssel zur religiösen Erhebung. Die [[Viere]] erkennen laut Jeremias die innere Einstellung und die reine Liebe zum Glauben an, ungeachtet der gesellschaftlichen Stellung oder Bildung.
 
 ---
 

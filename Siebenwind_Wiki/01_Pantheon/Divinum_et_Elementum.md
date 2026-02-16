@@ -1,10 +1,12 @@
 ---
 layout: wiki_page
 title: "Divinum et Elementum"
-category: [[index]]
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Divinum et Elementum Von der Substanz der Götter und der Elementarherren.md"
+uuid: d1v1num-3l3m-2026
+report_id: d1v1num-3l3m-2026
 author: "Donarius Derrvus"
+letzter_check: 2026-02-16T18:30:00+01:00
 ---
 
 # Divinum et Elementum (Von der Substanz der Götter und der Elementarherren)

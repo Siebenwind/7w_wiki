@@ -1,13 +1,32 @@
----
-layout: post
+layout: wiki_page
 title: "Die Legende von Galahad, Ritter der Rosen"
-category: [[index]]
-status: Integrated
-quelle: "[[index]] [[Astrael]]"
+category: Religion
+status: integrated
+uuid: g4l4h4d-2026-r0s3
+report_id: g4l4h4d-2026-r0s3
+letzter_check: 2026-02-16T17:55:00+01:00
 ---
 
 # Die Legende von Galahad, Ritter der Rosen
-**[[Anonymus]]**
+**Chronik vom Ende des Dornenkrieges**  
+**Anonymus**
+
+**Epistemischer Status:** #überlieferung (Historische Legende)
+
+Die Legende von **[[Galahad]]** (auch bekannt als der Ritter der Rosen) ist eine der zentralen Heiligenviten der Siebenwinder Geschichte. Sie spielt drei Jahre nach dem Fall von **[[Jassavia]]** während des sogenannten **Dornenkrieges** im Lehen **Silberwald**.
+
+## Zusammenfassung der Geschehnisse
+Während die Feste **[[Doringarth]]** von den Horden des Nekromanten **[[Azaris]]** belagert wurde, schlich sich ein unbedeutender, 13-jähriger Küchenjunge aus der Burg, um die entführte **[[Irindal]]** (die "Rose von Silberwald") zu suchen. Bewaffnet nur mit einer geweihten Rose und dem Dolch "Klaue", den ihm Hauptmann **[[Dannor]]** lieh, drang er in den schwarzen Turm des Feindes ein.
+
+In der Konfrontation mit Azaris weigerte sich der Knabe, Gewalt anzuwenden, und wurde vom Nekromanten mit seinem eigenen Dolch durchbohrt. Im Sterben bat Galahad die Götter um Vergebung für seinen Mörder. Diese Geste unendlichen Mitleids erschütterte Azaris' untotes Bewusstsein so tief, dass er sich selbst und seinen Turm vernichtete.
+
+## Die Transformation
+Galahad wurde durch das Eingreifen von **[[Vitama]]** (Leben) und **[[Morsan]]** (Tod) verwandelt. Die Rose in seinem Herzen schlug Wurzeln und bildete eine Rüstung aus Obsidian-Blättern. Seit diesem Tag wandert er als ritterlicher Büßer über **[[Tare]]**, belastet mit der Schuld, die er für andere trägt.
+
+## Lore-Bedeutung
+- **Doringarth**: Die Feste konnte durch das Ende des Nekromanten gehalten werden. Die sieben Klingen der Überlebenden ruhen dort noch heute.
+- **Symbolik**: Die schwarze Rose ist ein Zeichen für Sühne und gnadenvolle Vergebung vor dem Angesicht Morsans.
+- **Rosenrüstung**: Eine metaphorische wie auch physische Last; Galahad spürt bei jeder Bewegung die Dornen in seinem Leib.
 
 ---
 

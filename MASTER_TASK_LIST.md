@@ -11,7 +11,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [ ] **Silicon Inquisition**: Große Neueinlesung (v2.7 Migration) aller ~190 integrierten Quellen.
+- [ ] **Silicon Inquisition**: Fortsetzung der v2.7 Migration (Batch 4+).
 - [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - *Delegiert an Ingestor*.
 
 ## 🟡 Priorität 2: Operative Ingestion (Inhalte)
@@ -46,6 +46,15 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ---
 
 <details open>
+<summary><b>Phase 1.14: Silicon Inquisition Batches 2 & 3 (Feb 2026)</b></summary>
+
+- **Silicon Inquisition**: Batch 2 (Ente, Galahad, Schöpfung) und Batch 3 (Rohehafen, Pantheon, Linari) vollständig nach v2.7 migriert (20 Quellen).
+- **Metadata v2.7**: Einführung von UUIDs, `report_id` und ISO-8601 Timestamps für alle verarbeiteten Quellen.
+- **Audit-Compliance**: 100% Validierung der Ingestion Reports durch das System.
+- **Archive Sync**: Automatische Synchronisation aller Reports in das `docs/Archiv` Verzeichnis.
+</details>
+
+<details>
 <summary><b>Phase 1.13: Workflow Optimization & CLI Expansion (Feb 2026)</b></summary>
 
 - **Workflow Consolidation**: Redundanzen in 30 Workflow-Dateien eliminiert. Zentrale Referenzierung via `rvw_loop.md` und `wiki_style_guide.md`.

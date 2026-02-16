@@ -1,9 +1,12 @@
 ---
 layout: wiki_page
 title: Die Verbrennung des heiligen Markus
-category: [[index]]
-tags: [Erzählung, [[index]], [[Dunkeltief]], Ketzer]
-status: #perspektive
+category: Erzählungen
+status: integrated
+uuid: m4rkus-v3rbr-2026
+report_id: m4rkus-v3rbr-2026
+tags: [Erzählung, Magietheorie, Dunkeltief, Ketzer]
+letzter_check: 2026-02-16T18:20:00+01:00
 ---
 
 # Die Verbrennung des heiligen Markus

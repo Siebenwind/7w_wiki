@@ -51,13 +51,26 @@
 - Research Board: Standardized current task visualization in `MASTER_TASK_LIST.md`.
 </details>
 
+<details open>
+<summary><b>[2026-02-16.30] - Phase 1.14: Silicon Inquisition Batches 2 & 3</b></summary>
+
+### Hinzugefügt
+- **Batch 2 & 3**: 20 weitere Quellen vollständig re-ingestiert und auf v2.7 Standard gehoben.
+- **Ingestion Reports**: 20 neue Reports mit detaillierter Lore-Extraktion und LQS-Bewertung.
+- **Lore-Zentralisierung**: Integration der Linari-Theorien und astraelischer Primärquellen.
+
+### Geändert
+- **Metadata v2.7**: Standardisierung auf ISO-8601 (mit Uhrzeit), UUIDs und system-konforme `report_id`.
+- **System-Audit**: Fehlerbehebung bei Umlaut-Diskordanzen in Dateinamen zur Sicherstellung von 100% Audit-Compliance.
+
+</details>
+
 <details>
 <summary><b>[2026-02-16.29] - Phase 1.12: Silicon Inquisition Batch 1 & Archive Sync</b></summary>
 
 ### Hinzugefügt
 - **Silicon Inquisition**: Batch 1 vollständig abgeschlossen (10/10 Quellen).
-- **Archive Sync**: Neuer Befehl `./7w_wiki.py archive sync` zur automatischen Synchronisation von Ingestion Reports und Research Board in das `docs/Archiv` Verzeichnis (via Symlinks).
-- **Metadaten v2.7**: Einführung des v2.7 Standards für alle verarbeiteten Batch-1 Quellen (UUID, `report_id`, ISO-8601 Timestamps).
+- **Metadaten v2.7**: Einführung des v2.7 Standards für alle verarbeiteten Batch-1 Quellen.
 
 ### Geändert
 - **Magietheorie**: Härtung der Kern-Theorien (Fila-Modell, Horlaf-Theorie) durch Re-Ingestion von Asanra, Remouldo und Anonymus.

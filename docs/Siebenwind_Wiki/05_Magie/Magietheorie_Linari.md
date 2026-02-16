@@ -3,29 +3,31 @@ layout: wiki_page
 title: "Alte Magietheorie"
 category: Magie
 status: integrated
-quelle: "/Quellen/Bibliothek Toran Dur/Dunvallo Linari - Alte Magietheorie.md"
+uuid: l1n4r1-m4g-2026
+report_id: l1n4r1-m4g-2026
 author: "Dunvallo Linari"
+letzter_check: 2026-02-16T18:45:00+01:00
 ---
 
 # Alte Magietheorie (Linari)
 
 **Epistemischer Status:** #überlieferung (Historisches Standardwerk)
 
-Verfasst von Erzmagus [[Dunvallo_Linari]], bietet dieses Werk ein Grundkonzept für das Verständnis der Magie und insbesondere für die Erschaffung magischer **Artefakte**.
+Verfasst von Erzmagus [[Dunvallo_Linari]], bietet dieses Werk ein Grundkonzept für das Verständnis der [[index]] und insbesondere für die Erschaffung magischer **Artefakte**.
 
 ## 1. Das Thaumaturgische Gitter
 Linari nutzt das Modell des **Thaumaturgischen Gitters**. Er geht davon aus, dass die Welt von Fäden durchzogen ist, die sich in **Knoten** kreuzen.
 - **Knoten-Theorie:** Jüngere Theorien besagen, dass nicht die Fäden die Quelle sind, sondern die Knoten, welche Energie ausstrahlen und sich zu Fäden verbinden.
 
-## 2. Elementartheorie (Geist als Zentrum)
-Linari postuliert, dass die vier fassbaren Elemente (Feuer, Wasser, Erde, Luft) um ein zentrales Element geschart sind: den **Geist**. 
-- **Geist als Werkzeug:** Der Geist dient dem Magier als "Hammer", um die Elemente zu formen.
-- **Kampf der Elemente:** In jedem Knotenpunkt des Gitters findet ein ständiger Kampf der Elemente statt, wobei das Gleichgewicht (die Balance) durch den Geist erhalten bleibt.
+## 2. Elementartheorie ([[Geist]] als Zentrum)
+Linari postuliert, dass die vier fassbaren Elemente (Feuer, Wasser, Erde, Luft) um ein zentrales Element geschart sind: den **[[Geist]]**. 
+- **[[Geist]] als Werkzeug:** Der [[Geist]] dient dem Magier als "Hammer", um die Elemente zu formen.
+- **Kampf der Elemente:** In jedem Knotenpunkt des Gitters findet ein ständiger Kampf der Elemente statt, wobei das Gleichgewicht (die Balance) durch den [[Geist]] erhalten bleibt.
 
-## 3. Urmagie (Göttliche Magie)
-Linari unterscheidet die Magie der Sterblichen von der **Urmagie** der Götter. Letztere umfasst acht Komponenten:
+## 3. Urmagie (Göttliche [[index]])
+Linari unterscheidet die [[index]] der Sterblichen von der **Urmagie** der Götter. Letztere umfasst acht Komponenten:
 - **Die Fassbaren:** Feuer, Wasser, Erde, Luft.
-- **Die Unfassbaren:** Universum, Geist, Äther, Zeit.
+- **Die Unfassbaren:** Universum, [[Geist]], Äther, Zeit.
 Da Sterbliche die Unfassbaren nicht gänzlich kontrollieren können, bleibt ihnen die wahre Urmagie verwehrt.
 
 ## 4. Artefakterstellung

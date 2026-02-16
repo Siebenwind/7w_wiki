@@ -1,13 +1,15 @@
 ---
 layout: wiki_page
-title: "Die [[index]] des Barath Or"
-category: [[index]]
+title: "Die Werke des Barath Or"
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Die [[index]] des Barath Or.md"
+uuid: b4rath-w3rk-2026
+report_id: b4rath-w3rk-2026
 author: "Barath Or"
+letzter_check: 2026-02-16T18:25:00+01:00
 ---
 
-# Die [[index]] des Barath Or
+# Die Werke des Barath Or
 
 Diese Traktate des Bresch (Großmeisters) [[Barath_Or]] befassen sich mit der philosophischen und theologischen Bedeutung von [[index]] und Selbsterkenntnis im Lichte [[Astrael]]s.
 

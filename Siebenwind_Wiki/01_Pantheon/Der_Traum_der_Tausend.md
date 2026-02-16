@@ -1,18 +1,34 @@
 ---
-layout: post
+layout: wiki_page
 title: "Der Traum der Tausend"
-category: [[index]]
-status: Integrated
-quelle: "[[index]] [[Astrael]]"
+category: Religion
+status: integrated
+uuid: c4t-tr4um-2026-h4s3
+report_id: c4t-tr4um-2026-h4s3
+letzter_check: 2026-02-16T17:20:00+01:00
 ---
 
 # Der Traum der Tausend
 **Eine Mär der Su'un**  
 **Tai Sah'Halour - Glurias**
 
+**Epistemischer Status:** #überlieferung (Philosophische Mythologie)
+
+Diese Erzählung gehört zu den bedeutendsten Mythen der Nordmänner ([[Su-un]]) und befasst sich mit der metaphysischen Verbindung zwischen Katzen, Träumen und der Konstruktion der Wirklichkeit.
+
+## Zusammenfassung
+Die Geschichte handelt von einer uralten Wanderkatze, die den versammelten Katzen einer Stadt die Wahrheit über ihre Herkunft offenbart. Sie berichtet von ihrer Reise in das **Reich des Nebelfürsten** ([[Sphaerenkunde]]), wo sie vom **König der Katzen** lernte, dass die Welt einst den Katzen gehörte.
+
+Demnach waren Menschen ursprünglich nur nackte Diener, bis tausend von ihnen gemeinsam davon träumten, die Herren der Welt zu sein. Dieser kollektive Traum veränderte die Realität vom Anbeginn der Zeit an und machte die Katzen klein und die Menschen groß. Die Erzählerin ruft nun alle Katzen dazu auf, die Welt "zurückzuträumen".
+
+## Lore-Bedeutung
+- **Subjektive Realität**: Die Erzählung stützt die Theorie der [[Traumformung]], bei der kollektiver Glaube oder Träume die physische Welt beeinflussen können.
+- **Kultur der Su'un**: Zeigt das tiefe Verständnis der Nordmänner für Tiergeister und Schamanismus.
+- **Symbolik**: Der Totenvogel fungiert als Schwellenwächter zwischen den Sphären.
+
 ---
 
-Manchmal kommt es vor, dass Katzen wenn sie schlafen sich ducken, langsam die Pfoten bewegen nur um dann plötzlich zu zucken und wieder ruhig zu werden. Es ist, als würden sie im Schlaf etwas jagen - sie träumen. Dass Katzen träumen bedeutet, dass auch sie teilhaben am Reich des Nebelfürsten - und von Katzen und Träumen soll diese [[index]] nun handeln.
+Manchmal kommt es vor, dass Katzen wenn sie schlafen sich ducken, langsam die Pfoten bewegen nur um dann plötzlich zu zucken und wieder ruhig zu werden. Es ist, als würden sie im Schlaf etwas jagen - sie träumen. Dass Katzen träumen bedeutet, dass auch sie teilhaben am Reich des Nebelfürsten - und von Katzen und Träumen soll diese Geschichte nun handeln.
 
 Eines Tages begab es sich, dass eine alte Katze in die Stadt kam, der ihr Ruf als große Geschichtenerzählerin - ja auch solche gibt es unter den Nachtschleichern - schon weit vorausgeeilt war. Die Nachricht über ihre Ankunft verbreitete sich schnell und so kam es, dass sich, kaum war die Nacht hereingebrochen, die gesamte vierbeinige und samtpfotige Einwohnerschaft der Stadt auf dem Dach des Schuppens versambelte, auf dem die Streunerin ihr Lager aufgeschlagen hatte.
 

@@ -1,13 +1,34 @@
 ---
-layout: post
+layout: wiki_page
 title: "Der letzte Falke"
-category: [[index]]
-status: Integrated
-quelle: "[[index]] [[Astrael]]"
+category: Religion
+status: integrated
+uuid: f4lk-3n-h0rst-2026
+report_id: f4lk-3n-h0rst-2026
+letzter_check: 2026-02-16T17:30:00+01:00
 ---
 
 # Der letzte Falke
-**[[Anonymus]]**
+**Ballade vom Fall des Falkenhorsts**  
+**Anonymus / Rose von Sonnentau**
+
+**Epistemischer Status:** #überlieferung (Historisches Epos)
+
+Die Ballade vom **Letzten Falken** ist eines der tragischsten und bekanntesten Werke der Siebenwinder Lyrik. Sie beschreibt die letzten Zyklen der Verteidigung des [[Falkenhorst]] gegen ein nekromantisches Heer.
+
+## Die drei Ritter
+Das Epos charakterisiert die drei verbliebenen Verteidiger:
+- **[[Sire_Aspin]] (Schwertklinge)**: Ein introvertierter Kämpfer von unerreichter Präzision, der aus unerwiderter Liebe und Pflichtgefühl den Tod auf den Zinnen wählt.
+- **[[Athos]] (Herzensbrecher)**: Ein charmanter Diplomat und loyaler Freund, der widerwillig zur Flucht nach [[Brandenstein]] gezwungen wird.
+- **[[Barnabas]] (Großmeister)**: Der pflichtbewusste Anführer, der das Erbe von [[Finsterwangen]] bewahrt.
+
+## Verlauf der Legende
+Während das Heer des **Einen** die Burg belagert, versucht ein sprechendes (oder sehendes) **[[Katzchen]]**, die Ritter zur Flucht zu überreden. Diese bestehen jedoch auf ihren Eid. Schließlich befiehlt Barnabas den Rückzug, doch Aspin bleibt als letzte Wacht zurück. In einer finalen Opferung versinkt die Burg mitsamt dem Feind in einer gewaltigen Flut, die heute den See am ehemaligen Standort der Feste bildet.
+
+## Lore-Bedeutung
+- **Opfermythos**: Sire Aspin gilt als Inbegriff des ritterlichen Verzichts.
+- **Mindoril**: Die Erwähnung des "Vermächtnisses von Herrn Finion" deutet auf ein mächtiges Artefakt hin, das nach [[Brandenstein]] gerettet wurde.
+- **Geistwacht**: Der "Rittergeist", der im See wacht, ist ein fester Bestandteil der nordmännischen Volksmagie.
 
 ---
 

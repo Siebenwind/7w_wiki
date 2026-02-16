@@ -1,13 +1,27 @@
----
-layout: post
+layout: wiki_page
 title: "Die Silbernen Tafeln"
-category: Pantheon
-status: Integrated
-quelle: "Bibliothek Astrael"
+category: Religion
+status: integrated
+uuid: s1lb3r-t4f3l-2026
+report_id: s1lb3r-t4f3l-2026
+letzter_check: 2026-02-16T18:10:00+01:00
 ---
 
 # Die Silbernen Tafeln
+**Worte der Alten aus der stummen Stadt des Ostens**  
 **Tai Sah'Halour - Glurias**
+
+**Epistemischer Status:** #überlieferung (Prophezeiung / Historische Lyrik)
+
+Die **Silbernen Tafeln** bilden den dritten Teil der sogenannten Tafel-Trilogie (neben den [[Goldene_Tafeln]] und [[Eiserne_Tafeln]]). Sie wurden im Jahr 11 n.H. in **[[Venturia]]** dokumentiert und stammen ursprünglich aus einer "stummen Stadt des Ostens".
+
+## Inhaltliche Schwerpunkte
+Die Verse der silbernen Tafeln sind von einer tiefen Melancholie und Warnung vor geistiger Knechtschaft geprägt.
+
+### Zentrale Motive
+- **Die Neun Gestirne**: Eine dunkle Macht oder Konstellation, die Seelen in Ketten legt.
+- **Der Krieg der Feder**: Die Erkenntnis, dass Konflikte nach dem Ende der Waffengewalt ("Das Schwert begann den Krieg") durch Gesetze, Intrigen oder Schriften ("Die Feder führte ihn fort") weiterbestehen.
+- **Die unentschiedene Schlacht**: Ein Hinweis auf die "Jüngste Schlacht" in den Wogen, die scheiterte, weil die letzten Zeugen ihre Augen verschlossen.
 
 ---
 

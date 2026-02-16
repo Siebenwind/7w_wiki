@@ -1,13 +1,27 @@
----
-layout: post
+layout: wiki_page
 title: "Die Eisernen Tafeln"
-category: [[index]]
-status: Integrated
-quelle: "[[index]] [[Astrael]]"
+category: Religion
+status: integrated
+uuid: 1r0n-t4f3l-2026
+report_id: 1r0n-t4f3l-2026
+letzter_check: 2026-02-16T17:40:00+01:00
 ---
 
 # Die Eisernen Tafeln
+**Überlieferte Worte der Weisen aus der glühenden Stadt**  
 **Tai Sah'Halour - Glurias**
+
+**Epistemischer Status:** #überlieferung (Prophezeiung)
+
+Die **Eisernen Tafeln** sind eine Reihe kryptischer, in Eisen geschlagener Verse, die im Jahr 12 n.H. in [[Brandenstein]] (der "glühenden Stadt des Nordens") dokumentiert wurden. Sie gelten als eine der wichtigsten eschatologischen Quellen der Siebenwinder Geschichte.
+
+## Inhalt und Deutung
+Die Tafeln beschreiben den Verfall moralischer Werte ("Die Ehre des Blutes wurde verbannt") und den Aufstieg einer kälteren, durch Metall und Gesetze definierten Gesellschaft. 
+
+### Zentrale Motive
+- **Der Drache mit drei Kronen**: Eine prophezeite Herrscherfigur, deren Regentschaft tragisch enden wird.
+- **Das Grab aus Wellen**: Ein Hinweis auf das Aufbrechen uralter Schranken oder das Erwachen von Entitäten aus dem Meer.
+- **Die Tafeln der Asche**: Eine Warnung an die Bewohner des Westens vor bevorstehender Zerstörung.
 
 ---
 

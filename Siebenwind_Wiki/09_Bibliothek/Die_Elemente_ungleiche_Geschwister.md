@@ -1,23 +1,35 @@
----
 layout: wiki_page
 title: Die Elemente - ungleiche Geschwister
-category: [[index]]
-tags: [Erzählung, [[Ecclesia_Elementorum]], [[Brandenstein]], Ritual, En'Hor]
-status: #perspektive
+category: Magie
+tags: [Erzählung, Ecclesia Elementorum, Brandenstein, Ritual, En'Hor]
+status: integrated
+uuid: 3l3m-2026-w1nd
+report_id: 3l3m-2026-w1nd
+letzter_check: 2026-02-16T17:45:00+01:00
 ---
 
 # Die Elemente - ungleiche Geschwister
-
 **Epistemischer Status:** #perspektive (Augenzeugenbericht)
 
-Der Text **"Die Elemente - ungleiche Geschwister"** beschreibt eine Zeremonie der **[[Ecclesia_Elementorum]]** in **[[Brandenstein]]**, verfasst von **[[Brand_Windfluesterer|Brand Windflüsterer]]**.
+Der Text **"Die Elemente - ungleiche Geschwister"** ist ein ritueller Bericht von **[[Brand_Windfluesterer|Brand Windflüsterer]]**. Er dokumentiert ein bedeutendes Elementaropfer der **[[Ecclesia_Elementorum]]** in **[[Brandenstein]]**.
 
-## Handlung
+## Ablauf des Rituals
+Die Zeremonie begann in der Priorei von Brandenstein mit Gebeten der Lehrer und Schüler. Anschließend zog eine musizierende Prozession ("Marschkapelle"), angeführt von dem enthusiastischen [[Tintin]], durch die verschneiten Straßen der Stadt nach Osten zum Strand.
 
-In der Priorei zu [[Brandenstein]] versammeln sich Anhänger der Elemente zu einem gemeinsamen Ritual.
-Unter der Führung von **[[Orogrim]]**, **[[Gorion]]**, **[[Nithavela]]** und **[[Tintin_Waljakov|Tintin]]** ziehen die Gläubigen musizierend ("kleine Marschkapelle") durch die Stadt zum Strand/ins Freie.
+Dort wurde ein großes Opferfeuer entfacht, in dem die Gläubigen wertvolle Gaben darbrachten:
+- **Metalle**: Goldbarren, Goldrüstungen und Fethril.
+- **Naturgaben**: Edelsteine, Federn, Blumen und Felle von fünfzig Hirschen.
+- **Alchemie**: Kräuter, schwarze Samen und alchemistische Erzeugnisse.
+- **Emotionales**: Persönliche Andenken, Federn und die Asche verstorbener Geschwister.
 
-Dort wird ein Opferfeuer errichtet. Die Teilnehmer opfern wertvolle und persönliche Gegenstände (Gold, Fethril, Edelsteine, Federn, Blumen, Asche von Verstorbenen) an die Elemente und die **En'Hor** (elementare Geister/Boten?).
+Das Ritual diente dem Dank und der Bitte an die **[[En'Hor]]** (elementare Geisterwesen) sowie die vier elementaren Gewalten **Arkadon/**[[Ignis]], [[Rien]], [[Ventus]] und [[Xan]].
+
+## Teilnehmer
+- **[[Orogrim]]**, **[[Gorion]]**, **[[Nithavela]]**: Erzpriester und Priester der Ecclesia.
+- **[[Tintin]]**: Spielte während der Prozession die Fiedel.
+- **[[Brand_Windfluesterer]]**: Autor und Chronist.
+
+---
 
 ## Relevante Entitäten
 

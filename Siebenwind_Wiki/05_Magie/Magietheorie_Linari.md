@@ -1,10 +1,12 @@
 ---
 layout: wiki_page
 title: "Alte Magietheorie"
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Dunvallo_Linari]] - Alte Magietheorie.md"
-author: "[[Dunvallo_Linari]]"
+uuid: l1n4r1-m4g-2026
+report_id: l1n4r1-m4g-2026
+author: "Dunvallo Linari"
+letzter_check: 2026-02-16T18:45:00+01:00
 ---
 
 # Alte Magietheorie (Linari)
