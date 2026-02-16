@@ -17,6 +17,7 @@ Usage:
 import os
 import sys
 import argparse
+import json
 import time
 from pathlib import Path
 
@@ -24,6 +25,7 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent.parent.parent
 MODEL_CACHE = REPO_ROOT / ".agent" / "data" / "models"
+RUNTIME_CONFIG_PATH = REPO_ROOT / ".agent" / "config" / "runtime.json"
 
 # --- Umgebungsvariablen (MÜSSEN vor den Modell-Imports gesetzt werden) ---
 os.environ["SENTENCE_TRANSFORMERS_HOME"] = str(MODEL_CACHE)
@@ -304,9 +306,18 @@ def main():
     default_device = "mps" if sys.platform == "darwin" else "cpu"
     
     try:
+        if RUNTIME_CONFIG_PATH.exists():
+            with open(RUNTIME_CONFIG_PATH, encoding="utf-8") as f:
+                cfg = json.load(f)
+            oracle_cfg = cfg.get("oracle", {})
+            if "device" in oracle_cfg:
+                default_device = oracle_cfg["device"]
+    except Exception:
+        pass
+
+    try:
         if config_path.exists():
-            import json
-            with open(config_path) as f:
+            with open(config_path, encoding="utf-8") as f:
                 cfg = json.load(f)
                 if "device" in cfg: default_device = cfg["device"]
     except Exception as e:

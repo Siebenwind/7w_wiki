@@ -38,6 +38,9 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 4. Validieren: Mindestens `./7w_wiki.py audit`, bei Dokuaenderungen auch `check`, `stats`, `archive sync`.
 5. Dokumentieren: `CHANGELOG.md`, Boards, Register- und Doku-Updates.
 
+## Runtime Commands
+- `advisor`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `mail`, `pages`, `repair`, `sanitize`, `score`, `scout`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
+
 ## Testbetrieb (Clean-State & Interop)
 
 Verbindlicher Einstieg:
@@ -78,6 +81,23 @@ Verbindlich gemaess `System/Synapse_Board/SY_DISPATCH.md`:
 1. Session-Start: `./7w_wiki.py mail inbox --status OPEN`
 2. Bei Uebernahme: `claim` setzen, dann bearbeiten, dann `done`.
 3. Entscheidungen immer ueber Dispatch referenzieren und verlinkte Conflict/Research-Tickets nachziehen.
+
+### Runtime-Konfiguration (zentral)
+
+Gemeinsame Laufzeitparameter liegen in:
+
+- `.agent/config/runtime.json`
+
+Aktuell genutzt fuer:
+
+- Dispatch-Parallelitaet (`dispatch.parallel_settle_seconds`, `dispatch.parallel_retry_limit`)
+- Oracle-Defaults (`oracle.device`, `oracle.batch_size`)
+
+Reihenfolge bei Oracle:
+
+1. CLI-Flags (z. B. `--cpu`) haben Vorrang.
+2. `.agent/skills/oracle/config.json` (Legacy/Benchmark-kompatibel).
+3. `.agent/config/runtime.json` (zentrale Defaults).
 
 ## Dokumentation und GitHub Pages
 

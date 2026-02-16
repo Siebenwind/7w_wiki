@@ -42,6 +42,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent.parent.parent  # .agent/skills/oracle -> repo root
 MODEL_CACHE = REPO_ROOT / ".agent" / "data" / "models"
 CHROMA_DIR = REPO_ROOT / ".agent" / "data" / "chroma_db"
+RUNTIME_CONFIG_PATH = REPO_ROOT / ".agent" / "config" / "runtime.json"
 ARCHIVE_REGISTER_DIR = REPO_ROOT / "System" / "Archivregister"
 ARCHIVE_REGISTER_JSON = ARCHIVE_REGISTER_DIR / "ARCHIVREGISTER.json"
 ARCHIVE_REGISTER_MD = ARCHIVE_REGISTER_DIR / "ARCHIVREGISTER.md"
@@ -1000,17 +1001,36 @@ def main():
     config_path = SCRIPT_DIR / "config.json"
     default_device = "mps" if sys.platform == "darwin" else "cpu"
     default_batch = 4
+    loaded_from = []
     
     try:
+        if RUNTIME_CONFIG_PATH.exists():
+            with open(RUNTIME_CONFIG_PATH, encoding="utf-8") as f:
+                cfg = json.load(f)
+            oracle_cfg = cfg.get("oracle", {})
+            if "device" in oracle_cfg:
+                default_device = oracle_cfg["device"]
+            if "batch_size" in oracle_cfg:
+                default_batch = oracle_cfg["batch_size"]
+            loaded_from.append(str(RUNTIME_CONFIG_PATH.relative_to(REPO_ROOT)))
+    except Exception as e:
+        print(f"⚠️  Runtime-Config {RUNTIME_CONFIG_PATH} nicht lesbar oder fehlerhaft: {e}")
+
+    try:
         if config_path.exists():
-            import json
-            with open(config_path) as f:
+            with open(config_path, encoding="utf-8") as f:
                 cfg = json.load(f)
                 if "device" in cfg: default_device = cfg["device"]
                 if "batch_size" in cfg: default_batch = cfg["batch_size"]
-            print(f"📋 Config geladen: {default_device.upper()} (Batch: {default_batch})")
+            loaded_from.append(str(config_path.relative_to(REPO_ROOT)))
     except Exception as e:
         print(f"⚠️  Config-Pfad {config_path} nicht lesbar oder fehlerhaft (Permission oder Format): {e}")
+
+    if loaded_from:
+        print(
+            f"📋 Config geladen: {default_device.upper()} (Batch: {default_batch}) "
+            f"aus {', '.join(loaded_from)}"
+        )
 
     parser = argparse.ArgumentParser(description="Das Orakel – Index Builder")
     parser.add_argument("--source", choices=["quellen", "wiki", "all"],

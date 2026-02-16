@@ -38,6 +38,13 @@ Der Statuslauf erzeugt zugleich ein zentrales Archivregister mit Fortschritts- u
 - `System/Archivregister/ARCHIVREGISTER.md`
 - `System/Archivregister/ARCHIVREGISTER.json`
 
+Oracle-Defaults koennen zentral in `.agent/config/runtime.json` gesetzt werden:
+- `oracle.device`
+- `oracle.batch_size`
+
+Hinweis zur Kompatibilitaet:
+- Lokale Oracle-Datei `.agent/skills/oracle/config.json` bleibt als Legacy-Override aktiv.
+
 ---
 
 ## 🔮 Nutzung (The Oracle)

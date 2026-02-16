@@ -38,5 +38,22 @@ Toran Dur ist bekannt für seinen unstillbaren Wissensdurst und seine oft waghal
 - **Charakter:** Er gilt als exzentrisch, genial und volksnah. Oft findet man ihn im Gespräch mit einfachen Bürgern, denen er trotz seiner hohen Ämter auf Augenhöhe begegnet.
 - **Grix-Vorfall (18 n.H.):** Er wurde Opfer eines Streichs des Kobolds [[Grix]], der ihm an der Akademie seine geliebte Pfeife entwendete (Bote 162).
 
+## Bibliographie
+Toran Dur war ein äußerst produktiver Autor. Seine Werke decken ein breites Spektrum ab, von Magietheorie über Geschichte bis hin zu Reiseberichten.
+
+### Magietheorie
+*   [[Die_Magie_(Toran_Dur)]] - Ein umfassendes Werk über die Grundlagen der Magie, Kosmologie und verschiedene Magiezweige.
+*   [[Lehrbuch_der_Magietheorie_(Toran_Dur)]] - Ein Lehrbuch für Studenten der Magie.
+*   [[Theorien_der_Magie_(Toran_Dur)]] - Enthält fortgeschrittene Theorien wie die "Aspektierte Magie" und "Größere Kraftströme".
+*   [[Magica_Curativa_(Toran_Dur)]] - Ein Standardwerk zur Heilmagie.
+*   [[Daimonologie_und_Schwarze_Magie_(Toran_Dur)]] - Abhandlungen über Dämonologie, schwarze Rituale und Fragmente der Sammler.
+
+### Geschichte und Berichte
+*   [[Index_Siebenwind_(Toran_Dur)]] - Eine mehrbändige Zusammenfassung der Geschichte, Wesenheiten und Orte Siebenwinds.
+*   [[Forschungsberichte_(Toran_Dur)]] - Eine Sammlung seiner Berichte über Expeditionen, Rituale und Entdeckungen.
+*   [[Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur)]] - Das Gründungsdokument seines Ordens (datiert auf 30. Carmar 17 n.H.).
+*   [[Graue_Charta_(Zweiter_Entwurf)]] - Die Satzung des Grauen Pfades (2. Version).
+*   [[Reisebericht_durch_das_Oedland_(Toran_Dur)]] - Detaillierte Beschreibung der Geographie des Toten Landes.
+
 ---
 **Siehe auch:** [[Magie]], [[Goblins]], [[Graue_Garde]], [[Orden_der_Wachenden_Löwen]], [[Niemand]]

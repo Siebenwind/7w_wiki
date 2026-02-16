@@ -47,6 +47,8 @@ Fuer Agent-zu-Agent Arbeit ist `SY_DISPATCH` verbindlich:
 - Pflichtfelder je Nachricht:
   - `id`, `uuid`, `status`, `priority`, `from_agent`, `to_agent`, `created_at`
 - `to_agent: ALL` gilt als Broadcast.
+- Bei parallelen Board-Edits gilt ein Settle-Window von 30 Sekunden vor erneuter Statusmutation.
+- Das Settle-Window ist zentral konfigurierbar ueber `.agent/config/runtime.json`.
 
 ## Norm 5: Artefakt-Referenzen
 Workflows duerfen nur auf Artefakte verweisen, die entweder:

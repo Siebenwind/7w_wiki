@@ -57,6 +57,11 @@ Der Index wird **inkrementell** gebaut. Das System erkennt Änderungen (via Cont
 | `.../benchmark_hardware.py` | **Tuning:** Misst Hardware-Speed und setzt optimale Batch-Size in `config.json`. |
 | `bash .agent/skills/oracle/setup.sh` | **Install:** Richtet die Umgebung initial ein. |
 
+### D. Konfiguration
+- Zentrale Defaults: `.agent/config/runtime.json` (`oracle.device`, `oracle.batch_size`)
+- Legacy/Kompatibilitaet: `.agent/skills/oracle/config.json`
+- Prioritaet: CLI-Flags > lokale Oracle-Config > zentrale Runtime-Config
+
 ---
 
 ## 🏗️ Architektur & Funktionsweise

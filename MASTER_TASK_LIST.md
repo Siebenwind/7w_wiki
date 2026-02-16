@@ -5,13 +5,13 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-16 18:30 (Antigravity -> User)
-- **Status**: Phase 1.16 complete; Batch 4 (Societies) fully integrated.
+- **Last Handover**: 2026-02-17 00:15 (Antigravity -> User)
+- **Status**: Phase 1.17 complete; Forum Research & Crawler Integration finalized.
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [ ] **Silicon Inquisition**: Fortsetzung der v2.7 Migration (Batch 5+).
+- [ ] **Silicon Inquisition**: Ingestion der Forum-Erkenntnisse (Batch 6: Magie & Götter-Wende).
 - [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - *Delegiert an Ingestor*.
 - [ ] **Jules Readiness**: Validation der neuen `.agents/` Struktur durch externe Agenten.
 
@@ -49,6 +49,15 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ### v2.7 Upgrade-Phasen
 
 <details open>
+<summary><b>Phase 1.17: Silicon Inquisition - Forum Research & Automation (Feb 2026)</b></summary>
+
+- **Automation**: Implemented `forum_scanner.py` and unified CLI command `scout`.
+- **Integration**: Upgraded `/scout` workflow and `Scanner` skill to support external board scanning.
+- **Research**: Extracted 470 legacy topics; identified 45+ lore markers (Magiereform, Exodus, Zwerge-Hintergrund).
+- **Governance**: Established `RESEARCH-2026-010` and formal Research Reports for forum-based lore.
+</details>
+
+<details>
 <summary><b>Phase 1.16: Interop Upgrade & Jules Readiness (Feb 2026)</b></summary>
 
 - **Agent Sovereignty**: Created `AGENTS.md` as the single source of truth for all autonomous agents (Jules, Codex, Gemini).

@@ -6,6 +6,9 @@
 import time
 import torch
 import sys
+import json
+import datetime as dt
+from pathlib import Path
 from sentence_transformers import SentenceTransformer
 
 MODEL_NAME = "jinaai/jina-embeddings-v3"
@@ -83,10 +86,7 @@ def main():
     print(f"🏆 GEWINNER: {device.upper()} mit Batch-Size {batch}")
     print(f"   Geschwindigkeit: ~{speed:.2f} Chunks/Sekunde")
     
-    # Config schreiben
-    import json
-    from pathlib import Path
-    
+    # Oracle-Legacy-Config schreiben (Kompatibilitaet)
     config_path = Path(__file__).parent / "config.json"
     config = {
         "device": device,
@@ -94,10 +94,31 @@ def main():
         "model_name": MODEL_NAME
     }
     
-    with open(config_path, "w") as f:
+    with open(config_path, "w", encoding="utf-8") as f:
         json.dump(config, f, indent=2)
-        
+
+    # Zentrale Runtime-Config aktualisieren
+    runtime_config_path = Path(__file__).resolve().parents[2] / "config" / "runtime.json"
+    runtime_config_path.parent.mkdir(parents=True, exist_ok=True)
+    runtime_cfg: dict = {}
+    if runtime_config_path.exists():
+        try:
+            runtime_cfg = json.loads(runtime_config_path.read_text(encoding="utf-8"))
+        except Exception:
+            runtime_cfg = {}
+    runtime_cfg["oracle"] = {
+        "device": device,
+        "batch_size": batch,
+        "model_name": MODEL_NAME,
+        "benchmark_date": dt.date.today().isoformat(),
+    }
+    runtime_config_path.write_text(
+        json.dumps(runtime_cfg, ensure_ascii=True, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
     print(f"✅ Konfiguration gespeichert in: {config_path}")
+    print(f"✅ Runtime-Config aktualisiert: {runtime_config_path}")
     print(f"   Du kannst jetzt einfach 'build_index.py' starten.")
 
 if __name__ == "__main__":

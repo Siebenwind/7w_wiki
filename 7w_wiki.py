@@ -151,6 +151,11 @@ def main():
     mail_parser = subparsers.add_parser("mail", help="Agent Messaging (Dispatch)")
     mail_parser.add_argument("mail_args", nargs=argparse.REMAINDER, help="Arguments for agent_mail.py")
 
+    # Scout (Forum Crawler)
+    scout_parser = subparsers.add_parser("scout", help="Deep Scan of external forums (Bekanntmachungen/News)")
+    scout_parser.add_argument("--forum", choices=["bekanntmachungen", "news"], default="bekanntmachungen", help="Target forum")
+    scout_parser.add_argument("--pages", type=int, default=3, help="Number of pages to scan")
+
     # Check if no arguments provided, default to advisor
     if len(sys.argv) == 1:
         args = parser.parse_args(["advisor"])
@@ -293,6 +298,10 @@ def main():
                 print(f"  - Ingestion Reports synchronisiert.")
         else:
             archive_parser.print_help()
+
+    elif args.command == "scout":
+        forum_map = {"bekanntmachungen": "6", "news": "1"}
+        run_script("Scripts/forum_scanner.py", ["--forum_id", forum_map[args.forum], "--pages", str(args.pages)])
 
     elif args.command == "mail":
         if not args.mail_args:

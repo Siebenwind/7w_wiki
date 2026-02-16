@@ -49,6 +49,9 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [Archivregister/ARCHIVREGISTER.md](Archivregister/ARCHIVREGISTER.md)
 - [x] [Archivregister/ARCHIVREGISTER.json](Archivregister/ARCHIVREGISTER.json)
 - [x] [Synapse_Board/SY_HISTORIAN_TRACEABILITY.md](Synapse_Board/SY_HISTORIAN_TRACEABILITY.md)
+- [x] [Synapse_Board/RESEARCH-2026-010.md](Synapse_Board/RESEARCH-2026-010.md)
+- [x] [Logs/Conclusions/2026-02-17_Forum_Research_Report.md](../Logs/Conclusions/2026-02-17_Forum_Research_Report.md)
+- [x] [Scripts/forum_scanner.py](../Scripts/forum_scanner.py)
 
 ---
 *Zuletzt aktualisiert: 2026-02-16T22:18:33Z | Ref: #historian_traceability_concept*

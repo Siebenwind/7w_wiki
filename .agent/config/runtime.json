@@ -1,0 +1,10 @@
+{
+  "dispatch": {
+    "parallel_settle_seconds": 30,
+    "parallel_retry_limit": 1
+  },
+  "oracle": {
+    "device": "mps",
+    "batch_size": 4
+  }
+}

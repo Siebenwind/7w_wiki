@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import argparse
 import datetime as dt
+import json
 import re
+import time
 import uuid
 from pathlib import Path
 
@@ -10,6 +12,30 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 MAIL_ROOT = REPO_ROOT / "System" / "Synapse_Board" / "DISPATCH"
 QUEUE_DIR = MAIL_ROOT
 MSG_ID_RE = re.compile(r"^MSG-\d{4}-\d{4}$")
+RUNTIME_CONFIG_PATH = REPO_ROOT / ".agent" / "config" / "runtime.json"
+DEFAULT_PARALLEL_SETTLE_SECONDS = 30
+DEFAULT_PARALLEL_RETRY_LIMIT = 1
+
+
+def load_dispatch_runtime_config() -> tuple[int, int]:
+    settle = DEFAULT_PARALLEL_SETTLE_SECONDS
+    retry = DEFAULT_PARALLEL_RETRY_LIMIT
+    if not RUNTIME_CONFIG_PATH.exists():
+        return settle, retry
+    try:
+        cfg = json.loads(RUNTIME_CONFIG_PATH.read_text(encoding="utf-8"))
+        dispatch = cfg.get("dispatch", {})
+        settle = int(dispatch.get("parallel_settle_seconds", settle))
+        retry = int(dispatch.get("parallel_retry_limit", retry))
+    except Exception as e:
+        print(f"⚠️  Runtime-Config konnte nicht geladen werden ({RUNTIME_CONFIG_PATH}): {e}")
+        return settle, retry
+    settle = max(0, settle)
+    retry = max(0, retry)
+    return settle, retry
+
+
+PARALLEL_SETTLE_SECONDS, PARALLEL_RETRY_LIMIT = load_dispatch_runtime_config()
 
 
 def now_iso() -> str:
@@ -205,26 +231,53 @@ def cmd_read(args: argparse.Namespace) -> int:
 
 
 def _mutate_status(message_id: str, updater) -> int:
-    try:
-        target = resolve_message_path(message_id)
-    except ValueError as e:
-        print(str(e))
-        return 1
-    if not target:
-        print(f"Nachricht nicht gefunden: {message_id}")
-        return 1
-    raw = target.read_text(encoding="utf-8")
-    meta, body = parse_frontmatter(raw)
-    try:
-        new_body = updater(meta, body)
-        if new_body is not None:
-            body = new_body
-    except ValueError as e:
-        print(str(e))
-        return 1
-    target.write_text(render_frontmatter(meta, body), encoding="utf-8")
-    print(f"Aktualisiert: {target.relative_to(REPO_ROOT)}")
-    return 0
+    for attempt in range(PARALLEL_RETRY_LIMIT + 1):
+        try:
+            target = resolve_message_path(message_id)
+        except ValueError as e:
+            print(str(e))
+            return 1
+        if not target:
+            print(f"Nachricht nicht gefunden: {message_id}")
+            return 1
+
+        raw = target.read_text(encoding="utf-8")
+        before = target.stat()
+        meta, body = parse_frontmatter(raw)
+        try:
+            new_body = updater(meta, body)
+            if new_body is not None:
+                body = new_body
+        except ValueError as e:
+            print(str(e))
+            return 1
+
+        current = target.stat()
+        if (
+            current.st_mtime_ns != before.st_mtime_ns
+            or current.st_size != before.st_size
+        ):
+            fresh = target.read_text(encoding="utf-8")
+            if fresh != raw:
+                if attempt < PARALLEL_RETRY_LIMIT:
+                    print(
+                        f"Parallelaenderung erkannt; warte {PARALLEL_SETTLE_SECONDS}s "
+                        "und versuche erneut..."
+                    )
+                    time.sleep(PARALLEL_SETTLE_SECONDS)
+                    continue
+                print(
+                    "Parallelaenderung weiterhin aktiv. "
+                    "Bitte Befehl erneut ausfuehren."
+                )
+                return 1
+
+        target.write_text(render_frontmatter(meta, body), encoding="utf-8")
+        print(f"Aktualisiert: {target.relative_to(REPO_ROOT)}")
+        return 0
+
+    print("Status-Update konnte nicht stabil angewendet werden.")
+    return 1
 
 
 def cmd_claim(args: argparse.Namespace) -> int:

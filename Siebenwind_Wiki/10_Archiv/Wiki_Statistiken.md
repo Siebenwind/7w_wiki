@@ -6,21 +6,21 @@ category: Index
 
 # 📊 Wiki Status
 
-**Stand:** 2026-02-16 22:05
+**Stand:** 2026-02-17 00:13
 
 ---
 
 | Metrik | Wert |
 | :--- | :--- |
-| **Artikel** | 1107 |
-| **Worte** | 184,210 |
-| **Personen** | 587 |
+| **Artikel** | 1106 |
+| **Worte** | 184,120 |
+| **Personen** | 586 |
 
 ---
 
 ```mermaid
 pie title Sektionen
-    "07_Persoenlichkeiten" : 587
+    "07_Persoenlichkeiten" : 586
     "05_Magie" : 39
     "08_Bestiarium" : 33
     "03_Wissen" : 55
@@ -41,9 +41,9 @@ Leserrelevante, stark vernetzte Artikel (ohne Index/Register).
 
 | Entität | Links |
 | :--- | :--- |
-| [[Siebenwind]] | 792 |
+| [[Siebenwind]] | 790 |
 | [[Falkensee]] | 549 |
-| [[Brandenstein]] | 472 |
+| [[Brandenstein]] | 471 |
 | [[Astrael]] | 160 |
 | [[Toran_Dur]] | 154 |
 

@@ -37,7 +37,7 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 | `/narrative_enrichment` | method_only | `7w_wiki.py historian <query>` | kein eigener Parser |
 | `/researcher` | method_only | `7w_wiki.py search <query> --source all` | Recherchemodus |
 | `/rvw_loop` | method_only | `7w_wiki.py search <query> --source all` + manuelle Schritte | kein Parser |
-| `/scout` | method_only | `7w_wiki.py advisor` + manuelle Web-Sichtung | passiver News-Scout |
+| `/scout` | executable | `7w_wiki.py scout --forum bekanntmachungen|news --pages N` | Automatisierter Forum-Deep-Scan |
 | `/takeover` | executable | `7w_wiki.py takeover` + `7w_wiki.py start` + `7w_wiki.py advisor` + `7w_wiki.py mail inbox --status OPEN` + `7w_wiki.py test --suite clean-client-state` | CLI zeigt Protokoll; Dispatch und Clean-State bleiben Pflicht |
 | `/translate` | executable | `7w_wiki.py translate` | Sprach-Parser |
 | `/update` | executable | `7w_wiki.py audit` + `7w_wiki.py sanitize --auto` + `7w_wiki.py index --status` | Systempflege |

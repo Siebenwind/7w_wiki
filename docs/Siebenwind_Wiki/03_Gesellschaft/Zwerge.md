@@ -12,16 +12,17 @@ author: [[Siebenwind]] Chronicler
 **Kategorie:** Rasse
 **Eigenbezeichnung:** Dwarschim
 **Unterarten:** Bergzwerge (Bingen), Talzwerge (Oberirdisch)
-**Glaube:** Angrosch (Schöpfer/Schmied; oft mit [[03_Bellum]] oder [[06_Ignis]] gleichgesetzt)
+**Glaube:** [[Arkadon]] (Feuer/Schöpfer), [[Terra]] (Erde/Mutter), [[Bellum]] (Kampf/Ehre), Ahnenverehrung ("Amrosch")
 
 ## Einleitung
 Die Zwerge, oder **Dwarschim**, wie sie sich selbst nennen, sind ein Volk von kleiner Statur, aber enormer Kraft und handwerklichem Geschick. Sie gelten als die unbestrittenen Meister des Bergbaus, der Metallurgie und der Architektur.
 
-## Herkunftsmythos: Die Geburt aus dem Stein
-Nach dem zwergischen Glauben wurden die Dwarschim von ihrem Schöpfergott aus dem Fels gehauen und mit dem heiligen Feuer der Esse beseelt. Diese tiefe Verbindung zum Gestein prägt ihre gesamte Kultur:
+## Herkunftsmythos: Die Geburt aus der Esse
+Nach dem zwergischen Glauben wurden die Dwarschim von **[[Arkadon]]** (Elementarherr des Feuers) aus Erz, Magma und Mondsilber geschmiedet, jedoch fehlte ihnen der Lebensodem. Seine Schwester **[[Terra]]** (Elementarherrin der Erde) schenkte ihnen das Leben und Fleisch. Da sie jedoch zu zornig und ungestüm waren, vollendete der Gott **[[Bellum]]** (Krieg/Ehre) sie, indem er ihnen Ehre, Standhaftigkeit und die Kunst des Waffenkamfes lehrte.
+
 *   **Die Esse:** Zentrales Symbol des Glaubens und Ort der Erschaffung.
-*   **Schmiedekunst:** Gilt nicht bloß als Handwerk, sondern als heiliger Akt der Vollendung von Materie.
-*   **Tod und Rückkehr:** Stirbt ein Zwerg, so glauben die Dwarschim, dass seine Seele in den Stein zurückkehrt, um eins mit dem Fundament der Welt zu werden.
+*   **Schmiedekunst:** Gilt nicht bloß als Handwerk, sondern als heiliger Akt der Nacheiferung Arkadons.
+*   **Tod und Ahnen:** Stirbt ein Zwerg ehrenvoll, geht er in die **Hallen der Ahnen** ein. Die Ahnen ("Amrosch") begleiten die Lebenden.
 
 ## Die Völker der Zwerge
 

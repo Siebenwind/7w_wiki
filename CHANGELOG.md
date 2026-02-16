@@ -1,5 +1,27 @@
 # Changelog
 
+#### [2026-02-17.01] - Silicon Inquisition: Forum Research & Crawler Integration
+
+### Prioritaet
+- P1
+
+### Hinzugefügt
+- Neues CLI-Kommando `./7w_wiki.py scout` zur automatisierten Suche in legacy Foren.
+- Neuer Crawler `.agent/scripts/forum_scanner.py` (robustes HTML-Parsing, UTF-8 Resilience).
+- Forschungsticket `RESEARCH-2026-010.md` am Synapse Board.
+- Formaler Forschungsbericht `Logs/Conclusions/2026-02-17_Forum_Research_Report.md`.
+
+### Geaendert
+- `/scout` Workflow von `method_only` auf `executable` hochgestuft.
+- `Scanner` Skill um "Deep Scan - External Boards" erweitert.
+- `MASTER_TASK_LIST.md` und `AGENT_OPERATIONS_HANDBOOK.md` auf neuen CLI-Stand synchronisiert.
+- `COORDINATION_HUB.md` um die neuen Forschungsartefakte ergänzt.
+
+### Validiert
+- `./7w_wiki.py scout --pages 1` (Runtime Verifikation).
+- `./7w_wiki.py test --suite all` (100% PASS nach Link-Fix).
+- `./7w_wiki.py audit` (0 Issues).
+
 #### [2026-02-16.44] - Docs Overhaul: Leserpfad + Agenten-Hub auf Pages
 
 ### Prioritaet

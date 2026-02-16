@@ -35,6 +35,10 @@ Each dispatch file is a markdown document with frontmatter and lifecycle state.
 3. Message IDs are exact (`MSG-YYYY-NNNN`), not prefix-matched.
 4. Inbox filtering uses strict status values (`OPEN|CLAIMED|DONE`).
 5. Decision requests should be routed through Dispatch and link to referenced Conflict/Research tickets.
+6. Bei erkannter Parallelaenderung wartet die Runtime 30 Sekunden (Settle-Window) und versucht den Statuswechsel erneut.
+7. Runtime-Parameter fuer Dispatch werden zentral aus `.agent/config/runtime.json` gelesen:
+   - `dispatch.parallel_settle_seconds`
+   - `dispatch.parallel_retry_limit`
 
 ## Implementation Proposal (Documented)
 
@@ -43,3 +47,5 @@ Each dispatch file is a markdown document with frontmatter and lifecycle state.
 3. Ensure post creation is collision-safe under concurrent runs.
 4. Append explicit lifecycle log lines for `CLAIMED` and `DONE` in `## Verlauf`.
 5. Align `/decide` workflow to consume Dispatch first, then update linked domain tickets.
+6. Keep a lightweight settle retry for concurrent board writes to reduce false conflict alarms in multi-agent runs.
+7. Use central runtime configuration (`.agent/config/runtime.json`) instead of hard-coded dispatch timing values.
