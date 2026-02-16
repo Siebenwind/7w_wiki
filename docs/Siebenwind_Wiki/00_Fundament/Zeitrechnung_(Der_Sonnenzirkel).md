@@ -13,7 +13,24 @@ Die Zeitrechnung auf [[Siebenwind]] und im Königreich Galadon folgt dem **Sonne
 
 ## Der Jahreskreis
 
-Ein Jahr auf [[Tare]] hat **365 Tage** (im Schaltjahr 366). Es ist unterteilt in vier Jahreszeiten, die den Göttern zugeordnet sind, und zwölf Monate.
+Ein Jahr auf [[Tare]] hat **365 Tage** (im Schaltjahr 366). Es ist unterteilt in vier Jahreszeiten, die den Göttern zugeordnet sind, und zwölf Monate. Der Wechsel der Jahre wird durch das Ende des [[Dunkeltief]] markiert.
+
+## Die Einheiten der Zeit
+
+### Zyklen (Stunden)
+Die kleinste Zeiteinheit ist der **Zyklus**. Acht Zyklen bilden einen Tag. Jeder Zyklus besteht aus einem hellen Teil (2 Echtzeit-Stunden) und einem dunklen Teil (1 Echtzeit-Stunde).
+1. **00:00 – 02:59** (Hell bis 01:59, Dunkel bis 02:59)
+2. **03:00 – 05:59** ... und so fort bis zum 8. Zyklus.
+
+### Wochentage
+Sieben Tage bilden eine Woche. Ihre Namen beschreiben im Kleinen einen Mondzyklus:
+1. **Mondtag**
+2. **Wandeltag**
+3. **Mittentag**
+4. **Vieretag**
+5. **Endtag**
+6. **Königstag**
+7. **Felatag**
 
 ### Die Jahreszeiten
 
@@ -26,11 +43,13 @@ Ein Jahr auf [[Tare]] hat **365 Tage** (im Schaltjahr 366). Es ist unterteilt in
 
 ### Die Monate
 
-Das Jahr beginnt im tiefsten Winter. Jeder Monat hat exakt 4 Wochen à 7 Tage (28 Tage), ergänzt durch spezielle Tage außerhalb der Kalenderwochen (siehe "Die verlorenen Tage").
+Das Jahr besteht aus zwölf Monaten, die in Paaren auftreten. Die Endung bestimmt den Beginn des Monats in Relation zum kleinen Mond:
+*   **-er**: Monat beginnt mit einem **Vollmond**.
+*   **-ar**: Monat beginnt in völliger **Finsternis** (kein Mond).
 
 | NR | Monat | Jahreszeit | Irdisches Äquivalent (ca.) |
 | :--- | :--- | :--- | :--- |
-| 1 | **Sekar** | [[Morsan]] | Dezember |
+| 1 | **Sekar** | [[Bellum]] (Ende) / [[Morsan]] | Dezember |
 | 2 | **Oner** | [[Morsan]] | Januar |
 | 3 | **Onar** | [[Morsan]] | Februar |
 | 4 | **Duler** | [[Vitama]] | März |
@@ -43,12 +62,15 @@ Das Jahr beginnt im tiefsten Winter. Jeder Monat hat exakt 4 Wochen à 7 Tage (2
 | 11 | **Carmar** | [[Bellum]] | Oktober |
 | 12 | **Seker** | [[Bellum]] | November |
 
+> [!NOTE]
+> Das Jahr beginnt im Volksmund offiziell nach dem **Dunkeltief** (früher Oner).
+
 ## Die verlorenen Tage
 
-Rechnet man das Standardjahr (12 x 28 Tage), kommt man auf 336 Tage. Die fehlenden ~30 Tage verteilen sich auf besondere Phasen zwischen den Monaten und Jahreszeiten, vor allem auf die beiden großen Sonnenwenden:
+Rechnet man das Standardjahr (12 x 28 Tage), kommt man auf 336 Tage. Die fehlenden ~30 Tage (bzw. 31 im Schaltjahr) verteilen sich über das Jahr, mit den Angelpunkten an den Sonnenwenden:
 
-*   **[[Lichthoch]] (Sommersonnenwende):** Das Fest des Lichts. Zwei Tage lang herrscht Helligkeit (oder zumindest sehr lange Tage). Es findet zwischen den Monaten **Triar** und **Querler** statt und markiert den Höhepunkt von Astraels Macht.
-*   **[[Dunkeltief]] (Wintersonnenwende):** Die Zeit der Finsternis. Drei Tage lang bleibt Felas Licht verborgen. Dies ist eine gefährliche Zeit zu Beginn des Monats **Oner**, in der Geister und [[Daemonen]] stärker sind. Der Tag davor (01. Oner) wird "Scheidetag" oder "Zapfenstreicher" genannt.
+*   **[[Lichthoch]] (Sommersonnenwende):** Das Fest des Lichts. Zwei Tage lang herrscht Helligkeit (alle 4 Jahre 3 Tage). Es findet zu Beginn des Monats **Querler** statt.
+*   **[[Dunkeltief]] (Wintersonnenwende):** Die Zeit der Finsternis. Drei Tage lang bleibt Felas Licht verborgen. Es beginnt im frühen **Oner**.
 
 ## Ären und Zählung
 

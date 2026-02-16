@@ -37,7 +37,8 @@ Nach ihrem Glauben wurden die Dwarschim von ihrem Schöpfergott (oft **Angrosch*
 ## [[index]]
 *   **König:** Die Bingen werden oft von einem Zwergenkönig oder einem Ältestenrat regiert.
 *   **Clans:** Die Zugehörigkeit zum Clan ist identitätsstiftend.
-*   **Frauen:** Zwergenfrauen sind selten und werden streng behütet. Nach der zwergischen Lehre der **[[Bartanatomie]]** spiegelt der Bart des Ehemannes die Ehre und Tüchtigkeit der gesamten Familie wider.
+*   **Gesellschaft:** Zwerge leben in einer streng patriarchalischen Gesellschaft. Zwar dürfen Zwerginnen prinzipiell jedem Handwerk nachgehen, doch müssen sich Kriegerinnen oft zehnmal mehr beweisen als ihre bärtigen Gefährten.
+*   **Der Bart (Mythen):** Es herrscht unter Zwergen der (unberechtigte!) Glaube, dass Frauen ohne Bart naiv und nur teilweise intelligent seien. Dennoch gelten sie im Vergleich zu anderen Rassen immer noch als weitaus klüger, was die zwergische Selbsteinschätzung unterstreicht.
 
 ### Bartanatomie (Subjektive Sicht)
 Der Bart eines Dwarschim ist weit mehr als Zierde:

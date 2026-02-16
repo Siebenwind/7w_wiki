@@ -158,12 +158,14 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Landrin_Eisklinge]] | Novize ([[Bellum]]) | [Bote 133] | 16 n.H. | #bote |
 | [[Lettre_Ulyssees]] | Redakteur | [[Draconis]] | 18 n.H. | #bote |
 | [[Llewellyen]] | Feldmeister | [Bote 143] | ~15 n.H. | #bote |
+| [[Levarum_I_ap_Morn]] | König von Galadon | [Der Elementare Pfad] | Historisch | #canon |
 | [[Madame_Delevha]] | Ex-Botenleitung / Wahrsagerin | [Bote 131] | ~15-17 n.H. | #bote |
 | [[Madame_Estrella]] | Chefredakteurin | [Bote 131] | ~15 n.H. | #bote |
 | [[Madame_Lafayette]] | Gönnerin (Mainland) | [L. eines Dichters] | 22 n.H. | #perspektive |
 | [[Lucy]] | Vogtin ([[Finsterwangen]]) | [Bote 190] | 29 n.H. | #bote |
 
 | [[Lysidia_Silithelen]] | Hofschneiderin | [Bote 135] | 16 n.H. | #bote |
+| [[Yslandar_Nyell_Mondenlaub]] | Erzmagier / Gründer En'Drûn | [Der Elementare Pfad] | Historisch (vor 300 J.) | #canon |
 | [[Khorne]] | Kriegsgott (Häresie) | [Astrael Batch] | Historisch | #überlieferung |
 | [[Kalveron_Dai]] | Hoher Arkanist (Weißer Zweig) | [De Magica Angamoniensis] / [System arkaner Lokalitäten] | 13/14 n.H. | #überlieferung |
 | [[Kida_Gilwen]] | Erzmaga / Zeittheoretikerin | [Bote 163] / [Erw. Sphärentheorie] | 18-19 n.H. | #bote |
@@ -212,6 +214,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Samira_Sandelholz]] | Heilerin / Novizin ([[01_Vitama|Vitama]]) | [Bote 133/174] | 16-20 n.H. | #bote |
 | [[Siegfried_Steiner]] | Großmeister / Heerführer | [Bote 171] | amtierend | #bote |
 | [[Tanja_Wollframm]] | Abrichterin / Jägerin | [Bote 193/194] | 36 n.H. | #bote |
+| [[Siegfried_I_ap_Mor]] | König von Galadon | [Der Elementare Pfad] | Historisch (vor 220 J.) | #canon |
 | [[Sepomuk_Schinderle]] | Templer / Boxkämpfer | [Bote 133] | 16 n.H. | #bote |
 | [[Sha'Naz'Ghul]] | Dämon (erwähnt) | [Bote 135] | Legendär | #bote |
 | [[Shabanna]] | Heilerin ([[Communis_Medici]]) | [Bote 133] | 16 n.H. | #bote |

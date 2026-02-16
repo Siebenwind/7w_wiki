@@ -13,7 +13,7 @@ tags: [Gott, Sahor, Tod, Traum, Ruhe, Winter]
 **Morsan** ist einer der vier Hauptgötter (Sahor) und der Herr über den Tod, den Schlaf und die Träume. Seine Domäne ist die ewige Ruhe, der Übergang vom Leben in das Jenseits (*Vidor*) und die Stille des Winters.
 
 ## Aspekte und Prinzipien
-- **Jahreszeit:** Winter
+- **Jahreszeit:** Winter (Verknüpft mit der schlafenden Natur und der absoluten Ruhe des Landes).
 - **Element:** Geist / Dunkelheit (als Ruhepol)
 - **Assoziierter Mond:** Dorayon (Der kleine, dunkle Mond). In der Astronomie oft als Morsans Auge bezeichnet, wird sein Einfluss heute oft als durch [[Angamon]] korrumpiert gefürchtet.
 - **Tugenden:** Unendliche Gelassenheit, Akzeptanz der Vergänglichkeit, Innenschau.

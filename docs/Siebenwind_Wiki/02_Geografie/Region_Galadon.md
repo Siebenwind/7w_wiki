@@ -15,7 +15,9 @@ author: [[Siebenwind]] Chronicler
 **Ausdehnung:** ca. 2/3 der Landmasse Falandriens
 
 ## Einleitung
-Das stolze Galadon ist das mächtigste Reich auf Falandrien. Es entstand im Jahr 341 nach Ende des Amulettkrieges durch die Vereinigung der Königreiche Galadon und Heredon. Es ist ein Land der Vielfalt, von den rauen Küsten des Nordens bis zu den fruchtbaren Ebenen des Südens.
+Das stolze Galadon ist das größte, wohlhabendste und mächtigste Reich auf Falandrien und nimmt fast zwei Drittel der Landmasse ein. In seinem Herzen liegt die beeindruckende Stadt **[[Draconis]]**, neben der sich die **Feste Bernstein** erhebt – der prunkvolle Sitz des Großkönigs.
+
+Das Reich entstand ursprünglich durch die Vereinigung der ehemals getrennten Königreiche Galadon und Heredon. Es ist ein Land der Vielfalt, von den rauen Küsten des Nordens bis zu den fruchtbaren Ebenen des Südens.
 
 ## Politische Gliederung
 Das Reich ist in zahlreiche Herzogtümer, Fürstentümer, Grafschaften und Baronien unterteilt.

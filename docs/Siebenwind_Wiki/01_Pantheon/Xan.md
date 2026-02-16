@@ -10,29 +10,34 @@ tags: [Elementarherr, [[Enhor]], Wasser, Eis, Magie]
 
 **Epistemischer Status:** #canon
 
-**Xan** ist einer der vier Elementarherren ([[Enhor]]) und der Herrscher über das Element Wasser. Er steht für Tiefe, Geheimnis, Heilung (Wasser des Lebens) und Wandelbarkeit (Eis, Wasserdampf, Fluss).
+**Xan** (bei den Elfen: **Maquira**) ist die Elementarherrin des Wassers und der Meere. Sie gilt als die Schutzherrin des Lebens und ist die Quelle, aus der alles Sein entspringt.
 
-## Aspekte und Prinzipien
-- **Element:** Wasser (auch Eis und Nebel)
-- **Charakter:** Unergründlich, fließend, manchmal still und tief, manchmal wild und reißend.
-- **Domäne:** Meere, Seen, Flüsse, Regen, Gletscher.
-- **Symbole:** Die Welle, der Dreizack, der Kelch (als Gefäß).
+## Symbole und Zuordnungen
+*   **Element:** Wasser
+*   **Beinamen:** Herrin der Flüsse und des Meeres, Herrin der Gezeiten, Quell des Lebens
+*   **Edelsteine:** Aquamarin, Mondstein
+*   **Metall:** Silber
+*   **Zeichen:** Wasserschale, Wellen, Fisch
+*   **Tiere:** Fisch, Krebs
+*   **Pflanzen:** Seerose
+*   **Farben:** Blau, Blaugrün, Türkis
 
-## Mythologie
-Xan ist der stillste der [[Enhor]]. Seine Tiefen bergen Geheimnisse, die selbst *[[05_Morsan]] (Tod)* respektiert. Er ist der Wächter über das Leben spendende Nass, ohne das nichts auf *[[Tare]]* gedeihen könnte.
+## Aspekte und Charakter
+Xan ist die Schutzpatronin der Fischer, Seefahrer und Heiler. Das Wasser, welches heilende Kräfte besitzt, macht sie zu einer zentralen Figur für das körperliche Wohlbefinden.
+*   **Rituale:** Das Schutzritual **Winter di Luce** wird in ihrem Namen vollzogen.
+*   **Ambivalenz:** Sie schenkt den Quell des Lebens, kann aber auch als Herrin der Gezeiten Schiffe in den Abgrund reißen.
 
-## Verehrung
-Fischer, Matrosen, Wäscherinnen und Heiler ehren ihn. Er gilt als Launisch: Ein ruhiges Meer kann schnell zum tosenden Sturm werden (oft im Streit mit *[[08_Ventus]]*).
+## Mythologie und Beziehungen
+*   **Geografie:** Zusammen mit [[Rien]] umhüllt sie den Leib Tares und macht die Welt bewohnbar.
+*   **Ignis:** Mit ihrem Bruder Ignis verbindet sie eine **Hassliebe**. Sie regulieren einander: Ihre Fluten kühlen Ignis' Hitze, während sein Feuer ihre Wogen im Zaum hält.
 
-## Magie (Elementarer Pfad)
-Wassermagier (Hydromanten) können heilen, Wasser atmen, Eiswände erschaffen oder Gegner einfrieren.
+## Kult und Brauchtum
+*   **Opfergaben:** Meeresfrüchte, Artefakte der Seefahrt, Heilkräuter.
+*   **Festtage:** 
+    *   **Tag des Wassers:** 30. Duler.
+    *   **Tag der Fischer und Seefahrer:** 8. Carmar.
+*   **Status:** Auf Siebenwind als Teil des Pantheons toleriert.
 
-## Beziehungen
-- **[[06_Ignis]] (Feuer):** Sein natürlicher Feind. Wasser löscht Feuer.
-- **[[07_Rien]] (Erde):** Wasser formt Erde (Flusstal), Erde begrenzt Wasser (Ufer). Eine symbiotische, aber spannungsgeladene Beziehung.
-- **[[08_Ventus]] (Luft):** Oft im Tanz vereint (Wellen, Sturm).
-
-## Verwandte Themen
-- [[00_Religion_Uebersicht]]
-- [[Magie_Grundlagen]]
-- [[Rasse_Elfen]] - Auenelfen leben oft an Flüssen.
+---
+**Siehe auch:** [[Das_Pantheon]], [[Enhor]], [[Ignis]], [[Siebenwind_Wiki/03_Gesellschaft/Heilkunst|Heilkunst]]
+**Quellen:** [[Die_Elementarherren_(Enhor)]] (#canon)

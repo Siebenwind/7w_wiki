@@ -14,7 +14,7 @@ tags: [Gott, Sahor, Krieg, Handwerk, Ehre, Herbst]
 **Bellum** ist der Schmied des Schicksals und der Hüter der Ehre. Er verkörpert die notwendige Stärke, um das Recht zu schützen, und die Disziplin, die aus roher Gewalt eine ritterliche Kunst formt. Er ist der Amboss, an dem die Seele der Insel in Zeiten der Not geschmiedet wird.
 
 ## Aspekte und Prinzipien
-- **Jahreszeit:** Herbst
+- **Jahreszeit:** Herbst (Verknüpft wegen der wilden, kraftvollen Stürme und dem flammenden Rot in den Bäumen).
 - **Element:** Feuer / Erde (Schmiede)
 - **Assoziierter Mond:** Keiner direkt. Es heißt, er habe sein Leuchten geopfert, um die Sterne am Firmament als ewige Wachtfeuer gegen die Finsternis [[Angamon]]s zu entzünden.
 - **Tugenden:** Stoische Tapferkeit, unbestechliche Ehre, schöpferische Kraft.

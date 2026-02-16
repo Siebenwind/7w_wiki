@@ -13,7 +13,7 @@ tags: [Gott, Sahor, Wissen, Magie, Recht, Sommer]
 **Astrael** ist einer der vier Hauptgötter (Sahor) und gilt als der Behüter des Wissens, der Magie und des Gesetzes. Er repräsentiert den Intellekt, die Ordnung und die Zivilisation.
 
 ## Aspekte und Prinzipien
-- **Jahreszeit:** Sommer
+- **Jahreszeit:** Sommer (Verknüpft wegen der klaren Luft, ein Symbol für kluges und klares Denken).
 - **Element:** Geist / Magie
 - **Zugehöriger Mond:** Astreyon (Der weiße Mond)
 - **Tugenden:** Weisheit, Wahrheit, Gerechtigkeit, Disziplin.

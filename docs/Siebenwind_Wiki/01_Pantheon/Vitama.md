@@ -13,7 +13,7 @@ tags: [Göttin, Sahor, Leben, Frieden, Liebe, Frühling]
 **Vitama** ist eine der vier Hauptgötter (Sahor) und die einzige weibliche Gestalt unter diesen. Sie verkörpert das blühende Leben, die Liebe, die Fruchtbarkeit, den Frieden und die Schönheit.
 
 ## Aspekte und Prinzipien
-- **Jahreszeit:** Frühling
+- **Jahreszeit:** Frühling (Verknüpft mit der Geburt, der Aussaat und dem Erwachen junger Gefühle).
 - **Element:** Wasser / Erde (Wachstum)
 - **Zugehöriger Mond:** Vitamalin (Der rosa Mond)
 - **Tugenden:** Barmherzigkeit, Liebe, Friedfertigkeit, Nächstenliebe, Heilkunst.

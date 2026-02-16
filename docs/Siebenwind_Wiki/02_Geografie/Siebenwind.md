@@ -9,22 +9,23 @@ category: [[Geografie]]
 **Typ:** Insel / Kronmark
 **Epistemischer Status:** #canon
 
-## Überblick
-**Siebenwind** ist die zentrale Insel und das Herz der Welt. Sie ist geprägt von dichten Wäldern, schroffen Gebirgen und fruchtbaren Ebenen. Politisch ist die Insel als **Kronmark Siebenwind** organisiert und untersteht der Verwaltung der Krone (aktuell vertreten durch Baronin [[Beladriel_Blaettertanz]]).
+## Politische Struktur
+Siebenwind ist eine **Baronie** des Königreiches Galadon. 
+*   **Herrschaft:** König **[[Hilgorad_I]]** und Königin **[[Brynn_I]]**. Ihr Wort ist Gesetz.
+*   **Verwaltung:** Die Insel wird stellvertretend für den Baron durch einen **Kanzler** geleitet (aktuell [[Adhemar_Ravenforth]]). 
+*   **Inselrat:** Der Kanzler wird vom **[[Inselrat]]** gewählt. Dieser setzt sich aus Vertretern der siedelnden Völker zusammen: [[Elfen]], [[03_Gesellschaft#Dwarschim|Zwerge]], [[Halblinge]], [[Nortraven]] und der orkische Stamm der **[[Kazla|Kaz'la]]**.
 
-## Wichtige Regionen
-- **[[Falkensee]]**: Die aktuelle Hauptstadt und das politische Zentrum der Kronmark.
-- **[[Brandenstein]]**: Aufstrebende Grenzstadt und Bollwerk.
-- **[[Rohehafen]]**: Die ehemalige Hauptstadt (Ruinen im [[Ödland]]).
-- **[[Brandenstein]]**: Eine aufstrebende Region im Herzogtum.
-- **Grönlanden**: Das fruchtbare Hinterland.
+## Aktueller Status: Die Ruinen von Siebenwind
+Laut aktueller Überlieferung liegt die Insel im Schatten schwerer Konflikte mit finsteren Mächten (Diener des [[Angamon]]).
+*   **Ruinen:** Die Siedlungen im **[[Oedland]]** sowie **[[Suedfall]]**, **[[Falkensee]]** und **[[Kesselklamm]]** liegen derzeit in **Ruinen**.
+*   **Schicksalsinsel:** Trotz der Zerstörung bleibt die Insel ein Magnet für Abenteurer, Magier und jene, die auf dem Festland gesucht werden.
 
-## [[Geschichte]]
-Die [[Geschichte]] der Insel ist geprägt von der Ankunft der [[Menschen]] unter König Hilgorad und dem mühsamen Aufbau einer Zivilisation inmitten wilder Gefahren. (Siehe auch [[Geschichte]])
+## Geschichte
+Die Insel wurde im Jahr **1 nach Hilgorad** von dem Nortraven **Armgard Torbenson** (Kapitän der *Nordwind*) entdeckt. Die Entdeckung fiel zusammen mit einer Weissagung, die dem Großkönig Hilgorad I. zuteil wurde: Nur fernab des Kontinents und mit der Hilfe aller Völker Falandriens könne man den Dämonenkönig [[Angamon]] endgültig besiegen. Seitdem ist die Insel das Schicksalspfand des Reiches. (Siehe auch [[Geschichte]])
 
 ---
-**Siehe auch:** [[Geografie]], [[Statut_der_Kronmark_Siebenwind]]
-**Quellen:** [Kanon], [[Die_Chronik]]
+**Siehe auch:** [[Geografie]], [[Inselrat]], [[Adhemar_Ravenforth]]
+**Quellen:** [[Die_Insel_Siebenwind]] (#canon), [Kanon], [[Die_Chronik]]
 
 ## Überlieferungen
 - [[Atmender_Tod]]: Erwähnung in der Überlieferung.

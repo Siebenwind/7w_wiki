@@ -10,29 +10,34 @@ tags: [Elementarherr, [[Enhor]], Feuer, Magie]
 
 **Epistemischer Status:** #canon
 
-**Ignis** ist einer der vier Elementarherren ([[Enhor]]) und der Herrscher über das Element Feuer. Er steht für Leidenschaft, Zerstörung, Reinigung und Wärme.
+**Ignis** (bei den Zwergen: **Arkadon**) ist einer der vier Elementarherren ([[Enhor]]) und der Herr von Feuer und Glut. Er verkörpert Leidenschaft, Wärme und unbändige Zerstörungskraft.
 
-## Aspekte und Prinzipien
-- **Element:** Feuer
-- **Charakter:** Impulsiv, unbändig, leidenschaftlich.
-- **Domäne:** Vulkane, Wüsten, Schmiedefeuer (zusammen mit [[03_Bellum]]).
-- **Symbole:** Die Flamme, der Drache (als Symbol der inneren Hitze).
+## Symbole und Zuordnungen
+*   **Element:** Feuer
+*   **Beinamen:** Herr der Flammen, Herr der Glut
+*   **Edelsteine:** Rubin, Pyrit
+*   **Metall:** Gold
+*   **Zeichen:** Lodernde Flammen, Vulkan
+*   **Tiere:** Tiger
+*   **Pflanzen:** Rose, Feuernelke
+*   **Farben:** Alle Rottöne, Rußschwarz
 
-## Mythologie
-Ignis wurde von *Galamnor* aus dem Urfeuer geformt. Er ist der wildeste der [[Enhor]]. Seine Macht kann Leben spenden (Wärme) oder alles vernichten (Brand). Er ist der Patron der Kampfmagier, die seine zerstörerische Kraft nutzen.
+## Aspekte und Charakter
+Ignis ist der leidenschaftlichste und ungezügeltste aller Elementarherren. Er gilt als streng und gerecht zu seinen Anhängern, aber unbarmherzig gegenüber seinen Feinden. 
+*   **Ambivalenz:** Er ist zugleich der Gott des rettenden **Herdfeuers** und der vernichtenden **Feuersbrunst**.
+*   **Schmiedekunst:** Wo sein Wirken auf Tare trifft, bilden sich Metalladern und Edelsteine.
 
-## Verehrung
-Ignis wird nicht wie die *Viere* in Tempeln verehrt, sondern eher gefürchtet und respektiert. Magier rufen ihn an, um Feuer zu kontrollieren. Schmiede bitten ihn um ein heißes Feuer.
+## Mythologie und Beziehungen
+*   **Xan:** Mit seiner Schwester Xan verbindet ihn eine tiefe **Hassliebe**. Sie regulieren einander: Xans Fluten löschen Ignis' Leidenschaft, wenn sie zu stark wird, während Ignis' Feuer die Wogen Xans zurückweichen lässt.
+*   **Bellum:** Er teilt sich die Domäne der Schmiedefeuer mit [[Bellum]], wobei Ignis die rohe Hitze und Bellum die Formgebung repräsentiert.
 
-## Magie (Elementarer Pfad)
-Anhänger des Elementaren Pfades, die sich Ignis verschreiben, können Feuerbälle schleudern, Flammenwände erschaffen oder sich selbst gegen Hitze immunisieren.
+## Kult und Brauchtum
+*   **Opfergaben:** Fleisch, Holz, Kohle, Weihrauch.
+*   **Festtage:** 
+    *   **Fest des Herdfeuers:** 6. Oner (Familienfest).
+    *   **Tag der Sonne:** 4. Querler.
+*   **Status:** Der Glaube an die Enhor wird auf Siebenwind toleriert und als Teil des Pantheons angesehen, während er in Teilen Galadons als Ketzerei gelten kann.
 
-## Beziehungen
-- **[[07_Rien]] (Erde):** Oft im Streit, da Feuer Erde verbrennt (Lava).
-- **[[09_Xan]] (Wasser):** Sein natürlicher Gegenspieler. Wasser löscht Feuer.
-- **[[08_Ventus]] (Luft):** Oft verbündet, da Luft das Feuer nährt.
-
-## Verwandte Themen
-- [[00_Religion_Uebersicht]]
-- [[12_Magie_Grundlagen]]
-- [[03_Bellum]] - Ignis respektiert die Schmiedekunst Bellums.
+---
+**Siehe auch:** [[Das_Pantheon]], [[Enhor]], [[Xan]], [[Bellum]]
+**Quellen:** [[Die_Elementarherren_(Enhor)]] (#canon)

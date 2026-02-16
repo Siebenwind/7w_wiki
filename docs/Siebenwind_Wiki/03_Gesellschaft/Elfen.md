@@ -27,10 +27,10 @@ In grauer Vorzeit, noch vor den Amulettkriegen, lebten alle Elfenvölker in [[Re
 *   **Glaube:** Verehren hauptsächlich **[[Rien]]**, die Herrin der Natur.
 *   **Beziehungen:** Misstrauisch gegenüber [[Rasse_Zwerge|Zwergen]] (Eisen/Technik) und städtischen [[Rasse_Menschen]].
 
-### 2. Auenelfen
-*   **Lebensraum:** Leben oft in den Auenlandschaften von **Lichtenfeld** oder im Herzogtum **[[Sae]]**.
-*   **Kultur:** Offener als Waldelfen, pflegen sie den Austausch mit [[Rasse_Menschen]]. Sie sind bekannt für ihre Kunstfertigkeit, Musik und Heilkunde.
-*   **Glaube:** Oft Anhänger von **[[Vitama]]** (Leben) oder **[[Ventus]]** (Freiheit).
+### 2. [[Auenelfen]]
+*   **Lebensraum:** Leben oft in den Auenlandschaften von **[[Region_Lichtenfeld|Lichtenfeld]]** oder im Herzogtum **[[Region_Sae|Sae]]**.
+*   **Kultur:** Geprägt von Gemeinschaftsbesitz und monumentalen Bibliotheken. Sie sind offener als Waldelfen, pflegen Musik, Heilkunde und Tauschhandel.
+*   **Glaube:** Verehren meist Tevra oder die Enhor, zeigen sich aber offen gegenüber der [[Kirche_der_Viere|Viererkirche]].
 
 ### 3. Hochelfen
 *   **Lebensraum:** Bevorzugen städtische Umgebungen. Große Populationen finden sich in **Librasulus** (Baronie Kettel) und **[[Draconis]]**.

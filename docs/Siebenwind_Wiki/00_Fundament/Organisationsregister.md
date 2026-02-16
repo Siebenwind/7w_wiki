@@ -49,8 +49,9 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Warenhaus_Vela_und_Arn]] | Handelshaus | [[Falkensee]] | #bote |
 | [[Orden_vom_Roten_Salamander]] | Alchemisten | Unbekannt | #bote |
 | [[Brandensteiner_Reiter]] | Botendienst / Reiterei | [[Brandenstein]] | #bote |
+| [[Ritterschaft_der_Sieben_Winde]] | Ritterorden / Mil. Führung | [[Burg_Seeberg]] (Erweitert) | #canon |
+| [[Ersonter_Bund]] | Politisches Bündnis | [[Falkensee]] | #bote |
 | [[Pakt_der_Viereinigkeit]] | Militärbündnis | [[Brandenstein]] / [[Falkenwall]] | #bote |
-| [[Ersonter_Bund]] | Politisches Bündnis | [[Ersont]] | #bote |
 | [[Bragarim]] | Militärische Garde ([[Dwarschim]]) | [[Kesselklamm]] | #canon |
 | [[Klauenwoelfe]] | Intelligentes Wolfsvolk | Klauenberge | #perspektive |
 | [[Lafays_Stab]] | Weißmagische Schule | Galadon | #perspektive |

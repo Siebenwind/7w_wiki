@@ -44,8 +44,10 @@ Die Orken sind technologisch vergleichsweise rückständig. Ihre Siedlungen best
 *   **Ausrüstung:** Die meisten Krieger tragen verstärkte Lederrüstungen. Nur höherrangige Orken verfügen über Eisenteile.
 *   **Bewaffnung:** Bevorzugt werden schwere Waffen wie Äxte, Streithämmer und mächtige Schwerter. Schilde werden als Zeichen von Feigheit (typisch für [[Galadon|Galadonier]]) abgelehnt. Fernwaffen (Bögen) werden primär für die Jagd genutzt.
 
-## Gesellschaftliche Struktur
-Die orkische Gesellschaft basiert auf einem disziplinierten Kastensystem, in dem Auf- und Abstieg durch Brutalität und rituelle Zweikämpfe (Turniere) geregelt werden. Auch die Position des Häuptlings wird so bestimmt.
+### Gesellschaftliche Struktur
+Die orkische Gesellschaft basiert auf einem disziplinierten Kastensystem, in dem Auf- und Abstieg durch Brutalität und rituelle Zweikämpfe geregelt werden. Auch die Position des Häuptlings wird so bestimmt.
+
+*   **Status der Frauen:** In ihrer Heimat werden orkische Weibchen stark unterdrückt und besitzen oft den Status von Sklaven, die für handwerkliche Arbeiten zuständig sind. Auf **[[Siebenwind]]** wird dies meist lockerer gesehen, doch auch hier müssen sich Orkenfrauen weitaus mehr beweisen als ihre männlichen Artgenossen, um Ansehen zu erlangen.
 *   **Schamanen:** Sie bilden eine Ausnahme in der intellektuellen Struktur. Schamanen sind oft belesen, beherrschen das Schreiben und können komplexe Diskussionen führen. Ihre Magie ist fast ausschließlich auf den Angriff fixiert.
 
 ## Verlinkte Themen

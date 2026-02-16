@@ -10,7 +10,13 @@ tags: [Gott, Antagonist, Böses, Zerstörung, Schatten]
 
 **Epistemischer Status:** #canon
 
-**Angamon** ist der Gegenpol zur Schöpfung und zu den *Vieren (Sahor)*. Er verkörpert das reine Böse, den Neid auf das Leben und den drängenden Wunsch, die Welt *[[Tare]]* zu vernichten.
+**Angamon** (oft auch "der Eine" oder "der Namenlose" genannt) ist der geächtete Sohn von **[[Vitama]]** und **[[Bellum]]**. Er ist der Urahn der Dämonen, das absolute Böse und der ewige Neider der Schöpfung.
+
+> [!IMPORTANT]
+> **Politischer Status:** Seit dem sogenannten **[[Götterwandel]]** und der Legitimierung durch den Zälaten **[[Argion]]** wird der Glaube an Angamon im Königreich Galadon nicht mehr als Ketzerei verfolgt. Er verkörpert nun offiziell die Prinzipien der Skrupellosigkeit und des Rechts des Stärkeren.
+
+### Motivation und Ziele
+Im Gegensatz zu den Dämonen der Niederhöllen, die die gesamte Schöpfung vernichten wollen, trachtet Angamon danach, die Welt **[[Tare]]** zu erobern und zu beherrschen. Er unterwarf die Höllenfürsten, um sie als Werkzeuge für seine Pläne zu instrumentalisieren.
 
 ## Aspekte und Prinzipien
 - **Element:** Leere / Schatten

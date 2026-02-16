@@ -10,29 +10,35 @@ tags: [Elementarherrin, [[Enhor]], Erde, [[Rasse_Zwerge]], Magie]
 
 **Epistemischer Status:** #canon
 
-**Rien** ist eine der vier Elementarherren ([[Enhor]]) und die Herrscherin über die Erde, den Fels und das Mineral. Sie steht für Stabilität, Beständigkeit, Fruchtbarkeit (als Nährboden) und Verteidigung.
+**Rien** (bei den Zwergen: **Terra**, bei den Elfen: **Tevra**) ist die Elementarherrin der Erde und des Waldes. Sie gilt als die sanftmütigste der [[Enhor]] und ist die Hüterin der Natur und des Gleichgewichts.
 
-## Aspekte und Prinzipien
-- **Element:** Erde
-- **Charakter:** Ruhig, unerschütterlich, mütterlich, aber auch starrköpfig.
-- **Domäne:** Berge, Höhlen, Ebenen, Ackerkrume.
-- **Symbole:** Der Fels, der Berg, der Kristall.
+## Symbole und Zuordnungen
+*   **Element:** Erde
+*   **Beinamen:** Herrin der Wälder, Mutter der Erde, Die Sanfte
+*   **Edelsteine:** Smaragd, Bernstein, Citrin
+*   **Metall:** Bronze
+*   **Zeichen:** Baum, Fels, Berg
+*   **Tiere:** Reh, Wolf
+*   **Pflanzen:** Alle Bäume, insbesondere der **Lohot Galad**
+*   **Farben:** Braun- und Grüntöne
 
-## Mythologie
-Rien ist eng mit *[[03_Bellum]] (Krieg/Schmied)* verbunden. Zusammen schufen sie die **Rasse_Zwerge**, wobei Rien ihnen den Körper aus Fels gab und [[03_Bellum]] ihnen den Geist des Handwerks einhauchte. Sie ist auch die Patronin der Landwirte, die ihre Erde bestellen.
+## Aspekte und Charakter
+Rien verkörpert Beständigkeit und Fruchtbarkeit. Sie regelt das Gleichgewicht zwischen Geburt und Tod sowie zwischen Jägern und Beute.
+*   **Heilung:** Sie schenkt Kräuter und Wissen für heilende Tränke.
+*   **Lebenskraft:** Im Frühling ist ihre Präsenz am stärksten, wenn sie die Natur aus der Starre des Winters befreit.
 
-## Verehrung
-[[Rasse_Zwerge]] ehren sie als die "Erste Mutter". Bauern opfern ihr die erste Ernte. Erdmagier rufen sie an, um Felswände zu erschaffen oder Erdbeben zu besänftigen.
+## Mythologie und Beziehungen
+*   **Erschaffung der Elfen:** Sie erschuf zusammen mit ihrer Schwester **Tare** das Volk der Elfen auf der Insel **Lothorien**.
+*   **Zwerge:** Zusammen mit [[Bellum]] (Arkadon) formte sie die **Zwerge**, indem sie ihnen Körper aus Fels gab.
+*   **Glaube:** Ihr Glaube ist besonders bei Bauern und Elfen (als Tevra) tief verwurzelt.
 
-## Magie (Elementarer Pfad)
-Der Pfad der Erde ist langsam, aber mächtig. Seine Anhänger können Mauern aus dem Boden wachsen lassen, sich in Stein verwandeln oder die Tragkraft von Erde beeinflussen.
+## Kult und Brauchtum
+*   **Opfergaben:** Edle Steine, Kräuter, Früchte.
+*   **Festtage:** 
+    *   **Fruchtbarkeits- und Blütenfest:** 20. Dular.
+    *   **Erntefest:** 29. Carmer.
+*   **Status:** Auf Siebenwind als Teil des Pantheons toleriert.
 
-## Beziehungen
-- **[[06_Ignis]] (Feuer):** Oft der Zerstörer ihrer Werke.
-- **[[08_Ventus]] (Luft):** Erosion trägt Fels ab. Rien ist oft genervt von seiner Flüchtigkeit.
-- **[[09_Xan]] (Wasser):** Wasser wäscht Stein aus, kann aber auch Leben spenden.
-
-## Verwandte Themen
-- [[00_Religion_Uebersicht]]
-- [[12_Magie_Grundlagen]]
-- [[20_Rassen_Zwerge]] - Ihre Kinder.
+---
+**Siehe auch:** [[Das_Pantheon]], [[Enhor]], [[Elfen]], [[03_Gesellschaft#Dwarschim|Zwerge]]
+**Quellen:** [[Die_Elementarherren_(Enhor)]] (#canon)

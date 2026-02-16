@@ -10,6 +10,10 @@ category: [[Geografie]]
 
 **Falkensee** ist das pulsierende Herz der Insel [[Siebenwind]]. Als größte Stadt der Insel fungiert sie nicht nur als politisches Machtzentrum, sondern auch als wirtschaftlicher Motor. Die Luft hier riecht nach Salz vom Meer, dem herben Qualm der Schmiedefeuer und dem Duft ferner Gewürze, die im Hafen entladen werden. Die Stadt vereint jahrhundertealte Traditionen der Ritterorden mit dem geschäftigen Treiben eines modernen Handelsplatzes.
 
+## Aktueller Status
+> [!WARNING]
+> Nach den jüngsten Konflikten mit den Mächten der Finsternis liegt **Falkensee derzeit in Ruinen**. Der Hafen und die prächtigen Bauten sind zerstört, doch Schatzsucher und Abenteurer suchen die Trümmer weiterhin nach Relikten der ritterlichen Vergangenheit ab.
+
 ## Geschichte & Entwicklung
 *   **Gründung:** Die Stadt wurde durch [[Fedral_Lavid]] aus dem Sumpf erschaffen. Er legte die Fundamente, den Marktplatz und die ritterlichen Bauwerke.
 *   **Umbau 18 n.H. (Bote 156):** Nach der Veröffentlichung der [[Siebenwindakte]] wurde die Stadt massiv umgebaut und erweitert. Die Stadtmauern wurden versetzt und verstärkt, neue Wachtürme errichtet und das Stadtbild neu geordnet, um der Rolle als Hauptstadt gerecht zu werden.

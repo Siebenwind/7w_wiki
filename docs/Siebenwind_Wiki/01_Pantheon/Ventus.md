@@ -10,29 +10,35 @@ tags: [Elementarherr, [[Enhor]], Luft, Wind, Magie]
 
 **Epistemischer Status:** #canon
 
-**Ventus** ist einer der vier Elementarherren ([[Enhor]]) und der Herrscher über das Element Luft. Er steht für Freiheit, Bewegung, Unbeständigkeit und den Geist (in seiner flüchtigen Form).
+**Ventus** (bei den Elfen: **Khaleb**) ist der Elementarherr der Luft und des Himmels. Er ist der unruhigste und flüchtigste der [[Enhor]] und wandert ohne Rast über die Welt [[Tare]].
 
-## Aspekte und Prinzipien
-- **Element:** Luft
-- **Charakter:** Frei, verspielt, unberechenbar, aber auch stürmisch und zerstörerisch.
-- **Domäne:** Himmel, Wind, Wolken, Stürme.
-- **Symbole:** Die Feder, der Adler, die Windhose.
+## Symbole und Zuordnungen
+*   **Element:** Luft
+*   **Beinamen:** Herr der Stürme und Winde, Herr des Himmels
+*   **Edelsteine:** Saphir
+*   **Metall:** Eisen
+*   **Zeichen:** Fernglas, Wind, Vogel
+*   **Tiere:** Falken, Adler
+*   **Pflanzen:** Schilf
+*   **Farben:** Weiß bis Hellgrau, Farben des Himmels
 
-## Mythologie
-Ventus ist der Bruder, der niemals ruht. Die [[Rasse_Elfen]] sagen, er sei derjenige, der die Samen der Pflanzen trägt und die Botschaften der Götter übermittelt. Er ist der Patron der Seefahrer (für guten Wind) und der Bogenschützen (für ruhige Luft).
+## Aspekte und Charakter
+Ventus verkörpert Freiheit und Voraussicht, ist aber auch sehr unbeständig. Er ist die Luft, die wir atmen, und das "seidene Sternentuch" am Nachthimmel.
+*   **Unstete Seelen:** Er ist der Patron der Suchenden, Abenteurer und Träumer.
+*   **Geografie:** Es heißt, er habe seine Stürme zurückgezogen, um den Menschen den Weg nach **Siebenwind** zu ermöglichen, wo sich die Prophezeiung erfüllen soll.
 
-## Verehrung
-Seefahrer und Händler opfern ihm vor jeder Reise. Magier der Luft wenden sich an ihn, um Stürme zu rufen oder lautlos wie der Wind zu werden.
+## Mythologie und Beziehungen
+*   **Windtänzer:** Schon früh bildeten Elfen die Gemeinschaft der **Windtänzer**, die seinem Ruf folgte.
+*   **Erschaffung:** Er trat den Menschen bereits wenige Jahrhunderte nach ihrer Erschaffung in Erscheinung.
+*   **Neutralität:** Kampfeslust liegt ihm fern; er zeichnet sich durch seine ausgewogene Voraussicht aus.
 
-## Magie (Elementarer Pfad)
-Der Pfad der Luft bietet Kontrolle über Winde (Segel setzen, Gegner wegwehen), Unsichtbarkeit oder das Schweben.
+## Kult und Brauchtum
+*   **Opfergaben:** Sternsaphire, Weihrauch, Artefakte der Sternkunde.
+*   **Festtage:** 
+    *   **Sommersonnenwende (Lichthoch):** 21. Trier.
+    *   **Wintersonnenwende (Dunkeltief):** 21. Seker.
+*   **Status:** Auf Siebenwind als Teil des Pantheons toleriert.
 
-## Beziehungen
-- **[[07_Rien]] (Erde):** Sein Gegenpol. Erde ist fest, Luft ist flüchtig.
-- **[[06_Ignis]] (Feuer):** Oft verbündet, da Wind Feuer anfacht.
-- **[[09_Xan]] (Wasser):** Wasser verdunstet zu Wolken, Wolken regnen Wasser. Ein ewiger Kreislauf.
-
-## Verwandte Themen
-- [[00_Religion_Uebersicht]]
-- [[12_Magie_Grundlagen]]
-- [[21_Rassen_Elfen]] - Besonders die *Windtänzer* (eine Elfenklasse) verehren ihn.
+---
+**Siehe auch:** [[Das_Pantheon]], [[Enhor]], [[Ecclesia_Elementorum]], [[Region_Siebenwind]]
+**Quellen:** [[Die_Elementarherren_(Enhor)]] (#canon)

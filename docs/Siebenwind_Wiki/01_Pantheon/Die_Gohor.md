@@ -10,9 +10,9 @@ tags: [Schöpfung, [[Drachen]], Religion]
 
 **Epistemischer Status:** #canon
 
-Die **Gohor** sind die ältesten und mächtigsten Entitäten des Universums. Ihrer Existenz entstammt alles Sein. Sie werden als **Ur-[[Drachen]]** verehrt, die jenseits von Raum und Zeit existieren.
+Die **Gohor** sind die unsterblichen Herren (aus alt-galad *go* = unsterblich und *hor* = Herren/Könige) und die mächtigsten Entitäten des Universums. Man kennt **zwei Hauptdrachen**, aus denen alle anderen entstanden sind.
 
-## Die Drei Ur-Wesen
+## Die zwei Ur-Wesen
 
 ### 1. Timanor (Zeit)
 Der "Vater der Zeit". Timanor ist die ewige Konstante, die den Fluss der Ereignisse ermöglicht. Ohne ihn gäbe es kein Vorher und kein Nachher, nur einen ewigen Stillstand.

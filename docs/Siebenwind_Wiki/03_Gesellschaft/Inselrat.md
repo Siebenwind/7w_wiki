@@ -16,18 +16,14 @@ category: [[Gesellschaft]]
 Der **Inselrat** war das oberste administrative und gerichtliche Gremium der Insel [[Siebenwind]] bis zu seiner Auflösung im Jahr 20 n.H.
 
 ## Sitz und Zusammensetzung
-Der Inselrat tagt in der Burg [[Finianswacht]] in [[Falkensee]]. Er setzt sich aus Vertretern der verschiedenen Siedlungen und Völker zusammen:
+Der Inselrat tagt (historisch) in der Burg [[Finianswacht]] in [[Falkensee]]. Nach kanonischer Ordnung setzt er sich aus Vertretern der siedelnden Völker zusammen, die jeweils ein Mitglied entsenden:
+*   **[[Elfen]]**
+*   **[[03_Gesellschaft#Dwarschim|Zwerge]]**
+*   **[[Halblinge]]**
+*   **[[Nortraven]]**
+*   **[[Kazla|Kaz'la]]** (Orks)
 
-### Stimmberechtigte Mitglieder (Auszug)
-*   **Falkensee:** (4 Stimmen)
-*   **Brandenstein:** (2 Stimmen)
-*   **Südfall:** (2 Stimmen)
-*   **Dwarschim:** (3 Stimmen)
-*   **Nortraven:** (2 Stimmen)
-*   **Hobbits:** (2 Stimmen)
-*   **Magierturm:** (1 Stimme)
-*   **Hochelfen:** (1 Stimme)
-*   **Kaufmannsgilde:** Erzprinzipial [[Johannes_Tiberias]] (Aufgenommen 20 n.H.)
+Der Inselrat wählt aus seinen Reihen (oder extern) den **Kanzler Siebenwinds**, der die Amtsgeschäfte stellvertretend für den Baron leitet.
 
 ## Finanzregelung (20 n.H.)
 Seit dem 23. Onar 20 n.H. gilt eine neu geordnete Abgabenregelung. Die Siedlungen führen einen Teil ihrer Pachten an die Kronmark ab. Diese Gelder werden zwischen den Inselpatriziern (90%) und dem Inselrat (10%) aufgeteilt. Die Ratskasse dient der Finanzierung gemeinnütziger Projekte (z.B. Bau eines Flaggschiffs, Begrünungsprojekte, Hospizkosten).
