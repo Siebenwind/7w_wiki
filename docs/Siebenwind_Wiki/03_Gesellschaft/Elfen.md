@@ -10,46 +10,48 @@ author: [[Siebenwind]] Chronicler
 **Epistemischer Status:** #canon
 
 **Kategorie:** Rasse
-**Unterarten:** Waldelfen (Tiefenwald), Auenelfen (Lichtenfeld/[[Sae]]), Hochelfen (Städte/Librasulus)
+**Unterarten:** Waldelfen (Tiefenwald), Auenelfen (Lichtenfeld/[[Region_Sae|Sae]]), Hochelfen (Städte/Librasulus)
+**Eigenbezeichnung:** Fey
+**Sprache:** Auriel (Elfisch), Galad (Gemeinsprache)
 **Glaube:** [[Rien]] (Natur), [[Xan]] (Magie/Wissen), oder die Viere allgemein
 
 ## Einleitung
-Die Elfen (das "Alte Volk") sind eine der ältesten Rassen Falandriens. Sie zeichnen sich durch ihre Langlebigkeit, ihre magische Begabung und ihre tiefe Verbundenheit zur Natur (oder zur Magie selbst) aus. Auf [[Siebenwind]] und in Galadon unterscheidet man drei Hauptvölker.
+Die Elfen, in ihrer eigenen Sprache **Fey** genannt, sind ein langlebiges Volk, das tief mit dem Gefüge von [[Tare]] und dem Wirken der [[01_Enhor|Elementarherren]] verbunden ist. Ihr Ursprung liegt im fernen Land [[Region_Auren|Auren]] (auch Ma'ahn genannt) auf dem Festland Falandrien, wobei Legenden von einer noch ferneren Insel namens **Lothorien** berichten.
 
-## Herkunft: Das Land [[Region_Auren|Auren]]
-In grauer Vorzeit, noch vor den Amulettkriegen, lebten alle Elfenvölker in [[Region_Auren|Auren]], einer fruchtbaren Wildnis jenseits der Mauer von [[Ma'ahn]]. Während Wald- und Auenelfen dort noch immer anzutreffen sind, haben sich viele Sippen über ganz Falandrien verbreitet.
+## Herkunft und Schöpfung
+Nach der Überlieferung entstanden die Elfen im Zweiten Zeitalter aus den Träumen der Götter (oft **Tare** und **Tevra** zugeschrieben). Das erste Elfenpaar, **Athanael** und **Galathal**, erwachte auf der Insel Lothorien, bevor ihre Nachfahren mit den legendären *Feybar* (Elfenschiffen) die Küsten von Falandrien erreichten.
 
 ## Die Völker der Elfen
+Durch kulturelle und elementare Spezialisierung haben sich die Elfen in drei Hauptvölker aufgeteilt:
 
 ### 1. Waldelfen (Sylvaner)
 *   **Lebensraum:** Vorwiegend in den tiefen Wäldern des Fürstentums **Tiefenwald** und im **Seelenwald**.
-*   **Kultur:** Leben zurückgezogen in Sippenverbänden, eins mit der Natur. Sie sind begnadete Bogenschützen und Fährtenleser.
-*   **Glaube:** Verehren hauptsächlich **[[Rien]]**, die Herrin der Natur.
-*   **Beziehungen:** Misstrauisch gegenüber [[Rasse_Zwerge|Zwergen]] (Eisen/Technik) und städtischen [[Rasse_Menschen]].
+*   **Philosophie:** Das **Terthao** (Gleichgewicht der Natur). Sie leben so eins mit dem Wald, dass sie keine Spuren hinterlassen.
+*   **Glaube:** Verehren hauptsächlich **[[Rien]]**.
+*   **Magie:** Intuitive Natur- und Traummagie.
 
 ### 2. [[Auenelfen]]
-*   **Lebensraum:** Leben oft in den Auenlandschaften von **[[Region_Lichtenfeld|Lichtenfeld]]** oder im Herzogtum **[[Region_Sae|Sae]]**.
-*   **Kultur:** Geprägt von Gemeinschaftsbesitz und monumentalen Bibliotheken. Sie sind offener als Waldelfen, pflegen Musik, Heilkunde und Tauschhandel.
-*   **Glaube:** Verehren meist Tevra oder die Enhor, zeigen sich aber offen gegenüber der [[Kirche_der_Viere|Viererkirche]].
+*   **Lebensraum:** Auenlandschaften von **[[Region_Lichtenfeld|Lichtenfeld]]** oder im Herzogtum **[[Region_Sae|Sae]]**.
+*   **Kultur:** Etwas sesshafter, pflegen Bibliotheken und Dressur von Nutztieren (Pferden). Sie sind die Bewahrer der Geschichte (Dämmerungs-Zyklus).
+*   **Glaube:** Verehren oft Tevra oder Maquira (Herrin des Wassers).
 
-### 3. Hochelfen
-*   **Lebensraum:** Bevorzugen städtische Umgebungen. Große Populationen finden sich in **Librasulus** (Baronie Kettel) und **[[Draconis]]**.
-*   **Kultur:** Hochzivilisiert, stolz und oft akademisch. Sie sind Meister der arkanen Magie, der Architektur und der Schneiderkunst (Librasulus).
-*   **Glaube:** Verehren oft **[[Xan]]** (Magie/Wissen) oder **[[Astrael]]**.
+### 3. [[Hochelfen]]
+*   **Lebensraum:** Städte wie **Librasulus** (Baronie Kettel) oder **[[Draconis]]**.
+*   **Kultur:** Eine Hochkultur, geprägt von Wissensdurst, Architektur und komplizierten arkanen Studien. Sie haben den "Traum der Wälder" weitgehend gegen den Traum der Zivilisation eingetauscht.
+*   **Magie:** Fokus auf arkane Magie, oft unter dem Patronat von **[[Astrael]]**.
 
 ## Biologie und Eigenschaften
 *   **Langlebigkeit:** Elfen werden mehrere hundert Jahre alt.
-*   **Ohren:** Markante, spitze Ohren.
-*   **Magie:** Fast alle Elfen besitzen eine angeborene Begabung für Magie, sei es druidischer (Wald) oder arkaner (Hoch) Art.
+*   **Narbenlose Heilung:** Eine Besonderheit der elfischen Physiologie (insbes. Hochelfen) ist, dass Wunden fast narbenlos verheilen.
+*   **Magiebegabung:** Beinahe jeder Elf besitzt eine angeborene magische Ader.
 
 ## Beziehungen zu anderen Völkern
-*   **[[Rasse_Menschen]]:** Wechselhaft. Hochelfen sind integriert, Waldelfen isoliert. Generell friedly, aber Elfen betrachten [[Rasse_Menschen]] oft als "kurzlebig und hastig".
-*   **[[Rasse_Zwerge]]:** Kühle Distanz bis Abneigung. Die "Steinbeißer" gelten als naturfern und grob.
-*   **[[Rasse_Orken]]:** Feindschaft. Orks zerstören die Natur, was sie zu natürlichen Feinden der Elfen macht.
-
-## Überlieferungen
-- [[Auren und die Verbreitung der Elfenvölker]]: Primärquelle zur Herkunft und Verteilung.
+*   **[[Rasse_Menschen]]:** Wechselhaft. Hochelfen bewundern den Fortschritt der Menschen in ihrer kurzen Lebensspanne; Waldelfen betrachten sie oft als "hastig und zerstörerisch".
+*   **[[Rasse_Zwerge]]:** Kühle Distanz. Die "Steinbeißer" gelten als naturfern. Zwerge wiederum betrachten Elfen oft als "Baumkuschler".
+*   **[[Rasse_Orken]]:** Erbfeindschaft. Orks gelten als Zerstörer des natürlichen Gleichgewichts.
 
 ## Quellen
-- [[Auren und die Verbreitung der Elfenvölker]] (#canon)
-- [[Region_Auren]]
+- [[Waldelfen | Siebenwind | Ultima Online Freeshard | Siebenwind.md]] (#canon)
+- [[Hochelfen | Siebenwind | Ultima Online Freeshard | Siebenwind.md]] (#canon)
+- [[Auenelfen | Siebenwind | Ultima Online Freeshard | Siebenwind.md]] (#canon)
+- [[Auren und die Verbreitung der Elfenvölker]] (#canon)

@@ -18,6 +18,9 @@ Zu Beginn des 3. Zeitalters führten die Mondamulette zu verheerenden Kriegen. N
 
 ## Verbleib
 Da die Artefakte unzerstörbar sind, konnten sie nur gebunden werden. Neun der Amulette wurden von den Göttern an geheimen Orten auf [[Tare]] versteckt. 
+
+### Geschichte
+Die Amulette sind Relikte aus den sogenannten **Amulettkriegen** (vor über 5000 Jahren), in denen die Mächtigen um die Kontrolle über die arkanen Ströme Tares rangen. Nach dem Ende dieser Kriege (0 n.E.A.) begann die moderne Geschichtsschreibung Falandriens.
 *   **Das zehnte Amulett:** Das "Meisteramulett" wurde mit eigenem Leben beseelt. Es wandert seither von Träger zu Träger, um eine erneute Vereinigung aller zehn Artefakte – und damit das Ende der Welt – zu verhindern.
 
 ## Bedeutung heute

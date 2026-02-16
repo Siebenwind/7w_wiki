@@ -1,47 +1,35 @@
----
-layout: wiki_page
-title: Auenelfen
-category: Rasse
-status: Kanon
----
-
 # Auenelfen
 
 **Epistemischer Status:** #canon
 
-Die **Auenelfen** sind die sesshafteren Brüder und Schwestern der [[Waldelfen]]. Sie verließen früh den Schutz der Wälder, um in den weiten Auen von [[Region_Auren|Auren]] unter freiem Himmel zu leben. Sie sind bekannt für ihre Musikalität, ihre soziale Wärme und ihre bedeutenden Bibliotheken.
+**Kategorie:** Rasse
+**Volk:** Auenelfen (Fey)
+**Sprache:** Auriel (Elfisch)
+**Glaube:** Tevra (Göttin der Auen), Maquira
+
+## Einleitung
+Die **Auenelfen** sind die sesshafteren Brüder und Schwestern der [[Waldelfen]]. Sie verließen früh den Schutz der Wälder, um in den weiten Auen von [[Region_Auren|Auren]] unter freiem Himmel zu leben. In der Sprache der **Fey** (Elfen) werden sie oft als kulturelles Bindeglied zu den Menschenreichen angesehen.
 
 ## Biologie und Erscheinungsbild
-*   **Größe:** 1,80 m bis 2,20 m (Mann wie Frau).
+*   **Größe:** 1,80 m bis 2,20 m.
 *   **Physiologie:** Schlanker, aber etwas kräftiger als Waldelfen. Markante Gesichtszüge, oft animalische Anmut.
-*   **Augen:** Tiefblau (wie der Sommermorgen) oder Grün (wie die März-Aue).
-*   **Haar:** Voll und kräftig, von Gold bis Schwarz.
-*   **Alter:** Auenelfen kennen keinen natürlichen Alterstod. Sie sterben meist freiwillig ("Abschluss des Lebens") oder durch Gewalt. Ein Alter von über 500 Jahren gilt als ehrwürdig.
-*   **Magie:** Angeborene Begabung bei *allen* Auenelfen, jedoch moderater und weniger wild als bei Waldelfen.
+*   **Besonderheit:** Wie alle Fey besitzen sie eine instinktive Magiebegabung und heilen fast narbenlos.
 
 ## Herkunft und Geschichte
-*   **Erschaffung:** Geboren im Zweiten Zeitalter Tares, geschaffen durch die **[[Elementarherren]]** (Enhor).
-*   **Die Trennung:** Ein Teil der Elfen wurde während einer gewaltigen Naturkatastrophe (dem "Dämmerungs-Zyklus") gezwungen, die schützenden Wälder zu verlassen und sich in den Auen anzupassen.
-*   **Miandrell:** Die Wiege des Auenelfenreiches im Westen Aurens. Ein Ort von legendärer Pracht und Fruchtbarkeit, der als heiliger Schrein verehrt wird.
+*   **Erschaffung:** Geboren im Zweiten Zeitalter Tares, geschaffen durch die Elementarherren.
+*   **Die Trennung:** Während des "Dämmerungs-Zyklus" (einer uralten Katastrophe) passten sie sich an das Leben in den offenen Auen an und begannen, Nutztiere wie Pferde zu züchten.
+*   **Miandrell:** Ihre mythische Wiege im Westen Aurens.
 
 ## Gesellschaft und Kultur
 Auenelfen leben in autarken Dorfgemeinschaften.
-*   **Sozialprinzip:** In Dörfern wie [[Avindhrell]] herrscht das Prinzip des **Gemeinschaftsbesitzes**. Wichtige Güter und Nahrung werden in einer "Gemeinschaftskiste" geteilt (kein Unterschied zwischen Arm und Reich).
-*   **Hierarchie:** Keine festen Kasten. Ein **Dorfrat** aus Ältesten entscheidet in seltenen Fällen.
-*   **Dienst an der Gemeinschaft:** Handwerk, Kunst und Tauschhandel sind hoch angesehen.
-*   **Bibliotheken:** Auenelfen legen großen Wert auf ihre Geschichte und führen monumentale Aufzeichnungen, die bis zur "Dämmerung" zurückreichen.
+*   **Bibliotheken:** Sie sind die eifrigsten Chronisten unter den Elfen und pflegen monumentale Bibliotheken über die Geschichte der Fey.
+*   **Gemeinschaftsbesitz:** In ihren Siedlungen herrscht oft ein ausgeprägter Sinn für Teilen und Gemeinschaft (siehe [[Avindhrell]]).
+*   **Elendur:** Die kampfgeschulten Verteidiger der Auenlandschaften.
 
-### Die Elendur
-Die **Elendur inn Amrai** sind die Beschützer der Auen. Sie setzen sich aus Kampftänzern, Waldläufern und Jägern zusammen, die bereit sind, die Gemeinschaft bis zum Äußersten zu verteidigen.
+## Abneigungen
+*   **Untergrund:** Auenelfen meiden Höhlen und Dungeons (Platzangst).
+*   **Hochsee:** Sie fischen küstennah, scheuen aber die Fahrt über das offene Meer.
 
-## Abneigungen und Tabus
-*   **Höhlen:** Auenelfen verspüren ein tiefes Unbehagen in geschlossenen Räumen unter der Erde (Höhlen, Dungeons).
-*   **Hochsee:** Sie nutzen Boote zum Fischen, meiden aber die offene See ohne Sicht auf das Festland.
-*   **Materialien:** Sie bewahren eine Distanz zu "toten" Materialien wie Stein und Eisen, nutzen diese aber bei Bedarf eher als Waldelfen.
-
-## Glaube
-Obwohl sie meist **Tevra** oder die Enhor (insb. **[[Xan]]** oder **[[Ventus]]**) verehren, zeigen sie sich gegenüber dem Glauben an die [[Kirche_der_Viere|Vier Götter]] flexibler als andere Elfenvölker. Das Ziel ihrer Seelen nach dem Tod ist das Totenreich **Lothorien**.
-
----
-**Siehe auch:** [[Elfen]], [[Waldelfen]], [[Hochelfen]], [[Region_Auren]]
-**Quellen:** [[Auenelfen]] (#canon)
+## Quellen
+- [[Auenelfen | Siebenwind | Ultima Online Freeshard | Siebenwind.md]] (#canon)
+- [[Elfen]]

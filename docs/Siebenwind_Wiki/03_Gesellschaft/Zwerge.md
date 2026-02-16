@@ -12,48 +12,40 @@ author: [[Siebenwind]] Chronicler
 **Kategorie:** Rasse
 **Eigenbezeichnung:** Dwarschim
 **Unterarten:** Bergzwerge (Bingen), Talzwerge (Oberirdisch)
-**Glaube:** Angrosch (Schöpfer/Schmied), oft assoziiert mit [[03_Bellum]] oder [[06_Ignis]]
+**Glaube:** Angrosch (Schöpfer/Schmied; oft mit [[03_Bellum]] oder [[06_Ignis]] gleichgesetzt)
 
 ## Einleitung
-Die Zwerge, oder Dwarschim, wie sie sich selbst nennen, sind ein Volk von kleiner Statur, aber enormer Kraft und handwerklichem Geschick. Sie sind die Meister des Bergbaus, der Metallverarbeitung und der Architektur.
+Die Zwerge, oder **Dwarschim**, wie sie sich selbst nennen, sind ein Volk von kleiner Statur, aber enormer Kraft und handwerklichem Geschick. Sie gelten als die unbestrittenen Meister des Bergbaus, der Metallurgie und der Architektur.
+
+## Herkunftsmythos: Die Geburt aus dem Stein
+Nach dem zwergischen Glauben wurden die Dwarschim von ihrem Schöpfergott aus dem Fels gehauen und mit dem heiligen Feuer der Esse beseelt. Diese tiefe Verbindung zum Gestein prägt ihre gesamte Kultur:
+*   **Die Esse:** Zentrales Symbol des Glaubens und Ort der Erschaffung.
+*   **Schmiedekunst:** Gilt nicht bloß als Handwerk, sondern als heiliger Akt der Vollendung von Materie.
+*   **Tod und Rückkehr:** Stirbt ein Zwerg, so glauben die Dwarschim, dass seine Seele in den Stein zurückkehrt, um eins mit dem Fundament der Welt zu werden.
 
 ## Die Völker der Zwerge
 
 ### 1. Bergzwerge
-*   **Lebensraum:** Leben in riesigen unterirdischen Städten, den **Bingen**. Bekannte Bingen liegen im **Klauengebirge**, der **Drachenschwinge** (Tiefenwald) und im **Dabus**-Massiv.
-*   **Kultur:** Streng traditionell, organisiert in Kasten und Zünften. Ehre, Ahnenkult und der Besitz von Gold und Edelsteinen spielen eine große Rolle.
-*   **Handwerk:** Schaffen die besten Waffen und Rüstungen Falandriens.
+*   **Lebensraum:** Leben in riesigen unterirdischen Städten, den **Bingen** (z.B. im Klauengebirge oder der Drachenschwinge).
+*   **Kultur:** Streng traditionell, patriarchalisch und organisiert in Zünften. Sie sind berüchtigt für ihren "Sturkopf" und ihr Misstrauen gegenüber Fremden.
+*   **Spezialisierung:** Förderung von **Fethril**, dem stärksten Metall Tares.
 
 ### 2. Talzwerge
-*   **Lebensraum:** Leben oberirdisch in Tälern, oft am Fuße der Gebirge (z.B. **Narko** in Kettel oder **Fordergord** in Tiefenwald).
-*   **Kultur:** Etwas offener als ihre Bergbrüder. Sie betreiben auch Ackerbau, Handel und sind Schnittstelle zwischen Bingen und [[Rasse_Menschen]].
-*   **Eigenschaften:** Oft "gemütlicher" und weniger verbittert als Bergzwerge, aber genauso stur.
+*   **Lebensraum:** Siedeln oberirdisch in Tälern, oft am Fuße der Gebirge (z.B. **Narko** in Kettel).
+*   **Kultur:** Gemütlicher und dem Handel zugeneigt. Sie dienen oft als Bindeglied zwischen den isolierten Bingen und den Menschenreichen.
+*   **Handwerk:** Geschickt in "fizzeligen" Dingen wie Feinmechanik, Uhrenbau und Alchemie.
 
-## Herkunft und Götter
-Nach ihrem Glauben wurden die Dwarschim von ihrem Schöpfergott (oft **Angrosch** genannt, in Galadon teils mit Aspekten von **[[06_Ignis]]** oder **[[03_Bellum]]** identifiziert) aus dem Fels gehauen und mit Feuer beseelt.
-*   **Die Esse:** Das zentrale Symbol ihres Glaubens.
-*   **Schmiedekunst:** Gilt als heiliger Akt.
+## Gesellschaft und Bräuche
+*   **Der Bart:** Mehr als Zierde; er gilt als Speicher von Ehre und Intelligenz. Ein Bart wird rituell mit Met gepflegt.
+*   **Frauen der Dwarschim:** Physisch ebenso kräftig wie die Männer, nehmen sie oft am Handwerk teil, müssen sich aber in der kriegerischen Gesellschaft oft stärker beweisen.
+*   **Fethril:** Das "Himmelsmetall". Rüstungen aus Fethril sind das wertvollste Gut eines Zwergenclans.
 
-## [[index]]
-*   **König:** Die Bingen werden oft von einem Zwergenkönig oder einem Ältestenrat regiert.
-*   **Clans:** Die Zugehörigkeit zum Clan ist identitätsstiftend.
-*   **Gesellschaft:** Zwerge leben in einer streng patriarchalischen Gesellschaft. Zwar dürfen Zwerginnen prinzipiell jedem Handwerk nachgehen, doch müssen sich Kriegerinnen oft zehnmal mehr beweisen als ihre bärtigen Gefährten.
-*   **Der Bart (Mythen):** Es herrscht unter Zwergen der (unberechtigte!) Glaube, dass Frauen ohne Bart naiv und nur teilweise intelligent seien. Dennoch gelten sie im Vergleich zu anderen Rassen immer noch als weitaus klüger, was die zwergische Selbsteinschätzung unterstreicht.
+## Beziehungen
+*   **[[Rasse_Menschen]]:** Respektvolle Handelspartner. Zwerge schätzen galadonisches Bier und Gold.
+*   **[[Rasse_Elfen]]:** "Baumkuschler". Man begegnet sich mit gegenseitiger Arroganz und Unverständnis.
+*   **[[Rasse_Orken]]:** Erbfeindschaft. Der Kampf um die tiefen Minen währt seit Äonen.
 
-### Bartanatomie (Subjektive Sicht)
-Der Bart eines Dwarschim ist weit mehr als Zierde:
-- **Wachstum durch Ehre:** Ein Bart wächst durch ehrenhafte Arbeit und absolute Ehrlichkeit.
-- **Kraft & Intelligenz:** Ein langer Bart spendet dem Träger zusätzliche physische Stärke und geistige Klarheit.
-- **Pflege:** Niemals mit Wasser! Ein echter Dwarschim-Bart wird rituell mit Met gereinight, um Glanz und Duft zu bewahren.
-
-## Beziehungen zu anderen Völkern
-*   **[[Rasse_Menschen]]:** Gute Handelsbeziehungen. Zwerge schätzen galadonisches Bier und Gold, [[Rasse_Menschen]] schätzen zwergische Waffen.
-*   **[[Rasse_Elfen]]:** "Baumkuschler". Man geht sich aus dem Weg. Zwerge finden Rasse_Elfen arrogant und schwächlich, [[Rasse_Elfen]] finden Zwerge gierig und grob.
-*   **[[Rasse_Orken]]:** Erbfeindschaft. Der Kampf um die Berge und Bingen tobt seit Urzeiten.
-*   **[[Rasse_Halblinge]]:** Manchmal belächelt, aber als Handelspartner für Nahrungsmittel geschätzt.
-
-## Verlinkte Themen
-*   [[Region Kettel|Narko]]
-*   [[Region Tiefenwald|Drachenschwinge]]
-*   [[Gott Bellum]]
-*   [[Gott Ignis]]
+## Quellen
+- [[Zwerge | Siebenwind | Ultima Online Freeshard | Siebenwind.md]] (#canon)
+- [[Talzwerge | Siebenwind | Ultima Online Freeshard | Siebenwind.md]] (#canon)
+- [[Über Dunkeleisen und wieso man es auch Schwarzgold nennt.md]]

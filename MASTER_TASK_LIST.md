@@ -5,13 +5,13 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-16 17:15 (Antigravity -> User)
-- **Status**: Workflows konsolidiert; CLI `7w_wiki.py` vervollständigt (Phase 1.13 abgeschlossen).
+- **Last Handover**: 2026-02-16 18:30 (Antigravity -> User)
+- **Status**: Phase 1.15 complete; Batch 4 (Societies) fully integrated.
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [ ] **Silicon Inquisition**: Fortsetzung der v2.7 Migration (Batch 4+).
+- [ ] **Silicon Inquisition**: Fortsetzung der v2.7 Migration (Batch 5+).
 - [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - *Delegiert an Ingestor*.
 
 ## 🟡 Priorität 2: Operative Ingestion (Inhalte)
@@ -44,6 +44,15 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ---
 
 ---
+
+<details open>
+<summary><b>Phase 1.15: Silicon Inquisition Batch 4 - Societies & Cultures (Feb 2026)</b></summary>
+
+- **Race Enrichment**: Major races (Elves, Dwarves, Nortraven, Myten) updated with creation myths and religious foundations (Thjarek/Eydis).
+- **Sub-Race Architecture**: Created dedicated articles for Hochelfen, Waldelfen, Auenelfen.
+- **Social Infrastructure**: Implementation of the Prison System (Gefaengnissystem) and Measurement Units (Masseinheiten).
+- **Register Synchronization**: 10+ historical figures added to registers; Armgard Torbenson spelling corrected.
+</details>
 
 <details open>
 <summary><b>Phase 1.14: Silicon Inquisition Batches 2 & 3 (Feb 2026)</b></summary>

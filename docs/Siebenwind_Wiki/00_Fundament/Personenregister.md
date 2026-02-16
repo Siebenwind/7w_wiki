@@ -22,8 +22,12 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Arlin_Sturmfels]] | Initiator der Zusammenkunft | [Linari - Artefakte] | Historisch | #überlieferung |
 | [[Anais]] | Ihre Gnaden / Inquisitorin | [Heilige Liturgien] | Historisch | #überlieferung |
 | [[Aarion]] | Graf der Wolfsmark | [Vandriens Entstehung] | Historisch | #überlieferung |
+| [[Arakam_II_ap_Galad]] | König von Galadon | [Könige Falandriens] | Historisch | #überlieferung |
 | [[Arnhorte]] | Adliger (Wolfsmark) | [Vandriens Entstehung] | Historisch | #überlieferung |
+| [[Almut_von_Savaro_ahm_Mer]] | Herzogin (Savaro) / Gründerin Ersonter Bund | [Entstehung d. Ersonter Bundes] | Historisch | #überlieferung |
 | [[Aspin_Schwertklinge_von_Fahlenau]] | Ritter / ehem. Großmeister | [Bote 171] / [Der letzte Falke] | 19 n.H. / Historisch | #überlieferung |
+| [[Athanael]] | Erster Elf / Urvater der Fey | [Elfen] | Historisch | #überlieferung |
+| [[Galathal]] | Erste Elfin / Urmutter der Fey | [Elfen] | Historisch | #überlieferung |
 | [[Athos]] | Reichsritter (i.R.) / Sire | [Bote 140] / [Der letzte Falke] | Historisch / 16 n.H. | #überlieferung |
 | [[Azaris]] | Nekromant | [Legende von Galahad] | Legendär | #überlieferung |
 | [[Avaratio_Mischelgrimm]] | Alchemist / Autor | [Opus i de alchimiae] | Historisch | #überlieferung |
@@ -53,13 +57,16 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Alek_Lancan]] | Leutnant (Lehensbanner) / Turniersieger | [Bote 133] | 16 n.H. | #bote |
 | [[Andaris_Maran]] | Diener Astraels (Blauer Pfad) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
 | [[Argus_Ebonhart]] | Magier | [Kanon] | amtierend | #canon |
-| [[Armgard_Torenson]] | Kapitän / Entdecker | [Bote 137] | Legendär | #bote |
+| [[Armgard_Torbenson]] | Kapitän / Entdecker Siebenwinds | [Nortraven] / [Bote 137] | Legendär | #canon |
 | [[Arnim_Estragons]] | Stellv. Botenleitung / Lehensherr | [Bote 131] | ~15 n.H. | #bote |
 | [[Beladriel_Blaettertanz]] | Heerführerin ([[Seeberg]]) / Truchsess | [Bote 165/174] | 18-20 n.H. | #bote |
 | [[Benion_Sandelholz]] | Hochgeweihter (Vitama) / Gründer (Tränenorden) | [Bote 130/140/149] | ~15-17 n.H. | #bote |
 | [[Biskulon]] | Bibliothekar / Bauleiter | [[Falkensee]] | 17 n.H. | #bote |
 | [[Brandeis]] | Wachmann (verstorben) | [Bote 130] | ~15 n.H. | #bote |
 | [[Brand_Windfluesterer]] | Hohepriester ([[01_Ventus|Ventus]]/[[01_Enhor|Enhor]]) (†) | [[Ecclesia_Elementorum]] / [Bote 181] | 19 n.H. - † 21 n.H. | #bote |
+| [[Bran_I_ap_Senal]] | König von Galadon (Ära Senal) | [Könige Falandriens] | Historisch | #überlieferung |
+| [[Cumar_I_ap_Morn]] | König von Galadon (Ära Morn) | [Könige Falandriens] | Historisch | #überlieferung |
+| [[Bellodor_von_Sae_ap_Mer]] | Herzog (Sae) / Mitglied Ersonter Bund | [Entstehung d. Ersonter Bundes] | Historisch | #überlieferung |
 | [[Caeden]] | Knappe | [Bote 139] | 16 n.H. | #bote |
 | [[Cylia_Rosenmond]] | Reporterin / Redaktion ([[Siebenwind_Bote]]) | [Bote 186] | 22 n.H. | #bote |
 
@@ -98,6 +105,11 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Friedward_von_und_zu_Gerdenwald]] | Graf | [Kanon] | amtierend | #canon |
 | [[Gerelda_Wendolyn]] | Dompteurin (Circus Wendolyn) | [Bote 138] | 16 n.H. | #bote |
 | [[G.K.]] | Autor | [Bote 134] | ~15 n.H. | #bote |
+| [[Gernod_von_Arbam]] | König von Galadon (Ära Arbam) | [Könige Falandriens] | Historisch | #überlieferung |
+| [[Gernod_von_Ersont]] | Graf (Ersont) / Gründer Ersonter Bund | [Entstehung d. Ersonter Bundes] | Historisch | #überlieferung |
+| [[Gero_von_Papin]] | Graf (Papin) / Mitglied Ersonter Bund | [Entstehung d. Ersonter Bundes] | Historisch | #überlieferung |
+| [[Golderam_I_ap_Mer]] | König von Galadon (Ära Mer) | [Könige Falandriens] | Historisch | #überlieferung |
+| [[Geruslav]] | Adliger ("Bär", Wolfsmark) | [Vandriens Entstehung] | Historisch | #überlieferung |
 
 | [[Gerion_Flammwurf]] | Magieranwärter | [Bote 133] | ~15 n.H. | #bote |
 | [[Gorem]] | Gardist / Gefangener | [Logbuch des Kerkers] | 21 n.H. | #perspektive |
@@ -142,12 +154,15 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Jeremias]] | Geweihter (Astrael) | [Über die Gebete] | Historisch | #überlieferung |
 | [[Kaa]] | Autor | [Bote 150] | 17 n.H. | #bote |
 | [[Rose]] | Autorin / Wirtin | [Spiegel] / [Bote 139] | Historisch / 16 n.H. | #überlieferung |
+| [[Heredor_I_ap_Iames]] | König von Galadon (Gründer) | [Könige Falandriens] | Historisch | #überlieferung |
 | [[Jorwo]] | Oberjäger | [Bote 136] | ~15 n.H. | #bote |
 | [[Josef_Gaumann]] | Bürger (Opfer) | [Bote 141] | ~15 n.H. | #bote |
 | [[Juppert]] | Bauer | [[Falkensee]] | 18 n.H. | #bote |
 | [[Kaspian_Tiefenwald]] | Gildenmeister / Leiter [[Ventusreiter]] | [Bote 160] | amtierend | #bote |
 | [[Isogares_Saleyn]] | Redakteur ([[Siebenwind_Bote]]) | [Bote 186] | 22 n.H. | #bote |
 | [[Jakobus_Pfeiffle]] | Barde / Redakteur ([[Siebenwind_Bote]]) | [Bote 186] | 22 n.H. | #bote |
+| [[Kaspian_von_Malthust]] | Fürst / Gründer Pakt der Viereinigkeit (†) | [Entstehung d. Paktes] | Historisch (Bürgerkrieg) | #überlieferung |
+| [[Kasimier_Herwald_von_Malthust]] | Fürst / Oberhaupt Pakt der Viereinigkeit | [Entstehung d. Paktes] | Historisch | #überlieferung |
 | [[Katharina_von_Tiefenwald]] | Prinzessin | [Bote 185] | 22 n.H. | #bote |
 | [[Kedrin]] | Herr von Silberwald | [Legende von Galahad] | Legendär | #überlieferung |
 | [[Koruun_McKevin]] | Vogt | [Kanon] | amtierend | #canon |
@@ -165,6 +180,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Lucy]] | Vogtin ([[Finsterwangen]]) | [Bote 190] | 29 n.H. | #bote |
 
 | [[Lysidia_Silithelen]] | Hofschneiderin | [Bote 135] | 16 n.H. | #bote |
+| [[Levarum_I_ap_Raan]] | König von Galadon (Gründer Raan-Ära) | [Könige Falandriens] | Historisch | #überlieferung |
 | [[Yslandar_Nyell_Mondenlaub]] | Erzmagier / Gründer En'Drûn | [Der Elementare Pfad] | Historisch (vor 300 J.) | #canon |
 | [[Khorne]] | Kriegsgott (Häresie) | [Astrael Batch] | Historisch | #überlieferung |
 | [[Kalveron_Dai]] | Hoher Arkanist (Weißer Zweig) | [De Magica Angamoniensis] / [System arkaner Lokalitäten] | 13/14 n.H. | #überlieferung |
@@ -202,6 +218,8 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Halmar]] | Söldner | [Bote 154] | 18 n.H. | #bote |
 | [[Niemand]] | Mysteriöse Gestalt | [Bote 136] | ~15 n.H. | #bote |
 | [[Niklas_Rattenfaenger]] | Held von Brandenstein (†) | [Bote 166/172] | † 20 n.H. | #bote |
+| [[Naster_I_ap_Raan]] | König von Galadon | [Könige Falandriens] | Historisch | #überlieferung |
+| [[Neraja]] | Gräfin (Wolfsmark) | [Vandriens Entstehung] | Historisch | #überlieferung |
 
 | [[Paule_Bitterling]] | Bürger (Zeuge) | [Bote 123] | 15 n.H. | #bote |
 | [[Pio'han_Samfyrlin]] | Heiler ([[Communis_Medici]]) | [Bote 133] | 16 n.H. | #bote |
@@ -249,6 +267,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Laylira_Hohentann]] | Novizia / Heilende Hand / Magistra ([[03_Gesellschaft#Weißer_Pfad|Weißer Pfad]]) | [Bote 175] | 20-22 n.H. | #bote |
 | [[Alassea]] | Heilerin | [Bote 174] | 20 n.H. | #bote |
 | [[Alashar]] | Schneider | [Nichts und ohne Pointe] | amtierend | #perspektive |
+| [[Rogar_Hamsched]] | Graumagier (Gebrochene Hände) / Berater | [Entstehung d. Ersonter Bundes] | Historisch | #überlieferung |
 
 | [[Traim_Eisenblut]] | Oberkommandierender / Heerführer ([[Dwarschim]]) | [Bote 175] | 20 n.H. | #bote |
 | [[Püppchen]] | Frau (schwarzes Haar) | [Pueppchens Flucht] | - | #perspektive |
@@ -327,6 +346,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Herr_Kurt]] | Turniersieger (Buhurt) | [Bote 180] | 21 n.H. | #bote |
 | [[Dhonori]] | Händler / Koch | [Bote 180] | 21 n.H. | #bote |
 | [[Geidwenja]] | Magister / Theoretiker | [Derrvus Matrix-Theorie] | Historisch | #überlieferung |
+| [[Gernod_I_ap_Arbam]] | König von Galadon | [Könige Falandriens] | Historisch | #überlieferung |
 | [[Geruslav]] | Adliger (Wolfsmark) | [Vandriens Entstehung] | Historisch | #überlieferung |
 | [[Gimbart_Galdora]] | Zwerg / Wirt / Student | [Bote 121] / [Die Zwergen WG] | 15-21 n.H. | #bote |
 | [[Nikolai_Tuljow]] | Geweihter ([[Bellum]]) / Richter | [Bote 181] | 21 n.H. | #bote |
@@ -367,13 +387,16 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Beatrix]] | Rekrutin ([[Ersonter_Garde]]) | [Bote 184] | 21 n.H. | #bote |
 | [[Krellgrimm_Glutschreiter]] | König ([[Dwarschim]]) | [Bote 184] | 21 n.H. | #bote |
 | [[Ingjald]] | Jarl / Edler ([[Nortraven]]) | [Bote 184] | 21 n.H. | #bote |
+| [[Kablar]] | Ex-Anführer der Myten (Verräter) | [Myten] | Historisch | #überlieferung |
+| [[Darnar]] | Erster neugeborener Myte | [Myten] | Historisch | #überlieferung |
+| [[Mikon]] | Anführer der Myten (Kabale) | [Myten] | Historisch | #überlieferung |
 | [[Talida]] | Schneiderin ([[Nortraven]]) | [Bote 184] | 21 n.H. | #bote |
 | [[Ionas]] | Redakteur / [[02_Astrael]]-Geweihter | [Bote 185] | 22 n.H. | #bote |
 | [[Narbenschnauze]] | Klauenwolf | [Blutschwert] | 22 n.H. | #perspektive |
 
 | [[Khyra_Hohentann]] | Magierin / Ehefrau Gropp | [Bote 185] | 22 n.H. | #bote |
 | [[Feydis]] | Geweihter ([[Vitama]]) | [Bote 185] | 22 n.H. | #bote |
-| [[Serass]] | Fürst ([[Vandrien]]) | [Bote 185] | 22 n.H. | #bote |
+| [[Serass]] | Fürst (Vandrien) | [Entstehung d. Paktes] | Historisch | #überlieferung |
 | [[Kassimir_zu_Ossian]] | Feldherr ([[Ossian]]) (†) | [Bote 185] | † 22 n.H. | #bote |
 | [[Astreyonas]] | Prinz ([[Sae]]) | [Bote 185] | 22 n.H. | #bote |
 | [[Erin_Caoimme]] | Leutnant ([[Malthust]]) / Wachtmeisterin | [Bote 167/177/186] | 19-22 n.H. | #bote |
@@ -386,6 +409,8 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Eric_Martarian]] | Tempelwache ([[Brandenstein]]) | [Bote 187] | 23 n.H. | #bote |
 | [[Isbeorn]] | Krieger ([[Nortraven]]) | [Bote 187] | 23 n.H. | #bote |
 | [[Halgar]] | Krieger / Nortrave | [Bote 154/187] | 18-23 n.H. | #bote |
+| [[Thjarek]] | Allvater / Gott der Nortraven | [Nortraven] | Antike | #canon |
+| [[Eydis]] | Allmutter / Göttin der Nortraven | [Nortraven] | Antike | #canon |
 | [[Satai_Akelas]] | Anführer ([[Tardukai]]) | [Bote 188] | 29 n.H. | #bote |
 | [[Indoaich]] | Horwah ([[Angamon]]) | [Bote 188] | 29 n.H. | #bote |
 | [[Nemesis]] | Horwah (Auge) | [Bote 188] | 29 n.H. | #bote |
@@ -487,6 +512,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Edomawyr]] | Primus ([[Graue_Garde]]) / Pfadleiter (Grau) | [Bote 127/158] / [Wirkung von Metallen] | 15-18 n.H. | #bote |
 | [[Enoah_Sullin]] | Magier (Teilnehmer Hellsichtritual) | [[Forschungsberichte (Toran Dur)]] | 33 n.H. | #überlieferung |
 | [[Elurai_Calades]] | Erzmagier / Autor | [Bindungslehre] | Historisch | #überlieferung |
+| [[Eratnor_XX_ap_Galad]] | König von Galadon | [Könige Falandriens] | Historisch | #überlieferung |
 | [[Elyran_Fischer]] | Adeptus Arkanis (Ita'Glur) | [Die Elemente aus der Sicht der Mitte] | Historisch | #überlieferung |
 
 | [[Johann_Liebig]] | Adeptus Arkanis (Mitte) / Autor | [Arkane Verbindung] | Historisch | #überlieferung |
@@ -528,7 +554,9 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[K_endalor_Aothes]] | Hohepriester (Argionemes) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
 | [[Ziska_Himmelmann]] | Reporterin (Verräterin) | [Bote 163] | 19 n.H. | #bote |
 
-| [[Roland_Ronde]] | Autor | [Vandriens Entstehung] | Historisch | #überlieferung |
+| [[Roland_Ronde]] | Autor | [[Blutschwert]] | 22 n.H. | #perspektive |
+| [[Siveren_Vardenberg]] | Marschall / Lehnsherr Siebenwind (Pakt) | [Entstehung d. Paktes] | Historisch | #überlieferung |
+| [[Sechna_I_ap_Vjer]] | König von Galadon (Ära d. Furcht) | [Könige Falandriens] | Historisch | #überlieferung |
 | [[Shiion]] | 1. Fürst von Vandrien | [Vandriens Entstehung] | Historisch | #überlieferung |
 | [[Swerdan_Samoth]] | Werftmeister | [Bote 163] | 19 n.H. | #bote |
 | [[Milbach_Zobrecht]] | Philosoph / Wissenschaftler | [Linari - Philosophie] | Historisch | #überlieferung |
@@ -582,9 +610,14 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Kiraya_Rabenschlag]] | Leutnant ([[Lehensbanner]]) | [Bote 130] | 16 n.H. | #bote |
 | [[Kurga]] | Dorfoberster ([[Greifenklipp]]) | [Bote 130] | 16 n.H. | #bote |
 | [[Sarthas_Glaser]] | Gesuchter (Schmähungen) | [Bote 130] | 16 n.H. | #bote |
+| [[Wulfhold]] | Hetman aller Nortraven | [Nortraven] | amtierend | #canon |
+| [[Rodarof_Kelthwen]] | Berserker / Kommandant | [Nortraven] | amtierend | #canon |
 | [[Cavalaron_Vendell]] | Wegelagerer ([[Schwarze_Reiter]]) (†) | [Bote 140] | † 16 n.H. | #bote |
 | [[Isgrim]] | Oberjäger | [Bote 140] | 16 n.H. | #bote |
 | [[Ovelia_Galthana]] | Ritter / Sire | [Bote 140] | 16 n.H. | #bote |
+| [[Odalerich_I_ap_Erson]] | König von Galadon (Weisse Ära) | [Könige Falandriens] | Historisch | #überlieferung |
+| [[Schanta_di_Luni]] | Erzmagierin / Leiterin Glur'Drûn (Grauer Pfad) | [Der graue Pfad] | amtierend | #canon |
+| [[Decaras_Kapeyn]] | ehem. Anführer d. Graumagier / Verräter / "Tyrann" | [Der graue Pfad] | Historisch (vor 1500 J.) | #überlieferung |
 | [[Schneid]] | Marinesoldat | [Bote 192] | 30 n.H. | #bote |
 | [[Kazla]] | Orkischer Stamm / Ratsmitglied | [Hierarchie] | - | #canon |
 | [[Azgar_Kazanin]] | Rekrut / Ork | [Bote 121] | 15 n.H. | #bote |
@@ -598,6 +631,10 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Quendan_Ryandoris]] | Elf / "Der Wanderer" | [Bote 134/173] | 16-20 n.H. | #bote |
 | [[Malika_Nohadi]] | Händlerin (Stoffe) | [Bote 158] | 18 n.H. | #bote |
 | [[T.]] | Buchhändler / Freund (Mainland) | [L. eines Dichters] | 22 n.H. | #perspektive |
+| [[Cumar_I]] | König von Galadon | [Könige Falandriens] | Historisch | #überlieferung |
+| [[Prince_Serass]] | Fürst (Serass) / Mitglied Ersonter Bund | [Entstehung d. Ersonter Bundes] | Historisch | #überlieferung |
+| [[Vanagard_ap_Galad]] | Fürst (Herder) / Mitglied Ersonter Bund | [Entstehung d. Ersonter Bundes] | Historisch | #überlieferung |
+| [[Yeroma_von_Wallenburg]] | Baronin (Wallenburg) / Mitglied Ersonter Bund | [Entstehung d. Ersonter Bundes] | Historisch | #überlieferung |
 | [[Janniea_Lavrial]] | Stadtkonsula ([[Falkensee]]) | [Bote 158] | amtierend | #bote |
 | [[Jennaia_Lavrial]] | Magistra | [Theorie der elementaren Atome] | Historisch | #überlieferung |
 | [[Johannes_Klos]] | Magietheoretiker | [Locus Magicae] | Historisch | #überlieferung |
@@ -640,6 +677,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Nakoti]] | ? | - | - | #überlieferung |
 | [[Nefustor]] | Schwarzmagier / Magister / Lehrer / Autor | [[Daimonologie und Schwarze Magie (Toran Dur)]] / [Protokoll/Schwarze Magietheorie] | Historisch | #überlieferung |
 | [[Nhergas]] | ? | - | - | #überlieferung |
+| [[Odalerich_II_ap_Erson]] | König von Galadon | [Könige Falandriens] | Historisch | #überlieferung |
 | [[Nistram_Rigas]] | Adeptus Arkanis (Antimagie) | [Magica Contraria] | Historisch | #überlieferung |
 | [[Nuir_Ekre]] | Akoluth (Graue Garde) | [Kunst der Diener] | Historisch | #überlieferung |
 | [[Nirluk]] | Dämonentöter ([[Dwarschim]]) | [Die Zwergen-WG] | - | #perspektive |

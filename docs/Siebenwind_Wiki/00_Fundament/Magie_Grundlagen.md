@@ -10,38 +10,32 @@ category: Fundament
 
 Die Theorie der Magie auf [[Tare]] ist eine jahrtausendealte Wissenschaft, die das Verständnis der Elemente, der Sphären und der inneren Kraft des Geistes vereint.
 
-## Die Quellen der Macht
-### 1. Elementarmagie
-Die rohe Magie wird durch die vier **[[Die_Gohor|Ur-Elemente]]** und ihre elementaren Herrscher ([[Enhor]]) gespeist:
-*   **[[Ignis]] (Feuer):** Kraft der Zerstörung und radikalen Wandlung.
-*   **[[Rien]] (Erde/Natur):** Kraft des Wachstums und der materiellen Stabilität.
-*   **[[Ventus]] (Luft):** Kraft der Bewegung, des Schalls und der Freiheit.
-*   **[[Xan]] (Wasser):** Kraft der Tiefe, der Heilung und des Flusses.
+## Das Astralnetz (Arkanes Modell)
+Nach der Magietheorie von **[[Toran_Dur]]** ist Magie der Vorgang, bei dem ein sterbliches Wesen das **Astralnetz** mittels seines Geistes beeinflusst.
+*   **Omnipräsenz:** Das Netz durchzieht alle drei Sphären und befindet sich im Ruhezustand (Gleichgewicht).
+*   **Die Fäden:** Das Netz besteht aus Fäden der vier Elemente (**Feuer, Wasser, Erde, Luft**) sowie dem neutralen, lenkenden Element **Geist**.
+*   **Elementarknoten:** Durch Willenskraft und Glaube bildet ein Magus aus diesen Fäden Knoten. Eine Bündelung dieser Knoten setzt den magischen Effekt frei.
+*   **Mana:** Die "Muskelkraft" des Geistes, die benötigt wird, um das Netz zu formen. Sie wird durch **Meditation** (Senken der magischen Resistenz) regeneriert.
 
-### 2. Formierte Magie
-Über den Elementen steht die Geltung des **[[Astrael]]**. Er lehrt nicht die rohe Kraft, sondern die *Matrix* — die Fähigkeit, das arkane Geflecht durch Formeln, Siegel und Rituale zu ordnen.
+## Die vier Pfade
+In der galadonischen Tradition wird die Magie in vier Pfade unterteilt:
+- **[[Elementarmagie|Elementarer Pfad]]:** Umgang mit den rohen Kräften der Natur (Ignis, Xan, Rien, Ventus).
+- **[[Weissmagie|Weißer Pfad]]:** Heilung, Schutz und Vertreibung von Geistern. Eng verwoben mit der Kirche der Viere.
+- **[[Graumagie|Grauer Pfad]]:** Kampfmagie, Illusionen und Verwandlung. Gilt als der akademischste Pfad.
+- **[[Schwarzmagie|Schwarzer Pfad]]:** Zerstörung, Schwächung und Dämonologie. Gilt als geächtet und mit [[Angamon]] verbunden.
 
-## Die drei Pfade
-In der Praxis der Gelehrten wird die Magie oft nach ihrer philosophischen Ausrichtung eingeteilt:
-- **[[Weissmagie|Weißer Pfad]]:** Fokus auf Heilung, Schutz und Bannung dämonischer Einflüsse. Eng verbunden mit dem [[Ordo_Vitamae]] und [[Ordo_Astraeli]].
-- **[[Graumagie|Grauer Pfad]]:** Der akademische Weg. Fokus auf Erkenntnis, Elementarmanipulation und die Erforschung der Weltgesetze (siehe [[Magietheorie_Toran_Dur]]).
-- **[[Schwarzmagie|Schwarzer Pfad]]:** Geächtete Praktiken der Nekromantie und Dämonologie, die oft den Einfluss von [[Angamon]] suchen.
+## Der Zaubervorgang und der "Zensor"
+Der Magier nutzt seinen Willen, um den mentalen **Zensor** (einen Filter zwischen Wach- und Unterbewusstsein) zu umgehen. Dies geschieht durch die "Dreifaltigkeit" der Magiewirkung:
+1.  **Gedanke:** Die rein geistige Vorstellung des Modells/Ziels.
+2.  **Wort:** Die Brücke zwischen Geist und Körper.
+3.  **Geste:** Die rein körperliche Manifestation zur Freisetzung der Kraft.
 
-## Astralenergie
-Die Fähigkeit, Magie zu wirken, entspringt der **Astralenergie** (AE) des Individuums. Während [[Rasse_Elfen|Elfen]] diese Kraft als natürlichen Teil ihres Seins empfinden, müssen andere Rassen sie durch jahrelanges Studium an den [[Akademie|Akademien]] (wie in [[Brandenstein]]) mühsam bündeln lernen.
-
-## Der Zaubervorgang (Locus Magicae)
-Nach der Theorie von **[[Johannes_Klos]]** wird Magie nicht direkt, sondern über eine mentale Schnittstelle gewirkt, den sogenannten **Locus Magicae**.
-
-### Die drei Instanzen
-1. **Empfänger:** Nimmt Signale (Worte, Gesten, Gedanken) auf.
-2. **Interpreter:** Ordnet Signale erlernten Mustern oder Modellen zu.
-3. **Konstruktor:** Erzeugt basierend auf der Interpretation den eigentlichen magischen Akt.
-
-### Arten der Magiewirkung
-- **[[Gefühlsmagie]]:** Intuitive Nutzung von Emotionen (z.B. bei [[Rasse_Elfen|Elfen]] oder Kindern).
-- **Niedere Magie:** Nutzung fester "Vokabeln" (starke Reiz-Reaktions-Verknüpfung durch ständiges Üben).
-- **Höhere Magie:** Anwendung komplexer Sprachen ([[Die_Sprache_Run|Run]]) und theoretischer Modelle (z.B. Astralgitter).
+## Hierarchie der Magier
+Der Stand eines Magiers bestimmt seine gesellschaftliche Stellung:
+1.  **Adept:** Ein lernender Schüler in der Grundausbildung (meist 6.-12. Lebensjahr Beginn).
+2.  **Schüler:** Ein vollwertig Ausgebildeter, der jedoch meist noch im Dienst eines Meisters oder einer Akademie steht.
+3.  **Magister:** Ein anerkannter Gelehrter mit Lehrberechtigung.
+4.  **Erzmagier:** Die höchste Stufe, dem niederen Adel gleichgestellt. Sie verfügen über politische Beraterrechte und enorme Reputation.
 
 ---
-**Siehe auch:** [[Magietheorie_Toran_Dur]], [[Sphärenkunde]], [[Codex_Astraeli]], [[Astrael]]
+**Siehe auch:** [[Magietheorie_Toran_Dur]], [[Sphärenkunde]], [[Hierarchie]], [[Die_Sprache_Run]]

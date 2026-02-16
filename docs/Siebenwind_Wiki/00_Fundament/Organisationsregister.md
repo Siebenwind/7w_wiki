@@ -41,6 +41,9 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Kuenstlerakademie]] | Kultur / Ausbildung | [[Falkensee]] | #bote |
 | [[Handwerkshaus_Falkensee]] | Zunft / Ausbildung | [[Falkensee]] | #bote |
 | [[Schattenhand]] | Unterwelt / Diebesgilde | Unbekannt | #bote |
+| [[Die_Kabale]] | Mytische Gemeinschaft | Inselweit | #canon |
+| [[Elendur]] | Kampf-Orden der Auenelfen | Auren | #canon |
+| [[Grossrat_der_Kerkermeister]] | Gefängnisverwaltung | Galadon | #canon |
 | [[Bruderschaft_der_Tardukai]] | Orden des Angamon | [[Ewigwacht]] | #bote |
 | [[Terra_Dorotor]] | Kult (zerschlagen) | [[Brandenstein]] | #bote |
 | [[Magierturm_zu_Tiefenbach]] | Magische Ausbildung (Zerstört) | [[Tiefenbach]] (Hist.) | #canon |

@@ -18,6 +18,13 @@ tags: [Gott, Antagonist, Böses, Zerstörung, Schatten]
 ### Motivation und Ziele
 Im Gegensatz zu den Dämonen der Niederhöllen, die die gesamte Schöpfung vernichten wollen, trachtet Angamon danach, die Welt **[[Tare]]** zu erobern und zu beherrschen. Er unterwarf die Höllenfürsten, um sie als Werkzeuge für seine Pläne zu instrumentalisieren.
 
+### Ursprung und Wesen
+Angamon ist der ungewollte Sohn der Götter [[01_Vitama|Vitama]] und [[01_Bellum|Bellum]]. Seine Empfängnis markierte das Ende des Goldenen Zeitalters und den Beginn des Silberen Zeitalters (siehe [[Yehramnis]]).
+
+Einst ein unschuldiges göttliches Wesen, wurde er von den anderen Sahor (den Heiligen Vieren) mit Ignoranz und Verachtung gestraft. Während eines geheimen Rates der Götter unter dem Weltenbaum Ysatyn wurde er Zeuge ihres Hochmuts, Neids und Hasses. Angamon sog diese negativen Essenzen in sich auf, was sein Wesen dauerhaft entstellte und ihn zum Herrn des Bösen und des Verfalls machte.
+
+Er entfloh daraufhin in die Unendlichkeit der Sphären und schwor, die Schöpfung seiner Eltern und Geschwister zu vernichten oder zu unterwerfen.
+
 ## Aspekte und Prinzipien
 - **Element:** Leere / Schatten
 - **Charakter:** Grenzenloser Hass, zehrender Neid, absolute Tyrannei.
@@ -27,8 +34,8 @@ Im Gegensatz zu den Dämonen der Niederhöllen, die die gesamte Schöpfung verni
 ## Mythologie
 Die Legenden besagen, dass Angamon aus den Schatten entstand, die *Galamnor* (Materie) warf, als *Timanor* (Zeit) das erste Licht entzündete. Er ist der ewige Neider, der selbst nichts erschaffen kann, sondern nur das Vorhandene verzerren, korrumpieren oder zerstören will. Er erschuf die **[[Daemonen]]** als Spottbilder des Lebens.
 
-## Verehrung
-Die Verehrung Angamons ist im Königreich Galadon bei Todesstrafe verboten. Seine Anhänger agieren in geheimen Zirkeln.
+> [!NOTE]
+> Die Verehrung Angamons gilt in allen zivilisierten Reichen als schlimmste Häresie und wird drakonisch bestraft. Theologisch wird argumentiert, dass Angamon die "ausgestoßenen" negativen Aspekte der Götter verkörpert, weshalb ein Gläubiger der Gohor (die Gut und Böse noch vereinten) zwangsläufig auch Angamon stärkt. Seine Anhänger agieren in geheimen Zirkeln.
 - **Dunkle Kulte:** Versprechen Macht um jeden Preis.
 - **Ziele:** Die Schwächung der *Viere* und die Vorbereitung der Welt auf die Herrschaft des Schattens.
 

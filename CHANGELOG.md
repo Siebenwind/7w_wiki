@@ -1,6 +1,19 @@
 # Changelog
 
 <details open>
+<summary><b>[2026-02-16.31] - Phase 1.15: Society & Cultures Enrichment</b></summary>
+
+### Hinzugefügt
+- **Sub-Rassen**: Dedizierte Artikel für [[Hochelfen]], [[Waldelfen]] und [[Auenelfen]] (Fey/Auriel Standard).
+- **Soziale Systeme**: [[Gefaengnissystem]] (Kerkermeister-Rat) und [[Masseinheiten]] (Referenztabellen).
+- **Religion**: Nortravisches Pantheon ([[Thjarek]], [[Eydis]]) integriert.
+
+### Geändert
+- **Rassen**: [[Elfen]], [[Zwerge]], [[Nortraven]] und [[Myten]] auf v2.7 Standard gehoben (Mythen & Geschichte).
+- **Register**: [[Personenregister]] und [[Organisationsregister]] um Gründungsfiguren und Orden ([[Elendur]], [[Kabale]]) erweitert.
+- **Korrektur**: Armgard Torenson zu [[Armgard_Torbenson]] korrigiert.
+
+</details>
 <summary><b>[2026-02-16.13] - Phase 1.13: Workflow Consolidation & CLI Expansion</b></summary>
 
 ### Hinzugefügt

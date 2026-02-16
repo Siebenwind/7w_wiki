@@ -26,29 +26,28 @@ Gelehrte beschreiben die Gemeinschaft der Geweihten oft als einen **Baum**:
 Trotz dieses Bildes der Einheit herrscht innerhalb der Kirche oft Uneinigkeit über politische oder ethische Fragen, etwa wenn [[Bellum]]-Gläubige auf verschiedenen Seiten eines weltlichen Krieges gegeneinander kämpfen.
 
 ## Die Vier Götter und ihre Orden
-1.  **[[02_Astrael]] (Das Allsehende Auge):**
-    *   Aspekt: Wissen, Magie, Ordnung, Herrschaft.
-    *   Orden: "Orden des Allsehenden Auges Astraels".
-    *   Anhänger: Gelehrte, Magier, Richter, Herrscher.
-    *   Zentrum: Herzogtum [[Region [[Sae]]|Sae]] (Lafay's Stab).
+Die Kirche gliedert sich in vier große Zweige, die **Ordos**, die jeweils einer Gottheit geweiht sind:
 
-2.  **[[03_Bellum]] (Das Heilige Schwert):**
-    *   Aspekt: Kampf, Ehre, Schutz, Kraft.
-    *   Orden: "Orden vom Heiligen Schwerte Bellums".
-    *   Anhänger: Soldaten, Ritter, Wächter.
-    *   Zentrum: Oft in militärischen Provinzen wie [[Region Herder|Herder]] oder [[Region Ersont|Ersont]].
+1.  **[[Ordo_Astraeli]] (Orden des Allsehenden Auges Astraels):**
+    *   Aspekt: Wissen, Magie, Weisheit. [Brevier des Ordo Astraeli]
+    *   Sitz: Herzogtum [[Region [[Sae]]|Sae]].
+2.  **[[Ordo_Belli]] (Orden vom Heiligen Schwerte Bellums):**
+    *   Aspekt: Kampf, Ehre, Gerechtigkeit. [Brevier des Ordo Belli]
+    *   Sitz: Grafschaft [[Region Ersont|Ersont]] / [[Region Herder|Herder]].
+3.  **[[Ordo_Vitamae]] (Orden von Vitamas Lieblichen Kelche):**
+    *   Aspekt: Leben, Heilung, Fruchtbarkeit. [Brevier des Ordo Vitamae]
+    *   Sitz: Weit verbreitet (Haupthaus oft in Malthust).
+4.  **[[Ordo_Morsanes]] (Orden vom Ruhenden Hauche Morsans):**
+    *   Aspekt: Tod, Stille, Zeit, Übergang. [Brevier des Ordo Morsanes]
+    *   Sitz: Region [[Region Norland|Norland]] (Friedhof von Galadon).
 
-3.  **[[04_Vitama]] (Der Liebliche Kelch):**
-    *   Aspekt: Leben, Heilung, Fruchtbarkeit, Familie.
-    *   Orden: "Orden von Vitamas Lieblichen Kelche".
-    *   Anhänger: Heiler, Bauern, Mütter, [[Rasse_Halblinge]].
-    *   Zentrum: Weit verbreitet, viele Schreine in ländlichen Gegenden.
-
-4.  **[[05_Morsan]] (Der Ruhende Hauch):**
-    *   Aspekt: Tod, Übergang, Ruhe, Frieden (nicht Böse!).
-    *   Orden: "Orden vom Ruhenden Hauche Morsans".
-    *   Anhänger: Bestatter, Sterbebegleiter, jene die Trost suchen.
-    *   Besonderheit: Die Verehrung Morsans wird oft missverstanden, ist aber essenzieller Teil des Zyklus.
+## Hierarchie des Klerus
+Der spirituelle Rang korrespondiert mit der weltlichen [[Hierarchie]]:
+*   **Novize:** Lernender Schüler der Kirche.
+*   **Geweihter:** Vollwertiges Mitglied des Klerus, steht gesellschaftlich im **geachteten Bürgertum**.
+*   **Hochgeweihter:** Würdenträger mit Verwaltungsaufgaben, zählt zum **hohen Bürgertum**.
+*   **Erzgewehrter:** Höchster Klerus (z.B. Äbte großer Klöster), dem **niederen Adel** gleichgestellt.
+*   **Großinquisitor:** Leiter der **Inquisition**, ein spezialisiertes Organ zur Bekämpfung von Ketzer- und Schwarzmagiertum. Standmäßig oft einem Erzgeweihten gleichgestellt.
 
 ## Politische Struktur
 Theoretisch sieht die galadonische Ordnung eine klare Trennung vor:
