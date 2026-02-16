@@ -1,36 +1,37 @@
----
-layout: wiki_page
-title: Der Flug der Ente
-category: Erzählung
+status: integrated
+uuid: flug-der-ente-narrative-22nh
+report_id: f1u2g3-d4e5-r-6e7n-8t9e-20260216
+letzter_check: 2026-02-16T17:15:00+01:00
 ---
 
 # Der Flug der Ente
-
 **Epistemischer Status:** #perspektive
-
 **Autor:** Tintin (Waljakov)
 **Datum:** 22 n.H.
-**Regionen:** [[Brandenstein]], Fera_Noril, [[Das_Unbekannte_Meer]]
-**Status:** #perspektive #entdeckung
+**Regionen:** [[Brandenstein]], [[Fera_Noril]], [[Saeulenmeer]]
 
-## Zusammenfassung
-Die Erzählung beschreibt die ehrgeizige Expedition von **Tintin** (Lazalantin), einem jungen Schiffsbauer und [[08_Ventus]]-Priester, der mit seinem selbstgebauten Schiff, der **"Ente"**, die Grenzen der bekannten Welt überschreitet.
+## Überblick
+"Der Flug der Ente" ist eine bedeutende Reiseerzählung aus dem Jahr 22 n.H., welche die Expedition des Däumlings [[Tintin]] dokumentiert. Die Erzählung basiert auf den Logbüchern von Tintin und ergänzenden Berichten über seinen Mentor [[Vencurius]].
 
-### Stationen der Reise
-1. **Aufbruch in [[Brandenstein]]:** Tintin baut die "Ente" (ein Einmaster) trotz der Skepsis lokaler Handwerker wie [[Akira]] und [[Torbren]].
-2. **Fera Noril:** Ein Zwischenstopp an der Grenze zum Unbekannten.
-3. **Der Algenwirbel & Der Sturm:** Das Schiff gerät in ein massives Algenfeld und übersteht einen verheerenden Ringsturm.
-4. **Das Säulenmeer (Obsidian Spire):** Entdeckung eines Waldes aus schwarzen Steinsäulen, die bis zum Horizont reichen. Hier setzt der Navigationskompass aus.
-5. **Die Falle der Algennetze:** Tintin beobachtet gigantische, biologische Fallen (Algennetze), die Meeresbewohner (u.a. mutierte "Entenschnabel-Flugfische") fangen. Er vermutet eine riesige, archaische Kreatur (vllt. eine Ur-Schildkröte) dahinter.
-6. **Die Mystische Verbindung:** Während Tintin am Rande des Wahnsinns (Seefieber) und Hungertods schwebt, führt sein Mentor [[Vencurius]] in [[Brandenstein]] ein Ritual ("Der Tanz") durch, um ihm neue Kraft zu schicken.
+## Verlauf
+### Aufbruch in [[Brandenstein]]
+Gepeitscht von unstillbarem Fernweh und der Sehnsucht, die Geheimnisse des Ozeans zu lüften, baut Tintin in [[Brandenstein]] sein Schiff: Die [[Ente]]. Ohne offizielle Unterstützung, aber mit dem Segen des [[Ventus]], sticht er in See.
 
-## Lore-Anker
-- **Die "Ente":** Ein spezialisierter Einmaster, gebaut für extreme Wendigkeit.
-- **Obsidian Spire / Säulenmeer:** Ein unerklärtes geologisches (oder magisches) Phänomen weit im Westen.
-- **Entenschnabel-Flugfische:** Eine mutierte oder unbekannte Spezies in den Tiefen des Ozeans.
-- **Vencurius' Suche:** Belegt die Existenz mächtiger [[08_Ventus]]-Rituale zur Fernwirkung.
+### Die Gefahren des Ozeans
+Die Reise führt Tintin durch extreme klimatische und übernatürliche Zonen:
+*   **Fera Noril:** Ein Halt an der letzten bekannten Insel, bekannt für ihre exotischen Früchte.
+*   **Der Sturmring:** Eine massive Wetterwand, die das Schiff fast zerstört.
+*   **Das [[Saeulenmeer]]:** Ein bizarres, endloses Feld aus Steinsäulen, auf denen weder Flora noch Fauna gedeihen und die Kompasse nutzlos machen.
+*   **Die Algenfalle:** Ein riesiges biologisches Phänomen (möglicherweise eine gigantische Schildkröte), das Meeresbewohner in Netzen fängt.
 
-## Charaktere
-- [[Tintin]] (Protagonist)
-- [[Vencurius]] (Erzpriester)
-- [[Telandrion]] (Gefährte des Vencurius)
+### Magische Intervention
+Während Tintin auf See verzweifelt, vollführt sein Mentor [[Vencurius]] in [[Brandenstein]] den "Tanz der Winde", um dem Verschollenen spirituelle Kraft zu senden. Dieses Ereignis wurde vom [[Ignis]]-Diener [[Telandrion]] bezeugt.
+
+## Atmosphäre
+Die Erzählung zeichnet sich durch eine dichte, beklemmende Atmosphäre aus. Sie thematisiert nicht nur die körperliche Anstrengung der Seefahrt, sondern auch den psychischen Verfall durch Isolation, Hunger und die Begegnung mit dem Unbegreiflichen.
+
+## Lore-Bedeutung
+"Der Flug der Ente" dient als primäre Quelle für Informationen über maritime Anomalien weitab der Küsten von [[Siebenwind]]. Sie festigt das Bild von [[Ventus]] als launischer, aber wegeweisender Gottheit.
+
+## Quellen
+*   [Der Flug der Ente](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)

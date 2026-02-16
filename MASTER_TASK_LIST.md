@@ -3,10 +3,10 @@
 Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **aktiven Fokus** von der **Projekthistorie** und definiert klare Standards für die Aufgabenpriorisierung.
 
 ## 📊 Status-Übersicht
-- **Wiki-Standard:** v2.7 (Engine Stabilized / CI-Ready)
+- **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-15 23:45 (Antigravity -> User)
-- **Status**: Gilden-Struktur & Dur-Identität erforscht; Wiki v2.7 Ingestion läuft.
+- **Last Handover**: 2026-02-16 17:15 (Antigravity -> User)
+- **Status**: Workflows konsolidiert; CLI `7w_wiki.py` vervollständigt (Phase 1.13 abgeschlossen).
 
 ---
 
@@ -46,6 +46,14 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ---
 
 <details open>
+<summary><b>Phase 1.13: Workflow Optimization & CLI Expansion (Feb 2026)</b></summary>
+
+- **Workflow Consolidation**: Redundanzen in 30 Workflow-Dateien eliminiert. Zentrale Referenzierung via `rvw_loop.md` und `wiki_style_guide.md`.
+- **CLI Unified**: Alle losen Skripte (`sanitize`, `score`, `check`, `translate`, `watch`) in `7w_wiki.py` integriert.
+- **Archive Integration**: Vollständige Synchronisation von Ingestion Reports und Research Board in das Web-Wiki.
+</details>
+
+<details>
 <summary><b>Phase 1.12: Lore Research & Profile Merger (Feb 2026)</b></summary>
 
 - **Gilden Research**: RESEARCH-2026-009 abgeschlossen. Artikel [[Gilden_und_Handwerk]] erstellt.

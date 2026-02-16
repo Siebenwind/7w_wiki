@@ -1,6 +1,22 @@
 # Changelog
 
 <details open>
+<summary><b>[2026-02-16.13] - Phase 1.13: Workflow Consolidation & CLI Expansion</b></summary>
+
+### Hinzugefügt
+- **CLI Erweiterung**: Kommandos `sanitize`, `score`, `check`, `translate`, `watch` in `7w_wiki.py` integriert.
+- **Archive Sync**: Verknüpfung von `LORE_RESEARCH_BOARD.md` und Ingestion Reports in `docs/Archiv`.
+
+### Geändert
+- **Workflow-Architektur**: Konsolidierung von 30 Workflows. Entfernung von Redundanzen (Zwei-Pass-Verfahren, Epistemik) durch zentrale Referenzierung.
+- **Handover-Protokoll**: `/handover` und `/takeover` auf den neuen Standard (v2.1) aktualisiert.
+
+### Entfernt
+- **Redundante Skripte**: `find_orphans.py` gelöscht (ersetzt durch `audit`).
+
+</details>
+
+<details>
 <summary><b>[2026-02-15.29] - Project Evolution & Aesthetic Refinement</b></summary>
 ### Hinzugefügt
 - New Gargoyle Banner (Renaissance Style)
