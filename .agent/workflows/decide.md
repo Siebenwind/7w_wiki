@@ -4,6 +4,14 @@ description: Hochgeschwindigkeits-Workflow für Nutzerentscheidungen (/decide)
 
 # Workflow: /decide
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py mail inbox --status OPEN`
+  - `7w_wiki.py mail claim <id> --agent <name>`
+  - `7w_wiki.py mail done <id> --agent <name>`
+- method_only:
+  - `/decide`
+
 Dieser Workflow erlaubt es dem Nutzer (Meister), schnell über offene Lore-Konflikte auf dem Synapse-Board zu entscheiden.
 
 ## 1. Status-Abfrage

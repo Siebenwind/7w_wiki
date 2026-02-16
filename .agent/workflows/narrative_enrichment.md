@@ -3,6 +3,14 @@ description: Narrative Enrichment Workflow (Roman-Qualität)
 ---
 # Narrative Enrichment Workflow
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py historian <query>`
+  - `7w_wiki.py search <query> --source all`
+  - `7w_wiki.py score <file>`
+- method_only:
+  - `/narrative_enrichment`
+
 **Ziel:** Aufwertung von Stubs und faktischen Artikeln zu lebendigen, atmosphärischen Beschreibungen ("Roman-Qualität").
 **Zielgruppe:** Charaktere mit mehrfacher Erwähnung oder besonderer Relevanz (keine One-Hit-Wonder).
 

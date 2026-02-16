@@ -4,6 +4,12 @@ description: Der "Herold von Siebenwind" – PR, Design & Außendarstellung
 
 # Workflow: /herold (Der Herold)
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py stats`
+- method_only:
+  - `/herold`
+
 Dieser Workflow dient der visuellen und öffentlichen Pflege des Siebenwind-Wikis. Er sorgt für den "Wow-Effekt" und die proaktive Information der Community.
 
 ## 1. Visuelles Audit (Atelier)

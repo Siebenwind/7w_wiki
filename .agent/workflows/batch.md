@@ -4,6 +4,15 @@ description: Konsolidierter Workflow zur Massenverarbeitung von Quellen (Batch-P
 
 # Workflow: /batch [Bereich]
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py inquisition --batch <n>`
+  - `7w_wiki.py advisor`
+  - `7w_wiki.py search <query> --source all`
+  - `7w_wiki.py score <file>`
+- method_only:
+  - `/batch`
+
 Dieser Workflow ist das "Arbeitstier" des Oberarchivars. Er bündelt die Ingestion, Verifikation und Produktion für eine Gruppe von Dokumenten.
 
 ## 1. Voraussetzungen
@@ -30,7 +39,7 @@ Für jede identifizierte Datei wird der [RVW-Loop](../../.agent/workflows/rvw_lo
 Nach jedem erfolgreichen Schreibvorgang werden die zentralen Register (`Personenregister.md`, `Organisationsregister.md`) aktualisiert.
 
 ### D. Scoring & Board-Reporting
-1.  **Lore Scoring:** Führe `lore_score_manager.py` über den gesamten Batch-Output aus.
+1.  **Lore Scoring:** Führe `./7w_wiki.py score <Dateipfad>` über den gesamten Batch-Output aus.
 2.  **Board Report:** Erstelle bei signifikanten Konflikten oder Massen-Updates ein automatisches Ticket (Status: `AUTO_RESOLVED` oder `NEEDS_REVIEW`), um die Batch-Integrität zu dokumentieren.
 
 ## 3. Reporting (Ergebnisbericht)

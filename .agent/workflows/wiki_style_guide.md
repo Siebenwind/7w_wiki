@@ -4,6 +4,13 @@ description: Siebenwind Wiki Style Guide & Convention
 
 # [Display Title]
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py check`
+  - `7w_wiki.py sanitize --auto`
+- method_only:
+  - `/wiki_style_guide`
+
 **Epistemischer Status:** #perspektive
 
 To ensure portability, consistency, and a high narrative standard across the Siebenwind Chronicles, all wiki entries must follow this strict structure. We aim for **"Roman-Qualität" (Novel Quality)**—entries should be immersive, providing context on motivations, surroundings, and social atmosphere.

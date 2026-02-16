@@ -9,6 +9,8 @@ Dieses Department klärt komplexe Lore-Widersprüche und veredelt Artikel narrat
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py historian <query>`
+  - `7w_wiki.py search <query> --source wiki`
+  - `7w_wiki.py search <query> --source quellen`
   - `7w_wiki.py search <query> --source all`
 - method_only:
   - `/lore_master`
@@ -21,6 +23,7 @@ Dieses Department nutzt spezialisierte Methoden zur Klärung von Lore-Fragen.
 
 ### A. Lore-Analyse
 Nutze den [historian.md](../../.agent/workflows/historian.md) (Standard-Analyse) für:
+- **Orakel-Disziplin:** Immer `wiki`, `quellen` und `all` gezielt ausführen und gegeneinander prüfen.
 - **Rekonstruktion**: Kausalitäten und zeitliche Abfolgen.
 - **Wahrheitsmodell**: Epistemische Einordnung (#canon vs #bote).
 - **Gutachten**: Erstellung der finalen historischen Einordnung.

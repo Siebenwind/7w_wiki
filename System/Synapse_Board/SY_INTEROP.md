@@ -34,7 +34,7 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
 
 ## Norm 3: Command Registry (Single Source)
 Die operative Kommandoliste lautet aktuell:
-- `advisor`, `audit`, `historian`, `index`, `index-pages`, `inquisition`, `mail`, `repair`, `search`, `start`, `stats`
+- `advisor`, `archive`, `audit`, `check`, `historian`, `index`, `index-pages`, `inquisition`, `mail`, `repair`, `sanitize`, `score`, `search`, `start`, `stats`, `translate`, `watch`
 
 Bei CLI-Aenderungen muss diese Liste in derselben Session synchronisiert werden.
 

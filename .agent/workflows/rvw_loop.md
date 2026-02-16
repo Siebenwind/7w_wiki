@@ -4,6 +4,15 @@ description: Standard workflow for processing raw data into Wiki artifacts (Read
 
 # [Entity Name]
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py search <query> --source all`
+  - `7w_wiki.py sanitize --auto`
+  - `7w_wiki.py score <file>`
+  - `7w_wiki.py audit`
+- method_only:
+  - `/rvw_loop`
+
 **Epistemischer Status:** #perspektive
 
 This workflow defines the standard process for the Oberarchivar agent to convert raw source material into valid Siebenwind Wiki entries.
@@ -146,10 +155,8 @@ layout: wiki_page
         - Notizen zu Inkonsistenzen (Verweis auf Konsistenzbericht).
     *   **Lore Scoring [PFLICHT]:** Führe das Scoring-Skript aus, um den `lore_trust` final zu berechnen:
         ```bash
-        python3 .agent/scripts/lore_score_manager.py [Zieldatei]
+        ./7w_wiki.py score [Zieldatei]
         ```
     *   **Historian Boost:** Markiere den Artikel für den Historiker zur Prüfung (falls Score < 7), um das Audit-Potential zu nutzen.
     *   Update `task.md` (mark item as `[x]`).
     *   Clear temporary context (focus on next item).
-
-

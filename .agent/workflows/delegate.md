@@ -4,6 +4,13 @@ description: Delegiere eine Aufgabe an einen externen Agenten (CLI) zur Token-Sc
 
 Dieser Workflow bereitet alles vor, um eine Aufgabe (z. B. Scouting, Ingestion) an eine externe CLI (Gemini, Codex, Claude) zu übergeben.
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py start`
+  - `7w_wiki.py audit`
+- method_only:
+  - `/delegate`
+
 ## Schritte
 
 1. **Vorbereitung**:
@@ -26,7 +33,7 @@ Dieser Workflow bereitet alles vor, um eine Aufgabe (z. B. Scouting, Ingestion) 
 5. **Re-Integration**:
    Sobald der externe Agent fertig ist, führe in Antigravity einen Audit durch:
    // turbo
-   `python3 .agent/scripts/register_check.py`
+   `./7w_wiki.py audit`
 
 6. **Cleanup**:
    Lösche temporäre Arbeitsdateien des externen Agenten, falls vorhanden.

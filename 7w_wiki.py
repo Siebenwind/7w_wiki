@@ -110,11 +110,13 @@ def main():
     subparsers.add_parser("watch", help="Start the live watcher for real-time indexing")
 
     # QA & Style Check (Lektor)
-    subparsers.add_parser("check", help="Run professional style and grammar check (Lektor)")
+    check_parser = subparsers.add_parser("check", help="Run professional style and grammar check (Lektor)")
+    check_parser.add_argument("path", nargs="?", default="Siebenwind_Wiki", help="Path to file/folder (default: Siebenwind_Wiki)")
 
     # Archive Management
     archive_parser = subparsers.add_parser("archive", help="Manage Wiki Archive (Symlinks, Research Board)")
     archive_sub = archive_parser.add_subparsers(dest="archive_cmd")
+    archive_sub.add_parser("sync", help="Sync archive symlinks into docs/Archiv")
     # Agent Messaging (Dispatch)
     mail_parser = subparsers.add_parser("mail", help="Agent Messaging (Dispatch)")
     mail_parser.add_argument("mail_args", nargs=argparse.REMAINDER, help="Arguments for agent_mail.py")
@@ -196,7 +198,7 @@ def main():
         run_script(".agent/scripts/watcher.py")
 
     elif args.command == "check":
-        run_script(".agent/skills/lektor/style_checker.py")
+        run_script(".agent/skills/lektor/style_checker.py", [args.path])
 
     elif args.command == "archive":
         if args.archive_cmd == "sync":
@@ -223,10 +225,12 @@ def main():
                         if not os.path.exists(dst):
                             os.symlink(src, dst)
                 print(f"  - Ingestion Reports synchronisiert.")
+        else:
+            archive_parser.print_help()
 
     elif args.command == "mail":
         if not args.mail_args:
-            print("Usage: 7w mail <post|inbox|read|claim|done> [args]")
+            print("Usage: ./7w_wiki.py mail <post|inbox|read|claim|done> [args]")
             sys.exit(1)
         run_script(".agent/scripts/agent_mail.py", args.mail_args)
 

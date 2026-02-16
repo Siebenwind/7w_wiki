@@ -60,7 +60,9 @@ Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
 
 ```bash
 # Suchen & Forschen
-./7w_wiki.py search "Wer war Benedict Rabenfels?"
+./7w_wiki.py search "Wer war Benedict Rabenfels?" --source wiki
+./7w_wiki.py search "Wer war Benedict Rabenfels?" --source quellen
+./7w_wiki.py search "Wer war Benedict Rabenfels?" --source all
 ./7w_wiki.py historian "Benedict Rabenfels"
 
 # Ingestion (Silicon Inquisition)
@@ -68,7 +70,7 @@ Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
 
 # Qualität & Wartung
 ./7w_wiki.py audit        # Konsistenz-Check (Duplikate, Orphans)
-./7w_wiki.py check        # Stil- & Grammatik-Prüfung (Lektor)
+./7w_wiki.py check [path] # Stil- & Grammatik-Prüfung (Lektor)
 ./7w_wiki.py sanitize     # Struktur-Korrektur (YAML/H1 Sync)
 ./7w_wiki.py score [file] # Lore Quality Score berechnen
 
@@ -77,6 +79,17 @@ Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
 ./7w_wiki.py archive sync # Archiv-Symlinks aktualisieren
 ./7w_wiki.py stats        # Statistiken generieren
 ```
+
+---
+
+## 🧩 Agentenbetrieb & Interop
+
+Die Orchestrierung bleibt in `.agent/`, waehrend `.agents/skills/` als Bruecke fuer externe Agenten dient.
+
+- [AGENTS.md](AGENTS.md) (kanonische Agent-Instruktionen)
+- [System/AGENT_OPERATIONS_HANDBOOK.md](System/AGENT_OPERATIONS_HANDBOOK.md) (Uebersicht fuer Agents/Skills/Workflows)
+- [System/Synapse_Board/SY_INTEROP.md](System/Synapse_Board/SY_INTEROP.md) (Interop-Norm)
+- [System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md](System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md) (Workflow-CLI-Mapping)
 
 ---
 

@@ -4,6 +4,13 @@ description: Live-Überwachung und automatische Indexierung des Wikis (Autopilot
 
 # Workflow: `/watch` (Live-Indexierung)
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py watch`
+  - `7w_wiki.py index --status`
+- method_only:
+  - `/watch`
+
 Dieser Workflow aktiviert den **Autopiloten** für das Orakel. Er etabliert eine Live-Überwachung der Wiki- und Quellen-Verzeichnisse.
 
 ## Funktionsweise
@@ -21,13 +28,9 @@ Der Watcher muss im Hintergrund laufen (z.B. in einem separaten Terminal-Tab).
 
 ```bash
 # Starten (blockiert das Terminal)
-.agent/skills/oracle/venv/bin/python3 .agent/scripts/watcher.py
+./7w_wiki.py watch
 ```
 
 ## Voraussetzungen
 
-Stelle sicher, dass `watchdog` installiert ist (Teil von `setup.sh` seit v2.0).
-Falls nicht:
-```bash
-.agent/skills/oracle/venv/bin/pip install watchdog
-```
+Stelle sicher, dass die Projekt-Abhängigkeiten gemäß Setup installiert sind (inkl. `watchdog`).

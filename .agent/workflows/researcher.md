@@ -4,6 +4,14 @@ description: Dedizierter Workflow für Lore-Forschung und das Research Board
 
 # Workflow: /researcher (Der Forscher)
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py search <query> --source all`
+  - `7w_wiki.py historian <query>`
+  - `7w_wiki.py mail post --from <agent> --to <agent>`
+- method_only:
+  - `/researcher`
+
 Dieser Workflow fokussiert sich auf die systematische Abarbeitung von Forschungsaufträgen und die Verwaltung des `LORE_RESEARCH_BOARD.md`.
 
 ## 1. Board-Sichtung

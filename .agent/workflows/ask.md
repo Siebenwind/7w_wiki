@@ -4,6 +4,14 @@ description: Lore-Anfrage & Konsistenzprüfung durch den Auskunfts-Archivar (/as
 
 # Workflow: /ask
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py search <query> --source wiki`
+  - `7w_wiki.py search <query> --source quellen`
+  - `7w_wiki.py search <query> --source all`
+- method_only:
+  - `/ask`
+
 Dieser Workflow dient der direkten Abfrage von Wissen und der Prüfung von Lore-Konsistenz. Durch diesen Befehl wechselt der Agent in die Rolle des **Auskunfts-Archivars**.
 
 ## 1. Initialisierung
@@ -18,15 +26,19 @@ Der Agent geht bei jeder Frage `/ask [Deine Frage]` wie folgt vor:
 
 ### A. Analyse & Suche (Eskalationsstufen)
 1.  **Stufe 1 (Wiki-Check):** Suche zuerst nur im verarbeiteten Wissen:
-    `.agent/skills/oracle/search.py "Frage" --source wiki`
+    `./7w_wiki.py search "Frage" --source wiki`
     *Ziel: Was gilt als verarbeiteter, aktueller Kanon?*
 
 2.  **Stufe 2 (Quellen-Tiefenbohrung):** Falls Stufe 1 keine oder widersprüchliche Ergebnisse liefert, suche in den Rohdaten:
-    `.agent/skills/oracle/search.py "Frage" --source quellen`
+    `./7w_wiki.py search "Frage" --source quellen`
     *Ziel: Was steht in den alten Boten, Notizen oder Archiven?*
 
+3.  **Stufe 3 (Gesamtabgleich):** Führe abschließend eine Gesamtsuche aus:
+    `./7w_wiki.py search "Frage" --source all`
+    *Ziel: Wiki- und Rohquellenlage konsolidiert vergleichen.*
+
 - Durchsuche ergänzend die relevanten Kategorien (Geografie, Pantheon, Chronik etc.) manuell.
-- **NEU: Search-Fallback:** Falls der Oasis/Oracle-Skill (`search.py`) nicht funktional ist oder ein Timeout liefert, MUSS der Agent zwingend manuell mittels `grep_search` oder `find_by_name` in den Verzeichnissen suchen.
+- **NEU: Search-Fallback:** Falls `./7w_wiki.py search` nicht funktional ist oder ein Timeout liefert, MUSS der Agent zwingend manuell mittels `grep_search` oder `find_by_name` in den Verzeichnissen suchen.
 - Identifiziere primäre Quellen (#kanon) und sekundäre Quellen (#bote).
 
 ### B. Konsistenzcheck

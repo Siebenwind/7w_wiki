@@ -4,6 +4,15 @@ description: Der "Zyklus der Weisheit" – Prozess zur Integration neuer Dokumen
 
 Dieser Workflow beschreibt den standardisierten Prozess, um neue Quellen (HTML, DOCX, PDF, MD) in das Siebenwind-Wiki zu integrieren.
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py archive sync`
+  - `7w_wiki.py sanitize --auto`
+  - `7w_wiki.py score <file>`
+  - `7w_wiki.py audit`
+- method_only:
+  - `/wiki_process`
+
 ### Phase 1: Sichtung & Klassifizierung (Screening)
 1.  **Inventar prüfen:** Öffne die [INVENTUR_QUELLEN.md](../../Logs/INVENTUR_QUELLEN.md).
 2.  **Dateiwahl:** Wähle eine Datei mit dem Status "Pending".
@@ -16,7 +25,7 @@ Dieser Workflow beschreibt den standardisierten Prozess, um neue Quellen (HTML, 
 5.  **Inkonsistenz-Precheck:** Suche nach bestehenden Artikeln zum Thema. Falls die neue Quelle dem vorhandenen Wiki-Stand widerspricht, lege **sofort** ein Ticket auf dem Synapse-Board an.
 5.  **Auto-Sync:** Führe den Sync-Automator aus:
     ```bash
-    python3 .agent/skills/wiki_schmied/scripts/source_sync_automator.py
+    ./7w_wiki.py archive sync
     ```
 
 ### Phase 2: Extraktion & Reinigung (Extraction)
@@ -31,14 +40,14 @@ layout: wiki_page
 3.  **H1-Check:** Die `# H1` Überschrift muss exakt dem `title` im YAML entsprechen.
 4.  **Skript-Einsatz:** Nutze zur Automatisierung:
     ```bash
-    python3 .agent/skills/wiki_schmied/scripts/wiki_sanitizer.py [Dateipfad]
+    ./7w_wiki.py sanitize --auto
     ```
 
 ### Phase 4: Validierung, Konsistenz & Scoring (Validation)
 1.  **Kanon-Check:** Abgleich mit `/Hintergrund/` (#canon) und `/Zeitung 7w Bote/` (#bote).
 2.  **Lore Trust Scoring:** 
     - Berechne den initialen Score (0-10).
-    - Nutze `python3 .agent/scripts/lore_score_manager.py [Dateipfad]`.
+    - Nutze `./7w_wiki.py score [Dateipfad]`.
 3.  **Linguistik-Check (Skill: Linguist):** 
     - Werden Begriffe korrekt übersetzt? 
     - Sind die Sprach-Flags (`[run]`, `[isd]`, etc.) korrekt gesetzt?
@@ -52,7 +61,7 @@ layout: wiki_page
     ```bash
 ```
 3.  **Register-Refinement:** Bereinige und sortiere die zentralen Register:
-    - **Personen:** `python3 .agent/skills/wiki_schmied/scripts/person_registry_refiner.py`
+    - **Personen:** `./7w_wiki.py audit` ausführen und Register manuell anhand des Reports nachziehen.
     - **Bestiarium:** Prüfung der Kategorisierung und Verlinkung.
     - **Organisationen:** Konsistenz-Check mit dem Personenregister (Gildenmeister).
     - **Chronik:** Sicherstellung der korrekten Datumslinks.

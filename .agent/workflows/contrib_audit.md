@@ -4,6 +4,14 @@ description: Review & Sanitize Community Contributions (/contrib_audit)
 
 # Workflow: /contrib_audit
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py audit`
+  - `7w_wiki.py check`
+  - `7w_wiki.py sanitize --auto`
+- method_only:
+  - `/contrib_audit`
+
 Dieser Workflow wird angewendet, wenn externe Nutzer Änderungen via Pull Request (PR) einreichen. Ziel ist es, die Qualität und Konformität der Beiträge sicherzustellen.
 
 ## 1. Initiale Sichtung (PR-Analyse)

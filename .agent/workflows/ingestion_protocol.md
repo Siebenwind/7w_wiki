@@ -4,6 +4,14 @@ description: Universelles Ingestion-Protokoll für alle Quellentypen (Boten, Spi
 
 # Universelles Ingestion-Protokoll
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py archive sync`
+  - `7w_wiki.py sanitize --auto`
+  - `7w_wiki.py score <file>`
+- method_only:
+  - `/ingestion_protocol`
+
 Dieses Protokoll standardisiert die Erfassung **aller** Quellentypen und stellt sicher, dass keine Entitäten übersehen werden.
 
 ## Quellentyp bestimmen
@@ -44,7 +52,7 @@ Stelle bei jeder Quelle sicher, dass folgende Dimensionen geprüft werden:
 
 1.  **Ingestion Report**: Basierend auf `System/Templates/INGESTION_REPORT_TEMPLATE.md`. Speichern unter `Logs/Ingestion/`.
 2.  **Wiki-Produktion**: Standard-Format gemäß [Wiki Style Guide](../../.agent/workflows/wiki_style_guide.md).
-3.  **Archiv-Sync**: Stets `./7w archive sync` ausführen.
+3.  **Archiv-Sync**: Stets `./7w_wiki.py archive sync` ausführen.
 4.  **Register-Update**: `Personenregister.md`, `Organisationsregister.md`, `Bestiarium_Register.md`.
 
 #ingestion #protokoll #qualität

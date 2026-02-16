@@ -14,11 +14,11 @@ Each dispatch file is a markdown document with frontmatter and lifecycle state.
 
 ## Commands
 
-- `7w mail post --from <agent> --to <agent|ALL> --subject "<text>" --body "<text>" [--priority LOW|NORMAL|HIGH]`
-- `7w mail inbox [--agent <name>] [--status OPEN|CLAIMED|DONE]`
-- `7w mail read <MSG-YYYY-NNNN>`
-- `7w mail claim <MSG-YYYY-NNNN> --agent <name>`
-- `7w mail done <MSG-YYYY-NNNN> --agent <name> [--note "<abschluss>"]`
+- `./7w_wiki.py mail post --from <agent> --to <agent|ALL> --subject "<text>" --body "<text>" [--priority LOW|NORMAL|HIGH]`
+- `./7w_wiki.py mail inbox [--agent <name>] [--status OPEN|CLAIMED|DONE]`
+- `./7w_wiki.py mail read <MSG-YYYY-NNNN>`
+- `./7w_wiki.py mail claim <MSG-YYYY-NNNN> --agent <name>`
+- `./7w_wiki.py mail done <MSG-YYYY-NNNN> --agent <name> [--note "<abschluss>"]`
 
 ## Conventions
 

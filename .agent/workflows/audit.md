@@ -4,6 +4,13 @@ description: Konsistenz-Audit & Vollständigkeitsprüfung (/audit)
 
 # Workflow: /audit
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py audit`
+  - `7w_wiki.py stats`
+- method_only:
+  - `/audit`
+
 Dieser Workflow dient der regelmäßigen Überprüfung der Lore-Integrität und der Abarbeitung identifizierter Inkonsistenzen.
 
 ## 1. Sichtung der Berichte & Tickets
@@ -26,7 +33,7 @@ Dieser Workflow dient der regelmäßigen Überprüfung der Lore-Integrität und 
 - Validiere, ob vorgeschlagene Aktionen bereits in EXECUTION sind.
 
 ## 2b. Automatisierte Prüfung (Skript)
-- Führe `.agent/scripts/register_check.py` aus.
+- Führe `./7w_wiki.py audit` aus.
 - Das Skript liefert eine maschinenlesbare Übersicht über:
   - Duplikate im Personenregister
   - Verwaiste Profile (Datei existiert, kein Register-Eintrag)
@@ -53,7 +60,7 @@ Für jedes vom Skript oder manuell identifizierte verwaiste Profil:
 ## 5. Audit-Report
 - Erstelle einen datierten Audit-Report in `Logs/Audit_Report_[DATUM].md`.
 - **Pflichtfeld:** Jeder Report muss im Header eine eindeutige ID (UUID) tragen:
-  `**Report-ID:** [UUID aus register_check.py]`
+  `**Report-ID:** [UUID aus ./7w_wiki.py audit]`
 - Der Report dokumentiert **alle Prüfergebnisse** mit konkreten Zahlen und Tabellen.
 - Empfehlungen für Prozessverbesserungen werden im Report formuliert und in die betroffenen Workflows übernommen.
 
@@ -68,4 +75,3 @@ Jeder Workflow MUSS bei Fund einer Inkongruenz ein Ticket auf dem Synapse-Board 
 Führe diesen Workflow wöchentlich oder nach Abschluss eines großen Ingestion-Batches aus, um die Qualität des Wikis zu sichern.
 
 #audit #qualität #konsistenz
-

@@ -4,14 +4,20 @@ description: Falandrische Texte übersetzen & Sprachdatensätze pflegen
 
 # Workflow: /translate
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py translate <args>`
+- method_only:
+  - `/translate`
+
 Dieser Workflow beschreibt die Handhabung des Sprach-Übersetzers für falandrische Dialekte.
 
 ## 1. Übersetzung durchführen
-Nutze das Skript `translator.py`, um Texte mit Sprach-Flags zu verarbeiten.
+Nutze `./7w_wiki.py translate`, um Texte mit Sprach-Flags zu verarbeiten.
 
 **Syntax:**
 ```bash
-python translator.py "[run]Ta'e lahir enwunji[/run]"
+./7w_wiki.py translate "[run]Ta'e lahir enwunji[/run]"
 ```
 *Ausgabe: "Ich schreibe Buch"*
 
@@ -45,5 +51,5 @@ Achte auf den Kontext:
 // turbo
 ### Skript-Test
 ```bash
-python translator.py "[run]Gala Hor[/run]"
+./7w_wiki.py translate "[run]Gala Hor[/run]"
 ```

@@ -4,6 +4,14 @@ description: Dedizierter Workflow für die Verarbeitung offizieller Kanon-Dokume
 
 # Workflow: Kanon-Update
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py search <query> --source all`
+  - `7w_wiki.py sanitize --auto`
+  - `7w_wiki.py score <file>`
+- method_only:
+  - `/canon_update`
+
 Dieser Workflow behandelt die Verarbeitung und Integration von **offiziellen Hintergrunddokumenten** (`/Quellen/Hintergrund/`, Epistemik: `#canon`). Er unterscheidet sich grundlegend vom Standard-RVW-Loop, weil Kanon-Dokumente **nicht verifiziert** werden müssen – sie **sind** die Wahrheit.
 
 ## Wann verwenden?

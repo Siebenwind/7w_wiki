@@ -5,12 +5,21 @@ description: System-Audit & Update von Skills, Agents und Workflows (/update)
 
 Dieser Workflow dient der regelmäßigen Wartung und Sicherstellung, dass alle Systemkomponenten (Automatisierung, Instruktionen, Workflows) den aktuellen Projektanforderungen entsprechen.
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py audit`
+  - `7w_wiki.py sanitize --auto`
+  - `7w_wiki.py index --status`
+- method_only:
+  - `/update`
+
 ### 1. Skill-Audit & Cleanup
-Prüfe die Python-Skripte in `.agent/skills/wiki_schmied/scripts/`:
-- **Integrität:** Führe den Guardian und den Sync-Automator aus:
+Prüfe die Skill- und Datenintegrität über den zentralen CLI-Einstieg:
+- **Integrität:** Führe Audit, Sanitizer und Index-Status aus:
     ```bash
-    python3 .agent/skills/wiki_schmied/scripts/wiki_integrity_guardian.py
-    python3 .agent/skills/wiki_schmied/scripts/source_sync_automator.py
+    ./7w_wiki.py audit
+    ./7w_wiki.py sanitize --auto
+    ./7w_wiki.py index --status
     ```
 - **Logik-Check:** Unterstützen die Skripte die neuesten Standards (z.B. Granulares Tagging für Mixed-Source Artikel)?
 - **Pfad-Check:** Sind die Pfade in den Skripten noch aktuell?

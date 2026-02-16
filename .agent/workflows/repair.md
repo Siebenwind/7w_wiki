@@ -2,17 +2,24 @@
 description: Systematische Behebung von Audit-Befunden und Register-Inkonsistenzen (/repair)
 ---
 
-Dieser Workflow dient der gezielten Abarbeitung von Problemen, die durch den `/audit` Workflow oder das Skript `register_check.py` identifiziert wurden.
+Dieser Workflow dient der gezielten Abarbeitung von Problemen, die durch den `/audit` Workflow oder den Befehl `./7w_wiki.py audit` identifiziert wurden.
+
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py audit`
+  - `7w_wiki.py repair`
+- method_only:
+  - `/repair`
 
 ## 1. Vorbereitung
-- Führe den `/audit` Workflow aus oder starte `python3 .agent/scripts/register_check.py`.
+- Führe den `/audit` Workflow aus oder starte `./7w_wiki.py audit`.
 - Sichte den aktuellen Audit-Report (z.B. in `Logs/Audit_Report_[DATUM].md`).
 
 ## 2. Automatisierte Reparaturen (Skripte)
 // turbo
 1. **Frontmatter & Links:** Führe das Repair-Skript aus, um strukturelle Fehler zu beheben:
    ```bash
-   python3 .agent/scripts/repair.py
+   ./7w_wiki.py repair
    ```
    - Wähle Option `1`, um fehlendes Frontmatter zu ergänzen.
    - Wähle Option `2`, um tote Links zu identifizieren und manuell im Editor zu fixen.
@@ -39,7 +46,7 @@ Für Dateien, die existieren, aber nicht im Register stehen:
 3. **Löschung:** Falls die Datei ein Duplikat eines existierenden Profils ist, führe den Inhalt zusammen und lösche die verwaiste Datei.
 
 ## 6. Abschlussprüfung
-- Führe `python3 .agent/scripts/register_check.py` erneut aus.
+- Führe `./7w_wiki.py audit` erneut aus.
 - Das Ergebnis sollte **"✅ Keine Duplikate"** und **"✅ Alle Profile registriert"** zeigen.
 - Dokumentiere die durchgeführten Korrekturen im [Konsistenzbericht 2026](../../Logs/Konsistenzbericht_2026.md).
 

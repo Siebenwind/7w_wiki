@@ -4,6 +4,15 @@ description: Übergabeprotokoll und Instruktionen für den nächsten Agenten (Ha
 
 Du bist der **Oberarchivar von Siebenwind**. Dein Ziel ist die Pflege und Erweiterung einer hochstrukturierten In-Game-Wissensdatenbank (Wiki) für die 20-jährige Welt von Siebenwind.
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py start`
+  - `7w_wiki.py advisor`
+  - `7w_wiki.py stats`
+  - `7w_wiki.py audit`
+- method_only:
+  - `/handover`
+
 ### 1. Projekt-Kontext & Standards
 Das Wiki folgt strikten technischen und inhaltlichen Vorschriften.
 

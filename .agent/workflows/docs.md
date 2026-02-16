@@ -3,27 +3,52 @@ layout: wiki_page
 description: Dokumentation, Verwendungsprüfung und Git-Synchronisation (/docs)
 ---
 
-Dieser Workflow dient der Dokumentation der Anwendung sowie der Sicherung des Projektfortschritts mittels Git.
+Dieser Workflow sichert Dokumentationsqualitaet, Interop-Konsistenz und GitHub-Pages-Bereitstellung.
+
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py check`
+  - `7w_wiki.py stats`
+  - `7w_wiki.py audit`
+  - `7w_wiki.py archive sync`
+- method_only:
+  - `/docs`
 
 ### 1. Dokumentations-Check
-Überprüfe die zentralen Dokumentationsdateien auf Richtigkeit und Vollständigkeit:
+Pruefe zentrale Dokumente auf Vollstaendigkeit, Konsistenz und aktuelle Pfade:
 - [README.md](../../README.md)
+- [AGENTS.md](../../AGENTS.md)
+- [GEMINI.md](../../GEMINI.md)
 - [COORDINATION_HUB.md](../../System/COORDINATION_HUB.md) (**Zentrale Registrierungspflicht!**)
-- [WORKFLOW_LORE_CONSISTENCY.md](../../WORKFLOW_LORE_CONSISTENCY.md)
+- [WORKFLOW_LORE_CONSISTENCY.md](../../System/WORKFLOW_LORE_CONSISTENCY.md)
 - [SYNAPSEN_SYSTEM_SPEC.md](../../.agent/docs/SYNAPSEN_SYSTEM_SPEC.md)
-- **Board Check:** Sind alle Tickets auf dem [Synapse-Board](../../System/Synapse_Board) sowie den neuen Koordinations-Boards ([SY_REVIEW](../../System/Synapse_Board/SY_REVIEW.md), [SY_STANDARDS](../../System/Synapse_Board/SY_STANDARDS.md)) im korrekten Status?
-- **Lore Trust Audit:** Stichprobenartige Prüfung der `lore_trust` Scores im Wiki auf Plausibilität gemäß [Score Guide](../../System/Synapse_Board/CORE_LORE_SCORE_GUIDE.md).
+- [SY_INTEROP.md](../../System/Synapse_Board/SY_INTEROP.md)
+- [SY_WORKFLOW_CLI_MATRIX.md](../../System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md)
+- [SY_DISPATCH.md](../../System/Synapse_Board/SY_DISPATCH.md)
+- **Board Check:** Sind Tickets auf [Synapse_Board](../../System/Synapse_Board/) sowie [SY_REVIEW](../../System/Synapse_Board/SY_REVIEW.md) und [SY_STANDARDS](../../System/Synapse_Board/SY_STANDARDS.md) korrekt gepflegt?
+- **Lore Trust Audit:** Stichprobe der `lore_trust` Scores gemaess [CORE_LORE_SCORE_GUIDE.md](../../System/Synapse_Board/CORE_LORE_SCORE_GUIDE.md).
 - [wiki_style_guide.md](../../.agent/workflows/wiki_style_guide.md)
 
-### 2. Implementierungsverzeichnis
-Dokumentiere neue Funktionen oder Änderungen an der Struktur:
-- Wurden neue Skripte hinzugefügt? (Dokumentiere Zweck und Aufruf)
-- Wurden Kategorien im Wiki ergänzt?
+### 2. CLI- und Interop-Paritaet
+Stelle sicher, dass Dokumentation und Runtime deckungsgleich sind:
+- Vergleiche Kommandolisten in `AGENTS.md`, `README.md` und `SY_WORKFLOW_CLI_MATRIX.md` mit `./7w_wiki.py --help`.
+- Pruefe kritische Optionen explizit:
+  - `./7w_wiki.py search "<query>" --source wiki|quellen|all`
+  - `./7w_wiki.py index --status` / `--rebuild`
+  - `./7w_wiki.py inquisition --audit-only`
+  - `./7w_wiki.py sanitize --auto`
+  - `./7w_wiki.py archive sync`
+- Wenn neue Systemdokumente entstanden sind: in `System/COORDINATION_HUB.md` registrieren.
 
-### 3. Verwendungsprüfung
-Stelle sicher, dass die Anwendung (das Wiki und die Tools) wie vorgesehen genutzt wird:
-- Ist die Trennung von `#canon`, `#bote` und `#perspektive` in neuen Artikeln korrekt umgesetzt?
-- Wurden bi-direktionale Links via `wiki_link_weaver.py` gesetzt?
+### 3. Verwendungspruefung (Docs + Pages)
+Fuehre den minimalen Qualitaetslauf aus:
+```bash
+./7w_wiki.py check
+./7w_wiki.py stats
+./7w_wiki.py audit
+./7w_wiki.py archive sync
+```
+Pruefe danach, ob relevante Aenderungen in `docs/` und den verlinkten Quellseiten sichtbar sind.
 
 ### 4. Git-Synchronisation
 Sichere den aktuellen Stand:
@@ -38,4 +63,4 @@ Sichere den aktuellen Stand:
     git push
     ```
 
-**Die Dokumentation sollte immer den "Live"-Zustand der Anwendung widerspiegeln.**
+**Die Dokumentation muss jederzeit den realen CLI- und Workflow-Stand widerspiegeln.**

@@ -43,6 +43,7 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [.agent/workflows/rvw_loop.md](../.agent/workflows/rvw_loop.md) (Technischer Standard)
 - [x] [.agent/workflows/wiki_style_guide.md](../.agent/workflows/wiki_style_guide.md) (Zentrales Regelwerk)
 - [x] [LORE_RESEARCH_BOARD.md](../LORE_RESEARCH_BOARD.md)
+- [x] [AGENT_OPERATIONS_HANDBOOK.md](AGENT_OPERATIONS_HANDBOOK.md)
 
 ---
-*Zuletzt aktualisiert: 2026-02-14T23:05:00Z | Ref: #standards_formalized*
+*Zuletzt aktualisiert: 2026-02-16T16:32:00Z | Ref: #interop_docs_block1*

@@ -4,6 +4,16 @@ description: Der Ur-Prozess / Default Protocol (Antigravity)
 
 # null: `/antigravity` (The Core Loop)
 
+## Interop-Status
+- runtime_commands:
+  - `7w_wiki.py start`
+  - `7w_wiki.py advisor`
+  - `7w_wiki.py audit`
+  - `7w_wiki.py repair`
+  - `7w_wiki.py stats`
+- method_only:
+  - `/antigravity`
+
 Dieser Workflow ist das **Fundament** der Agenten-Interaktion. Er unterwirft den Agenten strikt der Logik der Skripte. Er ist die Antwort auf die Frage nach "Default Options".
 
 ## 1. Die Mentalität (Code is Law)
