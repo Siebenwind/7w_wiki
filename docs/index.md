@@ -1,41 +1,29 @@
-# Siebenwind Lore Engine
+# Siebenwind Wiki Portal
 
-Das zentrale Archiv der Siebenwind-Welt. Fokus auf Quellentreue, Konsistenzprüfung und semantische Vernetzung.
+Willkommen im oeffentlichen Siebenwind-Wiki auf GitHub Pages.
 
-## Projekt-Übersicht
+## Fuer Leser
 
-Dieses Wiki dient als technischer Knotenpunkt für die Rekonstruktion und Bewahrung der Siebenwind-Lore. Es konsolidiert über 20 Jahre In-Game-Geschichte, Bote-Archive und Spieler-Interaktionen in einem einheitlichen Markdown-Format.
+Hier geht es direkt zu den Inhalten:
 
----
+- [Wiki-Startpunkt](Siebenwind_Wiki/index.md)
+- [Chronik](Siebenwind_Wiki/04_Chronik/index.md)
+- [Persoenlichkeiten](Siebenwind_Wiki/07_Persoenlichkeiten/index.md)
+- [Pantheon](Siebenwind_Wiki/01_Pantheon/index.md)
+- [Geografie](Siebenwind_Wiki/02_Geografie/index.md)
+- [Bestiarium](Siebenwind_Wiki/08_Bestiarium/index.md)
 
-## Architektur & Komponenten
+## Fuer Mitwirkende
 
-| Komponente | Funktion | Dokumentation |
-| :--- | :--- | :--- |
-| **Ingestion** | Verarbeitung von Boten & Quellen | [Wiki-Inhalte](Siebenwind_Wiki/index.md) |
-| **Orakel** | Semantische RAG-Suche | [Setup RAG](setup_rag.md) |
-| **Integrity** | Konsistenz-Audit (Trias Politica) | [Architektur](architecture.md) |
-| **Status** | Aktuelle Meilensteine | [Master Task List](MASTER_TASK_LIST.md) |
+- [Mitarbeit und Regeln](CONTRIBUTING.md)
+- [Master Task List](MASTER_TASK_LIST.md)
+- [Changelog](CHANGELOG.md)
 
----
+## Fuer Agenten und technische Redaktion
 
-## Nutzung & CLI
+Die technische Betriebsdoku ist bewusst getrennt vom Endnutzer-Wiki:
 
-Die Lore-Engine wird primär über das `7w_wiki.py` Tool gesteuert:
+- [Agenten-Hub (Pages)](Agenten/index.md)
+- [Agent Operations Handbook (Pages)](AGENT_OPERATIONS_HANDBOOK.md)
 
-```bash
-# Suche im Lore-Bestand
-./7w_wiki.py search "Thema"
-
-# Audit der Register
-./7w_wiki.py audit
-```
-
----
-
-## Projekt-Metadaten
-- **Entwicklung:** LeCorbeau & Siebenwind Gemeinschaft
-- **Dokumentation:** [CHANGELOG.md](CHANGELOG.md) | [CONTRIBUTING.md](CONTRIBUTING.md)
-- **Lizenzen:** Code (MIT), Inhalte (CC BY-NC-SA 4.0)
-
-*Stand: 2026 | LeCorbeau & Siebenwind*
+Kanonische Quellen liegen weiterhin im Repository unter `System/` und `.agent/`.

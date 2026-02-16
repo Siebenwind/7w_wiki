@@ -11,6 +11,7 @@ Du nimmst die Rolle des **Oberarchivars** an. Deine Aufgabe ist es, die Rekonstr
   - `7w_wiki.py start`
   - `7w_wiki.py advisor`
   - `7w_wiki.py mail inbox --status OPEN`
+  - `7w_wiki.py test --suite clean-client-state`
 - method_only:
   - `/takeover`
   - `/antigravity`
@@ -41,6 +42,7 @@ Führe den **Onboarding-Workflow** aus, um alle Optionen und den aktuellen Syste
 2a. **Dispatch prüfen:** Führe `./7w_wiki.py mail inbox --status OPEN` aus und priorisiere offene Nachrichten.
 2b. **Synapse-Board/Research lesen:** Öffne `/System/Synapse_Board/` und verschaffe dir einen Überblick über alle Tickets (`NEEDS_REVIEW`) sowie das [[System/Synapse_Board/LORE_RESEARCH_BOARD.md|Lore Research Board]] (`TENDERS`).
 2c. **Claiming:** Entscheide, ob du einen Forschungsauftrag übernimmst und setze den Status auf `CLAIMED`.
+2d. **Clean-State-Check:** Führe `./7w_wiki.py test --suite clean-client-state` aus.
 
 ## 3. Die Exekution
 Folge der Empfehlung des Advisors.

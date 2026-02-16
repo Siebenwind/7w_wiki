@@ -1,0 +1,60 @@
+{
+  "suite": "clean-client-state",
+  "description": "Read-first smoke for clean startup and queue visibility without mutating dispatch state.",
+  "cases": [
+    {
+      "id": "default-entry",
+      "name": "Default call falls back to advisor",
+      "cmd": ["./7w_wiki.py"],
+      "expect_exit": 0,
+      "expect_stdout": ["Der Berater", "Dispatch Queue"]
+    },
+    {
+      "id": "help",
+      "name": "CLI help renders command registry",
+      "cmd": ["./7w_wiki.py", "--help"],
+      "expect_exit": 0,
+      "expect_stdout": ["Siebenwind Lore Engine CLI", "mail", "advisor"]
+    },
+    {
+      "id": "start",
+      "name": "Start workflow prints onboarding guidance",
+      "cmd": ["./7w_wiki.py", "start"],
+      "expect_exit": 0,
+      "expect_stdout": ["Workflow: `/start`", "mail inbox --status OPEN"]
+    },
+    {
+      "id": "advisor",
+      "name": "Advisor shows priorities and queue",
+      "cmd": ["./7w_wiki.py", "advisor"],
+      "expect_exit": 0,
+      "expect_stdout": ["Priorit", "Dispatch Queue", "Konsistenz-Check"]
+    },
+    {
+      "id": "inbox-open",
+      "name": "Dispatch OPEN list works",
+      "cmd": ["./7w_wiki.py", "mail", "inbox", "--status", "OPEN"],
+      "expect_exit": 0
+    },
+    {
+      "id": "inbox-claimed",
+      "name": "Dispatch CLAIMED list works",
+      "cmd": ["./7w_wiki.py", "mail", "inbox", "--status", "CLAIMED"],
+      "expect_exit": 0
+    },
+    {
+      "id": "inbox-done",
+      "name": "Dispatch DONE list works",
+      "cmd": ["./7w_wiki.py", "mail", "inbox", "--status", "DONE"],
+      "expect_exit": 0
+    },
+    {
+      "id": "read-first-open",
+      "name": "Read first open dispatch message",
+      "cmd": ["./7w_wiki.py", "mail", "read", "{{first_open_message_id}}"],
+      "expect_exit": 0,
+      "expect_stdout": ["id: MSG-", "status:", "subject:"],
+      "skip_if_context_missing": ["first_open_message_id"]
+    }
+  ]
+}

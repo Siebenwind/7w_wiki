@@ -1,0 +1,22 @@
+{
+  "suite": "interop-doc-links",
+  "description": "Local markdown link integrity for interop and testing governance docs/workflows.",
+  "cases": [
+    {
+      "id": "core-link-integrity",
+      "name": "Core interop/testing docs have resolvable local markdown links",
+      "link_check_files": [
+        "AGENTS.md",
+        ".agent/workflows/start.md",
+        ".agent/workflows/takeover.md",
+        ".agent/workflows/handover.md",
+        ".agent/workflows/test_run.md",
+        "System/Synapse_Board/SY_INTEROP.md",
+        "System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md",
+        "System/Synapse_Board/SY_TESTING.md",
+        "System/AGENT_OPERATIONS_HANDBOOK.md",
+        "System/COORDINATION_HUB.md"
+      ]
+    }
+  ]
+}

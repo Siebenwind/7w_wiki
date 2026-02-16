@@ -1,6 +1,7 @@
-# 🧪 Test Cases (Trias Politica)
+# 🧪 Test Cases (Trias Politica, Legacy Conceptual)
 
-These test cases verify the integrity of the Constitution and the Division of Power.
+These cases are conceptual governance tests.
+Executable runtime suites now live in `.agent/tests/suites/*.json` and run via `./7w_wiki.py test`.
 
 ## Case A: "The Rebel" (Verification of Judicative)
 **Goal:** Verify that the Agent cannot invent facts (Hallucination Control).

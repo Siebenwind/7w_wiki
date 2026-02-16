@@ -14,6 +14,7 @@ Run the canonical onboarding sequence:
 ```bash
 ./7w_wiki.py start
 ./7w_wiki.py advisor
+./7w_wiki.py test --suite clean-client-state
 ./7w_wiki.py audit
 ```
 

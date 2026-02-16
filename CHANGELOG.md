@@ -1,5 +1,97 @@
 # Changelog
 
+#### [2026-02-16.44] - Docs Overhaul: Leserpfad + Agenten-Hub auf Pages
+
+### Prioritaet
+- P1
+
+### Geaendert
+- `README.md` als aktueller GitHub-Einstieg neu strukturiert (Leser, Mitarbeit, Agentenbetrieb klar getrennt).
+- `docs/index.md` auf Endnutzer-Portal umgestellt und technische Betriebsdoku separiert.
+- `docs/Siebenwind_Wiki/index.md` als praesentable Leser-Startseite mit klaren Schnellrouten ueberarbeitet.
+- Neuer Pages-Bereich `docs/Agenten/` eingefuehrt:
+  - `index.md`
+  - `interop.md`
+  - `dispatch.md`
+  - `workflows.md`
+- `docs/AGENT_OPERATIONS_HANDBOOK.md` von externen Blob-Links auf interne Pages-Navigation umgestellt.
+- `mkdocs.yml` Navigation neu sortiert (Wiki fuer Leser zuerst, Agentenbetrieb als eigener Bereich).
+- `/docs`-Workflow (`.agent/workflows/docs.md`) auf Link-Suite und neue Struktur aktualisiert.
+
+### Validiert
+- `./7w_wiki.py test --suite interop-doc-links`
+- `./7w_wiki.py audit`
+- `mkdocs build` (nicht verfuegbar: `command not found`)
+- `python3 -m mkdocs build` (nicht verfuegbar: `No module named mkdocs`)
+
+#### [2026-02-16.43] - Skills Bridge: Test-Run Wrapper vervollstaendigt
+
+### Prioritaet
+- P1
+
+### Geaendert
+- Fehlende externe Skill-Bridge `.agents/skills/test-run/SKILL.md` angelegt.
+- Wrapper auf die autoritativen Artefakte `.agent/workflows/test_run.md` und `.agent/skills/test_waechter/SKILL.md` ausgerichtet.
+- Defect-Routing (`--post-failures`, `mail claim`, `mail done`) explizit dokumentiert.
+
+### Validiert
+- `./7w_wiki.py test --list-suites`
+- `./7w_wiki.py audit`
+
+#### [2026-02-16.42] - Test-Run System (Workflow, Suiten, Defect-Flow)
+
+### Prioritaet
+- P1
+
+### Geaendert
+- Neues Runtime-Subcommand `./7w_wiki.py test` eingefuehrt (Suite-Runner fuer Interop/Clean-State).
+- Neuer Runner `.agent/scripts/test_runner.py` mit deklarativen JSON-Suiten, Report-Generierung und optionalem Dispatch-Post bei FAIL.
+- Neue Suiten unter `.agent/tests/suites/`:
+  - `clean-client-state`
+  - `takeover-handover`
+  - `interop-doc-links` (lokale Markdown-Link-Integritaet)
+- Neuer Workflow `.agent/workflows/test_run.md` inkl. Agentenmentalitaet (Tester/Fixer/Koordinator) und Kommunikationspflicht vor Fixes.
+- Governance erweitert:
+  - `System/Synapse_Board/SY_TESTING.md` (neuer Teststandard)
+  - `SY_INTEROP.md`, `SY_WORKFLOW_CLI_MATRIX.md`, `AGENT_OPERATIONS_HANDBOOK.md`, `AGENTS.md`, `COORDINATION_HUB.md` auf Test-Protokoll und `test`-Runtime synchronisiert.
+- Onboarding/Handover/Takeover um Testpflichten erweitert (`clean-client-state` bzw. `all`).
+
+### Validiert
+- `./7w_wiki.py test --list-suites`
+- `./7w_wiki.py test --suite clean-client-state`
+- `./7w_wiki.py audit` (direkt nach erstem Run)
+- `./7w_wiki.py test --suite interop-doc-links`
+- `./7w_wiki.py test --suite takeover-handover`
+- `./7w_wiki.py test --suite all`
+- `./7w_wiki.py --help`
+- `./7w_wiki.py start`
+- `./7w_wiki.py audit`
+
+#### [2026-02-16.41] - Takeover/Handover CLI Bridge & Clean-State Testlauf
+
+### Prioritaet
+- P1
+
+### Geaendert
+- `7w_wiki.py` um Subcommands `takeover` und `handover` erweitert (anzeigen der autoritativen Workflow-Protokolle).
+- `AGENTS.md` Command Registry um `takeover` und `handover` ergaenzt.
+- `SY_WORKFLOW_CLI_MATRIX.md` auf `takeover`/`handover` als executable Bridge aktualisiert und Runtime-Command-Liste erweitert.
+- Clean-Client-State-Testlauf als Archivbericht dokumentiert: `Logs/Archive/2026-02-16_Clean_Client_State_Test_Report.md`.
+
+### Validiert
+- `./7w_wiki.py --help`
+- `./7w_wiki.py takeover`
+- `./7w_wiki.py handover`
+- `./7w_wiki.py`
+- `./7w_wiki.py start`
+- `./7w_wiki.py advisor`
+- `./7w_wiki.py mail inbox --status OPEN`
+- `./7w_wiki.py mail inbox --status CLAIMED`
+- `./7w_wiki.py mail inbox --status DONE`
+- `./7w_wiki.py mail read MSG-2026-0001`
+- `./7w_wiki.py stats`
+- `./7w_wiki.py audit`
+
 #### [2026-02-16.40] - Wiki Stats: Leserfokus statt Index-Buerokratie
 
 ### Prioritaet

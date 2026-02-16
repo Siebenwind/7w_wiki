@@ -4,12 +4,13 @@ description: Department Master Workflow für Projekt-Meta und Handover
 
 # Department: 📦 Logistik (META)
 
-Dieses Department regelt den Agenten-Alltag, die Dokumentation und den Wissenstransfer. Es fusioniert `/start`, `/takeover`, `/handover`, `/docs` und `/stats`.
+Dieses Department regelt den Agenten-Alltag, die Dokumentation und den Wissenstransfer. Es fusioniert `/start`, `/takeover`, `/handover`, `/docs`, `/stats` und `/test_run`.
 
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py start`
   - `7w_wiki.py stats`
+  - `7w_wiki.py test --suite clean-client-state`
   - `7w_wiki.py archive sync`
   - `7w_wiki.py mail post --to ALL ...`
 - method_only:
@@ -17,6 +18,7 @@ Dieses Department regelt den Agenten-Alltag, die Dokumentation und den Wissenstr
   - `/takeover`
   - `/handover`
   - `/docs`
+  - `/test_run`
 - method_hints_non_runtime:
   - Host-notification channel (nur als Hinweis, nicht runtime)
 
@@ -29,6 +31,10 @@ Dieses Department regelt den Agenten-Alltag, die Dokumentation und den Wissenstr
 - [ ] Führe regelmäßig Statistiken aus:
 ```bash
 ./7w_wiki.py stats
+```
+- [ ] Fuehre den Standard-Testlauf aus:
+```bash
+./7w_wiki.py test --suite clean-client-state
 ```
 
 ## 3. Dokumentation (Publicity)

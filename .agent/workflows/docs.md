@@ -10,6 +10,7 @@ Dieser Workflow sichert Dokumentationsqualitaet, Interop-Konsistenz und GitHub-P
   - `7w_wiki.py check`
   - `7w_wiki.py stats`
   - `7w_wiki.py audit`
+  - `7w_wiki.py test --suite interop-doc-links`
   - `7w_wiki.py archive sync`
 - method_only:
   - `/docs`
@@ -17,6 +18,9 @@ Dieser Workflow sichert Dokumentationsqualitaet, Interop-Konsistenz und GitHub-P
 ### 1. Dokumentations-Check
 Pruefe zentrale Dokumente auf Vollstaendigkeit, Konsistenz und aktuelle Pfade:
 - [README.md](../../README.md)
+- [docs/index.md](../../docs/index.md)
+- [docs/Siebenwind_Wiki/index.md](../../docs/Siebenwind_Wiki/index.md)
+- [docs/Agenten/index.md](../../docs/Agenten/index.md)
 - [AGENTS.md](../../AGENTS.md)
 - [GEMINI.md](../../GEMINI.md)
 - [COORDINATION_HUB.md](../../System/COORDINATION_HUB.md) (**Zentrale Registrierungspflicht!**)
@@ -46,9 +50,20 @@ Fuehre den minimalen Qualitaetslauf aus:
 ./7w_wiki.py check
 ./7w_wiki.py stats
 ./7w_wiki.py audit
+./7w_wiki.py test --suite interop-doc-links
 ./7w_wiki.py archive sync
 ```
 Pruefe danach, ob relevante Aenderungen in `docs/` und den verlinkten Quellseiten sichtbar sind.
+
+Falls `mkdocs` verfuegbar ist, lokal bauen:
+```bash
+mkdocs build
+```
+
+Zielbild:
+- Endnutzer-Pages (`docs/Siebenwind_Wiki/`) bleiben leserorientiert.
+- Agenten- und Betriebsdoku bleibt in `docs/Agenten/` gebuendelt.
+- Keine externen Blob-Spruenge aus den zentralen Agenten-Pages.
 
 ### 4. Git-Synchronisation
 Sichere den aktuellen Stand:

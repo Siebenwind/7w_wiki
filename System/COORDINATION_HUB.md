@@ -19,6 +19,7 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 |---|---|---|
 | [SY_REVIEW.md](Synapse_Board/SY_REVIEW.md) | Peer-Review & Qualitätskontrolle | Departments |
 | [SY_STANDARDS.md](Synapse_Board/SY_STANDARDS.md) | Archivar-Kodex & Regeln | Koordinator |
+| [SY_TESTING.md](Synapse_Board/SY_TESTING.md) | Test- und Defect-Protokoll | Test-Waechter |
 | [SY_BULLETIN.md](Synapse_Board/SY_BULLETIN.md) | Newsroom & Meilensteine | Herold |
 | [Synapse_Board/](Synapse_Board/) | Lore-Konflikte (Synapsen) | Historiker |
 | [SILICON_INQUISITION/](Synapse_Board/SILICON_INQUISITION/) | Parallel-Archiv (AI-Gedanken) | AI Only |
@@ -35,6 +36,7 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [.agent/instructions/persona_coordinator.md](../.agent/instructions/persona_coordinator.md)
 - [x] [SY_REVIEW.md](Synapse_Board/SY_REVIEW.md)
 - [x] [SY_STANDARDS.md](Synapse_Board/SY_STANDARDS.md)
+- [x] [SY_TESTING.md](Synapse_Board/SY_TESTING.md)
 - [x] [SILICON_INQUISITION/MANIFEST.md](Synapse_Board/SILICON_INQUISITION/MANIFEST.md)
 - [x] [INQ-2026-001_Astral_Web_Doubt.md](Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Astral_Web_Doubt.md)
 - [x] [INQ-2026-001_Historian_Report.md](Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Historian_Report.md)
@@ -46,4 +48,4 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [AGENT_OPERATIONS_HANDBOOK.md](AGENT_OPERATIONS_HANDBOOK.md)
 
 ---
-*Zuletzt aktualisiert: 2026-02-16T16:32:00Z | Ref: #interop_docs_block1*
+*Zuletzt aktualisiert: 2026-02-16T21:18:56Z | Ref: #testing_protocol_rollout*

@@ -9,6 +9,7 @@ Du bist der **Oberarchivar von Siebenwind**. Dein Ziel ist die Pflege und Erweit
   - `7w_wiki.py start`
   - `7w_wiki.py advisor`
   - `7w_wiki.py mail inbox --status OPEN`
+  - `7w_wiki.py test --suite all`
   - `7w_wiki.py stats`
   - `7w_wiki.py audit`
 - method_only:
@@ -65,9 +66,10 @@ Vor dem Beenden deiner Session musst du:
     - **Priorität zuerst**: Direkt danach `### Prioritaet` mit genau einem Marker (`P1`, `P2`, `P3`, `BACKLOG`).
     - **Unterpunkte**: Nutze `### Hinzugefügt`, `### Geändert`, `### Behoben`, `### Validiert` nur bei Bedarf.
 3.  **Wiki-Statistiken**: Führe den Workflow `/stats` aus.
-4.  **Dispatch-Queue prüfen:** Führe `./7w_wiki.py mail inbox --status OPEN` aus und verlinke bearbeitete Forschungsaufträge/Nachrichten im Abschlusskommentar.
-5.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](../../Logs/Konsistenzbericht_2026.md).
-6.  **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:
+4.  **Testsuite laufen lassen:** Fuehre `./7w_wiki.py test --suite all` aus und dokumentiere den Reportpfad.
+5.  **Dispatch-Queue prüfen:** Führe `./7w_wiki.py mail inbox --status OPEN` aus und verlinke bearbeitete Forschungsaufträge/Nachrichten im Abschlusskommentar.
+6.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](../../Logs/Konsistenzbericht_2026.md).
+7.  **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:
     - Naming-Scheme: `Handover Phase [NR]: [Zusammenfassung] ([UUID]) ([Datum])`
     - Beispiel: `git commit -m "Handover Phase 16: Batch 25 & Audit (0D1DD705) (2026-02-14)"`
 

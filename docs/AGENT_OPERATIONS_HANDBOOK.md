@@ -1,22 +1,27 @@
-# Agent Operations Handbook
+# Agent Operations Handbook (Pages)
 
-Diese Seite ist die GitHub-Pages-Sicht auf den Agentenbetrieb.
-
-## Kanonische Quelle
-
-- [System/AGENT_OPERATIONS_HANDBOOK.md](https://github.com/Siebenwind/7w_wiki/blob/main/System/AGENT_OPERATIONS_HANDBOOK.md)
+Diese Seite ist die Pages-Sicht auf den Agentenbetrieb und bleibt bewusst innerhalb der Dokumentationsseite.
 
 ## Einstieg
+
+- [Agenten-Hub](Agenten/index.md)
+- [Interop-Leitlinien (Pages)](Agenten/interop.md)
+- [Dispatch-Kommunikation (Pages)](Agenten/dispatch.md)
+- [Workflow- und Skill-Bruecken (Pages)](Agenten/workflows.md)
+
+## Runtime-Kern
 
 ```bash
 ./7w_wiki.py start
 ./7w_wiki.py advisor
+./7w_wiki.py test --suite clean-client-state
 ./7w_wiki.py audit
 ```
 
-## Interop-Verweise
+## Kanonische Quellen im Repository
 
-- [AGENTS.md](https://github.com/Siebenwind/7w_wiki/blob/main/AGENTS.md)
-- [SY_INTEROP.md](https://github.com/Siebenwind/7w_wiki/blob/main/System/Synapse_Board/SY_INTEROP.md)
-- [SY_WORKFLOW_CLI_MATRIX.md](https://github.com/Siebenwind/7w_wiki/blob/main/System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md)
-- [SY_DISPATCH.md](https://github.com/Siebenwind/7w_wiki/blob/main/System/Synapse_Board/SY_DISPATCH.md)
+- `AGENTS.md`
+- `System/AGENT_OPERATIONS_HANDBOOK.md`
+- `System/Synapse_Board/SY_INTEROP.md`
+- `System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md`
+- `System/Synapse_Board/SY_DISPATCH.md`

@@ -1,7 +1,7 @@
 ---
 uuid: 1b3c8f24-7fb5-4ec3-9d43-7b1f17f69371
 status: ACTIVE
-updated_at: 2026-02-16T16:30:00Z
+updated_at: 2026-02-16T21:18:56Z
 epistemic: "#meta"
 ---
 
@@ -38,6 +38,23 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 4. Validieren: Mindestens `./7w_wiki.py audit`, bei Dokuaenderungen auch `check`, `stats`, `archive sync`.
 5. Dokumentieren: `CHANGELOG.md`, Boards, Register- und Doku-Updates.
 
+## Testbetrieb (Clean-State & Interop)
+
+Verbindlicher Einstieg:
+
+1. `./7w_wiki.py test --suite clean-client-state`
+2. `./7w_wiki.py test --suite takeover-handover`
+3. `./7w_wiki.py test --suite interop-doc-links`
+4. Optional Gesamtlauf: `./7w_wiki.py test --suite all`
+
+Defect-Regel:
+
+1. Bei FAIL zuerst Kommunikationsartefakt erzeugen (Dispatch oder Task).
+2. Fixes nur auf geclaimte Defects.
+3. Nach Fix immer Re-Test + Changelog-Verweis auf Message-ID/Task-ID.
+
+Referenz: `System/Synapse_Board/SY_TESTING.md`
+
 ## Oracle-Suchdisziplin
 
 `./7w_wiki.py search` muss mit expliziter Quelle genutzt werden:
@@ -73,5 +90,6 @@ Verbindlich gemaess `System/Synapse_Board/SY_DISPATCH.md`:
 - `System/Synapse_Board/SY_INTEROP.md`
 - `System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md`
 - `System/Synapse_Board/SY_DISPATCH.md`
+- `System/Synapse_Board/SY_TESTING.md`
 - `System/COORDINATION_HUB.md`
 - `.agent/workflows/start.md`

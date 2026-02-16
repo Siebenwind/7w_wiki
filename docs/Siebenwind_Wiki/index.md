@@ -8,74 +8,29 @@ category: Index
 
 ![Siebenwind Lore Engine Banner](../assets/banner.png){ .wiki-banner }
 
-<p align="center">
-  <a href="https://github.com/Siebenwind/7w_wiki" target="_blank">
-    <img src="https://img.shields.io/badge/Status-Aktiv-vibrantgreen?style=for-the-badge&logo=github" alt="Project Status">
-  </a>
-  <a href="https://Siebenwind.github.io/7w_wiki/">
-    <img src="https://img.shields.io/badge/Live-Wiki_Docs-blue?style=for-the-badge&logo=materialformkdocs" alt="Live Wiki">
-  </a>
-  <a href="../CHANGELOG.md">
-    <img src="https://img.shields.io/badge/Version-Reconstruction_v2.1-orange?style=for-the-badge" alt="Version">
-  </a>
-</p>
+Dieses Portal richtet sich an Leserinnen und Leser der Weltinhalte.
 
----
+## Einstieg in die Welt
 
-## Projekt-Hintergrund
+- [Fundament und Register](00_Fundament/index.md)
+- [Pantheon und Religion](01_Pantheon/index.md)
+- [Geografie und Orte](02_Geografie/index.md)
+- [Chronik](04_Chronik/index.md)
+- [Persoenlichkeiten](07_Persoenlichkeiten/index.md)
+- [Bestiarium](08_Bestiarium/index.md)
+- [Bibliothek und Erzaehlungen](09_Bibliothek/index.md)
 
-Die Siebenwind Lore-Engine ist ein technisches Archiv zur Bewahrung und Erschließung von Rollenspiel-Dokumentationen. Der Fokus liegt auf der quellengetreuen Rekonstruktion historischer Datenbestände.
+## Empfohlene Schnellrouten
 
----
+1. Neu im Projekt:
+- Starte mit [Fundament und Register](00_Fundament/index.md).
 
-## 🧠 System-Architektur (The Wisdom Loop)
+2. Geschichte verstehen:
+- Lies [Chronik](04_Chronik/index.md) und danach [Zeitleiste (15-30 n.H.)](04_Chronik/Zeitleiste_(15-30_n.H.).md).
 
-Das Projekt basiert auf einem kybernetischen Kreislauf der Wissensgenerierung:
+3. Figuren und Fraktionen:
+- Wechsle zu [Persoenlichkeiten](07_Persoenlichkeiten/index.md) und [Organisationsregister](00_Fundament/Organisationsregister.md).
 
-```mermaid
-graph TD
-    A["🗂️ Rohdaten (Archive/Bote)"] -->|Ingestion| B("🤖 Lore Extraktion")
-    B -->|Validation| C{"⚖️ Konsistenz-Audit"}
-    C -->|Kanon| D["📚 Wiki-Fundament"]
-    C -->|Widerspruch| E["🏮 Synapse Board"]
-    E -->|Entscheidung| D
-    D -->|Semantic Search| F["👁️ Das Orakel"]
-    F -->|Result| G["👤 Endnutzer / Staff"]
-```
+## Projektinformationen
 
----
-
-## 📜 Die Goldenen Protokolle
-
-| Sektion | Zweck | Dokumentation |
-| :--- | :--- | :--- |
-| **🧭 Navigation** | Der Einstieg in die Welt. | [Wiki-Startpunkt](index.md) |
-| **🛠️ Setup** | Architektur des Orakels. | [Setup RAG](../setup_rag.md) |
-| **📜 Philosophie** | Grundgesetze des Systems. | [Architektur](../architecture.md) |
-| **📈 Fortschritt** | Rekonstruktions-Status. | [Master Task List](../MASTER_TASK_LIST.md) |
-
----
-
-## 🚀 Unified CLI: `7w_wiki.py`
-
-Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
-
-```bash
-# Das Wissen des Orakels abfragen
-./7w_wiki.py search "Wer war Benedict Rabenfels?" --source all
-
-# Den Konsistenz-Status prüfen
-./7w_wiki.py audit
-
-# Den Status des Archivars abrufen
-./7w_wiki.py advisor
-```
-
----
-
-## Projekt-Metadaten
-- **Entwicklung:** LeCorbeau & Siebenwind Gemeinschaft
-- **Inhalte:** Autoren & Projekt Siebenwind
-- **Lizenzen:** Code (MIT), Inhalte (CC BY-NC-SA 4.0)
-
-*Stand: 2026 | LeCorbeau & Siebenwind*
+Technische Betriebsdokumente, Agentenprotokolle und Interop-Governance liegen separat im Bereich [Agenten](../Agenten/index.md), damit die Wiki-Navigation fuer Endnutzer klar bleibt.

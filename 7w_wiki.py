@@ -68,6 +68,21 @@ def main():
     # Start (Onboarding)
     subparsers.add_parser("start", help="Start here (Onboarding & Options)")
 
+    # Test Runner
+    test_parser = subparsers.add_parser("test", help="Run interoperability and clean-state test suites")
+    test_parser.add_argument("--suite", default="clean-client-state", help="Suite name or 'all'")
+    test_parser.add_argument("--list-suites", action="store_true", help="List available test suites")
+    test_parser.add_argument("--timeout", type=int, default=120, help="Timeout per command (seconds)")
+    test_parser.add_argument("--post-failures", action="store_true", help="Post dispatch message on failures")
+    test_parser.add_argument("--from-agent", default="Test-Waechter", help="Dispatch sender if --post-failures")
+    test_parser.add_argument("--to-agent", default="ALL", help="Dispatch target if --post-failures")
+    test_parser.add_argument("--priority", choices=["LOW", "NORMAL", "HIGH"], default="HIGH", help="Dispatch priority")
+    test_parser.add_argument("--allow-fail", action="store_true", help="Return 0 even if tests fail")
+
+    # Takeover / Handover workflow views
+    subparsers.add_parser("takeover", help="Show takeover workflow guidance")
+    subparsers.add_parser("handover", help="Show handover workflow guidance")
+
     # Historian
     hist_parser = subparsers.add_parser("historian", help="Deep Lore Analysis (Workflow)")
     hist_parser.add_argument("query", nargs="?", help="Subject to analyze")
@@ -142,8 +157,27 @@ def main():
         print(f"🌟 {BOLD}Willkommen beim Siebenwind Archiv-System{RESET}")
         view_workflow("start")
 
+    elif args.command == "takeover":
+        print(f"🛡️ {BOLD}Workflow: /takeover{RESET}")
+        view_workflow("takeover")
+
+    elif args.command == "handover":
+        print(f"📦 {BOLD}Workflow: /handover{RESET}")
+        view_workflow("handover")
+
     elif args.command == "stats":
         run_script(".agent/scripts/generate_wiki_stats.py")
+
+    elif args.command == "test":
+        test_args = ["--suite", args.suite, "--timeout", str(args.timeout)]
+        if args.list_suites:
+            test_args.append("--list-suites")
+        if args.post_failures:
+            test_args.append("--post-failures")
+            test_args.extend(["--from-agent", args.from_agent, "--to-agent", args.to_agent, "--priority", args.priority])
+        if args.allow_fail:
+            test_args.append("--allow-fail")
+        run_script(".agent/scripts/test_runner.py", test_args)
 
     elif args.command == "historian":
         # Historian logic: If query is provided, start a search + analysis briefing

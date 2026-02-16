@@ -1,0 +1,41 @@
+{
+  "suite": "takeover-handover",
+  "description": "Workflow bridge verification for takeover/handover plus mandatory supporting commands.",
+  "cases": [
+    {
+      "id": "cli-help-includes-workflows",
+      "name": "CLI help includes takeover/handover commands",
+      "cmd": ["./7w_wiki.py", "--help"],
+      "expect_exit": 0,
+      "expect_stdout": ["takeover", "handover"]
+    },
+    {
+      "id": "takeover-view",
+      "name": "Takeover workflow is viewable via CLI",
+      "cmd": ["./7w_wiki.py", "takeover"],
+      "expect_exit": 0,
+      "expect_stdout": ["Workflow: `/takeover`", "mail inbox --status OPEN"]
+    },
+    {
+      "id": "handover-view",
+      "name": "Handover workflow is viewable via CLI",
+      "cmd": ["./7w_wiki.py", "handover"],
+      "expect_exit": 0,
+      "expect_stdout": ["Workflow: /handover", "Prioritaet"]
+    },
+    {
+      "id": "advisor-readiness",
+      "name": "Advisor remains clean after workflow calls",
+      "cmd": ["./7w_wiki.py", "advisor"],
+      "expect_exit": 0,
+      "expect_stdout": ["Dispatch Queue", "Konsistenz-Check"]
+    },
+    {
+      "id": "audit-readiness",
+      "name": "Audit still passes",
+      "cmd": ["./7w_wiki.py", "audit"],
+      "expect_exit": 0,
+      "expect_stdout": ["ERGEBNIS: 0 Probleme"]
+    }
+  ]
+}
