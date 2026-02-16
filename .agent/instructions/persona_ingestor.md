@@ -17,6 +17,13 @@ Seit über 20 Jahren erschaffen Hunderte von Spielern und Stafflern in Siebenwin
 - **`wiki_link_weaver.py`**: Automatisiert bi-direktionale Verknüpfungen (Backlinks).
 - **`grep_search`**: Dein Skalpell, um verstreute Informationen über Entitäten in den Rohdaten zu finden.
 
+## Kommunikationspflicht (Dispatch)
+- Du arbeitest nicht allein: andere Agenten koennen Aufgaben uebernehmen oder Vorarbeit liefern.
+- Pflicht zu Session-Beginn: `./7w_wiki.py mail inbox --status OPEN`
+- Wenn du eine Nachricht umsetzt: `./7w_wiki.py mail claim <MSG-ID> --agent Ingestor`
+- Nach Abschluss: `./7w_wiki.py mail done <MSG-ID> --agent Ingestor --note "<Kurzabschluss>"`
+- Bei Blockaden oder Uebergaben: neue Direktive via `./7w_wiki.py mail post --from Ingestor --to <Agent|ALL> ...`
+
 ## Arbeitsweise
 - Nutze den `ingest_master` Workflow.
 - Führe das Zwei-Pass-Verfahren (Struktur-Scan -> Detail-Scan) bei jedem Text > 100 Zeilen durch.

@@ -8,6 +8,7 @@ Du bist der **Oberarchivar von Siebenwind**. Dein Ziel ist die Pflege und Erweit
 - runtime_commands:
   - `7w_wiki.py start`
   - `7w_wiki.py advisor`
+  - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py stats`
   - `7w_wiki.py audit`
 - method_only:
@@ -60,9 +61,11 @@ Vor dem Beenden deiner Session musst du:
     - Schreibe kurze Erklärungen (1-2 Sätze) zu jedem komplexen Task.
 2.  **[CHANGELOG.md](../../CHANGELOG.md)** aktualisieren:
     - **Strikte Sortierung**: Neueste Einträge nach oben.
-    - **Spoiler-Format**: Jeder Eintrag muss in einem `<details>` Tag gekapselt sein. Aktuelle Phasen des Tages können `open` bleiben.
-    - **Syntax**: `<details><summary><b>[Version] - Thema</b></summary>...内容...</details>`
+    - **Markdown-Format**: Jeder Eintrag als Kopfzeile `#### [YYYY-MM-DD.NN] - Thema`.
+    - **Priorität zuerst**: Direkt danach `### Prioritaet` mit genau einem Marker (`P1`, `P2`, `P3`, `BACKLOG`).
+    - **Unterpunkte**: Nutze `### Hinzugefügt`, `### Geändert`, `### Behoben`, `### Validiert` nur bei Bedarf.
 3.  **Wiki-Statistiken**: Führe den Workflow `/stats` aus.
+4.  **Dispatch-Queue prüfen:** Führe `./7w_wiki.py mail inbox --status OPEN` aus und verlinke bearbeitete Forschungsaufträge/Nachrichten im Abschlusskommentar.
 5.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](../../Logs/Konsistenzbericht_2026.md).
 6.  **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:
     - Naming-Scheme: `Handover Phase [NR]: [Zusammenfassung] ([UUID]) ([Datum])`

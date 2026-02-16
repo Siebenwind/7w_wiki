@@ -6,14 +6,14 @@ category: Index
 
 # 📊 Wiki Status
 
-**Stand:** 2026-02-16 18:53
+**Stand:** 2026-02-16 22:03
 
 ---
 
 | Metrik | Wert |
 | :--- | :--- |
 | **Artikel** | 1107 |
-| **Worte** | 184,208 |
+| **Worte** | 184,210 |
 | **Personen** | 587 |
 
 ---
@@ -37,15 +37,35 @@ pie title Sektionen
 ---
 
 ## 🏆 Hubs
-Die am stärksten vernetzten Artikel.
+Leserrelevante, stark vernetzte Artikel (ohne Index/Register).
 
 | Entität | Links |
 | :--- | :--- |
-| [[index]] | 1160 |
-| [[Siebenwind]] | 799 |
+| [[Siebenwind]] | 792 |
 | [[Falkensee]] | 549 |
 | [[Brandenstein]] | 472 |
-| [[Persoenlichkeiten_Uebersicht]] | 334 |
+| [[Astrael]] | 160 |
+| [[Toran_Dur]] | 154 |
+
+
+## 👤 Top Persönlichkeiten
+| Persönlichkeit | Links |
+| :--- | :--- |
+| [[Toran_Dur]] | 154 |
+| [[Geist]] | 125 |
+| [[Custodias]] | 83 |
+| [[Waldemar_Delarie]] | 60 |
+| [[Dunvallo_Linari]] | 52 |
+
+
+## 🕰️ Top Ereignisse
+| Ereignis | Links |
+| :--- | :--- |
+| [[Siebenwind_Bote_175]] | 28 |
+| [[Siebenwind_Bote_173]] | 24 |
+| [[Siebenwind_Bote_172]] | 22 |
+| [[Siebenwind_Bote_161]] | 21 |
+| [[Siebenwind_Bote_174]] | 21 |
 
 ---
 > [!NOTE]

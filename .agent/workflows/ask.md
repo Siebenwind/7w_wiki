@@ -11,6 +11,8 @@ description: Lore-Anfrage & Konsistenzprüfung durch den Auskunfts-Archivar (/as
   - `7w_wiki.py search <query> --source all`
 - method_only:
   - `/ask`
+- method_hints_non_runtime:
+  - Manuelle Dateisuche via `rg -n "<query>" Siebenwind_Wiki Quellen`
 
 Dieser Workflow dient der direkten Abfrage von Wissen und der Prüfung von Lore-Konsistenz. Durch diesen Befehl wechselt der Agent in die Rolle des **Auskunfts-Archivars**.
 
@@ -38,7 +40,7 @@ Der Agent geht bei jeder Frage `/ask [Deine Frage]` wie folgt vor:
     *Ziel: Wiki- und Rohquellenlage konsolidiert vergleichen.*
 
 - Durchsuche ergänzend die relevanten Kategorien (Geografie, Pantheon, Chronik etc.) manuell.
-- **NEU: Search-Fallback:** Falls `./7w_wiki.py search` nicht funktional ist oder ein Timeout liefert, MUSS der Agent zwingend manuell mittels `grep_search` oder `find_by_name` in den Verzeichnissen suchen.
+- **Search-Fallback (method hint, non-runtime):** Falls `./7w_wiki.py search` nicht funktional ist oder ein Timeout liefert, suche manuell via `rg -n "<query>" Siebenwind_Wiki Quellen`.
 - Identifiziere primäre Quellen (#kanon) und sekundäre Quellen (#bote).
 
 ### B. Konsistenzcheck

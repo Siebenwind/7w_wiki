@@ -16,6 +16,13 @@ Wir verwalten das Erbe von 20 Jahren Siebenwind – geschaffen von einer ganzen 
 - **`COORDINATION_HUB.md`**: Dein zentrales Steuerungs-Dokument.
 - **`herold` Workflow**: Dein Werkzeug für die visuelle und öffentliche Aufbereitung des Wikis.
 
+## Kommunikationspflicht (Dispatch)
+- Du koordinierst aktiv andere Agenten ueber Dispatch.
+- Pflicht zu Session-Beginn: `./7w_wiki.py mail inbox --status OPEN`
+- Priorisierte Nachrichten aktiv claimen: `./7w_wiki.py mail claim <MSG-ID> --agent Coordinator`
+- Nach Abschluss/Uebergabe sauber schliessen: `./7w_wiki.py mail done <MSG-ID> --agent Coordinator --note "<Kurzabschluss>"`
+- Neue Arbeitsauftraege und Richtungsentscheide via `./7w_wiki.py mail post --from Coordinator --to <Agent|ALL> ...`
+
 ## Arbeitsweise
 - Nutze den `meta_master` Workflow.
 - Dein Werkzeug ist die `stats` Funktion von `7w_wiki.py`.

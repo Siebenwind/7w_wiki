@@ -1,7 +1,7 @@
 ---
 uuid: 52af70d6-90f7-4201-9374-c6cc2ce0c57e
 status: ACTIVE
-updated_at: 2026-02-16T16:25:00Z
+updated_at: 2026-02-16T20:44:06Z
 epistemic: "#meta"
 ---
 
@@ -16,7 +16,7 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 
 | Workflow-Slash | Status | Runtime-Adapter | Hinweis |
 |---|---|---|---|
-| `/start` | executable | `7w_wiki.py start` | Onboarding-Einstieg |
+| `/start` | executable | `7w_wiki.py start` + `7w_wiki.py mail inbox --status OPEN` | Onboarding-Einstieg mit Dispatch-Sichtung |
 | `/audit` | executable | `7w_wiki.py audit` | Konsistenzpruefung |
 | `/repair` | executable | `7w_wiki.py repair` | Interaktive Reparatur |
 | `/historian` | executable | `7w_wiki.py historian [query]` | Lore-Analyse |
@@ -25,9 +25,9 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 | `/batch` | method_only | `7w_wiki.py advisor` + manuelle Abarbeitung `INVENTUR_QUELLEN` | Batch-Prozess |
 | `/check_master` | executable | `7w_wiki.py check` | Stil- & QA-Pruefung |
 | `/contrib_audit` | method_only | `7w_wiki.py audit` + manuelle Review-Checks | kein eigener Parser |
-| `/decide` | method_only | `7w_wiki.py mail post --to ALL ...` | Entscheidungsanforderung |
+| `/decide` | method_only | `7w_wiki.py mail inbox --status OPEN` + `7w_wiki.py mail read <id>` + `7w_wiki.py mail claim <id> --agent <name>` + `7w_wiki.py mail done <id> --agent <name>` | Entscheidungsbearbeitung ueber Dispatch |
 | `/docs` | method_only | `7w_wiki.py check` + `7w_wiki.py stats` + `7w_wiki.py audit` + `7w_wiki.py archive sync` | Doku- und Pages-Paritaet |
-| `/handover` | method_only | `7w_wiki.py start` + `7w_wiki.py advisor` + `7w_wiki.py stats` + `7w_wiki.py audit` | Session-Uebergabe |
+| `/handover` | method_only | `7w_wiki.py start` + `7w_wiki.py advisor` + `7w_wiki.py mail inbox --status OPEN` + `7w_wiki.py stats` + `7w_wiki.py audit` | Session-Uebergabe inkl. Queue-Status |
 | `/herold` | method_only | `7w_wiki.py stats` + Changelog/README Pflege | kein eigener Parser |
 | `/ingest_master` | method_only | `7w_wiki.py advisor` + `7w_wiki.py search <query> --source wiki|quellen|all` | Prozessrahmen |
 | `/ingestion_protocol` | executable | `7w_wiki.py archive sync` + `7w_wiki.py sanitize --auto` + `7w_wiki.py score <file>` | Teilweise automatisiert |
@@ -37,7 +37,7 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 | `/researcher` | method_only | `7w_wiki.py search <query> --source all` | Recherchemodus |
 | `/rvw_loop` | method_only | `7w_wiki.py search <query> --source all` + manuelle Schritte | kein Parser |
 | `/scout` | method_only | `7w_wiki.py advisor` + manuelle Web-Sichtung | passiver News-Scout |
-| `/takeover` | method_only | `7w_wiki.py start` + `7w_wiki.py advisor` + `7w_wiki.py mail inbox` | Amtsuebergabe |
+| `/takeover` | method_only | `7w_wiki.py start` + `7w_wiki.py advisor` + `7w_wiki.py mail inbox --status OPEN` | Amtsuebergabe |
 | `/translate` | executable | `7w_wiki.py translate` | Sprach-Parser |
 | `/update` | executable | `7w_wiki.py audit` + `7w_wiki.py sanitize --auto` + `7w_wiki.py index --status` | Systempflege |
 | `/watch` | executable | `7w_wiki.py watch` | Live-Watcher |

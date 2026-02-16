@@ -17,6 +17,8 @@ Dieses Department regelt den Agenten-Alltag, die Dokumentation und den Wissenstr
   - `/takeover`
   - `/handover`
   - `/docs`
+- method_hints_non_runtime:
+  - Host-notification channel (nur als Hinweis, nicht runtime)
 
 ## 1. Onboarding (Start)
 - [ ] Führe `./7w_wiki.py start` aus, um Optionen zu sehen.
@@ -35,7 +37,8 @@ Dieses Department regelt den Agenten-Alltag, die Dokumentation und den Wissenstr
 
 ## 4. Kommunikation (Decisions)
 - [ ] Hole Nutzer-Entscheidungen über `/decide` ein.
-- [ ] Nutze `notify_user` für Blockaden.
+- [ ] Bei Blockaden nutze runtime-seitig `./7w_wiki.py mail post --to ALL ...`.
+- [ ] Host-Notifications gelten nur als method hint (non-runtime).
 
 ## 5. Handover
 - [ ] Erstelle ein Übergabeprotokoll für den nächsten Agenten.

@@ -12,6 +12,10 @@ description: Standard workflow for processing raw data into Wiki artifacts (Read
   - `7w_wiki.py audit`
 - method_only:
   - `/rvw_loop`
+- method_hints_non_runtime:
+  - Dateiinventur/Lesen via Host-Tooling (`rg --files`, Editor)
+  - Web-Sichtung via Host-Tooling
+  - Manuelle Ticketerstellung per Synapse-Template
 
 **Epistemischer Status:** #perspektive
 
@@ -20,8 +24,8 @@ This workflow defines the standard process for the Oberarchivar agent to convert
 ## 1. INGESTION (Lesen & Verstehen)
 *   **Step:** Identify a target file or folder (e.g., `Region Galadon.md`).
 *   **Action:**
-    *   `list_dir` to see available files. **Prioritize .md files.**
-    *   `view_file` to read content.
+    *   **Method Hint (non-runtime):** Dateien inventarisieren, z. B. mit `rg --files`. **Prioritize .md files.**
+    *   **Method Hint (non-runtime):** Inhalte im Editor/Lesetool prüfen.
 *   **Goal:** 
     - **Narrative Extraction:** Look beyond facts. Extract character motivations, social context, environmental descriptions, and emotional undertones.
     - **Markdown Source:** If the source is already .md, verify its structural quality. If it's legacy HTML, perform full extraction.
@@ -85,11 +89,11 @@ Bei Texten über 100 Zeilen **MUSS** ein Zwei-Pass-Verfahren angewendet werden:
 |---|---|---|---|
 | 🥇 | **Lokal-Kanon** (`/Hintergrund/`, `#canon`) | Cross-check mit Kanon-Dateien. Diese Dokumente sind das unumstößliche Gesetz. | → Fakt ist verifiziert |
 | 🥈 | **Quell-Integrität** (aktuelle Quelle) | Prüfe die Konsistenz innerhalb der aktuell bearbeiteten Quelle (z.B. `/Bote/` oder `/Bibliothek/`). | → Fakt ist plausibel |
-| 🥉 | **Web-Verifikation** (`siebenwind.de`) | Nutze `search_web` mit `site:siebenwind.de [Entity Name]`, um Fakten zu ergänzen. Falls Oasis/Oracle fehlschlagen, nutze `grep_search` auf `/Hintergrund/` und `/Quellen/`. | → Fakt ergänzt |
+| 🥉 | **Web-Verifikation** (`siebenwind.de`) | **Method Hint (non-runtime):** Nutze Host-Websuche mit `site:siebenwind.de [Entity Name]`. Falls Oracle fehlschlaegt, nutze lokale Suche via `rg -n "<Entity>" Quellen Siebenwind_Wiki`. | → Fakt ergänzt |
 | ❓ | **User-Eskalation** (letztes Mittel) | Wenn Informationen fehlen oder über alle Ebenen hinweg widersprüchlich sind, frage den Nutzer via Synapse-Board. | → Ticket auf `AWAITING_USER` |
 
 > **Verlässlichkeitsregel:** Höherer Rang überschreibt niedrigeren bei Widersprüchen.
-> **Synapsen-Trigger:** Wenn die Wahrheitshierarchie keine Lösung bietet (z.B. Kanon vs. Kanon), triggere `trigger_conflict_alert` und erstelle ein Ticket auf dem Synapse-Board.
+> **Synapsen-Trigger:** Wenn die Wahrheitshierarchie keine Loesung bietet (z.B. Kanon vs. Kanon), erstelle manuell ein Ticket anhand `System/Synapse_Board/_TEMPLATE_TICKET.md` auf dem Synapse-Board.
 
 *   **Decisions:**
     - **Conflict:** Mark as `[KONFLIKT]` and log in [[Konsistenzbericht_2026]].
@@ -103,7 +107,7 @@ Bei Texten über 100 Zeilen **MUSS** ein Zwei-Pass-Verfahren angewendet werden:
     *   **Register-Check:** Vor jedem Append ins Personenregister prüfen, ob der Name bereits eingetragen ist. Falls ja: bestehenden Eintrag aktualisieren statt neuen anlegen.
     *   **Anker-Regel:** Beim Register-Append immer **zwei** Ankerzeilen verwenden und die letzte Zeile in der Ersetzung beibehalten.
 *   **Action:**
-    *   `write_to_file` in `/Siebenwind_Wiki/[Kategorie]/`.
+    *   **Method Hint (non-runtime):** Datei in `/Siebenwind_Wiki/[Kategorie]/` erstellen/aktualisieren.
     *   **Filename:** `[Kategorie]_[Name].md` (e.g., `Rasse_Orken.md`).
     *   **Format:**
         ```markdown

@@ -57,7 +57,7 @@ Use `./7w_wiki.py <command>` for all operations.
 
 ## 🚀 How to Work Here (Standard Loop)
 
-1.  **Onboard**: Run `./7w_wiki.py start` and `./7w_wiki.py advisor` first.
+1.  **Onboard**: Run `./7w_wiki.py start`, `./7w_wiki.py advisor`, and `./7w_wiki.py mail inbox --status OPEN` first.
 2.  **Plan**: Check `MASTER_TASK_LIST.md` and `task.md` (if available).
 3.  **Execute**: Use `7w_wiki.py` tools. Do NOT edit `7w_wiki.py` unless assigned to "DevOps".
 4.  **Verify**: Run `./7w_wiki.py audit` before committing.

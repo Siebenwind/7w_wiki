@@ -57,7 +57,7 @@ Bei jeder `generate_image` Aktion MUSS gleichzeitig eine `.json` Metadaten-Datei
     *   *Prefix:* "Leonardo da Vinci style red chalk sketch on parchment..."
     *   *Suffix:* "...detailed, masterpiece, faint mirror writing."
 3.  **Generierung:** Führe `generate_image` aus.
-4.  **Validierung:** Prüfe das Ergebnis visuell (via `view_file` oder Browser). Passt der Stil?
+4.  **Validierung:** Prüfe das Ergebnis visuell (method hint, non-runtime: Editor/Browser-Host-Tooling). Passt der Stil?
 5.  **Archivierung:** Speichere Bild + JSON.
 
 ## Zukunfts-Sicherheit

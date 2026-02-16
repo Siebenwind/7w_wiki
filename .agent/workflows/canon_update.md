@@ -11,6 +11,8 @@ description: Dedizierter Workflow für die Verarbeitung offizieller Kanon-Dokume
   - `7w_wiki.py score <file>`
 - method_only:
   - `/canon_update`
+- method_hints_non_runtime:
+  - Lokales Lesen/Scannen im Editor (Host-Tooling)
 
 Dieser Workflow behandelt die Verarbeitung und Integration von **offiziellen Hintergrunddokumenten** (`/Quellen/Hintergrund/`, Epistemik: `#canon`). Er unterscheidet sich grundlegend vom Standard-RVW-Loop, weil Kanon-Dokumente **nicht verifiziert** werden müssen – sie **sind** die Wahrheit.
 
@@ -22,7 +24,7 @@ Dieser Workflow behandelt die Verarbeitung und Integration von **offiziellen Hin
 ## Ablauf
 
 ### 1. Kanon-Scan
-1. **Lesen:** Lies das Kanon-Dokument vollständig (`view_file`).
+1. **Lesen (method hint, non-runtime):** Lies das Kanon-Dokument vollständig im Editor/Lesetool.
 2. **Entity Manifest erstellen** (gemäß RVW-Loop Schritt 1.5).
 3. **Zwei-Pass-Verfahren** bei Texten > 100 Zeilen.
 

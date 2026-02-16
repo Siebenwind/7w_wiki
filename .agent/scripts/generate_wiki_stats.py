@@ -13,6 +13,40 @@ LOGS_DIR = PROJECT_ROOT / "Logs"
 OUTPUT_FILE = WIKI_DIR / "10_Archiv" / "Wiki_Statistiken.md"
 ORGANISATIONS_REGISTER = WIKI_DIR / "00_Fundament" / "Organisationsregister.md"
 
+
+def normalize_wikilink_target(target: str) -> str:
+    clean = target.strip().replace(" ", "_")
+    clean = re.sub(r"_+", "_", clean)
+    return clean.casefold()
+
+
+def denormalize_for_link(target_norm: str) -> str:
+    return target_norm.replace(" ", "_")
+
+
+def is_structural_target(target_norm: str) -> bool:
+    base = target_norm.split("/")[-1]
+    exact_blocklist = {
+        "index",
+        "die_chronik",
+        "chronik",
+        "geschichte",
+        "wiki_statistiken",
+        "personenregister",
+        "organisationsregister",
+        "bestiarium_register",
+        "archiv_register",
+        "persoenlichkeiten_uebersicht",
+        "inhaltsverzeichnis",
+    }
+    if base in exact_blocklist:
+        return True
+    if base.endswith("_register") or base.endswith("register"):
+        return True
+    if "index" in base or "uebersicht" in base:
+        return True
+    return False
+
 def collect_stats():
     stats = {
         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -22,7 +56,25 @@ def collect_stats():
         "personalities_count": 0,
         "files_per_category": Counter(),
         "link_hubs": Counter(),
+        "personality_hubs": Counter(),
+        "event_hubs": Counter(),
     }
+
+    personalities_lookup = {}
+    events_lookup = {}
+    article_lookup = {}
+
+    for md_file in WIKI_DIR.rglob("*.md"):
+        if md_file.name == "Wiki_Statistiken.md":
+            continue
+        rel_path = md_file.relative_to(WIKI_DIR)
+        stem = md_file.stem
+        target_norm = normalize_wikilink_target(stem)
+        article_lookup[target_norm] = stem
+        if "07_Persoenlichkeiten" in str(rel_path):
+            personalities_lookup[target_norm] = stem
+        if "04_Chronik" in str(rel_path) or "05_Geschichte" in str(rel_path):
+            events_lookup[target_norm] = stem
 
     for md_file in WIKI_DIR.rglob("*.md"):
         if md_file.name == "Wiki_Statistiken.md":
@@ -44,9 +96,20 @@ def collect_stats():
         links = re.findall(r'\[\[([^\]]+)\]\]', content)
         stats["total_links"] += len(links)
         for link in links:
-            target = link.split('|')[0].split('#')[0].strip()
-            stats["link_hubs"][target] += 1
+            target_raw = link.split('|')[0].split('#')[0].strip()
+            target_norm = normalize_wikilink_target(target_raw)
+            if not target_norm:
+                continue
+            if not is_structural_target(target_norm):
+                stats["link_hubs"][target_norm] += 1
+            if target_norm in personalities_lookup and not is_structural_target(target_norm):
+                stats["personality_hubs"][target_norm] += 1
+            if target_norm in events_lookup and not is_structural_target(target_norm):
+                stats["event_hubs"][target_norm] += 1
 
+    stats["personality_lookup"] = personalities_lookup
+    stats["events_lookup"] = events_lookup
+    stats["article_lookup"] = article_lookup
     return stats
 
 def generate_markdown(stats):
@@ -78,13 +141,34 @@ pie title Sektionen
 ---
 
 ## 🏆 Hubs
-Die am stärksten vernetzten Artikel.
+Leserrelevante, stark vernetzte Artikel (ohne Index/Register).
 
 | Entität | Links |
 | :--- | :--- |
 """
-    for name, count in stats["link_hubs"].most_common(5):
-        md += f"| [[{name}]] | {count} |\n"
+    for name_norm, count in stats["link_hubs"].most_common(5):
+        display = stats["article_lookup"].get(name_norm, denormalize_for_link(name_norm))
+        md += f"| [[{display}]] | {count} |\n"
+
+    md += """
+
+## 👤 Top Persönlichkeiten
+| Persönlichkeit | Links |
+| :--- | :--- |
+"""
+    for name_norm, count in stats["personality_hubs"].most_common(5):
+        display = stats["personality_lookup"].get(name_norm, denormalize_for_link(name_norm))
+        md += f"| [[{display}]] | {count} |\n"
+
+    md += """
+
+## 🕰️ Top Ereignisse
+| Ereignis | Links |
+| :--- | :--- |
+"""
+    for name_norm, count in stats["event_hubs"].most_common(5):
+        display = stats["events_lookup"].get(name_norm, denormalize_for_link(name_norm))
+        md += f"| [[{display}]] | {count} |\n"
 
     md += """
 ---

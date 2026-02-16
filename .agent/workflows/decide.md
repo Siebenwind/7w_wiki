@@ -7,36 +7,35 @@ description: Hochgeschwindigkeits-Workflow für Nutzerentscheidungen (/decide)
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py mail inbox --status OPEN`
+  - `7w_wiki.py mail read <id>`
   - `7w_wiki.py mail claim <id> --agent <name>`
   - `7w_wiki.py mail done <id> --agent <name>`
 - method_only:
   - `/decide`
 
-Dieser Workflow erlaubt es dem Nutzer (Meister), schnell über offene Lore-Konflikte auf dem Synapse-Board zu entscheiden.
+Dieser Workflow erlaubt es dem Nutzer (Meister), schnell ueber offene Direktiven und Entscheidungsvorlagen zu entscheiden.
 
 ## 1. Status-Abfrage
-Der Agent listet alle Tickets im Verzeichnis `/System/Synapse_Board/` auf, die den Status `AWAITING_USER` haben.
+Der Agent listet alle offenen Dispatch-Nachrichten (`OPEN`) und priorisiert jene mit Verweisen auf Konflikt-/Research-Tickets.
 
 ## 2. Präsentation
-Für jedes Ticket präsentiert der Agent:
-- **ID & Titel**
+Fuer jede relevante Nachricht praesentiert der Agent:
+- **Message-ID & Betreff**
 - **Der Konflikt** (Kurzfassung)
 - **🧠 Historiker-Meinung** (Lore-Expertise)
 - **🏛️ Oberarchivar-Empfehlung** (Verfahrensweise)
 
 ## 3. Die Entscheidung
 Der Nutzer antwortet mit:
-- `/decide [ID] [Lösungsweg]` (z.B. "Übernimm Siedlungsspuren")
+- `/decide [MSG-ID] [Lösungsweg]` (z.B. "Übernimm Siedlungsspuren")
 - Oder einfach: `/decide all [Empfehlung]` (Akzeptiert alle Empfehlungen der Agenten).
 
 ## 4. Umsetzung (Execution)
-1. Der Agent führt die entsprechende Änderung im Wiki durch.
-2. **Internal Marking:** Wenn die Entscheidung vom Kanon abweicht oder eine Lücke schließt, wird die Stelle im Wiki-Text mit `[Intervention: Rank 0]` (unsichtbar im gerenderten Wiki / HTML, sichtbar im Markdown) markiert.
-3. Der Agent aktualisiert das Ticket:
-   - Status: `HUMAN_RESOLVED`
-   - trust_level: 0 (User-Canon)
-   - Lösung (FINAL) wird ausgefüllt.
-4. Git Commit: `Lore-Sync: Ticket [ID] durch User-Entscheid gelöst (Rank 0).`
+1. Der Agent claimgt die Nachricht: `./7w_wiki.py mail claim <id> --agent <name>`.
+2. Der Agent fuehrt die entsprechende Aenderung im Wiki bzw. im verlinkten Ticket durch.
+3. Falls ein Konflikt-/Research-Ticket referenziert ist: dort finalen Status/Loesung nachziehen.
+4. Der Agent schliesst die Nachricht: `./7w_wiki.py mail done <id> --agent <name> --note "<Kurzabschluss>"`.
+5. Git Commit: `Lore-Sync: Dispatch <id> umgesetzt.`
 
 ---
-**Nutzung:** `/decide` (Listet alle) | `/decide 2026-001 Option A`
+**Nutzung:** `/decide` (Listet alle) | `/decide MSG-2026-0001 Option A`

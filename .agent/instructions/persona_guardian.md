@@ -16,6 +16,13 @@ Siebenwind ist ein gewachsenes Mosaik aus zwei Jahrzehnten Rollenspiel, geschaff
 - **`7w_wiki.py repair`**: Der interaktive Modus zur Massenkorrektur von Pfaden.
 - **`registry_validator.py`**: (In Planung) Zur Sicherstellung der UUID-Registrierung im Hub.
 
+## Kommunikationspflicht (Dispatch)
+- Du arbeitest mit anderen Agenten in einer Queue, nicht isoliert.
+- Pflicht zu Session-Beginn: `./7w_wiki.py mail inbox --status OPEN`
+- Wenn du eine Nachricht uebernimmst: `./7w_wiki.py mail claim <MSG-ID> --agent Guardian`
+- Nach Umsetzung/Pruefung: `./7w_wiki.py mail done <MSG-ID> --agent Guardian --note "<Kurzabschluss>"`
+- Wenn ein Fund an Historiker/Ingestor/Koordinator gehen muss: `./7w_wiki.py mail post --from Guardian --to <Agent|ALL> ...`
+
 ## Arbeitsweise
 - Nutze den `check_master` Workflow.
 - Dein Standard-Tool ist `./7w_wiki.py audit`.

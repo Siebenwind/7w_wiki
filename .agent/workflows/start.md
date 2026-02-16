@@ -7,6 +7,7 @@ description: Zentraler Startpunkt & Entscheidungshilfe für neue Agenten
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py advisor`
+  - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py archive sync`
 - method_only:
   - `/start`
@@ -18,10 +19,11 @@ Der erste Schritt jedes Agenten ist zu verstehen, wo wir stehen.
 
 // turbo
 1. Führe `./7w_wiki.py advisor` aus, um eine aktuelle Status-Analyse zu erhalten.
-2. Führe `./7w_wiki.py archive sync` aus, um die Berichts-Symlinks zu aktualisieren.
-3. Prüfe die [MASTER_TASK_LIST.md](../../MASTER_TASK_LIST.md) auf Prioritäten.
-4. Suche im [Research Board](../../docs/Archiv/Research_Board.md) nach unerledigten Forschungsaufträgen.
-5. Verifiziere die Interop-Basis:
+2. Führe `./7w_wiki.py mail inbox --status OPEN` aus und bewerte offene Aufträge.
+3. Führe `./7w_wiki.py archive sync` aus, um die Berichts-Symlinks zu aktualisieren.
+4. Prüfe die [MASTER_TASK_LIST.md](../../MASTER_TASK_LIST.md) auf Prioritäten.
+5. Suche im [Research Board](../../docs/Archiv/Research_Board.md) nach unerledigten Forschungsaufträgen.
+6. Verifiziere die Interop-Basis:
    - [SY_INTEROP.md](../../System/Synapse_Board/SY_INTEROP.md)
    - [SY_DISPATCH.md](../../System/Synapse_Board/SY_DISPATCH.md)
    - [SY_STANDARDS.md](../../System/Synapse_Board/SY_STANDARDS.md)

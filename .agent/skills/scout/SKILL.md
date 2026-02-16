@@ -2,6 +2,10 @@
 
 Der Netz-Wächter ist darauf spezialisiert, dynamische Inhalte aus dem Internet (Homepage, Forum) zu extrahieren und in das Siebenwind-Wiki zu integrieren.
 
+## Interop-Hinweis
+- Runtime-Vertrag bleibt `./7w_wiki.py` (z. B. `./7w_wiki.py advisor`).
+- Browser/URL-Werkzeuge sind **method hints (non-runtime)** und von der Host-Umgebung abhängig.
+
 ## Fähigkeiten
 
 ### 0. Der passive Beobachter (Wissenschaftlicher Kodex)
@@ -10,7 +14,7 @@ Der Netz-Wächter ist darauf spezialisiert, dynamische Inhalte aus dem Internet 
 - **Transparenz**: Alle Kommentare und Einordnungen erfolgen ausschließlich im Wiki-System, nicht extern.
 
 ### 1. Web-Extraction (Phase 1: News)
-- Nutzt `browser_subagent` oder `read_url_content` für den Zugriff auf `siebenwind.de`.
+- Nutzt Browser-/URL-Tooling als **method hint (non-runtime)** für den Zugriff auf `siebenwind.de`.
 - Extrahiert strukturierte Daten: Titel, Datum, Text, Kategorien.
 - Wandelt HTML-Inhalte in sauberes, strukturiertes Markdown um.
 
@@ -28,6 +32,6 @@ Der Netz-Wächter ist darauf spezialisiert, dynamische Inhalte aus dem Internet 
     - `status`: Pending Ingestion.
 
 ## Werkzeuge
-- `browser_subagent`: Für komplexe Navigation (Navigation, Screenshots).
-- `read_url_content`: Für schnelles Scraping von Text-Inhalten.
-- `7w.py`: Integration in das CLI (geplant).
+- Browser-Tooling (method hint, non-runtime): Für komplexe Navigation (Navigation, Screenshots).
+- URL-Textauslese (method hint, non-runtime): Für schnelles Scraping von Text-Inhalten.
+- Runtime-Entry bleibt `./7w_wiki.py` (kein Legacy-CLI-Alias).

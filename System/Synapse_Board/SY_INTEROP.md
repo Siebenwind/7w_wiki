@@ -1,7 +1,7 @@
 ---
 uuid: 4f249a8d-33da-4cbf-9fc4-ff9df2bf8563
 status: ACTIVE
-updated_at: 2026-02-15T00:10:00Z
+updated_at: 2026-02-16T21:10:00Z
 owners:
   - Koordinator
   - Netz-Waechter
@@ -31,6 +31,8 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
 - Jeder Department-Workflow enthaelt am Anfang einen Block:
   - `runtime_commands:` (real existierende Befehle)
   - `method_only:` (nur Prozessbeschreibung)
+  - optional `method_hints_non_runtime:` (Host-Tooling/Hilfsmethoden, klar als nicht-runtime markiert)
+- `method_hints_non_runtime` darf **niemals** als Ersatz fuer `runtime_commands` verwendet werden.
 
 ## Norm 3: Command Registry (Single Source)
 Die operative Kommandoliste lautet aktuell:

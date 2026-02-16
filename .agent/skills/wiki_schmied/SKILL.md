@@ -14,7 +14,7 @@ Dieser Skill generiert die finalen Artefakte im Ordner `/Siebenwind_Wiki`.
     *   Wähle den passenden Unterordner (`00_Fundament`, `01_Pantheon`, `02_Geografie`, `03_Gesellschaft`, `04_Chronik`, `05_Geschichte`, `06_Erzählungen`, `07_Persoenlichkeiten`, `08_Bestiarium`, `09_Bibliothek`, `10_Archiv`).
     *   Bestimme den Dateinamen: `Kategorie_Name.md` (oder `Name.md` in eindeutigen Ordnern).
 2.  **Formatierung:**
-    *   Nutze `write_to_file`.
+    *   **Method Hint (non-runtime):** Artikeldatei im Editor/Host-Tooling erstellen oder aktualisieren.
     *   **Frontmatter:** Pflicht!
         ```yaml
         ---
@@ -46,10 +46,9 @@ Dieser Skill generiert die finalen Artefakte im Ordner `/Siebenwind_Wiki`.
         - Siehe auch: [Siebenwind_Bote_122](../04_Chronik/Siebenwind_Bote_122.md)
         ```
 4.  **Konflikt-Management (Synapsen-System):**
-    *   **Proaktive Erkennung:** Falls während der Erstellung ein unlösbarer Widerspruch auftritt (z.B. zwei Quellen widersprechen sich fundamental im Kanon), erstelle ein Ticket via `trigger_conflict_alert`.
+    *   **Proaktive Erkennung:** Falls während der Erstellung ein unlösbarer Widerspruch auftritt (z.B. zwei Quellen widersprechen sich fundamental im Kanon), erstelle ein Ticket manuell anhand `System/Synapse_Board/_TEMPLATE_TICKET.md`.
     *   **Ticket-Zuweisung:** Nutze das `/System/Synapse_Board/_TEMPLATE_TICKET.md` und speichere es als `Conflict_[ID].md`.
 5.  **Validierung:** Prüfe, ob die Datei erfolgreich erstellt wurde und alle Pflicht-Sektionen vorhanden sind.
 
 ## Ziel
 Erstellung eines sauberen, vernetzten, akademisch referenzierten Wikis ohne manuellen Eingriff des Nutzers.
-

@@ -9,6 +9,9 @@ description: Web-Scouting für News und Shard-Updates (/scout)
   - `7w_wiki.py advisor`
 - method_only:
   - `/scout`
+- method_hints_non_runtime:
+  - Browser-basierte Sichtung (Host-Tooling)
+  - URL-Extraktion via externe Lesetools (Host-Tooling)
 
 Dieser Workflow dient der regelmäßigen Prüfung der Siebenwind-Homepage auf neue Nachrichten und technische Updates. **Wichtig:** Der Agent agiert als rein passiver Forscher; Interaktionen mit der Webseite oder dem Forum sind untersagt.
 
@@ -21,8 +24,8 @@ Dieser Workflow dient der regelmäßigen Prüfung der Siebenwind-Homepage auf ne
 
 ### 2. Extraktion
 - Wenn neue News vorhanden: Extrahiere den Volltext.
-- Nutze `browser_subagent` falls Bilder oder komplexe Tabellen vorhanden sind.
-- Nutze `read_url_content` für reinen Text.
+- **Method Hint (non-runtime):** Nutze Browser-Host-Tooling bei Bildern oder komplexen Tabellen.
+- **Method Hint (non-runtime):** Nutze URL-Textauslese-Tooling für reinen Text.
 
 ### 3. Formatierung
 - Erstelle eine neue Datei in `/Quellen/News/[YYYY-MM-DD]_[TITEL].md`.

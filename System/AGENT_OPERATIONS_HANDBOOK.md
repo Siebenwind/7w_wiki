@@ -56,6 +56,12 @@ Verbindlich gemaess `System/Synapse_Board/SY_DISPATCH.md`:
 2. Statusfluss: `OPEN` -> `CLAIMED` -> `DONE`
 3. CLI-Nutzung ueber `./7w_wiki.py mail ...`
 
+### Dispatch-Hygiene (Pflicht)
+
+1. Session-Start: `./7w_wiki.py mail inbox --status OPEN`
+2. Bei Uebernahme: `claim` setzen, dann bearbeiten, dann `done`.
+3. Entscheidungen immer ueber Dispatch referenzieren und verlinkte Conflict/Research-Tickets nachziehen.
+
 ## Dokumentation und GitHub Pages
 
 1. Autoritative Betriebsdokumente liegen in `System/`.

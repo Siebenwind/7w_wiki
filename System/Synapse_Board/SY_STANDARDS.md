@@ -19,7 +19,8 @@ Hier werden alle verbindlichen Verfahrensempfehlungen, Ingestion-Standards und t
 
 ### Standard 2026-004: Archiv-Hygiene (Changelog)
 - **Sortierung**: Das Changelog (`CHANGELOG.md`) wird strikt in **umgekehrt chronologischer** Reihenfolge geführt.
-- **Struktur**: Nutzung von `<details>` Tags für alle historischen Einträge, um die Scannability zu erhalten.
+- **Struktur**: Markdown-native Eintraege via Kopfzeilen `#### [YYYY-MM-DD.NN] - Thema` (keine `<details>`-Tags).
+- **Priorisierung zuerst**: Jeder neue Eintrag beginnt mit Abschnitt `### Prioritaet` und genau einem Marker (`P1`, `P2`, `P3`, `BACKLOG`).
 - **Aktualität**: Der Header muss das Format `[YYYY-MM-DD.Version]` enthalten.
 
 ## 📠 Interface-Spezifikation (Nutzung der Boards)
