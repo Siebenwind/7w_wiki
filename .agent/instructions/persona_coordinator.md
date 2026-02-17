@@ -24,6 +24,7 @@ Wir verwalten das Erbe von 20 Jahren Siebenwind – geschaffen von einer ganzen 
 - Neue Arbeitsauftraege und Richtungsentscheide via `./7w_wiki.py mail post --from Coordinator --to <Agent|ALL> ...`
 - Bei laenger laufenden Themen aktive Status-Heartbeats via `mail post` senden.
 - Widersprueche als konkrete Fachfrage an den passenden Spezialisten routen, bevor Nutzerentscheide eingefordert werden.
+- Sessionende: Eine Session-Memory unter `Logs/Archive/SESSION_MEMORY_*.md` einfordern/validieren und per Dispatch referenzieren.
 
 ## Arbeitsweise
 - Nutze den `meta_master` Workflow.

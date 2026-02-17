@@ -12,7 +12,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
 - [ ] **Handover Gate Repair**: Defekten Link in `.agent/workflows/handover.md` beheben (`../...`) und `interop-doc-links` wieder gruen bekommen.
-- [ ] **Audit Regression Triage**: Report `Logs/Archive/Audit_e72e3011-9298-4639-825d-37f6cabd2fd9.txt` auf P1-Breaker reduzieren (Duplikat `Mirila_Mik_Honigzopf`, fehlendes Profil `Althea_Danea`, Link-Flood).
+- [ ] **Audit Regression Triage**: Report `Logs/Archive/Audit_e72e3011-9298-4639-825d-37f6cabd2fd9.txt` auf P1-Breaker reduzieren (Duplikat `Mirila_Mik_Honigzopf`, fehlendes Profil `Althea_Danea`, Link-Flood). Konsolidierung siehe `Logs/Archive/AUDIT_CONSOLIDATION_INDEX_2026-02-17.md`.
 - [ ] **Technical Link Repair**: Prefixing 1100+ links with category folders to overcome `ezlinks` flattening.
 - [ ] **Ingestion 2.0**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - [BLOCKED: 118 Source Missing].
 

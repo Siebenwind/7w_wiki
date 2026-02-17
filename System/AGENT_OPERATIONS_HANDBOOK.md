@@ -86,6 +86,13 @@ Verbindlich gemaess `System/Synapse_Board/SY_DISPATCH.md`:
 4. Bei laengeren Aufgaben aktive Status-Heartbeats senden (kurzes `mail post` zu Stand/Blocker/naechstem Schritt).
 5. Widersprueche als Frage formulieren (Beobachtung -> Vermutung -> Frage) und an den passenden Spezialisten dispatchen, bevor Nutzer-Eskalation erfolgt.
 
+### Session-Memory-Protokoll (Pflicht)
+
+1. Jede Session endet mit einer persistierten Memory-Notiz unter `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md`.
+2. Inhalt mindestens: Kontext, geaenderte Dateien, Test-/Build-Status, Commit-IDs, offene Punkte.
+3. Die Notiz wird per Dispatch referenziert (`mail post`), damit Folgeagenten sie in der Inbox sehen.
+4. Session-Start (`/start`/`/takeover`) muss die neueste Session-Memory lesen, bevor neue Arbeit beginnt.
+
 ### Source-Link-Hygiene
 
 1. Keine `file://`-Links.

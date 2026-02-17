@@ -45,6 +45,7 @@ Führe den **Onboarding-Workflow** aus, um alle Optionen und den aktuellen Syste
 2c. **Claiming:** Entscheide, ob du einen Forschungsauftrag übernimmst und setze den Status auf `CLAIMED`.
 // turbo
 2d. **Clean-State-Check:** Führe `./7w_wiki.py test --suite clean-client-state` aus.
+2e. **Session-Memory lesen:** Prüfe die neueste Datei `Logs/Archive/SESSION_MEMORY_*.md` und übernimm offene Punkte explizit.
 
 ## 3. Die Exekution
 Folge der Empfehlung des Advisors.

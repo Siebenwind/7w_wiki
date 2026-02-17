@@ -51,6 +51,43 @@
             "status heartbeats",
             "question-first"
           ]
+        },
+        {
+          "file": "System/AGENT_OPERATIONS_HANDBOOK.md",
+          "must_include_regex": [
+            "Session-Memory-Protokoll",
+            "SESSION_MEMORY_YYYY-MM-DD"
+          ]
+        },
+        {
+          "file": ".agent/workflows/handover.md",
+          "must_include_regex": [
+            "Session-Memory \\(Pflicht\\)",
+            "mail post"
+          ]
+        },
+        {
+          "file": ".agent/workflows/start.md",
+          "must_include_regex": [
+            "SESSION_MEMORY_\\*"
+          ]
+        },
+        {
+          "file": "AGENTS.md",
+          "must_include_regex": [
+            "mail inbox --status OPEN",
+            "SESSION_MEMORY_\\*",
+            "status heartbeats",
+            "question-first"
+          ]
+        },
+        {
+          "file": ".agent/workflows/tech.md",
+          "must_include_regex": [
+            "Status-Heartbeat",
+            "Session-Memory \\(Pflicht\\)",
+            "SESSION_MEMORY_YYYY-MM-DD"
+          ]
         }
       ]
     }

@@ -31,6 +31,7 @@ Der erste Schritt jedes Agenten ist zu verstehen, wo wir stehen.
    - [SY_TESTING.md](../../System/Synapse_Board/SY_TESTING.md)
    - [SY_STANDARDS.md](../../System/Synapse_Board/SY_STANDARDS.md)
    - [COORDINATION_HUB.md](../../System/COORDINATION_HUB.md)
+8. Lies die aktuellste Session-Memory unter `Logs/Archive/SESSION_MEMORY_*.md` (falls vorhanden), bevor du neue Tasks startest.
 
 ## 2. Wähle deinen Pfad (Choose your Department)
 

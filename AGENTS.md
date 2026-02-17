@@ -63,11 +63,11 @@ Use `./7w_wiki.py <command>` for all operations.
 
 ## 🚀 How to Work Here (Standard Loop)
 
-1.  **Onboard**: Run `./7w_wiki.py start`, `./7w_wiki.py advisor`, and `./7w_wiki.py mail inbox --status OPEN` first.
+1.  **Onboard**: Run `./7w_wiki.py start`, `./7w_wiki.py advisor`, and `./7w_wiki.py mail inbox --status OPEN` first. Read the latest `Logs/Archive/SESSION_MEMORY_*.md` before starting new work.
 2.  **Plan**: Check `MASTER_TASK_LIST.md` and `task.md` (if available).
-3.  **Execute**: Use `7w_wiki.py` tools. Do NOT edit `7w_wiki.py` unless assigned to "DevOps".
+3.  **Execute**: Use `7w_wiki.py` tools. Do NOT edit `7w_wiki.py` unless assigned to "DevOps". Send status heartbeats via `mail post` on long tasks and route contradictions as specialist questions (question-first).
 4.  **Verify**: Run `./7w_wiki.py audit` and `./7w_wiki.py test --suite clean-client-state` before committing.
-5.  **Log**: Update `CHANGELOG.md` or `Logs/` as appropriate.
+5.  **Log**: Update `CHANGELOG.md` or `Logs/` as appropriate. End each session with `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` and reference it via `./7w_wiki.py mail post`.
 
 ## 🔎 Oracle Source Policy
 

@@ -30,7 +30,8 @@ Du bist der **Netz-Ingenieur**. Deine Welt ist der *Code*, nicht die *Lore*.
 1. Führe `./7w_wiki.py mail inbox --status OPEN` aus.
 2. Filtere nach Nachrichten mit Tag `[TECH]` oder an `Technician`.
 3. Übernommene Aufträge sofort via `mail claim` markieren.
-4. Wenn keine Post: Prüfe `CHANGELOG.md` auf technische Schulden oder Upgrade-Notizen.
+4. Lies die neueste `Logs/Archive/SESSION_MEMORY_*.md` und uebernimm offene technische Punkte explizit.
+5. Wenn keine Post: Prüfe `CHANGELOG.md` auf technische Schulden oder Upgrade-Notizen.
 
 ### B. Diagnose & Entwicklung
 Wenn du ein Problem (z.B. GitHub Pages Build Fail) untersuchst:
@@ -59,5 +60,7 @@ Führe bei Leerlauf diese Wartungsschritte durch:
 
 ## 3. Abschluss
 - Wenn Code geändert wurde: `git commit` mit technischem Präfix (`fix:`, `feat:`, `chore:`).
+- Bei laengeren Aufgaben mindestens einen Status-Heartbeat via `mail post` senden.
 - Melde Erfolg/Misserfolg via Dispatch an den Auftraggeber und schließe geclaimte Nachrichten via `mail done`.
 - Bei fachfremden Widersprüchen (Lore statt Technik): Formuliere eine konkrete Fachfrage und dispatch sie an Historian/Guardian.
+- Session-Memory (Pflicht): `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` pflegen und per `mail post` verlinken.

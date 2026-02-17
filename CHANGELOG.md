@@ -1,5 +1,23 @@
 # Changelog
 
+#### [2026-02-17.09] - Session-Disziplin dauerhaft verankert (Agentenverhalten)
+
+### Prioritaet
+- P1
+
+### Geaendert
+- `AGENTS.md` um verbindliche Session-Disziplin erweitert (Session-Memory lesen/schreiben, Status-Heartbeats, question-first Eskalation).
+- `.agent/workflows/tech.md` um Pflichtschritte fuer Session-Memory und Heartbeat-Dispatch ergaenzt.
+- `.agent/tests/suites/process-dispatch-curiosity.json` erweitert, damit die neuen Vorgaben in `AGENTS.md` und `/tech` automatisiert geprueft werden.
+
+### Validiert
+- `./7w_wiki.py test --suite process-dispatch-curiosity`  
+  Report: `Logs/Archive/TEST_process-dispatch-curiosity_2026-02-17_225044.md`
+- `./7w_wiki.py test --suite clean-client-state`  
+  Report: `Logs/Archive/TEST_clean-client-state_2026-02-17_225047.md`
+- `./7w_wiki.py test --suite interop-doc-links`  
+  Report: `Logs/Archive/TEST_interop-doc-links_2026-02-17_225052.md`
+
 #### [2026-02-17.08] - Handover Checkpoint: Statuslauf, Suite-All und Queue-Dokumentation
 
 ### Prioritaet
@@ -24,6 +42,7 @@
   Offen: `MSG-2026-0002`, `MSG-2026-0003`, `MSG-2026-0004`, `MSG-2026-0005`, `MSG-2026-0006`, `MSG-2026-0007`, `MSG-2026-0008`
 - `./7w_wiki.py audit`  
   Report: `Logs/Archive/Audit_e72e3011-9298-4639-825d-37f6cabd2fd9.txt` (FAIL, 1184 Probleme)
+- Audit/Test-Redundanz-Konsolidierung dokumentiert in `Logs/Archive/AUDIT_CONSOLIDATION_INDEX_2026-02-17.md`.
 
 #### [2026-02-17.07] - Visual Identity Refresh & Link Resolution Audit (Phase 1.23)
 

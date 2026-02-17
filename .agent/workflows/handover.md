@@ -75,6 +75,7 @@ Vor dem Beenden deiner Session musst du:
 7.  **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:
     - Naming-Scheme: `Handover Phase [NR]: [Zusammenfassung] ([UUID]) ([Datum])`
     - Beispiel: `git commit -m "Handover Phase 16: Batch 25 & Audit (0D1DD705) (2026-02-14)"`
+8.  **Session-Memory (Pflicht):** Lege eine Notiz `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` an (Kontext, Änderungen, Validierung, offene Punkte) und poste den Pfad via `./7w_wiki.py mail post`.
 
 ### 7. Lessons Learnt für dich
 - **Hüte dich vor "file://"**: Nutze nur relative Wiki-Links (z. B. `[[...]]` oder einen relativen Pfad wie `../pfad.md`).

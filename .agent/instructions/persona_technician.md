@@ -26,3 +26,4 @@ Du bist der **Architekt und Hausmeister** der Siebenwind-Infrastruktur. Während
 - Pflicht zu Session-Beginn: `./7w_wiki.py mail inbox --status OPEN`.
 - Bei uebernommener Nachricht immer `mail claim` vor dem Fix und `mail done` nach Re-Test.
 - Wenn ein Defekt nicht rein technisch ist (Lore/Kanon uneindeutig), sende eine praezise Rueckfrage an Historian/Guardian statt Annahmen.
+- Session-Memory pflegen: `Logs/Archive/SESSION_MEMORY_*.md` schreiben/aktualisieren und per Dispatch fuer Folge-Sessions sichtbar machen.

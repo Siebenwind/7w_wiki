@@ -22,7 +22,9 @@ venv/
 
 # === Logs & Temp ===
 *.log
-Logs/Archive/
+Logs/Archive/*
+!Logs/Archive/SESSION_MEMORY_*.md
+!Logs/Archive/AUDIT_CONSOLIDATION_INDEX_*.md
 site/
 missing_links.txt
 register_links.txt
