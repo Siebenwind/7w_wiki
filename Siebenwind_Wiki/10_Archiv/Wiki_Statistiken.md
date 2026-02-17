@@ -6,14 +6,14 @@ category: Index
 
 # 📊 Wiki Status
 
-**Stand:** 2026-02-17 16:46
+**Stand:** 2026-02-17 18:03
 
 ---
 
 | Metrik | Wert |
 | :--- | :--- |
-| **Artikel** | 1109 |
-| **Worte** | 185,404 |
+| **Artikel** | 1107 |
+| **Worte** | 182,180 |
 | **Personen** | 587 |
 
 ---
@@ -28,7 +28,7 @@ pie title Sektionen
     "05_Geschichte" : 57
     "02_Geografie" : 56
     "01_Pantheon" : 51
-    "04_Chronik" : 85
+    "04_Chronik" : 83
     "06_Erzählungen" : 13
     "09_Bibliothek" : 28
     "00_Fundament" : 37
@@ -44,14 +44,14 @@ Leserrelevante, stark vernetzte Artikel (ohne Index/Register).
 | [[Siebenwind]] | 703 |
 | [[Falkensee]] | 543 |
 | [[Brandenstein]] | 465 |
-| [[Astrael]] | 161 |
-| [[Toran_Dur]] | 149 |
+| [[Astrael]] | 192 |
+| [[Toran_Dur]] | 172 |
 
 
 ## 👤 Top Persönlichkeiten
 | Persönlichkeit | Links |
 | :--- | :--- |
-| [[Toran_Dur]] | 149 |
+| [[Toran_Dur]] | 172 |
 | [[Geist]] | 125 |
 | [[Custodias]] | 83 |
 | [[Waldemar_Delarie]] | 60 |
@@ -61,11 +61,11 @@ Leserrelevante, stark vernetzte Artikel (ohne Index/Register).
 ## 🕰️ Top Ereignisse
 | Ereignis | Links |
 | :--- | :--- |
-| [[Siebenwind Bote 175]] | 28 |
-| [[Siebenwind Bote 173]] | 24 |
-| [[Siebenwind Bote 172]] | 22 |
-| [[Siebenwind Bote 161]] | 21 |
-| [[Siebenwind Bote 174]] | 21 |
+| [[Blutschwert]] | 28 |
+| [[Das_Ende_der_Zeit_der_Koenige]] | 28 |
+| [[Siebenwind_Bote_175]] | 28 |
+| [[Siebenwind_Bote_179]] | 27 |
+| [[Siebenwind_Bote_173]] | 24 |
 
 ---
 > [!NOTE]
