@@ -36,6 +36,7 @@ In `.agent/skills/wiki_schmied/scripts/` liegen geschäftskritische Python-Skrip
 1.  `wiki_sanitizer.py`: Korrigiert Layout, Frontmatter und H1-Alignment.
 2.  `wiki_link_weaver.py`: Erkennt Begriffe im Text, setzt `[[Links]]` und erzeugt bi-direktionale Backlinks unter `## Überlieferungen`.
 3.  `link_cleanup.py`: Bereinigt versehentlich eingeschleppte absolute Pfade.
+4.  Diese Skripte sind Backend-Artefakte; die operative Ausfuehrung bleibt auf `./7w_wiki.py`.
 
 ### 5. Verzeichnis-Struktur
 - `00_Fundament/`: Gesetze, Axiome und Register.
@@ -72,10 +73,11 @@ Vor dem Beenden deiner Session musst du:
 // turbo
 5.  **Dispatch-Queue prüfen:** Führe `./7w_wiki.py mail inbox --status OPEN` aus und verlinke bearbeitete Forschungsaufträge/Nachrichten im Abschlusskommentar.
 6.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](../../Logs/Konsistenzbericht_2026.md).
-7.  **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:
+7.  **Anti-Bridge-Regel:** Vermeide generische Brueckenartikel als Endzustand; temporaere Ausnahmen nur mit Ticket und Review-Datum.
+8.  **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:
     - Naming-Scheme: `Handover Phase [NR]: [Zusammenfassung] ([UUID]) ([Datum])`
     - Beispiel: `git commit -m "Handover Phase 16: Batch 25 & Audit (0D1DD705) (2026-02-14)"`
-8.  **Session-Memory (Pflicht):** Lege eine Notiz `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` an (Kontext, Änderungen, Validierung, offene Punkte) und poste den Pfad via `./7w_wiki.py mail post`.
+9.  **Session-Memory (Pflicht):** Lege eine Notiz `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` an (Kontext, Änderungen, Validierung, offene Punkte) und poste den Pfad via `./7w_wiki.py mail post`.
 
 ### 7. Lessons Learnt für dich
 - **Hüte dich vor "file://"**: Nutze nur relative Wiki-Links (z. B. `[[...]]` oder einen relativen Pfad wie `../pfad.md`).

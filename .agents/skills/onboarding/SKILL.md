@@ -17,6 +17,7 @@ Run the canonical onboarding sequence:
 ./7w_wiki.py mail inbox --status OPEN
 ./7w_wiki.py test --suite clean-client-state
 ./7w_wiki.py audit
+./7w_wiki.py test --suite bridge-placeholder-guard
 ```
 
 ## Notes

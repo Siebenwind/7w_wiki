@@ -28,6 +28,7 @@ Führe das System-Audit aus:
 ```
 - [ ] Identifikation von Duplikaten und verwaisten Dateien.
 - [ ] Prüfung der YAML-Frontmatter Konsistenz.
+- [ ] Bridge-/Placeholder-Hygiene prüfen (keine generischen Brueckenartikel ohne Ausnahme-Metadaten).
 
 ## 3. Bereinigung (Repair)
 Nutze den interaktiven Repair-Modus für Batch-Fixes:

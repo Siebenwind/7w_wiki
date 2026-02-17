@@ -18,6 +18,14 @@ epistemic: "#{meta|canon|bote|perspektive|news|forum|user_speculation|ai_theory}
 ## Wirkung
 {Nutzen, Risiko, offene Punkte}
 
+## Link-Entscheidung
+- Rewrite auf kanonisches Ziel: {ja|nein}
+- Temporaere Bridge-Ausnahme genutzt: {nein|ja}
+- Falls ja:
+  - bridge_target: {[[Zielseite]]}
+  - bridge_ticket: {MSG-YYYY-NNNN|TASK-ID}
+  - bridge_review_until: {YYYY-MM-DD}
+
 ## Verweise
 - {Pfad_oder_Link_1}
 - {Pfad_oder_Link_2}

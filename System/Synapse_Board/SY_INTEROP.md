@@ -25,6 +25,16 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
   - `[[WikiLinks]]` fuer Wissensseiten.
 - Ausnahme: Externe Webquellen (`https://...`) sind zulaessig.
 
+## Norm 1b: Bridge-Page-Policy
+- Brueckenartikel/Stub-Platzhalter sind **kein Standard-Reparaturweg**.
+- Standard ist: Link auf bestehendes kanonisches Ziel reparieren oder valide Zielseite mit belegbarer Quelle erstellen.
+- Falls eine temporaere Bruecke unvermeidbar ist, sind diese Felder verpflichtend:
+  - `bridge_mode: temporary`
+  - `bridge_target: [[...]]`
+  - `bridge_ticket: MSG-...` (oder Task-ID)
+  - `bridge_review_until: YYYY-MM-DD`
+- Seiten mit Bridge-Markern ohne diese Felder gelten als Interop-/Qualitaetsdefect.
+
 ## Norm 2: Ausfuehrbarkeit vs. Methodik
 - Nur Befehle, die in `7w_wiki.py` via `add_parser(...)` existieren, gelten als **runtime-executable**.
 - Workflows ohne CLI-Entsprechung muessen als **methodisch** markiert werden.
@@ -75,7 +85,8 @@ Bei jedem groesseren Update:
 2. Abgleich Workflow-Kommandos gegen `7w_wiki.py`.
 3. Dispatch-Queue auf offene Direktiven pruefen.
 4. Interop-Testlauf ausfuehren (`./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-doc-links`, `./7w_wiki.py test --suite rag-relevance-smoke`).
-5. Changelog-Eintrag mit Interop-Delta erstellen.
+5. Bridge-Guard pruefen (`./7w_wiki.py test --suite bridge-placeholder-guard`).
+6. Changelog-Eintrag mit Interop-Delta erstellen.
 
 ## Beschluss
 Diese Norm gilt ab sofort fuer alle neuen und ueberarbeiteten Antigravity-Artefakte.

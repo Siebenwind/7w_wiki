@@ -30,6 +30,15 @@ letzter_check: [ISO-8601 Zeitstempel inkl. Uhrzeit]
 ---
 ```
 
+Guardrails:
+- Do not create placeholder pages with generic bridge text.
+- For new regular articles, `quelle:` must be a concrete relative source path, not `UNGEKLAERT`.
+- Temporary bridge exceptions are allowed only with explicit lifecycle metadata:
+  - `bridge_mode: temporary`
+  - `bridge_target: [[Canonical_Target_or_TODO]]`
+  - `bridge_ticket: MSG-YYYY-NNNN` (or task id)
+  - `bridge_review_until: YYYY-MM-DD`
+
 ## 2. Heading Structure
 - **H1 Header:** The first line after the frontmatter must be a Level 1 Heading (`# Title`) matching the `title` field in the YAML.
 - **H2 Headers:** Use for main sections (e.g., `## Beschreibung`, `## Wirken`, `## Quellen`).

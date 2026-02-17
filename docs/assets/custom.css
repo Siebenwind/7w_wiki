@@ -133,10 +133,9 @@ blockquote {
   border: 1px solid var(--sw-border);
   box-shadow: var(--sw-shadow);
   background:
-    linear-gradient(160deg, rgba(255, 253, 248, 0.94), rgba(244, 240, 232, 0.88)),
-    url("../assets/banner.png");
-  background-size: cover;
-  background-position: center;
+    radial-gradient(circle at 16% 24%, rgba(109, 57, 52, 0.08) 0%, rgba(109, 57, 52, 0) 42%),
+    radial-gradient(circle at 88% 8%, rgba(138, 143, 151, 0.13) 0%, rgba(138, 143, 151, 0) 38%),
+    linear-gradient(160deg, rgba(255, 253, 248, 0.96), rgba(244, 240, 232, 0.9));
   position: relative;
   overflow: hidden;
 }
@@ -214,7 +213,8 @@ blockquote {
 
 .portal-grid,
 .featured-grid,
-.method-grid {
+.method-grid,
+.quick-grid {
   display: grid;
   gap: 1rem;
   margin: 1.3rem 0 2rem;
@@ -232,9 +232,14 @@ blockquote {
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 }
 
+.quick-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
 .portal-card,
 .featured-card,
-.method-card {
+.method-card,
+.quick-card {
   border: 1px solid var(--sw-border-soft);
   border-radius: 12px;
   background: var(--sw-paper);
@@ -242,7 +247,8 @@ blockquote {
 }
 
 .portal-card,
-.featured-card {
+.featured-card,
+.quick-card {
   text-decoration: none !important;
   color: inherit;
   display: block;
@@ -251,7 +257,8 @@ blockquote {
 }
 
 .portal-card:hover,
-.featured-card:hover {
+.featured-card:hover,
+.quick-card:hover {
   transform: translateY(-2px);
   border-color: rgba(109, 57, 52, 0.35);
   box-shadow: 0 10px 24px rgba(31, 26, 23, 0.1);
@@ -259,7 +266,8 @@ blockquote {
 
 .portal-card h3,
 .featured-card h3,
-.method-card h3 {
+.method-card h3,
+.quick-card h3 {
   margin: 0 0 0.45rem 0 !important;
   color: var(--sw-roetel) !important;
   font-size: 1.2rem !important;
@@ -267,7 +275,8 @@ blockquote {
 
 .portal-card p,
 .featured-card p,
-.method-card p {
+.method-card p,
+.quick-card p {
   margin: 0;
   color: var(--sw-muted);
   line-height: 1.5;
@@ -275,6 +284,47 @@ blockquote {
 
 .method-card {
   padding: 0.95rem;
+}
+
+.section-lead {
+  margin: -1.1rem auto 1.8rem;
+  max-width: 900px;
+  color: var(--sw-muted);
+  text-align: center;
+}
+
+.banner-status {
+  border: 1px dashed rgba(109, 57, 52, 0.35);
+  border-radius: 12px;
+  background: rgba(255, 252, 247, 0.82);
+  padding: 0.9rem 1rem;
+  margin: 0.9rem 0 1.8rem;
+}
+
+.banner-status p {
+  margin: 0.35rem 0;
+  color: var(--sw-ink);
+}
+
+.banner-status .banner-note {
+  margin-top: 0.55rem;
+  color: var(--sw-muted);
+  font-size: 0.94rem;
+}
+
+.tech-details {
+  border-top: 1px solid var(--sw-border-soft);
+  padding-top: 0.85rem;
+}
+
+.tech-details summary {
+  cursor: pointer;
+  color: var(--sw-roetel);
+  font-weight: 700;
+}
+
+.tech-details ul {
+  margin: 0.75rem 0 0.2rem;
 }
 
 .md-typeset table:not([class]) th {

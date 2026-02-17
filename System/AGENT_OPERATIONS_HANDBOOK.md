@@ -54,7 +54,10 @@ Verbindlicher Einstieg:
 1. `./7w_wiki.py test --suite clean-client-state`
 2. `./7w_wiki.py test --suite takeover-handover`
 3. `./7w_wiki.py test --suite interop-doc-links`
-4. Optional Gesamtlauf: `./7w_wiki.py test --suite all`
+4. `./7w_wiki.py test --suite source-link-hygiene`
+5. `./7w_wiki.py test --suite process-dispatch-curiosity`
+6. `./7w_wiki.py test --suite bridge-placeholder-guard`
+7. Optional Gesamtlauf: `./7w_wiki.py test --suite all`
 
 Defect-Regel:
 
@@ -103,6 +106,13 @@ Verbindlich gemaess `System/Synapse_Board/SY_DISPATCH.md`:
 2. Keine `%25xx`-Doppel-Encoding-Muster in Quellenpfaden.
 3. Keine `[[index]]`-Platzhalter in Markdown-Link-Targets.
 4. Quellenpfade in Referenzen bevorzugt als relative Pfad-Literale dokumentieren (portable, strict-build stabil).
+
+### Bridge-Placeholder-Hygiene
+
+1. Keine Brueckenartikel als Standardloesung fuer defekte Verweise.
+2. Primärstrategie: vorhandenes kanonisches Ziel finden und Verweise dorthin korrigieren.
+3. Temporäre Bruecken nur mit `bridge_mode`, `bridge_target`, `bridge_ticket`, `bridge_review_until`.
+4. Pflicht-Check: `./7w_wiki.py test --suite bridge-placeholder-guard`.
 
 ### Runtime-Konfiguration (zentral)
 

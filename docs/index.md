@@ -5,20 +5,26 @@
   <div class="hero-actions">
     <a href="Siebenwind_Wiki/" class="hero-action hero-action-primary">Lesen starten</a>
     <a href="Siebenwind_Wiki/10_Archiv/Interessante_Artikel/" class="hero-action">Interessante Artikel</a>
-    <a href="CONTRIBUTING/" class="hero-action">Mitwirken</a>
+    <a href="Siebenwind_Wiki/04_Chronik/" class="hero-action">Zur Chronik</a>
   </div>
 </div>
 
-## Banner-Rotation mit Kanonbezug
+<p class="section-lead">Diese Startseite priorisiert Leserfuehrung. Produktions-Banner werden nach Freigabe als visuelle Ebene ergänzt.</p>
 
-<div class="featured-grid">
-  <a href="Siebenwind_Wiki/09_Bibliothek/Nachts_im_Brandensteiner_Tempel/" class="featured-card">
-    <h3>Motiv A: Archivflur ohne Figuren</h3>
-    <p>Verknuepft mit "Nachts im Brandensteiner Tempel": ein naechtliches Schutzritual eines alternden Morsan-Geweihten zur Vorbereitung auf das Dunkeltief.</p>
+## Empfohlener Einstieg in 3 Minuten
+
+<div class="quick-grid">
+  <a href="Siebenwind_Wiki/02_Geografie/Siebenwind/" class="quick-card">
+    <h3>1. Weltbild erfassen</h3>
+    <p>Geografischer und politischer Einstieg in die Inselwelt.</p>
   </a>
-  <a href="Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.)/" class="featured-card">
-    <h3>Motiv B: Chroniktafeln im Nebel</h3>
-    <p>Verknuepft mit "Zeitleiste (15-30 n.H.)": dokumentiert den Botenzeitraum 120-193 und die politischen Umbrueche der Inselgeschichte.</p>
+  <a href="Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel)/" class="quick-card">
+    <h3>2. Zeitrahmen verstehen</h3>
+    <p>Der Sonnenzirkel als gemeinsame Referenz fuer Chronik und Quellen.</p>
+  </a>
+  <a href="Siebenwind_Wiki/10_Archiv/Interessante_Artikel/" class="quick-card">
+    <h3>3. Kuratierte Vertiefung</h3>
+    <p>Ausgewählte Artikel mit redaktioneller Relevanz und Einstiegshinweisen.</p>
   </a>
 </div>
 
@@ -96,10 +102,21 @@ Mehr kuratierte Einstiege: [Zur Uebersicht Interessante Artikel](Siebenwind_Wiki
 - [Research Board](Archiv/Research_Board.md)
 - [Ingestion Reports](Archiv/Ingestion_Reports/index.md)
 
-## Mitarbeit und Hintergrund
+## Banner in Arbeit (Kanongebunden)
 
-- [Mitarbeit und Regeln](CONTRIBUTING.md)
-- [Master Task List](MASTER_TASK_LIST.md)
-- [Changelog](CHANGELOG.md)
-- [Redesign Roadmap 2026](Archiv/REDESIGN_ROADMAP_2026.md)
-- [Agenten-Hub](Agenten/index.md)
+<div class="banner-status">
+  <p><strong>Motiv A:</strong> Archivflur ohne Figuren, Story-Link: <a href="Siebenwind_Wiki/09_Bibliothek/Nachts_im_Brandensteiner_Tempel/">Nachts im Brandensteiner Tempel</a></p>
+  <p><strong>Motiv B:</strong> Chroniktafeln im Nebel, Story-Link: <a href="Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.)/">Zeitleiste (15-30 n.H.)</a></p>
+  <p class="banner-note">Status: in Produktion. Landing bleibt bis zur Freigabe text- und navigationsgetrieben.</p>
+</div>
+
+<details class="tech-details">
+  <summary>Technik, Betrieb und Mitwirkung (Transparenz)</summary>
+  <ul>
+    <li><a href="CONTRIBUTING.md">Mitarbeit und Regeln</a></li>
+    <li><a href="MASTER_TASK_LIST.md">Master Task List</a></li>
+    <li><a href="CHANGELOG.md">Changelog</a></li>
+    <li><a href="Archiv/REDESIGN_ROADMAP_2026.md">Redesign Roadmap 2026</a></li>
+    <li><a href="Agenten/index.md">Agenten-Hub</a></li>
+  </ul>
+</details>

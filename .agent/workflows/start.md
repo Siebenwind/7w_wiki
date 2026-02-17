@@ -66,5 +66,6 @@ Welche Rolle nimmst du heute ein?
 - **Keine Halluzinationen:** Wenn Wissen fehlt, markiere es mit `[UNGEKLÄRT]` oder schreibe ein Ticket.
 - **Relative Links:** Nutze ausschließlich `[[WikiLinks]]`.
 - **Epistemische Tags:** Nutze `#canon`, `#bote`, `#perspektive`.
+- **Keine Bridge-Placeholders:** Repariere Verweise auf kanonische Ziele; nutze temporäre Brücken nur mit Ticket + Review-Datum.
 
 *Bereit? Wähle einen Pfad und beginne dein Werk.*

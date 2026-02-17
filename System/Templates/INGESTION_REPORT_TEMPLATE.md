@@ -48,6 +48,7 @@
 - **Inkonsistenzen**: [Gefundene Widersprüche & deren (geplante) Auflösung]
 - **Highlight**: [Besonders wertvolle "Insel-Lore" für das Narrative Enrichment]
 - **Offene Fragen an Spezialisten**: [Falls vorhanden: Historian/Guardian/Technician + Dispatch-ID]
+- **Link-Reparaturentscheidung**: [Rewrite auf kanonisches Ziel | temporäre Bridge-Ausnahme mit Ticket + Review-Datum]
 
 ---
 *Report-ID: [UUID-v4]*

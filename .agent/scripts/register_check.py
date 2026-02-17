@@ -39,6 +39,20 @@ SOURCE_HYGIENE_DIRS = [
 SOURCE_HYGIENE_FILES = [
     PROJECT_ROOT / "docs" / "COORDINATION_HUB.md",
 ]
+BRIDGE_MARKER_PATTERNS = [
+    r"Brueckenartikel zur Stabilisierung bestehender WikiLinks",
+    r"Brückenartikel zur Stabilisierung bestehender WikiLinks",
+    r"Brueckenartikel fuer numerische Legacy-Verweise",
+    r"Brückenartikel für numerische Legacy-Verweise",
+    r"Brueckenartikel fuer Legacy-Linkziel",
+    r"Brückenartikel für Legacy-Linkziel",
+]
+BRIDGE_REQUIRED_FIELDS = [
+    "bridge_mode:",
+    "bridge_target:",
+    "bridge_ticket:",
+    "bridge_review_until:",
+]
 
 def get_all_wiki_files() -> tuple[dict[str, Path], dict[str, Path]]:
     """Create maps of filename (stem) and title to their absolute Path."""
@@ -245,6 +259,40 @@ def analyze_ingestion_reports() -> dict:
         "missing_examples": missing[:10],
         "lqs_distribution": dict(sorted(lqs_counter.items(), key=lambda x: float(x[0]))),
         "profile_distribution": dict(profile_counter.most_common()),
+    }
+
+
+def analyze_bridge_placeholder_pages() -> dict:
+    """
+    Detect bridge/placeholder pages and enforce explicit exception metadata.
+    This does not ban all temporary bridges, but it makes untracked ones visible.
+    """
+    with_exception: list[Path] = []
+    without_exception: list[tuple[Path, list[str]]] = []
+
+    for fpath in sorted(WIKI_DIR.rglob("*.md")):
+        try:
+            raw = fpath.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        raw_low = raw.lower()
+        has_marker = any(re.search(pattern, raw, re.IGNORECASE) for pattern in BRIDGE_MARKER_PATTERNS)
+        declares_bridge = "bridge_mode:" in raw_low
+        if not has_marker and not declares_bridge:
+            continue
+
+        missing_fields = [field for field in BRIDGE_REQUIRED_FIELDS if field not in raw_low]
+        if missing_fields:
+            without_exception.append((fpath, missing_fields))
+        else:
+            with_exception.append(fpath)
+
+    return {
+        "total": len(with_exception) + len(without_exception),
+        "with_exception": len(with_exception),
+        "without_exception": len(without_exception),
+        "examples_without_exception": without_exception[:20],
     }
 
 
@@ -487,6 +535,27 @@ def main():
             issues_found += len(set(items))
     else:
         log("  ✅ Alle [[WikiLinks]] sind valide.")
+    log()
+
+    # --- 9. Bridge Placeholder Hygiene ---
+    log("## 9. Bridge Placeholder Hygiene (Preventive)")
+    bridge = analyze_bridge_placeholder_pages()
+    if bridge["total"] == 0:
+        log("  ✅ Keine Bridge-/Placeholder-Seiten gefunden.")
+    else:
+        log(f"  Gefundene Bridge-/Placeholder-Seiten: {bridge['total']}")
+        log(f"  Mit Ausnahme-Metadaten: {bridge['with_exception']}")
+        log(f"  Ohne Ausnahme-Metadaten: {bridge['without_exception']}")
+
+        if bridge["without_exception"] > 0:
+            issues_found += bridge["without_exception"]
+            for fpath, missing_fields in bridge["examples_without_exception"]:
+                rel_path = fpath.relative_to(PROJECT_ROOT)
+                log(f"  ⚠️  {rel_path} — fehlend: {', '.join(missing_fields)}")
+
+            remaining = bridge["without_exception"] - len(bridge["examples_without_exception"])
+            if remaining > 0:
+                log(f"  ... und {remaining} weitere.")
     log()
 
     # --- Summary ---

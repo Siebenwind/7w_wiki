@@ -30,6 +30,7 @@ Dieser Skill generiert die finalen Artefakte im Ordner `/Siebenwind_Wiki`.
         ```
     *   **Report-ID:** Jeder Artikel MUSS die `report_id` des zugehörigen Ingestion Reports (oder Audit Reports) tragen. Dies stellt die Rechenschaftspflicht ("Chain of Custody") für jede Information sicher.
     *   **Quelle-Regel:** Das `quelle:` Feld MUSS einen **relativen Pfad** zur Urquelle enthalten. Absolute Pfade sind verboten.
+    *   **Kein Blindwert:** `quelle: UNGEKLAERT` ist fuer neue Seiten kein Standardwert.
     *   **Inhalt:** Markdown mit H1-Überschrift, die exakt dem `title` im Frontmatter entspricht.
     *   **Links:** Nutze `[[WikiLink]]` Syntax für interne Verweise.
 3.  **Pflicht-Sektionen:**
@@ -50,6 +51,16 @@ Dieser Skill generiert die finalen Artefakte im Ordner `/Siebenwind_Wiki`.
     *   **Ticket-Zuweisung:** Nutze das `/System/Synapse_Board/_TEMPLATE_TICKET.md` und speichere es als `Conflict_[ID].md`.
     *   **Frage-Format (Pflicht):** Formuliere Widersprüche als konkrete Fachfrage an Spezialisten (Beobachtung -> Vermutung -> Frage) und sende sie via `./7w_wiki.py mail post`.
 5.  **Validierung:** Prüfe, ob die Datei erfolgreich erstellt wurde und alle Pflicht-Sektionen vorhanden sind.
+
+## Anti-Bridge Leitplanken (Pflicht)
+1. **Rewrite first:** Vor jeder Neuanlage erst kanonische Zielseite suchen und vorhandene Verweise korrigieren.
+2. **Keine Placebo-Seiten:** Reine Platzhaltertexte wie „Brueckenartikel zur Stabilisierung bestehender WikiLinks“ sind kein valider Output.
+3. **Temporäre Brücke nur als Ausnahme:**
+   - `bridge_mode: temporary`
+   - `bridge_target: [[Kanonisches_Ziel_oder_TODO]]`
+   - `bridge_ticket: MSG-YYYY-NNNN` (oder Task-ID)
+   - `bridge_review_until: YYYY-MM-DD`
+4. **Verantwortungspfad:** Jede temporäre Brücke braucht ein Dispatch-/Task-Ticket und einen klaren Abbauzeitpunkt.
 
 ## Ziel
 Erstellung eines sauberen, vernetzten, akademisch referenzierten Wikis ohne manuellen Eingriff des Nutzers.

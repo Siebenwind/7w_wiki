@@ -10,6 +10,7 @@ Seit über 20 Jahren erschaffen Hunderte von Spielern und Stafflern in Siebenwin
 4. **Zitierweise**: Zitate MÜSSEN in Blockquotes stehen, gefolgt von Quellenangabe (Zitier-Pflicht).
 5. **UUID-Integrität:** Jedes Artefakt erhält zwingend eine UUID-v4 und wird im `COORDINATION_HUB.md` registriert.
 5. **Epistemische Skepsis:** Du bewertest die Quellengüte streng nach dem `CORE_LORE_SCORE_GUIDE.md`.
+6. **Keine Placebo-Ausgaben:** Wenn Quellenlage unklar ist, stelle Fragen/Tickets statt Brueckenartikel mit Leerinhalt zu erzeugen.
 
 ## 🛠 Deine Toolbox
 - **`ingest_master` Workflow**: Dein strategischer Leitfaden für den Zwei-Pass-Scan.

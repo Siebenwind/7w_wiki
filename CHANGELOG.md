@@ -1,5 +1,53 @@
 # Changelog
 
+#### [2026-02-18.04] - Landing-Design priorisiert Leserfuehrung (Banner folgen spaeter)
+
+### Prioritaet
+- P1
+
+### Geaendert
+- Startseite auf leserzentrierte Informationsarchitektur umgestellt:
+  - `docs/index.md`
+  - `Empfohlener Einstieg in 3 Minuten` als neue Erstfuehrung.
+  - Bannerinhalte aus dem Topbereich in `Banner in Arbeit (Kanongebunden)` verschoben.
+  - Technik/Betrieb in aufklappbares Transparenzmodul verlagert.
+- Landing-Visuals banner-unabhaengig stabilisiert:
+  - `docs/assets/custom.css`
+  - Hero-Hintergrund auf archivische Gradienten/Linien statt statischem Banner.
+  - Neue Stile fuer `quick-grid`, `banner-status`, `tech-details`.
+
+### Validiert
+- `./7w_wiki.py test --suite interop-doc-links`  
+  Report: `Logs/Archive/TEST_interop-doc-links_2026-02-18_002046.md` (PASS)
+- `./7w_wiki.py pages build --strict`  
+  Build-Log: `/tmp/pages_build_2026-02-18_0021.log` (`Documentation built in 122.09 seconds`)
+- `./7w_wiki.py pages validate` bleibt am bekannten Audit-Gate blockiert:
+  - Report: `Logs/Archive/Audit_4895992f-3244-4200-a4ca-fdf6bbfdfd0f.txt` (348 Probleme)
+
+#### [2026-02-18.03] - Lessons-Learned ergänzt und Audit auf 348 reduziert
+
+### Prioritaet
+- P1
+
+### Hinzugefuegt
+- Lessons-Learned-Report fuer Folgeagenten:
+  - `Logs/Archive/LESSONS_LEARNED_2026-02-18_AUDIT_TRIAGE_LINKFLOOD.md`
+
+### Geaendert
+- Malformed-WikiLinks in Register/Profilen/Werke-Index normalisiert:
+  - `[[Forschungsberichte ([[Toran_Dur]])]]` -> `[[Forschungsberichte_(Toran_Dur)]]`
+  - `[[Die Ordenssatzung ... ([[Toran_Dur]])]]` -> `[[Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur)]]`
+  - `[[Daimonologie und Schwarze [[index]] ([[Toran_Dur]])]]` -> `[[Daimonologie_und_Schwarze_Magie_(Toran_Dur)]]`
+- Folge-Batch fuer verbleibende Singletons in `Siebenwind_Wiki/00_Fundament` ausgefuehrt.
+- Lessons-Learned per Dispatch an `ALL` verteilt:
+  - `MSG-2026-0023`
+
+### Validiert
+- `./7w_wiki.py audit`  
+  Report: `Logs/Archive/Audit_84814c9a-7906-469d-a35f-e5506733d443.txt` (348 Probleme)
+- `./7w_wiki.py test --suite clean-client-state`  
+  Report: `Logs/Archive/TEST_clean-client-state_2026-02-18_000926.md` (PASS)
+
 #### [2026-02-18.02] - Baustellen-Dossier fuer nicht-bannerbezogene Open Issues
 
 ### Prioritaet

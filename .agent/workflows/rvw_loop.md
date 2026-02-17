@@ -106,6 +106,7 @@ Bei Texten über 100 Zeilen **MUSS** ein Zwei-Pass-Verfahren angewendet werden:
     *   **Profil-Check:** Vor jeder Profilerstellung prüfen, ob `07_Persoenlichkeiten/[Name].md` bereits existiert. Falls ja: bestehende Datei aktualisieren, nicht überschreiben.
     *   **Register-Check:** Vor jedem Append ins Personenregister prüfen, ob der Name bereits eingetragen ist. Falls ja: bestehenden Eintrag aktualisieren statt neuen anlegen.
     *   **Anker-Regel:** Beim Register-Append immer **zwei** Ankerzeilen verwenden und die letzte Zeile in der Ersetzung beibehalten.
+    *   **Bridge-Verbot by default:** Keine Brueckenartikel/Stub-Texte als Abschlussartefakt erzeugen. Falls eine temporaere Bruecke unvermeidbar ist, nur mit `bridge_mode`, `bridge_target`, `bridge_ticket`, `bridge_review_until`.
 *   **Action:**
     *   **Method Hint (non-runtime):** Datei in `/Siebenwind_Wiki/[Kategorie]/` erstellen/aktualisieren.
     *   **Filename:** `[Kategorie]_[Name].md` (e.g., `Rasse_Orken.md`).

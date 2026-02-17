@@ -11,7 +11,7 @@ description: Narrative Enrichment Workflow (Roman-Qualität)
 - method_only:
   - `/narrative_enrichment`
 
-**Ziel:** Aufwertung von Stubs und faktischen Artikeln zu lebendigen, atmosphärischen Beschreibungen ("Roman-Qualität").
+**Ziel:** Aufwertung duenn ausgearbeiteter und faktischer Artikel zu lebendigen, atmosphärischen Beschreibungen ("Roman-Qualität").
 **Zielgruppe:** Charaktere mit mehrfacher Erwähnung oder besonderer Relevanz (keine One-Hit-Wonder).
 
 ## 1. Identifikation

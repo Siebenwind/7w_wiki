@@ -1,0 +1,73 @@
+{
+  "suite": "bridge-placeholder-guard",
+  "description": "Prevents policy regressions that normalize bridge-placeholder pages as a default repair strategy.",
+  "cases": [
+    {
+      "id": "no-doc-stub-defaults",
+      "name": "Governance and workflow docs do not instruct generic stub/bridge placeholder creation",
+      "pattern_check_globs": [
+        "AGENTS.md",
+        ".agent/workflows/*.md",
+        ".agent/skills/**/*.md",
+        ".agent/instructions/*.md",
+        ".agents/skills/**/*.md",
+        "System/**/*.md"
+      ],
+      "forbid_regex": [
+        "standardisierte Stub-Datei",
+        "Mindestinhalt fuer einen Stub",
+        "Mindestinhalt für einen Stub",
+        "Brueckenartikel zur Stabilisierung bestehender WikiLinks",
+        "Brückenartikel zur Stabilisierung bestehender WikiLinks"
+      ],
+      "exclude_globs": [
+        "System/Synapse_Board/RESEARCH-*.md"
+      ]
+    },
+    {
+      "id": "guardrails-explicitly-documented",
+      "name": "Core docs explicitly define anti-bridge policy and exception metadata",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/workflows/repair.md",
+          "must_include_regex": [
+            "Keine Brueckenartikel als Standard-Fix|Keine Brückenartikel als Standard-Fix",
+            "bridge_mode: temporary",
+            "bridge_review_until: YYYY-MM-DD"
+          ]
+        },
+        {
+          "file": ".agent/skills/wiki_schmied/SKILL.md",
+          "must_include_regex": [
+            "Anti-Bridge Leitplanken",
+            "Keine Placebo-Seiten",
+            "bridge_ticket: MSG-YYYY-NNNN"
+          ]
+        },
+        {
+          "file": "System/Synapse_Board/SY_INTEROP.md",
+          "must_include_regex": [
+            "Norm 1b: Bridge-Page-Policy",
+            "bridge_mode: temporary",
+            "Bridge-Markern ohne diese Felder"
+          ]
+        },
+        {
+          "file": "AGENTS.md",
+          "must_include_regex": [
+            "No Bridge-Placeholders by Default",
+            "bridge_mode",
+            "bridge_review_until"
+          ]
+        },
+        {
+          "file": "System/AGENT_OPERATIONS_HANDBOOK.md",
+          "must_include_regex": [
+            "Bridge-Placeholder-Hygiene",
+            "bridge-placeholder-guard"
+          ]
+        }
+      ]
+    }
+  ]
+}

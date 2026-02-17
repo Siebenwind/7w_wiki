@@ -8,6 +8,7 @@ Dieser Workflow dient der gezielten Abarbeitung von Problemen, die durch den `/a
 - runtime_commands:
   - `7w_wiki.py audit`
   - `7w_wiki.py repair`
+  - `7w_wiki.py search <query> --source wiki|quellen|all`
 - method_only:
   - `/repair`
 
@@ -31,14 +32,24 @@ Dieser Workflow dient der gezielten Abarbeitung von Problemen, die durch den `/a
   - Führe die Informationen (Rollen, Quellen, Zeiträume) in einem Eintrag zusammen.
   - Lösche den redundanten Eintrag.
 
-## 4. Remediation: Fehlende Profile (Stubs)
+## 4. Remediation: Fehlende Profile (kanonisch, kein Stub-Shortcut)
 Für Personen, die im Register stehen, aber keine Datei in `07_Persoenlichkeiten/` haben:
-1. Nutze den **[Wiki-Schmied]** Skill, um eine standardisierte Stub-Datei zu erstellen.
-2. Mindestinhalt für einen Stub:
-   - Frontmatter (layout, title, category, quelle, status).
-   - Titelzeile (`# Name`).
-   - Sektion `## Beschreibung` (Einzeiler basierend auf Register-Rolle).
-   - Sektion `## Referenzen` mit Link zur `quelle`.
+1. **Alias- und Zielprüfung zuerst (Pflicht):**
+   - Suche nach existierenden Zielseiten via `./7w_wiki.py search "<Name>" --source wiki`.
+   - Falls ein kanonisches Ziel bereits existiert (abweichender Dateiname/Casing/Alias), repariere den Register-Link auf das bestehende Ziel statt neue Datei anzulegen.
+2. **Nur bei belastbarer Quelle neue Seite erstellen:**
+   - Nutze den **[Wiki-Schmied]** Skill für einen vollwertigen Artikel mit `quelle:` als relativem Pfad und Pflichtsektionen.
+   - Keine Minimalseiten mit Einzeiler als Endzustand.
+3. **Keine Brückenartikel als Standard-Fix:**
+   - Formulierungen wie „Brueckenartikel zur Stabilisierung bestehender WikiLinks“ gelten als Defect, nicht als Abschluss.
+   - Wenn Evidenz fehlt: Fall als offene Frage per `./7w_wiki.py mail post` an Spezialisten dispatchen.
+4. **Temporäre Ausnahme nur mit Ablaufmetadaten:**
+   - Nur wenn ein Linkbruch akut geblockt werden muss, darf temporär markiert werden mit:
+     - `bridge_mode: temporary`
+     - `bridge_target: [[Kanonisches_Ziel_oder_TODO]]`
+     - `bridge_ticket: MSG-YYYY-NNNN` (oder Task-ID)
+     - `bridge_review_until: YYYY-MM-DD`
+   - Ohne diese Felder ist die Seite audit-pflichtig als Hygiene-Fehler.
 
 ## 5. Remediation: Verwaiste Profile (Orphans)
 Für Dateien, die existieren, aber nicht im Register stehen:
@@ -49,6 +60,7 @@ Für Dateien, die existieren, aber nicht im Register stehen:
 ## 6. Abschlussprüfung
 - Führe `./7w_wiki.py audit` erneut aus.
 - Das Ergebnis sollte **"✅ Keine Duplikate"** und **"✅ Alle Profile registriert"** zeigen.
+- Prüfe zusätzlich, dass keine neuen Bridge-/Placeholder-Seiten ohne Ausnahme-Metadaten entstanden sind.
 - Dokumentiere die durchgeführten Korrekturen im [Konsistenzbericht 2026](../../Logs/Konsistenzbericht_2026.md).
 
 #repair #maintenance #qualität

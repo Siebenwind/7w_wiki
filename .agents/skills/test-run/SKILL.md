@@ -16,6 +16,7 @@ Use this skill to execute repeatable clean-state/interoperability test runs.
 ./7w_wiki.py test --suite takeover-handover
 ./7w_wiki.py test --suite interop-doc-links
 ./7w_wiki.py test --suite source-link-hygiene
+./7w_wiki.py test --suite bridge-placeholder-guard
 ./7w_wiki.py test --suite all
 ```
 
