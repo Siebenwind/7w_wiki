@@ -25,6 +25,7 @@ venv/
 Logs/Archive/*
 !Logs/Archive/SESSION_MEMORY_*.md
 !Logs/Archive/AUDIT_CONSOLIDATION_INDEX_*.md
+!Logs/Archive/AGENT_CHANGE_PACKET_*.md
 site/
 missing_links.txt
 register_links.txt

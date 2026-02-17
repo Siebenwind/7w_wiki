@@ -27,6 +27,9 @@ epistemic: "#meta"
   - `AGENTS.md` (Onboard/Execute/Log erweitert)
   - `.agent/workflows/tech.md` (Session-Memory + Heartbeat als Pflicht)
   - `.agent/tests/suites/process-dispatch-curiosity.json` (Guard erweitert)
+- Agenten-Uebergabe-Paket erstellt:
+  - `Logs/Archive/AGENT_CHANGE_PACKET_2026-02-17_SESSION_DISCIPLINE.md`
+  - Fokus: Regeln + geaenderte Dateien + Testbelege + Commit-Referenz fuer Folgeagenten
 - Neues Tracking-System:
   - `./7w_wiki.py stats` erzeugt/aktualisiert:
     - `Logs/INGESTION_TRACKING_REGISTER.md`

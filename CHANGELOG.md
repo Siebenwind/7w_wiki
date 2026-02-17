@@ -1,5 +1,22 @@
 # Changelog
 
+#### [2026-02-17.10] - Agenten-Dokumentationspaket fuer Folge-Sessions
+
+### Prioritaet
+- P1
+
+### Hinzugefuegt
+- `Logs/Archive/AGENT_CHANGE_PACKET_2026-02-17_SESSION_DISCIPLINE.md` als kompakte Uebergabe fuer Folgeagenten (Regeln, geaenderte Dateien, Validierung, Commit-Referenz).
+
+### Geaendert
+- `.gitignore` erweitert, damit `AGENT_CHANGE_PACKET_*.md` in `Logs/Archive` versioniert wird.
+
+### Validiert
+- `./7w_wiki.py test --suite process-dispatch-curiosity`  
+  Report: `Logs/Archive/TEST_process-dispatch-curiosity_2026-02-17_225349.md`
+- `./7w_wiki.py test --suite interop-doc-links`  
+  Report: `Logs/Archive/TEST_interop-doc-links_2026-02-17_225349.md`
+
 #### [2026-02-17.09] - Session-Disziplin dauerhaft verankert (Agentenverhalten)
 
 ### Prioritaet
