@@ -43,6 +43,45 @@ def derive_category(path: Path) -> str:
     }
     return mapping.get(parent_name, "Allgemein")
 
+LORE_REDIRECTS = {
+    "chronik": "Die_Chronik",
+    "malthust": "Region_Malthust",
+    "suedfall": "Südfall",
+    "oedland": "Ödland",
+    "01_bellum": "Bellum",
+    "02_astrael": "Astrael",
+    "03_bellum": "Bellum",
+    "04_vitama": "Vitama",
+    "05_morsan": "Morsan",
+    "06_ignis": "Ignis",
+    "07_rien": "Rien",
+    "08_ventus": "Ventus",
+    "09_xan": "Xan",
+    "rasse_orken": "Orken",
+    "rasse_halblinge": "Halblinge",
+    "magie": "Magie_Grundlagen",
+    "siebenwind_bote": "Die_Chronik",
+    "ersonter_garde": "Graue_Garde",
+    "kesselklamm": "Bragarim", # Often used as city but is the race homeland
+    "dur": "Toran_Dur",
+    "westhever": "Dunkeltief", # Westhever -> Dunkeltief area
+    "lehens_banner": "Lehensbanner",
+}
+
+def get_wiki_map(files: list[Path]):
+    """Maps stem and title (lowercase) to canonical target."""
+    wiki_map = {}
+    for f in files:
+        wiki_map[f.stem.lower()] = f.stem
+        try:
+            content = f.read_text(encoding="utf-8")[:1000]
+            match = re.search(r'^title:\s*(.*)', content, re.MULTILINE)
+            if match:
+                title = match.group(1).strip().strip('"').strip("'")
+                wiki_map[title.lower()] = title
+        except: pass
+    return wiki_map
+
 def fix_frontmatter(files: list[Path], auto: bool = False):
     """Sucht und repariert fehlendes Frontmatter."""
     print(f"\n{BLUE}--- Frontmatter Fixer ---{RESET}")
@@ -130,6 +169,72 @@ def check_links(files: list[Path]):
         if len(broken_links) > 20:
             print(f"  ... und {len(broken_links) - 20} weitere.")
 
+def repair_links(files: list[Path], auto: bool = False):
+    """Repariert casing, redirects und malformed links."""
+    print(f"\n{BLUE}--- Link Repair Engine ---{RESET}")
+    wiki_map = get_wiki_map(files)
+    count = 0
+    
+    # Precompile regex for performance
+    # 1. Triple/Quad brackets: [[[Link]]] -> [[Link]]
+    re_brackets = re.compile(r'\[{3,}(.*?)\]{3,}')
+    # 2. Quotes: [["Link"]] -> [[Link]]
+    re_quotes_dbl = re.compile(r'\[\["(.*?)"\]\]')
+    re_quotes_sgl = re.compile(r"\[\['(.*?)'\]\]")
+    # 3. Path prefixes & Casing & Redirects
+    re_general = re.compile(r'\[\[(?:Quellen/|Siebenwind_Wiki/|docs/)?([^\]|#]+)(#[^\]|]+)?(\|[^\]]+)?\]\]')
+
+    def fix_path_canonical(match):
+        target, anchor, display = match.groups()
+        # If target contains a path separator, take the last part
+        if target and "/" in target:
+            target = target.split("/")[-1]
+        
+        anchor_str = anchor if anchor else ""
+        display_str = display if display else ""
+        
+        low_target = target.lower()
+        
+        # Check Redirects
+        if low_target in LORE_REDIRECTS:
+            target = LORE_REDIRECTS[low_target]
+        # Check Casing
+        elif low_target in wiki_map:
+            target = wiki_map[low_target]
+            
+        return f"[[{target}{anchor_str}{display_str}]]"
+
+    for fpath in files:
+        try:
+            content = fpath.read_text(encoding="utf-8")
+            orig_content = content
+            
+            # Apply fixes in sequence
+            content = re_brackets.sub(r'[[\1]]', content)
+            content = re_quotes_dbl.sub(r'[[\1]]', content)
+            content = re_quotes_sgl.sub(r'[[\1]]', content)
+            content = re_general.sub(fix_path_canonical, content)
+            
+            if content != orig_content:
+                if not auto:
+                    print(f"\n{YELLOW}Änderungen an {fpath.name}:{RESET}")
+                    # Simple diff heuristic (first change)
+                    # For brevity, just ask
+                    choice = input(f"  Reparieren? [y/n/q]: ").lower()
+                    if choice == 'q': return
+                    if choice != 'y': continue
+                
+                fpath.write_text(content, encoding="utf-8")
+                print(f"  {GREEN}Repariert: {fpath.name}{RESET}")
+                count += 1
+        except Exception as e:
+            print(f"{RED}Fehler bei {fpath.name}: {e}{RESET}")
+
+    if count == 0:
+        print(f"{GREEN}Keine Reparaturen notwendig.{RESET}")
+    else:
+        print(f"\n{count} Dateien erfolgreich repariert.")
+
 def main():
     parser = argparse.ArgumentParser(description="Siebenwind Repair Tool")
     parser.add_argument("--path", default=str(WIKI_DIR), help="Zielverzeichnis scanning")
@@ -149,6 +254,7 @@ def main():
         print("\nOptionen:")
         print("  1) Frontmatter prüfen & reparieren")
         print("  2) Tote Links suchen (Report)")
+        print("  3) Link-Engine (Casing, Redirects, Fixes)")
         print("  q) Beenden")
         
         choice = input("\nWahl: ").lower()
@@ -157,6 +263,8 @@ def main():
             fix_frontmatter(files, auto=args.auto)
         elif choice == '2':
             check_links(files)
+        elif choice == '3':
+            repair_links(files, auto=args.auto)
         elif choice == 'q':
             break
         else:

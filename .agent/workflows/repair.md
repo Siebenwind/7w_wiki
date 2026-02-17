@@ -23,6 +23,7 @@ Dieser Workflow dient der gezielten Abarbeitung von Problemen, die durch den `/a
    ```
    - Wähle Option `1`, um fehlendes Frontmatter zu ergänzen.
    - Wähle Option `2`, um tote Links zu identifizieren und manuell im Editor zu fixen.
+   - Wähle Option `3`, um Casing, Redirects und malformed Links automatisch zu reparieren.
 
 ## 3. Register-Konsolidierung (Deduplizierung)
 - Bei **Duplikaten** im Personenregister:
