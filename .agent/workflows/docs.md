@@ -19,7 +19,7 @@ Dieser Workflow sichert Dokumentationsqualitaet, Interop-Konsistenz und GitHub-P
   - `/docs`
 
 ### 1. Dokumentations-Check
-Pruefe zentrale Dokumente auf Vollstaendigkeit, Konsistenz und aktuelle Pfade:
+1. Pruefe `docs/` auf absolute Pfade (alles muss relativ sein!).
 - [README.md](../../README.md)
 - [docs/index.md](../../docs/index.md)
 - [docs/Siebenwind_Wiki/index.md](../../docs/Siebenwind_Wiki/index.md)

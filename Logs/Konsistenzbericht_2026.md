@@ -1,9 +1,18 @@
 # Konsistenzbericht 2026
 
-Dieses Dokument dient zum Loggen von Lore-Inkonsistenzen, [UNGEKLÄRT]-Fällen und epistemischen Zweifeln während der Ingestion-Phasen des Jahres 2026.
+**Status:** Aktiv
+**Letzte Prüfung:** 2026-02-17
+**Verantwortlich:** Inquisition & Archiv
 
-## 🔴 Offene Inkonsistenzen
-*Keine aktuellen Einträge.*
+## 🛡️ Offene Konsistenz-Probleme
+*Hier werden Inkonsistenzen zwischen Artikeln, unklare Zeitlinien oder widersprüchliche Lore-Aussagen protokolliert.*
 
----
-*Status: Konsistent (v2.7)*
+| ID | Eintrag | Art | Beschreibung | Status |
+|---|---|---|---|---|
+| | | | | |
+
+## ✅ Gelöste Probleme
+*Archiv der behobenen Inkonsistenzen.*
+
+| ID | Eintrag | Lösung | Datum |
+|---|---|---|---|
