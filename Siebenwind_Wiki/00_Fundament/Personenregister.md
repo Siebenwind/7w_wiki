@@ -42,7 +42,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Adalbert_der_Heiler]] | Heiler | [Kanon] | amtierend | #canon |
 | [[Adhemar_Ravenforth]] | Kanzler | [Kanon] | amtierend | #canon |
 | [[Agatha_Sumpfendotter]] | Autorin | [Bote 163] | 18 n.H. | #bote |
-| [[Althea_Danea]] | Magistra / Weißmagierin | [Kompendium d. Weißmagie] | Historisch | #überlieferung |
+| [[07_Persoenlichkeiten/Althea_Danea|Althea Danea]] | Magistra / Weißmagierin | [Kompendium d. Weißmagie] | Historisch | #überlieferung |
 | [[Albert_Metzler]] | Erfinder / Mechanikus / Ortsrat | [Bote 151/152] | 18 n.H. | #bote |
 | [[Altumion_Eisenbruch]] | Inselrichter ([[03_Gesellschaft#Dwarschim|Dwarschim]]) | [Bote 123] | amtierend | #canon |
 | [[Arman]] | Ordensmitglied / "Hexer" | [Bote 123] | ~15 n.H. | #bote |

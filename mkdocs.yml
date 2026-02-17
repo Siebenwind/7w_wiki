@@ -89,6 +89,7 @@ plugins:
   - search
   - ezlinks:
       wikilinks: true
+  - caseinsensitivefiles
 
 markdown_extensions:
   - admonition

@@ -5,15 +5,14 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-17 19:55 (Antigravity -> User)
-- **Status**: Phase 1.20 complete; Link Rot Eliminated; Ingestion 2.0 Active.
+- **Last Handover**: 2026-02-17 21:55 (Antigravity -> User)
+- **Status**: Phase 1.23 complete; Visual Identity refreshed; Link flattening diagnosed.
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [ ] **Technician Deployment**: Fixing Broken Links & GitHub Actions (via `/tech` + Browser).
+- [ ] **Technical Link Repair**: Prefixing 1100+ links with category folders to overcome `ezlinks` flattening.
 - [ ] **Ingestion 2.0**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - [BLOCKED: 118 Source Missing].
-- [ ] **Index Consolidation**: Manuelle Bereinigung der 20+ `index.md` Duplikate.
 
 ## 🟡 Priorität 2: Operative Ingestion & Research
 - [ ] **Kanon-Abgleich**: Wiederaufnahme der Prüfung zur Götterverschmelzung (RESEARCH-2026-010/011) - [DEFERRED].
@@ -50,6 +49,16 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ### v2.7 Upgrade-Phasen
 
 <details open>
+<summary><b>Phase 1.23: Visual Identity & Link Resolution Audit (Feb 2026)</b></summary>
+
+- **Visuals**: "Codex Atlanticus" (Rötel) style implemented for Banners, Logo, and Social Preview.
+- **UI**: Banner integrated via CSS into the hero section for a seamless experience.
+- **Link Audit**: Diagnosed persistent 404s as a combination of `ezlinks` URL flattening and case-sensitivity issues on GitHub Pages.
+- **Environment**: Installed `mkdocs-caseinsensitive-plugin` to mitigate casing issues.
+- **Protocol**: Handover to the next Technician Agent for batch link prefixing.
+</details>
+
+<details>
 <summary><b>Phase 1.22: Technician Agent Integration (Feb 2026)</b></summary>
 
 - **Agent Matrix**: New Persona "Netz-Ingenieur" (Technician) added.

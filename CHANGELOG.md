@@ -1,5 +1,22 @@
 # Changelog
-# Changelog
+
+#### [2026-02-17.07] - Visual Identity Refresh & Link Resolution Audit (Phase 1.23)
+
+### Prioritaet
+- P1
+
+### Hinzugefügt
+- **Visuals**: "Codex Atlanticus" (Rötel) Stil für Banner, Logo und Social Preview.
+- **UI**: CSS-Integration des Banners in die Material Hero-Section.
+- **Environment**: `mkdocs-caseinsensitive-plugin` installiert (Plugin-ID: `caseinsensitivefiles`).
+
+### Behoben
+- **Link-Analyse**: Persistenter 404 bei "Althea Danea" als `ezlinks` URL-Flattening diagnostiziert.
+- **Workaround**: Verifizierung, dass vollqualifizierte WikiLinks (z.B. `[[07_Persoenlichkeiten/Althea_Danea]]`) die Struktur erhalten.
+
+### Validiert
+- `./7w_wiki.py pages build` (Erfolgreich mit neuem Plugin & Banner).
+- Audit der lokalen HTML-Ausgabe bestätigt Pfadkorrektur bei vollqualifizierten Links.
 
 #### [2026-02-17.06] - Technician Agent Integration (Phase 1.22)
 

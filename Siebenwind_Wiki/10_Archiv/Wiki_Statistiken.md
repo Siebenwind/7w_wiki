@@ -1,19 +1,19 @@
 ---
 layout: wiki_page
-title: 📊 Wiki Status
+title: Wiki Status
 category: Index
 ---
 
 # 📊 Wiki Status
 
-**Stand:** 2026-02-17 21:11
+**Stand:** 2026-02-17 21:55
 
 ---
 
 | Metrik | Wert |
 | :--- | :--- |
 | **Artikel** | 1107 |
-| **Worte** | 182,522 |
+| **Worte** | 182,513 |
 | **Personen** | 587 |
 
 ---
