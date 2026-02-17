@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Die Silbernen Tafeln (Tai Sah'Halour - Glurias)
 
 ## Metadaten
-- **Quelle**: [Die Silbernen Tafeln.md](../../Quellen/Bibliothek%20Astrael/Die%20Silbernen%20Tafeln.md)
+- **Quelle**: Die Silbernen Tafeln.md (`../../Quellen/Bibliothek%20Astrael/Die%20Silbernen%20Tafeln.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung (Prophezeiung/Historische Lyrik)
 - **Lore-Score (LQS)**: 9/10

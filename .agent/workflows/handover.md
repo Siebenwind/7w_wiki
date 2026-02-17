@@ -77,7 +77,7 @@ Vor dem Beenden deiner Session musst du:
     - Beispiel: `git commit -m "Handover Phase 16: Batch 25 & Audit (0D1DD705) (2026-02-14)"`
 
 ### 7. Lessons Learnt für dich
-- **Hüte dich vor "file://"**: Nutze nur relative Wiki-Links (`[[...]]` oder `[...](../...)`).
+- **Hüte dich vor "file://"**: Nutze nur relative Wiki-Links (z. B. `[[...]]` oder einen relativen Pfad wie `../pfad.md`).
 - **Lore-Police**: Wenn eine Spielergeschichte `#perspektive` dem `#canon` widerspricht, ändere nicht den Kanon, sondern tagge den widersprüchlichen Teil korrekt.
 - **Pending-Status**: Achte darauf, in `Logs/INVENTUR_QUELLEN.md` verarbeitete Quellen von `Pending` auf `Integrated` zu setzen.
 

@@ -14,6 +14,7 @@ Run the canonical onboarding sequence:
 ```bash
 ./7w_wiki.py start
 ./7w_wiki.py advisor
+./7w_wiki.py mail inbox --status OPEN
 ./7w_wiki.py test --suite clean-client-state
 ./7w_wiki.py audit
 ```
@@ -21,3 +22,4 @@ Run the canonical onboarding sequence:
 ## Notes
 - Runtime execution remains exclusive to `./7w_wiki.py`.
 - Follow-up paths are selected from `.agent/workflows/start.md`.
+- Open dispatch messages should be claimed/done according to `SY_DISPATCH` before ad-hoc work starts.

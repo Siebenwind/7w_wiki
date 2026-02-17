@@ -9,6 +9,8 @@ description: Universelles Ingestion-Protokoll für alle Quellentypen (Boten, Spi
   - `7w_wiki.py archive sync`
   - `7w_wiki.py sanitize --auto`
   - `7w_wiki.py score <file>`
+  - `7w_wiki.py mail inbox --status OPEN`
+  - `7w_wiki.py mail post --from <agent> --to <agent|ALL> --subject "<text>" --body "<text>"`
 - method_only:
   - `/ingestion_protocol`
 
@@ -66,8 +68,13 @@ Stelle bei jeder Quelle sicher, dass folgende Dimensionen geprüft werden:
 ## 4. Output & Synchronisation
 
 1.  **Ingestion Report**: Basierend auf `System/Templates/INGESTION_REPORT_TEMPLATE.md`. Speichern unter `Logs/Ingestion/`.
+    - Pflichtfelder fuer Tracking: `Auswertungs-ID`, `Ausgewertet von`, `Auswertungszeitpunkt`, `Workflow/Skill`, `Dispatch-Referenz`.
+    - Qualitaetsprofil als `A/T/K/B/U` erfassen und LQS aus Rohscore ableiten.
 2.  **Wiki-Produktion**: Standard-Format gemäß [Wiki Style Guide](../../.agent/workflows/wiki_style_guide.md).
 3.  **Archiv-Sync**: Stets `./7w_wiki.py archive sync` ausführen.
 4.  **Register-Update**: `Personenregister.md`, `Organisationsregister.md`, `Bestiarium_Register.md`.
+5.  **Dispatch-Status**: Laufstatus und offene Fragen per `mail post` auf dem Synapse-Board sichtbar halten.
+6.  **Spezialisten-Fragepflicht**: Bei ungewöhnlichen Widersprüchen zuerst als Frage an den zuständigen Spezialisten dispatchen, erst danach ggf. an den Nutzer eskalieren.
+7.  **Tracking-Register aktualisieren**: `./7w_wiki.py stats` ausfuehren (aktualisiert zentrales Ingestion-Tracking).
 
 #ingestion #protokoll #qualität

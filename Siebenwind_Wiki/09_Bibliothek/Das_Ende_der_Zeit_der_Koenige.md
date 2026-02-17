@@ -28,5 +28,5 @@ Die Erzählung setzt im Kloster des **[[Ordo_Astraeli]]** zu **Gofilm** ein. Hie
 Dieses Werk offenbart die Existenz einer tief verwurzelten Verschwörung innerhalb der [[Astrael]]-Kirche. Es verbindet die Ereignisse auf dem Festland direkt mit der Mission von **[[Calmexistus_Salanus]]** auf [[Siebenwind]] und gibt Einblick in die grauenhaften Ausbildungsmethoden der Bruderschaft Gofilm.
 
 ## Referenzen
-- Primärquelle: [Das Ende der Zeit der Könige](../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Könige%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)
+- Primärquelle: Das Ende der Zeit der Könige (`../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Könige%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md`)
 - Siehe auch: [[Personenregister]], [[Organisationsregister]], [[Astrael]]

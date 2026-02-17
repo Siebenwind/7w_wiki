@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Die Stadtchronik Rohehafens (Etril Gamajeff)
 
 ## Metadaten
-- **Quelle**: [Die Stadtchronik Rohehafens.md](../../Quellen/Bibliothek%20Astrael/Die%20Stadtchronik%20Rohehafens.md)
+- **Quelle**: Die Stadtchronik Rohehafens.md (`../../Quellen/Bibliothek%20Astrael/Die%20Stadtchronik%20Rohehafens.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung (Historische Chronik)
 - **Lore-Score (LQS)**: 8/10

@@ -11,6 +11,10 @@ description: Technischer Workflow für System-Architektur, CI/CD und GitHub Page
   - `7w_wiki.py test --suite clean-client-state`
   - `7w_wiki.py audit`
   - `7w_wiki.py sanitize --auto`
+  - `7w_wiki.py mail inbox --status OPEN`
+  - `7w_wiki.py mail claim <id> --agent Technician`
+  - `7w_wiki.py mail done <id> --agent Technician --note "<abschluss>"`
+  - `7w_wiki.py mail post --from Technician --to <agent|ALL> --subject "<text>" --body "<text>"`
 - method_only:
   - `/tech`
 
@@ -25,7 +29,8 @@ Du bist der **Netz-Ingenieur**. Deine Welt ist der *Code*, nicht die *Lore*.
 // turbo
 1. Führe `./7w_wiki.py mail inbox --status OPEN` aus.
 2. Filtere nach Nachrichten mit Tag `[TECH]` oder an `Technician`.
-3. Wenn keine Post: Prüfe `CHANGELOG.md` auf technische Schulden oder Upgrade-Notizen.
+3. Übernommene Aufträge sofort via `mail claim` markieren.
+4. Wenn keine Post: Prüfe `CHANGELOG.md` auf technische Schulden oder Upgrade-Notizen.
 
 ### B. Diagnose & Entwicklung
 Wenn du ein Problem (z.B. GitHub Pages Build Fail) untersuchst:
@@ -54,4 +59,5 @@ Führe bei Leerlauf diese Wartungsschritte durch:
 
 ## 3. Abschluss
 - Wenn Code geändert wurde: `git commit` mit technischem Präfix (`fix:`, `feat:`, `chore:`).
-- Melde Erfolg/Misserfolg via Dispatch an den Auftraggeber.
+- Melde Erfolg/Misserfolg via Dispatch an den Auftraggeber und schließe geclaimte Nachrichten via `mail done`.
+- Bei fachfremden Widersprüchen (Lore statt Technik): Formuliere eine konkrete Fachfrage und dispatch sie an Historian/Guardian.

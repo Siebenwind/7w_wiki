@@ -31,5 +31,5 @@ Die Erzählung ist geprägt von Haldurs Auseinandersetzung mit seiner Vergangenh
 Das Dokument ist eine primäre Quelle für die Charakterisierung von [[Haldur_Toda]]. Es zeigt die Verbindung zwischen dem Festland und [[Siebenwind]] durch Korrespondenz und Handel (Haldurs Bücher werden auf dem Festland durch seinen Freund **T.** verkauft). Zudem wird die Göttin **[[Rien|Riens]]** als Referenzpunkt für Haldurs innere Monologe erwähnt.
 
 ## Referenzen
-- Primärquelle: [Aus dem Liebesleben eines Dichters](../../Quellen/Spielergeschichten/Aus%20dem%20Liebesleben%20eines%20Dichters%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)
+- Primärquelle: Aus dem Liebesleben eines Dichters (`../../Quellen/Spielergeschichten/Aus%20dem%20Liebesleben%20eines%20Dichters%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md`)
 - Siehe auch: [[Haldur_Toda]], [[Personenregister]], [[Rien]]

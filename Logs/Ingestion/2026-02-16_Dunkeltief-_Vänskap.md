@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Dunkeltief - Vänskap (Anonymus)
 
 ## Metadaten
-- **Quelle**: [Dunkeltief- Vänskap.md](../../Quellen/Spielergeschichten/Dunkeltief-%20Va%CC%88nskap.md)
+- **Quelle**: Dunkeltief- Vänskap.md (`../../Quellen/Spielergeschichten/Dunkeltief-%20Va%CC%88nskap.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #perspektive (Schlachtbericht / Geschichte)
 - **Lore-Score (LQS)**: 8/10

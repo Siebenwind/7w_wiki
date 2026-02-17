@@ -43,4 +43,4 @@ Die Kugel wird weiß und undurchdringlich. Die Bestie ist gefangen.
 *   *Nykir’Marzy:* Kugel des Exils.
 
 ## Referenzen
-- Primärquelle: [Anonymous - Ritual zur Bannung des [[Grix]]](../../Quellen/[[index]]%20Toran%20Dur/Anonymous%20-%20Ritual%20zur%20Bannung%20des%20Grix.md)
+- Primärquelle: Anonymous - Ritual zur Bannung des [[Grix]] (`../../Quellen/Bibliothek%20Toran%20Dur/Anonymous%20-%20Ritual%20zur%20Bannung%20des%20Grix.md`)

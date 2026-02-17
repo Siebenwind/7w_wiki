@@ -28,5 +28,5 @@ Die Erzählung begleitet [[Thorgat]] in seinem vierten Lebensjahrhundert. Gezeic
 Die Erzählung beschreibt detailliert zwergische Hochzeitsbräuche (das Seilspiel), die Härte des **Dunkeltiefs** und das Verhältnis zu anderen Rassen ([[Goblins]], Orks, [[Menschen]]).
 
 ## Referenzen
-- Primärquelle: [Erinnerungen eines alternden Zwergen](../../Quellen/Spielergeschichten/Erinnerungen%20eines%20alternden%20Zwergen%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)
+- Primärquelle: Erinnerungen eines alternden Zwergen (`../../Quellen/Spielergeschichten/Erinnerungen%20eines%20alternden%20Zwergen%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md`)
 - Siehe auch: [[Thorgat]], [[Dwarschim]], [[Bragarim]], [[Arkadon]]

@@ -28,5 +28,5 @@ Die Erzählung begleitet [[Dorion_Hali]] durch seinen Alltag in **[[Falkensee]]*
 Das Dokument bietet eine wertvolle "Inneneinsicht" in das Leben eines einfachen Ordensmitglieds und beleuchtet die kulturelle Atmosphäre von [[Falkensee]] jenseits der großen politischen Ereignisse.
 
 ## Referenzen
-- Primärquelle: [Nichts und ohne Pointe](../../Quellen/Spielergeschichten/Nichts%20und%20ohne%20Pointe%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)
+- Primärquelle: Nichts und ohne Pointe (`../../Quellen/Spielergeschichten/Nichts%20und%20ohne%20Pointe%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md`)
 - Siehe auch: [[Dorion_Hali]], [[Akora]], [[Löwenorden]], [[Falkensee]]

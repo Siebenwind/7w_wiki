@@ -42,5 +42,5 @@ Prophetische Worte einer Entität oder Person names "[[Niemand]]".
 *   **Über Ferrinmoschding:** "Loch gefüllt mit toten Körpern... Ihre Diener... vielleicht sind sie nicht das, was du glaubst."
 
 ## Referenzen
-- Primärquelle: [[[Toran_Dur]] - Sammlerfragmente I-IV](../../Quellen/[[index]]%20Toran%20Dur/Toran%20Dur%20-%20Sammlerfragmente%20I-IV.md)
-- Primärquelle: [[[Toran_Dur]] - Niemandsrede](../../Quellen/[[index]]%20Toran%20Dur/Toran%20Dur%20-%20Niemandsrede.md)
+- Primärquelle: [[Toran_Dur]] - Sammlerfragmente I-IV (`../../Quellen/Bibliothek%20Toran%20Dur/Toran%20Dur%20-%20Sammlerfragmente%20I-IV.md`)
+- Primärquelle: [[Toran_Dur]] - Niemandsrede (`../../Quellen/Bibliothek%20Toran%20Dur/Toran%20Dur%20-%20Niemandsrede.md`)

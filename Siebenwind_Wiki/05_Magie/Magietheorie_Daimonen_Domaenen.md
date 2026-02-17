@@ -70,4 +70,4 @@ Yerrodon, die zweite Sphäre, ist in verschiedene Domänen unterteilt. Jede Dom�
 *   **Preis:** Wollen meist die Seele oder andere "angemessene" Geschenke.
 
 ## Referenzen
-- Primärquelle: [Anonymous - Über die Verhaltensweisen von Daimonen](../../Quellen/[[index]]%20Toran%20Dur/Anonymous%20-%20öber%20die%20Verhaltensweisen%20von%20Daimonen.md)
+- Primärquelle: Anonymous - Über die Verhaltensweisen von Daimonen (`../../Quellen/Bibliothek%20Toran%20Dur/Anonymous%20-%20öber%20die%20Verhaltensweisen%20von%20Daimonen.md`)

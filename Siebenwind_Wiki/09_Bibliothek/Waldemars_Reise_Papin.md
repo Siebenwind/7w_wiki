@@ -33,5 +33,5 @@ Die Abwesenheit Delaries (ca. 2 Monde) löste in **[[Falkensee]]** eine dramatis
 Das Dokument ist eine Schlüsselquelle für das Verständnis des **Ersonter Bundes** und der politischen Zerwürfnisse innerhalb des Insel-Adels. Es beleuchtet zudem die Verbindung zwischen den Insel-Garnisonen und den Festlands-Lehen wie Wallenburg.
 
 ## Referenzen
-- Primärquelle: [Waldemar Delaries Reise nach Papin](../../Quellen/Spielergeschichten/Waldemar%20Delaries%20Reise%20nach%20Papin.md)
+- Primärquelle: Waldemar Delaries Reise nach Papin (`../../Quellen/Spielergeschichten/Waldemar%20Delaries%20Reise%20nach%20Papin.md`)
 - Siehe auch: [[Waldemar_Delarie]], [[Falkensee]], [[Der_Putsch_von_Falkensee]], [[Custodias]], [[Ersonter_Bund]]

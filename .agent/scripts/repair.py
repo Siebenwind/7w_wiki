@@ -5,7 +5,8 @@ repair.py — Interaktives Reparatur-Werkzeug für das Siebenwind Wiki.
 Funktionen:
 1. Frontmatter Fixer: Ergänzt fehlende YAML-Header.
 2. Smart Link Resolver: Findet tote Links und korrigiert sie durch Fuzzy-Matching & Canon-Mapping.
-3. Duplicate Detector: Findet doppelte Dateien (Kollisionen im Canon).
+3. Source Reference Repair: Normalisiert problematische Quellen-Links (file://, %25xx, [[index]]).
+4. Duplicate Detector: Findet doppelte Dateien (Kollisionen im Canon).
 
 Nutzung:
     python3 .agent/scripts/repair.py [--auto] [--check-collision NAME]
@@ -18,6 +19,7 @@ import argparse
 from pathlib import Path
 from collections import defaultdict
 import difflib
+from urllib.parse import unquote
 
 # ANSI Colors
 RED = "\033[91m"
@@ -28,6 +30,9 @@ RESET = "\033[0m"
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 WIKI_DIR = PROJECT_ROOT / "Siebenwind_Wiki"
+QUELLEN_DIR = PROJECT_ROOT / "Quellen"
+INGESTION_DIR = PROJECT_ROOT / "Logs" / "Ingestion"
+DOCS_COORDINATION_HUB = PROJECT_ROOT / "docs" / "COORDINATION_HUB.md"
 
 # Known Redirects / Hardcoded Fixes
 LORE_REDIRECTS = {
@@ -59,6 +64,64 @@ def derive_category(path: Path) -> str:
 def normalize_key(name: str) -> str:
     """Normalisiert einen Dateinamen für den Vergleich (lowercase, no space/underscore)."""
     return name.lower().replace("_", "").replace(" ", "").replace("-", "")
+
+
+def _clean_link_target(target: str) -> str:
+    cleaned = target.strip()
+    if cleaned.startswith("<") and cleaned.endswith(">"):
+        cleaned = cleaned[1:-1].strip()
+    cleaned = cleaned.split(" ", 1)[0]
+    cleaned = cleaned.split("#", 1)[0]
+    return cleaned
+
+
+def _source_repair_file_set(base_files: list[Path]) -> list[Path]:
+    files = set(base_files)
+    if INGESTION_DIR.exists():
+        files.update(INGESTION_DIR.rglob("*.md"))
+    if DOCS_COORDINATION_HUB.exists():
+        files.add(DOCS_COORDINATION_HUB)
+    return sorted(files)
+
+
+def _build_quellen_lookup() -> dict[str, list[Path]]:
+    lookup: dict[str, list[Path]] = defaultdict(list)
+    if not QUELLEN_DIR.exists():
+        return lookup
+    for fpath in QUELLEN_DIR.rglob("*.md"):
+        lookup[normalize_key(fpath.stem)].append(fpath)
+    return lookup
+
+
+def _best_quellen_match(raw_target: str, lookup: dict[str, list[Path]]) -> Path | None:
+    decoded = unquote(_clean_link_target(raw_target))
+    basename = Path(decoded).name
+    if not basename:
+        return None
+    if basename.lower().endswith(".html"):
+        basename = basename[:-5] + ".md"
+
+    key = normalize_key(Path(basename).stem)
+    candidates = lookup.get(key, [])
+    if not candidates:
+        return None
+    if len(candidates) == 1:
+        return candidates[0]
+
+    decoded_low = decoded.lower()
+    scored = []
+    for cand in candidates:
+        cand_low = str(cand.relative_to(PROJECT_ROOT)).lower()
+        score = 0
+        for token in ("bibliothek astrael", "bibliothek toran dur", "spielergeschichten", "zeitung 7w bote", "hintergrund", "forum", "news"):
+            if token in decoded_low and token in cand_low:
+                score += 3
+        for token in ("astrael", "toran", "bote", "spielergeschichten"):
+            if token in decoded_low and token in cand_low:
+                score += 1
+        scored.append((score, len(str(cand)), cand))
+    scored.sort(key=lambda x: (-x[0], x[1]))
+    return scored[0][2]
 
 def get_canon_map(target_dir: Path) -> dict:
     """
@@ -173,6 +236,95 @@ def repair_links(files: list[Path], canon_map: dict, auto: bool = False):
 
     print(f"\n{count} Dateien repariert.")
 
+
+def repair_source_references(files: list[Path], auto: bool = False):
+    """
+    Repariert fehleranfällige Quellen-Links:
+    - file:// URIs
+    - doppelt encodierte Targets (%25xx)
+    - [[index]] Platzhalter in Quellenpfaden
+    - markdown links auf Quellen -> robustes Pfadformat mit Backticks
+    """
+    print(f"\n{BLUE}--- Source Reference Repair ---{RESET}")
+    count = 0
+    link_re = re.compile(r'(?<!\!)\[(?P<label>[^\]]+)\]\((?P<target>[^)]+)\)')
+    malformed_re = re.compile(r"\.\./\.\./Quellen/\[index\]\(\.\./10_Archiv/index\.md")
+    quellen_lookup = _build_quellen_lookup()
+
+    def repl(match, source_file: Path):
+        label = match.group("label").strip()
+        target_raw = match.group("target").strip()
+        target = _clean_link_target(target_raw)
+        if not target:
+            return match.group(0)
+
+        is_source_like = (
+            "Quellen/" in target
+            or "Archiv/Ingestion_Reports/" in target
+            or target.startswith("file://")
+            or re.search(r"%25[0-9A-Fa-f]{2}", target) is not None
+            or "[[index]]" in target
+            or "%5B%5Bindex%5D%5D" in target
+        )
+        if not is_source_like:
+            return match.group(0)
+
+        needs_repair = (
+            target.startswith("file://")
+            or re.search(r"%25[0-9A-Fa-f]{2}", target) is not None
+            or "[[index]]" in target
+            or "%5B%5Bindex%5D%5D" in target
+            or target.endswith(".html")
+        )
+        if not needs_repair:
+            return match.group(0)
+
+        resolved = None
+        if "Quellen/" in target or target.startswith("file://"):
+            match_path = _best_quellen_match(target, quellen_lookup)
+            if match_path is not None:
+                resolved = os.path.relpath(match_path, start=source_file.parent).replace(os.sep, "/")
+
+        if resolved is None:
+            fallback = unquote(target)
+            fallback = fallback.replace("%5B%5Bindex%5D%5D%20", "")
+            fallback = fallback.replace("[[index]]%20", "")
+            fallback = fallback.replace("[[index]] ", "")
+            fallback = fallback.replace("%2520", "%20")
+            fallback = fallback.replace("%25C2%25B7", "%C2%B7")
+            if fallback.startswith("file://"):
+                fallback = fallback[len("file://"):]
+                try:
+                    fallback_path = Path(fallback)
+                    if fallback_path.exists():
+                        fallback = os.path.relpath(fallback_path, start=source_file.parent).replace(os.sep, "/")
+                except Exception:
+                    pass
+            resolved = fallback
+
+        return f"{label} (`{resolved}`)"
+
+    for fpath in files:
+        try:
+            content = fpath.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        new_content = content
+        # Handle a known malformed nested markdown pattern from legacy ingestions.
+        new_content = malformed_re.sub("../../Quellen/10_Archiv/index.md", new_content)
+        new_content = link_re.sub(lambda m: repl(m, fpath), new_content)
+
+        if new_content != content:
+            if not auto:
+                print(f"Änderung an {fpath.relative_to(PROJECT_ROOT)}")
+            if auto or input("  Änderungen speichern? [y/n]: ").lower() == 'y':
+                fpath.write_text(new_content, encoding="utf-8")
+                print(f"  {GREEN}Repariert.{RESET}")
+                count += 1
+
+    print(f"\n{count} Dateien mit Source-Referenzen repariert.")
+
 def fix_frontmatter(files: list[Path], auto: bool = False):
     """Sucht und repariert fehlendes Frontmatter."""
     print(f"\n{BLUE}--- Frontmatter Fixer ---{RESET}")
@@ -222,12 +374,14 @@ def main():
 
     # Normal Mode
     files = list(target_dir.rglob("*.md"))
+    source_files = _source_repair_file_set(files)
     
     if args.auto:
         print(f"{BLUE}=== AUTO REPAIR STARTED ==={RESET}")
         check_duplicates(canon_map)
         fix_frontmatter(files, auto=True)
         repair_links(files, canon_map, auto=True)
+        repair_source_references(source_files, auto=True)
         print(f"{GREEN}=== FERTIG ==={RESET}")
     else:
         check_duplicates(canon_map)
@@ -235,10 +389,12 @@ def main():
             print("\nOptionen:")
             print("  1) Frontmatter Fixer")
             print("  2) Smart Link Repair")
+            print("  3) Source Reference Repair")
             print("  q) Beenden")
             c = input("Wahl: ").lower()
             if c == '1': fix_frontmatter(files)
             elif c == '2': repair_links(files, canon_map)
+            elif c == '3': repair_source_references(source_files)
             elif c == 'q': break
 
 if __name__ == "__main__":

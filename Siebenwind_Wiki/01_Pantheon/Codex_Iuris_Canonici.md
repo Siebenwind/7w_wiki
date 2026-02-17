@@ -48,7 +48,7 @@ Der CIC enthält einen detaillierten Strafkatalog für Verfehlungen gegen den Gl
 * [[Vitama]]
 
 ## Referenzen
-- Primärquelle: [Codex Iuris Canonici](../../Quellen/[[index]]%20Astrael/Codex%20Iuris%20Canonici.md)
+- Primärquelle: Codex Iuris Canonici (`../../Quellen/Bibliothek%20Astrael/Codex%20Iuris%20Canonici.md`)
 - Siehe auch: [[Aequitas]] (Philosophische Ergänzung zum Kirchenrecht)
 
 <!-- Audit: 2026-02-13 | Status: Initial Ingestion | Score: 4 (Source: Library/Überlieferung) -->

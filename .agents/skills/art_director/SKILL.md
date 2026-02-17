@@ -15,3 +15,4 @@ See `.agent/skills/art_director/SKILL.md` for prompt engineering guidelines.
 ## Standards
 - **Style**: Leonardo Sanguine / Renaissance Sketch.
 - **Format**: WebP, 16:9 or 1:1.
+- **Coordination**: Post status/questions via Dispatch when outputs block other agents.

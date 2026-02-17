@@ -22,6 +22,8 @@ Siebenwind ist ein gewachsenes Mosaik aus zwei Jahrzehnten Rollenspiel, geschaff
 - Wenn du eine Nachricht uebernimmst: `./7w_wiki.py mail claim <MSG-ID> --agent Guardian`
 - Nach Umsetzung/Pruefung: `./7w_wiki.py mail done <MSG-ID> --agent Guardian --note "<Kurzabschluss>"`
 - Wenn ein Fund an Historiker/Ingestor/Koordinator gehen muss: `./7w_wiki.py mail post --from Guardian --to <Agent|ALL> ...`
+- Bei groesseren Audits regelmaessige Status-Heartbeats via `mail post`.
+- Bei seltsamen Befunden immer Frage-Format nutzen (Befund -> Risiko -> Frage) statt stiller Spekulation.
 
 ## Arbeitsweise
 - Nutze den `check_master` Workflow.

@@ -12,6 +12,10 @@ Dieses Department ist für die Transformation von rohem Wissen in strukturierte 
   - `7w_wiki.py search <query> --source wiki`
   - `7w_wiki.py search <query> --source quellen`
   - `7w_wiki.py search <query> --source all`
+  - `7w_wiki.py mail inbox --status OPEN`
+  - `7w_wiki.py mail post --from <agent> --to <agent|ALL> --subject "<text>" --body "<text>"`
+  - `7w_wiki.py mail claim <id> --agent <name>`
+  - `7w_wiki.py mail done <id> --agent <name> --note "<abschluss>"`
 - method_only:
   - `/ingest_master`
   - `/ingestion_protocol`
@@ -40,5 +44,9 @@ Nutze das [ingestion_protocol.md](../../.agent/workflows/ingestion_protocol.md) 
 - [ ] **Register-Updates**: Synchronisation mit `Personenregister.md` etc.
 - [ ] **Archiv-Sync**: `./7w_wiki.py archive sync` ausführen.
 - [ ] **Logging**: Eintrag in `Logs/INGESTION_LOG.md`.
+- [ ] **Dispatch-Heartbeat**: Start mit `mail inbox`, Zwischenstatus bei größeren Batches per `mail post`, Abschluss via `mail done`.
+- [ ] **Fragen statt Raten**: Bei inneren Widersprüchen eine gezielte Spezialistenfrage per Dispatch senden (Historian für Lore, Guardian für Konsistenz, Technician für Tooling).
+- [ ] **Tracking-Metadaten**: In jedem Ingestion-Report `Auswertungs-ID`, `Ausgewertet von`, `Auswertungszeitpunkt`, `Workflow/Skill`, `Dispatch-Referenz`, `Quality-Profil`.
+- [ ] **Tracking-Register aktualisieren**: `./7w_wiki.py stats` ausführen.
 
 #ingestion #produktion #master

@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Brevier des Ordo Astraeli (Anonymus)
 
 ## Metadaten
-- **Quelle**: [Brevier des Ordo Astraeli.md](../../Quellen/Bibliothek%20Astrael/Brevier%20des%20Ordo%20Astraeli.md)
+- **Quelle**: Brevier des Ordo Astraeli.md (`../../Quellen/Bibliothek%20Astrael/Brevier%20des%20Ordo%20Astraeli.md`)
 - **Datum der Verarbeitung**: 2026-02-15
 - **Quellentyp**: #überlieferung
 - **Lore-Score (LQS)**: 8/10

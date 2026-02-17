@@ -22,3 +22,4 @@ To start a historian session:
 2.  **Timeline**: Constructs a chronological sequence of events.
 3.  **Conflict Check**: Identifies contradictions between sources.
 4.  **Synthesis**: Proposes a canonical version (or tags as `[UNGEKLÄRT]`).
+5.  **Dispatch Discipline**: Report progress and specialist follow-ups via `./7w_wiki.py mail ...` (inbox/claim/done/post).

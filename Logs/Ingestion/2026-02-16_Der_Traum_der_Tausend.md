@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Der Traum der Tausend (Tai Sah'Halour - Glurias)
 
 ## Metadaten
-- **Quelle**: [Der Traum der Tausend.md](../../Quellen/Bibliothek%20Astrael/Der%20Traum%20der%20Tausend.md)
+- **Quelle**: Der Traum der Tausend.md (`../../Quellen/Bibliothek%20Astrael/Der%20Traum%20der%20Tausend.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung
 - **Lore-Score (LQS)**: 9/10

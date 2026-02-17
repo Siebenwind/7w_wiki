@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Lit Ita'Im'Elarum Odalim ir Galadon
 
 ## Metadaten
-- **Quelle**: [Lit Ita'Im'Elarum Odalim ir Galadon.md](../../Quellen/Bibliothek%20Astrael/Lit%20Ita'Im'Elarum%20Odalim%20ir%20Galadon.md)
+- **Quelle**: Lit Ita'Im'Elarum Odalim ir Galadon.md (`../../Quellen/Bibliothek%20Astrael/Lit%20Ita'Im'Elarum%20Odalim%20ir%20Galadon.md`)
 - **Datum der Verarbeitung**: 2026-02-15
 - **Quellentyp**: #überlieferung
 - **Lore-Score (LQS)**: 9/10

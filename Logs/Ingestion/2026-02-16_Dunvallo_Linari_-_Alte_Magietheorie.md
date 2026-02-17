@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Dunvallo Linari - Alte Magietheorie (Dunvallo Linari)
 
 ## Metadaten
-- **Quelle**: [Dunvallo Linari - Alte Magietheorie.md](../../Quellen/Bibliothek%20Toran%20Dur/Dunvallo%20Linari%20-%20Alte%20Magietheorie.md)
+- **Quelle**: Dunvallo Linari - Alte Magietheorie.md (`../../Quellen/Bibliothek%20Toran%20Dur/Dunvallo%20Linari%20-%20Alte%20Magietheorie.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung (Historisches Standardwerk der Magie)
 - **Lore-Score (LQS)**: 10/10

@@ -42,12 +42,13 @@ Dieser Skill generiert die finalen Artefakte im Ordner `/Siebenwind_Wiki`.
     *   **Referenzen-Format:**
         ```markdown
         ## Referenzen
-        - Primärquelle: [Siebenwind Bote 123](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20123.md)
-        - Siehe auch: [Siebenwind_Bote_122](../04_Chronik/Siebenwind_Bote_122.md)
+        - Primärquelle: Quellenpfad `../../Quellen/Zeitung 7w Bote/Siebenwind Bote 123.md`
+        - Siehe auch: [[Siebenwind_Bote_122]]
         ```
 4.  **Konflikt-Management (Synapsen-System):**
     *   **Proaktive Erkennung:** Falls während der Erstellung ein unlösbarer Widerspruch auftritt (z.B. zwei Quellen widersprechen sich fundamental im Kanon), erstelle ein Ticket manuell anhand `System/Synapse_Board/_TEMPLATE_TICKET.md`.
     *   **Ticket-Zuweisung:** Nutze das `/System/Synapse_Board/_TEMPLATE_TICKET.md` und speichere es als `Conflict_[ID].md`.
+    *   **Frage-Format (Pflicht):** Formuliere Widersprüche als konkrete Fachfrage an Spezialisten (Beobachtung -> Vermutung -> Frage) und sende sie via `./7w_wiki.py mail post`.
 5.  **Validierung:** Prüfe, ob die Datei erfolgreich erstellt wurde und alle Pflicht-Sektionen vorhanden sind.
 
 ## Ziel

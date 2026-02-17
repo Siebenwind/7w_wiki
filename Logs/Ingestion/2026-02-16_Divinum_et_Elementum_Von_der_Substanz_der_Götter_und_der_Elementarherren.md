@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Divinum et Elementum (Donarius Derrvus)
 
 ## Metadaten
-- **Quelle**: [Divinum et Elementum Von der Substanz der Götter und der Elementarherren.md](../../Quellen/Bibliothek%20Astrael/Divinum%20et%20Elementum%20Von%20der%20Substanz%20der%20Go%CC%88tter%20und%20der%20Elementarherren.md)
+- **Quelle**: Divinum et Elementum Von der Substanz der Götter und der Elementarherren.md (`../../Quellen/Bibliothek%20Astrael/Divinum%20et%20Elementum%20Von%20der%20Substanz%20der%20Go%CC%88tter%20und%20der%20Elementarherren.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung (Theologisches Traktat)
 - **Lore-Score (LQS)**: 9/10

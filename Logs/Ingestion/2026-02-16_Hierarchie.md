@@ -25,8 +25,8 @@ Re-ingestion of the "Hierarchie" canon document. Standardized the social and pol
 - **Bürgerbrief**: The document of citizenship ("Bürgerbrief") grants specific legal rights (courts, political voice).
 
 ## Changes Made
-- **[Das_Adelssystem.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/03_Gesellschaft/Das_Adelssystem.md)**: Expanded into a comprehensive "Ständewesen" article.
-- **[Organisationsregister.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md)**: Updated seats for major political bundles.
+- **Das_Adelssystem.md (`Siebenwind_Wiki/03_Gesellschaft/Das_Adelssystem.md`)**: Expanded into a comprehensive "Ständewesen" article.
+- **Organisationsregister.md (`Siebenwind_Wiki/00_Fundament/Organisationsregister.md`)**: Updated seats for major political bundles.
 
 ## Consistency Audit
 - **Status**: CLEAN.

@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Der naive Mensch (Jeremias, Geweihter des Astrael)
 
 ## Metadaten
-- **Quelle**: [Der naive Mensch.md](../../Quellen/Bibliothek%20Astrael/Der%20naive%20Mensch.md)
+- **Quelle**: Der naive Mensch.md (`../../Quellen/Bibliothek%20Astrael/Der%20naive%20Mensch.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung
 - **Lore-Score (LQS)**: 8/10

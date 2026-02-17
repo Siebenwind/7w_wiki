@@ -18,3 +18,4 @@ Use this skill when validating writing quality and style conformity.
 ## Notes
 - `check` catches language/style issues.
 - `audit` confirms structural consistency after text changes.
+- Route blockers and contradiction questions via Dispatch (`mail post`) to the relevant specialist.

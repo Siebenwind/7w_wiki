@@ -39,7 +39,7 @@ Das Dokument gibt tiefen Einblick in die Spannungen zwischen dem falandrischen K
 * [[Hilgorad_I]]
 
 ## Referenzen
-- Primärquelle: [Aequitas](../../Quellen/[[index]]%20Astrael/Aequitas.md)
+- Primärquelle: Aequitas (`../../Quellen/Bibliothek%20Astrael/Aequitas.md`)
 - Siehe auch: [[Personen_Plinius_Deseglieri]]
 
 <!-- Audit: 2026-02-13 | Status: Initial Ingestion | Score: 3 (Source: Library/Philosophical Treatise) -->

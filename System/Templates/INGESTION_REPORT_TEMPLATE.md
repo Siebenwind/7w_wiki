@@ -1,19 +1,30 @@
 # 📥 Ingestion Report: [DATEINAME / BATCH]
 
 ## Metadaten
+- **Auswertungs-ID**: [UUID-v4]
 - **Quelle**: [Relativer Pfad zur Urquelle]
-- **Datum der Verarbeitung**: [ISO-8601]
+- **Dokument-Fingerprint**: [optional: SHA1/SHA256 der Quelle]
+- **Ausgewertet von**: [Agentenname]
+- **Auswertungszeitpunkt (UTC)**: [ISO-8601 mit `Z`]
+- **Workflow/Skill**: [`/ingestion_protocol`, `/batch`, Skillname]
+- **Dispatch-Referenz**: [MSG-YYYY-NNNN | `N/A`]
 - **Quellentyp**: [#canon | #bote | #überlieferung | #perspektive]
-- **Lore-Score (LQS)**: 0/10
-- **Verantwortlicher Agent**: Antigravity
+- **Lore-Score (LQS)**: 0.0/10
+- **Quality-Profil (A/T/K/B/U)**: 0/0/0/0/0
+- **Review-Status**: [IN_PROGRESS | COMPLETED | NEEDS_REVIEW]
 
 ## 📊 Lore Quality Score (LQS)
-| Kriterium | Score (0-3) | Notiz |
+| Kriterium | Score (0-5) | Notiz |
 |---|---|---|
-| **Abdeckung** | 0 | Vollständigkeit der Entitäts-Extraktion |
-| **Tiefe** | 0 | Extraktion von Motivation & Atmosphäre |
-| **Konsistenz** | 0 | Widerspruchsfreiheit zum Bestandskanon |
-| **Gesamt (LQS)** | **0/10** | (Summe + 1 Bonus für Exzellenz möglich) |
+| **A: Abdeckung** | 0 | Vollständigkeit der Entitäts-Extraktion |
+| **T: Tiefe** | 0 | Motivation, Atmosphäre, Kausalität |
+| **K: Kanon-Konsistenz** | 0 | Widerspruchsfreiheit zum Bestandskanon |
+| **B: Belegqualität** | 0 | Präzision und Nachvollziehbarkeit der Quellenbezüge |
+| **U: Unsicherheitsdisziplin** | 0 | Offene Punkte sauber als `[UNGEKLÄRT]` / Frage markiert |
+| **Rohscore (0-25)** | **0** | Summe A+T+K+B+U |
+| **Gesamt (LQS 0-10)** | **0.0/10** | `round(Rohscore * 10 / 25, 1)` |
+
+> Bewertungsregel: Nur mit Notiz je Kriterium bewerten. Bei fehlender Evidenz max. `2`.
 
 ## 📋 Extraktions-Ergebnisse
 
@@ -36,7 +47,8 @@
 - **Wichtigste Erkenntnisse**: [Was lernt die Engine Neues über die Welt?]
 - **Inkonsistenzen**: [Gefundene Widersprüche & deren (geplante) Auflösung]
 - **Highlight**: [Besonders wertvolle "Insel-Lore" für das Narrative Enrichment]
+- **Offene Fragen an Spezialisten**: [Falls vorhanden: Historian/Guardian/Technician + Dispatch-ID]
 
 ---
 *Report-ID: [UUID-v4]*
-*Status: [IN_PROGRESS | COMPLETED | NEEDS_REVIEW]*
+*Tracking-Hinweis: Nach Abschluss `./7w_wiki.py stats` ausführen, damit das zentrale Register aktualisiert wird.*

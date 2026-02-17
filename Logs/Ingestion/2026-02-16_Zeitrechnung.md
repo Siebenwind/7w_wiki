@@ -31,7 +31,7 @@ Re-ingestion of the foundational "Zeitrechnung" canon document. Integrated core 
 - **Schaltjahr**: Alle 4 Jahre ein zusätzlicher Tag.
 
 ## Changes Made
-- **[Zeitrechnung_(Der_Sonnenzirkel).md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md)**: Added sections for cycles, weekdays, and moon logic. Updated the monthly table and solstice details.
+- **Zeitrechnung_(Der_Sonnenzirkel).md (`Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel`).md)**: Added sections for cycles, weekdays, and moon logic. Updated the monthly table and solstice details.
 
 ## Consistency Audit
 - **Status**: CLEAN.

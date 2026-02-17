@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Die Werke des Barath Or (Barath Or)
 
 ## Metadaten
-- **Quelle**: [Die Werke des Barath Or.md](../../Quellen/Bibliothek%20Astrael/Die%20Werke%20des%20Barath%20Or.md)
+- **Quelle**: Die Werke des Barath Or.md (`../../Quellen/Bibliothek%20Astrael/Die%20Werke%20des%20Barath%20Or.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung (Religionsphilosophie)
 - **Lore-Score (LQS)**: 9/10

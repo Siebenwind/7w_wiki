@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Theorie zur arkanen Magie (Anonymus)
 
 ## Metadaten
-- **Quelle**: [Anonymous - Theorie zur arkanen Magie.md](../../Quellen/Bibliothek%20Toran%20Dur/Anonymous%20-%20Theorie%20zur%20arkanen%20Magie.md)
+- **Quelle**: Anonymous - Theorie zur arkanen Magie.md (`../../Quellen/Bibliothek%20Toran%20Dur/Anonymous%20-%20Theorie%20zur%20arkanen%20Magie.md`)
 - **Datum der Verarbeitung**: 2026-02-15
 - **Quellentyp**: #lehrbuch
 - **Lore-Score (LQS)**: 10/10

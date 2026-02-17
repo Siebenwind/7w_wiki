@@ -32,13 +32,13 @@ Re-ingestion of the foundational "Götterwelt" canon document. This run was perf
 - **Angamon Aliases**: "Der Namenlose", "Der Eine".
 
 ## Changes Made
-- **[Astrael.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/01_Pantheon/Astrael.md)**: Added summer metaphor.
-- **[Bellum.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/01_Pantheon/Bellum.md)**: Added autumn metaphor.
-- **[Vitama.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/01_Pantheon/Vitama.md)**: Added spring metaphor.
-- **[Morsan.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/01_Pantheon/Morsan.md)**: Added winter metaphor.
-- **[Angamon.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/01_Pantheon/Angamon.md)**: Added aliases and "Urahn of Demons" status.
-- **[Die_Gohor.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/01_Pantheon/Die_Gohor.md)**: Clarified count (2) and added etymology.
-- **[Das_Pantheon.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/01_Pantheon/Das_Pantheon.md)**: Standardized to 11-deity count, fixed Enhor labels (Rien: Erde, Xan: Wasser).
+- **Astrael.md (`Siebenwind_Wiki/01_Pantheon/Astrael.md`)**: Added summer metaphor.
+- **Bellum.md (`Siebenwind_Wiki/01_Pantheon/Bellum.md`)**: Added autumn metaphor.
+- **Vitama.md (`Siebenwind_Wiki/01_Pantheon/Vitama.md`)**: Added spring metaphor.
+- **Morsan.md (`Siebenwind_Wiki/01_Pantheon/Morsan.md`)**: Added winter metaphor.
+- **Angamon.md (`Siebenwind_Wiki/01_Pantheon/Angamon.md`)**: Added aliases and "Urahn of Demons" status.
+- **Die_Gohor.md (`Siebenwind_Wiki/01_Pantheon/Die_Gohor.md`)**: Clarified count (2) and added etymology.
+- **Das_Pantheon.md (`Siebenwind_Wiki/01_Pantheon/Das_Pantheon.md`)**: Standardized to 11-deity count, fixed Enhor labels (Rien: Erde, Xan: Wasser).
 
 ## Consistency Audit
 - **Status**: CLEAN.

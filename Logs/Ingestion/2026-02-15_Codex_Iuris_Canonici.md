@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Codex Iuris Canonici (Erzconsilium der Viere)
 
 ## Metadaten
-- **Quelle**: [Codex Iuris Canonici.md](../../Quellen/Bibliothek%20Astrael/Codex%20Iuris%20Canonici.md)
+- **Quelle**: Codex Iuris Canonici.md (`../../Quellen/Bibliothek%20Astrael/Codex%20Iuris%20Canonici.md`)
 - **Datum der Verarbeitung**: 2026-02-15
 - **Quellentyp**: #überlieferung
 - **Lore-Score (LQS)**: 10/10

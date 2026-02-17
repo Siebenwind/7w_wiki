@@ -15,13 +15,11 @@ Nutzung:
 Ausgabe: Strukturierter Report auf stdout.
 """
 
-import os
 import re
 import sys
 import uuid
 from pathlib import Path
 from collections import Counter
-import glob
 
 # --- Configuration (relative to project root) ---
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -33,6 +31,13 @@ CHRONIK_DIR = WIKI_DIR / "04_Chronik"
 CHRONIK_INDEX = CHRONIK_DIR / "Die_Chronik.md"
 
 CHRONIK_INDEX = CHRONIK_DIR / "Die_Chronik.md"
+SOURCE_HYGIENE_DIRS = [
+    WIKI_DIR,
+    PROJECT_ROOT / "Logs" / "Ingestion",
+]
+SOURCE_HYGIENE_FILES = [
+    PROJECT_ROOT / "docs" / "COORDINATION_HUB.md",
+]
 
 def get_all_wiki_files() -> tuple[dict[str, Path], dict[str, Path]]:
     """Create maps of filename (stem) and title to their absolute Path."""
@@ -101,6 +106,73 @@ def check_wikilinks(wiki_files: dict[str, Path], wiki_titles: dict[str, Path]) -
             except Exception as e:
                 print(f"Error reading {fpath}: {e}")
     return broken_links
+
+
+def _iter_source_hygiene_files() -> list[Path]:
+    files: list[Path] = []
+    for directory in SOURCE_HYGIENE_DIRS:
+        if directory.exists():
+            files.extend(sorted(directory.rglob("*.md")))
+    for file_path in SOURCE_HYGIENE_FILES:
+        if file_path.exists():
+            files.append(file_path)
+    return files
+
+
+def _clean_markdown_target(raw_target: str) -> str:
+    target = raw_target.strip()
+    if target.startswith("<") and target.endswith(">"):
+        target = target[1:-1].strip()
+    target = target.split(" ", 1)[0]
+    target = target.split("#", 1)[0]
+    return target
+
+
+def check_source_link_hygiene() -> list[tuple[Path, str, str]]:
+    """
+    Scan markdown links for patterns that routinely break mkdocs --strict:
+    - double URL encoding (%25xx),
+    - unresolved [[index]] placeholders in paths,
+    - absolute file:// links,
+    - malformed nested markdown in Quellen paths,
+    - source links that still point to .html.
+    """
+    findings: list[tuple[Path, str, str]] = []
+    md_link_re = re.compile(r'(?<!\!)\[[^\]]+\]\(([^)]+)\)')
+
+    for fpath in _iter_source_hygiene_files():
+        try:
+            content = fpath.read_text(encoding="utf-8")
+        except Exception:
+            continue
+
+        # Explicit malformed pattern seen in historical ingestion artifacts.
+        if "../../Quellen/[index](" in content:
+            findings.append((fpath, "../../Quellen/[index](", "Malformed Quellen link syntax"))
+
+        for raw_target in md_link_re.findall(content):
+            target = _clean_markdown_target(raw_target)
+            if not target:
+                continue
+
+            if "file://" in target:
+                findings.append((fpath, target, "file:// URI is forbidden"))
+                continue
+
+            # Restrict hygiene checks to source-like paths to avoid noise in generic links.
+            if "Quellen/" not in target and "Archiv/Ingestion_Reports/" not in target:
+                continue
+
+            if re.search(r"%25[0-9A-Fa-f]{2}", target):
+                findings.append((fpath, target, "Double-encoded URL sequence"))
+            if "[[index]]" in target or "%5B%5Bindex%5D%5D" in target:
+                findings.append((fpath, target, "Unresolved [[index]] placeholder in path"))
+            if target.endswith(".html"):
+                findings.append((fpath, target, "Source link points to .html instead of .md"))
+
+    # Stable output: unique triplets, sorted by file then target.
+    unique = sorted(set(findings), key=lambda x: (str(x[0]), x[1], x[2]))
+    return unique
 
 
 def extract_register_names(register_path: Path) -> list[str]:
@@ -270,8 +342,26 @@ def main():
         log("  ✅ Alle Boten-Dateien sind im Index erfasst.")
     log()
 
-    # --- 6. Deep WikiLink Check ---
-    log("## 6. Deep WikiLink Check (Internal Integrity)")
+    # --- 6. Source Link Hygiene ---
+    log("## 6. Source Link Hygiene (MkDocs Strict Risks)")
+    source_findings = check_source_link_hygiene()
+    if source_findings:
+        grouped_source: dict[Path, list[tuple[str, str]]] = {}
+        for fpath, target, reason in source_findings:
+            rel_path = fpath.relative_to(PROJECT_ROOT)
+            grouped_source.setdefault(rel_path, []).append((target, reason))
+
+        for rel_path, items in sorted(grouped_source.items()):
+            log(f"  ⚠️  {rel_path}:")
+            for target, reason in sorted(set(items)):
+                log(f"    - {reason}: {target}")
+            issues_found += len(set(items))
+    else:
+        log("  ✅ Keine kritischen Source-Link-Muster gefunden.")
+    log()
+
+    # --- 7. Deep WikiLink Check ---
+    log("## 7. Deep WikiLink Check (Internal Integrity)")
     wiki_files, wiki_titles = get_all_wiki_files()
     broken = check_wikilinks(wiki_files, wiki_titles)
     if broken:

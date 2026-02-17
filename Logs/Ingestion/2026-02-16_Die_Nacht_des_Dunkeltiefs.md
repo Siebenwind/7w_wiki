@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Die Nacht des Dunkeltiefs (Georg Heym / OutGame)
 
 ## Metadaten
-- **Quelle**: [Die Nacht des Dunkeltiefs.md](../../Quellen/Spielergeschichten/Die%20Nacht%20des%20Dunkeltiefs.md)
+- **Quelle**: Die Nacht des Dunkeltiefs.md (`../../Quellen/Spielergeschichten/Die%20Nacht%20des%20Dunkeltiefs.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #perspektive (Lyrik)
 - **Lore-Score (LQS)**: 5/10

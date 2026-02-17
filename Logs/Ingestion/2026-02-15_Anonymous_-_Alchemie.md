@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Alchemie (Anonymus)
 
 ## Metadaten
-- **Quelle**: [Anonymous - Alchemie.md](../../Quellen/Bibliothek%20Toran%20Dur/Anonymous%20-%20Alchemie.md)
+- **Quelle**: Anonymous - Alchemie.md (`../../Quellen/Bibliothek%20Toran%20Dur/Anonymous%20-%20Alchemie.md`)
 - **Datum der Verarbeitung**: 2026-02-15
 - **Quellentyp**: #lehrbuch
 - **Lore-Score (LQS)**: 10/10

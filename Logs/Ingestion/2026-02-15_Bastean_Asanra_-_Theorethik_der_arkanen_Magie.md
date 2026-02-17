@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Theorethik der arkanen Magie (Bastean Asanra)
 
 ## Metadaten
-- **Quelle**: [Bastean Asanra - Theorethik der arkanen Magie.md](../../Quellen/Bibliothek%20Toran%20Dur/Bastean%20Asanra%20-%20Theorethik%20der%20arkanen%20Magie.md)
+- **Quelle**: Bastean Asanra - Theorethik der arkanen Magie.md (`../../Quellen/Bibliothek%20Toran%20Dur/Bastean%20Asanra%20-%20Theorethik%20der%20arkanen%20Magie.md`)
 - **Datum der Verarbeitung**: 2026-02-15
 - **Quellentyp**: #lehrbuch
 - **Lore-Score (LQS)**: 10/10

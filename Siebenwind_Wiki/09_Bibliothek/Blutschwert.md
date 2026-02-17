@@ -27,5 +27,5 @@ Die Erzählung folgt Veridon, einem ehemaligen Spion des **[[Oculus_Ecclesiae]]*
 Das Dokument bietet wertvolle Einblicke in die Struktur des **[[Oculus_Ecclesiae]]** und die Grausamkeiten der **[[Schwarze_Legion]]**. Es thematisiert zudem die "Anker-Runen"—eine Form der dunklen [[index]], die [[Menschen]] in lebende Portale verwandelt.
 
 ## Referenzen
-- Primärquelle: [Blutschwert](../../Quellen/Spielergeschichten/Blutschwert%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)
+- Primärquelle: Blutschwert (`../../Quellen/Spielergeschichten/Blutschwert%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md`)
 - Siehe auch: [[Veridon]], [[Herzog_Blutschwert]], [[Oculus_Ecclesiae]], [[Schwarze_Legion]]

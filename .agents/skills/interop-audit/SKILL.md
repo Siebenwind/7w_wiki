@@ -17,6 +17,7 @@ Run the core checks:
 ./7w_wiki.py advisor
 ./7w_wiki.py test --suite clean-client-state
 ./7w_wiki.py test --suite takeover-handover
+./7w_wiki.py test --suite source-link-hygiene
 ./7w_wiki.py search "<query>" --source wiki
 ./7w_wiki.py search "<query>" --source quellen
 ./7w_wiki.py search "<query>" --source all
@@ -26,3 +27,5 @@ Run the core checks:
 - `runtime_commands` and `method_only` blocks in workflows.
 - Runtime command references stay on `./7w_wiki.py`.
 - Dispatch lifecycle remains aligned with `SY_DISPATCH`.
+- Process logic uses Dispatch actively: inbox/claim/done plus heartbeat updates for long-running work.
+- Contradictions are routed as specialist questions before user escalation.

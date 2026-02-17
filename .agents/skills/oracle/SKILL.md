@@ -20,7 +20,8 @@ Run searches with explicit source scope:
 - **RAG (Retrieval Augmented Generation)**: Finds relevant lore using vector embeddings.
 - **Source Selection**:
   - `--source wiki`: Curated wiki knowledge.
-  - `--source quellen`: Raw source corpus.
-  - `--source all`: Combined cross-layer search.
+- `--source quellen`: Raw source corpus.
+- `--source all`: Combined cross-layer search.
+- **Escalation discipline**: If search surfaces contradictions, send a specialist question via Dispatch before canonical edits.
 
 For full documentation, see: `.agent/skills/oracle/SKILL.md`

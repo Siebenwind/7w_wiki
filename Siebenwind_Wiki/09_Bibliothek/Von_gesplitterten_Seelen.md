@@ -30,5 +30,5 @@ Die Reise fällt in die Zeit des **Dunkeltiefs** — jene drei Tage der absolute
 Das Dokument illustriert die Grausamkeit des **Dunkeltiefs** und bietet Einblicke in die finsteren Machenschaften des Waffenhandels zwischen dem Festland und [[Siebenwind]]. Es thematisiert zudem die religiöse Verzweiflung der Sterblichen unter dem Druck der Finsternis.
 
 ## Referenzen
-- Primärquelle: [Von gesplitterten Seelen und blutigen Kehlen](../../Quellen/Spielergeschichten/Von%20gesplitterten%20Seelen%20und%20blutigen%20Kehlen.md)
+- Primärquelle: Von gesplitterten Seelen und blutigen Kehlen (`../../Quellen/Spielergeschichten/Von%20gesplitterten%20Seelen%20und%20blutigen%20Kehlen.md`)
 - Siehe auch: [[Dunkeltief]], [[Falkensee]], [[Der_Eine]], [[Morsan]]

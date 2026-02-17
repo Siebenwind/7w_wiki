@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Kompendium der Weißmagie (Althea Danea)
 
 ## Metadaten
-- **Quelle**: [Althea Danea - Kompendium der Wei·magie.md](../../Quellen/Bibliothek%20Toran%20Dur/Althea%20Danea%20-%20Kompendium%20der%20Wei%C2%B7magie.md)
+- **Quelle**: Althea Danea - Kompendium der Wei·magie.md (`../../Quellen/Bibliothek%20Toran%20Dur/Althea%20Danea%20-%20Kompendium%20der%20Wei%C2%B7magie.md`)
 - **Datum der Verarbeitung**: 2026-02-15
 - **Quellentyp**: #überlieferung
 - **Lore-Score (LQS)**: 10/10

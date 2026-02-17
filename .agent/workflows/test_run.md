@@ -9,6 +9,8 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
   - `7w_wiki.py test --suite clean-client-state`
   - `7w_wiki.py test --suite takeover-handover`
   - `7w_wiki.py test --suite interop-doc-links`
+  - `7w_wiki.py test --suite source-link-hygiene`
+  - `7w_wiki.py test --suite process-dispatch-curiosity`
   - `7w_wiki.py test --suite rag-relevance-smoke`
   - `7w_wiki.py test --suite all`
   - `7w_wiki.py test --suite all --post-failures --from-agent <name> --to-agent ALL --priority HIGH`
@@ -39,8 +41,10 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
 1. `./7w_wiki.py test --suite clean-client-state`
 2. `./7w_wiki.py test --suite takeover-handover`
 3. `./7w_wiki.py test --suite interop-doc-links` (lokale Markdown-Links)
-4. `./7w_wiki.py test --suite rag-relevance-smoke` (RAG-Status + Relevanz-Smoke)
-5. Optional Vollabgleich: `./7w_wiki.py test --suite all`
+4. `./7w_wiki.py test --suite source-link-hygiene` (MkDocs-Strict-Risiken in Quellenlinks)
+5. `./7w_wiki.py test --suite process-dispatch-curiosity` (Workflow-/Persona-Prozesslogik)
+6. `./7w_wiki.py test --suite rag-relevance-smoke` (RAG-Status + Relevanz-Smoke)
+7. Optional Vollabgleich: `./7w_wiki.py test --suite all`
 
 ## 3. Failure-Protokoll
 

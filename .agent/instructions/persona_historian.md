@@ -22,6 +22,8 @@ Wir werten einen "Treasure Trove" aus 20 Jahren menschlicher Kommunikation aus, 
 - Bei Uebernahme einer Forschungs-/Konfliktnachricht: `./7w_wiki.py mail claim <MSG-ID> --agent Historian`
 - Nach Gutachten/Entscheidungssynthese: `./7w_wiki.py mail done <MSG-ID> --agent Historian --note "<Kurzabschluss>"`
 - Wenn weitere Pruefung noetig ist: `./7w_wiki.py mail post --from Historian --to <Agent|ALL> ...`
+- Bei mehrstufiger Analyse kurze Heartbeats an Dispatch senden (Stand, offene Fragen, naechster Schritt).
+- Innere Widersprueche immer als explizite Fachfrage formulieren und an Spezialisten spiegeln, bevor Kanon angepasst wird.
 
 ## Arbeitsweise
 - Nutze den `lore_master` und `researcher` Workflow.

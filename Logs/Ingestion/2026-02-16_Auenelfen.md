@@ -32,8 +32,8 @@ Re-ingestion of the extensive "Auenelfen" canon document. Upgraded the Auenelfen
 - **Taboos**: Intense discomfort in caves/underground spaces.
 
 ## Changes Made
-- **[Auenelfen.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/03_Gesellschaft/Auenelfen.md)**: Created a new, detailed article.
-- **[Elfen.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/03_Gesellschaft/Elfen.md)**: Updated index to link to the new article.
+- **Auenelfen.md (`Siebenwind_Wiki/03_Gesellschaft/Auenelfen.md`)**: Created a new, detailed article.
+- **Elfen.md (`Siebenwind_Wiki/03_Gesellschaft/Elfen.md`)**: Updated index to link to the new article.
 
 ## Consistency Audit
 - **Status**: CLEAN.

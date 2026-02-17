@@ -24,9 +24,9 @@ Re-ingestion of the "Die Insel Siebenwind" canon document. Aligned the geographi
 - **Resilience**: Despite the destruction, the island remains a "Schicksalsinsel" (Island of Fate) attracting those seeking destiny or refuge.
 
 ## Changes Made
-- **[Siebenwind.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/02_Geografie/Siebenwind.md)**: Updated with the current political structure and status of ruins.
-- **[Falkensee.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/02_Geografie/Falkensee.md)**: Added a warning about the city's ruined state.
-- **[Inselrat.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/03_Gesellschaft/Inselrat.md)**: Updated racial composition to match canon.
+- **Siebenwind.md (`Siebenwind_Wiki/02_Geografie/Siebenwind.md`)**: Updated with the current political structure and status of ruins.
+- **Falkensee.md (`Siebenwind_Wiki/02_Geografie/Falkensee.md`)**: Added a warning about the city's ruined state.
+- **Inselrat.md (`Siebenwind_Wiki/03_Gesellschaft/Inselrat.md`)**: Updated racial composition to match canon.
 
 ## Consistency Audit
 - **Status**: CLEAN (with Conflict Resolution).

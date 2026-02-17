@@ -36,7 +36,7 @@ Re-ingestion of the foundational "Der elementare Pfad" canon document. Upgraded 
 - **Groups**: Meister der Bindung, Bund von Yggarsillion, Zorn der Elemente, Mondenlaubs Boten.
 
 ## Changes Made
-- **[Elementarpfad.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/docs/Siebenwind_Wiki/05_Magie/Elementarpfad.md)**: Fully rewritten and upgraded to #canon.
+- **Elementarpfad.md (`Siebenwind_Wiki/05_Magie/Elementarpfad.md`)**: Fully rewritten and upgraded to #canon.
 
 ## Consistency Audit
 - **Status**: CLEAN.

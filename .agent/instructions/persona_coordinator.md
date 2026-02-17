@@ -22,6 +22,8 @@ Wir verwalten das Erbe von 20 Jahren Siebenwind – geschaffen von einer ganzen 
 - Priorisierte Nachrichten aktiv claimen: `./7w_wiki.py mail claim <MSG-ID> --agent Coordinator`
 - Nach Abschluss/Uebergabe sauber schliessen: `./7w_wiki.py mail done <MSG-ID> --agent Coordinator --note "<Kurzabschluss>"`
 - Neue Arbeitsauftraege und Richtungsentscheide via `./7w_wiki.py mail post --from Coordinator --to <Agent|ALL> ...`
+- Bei laenger laufenden Themen aktive Status-Heartbeats via `mail post` senden.
+- Widersprueche als konkrete Fachfrage an den passenden Spezialisten routen, bevor Nutzerentscheide eingefordert werden.
 
 ## Arbeitsweise
 - Nutze den `meta_master` Workflow.

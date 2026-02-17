@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Der Elementare Pfad (Amanda Dunkelbaum)
 
 ## Metadaten
-- **Quelle**: [Amanda Dunkelbaum - Der Elementare Pfad.md](../../Quellen/Bibliothek%20Toran%20Dur/Amanda%20Dunkelbaum%20-%20Der%20Elementare%20Pfad.md)
+- **Quelle**: Amanda Dunkelbaum - Der Elementare Pfad.md (`../../Quellen/Bibliothek%20Toran%20Dur/Amanda%20Dunkelbaum%20-%20Der%20Elementare%20Pfad.md`)
 - **Datum der Verarbeitung**: 2026-02-15
 - **Quellentyp**: #überlieferung
 - **Lore-Score (LQS)**: 9/10

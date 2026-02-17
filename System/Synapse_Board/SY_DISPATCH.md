@@ -35,6 +35,8 @@ Each dispatch file is a markdown document with frontmatter and lifecycle state.
 3. Message IDs are exact (`MSG-YYYY-NNNN`), not prefix-matched.
 4. Inbox filtering uses strict status values (`OPEN|CLAIMED|DONE`).
 5. Decision requests should be routed through Dispatch and link to referenced Conflict/Research tickets.
+6. Long-running work should emit periodic status heartbeats via `mail post` (progress, blocker, next step).
+7. For anomalies/contradictions, use "question-first" routing to specialists (Historian/Guardian/Technician) before escalating to user-facing decisions.
 
 ## Roles
 - `Coordinator`: Projektsteuerung.
@@ -46,8 +48,8 @@ Each dispatch file is a markdown document with frontmatter and lifecycle state.
 - `[URGENT]`: Sofortige Bearbeitung (Blocker).
 - `[TECH]`: Routing an Technician (Infrastruktur-Probleme).
 
-6. Bei erkannter Parallelaenderung wartet die Runtime 30 Sekunden (Settle-Window) und versucht den Statuswechsel erneut.
-7. Runtime-Parameter fuer Dispatch werden zentral aus `.agent/config/runtime.json` gelesen:
+8. Bei erkannter Parallelaenderung wartet die Runtime 30 Sekunden (Settle-Window) und versucht den Statuswechsel erneut.
+9. Runtime-Parameter fuer Dispatch werden zentral aus `.agent/config/runtime.json` gelesen:
    - `dispatch.parallel_settle_seconds`
    - `dispatch.parallel_retry_limit`
 

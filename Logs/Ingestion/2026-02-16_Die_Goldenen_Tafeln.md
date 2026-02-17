@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Die Goldenen Tafeln (Tai Sah'Halour - Glurias)
 
 ## Metadaten
-- **Quelle**: [Die Goldenen Tafeln.md](../../Quellen/Bibliothek%20Astrael/Die%20Goldenen%20Tafeln.md)
+- **Quelle**: Die Goldenen Tafeln.md (`../../Quellen/Bibliothek%20Astrael/Die%20Goldenen%20Tafeln.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung (Schöpfungsmythos)
 - **Lore-Score (LQS)**: 10/10

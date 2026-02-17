@@ -2,9 +2,9 @@
 
 ## Metadaten
 - **Quellen**: 
-  - [Der Flug der Ente..md](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)
-  - [Der Flug der Ente..3.md](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..3.md) (Merged)
-  - [Der Flug der Ente1.md](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente1.md) (Merged)
+  - Der Flug der Ente..md (`../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md`)
+  - Der Flug der Ente..3.md (`../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..3.md`) (Merged)
+  - Der Flug der Ente1.md (`../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente1.md`) (Merged)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #perspektive
 - **Lore-Score (LQS)**: 8/10

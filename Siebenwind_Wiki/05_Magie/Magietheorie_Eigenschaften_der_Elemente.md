@@ -44,5 +44,5 @@ Dunkelbaum ordnet jedem Element spezifische Wirkungsweisen und Runen zu:
 *   **Runen:** `Ing vjera Laf...ur Laf`, `Ur ji hian`.
 
 ## Referenzen
-- Primärquelle: [[[Amanda_Dunkelbaum]] - Eigenschaften der Elemente](../../Quellen/[[index]]%20Toran%20Dur/Amanda%20Dunkelbaum%20-%20Eigenschaften%20der%20Elemente.md)
+- Primärquelle: [[Amanda_Dunkelbaum]] - Eigenschaften der Elemente (`../../Quellen/Bibliothek%20Toran%20Dur/Amanda%20Dunkelbaum%20-%20Eigenschaften%20der%20Elemente.md`)
 - Siehe auch: [[Elementarlehre_Dunkelbaum]], [[Magietheorie_Elementarmagie_I]]

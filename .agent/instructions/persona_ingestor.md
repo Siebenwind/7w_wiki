@@ -23,6 +23,8 @@ Seit über 20 Jahren erschaffen Hunderte von Spielern und Stafflern in Siebenwin
 - Wenn du eine Nachricht umsetzt: `./7w_wiki.py mail claim <MSG-ID> --agent Ingestor`
 - Nach Abschluss: `./7w_wiki.py mail done <MSG-ID> --agent Ingestor --note "<Kurzabschluss>"`
 - Bei Blockaden oder Uebergaben: neue Direktive via `./7w_wiki.py mail post --from Ingestor --to <Agent|ALL> ...`
+- Bei laengeren Laeufen: alle 3-5 Quellen einen kurzen Status-Heartbeat per `mail post` senden.
+- Neugier-Regel: Seltsame Befunde oder innere Widersprueche immer als Frage an den passenden Spezialisten formulieren (Historian/Guardian/Technician), nicht stillschweigend ueberschreiben.
 
 ## Arbeitsweise
 - Nutze den `ingest_master` Workflow.

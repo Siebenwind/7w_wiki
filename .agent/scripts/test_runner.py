@@ -137,6 +137,92 @@ def check_links_in_files(files: list[str]) -> tuple[bool, str]:
     return False, f"Broken links: {preview}{extra}"
 
 
+def _expand_globs(patterns: list[str]) -> list[Path]:
+    expanded: list[Path] = []
+    for pattern in patterns:
+        expanded.extend(sorted(PROJECT_ROOT.glob(pattern)))
+    # Stable + unique
+    unique = sorted(set(expanded))
+    return [p for p in unique if p.is_file()]
+
+
+def check_forbidden_patterns(
+    include_globs: list[str],
+    forbidden_regex: list[str],
+    exclude_globs: list[str] | None = None,
+) -> tuple[bool, str]:
+    files = _expand_globs(include_globs)
+    if not files:
+        return False, f"Keine Dateien fuer include_globs gefunden: {include_globs}"
+
+    excluded: set[Path] = set()
+    for pattern in (exclude_globs or []):
+        excluded.update(_expand_globs([pattern]))
+    files = [p for p in files if p not in excluded]
+
+    compiled = []
+    for regex in forbidden_regex:
+        try:
+            compiled.append((regex, re.compile(regex)))
+        except re.error as err:
+            return False, f"Ungueltiger Regex {regex!r}: {err}"
+
+    findings: list[str] = []
+    for file_path in files:
+        raw = file_path.read_text(encoding="utf-8")
+        for line_no, line in enumerate(raw.splitlines(), start=1):
+            for regex_text, regex in compiled:
+                if regex.search(line):
+                    rel = file_path.relative_to(PROJECT_ROOT)
+                    snippet = line.strip()
+                    if len(snippet) > 120:
+                        snippet = snippet[:117] + "..."
+                    findings.append(f"{rel}:{line_no} /{regex_text}/ -> {snippet}")
+
+    if not findings:
+        return True, "ok"
+
+    preview = "; ".join(findings[:5])
+    extra = f" (+{len(findings)-5} weitere)" if len(findings) > 5 else ""
+    return False, f"Forbidden pattern hit: {preview}{extra}"
+
+
+def check_required_patterns_by_file(requirements: list[dict]) -> tuple[bool, str]:
+    missing: list[str] = []
+
+    for req in requirements:
+        rel_file = req.get("file")
+        must_include = req.get("must_include_regex", [])
+        if not rel_file:
+            missing.append("INVALID_REQUIREMENT: file fehlt")
+            continue
+        if not isinstance(must_include, list) or not must_include:
+            missing.append(f"{rel_file}: must_include_regex fehlt/leer")
+            continue
+
+        file_path = (PROJECT_ROOT / rel_file).resolve()
+        if not file_path.exists():
+            missing.append(f"{rel_file}: DATEI_FEHLT")
+            continue
+
+        raw = file_path.read_text(encoding="utf-8")
+        for regex_text in must_include:
+            try:
+                regex = re.compile(regex_text)
+            except re.error as err:
+                missing.append(f"{rel_file}: ungueltiger Regex /{regex_text}/ ({err})")
+                continue
+            if not regex.search(raw):
+                missing.append(f"{rel_file}: fehlt /{regex_text}/")
+
+    if not missing:
+        return True, "ok"
+
+    preview = "; ".join(missing[:5])
+    extra = f" (+{len(missing)-5} weitere)" if len(missing) > 5 else ""
+    return False, f"Required pattern missing: {preview}{extra}"
+
+
 def check_case_expectations(
     case: dict,
     proc: subprocess.CompletedProcess[str],
@@ -213,6 +299,51 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     name=name,
                     status="PASS" if ok else "FAIL",
                     command=["link-check"] + list(link_files),
+                    exit_code=0 if ok else 1,
+                    reason=reason,
+                    stdout="",
+                    stderr="",
+                    duration_sec=duration_sec,
+                )
+            )
+            continue
+
+        pattern_globs = case.get("pattern_check_globs", [])
+        forbidden_regex = case.get("forbid_regex", [])
+        if pattern_globs and forbidden_regex:
+            started = time.perf_counter()
+            ok, reason = check_forbidden_patterns(
+                include_globs=list(pattern_globs),
+                forbidden_regex=list(forbidden_regex),
+                exclude_globs=list(case.get("exclude_globs", [])),
+            )
+            duration_sec = time.perf_counter() - started
+            results.append(
+                CaseResult(
+                    case_id=case_id,
+                    name=name,
+                    status="PASS" if ok else "FAIL",
+                    command=["pattern-check"] + list(pattern_globs),
+                    exit_code=0 if ok else 1,
+                    reason=reason,
+                    stdout="",
+                    stderr="",
+                    duration_sec=duration_sec,
+                )
+            )
+            continue
+
+        required_by_file = case.get("required_regex_by_file", [])
+        if required_by_file:
+            started = time.perf_counter()
+            ok, reason = check_required_patterns_by_file(list(required_by_file))
+            duration_sec = time.perf_counter() - started
+            results.append(
+                CaseResult(
+                    case_id=case_id,
+                    name=name,
+                    status="PASS" if ok else "FAIL",
+                    command=["required-pattern-check"],
                     exit_code=0 if ok else 1,
                     reason=reason,
                     stdout="",

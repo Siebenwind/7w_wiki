@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Die Elemente - ungleiche Geschwister (Brand Windflüsterer)
 
 ## Metadaten
-- **Quelle**: [Die Elemente - ungleiche Geschwister.md](../../Quellen/Spielergeschichten/Die%20Elemente%20-%20ungleiche%20Geschwister.md)
+- **Quelle**: Die Elemente - ungleiche Geschwister.md (`../../Quellen/Spielergeschichten/Die%20Elemente%20-%20ungleiche%20Geschwister.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #perspektive (Augenzeugenbericht)
 - **Lore-Score (LQS)**: 8/10

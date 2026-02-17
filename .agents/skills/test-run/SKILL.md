@@ -15,6 +15,7 @@ Use this skill to execute repeatable clean-state/interoperability test runs.
 ./7w_wiki.py test --suite clean-client-state
 ./7w_wiki.py test --suite takeover-handover
 ./7w_wiki.py test --suite interop-doc-links
+./7w_wiki.py test --suite source-link-hygiene
 ./7w_wiki.py test --suite all
 ```
 
@@ -29,3 +30,4 @@ Use this skill to execute repeatable clean-state/interoperability test runs.
 ## Notes
 - Runtime authority remains `./7w_wiki.py` only.
 - Fixes are performed after a claimed dispatch message or referenced task.
+- For multi-step fixes, send short status heartbeats via dispatch and escalate contradictions as specialist questions.

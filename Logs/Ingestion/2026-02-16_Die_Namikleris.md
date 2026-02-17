@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Die Namikleris (Prolo-Reihe)
 
 ## Metadaten
-- **Quelle**: [Die Namikleris.md](../../Quellen/Spielergeschichten/Die%20Namikleris.md)
+- **Quelle**: Die Namikleris.md (`../../Quellen/Spielergeschichten/Die%20Namikleris.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #perspektive (Spielergeschichte)
 - **Lore-Score (LQS)**: 7/10

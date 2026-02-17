@@ -18,3 +18,4 @@ Use this skill for layout and frontmatter normalization passes.
 ## Notes
 - Apply sanitizer first, then verify consistency with audit.
 - Keep edits additive and preserve existing workflow semantics.
+- Report large sanitation runs via Dispatch heartbeat and ask specialists on ambiguous structural conflicts.

@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Briefe aus der Ferne (Rajka Sanseha & Taleris Kreytz)
 
 ## Metadaten
-- **Quelle**: [Briefe aus der Ferne.md](../../Quellen/Spielergeschichten/Briefe%20aus%20der%20Ferne.md)
+- **Quelle**: Briefe aus der Ferne.md (`../../Quellen/Spielergeschichten/Briefe%20aus%20der%20Ferne.md`)
 - **Datum der Verarbeitung**: 2026-02-15
 - **Quellentyp**: #perspektive
 - **Lore-Score (LQS)**: 8/10

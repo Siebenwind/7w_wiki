@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Theorie des Horlafstroms (Aren Remouldo)
 
 ## Metadaten
-- **Quelle**: [Aren Remouldo - Horlafstrom-Theorie.md](../../Quellen/Bibliothek%20Toran%20Dur/Aren%20Remouldo%20-%20Horlafstrom-Theorie.md)
+- **Quelle**: Aren Remouldo - Horlafstrom-Theorie.md (`../../Quellen/Bibliothek%20Toran%20Dur/Aren%20Remouldo%20-%20Horlafstrom-Theorie.md`)
 - **Datum der Verarbeitung**: 2026-02-15
 - **Quellentyp**: #überlieferung
 - **Lore-Score (LQS)**: 9/10

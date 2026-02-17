@@ -36,4 +36,4 @@ Der Magier bietet einen Teil seiner eigenen Seele in der Zwischenwelt (Intersph�
 *Warnung:* Das Ritual ist extrem kraftzehrend. Ein Wächter sollte den Beschwörer schützen, da das erstgeborene Ziel der Seele die Bindung des Fokus ist.
 
 ## Referenzen
-- Primärquelle: [Anonymous - Homunkuli](../../Quellen/[[index]]%20Toran%20Dur/Anonymous%20-%20Homunkuli.md)
+- Primärquelle: Anonymous - Homunkuli (`../../Quellen/Bibliothek%20Toran%20Dur/Anonymous%20-%20Homunkuli.md`)

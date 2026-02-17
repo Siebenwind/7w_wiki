@@ -10,6 +10,10 @@ description: Konsolidierter Workflow zur Massenverarbeitung von Quellen (Batch-P
   - `7w_wiki.py advisor`
   - `7w_wiki.py search <query> --source all`
   - `7w_wiki.py score <file>`
+  - `7w_wiki.py mail inbox --status OPEN`
+  - `7w_wiki.py mail post --from <agent> --to <agent|ALL> --subject "<text>" --body "<text>"`
+  - `7w_wiki.py mail claim <id> --agent <name>`
+  - `7w_wiki.py mail done <id> --agent <name> --note "<abschluss>"`
 - method_only:
   - `/batch`
 
@@ -41,6 +45,14 @@ Nach jedem erfolgreichen Schreibvorgang werden die zentralen Register (`Personen
 ### D. Scoring & Board-Reporting
 1.  **Lore Scoring:** Führe `./7w_wiki.py score <Dateipfad>` über den gesamten Batch-Output aus.
 2.  **Board Report:** Erstelle bei signifikanten Konflikten oder Massen-Updates ein automatisches Ticket (Status: `AUTO_RESOLVED` oder `NEEDS_REVIEW`), um die Batch-Integrität zu dokumentieren.
+3.  **Ingestion-Tracking:** Jeder Report muss die Tracking-Metadaten aus `System/Templates/INGESTION_REPORT_TEMPLATE.md` enthalten (wer/wann/wie/Dispatch/LQS-Profil).
+4.  **Register-Refresh:** Nach Batch-Abschluss `./7w_wiki.py stats` ausführen, damit das Tracking-Register synchron ist.
+
+### E. Dispatch-Heartbeat (Pflicht)
+1.  **Start:** Prüfe zu Beginn `./7w_wiki.py mail inbox --status OPEN`.
+2.  **Statusmeldungen:** Poste nach jeweils 3-5 verarbeiteten Quellen ein kurzes Update via `mail post` (Stand, Blocker, nächste Schritte).
+3.  **Neugier-Prinzip:** Wenn etwas widersprüchlich oder seltsam wirkt, stelle eine konkrete Frage an Spezialisten (z. B. Historian/Guardian/Technician) statt Annahmen zu treffen.
+4.  **Abschluss:** Für übernommene Nachrichten immer `claim`/`done` sauber durchziehen.
 
 ## 3. Reporting (Ergebnisbericht)
 Am Ende des Batches erstellt der Agent eine Zusammenfassung im Chat mit folgendem Schema:

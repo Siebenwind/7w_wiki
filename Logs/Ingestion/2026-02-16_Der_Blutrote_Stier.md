@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Der Blutrote Stier (Tai Sah'Halour - Glurias)
 
 ## Metadaten
-- **Quelle**: [Der Blutrote Stier.md](../../Quellen/Bibliothek%20Astrael/Der%20Blutrote%20Stier.md)
+- **Quelle**: Der Blutrote Stier.md (`../../Quellen/Bibliothek%20Astrael/Der%20Blutrote%20Stier.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung
 - **Lore-Score (LQS)**: 7/10

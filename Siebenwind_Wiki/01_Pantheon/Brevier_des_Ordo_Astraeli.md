@@ -37,9 +37,9 @@ Diese Gebete werden vermutlich bei den täglichen Andachten in den Bibliotheken 
 * [[Kirche_der_Viere]]
 
 ## Referenzen
-- Primärquelle: [Brevier des Ordo Astraeli](../../Quellen/[[index]]%20Astrael/Brevier%20des%20Ordo%20Astraeli.md)
+- Primärquelle: Brevier des Ordo Astraeli (`../../Quellen/Bibliothek%20Astrael/Brevier%20des%20Ordo%20Astraeli.md`)
 
 > [!ABSTRACT] Prüfbericht
-> Die Ingestion dieses Dokuments wurde unter der ID `a2b3c4d5` archiviert. Details finden Sie im [Prüfbericht](../../Archiv/Ingestion_Reports/2026-02-15_Astrael_Brevier.md).
+> Die Ingestion dieses Dokuments wurde unter der ID `a2b3c4d5` archiviert. Details finden Sie im Prüfbericht (`../../Archiv/Ingestion_Reports/2026-02-15_Astrael_Brevier.md`).
 
 <!-- Audit: 2026-02-13 | Status: Initial Ingestion | Score: 3 (Source: Library/Prayer Book) -->

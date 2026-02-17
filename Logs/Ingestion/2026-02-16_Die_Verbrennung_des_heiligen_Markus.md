@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Die Verbrennung des heiligen Markus (Anonymus)
 
 ## Metadaten
-- **Quelle**: [Die Verbrennung des heiligen Markus.md](../../Quellen/Spielergeschichten/Die%20Verbrennung%20des%20heiligen%20Markus.md)
+- **Quelle**: Die Verbrennung des heiligen Markus.md (`../../Quellen/Spielergeschichten/Die%20Verbrennung%20des%20heiligen%20Markus.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #perspektive (Tragische Erzählung)
 - **Lore-Score (LQS)**: 8/10

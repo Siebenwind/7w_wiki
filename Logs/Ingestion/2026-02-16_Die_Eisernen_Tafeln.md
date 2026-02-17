@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Die Eisernen Tafeln (Tai Sah'Halour - Glurias)
 
 ## Metadaten
-- **Quelle**: [Die Eisernen Tafeln.md](../../Quellen/Bibliothek%20Astrael/Die%20Eisernen%20Tafeln.md)
+- **Quelle**: Die Eisernen Tafeln.md (`../../Quellen/Bibliothek%20Astrael/Die%20Eisernen%20Tafeln.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung (Prophezeiung)
 - **Lore-Score (LQS)**: 9/10

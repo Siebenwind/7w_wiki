@@ -1,0 +1,48 @@
+{
+  "suite": "process-dispatch-curiosity",
+  "description": "Enforces dispatch heartbeat and question-first specialist escalation in core process docs.",
+  "cases": [
+    {
+      "id": "core-process-docs-enforce-dispatch-and-questions",
+      "name": "Core workflows/personas require active dispatch usage and specialist-question escalation",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/workflows/batch.md",
+          "must_include_regex": [
+            "mail inbox --status OPEN",
+            "mail post",
+            "Neugier-Prinzip"
+          ]
+        },
+        {
+          "file": ".agent/workflows/ingest_master.md",
+          "must_include_regex": [
+            "Dispatch-Heartbeat",
+            "Fragen statt Raten"
+          ]
+        },
+        {
+          "file": ".agent/workflows/ingestion_protocol.md",
+          "must_include_regex": [
+            "Dispatch-Status",
+            "Spezialisten-Fragepflicht"
+          ]
+        },
+        {
+          "file": ".agent/instructions/persona_ingestor.md",
+          "must_include_regex": [
+            "3-5 Quellen",
+            "Neugier-Regel"
+          ]
+        },
+        {
+          "file": "System/Synapse_Board/SY_DISPATCH.md",
+          "must_include_regex": [
+            "status heartbeats",
+            "question-first"
+          ]
+        }
+      ]
+    }
+  ]
+}

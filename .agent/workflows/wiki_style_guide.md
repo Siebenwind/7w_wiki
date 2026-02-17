@@ -91,7 +91,8 @@ Don't just list facts. Describe:
 
 ## 4. Internal Linking
 - Use standard Wiki-brackets: `[[Page_Name]]`.
-- For external or source links, use relative paths: `[Label](../../Quellen/source.md)`.
+- For source references, store portable relative paths as code literals (e.g. ``../../Quellen/source.md``) to avoid strict-build link noise.
+- If a source path or claim looks contradictory, raise a concrete specialist question via Dispatch/Synapse before changing canon content.
 
 ## 5. Directory Mapping
 - `00_Fundament/`: Core laws and axioms.

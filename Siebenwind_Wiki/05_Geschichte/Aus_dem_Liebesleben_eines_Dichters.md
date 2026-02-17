@@ -33,4 +33,4 @@ Die [[index]] vermittelt ein tiefes Gefühl von Isolation und dem Versuch, Schme
 Die Erzählung gibt wertvolle Einblicke in das kulturelle Leben und die Bildungsbürgerschicht von Galadon und [[Brandenstein]] um das Jahr 22 n.H. Sie verdeutlicht die Bedeutung von Korrespondenz und Literatur als Medium der sozialen Verbindung.
 
 ## Quellen
-*   [Aus dem Liebesleben eines Dichters](../../Quellen/Spielergeschichten/Aus%20dem%20Liebesleben%20eines%20Dichters%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   Aus dem Liebesleben eines Dichters (`../../Quellen/Spielergeschichten/Aus%20dem%20Liebesleben%20eines%20Dichters%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md`)

@@ -90,10 +90,10 @@ Bei Texten über 100 Zeilen **MUSS** ein Zwei-Pass-Verfahren angewendet werden:
 | 🥇 | **Lokal-Kanon** (`/Hintergrund/`, `#canon`) | Cross-check mit Kanon-Dateien. Diese Dokumente sind das unumstößliche Gesetz. | → Fakt ist verifiziert |
 | 🥈 | **Quell-Integrität** (aktuelle Quelle) | Prüfe die Konsistenz innerhalb der aktuell bearbeiteten Quelle (z.B. `/Bote/` oder `/Bibliothek/`). | → Fakt ist plausibel |
 | 🥉 | **Web-Verifikation** (`siebenwind.de`) | **Method Hint (non-runtime):** Nutze Host-Websuche mit `site:siebenwind.de [Entity Name]`. Falls Oracle fehlschlaegt, nutze lokale Suche via `rg -n "<Entity>" Quellen Siebenwind_Wiki`. | → Fakt ergänzt |
-| ❓ | **User-Eskalation** (letztes Mittel) | Wenn Informationen fehlen oder über alle Ebenen hinweg widersprüchlich sind, frage den Nutzer via Synapse-Board. | → Ticket auf `AWAITING_USER` |
+| ❓ | **User-Eskalation** (letztes Mittel) | Wenn Informationen fehlen oder über alle Ebenen hinweg widersprüchlich sind, stelle zuerst eine präzise Fachfrage an den zuständigen Spezialisten via Dispatch; nur danach Nutzer-Eskalation. | → Ticket auf `AWAITING_USER` |
 
 > **Verlässlichkeitsregel:** Höherer Rang überschreibt niedrigeren bei Widersprüchen.
-> **Synapsen-Trigger:** Wenn die Wahrheitshierarchie keine Loesung bietet (z.B. Kanon vs. Kanon), erstelle manuell ein Ticket anhand `System/Synapse_Board/_TEMPLATE_TICKET.md` auf dem Synapse-Board.
+> **Synapsen-Trigger:** Wenn die Wahrheitshierarchie keine Loesung bietet (z.B. Kanon vs. Kanon), erstelle manuell ein Ticket anhand `System/Synapse_Board/_TEMPLATE_TICKET.md` auf dem Synapse-Board und sende parallel eine Fachfrage per `mail post`.
 
 *   **Decisions:**
     - **Conflict:** Mark as `[KONFLIKT]` and log in [[Konsistenzbericht_2026]].
@@ -131,7 +131,7 @@ layout: wiki_page
         *   [[Verwandter_Artikel]]
 
         ## Referenzen
-        - Primärquelle: [Quellenname](../../Quellen/[Unterordner]/[Dateiname].md)
+        - Primärquelle: Quellenpfad `../../Quellen/[Unterordner]/[Dateiname].md`
         - Siehe auch: [Verwandter Boten-Artikel](../04_Chronik/Siebenwind_Bote_XXX.md)
         ```
 *   **Pflichtfelder:**
@@ -157,6 +157,8 @@ layout: wiki_page
         - Tabelle aller extrahierten Entitäten mit Aktion (NEU/AKTUALISIERT/VERLINKT) und Zieldatei.
         - Tabelle der Register-Updates.
         - Notizen zu Inkonsistenzen (Verweis auf Konsistenzbericht).
+    *   **Tracking [PFLICHT]:** In `Logs/Ingestion/<report>.md` die Metadaten `Auswertungs-ID`, `Ausgewertet von`, `Auswertungszeitpunkt`, `Workflow/Skill`, `Dispatch-Referenz` und `Quality-Profil (A/T/K/B/U)` pflegen.
+    *   **Register-Refresh:** Nach Abschluss `./7w_wiki.py stats` ausführen, damit das zentrale Ingestion-Tracking aktualisiert wird.
     *   **Lore Scoring [PFLICHT]:** Führe das Scoring-Skript aus, um den `lore_trust` final zu berechnen:
         ```bash
         ./7w_wiki.py score [Zieldatei]

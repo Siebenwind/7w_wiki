@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Dunvallo Linari - Matrixtheorie (Dunvallo Linari / Sheddja)
 
 ## Metadaten
-- **Quelle**: [Dunvallo Linari - Magietheoretische Grundlagen zur Zauberwirkung Matrixtheorie.md](../../Quellen/Bibliothek%20Toran%20Dur/Dunvallo%20Linari%20-%20Magietheoretische%20Grundlagen%20zur%20Zauberwirkung%20Matrixtheorie.md)
+- **Quelle**: Dunvallo Linari - Magietheoretische Grundlagen zur Zauberwirkung Matrixtheorie.md (`../../Quellen/Bibliothek%20Toran%20Dur/Dunvallo%20Linari%20-%20Magietheoretische%20Grundlagen%20zur%20Zauberwirkung%20Matrixtheorie.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung (Technische Magietheorie / Verschiedene Quellen)
 - **Lore-Score (LQS)**: 10/10

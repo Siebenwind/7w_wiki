@@ -83,6 +83,15 @@ Verbindlich gemaess `System/Synapse_Board/SY_DISPATCH.md`:
 1. Session-Start: `./7w_wiki.py mail inbox --status OPEN`
 2. Bei Uebernahme: `claim` setzen, dann bearbeiten, dann `done`.
 3. Entscheidungen immer ueber Dispatch referenzieren und verlinkte Conflict/Research-Tickets nachziehen.
+4. Bei laengeren Aufgaben aktive Status-Heartbeats senden (kurzes `mail post` zu Stand/Blocker/naechstem Schritt).
+5. Widersprueche als Frage formulieren (Beobachtung -> Vermutung -> Frage) und an den passenden Spezialisten dispatchen, bevor Nutzer-Eskalation erfolgt.
+
+### Source-Link-Hygiene
+
+1. Keine `file://`-Links.
+2. Keine `%25xx`-Doppel-Encoding-Muster in Quellenpfaden.
+3. Keine `[[index]]`-Platzhalter in Markdown-Link-Targets.
+4. Quellenpfade in Referenzen bevorzugt als relative Pfad-Literale dokumentieren (portable, strict-build stabil).
 
 ### Runtime-Konfiguration (zentral)
 

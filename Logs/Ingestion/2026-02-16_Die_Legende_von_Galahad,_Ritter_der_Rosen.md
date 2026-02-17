@@ -1,7 +1,7 @@
 # 📥 Ingestion Report: Die Legende von Galahad (Anonymus)
 
 ## Metadaten
-- **Quelle**: [Die Legende von Galahad, Ritter der Rosen.md](../../Quellen/Bibliothek%20Astrael/Die%20Legende%20von%20Galahad,%20Ritter%20der%20Rosen.md)
+- **Quelle**: Die Legende von Galahad, Ritter der Rosen.md (`../../Quellen/Bibliothek%20Astrael/Die%20Legende%20von%20Galahad,%20Ritter%20der%20Rosen.md`)
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung (Historische Legende)
 - **Lore-Score (LQS)**: 10/10
