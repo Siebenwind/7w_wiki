@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Die Sprache Run (Toran Dur)"
+title: Die_Sprache_Run
 category: Allgemein
 ---
 

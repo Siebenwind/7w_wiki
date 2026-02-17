@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Link Test"
+title: Link Test Page
 category: Allgemein
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Illusionstheorie Asanra"
+title: Illusionstheorie (Asanra)
 category: Magie
 ---
 

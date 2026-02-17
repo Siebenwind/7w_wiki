@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Index Siebenwind (Toran Dur)"
+title: Index Siebenwind
 category: Allgemein
 ---
 

@@ -87,7 +87,8 @@ nav:
 
 plugins:
   - search
-  - ezlinks
+  - ezlinks:
+      wikilinks: true
 
 markdown_extensions:
   - admonition

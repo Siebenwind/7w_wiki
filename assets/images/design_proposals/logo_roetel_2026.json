@@ -1,0 +1,15 @@
+{
+    "asset_name": "logo_roetel_2026",
+    "timestamp": "2026-02-17T21:40:00Z",
+    "style_preset": "Codex Atlanticus",
+    "prompt_used": "Square logo, red chalk (Rötel) sketch on parchment. A stylized compass rose integrated with a Siebenwind rune. High renaissance style, technical sketch, clean lines, transparent background feel (though generated on parchment). Detailed but readable at small sizes. Leonardo da Vinci style.",
+    "parameters": {
+        "aspect_ratio": "1:1",
+        "model": "gemini-3-pro-image"
+    },
+    "context": "Wiki/Docs Logo",
+    "user_constraints": [
+        "Rötel",
+        "Clear Symbolism"
+    ]
+}

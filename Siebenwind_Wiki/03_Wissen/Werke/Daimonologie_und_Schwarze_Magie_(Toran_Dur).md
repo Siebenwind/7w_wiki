@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Daimonologie und Schwarze Magie (Toran Dur)"
+title: Daimonologie und Schwarze index (Sammelband)
 category: Allgemein
 ---
 

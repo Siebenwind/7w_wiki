@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Theorien der Magie (Toran Dur)"
+title: Theorien der index (Sammelband)
 category: Allgemein
 ---
 

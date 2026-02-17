@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Die Magie (Toran Dur)"
+title: Die index
 category: Allgemein
 ---
 

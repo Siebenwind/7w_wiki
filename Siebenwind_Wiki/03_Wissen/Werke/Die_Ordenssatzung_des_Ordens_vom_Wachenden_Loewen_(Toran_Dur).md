@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Die Ordenssatzung des Ordens vom Wachenden Loewen (Toran Dur)"
+title: Die Ordenssatzung des Ordens vom Wachenden Löwen
 category: Allgemein
 ---
 

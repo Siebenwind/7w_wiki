@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Forschungsberichte (Toran Dur)"
+title: Forschungsberichte
 category: Allgemein
 ---
 

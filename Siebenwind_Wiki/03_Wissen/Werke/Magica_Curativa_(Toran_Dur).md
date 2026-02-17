@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Magica Curativa (Toran Dur)"
+title: Magica Curativa - Die Heilmagie
 category: Allgemein
 ---
 

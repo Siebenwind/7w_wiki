@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Die Enhor
+title: Die Enhor (Elementarherren)
 category: Religion
 tags: [Elemente, Schöpfung, Pantheon]
 ---

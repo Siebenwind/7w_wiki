@@ -1,0 +1,16 @@
+{
+    "asset_name": "banner_main_roetel_2026",
+    "timestamp": "2026-02-17T21:40:00Z",
+    "style_preset": "Codex Atlanticus",
+    "prompt_used": "Panoramic banner (3:1 aspect ratio), high renaissance red chalk (Rötel) sketch style on old parchment paper. The central motif is a complex 'Lore Engine' or 'Chronicle Machine' with gears, astronomical charts, and runic annotations. The style is inspired by Leonardo da Vinci's technical drawings. Faint mirror writing and geometrical construction lines. High contrast, technical precision, elegant and academic. No heavy fills, light and paper-focused.",
+    "parameters": {
+        "aspect_ratio": "3:1",
+        "model": "gemini-3-pro-image"
+    },
+    "context": "Wiki Homepage Header",
+    "user_constraints": [
+        "Real Banner",
+        "Integrated Design",
+        "Rötel Style"
+    ]
+}

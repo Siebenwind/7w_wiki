@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Elementarlehre Dunkelbaum"
+title: Elementarlehre (Dunkelbaum)
 category: Magie
 ---
 

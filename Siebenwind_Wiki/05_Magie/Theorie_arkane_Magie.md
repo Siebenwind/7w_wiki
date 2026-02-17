@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Theorie arkane Magie"
+title: Theorie zur arkanen index (Generaltheorie)
 category: Magie
 ---
 

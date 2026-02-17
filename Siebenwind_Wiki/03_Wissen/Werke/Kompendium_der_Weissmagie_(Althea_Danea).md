@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kompendium der Weissmagie (Althea Danea)"
+title: Kompendium der Weißmagie
 category: Allgemein
 ---
 

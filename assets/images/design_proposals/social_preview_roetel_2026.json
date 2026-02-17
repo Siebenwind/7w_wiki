@@ -1,0 +1,15 @@
+{
+    "asset_name": "social_preview_roetel_2026",
+    "timestamp": "2026-02-17T21:45:00Z",
+    "style_preset": "Codex Atlanticus",
+    "prompt_used": "Social media preview image (1280x640 aspect ratio). Red chalk (Rötel) sketch on parchment. A balanced composition showing technical diagrams of Siebenwind, architectural sketches of a citadel, and elegant runic script. Technical precision, high renaissance, Leonardo da Vinci style. Sophisticated academic aesthetic for a project homepage.",
+    "parameters": {
+        "aspect_ratio": "1280:640",
+        "model": "gemini-3-pro-image"
+    },
+    "context": "GitHub Social Preview",
+    "user_constraints": [
+        "Rötel",
+        "Renaissance"
+    ]
+}

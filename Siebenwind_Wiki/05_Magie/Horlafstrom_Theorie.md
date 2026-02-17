@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Horlafstrom Theorie"
+title: Horlafstrom-Theorie
 category: Magie
 ---
 

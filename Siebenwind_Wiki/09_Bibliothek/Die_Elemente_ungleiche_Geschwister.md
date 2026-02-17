@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Die Elemente ungleiche Geschwister"
+title: Die Elemente - ungleiche Geschwister
 category: Allgemein
 ---
 

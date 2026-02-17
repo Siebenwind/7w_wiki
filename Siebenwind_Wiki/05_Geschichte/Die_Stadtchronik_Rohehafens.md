@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Die Stadtchronik Rohehafens"
+title: Die Stadtchronik Rohehafens (Historisches Dokument)
 category: Geschichte
 ---
 

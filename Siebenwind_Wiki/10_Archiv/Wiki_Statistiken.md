@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Wiki Status
+title: 📊 Wiki Status
 category: Index
 ---
 

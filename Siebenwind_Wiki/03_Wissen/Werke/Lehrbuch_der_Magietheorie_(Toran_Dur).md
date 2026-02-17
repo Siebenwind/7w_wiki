@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lehrbuch der Magietheorie (Toran Dur)"
+title: Lehrbuch der Magietheorie
 category: Allgemein
 ---
 
