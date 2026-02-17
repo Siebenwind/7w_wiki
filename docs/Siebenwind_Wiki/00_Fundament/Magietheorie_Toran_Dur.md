@@ -58,22 +58,21 @@ An den Akademien werden komplexe Modelle genutzt, um die Magie zu steuern:
 
 ### Geist als Hauptelement (Linari-These)
 Erzmagus Linari korrigierte die veralteten Thesen von **[[Uron_Sbocaj]]**. Er postuliert, dass sich die vier „fassbaren“ Elemente (**Feuer, Wasser, Erde, Luft**) um ein zentrales Hauptelement scharen: den **Geist**.
-- **Werkzeug-Charakter:** Der Geist dient als Werkzeug, um die Elemente zu formen.
-- **Weg-Wahl:** Der Magier nutzt seinen Geist, um dem gewählten Pfad (Licht/Weiß, Veränderung/Grau, Zerstörung/Schwarz) Ausdruck zu verleihen.
+- **Werkzeug-Charakter:** Der Geist dient als Werkzeug, um die Elemente zu formen – ähnlich einem Hammer, den ein Schmied nutzt, um Eisen zu bearbeiten. Ein Magier, der einen Pfad nicht gewählt hat, kann das Element nur in seiner natürlichen Form (z.B. Flamme) rufen, aber nicht formen.
+- **Weg-Wahl:** Der gewählte Pfad bestimmt den Blickwinkel auf die Welt.
 - **Anwendungsbeispiel Heilung:**
-    - **Weiß:** Kraftzufuhr zur Selbstheilung.
-    - **Schwarz:** „Mantel des Vergessens“ über den Schmerz.
-    - **Grau:** Veränderung der physischen Struktur oder des Geistes.
-    - **Elementar:** Nutzung spezifischer Elementar-Qualitäten (z.B. Wärme des Feuers).
+    - **Weiß:** Nutzt die Kraft des Schaffens und Belebens.
+    - **Schwarz:** Legt einen dunklen Mantel des Vergessens über den Schmerz.
+    - **Grau:** Nutzt Veränderung, um Wunden oder Geisteszustände zu modulieren.
+    - **Elementar:** Nutzt spezifische Qualitäten (z.B. die Wärme des Feuers oder den lindernden Wind).
+- **Urmagie:** Götter und hohe Wesen nutzen den Geist nicht als Werkzeug, sondern sehen ihn als Element unter anderen. Sie wirken direkt auf die Materie, ohne komplizierte Formeln.
 
-### Fadentheorie (Astralnetz)
-Die Realität besteht aus einem **fixen Netz** (Materie) und einem **losen Netz** (manipulierbare Energie). Es existieren fünf Elementarfäden:
-- **Fe** (Feuer)
-- **Kah** (Luft)
-- **Ri** (Erde)
-- **Xa** (Wasser)
-- **Wrathe** (Geist / „Mörtel“ des Netzes)
-Magier formen aus diesen Fäden **Knoten**, um korporale Effekte zu erzielen. Das Astrale Gitter besteht aus Knotenpunkten, die über Geist-Fäden miteinander verbunden sind.
+### Fadentheorie (Das Netz der Realität)
+Die Realität wird durch ein komplexes Geflecht aus **Knotenpunkten** und verbindenden **Fäden** geformt.
+- **Knotenpunkte:** Bestehen aus den vier Elementen, die wie Steine eines Hauses aufeinandergestapelt sind. Die Reihenfolge und Quantität variiert ständig durch den permanenten **Kampf der Elemente**.
+- **Mörtel:** Der Geist fungiert als der Mörtel (Wrathe), der die Elemente in den Knotenpunkten zusammenhält und alles verbindet.
+- **Das Netz:** Unzählige Geist-Fäden verbinden diese Knotenpunkte und bilden das Netz, das unsere Sphäre von anderen Sphären und den Zwischenräumen trennt.
+- **Manipulation:** Ein Magier (Weber) manipuliert die Knotenpunkte oder folgt den Fäden (z.B. bei Teleportation), um die Wirklichkeit lokal zu verzerren.
 
 ### Aurentheorie
 Primär in der Heil- und Bannmagie genutzt. Sie betrachtet Lebewesen als Einheiten von **Aurenzentren** und Strömen. Die Summe dieser Ströme bildet die **Aura**.

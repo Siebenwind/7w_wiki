@@ -48,6 +48,8 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Terra_Dorotor]] | Kult (zerschlagen) | [[Brandenstein]] | #bote |
 | [[Magierturm_zu_Tiefenbach]] | Magische Ausbildung (Zerstört) | [[Tiefenbach]] (Hist.) | #canon |
 | [[Akademie_der_Schwarzen_Kuenste]] | Magische Ausbildung (Verboten) | Unbekannt | #canon |
+| [[Kha_zla]] | Orkischer Stamm | [[Rhator_zeg]] | #bote |
+| [[Nordwind-Universitaet]] | Magische Forschungsstätte | [[Khalandra]] | #bote |
 | [[Kult_des_Einen]] | Verbotener Kult / Diener des Einen | Zerstreut (Schreine) | #bote |
 | [[Warenhaus_Vela_und_Arn]] | Handelshaus | [[Falkensee]] | #bote |
 | [[Orden_vom_Roten_Salamander]] | Alchemisten | Unbekannt | #bote |
@@ -65,6 +67,7 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Blutige_Faust]] | Söldnertruppe | Unbekannt | #perspektive |
 | [[Magister_ad_Sinister]] | Nekromanten-Orden | Unbekannt | #perspektive |
 | [[Malthuster_Wacht]] | Städtische/Lehenswache | Malthust / [[Brandenstein]] | #bote |
+| [[Waisenhaus_Bärenhöhle]] | Soziale Einrichtung | [[Falkensee]] | #bote |
 
 
 ## Handwerks- und Handelsgilden

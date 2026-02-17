@@ -1,7 +1,9 @@
 ---
+uuid: 5FFBDE12-88AE-4ABA-AAC0-2EF4F0E6A4D3
 layout: wiki_page
 title: Siebenwind Bote 194
 category: Chronik
+updated_at: 2026-02-17T15:52:00Z
 ---
 
 # Siebenwind Bote 194
@@ -10,30 +12,28 @@ category: Chronik
 **Datum:** 7. Onar 36 n.H.
 **Redaktion:** [[Alricio_Romero_di_Madjani]] (ARdM)
 
-## Schlagzeilen
+## ⚔️ Schlagzeilen (Krieg & Triumph)
 
-### Das Dunkeltief (36 n.H.)
-- **Vorbereitung:** Der [[Inselrat]] tagte öffentlich in [[Brandenstein]], um die Verteidigung gegen das nahende Dunkeltief zu organisieren.
-- **Kommando:**
-    - Weltliche Truppen: Sire [[Helfric_von_Wallenburg]]
-    - Magier: Exzellenz [[Erynnion_Comari]]
-    - Geweihte: Eminenz [[Custodias]]
-    - Oberbefehl: Knappe [[Maichellis_Wanderstern]]
+### Das Ende von Rotschuppe
+Die Bestie ist gefallen: Der rote Lindwurm **[[Rotschuppe]]** griff am 29. Carmer die Hauptstadt [[Brandenstein]] an und setzte den Hafen in Brand.
+- **Sieg**: Unter der Führung von **[[Maichellis_Wanderstern]]**, der den Wyrm tapfer ablenkte, gelang es, die Kreatur mit dem Geschütz **[[Drachenfall]]** (Balliste) zu töten. Dies markiert das endgültige Ende des ersten roten Lindwurms.
+- **Weiterer Erfolg**: Sire **[[Helfric_von_Wallenburg]]** erlegte in einem weiteren Gefecht einen zweiten roten Wyrm, wurde dabei jedoch schwer verwundet.
 
-### Angriff auf Brandenstein
-- **Ereignis:** Am 29. Carmer griffen der Rote Lindwurm [[Rotschuppe]] und Echsenwesen die Hauptstadt an.
-- **Verlauf:** Der Lindwurm entzündete den Hafen und blockierte den Brunnen.
-- **Sieg:** [[Helfric_von_Wallenburg]] tötete die Bestie mit der magischen Waffe "Drachenfall". Er wurde dabei schwer verwundet.
-- **Opfer:** Ein Marinesoldat und der Fährmann starben.
+### Vorbereitung auf das Dunkeltief 36 n.H.
+Knappe [[Maichellis_Wanderstern]] berief den [[Inselrat]] zu einer Krisensitzung ein.
+- **Kommando**: Helfric von Wallenburg führt die weltlichen Truppen, **[[Erynnion_Comari]]** die Magier und **[[Custodias]]** die Geweihten. Der Oberbefehl liegt bei Wanderstern.
 
-### Sicherheit & Kriminalität
-- **Rattenkönigin:** Eine kriminelle [[Ferrin]], bekannt als "Rattenkönigin", wurde von [[Herr_Geist]] im Hafen getötet.
-- **Miliz:** Eine Bürgerwehr zur Verteidigung Brandensteins wurde ausgehoben.
+## 🏛️ Gesellschaft & Chronik
 
-### Vermischtes
-- **Kräuterwettstreit:** [[Tanja_Wolfframm]] gewann erneut den Wettbewerb der Wildniskundigen. Zweite wurde [[Khyra_Gropp]], Dritter [[Matis_Karntus]].
-- **Bündnis:** Die Baronie leistete dem Grünen Lindwurm [[Akassvae]] Beistand gegen Untote auf der Winzerinsel.
+### Sieg der Kräuterkunde
+[[Tanja_Wollframm]] festigt ihren Status als erfolgreichste Wildniskundige und gewann den Kräuterwettbewerb vor [[Khyra_Gropp]] und **[[Matis_Karntus]]**.
+
+### Ende der Rattenkönigin
+Die berüchtigte kriminelle Ferrin, die als **Rattenkönigin** den Hafen von Brandenstein terrorisierte, wurde von einem gewissen **[[Herr_Geist]]** (Kopfgeldjäger?) im Hafen gestellt und getötet.
+
+### Bündnistreue
+Die Baronie leistete dem grünen Lindwurm **[[Akassvae]]** auf der **[[Winzerinsel]]** militärischen Beistand gegen einen massiven Untotenangriff und bewies damit die Ernsthaftigkeit des Friedensvertrages.
 
 ---
 **Quellen:** [[Siebenwind_Bote_194]] (Original)
-**Siehe auch:** [[Chronik]], [[Angriff_auf_Brandenstein_36_nH]], [[Rotschuppe]]
+**Siehe auch:** [[Chronik]], [[Dunkeltief_36_nH]], [[Maichellis_Wanderstern]], [[Helfric_von_Wallenburg]], [[Akassvae]]

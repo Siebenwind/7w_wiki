@@ -1,7 +1,9 @@
 ---
+uuid: E9DE0094-78A4-4275-B68B-1B173E975F4A
 layout: wiki_page
 title: Siebenwind Bote 187
 category: Chronik
+updated_at: 2026-02-17T15:52:00Z
 ---
 
 # Siebenwind Bote 187
@@ -10,20 +12,31 @@ category: Chronik
 **Datum:** 10. Carmer 23 n.H.
 **Redaktion:** [[Bastean_Asanra]]
 
-## Schlagzeilen
+## 🗞️ Schlagzeilen (Insel)
 
-### Konflikt: Tempelwache vs. Nortraven
-In [[Brandenstein]] kam es zu einem gewaltsamen Zwischenfall zwischen der Tempelwache ([[Ian_Dejan]], [[Eric_Martarian]]) und einer Gruppe Nortraven ([[Isbeorn]], [[Halgar]] und der Skalde des Hetmanns).
-- **Hergang:** Die Nortraven wollten den Tempel besuchen. Die Wachen verweigerten den Zutritt (fühlten sich bedroht). Es kam zum Kampf, bei dem [[Halgar]] einen Wächter besiegte.
-- **Folgen:** Die Kirche ([[Iycheas_Vrahn]]) spricht von einem Missverständnis. Die Nortraven fühlen sich beleidigt.
+### Eskalation am Brandensteiner Tempel
+Ein Jagdausflug einer Gruppe [[Nortraven]], die einen Gesandten (Skalde) des [[Wulfhold|Hetmanns]] begleiteten, führte zu einem gewaltsamen Konflikt mit der Tempelwache in [[Brandenstein]].
 
-### In eigener Sache
-- **Neuer Redakteur:** [[Bastean_Asanra]] übernimmt die Leitung des Boten.
-- **Finanzen:** Der Bote bittet um Spenden, da er nach einem Jahr Pause wieder erscheint.
+**Beteiligte**: 
+- **Tempelwache**: [[Ian_Dejan]], [[Eric_Martarian]].
+- **Nortraven**: [[Isbeorn]], [[Halgar]] (Berserkerkrieger).
+- **Kirche**: [[Iycheas_Vrahn]].
 
-### Sonstiges
-- Die [[Malthuster_Wacht]] rekrutiert neue Soldaten.
+**Konfliktverlauf**: 
+Die Nortraven wollten den Tempel besichtigen und Beute niederlegen, wurden jedoch von den Wachen als "Wilde" beschimpft und abgewiesen. 
+> "Wir trugen eben Jagdausrüstung; aber die muss ein vernünftiger Krieger doch von einer Kriegsausrüstung unterscheiden können!" -- [[Isbeorn]]
+
+Der Streit mündete in einen Zweikampf, den [[Halgar]] für sich entschied. Die Kirche stufte den Vorfall später als "Missverständnis" ein, doch die Nortraven warnten vor einer Spaltung der Völker angesichts der Bedrohung hinter dem [[Wall]].
+> "Als Klingenfänger oder Dreschflegel sind wir ihnen stets recht. Aber würdest du an der Seite von jemandem kämpfen wollen, der dich als 'Wilder' oder 'Spitzohr' bezeichnet?" -- [[Isbeorn]]
+
+## 🏛️ In eigener Sache
+- **Neuanfang**: Nach einem Jahr Pause erscheint der Bote wieder. 
+- **Leitung**: [[Bastean_Asanra]] (Magus an der [[Koenigliche_Akademie_der_Arkanen_Kuenste]]) ist neuer leitender Redakteur.
+- **Personal**: Die Redaktion sucht neue Mitarbeiter und bittet um Spenden (Nachrichtenbrett gegenüber der Herberge in [[Falkensee]]).
+
+## 🏮 Kurzes
+- **Rekrutierung**: Die [[Malthuster_Wacht]] in Brandenstein wirbt um neue Soldaten (harter Sold, harte Ausbildung).
 
 ---
 **Quellen:** [[Siebenwind_Bote_187]] (Original)
-**Siehe auch:** [[Chronik]], [[Konflikt_Tempelwache_Nortraven]]
+**Siehe auch:** [[Chronik]], [[Konflikt_Tempelwache_Nortraven]], [[Nortraven]], [[Malthuster_Wacht]]

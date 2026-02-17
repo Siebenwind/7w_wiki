@@ -14,26 +14,35 @@ Zentrale Inventur für Ingestion-Batches.
 | Filename | Library | Author (inferred) | Status |
 |----------|---------|-------------------|--------|
 | Siebenwind Bote 118.md | Zeitung | - | Integrated (Stub) |
+| Siebenwind Bote 186.md | Zeitung | - | Integrated (v2.7) |
+| Siebenwind Bote 187.md | Zeitung | - | Integrated (v2.7) |
+| Siebenwind Bote 188.md | Zeitung | - | Integrated (v2.7) |
+| Siebenwind Bote 189.md | Zeitung | - | Integrated (v2.7) |
+| Siebenwind Bote 190.md | Zeitung | - | Integrated (v2.7) |
+| Siebenwind Bote 191.md | Zeitung | - | Integrated (v2.7) |
+| Siebenwind Bote 192.md | Zeitung | - | Integrated (v2.7) |
+| Siebenwind Bote 193.md | Zeitung | - | Integrated (v2.7) |
+| Siebenwind Bote 194.md | Zeitung | - | Integrated (v2.7) |
 | Lit Ita'Im'Elarum Odalim ir Galadon.md | Bibliothek Astrael | - | Integrated |
 | Amanda Dunkelbaum - Eigenschaften der Elemente.md | Toran Dur | Amanda Dunkelbaum | Integrated |
 | Amanda Dunkelbaum - Elementarmagie 1.md | Toran Dur | Amanda Dunkelbaum | Integrated |
 | Anonymous - Beschwîrung eines DÑmonen.md | Toran Dur | Anonymous | Integrated |
 | Anonymous - Etikette.md | Toran Dur | Anonymous | Integrated |
 | Anonymous - Homunkuli.md | Toran Dur | Anonymous | Integrated |
-| Anonymous - Lexikon des Run.xls | Toran Dur | Anonymous | Pending |
+| Anonymous - Lexikon des Run.xls | Toran Dur | Anonymous | Integrated (v2.7) |
 | Anonymous - Ritual zur Bannung des Grix.md | Toran Dur | Anonymous | Pending |
 | Anonymous - öber die Verhaltensweisen von Daimonen.md | Toran Dur | Anonymous | Integrated |
-| Arknor - Die Sprache Yerredoni.md | Toran Dur | Arknor | Pending |
+| Arknor - Die Sprache Yerredoni.md | Toran Dur | Arknor | Integrated (v2.7) |
 | Baron Morgenroith - Iruibus Siebenwind.md | Toran Dur | Baron Morgenroith | Pending |
 | Diminona - Die Foki.md | Toran Dur | Diminona | Integrated |
 | Dunvallo Linari - Artefakte.md | Toran Dur | Dunvallo Linari | Integrated |
 | Dunvallo Linari - Daimonen.md | Toran Dur | Dunvallo Linari | Integrated |
 | Dunvallo Linari - DÑmonen - Eine EinfÅhrung.md | Toran Dur | Dunvallo Linari | Integrated |
-| Dunvallo Linari - Lexikon der Magie.md | Toran Dur | Dunvallo Linari | Pending |
+| Dunvallo Linari - Lexikon der Magie.md | Toran Dur | Dunvallo Linari | Integrated (v2.7) |
 | Dunvallo Linari - Philosophie.md | Toran Dur | Dunvallo Linari | Integrated |
 | Dunvallo Linari - Rituale des Magierturms.md | Toran Dur | Dunvallo Linari | Integrated |
-| Dunvallo Linari - Thesen der Magiezweige.md | Toran Dur | Dunvallo Linari | Pending |
-| Dunvallo Linari - öber die Verwendung der Gesten und des Run in der Magie.md | Toran Dur | Dunvallo Linari | Pending |
+| Dunvallo Linari - Thesen der Magiezweige.md | Toran Dur | Dunvallo Linari | Integrated (v2.7) |
+| Dunvallo Linari - öber die Verwendung der Gesten und des Run in der Magie.md | Toran Dur | Dunvallo Linari | Integrated (v2.7) |
 | Dunvallo Linari- Reagenzien in der Magie.md | Toran Dur | - | Pending |
 | Dunvallo Linari- Zweige.md | Toran Dur | - | Pending |
 | Elurai Calades - Bindungslehre der Elementarmagier.md | Toran Dur | Elurai Calades | Pending |

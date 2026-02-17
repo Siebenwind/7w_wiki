@@ -16,9 +16,9 @@ Die Sprache **Run** (auch Altgaladonisch genannt) gilt laut Gelehrten wie Edomaw
 
 Der Name "Gohor" selbst leitet sich aus dem Run ab, wobei *Hor* für "Gott" steht. Es wird angenommen, dass die [[Drachen]] des ersten Zeitalters diese Sprache sprachen.
 
-## Grammatik der Ursprache
+## 🏗️ Grammatik der Ursprache
 
-Run zeichnet sich durch ein systematisches Endungsschema aus:
+Run folgt einer strengen Logik arkaner Endungen:
 
 | Endung | Funktion |
 | :--- | :--- |
@@ -28,21 +28,37 @@ Run zeichnet sich durch ein systematisches Endungsschema aus:
 | **~et** | Konjunktiv |
 | **~ek** | Negation |
 
+### Substantivierungen und Personen
+| Endung | Bedeutung |
+|:--- |:--- |
+| **~ai** | Der, der etwas tut (Agens) |
+| **~im** | Pluralform von ~ai |
+| **~as** | Der, an dem etwas getan wird (Patiens) |
+| **~in** | Pluralform von ~as |
+| **~ri / ~ir** | Weibliche / Männliche Person |
+| **~li** | Neutrum |
+| **~eij** | Gruppe oder Volk |
+| **~thi** | Ort der Handlung |
+
 ### Pronomina
-*   **Ta'e:** Ich
-*   **Da'e:** Du
-*   **Ha'e / Ha'eri:** Er / Sie
+| Run | Bedeutung | Run | Bedeutung |
+|:--- |:--- |:--- |:--- |
+| **Ta'e** | Ich | **Da'e** | Du |
+| **Tas** | Mir | **Das** | Dir |
+| **Tar** | Mein | **Dar** | Dein |
+| **Tan** | Mich | **Dan** | Dich |
+| **Ha'e** | Er | **Ha'eri** | Sie |
+| **Has** | Ihm | **Hasri** | Ihr |
 
 ## Auszug aus dem Wortschatz
 
-*   **Hor:** Gott / Göttin
-*   **Gala:** Heilig
-*   **Ka:** Waffe
-*   **Sah:** Seele
-*   **Corp:** Tod
-*   **Dyr:** Wille
-*   **Enwunji:** Buch
-*   **Odal:** Magie
+| Run | Galadonisch | Run | Galadonisch |
+|:--- |:--- |:--- |:--- |
+| **Hor** | Gott / Göttin | **Corp** | Tod |
+| **Gala** | Heilig | **Sot** | Leben |
+| **Ka** | Waffe | **Odal** | Magie |
+| **Sah** | Seele | **Enwunji** | Buch |
+| **Dyr** | Wille | **Scri** | Schrift |
 
 ---
 > [!TIP]
