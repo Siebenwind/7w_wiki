@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Daimonologie und Schwarze Magie (Toran Dur)"
+category: Allgemein
+---
+
 # Daimonologie und Schwarze [[index]] (Sammelband)
 
 **Autor:** [[Toran Dur]] (mit Beiträgen von [[Nefustor]])

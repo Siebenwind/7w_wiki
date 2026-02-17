@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Die Magie (Toran Dur)"
+category: Allgemein
+---
+
 # Die [[index]]
 
 **Autor:** [[Toran Dur]]

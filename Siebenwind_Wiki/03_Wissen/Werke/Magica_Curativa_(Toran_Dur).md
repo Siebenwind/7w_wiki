@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Magica Curativa (Toran Dur)"
+category: Allgemein
+---
+
 # Magica Curativa - Die Heilmagie
 
 **Autor:** [[Toran Dur]]

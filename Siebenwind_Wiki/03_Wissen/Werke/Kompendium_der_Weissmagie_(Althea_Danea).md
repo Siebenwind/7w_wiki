@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Kompendium der Weissmagie (Althea Danea)"
+category: Allgemein
+---
+
 layout: wiki_page
 title: "Kompendium der Weißmagie"
 category: [[index]]

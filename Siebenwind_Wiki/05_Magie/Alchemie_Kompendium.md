@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Alchemie Kompendium"
+category: Magie
+---
+
 layout: wiki_page
 title: "Alchemie Kompendium"
 category: [[index]]

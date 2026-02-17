@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Horlafstrom Theorie"
+category: Magie
+---
+
 layout: wiki_page
 title: "Horlafstrom-Theorie"
 category: [[index]]

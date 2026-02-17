@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Index Siebenwind (Toran Dur)"
+category: Allgemein
+---
+
 # Index [[Siebenwind]]
 
 **Autor:** [[Toran Dur]]

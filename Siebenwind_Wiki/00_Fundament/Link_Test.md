@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Link Test"
+category: Allgemein
+---
+
 # Link Test Page
 
 ## Internal Links (Same Folder)

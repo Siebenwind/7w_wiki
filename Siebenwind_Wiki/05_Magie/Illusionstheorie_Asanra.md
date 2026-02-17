@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Illusionstheorie Asanra"
+category: Magie
+---
+
 layout: wiki_page
 title: "Theorethik der arkanen [[index]]: Illusionistik"
 category: [[index]]

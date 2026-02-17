@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Graue Charta (Zweiter Entwurf)"
+category: Allgemein
+---
+
 # Graue Charta (Zweiter Entwurf)
 
 **Autor:** [[Toran Dur]] (vermutlich als Erzmagus)

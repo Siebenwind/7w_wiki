@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Theorien der Magie (Toran Dur)"
+category: Allgemein
+---
+
 # Theorien der [[index]] (Sammelband)
 
 **Autor:** [[Toran Dur]]

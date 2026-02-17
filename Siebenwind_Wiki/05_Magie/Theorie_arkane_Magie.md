@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Theorie arkane Magie"
+category: Magie
+---
+
 layout: wiki_page
 title: "Theorie zur arkanen [[index]]"
 category: [[index]]

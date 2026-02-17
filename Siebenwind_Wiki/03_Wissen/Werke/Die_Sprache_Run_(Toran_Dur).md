@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Die Sprache Run (Toran Dur)"
+category: Allgemein
+---
+
 # [[Die_Sprache_Run]]
 
 **Autor:** [[Toran Dur]]

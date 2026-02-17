@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Die Ordenssatzung des Ordens vom Wachenden Loewen (Toran Dur)"
+category: Allgemein
+---
+
 # Die Ordenssatzung des Ordens vom Wachenden Löwen
 
 **Autor:** [[Toran Dur]] (Ordensmeister), [[Cendaric Tibur]], [[Lothar Gavinwald]], [[Akora Dur]], [[Dorion Hali]]

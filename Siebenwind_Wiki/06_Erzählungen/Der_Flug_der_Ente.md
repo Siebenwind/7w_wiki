@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Der Flug der Ente"
+category: Allgemein
+---
+
 status: integrated
 uuid: flug-der-ente-narrative-22nh
 report_id: f1u2g3-d4e5-r-6e7n-8t9e-20260216

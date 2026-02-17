@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Die Eisernen Tafeln"
+category: Religion
+---
+
 layout: wiki_page
 title: "Die Eisernen Tafeln"
 category: Religion

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Der naive Mensch"
+category: Religion
+---
+
 layout: wiki_page
 title: "Der naive Mensch"
 category: Religion

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Die Silbernen Tafeln"
+category: Religion
+---
+
 layout: wiki_page
 title: "Die Silbernen Tafeln"
 category: Religion

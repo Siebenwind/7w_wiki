@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Elementarlehre Dunkelbaum"
+category: Magie
+---
+
 layout: wiki_page
 title: "Der [[Elementare]] Pfad"
 category: [[index]]

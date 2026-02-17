@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Die Goldenen Tafeln"
+category: Religion
+---
+
 layout: wiki_page
 title: "Die Goldenen Tafeln"
 category: Religion

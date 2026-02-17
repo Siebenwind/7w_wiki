@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Die Stadtchronik Rohehafens"
+category: Geschichte
+---
+
 layout: wiki_page
 title: "Die Stadtchronik Rohehafens"
 category: Geschichte

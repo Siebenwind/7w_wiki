@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Briefe aus der Ferne"
+category: Geschichte
+---
+
 layout: wiki_page
 title: Briefe aus der Ferne
 category: Erzählung

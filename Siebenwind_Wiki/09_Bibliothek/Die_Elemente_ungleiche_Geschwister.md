@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Die Elemente ungleiche Geschwister"
+category: Allgemein
+---
+
 layout: wiki_page
 title: Die Elemente - ungleiche Geschwister
 category: Magie

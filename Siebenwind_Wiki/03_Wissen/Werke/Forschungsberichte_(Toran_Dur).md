@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Forschungsberichte (Toran Dur)"
+category: Allgemein
+---
+
 # Forschungsberichte
 
 **Autor:** [[Toran Dur]]
