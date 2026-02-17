@@ -103,7 +103,38 @@ Rituale lagern Komponenten der Magie auf Hilfsmittel (**Paraphernalia**) aus:
 - **Schutzkreis:** Hält Einflüsse fern.
 Beide nutzen die *Aversität* der Elemente (z.B. Feuer gegen Wasser), um Barrieren zu errichten.
 
+## Das "Wo" der Magie: Locus Magicae vs. Thaugitter
+
+In der Arkanistik von Toran Dur gibt es zwei komplementäre Ebenen der Wahrnehmung:
+
+### 1. Das Innere Organ (Locus Magicae)
+Nach [[Johannes_Klos]] besitzt jeder Magier einen **Locus Magicae**. Es ist die Schnittstelle, die Signale (Runen, Gesten, Gefühle) empfängt, verarbeitet und in den Astralraum projiziert.
+*Siehe Hauptartikel: [[Locus_Magicae]]*
+
+### 2. Der Äußere Raum (Das Gitter)
+Das **thaumaturgische Gitter** durchzieht das gesamte Universum. Während der Locus Magicae die Magie *erzeugt*, bildet das Gitter die *Struktur*, an der sie sich manifestiert.
+
+## Wesenheiten der Macht
+Die Wirkung von Magie unterscheidet sich bei höheren Wesenheiten nach ihrer Natur:
+- **Lazperday-Wesen**: Nutzen Gestik (Hand-Bewegende).
+    - *Man-Lazperday*: Natürlich geboren (z.B. Gnome, Feen).
+    - *Ing-Lazperday*: Künstlich erschaffen (z.B. [[Gargoyles]]).
+- **Warthun-Wesen**: Nutzen reine Konzentration (Geist-Wirkende).
+    - *Uruzman-Warthun*: Mächtige, lebende Entitäten (z.B. Liche, höhere Elementare).
+    - *Nuinarra-Warthun*: Durch hohe Magie erschaffen (z.B. Golems, Djinn).
+*Siehe Hauptartikel: [[Wesenheiten_der_Macht]] (Konsolidiert) / [[Arkane_Verbindung_hoeherer_Wesenheiten_(Johann_Liebig)]]*
+
+## 🗿 Das Ritual der Golemschaffung (Nuinarra-Warthun)
+Die Erschaffung eines Golems ist ein hochkomplexer Prozess der Bindung an das thaumaturgische Gitter:
+1. **Anrufung**: Nutzung von *Narra* (Macht) und *Vy* (Kraft) unter dem Schutz von Astrael und Rien.
+2. **Belebung**: *Astrael ing Narra e v vy ki Helir Ri Raman* (Erschaffe Macht und Kraft in der Erdenstatue).
+3. **Bindung**: Die Unterwerfung des Konstrukts (*Xay helir Ri wah Tas!*) ist kritisch; bei Bruch der Bindung wird das Wesen aggressiv.
+
 ## Siehe auch
 - [[Das_Fundament]]
 - [[Codex_Astraeli]]
 - [[Astrael]]
+- [[Locus_Magicae]]
+- [[Arkane_Verbindung_hoeherer_Wesenheiten_(Johann_Liebig)]]
+- [[Arkane_Lokalitaeten]]
+- [[Sphaerenkunde_Kosmologie]]

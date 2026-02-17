@@ -7,7 +7,7 @@
 **Glaube:** Thjarek & Eydis (Ur-Götter), Wolthar & Gea (Kinder)
 
 ## Einleitung
-Die **Nortraven** (Nordraben) sind das stolze und raue Seefahrervolk des Nordens. Obwohl sie biologisch den Menschen zugeordnet werden können, lehnen sie diese Bezeichnung strikt ab und sehen sich aufgrund ihrer Kultur, ihres Glaubens und ihrer physischen Härte als eigene Rasse. Sie sind die unbestrittenen Meister des Schiffbaus und der Navigation in den tückischen Nordgewässern.
+Die **Nortraven** (Nordraben) sind das stolze und raue Seefahrervolk des Nordens (vorwiegend in **[[Westhever]]** beheimatet). Moss (14 n.H.) beschreibt sie als physisch deutlich größer und kräftiger als der durchschnittliche Kontinentalmensch. Obwohl sie biologisch den Menschen zugeordnet werden können, lehnen sie diese Bezeichnung strikt ab. Sie sind die unbestrittenen Meister des Schiffbaus (die legendären **„Nordwind“-Hulken**) und der Navigation.
 
 ## Herkunft und Glaube
 Nach ihrer Schöpfungsgeschichte wurden die Nortraven von **Thjarek** (Gott der Kraft und des Meeres) und **Eydis** (Göttin der Natur und des Windes) als Ebenbild der Götter geschaffen.

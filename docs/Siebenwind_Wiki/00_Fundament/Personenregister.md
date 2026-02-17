@@ -186,7 +186,8 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Levarum_I_ap_Raan]] | König von Galadon (Gründer Raan-Ära) | [Könige Falandriens] | Historisch | #überlieferung |
 | [[Yslandar_Nyell_Mondenlaub]] | Erzmagier / Gründer En'Drûn | [Der Elementare Pfad] | Historisch (vor 300 J.) | #canon |
 | [[Khorne]] | Kriegsgott (Häresie) | [Astrael Batch] | Historisch | #überlieferung |
-| [[Kalveron_Dai]] | Hoher Arkanist (Weißer Zweig) | [De Magica Angamoniensis] / [System arkaner Lokalitäten] | 13/14 n.H. | #überlieferung |
+| [[Gar_Navona]] | Magister (Gargoyle-Schöpfer) | [[Wesenheiten_der_Macht]] | Historisch | #überlieferung |
+| [[Kalveron_Dai]] | Hoher Arkanist (Weißer Zweig) | [[Arkane_Lokalitaeten]] / [De Magica Angamoniensis] | 13/14 n.H. | #überlieferung |
 | [[Kida_Gilwen]] | Erzmaga / Zeittheoretikerin | [Bote 163] / [Erw. Sphärentheorie] | 18-19 n.H. | #bote |
 | [[Kulin_Laetall]] | Erzmagus / Autor | [Daimonicon] | Historisch | #überlieferung |
 | [[Kaarem_Balta]] | Schwarzmagier / Meister | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
@@ -656,10 +657,12 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Vanagard_ap_Galad]] | Fürst (Herder) / Mitglied Ersonter Bund | [Entstehung d. Ersonter Bundes] | Historisch | #überlieferung |
 | [[Yeroma_von_Wallenburg]] | Baronin (Wallenburg) / Mitglied Ersonter Bund | [Entstehung d. Ersonter Bundes] | Historisch | #überlieferung |
 | [[Janniea_Lavrial]] | Stadtkonsula ([[Falkensee]]) | [Bote 158] | amtierend | #bote |
-| [[Jennaia_Lavrial]] | Magistra | [Theorie der elementaren Atome] | Historisch | #überlieferung |
+| [[Jennaia_Lavrial]] | Magistra | [[Elementare_Atomtheorie]] | Historisch | #überlieferung |
 | [[Johannes_Klos]] | Magietheoretiker | [Locus Magicae] | Historisch | #überlieferung |
 
+| [[Hahngard_Esteron]] | Magister (Gargoyle-Beobachter) | [[Wesenheiten_der_Macht]] | Historisch | #überlieferung |
 | [[Haldhold_Hammerhall]] | Turniersieger (Zwerg) | [Bote 152] | 17 n.H. | #bote |
+| [[Elyran_Fischer]] | Adeptus Arkanis (Mitte) | [[Elementarer_Pfad_der_Mitte]] | Historisch | #überlieferung |
 | [[Fabius_Letarien]] | Vertreter der Menschen / Barde | [Bote 160] | 18 n.H. | #bote |
 | [[Emanuel_Sanderus]] | Bürger (Ehemann von Felis) | [Bote 172] | 19 n.H. | #bote |
 | [[Louis]] | Dieb / Ehem. Leiter Handelsbund | [Bote 152] | 17 n.H. | #bote |
@@ -701,11 +704,11 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Nistram_Rigas]] | Adeptus Arkanis (Antimagie) | [Magica Contraria] | Historisch | #überlieferung |
 | [[Nuir_Ekre]] | Akoluth (Graue Garde) | [Kunst der Diener] | Historisch | #überlieferung |
 | [[Nirluk]] | Dämonentöter ([[Dwarschim]]) | [Die Zwergen-WG] | - | #perspektive |
-| [[Raisha_al_Javet]] | Magistra / Elementaristin (Elementharii) | [[Elementarmagie]] | Historisch | #überlieferung |
-| [[Rhadamanth]] | Hochmagus ([[Grauer_Pfad]]) / Ritualkundler | [[Magietheorie_Gesten_und_Run]] | Historisch | #überlieferung |
-| [[Raisha_al_Javet]] | Magierin (Elementar) | [Invocatio Elementharii] | Historisch | #überlieferung |
+| [[Raisha_al_Javet]] | Magistra / Elementaristin (Elementharii) | [[Elementarmagie]] / [Invocatio Elementharii] | Historisch | #überlieferung |
 | [[Rose_von_Sonnentau]] | Bardin / Dichterin | [Der letzte Falke] | Historisch | #überlieferung |
 | [[Sylest_le_Felyhn]] | Adepta Arkana (Rechts) | [Vjera Batama Magica] | Historisch | #überlieferung |
+| [[Terenon_Sarophilan]] | Magister (Le`Quellar) | [[Sphaerenkunde_Kosmologie]] | Historisch | #überlieferung |
+| [[Thanthul]] | Lehrmeister (Schwarzmagie) | [[Schwarze_Ritualmagie]] | Historisch | #überlieferung |
 | [[Tjure_Odal]] | Ketzer / Magier (?) | [Bote 186] | 22 n.H. | #bote |
 | [[Veridon]] | ? | - | - | #überlieferung |
 | [[Terenon_Sarophilan]] | Magier (Elfenfreund) | [Theorien der Magie] | Historisch | #überlieferung |

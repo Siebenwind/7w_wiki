@@ -30,10 +30,10 @@ Zentrale Inventur für Ingestion-Batches.
 | Anonymous - Etikette.md | Toran Dur | Anonymous | Integrated |
 | Anonymous - Homunkuli.md | Toran Dur | Anonymous | Integrated |
 | Anonymous - Lexikon des Run.xls | Toran Dur | Anonymous | Integrated (v2.7) |
-| Anonymous - Ritual zur Bannung des Grix.md | Toran Dur | Anonymous | Pending |
+| Anonymous - Ritual zur Bannung des Grix.md | Toran Dur | Anonymous | Integrated |
 | Anonymous - öber die Verhaltensweisen von Daimonen.md | Toran Dur | Anonymous | Integrated |
 | Arknor - Die Sprache Yerredoni.md | Toran Dur | Arknor | Integrated (v2.7) |
-| Baron Morgenroith - Iruibus Siebenwind.md | Toran Dur | Baron Morgenroith | Pending |
+| Baron Morgenroith - Iruibus Siebenwind.md | Toran Dur | Baron Morgenroith | Integrated |
 | Diminona - Die Foki.md | Toran Dur | Diminona | Integrated |
 | Dunvallo Linari - Artefakte.md | Toran Dur | Dunvallo Linari | Integrated |
 | Dunvallo Linari - Daimonen.md | Toran Dur | Dunvallo Linari | Integrated |
@@ -43,23 +43,23 @@ Zentrale Inventur für Ingestion-Batches.
 | Dunvallo Linari - Rituale des Magierturms.md | Toran Dur | Dunvallo Linari | Integrated |
 | Dunvallo Linari - Thesen der Magiezweige.md | Toran Dur | Dunvallo Linari | Integrated (v2.7) |
 | Dunvallo Linari - öber die Verwendung der Gesten und des Run in der Magie.md | Toran Dur | Dunvallo Linari | Integrated (v2.7) |
-| Dunvallo Linari- Reagenzien in der Magie.md | Toran Dur | - | Pending |
-| Dunvallo Linari- Zweige.md | Toran Dur | - | Pending |
-| Elurai Calades - Bindungslehre der Elementarmagier.md | Toran Dur | Elurai Calades | Pending |
-| Elyran Fischer - Die Elemente aus der Sicht der Mitte.md | Toran Dur | Elyran Fischer | Pending |
-| Garreth Moss - Kompendium Åber die Vîlker auf Siebenwind.md | Toran Dur | Garreth Moss | Pending |
-| Jennaia Lavrial - Die These der elementaren Atome und ihre praktischen und theoretischen Anwendungsmîglichkeiten.md | Toran Dur | Jennaia Lavrial | Pending |
-| Johann Liebig - Arkane Verbindung und Wirkung von hîheren Wesenheiten.md | Toran Dur | Johann Liebig | Pending |
-| Johannes Klos - Locus Magicae.md | Toran Dur | Johannes Klos | Pending |
-| Kalveron Dai - Das System arkaner LokalitÑten.md | Toran Dur | Kalveron Dai | Pending |
-| Kalveron Dai - De Magica Angamoniensis.md | Toran Dur | Kalveron Dai | Pending |
-| Raisha al Javet - Invocatio Elementharii.md | Toran Dur | Raisha al Javet | Pending |
+| Dunvallo Linari- Reagenzien in der Magie.md | Toran Dur | - | Integrated (v2.7) |
+| Dunvallo Linari- Zweige.md | Toran Dur | - | Integrated (v2.7) |
+| Elurai Calades - Bindungslehre der Elementarmagier.md | Toran Dur | Elurai Calades | Integrated |
+| Elyran Fischer - Die Elemente aus der Sicht der Mitte.md | Toran Dur | Elyran Fischer | Integrated (v2.7) |
+| Garreth Moss - Kompendium Åber die Vîlker auf Siebenwind.md | Toran Dur | Garreth Moss | Integrated (v2.7) |
+| Jennaia Lavrial - Die These der elementaren Atome und ihre praktischen und theoretischen Anwendungsmîglichkeiten.md | Toran Dur | Jennaia Lavrial | Integrated (v2.7) |
+| Johann Liebig - Arkane Verbindung und Wirkung von hîheren Wesenheiten.md | Toran Dur | Johann Liebig | Integrated (v2.7) |
+| Johannes Klos - Locus Magicae.md | Toran Dur | Johannes Klos | Integrated (v2.7) |
+| Kalveron Dai - Das System arkaner LokalitÑten.md | Toran Dur | Kalveron Dai | Integrated (v2.7) |
+| Kalveron Dai - De Magica Angamoniensis.md | Toran Dur | Kalveron Dai | Integrated (v2.7) |
+| Raisha al Javet - Invocatio Elementharii.md | Toran Dur | Raisha al Javet | Integrated (v2.7) |
 | Rhadhan der Graue - Zeichnung Tares.jpg | Toran Dur | Rhadhan der Graue | Pending |
-| Rose von Sonnentau - Der letzte Falke.md | Toran Dur | Rose von Sonnentau | Pending |
-| Schamanische Magie.md | Toran Dur | - | Pending |
-| Terenon Sarophilan - Theorien Åber die Herkunft und das Wirken der Magie.md | Toran Dur | Terenon Sarophilan | Pending |
-| Thanthul - Schwarze Ritualmagie.md | Toran Dur | Thanthul | Pending |
-| Themus Takai - Theorem zu den Baumwesen.md | Toran Dur | Themus Takai | Pending |
+| Rose von Sonnentau - Der letzte Falke.md | Toran Dur | Rose von Sonnentau | Integrated (v2.7) |
+| Schamanische Magie.md | Toran Dur | - | Integrated (v2.7) |
+| Terenon Sarophilan - Theorien Åber die Herkunft und das Wirken der Magie.md | Toran Dur | Terenon Sarophilan | Integrated (v2.7) |
+| Thanthul - Schwarze Ritualmagie.md | Toran Dur | Thanthul | Integrated (v2.7) |
+| Themus Takai - Theorem zu den Baumwesen.md | Toran Dur | Themus Takai | Integrated |
 | Toran Dur - Mazzarem Sprache 2.xls | Toran Dur | Toran Dur | Pending |
 | Toran Dur - Mazzaren-Sprache.xls | Toran Dur | Toran Dur | Pending |
 

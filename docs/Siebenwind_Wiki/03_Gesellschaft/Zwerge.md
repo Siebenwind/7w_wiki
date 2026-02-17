@@ -12,7 +12,8 @@ author: [[Siebenwind]] Chronicler
 **Kategorie:** Rasse
 **Eigenbezeichnung:** Dwarschim
 **Unterarten:** Bergzwerge (Bingen), Talzwerge (Oberirdisch)
-**Glaube:** [[Arkadon]] (Feuer/Schöpfer), [[Terra]] (Erde/Mutter), [[Bellum]] (Kampf/Ehre), Ahnenverehrung ("Amrosch")
+**Zentralort:** [[Brockental]]
+**Glaube:** [[Arkadon]] (Feuer/Schöpfer), [[Terra]] (Erde/Mutter), [[Bellum]] (Kampf/Ehre), oder der **Erdwächter** ([[Rien]]).
 
 ## Einleitung
 Die Zwerge, oder **Dwarschim**, wie sie sich selbst nennen, sind ein Volk von kleiner Statur, aber enormer Kraft und handwerklichem Geschick. Sie gelten als die unbestrittenen Meister des Bergbaus, der Metallurgie und der Architektur.
@@ -27,14 +28,14 @@ Nach dem zwergischen Glauben wurden die Dwarschim von **[[Arkadon]]** (Elementar
 ## Die Völker der Zwerge
 
 ### 1. Bergzwerge
-*   **Lebensraum:** Leben in riesigen unterirdischen Städten, den **Bingen** (z.B. im Klauengebirge oder der Drachenschwinge).
-*   **Kultur:** Streng traditionell, patriarchalisch und organisiert in Zünften. Sie sind berüchtigt für ihren "Sturkopf" und ihr Misstrauen gegenüber Fremden.
-*   **Spezialisierung:** Förderung von **Fethril**, dem stärksten Metall Tares.
+*   **Lebensraum:** Leben in riesigen unterirdischen Städten, den **Bingen** (z.B. im Klauengebirge oder im inneren Teil von **Brockental**).
+*   **Kultur:** Streng traditionell, patriarchalisch und organisiert in Zünften. Meisterschmiede von **Fethril**.
+*   **Glaube:** Starker Fokus auf **[[Arkadon]]** (Ignis).
 
 ### 2. Talzwerge
-*   **Lebensraum:** Siedeln oberirdisch in Tälern, oft am Fuße der Gebirge (z.B. **Narko** in Kettel).
-*   **Kultur:** Gemütlicher und dem Handel zugeneigt. Sie dienen oft als Bindeglied zwischen den isolierten Bingen und den Menschenreichen.
-*   **Handwerk:** Geschickt in "fizzeligen" Dingen wie Feinmechanik, Uhrenbau und Alchemie.
+*   **Lebensraum:** Siedeln oberirdisch in Tälern, oft am Fuße der Gebirge (z.B. die Vorstadt von **Brockental** oder **Narko**).
+*   **Kultur:** Gemütlicher und dem Handel zugeneigt. Dienen als Händler und Diplomaten.
+*   **Glaube:** Orientieren sich oft am **Erdwächter** ([[Rien]]).
 
 ## Gesellschaft und Bräuche
 *   **Der Bart:** Mehr als Zierde; er gilt als Speicher von Ehre und Intelligenz. Ein Bart wird rituell mit Met gepflegt.

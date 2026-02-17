@@ -25,15 +25,16 @@ Nach der Überlieferung entstanden die Elfen im Zweiten Zeitalter aus den Träum
 Durch kulturelle und elementare Spezialisierung haben sich die Elfen in drei Hauptvölker aufgeteilt:
 
 ### 1. Waldelfen (Sylvaner)
-*   **Lebensraum:** Vorwiegend in den tiefen Wäldern des Fürstentums **Tiefenwald** und im **Seelenwald**.
+*   **Lebensraum:** Vorwiegend in den tiefen Wäldern des Fürstentums **Tiefenwald** und im **Seelenwald**. Nach Moss (14 n.H.) bewohnen sie im Osten einen **schwebenden Hain** in den Baumkronen.
 *   **Philosophie:** Das **Terthao** (Gleichgewicht der Natur). Sie leben so eins mit dem Wald, dass sie keine Spuren hinterlassen.
+*   **Charakter:** Extrem verschlossen und territorial gegenüber Außenstehenden.
 *   **Glaube:** Verehren hauptsächlich **[[Rien]]**.
 *   **Magie:** Intuitive Natur- und Traummagie.
 
 ### 2. [[Auenelfen]]
-*   **Lebensraum:** Auenlandschaften von **[[Region_Lichtenfeld|Lichtenfeld]]** oder im Herzogtum **[[Region_Sae|Sae]]**.
-*   **Kultur:** Etwas sesshafter, pflegen Bibliotheken und Dressur von Nutztieren (Pferden). Sie sind die Bewahrer der Geschichte (Dämmerungs-Zyklus).
-*   **Glaube:** Verehren oft Tevra oder Maquira (Herrin des Wassers).
+*   **Lebensraum:** Auenlandschaften von **[[Region_Lichtenfeld|Lichtenfeld]]** oder im Herzogtum **[[Region_Sae|Sae]]** (Zentrum: **Avindrell**).
+*   **Kultur:** Etwas sesshafter, pflegen Bibliotheken und Dressur von Nutztieren (Pferden). Moss beschreibt sie als zierlich und beinahe „animalisch“ wild.
+*   **Glaube:** Verehren oft Tevra oder Maquira (Herrin des Wassers). Alle Auenelfen beherrschen grundlegende Magie.
 
 ### 3. [[Hochelfen]]
 *   **Lebensraum:** Städte wie **Librasulus** (Baronie Kettel) oder **[[Draconis]]**.

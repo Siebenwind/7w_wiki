@@ -58,5 +58,17 @@ Dies ist das zentrale Board für offene Forschungsfragen, Lore-Inkonsistenzen un
 - **Status:** In Untersuchung ([[Conflict_2026-004_Astral_Web_Origin]])
 - **Thema:** Widerspruch zwischen kirchlichem Dogma (Geschenk Astraels) und akademsicher Theorie (Gohor-Konstrukt).
 
+### [RESEARCH-2026-008] Der Sphärenriss & Die Unnatürliche Matrix
+- **Status:** ✅ Gelöst (siehe [[Sphaerenriss_Finsterwangen]])
+- **Quelle:** [[Kalveron_Dai]] (De Magica Angamoniensis, 14 n.H.)
+- **Ergebnis:** Der Riss in Finsterwangen ermöglicht eine „Seelen-Schleife“, die Untote unzerstörbar macht, solange die unnatürliche Matrix besteht.
+- **Zuständig:** Lore-Gelehrter
+
+### [RESEARCH-2026-009] Das Locus-Magicae-Organ
+- **Status:** ✅ Gelöst (siehe [[Locus_Magicae]])
+- **Quelle:** [[Johannes_Klos]] (Locus Magicae)
+- **Ergebnis:** Magie wird über ein internes Organ verarbeitet, das aus Empfänger, Interpreter und Konstruktor besteht.
+- **Zuständig:** Lore-Gelehrter
+
 ---
-*Zuletzt aktualisiert: 14. Februar 2026*
+*Zuletzt aktualisiert: 17. Februar 2026*

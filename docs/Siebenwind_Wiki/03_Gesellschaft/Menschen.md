@@ -15,7 +15,7 @@ author: [[Siebenwind]] Chronicler
 **Religion:** [[Kirche_der_Viere]] (Viereinigkeit)
 
 ## Einleitung
-Die Menschen sind die dominierende und zahlenmäßig stärkste Rasse auf Falandrien. Ihr Reich, Galadon, erstreckt sich über weite Teile des Kontinents und ist geprägt von einer strengen feudalen Ordnung, tiefem Glauben an die vier guten Götter und einer langen, wechselvollen [[Chronik]].
+Die Menschen sind die dominierende und zahlenmäßig stärkste Rasse auf Falandrien. Moss betont in seinem Kompendium ihre außergewöhnliche Vielfalt und ihr Geschick, „auch mit wenig viel anzufangen“. Ihr Reich, Galadon, erstreckt sich über weite Teile des Kontinents und ist geprägt von einer strengen feudalen Ordnung, tiefem Glauben an die vier guten Götter und einer langen, wechselvollen [[Chronik]].
 
 ## Ursprung und [[Chronik]]
 Die Menschen blicken auf eine über 5000-jährige [[Chronik]] zurück, die von Kriegen, Aufstiegen und Fällen geprägt ist. Ein prägendes Ereignis waren die **Amulettkriege**, in denen sie gegen die dunklen Mächte ([[Rasse_Myten]] unter Angamons Einfluss) kämpften.
