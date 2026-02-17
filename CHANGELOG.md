@@ -1,5 +1,30 @@
 # Changelog
 
+#### [2026-02-17.08] - Handover Checkpoint: Statuslauf, Suite-All und Queue-Dokumentation
+
+### Prioritaet
+- P1
+
+### Geaendert
+- `MASTER_TASK_LIST.md` auf aktuellen Handover-Checkpoint synchronisiert (Status + neue P1-Gates fuer Interop/Audit).
+- Konsistenzrisiken aus dem aktuellen Lauf in `Logs/Konsistenzbericht_2026.md` als offene Punkte ergaenzt.
+
+### Validiert
+- `./7w_wiki.py stats`  
+  Report: `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md`
+- `./7w_wiki.py test --suite all`  
+  Reports:  
+  `Logs/Archive/TEST_clean-client-state_2026-02-17_220158.md`  
+  `Logs/Archive/TEST_interop-doc-links_2026-02-17_220158.md`  
+  `Logs/Archive/TEST_rag-relevance-smoke_2026-02-17_220524.md`  
+  `Logs/Archive/TEST_takeover-handover_2026-02-17_220526.md`
+- `./7w_wiki.py test --suite clean-client-state`  
+  Report: `Logs/Archive/TEST_clean-client-state_2026-02-17_220712.md`
+- `./7w_wiki.py mail inbox --status OPEN`  
+  Offen: `MSG-2026-0002`, `MSG-2026-0003`, `MSG-2026-0004`, `MSG-2026-0005`, `MSG-2026-0006`, `MSG-2026-0007`, `MSG-2026-0008`
+- `./7w_wiki.py audit`  
+  Report: `Logs/Archive/Audit_e72e3011-9298-4639-825d-37f6cabd2fd9.txt` (FAIL, 1184 Probleme)
+
 #### [2026-02-17.07] - Visual Identity Refresh & Link Resolution Audit (Phase 1.23)
 
 ### Prioritaet

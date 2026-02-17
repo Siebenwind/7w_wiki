@@ -5,12 +5,14 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-17 21:55 (Antigravity -> User)
-- **Status**: Phase 1.23 complete; Visual Identity refreshed; Link flattening diagnosed.
+- **Last Handover**: 2026-02-17 22:05 (Codex -> User)
+- **Status**: Handover-Checkpoint ausgefuehrt; `stats` aktualisiert; `test --suite all` und `audit` aktuell FAIL (Interop/Audit-Regression dokumentiert).
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
+- [ ] **Handover Gate Repair**: Defekten Link in `.agent/workflows/handover.md` beheben (`../...`) und `interop-doc-links` wieder gruen bekommen.
+- [ ] **Audit Regression Triage**: Report `Logs/Archive/Audit_e72e3011-9298-4639-825d-37f6cabd2fd9.txt` auf P1-Breaker reduzieren (Duplikat `Mirila_Mik_Honigzopf`, fehlendes Profil `Althea_Danea`, Link-Flood).
 - [ ] **Technical Link Repair**: Prefixing 1100+ links with category folders to overcome `ezlinks` flattening.
 - [ ] **Ingestion 2.0**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - [BLOCKED: 118 Source Missing].
 

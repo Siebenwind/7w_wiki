@@ -30,6 +30,8 @@
 |---|---|---|---|---|
 | K-001 | GitHub 404 | Tech | Deployment wirft 404 wegen fehlendem `.nojekyll`. | ✅ Behoben (Pending Push) |
 | K-002 | 19k Dead Links | Inhalt | Massive Anzahl toter Wiki-Links in älteren Artikeln. | 🔴 Offen |
+| K-003 | Handover Link-Check Regression | Interop | `test --suite all` meldet in `interop-doc-links` einen defekten Link in `.agent/workflows/handover.md` (`../...`). | 🔴 Offen |
+| K-004 | Audit Gate Regression | Betrieb | `./7w_wiki.py audit` liefert 1184 Probleme (u.a. `Mirila_Mik_Honigzopf` Duplikat, fehlendes `Althea_Danea` Profil, breite Missing-File-WikiLinks). | 🔴 Offen |
 
 ## ✅ Gelöste Probleme
 *Archiv der behobenen Inkonsistenzen.*

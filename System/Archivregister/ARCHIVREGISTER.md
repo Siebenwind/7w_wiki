@@ -2,8 +2,8 @@
 layout: wiki_page
 title: Archivregister
 category: System
-uuid: 134225f9-9322-4a80-8b1f-dc21917a0ea8
-letzter_check: 2026-02-16T22:17:25Z
+uuid: 79a8eec9-cce8-4841-a203-85380dc40340
+letzter_check: 2026-02-17T21:05:46Z
 ---
 
 # Archivregister
@@ -12,27 +12,27 @@ letzter_check: 2026-02-16T22:17:25Z
 
 ## Überblick
 
-- Datensaetze gesamt: 3885
-- Mit Content-UUID: 439 (11.30%)
-- Wiki indexierbar: 1108 | Quellen indexierbar: 795
+- Datensaetze gesamt: 1982
+- Mit Content-UUID: 228 (11.50%)
+- Wiki indexierbar: 1108 | Quellen indexierbar: 796
 
 ## RAG-Fortschritt
 
 | Corpus | Indexierte Dateien | Indexierbare Dateien | Coverage | Chunks | Stale Index-Eintraege |
 |---|---:|---:|---:|---:|---:|
-| wiki | 158 | 1108 | 14.26% | 31700 | 0 |
+| wiki | 157 | 1108 | 14.17% | 31700 | 1 |
 | quellen | 288 | 300 | 96.00% | 60151 | 1 |
 
 ## Ingestion-Fortschritt (Inventur)
 
-- INVENTUR_QUELLEN: 3/41 verarbeitet; Pending: 38
+- INVENTUR_QUELLEN: 50/51 verarbeitet; Pending: 1
 
 ## Dispatch & Board Status
 
 | Domain | Total | Status Breakdown | Missing UUID | Invalid Status Files |
 |---|---:|---|---:|---:|
-| Dispatch | 4 | OPEN=4 | 0 | 0 |
-| research | 7 | DONE=2, TENDERED=3 | 7 | 2 |
+| Dispatch | 6 | CLAIMED=1, OPEN=5 | 0 | 0 |
+| research | 10 | COMPLETED=1, DONE=2, TENDERED=3 | 10 | 4 |
 | conflicts | 7 | AUTO_RESOLVED=1, NEEDS_REVIEW=4, RESOLVED=1 | 7 | 1 |
 | inquisition | 3 | COMPLETED=1, OPEN=1, UNSPECIFIED=1 | 2 | 0 |
 
@@ -41,9 +41,9 @@ letzter_check: 2026-02-16T22:17:25Z
 | Corpus | Dateien |
 |---|---:|
 | wiki | 1108 |
-| quellen | 795 |
-| system | 49 |
-| docs | 1933 |
+| quellen | 796 |
+| system | 56 |
+| docs | 22 |
 
 ## Pflichtfelder je Datensatz
 
@@ -84,5 +84,5 @@ letzter_check: 2026-02-16T22:17:25Z
 - `Siebenwind_Wiki/00_Fundament/Orden_der_Wachenden_Löwen.md`
 - `Siebenwind_Wiki/00_Fundament/Ordo_Astraeli.md`
 - `Siebenwind_Wiki/00_Fundament/Organisationsregister.md`
-- ... (+3420 weitere)
+- ... (+1725 weitere)
 
