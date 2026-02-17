@@ -8,11 +8,10 @@ Dieses Board dient der Koordinierung von Forschungsaufträgen. Hier werden "wei�
 
 | ID | Gegenstand | Priorität | Status | Fokus |
 |----|------------|-----------|--------|-------|
-| [[RESEARCH-2026-001]] | Die Neun Domänen des Angamon | 🔴 Hoch | TENDERED | Epistemik/Theologie |
 | [[RESEARCH-2026-002]] | Die Transformation des Ödlands | 🟡 Mittel | TENDERED | Geografie/Chronik |
 | [[RESEARCH-2026-003]] | Die Linari-Matrix (Magietheorie) | 🟡 Mittel | TENDERED | System-Lore |
-| [[RESEARCH-2026-010]] | Götterverschmelzung & Astraels Aufstieg | 🔴 Hoch | DEFERRED | Theologie |
-| [[RESEARCH-2026-011]] | Waldelfen-Exodus & Myten-Verbleib | 🟡 Mittel | DEFERRED | Völkerkunde |
+| [[RESEARCH-2026-010]] | Götterverschmelzung & Astraels Aufstieg | ⚪ Niedrig | DEFERRED | Theologie |
+| [[RESEARCH-2026-011]] | Waldelfen-Exodus & Myten-Verbleib | ⚪ Niedrig | DEFERRED | Völkerkunde |
 | [[RESEARCH-2026-008]] | Die Dur-Identität (Toran Dur) | 🔴 Hoch | DONE | Biografie/Magie |
 | [[RESEARCH-2026-009]] | Gilden-Struktur & Handwerk | 🟡 Mittel | DONE | Gesellschaft |
 
@@ -20,6 +19,7 @@ Dieses Board dient der Koordinierung von Forschungsaufträgen. Hier werden "wei�
 
 | ID | Gegenstand | Status | Ergebnis / Bericht |
 |----|------------|--------|--------------------|
+| [[RESEARCH-2026-001]] | Die Neun Domänen des Angamon | ✅ Abgeschlossen | [[RESEARCH-2026-001]] |
 | [[RESEARCH-2026-008]] | Die Dur-Identität (Toran Dur) | ✅ Abgeschlossen | [[RESEARCH-2026-008_Report]] |
 | [[RESEARCH-2026-009]] | Gilden-Struktur & Handwerk | ✅ Abgeschlossen | [[RESEARCH-2026-009_Report]] |
 

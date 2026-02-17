@@ -21,6 +21,21 @@ tags: [Gott, Antagonist, Böses, Zerstörung, Schatten]
 ## Mythologie
 Die Legenden besagen, dass Angamon aus den Schatten entstand, die *Galamnor* (Materie) warf, als *Timanor* (Zeit) das erste Licht entzündete. Er ist der ewige Neider, der selbst nichts erschaffen kann, sondern nur das Vorhandene verzerren, korrumpieren oder zerstören will. Er erschuf die **[[Daemonen]]** als Spottbilder des Lebens.
 
+## Die Neun Domänen (Scholastische Sicht)
+> **Warnung:** Das folgende Wissen stammt aus verbotenen Schriften (u.a. **[[Das_Daimonicon]]**) und wird von der Kirche der Viere als Ketzerei verfolgt.
+
+Arkanisten und Dämonologen unterteilen Angamons Reich, die zweite Sphäre (**[[Yerrodon]]**), in neun Herrschaftsbereiche (Domänen). Jede Domäne verzerrt einen Aspekt der Schöpfung:
+
+1.  **Ifri’gha’Sirrak (Das verzehrende Feuer):** Vulkane und Lava. Herrscher: *[[Irdirim]]*.
+2.  **Mysell Tangoris (Die verderbte Erde):** Säure-Pflanzen und Obsidian-Wüsten.
+3.  **Aiwenn Dâmahn (Der Pesthauch):** Krankheiten und giftige Dämpfe.
+4.  **El’ra’Khor (Das dunkle Blut):** Flüsse aus Blut und Fleisch-Magie.
+5.  **Kawôr (Der ewige Krieg):** Schwarzer Stahl und endlose Schlachten. Herrscher: *[[Shag_zor_Ga_Zul]]*.
+6.  **Kulmar Sanghûlis (Schmerz & Ekstase):** Folter und blutige Lust.
+7.  **Moghtor (Das Grab):** Das Reich der Rastlosen und Ursprung der Nekromantie.
+8.  **Agoth'ro'Hawenn (Der Wahnsinn):** Herrschaft durch Furcht und Alpträume. Diener: *[[Irahfar]]*.
+9.  **Mele Môrthere (Das verbotene Wissen):** Eine gigantische, schwarze [[index]], die alle Sünden speichert.
+
 ## Verehrung
 Die Verehrung Angamons ist im Königreich Galadon bei Todesstrafe verboten. Seine Anhänger agieren in geheimen Zirkeln.
 - **Dunkle Kulte:** Versprechen Macht um jeden Preis.
