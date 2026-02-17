@@ -1,5 +1,26 @@
 # Changelog
 
+#### [2026-02-17.03] - Silicon Inquisition: Shamanic Magic & Run (Phase 1.19)
+
+### Prioritaet
+- P1
+
+### Hinzugefügt
+- Neuer Hauptartikel [[Schamanische_Magie]] (Geisterlehre, Gestirne, Totems).
+- Integration schamanischer Aspekte in [[Die_Gohor]] (Werden/Vergehen).
+- Etablierung von [[Die_Enhor]] als Kollektiv der Elementarherren.
+- Ingestion Report `INQ-2026-B007_Report.md` für Batch 7.
+
+### Geaendert
+- [[Die_Sprache_Run]] um grammatikalische Details und Lexika-Referenzen erweitert.
+- [[Personenregister]] um neue Werke für [[Toran_Dur]] und [[Anonymus]] synchronisiert.
+- `MASTER_TASK_LIST.md` auf Phase 1.19 complete aktualisiert.
+
+### Validiert
+- `./7w_wiki.py test --suite all` (Core PASS, RAG Debt documented).
+- `./7w_wiki.py audit` (0 Issues).
+- `./7w_wiki.py stats` (Profil- & Ingestions-Metriken aktualisiert).
+
 #### [2026-02-17.02] - Linari Ingestion & Magic Theory Hardening
 
 ### Prioritaet
