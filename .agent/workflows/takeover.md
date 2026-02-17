@@ -39,9 +39,11 @@ Führe den **Onboarding-Workflow** aus, um alle Optionen und den aktuellen Syste
 
 // turbo
 1. Führe `./7w_wiki.py start` aus.
+// turbo
 2a. **Dispatch prüfen:** Führe `./7w_wiki.py mail inbox --status OPEN` aus und priorisiere offene Nachrichten.
 2b. **Synapse-Board/Research lesen:** Öffne `/System/Synapse_Board/` und verschaffe dir einen Überblick über alle Tickets (`NEEDS_REVIEW`) sowie das [[System/Synapse_Board/LORE_RESEARCH_BOARD.md|Lore Research Board]] (`TENDERS`).
 2c. **Claiming:** Entscheide, ob du einen Forschungsauftrag übernimmst und setze den Status auf `CLAIMED`.
+// turbo
 2d. **Clean-State-Check:** Führe `./7w_wiki.py test --suite clean-client-state` aus.
 
 ## 3. Die Exekution

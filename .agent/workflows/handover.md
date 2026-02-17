@@ -65,8 +65,11 @@ Vor dem Beenden deiner Session musst du:
     - **Markdown-Format**: Jeder Eintrag als Kopfzeile `#### [YYYY-MM-DD.NN] - Thema`.
     - **Priorität zuerst**: Direkt danach `### Prioritaet` mit genau einem Marker (`P1`, `P2`, `P3`, `BACKLOG`).
     - **Unterpunkte**: Nutze `### Hinzugefügt`, `### Geändert`, `### Behoben`, `### Validiert` nur bei Bedarf.
+// turbo
 3.  **Wiki-Statistiken**: Führe den Workflow `/stats` aus.
+// turbo
 4.  **Testsuite laufen lassen:** Fuehre `./7w_wiki.py test --suite all` aus und dokumentiere den Reportpfad.
+// turbo
 5.  **Dispatch-Queue prüfen:** Führe `./7w_wiki.py mail inbox --status OPEN` aus und verlinke bearbeitete Forschungsaufträge/Nachrichten im Abschlusskommentar.
 6.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](../../Logs/Konsistenzbericht_2026.md).
 7.  **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:
