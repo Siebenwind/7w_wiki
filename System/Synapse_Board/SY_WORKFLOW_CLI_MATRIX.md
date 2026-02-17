@@ -1,7 +1,7 @@
 ---
 uuid: 52af70d6-90f7-4201-9374-c6cc2ce0c57e
 status: ACTIVE
-updated_at: 2026-02-16T23:15:00Z
+updated_at: 2026-02-17T23:46:00Z
 epistemic: "#meta"
 ---
 
@@ -10,7 +10,7 @@ epistemic: "#meta"
 Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich ausfuehrbaren CLI-Kommandos.
 
 ## Runtime Commands
-- `advisor`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `mail`, `pages`, `repair`, `sanitize`, `score`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
+- `advisor`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `leitpunkt`, `mail`, `pages`, `repair`, `sanitize`, `score`, `scout`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
 
 ## Adaptermatrix
 
@@ -20,8 +20,8 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 | `/audit` | executable | `7w_wiki.py audit` | Konsistenzpruefung |
 | `/repair` | executable | `7w_wiki.py repair` oder `7w_wiki.py repair --full` | Interaktive Reparatur oder Voll-Durchlauf 1→3 (Frontmatter, Links, Source-Refs); keine Stub-/Brueckenartikel als Standard-Fix |
 | `/historian` | executable | `7w_wiki.py historian [query]` | Lore-Analyse |
-| `/stats` | executable | `7w_wiki.py stats` | Projektmetriken |
-| `/test_run` | executable | `7w_wiki.py test --suite clean-client-state|takeover-handover|interop-doc-links|source-link-hygiene|process-dispatch-curiosity|bridge-placeholder-guard|rag-relevance-smoke|all` + optional `--post-failures` | Standardisierter Interop-, Policy- und RAG-Smoke-Testlauf |
+| `/stats` | executable | `7w_wiki.py stats` | Leserzentrierter Wiki-Kompass + Tracking-Register + maschinenlesbarer Snapshot |
+| `/test_run` | executable | `7w_wiki.py test --suite clean-client-state|takeover-handover|interop-doc-links|source-link-hygiene|process-dispatch-curiosity|bridge-placeholder-guard|reader-stats-contract|rag-relevance-smoke|all` + optional `--post-failures` | Standardisierter Interop-, Policy-, Reader-Stats- und RAG-Smoke-Testlauf |
 | `/ask` | method_only | `7w_wiki.py search <query> --source all` | Auskunftsmodus ueber Suche |
 | `/batch` | method_only | `7w_wiki.py advisor` + manuelle Abarbeitung `INVENTUR_QUELLEN` | Batch-Prozess |
 | `/check_master` | executable | `7w_wiki.py check` | Stil- & QA-Pruefung |
@@ -40,6 +40,7 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 | `/scout` | executable | `7w_wiki.py scout --forum bekanntmachungen|news --pages N` | Automatisierter Forum-Deep-Scan |
 | `/takeover` | executable | `7w_wiki.py takeover` + (Auto: `start`, `advisor`, `inbox`, `clean-client-state`) | CLI zeigt Protokoll; Steps laufen automatisch (`// turbo`) |
 | `/tech` | executable | `7w_wiki.py tech` | System-Wartung & DevOps (Netz-Ingenieur) |
+| `/leitpunkt` | executable | `7w_wiki.py leitpunkt` / `7w_wiki.py leitpunkt status|check|scaffold` | Menschlicher Steueranker inkl. Struktur- und Reifegrad-Checks |
 | `/translate` | executable | `7w_wiki.py translate` | Sprach-Parser |
 | `/update` | executable | `7w_wiki.py audit` + `7w_wiki.py sanitize --auto` + `7w_wiki.py index --status` | Systempflege |
 | `/watch` | executable | `7w_wiki.py watch` | Live-Watcher |

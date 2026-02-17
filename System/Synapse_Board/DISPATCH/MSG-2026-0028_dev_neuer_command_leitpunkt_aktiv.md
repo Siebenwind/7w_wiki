@@ -1,0 +1,23 @@
+---
+id: MSG-2026-0028
+uuid: 5e447741-7bce-4258-b42e-9f48356fa5be
+status: OPEN
+priority: NORMAL
+from_agent: Technician
+to_agent: ALL
+created_at: 2026-02-17T23:46:23Z
+claimed_by: 
+claimed_at: 
+completed_by: 
+completed_at: 
+subject: [DEV] Neuer Command /leitpunkt aktiv
+---
+# [DEV] Neuer Command /leitpunkt aktiv
+
+## Auftrag
+
+Neuer separater Workflow/Befehl fuer den menschlichen Steueranker ist aktiv: ./7w_wiki.py leitpunkt [view|status|check|scaffold]. Backing-Skript: .agent/scripts/leitpunkt_tool.py. Governance-Doku synchronisiert (AGENTS, SY_INTEROP, Workflow-CLI-Matrix, Operations Handbook, Coordination Hub).
+
+## Verlauf
+
+- OPEN: Nachricht erstellt.

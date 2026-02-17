@@ -19,6 +19,7 @@ Run the core checks:
 ./7w_wiki.py test --suite takeover-handover
 ./7w_wiki.py test --suite source-link-hygiene
 ./7w_wiki.py test --suite bridge-placeholder-guard
+./7w_wiki.py test --suite reader-stats-contract
 ./7w_wiki.py search "<query>" --source wiki
 ./7w_wiki.py search "<query>" --source quellen
 ./7w_wiki.py search "<query>" --source all

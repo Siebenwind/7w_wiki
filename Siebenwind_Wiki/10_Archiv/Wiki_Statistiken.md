@@ -4,82 +4,162 @@ title: Wiki Status
 category: Index
 ---
 
-# 📊 Wiki Status
+# 📊 Siebenwind Kompass
 
-**Stand:** 2026-02-17 23:09
+**Stand:** 2026-02-18 00:46
+
+> Wissenswetter: **Stuermisch: viele offene Baustellen, aber aktive Bewegung.**
 
 ---
 
-| Metrik | Wert |
+## 🌍 Welt Heute
+
+| Kennzahl | Wert |
 | :--- | :--- |
-| **Artikel** | 1107 |
-| **Worte** | 182,513 |
-| **Personen** | 587 |
-| **Ingestion-Reports** | 54 |
-| **Tracking vollständig** | 50 |
+| Artikel | **1360** |
+| Worte | **188,405** |
+| Durchschnittliche Artikellaenge | **139 Worte** |
+| Interne Verweise (`[[...]]`) | **15,018** |
+| Vernetzungsdichte | **11.0 Links/Artikel** |
+| Personenprofile | **586** |
 
 ---
+
+## 🔄 Was sich bewegt
+
+| Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
+| :--- | :--- | :--- | :--- |
+| Letzte 7 Tage | 1335 | - | - |
+| Letzte 30 Tage | 1335 | 1332 | 94 |
+| Letzte 90 Tage | 1335 | - | - |
+
+---
+
+## 🧭 Sektionen
 
 ```mermaid
-pie title Sektionen
-    "07_Persoenlichkeiten" : 587
+pie title Artikel pro Sektion
+    "07_Persoenlichkeiten" : 586
     "05_Magie" : 41
     "08_Bestiarium" : 33
     "03_Wissen" : 54
     "03_Gesellschaft" : 57
-    "05_Geschichte" : 57
+    "05_Geschichte" : 58
     "02_Geografie" : 56
-    "01_Pantheon" : 51
+    "01_Pantheon" : 52
     "04_Chronik" : 83
     "06_Erzählungen" : 13
     "09_Bibliothek" : 28
-    "00_Fundament" : 37
+    "00_Fundament" : 287
 ```
+
+## 📚 Lesetiefe nach Sektion (Top 5)
+
+| Sektion | Artikel | Ø Worte/Artikel | Ø Links/Artikel |
+| :--- | ---: | ---: | ---: |
+| `01_Pantheon` | 52 | 411 | 13.3 |
+| `06_Erzählungen` | 13 | 328 | 12.7 |
+| `Root` | 1 | 285 | 1.0 |
+| `05_Magie` | 41 | 279 | 14.2 |
+| `04_Chronik` | 83 | 271 | 35.3 |
+
 
 ---
 
-## 🏆 Hubs
-Leserrelevante, stark vernetzte Artikel (ohne Index/Register).
+## 🏆 Entdecke die Welt
 
-| Entität | Links |
-| :--- | :--- |
-| [[Siebenwind]] | 703 |
+### Starke Knoten (gesamt)
+| Entitaet | Verweise |
+| :--- | ---: |
+| [[Siebenwind]] | 705 |
 | [[Falkensee]] | 543 |
 | [[Brandenstein]] | 465 |
 | [[Astrael]] | 192 |
-| [[Toran_Dur]] | 174 |
+| [[Toran Dur]] | 173 |
+| [[Bellum]] | 165 |
+| [[Nortraven]] | 144 |
 
 
-## 👤 Top Persönlichkeiten
-| Persönlichkeit | Links |
-| :--- | :--- |
-| [[Toran_Dur]] | 174 |
+### Praegende Persoenlichkeiten
+| Persoenlichkeit | Verweise |
+| :--- | ---: |
+| [[Toran_Dur]] | 173 |
 | [[Geist]] | 125 |
 | [[Custodias]] | 83 |
 | [[Waldemar_Delarie]] | 60 |
 | [[Dunvallo_Linari]] | 53 |
+| [[Hagen_Robaar]] | 49 |
+| [[Solos_Nhergas]] | 48 |
 
 
-## 🕰️ Top Ereignisse
-| Ereignis | Links |
-| :--- | :--- |
+### Praegende Ereignisse
+| Ereignis | Verweise |
+| :--- | ---: |
+| [[Siebenwind_Bote_175]] | 29 |
 | [[Blutschwert]] | 28 |
+| [[Siebenwind_Bote_179]] | 28 |
 | [[Das_Ende_der_Zeit_der_Koenige]] | 28 |
-| [[Siebenwind_Bote_175]] | 28 |
-| [[Siebenwind_Bote_179]] | 27 |
-| [[Siebenwind_Bote_173]] | 24 |
-
-
-## 🧾 Ingestion Tracking
-
-| Metrik | Wert |
-| :--- | :--- |
-| Reports gesamt | 54 |
-| Reports mit Kern-Tracking (Quelle + Wer + Wann) | 50 |
-| Reports mit LQS | 52 |
-| Dominante Score-Cluster | 3/3/3 (29), 3/2/3 (17), 3/2/2 (2) |
+| [[Siebenwind_Bote_173]] | 25 |
+| [[Siebenwind_Bote_180]] | 24 |
+| [[Siebenwind_Bote_172]] | 22 |
 
 
 ---
+
+## ✅ Qualitaet & Vertrauen
+
+| Qualitaetsindikator | Wert | Fortschritt |
+| :--- | :--- | :--- |
+| Frontmatter-Abdeckung | 1360/1360 | `##########` 100.0% |
+| Aufgeloeste Quellenangabe (`quelle`) | 440/1360 | `###-------` 32.4% |
+| Ingestion Tracking vollstaendig | 50/54 | `#########-` 92.6% |
+| Ingestion Reports mit LQS | 52/54 | `##########` 96.3% |
+| `[UNGEKLAERT]`-Marker (gesamt) | 252 | Beobachtung |
+
+## Epistemische Verteilung
+| Tag | Artikel |
+| :--- | ---: |
+| `#bote` | 592 |
+| `#unbekannt` | 423 |
+| `#canon` | 135 |
+| `#ueberlieferung` | 107 |
+| `#perspektive` | 102 |
+| `#news` | 1 |
+
+
+---
+
+## 🛠️ Werkstattstatus (Transparenz)
+
+| Metrik | Stand |
+| :--- | :--- |
+| Letzter Audit-Problemtotal | 437 |
+| Delta zum vorigen Audit | +0 |
+| Bridge-/Placeholder-Seiten | 89 |
+| Davon ohne Ausnahme-Metadaten | 89 |
+| Test-Suiten PASS | 6 |
+| Test-Suiten FAIL | 2 |
+
+### Letzte Test-Suites
+| Suite | Ergebnis | PASS | FAIL | SKIP |
+| :--- | :--- | ---: | ---: | ---: |
+| `bridge-placeholder-guard` | **PASS** | 2 | 0 | 0 |
+| `clean-client-state` | **PASS** | 8 | 0 | 0 |
+| `interop-doc-links` | **PASS** | 1 | 0 | 0 |
+| `process-dispatch-curiosity` | **PASS** | 1 | 0 | 0 |
+| `rag-relevance-smoke` | **FAIL** | 1 | 3 | 0 |
+| `reader-stats-contract` | **PASS** | 2 | 0 | 0 |
+| `source-link-hygiene` | **PASS** | 1 | 0 | 0 |
+| `takeover-handover` | **FAIL** | 4 | 1 | 0 |
+
+
+## 📍 Fortschritt Live Verfolgen
+- Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
+- Change-Historie: `CHANGELOG.md`
+- Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
+- Letzter Audit: `Logs/Archive/Audit_58527a12-6392-418b-b4b7-840b1f343cb1.txt`
+- Letzte Testreports: `Logs/Archive/TEST_*.md`
+
+---
 > [!NOTE]
-> Die Essenz der Lore. Bewahrung durch Diskretion.
+> Diese Seite ist leserzentriert. Technische Tiefendaten bleiben in den Log- und Board-Artefakten.

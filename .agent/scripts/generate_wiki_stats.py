@@ -1,19 +1,27 @@
 #!/usr/bin/env python3
-import os
+import json
 import re
 import subprocess
-from pathlib import Path
-from datetime import datetime, timezone
 from collections import Counter
+from datetime import datetime, timezone
+from pathlib import Path
 
 # Configuration
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 WIKI_DIR = PROJECT_ROOT / "Siebenwind_Wiki"
 LOGS_DIR = PROJECT_ROOT / "Logs"
+ARCHIVE_DIR = LOGS_DIR / "Archive"
 OUTPUT_FILE = WIKI_DIR / "10_Archiv" / "Wiki_Statistiken.md"
-ORGANISATIONS_REGISTER = WIKI_DIR / "00_Fundament" / "Organisationsregister.md"
 INGESTION_REPORTS_DIR = LOGS_DIR / "Ingestion"
 TRACKING_REGISTER_FILE = LOGS_DIR / "INGESTION_TRACKING_REGISTER.md"
+STATS_SNAPSHOT_DIR = ARCHIVE_DIR
+STATS_SNAPSHOT_LATEST = STATS_SNAPSHOT_DIR / "STATS_SNAPSHOT_latest.json"
+
+UNCLARIFIED_PATTERN = re.compile(r"\[UNGEKLAERT\]|\[UNGEKLÄRT\]", re.IGNORECASE)
+EPI_PATTERN = re.compile(
+    r"#(canon|bote|perspektive|ueberlieferung|überlieferung|news|meta|gemischt)",
+    re.IGNORECASE,
+)
 
 
 def normalize_wikilink_target(target: str) -> str:
@@ -49,6 +57,164 @@ def is_structural_target(target_norm: str) -> bool:
         return True
     return False
 
+
+def parse_frontmatter(raw: str) -> dict[str, str]:
+    if not raw.startswith("---\n"):
+        return {}
+    lines = raw.splitlines()
+    frontmatter: dict[str, str] = {}
+    for line in lines[1:]:
+        if line.strip() == "---":
+            break
+        if ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        frontmatter[key.strip().lower()] = value.strip()
+    return frontmatter
+
+
+def is_resolved_quelle(value: str) -> bool:
+    norm = value.strip().lower()
+    if not norm:
+        return False
+    if "ungeklaert" in norm or "ungeklärt" in norm:
+        return False
+    if norm in {"n/a", "none", "null"}:
+        return False
+    return True
+
+
+def extract_epistemic_tag(raw: str, frontmatter: dict[str, str]) -> str:
+    value = frontmatter.get("epistemic", "")
+    match = EPI_PATTERN.search(value)
+    if not match:
+        match = EPI_PATTERN.search(raw)
+    if not match:
+        return "unbekannt"
+    tag = match.group(1).lower()
+    if tag == "überlieferung":
+        tag = "ueberlieferung"
+    return tag
+
+
+def safe_git_output(args: list[str]) -> str:
+    cmd = ["git", "-C", str(PROJECT_ROOT)] + args
+    try:
+        proc = subprocess.run(cmd, capture_output=True, text=True, check=True)
+        return proc.stdout
+    except Exception:
+        return ""
+
+
+def collect_git_activity() -> dict:
+    activity = {
+        "changed_files_7d": 0,
+        "changed_files_30d": 0,
+        "changed_files_90d": 0,
+        "new_files_30d": 0,
+        "commits_30d": 0,
+    }
+
+    for days, key in ((7, "changed_files_7d"), (30, "changed_files_30d"), (90, "changed_files_90d")):
+        out = safe_git_output(
+            ["log", f"--since={days} days ago", "--name-only", "--pretty=format:", "--", "Siebenwind_Wiki"]
+        )
+        files = {
+            line.strip()
+            for line in out.splitlines()
+            if line.strip().endswith(".md") and not line.strip().endswith("Wiki_Statistiken.md")
+        }
+        activity[key] = len(files)
+
+    out_new = safe_git_output(
+        ["log", "--since=30 days ago", "--diff-filter=A", "--name-only", "--pretty=format:", "--", "Siebenwind_Wiki"]
+    )
+    new_files = {
+        line.strip()
+        for line in out_new.splitlines()
+        if line.strip().endswith(".md") and not line.strip().endswith("Wiki_Statistiken.md")
+    }
+    activity["new_files_30d"] = len(new_files)
+
+    out_commits = safe_git_output(["rev-list", "--count", "--since=30 days ago", "HEAD", "--", "Siebenwind_Wiki"])
+    try:
+        activity["commits_30d"] = int(out_commits.strip())
+    except Exception:
+        activity["commits_30d"] = 0
+
+    return activity
+
+
+def collect_ops_progress() -> dict:
+    progress = {
+        "latest_audit_file": "",
+        "latest_audit_problems": 0,
+        "previous_audit_file": "",
+        "previous_audit_problems": 0,
+        "latest_bridge_total": 0,
+        "latest_bridge_without_exception": 0,
+        "latest_tests": [],
+        "passing_suites": 0,
+        "failing_suites": 0,
+    }
+
+    audit_files = sorted(ARCHIVE_DIR.glob("Audit_*.txt"), key=lambda p: p.stat().st_mtime, reverse=True)
+    if audit_files:
+        latest_raw = audit_files[0].read_text(encoding="utf-8", errors="ignore")
+        progress["latest_audit_file"] = str(audit_files[0].relative_to(PROJECT_ROOT))
+        match = re.search(r"ERGEBNIS:\s*(\d+)\s+Probleme", latest_raw)
+        if match:
+            progress["latest_audit_problems"] = int(match.group(1))
+        bridge_total = re.search(r"Gefundene Bridge-/Placeholder-Seiten:\s*(\d+)", latest_raw)
+        bridge_wo = re.search(r"Ohne Ausnahme-Metadaten:\s*(\d+)", latest_raw)
+        if bridge_total:
+            progress["latest_bridge_total"] = int(bridge_total.group(1))
+        if bridge_wo:
+            progress["latest_bridge_without_exception"] = int(bridge_wo.group(1))
+
+    if len(audit_files) > 1:
+        previous_raw = audit_files[1].read_text(encoding="utf-8", errors="ignore")
+        progress["previous_audit_file"] = str(audit_files[1].relative_to(PROJECT_ROOT))
+        match = re.search(r"ERGEBNIS:\s*(\d+)\s+Probleme", previous_raw)
+        if match:
+            progress["previous_audit_problems"] = int(match.group(1))
+
+    test_files = sorted(ARCHIVE_DIR.glob("TEST_*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
+    by_suite: dict[str, Path] = {}
+    for path in test_files:
+        m = re.match(r"TEST_(.+)_\d{4}-\d{2}-\d{2}_\d{6}\.md$", path.name)
+        if not m:
+            continue
+        suite = m.group(1)
+        if suite not in by_suite:
+            by_suite[suite] = path
+
+    test_rows = []
+    for suite, path in sorted(by_suite.items()):
+        raw = path.read_text(encoding="utf-8", errors="ignore")
+        result_match = re.search(r"- Ergebnis:\s*\*\*(PASS|FAIL)\*\*", raw)
+        result = result_match.group(1) if result_match else "UNKLAR"
+        count_match = re.search(r"- PASS:\s*(\d+)\s*\|\s*FAIL:\s*(\d+)\s*\|\s*SKIP:\s*(\d+)", raw)
+        pass_count = int(count_match.group(1)) if count_match else 0
+        fail_count = int(count_match.group(2)) if count_match else 0
+        skip_count = int(count_match.group(3)) if count_match else 0
+        test_rows.append(
+            {
+                "suite": suite,
+                "result": result,
+                "pass": pass_count,
+                "fail": fail_count,
+                "skip": skip_count,
+                "report_file": str(path.relative_to(PROJECT_ROOT)),
+            }
+        )
+
+    progress["latest_tests"] = test_rows
+    progress["passing_suites"] = sum(1 for row in test_rows if row["result"] == "PASS")
+    progress["failing_suites"] = sum(1 for row in test_rows if row["result"] == "FAIL")
+    return progress
+
+
 def collect_stats():
     stats = {
         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M"),
@@ -57,9 +223,17 @@ def collect_stats():
         "total_files": 0,
         "personalities_count": 0,
         "files_per_category": Counter(),
+        "words_per_category": Counter(),
+        "links_per_category": Counter(),
         "link_hubs": Counter(),
         "personality_hubs": Counter(),
         "event_hubs": Counter(),
+        "files_with_frontmatter": 0,
+        "files_with_quelle": 0,
+        "files_with_resolved_quelle": 0,
+        "unclear_markers": 0,
+        "epistemic_distribution": Counter(),
+        "activity": collect_git_activity(),
     }
 
     personalities_lookup = {}
@@ -81,24 +255,41 @@ def collect_stats():
     for md_file in WIKI_DIR.rglob("*.md"):
         if md_file.name == "Wiki_Statistiken.md":
             continue
-            
+
         stats["total_files"] += 1
         content = md_file.read_text(encoding="utf-8")
-        
+        frontmatter = parse_frontmatter(content)
+
         rel_path = md_file.relative_to(WIKI_DIR)
         category = rel_path.parts[0] if len(rel_path.parts) > 1 else "Root"
         stats["files_per_category"][category] += 1
-        
+
         if "07_Persoenlichkeiten" in str(md_file):
             stats["personalities_count"] += 1
 
-        words = len(re.findall(r'\w+', content))
+        words = len(re.findall(r"\w+", content))
         stats["total_word_count"] += words
-        
-        links = re.findall(r'\[\[([^\]]+)\]\]', content)
+        stats["words_per_category"][category] += words
+
+        links = re.findall(r"\[\[([^\]]+)\]\]", content)
         stats["total_links"] += len(links)
+        stats["links_per_category"][category] += len(links)
+
+        if content.startswith("---\n"):
+            stats["files_with_frontmatter"] += 1
+
+        quelle = frontmatter.get("quelle")
+        if quelle is not None:
+            stats["files_with_quelle"] += 1
+            if is_resolved_quelle(quelle):
+                stats["files_with_resolved_quelle"] += 1
+
+        stats["unclear_markers"] += len(UNCLARIFIED_PATTERN.findall(content))
+        epi_tag = extract_epistemic_tag(content, frontmatter)
+        stats["epistemic_distribution"][epi_tag] += 1
+
         for link in links:
-            target_raw = link.split('|')[0].split('#')[0].strip()
+            target_raw = link.split("|")[0].split("#")[0].strip()
             target_norm = normalize_wikilink_target(target_raw)
             if not target_norm:
                 continue
@@ -112,6 +303,8 @@ def collect_stats():
     stats["personality_lookup"] = personalities_lookup
     stats["events_lookup"] = events_lookup
     stats["article_lookup"] = article_lookup
+    stats["avg_words_per_article"] = round(stats["total_word_count"] / max(1, stats["total_files"]))
+    stats["avg_links_per_article"] = round(stats["total_links"] / max(1, stats["total_files"]), 1)
     return stats
 
 
@@ -185,7 +378,6 @@ def collect_ingestion_tracking() -> dict:
                 continue
             entries.append(parse_ingestion_report(report_path, raw))
 
-    # Latest first where possible; unknown timestamps at the end.
     entries.sort(key=lambda x: x["evaluated_at"] if x["evaluated_at"] != "[UNGEKLAERT]" else "", reverse=True)
 
     lqs_counter = Counter()
@@ -251,92 +443,252 @@ def build_tracking_register_markdown(tracking: dict) -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
-def generate_markdown(stats, tracking):
+def percent(value: int, total: int) -> float:
+    return round((value / total * 100.0), 1) if total else 0.0
+
+
+def progress_bar(pct: float) -> str:
+    filled = max(0, min(10, round(pct / 10.0)))
+    return f"`{'#' * filled}{'-' * (10 - filled)}` {pct:.1f}%"
+
+
+def weather_label(ops: dict, stats: dict) -> str:
+    problems = ops.get("latest_audit_problems", 0)
+    unclear = stats.get("unclear_markers", 0)
+    if problems >= 400 or unclear >= 400:
+        return "Stuermisch: viele offene Baustellen, aber aktive Bewegung."
+    if problems >= 200 or unclear >= 200:
+        return "Windig: deutlich in Arbeit, noch sichtbar rau."
+    return "Klar: stabile Wissenslage mit kontrollierter Werkstattlast."
+
+
+def generate_markdown(stats: dict, tracking: dict, ops: dict) -> str:
+    source_coverage = percent(stats["files_with_resolved_quelle"], stats["total_files"])
+    tracking_coverage = percent(tracking["with_core_tracking"], tracking["total_reports"])
+    lqs_coverage = percent(tracking["with_lqs"], tracking["total_reports"])
+    frontmatter_coverage = percent(stats["files_with_frontmatter"], stats["total_files"])
+
+    top_dense_categories = []
+    for category, count in stats["files_per_category"].items():
+        avg_words = round(stats["words_per_category"][category] / max(1, count))
+        avg_links = round(stats["links_per_category"][category] / max(1, count), 1)
+        top_dense_categories.append((category, avg_words, avg_links, count))
+    top_dense_categories.sort(key=lambda x: x[1], reverse=True)
+
     md = f"""---
 layout: wiki_page
 title: Wiki Status
 category: Index
 ---
 
-# 📊 Wiki Status
+# 📊 Siebenwind Kompass
 
 **Stand:** {stats['timestamp']}
 
+> Wissenswetter: **{weather_label(ops, stats)}**
+
 ---
 
-| Metrik | Wert |
+## 🌍 Welt Heute
+
+| Kennzahl | Wert |
 | :--- | :--- |
-| **Artikel** | {stats['total_files']} |
-| **Worte** | {stats['total_word_count']:,} |
-| **Personen** | {stats['personalities_count']} |
-| **Ingestion-Reports** | {tracking['total_reports']} |
-| **Tracking vollständig** | {tracking['with_core_tracking']} |
+| Artikel | **{stats['total_files']}** |
+| Worte | **{stats['total_word_count']:,}** |
+| Durchschnittliche Artikellaenge | **{stats['avg_words_per_article']} Worte** |
+| Interne Verweise (`[[...]]`) | **{stats['total_links']:,}** |
+| Vernetzungsdichte | **{stats['avg_links_per_article']} Links/Artikel** |
+| Personenprofile | **{stats['personalities_count']}** |
 
 ---
+
+## 🔄 Was sich bewegt
+
+| Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
+| :--- | :--- | :--- | :--- |
+| Letzte 7 Tage | {stats['activity']['changed_files_7d']} | - | - |
+| Letzte 30 Tage | {stats['activity']['changed_files_30d']} | {stats['activity']['new_files_30d']} | {stats['activity']['commits_30d']} |
+| Letzte 90 Tage | {stats['activity']['changed_files_90d']} | - | - |
+
+---
+
+## 🧭 Sektionen
 
 ```mermaid
-pie title Sektionen
+pie title Artikel pro Sektion
 {"\n".join([f'    "{k}" : {v}' for k, v in stats['files_per_category'].items() if v > 10])}
 ```
 
+## 📚 Lesetiefe nach Sektion (Top 5)
+
+| Sektion | Artikel | Ø Worte/Artikel | Ø Links/Artikel |
+| :--- | ---: | ---: | ---: |
+"""
+
+    for category, avg_words, avg_links, count in top_dense_categories[:5]:
+        md += f"| `{category}` | {count} | {avg_words} | {avg_links} |\n"
+
+    md += """
+
 ---
 
-## 🏆 Hubs
-Leserrelevante, stark vernetzte Artikel (ohne Index/Register).
+## 🏆 Entdecke die Welt
 
-| Entität | Links |
-| :--- | :--- |
+### Starke Knoten (gesamt)
+| Entitaet | Verweise |
+| :--- | ---: |
 """
-    for name_norm, count in stats["link_hubs"].most_common(5):
+
+    for name_norm, count in stats["link_hubs"].most_common(7):
         display = stats["article_lookup"].get(name_norm, denormalize_for_link(name_norm))
         md += f"| [[{display}]] | {count} |\n"
 
     md += """
 
-## 👤 Top Persönlichkeiten
-| Persönlichkeit | Links |
-| :--- | :--- |
+### Praegende Persoenlichkeiten
+| Persoenlichkeit | Verweise |
+| :--- | ---: |
 """
-    for name_norm, count in stats["personality_hubs"].most_common(5):
+
+    for name_norm, count in stats["personality_hubs"].most_common(7):
         display = stats["personality_lookup"].get(name_norm, denormalize_for_link(name_norm))
         md += f"| [[{display}]] | {count} |\n"
 
     md += """
 
-## 🕰️ Top Ereignisse
-| Ereignis | Links |
-| :--- | :--- |
+### Praegende Ereignisse
+| Ereignis | Verweise |
+| :--- | ---: |
 """
-    for name_norm, count in stats["event_hubs"].most_common(5):
+
+    for name_norm, count in stats["event_hubs"].most_common(7):
         display = stats["events_lookup"].get(name_norm, denormalize_for_link(name_norm))
         md += f"| [[{display}]] | {count} |\n"
 
     md += f"""
 
-## 🧾 Ingestion Tracking
+---
 
-| Metrik | Wert |
-| :--- | :--- |
-| Reports gesamt | {tracking['total_reports']} |
-| Reports mit Kern-Tracking (Quelle + Wer + Wann) | {tracking['with_core_tracking']} |
-| Reports mit LQS | {tracking['with_lqs']} |
-| Dominante Score-Cluster | {tracking['top_profiles']} |
+## ✅ Qualitaet & Vertrauen
 
+| Qualitaetsindikator | Wert | Fortschritt |
+| :--- | :--- | :--- |
+| Frontmatter-Abdeckung | {stats['files_with_frontmatter']}/{stats['total_files']} | {progress_bar(frontmatter_coverage)} |
+| Aufgeloeste Quellenangabe (`quelle`) | {stats['files_with_resolved_quelle']}/{stats['total_files']} | {progress_bar(source_coverage)} |
+| Ingestion Tracking vollstaendig | {tracking['with_core_tracking']}/{tracking['total_reports']} | {progress_bar(tracking_coverage)} |
+| Ingestion Reports mit LQS | {tracking['with_lqs']}/{tracking['total_reports']} | {progress_bar(lqs_coverage)} |
+| `[UNGEKLAERT]`-Marker (gesamt) | {stats['unclear_markers']} | Beobachtung |
+
+## Epistemische Verteilung
+| Tag | Artikel |
+| :--- | ---: |
 """
 
-    md += """
+    for tag, count in stats["epistemic_distribution"].most_common():
+        md += f"| `#{tag}` | {count} |\n"
+
+    audit_delta = ops["latest_audit_problems"] - ops["previous_audit_problems"] if ops["previous_audit_file"] else 0
+    delta_text = f"{audit_delta:+d}" if ops["previous_audit_file"] else "n/a"
+
+    md += f"""
+
+---
+
+## 🛠️ Werkstattstatus (Transparenz)
+
+| Metrik | Stand |
+| :--- | :--- |
+| Letzter Audit-Problemtotal | {ops['latest_audit_problems']} |
+| Delta zum vorigen Audit | {delta_text} |
+| Bridge-/Placeholder-Seiten | {ops['latest_bridge_total']} |
+| Davon ohne Ausnahme-Metadaten | {ops['latest_bridge_without_exception']} |
+| Test-Suiten PASS | {ops['passing_suites']} |
+| Test-Suiten FAIL | {ops['failing_suites']} |
+
+### Letzte Test-Suites
+| Suite | Ergebnis | PASS | FAIL | SKIP |
+| :--- | :--- | ---: | ---: | ---: |
+"""
+
+    for row in ops["latest_tests"]:
+        md += f"| `{row['suite']}` | **{row['result']}** | {row['pass']} | {row['fail']} | {row['skip']} |\n"
+
+    md += f"""
+
+## 📍 Fortschritt Live Verfolgen
+- Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
+- Change-Historie: `CHANGELOG.md`
+- Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
+- Letzter Audit: `{ops['latest_audit_file'] or 'n/a'}`
+- Letzte Testreports: `Logs/Archive/TEST_*.md`
+
 ---
 > [!NOTE]
-> Die Essenz der Lore. Bewahrung durch Diskretion.
+> Diese Seite ist leserzentriert. Technische Tiefendaten bleiben in den Log- und Board-Artefakten.
 """
     return md
+
+
+def build_stats_snapshot(stats: dict, tracking: dict, ops: dict) -> dict:
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return {
+        "generated_at_utc": now_utc,
+        "reader_metrics": {
+            "articles": stats["total_files"],
+            "words": stats["total_word_count"],
+            "links": stats["total_links"],
+            "avg_words_per_article": stats["avg_words_per_article"],
+            "avg_links_per_article": stats["avg_links_per_article"],
+            "personalities": stats["personalities_count"],
+        },
+        "quality": {
+            "files_with_frontmatter": stats["files_with_frontmatter"],
+            "files_with_resolved_quelle": stats["files_with_resolved_quelle"],
+            "unclarified_markers_total": stats["unclear_markers"],
+            "tracking_reports_total": tracking["total_reports"],
+            "tracking_reports_complete": tracking["with_core_tracking"],
+            "tracking_reports_with_lqs": tracking["with_lqs"],
+        },
+        "ops_progress": {
+            "latest_audit_file": ops["latest_audit_file"],
+            "latest_audit_problems": ops["latest_audit_problems"],
+            "previous_audit_file": ops["previous_audit_file"],
+            "previous_audit_problems": ops["previous_audit_problems"],
+            "bridge_total": ops["latest_bridge_total"],
+            "bridge_without_exception": ops["latest_bridge_without_exception"],
+            "passing_suites": ops["passing_suites"],
+            "failing_suites": ops["failing_suites"],
+        },
+        "activity": stats["activity"],
+        "epistemic_distribution": dict(stats["epistemic_distribution"]),
+        "files_per_category": dict(stats["files_per_category"]),
+        "words_per_category": dict(stats["words_per_category"]),
+        "links_per_category": dict(stats["links_per_category"]),
+        "latest_tests": ops["latest_tests"],
+    }
+
+
+def write_stats_snapshot(snapshot: dict) -> Path:
+    STATS_SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d_%H%M%S")
+    stamped_path = STATS_SNAPSHOT_DIR / f"STATS_SNAPSHOT_{timestamp}.json"
+    payload = json.dumps(snapshot, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
+    STATS_SNAPSHOT_LATEST.write_text(payload, encoding="utf-8")
+    stamped_path.write_text(payload, encoding="utf-8")
+    return stamped_path
+
 
 if __name__ == "__main__":
     data = collect_stats()
     tracking = collect_ingestion_tracking()
-    markdown_content = generate_markdown(data, tracking)
+    ops = collect_ops_progress()
+    markdown_content = generate_markdown(data, tracking, ops)
+    snapshot = build_stats_snapshot(data, tracking, ops)
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(markdown_content, encoding="utf-8")
     TRACKING_REGISTER_FILE.write_text(build_tracking_register_markdown(tracking), encoding="utf-8")
+    snapshot_path = write_stats_snapshot(snapshot)
     print(f"Stats generated at {OUTPUT_FILE}")
     print(f"Tracking register updated at {TRACKING_REGISTER_FILE}")
+    print(f"Stats snapshot written to {STATS_SNAPSHOT_LATEST}")
+    print(f"Stats snapshot archived at {snapshot_path}")

@@ -14,11 +14,9 @@
         "System/**/*.md"
       ],
       "forbid_regex": [
-        "standardisierte Stub-Datei",
+        "standardisierte Stub-Datei zu erstellen",
         "Mindestinhalt fuer einen Stub",
-        "Mindestinhalt für einen Stub",
-        "Brueckenartikel zur Stabilisierung bestehender WikiLinks",
-        "Brückenartikel zur Stabilisierung bestehender WikiLinks"
+        "Mindestinhalt für einen Stub"
       ],
       "exclude_globs": [
         "System/Synapse_Board/RESEARCH-*.md"

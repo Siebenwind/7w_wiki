@@ -44,9 +44,12 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [PRODUCTION_NOTE_TEMPLATE.md](Templates/PRODUCTION_NOTE_TEMPLATE.md)
 - [x] [.agent/workflows/rvw_loop.md](../.agent/workflows/rvw_loop.md) (Technischer Standard)
 - [x] [.agent/workflows/wiki_style_guide.md](../.agent/workflows/wiki_style_guide.md) (Zentrales Regelwerk)
+- [x] [.agent/workflows/leitpunkt.md](../.agent/workflows/leitpunkt.md) (Menschlicher Leitpunkt Workflow)
+- [x] [.agent/scripts/leitpunkt_tool.py](../.agent/scripts/leitpunkt_tool.py) (Leitpunkt Status/Check/Scaffold)
 - [x] [LORE_RESEARCH_BOARD.md](../LORE_RESEARCH_BOARD.md)
 - [x] [AGENT_OPERATIONS_HANDBOOK.md](AGENT_OPERATIONS_HANDBOOK.md)
 - [x] [docs/Archiv/REDESIGN_ROADMAP_2026.md](../docs/Archiv/REDESIGN_ROADMAP_2026.md)
+- [x] [docs/Archiv/MAINTAINER_STANDPUNKT.md](../docs/Archiv/MAINTAINER_STANDPUNKT.md)
 - [x] [Archivregister/ARCHIVREGISTER.md](Archivregister/ARCHIVREGISTER.md)
 - [x] [Archivregister/ARCHIVREGISTER.json](Archivregister/ARCHIVREGISTER.json)
 - [x] [Synapse_Board/SY_HISTORIAN_TRACEABILITY.md](Synapse_Board/SY_HISTORIAN_TRACEABILITY.md)
@@ -55,4 +58,4 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [Scripts/forum_scanner.py](../Scripts/forum_scanner.py)
 
 ---
-*Zuletzt aktualisiert: 2026-02-17T23:47:00Z | Ref: #ux_redesign_documentation*
+*Zuletzt aktualisiert: 2026-02-18T00:37:00Z | Ref: #leitpunkt_workflow_command*

@@ -14,7 +14,7 @@ Verbindlicher Standard fuer reproduzierbare Testdurchlaeufe, Defect-Kommunikatio
 
 ## Ziel
 
-1. Testlaeufe standardisieren (`clean-client-state`, `takeover-handover`, `interop-doc-links`, `source-link-hygiene`, `process-dispatch-curiosity`, `bridge-placeholder-guard`, `rag-relevance-smoke`, `all`).
+1. Testlaeufe standardisieren (`clean-client-state`, `takeover-handover`, `interop-doc-links`, `source-link-hygiene`, `process-dispatch-curiosity`, `bridge-placeholder-guard`, `reader-stats-contract`, `rag-relevance-smoke`, `all`).
 2. Defects ohne stille Fixes behandeln.
 3. Fixes nur auf Basis kommunizierter Auftraege umsetzen.
 
@@ -27,6 +27,7 @@ Verbindlicher Standard fuer reproduzierbare Testdurchlaeufe, Defect-Kommunikatio
 - `./7w_wiki.py test --suite source-link-hygiene`
 - `./7w_wiki.py test --suite process-dispatch-curiosity`
 - `./7w_wiki.py test --suite bridge-placeholder-guard`
+- `./7w_wiki.py test --suite reader-stats-contract`
 - `./7w_wiki.py test --suite rag-relevance-smoke`
 - `./7w_wiki.py test --suite all`
 - `./7w_wiki.py test --suite <name> --post-failures --from-agent <name> --to-agent ALL --priority HIGH`

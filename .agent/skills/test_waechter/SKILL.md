@@ -14,6 +14,7 @@ Dieser Skill standardisiert den Testdurchlauf fuer Interop, Takeover/Handover un
 ./7w_wiki.py test --suite clean-client-state
 ./7w_wiki.py test --suite takeover-handover
 ./7w_wiki.py test --suite bridge-placeholder-guard
+./7w_wiki.py test --suite reader-stats-contract
 ./7w_wiki.py test --suite all
 ```
 

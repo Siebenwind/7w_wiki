@@ -1,5 +1,62 @@
 # Changelog
 
+#### [2026-02-18.06] - Neuer Dev-Command `/leitpunkt` fuer den menschlichen Steueranker
+
+### Prioritaet
+- P1
+
+### Hinzugefuegt
+- Neuer Workflow:
+  - `.agent/workflows/leitpunkt.md`
+- Neues Backing-Skript:
+  - `.agent/scripts/leitpunkt_tool.py`
+  - bietet `status`, `check`, `check --strict`, `scaffold`, `scaffold --force`.
+- Neuer CLI-Command:
+  - `./7w_wiki.py leitpunkt [view|status|check|scaffold]`
+
+### Geaendert
+- Runtime-/Interop-Dokumentation auf neuen Command synchronisiert:
+  - `AGENTS.md`
+  - `System/AGENT_OPERATIONS_HANDBOOK.md`
+  - `System/Synapse_Board/SY_INTEROP.md`
+  - `System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md`
+  - `System/COORDINATION_HUB.md`
+- Landing und GitHub-Readme um Leitpunkt-Command ergaenzt:
+  - `docs/index.md`
+  - `README.md`
+
+### Validiert
+- Funktionscheck:
+  - `./7w_wiki.py leitpunkt`
+  - `./7w_wiki.py leitpunkt status`
+  - `./7w_wiki.py leitpunkt check` (PASS)
+  - `./7w_wiki.py leitpunkt check --strict` (FAIL erwartet wegen TODO-Markern)
+- `./7w_wiki.py test --suite interop-doc-links`  
+  Report: `Logs/Archive/TEST_interop-doc-links_2026-02-18_004639.md` (PASS)
+- `./7w_wiki.py test --suite clean-client-state`  
+  Report: `Logs/Archive/TEST_clean-client-state_2026-02-18_004642.md` (PASS)
+
+#### [2026-02-18.05] - GitHub-Landing technischer ausgerichtet + menschlicher Leitpunkt verankert
+
+### Prioritaet
+- P1
+
+### Geaendert
+- GitHub-Repository-Landing auf technische Zielgruppe geschaerft:
+  - `README.md`
+  - Engine-Faehigkeiten, 5-Minuten-Tech-Tour und zentrale Tech-Dokumentation klar hervorgehoben.
+- Docs-Landing um Technik-Einstieg erweitert:
+  - `docs/index.md`
+  - Neue Sektion `Fuer technisch Interessierte` mit Architektur/RAG/Dispatch/Ops-Links.
+- Menschlichen Steuerpunkt als eigene Seite eingefuehrt und verlinkt:
+  - `docs/Archiv/MAINTAINER_STANDPUNKT.md`
+
+### Validiert
+- `./7w_wiki.py test --suite interop-doc-links`  
+  Report: `Logs/Archive/TEST_interop-doc-links_2026-02-18_003110.md` (PASS)
+- `./7w_wiki.py pages build --strict`  
+  Build-Log: `/tmp/pages_build_2026-02-18_0032.log` (`Documentation built in 91.81 seconds`)
+
 #### [2026-02-18.04] - Landing-Design priorisiert Leserfuehrung (Banner folgen spaeter)
 
 ### Prioritaet

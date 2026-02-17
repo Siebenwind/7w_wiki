@@ -11,6 +11,7 @@ Dieser Workflow sichert Dokumentationsqualitaet, Interop-Konsistenz und GitHub-P
   - `7w_wiki.py stats`
   - `7w_wiki.py audit`
   - `7w_wiki.py test --suite interop-doc-links`
+  - `7w_wiki.py test --suite reader-stats-contract`
   - `7w_wiki.py pages status`
   - `7w_wiki.py pages build [--strict]`
   - `7w_wiki.py pages validate [--strict]`
@@ -52,10 +53,12 @@ Fuehre den minimalen Qualitaetslauf aus:
 ```bash
 ./7w_wiki.py check
 ./7w_wiki.py stats
+./7w_wiki.py test --suite reader-stats-contract
 ./7w_wiki.py pages validate
 ./7w_wiki.py archive sync
 ```
 Pruefe danach, ob relevante Aenderungen in `docs/` und den verlinkten Quellseiten sichtbar sind.
+Pruefe insbesondere, ob `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md` die Reader-Sektionen und `Logs/Archive/STATS_SNAPSHOT_latest.json` als Maschinenoberflaeche aktuell sind.
 
 Optional fuer harte Release-Pruefung:
 ```bash

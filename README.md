@@ -1,55 +1,68 @@
 # Siebenwind Wiki (7w_wiki)
 
-Kuratiertes Lore-Archiv fuer die Welt Siebenwind.
-Das Projekt verbindet historische Quellenbewahrung, KI-gestuetzte Erschliessung und redaktionelle Qualitaetskontrolle.
+Kuratiertes Lore-Archiv fuer die Welt Siebenwind mit offenem KI-Betrieb, Audit-Trails und redaktioneller Qualitaetskontrolle.
 
-## Schnellstart nach Ziel
-
-### Lesen
 - Public Pages: <https://siebenwind.github.io/7w_wiki/>
+- Leser-Einstieg: [docs/index.md](docs/index.md)
+- Technische Regeln: [AGENTS.md](AGENTS.md)
+
+## Fuer Leser
+
 - Wiki-Startpunkt: [Siebenwind_Wiki/index.md](Siebenwind_Wiki/index.md)
 - Kuratierte Einstiege: [Interessante Artikel](Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md)
+- Chronik-Zeitrahmen: [Zeitrechnung (Der Sonnenzirkel)](Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md)
 
-### Mitwirken
-- Leitfaden: [CONTRIBUTING.md](CONTRIBUTING.md)
-- Aktuelle Prioritaeten: [MASTER_TASK_LIST.md](MASTER_TASK_LIST.md)
-- Aenderungshistorie: [CHANGELOG.md](CHANGELOG.md)
+## Fuer technisch Interessierte: Was die Engine kann
 
-### Agentenbetrieb und Technik
-- Kanonische Agenteninstruktionen: [AGENTS.md](AGENTS.md)
-- Betriebsuebersicht: [System/AGENT_OPERATIONS_HANDBOOK.md](System/AGENT_OPERATIONS_HANDBOOK.md)
-- Interop-Standards: [System/Synapse_Board/SY_INTEROP.md](System/Synapse_Board/SY_INTEROP.md)
+- **Einheitliche Runtime Authority:** Alle Operationen laufen ueber `./7w_wiki.py <command>`.
+- **Oracle/RAG mit Source-Scope:** Reproduzierbare Suche mit `--source wiki|quellen|all`.
+- **Qualitaetsgates:** Standardisierte Testsuiten plus Audit-Check als Integritaetsbarriere.
+- **Pages-Pipeline:** Lokale Validierung und Strict Build fuer GitHub Pages.
+- **Agentenkoordination:** Dispatch-Bus fuer Auftragsrouting, Claim/Done-Flow und nachvollziehbare Historie.
+- **Transparenter Betrieb:** Changelog, Reports, Taskliste und Synapse-Board sind im Repo sichtbar.
 
-## Praesentation vs. Betrieb
+## 5-Minuten Tech Tour
+
+```bash
+# 1) Lagebild und Prioritaeten
+./7w_wiki.py advisor
+
+# 2) Oracle mit expliziter Quelle
+./7w_wiki.py search "Dunvallo Linari" --source wiki
+
+# 3) Interop- und Basiszustand pruefen
+./7w_wiki.py test --suite interop-doc-links
+./7w_wiki.py test --suite clean-client-state
+
+# 4) Integritaets- und Publishing-Checks
+./7w_wiki.py audit
+./7w_wiki.py pages build --strict
+
+# 5) Menschlichen Leitpunkt pruefen
+./7w_wiki.py leitpunkt status
+./7w_wiki.py leitpunkt check
+```
+
+## Kernbereiche im Repository
 
 - **Praesentation (Leserfokus):** `Siebenwind_Wiki/`, `docs/index.md`, `docs/Siebenwind_Wiki/`
 - **Betrieb (Prozessfokus):** `System/`, `System/Synapse_Board/`, `.agent/`, `.agents/`
-- **Regel:** Runtime-Aktionen laufen ausschliesslich ueber `./7w_wiki.py`.
+- **Koordination:** `MASTER_TASK_LIST.md`, `CHANGELOG.md`, `System/Synapse_Board/DISPATCH/`
 
-## Runtime Authority
+## Technische Dokumentation
 
-```bash
-./7w_wiki.py <command>
-```
+- Architektur: [docs/architecture.md](docs/architecture.md)
+- RAG Setup: [docs/setup_rag.md](docs/setup_rag.md)
+- Operations Handbook: [System/AGENT_OPERATIONS_HANDBOOK.md](System/AGENT_OPERATIONS_HANDBOOK.md)
+- Interop Standards: [System/Synapse_Board/SY_INTEROP.md](System/Synapse_Board/SY_INTEROP.md)
+- Testing Protocol: [System/Synapse_Board/SY_TESTING.md](System/Synapse_Board/SY_TESTING.md)
+- Menschlicher Leitpunkt: [docs/Archiv/MAINTAINER_STANDPUNKT.md](docs/Archiv/MAINTAINER_STANDPUNKT.md)
 
-Wichtige Kommandos:
+## Mitwirken
 
-```bash
-# Orientierung
-./7w_wiki.py start
-./7w_wiki.py advisor
-
-# Recherche (Oracle)
-./7w_wiki.py search "<query>" --source wiki
-./7w_wiki.py search "<query>" --source quellen
-./7w_wiki.py search "<query>" --source all
-
-# Qualitaet und Publikation
-./7w_wiki.py test --suite clean-client-state
-./7w_wiki.py test --suite interop-doc-links
-./7w_wiki.py pages validate
-./7w_wiki.py audit
-```
+- Leitfaden: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Aktuelle Prioritaeten: [MASTER_TASK_LIST.md](MASTER_TASK_LIST.md)
+- Aenderungshistorie: [CHANGELOG.md](CHANGELOG.md)
 
 ## Lizenz
 

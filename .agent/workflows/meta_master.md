@@ -10,6 +10,7 @@ Dieses Department regelt den Agenten-Alltag, die Dokumentation und den Wissenstr
 - runtime_commands:
   - `7w_wiki.py start`
   - `7w_wiki.py stats`
+  - `7w_wiki.py test --suite reader-stats-contract`
   - `7w_wiki.py test --suite clean-client-state`
   - `7w_wiki.py archive sync`
   - `7w_wiki.py mail post --to ALL ...`
@@ -31,7 +32,12 @@ Dieses Department regelt den Agenten-Alltag, die Dokumentation und den Wissenstr
 - [ ] Führe regelmäßig Statistiken aus:
 ```bash
 ./7w_wiki.py stats
+./7w_wiki.py test --suite reader-stats-contract
 ```
+- [ ] Halte die drei Stats-Artefakte synchron:
+  - `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md`
+  - `Logs/INGESTION_TRACKING_REGISTER.md`
+  - `Logs/Archive/STATS_SNAPSHOT_latest.json`
 - [ ] Fuehre den Standard-Testlauf aus:
 ```bash
 ./7w_wiki.py test --suite clean-client-state

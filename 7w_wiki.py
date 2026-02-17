@@ -163,6 +163,16 @@ def main():
     # Technician (DevOps)
     subparsers.add_parser("tech", help="Show Technician workflow (DevOps & Infrastructure)")
 
+    # Maintainer Standpoint (Human Steering Anchor)
+    leit_parser = subparsers.add_parser("leitpunkt", help="Manage maintainer standpoint workflow and checks")
+    leit_sub = leit_parser.add_subparsers(dest="leit_cmd")
+    leit_sub.add_parser("view", help="Show /leitpunkt workflow guidance")
+    leit_sub.add_parser("status", help="Show readiness status of MAINTAINER_STANDPUNKT")
+    leit_check = leit_sub.add_parser("check", help="Validate MAINTAINER_STANDPUNKT structure")
+    leit_check.add_argument("--strict", action="store_true", help="Fail if TODO markers remain")
+    leit_scaffold = leit_sub.add_parser("scaffold", help="Create or reset MAINTAINER_STANDPUNKT template")
+    leit_scaffold.add_argument("--force", action="store_true", help="Overwrite existing file")
+
     # Check if no arguments provided, default to advisor
     if len(sys.argv) == 1:
         args = parser.parse_args(["advisor"])
@@ -328,6 +338,26 @@ def main():
     elif args.command == "tech":
         print(f"🔧 {BOLD}Workflow: /tech (Netz-Ingenieur){RESET}")
         view_workflow("tech")
+
+    elif args.command == "leitpunkt":
+        if not args.leit_cmd or args.leit_cmd == "view":
+            print(f"🧭 {BOLD}Workflow: /leitpunkt (Menschlicher Leitpunkt){RESET}")
+            view_workflow("leitpunkt")
+        elif args.leit_cmd == "status":
+            run_script(".agent/scripts/leitpunkt_tool.py", ["status"])
+        elif args.leit_cmd == "check":
+            leit_args = ["check"]
+            if args.strict:
+                leit_args.append("--strict")
+            run_script(".agent/scripts/leitpunkt_tool.py", leit_args)
+        elif args.leit_cmd == "scaffold":
+            leit_args = ["scaffold"]
+            if args.force:
+                leit_args.append("--force")
+            run_script(".agent/scripts/leitpunkt_tool.py", leit_args)
+        else:
+            print("Usage: ./7w_wiki.py leitpunkt [view|status|check|scaffold]")
+            sys.exit(1)
 
     else:
         parser.print_help()

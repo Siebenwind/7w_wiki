@@ -1,0 +1,55 @@
+{
+  "suite": "reader-stats-contract",
+  "description": "Guards the reader-first statistics contract and the machine snapshot surface.",
+  "cases": [
+    {
+      "id": "stats-workflow-contract",
+      "name": "Stats workflow documents reader sections and snapshot output",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/workflows/stats.md",
+          "must_include_regex": [
+            "Reader-Contract",
+            "Welt Heute",
+            "Werkstattstatus",
+            "Fortschritt Live Verfolgen",
+            "STATS_SNAPSHOT_latest\\.json"
+          ]
+        },
+        {
+          "file": ".agents/skills/stats/SKILL.md",
+          "must_include_regex": [
+            "Skill: Stats",
+            "\\./7w_wiki\\.py stats",
+            "reader-facing status page",
+            "STATS_SNAPSHOT_latest\\.json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats-output-contract",
+      "name": "Generated stats artifacts expose reader blocks and snapshot keys",
+      "required_regex_by_file": [
+        {
+          "file": "Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md",
+          "must_include_regex": [
+            "## 🌍 Welt Heute",
+            "## 🔄 Was sich bewegt",
+            "## ✅ Qualitaet & Vertrauen",
+            "## 🛠️ Werkstattstatus \\(Transparenz\\)"
+          ]
+        },
+        {
+          "file": "Logs/Archive/STATS_SNAPSHOT_latest.json",
+          "must_include_regex": [
+            "\"reader_metrics\"",
+            "\"ops_progress\"",
+            "\"latest_tests\"",
+            "\"generated_at_utc\""
+          ]
+        }
+      ]
+    }
+  ]
+}

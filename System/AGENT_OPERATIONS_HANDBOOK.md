@@ -1,7 +1,7 @@
 ---
 uuid: 1b3c8f24-7fb5-4ec3-9d43-7b1f17f69371
 status: ACTIVE
-updated_at: 2026-02-16T21:18:56Z
+updated_at: 2026-02-17T23:46:00Z
 epistemic: "#meta"
 ---
 
@@ -41,7 +41,18 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 **Automatisierung**: Die Workflows `/handover` und `/takeover` fuehren Standard-Checks (Inbox, Clean-State, Stats) automatisch aus (`// turbo`).
 
 ## Runtime Commands
-- `advisor`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `mail`, `pages`, `repair`, `sanitize`, `score`, `scout`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
+- `advisor`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `leitpunkt`, `mail`, `pages`, `repair`, `sanitize`, `score`, `scout`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
+
+## Maintainer-Leitpunkt (Menschliche Steuerung)
+
+Verbindlicher Anker:
+- `docs/Archiv/MAINTAINER_STANDPUNKT.md`
+
+CLI-Unterstuetzung:
+- `./7w_wiki.py leitpunkt` (Workflow anzeigen)
+- `./7w_wiki.py leitpunkt status` (Reifegrad anzeigen)
+- `./7w_wiki.py leitpunkt check [--strict]` (Struktur/No-TODO-Pruefung)
+- `./7w_wiki.py leitpunkt scaffold [--force]` (Vorlage erzeugen)
 
 ## Repair-Modi
 - Standardmodus: `./7w_wiki.py repair` (interaktiv, Default-Auswahl = Voll-Durchlauf 1→3)
@@ -57,7 +68,8 @@ Verbindlicher Einstieg:
 4. `./7w_wiki.py test --suite source-link-hygiene`
 5. `./7w_wiki.py test --suite process-dispatch-curiosity`
 6. `./7w_wiki.py test --suite bridge-placeholder-guard`
-7. Optional Gesamtlauf: `./7w_wiki.py test --suite all`
+7. `./7w_wiki.py test --suite reader-stats-contract`
+8. Optional Gesamtlauf: `./7w_wiki.py test --suite all`
 
 Defect-Regel:
 
@@ -113,6 +125,14 @@ Verbindlich gemaess `System/Synapse_Board/SY_DISPATCH.md`:
 2. Primärstrategie: vorhandenes kanonisches Ziel finden und Verweise dorthin korrigieren.
 3. Temporäre Bruecken nur mit `bridge_mode`, `bridge_target`, `bridge_ticket`, `bridge_review_until`.
 4. Pflicht-Check: `./7w_wiki.py test --suite bridge-placeholder-guard`.
+
+### Reader-Stats-Hygiene
+
+1. `./7w_wiki.py stats` erzeugt drei gekoppelte Artefakte:
+   - `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md` (Leseransicht)
+   - `Logs/INGESTION_TRACKING_REGISTER.md` (Tracking-Detail)
+   - `Logs/Archive/STATS_SNAPSHOT_latest.json` (maschinenlesbare Schnittstelle)
+2. Pflicht-Check: `./7w_wiki.py test --suite reader-stats-contract`.
 
 ### Runtime-Konfiguration (zentral)
 

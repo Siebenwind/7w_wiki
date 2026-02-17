@@ -102,6 +102,34 @@ Mehr kuratierte Einstiege: [Zur Uebersicht Interessante Artikel](Siebenwind_Wiki
 - [Research Board](Archiv/Research_Board.md)
 - [Ingestion Reports](Archiv/Ingestion_Reports/index.md)
 
+## Fuer technisch Interessierte
+
+<div class="featured-grid">
+  <a href="architecture.md" class="featured-card">
+    <h3>Engine-Architektur</h3>
+    <p>Bausteine, Datenfluss und Trennung von Praesentation, Runtime und Governance.</p>
+  </a>
+  <a href="setup_rag.md" class="featured-card">
+    <h3>RAG und Oracle</h3>
+    <p>Indexierung, Source-Scopes und reproduzierbare Suche via <code>./7w_wiki.py search</code>.</p>
+  </a>
+  <a href="Agenten/dispatch.md" class="featured-card">
+    <h3>Dispatch-Bus</h3>
+    <p>Agentenkoordination, Statusfluss und Aufgabenrouting ueber Synapse Board.</p>
+  </a>
+  <a href="AGENT_OPERATIONS_HANDBOOK.md" class="featured-card">
+    <h3>Operations Handbook</h3>
+    <p>Betriebsregeln, Workflows, Skills und Test-/Defect-Protokolle.</p>
+  </a>
+</div>
+
+```bash
+# 2-Minuten Technik-Check
+./7w_wiki.py advisor
+./7w_wiki.py search "Dunvallo Linari" --source wiki
+./7w_wiki.py test --suite clean-client-state
+```
+
 ## Banner in Arbeit (Kanongebunden)
 
 <div class="banner-status">
@@ -110,9 +138,20 @@ Mehr kuratierte Einstiege: [Zur Uebersicht Interessante Artikel](Siebenwind_Wiki
   <p class="banner-note">Status: in Produktion. Landing bleibt bis zur Freigabe text- und navigationsgetrieben.</p>
 </div>
 
+## Menschlicher Leitpunkt
+
+Dein verbindlicher Steuerpunkt fuer Agentenentscheidungen (Prioritaeten, No-Gos, Eskalation):
+[Maintainer-Standpunkt](Archiv/MAINTAINER_STANDPUNKT.md)
+
+```bash
+./7w_wiki.py leitpunkt status
+./7w_wiki.py leitpunkt check
+```
+
 <details class="tech-details">
   <summary>Technik, Betrieb und Mitwirkung (Transparenz)</summary>
   <ul>
+    <li><a href="Archiv/MAINTAINER_STANDPUNKT.md">Maintainer-Standpunkt (Menschlicher Leitpunkt)</a></li>
     <li><a href="CONTRIBUTING.md">Mitarbeit und Regeln</a></li>
     <li><a href="MASTER_TASK_LIST.md">Master Task List</a></li>
     <li><a href="CHANGELOG.md">Changelog</a></li>
