@@ -3,7 +3,7 @@ import os
 import re
 import subprocess
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from collections import Counter
 
 # Configuration
@@ -123,8 +123,7 @@ def _extract_first(raw: str, patterns: list[str]) -> str:
     return ""
 
 
-def parse_ingestion_report(report_path: Path) -> dict:
-    raw = report_path.read_text(encoding="utf-8")
+def parse_ingestion_report(report_path: Path, raw: str) -> dict:
     report_id = _extract_first(raw, [r"Report-ID:\s*\[?([0-9a-fA-F-]{36})\]?"]) or report_path.stem
     source = _extract_first(raw, [r"- \*\*Quelle\*\*:\s*`?(.+?)`?\s*$"])
     evaluator = _extract_first(
@@ -179,9 +178,12 @@ def collect_ingestion_tracking() -> dict:
     if INGESTION_REPORTS_DIR.exists():
         for report_path in sorted(INGESTION_REPORTS_DIR.glob("*.md")):
             try:
-                entries.append(parse_ingestion_report(report_path))
+                raw = report_path.read_text(encoding="utf-8")
             except Exception:
                 continue
+            if not re.search(r"^#\s+📥\s+Ingestion Report", raw, re.MULTILINE):
+                continue
+            entries.append(parse_ingestion_report(report_path, raw))
 
     # Latest first where possible; unknown timestamps at the end.
     entries.sort(key=lambda x: x["evaluated_at"] if x["evaluated_at"] != "[UNGEKLAERT]" else "", reverse=True)
@@ -208,7 +210,7 @@ def collect_ingestion_tracking() -> dict:
 
 
 def build_tracking_register_markdown(tracking: dict) -> str:
-    now_utc = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     lines: list[str] = []
     lines.append("---")
     lines.append("uuid: 6af36c09-c985-4de8-9dc5-9680b9de9b5b")

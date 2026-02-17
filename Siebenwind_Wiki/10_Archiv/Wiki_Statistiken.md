@@ -6,7 +6,7 @@ category: Index
 
 # 📊 Wiki Status
 
-**Stand:** 2026-02-17 22:01
+**Stand:** 2026-02-17 22:39
 
 ---
 
@@ -15,6 +15,8 @@ category: Index
 | **Artikel** | 1107 |
 | **Worte** | 182,513 |
 | **Personen** | 587 |
+| **Ingestion-Reports** | 54 |
+| **Tracking vollständig** | 50 |
 
 ---
 
@@ -45,13 +47,13 @@ Leserrelevante, stark vernetzte Artikel (ohne Index/Register).
 | [[Falkensee]] | 543 |
 | [[Brandenstein]] | 465 |
 | [[Astrael]] | 192 |
-| [[Toran_Dur]] | 172 |
+| [[Toran_Dur]] | 174 |
 
 
 ## 👤 Top Persönlichkeiten
 | Persönlichkeit | Links |
 | :--- | :--- |
-| [[Toran_Dur]] | 172 |
+| [[Toran_Dur]] | 174 |
 | [[Geist]] | 125 |
 | [[Custodias]] | 83 |
 | [[Waldemar_Delarie]] | 60 |
@@ -66,6 +68,17 @@ Leserrelevante, stark vernetzte Artikel (ohne Index/Register).
 | [[Siebenwind_Bote_175]] | 28 |
 | [[Siebenwind_Bote_179]] | 27 |
 | [[Siebenwind_Bote_173]] | 24 |
+
+
+## 🧾 Ingestion Tracking
+
+| Metrik | Wert |
+| :--- | :--- |
+| Reports gesamt | 54 |
+| Reports mit Kern-Tracking (Quelle + Wer + Wann) | 50 |
+| Reports mit LQS | 52 |
+| Dominante Score-Cluster | 3/3/3 (29), 3/2/3 (17), 3/2/2 (2) |
+
 
 ---
 > [!NOTE]
