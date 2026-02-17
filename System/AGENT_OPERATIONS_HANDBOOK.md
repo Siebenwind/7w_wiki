@@ -38,6 +38,8 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 4. Validieren: Mindestens `./7w_wiki.py audit`, bei Dokuaenderungen auch `check`, `stats`, `archive sync`.
 5. Dokumentieren: `CHANGELOG.md`, Boards, Register- und Doku-Updates.
 
+**Automatisierung**: Die Workflows `/handover` und `/takeover` fuehren Standard-Checks (Inbox, Clean-State, Stats) automatisch aus (`// turbo`).
+
 ## Runtime Commands
 - `advisor`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `mail`, `pages`, `repair`, `sanitize`, `score`, `scout`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
 
@@ -103,7 +105,8 @@ Reihenfolge bei Oracle:
 
 1. Autoritative Betriebsdokumente liegen in `System/`.
 2. Fuer GitHub Pages werden sichtbare Eintraege in `docs/` und `mkdocs.yml` gepflegt.
-3. Der `/docs`-Workflow ist die Pflichtstrecke fuer Doku-Paritaet.
+3. **Deployment**: Die Seite wird NICHT mehr automatisch bei Push gebaut. Deployment erfolgt nur bei **Tags (`v*`)** oder manuellem `workflow_dispatch`.
+4. Der `/docs`-Workflow ist die Pflichtstrecke fuer Doku-Paritaet.
 
 ## Verweise
 

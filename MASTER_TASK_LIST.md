@@ -12,7 +12,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
 - [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - *Delegiert an Ingestor*.
-- [ ] **System-Task (Directive MSG-2026-0002)**: Finalisierung der Link-Bereinigung.
+- [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - *Delegiert an Ingestor*.
 
 ## 🟡 Priorität 2: Operative Ingestion & Research
 - [ ] **Kanon-Abgleich**: Wiederaufnahme der Prüfung zur Götterverschmelzung (RESEARCH-2026-010/011) - [DEFERRED].
@@ -49,6 +49,14 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ### v2.7 Upgrade-Phasen
 
 <details open>
+<summary><b>Phase 1.20: Repair - Link Integrity & Workflow Optimization (Feb 2026)</b></summary>
+
+- **Link Repair**: Reduktion defekter Links um 54% durch neue Link Engine (`repair.py`).
+- **Workflow**: `deploy.yml` stoppt Auto-Builds; `// turbo` Automation für Agenten.
+- **Documentation**: Handbooks und Protokolle updated.
+</details>
+
+<details>
 <summary><b>Phase 1.19: Silicon Inquisition - Shamanic Magic & Run (Feb 2026)</b></summary>
 
 - **Lore**: Integration der Geisterlehre und Totemmagie in `Schamanische_Magie.md`.

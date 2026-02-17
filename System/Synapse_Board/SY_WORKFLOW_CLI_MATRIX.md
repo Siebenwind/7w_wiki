@@ -18,7 +18,7 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 |---|---|---|---|
 | `/start` | executable | `7w_wiki.py start` + `7w_wiki.py mail inbox --status OPEN` + `7w_wiki.py test --suite clean-client-state` | Onboarding-Einstieg mit Dispatch- und Clean-State-Sichtung |
 | `/audit` | executable | `7w_wiki.py audit` | Konsistenzpruefung |
-| `/repair` | executable | `7w_wiki.py repair` | Interaktive Reparatur |
+| `/repair` | executable | `7w_wiki.py repair` | Interaktive Reparatur (Frontmatter, Links, Link-Engine) |
 | `/historian` | executable | `7w_wiki.py historian [query]` | Lore-Analyse |
 | `/stats` | executable | `7w_wiki.py stats` | Projektmetriken |
 | `/test_run` | executable | `7w_wiki.py test --suite clean-client-state|takeover-handover|interop-doc-links|rag-relevance-smoke|all` + optional `--post-failures` | Standardisierter Interop- und RAG-Smoke-Testlauf |
@@ -28,7 +28,7 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 | `/contrib_audit` | method_only | `7w_wiki.py audit` + manuelle Review-Checks | kein eigener Parser |
 | `/decide` | method_only | `7w_wiki.py mail inbox --status OPEN` + `7w_wiki.py mail read <id>` + `7w_wiki.py mail claim <id> --agent <name>` + `7w_wiki.py mail done <id> --agent <name>` | Entscheidungsbearbeitung ueber Dispatch |
 | `/docs` | method_only | `7w_wiki.py check` + `7w_wiki.py stats` + `7w_wiki.py pages validate` + `7w_wiki.py archive sync` | Doku- und Pages-Paritaet inkl. Build-Validierung |
-| `/handover` | executable | `7w_wiki.py handover` + `7w_wiki.py start` + `7w_wiki.py advisor` + `7w_wiki.py mail inbox --status OPEN` + `7w_wiki.py test --suite all` + `7w_wiki.py stats` + `7w_wiki.py audit` | CLI zeigt Protokoll; Schritte bleiben verbindlich |
+| `/handover` | executable | `7w_wiki.py handover` + (Auto: `start`, `advisor`, `inbox`, `test`, `stats`, `audit`) | CLI zeigt Protokoll; Steps laufen automatisch (`// turbo`) |
 | `/herold` | method_only | `7w_wiki.py stats` + Changelog/README Pflege | kein eigener Parser |
 | `/ingest_master` | method_only | `7w_wiki.py advisor` + `7w_wiki.py search <query> --source wiki|quellen|all` | Prozessrahmen |
 | `/ingestion_protocol` | executable | `7w_wiki.py archive sync` + `7w_wiki.py sanitize --auto` + `7w_wiki.py score <file>` | Teilweise automatisiert |
@@ -38,7 +38,7 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 | `/researcher` | method_only | `7w_wiki.py search <query> --source all` | Recherchemodus |
 | `/rvw_loop` | method_only | `7w_wiki.py search <query> --source all` + manuelle Schritte | kein Parser |
 | `/scout` | executable | `7w_wiki.py scout --forum bekanntmachungen|news --pages N` | Automatisierter Forum-Deep-Scan |
-| `/takeover` | executable | `7w_wiki.py takeover` + `7w_wiki.py start` + `7w_wiki.py advisor` + `7w_wiki.py mail inbox --status OPEN` + `7w_wiki.py test --suite clean-client-state` | CLI zeigt Protokoll; Dispatch und Clean-State bleiben Pflicht |
+| `/takeover` | executable | `7w_wiki.py takeover` + (Auto: `start`, `advisor`, `inbox`, `clean-client-state`) | CLI zeigt Protokoll; Steps laufen automatisch (`// turbo`) |
 | `/translate` | executable | `7w_wiki.py translate` | Sprach-Parser |
 | `/update` | executable | `7w_wiki.py audit` + `7w_wiki.py sanitize --auto` + `7w_wiki.py index --status` | Systempflege |
 | `/watch` | executable | `7w_wiki.py watch` | Live-Watcher |

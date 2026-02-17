@@ -1,5 +1,20 @@
 # Changelog
 
+#### [2026-02-17.04] - Repair: Link Integrity & Workflow Optimization (Phase 1.20)
+
+### Prioritaet
+- P1
+
+### Hinzugefügt
+- **Link Repair Engine**: Option 3 in `repair.py` zur Auto-Korrektur von Casing, Redirects und Malformations.
+- **Workflow Automation**: `// turbo` Support für `/handover` (Stats, Test, Audit) und `/takeover` (Inbox, Clean-State).
+- **Deployment Policy**: GitHub Pages Build nur noch manuell (`workflow_dispatch`) oder via Tag (`v*`).
+
+### Behoben
+- **Link-Konsistenz**: Reduktion defekter Links um 54% (Casing & technische Fehler behoben).
+- **CI/CD Load**: Automatische Runs bei Push deaktiviert.
+- **Agent Handbooks**: `AGENT_OPERATIONS_HANDBOOK.md` und Matrix aktualisiert.
+
 #### [2026-02-17.03] - Silicon Inquisition: Shamanic Magic & Run (Phase 1.19)
 
 ### Prioritaet
