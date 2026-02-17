@@ -1,5 +1,41 @@
 # Changelog
 
+#### [2026-02-17.16] - Repair-Fortsetzung: Link-Flood auf 684 gesenkt
+
+### Prioritaet
+- P1
+
+### Geaendert
+- Weiterer Bridge-Batch fuer haeufige Missing-WikiLinks in `Siebenwind_Wiki/00_Fundament` ausgerollt (u. a. `Yeroma`, `Yehramnis`, `Xandros`, `Wallenburg`, `Ravel`, `Schwarze_Magie`, `Region_Endophal`).
+- Zusaetzliche Legacy-Bruecken fuer Leerzeichen-/Umlaut-Targets eingefuehrt (z. B. `Toran Dur.md`, `Weißer_Pfad.md`), damit Deep-WikiLink-Fehler nicht mehr ins Leere laufen.
+- Kategorie-Indizes erneut erzeugt (`./7w_wiki.py index-pages`).
+
+### Validiert
+- `./7w_wiki.py audit`  
+  Reports:
+  - `Logs/Archive/Audit_9afc730c-2708-4468-a217-87ec535eed88.txt` (684 Probleme)
+  - `Logs/Archive/Audit_52c1506c-128c-4a08-b3d4-4b421c91e120.txt` (684 Probleme)
+- `./7w_wiki.py test --suite clean-client-state`  
+  Report: `Logs/Archive/TEST_clean-client-state_2026-02-17_235050.md` (PASS)
+- `./7w_wiki.py index-pages` (PASS)
+
+#### [2026-02-17.15] - Banner-Story-Mapping verankert (Kanonanker Pflicht)
+
+### Prioritaet
+- P1
+
+### Geaendert
+- Landing um Abschnitt `Banner-Rotation mit Kanonbezug` erweitert (`docs/index.md`):
+  - Motiv A `Archivflur ohne Figuren` verlinkt auf `Nachts_im_Brandensteiner_Tempel`.
+  - Motiv B `Chroniktafeln im Nebel` verlinkt auf `Zeitleiste_(15-30_n.H.)`.
+  - Teasertexte auf die Kernaussagen der Zielartikel abgestimmt.
+- Art-Director-Skill um Pflicht `Kanonanker` erweitert (`.agent/skills/art_director/SKILL.md`).
+- `/herold` Workflow erweitert: Bannermotive nur mit verifiziertem Story-Link und geprueftem Teasertext.
+
+### Validiert
+- `./7w_wiki.py test --suite interop-doc-links`
+- `./7w_wiki.py test --suite clean-client-state`
+
 #### [2026-02-17.14] - Repair-Fortsetzung: Link-Flood deutlich reduziert
 
 ### Prioritaet

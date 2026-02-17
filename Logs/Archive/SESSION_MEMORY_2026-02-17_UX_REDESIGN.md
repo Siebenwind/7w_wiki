@@ -33,6 +33,7 @@ epistemic: "#meta"
   - `.agent/workflows/herold.md` auf neues Stilprofil + Banner-Placement-Regeln umgestellt.
 - Dispatch:
   - Historian-Kurationsauftrag erstellt: `System/Synapse_Board/DISPATCH/MSG-2026-0017_ux_kurationsauftrag_interessante_artikel.md`.
+  - Banner-Story-Mapping im Landing ergaenzt und dokumentiert (`2026-02-17.15`).
 
 ## Validierung
 - `./7w_wiki.py pages build --strict` PASS.
@@ -43,3 +44,4 @@ epistemic: "#meta"
 ## Offene Punkte
 - Monatliche Historian-Shortlist fuer `Interessante Artikel` einholen und einpflegen.
 - Optional naechster Schritt: `Betrieb und Technik` aus Top-Navigation weiter in Meta/Footernavigation absenken.
+- Optional naechster Schritt: zwei finale Bannerassets (Motiv A/B) generieren und als quartalsweise Rotation operationalisieren.

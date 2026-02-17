@@ -19,6 +19,7 @@ Dieser Workflow dient der visuellen und öffentlichen Pflege des Siebenwind-Wiki
 - [ ] Banner-Placement strikt halten:
   - Hero-Banner nur auf `docs/index.md`.
   - Bereichsseiten nur mit kleinen Header-Visuals, keine Vollflaechen.
+- [ ] Fuer jedes Bannermotiv einen klaren Kanon-Link angeben und Teasertext gegen den Zielartikel pruefen.
 
 ## 2. Dokumentations-Politur
 - [ ] Überarbeite die `README.md` für maximale Scannbarkeit und Ästhetik.

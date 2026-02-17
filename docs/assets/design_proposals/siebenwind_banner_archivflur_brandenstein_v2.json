@@ -1,0 +1,26 @@
+{
+  "asset_name": "siebenwind_banner_archivflur_brandenstein_v2",
+  "timestamp": "2026-02-17T23:55:00Z",
+  "style_preset": "Archivum Argentum",
+  "prompt_used": "Leonardo-inspired silverpoint draft on archival paper, panoramic 3:1 banner. Empty archive corridor in Brandenstein temple architecture, no people, no faces, no machinery. Tall shelves, stone vaults, subtle dust in angled moonlight, ritual chalk traces on floor, sparse mirror-writing notes in margins. Calm, serious, restrained linework, large negative space for headline and CTA, minimal red chalk accents only.",
+  "parameters": {
+    "aspect_ratio": "3:1",
+    "model": "gemini-3-pro-image"
+  },
+  "context": "Homepage Hero Candidate A",
+  "story_anchor": {
+    "title": "Nachts im Brandensteiner Tempel",
+    "link": "Siebenwind_Wiki/09_Bibliothek/Nachts_im_Brandensteiner_Tempel/"
+  },
+  "copy_hint": {
+    "headline": "Das Archiv schweigt nie",
+    "subline": "Ein naechtliches Schutzritual gegen das Dunkeltief.",
+    "cta": "Zur Erzaehlung"
+  },
+  "user_constraints": [
+    "No figures in foreground",
+    "No gears",
+    "Serious archive tone",
+    "Must match linked story core"
+  ]
+}

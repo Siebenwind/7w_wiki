@@ -9,6 +9,19 @@
   </div>
 </div>
 
+## Banner-Rotation mit Kanonbezug
+
+<div class="featured-grid">
+  <a href="Siebenwind_Wiki/09_Bibliothek/Nachts_im_Brandensteiner_Tempel/" class="featured-card">
+    <h3>Motiv A: Archivflur ohne Figuren</h3>
+    <p>Verknuepft mit "Nachts im Brandensteiner Tempel": ein naechtliches Schutzritual eines alternden Morsan-Geweihten zur Vorbereitung auf das Dunkeltief.</p>
+  </a>
+  <a href="Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.)/" class="featured-card">
+    <h3>Motiv B: Chroniktafeln im Nebel</h3>
+    <p>Verknuepft mit "Zeitleiste (15-30 n.H.)": dokumentiert den Botenzeitraum 120-193 und die politischen Umbrueche der Inselgeschichte.</p>
+  </a>
+</div>
+
 ## Einstieg fuer Leserinnen und Leser
 
 <div class="portal-grid">
@@ -79,6 +92,7 @@ Mehr kuratierte Einstiege: [Zur Uebersicht Interessante Artikel](Siebenwind_Wiki
 </div>
 
 - [Interessante Artikel (Kurationsverfahren)](Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md)
+- [Qualitaetsrahmen 2026](Archiv/QUALITAETSRAHMEN_2026.md)
 - [Research Board](Archiv/Research_Board.md)
 - [Ingestion Reports](Archiv/Ingestion_Reports/index.md)
 

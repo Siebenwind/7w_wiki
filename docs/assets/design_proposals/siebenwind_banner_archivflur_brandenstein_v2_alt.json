@@ -1,0 +1,26 @@
+{
+  "asset_name": "siebenwind_banner_archivflur_brandenstein_v2_alt",
+  "timestamp": "2026-02-17T23:55:00Z",
+  "style_preset": "Archivum Argentum",
+  "prompt_used": "Wide 3:1 silverpoint sketch of an empty temple archive chamber in Brandenstein, seen from doorway perspective. No people, no statues, no mechanical motifs. Low lantern glow and moonlight crossing over parchment stacks, ritual sigils near a basin, very fine topographic line texture on walls, minimal red-chalk accents. Suggestive, quiet, solemn, with broad blank zone for text.",
+  "parameters": {
+    "aspect_ratio": "3:1",
+    "model": "gemini-3-pro-image"
+  },
+  "context": "Homepage Hero Candidate A (Alternative)",
+  "story_anchor": {
+    "title": "Nachts im Brandensteiner Tempel",
+    "link": "Siebenwind_Wiki/09_Bibliothek/Nachts_im_Brandensteiner_Tempel/"
+  },
+  "copy_hint": {
+    "headline": "Ritual im stillen Archiv",
+    "subline": "Brandenstein bei Nacht, im Schatten des Dunkeltiefs.",
+    "cta": "Ritual lesen"
+  },
+  "user_constraints": [
+    "No character portrait",
+    "No gears",
+    "Environment-first composition",
+    "Canonical accuracy to linked story"
+  ]
+}

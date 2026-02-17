@@ -1,0 +1,26 @@
+{
+  "asset_name": "siebenwind_banner_chroniknebel_zeitleiste_v2",
+  "timestamp": "2026-02-17T23:55:00Z",
+  "style_preset": "Archivum Argentum",
+  "prompt_used": "Panoramic silverpoint chronicle board on aged vellum, 3:1 banner, no characters. Layered date bands and archival strips fading into mist, subtle island contour lines, wax-seal marks, thin geometric guides, sparse mirror writing. Visual theme: documented timeline from issue 120 to 193 with political upheaval and conflict markers. Restrained, scholarly, high readability area in center-left.",
+  "parameters": {
+    "aspect_ratio": "3:1",
+    "model": "gemini-3-pro-image"
+  },
+  "context": "Homepage Hero Candidate B",
+  "story_anchor": {
+    "title": "Zeitleiste (15-30 n.H.)",
+    "link": "Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.)/"
+  },
+  "copy_hint": {
+    "headline": "Chroniktafeln im Nebel",
+    "subline": "Der dokumentierte Botenzeitraum 120-193.",
+    "cta": "Zur Zeitleiste"
+  },
+  "user_constraints": [
+    "No figures in foreground",
+    "No gears",
+    "Serious archive tone",
+    "Must reflect timeline documentation"
+  ]
+}

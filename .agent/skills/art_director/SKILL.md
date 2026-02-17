@@ -14,6 +14,7 @@ Dieser Skill steuert die Generierung von visuellen Artefakten für das Siebenwin
 1.  **Konsistenz:** Alle Bilder müssen einem definierten **Style Preset** folgen. Kein "Prompt-Chaos".
 2.  **Referenzierung:** Jedes Bild benötigt eine permanente Metadaten-Spur (Sidecar-File).
 3.  **Qualität:** Lieber 3x generieren und kuratieren, als Artifakte oder falsche Stile akzeptieren.
+4.  **Kanonanker:** Bannertext und Motivmuessen auf einen konkreten Wiki-Artikel verweisen und dessen Kernaussage korrekt abbilden.
 
 ## Arbeitsweise
 
@@ -58,7 +59,8 @@ Bei jeder `generate_image` Aktion MUSS gleichzeitig eine `.json` Metadaten-Datei
     *   *Suffix:* "...restrained linework, negative space, faint mirror writing."
 3.  **Generierung:** Führe `generate_image` aus.
 4.  **Validierung:** Prüfe das Ergebnis visuell (method hint, non-runtime: Editor/Browser-Host-Tooling). Passt der Stil?
-5.  **Archivierung:** Speichere Bild + JSON.
+5.  **Kanon-Check:** Verifiziere, dass Motivbeschreibung und verlinkter Artikel inhaltlich uebereinstimmen.
+6.  **Archivierung:** Speichere Bild + JSON.
 
 ## Zukunfts-Sicherheit
 Sollte sich der Art Style ändern, wird lediglich der Abschnitt **1. Style Presets** in diesem Skill aktualisiert. Die Metadaten alter Bilder bleiben erhalten und dokumentieren ihre Epoche.

@@ -1,0 +1,26 @@
+{
+  "asset_name": "siebenwind_banner_chroniknebel_zeitleiste_v2_alt",
+  "timestamp": "2026-02-17T23:55:00Z",
+  "style_preset": "Archivum Argentum",
+  "prompt_used": "3:1 archival panorama in silverpoint and graphite. Floating chronicle slates and parchment strips with year markers, subtle fog layers, map fragments of Siebenwind regions, tiny conflict glyphs, no figures, no city crowd scenes. Emphasize documented continuity and historical transitions, restrained line economy, serious scholarly mood, high contrast only on timeline markers.",
+  "parameters": {
+    "aspect_ratio": "3:1",
+    "model": "gemini-3-pro-image"
+  },
+  "context": "Homepage Hero Candidate B (Alternative)",
+  "story_anchor": {
+    "title": "Zeitleiste (15-30 n.H.)",
+    "link": "Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.)/"
+  },
+  "copy_hint": {
+    "headline": "Zeiten im Uebergang",
+    "subline": "Von der Ritterschaft zur zivilen Ordnung.",
+    "cta": "Chronik oeffnen"
+  },
+  "user_constraints": [
+    "No figure artwork",
+    "No gears",
+    "Timeline-first storytelling",
+    "Canonical alignment with linked article"
+  ]
+}
