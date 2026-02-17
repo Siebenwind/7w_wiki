@@ -11,8 +11,9 @@ Zentrale Inventur für Ingestion-Batches.
 
 ## 🔴 Ausstehende Quellen (Pending)
 
-| Filename | Library | Author (inferred) | Status |
-|----------|---------|-------------------|--------|
+| Filename | Library | Quelle | Pfad | Status | Batch | Anmerkung |
+|---|---|---|---|---|---|---|
+| Siebenwind Bote 118 | Zeitung | ❌ Missing | Quellen/Zeitung 7w Bote/Siebenwind Bote 118.md | Platzhalter-Datei (leer) | - | - |
 | Siebenwind Bote 118.md | Zeitung | - | Integrated (Stub) |
 | Siebenwind Bote 186.md | Zeitung | - | Integrated (v2.7) |
 | Siebenwind Bote 187.md | Zeitung | - | Integrated (v2.7) |

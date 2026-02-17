@@ -1,5 +1,20 @@
 # Changelog
+# Changelog
 
+#### [2026-02-17.06] - Technician Agent Integration (Phase 1.22)
+
+### Prioritaet
+- P1
+
+### Hinzugefügt
+- **Persona**: `persona_technician.md` (Netz-Ingenieur) fuer DevOps-Fokus.
+- **Workflow**: `.agent/workflows/tech.md` fuer technische Wartung und CI/CD.
+- **CLI**: `tech` Command in `7w_wiki.py` und Matrix.
+- **Escalation**: Browser-Nutzung fuer Live-Site-Verifikation genehmigt.
+
+### Validiert
+- `./7w_wiki.py tech` (Workflow-View).
+- `AGENTS.md` und `COORDINATION_HUB.md` synchronisiert.
 #### [2026-02-17.05] - Smart Repair & Ingestion 2.0 (Phase 1.21)
 
 ### Prioritaet

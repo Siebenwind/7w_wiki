@@ -43,3 +43,8 @@ Diese Datei wurde als Interop-Blocker-Fix angelegt. Neue Ingestion-Laeufe mit Da
 - **Siebenwind_Bote_194.md**: Deep ingestion completed. Death of Rotschuppe. Preparation for Dunkeltief 36 n.H. Rattenkönigin neutralized.
 - **Register**: Updated `Personenregister.md` (Solos Nhergas, Adhemar Ravenforth, Mirila Mik-Honigzopf, Arthax Stahlauge, etc.) and `Organisationsregister.md`.
 - **Inventory**: Mark Bote 186-194 as Integrated in Batch 8.
+
+### 2026-02-17: Ingestion Attempt Bote 118
+- **Siebenwind_Bote_118.md**: Source file `Quellen/Zeitung 7w Bote/Siebenwind Bote 118.md` is an empty placeholder.
+- **Action**: Skipped ingestion.
+- **Log**: Marked as `❌ Missing` in `Logs/INVENTUR_QUELLEN.md`.

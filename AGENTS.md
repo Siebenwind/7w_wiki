@@ -49,6 +49,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `archive sync` | Sync archive symlinks into `docs/Archiv`. | `docs/Archiv` |
 | `mail <subcommand...>` | Agent-to-agent dispatch (`post`, `inbox`, `read`, `claim`, `done`). | `System/Synapse_Board/SY_DISPATCH.md` |
 | `stats` | Generate project statistics. | `.agent/scripts/generate_wiki_stats.py` |
+| `tech` | Show Technician workflow (DevOps logic). | `.agent/workflows/tech.md` |
 
 ## 📂 Documentation Map
 

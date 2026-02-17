@@ -39,6 +39,7 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 | `/rvw_loop` | method_only | `7w_wiki.py search <query> --source all` + manuelle Schritte | kein Parser |
 | `/scout` | executable | `7w_wiki.py scout --forum bekanntmachungen|news --pages N` | Automatisierter Forum-Deep-Scan |
 | `/takeover` | executable | `7w_wiki.py takeover` + (Auto: `start`, `advisor`, `inbox`, `clean-client-state`) | CLI zeigt Protokoll; Steps laufen automatisch (`// turbo`) |
+| `/tech` | executable | `7w_wiki.py tech` | System-Wartung & DevOps (Netz-Ingenieur) |
 | `/translate` | executable | `7w_wiki.py translate` | Sprach-Parser |
 | `/update` | executable | `7w_wiki.py audit` + `7w_wiki.py sanitize --auto` + `7w_wiki.py index --status` | Systempflege |
 | `/watch` | executable | `7w_wiki.py watch` | Live-Watcher |

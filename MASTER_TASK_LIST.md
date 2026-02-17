@@ -11,9 +11,9 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [ ] **Ingestion 2.0**: Testlauf mit neuer `repair.py` Kollisionsprüfung für nächste Quelle.
-- [ ] **Index Consolidation**: Manuelle Bereinigung der 20+ `index.md` Duplikate (basierend auf `repair.py` Report).
-- [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+).
+- [ ] **Technician Deployment**: Fixing Broken Links & GitHub Actions (via `/tech` + Browser).
+- [ ] **Ingestion 2.0**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - [BLOCKED: 118 Source Missing].
+- [ ] **Index Consolidation**: Manuelle Bereinigung der 20+ `index.md` Duplikate.
 
 ## 🟡 Priorität 2: Operative Ingestion & Research
 - [ ] **Kanon-Abgleich**: Wiederaufnahme der Prüfung zur Götterverschmelzung (RESEARCH-2026-010/011) - [DEFERRED].
@@ -50,6 +50,15 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ### v2.7 Upgrade-Phasen
 
 <details open>
+<summary><b>Phase 1.22: Technician Agent Integration (Feb 2026)</b></summary>
+
+- **Agent Matrix**: New Persona "Netz-Ingenieur" (Technician) added.
+- **Workflow**: `/tech` (DevOps & Infrastructure) implemented.
+- **Capabilities**: Browser Usage allowed for `siebenwind.github.io` verification (Escalation).
+- **CLI**: `7w_wiki.py tech` command registered.
+</details>
+
+<details>
 <summary><b>Phase 1.21: Smart Repair & Ingestion 2.0 (Feb 2026)</b></summary>
 
 - **Smart Resolver**: `repair.py` mit Fuzzy-Matching und Canon-Map ausgestattet (49 Auto-Fixes).

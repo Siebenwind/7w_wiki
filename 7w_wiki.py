@@ -157,6 +157,9 @@ def main():
     scout_parser.add_argument("--forum", choices=["bekanntmachungen", "news"], default="bekanntmachungen", help="Target forum")
     scout_parser.add_argument("--pages", type=int, default=3, help="Number of pages to scan")
 
+    # Technician (DevOps)
+    subparsers.add_parser("tech", help="Show Technician workflow (DevOps & Infrastructure)")
+
     # Check if no arguments provided, default to advisor
     if len(sys.argv) == 1:
         args = parser.parse_args(["advisor"])
@@ -312,6 +315,10 @@ def main():
             print("Usage: ./7w_wiki.py mail <post|inbox|read|claim|done> [args]")
             sys.exit(1)
         run_script(".agent/scripts/agent_mail.py", args.mail_args)
+
+    elif args.command == "tech":
+        print(f"🔧 {BOLD}Workflow: /tech (Netz-Ingenieur){RESET}")
+        view_workflow("tech")
 
     else:
         parser.print_help()
