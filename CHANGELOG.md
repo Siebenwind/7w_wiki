@@ -1,5 +1,97 @@
 # Changelog
 
+#### [2026-02-18.02] - Baustellen-Dossier fuer nicht-bannerbezogene Open Issues
+
+### Prioritaet
+- P1
+
+### Hinzugefuegt
+- Neues Lagebild mit priorisierter Auflistung der aktuellen Baustellen:
+  - `docs/Archiv/BAUSTELLEN_DOSSIER_2026-02-18.md`
+- Dossier trennt akute Blocker (Audit/Oracle/Test/Ingestion) von operativen und strategischen Themen.
+- Evidenzpfade zu aktuellen Reports und Dispatch-Auftraegen dokumentiert.
+
+### Geaendert
+- Teamweite Board-Notiz zum Dossier versendet:
+  - `System/Synapse_Board/DISPATCH/MSG-2026-0022_meta_baustellen_dossier_2026_02_18_aktualisiert.md`
+
+### Validiert
+- `./7w_wiki.py advisor` (P1/P2/P3-Snapshot, Queue-Status)
+- `./7w_wiki.py audit`  
+  Report: `Logs/Archive/Audit_6002f680-cfe3-4f7d-be64-e5432b0edd11.txt` (373 Probleme)
+- Referenzierte Tests:
+  - `Logs/Archive/TEST_takeover-handover_2026-02-18_000242.md` (FAIL)
+  - `Logs/Archive/TEST_rag-relevance-smoke_2026-02-18_000738.md` (FAIL)
+  - `Logs/Archive/TEST_interop-doc-links_2026-02-18_000916.md` (PASS)
+  - `Logs/Archive/TEST_clean-client-state_2026-02-18_000508.md` (PASS)
+
+#### [2026-02-18.01] - Repair-Fortsetzung: Link-Flood auf 414 reduziert
+
+### Prioritaet
+- P1
+
+### Geaendert
+- Weitere Bruecken-Batches fuer verbleibende 2er-Haeufungen in `Siebenwind_Wiki/00_Fundament` umgesetzt (u. a. `Magiezweige`, `Lindwurm`, `Lieblicher_Kelch`, `Kriegerakademie_Seeberg`, `Burg_Saalhorn`, `Gott Bellum`, `Feanthil`).
+- Zusaetzliche Varianten-/Schreibweisen-Faelle abgefangen (`Rohehaven`→`Rohehafen`, `Ordo_Vitama`→`Ordo_Vitamae`, `Spinnenplage`→`Die_Spinnenplage_von_Falkensee`).
+- Kategorie-Indizes erneut aktualisiert (`./7w_wiki.py index-pages`).
+
+### Validiert
+- `./7w_wiki.py audit`  
+  Reports:
+  - `Logs/Archive/Audit_c74b4977-ff76-4978-bf8c-cea2e961bb94.txt` (458 Probleme)
+  - `Logs/Archive/Audit_e6f70614-e065-4299-9575-29c0eb7a2645.txt` (414 Probleme)
+  - `Logs/Archive/Audit_e49d9ebe-4951-402d-bc7d-b62e0fe6b9d6.txt` (414 Probleme)
+- `./7w_wiki.py test --suite clean-client-state`  
+  Report: `Logs/Archive/TEST_clean-client-state_2026-02-18_000238.md` (PASS)
+- `./7w_wiki.py index-pages` (PASS)
+
+#### [2026-02-17.18] - Art-Director-Auftrag als Dossier + Dispatch verankert
+
+### Prioritaet
+- P1
+
+### Hinzugefuegt
+- Ausfuehrliches Produktionsdossier fuer Banner-Erstellung:
+  - `docs/Archiv/ART_DIRECTOR_DOSSIER_BANNER_2026-02-17.md`
+  - umfasst Zielbild, Story-Anker, No-Gos, Abnahmekriterien und Lieferformat.
+- Neue Prompt-Briefs fuer die beiden priorisierten Motive:
+  - `docs/assets/design_proposals/siebenwind_banner_archivflur_brandenstein_v2.json`
+  - `docs/assets/design_proposals/siebenwind_banner_archivflur_brandenstein_v2_alt.json`
+  - `docs/assets/design_proposals/siebenwind_banner_chroniknebel_zeitleiste_v2.json`
+  - `docs/assets/design_proposals/siebenwind_banner_chroniknebel_zeitleiste_v2_alt.json`
+- Kompakte Brief-Uebersicht erstellt:
+  - `docs/Archiv/BANNER_BRIEFS_2026-02-17.md`
+
+### Geaendert
+- Offiziellen Produktionsauftrag an Herold/Art-Director per Dispatch versendet:
+  - `System/Synapse_Board/DISPATCH/MSG-2026-0020_art_produktionsauftrag_banner_archivum_argentum.md`
+
+### Validiert
+- `./7w_wiki.py test --suite interop-doc-links`  
+  Report: `Logs/Archive/TEST_interop-doc-links_2026-02-17_235956.md` (PASS)
+- `./7w_wiki.py test --suite clean-client-state`  
+  Report: `Logs/Archive/TEST_clean-client-state_2026-02-17_235959.md` (PASS)
+
+#### [2026-02-17.17] - Repair-Fortsetzung: Link-Flood unter 500 gedrueckt
+
+### Prioritaet
+- P1
+
+### Geaendert
+- Weitere Brueckenartikel fuer hochfrequente Missing-WikiLinks in `Siebenwind_Wiki/00_Fundament` angelegt (u. a. `Monolith`, `Der_Eine`, `Bestien`, `Kult_des_Einen`, `Astralnetz`, `Arman_von_Draconis`).
+- Zweiter Follow-up-Block fuer verbliebene 2er-Haeufungen umgesetzt (u. a. `Rohehaven`, `Ordo_Vitama`, `Sphaerenkunde`, `Schwarzmagier`, `Sire_Randur_Kantrin`, `Spinnenplage`).
+- Kategorie-Indizes nach beiden Batches erneut aktualisiert (`./7w_wiki.py index-pages`).
+
+### Validiert
+- `./7w_wiki.py audit`  
+  Reports:
+  - `Logs/Archive/Audit_91e570d3-8606-4325-bf25-0f5cd1a899db.txt` (594 Probleme)
+  - `Logs/Archive/Audit_b3d0152b-f023-4f0c-8ade-a29e2ef72544.txt` (498 Probleme)
+  - `Logs/Archive/Audit_ab6162e1-d32f-4f95-bdc3-407e07f133dd.txt` (498 Probleme)
+- `./7w_wiki.py test --suite clean-client-state`  
+  Report: `Logs/Archive/TEST_clean-client-state_2026-02-17_235845.md` (PASS)
+- `./7w_wiki.py index-pages` (PASS)
+
 #### [2026-02-17.16] - Repair-Fortsetzung: Link-Flood auf 684 gesenkt
 
 ### Prioritaet

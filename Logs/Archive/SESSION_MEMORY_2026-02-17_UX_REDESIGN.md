@@ -34,6 +34,7 @@ epistemic: "#meta"
 - Dispatch:
   - Historian-Kurationsauftrag erstellt: `System/Synapse_Board/DISPATCH/MSG-2026-0017_ux_kurationsauftrag_interessante_artikel.md`.
   - Banner-Story-Mapping im Landing ergaenzt und dokumentiert (`2026-02-17.15`).
+  - Art-Director-Produktionsauftrag mit Voll-Dossier versendet: `System/Synapse_Board/DISPATCH/MSG-2026-0020_art_produktionsauftrag_banner_archivum_argentum.md`.
 
 ## Validierung
 - `./7w_wiki.py pages build --strict` PASS.

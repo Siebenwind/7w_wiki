@@ -2,7 +2,7 @@
 layout: wiki_page
 title: Rianna
 category: Persönlichkeit
-quelle: "[[Forschungsberichte ([[Toran_Dur]])]]"
+quelle: "[[Forschungsberichte_(Toran_Dur)]]"
 status: "#überlieferung"
 ---
 
@@ -12,4 +12,4 @@ status: "#überlieferung"
 Magierin. Teilnehmerin an einem Hellsicht-Ritual (33 n.H.) am Wall, dokumentiert in den Forschungsberichten aus [[Toran_Dur]].
 
 ## Referenzen
-- [[Forschungsberichte ([[Toran_Dur]])]]
+- [[Forschungsberichte_(Toran_Dur)]]

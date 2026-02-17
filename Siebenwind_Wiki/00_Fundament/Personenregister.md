@@ -424,7 +424,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Dorion_Hali]] | Dorfphysikus ([[Brandenstein]]) / 2. Handwerksmeister (Löwenorden) | [Bote 152] / [Ordenssatzung] | 17 n.H. | #bote |
 | [[Rebecca_Gruenenberg]] | Bergbauverwalterin | [Bote 152] | 17 n.H. | #bote |
 | [[Yaris_Ferano]] | Bergbauverwalter | [Bote 152] | 17 n.H. | #bote |
-| [[Caieta_Ajunier]] | Magier (Teilnehmer Hellsichtritual) | [[Forschungsberichte ([[Toran_Dur]])]] | 33 n.H. | #überlieferung |
+| [[Caieta_Ajunier]] | Magier (Teilnehmer Hellsichtritual) | [[Forschungsberichte_(Toran_Dur)]] | 33 n.H. | #überlieferung |
 | [[Oberfoerster_Birk]] | Oberförster ([[Brandenstein]]) | [Bote 152] | 17 n.H. | #bote |
 | [[Akora_Dur]] | Händlerin ([[Falkensee]]) / Sprecherin [[03_Gesellschaft#Löwenorden|Löwenorden]] / Meisterin der Handwerker | [Bote 152/167] | 17-19 n.H. | #bote |
 | [[Lillien_Degner]] | Sprecherin Ortswache | [Bote 152] | 17 n.H. | #bote |
@@ -432,7 +432,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Sanduros]] | Hochwürden | [Bote 153] | 17 n.H. | #bote |
 | [[Mantaris]] | Hochwürden / Geweihter | [Bote 153/162] | 17-18 n.H. | #bote |
 | [[Sanduros_Mantaris]] | Novize d. [[Astrael]] | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
-| [[Rianna]] | Magierin (Teilnahme Hellsichtritual Wall/Wache) | [[Forschungsberichte ([[Toran_Dur]])]] | 33 n.H. | #überlieferung |
+| [[Rianna]] | Magierin (Teilnahme Hellsichtritual Wall/Wache) | [[Forschungsberichte_(Toran_Dur)]] | 33 n.H. | #überlieferung |
 | [[Utrich_Rothnang]] | Magier | [Bote 154] | 18 n.H. | #bote |
 | [[Garreth_Moss]] | Hofmagier (?) / Adeptus Arkanis | [Bote 154] / [Kompendium der Völker] | 18 n.H. | #bote |
 | [[Lantea_Greifenstein]] | Löwenritterin (Getreue) | [Bote 154] | 18 n.H. | #bote |
@@ -446,7 +446,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Annika_Rokan]] | Magierin (verstorben) | [Bote 157] | 18 n.H. | #bote |
 | [[Lorence]] | Geweihter Bellums | [Bote 158] | 18 n.H. | #bote |
 | [[Edomawyr]] | Primus ([[Graue_Garde]]) / Pfadleiter (Grau) | [Bote 127/158] / [Wirkung von Metallen] | 15-18 n.H. | #bote |
-| [[Enoah_Sullin]] | Magier (Teilnehmer Hellsichtritual) | [[Forschungsberichte ([[Toran_Dur]])]] | 33 n.H. | #überlieferung |
+| [[Enoah_Sullin]] | Magier (Teilnehmer Hellsichtritual) | [[Forschungsberichte_(Toran_Dur)]] | 33 n.H. | #überlieferung |
 | [[Elurai_Calades]] | Erzmagier / Autor | [Bindungslehre] | Historisch | #überlieferung |
 | [[Elyran_Fischer]] | Adeptus Arkanis (Ita'Glur) | [Die Elemente aus der Sicht der Mitte] | Historisch | #überlieferung |
 | [[Johann_Liebig]] | Adeptus Arkanis (Mitte) / Autor | [Arkane Verbindung] | Historisch | #überlieferung |
@@ -572,7 +572,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Szarmaduk]] | "Meister" / Entität (?) | [[Die_Namikleris]] | - | #perspektive |
 | [[Knochenfürst]] | Untoter Herrscher / Titel | [[Logbuch_des_Kerkers]] | 21 n.H. | #perspektive |
 | [[Lewyn_Anacar]] | Magier (Veränderung) | [Ars Magica Metamorphosia] | Historisch | #überlieferung |
-| [[Lothar_Gavinwald]] | Waffenmeister (Löwenorden) | [[Die Ordenssatzung des Ordens vom Wachenden Löwen ([[Toran_Dur]])]] | 17 n.H. | #überlieferung |
+| [[Lothar_Gavinwald]] | Waffenmeister (Löwenorden) | [[Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur)]] | 17 n.H. | #überlieferung |
 | [[Logrin_Goldaxt]] | Magister (Bartanatomie) | [Bartanatomie] | Historisch ([[Dwarschim]]) | #überlieferung |
 | [[Lothgar]] | ? | - | - | #überlieferung |
 | [[Maluk]] | ? | - | - | #überlieferung |
@@ -580,7 +580,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Mehr'thak]] | "Der Erzähler" / Entität ([[Angamon]]?) | [[Ritus_Gebet_und_Erleuchtung]] | - | #perspektive |
 | [[Merden]] | ? | - | - | #überlieferung |
 | [[Nakoti]] | ? | - | - | #überlieferung |
-| [[Nefustor]] | Schwarzmagier / Magister / Lehrer / Autor | [[Daimonologie und Schwarze [[index]] ([[Toran_Dur]])]] / [Protokoll/Schwarze Magietheorie] | Historisch | #überlieferung |
+| [[Nefustor]] | Schwarzmagier / Magister / Lehrer / Autor | [[Daimonologie_und_Schwarze_Magie_(Toran_Dur)]] / [Protokoll/Schwarze Magietheorie] | Historisch | #überlieferung |
 | [[Nhergas]] | ? | - | - | #überlieferung |
 | [[Nistram_Rigas]] | Adeptus Arkanis ([[Antimagie]]) | [Magica Contraria] | Historisch | #überlieferung |
 | [[Nuir_Ekre]] | Akoluth ([[Graue_Garde]]) | [Kunst der Diener] | Historisch | #überlieferung |

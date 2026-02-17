@@ -2,7 +2,7 @@
 layout: wiki_page
 title: Caieta Ajunier
 category: Persönlichkeit
-quelle: "[[Forschungsberichte ([[Toran_Dur]])]]"
+quelle: "[[Forschungsberichte_(Toran_Dur)]]"
 status: "#überlieferung"
 ---
 
@@ -12,4 +12,4 @@ status: "#überlieferung"
 Magier. Teilnehmer an einem bedeutenden Hellsicht-Ritual (33 n.H.), dokumentiert in den Forschungsberichten aus [[Toran_Dur]].
 
 ## Referenzen
-- [[Forschungsberichte ([[Toran_Dur]])]]
+- [[Forschungsberichte_(Toran_Dur)]]

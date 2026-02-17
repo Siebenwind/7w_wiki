@@ -16,7 +16,7 @@ Das Archiv der Werke.
 *   [[Ars_Magica_Metamorphosia_(Lewyn_Anacar)|Ars Magica Metamorphosia]]
 *   [[Bartanatomie_(Logrin_Goldaxt)|Bartanatomie - Band 1]]
 *   [[Bindungslehre_der_Elementarmagier_(Elurai_Calades)|Bindungslehre der Elementarmagier]]
-*   [[Daimonologie_und_Schwarze_Magie_(Toran_Dur)|Daimonologie und Schwarze [[index]] (Sammelband)]]
+*   [[Daimonologie_und_Schwarze_Magie_(Toran_Dur)|Daimonologie und Schwarze Magie (Sammelband)]]
 *   [[Das_Daimonicon_(Kulin_Lateal)|Das [[Daimonicon]]]]
 *   [[Das_System_arkaner_Lokalitaeten_(Kalveron_Dai)|Das System arkaner Lokalitäten]]
 *   [[De_Magica_Angamoniensis_(Kalveron_Dai)|De Magica Angamoniensis]]
