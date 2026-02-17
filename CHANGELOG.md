@@ -1,5 +1,23 @@
 # Changelog
 
+#### [2026-02-17.05] - Smart Repair & Ingestion 2.0 (Phase 1.21)
+
+### Prioritaet
+- P1
+
+### Hinzugefügt
+- **Smart Resolver**: `repair.py` v2.0 mit Fuzzy-Matching und Canon-Map. Löst broken links auch bei Casing-Fehlern oder Renames.
+- **Ingestion 2.0**: `ingestion_protocol.md` mit Pre-Flight-Checks (Kollisionsprüfung) und Index-Verbot.
+- **Duplicate Detection**: `repair.py` listet nun doppelte Dateien (Index/Content).
+
+### Geändert
+- **Wiki Style Guide**: `aliases`-Frontmatter offiziell unterstützt.
+- **Task List**: Phase 6 & 7 abgeschlossen.
+
+### Validiert
+- `./7w_wiki.py repair --auto` (49 Fixes, 0 Deletions).
+- `./7w_wiki.py stats` (Metriken aktualisiert).
+
 #### [2026-02-17.04] - Repair: Link Integrity & Workflow Optimization (Phase 1.20)
 
 ### Prioritaet

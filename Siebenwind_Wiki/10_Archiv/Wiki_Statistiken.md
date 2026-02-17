@@ -6,14 +6,14 @@ category: Index
 
 # 📊 Wiki Status
 
-**Stand:** 2026-02-17 18:03
+**Stand:** 2026-02-17 19:52
 
 ---
 
 | Metrik | Wert |
 | :--- | :--- |
 | **Artikel** | 1107 |
-| **Worte** | 182,180 |
+| **Worte** | 182,370 |
 | **Personen** | 587 |
 
 ---
