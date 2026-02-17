@@ -250,6 +250,14 @@ def main():
     files = list(target_dir.rglob("*.md"))
     print(f"{len(files)} Markdown-Dateien gefunden.")
     
+    if args.auto:
+        print(f"\n{BLUE}=== AUTOMATISCHE REPARATUR GESTARTET ==={RESET}")
+        fix_frontmatter(files, auto=True)
+        repair_links(files, auto=True)
+        check_links(files)
+        print(f"\n{GREEN}=== FERTIG ==={RESET}")
+        return
+
     while True:
         print("\nOptionen:")
         print("  1) Frontmatter prüfen & reparieren")

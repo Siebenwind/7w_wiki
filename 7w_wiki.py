@@ -88,9 +88,10 @@ def main():
     hist_parser.add_argument("query", nargs="?", help="Subject to analyze")
 
     # Repair
-    subparsers.add_parser("repair", help="Interactive repair of links and metadata")
+    repair_parser = subparsers.add_parser("repair", help="Interactive repair of links and metadata")
+    repair_parser.add_argument("--auto", action="store_true", help="Run non-interactive auto-repair")
 
-    # Audit
+
     subparsers.add_parser("audit", help="Run consistency audit (duplicates, orphans)")
 
     # Index
@@ -213,7 +214,10 @@ def main():
             view_workflow("historian")
 
     elif args.command == "repair":
-        run_script(".agent/scripts/repair.py")
+        repair_args = []
+        if args.auto:
+            repair_args.append("--auto")
+        run_script(".agent/scripts/repair.py", repair_args)
 
     elif args.command == "audit":
         run_script(".agent/scripts/register_check.py")
