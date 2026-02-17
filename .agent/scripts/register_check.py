@@ -29,6 +29,7 @@ REGISTER_FILE = WIKI_DIR / "00_Fundament" / "Personenregister.md"
 PROFILE_DIR = WIKI_DIR / "07_Persoenlichkeiten"
 CHRONIK_DIR = WIKI_DIR / "04_Chronik"
 CHRONIK_INDEX = CHRONIK_DIR / "Die_Chronik.md"
+INGESTION_REPORTS_DIR = PROJECT_ROOT / "Logs" / "Ingestion"
 
 CHRONIK_INDEX = CHRONIK_DIR / "Die_Chronik.md"
 SOURCE_HYGIENE_DIRS = [
@@ -173,6 +174,78 @@ def check_source_link_hygiene() -> list[tuple[Path, str, str]]:
     # Stable output: unique triplets, sorted by file then target.
     unique = sorted(set(findings), key=lambda x: (str(x[0]), x[1], x[2]))
     return unique
+
+
+def _extract_first(raw: str, patterns: list[str]) -> str:
+    for pattern in patterns:
+        match = re.search(pattern, raw, re.MULTILINE)
+        if match:
+            return match.group(1).strip()
+    return ""
+
+
+def analyze_ingestion_reports() -> dict:
+    reports: list[dict] = []
+    if not INGESTION_REPORTS_DIR.exists():
+        return {
+            "total": 0,
+            "with_core_tracking": 0,
+            "with_lqs": 0,
+            "missing_examples": [],
+            "lqs_distribution": {},
+            "profile_distribution": {},
+        }
+
+    for report_path in sorted(INGESTION_REPORTS_DIR.glob("*.md")):
+        try:
+            raw = report_path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        if not re.search(r"^#\s+📥\s+Ingestion Report", raw, re.MULTILINE):
+            continue
+
+        source = _extract_first(raw, [r"- \*\*Quelle\*\*:\s*`?(.+?)`?\s*$"])
+        evaluator = _extract_first(raw, [r"- \*\*Ausgewertet von\*\*:\s*(.+?)\s*$", r"- \*\*Verantwortlicher Agent\*\*:\s*(.+?)\s*$"])
+        evaluated_at = _extract_first(raw, [r"- \*\*Auswertungszeitpunkt \(UTC\)\*\*:\s*(.+?)\s*$", r"- \*\*Datum der Verarbeitung\*\*:\s*(.+?)\s*$"])
+        lqs = _extract_first(
+            raw,
+            [
+                r"\*\*Gesamt \(LQS(?: 0-10)?\)\*\*\s*\|\s*\*\*([0-9]+(?:\.[0-9]+)?)\/10\*\*",
+                r"- \*\*Lore-Score \(LQS\)\*\*:\s*([0-9]+(?:\.[0-9]+)?)\/10",
+            ],
+        )
+        profile = _extract_first(raw, [r"- \*\*Quality-Profil \(A/T/K/B/U\)\*\*:\s*([0-9/]+)\s*$"])
+        if not profile:
+            a = _extract_first(raw, [r"\| \*\*Abdeckung\*\* \|\s*([0-9]+)\s*\|", r"\| \*\*A: Abdeckung\*\* \|\s*([0-9]+)\s*\|"])
+            t = _extract_first(raw, [r"\| \*\*Tiefe\*\* \|\s*([0-9]+)\s*\|", r"\| \*\*T: Tiefe\*\* \|\s*([0-9]+)\s*\|"])
+            k = _extract_first(raw, [r"\| \*\*Konsistenz\*\* \|\s*([0-9]+)\s*\|", r"\| \*\*K: Kanon-Konsistenz\*\* \|\s*([0-9]+)\s*\|"])
+            if a and t and k:
+                profile = f"{a}/{t}/{k}"
+
+        reports.append(
+            {
+                "path": report_path.relative_to(PROJECT_ROOT),
+                "source": source,
+                "evaluator": evaluator,
+                "evaluated_at": evaluated_at,
+                "lqs": lqs,
+                "profile": profile,
+                "has_core_tracking": bool(source and evaluator and evaluated_at),
+            }
+        )
+
+    lqs_counter = Counter(r["lqs"] for r in reports if r["lqs"])
+    profile_counter = Counter(r["profile"] for r in reports if r["profile"])
+    missing = [r for r in reports if not r["has_core_tracking"]]
+
+    return {
+        "total": len(reports),
+        "with_core_tracking": sum(1 for r in reports if r["has_core_tracking"]),
+        "with_lqs": sum(1 for r in reports if r["lqs"]),
+        "missing_examples": missing[:10],
+        "lqs_distribution": dict(sorted(lqs_counter.items(), key=lambda x: float(x[0]))),
+        "profile_distribution": dict(profile_counter.most_common()),
+    }
 
 
 def extract_register_names(register_path: Path) -> list[str]:
@@ -360,8 +433,42 @@ def main():
         log("  ✅ Keine kritischen Source-Link-Muster gefunden.")
     log()
 
-    # --- 7. Deep WikiLink Check ---
-    log("## 7. Deep WikiLink Check (Internal Integrity)")
+    # --- 7. Ingestion Tracking Coverage & Score Spread ---
+    log("## 7. Ingestion Tracking & Score Distribution")
+    ingestion = analyze_ingestion_reports()
+    total_reports = ingestion["total"]
+    if total_reports == 0:
+        log("  ⚠️  Keine Ingestion-Reports gefunden.")
+        issues_found += 1
+    else:
+        with_core = ingestion["with_core_tracking"]
+        with_lqs = ingestion["with_lqs"]
+        log(f"  Reports gesamt: {total_reports}")
+        log(f"  Mit Kern-Tracking (Quelle + Wer + Wann): {with_core}")
+        log(f"  Mit LQS: {with_lqs}")
+
+        if with_core < total_reports:
+            missing_count = total_reports - with_core
+            log(f"  ⚠️  {missing_count} Report(s) ohne vollstaendige Tracking-Felder.")
+            issues_found += missing_count
+            for entry in ingestion["missing_examples"]:
+                log(f"    - {entry['path']}")
+
+        if ingestion["lqs_distribution"]:
+            lqs_text = ", ".join(f"{k}:{v}" for k, v in ingestion["lqs_distribution"].items())
+            log(f"  LQS-Verteilung: {lqs_text}")
+        if ingestion["profile_distribution"]:
+            top_profile, top_count = next(iter(ingestion["profile_distribution"].items()))
+            profile_text = ", ".join(f"{k}:{v}" for k, v in list(ingestion["profile_distribution"].items())[:5])
+            log(f"  Profil-Cluster: {profile_text}")
+            # Soft warning if one profile dominates heavily.
+            if top_count / max(1, with_lqs) >= 0.5:
+                log(f"  ⚠️  Score-Cluster auffaellig eng (Top-Profil {top_profile} = {top_count}/{with_lqs}).")
+                issues_found += 1
+    log()
+
+    # --- 8. Deep WikiLink Check ---
+    log("## 8. Deep WikiLink Check (Internal Integrity)")
     wiki_files, wiki_titles = get_all_wiki_files()
     broken = check_wikilinks(wiki_files, wiki_titles)
     if broken:

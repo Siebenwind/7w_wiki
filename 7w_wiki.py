@@ -114,6 +114,8 @@ def main():
     pages_validate.add_argument("--strict", action="store_true", help="Enable strict mode for mkdocs build")
     pages_validate.add_argument("--no-clean", action="store_true", help="Skip mkdocs --clean")
     pages_validate.add_argument("--skip-link-suite", action="store_true", help="Skip test --suite interop-doc-links")
+    pages_validate.add_argument("--skip-source-hygiene", action="store_true", help="Skip test --suite source-link-hygiene")
+    pages_validate.add_argument("--skip-process-governance", action="store_true", help="Skip test --suite process-dispatch-curiosity")
     pages_validate.add_argument("--skip-audit", action="store_true", help="Skip audit")
     pages_validate.add_argument("--config", default="mkdocs.yml", help="Path to mkdocs config (default: mkdocs.yml)")
 
@@ -248,6 +250,10 @@ def main():
             page_args.append("--no-clean")
         if hasattr(args, "skip_link_suite") and args.skip_link_suite:
             page_args.append("--skip-link-suite")
+        if hasattr(args, "skip_source_hygiene") and args.skip_source_hygiene:
+            page_args.append("--skip-source-hygiene")
+        if hasattr(args, "skip_process_governance") and args.skip_process_governance:
+            page_args.append("--skip-process-governance")
         if hasattr(args, "skip_audit") and args.skip_audit:
             page_args.append("--skip-audit")
         if hasattr(args, "config") and args.config:

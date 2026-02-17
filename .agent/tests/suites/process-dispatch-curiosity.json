@@ -25,7 +25,17 @@
           "file": ".agent/workflows/ingestion_protocol.md",
           "must_include_regex": [
             "Dispatch-Status",
-            "Spezialisten-Fragepflicht"
+            "Spezialisten-Fragepflicht",
+            "Tracking-Register aktualisieren"
+          ]
+        },
+        {
+          "file": "System/Templates/INGESTION_REPORT_TEMPLATE.md",
+          "must_include_regex": [
+            "Auswertungs-ID",
+            "Ausgewertet von",
+            "Auswertungszeitpunkt",
+            "Quality-Profil \\(A/T/K/B/U\\)"
           ]
         },
         {
