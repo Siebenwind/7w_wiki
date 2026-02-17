@@ -1,0 +1,13 @@
+﻿2026-02-17T17:48:42.5971882Z ##[group]Run rm -rf docs/Siebenwind_Wiki docs/Quellen
+2026-02-17T17:48:42.5972308Z [36;1mrm -rf docs/Siebenwind_Wiki docs/Quellen[0m
+2026-02-17T17:48:42.5972629Z [36;1mcp -rp Siebenwind_Wiki docs/[0m
+2026-02-17T17:48:42.5972893Z [36;1mcp -rp Quellen docs/[0m
+2026-02-17T17:48:42.6022252Z shell: /usr/bin/bash -e {0}
+2026-02-17T17:48:42.6022488Z env:
+2026-02-17T17:48:42.6022737Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.3/x64
+2026-02-17T17:48:42.6023144Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.3/x64/lib/pkgconfig
+2026-02-17T17:48:42.6023546Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.3/x64
+2026-02-17T17:48:42.6023898Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.3/x64
+2026-02-17T17:48:42.6024261Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.3/x64
+2026-02-17T17:48:42.6024619Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.3/x64/lib
+2026-02-17T17:48:42.6024914Z ##[endgroup]

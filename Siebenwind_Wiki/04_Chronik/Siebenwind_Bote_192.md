@@ -28,9 +28,9 @@ Horden von Echsenwesen griffen den [[Falkenwall]] an. Unter der Führung von **[
 
 ## Nachrichten vom Festland
 ### Befreiung von Rothenschild
-Das Lehen [[Rothenschild]] wurde von cortanischen Besatzern befreit. In der Stadt [[Rothenbucht]] erhob sich die Bevölkerung in einem koordinierten Aufstand, angeführt von der Hobbit-Patrizierin **[[Mirila_Mik-Honigzopf]]**.
+Das Lehen [[Rothenschild]] wurde von cortanischen Besatzern befreit. In der Stadt [[Rothenbucht]] erhob sich die Bevölkerung in einem koordinierten Aufstand, angeführt von der Hobbit-Patrizierin **[[Mirila_Mik_Honigzopf]]**.
 *   **Rothenbucht** wurde zur Freien Reichsstadt erhoben.
-*   **[[Mirila_Mik-Honigzopf]]** wurde zur ersten Bürgermeisterin gewählt.
+*   **[[Mirila_Mik_Honigzopf]]** wurde zur ersten Bürgermeisterin gewählt.
 *   Das Lehen Rothenschild wurde dem **[[Orden_vom_Lieblichen_Kelche_Vitamas]]** unter Hochgeweihtem **[[Laszlo_von_Wegenstein]]** zur Verwaltung übertragen, unterstützt durch den [[Bellum]]-Orden.
 
 ## Regionales & Kurioses
@@ -38,7 +38,7 @@ Das Lehen [[Rothenschild]] wurde von cortanischen Besatzern befreit. In der Stad
 
 ## Derivate
 *   [[Solos_Nhergas]]
-*   [[Mirila_Mik-Honigzopf]]
+*   [[Mirila_Mik_Honigzopf]]
 *   [[Laszlo_von_Wegenstein]]
 *   [[Schneid]]
 *   [[Halvard]]

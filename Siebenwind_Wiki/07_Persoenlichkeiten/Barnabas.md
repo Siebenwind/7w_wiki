@@ -11,4 +11,4 @@ quelle: "Der letzte Falke"
 Sir Barnabas war der Großmeister der Ritterschaft vom Falkenhorst. Er befehligte die Verteidigung der Feste während der Belagerung durch das dunkle Heer.
 
 ## Überlieferung
-* [[Der letzte Falke]]
+* [[Der_letzte_Falke]]

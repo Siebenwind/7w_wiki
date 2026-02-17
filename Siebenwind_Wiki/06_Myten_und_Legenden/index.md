@@ -9,4 +9,4 @@ Das [[index]] der [[Myten]] und Legenden.
 ## Inhalte
 
 ### Artikel
-*   [[Der_Blinde_Maler|Der Blinde Maler]]
+*   [[Der_blinde_Maler|Der Blinde Maler]]

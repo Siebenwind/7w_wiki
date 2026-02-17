@@ -6,7 +6,7 @@ category: Allgemein
 
 # Theorien der [[index]] (Sammelband)
 
-**Autor:** [[Toran Dur]]
+**Autor:** [[Toran_Dur]]
 **Kategorie:** Fortgeschrittene Magietheorie
 
 ## Inhalt

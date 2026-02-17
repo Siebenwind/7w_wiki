@@ -27,8 +27,23 @@ Dieses Protokoll standardisiert die Erfassung **aller** Quellentypen und stellt 
 | `/Quellen/Forum/` | Forum | #perspektive | Gering |
 | `/Quellen/News/` | News | #news | OOC |
 
-## 2. Der Prozess (Technische Standards)
-Die technische Durchführung der Ingestion folgt strikt dem **Read-Verify-Write Loop**.
+## 2. Der Prozess (Ingestion 2.0)
+
+### Phase 0: Pre-Flight Check (Kollisionsprüfung)
+**Bevor** eine neue Datei angelegt wird, MUSS geprüft werden, ob der Name bereits existiert:
+```bash
+./7w_wiki.py repair --check-collision "Geplanter_Name"
+```
+Wenn eine Kollision gefunden wird (auch Case-Insensitive), muss ein neuer Name gewählt oder der bestehende Artikel erweitert werden.
+
+### Phase 1: Technische Durchführung
+Die technische Durchführung folgt strikt dem **Read-Verify-Write Loop**.
+
+> [!IMPORTANT]
+> **Index-Disziplin**: Erstelle NIEMALS neue `index.md` oder `<Name>_Index.md` Dateien, wenn im Elternordner bereits ein Index existiert. Füge neue Einträge stattdessen in den bestehenden Index ein.
+
+> [!NOTE]
+> **Datums-Stempel**: Dateien in `Logs/Ingestion/` (z.B. `2026-02-14_X.md`) sind temporäre Protokolle. Deren *Inhalt* muss in saubere Dateinamen (z.B. `Siebenwind_Wiki/X.md`) überführt werden. Das Protokoll selbst verbleibt als Artefakt im Log.
 
 > [!TIP]
 > Siehe [rvw_loop.md](../../.agent/workflows/rvw_loop.md) für detaillierte Instruktionen zum Zwei-Pass-Verfahren und zur Wiki-Produktion.

@@ -1,0 +1,238 @@
+﻿2026-02-17T17:48:32.4381921Z ##[group]Run cat requirements.txt
+2026-02-17T17:48:32.4382447Z [36;1mcat requirements.txt[0m
+2026-02-17T17:48:32.4382783Z [36;1mcat mkdocs.yml[0m
+2026-02-17T17:48:32.4383107Z [36;1mpip install -r requirements.txt[0m
+2026-02-17T17:48:32.4449832Z shell: /usr/bin/bash -e {0}
+2026-02-17T17:48:32.4450441Z env:
+2026-02-17T17:48:32.4450796Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.3/x64
+2026-02-17T17:48:32.4451331Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.3/x64/lib/pkgconfig
+2026-02-17T17:48:32.4451882Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.3/x64
+2026-02-17T17:48:32.4452366Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.3/x64
+2026-02-17T17:48:32.4452859Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.3/x64
+2026-02-17T17:48:32.4453352Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.3/x64/lib
+2026-02-17T17:48:32.4453764Z ##[endgroup]
+2026-02-17T17:48:32.4570678Z mkdocs>=1.5.0
+2026-02-17T17:48:32.4571230Z mkdocs-material>=9.4.0
+2026-02-17T17:48:32.4571708Z mkdocs-ezlinks-plugin>=0.1.0
+2026-02-17T17:48:32.4572119Z pymdown-extensions>=10.0
+2026-02-17T17:48:32.4582207Z site_name: Siebenwind Wiki
+2026-02-17T17:48:32.4583099Z site_description: Das oeffentliche Lore-Wiki und technische Betriebsdokumentation.
+2026-02-17T17:48:32.4583949Z site_author: Siebenwind Gemeinschaft
+2026-02-17T17:48:32.4584807Z copyright: "© 2026 LeCorbeau & Siebenwind Gemeinschaft | Inhalte: Autoren & Projekt Siebenwind"
+2026-02-17T17:48:32.4585378Z docs_dir: docs
+2026-02-17T17:48:32.4585664Z site_dir: site
+2026-02-17T17:48:32.4585820Z 
+2026-02-17T17:48:32.4585951Z repo_name: Siebenwind/7w_wiki
+2026-02-17T17:48:32.4586325Z repo_url: https://github.com/Siebenwind/7w_wiki
+2026-02-17T17:48:32.4586748Z site_url: https://Siebenwind.github.io/7w_wiki/
+2026-02-17T17:48:32.4587124Z edit_uri: edit/main/docs/
+2026-02-17T17:48:32.4587309Z 
+2026-02-17T17:48:32.4587416Z extra_css:
+2026-02-17T17:48:32.4587693Z   - assets/custom.css
+2026-02-17T17:48:32.4587951Z 
+2026-02-17T17:48:32.4588092Z theme:
+2026-02-17T17:48:32.4588475Z   name: material
+2026-02-17T17:48:32.4588756Z   logo: assets/logo.png
+2026-02-17T17:48:32.4589054Z   favicon: assets/favicon.ico
+2026-02-17T17:48:32.4589353Z   palette:
+2026-02-17T17:48:32.4589599Z     - scheme: default
+2026-02-17T17:48:32.4589868Z       primary: custom
+2026-02-17T17:48:32.4590133Z       accent: red
+2026-02-17T17:48:32.4590636Z       toggle:
+2026-02-17T17:48:32.4591033Z         icon: material/brightness-7
+2026-02-17T17:48:32.4591376Z         name: Switch to dark mode
+2026-02-17T17:48:32.4591691Z     - scheme: slate
+2026-02-17T17:48:32.4591958Z       primary: black
+2026-02-17T17:48:32.4592216Z       accent: gold
+2026-02-17T17:48:32.4592461Z       toggle:
+2026-02-17T17:48:32.4592711Z         icon: material/brightness-4
+2026-02-17T17:48:32.4593040Z         name: Switch to light mode
+2026-02-17T17:48:32.4593333Z   features:
+2026-02-17T17:48:32.4593578Z     - navigation.tabs
+2026-02-17T17:48:32.4593856Z     - navigation.tabs.sticky
+2026-02-17T17:48:32.4594163Z     - navigation.sections
+2026-02-17T17:48:32.4594465Z     - navigation.expand
+2026-02-17T17:48:32.4594740Z     - navigation.top
+2026-02-17T17:48:32.4595019Z     - navigation.indexes
+2026-02-17T17:48:32.4595298Z     - search.suggest
+2026-02-17T17:48:32.4595570Z     - search.highlight
+2026-02-17T17:48:32.4595835Z     - search.share
+2026-02-17T17:48:32.4596099Z     - content.code.copy
+2026-02-17T17:48:32.4596377Z     - content.action.edit
+2026-02-17T17:48:32.4596690Z     - content.action.view
+2026-02-17T17:48:32.4597123Z 
+2026-02-17T17:48:32.4597230Z nav:
+2026-02-17T17:48:32.4597578Z   - 🏠 Start: index.md
+2026-02-17T17:48:32.4597923Z   - 🗺️ Wiki fuer Leser:
+2026-02-17T17:48:32.4598313Z     - 🏰 Startpunkt: Siebenwind_Wiki/index.md
+2026-02-17T17:48:32.4598741Z     - 📜 Register & Basis:
+2026-02-17T17:48:32.4599127Z       - Uebersicht: Siebenwind_Wiki/00_Fundament/index.md
+2026-02-17T17:48:32.4599682Z       - Personenregister: Siebenwind_Wiki/00_Fundament/Personenregister.md
+2026-02-17T17:48:32.4600615Z       - Organisationsregister: Siebenwind_Wiki/00_Fundament/Organisationsregister.md
+2026-02-17T17:48:32.4601652Z       - Zeitrechnung: Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md
+2026-02-17T17:48:32.4602278Z     - 🏛️ Pantheon & Religion:
+2026-02-17T17:48:32.4602683Z       - Uebersicht: Siebenwind_Wiki/01_Pantheon/index.md
+2026-02-17T17:48:32.4603188Z       - Das Pantheon: Siebenwind_Wiki/01_Pantheon/Das_Pantheon.md
+2026-02-17T17:48:32.4603691Z       - Astrael: Siebenwind_Wiki/01_Pantheon/Astrael.md
+2026-02-17T17:48:32.4604150Z     - 🧭 Geografie & Orte:
+2026-02-17T17:48:32.4604529Z       - Uebersicht: Siebenwind_Wiki/02_Geografie/index.md
+2026-02-17T17:48:32.4605022Z       - Siebenwind: Siebenwind_Wiki/02_Geografie/Siebenwind.md
+2026-02-17T17:48:32.4605486Z     - 🎭 Persoenlichkeiten:
+2026-02-17T17:48:32.4605913Z       - Uebersicht: Siebenwind_Wiki/07_Persoenlichkeiten/index.md
+2026-02-17T17:48:32.4606530Z     - 🐉 Bestiarium: Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md
+2026-02-17T17:48:32.4607018Z     - ⏳ Chronik:
+2026-02-17T17:48:32.4607377Z         - Uebersicht: Siebenwind_Wiki/04_Chronik/index.md
+2026-02-17T17:48:32.4607888Z         - Zeitlinie: Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md
+2026-02-17T17:48:32.4608380Z     - 📚 Das Archiv:
+2026-02-17T17:48:32.4608766Z       - 📋 Research Board: Archiv/Research_Board.md
+2026-02-17T17:48:32.4609290Z       - 🔬 Ingestion Reports: Archiv/Ingestion_Reports/index.md
+2026-02-17T17:48:32.4609737Z   - 🤝 Mitarbeit:
+2026-02-17T17:48:32.4610051Z     - Leitfaden: CONTRIBUTING.md
+2026-02-17T17:48:32.4610726Z     - Master Task List: MASTER_TASK_LIST.md
+2026-02-17T17:48:32.4611103Z     - Changelog: CHANGELOG.md
+2026-02-17T17:48:32.4611555Z     - Wiki Statistiken: Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md
+2026-02-17T17:48:32.4612054Z   - 🧩 Agentenbetrieb:
+2026-02-17T17:48:32.4612382Z     - Uebersicht: Agenten/index.md
+2026-02-17T17:48:32.4612794Z     - Operations Handbook: AGENT_OPERATIONS_HANDBOOK.md
+2026-02-17T17:48:32.4613211Z     - Interop: Agenten/interop.md
+2026-02-17T17:48:32.4613590Z     - Dispatch: Agenten/dispatch.md
+2026-02-17T17:48:32.4613984Z     - Workflows & Skills: Agenten/workflows.md
+2026-02-17T17:48:32.4614388Z   - 🔧 Projekttechnik:
+2026-02-17T17:48:32.4614727Z     - Architektur: architecture.md
+2026-02-17T17:48:32.4615091Z     - RAG Setup: setup_rag.md
+2026-02-17T17:48:32.4615445Z     - Styling-Profil: STYLING.md
+2026-02-17T17:48:32.4615669Z 
+2026-02-17T17:48:32.4615793Z plugins:
+2026-02-17T17:48:32.4616054Z   - search
+2026-02-17T17:48:32.4616327Z   - ezlinks
+2026-02-17T17:48:32.4616481Z 
+2026-02-17T17:48:32.4616604Z markdown_extensions:
+2026-02-17T17:48:32.4616901Z   - admonition
+2026-02-17T17:48:32.4617183Z   - pymdownx.details
+2026-02-17T17:48:32.4617503Z   - pymdownx.superfences:
+2026-02-17T17:48:32.4617819Z       custom_fences:
+2026-02-17T17:48:32.4618113Z         - name: mermaid
+2026-02-17T17:48:32.4618409Z           class: mermaid
+2026-02-17T17:48:32.4618828Z           format: !!python/name:pymdownx.superfences.fence_code_format
+2026-02-17T17:48:32.4619291Z   - pymdownx.tabbed:
+2026-02-17T17:48:32.4619608Z       alternate_style: true
+2026-02-17T17:48:32.4619930Z   - pymdownx.emoji:
+2026-02-17T17:48:32.4620448Z       emoji_index: !!python/name:pymdownx.emoji.twemoji
+2026-02-17T17:48:32.4620933Z       emoji_generator: !!python/name:pymdownx.emoji.to_svg
+2026-02-17T17:48:32.4621337Z   - attr_list
+2026-02-17T17:48:32.4621607Z   - md_in_html
+2026-02-17T17:48:32.4621872Z   - tables
+2026-02-17T17:48:32.4622132Z   - toc:
+2026-02-17T17:48:32.4622559Z       permalink: true
+2026-02-17T17:48:33.2211857Z Collecting mkdocs>=1.5.0 (from -r requirements.txt (line 1))
+2026-02-17T17:48:33.3161590Z   Downloading mkdocs-1.6.1-py3-none-any.whl.metadata (6.0 kB)
+2026-02-17T17:48:33.3957680Z Collecting mkdocs-material>=9.4.0 (from -r requirements.txt (line 2))
+2026-02-17T17:48:33.4104418Z   Downloading mkdocs_material-9.7.1-py3-none-any.whl.metadata (19 kB)
+2026-02-17T17:48:33.4340686Z Collecting mkdocs-ezlinks-plugin>=0.1.0 (from -r requirements.txt (line 3))
+2026-02-17T17:48:33.4485062Z   Downloading mkdocs-ezlinks-plugin-0.1.14.tar.gz (13 kB)
+2026-02-17T17:48:33.4598488Z   Installing build dependencies: started
+2026-02-17T17:48:34.4064497Z   Installing build dependencies: finished with status 'done'
+2026-02-17T17:48:34.4070807Z   Getting requirements to build wheel: started
+2026-02-17T17:48:34.8525731Z   Getting requirements to build wheel: finished with status 'done'
+2026-02-17T17:48:34.8534436Z   Preparing metadata (pyproject.toml): started
+2026-02-17T17:48:35.0618423Z   Preparing metadata (pyproject.toml): finished with status 'done'
+2026-02-17T17:48:35.0838528Z Collecting pymdown-extensions>=10.0 (from -r requirements.txt (line 4))
+2026-02-17T17:48:35.0979938Z   Downloading pymdown_extensions-10.21-py3-none-any.whl.metadata (3.1 kB)
+2026-02-17T17:48:35.1165839Z Collecting click>=7.0 (from mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.1306381Z   Downloading click-8.3.1-py3-none-any.whl.metadata (2.6 kB)
+2026-02-17T17:48:35.1420661Z Collecting ghp-import>=1.0 (from mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.1572985Z   Downloading ghp_import-2.1.0-py3-none-any.whl.metadata (7.2 kB)
+2026-02-17T17:48:35.1741380Z Collecting jinja2>=2.11.1 (from mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.1882459Z   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+2026-02-17T17:48:35.2040439Z Collecting markdown>=3.3.6 (from mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.2180791Z   Downloading markdown-3.10.2-py3-none-any.whl.metadata (5.1 kB)
+2026-02-17T17:48:35.2669406Z Collecting markupsafe>=2.0.1 (from mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.2815025Z   Downloading markupsafe-3.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+2026-02-17T17:48:35.2928522Z Collecting mergedeep>=1.3.4 (from mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.3077625Z   Downloading mergedeep-1.3.4-py3-none-any.whl.metadata (4.3 kB)
+2026-02-17T17:48:35.3195611Z Collecting mkdocs-get-deps>=0.2.0 (from mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.3338358Z   Downloading mkdocs_get_deps-0.2.0-py3-none-any.whl.metadata (4.0 kB)
+2026-02-17T17:48:35.3488202Z Collecting packaging>=20.5 (from mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.3634608Z   Downloading packaging-26.0-py3-none-any.whl.metadata (3.3 kB)
+2026-02-17T17:48:35.3766569Z Collecting pathspec>=0.11.1 (from mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.3915970Z   Downloading pathspec-1.0.4-py3-none-any.whl.metadata (13 kB)
+2026-02-17T17:48:35.4062646Z Collecting pyyaml-env-tag>=0.1 (from mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.4202304Z   Downloading pyyaml_env_tag-1.1-py3-none-any.whl.metadata (5.5 kB)
+2026-02-17T17:48:35.4557295Z Collecting pyyaml>=5.1 (from mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.4699385Z   Downloading pyyaml-6.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+2026-02-17T17:48:35.5115951Z Collecting watchdog>=2.0 (from mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.5257726Z   Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+2026-02-17T17:48:35.5538001Z Collecting babel>=2.10 (from mkdocs-material>=9.4.0->-r requirements.txt (line 2))
+2026-02-17T17:48:35.5681546Z   Downloading babel-2.18.0-py3-none-any.whl.metadata (2.2 kB)
+2026-02-17T17:48:35.5871119Z Collecting backrefs>=5.7.post1 (from mkdocs-material>=9.4.0->-r requirements.txt (line 2))
+2026-02-17T17:48:35.6011182Z   Downloading backrefs-6.2-py314-none-any.whl.metadata (3.0 kB)
+2026-02-17T17:48:35.6144507Z Collecting colorama>=0.4 (from mkdocs-material>=9.4.0->-r requirements.txt (line 2))
+2026-02-17T17:48:35.6285946Z   Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+2026-02-17T17:48:35.6428151Z Collecting mkdocs-material-extensions>=1.3 (from mkdocs-material>=9.4.0->-r requirements.txt (line 2))
+2026-02-17T17:48:35.6569994Z   Downloading mkdocs_material_extensions-1.3.1-py3-none-any.whl.metadata (6.9 kB)
+2026-02-17T17:48:35.6697629Z Collecting paginate>=0.5 (from mkdocs-material>=9.4.0->-r requirements.txt (line 2))
+2026-02-17T17:48:35.6837408Z   Downloading paginate-0.5.7-py2.py3-none-any.whl.metadata (11 kB)
+2026-02-17T17:48:35.7021418Z Collecting pygments>=2.16 (from mkdocs-material>=9.4.0->-r requirements.txt (line 2))
+2026-02-17T17:48:35.7163261Z   Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+2026-02-17T17:48:35.7394144Z Collecting requests>=2.30 (from mkdocs-material>=9.4.0->-r requirements.txt (line 2))
+2026-02-17T17:48:35.7539159Z   Downloading requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+2026-02-17T17:48:35.7691467Z Collecting pygtrie==2.* (from mkdocs-ezlinks-plugin>=0.1.0->-r requirements.txt (line 3))
+2026-02-17T17:48:35.7829595Z   Downloading pygtrie-2.5.0-py3-none-any.whl.metadata (7.5 kB)
+2026-02-17T17:48:35.8001368Z Collecting python-dateutil>=2.8.1 (from ghp-import>=1.0->mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.8143728Z   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+2026-02-17T17:48:35.8355210Z Collecting platformdirs>=2.2.0 (from mkdocs-get-deps>=0.2.0->mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.8498874Z   Downloading platformdirs-4.9.2-py3-none-any.whl.metadata (4.7 kB)
+2026-02-17T17:48:35.8660137Z Collecting six>=1.5 (from python-dateutil>=2.8.1->ghp-import>=1.0->mkdocs>=1.5.0->-r requirements.txt (line 1))
+2026-02-17T17:48:35.8800386Z   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+2026-02-17T17:48:35.9629322Z Collecting charset_normalizer<4,>=2 (from requests>=2.30->mkdocs-material>=9.4.0->-r requirements.txt (line 2))
+2026-02-17T17:48:35.9775002Z   Downloading charset_normalizer-3.4.4-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (37 kB)
+2026-02-17T17:48:35.9938080Z Collecting idna<4,>=2.5 (from requests>=2.30->mkdocs-material>=9.4.0->-r requirements.txt (line 2))
+2026-02-17T17:48:36.0081110Z   Downloading idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+2026-02-17T17:48:36.0297283Z Collecting urllib3<3,>=1.21.1 (from requests>=2.30->mkdocs-material>=9.4.0->-r requirements.txt (line 2))
+2026-02-17T17:48:36.0440485Z   Downloading urllib3-2.6.3-py3-none-any.whl.metadata (6.9 kB)
+2026-02-17T17:48:36.0628382Z Collecting certifi>=2017.4.17 (from requests>=2.30->mkdocs-material>=9.4.0->-r requirements.txt (line 2))
+2026-02-17T17:48:36.0788340Z   Downloading certifi-2026.1.4-py3-none-any.whl.metadata (2.5 kB)
+2026-02-17T17:48:36.0992905Z Downloading mkdocs-1.6.1-py3-none-any.whl (3.9 MB)
+2026-02-17T17:48:36.1766631Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 64.2 MB/s  0:00:00
+2026-02-17T17:48:36.1910956Z Downloading mkdocs_material-9.7.1-py3-none-any.whl (9.3 MB)
+2026-02-17T17:48:36.2591863Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 138.4 MB/s  0:00:00
+2026-02-17T17:48:36.2736655Z Downloading pygtrie-2.5.0-py3-none-any.whl (25 kB)
+2026-02-17T17:48:36.2903475Z Downloading pymdown_extensions-10.21-py3-none-any.whl (268 kB)
+2026-02-17T17:48:36.3080564Z Downloading babel-2.18.0-py3-none-any.whl (10.2 MB)
+2026-02-17T17:48:36.3628337Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 191.5 MB/s  0:00:00
+2026-02-17T17:48:36.3770110Z Downloading backrefs-6.2-py314-none-any.whl (412 kB)
+2026-02-17T17:48:36.3950115Z Downloading click-8.3.1-py3-none-any.whl (108 kB)
+2026-02-17T17:48:36.4119431Z Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+2026-02-17T17:48:36.4281051Z Downloading ghp_import-2.1.0-py3-none-any.whl (11 kB)
+2026-02-17T17:48:36.4443685Z Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+2026-02-17T17:48:36.4609716Z Downloading markdown-3.10.2-py3-none-any.whl (108 kB)
+2026-02-17T17:48:36.4779858Z Downloading markupsafe-3.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (23 kB)
+2026-02-17T17:48:36.4945017Z Downloading mergedeep-1.3.4-py3-none-any.whl (6.4 kB)
+2026-02-17T17:48:36.5116509Z Downloading mkdocs_get_deps-0.2.0-py3-none-any.whl (9.5 kB)
+2026-02-17T17:48:36.5278297Z Downloading mkdocs_material_extensions-1.3.1-py3-none-any.whl (8.7 kB)
+2026-02-17T17:48:36.5442773Z Downloading packaging-26.0-py3-none-any.whl (74 kB)
+2026-02-17T17:48:36.5608968Z Downloading paginate-0.5.7-py2.py3-none-any.whl (13 kB)
+2026-02-17T17:48:36.5772671Z Downloading pathspec-1.0.4-py3-none-any.whl (55 kB)
+2026-02-17T17:48:36.5938917Z Downloading platformdirs-4.9.2-py3-none-any.whl (21 kB)
+2026-02-17T17:48:36.6106399Z Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+2026-02-17T17:48:36.6199253Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 145.1 MB/s  0:00:00
+2026-02-17T17:48:36.6341038Z Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+2026-02-17T17:48:36.6517367Z Downloading pyyaml-6.0.3-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (794 kB)
+2026-02-17T17:48:36.6585740Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 794.2/794.2 kB 118.9 MB/s  0:00:00
+2026-02-17T17:48:36.6726661Z Downloading pyyaml_env_tag-1.1-py3-none-any.whl (4.7 kB)
+2026-02-17T17:48:36.6900865Z Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+2026-02-17T17:48:36.7067274Z Downloading charset_normalizer-3.4.4-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (152 kB)
+2026-02-17T17:48:36.7234731Z Downloading idna-3.11-py3-none-any.whl (71 kB)
+2026-02-17T17:48:36.7411843Z Downloading urllib3-2.6.3-py3-none-any.whl (131 kB)
+2026-02-17T17:48:36.7577490Z Downloading certifi-2026.1.4-py3-none-any.whl (152 kB)
+2026-02-17T17:48:36.7742968Z Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+2026-02-17T17:48:36.7907843Z Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+2026-02-17T17:48:36.9085075Z Building wheels for collected packages: mkdocs-ezlinks-plugin
+2026-02-17T17:48:36.9093198Z   Building wheel for mkdocs-ezlinks-plugin (pyproject.toml): started
+2026-02-17T17:48:37.1579772Z   Building wheel for mkdocs-ezlinks-plugin (pyproject.toml): finished with status 'done'
+2026-02-17T17:48:37.1585880Z   Created wheel for mkdocs-ezlinks-plugin: filename=mkdocs_ezlinks_plugin-0.1.14-py3-none-any.whl size=13449 sha256=35613cad5bae72758ba4c62acc6ce8358f5965df10c9a6169a4f7a0d7cffe5a6
+2026-02-17T17:48:37.1587739Z   Stored in directory: /home/runner/.cache/pip/wheels/ee/65/42/dd8d30b5354a6ddfe3e62c9ac0aac08c181a32bf14ed14abdf
+2026-02-17T17:48:37.1608310Z Successfully built mkdocs-ezlinks-plugin
+2026-02-17T17:48:37.2726047Z Installing collected packages: pygtrie, paginate, watchdog, urllib3, six, pyyaml, pygments, platformdirs, pathspec, packaging, mkdocs-material-extensions, mergedeep, markupsafe, markdown, idna, colorama, click, charset_normalizer, certifi, backrefs, babel, requests, pyyaml-env-tag, python-dateutil, pymdown-extensions, mkdocs-get-deps, jinja2, ghp-import, mkdocs, mkdocs-material, mkdocs-ezlinks-plugin
+2026-02-17T17:48:42.3541994Z 
+2026-02-17T17:48:42.3576603Z Successfully installed babel-2.18.0 backrefs-6.2 certifi-2026.1.4 charset_normalizer-3.4.4 click-8.3.1 colorama-0.4.6 ghp-import-2.1.0 idna-3.11 jinja2-3.1.6 markdown-3.10.2 markupsafe-3.0.3 mergedeep-1.3.4 mkdocs-1.6.1 mkdocs-ezlinks-plugin-0.1.14 mkdocs-get-deps-0.2.0 mkdocs-material-9.7.1 mkdocs-material-extensions-1.3.1 packaging-26.0 paginate-0.5.7 pathspec-1.0.4 platformdirs-4.9.2 pygments-2.19.2 pygtrie-2.5.0 pymdown-extensions-10.21 python-dateutil-2.9.0.post0 pyyaml-6.0.3 pyyaml-env-tag-1.1 requests-2.32.5 six-1.17.0 urllib3-2.6.3 watchdog-6.0.0

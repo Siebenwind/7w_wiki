@@ -25,5 +25,5 @@ Ein riesiges Waldgebiet, das fast unberührt wirkt. Es ist die Heimat vieler **W
 *   **[[index]]:** Vereinzelte elfische Lehrmeister (Naturmagie).
 
 ## Verlinkte Themen
-*   [[Rasse Elfen]]
-*   [[Region Kettel]]
+*   [[Rasse_Elfen]]
+*   [[Region_Kettel]]

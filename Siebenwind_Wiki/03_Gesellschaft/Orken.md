@@ -49,7 +49,7 @@ Die orkische [[index]] basiert auf einem disziplinierten Kastensystem, in dem Au
 *   **Schamanen:** Sie bilden eine Ausnahme in der intellektuellen Struktur. Schamanen sind oft belesen, beherrschen das Schreiben und können komplexe Diskussionen führen. Ihre [[index]] ist fast ausschließlich auf den Angriff fixiert.
 
 ## Verlinkte Themen
-*   [[Region Ravel]]
-*   [[Region Khalandra]]
+*   [[Region_Ravel]]
+*   [[Region_Khalandra]]
 *   [[Gott Be'rglum]]
 *   [[Gott Ci'rgbus]]

@@ -55,6 +55,6 @@ Das Reich Galadon ist in zahlreiche **Lehen** unterteilt, die jeweils eigene kul
 
 ## Verlinkte Themen
 *   [[Königreich Galadon]]
-*   [[Kirche der Viere]]
-*   [[Region Bernstein]]
+*   [[Kirche_der_Viere]]
+*   [[Region_Bernstein]]
 *   [[Wichtige Städte|Draconis]]

@@ -26,5 +26,5 @@ Ersont ist das militärische Gegenstück zu Herder im Norden. Es kontrolliert di
 *   **Mentalität:** Diszipliniert, ernst, kriegerisch. Die Zivilverwaltung ist minimal, meist herrscht das Militärrecht.
 
 ## Verlinkte Themen
-*   [[Region Herder]]
-*   [[Region Ravel]]
+*   [[Region_Herder]]
+*   [[Region_Ravel]]

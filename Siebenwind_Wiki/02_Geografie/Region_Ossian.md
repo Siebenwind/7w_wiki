@@ -28,4 +28,4 @@ Das "Tor zur Welt". Ossian liegt an der Küste und dominiert den Seehandel.
 
 ## Verlinkte Themen
 *   [[Insel Siebenwind]]
-*   [[Region Papin]]
+*   [[Region_Papin]]

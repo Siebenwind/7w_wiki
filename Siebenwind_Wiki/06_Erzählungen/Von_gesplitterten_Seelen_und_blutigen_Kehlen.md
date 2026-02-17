@@ -9,7 +9,7 @@ category: Erzählung
 **Epistemischer Status:** #perspektive
 
 **Autor:** Unbekannt / Spielerbericht
-**Region:** [[Region Falkenstein]] / [[Endophal]] (Steinwüste)
+**Region:** [[Region_Falkenstein]] / [[Endophal]] (Steinwüste)
 **Zeitraum:** [[Dunkeltief]] (Winter)
 **Status:** Verarbeitet
 

@@ -21,38 +21,38 @@ Das stolze Galadon ist das mächtigste Reich auf Falandrien. Es entstand im Jahr
 Das Reich ist in zahlreiche Herzogtümer, Fürstentümer, Grafschaften und Baronien unterteilt.
 
 ### 1. Herzogtümer (Königsfamilie)
-*   **[[Region Bernstein]]:** (Zentral) Das Herz des Reiches mit der Hauptstadt [[Draconis]] und der Burg Bernstein.
-*   **[[Region Sae]]:** (Südwest) Zentrum des Wissens und des [[Astrael]]-Glaubens ("Lafay's Stab").
-*   **[[Region Savaro]]:** (Südost) Fruchtbares Land, bekannt für Seilerei und Landwirtschaft.
+*   **[[Region_Bernstein]]:** (Zentral) Das Herz des Reiches mit der Hauptstadt [[Draconis]] und der Burg Bernstein.
+*   **[[Region_Sae]]:** (Südwest) Zentrum des Wissens und des [[Astrael]]-Glaubens ("Lafay's Stab").
+*   **[[Region_Savaro]]:** (Südost) Fruchtbares Land, bekannt für Seilerei und Landwirtschaft.
 *   **[[Region Taras]]:** (Details noch zu ergänzen).
 
 ### 2. Fürstentümer (Ehemalige Könige)
-*   **[[Region Herder]]:** (West) Militärisch geprägte Kornkammer, Fürst Vanagard.
-*   **[[Region Malthust]]:** (Ost/Südost) Ehemaliges Bergbauzentrum, heute im Wiederaufbau unter Fürst Kasimier.
-*   **[[Region Ossian]]:** (Ostküste) Seehandel, Schiffbau, Tor nach [[Siebenwind]], Fürstin Asodayr.
-*   **[[Region Tiefenwald]]:** (Nordwest) Waldreich, Elfenfreundlich, Holzindustrie.
-*   **[[Region Vandrien]]:** (Süd) Religiös unruhig, [[Pakt_der_Viereinigkeit]].
+*   **[[Region_Herder]]:** (West) Militärisch geprägte Kornkammer, Fürst Vanagard.
+*   **[[Region_Malthust]]:** (Ost/Südost) Ehemaliges Bergbauzentrum, heute im Wiederaufbau unter Fürst Kasimier.
+*   **[[Region_Ossian]]:** (Ostküste) Seehandel, Schiffbau, Tor nach [[Siebenwind]], Fürstin Asodayr.
+*   **[[Region_Tiefenwald]]:** (Nordwest) Waldreich, Elfenfreundlich, Holzindustrie.
+*   **[[Region_Vandrien]]:** (Süd) Religiös unruhig, [[Pakt_der_Viereinigkeit]].
 
 ### 3. Grafschaften & Baronien (Blutsadel)
-*   **[[Region Ersont]]:** (Nord) Militärische Garnisonen, Graf Gernod.
-*   **[[Region Lichtenfeld]]:** (Westküste) Auenlandschaft, Schafe, Auenelfen.
-*   **[[Region Papin]]:** (Südost) Handelszentrum, Konkurrenz zu Malthust.
-*   **[[Region Rothschild]]:** (Mitte/Küste) Werften, Fluss Drac, Graf Patrick.
-*   **[[Region Gerdenwald]]:** (Insel Hügelau) Heimat der [[Halblinge]].
-*   **[[Region Kadamark]]:** (Nordost) Holz, Handwerk, Baron Siegfried.
-*   **[[Region Kettel]]:** (Nordost) Tradition, Textil (Librasulus), Zwergenstadt Narko.
-*   **[[Region Morthum]]:** (Ost) Düster, Bergbau am Dabus, Seuche "[[Atmender_Tod]]".
-*   **[[Region Ravel]]:** (Ostgrenze) Wildes Orkenland, Sümpfe, Baronin Luvaril.
-*   **[[Region Wallenburg]]:** (Süd) Reichtum, Edelsteine, Goldschmiedekunst.
+*   **[[Region_Ersont]]:** (Nord) Militärische Garnisonen, Graf Gernod.
+*   **[[Region_Lichtenfeld]]:** (Westküste) Auenlandschaft, Schafe, Auenelfen.
+*   **[[Region_Papin]]:** (Südost) Handelszentrum, Konkurrenz zu Malthust.
+*   **[[Region_Rothschild]]:** (Mitte/Küste) Werften, Fluss Drac, Graf Patrick.
+*   **[[Region_Gerdenwald]]:** (Insel Hügelau) Heimat der [[Halblinge]].
+*   **[[Region_Kadamark]]:** (Nordost) Holz, Handwerk, Baron Siegfried.
+*   **[[Region_Kettel]]:** (Nordost) Tradition, Textil (Librasulus), Zwergenstadt Narko.
+*   **[[Region_Morthum]]:** (Ost) Düster, Bergbau am Dabus, Seuche "[[Atmender_Tod]]".
+*   **[[Region_Ravel]]:** (Ostgrenze) Wildes Orkenland, Sümpfe, Baronin Luvaril.
+*   **[[Region_Wallenburg]]:** (Süd) Reichtum, Edelsteine, Goldschmiedekunst.
 
 ### 4. Grenzlande
-*   **[[Region Falkenstein]]:** (Südgrenze) Handelstor nach [[Region_Endophal]].
-*   **[[Region Khalandra]]:** (Nordgrenze) Wildes Barbarenland.
-*   **[[Region Morgenthau]]:** (Ostgrenze) Der Große Wall.
+*   **[[Region_Falkenstein]]:** (Südgrenze) Handelstor nach [[Region_Endophal]].
+*   **[[Region_Khalandra]]:** (Nordgrenze) Wildes Barbarenland.
+*   **[[Region_Morgenthau]]:** (Ostgrenze) Der Große Wall.
 
 ## [[index]] & Klima
 Galadon umfasst fast alle Klimazonen, von den gemäßigten, regenreichen Küsten des Westens bis zu den kontinentalen, teils rauen Gebirgen des Ostens (Klauenberge, Dabus).
 
 ## Verlinkte Themen
 *   [[Adelssystem Galadon]]
-*   [[Kirche der Viere]]
+*   [[Kirche_der_Viere]]

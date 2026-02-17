@@ -15,6 +15,6 @@ Der Hutmacher war bekannt dafür, Künstler, Träumer und Labile in seine eigene
 Im Frühjahr 21 n.H. gelang es einer Gemeinschaft unter der Führung von [[Custodias]], in die Globule des Hutmachers einzudringen ([[Siebenwind_Bote_179]]). Mit Hilfe des Verräter-Dämons [[Tarrant]] konnte der Hutmacher in seiner eigenen Domäne gestellt und vernichtet werden. Dabei wurden zahlreiche gefangene Seelen, darunter die des Ritters [[Laske]], befreit.
 
 ## Siehe auch
-*   [[Der_Blinde_Maler]]
+*   [[Der_blinde_Maler]]
 *   [[Custodias]]
 *   [[Daemonen]]

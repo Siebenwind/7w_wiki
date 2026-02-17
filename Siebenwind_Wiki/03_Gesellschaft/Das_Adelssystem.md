@@ -51,4 +51,4 @@ Dienstadlige, die Verwaltungsaufgaben übernehmen, welche denen eines echten Gra
 
 ## Verlinkte Themen
 *   [[Königreich Galadon]]
-*   [[Region Bernstein]]
+*   [[Region_Bernstein]]

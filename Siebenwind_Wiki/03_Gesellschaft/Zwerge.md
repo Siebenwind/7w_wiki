@@ -52,7 +52,7 @@ Der Bart eines Dwarschim ist weit mehr als Zierde:
 *   **[[Halblinge]]:** Manchmal belächelt, aber als Handelspartner für Nahrungsmittel geschätzt.
 
 ## Verlinkte Themen
-*   [[Region Kettel|Narko]]
-*   [[Region Tiefenwald|Drachenschwinge]]
+*   [[Region_Kettel|Narko]]
+*   [[Region_Tiefenwald|Drachenschwinge]]
 *   [[Gott Bellum]]
 *   [[Gott Ignis]]

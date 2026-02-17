@@ -23,5 +23,5 @@ Unter dem neuen Fürsten erlebt es eine Renaissance ("Restaurierung"), geförder
 *   **Mentalität:** Die Bewohner gelten (noch) als ernst und verbittert.
 
 ## Verlinkte Themen
-*   [[Region Ossian]]
-*   [[Region Vandrien]]
+*   [[Region_Ossian]]
+*   [[Region_Vandrien]]

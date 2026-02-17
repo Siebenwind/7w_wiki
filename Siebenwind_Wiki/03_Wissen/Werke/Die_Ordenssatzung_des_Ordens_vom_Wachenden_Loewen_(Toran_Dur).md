@@ -6,7 +6,7 @@ category: Allgemein
 
 # Die Ordenssatzung des Ordens vom Wachenden Löwen
 
-**Autor:** [[Toran Dur]] (Ordensmeister), [[Cendaric Tibur]], [[Lothar Gavinwald]], [[Akora Dur]], [[Dorion Hali]]
+**Autor:** [[Toran_Dur]] (Ordensmeister), [[Cendaric_Tibur]], [[Lothar_Gavinwald]], [[Akora_Dur]], [[Dorion_Hali]]
 **Datum:** 30. Carmar 17 n.H.
 **Ort:** [[Brandenstein]]
 **Kategorie:** [[index]] / Satzung

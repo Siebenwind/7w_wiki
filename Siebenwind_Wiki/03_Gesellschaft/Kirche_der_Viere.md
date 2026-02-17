@@ -36,7 +36,7 @@ Trotz dieses Bildes der Einheit herrscht innerhalb der Kirche oft Uneinigkeit ü
     *   Aspekt: Kampf, Ehre, Schutz, Kraft.
     *   Orden: "Orden vom Heiligen Schwerte Bellums".
     *   Anhänger: Soldaten, Ritter, Wächter.
-    *   Zentrum: Oft in militärischen Provinzen wie [[Region Herder|Herder]] oder [[Region Ersont|Ersont]].
+    *   Zentrum: Oft in militärischen Provinzen wie [[Region_Herder|Herder]] oder [[Region_Ersont|Ersont]].
 
 3.  **[[Vitama]] (Der Liebliche Kelch):**
     *   Aspekt: Leben, Heilung, Fruchtbarkeit, Familie.

@@ -6,7 +6,7 @@ category: Allgemein
 
 # [[Die_Sprache_Run]]
 
-**Autor:** [[Toran Dur]]
+**Autor:** [[Toran_Dur]]
 **Kategorie:** Linguistik / Alte [[index]]
 
 ## Inhalt

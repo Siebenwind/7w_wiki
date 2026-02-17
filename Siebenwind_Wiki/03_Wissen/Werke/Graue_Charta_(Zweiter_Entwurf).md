@@ -6,7 +6,7 @@ category: Allgemein
 
 # Graue Charta (Zweiter Entwurf)
 
-**Autor:** [[Toran Dur]] (vermutlich als Erzmagus)
+**Autor:** [[Toran_Dur]] (vermutlich als Erzmagus)
 **Datum:** Nach 28 n.H. (Bezugnahme auf die erste Charta)
 **Kategorie:** [[index]] / Satzung
 

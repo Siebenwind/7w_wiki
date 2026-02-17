@@ -27,4 +27,4 @@ Diese Baronie umfasst die Insel **Hügelau**, die Heimat der **[[Halblinge]]**.
 
 ## Verlinkte Themen
 *   [[Rasse Halblinge]]
-*   [[Region Rothschild]]
+*   [[Region_Rothschild]]

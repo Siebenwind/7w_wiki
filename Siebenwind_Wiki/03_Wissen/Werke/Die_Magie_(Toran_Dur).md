@@ -6,7 +6,7 @@ category: Allgemein
 
 # Die [[index]]
 
-**Autor:** [[Toran Dur]]
+**Autor:** [[Toran_Dur]]
 **Kategorie:** Magietheorie / Kosmologie
 
 ## Inhalt

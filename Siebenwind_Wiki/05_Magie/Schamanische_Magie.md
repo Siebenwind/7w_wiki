@@ -39,4 +39,4 @@ Menschenblut gilt als starker Anziehungspunkt für viele Geister und wird zur Ve
 
 ---
 **Siehe auch:** [[Die_Gohor]], [[Die_Enhor]], [[Magietheorie_Linari]], [[Sprache_Run]]
-**Quellen:** [[Schamanische Magie]] (Toran Dur Archiv)
+**Quellen:** [[Schamanische_Magie]] (Toran Dur Archiv)

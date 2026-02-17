@@ -25,5 +25,5 @@ Eine hügelige, waldreiche Region im Nordosten. Bekannt für die **Feuerwälder*
 *   **Handwerk:** Die Kadamarker gelten als die tüchtigsten Handwerker (Schreiner, Zimmerleute).
 
 ## Verlinkte Themen
-*   [[Region Kettel]]
+*   [[Region_Kettel]]
 *   [[Magie Grauer Pfad]]

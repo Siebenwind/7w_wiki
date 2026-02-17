@@ -6,7 +6,7 @@ category: Allgemein
 
 # Index [[Siebenwind]]
 
-**Autor:** [[Toran Dur]]
+**Autor:** [[Toran_Dur]]
 **Kategorie:** Geschichtsschreibung / Almanach
 
 ## Inhalt

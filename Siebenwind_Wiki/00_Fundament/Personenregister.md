@@ -284,7 +284,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Enoha_Adorne]] | Unteroffizier ([[Region_Malthust]]) / [[Sammler]]-Experte | [Bote 179] | 21 n.H. | #bote |
 | [[Anlohr_Flatnah]] | Hofschneider ([[Brandenstein]]) / "Lavendel-Mode" | [Bote 179] | aktiv | #bote |
 | [[Imea_Ekula]] | Konsula ([[Falkensee]]) | [Bote 178] | 21 n.H. | #bote |
-| [[Toran_Dur]] | Erzmagus / Edler / Gründer ([[Löwenorden]]) | [Bote 180] / [[Toran Dur]] / [[Schamanische_Magie]] / [[Sprache_Run]] | 17-21 n.H. | #bote |
+| [[Toran_Dur]] | Erzmagus / Edler / Gründer ([[Löwenorden]]) | [Bote 180] / [[Toran_Dur]] / [[Schamanische_Magie]] / [[Sprache_Run]] | 17-21 n.H. | #bote |
 | [[Tantalla]] | Bürgerin (Kesselklamm) | [Erinnerungen e. a. Zwergen] | amtierend | #perspektive |
 | [[Solos_Nadeeda_Laylira]] | Tochter von [[Lucius_Gropp]] | [[Gropp_Zwillinge|Bote 186]] | Geboren 22 n.H. | #bote |
 | [[Eliath]] | Künstler / Verlobter von Aurora | [Bote 180] | 21 n.H. | #bote |
@@ -292,7 +292,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Rajka_Sanseha]] | Briefpartnerin von T. Kreytz | [[Briefe_aus_der_Ferne]] | 21 n.H. | #perspektive |
 | [[Hernaphas_Lenarmberg]] | Geweihter ([[Astrael|Astrael]]) / Lehrmeister | [[[Johann_Liebig]] - Arkane Verbindung] | Historisch | #überlieferung |
 | [[Herzog_von_Kant]] | Philosoph / Autor | [Linari - Philosophie] | Historisch | #überlieferung |
-| [[Mirila_Mik-Honigzopf]] | Bürgermeisterin ([[Rothenbucht]]) | [Bote 192] | 30 n.H. | #bote |
+| [[Mirila_Mik_Honigzopf]] | Bürgermeisterin ([[Rothenbucht]]) | [Bote 192] | 30 n.H. | #bote |
 | [[Murrin_Hammerschwinger]] | Dwarschim-Krieger | [Bote 180] | 21 n.H. | #bote |
 | [[Tarnuk]] | Magister ([[Lieblicher_Kelch]]) | [Bote 180] | 21 n.H. | #bote |
 | [[Althea_Ekre]] | Magistra | [Bote 180] | 21 n.H. | #bote |
@@ -535,7 +535,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Schneid]] | Marinesoldat | [Bote 192] | 30 n.H. | #bote |
 | [[Kazla]] | Orkischer Stamm / Ratsmitglied | [Hierarchie] | - | #canon |
 | [[Azgar_Kazanin]] | Rekrut / Ork | [Bote 121] | 15 n.H. | #bote |
-| [[Felix_Goldschein]] | Novize des [[Bellum]] | [[Aus dem Leben eines Schwarzmagiers]] | #perspektive |
+| [[Felix_Goldschein]] | Novize des [[Bellum]] | [[Aus_dem_Leben_eines_Schwarzmagiers]] | #perspektive |
 | [[Tyrana_I]] | König von [[Galadon]] | [[Khalandra]] | #bote |
 | [[Helfric_von_Wallenburg]] | Sire / Ritter ([[Brandestein]]) | [Bote 194] | 36 n.H. | #bote |
 | [[Matis_Karntus]] | Krämer ([[Brandenstein]]) | [Bote 194] | 36 n.H. | #bote |

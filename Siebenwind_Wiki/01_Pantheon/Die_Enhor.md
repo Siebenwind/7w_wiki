@@ -28,4 +28,4 @@ Oft wird **Mens** als ein "fünfter Elementarherr" betrachtet. Er steht für das
 
 ---
 **Siehe auch:** [[Gohor]], [[Magietheorie_Toran_Dur_Fragmente]], [[Schamanische_Magie]]
-**Quellen:** [[Schamanische Magie]] (Toran Dur Archiv)
+**Quellen:** [[Schamanische_Magie]] (Toran Dur Archiv)

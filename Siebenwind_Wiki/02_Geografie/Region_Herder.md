@@ -24,5 +24,5 @@ Herder ist zusammen mit Ersont das "Schild und Schwert" des Reiches. Es ist eine
 *   **Mentalität:** Die Bewohner gelten als grob, streng, aber extrem loyal ("schnell mit der Hand am Schwertknauf").
 
 ## Verlinkte Themen
-*   [[Region Ersont]]
+*   [[Region_Ersont]]
 *   [[Gott Bellum]]

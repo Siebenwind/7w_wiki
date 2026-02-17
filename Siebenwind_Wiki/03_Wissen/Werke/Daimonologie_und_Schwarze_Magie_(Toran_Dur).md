@@ -6,7 +6,7 @@ category: Allgemein
 
 # Daimonologie und Schwarze [[index]] (Sammelband)
 
-**Autor:** [[Toran Dur]] (mit Beiträgen von [[Nefustor]])
+**Autor:** [[Toran_Dur]] (mit Beiträgen von [[Nefustor]])
 **Kategorie:** Dunkle Künste / Theorie
 
 ## Inhalt

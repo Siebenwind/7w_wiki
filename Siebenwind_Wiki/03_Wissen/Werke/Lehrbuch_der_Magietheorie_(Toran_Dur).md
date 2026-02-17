@@ -6,7 +6,7 @@ category: Allgemein
 
 # Lehrbuch der Magietheorie
 
-**Autor:** [[Toran Dur]]
+**Autor:** [[Toran_Dur]]
 **Kategorie:** Lehrbuch / Magietheorie
 
 ## Inhalt

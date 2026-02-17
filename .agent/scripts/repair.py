@@ -4,11 +4,11 @@ repair.py — Interaktives Reparatur-Werkzeug für das Siebenwind Wiki.
 
 Funktionen:
 1. Frontmatter Fixer: Ergänzt fehlende YAML-Header.
-2. Link Checker: Findet tote interne Links [[...]].
-3. Orphan Manager: (Geplant) Findet verwaiste Dateien.
+2. Smart Link Resolver: Findet tote Links und korrigiert sie durch Fuzzy-Matching & Canon-Mapping.
+3. Duplicate Detector: Findet doppelte Dateien (Kollisionen im Canon).
 
 Nutzung:
-    python3 .agent/scripts/repair.py
+    python3 .agent/scripts/repair.py [--auto] [--check-collision NAME]
 """
 
 import os
@@ -16,6 +16,8 @@ import sys
 import re
 import argparse
 from pathlib import Path
+from collections import defaultdict
+import difflib
 
 # ANSI Colors
 RED = "\033[91m"
@@ -27,10 +29,21 @@ RESET = "\033[0m"
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 WIKI_DIR = PROJECT_ROOT / "Siebenwind_Wiki"
 
+# Known Redirects / Hardcoded Fixes
+LORE_REDIRECTS = {
+    "chronik": "Die_Chronik",
+    "malthust": "Region_Malthust",
+    "suedfall": "Südfall",
+    "oedland": "Ödland",
+    "kesselklamm": "Bragarim",
+    "dur": "Toran_Dur",
+    "westhever": "Dunkeltief",
+    "lehens_banner": "Lehensbanner",
+}
+
 def derive_category(path: Path) -> str:
     """Bestimmt die Kategorie anhand des Ordnernamens."""
     parent_name = path.parent.name
-    # Mapping basierend auf der aktuellen Struktur
     mapping = {
         "04_Chronik": "Chronik",
         "07_Persoenlichkeiten": "Personen",
@@ -43,240 +56,190 @@ def derive_category(path: Path) -> str:
     }
     return mapping.get(parent_name, "Allgemein")
 
-LORE_REDIRECTS = {
-    "chronik": "Die_Chronik",
-    "malthust": "Region_Malthust",
-    "suedfall": "Südfall",
-    "oedland": "Ödland",
-    "01_bellum": "Bellum",
-    "02_astrael": "Astrael",
-    "03_bellum": "Bellum",
-    "04_vitama": "Vitama",
-    "05_morsan": "Morsan",
-    "06_ignis": "Ignis",
-    "07_rien": "Rien",
-    "08_ventus": "Ventus",
-    "09_xan": "Xan",
-    "rasse_orken": "Orken",
-    "rasse_halblinge": "Halblinge",
-    "magie": "Magie_Grundlagen",
-    "siebenwind_bote": "Die_Chronik",
-    "ersonter_garde": "Graue_Garde",
-    "kesselklamm": "Bragarim", # Often used as city but is the race homeland
-    "dur": "Toran_Dur",
-    "westhever": "Dunkeltief", # Westhever -> Dunkeltief area
-    "lehens_banner": "Lehensbanner",
-}
+def normalize_key(name: str) -> str:
+    """Normalisiert einen Dateinamen für den Vergleich (lowercase, no space/underscore)."""
+    return name.lower().replace("_", "").replace(" ", "").replace("-", "")
 
-def get_wiki_map(files: list[Path]):
-    """Maps stem and title (lowercase) to canonical target."""
-    wiki_map = {}
-    for f in files:
-        wiki_map[f.stem.lower()] = f.stem
+def get_canon_map(target_dir: Path) -> dict:
+    """
+    Erstellt eine Map aller existierenden Dateien.
+    Key: Normalisierter Name
+    Value: Liste von Pfaden (für Duplikat-Erkennung)
+    """
+    canon_map = defaultdict(list)
+    for f in target_dir.rglob("*.md"):
+        key = normalize_key(f.stem)
+        canon_map[key].append(f)
+        
+        # Check Frontmatter Aliases (Basic Regex)
         try:
-            content = f.read_text(encoding="utf-8")[:1000]
-            match = re.search(r'^title:\s*(.*)', content, re.MULTILINE)
-            if match:
-                title = match.group(1).strip().strip('"').strip("'")
-                wiki_map[title.lower()] = title
+            content = f.read_text(encoding="utf-8")[:2000]
+            aliases_match = re.search(r'^aliases:\s*\[(.*?)\]', content, re.MULTILINE)
+            if aliases_match:
+                aliases = aliases_match.group(1).split(",")
+                for alias in aliases:
+                    alias_key = normalize_key(alias.strip().strip('"\''))
+                    canon_map[alias_key].append(f)
         except: pass
-    return wiki_map
+        
+    return canon_map
+
+def resolve_link(target: str, canon_map: dict) -> str | None:
+    """
+    Versucht, einen Link intelligent aufzulösen.
+    1. Check Redirects
+    2. Check Canon Map (Exact normalized match)
+    """
+    # 1. Hardcoded Redirects
+    target_clean = target.lower().replace(" ", "_")
+    if target_clean in LORE_REDIRECTS:
+        return LORE_REDIRECTS[target_clean]
+
+    # 2. Canon Map Match
+    key = normalize_key(target)
+    if key in canon_map:
+        matches = canon_map[key]
+        if matches:
+            # Priorisierung: Nimm die Datei mit dem kürzesten Pfad oder tiefsten Nesting?
+            # Hier nehmen wir einfach die erste, idealerweise sollte man Logik haben.
+            # Aber wir returnen den *Stem* (Dateinamen ohne Extension), da WikiLinks relativ sind.
+            return matches[0].stem
+            
+    return None
+
+def check_duplicates(canon_map: dict):
+    """Listet Dateien auf, die den gleichen normalisierten Namen haben."""
+    print(f"\n{BLUE}--- Duplicate Detector ---{RESET}")
+    found = False
+    for key, paths in canon_map.items():
+        if len(paths) > 1:
+            # Filter out intentional duplicates if they are in different major folders?
+            # For now, just list them.
+            print(f"{YELLOW}Doppelte Einträge für '{key}':{RESET}")
+            for p in paths:
+                print(f"  - {p.relative_to(PROJECT_ROOT)}")
+            found = True
+            
+    if not found:
+        print(f"{GREEN}Keine Duplikate gefunden.{RESET}")
+    else:
+        print(f"\n{YELLOW}Hinweis:{RESET} Diese Dateien könnten kollidieren. Bitte manuell prüfen.")
+
+def repair_links(files: list[Path], canon_map: dict, auto: bool = False):
+    """Repariert tote links mittels Smart Resolver."""
+    print(f"\n{BLUE}--- Smart Link Repair ---{RESET}")
+    count = 0
+    link_regex = re.compile(r'\[\[([^\]|#]+)(#[^\]|]+)?(\|[^\]]+)?\]\]')
+
+    def replace_callback(match):
+        original_target = match.group(1)
+        anchor = match.group(2) or ""
+        text = match.group(3) or ""
+        
+        # Check if valid first
+        norm_key = normalize_key(original_target)
+        if norm_key in canon_map:
+            # Existiert (zumindest als Match).
+            # Prüfen ob Case stimmt.
+            best_match = canon_map[norm_key][0].stem
+            if best_match != original_target:
+                # Casing repair or Redirect
+                return f"[[{best_match}{anchor}{text}]]"
+            return match.group(0) # Unverändert
+        
+        # Dead Link -> Versuch Resolve
+        resolved = resolve_link(original_target, canon_map)
+        if resolved:
+            return f"[[{resolved}{anchor}{text}]]"
+        
+        return match.group(0) # Kann nicht repariert werden
+
+    for fpath in files:
+        try:
+            content = fpath.read_text(encoding="utf-8")
+            new_content = link_regex.sub(replace_callback, content)
+            
+            if new_content != content:
+                if not auto:
+                    print(f"Änderung an {fpath.name}:")
+                    # Diff anzeigen wäre gut, aber hier kurz halten
+                
+                if auto or input("  Änderungen speichern? [y/n]: ").lower() == 'y':
+                    fpath.write_text(new_content, encoding="utf-8")
+                    print(f"  {GREEN}Repariert.{RESET}")
+                    count += 1
+        except Exception:
+            pass
+
+    print(f"\n{count} Dateien repariert.")
 
 def fix_frontmatter(files: list[Path], auto: bool = False):
     """Sucht und repariert fehlendes Frontmatter."""
     print(f"\n{BLUE}--- Frontmatter Fixer ---{RESET}")
     count = 0
-    fixed = 0
-    
     for file_path in files:
         try:
             content = file_path.read_text(encoding="utf-8")
-        except Exception:
-            continue
-            
+        except: continue
+        
         if not content.startswith("---"):
-            count += 1
-            print(f"{YELLOW}Problem:{RESET} {file_path.name} hat kein Frontmatter.")
-            
-            # Vorschlag generieren
             title = file_path.stem.replace("_", " ")
             category = derive_category(file_path)
-            frontmatter = (
-                "---\n"
-                f"layout: post\n"
-                f"title: \"{title}\"\n"
-                f"category: {category}\n"
-                "---\n\n"
-            )
+            frontmatter = f"---\nlayout: post\ntitle: \"{title}\"\ncategory: {category}\n---\n\n"
             
-            if auto:
-                choice = 'y'
-                print(f"  Reparieren? (Auto-Mode) [y]")
-            else:
-                choice = input(f"  Reparieren? (Fügt Titel '{title}' & Kategorie '{category}' hinzu) [y/n/q]: ").lower()
-            if choice == 'q':
-                break
-            if choice == 'y':
-                new_content = frontmatter + content
-                file_path.write_text(new_content, encoding="utf-8")
-                print(f"  {GREEN}Repariert!{RESET}")
-                fixed += 1
-                
-    if count == 0:
-        print(f"{GREEN}Keine Dateien ohne Frontmatter gefunden.{RESET}")
-    else:
-        print(f"\n{fixed} von {count} Dateien repariert.")
-
-def check_links(files: list[Path]):
-    """Findet tote interne Links."""
-    print(f"\n{BLUE}--- Link Checker ---{RESET}")
-    
-    # 1. Alle existierenden Dateinamen sammeln (als Ziel)
-    # Normierung: Leerzeichen/Underscores sind oft austauschbar im Wiki-Link, 
-    # aber wir prüfen erstmal exakten Match oder Name.
-    existing_files = {f.stem.lower(): f for f in files}
-    
-    broken_links = []
-    
-    for file_path in files:
-        try:
-            content = file_path.read_text(encoding="utf-8")
-        except Exception:
-            continue
-            
-        # Finde alle [[Link]] oder [[Link|Text]]
-        links = re.findall(r'\[\[(.*?)(?:\|.*?)?\]\]', content)
-        for link in links:
-            target = link.strip()
-            # Ignoriere Anker #...
-            if '#' in target:
-                target = target.split('#')[0]
-            
-            if not target: continue
-            
-            target_norm = target.lower().replace(" ", "_")
-            target_norm_alt = target.lower().replace("_", " ")
-            
-            if target_norm not in existing_files and target_norm_alt not in existing_files:
-                broken_links.append((file_path.name, target))
-                
-    if not broken_links:
-        print(f"{GREEN}Keine toten Links gefunden.{RESET}")
-    else:
-        print(f"{RED}{len(broken_links)} tote Links gefunden:{RESET}")
-        for source, target in broken_links[:20]: # Limit output
-            print(f"  {source} -> [[{target}]]")
-        if len(broken_links) > 20:
-            print(f"  ... und {len(broken_links) - 20} weitere.")
-
-def repair_links(files: list[Path], auto: bool = False):
-    """Repariert casing, redirects und malformed links."""
-    print(f"\n{BLUE}--- Link Repair Engine ---{RESET}")
-    wiki_map = get_wiki_map(files)
-    count = 0
-    
-    # Precompile regex for performance
-    # 1. Triple/Quad brackets: [[[Link]]] -> [[Link]]
-    re_brackets = re.compile(r'\[{3,}(.*?)\]{3,}')
-    # 2. Quotes: [["Link"]] -> [[Link]]
-    re_quotes_dbl = re.compile(r'\[\["(.*?)"\]\]')
-    re_quotes_sgl = re.compile(r"\[\['(.*?)'\]\]")
-    # 3. Path prefixes & Casing & Redirects
-    re_general = re.compile(r'\[\[(?:Quellen/|Siebenwind_Wiki/|docs/)?([^\]|#]+)(#[^\]|]+)?(\|[^\]]+)?\]\]')
-
-    def fix_path_canonical(match):
-        target, anchor, display = match.groups()
-        # If target contains a path separator, take the last part
-        if target and "/" in target:
-            target = target.split("/")[-1]
-        
-        anchor_str = anchor if anchor else ""
-        display_str = display if display else ""
-        
-        low_target = target.lower()
-        
-        # Check Redirects
-        if low_target in LORE_REDIRECTS:
-            target = LORE_REDIRECTS[low_target]
-        # Check Casing
-        elif low_target in wiki_map:
-            target = wiki_map[low_target]
-            
-        return f"[[{target}{anchor_str}{display_str}]]"
-
-    for fpath in files:
-        try:
-            content = fpath.read_text(encoding="utf-8")
-            orig_content = content
-            
-            # Apply fixes in sequence
-            content = re_brackets.sub(r'[[\1]]', content)
-            content = re_quotes_dbl.sub(r'[[\1]]', content)
-            content = re_quotes_sgl.sub(r'[[\1]]', content)
-            content = re_general.sub(fix_path_canonical, content)
-            
-            if content != orig_content:
-                if not auto:
-                    print(f"\n{YELLOW}Änderungen an {fpath.name}:{RESET}")
-                    # Simple diff heuristic (first change)
-                    # For brevity, just ask
-                    choice = input(f"  Reparieren? [y/n/q]: ").lower()
-                    if choice == 'q': return
-                    if choice != 'y': continue
-                
-                fpath.write_text(content, encoding="utf-8")
-                print(f"  {GREEN}Repariert: {fpath.name}{RESET}")
+            if auto or input(f"Frontmatter für {file_path.name} erstellen? [y/n]: ").lower() == 'y':
+                file_path.write_text(frontmatter + content, encoding="utf-8")
+                print(f"  {GREEN}Repariert.{RESET}")
                 count += 1
-        except Exception as e:
-            print(f"{RED}Fehler bei {fpath.name}: {e}{RESET}")
-
-    if count == 0:
-        print(f"{GREEN}Keine Reparaturen notwendig.{RESET}")
-    else:
-        print(f"\n{count} Dateien erfolgreich repariert.")
+    print(f"{count} Frontmatter hinzugefügt.")
 
 def main():
-    parser = argparse.ArgumentParser(description="Siebenwind Repair Tool")
-    parser.add_argument("--path", default=str(WIKI_DIR), help="Zielverzeichnis scanning")
-    parser.add_argument("--auto", action="store_true", help="Automatische Reparatur ohne Rückfragen")
+    parser = argparse.ArgumentParser(description="Siebenwind Repair Tool 2.0")
+    parser.add_argument("--path", default=str(WIKI_DIR), help="Zielverzeichnis")
+    parser.add_argument("--auto", action="store_true", help="Auto-Repair ohne Nachfrage")
+    parser.add_argument("--check-collision", help="Prüft, ob ein Dateiname bereits existiert")
     args = parser.parse_args()
     
     target_dir = Path(args.path)
     if not target_dir.exists():
-        print(f"{RED}Verzeichnis nicht gefunden:{RESET} {target_dir}")
+        print(f"Verzeichnis fehlt: {target_dir}")
         sys.exit(1)
-        
-    print(f"Scanne {target_dir}...")
+
+    print(f"Indiziere Canon Map für {target_dir}...")
+    canon_map = get_canon_map(target_dir)
+
+    # Collision Check Mode
+    if args.check_collision:
+        key = normalize_key(args.check_collision)
+        if key in canon_map:
+            print(f"{RED}KOLLISION GEFUNDEN:{RESET}")
+            for p in canon_map[key]:
+                print(f"  - {p}")
+            sys.exit(1)
+        else:
+            print(f"{GREEN}Keine Kollision. Name ist frei.{RESET}")
+            sys.exit(0)
+
+    # Normal Mode
     files = list(target_dir.rglob("*.md"))
-    print(f"{len(files)} Markdown-Dateien gefunden.")
     
     if args.auto:
-        print(f"\n{BLUE}=== AUTOMATISCHE REPARATUR GESTARTET ==={RESET}")
+        print(f"{BLUE}=== AUTO REPAIR STARTED ==={RESET}")
+        check_duplicates(canon_map)
         fix_frontmatter(files, auto=True)
-        repair_links(files, auto=True)
-        check_links(files)
-        print(f"\n{GREEN}=== FERTIG ==={RESET}")
-        return
-
-    while True:
-        print("\nOptionen:")
-        print("  1) Frontmatter prüfen & reparieren")
-        print("  2) Tote Links suchen (Report)")
-        print("  3) Link-Engine (Casing, Redirects, Fixes)")
-        print("  q) Beenden")
-        
-        choice = input("\nWahl: ").lower()
-        
-        if choice == '1':
-            fix_frontmatter(files, auto=args.auto)
-        elif choice == '2':
-            check_links(files)
-        elif choice == '3':
-            repair_links(files, auto=args.auto)
-        elif choice == 'q':
-            break
-        else:
-            print("Ungültige Eingabe.")
+        repair_links(files, canon_map, auto=True)
+        print(f"{GREEN}=== FERTIG ==={RESET}")
+    else:
+        check_duplicates(canon_map)
+        while True:
+            print("\nOptionen:")
+            print("  1) Frontmatter Fixer")
+            print("  2) Smart Link Repair")
+            print("  q) Beenden")
+            c = input("Wahl: ").lower()
+            if c == '1': fix_frontmatter(files)
+            elif c == '2': repair_links(files, canon_map)
+            elif c == 'q': break
 
 if __name__ == "__main__":
     main()

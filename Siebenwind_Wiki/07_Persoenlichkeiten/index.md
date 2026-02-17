@@ -409,7 +409,7 @@ Das [[index]] der Persoenlichkeiten.
 *   [[Minelthuya|Minelthuya]]
 *   [[Mirian|Mirian]]
 *   [[Mirian_Lasar|[[Mirian]] Lasar]]
-*   [[Mirila_Mik-Honigzopf|Mirila Mik-Honigzopf]]
+*   [[Mirila_Mik_Honigzopf|Mirila Mik-Honigzopf]]
 *   [[Mirila_Mik_Honigzopf|Mirila Mik-Honigzopf]]
 *   [[Morin_Thamaz|Morin Thamaz]]
 *   [[Murrin_Hammerschwinger|Murrin Hammerschwinger]]

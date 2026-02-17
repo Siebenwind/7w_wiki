@@ -6,7 +6,7 @@ category: Allgemein
 
 # Forschungsberichte
 
-**Autor:** [[Toran Dur]]
+**Autor:** [[Toran_Dur]]
 **Kategorie:** Sammlung / Berichte
 
 ## Inhalt
@@ -30,7 +30,7 @@ Ein detaillierter Plan zur dauerhaften Bindung des Dämons Hrasmiren in der erst
 Ein Bericht über die Erkundung der Gräber der [[Ferrin]] und [[Mazzaremer]]. Er enthält Transkripte von Inschriften ("Galtors Feder", "Ewigwächter") und beschreibt die [[index]] des Verrats an Galtors Asche durch eine Figur namens [[Wisper]].
 
 ### Hellsichtritual Konstrukt am Wall
-(Teilnehmer: [[Toran_Dur]], [[Enoah Sullin]], [[Caieta Ajunier]], [[Rianna]])
+(Teilnehmer: [[Toran_Dur]], [[Enoah_Sullin]], [[Caieta_Ajunier]], [[Rianna]])
 Ein Bericht über die Untersuchung eines unbekannten Konstrukts (Limbus-Riss) am Wall im Jahr 33 n.H.
 *   **Methode**: Nutzung eines "elementaren Echos" und Reflektion in einem speziell präparierten Spiegel, um chaotische Energien zu filtern.
 *   **Ergebnis**: Das Konstrukt wurde als Riss im Sphärenrand identifiziert, verursacht durch fehlgeschlagene Goblin-Rituale.

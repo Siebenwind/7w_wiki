@@ -15,7 +15,7 @@ category: Persönlichkeit
 Frederik Hamsberg ist ein fähiger Krieger und Ritter des **Löwenordens**. Er ist bekannt für seinen Mut und seine Ergebenheit gegenüber dem Königreich und der Kirche.
 
 ## Wirken
-Im Jahr 18 n.H. erlangte er Berühmtheit, als er maßgeblich an der Abwehr des **[[Angriff_der_Schwarzmagier|Angriffs der Schwarzmagier]]** auf die Magierakademie beteiligt war. Gemeinsam mit den Graumagiern jagte und bannte er die gefährliche **[[Magiefresser-Wolke]]** in eine versiegelte Urne. Sein mutiges Einschreiten verhinderte weiteren Schaden von der Akademie und ihren Studiosi.
+Im Jahr 18 n.H. erlangte er Berühmtheit, als er maßgeblich an der Abwehr des **[[Angriff_der_Schwarzmagier|Angriffs der Schwarzmagier]]** auf die Magierakademie beteiligt war. Gemeinsam mit den Graumagiern jagte und bannte er die gefährliche **[[Magiefresser_Wolke]]** in eine versiegelte Urne. Sein mutiges Einschreiten verhinderte weiteren Schaden von der Akademie und ihren Studiosi.
 
 ---
 **Quellen:** [[Siebenwind_Bote_161]]

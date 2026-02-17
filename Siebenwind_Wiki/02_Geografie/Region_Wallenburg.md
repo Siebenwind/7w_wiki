@@ -25,4 +25,4 @@ Eine der schönsten und reichsten Gegenden Tares (Seelandschaft). Trotz dichter 
 *   **Mentalität:** Sozial, gutherzig, gastfreundlich.
 
 ## Verlinkte Themen
-*   [[Region Morthum]]
+*   [[Region_Morthum]]

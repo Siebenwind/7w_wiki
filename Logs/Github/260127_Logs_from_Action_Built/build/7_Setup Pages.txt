@@ -1,0 +1,12 @@
+﻿2026-02-17T17:49:20.3013852Z ##[group]Run actions/configure-pages@v5
+2026-02-17T17:49:20.3014150Z with:
+2026-02-17T17:49:20.3014445Z   token: ***
+2026-02-17T17:49:20.3014650Z   enablement: false
+2026-02-17T17:49:20.3014854Z env:
+2026-02-17T17:49:20.3015103Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.3/x64
+2026-02-17T17:49:20.3015516Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.3/x64/lib/pkgconfig
+2026-02-17T17:49:20.3015920Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.3/x64
+2026-02-17T17:49:20.3016295Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.3/x64
+2026-02-17T17:49:20.3016658Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.3/x64
+2026-02-17T17:49:20.3017016Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.3/x64/lib
+2026-02-17T17:49:20.3017332Z ##[endgroup]

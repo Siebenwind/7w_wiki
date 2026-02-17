@@ -122,7 +122,7 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 *   **Aktueller Stand:** Datum der letzten erfassten Boten-Ausgabe (Nr. 193).
 
 ## Undatierte Ereignisse in dieser Epoche
-*   **[[Der_Hutmacher]] & [[Der_Blinde_Maler]]:** Auftauchen von [[Dämonen]], die Künstler und Ritter (Sire [[Laske]]) verführen und entführen. Bekämpfung durch [[Custodias]] und Magier.
+*   **[[Der_Hutmacher]] & [[Der_blinde_Maler]]:** Auftauchen von [[Dämonen]], die Künstler und Ritter (Sire [[Laske]]) verführen und entführen. Bekämpfung durch [[Custodias]] und Magier.
 *   **Vandrien:** Gerüchte über die Rückkehr von Fürst [[Raziel]] und den [[Tardukai]].
 *   **Khalandra:** Aufstieg des "Turm des Nordwinds" zur Universität durch Finanzierung von König Theobald I. von [[Cortan]].
 *   **[[Rasse_Elfen]]-Konflikt:** Ultimatum der Waldelfen an den [[Ersonter_Bund]] bezüglich Umbauten am Dorf [[Südfall]] ("Wenn die Äpfel fallen").

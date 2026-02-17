@@ -12,8 +12,8 @@ Tai Sah'Halour - Glurias ist als Gelehrter und Chronist überliefert, der die pr
 
 ## Überlieferung
 * [[Lit Ita'Im'Elarum Odalim ir Galadon]]
-* [[Die Eisernen Tafeln]]
-* [[Die Goldenen Tafeln]]
-* [[Die Silbernen Tafeln]]
-* [[Der Blutrote Stier]]
-* [[Der Traum der Tausend]]
+* [[Die_Eisernen_Tafeln]]
+* [[Die_Goldenen_Tafeln]]
+* [[Die_Silbernen_Tafeln]]
+* [[Der_Blutrote_Stier]]
+* [[Der_Traum_der_Tausend]]

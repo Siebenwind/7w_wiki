@@ -20,4 +20,4 @@ Ein abgeschiedenes und unruhiges Land.
 
 ## Verlinkte Themen
 *   [[Religion Der Eine]]
-*   [[Kirche der Viere]]
+*   [[Kirche_der_Viere]]

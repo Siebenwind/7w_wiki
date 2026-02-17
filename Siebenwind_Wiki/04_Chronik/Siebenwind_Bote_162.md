@@ -16,7 +16,7 @@ letzter_check: 2026-02-13T15:10:00+01:00
 *   **Ankunft des Schatzmeisters:** Baron von und zu **[[Gerdenwald]]**, der vom König eingesetzte Schatzmeister und Verwalter, wird für den 12. Seker auf [[Siebenwind]] erwartet. Eine große Volksversammlung auf dem Turnierplatz zu [[Falkensee]] ist geplant.
 *   **[[Der_Grix]]:** Ein Koboldwesen aus der zweiten Sphäre namens **[[Grix]]** trieb sein Unwesen an der Magierakademie und am [[Falkenwall]] (wo er die Tore öffnete). Er wurde von Magister **[[Jabin]]** und Hochwürden **[[Mantaris]]** gefasst, im Tempel geläutert und in seine Heimsphäre zurückgeschickt.
 *   **Barden in Not:** Die Redaktion beklagt zunehmende Übergriffe auf Schausteller und Gaukler, insbesondere durch "freie Krieger". Der Bote bietet fortan kostenfreie Anzeigen für Barden an und droht Tätern mit einer "Schandliste".
-*   **Akademie-Feier:** Die Magierschaft lädt für den 21. Seker zu einer großen Feier im Brandensteiner Umland ein, um die Siege über die [[Magiefresser-Wolke]], den [[Sichelzahngnoll]] und den [[Grix]] zu zelebrieren.
+*   **Akademie-Feier:** Die Magierschaft lädt für den 21. Seker zu einer großen Feier im Brandensteiner Umland ein, um die Siege über die [[Magiefresser_Wolke]], den [[Sichelzahngnoll]] und den [[Grix]] zu zelebrieren.
 
 ## Lokales
 *   **Wahrzeichen:** Erwähnung der großen Mauer aus weißem Stein ([[Falkenwall]]), die das [[Ödland]] sichert.

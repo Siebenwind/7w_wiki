@@ -36,4 +36,4 @@ Eminenz [[Benion_Sandelholz]] und Gnaden [[Custodias]] baten im Tempel zu [[Falk
 
 ---
 **Quellen:** [[Siebenwind_Bote_176]] (Original)
-**Siehe auch:** [[Die_Chronik]], [[Ersonter_Bund]], [[Graue_Garde]], [[Der_Blinde_Maler]]
+**Siehe auch:** [[Die_Chronik]], [[Ersonter_Bund]], [[Graue_Garde]], [[Der_blinde_Maler]]

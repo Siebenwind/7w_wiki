@@ -23,4 +23,4 @@ Ein fruchtbares, sicheres Land im Südosten.
 *   **Handel:** Die Südländer sind tüchtige Händler.
 
 ## Verlinkte Themen
-*   [[Region Kadamark]]
+*   [[Region_Kadamark]]
