@@ -2,8 +2,8 @@
 layout: wiki_page
 title: Archivregister
 category: System
-uuid: 79a8eec9-cce8-4841-a203-85380dc40340
-letzter_check: 2026-02-17T21:05:46Z
+uuid: 84ded988-77dd-4cea-950a-52dc3d355ef1
+letzter_check: 2026-02-17T22:06:06Z
 ---
 
 # Archivregister
@@ -12,8 +12,8 @@ letzter_check: 2026-02-17T21:05:46Z
 
 ## Überblick
 
-- Datensaetze gesamt: 1982
-- Mit Content-UUID: 228 (11.50%)
+- Datensaetze gesamt: 1990
+- Mit Content-UUID: 236 (11.86%)
 - Wiki indexierbar: 1108 | Quellen indexierbar: 796
 
 ## RAG-Fortschritt
@@ -21,7 +21,7 @@ letzter_check: 2026-02-17T21:05:46Z
 | Corpus | Indexierte Dateien | Indexierbare Dateien | Coverage | Chunks | Stale Index-Eintraege |
 |---|---:|---:|---:|---:|---:|
 | wiki | 157 | 1108 | 14.17% | 31700 | 1 |
-| quellen | 288 | 300 | 96.00% | 60151 | 1 |
+| quellen | 4 | 300 | 1.33% | 849 | 0 |
 
 ## Ingestion-Fortschritt (Inventur)
 
@@ -31,7 +31,7 @@ letzter_check: 2026-02-17T21:05:46Z
 
 | Domain | Total | Status Breakdown | Missing UUID | Invalid Status Files |
 |---|---:|---|---:|---:|
-| Dispatch | 6 | CLAIMED=1, OPEN=5 | 0 | 0 |
+| Dispatch | 14 | CLAIMED=1, OPEN=13 | 0 | 0 |
 | research | 10 | COMPLETED=1, DONE=2, TENDERED=3 | 10 | 4 |
 | conflicts | 7 | AUTO_RESOLVED=1, NEEDS_REVIEW=4, RESOLVED=1 | 7 | 1 |
 | inquisition | 3 | COMPLETED=1, OPEN=1, UNSPECIFIED=1 | 2 | 0 |
@@ -42,7 +42,7 @@ letzter_check: 2026-02-17T21:05:46Z
 |---|---:|
 | wiki | 1108 |
 | quellen | 796 |
-| system | 56 |
+| system | 64 |
 | docs | 22 |
 
 ## Pflichtfelder je Datensatz

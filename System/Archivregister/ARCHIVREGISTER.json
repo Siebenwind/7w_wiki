@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-17T21:05:46Z",
+  "generated_at": "2026-02-17T22:06:06Z",
   "records": [
     {
       "content_hash": "04f3ca3651837e4b",
@@ -86,18 +86,18 @@
       "size_bytes": 1471
     },
     {
-      "content_hash": "2dcdabe73feea988",
+      "content_hash": "84cb1d7a1a530208",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Die_Sprache_Run.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-15T22:52:25Z",
+      "modified_at": "2026-02-17T21:23:14Z",
       "rag_source": "wiki",
       "record_uuid": "f68bcf19-89df-5f66-ad46-a223ce2b05b8",
       "relative_path": "Siebenwind_Wiki/00_Fundament/Die_Sprache_Run.md",
-      "size_bytes": 1445
+      "size_bytes": 1443
     },
     {
       "content_hash": "c3e36542f4a209fc",
@@ -534,18 +534,18 @@
       "size_bytes": 2288
     },
     {
-      "content_hash": "8687e52030a1fc61",
+      "content_hash": "39150fe9fe1e6028",
       "content_uuid": "5b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Aequitas.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-15T22:52:12Z",
+      "modified_at": "2026-02-17T21:22:42Z",
       "rag_source": "wiki",
       "record_uuid": "8766e499-923b-599e-bca2-40c7fdf0d0f7",
       "relative_path": "Siebenwind_Wiki/01_Pantheon/Aequitas.md",
-      "size_bytes": 2242
+      "size_bytes": 2244
     },
     {
       "content_hash": "8837d82f7982f43b",
@@ -632,18 +632,18 @@
       "size_bytes": 2028
     },
     {
-      "content_hash": "83cde93e4545a661",
+      "content_hash": "89cb0b82862ddb41",
       "content_uuid": "6c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Brevier_des_Ordo_Astraeli.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-16T16:08:16Z",
+      "modified_at": "2026-02-17T21:22:42Z",
       "rag_source": "wiki",
       "record_uuid": "d53a569a-c387-553f-bbee-3ced1c943e70",
       "relative_path": "Siebenwind_Wiki/01_Pantheon/Brevier_des_Ordo_Astraeli.md",
-      "size_bytes": 2103
+      "size_bytes": 2106
     },
     {
       "content_hash": "e287dc461528a1ad",
@@ -660,18 +660,18 @@
       "size_bytes": 2999
     },
     {
-      "content_hash": "39f750047eae5dee",
+      "content_hash": "c04fde4fa9011063",
       "content_uuid": "4a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Codex_Iuris_Canonici.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-15T22:52:11Z",
+      "modified_at": "2026-02-17T21:22:42Z",
       "rag_source": "wiki",
       "record_uuid": "d7b9b6d7-75e5-58e4-9843-d7c7c5e59cb3",
       "relative_path": "Siebenwind_Wiki/01_Pantheon/Codex_Iuris_Canonici.md",
-      "size_bytes": 2773
+      "size_bytes": 2775
     },
     {
       "content_hash": "a4ddef34837360bc",
@@ -2872,18 +2872,18 @@
       "size_bytes": 184
     },
     {
-      "content_hash": "4ac22c96a7c3ef7a",
+      "content_hash": "ff19d560becdc61f",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Sprache_Run.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-17T16:39:50Z",
+      "modified_at": "2026-02-17T21:23:02Z",
       "rag_source": "wiki",
       "record_uuid": "45cb4b5e-5974-5b6d-a731-0a8aa6d8bc2f",
       "relative_path": "Siebenwind_Wiki/03_Wissen/Sprache_Run.md",
-      "size_bytes": 1855
+      "size_bytes": 1859
     },
     {
       "content_hash": "db05713c6e6048f1",
@@ -4832,18 +4832,18 @@
       "size_bytes": 2371
     },
     {
-      "content_hash": "f39e5b77eff9d14a",
+      "content_hash": "50bf480c203f1dfd",
       "content_uuid": "liebesleben-dichter-haldur-toda",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Aus_dem_Liebesleben_eines_Dichters.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-15T22:52:05Z",
+      "modified_at": "2026-02-17T21:13:12Z",
       "rag_source": "wiki",
       "record_uuid": "31cfe171-63fc-5806-882b-916bf2fccf5a",
       "relative_path": "Siebenwind_Wiki/05_Geschichte/Aus_dem_Liebesleben_eines_Dichters.md",
-      "size_bytes": 2327
+      "size_bytes": 2328
     },
     {
       "content_hash": "d08877e5fdb47017",
@@ -4860,18 +4860,18 @@
       "size_bytes": 839
     },
     {
-      "content_hash": "e52cae53748721e8",
+      "content_hash": "5337ecb49687059e",
       "content_uuid": "blutschwert-narrative-tim-benion",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Blutschwert.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-15T22:52:06Z",
+      "modified_at": "2026-02-17T21:13:12Z",
       "rag_source": "wiki",
       "record_uuid": "6fe8165a-623b-56c2-8555-91b94e12513c",
       "relative_path": "Siebenwind_Wiki/05_Geschichte/Blutschwert.md",
-      "size_bytes": 2141
+      "size_bytes": 2142
     },
     {
       "content_hash": "a8813fa6614a76e2",
@@ -4888,32 +4888,32 @@
       "size_bytes": 1471
     },
     {
-      "content_hash": "bad706ea52267251",
+      "content_hash": "ab644eaa75619fc0",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Briefe_aus_der_Ferne.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-17T17:41:56Z",
+      "modified_at": "2026-02-17T21:13:12Z",
       "rag_source": "wiki",
       "record_uuid": "92e48466-dadf-5988-b920-1dbee6c1f14d",
       "relative_path": "Siebenwind_Wiki/05_Geschichte/Briefe_aus_der_Ferne.md",
-      "size_bytes": 1906
+      "size_bytes": 1907
     },
     {
-      "content_hash": "3dc5cb784e7deb25",
+      "content_hash": "b7ab60fb18d0d35b",
       "content_uuid": "3nd3-z31t-k03n1g3-h15t0ry",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Das_Ende_der_Zeit_der_Koenige.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-15T22:52:05Z",
+      "modified_at": "2026-02-17T21:13:12Z",
       "rag_source": "wiki",
       "record_uuid": "d38b6270-289c-5b4e-ba0a-4160ad895e85",
       "relative_path": "Siebenwind_Wiki/05_Geschichte/Das_Ende_der_Zeit_der_Koenige.md",
-      "size_bytes": 2338
+      "size_bytes": 2339
     },
     {
       "content_hash": "8355d719390ab0cc",
@@ -5868,60 +5868,60 @@
       "size_bytes": 3854
     },
     {
-      "content_hash": "6b32cee25f4e4c02",
+      "content_hash": "7867520611593620",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Magietheorie_Daimonen_Domaenen.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-17T01:11:59Z",
+      "modified_at": "2026-02-17T21:22:42Z",
       "rag_source": "wiki",
       "record_uuid": "9ef16266-f8dd-58eb-85d9-9175e681a813",
       "relative_path": "Siebenwind_Wiki/05_Magie/Magietheorie_Daimonen_Domaenen.md",
-      "size_bytes": 3399
+      "size_bytes": 3401
     },
     {
-      "content_hash": "11a9e452d2a77951",
+      "content_hash": "080bde654551676b",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Magietheorie_Eigenschaften_der_Elemente.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-15T22:51:53Z",
+      "modified_at": "2026-02-17T21:22:42Z",
       "rag_source": "wiki",
       "record_uuid": "b08980a2-acfd-51fa-85c7-828cc6804f3c",
       "relative_path": "Siebenwind_Wiki/05_Magie/Magietheorie_Eigenschaften_der_Elemente.md",
-      "size_bytes": 1864
+      "size_bytes": 1866
     },
     {
-      "content_hash": "61ab364c92e0122f",
+      "content_hash": "d8112c86beb2b725",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Magietheorie_Elementarmagie_I.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-17T01:10:01Z",
+      "modified_at": "2026-02-17T21:22:42Z",
       "rag_source": "wiki",
       "record_uuid": "2253a513-2887-538d-94f5-eed02f31e70c",
       "relative_path": "Siebenwind_Wiki/05_Magie/Magietheorie_Elementarmagie_I.md",
-      "size_bytes": 1933
+      "size_bytes": 1935
     },
     {
-      "content_hash": "35827506d669b02c",
+      "content_hash": "2b39891bc9c8cc6b",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Magietheorie_Homunkuli.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-17T01:11:59Z",
+      "modified_at": "2026-02-17T21:22:42Z",
       "rag_source": "wiki",
       "record_uuid": "7d81c3f2-f8d6-5047-b968-5a7a206f49ff",
       "relative_path": "Siebenwind_Wiki/05_Magie/Magietheorie_Homunkuli.md",
-      "size_bytes": 2198
+      "size_bytes": 2200
     },
     {
       "content_hash": "ba97693a3a25f0d2",
@@ -5938,18 +5938,18 @@
       "size_bytes": 2683
     },
     {
-      "content_hash": "538a752ba822e358",
+      "content_hash": "e8c84eba993b4ab1",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Magietheorie_Toran_Dur_Fragmente.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-17T01:11:59Z",
+      "modified_at": "2026-02-17T21:22:42Z",
       "rag_source": "wiki",
       "record_uuid": "1b371e81-2810-5d7a-a553-0e32c4b68727",
       "relative_path": "Siebenwind_Wiki/05_Magie/Magietheorie_Toran_Dur_Fragmente.md",
-      "size_bytes": 2139
+      "size_bytes": 2143
     },
     {
       "content_hash": "3c8bc947af91c8f4",
@@ -6008,18 +6008,18 @@
       "size_bytes": 2141
     },
     {
-      "content_hash": "e5aaf9b55b5fa4b4",
+      "content_hash": "7b71b9d3d335407d",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Ritual_Bannung_des_Grix.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-17T01:11:59Z",
+      "modified_at": "2026-02-17T21:22:42Z",
       "rag_source": "wiki",
       "record_uuid": "92e90bfd-2fbd-5a97-a0fc-323ece37fa14",
       "relative_path": "Siebenwind_Wiki/05_Magie/Ritual_Bannung_des_Grix.md",
-      "size_bytes": 1851
+      "size_bytes": 1853
     },
     {
       "content_hash": "c4bcc41497373d3e",
@@ -6120,18 +6120,18 @@
       "size_bytes": 1015
     },
     {
-      "content_hash": "9c7268e3d35f834e",
+      "content_hash": "2dc1ed7e32107d45",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Der_Flug_der_Ente.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-17T17:41:56Z",
+      "modified_at": "2026-02-17T21:13:12Z",
       "rag_source": "wiki",
       "record_uuid": "ff0da627-827e-54b0-a9a1-bc50e33279f5",
       "relative_path": "Siebenwind_Wiki/06_Erz\u00e4hlungen/Der_Flug_der_Ente.md",
-      "size_bytes": 2374
+      "size_bytes": 2375
     },
     {
       "content_hash": "ed8ecf7446af4414",
@@ -15066,46 +15066,46 @@
       "size_bytes": 1934
     },
     {
-      "content_hash": "c7669540fceb8cbf",
+      "content_hash": "dab7d2b21dee385b",
       "content_uuid": "l13b35l3b3n-d1cht3r",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Aus_dem_Liebesleben_eines_Dichters.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-15T22:52:22Z",
+      "modified_at": "2026-02-17T21:13:12Z",
       "rag_source": "wiki",
       "record_uuid": "c4bfca1e-e450-5498-ac81-f5314d267eea",
       "relative_path": "Siebenwind_Wiki/09_Bibliothek/Aus_dem_Liebesleben_eines_Dichters.md",
-      "size_bytes": 2512
+      "size_bytes": 2513
     },
     {
-      "content_hash": "a265d905a9f1a9dd",
+      "content_hash": "1f66b9a175e1cb3e",
       "content_uuid": "blut-schw3rt-narrativ",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Blutschwert.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-15T22:52:23Z",
+      "modified_at": "2026-02-17T21:13:12Z",
       "rag_source": "wiki",
       "record_uuid": "8bea8132-41cd-5499-a75c-79faa0e4f16b",
       "relative_path": "Siebenwind_Wiki/09_Bibliothek/Blutschwert.md",
-      "size_bytes": 2255
+      "size_bytes": 2256
     },
     {
-      "content_hash": "89255a157e8d2ee9",
+      "content_hash": "a931655584c4411b",
       "content_uuid": "d3s-3nd3-d3r-z31t-k03n1g3",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Das_Ende_der_Zeit_der_Koenige.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-15T22:52:22Z",
+      "modified_at": "2026-02-17T21:13:12Z",
       "rag_source": "wiki",
       "record_uuid": "36bf70b1-536b-5370-9837-84db4e695572",
       "relative_path": "Siebenwind_Wiki/09_Bibliothek/Das_Ende_der_Zeit_der_Koenige.md",
-      "size_bytes": 2680
+      "size_bytes": 2681
     },
     {
       "content_hash": "3ed7a7d08ed42b74",
@@ -15164,18 +15164,18 @@
       "size_bytes": 1753
     },
     {
-      "content_hash": "e5c4160aec4d0e5e",
+      "content_hash": "045965cbcc021553",
       "content_uuid": "zwergen-erinnerungen-thorgat",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Erinnerungen_eines_alternden_Zwergen.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-17T16:45:19Z",
+      "modified_at": "2026-02-17T21:13:12Z",
       "rag_source": "wiki",
       "record_uuid": "949e1b52-e45c-5d2d-a7fe-925ef89a2d27",
       "relative_path": "Siebenwind_Wiki/09_Bibliothek/Erinnerungen_eines_alternden_Zwergen.md",
-      "size_bytes": 2122
+      "size_bytes": 2123
     },
     {
       "content_hash": "a66b20a93f2da8dd",
@@ -15290,18 +15290,18 @@
       "size_bytes": 1969
     },
     {
-      "content_hash": "501e56729f599526",
+      "content_hash": "35db85dbf533e061",
       "content_uuid": "hali-pointe-e1ns",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Nichts_und_ohne_Pointe.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-15T22:52:23Z",
+      "modified_at": "2026-02-17T21:13:12Z",
       "rag_source": "wiki",
       "record_uuid": "b26d2530-82f5-58fd-8ec4-9beed985fb1c",
       "relative_path": "Siebenwind_Wiki/09_Bibliothek/Nichts_und_ohne_Pointe.md",
-      "size_bytes": 2023
+      "size_bytes": 2024
     },
     {
       "content_hash": "11d5d7a70f219008",
@@ -15360,32 +15360,32 @@
       "size_bytes": 1970
     },
     {
-      "content_hash": "cbd259784de7d177",
+      "content_hash": "a54ae48146008d8e",
       "content_uuid": "seelen-kehlen-dunkeltief",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Von_gesplitterten_Seelen.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-15T22:52:22Z",
+      "modified_at": "2026-02-17T21:13:12Z",
       "rag_source": "wiki",
       "record_uuid": "28ef649f-cc03-53e4-9cc2-7191f319949b",
       "relative_path": "Siebenwind_Wiki/09_Bibliothek/Von_gesplitterten_Seelen.md",
-      "size_bytes": 2521
+      "size_bytes": 2522
     },
     {
-      "content_hash": "78485000a3fe907e",
+      "content_hash": "082ce5db48f3ebcd",
       "content_uuid": "wald3mar-r3is3-papin",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Waldemars_Reise_Papin.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-15T22:52:22Z",
+      "modified_at": "2026-02-17T21:13:12Z",
       "rag_source": "wiki",
       "record_uuid": "a397da87-41ce-547f-b536-e4e1f32c276d",
       "relative_path": "Siebenwind_Wiki/09_Bibliothek/Waldemars_Reise_Papin.md",
-      "size_bytes": 2754
+      "size_bytes": 2755
     },
     {
       "content_hash": "51345ebe7fd4c128",
@@ -15472,18 +15472,18 @@
       "size_bytes": 1427
     },
     {
-      "content_hash": "dbfa8edad9f7dba4",
+      "content_hash": "fec7670401bdfdfc",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Wiki_Statistiken.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-17T21:01:53Z",
+      "modified_at": "2026-02-17T22:01:57Z",
       "rag_source": "wiki",
       "record_uuid": "c4468f48-b40c-5c0f-a4d8-73694fe48d17",
       "relative_path": "Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md",
-      "size_bytes": 1299
+      "size_bytes": 1600
     },
     {
       "content_hash": "01d83d3b008ec6f8",
@@ -26658,46 +26658,46 @@
       "size_bytes": 21968
     },
     {
-      "content_hash": "89f0f02180f7360f",
+      "content_hash": "fc409deb707e00b6",
       "content_uuid": "1b3c8f24-7fb5-4ec3-9d43-7b1f17f69371",
       "corpus": "system",
       "extension": ".md",
       "filename": "AGENT_OPERATIONS_HANDBOOK.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-02-17T17:01:47Z",
+      "modified_at": "2026-02-17T21:45:10Z",
       "rag_source": "",
       "record_uuid": "4e76e03c-8153-596f-b8bb-8c59e1ad72e4",
       "relative_path": "System/AGENT_OPERATIONS_HANDBOOK.md",
-      "size_bytes": 4477
+      "size_bytes": 5494
     },
     {
-      "content_hash": "0bb1688090bbf116",
+      "content_hash": "778dbc10cb246447",
       "content_uuid": "",
       "corpus": "system",
       "extension": ".json",
       "filename": "ARCHIVREGISTER.json",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-17T21:02:09Z",
+      "modified_at": "2026-02-17T22:02:12Z",
       "rag_source": "",
       "record_uuid": "6c15edc2-e046-50fc-a98a-059d2b3709f3",
       "relative_path": "System/Archivregister/ARCHIVREGISTER.json",
-      "size_bytes": 960572
+      "size_bytes": 965633
     },
     {
-      "content_hash": "e3f38ff95556ff81",
-      "content_uuid": "f7087ad2-b653-4e70-ba63-16059b857f41",
+      "content_hash": "9ef0c429b72cbc00",
+      "content_uuid": "61990c15-6e65-4662-904b-473af4089db1",
       "corpus": "system",
       "extension": ".md",
       "filename": "ARCHIVREGISTER.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-02-17T21:02:09Z",
+      "modified_at": "2026-02-17T22:02:12Z",
       "rag_source": "",
       "record_uuid": "5b36010b-8039-547b-a1d5-3dabf786d9a3",
       "relative_path": "System/Archivregister/ARCHIVREGISTER.md",
-      "size_bytes": 2806
+      "size_bytes": 2803
     },
     {
       "content_hash": "fc99a187814209c2",
@@ -27050,6 +27050,118 @@
       "size_bytes": 631
     },
     {
+      "content_hash": "3ac62a7ae5b46a6e",
+      "content_uuid": "28b59e01-3d1d-4bab-ae9d-f157973e9f60",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0007_test_fail_rag_relevance_smoke_3_fehler.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T21:07:12Z",
+      "rag_source": "",
+      "record_uuid": "3108a002-38ac-5bb8-aed2-7f4dc953cd46",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0007_test_fail_rag_relevance_smoke_3_fehler.md",
+      "size_bytes": 666
+    },
+    {
+      "content_hash": "beb7ae612ef15253",
+      "content_uuid": "a1fc8b18-9dbb-46bd-85a6-cb187b713d1c",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0008_test_fail_takeover_handover_1_fehler.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T21:07:13Z",
+      "rag_source": "",
+      "record_uuid": "95bdace7-c406-54eb-80e8-63bd718b38ad",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0008_test_fail_takeover_handover_1_fehler.md",
+      "size_bytes": 627
+    },
+    {
+      "content_hash": "689d43e573219d9d",
+      "content_uuid": "5e7b30ae-5f89-40cf-a9eb-1c1318b47b45",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0009_tech_tracking_system_score_audit_abgeschlossen.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T21:41:48Z",
+      "rag_source": "",
+      "record_uuid": "bf8bcb48-159c-567a-900a-01ecd30f5ec5",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0009_tech_tracking_system_score_audit_abgeschlossen.md",
+      "size_bytes": 652
+    },
+    {
+      "content_hash": "b52218bda92e6e3e",
+      "content_uuid": "986425dd-368d-4acc-b4bc-972b09fbbcaf",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0010_memory_session_checkpoint_2026_02_17.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T21:43:47Z",
+      "rag_source": "",
+      "record_uuid": "81ad8840-cdc6-59d9-beee-9641090b8e67",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0010_memory_session_checkpoint_2026_02_17.md",
+      "size_bytes": 577
+    },
+    {
+      "content_hash": "8eb45ef49b897421",
+      "content_uuid": "ccfe6444-8ab1-4b10-9f83-f5106069a83a",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0011_meta_audit_redundanz_konsolidierungsindex_backlinks.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T21:47:52Z",
+      "rag_source": "",
+      "record_uuid": "6a55927c-6381-591b-937f-3386df7b2b11",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0011_meta_audit_redundanz_konsolidierungsindex_backlinks.md",
+      "size_bytes": 797
+    },
+    {
+      "content_hash": "523bfcb23c680a97",
+      "content_uuid": "2cdf6c35-2218-459e-8f18-f051ecc516ad",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0012_meta_session_disziplin_in_agents_tech_verankert.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T21:51:10Z",
+      "rag_source": "",
+      "record_uuid": "3cdbbdcd-f42c-5d75-8421-a211d51b13ee",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0012_meta_session_disziplin_in_agents_tech_verankert.md",
+      "size_bytes": 645
+    },
+    {
+      "content_hash": "087edc861451c469",
+      "content_uuid": "3798c6c6-cc2c-4d3a-8d7b-912a88953662",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0013_meta_agent_change_packet_2026_02_17.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T21:53:43Z",
+      "rag_source": "",
+      "record_uuid": "21d76ab3-e91a-5564-a9d5-615449aa3d60",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0013_meta_agent_change_packet_2026_02_17.md",
+      "size_bytes": 603
+    },
+    {
+      "content_hash": "e4eead5820d9836a",
+      "content_uuid": "175bf38b-9974-4e7d-9971-6eafbf050bc6",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0014_test_fail_takeover_handover_audit_readiness_blockiert.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T21:59:09Z",
+      "rag_source": "",
+      "record_uuid": "0977f1f0-d48c-5b9b-aeb0-952ab280d9c9",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0014_test_fail_takeover_handover_audit_readiness_blockiert.md",
+      "size_bytes": 788
+    },
+    {
       "content_hash": "2483544a8db89b21",
       "content_uuid": "",
       "corpus": "system",
@@ -27260,18 +27372,18 @@
       "size_bytes": 391
     },
     {
-      "content_hash": "e101ede31a6ef324",
+      "content_hash": "eac607f0cb69e194",
       "content_uuid": "6e2e53f0-66ce-4a87-bb24-17ca4f5f2f11",
       "corpus": "system",
       "extension": ".md",
       "filename": "SY_DISPATCH.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-02-17T20:09:59Z",
+      "modified_at": "2026-02-17T21:29:57Z",
       "rag_source": "",
       "record_uuid": "285f7343-aae9-576e-8183-5b319f3e1f91",
       "relative_path": "System/Synapse_Board/SY_DISPATCH.md",
-      "size_bytes": 2490
+      "size_bytes": 2751
     },
     {
       "content_hash": "c7c0cf4428aba960",
@@ -27400,18 +27512,18 @@
       "size_bytes": 979
     },
     {
-      "content_hash": "7a23dbfaea5a664d",
+      "content_hash": "968615c6f9567f6f",
       "content_uuid": "",
       "corpus": "system",
       "extension": ".md",
       "filename": "INGESTION_REPORT_TEMPLATE.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-14T17:40:14Z",
+      "modified_at": "2026-02-17T21:35:22Z",
       "rag_source": "",
       "record_uuid": "b3b100ca-bc51-5b2f-9e73-42766f4d430f",
       "relative_path": "System/Templates/INGESTION_REPORT_TEMPLATE.md",
-      "size_bytes": 1546
+      "size_bytes": 2366
     },
     {
       "content_hash": "7ddfcc32832da639",
@@ -27582,18 +27694,18 @@
       "size_bytes": 1887
     },
     {
-      "content_hash": "f65a9f1853330282",
+      "content_hash": "43f644bf5a1eb8c8",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "CHANGELOG.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-17T20:55:49Z",
+      "modified_at": "2026-02-17T21:53:57Z",
       "rag_source": "",
       "record_uuid": "a872f0ee-0342-54fe-98fb-e447cfbe42b5",
       "relative_path": "docs/CHANGELOG.md",
-      "size_bytes": 54564
+      "size_bytes": 57398
     },
     {
       "content_hash": "de6e1a4c1b311f07",
@@ -27610,18 +27722,18 @@
       "size_bytes": 1703
     },
     {
-      "content_hash": "d87dfe3068a3807d",
+      "content_hash": "b009510fac56b783",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "COORDINATION_HUB.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-17T20:10:13Z",
+      "modified_at": "2026-02-17T21:15:19Z",
       "rag_source": "",
       "record_uuid": "d7b1d3e2-7b3b-52c9-aaad-fb7b30ecb723",
       "relative_path": "docs/COORDINATION_HUB.md",
-      "size_bytes": 2618
+      "size_bytes": 2637
     },
     {
       "content_hash": "d58f345c8ec5121f",
@@ -27638,18 +27750,18 @@
       "size_bytes": 2544
     },
     {
-      "content_hash": "06567b3c41f6a93b",
+      "content_hash": "80bb470aac03bf16",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "MASTER_TASK_LIST.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-17T20:55:40Z",
+      "modified_at": "2026-02-17T21:47:21Z",
       "rag_source": "",
       "record_uuid": "e24614b4-8eaf-5723-bf87-0df9978bcc1e",
       "relative_path": "docs/MASTER_TASK_LIST.md",
-      "size_bytes": 19265
+      "size_bytes": 19757
     },
     {
       "content_hash": "6ac120104f72299d",
@@ -27750,7 +27862,7 @@
       "size_bytes": 2963
     }
   ],
-  "register_uuid": "79a8eec9-cce8-4841-a203-85380dc40340",
+  "register_uuid": "84ded988-77dd-4cea-950a-52dc3d355ef1",
   "repo_root": "/Users/alexandrerabe/siebenwind/7w_wiki",
   "stats": {
     "board_metrics": {
@@ -27775,9 +27887,9 @@
         "status_counts": {
           "CLAIMED": 1,
           "DONE": 0,
-          "OPEN": 5
+          "OPEN": 13
         },
-        "total": 6
+        "total": 14
       },
       "inquisition": {
         "missing_uuid": 2,
@@ -27810,7 +27922,7 @@
     "by_corpus": {
       "docs": 22,
       "quellen": 796,
-      "system": 56,
+      "system": 64,
       "wiki": 1108
     },
     "indexable_total": {
@@ -27825,16 +27937,14 @@
     "rag_progress": {
       "quellen": {
         "available": true,
-        "chunks": 60151,
+        "chunks": 849,
         "collection": "siebenwind_quellen",
-        "coverage_pct": 96.0,
+        "coverage_pct": 1.33,
         "error": "",
         "indexable_files": 300,
-        "indexed_files": 288,
-        "stale_examples": [
-          "Quellen/Spielergeschichten/Das Ende der Zeit der Ko\u0308nige | Siebenwind | Ultima Online Freeshard | Siebenwind.md"
-        ],
-        "stale_index_entries": 1
+        "indexed_files": 4,
+        "stale_examples": [],
+        "stale_index_entries": 0
       },
       "wiki": {
         "available": true,
@@ -27850,8 +27960,8 @@
         "stale_index_entries": 1
       }
     },
-    "total_records": 1982,
-    "uuid_coverage_pct": 11.5,
-    "with_content_uuid": 228
+    "total_records": 1990,
+    "uuid_coverage_pct": 11.86,
+    "with_content_uuid": 236
   }
 }

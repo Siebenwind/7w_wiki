@@ -1,5 +1,38 @@
 # Changelog
 
+#### [2026-02-17.11] - Handover Checkpoint: Register-Sync, Tests und Queue-Status
+
+### Prioritaet
+- P1
+
+### Geaendert
+- Kanonischer Register-Abgleich via `./7w_wiki.py index --status` ausgefuehrt; `System/Archivregister/ARCHIVREGISTER.md` und `System/Archivregister/ARCHIVREGISTER.json` auf denselben Stand gebracht.
+- Handover-Dokumentation aktualisiert (`MASTER_TASK_LIST.md`, neue Session-Memory-Datei, Dispatch-Statusmeldung).
+- Defect-Kommunikation fuer `takeover-handover`-Blocker in Dispatch verankert (`MSG-2026-0014`).
+- P1-Auftrag fuer Oracle-Zuverlaessigkeit in der Codex-App erstellt (`MSG-2026-0015`) und im Master-Task-Backlog priorisiert.
+- Handover-Memory an alle Agenten verteilt (`MSG-2026-0016`).
+
+### Validiert
+- `./7w_wiki.py stats`  
+  Reports: `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md`, `Logs/INGESTION_TRACKING_REGISTER.md`
+- `./7w_wiki.py test --suite clean-client-state`  
+  Report: `Logs/Archive/TEST_clean-client-state_2026-02-17_230539.md` (PASS)
+- `./7w_wiki.py test --suite interop-doc-links`  
+  Report: `Logs/Archive/TEST_interop-doc-links_2026-02-17_230546.md` (PASS)
+- `./7w_wiki.py test --suite process-dispatch-curiosity`  
+  Report: `Logs/Archive/TEST_process-dispatch-curiosity_2026-02-17_230550.md` (PASS)
+- `./7w_wiki.py test --suite source-link-hygiene`  
+  Report: `Logs/Archive/TEST_source-link-hygiene_2026-02-17_230554.md` (PASS)
+- `./7w_wiki.py test --suite takeover-handover`  
+  Report: `Logs/Archive/TEST_takeover-handover_2026-02-17_230724.md` (FAIL: `audit-readiness`)
+- `./7w_wiki.py mail inbox --status OPEN`  
+  Offen: `MSG-2026-0002` bis `MSG-2026-0014`
+- `./7w_wiki.py audit`  
+  Report: `Logs/Archive/Audit_c5746647-ce87-4ff4-9d0e-33053b46f6ae.txt` (FAIL, 1189 Probleme)
+
+### Offen
+- `./7w_wiki.py test --suite all` und `./7w_wiki.py test --suite rag-relevance-smoke` liefen im aktuellen Checkpoint ohne verwertbaren Abschlussreport (Hang); als P1-Task aufgenommen.
+
 #### [2026-02-17.10] - Agenten-Dokumentationspaket fuer Folge-Sessions
 
 ### Prioritaet
