@@ -1,33 +1,33 @@
 ---
 layout: wiki_page
-title: 📊 Wiki Status
+title: Wiki Status
 category: Index
 ---
 
 # 📊 Wiki Status
 
-**Stand:** 2026-02-17 02:32
+**Stand:** 2026-02-17 02:39
 
 ---
 
 | Metrik | Wert |
 | :--- | :--- |
-| **Artikel** | 1106 |
-| **Worte** | 184,799 |
-| **Personen** | 586 |
+| **Artikel** | 1109 |
+| **Worte** | 185,404 |
+| **Personen** | 587 |
 
 ---
 
 ```mermaid
 pie title Sektionen
-    "07_Persoenlichkeiten" : 586
-    "05_Magie" : 40
+    "07_Persoenlichkeiten" : 587
+    "05_Magie" : 41
     "08_Bestiarium" : 33
     "03_Wissen" : 54
     "03_Gesellschaft" : 57
     "05_Geschichte" : 57
     "02_Geografie" : 56
-    "01_Pantheon" : 50
+    "01_Pantheon" : 51
     "04_Chronik" : 85
     "06_Erzählungen" : 13
     "09_Bibliothek" : 28
@@ -45,13 +45,13 @@ Leserrelevante, stark vernetzte Artikel (ohne Index/Register).
 | [[Falkensee]] | 543 |
 | [[Brandenstein]] | 465 |
 | [[Astrael]] | 161 |
-| [[Toran_Dur]] | 145 |
+| [[Toran_Dur]] | 149 |
 
 
 ## 👤 Top Persönlichkeiten
 | Persönlichkeit | Links |
 | :--- | :--- |
-| [[Toran_Dur]] | 145 |
+| [[Toran_Dur]] | 149 |
 | [[Geist]] | 125 |
 | [[Custodias]] | 83 |
 | [[Waldemar_Delarie]] | 60 |

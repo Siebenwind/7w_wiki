@@ -5,14 +5,14 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-17 02:35 (Antigravity -> User)
-- **Status**: Phase 1.18 complete; Batch 6 integrated. Focus shifting to Batch 7 Ingestion.
+- **Last Handover**: 2026-02-17 02:45 (Antigravity -> User)
+- **Status**: Phase 1.19 complete; Batch 7 (Shamanism & Run) integrated.
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [ ] **Silicon Inquisition**: Ingestion der verbleibenden Toran Dur Dokumente (Batch 7: Schamanismus & Run).
 - [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - *Delegiert an Ingestor*.
+- [ ] **System-Task (Directive MSG-2026-0002)**: Finalisierung der Link-Bereinigung.
 
 ## 🟡 Priorität 2: Operative Ingestion & Research
 - [ ] **Kanon-Abgleich**: Wiederaufnahme der Prüfung zur Götterverschmelzung (RESEARCH-2026-010/011) - [DEFERRED].
@@ -49,6 +49,16 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ### v2.7 Upgrade-Phasen
 
 <details open>
+<summary><b>Phase 1.19: Silicon Inquisition - Shamanic Magic & Run (Feb 2026)</b></summary>
+
+- **Lore**: Integration der Geisterlehre und Totemmagie in `Schamanische_Magie.md`.
+- **Cosmology**: Schärfung des Pantheons ([[Die_Gohor]], [[Die_Enhor]]).
+- **Linguistics**: Verfeinerung der arkanen Sprache [[Die_Sprache_Run]].
+- **Register**: Vollständige Synchronisation von [[Toran_Dur]]-Werken.
+- **Verification**: 100% Audit-Compliance und erfolgreiche Core-Testsuite.
+</details>
+
+<details>
 <summary><b>Phase 1.17: Silicon Inquisition - Forum Research & Automation (Feb 2026)</b></summary>
 
 - **Automation**: Implemented `forum_scanner.py` and unified CLI command `scout`.

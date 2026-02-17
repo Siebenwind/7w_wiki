@@ -48,7 +48,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Arman]] | Ordensmitglied / "Hexer" | [Bote 123] | ~15 n.H. | #bote |
 | [[Al-Barlis-Nekor]] | Magier (Zirkel) / Waffenmeister | [Kanon] / [Gesplitterte Seelen] | amtierend | #canon |
 | [[Aldaro]] | Bibliotheksleiter | [Bote 130] | ~15 n.H. | #bote |
-| [[Anonymus]] | Autor (Generaltheorie/Dämonologie) | [Theorie_arkane_Magie] / [Alchemie_Kompendium] / [Magietheorie_Daimonen_Domaenen] | Historisch | #überlieferung |
+| [[Anonymus]] | Autor (Generaltheorie/Dämonologie/Run) | [Theorie_arkane_Magie] / [Alchemie_Kompendium] / [Magietheorie_Daimonen_Domaenen] / [Lexikon des Run] | Historisch | #überlieferung |
 | [[Aleis]] | Entdecker | [Bote 145] | ~15 n.H. | #bote |
 | [[Alek_Lancan]] | Leutnant (Lehensbanner) / Turniersieger | [Bote 133] | 16 n.H. | #bote |
 | [[Andaris_Maran]] | Diener Astraels (Blauer Pfad) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
@@ -284,7 +284,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Enoha_Adorne]] | Unteroffizier ([[Malthust]]) / [[Sammler]]-Experte | [Bote 179] | 21 n.H. | #bote |
 | [[Anlohr_Flatnah]] | Hofschneider ([[Brandenstein]]) / "Lavendel-Mode" | [Bote 179] | aktiv | #bote |
 | [[Imea_Ekula]] | Konsula ([[Falkensee]]) | [Bote 178] | 21 n.H. | #bote |
-| [[Toran_Dur]] | Erzmagus / Edler / Gründer ([[Löwenorden]]) | [Bote 180] / [[Toran Dur]] | 17-21 n.H. | #bote |
+| [[Toran_Dur]] | Erzmagus / Edler / Gründer ([[Löwenorden]]) | [Bote 180] / [[Toran Dur]] / [[Schamanische_Magie]] / [[Sprache_Run]] | 17-21 n.H. | #bote |
 | [[Tantalla]] | Bürgerin (Kesselklamm) | [Erinnerungen e. a. Zwergen] | amtierend | #perspektive |
 | [[Solos_Nadeeda_Laylira]] | Tochter von [[Lucius_Gropp]] | [[Gropp_Zwillinge|Bote 186]] | Geboren 22 n.H. | #bote |
 | [[Eliath]] | Künstler / Verlobter von Aurora | [Bote 180] | 21 n.H. | #bote |

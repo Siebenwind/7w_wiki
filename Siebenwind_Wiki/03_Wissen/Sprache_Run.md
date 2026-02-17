@@ -57,5 +57,11 @@ Die Konjugation erfolgt durch Suffixe:
 | | *Harri* | Ihr (Poss.) |
 | | *Han* | Sich |
 
+## Lexika
+In den Archiven von [[Toran_Dur]] finden sich umfassende Wortlisten und Wörterbücher:
+- *Lexikon des Run* (Anonymus)
+- *Mazzarem-Sprache* (Lexikon der magischen Worte)
+
 ## Referenzen
 - Primärquelle: [[[Toran_Dur]] - [[Die_Sprache_Run]]](../../Quellen/[[index]]%20Toran%20Dur/Toran%20Dur%20-%20Die%20Sprache%20Run.md)
+- Ergänzende Quellen: *Lexikon des Run.xls*, *Mazzarem Sprache.xls*

@@ -14,14 +14,17 @@ Die **Gohor** sind die ältesten und mächtigsten Entitäten des Universums. Ihr
 
 ## Die Drei Ur-Wesen
 
-### 1. Timanor (Zeit)
-Der "Vater der Zeit". Timanor ist die ewige Konstante, die den Fluss der Ereignisse ermöglicht. Ohne ihn gäbe es kein Vorher und kein Nachher, nur einen ewigen Stillstand.
+### 1. Timanor (Zeit / Vergehen)
+Der "Vater der Zeit" und das Prinzip des **Vergehens**. Timanor ermöglicht den Fluss der Ereignisse, ist aber auch die Kraft, die alles Bestehende schwinden lässt, um Raum für Neues zu schaffen.
 
-### 2. Galamnor (Materie)
-Die "Mutter der Substanz". Galamnor formte die Materie aus dem Nichts. Sie ist der Ursprung aller physischen Existenz, von den fernsten Sternen bis zum kleinsten Sandkorn.
+### 2. Galamnor (Materie / Werden)
+Die "Mutter der Substanz" und das Prinzip des **Werdens**. Galamnor formte die Materie aus dem Nichts und ist der Ursprung aller physischen Schöpfung und Erneuerung.
 
 ### 3. [[Tare]] (Die Welt)
-Das "Drachenkind". **[[Tare]]** ist nicht nur der Name der Welt, auf der wir leben, sondern die spirituelle Manifestation des Kindes von Timanor und Galamnor. Die Welt selbst ist lebendig und beseelt.
+Das "Drachenkind". **[[Tare]]** ist die spirituelle Manifestation des Kindes von Timanor und Galamnor. In der schamanischen Lehre wird Tare als die Sphäre betrachtet, in der Tiergeister wohnen, die Schamanen als Quelle ihrer täglichen Magie dienen.
+
+## Schamanische Lehre: Werden und Vergehen
+Nach schamanischem Verständnis sind die Gohor die ewigen Rahmenbedingungen des Daseins. Sie schufen die Gestirne und die Götter (Sahor & [[Enhor]]), verloren dabei jedoch ihre aktive Gestaltungskraft. Ihr Gesetz ist absolut: Ewiges Leben lässt sich magisch nie endgültig erreichen, da alles dem Kreislauf von Werden (Galamnor) und Vergehen (Timanor) unterliegt.
 
 ## Ihre Rolle im Glauben
 Die Gohor werden selten direkt angebetet, da sie als zu fern und abstrakt gelten. Sie sind die "Götter der Götter". Die meisten Gebete der Sterblichen richten sich an die *Viere (Sahor)*, die als Wächter der Ordnung agieren, oder an die *Elementarherren ([[Enhor]])*, um die Naturgewalten zu besänftigen.
