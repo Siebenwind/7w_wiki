@@ -16,7 +16,7 @@ Der Konflikt begann mit Provokationen im [[Ödland]], woraufhin [[Trolle]] am Fa
 *   Die Angreifer nutzten Schiffe, um Truppen am Orkenpass anzustauen, und umgingen so die ersten Verteidigungslinien.
 *   Schwarzmagier schleusten [[Goblins]] in die Stadt, welche die Mauerwachen überwältigten.
 
-Obwohl Verteidiger aus [[Malthust]], [[Nortraven]], dem [[Löwenorden]] und sogar der [[Ersonter_Garde]] (trotz politischer Spannungen) die Stadt verteidigten, drohte [[Brandenstein]] unter der schieren Masse der Angreifer zu fallen.
+Obwohl Verteidiger aus [[Region_Malthust]], [[Nortraven]], dem [[Löwenorden]] und sogar der [[Graue_Garde]] (trotz politischer Spannungen) die Stadt verteidigten, drohte [[Brandenstein]] unter der schieren Masse der Angreifer zu fallen.
 
 ## Das Ende des Krieges
 Leutnant [[Caiomme]] von der Malthuster Wacht beendete die Belagerung durch eine mutige Verhandlung. Sie ergab sich symbolisch dem Trollanführer, handelte jedoch den Abzug der feindlichen Truppen aus.

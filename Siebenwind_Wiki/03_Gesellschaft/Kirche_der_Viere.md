@@ -10,7 +10,7 @@ author: [[Siebenwind]] Chronicler
 **Epistemischer Status:** #canon
 
 **Kategorie:** Religion
-**Götter:** [[02_Astrael]], 03_Bellum, [[04_Vitama]], [[05_Morsan]]
+**Götter:** [[Astrael]], 03_Bellum, [[Vitama]], [[Morsan]]
 **Verbreitung:** Staatsreligion in Galadon
 
 ## Einleitung
@@ -26,25 +26,25 @@ Gelehrte beschreiben die Gemeinschaft der Geweihten oft als einen **Baum**:
 Trotz dieses Bildes der Einheit herrscht innerhalb der Kirche oft Uneinigkeit über politische oder ethische Fragen, etwa wenn [[Bellum]]-Gläubige auf verschiedenen Seiten eines weltlichen Krieges gegeneinander kämpfen.
 
 ## Die Vier Götter und ihre Orden
-1.  **[[02_Astrael]] (Das Allsehende Auge):**
+1.  **[[Astrael]] (Das Allsehende Auge):**
     *   Aspekt: [[index]], [[index]], Ordnung, Herrschaft.
     *   Orden: "Orden des Allsehenden Auges Astraels".
     *   Anhänger: Gelehrte, Magier, Richter, Herrscher.
     *   Zentrum: Herzogtum [[Region [[Sae]]|Sae]] (Lafay's Stab).
 
-2.  **[[03_Bellum]] (Das Heilige Schwert):**
+2.  **[[Bellum]] (Das Heilige Schwert):**
     *   Aspekt: Kampf, Ehre, Schutz, Kraft.
     *   Orden: "Orden vom Heiligen Schwerte Bellums".
     *   Anhänger: Soldaten, Ritter, Wächter.
     *   Zentrum: Oft in militärischen Provinzen wie [[Region Herder|Herder]] oder [[Region Ersont|Ersont]].
 
-3.  **[[04_Vitama]] (Der Liebliche Kelch):**
+3.  **[[Vitama]] (Der Liebliche Kelch):**
     *   Aspekt: Leben, Heilung, Fruchtbarkeit, Familie.
     *   Orden: "Orden von Vitamas Lieblichen Kelche".
-    *   Anhänger: Heiler, Bauern, Mütter, [[Rasse_Halblinge]].
+    *   Anhänger: Heiler, Bauern, Mütter, [[Halblinge]].
     *   Zentrum: Weit verbreitet, viele Schreine in ländlichen Gegenden.
 
-4.  **[[05_Morsan]] (Der Ruhende Hauch):**
+4.  **[[Morsan]] (Der Ruhende Hauch):**
     *   Aspekt: Tod, Übergang, Ruhe, Frieden (nicht Böse!).
     *   Orden: "Orden vom Ruhenden Hauche Morsans".
     *   Anhänger: Bestatter, Sterbebegleiter, jene die Trost suchen.

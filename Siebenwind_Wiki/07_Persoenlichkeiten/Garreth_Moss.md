@@ -18,4 +18,4 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_154]].md
 *   **18 n.H. (Bote 158):** Ernennung zum **Leiter des Weißen Pfades** an der [[Magierakademie]] (Nachfolger von Kalvaron Dai). Beteiligung an der Abwehr der Untoten bei Kesselklamm.
 
 ---
-**Siehe auch:** [[Caeden_Ecanas]], [[Magie]]
+**Siehe auch:** [[Caeden_Ecanas]], [[Magie_Grundlagen]]

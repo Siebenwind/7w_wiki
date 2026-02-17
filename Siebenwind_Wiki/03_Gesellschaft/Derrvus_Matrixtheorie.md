@@ -14,7 +14,7 @@ Dieses wissenschaftliche Pamphlet von **Doctorius [[Donarius_Derrvus]]** befasst
 ## Die vier Emanationen (Stufen der Kraft)
 Derrvus unterteilt die Wirkkraft der Schöpfung in vier Ebenen absteigender Reinheit:
 1. **Aziluth (Urkraft)**: Der reinste, abstrakte Entwurf der [[Gohor]]. Unfassbar.
-2. **Beriah (Göttliche Kraft)**: Die organisierte Kraft, derer sich die Götter ([[Siebenwind_Wiki/01_Pantheon/Gohor_Haeresie|Demiurgen]]) bedienen.
+2. **Beriah (Göttliche Kraft)**: Die organisierte Kraft, derer sich die Götter ([[Gohor_Haeresie|Demiurgen]]) bedienen.
 3. **Jezirah (Astrale Kraft)**: Die intelligente Kraft, die seit Astraels Augenopfer zur Ausführung des Plans freigesetzt wurde.
 4. **Assiah (Manifestierte Materie)**: Das Ergebnis, die durch [[Elementare]] geformte Wirklichkeit.
 

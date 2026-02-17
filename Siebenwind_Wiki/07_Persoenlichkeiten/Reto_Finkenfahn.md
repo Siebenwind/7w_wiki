@@ -12,7 +12,7 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 **Titel:** Tempelwächter
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Belli]] / [[01_Bellum|Bellum]]
+**Zugehörigkeit:** [[Ordo_Belli]] / [[Bellum|Bellum]]
 
 ## Beschreibung
 **Reto Finkenfahn** ist ein Tempelwächter des [[Bellum]], der im Jahr 21 n.H. in den Berichten über die Verteidigung religiöser Stätten erwähnt wird (Bote 179).
@@ -21,8 +21,8 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 - **Rolle:** Sicherung des Friedens innerhalb geweihter Orte und Schutz der Kleriker.
 
 ## Verlinkte Themen
-- [[01_Bellum]]
+- [[Bellum]]
 - [[Personenregister]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind_Bote_179]]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20179.md)
+- Primärquelle: [[Siebenwind_Bote_179]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20179.md)

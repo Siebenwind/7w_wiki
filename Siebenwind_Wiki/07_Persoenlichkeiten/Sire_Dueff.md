@@ -7,9 +7,9 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_165]].md
 ---
 # Sire Dueff
 
-**Titel:** Ritter / Lehnsherr von [[Suedfall]]
+**Titel:** Ritter / Lehnsherr von [[Südfall]]
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritterschaft_der_Sieben_Winde]] / [[Suedfall]]
+**Zugehörigkeit:** [[Ritterschaft_der_Sieben_Winde]] / [[Südfall]]
 **Zeitraum:** aktiv 19 n.H.
 
 ## Beschreibung
@@ -20,4 +20,4 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_165]].md
 *   **Verwaltung:** In seinem Lehen [[Südfall]] kam es im Jahr 19 n.H. zu unnatürlichen Waldveränderungen (Verderbnis), die er als Ritter und Lehnsherr beobachtet und zu beheben sucht.
 
 ---
-**Siehe auch:** [[Suedfall]], [[Benion_Sandelholz]]
+**Siehe auch:** [[Südfall]], [[Benion_Sandelholz]]

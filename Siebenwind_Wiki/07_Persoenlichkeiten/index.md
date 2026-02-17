@@ -144,7 +144,7 @@ Das [[index]] der Persoenlichkeiten.
 *   [[Donarius_Derrvus|Donarius Derrvus]]
 *   [[Dorion_Hali|Dorion Hali]]
 *   [[Dunvallo_Linari|Dunvallo Linari]]
-*   [[Dur|Dur]]
+*   [[Toran_Dur|Dur]]
 *   [[Edgar_Breitkreuz|Edgar Breitkreuz]]
 *   [[Edomawyr|Edomawyr]]
 *   [[Eichstamm_B|B. Eichstamm]]

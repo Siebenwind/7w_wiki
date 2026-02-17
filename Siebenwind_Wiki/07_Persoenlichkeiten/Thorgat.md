@@ -13,7 +13,7 @@ letzter_check: 2026-02-14T01:20:00
 **Epistemischer Status:** #perspektive
 **Rasse:** [[Dwarschim]] (Bergzwerg)
 **Rang:** Bra'gar (Zwergenwache) / ehemaliger Hauptmann (Festland)
-**Zugehörigkeit:** [[Kesselklamm]] / [[Bragarim]]
+**Zugehörigkeit:** [[Bragarim]] / [[Bragarim]]
 **Zeitraum:** Aktiv um 18-22 n.H. (über 300 Jahre alt)
 
 ## Beschreibung
@@ -31,4 +31,4 @@ Thorgat stammt ursprünglich aus den **Drachenschwingen** auf dem Festland. Er b
 Thorgat ist ein Verfechter der zwergischen Tugenden: Treue, Gehorsam und vor allem Ehre. Er sieht es als seine Pflicht an, den "Jungbärten" ein Vorbild zu sein und ihnen beizubringen, ihr inneres Feuer (**Arkadons Feuer**) durch Disziplin zu zügeln. Er schätzt einen ehrlichen Kampf mehr als politische Intrigen.
 
 ## Quellen
-*   [[[Erinnerungen_eines_alternden_Zwergen]]](../../Quellen/Spielergeschichten/Erinnerungen%20eines%20alternden%20Zwergen%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)
+*   [[Erinnerungen_eines_alternden_Zwergen]](../../Quellen/Spielergeschichten/Erinnerungen%20eines%20alternden%20Zwergen%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)

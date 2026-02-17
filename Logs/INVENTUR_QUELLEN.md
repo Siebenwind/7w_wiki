@@ -60,8 +60,8 @@ Zentrale Inventur für Ingestion-Batches.
 | Terenon Sarophilan - Theorien Åber die Herkunft und das Wirken der Magie.md | Toran Dur | Terenon Sarophilan | Integrated (v2.7) |
 | Thanthul - Schwarze Ritualmagie.md | Toran Dur | Thanthul | Integrated (v2.7) |
 | Themus Takai - Theorem zu den Baumwesen.md | Toran Dur | Themus Takai | Integrated |
-| Toran Dur - Mazzarem Sprache 2.xls | Toran Dur | Toran Dur | Pending |
-| Toran Dur - Mazzaren-Sprache.xls | Toran Dur | Toran Dur | Pending |
+| Toran Dur - Mazzarem Sprache 2.xls | Toran Dur | Toran Dur | Integrated (v2.7) |
+| Toran Dur - Mazzaren-Sprache.xls | Toran Dur | Toran Dur | Integrated (v2.7) |
 
 ## ✅ Integrierte Quellen (Integrated)
 *Siehe [Archiv-Inventur](Archive/INVENTUR_QUELLEN.md) für die vollständige Historie.*

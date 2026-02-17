@@ -8,7 +8,7 @@ category: [[index]]
 
 **Epistemischer Status:** #bote
 **Datum:** 29 n.H. (Bote 189)
-**Ort:** [[Kesselklamm]] (Alte Zwergensiedlung)
+**Ort:** [[Bragarim]] (Alte Zwergensiedlung)
 
 ## Verlauf
 Die [[Ecclesia_Elementorum]] führte eine Expedition zum alten Schrein der Erdenmutter in Kesselklamm durch, um gegen den Erddämon [[Orgolosch]] vorzugehen.

@@ -35,7 +35,7 @@ Vollwertige Mitglieder (ab dem Rang des Fuchses) leisten einen feierlichen Eid b
 - **Fuchs:** Anwärter, die bereits alle Prüfungen bestanden haben und feierlich in die Garde aufgenommen wurden. Sie tragen ein Hemd mit dem Abzeichen der Grauen Garde und eine Robe mit dem Schriftzug „Graue Garde“ auf Run.
 
 ## Philosophie
-Die Garde ist dem König, dem Reich und der Kirche verpflichtet. Sie setzt auf Zusammenarbeit mit der [[Ersonter_Garde]] und anderen Milizen. Während sie den Namen des grauen Pfades trägt, sind auch Weiß- und Elementarmagier willkommen.
+Die Garde ist dem König, dem Reich und der Kirche verpflichtet. Sie setzt auf Zusammenarbeit mit der [[Graue_Garde]] und anderen Milizen. Während sie den Namen des grauen Pfades trägt, sind auch Weiß- und Elementarmagier willkommen.
 
 ---
 **Siehe auch:** [[Ersonter_Bund]], [[Quirian_Grint]], [[Koenigliche_Magierakademie_zu_Siebenwind]]

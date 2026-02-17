@@ -9,7 +9,7 @@ author: "Antigravity"
 
 # Vater Eire
 
-**Vater Eire** ist ein Geistlicher, dem in den [[Siebenwind_Wiki/01_Pantheon/Heilige_Liturgien|Heiligen Liturgien]] für seine Stärke und Geduld gedankt wird.
+**Vater Eire** ist ein Geistlicher, dem in den [[Heilige_Liturgien|Heiligen Liturgien]] für seine Stärke und Geduld gedankt wird.
 
 ## Überlieferung
 * [Heilige Liturgien]

@@ -13,7 +13,7 @@ category: [[index]]
 ## Schlagzeilen
 
 ### Militärputsch in [[Falkensee]]
-Die **[[Ersonter_Garde]]** unter Hauptmann [[Waldemar_Delarie]] und Stellvertreter [[Steinhauer]] erklärte den **[[Ersonter_Rat]]** für abgesetzt (Vorwurf: Hochverrat).
+Die **[[Graue_Garde]]** unter Hauptmann [[Waldemar_Delarie]] und Stellvertreter [[Steinhauer]] erklärte den **[[Ersonter_Rat]]** für abgesetzt (Vorwurf: Hochverrat).
 - **Verlauf:** Die Garde kontrolliert das Schlossviertel. Der Rat (Loyalisten) kontrolliert den Rest der Stadt.
 - **Hintergrund:** Streit um die Befehlsgewalt. Der Rat beansprucht die Vertretung der kranken Burggräfin [[Hannah_Berndorf]]. Die Garde sieht sich nur der Gräfin direkt verpflichtet.
 - **Opfer:** Rätin [[Imea_Ekula]] wurde verhaftet. Ein Gardist tötete einen Kameraden im Streit.
@@ -30,4 +30,4 @@ Die **[[Ersonter_Garde]]** unter Hauptmann [[Waldemar_Delarie]] und Stellvertret
 
 ---
 **Quellen:** [[Siebenwind_Bote_183]] (Original)
-**Siehe auch:** [[Chronik]], [[Putsch_in_Falkensee]], [[Falkensee]]
+**Siehe auch:** [[Die_Chronik]], [[Putsch_in_Falkensee]], [[Falkensee]]

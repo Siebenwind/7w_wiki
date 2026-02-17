@@ -9,7 +9,7 @@ author: "Antigravity"
 
 # Anais
 
-**Anais** ist eine Inquisitorin und Bibliothekarin im Dienste [[Astrael]]s. Sie überwacht die Bestände der heiligen [[index]] zu **[[Brandenstein]]** und verfasste das [[Siebenwind_Wiki/03_Gesellschaft/Bibliothek_Astrael_Regeln|Regulatorium της Bibliothek]].
+**Anais** ist eine Inquisitorin und Bibliothekarin im Dienste [[Astrael]]s. Sie überwacht die Bestände der heiligen [[index]] zu **[[Brandenstein]]** und verfasste das [[Bibliothek_Astrael_Regeln|Regulatorium της Bibliothek]].
 
 ## Überlieferung
 * [Regulatorium der [[index]]]

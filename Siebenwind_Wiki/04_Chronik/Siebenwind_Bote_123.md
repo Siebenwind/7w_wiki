@@ -31,4 +31,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_123]] (Original)
-**Siehe auch:** [[Chronik]], [[Vogelfreierklaerung_Elares_Valjean]], [[Handelsbundturnier_15_nH_Ergebnisse]]
+**Siehe auch:** [[Die_Chronik]], [[Vogelfreierklaerung_Elares_Valjean]], [[Handelsbundturnier_15_nH_Ergebnisse]]

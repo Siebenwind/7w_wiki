@@ -14,7 +14,7 @@ author: [[Siebenwind]] Chronicler
 
 ## Beschreibung
 Ein raues, kaltes Grenzland im Norden. Es wird als rückständig betrachtet.
-*   **Bewohner:** Barbaren, ungezähmte [[Rasse_Orken]],veteranen Soldaten.
+*   **Bewohner:** Barbaren, ungezähmte [[Orken]],veteranen Soldaten.
 *   **Ruf:** "Dumme Prügelknaben", die nicht lesen/schreiben können.
 
 ## Verlinkte Themen

@@ -2,7 +2,7 @@
 layout: wiki_page
 title: Arknor
 category: Persönlichkeit
-quelle: "[[[Sprache_Yerredoni]]]"
+quelle: "[[Sprache_Yerredoni]]"
 status: "#überlieferung"
 ---
 

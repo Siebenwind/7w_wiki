@@ -36,4 +36,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_194]] (Original)
-**Siehe auch:** [[Chronik]], [[Angriff_auf_Brandenstein_36_nH]], [[Rotschuppe]]
+**Siehe auch:** [[Die_Chronik]], [[Angriff_auf_Brandenstein_36_nH]], [[Rotschuppe]]

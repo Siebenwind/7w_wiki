@@ -11,7 +11,7 @@ author: [[Siebenwind]] Chronicler
 
 **Kategorie:** Rasse
 **Vorkommen:** Insel Hügelau (Baronie Gerdenwald)
-**Glaube:** [[04_Vitama]] (Fruchtbarkeit/Leben), Familientraditionen
+**Glaube:** [[Vitama]] (Fruchtbarkeit/Leben), Familientraditionen
 
 ## Einleitung
 Die Halblinge, oft auch liebevoll "Hobbits" genannt, sind das kleinste der zivilisierten Völker. Sie sind bekannt für ihre Friedfertigkeit, ihre Liebe zu gutem Essen, Pfeifenkraut und Gemütlichkeit.
@@ -36,7 +36,7 @@ Ihr Hauptsiedlungsgebiet ist die Insel **Hügelau** (politisch Baronie **Gerdenw
 *   **[[Rasse_Menschen]]:** Sehr gut. Die [[Rasse_Menschen]] Galadons beschützen Hügelau militärisch (Garnison in Hardhaven), dafür versorgen die Halblinge das Reich mit Delikatessen.
 *   **[[Rasse_Zwerge]]:** Werden als Handelspartner akzeptiert (besonders für Werkzeug und Bierfässer).
 *   **[[Rasse_Elfen]]:** Manchmal als "zu ernst" empfunden, aber respektiert.
-*   **[[Rasse_Orken]]:** Werden gefürchtet und gemieden.
+*   **[[Orken]]:** Werden gefürchtet und gemieden.
 
 ## Verlinkte Themen
 *   [[Region Hügelau]]

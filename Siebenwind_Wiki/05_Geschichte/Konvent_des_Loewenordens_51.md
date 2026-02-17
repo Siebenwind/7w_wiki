@@ -18,7 +18,7 @@ Auf dem 51. Konvent wählte der [[Orden_der_Wachenden_Löwen]] eine neue Führun
 - **2. Waffenmeister:** [[Tyrus_Helbas]] (Rückkehr aus dem Ruhestand)
 
 ## Wallpakt
-Der "Wallpakt" wurde besiegelt, ein Freundschaftsvertrag zwischen dem Orden, den [[Dwarschim]] und [[Malthust]] zur Verteidigung gegen den "Einen" ([[Angamon]]). Der Zwerg [[Brogar]] (Bragar krell [[Bragarim]]) wurde als erster **Ehrenlöwe** aufgenommen.
+Der "Wallpakt" wurde besiegelt, ein Freundschaftsvertrag zwischen dem Orden, den [[Dwarschim]] und [[Region_Malthust]] zur Verteidigung gegen den "Einen" ([[Angamon]]). Der Zwerg [[Brogar]] (Bragar krell [[Bragarim]]) wurde als erster **Ehrenlöwe** aufgenommen.
 
 ## Löwenbann
 Der Orden erhielt von der Geweihten [[Lorence]] im Namen von [[Bellum]] das gesegnete Schwert **Löwenbann**.

@@ -2,7 +2,7 @@
 layout: wiki_page
 title: Magica Procella
 category: Persönlichkeit
-quelle: "[[[Arcana_Procella]]]"
+quelle: "[[Arcana_Procella]]"
 status: "#überlieferung"
 ---
 

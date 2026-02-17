@@ -8,7 +8,7 @@ category: [[index]]
 
 **Epistemischer Status:** #bote
 **Datum:** 17 n.H. (Bote 151) und 21 n.H. (Bote 180)
-**Ort:** [[Falkensee]], [[Suedfall]], [[Oedland]]
+**Ort:** [[Falkensee]], [[Südfall]], [[Ödland]]
 **Beteiligte:** [[Custodias]], [[Solice_Aurora]], [[Waldemar_Delarie]], [[Riesenspinnen]], [[Garde]], [[Ordo_Belli]]
 
 ## Krieg gegen den Schwarm (17 n.H.)

@@ -9,7 +9,7 @@ category: Persönlichkeit
 **Epistemischer Status:** #canon
 
 ## Hintergrund
-[[Vencurius]] ist einer der ranghöchsten Priester des Gottes [[08_Ventus]] in [[Brandenstein]] (Malthust). Er gilt als weiser Mentor und ist für seine tiefe Verbindung zu den Elementen bekannt. Er trägt oft seidig-weißes Haar und saphirblaue Augen, die im Dunkeln glimmen.
+[[Vencurius]] ist einer der ranghöchsten Priester des Gottes [[Ventus]] in [[Brandenstein]] (Malthust). Er gilt als weiser Mentor und ist für seine tiefe Verbindung zu den Elementen bekannt. Er trägt oft seidig-weißes Haar und saphirblaue Augen, die im Dunkeln glimmen.
 
 ## Rolle & Aktivitäten
 - **Lehrmeister:** Er war der Mentor von [[Tintin]] (Waljakov) und unterstützte dessen Drang nach Neugier und Entdeckung.

@@ -14,7 +14,7 @@ author: [[Siebenwind]] Chronicler
 **Herrscher:** Baron [[Friedward_von_Gerdenwald]]
 
 ## Beschreibung
-Diese Baronie umfasst die Insel **Hügelau**, die Heimat der **[[Rasse_Halblinge]]**.
+Diese Baronie umfasst die Insel **Hügelau**, die Heimat der **[[Halblinge]]**.
 *   **Besonderheit:** Menschlicher Lehensherr, aber mehrheitlich von Halblingen bewohnt.
 
 ## Wichtige Orte
@@ -23,7 +23,7 @@ Diese Baronie umfasst die Insel **Hügelau**, die Heimat der **[[Rasse_Halblinge
 
 ## Wirtschaft & Kultur
 *   **Luxusgüter:** Tabak, Speisepilze.
-*   **Politik:** Die "Vereinigte Pfeifenschnitzergenossenschaft Dunau" ([[Rasse_Halblinge]]) nimmt sanften Einfluss.
+*   **Politik:** Die "Vereinigte Pfeifenschnitzergenossenschaft Dunau" ([[Halblinge]]) nimmt sanften Einfluss.
 
 ## Verlinkte Themen
 *   [[Rasse Halblinge]]

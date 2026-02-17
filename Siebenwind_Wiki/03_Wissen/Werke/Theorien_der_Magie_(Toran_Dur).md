@@ -11,7 +11,7 @@ Dieser Artikel fasst zwei fortgeschrittene theoretische Abhandlungen von [[Toran
 In dieser Abhandlung schlägt [[Toran_Dur]] ein neues Modell vor, das sowohl klassische Zauberei als auch klerikale Mystik erklärt.
 
 *   **Definition**: [[index]] (im Sinne von Zauberei) ist die Veränderung der Realität durch sterblichen Willen mittels arkaner Kraft. Mystik ist das Wirken durch göttliche Kraft.
-*   **Aspekte (Gefilde)**: [[Dur]] postuliert, dass die [[index]] in verschiedene "Gefilde" oder Aspekte unterteilt ist, die von "königlichen" Häusern (Göttern) regiert werden:
+*   **Aspekte (Gefilde)**: [[Toran_Dur]] postuliert, dass die [[index]] in verschiedene "Gefilde" oder Aspekte unterteilt ist, die von "königlichen" Häusern (Göttern) regiert werden:
     *   **Luft ([[Ventus]])** - Haus Ur'Sialo'Kah
     *   **Feuer ([[Ignis]])** - Haus Ur'Sialo'Fe
     *   **Erde (Terra)** - Haus Ur'Sialo'Ri
@@ -30,4 +30,4 @@ Diese Theorie, entwickelt in Zusammenarbeit mit **[[Rhadamanth]] dem Grauen**, b
 *   **Fixes vs. Flexibles Netz**: Das fixe Netz ist die manifeste Realität (Landschaft), das flexible Netz ist die manipulierbare [[index]].
 *   **[[Elementare]] Ströme**: Elemente folgen Gesetzen der Anziehung (Gleiches zu Gleichem) und Abstoßung. Dies erzeugt gewaltige, unsichtbare Ströme der Elemente über die Insel (z.B. Feuerströme von Vulkanen).
 *   **Bedeutung**: Zauber, die *in* oder *mit* einem Strom gewirkt werden, sind mächtiger oder stabiler.
-*   **[[Tare]]’say (Drachenblut)**: [[Dur]] identifiziert einen weiteren Strom, der vom Dunklen Mond ausgeht und "[[Tare]]’say" genannt wird. Es ist eine lichtempfindliche, korrumpierende Energie, die besonders in der Nacht und unter der Erde fließt und negative Emotionen/Ängste verstärken kann. Es manifestiert sich besonders stark während des Dunkeltiefs.
+*   **[[Tare]]’say (Drachenblut)**: [[Toran_Dur]] identifiziert einen weiteren Strom, der vom Dunklen Mond ausgeht und "[[Tare]]’say" genannt wird. Es ist eine lichtempfindliche, korrumpierende Energie, die besonders in der Nacht und unter der Erde fließt und negative Emotionen/Ängste verstärken kann. Es manifestiert sich besonders stark während des Dunkeltiefs.

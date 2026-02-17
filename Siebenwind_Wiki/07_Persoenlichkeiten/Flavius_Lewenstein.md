@@ -9,7 +9,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_174]].md
 
 **Titel:** Oberst
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Malthust]] / [[Pakt_der_Viereinigkeit]]
+**Zugehörigkeit:** [[Region_Malthust]] / [[Pakt_der_Viereinigkeit]]
 **Zeitraum:** aktiv ab 20 n.H.
 
 ## Beschreibung
@@ -19,4 +19,4 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_174]].md
 *   **Malthuster Landung (20 n.H.):** Er leitete die Landung der Malthuster Truppen und übernahm im Namen des Paktes die Verwaltung von [[Brandenstein]]. In einem Gespräch mit dem [[Siebenwind]]-Boten betonte er das Ziel, den Handel und das Handwerk zu fördern und eine enge Partnerschaft mit den [[Nortraven]] und [[Dwarschim]] einzugehen ([[Siebenwind_Bote_174]]).
 
 ---
-**Siehe auch:** [[Malthust]], [[Pakt_der_Viereinigkeit]], [[Brandenstein]]
+**Siehe auch:** [[Region_Malthust]], [[Pakt_der_Viereinigkeit]], [[Brandenstein]]

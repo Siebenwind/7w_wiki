@@ -61,11 +61,11 @@ Leserrelevante, stark vernetzte Artikel (ohne Index/Register).
 ## 🕰️ Top Ereignisse
 | Ereignis | Links |
 | :--- | :--- |
-| [[Siebenwind_Bote_175]] | 28 |
-| [[Siebenwind_Bote_173]] | 24 |
-| [[Siebenwind_Bote_172]] | 22 |
-| [[Siebenwind_Bote_161]] | 21 |
-| [[Siebenwind_Bote_174]] | 21 |
+| [[Siebenwind Bote 175]] | 28 |
+| [[Siebenwind Bote 173]] | 24 |
+| [[Siebenwind Bote 172]] | 22 |
+| [[Siebenwind Bote 161]] | 21 |
+| [[Siebenwind Bote 174]] | 21 |
 
 ---
 > [!NOTE]

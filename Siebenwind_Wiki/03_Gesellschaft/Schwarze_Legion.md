@@ -29,4 +29,4 @@ Die Legion vertritt das Prinzip "Ehre und Stärke". Sie betrachtet die Viergött
 Die Legion entstand aus fanatischen Anhängern Angamons während der Wirren des Bürgerkriegs. Es gelang ihr in kürzester Zeit, die Truppen der Kirche und des Königs (u.a. die Ersonter Ritter) in vielen Gebieten Vandriens zurückzudrängen.
 
 ## Quellen
-*   [[[Blutschwert]]](../../Quellen/Spielergeschichten/[[Blutschwert]]%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [[Blutschwert]](../../Quellen/Spielergeschichten/[[Blutschwert]]%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)

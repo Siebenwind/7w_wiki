@@ -51,7 +51,7 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Brandensteiner_Reiter]] | Botendienst / Reiterei | [[Brandenstein]] | #bote |
 | [[Pakt_der_Viereinigkeit]] | Militärbündnis | [[Brandenstein]] / [[Falkenwall]] | #bote |
 | [[Ersonter_Bund]] | Politisches Bündnis | [[Ersont]] | #bote |
-| [[Bragarim]] | Militärische Garde ([[Dwarschim]]) | [[Kesselklamm]] | #canon |
+| [[Bragarim]] | Militärische Garde ([[Dwarschim]]) | [[Bragarim]] | #canon |
 | [[Klauenwoelfe]] | Intelligentes Wolfsvolk | Klauenberge | #perspektive |
 | [[Lafays_Stab]] | Weißmagische Schule | Galadon | #perspektive |
 | [[Anstalt_fuer_ozeanische_Thaumaturgie]] | Magieschule (Blau) | Swa | #perspektive |

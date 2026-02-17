@@ -12,7 +12,7 @@ category: [[index]]
 **Teil von:** [[Putsch_in_Falkensee]]
 
 ## Verlauf
-Als Höhepunkt des Putsches griff die [[Ersonter_Garde]] unter Stellvertreter [[Steinhauer]], unterstützt von Orks und Kriminellen aus dem Südviertel, die loyalistischen Kräfte (Rat, [[Löwenorden]], [[Malthust]]) an.
+Als Höhepunkt des Putsches griff die [[Graue_Garde]] unter Stellvertreter [[Steinhauer]], unterstützt von Orks und Kriminellen aus dem Südviertel, die loyalistischen Kräfte (Rat, [[Löwenorden]], [[Region_Malthust]]) an.
 Es kam zu schweren Kämpfen, Explosionen (Sprengtränke) und Angriffen auf den Tempel der Viere.
 
 ## Wende und Ergebnis

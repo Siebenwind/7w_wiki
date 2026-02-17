@@ -34,5 +34,5 @@ Sein Handeln basiert auf dem Grundsatz "Dem König ist zu gehorchen", wobei dies
 *   [[Siebenwind_Bote_121]] (Inquisitionstätigkeit)
 
 ## Quellen
-*   [[[Das_Ende_der_Zeit_der_Koenige]]](../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Ko%CC%88nige%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
-*   [[[Siebenwind_Bote_121]]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20121.md)
+*   [[Das_Ende_der_Zeit_der_Koenige]](../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Ko%CC%88nige%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [[Siebenwind_Bote_121]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20121.md)

@@ -6,9 +6,9 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 # Halvard
 
-**Titel:** Jarl von [[Westhever]] (ehemals)
+**Titel:** Jarl von [[Dunkeltief]] (ehemals)
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Nortraven]] / [[Westhever]]
+**Zugehörigkeit:** [[Nortraven]] / [[Dunkeltief]]
 
 ## Beschreibung
 **Halvard** war lange Zeit der Jarl der [[Nortraven]] von Westhever.
@@ -16,4 +16,4 @@ category: [[Persoenlichkeiten_Uebersicht]]
 - **30 n.H. (Bote 192):** Während der Schlacht am [[Falkenwall]] gegen die Echsenhorden Akassvaes kämpfte er an vorderster Front auf der Brücke und demonstrierte durch seine Schlachtrufe und seinen Mut unermüdliche Entschlossenheit beim Schutz des Grünlandes.
 
 ---
-**Siehe auch:** [[Nortraven]], [[Westhever]]
+**Siehe auch:** [[Nortraven]], [[Dunkeltief]]

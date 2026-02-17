@@ -15,9 +15,9 @@ Der Text **"Nachts im Brandensteiner Tempel"** beschreibt ein nächtliches Schut
 ## Handlung
 
 Zur Vorbereitung auf das [[Dunkeltief]] ("die dunkle Zeit") weiht der Protagonist Erde mit Symbolen ("Siegel der **[[Horwah]]**") und eigenem Blut. Er reflektiert über die Rolle seines Ordens im Vergleich zu den anderen Aspekten der Viere:
-*   **[[02_Astrael|Astraeli]]**: Verloren in Büchern.
+*   **[[Astrael|Astraeli]]**: Verloren in Büchern.
 *   **[[01_Vitama|Vitami]]**: Genusssüchtig und auf Titel wie "Mutter/Vater" bedacht.
-*   **[[01_Bellum|Bellisten]]**: Blind vor Kampfeslust.
+*   **[[Bellum|Bellisten]]**: Blind vor Kampfeslust.
 *   **[[Morsan]]-Diener**: Diejenigen, die im Hintergrund "aufräumen" (Schmerzmittel geben, Essen bringen, Blutflecken entfernen).
 
 ### Das Ritual

@@ -23,7 +23,7 @@ category: [[index]]
 ## Die Hitze treibt die Ratten aus ihren Löchern
 **Persona:** [[G.K.]].
 **Thema:** Kriminalität.
-**Inhalt:** Warnung vor zwielichtigem Gesindel und falschen Steuereintreibern, die vom [[Lehens_Banner]] abgeführt wurden.
+**Inhalt:** Warnung vor zwielichtigem Gesindel und falschen Steuereintreibern, die vom [[Lehensbanner]] abgeführt wurden.
 **Autor:** *G.K.*
 
 ## Stellenausschreiben der Hofschneiderei

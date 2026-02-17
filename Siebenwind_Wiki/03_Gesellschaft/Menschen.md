@@ -15,14 +15,14 @@ author: [[Siebenwind]] Chronicler
 **Religion:** [[Kirche_der_Viere]] (Viereinigkeit)
 
 ## Einleitung
-Die Menschen sind die dominierende und zahlenmäßig stärkste Rasse auf Falandrien. Ihr Reich, Galadon, erstreckt sich über weite Teile des Kontinents und ist geprägt von einer strengen feudalen Ordnung, tiefem Glauben an die vier guten Götter und einer langen, wechselvollen [[Chronik]].
+Die Menschen sind die dominierende und zahlenmäßig stärkste Rasse auf Falandrien. Ihr Reich, Galadon, erstreckt sich über weite Teile des Kontinents und ist geprägt von einer strengen feudalen Ordnung, tiefem Glauben an die vier guten Götter und einer langen, wechselvollen [[Die_Chronik]].
 
-## Ursprung und [[Chronik]]
-Die Menschen blicken auf eine über 5000-jährige [[Chronik]] zurück, die von Kriegen, Aufstiegen und Fällen geprägt ist. Ein prägendes Ereignis waren die **Amulettkriege**, in denen sie gegen die dunklen Mächte ([[Rasse_Myten]] unter Angamons Einfluss) kämpften.
+## Ursprung und [[Die_Chronik]]
+Die Menschen blicken auf eine über 5000-jährige [[Die_Chronik]] zurück, die von Kriegen, Aufstiegen und Fällen geprägt ist. Ein prägendes Ereignis waren die **Amulettkriege**, in denen sie gegen die dunklen Mächte ([[Rasse_Myten]] unter Angamons Einfluss) kämpften.
 Die Gründung des Großreiches Galadon unter König Hilgorad XIII. ap Mer vereinte die ehemals getrennten Königreiche Galadon und Heredon.
 
-## [[Chronik]] und Adel
-Die menschliche [[Chronik]] ist streng hierarchisch gegliedert (Feudalismus).
+## [[Die_Chronik]] und Adel
+Die menschliche [[Die_Chronik]] ist streng hierarchisch gegliedert (Feudalismus).
 *   **Der König:** An der Spitze steht der Großkönig (derzeit [[Hilgorad_I_ap_Mer]]).
 *   **Hochadel:** Herzöge (Verwandte des Königs) und Fürsten (ehemalige Königslinien).
 *   **Blutsadel:** Grafen und Barone, deren Titel vererbbar sind und auf alten Landschenkungen beruhen.
@@ -37,20 +37,20 @@ Der Glaube durchdringt das tägliche Leben in Galadon. Die Menschen verehren die
 *   **[[Morsan]]:** Gott des Todes, der Ruhe und des Übergangs (wird als notwendiger Teil des Zyklus verehrt, nicht als böse).
 *   **[[Ignis]], [[Rien]], [[Ventus]], [[Xan]]:** Werden oft als Aspekte oder wichtige begleitende Mächte (Elementarherren) verehrt.
 
-## [[Chronik]] und Kultur
+## [[Die_Chronik]] und Kultur
 Das Reich Galadon ist in zahlreiche **Lehen** unterteilt, die jeweils eigene kulturelle Eigenheiten haben:
 *   **Bernstein:** Das Herz des Reiches mit der Hauptstadt **[[Draconis]]**.
 *   **Herder & Ersont:** Militärisch geprägte Provinzen, die das Rückgrat der Armee bilden.
 *   **Wallenburg:** Bekannt für Reichtum, Edelsteine und Goldschmiedekunst.
 *   **Tiefenwald:** Waldreiche Region mit enger Bindung zu [[Rasse_Elfen]].
-*   **Ravel:** Wildes Grenzland, Heimat vieler [[Rasse_Orken]] und harter Grenzer.
+*   **Ravel:** Wildes Grenzland, Heimat vieler [[Orken]] und harter Grenzer.
 *   **[[Sae]]:** Zentrum der Gelehrsamkeit und [[index]] ("Lafay's Stab").
 
 ## Beziehungen zu anderen Völkern
 *   **[[Rasse_Zwerge]]:** Enge Handelsbeziehungen und gegenseitiger Respekt, besonders im Handwerk und Bergbau.
 *   **[[Rasse_Elfen]]:** Bewunderung gemischt mit Unverständnis. Hochelfen leben oft in menschlichen Städten (z.B. Librasulus), während Waldelfen zurückgezogener leben.
-*   **[[Rasse_Halblinge]]:** Werden als gemütliche, aber nützliche Nachbarn gesehen (Baronie Gerdenwald auf Hügelau).
-*   **[[Rasse_Orken]]:** Feindschaft. Besonders in den Grenzlanden (Ravel, Khalandra) herrscht Kriegszustand.
+*   **[[Halblinge]]:** Werden als gemütliche, aber nützliche Nachbarn gesehen (Baronie Gerdenwald auf Hügelau).
+*   **[[Orken]]:** Feindschaft. Besonders in den Grenzlanden (Ravel, Khalandra) herrscht Kriegszustand.
 *   **[[Rasse_Myten]]:** Furcht und Aberglaube. Oft als "[[Seelenfresser]]" gefürchtet.
 
 ## Verlinkte Themen

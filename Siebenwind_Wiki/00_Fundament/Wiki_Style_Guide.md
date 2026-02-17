@@ -29,5 +29,5 @@ Jede Seite sollte Frontmatter mit mindestens folgenden Feldern enthalten:
 
 Verbindliche Prozess- und Board-Standards:
 
-- [[System/Synapse_Board/SY_STANDARDS|SY_STANDARDS]]
-- [[System/COORDINATION_HUB|COORDINATION_HUB]]
+- [[SY_STANDARDS|SY_STANDARDS]]
+- [[COORDINATION_HUB|COORDINATION_HUB]]

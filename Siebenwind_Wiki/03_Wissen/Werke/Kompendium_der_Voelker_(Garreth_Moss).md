@@ -16,7 +16,7 @@ Dieses Werk bietet eine subjektive, aber detaillierte Beschreibung der auf [[Sie
 
 ### 1. [[Menschen]] & [[Nortraven]]
 *   **[[Menschen]]:** Die dominierende Rasse, vielseitig und anpassungsfähig. Sie leben in den großen Städten ([[Rohehafen]], [[Tiefenbach]], [[Finsterwangen]], [[Brandenstein]]). Moss betont ihre diplomatische Begabung und militärische Stärke durch Vielfalt.
-*   **[[Nortraven]]:** Eine "Unterart" der [[Menschen]], größer und kräftiger. Leben in [[Westhever]]. Bekannt für Schiffsbau ("Nordwind"), Körperbemalungen und eine Abneigung gegen [[index]] (außer Schamanismus). Glauben an [[Thjarek]] (Kraft) und [[Eydis]] (Natur).
+*   **[[Nortraven]]:** Eine "Unterart" der [[Menschen]], größer und kräftiger. Leben in [[Dunkeltief]]. Bekannt für Schiffsbau ("Nordwind"), Körperbemalungen und eine Abneigung gegen [[index]] (außer Schamanismus). Glauben an [[Thjarek]] (Kraft) und [[Eydis]] (Natur).
 
 ### 2. Die [[Elfen]]
 *   **Auenelfen:** Leben in [[Avindrell]] (Mittlerer Westen). Zierlich, etwas wild ("animalisch"). Alle beherrschen [[index]]. Stark im Fernkampf (Kampftänzer) und Handwerk. Misstrauisch gegenüber Gästen.

@@ -24,4 +24,4 @@ Obwohl die Rasse der Alten Drachen verschwunden ist, gibt es auch heute noch Dra
 - **Verhalten:** Heutige Drachen gelten als eigenbrötlerisch und hochgefährlich, wobei Berichte über Sichtungen selten sind und meist mit großer Zerstörung einhergehen.
 
 ---
-**Siehe auch:** [[Bestiarium_Register]], [[Riesen]], [[Chronik]]
+**Siehe auch:** [[Bestiarium_Register]], [[Riesen]], [[Die_Chronik]]

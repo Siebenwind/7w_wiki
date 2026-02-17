@@ -16,4 +16,4 @@ category: [[Persoenlichkeiten_Uebersicht]]
 Ihre Texte sind oft mit feinen elbischen Zügen unterschrieben, was auf eine tiefe Verbindung zum Volk der [[Elfen]] hindeutet, insbesondere da sie deren intuitive [[index]] als Beweis für ihre Thesen heranzieht.
 
 ---
-**Siehe auch:** [[Sphaerenkunde_Kosmologie]], [[Magie]]
+**Siehe auch:** [[Sphaerenkunde_Kosmologie]], [[Magie_Grundlagen]]

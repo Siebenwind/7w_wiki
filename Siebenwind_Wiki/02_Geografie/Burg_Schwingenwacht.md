@@ -16,7 +16,7 @@ letzter_check: 2026-02-13T15:05:00+01:00
 
 Die Burg war im Laufe der Jahre Schauplatz zahlreicher politischer und mystischer Ereignisse:
 
-*   **Der Waffenrat:** Auf Initiative vonseiner Magnifizenz [[Dur]] wurde auf Schwingenwacht ein großer Waffenrat einberufen, um das Vorgehen gegen die [[Terra_Dorotor]] (Verräter-[[Zwerge]]) zu planen. Zahlreiche verdiente [[Persoenlichkeiten_Uebersicht]] der Insel trafen hier zusammen ([[Siebenwind_Bote_175]]).
+*   **Der Waffenrat:** Auf Initiative vonseiner Magnifizenz [[Toran_Dur]] wurde auf Schwingenwacht ein großer Waffenrat einberufen, um das Vorgehen gegen die [[Terra_Dorotor]] (Verräter-[[Zwerge]]) zu planen. Zahlreiche verdiente [[Persoenlichkeiten_Uebersicht]] der Insel trafen hier zusammen ([[Siebenwind_Bote_175]]).
 *   **Das Verschwinden von Sire [[Laske]]:** Die Burg war der Ort, an dem der Dämon, bekannt als „der Blinde Maler“, zum ersten Mal aktiv in Erscheinung trat. Er entführte Sire [[Laske]], den Hochmeister des Falkenordens, direkt aus der Gegenwart der Freifrau [[Nhergas]] ([[Siebenwind_Bote_175]]).
 *   **Belagerung im [[Dunkeltief]]:** Während des Dunkeltiefs war die Burg heftigen Angriffen ausgesetzt, unter anderem durch [[Harpyien]], die Verteidiger von den Zinnen rissen. Ein Bericht des Soldaten [[Vladimir_Kherbal]] zeugt von der harten Verteidigung und der klirrenden Kälte dieser Tage.
 

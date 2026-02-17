@@ -27,4 +27,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_125]] (Original)
-**Siehe auch:** [[Chronik]]
+**Siehe auch:** [[Die_Chronik]]

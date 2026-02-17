@@ -39,4 +39,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_130]] (Original)
-**Siehe auch:** [[Chronik]], [[Handelsbund]], [[Greifenklipp]], [[Falkensee]]
+**Siehe auch:** [[Die_Chronik]], [[Handelsbund]], [[Greifenklipp]], [[Falkensee]]

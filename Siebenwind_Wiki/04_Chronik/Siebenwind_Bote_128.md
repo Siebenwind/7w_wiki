@@ -30,4 +30,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_128]] (Original)
-**Siehe auch:** [[Chronik]], [[Falkensee]], [[Baronsgarde]]
+**Siehe auch:** [[Die_Chronik]], [[Falkensee]], [[Baronsgarde]]

@@ -21,4 +21,4 @@ Henricus Decredon Catae ist der Abt des Klosters Lichtenfeld und Prätor der gle
 Henricus ist für die Koordination der Agenten auf [[Siebenwind]] mitverantwortlich. Er entsandte bereits im Jahre 13 n.H. Novizen wie [[Calmexistus_Salanus]] auf das Eiland und hält über verschlüsselte Briefwechsel Kontakt zu seinen Untergebenen, um die Sicherung religiöser Schriften voranzutreiben.
 
 ## Quellen
-*   [[[Das_Ende_der_Zeit_der_Koenige]]](../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Ko%CC%88nige%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [[Das_Ende_der_Zeit_der_Koenige]](../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Ko%CC%88nige%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)

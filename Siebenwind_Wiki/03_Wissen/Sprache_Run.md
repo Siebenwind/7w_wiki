@@ -63,5 +63,5 @@ In den Archiven von [[Toran_Dur]] finden sich umfassende Wortlisten und Wörterb
 - *Mazzarem-Sprache* (Lexikon der magischen Worte)
 
 ## Referenzen
-- Primärquelle: [[[Toran_Dur]] - [[Die_Sprache_Run]]](../../Quellen/[[index]]%20Toran%20Dur/Toran%20Dur%20-%20Die%20Sprache%20Run.md)
+- Primärquelle: [[Toran_Dur]] - [[Die_Sprache_Run]](../../Quellen/[[index]]%20Toran%20Dur/Toran%20Dur%20-%20Die%20Sprache%20Run.md)
 - Ergänzende Quellen: *Lexikon des Run.xls*, *Mazzarem Sprache.xls*

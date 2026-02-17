@@ -15,7 +15,7 @@ author: [[Siebenwind]] Chronicler
 
 ## Beschreibung
 Ein kleines, aber bedeutendes Herzogtum. Es gilt als heiliger Boden, da hier die "Träne Angamons" fiel, die den Amulettkrieg beendete.
-*   **Lafay's Stab:** Die Stadt ist um den riesigen Stab des [[02_Astrael]]-Priesters Lafay gebaut. Sie ist das Zentrum für Forschung, [[index]] und [[index]].
+*   **Lafay's Stab:** Die Stadt ist um den riesigen Stab des [[Astrael]]-Priesters Lafay gebaut. Sie ist das Zentrum für Forschung, [[index]] und [[index]].
 
 ## Wirtschaft & Kultur
 *   **Technologie:** Hier wurde der Kachelofen erfunden.

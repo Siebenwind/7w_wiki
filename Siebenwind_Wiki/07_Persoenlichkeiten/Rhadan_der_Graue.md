@@ -17,4 +17,4 @@ quelle: [[Rituallehre_Sphaeren]]
 Er lehrte am historischen Turm zu [[Tiefenbach]] und prägte Generationen von Graumagiern in der Kunst, das Geflecht des Seienden zu manipulieren, ohne dabei der Korruption des Namenlosen zu verfallen.
 
 ---
-**Siehe auch:** [[Rituallehre_Sphaeren]], [[Magie]]
+**Siehe auch:** [[Rituallehre_Sphaeren]], [[Magie_Grundlagen]]

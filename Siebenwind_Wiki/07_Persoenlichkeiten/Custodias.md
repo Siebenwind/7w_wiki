@@ -6,13 +6,13 @@ category: Persönlichkeit
 
 # Custodias
 
-**Titel:** Hochgeweihter des [[02_Astrael]], Hüter des Rechts, ehem. Abt
+**Titel:** Hochgeweihter des [[Astrael]], Hüter des Rechts, ehem. Abt
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Kirche des [[02_Astrael]] / Ersonter Rat
+**Zugehörigkeit:** Kirche des [[Astrael]] / Ersonter Rat
 **Zeitraum:** Aktiv (Hüter des Rechts seit 21 n.H.)
 
 ## Beschreibung
-Custodias ist eine der einflussreichsten geistlichen und politischen Figuren in [[Falkensee]]. Als Hochgeweihter des [[02_Astrael]] und "Hüter des Rechts" verbindet er göttliche Weisheit mit weltlicher Rechtsprechung. Er ist bekannt für seinen scharfen Verstand, aber auch für seine Verwicklung in die harten politischen Machtkämpfe des Ersonter Bundes.
+Custodias ist eine der einflussreichsten geistlichen und politischen Figuren in [[Falkensee]]. Als Hochgeweihter des [[Astrael]] und "Hüter des Rechts" verbindet er göttliche Weisheit mit weltlicher Rechtsprechung. Er ist bekannt für seinen scharfen Verstand, aber auch für seine Verwicklung in die harten politischen Machtkämpfe des Ersonter Bundes.
 
 ## Karriere & Timeline
 - **15 n.H. (Bote 123):** Wirkt als Geweihter in [[Falkensee]], unterstützt das königliche Gericht.
@@ -23,7 +23,7 @@ Custodias ist eine der einflussreichsten geistlichen und politischen Figuren in 
 - **21 n.H. (6. Triar, Bote 181):** Ernennung zum **Hüter des Rechts** durch Rätin Aurora während der Ersonter Hofhaltung.
 - **21 n.H. (Bote 183/184):** [[Der_Putsch_von_Falkensee]]: Custodias gerät ins Visier der Ersonter Garde (Hauptmann Delarie/[[Steinhauer]]), die ihn des Hochverrats beschuldigt. Er tritt auf Druck von Malthust kurzzeitig zurück, wird aber im neuen Rat unter Aurora bestätigt.
 - **22 n.H. (Bote 185):** Übernimmt erneut das Amt des **Calators** (Nachfolge von Galdiell).
-- **22 n.H. (Bote 186):** Custodias weiht den Novizen [[Ionas]] zum [[02_Astrael]]-Geweihten.
+- **22 n.H. (Bote 186):** Custodias weiht den Novizen [[Ionas]] zum [[Astrael]]-Geweihten.
 - **~30 n.H. (Bote 193):** Vertretung der Baronie in Verhandlungen mit dem Lindwurm [[Akassvae]] unter Nutzung des "Pergaments Astraels".
 
 ## Wirken

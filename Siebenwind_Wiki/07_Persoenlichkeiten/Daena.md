@@ -14,7 +14,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_154]].md
 
 ## Beschreibung
 **Maga Daena** ist eine Magierin der Königlichen Akademie zu [[Siebenwind]].
-*   **18 n.H. (Bote 154):** Sie arbeitete an der Austreibung eines Geistes, der den Turm der Akademie in [[Suedfall]] während des Dunkeltiefs heimsuchte.
+*   **18 n.H. (Bote 154):** Sie arbeitete an der Austreibung eines Geistes, der den Turm der Akademie in [[Südfall]] während des Dunkeltiefs heimsuchte.
 
 ---
-**Siehe auch:** [[Magie]], [[Suedfall]]
+**Siehe auch:** [[Magie_Grundlagen]], [[Südfall]]

@@ -16,7 +16,7 @@ letzter_check: 2026-02-13T02:15:00+01:00
 *   **Die Seuche:** Eine dämonische Krankheit (Verformungen, Übelkeit) befiel die Insel. Sie wurde durch eine heilige Quelle und alchemistische Unterstützung geheilt.
 *   **Krieg im Untergrund:** Ein Angriff der Kirche und Recken auf die Katakomben von [[Tiefenbach]] scheiterte. Ein Dämon tötete daraufhin **[[Herr_Merik]]** vor dem Tempel.
 *   **Anschlag auf Gropp:** Leutnant **[[Gropp]]** überlebte knapp ein Attentat mit zwei Armbrustbolzen auf dem Marktplatz von [[Falkensee]].
-*   **Piratenplage:** Brutale Piratenüberfälle auf [[Malthust]] (Festland/Vandrien). Verdacht auf Verwicklung des Grafen von [[Papin]].
+*   **Piratenplage:** Brutale Piratenüberfälle auf [[Region_Malthust]] (Festland/Vandrien). Verdacht auf Verwicklung des Grafen von [[Papin]].
 
 ## Lokales
 *   **Kriminalitsat:** Die Bande "Die Rosen" und Wegelagerer treiben ihr Unwesen.

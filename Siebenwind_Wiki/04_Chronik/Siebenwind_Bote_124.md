@@ -32,4 +32,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_124]] (Original)
-**Siehe auch:** [[Chronik]], [[Erhebung_Kaspar_Brandner]], [[Urteil_gegen_Valjean_und_Hael]]
+**Siehe auch:** [[Die_Chronik]], [[Erhebung_Kaspar_Brandner]], [[Urteil_gegen_Valjean_und_Hael]]

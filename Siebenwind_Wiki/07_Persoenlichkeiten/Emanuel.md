@@ -18,7 +18,7 @@ Emanuel war ein loyaler Soldat, der oft an der Seite von **[[Sorania]]** kämpft
 ## Schicksal: Der Fall am Wall
 - **Gefangenschaft:** Gemeinsam mit [[Sorania]] wurde er jenseits des Walls verschleppt und im Semaphor zur Schau gestellt und gefoltert.
 - **Der Tod:** Emanuel weigerte sich bis zuletzt, den "Einen" zu dienen ("Lieber sterbe ich tausend Tode..."). Er wurde schließlich von der korrumpierten [[Sorania]] mit einem Dolch getötet.
-- **Nachspiel:** Sein Körper wurde kurzzeitig als Untoter belebt, dann aber von einem [[05_Morsan]]-Geweihten (Gnaden Maltheos?) rituell verbrannt, um seine Seele zu befreien.
+- **Nachspiel:** Sein Körper wurde kurzzeitig als Untoter belebt, dann aber von einem [[Morsan]]-Geweihten (Gnaden Maltheos?) rituell verbrannt, um seine Seele zu befreien.
 
 ## Lore-Bedeutung
 Emanuels heroisches Ende und Soranias Verrat markieren einen Wendepunkt in den Grenzkriegen und führten zu einer verstärkten Rekrutierungswelle für den [[Orden_der_Wachenden_Loewen]].

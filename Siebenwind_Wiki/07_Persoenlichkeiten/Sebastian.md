@@ -9,7 +9,7 @@ author: "Antigravity"
 
 # Bruder Sebastian
 
-**Bruder Sebastian** ist ein Mitglied des [[Astrael]]-Ordens, der in den [[Siebenwind_Wiki/01_Pantheon/Heilige_Liturgien|Heiligen Liturgien]] für sein Vertrauen erwähnt wird.
+**Bruder Sebastian** ist ein Mitglied des [[Astrael]]-Ordens, der in den [[Heilige_Liturgien|Heiligen Liturgien]] für sein Vertrauen erwähnt wird.
 
 ## Überlieferung
 * [Heilige Liturgien]

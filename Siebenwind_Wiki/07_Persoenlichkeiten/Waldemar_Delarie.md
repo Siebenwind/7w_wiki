@@ -28,7 +28,7 @@ confidence: Certain
 ## Wirken & Vermächtnis
 - **Infrastruktur:** Er forcierte den strategisch wichtigen Bau der befestigten Straße nach [[Südfall]].
 - **Propaganda:** Er fungierte als Herausgeber der "Ersonter Postille", eines Propagandablattes des Bundes, das später aufgrund "aufwiegelnder Tendenzen" verboten wurde.
-- **Diplomatie:** Trotz seiner Härte bewies er diplomatisches Geschick bei der Sicherung des Friedens mit den [[Rasse_Orken]], was die Nordgrenze Falkensees stabilisierte.
+- **Diplomatie:** Trotz seiner Härte bewies er diplomatisches Geschick bei der Sicherung des Friedens mit den [[Orken]], was die Nordgrenze Falkensees stabilisierte.
 
 ## Konflikte
 Seine tiefste Abneigung galt dem Hochgeweihten **[[Custodias]]**. Delarie sah in der religiösen Einmischung in militärische Belange eine Gefahr für die Effektivität der Garde und beschuldigte [[Custodias]] wiederholt der Ketzerei und des Hochverrats — Anschuldigungen, die letztlich zu seinem eigenen politischen Fall beitrugen.

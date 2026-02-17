@@ -6,12 +6,12 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 # Ionas
 
-**Titel:** Geweihter des [[02_Astrael]] / Chefredakteur (kommissarisch)
+**Titel:** Geweihter des [[Astrael]] / Chefredakteur (kommissarisch)
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Astrael]] / [[Siebenwind_Bote]]
+**Zugehörigkeit:** [[Ordo_Astrael]] / [[Die_Chronik]]
 
 ## 📜 Beschreibung
-**Ionas** ist eine stille, aber unverzichtbare Kraft im geistigen Leben von [[Falkensee]]. Als Geweihter des [[02_Astrael|Astrael]] und zeitweiliger Chefredakteur des [[Siebenwind_Bote]]n verkörpert er die delikate Balance zwischen sakraler Pflicht und weltlicher Berichterstattung.
+**Ionas** ist eine stille, aber unverzichtbare Kraft im geistigen Leben von [[Falkensee]]. Als Geweihter des [[Astrael|Astrael]] und zeitweiliger Chefredakteur des [[Die_Chronik]]n verkörpert er die delikate Balance zwischen sakraler Pflicht und weltlicher Berichterstattung.
 
 Er ist kein Mann der lauten Worte oder großen Gesten. Man kennt ihn eher als die Gestalt, die bis spät in die Nacht im Schein einer flackernden Talglampe sitzt, umgeben von Pergamentstapeln und Tintenfässern, ringend um die präzise Formulierung, die der Wahrheit dient. Seine Hände sind oft von Tinte befleckt, sein Blick stets wachsam und prüfend, als suche er in jedem Gespräch nach dem verborgenen Kern.
 
@@ -35,4 +35,4 @@ Ein Beispiel für seinen investigativen [[Geist]] ist die Lösung des Rätsels u
 > — Leitspruch in der Redaktion.
 
 ---
-**Siehe auch:** [[Ordo_Astrael]], [[Siebenwind_Bote]], [[Custodias]], [[Alricio_Romero_di_Madjani]]
+**Siehe auch:** [[Ordo_Astrael]], [[Die_Chronik]], [[Custodias]], [[Alricio_Romero_di_Madjani]]

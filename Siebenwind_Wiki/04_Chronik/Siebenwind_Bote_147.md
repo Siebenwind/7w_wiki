@@ -21,7 +21,7 @@ Diese Sonderausgabe berichtet vom Angriff der königlichen Marine auf die Insel,
 *   **Bombardement:** Die Marine bombardierte [[Falkensee]] und [[Südfall]], vermutlich um den [[Magierturm]] zu treffen.
 
 ## Interne Sicherheit
-*   **Orkenaufstand:** Der Aufstand der [[Rasse_Orken]] wurde niedergeschlagen.
+*   **Orkenaufstand:** Der Aufstand der [[Orken]] wurde niedergeschlagen.
 *   **Razzia:** Leutnant **[[Gropp]]** und Obergefreiter **[[Winzlig]]** führten eine Razzia in der Taverne **[[Seiltaenzer]]** durch. Es wurden große Mengen Nachtschatten und Gifte gefunden.
 
 ## Mysterien

@@ -21,11 +21,11 @@ Der **Erlass des Königs** (auch bekannt als das Ende der Kronmark) war ein weit
     *   Das **Königliche Gericht** und der **[[Inselrat]]** wurden aufgelöst.
     *   [[Falkensee]] verlor den Status als Hauptstadt der Kronmark.
 3.  **Neuverteilung des Landes:**
-    *   **[[Ersonter_Bund]] (Grafschaft Ersont):** Erhielt [[Falkensee]], [[Suedfall]] und das umliegende Grünland als Lehen.
+    *   **[[Ersonter_Bund]] (Grafschaft Ersont):** Erhielt [[Falkensee]], [[Südfall]] und das umliegende Grünland als Lehen.
     *   **[[Fürstentum_Malthust]] ([[Pakt_der_Viereinigkeit]]):** Erhielt [[Brandenstein]] (gleichzeitig zum Stadtrecht erhoben) und Umland als Lehen.
-    *   **Autonome Gebiete:** [[Nortraven]] ([[Greifenklipp]]), [[Dwarschim]] ([[Kesselklamm]]), [[Elfen]] ([[Avindhrell]]) und [[Hobbits]] ([[Dunquell]]) erhielten ihre Siedlungen als eigene Hoheitsgebiete.
+    *   **Autonome Gebiete:** [[Nortraven]] ([[Greifenklipp]]), [[Dwarschim]] ([[Bragarim]]), [[Elfen]] ([[Avindhrell]]) und [[Hobbits]] ([[Dunquell]]) erhielten ihre Siedlungen als eigene Hoheitsgebiete.
     *   **[[Orken]]:** Erhielten das Gebiet südlich des Walls als Hoheitsgebiet.
-    *   **Niemandsland:** Die Lande östlich des Walls ([[Oedland]]) wurden zu Niemandsland erklärt.
+    *   **Niemandsland:** Die Lande östlich des Walls ([[Ödland]]) wurden zu Niemandsland erklärt.
 4.  **Königliches Restgebiet:**
     *   Die [[Feste_Seeberg]] wurde zum königlichen Gebiet erklärt.
     *   Die [[Ritter_der_Sieben_Winde]] und das [[XIII_Kronregiment]] bezogen dort Stellung und unterstehen direkt der Krone.
@@ -35,4 +35,4 @@ Der **Erlass des Königs** (auch bekannt als das Ende der Kronmark) war ein weit
 Der Erlass führte zu großer Verunsicherung in der Bevölkerung, markierte aber auch den Beginn des gezielten Wiederaufbaus durch den [[Ersonter_Bund]] und den [[Pakt_der_Viereinigkeit]]. Die [[Ritterschaft_der_Sieben_Winde]] verlor ihre politische Vormachtstellung und konzentriert sich seither auf den Grenzschutz in [[Seeberg]].
 
 ---
-**Siehe auch:** [[Geschichte]], [[Kronmark]], [[Ersonter_Bund]], [[Malthust]], [[Feste_Seeberg]]
+**Siehe auch:** [[Geschichte]], [[Kronmark]], [[Ersonter_Bund]], [[Region_Malthust]], [[Feste_Seeberg]]

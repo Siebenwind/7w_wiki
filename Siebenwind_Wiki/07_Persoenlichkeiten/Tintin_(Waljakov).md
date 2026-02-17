@@ -33,4 +33,4 @@ Während der Reise litt Tintin unter extremer Einsamkeit, die er durch Gespräch
 *   [[Vencurius]] (Sein Mentor, der versuchte, ihn magisch zu suchen)
 
 ## Quellen
-*   [[[Der_Flug_der_Ente]]](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)
+*   [[Der_Flug_der_Ente]](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)

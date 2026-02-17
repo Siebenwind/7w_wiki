@@ -8,11 +8,11 @@ category: Persönlichkeit
 
 **Titel:** Erzgeweihter Vitamas, ehem. Vater Benion
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Kirche der [[04_Vitama]] / Orden der Tränen
+**Zugehörigkeit:** Kirche der [[Vitama]] / Orden der Tränen
 **Zeitraum:** Aktiv (Erhebung zum Erzgeweihten 20 n.H.)
 
 ## Beschreibung
-Benion Sandelholz ist der ranghöchste Diener der Göttin [[04_Vitama]] auf [[Siebenwind]]. Er ist bekannt für seine Milde, seine Heilkunst und sein Bestreben, das Leben in all seinen Formen zu schützen.
+Benion Sandelholz ist der ranghöchste Diener der Göttin [[Vitama]] auf [[Siebenwind]]. Er ist bekannt für seine Milde, seine Heilkunst und sein Bestreben, das Leben in all seinen Formen zu schützen.
 
 ## Karriere & Timeline
 - **16 n.H. (Bote 145):** Bekannt als "Vater Benion", Organisator von Schönheitswettbewerben und Messen zu Ehren Vitamas.

@@ -24,7 +24,7 @@ Die Verfassung regelt die Standeshierarchie und die Souveränität der Krone.
 
 Regelt die Ahndung von Untaten auf königlichem Grund.
 *   **Kapitalverbrechen:** Mord, Hochverrat, Aufruhr und Angriffe auf die Obrigkeit. Strafen reichen von 80 Zyklen Haft bis zur Todesstrafe.
-*   **Verbrechen & Vergehen:** Diebstahl, Landfriedensbruch, Beleidigung und Missbrauch von [[Magie]].
+*   **Verbrechen & Vergehen:** Diebstahl, Landfriedensbruch, Beleidigung und Missbrauch von [[Magie_Grundlagen]].
 *   **Strafen:** Pranger, Kerkerhaft (mit Strafarbeit), Züchtigung, Verbannung und Todesstrafe.
 
 ## Codex Privatae (Zivilrecht)

@@ -20,7 +20,7 @@ Das primäre Instrument des Angriffs war eine sogenannte **[[Bestiarium_Register
 Die Jagd auf das Phänomen erforderte die Zusammenarbeit der Graumagier und des Ritterordens. Besonders hervorgetan hat sich dabei **[[Frederik_Hamsberg]]**, ein Krieger des [[Orden_der_Wachenden_Löwen|Löwenordens]]. Gemeinsam gelang es ihnen, die Wolke in einer speziellen Urne gefangen zu setzen.
 
 ## Nachwirkungen
-Die Urne wurde zunächst unter strenger Bewachung aufbewahrt. Später gab die Magierschaft bekannt, dass die versiegelte Urne im Umland von [[Brandenstein]] unter einem Mahnmal versenkt werden soll, um eine versehentliche Befreiung zu verhindern. Zur feierlichen Versiegelung wurden hohe Würdenträger wie **Exzellenz [[Dur]]** oder **Edeldame [[Nhergas]]** erwartet.
+Die Urne wurde zunächst unter strenger Bewachung aufbewahrt. Später gab die Magierschaft bekannt, dass die versiegelte Urne im Umland von [[Brandenstein]] unter einem Mahnmal versenkt werden soll, um eine versehentliche Befreiung zu verhindern. Zur feierlichen Versiegelung wurden hohe Würdenträger wie **Exzellenz [[Toran_Dur]]** oder **Edeldame [[Nhergas]]** erwartet.
 
 ---
 **Quellen:** [[Siebenwind_Bote_161]], [[Siebenwind_Bote_162]]

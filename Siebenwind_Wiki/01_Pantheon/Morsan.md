@@ -31,9 +31,9 @@ Die **[[Kirche_der_Viere]]** ehrt Morsan als den Tröster der Hinterbliebenen un
 Morsan wird oft gefürchtet, aber auch als Erlöser von Schmerz und Altersschwäche gesehen. Sein Segen wird erbeten, um einen sanften Tod oder ruhigen Schlaf zu finden. In der dunklen Jahreszeit wird ihm besonders gedacht.
 
 ## Beziehungen
-- **[[04_Vitama]]:** Seine Schwester des Lebens. Morsan weiß, dass sein Walten ohne ihr Geschenk bedeutungslos wäre. Ein Tod ohne vorheriges Leben ist Nichts.
-- **[[02_Astrael]]:** Sein Bruder des Wissens. Morsan birgt das [[index]], das jenseits des Verstandes liegt – das Mysterium des Endes.
-- **[[03_Bellum]]:** Sein Bruder des Kampfes. Morsan beendet jeden Kampf, sei es durch Sieg oder Niederlage. Am Ende finden alle Krieger Ruhe bei ihm.
+- **[[Vitama]]:** Seine Schwester des Lebens. Morsan weiß, dass sein Walten ohne ihr Geschenk bedeutungslos wäre. Ein Tod ohne vorheriges Leben ist Nichts.
+- **[[Astrael]]:** Sein Bruder des Wissens. Morsan birgt das [[index]], das jenseits des Verstandes liegt – das Mysterium des Endes.
+- **[[Bellum]]:** Sein Bruder des Kampfes. Morsan beendet jeden Kampf, sei es durch Sieg oder Niederlage. Am Ende finden alle Krieger Ruhe bei ihm.
 
 ## Verwandte Themen
 - [[Religion_Übersicht]]

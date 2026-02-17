@@ -21,4 +21,4 @@ Magier können Elementare rufen und an sich binden.
 - **Göttliche Gunst:** Der Erfolg hängt auch davon ab, ob der Beschwörer die Gunst der jeweiligen Elementarherren genießt.
 
 ---
-**Siehe auch:** [[Bestiarium_Register]], [[Magie]]
+**Siehe auch:** [[Bestiarium_Register]], [[Magie_Grundlagen]]

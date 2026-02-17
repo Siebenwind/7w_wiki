@@ -34,4 +34,4 @@ Der [[Putsch_in_Falkensee]] eskalierte am 1. Seker zu offenen Kämpfen.
 
 ---
 **Quellen:** [[Siebenwind_Bote_184]] (Original)
-**Siehe auch:** [[Chronik]], [[Putsch_in_Falkensee]], [[Schlacht_um_Falkensee]]
+**Siehe auch:** [[Die_Chronik]], [[Putsch_in_Falkensee]], [[Schlacht_um_Falkensee]]

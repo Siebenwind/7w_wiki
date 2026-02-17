@@ -19,4 +19,4 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_174]].md
 *   **Hofhaltung in [[Finianswacht]] (20 n.H.):** Am 24. Trier 20 n.H. hielt sie ihre erste öffentliche Audienz in der [[Burg_Finianswacht]] ab. Sie begann sofort mit der Reorganisation der Verwaltung und der Rekrutierung neuer Truppen für den [[Ersonter_Bund]] ([[Siebenwind_Bote_174]]).
 
 ---
-**Siehe auch:** [[Ersonter_Bund]], [[Falkensee]], [[Suedfall]], [[Burg_Finianswacht]]
+**Siehe auch:** [[Ersonter_Bund]], [[Falkensee]], [[Südfall]], [[Burg_Finianswacht]]

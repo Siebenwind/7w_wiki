@@ -9,7 +9,7 @@ author: "Antigravity"
 
 # Gimbart Galdora
 
-**Gimbart Galdora** ist ein Zwerg, der als Schreiber in [[Siebenwind_Wiki/03_Gesellschaft#Dwarschim|Dwarschim]] tätig war und später als Student in einer Wohngemeinschaft in [[Rohehafen]] lebte.
+**Gimbart Galdora** ist ein Zwerg, der als Schreiber in [[03_Gesellschaft#Dwarschim|Dwarschim]] tätig war und später als Student in einer Wohngemeinschaft in [[Rohehafen]] lebte.
 
 ## Überlieferung
-* [[[Die_Zwergen_WG]]]
+* [[Die_Zwergen_WG]]

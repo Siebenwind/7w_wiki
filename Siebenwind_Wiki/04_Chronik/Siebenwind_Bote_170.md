@@ -20,8 +20,8 @@ letzter_check: 2026-02-13T16:15:00+01:00
 *   **Stadtrechte und Titel:** Alle Siedlungen erhielten offizielle Titel innerhalb der Kronmark:
     *   [[Falkensee]]: Hauptstadt der Kronmark (Stadtrecht).
     *   [[Brandenstein]]: Freihafen der Kronmark.
-    *   [[Kesselklamm]]: Heimstatt in der Kesselklamm.
-    *   [[Suedfall|Südfall]]: Dorf [[Südfall]].
+    *   [[Bragarim]]: Heimstatt in der Kesselklamm.
+    *   [[Südfall|Südfall]]: Dorf [[Südfall]].
     *   [[Dunquell]]: Dorf Dunquell.
     *   [[Greifenklipp]] & [[Vänskap]]: Dorf [[Greifenklipp]] und [[Vänskap]].
     *   [[Avindhrell]]: Dorf Avindhrell bei den Wassern.

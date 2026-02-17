@@ -26,4 +26,4 @@ report_id: 890b0622-d0c2-4d8e-8518-41047c90817d
 - [[Personenregister]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind_Bote_177]]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20176.md)
+- Primärquelle: [[Siebenwind_Bote_177]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20176.md)

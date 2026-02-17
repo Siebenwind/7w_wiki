@@ -27,4 +27,4 @@ In einem emotionalen Brief aus dem Jahr 22 n.H. gestand sie [[Haldur_Toda]], das
 *   [[Aus_dem_Liebesleben_eines_Dichters]]
 
 ## Quellen
-*   [[[Aus_dem_Liebesleben_eines_Dichters]]](../../Quellen/Spielergeschichten/Aus%20dem%20Liebesleben%20eines%20Dichters%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [[Aus_dem_Liebesleben_eines_Dichters]](../../Quellen/Spielergeschichten/Aus%20dem%20Liebesleben%20eines%20Dichters%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)

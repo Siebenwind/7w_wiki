@@ -24,4 +24,4 @@ Die **Sammler** sind ein denkendes und mit Verstand gesegnetes Volk von Schlange
 Laut [[Toran_Dur]] stammen die Sammler von den [[Mazzaremer|Mazzaremern]] ab und kämpften im antiken Amulettkrieg auf der Seite des Einen.
 
 ---
-**Siehe auch:** [[Mazzaremer]], [[Toran_Dur]], [[Oedland]]
+**Siehe auch:** [[Mazzaremer]], [[Toran_Dur]], [[Ödland]]

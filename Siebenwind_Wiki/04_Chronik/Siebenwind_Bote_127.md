@@ -29,4 +29,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_127]] (Original)
-**Siehe auch:** [[Chronik]], [[Sternfall_bei_Rohehafen]], [[Stadtverordnung_Brandenstein]]
+**Siehe auch:** [[Die_Chronik]], [[Sternfall_bei_Rohehafen]], [[Stadtverordnung_Brandenstein]]

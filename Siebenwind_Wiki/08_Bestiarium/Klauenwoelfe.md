@@ -29,4 +29,4 @@ Der Legende nach waren die Klauenwölfe einst ein Volk wie [[Elfen]] oder [[Zwer
 *   **Narbenschnauze:** Ein großer Klauenwolf mit einer markanten Narbe, der als Bote oder Wächter der Kräuterfrau [[Ilja]] fungiert.
 
 ## Quellen
-*   [[[Blutschwert]]](../../Quellen/Spielergeschichten/[[Blutschwert]]%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [[Blutschwert]](../../Quellen/Spielergeschichten/[[Blutschwert]]%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)

@@ -25,7 +25,7 @@ Das Gefecht löste eine diplomatische Krise aus. Es wurde bezweifelt, ob die Bev
 ## Verlinkte Themen
 - [[Etriska]]
 - [[Magie_Grundlagen]]
-- [[Siebenwind_Wiki/01_Pantheon/Astrael]] (Patron der [[index]])
+- [[Astrael]] (Patron der [[index]])
 
 ---
 **Quellen:** [[Siebenwind_Bote_147]]

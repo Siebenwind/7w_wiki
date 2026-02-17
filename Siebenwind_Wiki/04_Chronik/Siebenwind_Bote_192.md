@@ -34,7 +34,7 @@ Das Lehen [[Rothenschild]] wurde von cortanischen Besatzern befreit. In der Stad
 *   Das Lehen Rothenschild wurde dem **[[Orden_vom_Lieblichen_Kelche_Vitamas]]** unter Hochgeweihtem **[[Laszlo_von_Wegenstein]]** zur Verwaltung übertragen, unterstützt durch den [[Bellum]]-Orden.
 
 ## Regionales & Kurioses
-*   **[[Westhever]]**: Der Marinesoldat **[[Schneid]]** geriet unfreiwillig in einen Faustkampf mit dem Jarl, nachdem er versehentlich den Kampfring in der Versammlungshalle betreten hatte. Er bewies jedoch Mut und Schlagkraft.
+*   **[[Dunkeltief]]**: Der Marinesoldat **[[Schneid]]** geriet unfreiwillig in einen Faustkampf mit dem Jarl, nachdem er versehentlich den Kampfring in der Versammlungshalle betreten hatte. Er bewies jedoch Mut und Schlagkraft.
 
 ## Derivate
 *   [[Solos_Nhergas]]

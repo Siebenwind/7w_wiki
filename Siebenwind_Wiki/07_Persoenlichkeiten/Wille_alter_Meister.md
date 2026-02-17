@@ -19,4 +19,4 @@ Der **Wille alter Meister** ist ein mächtiges magisches Konstrukt oder Wesen, d
 Im Jahr 17 n.H. (Bote 147) erwachte er (oder griff ein), als sich die Flotte der königlichen Marine der Insel näherte. Er interpretierte dies als Bedrohung und vernichtete drei Schiffe in einem gewaltigen Flammeninferno.
 
 ---
-**Siehe auch:** [[Mazzareem]], [[Magie]]
+**Siehe auch:** [[Mazzareem]], [[Magie_Grundlagen]]

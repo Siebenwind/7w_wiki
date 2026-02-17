@@ -48,4 +48,4 @@ Eskalation durch Überfälle und Entführungen.
 
 ---
 **Quellen:** [[Siebenwind_Bote_181]] (Original)
-**Siehe auch:** [[Chronik]], [[Aufhebung_des_Toleranzedikts]], [[Brand_Windfluesterer]], [[Johan_Gottfried]]
+**Siehe auch:** [[Die_Chronik]], [[Aufhebung_des_Toleranzedikts]], [[Brand_Windfluesterer]], [[Johan_Gottfried]]

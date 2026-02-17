@@ -11,7 +11,7 @@ category: [[Geschichte]]
 **Ort:** Dorf Borast, Region [[Ventria]]
 
 ## Hintergrund
-Im Jahr 18 n.H. erschütterte eine Reihe von grausamen Morden das kleine Dorf Borast. Opfer waren Diener der Göttin [[Vitama]]. Die örtliche Bevölkerung und die Gerüchteküche des [[Siebenwind_Bote|Boten]] schrieben diese Taten finsteren Hexenzirkeln zu. Es hieß, das Blut der Opfer solle für verbotene Elixiere missbraucht werden.
+Im Jahr 18 n.H. erschütterte eine Reihe von grausamen Morden das kleine Dorf Borast. Opfer waren Diener der Göttin [[Vitama]]. Die örtliche Bevölkerung und die Gerüchteküche des [[Die_Chronik|Boten]] schrieben diese Taten finsteren Hexenzirkeln zu. Es hieß, das Blut der Opfer solle für verbotene Elixiere missbraucht werden.
 
 ## Verlauf
 In der Folge kam es zu einer Welle von Hysterie und Verfolgungen. Zumeist rothaarige Frauen gerieten unter Verdacht. In Borast und der nahegelegenen Stadt Ventria wurden Frauen in Holzkäfige gesperrt, öffentlich geschmäht und zum Teil schwer bestraft. Erste Verbrennungen von "überführten" Hexen wurden gemeldet.

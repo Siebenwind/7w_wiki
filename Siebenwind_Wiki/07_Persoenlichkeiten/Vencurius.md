@@ -21,11 +21,11 @@ Vencurius ist ein hochrangiger Würdenträger der [[Ecclesia]] in [[Brandenstein
 Vencurius' bedeutendster Beitrag in den Überlieferungen ist der "Tanz der Winde", ein extrem kraftzehrendes Ritual, das er durchführte, um seinen verschollenen Schüler [[Tintin_(Waljakov)]] auf hoher See zu finden und zu stärken.
 
 ### Der Tanz der Winde
-Auf einer Klippe am westlichsten Ufer von Malthust-[[Brandenstein]] bündelte Vencurius seine gesamte elementare Energie. Er rief "elf Brüder des Windes" (Lichtwesen/[[Elementare]]) herbei und sandte sie als "Sternenschnuppen" in alle Himmelsrichtungen aus, um nach Tintin zu suchen. Die Erschütterung dieses Rituals war bis in die [[Kesselklamm]] spürbar und führte dazu, dass Vencurius vor Erschöpfung das Bewusstsein verlor.
+Auf einer Klippe am westlichsten Ufer von Malthust-[[Brandenstein]] bündelte Vencurius seine gesamte elementare Energie. Er rief "elf Brüder des Windes" (Lichtwesen/[[Elementare]]) herbei und sandte sie als "Sternenschnuppen" in alle Himmelsrichtungen aus, um nach Tintin zu suchen. Die Erschütterung dieses Rituals war bis in die [[Bragarim]] spürbar und führte dazu, dass Vencurius vor Erschöpfung das Bewusstsein verlor.
 
 ## Überlieferungen
 *   [[Der_Flug_der_Ente]]
 *   [[Telandrion]] (Der ihn nach seinem Ritual rettete)
 
 ## Quellen
-*   [[[Der_Flug_der_Ente]]](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)
+*   [[Der_Flug_der_Ente]](../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md)

@@ -53,12 +53,12 @@ Nutzen reine Konzentration zur Entfesselung arkaner Kräfte.
 | [[Wasserkreaturen]] | Bestien (Gefahren aus der Tiefe) | Weiher, Küsten | #bote |
 | [[Sammler]] | Ungetüme | Öde / Inseleinbrüche | #bote |
 | [[Tardukai]] | Humanoid / Bruderschaft | Ewigwacht ([[Ödland]]) | #bote |
-| [[Der_blinde_Maler]] | Dämon | [[Seeberg]] / [[Falkensee]] | #bote |
+| [[Der_Blinde_Maler]] | Dämon | [[Seeberg]] / [[Falkensee]] | #bote |
 | [[Weiher_Ungetuem]] | Insekten / Krebstiere | [[Greifenweiher]] | #bote |
 | [[Tarrant]] | Dämon (Verräter) | Flüchtig | #bote |
 | [[Kobold]] | Feenwesen | [[Brandenstein]] | #bote |
 | [[Feuerwesen]] | Elementar / Beschwörung | Beschworen | #bote |
-| [[Riesenspinnen]] | Bestien | [[Falkensee]] / [[Suedfall]] | #bote |
+| [[Riesenspinnen]] | Bestien | [[Falkensee]] / [[Südfall]] | #bote |
 | [[Moorlaeuferin]] | Bestien (Spinne) | Lichtscheu | #bote |
 | [[Kreuzrueckenspinne]] | Bestien (Züchtung) | Tödliches Gift | #bote |
 

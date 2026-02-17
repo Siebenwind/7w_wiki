@@ -32,7 +32,7 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 ### 17 nach Hilgorad
 *   **Politik:** Inkrafttreten der neuen Mietordnung im Lehen [[Brandenstein]] (1. Onar).
 *   **Konflikt:** Anschlag auf das Botengebäude in [[Brandenstein]] (10. Sekar).
-*   **Krieg:** Schlacht gegen die Untoten und Diener des Blenders (14. Seker). Eine Allianz aus Rittern, Magiern (Toran [[Dur]]) und Geweihten zieht gegen die Höhlen der Untoten.
+*   **Krieg:** Schlacht gegen die Untoten und Diener des Blenders (14. Seker). Eine Allianz aus Rittern, Magiern (Toran [[Toran_Dur]]) und Geweihten zieht gegen die Höhlen der Untoten.
 *   **Kriminalität:** Überfälle auf Ritter (Sire Lavid, Sire [[Athos]]) durch elfisch-menschliche Räuberbanden.
 
 ### 18 nach Hilgorad (Das Jahr der Wende)
@@ -42,7 +42,7 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
     *   Erste Sitzung des Großen Rates am 12. Onar.
     *   Edeldame [[Solos_Nhergas]] wird erste (interims) Inselpatrizierin.
 *   **[[index]]:** Erlass der Waffen- und Rüstungsordnung für [[Falkensee]] (Verbot schwerer Waffen für Zivilisten).
-*   **Personalien:** Toran [[Dur]] wird zum Hochmagus des Grauen Pfades ernannt.
+*   **Personalien:** Toran [[Toran_Dur]] wird zum Hochmagus des Grauen Pfades ernannt.
 
 ### 19 nach Hilgorad
 *   **Krise:** Beginn des **[[Dunkeltief|Dunkeltiefs]]**. Schattenkreaturen dringen in die bewohnten Gebiete vor.
@@ -87,23 +87,23 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 *   **Organisation:** **50. Konvent des [[Löwenorden]]**. Ernennung von [[Toran_Dur]] zum Meister, [[Benedict_Rabenfels]] zum 2. Meister, [[Tyrus_Helbas]] zum Waffenmeister. Pakt mit [[Dwarschim]] und [[Brandenstein]].
 *   **[[index]]:** Duell zwischen [[Johannes_Tiberias]] und einem Doppelgänger am Falkenwall.
 *   **Kultur:** Auftritt des Bardenduos [[Paule_Hickings]] und [[Bastian_Vega]] ("Hicks & Basti").
-*   **Politik/Militär:** **Militärputsch in [[Falkensee]]** (30. Carmar). Die [[Ersonter_Garde]] unter [[Waldemar_Delarie]] und [[Steinhauer]] erklärt den Rat für abgesetzt. Belagerung des Schlossviertels.
-*   **Militär:** Aufstellung einer **[[Buergerwehr]]** unter Waibel [[Gorem_Motlow]] zur Sicherung der Stadt. Intervention durch [[Malthust]] und [[Löwenorden]] zur Wahrung der Ordnung.
+*   **Politik/Militär:** **Militärputsch in [[Falkensee]]** (30. Carmar). Die [[Graue_Garde]] unter [[Waldemar_Delarie]] und [[Steinhauer]] erklärt den Rat für abgesetzt. Belagerung des Schlossviertels.
+*   **Militär:** Aufstellung einer **[[Buergerwehr]]** unter Waibel [[Gorem_Motlow]] zur Sicherung der Stadt. Intervention durch [[Region_Malthust]] und [[Löwenorden]] zur Wahrung der Ordnung.
 *   **Gewalt:** Angriff von Skeletten am Südtor (abgewehrt). Erster Todesfall durch interne Kämpfe in der Garde.
-*   **Politik/Militär:** **Ende des Putsches** (3. Duler). Die [[Ersonter_Garde]] ergibt sich der Übermacht aus Malthustern, Löwenrittern, Zwergen und [[Nortraven]]. Entwaffnung der Garde und Arrestierung der Führung (inkl. [[Waldemar_Delarie]]).
+*   **Politik/Militär:** **Ende des Putsches** (3. Duler). Die [[Graue_Garde]] ergibt sich der Übermacht aus Malthustern, Löwenrittern, Zwergen und [[Nortraven]]. Entwaffnung der Garde und Arrestierung der Führung (inkl. [[Waldemar_Delarie]]).
 *   **Justiz:** Rücktritt von [[Waldemar_Delarie]] und Übergabe des Säbels. Beginn der Untersuchungen gegen die Putschisten.
 *   **Migration:** [[Arn_Toron]] verlässt [[Falkensee]] aus Protest gegen die Zustände.
-*   **Politik:** Nachbeben des Putsches; Verhängung des Kriegsrechts und Einzug von Truppen aus [[Malthust]] und dem [[Löwenorden]].
+*   **Politik:** Nachbeben des Putsches; Verhängung des Kriegsrechts und Einzug von Truppen aus [[Region_Malthust]] und dem [[Löwenorden]].
 *   **[[index]]:** Beginn der **Aufräumarbeiten** in [[Falkensee]]. Rückkehr zur Normalität.
 *   **Religion:** Weihe von Redakteur [[Ionas]] zum Geweihten des [[Astrael]]-Tempels in [[Falkensee]].
 *   **Adel:** Ankunft von Fürst [[Serass]] von [[Vandrien]] und Prinz [[Astreyonas]] von [[Sae]]. Gerüchte um diplomatische Missionen.
 *   **Militär:** Bericht über den Tod von Feldherr [[Kassimir_zu_Ossian]] (Ossian).
 *   **Kultur:** Vermählung von [[Zacharias_Gropp]] und [[Khyra_Hohentann]].
 *   **Kriminalität:** Enthüllung des Verrats von Gardewaibel **[[Johan_Gottfried]]** ("Hund"). Flucht nach Offenbarung als Kultist.
-*   **Konflikt:** Scharmützel zwischen [[Ersont]] und [[Malthust]]. Entführung von [[Felis]] und [[Emanuel_Sanderus]]. Waffenstillstand nach Verhandlungen in [[Brandenstein]].
+*   **Konflikt:** Scharmützel zwischen [[Ersont]] und [[Region_Malthust]]. Entführung von [[Felis]] und [[Emanuel_Sanderus]]. Waffenstillstand nach Verhandlungen in [[Brandenstein]].
 *   **Wirtschaft:** Erster "Astraelmarkt" in [[Falkensee]]. Eröffnung der Taverne "Zum Wolpertinger" durch die Ersonter Garde.
 *   **Organisation:** Neugründung der **Tempelwache** in [[Falkensee]] durch [[Reto_Finkenfahn]].
-*   **Politik:** Nachbeben des Putsches; Verhängung des Kriegsrechts und Einzug von Truppen aus [[Malthust]] und dem [[Löwenorden]].
+*   **Politik:** Nachbeben des Putsches; Verhängung des Kriegsrechts und Einzug von Truppen aus [[Region_Malthust]] und dem [[Löwenorden]].
 *   **Adel:** [[Waldemar_Delarie]] wird für seine Verdienste geadelt (Edler), fällt aber kurz darauf durch den Putsch in Ungnade.
 
 ### 22 nach Hilgorad
@@ -129,7 +129,7 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 
 ## [[index]] dieser Zeit
 *   **[[Hagen_Robaar]] von Saalhorn:** Lehnsherr und Großmeister der Rd7W.
-*   **Toran [[Dur]]:** Hochmagus (Grau), Gründer des Löwenordens.
+*   **Toran [[Toran_Dur]]:** Hochmagus (Grau), Gründer des Löwenordens.
 *   **[[Solos_Nhergas]]:** Erste Inselpatrizierin.
 *   **[[Custodias]]:** Geweihter/Eminenz, Dämonenjäger.
 *   **[[Calanhen_Lilthameigol]]:** Leiter der Königlichen Kriegerakademie zu [[Seeberg]].

@@ -12,7 +12,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 ## Beschreibung
 **Tandrion Intoma** war einer der Ältesten der Hochelfen in [[Falkensee]] und Mitglied des Ersonter Rates (Tempelwache).
-Im Jahr 22 n.H. (Bote 186) wurde er ermordet aufgefunden. Der Verdacht fiel auf [[Rasse_Orken]].
+Im Jahr 22 n.H. (Bote 186) wurde er ermordet aufgefunden. Der Verdacht fiel auf [[Orken]].
 
 ---
 **Siehe auch:** [[Hochelfen]], [[Tod_von_Tandrion_Intoma]]

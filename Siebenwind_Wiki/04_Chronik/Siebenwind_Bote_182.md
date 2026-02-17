@@ -21,7 +21,7 @@ In [[Brandenstein]] wurde der ehemalige Malthuster Rekrut [[Talbin]] wegen Wegel
 Der [[Orden_der_Wachenden_Löwen]] wählte eine neue Führung am [[Falkenwall]].
 - **Ordensmeister:** [[Toran_Dur]] (1. Meister), [[Benedict_Rabenfels]] (2. Meister).
 - **Waffenmeister:** [[Tyrus_Helbas]].
-- **Wallpakt:** Bündnisbestätigung mit [[Dwarschim]] und [[Malthust]]. [[Brogar]] wurde zum Ehrenlöwen ernannt.
+- **Wallpakt:** Bündnisbestätigung mit [[Dwarschim]] und [[Region_Malthust]]. [[Brogar]] wurde zum Ehrenlöwen ernannt.
 - **Reliquie:** Der Orden erhielt das Schwert "Löwenbann" von [[Lorence]] ([[Bellum]]).
 
 ### Kultur & Lokales
@@ -36,4 +36,4 @@ Der [[Orden_der_Wachenden_Löwen]] wählte eine neue Führung am [[Falkenwall]].
 
 ---
 **Quellen:** [[Siebenwind_Bote_182]] (Original)
-**Siehe auch:** [[Chronik]], [[Löwenorden]], [[Recht_und_Gesetz]]
+**Siehe auch:** [[Die_Chronik]], [[Löwenorden]], [[Recht_und_Gesetz]]

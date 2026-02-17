@@ -124,13 +124,13 @@ category: Persönlichkeit
 
 # [[Fraomar_Arkad'Grembargh]]
 
-**Titel:** Arkadhrall des [[06_Ignis]] (Arkadon)
+**Titel:** Arkadhrall des [[Ignis]] (Arkadon)
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Volk der Dwarschim / Kirche des [[06_Ignis]]
+**Zugehörigkeit:** Volk der Dwarschim / Kirche des [[Ignis]]
 **Zeitraum:** Aktiv (Weihe zum Arkadhrall 17 n.H.)
 
 ## Beschreibung
-Fraomar ist ein hoher Priester des Elementarherrn [[06_Ignis]] (zwergisch: Arkadon). | [[Fraomar_Arkad_Grembargh]] |
+Fraomar ist ein hoher Priester des Elementarherrn [[Ignis]] (zwergisch: Arkadon). | [[Fraomar_Arkad_Grembargh]] |
 | 17 n.H. | ---
 layout: wiki_page
 title: [[Fraomar_Arkad'Grembargh]]
@@ -139,13 +139,13 @@ category: Persönlichkeit
 
 # [[Fraomar_Arkad'Grembargh]]
 
-**Titel:** Arkadhrall des [[06_Ignis]] (Arkadon)
+**Titel:** Arkadhrall des [[Ignis]] (Arkadon)
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Volk der Dwarschim / Kirche des [[06_Ignis]]
+**Zugehörigkeit:** Volk der Dwarschim / Kirche des [[Ignis]]
 **Zeitraum:** Aktiv (Weihe zum Arkadhrall 17 n.H.)
 
 ## Beschreibung
-Fraomar ist ein hoher Priester des Elementarherrn [[06_Ignis]] (zwergisch: Arkadon). | [[Fraomar_Arkad_Grembargh]] |
+Fraomar ist ein hoher Priester des Elementarherrn [[Ignis]] (zwergisch: Arkadon). | [[Fraomar_Arkad_Grembargh]] |
 | 18 n.H. | ---
 layout: wiki_page
 title: [[Hagen_Robaar_von_Saalhorn_und_Siebenwind]]
@@ -201,7 +201,7 @@ category: Persönlichkeit
 - **Vor 18 n.H.:** Lehenskämmerin und später Lehenskanzlerin unter [[Hagen_Robaar]] (Bote 151). | [[Solos_Nhergas]] |
 | 18 n.H. | 15-18 n.H.). | [[Ritter_der_Sieben_Winde]] |
 | 19 n.H. | - **~19 n.H.:** Trennung vom [[Ordo_Belli]] (Heiliges Schwert) aufgrund von kircheninternen Unruhen und Einschränkungen. | [[Proveus_Herand]] |
-| 19 n.H. | - **19 n.H. (Bote 165):** Empfängt im Tempel zu [[Falkensee]] die **Weihe zum Geweihten des [[05_Morsan]]**. | [[Vincent_Ebenstein]] |
+| 19 n.H. | - **19 n.H. (Bote 165):** Empfängt im Tempel zu [[Falkensee]] die **Weihe zum Geweihten des [[Morsan]]**. | [[Vincent_Ebenstein]] |
 | 20 n.H. | ---
 layout: wiki_page
 title: [[Kregor_Arthax_Stahlauge]]
@@ -223,21 +223,21 @@ Kregor Stahlauge ist der politische und militärische Führer der [[Rasse_Zwerge
 | 20 n.H. | 20 n.H.). | [[Ritter_der_Sieben_Winde]] |
 | 21 n.H. | Abt
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Kirche des [[02_Astrael]] / Ersonter Rat
+**Zugehörigkeit:** Kirche des [[Astrael]] / Ersonter Rat
 **Zeitraum:** Aktiv (Hüter des Rechts seit 21 n.H.)
 
 ## Beschreibung
 [[Custodias]] ist eine der einflussreichsten geistlichen und politischen Figuren in [[Falkensee]]. | [[Custodias]] |
 | 21 n.H. | Abt
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Kirche des [[02_Astrael]] / Ersonter Rat
+**Zugehörigkeit:** Kirche des [[Astrael]] / Ersonter Rat
 **Zeitraum:** Aktiv (Hüter des Rechts seit 21 n.H.)
 
 ## Beschreibung
 [[Custodias]] ist eine der einflussreichsten geistlichen und politischen Figuren in [[Falkensee]]. | [[Custodias]] |
 | 22 n.H. | Vater Benion
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Kirche der [[04_Vitama]] / Orden der Tränen
+**Zugehörigkeit:** Kirche der [[Vitama]] / Orden der Tränen
 **Zeitraum:** Aktiv (Erhebung zum Erzgeweihten 22 n.H.)
 
 ## Beschreibung
@@ -256,7 +256,7 @@ category: Persönlichkeit
 
 **Titel:** Erzgeweihter Bellums, Gründer des Ordens "Banner Maynaghs"
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Kirche des [[03_Bellum]] / Banner Maynaghs
+**Zugehörigkeit:** Kirche des [[Bellum]] / Banner Maynaghs
 **Zeitraum:** Aktiv (Erzweihe 22 n.H.)
 
 ## Beschreibung
@@ -278,7 +278,7 @@ category: Erzählung
 **Status:** #perspektive #entdeckung
 
 ## Zusammenfassung
-Die Erzählung beschreibt die ehrgeizige Expedition von **Tintin** ([[Lazalantin]]), einem jungen Schiffsbauer und [[08_Ventus]]-Priester, der mit seinem selbstgebauten Schiff, der **"Ente"**, die Grenzen der bekannten Welt überschreitet. | [[Der_Flug_der_Ente]] |
+Die Erzählung beschreibt die ehrgeizige Expedition von **Tintin** ([[Lazalantin]]), einem jungen Schiffsbauer und [[Ventus]]-Priester, der mit seinem selbstgebauten Schiff, der **"Ente"**, die Grenzen der bekannten Welt überschreitet. | [[Der_Flug_der_Ente]] |
 | 25 n.H. | - **~25 n.H.:** Reise nach **Papin**, um Goldbarren zur Unterstützung von Wallenburg an den [[Ersonter_Bund]] (Graf Gero) zu übergeben. | [[Waldemar_Delarie]] |
 | 25 n.H. | (Status: #bote) **~25 n.H. (Bote 183):** [[Custodias]] gerät ins Visier der Ersonter Garde (Hauptmann Delarie/[[Steinhauer]]), die ihn des Hochverrats beschuldigt. | [[Custodias]] |
 | 26 n.H. | 26 n.H.)
@@ -318,7 +318,7 @@ category: Persönlichkeit
 
 **Titel:** Erzgeweihter Bellums, Kanzler der Baronie [[Siebenwind]]
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Kirche des [[03_Bellum]] / [[Inselrat]]
+**Zugehörigkeit:** Kirche des [[Bellum]] / [[Inselrat]]
 **Zeitraum:** Aktiv (Rückkehr 29 n.H.)
 
 ## Beschreibung
@@ -333,7 +333,7 @@ category: Persönlichkeit
 
 **Titel:** Erzgeweihter Bellums, Kanzler der Baronie [[Siebenwind]]
 **Epistemischer Status:** #canon
-**Zugehörigkeit:** Kirche des [[03_Bellum]] / [[Inselrat]]
+**Zugehörigkeit:** Kirche des [[Bellum]] / [[Inselrat]]
 **Zeitraum:** Aktiv (Rückkehr 29 n.H.)
 
 ## Beschreibung

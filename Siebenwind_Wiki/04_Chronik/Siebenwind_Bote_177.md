@@ -12,7 +12,7 @@ category: [[index]]
 ## Schlagzeilen
 
 ### Der [[Trollkrieg_gegen_Brandenstein]]
-Ein massiver Angriff von Trollen und [[Goblins]] aus dem [[Oedland|Ödland]] bedrohte [[Brandenstein]]. Die Angreifer drangen über den Orkenpass vor und konnten erst durch die Kapitulation von Leutnant [[Erin_Caiomme]] gestoppt werden.
+Ein massiver Angriff von Trollen und [[Goblins]] aus dem [[Ödland|Ödland]] bedrohte [[Brandenstein]]. Die Angreifer drangen über den Orkenpass vor und konnten erst durch die Kapitulation von Leutnant [[Erin_Caiomme]] gestoppt werden.
 - **Bedingungen:** Verbot der Trolljagd, Verbot des Tragens und Handels von Trollleder-Rüstungen im Lehen Malthust.
 - **Hintergrund:** Es gab Hinweise auf die Beteiligung von Schwarzmagiern, die [[Goblins]] in die Stadt schleusten.
 
@@ -37,4 +37,4 @@ Es wurde eine Vereinbarung zwischen dem [[Ersonter_Bund]] und den [[Orken]] (unt
 
 ---
 **Quellen:** [[Siebenwind_Bote_177]] (Original)
-**Siehe auch:** [[Chronik]], [[Brandenstein]], [[Tempelwache]], [[Orken]]
+**Siehe auch:** [[Die_Chronik]], [[Brandenstein]], [[Tempelwache]], [[Orken]]

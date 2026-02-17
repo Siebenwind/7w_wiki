@@ -14,7 +14,7 @@ letzter_check: 2026-02-16T18:30:00+01:00
 In diesem Werk erläutert **Donarius Derrvus** das hierarchische Verhältnis zwischen den heiligen Göttern und den Ur-Elementen.
 
 ## [[Geist]] über Materie
-Der [[Geist]] der [[Gohor]] manifestiert sich vierfach in den [[Siebenwind_Wiki/01_Pantheon/Gohor_Haeresie|Vier Göttern]] ([[Astrael]], [[Bellum]], [[Morsan]], [[Vitama]]). Diese sind der belebende [[Geist]] (Odem), der über der Materie steht. Die vier Elemente ([[Ventos]], [[Tevra]], [[Ignis]], [[Xan]]) sind für sich genommen statisch und unveränderlich.
+Der [[Geist]] der [[Gohor]] manifestiert sich vierfach in den [[Gohor_Haeresie|Vier Göttern]] ([[Astrael]], [[Bellum]], [[Morsan]], [[Vitama]]). Diese sind der belebende [[Geist]] (Odem), der über der Materie steht. Die vier Elemente ([[Ventos]], [[Tevra]], [[Ignis]], [[Xan]]) sind für sich genommen statisch und unveränderlich.
 
 * **Schöpfung**: Erst durch den göttlichen Willen werden die Elemente in Formen gegossen. 
     * [[Vitama]] formt Pflanzen aus [[Xan]] und Tevra.

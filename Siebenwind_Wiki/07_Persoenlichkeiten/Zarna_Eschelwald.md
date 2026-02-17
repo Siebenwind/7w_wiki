@@ -12,7 +12,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 ## Beschreibung
 **Zarna Eschelwald** ist eine Priesterin der Erdgöttin [[Rien]] ([[Terra]]).
-Im Jahr 29 n.H. (Bote 189) nahm sie an der Expedition nach [[Kesselklamm]] teil und kommunizierte dort mit dem Schreinwächter der Erdenmutter.
+Im Jahr 29 n.H. (Bote 189) nahm sie an der Expedition nach [[Bragarim]] teil und kommunizierte dort mit dem Schreinwächter der Erdenmutter.
 
 ---
 **Siehe auch:** [[Rien]], [[Ecclesia_Elementorum]]

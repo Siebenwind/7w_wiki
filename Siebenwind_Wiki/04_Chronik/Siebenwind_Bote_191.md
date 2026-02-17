@@ -18,10 +18,10 @@ Diese Sonderausgabe befasst sich primär mit einer göttlichen Offenbarung währ
 ## Die [[Lichthoch]]-Offenbarung
 In der Kathedrale von [[Brandenstein]] erschien den Gläubigen während der Andacht von **[[Vater_Custodias]]** ein übernatürliches Licht und ein leuchtendes Buch. Die Offenbarung forderte die Gemeinde auf, sich für einen von vier Wegen zu entscheiden, um der Lindwurmbedrohung zu begegnen. Jeder Weg ist mit einem der Göttergeschwister und einer legendären Kreation verknüpft:
 
-*   **Weg der Vernunft ([[02_Astrael]]):** Ein magisches Briefpapier, das universelle Kommunikation ermöglicht und den Boten schützt.
-*   **Weg der Klinge ([[01_Bellum]]):** Die Neuschmiedung des legendären Schwertes **Wyrmend**, mit dem einst der Held **[[Lothgar]]** einen Frostwyrm erschlug.
+*   **Weg der Vernunft ([[Astrael]]):** Ein magisches Briefpapier, das universelle Kommunikation ermöglicht und den Boten schützt.
+*   **Weg der Klinge ([[Bellum]]):** Die Neuschmiedung des legendären Schwertes **Wyrmend**, mit dem einst der Held **[[Lothgar]]** einen Frostwyrm erschlug.
 *   **Weg des Schlummers ([[03_Morsan]]):** Ein schmerzloses Gift ("Ewigschlummer") nach dem Vorbild eines Ordens aus Morthum.
-*   **Weg der Unschuld ([[04_Vitama]]):** Schutzgewänder in der Farbe der Unschuld, die Unbeteiligte im kommenden Krieg abschirmen.
+*   **Weg der Unschuld ([[Vitama]]):** Schutzgewänder in der Farbe der Unschuld, die Unbeteiligte im kommenden Krieg abschirmen.
 
 Die Gläubigen sind aufgerufen, ihre Wahl durch Abgabe von Rollen in den Schreinen kundzutun. Das Ergebnis soll in acht Tagen verkündet werden.
 

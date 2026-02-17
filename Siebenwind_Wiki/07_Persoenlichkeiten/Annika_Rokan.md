@@ -19,4 +19,4 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_157]].md
 *   **Ableben:** Die Umstände ihres Todes sind mysteriös; es gab unbestätigte Vorwürfe gegen den Orden der [[Elementare]], die jedoch vom Boten als unglaubwürdig eingestuft wurden.
 
 ---
-**Siehe auch:** [[Magie]], [[Kirche_der_Viere]]
+**Siehe auch:** [[Magie_Grundlagen]], [[Kirche_der_Viere]]

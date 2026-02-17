@@ -16,7 +16,7 @@ Jedes Lebewesen ist eine Mischung der vier Elemente, gebunden durch die Kraft de
 * **Idealmaß**: Der besonnene, götterfürchtige Mensch verfügt über eine ebenmäßige Verteilung, in der kein Element die Oberhand gewinnt.
 * **Rassenspezifische Ausprägungen**:
     * **Nordmänner**: Enthalten ein Übermaß an [[Tevra]] (Kraft/Muskeln).
-    * **[[Rasse_Orken|Orken]]**: Werden von einem inneren Feuer ([[Ignis]]) getrieben, das kaum durch Wasser ([[Xan]]) gekühlt wird, was ihren Hitzkopf erklärt.
+    * **[[Orken|Orken]]**: Werden von einem inneren Feuer ([[Ignis]]) getrieben, das kaum durch Wasser ([[Xan]]) gekühlt wird, was ihren Hitzkopf erklärt.
 
 ## Die Gabe der Vernunft
 Obwohl die „Herren der Elemente“ Respekt verdienen, steht der schöpfende [[Geist]] der Götter weit über ihnen. Die Vernunft gilt als das schönste Geschenk der Götter, das nur durch das Zusammenspiel aller Elemente unter göttlicher Führung möglich wurde.

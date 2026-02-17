@@ -8,11 +8,11 @@ category: [[index]]
 
 **Epistemischer Status:** #bote
 **Datum:** Duler 29 n.H. (Bote 190)
-**Ort:** [[Westhever]] / [[Brecher]]
+**Ort:** [[Dunkeltief]] / [[Brecher]]
 
 ## Verlauf
-Die [[Nortraven]]-Siedlung [[Westhever]] wurde von Trollen und Feinden überrannt und zerstört. Die Bewohner wurden größtenteils getötet oder versklavt.
+Die [[Nortraven]]-Siedlung [[Dunkeltief]] wurde von Trollen und Feinden überrannt und zerstört. Die Bewohner wurden größtenteils getötet oder versklavt.
 Auch die Siedlung "Brecher" fiel einem Angriff von Schwarzorken zum Opfer und brannte nieder. Die Überlebenden flohen per Boot nach [[Brandenstein]].
 
 ---
-**Siehe auch:** [[Westhever]], [[Nortraven]]
+**Siehe auch:** [[Dunkeltief]], [[Nortraven]]

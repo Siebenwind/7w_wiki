@@ -16,4 +16,4 @@ Ziel war die Regelung der Zusammenarbeit und die Legalisierung bestimmter Prakti
 Der **Weiße Pfad** äußerte Bedenken und verließ Teile der Versammlung vorzeitig.
 
 ---
-**Siehe auch:** [[Magie]], [[Akademie_der_Arkanen_Künste]]
+**Siehe auch:** [[Magie_Grundlagen]], [[Akademie_der_Arkanen_Künste]]

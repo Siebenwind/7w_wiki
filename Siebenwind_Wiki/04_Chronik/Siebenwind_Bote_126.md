@@ -22,4 +22,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_126]] (Original)
-**Siehe auch:** [[Chronik]], [[Befreiung_des_Larseij_Bellums]]
+**Siehe auch:** [[Die_Chronik]], [[Befreiung_des_Larseij_Bellums]]

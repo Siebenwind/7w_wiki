@@ -1,0 +1,39 @@
+{
+    "tag": "mazzarem",
+    "name": "Mazzarem",
+    "status": "überlieferung",
+    "description": "Ancient language of the Mazzarem people, 5000 years old.",
+    "rules": {
+        "prefix": {
+            "participle": "te'"
+        },
+        "suffix": {
+            "plural": "a"
+        }
+    },
+    "dictionary": {
+        "stahl": "tjeka",
+        "fleisch": "njela",
+        "blut": "behja",
+        "wunde": "wazha",
+        "schmerz": "kata",
+        "schicksal": "thenila",
+        "staub": "phena",
+        "holz": "inje",
+        "zeit": "thea",
+        "trauer": "lheia",
+        "ewigliche": "ewanaj",
+        "befehl": "tahaga",
+        "schlüssel": "kahea",
+        "siegel": "jesata",
+        "kampf": "tjekara",
+        "macht": "thuha",
+        "soldat": "kjana",
+        "sarg": "njuaja",
+        "ring": "fhana",
+        "unser": "nuaga",
+        "uns": "nuag",
+        "werden": "ihaz",
+        "war": "ihated"
+    }
+}

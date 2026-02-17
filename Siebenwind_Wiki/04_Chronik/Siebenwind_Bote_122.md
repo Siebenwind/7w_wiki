@@ -19,4 +19,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_122]] (Original)
-**Siehe auch:** [[Chronik]], [[Jagd_auf_Elares_Valjean]]
+**Siehe auch:** [[Die_Chronik]], [[Jagd_auf_Elares_Valjean]]

@@ -14,7 +14,7 @@ letzter_check: 2026-02-13T15:10:00+01:00
 
 ## Highlights
 *   **Rettung des Königs:** Eine Expedition unter Führung von **[[Toran_Dur]]** brach am 17. Oner nach Etriska auf. Mit einem Tauchboot drangen sie in eine Unterwasserhöhle ein, besiegten die Entführer (darunter zwei adlige Magier) und befreiten den König sowie den Hochadel. Hinter dem Anschlag steckte der ehemalige Hofberater **[[Ignatius_von_Mendel]]**. Die **[[Königin_Brynn]]** hatte sich unerkannt unter die Retter gemischt.
-*   **Entführung des Barons:** Am 12. Seker wurde Baron **[[Baron_von_Gerdenwald|von Gerdenwald]]** während einer Rede in [[Falkensee]] vor den Augen des Volkes entführt. Schwarzer Nebel hüllte ihn ein, und zwei schmutzige Hände rissen ihn fort. Die Spuren führen ins [[Oedland]].
+*   **Entführung des Barons:** Am 12. Seker wurde Baron **[[Baron_von_Gerdenwald|von Gerdenwald]]** während einer Rede in [[Falkensee]] vor den Augen des Volkes entführt. Schwarzer Nebel hüllte ihn ein, und zwei schmutzige Hände rissen ihn fort. Die Spuren führen ins [[Ödland]].
 *   **Attentat auf die Königin:** Die Bankiersfrau **[[Hartwine_Hilamos]]** verübte einen Sprengstoffanschlag auf die Königin im Burghof. Der Gardist **[[Hendwig]]** warf sich dazwischen und opferte sein Leben; auch die Attentäterin starb. Zeitgleich wurde das Schiff des Barons durch eine Explosion zerstört, wodurch die gesamte **[[Baronsgarde]]** ausgelöscht wurde.
 *   **Konvent der Graumagier:** Auf Burg [[Brandenstein]] wurde **[[Toran_Dur]]** mit großer Mehrheit zum neuen Erzmagus des Grauen Pfades gewählt (Nachfolge von **[[Kida_Gilwen]]**). Eine Störung durch die zwielichtige **Isabella von Lichtenau** wurde abgewehrt.
 

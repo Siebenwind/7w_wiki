@@ -14,7 +14,7 @@ letzter_check: 2026-02-13T04:30:00+01:00
 
 ## Highlights
 *   **Bedrohung aus der Tiefe:** Ein Schlangenvolk, die **[[Sammler]]**, bricht aus unterirdischen Gängen hervor. Sie stammen angeblich von den Mazzaremern ab und nutzen mächtige [[index]] (Thaumaturgen). Ein Angriff auf den **Falkenwall** konnte durch **[[Toran_Dur]]** abgewehrt werden.
-*   **Hochmagier [[Dur]]:** [[Toran_Dur]] wurde offiziell zum Hochmagier ernannt. Der neue Pfadleiter der Grauen, **[[Edomawyr]]**, vollzog die Ernennung. Zuvor rettete [[Dur]] die Ritter **[[Galthana]]** und **[[Amaris_Aurinas]]** aus der Gefangenschaft der [[Orken]].
+*   **Hochmagier [[Toran_Dur]]:** [[Toran_Dur]] wurde offiziell zum Hochmagier ernannt. Der neue Pfadleiter der Grauen, **[[Edomawyr]]**, vollzog die Ernennung. Zuvor rettete [[Toran_Dur]] die Ritter **[[Galthana]]** und **[[Amaris_Aurinas]]** aus der Gefangenschaft der [[Orken]].
 *   **Waffengesetz:** **[[Mirian_Lasar]]** erließ ein Gesetz über Waffen und Rüstungen in [[Falkensee]]. Das Tragen schwerer Waffen und Rüstungen ist Bürgern und Freien in der Stadt untersagt (Ausnahme: Adel, Wache, Kirche).
 
 ## Lokales

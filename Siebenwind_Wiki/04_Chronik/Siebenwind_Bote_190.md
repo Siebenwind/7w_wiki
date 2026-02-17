@@ -32,4 +32,4 @@ Nach drei Jahren der Ungewissheit wurde bestätigt: Seine Majestät **[[Hilgorad
 
 ---
 **Quellen:** [[Siebenwind_Bote_190]] (Original)
-**Siehe auch:** [[Chronik]], [[Zerstörung_von_Westhever]], [[Angriff_auf_Brandenstein_29_nH]]
+**Siehe auch:** [[Die_Chronik]], [[Zerstörung_von_Westhever]], [[Angriff_auf_Brandenstein_29_nH]]

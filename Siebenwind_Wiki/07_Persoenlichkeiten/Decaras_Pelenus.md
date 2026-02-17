@@ -15,4 +15,4 @@ category: [[Persoenlichkeiten_Uebersicht]]
 Im Jahr 29 n.H. (Bote 189) versuchte er erfolglos, ein Graues Konvent einzuberufen, um einen neuen Erzmagier zu wählen. Sein Antrag wurde von der [[Akademie_der_Arkanen_Künste]] abgelehnt.
 
 ---
-**Siehe auch:** [[Magie]], [[Grauer_Pfad]]
+**Siehe auch:** [[Magie_Grundlagen]], [[Grauer_Pfad]]

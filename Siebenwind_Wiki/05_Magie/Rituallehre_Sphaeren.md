@@ -44,4 +44,4 @@ Bündelt vier gleichwertige Kräfte (z.B. die vier Elemente im **[[Enhor]]-Viere
 2.  **Gesetz der Ruhe**: Gebilde mit gerader Anzahl an Knotenpunkten (z.B. Viereck) sind in sich geschlossen und wirken primär auf das eingeschlossene Gebiet.
 
 ---
-**Siehe auch:** [[Magie]], [[Rhadan_der_Graue]], [[Hankuk]]
+**Siehe auch:** [[Magie_Grundlagen]], [[Rhadan_der_Graue]], [[Hankuk]]

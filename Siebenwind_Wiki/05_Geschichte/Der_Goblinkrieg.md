@@ -8,8 +8,8 @@ category: [[index]]
 
 **Epistemischer Status:** #bote
 **Datum:** 21 n.H. (Bote 180)
-**Ort:** [[Oedland]], [[Orkenpass]], [[Lilienwall]]
-**Beteiligte:** [[Nortraven]], [[Dwarschim]], [[Malthust]], [[Löwenorden]], [[Goblins]]
+**Ort:** [[Ödland]], [[Orkenpass]], [[Lilienwall]]
+**Beteiligte:** [[Nortraven]], [[Dwarschim]], [[Region_Malthust]], [[Löwenorden]], [[Goblins]]
 
 ## Verlauf
 [[Goblins]] aus dem [[Ödland]] errichteten Lager am Orkenpass und im ehemaligen Lehen Lilienwall. Eine Allianz aus [[Nortraven]], Dwarschim, Malthustern und dem Löwenorden griff die Lager in mehreren Schlachten an.
@@ -22,4 +22,4 @@ Die [[Goblins]] wurden zurückgedrängt, konnten aber einige Stellungen halten. 
 
 ---
 **Quellen:** [[Siebenwind_Bote_180]]
-**Siehe auch:** [[Goblins]], [[Malthust]], [[Nortraven]], [[Dwarschim]]
+**Siehe auch:** [[Goblins]], [[Region_Malthust]], [[Nortraven]], [[Dwarschim]]

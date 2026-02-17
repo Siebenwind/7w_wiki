@@ -12,7 +12,7 @@ author: "Anais"
 Dieses Traktat der Novicia **Anais** aus Savaro befasst sich mit der geistigen Rückbesinnung auf den göttlichen Ursprung allen Lebens.
 
 ## Die Prämisse der Ordnung
-Alles Leben hat seinen Ursprung in den **Sahor** (Ein alter Name für die [[Siebenwind_Wiki/01_Pantheon/Gohor_Haeresie|Götter]]). Da die Götter nur Ordnung und Zweck schaffen, ist jeder Ursprung rein und gut.
+Alles Leben hat seinen Ursprung in den **Sahor** (Ein alter Name für die [[Gohor_Haeresie|Götter]]). Da die Götter nur Ordnung und Zweck schaffen, ist jeder Ursprung rein und gut.
 
 ## Definition von Leben
 * **Ursprung und Entwicklung**: Ein Baum besitzt beides (Samen und Wachstum) und ist somit lebendig. Ein Stein besitzt nur einen Ursprung, aber keine innere Entwicklung, und ist somit unbeseelt.

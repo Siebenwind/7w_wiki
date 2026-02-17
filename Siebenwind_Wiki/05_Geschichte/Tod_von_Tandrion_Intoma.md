@@ -12,7 +12,7 @@ category: [[index]]
 
 ## Verlauf
 [[Tandrion_Intoma]], einer der Ältesten der Hochelfen und Ratsherr des [[Ersonter_Bund]]es, wurde ermordet aufgefunden.
-Erste Hinweise deuteten auf einen Angriff durch [[Rasse_Orken]] hin. Sein Tod riss eine Lücke in die Führung der Hochelfen-Gemeinschaft in [[Falkensee]].
+Erste Hinweise deuteten auf einen Angriff durch [[Orken]] hin. Sein Tod riss eine Lücke in die Führung der Hochelfen-Gemeinschaft in [[Falkensee]].
 
 ---
 **Siehe auch:** [[Hochelfen]], [[Falkensee]]

@@ -9,7 +9,7 @@ author: "Antigravity"
 
 # Aelwin
 
-**Aelwin** ist ein Anwärter des [[Astrael]]-Ordens und Inquisitor, der für die Zusammenstellung heiliger Liturgien und die Dokumentation des [[Siebenwind_Wiki/01_Pantheon/Ritus_der_Exercitio|Ritus der Exercitio]] bekannt ist.
+**Aelwin** ist ein Anwärter des [[Astrael]]-Ordens und Inquisitor, der für die Zusammenstellung heiliger Liturgien und die Dokumentation des [[Ritus_der_Exercitio|Ritus der Exercitio]] bekannt ist.
 
 ## Überlieferung
 * [Heilige Liturgien]

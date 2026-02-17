@@ -27,7 +27,7 @@ Diese Sammlung von Berichten dokumentiert das tragische Schicksal einer Gruppe v
 ## Lore-Anker
 - **Die [[Sammler]]:** Schlangenähnliche Diener des Einen, die Gefangene betäuben und experimentieren.
 - **Die Ödnis:** Ein Ort der Hitze, des Gestanks und der absoluten Hoffnungslosigkeit.
-- **Gnaden Maltheos:** Der [[05_Morsan]]-Geweihte, der Emanuels Leichnam erlöste.
+- **Gnaden Maltheos:** Der [[Morsan]]-Geweihte, der Emanuels Leichnam erlöste.
 
 ---
 

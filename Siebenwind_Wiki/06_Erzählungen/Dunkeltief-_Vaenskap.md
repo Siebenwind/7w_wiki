@@ -19,7 +19,7 @@ letzter_check: 2026-02-16T18:35:00+01:00
 
 > An diesem Abend kam der alte Nordmann vom Hain her - dort hatte er noch gebetet für die Stärke seines Volkes und das alle gut durchkommen würden, als auch schon das Wachhorn geblasen wurde und am Horizont des letzten hellwerdenden Zykluses eine Reihe [[Gargoyles]] eine gewaltige schwarze kristallförmige Spitze - einen [[Monolith|Monolithen]] - in einem riesigen Tuch herbei flogen.
 > 
-> Der alte Nordmann mit der weißen Wolfsmaske des Leitwolfs von [[Westhever]] stand am Tor und blickte hinaus auf die große Mauer welche dieser Sammlerdiener von [[Razzin]] aufgestellt hatte.
+> Der alte Nordmann mit der weißen Wolfsmaske des Leitwolfs von [[Dunkeltief]] stand am Tor und blickte hinaus auf die große Mauer welche dieser Sammlerdiener von [[Razzin]] aufgestellt hatte.
 > Interessant fand er sie, wie schnell sie waren. Innerhalb eines Zykluses spuckte dieser [[Monolith]] mehrere Truppen aus und errichteten sofort ein riesiges Feldlager.
 > 
 > Er wusste jetzt schon, dass die Zeit des [[Dunkeltief|Dunkels]] eine schwierige Prüfung sein würde, aber ihm war jetzt schon bewusst: Die Kinder [[Thjarek|Thjareks]] würden siegen, denn sie waren das wahre, das einzige Volk des Allvaters.

@@ -19,4 +19,4 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_191]].md
 Vor etwa sieben Jahrhunderten wurde ein Dorf im Norland von einem Frostwyrm unterjocht. Lothgar zog sich für acht Tage und Nächte in seine Schmiede zurück und schuf das Schwert **Wyrmend**. Mit dieser Waffe gelang es ihm, die Bestie zu erschlagen, doch der Frostbrand des Wyrms zerstörte dabei den Großteil seines Körpers. In der Überlieferung gilt seine Tat als Inbegriff von Heldenmut und Opferbereitschaft. [[Bellum]]-Geweihte sehen in seinem Erfolg ein Zeichen göttlichen Wohlgefallens.
 
 ---
-**Siehe auch:** [[Norland]], [[Lindwürmer]], [[01_Bellum]]
+**Siehe auch:** [[Norland]], [[Lindwürmer]], [[Bellum]]

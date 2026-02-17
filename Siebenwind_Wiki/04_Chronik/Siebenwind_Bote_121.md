@@ -29,4 +29,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_121]] (Original)
-**Siehe auch:** [[Chronik]], [[Inquisitionsprozess_gegen_Maar_und_Llewellyen]], [[Massenentlassung_Kriegerakademie_15_nH]]
+**Siehe auch:** [[Die_Chronik]], [[Inquisitionsprozess_gegen_Maar_und_Llewellyen]], [[Massenentlassung_Kriegerakademie_15_nH]]

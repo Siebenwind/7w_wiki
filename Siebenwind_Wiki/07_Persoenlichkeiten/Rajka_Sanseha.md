@@ -28,4 +28,4 @@ Rajka ist vor allem durch ihre Korrespondenz mit [[Taleris_Kreytz]] bekannt, in 
 *   [[Briefe_aus_der_Ferne]]
 
 ## Quellen
-*   [[[Briefe_aus_der_Ferne]]](../../Quellen/Spielergeschichten/Briefe%20aus%20der%20Ferne.md)
+*   [[Briefe_aus_der_Ferne]](../../Quellen/Spielergeschichten/Briefe%20aus%20der%20Ferne.md)

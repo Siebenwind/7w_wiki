@@ -14,7 +14,7 @@ Das [[index]] der Bestiarium.
 *   [[Daemonen|Dämonen]]
 *   [[Der_Grix|Der Grix]]
 *   [[Der_Hutmacher|Der Hutmacher]]
-*   [[Der_blinde_Maler|Der blinde Maler]]
+*   [[Der_Blinde_Maler|Der blinde Maler]]
 *   [[Drachen|Drachen]]
 *   [[Elementare|Elementare]]
 *   [[Feen|Feen]]

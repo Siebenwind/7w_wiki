@@ -21,7 +21,7 @@ category: [[index]]
 - **Norland:** Extrem harter Winter, Nahrungsknappheit.
 
 ### Lokales (Insel)
-- **Garde:** [[Lucius_Gropp]] ist neuer Hauptmann der [[Ersonter_Garde]] (löst [[Gin]]/[[Steinhauer]] ab?).
+- **Garde:** [[Lucius_Gropp]] ist neuer Hauptmann der [[Graue_Garde]] (löst [[Gin]]/[[Steinhauer]] ab?).
 - **Kirche:** [[Custodias]] ist wieder **Calator**. [[Feydis]] wurde zum [[Vitama]]-Priester geweiht.
 - **Wirtschaft:** [[Alricio_Romero_di_Madjani]] eröffnete das Teehaus "Vitamas Rosengarten" (ehem. "Ersonter Kessel").
 
@@ -34,4 +34,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_185]] (Original)
-**Siehe auch:** [[Chronik]], [[Sturmflut_in_Vandrien]], [[Aufstand_in_Wallenburg]]
+**Siehe auch:** [[Die_Chronik]], [[Sturmflut_in_Vandrien]], [[Aufstand_in_Wallenburg]]

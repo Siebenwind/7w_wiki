@@ -21,6 +21,7 @@ import sys
 import uuid
 from pathlib import Path
 from collections import Counter
+import glob
 
 # --- Configuration (relative to project root) ---
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -31,6 +32,75 @@ PROFILE_DIR = WIKI_DIR / "07_Persoenlichkeiten"
 CHRONIK_DIR = WIKI_DIR / "04_Chronik"
 CHRONIK_INDEX = CHRONIK_DIR / "Die_Chronik.md"
 
+CHRONIK_INDEX = CHRONIK_DIR / "Die_Chronik.md"
+
+def get_all_wiki_files() -> tuple[dict[str, Path], dict[str, Path]]:
+    """Create maps of filename (stem) and title to their absolute Path."""
+    wiki_files = {}
+    wiki_titles = {}
+    # Search in Siebenwind_Wiki and Quellen
+    search_paths = [WIKI_DIR, PROJECT_ROOT / "Quellen"]
+    for base_path in search_paths:
+        if not base_path.exists():
+            continue
+        for f in base_path.rglob("*.md"):
+            wiki_files[f.stem] = f
+            # Extract title from frontmatter
+            try:
+                content = f.read_text(encoding="utf-8")[:1000]
+                match = re.search(r'^title:\s*(.*)', content, re.MULTILINE)
+                if match:
+                    title = match.group(1).strip()
+                    # Strip quotes if present
+                    if (title.startswith('"') and title.endswith('"')) or (title.startswith("'") and title.endswith("'")):
+                        title = title[1:-1]
+                    wiki_titles[title] = f
+            except Exception:
+                pass
+    return wiki_files, wiki_titles
+
+def check_wikilinks(wiki_files: dict[str, Path], wiki_titles: dict[str, Path]) -> list[tuple[Path, str, str]]:
+    """Scan all .md files for [[Links]] and verify they exist in files or titles."""
+    broken_links = []
+    search_paths = [WIKI_DIR, PROJECT_ROOT / "Quellen"]
+    
+    # Create lowercase maps for case-insensitive fallback check
+    wiki_files_low = {k.lower(): v for k, v in wiki_files.items()}
+    wiki_titles_low = {k.lower(): v for k, v in wiki_titles.items()}
+
+    for base_path in search_paths:
+        if not base_path.exists():
+            continue
+        for fpath in base_path.rglob("*.md"):
+            try:
+                content = fpath.read_text(encoding="utf-8")
+                # Strip code blocks and mermaid blocks to avoid false positives
+                content = re.sub(r'```.*?```', '', content, flags=re.DOTALL)
+                content = re.sub(r'`.*?`', '', content)
+                
+                # Find all [[Target]] or [[Target|Display]] or [[Target#Anchor|Display]]
+                # Use strictly 2 or more brackets to avoid single-bracket markdown links
+                links = re.findall(r'\[{2,}([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]{2,}', content)
+                for link in links:
+                    link_target = link.strip()
+                    # Filter out malformed patterns or alerts
+                    if not link_target or link_target.startswith("!") or link_target.replace(".", "") == "" or link_target == "…":
+                        continue
+                    
+                    # 1. Exact match (File or Title)
+                    if link_target in wiki_files or link_target in wiki_titles:
+                        continue
+                    
+                    # 2. Case-insensitive match (File or Title) - still problematic for MkDocs but better than "Missing"
+                    if link_target.lower() in wiki_files_low or link_target.lower() in wiki_titles_low:
+                        broken_links.append((fpath, link_target, "Casing Match Only"))
+                        continue
+
+                    # 3. Truly missing
+                    broken_links.append((fpath, link_target, "Missing File"))
+            except Exception as e:
+                print(f"Error reading {fpath}: {e}")
+    return broken_links
 
 
 def extract_register_names(register_path: Path) -> list[str]:
@@ -198,6 +268,28 @@ def main():
             issues_found += 1
     else:
         log("  ✅ Alle Boten-Dateien sind im Index erfasst.")
+    log()
+
+    # --- 6. Deep WikiLink Check ---
+    log("## 6. Deep WikiLink Check (Internal Integrity)")
+    wiki_files, wiki_titles = get_all_wiki_files()
+    broken = check_wikilinks(wiki_files, wiki_titles)
+    if broken:
+        # Group by file for better reporting
+        grouped = {}
+        for fpath, target, reason in broken:
+            rel_path = fpath.relative_to(PROJECT_ROOT)
+            if rel_path not in grouped:
+                grouped[rel_path] = []
+            grouped[rel_path].append((target, reason))
+            
+        for rel_path, items in sorted(grouped.items()):
+            log(f"  ⚠️  {rel_path}:")
+            for target, reason in sorted(set(items)):
+                log(f"    - [[{target}]] ({reason})")
+            issues_found += len(set(items))
+    else:
+        log("  ✅ Alle [[WikiLinks]] sind valide.")
     log()
 
     # --- Summary ---

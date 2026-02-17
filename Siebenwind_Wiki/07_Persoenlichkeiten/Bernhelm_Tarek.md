@@ -12,7 +12,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 **Titel:** Novize
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Belli]] / [[01_Bellum|Bellum]]
+**Zugehörigkeit:** [[Ordo_Belli]] / [[Bellum|Bellum]]
 
 ## Beschreibung
 **Bernhelm Tarek** ist ein Novize der [[Bellum]]-Kirche, der im Jahr 21 n.H. im Zuge kirchlicher Aktivitäten erwähnt wird (Bote 179).
@@ -21,8 +21,8 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 - **Klerus:** Aspirant im kriegerischen Orden des [[Bellum]].
 
 ## Verlinkte Themen
-- [[01_Bellum]]
+- [[Bellum]]
 - [[Personenregister]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind_Bote_179]]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20179.md)
+- Primärquelle: [[Siebenwind_Bote_179]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20179.md)

@@ -20,4 +20,4 @@ Die Entstehung der **Gargoyles** geht auf ein fehlgeschlagenes Experiment der gr
 Trotz zahlreicher Berichte über die Zerstörung von Gargoyles scheint ihre Population nicht abzunehmen. Es existiert die Theorie, dass sie in der Lage sind, sich nach der Zerstörung ihres Körpers immer wieder neue steinerne Hüllen zu erschaffen.
 
 ---
-**Siehe auch:** [[Bestiarium_Register]], [[Magie]]
+**Siehe auch:** [[Bestiarium_Register]], [[Magie_Grundlagen]]

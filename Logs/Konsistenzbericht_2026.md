@@ -1,18 +1,9 @@
----
-uuid: 1355e710-a649-4f63-94aa-d5f5db5e1b7e
-status: ACTIVE
-updated_at: 2026-02-15T00:18:00Z
-epistemic: "#meta"
----
-
 # Konsistenzbericht 2026
 
-Sammelstelle fuer Inkonsistenzen, Gaps und linguistische Konflikte.
+Dieses Dokument dient zum Loggen von Lore-Inkonsistenzen, [UNGEKLÄRT]-Fällen und epistemischen Zweifeln während der Ingestion-Phasen des Jahres 2026.
 
-## Kategorien
-- `[KONFLIKT]`
-- `[GAP]`
-- `[LINGUISTIK]`
+## 🔴 Offene Inkonsistenzen
+*Keine aktuellen Einträge.*
 
-## Hinweis
-Diese Datei wurde als Interop-Blocker-Fix angelegt.
+---
+*Status: Konsistent (v2.7)*

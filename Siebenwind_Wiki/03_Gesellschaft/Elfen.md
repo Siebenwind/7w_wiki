@@ -45,7 +45,7 @@ In grauer Vorzeit, noch vor den Amulettkriegen, lebten alle Elfenvölker in [[Re
 ## Beziehungen zu anderen Völkern
 *   **[[Rasse_Menschen]]:** Wechselhaft. Hochelfen sind integriert, Waldelfen isoliert. Generell friedly, aber Elfen betrachten [[Rasse_Menschen]] oft als "kurzlebig und hastig".
 *   **[[Rasse_Zwerge]]:** Kühle Distanz bis Abneigung. Die "Steinbeißer" gelten als naturfern und grob.
-*   **[[Rasse_Orken]]:** Feindschaft. Orks zerstören die Natur, was sie zu natürlichen Feinden der Elfen macht.
+*   **[[Orken]]:** Feindschaft. Orks zerstören die Natur, was sie zu natürlichen Feinden der Elfen macht.
 
 ## Überlieferungen
 - [[Auren und die Verbreitung der Elfenvölker]]: Primärquelle zur Herkunft und Verteilung.

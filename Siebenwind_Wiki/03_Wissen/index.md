@@ -9,10 +9,10 @@ Das [[index]] der Wissen.
 ## Inhalte
 
 ### Kategorien
-*   **[[Personen/index|Personen]]**
-*   **[[Recht/index|Recht]]**
-*   **[[Sprachen/index|Sprachen]]**
-*   **[[Werke/index|Werke]]**
+*   **[[index|Personen]]**
+*   **[[index|Recht]]**
+*   **[[index|Sprachen]]**
+*   **[[index|Werke]]**
 
 ### Artikel
 *   [[Magietheorie_nach_Dunvallo_Linari|Magietheorie nach Dunvallo Linari]]

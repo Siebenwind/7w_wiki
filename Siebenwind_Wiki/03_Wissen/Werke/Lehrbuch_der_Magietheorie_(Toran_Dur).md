@@ -8,7 +8,7 @@
 Dieses Werk dient als Lehrbuch für angehende Magier und vermittelt die Grundlagen des magischen Handwerks. Es baut auf den Definitionen aus [[Die [[index]] ([[Toran_Dur]])]] auf, konzentriert sich aber stärker auf die praktische Anwendung und das Verständnis der magischen Mechanik.
 
 ### Struktur des Astralen Netzes
-[[Dur]] erklärt, dass das astrale Netz aus fünf Fäden besteht:
+[[Toran_Dur]] erklärt, dass das astrale Netz aus fünf Fäden besteht:
 *   Feuer
 *   Wasser
 *   Erde
@@ -24,7 +24,7 @@ Ein zentrales Thema ist die Struktur des Geistes, der [[index]] wirkt:
 *   **Zensor**: Ein Filter zwischen Bewusstsein und Unterbewusstsein, der überwunden werden muss (durch Gnosis), um [[index]] zu wirken.
 
 ### Die Drei Säulen des Zaubers
-[[Dur]] nennt drei essentielle Komponenten für das Wirken eines Zaubers:
+[[Toran_Dur]] nennt drei essentielle Komponenten für das Wirken eines Zaubers:
 1.  **Wille (Voluntas)**: Die Absicht und der Fokus.
 2.  **Geste (Gestus)**: Die körperliche Formung des Zaubers.
 3.  **Wort (Verbum)**: Die vokale Komponente, oft in der Sprache der Runen oder Alten [[index]].

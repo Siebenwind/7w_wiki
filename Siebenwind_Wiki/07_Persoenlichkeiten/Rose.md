@@ -9,7 +9,7 @@ author: "Antigravity"
 
 # Rose
 
-**Rose** ist eine Autorin und Poetin, bekannt für das mystische Gedicht [[Siebenwind_Wiki/01_Pantheon/Spiegel_Poem|Spiegel]].
+**Rose** ist eine Autorin und Poetin, bekannt für das mystische Gedicht [[Spiegel_Poem|Spiegel]].
 
 ## Überlieferung
 * [Spiegel (Gedicht)]

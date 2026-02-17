@@ -8,7 +8,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 **Titel:** Baronin / Patrizierin
 **Epistemischer Status:** #canon / #bote
-**Zugehörigkeit:** [[Malthust]] / [[Brandenstein]]
+**Zugehörigkeit:** [[Region_Malthust]] / [[Brandenstein]]
 **Status:** Unter Kirchenschutz (vormals verhaftet)
 
 ## Beschreibung
@@ -22,4 +22,4 @@ category: [[Persoenlichkeiten_Uebersicht]]
 Um sie vor der Malthuster Militärjustiz zu schützen, stellte [[Custodias]] sie unter Kirchenasyl.
 
 ---
-**Siehe auch:** [[Malthust]], [[Brandenstein]], [[Custodias]]
+**Siehe auch:** [[Region_Malthust]], [[Brandenstein]], [[Custodias]]

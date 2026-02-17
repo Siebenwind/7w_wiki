@@ -12,7 +12,7 @@ author: [[Siebenwind]] Chronicler
 **Kategorie:** Rasse
 **Eigenbezeichnung:** Dwarschim
 **Unterarten:** Bergzwerge (Bingen), Talzwerge (Oberirdisch)
-**Glaube:** Angrosch (Schöpfer/Schmied), oft assoziiert mit [[03_Bellum]] oder [[06_Ignis]]
+**Glaube:** Angrosch (Schöpfer/Schmied), oft assoziiert mit [[Bellum]] oder [[Ignis]]
 
 ## Einleitung
 Die Zwerge, oder Dwarschim, wie sie sich selbst nennen, sind ein Volk von kleiner Statur, aber enormer Kraft und handwerklichem Geschick. Sie sind die Meister des Bergbaus, der Metallverarbeitung und der Architektur.
@@ -30,7 +30,7 @@ Die Zwerge, oder Dwarschim, wie sie sich selbst nennen, sind ein Volk von kleine
 *   **Eigenschaften:** Oft "gemütlicher" und weniger verbittert als Bergzwerge, aber genauso stur.
 
 ## Herkunft und Götter
-Nach ihrem Glauben wurden die Dwarschim von ihrem Schöpfergott (oft **Angrosch** genannt, in Galadon teils mit Aspekten von **[[06_Ignis]]** oder **[[03_Bellum]]** identifiziert) aus dem Fels gehauen und mit Feuer beseelt.
+Nach ihrem Glauben wurden die Dwarschim von ihrem Schöpfergott (oft **Angrosch** genannt, in Galadon teils mit Aspekten von **[[Ignis]]** oder **[[Bellum]]** identifiziert) aus dem Fels gehauen und mit Feuer beseelt.
 *   **Die Esse:** Das zentrale Symbol ihres Glaubens.
 *   **Schmiedekunst:** Gilt als heiliger Akt.
 
@@ -48,8 +48,8 @@ Der Bart eines Dwarschim ist weit mehr als Zierde:
 ## Beziehungen zu anderen Völkern
 *   **[[Rasse_Menschen]]:** Gute Handelsbeziehungen. Zwerge schätzen galadonisches Bier und Gold, [[Rasse_Menschen]] schätzen zwergische Waffen.
 *   **[[Rasse_Elfen]]:** "Baumkuschler". Man geht sich aus dem Weg. Zwerge finden Rasse_Elfen arrogant und schwächlich, [[Rasse_Elfen]] finden Zwerge gierig und grob.
-*   **[[Rasse_Orken]]:** Erbfeindschaft. Der Kampf um die Berge und Bingen tobt seit Urzeiten.
-*   **[[Rasse_Halblinge]]:** Manchmal belächelt, aber als Handelspartner für Nahrungsmittel geschätzt.
+*   **[[Orken]]:** Erbfeindschaft. Der Kampf um die Berge und Bingen tobt seit Urzeiten.
+*   **[[Halblinge]]:** Manchmal belächelt, aber als Handelspartner für Nahrungsmittel geschätzt.
 
 ## Verlinkte Themen
 *   [[Region Kettel|Narko]]

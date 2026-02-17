@@ -9,7 +9,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_148]].md
 
 **Titel:** Anwärter / Soldat
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Siebenwind]] (Lehensbanner) / [[Rasse_Orken]]
+**Zugehörigkeit:** [[Siebenwind]] (Lehensbanner) / [[Orken]]
 **Zeitraum:** aktiv 17 n.H.
 
 ## Beschreibung

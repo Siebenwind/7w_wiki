@@ -2,7 +2,7 @@
 layout: wiki_page
 title: Tanthul
 category: [[Persoenlichkeiten_Uebersicht]]
-quelle: [[[Daimonicon]]] / [Schwarze Ritualmagie]
+quelle: [[Daimonicon]] / [Schwarze Ritualmagie]
 status: #überlieferung
 letzter_check: 2026-02-14
 ---

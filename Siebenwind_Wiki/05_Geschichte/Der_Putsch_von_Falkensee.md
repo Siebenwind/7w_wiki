@@ -23,7 +23,7 @@ Der Rat, vertreten durch [[Solice_Aurora]], [[Custodias]] und [[Hebren_Zemand]],
 
 ## Verlauf
 - **Der Schlag (28. Carmar):** Die Garde riegelte die Tore von [[Falkensee]] ab und versuchte, die Ratsmitglieder in einer koordinierten Aktion zu verhaften. Rätin [[Imea_Ekula]] geriet dabei in Gefangenschaft.
-- **Kriegsrecht:** Um ein Blutvergießen zu verhindern und die Ordnung zu wahren, griffen externe Mächte ein. Der **Löwenorden** und Truppen aus **[[Malthust]]** zogen in die Stadt ein, was de facto zu einem Kriegsrecht führte.
+- **Kriegsrecht:** Um ein Blutvergießen zu verhindern und die Ordnung zu wahren, griffen externe Mächte ein. Der **Löwenorden** und Truppen aus **[[Region_Malthust]]** zogen in die Stadt ein, was de facto zu einem Kriegsrecht führte.
 - **Eskalation:** Innerhalb der Garde kam es zu schweren moralischen Konflikten, die im tragischen Kameradenmord eines namenlosen Gardisten gipfelten.
 
 ## Folgen

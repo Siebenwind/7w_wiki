@@ -15,7 +15,7 @@ Die Erzählung **"Die Namikleris"** schildert die Vorbereitungen des Däumlings 
 ## Handlung
 
 ### Der Impuls
-Der Protagonist, ein "dürrer Blonder" (eindeutig identifizierbar als Tintin), leidet unter der Stille und Untätigkeit in der Priorei der [[Ecclesia_Elementorum]] zu [[Malthust]]. Er ist ein Schüler des Erzpriesters [[Vencurius]], fühlt sich jedoch von der Routine und den politischen Spannungen ("Malthuster Oberkommando") eingeengt. Getrieben von Fernweh und dem Wunsch nach Freiheit, nutzt er eine Erlaubnis des Oberkommandos, um sich ein Schiff zu "leihen".
+Der Protagonist, ein "dürrer Blonder" (eindeutig identifizierbar als Tintin), leidet unter der Stille und Untätigkeit in der Priorei der [[Ecclesia_Elementorum]] zu [[Region_Malthust]]. Er ist ein Schüler des Erzpriesters [[Vencurius]], fühlt sich jedoch von der Routine und den politischen Spannungen ("Malthuster Oberkommando") eingeengt. Getrieben von Fernweh und dem Wunsch nach Freiheit, nutzt er eine Erlaubnis des Oberkommandos, um sich ein Schiff zu "leihen".
 
 ### Das Schiff
 Tintin wählt die **"Stolz von [[Brandenstein]]"**, eine ausgediente und heruntergekommene Kogge, die im Volksmund auch **"Dreckschleuder"** genannt wurde. Mit manischer Energie und der Hilfe von Werftarbeitern und Näherinnen beginnt er, das Schiff zu restaurieren. Er plant, Planken auszutauschen ("Eiche? Eibe? Schwarzholz?"), den Rost zu entfernen und die Segel zu flicken.

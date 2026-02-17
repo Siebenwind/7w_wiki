@@ -19,18 +19,18 @@ tags: [Elementarherr, [[Enhor]], Wasser, Eis, [[index]]]
 - **Symbole:** Die Welle, der Dreizack, der Kelch (als Gefäß).
 
 ## Mythologie
-Xan ist der stillste der [[Enhor]]. Seine Tiefen bergen Geheimnisse, die selbst *[[05_Morsan]] (Tod)* respektiert. Er ist der Wächter über das Leben spendende Nass, ohne das nichts auf *[[Tare]]* gedeihen könnte.
+Xan ist der stillste der [[Enhor]]. Seine Tiefen bergen Geheimnisse, die selbst *[[Morsan]] (Tod)* respektiert. Er ist der Wächter über das Leben spendende Nass, ohne das nichts auf *[[Tare]]* gedeihen könnte.
 
 ## Verehrung
-Fischer, Matrosen, Wäscherinnen und Heiler ehren ihn. Er gilt als Launisch: Ein ruhiges Meer kann schnell zum tosenden Sturm werden (oft im Streit mit *[[08_Ventus]]*).
+Fischer, Matrosen, Wäscherinnen und Heiler ehren ihn. Er gilt als Launisch: Ein ruhiges Meer kann schnell zum tosenden Sturm werden (oft im Streit mit *[[Ventus]]*).
 
 ## [[index]] (Elementarer Pfad)
 Wassermagier (Hydromanten) können heilen, Wasser atmen, Eiswände erschaffen oder Gegner einfrieren.
 
 ## Beziehungen
-- **[[06_Ignis]] (Feuer):** Sein natürlicher Feind. Wasser löscht Feuer.
-- **[[07_Rien]] (Erde):** Wasser formt Erde (Flusstal), Erde begrenzt Wasser (Ufer). Eine symbiotische, aber spannungsgeladene Beziehung.
-- **[[08_Ventus]] (Luft):** Oft im Tanz vereint (Wellen, Sturm).
+- **[[Ignis]] (Feuer):** Sein natürlicher Feind. Wasser löscht Feuer.
+- **[[Rien]] (Erde):** Wasser formt Erde (Flusstal), Erde begrenzt Wasser (Ufer). Eine symbiotische, aber spannungsgeladene Beziehung.
+- **[[Ventus]] (Luft):** Oft im Tanz vereint (Wellen, Sturm).
 
 ## Verwandte Themen
 - [[00_Religion_Uebersicht]]

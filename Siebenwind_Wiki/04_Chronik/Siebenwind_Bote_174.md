@@ -20,7 +20,7 @@ In einem historischen Erlass hat König [[Hilgorad_I_ap_Mer]] die [[Kronmark]] [
 ### Neue Lehensherren
 - **[[Falkensee]] & [[Südfall]]:** Übergeben an den [[Ersonter_Bund]] (vertreten durch Burggräfin [[Hannah_Berndorf]]).
 - **[[Brandenstein]]:** Erhält Stadtrecht und wird dem Fürstentum Malthust ([[Pakt_der_Viereinigkeit]]) unterstellt (vertreten durch [[Flavius_Lewenstein]]).
-- **Völkergebiete:** [[Greifenklipp]] ([[Nortraven]]), [[Kesselklamm]] ([[Dwarschim]]), [[Avindhrell]] ([[Elfen]]), [[Dunquell]] ([[Hobbits]]) und der Süden ([[Orken]]) erhalten Hoheitsrechte.
+- **Völkergebiete:** [[Greifenklipp]] ([[Nortraven]]), [[Bragarim]] ([[Dwarschim]]), [[Avindhrell]] ([[Elfen]]), [[Dunquell]] ([[Hobbits]]) und der Süden ([[Orken]]) erhalten Hoheitsrechte.
 
 ### [[Der_Hutmacher]]-Fluch
 Die Bedrohung durch den [[Hutmacher]] hält an. 
@@ -38,4 +38,4 @@ Die Bedrohung durch den [[Hutmacher]] hält an.
 
 ---
 **Quellen:** [[Siebenwind_Bote_174]] (Original)
-**Siehe auch:** [[Chronik]], [[Ersonter_Bund]], [[Pakt_der_Viereinigkeit]], [[Seeberg]]
+**Siehe auch:** [[Die_Chronik]], [[Ersonter_Bund]], [[Pakt_der_Viereinigkeit]], [[Seeberg]]

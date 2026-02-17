@@ -31,4 +31,4 @@ Ein historisches [[Dunkeltief]], markiert durch die Rückkehr des "Verlorenen So
 
 ---
 **Quellen:** [[Siebenwind_Bote_188]] (Original)
-**Siehe auch:** [[Chronik]], [[Dunkeltief_29_nH]], [[Konzil_aller_Pfade]]
+**Siehe auch:** [[Die_Chronik]], [[Dunkeltief_29_nH]], [[Konzil_aller_Pfade]]

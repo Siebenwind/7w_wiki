@@ -12,7 +12,7 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 **Titel:** Anwärter
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Belli]] / [[01_Bellum|Bellum]]
+**Zugehörigkeit:** [[Ordo_Belli]] / [[Bellum|Bellum]]
 
 ## Beschreibung
 **Rondal Botun** ist ein Anwärter des [[Bellum]]-Ordens, der im Jahr 21 n.H. in den Klerusregistern erwähnt wird (Bote 179).
@@ -21,8 +21,8 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 - **Klerale Laufbahn:** Ausbildung zum Kämpfer des Herrn [[Bellum]].
 
 ## Verlinkte Themen
-- [[01_Bellum]]
+- [[Bellum]]
 - [[Personenregister]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind_Bote_179]]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20179.md)
+- Primärquelle: [[Siebenwind_Bote_179]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20179.md)

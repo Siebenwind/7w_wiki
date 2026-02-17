@@ -8,7 +8,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 **Titel:** Landsbaron, Marschall von [[Brandenstein]]
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Malthust]] / Armee
+**Zugehörigkeit:** [[Region_Malthust]] / Armee
 
 ## Beschreibung
 **Erhard Merthes** erreichte im Jahr 21 n.H. [[Siebenwind]] als neuer Marschall für die Exklave [[Brandenstein]]. Er löste damit die bisherige militärische Führung ab (bzw. ergänzte sie) und soll für frischen Wind in der Verwaltung und Verteidigung sorgen.

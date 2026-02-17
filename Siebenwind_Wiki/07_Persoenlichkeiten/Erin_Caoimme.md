@@ -8,7 +8,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 **Titel:** Leutnant der Wacht
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Malthust]] / [[Brandenstein]]
+**Zugehörigkeit:** [[Region_Malthust]] / [[Brandenstein]]
 **Zeitraum:** aktiv 19-22 n.H.
 
 ## Beschreibung
@@ -16,4 +16,4 @@ category: [[Persoenlichkeiten_Uebersicht]]
 Im Jahr 22 n.H. (Bote 186) führte sie die Verhaftung der Patrizierin [[Marnie_Ruatha]] durch, was zu erheblichen Spannungen und Übergriffen auf Zivilisten ([[Khyra_Hohentann]]) führte.
 
 ---
-**Siehe auch:** [[Malthust]], [[Verhaftung_von_Marnie_Ruatha]]
+**Siehe auch:** [[Region_Malthust]], [[Verhaftung_von_Marnie_Ruatha]]

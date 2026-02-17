@@ -26,4 +26,4 @@ In [[Brandenstein]] kam es zu einem gewaltsamen Zwischenfall zwischen der Tempel
 
 ---
 **Quellen:** [[Siebenwind_Bote_187]] (Original)
-**Siehe auch:** [[Chronik]], [[Konflikt_Tempelwache_Nortraven]]
+**Siehe auch:** [[Die_Chronik]], [[Konflikt_Tempelwache_Nortraven]]

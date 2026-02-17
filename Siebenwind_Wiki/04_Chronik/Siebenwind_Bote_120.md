@@ -27,4 +27,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_120]] (Original)
-**Siehe auch:** [[Chronik]], [[Auktion_der_Familie_Turek]], [[Vorfall_im_Haus_TharSala]]
+**Siehe auch:** [[Die_Chronik]], [[Auktion_der_Familie_Turek]], [[Vorfall_im_Haus_TharSala]]

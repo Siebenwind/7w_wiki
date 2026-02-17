@@ -19,7 +19,7 @@ tags: [Elementarherrin, [[Enhor]], Erde, [[Rasse_Zwerge]], [[index]]]
 - **Symbole:** Der Fels, der Berg, der Kristall.
 
 ## Mythologie
-Rien ist eng mit *[[03_Bellum]] (Krieg/Schmied)* verbunden. Zusammen schufen sie die **Rasse_Zwerge**, wobei Rien ihnen den Körper aus Fels gab und [[03_Bellum]] ihnen den [[Geist]] des Handwerks einhauchte. Sie ist auch die Patronin der Landwirte, die ihre Erde bestellen.
+Rien ist eng mit *[[Bellum]] (Krieg/Schmied)* verbunden. Zusammen schufen sie die **Rasse_Zwerge**, wobei Rien ihnen den Körper aus Fels gab und [[Bellum]] ihnen den [[Geist]] des Handwerks einhauchte. Sie ist auch die Patronin der Landwirte, die ihre Erde bestellen.
 
 ## Verehrung
 [[Rasse_Zwerge]] ehren sie als die "Erste Mutter". Bauern opfern ihr die erste Ernte. Erdmagier rufen sie an, um Felswände zu erschaffen oder Erdbeben zu besänftigen.
@@ -28,9 +28,9 @@ Rien ist eng mit *[[03_Bellum]] (Krieg/Schmied)* verbunden. Zusammen schufen sie
 Der Pfad der Erde ist langsam, aber mächtig. Seine Anhänger können Mauern aus dem Boden wachsen lassen, sich in Stein verwandeln oder die Tragkraft von Erde beeinflussen.
 
 ## Beziehungen
-- **[[06_Ignis]] (Feuer):** Oft der Zerstörer ihrer [[index]].
-- **[[08_Ventus]] (Luft):** Erosion trägt Fels ab. Rien ist oft genervt von seiner Flüchtigkeit.
-- **[[09_Xan]] (Wasser):** Wasser wäscht Stein aus, kann aber auch Leben spenden.
+- **[[Ignis]] (Feuer):** Oft der Zerstörer ihrer [[index]].
+- **[[Ventus]] (Luft):** Erosion trägt Fels ab. Rien ist oft genervt von seiner Flüchtigkeit.
+- **[[Xan]] (Wasser):** Wasser wäscht Stein aus, kann aber auch Leben spenden.
 
 ## Verwandte Themen
 - [[00_Religion_Uebersicht]]

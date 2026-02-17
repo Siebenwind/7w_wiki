@@ -23,7 +23,7 @@ Gerüchte über eine bevorstehende totale Vernichtung der Insel durch einen "Kri
 
 ## Konflikte
 ### Orkenaufstand
-Ein Trupp bewaffneter **[[Rasse_Orken]]** marschierte durch die Hauptstadt und griff Vertreter der Obrigkeit sowie den Lehensherren an. Die Stadt befindet sich in Alarmbereitschaft.
+Ein Trupp bewaffneter **[[Orken]]** marschierte durch die Hauptstadt und griff Vertreter der Obrigkeit sowie den Lehensherren an. Die Stadt befindet sich in Alarmbereitschaft.
 
 ## Derivate
 *   [[Telion]]

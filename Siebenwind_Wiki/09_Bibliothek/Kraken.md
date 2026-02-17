@@ -10,7 +10,7 @@ status: #perspektive
 
 **Epistemischer Status:** #perspektive (Subjektive Essays und Träume)
 
-Das Dokument **"Kraken"** versammelt drei thematisch verknüpfte Vignetten, die sich mit dem Krieg in [[Vandrien]], der Natur von [[02_Astrael|Astrael]] und der mythischen Gestalt des **Kraken** befassen.
+Das Dokument **"Kraken"** versammelt drei thematisch verknüpfte Vignetten, die sich mit dem Krieg in [[Vandrien]], der Natur von [[Astrael|Astrael]] und der mythischen Gestalt des **Kraken** befassen.
 
 ## Inhalte
 
@@ -29,7 +29,7 @@ Ein Essay, der Bibliotheken (speziell die der [[Ecclesia]]) nicht nur als Schrei
 *   **[[index]] und Opfer:** Durch das Schreiben bannen Mensche ihre Geheimnisse mit diesem "Blut" auf Papier, was der Kraken in der Tiefe weiß.
 
 ### 4. Fieberträume eines Soldaten
-Ein Soldat im Fieberwahn wird von der Vision eines Jungen heimgesucht, dem ein **rostiger Schlüssel aus der Stirn ragt**. Diese verstörende Gestalt dient als Bote einer nihilistischen Erkenntnis: Kriege sind nur Spiele von kindlichen Giganten ("Seelen"), die ohne Moral Städte wie Bauklötze umwerfen. [[01_Bellum|Bellum]] wird hierbei als abwesender Vater dieser "Kinder" angerufen.
+Ein Soldat im Fieberwahn wird von der Vision eines Jungen heimgesucht, dem ein **rostiger Schlüssel aus der Stirn ragt**. Diese verstörende Gestalt dient als Bote einer nihilistischen Erkenntnis: Kriege sind nur Spiele von kindlichen Giganten ("Seelen"), die ohne Moral Städte wie Bauklötze umwerfen. [[Bellum|Bellum]] wird hierbei als abwesender Vater dieser "Kinder" angerufen.
 
 ## Relevante Entitäten
 

@@ -18,5 +18,5 @@
 - [Test mit [[Siebenwind]]]
 
 ## Absolute Paths (from Docs root)
-- [[Siebenwind_Wiki/02_Geografie/Siebenwind]]
-- [[Siebenwind_Wiki/07_Persoenlichkeiten/Beladriel_Blaettertanz]]
+- [[Siebenwind]]
+- [[Beladriel_Blaettertanz]]

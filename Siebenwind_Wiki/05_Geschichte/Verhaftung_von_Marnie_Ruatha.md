@@ -19,4 +19,4 @@ Im Zuge der Verhaftung kam es zu Übergriffen auf Zivilisten. [[Khyra_Hohentann]
 Dies rief die Kirche auf den Plan: [[Custodias]] stellte [[Marnie_Ruatha]] unter den Schutz des Kirchenrechts ("Asyl"), um sie dem Zugriff der Malthuster Militärjustiz zu entziehen.
 
 ---
-**Siehe auch:** [[Malthust]], [[Brandenstein]], [[Custodias]]
+**Siehe auch:** [[Region_Malthust]], [[Brandenstein]], [[Custodias]]

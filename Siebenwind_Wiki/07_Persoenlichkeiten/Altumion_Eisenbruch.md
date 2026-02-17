@@ -16,7 +16,7 @@ Altumion Eisenbruch ist ein hochangesehener Richter zwergischer Abstammung, der 
 
 ## Karriere & Timeline
 - **Vor 123 n.H.:** Ernennung zum Inselrichter. Seine Arbeit wird ausdrücklich für ihre Zuverlässigkeit und Gerechtigkeit gelobt.
-- **123 n.H.:** Begrüßung von [[Wim_Derfflinger]] ([[02_Astrael]]-Geweihter) als Beisitzer im Gericht. Seine Verbundenheit mit der Krone und dem Glauben an [[index]] und Ordnung wird als "in Stein gemeißelt" beschrieben.
+- **123 n.H.:** Begrüßung von [[Wim_Derfflinger]] ([[Astrael]]-Geweihter) als Beisitzer im Gericht. Seine Verbundenheit mit der Krone und dem Glauben an [[index]] und Ordnung wird als "in Stein gemeißelt" beschrieben.
 
 ## Bedeutung
 Altumion symbolisiert die Integration der Völker unter dem Banner König Hilgorads und die Unparteilichkeit der galadonischen Justiz.

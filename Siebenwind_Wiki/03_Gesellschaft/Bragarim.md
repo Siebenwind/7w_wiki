@@ -12,7 +12,7 @@ letzter_check: 2026-02-13T14:47:00+01:00
 **Epistemischer Status:** #canon
 **Typ:** Militärische Garde
 **Zugehörigkeit:** [[Dwarschim]]
-**Sitz:** [[Kesselklamm]]
+**Sitz:** [[Bragarim]]
 
 ## Überblick
 
@@ -35,7 +35,7 @@ Die Bragarim folgt einer klaren, nach Kampferfahrung gestaffelten Rangordnung:
 
 Der **Kan'thrag** ist mehr als ein bloßer Offizier — er verkörpert die Hoffnung seines Volkes. Die Kanon-Quelle beschreibt ihn als „den Kämpfer mit der größten Erfahrung", einen mächtigen Krieger, in dem die [[Zwerge]] „alle Hoffnung sehen, wenn er in die Schlacht zieht". Er führt nicht nur das Heer, sondern die Bragarim als Ganzes.
 
-Die Bragarim operiert eng mit dem [[Orden_der_Wachenden_Löwen]] zusammen, was durch den **Wallpakt** (21 n.H.) formalisiert wurde — ein Freundschaftsvertrag zwischen dem Orden, den Dwarschim und [[Malthust]] zur gemeinsamen Verteidigung gegen [[Angamon]].
+Die Bragarim operiert eng mit dem [[Orden_der_Wachenden_Löwen]] zusammen, was durch den **Wallpakt** (21 n.H.) formalisiert wurde — ein Freundschaftsvertrag zwischen dem Orden, den Dwarschim und [[Region_Malthust]] zur gemeinsamen Verteidigung gegen [[Angamon]].
 
 ## Bekannte Mitglieder
 

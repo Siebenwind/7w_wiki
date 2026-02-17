@@ -22,4 +22,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_129]] (Original)
-**Siehe auch:** [[Chronik]], [[Brandenstein]], [[Handelsbund]]
+**Siehe auch:** [[Die_Chronik]], [[Brandenstein]], [[Handelsbund]]

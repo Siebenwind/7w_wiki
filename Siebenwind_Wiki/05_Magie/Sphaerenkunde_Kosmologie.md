@@ -31,4 +31,4 @@ Nach der Theorie von [[Kida_Gilwen]] existiert eine allumfassende **Zeitsphäre*
 4.  **Laf'ay & Horwah**: Erhabene Dienerwesen der Götter.
 
 ---
-**Siehe auch:** [[Magie]], [[Daimonicon]], [[Rituallehre_Sphaeren]], [[Kida_Gilwen]]
+**Siehe auch:** [[Magie_Grundlagen]], [[Daimonicon]], [[Rituallehre_Sphaeren]], [[Kida_Gilwen]]

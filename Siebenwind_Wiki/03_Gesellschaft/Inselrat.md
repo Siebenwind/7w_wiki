@@ -10,7 +10,7 @@ category: [[Gesellschaft]]
 
 ## Status (ab 20 n.H.)
 > [!IMPORTANT]
-> Mit dem [[Der_Erlass_des_Koenigs|Erlass des Königs]] am 26. Trier 20 n.H. wurde der **Inselrat offiziell aufgelöst**. Seine Kompetenzen gingen auf die Lehensnehmer ([[Ersonter_Bund]], [[Malthust]]) und die autonomen Völker über.
+> Mit dem [[Der_Erlass_des_Koenigs|Erlass des Königs]] am 26. Trier 20 n.H. wurde der **Inselrat offiziell aufgelöst**. Seine Kompetenzen gingen auf die Lehensnehmer ([[Ersonter_Bund]], [[Region_Malthust]]) und die autonomen Völker über.
 
 ## Beschreibung
 Der **Inselrat** war das oberste administrative und gerichtliche Gremium der Insel [[Siebenwind]] bis zu seiner Auflösung im Jahr 20 n.H.

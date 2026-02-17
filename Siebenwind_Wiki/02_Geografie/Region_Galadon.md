@@ -22,7 +22,7 @@ Das Reich ist in zahlreiche Herzogtümer, Fürstentümer, Grafschaften und Baron
 
 ### 1. Herzogtümer (Königsfamilie)
 *   **[[Region Bernstein]]:** (Zentral) Das Herz des Reiches mit der Hauptstadt [[Draconis]] und der Burg Bernstein.
-*   **[[Region Sae]]:** (Südwest) Zentrum des Wissens und des [[02_Astrael]]-Glaubens ("Lafay's Stab").
+*   **[[Region Sae]]:** (Südwest) Zentrum des Wissens und des [[Astrael]]-Glaubens ("Lafay's Stab").
 *   **[[Region Savaro]]:** (Südost) Fruchtbares Land, bekannt für Seilerei und Landwirtschaft.
 *   **[[Region Taras]]:** (Details noch zu ergänzen).
 
@@ -38,7 +38,7 @@ Das Reich ist in zahlreiche Herzogtümer, Fürstentümer, Grafschaften und Baron
 *   **[[Region Lichtenfeld]]:** (Westküste) Auenlandschaft, Schafe, Auenelfen.
 *   **[[Region Papin]]:** (Südost) Handelszentrum, Konkurrenz zu Malthust.
 *   **[[Region Rothschild]]:** (Mitte/Küste) Werften, Fluss Drac, Graf Patrick.
-*   **[[Region Gerdenwald]]:** (Insel Hügelau) Heimat der [[Rasse_Halblinge]].
+*   **[[Region Gerdenwald]]:** (Insel Hügelau) Heimat der [[Halblinge]].
 *   **[[Region Kadamark]]:** (Nordost) Holz, Handwerk, Baron Siegfried.
 *   **[[Region Kettel]]:** (Nordost) Tradition, Textil (Librasulus), Zwergenstadt Narko.
 *   **[[Region Morthum]]:** (Ost) Düster, Bergbau am Dabus, Seuche "[[Atmender_Tod]]".

@@ -19,7 +19,7 @@ Das Werk beschreibt die drei Sphären der Existenz:
 Zwischen den Sphären existiert der **Limbus**, eine chaotische Zone des Übergangs.
 
 ### Magische Theorien
-[[Dur]] stellt verschiedene Theorien vor, um das Wirken von [[index]] zu erklären:
+[[Toran_Dur]] stellt verschiedene Theorien vor, um das Wirken von [[index]] zu erklären:
 *   **Fadentheorie**: Das astrale Netz besteht aus Fäden der fünf Elemente (Feuer, Wasser, Erde, Luft, [[Geist]]).
 *   **Aurentheorie**: Jedes Lebewesen besitzt eine Aura, die manipuliert werden kann.
 *   **Theorie der größeren Ströme**: Eine fortgeschrittene Theorie, die Ströme im astralen Netz (sowohl im fixen als auch im flexiblen Netz) betrachtet (siehe dazu auch [[Theorien der [[index]] ([[Toran_Dur]])]]).

@@ -31,9 +31,9 @@ Die **[[Kirche_der_Viere]]** verehrt sie als Schutzpatronin der Liebenden, der M
 Vitama ist allgegenwärtig bei Hochzeiten, Geburten und Festen. Sie ist die Gegenkraft zum kriegerischen [[Bellum]] und mahnt, dass der Kampf nur dann Sinn ergibt, wenn er dazu dient, das Schöne zu bewahren.
 
 ## Beziehungen
-- **[[05_Morsan]]:** Ihr Gegenpol. Leben und Tod bedingen einander. Vitama respektiert Morsans Rolle als das notwendige Ende, damit Neues entstehen kann.
-- **[[02_Astrael]]:** Ihr Bruder des Verstandes. Sie lehrt ihn, dass [[index]] ohne Herz kalt ist.
-- **[[03_Bellum]]:** Ihr Bruder der Stärke. Sie lehrt ihn, dass Stärke ohne Milde grausam ist.
+- **[[Morsan]]:** Ihr Gegenpol. Leben und Tod bedingen einander. Vitama respektiert Morsans Rolle als das notwendige Ende, damit Neues entstehen kann.
+- **[[Astrael]]:** Ihr Bruder des Verstandes. Sie lehrt ihn, dass [[index]] ohne Herz kalt ist.
+- **[[Bellum]]:** Ihr Bruder der Stärke. Sie lehrt ihn, dass Stärke ohne Milde grausam ist.
 
 ## Verwandte Themen
 - [[Religion_Übersicht]]

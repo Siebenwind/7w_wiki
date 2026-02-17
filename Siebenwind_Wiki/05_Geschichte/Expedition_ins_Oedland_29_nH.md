@@ -16,4 +16,4 @@ Eine Erkundungsmission ins [[Ödland]], um die Ausbreitung des Zwergen-Dämons z
 - **Bedrohung:** Ein Wall aus verderbten Bäumen schützt das Innere.
 
 ---
-**Siehe auch:** [[Oedland]], [[Dunkeltief_29_nH]]
+**Siehe auch:** [[Ödland]], [[Dunkeltief_29_nH]]

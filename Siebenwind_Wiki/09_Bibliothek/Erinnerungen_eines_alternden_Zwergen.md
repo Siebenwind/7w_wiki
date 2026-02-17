@@ -16,7 +16,7 @@ letzter_check: 2026-02-14T01:15:00
 
 ## Inhaltliche Schwerpunkte
 
-Die Erzählung begleitet [[Thorgat]] in seinem vierten Lebensjahrhundert. Gezeichnet von unzähligen Schlachten — symbolisiert durch seine eisernen Zahnschienen, die einen Verlust durch einen Trollschlag kompensieren — reflektiert er über seine Jugend in den **Drachschwingen** und sein heutiges Wirken in **[[Kesselklamm]]**.
+Die Erzählung begleitet [[Thorgat]] in seinem vierten Lebensjahrhundert. Gezeichnet von unzähligen Schlachten — symbolisiert durch seine eisernen Zahnschienen, die einen Verlust durch einen Trollschlag kompensieren — reflektiert er über seine Jugend in den **Drachschwingen** und sein heutiges Wirken in **[[Bragarim]]**.
 
 ### Zentrale Lore-Elemente
 *   **Arkadons Feuer:** Das Konzept eines inneren, brennenden Zorns, der jeden Zwerg antreibt, aber durch Disziplin und die Tugenden von **[[Bellum]]** und **[[Terra]]** gezähmt werden muss.
@@ -29,4 +29,4 @@ Die Erzählung beschreibt detailliert zwergische Hochzeitsbräuche (das Seilspie
 
 ## Referenzen
 - Primärquelle: [Erinnerungen eines alternden Zwergen](../../Quellen/Spielergeschichten/Erinnerungen%20eines%20alternden%20Zwergen%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)
-- Siehe auch: [[Thorgat]], [[Dwarschim]], [[Kesselklamm]], [[Arkadon]]
+- Siehe auch: [[Thorgat]], [[Dwarschim]], [[Bragarim]], [[Arkadon]]

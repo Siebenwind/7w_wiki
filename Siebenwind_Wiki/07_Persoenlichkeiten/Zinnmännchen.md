@@ -16,4 +16,4 @@ letzter_check: 2026-02-13T23:55:00
 Das Zinnmännchen wird im [[Siebenwind_Bote_150|[[Siebenwind]] Boten]] als kurioses, möglicherweise magisch belebtes Objekt erwähnt.
 
 ## Quellen
-*   [[[Siebenwind_Bote_150]]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20150.md)
+*   [[Siebenwind_Bote_150]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20150.md)

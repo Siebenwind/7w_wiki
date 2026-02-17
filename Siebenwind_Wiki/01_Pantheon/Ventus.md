@@ -28,9 +28,9 @@ Seefahrer und Händler opfern ihm vor jeder Reise. Magier der Luft wenden sich a
 Der Pfad der Luft bietet Kontrolle über Winde (Segel setzen, Gegner wegwehen), Unsichtbarkeit oder das Schweben.
 
 ## Beziehungen
-- **[[07_Rien]] (Erde):** Sein Gegenpol. Erde ist fest, Luft ist flüchtig.
-- **[[06_Ignis]] (Feuer):** Oft verbündet, da Wind Feuer anfacht.
-- **[[09_Xan]] (Wasser):** Wasser verdunstet zu Wolken, Wolken regnen Wasser. Ein ewiger Kreislauf.
+- **[[Rien]] (Erde):** Sein Gegenpol. Erde ist fest, Luft ist flüchtig.
+- **[[Ignis]] (Feuer):** Oft verbündet, da Wind Feuer anfacht.
+- **[[Xan]] (Wasser):** Wasser verdunstet zu Wolken, Wolken regnen Wasser. Ein ewiger Kreislauf.
 
 ## Verwandte Themen
 - [[00_Religion_Uebersicht]]

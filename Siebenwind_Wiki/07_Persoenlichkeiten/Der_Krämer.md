@@ -8,7 +8,7 @@ category: [[Persönlichkeiten]]
 
 **Epistemischer Status:** #bote
 
-Eine mysteriöse Gestalt, die anonyme Kontaktanzeigen im [[Siebenwind_Bote|[[Siebenwind]] Boten]] schaltet.
+Eine mysteriöse Gestalt, die anonyme Kontaktanzeigen im [[Die_Chronik|[[Siebenwind]] Boten]] schaltet.
 
 ## Machenschaften
 "Der Krämer" gab im Jahr 15 n.H. eine Anzeige auf, in der er nach Informationen über bestimmte [[index]] und Waren suchte ([[Siebenwind_Bote_136]]). Er deutete an, dass er über [[index]] verfüge, das für einige Bürger unangenehm sein könnte.

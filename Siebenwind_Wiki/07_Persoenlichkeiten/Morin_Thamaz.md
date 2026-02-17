@@ -17,4 +17,4 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_158]].md
 *   **18 n.H. (Bote 158):** Er übernahm die Leitung des **Elementaren Pfades** an der [[Magierakademie]]. Er zeichnet sich durch sein ausgeprägtes fachliches [[index]] aus.
 
 ---
-**Siehe auch:** [[Magierakademie]], [[Magie]]
+**Siehe auch:** [[Magierakademie]], [[Magie_Grundlagen]]

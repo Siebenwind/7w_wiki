@@ -8,7 +8,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 **Titel:** Primus der [[Graue_Garde|Grauen Garde]]
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Graue_Garde]] / [[Magie]]
+**Zugehörigkeit:** [[Graue_Garde]] / [[Magie_Grundlagen]]
 
 ## Wirken
 *   **15 n.H. (Bote 127):** Primus der Grauen Garde. Er leitete die Expedition zum Sternfall bei [[Rohehafen]].

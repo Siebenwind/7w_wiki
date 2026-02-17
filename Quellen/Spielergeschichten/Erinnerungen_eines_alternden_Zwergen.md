@@ -80,7 +80,7 @@ Der Zwerg in seinem Alter zwischen 100 und 200 Jahren stemmte den rechten Fuß a
 
 ## 6. Von Verhör und Gewalt
 
-Über einen Tisch im Wachhaus der Zwerge in [[Kesselklamm]] gebeugt dachte der Zwerg über das grade erst Geschehene nach:  
+Über einen Tisch im Wachhaus der Zwerge in [[Bragarim]] gebeugt dachte der Zwerg über das grade erst Geschehene nach:  
 Wie er auf die Verkäuferin in der Taverne in [[Falkensee]] hinter dem Tresen zugestürmt war…wie er die Antworten bekommen hatte, die er suchte…aber irgendwie doch nicht zu Genüge…wie er sich eigentlich Sicherheit verschaffen wollte, dass die Frau ihn nicht anlog. In der Küche wärde alles da gewesen: siedendes Wasser, offenes Feuer, scharfe Messer.  
 Und dabei musste er an eine andere Begebenheit aus der fernen Vergangenheit denken:
 
@@ -106,7 +106,7 @@ Plötzlich spürte der Bra’gar eine Last auf seinen Schultern. Ein Jungbart ka
 
 ## 8. Heimat und Fremde
 
-Zwei Tage und zwei Nächte hatte er nun schon gemeinsam mit dem anderen Bergzwerg, der nicht wie er die Uniform der Talwache trug, in [[Kesselklamm]] Wache gestanden. Wie steinerne Statuen hatten die zwei vor dem Haus des „Dharkep“, dem „Ratshaus“ ausgeharrt, um es gegen die [[Sammler]] zu bewachen.  
+Zwei Tage und zwei Nächte hatte er nun schon gemeinsam mit dem anderen Bergzwerg, der nicht wie er die Uniform der Talwache trug, in [[Bragarim]] Wache gestanden. Wie steinerne Statuen hatten die zwei vor dem Haus des „Dharkep“, dem „Ratshaus“ ausgeharrt, um es gegen die [[Sammler]] zu bewachen.  
 Zuvor schon hatte er nicht schlafen können. Die vielleicht schrecklichsten Albträume seines Lebens hatten ihn gequält und aus Sorge um seinen Verstand hatte er sich krampfhaft wach gehalten…und nun das: ereignisloses Wachestehen. Ab und zu war mal jemand vorbei gekommen, hatte ein paar Worte mit ihnen gewechselt, aber die Eintönigkeit lastete drückend und immer schwerer auf seinen Augenlidern. Die geröteten Augen brannten als die über den Berghängen untergehende [[Fela]] ihn blendete und bei Dunkelheit wurde es noch schwerer, wach zu bleiben. Und schließlich, wie er so ins Leere vor sich her starrte, fielen die Augen schließlich zu…
 
 Vor seinem Auge breitete sich eine grenzenlose Landschaft aus. So weit der Blick reichte war es fast das gleiche Bild. Schroffe Berghänge, schneebedeckte Spitzen hoher Gebirge, zackige und scharfe Kanten überall. Das triste Grau des nackten Steins wurde nur von ebenso einfarbigen Schneekleksen und einigen grau-grünen Moosen und Flechten unterbrochen. Weit unten, im Nebel tief unter ihm, da wuchsen einige knorrige Nadelbäumchen quer zu den Felswänden, ihre Wurzeln irgendwie in den Lebensfeindlichen Fels gekrallt.  
@@ -159,7 +159,7 @@ Nach zähem Ringen hatte der Zwerg sich auf den menschlichen Räuber geworfen. I
 „Was ein Stück Metall doch anrichtet. So ein kleines Stück Metall…da lebt jemand über Dekaden oder auch über Jahrhunderte, tut tausend Dinge in seinem Leben, kann Unglaubliches vollbringen…ein kleines Stück Metall löscht es einfach aus. Lässt nichts zurück als einen Körper der zu Staub wird und Erinnerungen die verblassen werden. Ein so kleiner Dolch, eine so große Wirkung…“
 
 29. [[Seker]], 18. n. H.:  
-Zusammengesunken sitzt er am großen steinernen Versammlungstisch in der Binge von [[Kesselklamm]]. Vor ihm auf dem Tisch ein Dolch. Kein Blut klebt an ihm, aber für [[Thorgat]] war es schlimmer. Schwer zu erkennen hängen einige drahtige braune Haare an der Klinge, und leichter zu erkennen ein ganzes Büschel davon am Boden neben dem Tisch. „Was so ein Stück Metall doch anrichtet. Da lebt ein Bruder über Dekaden…und ein kleines Stück Metall straft ihn, wie es vielleicht der Tod nicht könnte. Ein so kleiner Dolch, eine so große Wirkung…“  
+Zusammengesunken sitzt er am großen steinernen Versammlungstisch in der Binge von [[Bragarim]]. Vor ihm auf dem Tisch ein Dolch. Kein Blut klebt an ihm, aber für [[Thorgat]] war es schlimmer. Schwer zu erkennen hängen einige drahtige braune Haare an der Klinge, und leichter zu erkennen ein ganzes Büschel davon am Boden neben dem Tisch. „Was so ein Stück Metall doch anrichtet. Da lebt ein Bruder über Dekaden…und ein kleines Stück Metall straft ihn, wie es vielleicht der Tod nicht könnte. Ein so kleiner Dolch, eine so große Wirkung…“  
 Ihm als Hauptmann war nach dem Urteil des Zwergenrates die Pflicht zugefallen, die Rasur vorzunehmen. Keine vollständige Entbartung, doch ein Stutzen das weit genug ging, um den Zwergen für alle anderen Zwerge als Ausgestoßenen zu brandmarken. Und ihn in seinem Inneren zu verletzen wie glühende Kohlen die man schluckt. „Wenn die Götter ihm gnädig sind, und wenn er seine Ehre wiederfindet und das, was einen Dwarschim ausmacht, dann wird sein Bart wieder wachsen. Dann soll alle Strafe vergessen sein und alle Schuld getilgt sein. Doch bis dahin ist er nun auch äußerlich so wie er sich verhalten hat: ein kleiner Mensch mit kurzem Bart. Mögen die Götter ihn wieder auf den rechten Pfad führen.“  
 Lange noch hing er seinen Gedanken nach…er hatte die schmerzlichste Pflicht übernehmen müssen, die seine Verantwortung mit sich brachte. Und seine Treue und Ergebenheit erlaubten es ihm nicht, sie nicht gehorsam auszuführen. Aus der Notwendigkeit heraus war er hier mehr geworden als der schlichte Soldat, der er immer nur bleiben wollte. Doch was würde noch auf ihn zukommen…wie viel würde ein Dwarschim im fortgeschrittenen Herbst seines Lebens noch ertragen müssen…ertragen können?
 
@@ -182,7 +182,7 @@ Als die Kreaturen zum 3. Tag angriffen, waren die Dwarschim erschöpft und gesch
 
 ## 14. Kameraden
 
-Schnarchend wälzte sich der alternde Zwerg im Schlaf. Ein anstrengender Abend lag hinter ihm: die Wanderung von [[Kesselklamm]] nach [[Brandenstein]], hinab nach [[Greifenklipp]] und zum Westen [[Falkensee|Falkensees]] und wieder zurück, alles begleitet von Gesang und Gegröhle…ein anstrengender Zweikampf im Ring der [[Nortraven]], ein kindskopfgroßer Krug Eiswasser, Unmengen von Met und zum Schluss noch das Schwarzbier bei den Hobbits, wo ihn der alte Bartfüßler immerfort so seltsam finster angesehen hatte…  
+Schnarchend wälzte sich der alternde Zwerg im Schlaf. Ein anstrengender Abend lag hinter ihm: die Wanderung von [[Bragarim]] nach [[Brandenstein]], hinab nach [[Greifenklipp]] und zum Westen [[Falkensee|Falkensees]] und wieder zurück, alles begleitet von Gesang und Gegröhle…ein anstrengender Zweikampf im Ring der [[Nortraven]], ein kindskopfgroßer Krug Eiswasser, Unmengen von Met und zum Schluss noch das Schwarzbier bei den Hobbits, wo ihn der alte Bartfüßler immerfort so seltsam finster angesehen hatte…  
 Sternhagelvoll war er ins Bett gefallen, hatte nichtmal mehr das eiserne Gebiss aus dem zahnlosen Mund genommen. Der Alkohol bescherte ihm eine unruhige Nacht, und in die Erinnerungen der gesungenen Trinklieder des Abends mischte sich die Erinnerung an andere Märsche und Gesänge:
 
 Fela klettert grade über die zerklüfteten Bergspitzen der [[Drachenschwingen]] und taucht die eigentlich kalte, karge Gebirgslandschaft in ein warmes gelbes Licht. Die morgendliche Stille wird jäh von lautem kehligen Gesang zerrissen:

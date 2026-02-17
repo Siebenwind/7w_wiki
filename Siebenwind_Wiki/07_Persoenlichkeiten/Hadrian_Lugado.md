@@ -22,4 +22,4 @@ letzter_check: 2026-02-13T23:35:00
 *   **Mission nach [[Siebenwind]]:** Er wählte [[Hubertus_Anverita]] aus, um ihn als seinen Agenten auf das Eiland zu senden.
 
 ## Quellen
-*   [[[Das_Ende_der_Zeit_der_Koenige]]](../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Ko%CC%88nige%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [[Das_Ende_der_Zeit_der_Koenige]](../../Quellen/Spielergeschichten/Das%20Ende%20der%20Zeit%20der%20Ko%CC%88nige%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)

@@ -12,7 +12,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 **Titel:** Boten-Redakteurin / Wirtin
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Siebenwind_Bote]] / Gastronomie
+**Zugehörigkeit:** [[Die_Chronik]] / Gastronomie
 
 ## Beschreibung
 **Felis** ist eine Redakteurin des [[Siebenwind]] Boten und betreibt zudem ein Etablissement in [[Brandenstein]]. Sie ist verheiratet mit [[Emanuel_Sanderus]] (Bote 172/176).
@@ -22,9 +22,9 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 - **Gastronomie:** Wirtin in [[Brandenstein]].
 
 ## Verlinkte Themen
-- [[Siebenwind_Bote]]
+- [[Die_Chronik]]
 - [[Emanuel_Sanderus]]
 - [[Personenregister]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind_Bote_177]]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20176.md)
+- Primärquelle: [[Siebenwind_Bote_177]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20176.md)

@@ -18,8 +18,8 @@ category: [[Persoenlichkeiten_Uebersicht]]
 *   **19 n.H. (Bote 164):** Erhebung in den Stand des **Freiherrn** durch Graf Robaar für seinen treuen Dienst.
 *   **19 n.H. (Bote 166):** Er wurde mit dem Aufbau des **XIII. Königlichen Regiments** betraut, um seine Erfahrung in die neue Armee einzubringen. In einem Interview betonte er seine bedingungslose Loyalität zur Ritterschaft und zur Baronin. 
 *   **Mobilmachung (19 n.H.):** In Bote 168 veröffentlichte er einen flammenden Aufruf zur Einigkeit aller Völker gegen die [[Orks]] und erklärte Verräter der Krone für vogelfrei.
-*   **22 n.H. (Bote 185):** Er übernahm als neuer Hauptmann die Führung der **[[Ersonter_Garde]]** in [[Falkensee]].
+*   **22 n.H. (Bote 185):** Er übernahm als neuer Hauptmann die Führung der **[[Graue_Garde]]** in [[Falkensee]].
 Er heiratete im selben Jahr die Magierin [[Khyra_Hohentann]].
 
 ---
-**Siehe auch:** [[Ersonter_Garde]], [[Falkensee]]
+**Siehe auch:** [[Graue_Garde]], [[Falkensee]]

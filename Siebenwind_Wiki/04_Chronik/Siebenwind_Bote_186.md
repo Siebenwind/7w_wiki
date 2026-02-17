@@ -35,4 +35,4 @@ category: [[index]]
 
 ---
 **Quellen:** [[Siebenwind_Bote_186]] (Original)
-**Siehe auch:** [[Chronik]], [[Verhaftung_von_Marnie_Ruatha]], [[Tod_von_Tandrion_Intoma]]
+**Siehe auch:** [[Die_Chronik]], [[Verhaftung_von_Marnie_Ruatha]], [[Tod_von_Tandrion_Intoma]]

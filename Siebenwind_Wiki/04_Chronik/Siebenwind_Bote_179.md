@@ -33,4 +33,4 @@ Ein **Waffenrat** in [[Brandenstein]] (Leitung: [[Erin_Caiomme]]) beriet über d
 
 ---
 **Quellen:** [[Siebenwind_Bote_179]] (Original)
-**Siehe auch:** [[Chronik]], [[Hutmacher]], [[Sammlervolk]], [[Leandra]]
+**Siehe auch:** [[Die_Chronik]], [[Hutmacher]], [[Sammlervolk]], [[Leandra]]

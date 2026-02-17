@@ -27,7 +27,7 @@ Die Verehrung Angamons ist im Königreich Galadon bei Todesstrafe verboten. Sein
 - **Ziele:** Die Schwächung der *Viere* und die Vorbereitung der Welt auf die Herrschaft des Schattens.
 
 ## Die Dunkle Seite der [[index]]
-Hexenmeister und Nekromanten (die nicht den *[[05_Morsan]]*-Riten folgen) rufen oft Angamons Macht an, um [[Daemonen]] zu beschwören oder Flüche zu weben. Diese [[index]] fordert stets einen blutigen Preis.
+Hexenmeister und Nekromanten (die nicht den *[[Morsan]]*-Riten folgen) rufen oft Angamons Macht an, um [[Daemonen]] zu beschwören oder Flüche zu weben. Diese [[index]] fordert stets einen blutigen Preis.
 
 ## Beziehungen
 - **[[Bellum]]:** Sein erbittertster Feind. Wo [[Bellum]] loderndes Feuer gegen die Schatten führt, versucht Angamon, jede Flamme des Mutes zu ersticken.

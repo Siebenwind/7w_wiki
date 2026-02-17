@@ -32,8 +32,8 @@ Die **[[Kirche_der_Viere]]** ehrt Bellum als den Beschützer des Reiches.
 Bellum wird nicht nur vor der Schlacht angerufen, sondern auch bei jedem Hammerschlag in der Schmiede und bei jedem Richtspruch, der Härte erfordert. Er lehrt, dass Stärke ohne Ehre Tyrannei ist, und Ehre ohne Stärke nutzlos.
 
 ## Beziehungen
-- **[[02_Astrael]]:** Sein Bruder des Geistes. Bellum achtet das Gesetz Astraels, weiß aber, dass manchmal das Schwert nötig ist, um es durchzusetzen.
-- **[[07_Rien]]:** Seine engste Verbündete unter den *Elementarherren*. Ihre Zusammenarbeit bei der Schöpfung der [[Rasse_Zwerge]] ist legendär.
+- **[[Astrael]]:** Sein Bruder des Geistes. Bellum achtet das Gesetz Astraels, weiß aber, dass manchmal das Schwert nötig ist, um es durchzusetzen.
+- **[[Rien]]:** Seine engste Verbündete unter den *Elementarherren*. Ihre Zusammenarbeit bei der Schöpfung der [[Rasse_Zwerge]] ist legendär.
 - [[Angamon]]: Bellum ist der geschworene Feind des Namenlosen.
 
 ## Verwandte Themen

@@ -19,7 +19,7 @@ Die Dorotor wurden von ihrem eigenen Volk ausgestoßen, da sie die Ideale des [[
 
 ## Konflikt und Niederlage (20 n.H.)
 *   **Kriegserklärung:** Im Carmar 20 n.H. überbrachten zwei ihrer Mitglieder in [[Burg_Finianswacht]] eine Kriegserklärung an den [[Ersonter_Bund]], die jedoch als Hochstapelei entlarvt wurde.
-*   **Angriff auf das [[Tal_der_Ahnen]]:** Eine Koalition der freien Völker unter [[Traim_Eisenblut]] griff daraufhin ihren Stützpunkt im **[[Tal_der_Ahnen]]** ([[Oedland]]) an. In einer blutigen Schlacht wurde der Hohepriester der Dorotor vernichtet und die Siedlung dem Erdboden gleichgemacht ([[Siebenwind_Bote_175]]).
+*   **Angriff auf das [[Tal_der_Ahnen]]:** Eine Koalition der freien Völker unter [[Traim_Eisenblut]] griff daraufhin ihren Stützpunkt im **[[Tal_der_Ahnen]]** ([[Ödland]]) an. In einer blutigen Schlacht wurde der Hohepriester der Dorotor vernichtet und die Siedlung dem Erdboden gleichgemacht ([[Siebenwind_Bote_175]]).
 
 ---
 **Siehe auch:** [[Dwarschim]], [[Tal_der_Ahnen]], [[Traim_Eisenblut]], [[Merros]]

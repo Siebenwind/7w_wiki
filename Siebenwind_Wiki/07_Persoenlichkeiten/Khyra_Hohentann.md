@@ -8,7 +8,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 **Titel:** Magierin / Frau Hauptmann
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Akademie_der_Arkanen_Künste]] / [[Ersonter_Garde]]
+**Zugehörigkeit:** [[Akademie_der_Arkanen_Künste]] / [[Graue_Garde]]
 
 ## Beschreibung
 **Khyra Hohentann** ist eine Magierin (Novizin im Jahr 22 n.H.).

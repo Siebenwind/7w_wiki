@@ -29,7 +29,7 @@ In der Edelsteinmagie bestimmt die **Reinheit** die Wirkungsstärke und die **Gr
 | :--- | :--- | :--- | :--- |
 | **Amethyst** | Hagal / Fe | [[02_Vitama|Vitama]] | Würde, Schutz gegen Schwarzmagie. |
 | **Aquamarin** | Xa | [[Vitama]] / [[02_Xan|Xan]] | Frieden, Schutz vor [[Daemonen]]. |
-| **Bergkristall** | Neutral (Laf) | [[02_Astrael|Astrael]] | Essenz der Reinheit, negiert dunkle Kräfte. |
+| **Bergkristall** | Neutral (Laf) | [[Astrael|Astrael]] | Essenz der Reinheit, negiert dunkle Kräfte. |
 | **Bernstein** | Ri / Xa | [[Bellum]] / [[02_Rien|Rien]] | Gerechtigkeit, seelische Genesung. |
 | **Blutachat** | Neutral (Naquo) | [[02_Angamon|Angamon]] | Gefährlich; Entfesselung dämonischer Energien, Gedankenkontrolle. |
 | **Tansanit** | Variabel | - | Labyrinthartige Struktur; Schlüsselelement für die *Amlewa'*-Bannung. |

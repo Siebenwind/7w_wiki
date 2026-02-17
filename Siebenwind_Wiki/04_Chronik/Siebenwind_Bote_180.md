@@ -12,13 +12,13 @@ category: [[index]]
 ## Schlagzeilen
 
 ### [[Die_Spinnenplage_von_Falkensee]]
-[[Riesenspinnen]] bedrohen [[Falkensee]] und [[Suedfall]]. 
+[[Riesenspinnen]] bedrohen [[Falkensee]] und [[Südfall]]. 
 - **Gegenmaßnahmen:** Eine Gruppe um [[Custodias]], [[Solice_Aurora]] und [[Tiberias]] vernichtete eine "Mutterspinne" in der Kanalisation.
 - **Täuschung:** [[Tarnuk]] (Lieblicher Kelch) gab sich als sprechende Spinne aus, was für Verwirrung sorgte.
 
 ### [[Der_Goblinkrieg]]
-Umfassender Bericht über die Schlachten gegen die [[Goblins]] aus dem [[Oedland]].
-- **Allianz:** Ursprünglich kämpften [[Nortraven]], [[Dwarschim]], [[Malthust]] und der [[Löwenorden]] gemeinsam.
+Umfassender Bericht über die Schlachten gegen die [[Goblins]] aus dem [[Ödland]].
+- **Allianz:** Ursprünglich kämpften [[Nortraven]], [[Dwarschim]], [[Region_Malthust]] und der [[Löwenorden]] gemeinsam.
 - **Bruch:** Das Bündnis zerbrach, als [[Emanuel_Sanderus]] Goblin-Frauen und Kinder tötete, was [[Nortraven]] und Dwarschim als ehrlos empfanden.
 - **Ergebnis:** Die [[Goblins]] wurden zurückgedrängt, halten aber weiterhin Lager am Orkenpass.
 
@@ -48,4 +48,4 @@ Umfassender Bericht über die Schlachten gegen die [[Goblins]] aus dem [[Oedland
 
 ---
 **Quellen:** [[Siebenwind_Bote_180]] (Original)
-**Siehe auch:** [[Chronik]], [[Spinnenplage]], [[Solice_Aurora]], [[Falkensee]]
+**Siehe auch:** [[Die_Chronik]], [[Spinnenplage]], [[Solice_Aurora]], [[Falkensee]]

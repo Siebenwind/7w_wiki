@@ -19,7 +19,7 @@ letzter_check: 2026-02-13T16:50:00+01:00
     *   **[[Urs]]**: Beförderung zum Leutnant.
     *   **[[Tionne]]**, **[[Urs]]**, **Waibel [[Harlas]]**, **[[Xandros]]**: Erhielten das Dunkeltiefband.
     *   **Serik**: Beförderung zum Gefreiten.
-*   **Projekt "[[Schwarzer_Samen]]":** Die [[Ecclesia_Elementorum]] (insb. **[[Riens_Lorien_Arden]]**) und **[[Nithavela]]** entwickelten den "Schwarzen Samen", um das [[Oedland|Ödland]] zu heilen. Der Samen wurde am 22. Duler 20 n.H. nordöstlich des Ostwalls eingepflanzt und wird von **[[Tarjas_Talinor]]** bewacht.
+*   **Projekt "[[Schwarzer_Samen]]":** Die [[Ecclesia_Elementorum]] (insb. **[[Riens_Lorien_Arden]]**) und **[[Nithavela]]** entwickelten den "Schwarzen Samen", um das [[Ödland|Ödland]] zu heilen. Der Samen wurde am 22. Duler 20 n.H. nordöstlich des Ostwalls eingepflanzt und wird von **[[Tarjas_Talinor]]** bewacht.
 *   **Kirche & Glaube:**
     *   **[[Orden_der_Traenen_Vitamas]]:** Vorstellung des Ordens unter der Leitung von **[[Benion_Sandelholz]]**. Fokus auf Armenspeisung und Hilfe für Bedürftige.
     *   **Priesterweihe:** **[[Myrandhir]]** ([[Bellum]]) und **[[Custodias]]** ([[Astrael]]) wurden am 24. Onar zu Geweihten erhoben.

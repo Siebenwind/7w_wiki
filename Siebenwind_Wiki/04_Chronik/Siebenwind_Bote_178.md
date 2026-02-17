@@ -18,7 +18,7 @@ Nach wochenlangen Umbauarbeiten wurde der neue Tempelkomplex in [[Falkensee]] ei
 ### Die Piratenplage und die Seegarde
 Die Piraten der „Blutsäbel“ greifen verstärkt Handelsschiffe auf der Route zum Festland an.
 - **Gegenmaßnahmen:** Der [[Ersonter_Bund]] entsandte die Karavelle „Stern von Papin“ unter Kapitän [[Islarion_Ethalasar]]. Die neu formierte **Seegarde** soll die Seewege sichern und Piraten jagen.
-- **Überfall auf [[Südfall]]:** Piraten und der vogelfreie Ork [[Lurkz]] überfielen [[Suedfall|Südfall]] und brannten das Rathaus nieder. Eine vereinte Streitmacht vertrieb die Angreifer.
+- **Überfall auf [[Südfall]]:** Piraten und der vogelfreie Ork [[Lurkz]] überfielen [[Südfall|Südfall]] und brannten das Rathaus nieder. Eine vereinte Streitmacht vertrieb die Angreifer.
 
 ### Führungswchsel im Rathaus [[Falkensee]]
 [[Noalim_al_Achid]] trat als Statthalterin zurück. Ihre Amtsführung war zuletzt durch Unstimmigkeiten mit dem [[Regierungsrat_(Ersont)|Regierungsrat]] und Vorwürfe der Schwarzmagie (durch die [[Graue_Garde]]) belastet.
@@ -33,11 +33,11 @@ In der ehemaligen Kaserne am Nordtor entsteht unter der Leitung von **[[Aradam]]
 
 ### Diplomatie mit den Dwarschim
 Eine hochrangige Delegation der Dwarschim ([[Endurion_Hormgar]], [[Bumpur_Purbier]]) besuchte [[Falkensee]]. 
-- **Ergebnisse:** Vereinbarungen über Handelsintensivierung, Minenaufsicht und den Bau einer Straße nach [[Kesselklamm]].
+- **Ergebnisse:** Vereinbarungen über Handelsintensivierung, Minenaufsicht und den Bau einer Straße nach [[Bragarim]].
 
 ### Die Rückkehr des [[Emanuel_Sanderus]]
 Der totgeglaubte Malthuster Soldat [[Emanuel_Sanderus]] ist zurückgekehrt. Sein angeblicher Tod war eine Täuschung der Schwarzmagierin [[Gysell_Kathul]], die ihn entführt hatte.
 
 ---
 **Quellen:** [[Siebenwind_Bote_178]] (Original)
-**Siehe auch:** [[Chronik]], [[Seegarde]], [[Kriegerakademie_Seeberg]], [[Hebren_Zemand]]
+**Siehe auch:** [[Die_Chronik]], [[Seegarde]], [[Kriegerakademie_Seeberg]], [[Hebren_Zemand]]

@@ -19,7 +19,7 @@ Im Triar 17 n.H. leitete Biskulon ein ehrgeiziges Bauprojekt zur Erweiterung der
 
 ## Verlinkte Themen
 - [[Falkensee]]
-- [[Siebenwind_Wiki/01_Pantheon/Astrael]] (Ordo Astraeli)
+- [[Astrael]] (Ordo Astraeli)
 
 ---
 **Quellen:** [[Siebenwind_Bote_149]]
