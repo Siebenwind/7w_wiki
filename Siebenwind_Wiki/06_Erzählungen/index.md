@@ -1,16 +1,19 @@
 ---
 layout: wiki_page
-title: Siebenwind Wiki - Erzählungen
+title: Erzählungen
 ---
 
 # [[Siebenwind]] Wiki - Erzählungen
-Das [[index]] der Erzählungen.
+Das Archiv der Erzählungen.
 
 ## Inhalte
 
 ### Artikel
 *   [[Atmender_Tod|Atmender Tod]]
 *   [[Der_Flug_der_Ente|Der Flug der Ente]]
+*   [[Die_Nacht_des_Dunkeltiefs|Die Nacht des Dunkeltiefs]]
+*   [[Die_Namikleris|Die Namikleris]]
+*   [[Dunkeltief-_Vaenskap|Dunkeltief - Vänskap]]
 *   [[Erzählungen|Erzählungen]]
 *   [[Geschichten_eines_silbernen_Adlers|Geschichten eines silbernen Adlers]]
 *   [[Heimsuchung_der_Akademie|Die Heimsuchung der Akademie]]

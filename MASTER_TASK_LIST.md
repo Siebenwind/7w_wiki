@@ -6,7 +6,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
 - **Last Handover**: 2026-02-17 23:07 (Codex -> Next Agent)
-- **Status**: Handover-Checkpoint erneut ausgefuehrt; Register/Stats synchronisiert; Audit bleibt FAIL (1189 Probleme), Interop teils gruen, `takeover-handover` weiterhin FAIL.
+- **Status**: Handover-Checkpoint erneut ausgefuehrt; Register/Stats synchronisiert; Audit-Linkflood deutlich reduziert (aktuell 742 Probleme), Interop teils gruen, `takeover-handover` weiterhin FAIL.
 
 ---
 
@@ -14,7 +14,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [ ] **Handover Gate Repair**: Defekten Link in `.agent/workflows/handover.md` beheben (`../...`) und `interop-doc-links` wieder gruen bekommen.
 - [ ] **Test Runner Stability**: `./7w_wiki.py test --suite all` sowie `rag-relevance-smoke` haengen im aktuellen Lauf ohne Abschlussreport; Harness/Timeout-Handling pruefen.
 - [ ] **Oracle Reliability (Codex App)**: Auftrag `MSG-2026-0015` bearbeiten; Reproduzierbarkeit/Root-Cause fuer unzuverlaessige Oracle-Laeufe feststellen und mit Test/Fallback absichern.
-- [ ] **Audit Regression Triage**: Report `Logs/Archive/Audit_e72e3011-9298-4639-825d-37f6cabd2fd9.txt` auf P1-Breaker reduzieren (Duplikat `Mirila_Mik_Honigzopf`, fehlendes Profil `Althea_Danea`, Link-Flood). Konsolidierung siehe `Logs/Archive/AUDIT_CONSOLIDATION_INDEX_2026-02-17.md`.
+- [ ] **Audit Regression Triage**: Aktuellster Stand `Logs/Archive/Audit_8eb04adc-43da-4834-954b-051be694428b.txt` (742 Probleme). P1-Breaker `Mirila_Mik_Honigzopf` und `Althea_Danea` behoben; verbleibend ist der Link-Flood. Konsolidierung siehe `Logs/Archive/AUDIT_CONSOLIDATION_INDEX_2026-02-17.md`.
 - [ ] **Technical Link Repair**: Prefixing 1100+ links with category folders to overcome `ezlinks` flattening.
 - [ ] **Ingestion 2.0**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - [BLOCKED: 118 Source Missing].
 

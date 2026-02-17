@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Siebenwind Wiki - Sprachen
+title: Sprachen
 ---
 
 # [[Siebenwind]] Wiki - Sprachen
-Das [[index]] der Sprachen.
+Das Archiv der Sprachen.
 
 ## Inhalte
 

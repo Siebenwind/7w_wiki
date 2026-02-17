@@ -46,6 +46,7 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [.agent/workflows/wiki_style_guide.md](../.agent/workflows/wiki_style_guide.md) (Zentrales Regelwerk)
 - [x] [LORE_RESEARCH_BOARD.md](../LORE_RESEARCH_BOARD.md)
 - [x] [AGENT_OPERATIONS_HANDBOOK.md](AGENT_OPERATIONS_HANDBOOK.md)
+- [x] [docs/Archiv/REDESIGN_ROADMAP_2026.md](../docs/Archiv/REDESIGN_ROADMAP_2026.md)
 - [x] [Archivregister/ARCHIVREGISTER.md](Archivregister/ARCHIVREGISTER.md)
 - [x] [Archivregister/ARCHIVREGISTER.json](Archivregister/ARCHIVREGISTER.json)
 - [x] [Synapse_Board/SY_HISTORIAN_TRACEABILITY.md](Synapse_Board/SY_HISTORIAN_TRACEABILITY.md)
@@ -54,4 +55,4 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [Scripts/forum_scanner.py](../Scripts/forum_scanner.py)
 
 ---
-*Zuletzt aktualisiert: 2026-02-16T22:18:33Z | Ref: #historian_traceability_concept*
+*Zuletzt aktualisiert: 2026-02-17T23:47:00Z | Ref: #ux_redesign_documentation*

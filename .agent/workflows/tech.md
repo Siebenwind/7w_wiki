@@ -65,6 +65,9 @@ Wenn Landing, Navigation, Corporate Design oder kuratierte Einstiege angepasst w
 3. Synchronisiere betroffene Skills/Workflows (mindestens Art Director, /herold, /antigravity).
 4. Poste einen Dispatch-Heartbeat mit den Kernpunkten und offenen Folgefragen.
 
+### E. Aenderungsstand
+- 2026-02-17: UX/CD-Relaunch-Dokumentation als Pflichtschritt in den technischen Abschluss integriert.
+
 ## 3. Abschluss
 - Wenn Code geändert wurde: `git commit` mit technischem Präfix (`fix:`, `feat:`, `chore:`).
 - Bei laengeren Aufgaben mindestens einen Status-Heartbeat via `mail post` senden.

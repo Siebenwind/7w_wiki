@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Siebenwind Wiki - Geografie
+title: Geografie
 ---
 
 # [[Siebenwind]] Wiki - Geografie
-Das [[index]] der Geografie.
+Das Archiv der Geografie.
 
 ## Inhalte
 
@@ -20,7 +20,7 @@ Das [[index]] der Geografie.
 *   [[Falkensee|Falkensee]]
 *   [[Falkenwall|Der Falkenwall]]
 *   [[Fenwald|Fenwald]]
-*   [[Feste_Seeberg|Feste Seeberg]]
+*   [[Feste_Seeberg|Feste [[Seeberg]]]]
 *   [[Finianswacht|Finianswacht]]
 *   [[Finsterwangen|Finsterwangen]]
 *   [[Geografie|Geografie]]

@@ -1,5 +1,62 @@
 # Changelog
 
+#### [2026-02-17.14] - Repair-Fortsetzung: Link-Flood deutlich reduziert
+
+### Prioritaet
+- P1
+
+### Geaendert
+- Audit-Triage in vier Bruecken-Batches fortgesetzt; fehlende, hochfrequente WikiLink-Ziele als `[UNGEKLAERT]`-Brueckenartikel nachgezogen (vorrangig `Siebenwind_Wiki/00_Fundament`).
+- Legacy-Namensvarianten mit klaren Zielseiten verbunden (u. a. `Vandrien`, `Ersont`, `Die_Viere_Kirche`, `Ordo_Astrael`, `Sire_Fedral_Lavid`, `Putsch_in_Falkensee`).
+- Kategorie-Indizes nach den neuen Artikeln neu erzeugt (`./7w_wiki.py index-pages`).
+
+### Validiert
+- `./7w_wiki.py audit`  
+  Reports:
+  - `Logs/Archive/Audit_275db8a9-14f5-4ff2-be35-1f2f2fa6b306.txt` (995 Probleme)
+  - `Logs/Archive/Audit_f8d945df-626f-4808-a4a2-ca7c1ef1b9ba.txt` (872 Probleme)
+  - `Logs/Archive/Audit_7e7ec150-ff20-458c-afc4-c3a748144d64.txt` (807 Probleme)
+  - `Logs/Archive/Audit_e663d5ff-7e98-401c-832b-5eb4c527ffc8.txt` (743 Probleme)
+  - `Logs/Archive/Audit_8eb04adc-43da-4834-954b-051be694428b.txt` (742 Probleme)
+- `./7w_wiki.py test --suite clean-client-state`  
+  Report: `Logs/Archive/TEST_clean-client-state_2026-02-17_233859.md` (PASS)
+- `./7w_wiki.py index-pages` (PASS)
+
+#### [2026-02-17.13] - Leserfokus-Relaunch dokumentiert (Landing, Kurationspfad, Antigravity-Protokoll)
+
+### Prioritaet
+- P1
+
+### Geaendert
+- Leserzentrierte Landing-Page eingefuehrt (`docs/index.md`):
+  - klare CTAs (`Lesen starten`, `Interessante Artikel`, `Mitwirken`)
+  - Abschnitt `Qualitaet und Verfahren` (Ingestion, Bewertung, Bewahrung, Forschung)
+  - kuratierte Einstiegsflaechen.
+- Neue Kurationsseite `Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md` mit teilautomatisiertem Auswahlverfahren erstellt und im Archiv-Index verankert.
+- Navigation auf Lesepfad priorisiert und visuell beruhigt (`mkdocs.yml`):
+  - Sprache auf `de` gesetzt
+  - Emoji-Overload reduziert
+  - `Betrieb und Technik` nachgelagert.
+- Corporate-Design auf serioesen Archiv-Look mit Silberstift-Linien umgestellt (`docs/assets/custom.css`, `docs/STYLING.md`).
+- README auf klare Trennung `Lesen / Mitwirken / Betrieb` umstrukturiert (`README.md`).
+- Art-Director-Stilprofil auf `Archivum Argentum` umgestellt (`.agent/skills/art_director/SKILL.md`, `.agents/skills/art_director/SKILL.md`).
+- Dokumentationsprozesse erweitert:
+  - `/antigravity` um explizite Dokumentationspflichten erweitert.
+  - `/tech` um UX/CD-Dokumentationsschritte erweitert.
+  - `/herold` auf neues Stilprofil und Banner-Placement-Regeln synchronisiert.
+- Redesign-Roadmap als dauerhaftes Steuerungsartefakt angelegt (`docs/Archiv/REDESIGN_ROADMAP_2026.md`).
+- Historian-Dispatch fuer monatliche Kurationsshortlist erstellt (`MSG-2026-0017`).
+- Session-Memory fuer den Relaunch dokumentiert und an ALL verteilt (`SESSION_MEMORY_2026-02-17_UX_REDESIGN.md`, `MSG-2026-0018`).
+
+### Validiert
+- `./7w_wiki.py pages build --strict` (PASS)
+- `./7w_wiki.py test --suite interop-doc-links`  
+  Report: `Logs/Archive/TEST_interop-doc-links_2026-02-17_233258.md` (PASS)
+- `./7w_wiki.py test --suite clean-client-state`  
+  Report: `Logs/Archive/TEST_clean-client-state_2026-02-17_233310.md` (PASS)
+- `./7w_wiki.py pages validate`  
+  FAIL aufgrund bestehender Audit-Altlasten (`1181` Probleme), nicht durch den Relaunch verursacht.
+
 #### [2026-02-17.12] - Repair Full-Run dokumentiert und P1-Linkfixes fortgesetzt
 
 ### Prioritaet

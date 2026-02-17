@@ -60,4 +60,7 @@ Jede relevante Aenderung wird nachvollziehbar dokumentiert.
    - Session-Memory unter `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md`.
    - Pfad per `./7w_wiki.py mail post` an Folgeagenten melden.
 
+### Aenderungsstand
+- 2026-02-17: Leserfokus-Relaunch als dokumentationspflichtiger Standardfall verankert (Roadmap + Skill/Workflow-Sync + Session-Memory/Dispatch).
+
 **Information Loss is unacceptable.**

@@ -35,6 +35,9 @@ Dieser Workflow dient der visuellen und öffentlichen Pflege des Siebenwind-Wiki
 - [ ] Pflege das Logo, Favicon und andere Branding-Elemente.
 - [ ] Prüfe Stil-Konsistenz gegen `.agent/skills/art_director/SKILL.md`.
 
+## 4b. Aenderungsstand
+- [ ] 2026-02-17 Baseline: Archivum-Argentum-Stil und kuratierte Leser-Einstiege als Referenz fuer Folgearbeiten verwenden.
+
 ## 5. Deployment-Support
 - [ ] Prüfe den Status der GitHub Pages.
 - [ ] Stelle sicher, dass die `mkdocs.yml` alle visuellen Features (Mermaid, Glossar, Darkmode) optimal nutzt.

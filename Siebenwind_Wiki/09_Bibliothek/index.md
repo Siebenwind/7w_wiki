@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Siebenwind Wiki - Bibliothek
+title: Bibliothek
 ---
 
 # [[Siebenwind]] Wiki - Bibliothek
-Das [[index]] der Bibliothek.
+Das Archiv der Bibliothek.
 
 ## Inhalte
 
@@ -15,7 +15,6 @@ Das [[index]] der Bibliothek.
 *   [[Aus_dem_Leben_eines_Schwarzmagiers|Aus dem Leben eines Schwarzmagiers]]
 *   [[Aus_dem_Liebesleben_eines_Dichters|Aus dem Liebesleben eines Dichters]]
 *   [[Blutschwert|Blutschwert]]
-*   [[Briefe_aus_der_Ferne|Briefe aus der Ferne]]
 *   [[Das_Ende_der_Zeit_der_Koenige|Das Ende der Zeit der Könige]]
 *   [[Die_Elemente_ungleiche_Geschwister|Die Elemente - ungleiche Geschwister]]
 *   [[Die_Namikleris|Die Namikleris]]

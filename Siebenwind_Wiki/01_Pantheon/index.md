@@ -1,14 +1,15 @@
 ---
 layout: wiki_page
-title: Siebenwind Wiki - Pantheon
+title: Pantheon
 ---
 
 # [[Siebenwind]] Wiki - Pantheon
-Das [[index]] der Pantheon.
+Das Archiv der Pantheon.
 
 ## Inhalte
 
 ### Artikel
+*   [[10_Angamon|10 Angamon]]
 *   [[Aequilibrium|Aequilibrium]]
 *   [[Aequitas|Aequitas]]
 *   [[Angamon|Angamon]]
@@ -20,17 +21,18 @@ Das [[index]] der Pantheon.
 *   [[Brevier_des_Ordo_Astraeli|Brevier des Ordo Astraeli]]
 *   [[Codex_Astraeli|Codex Astraeli]]
 *   [[Codex_Iuris_Canonici|Codex Iuris Canonici]]
-*   [[Das_Pantheon|Das Pantheon]]
+*   [[Das_Pantheon|Das [[index]]]]
 *   [[Der_Blutrote_Stier|Der Blutrote Stier]]
 *   [[Der_Traum_der_Tausend|Der Traum der Tausend]]
 *   [[Der_letzte_Falke|Der letzte Falke]]
 *   [[Der_naive_Mensch|Der naive Mensch]]
 *   [[Die_Eisernen_Tafeln|Die Eisernen Tafeln]]
+*   [[Die_Enhor|Die Enhor (Elementarherren)]]
 *   [[Die_Gohor|Die Gohor]]
 *   [[Die_Goldenen_Tafeln|Die Goldenen Tafeln]]
 *   [[Die_Legende_von_Galahad_Ritter_der_Rosen|Die Legende von Galahad, Ritter der Rosen]]
 *   [[Die_Silbernen_Tafeln|Die Silbernen Tafeln]]
-*   [[Die_Werke_des_Barath_Or|Die [[index]] des Barath Or]]
+*   [[Die_Werke_des_Barath_Or|Die Werke des Barath Or]]
 *   [[Divinum_et_Elementum|Divinum et Elementum (Von der Substanz der Götter und der Elementarherren)]]
 *   [[Elementum_Commentari|Elementum et Gens Humanis (Kommentar zu Divinum et Elementum)]]
 *   [[Exercitium|Exercitium]]
@@ -56,5 +58,5 @@ Das [[index]] der Pantheon.
 *   [[Ventus|Ventus]]
 *   [[Vitama|Vitama]]
 *   [[Von_dem_Boesen|Von dem Bösen]]
-*   [[Von_den_Myten|Von den Myten]]
+*   [[Von_den_Myten|Von den [[Myten]]]]
 *   [[Xan|Xan]]

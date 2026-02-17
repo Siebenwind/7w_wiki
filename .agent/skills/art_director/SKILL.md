@@ -62,3 +62,7 @@ Bei jeder `generate_image` Aktion MUSS gleichzeitig eine `.json` Metadaten-Datei
 
 ## Zukunfts-Sicherheit
 Sollte sich der Art Style ändern, wird lediglich der Abschnitt **1. Style Presets** in diesem Skill aktualisiert. Die Metadaten alter Bilder bleiben erhalten und dokumentieren ihre Epoche.
+
+## Aenderungsnotiz
+- 2026-02-17: Stilprofil auf **Archivum Argentum** umgestellt (Silberstift, reduzierte Linien, serioeser Archiv-Look).
+- 2026-02-17: Mechanikdarstellungen explizit eingeschraenkt (nur bei Dwarschim/Uhrmacher und nur bei expliziter Anforderung).

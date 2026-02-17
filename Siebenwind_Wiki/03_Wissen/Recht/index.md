@@ -1,12 +1,12 @@
 ---
 layout: wiki_page
-title: Siebenwind Wiki - Recht
+title: Recht
 ---
 
 # [[Siebenwind]] Wiki - Recht
-Das [[index]] der Recht.
+Das Archiv der Recht.
 
 ## Inhalte
 
 ### Artikel
-*   [[Iuribus_Siebenwind|Iuribus Siebenwind]]
+*   [[Iuribus_Siebenwind|Iuribus [[Siebenwind]]]]

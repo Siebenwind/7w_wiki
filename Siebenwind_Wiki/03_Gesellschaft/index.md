@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Siebenwind Wiki - Gesellschaft
+title: Gesellschaft
 ---
 
 # [[Siebenwind]] Wiki - Gesellschaft
-Das [[index]] der Gesellschaft.
+Das Archiv der Gesellschaft.
 
 ## Inhalte
 
@@ -15,7 +15,7 @@ Das [[index]] der Gesellschaft.
 *   [[Bibliothek_Astrael_Regeln|Regulatorium der [[index]] zum Heiligen Auge Astraels]]
 *   [[Bragarim|Bragarim]]
 *   [[Brandensteiner_Reiter|Brandensteiner Reiter]]
-*   [[Bruderschaft_der_Tardukai|Bruderschaft der Tardukai]]
+*   [[Bruderschaft_der_Tardukai|Bruderschaft der [[Tardukai]]]]
 *   [[Buergerwehr|Bürgerwehr]]
 *   [[Circus_Wendolyn|Circus Wendolyn]]
 *   [[Communis_Medici|Communis Medici]]
@@ -58,10 +58,10 @@ Das [[index]] der Gesellschaft.
 *   [[Schattenjaeger|Schattenjäger]]
 *   [[Schwarze_Legion|Schwarze Legion]]
 *   [[Siebenwind_Kronregiment|[[Siebenwind]] Kronregiment]]
-*   [[Tempelwache_Falkensee|Tempelwache Falkensee]]
+*   [[Tempelwache_Falkensee|Tempelwache [[Falkensee]]]]
 *   [[Terra_Dorotor|Terra'Dorotor]]
 *   [[Tyrana_I|Tyrana I. Ahm Senal]]
 *   [[Ventusreiter|Ventusreiter]]
-*   [[Warenhaus_Vela_und_Arn|Warenhaus [[Vela]] und Arn]]
+*   [[Warenhaus_Vela_und_Arn|Warenhaus [[Vela]] und [[Arn]]]]
 *   [[XIII_Kronregiment|XIII. Kronregiment]]
 *   [[Zwerge|Zwerge]]

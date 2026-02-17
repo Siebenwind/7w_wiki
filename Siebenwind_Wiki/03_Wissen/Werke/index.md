@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: Siebenwind Wiki - Werke
+title: Werke
 ---
 
 # [[Siebenwind]] Wiki - Werke
-Das [[index]] der Werke.
+Das Archiv der Werke.
 
 ## Inhalte
 
@@ -17,40 +17,40 @@ Das [[index]] der Werke.
 *   [[Bartanatomie_(Logrin_Goldaxt)|Bartanatomie - Band 1]]
 *   [[Bindungslehre_der_Elementarmagier_(Elurai_Calades)|Bindungslehre der Elementarmagier]]
 *   [[Daimonologie_und_Schwarze_Magie_(Toran_Dur)|Daimonologie und Schwarze [[index]] (Sammelband)]]
-*   [[Das_Daimonicon_(Kulin_Lateal)|Das Daimonicon]]
+*   [[Das_Daimonicon_(Kulin_Lateal)|Das [[Daimonicon]]]]
 *   [[Das_System_arkaner_Lokalitaeten_(Kalveron_Dai)|Das System arkaner Lokalitäten]]
 *   [[De_Magica_Angamoniensis_(Kalveron_Dai)|De Magica Angamoniensis]]
 *   [[Der_letzte_Falke_(Rose_von_Sonnentau)|Der letzte Falke]]
 *   [[Die_Elemente_aus_der_Sicht_der_Mitte_(Elyran_Fischer)|Die Elemente aus der Sicht der Mitte]]
-*   [[Die_Foki_([[Dimiona]])|Die Foki - Bedeutung in der praktischen Magie]]
+*   [[Die_Foki_(Dimiona)|Die Foki - Bedeutung in der praktischen [[index]]]]
 *   [[Die_Kunst_der_erschaffenen_Diener_(Nuir_Ekre)|Die Kunst der erschaffenen Diener]]
-*   [[Die_Magie_(Toran_Dur)|Die Magie]]
+*   [[Die_Magie_(Toran_Dur)|Die [[index]]]]
 *   [[Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur)|Die Ordenssatzung des Ordens vom Wachenden Löwen]]
 *   [[Die_Ritualisierung_(Rhadan_der_Graue)|Die Ritualisierung]]
-*   [[Die_Sprache_Run_(Toran_Dur)|Die Sprache Run]]
-*   [[Dämonologie_nach_Dunvallo_Linari|Dämonologie nach Dunvallo Linari]]
+*   [[Die_Sprache_Run_(Toran_Dur)|[[Die_Sprache_Run]]]]
+*   [[Dämonologie_nach_Dunvallo_Linari|Dämonologie nach [[Dunvallo_Linari]]]]
 *   [[Erweiterte_Sphaerentheorie_(Kida_Gilwen)|Erweiterte Sphärentheorie]]
 *   [[Forschungsberichte_(Toran_Dur)|Forschungsberichte]]
 *   [[Graue_Charta_(Zweiter_Entwurf)|Graue Charta (Zweiter Entwurf)]]
 *   [[Horlafstrom-Theorie_(Aren_Remouldo)|Die Theorie des Horlafstroms]]
-*   [[Index_Siebenwind_(Toran_Dur)|Index Siebenwind]]
+*   [[Index_Siebenwind_(Toran_Dur)|Index [[Siebenwind]]]]
 *   [[Invocatio_Elementharii_(Raisha_al_Javet)|Invocatio Elementharii]]
-*   [[Kompendium_der_Voelker_(Garreth_Moss)|Kompendium über die Völker auf Siebenwind]]
+*   [[Kompendium_der_Voelker_(Garreth_Moss)|Kompendium über die Völker auf [[Siebenwind]]]]
 *   [[Kompendium_der_Weissmagie_(Althea_Danea)|Kompendium der Weißmagie]]
 *   [[Lehrbuch_der_Magietheorie_(Toran_Dur)|Lehrbuch der Magietheorie]]
-*   [[Lexikon_der_Magie_(Dunvallo_Linari)|Lexikon der Magie]]
+*   [[Lexikon_der_Magie_(Dunvallo_Linari)|Lexikon der [[index]]]]
 *   [[Locus_Magicae_(Johannes_Klos)|Locus Magicae - Gemeinsamkeiten aller Magiewirker]]
-*   [[Magica_Contraria_(Nistram_Rigas)|Magica Contraria - Die Kunst der Antimagie]]
+*   [[Magica_Contraria_(Nistram_Rigas)|Magica Contraria - Die Kunst der [[Antimagie]]]]
 *   [[Magica_Curativa_(Toran_Dur)|Magica Curativa - Die Heilmagie]]
 *   [[Rituale_des_Magierturms|Rituale des Magierturms]]
-*   [[Schamanische_Magie_(Fragment)|Schamanische Magie]]
+*   [[Schamanische_Magie_(Fragment)|Schamanische [[index]]]]
 *   [[Schwarze_Ritualmagie_(Thanthul)|Schwarze Ritualmagie]]
 *   [[Sphaerenkunde_(Wolfgang_Ravinsthal)|Sphärenkunde]]
 *   [[Theorem_zu_den_Baumwesen_(Themus_Takai)|Theorem zu den Baumwesen]]
 *   [[Theorie_der_Illusionistik_(Bastean_Asanra)|Theorethik der arkanen [[index]]: Illusionistik]]
 *   [[Theorie_der_elementaren_Atome_(Jennaia_Lavrial)|Die These der elementaren Atome]]
-*   [[Theorien_der_Magie_(Terenon_Sarophilan)|Theorien über die Herkunft und das Wirken der Magie]]
+*   [[Theorien_der_Magie_(Terenon_Sarophilan)|Theorien über die Herkunft und das Wirken der [[index]]]]
 *   [[Theorien_der_Magie_(Toran_Dur)|Theorien der [[index]] (Sammelband)]]
 *   [[Thesen_der_Magiezweige_(Uron_Sbocaj)|Thesen der Magiezweige]]
-*   [[Vjera_Batama_Magica_(Sylest_le_Felyhn)|Die Erweiterte Thematik der Vjera Batama Magica]]
-*   [[Wirkung_von_Metallen_auf_arkane_Kraefte_([[Edomawyr]])|Die Wirkung von Metallen auf die arkanen Kräfte]]
+*   [[Vjera_Batama_Magica_(Sylest_le_Felyhn)|Die Erweiterte Thematik der [[Vjera_Batama_Magica]]]]
+*   [[Wirkung_von_Metallen_auf_arkane_Kraefte_(Edomawyr)|Die Wirkung von Metallen auf die arkanen Kräfte]]
