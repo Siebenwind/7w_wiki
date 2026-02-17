@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Tempelwache [[Falkensee]]
+title: Tempelwache Falkensee
 category: Organisationen
 ---
 

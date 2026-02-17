@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Elementarpfad
+title: Der Elementare Pfad
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Amanda_Dunkelbaum]] - Der [[Elementare]] Pfad.md"

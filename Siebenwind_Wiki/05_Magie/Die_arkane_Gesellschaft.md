@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Die arkane [[index]]
+title: Die arkane index
 category: [[index]]
 status: integrated
 quelle: "Lit Ita'Im'Elarum Odalim ir Galadon"

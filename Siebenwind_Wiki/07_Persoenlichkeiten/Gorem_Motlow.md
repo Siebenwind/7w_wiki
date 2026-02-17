@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Gorem]] Motlow
+title: Gorem Motlow
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 

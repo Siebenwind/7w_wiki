@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Erzählungen
+title: Siebenwind Wiki - Erzählungen
 ---
 
 # [[Siebenwind]] Wiki - Erzählungen

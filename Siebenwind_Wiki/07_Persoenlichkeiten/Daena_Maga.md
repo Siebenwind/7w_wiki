@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Daena]] (Maga)
+title: Daena (Maga)
 category: Persönlichkeit
 ---
 

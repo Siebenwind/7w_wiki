@@ -1,32 +1,28 @@
 ---
 layout: wiki_page
-title: Magietheorie ([[Toran_Dur]])
+title: Magietheorie (Toran_Dur)
 category: [[index]]
 ---
 
-# Magietheorie (Toran [[Dur]])
+# Magietheorie ([[Toran_Dur]])
 
 **Epistemischer Status:** #überlieferung
-**Autor:** Hochmagus Toran [[Dur]]
+**Autor:** Hochmagus [[Toran_Dur]]
 **Datum:** 26 n.H.
 
-Dieser Artikel fasst die zentralen Lehren von Hochmagus Toran [[Dur]] zusammen, wie sie an der königlichen Akademie gelehrt werden. Er definiert [[index]] als die Manipulation des **Astralen Netzes** durch den sterblichen [[Geist]].
+Dieser Artikel fasst die zentralen Lehren von Hochmagus [[Toran_Dur]] zusammen, wie sie an der königlichen Akademie gelehrt werden. Er definiert [[index]] als die Manipulation des **Astralen Netzes** (auch **Flux** genannt) durch den sterblichen [[Geist]].
 
 ## Definition und Ursprung
 [[index]] gilt als eine der drei fundamentalen Konstanten der Existenz (neben Raum und Zeit). Während der Volksglaube [[Astrael]] als Schöpfer der [[index]] sieht, lehrt die Akademie, dass [[Astrael]] den Sterblichen lediglich die *Fähigkeit* zur Manipulation der [[index]] verlieh.
 
-## Die Sphärenkunde
-Der Kosmos ist in drei Sphären gegliedert:
-1.  **Mandon:** Die materielle Welt (Sitz von [[Tare]], Fela und Vitamalin).
-2.  **Horandon:** Das Heim der Götter und höheren Wesen (unterteilt in Ashordon, Mandor/Yerrodon und Nidihor).
-3.  **Vidor:** Das Reich von [[Morsan]], in dem die Geister der Toten ruhen.
-*   **Der Limbus:** Ein ätherischer Raum negativer Energie, der die Sphären trennt.
+## Der Flux
+Der **Flux** ist ein metaphysisches Gebilde, das die gesamte Schöpfung durchdringt. Er wird oft als ein alles umfassender "See" beschrieben, der durch die Nutzung von Magie in Schwingung versetzt wird.
 
-## Raumtheorie (Astralraum)
-Magische Akte finden nach dem **Schnittstellentheorem** (Klos) parallel im **Realraum** und im **Astralraum** statt.
-- **Realraum:** Die physische Welt, in der Ursache und Wirkung zeitlich und räumlich gebunden sind.
-- **Astralraum:** Ein ortsunabhängiges Feld, in dem Entfernungen zwischen Punkten theoretisch "Null" sein können.
-Dies erklärt die Möglichkeit von Teleportation und Hellsicht über große Distanzen, sofern eine stabile Verbindung (z.B. durch Runen-Anker) besteht.
+### Das Thaugitter und seine Knoten
+Innerhalb des Flux existiert das **Thaugitter**, ein Geflecht aus arkanen Fäden. An den Kreuzungspunkten entstehen **Knoten**, die an Orte in der Ersten oder Zweiten Sphäre gebunden sind. Es werden drei Hauptarten von Knoten unterschieden:
+1. **Markierungsknoten:** Kennzeichnen eine spezifische Stelle im Flux. Ohne das Wissen um ihre Signatur sind sie für den Uneingeweihten unsichtbar.
+2. **Transportknoten:** Bestehen aus zwei oder mehr verknüpften Markierungsknoten und ermöglichen die Überbrückung von Distanzen.
+3. **Übergangsknoten:** Erweiterte Transportknoten, die durch Reisemagie oder *Conjuratio* (Beschwörung) passierbar gemacht werden. Sie ermöglichen den Übertritt zwischen den Sphären.
 
 ## Aufbau des Geistes & Gnosis
 Die Manipulation der [[index]] erfolgt durch das Zusammenspiel von:
@@ -34,6 +30,11 @@ Die Manipulation der [[index]] erfolgt durch das Zusammenspiel von:
 - **Unterbewusstsein:** Sitz der Instinkte und Sinne.
 - **Zensor:** Ein Filter, der bei Magiebegabten durchlässiger ist, um Impulse in das Unterbewusstsein zu leiten.
 Der Zustand der **Gnosis** (Einklang von Körper und [[Geist]]) ist die Voraussetzung für erfolgreiches Wirken durch **Wille, Geste und Wort**.
+
+## Mana: Die arkane Ausdauer
+**Mana** ist die Kraft, die den Flux zu verändern vermag. Es handelt sich um eine **innerseelische Erscheinung**, vergleichbar mit der körperlichen Ausdauer.
+- **Mano:** Die tatsächliche Wirkkraft eines Magiers ergibt sich aus der Formel: *Manapotential + Kontrollfähigkeit = Mano*.
+- **Erschöpfung:** Übermäßiger Manaverbrauch führt zu geistiger Erschöpfung, die analog zur physischen Ermüdung den weiteren Zugriff auf den Flux blockiert.
 
 ## Die Rolle von Gestik und Run
 Sterbliche Magiewirker benötigen im Gegensatz zu mächtigen Geistwesen oder [[Drachen]] zumeist einen Fokus in der Ersten Sphäre, um [[index]] zu wirken.
@@ -56,15 +57,22 @@ Die Wirksamkeit von Runen-Formeln hängt maßgeblich von der emotionalen Betonun
 ## Magietheoretische Modelle
 An den Akademien werden komplexe Modelle genutzt, um die [[index]] zu steuern:
 
+### Philosophische Grundlagen (Linari-Ethik)
+Nach Erzmagus [[Dunvallo_Linari]] sind Philosophie, Wissenschaft und Religion (Magie) im Kern eins. Die Ausübung der Magie unterliegt strengen ethischen Grenzen:
+- **Göttergefälligkeit:** Keine Theorie oder Handlung darf die Existenz oder das Wirken der Götter (insb. [[Astrael]]) anzweifeln.
+- **Ethisches Niveau:** Die magische Forschung muss dem Stand des Wirkenden entsprechen (z.B. keine Vivisektion durch Weißmagier).
+- **Abgrenzung:** Philosophie lehrt den Magus, wie weit er in der Erforschung des Unbekannten gehen darf, ohne das Gleichgewicht zu gefährden.
+
+### Die Linari-Matrix (Erweiterte Matrixtheorie)
+Erzmagus Linari stellte die traditionelle Sichtweise des **Astralen Netzes** in Frage. In seiner These sind nicht die Fäden die Quelle, sondern die **Knoten** (Matrix):
+1. **Knoten-Priorität:** Knoten strahlen Energie aus. Die "Fäden" sind lediglich bildliche Verbindungen zwischen diesen ausstrahlenden Energiepunkten.
+2. **Elementare Ladung:** Jeder Knoten ist einem der vier Elemente (**Feuer, Wasser, Erde, Wind**) oder dem **Geist** zugeordnet.
+3. **Stärkebereiche:** Die Dichte und Härte dieser Energiefäden bestimmt die magische Stabilität verschiedener Regionen der Welt.
+
 ### [[Geist]] als Hauptelement (Linari-These)
 Erzmagus Linari korrigierte die veralteten Thesen von **[[Uron_Sbocaj]]**. Er postuliert, dass sich die vier „fassbaren“ Elemente (**Feuer, Wasser, Erde, Luft**) um ein zentrales Hauptelement scharen: den **[[Geist]]**.
 - **Werkzeug-Charakter:** Der [[Geist]] dient als Werkzeug, um die Elemente zu formen.
 - **Weg-Wahl:** Der Magier nutzt seinen [[Geist]], um dem gewählten Pfad (Licht/Weiß, Veränderung/Grau, Zerstörung/Schwarz) Ausdruck zu verleihen.
-- **Anwendungsbeispiel Heilung:**
-    - **Weiß:** Kraftzufuhr zur Selbstheilung.
-    - **Schwarz:** „Mantel des Vergessens“ über den Schmerz.
-    - **Grau:** Veränderung der physischen Struktur oder des Geistes.
-    - **Elementar:** Nutzung spezifischer Elementar-Qualitäten (z.B. Wärme des Feuers).
 
 ### Fadentheorie (Astralnetz)
 Die Realität besteht aus einem **fixen Netz** (Materie) und einem **losen Netz** (manipulierbare Energie). Es existieren fünf Elementarfäden:

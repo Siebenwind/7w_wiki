@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Arcana Procella
+title: Arcana Procella (Die arkanen Wellen)
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Magica_Procella]] Die Lehre der arkanen Wellenbewegung.md"

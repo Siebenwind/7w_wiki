@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Eire"
+title: Vater Eire
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "/Quellen/[[index]] [[Astrael]]/Heilige Liturgien.md"

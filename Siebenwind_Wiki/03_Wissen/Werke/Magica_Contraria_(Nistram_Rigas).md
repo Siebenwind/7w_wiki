@@ -1,5 +1,5 @@
 ---
-title: Magica Contraria ([[Nistram_Rigas]])
+title: Magica Contraria - Die Kunst der Antimagie
 file_name: Magica_Contraria_(Nistram_Rigas).md
 description: Ein Lehrbuch von [[Nistram_Rigas]] über die Kunst der [[Antimagie]], unterteilt in niedere (Abwehr) und hohe (Weben unterbinden) Schule.
 date: 2024-05-24

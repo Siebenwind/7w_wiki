@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 133
+title: Siebenwind Bote 133
 category: [[index]]
 status: Bote
 uuid: 8dde4f46-2b4d-49ec-a50f-b1b6f2157aec

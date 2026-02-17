@@ -5,19 +5,19 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-17 00:15 (Antigravity -> User)
-- **Status**: Phase 1.17 complete; Forum Research & Crawler Integration finalized.
+- **Last Handover**: 2026-02-17 02:35 (Antigravity -> User)
+- **Status**: Phase 1.18 complete; Batch 6 integrated. Focus shifting to Batch 7 Ingestion.
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [ ] **Silicon Inquisition**: Ingestion der Forum-Erkenntnisse (Batch 6: Magie & Götter-Wende).
+- [ ] **Silicon Inquisition**: Ingestion der verbleibenden Toran Dur Dokumente (Batch 7: Schamanismus & Run).
 - [ ] **Content Ingestion**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - *Delegiert an Ingestor*.
-- [ ] **Jules Readiness**: Validation der neuen `.agents/` Struktur durch externe Agenten.
 
-## 🟡 Priorität 2: Operative Ingestion (Inhalte)
+## 🟡 Priorität 2: Operative Ingestion & Research
+- [ ] **Kanon Inquisition**: Wiederaufnahme der Prüfung zur Götterverschmelzung (RESEARCH-2026-010/011) - [DEFERRED].
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
-- [ ] **Lore Research Board**: Abarbeitung der offenen Ausschreibungen (Angamon, Ödland, Linari).
+- [ ] **Lore Research Board**: Abarbeitung der offenen Ausschreibungen (Angamon, Ödland).
 
 ## 🔬 Aktuelle Lore-Ausschreibungen (Research Board)
 *Detaillierte Aufträge siehe [[LORE_RESEARCH_BOARD.md]]*
@@ -56,6 +56,19 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Research**: Extracted 470 legacy topics; identified 45+ lore markers (Magiereform, Exodus, Zwerge-Hintergrund).
 - **Governance**: Established `RESEARCH-2026-010` and formal Research Reports for forum-based lore.
 </details>
+
+<details open>
+<summary><b>Phase 1.18: Linari Ingestion & Magic Theory Hardening (Feb 2026)</b></summary>
+
+- **Magietheorie**: Vollständige Integration der Linari-Matrix (Knoten-Priorität) und philosophischen Ethik in `Magietheorie_Toran_Dur.md`.
+- **Daimonologie**: Erweiterung der Dämonen-Theorie um Hörner-Hierarchien und Antipoden-Entsprechungen.
+- **Artefaktkunde**: Erstellung des neuen Referenzartikels `Magietheorie_Artefaktkunde.md` (Tunneleffekt & Bindungsrituale).
+- **Register**: Synchronisation von Autoren-Profilen ([[Dunvallo_Linari]], [[Santanos_Alexandrius_von_Eichstatt]]).
+- **Governance**: Ingestion Reports für Batch 5 & 6 erstellt; System-Sanitize durchgeführt.
+</details>
+
+<details>
+<summary><b>Phase 1.17: Silicon Inquisition - Forum Research & Automation (Feb 2026)</b></summary>
 
 <details>
 <summary><b>Phase 1.16: Interop Upgrade & Jules Readiness (Feb 2026)</b></summary>

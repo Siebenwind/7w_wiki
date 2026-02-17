@@ -1,19 +1,19 @@
 ---
 layout: wiki_page
-title: Wiki Status
+title: 📊 Wiki Status
 category: Index
 ---
 
 # 📊 Wiki Status
 
-**Stand:** 2026-02-17 00:13
+**Stand:** 2026-02-17 02:32
 
 ---
 
 | Metrik | Wert |
 | :--- | :--- |
 | **Artikel** | 1106 |
-| **Worte** | 184,120 |
+| **Worte** | 184,799 |
 | **Personen** | 586 |
 
 ---
@@ -21,9 +21,9 @@ category: Index
 ```mermaid
 pie title Sektionen
     "07_Persoenlichkeiten" : 586
-    "05_Magie" : 39
+    "05_Magie" : 40
     "08_Bestiarium" : 33
-    "03_Wissen" : 55
+    "03_Wissen" : 54
     "03_Gesellschaft" : 57
     "05_Geschichte" : 57
     "02_Geografie" : 56
@@ -41,21 +41,21 @@ Leserrelevante, stark vernetzte Artikel (ohne Index/Register).
 
 | Entität | Links |
 | :--- | :--- |
-| [[Siebenwind]] | 790 |
-| [[Falkensee]] | 549 |
-| [[Brandenstein]] | 471 |
-| [[Astrael]] | 160 |
-| [[Toran_Dur]] | 154 |
+| [[Siebenwind]] | 703 |
+| [[Falkensee]] | 543 |
+| [[Brandenstein]] | 465 |
+| [[Astrael]] | 161 |
+| [[Toran_Dur]] | 145 |
 
 
 ## 👤 Top Persönlichkeiten
 | Persönlichkeit | Links |
 | :--- | :--- |
-| [[Toran_Dur]] | 154 |
+| [[Toran_Dur]] | 145 |
 | [[Geist]] | 125 |
 | [[Custodias]] | 83 |
 | [[Waldemar_Delarie]] | 60 |
-| [[Dunvallo_Linari]] | 52 |
+| [[Dunvallo_Linari]] | 53 |
 
 
 ## 🕰️ Top Ereignisse

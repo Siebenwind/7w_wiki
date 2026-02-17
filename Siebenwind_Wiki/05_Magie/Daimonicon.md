@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Daimonicon
+title: Das Daimonicon
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Toran_Dur]]/Kulin Lateal - Das_Daimonicon.md"

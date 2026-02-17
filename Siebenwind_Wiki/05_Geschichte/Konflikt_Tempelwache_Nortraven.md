@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Konflikt Tempelwache [[Nortraven]]
+title: Konflikt Tempelwache Nortraven
 category: [[index]]
 ---
 

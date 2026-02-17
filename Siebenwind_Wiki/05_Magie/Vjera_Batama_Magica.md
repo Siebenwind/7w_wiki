@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Vjera Batama Magica
+title: Vjera Batama Magica (Edelsteinmagie)
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Sylest_le_Felyhn]] - Vjera Batama Magica.md"

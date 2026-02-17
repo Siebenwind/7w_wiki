@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Bestiarium
+title: Siebenwind Wiki - Bestiarium
 ---
 
 # [[Siebenwind]] Wiki - Bestiarium

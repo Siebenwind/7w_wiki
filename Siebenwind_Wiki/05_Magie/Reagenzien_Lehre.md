@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Reagenzien-Lehre
+title: Reagenzien-Lehre (Fokus-Theorie)
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Dunvallo_Linari]] - Reagenzien.md"

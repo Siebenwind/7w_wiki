@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Timothios"
+title: Bruder Timothios
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "/Quellen/[[index]] [[Astrael]]/Heilige Liturgien.md"

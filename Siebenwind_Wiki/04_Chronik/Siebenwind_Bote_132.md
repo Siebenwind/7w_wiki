@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 132
+title: Siebenwind Bote 132
 category: [[index]]
 ---
 

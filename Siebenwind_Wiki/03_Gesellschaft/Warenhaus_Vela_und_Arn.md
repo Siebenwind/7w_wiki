@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Warenhaus [[Vela]] und [[Arn]]
+title: Warenhaus Vela und Arn
 category: Organisationen
 ---
 

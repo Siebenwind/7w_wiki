@@ -28,9 +28,9 @@ Der Körper selbst besteht aus Elementen:
 *   Feuer (Herzschlag/Wärme)
 
 ### Transmutation (Gestaltwandlung)
-Da auch Tiere aus Elementarknoten bestehen, kann der Magier sein eigenes Elementarmuster angleichen.
-*   **Risiko:** Verlust des eigenen Ichs (fängt sich in der Tiergestalt).
-*   **Runen-Beispiel:** `narra odal radine tar hian ki hian vuchaleij` (Verwandlung in einen Vogel).
+Da auch Tiere aus Elementarknoten bestehen, kann der Magier sein eigenes Elementarmuster angleichen. Der Vorgang besteht darin, dass der Wirkende die Elementarknoten seines Körpers an die des Tieres angleicht, wofür ihm dessen Muster bekannt sein muss.
+*   **Risiko:** Verlust des eigenen Ichs (fängt sich in der Tiergestalt), wenn der Verstand das Trugbild unterbewusst als unmöglich abtut oder die Kontrolle verliert.
+*   **Runen-Beispiel:** `narra odal` (Macht/Veränderung), `radine` (Handlung am Selbst), `tar hian` (Fokus/Körper), `ki hian vuchaleij` (Zielgestalt). In Kombination: Verwandlung in einen Vogel.
 
 ### Illusionen
 Dunkelbaum argumentiert, dass Illusionen ("Zaubermantel", "unscheinbarer Stein") nicht auf [[Geist]]-[[index]] beruhen, sondern physikalische Manipulationen von Luft und Feuer (Hitze-Flimmern) sind.

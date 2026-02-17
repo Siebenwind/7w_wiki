@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Philosophie der [[index]]
+title: Philosophie der index
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Dunvallo_Linari]] - Philosophie.md"

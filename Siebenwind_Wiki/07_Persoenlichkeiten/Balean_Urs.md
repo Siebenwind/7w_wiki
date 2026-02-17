@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 uuid: f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c
-title: Balean [[Urs]]
+title: Balean Urs
 category: Persönlichkeit
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_169]].md
 letzter_check: 2026-02-13T22:30:00

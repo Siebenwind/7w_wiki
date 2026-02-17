@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 167
+title: Siebenwind Bote 167
 category: [[index]]
 status: Bote
 uuid: d89c1234-5678-4321-abcd-ef9876543210

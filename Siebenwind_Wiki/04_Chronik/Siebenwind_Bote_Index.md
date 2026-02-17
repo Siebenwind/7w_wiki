@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote Index
+title: Siebenwind Bote Index
 category: [[index]]
 ---
 

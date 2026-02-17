@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Goslian"
+title: Hochwürden Goslian
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "/Quellen/[[index]] [[Astrael]]/Über die Gebete.md"

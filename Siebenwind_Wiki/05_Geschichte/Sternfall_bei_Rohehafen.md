@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Sternfall bei [[Rohehafen]]
+title: Sternfall bei Rohehafen
 category: [[index]]
 ---
 

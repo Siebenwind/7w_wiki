@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Divinum et Elementum"
+title: Divinum et Elementum (Von der Substanz der Götter und der Elementarherren)
 category: Religion
 status: integrated
 uuid: d1v1num-3l3m-2026

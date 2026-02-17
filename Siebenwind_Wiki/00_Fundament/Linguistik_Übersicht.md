@@ -32,6 +32,17 @@ Die Zwergen-Sprache **Dwarschim** ist kehlig und präzise. Sie wird oft in Kompo
 ## Die Run-Sprache (Altgaladonisch)
 Die Sprache der [[Die_Gohor]] (Gohor) und Grundstein aller modernen Zivilisationssprachen. Sie wird heute vor allem in der [[index]] und in antiken Inschriften verwendet. Sie bildet die Grundlage für magische Formeln und Gelehrtentexte.
 
+**Akademische Pfad-Suffixe:**
+- `ir hires Ita'En`: Dem elementaren Pfade folgend.
+- `ir hires Ita'Glur`: Dem grauen Pfade folgend.
+- `ir hires Ita'Il`: Dem weißen Pfade folgend.
+
+**Transmutations-Runen:**
+- `narra odal`: Macht der Veränderung.
+- `radine`: Handlung am Selbst / Musterangleichung.
+- `tar hian`: Fokus auf den Körper / Gegenstand.
+- `ki hian vuchaleij`: Bestimmung der Zielgestalt.
+
 ## Orkisch (Schlachtruf-Dialekt)
 Die Sprache der [[Orken]] wird oft als "lautgesprochenes Galadonisch" (verfälschtes Deutsch) beschrieben. Sie zeichnet sich durch eine harte, gutturale Aussprache und lautmalerische Verzerrungen aus.
 

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Grundlagen der Magiewahrnehmung"
+title: Grundlagen der Magiewahrnehmung (Lore-Modelle)
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Terenon_Sarophilan]] - Theorien Åber die Herkunft und das Wirken der [[index]].md"

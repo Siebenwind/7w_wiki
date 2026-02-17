@@ -1,5 +1,5 @@
 ---
-title: Horlafstrom-Theorie ([[Aren_Remouldo]])
+title: Die Theorie des Horlafstroms
 file_name: Horlafstrom-Theorie_(Aren_Remouldo).md
 description: Eine alternative Magietheorie von Adeptus [[Aren_Remouldo]], die das Wirken von [[index]] durch die Verbindung zum "Horlaf" (Licht der Mächte) erklärt.
 date: 2024-05-24

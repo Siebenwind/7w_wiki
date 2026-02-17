@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Antimagie
+title: Antimagie (Magica Contraria)
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Nistram_Rigas]] - Magica Contraria.md"

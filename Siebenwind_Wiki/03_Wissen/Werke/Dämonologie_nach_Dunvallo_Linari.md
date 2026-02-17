@@ -1,5 +1,5 @@
 ---
-title: Dämonologie nach [[Dunvallo_Linari]]
+title: Dämonologie nach Dunvallo_Linari
 file_name: Dämonologie_nach_Dunvallo_Linari.md
 description: Zusammenfassung der Erkenntnisse und Warnungen des Erzmagus [[Dunvallo_Linari]] bezüglich der Dämonologie, der Natur der Niederhöllen und der Beschwörungskunst.
 date: 2024-05-24

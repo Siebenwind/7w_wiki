@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Angriff auf [[Brandenstein]] (29 n.H.)
+title: Angriff auf Brandenstein (29 n.H.)
 category: [[index]]
 ---
 

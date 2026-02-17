@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Magie
+title: Siebenwind Wiki - Magie
 ---
 
 # [[Siebenwind]] Wiki - Magie

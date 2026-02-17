@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Fundament
+title: Siebenwind Wiki - Fundament
 ---
 
 # [[Siebenwind]] Wiki - Fundament

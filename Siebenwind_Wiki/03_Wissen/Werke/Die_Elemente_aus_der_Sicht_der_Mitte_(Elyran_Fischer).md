@@ -1,5 +1,5 @@
 ---
-title: Die Elemente aus der Sicht der Mitte ([[Elyran_Fischer]])
+title: Die Elemente aus der Sicht der Mitte
 file_name: Die_Elemente_aus_der_Sicht_der_Mitte_(Elyran_Fischer).md
 description: Eine magietheoretische Betrachtung der Elemente aus der pragmatischen Sicht eines Graumagiers ("Mitte"), mit Fokus auf Symbolik und effektiven Nutzen.
 date: 2024-05-24

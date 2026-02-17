@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Matrixtheorie"
+title: Matrixtheorie (Linari)
 category: Magie
 status: integrated
 uuid: l1n4r1-m4t-2026

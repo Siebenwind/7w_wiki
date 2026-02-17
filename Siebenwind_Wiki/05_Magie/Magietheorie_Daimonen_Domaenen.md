@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Magietheorie: Domänen Yerrodons"
+title: Die Domänen Yerrodons
 category: [[index]]
 status: Canon
 quelle: "../../Quellen/[[index]] [[Toran_Dur]]/Anonymous - öber die Verhaltensweisen von Daimonen.md"

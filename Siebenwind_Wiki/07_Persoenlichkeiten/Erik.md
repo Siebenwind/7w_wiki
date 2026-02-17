@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Erik"
+title: Bruder Erik
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "/Quellen/[[index]] [[Astrael]]/Heilige Liturgien.md"

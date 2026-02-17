@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Toran [[Dur]]
+title: Toran Dur
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 

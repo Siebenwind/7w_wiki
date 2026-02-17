@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[index]] Register
+title: index Register
 category: Index
 ---
 

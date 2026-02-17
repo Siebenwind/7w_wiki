@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Von den [[Myten]]"
+title: Von den Myten
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Astrael]]/Von den [[Myten]].md"

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Das [[index]]
+title: Das index
 category: Index
 ---
 

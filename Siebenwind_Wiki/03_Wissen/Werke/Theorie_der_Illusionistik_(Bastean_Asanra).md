@@ -1,5 +1,5 @@
 ---
-title: Theorie der Illusionistik ([[Bastean_Asanra]])
+title: Theorethik der arkanen index: Illusionistik
 file_name: Theorie_der_Illusionistik_(Bastean_Asanra).md
 description: Eine theoretische Abhandlung über die Funktionsweise von Illusionen, basierend auf der Seelennetztheorie und der Manipulation von Wahrnehmungsfäden.
 date: 2024-05-24

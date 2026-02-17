@@ -1,5 +1,5 @@
 ---
-title: Sprache Yerredoni
+title: Die Sprache Yerredoni
 file_name: Sprache_Yerredoni.md
 description: Eine Untersuchung der geheimen Sprache Yerredoni, die angeblich von Kultisten und Schwarzmagiern während der Amulettkriege genutzt wurde.
 date: 2024-05-24

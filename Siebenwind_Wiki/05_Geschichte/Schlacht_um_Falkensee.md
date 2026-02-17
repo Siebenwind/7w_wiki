@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Schlacht um [[Falkensee]]
+title: Schlacht um Falkensee
 category: [[index]]
 ---
 

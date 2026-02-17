@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Alte Magietheorie"
+title: Alte Magietheorie (Linari)
 category: Magie
 status: integrated
 uuid: l1n4r1-m4g-2026

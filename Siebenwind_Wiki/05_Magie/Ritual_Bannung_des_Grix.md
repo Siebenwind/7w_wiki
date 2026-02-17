@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Ritual: Bannung des [[Grix]]"
+title: Ritual zur Bannung des Grix
 category: [[index]]
 status: Canon
 quelle: "../../Quellen/[[index]] [[Toran_Dur]]/Anonymous - Ritual zur Bannung des [[Grix]].md"

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Sebastian"
+title: Bruder Sebastian
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "/Quellen/[[index]] [[Astrael]]/Heilige Liturgien.md"

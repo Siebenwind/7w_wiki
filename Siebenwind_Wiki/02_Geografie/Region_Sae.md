@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Region [[Sae]]
+title: Region Sae
 category: Index
 author: [[Siebenwind]] Chronicler
 ---

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Sprache: Run"
+title: Die_Sprache_Run
 category: [[index]]
 status: Canon
 quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Toran_Dur]] - [[Die_Sprache_Run]].md"

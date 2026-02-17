@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Rasse [[Elfen]]
+title: Rasse Elfen
 category: [[Gesellschaft]]
 ---
 

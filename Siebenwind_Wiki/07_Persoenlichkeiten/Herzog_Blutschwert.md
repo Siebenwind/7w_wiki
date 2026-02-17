@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Herzog [[Blutschwert]]
+title: Herzog Blutschwert
 category: Persönlichkeit
 uuid: h3rz0g-blut-schw3rt-22nh
 quelle: ../../Quellen/Spielergeschichten/[[Blutschwert]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Aufbau von [[Greifenklipp]]
+title: Aufbau von Greifenklipp
 category: [[index]]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Wirkung von Metallen auf arkane Kräfte ([[Edomawyr]])
+title: Die Wirkung von Metallen auf die arkanen Kräfte
 file_name: Wirkung_von_Metallen_auf_arkane_Kraefte_([[Edomawyr]]).md
 description: Eine Untersuchung über den Einfluss verschiedener Metalle auf das Thaumaturgische Gitter und deren Eignung als magische Foki oder Störfaktoren.
 date: 2024-05-24

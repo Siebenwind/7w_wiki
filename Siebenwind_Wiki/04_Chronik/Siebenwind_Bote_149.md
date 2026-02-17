@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 149
+title: Siebenwind Bote 149
 category: [[index]]
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a911

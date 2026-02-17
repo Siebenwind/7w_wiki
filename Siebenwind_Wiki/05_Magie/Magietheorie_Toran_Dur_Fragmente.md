@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "[[Toran_Dur]] Fragmente"
+title: Fragmente aus Toran_Dur
 category: [[index]]
 status: Canon
 quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Toran_Dur]] - Sammlerfragmente I-IV.md"

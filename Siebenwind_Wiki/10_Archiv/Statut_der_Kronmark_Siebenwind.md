@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Statut der Kronmark [[Siebenwind]] (19 n.H.)
+title: Statut der Kronmark Siebenwind (19 n.H.)
 category: [[index]]
 ---
 

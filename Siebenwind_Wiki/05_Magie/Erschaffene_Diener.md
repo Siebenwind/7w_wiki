@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Erschaffene Diener
+title: Erschaffene Diener (Golems)
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Nuir_Ekre]] - Die Kunst der erschaffenen Diener I & II.md"

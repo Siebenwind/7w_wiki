@@ -1,5 +1,5 @@
 ---
-title: Schwarze Ritualmagie (Thanthul)
+title: Schwarze Ritualmagie
 file_name: Schwarze_Ritualmagie_(Thanthul).md
 description: Ein Lehrtext von Lehrmeister Thanthul über die schwarze Ritualmagie (Conjuratio und Evocatio), Dämonenbeschwörung und die notwendigen Komponenten.
 date: 2024-05-24

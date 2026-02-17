@@ -1,5 +1,5 @@
 ---
-title: Lexikon der [[index]] ([[Dunvallo_Linari]])
+title: Lexikon der index
 file_name: Lexikon_der_Magie_(Dunvallo_Linari).md
 description: Ein Nachschlagewerk für magische Begrifflichkeiten, Definitionen der Elemente, Sphären und diverser magischer Schulen, verfasst von Erzmagus [[Dunvallo_Linari]].
 date: 2024-05-24

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Elementarwerdung
+title: Elementarwerdung (Die Bindung an das Element)
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Elurai_Calades]] - Bindungslehre der Elementarmagier.md"

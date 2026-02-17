@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 137
+title: Siebenwind Bote 137
 category: [[index]]
 status: Bote
 uuid: 0392856c-8aeb-4358-a383-32b7a8e9599c

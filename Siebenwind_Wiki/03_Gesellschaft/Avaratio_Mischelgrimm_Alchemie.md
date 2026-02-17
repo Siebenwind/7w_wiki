@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Theorie der Form und des Funkens"
+title: Theorie der Form und des Funkens (Opus i de alchimiae)
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Astrael]]/Opus i de alchimiae.md"

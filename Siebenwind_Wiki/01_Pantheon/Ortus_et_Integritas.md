@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Ortus et Integritas"
+title: Ortus et Integritas (Von der Reinheit des Anfangs)
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Astrael]]/Ortus et Integritas.md"

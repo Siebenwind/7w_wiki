@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Geografie
+title: Siebenwind Wiki - Geografie
 ---
 
 # [[Siebenwind]] Wiki - Geografie

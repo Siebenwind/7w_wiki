@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 188
+title: Siebenwind Bote 188
 category: [[index]]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Sanduros]] [[Mantaris]]
+title: Sanduros Mantaris
 category: Persönlichkeit
 uuid: 54ndur05-m4nt4r15-45tr43l
 quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]

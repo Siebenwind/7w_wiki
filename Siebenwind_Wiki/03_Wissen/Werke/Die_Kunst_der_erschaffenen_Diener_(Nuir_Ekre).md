@@ -1,5 +1,5 @@
 ---
-title: Die Kunst der erschaffenen Diener ([[Nuir_Ekre]])
+title: Die Kunst der erschaffenen Diener
 file_name: Die_Kunst_der_erschaffenen_Diener_(Nuir_Ekre).md
 description: Ein zweibändiges Werk von [[Nuir_Ekre]] über die Erschaffung und Führung von [[Golems]] (Festform und Fließform).
 date: 2024-05-24

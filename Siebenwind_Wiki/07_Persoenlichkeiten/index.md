@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Persoenlichkeiten
+title: Siebenwind Wiki - Persoenlichkeiten
 ---
 
 # [[Siebenwind]] Wiki - Persoenlichkeiten

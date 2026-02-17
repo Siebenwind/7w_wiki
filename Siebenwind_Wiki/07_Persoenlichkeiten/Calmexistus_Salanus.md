@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 uuid: 4a3e2003-9d0b-465d-b08a-21e1029384f5
-title: Calmexistus [[Salanus]]
+title: Calmexistus Salanus
 category: Persönlichkeit
 quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 letzter_check: 2026-02-13T23:25:00

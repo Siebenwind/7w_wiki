@@ -1,5 +1,5 @@
 ---
-title: Der letzte Falke ([[Rose_von_Sonnentau]])
+title: Der letzte Falke
 file_name: Der_letzte_Falke_(Rose_von_Sonnentau).md
 description: Eine epische Ballade über den Untergang der Burg Falkenhorst (oder [[Finsterwangen]]?) und das Opfer dreier Ritter: Sir Barnabas, Sir [[Athos]] und Schwertklinge. Überliefert aus der Sicht eines "Kätzchens".
 date: 2024-05-24

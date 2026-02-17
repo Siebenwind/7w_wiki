@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Von der rechten Art der Mission"
+title: Von der rechten Art der Mission und dem gesunden Maß
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Astrael]]/Von der rechten Art der Mission und dem gesunden Mass.md"

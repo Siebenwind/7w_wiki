@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: "Regulatorium der [[index]]"
+title: Regulatorium der index zum Heiligen Auge Astraels
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Astrael]]/Regulatorium der [[index]] zum Heiligen Auge Astraels.md"

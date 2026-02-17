@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 145
+title: Siebenwind Bote 145
 category: [[index]]
 ---
 

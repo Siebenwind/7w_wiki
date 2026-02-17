@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 173
+title: Siebenwind Bote 173
 category: [[index]]
 status: Bote
 uuid: c3d4e5f6-a1b2-4c3d-bd5e-6f7g8h9i0j1k

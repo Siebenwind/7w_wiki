@@ -1,5 +1,5 @@
 ---
-title: Das System arkaner Lokalitäten ([[Kalveron_Dai]])
+title: Das System arkaner Lokalitäten
 file_name: Das_System_arkaner_Lokalitaeten_(Kalveron_Dai).md
 description: Eine Magisterarbeit von [[Kalveron_Dai]] über das Aufspüren, Klassifizieren und Nutzen von arkanen Orten (Knotenpunkten) mittels Flux- und Gittersicht.
 date: 2024-05-24

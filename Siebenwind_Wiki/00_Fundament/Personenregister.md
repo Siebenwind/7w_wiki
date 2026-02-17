@@ -15,11 +15,11 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | Name | Rolle / Titel | Erstes Auftreten (Quelle) | Aktivitätszeitraum | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | [[Aelwin]] | Inquisitor / Geweihter | [Heilige Liturgien] / [Bote 120] | Historisch / 15 n.H. | #überlieferung |
-| [[Arenus_der_Weise]] | Erzmagus / Philosoph / Autor | [[[Dunvallo_Linari]] - Philosophie] / [Philosophie] | Historisch (ca. 70 b.H.) | #überlieferung |
+| [[Arenus_der_Weise]] | Erzmagus / Philosoph / Autor | [Magietheorie - Matrix] / [Philosophie] | Historisch (ca. 70 b.H.) | #überlieferung |
 | [[Aren_Remouldo]] | Adeptus Major | [Horlafstrom-Theorie] | Historisch | #überlieferung |
-| [[Amanda_Dunkelbaum]] | Elementaristin (Novizin) | [Der [[Elementare]] Pfad] / [Eigenschaften_der_Elemente] | Historisch | #überlieferung |
+| [[Amanda_Dunkelbaum]] | Magistra / Elementarmagierin | [Der [[Elementare]] Pfad] / [Elementarmagie 1] | Historisch | #überlieferung |
 | [[Arknor]] | Adept zur Linken | [[[Sprache_Yerredoni]]] | Historisch | #überlieferung |
-| [[Arlin_Sturmfels]] | Initiator der Zusammenkunft | [Linari - Artefakte] | Historisch | #überlieferung |
+| [[Arlin_Sturmfels]] | Initiator der Zusammenkunft | [Artefaktkunde] | Historisch | #überlieferung |
 | [[Anais]] | Ihre Gnaden / Inquisitorin | [Heilige Liturgien] | Historisch | #überlieferung |
 | [[Aarion]] | Graf der Wolfsmark | [Vandriens Entstehung] | Historisch | #überlieferung |
 | [[Arnhorte]] | Adliger (Wolfsmark) | [Vandriens Entstehung] | Historisch | #überlieferung |
@@ -170,7 +170,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Marlon_Brandner]] | Berater | [[Siebenwind]] | 18 n.H. | #bote |
 | [[Marnie_Ruatha]] | Baronin / Hafenvogtess (verhaftet 22 n.H.) | [Kanon] / [Bote 167] | amtierend | #canon |
 | [[Mirian]] | Knappin | [Bote 139] | 16 n.H. | #bote |
-| [[Dunvallo_Linari]] | Erzmagus | [Magietheorie] / [Dämonologie] / [Lexikon] | Historisch | #überlieferung |
+| [[Dunvallo_Linari]] | Erzmagus / Philosoph / Autor | [Magietheorie - Matrix] / [Daimonologie] / [Artefaktkunde] | Historisch (ca. 3 n.H.) | #überlieferung |
 | [[Lauscher_der_Lieder]] | Auenelf / Dichter | [Bote 186] | 22 n.H. | #bote |
 | [[Layna_Rabenstein]] | Patrizierin / Dichterin | [Bote 186] | 22 n.H. | #bote |
 | [[Donarius_Derrvus]] | Defensor Fidei / Docent ([[Astrael]]) | [Von den [[Myten]]] / [Über die Gohor] | Historisch | #überlieferung |
@@ -597,6 +597,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Wolfgang_Ravinsthal]] | Adeptus / Adeptus Arkanis / Autor | [Sphärenkunde] | Historisch | #überlieferung |
 | [[Zyraghlos_cé_Vegano]] | Magister ([[Toran_Dur]]) | [Linari - Reagenzien] | Historisch | #überlieferung |
 | [[Keljar]] | Student / Bannweber ([[Toran_Dur]]) | [Linari - Reagenzien] | Historisch | #überlieferung |
-| [[Santanos_Alexandrius_von_Eichstatt]] | Erzmagus / Autor | [Linari - Artefakte] | Historisch | #überlieferung |
+| [[Santanos_Alexandrius_von_Eichstatt]] | Erzmagus / Autor | [Artefaktkunde] | Historisch | #überlieferung |
 | [[Birnbaum]] | Magister Extraordinarius | [Angamoniensis] | Historisch | #überlieferung |
 | [[Fogrim_Goldaxt]] | Schmied (Arkadons Schmiede) | [Bartanatomie] | Historisch | #überlieferung |
+| [[Allakath]] | Adeptus minor (ir hires ita'Glur) / Autor | [Magie - Etikette] | Historisch | #überlieferung |

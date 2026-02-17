@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 129
+title: Siebenwind Bote 129
 category: [[index]]
 ---
 

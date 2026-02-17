@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 138
+title: Siebenwind Bote 138
 category: [[index]]
 status: Bote
 uuid: feba58b7-1e0c-446e-871a-03eb4802ebff

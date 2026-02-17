@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Akora]] [[Dur]]
+title: Akora Dur
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_167]].md

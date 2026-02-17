@@ -1,5 +1,5 @@
 ---
-title: Ars Magica Metamorphosia ([[Lewyn_Anacar]])
+title: Ars Magica Metamorphosia
 file_name: Ars_Magica_Metamorphosia_(Lewyn_Anacar).md
 description: Ein Lehrbuch von [[Lewyn_Anacar]] über die Schule der Veränderungsmagie, unterteilt in Magica Mutanda (Lebewesen) und Magica Transformatorica (Objekte).
 date: 2024-05-24

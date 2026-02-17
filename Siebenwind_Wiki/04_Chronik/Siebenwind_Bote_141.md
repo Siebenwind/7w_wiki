@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Siebenwind]] Bote 141
+title: Siebenwind Bote 141
 category: [[index]]
 ---
 

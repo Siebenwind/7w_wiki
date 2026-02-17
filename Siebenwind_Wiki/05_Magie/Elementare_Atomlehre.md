@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[Elementare]] Atomlehre
+title: Elementare Atomlehre
 category: [[index]]
 status: integrated
 quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Jennaia_Lavrial]] - Die These der elementaren Atome.md"

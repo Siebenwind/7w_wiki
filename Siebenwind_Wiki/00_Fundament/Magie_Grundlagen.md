@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: [[index]] Grundlagen
+title: index Grundlagen
 category: [[index]]
 ---
 

@@ -1,9 +1,30 @@
 # Changelog
 
-#### [2026-02-17.01] - Silicon Inquisition: Forum Research & Crawler Integration
+#### [2026-02-17.02] - Linari Ingestion & Magic Theory Hardening
 
 ### Prioritaet
 - P1
+
+### Hinzugefügt
+- Neuer Artikel [[Magietheorie_Artefaktkunde]] (Linari-Thesen, Tunneleffekt).
+- Ingestion Reports für Batch 5 & 6 (`Logs/Ingestion/`).
+- Hierarchie der Hörner und Antipoden-Theorie in [[Magietheorie_Daemonenbeschwoerung]].
+
+### Geaendert
+- [[Magietheorie_Toran_Dur]] auf v2.1 gehärtet (Matrixtheorie & Linari-Ethik integriert).
+- [[Personenregister]] um Autorenprofile ergänzt und verknüpft.
+- [[INVENTUR_QUELLEN]] auf `Integrated` für Batch 5 & 6 gesetzt.
+
+### Validiert
+- `./7w_wiki.py sanitize --auto`
+- `./7w_wiki.py archive sync`
+- `./7w_wiki.py test --suite all` (100% PASS)
+- `./7w_wiki.py audit` (0 Issues)
+
+#### [2026-02-17.01] - Silicon Inquisition: Forum Research & Crawler Integration
+
+### Prioritaet
+- P2
 
 ### Hinzugefügt
 - Neues CLI-Kommando `./7w_wiki.py scout` zur automatisierten Suche in legacy Foren.

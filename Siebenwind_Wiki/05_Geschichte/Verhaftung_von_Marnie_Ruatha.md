@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Verhaftung von [[Marnie_Ruatha]]
+title: Verhaftung von Marnie_Ruatha
 category: [[index]]
 ---
 
