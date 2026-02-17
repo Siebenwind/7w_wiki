@@ -13,6 +13,6 @@ This skill is invoked via workflow guidance and project review tasks.
 See `.agent/skills/art_director/SKILL.md` for prompt engineering guidelines.
 
 ## Standards
-- **Style**: Leonardo Sanguine / Renaissance Sketch.
+- **Style**: Archivum Argentum (Silverpoint / Renaissance Draft, serioes und reduziert).
 - **Format**: WebP, 16:9 or 1:1.
 - **Coordination**: Post status/questions via Dispatch when outputs block other agents.

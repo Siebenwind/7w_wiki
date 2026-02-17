@@ -18,15 +18,15 @@ Dieser Skill steuert die Generierung von visuellen Artefakten für das Siebenwin
 ## Arbeitsweise
 
 ### 1. Style Presets
-Aktuelle Ära: **"Codex Atlanticus"** (High Renaissance / Da Vinci)
+Aktuelle Ära: **"Archivum Argentum"** (Silverpoint / Renaissance Draft)
 
 | Parameter | Wert |
 | :--- | :--- |
-| **Medium** | Rötelzeichnung (Red Chalk), Sepia-Tusche, Silberstift |
-| **Untergrund** | Altes Pergament, texturiertes Papier (Vellum) |
-| **Stimmung** | Akademisch, mystisch, "Unvollendetes Meisterwerk" |
-| **Verbotene Elemente** | Fotorealismus, 3D-Render, Anime, Moderne Schriftarten, Neon (außer Magie), Steampunk-Zahnräder (außer explizit gefordert) |
-| **Erlaubte Elemente** | Spiegelschrift, anatomische Studien, geometrische Hilfslinien, Ley-Linien, Runenkreise |
+| **Medium** | Silberstift, Graphit, feine Tusche-Linien (Rötel nur als Akzent) |
+| **Untergrund** | Helles Papier, vellumartige Textur, ruhiger Archivhintergrund |
+| **Stimmung** | Serioes, gelehrt, zurueckhaltend, andeutend statt ausgemalt |
+| **Verbotene Elemente** | Fotorealismus, 3D-Render, Anime, Neon, harte UI-Grafik, Zahnräder/Mechanik (außer Dwarschim/Uhrmacher explizit) |
+| **Erlaubte Elemente** | Leichte Spiegelschrift, anatomische Studien, topografische Linien, feine Kurven, Leerraum |
 
 ### 2. Generierungs-Prozess
 Bei jeder `generate_image` Aktion MUSS gleichzeitig eine `.json` Metadaten-Datei angelegt werden.
@@ -40,7 +40,7 @@ Bei jeder `generate_image` Aktion MUSS gleichzeitig eine `.json` Metadaten-Datei
 {
   "asset_name": "siebenwind_banner_final",
   "timestamp": "ISO-8601",
-  "style_preset": "Codex Atlanticus",
+  "style_preset": "Archivum Argentum",
   "prompt_used": "Full prompt text...",
   "parameters": {
     "aspect_ratio": "3:1",
@@ -53,12 +53,12 @@ Bei jeder `generate_image` Aktion MUSS gleichzeitig eine `.json` Metadaten-Datei
 
 ### 3. Workflow
 1.  **Anfrage analysieren:** Welches Subjekt? Welcher Kontext?
-2.  **Prompt Engineering:** Wende das "Codex Atlanticus" Preset an.
-    *   *Prefix:* "Leonardo da Vinci style red chalk sketch on parchment..."
-    *   *Suffix:* "...detailed, masterpiece, faint mirror writing."
+2.  **Prompt Engineering:** Wende das "Archivum Argentum" Preset an.
+    *   *Prefix:* "Leonardo-inspired silverpoint drawing on archival paper..."
+    *   *Suffix:* "...restrained linework, negative space, faint mirror writing."
 3.  **Generierung:** Führe `generate_image` aus.
 4.  **Validierung:** Prüfe das Ergebnis visuell (method hint, non-runtime: Editor/Browser-Host-Tooling). Passt der Stil?
 5.  **Archivierung:** Speichere Bild + JSON.
 
 ## Zukunfts-Sicherheit
-Sollte sich der Art Style ändern (z.B. zu "Oil Painting" oder "Pixel Art"), wird lediglich der Abschnitt **1. Style Presets** in diesem Skill aktualisiert. Die Metadaten alter Bilder bleiben erhalten und dokumentieren ihre Epoche.
+Sollte sich der Art Style ändern, wird lediglich der Abschnitt **1. Style Presets** in diesem Skill aktualisiert. Die Metadaten alter Bilder bleiben erhalten und dokumentieren ihre Epoche.

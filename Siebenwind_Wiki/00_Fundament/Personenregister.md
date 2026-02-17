@@ -42,7 +42,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Adalbert_der_Heiler]] | Heiler | [Kanon] | amtierend | #canon |
 | [[Adhemar_Ravenforth]] | Kanzler | [Kanon] | amtierend | #canon |
 | [[Agatha_Sumpfendotter]] | Autorin | [Bote 163] | 18 n.H. | #bote |
-| [[07_Persoenlichkeiten/Althea_Danea|Althea Danea]] | Magistra / Weißmagierin | [Kompendium d. Weißmagie] | Historisch | #überlieferung |
+| [[Althea_Danea]] | Magistra / Weißmagierin | [Kompendium d. Weißmagie] | Historisch | #überlieferung |
 | [[Albert_Metzler]] | Erfinder / Mechanikus / Ortsrat | [Bote 151/152] | 18 n.H. | #bote |
 | [[Altumion_Eisenbruch]] | Inselrichter ([[03_Gesellschaft#Dwarschim|Dwarschim]]) | [Bote 123] | amtierend | #canon |
 | [[Arman]] | Ordensmitglied / "Hexer" | [Bote 123] | ~15 n.H. | #bote |
@@ -292,7 +292,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Rajka_Sanseha]] | Briefpartnerin von T. Kreytz | [[Briefe_aus_der_Ferne]] | 21 n.H. | #perspektive |
 | [[Hernaphas_Lenarmberg]] | Geweihter ([[Astrael|Astrael]]) / Lehrmeister | [[[Johann_Liebig]] - Arkane Verbindung] | Historisch | #überlieferung |
 | [[Herzog_von_Kant]] | Philosoph / Autor | [Linari - Philosophie] | Historisch | #überlieferung |
-| [[Mirila_Mik_Honigzopf]] | Bürgermeisterin ([[Rothenbucht]]) | [Bote 192] | 30 n.H. | #bote |
 | [[Murrin_Hammerschwinger]] | Dwarschim-Krieger | [Bote 180] | 21 n.H. | #bote |
 | [[Tarnuk]] | Magister ([[Lieblicher_Kelch]]) | [Bote 180] | 21 n.H. | #bote |
 | [[Althea_Ekre]] | Magistra | [Bote 180] | 21 n.H. | #bote |

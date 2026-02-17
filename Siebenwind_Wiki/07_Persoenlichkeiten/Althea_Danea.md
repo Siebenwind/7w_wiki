@@ -2,6 +2,8 @@
 layout: wiki_page
 title: Althea Danea
 category: [[Persoenlichkeiten_Uebersicht]]
+status: Ueberlieferung
+quelle: ../../Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Weissmagie_(Althea_Danea).md
 ---
 
 # Althea Danea

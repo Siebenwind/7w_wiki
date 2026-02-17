@@ -2,6 +2,8 @@
 layout: wiki_page
 title: Mirila Mik-Honigzopf
 category: [[Persoenlichkeiten_Uebersicht]]
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_192]].md
 ---
 
 # Mirila Mik-Honigzopf

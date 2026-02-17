@@ -9,7 +9,7 @@ Funktionen:
 4. Duplicate Detector: Findet doppelte Dateien (Kollisionen im Canon).
 
 Nutzung:
-    python3 .agent/scripts/repair.py [--auto] [--check-collision NAME]
+    python3 .agent/scripts/repair.py [--auto|--full] [--check-collision NAME]
 """
 
 import os
@@ -345,10 +345,19 @@ def fix_frontmatter(files: list[Path], auto: bool = False):
                 count += 1
     print(f"{count} Frontmatter hinzugefügt.")
 
+
+def run_full_repair(files: list[Path], source_files: list[Path], canon_map: dict, auto: bool = False):
+    """Führt die Reparaturmodule 1→3 in Reihenfolge aus."""
+    fix_frontmatter(files, auto=auto)
+    repair_links(files, canon_map, auto=auto)
+    repair_source_references(source_files, auto=auto)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Siebenwind Repair Tool 2.0")
     parser.add_argument("--path", default=str(WIKI_DIR), help="Zielverzeichnis")
     parser.add_argument("--auto", action="store_true", help="Auto-Repair ohne Nachfrage")
+    parser.add_argument("--full", action="store_true", help="Voller Durchlauf (1-3) ohne Nachfrage")
     parser.add_argument("--check-collision", help="Prüft, ob ein Dateiname bereits existiert")
     args = parser.parse_args()
     
@@ -376,12 +385,11 @@ def main():
     files = list(target_dir.rglob("*.md"))
     source_files = _source_repair_file_set(files)
     
-    if args.auto:
-        print(f"{BLUE}=== AUTO REPAIR STARTED ==={RESET}")
+    if args.auto or args.full:
+        mode_label = "FULL REPAIR" if args.full else "AUTO REPAIR"
+        print(f"{BLUE}=== {mode_label} STARTED ==={RESET}")
         check_duplicates(canon_map)
-        fix_frontmatter(files, auto=True)
-        repair_links(files, canon_map, auto=True)
-        repair_source_references(source_files, auto=True)
+        run_full_repair(files, source_files, canon_map, auto=True)
         print(f"{GREEN}=== FERTIG ==={RESET}")
     else:
         check_duplicates(canon_map)
@@ -390,11 +398,13 @@ def main():
             print("  1) Frontmatter Fixer")
             print("  2) Smart Link Repair")
             print("  3) Source Reference Repair")
+            print("  4) Voller Durchlauf (1-3) [Standard]")
             print("  q) Beenden")
-            c = input("Wahl: ").lower()
+            c = input("Wahl [4]: ").strip().lower() or "4"
             if c == '1': fix_frontmatter(files)
             elif c == '2': repair_links(files, canon_map)
             elif c == '3': repair_source_references(source_files)
+            elif c == '4': run_full_repair(files, source_files, canon_map)
             elif c == 'q': break
 
 if __name__ == "__main__":

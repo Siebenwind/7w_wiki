@@ -1,5 +1,5 @@
 site_name: Siebenwind Wiki
-site_description: Das oeffentliche Lore-Wiki und technische Betriebsdokumentation.
+site_description: Kuratiertes Lore-Archiv der Welt Siebenwind mit transparenten Qualitaetsverfahren.
 site_author: Siebenwind Gemeinschaft
 copyright: "© 2026 LeCorbeau & Siebenwind Gemeinschaft | Inhalte: Autoren & Projekt Siebenwind"
 docs_dir: docs
@@ -15,6 +15,7 @@ extra_css:
 
 theme:
   name: material
+  language: de
   logo: assets/logo.png
   favicon: assets/favicon.ico
   palette:
@@ -45,42 +46,43 @@ theme:
     - content.action.view
 
 nav:
-  - 🏠 Start: index.md
-  - 🗺️ Wiki fuer Leser:
-    - 🏰 Startpunkt: Siebenwind_Wiki/index.md
-    - 📜 Register & Basis:
+  - Start: index.md
+  - Lesen:
+    - Startpunkt: Siebenwind_Wiki/index.md
+    - Interessante Artikel: Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md
+    - Register und Basis:
       - Uebersicht: Siebenwind_Wiki/00_Fundament/index.md
       - Personenregister: Siebenwind_Wiki/00_Fundament/Personenregister.md
       - Organisationsregister: Siebenwind_Wiki/00_Fundament/Organisationsregister.md
       - Zeitrechnung: Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md
-    - 🏛️ Pantheon & Religion:
+    - Pantheon und Religion:
       - Uebersicht: Siebenwind_Wiki/01_Pantheon/index.md
       - Das Pantheon: Siebenwind_Wiki/01_Pantheon/Das_Pantheon.md
       - Astrael: Siebenwind_Wiki/01_Pantheon/Astrael.md
-    - 🧭 Geografie & Orte:
+    - Geografie und Orte:
       - Uebersicht: Siebenwind_Wiki/02_Geografie/index.md
       - Siebenwind: Siebenwind_Wiki/02_Geografie/Siebenwind.md
-    - 🎭 Persoenlichkeiten:
+    - Persoenlichkeiten:
       - Uebersicht: Siebenwind_Wiki/07_Persoenlichkeiten/index.md
-    - 🐉 Bestiarium: Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md
-    - ⏳ Chronik:
+    - Bestiarium: Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md
+    - Chronik:
         - Uebersicht: Siebenwind_Wiki/04_Chronik/index.md
         - Zeitlinie: Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md
-    - 📚 Das Archiv:
-      - 📋 Research Board: Archiv/Research_Board.md
-      - 🔬 Ingestion Reports: Archiv/Ingestion_Reports/index.md
-  - 🤝 Mitarbeit:
+    - Archiv und Forschung:
+      - Research Board: Archiv/Research_Board.md
+      - Ingestion Reports: Archiv/Ingestion_Reports/index.md
+      - Wiki Statistiken: Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md
+  - Mitwirken:
     - Leitfaden: CONTRIBUTING.md
     - Master Task List: MASTER_TASK_LIST.md
     - Changelog: CHANGELOG.md
-    - Wiki Statistiken: Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md
-  - 🧩 Agentenbetrieb:
-    - Uebersicht: Agenten/index.md
+    - Redesign Roadmap 2026: Archiv/REDESIGN_ROADMAP_2026.md
+  - Betrieb und Technik:
+    - Agenten-Hub: Agenten/index.md
     - Operations Handbook: AGENT_OPERATIONS_HANDBOOK.md
     - Interop: Agenten/interop.md
     - Dispatch: Agenten/dispatch.md
-    - Workflows & Skills: Agenten/workflows.md
-  - 🔧 Projekttechnik:
+    - Workflows und Skills: Agenten/workflows.md
     - Architektur: architecture.md
     - RAG Setup: setup_rag.md
     - Styling-Profil: STYLING.md

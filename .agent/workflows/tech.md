@@ -58,6 +58,13 @@ Führe bei Leerlauf diese Wartungsschritte durch:
 // turbo
 2. `./7w_wiki.py audit` (Register-Konsistenz)
 
+### D. UX/CD Dokumentation (Pflicht bei UI- oder Stil-Eingriffen)
+Wenn Landing, Navigation, Corporate Design oder kuratierte Einstiege angepasst werden:
+1. Dokumentiere den Eingriff in `CHANGELOG.md`.
+2. Aktualisiere `docs/Archiv/REDESIGN_ROADMAP_2026.md` (Phase/Status/Naechster Schritt).
+3. Synchronisiere betroffene Skills/Workflows (mindestens Art Director, /herold, /antigravity).
+4. Poste einen Dispatch-Heartbeat mit den Kernpunkten und offenen Folgefragen.
+
 ## 3. Abschluss
 - Wenn Code geändert wurde: `git commit` mit technischem Präfix (`fix:`, `feat:`, `chore:`).
 - Bei laengeren Aufgaben mindestens einen Status-Heartbeat via `mail post` senden.

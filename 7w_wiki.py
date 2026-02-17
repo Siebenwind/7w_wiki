@@ -90,6 +90,7 @@ def main():
     # Repair
     repair_parser = subparsers.add_parser("repair", help="Interactive repair of links and metadata")
     repair_parser.add_argument("--auto", action="store_true", help="Run non-interactive auto-repair")
+    repair_parser.add_argument("--full", action="store_true", help="Run full non-interactive repair cycle (1-3)")
 
 
     subparsers.add_parser("audit", help="Run consistency audit (duplicates, orphans)")
@@ -222,6 +223,8 @@ def main():
         repair_args = []
         if args.auto:
             repair_args.append("--auto")
+        if args.full:
+            repair_args.append("--full")
         run_script(".agent/scripts/repair.py", repair_args)
 
     elif args.command == "audit":

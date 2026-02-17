@@ -18,6 +18,6 @@ In `mkdocs.yml` unter `extra_css`:
 
 ## Designrichtung
 
-- Leichter Rötel-Look
-- Subtile Ornamente statt schwerer Flächen
-- Fokus auf Lesbarkeit und langfristige Wartbarkeit
+- Serioeser Archiv-Look mit Silberstift-Linien und sparsamen Roetel-Akzenten
+- Subtile Ornamente statt schwerer Flaechen
+- Fokus auf Lesbarkeit, Orientierung und langfristige Wartbarkeit

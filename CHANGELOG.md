@@ -1,5 +1,30 @@
 # Changelog
 
+#### [2026-02-17.12] - Repair Full-Run dokumentiert und P1-Linkfixes fortgesetzt
+
+### Prioritaet
+- P1
+
+### Geaendert
+- `repair` Runtime erweitert: `./7w_wiki.py repair --full` fuehrt den kompletten Reparaturzyklus `1→2→3` non-interaktiv aus.
+- Interaktive `repair`-Menuefuehrung auf Default `4` normiert (`Wahl [4]`), sodass Enter den Voll-Durchlauf startet.
+- Doku auf neuen Repair-Standard synchronisiert:
+  - `AGENTS.md` Command Registry um `repair [--auto|--full]` erweitert.
+  - `System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md` fuer `/repair` auf interaktiv + `--full` aktualisiert.
+  - `System/AGENT_OPERATIONS_HANDBOOK.md` um Abschnitt "Repair-Modi" ergaenzt.
+- Audit-P1-Breaker fortgesetzt:
+  - Duplikatdatei `Siebenwind_Wiki/07_Persoenlichkeiten/Mirila_Mik-Honigzopf.md` konsolidiert.
+  - Personenregister-Eintraege fuer `Mirila_Mik_Honigzopf` und `Althea_Danea` normalisiert.
+  - Frontmatter-Quelle fuer `Althea_Danea` und `Mirila_Mik_Honigzopf` vervollstaendigt.
+
+### Validiert
+- `./7w_wiki.py repair --help`
+- `./7w_wiki.py repair --full`
+- `./7w_wiki.py audit`  
+  Report: `Logs/Archive/Audit_78af2438-20ac-4a7b-89a7-54fd11658d05.txt` (FAIL, 1181 Probleme)
+- `./7w_wiki.py test --suite clean-client-state`  
+  Report: `Logs/Archive/TEST_clean-client-state_2026-02-17_232723.md` (PASS)
+
 #### [2026-02-17.11] - Handover Checkpoint: Register-Sync, Tests und Queue-Status
 
 ### Prioritaet

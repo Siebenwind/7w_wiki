@@ -18,7 +18,7 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 |---|---|---|---|
 | `/start` | executable | `7w_wiki.py start` + `7w_wiki.py mail inbox --status OPEN` + `7w_wiki.py test --suite clean-client-state` | Onboarding-Einstieg mit Dispatch- und Clean-State-Sichtung |
 | `/audit` | executable | `7w_wiki.py audit` | Konsistenzpruefung |
-| `/repair` | executable | `7w_wiki.py repair` | Interaktive Reparatur (Frontmatter, Links, Link-Engine) |
+| `/repair` | executable | `7w_wiki.py repair` oder `7w_wiki.py repair --full` | Interaktive Reparatur oder Voll-Durchlauf 1→3 (Frontmatter, Links, Source-Refs) |
 | `/historian` | executable | `7w_wiki.py historian [query]` | Lore-Analyse |
 | `/stats` | executable | `7w_wiki.py stats` | Projektmetriken |
 | `/test_run` | executable | `7w_wiki.py test --suite clean-client-state|takeover-handover|interop-doc-links|rag-relevance-smoke|all` + optional `--post-failures` | Standardisierter Interop- und RAG-Smoke-Testlauf |

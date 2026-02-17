@@ -43,6 +43,10 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 ## Runtime Commands
 - `advisor`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `mail`, `pages`, `repair`, `sanitize`, `score`, `scout`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
 
+## Repair-Modi
+- Standardmodus: `./7w_wiki.py repair` (interaktiv, Default-Auswahl = Voll-Durchlauf 1→3)
+- Non-interaktiv: `./7w_wiki.py repair --full` (Frontmatter Fixer + Smart Link Repair + Source Reference Repair)
+
 ## Testbetrieb (Clean-State & Interop)
 
 Verbindlicher Einstieg:

@@ -36,7 +36,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `search <query> [--source wiki\|quellen\|all]` | Semantic RAG search (The Oracle) with explicit source scope. | `.agent/skills/oracle` |
 | `historian [query]` | Deep lore analysis (workflow or direct topic run). | `.agent/workflows/historian.md` |
 | `audit` | Consistency check (duplicates, orphans). | `.agent/scripts/register_check.py` |
-| `repair` | Interactive fix for audit findings. | `.agent/scripts/repair.py` |
+| `repair [--auto\|--full]` | Interactive fix for audit findings; `--full` runs 1→3 in one pass. | `.agent/scripts/repair.py` |
 | `sanitize [--auto]` | Structural normalization (layout, H1, frontmatter). | `.agent/scripts/wiki_sanitizer.py` |
 | `check [path]` | Style and grammar checks (Lektor). Default target: `Siebenwind_Wiki`. | `.agent/skills/lektor/style_checker.py` |
 | `score <file>` | Lore Quality Score (LQS) for one markdown file. | `.agent/scripts/lore_score_manager.py` |

@@ -11,6 +11,8 @@ description: Der Ur-Prozess / Default Protocol (Antigravity)
   - `7w_wiki.py audit`
   - `7w_wiki.py repair`
   - `7w_wiki.py stats`
+  - `7w_wiki.py test --suite clean-client-state`
+  - `7w_wiki.py mail post --from <agent> --to <agent|ALL> --subject "<text>" --body "<text>"`
 - method_only:
   - `/antigravity`
 
@@ -47,5 +49,15 @@ Solltest du jemals unsicher sein, was zu tun ist:
 2.  Führe `./7w_wiki.py audit` aus.
 3.  Lies das Ergebnis.
 4.  Handle danach.
+
+## 5. Die Dokumentations-Pflicht (No Silent Changes)
+Jede relevante Aenderung wird nachvollziehbar dokumentiert.
+1. Update `CHANGELOG.md` (Was, Warum, Validierung).
+2. Bei UX/CD-Anpassungen:
+   - `docs/Archiv/REDESIGN_ROADMAP_2026.md` aktualisieren.
+   - Betroffene Skills/Workflows synchronisieren (z.B. Art Director, /herold, /tech).
+3. Sessionende:
+   - Session-Memory unter `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md`.
+   - Pfad per `./7w_wiki.py mail post` an Folgeagenten melden.
 
 **Information Loss is unacceptable.**

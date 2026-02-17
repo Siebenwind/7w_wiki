@@ -4,7 +4,7 @@ title: Siebenwind Wiki - Archiv
 ---
 
 # [[Siebenwind]] Wiki - Archiv
-Das Archiv der Archiv.
+Das Archiv des Archivs.
 
 ## Inhalte
 
@@ -14,4 +14,5 @@ Das Archiv der Archiv.
 *   [[Milizaufloesung_Erlass|Auflösung der Milizrechtsverträge (19 n.H.)]]
 *   [[Provinzstatuten_Erlass|Rechtsgültigkeit der Provinz-Statuten (19 n.H.)]]
 *   [[Statut_der_Kronmark_Siebenwind|Statut der Kronmark [[Siebenwind]] (19 n.H.)]]
-*   [[Wiki_Statistiken|📊 Wiki Status]]
+*   [[Interessante_Artikel|Interessante Artikel]]
+*   [[Wiki_Statistiken|Wiki Status]]
