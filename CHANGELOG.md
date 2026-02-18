@@ -1,5 +1,21 @@
 # Changelog
 
+#### [2026-02-18.13] - JSON API & Test Suite Audit
+- **P1**
+- **Hinzugefügt**:
+  - **JSON API**: `--json` Flag für `advisor`, `audit`, `search` und `mail inbox` für maschinenlesbare Automation.
+  - **Messaging Enhancements**: Fuzzy-ID Matching (z.B. `32` für `MSG-2026-0032`), Auto-Claim bei `mail done`, Force-Claim Option.
+  - **Test Suite Audit**: Formaler Bericht `Logs/Reports/2026-02-18_Test_Suite_Audit.md` und Dispatch `MSG-2026-0040`.
+- **Geändert**:
+  - `AGENTS.md`: Mandatory Mission Reports und Inquisitive Protocol verankert.
+  - `SY_DISPATCH.md`: Dokumentation der neuen Messaging-Features.
+  - `search.py`: ASCII-Banner bei JSON-Output unterdrückt.
+- **Validiert**:
+  - `./7w_wiki.py advisor --json` (PASS)
+  - `./7w_wiki.py search "Tiamat" --json` (PASS)
+  - `./7w_wiki.py audit --json` (PASS)
+  - `./7w_wiki.py mail claim --force` (Funktional)
+
 #### [2026-02-18.12] - Link Integrity Restoration & Precision Repair
 - **P1**
 - **Geändert**:

@@ -9,6 +9,8 @@ Dient als zentrales Dashboard für den /takeover Prozess.
 import os
 import sys
 import re
+import json
+import argparse
 import subprocess
 from pathlib import Path
 
@@ -224,14 +226,48 @@ def recommend_action(phase, task, pending_sources, issues, dispatch_counts, top_
     print(f"👉 Starte Workflow: {BOLD}/stats{RESET} (Genieße den Erfolg)")
     print("   Oder frage den User nach neuen Aufgaben.")
 
+def collect_advisor_data():
+    """Sammelt alle Advisor-Daten in einem Dictionary."""
+    prio_counts, first_p1_task = get_priority_overview()
+    last_change = get_last_changelog_entry()
+    phase, next_task = get_next_task()
+    pending = get_pending_sources_count()
+    dispatch_counts, top_dispatch = get_dispatch_status()
+    issues = check_consistency()
+
+    return {
+        "priorities": prio_counts,
+        "first_p1_task": first_p1_task,
+        "last_change": last_change,
+        "current_phase": phase,
+        "next_task": next_task,
+        "pending_sources": pending,
+        "dispatch": {
+            "counts": dispatch_counts,
+            "top_open": top_dispatch
+        },
+        "consistency_issues": issues
+    }
+
 def main():
+    parser = argparse.ArgumentParser(description="Der Berater - System Status")
+    parser.add_argument("--json", action="store_true", help="Output raw JSON")
+    args = parser.parse_args()
+
+    data = collect_advisor_data()
+
+    if args.json:
+        print(json.dumps(data, indent=2))
+        return
+
     clear_screen()
     print_header()
     
     print(f"{BOLD}Status-Analyse:{RESET}")
 
     # 1. Priorities
-    prio_counts, first_p1_task = get_priority_overview()
+    prio_counts = data["priorities"]
+    first_p1_task = data["first_p1_task"]
     print(
         "  🎯 Prioritäten:      "
         f"{RED}P1 {prio_counts['P1']}{RESET} | "
@@ -244,23 +280,24 @@ def main():
         print(f"     Top P1:            {short_p1}")
 
     # 2. Changelog
-    last_change = get_last_changelog_entry()
-    print(f"  📅 Letzte Änderung:   {BLUE}{last_change}{RESET}")
+    print(f"  📅 Letzte Änderung:   {BLUE}{data['last_change']}{RESET}")
     
     # 3. Tasks
-    phase, next_task = get_next_task()
+    phase = data["current_phase"]
+    next_task = data["next_task"]
     task_display = next_task[:60] + "..." if next_task and len(next_task) > 60 else next_task
     print(f"  📌 Aktuelle Phase:    {YELLOW}{phase}{RESET}")
     if next_task:
         print(f"     Offener Task:      {task_display}")
     
     # 4. Sources
-    pending = get_pending_sources_count()
+    pending = data["pending_sources"]
     color = RED if pending > 0 else GREEN
     print(f"  📜 Offene Quellen:    {color}{pending}{RESET}")
 
     # 5. Dispatch Queue
-    dispatch_counts, top_dispatch = get_dispatch_status()
+    dispatch_counts = data["dispatch"]["counts"]
+    top_dispatch = data["dispatch"]["top_open"]
     open_count = dispatch_counts.get("OPEN", 0)
     claimed_count = dispatch_counts.get("CLAIMED", 0)
     done_count = dispatch_counts.get("DONE", 0)
@@ -272,9 +309,9 @@ def main():
     if top_dispatch:
         print(f"     Top OPEN:          {top_dispatch}")
     
-    # 6. Consistency (Run check typically takes < 1s)
+    # 6. Consistency
     print("  🔍 Konsistenz-Check:  ", end="", flush=True)
-    issues = check_consistency()
+    issues = data["consistency_issues"]
     if issues == -1:
         print(f"{RED}Fehler (Skript fehlt){RESET}")
     elif issues == 0:

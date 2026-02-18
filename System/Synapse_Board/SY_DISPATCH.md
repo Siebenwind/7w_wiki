@@ -48,10 +48,15 @@ Each dispatch file is a markdown document with frontmatter and lifecycle state.
 - `[URGENT]`: Sofortige Bearbeitung (Blocker).
 - `[TECH]`: Routing an Technician (Infrastruktur-Probleme).
 
-8. Bei erkannter Parallelaenderung wartet die Runtime 30 Sekunden (Settle-Window) und versucht den Statuswechsel erneut.
-9. Runtime-Parameter fuer Dispatch werden zentral aus `.agent/config/runtime.json` gelesen:
-   - `dispatch.parallel_settle_seconds`
-   - `dispatch.parallel_retry_limit`
+8. **Mission Reporting**: `DONE` messages MUST include a summary in the `--note` or body. Empty `DONE`s are forbidden.
+9. **Inquisitive Loop**: If a task reveals deeper issues, post a new `OPEN` message describing the discovery before closing the current task.
+
+## Automation & Convenience (v1.2)
+
+-   **Auto-Claim**: Executing `mail done` on an `OPEN` message will automatically claim it for you relative to the atomic operation.
+-   **Fuzzy IDs**: You may use short IDs (e.g., `32`, `0032`) if they uniquely resolve to a `MSG-YYYY-NNNN` ID.
+-   **Force Claim**: Use `--force` to claim a message already held by another agent (e.g., if the previous agent crashed).
+-   **JSON Output**: Use `mail inbox --json` for programmatic consumption of the queue.
 
 ## Implementation Proposal (Documented)
 

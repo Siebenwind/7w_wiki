@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-18 18:05 (Antigravity -> Next Agent)
-- **Status**: Wiki Link Engine restored to `roamlinks`; Over 500 legacy links repaired in `Quellen/`; Grünland Research Order (RESEARCH-2026-012) issued; Site build verified for case-sensitivity on GitHub Pages.
+- **Last Handover**: 2026-02-18 21:23 (Antigravity -> Next Agent)
+- **Status**: JSON API implemented for core tools; Messaging system hardening (Auto-Claim, Fuzzy IDs); Test Suite Audit completed.
 
 ---
 
@@ -14,7 +14,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] **Handover Gate Repair**: Defekten Link in `.agent/workflows/handover.md` behoben; `interop-doc-links` und `takeover-handover` wieder gruen.
 - [x] **Test Runner Stability**: Runner mit Case-Progress-Ausgabe erweitert; `rag-relevance-smoke` aus Standardlauf (`--suite all`) entfernt und nur noch per `--include-rag` / direkter Suite ausfuehrbar.
 - [x] **Oracle Reliability (Codex App)**: Auftrag `MSG-2026-0015` abgeschlossen; MPS Permission Fallback implementiert und `--fast` Mode für niedrige Latenz hinzugefügt.
-- [ ] **Advisor API fuer Automationen**: Auftrag `MSG-2026-0032` bearbeiten; `advisor --json` mit stabilen Schluesseln einfuehren und per Suite absichern.
+- [x] **Advisor API fuer Automationen**: Auftrag `MSG-2026-0032` abgeschlossen; `advisor`, `search`, `audit` und `mail inbox` unterstuetzen nun `--json`.
+- [x] **Test Suite Audit**: Umfassendes Audit (`MSG-2026-0040`) deckt Schwachstellen in `reader-stats-contract` (Permissions) und fehlende Logik-Tests auf.
 - [ ] **Dispatch Queue Hygiene**: Auftrag `MSG-2026-0033` bearbeiten; OPEN-Backlog konsolidieren (obsolet zusammenfassen, aktuelle Blocker priorisieren).
 - [ ] **Audit Regression Triage**: Aktuellster Stand `Logs/Archive/Audit_08ed78ca-c2e7-4490-9fd1-8464da6af1fc.txt` (437 Probleme). P1-Breaker `Mirila_Mik_Honigzopf` und `Althea_Danea` behoben; verbleibend ist der Link-Flood. Konsolidierung siehe `Logs/Archive/AUDIT_CONSOLIDATION_INDEX_2026-02-17.md`.
 - [x] **Technical Link Repair**: Restored `roamlinks` and normalized 500+ links via `repair.py` to overcome 404s on GitHub Pages.

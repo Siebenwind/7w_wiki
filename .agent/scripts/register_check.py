@@ -15,6 +15,8 @@ Nutzung:
 Ausgabe: Strukturierter Report auf stdout.
 """
 
+import argparse
+import json
 import re
 import sys
 import uuid
@@ -359,22 +361,36 @@ def get_chronik_index_numbers(index_path: Path) -> set[int]:
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Siebenwind Register Check (Audit)")
+    parser.add_argument("--json", action="store_true", help="Output raw JSON findings")
+    args = parser.parse_args()
+
     report_id = str(uuid.uuid4())
     issues_found = 0
     
-    # --- Summary ---
-    summary = []
-    summary.append("=" * 60)
-    summary.append("  SIEBENWIND WIKI — REGISTER-CHECK")
-    summary.append(f"  Report-ID: {report_id}")
-    summary.append("=" * 60)
-    summary.append("")
-    
+    # Structure for JSON
+    audit_data = {
+        "report_id": report_id,
+        "issues_found": 0,
+        "details": {
+            "duplicates": [],
+            "orphans": [],
+            "missing_profiles": [],
+            "missing_sources": [],
+            "missing_index": [],
+            "source_hygiene": [],
+            "ingestion_issues": [],
+            "broken_links": [],
+            "bridge_pages": []
+        }
+    }
+
     # Capture output for file writing
     output_lines = []
     
     def log(msg=""):
-        print(msg)
+        if not args.json:
+            print(msg)
         output_lines.append(msg)
 
     log("=" * 60)
@@ -390,6 +406,7 @@ def main():
     if duplicates:
         for name, count in sorted(duplicates.items()):
             log(f"  ⚠️  {name} — {count}x vorhanden")
+            audit_data["details"]["duplicates"].append({"name": name, "count": count})
             issues_found += 1
     else:
         log("  ✅ Keine Duplikate gefunden.")
@@ -403,7 +420,6 @@ def main():
     orphans = sorted(profile_files - register_set)
     if orphans:
         for name in orphans:
-            # Check if file has quelle: in frontmatter
             fpath = PROFILE_DIR / f"{name}.md"
             has_quelle = False
             try:
@@ -413,6 +429,7 @@ def main():
                 pass
             status = "📎 hat quelle:" if has_quelle else "❓ keine quelle:"
             log(f"  ⚠️  {name} — {status}")
+            audit_data["details"]["orphans"].append({"name": name, "has_quelle": has_quelle})
             issues_found += 1
     else:
         log("  ✅ Alle Profile sind registriert.")
@@ -421,7 +438,6 @@ def main():
     # --- 3. Registriert ohne Profildatei ---
     log("## 3. Registrierte Personen ohne Profildatei")
     missing_profiles = sorted(register_set - profile_files)
-    # Filter out common non-person links
     skip_prefixes = ("Siebenwind", "Region_", "Rasse_", "Ecclesia", "Kirche",
                      "Pakt_", "Graue_", "Löwen", "Ersonter", "Dwarshim",
                      "Bellum", "Vitama", "Ignis", "Enhor", "Morsan", "Xan",
@@ -429,9 +445,12 @@ def main():
     missing_profiles = [n for n in missing_profiles
                        if not any(n.startswith(p) for p in skip_prefixes)]
     if missing_profiles:
+        for name in missing_profiles:
+             audit_data["details"]["missing_profiles"].append(name)
+             issues_found += 1
+
         for name in missing_profiles[:30]:
             log(f"  📝 {name} — Profildatei fehlt")
-            issues_found += 1
         if len(missing_profiles) > 30:
             log(f"  ... und {len(missing_profiles) - 30} weitere.")
     else:
@@ -446,6 +465,7 @@ def main():
     if missing_boten:
         for num in missing_boten:
             log(f"  ⚠️  Bote {num} — Quelle vorhanden, nicht integriert")
+            audit_data["details"]["missing_sources"].append({"id": num, "type": "Bote"})
             issues_found += 1
     else:
         log("  ✅ Alle verfügbaren Boten sind integriert.")
@@ -458,6 +478,7 @@ def main():
     if unindexed:
         for num in unindexed:
             log(f"  ⚠️  Bote {num} — Datei existiert, fehlt im Index")
+            audit_data["details"]["missing_index"].append({"id": num, "type": "Bote"})
             issues_found += 1
     else:
         log("  ✅ Alle Boten-Dateien sind im Index erfasst.")
@@ -471,6 +492,11 @@ def main():
         for fpath, target, reason in source_findings:
             rel_path = fpath.relative_to(PROJECT_ROOT)
             grouped_source.setdefault(rel_path, []).append((target, reason))
+            audit_data["details"]["source_hygiene"].append({
+                "file": str(rel_path),
+                "target": target,
+                "reason": reason
+            })
 
         for rel_path, items in sorted(grouped_source.items()):
             log(f"  ⚠️  {rel_path}:")
@@ -481,7 +507,7 @@ def main():
         log("  ✅ Keine kritischen Source-Link-Muster gefunden.")
     log()
 
-    # --- 7. Ingestion Tracking Coverage & Score Spread ---
+    # --- 7. Ingestion Tracking Coverage ---
     log("## 7. Ingestion Tracking & Score Distribution")
     ingestion = analyze_ingestion_reports()
     total_reports = ingestion["total"]
@@ -501,6 +527,7 @@ def main():
             issues_found += missing_count
             for entry in ingestion["missing_examples"]:
                 log(f"    - {entry['path']}")
+                audit_data["details"]["ingestion_issues"].append({"file": str(entry["path"]), "error": "Missing core tracking"})
 
         if ingestion["lqs_distribution"]:
             lqs_text = ", ".join(f"{k}:{v}" for k, v in ingestion["lqs_distribution"].items())
@@ -509,7 +536,6 @@ def main():
             top_profile, top_count = next(iter(ingestion["profile_distribution"].items()))
             profile_text = ", ".join(f"{k}:{v}" for k, v in list(ingestion["profile_distribution"].items())[:5])
             log(f"  Profil-Cluster: {profile_text}")
-            # Soft warning if one profile dominates heavily.
             if top_count / max(1, with_lqs) >= 0.5:
                 log(f"  ⚠️  Score-Cluster auffaellig eng (Top-Profil {top_profile} = {top_count}/{with_lqs}).")
                 issues_found += 1
@@ -520,13 +546,17 @@ def main():
     wiki_files, wiki_titles = get_all_wiki_files()
     broken = check_wikilinks(wiki_files, wiki_titles)
     if broken:
-        # Group by file for better reporting
         grouped = {}
         for fpath, target, reason in broken:
             rel_path = fpath.relative_to(PROJECT_ROOT)
             if rel_path not in grouped:
                 grouped[rel_path] = []
             grouped[rel_path].append((target, reason))
+            audit_data["details"]["broken_links"].append({
+                "file": str(rel_path),
+                "target": target,
+                "reason": reason
+            })
             
         for rel_path, items in sorted(grouped.items()):
             log(f"  ⚠️  {rel_path}:")
@@ -552,6 +582,10 @@ def main():
             for fpath, missing_fields in bridge["examples_without_exception"]:
                 rel_path = fpath.relative_to(PROJECT_ROOT)
                 log(f"  ⚠️  {rel_path} — fehlend: {', '.join(missing_fields)}")
+                audit_data["details"]["bridge_pages"].append({
+                    "file": str(rel_path),
+                    "missing": missing_fields
+                })
 
             remaining = bridge["without_exception"] - len(bridge["examples_without_exception"])
             if remaining > 0:
@@ -559,6 +593,7 @@ def main():
     log()
 
     # --- Summary ---
+    audit_data["issues_found"] = issues_found
     log("=" * 60)
     log(f"  ERGEBNIS: {issues_found} Probleme gefunden.")
     if issues_found == 0:
@@ -567,15 +602,20 @@ def main():
         log("  → Siehe /audit Workflow für Bearbeitungsschritte.")
     log("=" * 60)
 
-    # Save report to file
+    # Save report to file (Always, nicely formatted)
     log_dir = PROJECT_ROOT / "Logs" / "Archive"
     log_dir.mkdir(parents=True, exist_ok=True)
     report_file = log_dir / f"Audit_{report_id}.txt"
     try:
         report_file.write_text("\n".join(output_lines), encoding="utf-8")
-        print(f"\n[INFO] Report gespeichert unter: {report_file}")
+        if not args.json:
+            print(f"\n[INFO] Report gespeichert unter: {report_file}")
     except Exception as e:
-        print(f"\n[ERROR] Konnte Report nicht speichern: {e}")
+        if not args.json:
+            print(f"\n[ERROR] Konnte Report nicht speichern: {e}")
+
+    if args.json:
+        print(json.dumps(audit_data, indent=2))
 
     return 1 if issues_found > 0 else 0
 

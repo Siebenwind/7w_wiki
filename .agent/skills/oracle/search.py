@@ -350,8 +350,8 @@ def main():
                         default="wiki", help="Welche Datenbank durchsucht wird (Default: wiki)")
     parser.add_argument("--re-rank", action=argparse.BooleanOptionalAction, default=True,
                         help="Re-Ranking aktivieren/deaktivieren")
-    parser.add_argument("--raw", action="store_true",
-                        help="Gibt nur Raw-Text zurück")
+    parser.add_argument("--raw", action="store_true", help="Gibt nur Raw-Text zurück")
+    parser.add_argument("--json", action="store_true", help="Output raw JSON")
     parser.add_argument("--cpu", action="store_true", help="Erzwingt CPU")
     parser.add_argument("--fast", action="store_true", help="Schnell-Modus: Kein Re-Ranking, CPU-only")
     args = parser.parse_args()
@@ -365,7 +365,7 @@ def main():
     query = args.query
     start_time = time.time()
     
-    if not args.raw:
+    if not args.raw and not args.json:
         print("╔═══════════════════════════════════════════════════╗")
         print("║   Das Orakel – Semantische Suche                 ║")
         print("╚═══════════════════════════════════════════════════╝")
@@ -373,7 +373,7 @@ def main():
         print(f"  Quelle: {args.source} | Top: {args.top} | "
               f"Re-Rank: {'Nein' if not args.re_rank else 'Ja'}")
     
-    if not args.raw:
+    if not args.raw and not args.json:
         print("\n  🧠 Lade Modell...", end="", flush=True)
         
     start_time = time.time()
@@ -382,11 +382,11 @@ def main():
     results = search(args.query, top_k=args.top, source=args.source, 
                      use_reranker=args.re_rank, device=default_device)
                      
-    if not args.raw:
+    if not args.raw and not args.json:
         print(" ✅")
         
     if not results:
-        if not args.raw:
+        if not args.raw and not args.json:
             print("\n  ❌ Keine Ergebnisse gefunden.")
             print("     Tipp: Führe zuerst 'build_index.py' aus, um den Index aufzubauen.")
         sys.exit(0)
@@ -394,6 +394,16 @@ def main():
     # Ergebnisse ausgeben
     search_time = time.time() - start_time
     
+    if args.json:
+        output = {
+            "query": query,
+            "hits": results,
+            "time_seconds": search_time,
+            "count": len(results)
+        }
+        print(json.dumps(output, indent=2))
+        return
+
     if not args.raw:
         print(f"\n  ⏱️  Suchzeit: {search_time:.1f}s")
         print(f"  📋 Top-{len(results)} Ergebnisse:")

@@ -21,7 +21,16 @@ You are operating on the **Siebenwind Wiki**, a 20-year-old collaborative world-
 5.  **Agent Interop**:
     -   Respect the folder structure: `.agent/` is for internal logic.
     -   Use `.agents/skills/` for discoverable skills (Codex/Jules).
-6.  **No Bridge-Placeholders by Default**:
+6.  **Mission Report Protocol**:
+    -   Every session or task MUST end with a status report via `mail done` (if working on a specific message) or `mail post` (for general updates).
+    -   Reports must be concise but include: What was done, what was verified, and what is next.
+7.  **Inquisitive Protocol**:
+    -   If you find an anomaly unrelated to your current task, **ASK**. Do not ignore it.
+    -   Use `mail post` to query the `Coordinator` or `Technician`.
+8.  **Machine-Readable First**:
+    -   When available, agents MUST use CLI commands with `--json` (e.g., `advisor --json`, `audit --json`) for reliable parsing.
+    -   Output parsing of human-readable text is discouraged if a JSON flag exists.
+9.  **No Bridge-Placeholders by Default**:
     -   Fix links to canonical targets first.
     -   Do not ship generic bridge/stub pages as final repairs.
     -   Temporary bridge exceptions require lifecycle metadata (`bridge_mode`, `bridge_target`, `bridge_ticket`, `bridge_review_until`).
