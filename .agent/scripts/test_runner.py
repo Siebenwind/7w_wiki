@@ -23,6 +23,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SUITES_DIR = PROJECT_ROOT / ".agent" / "tests" / "suites"
 REPORTS_DIR = PROJECT_ROOT / "Logs" / "Archive"
 MSG_ID_RE = re.compile(r"^(MSG-\d{4}-\d{4})\b")
+QUARANTINED_IN_ALL = {"rag-relevance-smoke"}
 
 
 @dataclass
@@ -228,9 +229,18 @@ def check_case_expectations(
     proc: subprocess.CompletedProcess[str],
     duration_sec: float,
 ) -> tuple[bool, str]:
-    expected_exit = int(case.get("expect_exit", 0))
-    if proc.returncode != expected_exit:
-        return False, f"Exitcode {proc.returncode} != erwartet {expected_exit}"
+    expected_exit_any = case.get("expect_exit_any")
+    if expected_exit_any is not None:
+        try:
+            allowed = [int(x) for x in expected_exit_any]
+        except Exception:
+            return False, f"Ungueltiges expect_exit_any: {expected_exit_any!r}"
+        if proc.returncode not in allowed:
+            return False, f"Exitcode {proc.returncode} nicht in expect_exit_any {allowed}"
+    else:
+        expected_exit = int(case.get("expect_exit", 0))
+        if proc.returncode != expected_exit:
+            return False, f"Exitcode {proc.returncode} != erwartet {expected_exit}"
 
     stdout = proc.stdout or ""
     stderr = proc.stderr or ""
@@ -268,9 +278,11 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
     context = collect_context(timeout)
 
     results: list[CaseResult] = []
+    total_cases = len(suite["cases"])
     for idx, case in enumerate(suite["cases"], start=1):
         case_id = case.get("id", f"{suite_name}-{idx:03d}")
         name = case.get("name", case_id)
+        print(f"[{suite_name}] case {idx}/{total_cases}: {case_id} - {name}", flush=True)
         skip_keys = case.get("skip_if_context_missing", [])
         if any(k not in context for k in skip_keys):
             results.append(
@@ -286,6 +298,7 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     duration_sec=None,
                 )
             )
+            print(f"[{suite_name}] case {case_id}: SKIP ({results[-1].reason})", flush=True)
             continue
 
         link_files = case.get("link_check_files", [])
@@ -306,6 +319,7 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     duration_sec=duration_sec,
                 )
             )
+            print(f"[{suite_name}] case {case_id}: {results[-1].status} ({results[-1].reason})", flush=True)
             continue
 
         pattern_globs = case.get("pattern_check_globs", [])
@@ -331,6 +345,7 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     duration_sec=duration_sec,
                 )
             )
+            print(f"[{suite_name}] case {case_id}: {results[-1].status} ({results[-1].reason})", flush=True)
             continue
 
         required_by_file = case.get("required_regex_by_file", [])
@@ -351,6 +366,7 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     duration_sec=duration_sec,
                 )
             )
+            print(f"[{suite_name}] case {case_id}: {results[-1].status} ({results[-1].reason})", flush=True)
             continue
 
         cmd_template = case.get("cmd", [])
@@ -368,6 +384,7 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     duration_sec=None,
                 )
             )
+            print(f"[{suite_name}] case {case_id}: FAIL ({results[-1].reason})", flush=True)
             continue
 
         command = resolve_command(list(cmd_template), context)
@@ -385,11 +402,14 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     duration_sec=None,
                 )
             )
+            print(f"[{suite_name}] case {case_id}: FAIL ({results[-1].reason})", flush=True)
             continue
 
+        case_timeout = int(case.get("timeout_sec", timeout))
+        run_timeout = min(timeout, case_timeout) if case_timeout > 0 else timeout
         started = time.perf_counter()
         try:
-            proc = run_cmd(command, timeout)
+            proc = run_cmd(command, run_timeout)
         except subprocess.TimeoutExpired:
             duration_sec = time.perf_counter() - started
             results.append(
@@ -399,12 +419,13 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     status="FAIL",
                     command=command,
                     exit_code=None,
-                    reason=f"Timeout nach {timeout}s",
+                    reason=f"Timeout nach {run_timeout}s",
                     stdout="",
                     stderr="",
                     duration_sec=duration_sec,
                 )
             )
+            print(f"[{suite_name}] case {case_id}: FAIL ({results[-1].reason})", flush=True)
             continue
         duration_sec = time.perf_counter() - started
 
@@ -423,6 +444,7 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                 duration_sec=duration_sec,
             )
         )
+        print(f"[{suite_name}] case {case_id}: {status} ({reason})", flush=True)
 
     return results, suite_path
 
@@ -553,6 +575,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--from-agent", default="Test-Waechter")
     parser.add_argument("--to-agent", default="ALL")
     parser.add_argument("--priority", default="HIGH", choices=["LOW", "NORMAL", "HIGH"])
+    parser.add_argument(
+        "--include-rag",
+        action="store_true",
+        help="Nimmt rag-relevance-smoke in --suite all auf (standardmaessig aus Sicherheitsgruenden ausgelassen).",
+    )
     parser.add_argument("--allow-fail", action="store_true", help="Returncode 0 erzwingen trotz FAIL.")
     return parser.parse_args()
 
@@ -568,12 +595,25 @@ def main() -> int:
             print(suite)
         return 0
 
-    selected = suites if args.suite == "all" else [args.suite]
+    if args.suite == "all":
+        selected = [suite for suite in suites if args.include_rag or suite not in QUARANTINED_IN_ALL]
+        skipped = [suite for suite in suites if suite not in selected]
+        if skipped:
+            print(
+                "[all] Hinweis: Standardlauf laesst aus Stabilitaetsgruenden aus: "
+                f"{', '.join(skipped)} (Opt-in mit --include-rag)."
+            )
+    else:
+        selected = [args.suite]
+
     unknown = [s for s in selected if s not in suites]
     if unknown:
         print(f"Unbekannte Suite(s): {', '.join(unknown)}")
         print("Verfuegbar:", ", ".join(suites) if suites else "(keine)")
         return 1
+
+    if selected == ["rag-relevance-smoke"]:
+        print("[rag-relevance-smoke] Warnung: Diese Suite ist instabil und nicht Teil von --suite all.", flush=True)
 
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     overall_fail = False

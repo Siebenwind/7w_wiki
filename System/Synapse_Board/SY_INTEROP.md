@@ -1,7 +1,7 @@
 ---
 uuid: 4f249a8d-33da-4cbf-9fc4-ff9df2bf8563
 status: ACTIVE
-updated_at: 2026-02-17T23:46:00Z
+updated_at: 2026-02-18T01:05:00Z
 owners:
   - Koordinator
   - Netz-Waechter
@@ -46,7 +46,7 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
 
 ## Norm 3: Command Registry (Single Source)
 Die operative Kommandoliste lautet aktuell:
-- `advisor`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `leitpunkt`, `mail`, `pages`, `repair`, `sanitize`, `score`, `scout`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
+- `advisor`, `antigravity`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `leitpunkt`, `mail`, `pages`, `repair`, `sanitize`, `score`, `scout`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
 
 Bei CLI-Aenderungen muss diese Liste in derselben Session synchronisiert werden.
 
@@ -84,7 +84,7 @@ Bei jedem groesseren Update:
 1. Scan auf `file://` in `.agent/workflows`, `.agent/instructions`, `System/`.
 2. Abgleich Workflow-Kommandos gegen `7w_wiki.py`.
 3. Dispatch-Queue auf offene Direktiven pruefen.
-4. Interop-Testlauf ausfuehren (`./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-doc-links`, `./7w_wiki.py test --suite rag-relevance-smoke`).
+4. Interop-Testlauf ausfuehren (`./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-doc-links`, optional RAG-Diagnose nur explizit via `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`).
 5. Bridge-Guard pruefen (`./7w_wiki.py test --suite bridge-placeholder-guard`).
 6. Reader-Stats-Guard pruefen (`./7w_wiki.py test --suite reader-stats-contract`).
 7. Changelog-Eintrag mit Interop-Delta erstellen.

@@ -2,10 +2,11 @@
 description: Der Ur-Prozess / Default Protocol (Antigravity)
 ---
 
-# null: `/antigravity` (The Core Loop)
+# Workflow: `/antigravity` (The Core Loop)
 
 ## Interop-Status
 - runtime_commands:
+  - `7w_wiki.py antigravity`
   - `7w_wiki.py start`
   - `7w_wiki.py advisor`
   - `7w_wiki.py audit`

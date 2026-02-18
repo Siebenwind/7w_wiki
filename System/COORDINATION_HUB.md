@@ -50,12 +50,15 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [AGENT_OPERATIONS_HANDBOOK.md](AGENT_OPERATIONS_HANDBOOK.md)
 - [x] [docs/Archiv/REDESIGN_ROADMAP_2026.md](../docs/Archiv/REDESIGN_ROADMAP_2026.md)
 - [x] [docs/Archiv/MAINTAINER_STANDPUNKT.md](../docs/Archiv/MAINTAINER_STANDPUNKT.md)
+- [x] [docs/Archiv/WORKFLOW_DOSSIER_ANTIGRAVITY_ADVISOR_2026-02-18.md](../docs/Archiv/WORKFLOW_DOSSIER_ANTIGRAVITY_ADVISOR_2026-02-18.md)
 - [x] [Archivregister/ARCHIVREGISTER.md](Archivregister/ARCHIVREGISTER.md)
 - [x] [Archivregister/ARCHIVREGISTER.json](Archivregister/ARCHIVREGISTER.json)
 - [x] [Synapse_Board/SY_HISTORIAN_TRACEABILITY.md](Synapse_Board/SY_HISTORIAN_TRACEABILITY.md)
 - [x] [Synapse_Board/RESEARCH-2026-010.md](Synapse_Board/RESEARCH-2026-010.md)
 - [x] [Logs/Conclusions/2026-02-17_Forum_Research_Report.md](../Logs/Conclusions/2026-02-17_Forum_Research_Report.md)
 - [x] [Scripts/forum_scanner.py](../Scripts/forum_scanner.py)
+- [x] [.agents/skills/stats/SKILL.md](../.agents/skills/stats/SKILL.md)
+- [x] [.agent/tests/suites/reader-stats-contract.json](../.agent/tests/suites/reader-stats-contract.json)
 
 ---
-*Zuletzt aktualisiert: 2026-02-18T00:37:00Z | Ref: #leitpunkt_workflow_command*
+*Zuletzt aktualisiert: 2026-02-18T00:54:00Z | Ref: #antigravity_advisor_dossier*

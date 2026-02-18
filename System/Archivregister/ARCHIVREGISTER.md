@@ -2,8 +2,8 @@
 layout: wiki_page
 title: Archivregister
 category: System
-uuid: 8cfa4e5c-4ea4-4859-b91f-b1025e64a47e
-letzter_check: 2026-02-17T23:02:57Z
+uuid: 40283a1f-aec8-43c1-94ae-bd224fee536e
+letzter_check: 2026-02-17T23:58:57Z
 ---
 
 # Archivregister
@@ -12,16 +12,16 @@ letzter_check: 2026-02-17T23:02:57Z
 
 ## Überblick
 
-- Datensaetze gesamt: 2217
-- Mit Content-UUID: 243 (10.96%)
-- Wiki indexierbar: 1320 | Quellen indexierbar: 796
+- Datensaetze gesamt: 2271
+- Mit Content-UUID: 253 (11.14%)
+- Wiki indexierbar: 1361 | Quellen indexierbar: 796
 
 ## RAG-Fortschritt
 
 | Corpus | Indexierte Dateien | Indexierbare Dateien | Coverage | Chunks | Stale Index-Eintraege |
 |---|---:|---:|---:|---:|---:|
-| wiki | 157 | 1320 | 11.89% | 31700 | 1 |
-| quellen | 63 | 300 | 21.00% | 13158 | 0 |
+| wiki | 157 | 1361 | 11.54% | 31700 | 1 |
+| quellen | 115 | 300 | 38.33% | 23742 | 0 |
 
 ## Ingestion-Fortschritt (Inventur)
 
@@ -31,7 +31,7 @@ letzter_check: 2026-02-17T23:02:57Z
 
 | Domain | Total | Status Breakdown | Missing UUID | Invalid Status Files |
 |---|---:|---|---:|---:|
-| Dispatch | 21 | CLAIMED=1, OPEN=20 | 0 | 0 |
+| Dispatch | 31 | CLAIMED=1, OPEN=30 | 0 | 0 |
 | research | 10 | COMPLETED=1, DONE=2, TENDERED=3 | 10 | 4 |
 | conflicts | 7 | AUTO_RESOLVED=1, NEEDS_REVIEW=4, RESOLVED=1 | 7 | 1 |
 | inquisition | 3 | COMPLETED=1, OPEN=1, UNSPECIFIED=1 | 2 | 0 |
@@ -40,10 +40,10 @@ letzter_check: 2026-02-17T23:02:57Z
 
 | Corpus | Dateien |
 |---|---:|
-| wiki | 1320 |
+| wiki | 1361 |
 | quellen | 796 |
-| system | 71 |
-| docs | 30 |
+| system | 81 |
+| docs | 33 |
 
 ## Pflichtfelder je Datensatz
 
@@ -61,28 +61,28 @@ letzter_check: 2026-02-17T23:02:57Z
 
 - `Siebenwind_Wiki/00_Fundament/00_Religion_Uebersicht.md`
 - `Siebenwind_Wiki/00_Fundament/01_Vitama.md`
+- `Siebenwind_Wiki/00_Fundament/02_Rien.md`
+- `Siebenwind_Wiki/00_Fundament/02_Vitama.md`
+- `Siebenwind_Wiki/00_Fundament/02_Xan.md`
 - `Siebenwind_Wiki/00_Fundament/03_Gesellschaft.md`
 - `Siebenwind_Wiki/00_Fundament/12_Magie_Grundlagen.md`
 - `Siebenwind_Wiki/00_Fundament/Adel.md`
 - `Siebenwind_Wiki/00_Fundament/Adelskalender.md`
+- `Siebenwind_Wiki/00_Fundament/Akademie.md`
 - `Siebenwind_Wiki/00_Fundament/Akademie_der_Arkanen_Künste.md`
 - `Siebenwind_Wiki/00_Fundament/Amulettkriege.md`
+- `Siebenwind_Wiki/00_Fundament/Anijane_Salmoranes.md`
 - `Siebenwind_Wiki/00_Fundament/Archiv_Register.md`
 - `Siebenwind_Wiki/00_Fundament/Arkadon.md`
 - `Siebenwind_Wiki/00_Fundament/Arman_von_Draconis.md`
+- `Siebenwind_Wiki/00_Fundament/Ars_Magica_Metamorphosia.md`
+- `Siebenwind_Wiki/00_Fundament/Astraelorden.md`
 - `Siebenwind_Wiki/00_Fundament/Astralnetz.md`
 - `Siebenwind_Wiki/00_Fundament/Astreyon.md`
 - `Siebenwind_Wiki/00_Fundament/Auenelfen.md`
+- `Siebenwind_Wiki/00_Fundament/Aurora.md`
+- `Siebenwind_Wiki/00_Fundament/Ausbildung.md`
 - `Siebenwind_Wiki/00_Fundament/Avindhrell.md`
 - `Siebenwind_Wiki/00_Fundament/Baronie_Siebenwind.md`
-- `Siebenwind_Wiki/00_Fundament/Baronsgarde.md`
-- `Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md`
-- `Siebenwind_Wiki/00_Fundament/Bestien.md`
-- `Siebenwind_Wiki/00_Fundament/Bibliotheks_Register.md`
-- `Siebenwind_Wiki/00_Fundament/Blutige_Faust.md`
-- `Siebenwind_Wiki/00_Fundament/Bruderschaft_Gofilm.md`
-- `Siebenwind_Wiki/00_Fundament/Burg_Saalhorn.md`
-- `Siebenwind_Wiki/00_Fundament/Claiomhs_Wacht.md`
-- `Siebenwind_Wiki/00_Fundament/Clavius_Aurelius.md`
-- ... (+1941 weitere)
+- ... (+1985 weitere)
 

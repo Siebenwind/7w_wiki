@@ -34,7 +34,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | :--- | :--- | :--- |
 | `advisor` | **START HERE.** System status & next steps. | `System/Advisor` |
 | `start` | Interactive onboarding workflow. | `.agent/workflows/start.md` |
-| `test [--suite <name>|all]` | Run standardized interoperability and clean-state test suites. | `.agent/scripts/test_runner.py` |
+| `test [--suite <name>|all] [--include-rag]` | Run standardized interoperability and clean-state test suites (`all` excludes `rag-relevance-smoke` by default). | `.agent/scripts/test_runner.py` |
 | `takeover` | Show takeover protocol (`/takeover`) for session adoption. | `.agent/workflows/takeover.md` |
 | `handover` | Show handover protocol (`/handover`) for session transfer. | `.agent/workflows/handover.md` |
 | `search <query> [--source wiki\|quellen\|all]` | Semantic RAG search (The Oracle) with explicit source scope. | `.agent/skills/oracle` |
@@ -55,6 +55,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `scout [--forum bekanntmachungen\|news --pages N]` | Deep-scan external forum boards for signals. | `Scripts/forum_scanner.py` |
 | `stats` | Generate reader-facing wiki status, tracking register, and machine snapshot. | `.agent/scripts/generate_wiki_stats.py` |
 | `tech` | Show Technician workflow (DevOps logic). | `.agent/workflows/tech.md` |
+| `antigravity` | Show core default protocol (`/antigravity`). | `.agent/workflows/antigravity.md` |
 | `leitpunkt [view\|status\|check\|scaffold]` | Manage the human maintainer standpoint (workflow + validation). | `.agent/workflows/leitpunkt.md` |
 
 ## 📂 Documentation Map

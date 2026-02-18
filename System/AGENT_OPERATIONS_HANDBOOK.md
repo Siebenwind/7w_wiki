@@ -1,7 +1,7 @@
 ---
 uuid: 1b3c8f24-7fb5-4ec3-9d43-7b1f17f69371
 status: ACTIVE
-updated_at: 2026-02-17T23:46:00Z
+updated_at: 2026-02-18T01:05:00Z
 epistemic: "#meta"
 ---
 
@@ -38,10 +38,10 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 4. Validieren: Mindestens `./7w_wiki.py audit`, bei Dokuaenderungen auch `check`, `stats`, `archive sync`.
 5. Dokumentieren: `CHANGELOG.md`, Boards, Register- und Doku-Updates.
 
-**Automatisierung**: Die Workflows `/handover` und `/takeover` fuehren Standard-Checks (Inbox, Clean-State, Stats) automatisch aus (`// turbo`).
+**Automatisierung**: Markierungen wie `// turbo` sind methodische Host-Hinweise. `7w_wiki.py takeover` und `7w_wiki.py handover` zeigen in der CLI standardmaessig Workflows an, sie fuehren diese Checklisten nicht implizit aus.
 
 ## Runtime Commands
-- `advisor`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `leitpunkt`, `mail`, `pages`, `repair`, `sanitize`, `score`, `scout`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
+- `advisor`, `antigravity`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `leitpunkt`, `mail`, `pages`, `repair`, `sanitize`, `score`, `scout`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
 
 ## Maintainer-Leitpunkt (Menschliche Steuerung)
 
@@ -69,7 +69,8 @@ Verbindlicher Einstieg:
 5. `./7w_wiki.py test --suite process-dispatch-curiosity`
 6. `./7w_wiki.py test --suite bridge-placeholder-guard`
 7. `./7w_wiki.py test --suite reader-stats-contract`
-8. Optional Gesamtlauf: `./7w_wiki.py test --suite all`
+8. Optional Gesamtlauf: `./7w_wiki.py test --suite all` (stabiler Standardlauf ohne RAG-Smoke)
+9. Optional Oracle-Diagnose: `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`
 
 Defect-Regel:
 

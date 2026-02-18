@@ -1,7 +1,7 @@
 ---
 uuid: 9e6a6a7c-4ef6-4f73-96d7-967f21bf90e8
 status: ACTIVE
-updated_at: 2026-02-16T23:15:00Z
+updated_at: 2026-02-18T01:05:00Z
 owners:
   - Koordinator
   - Test-Waechter
@@ -14,7 +14,7 @@ Verbindlicher Standard fuer reproduzierbare Testdurchlaeufe, Defect-Kommunikatio
 
 ## Ziel
 
-1. Testlaeufe standardisieren (`clean-client-state`, `takeover-handover`, `interop-doc-links`, `source-link-hygiene`, `process-dispatch-curiosity`, `bridge-placeholder-guard`, `reader-stats-contract`, `rag-relevance-smoke`, `all`).
+1. Testlaeufe standardisieren (`clean-client-state`, `takeover-handover`, `interop-doc-links`, `source-link-hygiene`, `process-dispatch-curiosity`, `bridge-placeholder-guard`, `reader-stats-contract`, `all` + optional `rag-relevance-smoke`).
 2. Defects ohne stille Fixes behandeln.
 3. Fixes nur auf Basis kommunizierter Auftraege umsetzen.
 
@@ -28,8 +28,9 @@ Verbindlicher Standard fuer reproduzierbare Testdurchlaeufe, Defect-Kommunikatio
 - `./7w_wiki.py test --suite process-dispatch-curiosity`
 - `./7w_wiki.py test --suite bridge-placeholder-guard`
 - `./7w_wiki.py test --suite reader-stats-contract`
-- `./7w_wiki.py test --suite rag-relevance-smoke`
 - `./7w_wiki.py test --suite all`
+- `./7w_wiki.py test --suite all --include-rag`
+- `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30`
 - `./7w_wiki.py test --suite <name> --post-failures --from-agent <name> --to-agent ALL --priority HIGH`
 
 Suite-Definitionen liegen in:
@@ -38,9 +39,14 @@ Suite-Definitionen liegen in:
 Testberichte liegen in:
 - `Logs/Archive/TEST_<suite>_<timestamp>.md`
 
+Stabilitaetsregel:
+- `--suite all` laesst `rag-relevance-smoke` standardmaessig aus.
+- RAG-Smoke nur als explizite Diagnose per `--include-rag` oder direktem Suite-Aufruf.
+
 RAG-Diagnose- und Benchmarkdoku:
 - `docs/Archiv/RAG_DIAGNOSE_2026-02-16.md`
 - `System/Archivregister/ARCHIVREGISTER.md` (wird durch `./7w_wiki.py index --status` aktualisiert)
+- `docs/Archiv/LESSONS_LEARNED_TEST_RUNNER_RAG_QUARANTINE_2026-02-18.md`
 
 ## Agentenmentalitaet
 

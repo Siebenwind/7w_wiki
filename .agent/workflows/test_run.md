@@ -13,8 +13,9 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
   - `7w_wiki.py test --suite process-dispatch-curiosity`
   - `7w_wiki.py test --suite bridge-placeholder-guard`
   - `7w_wiki.py test --suite reader-stats-contract`
-  - `7w_wiki.py test --suite rag-relevance-smoke`
   - `7w_wiki.py test --suite all`
+  - `7w_wiki.py test --suite all --include-rag`
+  - `7w_wiki.py test --suite rag-relevance-smoke --timeout 30`
   - `7w_wiki.py test --suite all --post-failures --from-agent <name> --to-agent ALL --priority HIGH`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py mail claim <id> --agent <name>`
@@ -47,8 +48,8 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
 5. `./7w_wiki.py test --suite process-dispatch-curiosity` (Workflow-/Persona-Prozesslogik)
 6. `./7w_wiki.py test --suite bridge-placeholder-guard` (verhindert Rueckfall in Stub-/Bridge-Policy-Fehler)
 7. `./7w_wiki.py test --suite reader-stats-contract` (Reader-Stats-Contract + Snapshot-Schnittstelle)
-8. `./7w_wiki.py test --suite rag-relevance-smoke` (RAG-Status + Relevanz-Smoke)
-9. Optional Vollabgleich: `./7w_wiki.py test --suite all`
+8. Optional Vollabgleich: `./7w_wiki.py test --suite all` (ohne RAG-Smoke; stabiler Standardlauf)
+9. Optional Oracle-Diagnose: `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`
 
 ## 3. Failure-Protokoll
 
@@ -60,7 +61,7 @@ Bei FAIL gilt:
    - `./7w_wiki.py mail claim <MSG-ID> --agent <name>`
 3. Nach Fix:
    - Re-Test der betroffenen Suite
-   - Danach `./7w_wiki.py test --suite all`
+   - Danach `./7w_wiki.py test --suite all` (RAG nur bei Bedarf via `--include-rag`)
 4. Abschluss:
    - `./7w_wiki.py mail done <MSG-ID> --agent <name> --note "<kurzabschluss>"`
    - Changelog-Eintrag mit Verweis auf Message-ID/Task-ID

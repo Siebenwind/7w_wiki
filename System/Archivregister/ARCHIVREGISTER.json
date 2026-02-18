@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-17T23:02:57Z",
+  "generated_at": "2026-02-17T23:58:57Z",
   "records": [
     {
       "content_hash": "4e6a53b78d922bd5",
@@ -28,6 +28,48 @@
       "record_uuid": "81a1d476-5881-574b-9d44-2836f3b1ae21",
       "relative_path": "Siebenwind_Wiki/00_Fundament/01_Vitama.md",
       "size_bytes": 201
+    },
+    {
+      "content_hash": "90516748d1e1ad5b",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "02_Rien.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "61249bf4-2727-50d8-92e7-2e9f3d30fb1e",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/02_Rien.md",
+      "size_bytes": 195
+    },
+    {
+      "content_hash": "04d0676f52af2337",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "02_Vitama.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "3467a997-3123-5c20-9565-b1eb5ed23be7",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/02_Vitama.md",
+      "size_bytes": 201
+    },
+    {
+      "content_hash": "745128dca2d7efbe",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "02_Xan.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "e302ce71-0cf8-5a94-85fa-6832af2c7d6b",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/02_Xan.md",
+      "size_bytes": 192
     },
     {
       "content_hash": "829d554fdcc1743e",
@@ -86,6 +128,20 @@
       "size_bytes": 4644
     },
     {
+      "content_hash": "03889017777b41ce",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Akademie.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "d1c25374-8e91-54b8-9bb3-c1d2ed7b1a28",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Akademie.md",
+      "size_bytes": 242
+    },
+    {
       "content_hash": "2a98fffd3b6e81f2",
       "content_uuid": "",
       "corpus": "wiki",
@@ -112,6 +168,20 @@
       "record_uuid": "8a9a8924-c545-561d-a7bc-1e50fa46eda5",
       "relative_path": "Siebenwind_Wiki/00_Fundament/Amulettkriege.md",
       "size_bytes": 181
+    },
+    {
+      "content_hash": "041ab2206756d27d",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Anijane_Salmoranes.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "a6af762b-58bf-5c31-81a5-8facc4ea49a1",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Anijane_Salmoranes.md",
+      "size_bytes": 191
     },
     {
       "content_hash": "ee64dceeb6b8dbfc",
@@ -156,6 +226,34 @@
       "size_bytes": 241
     },
     {
+      "content_hash": "ce24fdb38b87f039",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Ars_Magica_Metamorphosia.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "65a0d3ad-1391-5075-b1e5-27312082a828",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Ars_Magica_Metamorphosia.md",
+      "size_bytes": 273
+    },
+    {
+      "content_hash": "3db2d18865e66bda",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Astraelorden.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "f5de5cea-5e00-5bcd-ac55-b7fd04d37148",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Astraelorden.md",
+      "size_bytes": 223
+    },
+    {
       "content_hash": "814be534e767d810",
       "content_uuid": "",
       "corpus": "wiki",
@@ -198,6 +296,34 @@
       "size_bytes": 173
     },
     {
+      "content_hash": "f8a6f47dfc0bbf9a",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Aurora.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "93cb7a20-b42d-5ff1-a04d-89ce308fdf73",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Aurora.md",
+      "size_bytes": 211
+    },
+    {
+      "content_hash": "45b79f52fc8303de",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Ausbildung.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "2b3cbbef-4bc7-5d0a-9263-af05b2dc7a4c",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Ausbildung.md",
+      "size_bytes": 175
+    },
+    {
       "content_hash": "49f64cf73c68fd70",
       "content_uuid": "",
       "corpus": "wiki",
@@ -238,6 +364,48 @@
       "record_uuid": "02db1fde-ef29-5cf0-a86a-6b2d76bc48f1",
       "relative_path": "Siebenwind_Wiki/00_Fundament/Baronsgarde.md",
       "size_bytes": 177
+    },
+    {
+      "content_hash": "4ee21644cd340f96",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Baumwesen.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "e3e578b7-50fd-53b6-aae5-c350ae210eae",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Baumwesen.md",
+      "size_bytes": 243
+    },
+    {
+      "content_hash": "361515a041945314",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Benion.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "862cdbee-1886-5c01-aed4-9425a904115b",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Benion.md",
+      "size_bytes": 215
+    },
+    {
+      "content_hash": "8ccc16a9ddd0d4b8",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Bernhardt_Wiesinger.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "5b74fcd8-b839-5989-b318-97ce63bd7b46",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Bernhardt_Wiesinger.md",
+      "size_bytes": 193
     },
     {
       "content_hash": "7d4073efd0d63d76",
@@ -296,6 +464,34 @@
       "size_bytes": 181
     },
     {
+      "content_hash": "fb130707edbd5f63",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Bruder_Schinderle.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "0b4bcc6a-4527-5624-94c9-2cd09a39273e",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Bruder_Schinderle.md",
+      "size_bytes": 189
+    },
+    {
+      "content_hash": "130f88672011fb85",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Bruder_Zar.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "b86136bb-6486-58e9-97a6-d517d6ed3e65",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Bruder_Zar.md",
+      "size_bytes": 175
+    },
+    {
       "content_hash": "588c65015ff80aad",
       "content_uuid": "",
       "corpus": "wiki",
@@ -308,6 +504,34 @@
       "record_uuid": "697f6b20-9328-534b-97c3-7a9ff6f1ba67",
       "relative_path": "Siebenwind_Wiki/00_Fundament/Bruderschaft_Gofilm.md",
       "size_bytes": 193
+    },
+    {
+      "content_hash": "bd9df6e25984f6da",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Buckelhausen.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "6aeffa54-acf9-5e1b-aa5f-5191905c234a",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Buckelhausen.md",
+      "size_bytes": 179
+    },
+    {
+      "content_hash": "9303df2f55922a94",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Bumpur_Purbier.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:04:50Z",
+      "rag_source": "wiki",
+      "record_uuid": "ad767f83-5fe9-5373-94ce-d96c01f8e658",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Bumpur_Purbier.md",
+      "size_bytes": 183
     },
     {
       "content_hash": "0bfbae594d4f3e5f",
@@ -2270,18 +2494,18 @@
       "size_bytes": 208
     },
     {
-      "content_hash": "f677d6ce732ff5b7",
+      "content_hash": "632bdd6969820054",
       "content_uuid": "d173e080-a2dd-42ec-b616-f7f614fa9368",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Personenregister.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-02-17T22:25:22Z",
+      "modified_at": "2026-02-17T23:06:35Z",
       "rag_source": "wiki",
       "record_uuid": "7750e44e-0365-5452-93c5-1e06dc9ff7d8",
       "relative_path": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
-      "size_bytes": 52379
+      "size_bytes": 52355
     },
     {
       "content_hash": "f4c2af3e5b91bb69",
@@ -3152,6 +3376,76 @@
       "size_bytes": 173
     },
     {
+      "content_hash": "6da0f387d640f250",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Ueber_Maerchen_und_Almanache.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "f8a0fc18-c21e-54a1-8f61-0f99125c779e",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Ueber_Maerchen_und_Almanache.md",
+      "size_bytes": 211
+    },
+    {
+      "content_hash": "6e8b717cf2e34b64",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Ulanda_von_Tiefenwald.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "645285a6-3128-53cd-85e5-da7ec29cfaa7",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Ulanda_von_Tiefenwald.md",
+      "size_bytes": 197
+    },
+    {
+      "content_hash": "aaed539cd8dc2768",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Urmagie.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "49403416-906a-5e35-bc97-eeb28135bfb2",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Urmagie.md",
+      "size_bytes": 169
+    },
+    {
+      "content_hash": "2e8f327bbb8c5c5e",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Vaenskap.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "480930f8-d34a-5ba8-8abf-0dedd2476bc7",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Vaenskap.md",
+      "size_bytes": 171
+    },
+    {
+      "content_hash": "aa14ce4e0cfbf743",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Valerast.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "4112cf52-287e-54ac-a96e-77fac2b617ee",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Valerast.md",
+      "size_bytes": 171
+    },
+    {
       "content_hash": "44f1d2cacbbd3d7f",
       "content_uuid": "",
       "corpus": "wiki",
@@ -3180,6 +3474,34 @@
       "size_bytes": 208
     },
     {
+      "content_hash": "be90aee83716202a",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Vater_Custodias.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "d71b6921-ab7e-5e5e-b420-8db8c9f03742",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Vater_Custodias.md",
+      "size_bytes": 185
+    },
+    {
+      "content_hash": "18280a2a1b565b90",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Ventos.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "52788376-59a9-56a0-8f98-3b13f68ce417",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Ventos.md",
+      "size_bytes": 167
+    },
+    {
       "content_hash": "39277d5cfe58e30e",
       "content_uuid": "",
       "corpus": "wiki",
@@ -3192,6 +3514,20 @@
       "record_uuid": "39311464-1135-5d17-bdc6-dfad7ca79190",
       "relative_path": "Siebenwind_Wiki/00_Fundament/Ventria.md",
       "size_bytes": 169
+    },
+    {
+      "content_hash": "e8397193e1eeb28d",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Venturia.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "cba609d4-b6a4-500d-8af6-d8207a2721c7",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Venturia.md",
+      "size_bytes": 171
     },
     {
       "content_hash": "8ad2a95f04c2f8d5",
@@ -3208,6 +3544,34 @@
       "size_bytes": 212
     },
     {
+      "content_hash": "da35d4f8caa53e9e",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Viereinigkeit.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "f76764b6-4cf5-583c-a514-e70eb6e36a47",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Viereinigkeit.md",
+      "size_bytes": 181
+    },
+    {
+      "content_hash": "bffca8f400e70f70",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Visor_Noctis.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "2ca1ad31-9baa-5aee-8217-323d069e08ba",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Visor_Noctis.md",
+      "size_bytes": 179
+    },
+    {
       "content_hash": "e9a8097ff90107c3",
       "content_uuid": "",
       "corpus": "wiki",
@@ -3220,6 +3584,20 @@
       "record_uuid": "832d956f-764d-5cdc-89ff-6505c13556e5",
       "relative_path": "Siebenwind_Wiki/00_Fundament/Vitamalin.md",
       "size_bytes": 173
+    },
+    {
+      "content_hash": "bdb069db7ba04b4f",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Volkskunde.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "41b2c7ed-164a-592b-87e2-be1b832528e3",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Volkskunde.md",
+      "size_bytes": 175
     },
     {
       "content_hash": "7059103fd5efa769",
@@ -3250,6 +3628,34 @@
       "size_bytes": 223
     },
     {
+      "content_hash": "53a71093522f6ff5",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Wasserwall.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "76597c39-15f0-5444-a803-50a0c276a044",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Wasserwall.md",
+      "size_bytes": 175
+    },
+    {
+      "content_hash": "46ab2e82054bc030",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Weidenbach.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "6753f38a-7a49-5be0-b46e-e3f302c946ae",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Weidenbach.md",
+      "size_bytes": 175
+    },
+    {
       "content_hash": "22424f2016cc7949",
       "content_uuid": "",
       "corpus": "wiki",
@@ -3276,6 +3682,48 @@
       "record_uuid": "99b65b50-6c8d-5b90-b541-8dfee7ec6a0e",
       "relative_path": "Siebenwind_Wiki/00_Fundament/Wei\u00dfer_Pfad.md",
       "size_bytes": 179
+    },
+    {
+      "content_hash": "f3cea8d3552b5569",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Werke_index.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "8e27cb9a-d33c-544f-8ae9-6aacf2008fd2",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Werke_index.md",
+      "size_bytes": 180
+    },
+    {
+      "content_hash": "bf1c7a539c17fcf0",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Whyrrdin.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "2b5411cd-8a05-5d76-9139-d67b4bac0ef1",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Whyrrdin.md",
+      "size_bytes": 171
+    },
+    {
+      "content_hash": "f08e9b93cedaa6c3",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Wichtige St\u00e4dte.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "2171de3c-5602-5703-b061-e2ead5bc34f8",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Wichtige St\u00e4dte.md",
+      "size_bytes": 187
     },
     {
       "content_hash": "6e8373a78270d86e",
@@ -3320,6 +3768,48 @@
       "size_bytes": 175
     },
     {
+      "content_hash": "d386a2b3c6434ea8",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Wirtschaft_(H&H).md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "70dc453a-d761-5bec-b34d-3b87c42e46ee",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Wirtschaft_(H&H).md",
+      "size_bytes": 187
+    },
+    {
+      "content_hash": "add31ad62a1e669a",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Wirtshaftsregister.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "fd8d9ea1-8143-5c8c-b4a2-64bec6cb0aa7",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Wirtshaftsregister.md",
+      "size_bytes": 191
+    },
+    {
+      "content_hash": "72eae3eadea3b9cb",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Wissen_Siebenwind.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "99c36225-109c-5e01-b4f9-bca1ade84d7e",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Wissen_Siebenwind.md",
+      "size_bytes": 189
+    },
+    {
       "content_hash": "33b4c7ccce8bfe15",
       "content_uuid": "",
       "corpus": "wiki",
@@ -3332,6 +3822,20 @@
       "record_uuid": "5e88bdf6-4df9-5118-8cfe-0b3e6908700b",
       "relative_path": "Siebenwind_Wiki/00_Fundament/Wolfsmark.md",
       "size_bytes": 173
+    },
+    {
+      "content_hash": "877d63b100e8125f",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Wolpertinger.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "bdbd139d-0072-5e02-8f98-3878a3853b39",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Wolpertinger.md",
+      "size_bytes": 179
     },
     {
       "content_hash": "f4230787e428f5a4",
@@ -3404,6 +3908,20 @@
       "size_bytes": 171
     },
     {
+      "content_hash": "af2de902cdd7438c",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Zeitrechnung.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "534bac69-83df-54b1-9e94-6bf047daf088",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Zeitrechnung.md",
+      "size_bytes": 179
+    },
+    {
       "content_hash": "715b3f00c86fd9fa",
       "content_uuid": "",
       "corpus": "wiki",
@@ -3416,6 +3934,34 @@
       "record_uuid": "5520ac3a-9109-5579-acfc-a360f1a20611",
       "relative_path": "Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md",
       "size_bytes": 3261
+    },
+    {
+      "content_hash": "027ddbf44092d0be",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Zerst\u00f6rung_von_Westhever.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "a46cb465-f5c9-5aec-9382-83a6ab1a26d4",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Zerst\u00f6rung_von_Westhever.md",
+      "size_bytes": 205
+    },
+    {
+      "content_hash": "66c01014052b41f8",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Zimahn_Alni_Balurdan.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "9283aa63-ccbd-5ee3-b159-57ceb833fcaf",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Zimahn_Alni_Balurdan.md",
+      "size_bytes": 195
     },
     {
       "content_hash": "ac0aa342cfadd9ea",
@@ -3432,6 +3978,20 @@
       "size_bytes": 187
     },
     {
+      "content_hash": "afba2ca5e9d05e7b",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Zyklus_und_Selektion.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "e3b1f850-35e2-5321-b168-e1a2b613babd",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/Zyklus_und_Selektion.md",
+      "size_bytes": 195
+    },
+    {
       "content_hash": "506281b0880a0d97",
       "content_uuid": "",
       "corpus": "wiki",
@@ -3444,6 +4004,20 @@
       "record_uuid": "52709b3e-b75b-5262-8a5b-090618ed2ddc",
       "relative_path": "Siebenwind_Wiki/00_Fundament/index.md",
       "size_bytes": 8799
+    },
+    {
+      "content_hash": "1536465f11bbe210",
+      "content_uuid": "",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "\u00c4ther.md",
+      "has_content_uuid": false,
+      "indexable": true,
+      "modified_at": "2026-02-17T23:09:08Z",
+      "rag_source": "wiki",
+      "record_uuid": "f9f260e0-a2a3-59a0-a678-c5dd9faaa4d4",
+      "relative_path": "Siebenwind_Wiki/00_Fundament/\u00c4ther.md",
+      "size_bytes": 167
     },
     {
       "content_hash": "7bb39828d59e40af",
@@ -5952,18 +6526,18 @@
       "size_bytes": 1992
     },
     {
-      "content_hash": "1f0213fd95c571e4",
+      "content_hash": "bf1a25a6ce3c26bb",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Daimonologie_und_Schwarze_Magie_(Toran_Dur).md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-17T20:13:10Z",
+      "modified_at": "2026-02-17T23:07:22Z",
       "rag_source": "wiki",
       "record_uuid": "9a51855c-d35c-5c8f-81ea-14315d8065ed",
       "relative_path": "Siebenwind_Wiki/03_Wissen/Werke/Daimonologie_und_Schwarze_Magie_(Toran_Dur).md",
-      "size_bytes": 1906
+      "size_bytes": 1902
     },
     {
       "content_hash": "d42decd78540b44f",
@@ -6484,18 +7058,18 @@
       "size_bytes": 2894
     },
     {
-      "content_hash": "592cb38cbff8b095",
+      "content_hash": "9268cedf3dc33798",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-17T23:02:24Z",
+      "modified_at": "2026-02-17T23:07:35Z",
       "rag_source": "wiki",
       "record_uuid": "d8eb48a3-b87b-53f2-9b55-c4af0822e30d",
       "relative_path": "Siebenwind_Wiki/03_Wissen/Werke/index.md",
-      "size_bytes": 3625
+      "size_bytes": 3621
     },
     {
       "content_hash": "a3b45f913d0f2ef1",
@@ -10726,18 +11300,18 @@
       "size_bytes": 1026
     },
     {
-      "content_hash": "3b11f69ad66efedc",
+      "content_hash": "6dc2518163382dc1",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Caieta_Ajunier.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-15T22:51:38Z",
+      "modified_at": "2026-02-17T23:06:49Z",
       "rag_source": "wiki",
       "record_uuid": "8274d943-69f6-5f8f-9807-aa25f6f9b6e8",
       "relative_path": "Siebenwind_Wiki/07_Persoenlichkeiten/Caieta_Ajunier.md",
-      "size_bytes": 367
+      "size_bytes": 359
     },
     {
       "content_hash": "6fedd4fccefb5ce4",
@@ -11426,18 +12000,18 @@
       "size_bytes": 751
     },
     {
-      "content_hash": "e9a33b4ec60bf1c7",
+      "content_hash": "5d7582a15aa61e9f",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Enoah_Sullin.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-15T22:51:45Z",
+      "modified_at": "2026-02-17T23:07:09Z",
       "rag_source": "wiki",
       "record_uuid": "f77cd88b-3f2e-53d1-9434-facfcb3a224c",
       "relative_path": "Siebenwind_Wiki/07_Persoenlichkeiten/Enoah_Sullin.md",
-      "size_bytes": 363
+      "size_bytes": 355
     },
     {
       "content_hash": "33f0d68b419c6e3b",
@@ -14268,18 +14842,18 @@
       "size_bytes": 790
     },
     {
-      "content_hash": "817237cccf403dcb",
+      "content_hash": "7e4738059106ea05",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Lothar_Gavinwald.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-15T22:51:40Z",
+      "modified_at": "2026-02-17T23:07:09Z",
       "rag_source": "wiki",
       "record_uuid": "50f57a4b-aeea-5b89-80b9-98006c5e76d4",
       "relative_path": "Siebenwind_Wiki/07_Persoenlichkeiten/Lothar_Gavinwald.md",
-      "size_bytes": 364
+      "size_bytes": 360
     },
     {
       "content_hash": "1770f0d871cd16e9",
@@ -15024,14 +15598,14 @@
       "size_bytes": 907
     },
     {
-      "content_hash": "055219f630abe32b",
+      "content_hash": "44e9765cd89fde25",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Nefustor.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-15T22:51:41Z",
+      "modified_at": "2026-02-17T23:07:09Z",
       "rag_source": "wiki",
       "record_uuid": "a342b102-9d5e-5ac2-ab6b-398dffe21e84",
       "relative_path": "Siebenwind_Wiki/07_Persoenlichkeiten/Nefustor.md",
@@ -15626,18 +16200,18 @@
       "size_bytes": 882
     },
     {
-      "content_hash": "60dc35153bc5df36",
+      "content_hash": "6fc118d2b84224c9",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Rianna.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-15T22:51:45Z",
+      "modified_at": "2026-02-17T23:07:09Z",
       "rag_source": "wiki",
       "record_uuid": "b55124fb-c9d0-50e8-a30f-69eb9708e020",
       "relative_path": "Siebenwind_Wiki/07_Persoenlichkeiten/Rianna.md",
-      "size_bytes": 351
+      "size_bytes": 343
     },
     {
       "content_hash": "78c99c7a96b3c3a6",
@@ -18440,18 +19014,18 @@
       "size_bytes": 1427
     },
     {
-      "content_hash": "b667b8e4333fac1d",
+      "content_hash": "90136aec300588d4",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Wiki_Statistiken.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-02-17T22:09:53Z",
+      "modified_at": "2026-02-17T23:46:49Z",
       "rag_source": "wiki",
       "record_uuid": "c4468f48-b40c-5c0f-a4d8-73694fe48d17",
       "relative_path": "Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md",
-      "size_bytes": 1600
+      "size_bytes": 4021
     },
     {
       "content_hash": "9e5b518fa3ed333b",
@@ -29626,46 +30200,46 @@
       "size_bytes": 21968
     },
     {
-      "content_hash": "d41f8a4c250ab04d",
+      "content_hash": "41fb34d22329619b",
       "content_uuid": "1b3c8f24-7fb5-4ec3-9d43-7b1f17f69371",
       "corpus": "system",
       "extension": ".md",
       "filename": "AGENT_OPERATIONS_HANDBOOK.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-02-17T22:32:16Z",
+      "modified_at": "2026-02-17T23:54:25Z",
       "rag_source": "",
       "record_uuid": "4e76e03c-8153-596f-b8bb-8c59e1ad72e4",
       "relative_path": "System/AGENT_OPERATIONS_HANDBOOK.md",
-      "size_bytes": 5715
+      "size_bytes": 7146
     },
     {
-      "content_hash": "5b6cc34466de895b",
+      "content_hash": "b8575a0239365af8",
       "content_uuid": "",
       "corpus": "system",
       "extension": ".json",
       "filename": "ARCHIVREGISTER.json",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-17T22:06:06Z",
+      "modified_at": "2026-02-17T23:54:50Z",
       "rag_source": "",
       "record_uuid": "6c15edc2-e046-50fc-a98a-059d2b3709f3",
       "relative_path": "System/Archivregister/ARCHIVREGISTER.json",
-      "size_bytes": 965633
+      "size_bytes": 1095576
     },
     {
-      "content_hash": "ae619ed287f6716c",
-      "content_uuid": "84ded988-77dd-4cea-950a-52dc3d355ef1",
+      "content_hash": "69e86d5b0fc1b0f1",
+      "content_uuid": "0557e976-3863-40e4-ada9-8af528a9fdd9",
       "corpus": "system",
       "extension": ".md",
       "filename": "ARCHIVREGISTER.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-02-17T22:06:06Z",
+      "modified_at": "2026-02-17T23:54:50Z",
       "rag_source": "",
       "record_uuid": "5b36010b-8039-547b-a1d5-3dabf786d9a3",
       "relative_path": "System/Archivregister/ARCHIVREGISTER.md",
-      "size_bytes": 2803
+      "size_bytes": 2729
     },
     {
       "content_hash": "fc99a187814209c2",
@@ -29682,18 +30256,18 @@
       "size_bytes": 1595
     },
     {
-      "content_hash": "df6a23042ba00a77",
+      "content_hash": "3977bef968ec48b4",
       "content_uuid": "",
       "corpus": "system",
       "extension": ".md",
       "filename": "COORDINATION_HUB.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-17T22:38:22Z",
+      "modified_at": "2026-02-17T23:54:20Z",
       "rag_source": "",
       "record_uuid": "c89cae3c-48f3-5504-b5e0-dbb53c4fe49d",
       "relative_path": "System/COORDINATION_HUB.md",
-      "size_bytes": 3550
+      "size_bytes": 4172
     },
     {
       "content_hash": "c6666c56c5b49545",
@@ -30228,6 +30802,146 @@
       "size_bytes": 634
     },
     {
+      "content_hash": "59ff3fca6e20869a",
+      "content_uuid": "ea8474f0-1a29-4bf1-b1f1-9e67afddc82d",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0022_meta_baustellen_dossier_2026_02_18_aktualisiert.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:09:21Z",
+      "rag_source": "",
+      "record_uuid": "0bb1d0a5-7f7d-508a-99d9-fc58192fc29b",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0022_meta_baustellen_dossier_2026_02_18_aktualisiert.md",
+      "size_bytes": 689
+    },
+    {
+      "content_hash": "1112d54b0cc451b4",
+      "content_uuid": "b49ed6c8-2421-4b17-9600-bfffdeef6b40",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0023_memory_lessons_learned_audit_triage_link_flood.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:11:20Z",
+      "rag_source": "",
+      "record_uuid": "14cc20cd-51c2-5ffd-bd7f-bef4421b16d3",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0023_memory_lessons_learned_audit_triage_link_flood.md",
+      "size_bytes": 602
+    },
+    {
+      "content_hash": "21397180933626c9",
+      "content_uuid": "c6e31465-b83b-4a31-b04d-04ede6c8f6b4",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0024_ux_landing_jetzt_design_first_banner_unabhaengig.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:24:10Z",
+      "rag_source": "",
+      "record_uuid": "2016a562-6cb7-58a2-9499-7fe92ba43072",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0024_ux_landing_jetzt_design_first_banner_unabhaengig.md",
+      "size_bytes": 780
+    },
+    {
+      "content_hash": "1bad695aae3298eb",
+      "content_uuid": "cf2cb646-f532-49d0-8a9a-27fc17582252",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0025_lessons_learned_bridge_placeholder_guardrails.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:28:01Z",
+      "rag_source": "",
+      "record_uuid": "1117e13c-4736-502a-9d78-1b7bbc246db7",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0025_lessons_learned_bridge_placeholder_guardrails.md",
+      "size_bytes": 650
+    },
+    {
+      "content_hash": "069a9b9b653903c0",
+      "content_uuid": "44fde2b1-b1b8-4c82-88cd-59d985b9b28b",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0026_agent_dossier_bridge_rewrite_program.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:30:47Z",
+      "rag_source": "",
+      "record_uuid": "7cbba5fc-6dd5-5e1a-b620-4d81e8e56f9e",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0026_agent_dossier_bridge_rewrite_program.md",
+      "size_bytes": 650
+    },
+    {
+      "content_hash": "9eb321807b380feb",
+      "content_uuid": "2553fad6-8608-4ce8-ba73-2b0e1c25fe6f",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0027_ux_tech_github_landing_geschaerft_maintainer_leitpunkt_angel.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:31:23Z",
+      "rag_source": "",
+      "record_uuid": "28f84b2b-b434-5398-bf31-94d803d378a7",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0027_ux_tech_github_landing_geschaerft_maintainer_leitpunkt_angel.md",
+      "size_bytes": 747
+    },
+    {
+      "content_hash": "26e628018287dc54",
+      "content_uuid": "5e447741-7bce-4258-b42e-9f48356fa5be",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0028_dev_neuer_command_leitpunkt_aktiv.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:46:23Z",
+      "rag_source": "",
+      "record_uuid": "f49b77e3-3ef8-5994-9f92-a0dcde20fa87",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0028_dev_neuer_command_leitpunkt_aktiv.md",
+      "size_bytes": 657
+    },
+    {
+      "content_hash": "55cf501bc9d17231",
+      "content_uuid": "422fd3af-e815-4749-8d7e-4783113b5e99",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0029_stats_contract_update_reader_first_snapshot.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:47:27Z",
+      "rag_source": "",
+      "record_uuid": "f6385486-d6f9-5559-8550-48f79d09cbcc",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0029_stats_contract_update_reader_first_snapshot.md",
+      "size_bytes": 668
+    },
+    {
+      "content_hash": "9c83b0136d6753d5",
+      "content_uuid": "40c37cc7-f5d3-4ab9-bfd6-1cf2a47dc5cf",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0030_follow_up_closed_stats_contract_parity.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:53:34Z",
+      "rag_source": "",
+      "record_uuid": "f7186b73-4966-5774-b873-317c52713030",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0030_follow_up_closed_stats_contract_parity.md",
+      "size_bytes": 680
+    },
+    {
+      "content_hash": "294334bb29c2a93c",
+      "content_uuid": "ee99a344-d8e6-4c42-835e-cf32fc2d7a20",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0031_meta_p1_advisor_antigravity_dossier_workflow_gates_geschaerf.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:54:58Z",
+      "rag_source": "",
+      "record_uuid": "862256a3-ceee-58f0-b99f-e70a7fbc500d",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0031_meta_p1_advisor_antigravity_dossier_workflow_gates_geschaerf.md",
+      "size_bytes": 767
+    },
+    {
       "content_hash": "2483544a8db89b21",
       "content_uuid": "",
       "corpus": "system",
@@ -30466,18 +31180,18 @@
       "size_bytes": 5603
     },
     {
-      "content_hash": "feba62ed581fad3f",
+      "content_hash": "ff3c046690873c1a",
       "content_uuid": "4f249a8d-33da-4cbf-9fc4-ff9df2bf8563",
       "corpus": "system",
       "extension": ".md",
       "filename": "SY_INTEROP.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-02-16T22:29:07Z",
+      "modified_at": "2026-02-17T23:54:30Z",
       "rag_source": "",
       "record_uuid": "061d0be8-e343-5802-bc99-a274c6e63328",
       "relative_path": "System/Synapse_Board/SY_INTEROP.md",
-      "size_bytes": 3636
+      "size_bytes": 4367
     },
     {
       "content_hash": "eccb26b81fbcb4ff",
@@ -30508,32 +31222,32 @@
       "size_bytes": 3007
     },
     {
-      "content_hash": "673179cf7429ba0c",
+      "content_hash": "9cc6a8152d996f86",
       "content_uuid": "9e6a6a7c-4ef6-4f73-96d7-967f21bf90e8",
       "corpus": "system",
       "extension": ".md",
       "filename": "SY_TESTING.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-02-16T22:13:25Z",
+      "modified_at": "2026-02-17T23:41:12Z",
       "rag_source": "",
       "record_uuid": "04a07fec-2441-5de2-b0ef-e077fa9ba332",
       "relative_path": "System/Synapse_Board/SY_TESTING.md",
-      "size_bytes": 2372
+      "size_bytes": 2692
     },
     {
-      "content_hash": "0615347c12b085eb",
+      "content_hash": "7877990644e424b7",
       "content_uuid": "52af70d6-90f7-4201-9374-c6cc2ce0c57e",
       "corpus": "system",
       "extension": ".md",
       "filename": "SY_WORKFLOW_CLI_MATRIX.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-02-17T22:32:10Z",
+      "modified_at": "2026-02-17T23:54:34Z",
       "rag_source": "",
       "record_uuid": "fec26a21-d582-5cc5-a9dc-578246a41710",
       "relative_path": "System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md",
-      "size_bytes": 4006
+      "size_bytes": 4564
     },
     {
       "content_hash": "ac236c28a761e755",
@@ -30578,32 +31292,32 @@
       "size_bytes": 979
     },
     {
-      "content_hash": "968615c6f9567f6f",
+      "content_hash": "df9ac3beace23f22",
       "content_uuid": "",
       "corpus": "system",
       "extension": ".md",
       "filename": "INGESTION_REPORT_TEMPLATE.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-17T21:35:22Z",
+      "modified_at": "2026-02-17T23:20:01Z",
       "rag_source": "",
       "record_uuid": "b3b100ca-bc51-5b2f-9e73-42766f4d430f",
       "relative_path": "System/Templates/INGESTION_REPORT_TEMPLATE.md",
-      "size_bytes": 2366
+      "size_bytes": 2486
     },
     {
-      "content_hash": "7ddfcc32832da639",
+      "content_hash": "82e0b0eb43a69968",
       "content_uuid": "{UUID-v4}",
       "corpus": "system",
       "extension": ".md",
       "filename": "PRODUCTION_NOTE_TEMPLATE.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-02-15T00:09:28Z",
+      "modified_at": "2026-02-17T23:19:57Z",
       "rag_source": "",
       "record_uuid": "aa46113a-86c3-5dcf-b3d0-4c9b4e5dcfc3",
       "relative_path": "System/Templates/PRODUCTION_NOTE_TEMPLATE.md",
-      "size_bytes": 450
+      "size_bytes": 690
     },
     {
       "content_hash": "150469a5bbf21d80",
@@ -30718,6 +31432,20 @@
       "size_bytes": 1096
     },
     {
+      "content_hash": "309dd4ff99ffc7e2",
+      "content_uuid": "",
+      "corpus": "docs",
+      "extension": ".md",
+      "filename": "BAUSTELLEN_DOSSIER_2026-02-18.md",
+      "has_content_uuid": false,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:09:03Z",
+      "rag_source": "",
+      "record_uuid": "9f91f677-90ad-5243-9c58-32d155c2055e",
+      "relative_path": "docs/Archiv/BAUSTELLEN_DOSSIER_2026-02-18.md",
+      "size_bytes": 3818
+    },
+    {
       "content_hash": "23b5832deebc6fde",
       "content_uuid": "",
       "corpus": "docs",
@@ -30730,6 +31458,20 @@
       "record_uuid": "3209075a-d5f6-5e3e-aef4-737cd4f020af",
       "relative_path": "docs/Archiv/Dossier_Rhadan.md",
       "size_bytes": 1781
+    },
+    {
+      "content_hash": "e9d95725b402fab0",
+      "content_uuid": "",
+      "corpus": "docs",
+      "extension": ".md",
+      "filename": "MAINTAINER_STANDPUNKT.md",
+      "has_content_uuid": false,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:50:08Z",
+      "rag_source": "",
+      "record_uuid": "cd58d36a-9472-52e8-aa89-e056f7809bc7",
+      "relative_path": "docs/Archiv/MAINTAINER_STANDPUNKT.md",
+      "size_bytes": 3220
     },
     {
       "content_hash": "ee5a6e14e3faa333",
@@ -30816,18 +31558,32 @@
       "size_bytes": 1887
     },
     {
-      "content_hash": "ed22a67fa8014b64",
+      "content_hash": "ba8637c8d1ffaf83",
+      "content_uuid": "",
+      "corpus": "docs",
+      "extension": ".md",
+      "filename": "WORKFLOW_DOSSIER_ANTIGRAVITY_ADVISOR_2026-02-18.md",
+      "has_content_uuid": false,
+      "indexable": false,
+      "modified_at": "2026-02-17T23:52:35Z",
+      "rag_source": "",
+      "record_uuid": "8f01dc86-42d9-510d-a35c-da11c4a58e4c",
+      "relative_path": "docs/Archiv/WORKFLOW_DOSSIER_ANTIGRAVITY_ADVISOR_2026-02-18.md",
+      "size_bytes": 4964
+    },
+    {
+      "content_hash": "47df6c7f63f02799",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "CHANGELOG.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-17T23:00:14Z",
+      "modified_at": "2026-02-17T23:54:49Z",
       "rag_source": "",
       "record_uuid": "a872f0ee-0342-54fe-98fb-e447cfbe42b5",
       "relative_path": "docs/CHANGELOG.md",
-      "size_bytes": 67854
+      "size_bytes": 77582
     },
     {
       "content_hash": "de6e1a4c1b311f07",
@@ -30872,18 +31628,18 @@
       "size_bytes": 2544
     },
     {
-      "content_hash": "35b7a023bbdad8e7",
+      "content_hash": "e9d28b7d665d2aad",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "MASTER_TASK_LIST.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-17T22:59:07Z",
+      "modified_at": "2026-02-17T23:52:53Z",
       "rag_source": "",
       "record_uuid": "e24614b4-8eaf-5723-bf87-0df9978bcc1e",
       "relative_path": "docs/MASTER_TASK_LIST.md",
-      "size_bytes": 20188
+      "size_bytes": 20257
     },
     {
       "content_hash": "c1cfaa5608df827d",
@@ -31012,18 +31768,18 @@
       "size_bytes": 803
     },
     {
-      "content_hash": "7c51ad69d5cc85a5",
+      "content_hash": "c389d94733fb06e4",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-02-17T22:47:58Z",
+      "modified_at": "2026-02-17T23:44:50Z",
       "rag_source": "",
       "record_uuid": "1aafa2fc-b622-534b-b57e-49b69629ab39",
       "relative_path": "docs/index.md",
-      "size_bytes": 4353
+      "size_bytes": 6557
     },
     {
       "content_hash": "efed2a7c97e64878",
@@ -31040,7 +31796,7 @@
       "size_bytes": 2963
     }
   ],
-  "register_uuid": "8cfa4e5c-4ea4-4859-b91f-b1025e64a47e",
+  "register_uuid": "40283a1f-aec8-43c1-94ae-bd224fee536e",
   "repo_root": "/Users/alexandrerabe/siebenwind/7w_wiki",
   "stats": {
     "board_metrics": {
@@ -31065,9 +31821,9 @@
         "status_counts": {
           "CLAIMED": 1,
           "DONE": 0,
-          "OPEN": 20
+          "OPEN": 30
         },
-        "total": 21
+        "total": 31
       },
       "inquisition": {
         "missing_uuid": 2,
@@ -31098,14 +31854,14 @@
       }
     },
     "by_corpus": {
-      "docs": 30,
+      "docs": 33,
       "quellen": 796,
-      "system": 71,
-      "wiki": 1320
+      "system": 81,
+      "wiki": 1361
     },
     "indexable_total": {
       "quellen": 796,
-      "wiki": 1320
+      "wiki": 1361
     },
     "inventur_progress": {
       "pending": 1,
@@ -31115,12 +31871,12 @@
     "rag_progress": {
       "quellen": {
         "available": true,
-        "chunks": 13158,
+        "chunks": 23742,
         "collection": "siebenwind_quellen",
-        "coverage_pct": 21.0,
+        "coverage_pct": 38.33,
         "error": "",
         "indexable_files": 300,
-        "indexed_files": 63,
+        "indexed_files": 115,
         "stale_examples": [],
         "stale_index_entries": 0
       },
@@ -31128,9 +31884,9 @@
         "available": true,
         "chunks": 31700,
         "collection": "siebenwind_wiki",
-        "coverage_pct": 11.89,
+        "coverage_pct": 11.54,
         "error": "",
-        "indexable_files": 1320,
+        "indexable_files": 1361,
         "indexed_files": 157,
         "stale_examples": [
           "Siebenwind_Wiki/07_Persoenlichkeiten/Dur.md"
@@ -31138,8 +31894,8 @@
         "stale_index_entries": 1
       }
     },
-    "total_records": 2217,
-    "uuid_coverage_pct": 10.96,
-    "with_content_uuid": 243
+    "total_records": 2271,
+    "uuid_coverage_pct": 11.14,
+    "with_content_uuid": 253
   }
 }

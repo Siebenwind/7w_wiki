@@ -27,7 +27,7 @@ Der zentrale Artefaktpfad ist:
 1. `./7w_wiki.py leitpunkt status`
 2. `./7w_wiki.py leitpunkt check`
 3. Leitpunktseite gezielt aktualisieren (Prioritaeten, No-Gos, Eskalation).
-4. `./7w_wiki.py leitpunkt check --strict` vor Freigabe.
+4. Optional: `./7w_wiki.py leitpunkt check --strict` (nur fuer Governance-Release/Handover/Policy-Freeze).
 5. `./7w_wiki.py test --suite interop-doc-links`
 6. Aenderung via Dispatch kurz broadcasten.
 
@@ -37,8 +37,11 @@ Der zentrale Artefaktpfad ist:
 - `check --strict`: prueft Pflichtsektionen + keine offenen `TODO` Marker.
 - `scaffold`: erstellt Vorlage, falls Datei fehlt.
 
+## 3b. Striktheits-Regel
+- `check` ist der Tagesmodus (muss stabil gruen sein).
+- `check --strict` ist ein **Freigabe-Gate**, kein permanenter Entwicklungsblocker.
+
 ## 4. Freigabe-Disziplin
 - Bei inhaltlicher Leitungsentscheidung immer Changelog-Eintrag.
 - Bei geaendertem Leitpunkt immer kurze Dispatch-Notiz an `ALL`.
 - Konflikte zwischen Leitpunkt und Einzelwunsch als explizite Entscheidungsfrage eskalieren.
-

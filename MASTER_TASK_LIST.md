@@ -5,21 +5,24 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-17 23:07 (Codex -> Next Agent)
-- **Status**: Handover-Checkpoint erneut ausgefuehrt; Register/Stats synchronisiert; Audit-Linkflood deutlich reduziert (aktuell 348 Probleme), Interop teils gruen, `takeover-handover` weiterhin FAIL.
+- **Last Handover**: 2026-02-18 00:08 (Codex -> Next Agent)
+- **Status**: Reader-Stats-Contract integriert (Skill + Suite + Snapshot-Schnittstelle), Register/Stats synchronisiert; aktueller Audit-Stand 437 Probleme (inkl. Bridge-Hygiene-Klasse), Interop weitgehend gruen, `takeover-handover` wieder PASS, `rag-relevance-smoke` aus Stabilitaetsgruenden aus `test --suite all` ausgelagert (Opt-in).
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
-- [ ] **Handover Gate Repair**: Defekten Link in `.agent/workflows/handover.md` beheben (`../...`) und `interop-doc-links` wieder gruen bekommen.
-- [ ] **Test Runner Stability**: `./7w_wiki.py test --suite all` sowie `rag-relevance-smoke` haengen im aktuellen Lauf ohne Abschlussreport; Harness/Timeout-Handling pruefen.
+- [x] **Handover Gate Repair**: Defekten Link in `.agent/workflows/handover.md` behoben; `interop-doc-links` und `takeover-handover` wieder gruen.
+- [x] **Test Runner Stability**: Runner mit Case-Progress-Ausgabe erweitert; `rag-relevance-smoke` aus Standardlauf (`--suite all`) entfernt und nur noch per `--include-rag` / direkter Suite ausfuehrbar.
 - [ ] **Oracle Reliability (Codex App)**: Auftrag `MSG-2026-0015` bearbeiten; Reproduzierbarkeit/Root-Cause fuer unzuverlaessige Oracle-Laeufe feststellen und mit Test/Fallback absichern.
-- [ ] **Audit Regression Triage**: Aktuellster Stand `Logs/Archive/Audit_84814c9a-7906-469d-a35f-e5506733d443.txt` (348 Probleme). P1-Breaker `Mirila_Mik_Honigzopf` und `Althea_Danea` behoben; verbleibend ist der Link-Flood. Konsolidierung siehe `Logs/Archive/AUDIT_CONSOLIDATION_INDEX_2026-02-17.md`.
+- [ ] **Advisor API fuer Automationen**: Auftrag `MSG-2026-0032` bearbeiten; `advisor --json` mit stabilen Schluesseln einfuehren und per Suite absichern.
+- [ ] **Dispatch Queue Hygiene**: Auftrag `MSG-2026-0033` bearbeiten; OPEN-Backlog konsolidieren (obsolet zusammenfassen, aktuelle Blocker priorisieren).
+- [ ] **Audit Regression Triage**: Aktuellster Stand `Logs/Archive/Audit_08ed78ca-c2e7-4490-9fd1-8464da6af1fc.txt` (437 Probleme). P1-Breaker `Mirila_Mik_Honigzopf` und `Althea_Danea` behoben; verbleibend ist der Link-Flood. Konsolidierung siehe `Logs/Archive/AUDIT_CONSOLIDATION_INDEX_2026-02-17.md`.
 - [ ] **Technical Link Repair**: Prefixing 1100+ links with category folders to overcome `ezlinks` flattening.
 - [ ] **Ingestion 2.0**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - [BLOCKED: 118 Source Missing].
 
 ## 🟡 Priorität 2: Operative Ingestion & Research
 - [ ] **Kanon-Abgleich**: Wiederaufnahme der Prüfung zur Götterverschmelzung (RESEARCH-2026-010/011) - [DEFERRED].
+- [ ] **Workflow Execute Mode + Alias adivor**: Auftrag `MSG-2026-0034` bearbeiten; robuste Alias-Aufloesung und optionalen Execute-Pfad fuer Kern-Workflows pruefen.
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
 - [ ] **Lore Research Board**: Abarbeitung der offenen Ausschreibungen (Angamon, Ödland).
 

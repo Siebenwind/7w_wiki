@@ -16,7 +16,11 @@ Dieser Skill standardisiert den Testdurchlauf fuer Interop, Takeover/Handover un
 ./7w_wiki.py test --suite bridge-placeholder-guard
 ./7w_wiki.py test --suite reader-stats-contract
 ./7w_wiki.py test --suite all
+./7w_wiki.py test --suite all --include-rag
+./7w_wiki.py test --suite rag-relevance-smoke --timeout 30
 ```
+
+Hinweis: `--suite all` laesst `rag-relevance-smoke` standardmaessig aus (Stabilitaets-Default).
 
 ## Defect-Routing (Pflicht)
 

@@ -6,7 +6,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-02-18 00:46
+**Stand:** 2026-02-18 01:07
 
 > Wissenswetter: **Stuermisch: viele offene Baustellen, aber aktive Bewegung.**
 
@@ -30,7 +30,7 @@ category: Index
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
 | Letzte 7 Tage | 1335 | - | - |
-| Letzte 30 Tage | 1335 | 1332 | 94 |
+| Letzte 30 Tage | 1335 | 1332 | 95 |
 | Letzte 90 Tage | 1335 | - | - |
 
 ---
@@ -137,8 +137,8 @@ pie title Artikel pro Sektion
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 89 |
 | Davon ohne Ausnahme-Metadaten | 89 |
-| Test-Suiten PASS | 6 |
-| Test-Suiten FAIL | 2 |
+| Test-Suiten PASS | 7 |
+| Test-Suiten FAIL | 1 |
 
 ### Letzte Test-Suites
 | Suite | Ergebnis | PASS | FAIL | SKIP |
@@ -150,14 +150,14 @@ pie title Artikel pro Sektion
 | `rag-relevance-smoke` | **FAIL** | 1 | 3 | 0 |
 | `reader-stats-contract` | **PASS** | 2 | 0 | 0 |
 | `source-link-hygiene` | **PASS** | 1 | 0 | 0 |
-| `takeover-handover` | **FAIL** | 4 | 1 | 0 |
+| `takeover-handover` | **PASS** | 5 | 0 | 0 |
 
 
 ## 📍 Fortschritt Live Verfolgen
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_58527a12-6392-418b-b4b7-840b1f343cb1.txt`
+- Letzter Audit: `Logs/Archive/Audit_14de6856-3365-45ee-af46-370ff11b468a.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

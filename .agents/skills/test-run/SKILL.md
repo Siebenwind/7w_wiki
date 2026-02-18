@@ -19,6 +19,8 @@ Use this skill to execute repeatable clean-state/interoperability test runs.
 ./7w_wiki.py test --suite bridge-placeholder-guard
 ./7w_wiki.py test --suite reader-stats-contract
 ./7w_wiki.py test --suite all
+./7w_wiki.py test --suite all --include-rag
+./7w_wiki.py test --suite rag-relevance-smoke --timeout 30
 ```
 
 ## Failure Routing (Required)
@@ -31,5 +33,6 @@ Use this skill to execute repeatable clean-state/interoperability test runs.
 
 ## Notes
 - Runtime authority remains `./7w_wiki.py` only.
+- `--suite all` laesst `rag-relevance-smoke` standardmaessig aus (Stabilitaets-Default).
 - Fixes are performed after a claimed dispatch message or referenced task.
 - For multi-step fixes, send short status heartbeats via dispatch and escalate contradictions as specialist questions.

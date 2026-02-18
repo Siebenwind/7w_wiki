@@ -106,6 +106,11 @@ def cmd_validate(args):
         if rc != 0:
             return rc
 
+    if not args.skip_reader_stats_contract:
+        rc = _run_runtime(["test", "--suite", "reader-stats-contract"])
+        if rc != 0:
+            return rc
+
     if not args.skip_audit:
         rc = _run_runtime(["audit"])
         if rc != 0:
@@ -132,6 +137,7 @@ def main():
     validate_parser.add_argument("--skip-link-suite", action="store_true", help="Skip interop doc link suite")
     validate_parser.add_argument("--skip-source-hygiene", action="store_true", help="Skip source-link hygiene suite")
     validate_parser.add_argument("--skip-process-governance", action="store_true", help="Skip process dispatch/curiosity governance suite")
+    validate_parser.add_argument("--skip-reader-stats-contract", action="store_true", help="Skip reader stats contract suite")
     validate_parser.add_argument("--skip-audit", action="store_true", help="Skip register audit")
     validate_parser.add_argument("--config", default="mkdocs.yml", help="mkdocs config path")
 

@@ -139,6 +139,8 @@ def cmd_check(strict=False):
     mode = "strict" if strict else "normal"
     print(f"PASS: Leitpunkt-Check ({mode}).")
     print(f"Readiness: {result['readiness']} | TODO Marker: {result['todo_count']}")
+    if (not strict) and result["todo_count"] > 0:
+        print("Hinweis: `--strict` ist nur fuer Governance-Release/Handover/Policy-Freeze gedacht.")
     return 0
 
 
@@ -180,4 +182,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

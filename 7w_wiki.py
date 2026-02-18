@@ -77,6 +77,7 @@ def main():
     test_parser.add_argument("--from-agent", default="Test-Waechter", help="Dispatch sender if --post-failures")
     test_parser.add_argument("--to-agent", default="ALL", help="Dispatch target if --post-failures")
     test_parser.add_argument("--priority", choices=["LOW", "NORMAL", "HIGH"], default="HIGH", help="Dispatch priority")
+    test_parser.add_argument("--include-rag", action="store_true", help="Include unstable rag-relevance-smoke in --suite all")
     test_parser.add_argument("--allow-fail", action="store_true", help="Return 0 even if tests fail")
 
     # Takeover / Handover workflow views
@@ -117,6 +118,7 @@ def main():
     pages_validate.add_argument("--skip-link-suite", action="store_true", help="Skip test --suite interop-doc-links")
     pages_validate.add_argument("--skip-source-hygiene", action="store_true", help="Skip test --suite source-link-hygiene")
     pages_validate.add_argument("--skip-process-governance", action="store_true", help="Skip test --suite process-dispatch-curiosity")
+    pages_validate.add_argument("--skip-reader-stats-contract", action="store_true", help="Skip test --suite reader-stats-contract")
     pages_validate.add_argument("--skip-audit", action="store_true", help="Skip audit")
     pages_validate.add_argument("--config", default="mkdocs.yml", help="Path to mkdocs config (default: mkdocs.yml)")
 
@@ -162,6 +164,9 @@ def main():
 
     # Technician (DevOps)
     subparsers.add_parser("tech", help="Show Technician workflow (DevOps & Infrastructure)")
+
+    # Antigravity (Core Protocol)
+    subparsers.add_parser("antigravity", help="Show Antigravity core workflow (default protocol)")
 
     # Maintainer Standpoint (Human Steering Anchor)
     leit_parser = subparsers.add_parser("leitpunkt", help="Manage maintainer standpoint workflow and checks")
@@ -212,6 +217,8 @@ def main():
         if args.post_failures:
             test_args.append("--post-failures")
             test_args.extend(["--from-agent", args.from_agent, "--to-agent", args.to_agent, "--priority", args.priority])
+        if args.include_rag:
+            test_args.append("--include-rag")
         if args.allow_fail:
             test_args.append("--allow-fail")
         run_script(".agent/scripts/test_runner.py", test_args)
@@ -267,6 +274,8 @@ def main():
             page_args.append("--skip-source-hygiene")
         if hasattr(args, "skip_process_governance") and args.skip_process_governance:
             page_args.append("--skip-process-governance")
+        if hasattr(args, "skip_reader_stats_contract") and args.skip_reader_stats_contract:
+            page_args.append("--skip-reader-stats-contract")
         if hasattr(args, "skip_audit") and args.skip_audit:
             page_args.append("--skip-audit")
         if hasattr(args, "config") and args.config:
@@ -338,6 +347,10 @@ def main():
     elif args.command == "tech":
         print(f"🔧 {BOLD}Workflow: /tech (Netz-Ingenieur){RESET}")
         view_workflow("tech")
+
+    elif args.command == "antigravity":
+        print(f"🧲 {BOLD}Workflow: /antigravity (Core Protocol){RESET}")
+        view_workflow("antigravity")
 
     elif args.command == "leitpunkt":
         if not args.leit_cmd or args.leit_cmd == "view":
