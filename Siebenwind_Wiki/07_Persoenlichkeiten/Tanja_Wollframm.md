@@ -8,7 +8,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 **Titel:** Abrichterin / Meisterschützin
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]] / [[03_Gesellschaft#Handwerk|Abrichter]]
+**Zugehörigkeit:** [[Brandenstein]] / [[03_Gesellschaft/index#Handwerk|Abrichter]]
 
 ## Beschreibung
 **Tanja Wollframm** ist eine bekannte Abrichterin und Jägerin aus [[Brandenstein]]. Im Jahre 30 n.H. (Bote 193) erlangte sie Ruhm, als sie die große Inseljagd des [[Nathar_Erres]] gewann. 

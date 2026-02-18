@@ -12,7 +12,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 **Titel:** Novize
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Vitamae]] / [[01_Vitama|Vitama]]
+**Zugehörigkeit:** [[Ordo_Vitamae]] / [[Vitama]]
 
 ## Beschreibung
 **Bardas Loredis** ist ein Novize der [[Vitama]]-Kirche, der im Jahr 19 n.H. seine Ausbildung absolvierte (Bote 165).
@@ -21,7 +21,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 - **Klerus:** Aspirant im Orden der göttlichen Heilung.
 
 ## Verlinkte Themen
-- [[01_Vitama]]
+- [[Vitama]]
 - [[Personenregister]]
 
 ## Referenzen

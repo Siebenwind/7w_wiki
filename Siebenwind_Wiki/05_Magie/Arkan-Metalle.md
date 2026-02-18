@@ -16,10 +16,10 @@ Metalle können als **Fokus** (erleichtert die [[index]] eines Elements) oder **
 
 | Metall | Element | Gott/Prinzip | Fokus für | Gegenfokus für |
 | :--- | :--- | :--- | :--- | :--- |
-| **Gold & Kupfer** | [[Elementarlehre_Feuer|Feuer]] | [[02_Ingis|Ingis]] | Feuer-[[index]] | Wasser-[[index]] |
-| **Bronze** | [[Elementarlehre_Erde|Erde]] | [[02_Rien|Rien]] | Erd-[[index]] | Luft-[[index]] |
-| **Stahl / Eisen** | [[Elementarlehre_Luft|Luft]] | [[02_Khaleb|Khaleb]] | Luft-[[index]] | Erd-[[index]] |
-| **Silber** | [[Elementarlehre_Wasser|Wasser]] | [[02_Xan|Xan]] | Wasser-[[index]] | Feuer-[[index]] |
+| **Gold & Kupfer** | [[Elementarlehre_Feuer|Feuer]] | [[Ingis]] | Feuer-[[index]] | Wasser-[[index]] |
+| **Bronze** | [[Elementarlehre_Erde|Erde]] | [[Rien]] | Erd-[[index]] | Luft-[[index]] |
+| **Stahl / Eisen** | [[Elementarlehre_Luft|Luft]] | [[Khaleb]] | Luft-[[index]] | Erd-[[index]] |
+| **Silber** | [[Elementarlehre_Wasser|Wasser]] | [[Xan]] | Wasser-[[index]] | Feuer-[[index]] |
 | **Fethril** | Heilig / Feuer | Ingis | Unbekannt / Extrem stark | - |
 
 ## 2. Der Metall-Effekt

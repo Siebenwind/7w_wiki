@@ -8,7 +8,7 @@ category: [[Geografie]]
 
 **Typ:** See / Weiher
 **Epistemischer Status:** #canon
-**Region:** [[Siebenwind]] / Grönlanden
+**Region:** [[Siebenwind]] / [[Grünland]]
 
 ## Beschreibung
 Der **Greifenweiher** ist ein idyllisches, aber auch geheimnisvolles Gewässer im Hinterland von [[Falkensee]]. Er ist bekannt aus zahlreichen Sagen, darunter die Erzählung von der [[Maid_vom_Greifenweiher]].

@@ -12,7 +12,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 **Titel:** Unteroffizier / [[Sammler]]-Experte
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[03_Gesellschaft#Malthust|Malthust]]
+**Zugehörigkeit:** [[03_Gesellschaft/index#Malthust|Malthust]]
 
 ## Beschreibung
 **Enoha Adorne** ist ein Unteroffizier der Malthust-Söldner, der als Experte für das Aufspüren von Wertgegenständen ("[[Sammler]]") gilt (Bote 179).
@@ -21,7 +21,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 - **Militär:** Spezialist für Logistik und Beutesicherung innerhalb der Malthust-Einheiten.
 
 ## Verlinkte Themen
-- [[03_Gesellschaft#Malthust]]
+- [[03_Gesellschaft/index#Malthust]]
 - [[Personenregister]]
 
 ## Referenzen

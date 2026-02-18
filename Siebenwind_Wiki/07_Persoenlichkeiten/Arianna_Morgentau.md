@@ -12,7 +12,7 @@ report_id: 890b0622-d0c2-4d8e-8518-41047c90817d
 
 **Titel:** Erzgeweihte
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Vitamae]] / [[01_Vitama|Vitama]]
+**Zugehörigkeit:** [[Ordo_Vitamae]] / [[Vitama]]
 
 ## Beschreibung
 **Arianna Morgentau** ist eine hochrangige Geweihte der Göttin [[Vitama]]. Sie ist bekannt für ihre diplomatischen Bemühungen und ihre tiefgehende theologische Kenntnis.
@@ -22,7 +22,7 @@ report_id: 890b0622-d0c2-4d8e-8518-41047c90817d
 - **Insel-Bezug:** Sie besuchte [[Siebenwind]] im Jahr 20 n.H. zu Verhandlungen über die klerale Präsenz des Ordens (Bote 175).
 
 ## Verlinkte Themen
-- [[01_Vitama]]
+- [[Vitama]]
 - [[Personenregister]]
 
 ## Referenzen

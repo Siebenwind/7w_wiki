@@ -12,7 +12,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 **Titel:** Ritter
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[03_Gesellschaft#Löwenorden|Löwenorden]]
+**Zugehörigkeit:** [[03_Gesellschaft/index#Löwenorden|Löwenorden]]
 
 ## Beschreibung
 **Cedric Rotfuchs** ist ein Ritter des Löwenordens, der im Jahr 21 n.H. in den Reihen des Ordens aktiv war (Bote 182).
@@ -21,7 +21,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 - **Rittertum:** Dienst innerhalb des Löwenordens zur Verteidigung galadonischer Werte.
 
 ## Verlinkte Themen
-- [[03_Gesellschaft#Löwenorden]]
+- [[03_Gesellschaft/index#Löwenorden]]
 - [[Personenregister]]
 
 ## Referenzen

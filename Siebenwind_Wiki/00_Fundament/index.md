@@ -9,13 +9,12 @@ Das Archiv der Fundament.
 ## Inhalte
 
 ### Artikel
-*   [[00_Religion_Uebersicht|00 Religion Uebersicht]]
-*   [[01_Vitama|01 Vitama]]
-*   [[03_Gesellschaft|03 Gesellschaft]]
-*   [[12_Magie_Grundlagen|12 Magie Grundlagen]]
-*   [[Adel|Adel]]
-*   [[Adelskalender|Adelskalender]]
-*   [[Akademie_der_Arkanen_Künste|Akademie der Arkanen Kuenste]]
+*   [[01_Pantheon/index|Religion Übersicht]]
+*   [[Vitama]]
+*   [[03_Gesellschaft/index|Gesellschaft & Politik]]
+*   [[Magie_Grundlagen]]
+*   [[Adelskalender]]
+*   [[03_Gesellschaft/Koenigliche_Akademie_der_Arkanen_Kuenste|Koenigliche Akademie der Arkanen Kuenste]]
 *   [[Amulettkriege|Amulettkriege]]
 *   [[Archiv_Register|Archiv Register]]
 *   [[Arkadon|Arkadon]]

@@ -16,8 +16,7 @@ category: [[Geografie]]
 - **[[Falkensee]]**: Die aktuelle Hauptstadt und das politische Zentrum der Kronmark.
 - **[[Brandenstein]]**: Aufstrebende Grenzstadt und Bollwerk.
 - **[[Rohehafen]]**: Die ehemalige Hauptstadt (Ruinen im [[Ödland]]).
-- **[[Brandenstein]]**: Eine aufstrebende Region im Herzogtum.
-- **Grönlanden**: Das fruchtbare Hinterland.
+- **[[Grünland]]**: Das fruchtbare Hinterland.
 
 ## [[Geschichte]]
 Die [[Geschichte]] der Insel ist geprägt von der Ankunft der [[Menschen]] unter König Hilgorad und dem mühsamen Aufbau einer Zivilisation inmitten wilder Gefahren. (Siehe auch [[Geschichte]])

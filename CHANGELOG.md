@@ -1,5 +1,19 @@
 # Changelog
 
+#### [2026-02-18.11] - Oracle Stability & Bridge Rewrite Batch 1
+- **P1**
+- **Hinzugefügt**:
+  - `--fast` Mode in `search.py` für schnellere Suche ohne Re-Ranking.
+  - Automatischer MPS-Fallback bei Permission-Errors (`mpsgraph`) in `search.py` und `build_index.py`.
+- **Geändert**:
+  - **Link-Migration (Batch 1)**: 64 Dateien aktualisiert, um Brückenartikel (Vitama, Adel, Gesellschaft) zu eliminieren.
+  - Obsolete Brückendateien (10 Stk) nach `Siebenwind_Wiki/10_Archiv/Cleanup_2026-02-18/` archiviert.
+  - `MASTER_TASK_LIST.md` und `AGENT_DOSSIER_2026-02-18_BRIDGE_REWRITE_PROGRAM.md` auf den neuesten Stand gebracht.
+- **Validiert**:
+  - `./7w_wiki.py search "Aequitas" --fast` (Latency ~14.5s)
+  - `python3 archive_bridge_files.py` (Archivierung erfolgreich)
+  - `./.agent/skills/oracle/venv/bin/python3 .agent/skills/oracle/build_index.py --cpu` (Index stabil)
+
 #### [2026-02-18.10] - Handover-Checkpoint: offene Tasks als Dispatch-Auftraege gesichert
 
 ### Prioritaet

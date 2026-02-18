@@ -12,7 +12,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 **Titel:** Geweihte ([[Vitama]]) / Calatora
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Vitamae]] / [[01_Vitama|Vitama]]
+**Zugehörigkeit:** [[Ordo_Vitamae]] / [[Vitama]]
 
 ## Beschreibung
 **Galdiell Sietarr** ist eine Geweihte der Göttin [[Vitama]] und trägt den Titel einer Calatora. Sie ist in [[Falkensee]] aktiv (Bote 178).
@@ -21,7 +21,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 - **Klerus:** Ausübung heiliger Riten und Leitung spiritueller Belange in [[Falkensee]].
 
 ## Verlinkte Themen
-- [[01_Vitama]]
+- [[Vitama]]
 - [[Falkensee]]
 - [[Personenregister]]
 

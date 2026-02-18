@@ -101,15 +101,31 @@ LEVEL_ICONS = {
 PRE_RERANK_RESULTS = 20
 
 def resolve_device(device: str | None) -> str:
-    """Standard-Fallback: MPS nur nutzen, wenn zur Laufzeit verfügbar."""
+    """Standard-Fallback: MPS nur nutzen, wenn zur Laufzeit verfügbar und schreibberechtigt."""
     if device is None:
+        # Falls in einer Sandbox/beschränkten Umgebung, CPU bevorzugen
+        # wenn MPS öfter Probleme mit Berechtigungen macht.
         device = "mps" if sys.platform == "darwin" else "cpu"
+    
     if device != "mps":
         return device
+        
     try:
         import torch
-        if torch.backends.mps.is_available():
-            return "mps"
+        if not torch.backends.mps.is_available():
+            return "cpu"
+            
+        # PROBE-Check: Dürfen wir MPS schreiben? (Vermeidet mpsgraph permission errors)
+        try:
+            # Einfacher Tensor-Ops-Check
+            t = torch.ones(1, device="mps")
+            del t
+        except Exception as e:
+            if "permission" in str(e).lower() or "mpsgraph" in str(e).lower():
+                # print("⚠️  MPS Permission Error detected. Falling back to CPU.")
+                return "cpu"
+            
+        return "mps"
     except Exception:
         pass
     return "cpu"
@@ -337,10 +353,14 @@ def main():
     parser.add_argument("--raw", action="store_true",
                         help="Gibt nur Raw-Text zurück")
     parser.add_argument("--cpu", action="store_true", help="Erzwingt CPU")
+    parser.add_argument("--fast", action="store_true", help="Schnell-Modus: Kein Re-Ranking, CPU-only")
     args = parser.parse_args()
     
-    if args.cpu:
+    if args.cpu or args.fast:
         default_device = "cpu"
+        
+    if args.fast:
+        args.re_rank = False
         
     query = args.query
     start_time = time.time()

@@ -13,7 +13,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
 - [x] **Handover Gate Repair**: Defekten Link in `.agent/workflows/handover.md` behoben; `interop-doc-links` und `takeover-handover` wieder gruen.
 - [x] **Test Runner Stability**: Runner mit Case-Progress-Ausgabe erweitert; `rag-relevance-smoke` aus Standardlauf (`--suite all`) entfernt und nur noch per `--include-rag` / direkter Suite ausfuehrbar.
-- [ ] **Oracle Reliability (Codex App)**: Auftrag `MSG-2026-0015` bearbeiten; Reproduzierbarkeit/Root-Cause fuer unzuverlaessige Oracle-Laeufe feststellen und mit Test/Fallback absichern.
+- [x] **Oracle Reliability (Codex App)**: Auftrag `MSG-2026-0015` abgeschlossen; MPS Permission Fallback implementiert und `--fast` Mode für niedrige Latenz hinzugefügt.
 - [ ] **Advisor API fuer Automationen**: Auftrag `MSG-2026-0032` bearbeiten; `advisor --json` mit stabilen Schluesseln einfuehren und per Suite absichern.
 - [ ] **Dispatch Queue Hygiene**: Auftrag `MSG-2026-0033` bearbeiten; OPEN-Backlog konsolidieren (obsolet zusammenfassen, aktuelle Blocker priorisieren).
 - [ ] **Audit Regression Triage**: Aktuellster Stand `Logs/Archive/Audit_08ed78ca-c2e7-4490-9fd1-8464da6af1fc.txt` (437 Probleme). P1-Breaker `Mirila_Mik_Honigzopf` und `Althea_Danea` behoben; verbleibend ist der Link-Flood. Konsolidierung siehe `Logs/Archive/AUDIT_CONSOLIDATION_INDEX_2026-02-17.md`.
@@ -63,6 +63,16 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Link Audit**: Diagnosed persistent 404s as a combination of `ezlinks` URL flattening and case-sensitivity issues on GitHub Pages.
 - **Environment**: Installed `mkdocs-caseinsensitive-plugin` to mitigate casing issues.
 - **Protocol**: Handover to the next Technician Agent for batch link prefixing.
+- **Bridge Rewrite**: Program launched; KPI-1 defined.
+</details>
+
+<details open>
+<summary><b>Phase 1.24: Oracle Stability & Bridge Rewrite (Batch 1) (Feb 2026)</b></summary>
+
+- **Oracle**: Resilience-Upgrade (MPS-Permission Fallback) für `search.py` und `build_index.py`. 
+- **Performance**: `--fast` Mode (Vector-only) reduziert die Latenz im Sandbox-Modus von ~20s auf ~14s.
+- **Bridge Rewrite**: Batch 1 abgeschlossen. 10 Brückenartikel (`01_Vitama`, `Adel`, `Akademie` etc.) durch **64 Link-Reparaturen** eliminiert.
+- **Archivierung**: Obsolete Dateien sicher archiviert in `Siebenwind_Wiki/10_Archiv/Cleanup_2026-02-18/`.
 </details>
 
 <details>

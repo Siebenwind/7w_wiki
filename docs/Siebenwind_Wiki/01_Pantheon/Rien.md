@@ -33,6 +33,6 @@ Der Pfad der Erde ist langsam, aber mächtig. Seine Anhänger können Mauern aus
 - **[[Xan]] (Wasser):** Wasser wäscht Stein aus, kann aber auch Leben spenden.
 
 ## Verwandte Themen
-- [[00_Religion_Uebersicht]]
-- [[12_Magie_Grundlagen]]
+- [[01_Pantheon/index|Religion Übersicht]]
+- [[Magie_Grundlagen]]
 - [[20_Rassen_Zwerge]] - Ihre Kinder.

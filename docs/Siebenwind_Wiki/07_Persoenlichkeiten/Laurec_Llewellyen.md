@@ -8,7 +8,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 **Titel:** Sire / Wohlgeboren
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Adel]] / [[Llewellyen]]
+**Zugehörigkeit:** [[Adelskalender]] / [[Llewellyen]]
 
 ## Beschreibung
 **Sire Laurec [[Llewellyen]]** ist ein Ritter des Falken und Mitglied der [[Ritterschaft_zu_Siebenwind]]. Er hält das Lehen [[Greifenwald]] als Vasall des Grafen [[Koorun_McKevin]].
@@ -18,4 +18,4 @@ category: [[Persoenlichkeiten_Uebersicht]]
 - **16 n.H. (Bote 140):** Offizielle Nennung als einer der Lehensvasallen und Ritter der heiligen Tafelrunde auf [[Siebenwind]].
 
 ---
-**Siehe auch:** [[Adel]], [[Inquisition]]
+**Siehe auch:** [[Adelskalender]], [[Inquisition]]

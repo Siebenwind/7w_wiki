@@ -12,7 +12,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 **Titel:** Ritter
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[03_Gesellschaft#Löwenorden|Löwenorden]]
+**Zugehörigkeit:** [[03_Gesellschaft/index#Löwenorden|Löwenorden]]
 
 ## Beschreibung
 **Erik Pedran** ist ein Ritter des Löwenordens, der im Jahr 21 n.H. aktiv in die Verteidigung galadonischer Interessen eingebunden war (Bote 182).
@@ -21,7 +21,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 - **Rittertum:** Dienst im Löwenorden unter dem Kommando von [[Hagen_Robaar]] (ehem.).
 
 ## Verlinkte Themen
-- [[03_Gesellschaft#Löwenorden]]
+- [[03_Gesellschaft/index#Löwenorden]]
 - [[Personenregister]]
 
 ## Referenzen

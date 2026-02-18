@@ -12,7 +12,7 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 **Titel:** Unteroffizierin (†)
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[03_Gesellschaft#Malthust|Malthust]]
+**Zugehörigkeit:** [[03_Gesellschaft/index#Malthust|Malthust]]
 
 ## Beschreibung
 **Leandra** war eine Unteroffizierin der Malthust-Söldner, die im Jahr 21 n.H. ums Leben kam (Bote 179).
@@ -21,7 +21,7 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 - **Tod:** Sie fiel im Zuge der militärischen Auseinandersetzungen um [[Brandenstein]] und [[Falkensee]].
 
 ## Verlinkte Themen
-- [[03_Gesellschaft#Malthust]]
+- [[03_Gesellschaft/index#Malthust]]
 - [[Personenregister]]
 
 ## Referenzen

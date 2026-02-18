@@ -16,4 +16,4 @@ Wird er nicht gefasst, wird ein Kopfgeld von **25.000 Dukaten** auf seinen Kopf 
 Die Jagd wurde im Namen von König [[Hilgorad_I_ap_Mer]] und dem [[Baron_von_Gerdenwald]] ausgerufen.
 
 ---
-**Siehe auch:** [[Recht]], [[Adel]]
+**Siehe auch:** [[Recht]], [[Adelskalender]]

@@ -14,6 +14,7 @@ Dieses Board dient der Koordinierung von Forschungsaufträgen. Hier werden "wei�
 | [[RESEARCH-2026-011]] | Waldelfen-Exodus & Myten-Verbleib | ⚪ Niedrig | DEFERRED | Völkerkunde |
 | [[RESEARCH-2026-008]] | Die Dur-Identität (Toran Dur) | 🔴 Hoch | DONE | Biografie/Magie |
 | [[RESEARCH-2026-009]] | Gilden-Struktur & Handwerk | 🟡 Mittel | DONE | Gesellschaft |
+| [[RESEARCH-2026-012]] | Das Grünland (Geografie & Siedlung) | 🔴 Hoch | TENDERED | Geografie |
 
 ## 🧬 Archivierte / Abgeschlossene Aufträge
 

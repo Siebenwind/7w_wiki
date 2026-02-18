@@ -13,7 +13,7 @@ Die *Ars Magica Metamorphosia* befasst sich mit der Veränderung und Verwandlung
 ## 1. Klassifizierung der Metamorphose
 
 ### Magica Mutanda (Lebewesen-Verwandlung)
-Die Verwandlung von Objekten, die vom Atem [[02_Vitama|Vitamas]] (Leben) erfüllt sind.
+Die Verwandlung von Objekten, die vom Atem [[Vitama|Vitamas]] (Leben) erfüllt sind.
 - **Radinai inje (Selbstverwandlung):** Der Magier verändert seine eigene Matrix. Erfordert tiefste Selbstanalyse und Kenntnis der Zielkreatur.
 - **Radinai ir Manai (Fremdverwandlung):** Verwandlung anderer Lebewesen. Erfordert Schutzkreise, um unkontrollierte Mutationen zu verhindern.
 - **Radinai dru ir Wrai (Partielle Verwandlung):** Veränderung einzelner Körperteile (z.B. [[Visor_Noctis|Katzenaugen]]). Dies ist die Grundlage der Chimärologie.

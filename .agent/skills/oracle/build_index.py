@@ -67,15 +67,22 @@ if is_offline_runtime():
     os.environ["TRANSFORMERS_OFFLINE"] = "1"
 
 def resolve_device(device: str | None) -> str:
-    """Standard-Fallback: MPS nur nutzen, wenn zur Laufzeit verfügbar."""
+    """Standard-Fallback: MPS nur nutzen, wenn zur Laufzeit verfügbar und schreibberechtigt."""
     if device is None:
         device = "mps" if sys.platform == "darwin" else "cpu"
     if device != "mps":
         return device
     try:
         import torch
-        if torch.backends.mps.is_available():
-            return "mps"
+        if not torch.backends.mps.is_available():
+            return "cpu"
+        # PROBE-Check: Dürfen wir MPS schreiben? (Vermeidet mpsgraph permission errors)
+        try:
+            t = torch.ones(1, device="mps")
+            del t
+        except Exception:
+            return "cpu"
+        return "mps"
     except Exception:
         pass
     return "cpu"

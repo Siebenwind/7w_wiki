@@ -16,7 +16,7 @@ Das **De Iuribus [[Siebenwind]]** ist das grundlegende Gesetzeswerk des Lehens [
 
 Die Verfassung regelt die Standeshierarchie und die Souveränität der Krone.
 *   **Oberhoheit:** Hilgorad I. ap Mea ist uneingeschränkter Herrscher.
-*   **Ständewesen:** Unterteilung in [[Adel]], [[Bürger]], [[Freie]] und [[Hörige]].
+*   **Ständewesen:** Unterteilung in [[Adelskalender]], [[Bürger]], [[Freie]] und [[Hörige]].
 *   **[[Ritter_der_Sieben_Winde]]:** Sie fungieren als Verwalter und Hüter der Ordnung.
 *   **Heilige Kirche:** Die Rechte der [[Viere|Kirche der Viere]] werden geschützt; die Inquisition kann in Einvernehmen mit der Krone eingerichtet werden.
 

@@ -8,7 +8,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 **Titel:** Freiherr / Feldhauptmann des [[Lehensbanner]]
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Lehensbanner]] / [[Adel]]
+**Zugehörigkeit:** [[Lehensbanner]] / [[Adelskalender]]
 
 ## Beschreibung
 **Kaspar Brandner** stammt aus der Provinz [[Ersont]] im Norden [[Galadons]].

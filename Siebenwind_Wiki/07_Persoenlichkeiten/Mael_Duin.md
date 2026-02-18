@@ -8,7 +8,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 **Titel:** Marschall / Lehensherr zu [[Tannenstein]]
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Adel]] / [[Haus_Gerdenwald]]
+**Zugehörigkeit:** [[Adelskalender]] / [[Haus_Gerdenwald]]
 
 ## Beschreibung
 **Mael Duin** war im Jahr 15 n.H. (Bote 122) Marschall und Lehensherr zu Tannenstein sowie Protektor des Hauses von Gerdenwald.

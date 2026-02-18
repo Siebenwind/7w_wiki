@@ -70,5 +70,12 @@ Dies ist das zentrale Board für offene Forschungsfragen, Lore-Inkonsistenzen un
 - **Ergebnis:** Magie wird über ein internes Organ verarbeitet, das aus Empfänger, Interpreter und Konstruktor besteht.
 - **Zuständig:** Lore-Gelehrter
 
+### [RESEARCH-2026-012] Das Grünland: Geografie & Siedlungsgeschichte
+- **Status:** 🔴 Offen
+- **Quelle:** [[Siebenwind]] Geografie-Audit, [[Siebenwind_Bote_160]], [[Siebenwind_Bote_168]]
+- **Problem:** Die Region wird oft fälschlich als "Grönlanden" (archaisch/Umlautfehler) bezeichnet. Zudem herrscht hoher Siedlungsdruck durch Orken aus der Wildnis.
+- **Ziel:** Umfassende Kartierung der Region Grünland, Untersuchung historischer Siedlungsreste und Verifizierung der Grenzverläufe zu [[Brandenstein]].
+- **Zuständig:** Geograf / Lore-Gelehrter
+
 ---
-*Zuletzt aktualisiert: 17. Februar 2026*
+*Zuletzt aktualisiert: 18. Februar 2026*

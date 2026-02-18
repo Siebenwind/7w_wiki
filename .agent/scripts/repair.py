@@ -55,6 +55,9 @@ LORE_REDIRECTS = {
     "iria": "Personenregister",
     "jolanda_herdfeuer": "Personenregister",
     "ooc_timeline_(shard-historie)": "Die_Chronik",
+    "groenlanden": "Grünland",
+    "grönlanden": "Grünland",
+    "gönelande": "Grünland",
 }
 
 def derive_category(path: Path) -> str:

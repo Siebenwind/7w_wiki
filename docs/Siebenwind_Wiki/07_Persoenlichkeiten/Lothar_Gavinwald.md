@@ -9,7 +9,7 @@ status: "#überlieferung"
 # Lothar Gavinwald
 
 ## Beschreibung
-Waffenmeister und Gründungsmitglied des [[03_Gesellschaft#Löwenorden|Löwenordens]] (17 n.H.).
+Waffenmeister und Gründungsmitglied des [[03_Gesellschaft/index#Löwenorden|Löwenordens]] (17 n.H.).
 
 ## Referenzen
 - [[Orden_der_Wachenden_Löwen]]

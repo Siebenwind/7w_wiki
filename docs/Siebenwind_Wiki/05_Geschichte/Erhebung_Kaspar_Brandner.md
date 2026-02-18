@@ -16,4 +16,4 @@ Er erhielt neben dem Adelstitel ein graviertes Schwert mit der Inschrift "Befrei
 Zeugen: Sir [[Agranor_von_Eahlstan]], Sir [[Siegfried_von_Steiner]], Sir [[Athos]], Sir [[Randur_Kantrin]].
 
 ---
-**Siehe auch:** [[Militär]], [[Adel]]
+**Siehe auch:** [[Militär]], [[Adelskalender]]

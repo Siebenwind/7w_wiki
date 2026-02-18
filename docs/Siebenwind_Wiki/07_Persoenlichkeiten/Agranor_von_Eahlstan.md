@@ -8,11 +8,11 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 **Titel:** Sir / Hochmeister der Ritterschaft
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritterschaft]] / [[Adel]]
+**Zugehörigkeit:** [[Ritterschaft]] / [[Adelskalender]]
 
 ## Beschreibung
 **Sir Agranor von Eahlstan** war im Jahr 15 n.H. (Bote 124) Hochmeister der Ritterschaft.
 Er nahm als Zeuge an der Erhebung von [[Kaspar_Brandner]] zum Freiherrn teil.
 
 ---
-**Siehe auch:** [[Ritterschaft]], [[Adel]]
+**Siehe auch:** [[Ritterschaft]], [[Adelskalender]]

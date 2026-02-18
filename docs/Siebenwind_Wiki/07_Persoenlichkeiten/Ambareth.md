@@ -12,7 +12,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 **Titel:** Gnaden (Malthust?)
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[03_Gesellschaft#Malthust|Malthust]]
+**Zugehörigkeit:** [[03_Gesellschaft/index#Malthust|Malthust]]
 
 ## Beschreibung
 **Ambareth** wird mit dem Ehrentitel "Gnaden" in Verbindung mit den Malthust-Söldnern im Jahr 21 n.H. genannt (Bote 179).
@@ -21,7 +21,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 - **Rolle:** Möglicherweise eine religiöse oder hochrangige Führungspersönlichkeit innerhalb der Malthust-Struktur.
 
 ## Verlinkte Themen
-- [[03_Gesellschaft#Malthust]]
+- [[03_Gesellschaft/index#Malthust]]
 - [[Personenregister]]
 
 ## Referenzen

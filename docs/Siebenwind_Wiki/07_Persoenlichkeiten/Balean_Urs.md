@@ -12,7 +12,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 **Titel:** Leutnant
 **Epistemischer Status:** #bote
-**Zugehörigkeit:** [[03_Gesellschaft#Siebenwind_Kronregiment|Kronregiment]]
+**Zugehörigkeit:** [[03_Gesellschaft/index#Siebenwind_Kronregiment|Kronregiment]]
 
 ## Beschreibung
 **Balean [[Urs]]** ist ein Leutnant des [[Siebenwind]] Kronregiments, der im Jahr 19 n.H. in Militärberichten genannt wird (Bote 169).
@@ -21,7 +21,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 - **Militär:** Führungsoffizier in den regulären Streitkräften.
 
 ## Verlinkte Themen
-- [[03_Gesellschaft#Siebenwind_Kronregiment]]
+- [[03_Gesellschaft/index#Siebenwind_Kronregiment]]
 - [[Personenregister]]
 
 ## Referenzen
