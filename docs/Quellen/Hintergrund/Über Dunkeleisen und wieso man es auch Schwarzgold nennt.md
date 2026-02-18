@@ -1,0 +1,19 @@
+---
+layout: wiki_page
+title: Über Dunkeleisen und wieso man es auch Schwarzgold nennt
+category: Sonstiges
+---
+
+# Über Dunkeleisen und wieso man es auch Schwarzgold nennt
+
+**Epistemischer Status:** #perspektive
+
+Schwarzgold, so nennt man sie auch seit kürzer Zeit, weil sie Händler die damit einen Tausch vollziehen, um in kürzerer Zeit riesige Mengen an Dukaten anhäufen. Es sind die eisernen Barren mit der dunklen fast gänzlich schwarzen Färbung die sie so reich machen. Eisen gibt es ja fast überall in den Minen des Festlandes. Aber Dunkeleisen, dass ist etwas besonderes. Niemand weiß so wirklich warum dieses Metall nun eigentlich so schwarz ist.
+
+Im Phoenix Gebirge gibt es einige Stollen in denen es gefördert wird. Auffindbar ist es wohl seit vor 50 Götterläufen ein großer Lavastrom einige Handwerksdörfer am Fuße unter sich begrub. Es war eine große Tragödie. Noch heute wird um dieses Klagelied gemunkelt dass eine gehörnte Kreatur 5 Tage zuvor auf einem der Gipfel gesehen wurde. Danach wurde das Wetter schlechter, bis Flammen aus den Stollen stießen. Unzählige Stollenarbeiter wurden bei lebendigem Leibe verbrannt, einzelne konnten noch brennend aus dem Stollen fliehen, erlagen aber später den Verletzungen des Feuers. Dann nach dem Megrath der Fantastische (so nannten die Bewohner der umliegenden Dörfer den Magier) versuchte die Sache aufzuklären, stieg eben die besagte Lava aus den Stolen empor. Wie Adern aus denen Tare blutete, hörte der Strom der Lava erst auf als die Dörfer begraben waren und tausende ihr Leben bei diesem Unglück verloren.
+
+Es dauerte eine ganze Weile, aber nach einem viertel Jahrhundert wuchsen dort auch wieder Bäume und Gras. Und erste neue Dörfer entstanden. Einige der überlebenden Söhne die noch das Schürferhandwerk von ihren Vätern gelernt haben, legten neue Stollen an. Sie gruben tief, doch statt Edelsteinen oder Gold fanden sie Eisen. Schwarzes Eisen, so dunkel dass man es leicht übersah im dunklen Gestein in das sie hineingruben. Viele Gelehrten sahen sich das Metall an, es war Gold nicht unähnlich, verband es sich doch nur schwer mit anderen Dingen und beständiger war es als Eisen, so rostete es weniger. Auch die Kirche und die hiesigen Magier begutachteten das Metall und die Erze, aber sie fanden nichts merkwürdiges. Dennoch wurde es in manchen Gegenden verboten Dunkeleisen oder Waren aus Dunkeleisen zu besitzen. Der Kirche war es suspekt, dass dieses Metall öfter dort vorkam wo zuvor größere Katastrophen ihren Lauf genommen hatten.
+
+So kam es bald, dass die ersten Schmiede das schwarze Eisen verarbeiteten. Sie nannten es Dunkeleisen. Rüstungen ließen sich daraus wegen seiner guten Materialeigenschaften hervorragend fertigen. Sie waren hart und beständig. Schnell machten diese Rüstungen ihren Ruf für das Handwerk in der Region alle Ehre und der Handel begann zu florieren. Händler transportierten unzählige der Barren und Rüstungen nach überall in das Land. Mit den Götterläufen jedoch, offenbarte sich etwas, dass meistens zutrifft. Dinge die als zu Gut erscheinen, haben oft ihre Schattenseiten. Nach mehr als 2 Dekaden Götterläufen wurden viele der Schürfer, Stollenarbeiter und Schmiede krank. Ihr Körper schien einem zunehmendem Verfall zu erliegen. Die Gelehrten sagen, es liegt am Staub des Dunkeleisens, jeder der viel damit arbeitet, müsse diesen einatmen und er sei nicht gut für den Körper. Sogar einige Zwerge die sich dort niederließen zeigten erste Erscheinungen körperlichen Verfalls.
+
+Heute gibt es nicht mehr viele Zünfte die mit Dunkeleisen handeln. Zu viele wurden krank und aus der hoch nachgefragten Ware wurde ein begehrte Gut, dass es nur noch zu hohen Preisen gab. So verdiente sich das Dunkeleisen seinen Beinamen Schwarzgold. Schwarz aus der offensichtlichen Farbe und Gold wegen seiner Beständigkeit und auch weil der Handel damit ein lukratives Geschäft ist.

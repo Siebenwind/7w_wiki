@@ -1,0 +1,595 @@
+|  |  |   
+---  
+**Ausgabe 184** -**Königstag, 25. Sekar 21 nach Hilgorad**  
+  
+
+25\. Sekar - Das Jahr neigt sich dem Ende  
+---  
+Wieder nähert sich das Ende eines Jahres, das der Insel erfreuliche
+Ereignisse ebenso beschert hat wie besorgniserregende Entwicklungen. Zu nennen
+seien hier Feste wie der Maskenball in Brandenstein zu Beginn des Jahres wie
+auch die regelmäßigen Theaterabende in Falkensee, Das Lachsschwemmenfest in
+Vänskap, Tuniere in Seeberg und Festmärkte auf der ganzen Insel. Auch im Kampf
+gegen die Schergen des Einen gab es Erfolge, wie den Sieg über den sogenannten
+Hutmacher, einen gefährlichen Dämon, der für viel Leid auf Siebenwind
+verantwortlich war. Zudem konnten alle Angriffe, die im Laufe des Jahres gegen
+das Grünland geführt wurden, sei es durch Spinnenkreaturen, Goblins oder
+Sammler, erfolgreich zurück geschlagen werden.  
+  
+Doch stand das Jahr auch im Schatten von teilweise erbittert geführten
+Machtkämpfen und Intrigen zwischen den Machtgruppen des Grünlandes. Dabei war
+es weniger das Volk der Orken, das sich doch sonst so oft für Kämpfe und
+sinnloses Blutvergießen verantwortlich zeigt, sondern zumeist Konflikte
+innerhalb der menschlichen Gruppen. Der Putsch der Ersonter Garde, bei dem
+Garde und Rat gleichermaßen erbittert und ohne Rücksicht auf den dadurch
+verursachten Schaden auf ihrer Ansicht bestanden, dürfte den Lesern noch am
+besten in Erinnerung sein. Dies führte zu einem fast völligen Zusammenbrechen
+von Sitten und Anstand, als die von der Garde aufgestachelten Verbrecher aus
+dem Südviertel zusammen mit blutrünstigen Orken über die Stadt herfiel und
+Kämpfer und Unschuldige gleichermaßen niedermachten, vor dem Angriff auf
+unbewehrte Vertreter der Krone nicht zurückschreckten und sogar den heiligen
+Grund des Tempels missachteten und wie die Tiere selbst über Vitamageweihte
+herfielen. Das die Malthuster Armee diese Lage nach Kräften ausnutzte, um
+seine Position gegenüber den ewigen Rivalen unter der Herrschaft des Ersonter
+Bundes zu verbessern, führte nicht unbedingt zu einer Entspannung der Lage.
+Aber auch der Umzug der königlichen Magieakademie nach Seeberg, der kurz
+darauf die Neugründung der sogenannten „Ersonter Reichsuniversität“ in den
+alten Räumlichkeiten in Falkensee folgte, ist Zeuge dieser inneren Zwiste. Die
+immer wieder kehrenden Streitigkeiten zwischen den einzelnen Lehen mit den
+üblichen Boykotten, Drohungen und Beleidigungen sind inzwischen schon so zur
+Normalität geworden, dass man sie kaum noch zur Kenntnis nimmt.  
+  
+So erschütternd diese Entwicklung sein mag und so wenig Verständnis gerade die
+Mehrheit einfachen Inselbewohner dafür hegen mögen, dass immer wieder
+Konflikte oder gar blutige Kämpfe angeblich zu ihrem Wohl, letztlich aber oft
+nur um die Macht gefochten werden, bleiben doch ein paar Lichtblicke. Bei
+vielen Bedrohungen von Außen gelang es den streitenden Gruppen, ihre Zwiste
+zumindest vorübergehend ruhen zu lassen, sich gemeinsam der Gefahr zu stellen
+und diese zu überwinden. Und auch die heilige Kirche der Viere scheint
+zunehmend wieder ihre Rolle der überparteiischen Stimme der Vernunft
+einzunehmen, nachdem zuvor einzelne Geweihte darum bestrebt waren, sich im
+ewigen Spiel von Intrigen und Verrat der Mächtigen in führender Rolle zu
+beteiligen. Dies alles stärkt die Hoffnung, dass sich die streitenden Lehen
+auch in diesem Dunkeltief ungeachtet aller Konflikte wieder Seite an Seite
+gegen die Dunkelheit stellen werden, und vielleicht sogar darauf, dass
+irgendwann die Mächtigen einsehen, dass das Volk, das zu Führen und Schützen
+ihnen anvertraut wurde, keine Prestigesiege oder gestillte Eitelkeiten braucht
+, sondern Ruhe und Sicherheit für ihr Leben. Feinde, gegen die man im Kampf
+Ruhm und Ehre erlangen kann, gibt es auch dann noch genug.  
+  
+_ARdM_  
+  
+  
+25\. Sekar - Der Putsch im Ersonter Lehen  
+---  
+Wie man der Sonderausgabe des letzten Botens entnehmen konnte, kam es zu einem
+Putsch innerhalb des Lehens Ersont auf Siebenwind. Hintergrund war, dass die
+Garde, unter der Führung von Hauptmann Steinhauer, den Ersonter Rat aufgrund
+von Hochverrat verhaften wollte. Jedoch konnte zu dem Zeitpunkt einzig die
+Rätin Ekula gefangen werden. Die Garde zog sich danach hinter einer Barrikade
+und dem verschlossenen Tor ins Schloss zurück und es folgten ein paar Tage des
+gespannten Ausharrens, derweil mehr und mehr Gruppierungen in Falkensee
+eintrafen, um, was meistens der Fall war, auf neutraler Basis als Vermittler
+zu dienen oder unter Umständen die Garde oder den Rat zu unterstützen.  
+Am Mondtag, den 1. Seker, kam diese Anspannung unzweifelhaft zu ihrem
+Höhepunkt und entlud sich deutlich - es gab einen Aufruf an die Anführer der
+unterschiedlichen Gruppierungen, sich mit dem alten Rat Ersonts im Theater zu
+Falkensee zu treffen und zu beratschlagen. Doch ehe es zu ersten Gesprächen
+kommen konnte, hörte man bereits von draußen Lärm und vor allem Detonationen.
+Sprengtränke wurden offensichtlich geworfen und Magie war sogleich mit im
+Spiel, als die ersten Kämpfe begannen. Nun war es offenbar die Garde,
+unterstützt vom Viertel und den Orken, welche sich entschloss, den Konflikt
+auf blutige Art weiter auszutragen. Egal, ob Ritter und ihre Garde, Malthuster
+Armee, Löwenorden oder einfaches Volk - Blut tränkte schon bald das Pflaster
+Falkensees. Zahlreiche Personen wurden schwer verletzt, viele schwebten danach
+sogar in Lebensgefahr. Erschütternd war unzweifelhaft die Tatsache, dass man
+seitens der Gardetruppen sogar bereitwillig den Tempel angriff, um Gnaden
+Custodias habhaft zu werden. Auch berichtete der einstige Konsul Toron davon,
+wie Lady Lasar am Tempel von Viertlern niedergeschossen wurde, wobei es auf
+ihn wie eine Hinrichung gewirkt hatte. Erschreckend die Tatsache, dass selbst
+der Hauptmann Steinhauer bei diesem gewaltsamen Angriff auf einen Vertreter
+der Krone anwesend war. Während dieser Schlacht wurden auch weitere Personen
+von der Garde gefangen genommen - die Rätin und Freifrau Solice Aurora sowie
+der graue Erzmagus Toran Dur.  
+Die Tage danach waren besonders schwer für das einstmals stolze Falkensee. Die
+Spuren der Kämpfe sah man noch länger in den Gassen der Stadt und es begann
+sich Unrat auf den Straßen zu sammeln, Ratten krochen dazwischen umher, manche
+von ihnen krank aussehend. Doch vor allem die Präsenz von Viertler und Orken
+ließ viele Bürger unsicher werden. Nicht wenige kehrten in dieser Zeit
+Falkensee den Rücken zu und flohen nach Seeberg und vor allem nach
+Brandenstein, das den Bürgern Ersonts in dieser unsicheren Zeit Asyl anbot.
+Nur wenige vermochten es noch in Falkensee auszuharren, darunter der
+Astraelsnovize Ionas, welcher beobachtet wurde, wie er tapfer gegen den Müll
+ankämpfte. Auch das Hospital Falkensees machte sich bereit, denn die Gefahr
+von Krankheiten stieg an, doch konnte dank deren Handeln eine Seuche offenbar
+verhindert werden.  
+In dieser Zeit wandte sich der ehemalige Konsul Toron, welcher selbst einer
+Geiselnahme durch die Viertler gerade so entging und in Brandenstein Schutz
+suchen konnte, an Hauptmann Steinhauer. Unzweifelhaft hatte der Hauptmann das
+Ersonter Lehen nicht mehr im Griff und war überfordert. Doch plante er
+bereits, einen neuen Rat zu gründen, um wieder für Ordnung zu sorgen. Herr
+Toron sagte ihm, dass es einen Rat gäbe, doch betrachtete der ehemalige
+Hauptmann die Angehörigen des Ersonter Rates allesamt als Hochverräter.
+Insbesondere Gnaden Custodias stand stark in der Kritik. Herr Toron war
+bereit, im neuen Rat, den Hauptmann Steinhauer aufzubauen gedenkte,
+einzutreten. Als weitere Angehörige des Rates wurde die Hochelfe Serafina
+Ignitia genannt, welche durch die Gräfin selbst einst eingesetzt worden war.
+Der Hauptmann hätte dabei lediglich nur noch eine Stimme im Rat gehabt und
+damit einen Teil seiner Macht aufgegeben. Herr Steinhauer setzte ein Papier
+auf, welches jedoch erst jenes Pamphlet war, mittels dem die Garde hätte tun
+dürfen, was sie möchte, doch lenkte der einstige Hauptmann selber ein und nahm
+eine Formulierung auf, die Herr Toron vorschlug und sogar mit dem bis dato
+alten Rat eine Einigung erzielt hätte, berichtete Herr Toron gegenüber dem
+Boten.  
+Die einzige Bedingung Steinhauers war die, dass Gnaden Custodias keinen Sitz
+mehr im Rat hätte. Es kam zu einem ersten Treffen, bei dem auch der Bann über
+dem Löwenorden und ähnliches aufgehoben wurde. Laut Herrn Toron war alles
+bereit gewesen, um Verhandlungen mit den Rittern und dem alten Rat
+aufzunehmen. Herrn Steinhauer gegenüber erwähnte er, dass dieser Fehler
+begangen hätte, die vor einem Gericht behandelt werden müsste, was Herr
+Steinhauer zu dem Zeitpunkt noch einwilligte.  
+Einige Tage zuvor wiederum kam es zu einer Befreiung der Rätin Aurora und des
+Erzmagiers Dur durch die Malthuster Armee, welche den beiden zeitweise Obdach
+in der Burg Brandenstein bot und ihre Verletzungen und vor allem ihren Hunger
+und Durst kurierten.  
+Während der erwähnten Sitzung meldete der damalige Rekrut Gin, dass Graf Hagen
+Robaar Herrn Steinhauer sprechen wollte. Herr Steinhauer wurde nun
+hinausgeschickt mit der Bitte, den Grafen zu der Sitzung dazuzuladen, doch kam
+er wenig später wieder und behauptete, ein Angriff würde bevorstehen, wobei
+sich der Löwenorden auf dem Marktplatz zusammenrotten würde. Herr Steinhauer
+verließ daraufhin mit Rekrut Gin ohne ein weiteres Wort die Sitzung. Auch die
+übrigen Mitglieder brachen bald auf, um nötigenfalls diplomatisch einzulenken.
+Doch auf dem Marktplatz angekommen, war nichts von einem Angriff zu sehen,
+derweil Herr Steinhauer nicht mehr aufzufinden war. Der Graf wiederum
+entschied sich zum Schloss aufzubrechen, doch das Tor war nun verschlossen,
+dahinter Rekrut Gin, welcher sich erdreistete den Grafen wie einen Putzknecht
+zu behandeln, laut Herrn Toron. Von Herrn Steinhauer hat man seither nichts
+mehr gehört - offensichtlich ist jener geflohen.  
+An diesem Abend sprach Herr Toron noch mit Herrn Dur und Gnaden Custodias,
+wobei auch weitere Zeugen zugegen war. Herr Toron benannte im Gespräch
+gegenüber dem Boten Frau Roth, Herrn Niolet und Herrn Rodeberg. Er bat seine
+Gnaden Custodias um des Friedens willen zurück zu treten. Nicht, weil es die
+Rebellen so wollten, sondern zum Wohle des Lehens. Gnaden Custodias beriet
+sich daraufhin allein mit Toran Dur und sagte dann vor allen Anwesenden, dass
+er mit sofortiger Wirkung von seinem Amt als hoher Richter des Lehens und
+damit auch aus dem Ersonter Rat zurücktreten werde.  
+Zwei Tage später, am 10. Seker, fand eine Sitzung statt. Statt Herr Steinhauer
+oder Herr Falkenhain, saß dort als Vertretung für die Garde der einstige
+Rekrut Gin, welcher behauptete kraft eines Schriftstückes von Herrn Steinhauer
+Hauptmann zu sein. Neben Freifrau Aurora, Frau Ekula, Herr Dur und Frau
+Aldorn, wohnte auch Gnaden Custodias der Sitzung bei, verkündete, dass die
+Dinge sich geändert hätten und er dem Rat wieder zur Verfügung stehen würde.
+Bei dieser Sitzung, bei der Herr Toron als Kollaborateur bezeichnet wurde und
+sich laut seinen Worten wenig willkommen fühlte, wurde Gin darüber hinaus als
+Hauptmann bestätigt. Herr Dur wiederum erwähnte gegenüber dem Siebenwind
+Boten, dass der Rat bezüglich des Rücktritts seiner Gnaden Custodias erstmal
+die Meinung des Calators einholen wird.  
+Mittlerweile wurde Freifrau Aurora zudem als Kanzlerin und direkte
+Stellvertreterin Ihrer Durchlaucht im Rat eingesetzt. Als weitere Räte wurden
+Gnaden Custodias, Frau Aldorn, Frau Ekula und Hauptmann Gin genannt.  
+Das Lehen Malthust auf stellte wiederum aufgrund ihres Eingriffs
+und ob der Geschehnisse und der Gründe, die dazu führten, kürzlich Forderungen
+an den Rat Ersonts. Die Forderungen beinhalten unter anderem den Rücktritt
+Gnaden Custodias von allen Ratsämtern, eine Kriegsschuld in Höhe von 10.000
+Dukaten pro Mond und zahlbar über 10 Monde hinweg sowie freies Waffen- und
+Rüstrecht der Malthuster Armee auf Ersonter Hoheitsgebiet. Der Ersonter Bund
+hatte bis zum 28. Seker Zeit, auf diese Forderungen einzugehen. Hätte er diese
+verneint oder das Ultimatum überschritten, hätte das Malthuster Oberkommando
+dem Ersonter Lehen auf den Krieg erklärt. Zuletzt erfuhr der
+Bote, dass die Ritterschaft vermittelnd einzulenken gedenkt.  
+Herr Toron wiederum zog sich gänzlich nach Brandenstein zurück, wodurch
+Falkensee nicht nur einen tatkräftigen Kaufherrn und Finanzier der Taverne
+"Ersonter Kessel" verlor, sondern auch einen fleißigen Konsul. Der Siebenwind
+Bote dankt ihm sowie Leutnant Tuljow für den umfassenden Bericht, wie auch all
+den anderen Personen, welche Auskunft geben konnten und dies bereitwillig
+taten.  
+  
+_Felis_  
+  
+  
+25\. Sekar - Neuigkeiten vom Festland  
+---  
+\- Hetman Wulfhold besucht Draconis -  
+Aus Draconis stammt die erfreuliche Nachricht, dass der Hetman der Nortraven
+Wulfhold die Stadt zusammen mit einer Schar hünenhafter Krieger besuchte.
+Nachdem der Krieg in Khalandra gewonnen ist und die Lage im Norland allmählich
+sicherer wird, bekräftigten nun der Hetman und seine Majestät Hilgorad I. ap
+Mer die Freundschaft zwischen den beiden Völkern. Ein rauschendes Fest wurde
+zu diesem Anlass gefeiert.  
+  
+\- Pakt der Viereinigkeit und das Volk der Dwarschim schließen Bündnis -  
+Der König der Dwarschim, Krellgrimm Glutschreiter, hat mit dem Pakt der
+Viereinigkeit, auf meist kurz als Malthust bezeichnet, ein Bündnis
+geschlossen, wodurch der Pakt zum bevorzugtem Handelspartner der Dwarschim
+wurde. Im Gegenzug wurde den Dwarschim deutlich reduzierte Zölle und Preise
+auf dem Gebiet des Paktes gewährt. Je nach Quelle der Information, wurde auch
+erwähnt, dass der Pakt mit Hilfe der Dwarschimalchemisten angeblich ein
+Heilmittel gegen den atmenden Tod zu finden versucht, andere künden wiederum
+von einem scheinbar deutlichen Aufrüsten der Armee durch exzellente
+Dwarschimschmiedearbeiten.  
+  
+\- Der Konflikt zwischen Ossian und Wallenburg -  
+Eine wohl alte Schuld war es, die einen blutigen Konflikt zwischen dem
+Fürstentum Ossian, Mitglied im Pakt der Viereinigkeit, und der Baronie
+Wallenburg, dem Ersonter Bund zugehörig, heraufbeschwören ließ. So heißt es,
+dass Ossian einst drei Wagenladungen reines Gold aus Wallenburg erwartete, um
+deren Schiffe wiederum vor Piraten zu schützen. Zwar kam es wohl zum Schutz,
+doch kam angeblich nie das Gold an. Zwischen den beiden Lehen gab es darüber
+hinaus schon immer Streitigkeiten, die jedoch stets schnell beigelegt werden
+konnten und sei es durch ein Machtwort seiner Majestät Hilgorad I. ap Mer.
+Doch die finanziellen Belastungen des Norlandkrieges trafen beide Lehen hart
+und auch der Atmende Tod forderte zahlreiche Opfer im Fürstentum Ossian. So
+trat Fürst Horper von Ossian mit der Erinnerung an die alte Schuld an die
+Baronin Yeroma von Wallenburg heran, die sich jedoch weigerte, darauf
+einzugehen. Daraufhin begann der Konflikt zu eskalieren - die Einfahrt zur
+Bucht Linfahrt wurde für Schiffe aus Wallenburg gesperrt und es kam zu
+Plünderungen der Wallenburger Dörfer entlang der Grenze. Erst ein
+gescheiterter Angriff auf eine Festung brachte die Beutezüge zum Erliegen, als
+der Anführer der Schar, Fürst Langden von Ossian und Neffe des Fürsten Horper,
+in Wallenburger Gefangenschaft geriet und bei einem Befreiungsversuch zu Tode
+kam. Die anderen Lehen des Paktes und des Bundes hielten sich jedoch in diesem
+Konflikt zurück, andernfalls hätte dieser Konflikt zu einem Krieg geführt, der
+die Hälfte des Reiches erfasst hätte. Einige Monde schwelte der Konflikt, bis
+eine Waffenlieferung der Insel vom Ersonter Bund eintraf und zudem
+eine Schar Magier, die der Division Decaras, ein militärischer Bund von
+Graumagiern, auf Seiten der Baronie Wallenburgs kämpfte. Kurz darauf traf ein
+königliches Heer aus Taras ein, das zwar zahlenmäßig unterlegen war, doch
+brachen beide Parteien die Kämpfe ab, um nicht gegen königliche Truppen
+kämpfen zu müssen. Ein bitterer Friede trat nun ein, wobei die Grenzgebiete
+teilweise völlig verwüstet sind. Die Flusspassage, die den Streit auslöste,
+wurde des weiteren an das Lehen Taras übergeben, derweil der Pakt der
+Viereinigkeit den Ersonter Bund des Einsatzes schwarzer Magie beschuldigt.
+Seine Majestät wiederum urteilt nicht, wer Schuld an diesem Streit war, was
+nun dazu führte, dass jede Seite sich selbst im Recht sieht.  
+  
+_Felis_  
+  
+  
+25\. Sekar - Großes Ritual am Tempel der Viere in Falkensee  
+---  
+Geweihtenschaft bereitet den Tempel auf das Dunkeltief vor  
+  
+Vor wenigen Tagen konnte ungewöhnliche Aktivität zwischen den vier Schreinen
+des Vieretempels in Falkensee beobachtet werden. In fast schon ungewohnter
+Einigkeit hatten sich dort Diener aller vier Götter und aller Ränge
+versammelt, um in Andacht und Gebet den Segen der Viere auf das Tempelgelände
+herabzubitten, auf dass der geweihte Boden den Bewohnern der Insel für das
+kommende Dunkeltief eine sichere Zuflucht bieten möge. Nach einstimmendem
+Gebet wurden in einer feierlichen Prozession der Vitama geweihte Rosenblätter,
+Astrael gefällige Segenssprüche, bellumgeweihte Eisenspähne und geweihte
+Graberde um das Tempelgelände herum verstreut, als heilige Wehr gegen alle
+widernatürlichen Kreaturen und Schergen des Ungenannten, die der Feind in
+diesem Dunkeltief gegen den Tempel führen mag. Durch ein weiteres,
+abschließendes Gebet wurde noch einmal die Einigkeit aller Diener der Viere im
+Schutz der Gläubigen gegen die Schrecken des Dunkels beschworen und der Wille,
+den Tempel mit aller Kraft zu verteidigen, bekundet, bevor sich die
+Versammlung wieder auflöste.  
+  
+Doch nicht nur dem Schutz der Viere soll der Tempel unterstellt werden, denn
+ein Gebet bedeutet nicht, selbst die Hände in den Schoß legen zu können. Auch
+ganz profane Palisaden und Barrikaden sollen errichtet werden, um die
+Verteidigung des Tempels zu erleichtern, und Kämpfer von der ganzen Insel
+werden erwartet, die die Geweihtenschaft bei dieser Aufgabe unterstützen
+wollen. So lädt die Kirche der Viere alle ein, die Schutz vor den Schrenken
+des Dunkeltiefs suchen, im Tempel in Falkensee Zuflucht zu finden, aber auch
+alle aufrechten Kämpfer, die nicht schon an anderen Orten wie dem Wall bereits
+für die Verteidigung aufgestellt sind, ihren Teil zu diesem Schutz
+beizutragen.  
+  
+Mögen die Viere mit uns sein, auf dass wir auch in diesem Jahr die Dunkle Zeit
+überstehen.  
+  
+_ARdM_  
+  
+  
+25\. Sekar - Gebet zum Dunkeltief  
+---  
+Auch im tiefsten Dunkel, leuchtet weiter ein Licht  
+Tief im Innersten tragen wir es und spüren eure Nähe  
+Wenn wir verzagend keine Wärme mehr spüren,  
+wenn die herzlichsten unter uns keine tröstenden Worte mehr haben,  
+dann sendest du uns, Vitama, das Licht der Liebe.  
+Wenn wir zweifelnd nicht mehr weiter wissen,  
+wenn die klügsten Leute nicht mehr weiter sehen als bis zum nächsten Atemzug,  
+dann sendest du uns, Astrael, das Licht des Wissens.  
+Wenn wir zaudernd keine Kraft mehr haben,  
+wenn die Stärksten unter uns kaum den Arm mehr heben können,  
+dann sendest du uns, Bellum, das Licht des Mutes.  
+Wenn wir unruhig keine Rast und Ruh mehr finden,  
+wenn selbst die besonnensten keinen Frieden mehr spüren,  
+dann sendest du uns, Morsan, das Licht des Friedens.  
+Ihr Viere, steht uns in diesen Dunklen Tagen bei und sendet uns das Licht der
+Hoffnung.  
+  
+_Ionas_  
+  
+  
+25\. Sekar - Anzeige - Schneiderin sucht Jäger!  
+---  
+Aufgemerkt, ihr fleißigen Jäger der Insel! Die nortravische Schneiderin Talida
+sucht hiermit Jäger, die ihr regelmäßig Leder und Felle liefern würden. Wer
+Interesse daran hat, möge sich bei ihr in Vänskap melden!  
+  
+__  
+  
+  
+25\. Sekar - Kristalle im Kampf gegen die Sammler  
+---  
+Schon seit mehreren Götterläufen sind die Sammler als Plage des Einen eine
+Geißel der Insel und bisher schien kein Schlag gegen sie dauerhaft
+Abhilfe zu schaffen. Da die Sammler die letzten Monde wieder verstärkt die
+zivilisierten Bereiche der Insel attackierten, hatte man nun versucht, eine
+neue Waffen gegen sie zu ersinnen, die jedoch für allerlei Aufregung sorgte.  
+Der Hohepriester des Ventus, Lazalantin, auch oftmals kurz "Tintin" genannt,
+entsann sich einer Legende der Enhor und teilte dies im Gespräche dem Boten
+mit: Der Ungenannte hatte einst mit Hilfe der Mondamulette die Macht der Viere
+größtenteils an sich sich grissen, um damit übergöttlich mächtig zu werden.
+Die Enhor griffen, zum dritten Mal nun, ein, um für ein Gleichgewicht zu
+sorgen, welches gefährdet war. Die Enhor fügten daher das perfekte
+Gleichgewicht zusammen, wobei sie sich eines Mediums bedienten - dem Spiegel
+"Invar", was, so Hohepriester Lazalantin, wörtlich der "Unveränderliche"
+bedeutet. Invar war, so heißt es, so groß wie der Himmel selbst. Durch ihn
+wirkten die Enhor und fügten Tare durch direkten Eingriff wieder zusammen.  
+Die Kristalle, die nun in unserer Zeit gegen die Sammler eingesetzt wurden,
+stammen aus dem Nachbau dieses Spiegels und waren ebenso ein perfektes,
+elementares Gleichgewicht. Der Plan war nun mittels der Kristalle den Bau der
+Sammler zu zerstören, was auch mehr oder weniger gelungen ist. Die erste Ebene
+des Sammlerbaus, so "Tintin", wurde offenbar von den Kristallen gereinigt.  
+Was jedoch nicht vorhersehbar war und harsche Kritik mit sich zog, war die
+Tatsache, dass die Sammler die Kristalle selber nutzten und zwar nunmehr gegen
+die Bevölkerung Siebenwinds. Offenbar schafften es die Sammler, die Kristalle
+mit arkaner Kraft aufzuladen und dann, wieder auf magische Weise, ins Grünland
+zu schleudern. Es kam jedoch, so Magnifzienz Dur und Hohepriester Lazalantin,
+lediglich zu Sachschäden, wobei Seeberg zwei Kristalleinschläge erlitt.
+Aufgrund der raschen Warnungen in den Lehen kam es glücklicherweise zu
+keinerlei Personenschäden, denn die Kristalle waren zweifelsohne in der Lage
+Lebewesen einzuschließen bzw. zu töten. Zwar wuchsen die Kristalle, doch
+lediglich langsam. Wichtig ist dabei anzumerken, dass es nicht im Sinne der
+Ecclesia Elementorum war, dass die Sammler sich die Kraft der Kristalle
+zunutze machten.  
+Am 1. Carmar kam es wiederum zu einer Expedition zu den Sammlerhöhen unweit
+der Ruinen Rohehafens, wo sich die Ecclesia Elementorum daran machte, die
+Kristalle zu zerstören, so dass keine weiteren Exemplare ins Grünland
+geschleudert werden konnten. Dieses Vorhaben verlief, wenngleich auch nur
+wenige Kämpfer daran teilnahmen, erfolgreich, so dass die Sammler nicht mehr
+in der Lage sind, auf diese Weise das Grünland anzugreifen.  
+  
+_Felis_  
+  
+  
+25\. Sekar - Ersonter Bellumsmarkt  
+---  
+Am 12. Carmar fand der erste Ersonter Bellumsmarkt auf dem Falkenseer
+Marktplatz statt und trat damit die Nachfolge des erfolgreichen Astraelmarktes
+im Triar an. Doch bedauerlicherweise war diesem Markt nicht ganz so viel
+Erfolg beschieden. Auch wenn der Regen nachließ, so fanden sich doch
+verhältnismäßig wenig Handwerker, Händler und Kunden im Vergleich zum letzten
+Markt ein. Auch in der Taverne "Ersonter Kessel" ging es ungewohnt ruhig zu.
+Dennoch ließen es sich ein paar wackere Handwerker und Händler nicht nehmen,
+auf dem Marktplatz ihre Waren zu präsentieren. Ihnen sei an dieser Stelle
+dafür herzlich gedankt.  
+Das Spiel "Malthuster schubsen" fand wiederum großen Anklang, wobei nicht
+allein nur Ersonter ihr Glück daran versuchten. Ziel des Spieles war es,
+insgesamt sechs blau angemalte Holzkegel mit Filzbällen umzuschmeißen. Wer es
+schaffte, mindestens eine Figur vom Tisch zu befördern, erhielt einen
+Gutschein für das Warenkontor Falkensee und je mehr Figuren man umwarf, desto
+höherwertiger waren auch die ausgegebenen Gutscheine und man hatte so die
+Gelegenheit einen unter Umständen größeren Einkauf im beliebten Warenkontor zu
+Falkensee tätigen zu können. Einen besonderen Dank für diese großzügige
+Unterstützung in Form der Preise geht daher an dieser Stelle an das
+Warenkontor Falkensee unter der Leitung des Kaufmannes und Konsuls Arn Toron.
+Auch sei für die Spielleitung Paule "Hicks" Hickings gedankt, der unermüdlich
+die Anwesenden zum Spielen aufforderte. So kann man, trotz weniger Handwerker,
+Händler und Kunden, den Abend dennoch als erfolgreich genug betrachten, so
+dass es sicher zu einem Morsansmarkt kommen mag. Zu hoffen bleibt einzig, dass
+die Händler und Handwerker dieser Insel bis dahin ihre Schüchternheit
+überwunden haben und sich wieder aus ihren Werkstätten und Handelshäuser in
+Richtung Falkensee wagen.  
+  
+_Felis_  
+  
+  
+25\. Sekar - Turnier in Seeberg - Bündnis zwischen Seeberg und Nortraven  
+---  
+Am 3. Carmar fand ein gut besuchtes Turnier innerhalb der Mauern Seebergs
+statt, bei dem neben der Ritterschaft nebst Garde und Hof auch etliche
+Vertreter der Dwarschim und Malthuster anwesend waren, aber auch Nortraven,
+denn neben der Bellumsmesse und dem durch den Ordo Bellum ausgerufenen
+Turnier, sollten die Zuschauer auch Zeuge eines neuen Bündnisses dieser Insel
+werden. Bereits vor Beginn des Turniers hatte derdie Gelegenheit mit dem
+Jarl der Nortraven, Ingjald, sprechen zu können. Dafür sei ihm nochmals an
+dieser Stelle gedankt.  
+Gegenüber dem Boten stellte Ingjald die Besonderheit dieses Bündnisses heraus.
+Dieses Mal, so erklärte er, kamen die Nortraven von sich aus auf die
+Ritterschaft zu und boten das Bündnis ohne Zwang und Not an. Dieses Bündnis
+umfasst dabei Seeberg, auch wenn zum Zeitpunkt des Gespräches noch nicht klar
+war, inwieweit es die in Seeberg ansässigen Magier mit einschließt. Zum Zweck
+des Bündnisses befragt, antwortete der Jarl, dass die Freundschaft an erster
+Stelle stehen würde, was natürlich wirtschaftliche Interessen, aber auch die
+Unterstützung in Kämpfen mit einschließen würde. Als weiteren Grund gab er
+zudem an, dass Seeberg nun neben den Dwarschim ein sehr starker Verbündeter
+ist. War es früher bloß ein kleiner Handelsposten, nach dem Einzug der
+Ersonter und Malthuster auf dieser Insel eine Burg der Ritterschaft, so ist es
+nun ein weitaus lebhafterer Ort geworden, der direkt an mehreren Lehen
+angrenzt.  
+Dieses Bündnis steht nun nicht einzig nur auf einem Stück Papier, sondern
+dieses Mal hat es noch weitreichendere und vielleicht auch überraschendere
+Folgen. Nach der von Gnaden Lorence abgehaltenen Messe und noch vor dem
+Turnier, kam es zur Ansprache durch Sir Rondragon und der offiziellen
+Verkündigung des Bündnisses, infolgedessen er Jarl Ingjald in den Rang eines
+Edelmannes erhob. Möge dies als Zeichen der Freundschaft für alle Zeiten seine
+Geltung finden, sprach der Großmeister der Ritterschaft. Danach ergriff der so
+in den Adelsstand erhobene Nortrave sein Wort und ehrte den Großmeister der
+Ritterschaft, indem dieser den Rang eines Earl, die damit verbundenen Rechte
+und ein Stück Land im Lehen der Nortraven erhielt, wo sich, den ersten Plänen
+zufolge, Sir Rondragon wohl einen Landsitz errichten lassen wird. Auch einen
+Kilt wurde Sir Rondragon durch Ingjald und Talida überreicht sowie einen
+nortravischen Schild, der, so betonte Ingjald, ihn schützen möge. Noch einmal
+erhob nun der so geehrte Ritter sein Wort und verkündete: "Möge unsere
+Freundschaft all jene schützen, die ihres Schutzes bedürfen." Daraufhin erhob
+auch Edelherr und Jarl Ingjald erneut sein Wort: "Möge das Bündnis zwischen
+Greifenklipp und Seeberg ewig dauern."  
+  
+_Felis_  
+  
+  
+25\. Sekar - Turnier in Seeberg - Messe und Turnierverlauf  
+---  
+Wie erwähnt fand am 3. Carmar ein Bellumsturnier samt Messe in Seeberg statt
+und erfreute sich aus mehreren Gründen großer Beliebtheit. Neben der
+Verkündigung des Bündnisses zwischen Seeberg und den Nortraven, war es sicher
+das Turnier selbst, was viele Kämpfer und Schaulustige anzog. Doch auch die
+Messe zuvor, abgehalten von seine Gnaden Lorence, sorgte für beste Stimmung,
+denn tatsächlich endete der ausdauernde Regen und machte es den Kämpfern so
+sicherlich auch etwas leichter, sich zu messen. Auch ein ungewöhnliches und
+vor allem ermutigendes Gefühl beschlich die Anwesenden während der Messe, als
+wäre es gar Bellum selbst gewesen, der ein wohlwollendes Auge auf diesen Ort
+gerichtet hatte.  
+Das Turnier selbst, wie auch die Veranstaltungen zuvor, verlief angenehm
+störungsfrei. Nach bellumsgefälliger Art wurde gekämpft - ohne Magie und ohne
+stärkende Tränke. Gekämpft wurde stets, bis einer der Kontrahenten mit dem
+Oberkörper den Boden berührte. Auch waren Heiler anwesend, Nicholas Roth und
+Sandir Ferofax, die sich den Wunden der Kämpfenden annahmen und so für einen
+reibungslosen Ablauf des Turnieres sorgen konnten. Ermahnt wurde nochmals im
+Vorfeld, dass Verstöße gegen die Regeln zu einem Ausschluss vom Turnier führen
+können.  
+  
+Hier nun die Runden mit ihren Kämpfern und Ergebnissen in aller Kürze:  
+1\. Runde - Vlad Arh gegen Nicolai Tuljow (Unteroffizier Malthuster Armee) -
+Herr Arh gewann knapp.  
+2\. Runde - Tyrus Helbas (Löwenorden) gegen Vladimir Kherbal (Rittergarde) -
+Tyrus Helbas gewann.  
+3\. Runde - Bragthor Wuchthammer gegen Ansgar Lamia (Unteroffizier Malthuster
+Armee) - fast hätte Unteroffizier Lamia gewinnen können, doch wandte sich das
+Blatt überraschend und so gewann der Dwarschim Wuchthammer.  
+4\. Runde - William Glaron (Adjutant Löwenorden) gegen Bragarim Rhonkar
+Wuchthammer - Herr Wuchthammer gewann eindeutig gegen Herrn Glaron.  
+5\. Runde - Emanuel Sanderus (Korporal Malthuster Armee) gegen Filius
+Gandurmar (Rittergarde) - der Rittergardist war verhindert und so trat ein
+Gardehelfer der Rittergarde ein - Wolfram Jandris - Sieger war eindeutig
+Emanuel Sanderus.  
+  
+Danach wurden die fünf Ausgeschiedenen nach vorne gebeten. Einem davon ereilte
+die Gunst, nochmal antreten zu dürfen. Dafür mussten die Ausgeschiedenen eine
+Zahl zwischen 1 und 10 leise benennen. Großmeister Rondragon nannte dann auf
+Bitten des Geweihten Thorn eine Zahl zwischen 1 und 10, nämlich die 7.
+Willliam Glaron war nun der Glückliche, der dieses Zahl zuvor gewählt hatte
+und hatte damit die Gelegenheit, noch einmal anzutreten.  
+  
+6\. Runde - Bragthor Wuchthammer gegen Vlad Arh - der Dwarschim gewann, wobei
+sich Herr Arh tapfer schlug.  
+7\. Runde - Rhonkar Wuchthammer gegen Tyrus Helbas - Herr Helbas gewann
+eindeutig.  
+8\. Runde - Emanuel Sanderus gegen William Glaron - Herr Glaron gewann knapp.  
+  
+Damit standen sich nun die drei Kämpfer Tyrus Helbas, William Glaron und
+Bragthor Wuchthammer im Finale.  
+  
+1\. Finalduell - Tyrus Helbas gegen Willliam Glaron - Gewinner dieser Runde
+war eindeutig William.  
+  
+Während Herr Helbas behandelt wurde, beehrten die Ritter der Sieben Winde das
+Publikum mit einem Kampf. Hochmeister Amaris Aurinas trat nun an gegen den
+Großmeister Yves Rondragon, wobei Sir Aurinas knapp gewann.  
+  
+2\. Finalduell - Bragthor Wuchthammer gegen Tyrus Helbas - Dwarschim
+Wuchthammer gewann.  
+  
+Danach gab es, während die Verwundeten erneut behandelt wurden, einen Kampf
+zwischen Gnaden Thorn und dem Gardemeister Gropp, wobei seine Gnaden eindeutig
+gegen den Gardemeister gewann.  
+  
+Finaler Kampf - Bragthor Wuchthammer gegen William Glaron - auch aus diesem
+Kampf ging Herr Glaron, Angehöriger des Löwenordens, als Sieger und damit als
+Sieger des diesjährigen Bellumsturnieres hervor.  
+  
+Zum Abschluss wurde durch seine Gnaden Thorn ein Segen über die Versammelten
+gesprochen und es wurde zu einem Fest im Dorf der Nortraven eingeladen.  
+  
+_Felis_  
+  
+  
+25\. Sekar - Sammler ziehen sich aus Ferrinbau zurück  
+---  
+Finaler Angriff auf Sammlerfestung unter dem Südfaller Sumpf läuft ins Leere  
+  
+Seit das Eindringen der Sammler in das Höhlensystem der Ferrin unter den
+Sümpfen südlich von Falkensee bekannt wurde, wurden bereits mehrere
+Expeditionen dort hin geführt. Diesen gelang es dabei immer weiter in die
+Gänge vorzudringen, bis die letzte Expedition vor einer Bastion der Sammler
+von einem übermächtigen Dämon zurückgeschlagen wurde. Doch trotz dieses
+Rückschlages erfolgte von schon bald ein weiterer Aufruf der Ersonter Garde
+für den 10. Carmar, an dem in einem finalen Schlag der Dämon überwunden und
+die Sammlerbastion gestürmt werden sollte. Im Anbetracht der Gefahr, die durch
+die Sammler für alle Bewohner Siebenwinds ausgeht, folgten auch viele diesem
+Aufruf, so dass sich zur vereinbarten Stunde eine große Zahl Malthuster
+Soldaten und Mitglieder des Löwenordens, nicht wenige Kämpfer der Dwarschim,
+sowie Vertreter weiterer Gruppen einzeln oder in kleiner Zahl am vereinbarten
+Treffpunkt, dem Marktplatz Falkensees, einfanden. Dort kam es allerdings
+bereits zur ersten Verzögerung, hatte doch allem Anschein nach ausgerechnet
+die Ersonter Garde ihren eigenen Termin verschlafen. Zumindest war zur
+angekündigten Zeit kein Soldat oder gar Offizier des Bundes erreichbar, und
+der einzigen anwesenden Vertreterin der Garde, der Rekrutin Beatrix, viel die
+undankbare Aufgabe zu, ihre säumigen Vorgesetzten vor der versammelten
+Streitmacht zu verteidigen und zugleich dem gesammelten Ärger der Wartenden
+als Ziel zu dienen.  
+  
+Immerhin gelang es der Rekrutin, mit viel Einsatz und Durchhaltevermögen,
+schlimmeren Streit zu verhindern, bis dann, mit fast einer Stunde Verspätung,
+tatsächlich auch das Ersonter Kontingent antrat. Ungewöhnlich rasch konnte
+dann Einigkeit über das Oberkommando über die Truppe erzielt werden, welches
+auf mehrseitigen Vorschlag hin von seiner Magnifizenz, dem Edelmann Toran Dur
+übernommen wurde, so dass einem raschen Aufbruch nichts mehr im Wege stand.
+Allerdings sollte dies nur bis zum Eingang der Ferrinhöhlen halten, wo es
+gleich zu zwei weiteren Verzögerungen kam. So wurden von Kundschaftern zwei
+Schwarzmagier ausgemacht, die unter dem Schutz einer magischen Barriere unweit
+des Eingangs ein Ritual unbekannter Zielsetzung vollzogen. Ein Teil der Truppe
+wurde ausgesandt, sich dieser Sache anzunehmen, was jedoch zu keinem Erfolg
+führte, da die Bariere nicht überwunden werden konnte, bevor die Ketzer sich
+auf magischem Weg einem Zugriff entzogen. Beim Hauptkontingent sorgte indes
+das Eintreffen einer Gruppe von Myten für Unruhe, die sich aus unbekannten
+Gründen dem Schlachtzug anschließen wollten. Nun ist es beim Volk der Myten
+keineswegs ungewöhnlich, dass sie ihre Absichten nicht preis geben, und
+dennoch haben sie sich in der Vergangenheit zumindest im Kampf gegen die
+Kreaturen des Ungenannten meist als nützliche Verbündete erwiesen, so dass
+ihnen ein Anschluss nicht verwehrt wurde. So war nach all diesen Verzögerungen
+bestimmt ein halber Zyklus seit dem Treffen am Markt vergangen, bevor die
+ersten Kämpfer in die unterirdischen Gänge hinabstiegen.  
+  
+Hier zeigte sich, dass Magnifizenz Dur die verfügbaren Truppen durchaus
+wirksam einzusetzen wusste, indem er die wichtigen Aufgaben wie das
+Freikämpfen der Gänge oder das Sichern der Truppe nach hinten den
+eingespielten größeren Gruppen übertrug, die diese Ziele dann, bei Bedarf von
+den gruppenlosen Kämpfern unterstützt, eigenständig über ihre eigene
+Befehlsstruktur umsetzen konnten. Dadurch konnte das sonst häufig
+anzutreffende Befehlsgewirr wirksam vermieden werden und an allen kritischen
+Punkten bildeten disziplinierte Gruppen einen stabilisierenden Kern. Dennoch
+kam es zu einigen Verletzten, vornehmlich durch Überraschungsangriffe von
+Untoten, die nachdem sie niedergekämpft worden waren hinter der vorrückenden
+Linie wieder zu frevelhaftem Scheinleben erwachten und den Kämpfern in den
+Rücken fallen oder sich an den relativ wehrlosen Heilern und Verwundeten
+vergreifen konnten. Erst nachdem die Devise ausgegeben wurde,
+niedergeschlagene Kreaturen durch Abtrennen der Gliedmaßen über den Tod hinaus
+kampfunfähig zu machen, konnte diese Gefahr weitgehend eingedämmt werden.  
+  
+Eine Überraschung bot sich den vorrückenden Truppen dann aber, als die vom
+vorhergegangenen Schlachtzug bekannte Bastion der Sammler erreicht wurde.
+Statt dem erwarteten heftigen Widerstand durch Sammler und Dämonen wurden dort
+nur einige schwächliche Untote und verstreute Ferrins angetroffen. Spätere
+Untersuchungen zeigten, dass die Sammler sich wohl spätestens beim herannahen
+der Streitmacht durch einen Tunnel geflüchtet hatten, der hinter ihnen direkt
+wieder eingestürzt war. Als auch der Versuch einiger Dwarschim, den Gang mit
+Händen, Waffen und zuletzt gar Sprengtränken doch noch frei zu legen
+scheiterte, wurde klar, dass an eine Verfolgung der Sammler nicht zu denken
+war. Da so im ganzen Gangsystem der Ferrin keine Sammler mehr gefunden werden
+konnten, war ein Ziel der Expedition, das Vertreiben der Sammler aus den
+Höhlen, offenbar erreicht. Die Absicht, ihnen dabei zugleich eine empfindliche
+Niederlage beizubringen, musste indes als gescheitert betrachtet werden, so
+dass eine echte Schwächung der Sammler nicht erreicht werden konnte. Dennoch
+wurde immerhin ein Teilerfolg errungen, so dass die versammelte Truppe zwar
+nicht zufrieden, aber doch zumindest erhobenen Hauptes den Rückmarsch antreten
+konnte.  
+  
+_ARdM_  
+  
+  

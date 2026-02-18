@@ -90,8 +90,8 @@ nav:
 
 plugins:
   - search
-  - ezlinks:
-      wikilinks: true
+  - roamlinks:
+      link_relative: true
   - caseinsensitivefiles
 
 markdown_extensions:

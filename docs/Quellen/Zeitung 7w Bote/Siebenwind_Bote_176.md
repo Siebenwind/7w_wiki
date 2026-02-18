@@ -1,0 +1,790 @@
+---
+layout: bote_page
+title: Siebenwind Bote 176
+date: 21-01-16
+category: Chronik
+author: Felis, Ionas, ARdM
+---
+
+# Siebenwind Bote 176
+**Königstag, 16. Oner 21 nach Hilgorad**
+
+## 16. Oner - Das neue Jahr beginnt
+Das Dunkeltief ist vergangen, die Aufräumarbeiten weitgehend abgeschlossen und
+kehrt für ein neues Jahr in die Normalität zurück. Auch der Bote
+macht sich auf, weiter die Bevölkerung Siebenwinds mit Berichten,
+Ankündigungen und auch dem ein oder anderen Gerücht zu versorgen. Und im
+Gegensatz zu den vorhergehenden Ausgaben gibt es dieses mal in eigener Sache
+höchst erfreuliches zu berichten. So haben die wiederholten Aufrufe der
+Vergangenheit für neue Schreiber endlich Wirkung gezeigt, und die Redaktion
+freut sich, Felis als neue freie Mitarbeiterin begrüßen zu dürfen, die in
+dieser Ausgabe auch gleich eine umfangreiche Kostprobe ihres Recherche- und
+Schreibeifers liefert. Darüber hinaus erreichten die Redaktion eine große Zahl
+von Leserbriefen und Berichten aus der Bevölkerung, die ebenfalls eine
+Bereicherung für den Boten darstellen.  
+Aufgrund dieser Änderungen hat sich die Redaktion entschlossen, in Zukunft
+jede Ausgabe des Boten mit einem Impressum zu versehen, in dem alle an der
+Erstellung der Ausgabe Beteiligten in ihrer Funktion gelistet werden. Dies
+erscheint auch vor dem Anspruch der politischen Neutralität und Sachlichkeit,
+der sich die Redaktion verpflichtet fühlt, angemessen. In einer seriösen
+Gazette muss jeder Mitarbeiter auch namentlich für die von ihm verfassten
+Artikel einstehen könne. Ausgenommen hiervon sind allerdings Leserbriefe und
+Artikel aus der Bevölkerung, die die Redaktion nach grober Prüfung auch anonym
+oder unter Künstlernamen abdruckt, allerdings ohne die Verantwortung für den
+Inhalt zu übernehmen. Ebenso wird auch die Gerüchteküche zwangsläufig ohne
+Quellen gedruckt, ist es doch grundlegender Bestandteil von Gerüchten, dass
+niemand genau zu sagen mag, wer sie in Umlauf gebracht hat und wie groß ihr
+Wahrheitsgehalt ist.  
+  
+So wünscht die Redaktion allen Lesern einen guten Start und den Segen der
+Viere für das neue Jahr, sowie viel Spaß beim Stöbern in der neusten Ausgabe
+des Boten.  
+  
+_ARdM_  
+  
+  
+16\. Oner - Die mordende Bestie von Brandenstein  
+---  
+Fürchterliches ging um in Brandenstein und hielt die Hafenstadt für eine gute
+Weile lang in Angst und Schrecken - Morde, bei denen die Opfer grausam
+zugerichtet waren und die Organe teilweise fehlten. Doch was war geschehen?  
+  
+Mitte Sekar lief im Hafen der Stadt Brandenstein ein Handelsschiff mit Namen
+"Goldola" ein, jedoch fand sich auf diesem keine Besatzung. Dennoch sah es für
+den Beobachter so aus, als wenn das Schiff gesteuert werden würde, lief es
+doch an einem Steg im Hafen ein. Einige Soldaten der Malthuster Wacht betraten
+daraufhin das Schiff, doch fanden sie nichts vor - keine Mannschaft und auch
+keinen Verweis auf diese. Einzig eine Tür war verschlossen, die sie zu öffnen
+versuchten. Doch anstatt sie öffnen zu können, drang Nebel aus dem Spalt unter
+der Tür heraus. Weiter geschah nichts und bis zu dem Zeitpunkt gab es auch
+keine weiteren Anhaltspunkte, was mit der Mannschaft und dem Schiff geschehen
+sein mag.  
+  
+Am nächsten Tag wiederum wurde Leutnant Caiomme von dem Schiff berichtet und
+sie suchte es während eines Dunkelzyklus gemeinsam mit ihrer Cousine Aresia
+Caiomme, Rekrutin der Malthuster Wacht, auf, um es sich anzusehen. Während
+sich die beiden Frauen auf dem Schiff umsahen, berührte etwas Leutnant Caiomme
+an ihrer Wange - eine Hand, Krallen konnte sie sogar spüren und es war ihr,
+als wenn etwas sie streicheln würde. Doch war es kein liebevolles Streicheln,
+sondern es hinterließ vielmehr das Gefühl, von etwas abgrundtief Bösen berührt
+worden zu sein. Als wenn ein Schlächter sein Vieh nochmals streichelt, bevor
+er es umbringt, beschrieb es Leutnant Caiomme später. Dieses "Etwas" war
+jedoch nicht sichtbar. Aus Reflex schlug Leutnant Caiomme danach, doch war es
+auch nicht körperlich greifbar.  
+Gemeinsam mit ihrer Cousine verließ sie den Hafen wieder, wobei ihnen der
+Soldat Darcas begegnete, dem sie wiederum erzählte, was ihr widerfahren war.
+Er gab daraufhin zu, ebenso etwas gesehen zu haben - eine Vision. Er hatte das
+Schiff auf dem Meer gesehen, in einem Sturm und das Segel war voller Blut. Zu
+dritt gingen sie daraufhin nochmals zurück zum Schiff.  
+Soldat Darcas untersuchte das Segel und es waren tatsächlich kleine
+Blutspritzer darauf zu erkennen. Am Mast des Segels, etwas auf Mannshöhe,
+befanden sich darüberhinaus noch Spuren von Krallen, die den Eindruck
+hinterließen, die Krallen wären durch das Holz wie durch Butter gegangen.  
+Leutnant Caiomme wurde nun berichtet, dass unten eine Tür versperrt war.
+Gemeinsam gingen sie hinab in den Schiffsbauch, schlugen die Türe ein und in
+dem Moment sah Soldaat Darcas das Wesen, welches Brandenstein in den folgenden
+Tagen so grausam heimsuchen sollte - bleich gleich einem Seelenfänger, mit
+spitzen Zähnen, Krallen, groß gewachsen und Fellbüschel auf der Haut verteilt.
+Doch dann verschwand es einfach.  
+Leutnant Caiomme durchsuchte diesen Raum daraufhin. Es befand sich in diesem
+eine Gefangenenzelle, welche abgesperrt war. Darin befand sich lediglich etwas
+zu essen, wobei die Speisen wohl etwa drei Wochen in der Zelle gestanden haben
+müssen. Was auch immer dort gefangen war - die Matrosen müssen Angst davor
+gehabt und es eingesperrt haben.  
+An besagten Abend, als die Malthuster das Schiff wieder verlassen hatten,
+betrat des Weiteren noch eine Novizin des Ignis, Ancabeth Mertenstein, das
+Schiff, wobei auch sie des Wesens gewahr wurde und diesem einen Feuerball
+entgegenwarf. Das Wesen floh daraufhin, indem es sich nun in einen Wolf
+verwandelte, doch hatte es offenkundig auch Angst gegenüber dem Feuer gezeigt.  
+  
+Am nächsten Tag entschied man, dass Schiff noch genauer zu untersuchen, in der
+Hoffnung, etwas zu finden, was sie in diesem Fall weiterbringen könnte. Jedoch
+fand man wenig später eine Leiche im Schlafsaal unterhalb der
+KapelleBrandensteins. Erschreckend war nicht nur, dass die Leiche grauenhaft
+aufgeschlitzt wurde, sondern es fehlten ihr auch einige Organe, wie die
+heilkundige Novizin der Vitama Galdiell feststellte. Auffällig war wiederum,
+dass unten im Keller ein Kratzen, welches durch die Wände von der Kanalisation
+her dumpf herandrang, und wenig später ein Lachen zu hören waren. Aufgrund
+dieser Geräusche suchten Leutnant Caiomme und Soldat Darcas wenig später die
+Kanalisation Brandensteins auf, wobei sie nicht weit kamen, da die Zugänge mit
+Bretterwände verschlossen waren. Durch einen Spalt konnten sie allerdings eine
+Bewegung wahrnehmen und nur wenige Momente später drang auch schon Nebel durch
+einen Spalt und manifestierte sich hinter den beiden zu dem gesuchten Wesen.
+Es zog eine Sichel und war wohl drauf und dran, sie abzuschlachten, doch auf
+einmal blickte es hinauf und verschwand, als hätte es Angst vor etwas
+bekommen. Die Leutnant und der Soldat stiegen wieder hinauf und es wurde die
+Vermutung geäußert, dass das Wesen vielleicht die Strahlen Felas fürchten
+würde, wie man es aus manchen Sagen über ähnlichen Bestien erzählte.  
+An jenem Abend wurde jedoch auch noch die Schreiberin dieses Berichts, Felis,
+von diesem Wesen hinterrücks niedergeschlagen und zum Hafen geschleppt. Den
+Vieren sei Dank verweilten dort jedoch wieder die Soldaten der Malthuster
+Wacht und durchsuchten erneut das Schiff. Das Wesen gedachte wohl seine Beute
+dort zu "genießen", doch wurde es von den Soldaten davon abgehalten und in
+einen Kampf verwickelt, woraufhin das Wesen ins Wasser sprang und trotz
+hartnäckiger Verfolgung verschwand, wenig später sah man es gar vom Osttor aus
+in Richtung Osten, vermutlich zum Ödland, verschwinden.  
+  
+Einen Tag lang herrschte in Brandenstein, was dieses seltsame Wesen, über den
+schon viele munkelten, es könnte ein sogenannter Vampir sein, anging, Ruhe,
+doch am Tag darauf wurde erneut ein grausamer Mord dieser Bestie entdeckt. In
+der einsam gelegenen Fischerhütte, nahe des Orkenpasses, fanden sich zwei
+grausam zugerichtete Frauenleichen wieder, denen ebenso gewisse Organe
+fehlten.  
+  
+Auch am nächsten Abend wollte keine Ruhe in diesem Fall einkehren - während
+die Autorin dieses Berichtes selbst bei Leutnant Caiomme im Obergeschoß saß,
+man gemeinsam Tee trank und sich gerade über die Vorkommnisse unterhalten
+wollte, klopfte es unten an der Haustür. Leutnant Caiomme ging somit hinab und
+unterhielt sich mit einem neuen Anwärter für die Malthuster Wacht, doch wenig
+später klopfte es erneut, hektischer und lauter. Nach dem Öffnen der Tür
+stürmten sogleich zwei Angehörige des Volkes der Nortraven hinein, Avanjanas
+und Ragnarr, welche die Treppe hinaufliefen und laut brüllend in den Raum, in
+welchen sich noch die nichtsahnende, an ihrem Bericht arbeitende
+Botenschreiberin befand - und jenes Monstrum, die Bestie, welche all die
+grausamen Morde zu verantworten hatte und gerade, leise wie ein
+herangeschlichener Jäger, mit seiner Sichel zur Schreiberin ausholen wollte.
+Die zwei Nortraven wussten es wegzustossen, gar zu vertreiben, wobei auffällig
+war, wie eilig sich das Wesen zu bewegen wusste.  
+An diesem Abend war zudem Aresia Caiomme in der Stadt unterwegs gewesen, woran
+sie sich zumindest noch erinnert. Doch wachte sie später in der Kanalisation
+auf und entdeckte Würgemale an ihrem Hals. In der Nacht darauf hatte sie einen
+Alptraum von ihrer Cousine sowie Soldat Darcas, wobei sich Aresia nur noch
+daran erinnern konnte, dass sie starben. Wie es jedoch zu deren Tod kam,
+wusste sie später nicht mehr.  
+  
+Kein ruhiger Tag verging, denn schon am nächsten stiegen Angehörige der
+Malthuster Wacht unter der Leitung von Leutnant Caiomme sowie die Adepta
+Hohentann, ein Unbekannter in grüner Kleidung, die Botenschreiberin selbst und
+ein Myte hinab in die Kanalisation, um die mordende Bestie ausfindig zu
+machen. Ein Myte daher, da die Vermutung durch Adepta Hohentann, die den
+Vorfall an des Leutnants Haus am Vortag beobachten konnte, geäußert wurde, es
+könne sich bei dem Monstrum um eine Art pervertierten Myten handeln.  
+Tatsächlich wurde das Wesen schon nach kurzer Zeit in den zwielichtigen,
+stinkenden Gängen der Kanalisation auf frischer Tat ertappt, als es sich
+gerade wieder auf götterlästliche Art und Weise an dem Leib einer Frau gütlich
+tat. In einem Kampf wurde es niedergerungen, wobei ein Speer in das Herz des
+Wesens getrieben wurde, denn zuvor war es schon einigen Personen aufgefallen,
+dass sich da Wesen oft den Arm schützend vor das Herz gelegt hatte.
+Tatsächlich vernichtete dieses Vorgehen das Wesen und lediglich die Hülle
+blieb zurück, aus dem ein zwar kleiner, doch eindeutig gehörnter Dämon
+entstieg, welcher jedoch nur wenige Augenblicke später den Eindruck machte,
+als würde er förmlich weggerissen werden, woraufhin der Dämon fort war.  
+Der Myte jedoch war noch in der Lage gewesen, Kontakt zu diesem Wesen
+herzustellen und konnte so herausfinden, was hinter diesem Spuk steckte. Das
+Wesen stammte vom Festland, schwarzberobte Personen konnte der Myte gar
+erkennen, was wohl auf Schwarzmagier hindeuten dürfte. Diese Personen hatten
+einen Ferrin mit einem Myten gekreuzt, was zum einen die bleiche Haut, zum
+anderen aber auch die Fellbüschel und die Schnelligkeit des Wesens erklärte.
+Sie hatten dem Wesen ein neues Herz eingesetzt - das eines Dämons, welcher
+nach der Vernichtung der Hülle noch für einen Moment in der Kanalisation zu
+sehen war.  
+Das Herz wiederum wurde auf Befehl von Leutnant Caiomme zu einem Geweihten
+gebracht, die Leiche selbst jedoch wurde vom Myten mitgenommen, um unter
+Umständen mehr über diese mordende Bestie herauszufinden.  
+  
+Auch wenn nun wieder Ruhe in Brandenstein in diesem Fall eingekehrt sein mag,
+so besteht noch der Verdacht, dass der Dämon sich einen neuen Wirt suchen
+könnte. Es bleibt zu hoffen, dass dieser Tag, an dem das geschieht, nicht so
+bald kommen mag und dieser Bericht hilfreich genug sein dürfte, um in
+ähnlichen Fällen rasch reagieren zu können und erneut grausame Morde zu
+verhindern.  
+  
+_Felis_  
+  
+  
+16\. Oner - Kirche bittet um Vergebung  
+---  
+Am 13. Oner geschah etwas im Tempel zu Falkensee, was sicher viele Gläubige
+teils verwundert, teils unsicher, teils vielleicht auch Hoffnung schöpfend
+zurückließ. Aufgrund der vergangenen Ereignisse hinsichtlich des
+kircheninternen Streits sowie der fehlenden Messen vor und teils auch während
+des Dunkeltiefs wie auch danach, stellten sich Eminenz Sandelholz sowie Gnaden
+Custodias den Gläubigen und baten öffentlich um Vergebung für die Kirche. Es
+wurden Fehler eingeräumt und sich auch den Worten der Gläubigen gestellt, die
+teils kritisch auszufallen wussten. Hernach wurde angeboten, in einer Geste
+der Demut die Füße der Gläubigen zu waschen, die bereit waren, zu vergeben.  
+Es bleibt nun abzuwarten, ob wieder etwas Ruhe in den Streitereien kommen mag
+und die erkannten Fehler nicht mehr wiederholt werden. Die Möglichkeit dazu
+mag gewiss jeder Gläubige der Kirche gerne einräumen, denn zu bedenken ist
+auch stets, dass die Kirche der Sahor vornehmlich aus Menschen besteht und es
+in der Natur des Menschen liegt, Fehler zu machen. Doch in der Natur des
+Menschen liegt es ebenso, daraus zu lernen und daran zu wachsen.  
+So möge die Kirche der Sahor auf an dieser Herausforderung wachsen
+und gestärkt aus dieser Krise hervorgehen!  
+  
+_Felis_  
+  
+  
+16\. Oner - Cacama und Viktor Menzer tot - kann Brandenstein aufatmen?  
+---  
+Cacama und Viktor Menzer, zwei Gesuchte, die einst der Malthuster Armee
+angehörten, sich aber gegen diese auf verbrecherische Art und Weise
+auflehnten, sind nunmehr tot. Während Viktor Menzer im Seeberger Kerker
+verstarb und aufgrund des bestialischen Geruchs, der ihm anhaftete, vermutet
+wird, er habe sich selbst vergiftet, stellte sich Cacama am zweiten
+Dunktieftag freiwillig der Malthuster Obrigkeit. Er wurde daraufhin von der
+Intendanta Bruch verhaftet und eingekerkert.  
+In Gefangenschaft fing Cacama draufhin an in einer für die Anwesenden fremden
+Sprache zu beten, woraufhin ein Dämon auftauchte und ihn köpfte. Der Dämon
+verschwand dann jedoch und hinterließ nur noch Cacamas Leiche sowie seinen
+Kopf.  
+Der geneigte Leser mag sich nun fragen, ob Brandenstein und insbesondere die
+Malthuster Wacht endlich aufatmen können?  
+Siehe dazu den nächsten Bericht über den Anschlag auf das Fest in Seeberg.  
+  
+_Felis_  
+  
+  
+16\. Oner - Anschlag in Seeberg am Feiertag "Lob der Schwestern"  
+---  
+Eine angenehme Überraschung war es, als viele Bewohner Siebenwinds Ende Sekar
+ein kleines Geschenk an ihrer Haustür fanden, welches neben kleinen
+Köstlichkeiten und einer Kerze auch eine Einladung zu Ehren des Feiertages
+"Lob der Schwestern" am 27. Sekar in Seeberg beinhaltete. Initiiert wurde das
+Fest durch die Freifrau Nhergas und den Vitamanovizen Feydis Degner und hätte
+mit Sicherheit für einen Abend lang die Sorgen noch einmal von den Feiernden
+nehmen können, ehe die dunkle Zeit anbrechen sollte, doch leider kam es gar
+nicht erst soweit.  
+Das Fest fand unweit des Osttores von Seeberg statt, in der Mitte des Platzes
+eine kleine Plattform für Darbietungen, die mit Kohlepfannen und funkelnden
+Illusionen ansehnlich illuminiert war. Eine weitere kleine Bühne befand sich
+dahinter, wo wiederum Statuen zu Ehren Bellums und Vitamas standen, dazu ein
+kleines Zelt mit Sitzgelegenheiten und Tische, auf denen sich einige
+Köstlichkeiten und die Getränke befanden.  
+Gerade, als die Gästeschar etwas zu Essen zu sich nahm, sich am Wein labte und
+die Feuerdarbietung von der einstigen Seiltänzerwirtin Felis begann, kam es zu
+dem schrecklichen Ereignis, welches das gesamte Fest abrupt beendete - einige
+Gestalten, die sich unauffällig unter den Feiernden gemischt hatten, warfen
+sogenannte Sprengtränke auf die Freifrau Nhergas und die übrigen Umstehenden,
+diese teils schwer verletztend. Die Täter wiederum konnten in dem
+darauffolgenden Chaos nahezu unbehelligt durch das nahe Osttor entfliehen,
+während in Seeberg die beim Fest anwesenden Heiler, Magier und Alchemisten die
+Wunden versorgten. Die Tore wurden währenddessen geschlossen und die
+Rittergarde begann wenig später eine Befragung der Anwesenden in der Taverne
+"Zum tanzenden Drachen", welche sich in der Burg Schwingenwacht befindet.  
+Die Vermutung lag nun bei manchen Personen nahe, dass Cacama (siehe vorheriger
+Bericht) mit diesem Anschlag etwas zu tun haben könnte. Diese Frage jedoch
+kann Leutnant Caiomme von der Malthuster Wacht bis heute nicht beantworten.
+Allerdings berichtete sie, dass laut der Aussage Cacamas sich mehrere Personen
+um ihn scharrten. Diese konnte er jedoch irgendwann nicht mehr kontrollieren
+und sie begannen vieles auf eigene Faust zu unternehmen, darunter auch
+Überfälle auf Korporal Leandra. Zwei Personen, die seit diesen Überfällen
+verdächtigt werden, zu dieser Gruppe zu gehören, sind zwei Männern namens
+"Lorum" und "Wolf", welche sich zudem bei einem ihrer Angriffe auf Korporal
+Leandra der schwarzen Magie bedienten, indem sie Dunkelskelette beschworen.  
+Ein weiterer Überfall, dieses Mal auf Leutnant Caiomme, konnte wiederum einzig
+dadurch verhindert werden, dass sie an dem Abend, als gut fünf oder sechs
+Personen sie aus der Stadt zu locken versuchten, Besuch hatte.  
+Diese Personen sind auch weiterhin auf freien Fuss und stellen damit
+unzweifelhaft eine Bedrohung für die Insel dar - sei es wegen ihrer bisherigen
+Taten, sei es wegen der dunklen Mächte derer sie sich bedienen. So bleibt zu
+hoffen, dass die viergöttliche Gerechtigkeit eingreifen werde und dafür sorgt,
+dass diese Missetäter bald für ihre Taten büßen werden!  
+  
+_Felis_  
+  
+  
+16\. Oner - Vom blinden Maler und Hutmacherdämon  
+---  
+Im letzten Boten wurde bereits ausführlich über die Geschehnisse rund um den
+blinden Maler berichtet und wer denkt, dass jener Dämon, welcher zu der
+Gegendomäne Vitamas gerechnet wird, aufgrund seiner Vorliebe, ja, fast schon
+Obsession für Kunstwerke, Ruhe gegeben haben mochte, irrt sich.  
+Nunmehr war es die Schreiberin dieses Artikels selbst, die von dem Maler
+gelockt wurde, in sein Reich gezogen, welches den Vermutungen des grauen
+Erzmagiers Toran Durch nach wohl im Limbus, eine Welt zwischen den sogenannten
+Sphären, zu finden wäre. Doch gewarnt durch das Lesen des letzten Botens, aber
+auch durch Statuen in seinem Reich, welche die Viere auf erschreckende Art und
+Weise darstellten, wurde das Angebot des blinden Malers verneint und so konnte
+er kein weiteres Opfer fangen. Einzig das Angebot des Malers blieb bestehen.  
+Nach diversen Gesprächen mit verschiedenen Personen ergab sich nun nicht
+allein, dass der Maler offenbar seine Gestalt gewechselt hat und wohl als
+Bildhauer auftritt, sondern es wurde auch die Vermutung geäußert, er und der
+Hutmacherdämon wären eins. Anzumerken ist zudem an dieser Stelle, dass jener
+Hutmacherdämon an den Tagen des Dunkeltiefs durch die Adepta Hohentann gesehen
+worden war und sich gegenüber dieser als Bildhauer ausgab.  
+Es bleibt zu hoffen, dass es keine weiteren Opfer dieses Dämons geben wird und
+derweise genug genutzt wird, so dass an dieser Stelle weiterhin
+Erkenntnisse gesammelt und kundgetan werden können.  
+  
+_Felis_  
+  
+  
+16\. Oner - Der Tod des Ashram Yeshmir durch den Dämon "Tarrant"  
+---  
+Am 9. Oner, als der siebte Dunkelzyklus anbrach, wurde der friedlich
+begonnende Abend auf dem Falkenseer Marktplatz jäh durch das Auftauchen eines
+Dämons namens "Tarrant" unterbrochen, der sich auf dem Eis des Brunnens
+manifestierte. Ein Duell forderte er und zwar von Ashram Yeshmir, der bis dato
+die im Dunkeltief erfolgreich kämpfende Gohorgarde angeführt hatte.  
+Das Duell wurde von beiden vor den Stufen des Rathauses ausgetragen, umringt
+von Schaulustigen, welche sich offenbar der Gefahr, in die sich Ashram Yeshmir
+bewegte, nicht bewusst waren. Einzig eine kleine Gruppe von Magiern -
+bestehend aus Freifrau Nhergas, Herr Ekre, Herr Lergoh und Frau Hohentann -
+wussten zu handeln und entsannen offensichtlich einen eiligen Plan, um den
+Dämon zu vernichten. Dazu postierten sich die Magier an gewissen Stellen rund
+um den Duellplatz, derweil die beiden Kontrahenten weiter ihren Kampf
+austrugen. Doch gerade in dem Moment, als die Kraft der Magier zu wirken
+begann, folgte das, was viele der zuvor Schaulustigen mit Fassungslosigkeit,
+Trauer und Unglauben zurückließ - Tarrant tötete Ashram Yeshmir, um sich dann
+der Macht der Magier zu entziehen und zu verschwinden.  
+Trauer lag danach bleiern auf den Gemütern vieler, die diesem Duell beigewohnt
+hatten. Der Leichnam Yeshmirs wurde wiederum durch Sir Rondragon in den
+Schrein Morsans gebracht, wo man sich nun gewiss des wagemutigen Mannes
+annehmen wird, um seinen Körper auf seine letzte Reise vorzubereiten.  
+Möge Morsan ihm Ruhe schenken und seine Taten auf nicht vergessen
+werden.  
+  
+_Felis_  
+  
+  
+16\. Oner - Beerdigung Emanuel Sanderus  
+---  
+Am 30. Seker fand in der Kapelle Brandensteins und im Anschluss daran auf dem
+zur Hafenstadt gehörigen Morsansanger die Beerdigung des Malthuster Soldaten
+Emanuel Sanderus statt, der vor kurzem auf tragische Weise, vermutlich durch
+das lästerliche Handwerk eines Schwarzmagiers, ums Leben kam. Es
+verabschiedeten sich von ihm während der von der morsansgeweihten Hochelfe
+Amira Rabenfeder abgehaltenen Messe seine Familie, Freunde und Kameraden,
+welche auch aus Falkensee zu diesem Zweck angereist waren.  
+  
+_Felis_  
+  
+  
+16\. Oner - Theaterstück in Falkensee aufgeführt  
+---  
+Am 10. Oner wurde das schon länger nahe dem Marktplatz und dem Tempel stehende
+Theater, welches einst als Taverne der Bevölkerung Zerstreuung bot, mit einem
+bis dato titellosen Schauspiel eingeweiht. Über vier Akte erstreckte sich das
+Stück, welches vollständig in Reimen von den Autoren Archie und Eliath
+niedergeschrieben wurde. Von eben jenen beiden stammte auch das Bühnenbild,
+welches nach jeden Akt hinter dem Vorhang eilig geändert wurde.  
+Es scheint eine simple Geschichte, die zudem auf die Rivalität zwischen Ersont
+und Malthust hinweist - eine junge Dame wurde entführt und zwei Recken
+entsandt, um sie sicher zurückzubringen, wobei auf plakative Art und Weise die
+Unterschiede dieser beiden dargestellt wurde. Zum einen die ehrenhafte
+Ersonterin, welche gut sichtbar einen rautenförmigen Anhänger an ihrer Kette
+trägt, zum anderen ein schurkenhaft aussehender Malthuster. Während die
+Ersonterin sich ganz im Sinne der Viere verhält, scheint der Malthuster einzig
+ungestüm und plump im Gebaren zu sein.  
+Für jeden mit Astraels Geschenk Gesegneten dürfte es rasch klar werden, dass
+das Aussehen und Handeln der Beiden überspitzt dargestellt wurde und die
+Realität nicht selten gänzlich anders aussehen mag. Doch gerade durch die
+Einfachheit der beiden Charaktere, trat umso stärker die dem Stück
+zugrundeliegende Moral hervor, die sich im Laufe der vier Akte nach und nach
+entwickelte und am Ende dem Publikum nochmals deutlich dargestellt wurde - so
+liegt es gewiss nicht an der politischen Zugehörigkeit der Ersonterin, dass
+sie den Kampf gegen die schurkischen Malthuster gewinnt, sondern vielmehr ist
+es das Festhalten an den Gaben und Tugenden der Viere und damit auch das
+gezeigte, tiefe Vertrauen in die Sahor. Mitleid gegenüber den Armen und
+Schwachen; Stärke, die nicht aus Muskelkraft erwächst; ein besonnenes Vorgehen
+gegenüber dem Unbekannten und ein respektvoller Umgang mit den Toten -
+Tugenden, die der Protagonistin halfen, gegen die Schurken zu bestehen, aber
+auch Tugenden, die nicht allein Ersontern geläufig sind, sondern gewiss jedem,
+der den Vieren treu folgt, gleich ob in Malthust, Papin, Bernstein, Ossian,
+Wallenburg oder Falkenstein.  
+Vielleicht war dieses mit viel Liebe für Details, aber auch ab und an mit
+neckischen Anspielungen versehende Stück ein kleiner Lichtschimmer auf der von
+Unglauben und Zank geprägten Insel und vielleicht mag es gar den ein oder
+anderen bewogen haben, einen Moment über seine eigene Handlungsweise
+nachzudenken und ob diese noch im Einklang mit den Tugenden der Sahor stehen
+mögen.  
+Das Publikum wiederum dankte es der kleinen Schauspielergruppe mit teils
+stehenden Ovationen, sichtlicher Begeisterung und sogar Spenden, wofür sich
+die Mitwirkenden - Archie, Eliath und Felis - an dieser Stelle noch einmal
+bedanken möchten. Ein Dank geht zudem an die Stadt Falkensee für die
+großzügige Spende von zwei Fässern Wein, die von dem Publikum während des
+Schauspiels genossen werden konnten.  
+  
+_Felis_  
+  
+  
+16\. Oner - Vitamaweihen  
+---  
+Eine wahrlich frohe Kunde ist es, dass auf dieser Insel nunmehr drei frisch
+gebackene Geweihte der Vitama wandeln - ihre Gnaden Samira Sandelholz, Tarnuk
+und Edora. Die erste Weihe fand am 15. Seker statt, in Folge dessen die
+Hochelfe Samira Sandelholz zur Geweihten Vitamas erhoben wurde. Am 3. Sekar
+wiederum folgten seine Gnaden Tarnuk und ihre Gnaden Edora.  
+Während bei der ersten Weihe ein köstlicher Wein an die Gläubigen ausgeschenkt
+wurde und der Tempel mit etlichen Rosenblüten dekoriert wurde, wurde die
+zweite Weihe von einem Ratespiel begleitet, bei dem die beiden ehemaligen
+Novizen pantomimisch Begriffe, die mit Vitamas Aspekten in Zusammenhang
+stehen, darstellten und von den Gläubigen erraten werden mussten.  
+Den Vieren sei Dank wurde keine der beiden Weihen gestört und somit gratuliert
+der Boten den drei Geweihten und wünscht ihnen, dass ihnen stets
+ein von Vitama geschenktes Glück auch bei ihrem künftigen Werk beschieden sein
+wird!  
+  
+_Felis_  
+  
+  
+16\. Oner - Neue Taverne in Falkensee - Ersonter Kessel eröffnet  
+---  
+Nachdem die Ecclesia Elementorum nach dem unseligen Streit mit der Vierkirche
+und der Verwaltung des Lehens ihr Kloster in Falkensee verlassen hat, stand
+einige Zeit offen, wie das nun leer stehende Gebäude weiter genutzt werden
+sollte. Letztlich wurde aber entschieden, den ebenerdigen Bereich als
+Markthalle auszubauen, während im Obergeschoss eine Taverne, der ‚Ersonter
+Kessel’ eingerichtet wurde. Diese hat kurz vor dem Dunkeltief auch ihre
+Pforten geöffnet und sich innerhalb kurzer Zeit zu einem beliebten Treffpunkt
+entwickelt. Dennoch sucht der Kessel weiterhin Mitarbeiter, um dem Bestreben,
+den Bewohner Falkensees eine dauerhaft geöffnete und gut betreute Anlaufstelle
+zu bieten, noch näher zu kommen. So sind Barden und Gaukler, aber auch
+weiteres Schankpersonal, Köche oder Bauern als Lieferanten höchst willkommen,
+sei es für ein einzelnes Ereignis, Gelegenheitsarbeit oder eine feste
+Anstellung. Interessenten mögen sich vertrauensvoll an Anadrius
+Mondsilberhaar, bekannt durch das Handelshaus Goldblatt, oder Katharina
+Lichtenstein wenden.  
+Auch die Redaktion des Boten wird sich diese Anlaufstelle zu Nutze
+machen, um für ihre Leser leichter persönlich erreichbar zu sein, und so mag
+man dort gelegentlich auch Alricio Romero di Madjani hinter der Theke
+antreffen, der dann neben dem Ausschank auch für Fragen oder Angebote an die
+Redaktion des Boten zu sprechen sein wird.  
+  
+_ARdM_  
+  
+  
+16\. Oner - Gerüchteküche  
+---  
+\- Heimlicher Verehrer von Patrizierin Ruatha - aufgeklärt! -  
+Wie derin der Ausgabe 174 berichtete, fanden sich am Felahof, den Frau
+Ruatha in Brandenstein bewohnt, immer wieder Liebesbriefe und kleine Geschenke
+ein, ja, es säumten gar Blumen den Weg zu ihrem Heim. Nunmehr ist bekannt, wer
+sich im Liebestaumel diese Mühen machte - niemand Geringeres als der
+inseltweit bekannte Alchemist Markus Panscher! Voller Wagemut, so erzählt man
+sich in Brandenstein, soll er sie gar geküsst haben, als Frau Ruatha ihm alles
+Gute für das Dunkeltief wünschte. Es bleibt abzuwarten, was sich zwischen
+diesen beiden noch ergeben mag und derwünscht Herrn Panscher viel Erfolg
+bei der Suche nach etwas Liebesglück!  
+  
+\- Handwerksmeisterin der Löwin - Stille Wasser sind tief! -  
+Vielen Leuten in Falkensee, aber auch in den übrigen Teilen der Insel, ist die
+Schneider- und Handwerksmeisterin des Löwenordens, Ayleen, bekannt. Doch nicht
+allein durch ihr Können und ihrer lobenswerten Initiative innerhalb des
+Ordens. Nein, es scheint gar, als wandele sie, die doch eher wie eine ruhige,
+unauffällige Person wirkt, auf ravinthalsche Pfade, indem sie munter unzählige
+Beziehungen zu mehreren Männern unterhält. Hier mag gewiss weniger Magie im
+Spiel zu sein, als es einst bei dem ehemaligen Hofmagus Ravinsthal der Fall
+war. Vielmehr scheint sie eine gewitzte Verführerin zu sein und mancher
+munkelt gar, es gäbe ein kleines Buch, welches sie stets mit sich führt und in
+welches sie akribisch ihre Termine mit den Herren plant und, schockierend, sie
+gar am Ende bewertet!  
+  
+\- Maskenball zu Brandenstein - wer mit wem? -  
+Bereits ersten Gesprächen konnten belauscht werden, wer mit wem beim
+Brandensteiner Maskenball am 28. Onar weilen werde. Pikante Informationen
+kamen zwar ans Licht, doch dieses eine Mal wird sich derdarüber in
+Schweigen hüllen und lediglich den Lesern empfehlen, selber den Ball
+aufzusuchen.  
+  
+__  
+  
+  
+16\. Oner - Leserbrief: Ersonter Magiegesetze  
+---  
+Innerhalb der letzten Wochen erließ man in Ersont Gesetze und Bestimmungen,
+die fern dem Ansinnen und der Tradition unserer Kultur sind, eher Malthustern
+und anderem ungelehrigem Völkchen angebracht, als dem Feingeist unseres
+Lehens. Das Rathaus beschloss eine Stadtverordnung, die die freie Ausübung der
+magischen Kunst aus unserer Stadt verbannt. Augenscheinlich ignoriert die
+Verwaltung den Wert der Magie als Form der Kunst, den Jahrmarktszauber als
+Quell des Staunens und die filigranen Artefaktkonstrukte von Straßenmagiern
+als Anstoß der Faszination. Zu einem blosen Werkzeug, gar zu einer Waffe,
+degradiert das Rathaus die Kunst der Magieanwendung, belegt sie mit dem Bann
+der Skepsis und Verdächtigung, wie es eher drüben in Malthust Sitte ist, als
+innerhalb unseren Mauern. Das Rathaus erlässt das strengste Magiegesetz, das
+unsere Insel je gesehen hat!  
+  
+Will man uns den Lichtspielereien der Gaukler berauben? Den kunstvollen
+Illusionen der Scharlatane, die uns in Staunen versetzen? Den Wundern der
+Magie des fahrenden Volkes, die uns den Atem rauben? Soll innerhalb Ersonts
+die Magie nicht mehr Kunst sein, nicht mehr auf Augenhöhe mit der Malerei und
+Bildhauerei, sondern blosses Werkzeug, wie der Pflug oder das Schwert, grimmig
+erlaubt der Bürgerschaft, welchen man für ihre Pacht zur Befriedigung
+irgendwelche Rechte schenken muss? Lieber staune ich über die Zauberei eines
+fahrenden Magiers, als dass die Kunst der Magie weggesperrt wird in die Mauern
+jener, die Geld haben oder Einfluss. Selbst in Malthust muss ein fähiger
+Marktzauberer nicht die Verfolgung fürchten, nicht mit der Gewissheit leben,
+gegen das Gesetz zu verstoßen, wenn sein einziger Wunsch ist, ein Quell der
+Freude und des Staunens zu sein.  
+  
+Ich vermag nicht zu glauben, dass die ehrenvolle Burgräfin diesem Diebstahl
+tatenlos zusieht. Ich mag nicht glauben, dass sie akzeptiert, dass man ihre
+Untertanen dem Staunen und dem Wundern bestiehlt. Ich mag nicht glauben, dass
+man Kunst beschneidet aus niederen Beweggründen und Ignoranz vor der
+Faszination des bunten Funkenspiels, sondern jenes mit Vorsicht, gar Skepsis
+bedenkt, einzig grimmig tolerierbar, wenn die Magie in Form von Blitzen und
+Feuerbällen gegen unsere Feinde geschleudert wird. Ich fühle mich ein Stück
+weiter beengt in diesen Mauern, fürchte mich um die Freiheit meiner Gedanken
+und der Kultur, als ob man mich dazu degradiert hätte, innerhalb des Lehens
+Malthust hausen zu müssen.  
+  
+_Anonym_  
+  
+  
+16\. Oner - Leserartikel: Flammenmeere in Falkensee  
+---  
+Wie deram 13. Seker 20 nach Hilgorad in einem kleinen Ausschnitt
+berichtete, gab es innerhalb kürzester Zeit mehrere Feuer in der Stadt
+Falkensee. Diese Feuer waren in zwei Fällen von einem Brandstifter gelegt, in
+dem anderen Fall war es ein Unfall. Im Folgenden findet sich nun näheres zu
+den einzelnen Feuern.  
+  
+Das Feuer im Handelsviertel entbrannte im Gebäude der Schneiderei von Herrn
+Liedor. Einen Tag zuvor noch stritt er mit der Regierungsrätin Aurora und der
+Statthalterin al Achid um seine Bürgerschaft. Da ihm diese aufgrund einiger
+Verfehlungen nicht mehr gegeben ward verließ er die Stadt nicht ohne sich zu
+rächen. Es konnte nachgewiesen werden, dass das Feuer ausgelöst wurde von
+einer Kerze, die er entsprechend platziert hat. Von dieser aus gingen
+Stoffbahnen durch das ganze Haus, die so das Kerzenfeuer nach und nach durch
+eben das ganze Haus zogen. Es ist wenig verwunderlich, dass bei Untersuchungen
+festgestellt wurde, dass eigentlich keine Möbel mehr im Hause waren außer
+einigen Kisten. Damit hatte sich der Verdacht auf Herrn Liedor erhärtet.  
+Kurze Zeit nach dem Feuer stellte die Garde des Ersonter Bundes den „Freien
+Liedor“, wie sie ihn auf dem Schriftstück bezeichnen, auf eine Liste der
+Gesuchten Personen. Von dieser ist er bisher nicht verschwunden, im Gegensatz
+sogar kam ein Kopfgeld von 5.000 Dukaten noch dazu. Freilich hat sich der Herr
+Liedor in Brandenstein verkrochen, wo die ersontische Gesetzbarkeit nicht an
+ihn heran kommt.  
+  
+Das nächste Feuer fand in der Schneiderei der Dame Baldasti seine
+Auswirkungen. Es konnte rechtzeitig bemerkt werden. Einige Gardisten der Garde
+des Ersonter Bundes tauchen dann auch auf und wiesen die Menschen direkt an
+eine Menschenkette zu bilden um die Flammen mit gesammeltem Regenwasser zu
+ertränken. Der Gardewaibel stand an vorderster Front, während die Gardistin
+Illundar in zweiter Front versuchte die Tür des Ladens zu öffnen. Gemeinsam
+mit den tapferen Bürgern Falkensees konnte das Feuer nach und nach
+zurückgeschlagen werden. Als man auch in die Räumlichkeiten kam konnte das
+Feuer gänzlich ausgelöscht werden. Ein Gardist ging gleich auf die Suche nach
+Menschen, die in diesem Flammenmeer sein könnte, doch niemand war im Haus. Die
+Garde des Ersonter Bundes sorgte sogleich noch dafür, dass das marode Dach
+abgestützt werden konnte und vernagelte die Türe.  
+Das Feuer wurde nachweislich und geständig von der Dame Baldasti selbst
+ausgelöst. Sie war an diesem Tag verwirrt und befand sich von da an in Obhut
+der Kirche, zur Behandlung. Eine verwirrte Frau sollte man nicht frei herum
+laufen lassen. Mittlerweile ist sie aber wieder wohl auf und hat sich
+entschuldigt für das Feuer. Die Reparaturen wird sie auf eigene Kosten
+durchführen. Vielleicht hätte man noch eine öffentliche Danksagung für das
+Löschen des Feuers und eine einhergehende Entschuldigung für das Legen des
+Feuers aussprechen können. Aber was erwartet man von einer so einfachen Frau.  
+  
+Das letzte Feuer in dieser Zeit fand in der Schenke des Seiltänzers statt.
+Kurz vor dem Buhurt der Garde des Ersonter Bundes wurden Flammen in der Stadt
+ausgerufen. Es wurde Hilfe gerufen zum Seiltänzer hin. Wieder waren die
+Gardisten nicht fern und gemeinsam mit dem Leiter des Seiltänzers, dem Herrn
+Fandar, konnte das Feuer gelöscht werden. Wie sich herausstellte war der alte
+Besitzer des Seiltänzers der Unteroffizier der Malthuster Armee Emanuel
+Sanderus. Dieser wurde sozusagen enteignet, nachdem er und seine Kameradin,
+ebenso Unteroffizier der Malthuster Armee, Erin Caoimme, von einem ersonter
+Gericht, unter Leitung ihrer Durchlaucht Hannah Berndorf zu Lichtenwald, des
+Todes an einem Gardistenn der Garde des Ersonter Bundes für schuldig befunden
+wurden. Auf dem Lehen des Ersonter Bundes sind sie Vogelfrei, wen wundert es
+da, dass die Stadt dem Herrn Emanuel Sanderus das Recht absprach den
+Seiltänzer leiten zu dürfen. Aus Rache meinte dieser nun das Feuer im
+Seiltänzer zu legen. Er zündete völlig unbedacht einfach den Schankraum an,
+welcher viele Brandherde bot, da er von Teppichen, Stoffen und Kissen nach
+endophalischem Maß durchzogen ist. Pfui kann man nur sagen zu einer solchen
+Tat von einem Soldaten im Dienste der Krone und wer weiß, wer daran nicht noch
+alles beteiligt war aus Brandenstein.  
+  
+_Der Ersonter_  
+  
+  
+16\. Oner - Leserartikel: Vorstellung der Regierung des Ersonter Bundes zu
+ 
+---  
+In diesem Artikel möchte ich die Gelegenheit ergreifen Informationen über die
+Regierung des Ersonter Bundes zu geben. Nach einigen redaktionellen
+Tüchtigkeiten war es endlich möglich das Gesamtkonstrukt zusammenzufassen.
+Ganz so einfach, wie so mancher es denken mag ist die Regierung nicht
+aufgebaut. Es handelt sich im Folgenden nur um das Lehen des Ersonter Bundes
+auf Siebenwind. Die Regierungen auf dem Festland sind teilweise etwas anders
+aufgebaut und hängen stark von den Einzellehen ab.  
+  
+An oberster Stelle des gesamten Lehens steht ihre Durchlaucht Hannah Berndorf
+zu Lichtenwald. Sie führt das gesamte Lehen in all ihrer Weisheit an.
+Einberufen hat sie den Regierungsrat, der ihr die Arbeit der Regierung
+abnehmen soll. Sie legt all ihr Vertrauen in diesen Regierungsrat und so sie
+Verordnungen und Gesetzen, die sich dieser überlegt, nicht widerspricht hat
+der Regierungsrat freie Hand in seinem Handeln. Diesem sitzen derzeit bei:  
+  
+\- Solice Aurora  
+\- Kharas Palanthas  
+\- Exellenz Derontas Marilus  
+\- Gardewaibel Waldemar Delarie  
+  
+Diese Vier Personen sind die eigentlichen Herrscher über das Lehen des
+Ersonter Bundes. Ihnen steht zusätzlich aber ein Consultorium zur Seite. In
+diesem sitzen auserwählte Personen aus den verschiedensten Bereichen. Mit
+diesem Consultorium ist es dem Regierungsrat möglich in allen Bereichen des
+Lebens und des Regierens die passende Entscheidung zu finden. Nicht zuletzt
+dient das Consultorium der Ernennung weiterer oder neuer Regierungsräte. Auf
+diese Weise kann man es vom Freien bis in den Regierungsrat des Ersonter
+Bundes schaffen!  
+  
+Das war eigentlich auch schon das gesamte, komplizierte Konstrukt der
+Regierung des Ersonter Bundes. Es ist in vielen kurzen und einfachen Worten
+erklärt.  
+  
+_Der Ersonter_  
+  
+  
+16\. Oner - Leserartikel: Die Wallwacht  
+---  
+Eine große Bürde für uns alle ist sie, die Wallwacht. Doch gibt es den
+Löwenorden, der sich der Wallwacht verschrieben hat. Wirklich? In letzter Zeit
+wirkt der Löwenorden nicht so als nehme er diese Aufgabe wahr. Immer häufiger
+werden die Sichtungen der Löwen in Falkensee und Umgebung. Dafür wird die
+Sichtung von Löwen am Wall immer seltener. Was für Zeiten sind es in denen
+sich Schwarzmagier schon dort herumtreiben und die Zeit haben ganze
+Pentagramme an den Boden zu zeichnen.  
+  
+Genau das passierte vor kurzem. Einige wackere Mannen entdeckten ein
+Pentagramm am Wall. Kein Löwe in Sicht. Erst als die Diskussion um das
+Pentagramm, mit der Innschrift „Wir sind wieder da“, schon im vollen Gange war
+erschien ein Löwe. Ich möchte hier nun keinen Namen nennen, da es dem Löwen
+sicher nicht recht wäre. Statt etwas gegen das Pentagramm zu unternehmen lies
+der Löwe sich einzig und allein über den Ersonter Bund aus, was wohl daran
+lag, dass eine Rekrutin der Garde des Ersonter Bundes, ihr Name ist mir leider
+entfallen, sich am Wall befand. Erst durch ihr wirken und das eines Grauen
+Gardisten konnte das Pentagramm entfernt werden. Ihnen ist es zu verdanken,
+dass die Spuren der Schwarzmagier nicht mehr sind.  
+  
+Aber was ist es, das die Löwen weglockt vom Wall? Was ist es das sie die
+Wallwacht vernachlässigen lässt? Ich selber habe es in 5 Tagen zu
+verschiedensten Zeiten nicht geschafft einen Löwen am Wall anzutreffen. Nur
+eben wieder in Falkensee. Eine Vermutung dazu existiert. Die Löwen sind
+zufrieden in Falkensee. Sie dürfen ihre Rüsten und ihre Waffen tragen, durch
+ein abkommen mit dem Ersonter Bund. Sie haben in Falkensee mehr Gesellschaft
+als am Wall. Ist es dann nicht vielleicht an der Zeit die Wallwacht in die
+Hände fähigerer Männer zu geben, die glücklich wären eine Aufgabe zu haben?
+Ich bin mir sicher, dass das XIII. Kronregiment der königlichen Armee diese
+Aufgabe im Namen der Ritterschaft gerne übernehmen würde.  
+  
+Wir Bürger Falkensees sind dankbar um den zusätzlichen Schutz, neben der Garde
+des Ersonter Bundes, durch die Löwen aber wir dürfen den Wall nicht
+vernachlässigen! Handelt jetzt, sonst ist es zu spät.  
+  
+_Der Ersonter_  
+  
+  
+16\. Oner - Leserartikel: Malthuster Wacht auf dem Grund des Ersonter Bundes  
+---  
+Wie mir heute frisch bekannt geworden ist plant der Ersonter Bund Maßnahmen
+gegen die Malthuster Wacht. Es ist kein Geheimnis unter uns Bürgern
+Falkensees, das die Malthuster sich nicht zurückhalten können und die Stadt
+immer wieder heimsuchen. So sehr, dass man mittlerweile vor dem Haus der
+Schneiderei Weberknecht sogar eine Wache stehen sehen kann, die die dort
+wohnhaften Personen vor der Malthuster Wacht schützen soll. Wie bekannt wurde
+ist die Besitzerin des Ladens wohl in der Gefahr entführt zu werden.
+Vielleicht ist es gar der schnellen Reaktion der Garde des Ersonter Bundes zu
+verdanken, dass sie noch unter den Bürgern Falkensees weilt.  
+  
+Man mag sich fragen warum die Malthuster Wacht immer wieder nach Falkensee
+eindringen und das Lehen des Ersonter Bundes unsicher machen. Scheinbar
+verfolgen sie dabei die Rechtsbarkeit ihres Lehens, was an sich nicht zu
+belangen wäre. Dass sie dabei aber jegliche Gesetze des Ersonter Bundes und
+jegliche Diplomatie unterlassen mag dabei aber weniger wünschenswert. Wie ich
+gestern in der Burg Finianswacht vernahm wurde das Verhalten der Malthuster
+Wacht von einem hochrangigen der Ecclesia, ansässig in Brandenstein, als
+„effektiv“ bezeichnet. Ich will dabei den Enhorgläubigen Falkensees nicht
+gegen das Schienbein treten, aber ihre „Kirche“ scheint sich nicht im Klaren
+darüber was man von einem solchen Verhalten zu halten hat. Die Kirche der
+Viere wird jenes, da bin ich mir als gute Gläubige sicher, garantiert nicht
+unterstützen.  
+  
+Es bleibt zur Sicherheit des Ersonter Bundes nur zu hoffen, dass man bald
+entschieden gegen dieses Verhalten aus Brandenstein vorgeht und Maßregelungen
+beginnt, ehe sie mehr Schaden anrichten, als bisher schon getan.  
+  
+_Der Ersonter_  
+  
+  
+16\. Oner - Leserartikel: Erstes Gericht des Ersonter Bundes zu  
+---  
+Am 28. Sekar zum 7. Hellzyklus sollte es beginnen, leider kam ich verspätet
+an. Nach kurzer Diskussion am Tor zum Audienzsaal der Burg Finianswacht wurde
+ich eingelassen und musste feststellen, dass die Verhandlung gerade erst
+begann. Die Anklage wurde verlesen. Die Anklage wurde vertreten durch den
+Gardewaibel Waldemar Delarie, die Verteidigung übernahmen die Angeklagten,
+Bruder Sepomuk Schinderle, Bruder Zar, Bruder Clavius Aurelius, Aldarich und
+Gregor Selbvator, vertraten sich selbst. Die Angeklagten waren fast
+vollständig anwesend. Es fehlten nur Bruder Schinderle und Aldarich. Wenn
+einige Angeklagte auch zu spät kamen schien Bruder Aurelius die Angeklagten zu
+vertreten. Den Vorsitz des Gerichtes führten, als Richter, der Regierungsrat
+Kharas Palanthas und als Beisitzer die Regierungsräte Exzellenz Marilus und
+Aurora.  
+  
+Die Verhandlung war gut besucht und so lief sie auch ab, wie sie ablaufen
+musste. Sie war sehr langatmig. Gardewaibel Delarie gab einen guten Advokaten
+ab, aber nicht weniger schlecht schlug sich Bruder Aurelius. Leider
+verstrickte dieser sich immer wieder in die Lächerlichkeit als er versuchte
+den angesehenen Burgkaplan Vater Custodias zu belasten. Alle waren sich einig,
+dass dies mit dem Fall nichts zu tun hat. Die Anklage betraf schließlich nicht
+Vater Custodias.  
+  
+Die Zeugen hielten sich gut. So wurden Vater Custodias und Magnifizienz Dur
+von der Anklage vernommen. Dabei bot der Gardewaibel allen Respekt auf, den
+man diesen Personen zukommen lassen muss. Bei Bruder Aurelius hingegen
+mangelte es an diesem Respekt. Gerade als Diener des Astraels, der er sein
+will, sollte er sich auskennen. Umso lächerlicher dann der Einspruch des
+Gregor Selvator, als der Gardewaibel den Bruder Zar vernahm und ihn nicht
+„Gnaden“ nannte. Weiß doch ein jeder eigentlich, dass die Diener Morsans sich
+immer mit einem „Bruder“ betiteln lassen. Die Verteidigung konnte nicht viel
+aufbieten, so überschlug sich der Raum teilweise von Einsprüchen der Anklage,
+die aber leider selten durchgesetzt wurden, wenn auch gestattet.  
+  
+Nach einem ganzen Zyklus, die die Zuschauer erleiden mussten durch die
+Langatmigkeit des Gerichtes, man spürte die Unerfahrenheit des vorsitzenden
+Richters Kharas Palanthas doch sehr, zog sich das Gericht zurück. Es dauerte
+sicher ein viertel Hellzyklus bis der Richter und seine Beisitzer zurückkamen.
+Richter Palanthas verlas das Urteil:  
+  
+SchuldsprücheVerschwörung gegen den Ersonter Bund : Nicht schuldig  
+Versuchte Zerschlagung des Ersonter Bundes : Nicht schuldig  
+Versuchte Aufhetzung der Bürger des Ersonter Bundes durch Hetzschriften :
+Nicht schuldig  
+Versuchte negative Beeinflussung ihrer Durchlaucht durch Ausgabe als
+Inquisitoren : Bruder Zar und Bruder Schinderle schuldig. Bruder Clavius,
+Aldarich und Gregor Selvator der Mithilfe schuldig.  
+Versuchter Mord an ihrer Durchlaucht Hannah Berndorf zu Lichtenwald : Bruder
+Clavius schuldig.  
+  
+Strafen  
+Aldarich und Gegor Selvator bekamen als Strafe auferlegt: einen Mond
+Arbeitsdienst im Lehen des Ersonter Bundes für jegliche Bürger und Adelige.  
+Bruder Schinderle und Bruder Zar bekamen als Strafe auferlegt: 10 Stockhiebe
+auf den Rücken, blutig, 1 Monat Verbannung aus dem Lehen des Ersonter Bundes
+und nach dieser Bannung müssen sie eine Armenspeisung durchführen.  
+Bruder Aurelius wurde die schlimmste Strafe zugesprochen: Brandmarkung mit dem
+Wappen des Ersonter Bundes, ewige Verbannung aus dem Lehen des Ersonter Bundes
+und die Vogelfreiheit in diesem, der Verlust seiner linken Hand.  
+  
+Die Strafen wurden soweit möglich direkt nach der Verhandlung durchgeführt. So
+verlor Bruder Aurelius seine linke Hand und erhielt die Brandmarkung. Bruder
+Zar musste die 10 Stockhiebe durch Orken erleiden, die ihm den Rücken wirklich
+blutig schlugen. Es war kein schöner Anblick und doch zeigte sich, dass der
+Ersonter Bund nicht hadert, wenn man ihn angreift. Es gibt stimmen, die den
+Ersonter Bund schwach nennen. Man kann aber nur sagen, dass sie stark sind auf
+ihre Art. Sie gehen nicht den Weg der direkten Bestrafung, sondern gestehen
+selbst solchen Leuten ein Gerichtsverfahren zu. Die Strafen auf einen Angriff
+sind auch nicht wirklich leicht, oder ist es üblich Strafen zu erleiden wie
+der Bruder Aurelius?  
+  
+_Der Ersonter_  
+  
+  
+16\. Oner - Impressum  
+---  
+Redaktionssitz: Seeberg  
+  
+Leitender Redakteur: Novize Ionas  
+Stellvertreter: Alricio Romero di Madjani (ARdM)  
+Freie Mitarbeiter: Felis  
+  
+Satz und Druck: Ionas, ARdM  
+  
+ __  
+  
+  

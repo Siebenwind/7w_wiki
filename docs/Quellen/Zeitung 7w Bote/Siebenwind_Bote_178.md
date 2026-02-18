@@ -1,0 +1,928 @@
+---
+layout: bote_page
+title: Siebenwind Bote 178
+date: 21-02-21
+category: Chronik
+author: Ionas, Felis, ARdM, Flammende Feder, Der Ersonter
+---
+
+# Siebenwind Bote 178
+**Felatag, 21. Duler 21 nach Hilgorad**
+
+## 21. Duler - Neuer Tempel in Falkensee
+Seit einigen Wochen schon konnte man täglich die Veränderungen im
+Tempelviertel beobachten - von den ersten Abrissarbeiten bis zu den letzten
+Handgriffen an den neuen Parkanlagen des Tempels. Nun endlich erstrahlt alles
+in neuem Glanz und neuer Lebendigkeit.  
+Im Gegensatz zu dem früheren, ziemlich imposanten Bau mit vier kleineren
+Schreinen die meist nur für ein ruhiges Gespräch oder einige stille Minuten
+der Einkehr dienlich waren, finden sich heute vier große Schreinkomplexe um
+ein viergöttliches Zentrum gruppiert. Die Schreine sind nutzbar um den
+Aspekten der Viere dort näher kommen zu können, um Unterricht zu halten oder
+um wie früher einfach etwas ruhige Zeit dort zu verbringen.  
+Der gesamte Tempel wirkt nun offener, einladender und lebendiger so dass man
+die Scheu, die manch einen von dem früheren, recht strengen Tempelbau
+abgeschreckt hat, getrost hinter sich lassen kann.  
+Am Felatag den 7. Duler, kurz nach Fertigstellung des neuen Tempels, wurde
+auch die Einweihung gefeiert. Während dieser wurden alle vier Schreine und
+auch das viergöttliche Zentrum neu geweiht und die Wünsche der anwesenden
+Gläubigen aufgenommen und den Vieren übersandt. Viele trafen sich an diesem
+Tag um den Ereignis beizuwohnen und gemeinsam mit etlichen Geweihten wurde den
+Vieren für den neuen Bau gedankt.  
+  
+_Ionas_  
+  
+  
+21\. Duler - Erste Weihe im neuen Tempel  
+---  
+Am Felatag den 14. Duler, eine Woche nach Einweihung des neuen Tempels, wurde
+die Novizin Galdiell Sietarr im Vitamaschrein des neuen Tempels geweiht. Die
+Geweihte Samira Sandelholz führte die Zeremonie in Anwesenheit vieler
+bekannter Gesichter und vollzog damit die erste Weihe im neuen Tempel.  
+Galdiell Sietarr, vielen schon seit langer Zeit als aufopferungsvolle Heilerin
+bekannt, ist in den letzten Götterläufen immer mehr dem Weg Vitamas gefolgt um
+schließlich in das Noviziant einzutreten, in welchem sie sich immer mehr in
+den Dienst der gütigen Mutter stellte. Lange schon betreute sie beinahe
+alleine die Kapelle in Brandenstein und diente dort als Cellerarin der Kirche.
+Nun erweitert sie ihren Dienst als Geweihte der Herrin und auf Beschluss des
+Hohen Rates hin sogar auch als amtierende Calatora für die Monde des Vitamas.  
+Der Siebenwindbote wünscht ihr auf diesem Wege viel Erfolg und viel Freude auf
+ihrem weiteren Weg.  
+  
+_Ionas_  
+  
+  
+21\. Duler - Anzeige: Tanzpartnerin gesucht!  
+---  
+Gesucht wird eine erfahrene Tanzpartnerin durch Herrn Brand Windflüsterer,
+ansässig im Haus der Ecclesia Elementorum in Brandenstein. Angedacht sind
+regelmäßige Treffen, um Tänze einzustudieren und zu üben.  
+Interessierte Damen mögen sich bitte direkt bei Herrn Windflüsterer melden!  
+  
+__  
+  
+  
+21\. Duler - Piratenüberfälle häufen sich - Ersonter Bund schickt Hilfe  
+---  
+Gerüchte über Überfälle auf Handelsschiffe unter Flagge des Ersonter Bundes
+wurden durch Eintreffen der Karavelle "Stern von Papin" bestätigt. In den
+letzten Wochen kam es immer wieder zu Überfällen auf Schiffe, die Siebenwind
+ansteuerten oder zurück auf dem Wegin die großen Festlandhäfen waren. Dies ist
+der Grund für den beinahe zum Erliegen gekommenen Festlandhandel und für die
+maßlosen Preise von besonderen Festlandwaren.  
+Islarion Ethalasar, Kapitän der "Stern von Papin", ist auf dem Weg von Papin
+Stadt aus nach selbst von den Blutsäbelpiraten attackiert worden.
+Der Kapitän sprach von nur einem kleinen Rückschlag. "Die Verluste sind
+minimal", so seine Stellungnahme gegenüber der Redaktion des Boten. Trotzdem
+scheint das Schiff, welches vor der Seichtbucht bei Falkensee vor Anker liegt,
+stark in Mitleidenschaft gezogen worden und nichtmehr seetüchtig zu sein.  
+Aufgabe der Seegarde des Ersonter Bundes, wie sich die Marine auch nennt, ist
+es nicht nur die Schifffahrtsrouten zum Festland zu sicher und die Piraten auf
+dingfest zu machen. Ebenfalls gehört zu ihren Aufgaben jegliche
+militärische Unterstützung der Handelshäuser mit Sitz auf dem Boden des
+Bundes. Wie der Kapitän stolz verkündet, geht diese Unterstützung weit über
+bloße Wach- und Schutzdienste hinaus. "Unsere Aufgabe ist es, die Interessen
+all unserer Kaufleute durchzudrücken. Nur so kann der Wohlstand unserer
+Bürgerinnen und Bürger gesichert werden. Wir können daher keine Widersacher
+dulden, ganz gleich, welches Banner sie auch führen mögen".  
+Handelshäuser und Kaufmannsgilden auf dem Gebiet des Ersonter Bundes, sind
+daher angehalten Delegationen an den Kapitän zu senden und gegebenenfalls
+sogar Mitglieder als Offiziere zu stellen.  
+  
+_Ionas_  
+  
+  
+21\. Duler - Leserartikel: Piratenangriff auf Südfall  
+---  
+Die Informationen für diesen Bericht stammen von einem Gardisten des Ersonter
+Bundes. Sollten Informationen aus diesem Bericht fehlerhaft sein, so ist dies
+nicht mir zu verschulden. Als guter Bürger Falkensees habe ich aber ein großes
+Vertrauen in die Garde und ihre Informationen. Meinen Dank daher an die treuen
+Beschützer Falkensees.  
+  
+Am 14. Duler, zur Mitte des 7. Hellzykluses, wurde die Garde des Ersonter
+Bundes zur Hilfe gerufen vom Bürger Markus Panscher, Südfall. Leider waren die
+Gardisten gerade unterwegs um nach Lurkz, einem Stadtbekannten Vogelfreien
+Orken, zu suchen. Dieser hatte wohl wieder Reisende überfallen. Einzig
+Gardehauptmann Waldemar Delarie war greifbar. Deutlich hörte man, auch ich,
+seine Stimme durch die Stadt hallen, wie er alle Gardisten zu sich rufen
+wollte. Da sie aber gerade auf der genannten Orkenjagd waren musste der
+Gardehauptmann alleine, in Begleitung von Herrn Panscher, nach Südfall reiten.
+Kurze Zeit später sah man den Gardehauptmann eilig durch Falkensee
+galoppieren. Auf Nachfrage offenbarte man mir, dass der Hauptmann unterwegs
+gewesen sei um die Rittergarde zu alarmieren und um Hilfe zu bitten. Die Hilfe
+wurde von Hochmeister Yves Rondragon persönlich gewährt und sogar die
+Malthuster Leutnant Caoimme entsandte Unteroffizier Leandra um zu helfen. In
+der Zeit trafen auch die Gardisten Ersonts wieder in Falkensee ein. Herr
+Panscher gab ihnen Bescheid über die Lage. Gardist Alarich Falkenhain
+organisierte darauf einige seiner Kameraden, die er gerüstet am Markt antreten
+lies. Alleine kam der Gardehauptmann wieder zurück. Er nahm seine Leute unter
+Befehl und führte sie gen Südfall, um sich mit Verstärkung zu treffen.  
+  
+Wie sich herausstellte hatten Piraten, unter Mithilfe des Orken Lurkz und
+seiner Bande, Südfall eingenommen und das Rathaus entzündet. Auch andere Teile
+des Dorfes sollen gebrannt haben. Gemeinsam konnten Rittergarde, Ersonter
+Garde und Ersonter Marine sie jedoch vertreiben. Es gelang ihnen die Flucht.
+Die Brände wurden gelöscht. Was zurückblieb war eine verletzte Frau, die der
+Betreuung des Riesen Gorem überlassen wurde.  
+  
+Was aber hatten die Piraten vor? Wollten sie das Dorf plündern während es
+brannte? Und warum hatte Lurkz ihnen geholfen? Verbünden sich diese Piraten
+nun schon mit vogelfreien Orken? Wir können nur hoffen, dass ihnen ein solcher
+Schlag auf Falkensee nicht gelingt, doch dies weiß die Garde unter Leitung von
+Hauptmann Waldemar Delarie wohl zu verhindern!  
+  
+_Der Ersonter_  
+  
+  
+21\. Duler - Gerüchteküche  
+---  
+\- Spuk in Burg Finianswacht? -  
+  
+Seit einigen Tagen kann man immerwieder eigenartige Laute in der Burg in
+Finianswacht vernehmen. Geisterhaftes Seufzen und Stöhnen, gleich den Lauten
+einer ruhelosen Seele, lässt manch einem Burgbewohner die Haare zu Berge
+stehen.  
+Fragt sich wer oder was dort so leidet. Vielleicht ist es gar ein Liebespaar
+welches diese Laute von sich gibt - verzerrt im Tone durch die dicken Mauern?  
+  
+\- Goldmünzenspur zur Schneiderei Weberknecht -  
+  
+Vor ein paar Tagen fand sich eine auffällige Spur von Goldmünzen, welche sich
+vom Nordtor direkt bis vor die Tür der Schneiderei Weberknecht wandt. Fraglich
+ob dies eine Werbemaßnahme der Schneiderei war oder ob jemand die Besitzer der
+Schneiderei aus der Stadt locken wollte.  
+Kurze Zeit darauf waren die Münzen auch schon wieder verschwunden. Ob sie
+ihren Dienst getan haben oder ob sich ein zufälliger Passant der Münzen
+erbarmt hat, ist unbekannt.  
+  
+\- Baldige Hochzeit der Rätin Aurora -  
+  
+Die bekannte Rätin des Ersonter Bundes Solice Aurora soll vor kurzem von einem
+jungen Barden einen Heiratsantrag bekommen haben. Unterstützt wird dieses
+Gerücht auch durch ein Gedicht, welches den Weg in den Briefkasten des Boten
+fand:  
+  
+Wunderbar wie Aurora  
+  
+Wer ist die Frau, versucht zu raten  
+mit schönen Zügen, feinen, zarten.  
+Hat stets ein nettes Wort für alle,  
+Nur selten zeigt sie ihre Kralle.  
+  
+Stets erschöpft durch viele Taten,  
+die Bürger lässt sie ungern warten.  
+Die ganze Stadt auf ihrem Rücken,  
+und dennoch weiß sie zu entzücken.  
+  
+Heilend wirkt, für Leib und Seel  
+ist sie denn völlig ohne Fehl?  
+Liebenswert von Kopf bis Zeh  
+Gar hilflos wäre Falkensee  
+Ganz ohne diese hübsche Fee.  
+  
+Doch ein Magel wurd gefunden  
+bevor der Reim ist ganz entschwunden  
+Erfüllt sie zwar stets ihre Pflichten  
+doch auf Solice ist schwer zu dichten.  
+  
+_Die Redaktion_  
+  
+  
+21\. Duler - Maskenball zu Brandenstein  
+---  
+Prachtvolle Aushänge verkündeten es schon Wochen zuvor - am 28. Onar, zu
+Beginn des 7. Hellzyklus, sollte es einen festlichen Maskenball auf der
+Waldlichtung unweit des Osttor zu Brandenstein geben. Voraussetzung zur
+Teilnahme am Ball waren eine Maske und festliche Kleidung. Dass die
+Patrizierin Brandensteins, Marnie Ruatha, schon immer ein Händchen für Bälle
+hatte, konnte sie nun auch dieses Mal wieder einmal zeigen - ein geräumiges,
+festliches Zelt wurde errichtet, innen ausgestattet mit einer großen
+Tanzfläche, aber auch genügend Sitzmöglichkeiten und Tischen, an denen man in
+gepflegter Runde ein Mahl einnehmen konnte. Ringsherum im Festzelt wurden die
+Speisen und Getränke - lobend sollte dabei der Brandensteiner Wein erwähnt
+werden - aufgebaut und etwas Zierrat, auch in Form von Gemälden, schmückten
+das Festzelt, das so kaum mehr den Anschein eines Zeltes erweckte. Einziges
+Manko war lediglich das Fehlen von Kohlepfannen, denn auch wenn der Vitama
+langsam Einzug hielt, war es doch wohl noch bedenklich frisch.  
+Unterhalten wurde die bunte Gästeschar von einem standfesten, aber auch
+maskierten Musikanten, dessen besonderes Händchen für Tanzmusik ihn leicht
+verriet. Einige interessante Kostüme, welche sich bisweilen sogar einem Thema
+angenommen hatten, waren zu sehen, wobei man auch ab und an den Eindruck
+gewann, dass manch einer den Maskenball mit dem nicht minder beliebten
+Narrentag verwechselte.  
+So kam es laut Unteroffizier Leandra der Malthuster Armee zu zwei Vorfällen,
+die jedoch den Gesamteindruck des Festes nicht zu trüben vermochten. So sei
+zum einen eine Nortravin namens Ladwa, von der einige Leute behaupteten, sie
+wäre tot gewesen, auf diese Worte hin ausfällig geworden. Sie brüllte wohl
+herum, zerrte an Masken und begoss einen Gast sogar mit Met, bis die
+Unteroffizierin sie endlich aus dem Zelt heraus bekam.  
+Der zweite Vorfall mochte im ersten Moment fast ähnlich anmuten, denn ein paar
+angebliche Nordmänner pöbelten herum und waren scheinbar angetrunken. Einer
+von ihnen verließ schließlich mit einer vermeindlichen Endophali auf den
+Schultern das Zelt, wobei sie zappelte und sich scheinbar wehrte. Die
+Unteroffizierin Leandra versuchte die Gruppe zur Rede zu stellen und das
+angebliche Opfer zu retten, was ihr jedoch nicht gelang. Als sie in Erfahrung
+brachte, wer diese Personen wohl gewesen sein mochten, ritt sie bis nach
+Seeberg, denn Sir Rondragon persönlich war es, der seine Verlobte, die sich
+als Endophali verkleidet hatte, "entführt" hatte. Ohne Frage eine Situation,
+die mehr durch ein Missverständnis entstand, doch zeigt es auch auf
+lobenswerter Weise, wie besorgt man um das Wohl der Gäste war. Bedenkt man das
+Attentat in Seeberg zum Festtag "Lob der Schwestern" ist es nur weise, auch
+weiterhin ein offenes Auge zu haben, selbst wenn es sich am Ende als ein Spaß
+unter vertrauten Personen erweist.  
+Doch von alledem abgesehen, war der Ball ohne Zweifel ein rauschendes Fest für
+die Sinne und es bleibt zu hoffen, dass die Patrizierin die Tradition der
+Brandensteiner Bälle auch in Zukunft weiterführen mag.  
+  
+_Felis_  
+  
+  
+21\. Duler - Korrektur zur Ausgabe 176 - Emanuel Sanderus lebt.  
+---  
+Zugegebenermaßen mag dieser Titel etwas verwirrend wirken, wurde noch im
+vorletzten Boten von der Beerdigung des ehemaligen Malthuster Soldaten Emanuel
+Sanderus berichtet. Doch wieder einmal waren es die verabscheuungswürdigen
+Machenschaften der Schwarzmagier, welche zu dieser Annahme führten.  
+Seinen Anfang nahm alles mit Kritik seitens des Soldaten Sanderus an Leutnant
+Gropp, die er im Gespräch mit dem ehemaligen Soldaten der Malthuster Wacht
+Simon Schwarz äußerte. Dieser drehte, den Aussagen Herrn Sanderus nach,
+förmlich durch und stürmte zu Leutnant Gropp, stellte Emanuel Sanderus als
+Anführer eines Putsches dar und rief gar noch weitere Soldaten zum Widerstand
+auf - etwas, was durch Herrn Sanderus nie bezweckt worden war.  
+Der Putsch wiederum schlug fehl, Soldat Schwarz floh und Soldat Sanderus wurde
+durch Erin Caiomme festgenommen. Als er jedoch in der Zelle saß, erschien eine
+Schwarzmaga mit dem Namen Gysell Kathul. Sie sprach ihm gegenüber etwas von
+einem "Plan", den sie ihm jedoch nicht verraten wollte. Noch am selben Tag
+öffnete sich erneut ein Tor in seiner Zelle und sie erschien, um den
+Gefangenen förmlich hindurch zu schubsen. An seiner statt hinterließ sie eine
+verbrannte Leiche.  
+Herr Sanderus jedoch wurde daraufhin für etliche Wochen oder sogar Monde in
+der Akademie zur Linken festgehalten. Scheinbar war er den Schwarzmagiern
+jedoch nicht mehr nützlich, so dass er eine von ihnen davon überzeugen konnte,
+ihn laufen zu lassen. So kehrte er zurück, suchte Leutnant Caiomme auf und bat
+zuerst um etwas Zeit, um ins normale Leben zurückkehren zu können.  
+Trotz alledem nahm Soldat Sanderus die Strafe für den Putschversuch auf sich
+und bekennt sich, nach einer Weile des zurückgezogenen Lebens, wieder
+öffentlich. Auch gegenüber dem Ordo Morsan wird es noch zu einer Klärung ob
+des Grabes auf dem Brandensteiner Morsansanger kommen.  
+  
+  
+  
+_Felis_  
+  
+  
+21\. Duler - Anzeige - Felis Schreibstube  
+---  
+Euch fehlen die Worte?  
+Vielleicht aber auch bloß etwas Papier, um eure Gedanken niederzuschreiben?  
+Eure Schreibfeder ist schon zu stark abgenutzt?  
+Oder soll es gar eine Leinwand für ein Gemälde sein?  
+  
+Verzagt nicht, sondern schaut bei Felis Schreibstube in Brandenstein, schräg
+gegenüber der Kapelle, vorbei!  
+  
+Gleich ob Tagebuch, Papier für Briefe, stabile Schreibfedern, die passende
+Leinwand, um seine Ahnengalerie weiter auffüllen zu können oder eine Kladde,
+um Ordnung in eure Briefe zu bringen - hier findet ihr so einiges, um euren
+Worten und Zahlen Gestalt geben zu können oder eurer Kreativität freien Lauf
+zu lassen.  
+Auch werden gerne Schreibarbeiten jeglicher Art (ausgenommen Hetzschriften,
+insbesondere gegen Krone und Kirche) angenommen.  
+  
+Felis Schreibstube - Brandenstein 16  
+  
+ __  
+  
+  
+21\. Duler - Eröffnung Kriegerakademie zu Seeberg  
+---  
+Am 8. Duler wurde zum siebten Dunkelzyklus in Seeberg direkt vor den Toren der
+Kriegerakademie die Wiedereröffnung eben jener in einer kleinen, aber auch
+feinen Runde gefeiert. Nach einer kurzen Begrüßung durch den Leiter und
+Hochelfen Calanhen Lilthameigol, hielt Eminenz Herand eine Predigt, in der er
+von den Tugenden Bellums und damit auch der eines Kriegers sprach. Doch
+betonte er darauf auch: "So wisset, es seie an euch zu lernen über alle
+Tugenden, denn nicht nur der Kampf schule euch. Oft seie der Verstand
+wichtiger und stärker und so ihr euch an die Tugenden der Götter haltet, so
+seiet ihr rein in eurer Seele." Ein Gebet an die Viere folgte daraufhin, ehe
+er das Wort an Sir Rondragon, dem Herrmeister der Ritterschaft und Lehnsherr
+Seebergs, übergab. Jener bedankte sich für das Erscheinen der Interessierten
+als erstes, ehe er Herrn Lilthameigol als Leiter der Akademie vorstellte und
+erwähnte, dass mit der Fortführung der Akademie auch auf diese Weise das
+Vermächtnis des Hochmeisters Laske, welcher einst die Akademie aufbaute,
+geehrt werden würde. Sir Rondragon betonte in seiner Rede, dass die Akademie
+ein Ort und eine Gelegenheit wäre, um Krieger auszubilden, um mit diesen ein
+Heer für die letzte Schlacht zu formen. Daraufhin verlieh der Ritter der
+Kriegerakademie zu Seeberg, vertreten durch ihren Leiter, das Kronpatent zur
+Lehrbefugnis - sie mag sich fortan "Königliche Kriegerakademie zu Seeberg" im
+Schriftverkehr nennen und, wie der Sir herausstellte, ihrer Bürde angemessen
+gerecht werden.  
+Dadurch, dass die Akademie nun eine Institution der Krone und der Ritterschaft
+ist, würde zudem letztere ihren Nachwuchs aus den götterlaufsbesten
+Absolventen maßgeblich erwählen. Ohne Frage eine besondere und einmalige
+Gelegenheit, die es wohl auf dem Festland kaum geben mag.  
+Nach der Rede Sir Rondragons übergab jener das Wort wieder an den Leiter der
+Akademie, Herrn Lilthameigol. Dieser sprach nunmehr zu der versammelten
+Gästeschar über das Handwerk des Kriegers, das eines der wenigen Handwerke
+ist, von dem man hofft, dass es so wenig wie möglich zum Einsatz kommt. Doch
+sollte es dazu kommen, so sprach der hochelfische Leiter weiter, so sollten
+die Waffen der Krieger, vor allem die Waffen der künftigen Absolventen immer
+im Sinne der Viere und damit auch seiner Majestät geführt werden. Seine Rede
+schloß er mit "Mögen die Viere, allen voran Bellum, stets über uns wachen."  
+Es wurde dann noch in den "Tanzenden Drachen" der Burg Schwingenwacht in
+Seeberg zu einem Umtrunk geladen.  
+  
+Herr Lilthameigol wiederum stand dem Boten am nächsten Tag
+freundlicherweise zu einigen Fragen Rede und Antwort, die auch sicher manchen
+Lesern, die Interesse an der Kriegerakademie haben könnten, interessieren
+mögen.  
+  
+Bote: Herr Lilthameigol, ich denke, was viele interessieren wird,
+ist gewiss die Frage, an wen sich das Angebot der Akademie richtet. Ob es eher
+blutjunge Kämpfer sind oder ältere, erfahrene Krieger oder ob sogar auch
+vollkommen unerfahrene Handwerker oder gar Bauern gerne gesehen sind, die
+einfach nur lernen möchten, sich zu verteidigen. Könntet ihr mir dazu mehr
+sagen?  
+Herr Lilthameigol: Hier geht es vor allem um die weitere Formung und Schulung
+von Kämpfern zu Kriegern.  
+  
+Bote: Also richtet sich das Angebot weniger an vollkommen
+unerfahren Personen?  
+Herr Lilthameigol: Wenn ein Mensch in jungen Jahren gedenkt, den Weg eines
+Kriegers zu gehen, finden sich in den Reihen der Lehrer hier an der Akademie
+sicher geeignete Personen, die auch das Handwerk, den Umgang mit der Waffe
+selbst, lehren können, aber das ist nicht das Hauptaugenmerk dieser Akademie.  
+  
+Bote: Also geht es mehr um den Feinschliff und möglichst das
+Vertiefen bereits vorhandener Kenntnisse, richtig?  
+Herr Lilthameigol: Richtig, und um die Formung zum Krieger. Das Führen einer
+Waffe ist nur eine Grundlage für einen Krieger. Es gehört aber mehr dazu.  
+  
+Bote: Damit kommen wir sogar gleich zu meiner zweiten Frage. Mich
+würde nämlich interessieren, wie das Kursangebot aussieht und was noch alles
+in der nahen Zukunft geplant ist.  
+Herr Lilthameigol: Wir fangen mit einem Grundangebot an, lehren erste
+Grundlagen für künftige Angebote. Das beginnt mit einem Unterricht in
+Etikette, über ersten Unterricht über die Völker Tares bis hin zur ersten
+Hilfe bis zu praktischen Übungen. Glaubenslehre wird ebenso ein Teil des
+Unterrichts sein.  
+  
+Bote: Was vielleicht Anhänger der Enhor oder der Gohor
+interessieren mag - würde dieser Glaubensunterricht für sie verbindlich sein
+oder wie wird da dann verfahren?  
+Herr Lilthameigol: Es gibt Pflichtfächer und Fächer, die gewählt werden
+dürfen. Aber der Unterricht dient nicht dazu, Gläubige zu bekehren oder
+ähnliches, aber das Wissen um die verschiedenen Glauben wird helfen, Menschen
+einzuschätzen und mit ihnen umzugehen. Und das Wissen darum kann und wird
+sicher den einen oder anderen Konflikt vermeiden.  
+  
+Bote: Da habt ihr auf jeden Fall recht. Aber ihr erwähntet
+Pflichtfächer. Könnt ihr einige Fächer nennen, die Pflichtwären?  
+Herr Lilthameigol: Etikette zum Beispiel, Glaubenslehre, Erste Hilfe und
+Wissen um die Gesetze der Lehen auf Siebenwind. Völkerkunde zählt ebenso dazu.  
+  
+Bote: Und hättet ihr noch ein paar Beispiele für wählbare Fächer,
+die angeboten werden?  
+Herr Lilthameigol: Umgang mit Nahkampfwaffen, Umgang mit Fernkampfwaffen und
+der Kampf zu Pferd zum Beispiel wären wählbare Fächer.  
+  
+Bote: Was sicher viele interessieren mag - wie schaut es aus mit
+einem Zertifikat oder einem Zeugnis? Erhält man so etwas am Ende seines
+absolvierten Unterrichts? Immerhin wäre es gewiss praktisch, wenn man sich bei
+einer Garde oder ähnliches bewerben möchte.  
+Herr Lilthameigol: Die meisten Kämpfer kommen wohl schon als Soldaten hierher,
+sind also schon Mitglied in einer der Truppen auf Siebenwind. Zudem sind
+Offiziere oder Unteroffiziere jeder der hiesigen Truppen als Lehrer tätig. Es
+braucht also kein Zertifikat oder ähnliches. Wenn ein Absolvent eine
+Beurteilung benötigt, kann er sie aber natürlich erhalten.  
+  
+Bote: Es gibt ja einige erfahrene Krieger auf dieser Insel. Werden
+denn noch momentan oder allgemein Lehrkräfte von der Akademie gesucht?  
+Herr Lilthameigol: Wenn ein Krieger der Ansicht ist, er kann etwas zum
+Unterricht beitragen und seine Ansicht in die der Schule passt, kann er sich
+gerne bei mir melden. Vor allem Krieger der verschiedenen Völker Siebenwinds
+wären gerne gesehen.  
+  
+Bote: Was dann sicher für einige noch interessant sein mag, wäre
+die Frage, ob der Unterricht etwas kostet oder ob man besondere Ausrüstung
+mitzubringen hätte.  
+Herr Lilthameigol: Nein. Es wird vorerst nichts kosten und ich denke, jeder
+Krieger besitzt seine Ausrüstung, mit der er umgehen kann. Es bedarf also
+keinerlei besonderer Ausrüstung nur für den Unterricht.  
+  
+Bote: Die Akademie hat ja schon länger Bestand auf dieser Insel.
+Einst hatte sie ja ihre Heimat in der Vorburg der Finianswacht, nun in
+Seeberg. Hat sich denn nun im Vergleich zu damals noch mehr geändert, außer
+dem Standort?  
+Herr Lilthameigol: Das müssen die Personen beurteilen, die die Akademie vor
+ihrer jetzigen Neueröffnung kannten.  
+  
+Derbedankt sich an dieser Stelle nochmals bei Herrn Lilthameigol für das
+Gespräch.  
+  
+_Felis_  
+  
+  
+21\. Duler - Aufbau und baldige Eröffnung der Künstlerakademie zu Falkensee  
+---  
+Dem einen oder anderen Bewohner Falkensees wird es wohl aufgefallen sein, dass
+die alte Kaserne am Nordtor, welche einst das XIII.Kronregiment und danach die
+Tempelwache beherbergte, nunmehr äußerlich verspielter und künstlerischer
+ausfallen mag. Erhält man die Gelegenheit, das Gebäude betreten zu dürfen, so
+sind auch innen die Veränderungen offenbar - wo einst enge, zweckmäßige
+Schlafräume mit Stockbetten, dunkle, nur durch Fackelschein erhellte Räume zur
+körperlichen Ertüchtigung oder abschreckende, vergitterte Zellen zu finden
+waren, findet man nun größere, hellere und vor allem freundlichere Räume vor.
+Statuen, erschaffen durch den Leiter der Künstlerakademie, Herrn Aradam,
+schmücken die Nischen und Wände, hier und da einige große Vasen gefüllt mit
+prächtigen Rosen und wo einst Gefangene in einer Grube arbeiteten, findet sich
+nun ein Platz für die Bildhauer dieser Insel. Noch fehlt es zwar am Großteil
+der Einrichtung, doch wird es gewiss nicht mehr lange dauern und die Akademie
+wird ihren Betrieb aufnehmen dürfen. Ein Fest zur Eröffnung ist wiederum für
+den 28. Duler geplant und bereits jetzt werden Barden und Köche gesucht, die
+sich mit dieser Gelegenheit einige Dukaten dazu verdienen können.  
+Zum Aufbau einer Künstlerakademie kam es, da die Stadt Falkensee Herrn Aradam,
+der bereits das Künstlerhaus leitete, fragte, ob er ein Museum, wo man Kunst
+ausstellen könnte, aufbauen würde. Der erste Gedanke, der zur Akademie führte,
+war der, dass er mehr Platz benötigen würde und zwar mehr, als das
+Künstlerhaus hergibt. Das Künstlerhaus, so sprach Herr Aradam gegenüber dem
+Boten, wäre auch mehr ein nettes Zusammenwohnen von Falkenseer Künstlern, als
+ein gemeinsames Arbeiten. Er wollte nun etwas schaffen, was die Künstler
+zusammenbringt und nicht nur Tür an Tür wohnen lässt. Angedacht ist es, dass
+auch nach der Eröffnung, wenn die Akademie größtenteils eingerichtet ist,
+jeder Künstler etwas zum Gebäude beiträgt, was den Geist des Gebäudes nach
+außen tragen wird.  
+Das Lernen und Arbeiten in der Künstlerakademie wird eher von lockerer Natur
+sein. Zwar dient die Akademie dem Lernen, dem Sammeln von neuen Eindrücken und
+um sein Können zu verbessern, doch, so betonte Herr Aradam, kann man Kunst
+nicht erzwingen.  
+Nach dem Aufbau des Künstlerhauses und des Theaters sowie Aufrufen zu
+Künstlerwettbewerben, ist dies ohne Frage ein nächster Schritt, der die Kunst
+auf der Insel Siebenwind, vor allem aber in Falkensee fördert. So bleibt zu
+wünschen, dass die Einwohner der Insel und Falkensees dieses besondere Angebot
+zu schätzen und in Anspruch zu nehmen wissen, auf dass die Kultur weiter
+aufblühe!  
+  
+_Felis_  
+  
+  
+21\. Duler - Anzeige: Haarschnitte - Rasuren - Bartpflege in Dunquell  
+---  
+Meister Moosgrund schneidet, färbt und frisiert alle Haare der Insel. Rasuren
+für jedermann und Bartpflege nach Dwarschimart. Zu Buchen auf für Volksfeste
+und Tavernenabende, ansonsten Termine nach Vereinbarung in Dunquell. Fragt
+nach Sedtrick Moosgrund.  
+  
+__  
+  
+  
+21\. Duler - Neue Projekte von Herrn Mondsilberhaar  
+---  
+Bekanntermaßen gehört der hochelfische Händler Anadrius Mondsilberhaar mit zu
+den tatkräftigsten Personen Falkensees, gar der gesamten Insel. Neben
+verschiedenen Expeditionen bietet er nun seit kurzem Schneidern und
+Schafshirten die Möglichkeit an, sich von ihm einen Schlüssel geben zu lassen
+und damit Zugang zu einem großen Schafsgatter in Südfall zu erhalten. Einzige
+Bedingung, die an dem Zugang geknüpft ist, ist die Sorge für die Tiere zu
+tragen, angefangen vom Auffüllen des Wassers in der Tränke, frisches Futter
+bis hin zum Ausmisten des Gatters. Wer daran Interesse hat, kann sich bei
+Herrn Mondsilberhaar im Handelshaus Goldblatt in Falkensee melden.  
+Darüber hinaus beabsichtigt Herr Mondsilberhaar die Felder in Südfall für
+jedermann öffentlich zu halten, so dass jeder dort ernten kann, der nicht in
+der Lage ist, eigenes Land zu pachten. Auf die Rückfrage, ob dieses Angebot
+sich nicht schädigend auf die Bauern auswirken könnte, gab der Kaufmann zur
+Antwort, dass es zu wenig Ackerland wäre und noch dazu weit entfernt liegt.  
+Diese Angebote sind ohne Frage eine willkommen Hilfe besonders für
+Neuankömmlinge, die sich auf diese Weise ihre ersten Dukaten verdienen
+könnten. Es sei daher diesen durchaus angeraten, sich mit Herrn Mondsilberhaar
+in Kontakt zu setzen.  
+  
+_Felis_  
+  
+  
+21\. Duler - Diplomatischer Empfang der Zwerge in Falkensee  
+---  
+Anfang Duler reisten zwei Angehörige des Volkes der Dwarschim - der Obmann
+Endurion Hormgar und Meister der Münze Bumpur Purbier - auf Einladung des
+Hauptmannes der Ersonter Garde Waldemar Delarie nach Falkensee. Sie wurden an
+der Grenze mit militärischen Ehren empfangen und traten dann vor dem Ersonter
+Regierungsrat. Nachdem sich das Ersonter Lehen und das Lehen der Dwarschim
+schon zuvor freies Durchzugsrecht für ihre Truppen durch das jeweilige Land
+zugesichert hatten und jeder Dwarschim das alte Recht erhielt, von allen Wehr-
+und Rüstungsbestimmungen befreit zu sein, wurden nun Gespräche aufgenommen, um
+die bisherigen Beziehungen zu verbessern und den Handel zu intensivieren.  
+Eine der ersten Überlegungen ist der Bau einer gepflasterten Straße zwischen
+Kesselklamm und Falkensee, wobei die Antwort der Dwarschim bisher noch
+aussteht. Darüber hinaus haben sie ihre Dienste als angesehene Handwerker, wie
+auch die fachkundige Aufsicht der Minen des Lehens angeboten. Auch haben die
+Baumeister der Dwarschim ein Angebot für ein Bauprojekt in Falkensee erhalten,
+dass sie beaufsichtigen und gegebenenfalls leiten sollen, wobei Details
+darüber bis dato noch unter Verschluss gehalten werden.  
+Im Gespräch mit dem Boten wurde von Seiten der Rätin Aurora betont, dass es
+keine Verhandlungen gibt, die dem Pakt zwischen den Dwarschim, Nortraven und
+Brandenstein zuwider laufen und es auch keinen Vereinbarungen gibt, die zu
+einer Waffenbruderschaft nötigen.  
+  
+_Felis_  
+  
+  
+21\. Duler - Allerlei  
+---  
+\- Neustrukturierung der Verwaltung Falkensees  
+Derzeit arbeitet der Rat des Bundes in Falkensee gemeinsam mit Fräulein Zemand
+an einer Neustrukturierung der Verwaltung. Ziel ist die Verbesserung der
+Abstimmung zwischen Rathaus und Rat und es wird sich bemüht, die Reform so
+schnell wie möglich abzuschließen.  
+  
+\- Kaufmann Mondsilberhaar im Ersonter Rat  
+Der inselweit bekannte Falkenseer Kaufmann Anadrius Mondsilberhaar wohnt seit
+kurzem dem Ersonter Rat als nicht stimmberechtigter Berater bei.
+Möglicherweise wird er in Zukunft vollständiges Ratsmitglied, insbesondere für
+Fragen des Handels, Handwerks und des Volkes der Hochelfen.  
+  
+\- Ersonter Marine auf  
+Seit kurzem befindet sich die Ersonter Marine in den Gewässern von Siebenwind.
+Noch bisher unbestätigten Gerüchten nach zu urteilen, würden sie wohl
+vornehmlich die Piraten der Insel jagen, die zudem kürzlich Südfall angriffen.  
+  
+_Die Redaktion_  
+  
+  
+21\. Duler - Wechsel im Rathaus Falkensee  
+---  
+Ein Wechsel im Rathaus zu Falkensee wurde kürzlich vorgenommen. Am 14. Duler
+bot Fräulein al Achid dem Ersonter Rat ihren Rücktritt an, nachdem es in der
+Vergangenheit wohl öfter zu Unstimmigkeiten kam, was die Amtsführung anging.
+Diese Unstimmigkeiten werden dabei auf eine nicht funktionierende
+Kommunikation zwischen Rathaus und Rat zurückgeführt. Der Rat indes hat dem
+Wunsch, stellvertretend für die Burggräfin, stattgegeben, doch wurde auch
+betont, dass dieser Schritt nicht im Zusammenhang mit etlichen obskuren
+Flugschriften oder dem Artikel im Freien Blatt zusammenhängt. Die Anklagen der
+Grauen Garde wurden offenbar sehr gründlich geprüft und die Statthalterin
+selber stellte ihr Haus zur Durchsuchung frei, ebenso wie sie sich einer
+Prüfung vor Gnaden Custodias unterzog. Die Anklage wurde daraufhin ohne eine
+Verurteilung abgeschlossen.  
+Fräulein Hebren Zemand, vormals Stadtconsula Falkensees, bekleidet nun das Amt
+der Statthalterin kommissarisch. Lobend wurde ihr bisheriger Einsatz durch die
+Rätin Aurora erwähnt, hatte sich doch Fräulein Zemand in kurzer Zeit von einer
+Secretaria hochgedient und in einer turbulenten Zeit im Rathaus gearbeitet, in
+der sie oft auf sich allein gestellt war. Sie stieg schnell auf, um
+Personallücken zu füllen, was sie weitgehend hervorragend schaffte, so dass
+sie nun vorläufig die Führung über die Stadt Falkensee inne hat.  
+Als weitere Wechsel im Rathaus sei noch bekannt gegeben, dass man sich von
+Herrn Ahilur als Mitarbeiter trennte, ihm aber weiterhin alles Gute für die
+Zukunft wünscht.  
+Als eine Neueinstellung im Rathaus sei die neue Secretaria Fräulein Imea Ekula
+genannt, von der Fräulein Zemand, wie auch einige Bürger, in den höchsten
+Tönen sprechen und von der man, wie die Rätin Aurora im Gespräch betonte, noch
+viel erwarten kann. Ebenso wurde Herr Rondrian Valron neu eingestellt. Der
+Bote wünscht den beiden neuen Mitarbeitern des Rathauses viel Erfolg und
+frohes Schaffen.  
+Seitens der Rätin Aurora geht an dieser Stelle noch ein Dank an die ehemalige
+Statthalterin, Fräulein Noalim al Achid, für ihre Mühen und dass man sich
+ihrer Verdienste auch weiterhin bewusst ist.  
+  
+_Felis_  
+  
+  
+21\. Duler - Leserartikel: zu "Wechsel im Rathaus"  
+---  
+Die Ära der unfreundlichen Behandlung im Rathaus Falkensee endete dieser Tage.
+Endlich kann man wieder ins Rathaus gehen um seine Pacht zu zahlen ohne mit
+schlechtem Gewissen wieder heraus zu kommen. Lang sind die Zeiten her in denen
+Solice Aurora als Statthalterin ihr Amt tat. Und nun verabschieden wir auch
+Noalim al Achid.  
+  
+Die Ära al Achid ist beendet und viel zu lang war sie. Wenn wir uns ihre
+Arbeit betrachten, dann kommen wir auf einige Momente in denen man die Stadt
+verlassen wollte. Wie war das mit dem Magierverbot? Die Einstellung des Elfen
+Ahilur? Das sind nur zwei Beispiele einer langen Verkettung von
+Fehlentscheidungen. Vielleicht wird es der al Achid in Zukunft besser ergehen.
+Offiziell bat sie selber um den Rücktritt, glaubwürdig klingt es auch, aber so
+recht will mir nicht in den Kopf warum diese Frau mit all ihrer Sucht nach
+Macht und den Anklagen des Schwarzmagiertums von selbst den Schritt zurück
+wagen sollte. Hat der dunkle Bruder der heiligen Viere es ihr eingeflüstert?  
+  
+Wohl noch viel erfrischender aber ist, dass nun auch Herr Ahilur seinen Hut
+nehmen musste. Mit einem "Arschtritt" wurde er vor die Türe gesetzt. Dies
+merkte man ihm auch an, denn er musste, laut Berichten, von zwei Gardisten
+zurück in das Rathaus geführt werden um seine Schlüssel abzugeben. Dieser Elf
+mag so gar nicht einem Elfen gleich, denn schon lange gibt es Vermutungen,
+dass er vielleicht der sein könnte, der hinter der al Achid die Fäden zog und
+ihr die Machtgelüste einflüsterte. Er war nirgendwo beliebt. Sein Versuch per
+Gesetzgebung eine Pflichtzunft für alle Handwerker und Händler in Falkensee zu
+ergründen war ein afront gegen jeden Mitbürger. Vorallem aber sein Auftreten
+dabei, denn nahm er keine Kritik. Reichhaltig beschwerten wir uns und nun
+endlich sehen wir Ergebnisse. So ungern wir Mitbürger verlieren - über Herrn
+Ahilur würde niemand weinen.  
+  
+Aber genug der Vergangenheit. In die Zukunft wollen wir sehen. In der Zukunft
+wird die Stadtverwaltung wahrscheinlich umstrukturiert, denn die Konsula
+Zemand wurde zur kommisarischen Statthalterin ernannt. Viel Glück wünsche ich
+ihr dabei und bin sicher nicht der einzige unter den Bürgern, der dies tut.
+Sie weiß es mit freundlichem Witz aufzufahren, wenn dieser auch manchmal sehr
+überzogen ist. Es weht nun doch ein deutlich frischerer Wind im Rathaus, sogar
+einige neue Sekretäre konnte man sehen.  
+  
+Gerüchtehalber könnte man durch die kommisarische Übernahme des
+Statthalteramtes durchaus die Gerüchte um den Überlauf von Marnie Ruatha aus
+Brandenstein bestätigt sehen.  
+  
+_Der Ersonter_  
+  
+  
+21\. Duler - Leserartikel: Das Handwerkshaus zu Falkensee: ein Trauerspiel!  
+---  
+Es war ohne Frage eine Freude zu sehen, als ich einst auf diese Insel kam,
+Falkensee, eine blühende Stadt, betrat und dort ein gut bestücktes
+Handwerkshaus vorfand. Egal, ob nun eine Esse für den Schmied, Werkbänke für
+die Holzarbeiter, Webstuhl, Spinnrad, ein wärmender Kamin oder Farbbottiche.
+Es war alles vorhanden und man konnte als noch mittelloser Handwerker auf
+dieser Insel seinen Anfang wagen.  
+Doch seit Wochen schon bietet sich einem im Handwerkshaus zu Falkensee ein
+trauriges Bild: leere Räume!  
+Wo man einst erste Kontakte zu anderen Handwerkern oder Händlern knüpfen
+konnte, leicht und ohne die zugigen Räumlichkeiten der Markthalle Kunden traf,
+herrscht gähnende Leere.  
+Natürlich fragte ich mich, wie so viele Einwohner und Bürger, was der Grund
+sein mag und nach einigen Fragen bei verschiedenen Personen, kam die Wahrheit
+allmählich ans Licht. Vertrieben wurde das Kontor, welches sich wohl um das
+Handwerkshaus gekümmert hatte und es instand hielt. Vertrieben einzig und
+allein aufgrund der Machtgier gewisser Personen im Rathaus.  
+Was bleibt ist nun der Gang in die zugige Markthalle, wo man aber auch nicht
+alles an Werkzeugen findet, was man braucht oder nach Südfall oder gar
+Brandenstein, wo man Handwerkshäuser vorfinden kann. In Südfall wurde es auch
+wohl erst aufgebaut, nachdem jenes in Falkensee leer geräumt wurde.  
+Doch was soll nun mit dem leeren Handwerkshaus in Falkensee geschehen?  
+Und wo bleiben die Konsequenzen für das kurzsichtige Verhalten der
+Rathausmitarbeiter?  
+Möchte Falkensee keine neuen Handwerker mehr oder warum wurde die Räumung
+zugelassen?  
+  
+_Ein Ersonter Einwohner_  
+  
+  
+21\. Duler - Preisrätsel  
+---  
+Gewinner des letzten Preisrätsels - bereitgestellt von Herrn Markus Panscher -
+ist Toras, Mitarbeiter des Hospitals in Brandenstein. Das Preisgeld von 500
+Dukaten wird ihm in den kommenden Tagen zugestellt oder er kann es bei der
+Redaktion oder dem Novizen Ionas abholen.  
+  
+Um die Idee auszugreifen wird für diese Ausgabe die Redaktion selbst ein
+Preisrätsel ausschreiben. Lösungszuschriften bitte in den Briefkasten der
+Redaktion in Seeberg oder an den Novizen Ionas.  
+Einen Preis wird es natürlich auch geben.  
+  
+Und hier das Rätsel:  
+Eines schönen Tages gingen zwei Väter und zwei Söhne zum Fischen an einen See.
+Den ganzen Morgen fischten und redeten sie miteinander, und am Mittag hatte
+jeder einen Fisch. Als die zwei Väter und die zwei Söhne nach Hause gingen,
+freuten sie sich darüber, dass jeder von ihnen einen Fisch gefangen hatte,
+obwohl sie nur drei Fische gefangen hatten.  
+Zwei Väter und zwei Söhne. Drei Fische wurden gefangen. Jeder hat einen. Wie
+geht denn das?  
+  
+_Die Redaktion_  
+  
+  
+21\. Duler - Entschuldigung zum Artikel "Angriff Ersonts auf Vänskap"  
+---  
+Zugegebenermaßen ist die Arbeit als Schreiber einer Zeitung, die (abgesehen
+von der berüchtigten Gerüchteküche und den unterhaltenden Artikeln) sich der
+Wahrheit verpflichtet fühlt und sich bemüht, Abstand von Polemik zu nehmen
+versucht, nicht immer einfach. Persönliche Vorlieben, Bekanntschaften, das
+Umfeld selber müssen nicht selten für die Arbeit an Artikeln ausgeblendet
+werden, doch vor allem sollte man sich generell die Zeit nehmen, jede Seite,
+jede Behauptung, jede Ansicht genau zu untersuchen, um der Wahrheit nahe zu
+kommen, wenn man selber nicht dabei war.  
+Ich beging leider mit dem genannten Artikel in der letzten Ausgabe den Fehler,
+dass ich lediglich eine Seite anhörte. Daher möchte ich mich an dieser Stelle
+nochmals offiziell entschuldigen und werden künftig versuchen, diesen Fehler
+nicht zu wiederholen. Eine Stellungnahme zu dem Vorfall wird in dieser Ausgabe
+durch den Hauptmann Delarie zu lesen sein.  
+Doch ist es auch wichtig, dass man sich überhaupt beide Seiten anhören kann.
+In diesem Falle kann ich natürlich die Weitergabe von Informationen durch
+Halgar, Hauptmann Delarie oder auch der Rätin Aurora lobend erwähnen, doch
+würde es mich auch freuen, wenn auch weiterhin Informationen an den Boten
+herangetragen werden, gleich ob es sich um politische Entscheidungen,
+Konflikte, diplomatische Gespräche oder schlicht um Alltägliches handelt. Nur
+durch den Hinweis, welche Seiten eine Medaille noch haben kann, kann sich der
+Bote auch dieser annehmen und diese darstellen.  
+So möchte ich diese Stelle nicht nur für meine Entschuldigung wegen mangelnder
+Recherchen nutzen, sondern auch als Aufruf an alle auf dieser Insel, denen
+etwas an der Wahrheit liegt. Allein durch eure Hilfe kann derauch
+weiterhin bestehen und allein durch eure Zuschriften oder indem ihr
+Mitarbeiter und freie Schreiber des Botens ansprecht oder gar selber euch als
+Schreiber anbietet, ist es möglich, wahre Fakten zu drucken.  
+  
+_Felis_  
+  
+  
+21\. Duler - Stellungsnahme: Waldemar Delarie  
+---  
+\- Tag der Helden -  
+Schwere Anklagen werden gegen mich erhoben, ob meines Verhaltens am Tag der
+Helden. Ich komme nicht umhin mich dazu zu äußern um eine Richtigstellung zu
+erreichen. Entgegen anderer Menschen, die sich scheinbar gegen die Redaktion
+des Boten richteten bin ich kein Mensch, der seinen Zorn über Schriften an
+jenen auslässt, die in ihrer Neutralität jeden Artikel abbilden. Dieses
+Verhalten kann nicht toleriert werden.  
+Es ist aber wahr, dass ich in einem Anfall der Wut gegen Leutnant Coimme am
+Tag der Helden ein falsches Verhalten an den Tag legte. Es war niemals mein
+Wille die Leistungen der Bürger Brandensteins zu schmälern. Einzig das
+Verhalten Leutnant Coimmes sties mir auf. Ich entschuldige mich über dieses
+öffentliche Schreiben bei allen beteiligten. Jedoch zeigt sich, dass in meinen
+Worten viel Wahrheit steckte. Ist es nicht so, dass Malthust nun doch seine
+„Helden“ ehrte? Spezielle Personen, die besondere Leistung im Dunkeltief
+zeigten.  
+Über dieses sollte jeder einmal nachdenken!  
+  
+\- Angriff Ersonts auf Vänskap -  
+Ich möchte klarstellen, dass nicht das gesamte Volk der Nortraven schuld war
+für den Aufmarsch der Garde des Ersonter Bundes vor Vänskap. Schuldig war
+einzig Halgar. Dieser hat sich offen schuldig bekannt für die Flammen im
+Armenviertel Falkensees schuldig zu sein. Ebenso hat er den Bürger des
+Ersonter Bundes, Markus Panscher, angegriffen. Mit unserem Aufmarsch wollten
+wir erreichen, dass er mit uns kommt und eine gerechte Strafe für seine Taten
+erhält. Leider weigerte sich Halgar uns zu begleiten, im Gegenteil. Nach
+hitzigen Gesprächen zwischen ihm und mir befahl er den anwesenden Nortraven
+den Angriff auf uns. Wir hatten noch nicht einmal unsere Waffen erhoben, wir
+waren nicht vorbereitet auf den hinterhältigen Angriff. Gar kam es soweit,
+dass Halgar feige gen dem Wald im Osten floh, wo er dann von der Garde
+gestellt werden konnte. Im weiteren Verlauf musste ich allerdings das
+Scheitern der Garde, in der Verteidigung, eingestehen.  
+Wir hatten keinerlei kriegerische Absichten bei dem Marsch nach Vänskap. Wer
+zuvor beim Appell der Garde im Burghof anwesend war mag bezeugen können, dass
+ich laut verkündete, dass wir mit friedlichen Absichten nach Vänskap
+marschierten. Hätten die Nortraven nicht bereits mit gezogenen Waffen auf der
+Brücke zu ihrem Dorf gestanden, so wären wir wahrscheinlich zu einem Trunk in
+der Taverne zusammen gekommen. Aber niemand kann das Schicksal beeinflussen,
+dass uns die Viere auferlegt haben. Einzig soll verstanden werden, dass es
+kein Angriff auf die Nortraven als Volk war!  
+  
+\- Zur Gerüchteküche -  
+Es ehrt mich, dass es Gerüchte über meine Person gibt. Ich möchte allerdings
+richtig stellen, dass ich niemals einen Putsch gegen ihre Durchlaucht wagen
+würde. Ihr habe ich meine Treue geschworen. Dem Ersonter Bund habe ich mein
+Leben verschrieben. Es steht außer Frage, dass es irgendwelche Intrigen gibt,
+die von mir ausgehen. Ebenso wenig wie mir ist es keinem meiner getreuen
+Kameraden zuzutrauen, dass sie etwas in diese Richtung planen.  
+Insofern aber die weiblichen Personen in Falkensee, welche wohl andere
+Gerüchte aussprechen, Interesse haben mit mir darüber zu reden, so stehe ich
+jeder holden Maid Rede und Antwort.  
+  
+\- Effektive Verbrechensbekämpfung -  
+Es ehrt den werten Herrn „Flammende Feder“, dass er sich solche Sorgen um die
+Sicherheit Falkensees und dem Lehen des Ersonter Bundes macht. Ich freue mich
+über jeden Artikel, der die Sorge äußert, dass in Falkensee die Sicherheit
+nicht mehr auf der Straße weilt. Die Unterstützung der Malthuster Wacht aber
+wird garantiert nicht nötig sein um Verbrechern nachzujagen. Im Gegensatz zu
+einigen Behauptungen gibt es nicht viele Verbrechen in Falkensee. Die meisten
+Verbrechen werden vollbracht durch Personen von außen, dies ist eine Tatsache.
+Diese Personen sind also schwer zu fassen. Über Hinweise dazu sind wir dennoch
+dankbar, denn auch, wenn die Garde als offizielle und höchste Exekutive
+innerhalb der Grenzen des Ersonter Bundes handelt, sind wir über jeden Hinweis
+aus der Bevölkerung dankbar und gehen diesen nach. Uns liegt der Schutz der
+Bürger und Freien am Herzen. Allein der Gardist Falan, ein getreuer Kamerad,
+schwankt in seiner Position seit einer Weile schon umher um verschiedene
+Stellungen in Falkensee zu sichern und besorgte Bürger vor ihrer Haustüre zu
+bewachen.  
+Es ist aber falsch zu behaupten, dass wir die Hilfe der Malthuster Wacht
+ablehnen wegen der Soldaten, die in der Vergangenheit Bürger Falkensees zu
+entführen ersuchten. Nein. Die Verantwortung liegt in der ganzen Wacht, denn
+nur wenigen ist bekannt, dass Leutnant Coimme schon so manchen Trupp ihrer
+Soldaten nach Falkensee führte. Nicht zuletzt um sogar Gardisten zu entführen,
+weshalb der Ersonter Bund vor dem Schlichtungsgericht der Ritterschaft schon
+vor einiger Zeit Klage einreichte. Die gesamte Malthuster Wacht trägt
+Verantwortung dafür, dass sie in unserem Lehen nicht erwünscht sind, denn man
+müsste um die Sicherheit von Bürgern und Freien fürchten!  
+  
+\- Konflikt der Orken -  
+Entgegen der Aussage des „Ersonters“ werden von der Garde des Ersonter Bundes
+keine Geschenke an die Orken gereicht, wenn sie Überfälle im Lehen der
+befreundeten Dwarschim begehen. Das besagte Fass Pilzschnaps sollte sie von
+dort weg holen, da zu dem Zeitpunkt nicht genug Mannen zur Verfügung standen
+um die Orken zu vertreiben. Der verehrte Alricio Romero di Madjani wurde mit
+dem Fass entsand um sein Pferd von den Orken freizukaufen und diese, im Namen
+des Ersonter Bundes, zu bitten den Überfall aufzugeben.  
+  
+\- Persönliche Anmerkung -  
+Die Arbeit des Boten ist immer wieder eine Freude. Die wachen Augen von
+Redaktion und Lesern überall. Es ist erfreulich zu sehen, dass sich der Bote
+wieder zur größten Zeitung Siebenwinds aufrappelt. Ich kann nur jeden
+Schreiberling dazu aufrufen die ehrbaren Leute des Boten in ihrem Tun zu
+unterstützen!  
+  
+_Waldemar Delarie - Hauptmann der Ersonter Garde_  
+  
+  
+21\. Duler - Leserartikel: Waldelfen und Ersonter  
+---  
+Interessanter Weise wurde lange Zeit ein Geheimnis gut bewahrt. Das Geheimnis
+um die Waldelfen. Es gibt sie auf tatsächlich. Und sie sind uns gar
+nicht so fern. Im Wald bei Südfall leben sie und haben vor einiger Zeit
+Kontakt zum Ersonter Bund aufgenommen. Diese scheue Art der Elfen, die die
+ursprünglichsten der drei Elfenrassen darstellen, hatte ganz bestimmte
+Forderungen an den Ersonter Bund.  
+  
+So war es kein anderer als Gardewaibel Waldemar Delarie, der die Gespräche mit
+den Waldelfen aufnahm. Laut Berichten ist er ohne Rüst- und Waffenwerk zu
+diesem Treffen aufgebrochen, was ihm ein großes Vertrauen brachte. Die
+Gespräche begannen in Avindrehl, dem Auenelfendorf zwischen Falkensee und
+Seeberg. Die Auenelfen agierten dabei als eine Art Vermittler um den errsten
+Kontakt herzustellen. Es wurde gemäßigt und freundschaftlich miteinander
+gesprochen. Das Thema: Südfall. Südfall ist in den letzten Monden, seit der
+Ersonter Bund das Lehen regiert, gewachsen und das nicht zum Vorteil der
+Waldelfen. Sie bemängeln den schlechten Zugang zum Wald im Süden Falkensees.
+Es gibt einige Bauten, die den Weg erschweren für dieses scheue Volk.  
+  
+So wollte sich der Gardewaibel Delarie auch einsetzen um dieses zu klären.
+Beweise sollten erbracht werden, dass die Beziehungen zwischen Waldelfen und
+Ersonter Bund gefestigt werden könnten. Es wurde auch erreicht, dank einem
+konstruktiven Gespräch mit dem Vogt Südfalls, dass sich einiges in Südfall
+ändern wird. Doch was wird der Dank der Waldelfen dafür sein? Das steht es
+noch zu erfahren. Es gibt sicher einiges, das dieses Volk dem Ersonter Bund
+beitragen könnte. Gespräche werden demnächst wohl wieder stattfinden, so dass
+es dann vielleicht mehr zu erfahren gibt.  
+  
+_Der Ersonter_  
+  
+  
+21\. Duler - Leserartikel: Neues von der Ersonter Garde  
+---  
+Waldemar Delarie, der seit Begründung der Garde auf in dieser dient
+hat es weit gebracht. Unter Gardehauptmann Rhaenor Mengars begann seine
+Laufbahn. Als Anwärter zeigte er sofort Engagement. Seinen Kameraden in nichts
+nachstehen, die allesamt alles für die Garde gaben prägten sie unter ihrem
+Hauptmann die Garde auf Siebenwind. Ihre Durchlaucht Hannah Berndorf zu
+Lichtenwald persönlich nahm ihm und vier seiner Kameraden den Gardisteneid ab.
+Heute sind in der Garde nur noch drei Gardisten aktiv, die die ersten
+Gardisten Siebenwinds waren. Durch immer engagiertere Arbeit tat sich Waldemar
+Delarie hervor. Den Höhepunkt hatte er wohl erreicht, als er von seinen
+Kameraden mit Johann „Hund“ Gottfried und Amira Menel in den Garderat gewählt
+wurde, der die Arbeit des Gardehauptmann Mengars übernahm. Es war absehbar,
+dass dieses Häretische Konstrukt nicht lange halten sollte. So wurde, während
+der Abwesenheit von Gardehauptmann Mengars, Waldemar Delarie zum Gardewaibel
+befördert um die Arbeit des Hauptmannes alleine zu tragen. Er hatte sich durch
+eifriges tun und aufrichtiges Handeln in den Augen ihrer Durchlaucht und ihrer
+Berater dazu qualifiziert. Seit fast einem Mond nun ist Waldemar Delarie
+selber Gardehauptmann auf Siebenwind. Damit hat er das Oberkommando über alle
+Truppen des Ersonter Bundes auf übernommen und untersteht direkt
+ihrer Durchlaucht. Ich möchte ihm hier noch einmal gratulieren und würde mir
+die Ehre wünschen ein persönliches Gespräch mit dem Gardehauptmann führen zu
+können um dem Boten ein entsprechendes Protokoll des Gespräches zukommen zu
+lassen.  
+  
+Der erste Bundesgardist hat sich auf auch bereits gefunden. Hektor
+Steinhauer. Seine Kameraden nennen ihn Vorbild. Er dient mit strenger Hand und
+weiß die Härte der exekutiven Gewalt mit der Gnade des Gardehauptmannes
+Delarie zu verbinden. Auch ihm gratuliere ich. Leider ist der Bundesgardist
+Steinhauer für 6 Monde abwesend, so dass ich leider keine Details über ihn
+schreiben kann. Der Bundesgardist ist ein einfacher Gardist, der aber im
+gesamten Bundesgebiet exekutive Rechte innehat. So kann er seine Pflicht in
+Papin oder Ersont genauso erfüllen wie auf Siebenwind!  
+  
+Reicher Zulauf in der Garde. In den letzten Monden haben viele neue Rekruten
+ihren Weg in die Garde gefunden. Ich wünsche ihnen auf diesem Wege alles Gute.
+Mögen sie sich ihre Vorgänger als Vorbild nehmen und tapfer für den Ersonter
+Bund streiten!  
+  
+_Der Ersonter_  
+  
+  
+21\. Duler - Leserartikel: Attentate der Diener des Einen  
+---  
+In Falkensee tauchte, am Marktplatz, ein Pergament auf, das jemand mit viel
+Zeitaufwand geschrieben hat. Verzierungen und Schrift deuten darauf hin, dass
+es ein ernstes Schreiben ist. Auf diesem stehen einige Namen von Menschen auf
+die ein Attentat geplant ist. Darunter Adelige und Bürger Falkensees. Die
+Garde des Ersonter Bundes ist alarmiert und hat die Ermittlungen aufgenommen.
+Es ist sicher interessant zu wissen wer dafür verantwortlich ist.  
+  
+Gewarnt sein sollten die folgenden Personen, denn diese sind es, die von dem
+Mann Lorion "Die Maske" zum Tode berufen sind:  
+  
+Awa Aldorn  
+Hannah Berndorf  
+Solos Nhergas  
+Solice Aurora  
+Maelve Rhyntarin  
+  
+ _Der Ersonter_  
+  
+  
+21\. Duler - Impressum  
+---  
+Redaktionssitz: Seeberg  
+  
+Leitender Redakteur: Alricio Romero di Madjani (ARdM)  
+Stellvertreter: Novize Ionas  
+Freie Mitarbeiter: Felis  
+  
+Satz und Druck: ARdM, Ionas  
+  
+ __  
+  
+  
