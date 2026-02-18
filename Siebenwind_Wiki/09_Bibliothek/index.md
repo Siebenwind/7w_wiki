@@ -1,14 +1,15 @@
 ---
 layout: wiki_page
-title: Bibliothek
+title: Siebenwind Wiki - Bibliothek
 ---
 
-# [[Siebenwind]] Wiki - Bibliothek
-Das Archiv der Bibliothek.
+<div class="hero-wrapper">
+  <p class="hero-kicker">Abteilung Wissen</p>
+  <h1 class="hero-title">Bibliothek</h1>
+  <p class="hero-subtitle">Die gesammelten Werke, Bücher und Schriften aus den Regalen der Gelehrten.</p>
+</div>
 
-## Inhalte
-
-### Artikel
+## Alphabetischer Index
 *   [[Abschied_und_Verrat|Abschied und Verrat]]
 *   [[Abweisungen|Abweisungen]]
 *   [[Alles_ohne_Pointe|Alles ohne Pointe]]

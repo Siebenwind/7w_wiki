@@ -39,5 +39,5 @@ Eine hochrangige Delegation der Dwarschim ([[Endurion_Hormgar]], [[Bumpur_Purbie
 Der totgeglaubte Malthuster Soldat [[Emanuel_Sanderus]] ist zurückgekehrt. Sein angeblicher Tod war eine Täuschung der Schwarzmagierin [[Gysell_Kathul]], die ihn entführt hatte.
 
 ---
-**Quellen:** [[Siebenwind Bote 178]] (Original)
+**Quellen:** [[Siebenwind_Bote_178]] (Original)
 **Siehe auch:** [[Die_Chronik]], [[Seegarde]], [[Kriegerakademie_Seeberg]], [[Hebren_Zemand]]

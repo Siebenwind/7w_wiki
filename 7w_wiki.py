@@ -59,6 +59,7 @@ def main():
     search_parser = subparsers.add_parser("search", help="Semantic search via the Oracle (RAG)")
     search_parser.add_argument("query", help="The search query")
     search_parser.add_argument("--source", choices=["wiki", "quellen", "all"], default="wiki", help="Search target")
+    search_parser.add_argument("--json", action="store_true", help="Output raw JSON")
     # Add remnant args to pass through
     search_parser.add_argument('remaining', nargs=argparse.REMAINDER, help="Additional arguments for search.py")
 
@@ -94,7 +95,8 @@ def main():
     repair_parser.add_argument("--full", action="store_true", help="Run full non-interactive repair cycle (1-3)")
 
 
-    subparsers.add_parser("audit", help="Run consistency audit (duplicates, orphans)")
+    audit_parser = subparsers.add_parser("audit", help="Run consistency audit (duplicates, orphans)")
+    audit_parser.add_argument("--json", action="store_true", help="Output raw JSON")
 
     # Index
     index_parser = subparsers.add_parser("index", help="Manage semantic index")
@@ -123,7 +125,8 @@ def main():
     pages_validate.add_argument("--config", default="mkdocs.yml", help="Path to mkdocs config (default: mkdocs.yml)")
 
     # Advisor (Default)
-    subparsers.add_parser("advisor", help="Show system status and recommendations (Default)")
+    advisor_parser = subparsers.add_parser("advisor", help="Show system status and recommendations (Default)")
+    advisor_parser.add_argument("--json", action="store_true", help="Output raw JSON")
 
     # Ingestion (Silicon Inquisition)
     inq_parser = subparsers.add_parser("inquisition", help="Great Re-Ingestion of legacy sources (Silicon Inquisition)")
@@ -188,12 +191,17 @@ def main():
         search_args = [args.query]
         if args.source:
             search_args.extend(["--source", args.source])
+        if args.json:
+            search_args.append("--json")
         if args.remaining:
             search_args.extend(args.remaining)
         run_script(".agent/skills/oracle/search.py", search_args)
 
     elif args.command == "advisor":
-        run_script(".agent/scripts/advisor.py")
+        adv_args = []
+        if args.json:
+            adv_args.append("--json")
+        run_script(".agent/scripts/advisor.py", adv_args)
 
     elif args.command == "start":
         print(f"🌟 {BOLD}Willkommen beim Siebenwind Archiv-System{RESET}")
@@ -245,7 +253,10 @@ def main():
         run_script(".agent/scripts/repair.py", repair_args)
 
     elif args.command == "audit":
-        run_script(".agent/scripts/register_check.py")
+        audit_args = []
+        if args.json:
+            audit_args.append("--json")
+        run_script(".agent/scripts/register_check.py", audit_args)
 
     elif args.command == "index":
         index_args = []

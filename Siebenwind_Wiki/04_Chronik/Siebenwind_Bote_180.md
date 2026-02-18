@@ -47,5 +47,5 @@ Umfassender Bericht über die Schlachten gegen die [[Goblins]] aus dem [[Ödland
 - **Kulinarik:** Kritik an fehlenden Kochstellen auf dem Turnierplatz (Herr [[Dhonori]]).
 
 ---
-**Quellen:** [[Siebenwind Bote 180]] (Original)
+**Quellen:** [[Siebenwind_Bote_180]] (Original)
 **Siehe auch:** [[Die_Chronik]], [[Spinnenplage]], [[Solice_Aurora]], [[Falkensee]]

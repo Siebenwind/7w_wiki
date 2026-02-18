@@ -623,7 +623,12 @@ def main() -> int:
         report_name = f"TEST_{suite_name}_{now_stamp()}.md"
         report_path = REPORTS_DIR / report_name
         report = build_report(suite_name, suite_path, results, report_path)
-        report_path.write_text(report, encoding="utf-8")
+        try:
+            report_path.write_text(report, encoding="utf-8")
+            print(f"[{suite_name}] Report: {report_path}")
+        except Exception as e:
+            print(f"[{suite_name}] ⚠️ Konnte Report nicht schreiben ({e}). Fallback auf Stdout:")
+            print(report)
 
         failed = [r for r in results if r.status == "FAIL"]
         if failed:

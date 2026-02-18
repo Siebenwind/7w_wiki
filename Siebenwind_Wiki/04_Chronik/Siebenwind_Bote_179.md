@@ -32,5 +32,5 @@ Ein **Waffenrat** in [[Brandenstein]] (Leitung: [[Erin_Caiomme]]) beriet über d
 - **Kurioses:** Ein [[Kobold]] suchte in [[Brandenstein]] nach einer Münze des Hetmanns Kjartan.
 
 ---
-**Quellen:** [[Siebenwind Bote 179]] (Original)
+**Quellen:** [[Siebenwind_Bote_179]] (Original)
 **Siehe auch:** [[Die_Chronik]], [[Hutmacher]], [[Sammlervolk]], [[Leandra]]

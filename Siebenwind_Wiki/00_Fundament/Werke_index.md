@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Werke/index
+title: Werke index
 category: Allgemein
 status: UNGEKLAERT
 quelle: UNGEKLAERT

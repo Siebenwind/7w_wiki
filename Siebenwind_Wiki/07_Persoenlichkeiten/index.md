@@ -1,14 +1,15 @@
 ---
 layout: wiki_page
-title: Persoenlichkeiten
+title: Siebenwind Wiki - Persoenlichkeiten
 ---
 
-# [[Siebenwind]] Wiki - Persoenlichkeiten
-Das Archiv der Persoenlichkeiten.
+<div class="hero-wrapper">
+  <p class="hero-kicker">Abteilung Personen</p>
+  <h1 class="hero-title">Persönlichkeiten</h1>
+  <p class="hero-subtitle">Die Akteure der Geschichte: Vom einfachen Bauern, über legendäre Helden bis hin zu den mächtigen Herrschern Siebenwinds.</p>
+</div>
 
-## Inhalte
-
-### Artikel
+## Alphabetischer Index
 *   [[Aarion|Aarion]]
 *   [[Aaron|Aaron]]
 *   [[Abdera|Abdera]]

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Wissen
+title: Siebenwind Wiki - Wissen
 ---
 
 # [[Siebenwind]] Wiki - Wissen

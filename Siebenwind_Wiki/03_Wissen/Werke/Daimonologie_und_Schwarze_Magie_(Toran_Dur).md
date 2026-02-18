@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Daimonologie und Schwarze index (Sammelband)
+title: Daimonologie und Schwarze Magie (Sammelband)
 category: Allgemein
 ---
 

@@ -1,3 +1,9 @@
+---
+layout: post
+title: Session Memory: Oracle Stability & Bridge Rewrite (Batch 1)
+category: Archiv
+---
+
 # Session Memory: Oracle Stability & Bridge Rewrite (Batch 1)
 **Date:** 2026-02-18
 **Agent:** Antigravity
@@ -30,4 +36,4 @@
 - **Automation**: Investigate `advisor --json` for cleaner script integration.
 
 ---
-**Handover-Path:** [SESSION_MEMORY_2026-02-18_BRIDGE_REWRITE.md](file:///Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/10_Archiv/SESSION_MEMORY_2026-02-18_BRIDGE_REWRITE.md)
+**Handover-Path:** SESSION_MEMORY_2026-02-18_BRIDGE_REWRITE.md (`SESSION_MEMORY_2026-02-18_BRIDGE_REWRITE.md`)

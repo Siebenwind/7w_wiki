@@ -12,6 +12,7 @@ category: [[index]]
 
 ## Beschreibung
 [[Solfeister_Kin]] ist eine Person, die im [[Personenregister]] verzeichnet ist.
+Die Existenz dieser Person ist primär durch das gleichnamige Werk [[Solfeister_Kin_(Werk)]] belegt.
 
 ## Quelle
-[E. d. Zeit d. Könige] / [Unbekannt]
+[Solfeister Kin (Werk)] / [Unbekannt]

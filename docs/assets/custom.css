@@ -41,12 +41,16 @@ body::before {
 }
 
 .md-main,
-.md-header,
 .md-tabs,
 .md-content,
 .md-footer {
   position: relative;
   z-index: 1;
+}
+
+.md-header {
+  position: relative;
+  z-index: 20; /* Fixed: Ensure search overlay sits above main content */
 }
 
 h1,

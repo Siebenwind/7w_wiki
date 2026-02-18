@@ -1,0 +1,2295 @@
+{
+  "report_id": "9f7ac091-c013-4b5d-a50c-99e7ff5730a3",
+  "issues_found": 446,
+  "details": {
+    "duplicates": [],
+    "orphans": [],
+    "missing_profiles": [],
+    "missing_sources": [],
+    "missing_index": [],
+    "source_hygiene": [],
+    "ingestion_issues": [
+      {
+        "file": "Logs/Ingestion/2026-02-16_Der_Flug_der_Ente..3.md",
+        "error": "Missing core tracking"
+      },
+      {
+        "file": "Logs/Ingestion/2026-02-16_Der_Flug_der_Ente..md",
+        "error": "Missing core tracking"
+      },
+      {
+        "file": "Logs/Ingestion/2026-02-16_Der_Flug_der_Ente1.md",
+        "error": "Missing core tracking"
+      },
+      {
+        "file": "Logs/Ingestion/2026-02-16_Der_letzte_Falke.md",
+        "error": "Missing core tracking"
+      }
+    ],
+    "broken_links": [
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Anijane_Lavid.md",
+        "target": "Finanzverwaltung",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Anijane_Lavid.md",
+        "target": "Lehen_Wasserwall",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Anijane_Lavid.md",
+        "target": "Finanzverwaltung",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Hormtosh_Wuchthammer.md",
+        "target": "Ordo_Ignis",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Hormtosh_Wuchthammer.md",
+        "target": "Ordo_Ignis",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Elyran_Fischer.md",
+        "target": "Elemente_der_Mitte",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Sean_Eire.md",
+        "target": "Di\u00f6zese_Siebenwind",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Talida.md",
+        "target": "Handwerk",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Leandra.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Leandra.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Leomar_Finkenfarn.md",
+        "target": "Laienorden_der_Viere",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Leomar_Finkenfarn.md",
+        "target": "Laienorden_der_Viere",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Chernides.md",
+        "target": "Religion",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Maltheos_Thorn.md",
+        "target": "Orden_vom_Heiligen_Schwert_Bellums",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Herbren_Maltis.md",
+        "target": "Familie_Gerdenwald",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Herbren_Maltis.md",
+        "target": "Familie_Gerdenwald",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Kalveron_Dai.md",
+        "target": "De_Magica_Angamoniensis",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Kalveron_Dai.md",
+        "target": "System_arkaner_Lokalitaeten",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Roland_Telvos.md",
+        "target": "01_Catar",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Telandrion.md",
+        "target": "Ignis-Kirche",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Argus_Ebonhart.md",
+        "target": "K\u00f6nigliche_Akademie_der_arkane_K\u00fcnste",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Argus_Ebonhart.md",
+        "target": "K\u00f6nigliche_Akademie_der_arkane_ K\u00fcnste",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Dame_al_Javet.md",
+        "target": "Magierturm_zu_Siebenwind",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Dame_al_Javet.md",
+        "target": "Magierturm_zu_Siebenwind",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Feestar_von_Lichtenfeld.md",
+        "target": "Lichtenfeld",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Blakkurvald_Orla.md",
+        "target": "Tuhle",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Myrandhir.md",
+        "target": "Derfflinger",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Isgrim.md",
+        "target": "Baronsforstverwaltung",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Celedelair.md",
+        "target": "Dedelebres_Zuflucht",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Dunvallo_Linari.md",
+        "target": "Alchemie_Grundlagen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Raisha_al_Javet.md",
+        "target": "Invocatio_Elementharii",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Saphyriella.md",
+        "target": "Finanzen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Lothgar.md",
+        "target": "Norland",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Lothgar.md",
+        "target": "Norland",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Althea_Danea.md",
+        "target": "Il_Drun",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Althea_Danea.md",
+        "target": "Kompendium_Weissmagie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Althea_Danea.md",
+        "target": "Kompendium_Weissmagie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/William_Glaron.md",
+        "target": "Diener_des_Einen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Lucius_Gropp.md",
+        "target": "06_Gruppen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Lucius_Gropp.md",
+        "target": "06_Gruppen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Lucius_Gropp.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Lucius_Gropp.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Ovelia_Galthana.md",
+        "target": "Lehen_Suedfall",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Daena.md",
+        "target": "K\u00f6nigliche_Akademie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Jennaia_Lavrial.md",
+        "target": "Theorie_der_elementaren_Atome",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Lorence.md",
+        "target": "Orden_Bellums",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Johan_Gottfried.md",
+        "target": "Dunkle_Ritter",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Landrin_Eisklinge.md",
+        "target": "Orden_des_Heiligen_Schwertes_Bellums",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Landrin_Eisklinge.md",
+        "target": "Orden_des_Heiligen_Schwertes_Bellums",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Landrin_Eisklinge.md",
+        "target": "Orden_des_Heiligen_Schwertes_Bellums",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Cizra_Innuae.md",
+        "target": "Konflikt_Ersont_Malthust_21nH",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Cedric_Rotfuchs.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Cedric_Rotfuchs.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Wisper.md",
+        "target": "Ferrins",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Wisper.md",
+        "target": "Ferrins",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Balean_Urs.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Balean_Urs.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Inoch_Ateharis.md",
+        "target": "Kabinett_Altor",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Laylira_Hohentann.md",
+        "target": "Hospiz_zu_Falkensee",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Dimiona.md",
+        "target": "Die_Foki",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Malika_Nohadi.md",
+        "target": "Falkenorden",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Schneid.md",
+        "target": "Marine_Siebenwinds",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Schneid.md",
+        "target": "Marine_Siebenwinds",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Anonymus.md",
+        "target": "Theorie zur arkan. Magie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Anonymus.md",
+        "target": "Alchemie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Anonymus.md",
+        "target": "Etikette",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Kazla.md",
+        "target": "Hintergrund",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Kazla.md",
+        "target": "Hintergrund",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Gimbart_Galdora.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Koruun_McKevin.md",
+        "target": "Adelssystem_Galadon",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Fogrim_Goldaxt.md",
+        "target": "H&H_der_Dwarschim",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Themus_Takai.md",
+        "target": "Theorem_zu_den_Baumwesen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Lothar_Gavinwald.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Gorem_Motlow.md",
+        "target": "B\u00fcrgerwehr",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Gorem_Motlow.md",
+        "target": "B\u00fcrgerwehr",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Erik_Pedran.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Erik_Pedran.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Svendra_Merseck.md",
+        "target": "Gastronomie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Goerts.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Goerts.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Mirian.md",
+        "target": "Gawain_von_Tiefenwald",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Mirian.md",
+        "target": "Nebelbergen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Mirian.md",
+        "target": "Nebelberge",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Feanthil_(Arinth).md",
+        "target": "Tar\u2019Sala",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Gerrion_Arres.md",
+        "target": "Sumpfland",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Uron_Sbocaj.md",
+        "target": "Elementarmagie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Ambareth.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Ambareth.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Adolfo_Bastian.md",
+        "target": "Die_Dwarschim",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Hilgorad_I_ap_Mer.md",
+        "target": "Haus_ap_Mer",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Hilgorad_I_ap_Mer.md",
+        "target": "K\u00f6nige_Falandriens",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Hilgorad_I_ap_Mer.md",
+        "target": "R\u00fcckkehr_von_K\u00f6nig_Hilgorad",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Hilgorad_I_ap_Mer.md",
+        "target": "Haus_ap_Mer",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Rolosin_Vadebor.md",
+        "target": "Heilkunde",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Madame_Lafayette.md",
+        "target": "Sinistrus",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Hevelius_Dunkelfeld.md",
+        "target": "Akademie_zur_Linken",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Hevelius_Dunkelfeld.md",
+        "target": "Gnaden_Custodias",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Hevelius_Dunkelfeld.md",
+        "target": "Tarnek",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Johannes_Klos.md",
+        "target": "Locus_Magicae",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Elurai_Calades.md",
+        "target": "Bindungslehre",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Maichellis_Wanderstern.md",
+        "target": "Auelfen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Ravia_Thyrandor.md",
+        "target": "TharSala",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Johann_Liebig.md",
+        "target": "Arkane_Verbindung",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Heinrich_Drachenfall.md",
+        "target": "Raufels",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Heinrich_Drachenfall.md",
+        "target": "Fundgrube",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Tjure_Odal.md",
+        "target": "Ketzer",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Azgar_Kazanin.md",
+        "target": "Famir_Aldun",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Azgar_Kazanin.md",
+        "target": "Toran_Dor",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Enoha_Adorne.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Enoha_Adorne.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Roald_Spitzbart.md",
+        "target": "Morsansacker",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Terenon_Sarophilan.md",
+        "target": "Theorien_der_Magie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Khorne.md",
+        "target": "Astrael_Batch",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Veridon.md",
+        "target": "Bellum-Kirche",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Tanja_Wollframm.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/07_Persoenlichkeiten/Nathar_Erres.md",
+        "target": "Jagd",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Antimagie_und_Gegenzauber.md",
+        "target": "Schutzmagie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Antimagie_und_Gegenzauber.md",
+        "target": "Kampfmagie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Magier_Etikette.md",
+        "target": "Akademie_Brandenstein",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Magier_Etikette.md",
+        "target": "Tradition_der_Magier",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Golems.md",
+        "target": "H\u00f6here_Wesenheiten",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Alchemie_Kompendium.md",
+        "target": "Bannstaub",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Arkan-Metalle.md",
+        "target": "Elementarlehre_Feuer",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Arkan-Metalle.md",
+        "target": "Ingis",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Arkan-Metalle.md",
+        "target": "Elementarlehre_Erde",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Arkan-Metalle.md",
+        "target": "Khaleb",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Arkan-Metalle.md",
+        "target": "Elementarlehre_Wasser",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Daimonicon.md",
+        "target": "Sha_Naz_Ghul",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Rituallehre_Sphaeren.md",
+        "target": "Hankuk",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Arcana_Procella.md",
+        "target": "Magier_ohne_Namen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Arcana_Procella.md",
+        "target": "Aura_Primus",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Arcana_Procella.md",
+        "target": "Mazzarener",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Arcana_Procella.md",
+        "target": "Magier_ohne_Namen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Philosophie_der_Magie.md",
+        "target": "Sph\u00e4ren",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md",
+        "target": "Endr\u00fbn",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md",
+        "target": "Glurdr\u00fbn",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md",
+        "target": "Ildr\u00fbn",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md",
+        "target": "Dordrun",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md",
+        "target": "Lit_Ita_Im_Elarum_Odalim_ir_Galadon",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Metamorphose_und_Gestaltwandel.md",
+        "target": "Heilmagie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Metamorphose_und_Gestaltwandel.md",
+        "target": "Daimonologie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Horlafstrom_Theorie.md",
+        "target": "Ashordon",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Elementare_Atomlehre.md",
+        "target": "Humus",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Elementare_Atomlehre.md",
+        "target": "Eis",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Elementare_Atomlehre.md",
+        "target": "Blitz",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Hoehere_Wesenheiten.md",
+        "target": "Lich",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md",
+        "target": "Gold",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md",
+        "target": "Silber",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md",
+        "target": "Arkanogenese",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Artefaktlehre.md",
+        "target": "Thaumaturgische_Gitter",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Artefaktlehre.md",
+        "target": "Sphaerenfaeden",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Artefaktlehre.md",
+        "target": "Thaumaturgische_Gitter",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Arkane_Kriegfuehrung.md",
+        "target": "Arkanium",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Magie/Arkane_Kriegfuehrung.md",
+        "target": "Arkanium",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/08_Bestiarium/Gargoyles.md",
+        "target": "Setas_Gonar",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/08_Bestiarium/Daemonen.md",
+        "target": "Blinde_Maler",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/08_Bestiarium/Tardukai.md",
+        "target": "F\u00fcrst_Raziel",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/08_Bestiarium/Bestie_von_Brandenstein.md",
+        "target": "Adepta Hohentann",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/08_Bestiarium/Riesenspinnen.md",
+        "target": "Bestiarium",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/index.md",
+        "target": "Personen/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/index.md",
+        "target": "Recht/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/index.md",
+        "target": "Sprachen/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/index.md",
+        "target": "Werke/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Koenigliches_Gericht.md",
+        "target": "H\u00fcter_des_Grosssiegels_der_Kronmark",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Orken.md",
+        "target": "Gott Be'rglum",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Orken.md",
+        "target": "Gott Ci'rgbus",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Elfen.md",
+        "target": "Auren und die Verbreitung der Elfenv\u00f6lker",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Elfen.md",
+        "target": "Auren und die Verbreitung der Elfenv\u00f6lker",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Siebenwind_Kronregiment.md",
+        "target": "Milit\u00e4rwesen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Schattenjaeger.md",
+        "target": "Calin_Dakar",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Halblinge.md",
+        "target": "Region H\u00fcgelau",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Halblinge.md",
+        "target": "Baronie Gerdenwald",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Halblinge.md",
+        "target": "G\u00f6ttin Vitama",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Ritterehre_De_Itinere_Honoris.md",
+        "target": "Schwertmeister_Tesion",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Ritterehre_De_Itinere_Honoris.md",
+        "target": "Schwertmeister_Tesion",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Kirche_der_Viere.md",
+        "target": "Region [[Sae",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Graue_Garde.md",
+        "target": "Koenigliche_Magierakademie_zu_Siebenwind",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Graue_Garde.md",
+        "target": "Koenigliche_Magierakademie_zu_Siebenwind",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Koenigliche_Akademie_der_Arkanen_Kuenste.md",
+        "target": "Magister_Konvent",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Tempelwache_Falkensee.md",
+        "target": "Tempel_der_Viere",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Communis_Medici.md",
+        "target": "Orden_der_Viere",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Recht_Siebenwinds.md",
+        "target": "B\u00fcrger",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Recht_Siebenwinds.md",
+        "target": "Freie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Recht_Siebenwinds.md",
+        "target": "H\u00f6rige",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Zwerge.md",
+        "target": "Gott Ignis",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md",
+        "target": "Bergheim",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md",
+        "target": "Landelfen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md",
+        "target": "Gemeinschaft_der_Elementargl\u00e4ubigen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md",
+        "target": "Lehnsherr",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Menschen.md",
+        "target": "Rasse_Myten",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Menschen.md",
+        "target": "Rasse_Myten",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Gesellschaft/Inselrat.md",
+        "target": "Gesetzeskodex_der_Kronmark",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Der_Erlass_des_Koenigs.md",
+        "target": "F\u00fcrstentum_Malthust",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Historie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Historie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Historie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Historie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Historie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Historie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Historie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Historie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Kregor_Stahlauge",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Fraomar_Arkad'Grembargh",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Fraomar_Arkad'Grembargh",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Fraomar_Arkad'Grembargh",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Fraomar_Arkad'Grembargh",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Kregor_Stahlauge",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Das_Unbekannte_Meer",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Kregor_Stahlauge",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "target": "Historie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Handelsbundturnier_15_nH_Ergebnisse.md",
+        "target": "Handelsbundturnier_15_nH",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Inquisitionsprozess_gegen_Maar_und_Llewellyen.md",
+        "target": "Tirgalad_Gildin",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Inquisitionsprozess_gegen_Maar_und_Llewellyen.md",
+        "target": "Miran_Ernesto",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Inquisitionsprozess_gegen_Maar_und_Llewellyen.md",
+        "target": "Sandro_Ernesto",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Briefe_aus_der_Ferne.md",
+        "target": "Ekre",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Die_Mazzaremer.md",
+        "target": "Schwarm",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Zerstoerung_von_Westhever.md",
+        "target": "Brecher",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Ernennung_Wim_Derfflinger.md",
+        "target": "K\u00f6nigliches_Gericht",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Geschichte_der_Mondamulette.md",
+        "target": "Stein_der_Macht",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Geschichte_der_Mondamulette.md",
+        "target": "Amulettgeister",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Die_Spinnenplage_von_Falkensee.md",
+        "target": "Garde",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Massenentlassung_Kriegerakademie_15_nH.md",
+        "target": "Avor",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Anschlag_auf_den_Handelsbund.md",
+        "target": "Brandensteiner_Zunft",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Anschlag_auf_den_Handelsbund.md",
+        "target": "Brandensteiner_Zunft",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Trollkrieg_von_Brandenstein.md",
+        "target": "Rasse_Trolle",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/05_Geschichte/Trollkrieg_von_Brandenstein.md",
+        "target": "Rasse_Goblins",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/10_Archiv/Akademie_der_Schwarzen_Kuenste.md",
+        "target": "Magie_Linker_Pfad",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/10_Archiv/Statut_der_Kronmark_Siebenwind.md",
+        "target": "Gesetze",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Feste_Seeberg.md",
+        "target": "Kaempferschule",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/V\u00e4nskap.md",
+        "target": "Havarr",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Morthum.md",
+        "target": "Gott Morsan",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Sae.md",
+        "target": "Gott Astrael",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Sae.md",
+        "target": "Gott Angamon",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Kadamark.md",
+        "target": "Magie Grauer Pfad",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Galadon.md",
+        "target": "Region Taras",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Galadon.md",
+        "target": "Adelssystem Galadon",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Geografie.md",
+        "target": "I_Siebenwind",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Ossian.md",
+        "target": "Insel Siebenwind",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Gerdenwald.md",
+        "target": "Friedward_von_Gerdenwald",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Gerdenwald.md",
+        "target": "Rasse Halblinge",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Bernstein.md",
+        "target": "Stadt Draconis",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Bernstein.md",
+        "target": "Burg Bernstein",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Kettel.md",
+        "target": "Rasse Rasse_Zwerge",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Vandrien.md",
+        "target": "Religion Der Eine",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Khalandra.md",
+        "target": "Region Norland",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Rothschild.md",
+        "target": "Stadt Rothenbucht",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Dwarshim.md",
+        "target": "Handelskonto",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/\u00d6dland.md",
+        "target": "Angstd\u00e4monen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Region_Falkenstein.md",
+        "target": "Region [[Region_Endophal",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/02_Geografie/Skapenfestung.md",
+        "target": "Graumagier",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Codex_Astraeli.md",
+        "target": "Akademie_von_Brandenstein",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Der_Traum_der_Tausend.md",
+        "target": "Traumformung",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Rien.md",
+        "target": "01_Pantheon/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Rien.md",
+        "target": "20_Rassen_Zwerge",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Die_Silbernen_Tafeln.md",
+        "target": "Goldene_Tafeln",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Die_Silbernen_Tafeln.md",
+        "target": "Eiserne_Tafeln",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Codex_Iuris_Canonici.md",
+        "target": "Erzconsilium_der_Viere",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Thjarek.md",
+        "target": "Rabainsteine",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Die_Goldenen_Tafeln.md",
+        "target": "Kanath",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Die_Goldenen_Tafeln.md",
+        "target": "Eisernen Tafeln",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Die_Goldenen_Tafeln.md",
+        "target": "Erste_Mutter",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Von_dem_Boesen.md",
+        "target": "Stadtchronik_Rohehafens",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Von_dem_Boesen.md",
+        "target": "Rasse_Skaven",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Der_naive_Mensch.md",
+        "target": "Gottheiten",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Ignis.md",
+        "target": "01_Pantheon/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Aequitas.md",
+        "target": "Hilgorad_I",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Aequitas.md",
+        "target": "Personen_Plinius_Deseglieri",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Ventus.md",
+        "target": "01_Pantheon/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Ventus.md",
+        "target": "21_Rassen_Elfen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Xan.md",
+        "target": "01_Pantheon/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Der_letzte_Falke.md",
+        "target": "Falkenhorst",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Der_letzte_Falke.md",
+        "target": "Sire_Aspin",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Der_letzte_Falke.md",
+        "target": "Katzchen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Angamon.md",
+        "target": "Das_Daimonicon",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Angamon.md",
+        "target": "Irdirim",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Angamon.md",
+        "target": "Shag_zor_Ga_Zul",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Angamon.md",
+        "target": "Irahfar",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/01_Pantheon/Angamon.md",
+        "target": "Kreaturen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_188.md",
+        "target": "Rhator_zeg",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_125.md",
+        "target": "Ork",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_125.md",
+        "target": "Nordforst",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_125.md",
+        "target": "Auenwald",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_125.md",
+        "target": "H\u00fcgelwald",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md",
+        "target": "Beladriel_Bl\u00e4ttertanz",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md",
+        "target": "Ayleen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md",
+        "target": "Hagen_Robaar_zu_Saalhorn",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_183.md",
+        "target": "Malthuster_Armee",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_161.md",
+        "target": "Bagarim",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md",
+        "target": "News",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md",
+        "target": "Bekanntmachungen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md",
+        "target": "Newsticker",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_171.md",
+        "target": "Leonard_von_Wolfenbach",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_151.md",
+        "target": "Daron",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_151.md",
+        "target": "Thar_Sala",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_165.md",
+        "target": "Jannaia_Lavrial",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_165.md",
+        "target": "Jannaia_Lavrial",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md",
+        "target": "Sire_von_Steiner",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md",
+        "target": "C._Eibenwald",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md",
+        "target": "Auktionshaus_Graustein",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md",
+        "target": "Turm_der_Magie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md",
+        "target": "C._Eibenwald",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md",
+        "target": "Auktionshaus_Graustein",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md",
+        "target": "Turm_der_Magie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_124.md",
+        "target": "Trinso_Langenbriel",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_175.md",
+        "target": "Baldasti",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_191.md",
+        "target": "03_Morsan",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_162.md",
+        "target": "Sichelzahngnoll",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_152.md",
+        "target": "Ortsrat_Brandenstein",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_127.md",
+        "target": "Stadtverordnung_Brandenstein",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_142.md",
+        "target": "R.G.",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md",
+        "target": "Herr_Geist",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md",
+        "target": "Tanja_Wolfframm",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md",
+        "target": "Khyra_Gropp",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md",
+        "target": "Angriff_auf_Brandenstein_36_nH",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_167.md",
+        "target": "Bjoern_Zemand",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md",
+        "target": "Hektor_Steinhauer",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md",
+        "target": "Alarich_Falkenhain",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md",
+        "target": "Hemalar",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md",
+        "target": "Amriele_Silberfels",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md",
+        "target": "Richard_Gropp",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_184.md",
+        "target": "Toron",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_143.md",
+        "target": "Sekretarius_al_Wechnett",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_190.md",
+        "target": "Turm_des_Nordwinds",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_132.md",
+        "target": "L.H.",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_147.md",
+        "target": "Magierturm",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_173.md",
+        "target": "Taurec_von_Schildtburg",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_168.md",
+        "target": "Galadonier",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_139.md",
+        "target": "Sire_Siegfried_Steiner",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_139.md",
+        "target": "Sir_Robaar",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_158.md",
+        "target": "Galthana",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_158.md",
+        "target": "Galthana",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_148.md",
+        "target": "A.D.",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_148.md",
+        "target": "J\u00e4gergilde",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_148.md",
+        "target": "Daniel_Donares",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_149.md",
+        "target": "Foth",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_149.md",
+        "target": "Navarian_Arandal",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_149.md",
+        "target": "Garilko_Wopes",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_149.md",
+        "target": "Garilko_Wopes",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/06_Erz\u00e4hlungen/Geschichten_eines_silbernen_Adlers.md",
+        "target": "Serafina",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/06_Erz\u00e4hlungen/Der_Flug_der_Ente.md",
+        "target": "Fera_Noril",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/09_Bibliothek/Logbuch_des_Kerkers.md",
+        "target": "Simil",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/09_Bibliothek/Von_gesplitterten_Seelen.md",
+        "target": "Lyril",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/09_Bibliothek/Die_Elemente_ungleiche_Geschwister.md",
+        "target": "En'Hor",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/09_Bibliothek/Die_Elemente_ungleiche_Geschwister.md",
+        "target": "Orogrim",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/09_Bibliothek/Die_Elemente_ungleiche_Geschwister.md",
+        "target": "Orogrim",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/09_Bibliothek/Die_Elemente_ungleiche_Geschwister.md",
+        "target": "Tintin_Waljakov",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/09_Bibliothek/Die_Verbrennung_des_heiligen_Markus.md",
+        "target": "Kalender",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/09_Bibliothek/Waldemars_Reise_Papin.md",
+        "target": "Aldorn",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/09_Bibliothek/Die_Zwergen_WG.md",
+        "target": "Rubenia_Sturmspalter",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/09_Bibliothek/Die_Zwergen_WG.md",
+        "target": "Rubenia_Sturmspalter",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/09_Bibliothek/Maerchen_und_wie_man_sie_vermeidet.md",
+        "target": "Kleiner_Almanach_\u00fcbernat\u00fcrlicher_Wesen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "01_Ventus",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "01_Enhor",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "02_Geografie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "Rittergarde",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "02_Geografie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "Stadtconsula",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "Delarie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "B\u00fcrgerwehr",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "target": "Brandestein",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
+        "target": "Gnome",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
+        "target": "Djinns",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
+        "target": "Feuerwesen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
+        "target": "Moorlaeuferin",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
+        "target": "Kreuzrueckenspinne",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Bibliotheks_Register.md",
+        "target": "Die_Maid_vom_Greifenweiher",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
+        "target": "Tare\u2019say",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
+        "target": "Schwarzmagie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
+        "target": "Gef\u00fchlsmagie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/index.md",
+        "target": "01_Pantheon/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/index.md",
+        "target": "03_Gesellschaft/index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/index.md",
+        "target": "03_Gesellschaft/Koenigliche_Akademie_der_Arkanen_Kuenste",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Link_Test.md",
+        "target": "Falkensee.md",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Wiki_Style_Guide.md",
+        "target": "SY_STANDARDS",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Wiki_Style_Guide.md",
+        "target": "COORDINATION_HUB",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
+        "target": "Koenigliche_Kriegerakademie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
+        "target": "Kuenstlerakademie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
+        "target": "Orden_vom_Roten_Salamander",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
+        "target": "Anstalt_fuer_ozeanische_Thaumaturgie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
+        "target": "Akademie_des_gruenen_Zweiges",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
+        "target": "Schule_der_tausend_Funken",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
+        "target": "Ring_der_Wissenden",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Die_Magie_(Toran_Dur).md",
+        "target": "Theorien der [[index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Magica_Curativa_(Toran_Dur).md",
+        "target": "Edomwayr",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Weissmagie_(Althea_Danea).md",
+        "target": "Odalerich_I_ap_Erson",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Weissmagie_(Althea_Danea).md",
+        "target": "Asodayr_I_ahm_Erson",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Lehrbuch_der_Magietheorie_(Toran_Dur).md",
+        "target": "Die [[index",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Forschungsberichte_(Toran_Dur).md",
+        "target": "H\u00f6hle Niemands",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur).md",
+        "target": "Orden vom Wachenden L\u00f6wen",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Voelker_(Garreth_Moss).md",
+        "target": "Avindrell",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Voelker_(Garreth_Moss).md",
+        "target": "Brockental",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Voelker_(Garreth_Moss).md",
+        "target": "Brockental",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Graue_Charta_(Zweiter_Entwurf).md",
+        "target": "K\u00f6nigliche Magierakademie",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Die_Foki_(Dimiona).md",
+        "target": "Alt_Galad",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Siebenwind_Wiki/03_Wissen/Werke/Schwarze_Ritualmagie_(Thanthul).md",
+        "target": "Thanthul",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Einsame Ladengedanken.md",
+        "target": "Carmer",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Einsame Ladengedanken.md",
+        "target": "Carmer",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Einsame Ladengedanken.md",
+        "target": "Carmer",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Einsame Ladengedanken.md",
+        "target": "Heiltr\u00e4nke",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Einsame Ladengedanken.md",
+        "target": "Awa",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Alles_ohne_Pointe.md",
+        "target": "Toran Dur",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md",
+        "target": "Kudahar",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Einer Lo\u0308win Traum.md",
+        "target": "Astralebene",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Aus dem Leben eines Schwarzmagiers.md",
+        "target": "Toran Dur",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Jenseits des Walls.md",
+        "target": "Malthuster",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Aus_dem_Leben_eines_Schwarzmagiers.md",
+        "target": "Toran Dur",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Abschied_und_Verrat.md",
+        "target": "Robaar von Saalhorn",
+        "reason": "Missing File"
+      },
+      {
+        "file": "Quellen/Spielergeschichten/Abschied_und_Verrat.md",
+        "target": "Saalhorn",
+        "reason": "Missing File"
+      }
+    ],
+    "bridge_pages": [
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Arman_von_Draconis.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Ars_Magica_Metamorphosia.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Astraelorden.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Astreyon.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Aurora.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Baumwesen.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Benion.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Burg_Saalhorn.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Comari.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Die_Viere_Kirche.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Erin_Caiomme.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Ersont.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Feanthil.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Feldmeister_Harlas.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Feldmeister_Llewellyen.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Galadonien.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Galadons.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Gerdenwald.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Gohor.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      },
+      {
+        "file": "Siebenwind_Wiki/00_Fundament/Gott Bellum.md",
+        "missing": [
+          "bridge_mode:",
+          "bridge_target:",
+          "bridge_ticket:",
+          "bridge_review_until:"
+        ]
+      }
+    ]
+  }
+}
+Error executing .agent/scripts/register_check.py: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '/Users/alexandrerabe/siebenwind/7w_wiki/./.agent/scripts/register_check.py', '--json']' returned non-zero exit status 1.

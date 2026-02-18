@@ -4,78 +4,44 @@ title: Siebenwind Wiki
 category: Index
 ---
 
-# Siebenwind Wiki
+<div class="hero-wrapper">
+  <p class="hero-kicker">Das Archiv</p>
+  <h1 class="hero-title">Siebenwind Wiki</h1>
+  <p class="hero-subtitle">Willkommen im zentralen Wissensspeicher der Welt Siebenwind. Hier finden sich alle kanonischen Informationen, von den Göttern bis zur Geografie.</p>
+</div>
 
-![Siebenwind Lore Engine Banner](../assets/banner.png){ .wiki-banner }
+## Abteilungen
+
+<div class="portal-grid">
+  <a href="00_Fundament/" class="portal-card"><h3>Fundament</h3><p>Register, Völker & Magie.</p></a>
+  <a href="01_Pantheon/" class="portal-card"><h3>Pantheon</h3><p>Götter & Religion.</p></a>
+  <a href="02_Geografie/" class="portal-card"><h3>Geografie</h3><p>Atlas & Orte.</p></a>
+  <a href="03_Gesellschaft/" class="portal-card"><h3>Gesellschaft</h3><p>Stände & Politik.</p></a>
+  <a href="04_Chronik/" class="portal-card"><h3>Chronik</h3><p>Geschichte & Boten.</p></a>
+  <a href="07_Persoenlichkeiten/" class="portal-card"><h3>Personen</h3><p>Who is Who.</p></a>
+  <a href="09_Bibliothek/" class="portal-card"><h3>Bibliothek</h3><p>Werke & Schriften.</p></a>
+  <a href="10_Archiv/" class="portal-card"><h3>Archiv</h3><p>Verwaltung & Stats.</p></a>
+</div>
+
+## Projekt Status
 
 <p align="center">
   <a href="https://github.com/Siebenwind/7w_wiki" target="_blank">
     <img src="https://img.shields.io/badge/Status-Aktiv-vibrantgreen?style=for-the-badge&logo=github" alt="Project Status">
-  </a>
-  <a href="https://siebenwind.github.io/7w_wiki/">
-    <img src="https://img.shields.io/badge/Live-Wiki_Docs-blue?style=for-the-badge&logo=materialformkdocs" alt="Live Wiki">
   </a>
   <a href="../CHANGELOG.md">
     <img src="https://img.shields.io/badge/Version-Reconstruction_v2.1-orange?style=for-the-badge" alt="Version">
   </a>
 </p>
 
----
-
-## Projekt-Hintergrund
-
-Die [[Siebenwind]] Lore-Engine ist ein technisches Archiv zur Bewahrung und Erschliessung von Rollenspiel-Dokumentationen. Der Fokus liegt auf der quellengetreuen Rekonstruktion historischer Datenbestaende.
-
----
-
-## 🧠 System-Architektur (The Wisdom Loop)
-
-Das Projekt basiert auf einem kybernetischen Kreislauf der Wissensgenerierung:
+### System-Architektur
 
 ```mermaid
 graph TD
-    A["🗂️ Rohdaten (Archive/Bote)"] -->|Ingestion| B("🤖 Lore Extraktion")
+    A["🗂️ Rohdaten"] -->|Ingestion| B("🤖 Lore Extraktion")
     B -->|Validation| C{"⚖️ Konsistenz-Audit"}
     C -->|Kanon| D["📚 Wiki-Archiv"]
-    C -->|Widerspruch| E["🏮 Synapse Board"]
-    E -->|Entscheidung| D
     D -->|Semantic Search| F["👁️ Das Orakel"]
-    F -->|Result| G["👤 Endnutzer / Staff"]
 ```
-
----
-
-## 🧭 Die Goldenen Protokolle
-
-| Sektion | Zweck | Dokumentation |
-| :--- | :--- | :--- |
-| **🧭 Navigation** | Der Einstieg in die Welt. | [Wiki-Startpunkt](index.md) |
-| **🛠️ Setup** | Architektur des Orakels. | [Setup RAG](../setup_rag.md) |
-| **📜 Philosophie** | Grundgesetze des Systems. | [Architektur](../architecture.md) |
-| **📈 Fortschritt** | Rekonstruktions-Status. | [Master Task List](../MASTER_TASK_LIST.md) |
-
----
-
-## 🚀 Unified CLI: `7w_wiki.py`
-
-Die gesamte Intelligenz des Systems ist in einem Werkzeug gebündelt:
-
-```bash
-# Das Orakel abfragen
-./7w_wiki.py search "Wer war Benedict Rabenfels?" --source all
-
-# Den Konsistenz-Status prüfen
-./7w_wiki.py audit
-
-# Den Status des Archivars abrufen
-./7w_wiki.py advisor
-```
-
----
-
-## Projekt-Metadaten
-- **Entwicklung:** LeCorbeau & Siebenwind Gemeinschaft
-- **Inhalte:** Autoren & Projekt Siebenwind
-- **Lizenzen:** Code (MIT), Inhalte (CC BY-NC-SA 4.0)
 
 *Stand: 2026 | LeCorbeau & Siebenwind*

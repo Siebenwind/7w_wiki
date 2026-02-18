@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Wesenheiten
+title: Siebenwind Wiki - Wesenheiten
 ---
 
 # [[Siebenwind]] Wiki - Wesenheiten

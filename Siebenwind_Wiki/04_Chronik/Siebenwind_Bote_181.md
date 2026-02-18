@@ -47,5 +47,5 @@ Eskalation durch Überfälle und Entführungen.
 - **Freudenhaus:** Gerüchte über ein gut besuchtes Etablissement in [[Falkensee]].
 
 ---
-**Quellen:** [[Siebenwind Bote 181]] (Original)
+**Quellen:** [[Siebenwind_Bote_181]] (Original)
 **Siehe auch:** [[Die_Chronik]], [[Aufhebung_des_Toleranzedikts]], [[Brand_Windfluesterer]], [[Johan_Gottfried]]
