@@ -1,5 +1,18 @@
 # Changelog
 
+#### [2026-02-18.12] - Link Integrity Restoration & Precision Repair
+- **P1**
+- **Geändert**:
+  - **Link Engine**: Rollback von `ezlinks` auf `roamlinks` zur Behebung von 404-Fehlern auf GitHub Pages.
+  - **Infrastruktur**: Migration von `docs/` Symlinks zu physischen Verzeichnissen.
+  - **Massen-Reparatur**: 502 Links in `Quellen/` (Spielergeschichten) via `repair.py` normalisiert.
+  - **Geografie**: "Grünland" (ex Grönlanden) normalisiert, Stub erstellt und Duplikate in `Siebenwind.md` entfernt.
+- **Hinzugefügt**:
+  - `RESEARCH-2026-012` (Auftrag für Grünland-Forschung).
+- **Validiert**:
+  - `./7w_wiki.py pages build` (PASS)
+  - `grep` Verifikation der Pfade in `site/` (PASS)
+
 #### [2026-02-18.11] - Oracle Stability & Bridge Rewrite Batch 1
 - **P1**
 - **Hinzugefügt**:

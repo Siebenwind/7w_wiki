@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-18 00:08 (Codex -> Next Agent)
-- **Status**: Reader-Stats-Contract integriert (Skill + Suite + Snapshot-Schnittstelle), Register/Stats synchronisiert; aktueller Audit-Stand 437 Probleme (inkl. Bridge-Hygiene-Klasse), Interop weitgehend gruen, `takeover-handover` wieder PASS, `rag-relevance-smoke` aus Stabilitaetsgruenden aus `test --suite all` ausgelagert (Opt-in).
+- **Last Handover**: 2026-02-18 18:05 (Antigravity -> Next Agent)
+- **Status**: Wiki Link Engine restored to `roamlinks`; Over 500 legacy links repaired in `Quellen/`; Grünland Research Order (RESEARCH-2026-012) issued; Site build verified for case-sensitivity on GitHub Pages.
 
 ---
 
@@ -17,7 +17,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [ ] **Advisor API fuer Automationen**: Auftrag `MSG-2026-0032` bearbeiten; `advisor --json` mit stabilen Schluesseln einfuehren und per Suite absichern.
 - [ ] **Dispatch Queue Hygiene**: Auftrag `MSG-2026-0033` bearbeiten; OPEN-Backlog konsolidieren (obsolet zusammenfassen, aktuelle Blocker priorisieren).
 - [ ] **Audit Regression Triage**: Aktuellster Stand `Logs/Archive/Audit_08ed78ca-c2e7-4490-9fd1-8464da6af1fc.txt` (437 Probleme). P1-Breaker `Mirila_Mik_Honigzopf` und `Althea_Danea` behoben; verbleibend ist der Link-Flood. Konsolidierung siehe `Logs/Archive/AUDIT_CONSOLIDATION_INDEX_2026-02-17.md`.
-- [ ] **Technical Link Repair**: Prefixing 1100+ links with category folders to overcome `ezlinks` flattening.
+- [x] **Technical Link Repair**: Restored `roamlinks` and normalized 500+ links via `repair.py` to overcome 404s on GitHub Pages.
 - [ ] **Ingestion 2.0**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - [BLOCKED: 118 Source Missing].
 
 ## 🟡 Priorität 2: Operative Ingestion & Research
@@ -35,6 +35,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 | [[RESEARCH-2026-002]] | Die Transformation des Ödlands | 🟡 | [ ] Offen |
 | [[RESEARCH-2026-003]] | Die Linari-Matrix | 🟡 | [ ] Offen |
 | [[RESEARCH-2026-007]] | Dossier Rhadan (Zeichnung Tares) | 🔴 | [ ] Offen |
+| [[RESEARCH-2026-012]] | Das Grünland (Geografie & Siedlung) | 🔴 | [ ] Offen |
 
 ## 🔵 Priorität 3: Qualität & Politur (Optimierung)
 *Verbesserungen an System und Lore, die den Nutzwert steigern.*
@@ -54,6 +55,16 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 🗂️ Projekthistorie (neu → alt)
 
 ### v2.7 Upgrade-Phasen
+
+<details open>
+<summary><b>Phase 1.25: Link Integrity Restoration & Precision Repair (Feb 2026)</b></summary>
+
+- **Link Oracle**: Rollback to `roamlinks` engine and physical synchronization to `docs/` to fix 404 regression.
+- **Mass Repair**: Normalized 500+ legacy links in `Quellen/` (Isgrimm, Lorien, Seker etc.) using `repair.py`.
+- **Geography**: Removed duplicates in `Siebenwind.md` and normalized `Grünland` terminology.
+- **Governance**: Issued `RESEARCH-2026-012` for deep regional research.
+- **Verification**: 100% build success and local path verification for GitHub Pages.
+</details>
 
 <details open>
 <summary><b>Phase 1.23: Visual Identity & Link Resolution Audit (Feb 2026)</b></summary>
