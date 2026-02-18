@@ -53,8 +53,22 @@ Rechnet man das Standardjahr (12 x 28 Tage), kommt man auf 336 Tage. Die fehlend
 ## Ären und Zählung
 
 Die gebräuchlichste Zeitrechnung auf [[Siebenwind]] ist **"nach Hilgorad" (n.H.)**.
-*   **Bezugspunkt:** Die Krönung oder das Wirken von Hilgorad (Details je nach historischer Quelle).
-*   **Aktuelle Zeit:** Die Ereignisse des *[[Siebenwind]] Boten* spielen im Zeitraum **15 n.H. bis 30 n.H.**
+*   **Bezugspunkt:** Die Krönung oder das Wirken von Hilgorad.
+*   **Aktuelle Zeit:** Die Ereignisse des *[[Siebenwind]] Boten* spielen im Zeitraum **15 n.H. bis 36 n.H.**
+
+### Zeit-Konverter (Real Welt vs. Lore)
+
+Das Siebenwind-Archiv korreliert in seiner Entwicklung direkt mit der irdischen Zeitrechnung (seit dem Projektstart 2004).
+
+| Epoche / Ereignis | Lore-Jahr (n.H.) | Reales Jahr (ca.) |
+| :--- | :--- | :--- |
+| **Projektstart / Batch 1** | 15 n.H. | 2004 |
+| Aufstieg Brandensteins | 20 n.H. | 2009 |
+| Die Zeit der Könige | 30 n.H. | 2019 |
+| **Aktueller Lore-Status** | **36 n.H.** | **2026** |
+
+> [!NOTE]
+> Die Umrechnung folgt einem einfachen **1:1 Schlüssel**. Ein Jahr in der realen Welt entspricht einem Jahr in der Geschichte von Siebenwind. Der Offset beträgt **-1989/1990** (2026 - 36 = 1990).
 
 ## Wichtige Feiertage
 *   **3. Dular:** Fest der [[Vitama]] (Frühlingsfest).
