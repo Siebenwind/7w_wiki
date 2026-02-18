@@ -30,4 +30,4 @@ Wir können euch natürlich nicht bereits im Voraus sagen, was passieren wird. D
 
 Euer Siebenwindstaff
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

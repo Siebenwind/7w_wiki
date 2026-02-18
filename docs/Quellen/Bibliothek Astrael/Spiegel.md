@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Spiegel"
+category: Allgemein
+---
+
 |  **Spiegel  
 ** Rose  
 ---|---  

@@ -32,4 +32,4 @@ Marnie
 
 Nachtrag (25.10.2016): Der Server und die Foren sind wieder erreichbar! ~Lyrael
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

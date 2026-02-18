@@ -47,4 +47,4 @@ Es verbleibt mit besten Grüßen,
 Hadrian
 Spielleiter
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

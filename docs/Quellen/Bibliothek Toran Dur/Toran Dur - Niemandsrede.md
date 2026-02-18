@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Niemandsrede"
+category: Allgemein
+---
+
 Niemand hört und Niemand sieht darum ist das Wissen verloren. Doch was einst in alten Tagen war es trägt das Schicksal Zukunft zu werden. Und wisse, Sterbender, der du dich nach Macht sehnst, der Krieg der Seelen fordert große Opfer.
 
 Sterbender der du so viele Antworten kennst, und sie doch nicht siehst... die Antwort der Fragen die dir am meisten auf der Seele brennt... du fandest sie, als du deinem Wunsch nach Macht folgtest... und doch siehst du sie nicht.

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Talzwerge | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Talzwerge
 
 **Rassenbeschreibung:** Die Talzwerge gehören wie die Bergzwerge zum Volk der

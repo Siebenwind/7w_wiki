@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Region Galadon | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Region Galadon
 
 Das stolze Galadon ist das größte, wohlhabendste und demzufolge auch das

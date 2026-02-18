@@ -18,4 +18,4 @@ _Beobachterprotokoll des Netz-Waechters. Quelle: offizielle Siebenwind-News._
 
 Siebenwind hat ein neues System zum Verkleiden und Tarnen. Jeder Charakter kann verschiedene Identitäten annehmen. Details dazu findet ihr im Forum bei der Bekanntmachung zur neuen Serverversion.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Elementum et Gens Humanis"
+category: Allgemein
+---
+
 |  **Elementum et Gens Humanis  
 **Commentari ad Divinum et Elementum  
 Über den Einfluss der Elemente auf das Wesen Anonymus  

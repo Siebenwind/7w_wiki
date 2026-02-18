@@ -28,4 +28,4 @@ Danke für Euer Verständnis
 
 Solos
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

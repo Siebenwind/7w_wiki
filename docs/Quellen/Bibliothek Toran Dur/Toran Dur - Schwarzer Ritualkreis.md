@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Schwarzer Ritualkreis"
+category: Allgemein
+---
+
 # Zusammenfassung des Unterrichtstoffes zum  Ritualkreis
 
 Der Rituskreis ist die Vollständigkeit aller mondänen Mittel zur Beschwörung von Beschwörung von Wichtigkeit sind. Nun zum Aufbau eines solchen Rituskreises auch Cuthal Anar gennant benötigt man folgendes:

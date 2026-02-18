@@ -74,4 +74,4 @@ Weiteres wird folgen und dann natürlich auch bekannt gegeben
 MfG,
 Frühjahrsputz-Marnie
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

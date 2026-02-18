@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Hellsichtritual Konstrukt am Wall"
+category: Allgemein
+---
+
 Abstrakt
 
 Durch die Verwendung einer Reflektion auf Basis der größeren Ströme konnte ein sauberes arkanes Abbild eines Konstruktes geschaffen werden. Dadurch konnten chaotische Störungen herausgefiltert werden und die Untersuchung des Objektes wurde ermöglicht, welches sich dabei als Limbusriss entpuppte. Implikationen für die weitere Forschung und Praxis, sowie Limitationen, werden entsprechend adressiert.

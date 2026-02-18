@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Bericht der Erkundung des Tals der Ahnen"
+category: Allgemein
+---
+
 - Wachposten zu Finsterwangen
 
 ein Massengrab, ein schwarzer Monolith, ein Feld giftiger Pilze, vermutlich vergifteter Boden

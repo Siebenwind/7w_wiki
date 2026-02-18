@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Postulat der idealen Form von Matricen im Raum und in der Zeit"
+category: Allgemein
+---
+
 **Postulat der idealen Form von Matricen im Raum und in der Zeit  
 ** **  
 **Doctorius Donarius Derrvus  

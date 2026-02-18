@@ -33,4 +33,4 @@ Die neue Bildergalerie findet sich hier:
 Link
 Herzlichen Dank an Miralu, der mein Beta-Tester war. LG Syra
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Daimonologie"
+category: Allgemein
+---
+
 *die gesamte Seite wurde mit einem komplexen Gebilde aus Schutzrunen umzogen, welche eindeutig in Torans Handschrift sind*
 
 Daimonologie

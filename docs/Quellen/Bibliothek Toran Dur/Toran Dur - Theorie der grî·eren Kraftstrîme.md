@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Theorie der grî·eren Kraftstrîme"
+category: Allgemein
+---
+
 # Theorie der größeren Kraftströme
 
 von

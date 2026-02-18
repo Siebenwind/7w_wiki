@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Könige Falandriens | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Könige Falandriens
 
 **n.E.A.** = nach Ende des Amulettkrieges

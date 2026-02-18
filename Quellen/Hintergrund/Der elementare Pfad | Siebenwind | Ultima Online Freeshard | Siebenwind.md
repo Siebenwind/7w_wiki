@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Der elementare Pfad | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Der elementare Pfad
 
 Wie der Name schon vermuten lässt, besitzen die Mitglieder des Elementaren

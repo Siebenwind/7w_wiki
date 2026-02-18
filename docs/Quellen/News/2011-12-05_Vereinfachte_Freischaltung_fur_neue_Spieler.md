@@ -40,4 +40,4 @@ Dieses neue Konzept ist erstmal ein paar Wochen „auf Probe“ aktiv. Wenn es s
 
 Euer Siebenwind-Rat
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

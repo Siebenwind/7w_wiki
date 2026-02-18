@@ -24,4 +24,4 @@ Das Eventteam hat derzeit im Forum eine Umfrage laufen.
 
 Schaut also in eure Gruppenforen und teilt dem Eventteam eure Wünsche und Vorstellungen mit.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

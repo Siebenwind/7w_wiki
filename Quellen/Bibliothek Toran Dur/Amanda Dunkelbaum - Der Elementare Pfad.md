@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Amanda Dunkelbaum - Der Elementare Pfad"
+category: Allgemein
+---
+
 Der Elementare Pfad
 
 Ignis, dem Herren der Flammen zum Gruß, ehrenwertes Magistrat

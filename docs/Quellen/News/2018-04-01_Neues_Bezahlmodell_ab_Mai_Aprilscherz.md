@@ -40,4 +40,4 @@ PS: Solos ist für die nächste Woche nicht erreichbar. Er probiert seinen neuen
 
 PSS: Es handelt sich natürlich um einen Aprilscherz.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

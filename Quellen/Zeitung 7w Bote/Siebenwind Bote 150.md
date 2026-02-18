@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Siebenwind Bote 150"
+category: Allgemein
+---
+
 |  |  |   
 ---  
 **Ausgabe 150** -**Mittentag, 26. Querler 17 nach Hilgorad**  

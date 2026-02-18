@@ -54,4 +54,4 @@ Mit freundlichen Grüßen,
 
 euer Siebenwind Team
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

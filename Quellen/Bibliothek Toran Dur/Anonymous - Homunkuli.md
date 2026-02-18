@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Anonymous - Homunkuli"
+category: Allgemein
+---
+
 Homunkuli - eine Abhandlung
 
 Kapitel 1: Herkunft und Merkmale des Homunkulus

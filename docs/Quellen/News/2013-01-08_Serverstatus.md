@@ -46,4 +46,4 @@ Der Umzug auf die andere KVM ist nach einigen Problemen (Spielviel hat bis vor e
 
 Ich werde den Server sicher noch etwas im Auge behalten, aber insgesamt könnt ihr wieder einloggen und loslegen.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

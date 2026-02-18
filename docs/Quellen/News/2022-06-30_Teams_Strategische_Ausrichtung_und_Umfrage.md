@@ -54,4 +54,4 @@ Mit besten Grüßen,
 Hadrian
 Shardleitung
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

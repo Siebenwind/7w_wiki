@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Das Buch der Bartanatomie"
+category: Allgemein
+---
+
 |  _(Dieser Foliant ist in zwergischen Runen verfasst und nur von jenen zu
 lesen, die den zwergischen Runen mächtig sind.)_  
 ---|---  

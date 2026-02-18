@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Die Ordenssatzung des Ordens vom Wachenden Lîwen auf Siebenwind"
+category: Allgemein
+---
+
 Die Ordenssatzung des Ordens vom Wachenden Löwen auf Siebenwind.
 
 Teil I: Mission und Ziele des Ordens.

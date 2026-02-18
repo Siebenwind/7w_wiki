@@ -28,4 +28,4 @@ Der Punkt Bauen & Herstellen ist der einzige der nun nicht mehr in den Regeln se
 
 An der Stelle nochmal ein großes Danke ans gesamte Projektteam, dass sich diesem undankbaren Thema angenommen und tapfer durchgehalten hat.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

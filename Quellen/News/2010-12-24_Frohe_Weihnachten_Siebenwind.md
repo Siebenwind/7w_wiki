@@ -28,4 +28,4 @@ Wir wünschen euch und euren Familien frohe Weihnachten und einen guten Start in
 
 Euer Siebenwind-Rat
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

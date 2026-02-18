@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Raisha al Javet - Invocatio Elementharii"
+category: Allgemein
+---
+
 Invocatio Elementharii
 
 Bei der Anrufung der Elemente sollte zuerst einmal geklärt werden wie an sich „tote“ Materie angerufen und beschworen werden kann. Es gibt Geister der Elemente, welche ebenso wie jedes Lebenswesen Tares beseelt sind. Wie die Geister der Tiere und der Ahnen angerufen werden so auch die der Natur und der Elemente selbst. Ebenso wie bei den Geistern der Ahnen und der Tiere gibt es verschienene Geister der Elemente, mächtige und schwach. Doch nicht nur zwischen der Stärke der Geister unterscheidet man sondern viel mehr zwischen der Bindung an ein Element. So unterscheidet man zwischen den Geistern des Feuers, des Wassers, des Windes und der Erde. Höhere Geister sind oft Wächter heiliger Orte wie zum Beispiel Quellen oder eines Vulkans, während niedere Geister meist für Menschen unsichtbar sind.

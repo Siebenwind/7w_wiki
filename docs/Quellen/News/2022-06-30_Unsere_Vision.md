@@ -25,4 +25,4 @@ Wir wollen miteinander in großartige Geschichten eintauchen, von legendären Ab
 
 Mit diesem Leitbild gestalten wir Siebenwind zur Zeit völlig neu. Wenn du dich beteiligen möchtest, besuche uns im Forum und tritt der offenen Gruppe 7w-Reorganisation bei.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

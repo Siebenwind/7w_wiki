@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Die Magie"
+category: Allgemein
+---
+
 Die Magie
 
 von Edelmann Toran Dur, Hochmagus Ita'Glur

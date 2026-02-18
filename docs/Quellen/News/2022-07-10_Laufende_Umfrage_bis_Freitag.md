@@ -32,4 +32,4 @@ Shardleiter
 
 Hier geht’s zur Umfrage
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

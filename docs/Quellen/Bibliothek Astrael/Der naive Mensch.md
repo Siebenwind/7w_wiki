@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Der naive Mensch"
+category: Allgemein
+---
+
 |  **Der naive Mensch  
 **Über Pilpulismus und seine Folgen**  
 ** Jeremias, Geweihter des Ordo Astraeli  

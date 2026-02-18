@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Anonymous - Beschwîrung eines DÑmonen"
+category: Allgemein
+---
+
 Beschwörung eines Daimoniden:
 
 Phase 1: Das Locken und die Kontaktaufnahme.

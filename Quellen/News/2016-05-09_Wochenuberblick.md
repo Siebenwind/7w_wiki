@@ -84,4 +84,4 @@ Westhever
 
 Keine Neuigkeiten aus Westhever bekannt.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

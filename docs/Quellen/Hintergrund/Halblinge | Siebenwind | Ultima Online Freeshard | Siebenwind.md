@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Halblinge | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Halblinge
 
 Welcher Fantasy- oder Rollenspielfreund kennt sie nicht, die Halblinge oder

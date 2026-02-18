@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Aus dem Liebesleben eines Dichters | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Aus dem Liebesleben eines Dichters
 
 *Haldur saß auf der Pritsche im Schlafwagen und stöberte versonnen in alten Briefen, aber auch Schriftstücken neueren Datums herum. Ein zusammengeschnürtes Bündel von solchen Briefen schien ihn in längst vergangene Zeiten entführen zu wollen. Und ohne große Gegenwehr ließ er es zu, indem er lächelnd begann zu lesen…*

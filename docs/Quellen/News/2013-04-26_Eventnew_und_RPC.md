@@ -31,4 +31,4 @@ Siebenwind ist auf der kommenden RPC wieder mit einem eigenen Stand vertreten (0
 
 Da wir nach Möglichkeit daran arbeiten wieder Testspielerzugänge anzubieten wärs natürlich ne ganz tolle Sache, wenn gerade die Leute die nicht unbedingt selber die RPC besuchen dabei mithelfen gerade an diesen zwei Tagen die Spielwelt zu bevölkern. Mit näheren Infos melde ich mich dann aber noch …
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

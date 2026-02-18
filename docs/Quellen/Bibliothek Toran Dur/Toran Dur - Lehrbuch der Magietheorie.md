@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Lehrbuch der Magietheorie"
+category: Allgemein
+---
+
 Lehrbuch der Magietheorie
 
 von

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Terenon Sarophilan - Theorien Åber die Herkunft und das Wirken der Magie"
+category: Allgemein
+---
+
 Theorien über die Herkunft und das Wirken der Magie
 
 Einleitung:

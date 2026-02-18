@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Aequitas"
+category: Allgemein
+---
+
 |  **Aequitas  
 **Über göttliche und irdische Gerechtigkeit Auszug aus einer Schrift des
 Plinius Deseglieri  

@@ -175,4 +175,4 @@ Ganz herzlich will ich an dieser Stelle schon mal allen danken, die an dieser Ve
 
 Arbo
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

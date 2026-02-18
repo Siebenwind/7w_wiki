@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Die Elementarherren (Enhor) | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Die Elementarherren (Enhor)
 
 Neben den Vieren gibt es noch, nicht minder mächtig, die Elementarherren,

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Der schwarze Pfad | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Der schwarze Pfad
 
 ### Geschichte des Schwarzen Pfades

@@ -57,4 +57,4 @@ In diesem Sinne: Weiterhin viel Spaß im Spiel und auf eine gemeinsame, abwechsl
 
 ~Lyrael
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

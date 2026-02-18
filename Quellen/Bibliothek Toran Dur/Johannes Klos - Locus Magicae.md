@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Johannes Klos - Locus Magicae"
+category: Allgemein
+---
+
 Locus Magicae
 
 Gemeinsamkeiten aller Magiewirker

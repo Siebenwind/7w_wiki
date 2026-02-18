@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Dunvallo Linari - Philosophie"
+category: Allgemein
+---
+
 Hier ist eine Sammlung des gesamten Lehrinhalts des Unterrichtsfaches Philosophie zu finden.
 
 Seine Magnifizenz,

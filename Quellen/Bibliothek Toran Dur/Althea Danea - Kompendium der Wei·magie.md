@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Althea Danea - Kompendium der Wei·magie"
+category: Allgemein
+---
+
 Kompendium der Weißmagie
 von Althea Daena
 

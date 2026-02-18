@@ -24,4 +24,4 @@ Im Forum wird derzeit darüber abgestimmt, wann das kommende Dunkeltief stattfin
 
 Mit eurer Stimme könnt ihr das Ergebnis mitbestimmen.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

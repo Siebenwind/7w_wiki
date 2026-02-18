@@ -28,4 +28,4 @@ Ich wünsche Gandor alles gute in seiner neuen Position. Im gleichen Atemzug bed
 
 Nitramtin
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

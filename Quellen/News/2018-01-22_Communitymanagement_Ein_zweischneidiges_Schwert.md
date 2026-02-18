@@ -36,4 +36,4 @@ Wir hoffen daher auf euer Verständnis.
 
 Solos
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

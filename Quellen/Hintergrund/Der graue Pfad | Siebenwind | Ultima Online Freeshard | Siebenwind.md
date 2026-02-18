@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Der graue Pfad | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Der graue Pfad
 
 Für den grauen Pfad der Magie geboren zu sein, bedeutet das Arkane

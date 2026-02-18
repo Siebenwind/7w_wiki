@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Sphärenkunde | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Sphärenkunde
 
 ### Die erste Sphäre

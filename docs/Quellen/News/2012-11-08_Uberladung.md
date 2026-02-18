@@ -18,4 +18,4 @@ _Beobachterprotokoll des Netz-Waechters. Quelle: offizielle Siebenwind-News._
 
 Wenn euer Charakter im Spiel mehr trägt, als er tragen kann, wird bei einem Schritt nicht mehr sämtliche Ausdauer abgezogen, sondern nur noch 10 Ausdauer.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

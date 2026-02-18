@@ -30,4 +30,4 @@ Dann und wann pulsiert die Korona schlagartig in blau oder grün und allerlei an
 
 [Das Dunkeltief läuft vom 05.01.23 20:00h bis zum 08.01.23 21:00h]
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

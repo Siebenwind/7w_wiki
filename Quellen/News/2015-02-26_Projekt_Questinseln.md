@@ -50,4 +50,4 @@ Eure Mädels aus dem Designteam 🙂
 
 Marnie, Sherry, Awa, Ira
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

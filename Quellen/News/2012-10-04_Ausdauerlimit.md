@@ -18,4 +18,4 @@ _Beobachterprotokoll des Netz-Waechters. Quelle: offizielle Siebenwind-News._
 
 In unserer Auflistung der Fähigkeiten- und Attributlimits wurde das Ausdauermaximum von 100 auf 105 erhöht, da manche Klassen (z.B. Bergzwerg/Abenteurer) diesen Wert erreichen können.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Arknor - Die Sprache Yerredoni"
+category: Allgemein
+---
+
 Die Sprache Yerredoni
 
 (Magisterarbeit von Arknor)

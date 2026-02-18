@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Die Sprache Run"
+category: Allgemein
+---
+
 Grammatikalische Endung Bedeutung Verben:
 
 ~e Alle Gegenwartsformen+Imperativ

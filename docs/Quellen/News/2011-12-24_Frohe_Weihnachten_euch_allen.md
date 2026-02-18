@@ -18,4 +18,4 @@ _Beobachterprotokoll des Netz-Waechters. Quelle: offizielle Siebenwind-News._
 
 Keine auslesbare Meldung im Quelltext vorhanden.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

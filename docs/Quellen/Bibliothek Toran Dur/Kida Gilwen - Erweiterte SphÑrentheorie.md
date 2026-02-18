@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Kida Gilwen - Erweiterte SphÑrentheorie"
+category: Allgemein
+---
+
 Erweiterte Sphärentheorie
 
 Erweiterte Sphärentheorie Autor: Kida Gilwen

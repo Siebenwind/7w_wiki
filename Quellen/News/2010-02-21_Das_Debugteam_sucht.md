@@ -42,4 +42,4 @@ Vielen Dank
 
 Thara
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

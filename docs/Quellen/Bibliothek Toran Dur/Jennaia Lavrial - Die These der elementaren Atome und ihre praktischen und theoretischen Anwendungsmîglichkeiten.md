@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Jennaia Lavrial - Die These der elementaren Atome und ihre praktischen und theoretischen Anwendungsmîglichkeiten"
+category: Allgemein
+---
+
 Magisterarbeit
 
 Die These der elementaren Atome und ihre praktischen und theoretischen Anwendungsmöglichkeiten.

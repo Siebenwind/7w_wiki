@@ -49,4 +49,4 @@ Update 11.09.2017
 
 Der allgemeine Channel ist nun wieder im Discord greif- und nutzbar. Bitte haltet euch an die gängigen Regeln des Miteinanders.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -40,4 +40,4 @@ Und nun: Herzlichen Glückwunsch Siebenwind, lassen wir die Korken knallen!
 
 Euer Siebenwind-Rat (-:
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

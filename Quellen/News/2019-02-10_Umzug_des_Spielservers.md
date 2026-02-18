@@ -40,4 +40,4 @@ Was gut ist: Mit dem Umzug auf den neuen Server wird es solche Aktionen künftig
 
 Besonderer Dank geht dafür erstmal an die Technik (LeCorbeau, Sarabian, Solos, Arbo) die sich da volles Zeug reingehängt haben, damit ein schneller Umzug klappte! Das restliche Umsetzen des Umzugs (damit es keine Einschränkungen mehr gibt) wird sich noch ein paar Wochen ziehen, weil viel Arbeit.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

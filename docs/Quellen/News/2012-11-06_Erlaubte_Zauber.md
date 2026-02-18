@@ -24,4 +24,4 @@ In der Übersicht der erlaubten Zauber stimmen die Zaubernamen jetzt mit den Nam
 
 Zudem wurden alle Zaubernamen auf die Zauberbeschreibung verlinkt.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Dunvallo Linari - DÑmonen - Eine EinfÅhrung"
+category: Allgemein
+---
+
 Dieser Text wurde von mir vor einiger Zeit als Magisterarbeit verfasst. Er mag einen guten Einstieg in das Thema der Dämonologie bieten, auch wenn bereits neuere Erkenntnisse verfügbar sind.
 
 Seine Magnifizenz,

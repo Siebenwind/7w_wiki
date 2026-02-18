@@ -30,4 +30,4 @@ Und zum großen Finale am Montag gibt es sogar Plotbelohnungen (z.B. 50k Erfahru
 
 Euer Rat.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

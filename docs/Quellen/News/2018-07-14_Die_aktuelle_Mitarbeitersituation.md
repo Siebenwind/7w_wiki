@@ -40,4 +40,4 @@ Wir bitten euch als Letztes, als die treuen Seelen die noch auf Siebenwind spiel
 
 Solos
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

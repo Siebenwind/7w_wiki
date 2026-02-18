@@ -42,4 +42,4 @@ Die selbe Förderung kann auch von bereits bestehenden, aber inaktiven Gilden be
 
 Siebenwind Foren • Thema anzeigen – Förderung für Gruppenkonzepte (mind.de)
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

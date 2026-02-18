@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Logrin Goldaxt - Bartanatomie"
+category: Allgemein
+---
+
 Logrin Goldaxt, Magister der Bartanatomie
 
 Band 1

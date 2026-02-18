@@ -28,4 +28,4 @@ Der Rat
 
 Update: War natürlich einer der jährlichen Aprilscherze
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

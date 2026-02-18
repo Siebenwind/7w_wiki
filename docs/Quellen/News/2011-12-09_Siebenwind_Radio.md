@@ -25,4 +25,4 @@ Im Siebenwind Radio läuft noch immer die aktuelle Playlist „Gametracks“, se
 Siebenwind Radio
 Viel Spass damit.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

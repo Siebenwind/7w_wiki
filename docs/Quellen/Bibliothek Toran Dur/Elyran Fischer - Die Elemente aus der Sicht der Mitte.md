@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Elyran Fischer - Die Elemente aus der Sicht der Mitte"
+category: Allgemein
+---
+
 Die Elemente aus der Sicht der Mitte
 
 Eine magietheoretische Betrachtung von Symbolik und Nutzen

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Kulin Lateal - Das Daimonicon"
+category: Allgemein
+---
+
 Das Daimonicon
 
 Geschrieben von Kulin Laetall,

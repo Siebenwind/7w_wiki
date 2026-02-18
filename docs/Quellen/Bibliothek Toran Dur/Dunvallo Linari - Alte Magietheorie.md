@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Dunvallo Linari - Alte Magietheorie"
+category: Allgemein
+---
+
 Dieses Werk über die Schaffung von magischen Dingen, die mittels in sie gebundener Zauber Wirkungen entfalten können, ist in den Grundlagen korrekt. Jedoch sind in den letzten Jahren weitere Erkenntnisse gewonnen worden, insbeonsdere auch über die veränderten Bedingunen auf - genannt sei nur das, im Gegensatz zum Festlande leicht verschobene, elementare Gleichgewicht. Jedem sei anzuraten, sich vor dem Versuch der Schaffung eines Artefakts mit dem Erzmagus seines Zweiges zu beraten und ihm den eigenen Entwurf vorzulegen, so das er prüfe, ob er auch fehlerlos ist, auf das ein Fehlschlag und die Verschwendung vieler Zyklen vermieden werde.
 
 Zur Analyse derer Artefakte: Der Magus vermag dieses mittels Betrachtung der Kraftknoten und -fäden zu vollbringen. Eine erste Analyse kann recht schnell und ohne weitere Hilfsmittel vorgenommen werden, während eine vollständige sicherlich den Einsatz verschiedener Hellsichts- und (unschädlicher) Veränderungszauber auf das Objekt und das Beobachten der Reaktion erfordert.

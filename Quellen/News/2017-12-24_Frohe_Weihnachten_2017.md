@@ -31,4 +31,4 @@ Wir sehen optimistisch in das neue Jahr und seine Veränderungen und wünschen e
 
 Der Rat
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

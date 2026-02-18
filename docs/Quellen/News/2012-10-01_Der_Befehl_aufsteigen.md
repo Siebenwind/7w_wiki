@@ -18,4 +18,4 @@ _Beobachterprotokoll des Netz-Waechters. Quelle: offizielle Siebenwind-News._
 
 Unser Befehl !aufsteigen, mit dem man die Grundklasse in die passende Aufstiegsklasse aufsteigen lassen kann, funktioniert nun auch für sämtliche Aufstiegsklassen der Kriegerreform.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Sylest le Felyhn - Die Erweiterte Thematik der Vjera Batama Magica"
+category: Allgemein
+---
+
 Die Erweiterte Thematik der Vjera Batama Magica – Neu gewonnene Hintergründe, Thesen und Forschungen
 
 Von Sylest le Felyhn Adepta Arkana des Pfades zur rechten Hand

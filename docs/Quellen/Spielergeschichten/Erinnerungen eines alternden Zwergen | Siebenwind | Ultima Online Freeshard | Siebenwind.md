@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Erinnerungen eines alternden Zwergen | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Erinnerungen eines alternden Zwergen
 
 1.

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Amanda Dunkelbaum - Eigenschaften der Elemente"
+category: Allgemein
+---
+
 Eigenschaften der Elemente
 
 Elementarmagier besitzen eine große Macht welche ebenso vielfältig ist wie die Elemente selbst. Jeder Elementarmagier besitzt eine begrenzte Beherrschung aller Elemente gleich welchem er nahe steht. Jedem Element werden bestimmte magische „Eigenschaften“ zu geordnet. So will ich hier nun die Eigenschaften der Elemente in der Magie anhand von Zaubern die durch sie gewirkt werden beschreiben.

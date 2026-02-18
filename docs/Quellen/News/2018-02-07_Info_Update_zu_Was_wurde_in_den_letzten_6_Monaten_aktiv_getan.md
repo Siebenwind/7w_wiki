@@ -175,4 +175,4 @@ Wir in den letzten Monaten sehr stark von den Ergebnissen der Spielerumfragen pr
 
 Vielen Dank an der Stelle für Eure Geduld und auch an unseren Spielervertreter, der diesen ewig langen Text mit seinen vielen Punkte zusammengetragen hat.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

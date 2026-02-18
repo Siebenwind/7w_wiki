@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Sammlerfragmente I-IV"
+category: Allgemein
+---
+
 Sammlerfragmente I
 
 *Bei den folgenden Übersetzungen handelt es sich um eine Zusammenfassung von Textfragmenten, die offenbar einmal ein Gesamtwerk bildeten. Sie sind jedoch lückenhaft*

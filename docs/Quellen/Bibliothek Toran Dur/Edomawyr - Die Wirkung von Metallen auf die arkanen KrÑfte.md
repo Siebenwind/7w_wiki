@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Edomawyr - Die Wirkung von Metallen auf die arkanen KrÑfte"
+category: Allgemein
+---
+
 Die Wirkung von Metallen auf die arkanen Kräfte
 
 Magisterarbeit: Edomawyr.

@@ -33,4 +33,4 @@ Da wir nach Möglichkeit daran arbeiten wieder Testspielerzugänge anzubieten w�
 
 Hadrian
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

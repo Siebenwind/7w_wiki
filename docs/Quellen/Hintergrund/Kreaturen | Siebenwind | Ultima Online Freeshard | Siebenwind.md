@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Kreaturen | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Kreaturen
 
 Auf dieser Seite könnt ihr viel über die Kreaturen dieser Welt erfahren. Die

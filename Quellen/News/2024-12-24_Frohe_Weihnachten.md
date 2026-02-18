@@ -34,4 +34,4 @@ Genießt die Feiertage und den Schnee auf Siebenwind.
 
 Alles Gute, Euer Siebenwind-Team
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

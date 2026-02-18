@@ -36,4 +36,4 @@ Herzlichen willkommen und viel Spass an die alten und neuen Kollegen in ihren ne
 
 Syra im Auftrag des Rates
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -26,4 +26,4 @@ Viel Spaß im Schnee wünscht
 
 Tanja
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

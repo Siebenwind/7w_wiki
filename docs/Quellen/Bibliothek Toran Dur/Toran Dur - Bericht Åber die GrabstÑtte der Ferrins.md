@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Bericht Åber die GrabstÑtte der Ferrins"
+category: Allgemein
+---
+
 der Tod ward überwunden um die Toten ewig zu ehren. Störe nicht was ewig lebt ihre heilige Wacht kennt keine Opfer.
 
 Eine Waffenkammer.

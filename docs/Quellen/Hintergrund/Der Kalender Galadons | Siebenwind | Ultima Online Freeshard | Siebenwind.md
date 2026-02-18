@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Der Kalender Galadons | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 #### Kalender Galadons für den Monat Onar, im Jahr 36 nach Hilgorad
 
 **(Februar 2025)**

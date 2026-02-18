@@ -24,4 +24,4 @@ Wenn ihr einloggt, bekommt ihr direkt eine Benachrichtigung, wenn es in den näc
 
 Ihr könnt diese Meldung in euren Einstellungen deaktivieren, wenn ihr davon keinen Gebrauch machen möchtet.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

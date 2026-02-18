@@ -32,4 +32,4 @@ Wo wir schon neue Datenabfragemöglichkeiten eingebaut haben. In der rechten Men
 
 Ein kleiner Wehrmutstropfen bleibt dennoch. Obwohl wir wissen, dass es noch einige Spieler gibt, die einen älteren Rechner und damit auch einen möglicherweise älteren Browser haben, setzen wir für die neue Spielerkarte, einen halbwegs aktuellen Browser voraus der JavaScript und CSS3 ausreichend unterstützt. Auch neue HTML5 Canvas Elemente kommen zum Einsatz.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -46,4 +46,4 @@ Wir hoffen ihr habt mit der neuen Serverversion Spaß.
 
 Euer Siebenwindteam
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

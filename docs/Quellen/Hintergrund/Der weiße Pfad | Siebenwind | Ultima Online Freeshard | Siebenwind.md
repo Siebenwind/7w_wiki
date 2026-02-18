@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Der weiße Pfad | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Der weiße Pfad
 
 Wer für den Pfad der weißen Magie geboren wurde, dessen arkane Kräfte sind

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Von dem Bösen"
+category: Allgemein
+---
+
 |  **Von dem Bösen** Etril Gamajeff  
 ---|---  
 |  Ich will in diesem Buch auf die stetig nahende Bedrohung durch den einen,

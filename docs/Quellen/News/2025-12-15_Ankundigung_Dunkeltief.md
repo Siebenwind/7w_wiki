@@ -24,4 +24,4 @@ Hallo Spieler,
 
 das sich rasch nähernde Dunkeltief wird vom 8.1. – 11.1. 2026 stattfinden und wird voraussichtlich am und um den Wall herum seinen Schwerpunkt finden.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

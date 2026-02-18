@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Monde Tares | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Monde Tares
 
 Tare wird von drei Monden umkreist.

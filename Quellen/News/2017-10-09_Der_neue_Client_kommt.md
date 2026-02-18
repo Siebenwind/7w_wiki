@@ -36,4 +36,4 @@ Schritt 1: Diese Woche gibt es für alle Spieler doppelte Exp für das reguläre
 
 Schritt 2 wird diese Woche noch bekannt gegeben und wird insbesondere für die vielen Zweit- und Drittchars ein Leckerli sein. Ihr dürft gespannt sein.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

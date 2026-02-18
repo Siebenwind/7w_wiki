@@ -35,5 +35,5 @@ Eminenz [[Benion_Sandelholz]] und Gnaden [[Custodias]] baten im Tempel zu [[Falk
 - **Attentat:** Ein Fest in [[Seeberg]] zu Ehren des Feiertags „Lob der Schwestern“ wurde durch Sprengtränke einer unbekannten Gruppe (mutmaßlich um „Lorum“ und „Wolf“) gestört.
 
 ---
-**Quellen:** [[Siebenwind_Bote_176]] (Original)
+**Quellen:** [[Siebenwind Bote 176]] (Original)
 **Siehe auch:** [[Die_Chronik]], [[Ersonter_Bund]], [[Graue_Garde]], [[Der_blinde_Maler]]

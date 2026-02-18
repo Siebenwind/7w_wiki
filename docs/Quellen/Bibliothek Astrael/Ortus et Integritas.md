@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Ortus et Integritas"
+category: Allgemein
+---
+
 |  **Ortus et Integritas  
 **Von der Reinheit des Anfangs**  
 ** **  

@@ -43,4 +43,4 @@ MfG,
 
 Euer Designteam
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

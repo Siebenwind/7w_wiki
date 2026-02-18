@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Bannung Hrasmiren"
+category: Allgemein
+---
+
 Bannung Hrasmiren
 
 Dies wird ein generell anderer Ansatz als frühere Rituale. Statt Hrasmiren zurück in die zweite Sphäre zu bannen hat dieses Ritual das Ziel sie in der ersten Sphäre permanent einzukerkern.

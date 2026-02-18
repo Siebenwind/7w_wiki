@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Elurai Calades - Bindungslehre der Elementarmagier"
+category: Allgemein
+---
+
 Bindungslehre der Elementarmagier.
 
 Die Bindungslehre:

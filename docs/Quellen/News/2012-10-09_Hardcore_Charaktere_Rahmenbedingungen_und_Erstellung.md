@@ -62,4 +62,4 @@ Das Namensfeld wird mit dem Tag [-HC-] + Name ausgefüllt (z.B. [-HC-] Kurt Krie
 Direkt vor Beginn der Charaktergeschichte wird ein deutlicher Hinweis aufgenommen ( „Hardcore Charakter – Bitte an Ratsfreischaltung weiterleiten“ )
 Der HC wird von den Eventratlern geprüft und wenn alles ok ist freigeschaltet
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

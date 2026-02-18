@@ -39,4 +39,4 @@ In diesem Sinne: Euch allen ein frohes Fest!
 Beste Grüße,
 Hadrian
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

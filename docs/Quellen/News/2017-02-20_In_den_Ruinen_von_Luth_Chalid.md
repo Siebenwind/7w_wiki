@@ -25,4 +25,4 @@ Die ausgebrannten Grundfesten der Wüstenstadt haben allerlei Gefechte gesehen. 
 
 Zum ersten Mal seit Götterläufen haben die Ferrin ihre verworrenen Höhlengänge verlassen und nisten nun auf den alten Weideflächen im Nordosten der Stadt. Fromm gehen sie ihrem Werk nach und heben zu Dutzenden die Gräber aus. Auch einige Steinmetze haben sich ihrem Tross angeschlossen und schaffen aus den verrußten Trümmern würdige Andenken an die Gefallenen. Doch wer Böses im Schilde führt und die Totengräber bei ihrer Arbeit zu stören gewillt ist, der wird auf erbitterte Widerwehr treffen.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

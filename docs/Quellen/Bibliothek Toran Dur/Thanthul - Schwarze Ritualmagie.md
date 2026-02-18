@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Thanthul - Schwarze Ritualmagie"
+category: Allgemein
+---
+
 Ritualmagie
 
 Mein Name ist Lehrmeister Tanthul. Ich habe die undankbare Aufgabe, euch die dunkelsten und verschlungensten Pfade der Magie näherzubringen. Ihr werdet also die nächste Zeit eurer Ausbildung mit mir verbringen dürfen. Dazu stelle ich einige Regeln auf, an die ihr euch halten solltet. 1.) Wenn ich rede, hat absolute Ruhe zu herrschen! 2.) jegliches Zaubern ist STRENGSTENS untersagt, es sei denn ich erlaube es! 3.) Ihr konzentriert euch auf alles was ich sage, denn es könnte euch einmal das Leben retten! 4.) Es wird weder gegessen noch sonstige Kurzweil betrieben! Wer diese einfachen Regeln missachtet wird nach meinem Gutdünken bestraft. Derjenige, der sich erdreistet ohne Befehl zu zaubern wird sofort vom Unterricht ausgeschlossen! Ist das klar?!  Gut!

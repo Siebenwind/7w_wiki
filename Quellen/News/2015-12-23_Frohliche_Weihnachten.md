@@ -29,4 +29,4 @@ Wir hoffen, dass ihr einen schönen Jahresausklang habt und wünschen euch allen
 
 Euer Siebenwind Staff
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

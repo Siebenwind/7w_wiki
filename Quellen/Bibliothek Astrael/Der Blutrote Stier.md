@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Der Blutrote Stier"
+category: Allgemein
+---
+
 |  _(Man sieht ein kleines Büchlein von fast quadratischer Form. Es ist in
 weich gegerbtes Hasenleder gebunden und auf dem Einband ist ein dicker,
 bulliger Stier eingebrannt; Die Seiten sind von eher schlechter Qualität.

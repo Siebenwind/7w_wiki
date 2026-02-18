@@ -1,3 +1,9 @@
+---
+layout: post
+title: "De Iuribus Siebenwind"
+category: Allgemein
+---
+
 |  **De Iuribus  
 ** Lehen  
 ---|---  

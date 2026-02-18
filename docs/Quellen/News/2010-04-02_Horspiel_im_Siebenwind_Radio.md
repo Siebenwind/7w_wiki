@@ -40,4 +40,4 @@ Heute Mittag um 14:00 geht’s los. Ich lasse die insgesamt sechs CDs dann siche
 
 GEMA lizenziert
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

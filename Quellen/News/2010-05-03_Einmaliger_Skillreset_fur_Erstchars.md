@@ -28,4 +28,4 @@ Euer Siebenwind-Rat
 
 *mit Erstchars ist der allererste Charakter eines Accounts gemeint, nicht der Hauptcharakter und nicht der einzige Charakter eines Accounts
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Dunvallo Linari - öber die Verwendung der Gesten und des Run in der Magie"
+category: Allgemein
+---
+
 Diesem Werk kann nur zweierlei angemerkt werden:
 
 Ad Primum sei genannt, dass die am Ende des Werkes empfohlene Emotionalität nur eines von zwei Extremen beim Zaubern darstellt. Ebenso vermag der Studiosus rational, also überlegt und geplant, zu zaubern oder natürlich eine Mischung beider Wege wählen. Jedes Vorgehen mag für bestimmte Situationen besser geeignet sein, als für Andere.

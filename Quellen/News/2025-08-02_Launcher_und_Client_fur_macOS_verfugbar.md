@@ -29,4 +29,4 @@ Nach dem Download muss im Terminal einmal der Befehl xattr -cr SiebenwindLaunche
 Beste Grüße,
 Tanja
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -24,4 +24,4 @@ Ab sofort haben Diebe einen etwas höheren Minimal- und Maximalskill im Talent F
 
 Sollte euer Dieb schon Fernkampf geskillt haben, wird euch der Skillpunkt vom Minimalskill wieder gutgeschrieben.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

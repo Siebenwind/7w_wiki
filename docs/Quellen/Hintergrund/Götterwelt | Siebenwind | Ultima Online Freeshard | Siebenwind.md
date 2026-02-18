@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Götterwelt | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Götterwelt
 
 Auf Tare kennt man 11 Gottheiten. Teilweise haben aber verschiedene Kulturen

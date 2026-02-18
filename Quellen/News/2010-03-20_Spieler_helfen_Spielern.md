@@ -34,4 +34,4 @@ LG
 
 Syra (-:
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

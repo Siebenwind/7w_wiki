@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Anonymous - Ritual zur Bannung des Grix"
+category: Allgemein
+---
+
 AKT I
 
 EINLEITUNG (REDNER 1):

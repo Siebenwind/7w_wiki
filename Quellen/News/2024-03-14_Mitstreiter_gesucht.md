@@ -33,4 +33,4 @@ Mit den besten Grüßen,
 Mauswiesel und Tanja Wollframm
 Spielleitung
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

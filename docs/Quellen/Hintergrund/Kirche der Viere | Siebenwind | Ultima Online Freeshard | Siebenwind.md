@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Kirche der Viere | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Kirche der Viere
 
 Der folgende Text ist ein Rollenspiel-Text, der allen Charakteren bekannt sein

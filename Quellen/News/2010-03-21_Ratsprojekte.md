@@ -57,4 +57,4 @@ Wir wählen zurzeit im Rat weitere Ratsprojekte aus. Sobald diese spruchreif sin
 
 Alsdenn, wir freuen uns auf eure Bewerbungen zur Mitarbeit am Ratsprojekt „GM Gold“. Schreibt einfach eine PN an den Ratler eures Vertrauens.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

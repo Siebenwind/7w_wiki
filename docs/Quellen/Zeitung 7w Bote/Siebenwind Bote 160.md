@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Siebenwind Bote 160"
+category: Allgemein
+---
+
 |  |  |   
 ---  
 **Ausgabe 160** -**Wandeltag, 25. Carmer 18 nach Hilgorad**  

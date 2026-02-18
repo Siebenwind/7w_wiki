@@ -24,4 +24,4 @@ Hallo Siebenwindler,
 
 Arbo war wieder fleißig und hat zwei neue Video-Tutorials erstellt, in denen er euch praktische Spielfunktionen näherbringt, die vielleicht nicht jedem bekannt sind – aber im Spiel sehr hilfreich sein können. Schaut doch mal rein!
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

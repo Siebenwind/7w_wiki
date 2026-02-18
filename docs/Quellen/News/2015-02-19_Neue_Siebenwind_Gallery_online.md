@@ -32,4 +32,4 @@ Es dürfen keine Screenshots hochgeladen werden die zum Ziel haben, Griefing zu 
 
 In diesem Sinne: Frohes Hochladen!
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

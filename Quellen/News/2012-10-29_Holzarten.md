@@ -18,4 +18,4 @@ _Beobachterprotokoll des Netz-Waechters. Quelle: offizielle Siebenwind-News._
 
 Auf Siebenwind kann man jetzt verschiedene Holzarten an Bäumen schlagen und daraus verschiedenfarbige Möbel herstellen.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

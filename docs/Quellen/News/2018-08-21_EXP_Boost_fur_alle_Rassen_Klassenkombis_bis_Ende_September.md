@@ -42,4 +42,4 @@ MfG,
 
 Euer Rat/Supportteam
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

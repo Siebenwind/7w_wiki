@@ -28,4 +28,4 @@ Bitte gebt ihm wie üblich einige Tage Zeit sich einzulesen und einzuarbeiten, e
 
 LG Hadrian
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

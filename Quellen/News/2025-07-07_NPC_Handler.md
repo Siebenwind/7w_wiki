@@ -28,4 +28,4 @@ dass die Preise dennoch zu niedrig sind, darf er sich gerne melden.
 Außerdem wollen wir es Spielern ohne eigenen Laden ermöglichen hier ihren eigenen Vendor aufzustellen.
 Hierbei gelten die üblichen Kosten und Regeln für Spieler-Vendoren.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

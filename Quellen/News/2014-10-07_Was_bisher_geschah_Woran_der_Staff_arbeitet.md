@@ -46,4 +46,4 @@ Design:
 Mittlerweile ist die Herbstmap da – und mit ihr nicht nur neue Orte in der Natur, die erkundet werden können, sondern auch ein neuer Dungeon. Und auch im Ödland tut sich etwas…
 Der Zusammenzug der Elfen wird derzeit von den betroffenen Spielern besprochen um dann umgesetzt zu werden (einsehbar im Elfenforum)
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

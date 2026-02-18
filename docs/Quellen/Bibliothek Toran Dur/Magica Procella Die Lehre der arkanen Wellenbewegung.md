@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Magica Procella Die Lehre der arkanen Wellenbewegung"
+category: Allgemein
+---
+
 Arcana Procella , die Lehre der Arkanen Wellenbewegung
 
 Arcana Procella innerhalb der Aura Primus

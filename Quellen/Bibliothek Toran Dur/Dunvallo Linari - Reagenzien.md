@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Dunvallo Linari - Reagenzien"
+category: Allgemein
+---
+
 In diesem Werke vermag der Suchende eine Beschreibung zu finden, wie Reagenzien vom Magus substituiert werden können. Grundsätzlich gilt, dass Reagenzien nicht unbedingt für einen Zauber notwendig sind, diesen jedoch stark vereinfachen. Daher vermag der Magus im Falle des Mangels auf die Reagenzien verzichten und dafür mehr astrale Kraft aufwenden, um einen Zauber zu vollführen. So jedoch Reagenzien vorhanden sind, wird deren Verwendung dringend angeraten, da sie den Magus entlasten und ihm Zeit geben, sich auf den sicheren Ablauf des gewirkten Zaubers zu konzentrieren. Weiterhin rate ich davon ab, euch selbst oder einen anderes magiebegabtes Wesen als Substitut für ein Reagenz zu verwenden, da die aktive Nutzung astraler Kraft das vorbereitete Muster plötzlich verändern würde und dadurch unkontrollierbare, magische Reaktionen entstünden. Verfasst wurde dieses Werk im Dular des Jahres 13 nach der Inthronisation des Königs Hilgorad.
 
 Seine Magnifizenz,

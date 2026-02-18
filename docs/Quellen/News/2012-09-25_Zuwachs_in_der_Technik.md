@@ -18,4 +18,4 @@ _Beobachterprotokoll des Netz-Waechters. Quelle: offizielle Siebenwind-News._
 
 Seit diesem Monat hat Siebenwind zwei neue Sourcetechniker. Shugana und Insel werden nach der Einarbeitungszeit als erstes Projekt das Questsystem, das Savadiv begann, übernehmen.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

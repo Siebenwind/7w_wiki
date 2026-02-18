@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Rassen und Klassen | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Rassen und Klassen
 
 Auf dieser Seite findet Ihr alle Rassen und ihre Klassen. Einige der genaueren

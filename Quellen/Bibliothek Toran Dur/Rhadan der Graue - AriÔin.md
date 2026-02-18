@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Rhadan der Graue - AriÔin"
+category: Allgemein
+---
+
 *Die erste Seite ziert ein, das ganze Pergament füllendes, wunderbar gezeichnetes Auge aus tiefschwarzer Tusche. Wissend und mahnend scheint es den Leser an zu blicken.*
 
 - Proömium -

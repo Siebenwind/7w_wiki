@@ -24,4 +24,4 @@ In der Aufstiegsklassenstatistik sind nun auch alle neuen Aufstiegsklassen der K
 
 Die Statistik findet ihr hier
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

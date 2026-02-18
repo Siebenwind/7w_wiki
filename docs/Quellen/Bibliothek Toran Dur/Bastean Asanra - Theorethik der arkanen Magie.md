@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Bastean Asanra - Theorethik der arkanen Magie"
+category: Allgemein
+---
+
 Theorethik der arkanen Magie
 
 Spezifikation Illusionistik.

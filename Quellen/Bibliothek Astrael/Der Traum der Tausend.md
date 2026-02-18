@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Der Traum der Tausend"
+category: Allgemein
+---
+
 |  _(Man sieht ein kleines Büchlein von fast quadratischer Form. Es ist in
 weich gegerbtes Hasenleder gebunden und auf dem Einband ist der Umriss einer
 zum Schlafen eingerollten Katze eingebrannt; Die Seiten sind von eher

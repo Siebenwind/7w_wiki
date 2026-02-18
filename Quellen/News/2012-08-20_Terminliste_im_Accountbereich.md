@@ -24,4 +24,4 @@ Die Einträge der IG-Termine sind nun auch im Accountbereich einsehbar:
 
 http://schnellerwind.mind.de/accounts/terminliste.php
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

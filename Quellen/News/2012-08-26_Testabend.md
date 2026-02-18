@@ -24,4 +24,4 @@ Gestern fand wieder ein Testabend zum Thema Magie statt. Dort konnten unter Hüt
 
 Wenn euch ein Thema einfällt, zu dem es auch mal einen solchen Testabend geben soll, schreibt doch ein Ticket (Bereich Hüter oder Sonstiges) an den Staff.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Bibliothek vom Heiligen Auge Astraels - Brandenstein"
+category: Allgemein
+---
+
 |  **Dei consentes – Die Viere** Eine Abschrift aus dem Yehramnis  
 ---|---  
 |  _**Phan 14.**_ _Und die Gohor sandten die vier großen Geister aus, auf

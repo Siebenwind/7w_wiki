@@ -42,4 +42,4 @@ In diesem Sinne viel Spaß im Spiel und viele tolle Erlebnisse!
 
 Euer 7w-Staff.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

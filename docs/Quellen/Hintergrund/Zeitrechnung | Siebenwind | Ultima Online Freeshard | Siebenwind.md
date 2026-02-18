@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Zeitrechnung | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Zeitrechnung
 
 Tare, die Sonne und die Monde bilden ein in sich geschlossenes System der

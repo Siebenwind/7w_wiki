@@ -33,4 +33,4 @@ Unser besonderer Dank gilt in diesem Jahr Sherry. Sie hat sich um viele Dinge ge
 Viele Grüße
 Euer Siebenwind RPC Team
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

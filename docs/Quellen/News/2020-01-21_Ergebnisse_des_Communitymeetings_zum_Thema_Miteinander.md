@@ -56,4 +56,4 @@ Alles in Allem sind wir uns alle einig, dass die Situationen wie sie in  den let
 MfG,
 Eure Spielleitung
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

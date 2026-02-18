@@ -18,4 +18,4 @@ _Beobachterprotokoll des Netz-Waechters. Quelle: offizielle Siebenwind-News._
 
 Die beiden seit der Kriegerreform inaktiven Kampfskills wurden aus der Anzeige im Spiel entfernt und sollten daher nicht weiter verwirren.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

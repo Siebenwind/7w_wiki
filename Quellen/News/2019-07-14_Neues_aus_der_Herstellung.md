@@ -58,4 +58,4 @@ blätterförmiger Gürtel (Eisen, Dunkeleisen, Bronze, Kupfer, Gold)
 
 Der Staff wünscht euch viel Spaß mit den neuen Sachen!
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

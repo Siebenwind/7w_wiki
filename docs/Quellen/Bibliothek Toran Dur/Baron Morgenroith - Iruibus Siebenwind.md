@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Baron Morgenroith - Iruibus Siebenwind"
+category: Allgemein
+---
+
 Im Namen seiner Majestät Hilgorad I. ap Mer, König über Galadon, Heredon, die Nordlande, Endophal und Siebenwind, Verteidiger des wahren Glaubens und Protektor Falandriens – vertreten durch den Lehensherren Baron Siegmund Friedrich Morgenroth von Taras und Siebenwind, wird nachfolgendes Gesetzeswerk als neuste Fassung erlassen, auf das dauernder Friede herrsche und den Göttern wohlgefällig sei.
 
 Möge das Gesetz jenen Zuflucht gewähren die seiner bedürfen und Barmherzigkeit gegenüber jenen üben, die ihrer Taten reuen. Möge es aber unnachgiebig über jenen schweben, die seiner spotten oder seinen Willen besudeln. In Eintracht mit den ewigen Gesetzen der Viere und den besten Traditionen des Großreiches sei dies Gesetz nun allen als bindend bekannt gegeben.

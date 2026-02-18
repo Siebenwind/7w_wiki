@@ -34,4 +34,4 @@ Ach ja, ich werd die Daten die ihr mir schickt natürlich nicht an dritte verkau
 
 Atur
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Amanda Dunkelbaum - Elementarmagie 1"
+category: Allgemein
+---
+
 Elementarmagie 1
 
 Anders als die Metamagie welche von den Elementen Feuer, Wasser, Luft, Erde und als 5. Element dem Geist aus geht, ist das 5. Element in der Elementarmagie Eis, eine Mischung aus Wasser und Wind. Der Elementarmagier beherrscht jene Elemente ebenso wie der Metamagier, er besitz lediglich eine dem Ursprung nähere Auffassung der Magie. Dies will ich hier näher erläutern:

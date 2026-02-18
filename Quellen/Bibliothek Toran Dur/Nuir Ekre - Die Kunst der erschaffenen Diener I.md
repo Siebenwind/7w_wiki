@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Nuir Ekre - Die Kunst der erschaffenen Diener I"
+category: Allgemein
+---
+
 Helri Inva Helir ing Wah' I – Die Kunst der erschaffenen Diener I
 
 Der Festformgolem

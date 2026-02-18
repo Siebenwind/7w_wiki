@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Maßeinheiten | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Maßeinheiten
 
 Folgendes sind optionale Angaben zu den im Spiel gebräuchlichen Maßeinheiten.

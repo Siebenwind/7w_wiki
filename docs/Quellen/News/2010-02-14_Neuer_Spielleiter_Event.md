@@ -34,4 +34,4 @@ im Auftrag der Spielleitung
 
 Atur
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -38,4 +38,4 @@ Wir freuen uns auf rege Teilnahme.
 
 Euer Supportteam
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

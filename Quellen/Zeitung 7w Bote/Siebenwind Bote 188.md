@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Siebenwind Bote 188"
+category: Allgemein
+---
+
 |  |  |   
 ---  
 **Ausgabe 188** -**Mondtag, 29. Oner 29 nach Hilgorad**  

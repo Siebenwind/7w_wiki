@@ -24,4 +24,4 @@ In den feuchten Nebeln des Goldquell, die sich über die sanften Felder vor Bran
 
 Mit einem kleinen Client- und Script-Update ist der Kürbistag nun auf der Insel angebrochen! Überall treiben sich Kürbisschrecke herum — mysteriöse Gestalten, die den Nebel durchstreifen und denen man besser nicht unvorbereitet begegnet. Wer jedoch den Mut aufbringt, einen dieser Schrecken zu besiegen, könnte bei ihm besondere Funde machen: seltsame Gegenstände aus Kürbissen — und mit etwas Glück — eine der neuen Kürbislaternen, deren warmes Licht selbst den düstersten Bellum erhellt.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -26,4 +26,4 @@ Auf unserem Weg hin zu mehr Transparenz wollen wir euch ab sofort auch mehr Einb
 
 Außerdem findet kurzfristig morgen, am Freitag, den 23.1 ab 20h., ein Neulingsabend statt. Wer dabei sein will callt einfach. Geplante Themen sind Kampf- und Handwerkssystem sowie Details zu PVPs und erlaubten Makros.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

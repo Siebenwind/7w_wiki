@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Graue Charta II"
+category: Allgemein
+---
+
 Graue Charta
 
 Nyhum Ita'Glur

@@ -26,4 +26,4 @@ Für das E Team
 
 Edomawyr
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -26,4 +26,4 @@ In den letzten Wochen hat sich in den TechTalks immer wieder herauskristallisier
 
 Wenn ihr uns im Übrigen bei der Umstellung unterstützen wollt findet ihr unter http://www.templeos.org/ weitere Informationen. Hier noch ein kleines Video:
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

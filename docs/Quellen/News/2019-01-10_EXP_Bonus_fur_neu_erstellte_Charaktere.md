@@ -33,4 +33,4 @@ www.siebenwind.de
 
 Ultima Online Freeshard auf Rollenspielbasis
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

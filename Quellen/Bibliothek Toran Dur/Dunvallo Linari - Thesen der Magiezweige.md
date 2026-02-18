@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Dunvallo Linari - Thesen der Magiezweige"
+category: Allgemein
+---
+
 In diesem Werk findet sich eine gute Übersicht über die vier Zweige der Magie, auch die Verhältnisse, in denen die Elemente zueinander stehen, sind erwäht. Es handelt sich um einen Text, der einen Ersatz für das veraltete Dokument über "die Thesen der Magiezweige" liefern soll.
 
 Seine Magnifizenz,

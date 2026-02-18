@@ -30,4 +30,4 @@ Der Posten des Eventratlers ist damit vakant. Der Rat nimmt hier Bewerbungen an.
 
 Solos
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -33,4 +33,4 @@ VG Lyrael
 
 Nachtrag von Arbo: „Das IG-Team betreut er auch noch!“
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

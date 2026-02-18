@@ -28,4 +28,4 @@ Wir bedanken uns bei Eule für ihr sehr großes und andauerndes Engagement mit d
 
 Der Rat
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

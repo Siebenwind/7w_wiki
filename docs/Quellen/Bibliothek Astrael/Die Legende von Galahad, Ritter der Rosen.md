@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Die Legende von Galahad, Ritter der Rosen"
+category: Allgemein
+---
+
 |  **Die Legende von Galahad, Ritter der Rosen  
 ** Anonymus  
 ---|---  

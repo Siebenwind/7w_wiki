@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Theorie der aspektierten Magie"
+category: Allgemein
+---
+
 Theorie der aspektierten Magie
 
 Einleitung: Eines der größten Probleme der drei aktuellen Magietheorien ist dass sie zwar allesamt sehr gut in der Lage sind sehr viele magische Effekte zufriedenstellend zu erklären, aber wenig Raum für das Wirken übernatürlicher Kräfte, sprich dem Wirken der Götter und anderer mächtiger Wesen lassen, die keine Magie im Sinne unserer Definition wirken.

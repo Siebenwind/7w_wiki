@@ -62,4 +62,4 @@ Es wird aktuell an möglichen Konzepten gearbeitet, um die Spielwelt dynamischer
 In Zusammenarbeit mit Script-Technikern/Eventteam werden künftig leerstehende Dungeons auf der Siebenwind-Map überarbeitet und in das Spiel eingebunden werden. Es erfordert noch etwas Zeit, aber ihr könnt euch schon einmal auf Neues freuen
 Im neuen Projektbereich „Questinseln“ freuen wir uns über eure Ideen.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

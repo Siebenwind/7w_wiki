@@ -40,4 +40,4 @@ Wir freuen uns auf eure Bewerbungen!
 
 Euer Designteam
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

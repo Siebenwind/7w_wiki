@@ -35,4 +35,4 @@ Fehler und Probleme dürfen gerne in unserem Discord gemeldet werden: https://di
 
 Eure Spielleitung
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

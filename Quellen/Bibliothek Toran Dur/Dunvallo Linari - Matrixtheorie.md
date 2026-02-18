@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Dunvallo Linari - Matrixtheorie"
+category: Allgemein
+---
+
 Der Suchende vermag hierin eine ältere Version der Betrachtungsweise der Welt vermittels der Darstellung als Fäden und Knoten finden. Zu Beachten bleibet, dass in diesem Text noch die Vorstellung vorgebracht wird, diese Darstellung sei die Wirklichkeit selbst und nicht nur ein Abbild dieser. Immer zu beachten bleibet, dass wir uns der wahren Form der Magie immer näher durch Modelle annähern, sie jedoch niemals vollständig verstehen können. Der Studiosus, welcher im Unterricht der Magietheorie partizipierte, vermag die Irrtümer in diesem Text zu erkennen und zu ignorieren, so dass am Ende unter Anderem eine Zusammenfassung der Betrachtungsweise zurück bleibt.
 
 Auch sind hier Beispiele von anderen Betrachtungsweise vermerkt, der Kundige hat hier wiederum die Möglichkeit, zu erkennen, wie die Wirklichkeit des Beispiels aussah. Die originalen Begriffe blieben erhalten, so dass der Suchende angehalten sei, selbst zu erkennen, was mit einem Begriff in Wahrheit gemeint sein mag.

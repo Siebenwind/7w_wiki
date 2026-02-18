@@ -40,4 +40,4 @@ Zum rollenspielgerechten Herbeiführen des Effekts ist (zumindest im RP) das Spi
 
 ~ Lyrael
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -32,4 +32,4 @@ Schaut rein und erlebt eine fantasievoll gestaltete Welt mit Neuerungen der sieb
 
 Von Spielern, für Spieler
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

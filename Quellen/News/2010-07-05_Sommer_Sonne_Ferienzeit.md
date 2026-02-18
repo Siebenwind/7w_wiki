@@ -29,4 +29,4 @@ Daher bitten wir um euer Verständnis wenn’s in den Sommerwochen hier bissel r
 LG
 Syra im Namen der ganzen Ratstruppe
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

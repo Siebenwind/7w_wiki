@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Hochelfen | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Hochelfen
 
 **Rassenbeschreibung:** Die Hochelfen waren es, die aus Auren auszogen und auf

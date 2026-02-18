@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Die Sprache Run"
+category: Allgemein
+---
+
 |  _Viele Mythen und Sagen wickeln sich um jene Sprache des Runs, Legenden aus  
 längst vergangenen Zeiten welche nur noch in den alten Schriften in den  
 Bibliotheken der großen Akademien der arkanen Künste genauer beschrieben

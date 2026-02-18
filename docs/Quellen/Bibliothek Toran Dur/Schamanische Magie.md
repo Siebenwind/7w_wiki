@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Schamanische Magie"
+category: Allgemein
+---
+
 Schamanische Magie
 
 1. Aktives Zaubern und innere Hand

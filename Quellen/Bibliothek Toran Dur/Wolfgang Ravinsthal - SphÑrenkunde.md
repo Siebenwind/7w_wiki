@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Wolfgang Ravinsthal - SphÑrenkunde"
+category: Allgemein
+---
+
 Sphärenkunde
 
 von Wolfgang Ravinsthal, Adeptus Arkanis

@@ -32,4 +32,4 @@ Viel Spaß mit dem frischen Neuschnee!
 
 Euer Designteam
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

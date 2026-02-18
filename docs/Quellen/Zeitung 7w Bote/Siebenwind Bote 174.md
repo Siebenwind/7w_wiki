@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Siebenwind Bote 174"
+category: Allgemein
+---
+
 |  |  |   
 ---  
 **Ausgabe 174** -**Wandeltag, 26. Trier 20 nach Hilgorad**  

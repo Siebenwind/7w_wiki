@@ -18,4 +18,4 @@ _Beobachterprotokoll des Netz-Waechters. Quelle: offizielle Siebenwind-News._
 
 Es läuft wieder eine neue Runde für Diebesfreischaltungen. Wenn ihr einen solchen spielen wollt, schaut euch die Bekanntmachung im Forum an.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

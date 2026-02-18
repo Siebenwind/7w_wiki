@@ -32,4 +32,4 @@ Euer Staff
 
 PS: auf dem Markt hat der Weihnachtsmann Schoki für alle Inselbewohner hinterlassen
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

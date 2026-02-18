@@ -55,4 +55,4 @@ Die Natur verändert sich stetig – gerade im Bereich der Erdbebenschäden des 
 Interessenten für Dungeonbau/Umgestaltung sind gesucht und können sich gerne per Ticket ans Design melden, oder einen Designer ihres Vertrauens kontaktieren!
 Einige neue Maptiles sind in den Daten verbaut worden, was künftig auf eine noch umfangreichere und schönere Gestaltung der Spielwelt hoffen lässt!
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

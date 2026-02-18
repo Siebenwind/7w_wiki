@@ -38,4 +38,4 @@ Das neue Questsystem befindet sich in der staff-internen Testphase
 Design:
 Die allgemeine Insel- und Ödlandüberarbeitung geht nach wie vor voran. Außerdem finden neue Spielerwünsche und Eventbauten ihren Weg ins Spiel.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

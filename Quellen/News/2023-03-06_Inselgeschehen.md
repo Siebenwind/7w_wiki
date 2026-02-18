@@ -26,4 +26,4 @@ Königin Brynn I. Ap Mer, hat die Bürger der Insel informiert, dass sie ihren A
 
 Es ist Zeit durchzuatmen und sich neu zu orientieren. Wie soll mit dieser neuen Situation umgegangen werden?
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

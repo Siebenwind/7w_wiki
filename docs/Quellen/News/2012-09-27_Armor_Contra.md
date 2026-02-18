@@ -18,4 +18,4 @@ _Beobachterprotokoll des Netz-Waechters. Quelle: offizielle Siebenwind-News._
 
 Der Zauber Armor Contra hatte lange Zeit keinen zugewiesenen Erfahrungswert. Diese Zuordnung wurde repariert und der Zauber kann nun wieder von den entsprechenden Klassen automatisch erlernt werden.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

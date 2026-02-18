@@ -66,4 +66,4 @@ Wir freuen uns auf deine Bewerbung in unserem Discord, via Email oder auch via F
  email: marnie@siebenwind.de
  Forum: Marnie oder Amazing per PN kontaktieren
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

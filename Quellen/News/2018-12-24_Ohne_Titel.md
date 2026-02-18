@@ -30,4 +30,4 @@ Und zum neuen Jahr klauen wir sein Schiff und bereisen die neue(n) Insel(n).
 
 Unbekanntes Land und ein neues Abenteuer erwartet euch!
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

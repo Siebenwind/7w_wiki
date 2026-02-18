@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Dunvallo Linari - Lexikon der Magie"
+category: Allgemein
+---
+
 Der Studiosus vermag hier mancherlei Begriff erklärt finden. Doch halte ich es für unnötig, auch wenn es einige Lehrmeister fordern mögen, dies alles auswendig zu lernen, da viele der Begriffe im Leben eines Magiers nicht gebraucht werden, da er sich niemals mit dem Fachgebiet beschäftigen wird. Sei es, weil dieser Bereich auf nicht gelehrt wird, sei es, weil das Wort zu spezifisch ist. Jedoch sollte dies Werk bei Unklarheit eines Begriffes oder Suche nach weiteren Informationen zu einem Thema zuerst konsultiert werden. Das Zeichen ± kennzeichnet einen Verweis auf ein anderes Wort.
 
 Seine Magnifizenz,

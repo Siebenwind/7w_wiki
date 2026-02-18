@@ -30,4 +30,4 @@ Zudem hat sich vor einiger Zeit auch Atur aus Zeitgründen aus dem Ratsteam vera
 
 Syra im Auftrag des Rates
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

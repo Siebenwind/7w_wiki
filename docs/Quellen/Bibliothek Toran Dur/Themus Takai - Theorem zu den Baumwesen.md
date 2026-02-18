@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Themus Takai - Theorem zu den Baumwesen"
+category: Allgemein
+---
+
 Theorem zu den Baumwesen.
 
 Inhaltverzeichnis.

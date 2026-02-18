@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Diminona - Die Foki"
+category: Allgemein
+---
+
 Die Foki - Bedeutung in der praktischen Magie
 
 Magisterarbeit, Adepta Arkanis Dimiona

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Die Goldenen Tafeln"
+category: Allgemein
+---
+
 |  _(Man sieht eine Reihe länglicher, miteinander Pergamente, die ohne Einband
 miteinander vernäht wurden. Bis auf die Einleitung bedeckt ein Satz immer eine
 ganze Seite. Geschrieben wurde es mit schwarzer Tinte in recht eckigem,

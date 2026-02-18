@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Dunvallo Linari - Daimonen"
+category: Allgemein
+---
+
 Dieser Text wurde von einer Schwarzmaga verfasst, die für sehr kurze Zeit am Turme lehrte. Suchender, seid gewarnt! Wappnet euch mit Glaubensstärke, denn der Text ist, obwohl richtig, doch frevelhaft an den Göttern. Seid euch dessen stets bewusst und wäget wohl ab, ob das, was ihr leset, den Göttern gefällig ist. Vieles von dem, was ihr hier lesen könnt, ist es nicht, doch einiges kann im Augenblick der Gefahr Leben retten.
 
 Nur im letzten Falle verlasset euch auf dieses Werk, denn der Autor starb wenige Tage später im Tepel der Viere zu Rohehafen und niemals mehr soll ihr Name in den Hallen des Turmes fallen. Verfasst wurde der Text im Querler des 13. Jahres unseres Königs Hilgorad I.

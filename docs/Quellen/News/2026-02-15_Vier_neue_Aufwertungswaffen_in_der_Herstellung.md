@@ -29,4 +29,4 @@ soeben haben wir mit einem Scriptupdate vier neue Aufwertungswaffen hinzugefügt
 * Großer Hammer
 * Degen
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

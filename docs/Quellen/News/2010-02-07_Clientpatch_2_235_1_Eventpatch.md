@@ -36,4 +36,4 @@ euer Designteam
 
 Nächster Patch vorraussichtlich um den 27.02
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

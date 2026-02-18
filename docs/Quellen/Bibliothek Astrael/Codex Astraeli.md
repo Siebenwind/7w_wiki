@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Codex Astraeli"
+category: Allgemein
+---
+
 **Codex Astraeli - De uno modo vero vitae magorum et magarum  
 Über den einzig wahren Lebensweg der Magier und Magierinnen  
 ** **  

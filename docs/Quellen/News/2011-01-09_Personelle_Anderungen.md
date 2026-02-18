@@ -38,4 +38,4 @@ LG
 
 Syra im Namen des Rates
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

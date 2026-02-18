@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Nuir Ekre - Die Kunst der erschaffenen Diener II"
+category: Allgemein
+---
+
 Helri Inva helir ing Wah' II – Die Kunst der erschaffenen Diener II
 
 Der Fließformgolem

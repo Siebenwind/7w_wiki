@@ -42,4 +42,4 @@ Wir freuen uns natürlich dennoch, wenn wir eure Geschichten zu lesen bekommen u
 Wir wünschen euch viel Spaß im Spiel
 Euer Rat
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

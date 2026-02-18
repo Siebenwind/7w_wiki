@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Schwarze Magietheorie, Protokoll von Nefustor"
+category: Allgemein
+---
+
 Nun.. kommen wir zur Magie an sich. Was ist Magie? Jeder Magi sollte es wissen da er sie tagtäglich wirkt.. Doch werde ich eurem Gedächtnis ein wenig auf die Sprünge helfen..
 
 Ein geheimnisumwittertes Wort, das noch bis zum heutigen Tage eine  Menge an Rätsel   zur Erforschung offen lässt. Nie wird man die Magie komplett erforschen und verstehen können . Doch das ist der Reiz an ihr.. nie wird auch nur einer unserer sich von der Maie abwenden. Hat man sich erst einmal mit ihr beschäftigt, ist man praktisch in ihr Verloren. Magie ist nicht nur ein Wort.. es ist auch eine Art zu leben...

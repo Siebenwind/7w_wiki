@@ -29,4 +29,4 @@ Wir möchten dennoch nicht die Gelegenheit verpassen, denn wir sind dankbar, das
 Wir wünschen euch ein frohes Weihnachten und besinnliche Stunden mit euren Liebsten. Schaut auch im Forum vorbei, denn einige von euch haben bereits Weihnachtsgrüße hinterlassen.
 Falls wir uns nicht mehr im Spiel begegnen sollten, wünschen wir euch in jedem Fall einen guten Rutsch ins neue Jahr und dass ihr wohlbehalten in 2015 ankommt!
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

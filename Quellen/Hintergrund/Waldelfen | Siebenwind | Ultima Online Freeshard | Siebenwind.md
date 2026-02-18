@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Waldelfen | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Waldelfen
 
 **Rassenbeschreibung:** Die Waldelfen sind das mit der Natur verbundendste

@@ -18,4 +18,4 @@ _Beobachterprotokoll des Netz-Waechters. Quelle: offizielle Siebenwind-News._
 
 Seit ein paar Tagen findet ihr wieder einen Link zur Bildergalerie mit Zufallsbild auf unserer Startseite. Die Galerie dürft ihr gerne mit euren eigenen Siebenwind-Bildern erweitern.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

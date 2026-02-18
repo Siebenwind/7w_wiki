@@ -46,4 +46,4 @@ Beste Grüße und bis bald im Spiel,
 
 Eure Spielleitung
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

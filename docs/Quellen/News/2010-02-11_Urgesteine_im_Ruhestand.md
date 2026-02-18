@@ -26,4 +26,4 @@ die beiden Urgesteine Tocopherol und Isodora wandeln fortan nur noch als Spieler
 
 LG Sonji, im Namen der Spielleitung
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Region Hügelau | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Region Hügelau
 
 Hügelau ist eine Insel, die südlich von Galadon in der Linfahrtbucht liegt.

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Johann Liebig - Arkane Verbindung und Wirkung von hîheren Wesenheiten"
+category: Allgemein
+---
+
 Arkane Verbindung und Wirkung von höheren Wesenheiten
 
 Inhaltsverzeichnis zur Magisterarbeit

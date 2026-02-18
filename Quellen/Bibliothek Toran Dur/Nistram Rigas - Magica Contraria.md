@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Nistram Rigas - Magica Contraria"
+category: Allgemein
+---
+
 Magica Contraria, die Kunst der Antimagie
 
 Eine Abhandlung von Adeptus Arkanis Rigas

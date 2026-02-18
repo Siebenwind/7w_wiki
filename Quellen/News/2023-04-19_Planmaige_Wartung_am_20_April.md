@@ -24,4 +24,4 @@ Moin,
 Donnerstag den 20. April, wird zwischen 15:00h und 16:00h eine planmässige Wartung des (Live-) Servers stattfinden. In dieser Zeit werden alle Dienste, die auf die Datenbank zugreifen (Forum, Accountbereich, Spielserver, Ticketsystem..) nicht verfügbar sein. Vielen Dank für euer Verständnis! 
 – LeCorbeau
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Anonymous - Etikette"
+category: Allgemein
+---
+
 Magie - Etikette
 
 Explication

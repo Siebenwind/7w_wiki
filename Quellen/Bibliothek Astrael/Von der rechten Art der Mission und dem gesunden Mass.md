@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Von der rechten Art der Mission und dem gesunden Mass"
+category: Allgemein
+---
+
   
 **Von der rechten Art der Mission und dem gesunden Mass  
 ** **  

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Über die Gohor"
+category: Allgemein
+---
+
 **Über die Gohor  
 Warum der Glaube an die Gohor haeretisch ist!  
 ** **  

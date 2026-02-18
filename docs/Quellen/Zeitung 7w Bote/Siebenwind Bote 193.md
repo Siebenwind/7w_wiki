@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Siebenwind Bote 193"
+category: Allgemein
+---
+
 |  |  |   
 ---  
 **Ausgabe 193** -**Wandeltag, 17. Carmer 30 nach Hilgorad**  

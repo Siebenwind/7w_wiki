@@ -34,4 +34,4 @@ Wir hoffen das dieses neue System die Spieler animiert altgediente Charaktere in
 
 Eure Spielleitung
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

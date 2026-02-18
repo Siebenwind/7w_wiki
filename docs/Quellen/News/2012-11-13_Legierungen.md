@@ -28,4 +28,4 @@ Im Spiel kann ein Minenarbeiter jetzt Legierungsbarren herstellen, die ein Schmi
 4 Stahllegierung
 5 Goldlegierung
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

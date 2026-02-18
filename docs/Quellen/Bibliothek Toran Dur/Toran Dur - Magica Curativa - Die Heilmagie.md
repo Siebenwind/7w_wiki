@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Magica Curativa - Die Heilmagie"
+category: Allgemein
+---
+
 Von der Magica Curativa – Die Heilmagie
 
 Von Hochmagus Ita’Il Toran Dur, Edelmann zu Siebenwind

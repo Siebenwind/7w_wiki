@@ -46,4 +46,4 @@ Allen Neuzugängen wünschen wir gutes Gelingen!
 
 Auf eine angenehme Atmosphäre und tolle Ergebnisse!
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

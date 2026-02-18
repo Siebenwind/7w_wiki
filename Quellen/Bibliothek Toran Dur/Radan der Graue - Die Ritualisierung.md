@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Radan der Graue - Die Ritualisierung"
+category: Allgemein
+---
+
 Die Ritualisierung
 
 von Rhadan dem Grauen,

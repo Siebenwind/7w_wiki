@@ -28,4 +28,4 @@ Deshalb haben wir beschlossen den Startzeitpunkt des Dunkeltiefs auf den 2.Janua
 
 Eure Spielleitung
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

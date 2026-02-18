@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Anonymous - Theorie zur arkanen Magie"
+category: Allgemein
+---
+
 Index: I.	Prolog
 
 II.	Generelle arkane Theorie

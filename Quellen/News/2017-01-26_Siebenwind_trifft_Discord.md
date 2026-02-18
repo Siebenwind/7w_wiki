@@ -40,4 +40,4 @@ Unter https://www.siebenwind.de/community/discord/ haben wir einen kurzen Absatz
 
 Die Spielleitung
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -36,4 +36,4 @@ Wir werden daraufhin die Auswahl vornehmen und das Pilotprojekt initiieren.
 
 Euer Eventteam
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

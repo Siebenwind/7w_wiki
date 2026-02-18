@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Feiertage | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Feiertage
 
 ### Oner

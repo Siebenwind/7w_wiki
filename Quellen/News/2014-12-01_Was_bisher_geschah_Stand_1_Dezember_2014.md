@@ -40,4 +40,4 @@ Design:
 
 Das Designteam baut an Eventbauten und Spielerwünschen vor sich hin
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

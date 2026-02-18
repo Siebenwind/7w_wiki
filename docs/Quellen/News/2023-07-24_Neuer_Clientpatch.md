@@ -36,4 +36,4 @@ Ergänzt werden diese Änderungen durch ein bald folgendes Scriptupdate, welches
 
 Eure Spielleitung
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -75,4 +75,4 @@ Marnie
 
 PS: Die ganzen tollen Menschen hier zähle ich jetzt mal nicht auf, es sind einfach zu viele
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

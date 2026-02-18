@@ -33,4 +33,4 @@ Viele Grüße und Spaß beim Suchen
 
 Solos
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

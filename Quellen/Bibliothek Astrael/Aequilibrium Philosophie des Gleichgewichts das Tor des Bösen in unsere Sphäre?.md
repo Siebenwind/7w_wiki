@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Aequilibrium Philosophie des Gleichgewichts das Tor des Bösen in unsere Sphäre?"
+category: Allgemein
+---
+
 **Aequilibrium  
 Philosophie des Gleichgewichts das Tor des Bösen in unsere Sphäre?  
 ** **  

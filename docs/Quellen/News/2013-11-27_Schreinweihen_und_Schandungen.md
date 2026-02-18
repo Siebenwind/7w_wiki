@@ -51,4 +51,4 @@ Sie werden auch weiterhin aktiv betreut
 
 ~ Lyrael
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

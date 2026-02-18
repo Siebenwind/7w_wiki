@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Regulatorium der Bibliothek zum Heiligen Auge Astraels"
+category: Allgemein
+---
+
 |  **Regulatorium der Bibliothek zum Heiligen Auge Astraels  
 ** Anais, Novicia des Conventus Astraeli zu Savaro und Bibliothekarin der
 Bibliothek zum Heilgen Augen Astraels  

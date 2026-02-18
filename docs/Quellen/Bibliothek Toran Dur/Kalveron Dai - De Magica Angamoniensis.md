@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Kalveron Dai - De Magica Angamoniensis"
+category: Allgemein
+---
+
 De Magica Angamoniensis
 
 Untersuchung und Erläuterung der magischen Umtriebe des Einen zu Siebenwind

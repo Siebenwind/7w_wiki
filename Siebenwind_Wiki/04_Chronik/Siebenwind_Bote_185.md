@@ -33,5 +33,5 @@ category: [[index]]
 - **Baumseuche:** In [[Tiefenwald]] sterben Bäume durch eine graue Fäule ab.
 
 ---
-**Quellen:** [[Siebenwind_Bote_185]] (Original)
+**Quellen:** [[Siebenwind Bote 185]] (Original)
 **Siehe auch:** [[Die_Chronik]], [[Sturmflut_in_Vandrien]], [[Aufstand_in_Wallenburg]]

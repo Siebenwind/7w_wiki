@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Dunvallo Linari- Zweige"
+category: Allgemein
+---
+
 Der Eleve vermag in diesem Werke eine Theorie zu finden, welche einige Aspekte der Magie erklären soll. Zum Geleit sei jedoch bemerkt, dass es sich eben nur um Theoreme und Ideen handelt, nicht jedoch um gesichterte Erkenntnisse. Der Elemente gibt es nach dem aktuellen Stand der magischen Forschung Viere: Feuer, Erde, Wasser und Luft. Ein weiteres vermag man hinzuzuzählen: Die Kraft auch Geist genannt, als bindendes Element. All diese Elemente existieren gleichberechtigt und gleichwertig, in einem harmonischen Gleichgewicht. Wird dieses in irgendeiner Weise gestört, vermag darauf nichts Gutes zu resultieren.
 
 Der Magus vermag die Magie zu kontrollieren und mittels ihrer auch die anderen Elemente zu manipulieren. Auch deren Ausformungen, Auswirkungen oder Mischungen kann somit der Magus beeinflussen. Ausformungen stellen etwa die Zeit (welche absolut unabänderlich ist), das Universum und die Spähren und deren Zwischenräume dar.

@@ -29,4 +29,4 @@ Ich bitte im Namen des Rates noch um etwas Geduld 🙂
 
 ~ Lyrael
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

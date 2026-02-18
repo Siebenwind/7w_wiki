@@ -44,6 +44,17 @@ LORE_REDIRECTS = {
     "dur": "Toran_Dur",
     "westhever": "Dunkeltief",
     "lehens_banner": "Lehensbanner",
+    "isgrimm": "Isgrim",
+    "lorien": "Riens_Lorien_Arden",
+    "tar_sala": "Vorfall_im_Haus_TharSala",
+    "morsanschrein": "Morsan",
+    "seker": "Zeitrechnung_(Der_Sonnenzirkel)",
+    "drachenschwingen": "Region_Auren",
+    "barzak’dhan": "Region_Auren",
+    "barzakdhan": "Region_Auren",
+    "iria": "Personenregister",
+    "jolanda_herdfeuer": "Personenregister",
+    "ooc_timeline_(shard-historie)": "Die_Chronik",
 }
 
 def derive_category(path: Path) -> str:
@@ -180,7 +191,7 @@ def check_duplicates(canon_map: dict):
             # For now, just list them.
             print(f"{YELLOW}Doppelte Einträge für '{key}':{RESET}")
             for p in paths:
-                print(f"  - {p.relative_to(PROJECT_ROOT)}")
+                print(f"  - {p.resolve().relative_to(PROJECT_ROOT.resolve())}")
             found = True
             
     if not found:

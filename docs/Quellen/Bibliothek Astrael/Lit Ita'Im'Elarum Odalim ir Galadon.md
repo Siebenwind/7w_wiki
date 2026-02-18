@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Lit Ita'Im'Elarum Odalim ir Galadon"
+category: Allgemein
+---
+
 |  _(Man sieht ein dickes in braunes Leder gebundenes Buch von handlicher
 Grösse. Auf dem Einband steht mit weissem Faden saubern eingenäht der Titel.
 Geschrieben wurde es mit bläulicher Tinte in recht eckigem, energischem

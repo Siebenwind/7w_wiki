@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Opus i de alchimiae"
+category: Allgemein
+---
+
 |  **Opus i de alchimiae  
 ** Theorie der Form und des Funkens**  
 ** Avaratio Mischelgrimm  

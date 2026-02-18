@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Magie | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Magie
 
 ### Was sind Magier?

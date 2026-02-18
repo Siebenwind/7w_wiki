@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Beschreibung einer Illusion aus der Hîhle Niemands"
+category: Allgemein
+---
+
 Als du dich dem Stein näherst, ihn betrachtest, scheinen deine Sinne zu schwinden...
 
 Die Farben verwischen sich vor deinen Augen zu undurchdringlicher Schwärze und du verlierst das Gefühl für Raum und Körper. Es ist, als würdest du entkörpert in einen tiefen, schwarzen Abgrund sinken...

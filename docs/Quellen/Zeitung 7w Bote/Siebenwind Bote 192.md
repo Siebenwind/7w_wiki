@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Siebenwind Bote 192"
+category: Allgemein
+---
+
 |  |  |   
 ---  
 **Ausgabe 192** -**Mondtag, 12. Querlar 30 nach Hilgorad**  

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Siebenwind Bote 145"
+category: Allgemein
+---
+
 |  |  |   
 ---  
 **Ausgabe 145** -**Wandeltag, 4. Dular 17 nach Hilgorad**  

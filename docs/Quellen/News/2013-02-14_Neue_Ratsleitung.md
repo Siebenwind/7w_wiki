@@ -34,4 +34,4 @@ Im Auftrag des Rates,
 
 Hadrian
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

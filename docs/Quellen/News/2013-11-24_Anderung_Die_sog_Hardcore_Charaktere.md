@@ -35,4 +35,4 @@ Kurzum: Das Konzept der HC-Charaktere ist nicht aufgegangen und wir haben uns en
 
 ~Lyrael
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

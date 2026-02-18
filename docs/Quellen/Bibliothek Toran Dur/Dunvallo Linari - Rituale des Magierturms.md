@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Dunvallo Linari - Rituale des Magierturms"
+category: Allgemein
+---
+
 Rituale des Magierturms
 
 [

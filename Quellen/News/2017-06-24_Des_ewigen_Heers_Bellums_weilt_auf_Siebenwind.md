@@ -30,4 +30,4 @@ Inzwischen formierte sich ein Feldzug unter dem Banner der Vorhut und fast der g
 Aussichten
 Es macht den Anschein, dass in den nächsten Tagen  bereits Angriffe auf weitere Befestigungen und Verstecke des Feindes verkündet sind und ein Sieg über Finsterwangen und den Feind der Viergötter erscheint für das Lichthoch in schon greifbarer Nähe. Nun soll zuerst am 29. Triar (29. Juli, 20 Uhr) die alte Abtei Valdenfeld im Ödland gestürmt werden, dorthin haben sich die geweihten Streiter Angamons in den letzten Monaten zurückgezogen.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

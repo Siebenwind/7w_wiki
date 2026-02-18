@@ -32,4 +32,4 @@ Bekanntmachungen und Hilfe werden ebenfalls per Default allen zugänglich sein u
 
 Euer Siebenwind-Rat
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

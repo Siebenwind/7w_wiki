@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Aberglaube | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Aberglaube
 
 Natürlich ist keines der folgenden Vorurteile bzw. dieser Aberglauben wahr,

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Anonymous - öber die Verhaltensweisen von Daimonen"
+category: Allgemein
+---
+
 # Über die Verhaltensweisen von Daimonen
 
 Es ist uns, den Jüngern des linken Pfades der Magie, bekannt, dass der meist schwierigste Teil bei der Beschwörung eines Daimonen darin liegt, jenen unter unsere Kontrolle zu zwingen. Die Vorbereitung scheint vielleicht einfach und man ist sich seiner Sache sicher, doch man sollte mit Genauigkeit arbeiten und zu Angamon beten, da man mit unvorhersehbaren Situationen rechnen muss, die über Leben und Tod entscheiden können. Dieser Leitfaden soll Einblicke darin geben, wie sich des unseren Herrn Diener im Grundsatz verhalten. Dieser wird auf jede Domäne bezogen und es wird ein gewisser Grundansatz in Sachen der Kontrolle und der Verhaltensweisen der Daimonen geschaffen.

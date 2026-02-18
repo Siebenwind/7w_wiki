@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Index Siebenwind Band IV"
+category: Allgemein
+---
+
 Index Band IV
 
 Dieses Werk soll als eine Zusammenfassung der jüngeren Geschichte Siebenwinds dienen. Ich möchte nicht den Anspruch allwissenden Rückblickes erheben, vielerlei Dinge mögen sich trotz redlichster Bemühungen meinerseits, anders abgespielt haben. Dennoch, angesichts der Tatsache dass viele dieser Ereignisse immer mehr in der grauen Vergangenheit liegen und immer weniger Augenzeugen auf der Insel verweilen, ist jede Zusammenfassung eine Hilfe. Genauere Kunde zu den einzelnen Kreaturen werden separat in einem ungekürzten Index verfasst.

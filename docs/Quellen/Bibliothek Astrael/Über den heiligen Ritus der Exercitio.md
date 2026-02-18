@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Über den heiligen Ritus der Exercitio"
+category: Allgemein
+---
+
 |  **Über den heiligen Ritus der Exercitio  
 ** **  
 **Bruder Aelwin  

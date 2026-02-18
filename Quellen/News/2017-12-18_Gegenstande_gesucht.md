@@ -53,4 +53,4 @@ Gibt es eine Provision, damit Spielerläden nach wie vor noch einen preislichen 
 
 Ja, die Provision wird zu Beginn 20% betragen.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

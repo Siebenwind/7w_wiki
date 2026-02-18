@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Codex Iuris Canonici"
+category: Allgemein
+---
+
 **Codex Iuris Canonici  
 **Canon der Heiligen Viergöttlichen Kirche**  
 ** **  

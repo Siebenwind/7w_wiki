@@ -28,4 +28,4 @@ Viele Grüße
 
 Euer Siebenwindstaff
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

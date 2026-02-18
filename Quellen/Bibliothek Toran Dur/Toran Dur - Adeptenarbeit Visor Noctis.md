@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Toran Dur - Adeptenarbeit Visor Noctis"
+category: Allgemein
+---
+
 Visor Noctis, Thesis eines Zaubers.
 
 Werter Leser, der allgemein bekannte und hoch geschätzte Zauber, bekannt als Visor Noctis, soll heute Objekt unserer Betrachtung sein und in einigen Versionen erklärt werden.

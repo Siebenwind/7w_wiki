@@ -28,4 +28,4 @@ Teamspeak: 83.223.83.106:9987
 
 Auf diesem Weg auch ein großes Danke von uns an Spielviel für die tolle Unterstützung.
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

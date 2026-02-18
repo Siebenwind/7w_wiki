@@ -47,4 +47,4 @@ Noch einmal möchten wir uns stark bei Porto für seinen Einsatz als Ratsleiter 
 Viele Grüße
 Euer Rat
 
-Siehe auch: [[OOC Timeline (Shard-Historie)]]
+Siehe auch: [[Die_Chronik]]

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Lewyn Anacar - Ars Magica Metamorphosia"
+category: Allgemein
+---
+
 Ars Magica Metamorphosia - Magica Mutanda e Magica Transformatorica
 
 Prologos (Einleitung)

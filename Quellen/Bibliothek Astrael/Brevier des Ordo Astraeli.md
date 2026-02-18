@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Brevier des Ordo Astraeli"
+category: Allgemein
+---
+
 |  **Brevier des Ordo Astraeli  
 ** Anonymus  
 ---|---  

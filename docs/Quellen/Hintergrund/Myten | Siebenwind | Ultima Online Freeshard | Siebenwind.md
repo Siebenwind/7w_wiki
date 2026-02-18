@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Myten | Siebenwind | Ultima Online Freeshard | Siebenwind"
+category: Allgemein
+---
+
 ## Myten
 
 **DIESE KLASSE IST DERZEIT NICHT SPIELBAR.**
