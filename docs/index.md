@@ -130,14 +130,6 @@ Mehr kuratierte Einstiege: [Zur Uebersicht Interessante Artikel](Siebenwind_Wiki
 ./7w_wiki.py test --suite clean-client-state
 ```
 
-## Banner in Arbeit (Kanongebunden)
-
-<div class="banner-status">
-  <p><strong>Motiv A:</strong> Archivflur ohne Figuren, Story-Link: <a href="Siebenwind_Wiki/09_Bibliothek/Nachts_im_Brandensteiner_Tempel/">Nachts im Brandensteiner Tempel</a></p>
-  <p><strong>Motiv B:</strong> Chroniktafeln im Nebel, Story-Link: <a href="Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.)/">Zeitleiste (15-30 n.H.)</a></p>
-  <p class="banner-note">Status: in Produktion. Landing bleibt bis zur Freigabe text- und navigationsgetrieben.</p>
-</div>
-
 ## Menschlicher Leitpunkt
 
 Dein verbindlicher Steuerpunkt fuer Agentenentscheidungen (Prioritaeten, No-Gos, Eskalation):

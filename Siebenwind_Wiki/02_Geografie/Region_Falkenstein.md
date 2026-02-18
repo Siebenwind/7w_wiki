@@ -29,4 +29,4 @@ Das südliche Tor des Reiches. Eine trockene, heiße Region (Übergang zur Wüst
 - **[[Von_gesplitterten_Seelen_und_blutigen_Kehlen]]:** Die index eines verheerenden Überfalls am Schlachtenberg in [[Region [[Region_Endophal]]|Endophal]] während des Dunkeltiefs.
 
 ## Verlinkte Themen
-*   [[Region Endophal]]
+*   [[Region_Endophal]]

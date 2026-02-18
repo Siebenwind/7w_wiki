@@ -45,7 +45,7 @@ graph TD
 
 ---
 
-## 📜 Die Goldenen Protokolle
+## 🧭 Die Goldenen Protokolle
 
 | Sektion | Zweck | Dokumentation |
 | :--- | :--- | :--- |
