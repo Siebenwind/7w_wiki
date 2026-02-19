@@ -11,6 +11,16 @@ Siebenwind Lore Engine CLI (7w)
 Unified entry point for all archival and intelligence tools.
 """
 
+def load_nexus_config():
+    manifest_path = os.path.join(os.path.dirname(__file__), "lore_manifest.json")
+    if os.path.exists(manifest_path):
+        try:
+            with open(manifest_path, "r") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
 # --- GLOBAL CACHE REDIRECTION (For Sandbox compatibility) ---
 # Ensure models and caches are stored project-local
 REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -150,7 +160,12 @@ def run_workflow(name, auto_yes=False, resume=False):
     save_workflow_state(state_dict)
 
 def main():
-    parser = argparse.ArgumentParser(description="Siebenwind Lore Engine CLI")
+    config = load_nexus_config()
+    lore_config = config.get("lore", {})
+    world_name = lore_config.get("world_name", "Siebenwind")
+    default_wiki = lore_config.get("directories", {}).get("wiki", "Siebenwind_Wiki")
+
+    parser = argparse.ArgumentParser(description=f"{world_name} Lore Engine CLI")
     subparsers = parser.add_subparsers(dest="command", help="Available commands")
 
     # Search (Oracle)
@@ -240,13 +255,13 @@ def main():
 
     # QA & Sanitization
     sanitize_parser = subparsers.add_parser("sanitize", help="Run Wiki Sanitizer (layout, H1-alignment, frontmatter)")
-    sanitize_parser.add_argument("target", nargs="?", default="Siebenwind_Wiki", help="Path to file/folder (default: Siebenwind_Wiki)")
+    sanitize_parser.add_argument("target", nargs="?", default=default_wiki, help=f"Path to file/folder (default: {default_wiki})")
     sanitize_parser.add_argument("--auto", action="store_true", help="Auto-fix violations")
     sanitize_parser.add_argument("--json", action="store_true", help="Output raw JSON")
     
     # Lint (Orchestrator for sanitize, check, score)
     lint_parser = subparsers.add_parser("lint", help="Run comprehensive lint pipeline (Sanitizer, Style Check, Lore Score)")
-    lint_parser.add_argument("target", nargs="?", default="Siebenwind_Wiki", help="Path to file/folder (default: Siebenwind_Wiki)")
+    lint_parser.add_argument("target", nargs="?", default=default_wiki, help=f"Path to file/folder (default: {default_wiki})")
     lint_parser.add_argument("--fix", action="store_true", help="Auto-fix layout and frontmatter issues")
     lint_parser.add_argument("--json", action="store_true", help="Output raw JSON report (suppresses stdout)")
 
@@ -267,7 +282,7 @@ def main():
 
     # QA & Style Check (Lektor)
     check_parser = subparsers.add_parser("check", help="Run professional style and grammar check (Lektor)")
-    check_parser.add_argument("path", nargs="?", default="Siebenwind_Wiki", help="Path to file/folder (default: Siebenwind_Wiki)")
+    check_parser.add_argument("path", nargs="?", default=default_wiki, help=f"Path to file/folder (default: {default_wiki})")
     check_parser.add_argument("--json", action="store_true", help="Output raw JSON")
 
     # Archive Management

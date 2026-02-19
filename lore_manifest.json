@@ -2,6 +2,15 @@
     "project": "Siebenwind Lore Engine",
     "version": "2.1.0",
     "philosophy": "AI-Agnostic Lore Intelligence",
+    "lore": {
+        "world_name": "Siebenwind",
+        "chronology": "Sonnenzirkel",
+        "tone": "immersiv, historisch",
+        "directories": {
+            "wiki": "Siebenwind_Wiki",
+            "sources": "Quellen"
+        }
+    },
     "interface": {
         "cli": "./7w.py",
         "commands": [

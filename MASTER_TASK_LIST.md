@@ -11,6 +11,14 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
+
+### [EPIC] Nexus Generification (OmniLore Blueprint)
+*Vorsicht: Etablierte Ordner (`Siebenwind_Wiki`) unangetastet lassen. Umbau basiert auf Script-String-Assembly und Templating.*
+- [ ] **Phase 1: Config-Erweiterung:** `lore_manifest.json` um `lore.world_name` ('Siebenwind') etc. erweitern.
+- [ ] **Phase 2: CLI- & Text-Entkopplung:** Hardcodes in `7w_wiki.py` durch Config-Variablen ersetzen.
+- [ ] **Phase 3: Prompt-Templating Pilot:** `SKILL.md` (Pilot: Lore-Gelehrter) mit Variablen ausstatten und Rendering injizieren.
+- [ ] **Phase 4: Skriptgesteuerte Taxonomie:** Markdown- & Register-Scripts auf Config-Pfade umstellen.
+
 - [x] **Handover Gate Repair**: Defekten Link in `.agent/workflows/handover.md` behoben; `interop-doc-links` und `takeover-handover` wieder gruen.
 - [x] **Test Runner Stability**: Runner mit Case-Progress-Ausgabe erweitert; `rag-relevance-smoke` aus Standardlauf (`--suite all`) entfernt und nur noch per `--include-rag` / direkter Suite ausfuehrbar.
 - [x] **Oracle Reliability (Codex App)**: Auftrag `MSG-2026-0015` abgeschlossen; MPS Permission Fallback implementiert und `--fast` Mode für niedrige Latenz hinzugefügt.
