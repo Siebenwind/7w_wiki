@@ -271,9 +271,14 @@ def main():
     check_parser.add_argument("--json", action="store_true", help="Output raw JSON")
 
     # Archive Management
-    archive_parser = subparsers.add_parser("archive", help="Manage Wiki Archive (Symlinks, Research Board)")
+    archive_parser = subparsers.add_parser("archive", help="Manage Wiki Archive (Symlinks, Rotation, Compression)")
     archive_sub = archive_parser.add_subparsers(dest="archive_cmd")
     archive_sub.add_parser("sync", help="Sync archive symlinks into docs/Archiv")
+    rotate_parser = archive_sub.add_parser("rotate", help="Compress stale logs and rotate dispatches")
+    rotate_parser.add_argument("--dry-run", action="store_true", help="Show what would change")
+    rotate_parser.add_argument("--keep-days", type=int, default=7, help="Keep files newer than N days (default: 7)")
+    unpack_parser = archive_sub.add_parser("unpack", help="Unpack a compressed archive")
+    unpack_parser.add_argument("archive_name", help="Name of archive to unpack")
     # Agent Messaging (Dispatch)
     mail_parser = subparsers.add_parser("mail", help="Agent Messaging (Dispatch)")
     mail_parser.add_argument("mail_args", nargs=argparse.REMAINDER, help="Arguments for agent_mail.py")
@@ -525,6 +530,14 @@ def main():
                         if not os.path.exists(dst):
                             os.symlink(src, dst)
                 print(f"  - Ingestion Reports synchronisiert.")
+        elif args.archive_cmd == "rotate":
+            rotate_args = ["rotate"]
+            if getattr(args, "dry_run", False):
+                rotate_args.append("--dry-run")
+            rotate_args.extend(["--keep-days", str(getattr(args, "keep_days", 7))])
+            run_script(".agent/scripts/archive_rotate.py", rotate_args)
+        elif args.archive_cmd == "unpack":
+            run_script(".agent/scripts/archive_rotate.py", ["unpack", args.archive_name])
         else:
             archive_parser.print_help()
 

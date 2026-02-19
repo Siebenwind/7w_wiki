@@ -1,5 +1,19 @@
 # Changelog
 
+#### [2026-02-19.05] - Inter-AI Compliance Upgrade (6 Pillars)
+- **P1**
+- **Hinzugefügt**:
+  - **Pillar 1: Tool Discoverability**: `./7w_wiki.py tech --manifest` generiert `.agent/config/tools.json` (27 OpenAI-kompatible Tool-Definitionen). Neues Skript `generate_tools_manifest.py`.
+  - **Pillar 2: Universal JSON Output**: `--json` Flag für `sanitize`, `check`, `stats` implementiert. `--help-json` liefert das vollständige CLI-Schema als JSON. Neue Tests J-005 bis J-007 in `json-interop-contract.json`.
+  - **Pillar 3: Workflow State Persistence**: `--resume` Flag für `start`, `takeover`, `handover`. Zustand wird in `.agent/data/workflow_state.json` persistiert.
+  - **Pillar 4: Structured Dispatch Payloads**: `--report-path` in `agent_mail.py` mit 1000-Zeichen Body-Limit (Link Method). `test_runner.py` nutzt die neue Schnittstelle.
+  - **Pillar 5: CLI Consolidation**: `./7w_wiki.py lint <target> [--fix] [--json]` orchestriert Sanitizer, Lektor und Lore Score.
+  - **Pillar 6: Workflow Orchestration**: `./7w_wiki.py ingest <file>` automatisiert den Zyklus der Weisheit (Lint → Archive Sync → Audit).
+- **Geändert**:
+  - `sanitize` akzeptiert nun ein optionales Ziel-Argument (Datei oder Verzeichnis).
+  - `lore_score_manager.py`: `yaml`-Abhängigkeit entfernt, natives Frontmatter-Parsing.
+  - `run_workflow()` zeigt Fortschritt `[i/n]` und unterstützt `// turbo-all` Annotation.
+
 #### [2026-02-19.04] - CLI Robustness & Workflow Automation
 - **P1**
 - **Hinzugefügt**:

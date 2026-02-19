@@ -69,9 +69,13 @@ Vor dem Beenden deiner Session musst du:
 // turbo
 3.  **Wiki-Statistiken**: Führe den Workflow `/stats` aus.
 // turbo
-4.  **Testsuite laufen lassen:** Fuehre `./7w_wiki.py test --suite all` aus und dokumentiere den Reportpfad.
+4.  **Archivar**: Führe `./7w_wiki.py archive rotate` aus (komprimiert veraltete Logs, rotiert DONE-Dispatches).
 // turbo
-5.  **Dispatch-Queue prüfen:** Führe `./7w_wiki.py mail inbox --status OPEN` aus und verlinke bearbeitete Forschungsaufträge/Nachrichten im Abschlusskommentar.
+5.  **Tool-Manifest**: Führe `./7w_wiki.py tech --manifest` aus (aktualisiert `tools.json`).
+// turbo
+6.  **Testsuite laufen lassen:** Fuehre `./7w_wiki.py test --suite all` aus und dokumentiere den Reportpfad.
+// turbo
+7.  **Dispatch-Queue prüfen:** Führe `./7w_wiki.py mail inbox --status OPEN` aus und verlinke bearbeitete Forschungsaufträge/Nachrichten im Abschlusskommentar.
 6.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](../../Logs/Konsistenzbericht_2026.md).
 7.  **Anti-Bridge-Regel:** Vermeide generische Brueckenartikel als Endzustand; temporaere Ausnahmen nur mit Ticket und Review-Datum.
 8.  **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:

@@ -20,7 +20,8 @@ You are operating on the **Siebenwind Wiki**, a 20-year-old collaborative world-
     -   Use `System/Synapse_Board/` for conflict resolution.
 5.  **Agent Interop**:
     -   Respect the folder structure: `.agent/` is for internal logic.
-    -   Use `.agents/skills/` for discoverable skills (Codex/Jules).
+    -   Use `.agent/config/tools.json` for machine-readable tool discovery (OpenAI-compatible schema).
+    -   Use `./7w_wiki.py --help-json` for dynamic CLI introspection.
 6.  **Mission Report Protocol**:
     -   Every session or task MUST end with a status report via `mail done` (if working on a specific message) or `mail post` (for general updates).
     -   Reports must be concise but include: What was done, what was verified, and what is next.

@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-18 21:23 (Antigravity -> Next Agent)
-- **Status**: JSON API implemented for core tools; Messaging system hardening (Auto-Claim, Fuzzy IDs); Test Suite Audit completed.
+- **Last Handover**: 2026-02-19 22:05 (Antigravity -> Next Agent)
+- **Status**: Inter-AI Compliance Upgrade complete (6 Pillars). JSON API for all core tools; `tools.json` manifest; `--resume` for workflows; Structured Dispatch payloads.
 
 ---
 
@@ -59,6 +59,17 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 🗂️ Projekthistorie (neu → alt)
 
 ### v2.7 Upgrade-Phasen
+
+<details open>
+<summary><b>Phase 1.26: Inter-AI Compliance Upgrade (Feb 2026)</b></summary>
+
+- **Pillar 1**: Static `tools.json` manifest (27 OpenAI-compatible tool definitions) via `./7w_wiki.py tech --manifest`.
+- **Pillar 2**: Universal `--json` output for `sanitize`, `check`, `stats`. Self-describing CLI via `--help-json`.
+- **Pillar 3**: Workflow state persistence (`--resume`) in `.agent/data/workflow_state.json`.
+- **Pillar 4**: Structured Dispatch payloads with `--report-path` and 1000-char body limit (Link Method).
+- **Pillar 5**: `lint` pipeline consolidating `sanitize`, `check`, and `score`.
+- **Pillar 6**: `ingest` pipeline automating the Zyklus der Weisheit.
+</details>
 
 <details open>
 <summary><b>Phase 1.25: Link Integrity Restoration & Precision Repair (Feb 2026)</b></summary>

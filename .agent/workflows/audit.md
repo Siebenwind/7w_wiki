@@ -33,6 +33,7 @@ Dieser Workflow dient der regelmäßigen Überprüfung der Lore-Integrität und 
 - Validiere, ob vorgeschlagene Aktionen bereits in EXECUTION sind.
 
 ## 2b. Automatisierte Prüfung (Skript)
+// turbo
 - Führe `./7w_wiki.py audit` aus.
 - Das Skript liefert eine maschinenlesbare Übersicht über:
   - Duplikate im Personenregister

@@ -6,7 +6,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-02-19 21:48
+**Stand:** 2026-02-19 22:06
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -159,7 +159,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_0e22414f-19f9-4e6e-a1c9-7a555c2c5c03.txt`
+- Letzter Audit: `Logs/Archive/Audit_0a25a6da-6e14-4ff7-94a4-57a863152944.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

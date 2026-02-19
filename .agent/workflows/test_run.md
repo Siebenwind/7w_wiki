@@ -41,6 +41,7 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
 
 ## 2. Standarddurchlauf
 
+// turbo
 1. `./7w_wiki.py test --suite clean-client-state`
 2. `./7w_wiki.py test --suite takeover-handover`
 3. `./7w_wiki.py test --suite interop-doc-links` (lokale Markdown-Links)
@@ -49,7 +50,6 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
 6. `./7w_wiki.py test --suite bridge-placeholder-guard` (verhindert Rueckfall in Stub-/Bridge-Policy-Fehler)
 7. `./7w_wiki.py test --suite reader-stats-contract` (Reader-Stats-Contract + Snapshot-Schnittstelle)
 8. Optional Vollabgleich: `./7w_wiki.py test --suite all` (ohne RAG-Smoke; stabiler Standardlauf)
-9. Optional Oracle-Diagnose: `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`
 
 ## 3. Failure-Protokoll
 
