@@ -1,12 +1,12 @@
 ---
 layout: wiki_page
-title: 📊 Siebenwind Kompass
+title: Wiki Status
 category: Index
 ---
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-02-18 01:07
+**Stand:** 2026-02-19 19:35
 
 > Wissenswetter: **Stuermisch: viele offene Baustellen, aber aktive Bewegung.**
 
@@ -16,11 +16,11 @@ category: Index
 
 | Kennzahl | Wert |
 | :--- | :--- |
-| Artikel | **1360** |
-| Worte | **188,405** |
-| Durchschnittliche Artikellaenge | **139 Worte** |
-| Interne Verweise (`[[...]]`) | **15,018** |
-| Vernetzungsdichte | **11.0 Links/Artikel** |
+| Artikel | **1352** |
+| Worte | **186,767** |
+| Durchschnittliche Artikellaenge | **138 Worte** |
+| Interne Verweise (`[[...]]`) | **13,752** |
+| Vernetzungsdichte | **10.2 Links/Artikel** |
 | Personenprofile | **586** |
 
 ---
@@ -29,9 +29,9 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 1335 | - | - |
-| Letzte 30 Tage | 1335 | 1332 | 95 |
-| Letzte 90 Tage | 1335 | - | - |
+| Letzte 7 Tage | 1346 | - | - |
+| Letzte 30 Tage | 1346 | 1333 | 103 |
+| Letzte 90 Tage | 1346 | - | - |
 
 ---
 
@@ -43,25 +43,26 @@ pie title Artikel pro Sektion
     "05_Magie" : 41
     "08_Bestiarium" : 33
     "03_Wissen" : 54
-    "03_Gesellschaft" : 57
-    "05_Geschichte" : 58
-    "02_Geografie" : 56
-    "01_Pantheon" : 52
+    "03_Gesellschaft" : 53
+    "05_Geschichte" : 55
+    "10_Archiv" : 18
+    "02_Geografie" : 57
+    "01_Pantheon" : 51
     "04_Chronik" : 83
-    "06_Erzählungen" : 13
+    "06_Erzählungen" : 12
     "09_Bibliothek" : 28
-    "00_Fundament" : 287
+    "00_Fundament" : 276
 ```
 
 ## 📚 Lesetiefe nach Sektion (Top 5)
 
 | Sektion | Artikel | Ø Worte/Artikel | Ø Links/Artikel |
 | :--- | ---: | ---: | ---: |
-| `01_Pantheon` | 52 | 411 | 13.3 |
-| `06_Erzählungen` | 13 | 328 | 12.7 |
-| `Root` | 1 | 285 | 1.0 |
-| `05_Magie` | 41 | 279 | 14.2 |
-| `04_Chronik` | 83 | 271 | 35.3 |
+| `01_Pantheon` | 51 | 420 | 11.0 |
+| `05_Magie` | 41 | 279 | 10.4 |
+| `04_Chronik` | 83 | 272 | 33.0 |
+| `03_Wissen` | 54 | 268 | 10.2 |
+| `Root` | 1 | 258 | 0.0 |
 
 
 ---
@@ -71,19 +72,19 @@ pie title Artikel pro Sektion
 ### Starke Knoten (gesamt)
 | Entitaet | Verweise |
 | :--- | ---: |
-| [[Siebenwind]] | 705 |
-| [[Falkensee]] | 543 |
+| [[Siebenwind]] | 683 |
+| [[Falkensee]] | 539 |
 | [[Brandenstein]] | 465 |
-| [[Astrael]] | 192 |
-| [[Toran_Dur]] | 173 |
-| [[Bellum]] | 165 |
+| [[Bellum]] | 164 |
+| [[Astrael]] | 151 |
 | [[Nortraven]] | 144 |
+| [[Toran_Dur]] | 138 |
 
 
 ### Praegende Persoenlichkeiten
 | Persoenlichkeit | Verweise |
 | :--- | ---: |
-| [[Toran_Dur]] | 173 |
+| [[Toran_Dur]] | 138 |
 | [[Geist]] | 125 |
 | [[Custodias]] | 83 |
 | [[Waldemar_Delarie]] | 60 |
@@ -96,12 +97,12 @@ pie title Artikel pro Sektion
 | Ereignis | Verweise |
 | :--- | ---: |
 | [[Siebenwind_Bote_175]] | 29 |
-| [[Blutschwert]] | 28 |
 | [[Siebenwind_Bote_179]] | 28 |
-| [[Das_Ende_der_Zeit_der_Koenige]] | 28 |
 | [[Siebenwind_Bote_173]] | 25 |
 | [[Siebenwind_Bote_180]] | 24 |
 | [[Siebenwind_Bote_172]] | 22 |
+| [[Siebenwind_Bote_161]] | 21 |
+| [[Siebenwind_Bote_174]] | 21 |
 
 
 ---
@@ -110,20 +111,20 @@ pie title Artikel pro Sektion
 
 | Qualitaetsindikator | Wert | Fortschritt |
 | :--- | :--- | :--- |
-| Frontmatter-Abdeckung | 1360/1360 | `##########` 100.0% |
-| Aufgeloeste Quellenangabe (`quelle`) | 440/1360 | `###-------` 32.4% |
+| Frontmatter-Abdeckung | 1352/1352 | `##########` 100.0% |
+| Aufgeloeste Quellenangabe (`quelle`) | 434/1352 | `###-------` 32.1% |
 | Ingestion Tracking vollstaendig | 50/54 | `#########-` 92.6% |
 | Ingestion Reports mit LQS | 52/54 | `##########` 96.3% |
-| `[UNGEKLAERT]`-Marker (gesamt) | 252 | Beobachtung |
+| `[UNGEKLAERT]`-Marker (gesamt) | 251 | Beobachtung |
 
 ## Epistemische Verteilung
 | Tag | Artikel |
 | :--- | ---: |
-| `#bote` | 592 |
+| `#bote` | 588 |
 | `#unbekannt` | 423 |
 | `#canon` | 135 |
 | `#ueberlieferung` | 107 |
-| `#perspektive` | 102 |
+| `#perspektive` | 98 |
 | `#news` | 1 |
 
 
@@ -157,7 +158,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_14de6856-3365-45ee-af46-370ff11b468a.txt`
+- Letzter Audit: `Logs/Archive/Audit_c3a6a80f-5626-4009-90c9-218d0b7a565c.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

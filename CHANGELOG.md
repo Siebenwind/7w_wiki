@@ -1,5 +1,17 @@
 # Changelog
 
+#### [2026-02-19.03] - System Permission Repair Attempts & Diagnostic Handover
+- **P1**
+- **Geändert**:
+  - **Permission Repair**: Erstellung von `repair_permissions.sh` (externer Agent) fur globale xattr-Bereinigung.
+  - **Diagnostic**: Umfangreiche Analyse von `Operation not permitted` Fehlern in `Logs/Archive` und Oracle Venv.
+  - **Cleanup**: Rekursive Entfernung von `com.apple.provenance` und `com.apple.quarantine` (erfolgreich bei deaktiviertem Sandbox-Modus).
+- **Validiert**:
+  - `repair_permissions.sh` (User-Execution ohne Fehler).
+  - Venv Rebuild (Erfolgreich).
+  - **Sandbox-Check**: `Operation not permitted` persistiert bei aktiviertem Sandbox-Modus.
+  - **Fix / Workaround**: Deaktivierung von "Enable Terminal Sandboxing" in den Antigravity-Einstellungen löst die Blockade vollständig auf.
+
 #### [2026-02-19.02] - Dispatch Hygiene & Link-Flood Restoration
 - **P1**
 - **Geändert**:
