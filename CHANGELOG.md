@@ -1,5 +1,14 @@
 # Changelog
 
+#### [2026-02-19.01] - UI/UX Polish: Search Fix & Landing Page Unification
+- **P1**
+- **Geändert**:
+  - **Search UX**: `z-index` Fix in `custom.css` behoben; Suchergebnisse überlagern nun nicht mehr den Content.
+  - **Landing Pages**: Vereinheitlichung aller Kategorie-Indizes (`00_Fundament` bis `10_Archiv`) auf das "Siebenwind Archiv" Design (Hero Header + Grid Layout).
+  - **Wiki-Root**: `Siebenwind_Wiki/index.md` als visueller Content-Hub neugestaltet.
+- **Validiert**:
+  - Manuelle Code-Review der Landing-Pages (Aesthetic Consistency).
+
 #### [2026-02-18.13] - JSON API & Test Suite Audit
 - **P1**
 - **Hinzugefügt**:

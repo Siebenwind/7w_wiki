@@ -19,6 +19,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [ ] **Dispatch Queue Hygiene**: Auftrag `MSG-2026-0033` bearbeiten; OPEN-Backlog konsolidieren (obsolet zusammenfassen, aktuelle Blocker priorisieren).
 - [ ] **Audit Regression Triage**: Aktuellster Stand `Logs/Archive/Audit_08ed78ca-c2e7-4490-9fd1-8464da6af1fc.txt` (437 Probleme). P1-Breaker `Mirila_Mik_Honigzopf` und `Althea_Danea` behoben; verbleibend ist der Link-Flood. Konsolidierung siehe `Logs/Archive/AUDIT_CONSOLIDATION_INDEX_2026-02-17.md`.
 - [x] **Technical Link Repair**: Restored `roamlinks` and normalized 500+ links via `repair.py` to overcome 404s on GitHub Pages.
+- [x] **UI/UX Polish**: Unified "Siebenwind Archiv" aesthetic across all category landing pages (`Siebenwind_Wiki/index.md`, `00_Fundament`, etc.) and fixed search overlap.
 - [ ] **Ingestion 2.0**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - [BLOCKED: 118 Source Missing].
 
 ## 🟡 Priorität 2: Operative Ingestion & Research
