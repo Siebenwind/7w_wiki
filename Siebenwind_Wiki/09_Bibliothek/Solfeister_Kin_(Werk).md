@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Solfeister Kin
-category: [[index]]
+category: Allgemein
 tags: [Erzählung, [[Angamon]], [[Dunkeltief]], Kult]
 status: #perspektive
 ---
@@ -27,7 +27,7 @@ Im letzten Abschnitt wird der Anbruch der **Ewigen Nacht** ([[Dunkeltief]]) gefe
 
 ## Relevante Entitäten
 
-### [[index]]
+### Wirken
 *   **Solfeister Kin / Are Kin**: Der Erzähler und Kultist.
 *   **Die Tochter**: Führt Rituale durch.
 *   **Exzellenz**: Ein höherrangiger Kultist oder Foltermeister.

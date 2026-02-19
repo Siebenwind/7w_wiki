@@ -9,7 +9,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Fürstentum
+**Kategorie:** Wissen / Fürstentum
 **Hauptstadt:** Venturia (Hafenstadt)
 **Herrscher:** Fürstin Asodayr von Ossian ahm Erson
 

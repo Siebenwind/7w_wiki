@@ -32,7 +32,7 @@ Vitama ist allgegenwärtig bei Hochzeiten, Geburten und Festen. Sie ist die Gege
 
 ## Beziehungen
 - **[[Morsan]]:** Ihr Gegenpol. Leben und Tod bedingen einander. Vitama respektiert Morsans Rolle als das notwendige Ende, damit Neues entstehen kann.
-- **[[Astrael]]:** Ihr Bruder des Verstandes. Sie lehrt ihn, dass [[index]] ohne Herz kalt ist.
+- **[[Astrael]]:** Ihr Bruder des Verstandes. Sie lehrt ihn, dass Wissen ohne Herz kalt ist.
 - **[[Bellum]]:** Ihr Bruder der Stärke. Sie lehrt ihn, dass Stärke ohne Milde grausam ist.
 
 ## Verwandte Themen

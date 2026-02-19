@@ -11,7 +11,7 @@ category: Allgemein
 
 ## Inhalt
 
-Der "Index [[Siebenwind]]" ist ein mehrbändiges Werk von [[Toran_Dur]], das die [[index]], Wesenheiten und Orte der Insel [[Siebenwind]] dokumentiert.
+Der "Index [[Siebenwind]]" ist ein mehrbändiges Werk von [[Toran_Dur]], das die Magie, Wesenheiten und Orte der Insel [[Siebenwind]] dokumentiert.
 
 ### Band II: Wesenheiten und Orte
 Dieser Band konzentriert sich auf die Zeit nach der Wiederbesiedlung und die Entdeckung alter Mächte.
@@ -25,8 +25,8 @@ Dieser Band konzentriert sich auf die Zeit nach der Wiederbesiedlung und die Ent
 *   **Rassen**: [[Ferrin]] (Diener Galtors), [[Sammler]] (Kreaturen des Einen), Schwarm (Spinnenwesen), Harpien.
 *   **Orte**: Niemands Höhle, Therassa (Stadt der Mazzaremer in Zeitblase), [[Finsterwangen]] (Zeitrisse), [[Tal_der_Ahnen]] (Zwergenruinen), Höhlen der [[Ferrin]]/[[Sammler]].
 
-### Band IV: Jüngere [[index]]
-Dieser Band fasst die [[index]] der Schöpfung und der Amulettkriege zusammen und schlägst den Bogen zur jüngeren [[index]] Siebenwinds.
+### Band IV: Jüngere Magie
+Dieser Band fasst die Magie der Schöpfung und der Amulettkriege zusammen und schlägst den Bogen zur jüngeren Magie Siebenwinds.
 
 *   **Kosmologie**: Die Schöpfung durch die Gohor, der Weltenstein (Yehorn), der Verrat des Einen (Abschlagen von Tares Klaue).
 *   **Amulettkriege**: Der 5000-jährige Krieg zwischen den Vieren und dem Einen. Erwähnung der Mazzaremer und ihres Rückzugs durch ein Ritual von [[Niemand]].

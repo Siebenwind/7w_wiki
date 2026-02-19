@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Königliche Akademie der arkanen Künste
-category: [[index]]
+category: Gesellschaft
 uuid: be2ae710-1639-4458-b50b-f5c901eab851
-quelle: ../../Quellen/[[index]] [[Toran_Dur]]/[[Toran_Dur]] - Graue Charta II.md
+quelle: ../../Quellen/Bibliothek Toran Dur/[[Toran_Dur]] - Graue Charta II.md
 letzter_check: 2026-02-13T01:02:10+01:00
 ---
 
@@ -23,7 +23,7 @@ Die Akademie wird von einem **Spektabilität** (Akademieleiter) geführt. Bekann
 *   **[[Toran_Dur]]**: Hochmagus und Verfasser zahlreicher Lehrwerke.
 
 ## Lehre & Forschung
-Die Akademie lehrt alle anerkannten Pfade der [[index]], mit einem Schwerpunkt auf der theoretischen Fundierung und der praktischen Anwendung zum Wohle des Reiches. 
+Die Akademie lehrt alle anerkannten Pfade der Wissen, mit einem Schwerpunkt auf der theoretischen Fundierung und der praktischen Anwendung zum Wohle des Reiches. 
 *   **Grundlagen:** Vermittlung der [[Magie_Grundlagen]] und der [[Magietheorie_Toran_Dur]].
 *   **Spezialisierung:** Ausbildung in den Schulen der Magica (Combativa, Curativa, etc.).
 
@@ -33,8 +33,8 @@ Die Akademie nutzt komplexe Rituale zur Einweihung und Prüfung ihrer Mitglieder
 - **Die [[Graue_Garde]]:** Die Aufnahme in die Garde erfolgt durch einen feierlichen Schwur vor dem heiligen Feuer, meist in der Nacht.
 - **Sphärenrisse:** Die Akademie verfügt über spezifische Rituale zur Schließung von Sphärenrissen (historisch bedeutsam für [[Finsterwangen]]).
 
-## [[index]]
-Die Akademie blickt auf eine bewegte [[index]] zurück, einschließlich der Zerstörung alter Standorte im Krieg gegen den Einen (siehe [[Magierturm_zu_Tiefenbach]]) und der Abwehr dämonischer Bedrohungen.
+## Wirken
+Die Akademie blickt auf eine bewegte Wissen zurück, einschließlich der Zerstörung alter Standorte im Krieg gegen den Einen (siehe [[Magierturm_zu_Tiefenbach]]) und der Abwehr dämonischer Bedrohungen.
 
 ---
 **Siehe auch:** [[Graue_Garde]], [[Magister_Konvent]], [[Zirkel_der_Magie]]

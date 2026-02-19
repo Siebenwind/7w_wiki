@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Reagenzien-Lehre (Fokus-Theorie)
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Dunvallo_Linari]] - Reagenzien.md"
+quelle: "/Quellen/Bibliothek Toran Dur/[[Dunvallo_Linari]] - Reagenzien.md"
 ---
 
 # Reagenzien-Lehre (Fokus-Theorie)
@@ -28,7 +28,7 @@ Linari ordnet den klassischen Reagenzien spezifische Wörter der Macht ([[Rune|R
 | **Nachtschatten** | Tod / Zerstörung | Corp / Naraskai |
 | **Spinnenseide** | Licht / Hellsicht | Laf / Laidra |
 | **Blutmoos** | Bewegung / Zeit | Rad / Tyr |
-| **Alraune** | [[index]] / Stärke | Odal / Vy |
+| **Alraune** | Magie / Stärke | Odal / Vy |
 | **Schwefelasche** | Feuer / Zerstörung | Fe / Naraskai |
 | **Schwarze Perle** | Ausdauer / Fülle | Vjera |
 

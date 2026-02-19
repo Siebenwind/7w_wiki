@@ -27,7 +27,7 @@ category: Persönlichkeit
 **Zeitraum:** Aktiv (Ernannt vor 123 n.H.)
 
 ## Beschreibung
-[[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone [[index]] spricht. | [[Altumion_Eisenbruch]] |
+[[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone Wissen spricht. | [[Altumion_Eisenbruch]] |
 | 123 n.H. | ---
 layout: wiki_page
 title: [[Altumion_Eisenbruch]]
@@ -42,7 +42,7 @@ category: Persönlichkeit
 **Zeitraum:** Aktiv (Ernannt vor 123 n.H.)
 
 ## Beschreibung
-[[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone [[index]] spricht. | [[Altumion_Eisenbruch]] |
+[[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone Wissen spricht. | [[Altumion_Eisenbruch]] |
 | 123 n.H. | ---
 layout: wiki_page
 title: [[Altumion_Eisenbruch]]
@@ -57,7 +57,7 @@ category: Persönlichkeit
 **Zeitraum:** Aktiv (Ernannt vor 123 n.H.)
 
 ## Beschreibung
-[[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone [[index]] spricht. | [[Altumion_Eisenbruch]] |
+[[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone Wissen spricht. | [[Altumion_Eisenbruch]] |
 | 14 n.H. | ### Die Frühen Jahre (1 - 14 n.H.)
 Diese Zeit ist geprägt vom Wiederaufbau und der Festigung des Königreichs Galadon und der Kolonie [[Siebenwind]]. | [[Historie]] |
 | 14 n.H. | ### Die Frühen Jahre (1 - 14 n.H.)
@@ -71,7 +71,7 @@ Diese Zeit ist geprägt vom Wiederaufbau und der Festigung des Königreichs Gala
 | 15 n.H. | ---
 layout: wiki_page
 title: [[Historie_&_Ären]]
-category: [[index]]
+category: Geschichte
 status: Kanon
 ---
 
@@ -79,11 +79,11 @@ status: Kanon
 
 **Epistemischer Status:** #bote
 
-Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
+Diese Wissen fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
 | 15 n.H. | ---
 layout: wiki_page
 title: [[Historie_&_Ären]]
-category: [[index]]
+category: Geschichte
 status: Kanon
 ---
 
@@ -91,11 +91,11 @@ status: Kanon
 
 **Epistemischer Status:** #bote
 
-Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
+Diese Wissen fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
 | 15 n.H. | ---
 layout: wiki_page
 title: [[Historie_&_Ären]]
-category: [[index]]
+category: Geschichte
 status: Kanon
 ---
 
@@ -103,9 +103,9 @@ status: Kanon
 
 **Epistemischer Status:** #bote
 
-Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
-| 15 n.H. | *   [[Historie]] - Die großen Zeitalter und die [[index]] vor 15 n.H.
-*   [[Zeitleiste_15_30_nH]] - Die Ära des [[Siebenwind]] Boten. | [[index]] |
+Diese Wissen fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
+| 15 n.H. | *   [[Historie]] - Die großen Zeitalter und die Wissen vor 15 n.H.
+*   [[Zeitleiste_15_30_nH]] - Die Ära des [[Siebenwind]] Boten. | Wissen |
 | 15 n.H. | *   **Aktuelle Zeit:** Die Ereignisse des *[[Siebenwind]] Boten* spielen im Zeitraum **15 n.H. bis 30 n. | [[Zeitrechnung]] |
 | 16 n.H. | ## Karriere & Timeline
 - **~16 n.H. (Bote 145):** Bekannt als "Vater Benion", Organisator von Schönheitswettbewerben und Messen zu Ehren Vitamas. | [[Benion_Sandelholz]] |
@@ -359,7 +359,7 @@ Seine Eminenz [[Tion_Altor]] ist ein hochrangiger Priester des Gottes 03_Bellum.
 | 30 n.H. | 28-30 n.H.
 **Ort:** [[Ödland]] / Jenseits des Falkenwalls
 **Status:** Abgeschlossen, traumatisches Ereignis
-**Kategorie:** [[index]]
+**Kategorie:** Wissen
 
 ## Überblick
 Dieses Ereignis beschreibt das Verschwinden und den grausamen Tod/Fall einer Gruppe von Verteidigern jenseits des Walls. | [[Die_Tragödie_am_Wall]] |
@@ -368,7 +368,7 @@ Dieses Ereignis beschreibt das Verschwinden und den grausamen Tod/Fall einer Gru
 | 30 n.H. | ---
 layout: wiki_page
 title: Zeitleiste (15-30 n.H.)
-category: [[index]]
+category: Geschichte
 author: [[Siebenwind]] Chronicler
 ---
 
@@ -376,7 +376,7 @@ author: [[Siebenwind]] Chronicler
 | 30 n.H. | ---
 layout: wiki_page
 title: Zeitleiste (15-30 n.H.)
-category: [[index]]
+category: Geschichte
 author: [[Siebenwind]] Chronicler
 ---
 

@@ -9,7 +9,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Politik
+**Kategorie:** Wissen / Politik
 **Struktur:** Hochadel, Blutsadel, Dienstadel
 **Herrscher:** König [[Hilgorad_I_ap_Mer]]
 

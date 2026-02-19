@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 138
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: feba58b7-1e0c-446e-871a-03eb4802ebff
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 138.md
@@ -13,9 +13,9 @@ letzter_check: 2026-02-13T00:55:00+01:00
 **Datum:** 2. Querler 16 n.H.
 
 ## Überblick
-Diese Sonderausgabe ist gänzlich dem **[[Circus_Wendolyn]]** gewidmet, der vor kurzem auf [[Siebenwind]] eingetroffen ist. Sie beschreibt die bewegte [[index]] der Zirkus-Dynastie und stellt die einzelnen Familienmitglieder vor.
+Diese Sonderausgabe ist gänzlich dem **[[Circus_Wendolyn]]** gewidmet, der vor kurzem auf [[Siebenwind]] eingetroffen ist. Sie beschreibt die bewegte Wissen der Zirkus-Dynastie und stellt die einzelnen Familienmitglieder vor.
 
-## Die [[index]] des [[Circus_Wendolyn]]
+## Die Wissen des [[Circus_Wendolyn]]
 Die Idee zum Zirkus wurde 23 vor Hilgraf in der Baronie Wallenburg geboren. Gründer ist **[[Herbertus_Wendolyn]]**, der sein Studium der arkanen Künste aufgab, um mit seiner Frau **[[Isolde_Wendolyn]]** (geb. Wolfensberger) und einer kleinen Karawane seinen Traum zu verwirklichen. 
 Ein schwerer Brand in Mittel-Galadon zerstörte einst die gesamte Anlage und forderte das Leben von **Rufus Wendolyn**, einem der Zirkus-Zwillinge. Dank großer Unterstützung aus der Bevölkerung konnte der Zirkus jedoch neu und prächtiger denn je aufgebaut werden.
 

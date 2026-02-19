@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 161
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a923
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 161.md
@@ -26,7 +26,7 @@ letzter_check: 2026-02-13T15:10:00+01:00
 *   **Weinfest:** Ein stimmungsvolles Fest an der alten Waldbühne bei [[Brandenstein]] lockte Adel und Volk an.
 *   **Draconischer Spatz:** Eine reißerische Gazette verbreitete Gerüchte über das Verschwinden des Königspaares, die von der Boten-Redaktion jedoch scharf dementiert wurden.
 
-## [[index]]
+## Wirken
 *   **[[Laske]]**: Frisch geschlagener Ritter.
 *   **[[Zacharias_Gropp]]**: Tierärztliche Betreuung beim Hahnenkampf in [[Brandenstein]].
 *   **[[Frederik_Hamsberg]]**: Löwenritter, half bei der Abwehr einer magiefressenden Wolke an der Akademie.

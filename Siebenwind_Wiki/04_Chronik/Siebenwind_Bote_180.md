@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 180
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 180
@@ -34,7 +34,7 @@ Umfassender Bericht über die Schlachten gegen die [[Goblins]] aus dem [[Ödland
 ### Kurioses & Kultur
 - **Verlobung:** Der Künstler **[[Eliath]]** machte [[Solice_Aurora]] einen Heiratsantrag.
 - **[[Toran_Dur]] als Goblin:** Erzmagier [[Toran_Dur]] verwandelte sich angeblich in einen Goblin, um deren Kultur zu erforschen.
-- **[[index]]-Projekt:** [[Felis]] plant den Aufbau eines öffentlichen Archivs in [[Seeberg]].
+- **Wissen-Projekt:** [[Felis]] plant den Aufbau eines öffentlichen Archivs in [[Seeberg]].
 
 ### Gerüchteküche
 - **Besessenheit:** Gerüchte besagen, Gardehauptmann [[Waldemar_Delarie]] sei von einem [[Geist]] besessen oder heule den Mond an. Andere Stimmen behaupten, es sei Bundesgardist [[Johan_Gottfried]].
@@ -42,7 +42,7 @@ Umfassender Bericht über die Schlachten gegen die [[Goblins]] aus dem [[Ödland
 - **[[Schattenhand]]:** Es gab erfolglose Treffen mit einer Gruppierung namens "[[Schattenhand]]" bezüglich der Angriffe auf Elementarschreine.
 
 ### Kleinanzeigen & Kultur
-- **Spendenaufruf:** [[Felis]] sammelt Spenden für das neue [[index]] in [[Seeberg]] (Haus 14, Nordviertel).
+- **Spendenaufruf:** [[Felis]] sammelt Spenden für das neue Wissen in [[Seeberg]] (Haus 14, Nordviertel).
 - **Ersonter Buhurt:** Der 3. Ersonter Buhurt fand statt, Sieger war ein gewisser **[[Herr_Kurt]]**.
 - **Kulinarik:** Kritik an fehlenden Kochstellen auf dem Turnierplatz (Herr [[Dhonori]]).
 

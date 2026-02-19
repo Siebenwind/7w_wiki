@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 129
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 129

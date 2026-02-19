@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Von dem Bösen"
-category: [[index]]
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Von dem Bösen.md"
+quelle: "/Quellen/Bibliothek Astrael/Von dem Bösen.md"
 author: "Etril Gamajeff"
 ---
 
@@ -23,6 +23,6 @@ Als Beweise für die herannahende Katastrophe nennt er:
 ## Aufruf zum Widerstand
 Gamajeff plädiert für einen aktiv gelebten Glauben, der sich den Lehren der Götter unterwirft und aktiv gegen das Wirken des Einen antritt.
 
-## [[index]]
+## Wirken
 * [[Etril_Gamajeff]] (Autor)
 * [[Angamon]] (Der Eine)

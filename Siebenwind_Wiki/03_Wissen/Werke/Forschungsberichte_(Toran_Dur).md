@@ -27,7 +27,7 @@ Ein detaillierter Plan zur dauerhaften Bindung des Dämons Hrasmiren in der erst
 3.  Bindung in einem vorbereiteten Gefäß/Ort.
 
 ### Bericht über die Grabstätte der Ferrins
-Ein Bericht über die Erkundung der Gräber der [[Ferrin]] und [[Mazzaremer]]. Er enthält Transkripte von Inschriften ("Galtors Feder", "Ewigwächter") und beschreibt die [[index]] des Verrats an Galtors Asche durch eine Figur namens [[Wisper]].
+Ein Bericht über die Erkundung der Gräber der [[Ferrin]] und [[Mazzaremer]]. Er enthält Transkripte von Inschriften ("Galtors Feder", "Ewigwächter") und beschreibt die Magie des Verrats an Galtors Asche durch eine Figur namens [[Wisper]].
 
 ### Hellsichtritual Konstrukt am Wall
 (Teilnehmer: [[Toran_Dur]], [[Enoah_Sullin]], [[Caieta_Ajunier]], [[Rianna]])
@@ -48,4 +48,4 @@ Eine geographische Beschreibung des "Toten Landes" ([[Ödland]]) südlich des Fa
 Ein Bericht über eine visionäre Erfahrung in der [[Höhle Niemands]], die eine Versammlung von Robenträgern in einer grauen Halle zeigt, die sich opfern, um ihre Macht zu bewahren (vermutlich Mazzaremer).
 
 ### Niemandsrede
-Fragmente von Reden der Wesenheit [[Niemand]], gerichtet an verschiedene [[index]] ([[Elfen]], seinen Schüler, Bastean). Er spricht vom "Krieg der Seelen" und dass [[index]] verloren geht.
+Fragmente von Reden der Wesenheit [[Niemand]], gerichtet an verschiedene Magie ([[Elfen]], seinen Schüler, Bastean). Er spricht vom "Krieg der Seelen" und dass Magie verloren geht.

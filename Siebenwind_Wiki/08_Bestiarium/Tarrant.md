@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Tarrant
-category: [[index]]
+category: Allgemein
 ---
 
 # Tarrant

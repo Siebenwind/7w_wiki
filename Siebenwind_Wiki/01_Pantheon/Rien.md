@@ -3,7 +3,7 @@ layout: wiki_page
 title: Rien
 type: Religion
 status: Kanon (Level 1)
-tags: [Elementarherrin, [[Enhor]], Erde, [[Rasse_Zwerge]], [[index]]]
+tags: [Elementarherrin, [[Enhor]], Erde, [[Rasse_Zwerge]], Wissen]
 ---
 
 # Rien
@@ -24,11 +24,11 @@ Rien ist eng mit *[[Bellum]] (Krieg/Schmied)* verbunden. Zusammen schufen sie di
 ## Verehrung
 [[Rasse_Zwerge]] ehren sie als die "Erste Mutter". Bauern opfern ihr die erste Ernte. Erdmagier rufen sie an, um Felswände zu erschaffen oder Erdbeben zu besänftigen.
 
-## [[index]] (Elementarer Pfad)
+## Wirken (Elementarer Pfad)
 Der Pfad der Erde ist langsam, aber mächtig. Seine Anhänger können Mauern aus dem Boden wachsen lassen, sich in Stein verwandeln oder die Tragkraft von Erde beeinflussen.
 
 ## Beziehungen
-- **[[Ignis]] (Feuer):** Oft der Zerstörer ihrer [[index]].
+- **[[Ignis]] (Feuer):** Oft der Zerstörer ihrer Wissen.
 - **[[Ventus]] (Luft):** Erosion trägt Fels ab. Rien ist oft genervt von seiner Flüchtigkeit.
 - **[[Xan]] (Wasser):** Wasser wäscht Stein aus, kann aber auch Leben spenden.
 

@@ -13,7 +13,7 @@ category: [[Geografie]]
 ## Stadtteile & Orte
 *   **Vitamalinviertel:** Dieses Viertel war einst als gefährlicher Brennpunkt der Kriminalität bekannt. Unter der rigorosen Aufsicht von [[Sire_Fedral_Lavid]] wurde das Viertel geräumt und befriedet, wobei zahlreiche kriminelle Elemente (vornehmlich Nordmänner) identifiziert und vertrieben wurden. Aktuelle Bestrebungen zielen darauf ab, die leerstehenden Gebäude in ein Heim für Gossenkinder und Waisen umzuwandeln ([[Siebenwind_Bote_141]]).
 
-## [[index]]
+## Wirken
 Die Bevölkerung ist geprägt von einer rauen, aber herzlichen Mentalität. Durch die Lage im [[Fenwald]] ist der Alltag von der ständigen Auseinandersetzung mit der Natur und den Gefahren der Sümpfe bestimmt.
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Sternfall bei Rohehafen
-category: [[index]]
+category: Geschichte
 ---
 
 # Sternfall bei [[Rohehafen]]

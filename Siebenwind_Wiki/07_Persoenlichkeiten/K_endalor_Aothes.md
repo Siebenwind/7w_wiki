@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "K endalor Aothes"
-category: [[index]]
+category: Personen
 ---
 
 # K endalor Aothes

@@ -2,11 +2,11 @@
 layout: wiki_page
 title: index Siebenwinds (De Iuribus)
 category: [[Gesellschaft]]
-tags: [Gesetz, [[index]], Verfassung, Strafe, Adel, Bürger]
+tags: [Gesetz, Wissen, Verfassung, Strafe, Adel, Bürger]
 status: #überlieferung
 ---
 
-# [[index]] Siebenwinds (De Iuribus)
+# Wissen Siebenwinds (De Iuribus)
 
 **Epistemischer Status:** #canon
 
@@ -37,7 +37,7 @@ Regelt private Rechtsverhältnisse und Verträge.
 ## Lex Patritiorum (Adelsrecht)
 
 Definiert die Privilegien des Adels und des hohen Klerus (ab Erzgeweihtem).
-*   **Ehrenduell:** Adlige haben das [[index]], Beleidigungen durch ein Duell unter Aufsicht eines [[Bellum]]-Geweihten zu klären.
+*   **Ehrenduell:** Adlige haben das Wissen, Beleidigungen durch ein Duell unter Aufsicht eines [[Bellum]]-Geweihten zu klären.
 *   **Asylrecht:** Adlige können Schutzbefohlenen Asyl gewähren, das sie vor weltlicher Verfolgung schützt.
 
 ## Lex Exceptionis (Sonderrechte)

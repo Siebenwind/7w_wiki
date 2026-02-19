@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 134
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: b6e54d7c-dfcb-46df-9b0d-122fbf911d6c
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 134.md

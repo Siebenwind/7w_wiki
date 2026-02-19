@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 135
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: e9292e20-bf18-448f-b0a1-81b5fcf43e64
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 135.md

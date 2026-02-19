@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 136
-category: [[index]]
+category: Chronik
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 136.md
 ---

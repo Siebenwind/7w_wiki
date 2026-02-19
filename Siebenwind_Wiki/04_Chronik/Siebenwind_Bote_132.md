@@ -1,14 +1,14 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 132
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 132
 
 **Epistemischer Status:** #bote
 
-*Hinweis: Die Ausgaben 133 bis 135 enthalten identische Nachrichtenbeiträge im vorliegenden [[index]].*
+*Hinweis: Die Ausgaben 133 bis 135 enthalten identische Nachrichtenbeiträge im vorliegenden Wissen.*
 
 ## Rekultivierung der Aschenen Wüste
 **Location:** [[Falkensee]] (Treffpunkt Seiltänzer), [[Aschene_Wüste]].

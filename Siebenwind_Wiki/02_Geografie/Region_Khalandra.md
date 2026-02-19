@@ -9,7 +9,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Grenzland
+**Kategorie:** Wissen / Grenzland
 **Lage:** Norden
 
 ## Beschreibung

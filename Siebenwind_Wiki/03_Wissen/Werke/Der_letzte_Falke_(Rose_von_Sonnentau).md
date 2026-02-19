@@ -18,7 +18,7 @@ Das Gedicht erzählt vom letzten Gefecht auf der Burg **Falkenhorst** (auch als 
 *   **Sir [[Athos]]:** "Herzensbrecher" und Diplomat. Weigert sich zunächst zu gehen, fällt aber an der Seite seines Herrn.
 *   **Schwertklinge:** "Herr der Münze", goldenes Herz. Wählt den Tod (wegen verschmähter Liebe?).
 *   **Sire Aspin:** Der Vierte, der weggeschickt wird ("Geht nach Stein... führt die unsrigen zum Sieg"). Er erhält den Ring.
-*   **Das Kätzchen:** Beobachter und Erzähler der [[index]] in der Ballade.
+*   **Das Kätzchen:** Beobachter und Erzähler der Magie in der Ballade.
 
 ## Das Ende
 Die Burg wird durch ein dunkles Ritual ("Ritual des Einen") zerstört. Ein Schatten senkt sich herab, Mauern bersten. Die drei Ritter sterben in den Trümmern, während Aspin entkommt.

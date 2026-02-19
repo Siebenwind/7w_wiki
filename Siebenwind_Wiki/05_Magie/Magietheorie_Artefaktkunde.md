@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Magietheorie - Artefaktkunde (Dunvallo_Linari)
-category: [[index]]
+category: Magie
 status: integrated
 quelle: "/Quellen/Bibliothek Toran Dur/Dunvallo Linari - Artefakte.md"
 ---

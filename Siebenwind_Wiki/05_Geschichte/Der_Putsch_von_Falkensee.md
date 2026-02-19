@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Der Putsch von Falkensee
-category: [[index]]
+category: Geschichte
 ---
 
 # Der Putsch von [[Falkensee]]
@@ -34,7 +34,7 @@ Der Rat, vertreten durch [[Solice_Aurora]], [[Custodias]] und [[Hebren_Zemand]],
 ## Quellen
 > [!NOTE]
 > **Primärquelle:** [[Siebenwind_Bote_183]] (Sonderausgabe: "Militärputsch in [[Falkensee]]").
-> **[[index]]:** [[Siebenwind_Bote_184]] (Nachwehen und Reorganisation).
+> **Wissen:** [[Siebenwind_Bote_184]] (Nachwehen und Reorganisation).
 
 ---
 **Siehe auch:** [[Falkensee]], [[Waldemar_Delarie]], [[Custodias]], [[Ersonter_Bund]]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Knochenfürst"
-category: [[index]]
+category: Personen
 status: Stub
 ---
 

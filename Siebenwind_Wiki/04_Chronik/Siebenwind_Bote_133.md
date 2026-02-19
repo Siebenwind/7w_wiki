@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 133
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: 8dde4f46-2b4d-49ec-a50f-b1b6f2157aec
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 133.md

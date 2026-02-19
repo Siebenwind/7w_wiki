@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mehr'thak"
-category: [[index]]
+category: Personen
 status: Stub
 ---
 

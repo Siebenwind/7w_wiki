@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Der Goblinkrieg
-category: [[index]]
+category: Geschichte
 ---
 
 # Der Goblinkrieg

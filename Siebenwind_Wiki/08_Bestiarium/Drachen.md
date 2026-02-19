@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Drachen
-category: [[index]]
+category: Allgemein
 ---
 
 # Drachen

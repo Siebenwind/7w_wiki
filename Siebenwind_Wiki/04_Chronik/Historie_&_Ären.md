@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Historie & Ären
-category: [[index]]
+category: Chronik
 status: Kanon
 ---
 
@@ -9,11 +9,11 @@ status: Kanon
 
 **Epistemischer Status:** #bote
 
-Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen.
+Diese Wissen fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen.
 
 ## Die Zeitalter (Ären)
 
-Die [[index]] Tares wird in Zeitalter unterteilt.
+Die Wissen Tares wird in Zeitalter unterteilt.
 
 ### Das Erste Zeitalter (Ära der [[Drachen]]?)
 *   *Details noch unklar.* Mythen sprechen von [[Drachen]] als Herrscher.
@@ -26,7 +26,7 @@ Die [[index]] Tares wird in Zeitalter unterteilt.
 *   **Angamons Krieg:** Der Dämonengott [[10_Angamon]] überzog die Welt mit Krieg.
 *   **Der Amulettkrieg:** Ein verheerender Konflikt, der das Gleichgewicht der Welt bedrohte.
 *   **Jassavias Fall:** Ein Schlüsselereignis auf Falandrien. Die legendäre "Weiße Stadt" **[[Jassavia]]** fiel.
-*   **Antike Ruinen:** Die geheimnisvolle Stadt **[[Mazareem]]** (Mazzaremer-Kultur) sank in die Schatten der [[index]].
+*   **Antike Ruinen:** Die geheimnisvolle Stadt **[[Mazareem]]** (Mazzaremer-Kultur) sank in die Schatten der Wissen.
 
 ## Die Zeitrechnung "Nach Hilgorad" (n.H.)
 

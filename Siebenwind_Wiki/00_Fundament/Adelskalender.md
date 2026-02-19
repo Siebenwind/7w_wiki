@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Adelskalender
-category: [[index]]
+category: Allgemein
 ---
 
 # Adelskalender

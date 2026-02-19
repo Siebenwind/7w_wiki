@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Schleimwesen
-category: [[index]]
+category: Allgemein
 ---
 
 # Schleimwesen

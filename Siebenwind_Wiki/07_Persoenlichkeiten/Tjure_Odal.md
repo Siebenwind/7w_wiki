@@ -8,7 +8,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 **Tjure Odal** ist ein mutmaßlicher [[Ketzer]], der im Jahr 22 n.H. im Zentrum einer politischen und religiösen Kontroverse um die Edelfrau [[Marnie_Ruatha]] stand.
 
-## 📜 [[index]] & Hintergründe
+## 📜 Wissen & Hintergründe
 Über Tjure Odals Herkunft und Taten ist wenig Gesichertes bekannt. Er trat im *Carmer 22 n.H.* ins Licht der Öffentlichkeit, als die [[Malthuster_Wacht]] unter Leutnant [[Erin_Caoimme]] die Edelfrau [[Marnie_Ruatha]] in [[Brandenstein]] festsetzte.
 
 ### Die Anklage (22 n.H.)

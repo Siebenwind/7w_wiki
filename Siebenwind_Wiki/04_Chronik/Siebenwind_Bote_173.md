@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 173
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: c3d4e5f6-a1b2-4c3d-bd5e-6f7g8h9i0j1k
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 173.md
@@ -30,7 +30,7 @@ letzter_check: 2026-02-13T16:50:00+01:00
     *   **[[Der_Hutmacher]]:** Berichte über einen Dämon ("[[Der_Hutmacher]]"), der [[Menschen]] in Träumen verführt und Hutfedern als Zeichen seiner Macht verteilt.
     *   **Gedenken:** Ehrung des ehemaligen "**Bundes der Tapferen**" und seiner verstorbenen Mitglieder (u.a. [[Taurec_von_Schildtburg]], [[Mael_Duin]]).
 
-## [[index]]
+## Wirken
 *   **[[Quenian]]**: Neuer Leutnant des Kronregiments.
 *   **[[Urs]]**: Leutnant des Kronregiments.
 *   **[[Riens_Lorien_Arden]]**: Hohepriester der [[Ecclesia_Elementorum]].

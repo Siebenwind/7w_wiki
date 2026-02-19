@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Romualdo Lavarin"
-category: [[index]]
+category: Personen
 ---
 
 # Romualdo Lavarin

@@ -11,12 +11,12 @@ letzter_check: 2026-02-16T18:25:00+01:00
 
 # Die Werke des Barath Or
 
-Diese Traktate des Bresch (Großmeisters) [[Barath_Or]] befassen sich mit der philosophischen und theologischen Bedeutung von [[index]] und Selbsterkenntnis im Lichte [[Astrael]]s.
+Diese Traktate des Bresch (Großmeisters) [[Barath_Or]] befassen sich mit der philosophischen und theologischen Bedeutung von Magie und Selbsterkenntnis im Lichte [[Astrael]]s.
 
 ## Band 1 - Über die Symbolik
-Barath Or postuliert, dass das Licht Astraels essentiell für jedes Lebewesen auf [[Tare]] ist. Erst durch [[Astrael]] erlangt der Mensch die Fähigkeit zur **Symbolik** (Sprache, Natur, Kultur, [[index]]) und zur objektiven Selbstbetrachtung. Ohne dieses erhellende Licht wäre ein freier Wille und eine bewusste Weiterentwicklung der Rassen (außer den Rhazzas) nicht möglich.
+Barath Or postuliert, dass das Licht Astraels essentiell für jedes Lebewesen auf [[Tare]] ist. Erst durch [[Astrael]] erlangt der Mensch die Fähigkeit zur **Symbolik** (Sprache, Natur, Kultur, Magie) und zur objektiven Selbstbetrachtung. Ohne dieses erhellende Licht wäre ein freier Wille und eine bewusste Weiterentwicklung der Rassen (außer den Rhazzas) nicht möglich.
 
-> „[[Astrael]] moege uns sein [[index]] schenken.“
+> „[[Astrael]] moege uns sein Magie schenken.“
 
 ## Band 2 - Selbsteinschätzung als Quelle allen Handelns
 Hier wird die Intelligenz als Gabe Astraels gewürdigt, die es dem Individuum ermöglicht, sich als Subjekt zu betrachten.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aelfrid Wildgaden"
-category: [[index]]
+category: Personen
 status: Stub
 ---
 

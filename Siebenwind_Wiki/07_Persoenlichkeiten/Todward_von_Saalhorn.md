@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Todward von Saalhorn"
-category: [[index]]
+category: Personen
 status: Stub
 ---
 

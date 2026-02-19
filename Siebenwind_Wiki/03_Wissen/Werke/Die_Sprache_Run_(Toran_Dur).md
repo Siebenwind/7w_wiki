@@ -7,7 +7,7 @@ category: Allgemein
 # [[Die_Sprache_Run]]
 
 **Autor:** [[Toran_Dur]]
-**Kategorie:** Linguistik / Alte [[index]]
+**Kategorie:** Linguistik / Alte Magie
 
 ## Inhalt
 

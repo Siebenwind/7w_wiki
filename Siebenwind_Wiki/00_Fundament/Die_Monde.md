@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Die Monde von Tare
-category: [[index]]
+category: Allgemein
 ---
 
 # Die Monde von [[Tare]]
@@ -11,7 +11,7 @@ category: [[index]]
 Die Welt [[Tare]] wird von drei Monden umkreist, die in der Mythologie und Magietheorie eine zentrale Rolle spielen.
 
 ## 1. Astreyon
-Der größte und hellste Mond. In der Mythologie wird er oft mit [[Astrael]] ([[index]]/Ordnung) assoziiert. Sein Licht gilt als klar und offenbarend.
+Der größte und hellste Mond. In der Mythologie wird er oft mit [[Astrael]] (Wissen/Ordnung) assoziiert. Sein Licht gilt als klar und offenbarend.
 
 ## 2. Vitamalin
 Ein Mond mit einem bläulichen Schimmer, der eng mit der Göttin [[Vitama]] (Leben/Heilung) verbunden ist. Er beeinflusst die Gezeiten und das Wachstum der Pflanzen.

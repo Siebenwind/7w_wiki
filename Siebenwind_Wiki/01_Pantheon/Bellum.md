@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Bellum
-category: [[index]]
+category: Religion
 tags: [Gott, Sahor, Krieg, Handwerk, Ehre, Herbst]
 ---
 
@@ -11,7 +11,7 @@ tags: [Gott, Sahor, Krieg, Handwerk, Ehre, Herbst]
 
 **Glaube:** [[Bellum]] (Kampf), [[Ignis]] (Feuer), [[Vitama]] (Heilung)
 
-**Bellum** ist der Schmied des Schicksals und der Hüter der Ehre. Er verkörpert die notwendige Stärke, um das [[index]] zu schützen, und die Disziplin, die aus roher Gewalt eine ritterliche Kunst formt. Er ist der Amboss, an dem die Seele der Insel in Zeiten der Not geschmiedet wird.
+**Bellum** ist der Schmied des Schicksals und der Hüter der Ehre. Er verkörpert die notwendige Stärke, um das Wissen zu schützen, und die Disziplin, die aus roher Gewalt eine ritterliche Kunst formt. Er ist der Amboss, an dem die Seele der Insel in Zeiten der Not geschmiedet wird.
 
 ## Aspekte und Prinzipien
 - **Jahreszeit:** Herbst

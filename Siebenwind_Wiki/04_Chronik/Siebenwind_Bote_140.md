@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 140
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: f5071e93-df07-4d92-864a-6f73ba513222
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 140.md

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 155
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a917
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 155.md
@@ -21,7 +21,7 @@ letzter_check: 2026-02-13T03:30:00+01:00
 ## Dokumente
 *   [[Siebenwindakte]]
 
-## [[index]]
+## Wirken
 *   **[[Hagen_Robaar]]**: Verfasser der Akte.
 *   **[[Solos_Nhergas]]**: Neue Inselpatrizierin.
 

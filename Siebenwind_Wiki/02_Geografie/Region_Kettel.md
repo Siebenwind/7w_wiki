@@ -9,7 +9,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Baronie
+**Kategorie:** Wissen / Baronie
 **Hauptstadt:** Librasulus
 **Herrscher:** Baron Kelfor von Kettel
 
@@ -22,7 +22,7 @@ Eine alte Baronie voller Ruinen vergangener Kriege, die heute für ihre Textilku
 
 ## Wirtschaft & Kultur
 *   **Textil:** Schneiderzunft Kettel.
-*   **Tradition:** Die Bewohner sind stolz auf ihre ("verwitterte") [[index]].
+*   **Tradition:** Die Bewohner sind stolz auf ihre ("verwitterte") Wissen.
 
 ## Verlinkte Themen
 *   [[Rasse Rasse_Elfen|Hochelfen]]

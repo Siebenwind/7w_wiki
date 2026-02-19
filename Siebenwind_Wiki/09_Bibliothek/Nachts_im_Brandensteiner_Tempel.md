@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Nachts im Brandensteiner Tempel
-category: [[index]]
+category: Allgemein
 tags: [Erzählung, [[Morsan]], [[Brandenstein]], Horwah, Ritual]
 status: #perspektive
 ---
@@ -25,7 +25,7 @@ Er ruft **Lifna**, **[[Galtor]]** und **Vermis** an ("ich rufe euch an in alter 
 
 ## Relevante Entitäten
 
-### [[index]]
+### Wirken
 *   **"Der Alte"**: Unbekannter [[Morsan]]-Geweihter. Er erwähnt den jungen [[Tarnuk]] kritisch ("grün hinter den Ohren").
 
 ### Mythologie

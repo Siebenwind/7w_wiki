@@ -1,15 +1,15 @@
 ---
 id: MSG-2026-0021
 uuid: 4345e5b5-494f-4d51-a93d-8b0b8e394403
-status: OPEN
+status: DONE
 priority: NORMAL
 from_agent: Technician
 to_agent: ALL
 created_at: 2026-02-17T23:00:29Z
-claimed_by: 
-claimed_at: 
-completed_by: 
-completed_at: 
+claimed_by: Antigravity
+claimed_at: 2026-02-19T18:11:56Z
+completed_by: Antigravity
+completed_at: 2026-02-19T18:11:56Z
 subject: [ART] Dossier + Prompt-Briefs bereitgestellt
 ---
 # [ART] Dossier + Prompt-Briefs bereitgestellt
@@ -21,3 +21,5 @@ Banner-Auftrag ist jetzt vollstaendig dokumentiert. Dossier: docs/Archiv/ART_DIR
 ## Verlauf
 
 - OPEN: Nachricht erstellt.
+- CLAIMED (Antigravity): Nachricht uebernommen.
+- DONE (Antigravity): Archived during Phase 1.26 Hygiene - Implementation verified in Docs/Workflows.

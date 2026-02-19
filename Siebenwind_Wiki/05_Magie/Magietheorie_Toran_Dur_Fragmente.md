@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Fragmente aus Toran_Dur
-category: [[index]]
+category: Magie
 status: Canon
-quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Toran_Dur]] - Sammlerfragmente I-IV.md"
+quelle: "../../Quellen/Bibliothek Toran Dur/[[Toran_Dur]] - Sammlerfragmente I-IV.md"
 lore_trust: 6
 confidence: Speculative
 author: "Der [[Sammler]] / [[Niemand]]"
@@ -13,7 +13,7 @@ author: "Der [[Sammler]] / [[Niemand]]"
 
 **Epistemischer Status:** #apokryphen
 
-Diese Sammlung enthält Fragmente und Prophezeiungen aus der [[index]] von [[Toran_Dur]], deren Urheber oft unklar oder mysteriös ("[[Niemand]]") sind.
+Diese Sammlung enthält Fragmente und Prophezeiungen aus der Magie von [[Toran_Dur]], deren Urheber oft unklar oder mysteriös ("[[Niemand]]") sind.
 
 ## Die Sammlerfragmente (Dämonologie)
 Vier Fragmente eines unvollständigen Werkes über El'ra Khor und dämonische Hierarchien.
@@ -37,7 +37,7 @@ Hinweise zu Ritualkomponenten: Verunreinigte Elemente, geschändete Reliquien un
 ## Die Niemandsrede
 Prophetische Worte einer Entität oder Person names "[[Niemand]]".
 
-*   **An die [[Elfen]] (Daluwirh):** "[[Niemand]] hört und so ist das [[index]] verloren... Ihr glaubt es wird was war, ihr glaubt es ist was verging."
+*   **An die [[Elfen]] (Daluwirh):** "[[Niemand]] hört und so ist das Magie verloren... Ihr glaubt es wird was war, ihr glaubt es ist was verging."
 *   **An Bastean:** "Keine Weltliche Macht kann erschaffen was so treu im Dienste seiner Herren steht."
 *   **Über Ferrinmoschding:** "Loch gefüllt mit toten Körpern... Ihre Diener... vielleicht sind sie nicht das, was du glaubst."
 

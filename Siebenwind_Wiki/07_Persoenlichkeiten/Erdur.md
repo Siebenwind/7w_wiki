@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Erdur"
-category: [[index]]
+category: Personen
 ---
 
 # Erdur

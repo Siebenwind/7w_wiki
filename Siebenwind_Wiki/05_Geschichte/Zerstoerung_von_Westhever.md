@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Zerstörung von Westhever
-category: [[index]]
+category: Geschichte
 ---
 
 # Zerstörung von Westhever

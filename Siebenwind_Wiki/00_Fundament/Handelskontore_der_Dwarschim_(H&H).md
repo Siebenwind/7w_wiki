@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Handelskontore der Dwarschim (H&H)
-category: [[index]]
+category: Allgemein
 ---
 
 # Handelskontore der Dwarschim (H&H)
@@ -25,4 +25,4 @@ Die H&H pflegt enge Beziehungen zur menschlichen **[[Kaufmannsgilde]]** (vertret
 
 ## Siehe auch
 - [[Adelskalender]]
-- [[index]] (Regionen/Dunquell)
+- Wissen (Regionen/Dunquell)

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 166
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a924
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 166.md
@@ -22,10 +22,10 @@ letzter_check: 2026-02-13T15:25:00+01:00
 ## Lokales
 *   **Kriminalität:** **[[Hagen_Robaar]]** wurde im Brandensteiner Park überfallen, konnte aber durch das Eingreifen von [[Niklas_Rattenfaenger]] und einer [[Schattenjaeger|Schattenjägerin]] gerettet werden.
 *   **Sicherheit:** In [[Brandenstein]] wurde der Bau einer neuen Stadtmauer gestattet. Das XIII. Regiment besetzte einen Wachturm zur Sicherung der Hafenstadt.
-*   **[[index]]:** Die Akademie forscht erfolgreich an **arkanen Prothesen** (Gefühlsgesteuerte Edelstein-Technik) für Nichtmagier.
+*   **Wissen:** Die Akademie forscht erfolgreich an **arkanen Prothesen** (Gefühlsgesteuerte Edelstein-Technik) für Nichtmagier.
 *   **Bildung:** Die **Kämpferschule [[Falkensee]]** (Leitung: **Sire [[Laske]]**) hat ihren Betrieb aufgenommen.
 
-## [[index]]
+## Wirken
 *   **[[Zacharias_Gropp]]**: Knappe und Sieger der Großjagd.
 *   **[[Lucius_Gropp|Lucius Freiherr Gropp]]**: Gardemeister und Hauptmann (Interview im Boten).
 *   **[[Niklas_Rattenfaenger]]**: Held von [[Brandenstein]] und Retter des Grafen.

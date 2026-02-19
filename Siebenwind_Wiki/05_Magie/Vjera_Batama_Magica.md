@@ -1,14 +1,14 @@
 ---
 layout: wiki_page
 title: Vjera Batama Magica (Edelsteinmagie)
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Sylest_le_Felyhn]] - Vjera Batama Magica.md"
+quelle: "/Quellen/Bibliothek Toran Dur/[[Sylest_le_Felyhn]] - Vjera Batama Magica.md"
 ---
 
 # Vjera Batama Magica (Edelsteinmagie)
 
-Die *Vjera Batama Magica* ist eine uralte Form der [[index]], die Edelsteine als "Gefäße" (*Gefäße*) für arkane Energien nutzt. Ihre Wurzeln reichen bis in die Zeit der Amulettkriege zurück.
+Die *Vjera Batama Magica* ist eine uralte Form der Magie, die Edelsteine als "Gefäße" (*Gefäße*) für arkane Energien nutzt. Ihre Wurzeln reichen bis in die Zeit der Amulettkriege zurück.
 
 ## 1. Die fünf Künste der Edelsteinmagie
 

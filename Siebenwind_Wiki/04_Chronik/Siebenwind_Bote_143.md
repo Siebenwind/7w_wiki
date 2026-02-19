@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 143
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 143

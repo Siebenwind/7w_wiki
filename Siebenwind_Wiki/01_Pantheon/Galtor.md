@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Galtor
-category: [[index]]
+category: Religion
 ---
 
 # Galtor

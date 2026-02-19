@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Expedition nach Kesselklamm
-category: [[index]]
+category: Geschichte
 ---
 
 # Expedition nach Kesselklamm

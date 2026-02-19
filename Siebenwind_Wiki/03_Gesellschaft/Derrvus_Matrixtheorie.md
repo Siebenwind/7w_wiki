@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Postulat der idealen Form von Matricen"
-category: [[index]]
+category: Gesellschaft
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Postulat der idealen Form von Matricen im Raum und in der Zeit.md"
+quelle: "/Quellen/Bibliothek Astrael/Postulat der idealen Form von Matricen im Raum und in der Zeit.md"
 author: "Donarius Derrvus"
 ---
 
@@ -33,6 +33,6 @@ Die ideale Struktur einer Matrix folgt der Zahlenlehre der Alten:
 ## Ziel der magischen Forschung
 Statt Materie nur umzuformen (Mutanda/Transformica), sollte das Ziel sein, die komplexen astralen Matrizen auf ihre zugrundeliegenden idealen Geometrien zu reduzieren, um sich dem Punkt (der Urquelle) zu nähern.
 
-## [[index]]
+## Wirken
 * [[Donarius_Derrvus]] (Autor)
 * [[Geidwenja]] (Wissenschaftlicher Rivale)

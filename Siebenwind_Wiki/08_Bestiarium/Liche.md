@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Liche
-category: [[index]]
+category: Allgemein
 ---
 
 # Liche
@@ -19,7 +19,7 @@ Laut der Yheramnis (*Phan 118-119*) versuchte der dunkle Herrscher zu Beginn der
 
 ## Form und Verhalten
 Liche suchen Orte des Verfalls auf, wie alte Schlachtfelder oder tiefe Höhlen. 
-- **Emanation:** Gelegentlich formen sie mit ihrer [[index]] Körper aus kaltem Fleisch und verzerrten Knochen, die an ihre frühere Gestalt als Magier erinnern. Sie tragen oft Lumpen, die den Bannern der schwarzen Armeen nachempfunden sind.
+- **Emanation:** Gelegentlich formen sie mit ihrer Wissen Körper aus kaltem Fleisch und verzerrten Knochen, die an ihre frühere Gestalt als Magier erinnern. Sie tragen oft Lumpen, die den Bannern der schwarzen Armeen nachempfunden sind.
 - **Motivation:** Sie sind von tiefem Hass auf alles Lebendige erfüllt, da sie den Sterblichen ihre Unbekümmertheit neiden, während sie selbst für ewig an die Gräuel des Krieges erinnert werden.
 
 ---

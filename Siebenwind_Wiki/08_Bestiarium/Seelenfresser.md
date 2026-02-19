@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Seelenfresser
-category: [[index]]
+category: Allgemein
 ---
 
 # Seelenfresser

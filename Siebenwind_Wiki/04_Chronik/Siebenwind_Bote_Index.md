@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote Index
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote Index
@@ -10,11 +10,11 @@ category: [[index]]
 
 Der **[[Siebenwind]] Bote** ist das offizielle Nachrichtenorgan der Kronmark. Diese Übersicht bietet Zugriff auf alle archivierten Ausgaben und Informationen über die Redaktion.
 
-## Ausgaben-[[index]]
+## Ausgaben-Wissen
 
 | Batch | Zeitraum | Fokus |
 | :--- | :--- | :--- |
-| [[Siebenwind_Bote_120|120-125]] | ~15 n.H. | Frühe [[index]], Auktion der Tureks |
+| [[Siebenwind_Bote_120|120-125]] | ~15 n.H. | Frühe Wissen, Auktion der Tureks |
 | [[Siebenwind_Bote_126|126-140]] | ~16 n.H. | Aufstieg Brandensteins, [[Grix]]-Vorfälle |
 | [[Siebenwind_Bote_141|141-160]] | ~17-18 n.H. | [[Draconis]]-Expedition, Ordenskrise |
 | [[Siebenwind_Bote_161|161-170]] | ~18-19 n.H. | Neue Statute, Heilergilde, Borast-Hysterie |

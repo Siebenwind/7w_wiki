@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 128
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 128
@@ -25,7 +25,7 @@ category: [[index]]
 
 ### Kultur
 - **Baronsgarde-Auflösung:** Erwähnung des Festes zur Auflösung der [[Baronsgarde]], bei dem Dichterin **[[M._Pfahl]]** ihr Gedicht "Die kleine Fee" vortrug.
-- **Literatur:** 500 Dukaten Prämie für eingereichte [[index]] an den Boten.
+- **Literatur:** 500 Dukaten Prämie für eingereichte Wissen an den Boten.
 - **Farbregen:** Magischer Farbregen über [[Brandenstein]] (8. Sekar).
 
 ---

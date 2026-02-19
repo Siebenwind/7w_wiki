@@ -9,7 +9,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Grafschaft
+**Kategorie:** Wissen / Grafschaft
 **Herrscher:** (Graf unbenannt, liegt in der Fehde mit Malthust)
 
 ## Beschreibung

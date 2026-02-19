@@ -6,7 +6,7 @@ category: Magie
 
 layout: wiki_page
 title: "Der [[Elementare]] Pfad"
-category: [[index]]
+category: Magie
 status: integrated
 uuid: E1234567-B2C3-4D5E-8F9A-0A1B2C3D4E5F
 report_id: a2b3c4d5-e6f7-4a8b-9c0d-1e2f3a4b5c6d
@@ -21,7 +21,7 @@ author: "[[Amanda_Dunkelbaum]]"
 [[Amanda_Dunkelbaum]] beschreibt in ihrem Werk *Der [[Elementare]] Pfad* das Wesen der vier Elemente und deren Bedeutung für das Gleichgewicht der Welt.
 
 ## 1. Der wahre Pfad
-Dunkelbaum postulierte, dass der **[[Elementarpfad]]** der einzig wahre Pfad der [[index]] sei, da alles Sein aus den vier Elementen bestehe.
+Dunkelbaum postulierte, dass der **[[Elementarpfad]]** der einzig wahre Pfad der Magie sei, da alles Sein aus den vier Elementen bestehe.
 
 ## 2. Die Natur der Elemente
 Jedes Element wird als physisches und arkanes Prinzip verstanden:

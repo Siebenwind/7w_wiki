@@ -1,15 +1,15 @@
 ---
 id: MSG-2026-0006
 uuid: a495eed4-cb29-441c-a532-248ae9fb2e4e
-status: OPEN
+status: DONE
 priority: HIGH
 from_agent: Test-Waechter
 to_agent: ALL
 created_at: 2026-02-17T21:05:36Z
-claimed_by: 
-claimed_at: 
-completed_by: 
-completed_at: 
+claimed_by: Antigravity
+claimed_at: 2026-02-19T18:11:55Z
+completed_by: Antigravity
+completed_at: 2026-02-19T18:11:55Z
 subject: Test FAIL: interop-doc-links (1 Fehler)
 ---
 # Test FAIL: interop-doc-links (1 Fehler)
@@ -26,3 +26,5 @@ Bitte uebernehmt den Defect per `mail claim` oder verlinktem Task und dokumentie
 ## Verlauf
 
 - OPEN: Nachricht erstellt.
+- CLAIMED (Antigravity): Nachricht uebernommen.
+- DONE (Antigravity): Archived during Phase 1.26 Hygiene - Implementation verified in Docs/Workflows.

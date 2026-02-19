@@ -33,7 +33,7 @@ Die Metalle entsprechen in ihrem Wesen den Elementarherren:
 
 ### Das Problem der Hitze
 *   **Heißes Schmieden:** Zerstört die natürliche Ordnung der Elementarknoten im Metall.
-*   **Folge:** Das Metall verliert seine spezifische Fokus-Wirkung und wird zu einem **chaotischen Störfaktor** (Gegenfokus) für *alle* Arten von [[index]]. Dies erklärt, warum Magier keine geschmiedeten Rüstungen tragen können.
+*   **Folge:** Das Metall verliert seine spezifische Fokus-Wirkung und wird zu einem **chaotischen Störfaktor** (Gegenfokus) für *alle* Arten von Magie. Dies erklärt, warum Magier keine geschmiedeten Rüstungen tragen können.
 
 ### Kaltes Schmieden
 *   Nur kalt geschmiedetes Metall behält seine reine Struktur und könnte theoretisch als Fokus dienen.
@@ -46,4 +46,4 @@ Die Metalle entsprechen in ihrem Wesen den Elementarherren:
 
 ## Fazit
 
-Metalle sind in ihrer geschmiedeten Form fast immer hinderlich für die [[index]]. Eine gezielte Nutzung als Fokus (z.B. Kupfer für Feuermagie) wäre nur bei extrem aufwendiger kalter Verarbeitung und unter Vermeidung jeglicher Hitzbehandlung denkbar – eine in der Praxis kaum erreichbare Bedingung.
+Metalle sind in ihrer geschmiedeten Form fast immer hinderlich für die Magie. Eine gezielte Nutzung als Fokus (z.B. Kupfer für Feuermagie) wäre nur bei extrem aufwendiger kalter Verarbeitung und unter Vermeidung jeglicher Hitzbehandlung denkbar – eine in der Praxis kaum erreichbare Bedingung.

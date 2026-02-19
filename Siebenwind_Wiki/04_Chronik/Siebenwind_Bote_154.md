@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 154
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a916
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 154.md
@@ -24,7 +24,7 @@ letzter_check: 2026-02-13T03:15:00+01:00
 *   **Entführung:** Die Tochter von **[[Caeden_Ecanas]]** wurde entführt. Hofmagier **[[Garreth_Moss]]** rettete sie durch eine List (Verwandlung in Falken).
 *   **Akademie:** Geistererscheinungen im Turm von [[Südfall]]. **[[Daena]]** arbeitet an der Austreibung.
 
-## [[index]]
+## Wirken
 *   **[[Mirian_Lasar]]**: Neue Lehensritterin.
 *   **[[Utrich_Rothnang]]**: Magier (Feuermagier?), rettete Löwenritter trotz vorherigem Konflikt.
 *   **[[Garreth_Moss]]**: Hofmagier, rettete Ecanas' Tochter.

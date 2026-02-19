@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Feen
-category: [[index]]
+category: Allgemein
 ---
 
 # Feen
@@ -16,8 +16,8 @@ Das markanteste Merkmal der Feen ist ihre Fähigkeit, scheinbar beliebig zwische
 
 ## Verhalten
 - **Verbindung zu [[Elfen]]:** Obwohl eine direkte Verwandtschaft mit den [[Elfen]] wissenschaftlich bezweifelt wird, spüren [[Elfen]] eine tiefe Verbundenheit mit ihnen.
-- **Charakter:** Feen sind neugierige und scheue Wesen, die Gewalt ablehnen. Sie neigen jedoch dazu, [[index]], die sie ärgern, mit Streichen zu quälen, die von lästig bis gefährlich reichen können.
-- **[[index]]:** Trotz ihrer physischen Schwäche verfügen sie über beachtliche magische Fähigkeiten.
+- **Charakter:** Feen sind neugierige und scheue Wesen, die Gewalt ablehnen. Sie neigen jedoch dazu, Wissen, die sie ärgern, mit Streichen zu quälen, die von lästig bis gefährlich reichen können.
+- **Wissen:** Trotz ihrer physischen Schwäche verfügen sie über beachtliche magische Fähigkeiten.
 
 ---
 **Siehe auch:** [[Bestiarium_Register]], [[Elfen]]

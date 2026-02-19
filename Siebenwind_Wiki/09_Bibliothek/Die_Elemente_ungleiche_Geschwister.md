@@ -39,7 +39,7 @@ Das Ritual diente dem Dank und der Bitte an die **[[En'Hor]]** (elementare Geist
 
 ## Relevante Entitäten
 
-### [[index]]
+### Wirken
 *   **[[Brand_Windfluesterer]]**: Autor und Augenzeuge.
 *   **[[Orogrim]]**, **[[Gorion]]**, **[[Nithavela]]**: Teilnehmende Elementaristen.
 *   **[[Tintin_Waljakov|Tintin]]**: Spielt enthusiastisch Fiedel.

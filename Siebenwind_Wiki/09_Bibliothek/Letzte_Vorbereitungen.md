@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Letzte Vorbereitungen
-category: [[index]]
+category: Allgemein
 tags: [Erzählung, [[Morsan]], [[Dunkeltief]], Sandholz]
 status: #perspektive
 ---
@@ -20,7 +20,7 @@ Zum Abschluss zeichnet er mit gesegnetem Wasser, das er von **Eminenz [[Sandholz
 
 ## Relevante Entitäten
 
-### [[index]]
+### Wirken
 *   **Eminenz [[Sandholz]]**: Ein hochrangiger Kleriker (vermutlich [[Morsan]]-Geweihter), der gesegnetes Wasser verteilt.
 
 ### Orte

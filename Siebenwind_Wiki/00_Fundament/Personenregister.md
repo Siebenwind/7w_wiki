@@ -1,14 +1,14 @@
 ---
 layout: wiki_page
 title: Personenregister
-category: [[index]]
+category: Allgemein
 uuid: d173e080-a2dd-42ec-b616-f7f614fa9368
 ---
 # Personenregister
 
 **Epistemischer Status:** #canon
 
-Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten [[index]] und [[Persönlichkeiten]] der Welt [[Siebenwind]].
+Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten Wissen und [[Persönlichkeiten]] der Welt [[Siebenwind]].
 
 ## Zentrale Personenliste
 
@@ -27,7 +27,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Athos]] | Reichsritter (i.R.) / Sire | [Bote 140] / [Der letzte Falke] | Historisch / 16 n.H. | #überlieferung |
 | [[Azaris]] | Nekromant | [Legende von Galahad] | Legendär | #überlieferung |
 | [[Avaratio_Mischelgrimm]] | Alchemist / Autor | [Opus i de alchimiae] | Historisch | #überlieferung |
-| [[Barath_Or]] | Bresch / Großmeister ([[Astrael]]) | [[[index]] des Barath Or] | Historisch | #überlieferung |
+| [[Barath_Or]] | Bresch / Großmeister ([[Astrael]]) | [Wissen des Barath Or] | Historisch | #überlieferung |
 | [[Baron_Gerdenwald]] | Baron | [Stadtchronik [[Rohehafen]]] | Historisch | #überlieferung |
 | [[Baron_Morgenroith]] | Baron / Gesetzgeber | [[Iuribus_Siebenwind]] | Historisch | #überlieferung |
 | [[Barnabas]] | Großmeister / Ritter | [Der letzte Falke] | Historisch | #überlieferung |
@@ -105,7 +105,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Gropp_Zwillinge]] | [[Gropp_Zwillinge]] | [Bote 186] | Geboren 22 n.H. | #bote |
 | [[Faesa_Farell]] | Gastronomin / Theaterbuffet | [Bote 186] | 22 n.H. | #bote |
 | [[Hadrian]] | Ritter (Löwenorden) | [Bote 167] | 18 n.H. | #bote |
-| [[Hevelius_Dunkelfeld]] | Bürger / Kultist / Magus | [Bote 180] / [[index]] | † 21 n.H. / 30 n.H. (?) | #bote |
+| [[Hevelius_Dunkelfeld]] | Bürger / Kultist / Magus | [Bote 180] / Bote | † 21 n.H. / 30 n.H. (?) | #bote |
 | [[Hagen_Robaar]] | Graf / Lehnsherr / Großmeister ([[03_Gesellschaft/index#Löwenorden|Löwenorden]]) | [Bote 136/140/151/155/174] | bis 20 n.H. | #canon |
 | [[Todward_von_Saalhorn]] | Bruder v. Graf Robaar (Verschollen) | [[Abschied_und_Verrat]] | 20 n.H. | #perspektive |
 | [[Aelfrid_Wildgaden]] | Kastellan ([[Burg_Saalhorn]]) | [[Abschied_und_Verrat]] | 20 n.H. | #perspektive |
@@ -590,7 +590,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Sylest_le_Felyhn]] | Adepta Arkana (Rechts) | [[Vjera_Batama_Magica]] | Historisch | #überlieferung |
 | [[Tjure_Odal]] | Ketzer / Magier (?) | [Bote 186] | 22 n.H. | #bote |
 | [[Veridon]] | ? | - | - | #überlieferung |
-| [[Terenon_Sarophilan]] | Magier (Elfenfreund) | [Theorien der [[index]]] | Historisch | #überlieferung |
+| [[Terenon_Sarophilan]] | Magier (Elfenfreund) | [Theorien der Wissen] | Historisch | #überlieferung |
 | [[Themus_Takai]] | Magier (Baumwesen) | [Theorem zu den Baumwesen] | Historisch | #überlieferung |
 | [[Uron_Sbocaj]] | Magier / Theoretiker | [Thesen der Magiezweige] | Historisch | #überlieferung |
 | [[Wolfgang_Ravinsthal]] | Adeptus / Adeptus Arkanis / Autor | [Sphärenkunde] | Historisch | #überlieferung |

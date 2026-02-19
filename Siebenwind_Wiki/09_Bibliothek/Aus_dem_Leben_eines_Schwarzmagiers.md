@@ -11,7 +11,7 @@ letzter_check: 2026-02-15T23:45:00+01:00
 
 **Epistemischer Status:** #perspektive (Horror-Erzählung von *unicrack*)
 
-Die dreiteilige [[index]] **"Aus dem Leben eines Schwarzmagiers"** schildert das düstere Schicksal des [[Bellum]]-Novizen **[[Felix_Goldschein]]**.
+Die dreiteilige Wissen **"Aus dem Leben eines Schwarzmagiers"** schildert das düstere Schicksal des [[Bellum]]-Novizen **[[Felix_Goldschein]]**.
 
 ## Handlung
 
@@ -26,7 +26,7 @@ Der Magier (oder Felix, die Perspektive verschwimmt) beschwört eine Armee aus U
 
 ## Relevante Entitäten
 
-### [[index]]
+### Wirken
 *   **[[Felix_Goldschein]]**: Junger [[Bellum]]-Novize, der zum Diener eines Schwarzmagiers wird.
 *   **Der Schwarzmagier**: Unbenannter Antagonist, Nekromant, "Großväterlich-tadelnd", foltert mit heißem Wachs.
 

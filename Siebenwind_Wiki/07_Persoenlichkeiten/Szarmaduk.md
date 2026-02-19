@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Szarmaduk"
-category: [[index]]
+category: Personen
 status: Stub
 ---
 

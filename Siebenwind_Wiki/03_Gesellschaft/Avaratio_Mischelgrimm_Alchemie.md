@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Theorie der Form und des Funkens (Opus i de alchimiae)
-category: [[index]]
+category: Gesellschaft
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Opus i de alchimiae.md"
+quelle: "/Quellen/Bibliothek Astrael/Opus i de alchimiae.md"
 author: "[[Avaratio_Mischelgrimm]]"
 ---
 
@@ -23,7 +23,7 @@ Jedes Ding und jedes Lebewesen besteht aus zwei Komponenten:
 * **Widersacher**: [[Angamon]] versucht diesen Prozess durch Seuchen und Siechtum zu stören, um den Funken vorzeitig oder missgestaltet aus der Form zu reißen.
 
 ## Alchemistische Anwendung
-Die Alchemie ist die Kunst, die „Funken“ von Pflanzen und Reagenzien zu manipulieren, um physische „Formen“ zu verändern. Mischelgrimm sieht [[Astrael]] als den heiligen Ursprung dieses Handwerks, das der [[index]] in seinem Wesen ähnlich ist.
+Die Alchemie ist die Kunst, die „Funken“ von Pflanzen und Reagenzien zu manipulieren, um physische „Formen“ zu verändern. Mischelgrimm sieht [[Astrael]] als den heiligen Ursprung dieses Handwerks, das der Wissen in seinem Wesen ähnlich ist.
 
-## [[index]]
+## Wirken
 * [[Avaratio_Mischelgrimm]] (Autor)

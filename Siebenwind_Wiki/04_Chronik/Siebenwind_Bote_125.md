@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 125
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 125
@@ -16,10 +16,10 @@ category: [[index]]
 - **Trophäenhändler:** [[Rekar_Sturmklinge]], ehemaliger Jäger, eröffnete einen Trophäenhandel vor den Westtoren von [[Brandenstein]] im Auftrag der Krone.
 - **Botengebäude:** Die Redaktion des Boten sucht Handwerker für den Umbau ihrer Räumlichkeiten.
 
-### [[index]] & Völker
+### Wirken & Völker
 - **[[Orken]]-Problem:** Bericht über zunehmende Kriminalität durch [[Ork|Orken]] (Entführung, Bärenangriff). Gefreite [[Frau_von_Wankenbach]] vom Schutzzug schildert ihren Fall. Plädoyer für Völkerverständigung trotz Konflikten.
 
-### [[index]]
+### Wirken
 - **Rundreise [[Greifenwald]]:** Beschreibung des Unterlehens [[Greifenwald]] unter Vasall Sir [[Laurec_Llewellyen]]. Regionen: [[Nordforst]] (Halblingslager), [[Auenwald]], [[Hügelwald]] (Ruine), [[Greifenklipp]] ([[Nortraven]]-Dorf mit Palisaden).
 
 ### Kultur & Religion

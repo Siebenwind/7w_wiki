@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 158
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a920
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 158.md
@@ -13,7 +13,7 @@ letzter_check: 2026-02-13T04:30:00+01:00
 **Datum:** 17. Triar 18 n.H. (Felatag)
 
 ## Highlights
-*   **Bedrohung aus der Tiefe:** Ein Schlangenvolk, die **[[Sammler]]**, bricht aus unterirdischen Gängen hervor. Sie stammen angeblich von den Mazzaremern ab und nutzen mächtige [[index]] (Thaumaturgen). Ein Angriff auf den **Falkenwall** konnte durch **[[Toran_Dur]]** abgewehrt werden.
+*   **Bedrohung aus der Tiefe:** Ein Schlangenvolk, die **[[Sammler]]**, bricht aus unterirdischen Gängen hervor. Sie stammen angeblich von den Mazzaremern ab und nutzen mächtige Wissen (Thaumaturgen). Ein Angriff auf den **Falkenwall** konnte durch **[[Toran_Dur]]** abgewehrt werden.
 *   **Hochmagier [[Toran_Dur]]:** [[Toran_Dur]] wurde offiziell zum Hochmagier ernannt. Der neue Pfadleiter der Grauen, **[[Edomawyr]]**, vollzog die Ernennung. Zuvor rettete [[Toran_Dur]] die Ritter **[[Galthana]]** und **[[Amaris_Aurinas]]** aus der Gefangenschaft der [[Orken]].
 *   **Waffengesetz:** **[[Mirian_Lasar]]** erließ ein Gesetz über Waffen und Rüstungen in [[Falkensee]]. Das Tragen schwerer Waffen und Rüstungen ist Bürgern und Freien in der Stadt untersagt (Ausnahme: Adel, Wache, Kirche).
 
@@ -23,7 +23,7 @@ letzter_check: 2026-02-13T04:30:00+01:00
 *   **Forstverwaltung:** Die Inselpatrizierin **[[Solos_Nhergas]]** löste die Forstverwaltung unter Oberförster **Birk** wegen Inkompetenz und Tierquälerei auf.
 *   **Zünfte:** [[Der_Große_Rat]] plant die Einführung von Zünften zur Organisation des Handwerks.
 
-## [[index]]
+## Wirken
 *   **[[Proveus_Herand]]**: Geweihter Bellums, Anführer der Expedition in die Tiefe.
 *   **[[Lorence]]**: Geweihter Bellums, Protektor der [[Ferrin]].
 *   **[[Edomawyr]]**: Neuer Pfadleiter des Grauen Pfades.
@@ -31,8 +31,8 @@ letzter_check: 2026-02-13T04:30:00+01:00
 *   **[[Morin_Thamaz]]**: Neuer Leiter des Elementaren Pfades.
 *   **[[Richard_Tiefenwasser]]**: Stellte sich der Justiz und nahm an der Untoten-Expedition teil.
 
-## [[index]] & [[index]]
-*   **Mazzarem-Vortrag:** [[Toran_Dur]] erläuterte die [[index]] vor 5000 Jahren: Amulettkrieg, Verrat an dem Feldherrn, das Wirken von "[[Niemand]]" und die Rolle der [[Ferrin]] als Grabbewächter.
+## Wirken & Wissen
+*   **Mazzarem-Vortrag:** [[Toran_Dur]] erläuterte die Wissen vor 5000 Jahren: Amulettkrieg, Verrat an dem Feldherrn, das Wirken von "[[Niemand]]" und die Rolle der [[Ferrin]] als Grabbewächter.
 
 ## Referenzen
 - Primärquelle: [[[Siebenwind]] Bote 158](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20158.md)

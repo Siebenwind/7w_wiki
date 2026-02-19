@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Riesen
-category: [[index]]
+category: Allgemein
 ---
 
 # Riesen

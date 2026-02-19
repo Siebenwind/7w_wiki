@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 171
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: a1b2c3d4-e5f6-4a1b-9c2d-3e4f5g6h7i8j
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 171.md
@@ -25,7 +25,7 @@ letzter_check: 2026-02-13T16:30:00+01:00
 *   **[[Falkensee]]:** Vorräte wurden gehortet und Quartiere für Flüchtlinge bereitgestellt. Der [[Orden_der_Wachenden_Löwen]] befestigte den [[Falkenwall|Wall]] notdürftig.
 *   **Kämpferschule:** Sire [[Laske]] führt weiterhin die Kämpferschule, um tapfere Recken für das Soldatenhandwerk auszubilden.
 
-## [[index]]
+## Wirken
 *   **[[Siegfried_Steiner]]**: Neuer Großmeister und Heerführer.
 *   **[[Mirian_Lasar]]**: Neue Heermeisterin und [[Orken]]-Gesandte.
 *   **[[Arlon_Windtanz]]**: Zwergen-Gesandter.

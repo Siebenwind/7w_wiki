@@ -18,7 +18,7 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 **Markward von [[Falkensee]]** wird in den Chroniken als Graf und vermeintlicher Putschist erwähnt (Bote 120). Sein tatsächlicher historischer Status ist umstritten, da er oft als Phantom-Eintrag ohne tiefergehende Belege geführt wird.
 
 ## Wirken
-- **[[index]]:** Beteiligung an politischen Umsturzversuchen in [[Falkensee]].
+- **Wissen:** Beteiligung an politischen Umsturzversuchen in [[Falkensee]].
 
 ## Verlinkte Themen
 - [[Falkensee]]

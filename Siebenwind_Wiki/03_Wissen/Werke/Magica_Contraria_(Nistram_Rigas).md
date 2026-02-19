@@ -28,7 +28,7 @@ Verfasst von Adeptus Arkanis [[Nistram_Rigas]].
     *   **Resonanz-Störung:** Das Thaumaturgische Gitter in Schwingung versetzen (Chaos erzeugen), sodass der Gegner keine stabilen Knoten knüpfen kann.
 
 ## Kampfmagie-Grenzbereich
-Rigas warnt vor einer Technik, die die *Filiae Astreali* (Magiefäden) eines Gegners durch Angriff auf seine *Filiae Vitae* (Lebensfäden) verkümmern lässt (durch Schock/Verletzung), um ihn der [[index]] zu berauben. Dies sei "im höchsten Maße verwerflich".
+Rigas warnt vor einer Technik, die die *Filiae Astreali* (Magiefäden) eines Gegners durch Angriff auf seine *Filiae Vitae* (Lebensfäden) verkümmern lässt (durch Schock/Verletzung), um ihn der Magie zu berauben. Dies sei "im höchsten Maße verwerflich".
 
 ## Zitat
-> "Als [[Antimagie]] bezeichnet man jede Form der reaktiven [[index]], welche dem Zweck diene einem Zauber entgegen zu wirken."
+> "Als [[Antimagie]] bezeichnet man jede Form der reaktiven Magie, welche dem Zweck diene einem Zauber entgegen zu wirken."

@@ -15,7 +15,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 
 Neben seiner dichterischen Tätigkeit verfasst er Berichte für den Boten, unter anderem über das Waisenhaus "Bärenhöhle" und arkan-militärische Ereignisse am Wall.
 
-## Bekannte [[index]]
+## Bekannte Wissen
 - *Die Prinzessin und der Frosch* (Gedicht)
 
 ---

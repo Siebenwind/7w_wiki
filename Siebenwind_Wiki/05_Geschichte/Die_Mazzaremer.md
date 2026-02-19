@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Die Mazzaremer
-category: [[index]]
+category: Geschichte
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_158]].md
 ---
@@ -12,7 +12,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_158]].md
 **Epoche:** Amulettkrieg (vor ca. 5000 Jahren)
 
 ## Hintergrund
-Die **Mazzaremer** waren ein hochzivilisiertes Volk, das vor etwa 5000 Jahren auf der Insel [[Siebenwind]] lebte. Ihre Hauptstadt [[Mazareem]] lag an der Stelle des heutigen [[Brandenstein]]. Sie waren den heutigen Völkern an [[index]], Macht und Kunst weit überlegen; fast jeder Einwohner war der [[index]] mächtig.
+Die **Mazzaremer** waren ein hochzivilisiertes Volk, das vor etwa 5000 Jahren auf der Insel [[Siebenwind]] lebte. Ihre Hauptstadt [[Mazareem]] lag an der Stelle des heutigen [[Brandenstein]]. Sie waren den heutigen Völkern an Wissen, Macht und Kunst weit überlegen; fast jeder Einwohner war der Wissen mächtig.
 
 ## Der Amulettkrieg
 Ihr Schicksal war untrennbar mit dem **Amulettkrieg** gegen die Heerscharen des Einen verbunden.

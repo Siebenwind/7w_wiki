@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 160
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a922
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 160.md
@@ -28,7 +28,7 @@ letzter_check: 2026-02-13T05:30:00+01:00
 *   **Bartforschung:** Der Völkerkundler **[[Adolfo_Bastian]]** vertritt die Theorie, dass Zwergenbärte eigenständige Symbionten sind, welche die geistige Gesundheit der [[Zwerge]] beeinflussen.
 *   **Schneiderkunst:** Veröffentlichung einer Anleitung für ein "Edles Kleid nach galadonischer Machart".
 
-## [[index]]
+## Wirken
 *   **[[Hagen_Robaar]]**: Zum Grafen erhoben.
 *   **[[Erudin_Gropp]]**: Neuer Inselpatrizier.
 *   **[[Fabius_Letarien]]**: Neuer Menschenvertreter im Rat.

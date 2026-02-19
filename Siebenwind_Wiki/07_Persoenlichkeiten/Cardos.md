@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cardos"
-category: [[index]]
+category: Personen
 ---
 
 # Cardos

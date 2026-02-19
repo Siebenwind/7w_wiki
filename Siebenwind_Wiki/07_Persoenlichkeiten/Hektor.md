@@ -12,7 +12,7 @@ category: Persönlichkeit
 **Zeitraum:** Aktiv während des "Putsches" (ca. 26 n.H.)
 
 ## Beschreibung
-Hektor war der treue Stellvertreter von **[[Waldemar_Delarie]]**. Er gilt als fähiger Soldat, dem jedoch das politische Feingefühl seines Vorgesetzten fehlt. Sein Handeln führte zum bisher schwersten politischen Bruch in der [[index]] Falkensees.
+Hektor war der treue Stellvertreter von **[[Waldemar_Delarie]]**. Er gilt als fähiger Soldat, dem jedoch das politische Feingefühl seines Vorgesetzten fehlt. Sein Handeln führte zum bisher schwersten politischen Bruch in der Wissen Falkensees.
 
 ## [[Der_Putsch_von_Falkensee]]
 - **Hintergrund:** Während Waldemar sich in Papin aufhielt, sah Hektor die Garde und das Lehen durch die Machenschaften des Rats (insb. **[[Custodias]]**) bedroht.

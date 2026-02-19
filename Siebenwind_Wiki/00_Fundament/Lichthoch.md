@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Lichthoch
-category: [[index]]
+category: Allgemein
 uuid: FB643755-B765-45FF-9810-CFD3269B3C6A
 letzter_check: 2026-02-13T15:15:00+01:00
 ---
@@ -26,7 +26,7 @@ Das Lichthoch ist eine Zeit des Friedens. Die Arbeit ruht, und es wird landeswei
 *   **Vitamaball:** Große Bälle und Feste (wie der Vitamaball in [[Brandenstein]]) finden zu dieser Zeit statt.
 *   **Lichthochfeuer:** Überall werden große Feuer entzündet, die den Sieg des Lichts feiern.
 
-## Auswirkungen auf die [[index]]
+## Auswirkungen auf die Wissen
 Weißmagische Affinitäten sind in dieser Zeit extrem verstärkt, während schwarzmagische Kräfte und [[Daemonen]] deutlich geschwächt werden und sich in die tiefsten Schatten zurückziehen müssen.
 
 ---

@@ -9,7 +9,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Grafschaft
+**Kategorie:** Wissen / Grafschaft
 **Herrscher:** Graf [[Feestar_von_Lichtenfeld]] ap Harkonn
 
 ## Beschreibung

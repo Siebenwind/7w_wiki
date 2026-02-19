@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Elementare Atomlehre
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Jennaia_Lavrial]] - Die These der elementaren Atome.md"
+quelle: "/Quellen/Bibliothek Toran Dur/[[Jennaia_Lavrial]] - Die These der elementaren Atome.md"
 ---
 
 # [[Elementare]] Atomlehre

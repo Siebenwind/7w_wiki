@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hornstoß"
-category: [[index]]
+category: Personen
 status: Stub
 ---
 

@@ -37,7 +37,7 @@ Thematisiert wird die Abwanderung bekannter [[Persoenlichkeiten_Uebersicht]] vom
 Die Erzählung vermittelt eine Stimmung des Umbruchs, der Melancholie über vergangene Zeiten ("frohe Erinnerungen") und der vorsichtigen Hoffnung auf eine Rückkehr zur Normalität.
 
 ## Lore-Bedeutung
-Die Erzählung ist eine wichtige Quelle für die politische [[index]] von [[Siebenwind]] in der Spätphase nach dem Bürgerkrieg und beleuchtet die zivile Perspektive auf die großen Machtverschiebungen.
+Die Erzählung ist eine wichtige Quelle für die politische Wissen von [[Siebenwind]] in der Spätphase nach dem Bürgerkrieg und beleuchtet die zivile Perspektive auf die großen Machtverschiebungen.
 
 ## Quellen
 *   Briefe aus der Ferne (`../../Quellen/Spielergeschichten/Briefe%20aus%20der%20Ferne.md`)

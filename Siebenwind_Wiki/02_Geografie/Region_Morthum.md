@@ -9,7 +9,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Baronie
+**Kategorie:** Wissen / Baronie
 **Hauptstadt:** Necris
 **Herrscher:** Baron Vitallus von Morthum
 

@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Die Domänen Yerrodons
-category: [[index]]
+category: Magie
 status: Canon
-quelle: "../../Quellen/[[index]] [[Toran_Dur]]/Anonymous - öber die Verhaltensweisen von Daimonen.md"
+quelle: "../../Quellen/Bibliothek Toran Dur/Anonymous - öber die Verhaltensweisen von Daimonen.md"
 lore_trust: 8
 confidence: Certain
 author: "[[Anonymus]]"
@@ -63,7 +63,7 @@ Yerrodon, die zweite Sphäre, ist in verschiedene Domänen unterteilt. Jede Dom�
 *   **Effekt:** Nutzen die tiefsten Ängste des Beschwörers gegen ihn (Illusionen im [[Geist]]).
 *   **Gefahr:** Höchste Stufe. Selbst Erzmagier können dem Wahnsinn verfallen.
 
-### 9. Mele Morthére ([[index]])
+### 9. Mele Morthére (Magie)
 *   **Kerzen:** 1 Schwarz, 1-2 Rot, 2-3 Weiß.
 *   **Wesen:** Bibliothekare, Wissensbewahrer.
 *   **Verhalten:** Ruhig, extrem klug, allwissend.

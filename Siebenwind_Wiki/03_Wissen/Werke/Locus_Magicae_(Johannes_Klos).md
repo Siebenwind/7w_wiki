@@ -22,14 +22,14 @@ Der Locus Magicae funktioniert wie ein abgerichtetes Tier. Er versteht keine Spr
 1.  **Empfänger:** Nimmt alle Signale auf (Worte, Gesten, Gefühle, Gedanken).
 2.  **Interpreter:** Prüft, ob ein Signal bekannt ist (erlernt oder angeboren).
     *   *Gefühlsmagie:* Angeborene Signale (Wut, Freude). Besonders bei [[Elfen]] (und Kindern) stark ausgeprägt.
-    *   *Niedere [[index]]:* Konditionierte "Befehle" (Vokabeln wie "Ing Man"), die ohne Nachdenken funktionieren.
-    *   *Höhere [[index]]:* Komplexe "Sätze" und Theorien. Der Interpreter nutzt ein gelerntes Modell (z.B. Matrix-Theorie), um daraus einen Effekt zu berechnen.
+    *   *Niedere Magie:* Konditionierte "Befehle" (Vokabeln wie "Ing Man"), die ohne Nachdenken funktionieren.
+    *   *Höhere Magie:* Komplexe "Sätze" und Theorien. Der Interpreter nutzt ein gelerntes Modell (z.B. Matrix-Theorie), um daraus einen Effekt zu berechnen.
 3.  **Konstruktor:** Setzt den interpretierten Befehl in den tatsächlichen **Magischen Akt** um (Veränderung der Realität).
 
 ## Das Schnittstellen-Theorem
 
 *   **Realraum:** Unsere physische Welt.
-*   **Astralraum:** Eine Welt, in der nur [[index]] existiert, ortsunabhängig (Distanz = Null).
+*   **Astralraum:** Eine Welt, in der nur Magie existiert, ortsunabhängig (Distanz = Null).
 *   **Der Locus:** Die Schnittstelle zwischen beiden Räumen. Jeder Zauber entsteht im Locus, existiert im Astralraum und wirkt sich auf den Realraum aus.
 
 ## Schlussfolgerung
@@ -37,6 +37,6 @@ Magische Theorien (wie Runen, Sphären, Fäden) sind laut Klos nicht die *Wahrhe
 
 ---
 **Begriffe:**
-*   *Gefühlsmagie:* Intuitive [[index]] ([[Elfen]]/Hexen).
-*   *Niedere [[index]]:* Auswendig gelernte Einzelbefehle.
-*   *Höhere [[index]]:* Anwendung komplexer Sprach- oder Theoriesysteme.
+*   *Gefühlsmagie:* Intuitive Magie ([[Elfen]]/Hexen).
+*   *Niedere Magie:* Auswendig gelernte Einzelbefehle.
+*   *Höhere Magie:* Anwendung komplexer Sprach- oder Theoriesysteme.

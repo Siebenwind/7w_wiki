@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 191
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a905
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 191.md

@@ -3,7 +3,7 @@ layout: wiki_page
 title: "Jeremias"
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Über die Gebete.md"
+quelle: "/Quellen/Bibliothek Astrael/Über die Gebete.md"
 author: "Antigravity"
 ---
 

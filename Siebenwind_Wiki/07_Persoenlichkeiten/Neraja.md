@@ -3,7 +3,7 @@ layout: wiki_page
 title: "Neraja"
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Vandriens Entstehung.md"
+quelle: "/Quellen/Bibliothek Astrael/Vandriens Entstehung.md"
 author: "Antigravity"
 ---
 

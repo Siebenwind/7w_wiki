@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gorion"
-category: [[index]]
+category: Personen
 status: Stub
 ---
 

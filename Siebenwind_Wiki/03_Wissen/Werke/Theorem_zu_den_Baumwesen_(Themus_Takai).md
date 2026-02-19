@@ -27,7 +27,7 @@ Die einzige Erlösung ist die **Bannung**, da der physische Tod den [[Geist]] ni
 *   **Erlösung:** Die Wunde durch diese Waffe besänftigt den [[Geist]] und erlaubt ihm, sich zu trennen und in die 3. Sphäre aufzusteigen (zu [[Morsan]]).
 
 ## Unterarten
-1.  **Waldschrat:** Groß wie eine Eiche, kann angeblich [[index]] wirken.
+1.  **Waldschrat:** Groß wie eine Eiche, kann angeblich Magie wirken.
 2.  **[[Elementare]] Baumwesen:** Von Magiern beschworene, reine Baumseelen (z.B. Birken), die friedlich sind und nur verteidigen.
 
 ## Zitat

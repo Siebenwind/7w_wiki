@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 169
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: e2f3g4h5-i6j7-k8l9-m0n1-o2p3q4r5s6t7
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 169.md
@@ -27,7 +27,7 @@ letzter_check: 2026-02-13T16:00:00+01:00
 *   **Kirche:** Ein Skandal um den [[Enhor]]-Priester **[[Brand_Windfluesterer]]**, der die Regimentsheilerin **[[Isfaldia]]** angriff, wurde beigelegt.
 *   **Gerüchte:** Eine Romanze zwischen Baronin [[Beladriel_Blaettertanz]] und Ritter [[Aspin_Schwertklinge_von_Fahlenau|Aspin Schwertklinge]] sorgt für Gesprächsstoff.
 
-## [[index]]
+## Wirken
 *   **[[Tionne]]**: Neue Hauptfrau des Kronregiments.
 *   **[[Nithavela]]**: Inselpatrizierin.
 *   **[[Elodril_Myrtholis]]**: Inselpatrizier.

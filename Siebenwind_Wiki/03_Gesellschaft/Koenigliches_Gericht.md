@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Königliches Gericht
-category: [[index]]
+category: Gesellschaft
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_170]].md
 ---

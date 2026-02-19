@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Spiegel"
-category: [[index]]
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Spiegel.md"
+quelle: "/Quellen/Bibliothek Astrael/Spiegel.md"
 author: "Rose"
 ---
 
@@ -19,7 +19,7 @@ Das lyrische Ich blickt in einen Spiegel und erkennt zwar sein Äußeres, aber n
 Schließlich offenbart sich ein Schatten, der hinter dem lyrischen Ich steht. Im Spiegel beobachtet die Person, wie der eigene Schatten sie erwürgt. Das Gedicht endet mit dem Zerbrechen des Spiegels und dem Tod des Ichs, das den Vorgang bis zuletzt nicht versteht.
 
 ## Interpretation
-Im Kontext der [[Astrael]]-[[index]] könnte dieses Werk als Warnung vor der Selbsttäuschung oder vor dunklen, parasitären Kräften gedeutet werden, die sich im Schatten der Seele verbergen (ähnlich der Lehren über [[Angamon]] oder die [[Von_den_Myten|Myten]]).
+Im Kontext der [[Astrael]]-Wissen könnte dieses Werk als Warnung vor der Selbsttäuschung oder vor dunklen, parasitären Kräften gedeutet werden, die sich im Schatten der Seele verbergen (ähnlich der Lehren über [[Angamon]] oder die [[Von_den_Myten|Myten]]).
 
 ## Überlieferung
 * **Rose** (Autorin)

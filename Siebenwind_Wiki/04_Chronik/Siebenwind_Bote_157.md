@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 157
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a919
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 157.md
@@ -24,7 +24,7 @@ letzter_check: 2026-02-13T04:00:00+01:00
 *   **Kriminalfall:** Mord an der Magierin **[[Annika_Rokan]]** (kein Mitglied der Akademie, sondern einer Splittergruppe).
 *   **Betrug:** Warnung vor einem falschen Abt, der Spenden sammelt.
 
-## [[index]]
+## Wirken
 *   **[[Lhynhar_Silmaril]]**: Secretarius der Inselpatrizierin.
 *   **[[Mythandir]]**: Anführer der [[Ventusreiter]].
 *   **[[Annika_Rokan]]**: Ermordete Magierin.

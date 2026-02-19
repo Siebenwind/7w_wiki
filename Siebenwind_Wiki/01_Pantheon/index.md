@@ -55,7 +55,7 @@ title: Siebenwind Wiki - Pantheon
 - [[Brevier_Ordo_Vitamae|Brevier des [[Ordo_Vitamae]]]]
 - [[Brevier_des_Ordo_Astraeli|Brevier des Ordo Astraeli]]
 - [[Codex_Iuris_Canonici|Codex Iuris Canonici]]
-- [[Das_Pantheon|Das [[index]]]]
+- [[Das_Pantheon|Das Wissen]]
 - [[Der_Blutrote_Stier|Der Blutrote Stier]]
 - [[Der_Traum_der_Tausend|Der Traum der Tausend]]
 - [[Der_letzte_Falke|Der letzte Falke]]

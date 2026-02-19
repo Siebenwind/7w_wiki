@@ -16,19 +16,19 @@ Dieses Werk bietet eine subjektive, aber detaillierte Beschreibung der auf [[Sie
 
 ### 1. [[Menschen]] & [[Nortraven]]
 *   **[[Menschen]]:** Die dominierende Rasse, vielseitig und anpassungsfähig. Sie leben in den großen Städten ([[Rohehafen]], [[Tiefenbach]], [[Finsterwangen]], [[Brandenstein]]). Moss betont ihre diplomatische Begabung und militärische Stärke durch Vielfalt.
-*   **[[Nortraven]]:** Eine "Unterart" der [[Menschen]], größer und kräftiger. Leben in [[Dunkeltief]]. Bekannt für Schiffsbau ("Nordwind"), Körperbemalungen und eine Abneigung gegen [[index]] (außer Schamanismus). Glauben an [[Thjarek]] (Kraft) und [[Eydis]] (Natur).
+*   **[[Nortraven]]:** Eine "Unterart" der [[Menschen]], größer und kräftiger. Leben in [[Dunkeltief]]. Bekannt für Schiffsbau ("Nordwind"), Körperbemalungen und eine Abneigung gegen Magie (außer Schamanismus). Glauben an [[Thjarek]] (Kraft) und [[Eydis]] (Natur).
 
 ### 2. Die [[Elfen]]
-*   **Auenelfen:** Leben in [[Avindrell]] (Mittlerer Westen). Zierlich, etwas wild ("animalisch"). Alle beherrschen [[index]]. Stark im Fernkampf (Kampftänzer) und Handwerk. Misstrauisch gegenüber Gästen.
+*   **Auenelfen:** Leben in [[Avindrell]] (Mittlerer Westen). Zierlich, etwas wild ("animalisch"). Alle beherrschen Magie. Stark im Fernkampf (Kampftänzer) und Handwerk. Misstrauisch gegenüber Gästen.
 *   **Hochelfen:** Leben im Hochelfenviertel von [[Rohehafen]]. Bekannt für Architektur, Kunst und Wissensdurst. Verehren die Vier Götter (besonders [[Astrael]]) und Tares (als [[Drachen]]). Offener als andere [[Elfen]].
-*   **Waldelfen:** Leben in einem schwebenden Hain in den Baumkronen im Osten. Extrem verschlossen und territorial. [[index]] basiert auf Natur und Traum.
+*   **Waldelfen:** Leben in einem schwebenden Hain in den Baumkronen im Osten. Extrem verschlossen und territorial. Magie basiert auf Natur und Traum.
 
 ### 3. Die [[Zwerge]] (Dwarschim)
 *   **Bergzwerge:** Leben in [[Brockental]] (im Berg). Kleiner, starker Bartwuchs. Meisterschmiede (Fethril) und Bergleute. Verehren Arkadon ([[Ignis]]).
 *   **Talzwerge:** Leben in [[Brockental]] (im Tal/Vorstadt). Etwas größer, weniger Bart. Ackerbauern, Händler und Diplomaten. Verehren Erdwächter ([[Rien]]).
 
 ### 4. Andere Völker
-*   **[[Orken]]:** Leben im Orkfort (NW von [[Rohehafen]]). Beschrieben als primitiv, kriegerisch und "dumm". Kastensystem (Krieger führen, Schamanen beraten). Götter: Be'rglum (Kampf) und Ci'rgbus ([[index]]/Tod).
+*   **[[Orken]]:** Leben im Orkfort (NW von [[Rohehafen]]). Beschrieben als primitiv, kriegerisch und "dumm". Kastensystem (Krieger führen, Schamanen beraten). Götter: Be'rglum (Kampf) und Ci'rgbus (Magie/Tod).
 *   **[[Halblinge]]:** Leben in [[Buckelhausen]] (Höhlen in Hügeln). Klein, pelzige Füße, lieben das leichte Leben. Keine magische Begabung. Meisterdiebe und Köche. Extrem gastfreundlich untereinander, scheu gegenüber Fremden.
 *   **[[Myten]]:** Geheimnisvolles Volk am Feuerberg (Osten). Tragen Knochenrüstungen. Beherrschen Telepathie/Gedankenlesen. Gefürchtete Krieger ("Seelenjäger").
 

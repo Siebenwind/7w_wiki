@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 190
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 190
@@ -27,7 +27,7 @@ Nach drei Jahren der Ungewissheit wurde bestätigt: Seine Majestät **[[Hilgorad
 - **Festland:** Fürst [[Raziel]] ist nach [[Vandrien]] zurückgekehrt. König [[Theobald_I]] von Cortan finanziert den [[Turm_des_Nordwinds]].
 
 ### Sonstiges
-- **[[index]]:** Eine "[[index]] des zweiten Zeitalters" über die Dämonenbedrohung wird erstellt ([[Erynnion_Comari]]).
+- **Wissen:** Eine "Wissen des zweiten Zeitalters" über die Dämonenbedrohung wird erstellt ([[Erynnion_Comari]]).
 - **Bote:** Bezieht Quartier in Haus 13, [[Brandenstein]].
 
 ---

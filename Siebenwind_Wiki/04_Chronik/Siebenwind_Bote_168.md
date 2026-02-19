@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 168
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: f1e2d3c4-b5a6-4c7d-8e9f-a0b1c2d3e4f5
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 168.md
@@ -21,9 +21,9 @@ letzter_check: 2026-02-13T15:45:00+01:00
 
 ## Lokales
 *   **Grünland:** Ein Wachzug des [[Das_XIII_Koenigliche_Regiment|Kronregiments]] schlug eine Orkbande östlich von [[Brandenstein]] in die Flucht.
-*   **Propaganda:** Die [[index]] "Das Mädchen mit der Laute" wird verbreitet, um Kindern und Bürgern die Notwendigkeit der Ritterschaft und des Schutzes durch die Krone näherzubringen.
+*   **Propaganda:** Die Wissen "Das Mädchen mit der Laute" wird verbreitet, um Kindern und Bürgern die Notwendigkeit der Ritterschaft und des Schutzes durch die Krone näherzubringen.
 
-## [[index]]
+## Wirken
 *   **[[Lucius_Gropp|Lucius Freiherr Gropp]]**: Federführend bei der Mobilmachung.
 *   **[[Marnie_Ruatha]]**: Initiatorin der [[Buergerwehr]].
 *   **[[Beladriel_Blaettertanz]]**: Verhängte das Kriegsrecht.

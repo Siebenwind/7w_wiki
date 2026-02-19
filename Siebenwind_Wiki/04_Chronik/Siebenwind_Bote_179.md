@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 179
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 179
@@ -23,9 +23,9 @@ Unter der Führung von Vater [[Custodias]] gelang es einer Gruppe (darunter [[Re
 
 ### Bedrohung durch die [[Sammler]]
 Ein **Waffenrat** in [[Brandenstein]] (Leitung: [[Erin_Caiomme]]) beriet über die Bedrohung durch das [[Sammlervolk]].
-- **Entdeckung:** Unteroffizier [[Enoha_Adorne]] entdeckte mittels [[index]] eine riesige, schlafende Armee von über 1000 künstlichen Kriegern in tiefen Höhlenkavernen, die durch einen Telelokationszauber aus dem [[Ödland]] erreichbar sind.
+- **Entdeckung:** Unteroffizier [[Enoha_Adorne]] entdeckte mittels Wissen eine riesige, schlafende Armee von über 1000 künstlichen Kriegern in tiefen Höhlenkavernen, die durch einen Telelokationszauber aus dem [[Ödland]] erreichbar sind.
 
-### [[index]] & Kultur
+### Wirken & Kultur
 - **Lachsfest in [[Vänskap]]:** Die [[Nortraven]] feierten ein ausgelassenes Fest mit Wettkämpfen. [[Alavia_Rabenschrey]] wurde zur Lachskönigin gekrönt.
 - **Neuer Marschall:** [[Erhard_Merthes]] ist als neuer Marschall in [[Brandenstein]] eingetroffen.
 - **Handwerkshaus [[Falkensee]]:** Unter der neuen Leitung von [[Awa_Aldorn]] wird das Handwerkshaus wiederbelebt.

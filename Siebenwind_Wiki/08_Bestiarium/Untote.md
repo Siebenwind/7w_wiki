@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Untote
-category: [[index]]
+category: Allgemein
 ---
 
 # Untote

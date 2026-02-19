@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Calveas Catae"
-category: [[index]]
+category: Personen
 ---
 
 # Calveas Catae

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Großer Rat
-category: [[index]]
+category: Gesellschaft
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_155]].md
 ---
@@ -21,7 +21,7 @@ Der Rat besteht aus Vertretern der Siedlungen, Völker und wichtigen Institution
 *   **Institutionen:** [[Magierakademie]], [[Kirche_der_Viere]], [[Gemeinschaft_der_Elementargläubigen]].
 *   **Ständige Mitglieder:** Baron von [[Gerdenwald]], ein [[Ritter_der_Sieben_Winde]], der [[Lehnsherr]], der [[Inselpatrizier]].
 
-## [[index]]
+## Wirken
 Die erste Sitzung wurde für den 12. Onar 18 n.H. in den großen Burgsaal von [[Finianswacht]] einberufen.
 
 ---

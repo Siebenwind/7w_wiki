@@ -4,7 +4,7 @@ title: index Register
 category: Index
 ---
 
-# [[index]] Register
+# Wissen Register
 
 **Epistemischer Status:** #canon
 

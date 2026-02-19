@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 159
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a921
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 159.md
@@ -21,7 +21,7 @@ letzter_check: 2026-02-13T05:00:00+01:00
 *   **[[Lichthoch]]:** Die Hochtage des Lichts werden mit Messen, Prozessionen und einem Feuerwerk am [[Falkenwall]] gefeiert.
 *   **Ratswahl:** Das Menschenvolk sucht einen Vertreter für den [[Grosser_Rat|Großen Rat]]. Kandidaten sind **[[Akora_Dur]]** (Tochter von [[Toran_Dur]]) und der Barde **[[Fabius]]**.
 
-## [[index]]
+## Wirken
 *   **[[Brynn]]**: Neue Königin von Galadon.
 *   **[[Hilgorad_I_ap_Mer]]**: König (Hochzeit).
 *   **[[Akora_Dur]]**: Kandidatin für den Großen Rat.

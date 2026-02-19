@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 185
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 185
@@ -25,7 +25,7 @@ category: [[index]]
 - **Kirche:** [[Custodias]] ist wieder **Calator**. [[Feydis]] wurde zum [[Vitama]]-Priester geweiht.
 - **Wirtschaft:** [[Alricio_Romero_di_Madjani]] eröffnete das Teehaus "Vitamas Rosengarten" (ehem. "Ersonter Kessel").
 
-### [[index]]
+### Wirken
 - **Hochzeit:** Prinz [[Astreyonas]] von [[Sae]] heiratete [[Katharina_von_Tiefenwald]] in Lafay's Stab.
 - **Rosenbund:** [[Lucius_Gropp]] und [[Khyra_Hohentann]] haben geheiratet.
 

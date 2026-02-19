@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Die_Sprache_Run
-category: [[index]]
+category: Allgemein
 status: Canon
-quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Toran_Dur]] - [[Die_Sprache_Run]].md"
+quelle: "../../Quellen/Bibliothek Toran Dur/[[Toran_Dur]] - [[Die_Sprache_Run]].md"
 lore_trust: 9
 confidence: Certain
 author: "[[Anonymus]]"
@@ -25,7 +25,7 @@ Die Konjugation erfolgt durch Suffixe:
 *   `~et`: Konjunktiv (Möglichkeitsform)
 *   `~ek`: Negierung (Verneinung)
 
-### Substantivierung ([[index]]/Objekte)
+### Substantivierung (Wissen/Objekte)
 *   `~ai`: Das Subjekt (Der Täter / "Der, der etwas tut")
 *   `~as`: Das Objekt (Das Opfer / "Der, an dem etwas getan wird")
 *   `~im`: Plural von *~ai*

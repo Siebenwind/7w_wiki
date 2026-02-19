@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Riesenspinnen
-category: [[index]]
+category: Allgemein
 ---
 
 # Riesenspinnen

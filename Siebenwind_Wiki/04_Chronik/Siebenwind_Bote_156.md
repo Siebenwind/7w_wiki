@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 156
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a918
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 156.md
@@ -18,10 +18,10 @@ letzter_check: 2026-02-13T03:45:00+01:00
 *   **[[Fedral_Lavid]]:** Ein Rückblick auf das Wirken von **[[Fedral_Lavid]]**, dem "Gründervater" und ehemaligen Lehensherrn von [[Falkensee]], der die Stadt aus dem Sumpf erschuf.
 
 ## Lokales
-*   **Milizen:** Den einzelnen Siedlungen wird das [[index]] zugesprochen, eigene Wachten und Milizen zum Schutz vor Unordnung auszuheben.
+*   **Milizen:** Den einzelnen Siedlungen wird das Wissen zugesprochen, eigene Wachten und Milizen zum Schutz vor Unordnung auszuheben.
 *   **Schänder-Brief:** Der Rat lehnt einstimmig eine Kriegsdrohung der Schänder ab.
 
-## [[index]]
+## Wirken
 *   **[[Frank_Biederstein]]**: Secretarius der Inselpatrizierin.
 *   **[[Fedral_Lavid]]**: Ehemaliger Lehensherr von [[Falkensee]].
 *   **[[Solos_Nhergas]]**: Inselpatrizierin (Inhaberin des Signums).

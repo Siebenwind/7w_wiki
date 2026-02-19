@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Der blinde Maler
-category: [[index]]
+category: Allgemein
 ---
 
 # Der blinde Maler
@@ -21,7 +21,7 @@ category: [[index]]
 - **Garten der Bilder:** Der Stützpunkt des Dämons wird als zeitloser Garten inmitten von Bergen beschrieben, gefüllt mit Statuen und Lichtern.
 
 ## Schwächen
-Er reagiert empfindlich auf die Anwesenheit von Geweihten der [[Viere]], was sich durch das Zusammenziehen von magischen Ranken am Erscheinungsort seiner [[index]] äußert. Ein direkter Sieg über ihn steht noch aus.
+Er reagiert empfindlich auf die Anwesenheit von Geweihten der [[Viere]], was sich durch das Zusammenziehen von magischen Ranken am Erscheinungsort seiner Wissen äußert. Ein direkter Sieg über ihn steht noch aus.
 
 ---
 **Siehe auch:** [[Hutmacher]], [[Laske]], [[Custodias]], [[Siebenwind_Bote_175]]

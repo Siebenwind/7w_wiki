@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Tiefenbach
-category: [[index]]
+category: Geografie
 ---
 
 # Tiefenbach
@@ -13,8 +13,8 @@ category: [[index]]
 ## 📜 Beschreibung
 **Tiefenbach** war einst eine bedeutende Hafenstadt im Osten von [[Siebenwind]], bekannt als Zentrum der Gelehrsamkeit und Sitz des legendären **[[Magierturm_zu_Tiefenbach]]** ("Weißer Dorn"). Die Stadt blühte im Zeitalter vor der großen Dunkelheit, wurde jedoch im Krieg gegen [[10_Angamon|den Einen]] vollständig vernichtet.
 
-## ⚔️ [[index]]
-### Zentrum der [[index]]
+## ⚔️ Wissen
+### Zentrum der Wissen
 Vor ihrer Zerstörung galt Tiefenbach als eine der ältesten Institutionen der Insel. Hier wirkten bedeutende Magier wie **[[Dunvallo_Linari]]**, **[[Toran_Dur]]** und **[[Elurai_Calades]]**. Der Magierturm, der wie ein weißer Dorn östlich der Stadt aufragte, war weithin sichtbar und ein Hort arkanen Wissens.
 
 ### Der Hafen

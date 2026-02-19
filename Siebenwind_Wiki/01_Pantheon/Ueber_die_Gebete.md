@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Über die Gebete"
-category: [[index]]
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Über die Gebete.md"
+quelle: "/Quellen/Bibliothek Astrael/Über die Gebete.md"
 author: "Jeremias"
 ---
 

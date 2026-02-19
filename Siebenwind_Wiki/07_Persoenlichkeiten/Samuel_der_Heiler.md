@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Samuel der Heiler"
-category: [[index]]
+category: Personen
 ---
 
 # Samuel der Heiler

@@ -5,8 +5,8 @@ category: Magie
 ---
 
 layout: wiki_page
-title: "Theorethik der arkanen [[index]]: Illusionistik"
-category: [[index]]
+title: "Theorethik der arkanen Magie: Illusionistik"
+category: Magie
 status: integrated
 uuid: I1234567-B2C3-4D5E-8F9A-0A1B2C3D4E5F
 report_id: f6e5d4c3-b2a1-0d9c-8b7a-6f5e4d3c2b1a

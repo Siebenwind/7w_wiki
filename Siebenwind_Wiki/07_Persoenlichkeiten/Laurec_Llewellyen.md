@@ -13,7 +13,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 ## Beschreibung
 **Sire Laurec [[Llewellyen]]** ist ein Ritter des Falken und Mitglied der [[Ritterschaft_zu_Siebenwind]]. Er hält das Lehen [[Greifenwald]] als Vasall des Grafen [[Koorun_McKevin]].
 
-## [[index]] & Wirken
+## Magie & Wirken
 - **15 n.H. (Bote 121):** Zeuge im [[Inquisitionsprozess_gegen_Maar_und_Llewellyen]].
 - **16 n.H. (Bote 140):** Offizielle Nennung als einer der Lehensvasallen und Ritter der heiligen Tafelrunde auf [[Siebenwind]].
 

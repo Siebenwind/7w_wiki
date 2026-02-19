@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Burg Schwingenwacht
-category: [[index]]
+category: Geografie
 uuid: 782ECEAF-C1E6-44E0-A833-3A35BB0DD3E9
 letzter_check: 2026-02-13T15:05:00+01:00
 ---
@@ -12,7 +12,7 @@ letzter_check: 2026-02-13T15:05:00+01:00
 
 **Burg Schwingenwacht** ist eine bedeutende Festungsanlage in der Region [[Seeberg]]. Sie dient als strategischer Stützpunkt und administratives Zentrum.
 
-## [[index]] & Ereignisse
+## Wirken & Ereignisse
 
 Die Burg war im Laufe der Jahre Schauplatz zahlreicher politischer und mystischer Ereignisse:
 

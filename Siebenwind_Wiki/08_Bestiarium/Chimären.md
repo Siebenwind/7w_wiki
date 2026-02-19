@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Chimären
-category: [[index]]
+category: Allgemein
 ---
 
 # Chimären

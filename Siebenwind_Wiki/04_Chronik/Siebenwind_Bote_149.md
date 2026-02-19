@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 149
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a911
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 149.md
@@ -19,11 +19,11 @@ letzter_check: 2026-02-13T02:05:00+01:00
 
 ## Lokales
 *   **Bildung:** Gründung einer Schule in [[Falkensee]] durch [[Foth]] und **[[Leomar_Finkenfarn]]**.
-*   **Kultur:** Ein Schreibwettbewerb für eine neue [[index]] wurde ausgerufen, gesponsert von **[[Navarian_Arandal]]**.
+*   **Kultur:** Ein Schreibwettbewerb für eine neue Wissen wurde ausgerufen, gesponsert von **[[Navarian_Arandal]]**.
 *   **Laienorden:** [[Leomar_Finkenfarn]] wirbt für den Laienorden der Viere (gegründet 14 n.H. von [[Whyrrdin]]).
 *   **Soziales:** Der "[[Orden_der_Traenen_Vitamas]]", gegründet von **[[Benion_Sandelholz]]**, hielt eine Armenspeisung ab.
 
-## [[index]]
+## Wirken
 *   **[[Leomar_Finkenfarn]]**: Heiler, Reporter und Mitglied des Laienordens.
 *   **[[Erudin_Gropp]]**: Fähiger Schmied, der das Reichsschwert neu schmiedete.
 *   **[[Benion_Sandelholz]]**: Geweihter und Gründer des Ordens der Tränen Vitamas.

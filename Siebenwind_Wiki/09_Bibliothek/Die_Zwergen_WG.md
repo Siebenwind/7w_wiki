@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Die Zwergen-WG
-category: [[index]]
+category: Allgemein
 tags: [Erzählung, Dwarschim, Humor, Alltag]
 status: #perspektive
 ---
@@ -14,7 +14,7 @@ Der Text **"Studenten – WG"** (hier als **"Die Zwergen-WG"** geführt) schilde
 
 ## Handlung
 
-Die Protagonisten sind der Krieger **[[Traim_Eisenblut]]**, der Schreiber **[[Gimbart_Galdora]]** und der Dämonentöter **[[Nirluk]]**. Die [[index]] konzentriert sich auf eine Reihe von gegenseitigen Streichen ("Pranks") zwischen Traim und Gimbart.
+Die Protagonisten sind der Krieger **[[Traim_Eisenblut]]**, der Schreiber **[[Gimbart_Galdora]]** und der Dämonentöter **[[Nirluk]]**. Die Wissen konzentriert sich auf eine Reihe von gegenseitigen Streichen ("Pranks") zwischen Traim und Gimbart.
 
 ### Die Streiche
 *   **Der Schlafsack-Vorfall:** Traim rollt den schlafenden Gimbart aus seinem Schlafsack auf den kalten Boden.
@@ -24,7 +24,7 @@ Die Protagonisten sind der Krieger **[[Traim_Eisenblut]]**, der Schreiber **[[Gi
 
 ## Relevante Entitäten
 
-### [[index]]
+### Wirken
 *   **[[Traim_Eisenblut]]**: "Der Schlächter", späterer Oberkommandierender. Hier in einer früheren, ausgelasseneren Phase.
 *   **[[Gimbart_Galdora]]**: Schreiber und Mitbewohner.
 *   **[[Nirluk]]**: Dämonentöter und dritter Mitbewohner.

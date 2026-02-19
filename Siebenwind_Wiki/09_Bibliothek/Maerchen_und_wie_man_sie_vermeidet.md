@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Märchen und wie man sie vermeidet
-category: [[index]]
+category: Allgemein
 ---
 
 # Märchen und wie man sie vermeidet

@@ -21,7 +21,7 @@ Er beschreibt das Siechtum der Stadtbevölkerung und erwähnt eine "heilige Kura
 
 ## Relevante Entitäten
 
-### [[index]]
+### Wirken
 *   **[[Dorion_Hali]]**: Der Erzähler.
 *   **[[Akora]]**: Magierin, Vermieterin ("Akoras Turm").
 *   **[[Toran_Dur]]**: Erzmagier, hier als "alter" Mann beschrieben, der Tee trinkt.

@@ -9,7 +9,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Baronie
+**Kategorie:** Wissen / Baronie
 **Lage:** Insel Hügelau (Linfahrt-Bodden)
 **Herrscher:** Baron [[Friedward_von_Gerdenwald]]
 

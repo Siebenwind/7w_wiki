@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Inquisitionsprozess gegen Maar und Llewellyen
-category: [[index]]
+category: Geschichte
 ---
 
 # Inquisitionsprozess gegen Maar und [[Llewellyen]]

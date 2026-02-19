@@ -24,7 +24,7 @@ Das Regiment besteht aus verschiedenen Einheiten, darunter Infanterie, Bogensch�
 - **Leutnant [[Waldemar_Delarie]]** (Langjähriger Offizier)
 - **Waibel [[Harlas]]** (Ehrenband / Dunkeltiefband)
 
-## [[index]] & Ereignisse
+## Wirken & Ereignisse
 *   **Formaler Eid (20 n.H.):** Am 8. Duler 20 n.H. leistete das [[XIII_Kronregiment]] in der [[Burg_Finianswacht]] seinen formellen Eid auf die Götter, die Krone, das Galadonische Großreich und die [[Ritterschaft_der_Sieben_Winde]]. Den Eid nahm Ritter [[Yves_Rondragon]] im Namen der Ritterschaft und unter Aufsicht von Hochwürden [[Provenus_Herand|Herand]] ab ([[Siebenwind_Bote_173]]).
 *   **[[Dunkeltief]] (20 n.H.):** Für ihren Einsatz während des Dunkeltiefs wurden Hauptmann [[Tionne]], Leutnant [[Urs]], Waibel [[Harlas]] und der Gefreite [[Xandros]] mit dem Dunkeltiefband ausgezeichnet.
 

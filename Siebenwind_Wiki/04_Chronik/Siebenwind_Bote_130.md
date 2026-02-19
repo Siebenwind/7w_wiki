@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 130
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 130
@@ -17,8 +17,8 @@ category: [[index]]
 - **Hochmeisterwechsel:** [[Agranor_von_Eahlstan]] (Hochmeister des Greifen) legt sein Amt nieder und verlässt die Insel. [[Athos]] wird neuer Hochmeister der Greifen.
 - **Ordungswechsel:** [[Siegfried_von_Steiner]] wechselt vom Falkenorden in den Greifenorden. Hochmeister der Falken bleibt vakant.
 
-### [[index]] & Gesetz
-- **Neues [[index]]:** Neue Gesetze (§1-§10) für Freie und Bürger verkündet. Richter: [[Lario_Anderus]]. Das alte "Iuribus de [[Siebenwind]]" gilt nur noch für den Adel.
+### Wirken & Gesetz
+- **Neues Wissen:** Neue Gesetze (§1-§10) für Freie und Bürger verkündet. Richter: [[Lario_Anderus]]. Das alte "Iuribus de [[Siebenwind]]" gilt nur noch für den Adel.
 - **Beamtenbriefe:** Alle bestehenden Beamtenbriefe nach dem 30. Oner ungültig; Neuerteilung nur durch Ritterschaft oder Lehensgericht.
 
 ### Militär
@@ -34,7 +34,7 @@ category: [[index]]
 - **Sarthas Glaser:** Je 5.000 Dukaten Kopfgeld von den Häusern Steiner und Weidenbach auf [[Sarthas_Glaser]] (Schmähungen gegen Ritter).
 
 ### Kultur & Bildung
-- **[[index]]:** Bibliothekar [[Aldaro]] plant Bibliotheksgründung auf [[Siebenwind]].
+- **Wissen:** Bibliothekar [[Aldaro]] plant Bibliotheksgründung auf [[Siebenwind]].
 - **Schelme:** Hochwürden [[Benion_Sandelholz]] (Geweihter) verteidigt die Schelme als treue Diener Vitamas.
 
 ---

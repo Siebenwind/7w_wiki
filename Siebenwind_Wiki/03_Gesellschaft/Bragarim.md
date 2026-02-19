@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Bragarim
-category: [[index]]
+category: Gesellschaft
 uuid: 1F5D6854-0FD2-4C11-AF15-CF7D5F6E8C4B
 quelle: ../../Quellen/Hintergrund/Talzwerge | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
 letzter_check: 2026-02-13T14:47:00+01:00

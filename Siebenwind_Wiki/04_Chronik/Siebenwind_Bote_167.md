@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 167
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: d89c1234-5678-4321-abcd-ef9876543210
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 167.md
@@ -24,7 +24,7 @@ letzter_check: 2026-02-13T15:35:00+01:00
 *   **[[Falkensee]]:** Eine große Auktion unter Leitung von Statthalterin [[Solice_Aurora]] fand statt.
 *   **Gerüchte:** Es wird über eine Schwangerschaft von Königin **[[Brynn]]** spekuliert. Graf **[[Hagen_Robaar]]** soll sich verliebt haben.
 
-## [[index]]
+## Wirken
 *   **[[Marnie_Ruatha]]**: Hafenvogtess und Kandidatin.
 *   **[[Roald_Spitzbart]]**: Bürgerlicher Kandidat für das Vogtampt.
 *   **[[Lyrius_Telrunya]]**: Kandidat mit fragwürdiger Vergangenheit im Lehensbanner.

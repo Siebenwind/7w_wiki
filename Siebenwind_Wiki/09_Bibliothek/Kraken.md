@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Kraken
-category: [[index]]
+category: Allgemein
 tags: [Erzählung, Mythologie, Vandrien, [[Astrael]], Krieg]
 status: #perspektive
 ---
@@ -26,14 +26,14 @@ In einer Traumsequenz begegnet der Erzähler (ehem. Söldner) dem Kraken in der 
 ### 3. Tintenflecken (Philosophie)
 Ein Essay, der Bibliotheken (speziell die der [[Ecclesia]]) nicht nur als Schreine des Wissens, sondern als **Opferaltäre des Kraken** interpretiert.
 *   **Tinte als Blut:** Tinte wird metaphorisch als das "Blut der Kinder des Kraken" bezeichnet.
-*   **[[index]] und Opfer:** Durch das Schreiben bannen Mensche ihre Geheimnisse mit diesem "Blut" auf Papier, was der Kraken in der Tiefe weiß.
+*   **Wissen und Opfer:** Durch das Schreiben bannen Mensche ihre Geheimnisse mit diesem "Blut" auf Papier, was der Kraken in der Tiefe weiß.
 
 ### 4. Fieberträume eines Soldaten
 Ein Soldat im Fieberwahn wird von der Vision eines Jungen heimgesucht, dem ein **rostiger Schlüssel aus der Stirn ragt**. Diese verstörende Gestalt dient als Bote einer nihilistischen Erkenntnis: Kriege sind nur Spiele von kindlichen Giganten ("Seelen"), die ohne Moral Städte wie Bauklötze umwerfen. [[Bellum|Bellum]] wird hierbei als abwesender Vater dieser "Kinder" angerufen.
 
 ## Relevante Entitäten
 
-### [[index]]
+### Wirken
 *   **Der Söldner/Erzähler**: Unbekannt. Veteran des Vandrien-Krieges.
 *   **[[Raziel]]**: Fürst von Vandrien, Anführer der Rebellion.
 

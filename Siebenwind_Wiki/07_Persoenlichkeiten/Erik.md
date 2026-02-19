@@ -3,7 +3,7 @@ layout: wiki_page
 title: Bruder Erik
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Heilige Liturgien.md"
+quelle: "/Quellen/Bibliothek Astrael/Heilige Liturgien.md"
 author: "Antigravity"
 ---
 

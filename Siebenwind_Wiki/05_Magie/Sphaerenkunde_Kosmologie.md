@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Sphärenkunde & Kosmologie
-category: [[index]]
+category: Magie
 ---
 
 # Sphärenkunde & Kosmologie

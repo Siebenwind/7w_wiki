@@ -25,4 +25,4 @@ Verfasst von [[Rhadan_der_Graue]].
 4.  **Ari'in Mereij (Menschenähnliche):** Die höchste Stufe. Können komplexe Arbeiten (Schmied, Bote) verrichten, sind aber extrem aufwendig und fehleranfällig.
 
 ## Zitat
-> "[[index]] ist Macht. Macht ist nichts, ohne Einsicht und Mässigung."
+> "Magie ist Macht. Macht ist nichts, ohne Einsicht und Mässigung."

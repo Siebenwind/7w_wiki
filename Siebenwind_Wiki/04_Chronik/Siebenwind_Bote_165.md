@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 165
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a925
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 165.md
@@ -20,11 +20,11 @@ letzter_check: 2026-02-13T15:20:00+01:00
 
 ## Lokales
 *   **Verwaltung:** **[[Jannaia_Lavrial]]** führte am 6. Dular die erste offizielle Volkszählung in [[Falkensee]] durch.
-*   **[[index]]:** Der Wald bei [[Südfall]] zeigt unnatürliches, erschreckendes Wachstum (Verderbnis?).
+*   **Wissen:** Der Wald bei [[Südfall]] zeigt unnatürliches, erschreckendes Wachstum (Verderbnis?).
 *   **Religion:** **[[Bardas_Loredis]]** empfing die Novizenweihe, **[[Vincent_Ebenstein]]** wurde zum Geweihten erhoben.
-*   **[[index]]:** **[[Sire_Dueff]]** (Lehnsherr von [[Südfall]]) schloss den Vitamabund mit der Schneiderin **Leyah**.
+*   **Wissen:** **[[Sire_Dueff]]** (Lehnsherr von [[Südfall]]) schloss den Vitamabund mit der Schneiderin **Leyah**.
 
-## [[index]]
+## Wirken
 *   **[[Beladriel_Blaettertanz]]**: Neue Truchsess der Insel.
 *   **[[Fedral_Lavid]]**: Gefallener Hochmeister der Ritterschaft (†).
 *   **[[Conrad_Bejnkirchner]]**: Sekretarius der Truchsess.

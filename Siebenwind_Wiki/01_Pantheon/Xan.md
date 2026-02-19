@@ -3,7 +3,7 @@ layout: wiki_page
 title: Xan
 type: Religion
 status: Kanon (Level 1)
-tags: [Elementarherr, [[Enhor]], Wasser, Eis, [[index]]]
+tags: [Elementarherr, [[Enhor]], Wasser, Eis, Wissen]
 ---
 
 # Xan
@@ -24,7 +24,7 @@ Xan ist der stillste der [[Enhor]]. Seine Tiefen bergen Geheimnisse, die selbst 
 ## Verehrung
 Fischer, Matrosen, Wäscherinnen und Heiler ehren ihn. Er gilt als Launisch: Ein ruhiges Meer kann schnell zum tosenden Sturm werden (oft im Streit mit *[[Ventus]]*).
 
-## [[index]] (Elementarer Pfad)
+## Wirken (Elementarer Pfad)
 Wassermagier (Hydromanten) können heilen, Wasser atmen, Eiswände erschaffen oder Gegner einfrieren.
 
 ## Beziehungen

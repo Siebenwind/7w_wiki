@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Verhaftung von Marnie_Ruatha
-category: [[index]]
+category: Geschichte
 ---
 
 # Verhaftung von [[Marnie_Ruatha]]

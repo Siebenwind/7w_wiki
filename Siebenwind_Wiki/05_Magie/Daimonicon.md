@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Das Daimonicon
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/Kulin Lateal - Das_Daimonicon.md"
+quelle: "/Quellen/Bibliothek Toran Dur/Kulin Lateal - Das_Daimonicon.md"
 ---
 
 # Das Daimonicon
@@ -36,7 +36,7 @@ Yerrodon ist in neun pervertierte Domänen unterteilt, die den Göttern und Elem
 6. **Kulmar Sanghûlis (Schmerz/Lust):** Auch *Esparell’it Mosali*. Folter und Glücksrausch.
 7. **Moghtor (Tod):** Reich des Siechtums und der Untoten.
 8. **Agoth'ro'Hawenn (Angst):** Ursprung allen Grauens und der Illusionen.
-9. **Mele Môrthere ([[index]]):** Auch *Zensyn Lramori*. Dämonische [[index]] aller Leben.
+9. **Mele Môrthere (Magie):** Auch *Zensyn Lramori*. Dämonische Magie aller Leben.
 
 ---
 **Siehe auch:** [[Magietheorie_Daemonenbeschwoerung]], [[Kulin_Laetall]], [[Angamon]]

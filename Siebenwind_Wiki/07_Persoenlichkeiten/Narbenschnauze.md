@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Narbenschnauze"
-category: [[index]]
+category: Personen
 ---
 
 # Narbenschnauze

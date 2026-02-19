@@ -27,7 +27,7 @@ Das Herzstück der Akte ist die Schaffung des **[[Grosser_Rat|Großen Rates]]**.
 Zusätzlich erhielten der Baron von und zu Gerdenwald, ein [[Ritter_der_Sieben_Winde]] und der Inselpatrizier Sitze im Rat. Der Lehnsherr Siebenwinds ist ebenfalls Teil des Gremiums.
 
 ### Notstandsbefugnisse
-Die Akte räumte dem Großmeister das [[index]] ein, in Zeiten höchster Gefahr für die Insel oder das Königreich die oberste Exekutivgewalt zu übernehmen. Steiner betonte jedoch, dass er diese Macht nur zum Wohle des Landes gebrauchen und sie dem Großen Rat zurückgeben werde, sobald die Gefahr vorüber sei. Mit dem Erlass der Akte wurden alle bisherigen Eide, die die Verwaltung der Insel betrafen, für beendet erklärt.
+Die Akte räumte dem Großmeister das Wissen ein, in Zeiten höchster Gefahr für die Insel oder das Königreich die oberste Exekutivgewalt zu übernehmen. Steiner betonte jedoch, dass er diese Macht nur zum Wohle des Landes gebrauchen und sie dem Großen Rat zurückgeben werde, sobald die Gefahr vorüber sei. Mit dem Erlass der Akte wurden alle bisherigen Eide, die die Verwaltung der Insel betrafen, für beendet erklärt.
 
 ## Historische Bedeutung
 Die Siebenwindakte markiert das Ende einer rein militärischen oder autokratischen Verwaltung durch den Lehnsherrn und leitet eine Ära der parlamentarischen Mitbestimmung ein. Die erste Sitzung des Großen Rates wurde für den 12. Onar 18 n.H. in der Burg [[Finianswacht]] einberufen.

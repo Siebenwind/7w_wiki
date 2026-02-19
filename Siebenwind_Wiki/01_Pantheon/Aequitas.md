@@ -4,7 +4,7 @@ uuid: 5b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e
 title: Aequitas
 category: Religion
 status: Legende
-quelle: ../../Quellen/[[index]] [[Astrael]]/Aequitas.md
+quelle: ../../Quellen/Bibliothek Astrael/Aequitas.md
 lore_trust: 3
 confidence: Certain
 report_id: BATCH-TEST-2026-02-13

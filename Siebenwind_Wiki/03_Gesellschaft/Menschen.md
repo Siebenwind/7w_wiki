@@ -31,7 +31,7 @@ Die menschliche [[Die_Chronik]] ist streng hierarchisch gegliedert (Feudalismus)
 
 ## Religion: [[Kirche_der_Viere]]
 Der Glaube durchdringt das tägliche Leben in Galadon. Die Menschen verehren die **Viereinigkeit** der guten Götter:
-*   **[[Astrael]]:** Gott des Wissens, der [[index]] und der Ordnung.
+*   **[[Astrael]]:** Gott des Wissens, der Wissen und der Ordnung.
 *   **[[Bellum]]:** Gott des Kampfes, der Ehre und des Schutzes.
 *   **[[Vitama]]:** Göttin des Lebens, der Heilung und der Fruchtbarkeit.
 *   **[[Morsan]]:** Gott des Todes, der Ruhe und des Übergangs (wird als notwendiger Teil des Zyklus verehrt, nicht als böse).
@@ -44,7 +44,7 @@ Das Reich Galadon ist in zahlreiche **Lehen** unterteilt, die jeweils eigene kul
 *   **Wallenburg:** Bekannt für Reichtum, Edelsteine und Goldschmiedekunst.
 *   **Tiefenwald:** Waldreiche Region mit enger Bindung zu [[Rasse_Elfen]].
 *   **Ravel:** Wildes Grenzland, Heimat vieler [[Orken]] und harter Grenzer.
-*   **[[Sae]]:** Zentrum der Gelehrsamkeit und [[index]] ("Lafay's Stab").
+*   **[[Sae]]:** Zentrum der Gelehrsamkeit und Wissen ("Lafay's Stab").
 
 ## Beziehungen zu anderen Völkern
 *   **[[Rasse_Zwerge]]:** Enge Handelsbeziehungen und gegenseitiger Respekt, besonders im Handwerk und Bergbau.

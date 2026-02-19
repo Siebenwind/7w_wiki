@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Tod von Tandrion_Intoma
-category: [[index]]
+category: Geschichte
 ---
 
 # Tod von [[Tandrion_Intoma]]

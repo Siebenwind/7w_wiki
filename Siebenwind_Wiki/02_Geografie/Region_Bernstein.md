@@ -9,7 +9,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Herzogtum
+**Kategorie:** Wissen / Herzogtum
 **Hauptstadt:** [[Draconis]] (750.000 Einwohner)
 **Herrscher:** Herzog (und König) Hilgorad ap Mer
 

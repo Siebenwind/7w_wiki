@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solfeister_Kin
-category: [[index]]
+category: Personen
 ---
 
 # [[Solfeister_Kin]]

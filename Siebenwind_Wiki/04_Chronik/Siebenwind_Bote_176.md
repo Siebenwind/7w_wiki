@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 176
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 176
@@ -29,7 +29,7 @@ In [[Falkensee]] fand der erste große Prozess unter der neuen Lehensherrschaft 
 ### Kirchliche Reue
 Eminenz [[Benion_Sandelholz]] und Gnaden [[Custodias]] baten im Tempel zu [[Falkensee]] öffentlich um Vergebung für kircheninterne Streitigkeiten und versäumte Messen. Als Zeichen der Demut wuschen sie den Gläubigen die Füße.
 
-### Personalien & [[index]]
+### Personalien & Wissen
 - **Weihen:** [[Samira_Sandelholz]], [[Tarnuk]] und [[Edora]] wurden zu Geweihten der [[Vitama]] erhoben.
 - **Taverne:** Der „Ersonter Kessel“ wurde im ehemaligen Elementarkloster in [[Falkensee]] eröffnet.
 - **Attentat:** Ein Fest in [[Seeberg]] zu Ehren des Feiertags „Lob der Schwestern“ wurde durch Sprengtränke einer unbekannten Gruppe (mutmaßlich um „Lorum“ und „Wolf“) gestört.

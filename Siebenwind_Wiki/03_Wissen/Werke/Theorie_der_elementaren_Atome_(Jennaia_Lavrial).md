@@ -31,7 +31,7 @@ Atome können zwei Bindungsarten eingehen: *Anungai hamnai* (lose Mischung) und 
 
 ## Das Element Wrathe (Äther/[[Geist]])
 In Lavrials Theorie ist Wrathe kein Element aus Atomen, sondern das **Medium** (eine Art Ur-Flüssigkeit), in dem alle anderen Atome schwimmen.
-*   **[[index]]:** Magier besitzen ein Organ/Fähigkeit, um Wrathe zu bewegen. Wer Wrathe bewegt, bewegt auch die darin schwimmenden Atome (Telekinese, Feuerball).
+*   **Magie:** Magier besitzen ein Organ/Fähigkeit, um Wrathe zu bewegen. Wer Wrathe bewegt, bewegt auch die darin schwimmenden Atome (Telekinese, Feuerball).
 
 ## Schlussfolgerung
 Die Atomtheorie bietet physikalische Erklärungen für magische Phänomene (z.B. warum Feuer Holz verbrennt: Feueratome verdrängen Wasseratome, Struktur bricht auf). Sie ist ein alternatives Modell zur Matrix-Theorie.

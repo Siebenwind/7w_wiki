@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Eigenschaften der Elemente"
-category: [[index]]
+category: Magie
 status: Canon
-quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Amanda_Dunkelbaum]] - Eigenschaften der Elemente.md"
+quelle: "../../Quellen/Bibliothek Toran Dur/[[Amanda_Dunkelbaum]] - Eigenschaften der Elemente.md"
 lore_trust: 8
 confidence: Certain
 author: "[[Amanda_Dunkelbaum]]"
@@ -13,7 +13,7 @@ author: "[[Amanda_Dunkelbaum]]"
 
 **Epistemischer Status:** #überlieferung
 
-In diesem magietheoretischen Werk beschreibt [[Amanda_Dunkelbaum]] die praktische Anwendung der vier Elemente (plus Eis) in der [[index]].
+In diesem magietheoretischen Werk beschreibt [[Amanda_Dunkelbaum]] die praktische Anwendung der vier Elemente (plus Eis) in der Magie.
 
 ## Inhalt
 Dunkelbaum ordnet jedem Element spezifische Wirkungsweisen und Runen zu:

@@ -1,15 +1,15 @@
 ---
 id: MSG-2026-0022
 uuid: ea8474f0-1a29-4bf1-b1f1-9e67afddc82d
-status: OPEN
+status: DONE
 priority: NORMAL
 from_agent: Technician
 to_agent: ALL
 created_at: 2026-02-17T23:09:21Z
-claimed_by: 
-claimed_at: 
-completed_by: 
-completed_at: 
+claimed_by: Antigravity
+claimed_at: 2026-02-19T18:11:56Z
+completed_by: Antigravity
+completed_at: 2026-02-19T18:11:56Z
 subject: [META] Baustellen-Dossier 2026-02-18 aktualisiert
 ---
 # [META] Baustellen-Dossier 2026-02-18 aktualisiert
@@ -21,3 +21,5 @@ Nicht-bannerbezogene Baustellen sind jetzt priorisiert dokumentiert: docs/Archiv
 ## Verlauf
 
 - OPEN: Nachricht erstellt.
+- CLAIMED (Antigravity): Nachricht uebernommen.
+- DONE (Antigravity): Archived during Phase 1.26 Hygiene - Implementation verified in Docs/Workflows.

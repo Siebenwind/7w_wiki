@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Goblins
-category: [[index]]
+category: Allgemein
 ---
 
 # Goblins

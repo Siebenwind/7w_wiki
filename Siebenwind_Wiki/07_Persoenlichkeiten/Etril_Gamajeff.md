@@ -3,7 +3,7 @@ layout: wiki_page
 title: "Etril Gamajeff"
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Die Stadtchronik Rohehafens.md"
+quelle: "/Quellen/Bibliothek Astrael/Die Stadtchronik Rohehafens.md"
 author: "Antigravity"
 ---
 

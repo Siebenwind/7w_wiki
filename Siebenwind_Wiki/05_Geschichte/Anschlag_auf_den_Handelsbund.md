@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Anschlag auf den Handelsbund und Auflösung
-category: [[index]]
+category: Geschichte
 ---
 
 # Anschlag auf den Handelsbund und Auflösung

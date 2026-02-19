@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Zeitleiste (15-30 n.H.)
-category: [[index]]
+category: Chronik
 author: [[Siebenwind]] Chronicler
 ---
 
@@ -9,7 +9,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #bote
 
-Diese [[index]] deckt die Periode ab, die durch den *[[Siebenwind]] Boten* (Ausgaben 120-193) dokumentiert wurde.
+Diese Wissen deckt die Periode ab, die durch den *[[Siebenwind]] Boten* (Ausgaben 120-193) dokumentiert wurde.
 
 ## Historischer Kontext
 Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft der Ritterschaft zur zivilen Verwaltung durch den Großen Rat ("Siebenwindakte"), sowie diverse Konflikte mit Untoten, [[Daemonen]] ("Hutmacher", "Blinder Maler") und innenpolitischen Spannungen.
@@ -41,7 +41,7 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
     *   [[Falkensee]] wird zur offenen Hauptstadt und ritterlichem Hauslehen erklärt.
     *   Erste Sitzung des Großen Rates am 12. Onar.
     *   Edeldame [[Solos_Nhergas]] wird erste (interims) Inselpatrizierin.
-*   **[[index]]:** Erlass der Waffen- und Rüstungsordnung für [[Falkensee]] (Verbot schwerer Waffen für Zivilisten).
+*   **Wissen:** Erlass der Waffen- und Rüstungsordnung für [[Falkensee]] (Verbot schwerer Waffen für Zivilisten).
 *   **Personalien:** Toran [[Toran_Dur]] wird zum Hochmagus des Grauen Pfades ernannt.
 
 ### 19 nach Hilgorad
@@ -80,12 +80,12 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 *   **Monster/Krieg:** **Spinnenplage** in [[Falkensee]] (Triar). Vernichtung der Mutterspinne in der Kanalisation.
 *   **Konflikt:** Ehrenhaftes Duell zwischen Marschall **[[Erhard_Merthes]]** und Bundesgardist **[[Johan_Gottfried]]**.
 *   **Adel:** Nobilitierung von **[[Waldemar_Delarie]]** zum Edlen (Triar).
-*   **Religion/[[index]]:** **Tod/Verschwinden von [[Brand_Windfluesterer]]** (21. Querler). Auflösung im Kerker nach Blitzschlag während eines Verhörs.
+*   **Religion/Wissen:** **Tod/Verschwinden von [[Brand_Windfluesterer]]** (21. Querler). Auflösung im Kerker nach Blitzschlag während eines Verhörs.
 *   **Politik:** **Aufhebung des Toleranzediktes** in [[Falkensee]] / [[Ersont]]. Verbot von [[Enhor]]-Symbolik und Predigten. Strikte Ausrichtung auf die Sahor.
 *   **Justiz:** Ernennung von [[Custodias]] zum "Hüter des Rechts" durch den Ersonter Rat.
 *   **Justiz:** **Prozess gegen [[Talbin]]** in [[Brandenstein]] (26. Carmer). Verurteilung wegen Wegelagerei und Befehlsverweigerung. Milde durch Verteidigung von [[Nadeeda_al_Nuribad]].
 *   **Organisation:** **50. Konvent des [[Löwenorden]]**. Ernennung von [[Toran_Dur]] zum Meister, [[Benedict_Rabenfels]] zum 2. Meister, [[Tyrus_Helbas]] zum Waffenmeister. Pakt mit [[Dwarschim]] und [[Brandenstein]].
-*   **[[index]]:** Duell zwischen [[Johannes_Tiberias]] und einem Doppelgänger am Falkenwall.
+*   **Wissen:** Duell zwischen [[Johannes_Tiberias]] und einem Doppelgänger am Falkenwall.
 *   **Kultur:** Auftritt des Bardenduos [[Paule_Hickings]] und [[Bastian_Vega]] ("Hicks & Basti").
 *   **Politik/Militär:** **Militärputsch in [[Falkensee]]** (30. Carmar). Die [[Graue_Garde]] unter [[Waldemar_Delarie]] und [[Steinhauer]] erklärt den Rat für abgesetzt. Belagerung des Schlossviertels.
 *   **Militär:** Aufstellung einer **[[Buergerwehr]]** unter Waibel [[Gorem_Motlow]] zur Sicherung der Stadt. Intervention durch [[Region_Malthust]] und [[Löwenorden]] zur Wahrung der Ordnung.
@@ -94,7 +94,7 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 *   **Justiz:** Rücktritt von [[Waldemar_Delarie]] und Übergabe des Säbels. Beginn der Untersuchungen gegen die Putschisten.
 *   **Migration:** [[Arn_Toron]] verlässt [[Falkensee]] aus Protest gegen die Zustände.
 *   **Politik:** Nachbeben des Putsches; Verhängung des Kriegsrechts und Einzug von Truppen aus [[Region_Malthust]] und dem [[Löwenorden]].
-*   **[[index]]:** Beginn der **Aufräumarbeiten** in [[Falkensee]]. Rückkehr zur Normalität.
+*   **Wissen:** Beginn der **Aufräumarbeiten** in [[Falkensee]]. Rückkehr zur Normalität.
 *   **Religion:** Weihe von Redakteur [[Ionas]] zum Geweihten des [[Astrael]]-Tempels in [[Falkensee]].
 *   **Adel:** Ankunft von Fürst [[Serass]] von [[Vandrien]] und Prinz [[Astreyonas]] von [[Sae]]. Gerüchte um diplomatische Missionen.
 *   **Militär:** Bericht über den Tod von Feldherr [[Kassimir_zu_Ossian]] (Ossian).
@@ -127,7 +127,7 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 *   **Khalandra:** Aufstieg des "Turm des Nordwinds" zur Universität durch Finanzierung von König Theobald I. von [[Cortan]].
 *   **[[Rasse_Elfen]]-Konflikt:** Ultimatum der Waldelfen an den [[Ersonter_Bund]] bezüglich Umbauten am Dorf [[Südfall]] ("Wenn die Äpfel fallen").
 
-## [[index]] dieser Zeit
+## Wirken dieser Zeit
 *   **[[Hagen_Robaar]] von Saalhorn:** Lehnsherr und Großmeister der Rd7W.
 *   **Toran [[Toran_Dur]]:** Hochmagus (Grau), Gründer des Löwenordens.
 *   **[[Solos_Nhergas]]:** Erste Inselpatrizierin.

@@ -6,7 +6,7 @@ date: 2024-05-24
 author: [[Bastean_Asanra]] (Original), Archivteam (Zusammenstellung)
 ---
 
-# Theorethik der arkanen [[index]]: Illusionistik
+# Theorethik der arkanen Magie: Illusionistik
 
 Verfasst von [[Bastean_Asanra]].
 
@@ -16,7 +16,7 @@ Asanra postuliert ein Modell, in dem der Verstand aus "Fäden" besteht:
 *   **Fila logicae:** Der logische Verstand (Bewusstsein, Reflexion).
 *   **Fila astralae:** Der "Sekundärverstand", der die magische Begabung ausmacht und an das Unterbewusstsein geknüpft ist.
 
-[[index]] entsteht, wenn der Magier über die *Fila astralae* Befehle an die Umgebung oder andere Wesen sendet.
+Magie entsteht, wenn der Magier über die *Fila astralae* Befehle an die Umgebung oder andere Wesen sendet.
 
 ## Subjektive Illusionistik (Primärillusion)
 

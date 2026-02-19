@@ -21,7 +21,7 @@ Die Erzählung begleitet [[Dorion_Hali]] durch seinen Alltag in **[[Falkensee]]*
 ### Zentrale Themen
 *   **Psychologie der Schuld:** Hali reflektiert über ein traumatisches Ereignis seiner Vergangenheit (den Brand und den Tod von **Hermia**) und seinen inneren Kampf gegen den "Selbsthasser".
 *   **Akorasche Soziologie:** Eine ironische Untersuchung der sozialen Dynamiken rund um [[Akora]] und ihre zahlreichen, oft unglücklichen Verehrer (wie den Schneider **[[Alashar]]**).
-*   **Gesellschaftskritik:** Beobachtungen über das feudale System, den Materialismus der [[Siebenwind]]-[[index]] und die Diskrepanz zwischen kirchlichen Dogmen und gelebtem Glauben.
+*   **Gesellschaftskritik:** Beobachtungen über das feudale System, den Materialismus der [[Siebenwind]]-Wissen und die Diskrepanz zwischen kirchlichen Dogmen und gelebtem Glauben.
 *   **Der Baum des Lebens:** Eine metaphorische Traumsequenz, die die hierarchische Struktur der Welt (vom Bauern bis zum König) illustriert.
 
 ## Lore-Bedeutung

@@ -1,17 +1,17 @@
 ---
 layout: wiki_page
 title: Die arkane index
-category: [[index]]
+category: Magie
 status: integrated
 quelle: "Lit Ita'Im'Elarum Odalim ir Galadon"
 report_id: b3e5d1a2-4f6c-4e8a-9d2b-1c3a4b5d6e7f
 ---
 
-# Die arkane [[index]]
+# Die arkane Magie
 
 **Epistemischer Status:** #überlieferung (Historische Quellen aus [[Galadon]])
 
-Die arkane [[index]] Galadons (auch *Ita'Im'Elarum* genannt, was die "Drei Pfade der [[index]]" bezeichnet) ist eine tief in der [[index]] verwurzelte Organisation, die das magische Leben im Reich ordnet. Sie basiert auf uralten Regeln, deren Ursprung in den Nebeln der Zeit verloren gegangen ist.
+Die arkane Magie Galadons (auch *Ita'Im'Elarum* genannt, was die "Drei Pfade der Magie" bezeichnet) ist eine tief in der Magie verwurzelte Organisation, die das magische Leben im Reich ordnet. Sie basiert auf uralten Regeln, deren Ursprung in den Nebeln der Zeit verloren gegangen ist.
 
 ## Struktur und Gruppen
 
@@ -28,7 +28,7 @@ Der Aufstieg innerhalb der Türme ist streng reglementiert:
 2.  **Adepten**: Haben erste Prüfungen bestanden und übernehmen Ämter oder Botendienste. Sie besitzen eine Stimme in den Versammlungen.
 3.  **Magister**: Repräsentieren den Lehrstand und übernehmen höhere Ämter, oft auch außerhalb der Lehranstalten.
 4.  **Hochmagier**: Meist Leiter kleinerer Türme oder Vorsteher von Versammlungen.
-5.  **Erzmagier**: Die oberste Riege mit gewaltigem [[index]]. Ihr Wort ist unumstößliches Gesetz innerhalb ihres Pfades.
+5.  **Erzmagier**: Die oberste Riege mit gewaltigem Magie. Ihr Wort ist unumstößliches Gesetz innerhalb ihres Pfades.
 
 ## Die Hochtürme (Die alten Türme)
 
@@ -45,7 +45,7 @@ Jeder Pfad besitzt einen zentralen "Hochturm", dessen Gründung weit vor der sch
 
 *   **Monatliche Versammlung**: Beratung über örtliche Vorkommnisse in den einzelnen Türmen.
 *   **Jahresrat**: Abgesandte aller Lehranstalten treffen sich an den Hochtürmen, um die Entscheidungen der Erzmagier zu vernehmen.
-*   **Das Rund**: Findet alle 50 Jahre auf unbekanntem Boden statt. Hier tagen die Abgesandten aller drei Pfade gemeinsam über das Schicksal der [[index]] und des Reiches.
+*   **Das Rund**: Findet alle 50 Jahre auf unbekanntem Boden statt. Hier tagen die Abgesandten aller drei Pfade gemeinsam über das Schicksal der Magie und des Reiches.
 
 ---
 **Quellen:** [[Lit_Ita_Im_Elarum_Odalim_ir_Galadon]]  

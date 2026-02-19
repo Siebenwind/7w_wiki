@@ -3,7 +3,7 @@ layout: wiki_page
 title: "Elgar von Utracht"
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Exercitium.md"
+quelle: "/Quellen/Bibliothek Astrael/Exercitium.md"
 author: "Antigravity"
 ---
 

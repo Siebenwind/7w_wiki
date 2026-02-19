@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Der Erlass des Königs (20 n.H.)
-category: [[index]]
+category: Geschichte
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_174]].md
 ---

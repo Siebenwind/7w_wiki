@@ -26,7 +26,7 @@ Basierend auf den Theorien von **Diana Weidenbach** (Artefaktbau) und **Magister
 ---
 
 ## 1. Der Comarische Blitzkatalysator
-*Kategorie 1: Anti-[[index]]-Waffe*
+*Kategorie 1: Anti-Magie-Waffe*
 
 Ein Konstrukt zur Vernichtung feindlicher Infanterie durch eine Kettenreaktion von Kugelblitzen.
 

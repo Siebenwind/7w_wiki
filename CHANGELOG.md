@@ -1,5 +1,18 @@
 # Changelog
 
+#### [2026-02-19.02] - Dispatch Hygiene & Link-Flood Restoration
+- **P1**
+- **Geändert**:
+  - **Dispatch**: Bulk-Closing von 32 redundanten OPEN-Nachrichten (`MSG-2026-0033` abgeschlossen).
+  - **Link Repair**: Semantische Wiederherstellung von 1034 korrupten `[[index]]`-Links in 517 Dateien (Kategorien, Header, Body).
+  - **Standardisierung**: Unifizierung von `[[Toran_Dur]]`-Links (36 Fixes) und Ergänzung verpflichtender Bridge-Metadaten für 20 Platzhalter (Interop Norm 1b).
+- **Behoben**:
+  - **Permissions**: Eskalation von `Operation not permitted` Fehlern in `Logs/Archive` via Dispatch `MSG-2026-0042`.
+- **Validiert**:
+  - `grep` Verifikation (0 verbleibende korrupte Index-Links).
+  - `test --suite clean-client-state` (PASS).
+  - Manuelle Stichproben in `Anijane_Lavid.md` und `Personenregister.md`.
+
 #### [2026-02-19.01] - UI/UX Polish: Search Fix & Landing Page Unification
 - **P1**
 - **Geändert**:

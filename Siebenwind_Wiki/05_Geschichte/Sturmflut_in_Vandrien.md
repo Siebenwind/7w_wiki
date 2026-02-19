@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Sturmflut in Vandrien
-category: [[index]]
+category: Geschichte
 ---
 
 # Sturmflut in Vandrien

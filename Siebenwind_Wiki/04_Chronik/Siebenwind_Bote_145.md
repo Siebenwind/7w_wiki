@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 145
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 145
@@ -24,7 +24,7 @@ category: [[index]]
 
 ## Waldelfen verhalten sich seltsam
 **Location:** [[Falkensee]].
-**Inhalt:** Waldelfen lassen mithilfe von [[index]] Bäume wachsen, was als Warnung an die Bewohner von [[Falkensee]] gedeutet wird.
+**Inhalt:** Waldelfen lassen mithilfe von Wissen Bäume wachsen, was als Warnung an die Bewohner von [[Falkensee]] gedeutet wird.
 **Autor:** *A. D.*
 
 ## Theater im galadonischen Reich

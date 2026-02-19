@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Weteka
-category: [[index]]
+category: Geografie
 tags: [Ort, Vandrien, Stadt]
 status: #stub
 ---

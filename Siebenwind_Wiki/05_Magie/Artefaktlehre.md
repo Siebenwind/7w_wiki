@@ -1,8 +1,8 @@
 ---
 layout: wiki_page
 title: Artefaktlehre
-category: [[index]]
-tags: [[[index]], Artefakte, Theorie]
+category: Magie
+tags: [Magie, Artefakte, Theorie]
 quelle: [[[Dunvallo_Linari]] - Artefakte]
 status: #überlieferung
 report_id: b6a7d2e4-9f81-4a3b-8c7a-9f8e4d2e7b1a
@@ -10,7 +10,7 @@ report_id: b6a7d2e4-9f81-4a3b-8c7a-9f8e4d2e7b1a
 
 # Artefaktlehre
 
-Das [[index]] über die Schaffung magischer Gegenstände, die in ihnen gebundene Zauberwirkungen entfalten können. Die hier dargelegten Theorien basieren maßgeblich auf den Forschungsarbeiten von Erzmagus [[Dunvallo_Linari]], später bearbeitet von [[Santanos_Alexandrius_von_Eichstatt]].
+Das Magie über die Schaffung magischer Gegenstände, die in ihnen gebundene Zauberwirkungen entfalten können. Die hier dargelegten Theorien basieren maßgeblich auf den Forschungsarbeiten von Erzmagus [[Dunvallo_Linari]], später bearbeitet von [[Santanos_Alexandrius_von_Eichstatt]].
 
 ## Technische Terminologie
 

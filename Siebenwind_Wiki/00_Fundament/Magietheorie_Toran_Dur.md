@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Magietheorie (Toran_Dur)
-category: [[index]]
+category: Allgemein
 ---
 
 # Magietheorie ([[Toran_Dur]])
@@ -10,10 +10,10 @@ category: [[index]]
 **Autor:** Hochmagus [[Toran_Dur]]
 **Datum:** 26 n.H.
 
-Dieser Artikel fasst die zentralen Lehren von Hochmagus [[Toran_Dur]] zusammen, wie sie an der königlichen Akademie gelehrt werden. Er definiert [[index]] als die Manipulation des **Astralen Netzes** (auch **Flux** genannt) durch den sterblichen [[Geist]].
+Dieser Artikel fasst die zentralen Lehren von Hochmagus [[Toran_Dur]] zusammen, wie sie an der königlichen Akademie gelehrt werden. Er definiert Wissen als die Manipulation des **Astralen Netzes** (auch **Flux** genannt) durch den sterblichen [[Geist]].
 
 ## Definition und Ursprung
-[[index]] gilt als eine der drei fundamentalen Konstanten der Existenz (neben Raum und Zeit). Während der Volksglaube [[Astrael]] als Schöpfer der [[index]] sieht, lehrt die Akademie, dass [[Astrael]] den Sterblichen lediglich die *Fähigkeit* zur Manipulation der [[index]] verlieh.
+Wissen gilt als eine der drei fundamentalen Konstanten der Existenz (neben Raum und Zeit). Während der Volksglaube [[Astrael]] als Schöpfer der Wissen sieht, lehrt die Akademie, dass [[Astrael]] den Sterblichen lediglich die *Fähigkeit* zur Manipulation der Wissen verlieh.
 
 ## Der Flux
 Der **Flux** ist ein metaphysisches Gebilde, das die gesamte Schöpfung durchdringt. Er wird oft als ein alles umfassender "See" beschrieben, der durch die Nutzung von Magie in Schwingung versetzt wird.
@@ -25,7 +25,7 @@ Innerhalb des Flux existiert das **Thaugitter**, ein Geflecht aus arkanen Fäden
 3. **Übergangsknoten:** Erweiterte Transportknoten, die durch Reisemagie oder *Conjuratio* (Beschwörung) passierbar gemacht werden. Sie ermöglichen den Übertritt zwischen den Sphären.
 
 ## Aufbau des Geistes & Gnosis
-Die Manipulation der [[index]] erfolgt durch das Zusammenspiel von:
+Die Manipulation der Wissen erfolgt durch das Zusammenspiel von:
 - **Bewusstsein:** Rationales Denken und Logik.
 - **Unterbewusstsein:** Sitz der Instinkte und Sinne.
 - **Zensor:** Ein Filter, der bei Magiebegabten durchlässiger ist, um Impulse in das Unterbewusstsein zu leiten.
@@ -37,12 +37,12 @@ Der Zustand der **Gnosis** (Einklang von Körper und [[Geist]]) ist die Vorausse
 - **Erschöpfung:** Übermäßiger Manaverbrauch führt zu geistiger Erschöpfung, die analog zur physischen Ermüdung den weiteren Zugriff auf den Flux blockiert.
 
 ## Die Rolle von Gestik und Run
-Sterbliche Magiewirker benötigen im Gegensatz zu mächtigen Geistwesen oder [[Drachen]] zumeist einen Fokus in der Ersten Sphäre, um [[index]] zu wirken.
+Sterbliche Magiewirker benötigen im Gegensatz zu mächtigen Geistwesen oder [[Drachen]] zumeist einen Fokus in der Ersten Sphäre, um Wissen zu wirken.
 
 ### Der Pfad zur Rechten und Linken
 Historisch leitet sich die Bezeichnung der Magiepfade von der bevorzugt genutzten Hand ab:
-- **Konstruktive [[index]] (Rechte Hand):** Steht für Schaffen, Heilen und Bewahren.
-- **Destruktive [[index]] (Linke Hand):** Steht für Kampf, Zerstörung und Chaos.
+- **Konstruktive Wissen (Rechte Hand):** Steht für Schaffen, Heilen und Bewahren.
+- **Destruktive Wissen (Linke Hand):** Steht für Kampf, Zerstörung und Chaos.
 Dies ist keine verbindliche Regel, dient aber als Indikator für die innere Ausrichtung eines Magiers.
 
 ### Schulenspezifische Gestik
@@ -55,7 +55,7 @@ Dies ist keine verbindliche Regel, dient aber als Indikator für die innere Ausr
 Die Wirksamkeit von Runen-Formeln hängt maßgeblich von der emotionalen Betonung ab. Emotionen wie Zorn (Kampf), Ruhe (Heilung) oder Autorität (Beherrschung) lenken das arkane Gefüge effektiver als rein rationale Rezitationen.
 
 ## Magietheoretische Modelle
-An den Akademien werden komplexe Modelle genutzt, um die [[index]] zu steuern:
+An den Akademien werden komplexe Modelle genutzt, um die Wissen zu steuern:
 
 ### Philosophische Grundlagen (Linari-Ethik)
 Nach Erzmagus [[Dunvallo_Linari]] sind Philosophie, Wissenschaft und Religion (Magie) im Kern eins. Die Ausübung der Magie unterliegt strengen ethischen Grenzen:
@@ -92,17 +92,17 @@ Beschreibt magische Energieströme auf kontinentaler Ebene. Die Konvergenz diese
 ## Arkane Lokalitäten
 Ein System zur Klassifizierung und Untersuchung von Kraftorten nach **[[Kalveron_Dai]]**:
 - **Passiver Energiefluss:** Natürliche Häufung arkaner Energie (z.B. in der Nähe von Erzvorkommen oder unberührter Natur). Er birgt das Potential des "Erweckens".
-- **Aktiver Energiefluss:** Künstlich gebundene [[index]] durch Rituale, Zirkelzauber oder die Bindung von Wächterwesen ([[Elementare]], Geister).
+- **Aktiver Energiefluss:** Künstlich gebundene Wissen durch Rituale, Zirkelzauber oder die Bindung von Wächterwesen ([[Elementare]], Geister).
 - **Analyse:** Erfolgt zweistufig durch **Flux-Sicht** (Bestimmung der Energiemenge) und **Gitter-Sicht** (Bestimmung der Elementzusammensetzung und Analyse von Manipulationsmustern).
 
 ## Arkane Wellenlehre ([[Arcana_Procella]])
-Die Theorie der **[[Arcana_Procella]]** beschreibt [[index]] als Wellenbewegung innerhalb der *Prima Materia*.
+Die Theorie der **[[Arcana_Procella]]** beschreibt Wissen als Wellenbewegung innerhalb der *Prima Materia*.
 - **Aura Primus:** Die aktive Schwingung („Lied“) lebender Wesen.
 - **Aura Secundus:** Passive Resonanz in unbelebten Objekten (z.B. Ritualsteine, Fokus-Gegenstände). Diese können Wellen verstärken oder streuen.
 - **Interferenz:** Das Brechen oder Verstärken massiver Wellen kann die Realität selbst zerreißen (siehe [[Südfall]]-Riss) oder in Gebieten wie dem [[Ödland]] einen permanenten disharmonischen Abdruck in der Aura Secundus hinterlassen.
 
 ## Ritualkunde
-Rituale lagern Komponenten der [[index]] auf Hilfsmittel (**Paraphernalia**) aus:
+Rituale lagern Komponenten der Wissen auf Hilfsmittel (**Paraphernalia**) aus:
 - **Anker:** (z.B. Edelsteine, Salz) zur Festigung von Geweben.
 - **Foki:** (z.B. Lupen, Kerzen) zur Konzentration von Effekten.
 - **Speicher:** (z.B. Arkanium) zum Sammeln astraler Kraft.

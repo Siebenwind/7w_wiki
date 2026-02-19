@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Ferrin
-category: [[index]]
+category: Allgemein
 uuid: B14AB2FD-46E5-4799-AA87-D1660F87E881
 letzter_check: 2026-02-13T14:55:00+01:00
 ---

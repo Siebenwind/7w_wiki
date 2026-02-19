@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Dämonen
-category: [[index]]
+category: Allgemein
 ---
 
 # Dämonen
@@ -30,7 +30,7 @@ Dämonische Präsenzen manifestieren sich oft subtil und verführerisch, bevor s
 - **Der [[Blinde_Maler]]:** Ein Wesen der Schatten, das die Wahrnehmung seiner Opfer verzerrte und die Grenzen zwischen den Sphären schwächte.
 
 ## Mysteriöse Chaoswesen
-Es gibt Berichte über Wesen wie die **Scheeter** oder **Reendompekas**, die nur zur Zerstörung auf [[Tare]] erscheinen. Sie verfügen über seltsame [[index]] und werden oft sogar von Anhängern Angamons gejagt, da sie reine Chaosstifter sind. Ihr Erscheinen kündigt oft das Versagen einer größeren Beschwörung an.
+Es gibt Berichte über Wesen wie die **Scheeter** oder **Reendompekas**, die nur zur Zerstörung auf [[Tare]] erscheinen. Sie verfügen über seltsame Wissen und werden oft sogar von Anhängern Angamons gejagt, da sie reine Chaosstifter sind. Ihr Erscheinen kündigt oft das Versagen einer größeren Beschwörung an.
 
 ---
 **Siehe auch:** [[Bestiarium_Register]], [[Angamon]]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hannibal Thule"
-category: [[index]]
+category: Personen
 ---
 
 # Hannibal Thule

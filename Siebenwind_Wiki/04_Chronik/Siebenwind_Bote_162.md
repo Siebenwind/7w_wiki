@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 162
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a924
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 162.md
@@ -22,7 +22,7 @@ letzter_check: 2026-02-13T15:10:00+01:00
 *   **Wahrzeichen:** Erwähnung der großen Mauer aus weißem Stein ([[Falkenwall]]), die das [[Ödland]] sichert.
 *   **Kultur:** Rezension des populären (und pikanten) Romans "Flamme der Leidenschaft" von G. Anwin. Der Autor ist mutmaßlich **Hanbalt Ballinor**.
 
-## [[index]]
+## Wirken
 *   **Baron von [[Gerdenwald]]**: Königlicher Schatzmeister.
 *   **[[Grix]]**: Magisches Wesen (Kobold).
 *   **[[Mantaris]]**: [[Astrael]]-Geweihter, half bei der Bändigung des [[Grix]].

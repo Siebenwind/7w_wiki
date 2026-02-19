@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Ernennung von Ayk_Areson
-category: [[index]]
+category: Geschichte
 ---
 
 # Ernennung von [[Ayk_Areson]]

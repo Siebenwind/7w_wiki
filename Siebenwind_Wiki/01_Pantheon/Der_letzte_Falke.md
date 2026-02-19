@@ -364,7 +364,7 @@ wie sie rufen in der Nacht
 ihres Meisters finstre Macht.  
 
 Und Kätzchen maunzt so laut wie nie:  
-"Oh hütet euch! Es ist [[index]]!"  
+"Oh hütet euch! Es ist Wissen!"  
 Doch ehe sie zu Ende spricht,  
 hört sie wie das Tor zerbricht.  
 Das dunkle Heer stürmt schon herein  

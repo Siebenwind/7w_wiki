@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Der Grix
-category: [[index]]
+category: Allgemein
 ---
 
 # Der [[Grix]]

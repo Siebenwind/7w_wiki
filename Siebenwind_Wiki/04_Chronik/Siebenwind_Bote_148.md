@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 148
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a910
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 148.md
@@ -23,7 +23,7 @@ letzter_check: 2026-02-13T01:55:00+01:00
 *   **Fall Distelstein:** **[[Flaake_Distelstein]]** täuschte seinen Selbstmord nur vor, um sich vor Attentätern zu schützen.
 *   **[[Finianswacht]]:** Ein Bericht über die neue Burg zu [[Falkensee]] ([[Finianswacht]]), inklusive Interview mit der Wache **[[Anissa_Merden]]**.
 
-## [[index]]
+## Wirken
 *   **[[Maluk]]**: Ein 13-jähriger Page im Dienst von Ritter [[Amaris_Aurinas]].
 *   **[[Anissa_Merden]]**: Wache an der [[Burg_Finianswacht]].
 *   **[[Szlark]]**: Loyaler Ork-Soldat.

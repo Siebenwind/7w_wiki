@@ -9,7 +9,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Fürstentum
+**Kategorie:** Wissen / Fürstentum
 **Hauptstadt:** [[Yota]] (110.000 Einwohner)
 **Herrscher:** Fürst Vanagard von Herder ap Galad
 

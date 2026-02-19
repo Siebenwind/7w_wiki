@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sandholz"
-category: [[index]]
+category: Personen
 ---
 
 # Sandholz

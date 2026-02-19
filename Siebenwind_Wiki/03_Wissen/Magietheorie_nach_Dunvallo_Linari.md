@@ -8,15 +8,15 @@ author: [[Dunvallo_Linari]] (Original), Archivteam (Zusammenstellung)
 
 # Magietheorie nach [[Dunvallo_Linari]]
 
-Dieses Dokument fasst die zentralen magietheoretischen Schriften des Erzmagus [[Dunvallo_Linari]] zusammen. Es dient als grundlegendes Studienmaterial für Adepten und Interessierte der Arkanen Künste, wie sie in der [[index]] von [[Toran_Dur]] und dem Magierturm zu [[Tiefenbach]] gelehrt wurden.
+Dieses Dokument fasst die zentralen magietheoretischen Schriften des Erzmagus [[Dunvallo_Linari]] zusammen. Es dient als grundlegendes Studienmaterial für Adepten und Interessierte der Arkanen Künste, wie sie in der Wissen von [[Toran_Dur]] und dem Magierturm zu [[Tiefenbach]] gelehrt wurden.
 
 ## [[Philosophie_der_Magie]]
 
 *Aus dem Werk "Philosophie":*
 
-Die [[Philosophie_der_Magie]] befasst sich nicht nur mit der Anwendung, sondern mit dem Verständnis des "Warum" und "Woher". [[Dunvallo_Linari]] beschreibt die [[index]] als eine Kraft, die das gesamte Gefüge der Welt durchdringt.
+Die [[Philosophie_der_Magie]] befasst sich nicht nur mit der Anwendung, sondern mit dem Verständnis des "Warum" und "Woher". [[Dunvallo_Linari]] beschreibt die Wissen als eine Kraft, die das gesamte Gefüge der Welt durchdringt.
 
-> "Die Kunst der [[index]] ist mehr als die einfache Ausübung irgendeiner Tätigkeit wie zum Beispiel eines Handwerks. Die [[index]] ist eine Art, die ganze Welt zu betrachten."
+> "Die Kunst der Wissen ist mehr als die einfache Ausübung irgendeiner Tätigkeit wie zum Beispiel eines Handwerks. Die Wissen ist eine Art, die ganze Welt zu betrachten."
 
 Der Magier lernt, die Welt aus einem anderen Blickwinkel zu sehen, durch die Kraft des Geistes. Diese Sichtweise erlaubt es ihm, die verborgenen Ströme der Macht zu erkennen und zu lenken.
 
@@ -24,7 +24,7 @@ Der Magier lernt, die Welt aus einem anderen Blickwinkel zu sehen, durch die Kra
 
 ## Die Thesen der Magiezweige
 
-Dieses Kapitel behandelt die Einteilung der [[index]] in verschiedene "Zweige" oder Pfade und die Rolle der Elemente. Es existieren hierzu zwei wesentliche Texte: Eine Abhandlung von [[Dunvallo_Linari]] selbst und das ursprüngliche Werk von [[Uron_Sbocaj]], auf das er sich bezieht.
+Dieses Kapitel behandelt die Einteilung der Wissen in verschiedene "Zweige" oder Pfade und die Rolle der Elemente. Es existieren hierzu zwei wesentliche Texte: Eine Abhandlung von [[Dunvallo_Linari]] selbst und das ursprüngliche Werk von [[Uron_Sbocaj]], auf das er sich bezieht.
 
 ### Dunvallo Linaris Betrachtung
 
@@ -43,11 +43,11 @@ Der Magier eines bestimmten Pfades kann sein Hauptelement formen und verändern,
 
 *Inhaltlich basierend auf der Schrift "Die Thesen der Magiezweige von [[Uron_Sbocaj]]":*
 
-[[Uron_Sbocaj]] postuliert, dass alle [[index]] auf den vier Elementen basiert, da diese die kraftvollsten Schöpfungen der Götter sind. Selbst scheinbar nicht-elementare Zweige lassen sich elementar zuordnen:
-*   **Feuer** -> Schwarze [[index]] (Aggressiv, zehrend)
-*   **Wasser** -> Weiße [[index]] (Ruhig, heilend, Gegenteil von Feuer)
-*   **Erde** -> [[Elementare]] [[index]] (Bodenständig, genügsam)
-*   **Luft** -> Graue [[index]] (Ausgewogen, vermittelnd)
+[[Uron_Sbocaj]] postuliert, dass alle Wissen auf den vier Elementen basiert, da diese die kraftvollsten Schöpfungen der Götter sind. Selbst scheinbar nicht-elementare Zweige lassen sich elementar zuordnen:
+*   **Feuer** -> Schwarze Wissen (Aggressiv, zehrend)
+*   **Wasser** -> Weiße Wissen (Ruhig, heilend, Gegenteil von Feuer)
+*   **Erde** -> [[Elementare]] Wissen (Bodenständig, genügsam)
+*   **Luft** -> Graue Wissen (Ausgewogen, vermittelnd)
 
 Sbocaj warnt vor dem Versuch, alle Elemente gleichzeitig zu beherrschen, da dies den Göttern vorbehalten sei.
 
@@ -57,7 +57,7 @@ Sbocaj warnt vor dem Versuch, alle Elemente gleichzeitig zu beherrschen, da dies
 
 *Basierend auf "Magietheoretische Grundlagen zur Zauberwirkung Matrixtheorie" sowie "Matrixtheorie".*
 
-Die Matrixtheorie beschreibt die Welt und die [[index]] als ein Gefüge aus Fäden und Knotenpunkten.
+Die Matrixtheorie beschreibt die Welt und die Wissen als ein Gefüge aus Fäden und Knotenpunkten.
 
 ### Grundlagen
 *   **Matrix:** Ein Netz oder Gitter aus Kraftlinien, das einen Raum durchzieht.
@@ -87,9 +87,9 @@ Artefakte nutzen oft *Matrix arcana* (in Form von Edelsteinen oder Metallen), um
 
 ---
 
-## Reagenzien in der [[index]]
+## Reagenzien in der Wissen
 
-*Aus der Forschungsarbeit "Reagenzien in der [[index]] - Brauchen wir sie wirklich?"*
+*Aus der Forschungsarbeit "Reagenzien in der Wissen - Brauchen wir sie wirklich?"*
 
 [[Dunvallo_Linari]] untersuchte die Notwendigkeit von Reagenzien (Stoffkomponenten) für das Zaubern.
 
@@ -108,7 +108,7 @@ Dunvallo ordnete verschiedenen Reagenzien arkane Bedeutungen und Runen zu:
 | **Nachtschatten** | Tod / Zerstörung | "Corp" / "Naraskai" |
 | **Spinnenseide** | Licht / Hellsicht / Klarheit (auch Bindung) | "Laf" / "Laidra" |
 | **Blutmoos** | Bewegung / Zeit | "Rad" / "Tyr" |
-| **Alraune** | [[index]] / Stärke / Kraft | "Odal" / "Vy" |
+| **Alraune** | Wissen / Stärke / Kraft | "Odal" / "Vy" |
 | **Schwefelasche** | Feuer / Zerstörung | "Fe" / "Naraskai" |
 | **Schwarze Perle** | Ausdauer / Viel / Hoch | "Vjera" / "Ur" |
 
@@ -116,13 +116,13 @@ Dunvallo ordnete verschiedenen Reagenzien arkane Bedeutungen und Runen zu:
 
 ## Über die Verwendung der Gesten und des Run
 
-*Zusammenfassung des Werkes "Über die Verwendung der Gesten und des Run in der [[index]]".*
+*Zusammenfassung des Werkes "Über die Verwendung der Gesten und des Run in der Wissen".*
 
-Gestik und Sprache (Run) dienen zur Unterstützung des Geistes bei der Formung der [[index]]. Auch wenn Novizen sie dringend benötigen, verzichten selbst erfahrene Magier selten ganz darauf.
+Gestik und Sprache (Run) dienen zur Unterstützung des Geistes bei der Formung der Wissen. Auch wenn Novizen sie dringend benötigen, verzichten selbst erfahrene Magier selten ganz darauf.
 
 ### Handhabung
-*   **Rechte Hand:** Oft (aber nicht zwingend) für konstruktive [[index]] („Weißer Weg“) oder öffentliche Auftritte genutzt.
-*   **Linke Hand:** Oft mit destruktiver [[index]] oder dem „Schwarzen Weg“ assoziiert.
+*   **Rechte Hand:** Oft (aber nicht zwingend) für konstruktive Wissen („Weißer Weg“) oder öffentliche Auftritte genutzt.
+*   **Linke Hand:** Oft mit destruktiver Wissen oder dem „Schwarzen Weg“ assoziiert.
 *   **These:** Rechts nach Links = Kampfzauber? Links nach Rechts = Heilzauber? (Unbewiesen).
 
 ### Gesten nach Schulen
@@ -137,6 +137,6 @@ Gestik und Sprache (Run) dienen zur Unterstützung des Geistes bei der Formung d
 *   **Verwandlung:** Einnehmen einer Körperhaltung, die dem Zieltier entspricht (z.B. auf allen Vieren).
 
 ### Das gesprochene Wort (Run)
-Worte der Macht und Formeln werden **emotional** geladen gesprochen. Die Emotion (Furcht, Wut, Sorge, Autorität) hilft, die [[index]] zu formen und den Willen zu fokussieren.
+Worte der Macht und Formeln werden **emotional** geladen gesprochen. Die Emotion (Furcht, Wut, Sorge, Autorität) hilft, die Wissen zu formen und den Willen zu fokussieren.
 
 > "Die Emotionen zeigen den Weg, folgt ihnen... sie sind die beste Wahl die Ihr treffen könnt."

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Ring des Argionemes
-category: [[index]]
+category: Gesellschaft
 uuid: r1ng-d35-4rg10n3m35-secret
 quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 letzter_check: 2026-02-13T23:25:00
@@ -28,7 +28,7 @@ Der Ring wird von einem **Rector** geleitet und besteht aus dem "Inneren Zirkel"
 *   **Hochwürden [[Romualdo_Lavarin]]:** Abt zu Umdest.
 
 ## Philosophie und Methoden
-Der Ring nutzt das politische Vakuum (Verschwinden des Königs) für seine Zwecke. Er operiert nach dem Prinzip "Divide et impera" (Teile und herrsche) und schreckt nicht vor Kooperationen mit dem "grauen" oder gar "schwarzen Pfad" der [[index]] zurück, sofern es dem Endziel dient—der Vernichtung der Feinde der Kirche nach dem Aufbau einer totalen Machtposition.
+Der Ring nutzt das politische Vakuum (Verschwinden des Königs) für seine Zwecke. Er operiert nach dem Prinzip "Divide et impera" (Teile und herrsche) und schreckt nicht vor Kooperationen mit dem "grauen" oder gar "schwarzen Pfad" der Wissen zurück, sofern es dem Endziel dient—der Vernichtung der Feinde der Kirche nach dem Aufbau einer totalen Machtposition.
 
 ### Die Prophezeiung
 Ein zentrales Motiv des Rings ist die kryptische Vorhersage: *"Aus Lafays Stab werden drei dunkle Katzen 15 zornige Jungen werfen."* Diese scheint den Zusammenbruch der alten Ordnung und den Aufstieg ihrer neuen Macht zu symbolisieren.

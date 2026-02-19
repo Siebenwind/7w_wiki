@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Akademie der Schwarzen Künste
-category: [[index]]
+category: Archiv
 uuid: ba6d652e-cdc3-4395-b5a6-a2b4161a935f
-quelle: ../../Quellen/[[index]] [[Toran_Dur]]/Kulin Lateal - Das_Daimonicon.md
+quelle: ../../Quellen/Bibliothek Toran Dur/Kulin Lateal - Das_Daimonicon.md
 letzter_check: 2026-02-13T01:02:10+01:00
 ---
 
@@ -13,7 +13,7 @@ letzter_check: 2026-02-13T01:02:10+01:00
 
 Die **Akademie der Schwarzen Künste** (auch: *Akademie zur Linken*) ist eine historisch belegte, heute verbotene Institution, die sich mit der Erforschung der Dämonologie und Nekromantie befasste.
 
-## [[index]]
+## Wirken
 *   **Leitung:** [[Kulin_Lateal]] war einst Erzmagus dieser Akademie.
 *   **Konflikt:** Im Krieg gegen den Dämon Sha beteiligte sich die Akademie paradoxerweise an dessen Bannung, um die totale Vernichtung zu verhindern (siehe [[Angriff_der_Schwarzmagier]]).
 

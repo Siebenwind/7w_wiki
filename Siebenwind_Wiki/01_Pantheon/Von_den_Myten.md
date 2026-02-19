@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: Von den Myten
-category: [[index]]
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Von den [[Myten]].md"
+quelle: "/Quellen/Bibliothek Astrael/Von den [[Myten]].md"
 author: "Donarius Derrvus"
 ---
 
@@ -27,7 +27,7 @@ Dieser Bericht von **Donarius Derrvus** beschreibt das mysteriöse Volk der **[[
 * **Schmiedekunst**: Herausragende Fertigkeiten in der Waffenherstellung und Alchemie.
 
 ## Sozialstruktur
-Die [[index]] ist in Kasten unterteilt:
+Die Wissen ist in Kasten unterteilt:
 1. **Hagatog**: Die Kriegerkaste.
 2. **Geistige Oberschicht**: Inhaber der Staatsführung und Wissensträger.
 3. **Arbeiter**: Die niederste Kaste.

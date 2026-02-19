@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 151
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a913
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 151.md
@@ -24,7 +24,7 @@ letzter_check: 2026-02-13T02:30:00+01:00
 *   **Schule & Jagd:** Werbung für die Schule in [[Falkensee]] und eine geplante Jagdschule von **[[Daron]]**.
 *   **Hochelfen:** Treffen zur Revitalisierung der Kultur und der Miliz [[Thar_Sala]].
 
-## [[index]]
+## Wirken
 *   **[[Hagen_Robaar]]**: Lehnsherr, von Orks entführt.
 *   **[[Caeden_Ecanas]]**: Ritter, entführt und befreit.
 *   **[[Solos_Nhergas]]**: Neue Lehenskanzlerin.

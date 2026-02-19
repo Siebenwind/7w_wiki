@@ -3,7 +3,7 @@ layout: wiki_page
 title: Ventus
 type: Religion
 status: Kanon (Level 1)
-tags: [Elementarherr, [[Enhor]], Luft, Wind, [[index]]]
+tags: [Elementarherr, [[Enhor]], Luft, Wind, Wissen]
 ---
 
 # Ventus
@@ -24,7 +24,7 @@ Ventus ist der Bruder, der niemals ruht. Die [[Rasse_Elfen]] sagen, er sei derje
 ## Verehrung
 Seefahrer und Händler opfern ihm vor jeder Reise. Magier der Luft wenden sich an ihn, um Stürme zu rufen oder lautlos wie der Wind zu werden.
 
-## [[index]] (Elementarer Pfad)
+## Wirken (Elementarer Pfad)
 Der Pfad der Luft bietet Kontrolle über Winde (Segel setzen, Gegner wegwehen), Unsichtbarkeit oder das Schweben.
 
 ## Beziehungen

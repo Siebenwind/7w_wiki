@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Abschied und Verrat
-category: [[index]]
+category: Allgemein
 status: integrated
 tags: [[[Brandenstein]], Robaar von Saalhorn, Ritterorden, Saalhorn, [[Falkensee]], [[Seeberg]], Falandrien]
 uuid: a1234567-a916-48b3-9a30-8de6fbc712da
@@ -17,7 +17,7 @@ Der Text **"Abschied und Verrat"** beinhaltet einen dramatischen Briefwechsel, d
 
 ## Handlung
 
-Der Text beginnt in der [[index]] von [[Saalhornshof]], wo **Graf Robaar von Saalhorn** (vermutlich [[Hagen_Robaar]]) eine Depesche von seinem Kastellan erhält.
+Der Text beginnt in der Wissen von [[Saalhornshof]], wo **Graf Robaar von Saalhorn** (vermutlich [[Hagen_Robaar]]) eine Depesche von seinem Kastellan erhält.
 
 ### Der Brief
 **Kastellan [[Aelfrid_Wildgaden]]** schreibt von **Burg Saalhorn** (am 21. Duler 20 n.H.). Er berichtet, dass Robaars Bruder, **[[Todward_von_Saalhorn]]**, während eines Kriegszuges in [[Khalandra]] verschollen ist. Von 41 Männern kehrten nur zwei zurück (**Frederich** und **Halfdan**). Todward kämpfte tapfer, vermisst wird er seit einer chaotischen Flucht nach einer Niederlage gegen die "Wilden".
@@ -26,7 +26,7 @@ Wildgaden berichtet zudem von schweren Kontributionen durch den **Grafen von [[E
 
 ## Relevante Entitäten
 
-### [[index]]
+### Wirken
 *   **[[Hagen_Robaar|Graf Robaar von Saalhorn]]**: Empfänger des Briefes.
 *   **[[Todward_von_Saalhorn]]**: Bruder des Grafen, verschollen in Khalandra.
 *   **[[Aelfrid_Wildgaden]]**: Treuer Kastellan auf Burg Saalhorn.

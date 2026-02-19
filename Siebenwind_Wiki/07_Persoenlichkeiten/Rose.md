@@ -3,7 +3,7 @@ layout: wiki_page
 title: "Rose"
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Spiegel.md"
+quelle: "/Quellen/Bibliothek Astrael/Spiegel.md"
 author: "Antigravity"
 ---
 

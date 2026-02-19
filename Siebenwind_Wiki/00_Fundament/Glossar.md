@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Glossar
-category: [[index]]
+category: Allgemein
 ---
 
 # Glossar
@@ -55,7 +55,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Bund | [DEFINITION_BENÖTIGT] | #canon |
 | Charakter | [DEFINITION_BENÖTIGT] | #canon |
 | Chronicler | [DEFINITION_BENÖTIGT] | #canon |
-| [[index]] | [DEFINITION_BENÖTIGT] | #canon |
+| Wissen | [DEFINITION_BENÖTIGT] | #canon |
 | [[Custodias]] | [DEFINITION_BENÖTIGT] | #canon |
 | Delarie | [DEFINITION_BENÖTIGT] | #canon |
 | Delaries | [DEFINITION_BENÖTIGT] | #canon |
@@ -111,7 +111,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Fluss | [DEFINITION_BENÖTIGT] | #canon |
 | Fraomar | [DEFINITION_BENÖTIGT] | #canon |
 | Fruchtbarkeit | [DEFINITION_BENÖTIGT] | #canon |
-| [[index]] | [DEFINITION_BENÖTIGT] | #canon |
+| Wissen | [DEFINITION_BENÖTIGT] | #canon |
 | Führer | [DEFINITION_BENÖTIGT] | #canon |
 | Führung | [DEFINITION_BENÖTIGT] | #canon |
 | Fürsten | [DEFINITION_BENÖTIGT] | #canon |
@@ -212,7 +212,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Luft | [DEFINITION_BENÖTIGT] | #canon |
 | Löwenorden | [DEFINITION_BENÖTIGT] | #canon |
 | Macht | [DEFINITION_BENÖTIGT] | #canon |
-| [[index]] | [DEFINITION_BENÖTIGT] | #canon |
+| Wissen | [DEFINITION_BENÖTIGT] | #canon |
 | Magier | [DEFINITION_BENÖTIGT] | #canon |
 | Malthust | [DEFINITION_BENÖTIGT] | #canon |
 | Marnie | [DEFINITION_BENÖTIGT] | #canon |
@@ -246,7 +246,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Quellen | [DEFINITION_BENÖTIGT] | #canon |
 | Rasse | [DEFINITION_BENÖTIGT] | #canon |
 | Ravel | [DEFINITION_BENÖTIGT] | #canon |
-| [[index]] | [DEFINITION_BENÖTIGT] | #canon |
+| Wissen | [DEFINITION_BENÖTIGT] | #canon |
 | Rechts | [DEFINITION_BENÖTIGT] | #canon |
 | Region | [DEFINITION_BENÖTIGT] | #canon |
 | Regionen | [DEFINITION_BENÖTIGT] | #canon |
@@ -332,7 +332,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Winter | [DEFINITION_BENÖTIGT] | #canon |
 | Wirken | [DEFINITION_BENÖTIGT] | #canon |
 | Wirtschaft | [DEFINITION_BENÖTIGT] | #canon |
-| [[index]] | [DEFINITION_BENÖTIGT] | #canon |
+| Wissen | [DEFINITION_BENÖTIGT] | #canon |
 | Wissens | [DEFINITION_BENÖTIGT] | #canon |
 | Wächter | [DEFINITION_BENÖTIGT] | #canon |
 | Während | [DEFINITION_BENÖTIGT] | #canon |

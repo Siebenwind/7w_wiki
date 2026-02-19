@@ -8,7 +8,7 @@ category: Index
 
 **Epistemischer Status:** #canon
 
-Dieses Register dient der Erfassung aller schriftlichen [[index]], Manuskripte, Almanache und Sagenrollen der Welt [[Siebenwind]].
+Dieses Register dient der Erfassung aller schriftlichen Wissen, Manuskripte, Almanache und Sagenrollen der Welt [[Siebenwind]].
 
 ## Bestandsliste
 
@@ -20,7 +20,7 @@ Dieses Register dient der Erfassung aller schriftlichen [[index]], Manuskripte, 
 | [[Ueber_Maerchen_und_Almanache|Über Märchen und Almanache]] | *Rezension* | Literaturkritik | #bote |
 
 ## Scriptorium
-Die [[index]] von [[Draconis]] und die Gelehrtenstuben in [[Falkensee]] sind die primären Orte der Wissensbewahrung.
+Die Wissen von [[Draconis]] und die Gelehrtenstuben in [[Falkensee]] sind die primären Orte der Wissensbewahrung.
 
 ---
 **Siehe auch:** [[Organisationsregister]], [[Gesellschaft]]

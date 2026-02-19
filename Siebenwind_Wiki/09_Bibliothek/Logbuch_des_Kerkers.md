@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Logbuch des Kerkers
-category: [[index]]
+category: Allgemein
 tags: [Erzählung, [[Dunkeltief]], [[Falkensee]], [[Untote]], [[Waldemar_Delarie]]]
 status: #perspektive
 ---
@@ -25,7 +25,7 @@ Zusammen mit anderen Gefangenen, darunter der Gardist **[[Gorem]]**, wird Waldem
 
 ## Relevante Entitäten
 
-### [[index]]
+### Wirken
 *   **[[Waldemar_Delarie]]**: Autor und Protagonist.
 *   **[[Knochenfürst]]**: Anführer der Untoten Besatzungsmacht.
 *   **[[Hektor]]**: Waldemars Stellvertreter, dessen Loyalität in dieser Phase ambivalent erscheint.

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Tardukai
-category: [[index]]
+category: Allgemein
 ---
 
 # Tardukai
@@ -9,9 +9,9 @@ category: [[index]]
 **Epistemischer Status:** #bote / #überlieferung
 
 ## Überblick
-Die **Tardukai** (vandrisch für „Die Treuesten der Treuen“) sind keine gewöhnlichen Kreaturen, sondern eine Bruderschaft von Kriegern und dunklen Reitern, die ihren Ursprung in der [[index]] [[Vandrien]]s haben. Einst als Inbegriff bedingungsloser Loyalität verehrt, sind sie heute als schreckensvolle Diener des geächteten Gottes [[Angamon]] (des „Einen“) bekannt.
+Die **Tardukai** (vandrisch für „Die Treuesten der Treuen“) sind keine gewöhnlichen Kreaturen, sondern eine Bruderschaft von Kriegern und dunklen Reitern, die ihren Ursprung in der Wissen [[Vandrien]]s haben. Einst als Inbegriff bedingungsloser Loyalität verehrt, sind sie heute als schreckensvolle Diener des geächteten Gottes [[Angamon]] (des „Einen“) bekannt.
 
-## [[index]] und Fall
+## Wirken und Fall
 *   **Der Ursprung:** Der Name geht auf dreißig Ritter der Wolfsmark zurück, die ihrem Herrn, Graf Aarion, nach seiner Hinrichtung die Treue hielten und sich weigerten, seinen Leichnam schänden zu lassen. Arnhorte der Weise taufte sie daraufhin die *Tardukai*.
 *   **Die Korruption:** Unter [[Fürst_Raziel]], dem letzten seiner Erbreihe, wandte sich die Führung der Tardukai vom Glauben der Viere ab und dem blasphemischen Kult des [[Angamon]] zu. Ihre legendäre Treue band sie an ihren dunklen Pfad.
 

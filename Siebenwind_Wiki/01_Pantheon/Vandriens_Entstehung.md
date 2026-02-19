@@ -1,9 +1,9 @@
 ---
 layout: wiki_page
 title: "Vandriens Entstehung"
-category: [[index]]
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Vandriens Entstehung.md"
+quelle: "/Quellen/Bibliothek Astrael/Vandriens Entstehung.md"
 author: "Roland Ronde"
 ---
 
@@ -27,7 +27,7 @@ Aarions Sohn, **Shiion**, sollte später der erste Fürst von Vandrien werden un
 ## Der Fall des Fürsten [[Raziel]]
 Ein düsterer Epilog berichtet vom Ende der Erbreihe unter Fürst **[[Raziel]]**, der dem blasphemischen Kult des **[[Angamon]]** verfiel und als letzter seiner Linie gilt.
 
-## [[index]]
+## Wirken
 * [[Aarion]] (Graf der Wolfsmark)
 * [[Geruslav]]
 * [[Arnhorte]]

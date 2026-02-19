@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 163
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a925
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 163.md
@@ -23,7 +23,7 @@ letzter_check: 2026-02-13T15:10:00+01:00
 *   **Gastronomie:** Die Taverne **"Zum Seiltänzer"** im Fremdenviertel von [[Falkensee]] wurde unter neuer Führung wiedereröffnet.
 *   **Justiz:** In Ventria (Festland) wurde eine komplette Wachgarnison wegen rüpelhaften Verhaltens und Dienstversäumnissen entlassen.
 
-## [[index]]
+## Wirken
 *   **[[Ignatius_von_Mendel]]**: Drahtzieher der Königsentführung.
 *   **[[Toran_Dur]]**: Leiter der Rettungsexpedition und neu gewählter Erzmagus.
 *   **[[Hendwig]]**: Gefallener Gardist (Heldenstatur).

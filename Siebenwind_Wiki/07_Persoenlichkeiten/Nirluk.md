@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nirluk"
-category: [[index]]
+category: Personen
 status: Stub
 ---
 

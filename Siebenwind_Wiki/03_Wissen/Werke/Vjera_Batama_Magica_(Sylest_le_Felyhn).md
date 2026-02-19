@@ -16,7 +16,7 @@ Edelsteine sind **Gefäße** mit einer geordneten inneren Struktur (*Filiae Astr
 ## Die 5 Arten der Batama Magica
 1.  **Mestra (Klein und Groß):** "Volksmagie". Heilsteine, Glücksbringer und **Amulette**. Amulette wirken durch "Selbstaktivierung" in Verbindung mit magischen Metallen (Gold/Silber) und Sigillen.
 2.  **Ge'inga (Unterstützend):** Nutzung als **Kristallisationspunkt** in der Arkanogenese oder Ritualen. Gefahr der Überlastung (Explosion), wenn die Kapazität überschritten wird.
-3.  **Einwa' (Freie [[index]]):** Telekinese mit Edelsteinen als "Nervenbahnen". Überträgt Gedanken direkt in Effekte. Sehr mächtig, erfordert hohe Erfahrung.
+3.  **Einwa' (Freie Magie):** Telekinese mit Edelsteinen als "Nervenbahnen". Überträgt Gedanken direkt in Effekte. Sehr mächtig, erfordert hohe Erfahrung.
 4.  **Iur'nava (Gefäßritual):** Rituale, bei denen nicht der Magier verstärkt wird, sondern die Steine selbst als Energiequelle dienen. Keine geometrischen Zwänge (Kreise), sondern freie Anordnung der Gefäße, die in Wechselwirkung treten ("Kopplungseffekt").
 5.  **Amlewa' (Bannung):** Einschließen von Kräften (oder Wesen) in Steine.
     *   *Tansanit:* Der einzige geeignete Stein, da er eine "stetig wandelnde labyrinthartige Struktur" hat, aus der nichts entkommen kann.

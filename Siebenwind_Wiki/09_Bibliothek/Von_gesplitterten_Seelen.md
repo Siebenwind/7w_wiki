@@ -16,7 +16,7 @@ letzter_check: 2026-02-14T01:45:00
 
 ## Handlung und Hintergrund
 
-Die [[index]] beginnt in der Steinwüste von **[[Endophal]]**, am Rande des **Schlachtenbergs**. [[Al-Barlis-Nekor]], ein wohlhabender, aber bösartiger Händler aus **As-Ashrun**, befindet sich auf dem Weg nach **[[Falkensee]]**, um dort sein kriminelles Imperium (Waffenschmuggel, Sklavenhandel) auszuweiten. Begleitet wird er von der Söldnertruppe **[[Blutige_Faust]]**.
+Die Wissen beginnt in der Steinwüste von **[[Endophal]]**, am Rande des **Schlachtenbergs**. [[Al-Barlis-Nekor]], ein wohlhabender, aber bösartiger Händler aus **As-Ashrun**, befindet sich auf dem Weg nach **[[Falkensee]]**, um dort sein kriminelles Imperium (Waffenschmuggel, Sklavenhandel) auszuweiten. Begleitet wird er von der Söldnertruppe **[[Blutige_Faust]]**.
 
 ### Das [[Dunkeltief]]
 Die Reise fällt in die Zeit des **Dunkeltiefs** — jene drei Tage der absoluten Finsternis zur Wintersonnenwende, in denen die Schergen des **Einen** die Welt heimsuchen. Die Gruppe wird von Horden von Skeletten und [[Harpyien]] angegriffen.

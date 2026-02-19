@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Der Hutmacher
-category: [[index]]
+category: Allgemein
 ---
 
 # Der Hutmacher

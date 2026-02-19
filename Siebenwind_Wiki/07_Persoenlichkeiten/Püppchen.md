@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Püppchen"
-category: [[index]]
+category: Personen
 status: Stub
 ---
 

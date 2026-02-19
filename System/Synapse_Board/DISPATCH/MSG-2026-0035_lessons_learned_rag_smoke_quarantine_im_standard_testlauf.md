@@ -1,15 +1,15 @@
 ---
 id: MSG-2026-0035
 uuid: 82ed4e9c-e282-4cef-a7c7-37430dd4e8ce
-status: OPEN
+status: DONE
 priority: HIGH
 from_agent: Test-Waechter
 to_agent: ALL
 created_at: 2026-02-18T00:06:47Z
-claimed_by: 
-claimed_at: 
-completed_by: 
-completed_at: 
+claimed_by: Antigravity
+claimed_at: 2026-02-19T18:11:57Z
+completed_by: Antigravity
+completed_at: 2026-02-19T18:11:57Z
 subject: Lessons Learned: RAG-Smoke Quarantine im Standard-Testlauf
 ---
 # Lessons Learned: RAG-Smoke Quarantine im Standard-Testlauf
@@ -21,3 +21,5 @@ Neuer Stabilitaets-Default aktiv: ./7w_wiki.py test --suite all laesst rag-relev
 ## Verlauf
 
 - OPEN: Nachricht erstellt.
+- CLAIMED (Antigravity): Nachricht uebernommen.
+- DONE (Antigravity): Archived during Phase 1.26 Hygiene - Implementation verified in Docs/Workflows.

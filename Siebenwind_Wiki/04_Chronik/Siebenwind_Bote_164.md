@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 164
-category: [[index]]
+category: Chronik
 status: Bote
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a926
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 164.md
@@ -23,10 +23,10 @@ letzter_check: 2026-02-13T15:15:00+01:00
 
 ## Lokales
 *   **Etikette:** Neue Anreden für Ritter setzen sich durch: **Ser** (m) und **Sera** (w) als Alternative zu Sir/Sire.
-*   **Wesen:** Warnung vor "Däumlingen" ([[Gignoskein]]-Ehepaar), die Wanderer durch [[index]] und List berauben.
-*   **[[index]]:** Bericht vom Rätselabend im "Vitamas Kelch". Wohlgeboren **[[Ruodrik]]** verteidigte seinen Titel als Rätselkönig.
+*   **Wesen:** Warnung vor "Däumlingen" ([[Gignoskein]]-Ehepaar), die Wanderer durch Wissen und List berauben.
+*   **Wissen:** Bericht vom Rätselabend im "Vitamas Kelch". Wohlgeboren **[[Ruodrik]]** verteidigte seinen Titel als Rätselkönig.
 
-## [[index]]
+## Wirken
 *   **[[Aspin_Schwertklinge_von_Fahlenau]]**: Neuer Großmeister.
 *   **[[Dirian_zu_Neuentau]]**: Landsbaron und Ausrichter der Großjagd.
 *   **[[Zimahn_Alni_Balurdan]]**: Herold von Neuentau.

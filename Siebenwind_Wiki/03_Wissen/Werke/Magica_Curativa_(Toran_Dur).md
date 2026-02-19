@@ -20,7 +20,7 @@ Das Werk betont ethische Grundsätze:
 2.  **Verantwortung**: Kenntnis der eigenen Grenzen.
 3.  **Ganzheitlichkeit**: Einbeziehung von Körper, [[Geist]] und Seele.
 
-Es zitiert dabei auch [[index]] von [[Althea_Danea]] (Kompendium der Weißmagie).
+Es zitiert dabei auch Magie von [[Althea_Danea]] (Kompendium der Weißmagie).
 
 ### Fachbereiche
 Das Buch gliedert sich in mehrere Kapitel:
@@ -33,7 +33,7 @@ Das Buch gliedert sich in mehrere Kapitel:
 
 ### Anhang
 Das Werk verweist auf weiterführende Literatur, darunter:
-*   [[Toran_Dur]]: Die [[index]]
+*   [[Toran_Dur]]: Die Magie
 *   [[Sylest_le_Felyhn]]: Die erweiterte Thematik der [[Vjera_Batama_Magica]]
 *   [[Edomwayr]]: Die Wirkung von Metallen auf die arkanen Kräfte
 *   [[Althea_Danea]]: Kompendium der Weißmagie

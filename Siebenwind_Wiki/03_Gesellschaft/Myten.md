@@ -11,12 +11,12 @@ category: [[Gesellschaft]]
 Die **Myten** (Eigenbezeichnung: **Kabale**) sind das wohl unheimlichste und am wenigsten verstandene Volk auf [[Tare]]. Sie bezeichnen alle anderen kulturschaffenden Völker als **Enor**.
 
 ## Physis & Erscheinung
-Myten sind menschenähnlich, aber von bleicher Haut und oft emotionslosen Zügen. Besonders markant sind ihre oft rötlich glühenden Augen und ihr ungeschmeidiger, fast agonieähnlicher Gang. In der Gelehrtenwelt (insb. bei [[Donarius_Derrvus]]) wird dies auf ein elementares Ungleichgewicht zurückgeführt: Eine Übermacht von [[Morsan]] (Tod/Ruhe) und [[Xan]] (Eis/[[index]]) bei gleichzeitigem Mangel an [[Ignis]]-Kraft (Elan/Emotion).
+Myten sind menschenähnlich, aber von bleicher Haut und oft emotionslosen Zügen. Besonders markant sind ihre oft rötlich glühenden Augen und ihr ungeschmeidiger, fast agonieähnlicher Gang. In der Gelehrtenwelt (insb. bei [[Donarius_Derrvus]]) wird dies auf ein elementares Ungleichgewicht zurückgeführt: Eine Übermacht von [[Morsan]] (Tod/Ruhe) und [[Xan]] (Eis/Wissen) bei gleichzeitigem Mangel an [[Ignis]]-Kraft (Elan/Emotion).
 
 ## [[Gesellschaft]] & Sozialstruktur
 Die Myten leben in einer strengen Kastenordnung, die durch eine klare Hierarchie (Hackordnung) definiert ist:
 *   **Hagatog:** Die Kriegerkaste.
-*   **Geistige Oberschicht:** Die Führer der Kabale, die über enormes [[index]] verfügen.
+*   **Geistige Oberschicht:** Die Führer der Kabale, die über enormes Wissen verfügen.
 *   **Arbeiterkaste:** Die unterste Schicht, zuständig für niedere Dienste.
 
 ## Kultur & Handwerk

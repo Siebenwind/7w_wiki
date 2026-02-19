@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Konflikt Tempelwache Nortraven
-category: [[index]]
+category: Geschichte
 ---
 
 # Konflikt Tempelwache [[Nortraven]]

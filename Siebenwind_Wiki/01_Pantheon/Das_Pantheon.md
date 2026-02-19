@@ -4,7 +4,7 @@ title: Das index
 category: Index
 ---
 
-# Das [[index]]
+# Das Wissen
 
 **Epistemischer Status:** #canon
 
@@ -14,7 +14,7 @@ Die Mächte, die Falandrien und [[Siebenwind]] formen.
 *   [[Die_Gohor]] - Die Ur-[[Drachen]] und Schöpfer.
 
 ## Die Viereinigkeit (Die Guten)
-*   [[Astrael]] - [[index]] & Ordnung.
+*   [[Astrael]] - Wissen & Ordnung.
 *   [[Bellum]] - Kampf & Ehre.
 *   [[Vitama]] - Leben & Heilung.
 *   [[Morsan]] - Tod & Ruhe.
@@ -27,7 +27,7 @@ Die Mächte, die Falandrien und [[Siebenwind]] formen.
 *   [[Ignis]] - Feuer.
 *   [[Rien]] - Natur.
 *   [[Ventus]] - Luft/Freiheit.
-*   [[Xan]] - [[index]].
+*   [[Xan]] - Wissen.
 
 ## Die Gegenspieler
 *   [[Angamon]] - Der Dämonenfürst.

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Ritus, Gebet und Erleuchtung
-category: [[index]]
+category: Allgemein
 tags: [Erzählung, [[Angamon]], Kult, Ritus]
 status: #perspektive
 ---

@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Oger (Grüne Ungetüme)
-category: [[index]]
+category: Allgemein
 ---
 
 # Oger (Grüne Ungetüme)

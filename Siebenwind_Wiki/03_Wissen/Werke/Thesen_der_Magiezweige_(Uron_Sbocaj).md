@@ -11,13 +11,13 @@ author: [[Uron_Sbocaj]] (Original), Archivteam (Zusammenstellung)
 Verfasst von [[Uron_Sbocaj]], mit einem Vorwort von Erzmagus [[Dunvallo_Linari]].
 
 ## Kern-Thesen
-Sbocaj argumentiert, dass alle [[index]] auf den vier Elementen (Feuer, Wasser, Erde, Luft) und vier "Unfassbaren" (Universum, [[Geist]], Äther, Zeit) beruht. Da die Unfassbaren göttlich sind, nutzen Sterbliche die Elemente als Basis.
+Sbocaj argumentiert, dass alle Magie auf den vier Elementen (Feuer, Wasser, Erde, Luft) und vier "Unfassbaren" (Universum, [[Geist]], Äther, Zeit) beruht. Da die Unfassbaren göttlich sind, nutzen Sterbliche die Elemente als Basis.
 
 ### Zuordnung
-*   **Feuer - Schwarze [[index]]:** Aggressiv, verzehrend.
-*   **Wasser - Weiße [[index]]:** Ruhig, aber gefährlich, der Feind des Feuers.
-*   **Erde - [[Elementare]] [[index]]:** Bodenständig, genügsam.
-*   **Luft - Graue [[index]] (Die Mitte):** Ausgewogen, steht zwischen den Elementen.
+*   **Feuer - Schwarze Magie:** Aggressiv, verzehrend.
+*   **Wasser - Weiße Magie:** Ruhig, aber gefährlich, der Feind des Feuers.
+*   **Erde - [[Elementare]] Magie:** Bodenständig, genügsam.
+*   **Luft - Graue Magie (Die Mitte):** Ausgewogen, steht zwischen den Elementen.
 
 ## Begründung der Trennung
 Warum beherrscht kein Magier alle Elemente?
@@ -30,4 +30,4 @@ Linari stimmt der Theorie teilweise zu, bevorzugt aber eine funktionale Zuordnun
 *   Schwarz = Vernichten
 
 ## Zitat
-> "Gibt es diese Elemente nur, weil es die [[index]] gibt oder gibt es die [[index]] nur, weil es diese Elemente gibt."
+> "Gibt es diese Elemente nur, weil es die Magie gibt oder gibt es die Magie nur, weil es diese Elemente gibt."

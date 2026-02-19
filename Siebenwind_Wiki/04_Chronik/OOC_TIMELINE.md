@@ -11,7 +11,7 @@ letzter_check: 2026-02-14T23:59:00
 
 **Epistemischer Status:** #news #forum
 
-Diese [[index]] fuehrt technische und organisatorische OOC-Entwicklungen aus News und Forum zusammen (ab **2010-01-01**).
+Diese Wissen fuehrt technische und organisatorische OOC-Entwicklungen aus News und Forum zusammen (ab **2010-01-01**).
 
 ## Archivstand
 

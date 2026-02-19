@@ -15,7 +15,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_134]].md
 ## Beschreibung
 **Quendan Ryandoris** ist ein Anwärter der [[Ecclesia_Elementorum]]. Er stammt ursprünglich aus einem Dorf nahe Ventria und ist der Sohn des Hufschmieds Ramirez Ryandoris.
 
-## [[index]]
+## Wirken
 Die Suche nach seinem vermissten Bruder, **[[Arvid_Ryandoris]]**, führte ihn nach [[Siebenwind]]. Er veröffentlichte im Jahr 16 n.H. (Bote 134) einen Suchaufruf, in der Hoffnung, seinen Bruder zu finden, der womöglich als Schmied unter dem Namen *Arvido D'Ryandoris* arbeitet.
 
 ---

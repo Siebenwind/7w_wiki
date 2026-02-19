@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Communis Medici
-category: [[index]]
+category: Gesellschaft
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_161]].md
 ---

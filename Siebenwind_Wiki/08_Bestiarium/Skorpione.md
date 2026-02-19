@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Skorpione
-category: [[index]]
+category: Allgemein
 ---
 
 # Skorpione

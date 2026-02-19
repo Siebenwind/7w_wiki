@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Die Sprache Run
-category: [[index]]
+category: Allgemein
 tags: [Sprache, Run, Linguistik, Mythologie, Gohor]
 status: #überlieferung
 ---
@@ -42,7 +42,7 @@ Run zeichnet sich durch ein systematisches Endungsschema aus:
 *   **Corp:** Tod
 *   **Dyr:** Wille
 *   **Enwunji:** Buch
-*   **Odal:** [[index]]
+*   **Odal:** Wissen
 
 ---
 > [!TIP]

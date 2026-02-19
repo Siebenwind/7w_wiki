@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Organisationsregister
-category: [[index]]
+category: Allgemein
 ---
 
 # Organisationsregister

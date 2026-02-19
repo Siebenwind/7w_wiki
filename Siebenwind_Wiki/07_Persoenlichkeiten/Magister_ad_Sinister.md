@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Magister ad Sinister"
-category: [[index]]
+category: Personen
 status: Stub
 ---
 

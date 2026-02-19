@@ -22,5 +22,5 @@ Feanthil stammt aus der Hochelfen-Familie Arinth. Er ist als Krieger ausgebildet
 - **Taktiker:** Er übernahm die Führung bei der Verteidigung von [[Avindhrell]] während der Vorbereitungen auf die [[Dunkelzeit]].
 
 ## Lore-Anker
-- **Das Arinth-Geheimnis:** Die Arinths scheinen über [[index]] oder Pflichten zu verfügen, die selbst unter Hochelfen außergewöhnlich sind.
+- **Das Arinth-Geheimnis:** Die Arinths scheinen über Wissen oder Pflichten zu verfügen, die selbst unter Hochelfen außergewöhnlich sind.
 - **Die innere Finsternis:** Feanthil fürchtet, dass seine Natur als Krieger und die damit verbundene Gewalt ihn von seinem eigentlichen elfischen Wesen entfremden.
