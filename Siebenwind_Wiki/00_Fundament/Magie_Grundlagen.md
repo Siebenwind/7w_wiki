@@ -1,7 +1,8 @@
----
+--- 
 layout: wiki_page
 title: index Grundlagen
 category: Allgemein
+lore_trust: 2
 ---
 
 # Wissen Grundlagen

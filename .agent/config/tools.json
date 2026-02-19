@@ -1,0 +1,584 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_search",
+      "description": "Execute the search command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "The search query"
+          },
+          "source": {
+            "type": "string",
+            "description": "Search target",
+            "enum": [
+              "wiki",
+              "quellen",
+              "all"
+            ]
+          },
+          "json": {
+            "type": "string",
+            "description": "Output raw JSON"
+          },
+          "remaining": {
+            "type": "string",
+            "description": "Additional arguments for search.py"
+          }
+        },
+        "required": [
+          "query"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_start",
+      "description": "Execute the start command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "run": {
+            "type": "string",
+            "description": "Execute the workflow checklist automatically"
+          },
+          "yes": {
+            "type": "string",
+            "description": "Skip confirmation prompts during --run"
+          },
+          "resume": {
+            "type": "string",
+            "description": "Resume from last completed step"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_test",
+      "description": "Execute the test command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "suite": {
+            "type": "string",
+            "description": "Suite name or 'all'"
+          },
+          "list_suites": {
+            "type": "string",
+            "description": "List available test suites"
+          },
+          "timeout": {
+            "type": "string",
+            "description": "Timeout per command (seconds)"
+          },
+          "post_failures": {
+            "type": "string",
+            "description": "Post dispatch message on failures"
+          },
+          "from_agent": {
+            "type": "string",
+            "description": "Dispatch sender if --post-failures"
+          },
+          "to_agent": {
+            "type": "string",
+            "description": "Dispatch target if --post-failures"
+          },
+          "priority": {
+            "type": "string",
+            "description": "Dispatch priority",
+            "enum": [
+              "LOW",
+              "NORMAL",
+              "HIGH"
+            ]
+          },
+          "include_rag": {
+            "type": "string",
+            "description": "Include unstable rag-relevance-smoke in --suite all"
+          },
+          "allow_fail": {
+            "type": "string",
+            "description": "Return 0 even if tests fail"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_takeover",
+      "description": "Execute the takeover command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "run": {
+            "type": "string",
+            "description": "Execute the workflow checklist automatically"
+          },
+          "yes": {
+            "type": "string",
+            "description": "Skip confirmation prompts during --run"
+          },
+          "resume": {
+            "type": "string",
+            "description": "Resume from last completed step"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_handover",
+      "description": "Execute the handover command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "run": {
+            "type": "string",
+            "description": "Execute the workflow checklist automatically"
+          },
+          "yes": {
+            "type": "string",
+            "description": "Skip confirmation prompts during --run"
+          },
+          "resume": {
+            "type": "string",
+            "description": "Resume from last completed step"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_historian",
+      "description": "Execute the historian command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Subject to analyze"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_repair",
+      "description": "Execute the repair command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "auto": {
+            "type": "string",
+            "description": "Run non-interactive auto-repair"
+          },
+          "full": {
+            "type": "string",
+            "description": "Run full non-interactive repair cycle (1-3)"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_audit",
+      "description": "Execute the audit command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "json": {
+            "type": "string",
+            "description": "Output raw JSON"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_index",
+      "description": "Execute the index command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "rebuild": {
+            "type": "string",
+            "description": "Full re-indexing"
+          },
+          "status": {
+            "type": "string",
+            "description": "Check index status"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_index-pages",
+      "description": "Execute the index-pages command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_pages",
+      "description": "Execute the pages command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "pages_cmd": {
+            "type": "string",
+            "description": "",
+            "enum": [
+              "status",
+              "build",
+              "validate"
+            ]
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_advisor",
+      "description": "Execute the advisor command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "json": {
+            "type": "string",
+            "description": "Output raw JSON"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_inquisition",
+      "description": "Execute the inquisition command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "batch": {
+            "type": "string",
+            "description": "Number of sources to process in this run"
+          },
+          "audit_only": {
+            "type": "string",
+            "description": "Only list missing reports without processing"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_sanitize",
+      "description": "Execute the sanitize command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Path to file/folder (default: Siebenwind_Wiki)"
+          },
+          "auto": {
+            "type": "string",
+            "description": "Auto-fix violations"
+          },
+          "json": {
+            "type": "string",
+            "description": "Output raw JSON"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_lint",
+      "description": "Execute the lint command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "target": {
+            "type": "string",
+            "description": "Path to file/folder (default: Siebenwind_Wiki)"
+          },
+          "fix": {
+            "type": "string",
+            "description": "Auto-fix layout and frontmatter issues"
+          },
+          "json": {
+            "type": "string",
+            "description": "Output raw JSON report (suppresses stdout)"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_score",
+      "description": "Execute the score command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file": {
+            "type": "string",
+            "description": "Path to the markdown file"
+          }
+        },
+        "required": [
+          "file"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_ingest",
+      "description": "Execute the ingest command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file": {
+            "type": "string",
+            "description": "Path to the markdown file to ingest"
+          }
+        },
+        "required": [
+          "file"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_translate",
+      "description": "Execute the translate command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "args": {
+            "type": "string",
+            "description": "Arguments for translator.py"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_watch",
+      "description": "Execute the watch command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_check",
+      "description": "Execute the check command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Path to file/folder (default: Siebenwind_Wiki)"
+          },
+          "json": {
+            "type": "string",
+            "description": "Output raw JSON"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_archive",
+      "description": "Execute the archive command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "archive_cmd": {
+            "type": "string",
+            "description": "",
+            "enum": [
+              "sync"
+            ]
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_mail",
+      "description": "Execute the mail command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "mail_args": {
+            "type": "string",
+            "description": "Arguments for agent_mail.py"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_scout",
+      "description": "Execute the scout command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "forum": {
+            "type": "string",
+            "description": "Target forum",
+            "enum": [
+              "bekanntmachungen",
+              "news"
+            ]
+          },
+          "pages": {
+            "type": "string",
+            "description": "Number of pages to scan"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_tech",
+      "description": "Execute the tech command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "manifest": {
+            "type": "string",
+            "description": "Generate OpenAPI tools.json from CLI context"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_antigravity",
+      "description": "Execute the antigravity command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_leitpunkt",
+      "description": "Execute the leitpunkt command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "leit_cmd": {
+            "type": "string",
+            "description": "",
+            "enum": [
+              "view",
+              "status",
+              "check",
+              "scaffold"
+            ]
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_stats",
+      "description": "Execute the stats command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "json": {
+            "type": "string",
+            "description": "Output raw JSON stats block"
+          }
+        },
+        "required": []
+      }
+    }
+  }
+]

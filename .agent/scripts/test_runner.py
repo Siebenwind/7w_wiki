@@ -16,12 +16,12 @@ import time
 import uuid
 from dataclasses import dataclass
 from datetime import datetime, timezone
+import tempfile
 from pathlib import Path
-
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SUITES_DIR = PROJECT_ROOT / ".agent" / "tests" / "suites"
-REPORTS_DIR = PROJECT_ROOT / "Logs" / "Archive"
+SYSTEM_TMP_DIR = Path(tempfile.gettempdir())
 MSG_ID_RE = re.compile(r"^(MSG-\d{4}-\d{4})\b")
 QUARANTINED_IN_ALL = {"rag-relevance-smoke"}
 
@@ -260,6 +260,17 @@ def check_case_expectations(
     for needle in case.get("forbid_stderr", []):
         if needle in stderr:
             return False, f"stderr enthaelt verbotenes Muster: {needle!r}"
+
+    if case.get("expect_valid_json", False):
+        try:
+            parsed = json.loads(stdout.strip())
+        except json.JSONDecodeError as e:
+            return False, f"stdout ist kein gueltiges JSON: {e}"
+        required_keys = case.get("expect_json_keys", [])
+        if required_keys and isinstance(parsed, dict):
+            for k in required_keys:
+                if k not in parsed:
+                    return False, f"JSON fehlt erwarteter Key: {k!r}"
 
     min_duration = case.get("min_duration_sec")
     if min_duration is not None and duration_sec < float(min_duration):
@@ -529,7 +540,6 @@ def post_failure_mail(
     body = (
         f"Suite `{suite_name}` ist fehlgeschlagen.\n\n"
         f"Fehlende Testfaelle: {failed_ids}\n"
-        f"Report: `{report_path.relative_to(PROJECT_ROOT)}`\n\n"
         "Bitte uebernehmt den Defect per `mail claim` oder verlinktem Task und "
         "dokumentiert den Fix vor Re-Test."
     )
@@ -545,6 +555,8 @@ def post_failure_mail(
         subject,
         "--body",
         body,
+        "--report-path",
+        str(report_path.relative_to(PROJECT_ROOT)),
         "--priority",
         priority,
     ]
@@ -615,13 +627,13 @@ def main() -> int:
     if selected == ["rag-relevance-smoke"]:
         print("[rag-relevance-smoke] Warnung: Diese Suite ist instabil und nicht Teil von --suite all.", flush=True)
 
-    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    test_run_tmp = Path(tempfile.mkdtemp(prefix="7w_test_"))
     overall_fail = False
 
     for suite_name in selected:
         results, suite_path = run_suite(suite_name, args.timeout)
         report_name = f"TEST_{suite_name}_{now_stamp()}.md"
-        report_path = REPORTS_DIR / report_name
+        report_path = test_run_tmp / report_name
         report = build_report(suite_name, suite_path, results, report_path)
         try:
             report_path.write_text(report, encoding="utf-8")

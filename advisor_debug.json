@@ -1,0 +1,23 @@
+{
+  "priorities": {
+    "P1": 1,
+    "P2": 4,
+    "P3": 2,
+    "BACKLOG": 3
+  },
+  "first_p1_task": "Ingestion 2.0: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - [BLOCKED: 118 Source Missing].",
+  "last_change": "2026-02-19.03: System Permission Repair Attempts & Diagnostic Handover",
+  "current_phase": "\ud83d\udd34 Priorit\u00e4t 1: Aktueller Fokus (Next Step)",
+  "next_task": "Ingestion 2.0: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - [BLOCKED: 118 Source Missing].",
+  "pending_sources": 2,
+  "dispatch": {
+    "counts": {
+      "OPEN": 8,
+      "CLAIMED": 1,
+      "DONE": 35,
+      "OTHER": 0
+    },
+    "top_open": "MSG-2026-0004 | HIGH | to=ALL | Directive: Artist-Brief fuer GitHub-Homepage Grafiken im..."
+  },
+  "consistency_issues": 73
+}

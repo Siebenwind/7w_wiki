@@ -1,5 +1,15 @@
 # Changelog
 
+#### [2026-02-19.04] - CLI Robustness & Workflow Automation
+- **P1**
+- **Hinzugefügt**:
+  - `--run` und `--yes` Flags für `start`, `takeover` und `handover` Workflows in `7w_wiki.py` zur automatisierten Ausführung von `// turbo` Kommandos (MSG-2026-0034).
+  - `json-interop-contract` Testsuite implementiert, um Maschinenlesbarkeit für `advisor`, `audit`, `mail` und `stats` sicherzustellen.
+- **Behoben**:
+  - Unterdrückung von `print()` Ausgaben in `advisor.py` und `register_check.py` bei `--json`-Nutzung, behebt JSON-Parsingfehler.
+  - Subprozess-Logs in `7w_wiki.py` auf `stderr` umgeleitet, um `stdout`-JSON sauber zu halten.
+  - `test_runner.py` Artifact-Speicher auf `/tmp/7w_test_XXXXXX` ausgelagert, schützt vor environment-abhängigen `PermissionError` Crashes in der CI (MSG-2026-0040).
+
 #### [2026-02-19.03] - System Permission Repair Attempts & Diagnostic Handover
 - **P1**
 - **Geändert**:

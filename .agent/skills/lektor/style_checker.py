@@ -13,6 +13,9 @@ YELLOW = "\033[93m"
 BLUE = "\033[94m"
 RESET = "\033[0m"
 
+def strip_ansi(text: str) -> str:
+    return re.sub(r'\x1b\[[0-9;]*m', '', text)
+
 APP_DIR = Path(__file__).parent
 CONFIG_FILE = APP_DIR / "style_guide.json"
 
@@ -100,29 +103,47 @@ def check_file(path):
 def main():
     parser = argparse.ArgumentParser(description="Siebenwind Lektor - Style Checker")
     parser.add_argument("path", help="Datei oder Verzeichnis zum Prüfen")
+    parser.add_argument("--json", action="store_true", help="Output raw JSON report (suppresses stdout)")
     args = parser.parse_args()
     
     target = Path(args.path)
     if not target.exists():
-        print(f"{RED}Pfad nicht gefunden:{RESET} {target}")
+        if not args.json:
+            print(f"{RED}Pfad nicht gefunden:{RESET} {target}")
         sys.exit(1)
         
-    files = [target] if target.is_file() else target.rglob("*.md")
+    files = [target] if target.is_file() else list(target.rglob("*.md"))
     
     error_count = 0
     file_count = 0
+    issues_dict = {}
     
-    print(f"Prüfe {target}...\n")
+    if not args.json:
+        print(f"Prüfe {target}...\n")
     
     for file_path in files:
         file_count += 1
         issues = check_file(file_path)
         if issues:
             error_count += 1
-            print(f"{os.path.relpath(file_path, start=os.getcwd())}:")
-            for issue in issues:
-                print(f"  - {issue}")
-            print("")
+            rel_path = os.path.relpath(file_path, start=os.getcwd())
+            issues_dict[rel_path] = [strip_ansi(i) for i in issues]
+            
+            if not args.json:
+                print(f"{rel_path}:")
+                for issue in issues:
+                    print(f"  - {issue}")
+                print("")
+            
+    if args.json:
+        print(json.dumps({
+            "files_checked": file_count,
+            "files_with_issues": error_count,
+            "issues": issues_dict
+        }, indent=2))
+        if error_count > 0:
+            sys.exit(1)
+        return
             
     if error_count == 0:
         print(f"{GREEN}Alles sauber!{RESET} ({file_count} Dateien geprüft)")

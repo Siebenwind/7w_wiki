@@ -25,7 +25,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ## 🟡 Priorität 2: Operative Ingestion & Research
 - [ ] **Kanon-Abgleich**: Wiederaufnahme der Prüfung zur Götterverschmelzung (RESEARCH-2026-010/011) - [DEFERRED].
-- [ ] **Workflow Execute Mode + Alias adivor**: Auftrag `MSG-2026-0034` bearbeiten; robuste Alias-Aufloesung und optionalen Execute-Pfad fuer Kern-Workflows pruefen.
+- [x] **[MSG-2026-0034]** [P2][DEV] Workflow-Execute-Mode + Alias advisor: Integration von `--run` für start/takeover/handover und Alias-Normierung.
+- [x] **[MSG-2026-0040]** Test Suite Status: Tests in `/tmp` entkoppelt und JSON-Verträge etabliert.
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
 - [ ] **Lore Research Board**: Abarbeitung der offenen Ausschreibungen (Angamon, Ödland).
 

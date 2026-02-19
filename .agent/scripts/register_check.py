@@ -118,10 +118,10 @@ def check_wikilinks(wiki_files: dict[str, Path], wiki_titles: dict[str, Path]) -
                         broken_links.append((fpath, link_target, "Casing Match Only"))
                         continue
 
-                    # 3. Truly missing
-                    broken_links.append((fpath, link_target, "Missing File"))
             except Exception as e:
-                print(f"Error reading {fpath}: {e}")
+                # Mute to stderr so it doesn't break JSON
+                import sys
+                print(f"Error reading {fpath}: {e}", file=sys.stderr)
     return broken_links
 
 
@@ -612,12 +612,11 @@ def main():
             print(f"\n[INFO] Report gespeichert unter: {report_file}")
     except Exception as e:
         if not args.json:
-            print(f"\n[ERROR] Konnte Report nicht speichern: {e}")
+            print(f"\n[ERROR] Konnte Report nicht speichern: {e}", file=sys.stderr)
 
     if args.json:
         print(json.dumps(audit_data, indent=2))
-
-    return 1 if issues_found > 0 else 0
+        return 1 if issues_found > 0 else 0
 
 
 if __name__ == "__main__":

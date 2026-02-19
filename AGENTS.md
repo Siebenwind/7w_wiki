@@ -42,10 +42,10 @@ Use `./7w_wiki.py <command>` for all operations.
 | Command | Purpose | Context |
 | :--- | :--- | :--- |
 | `advisor` | **START HERE.** System status & next steps. | `System/Advisor` |
-| `start` | Interactive onboarding workflow. | `.agent/workflows/start.md` |
-| `test [--suite <name>|all] [--include-rag]` | Run standardized interoperability and clean-state test suites (`all` excludes `rag-relevance-smoke` by default). | `.agent/scripts/test_runner.py` |
-| `takeover` | Show takeover protocol (`/takeover`) for session adoption. | `.agent/workflows/takeover.md` |
-| `handover` | Show handover protocol (`/handover`) for session transfer. | `.agent/workflows/handover.md` |
+| `start [--run]` | Interactive onboarding workflow. `--run` executes the checklist. | `.agent/workflows/start.md` |
+| `test [--suite <name>|all] [--include-rag]` | Run standardized interoperability and clean-state test suites (`all` excludes `rag-relevance-smoke`). Validates `json-interop-contract`. | `.agent/scripts/test_runner.py` |
+| `takeover [--run]` | Show takeover protocol (`/takeover`) for session adoption. `--run` executes the checklist. | `.agent/workflows/takeover.md` |
+| `handover [--run]` | Show handover protocol (`/handover`) for session transfer. `--run` executes the checklist. | `.agent/workflows/handover.md` |
 | `search <query> [--source wiki\|quellen\|all]` | Semantic RAG search (The Oracle) with explicit source scope. | `.agent/skills/oracle` |
 | `historian [query]` | Deep lore analysis (workflow or direct topic run). | `.agent/workflows/historian.md` |
 | `audit` | Consistency check (duplicates, orphans). | `.agent/scripts/register_check.py` |

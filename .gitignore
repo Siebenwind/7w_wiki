@@ -30,6 +30,8 @@ site/
 missing_links.txt
 register_links.txt
 walkthrough.md
+/tmp/7w_test_*
+
 
 # === Archives (Raw originals, not needed in deployed wiki) ===
 Quellen/_ARCHIV_ORIGINAL/

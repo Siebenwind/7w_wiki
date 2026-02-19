@@ -156,8 +156,21 @@ def append_verlauf(body: str, line: str) -> str:
     return out
 
 
+def check_payload_schema(body: str, report_path: str = None) -> None:
+    if len(body) > 1000:
+        raise ValueError("Payload Schema Error: `--body` uebersteigt 1000 Zeichen. Nutze `--report-path` fuer lange Inhalte (The 'Link Method').")
+    if report_path and not Path(REPO_ROOT / report_path).exists():
+        print(f"Warnung: Angegebener `--report-path` existiert nicht: {report_path}")
+
 def cmd_post(args: argparse.Namespace) -> int:
     ensure_dirs()
+    
+    try:
+        check_payload_schema(args.body, args.report_path)
+    except ValueError as e:
+        print(str(e))
+        return 1
+
     subject_slug = slugify(args.subject)
 
     # Collision-safe creation under concurrent runs.
@@ -189,13 +202,20 @@ def cmd_post(args: argparse.Namespace) -> int:
                 "completed_at": "",
                 "subject": args.subject,
             }
+            if args.report_path:
+                meta["report_path"] = args.report_path
+
+            final_body = args.body.strip()
+            if args.report_path:
+                final_body += f"\n\n**Angehaengter Report:** `{args.report_path}`"
+
             body = "\n".join(
                 [
                     f"# {args.subject}",
                     "",
                     "## Auftrag",
                     "",
-                    args.body.strip(),
+                    final_body,
                     "",
                     "## Verlauf",
                     "",
@@ -391,6 +411,7 @@ def build_parser() -> argparse.ArgumentParser:
     post.add_argument("--to", dest="to_agent", required=True)
     post.add_argument("--subject", required=True)
     post.add_argument("--body", required=True)
+    post.add_argument("--report-path", help="Pfad zum Report, Artefakt oder Snapshot (Link Method)")
     post.add_argument("--priority", default="NORMAL", choices=["LOW", "NORMAL", "HIGH"])
     post.set_defaults(fn=cmd_post)
 

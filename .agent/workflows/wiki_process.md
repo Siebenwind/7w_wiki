@@ -34,26 +34,18 @@ Dieser Workflow beschreibt den standardisierten Prozess, um neue Quellen (HTML, 
     - **Legacy-Quelle (HTML, DOCX):** Nutze Skills zur Extraktion. Entferne Layout-Reste und Meta-Daten. **Öffne HTML niemals im Browser.**
 2.  **Markdown-Konvertierung:** Erzeuge (falls nötig) eine saubere Markdown-Datei.
 
-### Phase 3: Standardisierung (Normalization)
-1.  **Style Guide:** Wende den [Wiki Style Guide](../../.agent/workflows/wiki_style_guide.md) an.
-layout: wiki_page
-3.  **H1-Check:** Die `# H1` Überschrift muss exakt dem `title` im YAML entsprechen.
-4.  **Skript-Einsatz:** Nutze zur Automatisierung:
-    ```bash
-    ./7w_wiki.py sanitize --auto
-    ```
+### Phase 3 & 4: Standardisierung und Konsistenz (The Ingest Pipeline)
+Anstatt alle Schritte einzeln auszufuehren, nutze die vollautomatisierte Ingest-Pipeline:
+```bash
+./7w_wiki.py ingest "Pfad/zur/Datei.md"
+```
+Diese Pipeline fuehrt nacheinander aus:
+1.  **Lint & Fix**: Wendet den Wiki Style Guide an, korrigiert H1-Titel und berechnet/aktualisiert den Lore Quality Score.
+2.  **Archive Sync**: Synchronisiert die Archiv-Indizes.
+3.  **Audit**: Prueft die globale Konsistenz des Wikis gegenueber den Registern.
 
-### Phase 4: Validierung, Konsistenz & Scoring (Validation)
-1.  **Kanon-Check:** Abgleich mit `/Hintergrund/` (#canon) und `/Zeitung 7w Bote/` (#bote).
-2.  **Lore Trust Scoring:** 
-    - Berechne den initialen Score (0-10).
-    - Nutze `./7w_wiki.py score [Dateipfad]`.
-3.  **Linguistik-Check (Skill: Linguist):** 
-    - Werden Begriffe korrekt übersetzt? 
-    - Sind die Sprach-Flags (`[run]`, `[isd]`, etc.) korrekt gesetzt?
-    - Entspricht das Vokabular der [[Linguistik_Übersicht]]?
-3.  **Widersprüche loggen [PFLICHT]:** Jeder identifizierte Lore-Konflikt (Web vs. Lokal oder Quelle A vs. Quelle B) muss **vor dem Speichern** des Artikels im Bericht vermerkt werden.
-4.  **Wiki-Check:** Entspricht der Entwurf den bestehenden Artikeln?
+**Widersprüche loggen [PFLICHT]:** Jeder identifizierte Lore-Konflikt (Web vs. Lokal oder Quelle A vs. Quelle B) muss **vor dem Speichern** des Artikels im Bericht vermerkt werden.
+**Wiki-Check:** Entspricht der Entwurf den bestehenden Artikeln?
 
 ### Phase 5: Integration & Verwebung (Linking)
 1.  **Einsortieren:** Verschiebe die fertige Datei in den passenden Unterordner von `/Siebenwind_Wiki/`.

@@ -6,9 +6,9 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-02-19 19:35
+**Stand:** 2026-02-19 21:48
 
-> Wissenswetter: **Stuermisch: viele offene Baustellen, aber aktive Bewegung.**
+> Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
 ---
 
@@ -17,7 +17,7 @@ category: Index
 | Kennzahl | Wert |
 | :--- | :--- |
 | Artikel | **1352** |
-| Worte | **186,767** |
+| Worte | **186,769** |
 | Durchschnittliche Artikellaenge | **138 Worte** |
 | Interne Verweise (`[[...]]`) | **13,752** |
 | Vernetzungsdichte | **10.2 Links/Artikel** |
@@ -30,7 +30,7 @@ category: Index
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
 | Letzte 7 Tage | 1346 | - | - |
-| Letzte 30 Tage | 1346 | 1333 | 103 |
+| Letzte 30 Tage | 1346 | 1333 | 104 |
 | Letzte 90 Tage | 1346 | - | - |
 
 ---
@@ -111,7 +111,7 @@ pie title Artikel pro Sektion
 
 | Qualitaetsindikator | Wert | Fortschritt |
 | :--- | :--- | :--- |
-| Frontmatter-Abdeckung | 1352/1352 | `##########` 100.0% |
+| Frontmatter-Abdeckung | 1351/1352 | `##########` 99.9% |
 | Aufgeloeste Quellenangabe (`quelle`) | 434/1352 | `###-------` 32.1% |
 | Ingestion Tracking vollstaendig | 50/54 | `#########-` 92.6% |
 | Ingestion Reports mit LQS | 52/54 | `##########` 96.3% |
@@ -134,12 +134,12 @@ pie title Artikel pro Sektion
 
 | Metrik | Stand |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | 437 |
+| Letzter Audit-Problemtotal | 73 |
 | Delta zum vorigen Audit | +0 |
-| Bridge-/Placeholder-Seiten | 89 |
-| Davon ohne Ausnahme-Metadaten | 89 |
+| Bridge-/Placeholder-Seiten | 88 |
+| Davon ohne Ausnahme-Metadaten | 68 |
 | Test-Suiten PASS | 7 |
-| Test-Suiten FAIL | 1 |
+| Test-Suiten FAIL | 2 |
 
 ### Letzte Test-Suites
 | Suite | Ergebnis | PASS | FAIL | SKIP |
@@ -147,6 +147,7 @@ pie title Artikel pro Sektion
 | `bridge-placeholder-guard` | **PASS** | 2 | 0 | 0 |
 | `clean-client-state` | **PASS** | 8 | 0 | 0 |
 | `interop-doc-links` | **PASS** | 1 | 0 | 0 |
+| `json-interop-contract` | **FAIL** | 2 | 2 | 0 |
 | `process-dispatch-curiosity` | **PASS** | 1 | 0 | 0 |
 | `rag-relevance-smoke` | **FAIL** | 1 | 3 | 0 |
 | `reader-stats-contract` | **PASS** | 2 | 0 | 0 |
@@ -158,7 +159,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_c3a6a80f-5626-4009-90c9-218d0b7a565c.txt`
+- Letzter Audit: `Logs/Archive/Audit_0e22414f-19f9-4e6e-a1c9-7a555c2c5c03.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

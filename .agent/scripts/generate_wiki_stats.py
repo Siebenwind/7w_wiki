@@ -679,16 +679,26 @@ def write_stats_snapshot(snapshot: dict) -> Path:
 
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--json", action="store_true", help="Output raw JSON stats block")
+    args = parser.parse_args()
+
     data = collect_stats()
     tracking = collect_ingestion_tracking()
     ops = collect_ops_progress()
     markdown_content = generate_markdown(data, tracking, ops)
     snapshot = build_stats_snapshot(data, tracking, ops)
+    
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(markdown_content, encoding="utf-8")
     TRACKING_REGISTER_FILE.write_text(build_tracking_register_markdown(tracking), encoding="utf-8")
     snapshot_path = write_stats_snapshot(snapshot)
-    print(f"Stats generated at {OUTPUT_FILE}")
-    print(f"Tracking register updated at {TRACKING_REGISTER_FILE}")
-    print(f"Stats snapshot written to {STATS_SNAPSHOT_LATEST}")
-    print(f"Stats snapshot archived at {snapshot_path}")
+    
+    if args.json:
+        print(json.dumps(snapshot, indent=2))
+    else:
+        print(f"Stats generated at {OUTPUT_FILE}")
+        print(f"Tracking register updated at {TRACKING_REGISTER_FILE}")
+        print(f"Stats snapshot written to {STATS_SNAPSHOT_LATEST}")
+        print(f"Stats snapshot archived at {snapshot_path}")

@@ -246,7 +246,10 @@ def collect_advisor_data():
             "counts": dispatch_counts,
             "top_open": top_dispatch
         },
-        "consistency_issues": issues
+        "consistency_issues": issues,
+        "status": "OK" if issues == 0 else "DEGRADED",
+        "system_health": "Sauber" if issues == 0 else f"{issues} Probleme",
+        "recommendations": [] # Will be populated if needed, keeping empty for contract
     }
 
 def main():

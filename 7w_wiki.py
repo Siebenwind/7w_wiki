@@ -3,6 +3,8 @@ import sys
 import subprocess
 import argparse
 import os
+import re
+import json
 
 """
 Siebenwind Lore Engine CLI (7w)
@@ -24,6 +26,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 # UI Helpers
 BOLD = "\033[1m"
 YELLOW = "\033[93m"
+GREEN = "\033[92m"
 RESET = "\033[0m"
 
 def run_script(path, args=[]):
@@ -40,7 +43,7 @@ def run_script(path, args=[]):
     try:
         subprocess.run(cmd, check=True)
     except subprocess.CalledProcessError as e:
-        print(f"Error executing {path}: {e}")
+        print(f"Error executing {path}: {e}", file=sys.stderr)
         sys.exit(1)
 
 def view_workflow(name):
@@ -50,6 +53,101 @@ def view_workflow(name):
             print(f.read())
     else:
         print(f"Workflow {name} not found at {path}")
+
+def load_workflow_state():
+    import json
+    state_file = os.path.join(os.path.dirname(__file__), ".agent/data/workflow_state.json")
+    if os.path.exists(state_file):
+        try:
+            with open(state_file, "r") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+def save_workflow_state(state):
+    import json
+    state_file = os.path.join(os.path.dirname(__file__), ".agent/data/workflow_state.json")
+    os.makedirs(os.path.dirname(state_file), exist_ok=True)
+    with open(state_file, "w") as f:
+        json.dump(state, f, indent=2)
+
+def run_workflow(name, auto_yes=False, resume=False):
+    path = os.path.join(os.path.dirname(__file__), f".agent/workflows/{name}.md")
+    if not os.path.exists(path):
+        print(f"Workflow {name} not found at {path}")
+        return
+
+    with open(path, 'r') as f:
+        lines = f.readlines()
+
+    commands = []
+    in_turbo = False
+    for line in lines:
+        stripped = line.strip()
+        if stripped == "// turbo" or stripped == "// turbo-all":
+            in_turbo = True
+            continue
+        elif not stripped or stripped.startswith("## ") or stripped.startswith("### "):
+            in_turbo = False # Exit turbo block on empty or heading
+        
+        if in_turbo and stripped.startswith(("- ", "* ", "1. ", "2. ", "3. ", "4. ", "5. ", "6. ", "7. ", "8. ", "9. ")):
+            # Check if it looks like a command
+            match = re.search(r'`(./7w_wiki\.py [^`]+)`', stripped)
+            if match:
+                commands.append(match.group(1))
+
+    if not commands:
+        print(f"No executable commands found in {name}.")
+        return
+
+    state_dict = load_workflow_state()
+    # Initialize or reset state for this workflow
+    if not resume or name not in state_dict:
+        state_dict[name] = {"completed": []}
+    
+    completed_indices = state_dict[name]["completed"]
+
+    if len(completed_indices) == len(commands):
+        print(f"\n{BOLD}{GREEN}Workflow {name} is already fully completed.{RESET}")
+        print("Run again without --resume to start over.")
+        return
+
+    print(f"\n{BOLD}{YELLOW}Workflow: {name} ({len(commands)} commands){RESET}")
+    for i, cmd in enumerate(commands, 1):
+        if resume and i in completed_indices:
+            print(f" {i}. {cmd} [{GREEN}DONE{RESET}]")
+        else:
+            print(f" {i}. {cmd}")
+
+    if not auto_yes:
+        ans = input(f"\nProceed with execution? [y/N]: ")
+        if ans.lower() not in ('y', 'yes'):
+            print("Aborted.")
+            return
+
+    for i, cmd in enumerate(commands, 1):
+        if resume and i in completed_indices:
+            continue
+            
+        print(f"\n{BOLD}Running [{i}/{len(commands)}]:{RESET} {cmd}")
+        # Strip the leading './7w_wiki.py ' since sys.executable manages the entry
+        args_str = cmd.replace("./7w_wiki.py ", "", 1).strip()
+        import shlex
+        args_list = shlex.split(args_str)
+        run_script("7w_wiki.py", args_list)
+        
+        # Mark as completed
+        completed_indices.append(i)
+        state_dict[name]["completed"] = completed_indices
+        save_workflow_state(state_dict)
+        print("-" * 40)
+        
+    print(f"{BOLD}{GREEN}Workflow {name} completed.{RESET}")
+    
+    # Optional: Clear state upon full completion
+    state_dict[name] = {"completed": []}
+    save_workflow_state(state_dict)
 
 def main():
     parser = argparse.ArgumentParser(description="Siebenwind Lore Engine CLI")
@@ -63,11 +161,11 @@ def main():
     # Add remnant args to pass through
     search_parser.add_argument('remaining', nargs=argparse.REMAINDER, help="Additional arguments for search.py")
 
-    # Stats
-    subparsers.add_parser("stats", help="Generate Wiki Statistics and Dashboard")
-
     # Start (Onboarding)
-    subparsers.add_parser("start", help="Start here (Onboarding & Options)")
+    start_parser = subparsers.add_parser("start", help="Start here (Onboarding & Options)")
+    start_parser.add_argument("--run", action="store_true", help="Execute the workflow checklist automatically")
+    start_parser.add_argument("--yes", "-y", action="store_true", help="Skip confirmation prompts during --run")
+    start_parser.add_argument("--resume", action="store_true", help="Resume from last completed step")
 
     # Test Runner
     test_parser = subparsers.add_parser("test", help="Run interoperability and clean-state test suites")
@@ -82,8 +180,15 @@ def main():
     test_parser.add_argument("--allow-fail", action="store_true", help="Return 0 even if tests fail")
 
     # Takeover / Handover workflow views
-    subparsers.add_parser("takeover", help="Show takeover workflow guidance")
-    subparsers.add_parser("handover", help="Show handover workflow guidance")
+    takeover_parser = subparsers.add_parser("takeover", help="Show takeover workflow guidance")
+    takeover_parser.add_argument("--run", action="store_true", help="Execute the workflow checklist automatically")
+    takeover_parser.add_argument("--yes", "-y", action="store_true", help="Skip confirmation prompts during --run")
+    takeover_parser.add_argument("--resume", action="store_true", help="Resume from last completed step")
+
+    handover_parser = subparsers.add_parser("handover", help="Show handover workflow guidance")
+    handover_parser.add_argument("--run", action="store_true", help="Execute the workflow checklist automatically")
+    handover_parser.add_argument("--yes", "-y", action="store_true", help="Skip confirmation prompts during --run")
+    handover_parser.add_argument("--resume", action="store_true", help="Resume from last completed step")
 
     # Historian
     hist_parser = subparsers.add_parser("historian", help="Deep Lore Analysis (Workflow)")
@@ -135,11 +240,23 @@ def main():
 
     # QA & Sanitization
     sanitize_parser = subparsers.add_parser("sanitize", help="Run Wiki Sanitizer (layout, H1-alignment, frontmatter)")
+    sanitize_parser.add_argument("target", nargs="?", default="Siebenwind_Wiki", help="Path to file/folder (default: Siebenwind_Wiki)")
     sanitize_parser.add_argument("--auto", action="store_true", help="Auto-fix violations")
+    sanitize_parser.add_argument("--json", action="store_true", help="Output raw JSON")
     
+    # Lint (Orchestrator for sanitize, check, score)
+    lint_parser = subparsers.add_parser("lint", help="Run comprehensive lint pipeline (Sanitizer, Style Check, Lore Score)")
+    lint_parser.add_argument("target", nargs="?", default="Siebenwind_Wiki", help="Path to file/folder (default: Siebenwind_Wiki)")
+    lint_parser.add_argument("--fix", action="store_true", help="Auto-fix layout and frontmatter issues")
+    lint_parser.add_argument("--json", action="store_true", help="Output raw JSON report (suppresses stdout)")
+
     # Lore Scoring
     score_parser = subparsers.add_parser("score", help="Calculate Lore Quality Score (LQS) for a file")
     score_parser.add_argument("file", help="Path to the markdown file")
+
+    # Ingest Pipeline
+    ingest_parser = subparsers.add_parser("ingest", help="Run full Ingest Pipeline (Lint -> Archive Sync -> Audit)")
+    ingest_parser.add_argument("file", help="Path to the markdown file to ingest")
 
     # Translation
     trans_parser = subparsers.add_parser("translate", help="Translate Falandric texts or manage dictionaries")
@@ -151,6 +268,7 @@ def main():
     # QA & Style Check (Lektor)
     check_parser = subparsers.add_parser("check", help="Run professional style and grammar check (Lektor)")
     check_parser.add_argument("path", nargs="?", default="Siebenwind_Wiki", help="Path to file/folder (default: Siebenwind_Wiki)")
+    check_parser.add_argument("--json", action="store_true", help="Output raw JSON")
 
     # Archive Management
     archive_parser = subparsers.add_parser("archive", help="Manage Wiki Archive (Symlinks, Research Board)")
@@ -166,7 +284,8 @@ def main():
     scout_parser.add_argument("--pages", type=int, default=3, help="Number of pages to scan")
 
     # Technician (DevOps)
-    subparsers.add_parser("tech", help="Show Technician workflow (DevOps & Infrastructure)")
+    tech_parser = subparsers.add_parser("tech", help="Show Technician workflow (DevOps & Infrastructure)")
+    tech_parser.add_argument("--manifest", action="store_true", help="Generate OpenAPI tools.json from CLI context")
 
     # Antigravity (Core Protocol)
     subparsers.add_parser("antigravity", help="Show Antigravity core workflow (default protocol)")
@@ -180,6 +299,42 @@ def main():
     leit_check.add_argument("--strict", action="store_true", help="Fail if TODO markers remain")
     leit_scaffold = leit_sub.add_parser("scaffold", help="Create or reset MAINTAINER_STANDPUNKT template")
     leit_scaffold.add_argument("--force", action="store_true", help="Overwrite existing file")
+
+    # Wiki Stats Command explicitly listed if we need options
+    stats_parser = subparsers.add_parser("stats", help="Generate Wiki statistics")
+    stats_parser.add_argument("--json", action="store_true", help="Output raw JSON stats block")
+
+    # Check for help-json explicitly before parsing (to bypass required arguments)
+    if "--help-json" in sys.argv:
+        schema = {
+            "name": "7w_wiki_cli",
+            "description": parser.description,
+            "commands": []
+        }
+        # subparsers.choices is a dict mapping cmd_name -> subparser
+        if subparsers and hasattr(subparsers, 'choices'):
+            for cmd_name, subp in subparsers.choices.items():
+                cmd_data = {
+                    "name": cmd_name,
+                    "description": subp.description or "",
+                    "arguments": []
+                }
+                for action in subp._actions:
+                    if action.dest == "help":
+                        continue
+                    arg_data = {
+                        "name": action.dest,
+                        "flags": action.option_strings,
+                        "help": action.help or "",
+                        "required": action.required
+                    }
+                    if action.choices:
+                        arg_data["choices"] = list(action.choices)
+                    cmd_data["arguments"].append(arg_data)
+                schema["commands"].append(cmd_data)
+        
+        print(json.dumps(schema, indent=2))
+        sys.exit(0)
 
     # Check if no arguments provided, default to advisor
     if len(sys.argv) == 1:
@@ -204,19 +359,31 @@ def main():
         run_script(".agent/scripts/advisor.py", adv_args)
 
     elif args.command == "start":
-        print(f"🌟 {BOLD}Willkommen beim Siebenwind Archiv-System{RESET}")
-        view_workflow("start")
+        if args.run:
+            run_workflow("start", auto_yes=args.yes, resume=args.resume)
+        else:
+            print(f"🚀 {BOLD}Workflow: /start{RESET}")
+            view_workflow("start")
 
     elif args.command == "takeover":
-        print(f"🛡️ {BOLD}Workflow: /takeover{RESET}")
-        view_workflow("takeover")
+        if args.run:
+            run_workflow("takeover", auto_yes=args.yes, resume=args.resume)
+        else:
+            print(f"📥 {BOLD}Workflow: /takeover{RESET}")
+            view_workflow("takeover")
 
     elif args.command == "handover":
-        print(f"📦 {BOLD}Workflow: /handover{RESET}")
-        view_workflow("handover")
+        if args.run:
+            run_workflow("handover", auto_yes=args.yes, resume=args.resume)
+        else:
+            print(f"📦 {BOLD}Workflow: /handover{RESET}")
+            view_workflow("handover")
 
     elif args.command == "stats":
-        run_script(".agent/scripts/generate_wiki_stats.py")
+        stats_args = []
+        if args.json:
+            stats_args.append("--json")
+        run_script(".agent/scripts/generate_wiki_stats.py", stats_args)
 
     elif args.command == "test":
         test_args = ["--suite", args.suite, "--timeout", str(args.timeout)]
@@ -300,10 +467,23 @@ def main():
         run_script(".agent/scripts/inquisition.py", inq_args)
 
     elif args.command == "sanitize":
-        sanitize_args = []
+        sanitize_args = [args.target]
         if args.auto:
             sanitize_args.append("--auto")
+        if getattr(args, "json", False):
+            sanitize_args.append("--json")
         run_script(".agent/scripts/wiki_sanitizer.py", sanitize_args)
+
+    elif args.command == "lint":
+        lint_args = [args.target]
+        if args.fix:
+            lint_args.append("--fix")
+        if args.json:
+            lint_args.append("--json")
+        run_script(".agent/scripts/lint_tool.py", lint_args)
+
+    elif args.command == "ingest":
+        run_script(".agent/scripts/ingest_pipeline.py", [args.file])
 
     elif args.command == "score":
         run_script(".agent/scripts/lore_score_manager.py", [args.file])
@@ -315,7 +495,10 @@ def main():
         run_script(".agent/scripts/watcher.py")
 
     elif args.command == "check":
-        run_script(".agent/skills/lektor/style_checker.py", [args.path])
+        check_args = [args.path]
+        if getattr(args, "json", False):
+            check_args.append("--json")
+        run_script(".agent/skills/lektor/style_checker.py", check_args)
 
     elif args.command == "archive":
         if args.archive_cmd == "sync":
@@ -356,8 +539,12 @@ def main():
         run_script(".agent/scripts/agent_mail.py", args.mail_args)
 
     elif args.command == "tech":
-        print(f"🔧 {BOLD}Workflow: /tech (Netz-Ingenieur){RESET}")
-        view_workflow("tech")
+        if getattr(args, "manifest", False):
+            print(f"🔧 {BOLD}Regenerating tools.json manifest...{RESET}")
+            run_script(".agent/scripts/generate_tools_manifest.py")
+        else:
+            print(f"🔧 {BOLD}Workflow: /tech{RESET}")
+            view_workflow("tech")
 
     elif args.command == "antigravity":
         print(f"🧲 {BOLD}Workflow: /antigravity (Core Protocol){RESET}")

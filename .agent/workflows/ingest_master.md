@@ -9,6 +9,8 @@ Dieses Department ist für die Transformation von rohem Wissen in strukturierte 
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py advisor`
+  - `7w_wiki.py advisor`
+  - `7w_wiki.py ingest <file> [--move-to <dir>]`
   - `7w_wiki.py search <query> --source wiki`
   - `7w_wiki.py search <query> --source quellen`
   - `7w_wiki.py search <query> --source all`
@@ -41,8 +43,8 @@ Nutze den [rvw_loop.md](../../.agent/workflows/rvw_loop.md) (Standard-Prozess) f
 Nutze das [ingestion_protocol.md](../../.agent/workflows/ingestion_protocol.md) zur inhaltlichen Vollständigkeitsprüfung (Gilden, Bestiarium, Gerüchteküche).
 
 ## 3. Synchronisation & Abschluss
-- [ ] **Register-Updates**: Synchronisation mit `Personenregister.md` etc.
-- [ ] **Archiv-Sync**: `./7w_wiki.py archive sync` ausführen.
+- [ ] **Ingest-Pipeline ausfuehren**: Nutze `./7w_wiki.py ingest <file>`, was Linting, Archive-Sync und globales Audit vollautomatisch erledigt.
+- [ ] **Register-Updates**: Manuelle Synchronisation mit `Personenregister.md` etc. basierend auf dem Audit-Report.
 - [ ] **Logging**: Eintrag in `Logs/INGESTION_LOG.md`.
 - [ ] **Dispatch-Heartbeat**: Start mit `mail inbox`, Zwischenstatus bei größeren Batches per `mail post`, Abschluss via `mail done`.
 - [ ] **Fragen statt Raten**: Bei inneren Widersprüchen eine gezielte Spezialistenfrage per Dispatch senden (Historian für Lore, Guardian für Konsistenz, Technician für Tooling).
