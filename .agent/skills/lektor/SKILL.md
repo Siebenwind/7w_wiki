@@ -26,10 +26,10 @@ Der Lektor ist ein CLI-Tool, das Markdown-Dateien gegen den **Siebenwind Style G
 
 ```bash
 # Einzelne Datei prüfen
-python3 .agent/skills/lektor/style_checker.py "Siebenwind_Wiki/Chronik/Schlacht_um_Siebenwind.md"
+./7w_wiki.py check Siebenwind_Wiki/Chronik/Schlacht_um_Siebenwind.md
 
-# Ganzen Ordner prüfen
-python3 .agent/skills/lektor/style_checker.py "Siebenwind_Wiki/Chronik/"
+# Mit JSON-Ausgabe
+./7w_wiki.py check Siebenwind_Wiki/Chronik/ --json
 ```
 
 ## Konfiguration

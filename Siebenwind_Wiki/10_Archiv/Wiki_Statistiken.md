@@ -6,7 +6,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-02-19 22:06
+**Stand:** 2026-02-19 22:28
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -29,8 +29,8 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 1346 | - | - |
-| Letzte 30 Tage | 1346 | 1333 | 104 |
+| Letzte 7 Tage | 1290 | - | - |
+| Letzte 30 Tage | 1346 | 1333 | 106 |
 | Letzte 90 Tage | 1346 | - | - |
 
 ---
@@ -138,28 +138,22 @@ pie title Artikel pro Sektion
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 88 |
 | Davon ohne Ausnahme-Metadaten | 68 |
-| Test-Suiten PASS | 7 |
-| Test-Suiten FAIL | 2 |
+| Test-Suiten PASS | 2 |
+| Test-Suiten FAIL | 1 |
 
 ### Letzte Test-Suites
 | Suite | Ergebnis | PASS | FAIL | SKIP |
 | :--- | :--- | ---: | ---: | ---: |
-| `bridge-placeholder-guard` | **PASS** | 2 | 0 | 0 |
 | `clean-client-state` | **PASS** | 8 | 0 | 0 |
-| `interop-doc-links` | **PASS** | 1 | 0 | 0 |
 | `json-interop-contract` | **FAIL** | 2 | 2 | 0 |
-| `process-dispatch-curiosity` | **PASS** | 1 | 0 | 0 |
-| `rag-relevance-smoke` | **FAIL** | 1 | 3 | 0 |
 | `reader-stats-contract` | **PASS** | 2 | 0 | 0 |
-| `source-link-hygiene` | **PASS** | 1 | 0 | 0 |
-| `takeover-handover` | **PASS** | 5 | 0 | 0 |
 
 
 ## 📍 Fortschritt Live Verfolgen
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_0a25a6da-6e14-4ff7-94a4-57a863152944.txt`
+- Letzter Audit: `Logs/Archive/Audit_15a5bbc8-d96d-49a4-8313-b5a5ea76ec3b.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

@@ -15,11 +15,15 @@ Kuratiertes Lore-Archiv fuer die Welt Siebenwind mit offenem KI-Betrieb, Audit-T
 ## Fuer technisch Interessierte: Was die Engine kann
 
 - **Einheitliche Runtime Authority:** Alle Operationen laufen ueber `./7w_wiki.py <command>`.
-- **Oracle/RAG mit Source-Scope:** Reproduzierbare Suche mit `--source wiki|quellen|all`.
+- **Oracle/RAG mit Source-Scope:** Reproduzierbare semantische Suche mit `--source wiki|quellen|all`.
+- **Self-Describing CLI:** `./7w_wiki.py --help-json` fuer dynamische Introspection, `.agent/config/tools.json` fuer OpenAI-kompatible Tool-Definitionen.
+- **Universal JSON:** Alle Kernkommandos unterstuetzen `--json` fuer maschinenlesbare Ausgabe.
+- **Lint- und Ingest-Pipelines:** `lint` (Sanitizer + Lektor + Score) und `ingest` (Lint + Archive Sync + Audit) als Ein-Befehl-Pipelines.
+- **Version Management:** Zentrales `VERSION` File mit `./7w_wiki.py version --bump`.
+- **Archivar:** `archive rotate` komprimiert veraltete Logs, rotiert DONE-Dispatches und archiviert abgeschlossene Tickets.
+- **Workflow Automation:** `--run` und `--resume` fuer Start/Takeover/Handover Workflows.
 - **Qualitaetsgates:** Standardisierte Testsuiten plus Audit-Check als Integritaetsbarriere.
-- **Pages-Pipeline:** Lokale Validierung und Strict Build fuer GitHub Pages.
-- **Agentenkoordination:** Dispatch-Bus fuer Auftragsrouting, Claim/Done-Flow und nachvollziehbare Historie.
-- **Transparenter Betrieb:** Changelog, Reports, Taskliste und Synapse-Board sind im Repo sichtbar.
+- **Agentenkoordination:** Dispatch-Bus mit `--report-path` und strukturierten Payloads.
 
 ## 5-Minuten Tech Tour
 
@@ -30,17 +34,17 @@ Kuratiertes Lore-Archiv fuer die Welt Siebenwind mit offenem KI-Betrieb, Audit-T
 # 2) Oracle mit expliziter Quelle
 ./7w_wiki.py search "Dunvallo Linari" --source wiki
 
-# 3) Interop- und Basiszustand pruefen
-./7w_wiki.py test --suite interop-doc-links
-./7w_wiki.py test --suite clean-client-state
+# 3) Lint-Pipeline (Sanitizer + Lektor + Score)
+./7w_wiki.py lint Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md --fix
 
-# 4) Integritaets- und Publishing-Checks
-./7w_wiki.py audit
-./7w_wiki.py pages build --strict
+# 4) Ingest-Pipeline (Lint + Archive Sync + Audit)
+./7w_wiki.py ingest Quellen/Zeitung\ 7w\ Bote/Bote_194.md
 
-# 5) Menschlichen Leitpunkt pruefen
-./7w_wiki.py leitpunkt status
-./7w_wiki.py leitpunkt check
+# 5) Archivar (Log-Rotation)
+./7w_wiki.py archive rotate --dry-run
+
+# 6) Version pruefen
+./7w_wiki.py version
 ```
 
 ## Kernbereiche im Repository

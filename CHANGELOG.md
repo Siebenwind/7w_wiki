@@ -1,5 +1,30 @@
 # Changelog
 
+#### [2026-02-19.06] - Full Automation Upgrade: Cleanup, Archivar & v3.0
+- **P1**
+- **Hinzugefügt**:
+  - **Version Management**: `VERSION` Datei als Single Source of Truth. `./7w_wiki.py version [--bump major|minor|patch]` mit automatischer Propagation zu `MASTER_TASK_LIST.md` und `Siebenwind_Wiki/index.md`. Wiki-Standard auf **v3.0** angehoben.
+  - **Archivar (Tier C)**: `./7w_wiki.py archive rotate [--dry-run] [--keep-days N]` komprimiert veraltete Logs in datierte `.tar.gz` Archive, rotiert DONE-Dispatches, archiviert abgeschlossene Tickets. `./7w_wiki.py archive unpack <name>` für On-Demand-Entpackung.
+  - **Handover Automation**: `archive rotate` und `tech --manifest` als `// turbo` Schritte im Handover-Workflow verankert.
+  - **`// turbo` Annotations**: `audit.md`, `docs.md`, `test_run.md` mit Automatisierungsmarkern versehen.
+- **Geändert**:
+  - **README.md**: Feature-Liste und Tech-Tour auf v3.0 aktualisiert (lint, ingest, archivar, version, JSON API).
+  - **AGENTS.md**: `.agents/skills/` Referenz durch `tools.json` und `--help-json` ersetzt.
+  - **`tools.json`**: Regeneriert mit 28 Tools (neu: `version`).
+- **Entfernt (Tier A Cleanup)**:
+  - 12 Dead Scripts nach `.agent/scripts/_archive/` verschoben (source_integrator, fix_absolute_links, fix_bridge_metadata, fix_nested_links, restore_index_links, standardize_filenames, create_stubs, link_guard, refactor_changelog, refactor_master_task_list, metadata_helper, reference_fixer).
+  - 8 redundante Bridge Skills aus `.agents/skills/` gelöscht (sanitize, lektor-check, stats, oracle, onboarding, historian, interop-audit, test-run). Nur `art_director` bleibt.
+  - `persona_extractor` Skill gelöscht (Vaporware: referenziert nicht-existentes Script).
+  - `PRODUCTION_NOTE_TEMPLATE.md` gelöscht (nie verwendet).
+- **Behoben (Skill Fixes)**:
+  - `time_keeper`: H1 von `# Unknown` auf `# Time Keeper – Sonnenzirkel Kalender` korrigiert.
+  - `lektor`: Nutzungssektion auf `./7w_wiki.py check` aktualisiert (statt roher Python-Pfade).
+  - `wiki_schmied`: Referenz auf archivierten `metadata_helper.py` entfernt.
+- **Validiert**:
+  - Archivar Erstlauf: 698 Dateien verarbeitet (445 Audits, 240 Tests, 4 Snapshots, 6 Sessions). `Logs/Archive/`: 755 → 97 Dateien, 24 MB → 10 MB.
+  - Version v3.0 erfolgreich propagiert.
+  - `tools.json` mit 28 Einträgen regeneriert.
+
 #### [2026-02-19.05] - Inter-AI Compliance Upgrade (6 Pillars)
 - **P1**
 - **Hinzugefügt**:

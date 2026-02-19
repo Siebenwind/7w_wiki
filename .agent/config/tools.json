@@ -462,7 +462,9 @@
             "type": "string",
             "description": "",
             "enum": [
-              "sync"
+              "sync",
+              "rotate",
+              "unpack"
             ]
           }
         },
@@ -523,6 +525,40 @@
           "manifest": {
             "type": "string",
             "description": "Generate OpenAPI tools.json from CLI context"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_version",
+      "description": "Execute the version command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "bump": {
+            "type": "string",
+            "description": "Bump version",
+            "enum": [
+              "major",
+              "minor",
+              "patch"
+            ]
+          },
+          "label": {
+            "type": "string",
+            "description": "Version label"
+          },
+          "dry_run": {
+            "type": "string",
+            "description": "Show changes without writing"
+          },
+          "json": {
+            "type": "string",
+            "description": "Output version as JSON"
           }
         },
         "required": []

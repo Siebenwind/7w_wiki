@@ -30,7 +30,7 @@ category: Index
     <img src="https://img.shields.io/badge/Status-Aktiv-vibrantgreen?style=for-the-badge&logo=github" alt="Project Status">
   </a>
   <a href="../CHANGELOG.md">
-    <img src="https://img.shields.io/badge/Version-Reconstruction_v2.1-orange?style=for-the-badge" alt="Version">
+    <img src="https://img.shields.io/badge/Version-v3.0-orange?style=for-the-badge" alt="Version">
   </a>
 </p>
 

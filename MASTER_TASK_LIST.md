@@ -3,10 +3,10 @@
 Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **aktiven Fokus** von der **Projekthistorie** und definiert klare Standards für die Aufgabenpriorisierung.
 
 ## 📊 Status-Übersicht
-- **Wiki-Standard:** v2.7 (Engine Stabilized / CLI Unified)
+- **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-19 22:05 (Antigravity -> Next Agent)
-- **Status**: Inter-AI Compliance Upgrade complete (6 Pillars). JSON API for all core tools; `tools.json` manifest; `--resume` for workflows; Structured Dispatch payloads.
+- **Last Handover**: 2026-02-19 22:27 (Antigravity -> Next Agent)
+- **Status**: v3.0 Release — 6 Pillars, Archivar, Version Management, Tier A Cleanup complete. 28 tools in manifest. 698 stale files compressed.
 
 ---
 

@@ -292,6 +292,13 @@ def main():
     tech_parser = subparsers.add_parser("tech", help="Show Technician workflow (DevOps & Infrastructure)")
     tech_parser.add_argument("--manifest", action="store_true", help="Generate OpenAPI tools.json from CLI context")
 
+    # Version Management
+    ver_parser = subparsers.add_parser("version", help="Show or bump the wiki standard version")
+    ver_parser.add_argument("--bump", choices=["major", "minor", "patch"], help="Bump version")
+    ver_parser.add_argument("--label", default="Inter-AI Compliant", help="Version label")
+    ver_parser.add_argument("--dry-run", action="store_true", help="Show changes without writing")
+    ver_parser.add_argument("--json", action="store_true", help="Output version as JSON")
+
     # Antigravity (Core Protocol)
     subparsers.add_parser("antigravity", help="Show Antigravity core workflow (default protocol)")
 
@@ -558,6 +565,18 @@ def main():
         else:
             print(f"🔧 {BOLD}Workflow: /tech{RESET}")
             view_workflow("tech")
+
+    elif args.command == "version":
+        ver_args = []
+        if getattr(args, "bump", None):
+            ver_args.extend(["--bump", args.bump])
+        if getattr(args, "label", None):
+            ver_args.extend(["--label", args.label])
+        if getattr(args, "dry_run", False):
+            ver_args.append("--dry-run")
+        if getattr(args, "json", False):
+            ver_args.append("--json")
+        run_script(".agent/scripts/version_manager.py", ver_args)
 
     elif args.command == "antigravity":
         print(f"🧲 {BOLD}Workflow: /antigravity (Core Protocol){RESET}")
