@@ -1,48 +1,47 @@
---- 
+---
 layout: wiki_page
-title: index Grundlagen
-category: Allgemein
-lore_trust: 2
+uuid: f5d6e7f8-a1b2-4c3d-bd8e-1a2b3c4d5e6f
+title: Grundlagen der Magie
+category: Magie
+status: Kanon
+quelle: ../../Quellen/Hintergrund/Magie | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+lore_trust: 10
+letzter_check: 2026-02-19T22:55:00Z
+report_id: f5d6e7f8-a1b2-4c3d-bd8e-1a2b3c4d5e6f
 ---
 
-# Wissen Grundlagen
+# Grundlagen der Magie
 
 **Epistemischer Status:** #canon
 
-Die Theorie der Magie auf [[Tare]] ist eine jahrtausendealte Wissenschaft, die das Verständnis der Elemente, der Sphären und der inneren Kraft des Geistes vereint.
+Magie auf [[Tare]] ist eine angeborene Gabe, die es ermöglicht, durch Geste, Formel oder Ritus die verborgenen Gesetze der Welt zu beugen. Während die Herkunft der Kraft im Dunkeln liegt, ist Astrael als Patron der Magie bekannt; Legenden besagen, er opferte sein linkes Auge, um den Sterblichen den Zugang zum Arcanum zu gewähren.
 
-## Die Quellen der Macht
-### 1. Elementarmagie
-Die rohe Wissen wird durch die vier **[[Die_Gohor|Ur-Elemente]]** und ihre elementaren Herrscher ([[Enhor]]) gespeist:
-*   **[[Ignis]] (Feuer):** Kraft der Zerstörung und radikalen Wandlung.
-*   **[[Rien]] (Erde/Natur):** Kraft des Wachstums und der materiellen Stabilität.
-*   **[[Ventus]] (Luft):** Kraft der Bewegung, des Schalls und der Freiheit.
-*   **[[Xan]] (Wasser):** Kraft der Tiefe, der Heilung und des Flusses.
+## Die Vier Pfade der Magie
+In den Akademien Galadons (wie der [[Koenigliche_Akademie_zu_Siebenwind]]) wird die Magie in vier etablierte Traditionen oder "Pfade" unterteilt:
 
-### 2. Formierte Wissen
-Über den Elementen steht die Geltung des **[[Astrael]]**. Er lehrt nicht die rohe Kraft, sondern die *Matrix* — die Fähigkeit, das arkane Geflecht durch Formeln, Siegel und Rituale zu ordnen.
+| Pfad | Charakteristik | Anwendung |
+| :--- | :--- | :--- |
+| **[[Weissmagie\|Weißer Pfad]]** | Heilend & Fördernd | Heilung, Schutz, Bannung von Geistern. |
+| **[[Elementarmagie\|Elementarer Pfad]]** | Manipulativ | Nutzung der vier Elemente ([[Ignis]], [[Rien]], [[Ventus]], [[Xan]]). |
+| **[[Graumagie\|Grauer Pfad]]** | Akademisch & Vielseitig | Kampfmagie, Illusion, Verwandlung. |
+| **[[Schwarzmagie\|Schwarzer Pfad]]** | Zerstörerisch | Nekromantie, Dämonologie. Fest im Griff [[Angamon]]s. |
 
-## Die drei Pfade
-In der Praxis der Gelehrten wird die Wissen oft nach ihrer philosophischen Ausrichtung eingeteilt:
-- **[[Weissmagie|Weißer Pfad]]:** Fokus auf Heilung, Schutz und Bannung dämonischer Einflüsse. Eng verbunden mit dem [[Ordo_Vitamae]] und [[Ordo_Astraeli]].
-- **[[Graumagie|Grauer Pfad]]:** Der akademische Weg. Fokus auf Erkenntnis, Elementarmanipulation und die Erforschung der Weltgesetze (siehe [[Magietheorie_Toran_Dur]]).
-- **[[Schwarzmagie|Schwarzer Pfad]]:** Geächtete Praktiken der Nekromantie und Dämonologie, die oft den Einfluss von [[Angamon]] suchen.
+## Die Ausbildung
+Die Ausbildung eines Magiers beginnt meist im Alter von 6 bis 12 Jahren und dauert etwa zehn Götterläufe. Bei den [[Hochelfen]] manifestiert sich die Gabe oft erst mit ca. 90 Jahren.
 
-## Astralenergie
-Die Fähigkeit, Wissen zu wirken, entspringt der **Astralenergie** (AE) des Individuums. Während [[Rasse_Elfen|Elfen]] diese Kraft als natürlichen Teil ihres Seins empfinden, müssen andere Rassen sie durch jahrelanges Studium an den [[Akademie|Akademien]] (wie in [[Brandenstein]]) mühsam bündeln lernen.
+## Historische Meilensteine
+*   **Die "Weiße Ära" (ca. -4000 n.H.):** Unter den Königen ap Erson eskalierte ein Konflikt zwischen Grau- und Weißmagiern zu einem vernichtenden Krieg, der Gebirge sprengte und Flüsse verdampfte.
+*   **Das Edikt von Ersont (4 n.H.):** Eine wegweisende Rede definierte die Rolle der Magier als Schützer und Forscher im Auftrag der Krone.
 
-## Der Zaubervorgang (Locus Magicae)
-Nach der Theorie von **[[Johannes_Klos]]** wird Wissen nicht direkt, sondern über eine mentale Schnittstelle gewirkt, den sogenannten **Locus Magicae**.
-
-### Die drei Instanzen
-1. **Empfänger:** Nimmt Signale (Worte, Gesten, Gedanken) auf.
-2. **Interpreter:** Ordnet Signale erlernten Mustern oder Modellen zu.
-3. **Konstruktor:** Erzeugt basierend auf der Interpretation den eigentlichen magischen Akt.
-
-### Arten der Magiewirkung
-- **[[Gefühlsmagie]]:** Intuitive Nutzung von Emotionen (z.B. bei [[Rasse_Elfen|Elfen]] oder Kindern).
-- **Niedere Wissen:** Nutzung fester "Vokabeln" (starke Reiz-Reaktions-Verknüpfung durch ständiges Üben).
-- **Höhere Wissen:** Anwendung komplexer Wissen ([[Die_Sprache_Run|Run]]) und theoretischer Modelle (z.B. Astralgitter).
+## Magische Archetypen
+Das Wirken eines Magiers wird oft durch seine persönliche Philosophie geprägt:
+*   **Der Karrierist:** Sucht Einfluss an Adelshöfen als Berater.
+*   **Der Fanatiker:** Besessen von arkanen Rätseln, oft rücksichtslos in der Forschung.
+*   **Der Dorfmagier:** Zieht ein ruhiges Leben in der Gemeinschaft vor.
+*   **Der Berufsmagier:** Nutzt seine Gaben pragmatisch für den Lebensunterhalt.
 
 ---
-**Siehe auch:** [[Magietheorie_Toran_Dur]], [[Sphärenkunde]], [[Codex_Astraeli]], [[Astrael]]
+
+## Referenzen
+- Primärquelle: [Magie](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Hintergrund/Magie%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20%20|%20Siebenwind.md)
+- > [!ABSTRACT] Prüfbericht verfügbar: [[2026-02-19_Magie_Grundlagen]] (ID: f5d6e7f8-a1b2-4c3d-bd8e-1a2b3c4d5e6f)

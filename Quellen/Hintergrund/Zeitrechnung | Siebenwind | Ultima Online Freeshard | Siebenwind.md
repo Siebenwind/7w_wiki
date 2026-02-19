@@ -1,7 +1,8 @@
----
+--- 
 layout: post
 title: "Zeitrechnung | Siebenwind | Ultima Online Freeshard | Siebenwind"
 category: Allgemein
+lore_trust: 2
 ---
 
 ## Zeitrechnung

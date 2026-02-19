@@ -1,5 +1,24 @@
 # Changelog
 
+#### [2026-02-19.07] - MCP Server Implementation (Model Context Protocol)
+- **P1**
+- **Hinzugefügt**:
+  - **MCP Server**: `System/MCP/server.py` — Thin-Relay-Architektur mit Dual-Mode-Startup (stdio + streamable-http). Delegiert alle Aufrufe an `./7w_wiki.py`. Oracle-Probe mit Grep-Fallback bei Offline-Index.
+  - **Auto-Extraction Pipeline**: `System/MCP/generate_mcp_tools.py` — generiert **27 MCP-Tool-Definitionen** automatisch aus `./7w_wiki.py --help-json`. Zero-Maintenance: neuer CLI-Befehl = neues MCP-Tool.
+  - **Client Config**: `mcp_config.json` im Repo-Root für Auto-Discovery durch MCP-Clients (Antigravity, Claude Desktop, Cursor).
+  - **CLI-Befehl**: `./7w_wiki.py mcp [--transport stdio|streamable-http] [--port 7777]`.
+  - **`[QUIP]` Tag**: Neuer offizieller Dispatch-Tag für interdepartmentale Humor-Nachrichten. `wiki_mail_quip` als MCP-Tool (280 Zeichen, Priority LOW, auto-DONE).
+  - **Doku**: `System/MCP/README.md` (Quick Start, Daemon Setup, Tool-Liste, Architektur).
+- **Geändert**:
+  - `AGENTS.md`: MCP-Sektion, Command-Registry-Eintrag, QUIP-Encouragement. Standard auf v1.2 (MCP-Enabled) angehoben.
+  - `SY_DISPATCH.md`: `[QUIP]` Tag in der Routing-Sektion ergänzt.
+  - `7w_wiki.py`: `mcp` Subcommand (Parser + Handler) hinzugefügt.
+- **Validiert**:
+  - `generate_mcp_tools.py` generiert 27 Tools (Syntax OK).
+  - `server.py` Syntax-Check (PASS).
+  - MCP SDK Herkunft verifiziert (offizielles Anthropic Repo `modelcontextprotocol/python-sdk`).
+  - Runtime-Test pending (benötigt `pip install 'mcp[cli]'`).
+
 #### [2026-02-19.06] - Full Automation Upgrade: Cleanup, Archivar & v3.0
 - **P1**
 - **Hinzugefügt**:

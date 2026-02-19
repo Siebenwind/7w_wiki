@@ -1,83 +1,79 @@
 ---
 layout: wiki_page
+uuid: 59bc8a3c-1d0b-47e9-a477-8d828c869ea0
 title: Zeitrechnung (Der Sonnenzirkel)
 category: Allgemein
 status: Kanon
+quelle: ../../Quellen/Hintergrund/Zeitrechnung | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+lore_trust: 10
+letzter_check: 2026-02-19T22:38:00Z
+report_id: 59bc8a3c-1d0b-47e9-a477-8d828c869ea0
 ---
 
 # Zeitrechnung (Der Sonnenzirkel)
 
 **Epistemischer Status:** #canon
 
-Die Zeitrechnung auf [[Siebenwind]] und im Königreich Galadon folgt dem **Sonnenzirkel**. Dieses System ist fest in den Zyklen der Natur und den Bahnen der Himmelskörper (Sonne Fela, Mond Vitamalin) verankert.
+Die Zeitrechnung auf [[Siebenwind]] und im Königreich Galadon folgt dem **Sonnenzirkel**. Dieses System ist fest in den Zyklen der Natur und den Bahnen der Himmelskörper (Sonne Fela, Mond Vitamalin) verankert. Die Symmetrie der Bewegung gilt als Beweis göttlichen Ursprungs.
+
+## Die täglichen Zyklen
+
+Ein Tag auf Tare besteht aus **acht Zyklen**. Jeder Zyklus umfasst eine helle Phase (2 Stunden) und eine dunkle Phase (1 Stunde), was einen direkten Bezug zur Zeitrechnung der realen Welt herstellt.
+
+| Zyklus | Hell | Dunkel |
+| :--- | :--- | :--- |
+| 1 | 00:00 – 01:59 | 02:00 – 02:59 |
+| 2 | 03:00 – 04:59 | 05:00 – 05:59 |
+| 3 | 06:00 – 07:59 | 08:00 – 08:59 |
+| 4 | 09:00 – 10:59 | 11:00 – 11:59 |
+| 5 | 12:00 – 13:59 | 14:00 – 14:59 |
+| 6 | 15:00 – 16:59 | 17:00 – 17:59 |
+| 7 | 18:00 – 19:59 | 20:00 – 20:59 |
+| 8 | 21:00 – 22:59 | 23:00 – 23:59 |
+
+Sieben dieser Tage bilden eine Woche: **Mondtag, Wandeltag, Mittentag, Vieretag, Endtag, Königstag** und **Felatag**.
 
 ## Der Jahreskreis
 
-Ein Jahr auf [[Tare]] hat **365 Tage** (im Schaltjahr 366). Es ist unterteilt in vier Jahreszeiten, die den Göttern zugeordnet sind, und zwölf Monate.
+Ein Jahr auf [[Tare]] hat **365 Tage** (im Schaltjahr 366). Es ist unterteilt in vier Jahreszeiten und zwölf Monate.
+
+### Die Monate und "Mondspaare"
+
+Jeder Monat hat exakt 4 Wochen à 7 Tage (28 Tage). Die Monate treten in Paaren auf, die sich durch ihre Endungen "er" (Vollmond zu Beginn) und "ar" (Finsternis zu Beginn) unterscheiden.
+
+| Paarung | NR | Monat | Jahreszeit | Irdisches Äquivalent |
+| :--- | :--- | :--- | :--- | :--- |
+| **Oner-Onar** | 1 / 2 | Oner / Onar | [[Morsan]] | Dez / Jan |
+| **Duler-Dular** | 3 / 4 | Duler / Dular | [[Vitama]] | Feb / Mär |
+| **Trier-Triar** | 5 / 6 | Trier / Triar | [[Vitama]] / [[Astrael]] | Apr / Mai |
+| **Querler-Querlar** | 7 / 8 | Querler / Querlar | [[Astrael]] | Jun / Jul |
+| **Carmer-Carmar** | 9 / 10 | Carmer / Carmar | [[Bellum]] | Aug / Sep |
+| **Seker-Sekar** | 11 / 12 | Seker / Sekar | [[Bellum]] / [[Morsan]] | Okt / Nov |
+
+*Hinweis: Die exakte Zuordnung der Jahreszeiten variiert leicht nach dem lokalen Klima.*
 
 ### Die Jahreszeiten
 
 | Jahreszeit | Gott | Charakteristik |
 | :--- | :--- | :--- |
-| **[[Morsan]]** | [[Morsan]] | Winter. Stille des Schnees, Zeit des Schlafs und der Ahnen. |
-| **[[Vitama]]** | [[Vitama]] | Frühling. Das Erwachen der Säfte, Liebe und Blütezeit. |
-| **[[Astrael]]** | [[Astrael]] | Sommer. Zenith des Wissens, flirrende Hitze und Klarheit. |
-| **[[Bellum]]** | [[Bellum]] | Herbst. Eisenharte Stürme, Ernte dank des Stahls und der Ehre. |
+| **[[Morsan]]** | [[Morsan]] | Winter. Sekar bis Onar. Stille des Schnees, Zeit des Schlafs. |
+| **[[Vitama]]** | [[Vitama]] | Frühling. Duler bis Trier. Erwachen der Säfte, Blütezeit. |
+| **[[Astrael]]** | [[Astrael]] | Sommer. Triar bis Querlar. Zenith des Wissens, flirrende Hitze. |
+| **[[Bellum]]** | [[Bellum]] | Herbst. Carmer bis Seker. Eisenharte Stürme, Ernte und Ehre. |
 
-### Die Monate
+## Die verlorenen Tage (Sonnenwenden)
 
-Das Jahr beginnt im tiefsten Winter. Jeder Monat hat exakt 4 Wochen à 7 Tage (28 Tage), ergänzt durch spezielle Tage außerhalb der Kalenderwochen (siehe "Die verlorenen Tage").
+Rechnet man das Standardjahr (12 x 28 Tage), kommt man auf 336 Tage. Die fehlenden ~30 Tage verteilen sich auf besondere Phasen, vor allem auf die Sonnenwenden:
 
-| NR | Monat | Jahreszeit | Irdisches Äquivalent (ca.) |
-| :--- | :--- | :--- | :--- |
-| 1 | **Sekar** | [[Morsan]] | Dezember |
-| 2 | **Oner** | [[Morsan]] | Januar |
-| 3 | **Onar** | [[Morsan]] | Februar |
-| 4 | **Duler** | [[Vitama]] | März |
-| 5 | **Dular** | [[Vitama]] | April |
-| 6 | **Trier** | [[Vitama]] | Mai |
-| 7 | **Triar** | [[Astrael]] | Juni |
-| 8 | **Querler** | [[Astrael]] | Juli |
-| 9 | **Querlar** | [[Astrael]] | August |
-| 10 | **Carmer** | [[Bellum]] | September |
-| 11 | **Carmar** | [[Bellum]] | Oktober |
-| 12 | **Seker** | [[Bellum]] | November |
-
-## Die verlorenen Tage
-
-Rechnet man das Standardjahr (12 x 28 Tage), kommt man auf 336 Tage. Die fehlenden ~30 Tage verteilen sich auf besondere Phasen zwischen den Monaten und Jahreszeiten, vor allem auf die beiden großen Sonnenwenden:
-
-*   **[[Lichthoch]] (Sommersonnenwende):** Das Fest des Lichts. Zwei Tage lang herrscht Helligkeit (oder zumindest sehr lange Tage). Es findet zwischen den Monaten **Triar** und **Querler** statt und markiert den Höhepunkt von Astraels Macht.
-*   **[[Dunkeltief]] (Wintersonnenwende):** Die Zeit der Finsternis. Drei Tage lang bleibt Felas Licht verborgen. Dies ist eine gefährliche Zeit zu Beginn des Monats **Oner**, in der Geister und [[Daemonen]] stärker sind. Der Tag davor (01. Oner) wird "Scheidetag" oder "Zapfenstreicher" genannt.
+*   **[[Lichthoch]] (Sommersonnenwende):** Zwischen Triar und Querler. Zwei Tage (alle vier Jahre drei Tage) taghelle Nächte durch das Verschmelzen der zwei großen Monde am Zenit.
+*   **[[Dunkeltief]] (Wintersonnenwende):** Zu Beginn des Monats Oner. Drei Tage völlige Finsternis ohne Felas Licht. Nach Ende des Dunkeltiefs beginnt im Volksmund das neue Jahr.
 
 ## Ären und Zählung
 
-Die gebräuchlichste Zeitrechnung auf [[Siebenwind]] ist **"nach Hilgorad" (n.H.)**.
-*   **Bezugspunkt:** Die Krönung oder das Wirken von Hilgorad.
-*   **Aktuelle Zeit:** Die Ereignisse des *[[Siebenwind]] Boten* spielen im Zeitraum **15 n.H. bis 36 n.H.**
+Die gebräuchlichste Zeitrechnung ist **"nach Hilgorad" (n.H.)**.
+*   **Bezugspunkt:** Die Gründung Helighenstadts bzw. das Wirken von Hilgorad (0 n.H.).
+*   **Aktueller Status:** Das Jahr **2026 n. Chr.** entspricht dem Jahr **36 n.H.**
 
-### Zeit-Konverter (Real Welt vs. Lore)
-
-Das Siebenwind-Archiv korreliert in seiner Entwicklung direkt mit der irdischen Zeitrechnung (seit dem Projektstart 2004).
-
-| Epoche / Ereignis | Lore-Jahr (n.H.) | Reales Jahr (ca.) |
-| :--- | :--- | :--- |
-| **Projektstart / Batch 1** | 15 n.H. | 2004 |
-| Aufstieg Brandensteins | 20 n.H. | 2009 |
-| Die Zeit der Könige | 30 n.H. | 2019 |
-| **Aktueller Lore-Status** | **36 n.H.** | **2026** |
-
-> [!NOTE]
-> Die Umrechnung folgt einem einfachen **1:1 Schlüssel**. Ein Jahr in der realen Welt entspricht einem Jahr in der Geschichte von Siebenwind. Der Offset beträgt **-1989/1990** (2026 - 36 = 1990).
-
-## Wichtige Feiertage
-*   **3. Dular:** Fest der [[Vitama]] (Frühlingsfest).
-*   **[[Lichthoch]]:** Siehe oben.
-*   **[[Dunkeltief]]:** Siehe oben.
-
-## Der Mond Vitamalin
-Der Mond *Vitamalin* folgt einem strengen Zyklus von 15 Phasen und dient als zuverlässiger Taktgeber für die Monate.
-
-## Siehe auch
-*   [[Historie_&_Ären]]
-*   [[Zeitleiste_(15-30_n.H.)]]
+## Referenzen
+- Primärquelle: [Zeitrechnung](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Hintergrund/Zeitrechnung%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)
+- > [!ABSTRACT] Prüfbericht verfügbar: [[2026-02-19_Zeitrechnung_Sonnenzirkel]] (ID: 59bc8a3c-1d0b-47e9-a477-8d828c869ea0)

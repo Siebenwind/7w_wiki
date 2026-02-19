@@ -67,6 +67,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `tech` | Show Technician workflow (DevOps logic). | `.agent/workflows/tech.md` |
 | `antigravity` | Show core default protocol (`/antigravity`). | `.agent/workflows/antigravity.md` |
 | `leitpunkt [view\|status\|check\|scaffold]` | Manage the human maintainer standpoint (workflow + validation). | `.agent/workflows/leitpunkt.md` |
+| `mcp [--transport stdio\\|streamable-http] [--port N]` | Start MCP Server (structured tool interface for AI agents). | `System/MCP/server.py` |
 
 ## 📂 Documentation Map
 
@@ -94,4 +95,18 @@ For any non-trivial research, run the Oracle with explicit source scope:
 - `--source all` for combined cross-checking
 
 ---
-*Generated: 2026-02-16 | Standard: v1.1 (Interop-Aligned)*
+
+## 🔌 MCP Server (Model Context Protocol)
+
+An MCP server is available that wraps the entire CLI as structured, typed tools for AI agents.
+
+- **Start**: `./7w_wiki.py mcp` (stdio) or `./7w_wiki.py mcp --transport streamable-http --port 7777` (network)
+- **Auto-Discovery**: `mcp_config.json` at repo root for MCP-capable clients
+- **Docs**: [System/MCP/README.md](System/MCP/README.md)
+- **27 Tools** auto-generated from `--help-json` — zero maintenance
+- **`wiki_mail_quip`**: You ARE encouraged to use this tool for in-character interagency commentary, humor, and personality. See `[QUIP]` tag in [SY_DISPATCH.md](System/Synapse_Board/SY_DISPATCH.md).
+
+> **Dependency**: `pip install 'mcp[cli]'`
+
+---
+*Generated: 2026-02-19 | Standard: v1.2 (MCP-Enabled)*

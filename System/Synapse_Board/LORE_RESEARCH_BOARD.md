@@ -15,6 +15,9 @@ Dieses Board dient der Koordinierung von Forschungsaufträgen. Hier werden "wei�
 | [[RESEARCH-2026-008]] | Die Dur-Identität (Toran Dur) | 🔴 Hoch | DONE | Biografie/Magie |
 | [[RESEARCH-2026-009]] | Gilden-Struktur & Handwerk | 🟡 Mittel | DONE | Gesellschaft |
 | [[RESEARCH-2026-012]] | Das Grünland (Geografie & Siedlung) | 🔴 Hoch | TENDERED | Geografie |
+| [[RESEARCH-2026-015]] | Rekonstruktion der "Weißen Ära" | 🔴 Hoch | TENDERED | Geschichte/Magie |
+| [[RESEARCH-2026-016]] | Das Hardhaven-Anachronismus | 🟡 Mittel | TENDERED | Geografie/Chronik |
+| [[RESEARCH-2026-017]] | Die Logbücher der "Nordwind" (1 n.H.) | 🔴 Hoch | CLAIMED (Oberarchivar) | Chronik/Entdeckung |
 
 ## 🧬 Archivierte / Abgeschlossene Aufträge
 

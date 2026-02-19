@@ -6,7 +6,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-02-19 22:28
+**Stand:** 2026-02-19 22:40
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -16,11 +16,11 @@ category: Index
 
 | Kennzahl | Wert |
 | :--- | :--- |
-| Artikel | **1352** |
-| Worte | **186,769** |
-| Durchschnittliche Artikellaenge | **138 Worte** |
-| Interne Verweise (`[[...]]`) | **13,752** |
-| Vernetzungsdichte | **10.2 Links/Artikel** |
+| Artikel | **1354** |
+| Worte | **187,746** |
+| Durchschnittliche Artikellaenge | **139 Worte** |
+| Interne Verweise (`[[...]]`) | **13,729** |
+| Vernetzungsdichte | **10.1 Links/Artikel** |
 | Personenprofile | **586** |
 
 ---
@@ -30,7 +30,7 @@ category: Index
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
 | Letzte 7 Tage | 1290 | - | - |
-| Letzte 30 Tage | 1346 | 1333 | 106 |
+| Letzte 30 Tage | 1346 | 1333 | 107 |
 | Letzte 90 Tage | 1346 | - | - |
 
 ---
@@ -44,7 +44,7 @@ pie title Artikel pro Sektion
     "08_Bestiarium" : 33
     "03_Wissen" : 54
     "03_Gesellschaft" : 53
-    "05_Geschichte" : 55
+    "05_Geschichte" : 57
     "10_Archiv" : 18
     "02_Geografie" : 57
     "01_Pantheon" : 51
@@ -58,7 +58,7 @@ pie title Artikel pro Sektion
 
 | Sektion | Artikel | Ø Worte/Artikel | Ø Links/Artikel |
 | :--- | ---: | ---: | ---: |
-| `01_Pantheon` | 51 | 420 | 11.0 |
+| `01_Pantheon` | 51 | 424 | 11.0 |
 | `05_Magie` | 41 | 279 | 10.4 |
 | `04_Chronik` | 83 | 272 | 33.0 |
 | `03_Wissen` | 54 | 268 | 10.2 |
@@ -74,10 +74,10 @@ pie title Artikel pro Sektion
 | :--- | ---: |
 | [[Siebenwind]] | 683 |
 | [[Falkensee]] | 539 |
-| [[Brandenstein]] | 465 |
+| [[Brandenstein]] | 464 |
 | [[Bellum]] | 164 |
-| [[Astrael]] | 151 |
-| [[Nortraven]] | 144 |
+| [[Astrael]] | 149 |
+| [[Nortraven]] | 143 |
 | [[Toran_Dur]] | 138 |
 
 
@@ -111,8 +111,8 @@ pie title Artikel pro Sektion
 
 | Qualitaetsindikator | Wert | Fortschritt |
 | :--- | :--- | :--- |
-| Frontmatter-Abdeckung | 1351/1352 | `##########` 99.9% |
-| Aufgeloeste Quellenangabe (`quelle`) | 434/1352 | `###-------` 32.1% |
+| Frontmatter-Abdeckung | 1354/1354 | `##########` 100.0% |
+| Aufgeloeste Quellenangabe (`quelle`) | 440/1354 | `###-------` 32.5% |
 | Ingestion Tracking vollstaendig | 50/54 | `#########-` 92.6% |
 | Ingestion Reports mit LQS | 52/54 | `##########` 96.3% |
 | `[UNGEKLAERT]`-Marker (gesamt) | 251 | Beobachtung |
@@ -122,7 +122,7 @@ pie title Artikel pro Sektion
 | :--- | ---: |
 | `#bote` | 588 |
 | `#unbekannt` | 423 |
-| `#canon` | 135 |
+| `#canon` | 137 |
 | `#ueberlieferung` | 107 |
 | `#perspektive` | 98 |
 | `#news` | 1 |
@@ -153,7 +153,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_15a5bbc8-d96d-49a4-8313-b5a5ea76ec3b.txt`
+- Letzter Audit: `Logs/Archive/Audit_8dd40163-363d-4d7d-a062-ac86c0042c46.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

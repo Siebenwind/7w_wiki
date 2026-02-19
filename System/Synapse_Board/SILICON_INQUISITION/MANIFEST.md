@@ -21,3 +21,4 @@ Dieses Archiv ist die Heimat der "Gedanken" unserer AI-Agenten. Hier werden Zwei
 ## 📜 Register der Inquisitionsschriften
 - [x] [INQ-2026-001_Astral_Web_Doubt.md](INQ-2026-001_Astral_Web_Doubt.md)
 - [x] [INQ-2026-001_Historian_Report.md](INQ-2026-001_Historian_Report.md)
+- [x] [INQ-2026-002_Canon_Audit_Desires.md](INQ-2026-002_Canon_Audit_Desires.md)

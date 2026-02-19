@@ -57,6 +57,15 @@ Bei Texten über 100 Zeilen **MUSS** ein Zwei-Pass-Verfahren angewendet werden:
 | **Ereignisse** | Welche historischen Events werden erwähnt? (Kriege, Krönungen, Seuchen) | Chronik / Geschichte |
 | **Gegenstände** | Werden besondere Artefakte oder Waffen erwähnt? | Bibliothek / Glossar |
 | **Konzepte** | Werden Magie-Systeme, Rituale, Gesetze, Bräuche erklärt? | Fundament |
+| **Zeitpunkte** | Welche konkreten Daten (Sonnenzirkel) oder Zeitspannen werden genannt? | `Zeitleiste.md` / `04_Chronik` |
+
+### 🔍 Timeline Focus (Sonnenzirkel-Check):
+Prüfe jedes Datum gegen das offizielle System:
+1.  **Format:** Entspricht das Datum dem Schema `[Tag]. [Monat] [Jahr] n.H.`? (z.B. `12. Ara 23 n.H.`)
+2.  **Kausalität:** Passt das Ereignis logisch in die bestehende Chronik? (z.B. kann niemand vor der Gründung Helighenstadts 0 n.H. in Falandrien regiert haben).
+3.  **Widerspruch:** Falls das Datum einer anderen Quelle widerspricht:
+    - Kanon (#canon) gewinnt immer.
+    - Falls zwei Kanon-Quellen widersprechen -> Ticket (Conflict).
 
 ### Output-Format:
 ```

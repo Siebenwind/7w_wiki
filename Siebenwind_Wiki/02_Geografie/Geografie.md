@@ -1,45 +1,50 @@
 ---
 layout: wiki_page
-title: Geografie
-category: Index
+uuid: e1f7a4d5-8c9a-4b2e-a1d3-6e7f8a9b0c1d
+title: Geografie von Falandrien
+category: Geografie
+status: Kanon
+quelle: ../../Quellen/Hintergrund/Atlas | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+lore_trust: 10
+letzter_check: 2026-02-19T22:45:00Z
+report_id: e1f7a4d5-8c9a-4b2e-a1d3-6e7f8a9b0c1d
 ---
 
-# Geografie
+# Geografie von Falandrien
 
 **Epistemischer Status:** #canon
 
-Orte, Regionen und Länder auf Falandrien und [[Siebenwind]].
+Die Welt, auf der wir wandern, ist mehr als nur Stein und Erde. Dem allgemeinen Glauben nach ist **[[Tare]]** selbst einer der Alten [[Drachen]], der zusammengerollt um den Weltenstein schläft. Durch das Wirken der [[Die_Gohor]] und ihrer Nachfahren entstand der Kontinent Falandrien, umgeben von endlosen Meeren.
 
-## Das Großreich Galadon
-*   [[Region_Galadon]] - Das Königreich.
-*   [[Region_Bernstein]] - Das Herz des Reiches.
-*   [[Region_Herder]] - Die Kornkammer.
-*   [[Region_Ersont]] - Das Schild des Nordens.
-*   [[Region_Sae]] - Das Land des Wissens.
-*   [[Region_Savaro]] - Die Gärten des Reiches.
-*   [[Region_Tiefenwald]] - Die grünen Hallen.
+## Die Regionen des Kontinents
 
-## Die Stadtstaaten & Baronien
-*   [[Region_Ossian]] - Das Tor zur Welt.
-*   [[Region_Rothschild]] - Die Werften des Drac.
-*   [[Region_Wallenburg]] - Land des Reichtums.
-*   [[Region_Lichtenfeld]] - Die Heimat der Auenelfen.
-*   [[Region_Malthust]] - Das steinerne Land.
-*   [[Region_Papin]] - Die Händler.
-*   [[Region_Kettel]] - Das alte Land.
-*   [[Region_Kadamark]] - Die Handwerker.
+Falandrien ist ein gewaltiger Kontinent, der von den eisigen Gletschern des Nordens bis zu den brennenden Wüsten des Südens reicht.
 
-## Die Grenzlande & Wildnis
-*   [[Region_Ravel]] - Das Orkenland.
-*   [[Region_Khalandra]] - Der raue Norden.
-*   [[Region_Falkenstein]] - Das Tor zum Süden.
-*   [[Region_Morgenthau]] - Der Wall.
-*   [[Region_Morthum]] - Das verfluchte Land.
-*   [[Region_Vandrien]] - Das unruhige Land.
-*   [[Region_Auren]] - Die ferne Heimat der [[Elfen]].
+### 🏛️ Das Großreich Galadon
+Galadon ist das wohlhabendste und mächtigste Reich auf Falandrien. Es umfasst fruchtbare Ebenen, Gebirge und die prunkvolle Hauptstadt **Draconis**, sowie den Königssitz **Bernstein**.
+*   **Herzlande:** [[Region_Bernstein]], [[Region_Herder]], [[Region_Savaro]].
+*   **Grenzen:** [[Region_Ersont]] (Nord), [[Region_Falkenstein]] (Süd).
 
-## Die Inseln
-*   [[Region_Gerdenwald]] - Hügelau ([[Halblinge]]).
-*   [[I_Siebenwind]] - Die neue Welt.
-    *   [[Vänskap]] - Dorf der [[Nortraven]].
-    *   [[Burg_Schwingenwacht]] - Festung in [[Seeberg]].
+### ❄️ Das Norland
+Nördlich des Abalonis- und Kraengebirges liegen die rauen Länder der Barbarenstämme und Nortraven. Hier thront der **Skorryja** (3,5 Meilen hoch) über dem Kreidegebirge.
+*   [[Region_Khalandra]] | [[Region_Ravel]] | [[Vänskap]] (Insel-Ableger).
+
+### 🏜️ Das Südland (Endophal)
+Südlich der Baronie Falkenstein erstreckt sich das Reich Endophal. Es ist geprägt durch Wüsten und eine matriarchalische Gesellschaftsstruktur.
+*   **Provinzen:** El-Galamhid, El-Vahli, El-Mahid.
+
+### 🍃 Die Wilden Lande & Inseln
+*   **[[Ma'an]]**: Die weite, wilde Heimat der [[Elfen]].
+*   **[[Hügelau]]**: Eine birnenförmige Insel in der Linfahrtbucht, Heimat der [[Halblinge]]. Die Stadt [[Hardhaven]] wurde hier vor ca. 300 Jahren gegründet.
+*   **[[Siebenwind]]**: Eine schicksalshafte Insel fernab des Kontinents, erst im Jahre **1 n.H.** durch den Nortraven Armgard Torbenson entdeckt.
+
+---
+
+## Gesellschaftliche Strukturen
+Die Geografie bestimmt oft die Kultur. Während in **Galadon** und bei den **Nortraven** weitgehende Gleichberechtigung herrscht, finden sich in **Endophal** matriarchalische und bei den **Zwergen** patriarchalische Strukturen.
+
+---
+
+## Referenzen
+- Primärquelle: [Atlas](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Hintergrund/Atlas%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20%20|%20Siebenwind.md)
+- > [!ABSTRACT] Prüfbericht verfügbar: [[2026-02-19_Atlas_Geografie]] (ID: e1f7a4d5-8c9a-4b2e-a1d3-6e7f8a9b0c1d)

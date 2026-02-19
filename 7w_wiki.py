@@ -316,6 +316,11 @@ def main():
     stats_parser = subparsers.add_parser("stats", help="Generate Wiki statistics")
     stats_parser.add_argument("--json", action="store_true", help="Output raw JSON stats block")
 
+    # MCP Server
+    mcp_parser = subparsers.add_parser("mcp", help="Start MCP Server (Model Context Protocol)")
+    mcp_parser.add_argument("--transport", choices=["stdio", "streamable-http"], default="stdio", help="Transport mode")
+    mcp_parser.add_argument("--port", type=int, default=7777, help="Port for HTTP transport")
+
     # Check for help-json explicitly before parsing (to bypass required arguments)
     if "--help-json" in sys.argv:
         schema = {
@@ -601,6 +606,10 @@ def main():
         else:
             print("Usage: ./7w_wiki.py leitpunkt [view|status|check|scaffold]")
             sys.exit(1)
+
+    elif args.command == "mcp":
+        mcp_args = ["--transport", args.transport, "--port", str(args.port)]
+        run_script("System/MCP/server.py", mcp_args)
 
     else:
         parser.print_help()

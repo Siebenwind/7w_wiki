@@ -1,37 +1,55 @@
 ---
 layout: wiki_page
-title: Das index
-category: Index
+uuid: d7e3a51f-2b8c-4c6e-9e4a-5d8c9a1a2b3c
+title: Das Pantheon von Tare
+category: Religion
+status: Kanon
+quelle: ../../Quellen/Hintergrund/Götterwelt | Siebenwind | Ultima Online Freeshard | Siebenwind.md
+lore_trust: 10
+letzter_check: 2026-02-19T22:40:00Z
+report_id: d7e3a51f-2b8c-4c6e-9e4a-5d8c9a1a2b3c
 ---
 
-# Das Wissen
+# Das Pantheon von Tare
 
 **Epistemischer Status:** #canon
 
-Die Mächte, die Falandrien und [[Siebenwind]] formen.
+Die Welt [[Tare]] ist ein Ort, an dem das Göttliche nicht bloßer Glaube, sondern nachweisbare Realität ist. Die Götter greifen aktiv in das Schicksal der Sterblichen ein, lenken die Gezeiten und formen die Kausalität der Geschichte.
 
-## Die Ur-Sphäre
-*   [[Die_Gohor]] - Die Ur-[[Drachen]] und Schöpfer.
+## Die Kosmische Hierarchie
 
-## Die Viereinigkeit (Die Guten)
-*   [[Astrael]] - Wissen & Ordnung.
-*   [[Bellum]] - Kampf & Ehre.
-*   [[Vitama]] - Leben & Heilung.
-*   [[Morsan]] - Tod & Ruhe.
-*   [[Codex_Astraeli]] - Philosophischer Leitfaden der Astraeli.
-*   [[Brevier_Ordo_Belli]] - Gebetssammlung des Kriegsordens.
-*   [[Brevier_Ordo_Morsanes]] - Totenruhe & Schweigen.
-*   [[Brevier_Ordo_Vitamae]] - Segen, Heilung & Fruchtbarkeit.
+Das göttliche Gefüge ist in drei Ränge unterteilt, die den Ursprung, die Elemente und die moralische Ordnung der Welt repräsentieren.
 
-## Die Elemente & Andere
-*   [[Ignis]] - Feuer.
-*   [[Rien]] - Natur.
-*   [[Ventus]] - Luft/Freiheit.
-*   [[Xan]] - Wissen.
+### 1. Die Ewigen Drachen (Gohor)
+Die Schöpfer des Universums. Ursprünglich aus der Leere stammend, erschufen sie die Welt und die übrigen Mächte.
+*   **Timanor** - Der Drache der Zeit.
+*   **Galamnor** - Der Drache der Entstehung.
+*   **[[Tare]]** - Das Drachenkind (die Welt selbst).
 
-## Die Gegenspieler
-*   [[Angamon]] - Der Dämonenfürst.
+### 2. Die Vier Hauptgottheiten (Sahor)
+Das Fundament der menschlichen Zivilisation (insb. in Galadon). Jeder Gott herrscht über eine Jahreszeit und einen Aspekt des Schicksals.
 
-## Religionsphilosophie
-*   [[Aequilibrium]] - Über den Dualismus und das göttliche Gleichgewicht.
-*   [[Götter_und_Götzen]] - Abgrenzung der Viere von fremden Glaubensformen.
+| Gottheit | Aspekte | Jahreszeit |
+| :--- | :--- | :--- |
+| **[[Bellum]]** | Ehre, Tapferkeit, Schmiede | [[Bellum]] (Herbst) |
+| **[[Astrael]]** | Wissen, Weisheit, Magie | [[Astrael]] (Sommer) |
+| **[[Vitama]]** | Liebe, Fruchtbarkeit, Frieden | [[Vitama]] (Frühling) |
+| **[[Morsan]]** | Ruhe, Träume, Tod | [[Morsan]] (Winter) |
+
+### 3. Die Elementarherren (Enhor)
+Uralte Naturmächte, deren Anbetung oft mit der Magie der Elemente verknüpft ist.
+*   **[[Rien]]** (Erde) | **[[Ignis]]** (Feuer) | **[[Xan]]** (Wasser) | **[[Ventus]]** (Luft)
+
+---
+
+## Der Widersacher: Angamon
+Alles Böse, zerstörerische und neidische wird in der Gestalt von **[[Angamon]]**, dem Dämonenkönig, zusammengefasst. Er gilt als der Urahn aller [[Daemonen]] und trachtet nach der Vernichtung der Schöpfung.
+
+## Epistemischer Hinweis
+Obwohl die Existenz der Götter unumstößlich ist, sind die klerikalen Orden (wie der [[Ordo_Astraeli]] oder der [[Ordo_Belli]]) menschliche Institutionen. Ihre Auslegungen sind präzise, doch die Wege des Göttlichen bleiben in ihrer Gänze ein Mysterium.
+
+---
+
+## Referenzen
+- Primärquelle: [Götterwelt](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Hintergrund/Go%CC%88tterwelt%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+- > [!ABSTRACT] Prüfbericht verfügbar: [[2026-02-19_Goetterwelt_Pantheon]] (ID: d7e3a51f-2b8c-4c6e-9e4a-5d8c9a1a2b3c)

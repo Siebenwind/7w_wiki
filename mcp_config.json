@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "siebenwind-wiki": {
+            "command": "python3",
+            "args": [
+                "System/MCP/server.py"
+            ],
+            "env": {}
+        }
+    }
+}

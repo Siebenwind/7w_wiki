@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-19 22:27 (Antigravity -> Next Agent)
-- **Status**: v3.0 Release — 6 Pillars, Archivar, Version Management, Tier A Cleanup complete. 28 tools in manifest. 698 stale files compressed.
+- **Last Handover**: 2026-02-19 23:30 (Antigravity → Next Agent)
+- **Status**: MCP Server live — 27 Tools auto-generated, Dual-Mode (Daemon + Agent-Fallback), [QUIP] Tag eingeführt.
 
 ---
 
@@ -21,6 +21,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] **Technical Link Repair**: Restored `roamlinks` and normalized 500+ links via `repair.py` to overcome 404s on GitHub Pages.
 - [x] **UI/UX Polish**: Unified "Siebenwind Archiv" aesthetic across all category landing pages (`Siebenwind_Wiki/index.md`, `00_Fundament`, etc.) and fixed search overlap.
 - [x] **System Permission Repair**: Resolve persistent `Operation not permitted` errors in `Logs/Archive` by disabling "Enable Terminal Sandboxing" in Antigravity settings.
+- [x] **MCP Server**: Model Context Protocol Server implementiert (`System/MCP/`). 27 Tools, Dual-Mode Architektur (Daemon + Agent-Fallback), Auto-Extraction Pipeline, `[QUIP]` Mail-System. Dependency: `pip install 'mcp[cli]'`.
 - [ ] **Ingestion 2.0**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - [BLOCKED: 118 Source Missing].
 
 ## 🟡 Priorität 2: Operative Ingestion & Research
@@ -384,4 +385,5 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 </details>
 
 ---
-*Zuletzt aktualisiert: 2026-02-17 | Phase 1.19 Handover*
+*Zuletzt aktualisiert: 2026-02-19 | Phase 1.27 (MCP Server) Handover*
+
