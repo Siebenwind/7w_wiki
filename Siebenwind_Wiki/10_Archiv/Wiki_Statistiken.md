@@ -6,7 +6,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-02-19 22:40
+**Stand:** 2026-02-20 00:31
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -16,10 +16,10 @@ category: Index
 
 | Kennzahl | Wert |
 | :--- | :--- |
-| Artikel | **1354** |
-| Worte | **187,746** |
+| Artikel | **1355** |
+| Worte | **188,367** |
 | Durchschnittliche Artikellaenge | **139 Worte** |
-| Interne Verweise (`[[...]]`) | **13,729** |
+| Interne Verweise (`[[...]]`) | **13,736** |
 | Vernetzungsdichte | **10.1 Links/Artikel** |
 | Personenprofile | **586** |
 
@@ -29,9 +29,9 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 1290 | - | - |
-| Letzte 30 Tage | 1346 | 1333 | 107 |
-| Letzte 90 Tage | 1346 | - | - |
+| Letzte 7 Tage | 1291 | - | - |
+| Letzte 30 Tage | 1348 | 1335 | 108 |
+| Letzte 90 Tage | 1348 | - | - |
 
 ---
 
@@ -51,7 +51,7 @@ pie title Artikel pro Sektion
     "04_Chronik" : 83
     "06_Erzählungen" : 12
     "09_Bibliothek" : 28
-    "00_Fundament" : 276
+    "00_Fundament" : 277
 ```
 
 ## 📚 Lesetiefe nach Sektion (Top 5)
@@ -111,10 +111,10 @@ pie title Artikel pro Sektion
 
 | Qualitaetsindikator | Wert | Fortschritt |
 | :--- | :--- | :--- |
-| Frontmatter-Abdeckung | 1354/1354 | `##########` 100.0% |
-| Aufgeloeste Quellenangabe (`quelle`) | 440/1354 | `###-------` 32.5% |
-| Ingestion Tracking vollstaendig | 50/54 | `#########-` 92.6% |
-| Ingestion Reports mit LQS | 52/54 | `##########` 96.3% |
+| Frontmatter-Abdeckung | 1355/1355 | `##########` 100.0% |
+| Aufgeloeste Quellenangabe (`quelle`) | 441/1355 | `###-------` 32.5% |
+| Ingestion Tracking vollstaendig | 51/55 | `#########-` 92.7% |
+| Ingestion Reports mit LQS | 53/55 | `##########` 96.4% |
 | `[UNGEKLAERT]`-Marker (gesamt) | 251 | Beobachtung |
 
 ## Epistemische Verteilung
@@ -123,7 +123,7 @@ pie title Artikel pro Sektion
 | `#bote` | 588 |
 | `#unbekannt` | 423 |
 | `#canon` | 137 |
-| `#ueberlieferung` | 107 |
+| `#ueberlieferung` | 108 |
 | `#perspektive` | 98 |
 | `#news` | 1 |
 
@@ -134,7 +134,7 @@ pie title Artikel pro Sektion
 
 | Metrik | Stand |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | 73 |
+| Letzter Audit-Problemtotal | 80 |
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 88 |
 | Davon ohne Ausnahme-Metadaten | 68 |
@@ -153,7 +153,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_8dd40163-363d-4d7d-a062-ac86c0042c46.txt`
+- Letzter Audit: `Logs/Archive/Audit_e0310c22-5e2c-4752-83ec-650e9739382c.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

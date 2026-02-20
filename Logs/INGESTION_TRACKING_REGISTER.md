@@ -1,7 +1,7 @@
 ---
 uuid: 6af36c09-c985-4de8-9dc5-9680b9de9b5b
 status: ACTIVE
-updated_at: 2026-02-19T21:40:59Z
+updated_at: 2026-02-19T23:31:42Z
 epistemic: "#meta"
 ---
 
@@ -13,15 +13,16 @@ Zentrales Tracking fuer Ingestion-Auswertungen (wer/wann/wie + Scoreprofil).
 
 ## Snapshot
 
-- Reports gesamt: 54
-- Reports mit Tracking-Kernfeldern: 50
-- Reports mit LQS: 52
+- Reports gesamt: 55
+- Reports mit Tracking-Kernfeldern: 51
+- Reports mit LQS: 53
 - Dominante Score-Cluster: 3/3/3 (29), 3/2/3 (17), 3/2/2 (2)
 
 ## Register
 
 | Report | Quelle | Ausgewertet von | Auswertungszeitpunkt (UTC) | Workflow/Skill | Dispatch | LQS | Profil |
 |---|---|---|---|---|---|---|---|
+| `Logs/Ingestion/2026-02-20_Dunkelbaum_Eigenschaften_Elemente.md` | Quellen/Bibliothek Toran Dur/Amanda Dunkelbaum - Eigenschaften der Elemente.md | Antigravity | 2026-02-19T23:27:00Z | `inquisition.py` / `ingest_pipeline.py` | N/A | 8.4 | 4/4/5/4/4 |
 | `Logs/Ingestion/2026-02-17_Allakath_Etikette.md` | /Quellen/Bibliothek Toran Dur/Anonymous - Etikette.md | Antigravity | 2026-02-17 | N/A | N/A | 10 | 3/3/3 |
 | `Logs/Ingestion/2026-02-17_Anonymous_Daemonenbeschwoerung.md` | /Quellen/Bibliothek Toran Dur/Anonymous - Beschwîrung eines DÑmonen.md | Antigravity | 2026-02-17 | N/A | N/A | 8 | 3/2/3 |
 | `Logs/Ingestion/2026-02-17_Anonymous_Homunkuli.md` | /Quellen/Bibliothek Toran Dur/Anonymous - Homunkuli.md | Antigravity | 2026-02-17 | N/A | N/A | 9 | 3/2/3 |

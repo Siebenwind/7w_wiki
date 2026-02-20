@@ -616,5 +616,30 @@
         "required": []
       }
     }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_mcp",
+      "description": "Execute the mcp command in 7w_wiki.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "transport": {
+            "type": "string",
+            "description": "Transport mode",
+            "enum": [
+              "stdio",
+              "streamable-http"
+            ]
+          },
+          "port": {
+            "type": "string",
+            "description": "Port for HTTP transport"
+          }
+        },
+        "required": []
+      }
+    }
   }
 ]

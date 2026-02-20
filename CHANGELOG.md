@@ -1,5 +1,18 @@
 # Changelog
 
+#### [2026-02-20.01] - Nordwind Discovery Research & Toran Dur Ingestion
+- **P2**
+- **Hinzugefügt**:
+  - `RESEARCH-2026-017`: Research ticket for the 1 n.H. discovery of Siebenwind (Armgard Torbenson).
+  - Neuer Artikel: `Eigenschaften_der_Elemente.md` (Amanda Dunkelbaum).
+  - Register: `Ronwo` zum `Personenregister.md` hinzugefuegt.
+- **Geändert**:
+  - `rvw_loop.md`: Abbruch-Regel bei Überkomplexität (Zwei-Pass-Verfahren) hinzugefügt, um Informationsverlust zu vermeiden.
+  - `Amanda_Dunkelbaum.md` um ihr zweites Werk `Eigenschaften der Elemente` erweitert.
+  - `MASTER_TASK_LIST.md` aktualisiert.
+- **Validiert**:
+  - `./7w_wiki.py score` fuer `Eigenschaften_der_Elemente.md`.
+
 #### [2026-02-19.07] - MCP Server Implementation (Model Context Protocol)
 - **P1**
 - **Hinzugefügt**:

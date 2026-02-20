@@ -39,6 +39,10 @@ Bei Texten über 100 Zeilen **MUSS** ein Zwei-Pass-Verfahren angewendet werden:
 
 **Pass 2 – Detail-Scan:** Jede Sektion einzeln durchgehen und das Entity Manifest (Schritt 1.5) befüllen. Besonders auf **beiläufig erwähnte Entitäten** achten (z.B. "die Gilde der Feinschmiede" in einem Nebensatz, ein Ortsname in einer Wegbeschreibung, ein Titel eines Amtsträgers).
 
+### 🛑 Abbruch bei Überkomplexität
+**WICHTIG:** Wenn ein Text inhaltlich oder strukturell zu komplex für einen Standard-Durchlauf wird, **breche die sofortige Ingestion ab und notiere dies!** 
+Die Datei muss dokumentiert und dann in einem dedizierten Prozess **einzeln durchgesehen** werden. Niemals komplexe Texte mit Gewalt in das Standard-Schema pressen, um Informationsverlust zu vermeiden.
+
 ## 1.5 ENTITY MANIFEST (Pflicht-Scan)### 4. Lore-Auditor (Scoring & Qualität)
 - **Score-Zuweisung:** Bewertet jeden neuen Eintrag auf einer Skala von 0 bis 10.
 - **Novel Quality Check:** Sucht aktiv nach Möglichkeiten, den `lore_trust` durch präzisere Beschreibungen, sensorische Details und Kausalitäts-Checks zu erhöhen.

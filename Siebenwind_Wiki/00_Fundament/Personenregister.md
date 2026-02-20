@@ -600,3 +600,4 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Birnbaum]] | Magister Extraordinarius | [Angamoniensis] | Historisch | #überlieferung |
 | [[Fogrim_Goldaxt]] | Schmied (Arkadons Schmiede) | [Bartanatomie] | Historisch | #überlieferung |
 | [[Allakath]] | Adeptus minor (ir hires ita'Glur) / Autor | [Magie - Etikette] | Historisch | #überlieferung |
+| [[Ronwo]] | Novize (Elementarmagie) | [Eigenschaften der Elemente] | Historisch | #überlieferung |

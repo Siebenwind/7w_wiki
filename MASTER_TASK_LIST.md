@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-19 23:30 (Antigravity → Next Agent)
-- **Status**: MCP Server live — 27 Tools auto-generated, Dual-Mode (Daemon + Agent-Fallback), [QUIP] Tag eingeführt.
+- **Last Handover**: 2026-02-20 00:20 (Antigravity → Next Agent)
+- **Status**: Ingestion Batch 2 (Toran Dur) started, RESEARCH-2026-017 initiated.
 
 ---
 
@@ -49,6 +49,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 | [[RESEARCH-2026-003]] | Die Linari-Matrix | 🟡 | [ ] Offen |
 | [[RESEARCH-2026-007]] | Dossier Rhadan (Zeichnung Tares) | 🔴 | [ ] Offen |
 | [[RESEARCH-2026-012]] | Das Grünland (Geografie & Siedlung) | 🔴 | [ ] Offen |
+| [[RESEARCH-2026-017]] | Die Entdeckung Siebenwinds (1 n.H.) | 🟡 | [x] Bearbeitung |
 
 ## 🔵 Priorität 3: Qualität & Politur (Optimierung)
 *Verbesserungen an System und Lore, die den Nutzwert steigern.*
@@ -68,6 +69,15 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 🗂️ Projekthistorie (neu → alt)
 
 ### v2.7 Upgrade-Phasen
+
+<details open>
+<summary><b>Phase 1.28: Nordwind Discovery Research & Toran Dur Ingestion (Feb 2026)</b></summary>
+
+- **Research**: Investigated the 1 n.H. discovery of Siebenwind (Armgard Torbenson, Nordwind). Created RESEARCH-2026-017.
+- **Workflow**: Added "Abort on Complexity" rule to the RVW loop (`rvw_loop.md`) to prevent information loss on complex sources.
+- **Ingestion Batch 2 (Toran Dur)**: Initiated batch. Ingested `Amanda Dunkelbaum - Eigenschaften der Elemente.md`.
+- **Register & Lore**: Created `Eigenschaften_der_Elemente.md`, updated `Amanda_Dunkelbaum.md`, added Novice `Ronwo` to `Personenregister.md`.
+</details>
 
 <details open>
 <summary><b>Phase 1.26: Inter-AI Compliance Upgrade (Feb 2026)</b></summary>
@@ -393,5 +403,5 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 </details>
 
 ---
-*Zuletzt aktualisiert: 2026-02-19 | Phase 1.27 (MCP Server) Handover*
+*Zuletzt aktualisiert: 2026-02-20 | Phase 1.28 (Nordwind & Toran Dur) Handover*
 
