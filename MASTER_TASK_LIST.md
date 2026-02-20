@@ -12,12 +12,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
 
-### [EPIC] Nexus Generification (OmniLore Blueprint)
-*Vorsicht: Etablierte Ordner (`Siebenwind_Wiki`) unangetastet lassen. Umbau basiert auf Script-String-Assembly und Templating.*
-- [ ] **Phase 1: Config-Erweiterung:** `lore_manifest.json` um `lore.world_name` ('Siebenwind') etc. erweitern.
-- [ ] **Phase 2: CLI- & Text-Entkopplung:** Hardcodes in `7w_wiki.py` durch Config-Variablen ersetzen.
-- [ ] **Phase 3: Prompt-Templating Pilot:** `SKILL.md` (Pilot: Lore-Gelehrter) mit Variablen ausstatten und Rendering injizieren.
-- [ ] **Phase 4: Skriptgesteuerte Taxonomie:** Markdown- & Register-Scripts auf Config-Pfade umstellen.
+
 
 - [x] **Handover Gate Repair**: Defekten Link in `.agent/workflows/handover.md` behoben; `interop-doc-links` und `takeover-handover` wieder gruen.
 - [x] **Test Runner Stability**: Runner mit Case-Progress-Ausgabe erweitert; `rag-relevance-smoke` aus Standardlauf (`--suite all`) entfernt und nur noch per `--include-rag` / direkter Suite ausfuehrbar.
@@ -67,6 +62,17 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ---
 
 ## 🗂️ Projekthistorie (neu → alt)
+
+### v3.0 Upgrade-Phasen
+
+<details open>
+<summary><b>Phase 3.1: Nexus Generification (OmniLore Blueprint) (Feb 2026)</b></summary>
+
+- **Config-Erweiterung**: `lore_manifest.json` um weltunabhängige Variablen (`world_name`, `directories`) erweitert.
+- **Entkopplung**: Hardcodierte Pfade und Weltnamen in `7w_wiki.py` entfernt.
+- **Prompt Templating**: `.tpl` System für Skills eingeführt, erfolgreich am `Lore-Gelehrter` getestet (`compile_skills.py`).
+- **Skriptgesteuerte Taxonomie**: Generierungs- und Analysescripts (`generate_wiki_indices.py`, `generate_wiki_stats.py`, `register_check.py`, `wiki_sanitizer.py`, `advisor.py`) auf `nexus_config.py` migriert.
+</details>
 
 ### v2.7 Upgrade-Phasen
 

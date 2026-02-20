@@ -306,6 +306,7 @@ def main():
     # Technician (DevOps)
     tech_parser = subparsers.add_parser("tech", help="Show Technician workflow (DevOps & Infrastructure)")
     tech_parser.add_argument("--manifest", action="store_true", help="Generate OpenAPI tools.json from CLI context")
+    tech_parser.add_argument("--compile-skills", action="store_true", help="Compile SKILL.md.tpl with variables from lore_manifest")
 
     # Version Management
     ver_parser = subparsers.add_parser("version", help="Show or bump the wiki standard version")
@@ -582,6 +583,9 @@ def main():
         if getattr(args, "manifest", False):
             print(f"🔧 {BOLD}Regenerating tools.json manifest...{RESET}")
             run_script(".agent/scripts/generate_tools_manifest.py")
+        elif getattr(args, "compile_skills", False):
+            print(f"🔧 {BOLD}Compiling SKILL.md templates...{RESET}")
+            run_script(".agent/scripts/compile_skills.py")
         else:
             print(f"🔧 {BOLD}Workflow: /tech{RESET}")
             view_workflow("tech")

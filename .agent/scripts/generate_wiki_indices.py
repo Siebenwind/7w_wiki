@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import os
 import re
+import nexus_config
 
 def get_h1(file_path):
     """Extracts the first H1 from a markdown file."""
@@ -38,7 +39,7 @@ def generate_indices(target_dir):
             f"title: {category_title}",
             "---",
             "",
-            f"# [[Siebenwind]] Wiki - {category_title}",
+            f"# [[{nexus_config.WORLD_NAME}]] Wiki - {category_title}",
             "Das Archiv der " + category_title + ".",
             "",
             "## Inhalte",
@@ -68,7 +69,7 @@ def generate_indices(target_dir):
         print(f"Generated index for {rel_dir}")
 
 if __name__ == "__main__":
-    wiki_root = os.path.join(os.path.dirname(__file__), "../../docs/Siebenwind_Wiki")
+    wiki_root = str(nexus_config.WIKI_DIR)
     if os.path.exists(wiki_root):
         generate_indices(wiki_root)
     else:

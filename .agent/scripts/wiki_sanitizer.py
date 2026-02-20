@@ -11,6 +11,7 @@ import re
 import argparse
 import json
 from pathlib import Path
+from nexus_config import WIKI_DIR, WORLD_NAME
 
 # ANSI Colors
 RED = "\033[91m"
@@ -19,7 +20,6 @@ YELLOW = "\033[93m"
 RESET = "\033[0m"
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-WIKI_DIR = PROJECT_ROOT / "Siebenwind_Wiki"
 
 def sanitize_files(target_path: Path, auto_fix: bool = False, json_output: bool = False):
     if not json_output:

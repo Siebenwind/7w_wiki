@@ -1,5 +1,16 @@
 # Changelog
 
+#### [2026-02-20.02] - Nexus Generification (OmniLore Blueprint)
+- **P1**
+- **Hinzugefügt**:
+  - `nexus_config.py`: Zentrales Modul zum Laden der Lore-Manifest Parameter (`WORLD_NAME`, `WIKI_DIR` etc.).
+  - `compile_skills.py`: Rendert `.tpl` Dateien in vollwertige `SKILL.md` Files mit injizierten Variablen.
+  - `lore.world_name`, `lore.chronology`, `lore.directories` in `lore_manifest.json`.
+- **Geändert**:
+  - `7w_wiki.py`: Komplett entkoppelt von Hardcodes.
+  - `generate_wiki_indices.py`, `generate_wiki_stats.py`, `register_check.py`, `wiki_sanitizer.py`, `advisor.py` migriert auf `nexus_config.py`.
+  - `Lore-Gelehrter` Skill auf `.tpl` umgestellt.
+
 #### [2026-02-20.01] - Nordwind Discovery Research & Toran Dur Ingestion
 - **P2**
 - **Hinzugefügt**:

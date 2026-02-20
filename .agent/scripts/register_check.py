@@ -22,10 +22,10 @@ import sys
 import uuid
 from pathlib import Path
 from collections import Counter
+from nexus_config import WIKI_DIR, WORLD_NAME
 
 # --- Configuration (relative to project root) ---
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-WIKI_DIR = PROJECT_ROOT / "Siebenwind_Wiki"
 QUELLEN_DIR = PROJECT_ROOT / "Quellen" / "Zeitung 7w Bote"
 REGISTER_FILE = WIKI_DIR / "00_Fundament" / "Personenregister.md"
 PROFILE_DIR = WIKI_DIR / "07_Persoenlichkeiten"
@@ -361,7 +361,7 @@ def get_chronik_index_numbers(index_path: Path) -> set[int]:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Siebenwind Register Check (Audit)")
+    parser = argparse.ArgumentParser(description=f"{WORLD_NAME} Register Check (Audit)")
     parser.add_argument("--json", action="store_true", help="Output raw JSON findings")
     args = parser.parse_args()
 
@@ -394,7 +394,7 @@ def main():
         output_lines.append(msg)
 
     log("=" * 60)
-    log("  SIEBENWIND WIKI — REGISTER-CHECK")
+    log(f"  {WORLD_NAME.upper()} WIKI — REGISTER-CHECK")
     log(f"  Report-ID: {report_id}")
     log("=" * 60)
     log()

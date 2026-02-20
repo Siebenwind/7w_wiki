@@ -6,9 +6,10 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
+from nexus_config import WIKI_DIR, WORLD_NAME, WIKI_DIR_NAME
+
 # Configuration
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-WIKI_DIR = PROJECT_ROOT / "Siebenwind_Wiki"
 LOGS_DIR = PROJECT_ROOT / "Logs"
 ARCHIVE_DIR = LOGS_DIR / "Archive"
 OUTPUT_FILE = WIKI_DIR / "10_Archiv" / "Wiki_Statistiken.md"
@@ -117,7 +118,7 @@ def collect_git_activity() -> dict:
 
     for days, key in ((7, "changed_files_7d"), (30, "changed_files_30d"), (90, "changed_files_90d")):
         out = safe_git_output(
-            ["log", f"--since={days} days ago", "--name-only", "--pretty=format:", "--", "Siebenwind_Wiki"]
+            ["log", f"--since={days} days ago", "--name-only", "--pretty=format:", "--", WIKI_DIR_NAME]
         )
         files = {
             line.strip()
@@ -127,7 +128,7 @@ def collect_git_activity() -> dict:
         activity[key] = len(files)
 
     out_new = safe_git_output(
-        ["log", "--since=30 days ago", "--diff-filter=A", "--name-only", "--pretty=format:", "--", "Siebenwind_Wiki"]
+        ["log", "--since=30 days ago", "--diff-filter=A", "--name-only", "--pretty=format:", "--", WIKI_DIR_NAME]
     )
     new_files = {
         line.strip()
@@ -136,7 +137,7 @@ def collect_git_activity() -> dict:
     }
     activity["new_files_30d"] = len(new_files)
 
-    out_commits = safe_git_output(["rev-list", "--count", "--since=30 days ago", "HEAD", "--", "Siebenwind_Wiki"])
+    out_commits = safe_git_output(["rev-list", "--count", "--since=30 days ago", "HEAD", "--", WIKI_DIR_NAME])
     try:
         activity["commits_30d"] = int(out_commits.strip())
     except Exception:
@@ -481,7 +482,7 @@ title: Wiki Status
 category: Index
 ---
 
-# 📊 Siebenwind Kompass
+# 📊 {WORLD_NAME} Kompass
 
 **Stand:** {stats['timestamp']}
 

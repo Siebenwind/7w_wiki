@@ -525,6 +525,10 @@
           "manifest": {
             "type": "string",
             "description": "Generate OpenAPI tools.json from CLI context"
+          },
+          "compile_skills": {
+            "type": "string",
+            "description": "Compile SKILL.md.tpl with variables from lore_manifest"
           }
         },
         "required": []

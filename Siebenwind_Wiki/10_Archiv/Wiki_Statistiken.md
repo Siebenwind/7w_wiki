@@ -6,7 +6,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-02-20 01:24
+**Stand:** 2026-02-20 16:29
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -29,8 +29,8 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 1292 | - | - |
-| Letzte 30 Tage | 1349 | 1336 | 109 |
+| Letzte 7 Tage | 1288 | - | - |
+| Letzte 30 Tage | 1349 | 1336 | 110 |
 | Letzte 90 Tage | 1349 | - | - |
 
 ---
@@ -153,7 +153,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_b39c5ca9-b61e-484f-8428-748aa43943d4.txt`
+- Letzter Audit: `Logs/Archive/Audit_0b5af57c-4e9d-4611-ae65-60855244e773.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---
