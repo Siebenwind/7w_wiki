@@ -1,12 +1,12 @@
 ---
 layout: wiki_page
-title: '📊 Siebenwind Kompass'
+title: Wiki Status
 category: Index
 ---
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-02-20 16:29
+**Stand:** 2026-02-20 17:52
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -17,10 +17,10 @@ category: Index
 | Kennzahl | Wert |
 | :--- | :--- |
 | Artikel | **1355** |
-| Worte | **188,367** |
+| Worte | **188,542** |
 | Durchschnittliche Artikellaenge | **139 Worte** |
-| Interne Verweise (`[[...]]`) | **13,736** |
-| Vernetzungsdichte | **10.1 Links/Artikel** |
+| Interne Verweise (`[[...]]`) | **13,924** |
+| Vernetzungsdichte | **10.3 Links/Artikel** |
 | Personenprofile | **586** |
 
 ---
@@ -30,7 +30,7 @@ category: Index
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
 | Letzte 7 Tage | 1288 | - | - |
-| Letzte 30 Tage | 1349 | 1336 | 110 |
+| Letzte 30 Tage | 1349 | 1336 | 112 |
 | Letzte 90 Tage | 1349 | - | - |
 
 ---
@@ -58,10 +58,10 @@ pie title Artikel pro Sektion
 
 | Sektion | Artikel | Ø Worte/Artikel | Ø Links/Artikel |
 | :--- | ---: | ---: | ---: |
-| `01_Pantheon` | 51 | 424 | 11.0 |
-| `05_Magie` | 41 | 279 | 10.4 |
-| `04_Chronik` | 83 | 272 | 33.0 |
-| `03_Wissen` | 54 | 268 | 10.2 |
+| `01_Pantheon` | 51 | 424 | 11.1 |
+| `05_Magie` | 41 | 279 | 10.6 |
+| `04_Chronik` | 83 | 272 | 33.9 |
+| `03_Wissen` | 54 | 271 | 10.5 |
 | `Root` | 1 | 258 | 0.0 |
 
 
@@ -72,23 +72,23 @@ pie title Artikel pro Sektion
 ### Starke Knoten (gesamt)
 | Entitaet | Verweise |
 | :--- | ---: |
-| [[Siebenwind]] | 683 |
-| [[Falkensee]] | 539 |
-| [[Brandenstein]] | 464 |
+| [[Siebenwind]] | 779 |
+| [[Falkensee]] | 545 |
+| [[Brandenstein]] | 469 |
 | [[Bellum]] | 164 |
 | [[Astrael]] | 149 |
-| [[Nortraven]] | 143 |
-| [[Toran_Dur]] | 138 |
+| [[Nortraven]] | 144 |
+| [[Toran_Dur]] | 142 |
 
 
 ### Praegende Persoenlichkeiten
 | Persoenlichkeit | Verweise |
 | :--- | ---: |
-| [[Toran_Dur]] | 138 |
+| [[Toran_Dur]] | 142 |
 | [[Geist]] | 125 |
 | [[Custodias]] | 83 |
 | [[Waldemar_Delarie]] | 60 |
-| [[Dunvallo_Linari]] | 53 |
+| [[Dunvallo_Linari]] | 56 |
 | [[Hagen_Robaar]] | 49 |
 | [[Solos_Nhergas]] | 48 |
 
@@ -134,7 +134,7 @@ pie title Artikel pro Sektion
 
 | Metrik | Stand |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | 80 |
+| Letzter Audit-Problemtotal | 76 |
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 88 |
 | Davon ohne Ausnahme-Metadaten | 68 |
@@ -153,7 +153,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_0b5af57c-4e9d-4611-ae65-60855244e773.txt`
+- Letzter Audit: `Logs/Archive/Audit_55db8206-e9d4-4394-96b2-3e1d478b6f26.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---
