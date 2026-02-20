@@ -41,7 +41,6 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [INQ-2026-001_Astral_Web_Doubt.md](Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Astral_Web_Doubt.md)
 - [x] [INQ-2026-001_Historian_Report.md](Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Historian_Report.md)
 - [x] [PRODUCTION_PROTOCOL.md](PRODUCTION_PROTOCOL.md)
-- [x] [PRODUCTION_NOTE_TEMPLATE.md](Templates/PRODUCTION_NOTE_TEMPLATE.md)
 - [x] [.agent/workflows/rvw_loop.md](../.agent/workflows/rvw_loop.md) (Technischer Standard)
 - [x] [.agent/workflows/wiki_style_guide.md](../.agent/workflows/wiki_style_guide.md) (Zentrales Regelwerk)
 - [x] [.agent/workflows/leitpunkt.md](../.agent/workflows/leitpunkt.md) (Menschlicher Leitpunkt Workflow)
@@ -57,7 +56,6 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [Synapse_Board/RESEARCH-2026-010.md](Synapse_Board/RESEARCH-2026-010.md)
 - [x] [Logs/Conclusions/2026-02-17_Forum_Research_Report.md](../Logs/Conclusions/2026-02-17_Forum_Research_Report.md)
 - [x] [Scripts/forum_scanner.py](../Scripts/forum_scanner.py)
-- [x] [.agents/skills/stats/SKILL.md](../.agents/skills/stats/SKILL.md)
 - [x] [.agent/tests/suites/reader-stats-contract.json](../.agent/tests/suites/reader-stats-contract.json)
 
 ---
