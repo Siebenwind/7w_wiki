@@ -38,5 +38,5 @@ Gründung der Stadt **[[Hardhaven]]** auf der Insel [[Hügelau]] durch Menschen,
 ---
 
 ## Referenzen
-- Primärquelle: [Atlas](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Hintergrund/Atlas%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20%20|%20Siebenwind.md)
+- Primärquelle: [Atlas](../../Quellen/Hintergrund/Atlas%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20%20|%20Siebenwind.md)
 - Siehe auch: [[Zeitleiste_(15-30_n.H.)]]

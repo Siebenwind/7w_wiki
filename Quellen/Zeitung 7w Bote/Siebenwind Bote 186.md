@@ -1,13 +1,14 @@
 ---
-layout: post
-title: "Siebenwind Bote 186"
-category: Allgemein
+layout: page
+title: 'Siebenwind Bote 186'
+category: Zeitung 7w Bote
+lore_trust: 2
 ---
 
-|  |  |   
----  
+---
 **Ausgabe 186** -**Vierentag, 15. Carmer 22 nach Hilgorad**  
-  
+
+# Siebenwind Bote 186
 
 15\. Carmer - Unruhe in Malthustisch-Brandenstein  
 ---  

@@ -6,7 +6,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-02-20 17:52
+**Stand:** 2026-02-20 21:15
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -16,12 +16,12 @@ category: Index
 
 | Kennzahl | Wert |
 | :--- | :--- |
-| Artikel | **1355** |
-| Worte | **188,542** |
-| Durchschnittliche Artikellaenge | **139 Worte** |
+| Artikel | **1356** |
+| Worte | **190,867** |
+| Durchschnittliche Artikellaenge | **141 Worte** |
 | Interne Verweise (`[[...]]`) | **13,924** |
 | Vernetzungsdichte | **10.3 Links/Artikel** |
-| Personenprofile | **586** |
+| Personenprofile | **587** |
 
 ---
 
@@ -30,7 +30,7 @@ category: Index
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
 | Letzte 7 Tage | 1288 | - | - |
-| Letzte 30 Tage | 1349 | 1336 | 112 |
+| Letzte 30 Tage | 1349 | 1336 | 113 |
 | Letzte 90 Tage | 1349 | - | - |
 
 ---
@@ -39,7 +39,7 @@ category: Index
 
 ```mermaid
 pie title Artikel pro Sektion
-    "07_Persoenlichkeiten" : 586
+    "07_Persoenlichkeiten" : 587
     "05_Magie" : 41
     "08_Bestiarium" : 33
     "03_Wissen" : 54
@@ -111,17 +111,17 @@ pie title Artikel pro Sektion
 
 | Qualitaetsindikator | Wert | Fortschritt |
 | :--- | :--- | :--- |
-| Frontmatter-Abdeckung | 1355/1355 | `##########` 100.0% |
-| Aufgeloeste Quellenangabe (`quelle`) | 441/1355 | `###-------` 32.5% |
+| Frontmatter-Abdeckung | 1356/1356 | `##########` 100.0% |
+| Aufgeloeste Quellenangabe (`quelle`) | 441/1356 | `###-------` 32.5% |
 | Ingestion Tracking vollstaendig | 51/55 | `#########-` 92.7% |
 | Ingestion Reports mit LQS | 53/55 | `##########` 96.4% |
-| `[UNGEKLAERT]`-Marker (gesamt) | 251 | Beobachtung |
+| `[UNGEKLAERT]`-Marker (gesamt) | 252 | Beobachtung |
 
 ## Epistemische Verteilung
 | Tag | Artikel |
 | :--- | ---: |
 | `#bote` | 588 |
-| `#unbekannt` | 423 |
+| `#unbekannt` | 424 |
 | `#canon` | 137 |
 | `#ueberlieferung` | 108 |
 | `#perspektive` | 98 |
@@ -134,10 +134,10 @@ pie title Artikel pro Sektion
 
 | Metrik | Stand |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | 76 |
+| Letzter Audit-Problemtotal | 5 |
 | Delta zum vorigen Audit | +0 |
-| Bridge-/Placeholder-Seiten | 88 |
-| Davon ohne Ausnahme-Metadaten | 68 |
+| Bridge-/Placeholder-Seiten | 252 |
+| Davon ohne Ausnahme-Metadaten | 0 |
 | Test-Suiten PASS | 2 |
 | Test-Suiten FAIL | 1 |
 
@@ -153,7 +153,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_55db8206-e9d4-4394-96b2-3e1d478b6f26.txt`
+- Letzter Audit: `Logs/Archive/Audit_c0caa94e-c2e2-4ce4-9233-3fca497e15a8.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

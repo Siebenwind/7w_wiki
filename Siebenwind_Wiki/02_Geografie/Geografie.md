@@ -46,5 +46,5 @@ Die Geografie bestimmt oft die Kultur. Während in **Galadon** und bei den **Nor
 ---
 
 ## Referenzen
-- Primärquelle: [Atlas](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Hintergrund/Atlas%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20%20|%20Siebenwind.md)
+- Primärquelle: [Atlas](../../Quellen/Hintergrund/Atlas%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20%20|%20Siebenwind.md)
 - > [!ABSTRACT] Prüfbericht verfügbar: [[2026-02-19_Atlas_Geografie]] (ID: e1f7a4d5-8c9a-4b2e-a1d3-6e7f8a9b0c1d)
