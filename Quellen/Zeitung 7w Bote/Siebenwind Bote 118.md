@@ -1,26 +1,22 @@
----
+--- 
 layout: quelle
 title: Siebenwind Bote 118
+date: 2004-06-22
 category: Zeitung 7w Bote
-status: processed
+status: available
+lore_trust: 2
 ---
 
 # Siebenwind Bote 118
 
-**Datum:** Wandeltag, 22. Triar 15 nach Hilgorad
+**Datum:** Wandeltag, 22. Triar 15 nach Hilgorad [22. Juni 2004]
 
-## Nachruf: Tudor Steinbetz
+## Tudor Steinbetz verstorben
 
 Tudor Steinbetz, Mitbegründer und langjähriges Mitglied der Heilergilde ist in die Hallen Morsans eingegangen. Am 13. Triar 15 nach Hilgorad fanden die Nortraven ihn nahe ihrer neuen Siedlung im Meer treibend. Das Volk der Hobbits, das der Nortraven, Die Communis Medici und all seine Freunde trauern um diesen schweren Verlust. 
 
 Die Beerdigung wird am 29. Triar 15 nach Hilgorad zu Beginn der Dunkelphase des siebten Zyklus [27. Juni 2004 - 20:00 Uhr] stattfinden. In Brandenstein, vor den Mauern der Stadt, werden wir den Leichnam nach Neu Westhever bringen, wer sich dem Fackelumzug anschliessen will, sollte bis zum Ende des sechsten Zyklus vor dem Osttor Brandensteins sein. Nach dem Umzug werden wir die neue Siedlung der Nortraven erreichen, dort soll Tudor zu Grabe getragen werden. 
 
-Wichtig ist hierbei, das keine Rüstungen und Waffen gewünscht sind. Wer doch in selbiger kommt, wird, so er nicht bereit ist, diese abzulegen, abgewiesen werden. Nach der Beerdigung und vielen Worten, die gesagt werden wollen, werden wir gemeinsam Tudor Steinbetz gedenken und bei Speis und Trank uns an die schönen Zeiten mit ihm erinnern. Ein Freund ist von uns gegangen. Wir werden Dich nicht vergessen.
-
-**Leomar Finkenfarn**
-Leiter der Communis Medici
-
----
 
 ### Persönliche Worte
 
