@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 134
+title: '[[Siebenwind]] Bote 134'
 category: Chronik
 status: Bote
 uuid: b6e54d7c-dfcb-46df-9b0d-122fbf911d6c

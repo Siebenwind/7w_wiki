@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 140
+title: '[[Siebenwind]] Bote 140'
 category: Chronik
 status: Bote
 uuid: f5071e93-df07-4d92-864a-6f73ba513222

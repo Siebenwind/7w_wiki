@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-i. Konvent des Löwenordens
+title: '51. Konvent des Löwenordens'
 category: Geschichte
 ---
 

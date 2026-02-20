@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Die Gohor
+title: 'Die Gohor'
 type: Religion
 status: Kanon (Level 1)
 tags: [Schöpfung, [[Drachen]], Religion]

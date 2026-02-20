@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Brevier des Ordo_Vitamae
+title: 'Brevier des [[Ordo_Vitamae]]'
 category: Religion
 tags: [[[Vitama]], Gebet, Segen, Heilung, Fruchtbarkeit, Kunst]
 status: #überlieferung

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Kregor Arthax_Stahlauge
+title: 'Kregor [[Arthax_Stahlauge]]'
 category: Persönlichkeit
 ---
 

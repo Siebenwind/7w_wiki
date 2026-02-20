@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Rasse Menschen
+title: 'Rasse [[Menschen]]'
 category: [[Gesellschaft]]
 ---
 

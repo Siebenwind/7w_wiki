@@ -1,5 +1,7 @@
 ---
-title: Magietheorie nach Dunvallo_Linari
+category: Wissen
+layout: page
+title: 'Magietheorie nach [[Dunvallo_Linari]]'
 file_name: Magietheorie_nach_Dunvallo_Linari.md
 description: Eine umfassende Zusammenstellung der magietheoretischen Schriften des Erzmagus [[Dunvallo_Linari]], inklusive Abhandlungen zu Philosophie, Matrixtheorie, Reagenzien und Gestik.
 date: 2024-05-24

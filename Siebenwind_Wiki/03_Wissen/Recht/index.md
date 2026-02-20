@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Siebenwind Wiki - Recht
+title: '[[Siebenwind]] Wiki - Recht'
 ---
 
 # [[Siebenwind]] Wiki - Recht

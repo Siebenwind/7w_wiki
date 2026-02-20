@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Die Maid vom Greifenweiher (Sagenrolle)
+title: 'Die Maid vom [[Greifenweiher]] (Sagenrolle)'
 category: Allgemein
 ---
 

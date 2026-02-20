@@ -1,5 +1,7 @@
 ---
-title: Ari'in
+category: Wissen
+layout: page
+title: 'Ari'in'
 file_name: Ariin_(Rhadan_der_Graue).md
 description: Ein seltenes Werk von Rhadan dem Grauen über die "Ari'in" - magisch erschaffene, halbgeistige Werkzeuge und Konstrukte (ähnlich [[Golems]], aber als Werkzeuge definiert).
 date: 2024-05-24

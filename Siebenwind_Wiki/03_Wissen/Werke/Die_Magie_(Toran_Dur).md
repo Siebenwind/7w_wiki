@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Die index
+title: 'Die Magie'
 category: Allgemein
 ---
 

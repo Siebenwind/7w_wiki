@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Xan
+title: 'Xan'
 type: Religion
 status: Kanon (Level 1)
 tags: [Elementarherr, [[Enhor]], Wasser, Eis, Wissen]

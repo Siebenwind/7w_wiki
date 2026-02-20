@@ -1,5 +1,7 @@
 ---
-title: Die Erweiterte Thematik der Vjera_Batama_Magica
+category: Wissen
+layout: page
+title: 'Die Erweiterte Thematik der [[Vjera_Batama_Magica]]'
 file_name: Vjera_Batama_Magica_(Sylest_le_Felyhn).md
 description: Eine umfassende Abhandlung von [[Sylest_le_Felyhn]] über die "[[Vjera_Batama_Magica]]" (Edelsteinmagie) in ihren verschiedenen Formen (Mestra, Ge'inga, Einwa', Iur'nava, Amlewa').
 date: 2024-05-24

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Wiki Status
+title: '📊 Siebenwind Kompass'
 category: Index
 ---
 

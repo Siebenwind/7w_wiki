@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Kronregiment
+title: '[[Siebenwind]] Kronregiment'
 category: [[Gesellschaft]]
 ---
 

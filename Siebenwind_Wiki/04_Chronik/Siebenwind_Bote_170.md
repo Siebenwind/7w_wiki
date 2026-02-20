@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 170
+title: '[[Siebenwind]] Bote 170'
 category: Chronik
 status: Bote
 uuid: f3g4h5i6-j7k8-l9m0-n1o2-p3q4r5s6t7u8

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Gerion Flammwurf
+title: '[[Gerion]] Flammwurf'
 category: [[Persönlichkeiten]]
 ---
 

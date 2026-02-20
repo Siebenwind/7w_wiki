@@ -75,5 +75,5 @@ Die gebräuchlichste Zeitrechnung ist **"nach Hilgorad" (n.H.)**.
 *   **Aktueller Status:** Das Jahr **2026 n. Chr.** entspricht dem Jahr **36 n.H.**
 
 ## Referenzen
-- Primärquelle: [Zeitrechnung](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Hintergrund/Zeitrechnung%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md)
+- Primärquelle: Zeitrechnung (`../../Quellen/Hintergrund/Zeitrechnung | Siebenwind | Ultima Online Freeshard | Siebenwind.md`)
 - > [!ABSTRACT] Prüfbericht verfügbar: [[2026-02-19_Zeitrechnung_Sonnenzirkel]] (ID: 59bc8a3c-1d0b-47e9-a477-8d828c869ea0)

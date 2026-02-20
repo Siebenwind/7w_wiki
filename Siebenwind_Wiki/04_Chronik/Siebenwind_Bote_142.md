@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 142
+title: '[[Siebenwind]] Bote 142'
 category: Chronik
 ---
 

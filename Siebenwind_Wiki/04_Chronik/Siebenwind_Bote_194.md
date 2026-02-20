@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 194
+title: '[[Siebenwind]] Bote 194'
 category: Chronik
 ---
 

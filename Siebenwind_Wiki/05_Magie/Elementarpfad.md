@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Der Elementare Pfad
+title: 'Der [[Elementare]] Pfad'
 category: Magie
 status: integrated
 quelle: "/Quellen/Bibliothek Toran Dur/[[Amanda_Dunkelbaum]] - Der [[Elementare]] Pfad.md"

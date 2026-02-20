@@ -1,5 +1,7 @@
 ---
-title: Invocatio Elementharii
+category: Wissen
+layout: page
+title: 'Invocatio Elementharii'
 file_name: Invocatio_Elementharii_(Raisha_al_Javet).md
 description: Eine Anleitung zur Anrufung der Elementargeister (Wrathe) von [[Raisha_al_Javet]].
 date: 2024-05-24

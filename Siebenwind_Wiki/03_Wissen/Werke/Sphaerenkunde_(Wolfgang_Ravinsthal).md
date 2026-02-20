@@ -1,5 +1,7 @@
 ---
-title: Sphärenkunde
+category: Wissen
+layout: page
+title: 'Sphärenkunde'
 file_name: Sphaerenkunde_(Wolfgang_Ravinsthal).md
 description: Ein umfassendes Werk von [[Wolfgang_Ravinsthal]] über die Kosmologie Tares, die Schöpfungsgeschichte (Gohor, Horen, Erste Völker), den Fall des Einen und die Struktur der Sphären.
 date: 2024-05-24

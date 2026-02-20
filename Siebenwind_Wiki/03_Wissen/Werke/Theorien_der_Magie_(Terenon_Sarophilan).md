@@ -1,5 +1,7 @@
 ---
-title: Theorien über die Herkunft und das Wirken der index
+category: Wissen
+layout: page
+title: 'Theorien über die Herkunft und das Wirken der Magie'
 file_name: Theorien_der_Magie_(Terenon_Sarophilan).md
 description: Eine Abhandlung von [[Terenon_Sarophilan]] über verschiedene Theorien zur Herkunft der Magie, darunter "Das Geschenk Astraels", "Der große Teich", "Das Erbe" und "Zyklus und Selektion".
 date: 2024-05-24

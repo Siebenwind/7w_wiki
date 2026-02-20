@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Morsan
+title: 'Morsan'
 type: Religion
 status: Kanon (Level 1)
 tags: [Gott, Sahor, Tod, Traum, Ruhe, Winter]

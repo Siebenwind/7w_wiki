@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Trollkrieg gegen Brandenstein
+title: 'Trollkrieg gegen [[Brandenstein]]'
 category: Geschichte
 ---
 

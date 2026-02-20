@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Der Grix
+title: 'Der [[Grix]]'
 category: Allgemein
 ---
 

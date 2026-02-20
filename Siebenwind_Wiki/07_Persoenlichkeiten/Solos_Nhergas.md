@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Solos Nhergas
+title: 'Solos [[Nhergas]]'
 category: Persönlichkeit
 ---
 

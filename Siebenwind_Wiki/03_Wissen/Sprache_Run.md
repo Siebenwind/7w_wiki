@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Die_Sprache_Run
+title: '[[Die_Sprache_Run]]'
 category: Allgemein
 status: Canon
 quelle: "../../Quellen/Bibliothek Toran Dur/[[Toran_Dur]] - [[Die_Sprache_Run]].md"

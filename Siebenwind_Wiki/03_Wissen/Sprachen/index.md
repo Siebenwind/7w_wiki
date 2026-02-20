@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Siebenwind Wiki - Sprachen
+title: '[[Siebenwind]] Wiki - Sprachen'
 ---
 
 # [[Siebenwind]] Wiki - Sprachen

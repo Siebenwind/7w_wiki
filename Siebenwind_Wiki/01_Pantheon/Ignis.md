@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Ignis
+title: 'Ignis'
 type: Religion
 status: Kanon (Level 1)
 tags: [Elementarherr, [[Enhor]], Feuer, Wissen]

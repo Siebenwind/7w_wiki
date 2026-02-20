@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Stephan Llewellyen
+title: 'Stephan [[Llewellyen]]'
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 

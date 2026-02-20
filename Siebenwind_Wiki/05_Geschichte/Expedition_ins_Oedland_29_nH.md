@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Expedition ins Ödland (29 n.H.)
+title: 'Expedition ins [[Ödland]] (29 n.H.)'
 category: Geschichte
 ---
 

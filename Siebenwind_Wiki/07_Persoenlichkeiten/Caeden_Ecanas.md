@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Caeden Ecanas
+title: '[[Caeden]] Ecanas'
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_151]].md

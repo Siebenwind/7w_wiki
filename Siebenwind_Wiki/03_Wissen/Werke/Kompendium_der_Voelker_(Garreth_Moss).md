@@ -1,5 +1,7 @@
 ---
-title: Kompendium über die Völker auf Siebenwind
+category: Wissen
+layout: page
+title: 'Kompendium über die Völker auf [[Siebenwind]]'
 file_name: Kompendium_der_Voelker_(Garreth_Moss).md
 description: Eine ethnologische Übersicht über die Völker Siebenwinds ([[Menschen]], [[Nortraven]], [[Elfen]], [[Zwerge]], [[Orken]], [[Halblinge]], [[Myten]]), verfasst von Adeptus Arkanis [[Garreth_Moss]].
 date: 2024-05-24

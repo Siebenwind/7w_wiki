@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 135
+title: '[[Siebenwind]] Bote 135'
 category: Chronik
 status: Bote
 uuid: e9292e20-bf18-448f-b0a1-81b5fcf43e64

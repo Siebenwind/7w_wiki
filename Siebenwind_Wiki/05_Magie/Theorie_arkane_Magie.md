@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Theorie zur arkanen index (Generaltheorie)
+title: 'Theorie zur arkanen Magie (Generaltheorie)'
 category: Magie
 ---
 
 layout: wiki_page
-title: "Theorie zur arkanen Magie"
+title: 'Theorie zur arkanen Magie (Generaltheorie)'
 category: Magie
 status: integrated
 uuid: T1234567-B2C3-4D5E-8F9A-0A1B2C3D4E5F

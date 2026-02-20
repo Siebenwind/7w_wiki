@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Erzpriester Vencurius
+title: 'Erzpriester [[Vencurius]]'
 category: Persönlichkeit
 ---
 

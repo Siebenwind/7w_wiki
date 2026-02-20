@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Philosophie der index
+title: 'Philosophie der Magie'
 category: Magie
 status: integrated
 quelle: "/Quellen/Bibliothek Toran Dur/[[Dunvallo_Linari]] - Philosophie.md"

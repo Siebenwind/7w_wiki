@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Siebenwind Wiki - Werke
+title: '[[Siebenwind]] Wiki - Werke'
 ---
 
 # [[Siebenwind]] Wiki - Werke

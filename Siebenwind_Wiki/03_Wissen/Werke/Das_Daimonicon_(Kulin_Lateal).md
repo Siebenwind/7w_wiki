@@ -1,5 +1,7 @@
 ---
-title: Das Daimonicon
+category: Wissen
+layout: page
+title: 'Das [[Daimonicon]]'
 file_name: Das_Daimonicon_(Kulin_Lateal).md
 description: Ein umfassendes Werk der Dämonologie von Kulin Lateal ([[Akademie_der_Schwarzen_Kuenste]]) über die 9 Domänen der Niederhöllen (Yerrodon), Dämonenklassen und Beschwörungsrituale.
 date: 2024-05-24

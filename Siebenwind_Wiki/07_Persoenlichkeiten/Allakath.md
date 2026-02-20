@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Allakath
+title: '[[Allakath]]'
 category: Personen
 status: integrated
 quelle: "/Quellen/Bibliothek Toran Dur/Allakath - Etikette.md"

@@ -1,5 +1,7 @@
 ---
-title: Die Foki - Bedeutung in der praktischen index
+category: Wissen
+layout: page
+title: 'Die Foki - Bedeutung in der praktischen Magie'
 file_name: Die_Foki_([[Dimiona]]).md
 description: Eine Magisterarbeit von Adepta Maior [[Dimiona]] über die vier Hauptfoki der Magie ([[Geist]], Runen, Gesten, Wille) und deren Bedeutung in der Praxis.
 date: 2024-05-24

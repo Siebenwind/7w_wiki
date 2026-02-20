@@ -1,5 +1,7 @@
 ---
-title: Arkane Verbindung und Wirkung von höheren Wesenheiten
+category: Wissen
+layout: page
+title: 'Arkane Verbindung und Wirkung von höheren Wesenheiten'
 file_name: Arkane_Verbindung_hoeherer_Wesenheiten_(Johann_Liebig).md
 description: Eine Untersuchung über die Klassifizierung magischer Wesenheiten (Lazperday vs. Warthun) und die Erschaffung von [[Golems]].
 date: 2024-05-24

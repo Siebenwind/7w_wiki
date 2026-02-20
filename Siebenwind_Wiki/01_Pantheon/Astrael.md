@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Astrael
+title: 'Astrael'
 type: Religion
 status: Kanon (Level 1)
 tags: [Gott, Sahor, Wissen, Wissen, Wissen, Sommer]

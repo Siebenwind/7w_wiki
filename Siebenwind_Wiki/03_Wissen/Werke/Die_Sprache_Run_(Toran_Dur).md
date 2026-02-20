@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Die_Sprache_Run
+title: '[[Die_Sprache_Run]]'
 category: Allgemein
 ---
 

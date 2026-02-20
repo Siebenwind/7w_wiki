@@ -1,5 +1,7 @@
 ---
-title: Locus Magicae - Gemeinsamkeiten aller Magiewirker
+category: Wissen
+layout: page
+title: 'Locus Magicae - Gemeinsamkeiten aller Magiewirker'
 file_name: Locus_Magicae_(Johannes_Klos).md
 description: Eine Theorie von [[Johannes_Klos]] über das "magische Organ" (Locus Magicae) in Lebewesen und dessen Funktionsweise (Empfänger, Interpreter, Konstruktor).
 date: 2024-05-24

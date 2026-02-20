@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Hadrian Lugado
+title: '[[Hadrian]] Lugado'
 category: Persönlichkeit
 uuid: h4dr14n-lug4d0-45tr43l
 quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 174
+title: '[[Siebenwind]] Bote 174'
 category: Chronik
 ---
 

@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Siebenwind Wiki - Erzählungen
+title: '[[Siebenwind]] Wiki - Erzählungen'
 ---
 
 # [[Siebenwind]] Wiki - Erzählungen

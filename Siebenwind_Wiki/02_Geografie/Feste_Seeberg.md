@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Feste Seeberg
+title: 'Feste [[Seeberg]]'
 category: Geografie
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_174]].md

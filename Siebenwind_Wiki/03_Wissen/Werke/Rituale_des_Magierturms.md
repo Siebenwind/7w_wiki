@@ -1,5 +1,7 @@
 ---
-title: Rituale des Magierturms
+category: Wissen
+layout: page
+title: 'Rituale des Magierturms'
 file_name: Rituale_des_Magierturms.md
 description: Eine Sammlung von Ritualen, Prüfungen und zeremoniellen Handlungen, wie sie im [[Magierturm_zu_Tiefenbach]] und innerhalb der Grauen Garde praktiziert wurden.
 date: 2024-05-24

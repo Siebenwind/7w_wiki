@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 172
+title: '[[Siebenwind]] Bote 172'
 category: Chronik
 status: Bote
 uuid: b2c3d4e5-f6a1-4b2c-3d4e-5f6g7h8i9j0k

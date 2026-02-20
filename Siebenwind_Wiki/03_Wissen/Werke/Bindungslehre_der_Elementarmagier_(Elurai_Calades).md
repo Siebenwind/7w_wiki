@@ -1,5 +1,7 @@
 ---
-title: Bindungslehre der Elementarmagier
+category: Wissen
+layout: page
+title: 'Bindungslehre der Elementarmagier'
 file_name: Bindungslehre_der_Elementarmagier_(Elurai_Calades).md
 description: Eine Abhandlung über die emotionale und magische Bindung zwischen einem Elementarmagier und seinem gewählten Element.
 date: 2024-05-24

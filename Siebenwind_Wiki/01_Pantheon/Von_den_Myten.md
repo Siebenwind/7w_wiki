@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Von den Myten
+title: 'Von den [[Myten]]'
 category: Religion
 status: integrated
 quelle: "/Quellen/Bibliothek Astrael/Von den [[Myten]].md"

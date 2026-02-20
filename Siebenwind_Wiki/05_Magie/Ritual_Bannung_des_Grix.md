@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Ritual zur Bannung des Grix
+title: 'Ritual zur Bannung des [[Grix]]'
 category: Magie
 status: Canon
 quelle: "../../Quellen/Bibliothek Toran Dur/Anonymous - Ritual zur Bannung des [[Grix]].md"

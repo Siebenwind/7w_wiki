@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Magietheorie (Toran_Dur)
+title: 'Magietheorie ([[Toran_Dur]])'
 category: Allgemein
 ---
 

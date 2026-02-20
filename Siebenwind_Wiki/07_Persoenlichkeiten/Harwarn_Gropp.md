@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Harwarn Gropp
+title: '[[Harwarn]] Gropp'
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_139]].md

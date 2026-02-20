@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Glossar
+title: 'Glossar'
 category: Allgemein
 ---
 

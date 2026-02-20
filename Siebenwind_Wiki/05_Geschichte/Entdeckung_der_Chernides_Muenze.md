@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Entdeckung der Chernides Münze
+title: 'Entdeckung der [[Chernides]] Münze'
 category: Geschichte
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Fragmente aus Toran_Dur
+title: 'Fragmente aus [[Toran_Dur]]'
 category: Magie
 status: Canon
 quelle: "../../Quellen/Bibliothek Toran Dur/[[Toran_Dur]] - Sammlerfragmente I-IV.md"

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 171
+title: '[[Siebenwind]] Bote 171'
 category: Chronik
 status: Bote
 uuid: a1b2c3d4-e5f6-4a1b-9c2d-3e4f5g6h7i8j

@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Siebenwind Wiki - Gesellschaft
+title: '[[Siebenwind]] Wiki - Gesellschaft'
 ---
 
 # [[Siebenwind]] Wiki - Gesellschaft

@@ -1,5 +1,7 @@
 ---
-title: De Magica Angamoniensis
+category: Wissen
+layout: page
+title: 'De Magica Angamoniensis'
 file_name: De_Magica_Angamoniensis_(Kalveron_Dai).md
 description: Eine Untersuchung der Bedrohung durch "Den Einen" ([[Angamon]]), den Sphärenriss über [[Finsterwangen]] und die magische Gegenoffensive durch ein Artefakt in [[Brandenstein]].
 date: 2024-05-24

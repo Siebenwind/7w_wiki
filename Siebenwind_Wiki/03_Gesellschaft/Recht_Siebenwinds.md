@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: index Siebenwinds (De Iuribus)
+title: 'Wissen Siebenwinds (De Iuribus)'
 category: [[Gesellschaft]]
 tags: [Gesetz, Wissen, Verfassung, Strafe, Adel, Bürger]
 status: #überlieferung

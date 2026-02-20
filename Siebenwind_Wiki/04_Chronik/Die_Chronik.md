@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Die index
+title: 'Die Wissen'
 category: Index
 ---
 

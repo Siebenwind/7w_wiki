@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Siebenwind Wiki - Magie
+title: '[[Siebenwind]] Wiki - Magie'
 ---
 
 # [[Siebenwind]] Wiki - Magie

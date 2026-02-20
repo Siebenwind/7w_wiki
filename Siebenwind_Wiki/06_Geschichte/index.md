@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Siebenwind Wiki - Geschichte
+title: '[[Siebenwind]] Wiki - Geschichte'
 ---
 
 # [[Siebenwind]] Wiki - Geschichte

@@ -1,5 +1,7 @@
 ---
-title: Iuribus Siebenwind
+category: Wissen
+layout: page
+title: 'Iuribus [[Siebenwind]]'
 file_name: Iuribus_Siebenwind.md
 description: Das Gesetzbuch der Baronie [[Siebenwind]], erlassen von Baron Morgenroth. Enthält Constitutio, Codex Criminalis, Codex Privatae und Lex Patritorium.
 date: 2024-05-24

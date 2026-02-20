@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Auktion der Familie Turek
+title: 'Auktion der Familie [[Turek]]'
 category: Geschichte
 ---
 

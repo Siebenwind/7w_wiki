@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Ernennung Wim_Derfflinger
+title: 'Ernennung [[Wim_Derfflinger]]'
 category: Geschichte
 ---
 

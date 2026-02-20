@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Siebenwind Wiki - Bestiarium
+title: '[[Siebenwind]] Wiki - Bestiarium'
 ---
 
 # [[Siebenwind]] Wiki - Bestiarium

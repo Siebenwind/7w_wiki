@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 187
+title: '[[Siebenwind]] Bote 187'
 category: Chronik
 ---
 

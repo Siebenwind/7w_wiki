@@ -1,5 +1,7 @@
 ---
-title: Theorem zu den Baumwesen
+category: Wissen
+layout: page
+title: 'Theorem zu den Baumwesen'
 file_name: Theorem_zu_den_Baumwesen_(Themus_Takai).md
 description: Ein Theorem von [[Themus_Takai]] über die Entstehung, Natur und Bannung von Baumwesen (Waldschrate, Ents?), basierend auf der Trennung von Baumgeist und Seele durch massive Gewalteinwirkung.
 date: 2024-05-24

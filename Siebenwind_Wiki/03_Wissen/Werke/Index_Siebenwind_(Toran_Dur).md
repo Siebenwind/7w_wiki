@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Index Siebenwind
+title: 'Index [[Siebenwind]]'
 category: Allgemein
 ---
 

@@ -37,5 +37,5 @@ Die Thronbesteigung von **[[Hilgorad_I._ap_Mer_von_Galadon|Hilgorad I.]]** im Ja
 ---
 
 ## Referenzen
-- Primärquelle: [Könige Falandriens](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Hintergrund/Ko%CC%88nige%20Falandriens%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20%20|%20Siebenwind.md)
+- Primärquelle: Könige Falandriens (`../../Quellen/Hintergrund/Könige Falandriens | Siebenwind | Ultima Online Freeshard | Siebenwind.md`)
 - Siehe auch: [[Historie_und_Aeren]], [[Zeitleiste_(15-30_n.H.)]]

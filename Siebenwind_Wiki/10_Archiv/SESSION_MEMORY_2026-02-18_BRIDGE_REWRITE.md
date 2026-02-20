@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Session Memory: Oracle Stability & Bridge Rewrite (Batch 1)
+title: 'Session Memory: Oracle Stability & Bridge Rewrite (Batch 1)'
 category: Archiv
 ---
 

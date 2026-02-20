@@ -51,5 +51,5 @@ Obwohl die Existenz der Götter unumstößlich ist, sind die klerikalen Orden (w
 ---
 
 ## Referenzen
-- Primärquelle: [Götterwelt](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Hintergrund/Go%CC%88tterwelt%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+- Primärquelle: Götterwelt (`../../Quellen/Hintergrund/Götterwelt | Siebenwind | Ultima Online Freeshard | Siebenwind.md`)
 - > [!ABSTRACT] Prüfbericht verfügbar: [[2026-02-19_Goetterwelt_Pantheon]] (ID: d7e3a51f-2b8c-4c6e-9e4a-5d8c9a1a2b3c)

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Falk Steinhauer
+title: 'Falk [[Steinhauer]]'
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 

@@ -1,5 +1,7 @@
 ---
-title: Die These der elementaren Atome
+category: Wissen
+layout: page
+title: 'Die These der elementaren Atome'
 file_name: Theorie_der_elementaren_Atome_(Jennaia_Lavrial).md
 description: Eine Magisterarbeit von [[Jennaia_Lavrial]], die eine atomare Struktur der Elemente (statt Fäden/Matrix) postuliert.
 date: 2024-05-24

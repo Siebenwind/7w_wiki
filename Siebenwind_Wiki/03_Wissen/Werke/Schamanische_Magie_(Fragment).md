@@ -1,5 +1,7 @@
 ---
-title: Schamanische index
+category: Wissen
+layout: page
+title: 'Schamanische Magie'
 file_name: Schamanische_Magie_(Fragment).md
 description: Ein fragmentarisches Werk unbekannter Herkunft, das die Grundlagen schamanischer Magie, Geisterbeschwörung (Tiergeister, Mondgeister) und Totemmagie beschreibt.
 date: 2024-05-24

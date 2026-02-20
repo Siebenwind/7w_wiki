@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Interessante Artikel
+title: 'Interessante Artikel'
 ---
 
 # Interessante Artikel

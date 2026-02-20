@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 183
+title: '[[Siebenwind]] Bote 183'
 category: Chronik
 ---
 

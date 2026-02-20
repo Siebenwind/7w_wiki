@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Rien
+title: 'Rien'
 type: Religion
 status: Kanon (Level 1)
 tags: [Elementarherrin, [[Enhor]], Erde, [[Rasse_Zwerge]], Wissen]

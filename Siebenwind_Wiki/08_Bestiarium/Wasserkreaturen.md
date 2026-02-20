@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Wasserkreaturen
+title: 'Wasserkreaturen'
 category: Allgemein
 ---
 

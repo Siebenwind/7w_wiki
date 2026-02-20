@@ -1,5 +1,7 @@
 ---
-title: Die Ritualisierung
+category: Wissen
+layout: page
+title: 'Die Ritualisierung'
 file_name: Die_Ritualisierung_(Rhadan_der_Graue).md
 description: Ein Lehrbuch von Rhadan dem Grauen (Turm zu [[Tiefenbach]]) über die Vorbereitung und Durchführung von Ritualen, insbesondere Reinigungen und geometrische Anordnungen.
 date: 2024-05-24

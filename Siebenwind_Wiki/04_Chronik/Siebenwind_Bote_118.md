@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 118
+title: '[[Siebenwind]] Bote 118'
 category: Chronik
 ---
 

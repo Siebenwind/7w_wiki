@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Antimagie und Gegenzauber
+title: '[[Antimagie]] und Gegenzauber'
 category: Magie
 status: integrated
 quelle: "/Quellen/Bibliothek Toran Dur/[[Nistram_Rigas]] - Magica Contraria.md"

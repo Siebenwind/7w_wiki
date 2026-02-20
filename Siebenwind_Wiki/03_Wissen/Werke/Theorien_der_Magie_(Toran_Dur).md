@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Theorien der index (Sammelband)
+title: 'Theorien der Magie (Sammelband)'
 category: Allgemein
 ---
 

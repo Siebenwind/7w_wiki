@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Ventus
+title: 'Ventus'
 type: Religion
 status: Kanon (Level 1)
 tags: [Elementarherr, [[Enhor]], Luft, Wind, Wissen]

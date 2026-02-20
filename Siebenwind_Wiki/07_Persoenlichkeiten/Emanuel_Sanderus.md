@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Emanuel Sanderus
+title: '[[Emanuel]] Sanderus'
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_172]].md

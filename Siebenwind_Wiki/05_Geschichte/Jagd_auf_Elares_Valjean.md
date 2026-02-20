@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Jagd auf Elares_Valjean
+title: 'Jagd auf [[Elares_Valjean]]'
 category: Geschichte
 ---
 

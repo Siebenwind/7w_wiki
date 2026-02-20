@@ -1,5 +1,7 @@
 ---
-title: Bartanatomie - Band 1
+category: Wissen
+layout: page
+title: 'Bartanatomie - Band 1'
 file_name: Bartanatomie_(Logrin_Goldaxt).md
 description: Eine humoristische, aber kulturell tief blickende Abhandlung von Magister [[Logrin_Goldaxt]] über die Bedeutung des Bartes für [[Zwerge]] (Dwarschim).
 date: 2024-05-24

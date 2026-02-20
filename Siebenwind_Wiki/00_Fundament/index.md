@@ -1,4 +1,5 @@
 ---
+category: Wissen
 layout: wiki_page
 title: Siebenwind Wiki - Fundament
 ---

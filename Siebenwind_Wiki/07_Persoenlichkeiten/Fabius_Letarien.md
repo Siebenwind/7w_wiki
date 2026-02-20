@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Fabius Letarien
+title: '[[Fabius]] Letarien'
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_160]].md

@@ -1,5 +1,7 @@
 ---
-title: Arcana_Procella - Die Lehre der arkanen Wellenbewegung
+category: Wissen
+layout: page
+title: '[[Arcana_Procella]] - Die Lehre der arkanen Wellenbewegung'
 file_name: Arcana_Procella_(Unbekannt).md
 description: Eine theoretische Abhandlung über die "Arkane Wellenbewegung" (das Lied der Dinge), Aura-Resonanzen und deren Einfluss auf die Realität (am Beispiel [[Südfall]] und [[Ödland]]).
 date: 2024-05-24

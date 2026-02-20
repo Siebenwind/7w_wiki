@@ -1,5 +1,7 @@
 ---
-title: Arkane Kriegsführung: Konstrukte und Artefakte (Band I)
+category: Wissen
+layout: page
+title: 'Arkane Kriegsführung: Konstrukte und Artefakte (Band I)'
 file_name: Arkane_Kriegsfuehrung_Band_I_(Erynnion_Comari).md
 description: Baupläne und Einsatzberichte für magische Kriegsgeräte (Blitzkatalysator, Felsspalter), entwickelt von [[Erynnion_Comari]] während des Cortanischen Feldzugs.
 date: 2024-05-24

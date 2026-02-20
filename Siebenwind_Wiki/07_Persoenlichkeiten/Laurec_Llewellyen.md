@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Laurec Llewellyen
+title: 'Laurec [[Llewellyen]]'
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Siebenwind Bote 126
+title: '[[Siebenwind]] Bote 126'
 category: Chronik
 ---
 

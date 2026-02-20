@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Arn Toron
+title: '[[Arn]] Toron'
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_167]].md

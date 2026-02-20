@@ -1,5 +1,7 @@
 ---
-title: Thesen der Magiezweige
+category: Wissen
+layout: page
+title: 'Thesen der Magiezweige'
 file_name: Thesen_der_Magiezweige_(Uron_Sbocaj).md
 description: Eine theoretische Abhandlung von [[Uron_Sbocaj]], kommentiert von [[Dunvallo_Linari]], welche die magischen Zweige (Weiß, Grau, Schwarz) den Elementen zuordnet.
 date: 2024-05-24

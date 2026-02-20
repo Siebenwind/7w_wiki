@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Siebenwind Wiki - Myten und Legenden
+title: '[[Siebenwind]] Wiki - Myten und Legenden'
 ---
 
 # [[Siebenwind]] Wiki - Myten und Legenden

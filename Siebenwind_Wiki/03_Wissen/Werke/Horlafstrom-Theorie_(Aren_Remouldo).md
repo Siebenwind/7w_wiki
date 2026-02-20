@@ -1,5 +1,7 @@
 ---
-title: Die Theorie des Horlafstroms
+category: Wissen
+layout: page
+title: 'Die Theorie des Horlafstroms'
 file_name: Horlafstrom-Theorie_(Aren_Remouldo).md
 description: Eine alternative Magietheorie von Adeptus [[Aren_Remouldo]], die das Wirken von Magie durch die Verbindung zum "Horlaf" (Licht der Mächte) erklärt.
 date: 2024-05-24

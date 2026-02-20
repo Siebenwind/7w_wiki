@@ -1,5 +1,7 @@
 ---
-title: Erweiterte Sphärentheorie
+category: Wissen
+layout: page
+title: 'Erweiterte Sphärentheorie'
 file_name: Erweiterte_Sphaerentheorie_(Kida_Gilwen).md
 description: Eine theoretische Abhandlung von [[Kida_Gilwen]] über das Multiversum, Entscheidungssphären, Zeitreisen und die Mechanik von Zeitstop/Zeitraffung.
 date: 2024-05-24

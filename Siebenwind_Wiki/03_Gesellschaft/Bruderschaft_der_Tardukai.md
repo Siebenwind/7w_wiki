@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Bruderschaft der Tardukai
+title: 'Bruderschaft der [[Tardukai]]'
 category: Organisationen
 ---
 

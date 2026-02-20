@@ -43,5 +43,5 @@ Das Wirken eines Magiers wird oft durch seine persönliche Philosophie geprägt:
 ---
 
 ## Referenzen
-- Primärquelle: [Magie](file:///Users/alexandrerabe/siebenwind/7w_wiki/Quellen/Hintergrund/Magie%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20%20|%20Siebenwind.md)
+- Primärquelle: Magie (`../../Quellen/Hintergrund/Magie | Siebenwind | Ultima Online Freeshard | Siebenwind.md`)
 - > [!ABSTRACT] Prüfbericht verfügbar: [[2026-02-19_Magie_Grundlagen]] (ID: f5d6e7f8-a1b2-4c3d-bd8e-1a2b3c4d5e6f)

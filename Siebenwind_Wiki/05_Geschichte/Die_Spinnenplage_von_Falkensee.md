@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Die Spinnenplage von Falkensee
+title: 'Die Spinnenplage von [[Falkensee]]'
 category: Geschichte
 ---
 

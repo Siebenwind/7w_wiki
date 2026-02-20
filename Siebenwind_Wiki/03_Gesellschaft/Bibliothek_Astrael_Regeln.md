@@ -1,6 +1,6 @@
 ---
 layout: wiki_page
-title: Regulatorium der index zum Heiligen Auge Astraels
+title: 'Regulatorium der Wissen zum Heiligen Auge Astraels'
 category: Gesellschaft
 status: integrated
 quelle: "/Quellen/Bibliothek Astrael/Regulatorium der Wissen zum Heiligen Auge Astraels.md"

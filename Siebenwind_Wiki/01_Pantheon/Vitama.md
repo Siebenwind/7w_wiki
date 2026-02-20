@@ -1,6 +1,7 @@
 ---
+category: Wissen
 layout: wiki_page
-title: Vitama
+title: 'Vitama'
 type: Religion
 status: Kanon (Level 1)
 tags: [Göttin, Sahor, Leben, Frieden, Liebe, Frühling]
