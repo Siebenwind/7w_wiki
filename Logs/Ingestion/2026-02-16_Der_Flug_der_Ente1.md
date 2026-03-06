@@ -2,6 +2,11 @@
 
 Dieser Teil der Erzählung wurde im Rahmen der Gesamteinlesung der "Flug der Ente"-Reihe am 2026-02-16 verarbeitet.
 
+## Metadaten
+- **Quelle**: `../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente1.md`
+- **Datum der Verarbeitung**: 2026-02-16
+- **Ausgewertet von**: Antigravity
+
 - **Hauptreport**: 2026-02-16_Der_Flug_der_Ente...md (`2026-02-16_Der_Flug_der_Ente...md`)
 - **Status**: Merged & Integrated
 

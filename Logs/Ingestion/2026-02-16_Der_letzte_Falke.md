@@ -1,9 +1,11 @@
 # 📥 Ingestion Report: Der letzte Falke (Rose von Sonnentau / Anonymus)
 
 ## Metadaten
+- **Quelle**: `../../Quellen/Bibliothek%20Astrael/Der%20letzte%20Falke.md`
 - **Quellen**: 
   - Der letzte Falke.md (`../../Quellen/Bibliothek%20Astrael/Der%20letzte%20Falke.md`)
   - Rose von Sonnentau - Der letzte Falke.md (`../../Quellen/Bibliothek%20Toran%20Dur/Rose%20von%20Sonnentau%20-%20Der%20letzte%20Falke.md`)
+- **Ausgewertet von**: Antigravity
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung
 - **Lore-Score (LQS)**: 10/10

@@ -57,6 +57,7 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [Logs/Conclusions/2026-02-17_Forum_Research_Report.md](../Logs/Conclusions/2026-02-17_Forum_Research_Report.md)
 - [x] [Scripts/forum_scanner.py](../Scripts/forum_scanner.py)
 - [x] [.agent/tests/suites/reader-stats-contract.json](../.agent/tests/suites/reader-stats-contract.json)
+- [x] [.agents/skills/stats/SKILL.md](../.agents/skills/stats/SKILL.md)
 
 ---
-*Zuletzt aktualisiert: 2026-02-18T00:54:00Z | Ref: #antigravity_advisor_dossier*
+*Zuletzt aktualisiert: 2026-03-06T17:40:00Z | Ref: #antigravity_advisor_dossier*
