@@ -48,3 +48,9 @@ Diese Datei wurde als Interop-Blocker-Fix angelegt. Neue Ingestion-Laeufe mit Da
 - **Siebenwind_Bote_118.md**: Source file `Quellen/Zeitung 7w Bote/Siebenwind Bote 118.md` is an empty placeholder.
 - **Action**: Skipped ingestion.
 - **Log**: Marked as `❌ Missing` in `Logs/INVENTUR_QUELLEN.md`.
+
+### 2026-02-20: Ingestion Bote 118
+- **Siebenwind_Bote_118.md**: Source fetched from `http://bote.siebenwind.de/index.php?service=ausgabe&ausgabe=118` by Antigravity.
+- **Action**: Ingested and integrated. Pipeline successful.
+- **Register**: No major register changes required (only obituary details).
+- **Archive**: Synced via `./7w_wiki.py archive sync`.

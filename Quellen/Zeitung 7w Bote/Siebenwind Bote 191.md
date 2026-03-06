@@ -1,7 +1,8 @@
----
+--- 
 layout: post
 title: "Siebenwind Bote 191"
 category: Allgemein
+lore_trust: 2
 ---
 
 |  |  |   

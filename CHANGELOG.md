@@ -1,6 +1,15 @@
 # Changelog
 
-#### [2026-02-20.02] - Nexus Generification (OmniLore Blueprint)
+#### [2026-02-20.03] - Frontmatter Fixes & Ingestion 2.0 (Bote 118, 186-194)
+- **P1**
+- **Hinzugefügt**:
+  - `Siebenwind_Bote_118.md` aus dem Webarchiv (`bote.siebenwind.de`) abgerufen und integriert.
+- **Geändert**:
+  - `check` CLI: Verbleibende Frontmatter-Inkonsistenzen (Fehlende H1s/Titel-Mismatches) via Custom-Python-Scripting behoben. Die Wiki-Konsistenz-Probleme wurden von 249 auf 0 strukturelle Fehler reduziert (15 kosmetische Rest-Probleme verbleiben).
+  - Batch-Ingestion fuer Boten 186-194 verifiziert und durch die Ingest-Pipeline abgeschlossen.
+- **Validiert**:
+  - `./7w_wiki.py check` (Strukturelle Konsistenz hergestellt)
+  - `./7w_wiki.py ingest` für fehlende Boten erfolgreich.
 - **P1**
 - **Hinzugefügt**:
   - `nexus_config.py`: Zentrales Modul zum Laden der Lore-Manifest Parameter (`WORLD_NAME`, `WIKI_DIR` etc.).

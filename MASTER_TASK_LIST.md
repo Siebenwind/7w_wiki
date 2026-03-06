@@ -25,7 +25,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] **UI/UX Polish**: Unified "Siebenwind Archiv" aesthetic across all category landing pages (`Siebenwind_Wiki/index.md`, `00_Fundament`, etc.) and fixed search overlap.
 - [x] **System Permission Repair**: Resolve persistent `Operation not permitted` errors in `Logs/Archive` by disabling "Enable Terminal Sandboxing" in Antigravity settings.
 - [x] **MCP Server**: Model Context Protocol Server implementiert (`System/MCP/`). 27 Tools, Dual-Mode Architektur (Daemon + Agent-Fallback), Auto-Extraction Pipeline, `[QUIP]` Mail-System. Dependency: `pip install 'mcp[cli]'`.
-- [ ] **Ingestion 2.0**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - [BLOCKED: 118 Source Missing].
+- [x] **Ingestion 2.0**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - Erfolgreich importiert und integriert.
 
 ## 🟡 Priorität 2: Operative Ingestion & Research
 - [ ] **Kanon-Abgleich**: Wiederaufnahme der Prüfung zur Götterverschmelzung (RESEARCH-2026-010/011) - [DEFERRED].

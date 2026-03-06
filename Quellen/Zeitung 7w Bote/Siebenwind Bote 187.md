@@ -1,7 +1,8 @@
----
+--- 
 layout: post
-title: "Siebenwind Bote 187"
+title: Mitarbeiter gesucht
 category: Allgemein
+lore_trust: 2
 ---
 
 |  |  |   
