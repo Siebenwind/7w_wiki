@@ -29,4 +29,4 @@ Die Philosophie setzt die Grenzen des magisch Erlaubten:
 - **[[Abdera]]:** "Mut ist der Tat Anfang, doch das Glück entscheidet über das Ende."
 
 ---
-**Siehe auch:** [[Magietheorie]], [[Sphären]], [[Arenus_der_Weise]]
+**Siehe auch:** [[Magietheorie_Toran_Dur|Magietheorie (Toran Dur)]], [[Sphären]], [[Arenus_der_Weise]]

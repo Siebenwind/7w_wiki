@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: 'Toran [[Toran_Dur]]'
+title: Toran Dur
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
-# Toran [[Toran_Dur]]
+# Toran Dur
 
 **Titel:** 1. Ordensmeister des [[Orden_der_Wachenden_Löwen]], Hochmagus, Erzmagier des Grauen Pfades, Edler
 **Epistemischer Status:** #bote
@@ -12,7 +12,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 **Zeitraum:** Aktiv ca. 15-30 n.H. (Geboren 49 v.H.)
 
 ## Beschreibung
-**Toran [[Toran_Dur]]** ist eine der prägendsten magischen [[Persoenlichkeiten_Uebersicht]] [[Siebenwind]]s. Er ist ein mächtiger Erzmagier, der sowohl in der akademischen Lehre als auch in der militärischen Verteidigung der Insel eine Schlüsselrolle spielt.
+**Toran Dur** ist eine der prägendsten magischen [[Persoenlichkeiten_Uebersicht]] [[Siebenwind]]s. Er ist ein mächtiger Erzmagier, der sowohl in der akademischen Lehre als auch in der militärischen Verteidigung der Insel eine Schlüsselrolle spielt.
 
 ## Ämter & Titel
 - **Hochmagus:** Im Jahr 18 n.H. (Bote 158) wurde er nach einer langen Verzögerung durch [[Kida_Gilwen]] offiziell durch den neuen Pfadleiter [[Edomawyr]] zum Hochmagus ernannt. Zuvor hatte der [[Baron_von_Gerdenwald]] den Titel bereits inoffiziell (Bote 144) verliehen.
@@ -21,7 +21,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 - **[[Inselrat]]:** Er war zeitweise Mitglied des Inselrates und vertrat dort oft progressive oder pragmatische Positionen (z.B. Bote 183 zur Wasserversorgung).
 
 ## Wirken & Forschung
-Toran [[Toran_Dur]] ist bekannt für seinen unstillbaren Wissensdurst und seine oft waghalsigen Methoden:
+Toran Dur ist bekannt für seinen unstillbaren Wissensdurst und seine oft waghalsigen Methoden:
 - **Magietheorie:** Sein **[[Lehrbuch_Magietheorie]]** definiert fundamentale Konzepte wie das [[Lehrbuch_Magietheorie#Zensor|Zensor-Modell]] und die Elementarknoten. Er integriert dabei sowohl arkan-kosmologische als auch theologische Ansätze. Bekannt ist er auch für seine (umstrittene) **Gohor-Theorie**, nach der das [[Astralnetz]] nicht von [[Astrael]] geschaffen wurde, sondern ein kosmisches Relikt der [[Gohor]] ist – eine These, die ihn oft in Konflikt mit orthodoxen Klerikern bringt.
 - **[[Niemand]] & Mazareem:** Er war maßgeblich an der Erforschung des Volkes von [[Niemand]] und der Stadt [[Mazareem]] beteiligt. Er interpretierte Prophezeiungen über den Krieg gegen den Dämonenkönig und die "letzte Schlacht" auf [[Siebenwind]] (Bote 142).
 - **Goblin-Forschung:** Um die Kultur der [[Goblins]] zu studieren, unterzog er sich angeblich einem Selbstversuch und lebte – möglicherweise magisch verwandelt – unter ihnen (Bote 180).

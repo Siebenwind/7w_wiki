@@ -1,10 +1,10 @@
 ---
 layout: wiki_page
-title: 'Magietheorie ([[Toran_Dur]])'
+title: Magietheorie (Toran Dur)
 category: Allgemein
 ---
 
-# Magietheorie ([[Toran_Dur]])
+# Magietheorie (Toran Dur)
 
 **Epistemischer Status:** #überlieferung
 **Autor:** Hochmagus [[Toran_Dur]]

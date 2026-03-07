@@ -31,4 +31,4 @@ Durch enge Bindungen (*Anungim Nahi*) bilden die Primäratome komplexere Stoffe:
 In Lavrials Modell ist **Wrathe** (Äther/[[Geist]]) kein atomarer Stoff, sondern das Medium, in dem die Atome schwimmen. Magiebegabte besitzen ein (hypothetisches) Organ, mit dem sie dieses Medium und damit die darin befindlichen Atome beeinflussen können.
 
 ---
-**Siehe auch:** [[Magietheorie]], [[Arkan-Metalle]], [[Jennaia_Lavrial]]
+**Siehe auch:** [[Magietheorie_Toran_Dur|Magietheorie (Toran Dur)]], [[Arkan-Metalle]], [[Jennaia_Lavrial]]

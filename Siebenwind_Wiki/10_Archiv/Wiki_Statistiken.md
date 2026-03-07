@@ -6,7 +6,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-03-06 17:21
+**Stand:** 2026-03-06 17:53
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -17,9 +17,9 @@ category: Index
 | Kennzahl | Wert |
 | :--- | :--- |
 | Artikel | **1356** |
-| Worte | **190,867** |
+| Worte | **190,876** |
 | Durchschnittliche Artikellaenge | **141 Worte** |
-| Interne Verweise (`[[...]]`) | **13,924** |
+| Interne Verweise (`[[...]]`) | **13,911** |
 | Vernetzungsdichte | **10.3 Links/Artikel** |
 | Personenprofile | **587** |
 
@@ -30,7 +30,7 @@ category: Index
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
 | Letzte 7 Tage | 0 | - | - |
-| Letzte 30 Tage | 1350 | 1337 | 114 |
+| Letzte 30 Tage | 1350 | 1337 | 115 |
 | Letzte 90 Tage | 1350 | - | - |
 
 ---
@@ -78,13 +78,13 @@ pie title Artikel pro Sektion
 | [[Bellum]] | 164 |
 | [[Astrael]] | 149 |
 | [[Nortraven]] | 144 |
-| [[Toran_Dur]] | 142 |
+| [[Toran_Dur]] | 132 |
 
 
 ### Praegende Persoenlichkeiten
 | Persoenlichkeit | Verweise |
 | :--- | ---: |
-| [[Toran_Dur]] | 142 |
+| [[Toran_Dur]] | 132 |
 | [[Geist]] | 125 |
 | [[Custodias]] | 83 |
 | [[Waldemar_Delarie]] | 60 |
@@ -113,7 +113,7 @@ pie title Artikel pro Sektion
 | :--- | :--- | :--- |
 | Frontmatter-Abdeckung | 1356/1356 | `##########` 100.0% |
 | Aufgeloeste Quellenangabe (`quelle`) | 441/1356 | `###-------` 32.5% |
-| Ingestion Tracking vollstaendig | 51/55 | `#########-` 92.7% |
+| Ingestion Tracking vollstaendig | 55/55 | `##########` 100.0% |
 | Ingestion Reports mit LQS | 53/55 | `##########` 96.4% |
 | `[UNGEKLAERT]`-Marker (gesamt) | 252 | Beobachtung |
 
@@ -134,7 +134,7 @@ pie title Artikel pro Sektion
 
 | Metrik | Stand |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | 5 |
+| Letzter Audit-Problemtotal | 1 |
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 252 |
 | Davon ohne Ausnahme-Metadaten | 0 |
@@ -150,7 +150,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_06aacd85-82f2-4256-997e-3b020863bb43.txt`
+- Letzter Audit: `Logs/Archive/Audit_8176bc1c-14b4-4452-bd52-1d321a565fdd.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

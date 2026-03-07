@@ -13,6 +13,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
 
 
+- [ ] **Workflow Bugfix (`/handover --run`)**: Schritt 5 ruft `mail post` ohne Pflichtparameter auf und endet mit Exit 1. Workaround aktiv: manueller `mail post` mit Parametern. Tracking: `MSG-2026-0058`.
 
 - [x] **Handover Gate Repair**: Defekten Link in `.agent/workflows/handover.md` behoben; `interop-doc-links` und `takeover-handover` wieder gruen.
 - [x] **Test Runner Stability**: Runner mit Case-Progress-Ausgabe erweitert; `rag-relevance-smoke` aus Standardlauf (`--suite all`) entfernt und nur noch per `--include-rag` / direkter Suite ausfuehrbar.
@@ -410,4 +411,3 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 ---
 *Zuletzt aktualisiert: 2026-02-20 | Phase 1.28 (Nordwind & Toran Dur) Handover*
-

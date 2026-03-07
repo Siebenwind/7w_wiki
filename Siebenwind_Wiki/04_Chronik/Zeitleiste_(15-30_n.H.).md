@@ -32,7 +32,7 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 ### 17 nach Hilgorad
 *   **Politik:** Inkrafttreten der neuen Mietordnung im Lehen [[Brandenstein]] (1. Onar).
 *   **Konflikt:** Anschlag auf das Botengebäude in [[Brandenstein]] (10. Sekar).
-*   **Krieg:** Schlacht gegen die Untoten und Diener des Blenders (14. Seker). Eine Allianz aus Rittern, Magiern (Toran [[Toran_Dur]]) und Geweihten zieht gegen die Höhlen der Untoten.
+*   **Krieg:** Schlacht gegen die Untoten und Diener des Blenders (14. Seker). Eine Allianz aus Rittern, Magiern ([[Toran_Dur]]) und Geweihten zieht gegen die Höhlen der Untoten.
 *   **Kriminalität:** Überfälle auf Ritter (Sire Lavid, Sire [[Athos]]) durch elfisch-menschliche Räuberbanden.
 
 ### 18 nach Hilgorad (Das Jahr der Wende)
@@ -42,7 +42,7 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
     *   Erste Sitzung des Großen Rates am 12. Onar.
     *   Edeldame [[Solos_Nhergas]] wird erste (interims) Inselpatrizierin.
 *   **Wissen:** Erlass der Waffen- und Rüstungsordnung für [[Falkensee]] (Verbot schwerer Waffen für Zivilisten).
-*   **Personalien:** Toran [[Toran_Dur]] wird zum Hochmagus des Grauen Pfades ernannt.
+*   **Personalien:** [[Toran_Dur]] wird zum Hochmagus des Grauen Pfades ernannt.
 
 ### 19 nach Hilgorad
 *   **Krise:** Beginn des **[[Dunkeltief|Dunkeltiefs]]**. Schattenkreaturen dringen in die bewohnten Gebiete vor.
@@ -129,7 +129,7 @@ Diese Epoche ist geprägt durch den Übergang von der militärischen Herrschaft 
 
 ## Wirken dieser Zeit
 *   **[[Hagen_Robaar]] von Saalhorn:** Lehnsherr und Großmeister der Rd7W.
-*   **Toran [[Toran_Dur]]:** Hochmagus (Grau), Gründer des Löwenordens.
+*   **[[Toran_Dur]]:** Hochmagus (Grau), Gründer des Löwenordens.
 *   **[[Solos_Nhergas]]:** Erste Inselpatrizierin.
 *   **[[Custodias]]:** Geweihter/Eminenz, Dämonenjäger.
 *   **[[Calanhen_Lilthameigol]]:** Leiter der Königlichen Kriegerakademie zu [[Seeberg]].

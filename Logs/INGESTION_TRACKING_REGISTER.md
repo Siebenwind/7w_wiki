@@ -1,7 +1,7 @@
 ---
 uuid: 6af36c09-c985-4de8-9dc5-9680b9de9b5b
 status: ACTIVE
-updated_at: 2026-03-06T16:21:01Z
+updated_at: 2026-03-06T16:53:01Z
 epistemic: "#meta"
 ---
 
@@ -14,7 +14,7 @@ Zentrales Tracking fuer Ingestion-Auswertungen (wer/wann/wie + Scoreprofil).
 ## Snapshot
 
 - Reports gesamt: 55
-- Reports mit Tracking-Kernfeldern: 51
+- Reports mit Tracking-Kernfeldern: 55
 - Reports mit LQS: 53
 - Dominante Score-Cluster: 3/3/3 (29), 3/2/3 (17), 3/2/2 (2)
 
@@ -28,9 +28,11 @@ Zentrales Tracking fuer Ingestion-Auswertungen (wer/wann/wie + Scoreprofil).
 | `Logs/Ingestion/2026-02-17_Anonymous_Homunkuli.md` | /Quellen/Bibliothek Toran Dur/Anonymous - Homunkuli.md | Antigravity | 2026-02-17 | N/A | N/A | 9 | 3/2/3 |
 | `Logs/Ingestion/2026-02-17_Dunkelbaum_Elementarmagie_1.md` | /Quellen/Bibliothek Toran Dur/Amanda Dunkelbaum - Elementarmagie 1.md | Antigravity | 2026-02-17 | N/A | N/A | 9 | 3/2/3 |
 | `Logs/Ingestion/2026-02-16_Der_Blutrote_Stier.md` | Der Blutrote Stier.md (`../../Quellen/Bibliothek%20Astrael/Der%20Blutrote%20Stier.md`) | Antigravity | 2026-02-16 | N/A | N/A | 7 | 3/2/3 |
-| `Logs/Ingestion/2026-02-16_Der_Flug_der_Ente..md` | [UNGEKLAERT] | Antigravity | 2026-02-16 | N/A | N/A | 8 | 3/2/3 |
+| `Logs/Ingestion/2026-02-16_Der_Flug_der_Ente..3.md` | ../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..3.md | Antigravity | 2026-02-16 | N/A | N/A | N/A | N/A |
+| `Logs/Ingestion/2026-02-16_Der_Flug_der_Ente..md` | ../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente..md | Antigravity | 2026-02-16 | N/A | N/A | 8 | 3/2/3 |
+| `Logs/Ingestion/2026-02-16_Der_Flug_der_Ente1.md` | ../../Quellen/Spielergeschichten/Der%20Flug%20der%20Ente1.md | Antigravity | 2026-02-16 | N/A | N/A | N/A | N/A |
 | `Logs/Ingestion/2026-02-16_Der_Traum_der_Tausend.md` | Der Traum der Tausend.md (`../../Quellen/Bibliothek%20Astrael/Der%20Traum%20der%20Tausend.md`) | Antigravity | 2026-02-16 | N/A | N/A | 9 | 3/3/3 |
-| `Logs/Ingestion/2026-02-16_Der_letzte_Falke.md` | [UNGEKLAERT] | Antigravity | 2026-02-16 | N/A | N/A | 10 | 3/3/3 |
+| `Logs/Ingestion/2026-02-16_Der_letzte_Falke.md` | ../../Quellen/Bibliothek%20Astrael/Der%20letzte%20Falke.md | Antigravity | 2026-02-16 | N/A | N/A | 10 | 3/3/3 |
 | `Logs/Ingestion/2026-02-16_Der_naive_Mensch.md` | Der naive Mensch.md (`../../Quellen/Bibliothek%20Astrael/Der%20naive%20Mensch.md`) | Antigravity | 2026-02-16 | N/A | N/A | 8 | 3/3/3 |
 | `Logs/Ingestion/2026-02-16_Die_Eisernen_Tafeln.md` | Die Eisernen Tafeln.md (`../../Quellen/Bibliothek%20Astrael/Die%20Eisernen%20Tafeln.md`) | Antigravity | 2026-02-16 | N/A | N/A | 9 | 3/3/3 |
 | `Logs/Ingestion/2026-02-16_Die_Elemente_-_ungleiche_Geschwister.md` | Die Elemente - ungleiche Geschwister.md (`../../Quellen/Spielergeschichten/Die%20Elemente%20-%20ungleiche%20Geschwister.md`) | Antigravity | 2026-02-16 | N/A | N/A | 8 | 3/2/3 |
@@ -75,5 +77,3 @@ Zentrales Tracking fuer Ingestion-Auswertungen (wer/wann/wie + Scoreprofil).
 | `Logs/Ingestion/2026-02-14_Linari_Rituale.md` | Quellen/Bibliothek Toran Dur/Dunvallo Linari - Rituale des Magierturms.md | Antigravity | 2026-02-14 | N/A | N/A | 10 | 3/3/3 |
 | `Logs/Ingestion/2026-02-14_Linari_Thesen.md` | Quellen/Bibliothek Toran Dur/Dunvallo Linari - Thesen der Magiezweige.md | Antigravity | 2026-02-14 | N/A | N/A | 10 | 3/3/3 |
 | `Logs/Ingestion/2026-02-14_Procella.md` | Quellen/Bibliothek Toran Dur/Magica Procella Die Lehre der arkanen Wellenbewegung.md | Antigravity | 2026-02-14 | N/A | N/A | 9 | 3/3/3 |
-| `Logs/Ingestion/2026-02-16_Der_Flug_der_Ente..3.md` | [UNGEKLAERT] | [UNGEKLAERT] | [UNGEKLAERT] | N/A | N/A | N/A | N/A |
-| `Logs/Ingestion/2026-02-16_Der_Flug_der_Ente1.md` | [UNGEKLAERT] | [UNGEKLAERT] | [UNGEKLAERT] | N/A | N/A | N/A | N/A |

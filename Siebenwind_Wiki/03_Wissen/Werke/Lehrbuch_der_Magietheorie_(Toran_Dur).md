@@ -11,7 +11,7 @@ category: Allgemein
 
 ## Inhalt
 
-Dieses Werk dient als Lehrbuch für angehende Magier und vermittelt die Grundlagen des magischen Handwerks. Es baut auf den Definitionen aus [[Die Magie ([[Toran_Dur]])]] auf, konzentriert sich aber stärker auf die praktische Anwendung und das Verständnis der magischen Mechanik.
+Dieses Werk dient als Lehrbuch für angehende Magier und vermittelt die Grundlagen des magischen Handwerks. Es baut auf den Definitionen aus [[Die_Magie_(Toran_Dur)|Die Magie (Toran Dur)]] auf, konzentriert sich aber stärker auf die praktische Anwendung und das Verständnis der magischen Mechanik.
 
 ### Struktur des Astralen Netzes
 [[Toran_Dur]] erklärt, dass das astrale Netz aus fünf Fäden besteht:

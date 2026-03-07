@@ -172,7 +172,7 @@ title: Siebenwind Wiki - Fundament
 - [[Magie_Grundlagen|Wissen Grundlagen]]
 - [[Magierakademie|Magierakademie]]
 - [[Magietheorie|Magietheorie]]
-- [[Magietheorie_Toran_Dur|Magietheorie ([[Toran_Dur]])]]
+- [[Magietheorie_Toran_Dur|Magietheorie (Toran Dur)]]
 - [[Magiezweige|Magiezweige]]
 - [[Magischer_Flux|Magischer Flux]]
 - [[Magistrat|Magistrat]]
