@@ -1,5 +1,19 @@
 # Changelog
 
+#### [2026-03-08.01] - Workflow & Skill Consolidation Strategy (Phase E)
+### Prioritaet: P1
+### Hinzugefügt
+- `qa_master.md`, `ingest_master.md`, `lore_master.md`, `tech_master.md`, `meta_master.md` als The 5 Pillars of the 7w_wiki.
+### Geändert
+- 33 überlappende fragmentierte Workflows in 5 überschaubare, prozesssichere Master-Workflows konsolidiert.
+- `/start` Workflow completely rewritten into a persona-routing decision tree.
+- `COORDINATION_HUB.md` repaired to reflect the new architecture.
+### Gelöscht
+- 18 redundante Workflows gelöscht (z.B. `audit.md`, `repair.md`, `ask.md`, `tech.md`, etc.).
+### Validiert
+- `update_matrix.py` auto-registration.
+- `interop-doc-links` passed with 0 broken links.
+
 #### [2026-02-20.03] - Frontmatter Fixes & Ingestion 2.0 (Bote 118, 186-194)
 - **P1**
 - **Hinzugefügt**:

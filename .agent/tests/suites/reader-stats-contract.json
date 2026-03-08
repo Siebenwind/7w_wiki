@@ -7,12 +7,10 @@
       "name": "Stats workflow documents reader sections and snapshot output",
       "required_regex_by_file": [
         {
-          "file": ".agent/workflows/stats.md",
+          "file": ".agent/workflows/meta_master.md",
           "must_include_regex": [
-            "Reader-Contract",
-            "Welt Heute",
-            "Werkstattstatus",
-            "Fortschritt Live Verfolgen",
+            "Wiki_Statistiken\\.md",
+            "INGESTION_TRACKING_REGISTER\\.md",
             "STATS_SNAPSHOT_latest\\.json"
           ]
         },
