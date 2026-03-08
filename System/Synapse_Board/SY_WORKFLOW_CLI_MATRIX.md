@@ -54,3 +54,5 @@ Neue Workflows muessen vor Aktivierung in diese Matrix eingetragen werden.
 | `/canon_update` | TBD | TBD | Auto-detected (please update) |
 | `/delegate` | TBD | TBD | Auto-detected (please update) |
 | `/wiki_style_guide` | TBD | TBD | Auto-detected (please update) |
+| `/qa_master` | TBD | TBD | Auto-detected (please update) |
+| `/tech_master` | TBD | TBD | Auto-detected (please update) |

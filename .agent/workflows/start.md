@@ -33,34 +33,39 @@ Der erste Schritt jedes Agenten ist zu verstehen, wo wir stehen.
    - [COORDINATION_HUB.md](../../System/COORDINATION_HUB.md)
 8. Lies die aktuellste Session-Memory unter `Logs/Archive/SESSION_MEMORY_*.md` (falls vorhanden), bevor du neue Tasks startest.
 
-## 2. Wähle deinen Pfad (Choose your Department)
+## 2. Wähle deinen Pfad (Choose your Persona & Master-Workflow)
 
-Welche Rolle nimmst du heute ein?
+Welche Rolle nimmst du heute ein? Das System ist in **5 Säulen (Pillars)** unterteilt. Wähle den exakten Master-Workflow, der zu deiner Aufgabe passt.
 
-### 🏛️ Department Lore-Archiv (INGEST)
+### 🔭 Web-Aufklärung
+*Ziel: Die Grenzen des Wikis überwinden und das Web nach neuem Wissen scannen.*
+- **Wann?** Wenn du neue Updates von der Homepage oder dem Forum einholen willst.
+- **Workflow:** `/scout`.
+
+### 🏛️ The Ingestor (Department Lore-Archiv)
 *Ziel: Rohes Wissen aus den Quellen ins Wiki überführen.*
 - **Wann?** Wenn der Advisor meldet, dass noch "Offene Quellen" (Pending) vorhanden sind.
-- **Workflow:** `/ingest_master`.
+- **Master-Workflow:** `/ingest_master`.
 
-### 🔍 Department Inquisition (CHECK)
+### 🛡️ The Guardian (Department Inquisition / QA)
 *Ziel: Das Wiki sauber halten und Link-Dämonen bannen.*
-- **Wann?** Wenn das Audit Fehler meldet oder Brüche in der Verlinkung auffallen.
-- **Workflow:** `/check_master`.
+- **Wann?** Wenn das Audit Fehler meldet, Links brechen, oder User PRs einreichen.
+- **Master-Workflow:** `/qa_master`.
 
-### 📜 Department Geschichtsschreibung (LORE)
-*Ziel: Komplexe Widersprüche auflösen und tiefe Recherche betreiben.*
-- **Wann?** Wenn du einen Forschungsauftrag übernimmst oder User-Fragen zu Lore-Zusammenhängen hast.
-- **Workflow:** `/lore_master`.
+### 📜 The Historian (Department Geschichtsschreibung)
+*Ziel: Komplexe Widersprüche auflösen, Kanon-Updates pflegen und Artikel literarisch anreichern.*
+- **Wann?** Wenn du einen Forschungsauftrag übernimmst, User-Fragen beantwortest (Oracle) oder "Roman-Qualität" erzeugen willst.
+- **Master-Workflow:** `/lore_master`.
 
-### 🎨 Das Atelier (HEROLD)
-*Ziel: PR, Design und visuelle Aufwertung.*
-- **Wann?** Zur Verbesserung der Präsentation oder nach großen Meilensteinen.
-- **Workflow:** `/herold`.
+### ⚙️ The Technician (Der Maschinenraum)
+*Ziel: CI/CD, Scripts, GitHub Actions und Architektur am Laufen halten.*
+- **Wann?** Wenn Pages-Builds fehlschlagen, Skripte Bugs haben oder Doku-Syncs nötig sind.
+- **Master-Workflow:** `/tech_master`.
 
-### 📦 Department Logistik (META)
-*Ziel: Fortschritte dokumentieren und Statistiken pflegen.*
-- **Wann?** Am Ende jeder Session oder zur Orientierung.
-- **Workflow:** `/meta_master`.
+### 📦 The Coordinator (Department Meta & Logistik)
+*Ziel: Fortschritte dokumentieren, Statistiken pflegen und den menschlichen Leitpunkt überwachen.*
+- **Wann?** Am Ende jeder Session, für Dashboards, oder zur globalen Orientierung.
+- **Master-Workflow:** `/meta_master`.
 
 ## 3. Goldene Regeln
 - **Keine Halluzinationen:** Wenn Wissen fehlt, markiere es mit `[UNGEKLÄRT]` oder schreibe ein Ticket.

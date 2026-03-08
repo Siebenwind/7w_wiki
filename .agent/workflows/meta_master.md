@@ -1,59 +1,57 @@
 ---
-description: Department Master Workflow für Projekt-Meta und Handover
+description: Department Master Workflow für Projekt-Meta, Statistiken und Handover
 ---
 
-# Department: 📦 Logistik (META)
+# Department: 📦 Logistik & Koordination (/meta_master)
 
-Dieses Department regelt den Agenten-Alltag, die Dokumentation und den Wissenstransfer. Es fusioniert `/start`, `/takeover`, `/handover`, `/docs`, `/stats` und `/test_run`.
+Dieses Department ist das Revier des **Koordinators**. Es regelt den Agenten-Alltag, die Dokumentation, Statistiken, den Wissenstransfer und die Einhaltung des menschlichen Leitpunkts. Es fusioniert die Workflows `/meta_master`, `/stats` und `/leitpunkt`.
 
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py start`
   - `7w_wiki.py stats`
+  - `7w_wiki.py leitpunkt [status|check|scaffold]`
   - `7w_wiki.py test --suite reader-stats-contract`
   - `7w_wiki.py test --suite clean-client-state`
-  - `7w_wiki.py archive sync`
-  - `7w_wiki.py mail post --to ALL ...`
+  - `7w_wiki.py mail inbox --status OPEN`
+  - `7w_wiki.py mail post --from Coordinator --to <agent|ALL> --subject "<text>" --body "<text>"`
 - method_only:
   - `/meta_master`
   - `/takeover`
   - `/handover`
-  - `/docs`
-  - `/test_run`
-- method_hints_non_runtime:
-  - Host-notification channel (nur als Hinweis, nicht runtime)
 
-## 1. Onboarding (Start)
-- [ ] Führe `./7w_wiki.py start` aus, um Optionen zu sehen.
-- [ ] Analysiere den **Advisor-Report**.
+## 1. Onboarding & Steuerung
+1. Führe zu Beginn `/start` oder `/takeover` aus.
+2. Analysiere den **Advisor-Report** (`./7w_wiki.py advisor`).
+3. **Leitpunkt-Check [PFLICHT]:** Prüfe die Vorgaben des menschlichen Maintainers.
+   - `./7w_wiki.py leitpunkt status`
+   - `./7w_wiki.py leitpunkt check`
+   - Halte dich strikt an die Prioritäten und No-Gos in `docs/Archiv/MAINTAINER_STANDPUNKT.md`.
 
-## 2. Daily Business (Sync)
-- [ ] Halte die `MASTER_TASK_LIST.md` aktuell.
-- [ ] Führe regelmäßig Statistiken aus:
-```bash
-./7w_wiki.py stats
-./7w_wiki.py test --suite reader-stats-contract
-```
-- [ ] Halte die drei Stats-Artefakte synchron:
-  - `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md`
-  - `Logs/INGESTION_TRACKING_REGISTER.md`
-  - `Logs/Archive/STATS_SNAPSHOT_latest.json`
-- [ ] Fuehre den Standard-Testlauf aus:
-```bash
-./7w_wiki.py test --suite clean-client-state
-```
+## 2. Statistiken & Tracking
+Halte das Wiki für Leser und Maschinen transparent.
+// turbo
+1. `./7w_wiki.py stats`
+2. `./7w_wiki.py test --suite reader-stats-contract`
 
-## 3. Dokumentation (Publicity)
-- [ ] Aktualisiere `README.md` und `CHANGELOG.md` nach großen Meilensteinen.
-- [ ] Erstelle Walkthroughs (`walkthrough.md`) für komplexe Änderungen.
+*Hinweis: Dieser Befehl synchronisiert automatisch:*
+- `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md` (Leseransicht)
+- `Logs/INGESTION_TRACKING_REGISTER.md` (Technikdetail)
+- `Logs/Archive/STATS_SNAPSHOT_latest.json` (maschinenlesbare Schnittstelle)
 
-## 4. Kommunikation (Decisions)
-- [ ] Hole Nutzer-Entscheidungen über `/decide` ein.
-- [ ] Bei Blockaden nutze runtime-seitig `./7w_wiki.py mail post --to ALL ...`.
-- [ ] Host-Notifications gelten nur als method hint (non-runtime).
+## 3. Dokumentation & Boards (Daily Business)
+1. **Boards:** Halte die `MASTER_TASK_LIST.md` und `System/Synapse_Board/` aktuell. Räume erledigte Tasks auf.
+2. **Publicity:** Aktualisiere `README.md` und `CHANGELOG.md` nach großen Meilensteinen. Arbeite hierfür mit dem `/herold` zusammen.
+3. **Interop Checks:** Führe regelmäßig `./7w_wiki.py test --suite clean-client-state` aus, um die Repo-Hygiene zu garantieren.
+
+## 4. Kommunikation (Dispatch)
+Als Koordinator bist du der Node-Point für Informationen:
+1. Nutze `./7w_wiki.py mail post --to ALL ...` um systemweite Änderungen anzukündigen (z.B. neue Kanon-Regeln, Leitpunkt-Updates).
+2. Hole Nutzer-Entscheidungen aktiv über das CLI oder `/decide` ein, wenn Agenten blockiert sind.
 
 ## 5. Handover
-- [ ] Erstelle ein Übergabeprotokoll für den nächsten Agenten.
-- [ ] Committe alle Änderungen mit aussagekräftigen Nachrichten.
+Am Ende deiner Session oder Schicht:
+1. Erstelle ein Übergabeprotokoll (`/handover`) für den nächsten Agenten in `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_META.md`.
+2. Committe alle Änderungen mit aussagekräftigen Nachrichten (z.B. `docs(meta): updated global statistics and resolved 3 dispatch tickets`).
 
-#meta #logistik #handover #dokumentation
+#meta #logistik #handover #dokumentation #stats
