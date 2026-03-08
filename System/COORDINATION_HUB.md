@@ -45,7 +45,7 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [.agent/workflows/wiki_style_guide.md](../.agent/workflows/wiki_style_guide.md) (Zentrales Regelwerk)
 - [x] [.agent/workflows/leitpunkt.md](../.agent/workflows/leitpunkt.md) (Menschlicher Leitpunkt Workflow)
 - [x] [.agent/scripts/leitpunkt_tool.py](../.agent/scripts/leitpunkt_tool.py) (Leitpunkt Status/Check/Scaffold)
-- [x] [LORE_RESEARCH_BOARD.md](../LORE_RESEARCH_BOARD.md)
+- [x] [LORE_RESEARCH_BOARD.md](Synapse_Board/LORE_RESEARCH_BOARD.md)
 - [x] [AGENT_OPERATIONS_HANDBOOK.md](AGENT_OPERATIONS_HANDBOOK.md)
 - [x] [docs/Archiv/REDESIGN_ROADMAP_2026.md](../docs/Archiv/REDESIGN_ROADMAP_2026.md)
 - [x] [docs/Archiv/MAINTAINER_STANDPUNKT.md](../docs/Archiv/MAINTAINER_STANDPUNKT.md)
@@ -55,7 +55,7 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [Synapse_Board/SY_HISTORIAN_TRACEABILITY.md](Synapse_Board/SY_HISTORIAN_TRACEABILITY.md)
 - [x] [Synapse_Board/RESEARCH-2026-010.md](Synapse_Board/RESEARCH-2026-010.md)
 - [x] [Logs/Conclusions/2026-02-17_Forum_Research_Report.md](../Logs/Conclusions/2026-02-17_Forum_Research_Report.md)
-- [x] [Scripts/forum_scanner.py](../Scripts/forum_scanner.py)
+- [x] [Scripts/forum_scanner.py](../.agent/scripts/forum_scanner.py)
 - [x] [.agent/tests/suites/reader-stats-contract.json](../.agent/tests/suites/reader-stats-contract.json)
 - [x] [.agents/skills/stats/SKILL.md](../.agents/skills/stats/SKILL.md)
 

@@ -1,1 +1,0 @@
-../../System/Synapse_Board/LORE_RESEARCH_BOARD.md

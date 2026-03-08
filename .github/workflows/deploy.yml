@@ -35,10 +35,9 @@ jobs:
           cat mkdocs.yml
           pip install -r requirements.txt
 
-      - name: Physical Sync (Replace Symlinks)
+      - name: Physical Sync (Quellen → docs/)
         run: |
-          rm -rf docs/Siebenwind_Wiki docs/Quellen
-          cp -rp Siebenwind_Wiki docs/
+          rm -rf docs/Quellen
           cp -rp Quellen docs/
       
       - name: Build site

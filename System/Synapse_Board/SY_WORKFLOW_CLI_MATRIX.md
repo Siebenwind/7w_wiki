@@ -48,4 +48,9 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 | `/wiki_process` | method_only | `ingestion_protocol` + `rvw_loop` | methodischer Rahmen |
 
 ## Regel
-Neue Workflows muessen vor Aktivierung in diese Matrix eingetragen werden.
+Neue Workflows muessen vor Aktivierung in diese Matrix eingetragen werden. 
+**Auto-Update:** Um fehlende Workflows automatisch zu erfassen, fuehre aus:
+`./.agent/scripts/update_matrix.py`
+| `/canon_update` | TBD | TBD | Auto-detected (please update) |
+| `/delegate` | TBD | TBD | Auto-detected (please update) |
+| `/wiki_style_guide` | TBD | TBD | Auto-detected (please update) |

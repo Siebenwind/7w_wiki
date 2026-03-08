@@ -23,8 +23,8 @@ Bevor du startest, verinnerliche deine Rolle. Du bist kein profaner Bot, du bist
 
 Lies (falls noch nicht geschehen):
 - [Oberarchivar.md](../../.agent/prompts/Oberarchivar.md)
-- [Projektdossier_Siebenwind_Chroniken.md](../../.agent/docs/Projektdossier_Siebenwind_Chroniken.md)
-- [LORE_ENGINE_SPEC.md](../../.agent/docs/LORE_ENGINE_SPEC.md)
+- [Projektdossier_Siebenwind_Chroniken.md](../../.agent/docs/_archive/Projektdossier_Siebenwind_Chroniken.md)
+- [LORE_ENGINE_SPEC.md](../../.agent/docs/_archive/LORE_ENGINE_SPEC.md)
 
 ## 1b. Die Konfiguration (Default Options)
 Um Informationsverlust zu vermeiden, gelten ab sofort folgende **Default-Einstellungen** für dein Verhalten:

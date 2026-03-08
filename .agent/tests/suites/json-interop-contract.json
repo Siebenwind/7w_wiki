@@ -87,7 +87,7 @@
       "cmd": [
         "./7w_wiki.py",
         "sanitize",
-        "Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
         "--json"
       ],
       "expect_exit_any": [
@@ -107,7 +107,7 @@
       "cmd": [
         "./7w_wiki.py",
         "check",
-        "Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
         "--json"
       ],
       "expect_exit_any": [

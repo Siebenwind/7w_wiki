@@ -13,6 +13,7 @@ venv/
 # === ML Models & Data ===
 .agent/data/models/
 .agent/data/chroma_db/
+.agent/data/oracle_venv/
 .agent/skills/oracle/config.json
 .agent/skills/oracle/venv/
 
@@ -27,11 +28,15 @@ Logs/Archive/*
 !Logs/Archive/AUDIT_CONSOLIDATION_INDEX_*.md
 !Logs/Archive/AGENT_CHANGE_PACKET_*.md
 site/
+.tmp/
 missing_links.txt
 register_links.txt
 walkthrough.md
 /tmp/7w_test_*
 
+# === Debug & One-Off Artifacts (never commit) ===
+*_debug.json
+*_backup
 
 # === Archives (Raw originals, not needed in deployed wiki) ===
 Quellen/_ARCHIV_ORIGINAL/

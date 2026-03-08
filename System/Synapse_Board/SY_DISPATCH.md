@@ -48,6 +48,7 @@ Each dispatch file is a markdown document with frontmatter and lifecycle state.
 - `[URGENT]`: Sofortige Bearbeitung (Blocker).
 - `[TECH]`: Routing an Technician (Infrastruktur-Probleme).
 - `[QUIP]`: Nicht-kritischer, in-character Interagency-Kommentar. Priority `LOW`, Status `DONE`, max 280 Zeichen. Agenten werden ermutigt, Persoenlichkeit zu zeigen. Via MCP: `wiki_mail_quip`.
+- `[FYI]`: Nicht-aktionale Broadcasts (z.B. Session Memories, Ingestion Reports). Können sofort geschlossen werden oder auto-closen nach 7 Tagen.
 
 8. **Mission Reporting**: `DONE` messages MUST include a summary in the `--note` or body. Empty `DONE`s are forbidden.
 9. **Inquisitive Loop**: If a task reveals deeper issues, post a new `OPEN` message describing the discovery before closing the current task.

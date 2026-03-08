@@ -79,6 +79,11 @@ Nicht existente, aber als Pflicht benannte Dateien sind als **interop blocker** 
 - Bei Test-FAILs gilt: zuerst Defect-Kommunikation (Dispatch oder Task), dann Fix.
 - Verbindliche Details stehen in `System/Synapse_Board/SY_TESTING.md`.
 
+## Norm 8: Single Script Directory Policy
+- Alle operativen Skripte, Helper und Automatisierungen **muessen** im zentralen Verzeichnis `.agent/scripts/` abgelegt werden.
+- Die Anlage kompetitiver Verzeichnisse (z.B. `Scripts/`, `bin/`) im Wurzelverzeichnis ist untersagt.
+- Veraltete Skripte sind nach `.agent/scripts/_archive/` zu verschieben, nicht zu loeschen.
+
 ## Compliance-Checks
 Bei jedem groesseren Update:
 1. Scan auf `file://` in `.agent/workflows`, `.agent/instructions`, `System/`.
