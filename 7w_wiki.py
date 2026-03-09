@@ -5,6 +5,7 @@ import argparse
 import os
 import re
 import json
+from pathlib import Path
 
 """
 Siebenwind Lore Engine CLI (7w)
@@ -82,6 +83,54 @@ def save_workflow_state(state):
     with open(state_file, "w") as f:
         json.dump(state, f, indent=2)
 
+def latest_session_memory_path():
+    archive_dir = Path(REPO_ROOT) / "Logs" / "Archive"
+    candidates = sorted(archive_dir.glob("SESSION_MEMORY_*.md"))
+    if not candidates:
+        return None
+    return max(candidates, key=lambda path: (path.stat().st_mtime_ns, path.name))
+
+def build_handover_mail_post_args():
+    session_memory = latest_session_memory_path()
+    if session_memory is None:
+        raise RuntimeError(
+            "Keine Session-Memory gefunden. Lege zuerst Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md an."
+        )
+
+    report_path = os.path.relpath(session_memory, REPO_ROOT)
+    match = re.match(r"SESSION_MEMORY_(\d{4}-\d{2}-\d{2})_(.+)", session_memory.stem)
+    if match:
+        session_date, raw_topic = match.groups()
+        topic = raw_topic.replace("_", " ").title()
+        subject = f"Handover {session_date}: {topic}"
+    else:
+        subject = "Handover: Session Memory"
+
+    body = (
+        f"Session memory posted. See {report_path} for context, changes, validation, and open points."
+    )
+    return [
+        "mail",
+        "post",
+        "--from",
+        "Oberarchivar",
+        "--to",
+        "Coordinator",
+        "--subject",
+        subject,
+        "--body",
+        body,
+        "--report-path",
+        report_path,
+    ]
+
+def resolve_workflow_command(name, args_list):
+    if name == "handover" and args_list == ["mail", "post"]:
+        resolved = build_handover_mail_post_args()
+        report_path = resolved[-1]
+        return resolved, f"Auto-resolved handover dispatch from {report_path}."
+    return args_list, None
+
 def run_workflow(name, auto_yes=False, resume=False):
     path = os.path.join(os.path.dirname(__file__), f".agent/workflows/{name}.md")
     if not os.path.exists(path):
@@ -145,7 +194,16 @@ def run_workflow(name, auto_yes=False, resume=False):
         args_str = cmd.replace("./7w_wiki.py ", "", 1).strip()
         import shlex
         args_list = shlex.split(args_str)
-        run_script("7w_wiki.py", args_list)
+        try:
+            resolved_args, resolution_note = resolve_workflow_command(name, args_list)
+        except RuntimeError as err:
+            print(f"Workflow {name} blocked: {err}", file=sys.stderr)
+            sys.exit(1)
+
+        if resolution_note:
+            print(f"{YELLOW}{resolution_note}{RESET}")
+
+        run_script("7w_wiki.py", resolved_args)
         
         # Mark as completed
         completed_indices.append(i)

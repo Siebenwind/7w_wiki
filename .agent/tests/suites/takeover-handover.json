@@ -24,6 +24,26 @@
       "expect_stdout": ["Workflow: /handover", "Prioritaet"]
     },
     {
+      "id": "handover-auto-dispatch-doc",
+      "name": "Handover workflow documents automatic session-memory dispatch defaults",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/workflows/handover.md",
+          "must_include_regex": [
+            "Auto-Dispatch \\(seit 2026-03-09\\)",
+            "--from Oberarchivar --to Coordinator --report-path"
+          ]
+        },
+        {
+          "file": "7w_wiki.py",
+          "must_include_regex": [
+            "def build_handover_mail_post_args\\(",
+            "Auto-resolved handover dispatch from"
+          ]
+        }
+      ]
+    },
+    {
       "id": "advisor-readiness",
       "name": "Advisor remains clean after workflow calls",
       "cmd": ["./7w_wiki.py", "advisor"],

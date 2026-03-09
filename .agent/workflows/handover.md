@@ -83,10 +83,10 @@ Vor dem Beenden deiner Session musst du:
     - Beispiel: `git commit -m "Handover Phase 16: Batch 25 & Audit (0D1DD705) (2026-02-14)"`
 9.  **Session-Memory (Pflicht):** Lege eine Notiz `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` an (Kontext, Änderungen, Validierung, offene Punkte) und poste den Pfad via `./7w_wiki.py mail post`.
 
-> [!WARNING]
-> **Bekannter Defekt (2026-03-06):** `./7w_wiki.py handover --run` bricht aktuell bei Schritt 5 ab, weil intern `./7w_wiki.py mail post` ohne Pflichtparameter aufgerufen wird.
-> **Workaround:** Abschlussbericht manuell mit vollem Parameter-Set posten (`--from`, `--to`, `--subject`, `--body`).
-> **Tracking:** Dispatch `MSG-2026-0058` (Technician).
+> [!NOTE]
+> **Auto-Dispatch (seit 2026-03-09):** `./7w_wiki.py handover --run` leitet den Abschluss-Dispatch fuer diesen Schritt automatisch aus der neuesten `SESSION_MEMORY_*.md` ab.
+> **Default-Payload:** `--from Oberarchivar --to Coordinator --report-path <neueste Session-Memory>`.
+> **Manueller Modus:** Wenn du `mail post` direkt aufrufst, bleiben `--from`, `--to`, `--subject` und `--body` Pflichtparameter.
 
 ### 7. Lessons Learnt für dich
 - **Hüte dich vor "file://"**: Nutze nur relative Wiki-Links (z. B. `[[...]]` oder einen relativen Pfad wie `../pfad.md`).

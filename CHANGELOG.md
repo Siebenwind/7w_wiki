@@ -1,5 +1,16 @@
 # Changelog
 
+#### [2026-03-09.01] - Handover Run Dispatch Autofill
+### Prioritaet: P1
+### Geändert
+- `7w_wiki.py`: Bare `mail post` steps inside `handover --run` now auto-resolve to a structured dispatch using the latest `Logs/Archive/SESSION_MEMORY_*.md`.
+- `.agent/workflows/handover.md`: Defect warning replaced with the documented auto-dispatch defaults for the handover closeout step.
+- `.agent/tests/suites/takeover-handover.json`: Added regression coverage for the documented handover auto-dispatch behavior.
+### Validiert
+- `./7w_wiki.py handover --run --yes --resume`
+- `./7w_wiki.py test --suite takeover-handover`
+- `./7w_wiki.py test --suite clean-client-state`
+
 #### [2026-03-08.01] - Workflow & Skill Consolidation Strategy (Phase E)
 ### Prioritaet: P1
 ### Hinzugefügt
