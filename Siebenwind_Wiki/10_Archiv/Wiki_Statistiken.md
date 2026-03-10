@@ -6,7 +6,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-03-10 13:31
+**Stand:** 2026-03-10 15:42
 
 > Wissenswetter: **Klar: stabile Wissenslage mit kontrollierter Werkstattlast.**
 
@@ -30,7 +30,7 @@ category: Index
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
 | Letzte 7 Tage | 1307 | - | - |
-| Letzte 30 Tage | 1350 | 1337 | 117 |
+| Letzte 30 Tage | 1350 | 1337 | 118 |
 | Letzte 90 Tage | 1350 | - | - |
 
 ---
@@ -106,7 +106,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_e0413255-a65c-42ff-a567-888a21b7ccfe.txt`
+- Letzter Audit: `Logs/Archive/Audit_3e47a929-3a3d-48f2-8c34-908603003994.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

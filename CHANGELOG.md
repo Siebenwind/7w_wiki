@@ -1,5 +1,27 @@
 # Changelog
 
+#### [2026-03-10.03] - Handover Closeout & Workflow Bridge Parser Fix
+### Prioritaet: P2
+### Behoben
+- `.agent/scripts/generate_workflow_bridges.py`: Der Parser beendet `codex_bridge_followups` jetzt sauber, sodass spaetere Workflow-Bullets nicht mehr in generierte Codex-Bridge-Follow-ups auslaufen.
+- `.agents/skills/session_handover/SKILL.md`: Die generierte Handover-Bridge listet wieder nur die kanonischen Follow-up-Kommandos statt Verzeichnis-Bullets aus dem restlichen Workflow.
+### Geändert
+- `MASTER_TASK_LIST.md`: `Last Handover` und Status-Ueberblick fuer die naechste Session aktualisiert.
+### Validiert
+- `./7w_wiki.py test --suite all`
+- `./7w_wiki.py test --suite codex-workflow-bridges`
+- `./7w_wiki.py tech --sync-bridges`
+- `./7w_wiki.py stats`
+
+#### [2026-03-10.02] - Codex Bridge Docs Polish
+### Prioritaet: P2
+### Geändert
+- `AGENTS.md`: Neue menschenlesbare Sektion `Codex Workflow Bridges` mit praktischer Zuordnung von `session_start`, `workflow_forum_search` und dem `/scout` vs. `/forum_search` Split.
+- `System/AGENT_OPERATIONS_HANDBOOK.md`: Maintainer-Regel ergänzt, dass Workflow-Bridges ausschließlich aus Workflow-Metadaten generiert werden und `tech --sync-bridges` Schreibzugriff auf `.agents/skills/` benötigt.
+### Validiert
+- `./7w_wiki.py test --suite codex-workflow-bridges`
+- `./7w_wiki.py test --suite interop-doc-links`
+
 #### [2026-03-10.01] - Codex Workflow Bridges & Forum Search Split
 ### Prioritaet: P1
 ### Hinzugefügt

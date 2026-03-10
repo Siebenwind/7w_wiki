@@ -21,16 +21,6 @@ This is a generated Codex-facing workflow bridge. Runtime execution must stay on
 - `./7w_wiki.py test --suite all`
 - `./7w_wiki.py stats`
 - `./7w_wiki.py mail post --from Oberarchivar --to Coordinator --subject "<abschluss>" --body "<summary>"`
-- `./00_Fundament/`
-- `./01_Pantheon/`
-- `./02_Geografie/`
-- `./03_Gesellschaft/`
-- `./04_Chronik/`
-- `./05_Geschichte/`
-- `./07_Persoenlichkeiten/`
-- `./08_Bestiarium/`
-- `./09_Bibliothek/`
-- `./10_Archiv/`
 
 ## Usage Rule
 Read `.agent/workflows/handover.md` for the authoritative process. Do not guess workflow semantics from this bridge file alone.

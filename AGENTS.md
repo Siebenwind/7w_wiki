@@ -85,6 +85,26 @@ Use `./7w_wiki.py <command>` for all operations.
 -   **Workflows**: `.agent/workflows/*.md` (Standard Operating Procedures)
 -   **Personas**: `.agent/instructions/*.md` (Role definitions)
 
+## 🧭 Codex Workflow Bridges
+
+Codex does not expose repo-defined slash commands like Antigravity. Instead, this repo mirrors selected workflows into discoverable wrappers under `.agents/skills/`.
+
+- **Session kickoff**: `session_start`
+- **Session adoption**: `session_takeover`
+- **Session closeout**: `session_handover`
+- **Tech maintenance**: `workflow_tech_master`
+- **Regression loop**: `workflow_test_run`
+- **Forum-source hunting**: `workflow_forum_search`
+
+Practical meaning:
+- If you want the Antigravity feeling of `/start`, use the `session_start` bridge or run `./7w_wiki.py start`.
+- If you want to search legacy forums for new ingestable sources, use `workflow_forum_search` or run `./7w_wiki.py scout --forum bekanntmachungen --pages 3`.
+- `/scout` remains the broad external discovery entrypoint; `/forum_search` is the dedicated operational path for board-first source discovery.
+
+Maintainer note:
+- Regenerate wrappers with `./7w_wiki.py tech --sync-bridges` or `./7w_wiki.py tech --sync-interop`.
+- These syncs write into `.agents/skills/`, so the runtime needs filesystem permission to create/update bridge directories.
+
 ## 🚀 How to Work Here (Standard Loop)
 
 1.  **Onboard**: Run `./7w_wiki.py start`, `./7w_wiki.py advisor`, and `./7w_wiki.py mail inbox --status OPEN` first. Read the latest `Logs/Archive/SESSION_MEMORY_*.md` before starting new work.

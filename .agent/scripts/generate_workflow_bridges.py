@@ -88,10 +88,15 @@ def parse_interop_status(raw: str) -> dict:
             data["codex_bridge_primary_command"] = match.group(1) if match else stripped.split(":", 1)[1].strip()
             current = None
             continue
-        if current and stripped.startswith("- `"):
-            match = re.search(r"`([^`]+)`", stripped)
-            if match:
-                data[current].append(match.group(1))
+        if current:
+            if not stripped:
+                continue
+            if re.match(r"^\s{2,}- `", line):
+                match = re.search(r"`([^`]+)`", stripped)
+                if match:
+                    data[current].append(match.group(1))
+                continue
+            current = None
     return data
 
 

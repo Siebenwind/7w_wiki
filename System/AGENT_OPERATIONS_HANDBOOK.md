@@ -142,6 +142,12 @@ Discovery-Split:
 - `/scout` bleibt der breite Discovery-Einstieg.
 - `/forum_search` ist der dedizierte Betriebsweg fuer neue ingestierbare Forenquellen.
 
+Maintainer-Regel:
+- Workflow-Bridges werden nicht manuell gepflegt.
+- Quelle der Wahrheit sind die `Interop-Status`-Metadaten in `.agent/workflows/*.md`.
+- Regeneration erfolgt ueber `./7w_wiki.py tech --sync-bridges` oder `./7w_wiki.py tech --sync-interop`.
+- Diese Syncs muessen Schreibzugriff auf `.agents/skills/` haben, da neue Bridge-Verzeichnisse dort erzeugt werden.
+
 ## Dispatch-Betriebsmodell
 
 Verbindlich gemaess `System/Synapse_Board/SY_DISPATCH.md`:

@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-02-20 00:20 (Antigravity → Next Agent)
-- **Status**: Ingestion Batch 2 (Toran Dur) started, RESEARCH-2026-017 initiated.
+- **Last Handover**: 2026-03-10 14:45 (Codex → Next Agent)
+- **Status**: Interop/Codex bridge hardening ist abgeschlossen; naechster operativer Fokus bleibt P2 Ingestion/Research und die verbleibende Pages-Link-Backlog-Bereinigung.
 
 ---
 
