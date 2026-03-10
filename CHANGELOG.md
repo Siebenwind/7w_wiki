@@ -1,5 +1,63 @@
 # Changelog
 
+#### [2026-03-10.01] - Codex Workflow Bridges & Forum Search Split
+### Prioritaet: P1
+### Hinzugefügt
+- `.agent/workflows/forum_search.md`: Neuer dedizierter Workflow fuer board-first Forenquellensuche und Ingestion-Leads.
+- `.agent/scripts/generate_workflow_bridges.py`: Generator fuer Codex-facing Workflow-Bridges in `.agents/skills/`.
+- `.agent/tests/suites/codex-workflow-bridges.json`: Vertrags-Suite fuer generierte Workflow-Bridges und die Bereinigung veralteter Bridge-Namen in den Docs.
+- Generierte Workflow-Bridges: `.agents/skills/session_start/`, `.agents/skills/session_takeover/`, `.agents/skills/session_handover/`, `.agents/skills/workflow_tech_master/`, `.agents/skills/workflow_test_run/`, `.agents/skills/workflow_forum_search/`.
+### Geändert
+- `7w_wiki.py`: `tech --sync-bridges` und `tech --sync-interop` regenerieren nun neben Skill-Bridges auch die Codex-Workflow-Bridges.
+- `.agent/scripts/update_matrix.py`: Workflows koennen jetzt explizit auf bestehende Runtime-Adapter gemappt werden; `/forum_search` wird dadurch als spezialisierter, aber ausfuehrbarer Pfad ueber `scout` dargestellt.
+- `start`, `takeover`, `handover`, `tech_master`, `test_run`, `scout`, `ingest_master` und die Interop-Dokumente modellieren nun explizit den Split zwischen breitem `/scout` und dediziertem `/forum_search`.
+- `docs/Agenten/interop.md`, `docs/Agenten/workflows.md`, `AGENTS.md`, `System/AGENT_OPERATIONS_HANDBOOK.md`, `System/Synapse_Board/SY_INTEROP.md`, `System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md` und `System/COORDINATION_HUB.md` dokumentieren jetzt den Codex-Bridge-Ansatz statt veralteter Pseudo-Bridge-Namen wie `onboarding` oder `test-run`.
+### Validiert
+- `./7w_wiki.py tech --sync-interop`
+- `./7w_wiki.py test --suite codex-workflow-bridges`
+- `./7w_wiki.py test --suite workflow-matrix-contract`
+- `./7w_wiki.py test --suite interop-doc-links`
+- `./7w_wiki.py test --suite all`
+
+#### [2026-03-09.03] - Pages Integrity & Tech Cadence Hardening
+### Prioritaet: P1
+### Hinzugefügt
+- `.agent/scripts/pages_integrity.py`: Gemeinsame MkDocs-/Roamlinks-Diagnostik fuer `pages`, `audit`, `repair` und `advisor`.
+- `.agent/config/pages_link_policy.json`: Maschinenlesbare Allowlist-/Planned-Fix-Policy fuer bekannte unresolved Pages-Targets.
+- `.agent/data/pages_health.json`: Runtime-Snapshot fuer Advisor, Workflows und Tech-Hygiene.
+- `.agent/tests/suites/pages-link-contract.json`: Vertrags-Suite fuer Pages-Health, Snapshot, Policy und Advisor-Freshness.
+### Geändert
+- `7w_wiki.py`: `audit --pages`, `repair --fix-roamlinks [--auto] [--dry-run]` und `pages validate --json [--strict-links]` sind jetzt Teil des kanonischen Runtime-Vertrags; `run_script()` propagiert Exitcodes, ohne JSON-Ausgaben durch Wrapper-Fehlertexte zu korrumpieren.
+- `.agent/scripts/pages_tool.py`, `.agent/scripts/register_check.py`, `.agent/scripts/repair.py`, `.agent/scripts/advisor.py`: Pages-Integritaet wird ueber Build-Warnungen normalisiert, in Audit/Repair eingespeist, als Snapshot persistiert und im Advisor mit Freshness-/Tech-Hygiene-Signalen exponiert.
+- `AGENTS.md`, `System/Synapse_Board/SY_INTEROP.md`, `System/AGENT_OPERATIONS_HANDBOOK.md`, `System/MCP/README.md`, `System/COORDINATION_HUB.md` und die Standard-Workflows dokumentieren jetzt den Pages-Health-Loop (`audit --pages`, `pages validate --json`, `repair --fix-roamlinks`) als regulare Technik-/QA-Praxis.
+- `.agent/scripts/test_runner.py` versteht verschachtelte JSON-Pfad-Asserts und respektiert suite-spezifische Timeouts fuer die neuen langsamen Pages-Kontrakte.
+### Validiert
+- `./7w_wiki.py tech --sync-interop`
+- `./7w_wiki.py advisor --json`
+- `./7w_wiki.py pages validate --json --skip-audit`
+- `./7w_wiki.py repair --fix-roamlinks --dry-run`
+- `./7w_wiki.py test --suite pages-link-contract --timeout 300`
+- `./7w_wiki.py test --suite all`
+
+#### [2026-03-09.02] - Workflow & Interop Consistency Hardening
+### Prioritaet: P1
+### Hinzugefügt
+- `.agent/scripts/sync_runtime_docs.py`: Neue Sync-Strecke fuer die generierten Runtime-Command-Register in `AGENTS.md`, `SY_INTEROP.md` und `AGENT_OPERATIONS_HANDBOOK.md`.
+- `.agent/tests/suites/interop-command-registry.json`, `.agent/tests/suites/workflow-matrix-contract.json`, `.agent/tests/suites/tool-manifest-contract.json`: Neue Vertrags-Suiten fuer Live-CLI-Inventar, Matrix-Regeneration und typisierte Tool-Manifeste.
+### Geändert
+- `7w_wiki.py`: `--help-json` liefert nun typisierte Argument-Metadaten, verschachtelte Subcommand-Schemata und Command-Metadaten fuer Interop-Generatoren; `mail` ist als strukturierte Subcommand-Familie modelliert; `tech` exponiert Matrix-/Doc-/Interop-Sync ueber die Runtime; Oracle-Python-Aufloesung ist plattformfaehig.
+- `.agent/scripts/update_matrix.py`, `.agent/scripts/generate_tools_manifest.py`, `System/MCP/generate_mcp_tools.py`, `System/MCP/server.py`: Interop-Oberflaechen werden jetzt aus derselben typisierten CLI-Beschreibung erzeugt; strukturierte Subcommand-Tools und deprecated compatibility aliases bleiben parallel verfuegbar.
+- `AGENTS.md`, `System/Synapse_Board/SY_INTEROP.md`, `System/AGENT_OPERATIONS_HANDBOOK.md`, `System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md` und die Kern-Workflows wurden auf konsistente Runtime-Semantik, aktuelle Workflow-Namen und den `scout`-Sonderfall vereinheitlicht.
+### Validiert
+- `./7w_wiki.py tech --sync-interop`
+- `./7w_wiki.py test --suite interop-command-registry`
+- `./7w_wiki.py test --suite workflow-matrix-contract`
+- `./7w_wiki.py test --suite tool-manifest-contract`
+- `./7w_wiki.py test --suite interop-doc-links`
+- `./7w_wiki.py test --suite process-dispatch-curiosity`
+- `./7w_wiki.py test --suite bridge-placeholder-guard`
+- `./7w_wiki.py test --suite all`
+
 #### [2026-03-09.01] - Handover Run Dispatch Autofill
 ### Prioritaet: P1
 ### Geändert

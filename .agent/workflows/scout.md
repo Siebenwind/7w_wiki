@@ -6,14 +6,17 @@ description: Web-Scouting für News und Shard-Updates (/scout)
 
 ## Interop-Status
 - runtime_commands:
-  - `7w_wiki.py advisor`
+  - `7w_wiki.py scout --forum bekanntmachungen|news --pages N`
 - method_only:
-  - `/scout`
 - method_hints_non_runtime:
   - Browser-basierte Sichtung (Host-Tooling)
   - URL-Extraktion via externe Lesetools (Host-Tooling)
+- interop_note: Promoted discovery entrypoint; intentionally first-class for external source discovery. Backend implementation remains under `.agent/scripts/`.
 
 Dieser Workflow dient der regelmäßigen Prüfung der Siebenwind-Homepage auf neue Nachrichten und technische Updates. **Wichtig:** Der Agent agiert als rein passiver Forscher; Interaktionen mit der Webseite oder dem Forum sind untersagt.
+
+> [!NOTE]
+> Fuer **board-first Quellensuche** in den Legacy-Foren nutze `/forum_search`. `/scout` bleibt der breite Discovery-Einstieg fuer Homepage, News und allgemeine Reconnaissance.
 
 ## Schritte
 
@@ -26,6 +29,7 @@ Dieser Workflow dient der regelmäßigen Prüfung der Siebenwind-Homepage auf ne
 - Wenn neue News vorhanden: Extrahiere den Volltext.
 - **Method Hint (non-runtime):** Nutze Browser-Host-Tooling bei Bildern oder komplexen Tabellen.
 - **Method Hint (non-runtime):** Nutze URL-Textauslese-Tooling für reinen Text.
+- Wenn du stattdessen gezielt nach neuen Forenquellen jagst: route zu `/forum_search`.
 
 ### 3. Formatierung
 - Erstelle eine neue Datei in `/Quellen/News/[YYYY-MM-DD]_[TITEL].md`.

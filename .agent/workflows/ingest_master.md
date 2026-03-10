@@ -20,10 +20,12 @@ Er kombiniert Lese-, Verifikations- und Schreibprozesse (Read-Verify-Write) und 
   - `7w_wiki.py stats`
 - method_only:
   - `/ingest_master`
+- interop_note: Method workflow for ingestion discipline; dispatch stays mandatory via inbox, question-first escalation, and status heartbeats.
 
 ## 1. Sichtung & Klassifizierung (Screening)
 // turbo
 1. Öffne die [INVENTUR_QUELLEN.md](../../Logs/INVENTUR_QUELLEN.md) und wähle eine Datei mit Status "Pending".
+   - Wenn du noch keine Quelle hast und gezielt neue Forenquellen finden musst, starte mit `/forum_search`.
 2. Bestimme die Epistemik (Wahrheitsgehalt):
    - `/Quellen/Hintergrund/` -> `#canon` (🥇 Absolut)
    - `/Quellen/Zeitung 7w Bote/` -> `#bote` (🥈 Hoch)
@@ -51,7 +53,7 @@ Nutze das **Orakel (`./7w_wiki.py search`)** bei Unklarheiten.
 1. **Lokal-Kanon (`#canon`)**: Ist Gesetz.
 2. **Quell-Integrität**: Plausibilität innerhalb der Quelle.
 3. **Web-Verifikation**: Falls nötig, manuelle Suche auf *siebenwind.de*.
-4. **Fragepflicht**: Bei Widersprüchen IMMER zuerst eine Fachfrage via Dispatch (`mail post`) an den Guardian oder Historiker senden. Niemals blind überschreiben!
+4. **Fragen statt Raten (Fragepflicht)**: Bei Widersprüchen IMMER zuerst eine Fachfrage via Dispatch (`mail post`) an den Guardian oder Historiker senden. Niemals blind überschreiben!
 
 ## 3. Die Produktion (Wiki-Schmied)
 
@@ -70,8 +72,9 @@ Nach dem `--ingest`:
 1. **Register manuell nachziehen**: Aktualisiere `Personenregister.md`, `Organisationsregister.md`, etc. basierend auf den Entitäten, die du im Text gefunden hast.
 2. **Logging [PFLICHT]**: Erstelle in `Logs/Ingestion/` einen Tracking-Report.
    - Trage Metadaten ein: `Auswertungs-ID`, `Ausgewertet von`, `Auswertungszeitpunkt`.
-3. **Stats Rebuild**: Führe `./7w_wiki.py stats` aus, um das Dashboard zu aktualisieren.
-4. **Inventar Update**: Ändere den Quellstatus in `Logs/INVENTUR_QUELLEN.md` auf "Integrated".
-5. **Git Commit**: Committe die Arbeit präzise (`Wiki-Processing: [Dateiname] integriert`).
+3. **Dispatch-Heartbeat [PFLICHT bei langen Läufen]**: Nach 3-5 Quellen oder bei Blockern einen kurzen Statusbericht via `./7w_wiki.py mail post` senden.
+4. **Stats Rebuild**: Führe `./7w_wiki.py stats` aus, um das Dashboard zu aktualisieren.
+5. **Inventar Update**: Ändere den Quellstatus in `Logs/INVENTUR_QUELLEN.md` auf "Integrated".
+6. **Git Commit**: Committe die Arbeit präzise (`Wiki-Processing: [Dateiname] integriert`).
 
 #ingestion #produktion #master

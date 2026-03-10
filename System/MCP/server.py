@@ -19,12 +19,13 @@ Usage:
   ./7w_wiki.py mcp
 
   # With streamable HTTP transport (for network access)
-  python System/MCP/server.py --transport http --port 7777
+  python System/MCP/server.py --transport streamable-http --port 7777
 """
 
 import argparse
 import json
 import os
+import shlex
 import socket
 import subprocess
 import sys
@@ -62,14 +63,14 @@ def _check_sdk():
 # Tool Execution Engine
 # ──────────────────────────────────────────────
 
-def run_cli_command(command: str, args: list[str], use_json: bool = False) -> str:
+def run_cli_command(cli_path: list[str], args: list[str], use_json: bool = False) -> str:
     """
     Execute a 7w_wiki.py command and return its output.
 
     This is the ONLY execution path. Everything goes through the CLI.
     Golden Rule #1: The ONLY executable interface is ./7w_wiki.py.
     """
-    cmd = [sys.executable, str(CLI_PATH), command] + args
+    cmd = [sys.executable, str(CLI_PATH)] + cli_path + args
     if use_json:
         cmd.append("--json")
 
@@ -90,7 +91,7 @@ def run_cli_command(command: str, args: list[str], use_json: bool = False) -> st
         return output or "(no output)"
 
     except subprocess.TimeoutExpired:
-        return f"[ERROR] Command timed out after 120s: ./7w_wiki.py {command}"
+        return f"[ERROR] Command timed out after 120s: ./7w_wiki.py {' '.join(cli_path)}"
     except Exception as e:
         return f"[ERROR] Failed to execute: {e}"
 
@@ -134,13 +135,13 @@ def load_tool_definitions() -> list[dict]:
             "name": "wiki_advisor",
             "description": "Show system status and recommended next actions.",
             "inputSchema": {"type": "object", "properties": {}},
-            "_meta": {"cli_command": "advisor", "json_capable": True}
+            "_meta": {"cli_path": ["advisor"], "json_capable": True}
         },
         {
             "name": "wiki_stats",
             "description": "Generate wiki statistics.",
             "inputSchema": {"type": "object", "properties": {}},
-            "_meta": {"cli_command": "stats", "json_capable": True}
+            "_meta": {"cli_path": ["stats"], "json_capable": True}
         }
     ]
 
@@ -171,39 +172,44 @@ def create_server():
     # Register each tool dynamically
     for tool_def in tool_defs:
         meta = tool_def.get("_meta", {})
-        cli_command = meta.get("cli_command", "")
+        cli_path = meta.get("cli_path", [])
         json_capable = meta.get("json_capable", False)
         is_quip = meta.get("is_quip", False)
 
         # Skip search tool if Oracle is offline (register stub instead)
-        if cli_command == "search" and not oracle_available:
+        if cli_path == ["search"] and not oracle_available:
             _register_search_unavailable(mcp)
             continue
 
         # Register the tool using a closure to capture the right values
-        _register_tool(mcp, tool_def, cli_command, json_capable, is_quip)
+        _register_tool(mcp, tool_def, cli_path, json_capable, is_quip)
 
     # Register wiki content as a resource
     @mcp.resource("wiki://status")
     def wiki_status() -> str:
         """Current wiki system status (advisor output)."""
-        return run_cli_command("advisor", ["--json"], use_json=False)
+        return run_cli_command(["advisor"], ["--json"], use_json=False)
 
     @mcp.resource("wiki://dispatch/open")
     def open_dispatches() -> str:
         """Currently open dispatch messages."""
-        return run_cli_command("mail", ["inbox", "--status", "OPEN"])
+        return run_cli_command(["mail", "inbox"], ["--status", "OPEN"])
 
     return mcp
 
 
-def _register_tool(mcp, tool_def: dict, cli_command: str, json_capable: bool, is_quip: bool):
+def _register_tool(mcp, tool_def: dict, cli_path: list[str], json_capable: bool, is_quip: bool):
     """Register a single tool on the MCP server."""
 
     tool_name = tool_def["name"]
     description = tool_def["description"]
     schema = tool_def.get("inputSchema", {})
+    meta = tool_def.get("_meta", {})
     properties = schema.get("properties", {})
+    arguments = meta.get("arguments", [])
+    compat_mode = meta.get("compat_mode")
+    compat_arg = meta.get("compat_arg")
+    compat_raw_arg = meta.get("compat_raw_arg")
 
     if is_quip:
         @mcp.tool(name=tool_name, description=description)
@@ -211,8 +217,10 @@ def _register_tool(mcp, tool_def: dict, cli_command: str, json_capable: bool, is
             """Post an in-character interagency quip."""
             if len(body) > 280:
                 return "[ERROR] Quip exceeds 280 characters. Be more concise."
-            return run_cli_command("mail", [
+            return run_cli_command([
+                "mail",
                 "post",
+            ], [
                 "--from", from_agent,
                 "--to", "ALL",
                 "--subject", "[QUIP] Zur Kenntnis",
@@ -225,27 +233,34 @@ def _register_tool(mcp, tool_def: dict, cli_command: str, json_capable: bool, is
     @mcp.tool(name=tool_name, description=description)
     def generic_tool(**kwargs) -> str:
         """Execute a CLI command with the given arguments."""
+        if compat_mode == "mail_passthrough":
+            raw = kwargs.get(compat_arg, "") if compat_arg else ""
+            return run_cli_command(cli_path + shlex.split(raw), [], use_json=json_capable)
+
+        if compat_mode == "subcommand_passthrough":
+            subcommand = kwargs.get(compat_arg)
+            raw_args = kwargs.get(compat_raw_arg, "") if compat_raw_arg else ""
+            passthrough = [subcommand] if subcommand else []
+            passthrough.extend(shlex.split(raw_args))
+            return run_cli_command(cli_path + passthrough, [], use_json=json_capable)
+
         args = []
-        for key, value in kwargs.items():
+        for arg in arguments:
+            key = arg["name"]
+            value = kwargs.get(key)
             if value is None:
                 continue
-            # Convert Python arg names back to CLI flags
-            flag = f"--{key.replace('_', '-')}"
-            if isinstance(value, bool):
+            if arg.get("kind") == "positional":
+                args.append(str(value))
+                continue
+            flag = arg.get("flags", [f"--{key.replace('_', '-')}"])[0]
+            if arg.get("type") == "boolean":
                 if value:
                     args.append(flag)
-            else:
-                args.append(flag)
-                args.append(str(value))
+                continue
+            args.extend([flag, str(value)])
 
-        # Special handling for positional arguments
-        positional_keys = [
-            k for k, v in properties.items()
-            if not any(f.get("flags") for f in tool_def.get("inputSchema", {}).get("properties", {}).values()
-                       if isinstance(f, dict))
-        ]
-
-        return run_cli_command(cli_command, args, use_json=json_capable)
+        return run_cli_command(cli_path, args, use_json=json_capable)
 
 
 def _register_search_unavailable(mcp):

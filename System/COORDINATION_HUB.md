@@ -55,9 +55,25 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [Synapse_Board/SY_HISTORIAN_TRACEABILITY.md](Synapse_Board/SY_HISTORIAN_TRACEABILITY.md)
 - [x] [Synapse_Board/RESEARCH-2026-010.md](Synapse_Board/RESEARCH-2026-010.md)
 - [x] [Logs/Conclusions/2026-02-17_Forum_Research_Report.md](../Logs/Conclusions/2026-02-17_Forum_Research_Report.md)
-- [x] [Scripts/forum_scanner.py](../.agent/scripts/forum_scanner.py)
+- [x] [.agent/scripts/forum_scanner.py](../.agent/scripts/forum_scanner.py) (legacy runtime alias: `Scripts/forum_scanner.py`)
+- [x] [.agent/scripts/sync_runtime_docs.py](../.agent/scripts/sync_runtime_docs.py) (Generiert Runtime-Command-Register fuer Governance-Dokumente)
+- [x] [.agent/scripts/pages_integrity.py](../.agent/scripts/pages_integrity.py) (Geteilte Pages-/Roamlinks-Diagnostik fuer `pages`, `audit`, `repair`, `advisor`)
+- [x] [.agent/scripts/generate_workflow_bridges.py](../.agent/scripts/generate_workflow_bridges.py) (Generiert Codex-Workflow-Bridges in `.agents/skills/`)
 - [x] [.agent/tests/suites/reader-stats-contract.json](../.agent/tests/suites/reader-stats-contract.json)
+- [x] [.agent/tests/suites/interop-command-registry.json](../.agent/tests/suites/interop-command-registry.json)
+- [x] [.agent/tests/suites/workflow-matrix-contract.json](../.agent/tests/suites/workflow-matrix-contract.json)
+- [x] [.agent/tests/suites/tool-manifest-contract.json](../.agent/tests/suites/tool-manifest-contract.json)
+- [x] [.agent/tests/suites/pages-link-contract.json](../.agent/tests/suites/pages-link-contract.json)
+- [x] [.agent/tests/suites/codex-workflow-bridges.json](../.agent/tests/suites/codex-workflow-bridges.json)
+- [x] [.agent/config/pages_link_policy.json](../.agent/config/pages_link_policy.json) (Allowlist / planned-fix policy fuer unresolved Pages-Targets)
+- [x] [.agent/data/pages_health.json](../.agent/data/pages_health.json) (runtime-generated Pages snapshot fuer Advisor und Workflow-Hygiene)
 - [x] [.agents/skills/stats/SKILL.md](../.agents/skills/stats/SKILL.md)
+- [x] [.agents/skills/session_start/SKILL.md](../.agents/skills/session_start/SKILL.md) (Generierte Codex-Workflow-Bridge)
+- [x] [.agents/skills/session_takeover/SKILL.md](../.agents/skills/session_takeover/SKILL.md) (Generierte Codex-Workflow-Bridge)
+- [x] [.agents/skills/session_handover/SKILL.md](../.agents/skills/session_handover/SKILL.md) (Generierte Codex-Workflow-Bridge)
+- [x] [.agents/skills/workflow_tech_master/SKILL.md](../.agents/skills/workflow_tech_master/SKILL.md) (Generierte Codex-Workflow-Bridge)
+- [x] [.agents/skills/workflow_test_run/SKILL.md](../.agents/skills/workflow_test_run/SKILL.md) (Generierte Codex-Workflow-Bridge)
+- [x] [.agents/skills/workflow_forum_search/SKILL.md](../.agents/skills/workflow_forum_search/SKILL.md) (Generierte Codex-Workflow-Bridge)
 
 ---
-*Zuletzt aktualisiert: 2026-03-06T17:40:00Z | Ref: #antigravity_advisor_dossier*
+*Zuletzt aktualisiert: 2026-03-10T13:40:00Z | Ref: #codex_workflow_bridges_2026_03_10*

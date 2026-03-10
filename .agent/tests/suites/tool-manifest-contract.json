@@ -1,0 +1,29 @@
+{
+  "suite": "tool-manifest-contract",
+  "description": "Guard typed manifest generation and compatibility aliases.",
+  "cases": [
+    {
+      "id": "tools-json-typed-and-structured",
+      "name": "tools.json preserves types and exposes structured subcommand tools plus aliases",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/config/tools.json",
+          "must_include_regex": [
+            "\"name\": \"cli_mail_post\"",
+            "\"name\": \"cli_pages_status\"",
+            "\"name\": \"cli_pages_validate\"",
+            "\"name\": \"cli_archive_sync\"",
+            "\"name\": \"cli_leitpunkt_view\"",
+            "\"name\": \"cli_mail\"",
+            "\"mail_args\"",
+            "\"strict_links\"",
+            "\"fix_roamlinks\"",
+            "\"pages\"",
+            "\"type\": \"boolean\"",
+            "\"type\": \"integer\""
+          ]
+        }
+      ]
+    }
+  ]
+}

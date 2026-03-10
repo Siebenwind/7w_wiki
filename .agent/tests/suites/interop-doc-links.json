@@ -10,12 +10,19 @@
         ".agent/workflows/start.md",
         ".agent/workflows/takeover.md",
         ".agent/workflows/handover.md",
+        ".agent/workflows/scout.md",
+        ".agent/workflows/forum_search.md",
+        ".agent/workflows/tech_master.md",
         ".agent/workflows/test_run.md",
+        "docs/Agenten/interop.md",
         "System/Synapse_Board/SY_INTEROP.md",
         "System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md",
         "System/Synapse_Board/SY_TESTING.md",
         "System/AGENT_OPERATIONS_HANDBOOK.md",
-        "System/COORDINATION_HUB.md"
+        "System/COORDINATION_HUB.md",
+        "docs/Agenten/workflows.md",
+        "docs/COORDINATION_HUB.md",
+        "System/MCP/README.md"
       ]
     }
   ]

@@ -11,7 +11,15 @@ description: Zentraler Startpunkt & Entscheidungshilfe für neue Agenten
   - `7w_wiki.py test --suite clean-client-state`
   - `7w_wiki.py archive sync`
 - method_only:
-  - `/start`
+- interop_note: `7w_wiki.py start` shows the workflow by default; `--run` executes the checklist; `--resume` resumes workflow state.
+- codex_bridge_name: session_start
+- codex_bridge_enabled: true
+- codex_bridge_summary: Codex kickoff wrapper for the standard onboarding loop.
+- codex_bridge_primary_command: `7w_wiki.py start`
+- codex_bridge_followups:
+  - `7w_wiki.py advisor --json`
+  - `7w_wiki.py mail inbox --status OPEN`
+  - `7w_wiki.py test --suite clean-client-state`
 
 Willkommen, Oberarchivar. Du stehst vor dem gewaltigen Wissen von 20 Jahren Siebenwind. Dieser Workflow hilft dir, dich zu orientieren und die nächsten Schritte zu wählen.
 
@@ -32,6 +40,7 @@ Der erste Schritt jedes Agenten ist zu verstehen, wo wir stehen.
    - [SY_STANDARDS.md](../../System/Synapse_Board/SY_STANDARDS.md)
    - [COORDINATION_HUB.md](../../System/COORDINATION_HUB.md)
 8. Lies die aktuellste Session-Memory unter `Logs/Archive/SESSION_MEMORY_*.md` (falls vorhanden), bevor du neue Tasks startest.
+9. Wenn der Advisor `Pages Health` als `WARN`, `FAIL` oder `UNKNOWN` meldet, route zuerst zu `/tech_master`.
 
 ## 2. Wähle deinen Pfad (Choose your Persona & Master-Workflow)
 
@@ -41,6 +50,7 @@ Welche Rolle nimmst du heute ein? Das System ist in **5 Säulen (Pillars)** unte
 *Ziel: Die Grenzen des Wikis überwinden und das Web nach neuem Wissen scannen.*
 - **Wann?** Wenn du neue Updates von der Homepage oder dem Forum einholen willst.
 - **Workflow:** `/scout`.
+- **Forum-first Quellenjagd:** Nutze `/forum_search`, wenn du gezielt nach neuen ingestierbaren Forenquellen suchst.
 
 ### 🏛️ The Ingestor (Department Lore-Archiv)
 *Ziel: Rohes Wissen aus den Quellen ins Wiki überführen.*

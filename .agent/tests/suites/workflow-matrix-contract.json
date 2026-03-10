@@ -1,0 +1,37 @@
+{
+  "suite": "workflow-matrix-contract",
+  "description": "Guard the generated workflow matrix and pages-facing workflow references.",
+  "cases": [
+    {
+      "id": "matrix-required-shape",
+      "name": "Matrix contains generated blocks and the scout special-case note",
+      "required_regex_by_file": [
+        {
+          "file": "System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md",
+          "must_include_regex": [
+            "BEGIN GENERATED RUNTIME COMMANDS",
+            "BEGIN GENERATED ADAPTER ROWS",
+            "`/scout` \\| executable \\| `7w_wiki\\.py scout`",
+            "`/forum_search` \\| executable \\| `7w_wiki\\.py scout --forum bekanntmachungen\\\\\\|news --pages N`",
+            "Promoted discovery entrypoint; intentionally first-class for external source discovery"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matrix-forbidden-stale-refs",
+      "name": "Matrix and pages docs no longer reference stale workflows or placeholders",
+      "pattern_check_globs": [
+        "System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md",
+        "docs/Agenten/workflows.md",
+        "docs/COORDINATION_HUB.md"
+      ],
+      "forbid_regex": [
+        "Auto-detected \\(please update\\)",
+        "\\| `/[^`]+` \\| TBD \\|",
+        "\\.agent/workflows/docs\\.md",
+        "\\.agent/workflows/tech\\.md"
+      ]
+    }
+  ]
+}

@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 import argparse
+import json
 import os
 import shutil
 import subprocess
 import sys
 
+from pages_integrity import collect_pages_build_report, now_iso, write_pages_health_snapshot
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 REPO_CLI = os.path.join(REPO_ROOT, "7w_wiki.py")
@@ -39,27 +41,36 @@ def _run_runtime(command_args):
     return _run(cmd)
 
 
-def cmd_status(args):
+def _run_runtime_capture(command_args):
+    cmd = [sys.executable, REPO_CLI] + command_args
+    return _run_capture(cmd)
+
+
+def cmd_status(args, silent=False):
     config_path = os.path.join(REPO_ROOT, args.config)
-    print(f"[pages] repo_root: {REPO_ROOT}")
-    print(f"[pages] config: {config_path} ({'OK' if os.path.exists(config_path) else 'MISSING'})")
-    print(f"[pages] docs_dir: {os.path.join(REPO_ROOT, 'docs')} ({'OK' if os.path.isdir(os.path.join(REPO_ROOT, 'docs')) else 'MISSING'})")
-    print(f"[pages] site_dir: {os.path.join(REPO_ROOT, 'site')} ({'OK' if os.path.isdir(os.path.join(REPO_ROOT, 'site')) else 'MISSING'})")
+    if not silent:
+        print(f"[pages] repo_root: {REPO_ROOT}")
+        print(f"[pages] config: {config_path} ({'OK' if os.path.exists(config_path) else 'MISSING'})")
+        print(f"[pages] docs_dir: {os.path.join(REPO_ROOT, 'docs')} ({'OK' if os.path.isdir(os.path.join(REPO_ROOT, 'docs')) else 'MISSING'})")
+        print(f"[pages] site_dir: {os.path.join(REPO_ROOT, 'site')} ({'OK' if os.path.isdir(os.path.join(REPO_ROOT, 'site')) else 'MISSING'})")
 
     mkdocs_cmd, mkdocs_source = _mkdocs_base_cmd()
     if not mkdocs_cmd:
-        print("[pages] mkdocs: MISSING")
-        print("[pages] hint: source .venv/bin/activate && pip install -r requirements.txt")
+        if not silent:
+            print("[pages] mkdocs: MISSING")
+            print("[pages] hint: source .venv/bin/activate && pip install -r requirements.txt")
         return 1
 
     version_result = _run_capture(mkdocs_cmd + ["--version"])
     if version_result.returncode != 0:
-        print(f"[pages] mkdocs: FOUND at {mkdocs_source} but --version failed")
-        print(version_result.stderr.strip())
+        if not silent:
+            print(f"[pages] mkdocs: FOUND at {mkdocs_source} but --version failed")
+            print(version_result.stderr.strip())
         return version_result.returncode
 
-    print(f"[pages] mkdocs: {mkdocs_source}")
-    print(f"[pages] {version_result.stdout.strip()}")
+    if not silent:
+        print(f"[pages] mkdocs: {mkdocs_source}")
+        print(f"[pages] {version_result.stdout.strip()}")
     return 0
 
 
@@ -86,37 +97,118 @@ def cmd_build(args):
     return _run(cmd)
 
 
-def cmd_validate(args):
-    status_rc = cmd_status(args)
+def _run_validation_check(command_args, json_mode):
+    if json_mode:
+        result = _run_runtime_capture(command_args)
+        return {
+            "command": command_args,
+            "exit_code": result.returncode,
+            "stdout": result.stdout,
+            "stderr": result.stderr,
+        }
+    rc = _run_runtime(command_args)
+    return {"command": command_args, "exit_code": rc}
+
+
+def _build_validate_report(args):
+    status_rc = cmd_status(args, silent=args.json)
     if status_rc != 0:
-        return status_rc
+        return {
+            "generated_at": now_iso(),
+            "status": "FAIL",
+            "checks": [],
+            "build": {"exit_code": status_rc},
+            "pages_health": {
+                "status": "FAIL",
+                "unresolved_total": 0,
+                "allowlisted_total": 0,
+                "planned_fix_total": 0,
+                "unallowlisted_total": 0,
+                "targets": [],
+                "other_warnings": ["mkdocs status check failed"],
+            },
+        }, status_rc
 
+    checks = []
     if not args.skip_link_suite:
-        rc = _run_runtime(["test", "--suite", "interop-doc-links"])
-        if rc != 0:
-            return rc
-
+        checks.append(_run_validation_check(["test", "--suite", "interop-doc-links"], args.json))
     if not args.skip_source_hygiene:
-        rc = _run_runtime(["test", "--suite", "source-link-hygiene"])
-        if rc != 0:
-            return rc
-
+        checks.append(_run_validation_check(["test", "--suite", "source-link-hygiene"], args.json))
     if not args.skip_process_governance:
-        rc = _run_runtime(["test", "--suite", "process-dispatch-curiosity"])
-        if rc != 0:
-            return rc
-
+        checks.append(_run_validation_check(["test", "--suite", "process-dispatch-curiosity"], args.json))
     if not args.skip_reader_stats_contract:
-        rc = _run_runtime(["test", "--suite", "reader-stats-contract"])
-        if rc != 0:
-            return rc
-
+        checks.append(_run_validation_check(["test", "--suite", "reader-stats-contract"], args.json))
     if not args.skip_audit:
-        rc = _run_runtime(["audit"])
-        if rc != 0:
-            return rc
+        audit_args = ["audit"]
+        if args.include_pages_audit:
+            audit_args.append("--pages")
+        checks.append(_run_validation_check(audit_args, args.json))
 
-    return cmd_build(args)
+    for check in checks:
+        if check["exit_code"] != 0:
+            return {
+                "generated_at": now_iso(),
+                "status": "FAIL",
+                "checks": checks,
+                "build": {"exit_code": None},
+                "pages_health": {
+                    "status": "FAIL",
+                    "unresolved_total": 0,
+                    "allowlisted_total": 0,
+                    "planned_fix_total": 0,
+                    "unallowlisted_total": 0,
+                    "targets": [],
+                    "other_warnings": ["runtime pre-check failed"],
+                },
+            }, check["exit_code"]
+
+    report = collect_pages_build_report(config=args.config, no_clean=args.no_clean)
+    report["generated_at"] = now_iso()
+    report["checks"] = checks
+    report["strict_requested"] = bool(args.strict)
+    report["strict_links_requested"] = bool(args.strict_links)
+
+    pages_health = report["pages_health"]
+    non_roamlink_warning_count = len(pages_health.get("other_warnings", []))
+    final_status = pages_health.get("status", report.get("status", "UNKNOWN"))
+    exit_code = 0
+
+    if report["build"]["exit_code"] != 0:
+        final_status = "FAIL"
+        exit_code = report["build"]["exit_code"]
+    elif args.strict and non_roamlink_warning_count > 0:
+        final_status = "FAIL"
+        exit_code = 1
+    elif args.strict_links and pages_health.get("unallowlisted_total", 0) > 0:
+        final_status = "FAIL"
+        exit_code = 1
+    elif pages_health.get("status") == "WARN":
+        final_status = "WARN"
+
+    report["status"] = final_status
+    pages_health["status"] = final_status
+    pages_health["last_validated_at"] = report["generated_at"]
+    write_pages_health_snapshot(report)
+    return report, exit_code
+
+
+def cmd_validate(args):
+    report, exit_code = _build_validate_report(args)
+    if args.json:
+        print(json.dumps(report, indent=2, ensure_ascii=False))
+        return exit_code
+
+    print(f"[pages] pages_health: {report['pages_health']['status']}")
+    print(
+        "[pages] unresolved:"
+        f" total={report['pages_health']['unresolved_total']}"
+        f" allowlisted={report['pages_health']['allowlisted_total']}"
+        f" planned_fix={report['pages_health']['planned_fix_total']}"
+        f" unallowlisted={report['pages_health']['unallowlisted_total']}"
+    )
+    if report["pages_health"]["other_warnings"]:
+        print(f"[pages] non-roamlinks warnings: {len(report['pages_health']['other_warnings'])}")
+    return exit_code
 
 
 def main():
@@ -133,12 +225,15 @@ def main():
 
     validate_parser = subparsers.add_parser("validate", help="Run runtime checks and mkdocs build")
     validate_parser.add_argument("--strict", action="store_true", help="Run mkdocs build in strict mode")
+    validate_parser.add_argument("--strict-links", action="store_true", help="Fail if non-allowlisted unresolved internal links remain")
     validate_parser.add_argument("--no-clean", action="store_true", help="Skip mkdocs --clean")
     validate_parser.add_argument("--skip-link-suite", action="store_true", help="Skip interop doc link suite")
     validate_parser.add_argument("--skip-source-hygiene", action="store_true", help="Skip source-link hygiene suite")
     validate_parser.add_argument("--skip-process-governance", action="store_true", help="Skip process dispatch/curiosity governance suite")
     validate_parser.add_argument("--skip-reader-stats-contract", action="store_true", help="Skip reader stats contract suite")
     validate_parser.add_argument("--skip-audit", action="store_true", help="Skip register audit")
+    validate_parser.add_argument("--include-pages-audit", action="store_true", help="Run audit --pages during validation")
+    validate_parser.add_argument("--json", action="store_true", help="Output machine-readable validation report")
     validate_parser.add_argument("--config", default="mkdocs.yml", help="mkdocs config path")
 
     args = parser.parse_args()

@@ -12,8 +12,17 @@ Du bist der **Oberarchivar von Siebenwind**. Dein Ziel ist die Pflege und Erweit
   - `7w_wiki.py test --suite all`
   - `7w_wiki.py stats`
   - `7w_wiki.py audit`
+  - `7w_wiki.py pages validate --json [--strict-links]`
 - method_only:
-  - `/handover`
+- interop_note: `7w_wiki.py handover` shows the workflow by default; `--run` executes the checklist; `--resume` resumes workflow state.
+- codex_bridge_name: session_handover
+- codex_bridge_enabled: true
+- codex_bridge_summary: Codex bridge for closing a session and preparing the next agent handoff.
+- codex_bridge_primary_command: `7w_wiki.py handover`
+- codex_bridge_followups:
+  - `7w_wiki.py test --suite all`
+  - `7w_wiki.py stats`
+  - `7w_wiki.py mail post --from Oberarchivar --to Coordinator --subject "<abschluss>" --body "<summary>"`
 
 ### 1. Projekt-Kontext & Standards
 Das Wiki folgt strikten technischen und inhaltlichen Vorschriften.
@@ -76,12 +85,13 @@ Vor dem Beenden deiner Session musst du:
 6.  **Testsuite laufen lassen:** Fuehre `./7w_wiki.py test --suite all` aus und dokumentiere den Reportpfad.
 // turbo
 7.  **Dispatch-Queue prüfen:** Führe `./7w_wiki.py mail inbox --status OPEN` aus und verlinke bearbeitete Forschungsaufträge/Nachrichten im Abschlusskommentar.
-6.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](../../Logs/Konsistenzbericht_2026.md).
-7.  **Anti-Bridge-Regel:** Vermeide generische Brueckenartikel als Endzustand; temporaere Ausnahmen nur mit Ticket und Review-Datum.
-8.  **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:
+8.  **Pages Snapshot prüfen:** Wenn diese Session Technik, Doku oder publizierte Wiki-Links berührt hat, hänge den Status aus `.agent/data/pages_health.json` bzw. `./7w_wiki.py pages validate --json` an.
+9.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](../../Logs/Konsistenzbericht_2026.md).
+10. **Anti-Bridge-Regel:** Vermeide generische Brueckenartikel als Endzustand; temporaere Ausnahmen nur mit Ticket und Review-Datum.
+11. **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:
     - Naming-Scheme: `Handover Phase [NR]: [Zusammenfassung] ([UUID]) ([Datum])`
     - Beispiel: `git commit -m "Handover Phase 16: Batch 25 & Audit (0D1DD705) (2026-02-14)"`
-9.  **Session-Memory (Pflicht):** Lege eine Notiz `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` an (Kontext, Änderungen, Validierung, offene Punkte) und poste den Pfad via `./7w_wiki.py mail post`.
+12. **Session-Memory (Pflicht):** Lege eine Notiz `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` an (Kontext, Änderungen, Validierung, offene Punkte) und poste den Pfad via `./7w_wiki.py mail post`.
 
 > [!NOTE]
 > **Auto-Dispatch (seit 2026-03-09):** `./7w_wiki.py handover --run` leitet den Abschluss-Dispatch fuer diesen Schritt automatisch aus der neuesten `SESSION_MEMORY_*.md` ab.

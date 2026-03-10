@@ -40,34 +40,40 @@ You are operating on the **Siebenwind Wiki**, a 20-year-old collaborative world-
 
 Use `./7w_wiki.py <command>` for all operations.
 
+
+<!-- BEGIN GENERATED COMMAND REGISTRY -->
 | Command | Purpose | Context |
 | :--- | :--- | :--- |
-| `advisor` | **START HERE.** System status & next steps. | `System/Advisor` |
-| `start [--run]` | Interactive onboarding workflow. `--run` executes the checklist. | `.agent/workflows/start.md` |
-| `test [--suite <name>|all] [--include-rag]` | Run standardized interoperability and clean-state test suites (`all` excludes `rag-relevance-smoke`). Validates `json-interop-contract`. | `.agent/scripts/test_runner.py` |
-| `takeover [--run]` | Show takeover protocol (`/takeover`) for session adoption. `--run` executes the checklist. | `.agent/workflows/takeover.md` |
-| `handover [--run]` | Show handover protocol (`/handover`) for session transfer. `--run` executes the checklist. | `.agent/workflows/handover.md` |
-| `search <query> [--source wiki\|quellen\|all]` | Semantic RAG search (The Oracle) with explicit source scope. | `.agent/skills/oracle` |
-| `historian [query]` | Deep lore analysis (workflow or direct topic run). | `.agent/workflows/historian.md` |
-| `audit` | Consistency check (duplicates, orphans). | `.agent/scripts/register_check.py` |
-| `repair [--auto\|--full]` | Interactive fix for audit findings; `--full` runs 1→3 in one pass. | `.agent/scripts/repair.py` |
-| `sanitize [--auto]` | Structural normalization (layout, H1, frontmatter). | `.agent/scripts/wiki_sanitizer.py` |
-| `check [path]` | Style and grammar checks (Lektor). Default target: `Siebenwind_Wiki`. | `.agent/skills/lektor/style_checker.py` |
-| `score <file>` | Lore Quality Score (LQS) for one markdown file. | `.agent/scripts/lore_score_manager.py` |
-| `index [--status] [--rebuild]` | Semantic index status or rebuild. | `.agent/skills/oracle/build_index.py` |
-| `index-pages` | Generate `index.md` for wiki categories. | `.agent/scripts/generate_wiki_indices.py` |
-| `pages status\|build\|validate` | Validate and build GitHub Pages docs via project-local mkdocs tooling. | `.agent/scripts/pages_tool.py` |
-| `inquisition [--batch N] [--audit-only]` | Batch ingestion of legacy sources. | `Silicon Inquisition` |
-| `translate ...` | Translation and dictionary operations. | `.agent/scripts/translator.py` |
-| `watch` | Live watcher for real-time indexing. | `.agent/scripts/watcher.py` |
-| `archive sync` | Sync archive symlinks into `docs/Archiv`. | `docs/Archiv` |
-| `mail <subcommand...>` | Agent-to-agent dispatch (`post`, `inbox`, `read`, `claim`, `done`). | `System/Synapse_Board/SY_DISPATCH.md` |
-| `scout [--forum bekanntmachungen\|news --pages N]` | Deep-scan external forum boards for signals. | `Scripts/forum_scanner.py` |
-| `stats` | Generate reader-facing wiki status, tracking register, and machine snapshot. | `.agent/scripts/generate_wiki_stats.py` |
-| `tech` | Show Technician workflow (DevOps logic). | `.agent/workflows/tech.md` |
-| `antigravity` | Show core default protocol (`/antigravity`). | `.agent/workflows/antigravity.md` |
-| `leitpunkt [view\|status\|check\|scaffold]` | Manage the human maintainer standpoint (workflow + validation). | `.agent/workflows/leitpunkt.md` |
-| `mcp [--transport stdio\\|streamable-http] [--port N]` | Start MCP Server (structured tool interface for AI agents). | `System/MCP/server.py` |
+| `search <query> [remaining...]` | Semantic RAG search (Oracle) across wiki and source corpus. | `.agent/skills/oracle/search.py` |
+| `start [--run]` | Show or run the onboarding workflow. | `.agent/workflows/start.md` |
+| `test` | Run interoperability and clean-state test suites. | `.agent/scripts/test_runner.py` |
+| `takeover [--run]` | Show or run the takeover workflow. | `.agent/workflows/takeover.md` |
+| `handover [--run]` | Show or run the handover workflow. | `.agent/workflows/handover.md` |
+| `historian [query]` | Deep lore analysis workflow or direct topic run. | `.agent/workflows/historian.md` |
+| `repair` | Interactive or automatic repair of audit findings, including Pages / Roamlinks fixes. | `.agent/scripts/repair.py` |
+| `audit` | Run consistency audit for duplicates, broken links, and orphaned content. | `.agent/scripts/register_check.py` |
+| `index` | Manage the semantic search index. | `.agent/skills/oracle/build_index.py` |
+| `index-pages` | Generate category index pages for the wiki. | `.agent/scripts/generate_wiki_indices.py` |
+| `pages <status|build|validate>` | Build or validate GitHub Pages documentation and site-integrity health. | `.agent/scripts/pages_tool.py` |
+| `advisor` | Show system status and recommended next actions. | `System/Advisor` |
+| `inquisition` | Run batch ingestion of legacy sources. | `.agent/scripts/inquisition.py` |
+| `sanitize [target]` | Normalize structure, H1 usage, and frontmatter. | `.agent/scripts/wiki_sanitizer.py` |
+| `lint [target]` | Run the combined lint pipeline. | `.agent/scripts/lint_tool.py` |
+| `score <file>` | Calculate Lore Quality Score for one markdown file. | `.agent/scripts/lore_score_manager.py` |
+| `ingest <file>` | Run the ingest pipeline for one file. | `.agent/scripts/ingest_pipeline.py` |
+| `translate [args...]` | Translate Falandric texts or manage dictionaries. | `.agent/scripts/translator.py` |
+| `watch` | Start the live watcher for index updates. | `.agent/scripts/watcher.py` |
+| `check [path]` | Run style and grammar checks. | `.agent/skills/lektor/style_checker.py` |
+| `archive <sync|rotate|unpack>` | Manage archive symlinks, rotation, and unpack operations. | `docs/Archiv` |
+| `mail <post|inbox|read|claim|done>` | Interact with the dispatch system using structured subcommands. | `System/Synapse_Board/SY_DISPATCH.md` |
+| `scout` | Promoted discovery entrypoint for external source scanning. | `.agent/scripts/forum_scanner.py` |
+| `tech` | Show the technician workflow or run interop maintenance helpers. | `.agent/workflows/tech_master.md` |
+| `version` | Show or bump the wiki standard version. | `.agent/scripts/version_manager.py` |
+| `antigravity` | Show the core default workflow hub. | `.agent/workflows/antigravity.md` |
+| `leitpunkt <view|status|check|scaffold>` | Manage the human maintainer standpoint workflow. | `.agent/scripts/leitpunkt_tool.py` |
+| `stats` | Generate reader-facing stats and machine snapshots. | `.agent/scripts/generate_wiki_stats.py` |
+| `mcp` | Start the MCP server for structured agent access. | `System/MCP/server.py` |
+<!-- END GENERATED COMMAND REGISTRY -->
 
 ## 📂 Documentation Map
 
@@ -84,7 +90,8 @@ Use `./7w_wiki.py <command>` for all operations.
 1.  **Onboard**: Run `./7w_wiki.py start`, `./7w_wiki.py advisor`, and `./7w_wiki.py mail inbox --status OPEN` first. Read the latest `Logs/Archive/SESSION_MEMORY_*.md` before starting new work.
 2.  **Plan**: Check `MASTER_TASK_LIST.md` and `task.md` (if available).
 3.  **Execute**: Use `7w_wiki.py` tools. Do NOT edit `7w_wiki.py` unless assigned to "DevOps". Send status heartbeats via `mail post` on long tasks and route contradictions as specialist questions (question-first).
-4.  **Verify**: Run `./7w_wiki.py audit`, `./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite bridge-placeholder-guard`, and `./7w_wiki.py test --suite reader-stats-contract` before committing.
+4.  **Verify**: Run `./7w_wiki.py audit`, `./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-command-registry`, `./7w_wiki.py test --suite codex-workflow-bridges`, `./7w_wiki.py test --suite workflow-matrix-contract`, `./7w_wiki.py test --suite tool-manifest-contract`, `./7w_wiki.py test --suite pages-link-contract`, `./7w_wiki.py test --suite bridge-placeholder-guard`, and `./7w_wiki.py test --suite reader-stats-contract` before committing.
+   If the published site or docs navigation changed, also run `./7w_wiki.py pages validate --json`.
 5.  **Log**: Update `CHANGELOG.md` or `Logs/` as appropriate. End each session with `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` and reference it via `./7w_wiki.py mail post`.
 
 ## 🔎 Oracle Source Policy
@@ -103,7 +110,7 @@ An MCP server is available that wraps the entire CLI as structured, typed tools 
 - **Start**: `./7w_wiki.py mcp` (stdio) or `./7w_wiki.py mcp --transport streamable-http --port 7777` (network)
 - **Auto-Discovery**: `mcp_config.json` at repo root for MCP-capable clients
 - **Docs**: [System/MCP/README.md](System/MCP/README.md)
-- **27 Tools** auto-generated from `--help-json` — zero maintenance
+- **Generated typed tools** auto-generated from `--help-json` — zero maintenance
 - **`wiki_mail_quip`**: You ARE encouraged to use this tool for in-character interagency commentary, humor, and personality. See `[QUIP]` tag in [SY_DISPATCH.md](System/Synapse_Board/SY_DISPATCH.md).
 
 > **Dependency**: `pip install 'mcp[cli]'`

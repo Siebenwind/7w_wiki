@@ -14,6 +14,9 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 
 - [x] **Phase E (Workflow & Skill Consolidation)**: Pruned 33 fragmented workflows into 5 core Master Workflows mapped to the 5 Agent Personas. Built a sharp decision tree in `/start` and preserved all sub-processes.
+- [x] **Interop Hardening (Typed CLI + Doc Sync)**: `--help-json`, `tools.json`, MCP, governance docs und die Workflow-Matrix sind nun auf denselben typisierten Runtime-Vertrag ausgerichtet. `scout` bleibt als prominenter Sonderfall sichtbar, ohne die `.agent/scripts/`-Policy zu brechen.
+- [x] **Pages Integrity & Tech Cadence Hardening**: `audit --pages`, `pages validate --json [--strict-links]`, `repair --fix-roamlinks`, Pages-Policy/Snapshot und Advisor-Freshness machen publizierte Site-Integritaet jetzt explizit sichtbar und als Standard-Loop fuer `/tech_master`, `/qa_master`, `/start`, `/takeover` und `/handover` nutzbar.
+- [x] **Codex Workflow Bridges & Forum Search Split**: Generierte Workflow-Bridges in `.agents/skills/` machen `start`, `takeover`, `handover`, `tech_master`, `test_run` und die neue Forenquellenjagd `/forum_search` fuer Codex discoverbar; `/scout` bleibt der breite Discovery-Einstieg.
 - [x] **Workflow Bugfix (`/handover --run`)**: Schritt 5 leitet `mail post` jetzt automatisch aus der neuesten `SESSION_MEMORY_*.md` ab (`--from Oberarchivar --to Coordinator --report-path ...`) und laeuft ohne manuellen Workaround durch. Tracking: `MSG-2026-0058`.
 
 - [x] **Handover Gate Repair**: Defekten Link in `.agent/workflows/handover.md` behoben; `interop-doc-links` und `takeover-handover` wieder gruen.

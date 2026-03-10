@@ -23,6 +23,7 @@ import uuid
 from pathlib import Path
 from collections import Counter
 from nexus_config import WIKI_DIR, WORLD_NAME
+from pages_integrity import collect_pages_build_report, now_iso
 
 # --- Configuration (relative to project root) ---
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -363,6 +364,7 @@ def get_chronik_index_numbers(index_path: Path) -> set[int]:
 def main():
     parser = argparse.ArgumentParser(description=f"{WORLD_NAME} Register Check (Audit)")
     parser.add_argument("--json", action="store_true", help="Output raw JSON findings")
+    parser.add_argument("--pages", action="store_true", help="Include Pages / Roamlinks integrity diagnostics")
     args = parser.parse_args()
 
     report_id = str(uuid.uuid4())
@@ -371,7 +373,14 @@ def main():
     # Structure for JSON
     audit_data = {
         "report_id": report_id,
+        "generated_at": now_iso(),
         "issues_found": 0,
+        "categories": {
+            "content_backlog": {"issues": 0},
+            "wiki_integrity": {"issues": 0},
+            "source_hygiene": {"issues": 0},
+            "site_integrity": {"issues": 0},
+        },
         "details": {
             "duplicates": [],
             "orphans": [],
@@ -382,7 +391,7 @@ def main():
             "ingestion_issues": [],
             "broken_links": [],
             "bridge_pages": []
-        }
+        },
     }
 
     # Capture output for file writing
@@ -592,7 +601,48 @@ def main():
                 log(f"  ... und {remaining} weitere.")
     log()
 
+    if args.pages:
+        pages_report = collect_pages_build_report(config="mkdocs.yml", no_clean=False)
+        pages_health = pages_report["pages_health"]
+        audit_data["details"]["site_integrity"] = pages_health
+        site_issues = pages_health.get("unallowlisted_total", 0) + len(pages_health.get("other_warnings", []))
+        issues_found += site_issues
+
+        log("## 10. Pages Site Integrity (MkDocs / Roamlinks)")
+        log(f"  Status: {pages_health.get('status', 'UNKNOWN')}")
+        log(
+            "  Unresolved internal links: "
+            f"total={pages_health.get('unresolved_total', 0)}, "
+            f"allowlisted={pages_health.get('allowlisted_total', 0)}, "
+            f"planned_fix={pages_health.get('planned_fix_total', 0)}, "
+            f"unallowlisted={pages_health.get('unallowlisted_total', 0)}"
+        )
+        for target in pages_health.get("targets", [])[:20]:
+            sources = ", ".join(target.get("source_pages", [])[:3]) or "unbekannt"
+            log(
+                f"  ⚠️  {target['target']} x{target['count']} "
+                f"[{target.get('policy_status', 'untracked')}] in {sources}"
+            )
+        remaining_targets = len(pages_health.get("targets", [])) - min(20, len(pages_health.get("targets", [])))
+        if remaining_targets > 0:
+            log(f"  ... und {remaining_targets} weitere Targets.")
+        for warning in pages_health.get("other_warnings", [])[:10]:
+            log(f"  ⚠️  Warning: {warning}")
+        log()
+
     # --- Summary ---
+    audit_data["categories"]["content_backlog"]["issues"] = len(audit_data["details"]["missing_sources"])
+    audit_data["categories"]["source_hygiene"]["issues"] = len(audit_data["details"]["source_hygiene"])
+    audit_data["categories"]["wiki_integrity"]["issues"] = (
+        len(audit_data["details"]["duplicates"])
+        + len(audit_data["details"]["orphans"])
+        + len(audit_data["details"]["missing_profiles"])
+        + len(audit_data["details"]["missing_index"])
+        + len(audit_data["details"]["ingestion_issues"])
+        + len(audit_data["details"]["broken_links"])
+        + len(audit_data["details"]["bridge_pages"])
+    )
+    audit_data["categories"]["site_integrity"]["issues"] = len(audit_data["details"].get("site_integrity", {}).get("other_warnings", [])) + int(audit_data["details"].get("site_integrity", {}).get("unallowlisted_total", 0))
     audit_data["issues_found"] = issues_found
     log("=" * 60)
     log(f"  ERGEBNIS: {issues_found} Probleme gefunden.")

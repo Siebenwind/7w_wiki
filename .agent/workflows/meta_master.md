@@ -13,6 +13,7 @@ Dieses Department ist das Revier des **Koordinators**. Es regelt den Agenten-All
   - `7w_wiki.py leitpunkt [status|check|scaffold]`
   - `7w_wiki.py test --suite reader-stats-contract`
   - `7w_wiki.py test --suite clean-client-state`
+  - `7w_wiki.py test --suite pages-link-contract`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py mail post --from Coordinator --to <agent|ALL> --subject "<text>" --body "<text>"`
 - method_only:
@@ -42,7 +43,8 @@ Halte das Wiki für Leser und Maschinen transparent.
 ## 3. Dokumentation & Boards (Daily Business)
 1. **Boards:** Halte die `MASTER_TASK_LIST.md` und `System/Synapse_Board/` aktuell. Räume erledigte Tasks auf.
 2. **Publicity:** Aktualisiere `README.md` und `CHANGELOG.md` nach großen Meilensteinen. Arbeite hierfür mit dem `/herold` zusammen.
-3. **Interop Checks:** Führe regelmäßig `./7w_wiki.py test --suite clean-client-state` aus, um die Repo-Hygiene zu garantieren.
+3. **Interop Checks:** Führe regelmäßig `./7w_wiki.py test --suite clean-client-state` und `./7w_wiki.py test --suite pages-link-contract` aus, um Repo- und Pages-Hygiene zu garantieren.
+4. **Tech Freshness:** Beobachte im `advisor` die Felder `Pages Health` und `last_sync_interop_at`, damit `/tech_master` nicht veraltet.
 
 ## 4. Kommunikation (Dispatch)
 Als Koordinator bist du der Node-Point für Informationen:

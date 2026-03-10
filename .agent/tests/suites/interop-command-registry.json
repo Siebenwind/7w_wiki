@@ -1,0 +1,16 @@
+{
+  "suite": "interop-command-registry",
+  "description": "Ensure the live CLI command inventory is reflected across core governance docs.",
+  "cases": [
+    {
+      "id": "runtime-command-inventory",
+      "name": "All live CLI commands are listed in the generated governance inventories",
+      "command_inventory_files": [
+        "AGENTS.md",
+        "System/Synapse_Board/SY_INTEROP.md",
+        "System/AGENT_OPERATIONS_HANDBOOK.md",
+        "System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md"
+      ]
+    }
+  ]
+}

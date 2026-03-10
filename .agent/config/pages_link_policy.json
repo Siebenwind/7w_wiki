@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "updated_at": "2026-03-09T18:30:00Z",
+  "entries": [
+    {
+      "target": "Malthust",
+      "status": "allowlisted",
+      "reason": "Historical target name still appears in legacy wiki links while canonical article naming is being normalized.",
+      "owner": "Historian",
+      "review_until": "2026-06-30",
+      "replacement_hint": "Region_Malthust",
+      "scope": "docs/Siebenwind_Wiki"
+    },
+    {
+      "target": "Westhever",
+      "status": "planned_fix",
+      "reason": "Legacy place-name links still need canonical target migration in the published docs copy.",
+      "owner": "Technician",
+      "review_until": "2026-06-30",
+      "replacement_hint": "Dunkeltief",
+      "scope": "docs/Siebenwind_Wiki"
+    }
+  ]
+}

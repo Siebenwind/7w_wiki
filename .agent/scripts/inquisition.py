@@ -94,7 +94,7 @@ def main():
         print(f"{BOLD}Die Inquisition hat folgende Ziele zur Neueinlesung bestimmt:{RESET}")
         for t in targets:
             print(f"  - {t}")
-        print(f"\n👉 {YELLOW}Agentmweisung:{RESET} Bitte verarbeite diese {limit} Quellen gemäß /ingestion_protocol.")
+        print(f"\n👉 {YELLOW}Agentmweisung:{RESET} Bitte verarbeite diese {limit} Quellen gemäß /ingest_master.")
 
 if __name__ == "__main__":
     main()

@@ -6,7 +6,7 @@
 - **Dokument-Fingerprint**: [optional: SHA1/SHA256 der Quelle]
 - **Ausgewertet von**: [Agentenname]
 - **Auswertungszeitpunkt (UTC)**: [ISO-8601 mit `Z`]
-- **Workflow/Skill**: [`/ingestion_protocol`, `/batch`, Skillname]
+- **Workflow/Skill**: [`/ingest_master`, Skillname]
 - **Dispatch-Referenz**: [MSG-YYYY-NNNN | `N/A`]
 - **Quellentyp**: [#canon | #bote | #überlieferung | #perspektive]
 - **Lore-Score (LQS)**: 0.0/10

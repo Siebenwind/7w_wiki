@@ -39,7 +39,7 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] INQ-2026-001_Astral_Web_Doubt.md (`../System/Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Astral_Web_Doubt.md`)
 - [x] INQ-2026-001_Historian_Report.md (`../System/Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Historian_Report.md`)
 - [x] .agent/instructions/persona_technician.md (`../.agent/instructions/persona_technician.md`)
-- [x] .agent/workflows/tech.md (`../.agent/workflows/tech.md`)
+- [x] .agent/workflows/tech_master.md (`../.agent/workflows/tech_master.md`)
 
 ---
 *Zuletzt aktualisiert: 2026-02-14T23:05:00Z | Ref: #standards_formalized*

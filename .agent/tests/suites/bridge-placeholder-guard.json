@@ -27,9 +27,9 @@
       "name": "Core docs explicitly define anti-bridge policy and exception metadata",
       "required_regex_by_file": [
         {
-          "file": ".agent/workflows/repair.md",
+          "file": ".agent/workflows/qa_master.md",
           "must_include_regex": [
-            "Keine Brueckenartikel als Standard-Fix|Keine Brückenartikel als Standard-Fix",
+            "Brücken-Verbot|Bruecken-Verbot",
             "bridge_mode: temporary",
             "bridge_review_until: YYYY-MM-DD"
           ]

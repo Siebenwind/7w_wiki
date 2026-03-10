@@ -40,9 +40,9 @@ Der erste Schritt ist immer das Onboarding. Es analysiert den Status und gibt di
 
 ## 3. Die Exekution
 Führe **exakt** das aus, was der Advisor empfiehlt.
-- Wenn er `/repair` sagt, führe `/repair` aus.
-- Wenn er `/batch` sagt, führe `/batch` aus.
-- Wenn er sagt "Nichts zu tun", dann generiere Statistiken (`/stats`) und melde dich beim User.
+- Wenn er Konsistenzarbeit empfiehlt, führe `./7w_wiki.py repair` oder den `/qa_master` Workflow aus.
+- Wenn er offene Quellen meldet, folge dem `/ingest_master` Workflow.
+- Wenn er sagt "Nichts zu tun", dann generiere Statistiken (`./7w_wiki.py stats`) und melde dich beim User.
 
 ## 4. Die Sicherheits-Garantie
 Solltest du jemals unsicher sein, was zu tun ist:
@@ -56,7 +56,7 @@ Jede relevante Aenderung wird nachvollziehbar dokumentiert.
 1. Update `CHANGELOG.md` (Was, Warum, Validierung).
 2. Bei UX/CD-Anpassungen:
    - `docs/Archiv/REDESIGN_ROADMAP_2026.md` aktualisieren.
-   - Betroffene Skills/Workflows synchronisieren (z.B. Art Director, /herold, /tech).
+   - Betroffene Skills/Workflows synchronisieren (z.B. Art Director, /herold, /tech_master).
 3. Sessionende:
    - Session-Memory unter `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md`.
    - Pfad per `./7w_wiki.py mail post` an Folgeagenten melden.

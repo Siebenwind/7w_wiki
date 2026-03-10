@@ -1,0 +1,110 @@
+{
+  "suite": "pages-link-contract",
+  "description": "Guard Pages integrity policy, machine snapshots, and advisor freshness signals.",
+  "cases": [
+    {
+      "id": "pages-policy-schema",
+      "name": "Pages link policy exists with the required machine-readable fields",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/config/pages_link_policy.json",
+          "must_include_regex": [
+            "\"version\"",
+            "\"updated_at\"",
+            "\"entries\"",
+            "\"target\"",
+            "\"status\"",
+            "\"owner\"",
+            "\"review_until\""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pages-validate-json",
+      "name": "pages validate emits machine-readable site integrity status and writes a snapshot",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "validate",
+        "--json",
+        "--skip-audit"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_keys": [
+        "generated_at",
+        "status",
+        "checks",
+        "build",
+        "pages_health"
+      ],
+      "expect_json_path_exists": [
+        "pages_health.last_validated_at",
+        "pages_health.targets"
+      ],
+      "expect_json_path_in": {
+        "pages_health.status": ["PASS", "WARN", "FAIL"]
+      },
+      "timeout_sec": 300
+    },
+    {
+      "id": "pages-health-snapshot",
+      "name": "pages validation snapshot stores the expected Pages health fields",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/data/pages_health.json",
+          "must_include_regex": [
+            "\"pages_health\"",
+            "\"last_validated_at\"",
+            "\"unresolved_total\"",
+            "\"unallowlisted_total\""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audit-pages-json",
+      "name": "audit --pages reports the site integrity bucket and details",
+      "cmd": [
+        "./7w_wiki.py",
+        "audit",
+        "--pages",
+        "--json"
+      ],
+      "expect_exit_any": [0, 1],
+      "expect_valid_json": true,
+      "expect_json_keys": [
+        "report_id",
+        "categories",
+        "details"
+      ],
+      "expect_json_path_exists": [
+        "categories.site_integrity.issues",
+        "details.site_integrity.targets"
+      ],
+      "timeout_sec": 300
+    },
+    {
+      "id": "advisor-pages-health-json",
+      "name": "advisor exposes Pages health and interop freshness fields",
+      "cmd": [
+        "./7w_wiki.py",
+        "advisor",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_keys": [
+        "pages_health",
+        "tech_hygiene",
+        "recommendations"
+      ],
+      "expect_json_path_exists": [
+        "pages_health.status",
+        "pages_health.last_validated_at",
+        "tech_hygiene.last_sync_interop_at"
+      ]
+    }
+  ]
+}

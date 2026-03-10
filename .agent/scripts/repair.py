@@ -16,10 +16,14 @@ import os
 import sys
 import re
 import argparse
+import json
 from pathlib import Path
 from collections import defaultdict
 import difflib
 from urllib.parse import unquote
+from datetime import datetime, timezone
+
+from pages_integrity import collect_pages_build_report, load_pages_health_snapshot
 
 # ANSI Colors
 RED = "\033[91m"
@@ -33,6 +37,8 @@ WIKI_DIR = PROJECT_ROOT / "Siebenwind_Wiki"
 QUELLEN_DIR = PROJECT_ROOT / "Quellen"
 INGESTION_DIR = PROJECT_ROOT / "Logs" / "Ingestion"
 DOCS_COORDINATION_HUB = PROJECT_ROOT / "docs" / "COORDINATION_HUB.md"
+DOCS_WIKI_DIR = PROJECT_ROOT / "docs" / "Siebenwind_Wiki"
+ROAMLINK_REPORT_DIR = PROJECT_ROOT / "Logs" / "Archive"
 
 # Known Redirects / Hardcoded Fixes
 LORE_REDIRECTS = {
@@ -367,12 +373,152 @@ def run_full_repair(files: list[Path], source_files: list[Path], canon_map: dict
     repair_source_references(source_files, auto=auto)
 
 
+def now_stamp() -> str:
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d_%H%M%S")
+
+
+def _roamlink_target_candidates(target: str, canon_map: dict) -> tuple[str | None, list[str]]:
+    exact = resolve_link(target, canon_map)
+    if exact:
+        return exact, []
+
+    norm_target = normalize_key(target)
+    scored: list[tuple[float, str]] = []
+    for key, paths in canon_map.items():
+        if not paths:
+            continue
+        score = difflib.SequenceMatcher(None, norm_target, key).ratio()
+        scored.append((score, paths[0].stem))
+    scored.sort(key=lambda item: (-item[0], item[1]))
+    if not scored:
+        return None, []
+    top_score, top_name = scored[0]
+    second_score = scored[1][0] if len(scored) > 1 else 0.0
+    if top_score >= 0.92 and (top_score - second_score) >= 0.05:
+        return top_name, []
+    suggestions = [name for _, name in scored[:5]]
+    return None, suggestions
+
+
+def _replace_target_in_content(content: str, original_target: str, replacement: str) -> str:
+    pattern = re.compile(rf"(\[{2,})({re.escape(original_target)})(#[^\]|]+)?(\|[^\]]+)?(\]{2,})")
+    return pattern.sub(lambda m: f"{m.group(1)}{replacement}{m.group(3) or ''}{m.group(4) or ''}{m.group(5)}", content)
+
+
+def _resolve_source_repair_paths(source_pages: list[str]) -> list[Path]:
+    resolved: list[Path] = []
+    for rel in source_pages:
+        docs_path = PROJECT_ROOT / rel
+        if docs_path.exists():
+            resolved.append(docs_path)
+        if rel.startswith("docs/Siebenwind_Wiki/"):
+            twin_rel = rel.replace("docs/Siebenwind_Wiki/", "Siebenwind_Wiki/", 1)
+            twin_path = PROJECT_ROOT / twin_rel
+            if twin_path.exists():
+                resolved.append(twin_path)
+    unique: list[Path] = []
+    seen: set[Path] = set()
+    for path in resolved:
+        if path in seen:
+            continue
+        seen.add(path)
+        unique.append(path)
+    return unique
+
+
+def repair_roamlinks(auto: bool = False, dry_run: bool = False) -> int:
+    print(f"\n{BLUE}--- Pages / Roamlinks Repair ---{RESET}")
+    snapshot = load_pages_health_snapshot()
+    if not snapshot or (
+        snapshot.get("pages_health", {}).get("status") == "UNKNOWN"
+        and not snapshot.get("pages_health", {}).get("targets")
+    ):
+        snapshot = collect_pages_build_report(config="mkdocs.yml", no_clean=False)
+    pages_health = snapshot.get("pages_health", {})
+    targets = pages_health.get("targets", [])
+    if not targets:
+        print(f"{GREEN}Keine unresolved Pages-Targets gefunden.{RESET}")
+        return 0
+
+    canon_map = get_canon_map(WIKI_DIR)
+    if DOCS_WIKI_DIR.exists():
+        docs_canon = get_canon_map(DOCS_WIKI_DIR)
+        for key, paths in docs_canon.items():
+            canon_map[key].extend(path for path in paths if path not in canon_map[key])
+
+    fixed_entries: list[dict] = []
+    ambiguous_entries: list[dict] = []
+    files_changed = 0
+
+    for item in targets:
+        target = item["target"]
+        source_pages = item.get("source_pages", [])
+        replacement, suggestions = _roamlink_target_candidates(target, canon_map)
+        if not replacement:
+            ambiguous_entries.append(
+                {
+                    "target": target,
+                    "count": item.get("count", 0),
+                    "source_pages": source_pages,
+                    "suggestions": suggestions,
+                }
+            )
+            continue
+
+        target_files = _resolve_source_repair_paths(source_pages)
+        changed_files: list[str] = []
+        for file_path in target_files:
+            try:
+                content = file_path.read_text(encoding="utf-8")
+            except Exception:
+                continue
+            new_content = _replace_target_in_content(content, target, replacement)
+            if new_content == content:
+                continue
+            changed_files.append(str(file_path.relative_to(PROJECT_ROOT)))
+            if not dry_run and (auto or input(f"{file_path.relative_to(PROJECT_ROOT)} auf [[{replacement}]] aktualisieren? [y/n]: ").lower() == "y"):
+                file_path.write_text(new_content, encoding="utf-8")
+                files_changed += 1
+
+        fixed_entries.append(
+            {
+                "target": target,
+                "replacement": replacement,
+                "count": item.get("count", 0),
+                "source_pages": source_pages,
+                "changed_files": changed_files,
+            }
+        )
+
+    report = {
+        "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "mode": "dry-run" if dry_run else "apply",
+        "fixed": fixed_entries,
+        "ambiguous": ambiguous_entries,
+        "files_changed": files_changed,
+    }
+    ROAMLINK_REPORT_DIR.mkdir(parents=True, exist_ok=True)
+    report_path = ROAMLINK_REPORT_DIR / f"ROAMLINK_REPAIR_REPORT_{now_stamp()}.json"
+    report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    print(f"Fixbare Targets: {len(fixed_entries)}")
+    print(f"Ambiguous / suggestion-only: {len(ambiguous_entries)}")
+    print(f"Report: {report_path.relative_to(PROJECT_ROOT)}")
+    if dry_run:
+        print(f"{YELLOW}Dry-run aktiv: keine Dateien geschrieben.{RESET}")
+    else:
+        print(f"{GREEN}{files_changed} Dateien aktualisiert.{RESET}")
+    return 0 if fixed_entries or ambiguous_entries else 0
+
+
 def main():
     parser = argparse.ArgumentParser(description="Siebenwind Repair Tool 2.0")
     parser.add_argument("--path", default=str(WIKI_DIR), help="Zielverzeichnis")
     parser.add_argument("--auto", action="store_true", help="Auto-Repair ohne Nachfrage")
     parser.add_argument("--full", action="store_true", help="Voller Durchlauf (1-3) ohne Nachfrage")
     parser.add_argument("--check-collision", help="Prüft, ob ein Dateiname bereits existiert")
+    parser.add_argument("--fix-roamlinks", action="store_true", help="Aggressive repair path for unresolved Pages / Roamlinks targets")
+    parser.add_argument("--dry-run", action="store_true", help="Preview changes without writing files")
     args = parser.parse_args()
     
     target_dir = Path(args.path)
@@ -394,6 +540,9 @@ def main():
         else:
             print(f"{GREEN}Keine Kollision. Name ist frei.{RESET}")
             sys.exit(0)
+
+    if args.fix_roamlinks:
+        sys.exit(repair_roamlinks(auto=args.auto, dry_run=args.dry_run))
 
     # Normal Mode
     files = list(target_dir.rglob("*.md"))

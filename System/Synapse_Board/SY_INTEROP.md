@@ -43,10 +43,43 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
   - `method_only:` (nur Prozessbeschreibung)
   - optional `method_hints_non_runtime:` (Host-Tooling/Hilfsmethoden, klar als nicht-runtime markiert)
 - `method_hints_non_runtime` darf **niemals** als Ersatz fuer `runtime_commands` verwendet werden.
+- Workflow-Bridges fuer Codex werden zusaetzlich ueber Metadaten im `Interop-Status` erzeugt; diese duerfen Runtime-Semantik nicht eigenmaechtig ueberschreiben.
 
 ## Norm 3: Command Registry (Single Source)
 Die operative Kommandoliste lautet aktuell:
-- `advisor`, `antigravity`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `leitpunkt`, `mail`, `pages`, `repair`, `sanitize`, `score`, `scout`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
+
+<!-- BEGIN GENERATED RUNTIME COMMAND LIST -->
+- `search`
+- `start`
+- `test`
+- `takeover`
+- `handover`
+- `historian`
+- `repair`
+- `audit`
+- `index`
+- `index-pages`
+- `pages`
+- `advisor`
+- `inquisition`
+- `sanitize`
+- `lint`
+- `score`
+- `ingest`
+- `translate`
+- `watch`
+- `check`
+- `archive`
+- `mail`
+- `scout`
+- `tech`
+- `version`
+- `antigravity`
+- `leitpunkt`
+- `stats`
+- `mcp`
+<!-- END GENERATED RUNTIME COMMAND LIST -->
+
 
 Bei CLI-Aenderungen muss diese Liste in derselben Session synchronisiert werden.
 
@@ -59,6 +92,14 @@ Fuer Agent-zu-Agent Arbeit ist `SY_DISPATCH` verbindlich:
 - `to_agent: ALL` gilt als Broadcast.
 - Bei parallelen Board-Edits gilt ein Settle-Window von 30 Sekunden vor erneuter Statusmutation.
 - Das Settle-Window ist zentral konfigurierbar ueber `.agent/config/runtime.json`.
+
+## Norm 4b: Pages-Integrity-Policy
+- Publizierte Site-Integritaet wird ueber `./7w_wiki.py pages validate --json` und `./7w_wiki.py audit --pages` sichtbar gemacht.
+- Default-Semantik: unresolved interne Roamlinks-Ziele sind `WARN`, kein harter FAIL.
+- Harter Gate-Modus ist explizit: `./7w_wiki.py pages validate --json --strict-links`.
+- Erwartete Ausnahmen duerfen nur in `.agent/config/pages_link_policy.json` gepflegt werden.
+- Jede Ausnahme braucht `target`, `status`, `reason`, `owner`, `review_until`.
+- Laufzeit-Snapshot fuer Agenten/Advisor: `.agent/data/pages_health.json`.
 
 ## Norm 5: Artefakt-Referenzen
 Workflows duerfen nur auf Artefakte verweisen, die entweder:
@@ -83,6 +124,13 @@ Nicht existente, aber als Pflicht benannte Dateien sind als **interop blocker** 
 - Alle operativen Skripte, Helper und Automatisierungen **muessen** im zentralen Verzeichnis `.agent/scripts/` abgelegt werden.
 - Die Anlage kompetitiver Verzeichnisse (z.B. `Scripts/`, `bin/`) im Wurzelverzeichnis ist untersagt.
 - Veraltete Skripte sind nach `.agent/scripts/_archive/` zu verschieben, nicht zu loeschen.
+- Sonderfall `scout`: Die Discovery-Prominenz ist eine bewusste Produktentscheidung, aber der Backend-Pfad bleibt trotzdem `.agent/scripts/forum_scanner.py`.
+
+## Norm 9: Codex-Workflow-Bridges
+- Codex bekommt keine repo-definierten Slash-Kommandos.
+- Stattdessen werden ausgewaehlte Workflows als duenne Wrapper in `.agents/skills/` gespiegelt.
+- Diese Wrapper muessen auf `.agent/workflows/...` verweisen und duerfen Runtime-Ausfuehrung nur ueber `./7w_wiki.py` beschreiben.
+- `/scout` bleibt der promoted Umbrella-Einstieg; `/forum_search` ist der spezialisierte, forum-fokussierte Arbeitsweg.
 
 ## Compliance-Checks
 Bei jedem groesseren Update:
@@ -90,9 +138,11 @@ Bei jedem groesseren Update:
 2. Abgleich Workflow-Kommandos gegen `7w_wiki.py`.
 3. Dispatch-Queue auf offene Direktiven pruefen.
 4. Interop-Testlauf ausfuehren (`./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-doc-links`, optional RAG-Diagnose nur explizit via `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`).
-5. Bridge-Guard pruefen (`./7w_wiki.py test --suite bridge-placeholder-guard`).
-6. Reader-Stats-Guard pruefen (`./7w_wiki.py test --suite reader-stats-contract`).
-7. Changelog-Eintrag mit Interop-Delta erstellen.
+5. Pages-Contract pruefen (`./7w_wiki.py test --suite pages-link-contract`).
+6. Bridge-Guard pruefen (`./7w_wiki.py test --suite bridge-placeholder-guard`).
+7. Codex-Workflow-Bridge-Guard pruefen (`./7w_wiki.py test --suite codex-workflow-bridges`).
+8. Reader-Stats-Guard pruefen (`./7w_wiki.py test --suite reader-stats-contract`).
+9. Changelog-Eintrag mit Interop-Delta erstellen.
 
 ## Beschluss
 Diese Norm gilt ab sofort fuer alle neuen und ueberarbeiteten Antigravity-Artefakte.

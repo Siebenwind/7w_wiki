@@ -12,7 +12,9 @@ import re
 import json
 import argparse
 import subprocess
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from pages_integrity import load_pages_health_snapshot
 
 # --- Configuration ---
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -21,6 +23,14 @@ CHANGELOG = PROJECT_ROOT / "CHANGELOG.md"
 INVENTUR_QUELLEN = PROJECT_ROOT / "Logs" / "INVENTUR_QUELLEN.md"
 REGISTER_CHECK_SCRIPT = PROJECT_ROOT / ".agent" / "scripts" / "register_check.py"
 DISPATCH_DIR = PROJECT_ROOT / "System" / "Synapse_Board" / "DISPATCH"
+TECH_SYNC_FILES = [
+    PROJECT_ROOT / "AGENTS.md",
+    PROJECT_ROOT / "System" / "Synapse_Board" / "SY_INTEROP.md",
+    PROJECT_ROOT / "System" / "AGENT_OPERATIONS_HANDBOOK.md",
+    PROJECT_ROOT / "System" / "Synapse_Board" / "SY_WORKFLOW_CLI_MATRIX.md",
+    PROJECT_ROOT / ".agent" / "config" / "tools.json",
+]
+PAGES_STALE_DAYS = 7
 
 # ANSI Colors
 RED = "\033[91m"
@@ -126,6 +136,46 @@ def parse_frontmatter(raw: str) -> dict:
         meta[k.strip()] = v.strip()
     return meta
 
+
+def read_pages_health() -> dict:
+    snapshot = load_pages_health_snapshot()
+    if not snapshot:
+        return {
+            "status": "UNKNOWN",
+            "unresolved_total": 0,
+            "unallowlisted_total": 0,
+            "last_validated_at": None,
+            "stale": True,
+        }
+    pages = snapshot.get("pages_health", {})
+    last_validated_at = pages.get("last_validated_at") or snapshot.get("generated_at")
+    stale = True
+    if last_validated_at:
+        try:
+            parsed = datetime.fromisoformat(last_validated_at.replace("Z", "+00:00"))
+            stale = parsed < (datetime.now(timezone.utc) - timedelta(days=PAGES_STALE_DAYS))
+        except ValueError:
+            stale = True
+
+    return {
+        "status": pages.get("status", snapshot.get("status", "UNKNOWN")),
+        "unresolved_total": int(pages.get("unresolved_total", 0)),
+        "unallowlisted_total": int(pages.get("unallowlisted_total", 0)),
+        "last_validated_at": last_validated_at,
+        "stale": stale,
+    }
+
+
+def get_last_sync_interop_at() -> str | None:
+    mtimes = []
+    for path in TECH_SYNC_FILES:
+        if path.exists():
+            mtimes.append(path.stat().st_mtime)
+    if not mtimes:
+        return None
+    latest = max(mtimes)
+    return datetime.fromtimestamp(latest, tz=timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
 def get_dispatch_status():
     """Liest den Dispatch-Queue-Status aus System/Synapse_Board/DISPATCH."""
     counts = {"OPEN": 0, "CLAIMED": 0, "DONE": 0, "OTHER": 0}
@@ -189,7 +239,27 @@ def check_consistency():
     except Exception:
         return -1
 
-def recommend_action(phase, task, pending_sources, issues, dispatch_counts, top_dispatch):
+def build_recommendations(phase, task, pending_sources, issues, dispatch_counts, top_dispatch, pages_health):
+    recommendations: list[str] = []
+    if issues > 0:
+        recommendations.append(f"Run ./7w_wiki.py repair ({issues} consistency issues).")
+    if pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}:
+        recommendations.append("Route to /tech_master and run ./7w_wiki.py pages validate --strict.")
+    if pages_health["unresolved_total"] >= 10:
+        recommendations.append("Use ./7w_wiki.py repair --fix-roamlinks --auto for concentrated Pages-link drift.")
+    open_dispatch = dispatch_counts.get("OPEN", 0)
+    if open_dispatch > 0:
+        recommendations.append("Review ./7w_wiki.py mail inbox --status OPEN before starting new work.")
+    if pending_sources > 50:
+        recommendations.append("Large source backlog detected; prioritize /ingest_master.")
+    elif task:
+        recommendations.append(f"Continue current focus: {task}")
+    else:
+        recommendations.append("No immediate blocker detected; refresh stats or ask for the next task.")
+    return recommendations
+
+
+def recommend_action(phase, task, pending_sources, issues, dispatch_counts, top_dispatch, pages_health):
     """Entscheidungslogik für die Empfehlung."""
     print(f"{BOLD}--- Empfehlung ---{RESET}")
     
@@ -197,6 +267,19 @@ def recommend_action(phase, task, pending_sources, issues, dispatch_counts, top_
         print(f"{RED}⚠️  Priorität: Konsistenz wiederherstellen ({issues} Probleme).{RESET}")
         print(f"👉 Starte Workflow: {BOLD}./7w_wiki.py repair{RESET}")
         print(f"   (Alternativ: /audit Bericht lesen)")
+        if pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}:
+            print(f"👉 Danach /tech_master: {BOLD}./7w_wiki.py pages validate --strict{RESET}")
+        return
+
+    if pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}:
+        print(f"{YELLOW}🛠️  Pages Health: {pages_health['status']}{RESET}")
+        if pages_health["stale"]:
+            print(f"👉 Pages snapshot ist veraltet. Route zu {BOLD}/tech_master{RESET}")
+        else:
+            print(f"👉 Starte Workflow: {BOLD}/tech_master{RESET}")
+        print(f"   Validation: {BOLD}./7w_wiki.py pages validate --strict{RESET}")
+        if pages_health["unresolved_total"] >= 10:
+            print(f"   Link-Reparatur: {BOLD}./7w_wiki.py repair --fix-roamlinks --auto{RESET}")
         return
 
     open_dispatch = dispatch_counts.get("OPEN", 0)
@@ -219,7 +302,7 @@ def recommend_action(phase, task, pending_sources, issues, dispatch_counts, top_
         print(f"👉 Nächste Aufgabe: {task}")
         # Detect if task implies specific workflow
         if "Bote" in task or "Source" in task:
-            print(f"   Empfohlener Workflow: {BOLD}/wiki_process{RESET} oder {BOLD}/ingestion_protocol{RESET}")
+            print(f"   Empfohlener Workflow: {BOLD}/ingest_master{RESET}")
         return
 
     print(f"{GREEN}🎉 Nichts zu tun!{RESET}")
@@ -234,6 +317,9 @@ def collect_advisor_data():
     pending = get_pending_sources_count()
     dispatch_counts, top_dispatch = get_dispatch_status()
     issues = check_consistency()
+    pages_health = read_pages_health()
+    recommendations = build_recommendations(phase, next_task, pending, issues, dispatch_counts, top_dispatch, pages_health)
+    degraded = issues != 0 or pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}
 
     return {
         "priorities": prio_counts,
@@ -247,9 +333,13 @@ def collect_advisor_data():
             "top_open": top_dispatch
         },
         "consistency_issues": issues,
-        "status": "OK" if issues == 0 else "DEGRADED",
-        "system_health": "Sauber" if issues == 0 else f"{issues} Probleme",
-        "recommendations": [] # Will be populated if needed, keeping empty for contract
+        "pages_health": pages_health,
+        "tech_hygiene": {
+            "last_sync_interop_at": get_last_sync_interop_at(),
+        },
+        "status": "OK" if not degraded else "DEGRADED",
+        "system_health": "Sauber" if not degraded else f"{issues} Konsistenzprobleme / Pages {pages_health['status']}",
+        "recommendations": recommendations,
     }
 
 def main():
@@ -321,9 +411,21 @@ def main():
         print(f"{GREEN}Sauber (0 Issues){RESET}")
     else:
         print(f"{RED}{issues} Probleme gefunden{RESET}")
+
+    pages_health = data["pages_health"]
+    pages_color = GREEN if pages_health["status"] == "PASS" and not pages_health["stale"] else YELLOW
+    print(
+        f"  🌐 Pages Health:      {pages_color}{pages_health['status']}{RESET} | "
+        f"unresolved {pages_health['unresolved_total']} | "
+        f"unallowlisted {pages_health['unallowlisted_total']}"
+    )
+    print(
+        "  ⚙️  Tech Sync:        "
+        f"{BLUE}{data['tech_hygiene']['last_sync_interop_at'] or 'unbekannt'}{RESET}"
+    )
         
     print("")
-    recommend_action(phase, next_task, pending, issues, dispatch_counts, top_dispatch)
+    recommend_action(phase, next_task, pending, issues, dispatch_counts, top_dispatch, pages_health)
     print("")
 
 if __name__ == "__main__":

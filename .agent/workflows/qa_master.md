@@ -9,9 +9,12 @@ Dieses Department überwacht die Integrität des Wikis, bannt "Link-Dämonen" un
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py audit`
+  - `7w_wiki.py audit --pages`
   - `7w_wiki.py repair [--full]`
+  - `7w_wiki.py repair --fix-roamlinks [--auto] [--dry-run]`
   - `7w_wiki.py sanitize --auto`
   - `7w_wiki.py test --suite clean-client-state`
+  - `7w_wiki.py test --suite pages-link-contract`
   - `7w_wiki.py stats`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py mail post --from Guardian --to <agent|ALL> --subject "<text>" --body "<text>"`
@@ -24,6 +27,10 @@ Das Audit ist der Ausgangspunkt der QA.
 1. Führe das globale Audit aus:
    ```bash
    ./7w_wiki.py audit
+   ```
+   Wenn das Problem auf der Webseite sichtbar ist, immer zusätzlich:
+   ```bash
+   ./7w_wiki.py audit --pages
    ```
 2. Analysiere die Ausgabe. Identifiziere:
    - Duplikate im Register.
@@ -61,6 +68,7 @@ Wenn ein Link auf eine nicht (mehr) existierende Seite zeigt:
    - `bridge_target: [[Kanonisches_Ziel]]`
    - `bridge_ticket: MSG-YYYY-NNNN`
    - `bridge_review_until: YYYY-MM-DD`
+4. **Pages-/Roamlinks-Reparatur:** Wenn Links im publizierten `docs/` Build brechen, nutze `./7w_wiki.py repair --fix-roamlinks --auto` fuer aggressive, aber begrenzte Korrekturen auf exakte/casing/alias/high-confidence Single-Candidate Matches.
 
 ## 3. Community Review (Contrib Audit)
 Wenn User oder externe Systeme Inhalte einreichen (z.B. PRs):
@@ -74,6 +82,7 @@ Wenn User oder externe Systeme Inhalte einreichen (z.B. PRs):
 ## 4. Abschluss & Dokumentation
 1. Führe `./7w_wiki.py audit` erneut aus. Ziel: `✅ Keine Duplikate`, `✅ Alle Profile registriert`.
 2. Führe `./7w_wiki.py test --suite bridge-placeholder-guard` aus.
-3. Führe `./7w_wiki.py stats` aus, um die Dashboard-Metriken zu erneuern.
-4. Mache einen präzisen Git-Commit (z.B. `fix(lore): resolved 5 orphan links and deductive deduplication`).
-5. Schließe offene QA-Tickets via Dispatch (`mail done`).
+3. Führe `./7w_wiki.py test --suite pages-link-contract` aus.
+4. Führe `./7w_wiki.py stats` aus, um die Dashboard-Metriken zu erneuern.
+5. Mache einen präzisen Git-Commit (z.B. `fix(lore): resolved 5 orphan links and deductive deduplication`).
+6. Schließe offene QA-Tickets via Dispatch (`mail done`).

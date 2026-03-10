@@ -14,6 +14,7 @@ venv/
 .agent/data/models/
 .agent/data/chroma_db/
 .agent/data/oracle_venv/
+.agent/data/pages_health.json
 .agent/skills/oracle/config.json
 .agent/skills/oracle/venv/
 

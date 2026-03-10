@@ -5,6 +5,7 @@ import argparse
 import os
 import re
 import json
+import shlex
 from pathlib import Path
 
 """
@@ -40,22 +41,286 @@ YELLOW = "\033[93m"
 GREEN = "\033[92m"
 RESET = "\033[0m"
 
+COMMAND_METADATA = {
+    "search": {
+        "summary": "Semantic RAG search (Oracle) across wiki and source corpus.",
+        "context": ".agent/skills/oracle/search.py",
+        "json_capable": True,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "start": {
+        "summary": "Show or run the onboarding workflow.",
+        "context": ".agent/workflows/start.md",
+        "json_capable": False,
+        "supports_run_mode": True,
+        "interactive_default": False,
+    },
+    "test": {
+        "summary": "Run interoperability and clean-state test suites.",
+        "context": ".agent/scripts/test_runner.py",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "takeover": {
+        "summary": "Show or run the takeover workflow.",
+        "context": ".agent/workflows/takeover.md",
+        "json_capable": False,
+        "supports_run_mode": True,
+        "interactive_default": False,
+    },
+    "handover": {
+        "summary": "Show or run the handover workflow.",
+        "context": ".agent/workflows/handover.md",
+        "json_capable": False,
+        "supports_run_mode": True,
+        "interactive_default": False,
+    },
+    "historian": {
+        "summary": "Deep lore analysis workflow or direct topic run.",
+        "context": ".agent/workflows/historian.md",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "repair": {
+        "summary": "Interactive or automatic repair of audit findings, including Pages / Roamlinks fixes.",
+        "context": ".agent/scripts/repair.py",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": True,
+    },
+    "audit": {
+        "summary": "Run consistency audit for duplicates, broken links, and orphaned content.",
+        "context": ".agent/scripts/register_check.py",
+        "json_capable": True,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "index": {
+        "summary": "Manage the semantic search index.",
+        "context": ".agent/skills/oracle/build_index.py",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "index-pages": {
+        "summary": "Generate category index pages for the wiki.",
+        "context": ".agent/scripts/generate_wiki_indices.py",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "pages": {
+        "summary": "Build or validate GitHub Pages documentation and site-integrity health.",
+        "context": ".agent/scripts/pages_tool.py",
+        "json_capable": True,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "advisor": {
+        "summary": "Show system status and recommended next actions.",
+        "context": "System/Advisor",
+        "json_capable": True,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "inquisition": {
+        "summary": "Run batch ingestion of legacy sources.",
+        "context": ".agent/scripts/inquisition.py",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "sanitize": {
+        "summary": "Normalize structure, H1 usage, and frontmatter.",
+        "context": ".agent/scripts/wiki_sanitizer.py",
+        "json_capable": True,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "lint": {
+        "summary": "Run the combined lint pipeline.",
+        "context": ".agent/scripts/lint_tool.py",
+        "json_capable": True,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "score": {
+        "summary": "Calculate Lore Quality Score for one markdown file.",
+        "context": ".agent/scripts/lore_score_manager.py",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "ingest": {
+        "summary": "Run the ingest pipeline for one file.",
+        "context": ".agent/scripts/ingest_pipeline.py",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "translate": {
+        "summary": "Translate Falandric texts or manage dictionaries.",
+        "context": ".agent/scripts/translator.py",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "watch": {
+        "summary": "Start the live watcher for index updates.",
+        "context": ".agent/scripts/watcher.py",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": True,
+    },
+    "check": {
+        "summary": "Run style and grammar checks.",
+        "context": ".agent/skills/lektor/style_checker.py",
+        "json_capable": True,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "archive": {
+        "summary": "Manage archive symlinks, rotation, and unpack operations.",
+        "context": "docs/Archiv",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "mail": {
+        "summary": "Interact with the dispatch system using structured subcommands.",
+        "context": "System/Synapse_Board/SY_DISPATCH.md",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "scout": {
+        "summary": "Promoted discovery entrypoint for external source scanning.",
+        "context": ".agent/scripts/forum_scanner.py",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "stats": {
+        "summary": "Generate reader-facing stats and machine snapshots.",
+        "context": ".agent/scripts/generate_wiki_stats.py",
+        "json_capable": True,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "tech": {
+        "summary": "Show the technician workflow or run interop maintenance helpers.",
+        "context": ".agent/workflows/tech_master.md",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "version": {
+        "summary": "Show or bump the wiki standard version.",
+        "context": ".agent/scripts/version_manager.py",
+        "json_capable": True,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "antigravity": {
+        "summary": "Show the core default workflow hub.",
+        "context": ".agent/workflows/antigravity.md",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "leitpunkt": {
+        "summary": "Manage the human maintainer standpoint workflow.",
+        "context": ".agent/scripts/leitpunkt_tool.py",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
+    "mcp": {
+        "summary": "Start the MCP server for structured agent access.",
+        "context": "System/MCP/server.py",
+        "json_capable": False,
+        "supports_run_mode": False,
+        "interactive_default": True,
+    },
+}
+
+def get_oracle_python():
+    skill_root = Path(__file__).resolve().parent / ".agent" / "skills" / "oracle" / "venv"
+    candidates = [
+        skill_root / "Scripts" / "python.exe",
+        skill_root / "bin" / "python3",
+        skill_root / "bin" / "python",
+    ]
+    for candidate in candidates:
+        if candidate.exists():
+            return str(candidate)
+    return sys.executable
+
+def infer_action_type(action):
+    if isinstance(action, argparse._StoreTrueAction):
+        return "boolean"
+    if getattr(action, "type", None) is int:
+        return "integer"
+    return "string"
+
+def infer_action_kind(action):
+    if action.option_strings:
+        if isinstance(action, argparse._StoreTrueAction):
+            return "flag"
+        return "option"
+    return "positional"
+
+def serialize_action(action):
+    data = {
+        "name": action.dest,
+        "flags": action.option_strings,
+        "help": action.help or "",
+        "required": getattr(action, "required", False),
+        "type": infer_action_type(action),
+        "kind": infer_action_kind(action),
+    }
+    if getattr(action, "choices", None):
+        data["choices"] = list(action.choices)
+    default = getattr(action, "default", argparse.SUPPRESS)
+    if default is not argparse.SUPPRESS and default is not None:
+        data["default"] = default
+    if getattr(action, "nargs", None) not in (None, 1):
+        data["nargs"] = "REMAINDER" if action.nargs == argparse.REMAINDER else action.nargs
+    return data
+
+def serialize_parser_node(name, parser_obj):
+    node = {
+        "name": name,
+        "description": parser_obj.description or parser_obj.format_usage().strip(),
+        "arguments": [],
+    }
+    for action in parser_obj._actions:
+        if action.dest == "help":
+            continue
+        if isinstance(action, argparse._SubParsersAction):
+            node["subcommands"] = [
+                serialize_parser_node(sub_name, sub_parser)
+                for sub_name, sub_parser in action.choices.items()
+            ]
+            continue
+        node["arguments"].append(serialize_action(action))
+    return node
+
 def run_script(path, args=[]):
     script_path = os.path.join(os.path.dirname(__file__), path)
     
     # Use venv for oracle scripts if available
     executable = sys.executable
     if "oracle" in path:
-        venv_python = os.path.join(os.path.dirname(__file__), ".agent/skills/oracle/venv/bin/python3")
-        if os.path.exists(venv_python):
-            executable = venv_python
+        executable = get_oracle_python()
             
     cmd = [executable, script_path] + args
-    try:
-        subprocess.run(cmd, check=True)
-    except subprocess.CalledProcessError as e:
-        print(f"Error executing {path}: {e}", file=sys.stderr)
-        sys.exit(1)
+    result = subprocess.run(cmd, check=False)
+    if result.returncode != 0:
+        sys.exit(result.returncode)
 
 def view_workflow(name):
     path = os.path.join(os.path.dirname(__file__), f".agent/workflows/{name}.md")
@@ -271,10 +536,13 @@ def main():
     repair_parser = subparsers.add_parser("repair", help="Interactive repair of links and metadata")
     repair_parser.add_argument("--auto", action="store_true", help="Run non-interactive auto-repair")
     repair_parser.add_argument("--full", action="store_true", help="Run full non-interactive repair cycle (1-3)")
+    repair_parser.add_argument("--fix-roamlinks", action="store_true", help="Aggressively repair unresolved Pages / Roamlinks targets")
+    repair_parser.add_argument("--dry-run", action="store_true", help="Preview repair changes without writing files")
 
 
     audit_parser = subparsers.add_parser("audit", help="Run consistency audit (duplicates, orphans)")
     audit_parser.add_argument("--json", action="store_true", help="Output raw JSON")
+    audit_parser.add_argument("--pages", action="store_true", help="Include Pages / Roamlinks integrity diagnostics")
 
     # Index
     index_parser = subparsers.add_parser("index", help="Manage semantic index")
@@ -294,12 +562,15 @@ def main():
     pages_build.add_argument("--config", default="mkdocs.yml", help="Path to mkdocs config (default: mkdocs.yml)")
     pages_validate = pages_sub.add_parser("validate", help="Run docs link suite, audit, and pages build")
     pages_validate.add_argument("--strict", action="store_true", help="Enable strict mode for mkdocs build")
+    pages_validate.add_argument("--strict-links", action="store_true", help="Fail if non-allowlisted unresolved internal links remain")
     pages_validate.add_argument("--no-clean", action="store_true", help="Skip mkdocs --clean")
     pages_validate.add_argument("--skip-link-suite", action="store_true", help="Skip test --suite interop-doc-links")
     pages_validate.add_argument("--skip-source-hygiene", action="store_true", help="Skip test --suite source-link-hygiene")
     pages_validate.add_argument("--skip-process-governance", action="store_true", help="Skip test --suite process-dispatch-curiosity")
     pages_validate.add_argument("--skip-reader-stats-contract", action="store_true", help="Skip test --suite reader-stats-contract")
     pages_validate.add_argument("--skip-audit", action="store_true", help="Skip audit")
+    pages_validate.add_argument("--include-pages-audit", action="store_true", help="Run audit --pages during validation")
+    pages_validate.add_argument("--json", action="store_true", help="Output machine-readable validation report")
     pages_validate.add_argument("--config", default="mkdocs.yml", help="Path to mkdocs config (default: mkdocs.yml)")
 
     # Advisor (Default)
@@ -354,7 +625,28 @@ def main():
     unpack_parser.add_argument("archive_name", help="Name of archive to unpack")
     # Agent Messaging (Dispatch)
     mail_parser = subparsers.add_parser("mail", help="Agent Messaging (Dispatch)")
-    mail_parser.add_argument("mail_args", nargs=argparse.REMAINDER, help="Arguments for agent_mail.py")
+    mail_sub = mail_parser.add_subparsers(dest="mail_cmd")
+    mail_post = mail_sub.add_parser("post", help="Create new message")
+    mail_post.add_argument("--from", dest="from_agent", required=True)
+    mail_post.add_argument("--to", dest="to_agent", required=True)
+    mail_post.add_argument("--subject", required=True)
+    mail_post.add_argument("--body", required=True)
+    mail_post.add_argument("--report-path")
+    mail_post.add_argument("--priority", default="NORMAL", choices=["LOW", "NORMAL", "HIGH"])
+    mail_inbox = mail_sub.add_parser("inbox", help="List messages")
+    mail_inbox.add_argument("--agent")
+    mail_inbox.add_argument("--status", choices=["OPEN", "CLAIMED", "DONE"], type=str.upper)
+    mail_inbox.add_argument("--json", action="store_true", help="Output raw JSON")
+    mail_read = mail_sub.add_parser("read", help="Read a message")
+    mail_read.add_argument("id")
+    mail_claim = mail_sub.add_parser("claim", help="Claim a message")
+    mail_claim.add_argument("id")
+    mail_claim.add_argument("--agent", required=True)
+    mail_claim.add_argument("--force", action="store_true", help="Force claim from another agent")
+    mail_done = mail_sub.add_parser("done", help="Mark message as done")
+    mail_done.add_argument("id")
+    mail_done.add_argument("--agent", required=True)
+    mail_done.add_argument("--note")
 
     # Scout (Forum Crawler)
     scout_parser = subparsers.add_parser("scout", help="Deep Scan of external forums (Bekanntmachungen/News)")
@@ -365,6 +657,10 @@ def main():
     tech_parser = subparsers.add_parser("tech", help="Show Technician workflow (DevOps & Infrastructure)")
     tech_parser.add_argument("--manifest", action="store_true", help="Generate OpenAPI tools.json from CLI context")
     tech_parser.add_argument("--compile-skills", action="store_true", help="Compile SKILL.md.tpl with variables from lore_manifest")
+    tech_parser.add_argument("--sync-matrix", action="store_true", help="Regenerate the workflow interop matrix")
+    tech_parser.add_argument("--sync-bridges", action="store_true", help="Regenerate external bridge skills")
+    tech_parser.add_argument("--sync-docs", action="store_true", help="Sync runtime governance docs from the CLI contract")
+    tech_parser.add_argument("--sync-interop", action="store_true", help="Run matrix, doc, bridge, and manifest sync")
 
     # Version Management
     ver_parser = subparsers.add_parser("version", help="Show or bump the wiki standard version")
@@ -402,26 +698,15 @@ def main():
             "description": parser.description,
             "commands": []
         }
-        # subparsers.choices is a dict mapping cmd_name -> subparser
         if subparsers and hasattr(subparsers, 'choices'):
             for cmd_name, subp in subparsers.choices.items():
-                cmd_data = {
-                    "name": cmd_name,
-                    "description": subp.description or "",
-                    "arguments": []
-                }
-                for action in subp._actions:
-                    if action.dest == "help":
-                        continue
-                    arg_data = {
-                        "name": action.dest,
-                        "flags": action.option_strings,
-                        "help": action.help or "",
-                        "required": action.required
-                    }
-                    if action.choices:
-                        arg_data["choices"] = list(action.choices)
-                    cmd_data["arguments"].append(arg_data)
+                cmd_data = serialize_parser_node(cmd_name, subp)
+                metadata = COMMAND_METADATA.get(cmd_name, {})
+                cmd_data["summary"] = metadata.get("summary", "")
+                cmd_data["context"] = metadata.get("context", "")
+                cmd_data["json_capable"] = metadata.get("json_capable", False)
+                cmd_data["supports_run_mode"] = metadata.get("supports_run_mode", False)
+                cmd_data["interactive_default"] = metadata.get("interactive_default", False)
                 schema["commands"].append(cmd_data)
         
         print(json.dumps(schema, indent=2))
@@ -508,12 +793,18 @@ def main():
             repair_args.append("--auto")
         if args.full:
             repair_args.append("--full")
+        if args.fix_roamlinks:
+            repair_args.append("--fix-roamlinks")
+        if args.dry_run:
+            repair_args.append("--dry-run")
         run_script(".agent/scripts/repair.py", repair_args)
 
     elif args.command == "audit":
         audit_args = []
         if args.json:
             audit_args.append("--json")
+        if args.pages:
+            audit_args.append("--pages")
         run_script(".agent/scripts/register_check.py", audit_args)
 
     elif args.command == "index":
@@ -547,6 +838,12 @@ def main():
             page_args.append("--skip-reader-stats-contract")
         if hasattr(args, "skip_audit") and args.skip_audit:
             page_args.append("--skip-audit")
+        if hasattr(args, "strict_links") and args.strict_links:
+            page_args.append("--strict-links")
+        if hasattr(args, "include_pages_audit") and args.include_pages_audit:
+            page_args.append("--include-pages-audit")
+        if hasattr(args, "json") and args.json:
+            page_args.append("--json")
         if hasattr(args, "config") and args.config:
             page_args.extend(["--config", args.config])
         run_script(".agent/scripts/pages_tool.py", page_args)
@@ -629,16 +926,57 @@ def main():
 
     elif args.command == "scout":
         forum_map = {"bekanntmachungen": "6", "news": "1"}
-        run_script("Scripts/forum_scanner.py", ["--forum_id", forum_map[args.forum], "--pages", str(args.pages)])
+        run_script(".agent/scripts/forum_scanner.py", ["--forum_id", forum_map[args.forum], "--pages", str(args.pages)])
 
     elif args.command == "mail":
-        if not args.mail_args:
+        if not getattr(args, "mail_cmd", None):
             print("Usage: ./7w_wiki.py mail <post|inbox|read|claim|done> [args]")
             sys.exit(1)
-        run_script(".agent/scripts/agent_mail.py", args.mail_args)
+        mail_args = [args.mail_cmd]
+        if args.mail_cmd == "post":
+            mail_args.extend(["--from", args.from_agent, "--to", args.to_agent, "--subject", args.subject, "--body", args.body])
+            if args.report_path:
+                mail_args.extend(["--report-path", args.report_path])
+            if args.priority:
+                mail_args.extend(["--priority", args.priority])
+        elif args.mail_cmd == "inbox":
+            if args.agent:
+                mail_args.extend(["--agent", args.agent])
+            if args.status:
+                mail_args.extend(["--status", args.status])
+            if getattr(args, "json", False):
+                mail_args.append("--json")
+        elif args.mail_cmd == "read":
+            mail_args.append(args.id)
+        elif args.mail_cmd == "claim":
+            mail_args.extend([args.id, "--agent", args.agent])
+            if args.force:
+                mail_args.append("--force")
+        elif args.mail_cmd == "done":
+            mail_args.extend([args.id, "--agent", args.agent])
+            if args.note:
+                mail_args.extend(["--note", args.note])
+        run_script(".agent/scripts/agent_mail.py", mail_args)
 
     elif args.command == "tech":
-        if getattr(args, "manifest", False):
+        if getattr(args, "sync_interop", False):
+            print(f"🔧 {BOLD}Synchronizing interop surfaces...{RESET}")
+            run_script(".agent/scripts/update_matrix.py")
+            run_script(".agent/scripts/sync_runtime_docs.py")
+            run_script(".agent/scripts/generate_agent_bridges.py")
+            run_script(".agent/scripts/generate_workflow_bridges.py")
+            run_script(".agent/scripts/generate_tools_manifest.py")
+        elif getattr(args, "sync_matrix", False):
+            print(f"🔧 {BOLD}Regenerating workflow matrix...{RESET}")
+            run_script(".agent/scripts/update_matrix.py")
+        elif getattr(args, "sync_docs", False):
+            print(f"🔧 {BOLD}Syncing runtime docs...{RESET}")
+            run_script(".agent/scripts/sync_runtime_docs.py")
+        elif getattr(args, "sync_bridges", False):
+            print(f"🔧 {BOLD}Regenerating bridge skills...{RESET}")
+            run_script(".agent/scripts/generate_agent_bridges.py")
+            run_script(".agent/scripts/generate_workflow_bridges.py")
+        elif getattr(args, "manifest", False):
             print(f"🔧 {BOLD}Regenerating tools.json manifest...{RESET}")
             run_script(".agent/scripts/generate_tools_manifest.py")
         elif getattr(args, "compile_skills", False):
@@ -646,7 +984,7 @@ def main():
             run_script(".agent/scripts/compile_skills.py")
         else:
             print(f"🔧 {BOLD}Workflow: /tech{RESET}")
-            view_workflow("tech")
+            view_workflow("tech_master")
 
     elif args.command == "version":
         ver_args = []

@@ -13,7 +13,7 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 
 1. Runtime Authority: Ausfuehrung nur ueber `./7w_wiki.py`.
 2. Orchestrierung bleibt in `.agent/` autoritativ.
-3. Discoverability fuer Codex/Jules ueber `.agents/skills/` als duenne Wrapper.
+3. Discoverability fuer Codex/Jules ueber `.agents/skills/` als duenne Wrapper; Workflow-Bridges und Skill-Bridges teilen sich dieselbe externe Flaeche.
 4. Governance-Dokumente bleiben in `System/` und `System/Synapse_Board/`.
 5. Neue Systemdokumente muessen in `System/COORDINATION_HUB.md` registriert werden.
 
@@ -26,7 +26,7 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 | `.agent/instructions/` | Persona- und Rollenlogik | Ja |
 | `.agent/scripts/` | Implementierte Backing-Skripte hinter CLI-Kommandos | Ja |
 | `.agent/skills/` | Fachlogik (z. B. Oracle, Lektor) | Ja |
-| `.agents/skills/` | Interop-Wrapper fuer externe Agenten | Bruecke |
+| `.agents/skills/` | Interop-Wrapper fuer externe Agenten (Skills + Workflow-Bridges) | Bruecke |
 | `System/Synapse_Board/` | Governance, Interop-Normen, Dispatch-Standards | Ja |
 | `docs/` | GitHub-Pages-Ausspielung | Publishing |
 
@@ -38,10 +38,41 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 4. Validieren: Mindestens `./7w_wiki.py audit`, bei Dokuaenderungen auch `check`, `stats`, `archive sync`.
 5. Dokumentieren: `CHANGELOG.md`, Boards, Register- und Doku-Updates.
 
-**Automatisierung**: Markierungen wie `// turbo` sind methodische Host-Hinweise. `7w_wiki.py takeover` und `7w_wiki.py handover` zeigen in der CLI standardmaessig Workflows an, sie fuehren diese Checklisten nicht implizit aus.
+**Automatisierung**: Markierungen wie `// turbo` sind methodische Host-Hinweise. `7w_wiki.py start|takeover|handover` zeigen standardmaessig die Workflows an; erst `--run` startet die jeweilige Checkliste, `--resume` setzt sie fort.
 
 ## Runtime Commands
-- `advisor`, `antigravity`, `archive`, `audit`, `check`, `handover`, `historian`, `index`, `index-pages`, `inquisition`, `leitpunkt`, `mail`, `pages`, `repair`, `sanitize`, `score`, `scout`, `search`, `start`, `stats`, `takeover`, `test`, `translate`, `watch`
+
+<!-- BEGIN GENERATED RUNTIME COMMAND LIST -->
+- `search`
+- `start`
+- `test`
+- `takeover`
+- `handover`
+- `historian`
+- `repair`
+- `audit`
+- `index`
+- `index-pages`
+- `pages`
+- `advisor`
+- `inquisition`
+- `sanitize`
+- `lint`
+- `score`
+- `ingest`
+- `translate`
+- `watch`
+- `check`
+- `archive`
+- `mail`
+- `scout`
+- `tech`
+- `version`
+- `antigravity`
+- `leitpunkt`
+- `stats`
+- `mcp`
+<!-- END GENERATED RUNTIME COMMAND LIST -->
 
 ## Maintainer-Leitpunkt (Menschliche Steuerung)
 
@@ -65,12 +96,17 @@ Verbindlicher Einstieg:
 1. `./7w_wiki.py test --suite clean-client-state`
 2. `./7w_wiki.py test --suite takeover-handover`
 3. `./7w_wiki.py test --suite interop-doc-links`
-4. `./7w_wiki.py test --suite source-link-hygiene`
-5. `./7w_wiki.py test --suite process-dispatch-curiosity`
-6. `./7w_wiki.py test --suite bridge-placeholder-guard`
-7. `./7w_wiki.py test --suite reader-stats-contract`
-8. Optional Gesamtlauf: `./7w_wiki.py test --suite all` (stabiler Standardlauf ohne RAG-Smoke)
-9. Optional Oracle-Diagnose: `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`
+4. `./7w_wiki.py test --suite interop-command-registry`
+5. `./7w_wiki.py test --suite workflow-matrix-contract`
+6. `./7w_wiki.py test --suite codex-workflow-bridges`
+7. `./7w_wiki.py test --suite tool-manifest-contract`
+8. `./7w_wiki.py test --suite pages-link-contract`
+9. `./7w_wiki.py test --suite source-link-hygiene`
+10. `./7w_wiki.py test --suite process-dispatch-curiosity`
+11. `./7w_wiki.py test --suite bridge-placeholder-guard`
+12. `./7w_wiki.py test --suite reader-stats-contract`
+13. Optional Gesamtlauf: `./7w_wiki.py test --suite all` (stabiler Standardlauf ohne RAG-Smoke)
+14. Optional Oracle-Diagnose: `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`
 
 Defect-Regel:
 
@@ -89,6 +125,22 @@ Referenz: `System/Synapse_Board/SY_TESTING.md`
 - `--source all`: Kreuzabgleich beider Ebenen
 
 Regel: Bei relevanten Lore-Entscheidungen immer mindestens `wiki` und `quellen` pruefen; bei Konflikten `all` als Gesamtabgleich.
+
+## Codex-Workflow-Bridges
+
+Codex bekommt workflow-nahe Einstiegspunkte ueber generierte Wrapper in `.agents/skills/`.
+
+Aktuelle Wrapper:
+- `session_start`
+- `session_takeover`
+- `session_handover`
+- `workflow_tech_master`
+- `workflow_test_run`
+- `workflow_forum_search`
+
+Discovery-Split:
+- `/scout` bleibt der breite Discovery-Einstieg.
+- `/forum_search` ist der dedizierte Betriebsweg fuer neue ingestierbare Forenquellen.
 
 ## Dispatch-Betriebsmodell
 
@@ -135,16 +187,28 @@ Verbindlich gemaess `System/Synapse_Board/SY_DISPATCH.md`:
    - `Logs/Archive/STATS_SNAPSHOT_latest.json` (maschinenlesbare Schnittstelle)
 2. Pflicht-Check: `./7w_wiki.py test --suite reader-stats-contract`.
 
+### Pages-Integritaet
+
+1. `./7w_wiki.py pages validate --json` ist die kanonische Site-Integritaetsprobe fuer MkDocs/Roamlinks.
+2. Default: unresolved interne Links erscheinen als `WARN`, nicht als harter FAIL.
+3. Escalation: `./7w_wiki.py pages validate --json --strict-links` failt auf nicht-allowlistete unresolved Targets.
+4. `./7w_wiki.py audit --pages` zieht denselben Site-Integritaetsstatus in den Audit.
+5. `./7w_wiki.py repair --fix-roamlinks --auto` ist der aggressive, aber begrenzte Reparaturpfad fuer Pages-Linkdrift.
+6. Policy-Datei: `.agent/config/pages_link_policy.json`.
+7. Snapshot-Datei: `.agent/data/pages_health.json`.
+
 ### Runtime-Konfiguration (zentral)
 
 Gemeinsame Laufzeitparameter liegen in:
 
 - `.agent/config/runtime.json`
+- `.agent/config/pages_link_policy.json`
 
 Aktuell genutzt fuer:
 
 - Dispatch-Parallelitaet (`dispatch.parallel_settle_seconds`, `dispatch.parallel_retry_limit`)
 - Oracle-Defaults (`oracle.device`, `oracle.batch_size`)
+- Pages-Allowlist fuer unresolved Targets (`pages_link_policy.json`)
 
 Reihenfolge bei Oracle:
 
@@ -157,7 +221,8 @@ Reihenfolge bei Oracle:
 1. Autoritative Betriebsdokumente liegen in `System/`.
 2. Fuer GitHub Pages werden sichtbare Eintraege in `docs/` und `mkdocs.yml` gepflegt.
 3. **Deployment**: Die Seite wird NICHT mehr automatisch bei Push gebaut. Deployment erfolgt nur bei **Tags (`v*`)** oder manuellem `workflow_dispatch`.
-4. Der `/docs`-Workflow ist die Pflichtstrecke fuer Doku-Paritaet.
+4. Der `/tech_master`-Workflow ist die Pflichtstrecke fuer Doku-Paritaet und Runtime-Sync.
+5. `advisor` muss Pages-Freshness (`pages_health`, `last_sync_interop_at`) sichtbar machen, damit veraltete Tech-Hygiene frueh auffaellt.
 
 ## Verweise
 

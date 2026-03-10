@@ -224,11 +224,42 @@ def check_required_patterns_by_file(requirements: list[dict]) -> tuple[bool, str
     return False, f"Required pattern missing: {preview}{extra}"
 
 
+def check_command_inventory_files(files: list[str]) -> tuple[bool, str]:
+    result = run_cmd(["./7w_wiki.py", "--help-json"], timeout=30)
+    if result.returncode != 0:
+        return False, f"--help-json failed with exit {result.returncode}"
+    try:
+        schema = json.loads(result.stdout)
+    except json.JSONDecodeError as err:
+        return False, f"--help-json returned invalid JSON: {err}"
+
+    commands = [cmd.get("name", "") for cmd in schema.get("commands", []) if cmd.get("name")]
+    missing: list[str] = []
+    for rel in files:
+        path = (PROJECT_ROOT / rel).resolve()
+        if not path.exists():
+            missing.append(f"{rel}: DATEI_FEHLT")
+            continue
+        raw = path.read_text(encoding="utf-8")
+        for command in commands:
+            pattern = rf"`{re.escape(command)}(?:[ `<\[]|`)"
+            if not re.search(pattern, raw):
+                missing.append(f"{rel}: fehlt `{command}`")
+
+    if not missing:
+        return True, "ok"
+
+    preview = "; ".join(missing[:5])
+    extra = f" (+{len(missing)-5} weitere)" if len(missing) > 5 else ""
+    return False, f"Command inventory drift: {preview}{extra}"
+
+
 def check_case_expectations(
     case: dict,
     proc: subprocess.CompletedProcess[str],
     duration_sec: float,
 ) -> tuple[bool, str]:
+    parsed_json = None
     expected_exit_any = case.get("expect_exit_any")
     if expected_exit_any is not None:
         try:
@@ -263,14 +294,62 @@ def check_case_expectations(
 
     if case.get("expect_valid_json", False):
         try:
-            parsed = json.loads(stdout.strip())
+            parsed_json = json.loads(stdout.strip())
         except json.JSONDecodeError as e:
             return False, f"stdout ist kein gueltiges JSON: {e}"
         required_keys = case.get("expect_json_keys", [])
-        if required_keys and isinstance(parsed, dict):
+        if required_keys and isinstance(parsed_json, dict):
             for k in required_keys:
-                if k not in parsed:
+                if k not in parsed_json:
                     return False, f"JSON fehlt erwarteter Key: {k!r}"
+    elif case.get("expect_json_path_exists") or case.get("expect_json_path_in") or case.get("expect_json_path_equals") or case.get("expect_json_path_min"):
+        try:
+            parsed_json = json.loads(stdout.strip())
+        except json.JSONDecodeError as e:
+            return False, f"stdout ist kein gueltiges JSON fuer Path-Checks: {e}"
+
+    def resolve_json_path(payload, path: str):
+        current = payload
+        for part in path.split("."):
+            if isinstance(current, dict) and part in current:
+                current = current[part]
+            else:
+                raise KeyError(path)
+        return current
+
+    for path in case.get("expect_json_path_exists", []):
+        try:
+            resolve_json_path(parsed_json, path)
+        except KeyError:
+            return False, f"JSON Pfad fehlt: {path!r}"
+
+    for path, expected in case.get("expect_json_path_equals", {}).items():
+        try:
+            value = resolve_json_path(parsed_json, path)
+        except KeyError:
+            return False, f"JSON Pfad fehlt: {path!r}"
+        if value != expected:
+            return False, f"JSON Pfad {path!r} = {value!r}, erwartet {expected!r}"
+
+    for path, allowed in case.get("expect_json_path_in", {}).items():
+        try:
+            value = resolve_json_path(parsed_json, path)
+        except KeyError:
+            return False, f"JSON Pfad fehlt: {path!r}"
+        if value not in allowed:
+            return False, f"JSON Pfad {path!r} = {value!r}, erwartet eine von {allowed!r}"
+
+    for path, minimum in case.get("expect_json_path_min", {}).items():
+        try:
+            value = resolve_json_path(parsed_json, path)
+        except KeyError:
+            return False, f"JSON Pfad fehlt: {path!r}"
+        try:
+            numeric_value = float(value)
+        except Exception:
+            return False, f"JSON Pfad {path!r} ist nicht numerisch: {value!r}"
+        if numeric_value < float(minimum):
+            return False, f"JSON Pfad {path!r} = {numeric_value}, erwartet >= {minimum}"
 
     min_duration = case.get("min_duration_sec")
     if min_duration is not None and duration_sec < float(min_duration):
@@ -380,6 +459,27 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
             print(f"[{suite_name}] case {case_id}: {results[-1].status} ({results[-1].reason})", flush=True)
             continue
 
+        command_inventory_files = case.get("command_inventory_files", [])
+        if command_inventory_files:
+            started = time.perf_counter()
+            ok, reason = check_command_inventory_files(list(command_inventory_files))
+            duration_sec = time.perf_counter() - started
+            results.append(
+                CaseResult(
+                    case_id=case_id,
+                    name=name,
+                    status="PASS" if ok else "FAIL",
+                    command=["command-inventory-check"] + list(command_inventory_files),
+                    exit_code=0 if ok else 1,
+                    reason=reason,
+                    stdout="",
+                    stderr="",
+                    duration_sec=duration_sec,
+                )
+            )
+            print(f"[{suite_name}] case {case_id}: {results[-1].status} ({results[-1].reason})", flush=True)
+            continue
+
         cmd_template = case.get("cmd", [])
         if not cmd_template:
             results.append(
@@ -417,7 +517,7 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
             continue
 
         case_timeout = int(case.get("timeout_sec", timeout))
-        run_timeout = min(timeout, case_timeout) if case_timeout > 0 else timeout
+        run_timeout = case_timeout if case_timeout > 0 else timeout
         started = time.perf_counter()
         try:
             proc = run_cmd(command, run_timeout)

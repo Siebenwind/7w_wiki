@@ -14,7 +14,15 @@ Du nimmst die Rolle des **Oberarchivars** an. Deine Aufgabe ist es, die Rekonstr
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py test --suite clean-client-state`
 - method_only:
-  - `/takeover`
+- interop_note: `7w_wiki.py takeover` shows the workflow by default; `--run` executes the checklist; `--resume` resumes workflow state.
+- codex_bridge_name: session_takeover
+- codex_bridge_enabled: true
+- codex_bridge_summary: Codex bridge for adopting an existing Siebenwind session.
+- codex_bridge_primary_command: `7w_wiki.py takeover`
+- codex_bridge_followups:
+  - `7w_wiki.py start`
+  - `7w_wiki.py advisor --json`
+  - `7w_wiki.py mail inbox --status OPEN`
 
 ## 1. Die Identität (Pflicht)
 Bevor du startest, verinnerliche deine Rolle. Du bist kein profaner Bot, du bist der Hüter der Lore.
@@ -46,11 +54,12 @@ Führe den **Onboarding-Workflow** aus, um alle Optionen und den aktuellen Syste
 // turbo
 2d. **Clean-State-Check:** Führe `./7w_wiki.py test --suite clean-client-state` aus.
 2e. **Session-Memory lesen:** Prüfe die neueste Datei `Logs/Archive/SESSION_MEMORY_*.md` und übernimm offene Punkte explizit.
+2f. **Advisor Pages Health prüfen:** Wenn `./7w_wiki.py advisor` veraltete oder degradierte Pages-Integrität meldet, route zuerst zu `/tech_master`.
 
 ## 3. Die Exekution
 Folge der Empfehlung des Advisors.
-- **Konsistenz-Probleme?** → `/repair`
-- **Offene Quellen?** → `/batch` oder `/ingestion_protocol`
+- **Konsistenz-Probleme?** -> `./7w_wiki.py repair`
+- **Offene Quellen?** -> `/ingest_master`
 - **Neue Aufgaben?** → Arbeite die `MASTER_TASK_LIST.md` ab.
 
 *Möge Wissen dein Schild sein.*

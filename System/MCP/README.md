@@ -4,7 +4,7 @@
 
 ## Overview
 
-This MCP server exposes the full `7w_wiki.py` CLI as structured tools for AI agents. It follows the **Thin Relay** principle: the server has no own logic — it delegates everything to the CLI entry point.
+This MCP server exposes the typed, generated `7w_wiki.py` tool surface as structured tools for AI agents. It follows the **Thin Relay** principle: the server has no own logic — it delegates everything to the CLI entry point.
 
 ```
 MCP Client (Antigravity / Gemini CLI / Codex / Claude)
@@ -69,15 +69,15 @@ When using HTTP transport, the server probes the port first. If already in use, 
 
 ### Auto-Extraction Pipeline
 
-Tool definitions are **never maintained manually**. On every startup, the server runs `generate_mcp_tools.py`, which calls `./7w_wiki.py --help-json` and converts the CLI schema into MCP tool definitions.
+Tool definitions are **never maintained manually**. On every startup, the server runs `generate_mcp_tools.py`, which calls `./7w_wiki.py --help-json` and converts the typed CLI schema into MCP tool definitions.
 
-**Add a new CLI command → it automatically appears as an MCP tool.**
+**Add or change a CLI command/subcommand contract -> it automatically appears in MCP and the OpenAI-compatible tools manifest.**
 
 ### Oracle Availability Probe
 
 The `wiki_search` tool depends on the Oracle (semantic RAG index). If the index is not ready, the server registers a **grep-based fallback** that performs basic text search across `Siebenwind_Wiki/`.
 
-## Available Tools (27)
+## Available Tools
 
 Generated automatically from the CLI. Key tools:
 
@@ -87,19 +87,24 @@ Generated automatically from the CLI. Key tools:
 | `wiki_search` | `search` | Semantic RAG search (Oracle) |
 | `wiki_audit` | `audit` | Consistency check |
 | `wiki_stats` | `stats` | Wiki statistics |
-| `wiki_mail` | `mail` | Agent-to-agent messaging |
+| `wiki_pages_validate` | `pages validate` | Pages health, MkDocs, and Roamlinks validation |
+| `wiki_mail_post` | `mail post` | Structured dispatch creation |
+| `wiki_mail_inbox` | `mail inbox` | Structured queue listing |
+| `wiki_mail` | `mail` | Deprecated compatibility alias |
 | `wiki_mail_quip` | `mail post` | In-character interagency humor (`[QUIP]`) |
 | `wiki_test` | `test` | Run test suites |
 | `wiki_lint` | `lint` | Comprehensive lint pipeline |
 | `wiki_check` | `check` | Style and grammar check |
-| `wiki_repair` | `repair` | Auto-repair audit findings |
+| `wiki_repair` | `repair` | Auto-repair audit findings, including Pages / Roamlinks repair flags |
 | `wiki_inquisition` | `inquisition` | Batch source ingestion |
 | `wiki_historian` | `historian` | Deep lore analysis |
 
-For the full list, run:
+For the full generated list, run:
 ```bash
 python System/MCP/generate_mcp_tools.py
 ```
+
+Pages-aware flags such as `audit --pages`, `pages validate --json`, `pages validate --strict-links`, and `repair --fix-roamlinks` are exposed automatically through the generated tool schemas; no manual MCP edits are required.
 
 ## Resources
 

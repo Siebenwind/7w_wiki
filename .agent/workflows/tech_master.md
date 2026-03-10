@@ -4,20 +4,35 @@ description: Technischer Master Workflow für System-Architektur, Wartung und CI
 
 # Department: ⚙️ Maschinenraum (/tech_master)
 
-Dieses Department ist das Revier des **Netz-Ingenieurs**. Es ist zuständig für Code, Repository-Wartung, Skript-Updates, GitHub Actions und die Lauffähigkeit der Systeme. Es fusioniert die Workflows `/tech`, `/update`, `/docs` und `/watch`.
+Dieses Department ist das Revier des **Netz-Ingenieurs**. Es ist zuständig für Code, Repository-Wartung, Skript-Updates, GitHub Actions und die Lauffähigkeit der Systeme. Es buendelt die historischen Aufgaben aus `/tech`, `/update`, der Doku-Pflichtstrecke und `/watch`.
 
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py sanitize --auto`
   - `7w_wiki.py pages status|build|validate`
+  - `7w_wiki.py pages validate --json [--strict-links]`
   - `7w_wiki.py watch`
   - `7w_wiki.py index --status`
+  - `7w_wiki.py audit --pages`
+  - `7w_wiki.py repair --fix-roamlinks [--auto] [--dry-run]`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py mail post --from Technician --to <agent|ALL> --subject "<text>" --body "<text>"`
-  - `.agent/scripts/update_matrix.py`
-  - `.agent/scripts/generate_agent_bridges.py`
+  - `7w_wiki.py tech --sync-matrix`
+  - `7w_wiki.py tech --sync-bridges`
+  - `7w_wiki.py tech --sync-docs`
+  - `7w_wiki.py tech --sync-interop`
+  - `7w_wiki.py tech --manifest`
 - method_only:
   - `/tech_master`
+- interop_note: Department workflow for runtime-authoritative maintenance; helper scripts are implementation detail behind `7w_wiki.py tech`.
+- codex_bridge_name: workflow_tech_master
+- codex_bridge_enabled: true
+- codex_bridge_summary: Codex bridge for the technician maintenance loop and interop sync path.
+- codex_bridge_primary_command: `7w_wiki.py tech`
+- codex_bridge_followups:
+  - `7w_wiki.py tech --sync-interop`
+  - `7w_wiki.py pages validate --json`
+  - `7w_wiki.py audit --pages`
 
 ## 1. Identität & Fokus
 Du bist der **Netz-Ingenieur**. Deine Welt ist der *Code*, nicht die *Lore*.
@@ -31,14 +46,22 @@ Führe bei Leerlauf diese Wartungsschritte durch, um Struktur und Dokumentation 
 1. **Sanitize & Audit:**
    - `./7w_wiki.py sanitize --auto` (Struktur normalisieren)
    - `./7w_wiki.py audit` (Global-Check)
+   - `./7w_wiki.py audit --pages` (Docs-/Roamlinks-Lagebild)
 2. **Matrix & Bridge Update (Doku-Synchronisation):**
-   - Falls neue Workflows hinzugekommen sind: `.agent/scripts/update_matrix.py`
-   - Falls neue Skills hinzugekommen sind: `.agent/scripts/generate_agent_bridges.py`
+   - Falls neue Workflows hinzugekommen sind: `./7w_wiki.py tech --sync-matrix`
+   - Falls neue Skills hinzugekommen sind: `./7w_wiki.py tech --sync-bridges`
+   - Falls neue Codex-Workflow-Bridges hinzugekommen sind: ebenfalls `./7w_wiki.py tech --sync-bridges`
+   - Falls Runtime-Dokumentation driftet: `./7w_wiki.py tech --sync-docs`
+   - Fuer Komplettabgleich: `./7w_wiki.py tech --sync-interop`
 3. **Dokumentations-Tests:**
    - `./7w_wiki.py test --suite interop-doc-links`
+   - `./7w_wiki.py test --suite pages-link-contract`
    - `./7w_wiki.py test --suite reader-stats-contract`
    - `./7w_wiki.py test --suite bridge-placeholder-guard`
-4. **Index Live-Überwachung (`/watch`):**
+4. **Pages Integritaet:**
+   - `./7w_wiki.py pages validate --strict`
+   - Bei konzentrierten WARN-Targets: `./7w_wiki.py repair --fix-roamlinks --auto`
+5. **Index Live-Überwachung (`/watch`):**
    - Bei bedarf `./7w_wiki.py watch` in einem separaten Terminal starten, um inkrementelle Index-Updates (`build_index.py`) für das Oracle beim Speichern zu garantieren.
 
 ## 3. Diagnose & CI/CD (GitHub Pages)
@@ -46,17 +69,18 @@ Wenn du ein Problem (z.B. GitHub Pages Build Fail) untersuchst:
 1. **Lokale Reproduktion:** Führe `./7w_wiki.py pages build --strict` aus.
    - Wenn das fehlschlägt, den Fehler lokal beheben.
 2. **CI/CD Analyse:** Prüfe `.github/workflows/deploy.yml` auf Environment-Drifts.
-3. **Live Verification:** Nutze den Browser (`siebenwind.github.io/7w_wiki/`) um Frontend, CSS und JS zu validieren.
+3. **Site-Integrität:** Führe `./7w_wiki.py pages validate --json --strict-links` aus, um nicht-allowlistete Roamlinks-Warnungen explizit zu sehen.
+4. **Live Verification:** Nutze den Browser (`siebenwind.github.io/7w_wiki/`) um Frontend, CSS und JS zu validieren.
 
 ## 4. UX/CD Dokumentation (Pflicht bei UI-Eingriffen)
 Wenn Landing, Navigation oder Corporate Design angepasst werden:
 1. Dokumentiere den Eingriff in `CHANGELOG.md`.
 2. Aktualisiere `docs/Archiv/REDESIGN_ROADMAP_2026.md`.
-3. Poste einen Dispatch-Heartbeat mit den Kernpunkten an das `/meta_master` Department.
+3. Poste einen Dispatch-Heartbeat (Status-Heartbeat) mit den Kernpunkten an das `/meta_master` Department.
 
 ## 5. Abschluss
 - Mache präzise Code-Commits (z.B. `fix(ci):`, `chore(docs):`).
 - Bei fachfremden Widersprüchen (Lore statt Technik): Formuliere eine Fachfrage via Dispatch an den Historiker oder Guardian.
-- Erstelle ein Session-Memory (`SESSION_MEMORY_YYYY-MM-DD_TECH.md`) und verlinke es per `mail post`.
+- **Session-Memory (Pflicht):** Erstelle ein Session-Memory (`SESSION_MEMORY_YYYY-MM-DD_TECH.md`) und verlinke es per `mail post`.
 
 #tech #maintenance #cicd #ops

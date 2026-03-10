@@ -3,7 +3,7 @@
     "type": "function",
     "function": {
       "name": "cli_search",
-      "description": "Execute the search command in 7w_wiki.",
+      "description": "Semantic RAG search (Oracle) across wiki and source corpus.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -21,7 +21,7 @@
             ]
           },
           "json": {
-            "type": "string",
+            "type": "boolean",
             "description": "Output raw JSON"
           },
           "remaining": {
@@ -39,20 +39,20 @@
     "type": "function",
     "function": {
       "name": "cli_start",
-      "description": "Execute the start command in 7w_wiki.",
+      "description": "Show or run the onboarding workflow.",
       "parameters": {
         "type": "object",
         "properties": {
           "run": {
-            "type": "string",
+            "type": "boolean",
             "description": "Execute the workflow checklist automatically"
           },
           "yes": {
-            "type": "string",
+            "type": "boolean",
             "description": "Skip confirmation prompts during --run"
           },
           "resume": {
-            "type": "string",
+            "type": "boolean",
             "description": "Resume from last completed step"
           }
         },
@@ -64,7 +64,7 @@
     "type": "function",
     "function": {
       "name": "cli_test",
-      "description": "Execute the test command in 7w_wiki.",
+      "description": "Run interoperability and clean-state test suites.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -73,15 +73,15 @@
             "description": "Suite name or 'all'"
           },
           "list_suites": {
-            "type": "string",
+            "type": "boolean",
             "description": "List available test suites"
           },
           "timeout": {
-            "type": "string",
+            "type": "integer",
             "description": "Timeout per command (seconds)"
           },
           "post_failures": {
-            "type": "string",
+            "type": "boolean",
             "description": "Post dispatch message on failures"
           },
           "from_agent": {
@@ -102,11 +102,11 @@
             ]
           },
           "include_rag": {
-            "type": "string",
+            "type": "boolean",
             "description": "Include unstable rag-relevance-smoke in --suite all"
           },
           "allow_fail": {
-            "type": "string",
+            "type": "boolean",
             "description": "Return 0 even if tests fail"
           }
         },
@@ -118,20 +118,20 @@
     "type": "function",
     "function": {
       "name": "cli_takeover",
-      "description": "Execute the takeover command in 7w_wiki.",
+      "description": "Show or run the takeover workflow.",
       "parameters": {
         "type": "object",
         "properties": {
           "run": {
-            "type": "string",
+            "type": "boolean",
             "description": "Execute the workflow checklist automatically"
           },
           "yes": {
-            "type": "string",
+            "type": "boolean",
             "description": "Skip confirmation prompts during --run"
           },
           "resume": {
-            "type": "string",
+            "type": "boolean",
             "description": "Resume from last completed step"
           }
         },
@@ -143,20 +143,20 @@
     "type": "function",
     "function": {
       "name": "cli_handover",
-      "description": "Execute the handover command in 7w_wiki.",
+      "description": "Show or run the handover workflow.",
       "parameters": {
         "type": "object",
         "properties": {
           "run": {
-            "type": "string",
+            "type": "boolean",
             "description": "Execute the workflow checklist automatically"
           },
           "yes": {
-            "type": "string",
+            "type": "boolean",
             "description": "Skip confirmation prompts during --run"
           },
           "resume": {
-            "type": "string",
+            "type": "boolean",
             "description": "Resume from last completed step"
           }
         },
@@ -168,7 +168,7 @@
     "type": "function",
     "function": {
       "name": "cli_historian",
-      "description": "Execute the historian command in 7w_wiki.",
+      "description": "Deep lore analysis workflow or direct topic run.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -185,17 +185,25 @@
     "type": "function",
     "function": {
       "name": "cli_repair",
-      "description": "Execute the repair command in 7w_wiki.",
+      "description": "Interactive or automatic repair of audit findings, including Pages / Roamlinks fixes.",
       "parameters": {
         "type": "object",
         "properties": {
           "auto": {
-            "type": "string",
+            "type": "boolean",
             "description": "Run non-interactive auto-repair"
           },
           "full": {
-            "type": "string",
+            "type": "boolean",
             "description": "Run full non-interactive repair cycle (1-3)"
+          },
+          "fix_roamlinks": {
+            "type": "boolean",
+            "description": "Aggressively repair unresolved Pages / Roamlinks targets"
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview repair changes without writing files"
           }
         },
         "required": []
@@ -206,13 +214,17 @@
     "type": "function",
     "function": {
       "name": "cli_audit",
-      "description": "Execute the audit command in 7w_wiki.",
+      "description": "Run consistency audit for duplicates, broken links, and orphaned content.",
       "parameters": {
         "type": "object",
         "properties": {
           "json": {
-            "type": "string",
+            "type": "boolean",
             "description": "Output raw JSON"
+          },
+          "pages": {
+            "type": "boolean",
+            "description": "Include Pages / Roamlinks integrity diagnostics"
           }
         },
         "required": []
@@ -223,16 +235,16 @@
     "type": "function",
     "function": {
       "name": "cli_index",
-      "description": "Execute the index command in 7w_wiki.",
+      "description": "Manage the semantic search index.",
       "parameters": {
         "type": "object",
         "properties": {
           "rebuild": {
-            "type": "string",
+            "type": "boolean",
             "description": "Full re-indexing"
           },
           "status": {
-            "type": "string",
+            "type": "boolean",
             "description": "Check index status"
           }
         },
@@ -243,8 +255,8 @@
   {
     "type": "function",
     "function": {
-      "name": "cli_index-pages",
-      "description": "Execute the index-pages command in 7w_wiki.",
+      "name": "cli_index_pages",
+      "description": "Generate category index pages for the wiki.",
       "parameters": {
         "type": "object",
         "properties": {},
@@ -255,19 +267,34 @@
   {
     "type": "function",
     "function": {
-      "name": "cli_pages",
-      "description": "Execute the pages command in 7w_wiki.",
+      "name": "cli_pages_status",
+      "description": "Build or validate GitHub Pages documentation and site-integrity health. (status). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_pages_build",
+      "description": "Build or validate GitHub Pages documentation and site-integrity health. (build). Structured subcommand interface.",
       "parameters": {
         "type": "object",
         "properties": {
-          "pages_cmd": {
+          "strict": {
+            "type": "boolean",
+            "description": "Enable strict mode for mkdocs build"
+          },
+          "no_clean": {
+            "type": "boolean",
+            "description": "Skip mkdocs --clean"
+          },
+          "config": {
             "type": "string",
-            "description": "",
-            "enum": [
-              "status",
-              "build",
-              "validate"
-            ]
+            "description": "Path to mkdocs config (default: mkdocs.yml)"
           }
         },
         "required": []
@@ -277,13 +304,98 @@
   {
     "type": "function",
     "function": {
+      "name": "cli_pages_validate",
+      "description": "Build or validate GitHub Pages documentation and site-integrity health. (validate). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "strict": {
+            "type": "boolean",
+            "description": "Enable strict mode for mkdocs build"
+          },
+          "strict_links": {
+            "type": "boolean",
+            "description": "Fail if non-allowlisted unresolved internal links remain"
+          },
+          "no_clean": {
+            "type": "boolean",
+            "description": "Skip mkdocs --clean"
+          },
+          "skip_link_suite": {
+            "type": "boolean",
+            "description": "Skip test --suite interop-doc-links"
+          },
+          "skip_source_hygiene": {
+            "type": "boolean",
+            "description": "Skip test --suite source-link-hygiene"
+          },
+          "skip_process_governance": {
+            "type": "boolean",
+            "description": "Skip test --suite process-dispatch-curiosity"
+          },
+          "skip_reader_stats_contract": {
+            "type": "boolean",
+            "description": "Skip test --suite reader-stats-contract"
+          },
+          "skip_audit": {
+            "type": "boolean",
+            "description": "Skip audit"
+          },
+          "include_pages_audit": {
+            "type": "boolean",
+            "description": "Run audit --pages during validation"
+          },
+          "json": {
+            "type": "boolean",
+            "description": "Output machine-readable validation report"
+          },
+          "config": {
+            "type": "string",
+            "description": "Path to mkdocs config (default: mkdocs.yml)"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_pages",
+      "description": "Deprecated compatibility alias for `pages`. Prefer the structured subcommand tools.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "pages_cmd": {
+            "type": "string",
+            "description": "Deprecated compatibility alias. Prefer the structured `cli_pages_*` tools.",
+            "enum": [
+              "status",
+              "build",
+              "validate"
+            ]
+          },
+          "raw_args": {
+            "type": "string",
+            "description": "Optional raw trailing arguments for deprecated compatibility use."
+          }
+        },
+        "required": [
+          "pages_cmd"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
       "name": "cli_advisor",
-      "description": "Execute the advisor command in 7w_wiki.",
+      "description": "Show system status and recommended next actions.",
       "parameters": {
         "type": "object",
         "properties": {
           "json": {
-            "type": "string",
+            "type": "boolean",
             "description": "Output raw JSON"
           }
         },
@@ -295,16 +407,16 @@
     "type": "function",
     "function": {
       "name": "cli_inquisition",
-      "description": "Execute the inquisition command in 7w_wiki.",
+      "description": "Run batch ingestion of legacy sources.",
       "parameters": {
         "type": "object",
         "properties": {
           "batch": {
-            "type": "string",
+            "type": "integer",
             "description": "Number of sources to process in this run"
           },
           "audit_only": {
-            "type": "string",
+            "type": "boolean",
             "description": "Only list missing reports without processing"
           }
         },
@@ -316,7 +428,7 @@
     "type": "function",
     "function": {
       "name": "cli_sanitize",
-      "description": "Execute the sanitize command in 7w_wiki.",
+      "description": "Normalize structure, H1 usage, and frontmatter.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -325,11 +437,11 @@
             "description": "Path to file/folder (default: Siebenwind_Wiki)"
           },
           "auto": {
-            "type": "string",
+            "type": "boolean",
             "description": "Auto-fix violations"
           },
           "json": {
-            "type": "string",
+            "type": "boolean",
             "description": "Output raw JSON"
           }
         },
@@ -341,7 +453,7 @@
     "type": "function",
     "function": {
       "name": "cli_lint",
-      "description": "Execute the lint command in 7w_wiki.",
+      "description": "Run the combined lint pipeline.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -350,11 +462,11 @@
             "description": "Path to file/folder (default: Siebenwind_Wiki)"
           },
           "fix": {
-            "type": "string",
+            "type": "boolean",
             "description": "Auto-fix layout and frontmatter issues"
           },
           "json": {
-            "type": "string",
+            "type": "boolean",
             "description": "Output raw JSON report (suppresses stdout)"
           }
         },
@@ -366,7 +478,7 @@
     "type": "function",
     "function": {
       "name": "cli_score",
-      "description": "Execute the score command in 7w_wiki.",
+      "description": "Calculate Lore Quality Score for one markdown file.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -385,7 +497,7 @@
     "type": "function",
     "function": {
       "name": "cli_ingest",
-      "description": "Execute the ingest command in 7w_wiki.",
+      "description": "Run the ingest pipeline for one file.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -404,7 +516,7 @@
     "type": "function",
     "function": {
       "name": "cli_translate",
-      "description": "Execute the translate command in 7w_wiki.",
+      "description": "Translate Falandric texts or manage dictionaries.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -421,7 +533,7 @@
     "type": "function",
     "function": {
       "name": "cli_watch",
-      "description": "Execute the watch command in 7w_wiki.",
+      "description": "Start the live watcher for index updates.",
       "parameters": {
         "type": "object",
         "properties": {},
@@ -433,7 +545,7 @@
     "type": "function",
     "function": {
       "name": "cli_check",
-      "description": "Execute the check command in 7w_wiki.",
+      "description": "Run style and grammar checks.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -442,7 +554,7 @@
             "description": "Path to file/folder (default: Siebenwind_Wiki)"
           },
           "json": {
-            "type": "string",
+            "type": "boolean",
             "description": "Output raw JSON"
           }
         },
@@ -453,19 +565,30 @@
   {
     "type": "function",
     "function": {
-      "name": "cli_archive",
-      "description": "Execute the archive command in 7w_wiki.",
+      "name": "cli_archive_sync",
+      "description": "Manage archive symlinks, rotation, and unpack operations. (sync). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_archive_rotate",
+      "description": "Manage archive symlinks, rotation, and unpack operations. (rotate). Structured subcommand interface.",
       "parameters": {
         "type": "object",
         "properties": {
-          "archive_cmd": {
-            "type": "string",
-            "description": "",
-            "enum": [
-              "sync",
-              "rotate",
-              "unpack"
-            ]
+          "dry_run": {
+            "type": "boolean",
+            "description": "Show what would change"
+          },
+          "keep_days": {
+            "type": "integer",
+            "description": "Keep files newer than N days (default: 7)"
           }
         },
         "required": []
@@ -475,14 +598,213 @@
   {
     "type": "function",
     "function": {
+      "name": "cli_archive_unpack",
+      "description": "Manage archive symlinks, rotation, and unpack operations. (unpack). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "archive_name": {
+            "type": "string",
+            "description": "Name of archive to unpack"
+          }
+        },
+        "required": [
+          "archive_name"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_archive",
+      "description": "Deprecated compatibility alias for `archive`. Prefer the structured subcommand tools.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "archive_cmd": {
+            "type": "string",
+            "description": "Deprecated compatibility alias. Prefer the structured `cli_archive_*` tools.",
+            "enum": [
+              "sync",
+              "rotate",
+              "unpack"
+            ]
+          },
+          "raw_args": {
+            "type": "string",
+            "description": "Optional raw trailing arguments for deprecated compatibility use."
+          }
+        },
+        "required": [
+          "archive_cmd"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_mail_post",
+      "description": "Interact with the dispatch system using structured subcommands. (post). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "from_agent": {
+            "type": "string",
+            "description": ""
+          },
+          "to_agent": {
+            "type": "string",
+            "description": ""
+          },
+          "subject": {
+            "type": "string",
+            "description": ""
+          },
+          "body": {
+            "type": "string",
+            "description": ""
+          },
+          "report_path": {
+            "type": "string",
+            "description": ""
+          },
+          "priority": {
+            "type": "string",
+            "description": "",
+            "enum": [
+              "LOW",
+              "NORMAL",
+              "HIGH"
+            ]
+          }
+        },
+        "required": [
+          "from_agent",
+          "to_agent",
+          "subject",
+          "body"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_mail_inbox",
+      "description": "Interact with the dispatch system using structured subcommands. (inbox). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "agent": {
+            "type": "string",
+            "description": ""
+          },
+          "status": {
+            "type": "string",
+            "description": "",
+            "enum": [
+              "OPEN",
+              "CLAIMED",
+              "DONE"
+            ]
+          },
+          "json": {
+            "type": "boolean",
+            "description": "Output raw JSON"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_mail_read",
+      "description": "Interact with the dispatch system using structured subcommands. (read). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": ""
+          }
+        },
+        "required": [
+          "id"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_mail_claim",
+      "description": "Interact with the dispatch system using structured subcommands. (claim). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": ""
+          },
+          "agent": {
+            "type": "string",
+            "description": ""
+          },
+          "force": {
+            "type": "boolean",
+            "description": "Force claim from another agent"
+          }
+        },
+        "required": [
+          "id",
+          "agent"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_mail_done",
+      "description": "Interact with the dispatch system using structured subcommands. (done). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": ""
+          },
+          "agent": {
+            "type": "string",
+            "description": ""
+          },
+          "note": {
+            "type": "string",
+            "description": ""
+          }
+        },
+        "required": [
+          "id",
+          "agent"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
       "name": "cli_mail",
-      "description": "Execute the mail command in 7w_wiki.",
+      "description": "Deprecated compatibility alias for `mail`. Prefer the structured subcommand tools.",
       "parameters": {
         "type": "object",
         "properties": {
           "mail_args": {
             "type": "string",
-            "description": "Arguments for agent_mail.py"
+            "description": "Deprecated compatibility alias. Prefer the structured `cli_mail_*` tools."
           }
         },
         "required": []
@@ -493,7 +815,7 @@
     "type": "function",
     "function": {
       "name": "cli_scout",
-      "description": "Execute the scout command in 7w_wiki.",
+      "description": "Promoted discovery entrypoint for external source scanning.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -506,7 +828,7 @@
             ]
           },
           "pages": {
-            "type": "string",
+            "type": "integer",
             "description": "Number of pages to scan"
           }
         },
@@ -518,17 +840,33 @@
     "type": "function",
     "function": {
       "name": "cli_tech",
-      "description": "Execute the tech command in 7w_wiki.",
+      "description": "Show the technician workflow or run interop maintenance helpers.",
       "parameters": {
         "type": "object",
         "properties": {
           "manifest": {
-            "type": "string",
+            "type": "boolean",
             "description": "Generate OpenAPI tools.json from CLI context"
           },
           "compile_skills": {
-            "type": "string",
+            "type": "boolean",
             "description": "Compile SKILL.md.tpl with variables from lore_manifest"
+          },
+          "sync_matrix": {
+            "type": "boolean",
+            "description": "Regenerate the workflow interop matrix"
+          },
+          "sync_bridges": {
+            "type": "boolean",
+            "description": "Regenerate external bridge skills"
+          },
+          "sync_docs": {
+            "type": "boolean",
+            "description": "Sync runtime governance docs from the CLI contract"
+          },
+          "sync_interop": {
+            "type": "boolean",
+            "description": "Run matrix, doc, bridge, and manifest sync"
           }
         },
         "required": []
@@ -539,7 +877,7 @@
     "type": "function",
     "function": {
       "name": "cli_version",
-      "description": "Execute the version command in 7w_wiki.",
+      "description": "Show or bump the wiki standard version.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -557,11 +895,11 @@
             "description": "Version label"
           },
           "dry_run": {
-            "type": "string",
+            "type": "boolean",
             "description": "Show changes without writing"
           },
           "json": {
-            "type": "string",
+            "type": "boolean",
             "description": "Output version as JSON"
           }
         },
@@ -573,7 +911,7 @@
     "type": "function",
     "function": {
       "name": "cli_antigravity",
-      "description": "Execute the antigravity command in 7w_wiki.",
+      "description": "Show the core default workflow hub.",
       "parameters": {
         "type": "object",
         "properties": {},
@@ -584,20 +922,38 @@
   {
     "type": "function",
     "function": {
-      "name": "cli_leitpunkt",
-      "description": "Execute the leitpunkt command in 7w_wiki.",
+      "name": "cli_leitpunkt_view",
+      "description": "Manage the human maintainer standpoint workflow. (view). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_leitpunkt_status",
+      "description": "Manage the human maintainer standpoint workflow. (status). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_leitpunkt_check",
+      "description": "Manage the human maintainer standpoint workflow. (check). Structured subcommand interface.",
       "parameters": {
         "type": "object",
         "properties": {
-          "leit_cmd": {
-            "type": "string",
-            "description": "",
-            "enum": [
-              "view",
-              "status",
-              "check",
-              "scaffold"
-            ]
+          "strict": {
+            "type": "boolean",
+            "description": "Fail if TODO markers remain"
           }
         },
         "required": []
@@ -607,13 +963,59 @@
   {
     "type": "function",
     "function": {
+      "name": "cli_leitpunkt_scaffold",
+      "description": "Manage the human maintainer standpoint workflow. (scaffold). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "force": {
+            "type": "boolean",
+            "description": "Overwrite existing file"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_leitpunkt",
+      "description": "Deprecated compatibility alias for `leitpunkt`. Prefer the structured subcommand tools.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "leit_cmd": {
+            "type": "string",
+            "description": "Deprecated compatibility alias. Prefer the structured `cli_leitpunkt_*` tools.",
+            "enum": [
+              "view",
+              "status",
+              "check",
+              "scaffold"
+            ]
+          },
+          "raw_args": {
+            "type": "string",
+            "description": "Optional raw trailing arguments for deprecated compatibility use."
+          }
+        },
+        "required": [
+          "leit_cmd"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
       "name": "cli_stats",
-      "description": "Execute the stats command in 7w_wiki.",
+      "description": "Generate reader-facing stats and machine snapshots.",
       "parameters": {
         "type": "object",
         "properties": {
           "json": {
-            "type": "string",
+            "type": "boolean",
             "description": "Output raw JSON stats block"
           }
         },
@@ -625,7 +1027,7 @@
     "type": "function",
     "function": {
       "name": "cli_mcp",
-      "description": "Execute the mcp command in 7w_wiki.",
+      "description": "Start the MCP server for structured agent access.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -638,7 +1040,7 @@
             ]
           },
           "port": {
-            "type": "string",
+            "type": "integer",
             "description": "Port for HTTP transport"
           }
         },

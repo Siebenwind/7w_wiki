@@ -1,0 +1,79 @@
+{
+  "suite": "codex-workflow-bridges",
+  "description": "Guard generated Codex workflow bridges and the forum-search bridge surface.",
+  "cases": [
+    {
+      "id": "generated-bridge-files",
+      "name": "All Codex-enabled workflow bridges exist as generated skill wrappers",
+      "required_regex_by_file": [
+        {
+          "file": ".agents/skills/session_start/SKILL.md",
+          "must_include_regex": [
+            "Generated workflow bridge\\. Do not edit manually\\.",
+            "Wrapper for.*\\.agent/workflows/start\\.md",
+            "\\./7w_wiki\\.py start",
+            "start --run"
+          ]
+        },
+        {
+          "file": ".agents/skills/session_takeover/SKILL.md",
+          "must_include_regex": [
+            "Wrapper for.*\\.agent/workflows/takeover\\.md",
+            "\\./7w_wiki\\.py takeover",
+            "takeover --run"
+          ]
+        },
+        {
+          "file": ".agents/skills/session_handover/SKILL.md",
+          "must_include_regex": [
+            "Wrapper for.*\\.agent/workflows/handover\\.md",
+            "\\./7w_wiki\\.py handover",
+            "handover --run"
+          ]
+        },
+        {
+          "file": ".agents/skills/workflow_tech_master/SKILL.md",
+          "must_include_regex": [
+            "Wrapper for.*\\.agent/workflows/tech_master\\.md",
+            "\\./7w_wiki\\.py tech",
+            "\\./7w_wiki\\.py tech --sync-interop"
+          ]
+        },
+        {
+          "file": ".agents/skills/workflow_test_run/SKILL.md",
+          "must_include_regex": [
+            "Wrapper for.*\\.agent/workflows/test_run\\.md",
+            "\\./7w_wiki\\.py test --suite all",
+            "\\./7w_wiki\\.py test --suite codex-workflow-bridges"
+          ]
+        },
+        {
+          "file": ".agents/skills/workflow_forum_search/SKILL.md",
+          "must_include_regex": [
+            "Wrapper for.*\\.agent/workflows/forum_search\\.md",
+            "\\./7w_wiki\\.py scout --forum bekanntmachungen --pages 3",
+            "--forum",
+            "bekanntmachungen",
+            "news",
+            "Quellen/Forum/\\.\\.\\."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "docs-no-stale-bridge-names",
+      "name": "Interop docs no longer mention retired pseudo-bridge names",
+      "pattern_check_globs": [
+        "docs/Agenten/interop.md",
+        "docs/Agenten/workflows.md",
+        "System/AGENT_OPERATIONS_HANDBOOK.md",
+        "System/Synapse_Board/SY_INTEROP.md"
+      ],
+      "forbid_regex": [
+        "\\bonboarding\\b",
+        "\\btest-run\\b",
+        "\\binterop-audit\\b"
+      ]
+    }
+  ]
+}

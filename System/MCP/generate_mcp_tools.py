@@ -1,190 +1,167 @@
 #!/usr/bin/env python3
 """
-MCP Tool Generator — Auto-Extraction Pipeline
-
-Reads the CLI schema from `./7w_wiki.py --help-json` and generates
-MCP-compatible tool definitions for the Siebenwind Wiki server.
-
-This script is called at server startup — never maintain tools manually.
+Generate MCP tools from the typed CLI schema exposed by ./7w_wiki.py --help-json.
 """
+from __future__ import annotations
 
 import json
 import subprocess
 import sys
-import os
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
-# Commands that should NOT be exposed as MCP tools
-# (interactive workflows that require terminal input)
 BLACKLIST = {"watch", "start"}
-
-# Commands where --json flag should be auto-injected for structured output
-JSON_CAPABLE = {"advisor", "audit", "sanitize", "stats", "search", "check", "lint", "version"}
-
-# Human-readable descriptions for commands missing them in argparse
-DESCRIPTIONS = {
-    "advisor": "Show system status, health checks, and recommended next actions.",
-    "search": "Semantic RAG search (Oracle) across wiki and source corpus.",
-    "audit": "Run consistency audit: duplicates, orphans, broken links.",
-    "repair": "Interactive or automatic repair of audit findings.",
-    "sanitize": "Structural normalization: layout, H1, frontmatter alignment.",
-    "test": "Run interoperability and clean-state test suites.",
-    "stats": "Generate reader-facing wiki statistics and machine snapshot.",
-    "mail": "Agent-to-agent messaging via Synapse Board dispatch system.",
-    "check": "Professional style and grammar check (Lektor).",
-    "score": "Calculate Lore Quality Score (LQS) for a markdown file.",
-    "lint": "Comprehensive lint pipeline: Sanitizer + Style Check + Lore Score.",
-    "inquisition": "Batch ingestion of legacy sources (Silicon Inquisition).",
-    "ingest": "Run full ingest pipeline: Lint → Archive Sync → Audit.",
-    "translate": "Translate Falandric texts or manage dictionaries.",
-    "index": "Manage the semantic search index (rebuild, status).",
-    "index-pages": "Generate index.md for all wiki categories.",
-    "pages": "Build and validate GitHub Pages documentation.",
-    "historian": "Deep lore analysis — search + analysis briefing.",
-    "scout": "Deep-scan external forum boards for signals.",
-    "archive": "Manage wiki archive: sync symlinks, rotate logs, unpack.",
-    "version": "Show or bump the wiki standard version.",
-    "tech": "Show Technician workflow or regenerate tools manifest.",
-    "antigravity": "Show Antigravity core workflow (default protocol).",
-    "leitpunkt": "Manage the human maintainer standpoint.",
-    "takeover": "Show or run the session takeover protocol.",
-    "handover": "Show or run the session handover protocol.",
+LEGACY_COMPOUND_ALIASES = {
+    "mail": {"arg": "mail_args", "mode": "mail_passthrough"},
+    "pages": {"arg": "pages_cmd", "raw_args": "raw_args", "mode": "subcommand_passthrough"},
+    "archive": {"arg": "archive_cmd", "raw_args": "raw_args", "mode": "subcommand_passthrough"},
+    "leitpunkt": {"arg": "leit_cmd", "raw_args": "raw_args", "mode": "subcommand_passthrough"},
 }
 
 
 def extract_cli_schema() -> dict:
-    """Call ./7w_wiki.py --help-json and parse the result."""
-    try:
-        result = subprocess.run(
-            [sys.executable, str(REPO_ROOT / "7w_wiki.py"), "--help-json"],
-            capture_output=True, text=True, timeout=10, cwd=str(REPO_ROOT)
-        )
-        if result.returncode != 0:
-            print(f"[MCP Tools] CLI --help-json failed: {result.stderr}", file=sys.stderr)
-            return {"commands": []}
-        return json.loads(result.stdout)
-    except Exception as e:
-        print(f"[MCP Tools] Error extracting CLI schema: {e}", file=sys.stderr)
-        return {"commands": []}
+    result = subprocess.run(
+        [sys.executable, str(REPO_ROOT / "7w_wiki.py"), "--help-json"],
+        capture_output=True,
+        text=True,
+        timeout=10,
+        cwd=str(REPO_ROOT),
+        check=True,
+    )
+    return json.loads(result.stdout)
 
 
-def command_to_tool_def(cmd: dict) -> dict | None:
-    """Convert a CLI command definition to an MCP tool definition."""
-    name = cmd["name"]
+def property_from_arg(arg: dict) -> dict:
+    prop = {
+        "type": arg.get("type", "string"),
+        "description": arg.get("help", ""),
+    }
+    if arg.get("choices"):
+        prop["enum"] = arg["choices"]
+    return prop
 
-    if name in BLACKLIST:
-        return None
 
-    description = cmd.get("description") or DESCRIPTIONS.get(name, f"Run ./7w_wiki.py {name}")
+def build_meta(arguments: list[dict], cli_path: list[str], json_capable: bool) -> dict:
+    return {
+        "cli_path": cli_path,
+        "arguments": arguments,
+        "json_capable": json_capable,
+    }
 
-    # Build input schema from arguments
-    properties = {}
-    required_args = []
 
-    for arg in cmd.get("arguments", []):
-        arg_name = arg["name"]
-        if arg_name in ("help",):
-            continue
-
-        prop = {
-            "type": "string",
-            "description": arg.get("help", ""),
-        }
-
-        # Detect boolean vs. value flags
-        # Flags that take a value argument (not store_true)
-        VALUE_FLAG_NAMES = {
-            "suite", "timeout", "from_agent", "to_agent", "batch",
-            "label", "pages", "keep_days", "config", "archive_name",
-            "note", "agent",
-        }
-        if arg.get("flags") and not arg.get("choices"):
-            if any(f.startswith("--") for f in arg["flags"]):
-                if arg_name in VALUE_FLAG_NAMES:
-                    # This flag takes a value, keep as string
-                    pass
-                else:
-                    prop["type"] = "boolean"
-                    prop["description"] = arg.get("help", f"Enable {arg_name}")
-
-        # Add choices as enum
-        if arg.get("choices"):
-            prop["enum"] = arg["choices"]
-
-        properties[arg_name] = prop
-
-        if arg.get("required"):
-            required_args.append(arg_name)
-
-    tool_def = {
-        "name": f"wiki_{name.replace('-', '_')}",
+def build_tool(name: str, description: str, properties: dict, required: list[str], meta: dict) -> dict:
+    return {
+        "name": name,
         "description": description,
         "inputSchema": {
             "type": "object",
             "properties": properties,
+            "required": required,
+        },
+        "_meta": meta,
+    }
+
+
+def simple_tool(command: dict) -> dict:
+    arguments = command.get("arguments", [])
+    properties = {arg["name"]: property_from_arg(arg) for arg in arguments}
+    required = [arg["name"] for arg in arguments if arg.get("required")]
+    return build_tool(
+        f"wiki_{command['name'].replace('-', '_')}",
+        command.get("summary") or f"Run ./7w_wiki.py {command['name']}",
+        properties,
+        required,
+        build_meta(arguments, [command["name"]], command.get("json_capable", False)),
+    )
+
+
+def subcommand_tool(command: dict, subcommand: dict) -> dict:
+    arguments = subcommand.get("arguments", [])
+    properties = {arg["name"]: property_from_arg(arg) for arg in arguments}
+    required = [arg["name"] for arg in arguments if arg.get("required")]
+    return build_tool(
+        f"wiki_{command['name'].replace('-', '_')}_{subcommand['name'].replace('-', '_')}",
+        f"{command.get('summary', command['name'])} ({subcommand['name']}). Structured subcommand interface.",
+        properties,
+        required,
+        build_meta(arguments, [command["name"], subcommand["name"]], command.get("json_capable", False)),
+    )
+
+
+def legacy_alias_tool(command: dict) -> dict:
+    alias = LEGACY_COMPOUND_ALIASES[command["name"]]
+    properties = {
+        alias["arg"]: {
+            "type": "string",
+            "description": (
+                f"Deprecated compatibility alias for `{command['name']}`. "
+                "Prefer the structured subcommand tools."
+            ),
         }
     }
-
-    if required_args:
-        tool_def["inputSchema"]["required"] = required_args
-
-    # Metadata for the server
-    tool_def["_meta"] = {
-        "cli_command": name,
-        "json_capable": name in JSON_CAPABLE,
-    }
-
-    return tool_def
+    required: list[str] = []
+    if command.get("subcommands") and alias["arg"] != "mail_args":
+        properties[alias["arg"]]["enum"] = [sub["name"] for sub in command["subcommands"]]
+        required.append(alias["arg"])
+    if "raw_args" in alias:
+        properties[alias["raw_args"]] = {
+            "type": "string",
+            "description": "Optional raw trailing arguments for deprecated compatibility use.",
+        }
+    return build_tool(
+        f"wiki_{command['name'].replace('-', '_')}",
+        f"Deprecated compatibility alias for `{command['name']}`. Prefer structured tools.",
+        properties,
+        required,
+        {
+            "cli_path": [command["name"]],
+            "json_capable": command.get("json_capable", False),
+            "compat_mode": alias["mode"],
+            "compat_arg": alias["arg"],
+            "compat_raw_arg": alias.get("raw_args"),
+        },
+    )
 
 
 def generate_tools() -> list[dict]:
-    """Generate all MCP tool definitions from CLI schema."""
     schema = extract_cli_schema()
-    tools = []
+    tools: list[dict] = []
+    for command in schema.get("commands", []):
+        if command["name"] in BLACKLIST:
+            continue
+        if command.get("subcommands"):
+            for subcommand in command["subcommands"]:
+                tools.append(subcommand_tool(command, subcommand))
+            if command["name"] in LEGACY_COMPOUND_ALIASES:
+                tools.append(legacy_alias_tool(command))
+        else:
+            tools.append(simple_tool(command))
 
-    for cmd in schema.get("commands", []):
-        tool = command_to_tool_def(cmd)
-        if tool:
-            tools.append(tool)
-
-    # Add the special mail_quip convenience tool
     tools.append({
         "name": "wiki_mail_quip",
         "description": (
             "Post a non-critical, in-character interagency comment. "
-            "Used for humor, observations, and personality between agents. "
-            "Messages are tagged [QUIP] and stored in the dispatch archive. "
-            "Max 280 characters. You ARE encouraged to use this."
+            "Messages are tagged [QUIP] and stored in the dispatch archive. Max 280 characters."
         ),
         "inputSchema": {
             "type": "object",
             "properties": {
-                "from_agent": {
-                    "type": "string",
-                    "description": "Your agent name (e.g. 'Antigravity', 'Historiker', 'Lektor')"
-                },
-                "body": {
-                    "type": "string",
-                    "description": "The quip. Max 280 characters. Be witty.",
-                    "maxLength": 280
-                }
+                "from_agent": {"type": "string", "description": "Your agent name."},
+                "body": {"type": "string", "description": "The quip body.", "maxLength": 280},
             },
-            "required": ["from_agent", "body"]
+            "required": ["from_agent", "body"],
         },
         "_meta": {
-            "cli_command": "mail",
-            "is_quip": True,
+            "cli_path": ["mail", "post"],
             "json_capable": False,
-        }
+            "is_quip": True,
+        },
     })
-
     return tools
 
 
-def main():
-    """Print generated tools as JSON."""
+def main() -> None:
     tools = generate_tools()
     print(json.dumps(tools, indent=2, ensure_ascii=False))
     print(f"\n[MCP Tools] Generated {len(tools)} tool definitions.", file=sys.stderr)

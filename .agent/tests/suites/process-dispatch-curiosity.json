@@ -7,11 +7,11 @@
       "name": "Core workflows/personas require active dispatch usage and specialist-question escalation",
       "required_regex_by_file": [
         {
-          "file": ".agent/workflows/batch.md",
+          "file": ".agent/workflows/ingest_master.md",
           "must_include_regex": [
             "mail inbox --status OPEN",
             "mail post",
-            "Neugier-Prinzip"
+            "Fragen statt Raten|Fragepflicht"
           ]
         },
         {
@@ -19,14 +19,6 @@
           "must_include_regex": [
             "Dispatch-Heartbeat",
             "Fragen statt Raten"
-          ]
-        },
-        {
-          "file": ".agent/workflows/ingestion_protocol.md",
-          "must_include_regex": [
-            "Dispatch-Status",
-            "Spezialisten-Fragepflicht",
-            "Tracking-Register aktualisieren"
           ]
         },
         {
@@ -82,9 +74,9 @@
           ]
         },
         {
-          "file": ".agent/workflows/tech.md",
+          "file": ".agent/workflows/tech_master.md",
           "must_include_regex": [
-            "Status-Heartbeat",
+            "Status-Heartbeat|Dispatch-Heartbeat",
             "Session-Memory \\(Pflicht\\)",
             "SESSION_MEMORY_YYYY-MM-DD"
           ]
