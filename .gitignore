@@ -14,7 +14,11 @@ venv/
 .agent/data/models/
 .agent/data/chroma_db/
 .agent/data/oracle_venv/
+.agent/data/*_latest.json
+.agent/data/*SNAPSHOT*.json
 .agent/data/pages_health.json
+.agent/data/pages_cache/
+.agent/data/workflow_state.json
 .agent/skills/oracle/config.json
 .agent/skills/oracle/venv/
 
@@ -24,11 +28,13 @@ venv/
 
 # === Logs & Temp ===
 *.log
+Logs/Queues/
 Logs/Archive/*
 !Logs/Archive/SESSION_MEMORY_*.md
 !Logs/Archive/AUDIT_CONSOLIDATION_INDEX_*.md
 !Logs/Archive/AGENT_CHANGE_PACKET_*.md
 site/
+dist/
 .tmp/
 missing_links.txt
 register_links.txt

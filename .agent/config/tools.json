@@ -544,6 +544,54 @@
   {
     "type": "function",
     "function": {
+      "name": "cli_package",
+      "description": "Build archive-first install bundles for supported platforms.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "platform": {
+            "type": "string",
+            "description": "",
+            "enum": [
+              "ubuntu",
+              "debian",
+              "macos",
+              "wsl"
+            ]
+          },
+          "profile": {
+            "type": "string",
+            "description": "",
+            "enum": [
+              "full",
+              "agent-only"
+            ]
+          },
+          "toolchain": {
+            "type": "string",
+            "description": "",
+            "enum": [
+              "system",
+              "bundled",
+              "auto"
+            ]
+          },
+          "output_dir": {
+            "type": "string",
+            "description": "Output directory for bundle archives"
+          },
+          "json": {
+            "type": "boolean",
+            "description": "Output machine-readable package manifest"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
       "name": "cli_check",
       "description": "Run style and grammar checks.",
       "parameters": {

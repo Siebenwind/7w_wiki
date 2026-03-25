@@ -68,6 +68,7 @@ Die operative Kommandoliste lautet aktuell:
 - `ingest`
 - `translate`
 - `watch`
+- `package`
 - `check`
 - `archive`
 - `mail`
@@ -107,6 +108,7 @@ Workflows duerfen nur auf Artefakte verweisen, die entweder:
 - explizit als `planned_artifact` markiert sind.
 
 Nicht existente, aber als Pflicht benannte Dateien sind als **interop blocker** zu behandeln.
+- Release-Bundles unter `dist/` sind Runtime-/Release-Artefakte. Sie duerfen lokal erzeugt oder als GitHub Release-Asset veroeffentlicht werden, gehoeren aber nicht in den normalen Repo-Verlauf.
 
 ## Norm 6: Onboarding-Minimum
 `/start` (bzw. `7w_wiki.py start`) muss auf folgende Kernstellen verweisen:

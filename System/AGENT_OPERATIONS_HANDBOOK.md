@@ -62,6 +62,7 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 - `ingest`
 - `translate`
 - `watch`
+- `package`
 - `check`
 - `archive`
 - `mail`
@@ -226,9 +227,11 @@ Reihenfolge bei Oracle:
 
 1. Autoritative Betriebsdokumente liegen in `System/`.
 2. Fuer GitHub Pages werden sichtbare Eintraege in `docs/` und `mkdocs.yml` gepflegt.
-3. **Deployment**: Die Seite wird NICHT mehr automatisch bei Push gebaut. Deployment erfolgt nur bei **Tags (`v*`)** oder manuellem `workflow_dispatch`.
-4. Der `/tech_master`-Workflow ist die Pflichtstrecke fuer Doku-Paritaet und Runtime-Sync.
-5. `advisor` muss Pages-Freshness (`pages_health`, `last_sync_interop_at`) sichtbar machen, damit veraltete Tech-Hygiene frueh auffaellt.
+3. **Pages-Deployment**: Die Seite wird ueber `.github/workflows/deploy.yml` bei `push` auf `main`, bei **Tags (`v*`)** und per `workflow_dispatch` gebaut.
+4. **Release-Bundles**: Bundles werden nicht im Git-Verlauf oder auf `gh-pages` gespeichert. `.github/workflows/release-bundles.yml` baut sie nur fuer **Tags (`v*`)** und haengt sie als GitHub Release-Assets an.
+5. **Lokales Packaging**: Entwickler erzeugen Bundles ueber `./7w_wiki.py package ...`; der Standard-Ausgabeort `dist/` bleibt ein Runtime-/Release-Artefakt und wird nicht versioniert.
+6. Der `/tech_master`-Workflow ist die Pflichtstrecke fuer Doku-Paritaet, Runtime-Sync und Release-Hygiene.
+7. `advisor` muss Pages-Freshness (`pages_health`, `last_sync_interop_at`) sichtbar machen, damit veraltete Tech-Hygiene frueh auffaellt.
 
 ## Verweise
 

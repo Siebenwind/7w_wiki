@@ -1,0 +1,35 @@
+name: Release Bundles
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build-release-bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Build ubuntu agent-only bundle
+        run: |
+          mkdir -p dist
+          python 7w_wiki.py package --platform ubuntu --profile agent-only --output-dir dist --json > dist/package_manifest_ubuntu_agent-only.json
+          ls -lah dist
+
+      - name: Publish release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/*.tar.gz
+            dist/package_manifest_ubuntu_agent-only.json
+          generate_release_notes: true

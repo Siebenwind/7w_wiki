@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "exclude_globs": [
+    ".agent/data",
+    ".agent/skills/oracle/venv",
+    ".venv",
+    "site",
+    "dist",
+    "docs/Quellen/_ARCHIV_ORIGINAL",
+    "**/__pycache__"
+  ],
+  "platform_order": [
+    "ubuntu",
+    "debian",
+    "macos",
+    "wsl"
+  ],
+  "profiles": {
+    "full": {
+      "description": "Full repo workflow including docs/pages validation and reader-facing assets.",
+      "include": [
+        "7w_wiki.py",
+        "requirements.txt",
+        "README.md",
+        "CHANGELOG.md",
+        "System",
+        "docs",
+        "assets",
+        ".agent/config",
+        ".agent/scripts",
+        ".agent/skills",
+        ".agent/tests",
+        ".agent/workflows",
+        ".agents/skills",
+        "lore_manifest.json",
+        "mkdocs.yml",
+        "mcp_config.json"
+      ]
+    },
+    "agent-only": {
+      "description": "CLI/MCP/agent runtime without the full reader-site build toolchain.",
+      "include": [
+        "7w_wiki.py",
+        "requirements.txt",
+        "System",
+        ".agent/config",
+        ".agent/scripts",
+        ".agent/skills",
+        ".agent/workflows",
+        ".agents/skills",
+        "lore_manifest.json",
+        "mcp_config.json"
+      ]
+    }
+  },
+  "toolchains": {
+    "ubuntu": {
+      "bundled_dir": ".agent/bundles/ubuntu",
+      "recommended_core_tools": [
+        "cmake",
+        "python3",
+        "tar"
+      ]
+    },
+    "debian": {
+      "bundled_dir": ".agent/bundles/debian",
+      "recommended_core_tools": [
+        "cmake",
+        "python3",
+        "tar"
+      ]
+    },
+    "macos": {
+      "bundled_dir": ".agent/bundles/macos",
+      "recommended_core_tools": [
+        "cmake",
+        "python3",
+        "tar"
+      ]
+    },
+    "wsl": {
+      "bundled_dir": ".agent/bundles/ubuntu",
+      "recommended_core_tools": [
+        "cmake",
+        "python3",
+        "tar"
+      ]
+    }
+  }
+}

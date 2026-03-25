@@ -63,6 +63,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `ingest <file>` | Run the ingest pipeline for one file. | `.agent/scripts/ingest_pipeline.py` |
 | `translate [args...]` | Translate Falandric texts or manage dictionaries. | `.agent/scripts/translator.py` |
 | `watch` | Start the live watcher for index updates. | `.agent/scripts/watcher.py` |
+| `package` | Build archive-first install bundles for supported platforms. | `.agent/scripts/package_tool.py` |
 | `check [path]` | Run style and grammar checks. | `.agent/skills/lektor/style_checker.py` |
 | `archive <sync|rotate|unpack>` | Manage archive symlinks, rotation, and unpack operations. | `docs/Archiv` |
 | `mail <post|inbox|read|claim|done>` | Interact with the dispatch system using structured subcommands. | `System/Synapse_Board/SY_DISPATCH.md` |
@@ -110,6 +111,7 @@ Maintainer note:
 1.  **Onboard**: Run `./7w_wiki.py start`, `./7w_wiki.py advisor`, and `./7w_wiki.py mail inbox --status OPEN` first. Read the latest `Logs/Archive/SESSION_MEMORY_*.md` before starting new work.
 2.  **Plan**: Check `MASTER_TASK_LIST.md` and `task.md` (if available).
 3.  **Execute**: Use `7w_wiki.py` tools. Do NOT edit `7w_wiki.py` unless assigned to "DevOps". Send status heartbeats via `mail post` on long tasks and route contradictions as specialist questions (question-first).
+    Bundle archives under `dist/` are release/build artifacts, not repo truth. Create them locally or via GitHub Releases, but do not commit them.
 4.  **Verify**: Run `./7w_wiki.py audit`, `./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-command-registry`, `./7w_wiki.py test --suite codex-workflow-bridges`, `./7w_wiki.py test --suite workflow-matrix-contract`, `./7w_wiki.py test --suite tool-manifest-contract`, `./7w_wiki.py test --suite pages-link-contract`, `./7w_wiki.py test --suite bridge-placeholder-guard`, and `./7w_wiki.py test --suite reader-stats-contract` before committing.
    If the published site or docs navigation changed, also run `./7w_wiki.py pages validate --json`.
 5.  **Log**: Update `CHANGELOG.md` or `Logs/` as appropriate. End each session with `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` and reference it via `./7w_wiki.py mail post`.

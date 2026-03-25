@@ -203,6 +203,13 @@ COMMAND_METADATA = {
         "supports_run_mode": False,
         "interactive_default": False,
     },
+    "package": {
+        "summary": "Build archive-first install bundles for supported platforms.",
+        "context": ".agent/scripts/package_tool.py",
+        "json_capable": True,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
     "stats": {
         "summary": "Generate reader-facing stats and machine snapshots.",
         "context": ".agent/scripts/generate_wiki_stats.py",
@@ -609,6 +616,14 @@ def main():
     # Watcher
     subparsers.add_parser("watch", help="Start the live watcher for real-time indexing")
 
+    # Packaging
+    package_parser = subparsers.add_parser("package", help="Build archive-first bundles for supported platforms")
+    package_parser.add_argument("--platform", choices=["ubuntu", "debian", "macos", "wsl"], default="ubuntu")
+    package_parser.add_argument("--profile", choices=["full", "agent-only"], default="full")
+    package_parser.add_argument("--toolchain", choices=["system", "bundled", "auto"], default="auto")
+    package_parser.add_argument("--output-dir", default="dist", help="Output directory for bundle archives")
+    package_parser.add_argument("--json", action="store_true", help="Output machine-readable package manifest")
+
     # QA & Style Check (Lektor)
     check_parser = subparsers.add_parser("check", help="Run professional style and grammar check (Lektor)")
     check_parser.add_argument("path", nargs="?", default=default_wiki, help=f"Path to file/folder (default: {default_wiki})")
@@ -881,6 +896,17 @@ def main():
 
     elif args.command == "watch":
         run_script(".agent/scripts/watcher.py")
+
+    elif args.command == "package":
+        package_args = [
+            "--platform", args.platform,
+            "--profile", args.profile,
+            "--toolchain", args.toolchain,
+            "--output-dir", args.output_dir,
+        ]
+        if args.json:
+            package_args.append("--json")
+        run_script(".agent/scripts/package_tool.py", package_args)
 
     elif args.command == "check":
         check_args = [args.path]

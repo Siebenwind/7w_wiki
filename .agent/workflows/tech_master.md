@@ -9,6 +9,7 @@ Dieses Department ist das Revier des **Netz-Ingenieurs**. Es ist zuständig für
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py sanitize --auto`
+  - `7w_wiki.py package --platform ubuntu|debian|macos|wsl --profile full|agent-only`
   - `7w_wiki.py pages status|build|validate`
   - `7w_wiki.py pages validate --json [--strict-links]`
   - `7w_wiki.py watch`
@@ -53,6 +54,7 @@ Führe bei Leerlauf diese Wartungsschritte durch, um Struktur und Dokumentation 
    - Falls neue Codex-Workflow-Bridges hinzugekommen sind: ebenfalls `./7w_wiki.py tech --sync-bridges`
    - Falls Runtime-Dokumentation driftet: `./7w_wiki.py tech --sync-docs`
    - Fuer Komplettabgleich: `./7w_wiki.py tech --sync-interop`
+   - Bundles fuer Entwickler lokal nur ueber `./7w_wiki.py package ...` bauen; `dist/` bleibt Runtime-Artefakt und wird nicht committed.
 3. **Dokumentations-Tests:**
    - `./7w_wiki.py test --suite interop-doc-links`
    - `./7w_wiki.py test --suite pages-link-contract`
@@ -69,6 +71,7 @@ Wenn du ein Problem (z.B. GitHub Pages Build Fail) untersuchst:
 1. **Lokale Reproduktion:** Führe `./7w_wiki.py pages build --strict` aus.
    - Wenn das fehlschlägt, den Fehler lokal beheben.
 2. **CI/CD Analyse:** Prüfe `.github/workflows/deploy.yml` auf Environment-Drifts.
+   - Bundle-Releases laufen getrennt ueber `.github/workflows/release-bundles.yml` und haengen Assets an GitHub Releases statt an den Branch.
 3. **Site-Integrität:** Führe `./7w_wiki.py pages validate --json --strict-links` aus, um nicht-allowlistete Roamlinks-Warnungen explizit zu sehen.
 4. **Live Verification:** Nutze den Browser (`siebenwind.github.io/7w_wiki/`) um Frontend, CSS und JS zu validieren.
 
