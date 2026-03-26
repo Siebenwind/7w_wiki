@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Regulatorium der index zum Heiligen Auge Astraels
 category: [[index]]
 status: integrated

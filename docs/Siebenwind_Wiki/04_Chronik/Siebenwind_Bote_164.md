@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a926
 title: Siebenwind Bote 164
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a926
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 164.md
 letzter_check: 2026-02-13T15:15:00+01:00
 ---
 # [[Siebenwind]] Bote 164
 
-**Epistemischer Status:** #bote
-**Datum:** 6. Duler 19 n.H. (Vierentag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 6. Duler 19 n.H. (Vierentag)
+
 
 ## Highlights
 *   **Abtritt von [[Hagen_Robaar]]:** Seiner Durchlaucht [[Hagen_Robaar]] ist von seinen Pflichten als Lehnsherr und Großmeister der [[Ritterschaft_zu_Siebenwind]] zurückgetreten. Er bleibt Graf, zieht sich aber ins Privatleben zurück.

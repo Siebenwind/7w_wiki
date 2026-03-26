@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Barad Hael
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Barad Hael
 
-**Titel:** Freier (hingerichtet)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Unbekannt
+!!! info "Metadaten"
+    - **Titel:** Freier (hingerichtet)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Unbekannt
+
 
 ## Beschreibung
 **Barad Hael** wurde im Jahr 15 n.H. (Bote 124) wegen Angriff auf einen hohen Ritter, Majestätsbeleidigung und Widerstand gegen die Obrigkeit zum Tode verurteilt.

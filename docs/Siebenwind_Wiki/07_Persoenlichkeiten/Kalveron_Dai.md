@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Kalveron Dai
 category: Persönlichkeit
-quelle: "[De Magica Angamoniensis] / [System arkaner Lokalitäten]"
 status: "#überlieferung"
+quelle: "[De Magica Angamoniensis] / [System arkaner Lokalitäten]"
 ---
 
 # Kalveron Dai

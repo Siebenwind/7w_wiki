@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Fedral Lavid
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_156]].md
 ---
 # Fedral Lavid
 
-**Titel:** Baron / ehemaliger Lehensherr von [[Falkensee]] / Ritter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritterschaft_der_Sieben_Winde]] / [[Falkensee]]
-**Zeitraum:** Gründungsphase bis 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Baron / ehemaliger Lehensherr von [[Falkensee]] / Ritter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ritterschaft_der_Sieben_Winde]] / [[Falkensee]]
+    - **Zeitraum:** Gründungsphase bis 18 n.H.
+
 
 ## Beschreibung
 **Fedral Lavid** gilt als der "Erbauer" und Gründervater der Hauptstadt [[Falkensee]]. Auf seinen jungen Schultern lastete die Aufgabe, die Stadt aus dem Sumpf und Lehm der Ebene zu erschaffen.

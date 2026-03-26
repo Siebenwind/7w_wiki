@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Flaake Distelstein
 category: [[Persönlichkeiten]]
 ---
 
 # Flaake Distelstein
 
-**Titel:** Ehem. Hafenvogt / Vertreter der Armengilde "Die Hand" / Fischer
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Siedlung [[Brandenstein]] / [[Falkensee]]
-**Zeitraum:** aktiv 15-17 n.H.
+!!! info "Metadaten"
+    - **Titel:** Ehem. Hafenvogt / Vertreter der Armengilde "Die Hand" / Fischer
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Siedlung [[Brandenstein]] / [[Falkensee]]
+    - **Zeitraum:** aktiv 15-17 n.H.
+
 
 ## Beschreibung
 **Flaake Distelstein** ist ein wohlhabender Bürger, Fischer und ehemaliger **Hafenvogt** von [[Brandenstein]].

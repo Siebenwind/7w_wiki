@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ventria
 category: Allgemein
 status: UNGEKLAERT

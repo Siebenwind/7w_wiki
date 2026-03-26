@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Lewyn Anacar
 category: Persönlichkeit
-quelle: "[Ars Magica Metamorphosia]"
 status: "#überlieferung"
+quelle: "[Ars Magica Metamorphosia]"
 ---
 
 # Lewyn Anacar

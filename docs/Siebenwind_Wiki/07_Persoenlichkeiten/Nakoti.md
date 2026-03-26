@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Nakoti
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_135]].md
 ---
 # Nakoti
 
-**Titel:** Schneiderin / Laienschwester
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ecclesia_Elementorum]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Schneiderin / Laienschwester
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ecclesia_Elementorum]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Nakoti** ist eine Schneiderin und Laienschwester, die durch ihre ambitionierte Initiative zur Rekultivierung der [[Aschene_Wüste|Aschenen Wüsten]] bekannt wurde.

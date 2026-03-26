@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Aeusseu Schwarzenfels
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Aeusseu Schwarzenfels
 
-**Titel:** Obergefreiter / Stellv. Führer der Frontabteilung / Stellv. Leiter der [[Kriegerakademie]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Lehensbanner]] / [[Kriegerakademie]]
+!!! info "Metadaten"
+    - **Titel:** Obergefreiter / Stellv. Führer der Frontabteilung / Stellv. Leiter der [[Kriegerakademie]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Lehensbanner]] / [[Kriegerakademie]]
+
 
 ## Beschreibung
 **Aeusseu Schwarzenfels** war im Jahr 15 n.H. (Bote 124) stellvertretender Führer der Frontabteilung des Lehensbanners sowie stellvertretender Leiter der Kriegerakademie.

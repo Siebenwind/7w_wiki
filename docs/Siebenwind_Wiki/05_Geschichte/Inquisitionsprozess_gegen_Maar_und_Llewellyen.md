@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Inquisitionsprozess gegen Maar und Llewellyen
 category: [[index]]
 ---
 
 # Inquisitionsprozess gegen Maar und [[Llewellyen]]
 
-**Epistemischer Status:** #bote
-**Datum:** 19. Querlar 15 n.H. (Bote 121)
-**Ort:** [[Brandenstein]] (Hafen)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 19. Querlar 15 n.H. (Bote 121)
+    - **Ort:** [[Brandenstein]] (Hafen)
+
 
 ## Verlauf
 Der Defensor Fidei, [[Calmexistus_Salanus]], kündigte einen öffentlichen Prozess gegen **[[Haaron_Maar]]** und **[[Stephan_Llewellyen]]** an.

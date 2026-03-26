@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Kirche der Viere
 category: Religion
 author: [[Siebenwind]] Chronicler

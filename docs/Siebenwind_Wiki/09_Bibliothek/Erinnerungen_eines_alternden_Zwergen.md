@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: zwergen-erinnerungen-thorgat
 title: Erinnerungen eines alternden Zwergen
 category: Erzählung
-uuid: zwergen-erinnerungen-thorgat
 quelle: ../../Quellen/Spielergeschichten/Erinnerungen eines alternden Zwergen | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
 lore_trust: 8
 letzter_check: 2026-02-14T01:15:00

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Blutige Faust
 category: Allgemein
 status: UNGEKLAERT

@@ -30,12 +30,13 @@
       "name": "Generated stats artifacts expose reader blocks and snapshot keys",
       "required_regex_by_file": [
         {
-          "file": "Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md",
+          "file": "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md",
           "must_include_regex": [
             "## 🌍 Welt Heute",
             "## 🔄 Was sich bewegt",
             "## ✅ Qualitaet & Vertrauen",
-            "## 🛠️ Werkstattstatus \\(Transparenz\\)"
+            "## 🛠️ Werkstattstatus \\(Transparenz\\)",
+            "## 🔏 Drift & Provenance"
           ]
         },
         {

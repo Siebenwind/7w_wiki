@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Arondar von Mellhorn"
 category: [[index]]
 ---

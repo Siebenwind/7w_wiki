@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Louis
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_152]].md
 ---
 # Louis
 
-**Titel:** Dieb / Ehem. Leiter des Handelsbundes
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Gesetzlos
-**Zeitraum:** aktiv 17 n.H.
+!!! info "Metadaten"
+    - **Titel:** Dieb / Ehem. Leiter des Handelsbundes
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Gesetzlos
+    - **Zeitraum:** aktiv 17 n.H.
+
 
 ## Beschreibung
 **Louis** ist ein berüchtigter Dieb und ehemaliger Leiter des Handelsbundes. Er trägt als Zeichnung seiner Vergangenheit eine Augenklappe (Verlust eines Auges als Strafe).

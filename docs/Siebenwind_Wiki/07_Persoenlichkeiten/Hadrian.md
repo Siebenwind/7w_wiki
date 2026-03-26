@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Hadrian
 category: Persönlichkeit
 ---
 
 # Hadrian
 
-**Titel:** Ritter des [[Orden_der_Wachenden_Löwen|Löwenordens]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]]
-**Zeitraum:** aktiv um 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Ritter des [[Orden_der_Wachenden_Löwen|Löwenordens]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]]
+    - **Zeitraum:** aktiv um 18 n.H.
+
 
 ## Beschreibung
 Hadrian ist ein Ritter des Löwenordens, der vor allem durch eine bizarre Verzauberung bekannt wurde. Nach einer Konfrontation mit der sogenannten **"Südfallhexe"** wurde er mit einem Fluch belegt: Auf seinem Kopf wachsen seither Blumen, als wäre er eine Wiese.

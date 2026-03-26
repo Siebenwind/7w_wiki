@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Johann Liebig
 category: Persönlichkeit
-quelle: "[Arkane Verbindung]"
 status: "#überlieferung"
+quelle: "[Arkane Verbindung]"
 ---
 
 # Johann Liebig

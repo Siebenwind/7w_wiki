@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Ravia Thyrandor
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Ravia Thyrandor
 
-**Titel:** Elfe / Volksstreiterin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Elfen]] / [[TharSala]]
+!!! info "Metadaten"
+    - **Titel:** Elfe / Volksstreiterin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Elfen]] / [[TharSala]]
+
 
 ## Beschreibung
 **Ravia Thyrandor** ist eine Elfe aus [[Brandenstein]].

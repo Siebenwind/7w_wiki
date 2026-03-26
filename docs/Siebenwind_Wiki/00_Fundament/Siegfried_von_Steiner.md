@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Siegfried von Steiner
 category: Allgemein
 status: UNGEKLAERT

@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Brevier des Ordo_Morsanes
 category: [[index]]
-tags: [[Morsan]], Gebet, Liturgie, Totenruhe, [[Galtor]]
 status: #überlieferung
+tags: [[Morsan]], Gebet, Liturgie, Totenruhe, [[Galtor]]
 ---
 
 # Brevier des [[Ordo_Morsanes]]

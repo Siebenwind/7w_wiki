@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Halvard
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Halvard
 
-**Titel:** Jarl von [[Dunkeltief]] (ehemals)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Nortraven]] / [[Dunkeltief]]
+!!! info "Metadaten"
+    - **Titel:** Jarl von [[Dunkeltief]] (ehemals)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Nortraven]] / [[Dunkeltief]]
+
 
 ## Beschreibung
 **Halvard** war lange Zeit der Jarl der [[Nortraven]] von Westhever.

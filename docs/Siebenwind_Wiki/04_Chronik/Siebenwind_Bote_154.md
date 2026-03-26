@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a916
 title: Siebenwind Bote 154
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a916
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 154.md
 letzter_check: 2026-02-13T03:15:00+01:00
 ---
 # [[Siebenwind]] Bote 154
 
-**Epistemischer Status:** #bote
-**Datum:** 3. Onar 18 n.H. (Königstag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 3. Onar 18 n.H. (Königstag)
+
 
 ## Highlights
 *   **[[Falkensee]]:** **[[Mirian_Lasar]]** wurde von Großmeister Robaar zur **Lehensritterin** von [[Falkensee]] ernannt.

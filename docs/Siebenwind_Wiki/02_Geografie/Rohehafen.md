@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Rohehafen
 category: [[index]]
 ---
 
 # Rohehafen
 
-**Status:** Ruinenstadt / Ehemalige Hauptstadt
-**Region:** [[Ödland]] (Nahe dem Falkenwall)
-**Epistemischer Status:** #bote / #überlieferung
+!!! info "Metadaten"
+    - **Status:** Ruinenstadt / Ehemalige Hauptstadt
+    - **Region:** [[Ödland]] (Nahe dem Falkenwall)
+    - **Epistemischer Status:** #bote / #überlieferung
+
 
 ## 📜 Beschreibung
 **Rohehafen** war die erste Hauptstadt der Kronmark [[Siebenwind]], gegründet kurz nach der Hilgorad-Expedition (1 n.H.). Heute ist sie eine gefährliche Ruinenstätte im [[Ödland]], die von den Narben der großen Verwüstung gezeichnet ist.

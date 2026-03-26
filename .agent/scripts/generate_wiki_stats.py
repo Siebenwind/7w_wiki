@@ -6,6 +6,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
+from content_contract import HOMEPAGE_URL, INVENTORY_PATH, TRUTH_HIERARCHY, write_inventory
 from nexus_config import WIKI_DIR, WORLD_NAME, WIKI_DIR_NAME
 
 # Configuration
@@ -477,8 +478,7 @@ def generate_markdown(stats: dict, tracking: dict, ops: dict) -> str:
     top_dense_categories.sort(key=lambda x: x[1], reverse=True)
 
     md = f"""---
-layout: wiki_page
-title: Wiki Status
+title: "📊 {WORLD_NAME} Kompass"
 category: Index
 ---
 
@@ -580,6 +580,14 @@ pie title Artikel pro Sektion
 | Ingestion Reports mit LQS | {tracking['with_lqs']}/{tracking['total_reports']} | {progress_bar(lqs_coverage)} |
 | `[UNGEKLAERT]`-Marker (gesamt) | {stats['unclear_markers']} | Beobachtung |
 
+## 🔏 Drift & Provenance
+| Kennzahl | Wert |
+| :--- | :--- |
+| Technischer Edit-Baum | `docs/Siebenwind_Wiki/` |
+| Epistemische Praezedenz | `{ " > ".join(TRUTH_HIERARCHY) }` |
+| Homepage-Kanon | `{HOMEPAGE_URL}` |
+| Inventar | `{INVENTORY_PATH.relative_to(PROJECT_ROOT)}` |
+
 ## Epistemische Verteilung
 | Tag | Artikel |
 | :--- | ---: |
@@ -634,6 +642,12 @@ def build_stats_snapshot(stats: dict, tracking: dict, ops: dict) -> dict:
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     return {
         "generated_at_utc": now_utc,
+        "content_contract": {
+            "technical_wiki_root": f"{WIKI_DIR_NAME}/",
+            "epistemic_precedence": TRUTH_HIERARCHY,
+            "homepage_url": HOMEPAGE_URL,
+            "inventory_path": str(INVENTORY_PATH.relative_to(PROJECT_ROOT)),
+        },
         "reader_metrics": {
             "articles": stats["total_files"],
             "words": stats["total_word_count"],
@@ -688,6 +702,7 @@ if __name__ == "__main__":
     data = collect_stats()
     tracking = collect_ingestion_tracking()
     ops = collect_ops_progress()
+    write_inventory(activity="stats", agent="generate_wiki_stats")
     markdown_content = generate_markdown(data, tracking, ops)
     snapshot = build_stats_snapshot(data, tracking, ops)
     

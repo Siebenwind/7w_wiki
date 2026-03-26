@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c
 title: Eliath
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Eliath
 
-**Titel:** Künstler
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Falkensee]] / Künste
+!!! info "Metadaten"
+    - **Titel:** Künstler
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Falkensee]] / Künste
+
 
 ## Beschreibung
 **Eliath** ist ein Künstler in [[Falkensee]], der vor allem als Verlobter der Statthalterin [[Solice_Aurora]] im Jahr 21 n.H. öffentliche Beachtung fand (Bote 180).

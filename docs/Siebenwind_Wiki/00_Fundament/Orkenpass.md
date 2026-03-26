@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Orkenpass
 category: Allgemein
 status: UNGEKLAERT

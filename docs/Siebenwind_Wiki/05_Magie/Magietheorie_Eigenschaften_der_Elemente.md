@@ -1,12 +1,11 @@
 ---
-layout: wiki_page
 title: "Eigenschaften der Elemente"
 category: [[index]]
 status: Canon
 quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Amanda_Dunkelbaum]] - Eigenschaften der Elemente.md"
+author: "[[Amanda_Dunkelbaum]]"
 lore_trust: 8
 confidence: Certain
-author: "[[Amanda_Dunkelbaum]]"
 ---
 
 # Eigenschaften der Elemente

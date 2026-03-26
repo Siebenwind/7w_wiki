@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Dwarshim
 category: [[Geografie]]
 ---
 
 # Dwarshim
 
-**Typ:** Gebirge / Region / Heimatstadt
-**Epistemischer Status:** #canon
-**Zugehörigkeit:** [[Siebenwind]]
+!!! info "Metadaten"
+    - **Typ:** Gebirge / Region / Heimatstadt
+    - **Epistemischer Status:** #canon
+    - **Zugehörigkeit:** [[Siebenwind]]
+
 
 ## Beschreibung
 **Dwarshim** ist die angestammte Heimat der [[Rasse_Zwerge|Zwerge]] (Dwarschim) auf [[Siebenwind]]. Es handelt sich um ein gewaltiges Höhlensystem tief unter dem Gebirge, das für seinen Reichtum an Erzen und die Meisterschaft seiner Schmiede bekannt ist.

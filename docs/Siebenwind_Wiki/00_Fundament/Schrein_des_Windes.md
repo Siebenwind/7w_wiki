@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Schrein des Windes
 category: Allgemein
 status: UNGEKLAERT

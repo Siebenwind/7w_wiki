@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Ranis
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Ranis
 
-**Titel:** Lehrmeister der Königlichen Kriegerakademie
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Kriegerakademie]]
+!!! info "Metadaten"
+    - **Titel:** Lehrmeister der Königlichen Kriegerakademie
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Kriegerakademie]]
+
 
 ## Beschreibung
 **Ranis** war im Jahr 15 n.H. (Bote 127) Lehrmeister an der Königlichen Kriegerakademie auf [[Siebenwind]].

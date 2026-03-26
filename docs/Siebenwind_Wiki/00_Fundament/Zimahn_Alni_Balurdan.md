@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Zimahn Alni Balurdan
 category: Allgemein
 status: UNGEKLAERT

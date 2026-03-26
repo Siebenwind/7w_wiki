@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ovelia Galthana
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_140]].md
 ---
 # Ovelia Galthana
 
-**Titel:** Ritter des Falken / Sire
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritterschaft_zu_Siebenwind]] / [[Lehen_Suedfall]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Ritter des Falken / Sire
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ritterschaft_zu_Siebenwind]] / [[Lehen_Suedfall]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Sire Ovelia Galthana** ist ein Ritter des Falken und Mitglied der [[Ritterschaft_zu_Siebenwind]]. 

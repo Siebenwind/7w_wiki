@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Tevra
 category: Allgemein
 status: UNGEKLAERT

@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Satai Akelas
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Satai Akelas
 
-**Voller Name:** Iroland de Renard
-**Titel:** Satai (Führer der [[Tardukai]])
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Tardukai]] / [[Raziel]]
+!!! info "Metadaten"
+    - **Voller Name:** Iroland de Renard
+    - **Titel:** Satai (Führer der [[Tardukai]])
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Tardukai]] / [[Raziel]]
+
 
 ## Beschreibung
 **Satai Akelas**, eigentlich **Iroland de Renard**, ist der Anführer der [[Tardukai]] auf [[Siebenwind]].

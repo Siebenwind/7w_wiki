@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Koorun McKevin
 category: Allgemein
 status: UNGEKLAERT

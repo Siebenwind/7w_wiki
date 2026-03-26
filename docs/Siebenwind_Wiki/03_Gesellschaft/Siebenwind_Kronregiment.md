@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Siebenwind Kronregiment
 category: [[Gesellschaft]]
 ---
 
 # [[Siebenwind]] Kronregiment
 
-**Rolle:** Militärische Ordnungsmacht
-**Epistemischer Status:** #canon
-**Sitz:** [[Burg_Finianswacht]], [[Falkensee]]
-**Führung:** Hauptmann [[Tionne]] (aktuell)
+!!! info "Metadaten"
+    - **Rolle:** Militärische Ordnungsmacht
+    - **Epistemischer Status:** #canon
+    - **Sitz:** [[Burg_Finianswacht]], [[Falkensee]]
+    - **Führung:** Hauptmann [[Tionne]] (aktuell)
+
 
 ## Beschreibung
 Das **[[Siebenwind]] Kronregiment** ist die zentrale militärische Einheit der Insel. Es dient dem Schutz der Krone und der Aufrechterhaltung der Ordnung in der Kronmark.

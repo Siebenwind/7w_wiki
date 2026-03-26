@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ossian
 category: Allgemein
 status: UNGEKLAERT

@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
 title: Ventus
-type: Religion
 status: Kanon (Level 1)
+type: Religion
 tags: [Elementarherr, [[Enhor]], Luft, Wind, [[index]]]
 ---
 

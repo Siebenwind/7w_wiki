@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Astraelorden
 category: Allgemein
 status: UNGEKLAERT

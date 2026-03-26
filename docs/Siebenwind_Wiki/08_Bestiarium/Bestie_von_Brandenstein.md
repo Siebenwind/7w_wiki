@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Bestie von Brandenstein
 category: Kreaturen
 ---

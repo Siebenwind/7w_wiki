@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Sire von Weidenbach
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Sire von Weidenbach
 
-**Titel:** Leiter der Königlichen Akademie der Kriegskünste
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Königliche_Akademie_der_Kriegskünste]]
+!!! info "Metadaten"
+    - **Titel:** Leiter der Königlichen Akademie der Kriegskünste
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Königliche_Akademie_der_Kriegskünste]]
+
 
 ## Beschreibung
 **Sire von Weidenbach** war im Jahr 15 n.H. (Bote 121) der Leiter der Königlichen Akademie der Kriegskünste.

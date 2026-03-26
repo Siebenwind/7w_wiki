@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Rothenbucht
 category: Allgemein
 status: UNGEKLAERT

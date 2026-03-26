@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a908
 title: Siebenwind Bote 146
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a908
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 146.md
 letzter_check: 2026-02-13T01:45:00+01:00
 ---
 # [[Siebenwind]] Bote 146
 
-**Epistemischer Status:** #bote
-**Datum:** 17. Dular 17 n.H. (Sonderausgabe)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 17. Dular 17 n.H. (Sonderausgabe)
+
 
 ## Überblick
 Diese Sonderausgabe warnt vor einer falschen Evakuierungsanordnung und berichtet von einem Aufstand der Orks.

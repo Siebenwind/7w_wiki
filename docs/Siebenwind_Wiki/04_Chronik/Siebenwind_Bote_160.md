@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a922
 title: Siebenwind Bote 160
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a922
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 160.md
 letzter_check: 2026-02-13T05:30:00+01:00
 ---
 # [[Siebenwind]] Bote 160
 
-**Epistemischer Status:** #bote
-**Datum:** 25. Carmer 18 n.H. (Wandeltag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 25. Carmer 18 n.H. (Wandeltag)
+
 
 ## Highlights
 *   **Grafenstand:** Großmeister **[[Hagen_Robaar]] von Saalhorn** wurde im Namen des Königs durch die Heroldin Markgräfin **[[Sarahna_Greifenschwing]]** zum **Grafen** erhoben.

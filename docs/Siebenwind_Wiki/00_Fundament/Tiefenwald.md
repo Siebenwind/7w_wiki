@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Tiefenwald
 category: Allgemein
 status: UNGEKLAERT

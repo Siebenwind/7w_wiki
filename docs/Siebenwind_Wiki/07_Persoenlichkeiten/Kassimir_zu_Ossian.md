@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Kassimir zu Ossian
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Kassimir zu Ossian
 
-**Titel:** Feldherr (†)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ossian]] / [[Pakt_der_Viereinigkeit]]
+!!! info "Metadaten"
+    - **Titel:** Feldherr (†)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ossian]] / [[Pakt_der_Viereinigkeit]]
+
 
 ## Beschreibung
 **Kassimir zu Ossian** war ein berühmter Feldherr des Lehens Ossian, bekannt für seine Verdienste im Krieg gegen [[Raziel]].

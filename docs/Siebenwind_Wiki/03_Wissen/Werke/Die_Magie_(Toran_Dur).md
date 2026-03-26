@@ -1,13 +1,14 @@
 ---
-layout: post
 title: Die index
 category: Allgemein
 ---
 
 # Die [[index]]
 
-**Autor:** [[Toran_Dur]]
-**Kategorie:** Magietheorie / Kosmologie
+!!! info "Metadaten"
+    - **Autor:** [[Toran_Dur]]
+    - **Kategorie:** Magietheorie / Kosmologie
+
 
 ## Inhalt
 

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Aus dem Leben eines Schwarzmagiers
 castatus: integrated
 tags: [[[Felix_Goldschein]], [[Bellum]], [[Angamon]], Schwarzmagie, Kanalisation, Malakor]

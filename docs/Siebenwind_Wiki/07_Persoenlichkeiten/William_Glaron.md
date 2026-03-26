@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: William Glaron
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # William Glaron
 
-**Titel:** Adjutant (21 n.H.) / Später: Ritter
-**Epistemischer Status:** #bote / #perspektive / #ooc_confirmed
-**Zugehörigkeit:** [[Löwenorden]]
+!!! info "Metadaten"
+    - **Titel:** Adjutant (21 n.H.) / Später: Ritter
+    - **Epistemischer Status:** #bote / #perspektive / #ooc_confirmed
+    - **Zugehörigkeit:** [[Löwenorden]]
+
 
 ## Beschreibung
 **William Glaron** war ein Ritter und Adjutant des Löwenordens, der im Jahr 21 n.H. eine prominente Rolle in der Öffentlichkeit spielte. Er galt als fähiger Kämpfer und diplomatischer Vermittler, dessen Schicksal jedoch ein düsteres Ende nahm.

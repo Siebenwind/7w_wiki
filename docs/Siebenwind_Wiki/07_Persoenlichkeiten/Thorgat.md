@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: th0rgat-dwarschim-old
 title: Thorgat
 category: Persönlichkeit
-uuid: th0rgat-dwarschim-old
 quelle: ../../Quellen/Spielergeschichten/[[Erinnerungen_eines_alternden_Zwergen]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
 lore_trust: 7
 letzter_check: 2026-02-14T01:20:00
@@ -10,11 +9,13 @@ letzter_check: 2026-02-14T01:20:00
 
 # Thorgat
 
-**Epistemischer Status:** #perspektive
-**Rasse:** [[Dwarschim]] (Bergzwerg)
-**Rang:** Bra'gar (Zwergenwache) / ehemaliger Hauptmann (Festland)
-**Zugehörigkeit:** [[Bragarim]] / [[Bragarim]]
-**Zeitraum:** Aktiv um 18-22 n.H. (über 300 Jahre alt)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Rasse:** [[Dwarschim]] (Bergzwerg)
+    - **Rang:** Bra'gar (Zwergenwache) / ehemaliger Hauptmann (Festland)
+    - **Zugehörigkeit:** [[Bragarim]] / [[Bragarim]]
+    - **Zeitraum:** Aktiv um 18-22 n.H. (über 300 Jahre alt)
+
 
 ## Beschreibung
 Thorgat ist ein altgedienter Krieger der [[Dwarschim]], dessen Gesicht und Körper die Spuren jahrhundertelanger Kämpfe tragen. Sein Haar und sein Bart sind strahlend weiß und oft wild zerzaust. Ein markantes Merkmal sind seine **eisernen Zahnschienen**, die er tragen muss, seit ihm ein Troll im Kampf sämtliche Zähne ausschlug. Trotz seines hohen Alters (ca. 313 Jahre zur Zeit seiner Aufzeichnungen) gilt er als kraftvoller Kämpfer, der die "Flamme Arkadons" noch immer in sich spürt.

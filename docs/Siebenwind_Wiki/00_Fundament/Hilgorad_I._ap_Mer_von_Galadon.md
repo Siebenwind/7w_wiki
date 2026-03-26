@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Hilgorad I ap Mer von Galadon
 category: Allgemein
 status: UNGEKLAERT

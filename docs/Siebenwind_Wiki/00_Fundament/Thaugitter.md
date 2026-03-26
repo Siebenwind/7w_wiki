@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Thaugitter
 category: Allgemein
 status: UNGEKLAERT

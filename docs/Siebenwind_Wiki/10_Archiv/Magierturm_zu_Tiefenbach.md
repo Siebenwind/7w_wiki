@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: 0224004a-9b45-4a77-9084-3330c30a0f54
 title: Magierturm zu Tiefenbach
 category: [[index]]
-uuid: 0224004a-9b45-4a77-9084-3330c30a0f54
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_164]].md
 letzter_check: 2026-02-13T01:02:10+01:00
 ---

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Wolfgang Ravinsthal
 category: [[Persoenlichkeiten_Uebersicht]]
 quelle: [[Sphaerenkunde_Kosmologie]]
@@ -7,9 +6,11 @@ quelle: [[Sphaerenkunde_Kosmologie]]
 
 # Wolfgang Ravinsthal
 
-**Titel:** Adeptus Arkanis
-**Epistemischer Status:** #überlieferung
-**Zugehörigkeit:** [[Toran_Dur]] Gefolgschaft (Historisch)
+!!! info "Metadaten"
+    - **Titel:** Adeptus Arkanis
+    - **Epistemischer Status:** #überlieferung
+    - **Zugehörigkeit:** [[Toran_Dur]] Gefolgschaft (Historisch)
+
 
 ## Beschreibung
 **Wolfgang Ravinsthal** dokumentierte die Kosmologie Siebenwinds in seinem Werk **[[Sphaerenkunde_Kosmologie|Sphärenkunde]]**. Er fasste die Entstehungsgeschichte der Welt durch die Gohor, [[Enhor]] und Sahor zusammen und lieferte detaillierte Beschreibungen der Unterebenen der 2. Sphäre (Ashordon, Mandor, Nidihor).

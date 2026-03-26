@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Chimären
 category: [[index]]
 ---

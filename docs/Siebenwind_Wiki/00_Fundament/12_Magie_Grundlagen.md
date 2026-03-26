@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: 12 Magie Grundlagen
 category: Allgemein
 status: UNGEKLAERT

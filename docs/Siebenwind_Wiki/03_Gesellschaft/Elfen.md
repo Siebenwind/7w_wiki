@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Elfen
 category: Rasse
 author: [[Siebenwind]] Chronicler

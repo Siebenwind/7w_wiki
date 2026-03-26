@@ -1,6 +1,5 @@
 ---
-layout: wiki_page
-title: Personen
+title: "Siebenwind Wiki - Personen"
 ---
 
 # [[Siebenwind]] Wiki - Personen

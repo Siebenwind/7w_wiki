@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Gerion
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_161]].md
 ---
 # Gerion
 
-**Titel:** Hauptmann der Tempelwache
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Kirche_der_Viere]] / Tempelwache [[Falkensee]] (?)
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Hauptmann der Tempelwache
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Kirche_der_Viere]] / Tempelwache [[Falkensee]] (?)
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Gerion** ist ein fähiger Kämpfer und Hauptmann der Tempelwache.

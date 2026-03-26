@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 121
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 121
 
-**Epistemischer Status:** #bote
-**Datum:** 18. Querlar 15 n.H.
-**Redaktion:** [[Calmexistus_Salanus]] / J.D / HTd
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 18. Querlar 15 n.H.
+    - **Redaktion:** [[Calmexistus_Salanus]] / J.D / HTd
+
 
 ## Schlagzeilen
 

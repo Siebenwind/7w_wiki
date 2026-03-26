@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Kaarem Balta"
 category: [[index]]
 ---

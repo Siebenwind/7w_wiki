@@ -1,13 +1,14 @@
 ---
-layout: wiki_page
 title: Oger (Grüne Ungetüme)
 category: [[index]]
 ---
 
 # Oger (Grüne Ungetüme)
 
-**Epistemischer Status:** #canon
-**Lebensraum:** Wälder, Höhlen, Grönland
+!!! info "Metadaten"
+    - **Epistemischer Status:** #canon
+    - **Lebensraum:** Wälder, Höhlen, Grönland
+
 
 ## Überblick
 **Oger** sind gewaltige Humanoide, die vor Äonen als erste Diener der [[Riesen]] bekannt waren. Sie sind berüchtigt für ihre immense Stärke, ihre Zähigkeit und ihren unersättlichen Hunger.

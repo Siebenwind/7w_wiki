@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: FB643755-B765-45FF-9810-CFD3269B3C6A
 title: Lichthoch
 category: [[index]]
-uuid: FB643755-B765-45FF-9810-CFD3269B3C6A
 letzter_check: 2026-02-13T15:15:00+01:00
 ---
 

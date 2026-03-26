@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a918
 title: Siebenwind Bote 156
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a918
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 156.md
 letzter_check: 2026-02-13T03:45:00+01:00
 ---
 # [[Siebenwind]] Bote 156
 
-**Epistemischer Status:** #bote
-**Datum:** 15. Onar 18 n.H. (Vierentag) - Sonderausgabe
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 15. Onar 18 n.H. (Vierentag) - Sonderausgabe
+
 
 ## Highlights
 *   **Stadtumbau:** **[[Falkensee]]** wird umfassend umgebaut. Mauern und Tore werden verstärkt, neue Wachtürme errichtet und Häuser versetzt, um Platz für neue Bewohner zu schaffen.

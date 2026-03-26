@@ -36,7 +36,7 @@ Halte das Wiki für Leser und Maschinen transparent.
 2. `./7w_wiki.py test --suite reader-stats-contract`
 
 *Hinweis: Dieser Befehl synchronisiert automatisch:*
-- `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md` (Leseransicht)
+- `docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md` (Leseransicht)
 - `Logs/INGESTION_TRACKING_REGISTER.md` (Technikdetail)
 - `Logs/Archive/STATS_SNAPSHOT_latest.json` (maschinenlesbare Schnittstelle)
 

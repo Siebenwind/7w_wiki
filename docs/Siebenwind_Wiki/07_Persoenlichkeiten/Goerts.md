@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a
 title: Goerts
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Goerts
 
-**Titel:** Feldhauptmann (Malthust)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[03_Gesellschaft/index#Malthust|Malthust]]
+!!! info "Metadaten"
+    - **Titel:** Feldhauptmann (Malthust)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[03_Gesellschaft/index#Malthust|Malthust]]
+
 
 ## Beschreibung
 **Goerts** ist ein Feldhauptmann der Malthust-Söldner, der im Jahr 21 n.H. wichtige operative Aufgaben wahrnahm (Bote 179).

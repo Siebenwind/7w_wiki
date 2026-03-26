@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Dunkelzeit
 category: Allgemein
 status: UNGEKLAERT

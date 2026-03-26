@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Solfeister Kin
 category: [[index]]
-tags: [Erzählung, [[Angamon]], [[Dunkeltief]], Kult]
 status: #perspektive
+tags: [Erzählung, [[Angamon]], [[Dunkeltief]], Kult]
 ---
 
 # Solfeister Kin

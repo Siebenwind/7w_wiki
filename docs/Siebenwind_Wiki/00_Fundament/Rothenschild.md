@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Rothenschild
 category: Allgemein
 status: UNGEKLAERT

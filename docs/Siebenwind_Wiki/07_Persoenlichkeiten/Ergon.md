@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Ergon
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Ergon
 
-**Titel:** Bürgermeister von [[Dunquell]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Dunquell]] / [[Dwarschim]]
+!!! info "Metadaten"
+    - **Titel:** Bürgermeister von [[Dunquell]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Dunquell]] / [[Dwarschim]]
+
 
 ## Beschreibung
 **Ergon** ist der Bürgermeister der Zwergensiedlung [[Dunquell]].

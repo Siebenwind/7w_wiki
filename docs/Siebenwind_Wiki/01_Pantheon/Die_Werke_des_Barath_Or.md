@@ -1,11 +1,10 @@
 ---
-layout: wiki_page
+uuid: b4rath-w3rk-2026
 title: "Die Werke des Barath Or"
 category: Religion
 status: integrated
-uuid: b4rath-w3rk-2026
-report_id: b4rath-w3rk-2026
 author: "Barath Or"
+report_id: b4rath-w3rk-2026
 letzter_check: 2026-02-16T18:25:00+01:00
 ---
 

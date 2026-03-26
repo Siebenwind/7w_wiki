@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
-i. Konvent des Löwenordens
+title: "51. Konvent des Löwenordens"
 category: [[index]]
 ---
 
 # 51. Konvent des Löwenordens
 
-**Epistemischer Status:** #bote
-**Datum:** 12. Querler 21 n.H. (Bote 182)
-**Ort:** [[Falkenwall]] (Nordturm)
-**Beteiligte:** [[Toran_Dur]], [[Tyrus_Helbas]], [[Benedict_Rabenfels]], [[Brogar]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 12. Querler 21 n.H. (Bote 182)
+    - **Ort:** [[Falkenwall]] (Nordturm)
+    - **Beteiligte:** [[Toran_Dur]], [[Tyrus_Helbas]], [[Benedict_Rabenfels]], [[Brogar]]
+
 
 ## Beschlüsse
 Auf dem 51. Konvent wählte der [[Orden_der_Wachenden_Löwen]] eine neue Führung:

@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Rianna
 category: Persönlichkeit
-quelle: "[[Forschungsberichte_(Toran_Dur)]]"
 status: "#überlieferung"
+quelle: "[[Forschungsberichte_(Toran_Dur)]]"
 ---
 
 # Rianna

@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a923
 title: Siebenwind Bote 161
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a923
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 161.md
 letzter_check: 2026-02-13T15:10:00+01:00
 ---
 # [[Siebenwind]] Bote 161
 
-**Epistemischer Status:** #bote
-**Datum:** 22. Carmar 18 n.H. (Mondtag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 22. Carmar 18 n.H. (Mondtag)
+
 
 ## Highlights
 *   **Ritterschlag von [[Laske]]:** Im Rahmen des Eröffnungsturniers der Kämpferschule (30. Carmer) wurde der kommissarische Leiter **[[Laske]]** von Graf [[Hagen_Robaar]] zum Ritter geschlagen. Der Segen erfolgte durch Eminenz **[[Sean_Eire]]**.

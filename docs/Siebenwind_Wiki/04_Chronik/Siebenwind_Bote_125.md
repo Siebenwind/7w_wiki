@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 125
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 125
 
-**Epistemischer Status:** #bote
-**Datum:** 6. Carmar 15 n.H.
-**Redaktion:** J.D / R. / B.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 6. Carmar 15 n.H.
+    - **Redaktion:** J.D / R. / B.
+
 
 ## Schlagzeilen
 

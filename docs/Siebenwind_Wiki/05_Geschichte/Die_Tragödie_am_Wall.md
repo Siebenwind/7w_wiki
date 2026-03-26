@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Die Tragödie am Wall
 category: [[index]]
 ---

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Finianswacht
 category: [[Geografie]]
 ---
 
 # Finianswacht
 
-**Typ:** Burg / Festung
-**Epistemischer Status:** #canon
-**Ort:** [[Falkensee]]
+!!! info "Metadaten"
+    - **Typ:** Burg / Festung
+    - **Epistemischer Status:** #canon
+    - **Ort:** [[Falkensee]]
+
 
 ## Beschreibung
 **Finianswacht** ist die mächtige Festung oberhalb von [[Falkensee]]. Sie dient als Residenz der Baronin, Sitz des [[Inselrat|Inselrats]] und Hauptquartier des [[Siebenwind_Kronregiment|Kronregiments]].

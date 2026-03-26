@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Königliches Gericht
 category: [[index]]
 status: Bote
@@ -7,8 +6,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_170]].md
 ---
 # Königliches Gericht
 
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Galadonische Krone / [[Siebenwind]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Galadonische Krone / [[Siebenwind]]
+
 
 ## Beschreibung
 Das **Königliche Gericht** ist die oberste juristische Instanz auf [[Siebenwind]]. Es ist mit der Rechtsprechung und der Einhaltung der galadonischen Gesetze auf der ganzen Insel betraut.

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Arlon Windtanz
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_153]].md
 ---
 # Arlon Windtanz
 
-**Titel:** [[Ritter_der_Sieben_Winde]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritterschaft_der_Sieben_Winde]]
-**Zeitraum:** aktiv ab 17 n.H.
+!!! info "Metadaten"
+    - **Titel:** [[Ritter_der_Sieben_Winde]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ritterschaft_der_Sieben_Winde]]
+    - **Zeitraum:** aktiv ab 17 n.H.
+
 
 ## Beschreibung
 **Sire Arlon Windtanz** ist ein [[Ritter_der_Sieben_Winde]].

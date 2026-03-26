@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Isfaldia
 category: Persönlichkeit
 ---
 
 # Isfaldia
 
-**Rolle:** Heilerin, Aspirantin (Regiment / Ecclesia)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Siebenwind_Kronregiment]], [[Ecclesia_Elementorum]]
-**Zeitraum:** aktiv um 19 n.H.
+!!! info "Metadaten"
+    - **Rolle:** Heilerin, Aspirantin (Regiment / Ecclesia)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Siebenwind_Kronregiment]], [[Ecclesia_Elementorum]]
+    - **Zeitraum:** aktiv um 19 n.H.
+
 
 ## Beschreibung
 Isfaldia ist eine junge Heilerin, die im Jahr 19 n.H. sowohl den Dienst im Kronregiment von [[Siebenwind]] anstrebte als auch als Aspirantin in der [[Ecclesia_Elementorum]] geführt wurde.

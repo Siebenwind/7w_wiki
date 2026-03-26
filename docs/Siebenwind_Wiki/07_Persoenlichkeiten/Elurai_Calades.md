@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Elurai Calades
 category: Persönlichkeit
-quelle: "[Bindungslehre]"
 status: "#überlieferung"
+quelle: "[Bindungslehre]"
 ---
 
 # Elurai Calades

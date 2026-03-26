@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a
 title: Arn
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Arn
 
-**Titel:** Inhaber Warenhaus
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Handelsgilde / [[Brandenstein]] (vermutet)
+!!! info "Metadaten"
+    - **Titel:** Inhaber Warenhaus
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Handelsgilde / [[Brandenstein]] (vermutet)
+
 
 ## Beschreibung
 **Arn** ist der Inhaber eines Warenhauses, der zusammen mit [[Vela]] im Jahr 21 n.H. in Handelsberichten erwähnt wird (Bote 181).

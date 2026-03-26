@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Samuel Lichtenthal
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_136]].md
 ---
 # Samuel Lichtenthal
 
-**Titel:** Koordinator der [[Brandensteiner_Reiter]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandensteiner_Reiter]] / [[Brandenstein]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Koordinator der [[Brandensteiner_Reiter]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Brandensteiner_Reiter]] / [[Brandenstein]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Samuel Lichtenthal** ist ein engagierter Bürger, der sich der Wiederbelebung der historischen Botendienste auf [[Siebenwind]] verschrieben hat.

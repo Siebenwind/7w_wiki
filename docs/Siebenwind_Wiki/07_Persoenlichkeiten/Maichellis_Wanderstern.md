@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Maichellis Wanderstern
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Maichellis Wanderstern
 
-**Titel:** Vogt der [[Elfen]] ("Morgenstern")
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Hochelfen]] / [[Auelfen]]
+!!! info "Metadaten"
+    - **Titel:** Vogt der [[Elfen]] ("Morgenstern")
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Hochelfen]] / [[Auelfen]]
+
 
 ## Beschreibung
 **Maichellis Wanderstern** ist eine der prägendsten militärischen Führungsfiguren der Hochelfen auf [[Siebenwind]]. Als Vogt der elfischen Völker und Träger des Ehrentitels **"Morgenstern"** (verliehen 29 n.H., Bote 189) genießt er höchstes Ansehen.

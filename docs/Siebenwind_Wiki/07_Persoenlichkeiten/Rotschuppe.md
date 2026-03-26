@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Rotschuppe
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_193]].md
 ---
 # Rotschuppe
 
-**Titel:** Roter Lindwurm
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** unbekannt
-**Zeitraum:** aktiv ab 30 n.H.
+!!! info "Metadaten"
+    - **Titel:** Roter Lindwurm
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** unbekannt
+    - **Zeitraum:** aktiv ab 30 n.H.
+
 
 ## Beschreibung
 **Rotschuppe** ist ein roter, sechsgehörnter Lindwurm. Er ist etwas kleiner als seine Geschwister [[Akassvae]] und [[Petrichor]], aber dennoch eine ernstzunehmende Bedrohung. Er ist in der Lage, einen vernichtenden Feuerstrahl zu speien.

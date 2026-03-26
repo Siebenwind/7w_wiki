@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Johannes Klos
 category: Persönlichkeit
-quelle: "[Locus Magicae]"
 status: "#überlieferung"
+quelle: "[Locus Magicae]"
 ---
 
 # Johannes Klos

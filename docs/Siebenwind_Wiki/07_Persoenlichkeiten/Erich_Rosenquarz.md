@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Erich Rosenquarz
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_136]].md
 ---
 # Erich Rosenquarz
 
-**Titel:** Bankier zu [[Falkensee]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Falkensee]] / Wirtschaftsgilde
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Bankier zu [[Falkensee]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Falkensee]] / Wirtschaftsgilde
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Erich Rosenquarz** ist der prominente Bankier der aufstrebenden Hauptstadt [[Falkensee]]. Er verwaltet bedeutende Vermögenswerte und gilt als zentrale Figur im wirtschaftlichen Leben der Stadt.

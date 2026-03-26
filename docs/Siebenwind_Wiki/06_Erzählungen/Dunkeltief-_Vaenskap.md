@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
+uuid: v4nsk4p-dunk-2026
 title: Dunkeltief - Vänskap
 category: Erzählungen
 status: integrated
-uuid: v4nsk4p-dunk-2026
 report_id: v4nsk4p-dunk-2026
 tags: [Vänskap, Dunkeltief, Belagerung, Nortraven, Saranen, Untote]
 letzter_check: 2026-02-16T18:35:00+01:00

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Koenigreich Galadon
 category: Allgemein
 status: UNGEKLAERT

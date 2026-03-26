@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Quendan Ryandoris
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_134]].md
 ---
 # Quendan Ryandoris
 
-**Titel:** Anwärter der [[Ecclesia_Elementorum]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ecclesia_Elementorum]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Anwärter der [[Ecclesia_Elementorum]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ecclesia_Elementorum]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Quendan Ryandoris** ist ein Anwärter der [[Ecclesia_Elementorum]]. Er stammt ursprünglich aus einem Dorf nahe Ventria und ist der Sohn des Hufschmieds Ramirez Ryandoris.

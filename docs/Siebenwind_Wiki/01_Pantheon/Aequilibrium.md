@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Aequilibrium
 category: Religion
 ---
 
 # Aequilibrium
 
-**Epistemischer Status:** #überlieferung
-**Autor:** [[Donarius_Derrvus]], Hochgeweihter des Ordo Astraeli
-**Vollständiger Titel:** *Aequilibrium - Philosophie des Gleichgewichts das Tor des Bösen in unsere Sphäre?*
+!!! info "Metadaten"
+    - **Epistemischer Status:** #überlieferung
+    - **Autor:** [[Donarius_Derrvus]], Hochgeweihter des Ordo Astraeli
+    - **Vollständiger Titel:** *Aequilibrium - Philosophie des Gleichgewichts das Tor des Bösen in unsere Sphäre?*
+
 
 Das Werk **Aequilibrium** ist eine kritische Auseinandersetzung mit der "Theorie des Gleichgewichts", wie sie unter Druiden, Hexen, [[Elfen]] und Elementaristen verbreitet ist. Der Autor [[Donarius_Derrvus]] untersucht drei verschiedene Ebenen des Gleichgewichts und bewertet sie aus Sicht der [[Kirche_der_Viere]].
 

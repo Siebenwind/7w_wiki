@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a913
 title: Siebenwind Bote 151
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a913
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 151.md
 letzter_check: 2026-02-13T02:30:00+01:00
 ---
 # [[Siebenwind]] Bote 151
 
-**Epistemischer Status:** #bote
-**Datum:** 9. Carmar 17 n.H. (Mondtag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 9. Carmar 17 n.H. (Mondtag)
+
 
 ## Highlights
 *   **Krieg gegen [[Orken]]:** Eskalation im Orklager. Orks entführten Lehnsherr **[[Hagen_Robaar]]** und Ritter **[[Caeden_Ecanas]]** (Ecanas befreit, Robaar verschleppt). Das Lager wurde niedergebrannt, das Kriegsrecht verhängt.

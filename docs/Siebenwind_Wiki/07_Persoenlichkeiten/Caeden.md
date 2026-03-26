@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Caeden
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_139]].md
 ---
 # Caeden
 
-**Titel:** Knappe
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Lehensbanner]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Knappe
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Lehensbanner]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Caeden** ist ein Knappe im Dienste des Lehens. Er gilt als mutiger und loyaler Streiter.

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Antimagie und Gegenzauber
 category: [[index]]
 status: integrated

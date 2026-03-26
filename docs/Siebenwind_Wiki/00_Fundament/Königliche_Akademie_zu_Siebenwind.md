@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Koenigliche Akademie zu Siebenwind
 category: Allgemein
 status: UNGEKLAERT

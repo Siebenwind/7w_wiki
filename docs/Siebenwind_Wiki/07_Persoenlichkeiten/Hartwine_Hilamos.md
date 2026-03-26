@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Hartwine Hilamos
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_163]].md
 ---
 # Hartwine Hilamos
 
-**Titel:** Bankiersfrau
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Falkensee]] / Handel & Bankwesen
-**Zeitraum:** aktiv bis 19 n.H. (†)
+!!! info "Metadaten"
+    - **Titel:** Bankiersfrau
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Falkensee]] / Handel & Bankwesen
+    - **Zeitraum:** aktiv bis 19 n.H. (†)
+
 
 ## Beschreibung
 **Hartwine Hilamos** war eine bekannte und angesehene Bankiersfrau in [[Falkensee]]. Sie galt als unauffällige und loyale Bürgerin, bis sie im Jahr 19 n.H. plötzlich gewalttätig wurde.

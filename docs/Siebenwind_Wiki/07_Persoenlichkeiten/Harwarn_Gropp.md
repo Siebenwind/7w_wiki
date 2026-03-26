@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Harwarn Gropp
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_139]].md
 ---
 # [[Harwarn]] Gropp
 
-**Titel:** Wirt
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Familie_Gropp]] / Taverne "Zur Roten Seeschlange" / [[Brandenstein]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Wirt
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Familie_Gropp]] / Taverne "Zur Roten Seeschlange" / [[Brandenstein]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **[[Harwarn]] Gropp** ist ein Mitglied der einflussreichen [[Familie_Gropp]] und Wirt der renommierten Taverne "Zur Roten Seeschlange" in [[Brandenstein]].

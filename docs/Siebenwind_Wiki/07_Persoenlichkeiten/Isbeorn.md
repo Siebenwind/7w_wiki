@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Isbeorn
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Isbeorn
 
-**Titel:** Krieger (Berserker)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Nortraven]]
+!!! info "Metadaten"
+    - **Titel:** Krieger (Berserker)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Nortraven]]
+
 
 ## Beschreibung
 **Isbeorn** ist ein mächtiger Krieger der [[Nortraven]].

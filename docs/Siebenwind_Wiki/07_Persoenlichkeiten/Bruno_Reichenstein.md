@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f
 title: Bruno Reichenstein
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Bruno Reichenstein
 
-**Titel:** Turnierveranstalter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]] / Adel (vermutet)
+!!! info "Metadaten"
+    - **Titel:** Turnierveranstalter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Brandenstein]] / Adel (vermutet)
+
 
 ## Beschreibung
 **Bruno Reichenstein** ist als Organisator von Turnieren und ritterlichen Wettkämpfen im Jahr 19 n.H. bekannt (Bote 169).

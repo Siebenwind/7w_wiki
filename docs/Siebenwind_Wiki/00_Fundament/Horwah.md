@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Horwah
 category: Allgemein
 status: UNGEKLAERT

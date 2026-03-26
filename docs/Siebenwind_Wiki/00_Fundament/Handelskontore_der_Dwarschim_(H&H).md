@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Handelskontore der Dwarschim (H&H)
 category: [[index]]
 ---

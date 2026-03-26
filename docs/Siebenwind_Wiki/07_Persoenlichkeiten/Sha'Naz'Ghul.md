@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 8c9d0e1f-2a3b-4c4d-5e6f-7a8b9c0d1e2f
 title: Sha'Naz'Ghul
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 # Sha'Naz'Ghul
 
-**Titel:** Dämon (erwähnt)
-**Epistemischer Status:** #überlieferung
-**Zugehörigkeit:** Dunkle Mächte / Legenden
+!!! info "Metadaten"
+    - **Titel:** Dämon (erwähnt)
+    - **Epistemischer Status:** #überlieferung
+    - **Zugehörigkeit:** Dunkle Mächte / Legenden
+
 
 ## Beschreibung
 **Sha'Naz'Ghul** ist eine dämonische Entität, die in okkulten Warnungen oder historischen Berichten über dunkle Bedrohungen im Jahr 16 n.H. erwähnt wird (Bote 135).

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 124
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 124
 
-**Epistemischer Status:** #bote
-**Datum:** 25. Carmer 15 n.H.
-**Redaktion:** J.D / [[Arn]] / HTd
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 25. Carmer 15 n.H.
+    - **Redaktion:** J.D / [[Arn]] / HTd
+
 
 ## Schlagzeilen
 

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Etriska
 category: Allgemein
 status: UNGEKLAERT

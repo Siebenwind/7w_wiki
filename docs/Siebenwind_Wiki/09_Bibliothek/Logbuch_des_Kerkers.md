@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Logbuch des Kerkers
 category: [[index]]
-tags: [Erzählung, [[Dunkeltief]], [[Falkensee]], [[Untote]], [[Waldemar_Delarie]]]
 status: #perspektive
+tags: [Erzählung, [[Dunkeltief]], [[Falkensee]], [[Untote]], [[Waldemar_Delarie]]]
 ---
 
 # Logbuch des Kerkers

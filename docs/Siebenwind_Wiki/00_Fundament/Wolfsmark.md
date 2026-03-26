@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Wolfsmark
 category: Allgemein
 status: UNGEKLAERT

@@ -15,11 +15,12 @@ import subprocess
 from pathlib import Path
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
+from content_contract import TECHNICAL_WIKI_ROOT
 
 # --- Configuration ---
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 WATCH_DIRS = [
-    PROJECT_ROOT / "Siebenwind_Wiki",
+    TECHNICAL_WIKI_ROOT,
     PROJECT_ROOT / "Quellen"
 ]
 BUILD_INDEX_SCRIPT = PROJECT_ROOT / ".agent" / "skills" / "oracle" / "build_index.py"

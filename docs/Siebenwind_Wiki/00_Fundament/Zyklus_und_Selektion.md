@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Zyklus und Selektion
 category: Allgemein
 status: UNGEKLAERT

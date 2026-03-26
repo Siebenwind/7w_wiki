@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Toran Dur Turm
 category: Allgemein
 status: UNGEKLAERT

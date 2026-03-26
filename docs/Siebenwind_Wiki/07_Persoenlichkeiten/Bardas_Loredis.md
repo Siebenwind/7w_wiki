@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d
 title: Bardas Loredis
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Bardas Loredis
 
-**Titel:** Novize
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Vitamae]] / [[Vitama]]
+!!! info "Metadaten"
+    - **Titel:** Novize
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ordo_Vitamae]] / [[Vitama]]
+
 
 ## Beschreibung
 **Bardas Loredis** ist ein Novize der [[Vitama]]-Kirche, der im Jahr 19 n.H. seine Ausbildung absolvierte (Bote 165).

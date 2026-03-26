@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Merros
 category: [[index]]
 ---
 
 # Merros
 
-**Typ:** Dämon / Widersacher
-**Epistemischer Status:** #überlieferung
-**Zugehörigkeit:** Dunkle Mächte / Widersacher von [[Terra]]
+!!! info "Metadaten"
+    - **Typ:** Dämon / Widersacher
+    - **Epistemischer Status:** #überlieferung
+    - **Zugehörigkeit:** Dunkle Mächte / Widersacher von [[Terra]]
+
 
 ## Beschreibung
 **Merros** gilt in der Mythologie von [[Siebenwind]] als der "Verräter von Terra" oder der "Schattengärtner". Er ist eine dunkle Wesenheit, die danach strebt, das Wachstum der Natur ins Chaos zu stürzen und die Ordnung zu vernichten.

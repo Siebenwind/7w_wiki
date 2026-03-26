@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Woran Lebensmüh
 category: [[Persönlichkeiten]]
 ---

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Angriff der Schwarzmagier (18 n.H.)
 category: [[Geschichte]]
 ---
 
 # Angriff der Schwarzmagier (18 n.H.)
 
-**Zeitpunkt:** 22. Carmar 18 n.H.
-**Epistemischer Status:** #bote
-**Ort:** Magierakademie von [[Siebenwind]]
+!!! info "Metadaten"
+    - **Zeitpunkt:** 22. Carmar 18 n.H.
+    - **Epistemischer Status:** #bote
+    - **Ort:** Magierakademie von [[Siebenwind]]
+
 
 ## Zusammenfassung
 Im Frühjahr 18 n.H. verübten Anhänger der Schwarzmagier (Schergen des "Einen") einen heimtückischen Angriff auf die Magierakademie. Ziel des Angriffs war es, das Gleichgewicht und den Frieden auf der Insel durch ein ketzerisches magisches Abfallprodukt zu stören.

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Ingjald
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Ingjald
 
-**Titel:** Jarl der [[Nortraven]] / Edler (Earl)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Nortraven]] / [[Vänskap]]
+!!! info "Metadaten"
+    - **Titel:** Jarl der [[Nortraven]] / Edler (Earl)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Nortraven]] / [[Vänskap]]
+
 
 ## Beschreibung
 **Ingjald** ist der Jarl (Anführer) der [[Nortraven]] auf [[Siebenwind]].

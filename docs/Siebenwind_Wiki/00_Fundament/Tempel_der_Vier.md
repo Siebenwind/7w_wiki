@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Tempel der Vier
 category: Allgemein
 status: UNGEKLAERT

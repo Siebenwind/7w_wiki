@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Die Namikleris
 category: [[index]]
-tags: [Erzählung, Seefahrt, [[Brandenstein]], Malthust, Tintin]
 status: #perspektive
+tags: [Erzählung, Seefahrt, [[Brandenstein]], Malthust, Tintin]
 ---
 
 # Die Namikleris

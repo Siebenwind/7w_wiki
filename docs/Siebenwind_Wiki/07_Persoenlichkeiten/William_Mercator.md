@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: w1ll14m-m3rc4t0r-21nh
 title: William Mercator
 category: Persönlichkeit
-uuid: w1ll14m-m3rc4t0r-21nh
 quelle: ../../Quellen/Spielergeschichten/[[Briefe_aus_der_Ferne]].md
 letzter_check: 2026-02-13T23:10:00
 ---
 
 # William Mercator
 
-**Epistemischer Status:** #perspektive
-**Titel:** Laie des Astraelordens
-**Zugehörigkeit:** [[Astraelorden]] / [[Ecclesia]]
-**Zeitraum:** Aktiv um 21 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Laie des Astraelordens
+    - **Zugehörigkeit:** [[Astraelorden]] / [[Ecclesia]]
+    - **Zeitraum:** Aktiv um 21 n.H.
+
 
 ## Beschreibung
 William Mercator ist ein gläubiger Laie des [[Astraelorden]]. Er wird als ein Mann charakterisiert, der mit starken Schuldgefühlen gegenüber seiner verstorbenen Tochter—der Ehefrau von [[Taleris_Kreytz]]—zu kämpfen hat. 

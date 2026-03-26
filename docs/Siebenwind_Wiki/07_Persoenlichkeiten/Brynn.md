@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Brynn
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_159]].md
 ---
 # Brynn
 
-**Titel:** Königin von Galadon
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Galadonische Krone
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Königin von Galadon
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Galadonische Krone
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Brynn** ist die Gemahlin von König [[Hilgorad_I_ap_Mer]]. 

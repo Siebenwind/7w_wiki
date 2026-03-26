@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Sire Randur Kantrin
 category: Allgemein
 status: UNGEKLAERT

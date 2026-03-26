@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b
 title: Fabius
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Fabius
 
-**Titel:** Barde / Ratskandidat
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Unterhaltung / Politik
+!!! info "Metadaten"
+    - **Titel:** Barde / Ratskandidat
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Unterhaltung / Politik
+
 
 ## Beschreibung
 **Fabius** ist ein Barde, der im Jahr 18 n.H. für den Rat kandidierte. Er ist für seine rhetorischen Fähigkeiten und sein musikalisches Talent bekannt (Bote 159).

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Kriegerakademie Seeberg
 category: Allgemein
 status: UNGEKLAERT

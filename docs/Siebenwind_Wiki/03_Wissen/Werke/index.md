@@ -1,6 +1,5 @@
 ---
-layout: wiki_page
-title: Werke
+title: "Siebenwind Wiki - Werke"
 ---
 
 # [[Siebenwind]] Wiki - Werke

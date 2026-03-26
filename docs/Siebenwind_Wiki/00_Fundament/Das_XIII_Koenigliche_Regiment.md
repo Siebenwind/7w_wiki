@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Das XIII Koenigliche Regiment
 category: Allgemein
 status: UNGEKLAERT

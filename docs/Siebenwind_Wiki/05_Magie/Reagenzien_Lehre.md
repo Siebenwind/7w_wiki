@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Reagenzien-Lehre (Fokus-Theorie)
 category: [[index]]
 status: integrated

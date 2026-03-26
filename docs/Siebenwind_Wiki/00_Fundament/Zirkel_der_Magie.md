@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Zirkel der Magie
 category: Allgemein
 status: UNGEKLAERT

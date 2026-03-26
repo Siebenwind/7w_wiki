@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Proveus Herand
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_175]].md
 ---
 # Proveus Herand
 
-**Titel:** Erzgeweihter des [[Bellum|Bellum]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ecclesia_Elementorum]] / [[Bellum|Ordo Bellum]]
-**Zeitraum:** aktiv ab 20 n.H.
+!!! info "Metadaten"
+    - **Titel:** Erzgeweihter des [[Bellum|Bellum]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ecclesia_Elementorum]] / [[Bellum|Ordo Bellum]]
+    - **Zeitraum:** aktiv ab 20 n.H.
+
 
 ## Beschreibung
 **Proveus Herand** ist ein hochrangiger Geweihter des Gottes [[Bellum|Bellum]]. Er ist bekannt für seine tiefe Verbundenheit mit dem Schrein zu [[Brandenstein]] und seine gerechte Urteilsfindung.

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Theorie zur arkanen index (Generaltheorie)
 category: Magie
 ---

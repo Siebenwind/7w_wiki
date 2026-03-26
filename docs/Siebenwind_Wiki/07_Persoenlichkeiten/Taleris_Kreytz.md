@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: t4l3r15-kr3ytz-21nh
 title: Taleris Kreytz
 category: Persönlichkeit
-uuid: t4l3r15-kr3ytz-21nh
 quelle: ../../Quellen/Spielergeschichten/[[Briefe_aus_der_Ferne]].md
 letzter_check: 2026-02-13T23:10:00
 ---
 
 # Taleris Kreytz
 
-**Epistemischer Status:** #perspektive
-**Titel:** Magister Magus Emeritus
-**Zugehörigkeit:** [[Königliche_Akademie_zu_Siebenwind]] / [[Seeberg]]
-**Zeitraum:** Aktiv um 21 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Magister Magus Emeritus
+    - **Zugehörigkeit:** [[Königliche_Akademie_zu_Siebenwind]] / [[Seeberg]]
+    - **Zeitraum:** Aktiv um 21 n.H.
+
 
 ## Beschreibung
 Taleris Kreytz ist ein hochangesehener Magier und Gelehrter an der [[Königliche_Akademie_zu_Siebenwind]]. Er hält den Titel eines "Magister Magus Emeritus" inne, was auf eine lange und verdienstvolle Karriere in der akademischen Lehre hindeutet. Er wird als kultivierter, aber phasenweise einsamer Mann beschrieben, der großen Wert auf Etikette und Bildung legt.

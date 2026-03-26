@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: r4jk4-54n53h4-21nh
 title: Rajka Sanseha
 category: Persönlichkeit
-uuid: r4jk4-54n53h4-21nh
 quelle: ../../Quellen/Spielergeschichten/[[Briefe_aus_der_Ferne]].md
 letzter_check: 2026-02-13T23:10:00
 ---
 
 # Rajka Sanseha
 
-**Epistemischer Status:** #perspektive
-**Titel:** Schneiderin
-**Zugehörigkeit:** [[Seeberg]] / [[Falkensee]] (Gechäftlich)
-**Zeitraum:** Aktiv um 21 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Schneiderin
+    - **Zugehörigkeit:** [[Seeberg]] / [[Falkensee]] (Gechäftlich)
+    - **Zeitraum:** Aktiv um 21 n.H.
+
 
 ## Beschreibung
 Rajka Sanseha ist eine geschickte Schneiderin, die für ihre feinen Arbeiten mit Nadel und Faden bekannt ist. Sie wird als fleißige und familiäre Frau beschrieben, die einige Zeit auf dem Festland verbrachte, um ihren schwer kranken Vater bis zu seinem Tod zu pflegen. Trotz ihrer starken familiären Bindungen zieht es sie immer wieder nach [[Siebenwind]] zurück, wo sie sich einen festen Kundenstamm (u.a. [[Gabriel_Nassau]]) aufgebaut hat.

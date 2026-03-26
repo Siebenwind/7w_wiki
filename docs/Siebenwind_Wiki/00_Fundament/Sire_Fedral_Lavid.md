@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Sire Fedral Lavid
 category: Allgemein
 status: UNGEKLAERT

@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: schw4rz3-l3gi0n-22nh
 title: Schwarze Legion
 category: [[index]]
-uuid: schw4rz3-l3gi0n-22nh
 quelle: ../../Quellen/Spielergeschichten/[[Blutschwert]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
 letzter_check: 2026-02-13T23:00:00
 ---
 
 # Schwarze Legion
 
-**Epistemischer Status:** #perspektive
-**Typ:** Fanatische Militärorganisation
-**Zugehörigkeit:** Diener des "Einen" ([[Angamon]])
-**Sitz:** Vandrien (operativ)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Typ:** Fanatische Militärorganisation
+    - **Zugehörigkeit:** Diener des "Einen" ([[Angamon]])
+    - **Sitz:** Vandrien (operativ)
+
 
 ## Überblick
 Die Schwarze Legion ist eine während des vandrischen Bürgerkriegs gegründete Eliteeinheit, die dem "Gottkönig" ([[Angamon]]) dient. Sie ist berüchtigt für ihre Rücksichtslosigkeit, ihre disziplinierte Grausamkeit und ihre mysteriöse Aura.

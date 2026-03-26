@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Orden vom Lieblichen Kelche Vitamas
 category: Allgemein
 status: UNGEKLAERT

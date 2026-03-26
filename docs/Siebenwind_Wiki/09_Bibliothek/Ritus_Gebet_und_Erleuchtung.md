@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Ritus, Gebet und Erleuchtung
 category: [[index]]
-tags: [Erzählung, [[Angamon]], Kult, Ritus]
 status: #perspektive
+tags: [Erzählung, [[Angamon]], Kult, Ritus]
 ---
 
 # Ritus, Gebet und Erleuchtung

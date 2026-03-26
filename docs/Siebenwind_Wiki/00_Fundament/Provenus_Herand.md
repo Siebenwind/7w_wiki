@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Provenus Herand
 category: Allgemein
 status: UNGEKLAERT

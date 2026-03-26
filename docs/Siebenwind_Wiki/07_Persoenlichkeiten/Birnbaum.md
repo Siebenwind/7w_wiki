@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Birnbaum
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Birnbaum
 
-**Epistemischer Status:** #überlieferung
-**Beruf:** Magister Extraordinarius
-**Zugehörigkeit:** [[Toran_Dur]] / [[Custos_artis_Magicae]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #überlieferung
+    - **Beruf:** Magister Extraordinarius
+    - **Zugehörigkeit:** [[Toran_Dur]] / [[Custos_artis_Magicae]]
+
 
 ## Beschreibung
 Magister Extraordinarius **Birnbaum** war ein arkaner Gelehrter, der sich um 14 n.H. mit der Untersuchung von untoten Phänomenen während der [[Finsterwangen]]-Krise beschäftigte. 

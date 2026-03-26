@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ausbildung
 category: Allgemein
 status: UNGEKLAERT

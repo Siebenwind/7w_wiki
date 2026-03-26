@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Orken
 category: Rasse
 author: [[Siebenwind]] Chronicler

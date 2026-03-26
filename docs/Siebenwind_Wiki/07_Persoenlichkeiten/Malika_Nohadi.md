@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Malika Nohadi
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_136]].md
 ---
 # Malika Nohadi
 
-**Titel:** Ritterin des Falken (†)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Falkenorden / [[Brandenstein]]
-**Zeitraum:** verstorben 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Ritterin des Falken (†)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Falkenorden / [[Brandenstein]]
+    - **Zeitraum:** verstorben 16 n.H.
+
 
 ## Beschreibung
 **Malika Nohadi** war eine hochverehrte Ritterin des Falken und eine treue Dienerin der Krone. Sie galt als Inbegriff von Weisheit, Güte und Mut.

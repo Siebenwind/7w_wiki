@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Schlacht um Falkensee
 category: [[index]]
 ---
 
 # Schlacht um [[Falkensee]]
 
-**Epistemischer Status:** #bote
-**Datum:** 1. Seker 21 n.H. (Bote 184)
-**Ort:** [[Falkensee]]
-**Teil von:** [[Putsch_in_Falkensee]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 1. Seker 21 n.H. (Bote 184)
+    - **Ort:** [[Falkensee]]
+    - **Teil von:** [[Putsch_in_Falkensee]]
+
 
 ## Verlauf
 Als Höhepunkt des Putsches griff die [[Graue_Garde]] unter Stellvertreter [[Steinhauer]], unterstützt von Orks und Kriminellen aus dem Südviertel, die loyalistischen Kräfte (Rat, [[Löwenorden]], [[Region_Malthust]]) an.

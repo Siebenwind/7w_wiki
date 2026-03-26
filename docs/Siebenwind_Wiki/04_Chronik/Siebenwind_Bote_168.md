@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: f1e2d3c4-b5a6-4c7d-8e9f-a0b1c2d3e4f5
 title: Siebenwind Bote 168
 category: [[index]]
 status: Bote
-uuid: f1e2d3c4-b5a6-4c7d-8e9f-a0b1c2d3e4f5
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 168.md
 letzter_check: 2026-02-13T15:45:00+01:00
 ---
 # [[Siebenwind]] Bote 168
 
-**Epistemischer Status:** #bote
-**Datum:** 24. Carmer 19 n.H. (Mittentag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 24. Carmer 19 n.H. (Mittentag)
+
 
 ## Highlights
 *   **Kriegsrecht auf [[Siebenwind]]:** Aufgrund fortwährender Übergriffe durch den Stamm der [[Orks]] hat Baronin [[Beladriel_Blaettertanz]] das **Kriegsrecht** verhängt. Die [[Ritter_der_Sieben_Winde]] und die Armee haben die volle Kontrolle über Sicherheitsmaßnahmen übernommen.

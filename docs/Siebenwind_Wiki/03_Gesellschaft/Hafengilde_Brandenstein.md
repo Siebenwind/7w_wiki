@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Hafengilde Brandenstein
 category: [[Gesellschaft]]
 ---
 
 # Hafengilde [[Brandenstein]]
 
-**Typ:** Berufsverband / Behörde
-**Epistemischer Status:** #bote
-**Sitz:** [[Brandenstein]]
+!!! info "Metadaten"
+    - **Typ:** Berufsverband / Behörde
+    - **Epistemischer Status:** #bote
+    - **Sitz:** [[Brandenstein]]
+
 
 ## Beschreibung
 Die **Hafengilde von [[Brandenstein]]** regelt den Schiffsverkehr und die Warenabwicklung im aufstrebenden Hafen der Stadt. Sie untersteht der Aufsicht der [[Inselpatrizier]] und arbeitet eng mit dem Hafenvogt zusammen.

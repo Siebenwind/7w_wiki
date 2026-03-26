@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Niklas Rattenfänger
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_166]].md
 ---
 # Niklas Rattenfänger
 
-**Titel:** Rattenfänger / Tagelöhner
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]] / [[Handel]]
-**Zeitraum:** aktiv 19 n.H. bis † 20 n.H.
+!!! info "Metadaten"
+    - **Titel:** Rattenfänger / Tagelöhner
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Brandenstein]] / [[Handel]]
+    - **Zeitraum:** aktiv 19 n.H. bis † 20 n.H.
+
 
 ## Beschreibung
 **Niklas** ist ein Rattenfänger und Tagelöhner, der vor allem in [[Brandenstein]] und [[Falkensee]] tätig ist. Er gilt als zuverlässig, diskret und mutig, wenn es darum geht, die Bewohner der Insel vor den Gefahren der Kanalisation zu schützen.

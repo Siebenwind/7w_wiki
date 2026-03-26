@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: 01 Vitama
 category: Allgemein
 status: UNGEKLAERT

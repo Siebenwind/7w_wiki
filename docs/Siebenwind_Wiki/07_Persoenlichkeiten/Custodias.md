@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Custodias
 category: Persönlichkeit
 ---
 
 # Custodias
 
-**Titel:** Hochgeweihter des [[Astrael]], Hüter des Rechts, ehem. Abt
-**Epistemischer Status:** #canon
-**Zugehörigkeit:** Kirche des [[Astrael]] / Ersonter Rat
-**Zeitraum:** Aktiv (Hüter des Rechts seit 21 n.H.)
+!!! info "Metadaten"
+    - **Titel:** Hochgeweihter des [[Astrael]], Hüter des Rechts, ehem. Abt
+    - **Epistemischer Status:** #canon
+    - **Zugehörigkeit:** Kirche des [[Astrael]] / Ersonter Rat
+    - **Zeitraum:** Aktiv (Hüter des Rechts seit 21 n.H.)
+
 
 ## Beschreibung
 Custodias ist eine der einflussreichsten geistlichen und politischen Figuren in [[Falkensee]]. Als Hochgeweihter des [[Astrael]] und "Hüter des Rechts" verbindet er göttliche Weisheit mit weltlicher Rechtsprechung. Er ist bekannt für seinen scharfen Verstand, aber auch für seine Verwicklung in die harten politischen Machtkämpfe des Ersonter Bundes.

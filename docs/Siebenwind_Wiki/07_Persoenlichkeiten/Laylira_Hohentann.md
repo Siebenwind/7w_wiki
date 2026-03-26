@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Laylira Hohentann
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_175]].md
 ---
 # Laylira Hohentann
 
-**Titel:** Novizia / Heilende Hand Vitamas
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Vitama]] / [[Orden_der_Traenen_Vitamas]] (?)
-**Zeitraum:** aktiv ab 20 n.H.
+!!! info "Metadaten"
+    - **Titel:** Novizia / Heilende Hand Vitamas
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Vitama]] / [[Orden_der_Traenen_Vitamas]] (?)
+    - **Zeitraum:** aktiv ab 20 n.H.
+
 
 ## Beschreibung
 **Laylira Hohentann** ist eine verdiente Novizin der Göttin [[Vitama]]. Sie erlangte große Bekanntheit durch ihren unermüdlichen Einsatz während der Krise des [[Atmender_Tod|Atmenden Todes]].

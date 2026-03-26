@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Jagd auf Elares_Valjean
 category: [[index]]
 ---
 
 # Jagd auf [[Elares_Valjean]]
 
-**Epistemischer Status:** #bote
-**Datum:** 20. Querlar 15 n.H. (Bote 122)
-**Beteiligte:** [[Mael_Duin]], [[Elares_Valjean]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 20. Querlar 15 n.H. (Bote 122)
+    - **Beteiligte:** [[Mael_Duin]], [[Elares_Valjean]]
+
 
 ## Beschreibung
 Marschall [[Mael_Duin]] stellte [[Elares_Valjean]] ein Ultimatum: Er müsse sich innerhalb von drei Tagen unbewaffnet stellen, da er ein "Aufrührer gegen die göttergewollte Ordnung" sei.

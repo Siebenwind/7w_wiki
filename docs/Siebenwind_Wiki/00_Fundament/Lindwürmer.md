@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lindwuermer
 category: Allgemein
 status: UNGEKLAERT

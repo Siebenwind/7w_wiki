@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Baronie Siebenwind
 category: Allgemein
 status: UNGEKLAERT

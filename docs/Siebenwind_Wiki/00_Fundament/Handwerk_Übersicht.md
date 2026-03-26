@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Handwerk Übersicht
 category: Index
 ---

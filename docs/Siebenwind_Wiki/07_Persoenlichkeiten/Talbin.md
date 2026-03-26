@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Talbin
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Talbin
 
-**Titel:** Rekrut (ehemals) / Wegelagerer
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Region_Malthust]] (ehemals)
+!!! info "Metadaten"
+    - **Titel:** Rekrut (ehemals) / Wegelagerer
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Region_Malthust]] (ehemals)
+
 
 ## Beschreibung
 **Talbin** war ein Rekrut der Malthuster Armee, der im Jahr 21 n.H. (Bote 182) wegen Wegelagerei, Befehlsverweigerung und Angriffe auf [[Zwerge]] verurteilt wurde.

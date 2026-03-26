@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: e9292e20-bf18-448f-b0a1-81b5fcf43e64
 title: Siebenwind Bote 135
 category: [[index]]
 status: Bote
-uuid: e9292e20-bf18-448f-b0a1-81b5fcf43e64
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 135.md
 letzter_check: 2026-02-13T00:52:00+01:00
 ---
 # [[Siebenwind]] Bote 135
 
-**Epistemischer Status:** #bote
-**Datum:** 14. Trier 16 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 14. Trier 16 n.H.
+
 
 ## Überblick
 Diese Ausgabe berichtet von einer klerikalen Versammlung zu den mysteriösen Runensteinen, dem Ende der großen Hitze, Fortschritten beim Bau von [[Falkensee]] und der Verhaftung eines gefährlichen Wegelagerers bei [[Seeberg]].

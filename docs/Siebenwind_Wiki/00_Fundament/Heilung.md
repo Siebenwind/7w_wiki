@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Heilung
 category: Allgemein
 status: UNGEKLAERT

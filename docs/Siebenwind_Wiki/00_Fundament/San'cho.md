@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: San'cho
 category: Allgemein
 status: UNGEKLAERT

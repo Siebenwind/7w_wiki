@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Schneid
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_192]].md
 ---
 # Schneid
 
-**Titel:** Marinesoldat
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Marine_Siebenwinds]] / [[Brandenstein]]
-**Zeitraum:** aktiv um 30 n.H.
+!!! info "Metadaten"
+    - **Titel:** Marinesoldat
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Marine_Siebenwinds]] / [[Brandenstein]]
+    - **Zeitraum:** aktiv um 30 n.H.
+
 
 ## Beschreibung
 **Schneid** ist ein bekannter Marinesoldat der Baronie [[Brandenstein]]. Er zeichnet sich durch seine beachtliche Körpergröße und seine physische Stärke aus.

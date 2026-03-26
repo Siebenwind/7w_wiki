@@ -1,19 +1,20 @@
 ---
-layout: wiki_page
+uuid: C8D39A64-BF40-4D2B-B3EB-847F6D68FE5A
 title: Hagen Robaar
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Kanon
 quelle: [[Siebenwind_Bote_151]], [[Siebenwind_Bote_155]], [[Siebenwind_Bote_174]], [[Adelskalender]]
-uuid: C8D39A64-BF40-4D2B-B3EB-847F6D68FE5A
 letzter_check: 2026-02-13T15:30:00+01:00
 ---
 
 # Hagen Robaar
 
-**Titel:** Graf von Saalhorn, ehemaliger Graf & Lehnsherr von [[Siebenwind]]
-**Epistemischer Status:** #canon
-**Zugehörigkeit:** Haus Saalhorn / Blutsadel
-**Zeitraum:** aktiv bis 20 n.H. (Lehnsherr & Großmeister)
+!!! info "Metadaten"
+    - **Titel:** Graf von Saalhorn, ehemaliger Graf & Lehnsherr von [[Siebenwind]]
+    - **Epistemischer Status:** #canon
+    - **Zugehörigkeit:** Haus Saalhorn / Blutsadel
+    - **Zeitraum:** aktiv bis 20 n.H. (Lehnsherr & Großmeister)
+
 
 ## Beschreibung
 **Hagen Robaar** ist ein hochrangiger Blutsadliger des Hauses Saalhorn. Er bekleidete lange Zeit das Amt des Grafen von [[Siebenwind]] und war Großmeister der [[Ritterschaft_der_Sieben_Winde]].

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Militaer
 category: Allgemein
 status: UNGEKLAERT

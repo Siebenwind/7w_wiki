@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Visor Noctis
 category: Allgemein
 status: UNGEKLAERT

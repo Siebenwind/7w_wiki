@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Cho Shnaz
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Cho Shnaz
 
-**Titel:** Häuptling (Cho)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Orken]]
+!!! info "Metadaten"
+    - **Titel:** Häuptling (Cho)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Orken]]
+
 
 ## Beschreibung
 **Cho Shnaz** ist der Häuptling eines Orkenstammes, der in der Nähe des Ersonter Bundes siedelt.

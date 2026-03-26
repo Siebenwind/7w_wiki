@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Anonymus
 category: [[Persoenlichkeiten_Uebersicht]]
 quelle: [[Wissen_Siebenwind]]
@@ -7,8 +6,10 @@ quelle: [[Wissen_Siebenwind]]
 
 # Anonymus
 
-**Titel:** Unbekannter Verfasser / Kollektiv-Identität
-**Epistemischer Status:** #überlieferung
+!!! info "Metadaten"
+    - **Titel:** Unbekannter Verfasser / Kollektiv-Identität
+    - **Epistemischer Status:** #überlieferung
+
 
 ## Beschreibung
 Der Eintrag **Anonymus** dient als Sammelbezeichnung für Autoren historischer Schriften, deren Identität über die Jahrhunderte verloren ging oder absichtlich im Dunkeln gelassen wurde.

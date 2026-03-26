@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 120
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 120
 
-**Epistemischer Status:** #bote
-**Datum:** 11. Querlar 15 n.H.
-**Redaktion:** [[Saphyriella]] / Au / J.D
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 11. Querlar 15 n.H.
+    - **Redaktion:** [[Saphyriella]] / Au / J.D
+
 
 ## Schlagzeilen
 

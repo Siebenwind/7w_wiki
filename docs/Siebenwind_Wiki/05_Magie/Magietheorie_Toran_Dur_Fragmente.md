@@ -1,12 +1,11 @@
 ---
-layout: wiki_page
 title: Fragmente aus Toran_Dur
 category: [[index]]
 status: Canon
 quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Toran_Dur]] - Sammlerfragmente I-IV.md"
+author: "Der [[Sammler]] / [[Niemand]]"
 lore_trust: 6
 confidence: Speculative
-author: "Der [[Sammler]] / [[Niemand]]"
 ---
 
 # Fragmente aus [[Toran_Dur]]

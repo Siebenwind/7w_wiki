@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Yehramnis
 category: Allgemein
 status: UNGEKLAERT

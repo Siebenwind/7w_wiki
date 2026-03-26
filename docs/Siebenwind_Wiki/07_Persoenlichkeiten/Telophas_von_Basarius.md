@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: t3l0ph45-v0n-b454r1u5
 title: Telophas von Basarius
 category: Persönlichkeit
-uuid: t3l0ph45-v0n-b454r1u5
 quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 letzter_check: 2026-02-13T23:35:00
 ---
 
 # Telophas von Basarius
 
-**Epistemischer Status:** #perspektive
-**Titel:** Eminenz / Rector des [[Ring_des_Argionemes]]
-**Zugehörigkeit:** [[Ring_des_Argionemes]] / [[Ecclesia]] (ehem. Erzkonzil)
-**Zeitraum:** Aktiv um 21 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Eminenz / Rector des [[Ring_des_Argionemes]]
+    - **Zugehörigkeit:** [[Ring_des_Argionemes]] / [[Ecclesia]] (ehem. Erzkonzil)
+    - **Zeitraum:** Aktiv um 21 n.H.
+
 
 ## Beschreibung
 Eminenz Telophas von Basarius ist der amtierende Rector (Leiter) des Inneren Zirkels des [[Ring_des_Argionemes]]. Er ist ein hochbetagter Geistlicher mit einer markanten, krummdolchähnlichen Nase. Als ehemaliges Mitglied des Erzkonzils der Kirche der Heiligen Viere verfügt er über enorme politische Erfahrung und kirchliche Autorität.

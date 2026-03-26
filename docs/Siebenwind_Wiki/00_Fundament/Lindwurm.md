@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lindwurm
 category: Allgemein
 status: UNGEKLAERT

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ravel
 category: Allgemein
 status: UNGEKLAERT

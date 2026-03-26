@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Annika Rokan
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_157]].md
 ---
 # Annika Rokan
 
-**Titel:** Magierin (Fanatikerin)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Splittergruppe (nicht Akademie)
-**Zeitraum:** aktiv bis 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Magierin (Fanatikerin)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Splittergruppe (nicht Akademie)
+    - **Zeitraum:** aktiv bis 18 n.H.
+
 
 ## Beschreibung
 **Annika Rokan** war eine Magierin, die laut Bote 157 im Jahr 18 n.H. ums Leben kam.

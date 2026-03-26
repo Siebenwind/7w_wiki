@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: saeulenmeer-geo-obsidian
 title: Säulenmeer
 category: [[index]]
-uuid: saeulenmeer-geo-obsidian
 quelle: ../../Quellen/Spielergeschichten/[[Der_Flug_der_Ente]]..md
 letzter_check: 2026-02-13T22:45:00
 ---

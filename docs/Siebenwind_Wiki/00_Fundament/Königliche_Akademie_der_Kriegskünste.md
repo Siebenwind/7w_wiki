@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Königliche Akademie der Kriegskünste"
 category: Allgemein
 ---

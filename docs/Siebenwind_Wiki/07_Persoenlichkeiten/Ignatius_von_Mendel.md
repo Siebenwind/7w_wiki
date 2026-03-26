@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ignatius von Mendel
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_163]].md
 ---
 # Ignatius von Mendel
 
-**Titel:** Hofberater (ehem.) / Verräter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Galadonischer Hof (vormalig) / Entführer-Zirkel
-**Zeitraum:** aktiv 18-19 n.H.
+!!! info "Metadaten"
+    - **Titel:** Hofberater (ehem.) / Verräter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Galadonischer Hof (vormalig) / Entführer-Zirkel
+    - **Zeitraum:** aktiv 18-19 n.H.
+
 
 ## Beschreibung
 **Ignatius von Mendel** war ein ehemals hochrangiger Berater am königlichen Hofe von [[Galadonien]]. Er entpuppte sich als der Drahtzieher hinter der Entführung von König [[Hilgorad_I_ap_Mer]].

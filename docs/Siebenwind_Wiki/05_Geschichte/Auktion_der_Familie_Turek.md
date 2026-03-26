@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Auktion der Familie Turek
 category: [[index]]
 ---
 
 # Auktion der Familie [[Turek]]
 
-**Epistemischer Status:** #bote
-**Datum:** 1. Querlar 15 n.H. (abgebrochen) / 3. Querlar 15 n.H. (erfolgreich)
-**Ort:** [[Brandenstein]] (Hafen)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 1. Querlar 15 n.H. (abgebrochen) / 3. Querlar 15 n.H. (erfolgreich)
+    - **Ort:** [[Brandenstein]] (Hafen)
+
 
 ## Verlauf
 ### Der gescheiterte Auftakt (1. Querlar)

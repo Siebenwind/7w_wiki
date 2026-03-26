@@ -1,13 +1,14 @@
 ---
-layout: post
 title: Die_Sprache_Run
 category: Allgemein
 ---
 
 # [[Die_Sprache_Run]]
 
-**Autor:** [[Toran_Dur]]
-**Kategorie:** Linguistik / Alte [[index]]
+!!! info "Metadaten"
+    - **Autor:** [[Toran_Dur]]
+    - **Kategorie:** Linguistik / Alte [[index]]
+
 
 ## Inhalt
 

@@ -1,10 +1,9 @@
 ---
-layout: wiki_page
 title: Die Zusammenkunft
 category: [[index]]
-tags: [Wissenschaft, [[index]], [[index]]]
-quelle: [[[Dunvallo_Linari]] - Artefakte]
 status: #überlieferung
+quelle: [[[Dunvallo_Linari]] - Artefakte]
+tags: [Wissenschaft, [[index]], [[index]]]
 report_id: b6a7d2e4-9f81-4a3b-8c7a-9f8e4d2e7b1a
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Noalim al Achid
 category: Allgemein
 status: UNGEKLAERT

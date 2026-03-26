@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Vogelfreierklärung Elares_Valjean
 category: [[index]]
 ---
 
 # Vogelfreierklärung [[Elares_Valjean]]
 
-**Epistemischer Status:** #bote
-**Datum:** 5. Carmer 15 n.H. (Bote 123)
-**Beteiligte:** [[Mael_Duin]], [[Elares_Valjean]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 5. Carmer 15 n.H. (Bote 123)
+    - **Beteiligte:** [[Mael_Duin]], [[Elares_Valjean]]
+
 
 ## Beschreibung
 Nach Ablauf des Ultimatums wurde [[Elares_Valjean]] von Marschall [[Mael_Duin]] im Namen von König und Baron für vogelfrei erklärt.

@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a914
 title: Siebenwind Bote 152
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a914
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 152.md
 letzter_check: 2026-02-13T02:45:00+01:00
 ---
 # [[Siebenwind]] Bote 152
 
-**Epistemischer Status:** #bote
-**Datum:** 8. Seker 17 n.H. (Mittentag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 8. Seker 17 n.H. (Mittentag)
+
 
 ## Highlights
 *   **Ortsrat [[Brandenstein]]:** Vorstellung des neuen Ortsrates unter Hafenvogt **[[Flaake_Distelstein]]**. Mitglieder u.a. **[[Marnie_Tiefwasser]]**, **[[Erudin_Gropp]]**, **[[Dorion_Hali]]**, **[[Albert_Metzler]]**.

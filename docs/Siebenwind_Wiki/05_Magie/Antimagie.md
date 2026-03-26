@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Antimagie (Magica Contraria)
 category: [[index]]
 status: integrated

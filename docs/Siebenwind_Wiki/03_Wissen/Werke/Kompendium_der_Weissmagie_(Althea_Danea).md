@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Kompendium der Weißmagie
 category: Allgemein
 ---

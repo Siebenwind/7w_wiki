@@ -1,8 +1,10 @@
 ---
-layout: post
 title: "Mehr'thak"
 category: [[index]]
-status: Stub
+status: stub
+owner: UNASSIGNED
+review_until: 2026-09-22
+reason: legacy_stub
 ---
 
 # Mehr'thak

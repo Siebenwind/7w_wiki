@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a907
 title: Siebenwind Bote 193
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a907
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 193.md
 letzter_check: 2026-02-13T01:30:00+01:00
 ---
 # [[Siebenwind]] Bote 193
 
-**Epistemischer Status:** #bote
-**Datum:** 17. Carmer 30 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 17. Carmer 30 n.H.
+
 
 ## Überblick
 Diese Ausgabe berichtet von einem Durchbruch bei den Friedensverhandlungen mit dem Lindwurm [[Akassvae]], dem Erscheinen neuer drakonischer Bedrohungen und politischen Veränderungen in Dunquell.

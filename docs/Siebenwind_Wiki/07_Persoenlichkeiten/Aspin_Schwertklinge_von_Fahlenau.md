@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Aspin Schwertklinge von Fahlenau
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_164]].md
 ---
 # Aspin Schwertklinge von Fahlenau
 
-**Titel:** Hochwohlgeboren / Sir / Großmeister der [[Ritterschaft_zu_Siebenwind]] / **Heerführer der Kronmark** / Lehnsherr (designiert)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritterschaft_zu_Siebenwind]] / [[Falkensee]]
-**Zeitraum:** aktiv 19 n.H. (Ritterschlag 13 n.H.)
+!!! info "Metadaten"
+    - **Titel:** Hochwohlgeboren / Sir / Großmeister der [[Ritterschaft_zu_Siebenwind]] / **Heerführer der Kronmark** / Lehnsherr (designiert)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ritterschaft_zu_Siebenwind]] / [[Falkensee]]
+    - **Zeitraum:** aktiv 19 n.H. (Ritterschlag 13 n.H.)
+
 
 ## Beschreibung
 **Sir Aspin**, auch bekannt als **Aspin Schwertklinge**, ist der Großmeister der Ritterschaft und designierte Lehnsherr von [[Siebenwind]]. Er ist ein Ritter der alten Schule, der für seinen unerschütterlichen Eid und seine Opferbereitschaft bekannt ist.

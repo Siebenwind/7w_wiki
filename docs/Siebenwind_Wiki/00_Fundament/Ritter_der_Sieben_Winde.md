@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ritter der Sieben Winde
 category: [[index]]
 ---

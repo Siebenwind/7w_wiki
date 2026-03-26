@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Geschichten eines silbernen Adlers
 category: Erzählung
 ---

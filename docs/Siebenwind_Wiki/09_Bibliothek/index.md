@@ -1,6 +1,5 @@
 ---
-layout: wiki_page
-title: Bibliothek
+title: "Siebenwind Wiki - Bibliothek"
 ---
 
 # [[Siebenwind]] Wiki - Bibliothek

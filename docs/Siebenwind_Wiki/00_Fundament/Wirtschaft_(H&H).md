@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Wirtschaft (H&H)
 category: Allgemein
 status: UNGEKLAERT

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Arthax Stahlauge
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Arthax Stahlauge
 
-**Titel:** Kregor von [[Dunquell]] / Veteran
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Dwarschim]] / [[Dunquell]]
+!!! info "Metadaten"
+    - **Titel:** Kregor von [[Dunquell]] / Veteran
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Dwarschim]] / [[Dunquell]]
+
 
 ## Beschreibung
 **Arthax Stahlauge** ist ein hochangesehener Veteran der Dwarschim und der Kregor von [[Dunquell]] (gewählt 30 n.H.). Er setzte sich in einem intensiven Wahlkampf gegen seine Mitbewerber durch und führt seitdem die Gemeinschaft im Südosten des Grünlandes.

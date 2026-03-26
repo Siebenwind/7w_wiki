@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Der Orkenaufstand von 17 n.H.
 category: [[Geschichte]]
 ---

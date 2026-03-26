@@ -1,13 +1,14 @@
 ---
-layout: wiki_page
 title: Weiher-Ungetüm (Spinnenkrebs)
 category: [[index]]
 ---
 
 # Weiher-Ungetüm (Spinnenkrebs)
 
-**Epistemischer Status:** #bote
-**Lebensraum:** Binnengewässer, Weiher (z.B. [[Greifenweiher]])
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Lebensraum:** Binnengewässer, Weiher (z.B. [[Greifenweiher]])
+
 
 ## Beschreibung
 Das **Weiher-Ungetüm** ist eine abscheuliche Kreatur, die Merkmale einer gigantischen Spinne und eines Krebses vereint. Es besitzt den Leib einer Libelle, an dessen Ende ein gekrümmter Dorn sitzt. Die Kreatur ist groß genug, dass ein Mensch bequem darauf sitzen könnte.

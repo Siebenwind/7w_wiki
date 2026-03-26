@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Richard Tiefenwasser
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_158]].md
 ---
 # Richard Tiefenwasser
 
-**Titel:** Freier
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Siebenwind]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Freier
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Siebenwind]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Richard Tiefenwasser** ist ein Bewohner der Insel [[Siebenwind]].

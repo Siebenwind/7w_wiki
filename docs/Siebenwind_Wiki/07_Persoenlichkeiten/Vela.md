@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 4c5d6e7f-8a9b-4c0d-1e2f-3a4b5c6d7e8f
 title: Vela
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 # Vela
 
-**Titel:** Inhaberin Warenhaus
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Handelsgilde / [[Brandenstein]]
+!!! info "Metadaten"
+    - **Titel:** Inhaberin Warenhaus
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Handelsgilde / [[Brandenstein]]
+
 
 ## Beschreibung
 **Vela** ist eine erfolgreiche Kauffrau und Inhaberin eines Warenhauses, die im Jahr 21 n.H. zusammen mit [[Arn]] den lokalen Handel stützte (Bote 181).

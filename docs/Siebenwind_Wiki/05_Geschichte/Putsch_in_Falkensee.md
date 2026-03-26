@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Putsch in Falkensee
 category: Allgemein
 status: UNGEKLAERT

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Wasserwall
 category: Allgemein
 status: UNGEKLAERT

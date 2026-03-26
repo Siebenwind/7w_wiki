@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Traim Eisenblut
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_175]].md
 ---
 # Traim Eisenblut
 
-**Titel:** Heerführer / Oberkommandierender
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Dwarschim]] / Koalition der freien Völker
-**Zeitraum:** aktiv ab 20 n.H.
+!!! info "Metadaten"
+    - **Titel:** Heerführer / Oberkommandierender
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Dwarschim]] / Koalition der freien Völker
+    - **Zeitraum:** aktiv ab 20 n.H.
+
 
 ## Beschreibung
 **Traim Eisenblut** ist ein bedeutender Heerführer der [[Dwarschim]]. Er gilt als entschlossener Anführer, der in der Lage ist, verschiedene Völker für ein gemeinsames Ziel zu vereinen.

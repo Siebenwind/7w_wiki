@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Mirian
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_139]].md
 ---
 # Mirian
 
-**Titel:** Knappin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritterschaft_der_Sieben_Winde]] (Anwärterin)
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Knappin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ritterschaft_der_Sieben_Winde]] (Anwärterin)
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Mirian** ist eine Knappin, die im Jahr 16 n.H. (Bote 139) zusammen mit anderen Anwärtern wie [[Caeden]] und [[Amaris_Aurinas]] an einer Mission teilnahm.

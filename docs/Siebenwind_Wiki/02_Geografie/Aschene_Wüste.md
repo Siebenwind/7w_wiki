@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Aschene Wüste
 category: [[Geografie]]
 ---

@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a925
 title: Siebenwind Bote 165
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a925
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 165.md
 letzter_check: 2026-02-13T15:20:00+01:00
 ---
 # [[Siebenwind]] Bote 165
 
-**Epistemischer Status:** #bote
-**Datum:** 23. Dular 19 n.H. (Mittentag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 23. Dular 19 n.H. (Mittentag)
+
 
 ## Highlights
 *   **[[Siebenwind]] wird Kronmark:** Das Lehen wird aufgelöst. Die Insel untersteht nun als **Kronmark** direkt der Herrschaft des Königs. Ihre wohlgeborene Exzellenz **[[Beladriel_Blaettertanz]]** wurde zur **Truchsess** bestellt und vertritt fortan den Willen des Königs auf der Insel.

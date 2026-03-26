@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Plinius Deseglieri"
 category: [[index]]
 ---

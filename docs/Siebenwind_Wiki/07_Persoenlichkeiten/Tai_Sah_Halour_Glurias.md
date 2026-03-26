@@ -1,9 +1,11 @@
 ---
-layout: wiki_page
 title: "Tai Sah'Halour - Glurias"
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "Die Eisernen Tafeln"
+owner: UNASSIGNED
+review_until: 2026-09-22
+reason: legacy_stub
 ---
 
 # Tai Sah'Halour - Glurias

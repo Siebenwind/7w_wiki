@@ -1,7 +1,6 @@
 ---
 uuid: 52af70d6-90f7-4201-9374-c6cc2ce0c57e
 status: ACTIVE
-updated_at: 2026-02-18T01:05:00Z
 epistemic: "#meta"
 ---
 
@@ -73,3 +72,4 @@ Zweck: Bruecke zwischen historisch gewachsenen Slash-Workflows und tatsaechlich 
 Neue Workflows muessen vor Aktivierung in diese Matrix eingetragen werden. 
 **Auto-Update:** Die Runtime-Liste und Adapterzeilen werden ueber `./7w_wiki.py tech --sync-matrix` regeneriert.
 Die Zeilen innerhalb der generierten Bloecke sind nicht manuell zu pflegen.
+Die Matrix beschreibt Runtime-Adapter und technische Ausfuehrbarkeit. Epistemische Autoritaet wird nicht aus dem CLI-Ziel oder dem Edit-Baum abgeleitet, sondern im kanonischen Drift-/Pages-Vertrag und in `SY_INTEROP` gespiegelt.

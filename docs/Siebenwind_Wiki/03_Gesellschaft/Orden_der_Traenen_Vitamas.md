@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Orden der Tränen Vitamas
 category: Organisation
 ---
 
 # Orden der Tränen Vitamas
 
-**Typ:** Religiöser Orden / Church Order
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ecclesia_Elementorum]], [[Vitama]]
-**Zeitraum:** aktiv ab 20 n.H.
+!!! info "Metadaten"
+    - **Typ:** Religiöser Orden / Church Order
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ecclesia_Elementorum]], [[Vitama]]
+    - **Zeitraum:** aktiv ab 20 n.H.
+
 
 ## Beschreibung
 Der **Orden der Tränen Vitamas** ist ein neuer religiöser Zweig innerhalb der Gemeinschaft der [[Vitama]]-Anhänger. Er wird von Hochwürden [[Benion_Sandelholz]] geführt und widmet sich dem Trost der Leidenden und der Bewahrung der heiligen Stätten.

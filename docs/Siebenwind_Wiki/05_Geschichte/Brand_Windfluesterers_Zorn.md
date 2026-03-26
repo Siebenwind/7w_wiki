@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Brand Windflüsterers Zorn (19 n.H.)
 category: [[Geschichte]]
 ---
 
 # Brand Windflüsterers Zorn (19 n.H.)
 
-**Ort:** [[Siebenwind_Kronregiment]]
-**Epistemischer Status:** #bote
-**Beteiligte:** [[Brand_Windfluesterer]], [[Isfaldia]]
+!!! info "Metadaten"
+    - **Ort:** [[Siebenwind_Kronregiment]]
+    - **Epistemischer Status:** #bote
+    - **Beteiligte:** [[Brand_Windfluesterer]], [[Isfaldia]]
+
 
 ## Der Vorfall
 Im Jahr 19 n.H. kam es innerhalb der Mauern des Kronregiments zu einer gewaltsamen Auseinandersetzung zwischen dem [[Enhor]]-Priester **[[Brand_Windfluesterer]]** und der Heilerin **[[Isfaldia]]**. 

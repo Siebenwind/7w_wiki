@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: e5f6a7b8-c9d0-4e1f-a2b3-c4d5e6f7g8h9
 title: Siebenwind Bote 175
 category: [[index]]
 status: Bote
-uuid: e5f6a7b8-c9d0-4e1f-a2b3-c4d5e6f7g8h9
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 175.md
 letzter_check: 2026-02-13T17:15:00+01:00
 ---
 # [[Siebenwind]] Bote 175
 
-**Epistemischer Status:** #bote
-**Datum:** 11. Seker 20 n.H. (Mittentag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 11. Seker 20 n.H. (Mittentag)
+
 
 ## Highlights
 *   **Führungswechsel in [[Feste_Seeberg]]:** Die Baronin **[[Beladriel_Blaettertanz]]** hat die Insel auf königlichen Befehl verlassen und ist nach [[Draconis]] zurückgekehrt. Neuer Lehnsherr von [[Seeberg]] ist **[[Yves_Rondragon]]** (Hochmeister des [[Drachen]]).

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Tyrus Helbas
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Tyrus Helbas
 
-**Titel:** 2. Waffenmeister des [[Löwenorden]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]] / [[Bellum]]
+!!! info "Metadaten"
+    - **Titel:** 2. Waffenmeister des [[Löwenorden]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]] / [[Bellum]]
+
 
 ## Beschreibung
 **Tyrus Helbas**, ein Diener Bellums.

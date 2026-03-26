@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 122
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 122
 
-**Epistemischer Status:** #bote
-**Datum:** 20. Querlar 15 n.H.
-**Redaktion:** [[Mael_Duin]] / J.D
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 20. Querlar 15 n.H.
+    - **Redaktion:** [[Mael_Duin]] / J.D
+
 
 ## Schlagzeilen
 

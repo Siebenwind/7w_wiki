@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Laurus Delany
 category: Persönlichkeit
 ---
 
 # Laurus Delany
 
-**Titel:** Hochgeweihter (Hochwürden)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Kirche des [[Bellum]]
-**Zeitraum:** aktiv um 17 n.H.
+!!! info "Metadaten"
+    - **Titel:** Hochgeweihter (Hochwürden)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Kirche des [[Bellum]]
+    - **Zeitraum:** aktiv um 17 n.H.
+
 
 ## Beschreibung
 **Laurus Delany** ist ein hochgeweihter Diener der Viere (speziell [[Bellum]]).

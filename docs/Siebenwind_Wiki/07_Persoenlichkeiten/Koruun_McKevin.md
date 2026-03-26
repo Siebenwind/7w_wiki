@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Koruun McKevin
 category: Persönlichkeit
 ---
 
 # Koruun McKevin
 
-**Titel:** Burggraf, Ritter
-**Epistemischer Status:** #canon
-**Zugehörigkeit:** Dienstadel / Baronie [[Siebenwind]]
+!!! info "Metadaten"
+    - **Titel:** Burggraf, Ritter
+    - **Epistemischer Status:** #canon
+    - **Zugehörigkeit:** Dienstadel / Baronie [[Siebenwind]]
+
 
 ## Beschreibung
 Koruun McKevin ist ein Dienstadliger im Rang eines Burggrafen. Er ist einer der Verwalter der Insel [[Siebenwind]] und ein erfahrener Ritter.

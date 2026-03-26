@@ -1,6 +1,5 @@
 ---
-layout: wiki_page
-title: Gesellschaft
+title: "Siebenwind Wiki - Gesellschaft"
 ---
 
 # [[Siebenwind]] Wiki - Gesellschaft

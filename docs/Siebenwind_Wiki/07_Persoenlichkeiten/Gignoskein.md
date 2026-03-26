@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f
 title: Gignoskein
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Gignoskein
 
-**Titel:** Däumling / Gnom
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Gnomengemeinschaft / [[Brandenstein]] (vermutet)
+!!! info "Metadaten"
+    - **Titel:** Däumling / Gnom
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Gnomengemeinschaft / [[Brandenstein]] (vermutet)
+
 
 ## Beschreibung
 **Gignoskein** ist ein Gnom (Däumling), der im Jahr 19 n.H. in den Chroniken erwähnt wird (Bote 164).

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b
 title: Auenbach
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Auenbach
 
-**Titel:** Untoter Krieger (Konstrukt)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Unbekannt / Magische Phänomene
+!!! info "Metadaten"
+    - **Titel:** Untoter Krieger (Konstrukt)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Unbekannt / Magische Phänomene
+
 
 ## Beschreibung
 **Auenbach** wird als ein untoter Krieger oder ein magisches Konstrukt beschrieben, das im Jahr 18 n.H. in Erscheinung trat (Bote 154).

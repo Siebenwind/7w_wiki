@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Terenon Sarophilan
 category: Persönlichkeit
-quelle: "[Theorien der [[index]]]"
 status: "#überlieferung"
+quelle: "[Theorien der [[index]]]"
 ---
 
 # Terenon Sarophilan

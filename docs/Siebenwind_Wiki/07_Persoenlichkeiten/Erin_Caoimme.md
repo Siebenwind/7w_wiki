@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Erin Caoimme
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Erin Caoimme
 
-**Titel:** Leutnant der Wacht
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Region_Malthust]] / [[Brandenstein]]
-**Zeitraum:** aktiv 19-22 n.H.
+!!! info "Metadaten"
+    - **Titel:** Leutnant der Wacht
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Region_Malthust]] / [[Brandenstein]]
+    - **Zeitraum:** aktiv 19-22 n.H.
+
 
 ## Beschreibung
 **Erin Caoimme** ist eine Leutnantin der Malthuster Wacht in [[Brandenstein]].

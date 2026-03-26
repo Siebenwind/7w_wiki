@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Nikolai Tuljow
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Nikolai Tuljow
 
-**Titel:** Geweihter ([[Bellum]]), Richter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Region_Malthust]] / [[Ordo_Belli]]
+!!! info "Metadaten"
+    - **Titel:** Geweihter ([[Bellum]]), Richter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Region_Malthust]] / [[Ordo_Belli]]
+
 
 ## Beschreibung
 **Nikolai Tuljow** ist ein Geweihter des [[Bellum]] und dient als Soldat in der Armee von Malthust.

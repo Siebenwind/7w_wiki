@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Das magische Gefecht vor Etriska
 category: [[Geschichte]]
 ---

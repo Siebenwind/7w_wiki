@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Der Erlass des Königs (20 n.H.)
 category: [[index]]
 status: Bote
@@ -7,8 +6,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_174]].md
 ---
 # Der Erlass des Königs (20 n.H.)
 
-**Epistemischer Status:** #bote  
-**Datum:** Veröffentlicht am 26. Trier 20 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** Veröffentlicht am 26. Trier 20 n.H.
+
 
 ## Hintergrund
 Der **Erlass des Königs** (auch bekannt als das Ende der Kronmark) war ein weitreichendes königliches Dekret, verkündet durch die damals scheidende Truchsess [[Beladriel_Blaettertanz]]. Es beendete die zentrale Verwaltung der Insel durch die [[Kronmark]] und leitete eine Ära der Teilautonomie und der Lehensherrschaft durch festländische Mächte ein.

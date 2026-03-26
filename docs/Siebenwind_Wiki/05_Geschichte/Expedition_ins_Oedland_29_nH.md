@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Expedition ins Ödland (29 n.H.)
 category: [[index]]
 ---
 
 # Expedition ins [[Ödland]] (29 n.H.)
 
-**Epistemischer Status:** #bote
-**Datum:** 8. Onar 29 n.H. (Bote 189)
-**Teilnehmer:** [[Tardukai]], Magier, Geweihte. Chronist: [[Erynnion_Comari]].
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 8. Onar 29 n.H. (Bote 189)
+    - **Teilnehmer:** [[Tardukai]], Magier, Geweihte. Chronist: [[Erynnion_Comari]].
+
 
 ## Verlauf
 Eine Erkundungsmission ins [[Ödland]], um die Ausbreitung des Zwergen-Dämons zu prüfen.

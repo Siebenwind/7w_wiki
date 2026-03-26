@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Theorie der Dämonenbeschwörung (Daimonologie)
 category: [[index]]
 status: integrated

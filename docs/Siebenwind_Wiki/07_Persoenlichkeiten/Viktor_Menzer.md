@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e
 title: Viktor Menzer
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: bea60047-d2f3-4513-b2ca-a6494a919c3c
 
 # Viktor Menzer
 
-**Titel:** Ratsherr / Berater
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]] / Politik
+!!! info "Metadaten"
+    - **Titel:** Ratsherr / Berater
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Brandenstein]] / Politik
+
 
 ## Beschreibung
 **Viktor Menzer** ist ein erfahrener Ratsherr in [[Brandenstein]], der im Jahr 15 n.H. in Regierungsdokumenten erscheint (Bote 118).

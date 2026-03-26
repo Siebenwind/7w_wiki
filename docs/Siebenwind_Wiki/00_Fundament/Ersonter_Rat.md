@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ersonter Rat
 category: Allgemein
 status: UNGEKLAERT

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Vaenskap
 category: Allgemein
 status: UNGEKLAERT

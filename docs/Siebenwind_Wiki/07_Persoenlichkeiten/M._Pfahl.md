@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: M. Pfahl
 category: Persönlichkeit
 ---
 
 # M. Pfahl
 
-**Titel:** Dichterin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Rasse_Menschen|Menschen]]
-**Zeitraum:** aktiv um 15 n.H.
+!!! info "Metadaten"
+    - **Titel:** Dichterin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Rasse_Menschen|Menschen]]
+    - **Zeitraum:** aktiv um 15 n.H.
+
 
 ## Beschreibung
 M. Pfahl ist eine Dichterin, deren Verse oft die Schönheit der Natur und die Vergänglichkeit des Seins besingen. Ihre [[index]] finden in bürgerlichen Kreisen großen Anklang.

@@ -1,7 +1,6 @@
 ---
 uuid: 4f249a8d-33da-4cbf-9fc4-ff9df2bf8563
 status: ACTIVE
-updated_at: 2026-02-18T01:05:00Z
 owners:
   - Koordinator
   - Netz-Waechter
@@ -17,6 +16,18 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
 1. Welche Workflows rein methodisch sind,
 2. welche Kommandos tatsaechlich ausfuehrbar sind,
 3. welche Boards als verbindliche Kommunikationspfade gelten.
+4. wie technischer Drift von epistemischem Drift getrennt wird.
+
+<!-- BEGIN GENERATED DRIFT CONTRACT REFERENCE -->
+> Generated reference block. The surrounding narrative text remains manually maintained.
+> Canonical contract: [SY_DRIFT_PAGES_CONTRACT.md](SY_DRIFT_PAGES_CONTRACT.md)
+>
+> - Epistemic precedence: `Homepage > Quellen > Wiki Pages`.
+> - `docs/Siebenwind_Wiki/` is the technical edit/publish tree, not the highest truth source.
+> - Technical drift is validated via `./7w_wiki.py sanitize`, `./7w_wiki.py audit`, and `./7w_wiki.py pages validate --json [--strict-links]`.
+> - `--strict` hardens the MkDocs build; `--strict-links` is the hard unresolved-link gate.
+> - Generated command registries are synced by `./7w_wiki.py tech --sync-docs` / `--sync-interop`; narrative rules live in the canonical contract.
+<!-- END GENERATED DRIFT CONTRACT REFERENCE -->
 
 ## Norm 1: Link- und Pfadpolitik
 - In Wiki-/System-Dokumenten sind **keine absoluten `file://` Pfade** erlaubt.
@@ -34,6 +45,12 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
   - `bridge_ticket: MSG-...` (oder Task-ID)
   - `bridge_review_until: YYYY-MM-DD`
 - Seiten mit Bridge-Markern ohne diese Felder gelten als Interop-/Qualitaetsdefect.
+
+## Norm 1c: Epistemische Praezedenz und Edit-Tree-Grenze
+- Der verbindliche Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](SY_DRIFT_PAGES_CONTRACT.md).
+- Kurzregel: `Homepage > Quellen > Wiki Pages`.
+- `docs/Siebenwind_Wiki/` ist der technische Edit- und Publishing-Baum fuer Wiki-Pages.
+- Technische Pfadautoritaet ist nicht gleich epistemische Autoritaet.
 
 ## Norm 2: Ausfuehrbarkeit vs. Methodik
 - Nur Befehle, die in `7w_wiki.py` via `add_parser(...)` existieren, gelten als **runtime-executable**.
@@ -95,6 +112,7 @@ Fuer Agent-zu-Agent Arbeit ist `SY_DISPATCH` verbindlich:
 - Das Settle-Window ist zentral konfigurierbar ueber `.agent/config/runtime.json`.
 
 ## Norm 4b: Pages-Integrity-Policy
+- Der verbindliche Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](SY_DRIFT_PAGES_CONTRACT.md).
 - Publizierte Site-Integritaet wird ueber `./7w_wiki.py pages validate --json` und `./7w_wiki.py audit --pages` sichtbar gemacht.
 - Default-Semantik: unresolved interne Roamlinks-Ziele sind `WARN`, kein harter FAIL.
 - Harter Gate-Modus ist explizit: `./7w_wiki.py pages validate --json --strict-links`.
@@ -116,6 +134,7 @@ Nicht existente, aber als Pflicht benannte Dateien sind als **interop blocker** 
 - `System/Synapse_Board/SY_DISPATCH.md`
 - `System/Synapse_Board/SY_STANDARDS.md`
 - `System/COORDINATION_HUB.md`
+- sowie auf den kanonischen Drift-/Pages-Vertrag `System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md`.
 
 ## Norm 7: Test- und Defect-Kommunikation
 - Standardisierte Interop-Tests laufen ueber `./7w_wiki.py test --suite ...`.
@@ -144,7 +163,9 @@ Bei jedem groesseren Update:
 6. Bridge-Guard pruefen (`./7w_wiki.py test --suite bridge-placeholder-guard`).
 7. Codex-Workflow-Bridge-Guard pruefen (`./7w_wiki.py test --suite codex-workflow-bridges`).
 8. Reader-Stats-Guard pruefen (`./7w_wiki.py test --suite reader-stats-contract`).
-9. Changelog-Eintrag mit Interop-Delta erstellen.
+9. Content-Contract-Guards pruefen (`./7w_wiki.py test --suite content-contract`, `split-brain-guard`, `render-hygiene`).
+10. Bei lore-relevanten Aenderungen dokumentieren, dass Homepage/Quellen gegen den Wiki-Edit-Baum abgeglichen wurden und dass der Drift-/Pages-Vertrag eingehalten wurde.
+11. Changelog-Eintrag mit Interop-Delta erstellen.
 
 ## Beschluss
 Diese Norm gilt ab sofort fuer alle neuen und ueberarbeiteten Antigravity-Artefakte.

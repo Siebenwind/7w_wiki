@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Astralnetz
 category: Allgemein
 status: UNGEKLAERT

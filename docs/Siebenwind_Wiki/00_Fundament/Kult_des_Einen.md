@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Kult des Einen
 category: Allgemein
 status: UNGEKLAERT

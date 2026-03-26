@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Saphyriella
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Saphyriella
 
-**Titel:** Finanzmagistratin (vertretungsweise)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]] / [[Magistrat]]
+!!! info "Metadaten"
+    - **Titel:** Finanzmagistratin (vertretungsweise)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Brandenstein]] / [[Magistrat]]
+
 
 ## Beschreibung
 **Saphyriella** war im Jahr 15 n.H. (Bote 120) stellvertretende Finanzmagistratin von [[Brandenstein]].

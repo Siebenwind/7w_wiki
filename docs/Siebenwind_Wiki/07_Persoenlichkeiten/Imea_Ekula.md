@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Imea Ekula
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Imea Ekula
 
-**Titel:** Stadtkonsula (Beamtenstand)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Falkensee]] / Stadtverwaltung
-**Status:** Inhaftiert (Garde)
+!!! info "Metadaten"
+    - **Titel:** Stadtkonsula (Beamtenstand)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Falkensee]] / Stadtverwaltung
+    - **Status:** Inhaftiert (Garde)
+
 
 ## Beschreibung
 **Imea Ekula** begann ihre Karriere als Secretaria im Rathaus von [[Falkensee]]. Im Jahr 21 n.H. (Bote 180) wurde sie für ihre Verdienste in den Beamtenstand erhoben und zur **Stadtkonsula** ernannt.

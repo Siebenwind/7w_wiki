@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Erudin Gropp
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_160]].md
 ---
 # Erudin Gropp
 
-**Titel:** Inselpatrizier / Meister
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Grosser_Rat]] / Handwerkerschaft
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Inselpatrizier / Meister
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Grosser_Rat]] / Handwerkerschaft
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Erudin Gropp** ist ein erfahrener Handwerker, der im Jahr 18 n.H. (Bote 160) zum neuen **Inselpatrizier** von [[Siebenwind]] gewählt wurde.

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Viere
 category: Allgemein
 status: UNGEKLAERT

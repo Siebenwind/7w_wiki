@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e
 title: Derontas Marilus
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Derontas Marilus
 
-**Titel:** Exzellenz / Regierungsrat
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Königlicher Rat / Galadon
+!!! info "Metadaten"
+    - **Titel:** Exzellenz / Regierungsrat
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Königlicher Rat / Galadon
+
 
 ## Beschreibung
 **Seine Exzellenz Derontas Marilus** ist ein Mitglied des Regierungsrats von Galadon, der im Jahr 21 n.H. in politischen Depeschen erwähnt wird (Bote 176).

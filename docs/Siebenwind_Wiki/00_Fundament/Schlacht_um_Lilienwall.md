@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Schlacht um Lilienwall
 category: Allgemein
 status: UNGEKLAERT

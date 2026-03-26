@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Vandris
 category: Allgemein
 status: UNGEKLAERT

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Amulettkriege
 category: Allgemein
 status: UNGEKLAERT

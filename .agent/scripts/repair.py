@@ -23,6 +23,7 @@ import difflib
 from urllib.parse import unquote
 from datetime import datetime, timezone
 
+from content_contract import REPO_ROOT, TECHNICAL_WIKI_ROOT, normalize_document
 from pages_integrity import collect_pages_build_report, load_pages_health_snapshot
 
 # ANSI Colors
@@ -32,12 +33,12 @@ YELLOW = "\033[93m"
 BLUE = "\033[94m"
 RESET = "\033[0m"
 
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-WIKI_DIR = PROJECT_ROOT / "Siebenwind_Wiki"
+PROJECT_ROOT = REPO_ROOT
+WIKI_DIR = TECHNICAL_WIKI_ROOT
 QUELLEN_DIR = PROJECT_ROOT / "Quellen"
 INGESTION_DIR = PROJECT_ROOT / "Logs" / "Ingestion"
 DOCS_COORDINATION_HUB = PROJECT_ROOT / "docs" / "COORDINATION_HUB.md"
-DOCS_WIKI_DIR = PROJECT_ROOT / "docs" / "Siebenwind_Wiki"
+DOCS_WIKI_DIR = TECHNICAL_WIKI_ROOT
 ROAMLINK_REPORT_DIR = PROJECT_ROOT / "Logs" / "Archive"
 
 # Known Redirects / Hardcoded Fixes
@@ -352,17 +353,16 @@ def fix_frontmatter(files: list[Path], auto: bool = False):
     for file_path in files:
         try:
             content = file_path.read_text(encoding="utf-8")
-        except: continue
-        
-        if not content.startswith("---"):
-            title = file_path.stem.replace("_", " ")
-            category = derive_category(file_path)
-            frontmatter = f"---\nlayout: post\ntitle: \"{title}\"\ncategory: {category}\n---\n\n"
-            
-            if auto or input(f"Frontmatter für {file_path.name} erstellen? [y/n]: ").lower() == 'y':
-                file_path.write_text(frontmatter + content, encoding="utf-8")
-                print(f"  {GREEN}Repariert.{RESET}")
-                count += 1
+        except Exception:
+            continue
+
+        new_content, changes, _, _ = normalize_document(content, file_path)
+        if not changes:
+            continue
+        if auto or input(f"Frontmatter/Metadaten für {file_path.name} normalisieren? [y/n]: ").lower() == 'y':
+            file_path.write_text(new_content, encoding="utf-8")
+            print(f"  {GREEN}Repariert.{RESET}")
+            count += 1
     print(f"{count} Frontmatter hinzugefügt.")
 
 

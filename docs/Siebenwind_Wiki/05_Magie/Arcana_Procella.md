@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Arcana Procella (Die arkanen Wellen)
 category: [[index]]
 status: integrated

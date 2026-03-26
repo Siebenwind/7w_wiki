@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a909
 title: Siebenwind Bote 147
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a909
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 147.md
 letzter_check: 2026-02-13T01:50:00+01:00
 ---
 # [[Siebenwind]] Bote 147
 
-**Epistemischer Status:** #bote
-**Datum:** 20. Dular 17 n.H. (Sonderausgabe)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 20. Dular 17 n.H. (Sonderausgabe)
+
 
 ## Überblick
 Diese Sonderausgabe berichtet vom Angriff der königlichen Marine auf die Insel, der Niederschlagung des Orkenaufstands und der Suche nach Schwertsplittern.

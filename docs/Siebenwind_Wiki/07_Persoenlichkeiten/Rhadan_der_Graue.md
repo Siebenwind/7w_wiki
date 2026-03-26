@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Rhadan der Graue
 category: [[Persoenlichkeiten_Uebersicht]]
 quelle: [[Rituallehre_Sphaeren]]
@@ -7,9 +6,11 @@ quelle: [[Rituallehre_Sphaeren]]
 
 # Rhadan der Graue
 
-**Titel:** Erzmagier, Lehrmeister am Turm zu [[Tiefenbach]]
-**Epistemischer Status:** #überlieferung
-**Zugehörigkeit:** Turm zu [[Tiefenbach]] / Grauer Pfad
+!!! info "Metadaten"
+    - **Titel:** Erzmagier, Lehrmeister am Turm zu [[Tiefenbach]]
+    - **Epistemischer Status:** #überlieferung
+    - **Zugehörigkeit:** Turm zu [[Tiefenbach]] / Grauer Pfad
+
 
 ## Beschreibung
 **Rhadan der Graue** war einer der bedeutendsten Lehrmeister für Ritualmagie und Reinigungstechniken. Sein Hauptwerk, **[[Rituallehre_Sphaeren|Die Ritualisierung]]**, dient als fundamentale Quelle für die geometrische Anordnung von Ritualen und die so genannten "bewegten Reinigungen".

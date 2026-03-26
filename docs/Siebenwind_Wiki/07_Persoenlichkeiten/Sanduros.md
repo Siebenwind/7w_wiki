@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Sanduros
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_153]].md
 ---
 # Sanduros
 
-**Titel:** Hochwürden
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Kirche_der_Viere]]
-**Zeitraum:** aktiv 17 n.H.
+!!! info "Metadaten"
+    - **Titel:** Hochwürden
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Kirche_der_Viere]]
+    - **Zeitraum:** aktiv 17 n.H.
+
 
 ## Beschreibung
 **Hochwürden Sanduros** ist ein Geweihter, der an militärischen Operationen teilnahm.

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Romualdo Lavarin"
 category: [[index]]
 ---

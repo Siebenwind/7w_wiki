@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Cortan
 category: Allgemein
 status: UNGEKLAERT

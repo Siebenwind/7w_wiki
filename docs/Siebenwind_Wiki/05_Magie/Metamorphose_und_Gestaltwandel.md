@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Metamorphose und Gestaltwandel
 category: [[index]]
 status: integrated

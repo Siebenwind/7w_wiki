@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lothgar
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Überlieferung
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_191]].md
 ---
 # Lothgar
 
-**Titel:** Schmied und Krieger
-**Epistemischer Status:** #überlieferung
-**Zugehörigkeit:** [[Norland]]
-**Zeitraum:** Legendär (ca. 700 Jahre vor 30 n.H.)
+!!! info "Metadaten"
+    - **Titel:** Schmied und Krieger
+    - **Epistemischer Status:** #überlieferung
+    - **Zugehörigkeit:** [[Norland]]
+    - **Zeitraum:** Legendär (ca. 700 Jahre vor 30 n.H.)
+
 
 ## Beschreibung
 **Lothgar** ist eine legendäre Gestalt aus dem Norland. Er war zugleich ein begabter Schmied und ein furchtloser Krieger.

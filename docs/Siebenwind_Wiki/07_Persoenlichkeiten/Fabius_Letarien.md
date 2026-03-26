@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Fabius Letarien
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_160]].md
 ---
 # [[Fabius]] Letarien
 
-**Titel:** Vertreter der [[Menschen]] / Spielmann / Barde
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Grosser_Rat]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Vertreter der [[Menschen]] / Spielmann / Barde
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Grosser_Rat]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **[[Fabius]] Letarien** ist ein weitgereister Spielmann und Barde, der im Jahr 18 n.H. (Bote 160) zum ersten gewählten **Vertreter des Menschenvolkes** im [[Grosser_Rat]] von [[Siebenwind]] ernannt wurde.

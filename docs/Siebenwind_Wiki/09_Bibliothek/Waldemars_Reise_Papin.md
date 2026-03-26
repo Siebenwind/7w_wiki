@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: wald3mar-r3is3-papin
 title: Waldemar Delaries Reise nach Papin
 category: Erzählung
-uuid: wald3mar-r3is3-papin
 quelle: ../../Quellen/Spielergeschichten/Waldemar Delaries Reise nach Papin.md
 lore_trust: 7
 letzter_check: 2026-02-14T01:00:00

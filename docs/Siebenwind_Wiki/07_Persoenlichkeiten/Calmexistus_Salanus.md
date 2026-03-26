@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 4a3e2003-9d0b-465d-b08a-21e1029384f5
 title: Calmexistus Salanus
 category: Persönlichkeit
@@ -9,11 +8,13 @@ letzter_check: 2026-02-13T23:25:00
 
 # Calmexistus [[Salanus]]
 
-**Epistemischer Status:** #perspektive
-**Titel:** Defensor Fidei (Verteidiger des Glaubens) / Inquisitor / Bruder des [[Ring_des_Argionemes]]
-**Zugehörigkeit:** [[Ecclesia]] / [[Inquisition]] / [[Ordo_Astraeli]]
-**Quelle:** [[Das_Ende_der_Zeit_der_Koenige]]
-**Zeitraum:** Aktiv ab 13 n.H. auf [[Siebenwind]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Defensor Fidei (Verteidiger des Glaubens) / Inquisitor / Bruder des [[Ring_des_Argionemes]]
+    - **Zugehörigkeit:** [[Ecclesia]] / [[Inquisition]] / [[Ordo_Astraeli]]
+    - **Quelle:** [[Das_Ende_der_Zeit_der_Koenige]]
+    - **Zeitraum:** Aktiv ab 13 n.H. auf [[Siebenwind]]
+
 
 ## Beschreibung
 Calmexistus [[Salanus]] ist eine zentrale Figur des religiösen und politischen Lebens auf [[Siebenwind]]. Er ist ein strenger, hochintelligenter Inquisitor, der für seinen unerbittlichen Gehorsam gegenüber den Göttern und seine Skepsis gegenüber ungeleitetem Wissensdrang bekannt ist. Er zeichnet sich durch seine Besonnenheit und seine Fähigkeit aus, auch in Krisenzeiten die religiöse Ordnung aufrechtzuerhalten.

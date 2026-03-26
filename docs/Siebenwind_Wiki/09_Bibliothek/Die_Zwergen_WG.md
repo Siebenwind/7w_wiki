@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Die Zwergen-WG
 category: [[index]]
-tags: [Erzählung, Dwarschim, Humor, Alltag]
 status: #perspektive
+tags: [Erzählung, Dwarschim, Humor, Alltag]
 ---
 
 # Die Zwergen-WG

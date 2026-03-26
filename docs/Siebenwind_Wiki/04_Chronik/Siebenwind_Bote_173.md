@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: c3d4e5f6-a1b2-4c3d-bd5e-6f7g8h9i0j1k
 title: Siebenwind Bote 173
 category: [[index]]
 status: Bote
-uuid: c3d4e5f6-a1b2-4c3d-bd5e-6f7g8h9i0j1k
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 173.md
 letzter_check: 2026-02-13T16:50:00+01:00
 ---
 # [[Siebenwind]] Bote 173
 
-**Epistemischer Status:** #bote
-**Datum:** 6. Dular 20 n.H. (Mondtag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 6. Dular 20 n.H. (Mondtag)
+
 
 ## Highlights
 *   **Vereidigung des [[XIII_Kronregiment|XIII. Kronregiments]]:** Am 8. Duler 20 n.H. fand in der Feste [[Finianswacht]] der Generalappell statt. Das Regiment schwor den Eid auf die Götter, die Krone, die [[Ritterschaft_der_Sieben_Winde]] und die [[Kronmark]].

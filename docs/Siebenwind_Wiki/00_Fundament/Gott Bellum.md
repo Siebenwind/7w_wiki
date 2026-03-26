@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Gott Bellum
 category: Allgemein
 status: UNGEKLAERT

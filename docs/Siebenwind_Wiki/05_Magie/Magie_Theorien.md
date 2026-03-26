@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Grundlagen der Magiewahrnehmung (Lore-Modelle)
 category: [[index]]
 status: integrated

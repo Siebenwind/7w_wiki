@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Riens
 category: Allgemein
 status: UNGEKLAERT

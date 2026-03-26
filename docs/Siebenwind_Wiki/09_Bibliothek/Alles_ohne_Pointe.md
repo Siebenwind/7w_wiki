@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Alles ohne Pointe
 castatus: integrated
 tags: [[Dorion_Hali]], [[Falkensee]], Seuche, Ritterorden, Sahor, [[Enhor]], [[Nithavela]], [[Akora]]

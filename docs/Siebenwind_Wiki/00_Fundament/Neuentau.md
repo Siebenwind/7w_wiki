@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Neuentau
 category: Allgemein
 status: UNGEKLAERT

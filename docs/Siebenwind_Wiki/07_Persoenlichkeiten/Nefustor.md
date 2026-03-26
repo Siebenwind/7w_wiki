@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Nefustor
 category: Persönlichkeit
-quelle: "[[Daimonologie_und_Schwarze_Magie_(Toran_Dur)]]"
 status: "#überlieferung"
+quelle: "[[Daimonologie_und_Schwarze_Magie_(Toran_Dur)]]"
 ---
 
 # Nefustor

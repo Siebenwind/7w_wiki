@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Spinnenplage
 category: Allgemein
 status: UNGEKLAERT

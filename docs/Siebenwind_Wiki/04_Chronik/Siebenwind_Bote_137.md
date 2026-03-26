@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: 0392856c-8aeb-4358-a383-32b7a8e9599c
 title: Siebenwind Bote 137
 category: [[index]]
 status: Bote
-uuid: 0392856c-8aeb-4358-a383-32b7a8e9599c
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 137.md
 letzter_check: 2026-02-13T00:52:00+01:00
 ---
 # [[Siebenwind]] Bote 137
 
-**Epistemischer Status:** #bote
-**Datum:** 26. Trier 16 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 26. Trier 16 n.H.
+
 
 ## Überblick
 Diese Ausgabe steht ganz im Zeichen des Königsgeburtstags und des herannahenden Lichthochs. Es wird über eine prachtvolle Kunstauktion, die Einweihung des neuen Tempels in [[Falkensee]] und bedeutende klerikale sowie gesellschaftliche Veränderungen berichtet.

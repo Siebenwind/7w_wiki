@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Die Stadtchronik Rohehafens (Historisches Dokument)
 category: Geschichte
 ---
@@ -16,9 +15,11 @@ letzter_check: 2026-02-16T18:15:00+01:00
 
 # Die Stadtchronik Rohehafens (Historisches Dokument)
 
-**Epistemischer Status:** #perspektive / #hist
-**Datum der Abfassung:** ca. 5 n.H.
-**Autor:** Etril Gamajeff
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive / #hist
+    - **Datum der Abfassung:** ca. 5 n.H.
+    - **Autor:** Etril Gamajeff
+
 
 > [!IMPORTANT]
 > Dieses Dokument beschreibt **[[Rohehafen]]** auf dem Höhepunkt seines Glanzes als erste Hauptstadt der Kronmark [[Siebenwind]]. Es spiegelt den Zustand vor der großen Verwüstung und der Entstehung des [[Ödland]]s wider.

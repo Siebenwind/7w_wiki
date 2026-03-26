@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Fingarion
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_166]].md
 ---
 # Fingarion
 
-**Titel:** Jäger
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Auenelfen|Gemeinschaft der Elfen]]
-**Zeitraum:** aktiv 19 n.H.
+!!! info "Metadaten"
+    - **Titel:** Jäger
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Auenelfen|Gemeinschaft der Elfen]]
+    - **Zeitraum:** aktiv 19 n.H.
+
 
 ## Beschreibung
 **Fingarion** ist ein elfischer Jäger auf [[Siebenwind]]. Er ist bekannt für seine Meisterschaft mit dem Bogen und sein tiefes Verständnis für die Geschöpfe des Waldes.

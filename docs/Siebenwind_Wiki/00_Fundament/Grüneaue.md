@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Grueneaue
 category: Allgemein
 status: UNGEKLAERT

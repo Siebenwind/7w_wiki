@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 187
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 187
 
-**Epistemischer Status:** #bote
-**Datum:** 10. Carmer 23 n.H.
-**Redaktion:** [[Bastean_Asanra]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 10. Carmer 23 n.H.
+    - **Redaktion:** [[Bastean_Asanra]]
+
 
 ## Schlagzeilen
 

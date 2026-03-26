@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Ritterehre (De Itinere Honoris)
 category: [[Gesellschaft]]
 ---
 
 # Ritterehre (De Itinere Honoris)
 
-**Epistemischer Status:** #überlieferung
-**Autor:** [[Schwertmeister_Tesion]], Mitglied des Ordens vom heiligen Schwerte Bellums
-**Vollständiger Titel:** *De Itinere Honoris - Über den Weg der Ehre*
+!!! info "Metadaten"
+    - **Epistemischer Status:** #überlieferung
+    - **Autor:** [[Schwertmeister_Tesion]], Mitglied des Ordens vom heiligen Schwerte Bellums
+    - **Vollständiger Titel:** *De Itinere Honoris - Über den Weg der Ehre*
+
 
 Diese Abhandlung von [[Schwertmeister_Tesion]] dient als Leitfaden für angehende Ritter und Krieger, um den Begriff der Ehre über seine bloße Definition hinaus im Alltag der Welt [[Siebenwind]] zu verankern.
 

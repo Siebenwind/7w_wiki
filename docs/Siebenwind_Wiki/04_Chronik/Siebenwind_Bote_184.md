@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 184
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 184
 
-**Epistemischer Status:** #bote
-**Datum:** 25. Sekar 21 n.H.
-**Redaktion:** [[Alricio_Romero_di_Madjani]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 25. Sekar 21 n.H.
+    - **Redaktion:** [[Alricio_Romero_di_Madjani]]
+
 
 ## Schlagzeilen
 

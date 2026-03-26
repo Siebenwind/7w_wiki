@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: e8f9a0b1-c2d3-4e4f-5a6b-7c8d9e0f1a2b
 title: Leandra
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 # Leandra
 
-**Titel:** Unteroffizierin (†)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[03_Gesellschaft/index#Malthust|Malthust]]
+!!! info "Metadaten"
+    - **Titel:** Unteroffizierin (†)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[03_Gesellschaft/index#Malthust|Malthust]]
+
 
 ## Beschreibung
 **Leandra** war eine Unteroffizierin der Malthust-Söldner, die im Jahr 21 n.H. ums Leben kam (Bote 179).

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Ecclesia Elementorum
 category: [[Gesellschaft]]
 ---
 
 # Ecclesia Elementorum
 
-**Rolle:** Religiöse Gemeinschaft
-**Epistemischer Status:** #canon
-**Glaubenswelt:** [[Religion_Übersicht|Die Vier Elemente]]
+!!! info "Metadaten"
+    - **Rolle:** Religiöse Gemeinschaft
+    - **Epistemischer Status:** #canon
+    - **Glaubenswelt:** [[Religion_Übersicht|Die Vier Elemente]]
+
 
 ## Beschreibung
 ## Wirken

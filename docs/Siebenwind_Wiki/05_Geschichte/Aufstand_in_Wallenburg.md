@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Aufstand in Wallenburg
 category: [[index]]
 ---
 
 # Aufstand in Wallenburg
 
-**Epistemischer Status:** #bote
-**Datum:** 22 n.H. (Bote 185)
-**Ort:** [[Wallenburg]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 22 n.H. (Bote 185)
+    - **Ort:** [[Wallenburg]]
+
 
 ## Hintergründe
 Die Bauern in Wallenburg litten unter den Folgen des Krieges und hohen Abgaben. Als bekannt wurde, dass Baronin [[Yeroma]] eine Goldlieferung aus der Kronmark für Juwelen statt für Hilfe verwendete, eskalierte die Lage.

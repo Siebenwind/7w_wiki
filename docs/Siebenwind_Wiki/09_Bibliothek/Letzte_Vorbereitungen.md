@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Letzte Vorbereitungen
 category: [[index]]
-tags: [Erzählung, [[Morsan]], [[Dunkeltief]], Sandholz]
 status: #perspektive
+tags: [Erzählung, [[Morsan]], [[Dunkeltief]], Sandholz]
 ---
 
 # Letzte Vorbereitungen

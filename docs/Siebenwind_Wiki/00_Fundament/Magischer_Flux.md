@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Magischer Flux
 category: Allgemein
 status: UNGEKLAERT

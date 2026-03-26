@@ -1,0 +1,35 @@
+{
+  "suite": "render-hygiene",
+  "description": "Guards representative pages against legacy inline metadata and layout drift.",
+  "cases": [
+    {
+      "id": "representative-pages-use-metadata-admonition",
+      "name": "Representative drift pages use the canonical metadata block",
+      "required_regex_by_file": [
+        {
+          "file": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lucius_Gropp.md",
+          "must_include_regex": [
+            "!!! info \"Metadaten\""
+          ]
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_179.md",
+          "must_include_regex": [
+            "!!! info \"Metadaten\""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-legacy-layout-in-representative-pages",
+      "name": "Representative pages do not keep legacy layout frontmatter",
+      "pattern_check_globs": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lucius_Gropp.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_179.md"
+      ],
+      "forbid_regex": [
+        "^layout:"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Familie Gropp
 category: Allgemein
 status: UNGEKLAERT

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Ahilur
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Ahilur
 
-**Titel:** Hofschmied (ehemals) / Verbannter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Hochelfen]] (Verstoßen)
+!!! info "Metadaten"
+    - **Titel:** Hofschmied (ehemals) / Verbannter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Hochelfen]] (Verstoßen)
+
 
 ## Beschreibung
 **Ahilur** war einst ein angesehener Hofschmied der Hochelfen in [[Falkensee]].

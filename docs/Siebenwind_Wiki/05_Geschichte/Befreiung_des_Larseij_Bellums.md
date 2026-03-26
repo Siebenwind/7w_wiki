@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Befreiung des Larseij Bellums
 category: [[index]]
 ---
 
 # Befreiung des Larseij Bellums
 
-**Epistemischer Status:** #bote #canon
-**Datum:** ca. 15. Carmar 15 n.H. (Bote 126)
-**Ort:** [[Feuerberg]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote #canon
+    - **Datum:** ca. 15. Carmar 15 n.H. (Bote 126)
+    - **Ort:** [[Feuerberg]]
+
 
 ## Verlauf
 Ein göttlicher Gesandter der Vier, der **Larseij Bellums**, war im Inneren des [[Feuerberg|Feuerberges]] eingesperrt.

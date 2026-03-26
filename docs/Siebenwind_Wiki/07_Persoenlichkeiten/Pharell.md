@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Pharell
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_161]].md
 ---
 # Pharell
 
-**Titel:** Gardist der Rittergarde
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Siebenwind]] / Rittergarde
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Gardist der Rittergarde
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Siebenwind]] / Rittergarde
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Pharell** ist ein Gardist der Rittergarde auf [[Siebenwind]].

@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Alassea
 category: Persönlichkeit
 ---
 
 # Alassea
 
-**Titel:** Heilerin / Forscherin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Communis_Medici]]
-**Zeitraum:** aktiv ab 20 n.H.
+!!! info "Metadaten"
+    - **Titel:** Heilerin / Forscherin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Communis_Medici]]
+    - **Zeitraum:** aktiv ab 20 n.H.
+
 
 ## Beschreibung
 Alassea ist eine engagierte Heilerin, die sich während des Ausbruchs der Plage **"[[Atmender_Tod]]"** in [[Falkensee]] und [[Brandenstein]] einen Namen machte. Sie arbeitete eng mit [[Markus_Panscher]] zusammen, um ein Heilmittel für die tödliche Krankheit zu finden.

@@ -1,6 +1,5 @@
 ---
-layout: wiki_page
-title: Sprachen
+title: "Siebenwind Wiki - Sprachen"
 ---
 
 # [[Siebenwind]] Wiki - Sprachen

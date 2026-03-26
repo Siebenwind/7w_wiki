@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Sean Eire
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_153]].md
 ---
 # Sean Eire
 
-**Titel:** Prätor der Diözese [[Siebenwind]] / Eminenz / Vater
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Kirche_der_Viere]] / [[Diözese_Siebenwind]]
-**Zeitraum:** aktiv ab 17 n.H.
+!!! info "Metadaten"
+    - **Titel:** Prätor der Diözese [[Siebenwind]] / Eminenz / Vater
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Kirche_der_Viere]] / [[Diözese_Siebenwind]]
+    - **Zeitraum:** aktiv ab 17 n.H.
+
 
 ## Beschreibung
 **Sean Eire** ist ein hochrangiger Geweihter der Viere.

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Waldemar Delarie
 category: Persönlichkeit
 lore_trust: 7
@@ -8,10 +7,12 @@ confidence: Certain
 
 # Waldemar Delarie
 
-**Titel:** Edelherr, ehem. Regierungsrat, ehem. Gardehauptmann / Putschist
-**Epistemischer Status:** #canon / #bote
-**Zugehörigkeit:** [[Ersonter_Bund]] / Haus Delarie
-**Zeitraum:** Aktiv (Bis ca. 28 n.H. im aktiven Dienst)
+!!! info "Metadaten"
+    - **Titel:** Edelherr, ehem. Regierungsrat, ehem. Gardehauptmann / Putschist
+    - **Epistemischer Status:** #canon / #bote
+    - **Zugehörigkeit:** [[Ersonter_Bund]] / Haus Delarie
+    - **Zeitraum:** Aktiv (Bis ca. 28 n.H. im aktiven Dienst)
+
 
 ## Beschreibung
 **Waldemar Delarie** war über Jahre hinweg das militärische Gesicht von [[Falkensee]]. Als Hauptmann der Garde — oft respektvoll oder furchtvoll **[[Finianswacht]]** genannt — verkörperte er die eiserne Disziplin und den unbedingten Willen des Ersonter Bundes. Er gilt als stolzer, oft eigenwilliger Führer, dessen markante Stimme und kompromisslose Art die Atmosphäre in den Kasernen und auf den Wallanlagen von [[Falkensee]] prägten. Sein Blick, so sagen Augenzeugen, war stets auf die nächste Bedrohung gerichtet, während er das komplexe Spiel der politischen Ränke oft mit offener Verachtung strafte.

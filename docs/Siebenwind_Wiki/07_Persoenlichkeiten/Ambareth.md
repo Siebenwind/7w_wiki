@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c
 title: Ambareth
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Ambareth
 
-**Titel:** Gnaden (Malthust?)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[03_Gesellschaft/index#Malthust|Malthust]]
+!!! info "Metadaten"
+    - **Titel:** Gnaden (Malthust?)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[03_Gesellschaft/index#Malthust|Malthust]]
+
 
 ## Beschreibung
 **Ambareth** wird mit dem Ehrentitel "Gnaden" in Verbindung mit den Malthust-Söldnern im Jahr 21 n.H. genannt (Bote 179).

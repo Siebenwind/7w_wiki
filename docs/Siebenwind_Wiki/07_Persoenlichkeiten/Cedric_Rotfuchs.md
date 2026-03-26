@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c
 title: Cedric Rotfuchs
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Cedric Rotfuchs
 
-**Titel:** Ritter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[03_Gesellschaft/index#Löwenorden|Löwenorden]]
+!!! info "Metadaten"
+    - **Titel:** Ritter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[03_Gesellschaft/index#Löwenorden|Löwenorden]]
+
 
 ## Beschreibung
 **Cedric Rotfuchs** ist ein Ritter des Löwenordens, der im Jahr 21 n.H. in den Reihen des Ordens aktiv war (Bote 182).

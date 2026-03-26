@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Urteil gegen Valjean und Hael
 category: [[index]]
 ---
 
 # Urteil gegen Valjean und Hael
 
-**Epistemischer Status:** #bote
-**Datum:** 14./25. Carmer 15 n.H. (Bote 124)
-**Beteiligte:** [[Elares_Valjean]], [[Barad_Hael]], [[Hanfried_Korbenus]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 14./25. Carmer 15 n.H. (Bote 124)
+    - **Beteiligte:** [[Elares_Valjean]], [[Barad_Hael]], [[Hanfried_Korbenus]]
+
 
 ## Verlauf
 Das Königliche Gericht verkündete zwei Urteile:

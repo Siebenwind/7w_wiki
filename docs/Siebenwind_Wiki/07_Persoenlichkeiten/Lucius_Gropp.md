@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Lucius Gropp
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Lucius Gropp
 
-**Titel:** Freiherr / Gardehauptmann / Inselpatrizier
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[06_Gruppen#Ersonter_Garde|Ersonter Garde]] / [[06_Gruppen#Baronsgarde|Baronsgarde]] / [[03_Gesellschaft/index#Der_Große_Rat|Der Große Rat]]
+!!! info "Metadaten"
+    - **Titel:** Freiherr / Gardehauptmann / Inselpatrizier
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[06_Gruppen#Ersonter_Garde|Ersonter Garde]] / [[06_Gruppen#Baronsgarde|Baronsgarde]] / [[03_Gesellschaft/index#Der_Große_Rat|Der Große Rat]]
+
 
 ## Beschreibung
 **Lucius Freiherr Gropp** ist der Sohn von Berenice Gropp (Akademiemitglied?) und einem Soldaten, der an der van’drischen Grenze verschollen ist. Er stammt aus einem kleinen Dorf bei [[Ersont]].

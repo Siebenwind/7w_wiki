@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Herbren Maltis
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_137]].md
 ---
 # Herbren Maltis
 
-**Titel:** Hofkünstler (historisch)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Draconis]] / Hof zu [[Siebenwind]]
-**Zeitraum:** aktiv um 11 n.H.
+!!! info "Metadaten"
+    - **Titel:** Hofkünstler (historisch)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Draconis]] / Hof zu [[Siebenwind]]
+    - **Zeitraum:** aktiv um 11 n.H.
+
 
 ## Beschreibung
 **Herbren Maltis** war ein berühmter Hofkünstler, der vor allem für seine Portraits adliger Familien bekannt ist. Sein Stil prägte die Darstellung der Elite in der Zeit nach der Thronbesteigung Hilgorads.

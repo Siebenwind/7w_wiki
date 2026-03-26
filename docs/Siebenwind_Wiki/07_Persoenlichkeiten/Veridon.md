@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: v3r-id0n-n3b3lk11ng3-22nh
 title: Veridon (Nebelklinge)
 category: Persönlichkeit
-uuid: v3r-id0n-n3b3lk11ng3-22nh
 quelle: ../../Quellen/Spielergeschichten/[[Blutschwert]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
 letzter_check: 2026-02-13T23:00:00
 ---
 
 # Veridon (Nebelklinge)
 
-**Epistemischer Status:** #perspektive
-**Titel:** Ehemaliger Diener des [[Bellum]] / Assassine der [[Oculus_Ecclesiae]]
-**Zugehörigkeit:** [[Oculus_Ecclesiae]] (ehemals) / [[Bellum-Kirche]] (ehemals)
-**Zeitraum:** Aktiv um 22 n.H. (Vandrien-Krise)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Ehemaliger Diener des [[Bellum]] / Assassine der [[Oculus_Ecclesiae]]
+    - **Zugehörigkeit:** [[Oculus_Ecclesiae]] (ehemals) / [[Bellum-Kirche]] (ehemals)
+    - **Zeitraum:** Aktiv um 22 n.H. (Vandrien-Krise)
+
 
 ## Beschreibung
 Veridon, auch bekannt unter dem Codenamen "Nebelklinge", ist ein ehemaliger Spion und Meuchelmörder der [[Oculus_Ecclesiae]]. Er ist ein gezeichneter Mann mit schwarzem, oft verfilztem Haar und zahlreichen Narben im Gesicht. Seine Augen werden als ungewöhnlich glänzend beschrieben—ein Zeichen innerer Stärke, das ihn von den kriegsgebeutelten Bewohnern Vandriens unterscheidet. Er kämpft mit den [[Daemonen]] seiner Vergangenheit und einer ausgeprägten Alkoholsucht, die er als Flucht vor seiner verlorenen Ehre nutzt.

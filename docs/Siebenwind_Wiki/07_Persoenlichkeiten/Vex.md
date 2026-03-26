@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Vex
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Vex
 
-**Titel:** Vogtin von [[Finsterwangen]] (ehemals)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Finsterwangen]]
+!!! info "Metadaten"
+    - **Titel:** Vogtin von [[Finsterwangen]] (ehemals)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Finsterwangen]]
+
 
 ## Beschreibung
 **Vex** war lange Zeit die altgediente Vogtin von [[Finsterwangen]].

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lyrius Telrunya
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_167]].md
 ---
 # Lyrius Telrunya
 
-**Titel:** Schneidermeister / Kandidat zum Hafenvogt
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]] / [[Handel]]
-**Zeitraum:** aktiv 19 n.H.
+!!! info "Metadaten"
+    - **Titel:** Schneidermeister / Kandidat zum Hafenvogt
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Brandenstein]] / [[Handel]]
+    - **Zeitraum:** aktiv 19 n.H.
+
 
 ## Beschreibung
 **Lyrius Telrunya** ist ein Schneidermeister aus [[Brandenstein]]. Er war früher als Verwalter in der Siedlung tätig und diente kurzzeitig im [[Lehensbanner]].

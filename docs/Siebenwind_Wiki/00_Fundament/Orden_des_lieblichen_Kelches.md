@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Orden des lieblichen Kelches
 category: Allgemein
 status: UNGEKLAERT

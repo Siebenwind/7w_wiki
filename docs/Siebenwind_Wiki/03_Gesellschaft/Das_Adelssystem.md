@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Das Adelssystem
 category: Index
 author: [[Siebenwind]] Chronicler

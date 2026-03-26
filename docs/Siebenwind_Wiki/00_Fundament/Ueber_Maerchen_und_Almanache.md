@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ueber Maerchen und Almanache
 category: Allgemein
 status: UNGEKLAERT

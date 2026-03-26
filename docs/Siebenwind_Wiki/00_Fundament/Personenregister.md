@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: d173e080-a2dd-42ec-b616-f7f614fa9368
 title: Personenregister
 category: [[index]]
-uuid: d173e080-a2dd-42ec-b616-f7f614fa9368
 ---
 # Personenregister
 

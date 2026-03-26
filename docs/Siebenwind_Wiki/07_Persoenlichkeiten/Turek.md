@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Turek
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Turek
 
-**Titel:** Händlerfamilie
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Handel]] / [[Brandenstein]]
+!!! info "Metadaten"
+    - **Titel:** Händlerfamilie
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Handel]] / [[Brandenstein]]
+
 
 ## Beschreibung
 Die **Familie Turek** ist eine wohlhabende Händlerfamilie.

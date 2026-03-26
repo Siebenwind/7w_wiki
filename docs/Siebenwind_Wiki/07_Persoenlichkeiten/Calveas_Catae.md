@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Calveas Catae"
 category: [[index]]
 ---

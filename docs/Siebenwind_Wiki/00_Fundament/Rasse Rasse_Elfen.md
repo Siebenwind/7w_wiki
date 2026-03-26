@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Rasse Rasse Elfen
 category: Allgemein
 status: UNGEKLAERT

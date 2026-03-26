@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Azgar Kazanin
 category: [[Persoenlichkeiten_Uebersicht]]
 status: bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_121]].md
 ---
 # Azgar Kazanin
 
-**Titel:** Rekrut (ehem.)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Orken]] / [[Kazla]] (?)
-**Zeitraum:** aktiv 15 n.H.
+!!! info "Metadaten"
+    - **Titel:** Rekrut (ehem.)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Orken]] / [[Kazla]] (?)
+    - **Zeitraum:** aktiv 15 n.H.
+
 
 ## Beschreibung
 **Azgar Kazanin** ist ein Ork, der durch seine versuchte Ausbildung an der galadonischen Kriegerakademie Bekanntheit erlangte. Er ist eines der wenigen dokumentierten Beispiele für den Versuch einer militärischen Integration von [[Orken]] in die Strukturen der Krone.

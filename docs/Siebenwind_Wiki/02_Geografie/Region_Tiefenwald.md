@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Region Tiefenwald
 category: Index
 author: [[Siebenwind]] Chronicler

@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
+uuid: df7a4b2c-2345-5678-9012-34bf2597e836
 title: Faesa Farell
 category: [[Persoenlichkeiten_Uebersicht]]
-uuid: df7a4b2c-2345-5678-9012-34bf2597e836
 epistemic: "#bote"
 ---
 
 # Faesa Farell
 
-**Rolle:** Gastronomin / Theaterbuffet
-**Erstes Auftreten:** [Bote 186]
-**Aktivitätszeitraum:** 22 n.H.
+!!! info "Metadaten"
+    - **Rolle:** Gastronomin / Theaterbuffet
+    - **Erstes Auftreten:** [Bote 186]
+    - **Aktivitätszeitraum:** 22 n.H.
+
 
 [TBC] - Dieser Artikel ist ein Platzhalter und wurde automatisch während des Konsistenz-Audits erstellt.

@@ -1,13 +1,14 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 174
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 174
 
-**Epistemischer Status:** #bote
-**Datum:** 26. Trier 20 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 26. Trier 20 n.H.
+
 
 ## Schlagzeilen
 

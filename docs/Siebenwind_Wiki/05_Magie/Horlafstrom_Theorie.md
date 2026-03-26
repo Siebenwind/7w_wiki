@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Horlafstrom-Theorie
 category: Magie
 ---

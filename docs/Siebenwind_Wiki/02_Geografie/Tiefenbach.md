@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Tiefenbach
 category: [[index]]
 ---
 
 # Tiefenbach
 
-**Status:** Ruinenstadt
-**Region:** [[Ödland]] / Osten von [[Siebenwind]]
-**Epistemischer Status:** #bote / #überlieferung
+!!! info "Metadaten"
+    - **Status:** Ruinenstadt
+    - **Region:** [[Ödland]] / Osten von [[Siebenwind]]
+    - **Epistemischer Status:** #bote / #überlieferung
+
 
 ## 📜 Beschreibung
 **Tiefenbach** war einst eine bedeutende Hafenstadt im Osten von [[Siebenwind]], bekannt als Zentrum der Gelehrsamkeit und Sitz des legendären **[[Magierturm_zu_Tiefenbach]]** ("Weißer Dorn"). Die Stadt blühte im Zeitalter vor der großen Dunkelheit, wurde jedoch im Krieg gegen [[10_Angamon|den Einen]] vollständig vernichtet.

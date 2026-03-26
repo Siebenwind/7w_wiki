@@ -1,10 +1,12 @@
 ---
-layout: wiki_page
 title: "Kaa"
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "/Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_150]].md"
 author: "Antigravity"
+owner: UNASSIGNED
+review_until: 2026-09-22
+reason: legacy_stub
 ---
 
 # Kaa

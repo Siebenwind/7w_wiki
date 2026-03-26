@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Gerelda Wendolyn
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_138]].md
 ---
 # Gerelda Wendolyn
 
-**Titel:** Tiertrainerin (Raubkatzen) / "Apfelkönigin"
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Circus_Wendolyn]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Tiertrainerin (Raubkatzen) / "Apfelkönigin"
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Circus_Wendolyn]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Gerelda Wendolyn** ist die älteste Tochter von [[Herbertus_Wendolyn|Herbertus]] und [[Isolde_Wendolyn]]. Sie wurde in Wallenburg geboren und gilt als Frohnatur mit außergewöhnlicher Schönheit, was ihr einst den Titel der "Apfelkönigin von Lafay's Stab" einbrachte.

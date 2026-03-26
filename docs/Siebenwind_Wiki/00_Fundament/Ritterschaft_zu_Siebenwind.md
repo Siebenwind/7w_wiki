@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ritterschaft zu Siebenwind
 category: Allgemein
 status: UNGEKLAERT

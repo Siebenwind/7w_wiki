@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Kraken
 category: [[index]]
-tags: [Erzählung, Mythologie, Vandrien, [[Astrael]], Krieg]
 status: #perspektive
+tags: [Erzählung, Mythologie, Vandrien, [[Astrael]], Krieg]
 ---
 
 # Kraken

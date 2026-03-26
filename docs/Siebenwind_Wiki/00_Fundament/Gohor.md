@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Gohor
 category: Allgemein
 status: UNGEKLAERT

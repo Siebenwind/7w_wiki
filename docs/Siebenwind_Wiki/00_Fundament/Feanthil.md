@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Feanthil
 category: Allgemein
 status: UNGEKLAERT

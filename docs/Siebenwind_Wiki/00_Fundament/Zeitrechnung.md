@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Zeitrechnung
 category: Allgemein
 status: UNGEKLAERT

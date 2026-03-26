@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Ritterschaft der Sieben Winde"
 category: Allgemein
 ---

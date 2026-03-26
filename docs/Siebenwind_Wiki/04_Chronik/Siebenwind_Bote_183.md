@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 183
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 183
 
-**Epistemischer Status:** #bote
-**Datum:** 30. Carmer 21 n.H.
-**Redaktion:** [[Alricio_Romero_di_Madjani]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 30. Carmer 21 n.H.
+    - **Redaktion:** [[Alricio_Romero_di_Madjani]]
+
 
 ## Schlagzeilen
 

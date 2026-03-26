@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ras Altanin
 category: Allgemein
 status: UNGEKLAERT

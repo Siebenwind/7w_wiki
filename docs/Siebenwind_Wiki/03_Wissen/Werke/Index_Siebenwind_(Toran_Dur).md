@@ -1,13 +1,14 @@
 ---
-layout: post
 title: Index Siebenwind
 category: Allgemein
 ---
 
 # Index [[Siebenwind]]
 
-**Autor:** [[Toran_Dur]]
-**Kategorie:** Geschichtsschreibung / Almanach
+!!! info "Metadaten"
+    - **Autor:** [[Toran_Dur]]
+    - **Kategorie:** Geschichtsschreibung / Almanach
+
 
 ## Inhalt
 

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: a1b2c3d4-e5f6-4a1b-8c9d-0e1f2a3b4c5d
 title: Haldur Toda
 category: Persönlichkeit
@@ -9,10 +8,12 @@ letzter_check: 2026-02-13T22:50:00
 
 # Haldur Toda
 
-**Epistemischer Status:** #perspektive
-**Titel:** Dichter / Autor / "König der Narren"
-**Zugehörigkeit:** [[Brandenstein]] / [[Ecclesia]] (Umfeld)
-**Zeitraum:** Aktiv um 22 n.H. (Dichterjahre nach 13 n.H.)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Dichter / Autor / "König der Narren"
+    - **Zugehörigkeit:** [[Brandenstein]] / [[Ecclesia]] (Umfeld)
+    - **Zeitraum:** Aktiv um 22 n.H. (Dichterjahre nach 13 n.H.)
+
 
 ## Beschreibung
 Haldur Toda ist ein galadonischer Dichter, dessen Schaffen von tiefer Melancholie, scharfsinnigem Sarkasmus und der ständigen Suche nach der "Einen" geprägt ist. Er wird oft als sensibler, reflektierter Mensch beschrieben, der dazu neigt, sein eigenes Unglück in lyrische Form zu gießen. Sein Stil ist geprägt von "Roman-Qualität"—detaillierten Beschreibungen von Stimmungen und sozialen Dynamiken.

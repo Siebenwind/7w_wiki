@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Abweisungen
 category: [[index]]
 status: integrated

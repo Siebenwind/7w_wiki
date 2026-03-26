@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Mirian Lasar
 category: Persönlichkeit
 ---
 
 # [[Mirian]] Lasar
 
-**Titel:** Heermeisterin und Hochmeisterin des [[Orden_der_Wachenden_Löwen|Greifenordens]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritter_der_Sieben_Winde]], [[Orden_der_Wachenden_Löwen]]
-**Zeitraum:** aktiv ab 20 n.H.
+!!! info "Metadaten"
+    - **Titel:** Heermeisterin und Hochmeisterin des [[Orden_der_Wachenden_Löwen|Greifenordens]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ritter_der_Sieben_Winde]], [[Orden_der_Wachenden_Löwen]]
+    - **Zeitraum:** aktiv ab 20 n.H.
+
 
 ## Beschreibung
 [[Mirian]] Lasar ist eine fähige Strategin und Ritterin, die im Jahr 20 n.H. zur **Heermeisterin** der [[Ritter_der_Sieben_Winde]] und **Hochmeisterin** des Greifenordens ernannt wurde. Sie ist bekannt für ihre militärische Strenge und ihre Bemühungen, die Verteidigung der Baronie gegen das [[Dunkeltief]] zu koordinieren.

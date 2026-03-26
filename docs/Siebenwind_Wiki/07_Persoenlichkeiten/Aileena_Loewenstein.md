@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Aileena Loewenstein
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_161]].md
 ---
 # Aileena Loewenstein
 
-**Titel:** Heilerin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]] / [[Communis_Medici]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Heilerin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]] / [[Communis_Medici]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Aileena Loewenstein** ist eine Heilkundige, die im Dienste des [[Löwenorden|Löwenordens]] steht.

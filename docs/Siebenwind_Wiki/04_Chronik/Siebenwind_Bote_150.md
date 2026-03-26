@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a912
 title: Siebenwind Bote 150
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a912
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 150.md
 letzter_check: 2026-02-13T02:15:00+01:00
 ---
 # [[Siebenwind]] Bote 150
 
-**Epistemischer Status:** #bote
-**Datum:** 26. Querler 17 n.H. (Mittentag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 26. Querler 17 n.H. (Mittentag)
+
 
 ## Highlights
 *   **Die Seuche:** Eine dämonische Krankheit (Verformungen, Übelkeit) befiel die Insel. Sie wurde durch eine heilige Quelle und alchemistische Unterstützung geheilt.

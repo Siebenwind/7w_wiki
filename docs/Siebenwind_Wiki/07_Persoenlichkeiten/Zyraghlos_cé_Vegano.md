@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Zyraghlos cé Vegano
 category: [[Persoenlichkeiten_Uebersicht]]
-quelle: [Linari - Reagenzien]
 status: #überlieferung
+quelle: [Linari - Reagenzien]
 ---
 
 # Zyraghlos cé Vegano

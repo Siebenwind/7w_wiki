@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Elodril Myrtholis
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_169]].md
 ---
 # Elodril Myrtholis
 
-**Titel:** Inselpatrizier / Ratsmitglied
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Krone]] / [[Auenelfen]] (?)
-**Zeitraum:** aktiv 19 n.H.
+!!! info "Metadaten"
+    - **Titel:** Inselpatrizier / Ratsmitglied
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Krone]] / [[Auenelfen]] (?)
+    - **Zeitraum:** aktiv 19 n.H.
+
 
 ## Beschreibung
 **Elodril Myrtholis** ist einer der drei ernannten **Inselpatrizier** auf [[Siebenwind]]. Er vertritt die Interessen der Krone und koordiniert die Zusammenarbeit zwischen den verschiedenen Völkern und Lehen.

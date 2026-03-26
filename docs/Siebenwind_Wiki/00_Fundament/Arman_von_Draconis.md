@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Arman von Draconis
 category: Allgemein
 status: UNGEKLAERT

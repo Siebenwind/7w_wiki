@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Johan "Hund" Gottfried
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Johan "Hund" Gottfried
 
-**Titel:** ehemaliger Gardewaibel, Verräter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Dunkle_Ritter]] / [[Kult_des_Einen]] (ehemals [[Graue_Garde]])
+!!! info "Metadaten"
+    - **Titel:** ehemaliger Gardewaibel, Verräter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Dunkle_Ritter]] / [[Kult_des_Einen]] (ehemals [[Graue_Garde]])
+
 
 ## Beschreibung
 **Johan Gottfried**, oft nur "Hund" genannt, diente jahrelang als loyaler Waibel in der Garde des Ersonter Bundes unter Hauptmann [[Waldemar_Delarie]]. Er war bekannt für sein pflichtbewusstes, fast hündisches Verhalten.

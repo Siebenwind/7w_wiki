@@ -434,7 +434,7 @@
         "properties": {
           "target": {
             "type": "string",
-            "description": "Path to file/folder (default: Siebenwind_Wiki)"
+            "description": "Path to file/folder (default: docs/Siebenwind_Wiki)"
           },
           "auto": {
             "type": "boolean",
@@ -459,7 +459,7 @@
         "properties": {
           "target": {
             "type": "string",
-            "description": "Path to file/folder (default: Siebenwind_Wiki)"
+            "description": "Path to file/folder (default: docs/Siebenwind_Wiki)"
           },
           "fix": {
             "type": "boolean",
@@ -599,7 +599,7 @@
         "properties": {
           "path": {
             "type": "string",
-            "description": "Path to file/folder (default: Siebenwind_Wiki)"
+            "description": "Path to file/folder (default: docs/Siebenwind_Wiki)"
           },
           "json": {
             "type": "boolean",

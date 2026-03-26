@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Die Viere Kirche
 category: Allgemein
 status: UNGEKLAERT

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Region Endophal
 category: Allgemein
 status: UNGEKLAERT

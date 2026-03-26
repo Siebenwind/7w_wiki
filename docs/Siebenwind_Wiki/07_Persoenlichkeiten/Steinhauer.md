@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Steinhauer
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Steinhauer
 
-**Titel:** Stellvertretender Hauptmann / Putschist
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Graue_Garde]]
+!!! info "Metadaten"
+    - **Titel:** Stellvertretender Hauptmann / Putschist
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Graue_Garde]]
+
 
 ## Beschreibung
 **Steinhauer** ist der Stellvertreter von Hauptmann [[Waldemar_Delarie]] in der Ersonter Garde. Im Jahr 21 n.H. (Bote 183) war er maßgeblich am Putsch gegen den Ersonter Rat beteiligt.

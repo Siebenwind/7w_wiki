@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Magietheorie (Toran_Dur)
 category: [[index]]
 ---
 
 # Magietheorie ([[Toran_Dur]])
 
-**Epistemischer Status:** #überlieferung
-**Autor:** Hochmagus [[Toran_Dur]]
-**Datum:** 26 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #überlieferung
+    - **Autor:** Hochmagus [[Toran_Dur]]
+    - **Datum:** 26 n.H.
+
 
 Dieser Artikel fasst die zentralen Lehren von Hochmagus [[Toran_Dur]] zusammen, wie sie an der königlichen Akademie gelehrt werden. Er definiert [[index]] als die Manipulation des **Astralen Netzes** (auch **Flux** genannt) durch den sterblichen [[Geist]].
 

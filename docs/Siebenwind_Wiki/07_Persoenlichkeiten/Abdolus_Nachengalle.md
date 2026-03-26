@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Abdolus Nachengalle
 category: Persönlichkeit
 ---
 
 # Abdolus Nachengalle
 
-**Titel:** Dr., Forscher und Mystiker
-**Epistemischer Status:** #bote
-**Ort:** [[Draconis]]
-**Zeitraum:** aktiv um 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Dr., Forscher und Mystiker
+    - **Epistemischer Status:** #bote
+    - **Ort:** [[Draconis]]
+    - **Zeitraum:** aktiv um 18 n.H.
+
 
 ## Beschreibung
 Dr. Abdolus Nachengalle ist ein angesehener Gelehrter aus der Wissenschaftsstadt **[[Draconis]]**. Er hat sich auf die Erforschung übernatürlicher Wesen und Phänomene spezialisiert.

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Nemesis
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Nemesis
 
-**Titel:** Horwah (Das blutende Auge)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Nemses]] ?
+!!! info "Metadaten"
+    - **Titel:** Horwah (Das blutende Auge)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Nemses]] ?
+
 
 ## Beschreibung
 **Nemesis** (oder Nemses) erschien im [[Dunkeltief_29_nH]] (Bote 188) in Form eines blutenden Auges.

@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
 title: Lazalantin
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Lazalantin
 
-**Voller Name:** Lazalantin (Waljakov)
-**Spitzname:** Tintin
-**Titel:** Hohepriester des [[Enhor]]
-**Epistemischer Status:** #bote / #canon
-**Zugehörigkeit:** [[Ecclesia_Elementorum]]
+!!! info "Metadaten"
+    - **Voller Name:** Lazalantin (Waljakov)
+    - **Spitzname:** Tintin
+    - **Titel:** Hohepriester des [[Enhor]]
+    - **Epistemischer Status:** #bote / #canon
+    - **Zugehörigkeit:** [[Ecclesia_Elementorum]]
+
 
 ## Beschreibung
 **Lazalantin** ist der Hohepriester des Windgottes [[Enhor]] ([[Ventus]]). Er ist bekannt für seine unkonventionelle Art und gilt als einer der mächtigsten Kleriker der Insel.

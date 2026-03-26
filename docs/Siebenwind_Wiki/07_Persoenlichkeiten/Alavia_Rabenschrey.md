@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Alavia Rabenschrey
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_161]].md
 ---
 # Alavia Rabenschrey
 
-**Titel:** Heilerin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Communis_Medici]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Heilerin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Communis_Medici]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Alavia Rabenschrey** ist eine Heilkundige auf [[Siebenwind]].

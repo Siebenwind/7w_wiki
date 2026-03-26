@@ -22,6 +22,7 @@ import sys
 import uuid
 from pathlib import Path
 from collections import Counter
+from content_contract import scan_contract
 from nexus_config import WIKI_DIR, WORLD_NAME
 from pages_integrity import collect_pages_build_report, now_iso
 
@@ -380,6 +381,12 @@ def main():
             "wiki_integrity": {"issues": 0},
             "source_hygiene": {"issues": 0},
             "site_integrity": {"issues": 0},
+            "render_hygiene": {"issues": 0},
+            "contract_violations": {"issues": 0},
+            "stub_inventory": {"issues": 0, "total": 0},
+            "bridge_inventory": {"issues": 0, "total": 0},
+            "split_brain": {"issues": 0},
+            "traceability_gaps": {"issues": 0},
         },
         "details": {
             "duplicates": [],
@@ -390,7 +397,13 @@ def main():
             "source_hygiene": [],
             "ingestion_issues": [],
             "broken_links": [],
-            "bridge_pages": []
+            "bridge_pages": [],
+            "render_hygiene": [],
+            "contract_violations": [],
+            "stub_inventory": {},
+            "bridge_inventory": {},
+            "split_brain": [],
+            "traceability_gaps": {},
         },
     }
 
@@ -601,6 +614,41 @@ def main():
                 log(f"  ... und {remaining} weitere.")
     log()
 
+    # --- 10. Content Contract / Drift ---
+    log("## 10. Content Contract / Drift Prevention")
+    contract = scan_contract(WIKI_DIR)
+    audit_data["details"]["stub_inventory"] = contract["stub_inventory"]
+    audit_data["details"]["bridge_inventory"] = contract["bridge_inventory"]
+    audit_data["details"]["split_brain"] = contract["split_brain"]["files"]
+    audit_data["details"]["traceability_gaps"] = contract["traceability_gaps"]
+
+    render_examples = []
+    contract_examples = []
+    for detail in contract["details"]:
+        for change in detail.get("changes", []):
+            if change["type"] == "inline_metadata_block":
+                render_examples.append({"file": detail["path"], "change": change})
+            elif change["type"] in {"legacy_field", "duplicate_frontmatter_key", "missing_frontmatter", "title_h1_mismatch"}:
+                contract_examples.append({"file": detail["path"], "change": change})
+    audit_data["details"]["render_hygiene"] = render_examples[:50]
+    audit_data["details"]["contract_violations"] = contract_examples[:50]
+
+    log(f"  Render-Hygiene-Issues: {contract['render_hygiene']['issues']}")
+    log(f"  Contract-Verletzungen: {contract['contract_violations']['issues']}")
+    log(f"  Stubs gesamt / invalid: {contract['stub_inventory']['total']} / {contract['stub_inventory']['invalid']}")
+    log(f"  Bridges gesamt / invalid: {contract['bridge_inventory']['total']} / {contract['bridge_inventory']['invalid']}")
+    log(f"  Split-Brain-Dateien: {contract['split_brain']['issues']}")
+    log(f"  Inventar: {contract['traceability_gaps']['inventory_path']}")
+    issues_found += (
+        contract["render_hygiene"]["issues"]
+        + contract["contract_violations"]["issues"]
+        + contract["stub_inventory"]["invalid"]
+        + contract["bridge_inventory"]["invalid"]
+        + contract["split_brain"]["issues"]
+        + contract["traceability_gaps"]["issues"]
+    )
+    log()
+
     if args.pages:
         pages_report = collect_pages_build_report(config="mkdocs.yml", no_clean=False)
         pages_health = pages_report["pages_health"]
@@ -608,7 +656,7 @@ def main():
         site_issues = pages_health.get("unallowlisted_total", 0) + len(pages_health.get("other_warnings", []))
         issues_found += site_issues
 
-        log("## 10. Pages Site Integrity (MkDocs / Roamlinks)")
+        log("## 11. Pages Site Integrity (MkDocs / Roamlinks)")
         log(f"  Status: {pages_health.get('status', 'UNKNOWN')}")
         log(
             "  Unresolved internal links: "
@@ -643,6 +691,14 @@ def main():
         + len(audit_data["details"]["bridge_pages"])
     )
     audit_data["categories"]["site_integrity"]["issues"] = len(audit_data["details"].get("site_integrity", {}).get("other_warnings", [])) + int(audit_data["details"].get("site_integrity", {}).get("unallowlisted_total", 0))
+    audit_data["categories"]["render_hygiene"]["issues"] = contract["render_hygiene"]["issues"]
+    audit_data["categories"]["contract_violations"]["issues"] = contract["contract_violations"]["issues"]
+    audit_data["categories"]["stub_inventory"]["issues"] = contract["stub_inventory"]["invalid"]
+    audit_data["categories"]["stub_inventory"]["total"] = contract["stub_inventory"]["total"]
+    audit_data["categories"]["bridge_inventory"]["issues"] = contract["bridge_inventory"]["invalid"]
+    audit_data["categories"]["bridge_inventory"]["total"] = contract["bridge_inventory"]["total"]
+    audit_data["categories"]["split_brain"]["issues"] = contract["split_brain"]["issues"]
+    audit_data["categories"]["traceability_gaps"]["issues"] = contract["traceability_gaps"]["issues"]
     audit_data["issues_found"] = issues_found
     log("=" * 60)
     log(f"  ERGEBNIS: {issues_found} Probleme gefunden.")

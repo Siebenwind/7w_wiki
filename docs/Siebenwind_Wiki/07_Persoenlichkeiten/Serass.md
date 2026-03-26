@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Serass
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Serass
 
-**Titel:** Fürst von [[Vandrien]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Vandrien]] / [[Pakt_der_Viereinigkeit]]
+!!! info "Metadaten"
+    - **Titel:** Fürst von [[Vandrien]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Vandrien]] / [[Pakt_der_Viereinigkeit]]
+
 
 ## Beschreibung
 **Serass** ist der regierende Fürst des Lehens Vandrien.

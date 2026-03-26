@@ -1,13 +1,14 @@
 ---
-layout: post
 title: Forschungsberichte
 category: Allgemein
 ---
 
 # Forschungsberichte
 
-**Autor:** [[Toran_Dur]]
-**Kategorie:** Sammlung / Berichte
+!!! info "Metadaten"
+    - **Autor:** [[Toran_Dur]]
+    - **Kategorie:** Sammlung / Berichte
+
 
 ## Inhalt
 

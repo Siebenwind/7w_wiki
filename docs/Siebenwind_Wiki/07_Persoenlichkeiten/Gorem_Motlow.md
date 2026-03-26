@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Gorem Motlow
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # [[Gorem]] Motlow
 
-**Titel:** Waibel der [[Buergerwehr]] / Leiter Waisenhaus
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Falkensee]] / [[Bürgerwehr]]
+!!! info "Metadaten"
+    - **Titel:** Waibel der [[Buergerwehr]] / Leiter Waisenhaus
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Falkensee]] / [[Bürgerwehr]]
+
 
 ## Beschreibung
 **[[Gorem]] Motlow** ist ein ehemaliger Gardist der Ersonter Garde und Waibel der [[Buergerwehr]].

@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a920
 title: Siebenwind Bote 158
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a920
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 158.md
 letzter_check: 2026-02-13T04:30:00+01:00
 ---
 # [[Siebenwind]] Bote 158
 
-**Epistemischer Status:** #bote
-**Datum:** 17. Triar 18 n.H. (Felatag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 17. Triar 18 n.H. (Felatag)
+
 
 ## Highlights
 *   **Bedrohung aus der Tiefe:** Ein Schlangenvolk, die **[[Sammler]]**, bricht aus unterirdischen Gängen hervor. Sie stammen angeblich von den Mazzaremern ab und nutzen mächtige [[index]] (Thaumaturgen). Ein Angriff auf den **Falkenwall** konnte durch **[[Toran_Dur]]** abgewehrt werden.

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c
 title: Jasna
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 # Jasna
 
-**Titel:** Bürgerin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]] / Zivilbevölkerung
+!!! info "Metadaten"
+    - **Titel:** Bürgerin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Brandenstein]] / Zivilbevölkerung
+
 
 ## Beschreibung
 **Jasna** ist eine Bürgerin aus [[Brandenstein]], die im Jahr 29 n.H. in den Chroniken erwähnt wird (Bote 189).

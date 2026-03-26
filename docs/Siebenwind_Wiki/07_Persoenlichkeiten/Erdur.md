@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Erdur"
 category: [[index]]
 ---

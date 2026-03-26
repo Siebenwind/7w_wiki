@@ -68,6 +68,7 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [.agent/tests/suites/tool-manifest-contract.json](../.agent/tests/suites/tool-manifest-contract.json)
 - [x] [.agent/tests/suites/pages-link-contract.json](../.agent/tests/suites/pages-link-contract.json)
 - [x] [.agent/tests/suites/codex-workflow-bridges.json](../.agent/tests/suites/codex-workflow-bridges.json)
+- [x] [Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md) (Kanonischer Drift-/Pages-Vertrag)
 - [x] [.agent/config/pages_link_policy.json](../.agent/config/pages_link_policy.json) (Allowlist / planned-fix policy fuer unresolved Pages-Targets)
 - [x] [.agent/data/pages_health.json](../.agent/data/pages_health.json) (runtime-generated Pages snapshot fuer Advisor und Workflow-Hygiene)
 - [x] [.github/workflows/release-bundles.yml](../.github/workflows/release-bundles.yml) (Tag-basierter GitHub-Release-Build fuer Bundle-Assets; keine Repo-Versionierung der Bundles)

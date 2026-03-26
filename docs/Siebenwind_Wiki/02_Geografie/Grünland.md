@@ -1,12 +1,13 @@
 ---
-layout: wiki_page
 title: Grünland
 category: [[Geografie]]
 ---
 # Grünland
 
-**Region:** [[Siebenwind]]
-**Status:** #canon
+!!! info "Metadaten"
+    - **Region:** [[Siebenwind]]
+    - **Status:** #canon
+
 
 ## Überblick
 Das **Grünland** (oft auch als *Grönlanden* in alten Schriften bezeichnet) ist das fruchtbare Hinterland der Insel [[Siebenwind]]. Es erstreckt sich östlich von [[Brandenstein]] und nördlich von [[Falkensee]]. Die Region ist bekannt für ihre weiten Ebenen, die für die Viehzucht und Landwirtschaft genutzt werden, aber auch für die ständige Bedrohung durch [[Orken]]-Banden aus den angrenzenden Wildnissen.

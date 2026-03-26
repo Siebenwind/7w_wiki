@@ -1,6 +1,5 @@
 ---
-layout: wiki_page
-title: Myten und Legenden
+title: "Siebenwind Wiki - Myten und Legenden"
 ---
 
 # [[Siebenwind]] Wiki - Myten und Legenden

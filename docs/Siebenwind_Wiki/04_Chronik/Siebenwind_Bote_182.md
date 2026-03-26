@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 182
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 182
 
-**Epistemischer Status:** #bote
-**Datum:** 26. Carmer 21 n.H.
-**Redaktion:** [[Alricio_Romero_di_Madjani]] (Leitung), [[Ionas]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 26. Carmer 21 n.H.
+    - **Redaktion:** [[Alricio_Romero_di_Madjani]] (Leitung), [[Ionas]]
+
 
 ## Schlagzeilen
 

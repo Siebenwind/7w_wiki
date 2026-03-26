@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c
 title: Felis
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Felis
 
-**Titel:** Boten-Redakteurin / Wirtin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Die_Chronik]] / Gastronomie
+!!! info "Metadaten"
+    - **Titel:** Boten-Redakteurin / Wirtin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Die_Chronik]] / Gastronomie
+
 
 ## Beschreibung
 **Felis** ist eine Redakteurin des [[Siebenwind]] Boten und betreibt zudem ein Etablissement in [[Brandenstein]]. Sie ist verheiratet mit [[Emanuel_Sanderus]] (Bote 172/176).

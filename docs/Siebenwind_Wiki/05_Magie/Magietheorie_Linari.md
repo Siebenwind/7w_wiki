@@ -1,11 +1,10 @@
 ---
-layout: wiki_page
+uuid: l1n4r1-m4g-2026
 title: Alte Magietheorie (Linari)
 category: Magie
 status: integrated
-uuid: l1n4r1-m4g-2026
-report_id: l1n4r1-m4g-2026
 author: "Dunvallo Linari"
+report_id: l1n4r1-m4g-2026
 letzter_check: 2026-02-16T18:45:00+01:00
 ---
 

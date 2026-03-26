@@ -1,0 +1,33 @@
+{
+  "suite": "content-contract",
+  "description": "Guards the shared wiki content contract and machine-readable sanitizer surface.",
+  "cases": [
+    {
+      "id": "sanitize-contract-json",
+      "name": "sanitize exposes the drift-prevention contract in JSON form",
+      "cmd": [
+        "./7w_wiki.py",
+        "sanitize",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lucius_Gropp.md",
+        "--json"
+      ],
+      "expect_exit_any": [0, 1],
+      "expect_valid_json": true,
+      "expect_json_keys": [
+        "scanned_files",
+        "violations_found",
+        "render_hygiene",
+        "contract_violations",
+        "stub_inventory",
+        "split_brain",
+        "traceability_gaps",
+        "details"
+      ],
+      "expect_json_path_exists": [
+        "traceability_gaps.inventory_path",
+        "split_brain.files",
+        "cache.inputs_fingerprint"
+      ]
+    }
+  ]
+}

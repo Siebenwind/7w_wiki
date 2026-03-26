@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Festland
 category: Allgemein
 status: UNGEKLAERT

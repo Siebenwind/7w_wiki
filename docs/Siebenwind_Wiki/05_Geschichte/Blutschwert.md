@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: blutschwert-narrative-tim-benion
 title: Blutschwert
 category: Erzählung
-uuid: blutschwert-narrative-tim-benion
 quelle: ../../Quellen/Spielergeschichten/Blutschwert | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
 letzter_check: 2026-02-13T23:00:00
 ---

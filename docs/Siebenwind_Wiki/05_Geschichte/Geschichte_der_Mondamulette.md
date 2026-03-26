@@ -1,13 +1,14 @@
 ---
-layout: wiki_page
 title: Geschichte der Mondamulette
 category: [[Geschichte]]
 ---
 
 # [[Geschichte]] der [[Mondamulette]]
 
-**Epistemischer Status:** #überlieferung
-**Autor:** [[Anonymus]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #überlieferung
+    - **Autor:** [[Anonymus]]
+
 
 Diese Abhandlung beschreibt die tragischen Ereignisse um die Erschaffung der zehn **[[Mondamulette]]** durch [[Angamon]], den verstoßenen Göttersohn, und deren verheerende Wirkung auf [[Tare]].
 

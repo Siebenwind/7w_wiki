@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Wissen Siebenwind
 category: Allgemein
 status: UNGEKLAERT

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Region Herder
 category: Index
 author: [[Siebenwind]] Chronicler

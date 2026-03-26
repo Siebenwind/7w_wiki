@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e
 title: Anlohr Flatnah
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Anlohr Flatnah
 
-**Titel:** Hofschneider
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]] / Handwerk
+!!! info "Metadaten"
+    - **Titel:** Hofschneider
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Brandenstein]] / Handwerk
+
 
 ## Beschreibung
 **Anlohr Flatnah** ist ein bekannter Hofschneider in [[Brandenstein]], der für seine "Lavendel-Mode" bekannt ist (Bote 179).

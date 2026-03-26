@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Juppert
 category: Persönlichkeit
 ---
 
 # Juppert
 
-**Rolle:** Bauer
-**Epistemischer Status:** #bote
-**Ort:** Umland von [[Falkensee]]
-**Zeitraum:** aktiv um 18 n.H.
+!!! info "Metadaten"
+    - **Rolle:** Bauer
+    - **Epistemischer Status:** #bote
+    - **Ort:** Umland von [[Falkensee]]
+    - **Zeitraum:** aktiv um 18 n.H.
+
 
 ## Beschreibung
 Juppert ist ein einfacher Bauer aus dem Umland der Hauptstadt. Er geriet im Jahr 18 n.H. in die Schlagzeilen, als er als Zeuge (und späterer Verdächtiger) im Fall des sogenannten **[[Der_Sichelzahngnoll|Sichelzahngnolls]]** auftrat.

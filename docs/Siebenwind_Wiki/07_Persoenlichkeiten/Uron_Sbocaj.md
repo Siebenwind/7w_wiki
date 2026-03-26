@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Uron Sbocaj
 category: Persönlichkeit
-quelle: "[Thesen der Magiezweige]"
 status: "#überlieferung"
+quelle: "[Thesen der Magiezweige]"
 ---
 
 # Uron Sbocaj

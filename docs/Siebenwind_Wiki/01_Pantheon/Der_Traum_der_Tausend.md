@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
+uuid: c4t-tr4um-2026-h4s3
 title: "Der Traum der Tausend"
 category: Religion
 status: integrated
-uuid: c4t-tr4um-2026-h4s3
 report_id: c4t-tr4um-2026-h4s3
 letzter_check: 2026-02-16T17:20:00+01:00
 ---

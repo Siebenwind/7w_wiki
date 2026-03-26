@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "K endalor Aothes"
 category: [[index]]
 ---

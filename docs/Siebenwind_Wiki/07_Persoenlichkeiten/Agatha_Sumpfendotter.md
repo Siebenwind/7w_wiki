@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Agatha Sumpfendotter
 category: Persönlichkeit
 ---
 
 # Agatha Sumpfendotter
 
-**Rolle:** Autorin
-**Epistemischer Status:** #bote
-**Zeitraum:** aktiv um 18 n.H.
+!!! info "Metadaten"
+    - **Rolle:** Autorin
+    - **Epistemischer Status:** #bote
+    - **Zeitraum:** aktiv um 18 n.H.
+
 
 ## Beschreibung
 Agatha Sumpfendotter ist eine bekannte Verfasserin von kurzweiligen Märchen und [[Erzählungen]].

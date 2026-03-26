@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Xandros
 category: Allgemein
 status: UNGEKLAERT

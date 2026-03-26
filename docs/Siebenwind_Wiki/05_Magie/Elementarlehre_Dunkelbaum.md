@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Elementarlehre (Dunkelbaum)
 category: Magie
 ---

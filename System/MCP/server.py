@@ -31,6 +31,10 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / ".agent" / "scripts"))
+
+from content_contract import TECHNICAL_WIKI_ROOT
+
 # Resolve repo root (System/MCP/server.py → ../../)
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CLI_PATH = REPO_ROOT / "7w_wiki.py"
@@ -279,7 +283,7 @@ def _register_search_unavailable(mcp):
         try:
             result = subprocess.run(
                 ["grep", "-ril", "--include=*.md", query,
-                 str(REPO_ROOT / "Siebenwind_Wiki")],
+                 str(TECHNICAL_WIKI_ROOT)],
                 capture_output=True, text=True, timeout=15
             )
             files = result.stdout.strip().split("\n")[:10]

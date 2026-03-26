@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
 title: Angamon
-type: Religion
 status: Kanon (Level 1)
+type: Religion
 tags: [Gott, Antagonist, Böses, Zerstörung, Schatten]
 ---
 

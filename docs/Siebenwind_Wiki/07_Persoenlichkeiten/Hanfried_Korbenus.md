@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Hanfried Korbenus
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Hanfried Korbenus
 
-**Titel:** Königlicher Richter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Recht]] / [[Galadonien]]
+!!! info "Metadaten"
+    - **Titel:** Königlicher Richter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Recht]] / [[Galadonien]]
+
 
 ## Beschreibung
 **Hanfried Korbenus** war im Jahr 15 n.H. (Bote 124) Königlicher Richter auf [[Siebenwind]].

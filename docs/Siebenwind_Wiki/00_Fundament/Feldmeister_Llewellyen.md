@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Feldmeister Llewellyen
 category: Allgemein
 status: UNGEKLAERT

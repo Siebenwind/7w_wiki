@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: r1ng-d35-4rg10n3m35-secret
 title: Ring des Argionemes
 category: [[index]]
-uuid: r1ng-d35-4rg10n3m35-secret
 quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 letzter_check: 2026-02-13T23:25:00
 ---
 
 # Ring des Argionemes
 
-**Epistemischer Status:** #perspektive
-**Typ:** Geheimbund / Innerer Zirkel
-**Zugehörigkeit:** [[Ordo_Astraeli]] / [[Ecclesia]]
-**Sitz:** [[Draconis]] / Gofilm / [[Lafays_Stab]] (Temporär)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Typ:** Geheimbund / Innerer Zirkel
+    - **Zugehörigkeit:** [[Ordo_Astraeli]] / [[Ecclesia]]
+    - **Sitz:** [[Draconis]] / Gofilm / [[Lafays_Stab]] (Temporär)
+
 
 ## Überblick
 Der "Ring des Argionemes" (auch als "Ring der Wissenden" bezeichnet) ist ein mächtiger und hochgeheimer Zirkel innerhalb des [[Ordo_Astraeli]]. Er besteht aus sieben hochrangigen Geweihten und Magiern, die im Verborgenen die Geschicke des galadonischen Reiches und der Kirche beeinflussen. Sein Ziel ist die Vorbereitung einer theokratischen Ordnung, basierend auf dem Willen des "Allwissenden" [[Astrael]].

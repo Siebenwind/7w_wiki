@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Erschaffene Diener (Golems)
 category: [[index]]
 status: integrated

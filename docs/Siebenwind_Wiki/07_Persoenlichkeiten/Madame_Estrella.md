@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Madame Estrella
 category: [[Persönlichkeiten]]
 ---

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Terra'Dorotor
 category: [[index]]
 status: Bote
@@ -7,9 +6,11 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_175]].md
 ---
 # Terra'Dorotor
 
-**Epistemischer Status:** #bote  
-**Bedeutung:** "Verräter an Terra" (Terra = [[Ecclesia_Elementorum|Rien]])  
-**Zugehörigkeit:** Kult des [[Merros]] / Diener des Einen
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Bedeutung:** "Verräter an Terra" (Terra = [[Ecclesia_Elementorum|Rien]])
+    - **Zugehörigkeit:** Kult des [[Merros]] / Diener des Einen
+
 
 ## Beschreibung
 Die **Terra'Dorotor** sind eine Gruppe von abtrünnigen [[Dwarschim]], die dem Kult des **[[Merros]]** (einem gefallenen Offizier des Dämons Sha'Nhaz'Ghul) dienen. Sie tragen schwarze Rüstungen mit roten Umhängen und nutzen rote Waffen, die vermutlich dämonischen Ursprungs sind.

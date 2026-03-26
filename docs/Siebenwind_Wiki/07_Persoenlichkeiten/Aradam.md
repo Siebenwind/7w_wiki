@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f
 title: Aradam
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Aradam
 
-**Titel:** Künstler / Leiter der Künstlerakademie
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Falkensee]] / Künste
+!!! info "Metadaten"
+    - **Titel:** Künstler / Leiter der Künstlerakademie
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Falkensee]] / Künste
+
 
 ## Beschreibung
 **Aradam** ist ein angesehener Künstler und der Leiter der Künstlerakademie in [[Falkensee]]. Er gilt als Förderer der lokalen Kulturszene (Bote 178).

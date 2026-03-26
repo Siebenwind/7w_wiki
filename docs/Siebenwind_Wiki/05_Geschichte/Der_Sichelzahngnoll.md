@@ -1,13 +1,14 @@
 ---
-layout: wiki_page
 title: Der Fall des Sichelzahngnolls (18 n.H.)
 category: [[Geschichte]]
 ---
 
 # Der Fall des Sichelzahngnolls (18 n.H.)
 
-**Epistemischer Status:** #bote
-**Ort:** Umland von [[Falkensee]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Ort:** Umland von [[Falkensee]]
+
 
 ## Hintergrund
 Im Jahr 18 n.H. versetzte die Legende eines "Sichelzahngnolls" das Umland der Hauptstadt in Schrecken. Mehrere Bauern und ein Halbling fielen brutalen Angriffen zum Opfer. Gerüchten zufolge reichte das bloße Aussprechen des Namens aus, um die Bestie herbeizurufen.

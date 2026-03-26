@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Heerfuehrer der Kronmark
 category: Allgemein
 status: UNGEKLAERT

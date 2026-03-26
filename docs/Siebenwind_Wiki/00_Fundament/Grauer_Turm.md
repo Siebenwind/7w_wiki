@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Grauer Turm
 category: Allgemein
 status: UNGEKLAERT

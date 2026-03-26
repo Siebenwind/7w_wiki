@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Daena
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_154]].md
 ---
 # Daena
 
-**Titel:** Maga
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Magierakademie]] / [[Königliche_Akademie]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Maga
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Magierakademie]] / [[Königliche_Akademie]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Maga Daena** ist eine Magierin der Königlichen Akademie zu [[Siebenwind]].

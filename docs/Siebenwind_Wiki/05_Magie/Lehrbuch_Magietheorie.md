@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: "Lehrbuch der Magietheorie"
 category: [[index]]
 status: integrated

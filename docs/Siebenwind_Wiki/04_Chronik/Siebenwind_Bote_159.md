@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a921
 title: Siebenwind Bote 159
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a921
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 159.md
 letzter_check: 2026-02-13T05:00:00+01:00
 ---
 # [[Siebenwind]] Bote 159
 
-**Epistemischer Status:** #bote
-**Datum:** 29. Triar 18 n.H. (Endtag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 29. Triar 18 n.H. (Endtag)
+
 
 ## Highlights
 *   **Königshochzeit:** Seine Majestät **[[Hilgorad_I_ap_Mer|König Hilgorad I.]]** heiratet die Magd **[[Brynn]]**. [[Brynn]] hatte den König zuvor vor einem Attentat einer Dienerin des Einen gerettet. Die Hochzeit findet am Schicksalstag der Geburt des Königs statt.

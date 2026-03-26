@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ersonter Bund
 category: [[index]]
 status: Bote
@@ -7,8 +6,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_174]].md
 ---
 # Ersonter Bund
 
-**Epistemischer Status:** #bote  
-**Rolle:** Politische Fraktion / Lehensnehmer
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Rolle:** Politische Fraktion / Lehensnehmer
+
 
 ## Beschreibung
 Der **Ersonter Bund** ist eine politische und militärische Vereinigung, die durch die Grafschaft Ersont auf dem Festland dominiert wird. Seit dem [[Der_Erlass_des_Koenigs|Erlass des Königs]] im Jahr 20 n.H. ist der Bund der offizielle Lehensnehmer der Stadt [[Falkensee]], der Siedlung [[Südfall]] und des umliegenden Grünlands.

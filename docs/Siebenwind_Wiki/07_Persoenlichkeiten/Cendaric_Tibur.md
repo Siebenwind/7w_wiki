@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Cendaric Tibur
 category: Persönlichkeit
 lore_trust: 6
@@ -7,10 +6,12 @@ lore_trust: 6
 
 # Cendaric Tibur
 
-**Titel:** Ordensmeister / Schwert der Kronmark
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]]
-**Zeitraum:** amtierend
+!!! info "Metadaten"
+    - **Titel:** Ordensmeister / Schwert der Kronmark
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]]
+    - **Zeitraum:** amtierend
+
 
 ## Beschreibung
 **Bruder Cendaric Tibur** ist der amtierende **Ordensmeister** des [[Orden_der_Wachenden_Löwen|Ordens der Wachenden Löwen]] und Träger des Titels "**Schwert der Kronmark**". Er ist das Oberhaupt der Familie Tibur und der Halbbruder von Ritterin [[Pharalis_Avistur]] (vgl. [[Siebenwind_Bote_172]]). Innerhalb des Ordens pflegen die Mitglieder die Anrede "Bruder" und "Schwester", ähnlich einer monastischen Gemeinschaft. Er ist bekannt für seine strikte Loyalität zur Krone und den Erhalt der ordensinternen Traditionen.

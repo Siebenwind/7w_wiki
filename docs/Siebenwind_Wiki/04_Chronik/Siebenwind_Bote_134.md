@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: b6e54d7c-dfcb-46df-9b0d-122fbf911d6c
 title: Siebenwind Bote 134
 category: [[index]]
 status: Bote
-uuid: b6e54d7c-dfcb-46df-9b0d-122fbf911d6c
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 134.md
 letzter_check: 2026-02-13T00:52:00+01:00
 ---
 # [[Siebenwind]] Bote 134
 
-**Epistemischer Status:** #bote
-**Datum:** 22. Dular 16 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 22. Dular 16 n.H.
+
 
 ## Überblick
 Diese Ausgabe berichtet von einer abnormalen Hitzewelle, mysteriösen Runensteinen, einem Anschlag auf die Taverne in [[Brandenstein]] sowie dem Fortschritt der Siedlung [[Grüneaue]] in [[Südfall]].

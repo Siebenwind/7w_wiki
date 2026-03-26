@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Zerstörung von Westhever
 category: Allgemein
 status: UNGEKLAERT

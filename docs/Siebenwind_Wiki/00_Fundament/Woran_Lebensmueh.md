@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Woran Lebensmueh
 category: Allgemein
 status: UNGEKLAERT

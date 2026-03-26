@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Halgar
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Halgar
 
-**Titel:** Krieger (Berserker)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Nortraven]]
+!!! info "Metadaten"
+    - **Titel:** Krieger (Berserker)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Nortraven]]
+
 
 ## Beschreibung
 **Halgar** ist ein Krieger der [[Nortraven]].

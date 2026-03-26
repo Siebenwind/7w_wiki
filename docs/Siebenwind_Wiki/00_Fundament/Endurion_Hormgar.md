@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Endurion Hormgar
 category: Allgemein
 status: UNGEKLAERT

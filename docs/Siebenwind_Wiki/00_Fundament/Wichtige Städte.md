@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Wichtige Städte
 category: Allgemein
 status: UNGEKLAERT

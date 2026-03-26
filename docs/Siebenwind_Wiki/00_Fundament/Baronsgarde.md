@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Baronsgarde
 category: Allgemein
 status: UNGEKLAERT

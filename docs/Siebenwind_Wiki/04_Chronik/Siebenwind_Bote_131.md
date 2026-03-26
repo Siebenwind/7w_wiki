@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 131
 category: [[index]]
 ---

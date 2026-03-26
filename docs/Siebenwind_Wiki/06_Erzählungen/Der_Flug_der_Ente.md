@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Der Flug der Ente"
 category: Allgemein
 ---
@@ -11,10 +10,12 @@ letzter_check: 2026-02-16T17:15:00+01:00
 ---
 
 # Der Flug der Ente
-**Epistemischer Status:** #perspektive
-**Autor:** Tintin (Waljakov)
-**Datum:** 22 n.H.
-**Regionen:** [[Brandenstein]], [[Fera_Noril]], [[Saeulenmeer]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Autor:** Tintin (Waljakov)
+    - **Datum:** 22 n.H.
+    - **Regionen:** [[Brandenstein]], [[Fera_Noril]], [[Saeulenmeer]]
+
 
 ## Überblick
 "Der Flug der Ente" ist eine bedeutende Reiseerzählung aus dem Jahr 22 n.H., welche die Expedition des Däumlings [[Tintin]] dokumentiert. Die Erzählung basiert auf den Logbüchern von Tintin und ergänzenden Berichten über seinen Mentor [[Vencurius]].

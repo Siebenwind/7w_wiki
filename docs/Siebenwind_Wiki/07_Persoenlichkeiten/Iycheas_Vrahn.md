@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Iycheas Vrahn
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Iycheas Vrahn
 
-**Titel:** Kirchenvertreter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Kirche_der_Viere]] / [[Brandenstein]]
+!!! info "Metadaten"
+    - **Titel:** Kirchenvertreter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Kirche_der_Viere]] / [[Brandenstein]]
+
 
 ## Beschreibung
 **Iycheas Vrahn** ist ein Vertreter der Kirche in [[Brandenstein]].

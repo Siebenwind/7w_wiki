@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Enzo Wendolyn
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_138]].md
 ---
 # Enzo Wendolyn
 
-**Titel:** Tierpfleger
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Circus_Wendolyn]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Tierpfleger
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Circus_Wendolyn]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Enzo Wendolyn** ist der jüngste Sohn von [[Herbertus_Wendolyn|Herbertus]] und [[Isolde_Wendolyn]]. Er war ursprünglich Teil einer Zwillingsnummer, bis sein Bruder Rufus tragisch ums Leben kam.

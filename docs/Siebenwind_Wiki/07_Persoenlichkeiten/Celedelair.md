@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Calator Tendarion Celedelair Celetheyon
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Calator Tendarion Celedelair Celetheyon
 
-**Titel:** Hoher Geweihter des [[Astrael]] / Calator / Archivar
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Astrael]] / [[Inselrat]] / [[Brandenstein]]
-**Zeitraum:** aktiv um 30 n.H.
+!!! info "Metadaten"
+    - **Titel:** Hoher Geweihter des [[Astrael]] / Calator / Archivar
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ordo_Astrael]] / [[Inselrat]] / [[Brandenstein]]
+    - **Zeitraum:** aktiv um 30 n.H.
+
 
 ## Beschreibung
 **Celedelair** (vollständiger Name: **Calator Tendarion Celedelair Celetheyon**) ist einer der ranghöchsten Geweihten des Gottes [[Astrael]] auf [[Siebenwind]]. Er ist bekannt für sein tiefes [[index]] über arkane und geschichtliche Zusammenhänge und fungiert als zentraler Berater des Inselrates.

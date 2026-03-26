@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: ba6d652e-cdc3-4395-b5a6-a2b4161a935f
 title: Akademie der Schwarzen Künste
 category: [[index]]
-uuid: ba6d652e-cdc3-4395-b5a6-a2b4161a935f
 quelle: ../../Quellen/[[index]] [[Toran_Dur]]/Kulin Lateal - Das_Daimonicon.md
 letzter_check: 2026-02-13T01:02:10+01:00
 ---

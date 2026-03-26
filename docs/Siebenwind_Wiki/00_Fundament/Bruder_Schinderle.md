@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Bruder Schinderle
 category: Allgemein
 status: UNGEKLAERT

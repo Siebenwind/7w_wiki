@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 129
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 129
 
-**Epistemischer Status:** #bote
-**Datum:** 5. Oner 16 n.H.
-**Redaktion:** SvS ([[Siegfried_von_Steiner]])
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 5. Oner 16 n.H.
+    - **Redaktion:** SvS ([[Siegfried_von_Steiner]])
+
 
 ## Schlagzeilen
 

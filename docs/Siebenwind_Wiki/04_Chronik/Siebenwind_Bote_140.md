@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: f5071e93-df07-4d92-864a-6f73ba513222
 title: Siebenwind Bote 140
 category: [[index]]
 status: Bote
-uuid: f5071e93-df07-4d92-864a-6f73ba513222
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 140.md
 letzter_check: 2026-02-13T01:05:00+01:00
 ---
 # [[Siebenwind]] Bote 140
 
-**Epistemischer Status:** #bote
-**Datum:** 18. Querler 16 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 18. Querler 16 n.H.
+
 
 ## Überblick
 Diese Ausgabe berichtet von der Gründung eines neuen Laienordens, einem bevorstehenden Schützenfest und der Hinrichtung eines berüchtigten Verbrechers. Zudem wird eine offizielle Liste der Lehensvasallen und Ritter von [[Siebenwind]] veröffentlicht.

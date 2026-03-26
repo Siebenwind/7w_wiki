@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Hexenverfolgungen in Borast (18 n.H.)
 category: [[Geschichte]]
 ---
 
 # Hexenverfolgungen in Borast (18 n.H.)
 
-**Zeitraum:** Frühjahr 18 n.H.
-**Epistemischer Status:** #bote
-**Ort:** Dorf Borast, Region [[Ventria]]
+!!! info "Metadaten"
+    - **Zeitraum:** Frühjahr 18 n.H.
+    - **Epistemischer Status:** #bote
+    - **Ort:** Dorf Borast, Region [[Ventria]]
+
 
 ## Hintergrund
 Im Jahr 18 n.H. erschütterte eine Reihe von grausamen Morden das kleine Dorf Borast. Opfer waren Diener der Göttin [[Vitama]]. Die örtliche Bevölkerung und die Gerüchteküche des [[Die_Chronik|Boten]] schrieben diese Taten finsteren Hexenzirkeln zu. Es hieß, das Blut der Opfer solle für verbotene Elixiere missbraucht werden.

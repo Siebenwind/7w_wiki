@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Midraan Minerius
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Midraan Minerius
 
-**Titel:** Oberkommerzienrat
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Lehensverwaltung]] / [[Wirtschaft]]
+!!! info "Metadaten"
+    - **Titel:** Oberkommerzienrat
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Lehensverwaltung]] / [[Wirtschaft]]
+
 
 ## Wirken
 *   **15 n.H. (Bote 123):** Er war als Oberkommerzienrat der Lehensverwaltung tätig und ließ eine Schutztruppe für Transporte rekrutieren.

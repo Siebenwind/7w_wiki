@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a924
 title: Siebenwind Bote 166
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a924
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 166.md
 letzter_check: 2026-02-13T15:25:00+01:00
 ---
 # [[Siebenwind]] Bote 166
 
-**Epistemischer Status:** #bote
-**Datum:** 16. Querler 19 n.H. (Mittentag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 16. Querler 19 n.H. (Mittentag)
+
 
 ## Highlights
 *   **Der [[Sammler]]-Angriff:** Horden von [[Sammler]]-Wesen und Gargoylen überrannten den Wall nach einer Ablenkungsattacke auf [[Brandenstein]]. In einer koordinierten Rückeroberung durch die Ritterschaft, die [[Schattenjaeger]] (über einen Geheimtunnel der [[Ferrin]]) und freie Streiter konnte der Wall am zweiten [[Lichthoch]] zurückerobert werden.

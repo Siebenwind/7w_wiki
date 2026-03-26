@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: "Warum der Glaube an die Gohor haeretisch ist"
 category: [[index]]
 status: integrated

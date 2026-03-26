@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Isogares Saleyn
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Isogares Saleyn
 
-**Titel:** Redakteur / Sekretär
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Die_Chronik]] / [[Ersonter_Bund]]
+!!! info "Metadaten"
+    - **Titel:** Redakteur / Sekretär
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Die_Chronik]] / [[Ersonter_Bund]]
+
 
 ## Beschreibung
 **Isogares Saleyn** ist als Redakteur für den [[Die_Chronik|[[Siebenwind]] Boten]] tätig, oft im Auftrag des Ersonter Lehens. Er verfasst offizielle Berichte über Markttage und die politischen Hintergründe in der Stadt [[Falkensee]].

@@ -6,7 +6,7 @@
       "id": "no-source-link-regressions",
       "name": "No double-encoded, file://, or [[index]]-placeholder markdown source links",
       "pattern_check_globs": [
-        "Siebenwind_Wiki/**/*.md",
+        "docs/Siebenwind_Wiki/**/*.md",
         "Logs/Ingestion/*.md",
         "docs/COORDINATION_HUB.md"
       ],

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c
 title: Balean Urs
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Balean [[Urs]]
 
-**Titel:** Leutnant
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[03_Gesellschaft/index#Siebenwind_Kronregiment|Kronregiment]]
+!!! info "Metadaten"
+    - **Titel:** Leutnant
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[03_Gesellschaft/index#Siebenwind_Kronregiment|Kronregiment]]
+
 
 ## Beschreibung
 **Balean [[Urs]]** ist ein Leutnant des [[Siebenwind]] Kronregiments, der im Jahr 19 n.H. in Militärberichten genannt wird (Bote 169).

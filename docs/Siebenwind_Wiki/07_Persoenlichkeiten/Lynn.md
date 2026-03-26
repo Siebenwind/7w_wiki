@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: a0b1c2d3-e4f5-4e4f-5a6b-7c8d9e0f1a2b
 title: Lynn
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 # Lynn
 
-**Titel:** Äbtissin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ecclesia_Elementorum]]
+!!! info "Metadaten"
+    - **Titel:** Äbtissin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ecclesia_Elementorum]]
+
 
 ## Beschreibung
 **Lynn** ist die Äbtissin der [[Ecclesia_Elementorum]] und steht der religiösen Gemeinschaft der Elementar-Geweihten vor (Bote 189).

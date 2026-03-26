@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Zeitleiste (15-30 n.H.)
 category: [[index]]
 author: [[Siebenwind]] Chronicler

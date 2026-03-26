@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Siegfried Steiner
 category: Persönlichkeit
 ---
 
 # Siegfried Steiner
 
-**Titel:** Großmeister der [[Ritter_der_Sieben_Winde]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritter_der_Sieben_Winde]]
-**Zeitraum:** aktiv ab 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Großmeister der [[Ritter_der_Sieben_Winde]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ritter_der_Sieben_Winde]]
+    - **Zeitraum:** aktiv ab 18 n.H.
+
 
 ## Beschreibung
 Siegfried Steiner (oft mit ~SS~ gezeichnet) ist ein hochrangiger Ritter und der 8. Großmeister des Ordens der [[Ritter_der_Sieben_Winde]]. 

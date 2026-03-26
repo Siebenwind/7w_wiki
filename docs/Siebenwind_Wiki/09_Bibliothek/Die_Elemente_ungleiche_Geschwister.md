@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Die Elemente - ungleiche Geschwister
 category: Allgemein
 ---

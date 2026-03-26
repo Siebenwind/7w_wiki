@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d
 title: Tzentel
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: bea60047-d2f3-4513-b2ca-a6494a919c3c
 
 # Tzentel
 
-**Titel:** Rekrut (Abtrünnig)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Militär (ehem.) / Gesuchte
+!!! info "Metadaten"
+    - **Titel:** Rekrut (Abtrünnig)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Militär (ehem.) / Gesuchte
+
 
 ## Beschreibung
 **Tzentel** ist ein ehemaliger Rekrut, der im Jahr 21 n.H. als abtrünnig gemeldet wurde (Bote 181).

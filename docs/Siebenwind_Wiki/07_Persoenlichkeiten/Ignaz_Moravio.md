@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: 1gn4z-m0r4v10-1nqu151t0r
 title: Ignaz Moravio
 category: Persönlichkeit
-uuid: 1gn4z-m0r4v10-1nqu151t0r
 quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 letzter_check: 2026-02-13T23:25:00
 ---
 
 # Ignaz Moravio
 
-**Epistemischer Status:** #perspektive
-**Titel:** Hochgeweihter des [[Ordo_Astraeli]] / Inquisitor
-**Zugehörigkeit:** [[Ring_des_Argionemes]] / [[Inquisition]] / [[Ecclesia]]
-**Zeitraum:** Aktiv um 21 n.H. (50-60 Jahre alt)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Hochgeweihter des [[Ordo_Astraeli]] / Inquisitor
+    - **Zugehörigkeit:** [[Ring_des_Argionemes]] / [[Inquisition]] / [[Ecclesia]]
+    - **Zeitraum:** Aktiv um 21 n.H. (50-60 Jahre alt)
+
 
 ## Beschreibung
 Ignaz Moravio ist eine der fanatischsten und gefürchtetsten Gestalten innerhalb des [[Ring_des_Argionemes]]. Er wird als puritanischer Eiferer mit wallendem Bart und gezeichneten, blutunterlaufenen Augen beschrieben. Er hegt einen tiefen Hass gegen alles Lebensfrohe, Helle und Schöne (insbesondere gegen die Anhänger [[Vitama|Vitamas]]) und gilt als der Prototyp des gnadenlosen Inquisitors.

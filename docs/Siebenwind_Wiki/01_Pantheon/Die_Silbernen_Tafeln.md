@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Die Silbernen Tafeln"
 category: Religion
 ---

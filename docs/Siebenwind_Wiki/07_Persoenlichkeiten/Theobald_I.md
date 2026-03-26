@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Theobald I.
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Theobald I.
 
-**Titel:** Gegenkönig von [[Cortan]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Festland]] / [[Cortan]]
+!!! info "Metadaten"
+    - **Titel:** Gegenkönig von [[Cortan]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Festland]] / [[Cortan]]
+
 
 ## Beschreibung
 **Theobald I.** ist der amtierende Gegenkönig von [[Cortan]] im Norden Falandriens (Stand 29 n.H.). Er proklamierte die Sezession von Galadon und versteht sich selbst als Mann der Wissenschaft und des Fortschritts. 

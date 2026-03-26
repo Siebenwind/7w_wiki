@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Lehensbanner"
 category: Allgemein
 ---

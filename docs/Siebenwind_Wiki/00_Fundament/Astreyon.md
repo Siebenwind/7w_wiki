@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Astreyon
 category: Allgemein
 status: UNGEKLAERT

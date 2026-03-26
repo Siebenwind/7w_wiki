@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
 title: Rien
-type: Religion
 status: Kanon (Level 1)
+type: Religion
 tags: [Elementarherrin, [[Enhor]], Erde, [[Rasse_Zwerge]], [[index]]]
 ---
 

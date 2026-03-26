@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: h3rz0g-blut-schw3rt-22nh
 title: Herzog Blutschwert
 category: Persönlichkeit
-uuid: h3rz0g-blut-schw3rt-22nh
 quelle: ../../Quellen/Spielergeschichten/[[Blutschwert]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
 letzter_check: 2026-02-13T23:00:00
 ---
 
 # Herzog [[Blutschwert]]
 
-**Epistemischer Status:** #perspektive
-**Titel:** Anführer der [[Schwarze_Legion]] / "Der alte Jüngling"
-**Zugehörigkeit:** [[Schwarze_Legion]] / Diener des "Einen" ([[Angamon]])
-**Zeitraum:** Aktiv um 22 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Anführer der [[Schwarze_Legion]] / "Der alte Jüngling"
+    - **Zugehörigkeit:** [[Schwarze_Legion]] / Diener des "Einen" ([[Angamon]])
+    - **Zeitraum:** Aktiv um 22 n.H.
+
 
 ## Beschreibung
 Herzog [[Blutschwert]] ist eine mysteriöse und furchteinflößende Gestalt des vandrischen Bürgerkriegs. Er wird als Mann von makelloser, fast puppenhafter jugendlicher Schönheit mit schwarzem Haar und unnatürlich blasser Haut beschrieben. Seine markantesten Merkmale sind seine blutroten Augen ohne Pupillen und sein ebenfalls blutrotes Schwert. Er wird von der Kräuterfrau [[Ilja]] als "der alte Jüngling" bezeichnet, was auf ein unnatürlich hohes Alter oder eine magische Konservierung hindeutet.

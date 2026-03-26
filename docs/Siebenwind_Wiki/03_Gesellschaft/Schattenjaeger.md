@@ -1,13 +1,14 @@
 ---
-layout: wiki_page
 title: Schattenjäger
 category: [[Gesellschaft]]
 ---
 
 # Schattenjäger
 
-**Zugehörigkeit:** [[Ecclesia_Elementorum]]
-**Epistemischer Status:** #bote
+!!! info "Metadaten"
+    - **Zugehörigkeit:** [[Ecclesia_Elementorum]]
+    - **Epistemischer Status:** #bote
+
 
 ## Beschreibung
 Die **Schattenjäger** sind eine spezialisierte Gruppierung, die ursprünglich eng mit der [[Ecclesia_Elementorum]] verbunden war, sich aber auch als "berüchtigte Söldnergruppierung" für das Grobe einen Namen gemacht hat ([[Siebenwind_Bote_179]]). Sie fungieren als Wächter gegen übernatürliche Bedrohungen und "Schatten", nehmen aber auch Söldneraufträge an, die Schlagkraft erfordern.

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Josef Knecht"
 category: [[index]]
 ---

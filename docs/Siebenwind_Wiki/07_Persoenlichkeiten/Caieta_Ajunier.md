@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Caieta Ajunier
 category: Persönlichkeit
-quelle: "[[Forschungsberichte_(Toran_Dur)]]"
 status: "#überlieferung"
+quelle: "[[Forschungsberichte_(Toran_Dur)]]"
 ---
 
 # Caieta Ajunier

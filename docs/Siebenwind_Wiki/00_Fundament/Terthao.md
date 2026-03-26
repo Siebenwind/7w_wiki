@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Terthao
 category: Allgemein
 status: UNGEKLAERT

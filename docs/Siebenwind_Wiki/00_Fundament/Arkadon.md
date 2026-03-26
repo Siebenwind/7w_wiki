@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Arkadon
 category: Allgemein
 status: UNGEKLAERT

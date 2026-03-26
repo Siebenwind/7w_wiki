@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: e2f3g4h5-i6j7-k8l9-m0n1-o2p3q4r5s6t7
 title: Siebenwind Bote 169
 category: [[index]]
 status: Bote
-uuid: e2f3g4h5-i6j7-k8l9-m0n1-o2p3q4r5s6t7
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 169.md
 letzter_check: 2026-02-13T16:00:00+01:00
 ---
 # [[Siebenwind]] Bote 169
 
-**Epistemischer Status:** #bote
-**Datum:** 16. Carmar 19 n.H. (Vierentag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 16. Carmar 19 n.H. (Vierentag)
+
 
 ## Highlights
 *   **Schlacht am Zwergenpass:** Ein vereintes Heer aus [[Das_XIII_Koenigliche_Regiment|Armee]], [[Ritter_der_Sieben_Winde]], [[Dwarschim]] und [[Buergerwehr]] trat gegen die [[Orks]] und ihre finsteren Verbündeten an. Das Orklager wurde durch Katapultbeschuss vernichtet. Die Schlacht endete jedoch unentschieden, wobei mehrere Ritter, der Hauptmann des Regiments und die königliche Richterin gefangen genommen wurden.

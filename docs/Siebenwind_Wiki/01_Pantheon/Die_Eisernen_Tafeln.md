@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Die Eisernen Tafeln"
 category: Religion
 ---

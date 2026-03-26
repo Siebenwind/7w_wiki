@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a919
 title: Siebenwind Bote 157
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a919
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 157.md
 letzter_check: 2026-02-13T04:00:00+01:00
 ---
 # [[Siebenwind]] Bote 157
 
-**Epistemischer Status:** #bote
-**Datum:** 26. Duler 18 n.H. (Mondtag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 26. Duler 18 n.H. (Mondtag)
+
 
 ## Highlights
 *   **[[Falkensee]]:** Lehen Ritterin **[[Mirian_Lasar]]** verkündet den Abschluss des Stadtumbaus. Ein Fest ist in Planung.

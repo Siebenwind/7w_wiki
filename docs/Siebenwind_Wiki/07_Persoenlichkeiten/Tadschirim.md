@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 2a3b4c5d-6e7f-4a8b-9c0d-1e2f3a4b5c6d
 title: Tadschirim
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 # Tadschirim
 
-**Titel:** Blauer [[Geist]] / Schelm
-**Epistemischer Status:** #überlieferung
-**Zugehörigkeit:** Magische Wesen / Schelme
+!!! info "Metadaten"
+    - **Titel:** Blauer [[Geist]] / Schelm
+    - **Epistemischer Status:** #überlieferung
+    - **Zugehörigkeit:** Magische Wesen / Schelme
+
 
 ## Beschreibung
 **Tadschirim** ist eine schillernde Gestalt, die oft als "Blauer [[Geist]]" oder magischer Schelm bezeichnet wird. Er trat im Jahr 19 n.H. in Erscheinung und sorgte für erhebliche Verwirrung (Bote 167).

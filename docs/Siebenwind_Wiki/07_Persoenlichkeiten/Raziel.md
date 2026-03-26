@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Raziel
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Raziel
 
-**Titel:** Fürst von [[Vandrien]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Vandrien]] / [[Galadonien]]
+!!! info "Metadaten"
+    - **Titel:** Fürst von [[Vandrien]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Vandrien]] / [[Galadonien]]
+
 
 ## Beschreibung
 **Raziel** ist der rechtmäßige Fürst von [[Vandrien]].

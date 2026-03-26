@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Vjera Batama Magica (Edelsteinmagie)
 category: [[index]]
 status: integrated

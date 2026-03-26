@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: f3g4h5i6-j7k8-l9m0-n1o2-p3q4r5s6t7u8
 title: Siebenwind Bote 170
 category: [[index]]
 status: Bote
-uuid: f3g4h5i6-j7k8-l9m0-n1o2-p3q4r5s6t7u8
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 170.md
 letzter_check: 2026-02-13T16:15:00+01:00
 ---
 # [[Siebenwind]] Bote 170
 
-**Epistemischer Status:** #bote
-**Datum:** 27. Carmar 19 n.H. (Mondtag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 27. Carmar 19 n.H. (Mondtag)
+
 
 ## Highlights
 *   **Das Statut der Kronmark:** Truchsess [[Beladriel_Blaettertanz]] hat das offizielle Statut der Kronmark erlassen. Es regelt die Verteilung der Machtbefugnisse:

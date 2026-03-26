@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Malthuster Wacht
 category: Allgemein
 status: UNGEKLAERT

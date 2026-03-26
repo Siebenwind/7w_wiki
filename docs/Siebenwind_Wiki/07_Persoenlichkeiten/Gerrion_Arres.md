@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Gerrion Arres
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_136]].md
 ---
 # Gerrion Arres
 
-**Titel:** Abenteurer / Entdecker
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Unbekannt
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Abenteurer / Entdecker
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Unbekannt
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Gerrion Arres** ist ein Abenteurer, der für seine Erkundungen in den gefährlichen Sumpfgebieten [[Siebenwind]]s bekannt wurde.

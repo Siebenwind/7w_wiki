@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: 4B234B97-E81E-4600-9334-9D2644959EB9
 title: Vladimir Kherbal
 category: Persönlichkeit
-uuid: 4B234B97-E81E-4600-9334-9D2644959EB9
 letzter_check: 2026-02-13T15:10:00+01:00
 ---
 

@@ -1,6 +1,5 @@
 ---
-layout: wiki_page
-title: Geschichte
+title: "Siebenwind Wiki - Geschichte"
 ---
 
 # [[Siebenwind]] Wiki - Geschichte

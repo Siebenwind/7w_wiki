@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ergol
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_161]].md
 ---
 # Ergol
 
-**Titel:** Freier / Turniersieger
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Siebenwind]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Freier / Turniersieger
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Siebenwind]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Ergol** ist ein freier Kämpfer auf der Insel [[Siebenwind]].

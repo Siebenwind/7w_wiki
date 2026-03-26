@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 188
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 188
 
-**Epistemischer Status:** #bote
-**Datum:** 29. Oner 29 n.H.
-**Redaktion:** [[Erin_Caoimme]] (EC) / [[Bastean_Asanra]] (BA) ?
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 29. Oner 29 n.H.
+    - **Redaktion:** [[Erin_Caoimme]] (EC) / [[Bastean_Asanra]] (BA) ?
+
 
 ## Schlagzeilen
 

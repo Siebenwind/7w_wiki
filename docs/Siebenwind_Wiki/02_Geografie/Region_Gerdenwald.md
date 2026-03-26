@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Region Gerdenwald
 category: Index
 author: [[Siebenwind]] Chronicler

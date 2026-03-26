@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Der Blinde Maler
 category: Mythen und Legenden
 status: Bote
@@ -7,8 +6,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_175]].md
 ---
 # Der Blinde Maler
 
-**Epistemischer Status:** #bote
-**Typ:** Dämon / Wesen aus dem Schattenreich
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Typ:** Dämon / Wesen aus dem Schattenreich
+
 
 ## Beschreibung
 **Der Blinde Maler** ist ein mächtiger Dämon, der Ähnlichkeiten mit dem [[Hutmacher]] aufweist. Er kommuniziert bevorzugt in Reimen und scheint eine Perversion von Kunst und Schönheit zu verkörpern. Er trägt eine blutige Augenbinde und erschafft "Gärten" in einem zeitlosen Schattenreich.

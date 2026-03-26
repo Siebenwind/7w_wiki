@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Elementare Atomlehre
 category: [[index]]
 status: integrated

@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a911
 title: Siebenwind Bote 149
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a911
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 149.md
 letzter_check: 2026-02-13T02:05:00+01:00
 ---
 # [[Siebenwind]] Bote 149
 
-**Epistemischer Status:** #bote
-**Datum:** 28. Triar 17 n.H. (Mittentag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 28. Triar 17 n.H. (Mittentag)
+
 
 ## Highlights
 *   **Attentat auf den König:** In [[Draconis]] wurde ein Attentat auf König [[Hilgorad]] verübt. Eine Adlige stach während einer Brautschau auf ihn ein. Er überlebte schwer verletzt.

@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: l13b35l3b3n-d1cht3r
 title: Aus dem Liebesleben eines Dichters
 category: Erzählung
-uuid: l13b35l3b3n-d1cht3r
 quelle: ../../Quellen/Spielergeschichten/Aus dem Liebesleben eines Dichters | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
 lore_trust: 7
 letzter_check: 2026-02-14T00:10:00

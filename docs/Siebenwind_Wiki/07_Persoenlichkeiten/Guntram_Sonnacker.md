@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Guntram Sonnacker
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Guntram Sonnacker
 
-**Titel:** Vizekanzler (ehemals) / "Custodas"
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Kirche_der_Viere]] / [[Inselrat]]
+!!! info "Metadaten"
+    - **Titel:** Vizekanzler (ehemals) / "Custodas"
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Kirche_der_Viere]] / [[Inselrat]]
+
 
 ## Beschreibung
 **Guntram Sonnacker**, auch bekannt als "Custodas" (nicht zu verwechseln mit [[Custodias]]), war Vizekanzler der Baronie.

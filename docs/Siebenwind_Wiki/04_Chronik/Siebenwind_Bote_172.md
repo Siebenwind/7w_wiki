@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: b2c3d4e5-f6a1-4b2c-3d4e-5f6g7h8i9j0k
 title: Siebenwind Bote 172
 category: [[index]]
 status: Bote
-uuid: b2c3d4e5-f6a1-4b2c-3d4e-5f6g7h8i9j0k
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 172.md
 letzter_check: 2026-02-13T16:35:00+01:00
 ---
 # [[Siebenwind]] Bote 172
 
-**Epistemischer Status:** #bote
-**Datum:** 23. Onar 20 n.H. (Mondtag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 23. Onar 20 n.H. (Mondtag)
+
 
 ## Highlights
 *   **Doppelter Ritterschlag:** Am 4. Oner 20 n.H. wurden **[[Pharalis_Avistur]]** und **[[Yves_Rondragon]]** durch Großmeister [[Siegfried_Steiner]] zu Rittern geschlagen.

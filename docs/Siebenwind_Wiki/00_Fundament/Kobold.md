@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Kobold
 category: Allgemein
 status: UNGEKLAERT

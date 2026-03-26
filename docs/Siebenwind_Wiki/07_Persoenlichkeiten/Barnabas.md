@@ -1,9 +1,11 @@
 ---
-layout: wiki_page
 title: "Barnabas"
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "Der letzte Falke"
+owner: UNASSIGNED
+review_until: 2026-09-22
+reason: legacy_stub
 ---
 
 # Barnabas

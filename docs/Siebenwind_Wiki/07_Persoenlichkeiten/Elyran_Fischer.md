@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Elyran Fischer
 category: Persönlichkeit
-quelle: "[Elemente der Mitte]"
 status: "#überlieferung"
+quelle: "[Elemente der Mitte]"
 ---
 
 # Elyran Fischer

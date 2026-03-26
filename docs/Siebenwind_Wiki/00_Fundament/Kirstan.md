@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Kirstan
 category: Allgemein
 status: UNGEKLAERT

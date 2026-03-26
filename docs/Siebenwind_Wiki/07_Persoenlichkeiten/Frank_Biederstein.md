@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Frank Biederstein
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_156]].md
 ---
 # Frank Biederstein
 
-**Titel:** Secretarius
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Inselrat]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Secretarius
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Inselrat]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Frank Biederstein** ist der Secretarius der Inselpatrizierin [[Solos_Nhergas]].

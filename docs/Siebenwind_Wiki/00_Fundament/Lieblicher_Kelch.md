@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lieblicher Kelch
 category: Allgemein
 status: UNGEKLAERT

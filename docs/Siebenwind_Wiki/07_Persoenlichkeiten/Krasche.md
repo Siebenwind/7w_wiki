@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Krasche
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_161]].md
 ---
 # Krasche
 
-**Titel:** Orkin / Turniersiegerin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Orkstämme (Falkenpass?) / [[Siebenwind]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Orkin / Turniersiegerin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Orkstämme (Falkenpass?) / [[Siebenwind]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Krasche** ist eine orkische Kriegerin, die auf [[Siebenwind]] lebt.

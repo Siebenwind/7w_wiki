@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lasned
 category: Allgemein
 status: UNGEKLAERT

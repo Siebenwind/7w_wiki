@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Golems
 category: [[index]]
 status: integrated

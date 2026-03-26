@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Götter und Götzen
 category: Religion
 ---
 
 # Götter und Götzen
 
-**Epistemischer Status:** #überlieferung
-**Autor:** Schwertmeister Tesion
-**Originaltitel:** *De Deis Et Deorum Falsis Simulacris*
+!!! info "Metadaten"
+    - **Epistemischer Status:** #überlieferung
+    - **Autor:** Schwertmeister Tesion
+    - **Originaltitel:** *De Deis Et Deorum Falsis Simulacris*
+
 
 In dieser Abhandlung analysiert Schwertmeister Tesion die Glaubensformen der "unzivilisierten Völker" Tares. Aus der Perspektive der [[Kirche_der_Viere]] beschreibt er diese als Pervertierungen oder missgebildete Formen des wahren Glaubens an die heiligen vier Götter.
 

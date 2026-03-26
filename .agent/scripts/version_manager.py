@@ -8,6 +8,8 @@ import re
 import sys
 from pathlib import Path
 
+from content_contract import TECHNICAL_WIKI_ROOT
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 VERSION_FILE = REPO_ROOT / "VERSION"
 
@@ -19,7 +21,7 @@ TARGETS = [
         "replacement": r"\g<1>{version} ({label})",
     },
     {
-        "file": REPO_ROOT / "Siebenwind_Wiki" / "index.md",
+        "file": TECHNICAL_WIKI_ROOT / "index.md",
         "pattern": r"Reconstruction_v[\d.]+-",
         "replacement": "v{version}-",
     },

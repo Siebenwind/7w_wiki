@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Mandor
 category: Allgemein
 status: UNGEKLAERT

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Caiomme
 category: [[index]]
 ---
 
 # Caiomme
 
-**Rang:** Leutnant
-**Zugehörigkeit:** [[Brandenstein]], [[Siebenwind_Kronregiment]]
-**Epistemischer Status:** #bote
+!!! info "Metadaten"
+    - **Rang:** Leutnant
+    - **Zugehörigkeit:** [[Brandenstein]], [[Siebenwind_Kronregiment]]
+    - **Epistemischer Status:** #bote
+
 
 ## Hintergrund
 **Leutnant Caiomme** ist ein Offizier in Diensten der Kronmark, stationiert im aufstrebenden [[Brandenstein]]. Er ist bekannt für seine Besonnenheit in Krisensituationen.

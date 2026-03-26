@@ -1,11 +1,10 @@
 ---
-layout: wiki_page
+uuid: d1v1num-3l3m-2026
 title: Divinum et Elementum (Von der Substanz der Götter und der Elementarherren)
 category: Religion
 status: integrated
-uuid: d1v1num-3l3m-2026
-report_id: d1v1num-3l3m-2026
 author: "Donarius Derrvus"
+report_id: d1v1num-3l3m-2026
 letzter_check: 2026-02-16T18:30:00+01:00
 ---
 

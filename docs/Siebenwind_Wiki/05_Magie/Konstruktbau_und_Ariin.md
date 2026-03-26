@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Konstruktbau und Ari'in
 category: [[index]]
 status: integrated

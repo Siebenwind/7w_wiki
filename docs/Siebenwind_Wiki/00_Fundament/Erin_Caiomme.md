@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Erin Caiomme
 category: Allgemein
 status: UNGEKLAERT

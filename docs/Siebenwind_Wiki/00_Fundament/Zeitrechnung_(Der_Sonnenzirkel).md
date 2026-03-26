@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Zeitrechnung (Der Sonnenzirkel)
 category: [[index]]
 status: Kanon

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Grix
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_162]].md
 ---
 # Grix
 
-**Titel:** Kobold / Magisches Wesen
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Zweite Sphäre
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Kobold / Magisches Wesen
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Zweite Sphäre
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 Der **Grix** ist ein etwa halblinggroßes, geflügeltes Wesen mit dem Aussehen eines [[Goblins]]. Er wiegt etwa zehn Stein und wird als schwächlich, aber magisch sehr begabt beschrieben – insbesondere in der Kunst der Illusionen. Sein Ursprung liegt vermutlich in der zweiten Sphäre.

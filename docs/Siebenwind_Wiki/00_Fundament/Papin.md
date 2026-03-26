@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Papin
 category: Allgemein
 status: UNGEKLAERT

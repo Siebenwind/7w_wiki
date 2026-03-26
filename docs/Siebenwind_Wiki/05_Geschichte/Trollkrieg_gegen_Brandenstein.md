@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Trollkrieg gegen Brandenstein
 category: [[index]]
 ---
 
 # Trollkrieg gegen [[Brandenstein]]
 
-**Epistemischer Status:** #bote
-**Datum:** 21 n.H. (Bote 177)
-**Ort:** [[Brandenstein]], [[Orkenpass]]
-**Beteiligte:** [[Region_Malthust]], [[Trolle]], [[Goblins]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 21 n.H. (Bote 177)
+    - **Ort:** [[Brandenstein]], [[Orkenpass]]
+    - **Beteiligte:** [[Region_Malthust]], [[Trolle]], [[Goblins]]
+
 
 ## Verlauf
 Im Jahr 21 n.H. kam es zu einem massiven Angriff von Trollen und [[Goblins]] aus dem [[Ödland]] auf [[Brandenstein]]. Die Angreifer drangen über den Orkenpass vor und bedrohten die Stadt.

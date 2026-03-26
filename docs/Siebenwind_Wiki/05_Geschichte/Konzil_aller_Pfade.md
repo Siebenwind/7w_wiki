@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Konzil aller Pfade
 category: [[index]]
 ---
 
 # Konzil aller Pfade
 
-**Epistemischer Status:** #bote
-**Datum:** 29 n.H. (Bote 188)
-**Ort:** [[Akademie_der_Arkanen_Künste]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 29 n.H. (Bote 188)
+    - **Ort:** [[Akademie_der_Arkanen_Künste]]
+
 
 ## Verlauf
 Ein historisches Treffen der Magierschaft, zu dem erstmals auch offiziell Vertreter des **Pfades zur Linken** ("Schwarze [[index]]") eingeladen waren.

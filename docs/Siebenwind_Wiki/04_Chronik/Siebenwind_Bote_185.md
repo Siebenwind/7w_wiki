@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 185
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 185
 
-**Epistemischer Status:** #bote
-**Datum:** 4. Triar 22 n.H.
-**Redaktion:** [[Ionas]] (Kommissarisch)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 4. Triar 22 n.H.
+    - **Redaktion:** [[Ionas]] (Kommissarisch)
+
 
 ## Schlagzeilen
 

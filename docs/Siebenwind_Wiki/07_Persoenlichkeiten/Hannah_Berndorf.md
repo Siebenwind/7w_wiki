@@ -1,13 +1,14 @@
 ---
-layout: wiki_page
 title: Hannah Berndorf zu Lichtenwald
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Hannah Berndorf zu Lichtenwald
 
-**Epistemischer Status:** #bote
-**Status:** Regierungsunfähig (Krank)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Status:** Regierungsunfähig (Krank)
+
 
 ## Überblick
 **Hannah Berndorf zu Lichtenwald** ist eine Burggräfin und Gesandte des [[Ersonter_Bund]]es auf [[Siebenwind]]. Seit dem königlichen Erlass im Jahr 20 n.H. fungiert sie als neue Lehensherrin über [[Falkensee]], [[Südfall]] und die umliegenden Gebiete.

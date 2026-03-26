@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Aufhebung des Toleranzedikts
 category: [[index]]
 ---
 
 # Aufhebung des Toleranzedikts
 
-**Epistemischer Status:** #bote
-**Datum:** 21 n.H. (Bote 181)
-**Ort:** Königreich Galadon / [[Siebenwind]]
-**Beteiligte:** [[Ersonter_Bund]], [[Ecclesia_Elementorum]], [[Krone]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 21 n.H. (Bote 181)
+    - **Ort:** Königreich Galadon / [[Siebenwind]]
+    - **Beteiligte:** [[Ersonter_Bund]], [[Ecclesia_Elementorum]], [[Krone]]
+
 
 ## Inhalt
 Im Jahr 21 n.H. hob der Relator im Namen von König [[Hilgorad_I._ap_Mer_von_Galadon]] das Toleranzedikt auf, welches zuvor den Schutz von [[Enhor]]- und [[Gohor]]-Gläubigen garantierte.

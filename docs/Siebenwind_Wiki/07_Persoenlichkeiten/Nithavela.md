@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Nithavela
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_161]].md
 ---
 # Nithavela
 
-**Titel:** Heilerin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Communis_Medici]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Heilerin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Communis_Medici]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Nithavela** ist eine Heilkundige auf [[Siebenwind]].

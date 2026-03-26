@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Andaris Maran"
 category: [[index]]
 ---

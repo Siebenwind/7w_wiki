@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Vincent Ebenstein
 category: Persönlichkeit
 ---
 
 # Vincent Ebenstein
 
-**Titel:** Geweihter des [[Morsan]], ehem. Streiter des Löwenordens
-**Epistemischer Status:** #canon
-**Zugehörigkeit:** Kirche des [[Morsan]] / ehem. Löwenorden
-**Zeitraum:** Aktiv (Weihe zum Geweihten 19 n.H.)
+!!! info "Metadaten"
+    - **Titel:** Geweihter des [[Morsan]], ehem. Streiter des Löwenordens
+    - **Epistemischer Status:** #canon
+    - **Zugehörigkeit:** Kirche des [[Morsan]] / ehem. Löwenorden
+    - **Zeitraum:** Aktiv (Weihe zum Geweihten 19 n.H.)
+
 
 ## Beschreibung
 Vincent Ebenstein ist ein Beispiel für den Wandel vom Schwert zum Gebet. Ursprünglich ein hochdekorierter Turnierkämpfer und Soldat, dient er nun dem Gott des Todes, [[Morsan]], als Geweihter.

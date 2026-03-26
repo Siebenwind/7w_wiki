@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Safiriel
 category: Persönlichkeit
 ---
 
 # Safiriel
 
-**Titel:** Val’mandra (Seelenwächterin)
-**Epistemischer Status:** #perspektive
-**Fraktion:** [[Waldelfen]] / [[Avindhrell]]
-**Zeitraum:** Aktiv
+!!! info "Metadaten"
+    - **Titel:** Val’mandra (Seelenwächterin)
+    - **Epistemischer Status:** #perspektive
+    - **Fraktion:** [[Waldelfen]] / [[Avindhrell]]
+    - **Zeitraum:** Aktiv
+
 
 ## Hintergrund
 Safiriel ist eine Waldelfe, die den Großteil ihres Lebens als Reisende verbrachte, bevor sie in [[Avindhrell]] sesshaft wurde. Sie wurde von [[Tanoniel]] zur **Val’mandra** ernannt, eine Rolle, die sie als spirituelle Hüterin der Seelen ihrer Sippe definiert.

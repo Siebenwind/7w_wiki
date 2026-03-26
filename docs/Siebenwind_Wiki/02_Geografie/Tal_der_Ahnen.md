@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Tal der Ahnen
 category: [[index]]
 status: Bote
@@ -7,8 +6,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_175]].md
 ---
 # Tal der Ahnen
 
-**Epistemischer Status:** #bote  
-**Lage:** [[Ödland]] (östlich des Walls)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Lage:** [[Ödland]] (östlich des Walls)
+
 
 ## Beschreibung
 Das **Tal der Ahnen** ist ein abgelegenes Tal im [[Ödland]], das eine alte Siedlung der [[Dwarschim]] beherbergt. Lange Zeit galt es als verloren oder vergessen.

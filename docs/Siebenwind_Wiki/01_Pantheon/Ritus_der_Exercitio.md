@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: "Der heilige Ritus der Exercitio"
 category: [[index]]
 status: integrated

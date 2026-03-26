@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Graue Garde
 category: [[index]]
 status: Bote
@@ -7,8 +6,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_175]].md
 ---
 # Graue Garde
 
-**Epistemischer Status:** #bote  
-**Rolle:** Magische Exekutive / Sicherheitsdienst
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Rolle:** Magische Exekutive / Sicherheitsdienst
+
 
 ## Beschreibung
 Die **Graue Garde** ist eine militärisch organisierte Kampftruppe von Magiern auf [[Siebenwind]]. Ursprünglich eine Schutzmacht für das gesamte Reich, konzentriert sie sich seit der Auflösung der [[Kronmark]] (20 n.H.) vornehmlich auf das Territorium des [[Ersonter_Bund|Ersonter Bundes]]. Sie untersteht dem Primus Magus Laude.

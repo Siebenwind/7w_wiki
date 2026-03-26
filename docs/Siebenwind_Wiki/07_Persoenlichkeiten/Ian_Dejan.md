@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Ian Dejan
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Ian Dejan
 
-**Titel:** Tempelwache
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Tempelwache]] / [[Brandenstein]]
+!!! info "Metadaten"
+    - **Titel:** Tempelwache
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Tempelwache]] / [[Brandenstein]]
+
 
 ## Beschreibung
 **Ian Dejan** ist ein Tempelwächter in [[Brandenstein]].

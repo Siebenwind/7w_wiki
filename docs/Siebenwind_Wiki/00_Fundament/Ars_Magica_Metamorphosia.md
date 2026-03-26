@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ars Magica Metamorphosia
 category: Allgemein
 status: UNGEKLAERT

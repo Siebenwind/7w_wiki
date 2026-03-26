@@ -1,12 +1,11 @@
 ---
-layout: wiki_page
 title: Die Domänen Yerrodons
 category: [[index]]
 status: Canon
 quelle: "../../Quellen/[[index]] [[Toran_Dur]]/Anonymous - öber die Verhaltensweisen von Daimonen.md"
+author: "[[Anonymus]]"
 lore_trust: 8
 confidence: Certain
-author: "[[Anonymus]]"
 ---
 
 # Die Domänen Yerrodons

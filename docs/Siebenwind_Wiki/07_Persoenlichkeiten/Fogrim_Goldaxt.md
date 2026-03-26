@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Fogrim Goldaxt
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Fogrim Goldaxt
 
-**Epistemischer Status:** #überlieferung
-**Beruf:** Schmied
-**Zugehörigkeit:** [[Dwarschim]] / [[H&H_der_Dwarschim]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #überlieferung
+    - **Beruf:** Schmied
+    - **Zugehörigkeit:** [[Dwarschim]] / [[H&H_der_Dwarschim]]
+
 
 ## Beschreibung
 **Fogrim Goldaxt** war ein ehrenwerter Schmied der Dwarschim und der Vater von [[Logrin_Goldaxt]]. Er galt als Meister seines Fachs und begann das Studium der **[[Bartanatomie]]**, welches sein Sohn Logrin später in schriftlicher Form vollendete.

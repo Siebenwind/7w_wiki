@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Tannenstein
 category: Allgemein
 status: UNGEKLAERT

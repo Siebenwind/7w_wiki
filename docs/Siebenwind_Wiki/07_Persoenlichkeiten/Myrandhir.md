@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Myrandhir
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_173]].md
 ---
 # Myrandhir
 
-**Titel:** Geweihter des [[Bellum]] / Ordo [[Bellum]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ecclesia_Elementorum]] / [[Bellum|Ordo Bellum]]
-**Zeitraum:** aktiv ab 20 n.H.
+!!! info "Metadaten"
+    - **Titel:** Geweihter des [[Bellum]] / Ordo [[Bellum]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ecclesia_Elementorum]] / [[Bellum|Ordo Bellum]]
+    - **Zeitraum:** aktiv ab 20 n.H.
+
 
 ## Beschreibung
 **Myrandhir** ist ein Geweihter des Gottes [[Bellum|Bellum]]. Er gehört dem **Ordo [[Bellum]]** an.

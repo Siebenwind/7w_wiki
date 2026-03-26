@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Hagen Robaar von Saalhorn und Siebenwind
 category: Allgemein
 status: UNGEKLAERT

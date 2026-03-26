@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Die Monde von Tare
 category: [[index]]
 ---

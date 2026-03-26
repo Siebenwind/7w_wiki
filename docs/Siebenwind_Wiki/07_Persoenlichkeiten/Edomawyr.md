@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Edomawyr
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Edomawyr
 
-**Titel:** Primus der [[Graue_Garde|Grauen Garde]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Graue_Garde]] / [[Magie_Grundlagen]]
+!!! info "Metadaten"
+    - **Titel:** Primus der [[Graue_Garde|Grauen Garde]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Graue_Garde]] / [[Magie_Grundlagen]]
+
 
 ## Wirken
 *   **15 n.H. (Bote 127):** Primus der Grauen Garde. Er leitete die Expedition zum Sternfall bei [[Rohehafen]].

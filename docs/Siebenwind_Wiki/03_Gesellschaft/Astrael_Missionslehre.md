@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Von der rechten Art der Mission und dem gesunden Maß
 category: [[index]]
 status: integrated

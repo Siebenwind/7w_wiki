@@ -1,13 +1,14 @@
 ---
-layout: post
-title: Daimonologie und Schwarze index (Sammelband)
+title: "Daimonologie und Schwarze Magie (Sammelband)"
 category: Allgemein
 ---
 
 # Daimonologie und Schwarze Magie (Sammelband)
 
-**Autor:** [[Toran_Dur]] (mit Beiträgen von [[Nefustor]])
-**Kategorie:** Dunkle Künste / Theorie
+!!! info "Metadaten"
+    - **Autor:** [[Toran_Dur]] (mit Beiträgen von [[Nefustor]])
+    - **Kategorie:** Dunkle Künste / Theorie
+
 
 ## Inhalt
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Maltus Shuarshirad"
 category: [[index]]
 ---

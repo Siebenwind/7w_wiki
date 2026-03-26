@@ -1,12 +1,11 @@
 ---
-layout: wiki_page
 title: Die_Sprache_Run
 category: [[index]]
 status: Canon
 quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Toran_Dur]] - [[Die_Sprache_Run]].md"
+author: "[[Anonymus]]"
 lore_trust: 9
 confidence: Certain
-author: "[[Anonymus]]"
 ---
 
 # [[Die_Sprache_Run]]

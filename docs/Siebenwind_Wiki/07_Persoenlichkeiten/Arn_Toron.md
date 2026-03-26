@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Arn Toron
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_167]].md
 ---
 # [[Arn]] Toron
 
-**Titel:** Verräter / ehem. Konsul & Kaufmann
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Orks]] (Verbündeter) / ehem. [[Falkensee]]
-**Zeitraum:** aktiv 19-22 n.H.
+!!! info "Metadaten"
+    - **Titel:** Verräter / ehem. Konsul & Kaufmann
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Orks]] (Verbündeter) / ehem. [[Falkensee]]
+    - **Zeitraum:** aktiv 19-22 n.H.
+
 
 ## Beschreibung
 **[[Arn]] Toron** ist ein ehemals erfolgreicher Kaufmann und Inhaber des **Warenkontors [[Falkensee]]**, der sich auf die Seite der Feinde der Krone gestellt hat. Er diente einst als **Konsul** im Ersonter Rat, bevor er zum Verräter wurde.

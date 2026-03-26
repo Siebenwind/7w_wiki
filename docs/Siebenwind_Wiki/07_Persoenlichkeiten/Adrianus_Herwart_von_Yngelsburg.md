@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Adrianus Herwart von Yngelsburg"
 category: [[index]]
 ---

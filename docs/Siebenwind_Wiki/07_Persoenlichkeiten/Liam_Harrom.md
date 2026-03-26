@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Liam Harrom
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,11 +6,13 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_134]].md
 ---
 # Liam Harrom
 
-**Alias:** L.H.
-**Titel:** Redakteur / Hofschneiderin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Die_Chronik]]
-**Zeitraum:** aktiv um 15-18 n.H.
+!!! info "Metadaten"
+    - **Alias:** L.H.
+    - **Titel:** Redakteur / Hofschneiderin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Die_Chronik]]
+    - **Zeitraum:** aktiv um 15-18 n.H.
+
 
 ## Beschreibung
 **Liam Harrom**, oft nur unter dem Kürzel **L.H.** bekannt, ist ein vielseitiger Beitragsschreiber für den [[Die_Chronik|Boten]]. Er berichtet über unterschiedlichste Themen, von mysteriösen Phänomenen bis hin zu regionalen Entwicklungen in [[Südfall]]. Es gibt Hinweise darauf, dass er auch als Hofschneiderin tätig ist oder diese Identität als Alias nutzt.

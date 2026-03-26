@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Kharas Palanthas
 category: [[Persoenlichkeiten_Uebersicht]]
 ---

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Saran
 category: Allgemein
 status: UNGEKLAERT

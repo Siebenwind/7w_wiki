@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Märchen und wie man sie vermeidet
 category: [[index]]
 ---
 
 # Märchen und wie man sie vermeidet
 
-**Autor:** [[Agatha_Sumpfendotter]]
-**Erscheinungsjahr:** 18 n.H.
-**Epistemischer Status:** #bote
+!!! info "Metadaten"
+    - **Autor:** [[Agatha_Sumpfendotter]]
+    - **Erscheinungsjahr:** 18 n.H.
+    - **Epistemischer Status:** #bote
+
 
 ## Inhalt
 Eine Sammlung von Geschichten und Volkserzählungen, die sich vor allem an ein breites, weniger gelehrtes Publikum richtet. Sumpfendotter vermischt darin reale Gefahren mit phantastischen Übertreibungen und moralischen Lehren.

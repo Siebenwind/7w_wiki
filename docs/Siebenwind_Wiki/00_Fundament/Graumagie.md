@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Graumagie
 category: Allgemein
 status: UNGEKLAERT

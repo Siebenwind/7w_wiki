@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Nistram Rigas
 category: Persönlichkeit
-quelle: "[Magica Contraria]"
 status: "#überlieferung"
+quelle: "[Magica Contraria]"
 ---
 
 # Nistram Rigas

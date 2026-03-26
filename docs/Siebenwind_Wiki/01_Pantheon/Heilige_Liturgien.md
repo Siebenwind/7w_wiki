@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: "Heilige Liturgien"
 category: [[index]]
 status: integrated

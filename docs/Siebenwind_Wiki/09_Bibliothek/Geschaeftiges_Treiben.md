@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Geschäftiges Treiben
 category: [[index]]
-tags: [Erzählung, Nekromantie, Ru'n, [[index]], Ritual]
 status: #perspektive
+tags: [Erzählung, Nekromantie, Ru'n, [[index]], Ritual]
 ---
 
 # Geschäftiges Treiben

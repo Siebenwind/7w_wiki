@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lilienwall
 category: Allgemein
 status: UNGEKLAERT

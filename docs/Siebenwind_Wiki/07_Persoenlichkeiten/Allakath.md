@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Allakath
 category: [[index]]
 status: integrated
@@ -8,8 +7,10 @@ quelle: "/Quellen/Bibliothek Toran Dur/Allakath - Etikette.md"
 
 # [[Allakath]]
 
-**Epistemischer Status:** #überlieferung
-**Rolle:** Adeptus minor (ir hires ita'Glur) / Autor
+!!! info "Metadaten"
+    - **Epistemischer Status:** #überlieferung
+    - **Rolle:** Adeptus minor (ir hires ita'Glur) / Autor
+
 
 Allakath ist vor allem als Verfasser des Traktats über die [[Magier_Etikette]] bekannt. Er lehrte an der [[Toran_Dur]] Akademie und legte großen Wert auf die äußere Form und das zeremonielle Auftreten von Magiewirkern.
 

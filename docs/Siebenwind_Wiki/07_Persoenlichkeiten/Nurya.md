@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Nurya"
 category: [[index]]
 ---

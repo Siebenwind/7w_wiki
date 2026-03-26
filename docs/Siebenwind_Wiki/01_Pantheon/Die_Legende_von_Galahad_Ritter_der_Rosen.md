@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Die Legende von Galahad, Ritter der Rosen
 category: Religion
 ---

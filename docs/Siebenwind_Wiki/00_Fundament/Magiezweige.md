@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Magiezweige
 category: Allgemein
 status: UNGEKLAERT

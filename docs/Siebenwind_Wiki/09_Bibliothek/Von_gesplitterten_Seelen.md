@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: seelen-kehlen-dunkeltief
 title: Von gesplitterten Seelen und blutigen Kehlen
 category: Erzählung
-uuid: seelen-kehlen-dunkeltief
 quelle: ../../Quellen/Spielergeschichten/Von gesplitterten Seelen und blutigen Kehlen.md
 lore_trust: 7
 letzter_check: 2026-02-14T01:45:00

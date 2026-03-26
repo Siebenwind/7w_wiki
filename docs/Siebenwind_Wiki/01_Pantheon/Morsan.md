@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
 title: Morsan
-type: Religion
 status: Kanon (Level 1)
+type: Religion
 tags: [Gott, Sahor, Tod, Traum, Ruhe, Winter]
 ---
 

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Philosophie der index
 category: [[index]]
 status: integrated

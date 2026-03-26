@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 136
 category: [[index]]
 status: Bote
@@ -7,8 +6,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 136.md
 ---
 # [[Siebenwind]] Bote 136
 
-**Epistemischer Status:** #bote
-**Datum:** 30. Trier 16 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 30. Trier 16 n.H.
+
 
 ## Überblick
 Diese Ausgabe ist geprägt von Trauer um eine verdiente Ritterin, der Rückkehr einer heiligen Reliquie und Berichten über wachsende Gefahren durch "schwarze Reiter" und mysteriöse Funde in den Sumpfhöhlen.

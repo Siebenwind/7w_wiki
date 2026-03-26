@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Der Putsch von Falkensee
 category: [[index]]
 ---
 
 # Der Putsch von [[Falkensee]]
 
-**Epistemischer Status:** #canon / #bote
-**Datum:** 28. Carmar 21 n.H. (Eskalation)
-**Ort:** [[Falkensee]] ([[Finianswacht]], Schlossviertel, Rathaus)
-**Status:** Historisches Kernereignis
+!!! info "Metadaten"
+    - **Epistemischer Status:** #canon / #bote
+    - **Datum:** 28. Carmar 21 n.H. (Eskalation)
+    - **Ort:** [[Falkensee]] ([[Finianswacht]], Schlossviertel, Rathaus)
+    - **Status:** Historisches Kernereignis
+
 
 ## Überblick
 Der **Putsch von [[Falkensee]]** (im Volksmund oft einfach "Der Putsch") markiert den radikalsten Versuch der militärischen Ordnungsmacht, die Vorherrschaft über die zivile Verwaltung zu erzwingen. Ausgelöst durch tiefe Spannungen zwischen der **Ersonter Garde** und dem **Ersonter Rat**, stürzte dieses Ereignis die Stadt in einen Belagerungszustand und führte zum dauerhaften Fall des Hauptmanns [[Waldemar_Delarie]].

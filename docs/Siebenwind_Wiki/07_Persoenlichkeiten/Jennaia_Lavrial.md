@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Jennaia Lavrial
 category: Persönlichkeit
-quelle: "[Theorie der elementaren Atome]"
 status: "#überlieferung"
+quelle: "[Theorie der elementaren Atome]"
 ---
 
 # Jennaia Lavrial

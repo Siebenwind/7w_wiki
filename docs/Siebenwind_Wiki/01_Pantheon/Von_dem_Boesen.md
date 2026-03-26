@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: "Von dem Bösen"
 category: [[index]]
 status: integrated

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Bumpur Purbier
 category: Allgemein
 status: UNGEKLAERT

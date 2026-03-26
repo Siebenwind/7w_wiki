@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Siebenwind Boten
 category: Allgemein
 status: UNGEKLAERT

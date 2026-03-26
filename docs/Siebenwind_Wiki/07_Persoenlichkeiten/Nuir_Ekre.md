@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Nuir Ekre
 category: Persönlichkeit
-quelle: "[Kunst der Diener]"
 status: "#überlieferung"
+quelle: "[Kunst der Diener]"
 ---
 
 # Nuir Ekre

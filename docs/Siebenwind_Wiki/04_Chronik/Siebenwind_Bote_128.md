@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 128
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 128
 
-**Epistemischer Status:** #bote
-**Datum:** 19. Sekar 15 n.H.
-**Redaktion:** J.D / [[Arn]] / B.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 19. Sekar 15 n.H.
+    - **Redaktion:** J.D / [[Arn]] / B.
+
 
 ## Schlagzeilen
 

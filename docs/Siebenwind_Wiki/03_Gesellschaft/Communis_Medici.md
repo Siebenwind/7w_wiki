@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Communis Medici
 category: [[index]]
 status: Bote
@@ -7,9 +6,11 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_161]].md
 ---
 # Communis Medici
 
-**Epistemischer Status:** #bote
-**Rolle:** Heilergilde / Hospizverwaltung
-**Sitz:** [[Falkensee]] (Hospiz)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Rolle:** Heilergilde / Hospizverwaltung
+    - **Sitz:** [[Falkensee]] (Hospiz)
+
 
 ## Beschreibung
 Die **Communis Medici** ist die neugegründete (bzw. unter altem Namen wiederbelebte) Vereinigung der Heilkundigen auf [[Siebenwind]]. Sie wurde im Jahr 18 n.H. (Bote 161) ins Leben gerufen, um die medizinische Versorgung der Bevölkerung zu koordinieren.

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Die arkane index
 category: [[index]]
 status: integrated

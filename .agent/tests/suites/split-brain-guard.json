@@ -1,0 +1,53 @@
+{
+  "suite": "split-brain-guard",
+  "description": "Guards the canonical docs tree and exposes legacy shadow drift explicitly.",
+  "cases": [
+    {
+      "id": "audit-split-brain-json",
+      "name": "audit exposes split-brain findings and traceability fields",
+      "cmd": [
+        "./7w_wiki.py",
+        "audit",
+        "--json"
+      ],
+      "expect_exit_any": [0, 1],
+      "expect_valid_json": true,
+      "expect_json_keys": [
+        "report_id",
+        "categories",
+        "details"
+      ],
+      "expect_json_path_exists": [
+        "categories.split_brain.issues",
+        "details.split_brain",
+        "details.traceability_gaps.inventory_path"
+      ]
+    },
+    {
+      "id": "audit-traceability-cache-artifacts",
+      "name": "audit-backed contract scans persist traceability cache artifacts",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/data/cache/content_contract_scan.json",
+          "must_include_regex": [
+            "\"version\"",
+            "\"generated_at\"",
+            "\"inputs_fingerprint\"",
+            "\"render_hygiene\"",
+            "\"split_brain\""
+          ]
+        },
+        {
+          "file": ".agent/data/cache/wiki_inventory.json",
+          "must_include_regex": [
+            "\"version\"",
+            "\"generated_at\"",
+            "\"inputs_fingerprint\"",
+            "\"latest_path\"",
+            "\"snapshot_path\""
+          ]
+        }
+      ]
+    }
+  ]
+}

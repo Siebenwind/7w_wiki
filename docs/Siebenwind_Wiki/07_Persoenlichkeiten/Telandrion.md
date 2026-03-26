@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: t3l-4ndr-i0n-ignis
 title: Telandrion
 category: Persönlichkeit
-uuid: t3l-4ndr-i0n-ignis
 quelle: ../../Quellen/Spielergeschichten/[[Der_Flug_der_Ente]]..md
 letzter_check: 2026-02-13T22:45:00
 ---
 
 # Telandrion
 
-**Epistemischer Status:** #perspektive
-**Titel:** Diener des [[Ignis]]
-**Zugehörigkeit:** [[Ignis-Kirche]] / [[Bragarim]]
-**Zeitraum:** Aktiv um 22 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Diener des [[Ignis]]
+    - **Zugehörigkeit:** [[Ignis-Kirche]] / [[Bragarim]]
+    - **Zeitraum:** Aktiv um 22 n.H.
+
 
 ## Beschreibung
 Telandrion ist ein Diener des Gottes [[Ignis]], erkennbar an seinen roten Roben und seinem schwarzen, mit Ignisrunen übersäten Stab. Er ist ein Kenner des elementaren Gewebes und in der Lage, magische Erschütterungen über große Distanzen hinweg zu spüren.

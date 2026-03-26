@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Chernides
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Chernides
 
-**Titel:** Horwah (Vergessen)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Horwah]]
+!!! info "Metadaten"
+    - **Titel:** Horwah (Vergessen)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Horwah]]
+
 
 ## Beschreibung
 **Chernides** ist ein fast vergessener Horwah (Halbgott/Heiliger). Er wird mit Glück und Handel assoziiert ("Glück erhält, wer sein Glück teilt").

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Zwerge
 category: Rasse
 author: [[Siebenwind]] Chronicler

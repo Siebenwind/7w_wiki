@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Orden der Tränen Vitamas
 category: Religion
 ---

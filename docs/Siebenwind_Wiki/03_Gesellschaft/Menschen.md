@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Menschen
 category: Rasse
 author: [[Siebenwind]] Chronicler

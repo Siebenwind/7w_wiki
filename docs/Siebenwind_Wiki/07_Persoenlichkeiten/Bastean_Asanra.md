@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Bastean Asanra
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Bastean Asanra
 
-**Titel:** Leitender Redakteur ([[Die_Chronik]])
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Die_Chronik]] / [[Falkensee]]
+!!! info "Metadaten"
+    - **Titel:** Leitender Redakteur ([[Die_Chronik]])
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Die_Chronik]] / [[Falkensee]]
+
 
 ## Beschreibung
 **Bastean Asanra** (Kürzel: B.A.) übernahm im Jahr 23 n.H. (Bote 187) als leitender Redakteur die Führung des **[[Die_Chronik]]n**, der zuvor ein Jahr lang pausiert hatte. Er residiert in der Akademie von [[Falkensee]].

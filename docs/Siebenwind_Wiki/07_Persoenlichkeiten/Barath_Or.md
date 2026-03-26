@@ -1,10 +1,12 @@
 ---
-layout: wiki_page
 title: "Barath Or"
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "/Quellen/[[index]] [[Astrael]]/Die [[index]] des Barath Or.md"
 author: "Antigravity"
+owner: UNASSIGNED
+review_until: 2026-09-22
+reason: legacy_stub
 ---
 
 # Barath Or

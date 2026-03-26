@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: l4f-4y3tt3-d4m3-22nh
 title: Madame Lafayette
 category: Persönlichkeit
-uuid: l4f-4y3tt3-d4m3-22nh
 quelle: ../../Quellen/Spielergeschichten/[[Aus_dem_Liebesleben_eines_Dichters]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
 letzter_check: 2026-02-13T22:50:00
 ---
 
 # Madame Lafayette
 
-**Epistemischer Status:** #perspektive
-**Titel:** Gönnerin / Edeldame
-**Zugehörigkeit:** Festland / [[Brandenstein]] (indirekt)
-**Zeitraum:** Aktiv um 22 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Gönnerin / Edeldame
+    - **Zugehörigkeit:** Festland / [[Brandenstein]] (indirekt)
+    - **Zeitraum:** Aktiv um 22 n.H.
+
 
 ## Beschreibung
 Madame Lafayette ist eine gebildete und wohlhabende Frau des Festlandes, die als eine der größten Bewunderinnen der [[index]] von [[Haldur_Toda]] gilt. Sie wird als eloquente Korrespondentin beschrieben, die trotz ihrer sozialen Stellung (möglicherweise adlig oder zum gehobenen Bürgertum gehörend) eine tiefe Sehnsucht nach ehrlicher Emotion und lyrischer Tiefe hegt.

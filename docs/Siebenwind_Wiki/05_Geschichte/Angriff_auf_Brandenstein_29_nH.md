@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Angriff auf Brandenstein (29 n.H.)
 category: [[index]]
 ---
 
 # Angriff auf [[Brandenstein]] (29 n.H.)
 
-**Epistemischer Status:** #bote
-**Datum:** 10. Duler 29 n.H. (Bote 190)
-**Ort:** [[Brandenstein]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 10. Duler 29 n.H. (Bote 190)
+    - **Ort:** [[Brandenstein]]
+
 
 ## Verlauf
 Ein Heer aus Schwarzorken, [[Goblins]] und Ogern griff die Stadt an.

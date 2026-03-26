@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Adel
 category: Allgemein
 status: UNGEKLAERT

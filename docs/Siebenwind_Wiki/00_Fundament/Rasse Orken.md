@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Rasse Orken
 category: Allgemein
 status: UNGEKLAERT

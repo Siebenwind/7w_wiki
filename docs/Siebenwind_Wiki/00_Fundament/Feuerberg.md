@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Feuerberg
 category: Allgemein
 status: UNGEKLAERT

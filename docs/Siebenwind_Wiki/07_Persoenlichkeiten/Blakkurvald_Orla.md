@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Blakkurvald Orla
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Blakkurvald Orla
 
-**Titel:** Jarl (Roter Stier von Tuhle) / Ratsherr / Leitwolf
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Nortraven]] / [[Greifenklipp]] / [[Dunkeltief]]
+!!! info "Metadaten"
+    - **Titel:** Jarl (Roter Stier von Tuhle) / Ratsherr / Leitwolf
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Nortraven]] / [[Greifenklipp]] / [[Dunkeltief]]
+
 
 ## Beschreibung
 **Blakkurvald Orla** ist ein einflussreicher Nortrave.

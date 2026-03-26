@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: 02 Rien
 category: Allgemein
 status: UNGEKLAERT

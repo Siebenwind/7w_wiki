@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Akademie
 category: Allgemein
 status: UNGEKLAERT

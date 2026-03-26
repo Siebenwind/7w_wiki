@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Laske
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_160]].md
 ---
 # Laske
 
-**Titel:** Ritter / Sire / Leiter der Kämpferschule / Knappe (ehem.)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Siebenwind]] / Kämpferschule [[Falkensee]] / [[Ritterschaft_zu_Siebenwind]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Ritter / Sire / Leiter der Kämpferschule / Knappe (ehem.)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Siebenwind]] / Kämpferschule [[Falkensee]] / [[Ritterschaft_zu_Siebenwind]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Sire Laske** ist ein Ritter auf [[Siebenwind]] und Leiter der **königlich-siebenwind’schen Kämpferschule**. Er stammt aus einfachen Verhältnissen in Vandrien, wo er als Ziegenhirte arbeitete, bevor er nach [[Siebenwind]] reiste, um sich als Soldat zu beweisen.

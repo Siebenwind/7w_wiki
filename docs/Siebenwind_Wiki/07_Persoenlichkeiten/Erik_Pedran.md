@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f
 title: Erik Pedran
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Erik Pedran
 
-**Titel:** Ritter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[03_Gesellschaft/index#Löwenorden|Löwenorden]]
+!!! info "Metadaten"
+    - **Titel:** Ritter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[03_Gesellschaft/index#Löwenorden|Löwenorden]]
+
 
 ## Beschreibung
 **Erik Pedran** ist ein Ritter des Löwenordens, der im Jahr 21 n.H. aktiv in die Verteidigung galadonischer Interessen eingebunden war (Bote 182).

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Galadons
 category: Allgemein
 status: UNGEKLAERT

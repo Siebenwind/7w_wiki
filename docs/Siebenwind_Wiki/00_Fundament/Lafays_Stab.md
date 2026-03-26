@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lafays Stab
 category: Allgemein
 status: UNGEKLAERT

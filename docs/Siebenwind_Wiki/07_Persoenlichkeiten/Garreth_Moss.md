@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Garreth Moss
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_154]].md
 ---
 # Garreth Moss
 
-**Titel:** Magister / Hofmagier (?)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Magierakademie]] / [[Falkensee]] (?)
-**Zeitraum:** aktiv 17-18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Magister / Hofmagier (?)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Magierakademie]] / [[Falkensee]] (?)
+    - **Zeitraum:** aktiv 17-18 n.H.
+
 
 ## Beschreibung
 **Magister Garreth Moss** ist ein fähiger Magier, der sich in die Gestalt eines Falken verwandeln kann.

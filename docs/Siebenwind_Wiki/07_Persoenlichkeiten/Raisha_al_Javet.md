@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Raisha al Javet
 category: Persönlichkeit
-quelle: "[Invocatio Elementharii]"
 status: "#überlieferung"
+quelle: "[Invocatio Elementharii]"
 ---
 
 # Raisha al Javet

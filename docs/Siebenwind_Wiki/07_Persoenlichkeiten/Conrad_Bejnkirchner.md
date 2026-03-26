@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d
 title: Conrad Bejnkirchner
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Conrad Bejnkirchner
 
-**Titel:** Sekretarius
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Verwaltung / [[Brandenstein]] (vermutet)
+!!! info "Metadaten"
+    - **Titel:** Sekretarius
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Verwaltung / [[Brandenstein]] (vermutet)
+
 
 ## Beschreibung
 **Conrad Bejnkirchner** ist ein Sekretarius, der im Jahr 19 n.H. administrative Aufgaben innerhalb der Lehensverwaltung wahrnahm (Bote 165).

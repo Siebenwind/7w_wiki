@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Clavius Aurelius
 category: Allgemein
 status: UNGEKLAERT

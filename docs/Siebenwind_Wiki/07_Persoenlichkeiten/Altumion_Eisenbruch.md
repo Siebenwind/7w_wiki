@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Altumion Eisenbruch
 category: Persönlichkeit
 ---
 
 # Altumion Eisenbruch
 
-**Titel:** Inselrichter (Dwarschim)
-**Epistemischer Status:** #canon
-**Zugehörigkeit:** Volk der Dwarschim / [[Koenigliches_Gericht]]
-**Zeitraum:** Aktiv (Ernannt vor 123 n.H.)
+!!! info "Metadaten"
+    - **Titel:** Inselrichter (Dwarschim)
+    - **Epistemischer Status:** #canon
+    - **Zugehörigkeit:** Volk der Dwarschim / [[Koenigliches_Gericht]]
+    - **Zeitraum:** Aktiv (Ernannt vor 123 n.H.)
+
 
 ## Beschreibung
 Altumion Eisenbruch ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone [[index]] spricht. Er ist ein seltenes Beispiel für einen Zwerg in einem hocheminenten menschlichen Staatsamt.

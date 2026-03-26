@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b
 title: Janniea Lavrial
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Janniea Lavrial
 
-**Titel:** Stadtconsula
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Falkensee]] / Verwaltung
+!!! info "Metadaten"
+    - **Titel:** Stadtconsula
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Falkensee]] / Verwaltung
+
 
 ## Beschreibung
 **Janniea Lavrial** ist die Stadtconsula von [[Falkensee]]. Sie ist für die zivile Verwaltung und die Belange der Bürger zuständig (Bote 158).

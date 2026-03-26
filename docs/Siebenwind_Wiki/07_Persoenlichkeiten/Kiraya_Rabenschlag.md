@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Kiraya Rabenschlag
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Kiraya Rabenschlag
 
-**Titel:** Leutnant / Taktischer Offizier
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Lehensbanner]]
+!!! info "Metadaten"
+    - **Titel:** Leutnant / Taktischer Offizier
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Lehensbanner]]
+
 
 ## Beschreibung
 **Kiraya Rabenschlag** war im Jahr 16 n.H. (Bote 130) Leutnant und taktischer Offizier der Führungstruppe des Lehensbanners.

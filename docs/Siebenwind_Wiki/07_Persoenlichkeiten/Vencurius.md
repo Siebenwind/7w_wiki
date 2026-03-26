@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: v3n-curi-us-42-vent-us
 title: Vencurius
 category: Persönlichkeit
-uuid: v3n-curi-us-42-vent-us
 quelle: ../../Quellen/Spielergeschichten/[[Der_Flug_der_Ente]]..md
 letzter_check: 2026-02-13T22:45:00
 ---
 
 # Vencurius
 
-**Epistemischer Status:** #perspektive
-**Titel:** Erzpriester des [[Ventus]]
-**Zugehörigkeit:** [[Ecclesia]] / [[Brandenstein]]
-**Zeitraum:** Aktiv um 22 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Erzpriester des [[Ventus]]
+    - **Zugehörigkeit:** [[Ecclesia]] / [[Brandenstein]]
+    - **Zeitraum:** Aktiv um 22 n.H.
+
 
 ## Beschreibung
 Vencurius ist ein hochrangiger Würdenträger der [[Ecclesia]] in [[Brandenstein]], spezialisiert auf die Mysterien des Gottes [[Ventus]]. Er wird als kleiner Mann mit weißem, seidenem Haar und saphirblauen Augen beschrieben, die in der Dunkelheit glimmen können. Er gilt als weiser, aber physisch fragiler Mentor, der eine tiefe Verbindung zu den Winden und seinen Schülern pflegt.

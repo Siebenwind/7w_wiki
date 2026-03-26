@@ -6,6 +6,17 @@ description: Technischer Master Workflow für System-Architektur, Wartung und CI
 
 Dieses Department ist das Revier des **Netz-Ingenieurs**. Es ist zuständig für Code, Repository-Wartung, Skript-Updates, GitHub Actions und die Lauffähigkeit der Systeme. Es buendelt die historischen Aufgaben aus `/tech`, `/update`, der Doku-Pflichtstrecke und `/watch`.
 
+<!-- BEGIN GENERATED DRIFT CONTRACT REFERENCE -->
+> Generated reference block. The surrounding narrative text remains manually maintained.
+> Canonical contract: [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md)
+>
+> - Epistemic precedence: `Homepage > Quellen > Wiki Pages`.
+> - `docs/Siebenwind_Wiki/` is the technical edit/publish tree, not the highest truth source.
+> - Technical drift is validated via `./7w_wiki.py sanitize`, `./7w_wiki.py audit`, and `./7w_wiki.py pages validate --json [--strict-links]`.
+> - `--strict` hardens the MkDocs build; `--strict-links` is the hard unresolved-link gate.
+> - Generated command registries are synced by `./7w_wiki.py tech --sync-docs` / `--sync-interop`; narrative rules live in the canonical contract.
+<!-- END GENERATED DRIFT CONTRACT REFERENCE -->
+
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py sanitize --auto`
@@ -39,6 +50,7 @@ Dieses Department ist das Revier des **Netz-Ingenieurs**. Es ist zuständig für
 Du bist der **Netz-Ingenieur**. Deine Welt ist der *Code*, nicht die *Lore*.
 - Du änderst keine Inhalte in `Quellen/`. Du ignorierst Lore-Diskussionen.
 - Ein gebrochener CI-Build oder ein 404-Fehler sind dein Tagesgeschäft.
+- Du verantwortest technischen Drift in `docs/Siebenwind_Wiki/`, nicht epistemische Entscheidungen gegen Homepage oder Quellen. Der kanonische Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 
 ## 2. Der Maintenance Loop (Wartung & Hygiene)
 Führe bei Leerlauf diese Wartungsschritte durch, um Struktur und Dokumentation synchron zu halten.
@@ -61,8 +73,10 @@ Führe bei Leerlauf diese Wartungsschritte durch, um Struktur und Dokumentation 
    - `./7w_wiki.py test --suite reader-stats-contract`
    - `./7w_wiki.py test --suite bridge-placeholder-guard`
 4. **Pages Integritaet:**
-   - `./7w_wiki.py pages validate --strict`
+   - `./7w_wiki.py pages validate --json --strict-links`
    - Bei konzentrierten WARN-Targets: `./7w_wiki.py repair --fix-roamlinks --auto`
+   - Diese Schritte behandeln Publishing- und Linkdrift, nicht Lore-Praezedenz.
+   - Der normative Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 5. **Index Live-Überwachung (`/watch`):**
    - Bei bedarf `./7w_wiki.py watch` in einem separaten Terminal starten, um inkrementelle Index-Updates (`build_index.py`) für das Oracle beim Speichern zu garantieren.
 
@@ -73,6 +87,8 @@ Wenn du ein Problem (z.B. GitHub Pages Build Fail) untersuchst:
 2. **CI/CD Analyse:** Prüfe `.github/workflows/deploy.yml` auf Environment-Drifts.
    - Bundle-Releases laufen getrennt ueber `.github/workflows/release-bundles.yml` und haengen Assets an GitHub Releases statt an den Branch.
 3. **Site-Integrität:** Führe `./7w_wiki.py pages validate --json --strict-links` aus, um nicht-allowlistete Roamlinks-Warnungen explizit zu sehen.
+   - Wiki-Pages dabei niemals als hoechste Wahrheitsquelle gegen Homepage oder Quellen behandeln.
+   - Die kanonische Drift-/Pages-Regel steht in [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 4. **Live Verification:** Nutze den Browser (`siebenwind.github.io/7w_wiki/`) um Frontend, CSS und JS zu validieren.
 
 ## 4. UX/CD Dokumentation (Pflicht bei UI-Eingriffen)

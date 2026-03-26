@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Beladriel Blättertanz
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_165]].md
 ---
 # Beladriel Blättertanz
 
-**Titel:** Ihre wohlgeborene Exzellenz / Baronin von Harpenstein zu Tiefenwald / Kommandantin von [[Feste_Seeberg]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Galadonische Krone / [[Ritter_der_Sieben_Winde]]
-**Zeitraum:** aktiv ab 19 n.H.
+!!! info "Metadaten"
+    - **Titel:** Ihre wohlgeborene Exzellenz / Baronin von Harpenstein zu Tiefenwald / Kommandantin von [[Feste_Seeberg]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Galadonische Krone / [[Ritter_der_Sieben_Winde]]
+    - **Zeitraum:** aktiv ab 19 n.H.
+
 
 ## Beschreibung
 **Beladriel Blättertanz** war die vom König eingesetzte **Truchsess** (Seneschallin) der [[Kronmark]]. Seit deren Auflösung im Jahr 20 n.H. ([[Der_Erlass_des_Koenigs]]) ist sie die offizielle **Kommandantin** des königlichen Hoheitsgebietes [[Feste_Seeberg]].

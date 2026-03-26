@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Bruder Zar
 category: Allgemein
 status: UNGEKLAERT

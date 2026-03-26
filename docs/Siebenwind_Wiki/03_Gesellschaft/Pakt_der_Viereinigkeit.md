@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Pakt der Viereinigkeit
 category: [[index]]
 status: Bote
@@ -7,8 +6,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_174]].md
 ---
 # Pakt der Viereinigkeit
 
-**Epistemischer Status:** #bote  
-**Rolle:** Wirtschaftliches und Militärisches Bündnis
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Rolle:** Wirtschaftliches und Militärisches Bündnis
+
 
 ## Beschreibung
 Der **Pakt der Viereinigkeit** ist eine Allianz der küstennahen festländischen Lehen Malthust, Vandrien, Lichtenfeld und Ossian. Ziel des Paktes ist die Sicherung des freien Handels und des Wohlstandes im Einklang mit dem Glauben an die Viere.

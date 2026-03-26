@@ -6,12 +6,13 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
 - **Last Handover**: 2026-03-10 14:45 (Codex → Next Agent)
-- **Status**: Interop/Codex bridge hardening ist abgeschlossen; naechster operativer Fokus bleibt P2 Ingestion/Research und die verbleibende Pages-Link-Backlog-Bereinigung.
+- **Status**: Interop/Codex bridge hardening ist abgeschlossen; Drift-Praevention ist jetzt dokumentarisch und technisch verankert.
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
 
+- [x] **Drift-Prevention Governance Alignment**: AGENTS, Handbuch, Interop, Testing und Workflow-Texte bilden die Regel `Homepage > Quellen > Wiki Pages` sowie `docs/Siebenwind_Wiki/` als technischen Edit-Baum nun konsistent ab. Der Volltext liegt in `System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md`.
 
 - [x] **Phase E (Workflow & Skill Consolidation)**: Pruned 33 fragmented workflows into 5 core Master Workflows mapped to the 5 Agent Personas. Built a sharp decision tree in `/start` and preserved all sub-processes.
 - [x] **Interop Hardening (Typed CLI + Doc Sync)**: `--help-json`, `tools.json`, MCP, governance docs und die Workflow-Matrix sind nun auf denselben typisierten Runtime-Vertrag ausgerichtet. `scout` bleibt als prominenter Sonderfall sichtbar, ohne die `.agent/scripts/`-Policy zu brechen.
@@ -67,6 +68,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ---
 
 ## 🗂️ Projekthistorie (neu → alt)
+
+*Aktiver Drift-/Pages-Vertrag:* `System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md`
 
 
 Die vollständige Projekthistorie (v1.0 bis v3.0) wurde archiviert unter: [[docs/Archiv/PROJECT_HISTORY.md]]

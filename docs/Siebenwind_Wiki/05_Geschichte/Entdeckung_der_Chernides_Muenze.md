@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Entdeckung der Chernides Münze
 category: [[index]]
 ---
 
 # Entdeckung der [[Chernides]] Münze
 
-**Epistemischer Status:** #bote
-**Datum:** 27. Querlar 22 n.H. (Bote 186)
-**Beteiligte:** [[Ionas]], [[Ekart_Gradeg]] (†)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 27. Querlar 22 n.H. (Bote 186)
+    - **Beteiligte:** [[Ionas]], [[Ekart_Gradeg]] (†)
+
 
 ## Verlauf
 Der junge Forscher **[[Ekart_Gradeg]]** starb in der Nähe von [[Falkensee]]. Bei ihm fand Novize [[Ionas]] eine alte Münze mit der Prägung "[[Chernides]]".

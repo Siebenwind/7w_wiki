@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Anijane Lavid
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,11 +6,13 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_137]].md
 ---
 # Anijane Lavid
 
-**Geburtsname:** Anijane Salmoranes
-**Titel:** Lehenskämmerin / Finanzverwalterin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Finanzverwaltung]] / [[Lehen_Wasserwall]]
-**Zeitraum:** aktiv ab 15 n.H.
+!!! info "Metadaten"
+    - **Geburtsname:** Anijane Salmoranes
+    - **Titel:** Lehenskämmerin / Finanzverwalterin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Finanzverwaltung]] / [[Lehen_Wasserwall]]
+    - **Zeitraum:** aktiv ab 15 n.H.
+
 
 ## Beschreibung
 **Anijane Lavid** (geb. Salmoranes) ist eine einflussreiche Beamtin der Finanzverwaltung von [[Siebenwind]]. Sie gilt als pflichtbewusst und administrativ versiert.

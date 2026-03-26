@@ -1,7 +1,6 @@
 ---
 uuid: 9e6a6a7c-4ef6-4f73-96d7-967f21bf90e8
 status: ACTIVE
-updated_at: 2026-02-18T01:05:00Z
 owners:
   - Koordinator
   - Test-Waechter
@@ -17,6 +16,7 @@ Verbindlicher Standard fuer reproduzierbare Testdurchlaeufe, Defect-Kommunikatio
 1. Testlaeufe standardisieren (`clean-client-state`, `takeover-handover`, `interop-doc-links`, `interop-command-registry`, `workflow-matrix-contract`, `tool-manifest-contract`, `pages-link-contract`, `source-link-hygiene`, `process-dispatch-curiosity`, `bridge-placeholder-guard`, `reader-stats-contract`, `all` + optional `rag-relevance-smoke`).
 2. Defects ohne stille Fixes behandeln.
 3. Fixes nur auf Basis kommunizierter Auftraege umsetzen.
+4. Technischen Drift frueh sichtbar machen (`content-contract`, `split-brain-guard`, `render-hygiene`) und epistemischen Drift getrennt behandeln. Der kanonische Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](SY_DRIFT_PAGES_CONTRACT.md).
 
 ## Runtime-Einstieg
 
@@ -32,6 +32,9 @@ Verbindlicher Standard fuer reproduzierbare Testdurchlaeufe, Defect-Kommunikatio
 - `./7w_wiki.py test --suite process-dispatch-curiosity`
 - `./7w_wiki.py test --suite bridge-placeholder-guard`
 - `./7w_wiki.py test --suite reader-stats-contract`
+- `./7w_wiki.py test --suite content-contract`
+- `./7w_wiki.py test --suite split-brain-guard`
+- `./7w_wiki.py test --suite render-hygiene`
 - `./7w_wiki.py test --suite all`
 - `./7w_wiki.py test --suite all --include-rag`
 - `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30`
@@ -46,6 +49,7 @@ Testberichte liegen in:
 Stabilitaetsregel:
 - `--suite all` laesst `rag-relevance-smoke` standardmaessig aus.
 - RAG-Smoke nur als explizite Diagnose per `--include-rag` oder direktem Suite-Aufruf.
+- Pages-/Link-Suiten decken technischen Publishing-Drift ab; sie belegen keine epistemische Korrektheit gegen Homepage oder Quellen.
 
 RAG-Diagnose- und Benchmarkdoku:
 - `docs/Archiv/RAG_DIAGNOSE_2026-02-16.md`
@@ -80,8 +84,11 @@ Ein Fix ist nur zulaessig, wenn mindestens eines vorliegt:
 1. Test ausfuehren.
 2. Bei FAIL:
    - Defect posten (`--post-failures`) oder Task erstellen.
+   - Defect-Typ markieren: `technical drift` oder `epistemic drift`.
 3. Fix-Agent uebernimmt (`mail claim` oder Task-Referenz).
 4. Fix umsetzen.
+   - `technical drift`: Layout, Frontmatter, Split-Brain, Generatoren, Pages/Links.
+   - `epistemic drift`: Homepage/Quellen gegen Wiki-Pages abgleichen; nicht nur Seiten reparieren. Fuer die Praxis gilt [SY_DRIFT_PAGES_CONTRACT.md](SY_DRIFT_PAGES_CONTRACT.md).
 5. Re-Test:
    - erst betroffene Suite
    - danach `--suite all`

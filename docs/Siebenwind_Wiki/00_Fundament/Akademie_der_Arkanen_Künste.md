@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Akademie der Arkanen Kuenste
 category: Allgemein
 status: UNGEKLAERT

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Schutzzug
 category: Allgemein
 status: UNGEKLAERT

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Der naive Mensch"
 category: Religion
 ---

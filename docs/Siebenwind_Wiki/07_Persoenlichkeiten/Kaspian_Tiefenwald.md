@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Kaspian Tiefenwald
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_160]].md
 ---
 # Kaspian Tiefenwald
 
-**Titel:** Leiter der [[Ventusreiter]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ventusreiter]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Leiter der [[Ventusreiter]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ventusreiter]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Kaspian Tiefenwald** übernahm im Jahr 18 n.H. (Bote 160) die Leitung der **[[Ventusreiter]]** auf [[Siebenwind]] von seinem Vorgänger [[Mythandir]].

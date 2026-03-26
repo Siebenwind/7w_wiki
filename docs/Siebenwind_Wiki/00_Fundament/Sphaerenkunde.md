@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Sphaerenkunde
 category: Allgemein
 status: UNGEKLAERT

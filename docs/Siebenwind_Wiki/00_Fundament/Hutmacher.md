@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Hutmacher
 category: Allgemein
 status: UNGEKLAERT

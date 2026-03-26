@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lorence
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_158]].md
 ---
 # Lorence
 
-**Titel:** Geweihter Bellums / Novize (ehem.)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Kirche_der_Viere]] / [[Orden_Bellums]]
-**Zeitraum:** aktiv 17-18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Geweihter Bellums / Novize (ehem.)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Kirche_der_Viere]] / [[Orden_Bellums]]
+    - **Zeitraum:** aktiv 17-18 n.H.
+
 
 ## Beschreibung
 **Lorence** ist ein geweihter Streiter [[Gott Bellum|Bellums]].

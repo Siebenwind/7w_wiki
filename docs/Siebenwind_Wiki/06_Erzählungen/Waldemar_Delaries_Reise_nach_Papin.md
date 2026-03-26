@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Waldemar Delaries Reise nach Papin
 category: Erzählung
 ---

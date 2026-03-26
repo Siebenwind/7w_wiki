@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Der Eine
 category: Allgemein
 status: UNGEKLAERT

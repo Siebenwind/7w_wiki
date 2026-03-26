@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Weteka
 category: [[index]]
-tags: [Ort, Vandrien, Stadt]
 status: #stub
+tags: [Ort, Vandrien, Stadt]
 ---
 
 # Weteka

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Recht
 category: Allgemein
 status: UNGEKLAERT

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 118
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 118
 
-**Epistemischer Status:** #bote
-**Datum:** Unbekannt (ca. 14 n.H.)
-**Status:** [MISSING SOURCE]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** Unbekannt (ca. 14 n.H.)
+    - **Status:** [MISSING SOURCE]
+
 
 ## Hinweis
 

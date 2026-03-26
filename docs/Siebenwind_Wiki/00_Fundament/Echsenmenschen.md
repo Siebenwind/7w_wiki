@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Echsenmenschen
 category: Allgemein
 status: UNGEKLAERT

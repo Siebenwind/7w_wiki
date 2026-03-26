@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 126
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 126
 
-**Epistemischer Status:** #bote
-**Datum:** 15. Carmar 15 n.H.
-**Redaktion:** SvS ([[Siegfried_von_Steiner]]?)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 15. Carmar 15 n.H.
+    - **Redaktion:** SvS ([[Siegfried_von_Steiner]]?)
+
 
 ## Schlagzeilen
 

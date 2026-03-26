@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
+uuid: f4lk-3n-h0rst-2026
 title: "Der letzte Falke"
 category: Religion
 status: integrated
-uuid: f4lk-3n-h0rst-2026
 report_id: f4lk-3n-h0rst-2026
 letzter_check: 2026-02-16T17:30:00+01:00
 ---

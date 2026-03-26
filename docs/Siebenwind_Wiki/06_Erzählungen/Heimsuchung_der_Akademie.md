@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Die Heimsuchung der Akademie
 category: Erzählung
 ---

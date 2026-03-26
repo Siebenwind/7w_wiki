@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Amaris Aurinas
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_139]].md
 ---
 # Amaris Aurinas
 
-**Titel:** Knappe
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Lehensbanner]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Knappe
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Lehensbanner]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Amaris Aurinas** ist ein Knappe, der für seine Standhaftigkeit und seinen Kampfgeist bekannt ist.

@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
 title: Ignis
-type: Religion
 status: Kanon (Level 1)
+type: Religion
 tags: [Elementarherr, [[Enhor]], Feuer, [[index]]]
 ---
 

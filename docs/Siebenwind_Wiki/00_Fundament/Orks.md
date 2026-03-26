@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Orks
 category: Allgemein
 status: UNGEKLAERT

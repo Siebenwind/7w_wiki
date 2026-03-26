@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Rolosin Vadebor
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_136]].md
 ---
 # Rolosin Vadebor
 
-**Titel:** Feldscher / Lehrmeister der Heilkunde
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Lehensbanner]] / Akademie zu [[Seeberg]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Feldscher / Lehrmeister der Heilkunde
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Lehensbanner]] / Akademie zu [[Seeberg]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Rolosin Vadebor** ist ein hochgeschätzter Feldscher des Banners und Lehrmeister für Heilkunde an der Akademie in [[Seeberg]]. Er gilt als Experte für komplexe chirurgische Eingriffe und die Versorgung von Schlachtfeldwunden.

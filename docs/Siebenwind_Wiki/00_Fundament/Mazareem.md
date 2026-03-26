@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Mazareem
 category: Allgemein
 status: UNGEKLAERT

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Sandholz"
 category: [[index]]
 ---

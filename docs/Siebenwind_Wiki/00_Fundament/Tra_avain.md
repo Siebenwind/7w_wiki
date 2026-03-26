@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Tra avain
 category: Allgemein
 status: UNGEKLAERT

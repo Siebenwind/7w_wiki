@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Marnie Ruatha
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Marnie Ruatha
 
-**Titel:** Baronin / Patrizierin
-**Epistemischer Status:** #canon / #bote
-**Zugehörigkeit:** [[Region_Malthust]] / [[Brandenstein]]
-**Status:** Unter Kirchenschutz (vormals verhaftet)
+!!! info "Metadaten"
+    - **Titel:** Baronin / Patrizierin
+    - **Epistemischer Status:** #canon / #bote
+    - **Zugehörigkeit:** [[Region_Malthust]] / [[Brandenstein]]
+    - **Status:** Unter Kirchenschutz (vormals verhaftet)
+
 
 ## Beschreibung
 **Marnie Ruatha** ist eine einflussreiche Patrizierin aus Malthust und langjährige Hafenvogtin von [[Brandenstein]].

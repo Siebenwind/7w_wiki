@@ -1,6 +1,5 @@
 ---
-layout: wiki_page
-title: Archiv
+title: "Siebenwind Wiki - Archiv"
 ---
 
 # [[Siebenwind]] Wiki - Archiv

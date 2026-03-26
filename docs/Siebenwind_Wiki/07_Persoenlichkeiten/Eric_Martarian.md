@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Eric Martarian
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Eric Martarian
 
-**Titel:** Tempelwache
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Tempelwache]] / [[Brandenstein]]
+!!! info "Metadaten"
+    - **Titel:** Tempelwache
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Tempelwache]] / [[Brandenstein]]
+
 
 ## Beschreibung
 **Eric Martarian** ist ein Tempelwächter in [[Brandenstein]].

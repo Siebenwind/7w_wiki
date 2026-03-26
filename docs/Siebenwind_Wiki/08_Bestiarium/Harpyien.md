@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: 6210D748-4BE8-42FD-BE01-44D35CE40EFB
 title: Harpyien
 category: [[index]]
-uuid: 6210D748-4BE8-42FD-BE01-44D35CE40EFB
 letzter_check: 2026-02-13T14:55:00+01:00
 ---
 

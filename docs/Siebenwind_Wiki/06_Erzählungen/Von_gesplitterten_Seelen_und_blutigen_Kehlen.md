@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Von gesplitterten Seelen und blutigen Kehlen
 category: Erzählung
 ---

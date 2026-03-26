@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Logrin Goldaxt
 category: Persönlichkeit
-quelle: "[Bartanatomie]"
 status: "#überlieferung"
+quelle: "[Bartanatomie]"
 ---
 
 # Logrin Goldaxt

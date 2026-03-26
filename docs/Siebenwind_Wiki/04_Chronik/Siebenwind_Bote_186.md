@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 186
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 186
 
-**Epistemischer Status:** #bote
-**Datum:** 15. Carmer 22 n.H.
-**Redaktion:** [[Ionas]] (Kommissarisch) / [[Isogares_Saleyn]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 15. Carmer 22 n.H.
+    - **Redaktion:** [[Ionas]] (Kommissarisch) / [[Isogares_Saleyn]]
+
 
 ## Schlagzeilen
 

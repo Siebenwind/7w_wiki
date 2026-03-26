@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Syr Geron
 category: Persönlichkeit
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_122]].md
@@ -8,9 +7,11 @@ letzter_check: 2026-02-13T23:45:00
 
 # Syr Geron
 
-**Epistemischer Status:** #bote
-**Rolle:** Ritter
-**Zeitraum:** Aktiv um 15 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Rolle:** Ritter
+    - **Zeitraum:** Aktiv um 15 n.H.
+
 
 ## Beschreibung
 Syr Geron ist ein Ritter, der in den frühen Ausgaben des [[Siebenwind_Bote_122|[[Siebenwind]] Boten]] erwähnt wird.

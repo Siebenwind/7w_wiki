@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: z0r4n-g05h-45tr43l-g0f1lm
 title: Zoran Gosh
 category: Persönlichkeit
-uuid: z0r4n-g05h-45tr43l-g0f1lm
 quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
 letzter_check: 2026-02-13T23:25:00
 ---
 
 # Zoran Gosh
 
-**Epistemischer Status:** #perspektive
-**Titel:** Abt von Gofilm / Hochgeweihter des [[Ordo_Astraeli]]
-**Zugehörigkeit:** [[Ring_des_Argionemes]] / [[Ecclesia]] / [[Bruderschaft_Gofilm]]
-**Zeitraum:** Aktiv um 21 n.H. (Galadonischer Interregnum)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Titel:** Abt von Gofilm / Hochgeweihter des [[Ordo_Astraeli]]
+    - **Zugehörigkeit:** [[Ring_des_Argionemes]] / [[Ecclesia]] / [[Bruderschaft_Gofilm]]
+    - **Zeitraum:** Aktiv um 21 n.H. (Galadonischer Interregnum)
+
 
 ## Beschreibung
 Zoran Gosh ist der Abt des Klosters Gofilm und ein führendes Mitglied des "Inneren Zirkels" des [[Ring_des_Argionemes]]. Er gilt als der Spiritus Rector der Bruderschaft von Gofilm, einer Gruppe, die für ihre Beherrschung der "Pfade des Orpa" bekannt ist—einer Form der spirituellen Annäherung an den Gott [[Astrael]], die viele als gefährlich oder mystisch betrachten.

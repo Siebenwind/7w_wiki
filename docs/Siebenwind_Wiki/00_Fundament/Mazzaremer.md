@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Mazzaremer
 category: Allgemein
 status: UNGEKLAERT

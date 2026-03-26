@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b
 title: Calanhen Lilthameigol
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Calanhen Lilthameigol
 
-**Titel:** Leiter der Kgl. Kriegerakademie zu [[Seeberg]] / Hochelf
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Hochelfen]] / [[Königliche_Akademie_der_Kriegskünste]]
+!!! info "Metadaten"
+    - **Titel:** Leiter der Kgl. Kriegerakademie zu [[Seeberg]] / Hochelf
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Hochelfen]] / [[Königliche_Akademie_der_Kriegskünste]]
+
 
 ## Beschreibung
 **Calanhen Lilthameigol** ist ein Hochelf, der die Leitung der Königlichen Kriegerakademie in [[Seeberg]] innehat (Bote 178).

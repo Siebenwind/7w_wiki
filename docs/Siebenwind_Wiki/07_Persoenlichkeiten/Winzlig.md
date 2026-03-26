@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Winzlig
 category: Persönlichkeit
 ---
 
 # Winzlig
 
-**Titel:** Obergefreiter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Die_Bannerschaft]] ([[Falkensee]])
-**Zeitraum:** aktiv um 17 n.H.
+!!! info "Metadaten"
+    - **Titel:** Obergefreiter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Die_Bannerschaft]] ([[Falkensee]])
+    - **Zeitraum:** aktiv um 17 n.H.
+
 
 ## Beschreibung
 Winzlig bekleidet den Rang eines Obergefreiten in der Bannerschaft der Hauptstadt [[Falkensee]]. Er gilt als aufmerksamer und pflichtbewusster Ermittler.

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: 02 Xan
 category: Allgemein
 status: UNGEKLAERT

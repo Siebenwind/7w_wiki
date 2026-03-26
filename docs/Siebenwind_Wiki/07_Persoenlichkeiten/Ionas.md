@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Ionas
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Ionas
 
-**Titel:** Geweihter des [[Astrael]] / Chefredakteur (kommissarisch)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Astrael]] / [[Die_Chronik]]
+!!! info "Metadaten"
+    - **Titel:** Geweihter des [[Astrael]] / Chefredakteur (kommissarisch)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ordo_Astrael]] / [[Die_Chronik]]
+
 
 ## 📜 Beschreibung
 **Ionas** ist eine stille, aber unverzichtbare Kraft im geistigen Leben von [[Falkensee]]. Als Geweihter des [[Astrael|Astrael]] und zeitweiliger Chefredakteur des [[Die_Chronik]]n verkörpert er die delikate Balance zwischen sakraler Pflicht und weltlicher Berichterstattung.

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Das Daimonicon
 category: [[index]]
 status: integrated

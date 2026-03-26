@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: "Über die Gebete"
 category: [[index]]
 status: integrated

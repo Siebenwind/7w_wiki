@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 0e1f2a3b-4c5d-4e6f-7a8b-9c0d1e2f3a4b
 title: Silas
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 # Silas
 
-**Titel:** Freier (†)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Zivilbevölkerung / [[Brandenstein]]
+!!! info "Metadaten"
+    - **Titel:** Freier (†)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Zivilbevölkerung / [[Brandenstein]]
+
 
 ## Beschreibung
 **Silas** war ein freier Bürger, der im Jahr 21 n.H. durch den Edelherrn [[Waldemar_Delarie]] hingerichtet wurde (Bote 179).

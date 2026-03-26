@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 190
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 190
 
-**Epistemischer Status:** #bote
-**Datum:** 12. Duler 29 n.H.
-**Redaktion:** [[Erin_Caoimme]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 12. Duler 29 n.H.
+    - **Redaktion:** [[Erin_Caoimme]]
+
 
 ## Schlagzeilen
 

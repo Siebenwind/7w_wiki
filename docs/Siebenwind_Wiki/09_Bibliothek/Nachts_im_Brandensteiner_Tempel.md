@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Nachts im Brandensteiner Tempel
 category: [[index]]
-tags: [Erzählung, [[Morsan]], [[Brandenstein]], Horwah, Ritual]
 status: #perspektive
+tags: [Erzählung, [[Morsan]], [[Brandenstein]], Horwah, Ritual]
 ---
 
 # Nachts im Brandensteiner Tempel

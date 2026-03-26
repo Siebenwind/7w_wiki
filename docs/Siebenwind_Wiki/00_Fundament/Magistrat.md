@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Magistrat
 category: Allgemein
 status: UNGEKLAERT

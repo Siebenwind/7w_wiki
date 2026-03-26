@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Markus Panscher
 category: Persönlichkeit
 ---
 
 # Markus Panscher
 
-**Titel:** Alchemist / Gelehrter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Communis_Medici]]
-**Zeitraum:** aktiv ab 20 n.H.
+!!! info "Metadaten"
+    - **Titel:** Alchemist / Gelehrter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Communis_Medici]]
+    - **Zeitraum:** aktiv ab 20 n.H.
+
 
 ## Beschreibung
 Markus Panscher ist ein exzentrischer, aber brillanter Alchemist, der für seine unkonventionellen Methoden bekannt ist. Er spielte eine entscheidende Rolle bei der Erforschung des **"[[Atmender_Tod|Atmenden Todes]]"**.

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Cizra Innuae
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Cizra Innuae
 
-**Titel:** Soldatin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Region_Malthust]] / [[Rasse_Elfen]]
+!!! info "Metadaten"
+    - **Titel:** Soldatin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Region_Malthust]] / [[Rasse_Elfen]]
+
 
 ## Beschreibung
 **Cizra Innuae** ist eine Elfe, die in der Armee von Malthust dient. Sie ist bekannt für ihre Fähigkeiten mit Pfeil und Bogen.

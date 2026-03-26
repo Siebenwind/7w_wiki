@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Feste Seeberg
 category: [[index]]
 status: Bote
@@ -7,8 +6,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_174]].md
 ---
 # Feste [[Seeberg]]
 
-**Epistemischer Status:** #bote  
-**Rolle:** Königliche Enklave / Hauptquartier der Ritterschaft und des Kronregiments
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Rolle:** Königliche Enklave / Hauptquartier der Ritterschaft und des Kronregiments
+
 
 ## Beschreibung
 Die **Feste [[Seeberg]]** ist eine ehemalige Festung aus der Zeit des Skelettkrieges, die sich auf einem markanten Gebirgsausläufer befindet. Seit dem [[Der_Erlass_des_Koenigs|Erlass des Königs]] im Jahr 20 n.H. ist sie das einzige direkt königliche Hoheitsgebiet auf [[Siebenwind]].

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Dunkeltief 29 n.H.
 category: [[index]]
 ---
 
 # [[Dunkeltief]] 29 n.H.
 
-**Epistemischer Status:** #bote
-**Datum:** 29 n.H. (Bote 188)
-**Ort:** [[Siebenwind]], insbesondere [[Brandenstein]] und [[Ödland]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 29 n.H. (Bote 188)
+    - **Ort:** [[Siebenwind]], insbesondere [[Brandenstein]] und [[Ödland]]
+
 
 ## Die Bedrohung
 Das [[Dunkeltief]] des Jahres 29 n.H. gilt als eines der bedeutendsten der jüngeren [[index]]. Es stand im Zeichen der "Rückkehr des verlorenen Sohnes" und der Freilassung der "Gehörnten".

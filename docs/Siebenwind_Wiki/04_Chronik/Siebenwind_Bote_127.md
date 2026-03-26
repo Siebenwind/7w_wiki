@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 127
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 127
 
-**Epistemischer Status:** #bote
-**Datum:** 30. Carmar 15 n.H.
-**Redaktion:** HTd / R. / SvS / [[Arn]] / J.D
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 30. Carmar 15 n.H.
+    - **Redaktion:** HTd / R. / SvS / [[Arn]] / J.D
+
 
 ## Schlagzeilen
 

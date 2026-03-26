@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Elementum et Gens Humanis (Kommentar zu Divinum et Elementum)
 category: [[index]]
 status: integrated

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lurkz
 category: Allgemein
 status: UNGEKLAERT

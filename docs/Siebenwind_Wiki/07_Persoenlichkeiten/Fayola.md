@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Fayola
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Fayola
 
-**Titel:** Beamtin der Lehensverwaltung
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Lehensverwaltung]]
+!!! info "Metadaten"
+    - **Titel:** Beamtin der Lehensverwaltung
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Lehensverwaltung]]
+
 
 ## Beschreibung
 **Fayola** war im Jahr 15 n.H. (Bote 123) Beamtin der Lehensverwaltung.

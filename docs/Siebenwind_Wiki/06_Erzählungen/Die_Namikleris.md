@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
+uuid: n4m1kl3r1s-2026
 title: Die Namikleris
 category: Erzählungen
 status: integrated
-uuid: n4m1kl3r1s-2026
 report_id: n4m1kl3r1s-2026
 tags: [Brand Windflüsterer, Brandenstein, Schifffahrt, Ventus]
 letzter_check: 2026-02-16T18:05:00+01:00

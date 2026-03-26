@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Nathar Erres
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_193]].md
 ---
 # Nathar Erres
 
-**Titel:** Jäger / Hundezüchter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]]
-**Zeitraum:** aktiv um 30 n.H.
+!!! info "Metadaten"
+    - **Titel:** Jäger / Hundezüchter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Brandenstein]]
+    - **Zeitraum:** aktiv um 30 n.H.
+
 
 ## Beschreibung
 **Nathar Erres** ist ein erfahrener Jäger und Hundezüchter auf [[Siebenwind]].

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Krone
 category: Allgemein
 status: UNGEKLAERT

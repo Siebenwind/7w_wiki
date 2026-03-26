@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Thorgon Goldschlag
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_133]].md
 ---
 # Thorgon Goldschlag
 
-**Titel:** Dwarschim / Anwärter des [[Ordo_Belli]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Belli]] / [[Rasse_Zwerge]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Dwarschim / Anwärter des [[Ordo_Belli]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ordo_Belli]] / [[Rasse_Zwerge]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Thorgon Goldschlag** ist ein Dwarschim und Anwärter des [[Ordo_Belli]].

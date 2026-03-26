@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Hahngard Esteron
 category: [[Persoenlichkeiten_Uebersicht]]
-quelle: [[[Johann_Liebig]] - Arkane Verbindung]
 status: #überlieferung
+quelle: [[[Johann_Liebig]] - Arkane Verbindung]
 ---
 
 # Hahngard Esteron

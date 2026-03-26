@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f
 title: Ziska Himmelmann
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: bea60047-d2f3-4513-b2ca-a6494a919c3c
 
 # Ziska Himmelmann
 
-**Titel:** Reporterin (Verräterin)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Die_Chronik]] (ehem.)
+!!! info "Metadaten"
+    - **Titel:** Reporterin (Verräterin)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Die_Chronik]] (ehem.)
+
 
 ## Beschreibung
 **Ziska Himmelmann** war eine Reporterin des [[Siebenwind]] Boten, die im Jahr 19 n.H. als Verräterin entlarvt wurde (Bote 163).

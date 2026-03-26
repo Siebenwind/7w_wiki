@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Harok
 category: Persönlichkeit
 ---
 
 # Harok
 
-**Titel:** Söldnerführer (Blutige Faust), Veteran
-**Epistemischer Status:** #perspektive
-**Zugehörigkeit:** Söldnertruppe "Blutige Faust"
-**Zeitraum:** Verstorben/Verschollen ([[Dunkeltief]] am Schlachtenberg)
+!!! info "Metadaten"
+    - **Titel:** Söldnerführer (Blutige Faust), Veteran
+    - **Epistemischer Status:** #perspektive
+    - **Zugehörigkeit:** Söldnertruppe "Blutige Faust"
+    - **Zeitraum:** Verstorben/Verschollen ([[Dunkeltief]] am Schlachtenberg)
+
 
 ## Beschreibung
 Harok war ein etwa 50 Umläufe alter, kampferprobter Krieger und Anführer der Söldnergruppe "Blutige Faust". Er war ein ehemaliger Schüler einer Kriegerakademie, von der er jedoch verwiesen wurde. Er galt als harter, aber respektierter Anführer, der trotz seiner Alkoholsucht seine Männer mit Disziplin führte.

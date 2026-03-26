@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Solice Aurora
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Solice Aurora
 
-**Titel:** Freifrau, [[Statthalterin]] ([[Falkensee]]), Rätin ([[Ersont]])
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ersonter_Bund]] / Adel
+!!! info "Metadaten"
+    - **Titel:** Freifrau, [[Statthalterin]] ([[Falkensee]]), Rätin ([[Ersont]])
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ersonter_Bund]] / Adel
+
 
 ## Beschreibung
 **Solice Aurora** ist eine prägende Figur in der Politik von [[Falkensee]] und dem [[Ersonter_Bund]]. Ursprünglich als Rätin tätig, übernahm sie im Jahr 21 n.H. das Amt der Statthalterin von [[Falkensee]] in einer neuen, aufsichtsührenden Funktion.

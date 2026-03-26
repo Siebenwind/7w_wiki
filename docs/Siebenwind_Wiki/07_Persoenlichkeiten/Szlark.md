@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Szlark
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_148]].md
 ---
 # Szlark
 
-**Titel:** Anwärter / Soldat
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Siebenwind]] (Lehensbanner) / [[Orken]]
-**Zeitraum:** aktiv 17 n.H.
+!!! info "Metadaten"
+    - **Titel:** Anwärter / Soldat
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Siebenwind]] (Lehensbanner) / [[Orken]]
+    - **Zeitraum:** aktiv 17 n.H.
+
 
 ## Beschreibung
 **Szlark** ist ein Ork, der als Anwärter im Lehensbanner dient.

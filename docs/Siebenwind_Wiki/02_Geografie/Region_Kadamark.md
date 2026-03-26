@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Region Kadamark
 category: Index
 author: [[Siebenwind]] Chronicler

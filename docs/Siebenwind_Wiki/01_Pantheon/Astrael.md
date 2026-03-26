@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
 title: Astrael
-type: Religion
 status: Kanon (Level 1)
+type: Religion
 tags: [Gott, Sahor, [[index]], [[index]], [[index]], Sommer]
 ---
 

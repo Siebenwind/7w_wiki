@@ -1,13 +1,14 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 180
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 180
 
-**Epistemischer Status:** #bote
-**Datum:** 6. Triar 21 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 6. Triar 21 n.H.
+
 
 ## Schlagzeilen
 

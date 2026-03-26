@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Ordo Astraeli"
 category: Allgemein
 ---

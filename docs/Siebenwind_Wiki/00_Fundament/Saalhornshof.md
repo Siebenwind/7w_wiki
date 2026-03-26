@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Saalhornshof
 category: Allgemein
 status: UNGEKLAERT

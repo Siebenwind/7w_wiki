@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Finduleia Laurelin
 category: Allgemein
 status: UNGEKLAERT

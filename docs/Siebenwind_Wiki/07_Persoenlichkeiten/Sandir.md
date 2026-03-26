@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Sandir"
 category: [[index]]
 ---

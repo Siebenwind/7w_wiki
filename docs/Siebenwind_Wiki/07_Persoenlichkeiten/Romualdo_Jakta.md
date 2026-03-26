@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Romualdo Jakta"
 category: [[index]]
 ---

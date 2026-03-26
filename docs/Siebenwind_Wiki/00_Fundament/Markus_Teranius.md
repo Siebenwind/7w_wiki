@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Markus Teranius
 category: Allgemein
 status: UNGEKLAERT

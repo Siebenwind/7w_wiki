@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: index Register
 category: Index
 ---

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Kida Gilwen
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Kida Gilwen
 
-**Titel:** Gelehrte der Arkanen Zeitrechnung
-**Epistemischer Status:** #überlieferung
-**Zugehörigkeit:** unbekannt (vermutlich Elbische Herkunft oder starke elbenfreundliche Prägung)
+!!! info "Metadaten"
+    - **Titel:** Gelehrte der Arkanen Zeitrechnung
+    - **Epistemischer Status:** #überlieferung
+    - **Zugehörigkeit:** unbekannt (vermutlich Elbische Herkunft oder starke elbenfreundliche Prägung)
+
 
 ## Beschreibung
 **Kida Gilwen** ist die Verfasserin der **[[Sphaerenkunde_Kosmologie|Erweiterten Sphärentheorie]]**. Ihr Werk ist revolutionär für das Verständnis des Zeitflusses auf [[Siebenwind]]. Sie postulierte das Modell des "Sphärenbaums", in dem Entscheidungen neue Realitätszweige erschaffen.

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Kleiner Almanach übernatürlicher Wesen
 category: [[index]]
 ---
 
 # Kleiner Almanach übernatürlicher Wesen
 
-**Autor:** [[Abdolus_Nachengalle]]
-**Erscheinungsjahr:** 18 n.H.
-**Epistemischer Status:** #bote
+!!! info "Metadaten"
+    - **Autor:** [[Abdolus_Nachengalle]]
+    - **Erscheinungsjahr:** 18 n.H.
+    - **Epistemischer Status:** #bote
+
 
 ## Inhalt
 Dieser Almanach gilt als eines der fundiertesten [[index]] über die übernatürliche Flora und Fauna von [[Siebenwind]]. Dr. Nachengalle beschreibt darin detailliert Wesen wie den [[Der_Grix|Grix]], die [[Magiefresser_Wolke]] und verschiedene aquatische Schrecken.

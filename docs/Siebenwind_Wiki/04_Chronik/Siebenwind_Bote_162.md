@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a924
 title: Siebenwind Bote 162
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a924
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 162.md
 letzter_check: 2026-02-13T15:10:00+01:00
 ---
 # [[Siebenwind]] Bote 162
 
-**Epistemischer Status:** #bote
-**Datum:** 8. Seker 18 n.H. (Vierentag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 8. Seker 18 n.H. (Vierentag)
+
 
 ## Highlights
 *   **Ankunft des Schatzmeisters:** Baron von und zu **[[Gerdenwald]]**, der vom König eingesetzte Schatzmeister und Verwalter, wird für den 12. Seker auf [[Siebenwind]] erwartet. Eine große Volksversammlung auf dem Turnierplatz zu [[Falkensee]] ist geplant.

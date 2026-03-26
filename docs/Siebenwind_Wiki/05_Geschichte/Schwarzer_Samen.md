@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Schwarzer Samen
 category: [[index]]
 status: Bote
@@ -7,8 +6,10 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_173]].md
 ---
 # Schwarzer Samen
 
-**Epistemischer Status:** #bote
-**Typ:** Magisch-Religiöses Projekt / Heilungsritual
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Typ:** Magisch-Religiöses Projekt / Heilungsritual
+
 
 ## Beschreibung
 Der **Schwarze Samen** ist ein wundersames Objekt, das von der [[Ecclesia_Elementorum]] erschaffen wurde, um die Verderbnis des [[Ödland|Ödlands]] zu heilen. Er hat die Form und Größe einer schwarzen Eichel.

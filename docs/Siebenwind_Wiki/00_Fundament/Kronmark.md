@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Kronmark
 category: Allgemein
 status: UNGEKLAERT

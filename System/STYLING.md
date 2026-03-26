@@ -25,11 +25,11 @@ Das Wiki ist ein **Spezialisten-Werkzeug**, keine immersive Rollenspieldarstellu
 
 | Verzeichnis | Zweck | Git-tracked? |
 |---|---|---|
-| `docs/Siebenwind_Wiki/` | **Single Source of Truth** für alle Wiki-Inhalte. Wird von mkdocs direkt als Content-Quelle verwendet. | ✅ Ja |
+| `docs/Siebenwind_Wiki/` | Technischer Edit- und Publishing-Baum fuer Wiki-Pages. Wird von mkdocs direkt als Content-Quelle verwendet. | ✅ Ja |
 | `Quellen/` | Rohquellen (Boten, Spielergeschichten, Bibliothek). Wird per CI in `docs/Quellen/` kopiert. | ✅ Ja |
 | `docs/` | mkdocs `docs_dir` — enthält Wiki, Quellen-Kopie, Archiv und Meta-Seiten. | ✅ Ja |
 
-> **Historischer Hinweis (2026-03):** Bis Phase B der Projektreinigung existierte ein zweites `Siebenwind_Wiki/` im Wurzelverzeichnis. Die ursprüngliche Architektur nutzte Symlinks (`docs/Siebenwind_Wiki → ../Siebenwind_Wiki`), was aber mit mkdocs inkompatibel war (mkdocs folgt keinen Directory-Symlinks). `docs/Siebenwind_Wiki/` ist nun der einzige, kanonische Speicherort.
+> **Historischer Hinweis (2026-03):** Bis Phase B der Projektreinigung existierte ein zweites `Siebenwind_Wiki/` im Wurzelverzeichnis. Die ursprüngliche Architektur nutzte Symlinks (`docs/Siebenwind_Wiki → ../Siebenwind_Wiki`), was aber mit mkdocs inkompatibel war (mkdocs folgt keinen Directory-Symlinks). `docs/Siebenwind_Wiki/` ist nun der einzige technische Pflegeort fuer Wiki-Pages; epistemische Praezedenz bleibt `Homepage > Quellen > Wiki Pages`.
 
 ### 🔄 CI/CD-Pipeline (`deploy.yml`)
 - **Quellen-Sync:** `Quellen/` wird vor jedem Build physisch nach `docs/Quellen/` kopiert, da die Quellen außerhalb von `docs/` gepflegt werden.

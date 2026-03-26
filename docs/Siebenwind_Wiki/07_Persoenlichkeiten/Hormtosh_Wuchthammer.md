@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Hormtosh Wuchthammer
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Hormtosh Wuchthammer
 
-**Titel:** Priester des [[Ignis]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Ignis]] / [[Dwarschim]]
+!!! info "Metadaten"
+    - **Titel:** Priester des [[Ignis]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ordo_Ignis]] / [[Dwarschim]]
+
 
 ## Beschreibung
 **Hormtosh Wuchthammer** ist ein Zwergenpriester des Feuergottes [[Ignis]].

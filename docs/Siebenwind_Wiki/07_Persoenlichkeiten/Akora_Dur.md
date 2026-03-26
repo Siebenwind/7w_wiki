@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Akora Toran_Dur
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_167]].md
 ---
 # [[Akora]] [[Toran_Dur]]
 
-**Titel:** Händlerin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Handel]] / [[Falkensee]]
-**Zeitraum:** aktiv 19 n.H.
+!!! info "Metadaten"
+    - **Titel:** Händlerin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Handel]] / [[Falkensee]]
+    - **Zeitraum:** aktiv 19 n.H.
+
 
 ## Beschreibung
 **[[Akora]] [[Toran_Dur]]** ist eine erfolgreiche Händlerin in [[Falkensee]]. Sie ist die Tochter des berühmten Magiers **[[Toran_Dur]]**.

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Gero von Papin"
 category: [[index]]
 ---

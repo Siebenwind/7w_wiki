@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: a1b2c3d4-e5f6-4a1b-9c2d-3e4f5g6h7i8j
 title: Siebenwind Bote 171
 category: [[index]]
 status: Bote
-uuid: a1b2c3d4-e5f6-4a1b-9c2d-3e4f5g6h7i8j
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 171.md
 letzter_check: 2026-02-13T16:30:00+01:00
 ---
 # [[Siebenwind]] Bote 171
 
-**Epistemischer Status:** #bote
-**Datum:** 31. Sekar 19 n.H. (Mittentag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 31. Sekar 19 n.H. (Mittentag)
+
 
 ## Highlights
 *   **Neuer Großmeister der Ritterschaft:** Die Tafelrunde wählte **[[Siegfried_Steiner]]** einstimmig zum neuen **Großmeister** der [[Ritter_der_Sieben_Winde]] und Hochmeister des Drachenordens. Er tritt die Nachfolge von [[Aspin_Schwertklinge_von_Fahlenau]] an.

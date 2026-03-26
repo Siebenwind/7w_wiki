@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Arkane Kriegführung
 category: [[index]]
 status: integrated

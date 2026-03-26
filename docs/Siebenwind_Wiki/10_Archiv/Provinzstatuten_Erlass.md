@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Rechtsgültigkeit der Provinz-Statuten (19 n.H.)
 category: [[index]]
 ---
 
 # Rechtsgültigkeit der Provinz-Statuten (19 n.H.)
 
-**Epistemischer Status:** #bote
-**Urheber:** Baronin [[Beladriel_Blaettertanz]]
-**Datum:** 19 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Urheber:** Baronin [[Beladriel_Blaettertanz]]
+    - **Datum:** 19 n.H.
+
 
 ## Inhalt
 Dieser Erlass regelt die Hierarchie der Gesetze in der Kronmark [[Siebenwind]]. Er stellt klar, dass alle bisherigen regionalen oder provinziellen Statuten, die dem neuen **[[Statut_der_Kronmark_Siebenwind]]** widersprechen, unwirksam sind.

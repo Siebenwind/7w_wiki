@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Der Goblinkrieg
 category: [[index]]
 ---
 
 # Der Goblinkrieg
 
-**Epistemischer Status:** #bote
-**Datum:** 21 n.H. (Bote 180)
-**Ort:** [[Ödland]], [[Orkenpass]], [[Lilienwall]]
-**Beteiligte:** [[Nortraven]], [[Dwarschim]], [[Region_Malthust]], [[Löwenorden]], [[Goblins]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 21 n.H. (Bote 180)
+    - **Ort:** [[Ödland]], [[Orkenpass]], [[Lilienwall]]
+    - **Beteiligte:** [[Nortraven]], [[Dwarschim]], [[Region_Malthust]], [[Löwenorden]], [[Goblins]]
+
 
 ## Verlauf
 [[Goblins]] aus dem [[Ödland]] errichteten Lager am Orkenpass und im ehemaligen Lehen Lilienwall. Eine Allianz aus [[Nortraven]], Dwarschim, Malthustern und dem Löwenorden griff die Lager in mehreren Schlachten an.

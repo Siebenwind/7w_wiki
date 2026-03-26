@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Vorfall im Haus Thar'Sala
 category: [[index]]
 ---
 
 # Vorfall im Haus Thar'Sala
 
-**Epistemischer Status:** #bote
-**Datum:** ca. 15 n.H. (Bote 120, Querlar)
-**Ort:** [[Brandenstein]] (Ostteil)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** ca. 15 n.H. (Bote 120, Querlar)
+    - **Ort:** [[Brandenstein]] (Ostteil)
+
 
 ## Verlauf
 Das Elfenhaus "Thar'Sala" wurde vom [[Lehensbanner]] abgeriegelt und durchsucht.

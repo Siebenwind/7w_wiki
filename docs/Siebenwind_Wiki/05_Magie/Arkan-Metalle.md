@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Arkan-Metalle
 category: [[index]]
 status: integrated

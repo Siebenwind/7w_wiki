@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Briefe aus der Ferne"
 category: Geschichte
 ---

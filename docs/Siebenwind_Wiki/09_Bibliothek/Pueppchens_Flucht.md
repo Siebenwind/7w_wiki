@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Püppchens Flucht
 category: [[index]]
-tags: [Erzählung, [[Seeberg]], Püppchen, Drama]
 status: #perspektive
+tags: [Erzählung, [[Seeberg]], Püppchen, Drama]
 ---
 
 # Püppchens Flucht

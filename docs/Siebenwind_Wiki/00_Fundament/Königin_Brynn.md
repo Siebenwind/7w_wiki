@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Koenigin Brynn
 category: Allgemein
 status: UNGEKLAERT

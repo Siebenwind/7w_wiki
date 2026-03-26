@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Mazzareem
 category: Allgemein
 status: UNGEKLAERT

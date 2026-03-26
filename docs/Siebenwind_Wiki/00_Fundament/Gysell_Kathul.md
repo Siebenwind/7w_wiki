@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Gysell Kathul
 category: Allgemein
 status: UNGEKLAERT

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Koenigliche Armee
 category: Allgemein
 status: UNGEKLAERT

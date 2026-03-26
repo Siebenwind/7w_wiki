@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 5f6a7b8c-9d0e-4f1a-2b3c-4d5e6f7a8b9c
 title: Ruodrik
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 # Ruodrik
 
-**Titel:** Wohlgeboren / Rätselkönig
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Adel / [[Seeberg]] (vermutet)
+!!! info "Metadaten"
+    - **Titel:** Wohlgeboren / Rätselkönig
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Adel / [[Seeberg]] (vermutet)
+
 
 ## Beschreibung
 **Ruodrik**, betitelt als "Wohlgeboren", ist als talentierter Rätsellöser und Teilnehmer an höfischen Spielen im Jahr 19 n.H. bekannt (Bote 164).

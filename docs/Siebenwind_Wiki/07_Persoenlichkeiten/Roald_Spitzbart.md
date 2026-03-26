@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Roald Spitzbart
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_167]].md
 ---
 # Roald Spitzbart
 
-**Titel:** Bürger / Kandidat zum Hafenvogt
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]]
-**Zeitraum:** aktiv 19 n.H.
+!!! info "Metadaten"
+    - **Titel:** Bürger / Kandidat zum Hafenvogt
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Brandenstein]]
+    - **Zeitraum:** aktiv 19 n.H.
+
 
 ## Beschreibung
 **Roald Spitzbart** ist ein engagierter Bürger aus [[Brandenstein]], der sich für eine strukturierte und gemeinschaftsorientierte Verwaltung der Siedlung einsetzt.

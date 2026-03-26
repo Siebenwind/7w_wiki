@@ -1,6 +1,5 @@
 ---
-layout: wiki_page
-title: Chronik
+title: "Siebenwind Wiki - Chronik"
 ---
 
 # [[Siebenwind]] Wiki - Chronik

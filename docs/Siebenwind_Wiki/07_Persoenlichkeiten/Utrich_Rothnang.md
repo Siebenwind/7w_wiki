@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Utrich Rothnang
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_154]].md
 ---
 # Utrich Rothnang
 
-**Titel:** Magier
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Magierakademie]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Magier
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Magierakademie]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Wirken
 *   **18 n.H. (Bote 154):** Er steckte zwei Löwenritter auf dem Marktplatz in Brand, weil sie einen Farbbottich nicht freigaben. Wenige Tage später rettete er jedoch den stellvertretenden Waffenmeister des Löwenordens, [[Tyrus_Helbas]], und [[Lantea_Greifenstein]] vor einem Spinnenmonster nahe dem Tempel, indem er die Kreatur schwächte.

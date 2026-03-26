@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 130
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 130
 
-**Epistemischer Status:** #bote
-**Datum:** 21. Oner 16 n.H.
-**Redaktion:** SvS / GN / B.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 21. Oner 16 n.H.
+    - **Redaktion:** SvS / GN / B.
+
 
 ## Schlagzeilen
 

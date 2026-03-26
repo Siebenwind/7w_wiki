@@ -1,9 +1,11 @@
 ---
-layout: wiki_page
 title: "Irindal"
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "Die Legende von Galahad, Ritter der Rosen"
+owner: UNASSIGNED
+review_until: 2026-09-22
+reason: legacy_stub
 ---
 
 # Irindal

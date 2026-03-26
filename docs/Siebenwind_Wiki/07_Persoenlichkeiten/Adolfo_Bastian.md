@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Adolfo Bastian
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_160]].md
 ---
 # Adolfo Bastian
 
-**Titel:** Völkerkundler / Gelehrter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Wissenschaftliche Kreise
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Völkerkundler / Gelehrter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Wissenschaftliche Kreise
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Adolfo Bastian** ist ein draconischer Völkerkundler, der durch seine unkonventionellen Thesen zur zwergischen Anatomie bekannt wurde.

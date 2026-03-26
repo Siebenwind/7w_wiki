@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Zacharias Cana
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_139]].md
 ---
 # Zacharias Cana
 
-**Titel:** Knappe
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Lehensbanner]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Knappe
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Lehensbanner]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Zacharias Cana** ist ein Knappe im Dienste des Lehensbanners. Er ist bekannt für seine Disziplin und seinen Mut in Schlachten gegen übernatürliche Bedrohungen.

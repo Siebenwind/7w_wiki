@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Rückkehr von König Hilgorad
 category: [[index]]
 ---
 
 # Rückkehr von König Hilgorad
 
-**Epistemischer Status:** #bote
-**Datum:** 29 n.H. (Bote 190)
-**Beteiligte:** [[Hilgorad_I_ap_Mer]], [[Orks]], [[Nortraven]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 29 n.H. (Bote 190)
+    - **Beteiligte:** [[Hilgorad_I_ap_Mer]], [[Orks]], [[Nortraven]]
+
 
 ## Verlauf
 Nach drei Jahren Ungewissheit wurde bestätigt, dass König **[[Hilgorad_I_ap_Mer]]** lebt.

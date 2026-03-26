@@ -24,6 +24,10 @@ import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str((Path(__file__).resolve().parents[2] / "scripts")))
+
+from content_contract import TECHNICAL_WIKI_ROOT
+
 # --- Dependency-Check ---
 try:
     import chromadb
@@ -131,7 +135,7 @@ SOURCE_CONFIG = {
         "collection": "siebenwind_wiki",
         "paths": [
             {
-                "dir": REPO_ROOT / "Siebenwind_Wiki",
+                "dir": TECHNICAL_WIKI_ROOT,
                 "level": "wiki",
                 "label": "📖 WIKI"
             }
@@ -140,7 +144,7 @@ SOURCE_CONFIG = {
 }
 
 REGISTER_CORPORA = [
-    ("wiki", REPO_ROOT / "Siebenwind_Wiki"),
+    ("wiki", TECHNICAL_WIKI_ROOT),
     ("quellen", REPO_ROOT / "Quellen"),
     ("system", REPO_ROOT / "System"),
     ("docs", REPO_ROOT / "docs"),

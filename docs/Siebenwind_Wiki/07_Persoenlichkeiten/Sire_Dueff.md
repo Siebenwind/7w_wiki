@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Sire Dueff
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_165]].md
 ---
 # Sire Dueff
 
-**Titel:** Ritter / Lehnsherr von [[Südfall]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritterschaft_der_Sieben_Winde]] / [[Südfall]]
-**Zeitraum:** aktiv 19 n.H.
+!!! info "Metadaten"
+    - **Titel:** Ritter / Lehnsherr von [[Südfall]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ritterschaft_der_Sieben_Winde]] / [[Südfall]]
+    - **Zeitraum:** aktiv 19 n.H.
+
 
 ## Beschreibung
 **Sire Dueff** ist der Lehnsherr des Unterlehens **[[Südfall]]** auf der Insel [[Siebenwind]]. Er ist ein verdienter Ritter der Gemeinschaft.

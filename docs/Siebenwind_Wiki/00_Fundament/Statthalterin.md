@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Statthalterin
 category: Allgemein
 status: UNGEKLAERT

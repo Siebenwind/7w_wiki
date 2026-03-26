@@ -1,13 +1,14 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 181
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 181
 
-**Epistemischer Status:** #bote
-**Datum:** 21. Querler 21 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 21. Querler 21 n.H.
+
 
 ## Schlagzeilen
 

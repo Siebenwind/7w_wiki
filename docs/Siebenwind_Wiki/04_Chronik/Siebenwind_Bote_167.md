@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: d89c1234-5678-4321-abcd-ef9876543210
 title: Siebenwind Bote 167
 category: [[index]]
 status: Bote
-uuid: d89c1234-5678-4321-abcd-ef9876543210
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 167.md
 letzter_check: 2026-02-13T15:35:00+01:00
 ---
 # [[Siebenwind]] Bote 167
 
-**Epistemischer Status:** #bote
-**Datum:** 13. Carmer 19 n.H. (Königstag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 13. Carmer 19 n.H. (Königstag)
+
 
 ## Highlights
 *   **Hafenvogtwahl in [[Brandenstein]]:** Baronin [[Beladriel_Blaettertanz]] hat zur Wahl des Hafenvogtes aufgerufen. Die Kandidaten sind die amtierende **[[Marnie_Ruatha]]**, **[[Roald_Spitzbart]]** und **[[Lyrius_Telrunya]]**. Die Wahlprogramme reichen von wirtschaftlicher Sicherung bis zur Bildung eines Ältestenrates.

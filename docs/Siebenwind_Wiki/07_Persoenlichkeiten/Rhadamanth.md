@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Rhadamanth
 category: [[Persoenlichkeiten_Uebersicht]]
-quelle: [Linari - Reagenzien]
 status: #überlieferung
+quelle: [Linari - Reagenzien]
 ---
 
 # Rhadamanth

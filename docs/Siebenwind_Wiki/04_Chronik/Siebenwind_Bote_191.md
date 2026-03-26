@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a905
 title: Siebenwind Bote 191
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a905
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 191.md
 letzter_check: 2026-02-13T01:10:00+01:00
 ---
 # [[Siebenwind]] Bote 191
 
-**Epistemischer Status:** #bote
-**Datum:** 6. Querler 30 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 6. Querler 30 n.H.
+
 
 ## Überblick
 Diese Sonderausgabe befasst sich primär mit einer göttlichen Offenbarung während des Lichthochs in [[Brandenstein]] und der akuten Bedrohung durch die Lindwürmer.

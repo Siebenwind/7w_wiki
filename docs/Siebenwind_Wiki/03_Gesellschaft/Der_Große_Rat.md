@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Der Große Rat
 category: [[Gesellschaft]]
 ---

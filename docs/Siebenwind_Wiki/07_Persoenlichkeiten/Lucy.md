@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Lucy
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Lucy
 
-**Titel:** Vogtin von [[Finsterwangen]] / Provinzrichterin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Finsterwangen]] / [[Inselrat]]
+!!! info "Metadaten"
+    - **Titel:** Vogtin von [[Finsterwangen]] / Provinzrichterin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Finsterwangen]] / [[Inselrat]]
+
 
 ## Beschreibung
 **Lucy** ist die Vogtin von [[Finsterwangen]] (ernannt Ende 29 n.H.). Sie trat die Nachfolge von [[Vex]] an und vereint nun die Ämter der Provinzrichterin und der Vogtin in Personalunion. 

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Elementarlehre Luft
 category: Allgemein
 status: UNGEKLAERT

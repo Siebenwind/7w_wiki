@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Al-Barlis-Nekor
 category: Persönlichkeit
 ---
 
 # Al-Barlis-Nekor
 
-**Titel:** Waffenhändler, Sklavenbesitzer
-**Epistemischer Status:** #perspektive
-**Zugehörigkeit:** As-Ashrun / Handelsinteressen in [[Falkensee]]
-**Zeitraum:** Aktiv ([[Dunkeltief]]-Reise nach Falkenstein)
+!!! info "Metadaten"
+    - **Titel:** Waffenhändler, Sklavenbesitzer
+    - **Epistemischer Status:** #perspektive
+    - **Zugehörigkeit:** As-Ashrun / Handelsinteressen in [[Falkensee]]
+    - **Zeitraum:** Aktiv ([[Dunkeltief]]-Reise nach Falkenstein)
+
 
 ## Beschreibung
 Al-Barlis-Nekor ist ein fettleibiger, in teure Seidengewänder gekleideter Kaufmann aus der Stadt **As-Ashrun**. Er gilt als Inbegriff von Gier und Rücksichtslosigkeit. Sein Reichtum gründet sich auf Waffenhandel, Sklavenhaltung und den systematischen Betrug an Kunden und Untergebenen.

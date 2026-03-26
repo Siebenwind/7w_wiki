@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Seiltaenzer
 category: Allgemein
 status: UNGEKLAERT

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Höhere Wesenheiten
 category: [[index]]
 status: integrated

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Galadon"
 category: Allgemein
 ---

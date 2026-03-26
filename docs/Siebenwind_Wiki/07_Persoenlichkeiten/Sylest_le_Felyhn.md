@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Sylest le Felyhn
 category: Persönlichkeit
-quelle: "[[Vjera_Batama_Magica]]"
 status: "#überlieferung"
+quelle: "[[Vjera_Batama_Magica]]"
 ---
 
 # Sylest le Felyhn

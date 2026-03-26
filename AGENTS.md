@@ -10,7 +10,11 @@ You are operating on the **Siebenwind Wiki**, a 20-year-old collaborative world-
 ## 📜 The Golden Rules (Non-Negotiable)
 
 1.  **Runtime Authority**: The **ONLY** executable interface is `./7w_wiki.py`. Do not create custom scripts or use `sed`/`awk` for complex logic.
-2.  **Epistemic Integrity**: Never hallucinate lore. If information is missing, use tags like `[UNGEKLÄRT]`.
+2.  **Epistemic Integrity**:
+    -   Never hallucinate lore. If information is missing, use tags like `[UNGEKLÄRT]`.
+    -   **Epistemic precedence is `Homepage > Quellen > Wiki Pages`.**
+    -   `docs/Siebenwind_Wiki/` is the technical edit tree and publishing-facing page tree, not the highest epistemic authority.
+    -   Die kanonische Vollregel fuer Drift, Pages und Praezedenz steht in [SY_DRIFT_PAGES_CONTRACT.md](System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 3.  **Link Hygiene**:
     -   **NO** absolute paths (`file://`).
     -   Use `[[WikiLinks]]` for knowledge base articles.
@@ -35,6 +39,17 @@ You are operating on the **Siebenwind Wiki**, a 20-year-old collaborative world-
     -   Fix links to canonical targets first.
     -   Do not ship generic bridge/stub pages as final repairs.
     -   Temporary bridge exceptions require lifecycle metadata (`bridge_mode`, `bridge_target`, `bridge_ticket`, `bridge_review_until`).
+
+<!-- BEGIN GENERATED DRIFT CONTRACT REFERENCE -->
+> Generated reference block. The surrounding narrative text remains manually maintained.
+> Canonical contract: [SY_DRIFT_PAGES_CONTRACT.md](System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md)
+>
+> - Epistemic precedence: `Homepage > Quellen > Wiki Pages`.
+> - `docs/Siebenwind_Wiki/` is the technical edit/publish tree, not the highest truth source.
+> - Technical drift is validated via `./7w_wiki.py sanitize`, `./7w_wiki.py audit`, and `./7w_wiki.py pages validate --json [--strict-links]`.
+> - `--strict` hardens the MkDocs build; `--strict-links` is the hard unresolved-link gate.
+> - Generated command registries are synced by `./7w_wiki.py tech --sync-docs` / `--sync-interop`; narrative rules live in the canonical contract.
+<!-- END GENERATED DRIFT CONTRACT REFERENCE -->
 
 ## 🛠️ Command Registry (Executable Capabilities)
 
@@ -79,6 +94,7 @@ Use `./7w_wiki.py <command>` for all operations.
 ## 📂 Documentation Map
 
 -   **Governance**: [SY_INTEROP.md](System/Synapse_Board/SY_INTEROP.md) (Interop Standards)
+-   **Drift-/Pages-Vertrag**: [SY_DRIFT_PAGES_CONTRACT.md](System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md)
 -   **Coordination**: [COORDINATION_HUB.md](System/COORDINATION_HUB.md) (Registry)
 -   **Operations Overview**: [AGENT_OPERATIONS_HANDBOOK.md](System/AGENT_OPERATIONS_HANDBOOK.md) (Agents, Skills, Workflows, Dispatch)
 -   **Testing Protocol**: [SY_TESTING.md](System/Synapse_Board/SY_TESTING.md) (Suites, Defect-Flow, Agent Mentality)
@@ -111,17 +127,20 @@ Maintainer note:
 1.  **Onboard**: Run `./7w_wiki.py start`, `./7w_wiki.py advisor`, and `./7w_wiki.py mail inbox --status OPEN` first. Read the latest `Logs/Archive/SESSION_MEMORY_*.md` before starting new work.
 2.  **Plan**: Check `MASTER_TASK_LIST.md` and `task.md` (if available).
 3.  **Execute**: Use `7w_wiki.py` tools. Do NOT edit `7w_wiki.py` unless assigned to "DevOps". Send status heartbeats via `mail post` on long tasks and route contradictions as specialist questions (question-first).
+    Classify lore drift before editing: homepage drift, Quellen drift, or wiki-page drift. Reconcile against higher-precedence sources first; only then treat wiki-page edits as resolved.
     Bundle archives under `dist/` are release/build artifacts, not repo truth. Create them locally or via GitHub Releases, but do not commit them.
-4.  **Verify**: Run `./7w_wiki.py audit`, `./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-command-registry`, `./7w_wiki.py test --suite codex-workflow-bridges`, `./7w_wiki.py test --suite workflow-matrix-contract`, `./7w_wiki.py test --suite tool-manifest-contract`, `./7w_wiki.py test --suite pages-link-contract`, `./7w_wiki.py test --suite bridge-placeholder-guard`, and `./7w_wiki.py test --suite reader-stats-contract` before committing.
-   If the published site or docs navigation changed, also run `./7w_wiki.py pages validate --json`.
+4.  **Verify**: Run `./7w_wiki.py audit`, `./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-command-registry`, `./7w_wiki.py test --suite codex-workflow-bridges`, `./7w_wiki.py test --suite workflow-matrix-contract`, `./7w_wiki.py test --suite tool-manifest-contract`, `./7w_wiki.py test --suite pages-link-contract`, `./7w_wiki.py test --suite bridge-placeholder-guard`, `./7w_wiki.py test --suite reader-stats-contract`, `./7w_wiki.py test --suite content-contract`, `./7w_wiki.py test --suite split-brain-guard`, and `./7w_wiki.py test --suite render-hygiene` before committing.
+   If the published site or docs navigation changed, also run `./7w_wiki.py pages validate --json` and align the result with [SY_DRIFT_PAGES_CONTRACT.md](System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 5.  **Log**: Update `CHANGELOG.md` or `Logs/` as appropriate. End each session with `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` and reference it via `./7w_wiki.py mail post`.
 
 ## 🔎 Oracle Source Policy
 
 For any non-trivial research, run the Oracle with explicit source scope:
-- `--source wiki` for curated wiki facts
+- `--source wiki` for derived wiki pages in `docs/Siebenwind_Wiki/`
 - `--source quellen` for raw source corpus
 - `--source all` for combined cross-checking
+
+Rule: when factual conflicts exist, Homepage and Quellen govern. Wiki pages are maintained derivatives and must be reconciled upward, not treated as the tie-breaker.
 
 ---
 

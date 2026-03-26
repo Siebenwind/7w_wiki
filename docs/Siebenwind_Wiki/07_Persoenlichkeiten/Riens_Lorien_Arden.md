@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Riens Lorien Arden
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_173]].md
 ---
 # Riens Lorien Arden
 
-**Titel:** Hohepriester
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ecclesia_Elementorum]] / [[Nithavela]]
-**Zeitraum:** aktiv ab 20 n.H.
+!!! info "Metadaten"
+    - **Titel:** Hohepriester
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ecclesia_Elementorum]] / [[Nithavela]]
+    - **Zeitraum:** aktiv ab 20 n.H.
+
 
 ## Beschreibung
 **Riens Lorien Arden** ist ein Hohepriester der [[Ecclesia_Elementorum]]. Er ist eine führende Figur bei den Bemühungen zur Heilung der Insel.

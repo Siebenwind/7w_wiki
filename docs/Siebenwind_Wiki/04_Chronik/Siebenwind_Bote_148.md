@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a910
 title: Siebenwind Bote 148
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a910
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 148.md
 letzter_check: 2026-02-13T01:55:00+01:00
 ---
 # [[Siebenwind]] Bote 148
 
-**Epistemischer Status:** #bote
-**Datum:** 21. Trier 17 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 21. Trier 17 n.H.
+
 
 ## Highlights
 *   **Die Inquisition:** Der Prinz von [[Vandrien]] traf als Großinquisitor ein, um gegen Häresie vorzugehen. Er exekutierte öffentlich einen Ketzer in [[Falkensee]]. Seine Ankunft signalisiert das Ende des Feldzugs gegen die **Razieltreuen** Rebellen.

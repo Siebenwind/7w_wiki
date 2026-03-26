@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Inselpatrizier
 category: Allgemein
 status: UNGEKLAERT

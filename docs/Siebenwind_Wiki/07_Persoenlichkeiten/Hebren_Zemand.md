@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Hebren Zemand
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Hebren Zemand
 
-**Titel:** Stadtkonsula (Beamtenstand)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Falkensee]] / Stadtverwaltung
+!!! info "Metadaten"
+    - **Titel:** Stadtkonsula (Beamtenstand)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Falkensee]] / Stadtverwaltung
+
 
 ## Beschreibung
 **Hebren Zemand** diente lange Zeit als Secretaria im Rathaus von [[Falkensee]], bevor sie nach dem Rücktritt von [[Noalim_al_Achid]] kommissarisch die Leitung übernahm. Im Jahr 21 n.H. (Bote 180) wurde sie offiziell in den Beamtenstand erhoben und zur **Stadtkonsula** ernannt.

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Region Vandrien
 category: Index
 author: [[Siebenwind]] Chronicler

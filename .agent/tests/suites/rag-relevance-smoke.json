@@ -22,7 +22,7 @@
       "name": "Query Dunvallo Linari retrieves core person article",
       "cmd": ["./7w_wiki.py", "search", "Dunvallo Linari", "--source", "wiki"],
       "expect_exit": 0,
-      "expect_stdout": ["Siebenwind_Wiki/07_Persoenlichkeiten/Dunvallo_Linari.md"],
+      "expect_stdout": ["docs/Siebenwind_Wiki/07_Persoenlichkeiten/Dunvallo_Linari.md"],
       "forbid_stderr": ["Traceback"],
       "max_duration_sec": 120
     },
@@ -31,7 +31,7 @@
       "name": "Query Matrixtheorie Linari retrieves matrix article",
       "cmd": ["./7w_wiki.py", "search", "Matrixtheorie Linari", "--source", "wiki"],
       "expect_exit": 0,
-      "expect_stdout": ["Siebenwind_Wiki/05_Magie/Matrixtheorie_Linari.md"],
+      "expect_stdout": ["docs/Siebenwind_Wiki/05_Magie/Matrixtheorie_Linari.md"],
       "forbid_stderr": ["Traceback"],
       "max_duration_sec": 120
     },
@@ -40,7 +40,7 @@
       "name": "Query Reagenzien Lehre Linari retrieves reagent article",
       "cmd": ["./7w_wiki.py", "search", "Reagenzien Lehre Linari", "--source", "wiki"],
       "expect_exit": 0,
-      "expect_stdout": ["Siebenwind_Wiki/05_Magie/Reagenzien_Lehre.md"],
+      "expect_stdout": ["docs/Siebenwind_Wiki/05_Magie/Reagenzien_Lehre.md"],
       "forbid_stderr": ["Traceback"],
       "max_duration_sec": 120
     }

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Kunst und Kultur
 category: Allgemein
 status: UNGEKLAERT

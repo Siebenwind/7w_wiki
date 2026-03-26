@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Bellum
 category: [[index]]
 tags: [Gott, Sahor, Krieg, Handwerk, Ehre, Herbst]

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Urmagie
 category: Allgemein
 status: UNGEKLAERT

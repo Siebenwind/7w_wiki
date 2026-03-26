@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Waldelfen
 category: Allgemein
 status: UNGEKLAERT

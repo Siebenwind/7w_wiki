@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f
 title: Herr Distelstein
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 # Herr Distelstein
 
-**Titel:** Bürger
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Zivilbevölkerung / [[Brandenstein]] (vermutet)
+!!! info "Metadaten"
+    - **Titel:** Bürger
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Zivilbevölkerung / [[Brandenstein]] (vermutet)
+
 
 ## Beschreibung
 **Herr Distelstein** ist ein Bürger, der im Jahr 15 n.H. in den Chroniken als Anwohner oder Zeugnisgeber erwähnt wird (Bote 144).

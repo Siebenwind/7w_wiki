@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Tintin
 category: Allgemein
 status: UNGEKLAERT

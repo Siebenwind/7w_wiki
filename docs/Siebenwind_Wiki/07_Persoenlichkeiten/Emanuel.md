@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
 title: Emanuel
 category: Persönlichkeit
 ---
 
 # Emanuel
 
-**Titel:** Soldat der Malthuster Armee (Löwenorden-nah)
-**Epistemischer Status:** #perspektive
-**Lebensstatus:** Gefallen (†)
-**Zugehörigkeit:** Malthuster Armee / Volk der [[Rasse_Menschen]]
-**Zeitraum:** Gefallen ca. 30 n.H.
+!!! info "Metadaten"
+    - **Titel:** Soldat der Malthuster Armee (Löwenorden-nah)
+    - **Epistemischer Status:** #perspektive
+    - **Lebensstatus:** Gefallen (†)
+    - **Zugehörigkeit:** Malthuster Armee / Volk der [[Rasse_Menschen]]
+    - **Zeitraum:** Gefallen ca. 30 n.H.
+
 
 ## Beschreibung
 Emanuel war ein loyaler Soldat, der oft an der Seite von **[[Sorania]]** kämpfte. Er war bekannt für seine Standhaftigkeit und seinen Glauben an die Viere.

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Gropp
 category: Allgemein
 status: UNGEKLAERT

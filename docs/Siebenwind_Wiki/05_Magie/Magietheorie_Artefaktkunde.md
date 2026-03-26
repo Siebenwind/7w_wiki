@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Magietheorie - Artefaktkunde (Dunvallo_Linari)
 category: [[index]]
 status: integrated
@@ -8,9 +7,11 @@ quelle: "/Quellen/Bibliothek Toran Dur/Dunvallo Linari - Artefakte.md"
 
 # Magietheorie - Artefaktkunde ([[Dunvallo_Linari]])
 
-**Epistemischer Status:** #überlieferung
-**Autor:** Erzmagus [[Dunvallo_Linari]]
-**Datum:** ca. 3 n.H. (bearbeitet von [[Santanos_Alexandrius_von_Eichstatt]])
+!!! info "Metadaten"
+    - **Epistemischer Status:** #überlieferung
+    - **Autor:** Erzmagus [[Dunvallo_Linari]]
+    - **Datum:** ca. 3 n.H. (bearbeitet von [[Santanos_Alexandrius_von_Eichstatt]])
+
 
 Die Artefaktkunde befasst sich mit der dauerhaften Bindung magischer Wirkmuster in leblose Materie. Da Gegenstände im Gegensatz zu Lebewesen keine eigene Matrix besitzen, müssen künstliche Hilfskonstrukte geschaffen werden.
 

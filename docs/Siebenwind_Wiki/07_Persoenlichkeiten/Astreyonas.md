@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Astreyonas
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Astreyonas
 
-**Titel:** Prinz von [[Sae]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Sae]] (Galadonien) / [[Tiefenwald]]
+!!! info "Metadaten"
+    - **Titel:** Prinz von [[Sae]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Sae]] (Galadonien) / [[Tiefenwald]]
+
 
 ## Beschreibung
 **Astreyonas** ist der Sohn von Herzog Bellodor von [[Sae]].

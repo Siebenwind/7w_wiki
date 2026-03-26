@@ -1,10 +1,12 @@
 ---
-layout: wiki_page
 title: "Gimbart Galdora"
 category: [[Persoenlichkeiten_Uebersicht]]
 status: stub
 quelle: "/Quellen/Spielergeschichten/Studenten – WG.md"
 author: "Antigravity"
+owner: UNASSIGNED
+review_until: 2026-09-22
+reason: legacy_stub
 ---
 
 # Gimbart Galdora

@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Dimiona
 category: Persönlichkeit
-quelle: "[Die Foki]"
 status: "#überlieferung"
+quelle: "[Die Foki]"
 ---
 
 # Dimiona

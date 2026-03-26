@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Baron Morgenroith
 category: Persönlichkeit
-quelle: "[[Iuribus_Siebenwind]]"
 status: "#überlieferung"
+quelle: "[[Iuribus_Siebenwind]]"
 ---
 
 # Baron Morgenroith

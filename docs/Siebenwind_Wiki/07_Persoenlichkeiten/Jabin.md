@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Jabin
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_161]].md
 ---
 # Jabin
 
-**Titel:** Magister / Leiter des Hospizes / Grauer Gardist
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Magierakademie]] / [[Graue_Garde]] / [[Communis_Medici]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Magister / Leiter des Hospizes / Grauer Gardist
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Magierakademie]] / [[Graue_Garde]] / [[Communis_Medici]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Magister Jabin** ist ein Mitglied der [[Graue_Garde|Grauen Garde]] und Leiter des städtischen Hospizes in [[Falkensee]].

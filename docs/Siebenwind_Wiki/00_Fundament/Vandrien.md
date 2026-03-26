@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Vandrien
 category: Allgemein
 status: UNGEKLAERT

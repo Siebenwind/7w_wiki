@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Vater Custodias
 category: Allgemein
 status: UNGEKLAERT

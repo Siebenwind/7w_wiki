@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 194
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 194
 
-**Epistemischer Status:** #bote
-**Datum:** 7. Onar 36 n.H.
-**Redaktion:** [[Alricio_Romero_di_Madjani]] (ARdM)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 7. Onar 36 n.H.
+    - **Redaktion:** [[Alricio_Romero_di_Madjani]] (ARdM)
+
 
 ## Schlagzeilen
 

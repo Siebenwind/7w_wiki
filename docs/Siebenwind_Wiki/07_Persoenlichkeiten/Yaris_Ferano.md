@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Yaris Ferano
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_152]].md
 ---
 # Yaris Ferano
 
-**Titel:** Bergbauverwalter / Leiter des Freien Handelskontors?
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Siedlung [[Brandenstein]] / Ortsrat
-**Zeitraum:** aktiv 17 n.H.
+!!! info "Metadaten"
+    - **Titel:** Bergbauverwalter / Leiter des Freien Handelskontors?
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Siedlung [[Brandenstein]] / Ortsrat
+    - **Zeitraum:** aktiv 17 n.H.
+
 
 ## Beschreibung
 **Yaris Ferano** (auch Yanis Ferano, Bote 151) ist für die Bergbauverwaltung im Ortsrat von [[Brandenstein]] zuständig (zusammen mit [[Rebecca_Gruenenberg]]).

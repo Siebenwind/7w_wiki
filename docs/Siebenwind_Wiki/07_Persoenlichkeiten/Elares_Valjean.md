@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Elares Valjean
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Elares Valjean
 
-**Titel:** Aufrührer (gesucht)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Unbekannt / (Gegner der Ordnung)
+!!! info "Metadaten"
+    - **Titel:** Aufrührer (gesucht)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Unbekannt / (Gegner der Ordnung)
+
 
 ## Beschreibung
 **Elares Valjean** wurde im Jahr 15 n.H. (Bote 122) von Marschall [[Mael_Duin]] als "Aufrührer gegen die göttergewollte Ordnung" bezeichnet.

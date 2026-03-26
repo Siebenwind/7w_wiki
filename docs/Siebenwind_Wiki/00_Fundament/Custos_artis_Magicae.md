@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Custos artis Magicae
 category: Allgemein
 status: UNGEKLAERT

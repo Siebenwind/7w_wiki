@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lehensverwaltung
 category: Allgemein
 status: UNGEKLAERT

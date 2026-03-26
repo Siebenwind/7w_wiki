@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Hilgorad I. ap Mer
 category: Persönlichkeit
 ---
 
 # Hilgorad I. ap Mer
 
-**Titel:** König von [[Galadonien]], Heredon, [[Endophal]], den Nordlanden und [[Siebenwind]], Protektor Falandriens
-**Epistemischer Status:** #canon / #bote
-**Zugehörigkeit:** [[Galadonien]] / [[Haus_ap_Mer]]
-**Zeitraum:** Amtierend (ca. 15-30 n.H.)
+!!! info "Metadaten"
+    - **Titel:** König von [[Galadonien]], Heredon, [[Endophal]], den Nordlanden und [[Siebenwind]], Protektor Falandriens
+    - **Epistemischer Status:** #canon / #bote
+    - **Zugehörigkeit:** [[Galadonien]] / [[Haus_ap_Mer]]
+    - **Zeitraum:** Amtierend (ca. 15-30 n.H.)
+
 
 ## Beschreibung
 **Hilgorad I. ap Mer** ist der amtierende Großkönig und die zentrale Autorität des galadonischen Reiches. Er entstammt dem **Haus Mer**, dem derzeit mächtigsten der sechs verbliebenen Königsgeschlechter Falandriens. Sein Herrschaftsstil gilt als traditionell, gottesfürchtig und ordnungsbetont. In der Atmosphäre seines Hofes mischt sich das kühle Kalkül eines Strategen mit dem Prunk der alten Monarchie.

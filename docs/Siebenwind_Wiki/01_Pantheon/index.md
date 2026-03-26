@@ -1,6 +1,5 @@
 ---
-layout: wiki_page
-title: Pantheon
+title: "Siebenwind Wiki - Pantheon"
 ---
 
 # [[Siebenwind]] Wiki - Pantheon

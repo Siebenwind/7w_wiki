@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a
 title: Buergerwehr
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Buergerwehr
 
-**Titel:** Siedlungsmiliz
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Lokale Siedlungen / Verteidigung
+!!! info "Metadaten"
+    - **Titel:** Siedlungsmiliz
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Lokale Siedlungen / Verteidigung
+
 
 ## Beschreibung
 Die **Buergerwehr** wird im [[Personenregister]] als kollektives Subjekt oder Personifizierung einer Siedlungsmiliz geführt, die im Jahr 19 n.H. aktiv war (Bote 168).

@@ -1,18 +1,19 @@
 ---
-layout: wiki_page
+uuid: 0culu5-3ccl351a3-secret
 title: Oculus Ecclesiae
 category: [[index]]
-uuid: 0culu5-3ccl351a3-secret
 quelle: ../../Quellen/Spielergeschichten/[[Blutschwert]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
 letzter_check: 2026-02-13T23:00:00
 ---
 
 # Oculus Ecclesiae
 
-**Epistemischer Status:** #perspektive
-**Typ:** Geheimbund / Geheimdienst
-**Zugehörigkeit:** [[Ecclesia]] (Viergöttliche Kirche)
-**Sitz:** Unbekannt (agiert überregional)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Typ:** Geheimbund / Geheimdienst
+    - **Zugehörigkeit:** [[Ecclesia]] (Viergöttliche Kirche)
+    - **Sitz:** Unbekannt (agiert überregional)
+
 
 ## Überblick
 Die "Oculus Ecclesiae" (Das Auge der Kirche) ist ein im Verborgenen agierender Bund innerhalb der [[Ecclesia]]. Ihre Aufgabe ist es, Probleme zu lösen, die mit konventionellen oder legalen Mitteln der Kirche nicht zu bewältigen sind. Sie agiert oft am Rande der Legalität und wird von Kritikern als "Meuchelmörder-Zirkel" der Kirche bezeichnet.

@@ -23,6 +23,17 @@ description: Zentraler Startpunkt & Entscheidungshilfe für neue Agenten
 
 Willkommen, Oberarchivar. Du stehst vor dem gewaltigen Wissen von 20 Jahren Siebenwind. Dieser Workflow hilft dir, dich zu orientieren und die nächsten Schritte zu wählen.
 
+<!-- BEGIN GENERATED DRIFT CONTRACT REFERENCE -->
+> Generated reference block. The surrounding narrative text remains manually maintained.
+> Canonical contract: [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md)
+>
+> - Epistemic precedence: `Homepage > Quellen > Wiki Pages`.
+> - `docs/Siebenwind_Wiki/` is the technical edit/publish tree, not the highest truth source.
+> - Technical drift is validated via `./7w_wiki.py sanitize`, `./7w_wiki.py audit`, and `./7w_wiki.py pages validate --json [--strict-links]`.
+> - `--strict` hardens the MkDocs build; `--strict-links` is the hard unresolved-link gate.
+> - Generated command registries are synced by `./7w_wiki.py tech --sync-docs` / `--sync-interop`; narrative rules live in the canonical contract.
+<!-- END GENERATED DRIFT CONTRACT REFERENCE -->
+
 ## 1. Lagefeststellung (Situational Awareness)
 Der erste Schritt jedes Agenten ist zu verstehen, wo wir stehen.
 
@@ -41,6 +52,8 @@ Der erste Schritt jedes Agenten ist zu verstehen, wo wir stehen.
    - [COORDINATION_HUB.md](../../System/COORDINATION_HUB.md)
 8. Lies die aktuellste Session-Memory unter `Logs/Archive/SESSION_MEMORY_*.md` (falls vorhanden), bevor du neue Tasks startest.
 9. Wenn der Advisor `Pages Health` als `WARN`, `FAIL` oder `UNKNOWN` meldet, route zuerst zu `/tech_master`.
+10. Klassifiziere den Auftrag vor der Umsetzung als Homepage-, Quellen- oder Wiki-Page-Drift.
+11. Der vollstaendige Drift-/Pages-Vertrag liegt in [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md); dieser Workflow fasst nur die Startentscheidung zusammen.
 
 ## 2. Wähle deinen Pfad (Choose your Persona & Master-Workflow)
 
@@ -81,6 +94,9 @@ Welche Rolle nimmst du heute ein? Das System ist in **5 Säulen (Pillars)** unte
 - **Keine Halluzinationen:** Wenn Wissen fehlt, markiere es mit `[UNGEKLÄRT]` oder schreibe ein Ticket.
 - **Relative Links:** Nutze ausschließlich `[[WikiLinks]]`.
 - **Epistemische Tags:** Nutze `#canon`, `#bote`, `#perspektive`.
+- **Praezedenz:** `Homepage > Quellen > Wiki Pages`.
+- **Edit-Baum:** `docs/Siebenwind_Wiki/` ist die technische Pflegeflaeche der Wiki-Pages, nicht die hoechste epistemische Instanz.
+- **Vertrag:** Der normative Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 - **Keine Bridge-Placeholders:** Repariere Verweise auf kanonische Ziele; nutze temporäre Brücken nur mit Ticket + Review-Datum.
 
 *Bereit? Wähle einen Pfad und beginne dein Werk.*

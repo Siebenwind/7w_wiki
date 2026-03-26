@@ -7,7 +7,7 @@
         "chronology": "Sonnenzirkel",
         "tone": "immersiv, historisch",
         "directories": {
-            "wiki": "Siebenwind_Wiki",
+            "wiki": "docs/Siebenwind_Wiki",
             "sources": "Quellen"
         }
     },
@@ -27,13 +27,13 @@
         "audit": "Redundancy and Orphan detection"
     },
     "structure": {
-        "wiki_root": "Siebenwind_Wiki/",
+        "wiki_root": "docs/Siebenwind_Wiki/",
         "sources_root": "Quellen/",
         "agent_configs": ".agent/"
     },
     "docs": {
         "changelog": "CHANGELOG.md",
         "task_list": "MASTER_TASK_LIST.md",
-        "stats": "Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md"
+        "stats": "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md"
     }
 }

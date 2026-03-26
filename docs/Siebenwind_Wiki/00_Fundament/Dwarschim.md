@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Dwarschim"
 category: Allgemein
 ---

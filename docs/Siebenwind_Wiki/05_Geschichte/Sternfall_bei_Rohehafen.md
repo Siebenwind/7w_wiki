@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Sternfall bei Rohehafen
 category: [[index]]
 ---
 
 # Sternfall bei [[Rohehafen]]
 
-**Epistemischer Status:** #bote
-**Datum:** ca. 30. Carmar 15 n.H. (Bote 127)
-**Ort:** bei [[Rohehafen]] (jenseits des Grenzwalls)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** ca. 30. Carmar 15 n.H. (Bote 127)
+    - **Ort:** bei [[Rohehafen]] (jenseits des Grenzwalls)
+
 
 ## Verlauf
 Ein Stern ging unweit der ehemaligen Hauptstadt [[Rohehafen]] nieder und bildete einen dampfenden, schwefelhaltigen Kratersee.

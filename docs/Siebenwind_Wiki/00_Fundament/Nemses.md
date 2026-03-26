@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Nemses
 category: Allgemein
 status: UNGEKLAERT

@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 189
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 189
 
-**Epistemischer Status:** #bote
-**Datum:** 19. Onar 29 n.H.
-**Redaktion:** [[Erin_Caoimme]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 19. Onar 29 n.H.
+    - **Redaktion:** [[Erin_Caoimme]]
+
 
 ## Schlagzeilen
 

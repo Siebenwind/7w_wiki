@@ -1,13 +1,14 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 176
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 176
 
-**Epistemischer Status:** #bote
-**Datum:** 16. Oner 21 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 16. Oner 21 n.H.
+
 
 ## Schlagzeilen
 

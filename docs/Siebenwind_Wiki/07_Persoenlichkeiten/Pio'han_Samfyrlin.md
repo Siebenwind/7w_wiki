@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 0a1b2c3d-e4f5-4f6a-7b8c-9a0d1e2f3a4b
 title: Pio'han Samfyrlin
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 # Pio'han Samfyrlin
 
-**Titel:** Heiler
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Communis_Medici]]
+!!! info "Metadaten"
+    - **Titel:** Heiler
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Communis_Medici]]
+
 
 ## Beschreibung
 **Pio'han Samfyrlin** ist ein Heiler der [[Communis_Medici]], der im Jahr 16 n.H. in den medizinischen Berichten von [[Falkensee]] erwähnt wird (Bote 133).

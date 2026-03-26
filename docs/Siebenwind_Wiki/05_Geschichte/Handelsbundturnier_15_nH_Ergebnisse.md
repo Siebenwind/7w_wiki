@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Handelsbundturnier 15 n.H. Ergebnisse
 category: [[index]]
 ---
 
 # Handelsbundturnier 15 n.H. Ergebnisse
 
-**Epistemischer Status:** #bote
-**Datum:** Carmer 15 n.H. (Bote 123)
-**Ort:** [[Brandenstein]] (Hafen)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** Carmer 15 n.H. (Bote 123)
+    - **Ort:** [[Brandenstein]] (Hafen)
+
 
 ## Verlauf
 Das große Turnier des Handelsbundes fand unter großem Jubel statt.

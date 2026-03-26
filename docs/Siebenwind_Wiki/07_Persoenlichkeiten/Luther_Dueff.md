@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Luther Dueff
 category: Persönlichkeit
 ---
 
 # Luther Dueff
 
-**Titel:** Greifenritter / Sire / ehem. Hochmeister (Falkenorden)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritter_der_Sieben_Winde]] (Greifenorden)
-**Zeitraum:** aktiv ab 15 n.H.
+!!! info "Metadaten"
+    - **Titel:** Greifenritter / Sire / ehem. Hochmeister (Falkenorden)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ritter_der_Sieben_Winde]] (Greifenorden)
+    - **Zeitraum:** aktiv ab 15 n.H.
+
 
 ## Beschreibung
 Sire Luther Dueff ist ein hochrangiger [[Ritter_der_Sieben_Winde]]. Er diente lange Zeit als **Hochmeister des Falkenordens**, ehe er im Onar 20 n.H. dieses Amt an Ritter [[Laske]] übergab, um fortan als **Greifenritter** den Greifenorden unter Hochmeisterin [[Mirian_Lasar]] zu unterstützen ([[Siebenwind_Bote_172]]).

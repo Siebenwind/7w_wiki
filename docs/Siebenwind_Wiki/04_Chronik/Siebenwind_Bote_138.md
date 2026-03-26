@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: feba58b7-1e0c-446e-871a-03eb4802ebff
 title: Siebenwind Bote 138
 category: [[index]]
 status: Bote
-uuid: feba58b7-1e0c-446e-871a-03eb4802ebff
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 138.md
 letzter_check: 2026-02-13T00:55:00+01:00
 ---
 # [[Siebenwind]] Bote 138
 
-**Epistemischer Status:** #bote
-**Datum:** 2. Querler 16 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 2. Querler 16 n.H.
+
 
 ## Überblick
 Diese Sonderausgabe ist gänzlich dem **[[Circus_Wendolyn]]** gewidmet, der vor kurzem auf [[Siebenwind]] eingetroffen ist. Sie beschreibt die bewegte [[index]] der Zirkus-Dynastie und stellt die einzelnen Familienmitglieder vor.

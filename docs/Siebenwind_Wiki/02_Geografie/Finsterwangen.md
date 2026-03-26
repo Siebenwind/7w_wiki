@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Finsterwangen
 category: [[index]]
 ---
 
 # Finsterwangen
 
-**Status:** Siedlung (Wiederaufbau) / Ehemalige Stadt mit Burg
-**Region:** [[Ödland]]
-**Epistemischer Status:** #bote / #überlieferung
-**Aktuelle Führung:** Vogtin [[Lucy]] (seit 29 n.H.)
+!!! info "Metadaten"
+    - **Status:** Siedlung (Wiederaufbau) / Ehemalige Stadt mit Burg
+    - **Region:** [[Ödland]]
+    - **Epistemischer Status:** #bote / #überlieferung
+    - **Aktuelle Führung:** Vogtin [[Lucy]] (seit 29 n.H.)
+
 
 ## 📜 Beschreibung
 **Finsterwangen** war einst eine mächtige Stadt unter dem Schutz einer imposanten Burg. Heute ist der Ort im [[Ödland]] primär für seine extremen **magischen Abnormalitäten** und Zeit-Raum-Risse bekannt.

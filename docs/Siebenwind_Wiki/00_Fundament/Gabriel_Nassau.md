@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Gabriel Nassau
 category: Allgemein
 status: UNGEKLAERT

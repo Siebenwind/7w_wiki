@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Halblinge
 category: Rasse
 author: [[Siebenwind]] Chronicler

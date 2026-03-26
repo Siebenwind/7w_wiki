@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Sarahna Greifenschwing
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_160]].md
 ---
 # Sarahna Greifenschwing
 
-**Titel:** Markgräfin / Heroldin Seiner Majestät
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Galadonische Krone
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Markgräfin / Heroldin Seiner Majestät
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Galadonische Krone
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Sarahna Greifenschwing** ist eine hochrangige Adlige und offizielle Heroldin von König [[Hilgorad_I_ap_Mer]].

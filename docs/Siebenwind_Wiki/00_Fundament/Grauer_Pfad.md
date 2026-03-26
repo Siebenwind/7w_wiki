@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Grauer Pfad
 category: Allgemein
 status: UNGEKLAERT

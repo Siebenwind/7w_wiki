@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Weisser Pfad
 category: Allgemein
 status: UNGEKLAERT

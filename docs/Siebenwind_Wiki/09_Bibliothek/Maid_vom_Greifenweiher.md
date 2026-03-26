@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Die Maid vom Greifenweiher (Sagenrolle)
 category: [[index]]
 ---
 
 # Die Maid vom [[Greifenweiher]] (Sagenrolle)
 
-**Autor:** Anonym (Bote-Wettbewerb)
-**Zeitraum:** 18 n.H.
-**Epistemischer Status:** #bote
+!!! info "Metadaten"
+    - **Autor:** Anonym (Bote-Wettbewerb)
+    - **Zeitraum:** 18 n.H.
+    - **Epistemischer Status:** #bote
+
 
 ## Handlung
 Die [[Geschichte]] erzählt von der schicksalhaften Begegnung einer jungen Maid mit einem Meermann am [[Greifenweiher]]. Die Erzählung thematisiert Liebe über die Grenzen der Völker hinweg und den gemeinsamen Kampf gegen monströse Bedrohungen (siehe [[Weiher_Ungetuem]]).

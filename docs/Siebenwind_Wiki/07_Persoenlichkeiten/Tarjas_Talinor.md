@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Tarjas Talinor
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_173]].md
 ---
 # Tarjas Talinor
 
-**Titel:** Recke / Wächter des Samens
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Falkensee]] / [[Ecclesia_Elementorum]] (verbunden)
-**Zeitraum:** aktiv ab 20 n.H.
+!!! info "Metadaten"
+    - **Titel:** Recke / Wächter des Samens
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Falkensee]] / [[Ecclesia_Elementorum]] (verbunden)
+    - **Zeitraum:** aktiv ab 20 n.H.
+
 
 ## Beschreibung
 **Tarjas Talinor** ist ein tapferer Kämpfer, der sich dem Schutz des Projekts "[[Schwarzer_Samen]]" verschrieben hat.

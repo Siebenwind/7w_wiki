@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Atmender Tod
 category: Ereignis
 ---
 
 # Atmender Tod
 
-**Typ:** Seuche / Plage
-**Epistemischer Status:** #bote
-**Zeitraum:** Ausbruch 20 n.H.
-**Ort:** [[Falkensee]], [[Brandenstein]], [[Siebenwind]]
+!!! info "Metadaten"
+    - **Typ:** Seuche / Plage
+    - **Epistemischer Status:** #bote
+    - **Zeitraum:** Ausbruch 20 n.H.
+    - **Ort:** [[Falkensee]], [[Brandenstein]], [[Siebenwind]]
+
 
 ## Beschreibung
 Der **Atmende Tod** ist eine aggressive und tödliche Lungenkrankheit, die im Jahr 20 n.H. auf [[Siebenwind]] ausbrach. Sie zeichnet sich durch rasanten Kräfteverfall und Erstickungssymptome aus, was ihr den Namen einbrachte.

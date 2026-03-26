@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Hilgorad
 category: Allgemein
 status: UNGEKLAERT

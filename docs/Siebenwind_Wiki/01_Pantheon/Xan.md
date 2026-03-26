@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
 title: Xan
-type: Religion
 status: Kanon (Level 1)
+type: Religion
 tags: [Elementarherr, [[Enhor]], Wasser, Eis, [[index]]]
 ---
 

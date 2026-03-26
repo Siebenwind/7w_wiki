@@ -1,13 +1,14 @@
 ---
-layout: wiki_page
 title: Siebenwind
 category: [[Geografie]]
 ---
 
 # Siebenwind
 
-**Typ:** Insel / Kronmark
-**Epistemischer Status:** #canon
+!!! info "Metadaten"
+    - **Typ:** Insel / Kronmark
+    - **Epistemischer Status:** #canon
+
 
 ## Überblick
 **Siebenwind** ist die zentrale Insel und das Herz der Welt. Sie ist geprägt von dichten Wäldern, schroffen Gebirgen und fruchtbaren Ebenen. Politisch ist die Insel als **Kronmark Siebenwind** organisiert und untersteht der Verwaltung der Krone (aktuell vertreten durch Baronin [[Beladriel_Blaettertanz]]).

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lothorien
 category: Allgemein
 status: UNGEKLAERT

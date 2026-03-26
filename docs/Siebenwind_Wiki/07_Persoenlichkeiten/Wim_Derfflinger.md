@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Wim Derfflinger
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Wim Derfflinger
 
-**Titel:** Vater / Inselstaatsanwalt / Voller Beisitzer des Königlichen Gerichtes
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Kirche_der_Viere]] ([[Ordo_Astrael]]) / [[Recht]]
+!!! info "Metadaten"
+    - **Titel:** Vater / Inselstaatsanwalt / Voller Beisitzer des Königlichen Gerichtes
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Kirche_der_Viere]] ([[Ordo_Astrael]]) / [[Recht]]
+
 
 ## Beschreibung
 **Vater Wim Derfflinger** ist ein Geweihter des [[Astrael]].

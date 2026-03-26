@@ -1,12 +1,11 @@
 ---
-layout: wiki_page
 title: Ritual zur Bannung des Grix
 category: [[index]]
 status: Canon
 quelle: "../../Quellen/[[index]] [[Toran_Dur]]/Anonymous - Ritual zur Bannung des [[Grix]].md"
+author: "[[Anonymus]]"
 lore_trust: 8
 confidence: Certain
-author: "[[Anonymus]]"
 ---
 
 # Ritual zur Bannung des [[Grix]]

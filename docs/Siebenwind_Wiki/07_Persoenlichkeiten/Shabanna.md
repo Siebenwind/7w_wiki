@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 9d0e1f2a-3b4c-4d5e-6f7a-8b9c0d1e2f3a
 title: Shabanna
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 # Shabanna
 
-**Titel:** Heilerin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Communis_Medici]]
+!!! info "Metadaten"
+    - **Titel:** Heilerin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Communis_Medici]]
+
 
 ## Beschreibung
 **Shabanna** ist eine Heilerin der [[Communis_Medici]], die im Jahr 16 n.H. unermüdlich für die medizinische Versorgung der Bürger im Einsatz war (Bote 133).

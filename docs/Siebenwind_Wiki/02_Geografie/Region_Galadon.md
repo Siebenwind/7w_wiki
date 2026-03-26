@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Region Galadon
 category: Index
 author: [[Siebenwind]] Chronicler

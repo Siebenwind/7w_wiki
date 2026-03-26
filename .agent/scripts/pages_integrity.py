@@ -12,9 +12,20 @@ import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
+from content_contract import (
+    ALLOWED_LEGACY_ARTIFACTS,
+    LEGACY_WIKI_ROOT,
+    TECHNICAL_WIKI_ROOT,
+    content_hash,
+    fingerprint_paths,
+    load_analysis_cache,
+    now_iso,
+    write_analysis_cache,
+)
+
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DOCS_DIR = REPO_ROOT / "docs"
-WIKI_DIR = REPO_ROOT / "Siebenwind_Wiki"
+WIKI_DIR = TECHNICAL_WIKI_ROOT
 PAGES_POLICY_PATH = REPO_ROOT / ".agent" / "config" / "pages_link_policy.json"
 PAGES_HEALTH_PATH = REPO_ROOT / ".agent" / "data" / "pages_health.json"
 VENV_MKDOCS = REPO_ROOT / ".venv" / "bin" / "mkdocs"
@@ -24,10 +35,9 @@ ROAMLINK_WARNING_RE = re.compile(
 )
 WARNING_LINE_RE = re.compile(r"^WARNING -\s+(?P<message>.+)$")
 WIKILINK_RE = re.compile(r"\[{2,}([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]{2,}")
-
-
-def now_iso() -> str:
-    return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+DOCS_LINK_INDEX_CACHE_VERSION = 1
+CANONICAL_NAME_INDEX_CACHE_VERSION = 1
+TREE_DRIFT_CACHE_VERSION = 1
 
 
 def normalize_key(value: str) -> str:
@@ -98,9 +108,28 @@ def _iter_docs_markdown_files() -> list[Path]:
     return sorted(DOCS_DIR.rglob("*.md"))
 
 
-def build_docs_link_index() -> dict[str, set[str]]:
+def build_docs_link_index(use_cache: bool = True) -> dict[str, set[str]]:
+    files = _iter_docs_markdown_files()
+    inputs_fingerprint = fingerprint_paths(
+        files,
+        extra={
+            "cache": "docs_link_index",
+            "version": DOCS_LINK_INDEX_CACHE_VERSION,
+            "docs_dir": str(DOCS_DIR.relative_to(REPO_ROOT)),
+        },
+    )
+    if use_cache:
+        cached = load_analysis_cache(
+            "docs_link_index",
+            version=DOCS_LINK_INDEX_CACHE_VERSION,
+            inputs_fingerprint=inputs_fingerprint,
+        )
+        if cached:
+            payload = cached.get("payload", {})
+            return {key: set(values) for key, values in payload.get("index", {}).items()}
+
     index: dict[str, set[str]] = {}
-    for file_path in _iter_docs_markdown_files():
+    for file_path in files:
         try:
             raw = file_path.read_text(encoding="utf-8")
         except Exception:
@@ -112,12 +141,41 @@ def build_docs_link_index() -> dict[str, set[str]]:
             if not normalized:
                 continue
             index.setdefault(normalized, set()).add(str(file_path.relative_to(REPO_ROOT)))
+    if use_cache:
+        write_analysis_cache(
+            "docs_link_index",
+            version=DOCS_LINK_INDEX_CACHE_VERSION,
+            inputs_fingerprint=inputs_fingerprint,
+            payload={"index": {key: sorted(values) for key, values in sorted(index.items())}},
+        )
     return index
 
 
-def build_canonical_name_index() -> dict[str, list[str]]:
+def build_canonical_name_index(use_cache: bool = True) -> dict[str, list[str]]:
     mapping: dict[str, set[str]] = {}
-    search_roots = [WIKI_DIR, DOCS_DIR / "Siebenwind_Wiki"]
+    search_roots = [WIKI_DIR]
+    files: list[Path] = []
+    for root in search_roots:
+        if root.exists():
+            files.extend(sorted(root.rglob("*.md")))
+
+    inputs_fingerprint = fingerprint_paths(
+        files,
+        extra={
+            "cache": "canonical_name_index",
+            "version": CANONICAL_NAME_INDEX_CACHE_VERSION,
+            "wiki_root": str(WIKI_DIR.relative_to(REPO_ROOT)),
+        },
+    )
+    if use_cache:
+        cached = load_analysis_cache(
+            "canonical_name_index",
+            version=CANONICAL_NAME_INDEX_CACHE_VERSION,
+            inputs_fingerprint=inputs_fingerprint,
+        )
+        if cached:
+            return cached.get("payload", {}).get("index", {})
+
     for root in search_roots:
         if not root.exists():
             continue
@@ -138,7 +196,78 @@ def build_canonical_name_index() -> dict[str, list[str]]:
                 for alias in aliases:
                     if alias:
                         mapping.setdefault(normalize_key(alias), set()).add(file_path.stem)
-    return {key: sorted(values) for key, values in mapping.items()}
+    result = {key: sorted(values) for key, values in mapping.items()}
+    if use_cache:
+        write_analysis_cache(
+            "canonical_name_index",
+            version=CANONICAL_NAME_INDEX_CACHE_VERSION,
+            inputs_fingerprint=inputs_fingerprint,
+            payload={"index": result},
+        )
+    return result
+
+
+def collect_tree_drift(use_cache: bool = True) -> dict:
+    docs_all = sorted(TECHNICAL_WIKI_ROOT.rglob("*.md")) if TECHNICAL_WIKI_ROOT.exists() else []
+    legacy_all = sorted(LEGACY_WIKI_ROOT.rglob("*.md")) if LEGACY_WIKI_ROOT.exists() else []
+    inputs_fingerprint = fingerprint_paths(
+        docs_all + legacy_all,
+        extra={
+            "cache": "tree_drift",
+            "version": TREE_DRIFT_CACHE_VERSION,
+            "technical_root": str(TECHNICAL_WIKI_ROOT.relative_to(REPO_ROOT)),
+            "legacy_root": str(LEGACY_WIKI_ROOT.relative_to(REPO_ROOT)),
+            "allowed_legacy_artifacts": sorted(str(path) for path in ALLOWED_LEGACY_ARTIFACTS),
+        },
+    )
+    if use_cache:
+        cached = load_analysis_cache(
+            "tree_drift",
+            version=TREE_DRIFT_CACHE_VERSION,
+            inputs_fingerprint=inputs_fingerprint,
+        )
+        if cached:
+            return cached.get("payload", {})
+
+    docs_files = {
+        path.relative_to(TECHNICAL_WIKI_ROOT): path
+        for path in TECHNICAL_WIKI_ROOT.rglob("*.md")
+    } if TECHNICAL_WIKI_ROOT.exists() else {}
+    legacy_files = {
+        path.relative_to(LEGACY_WIKI_ROOT): path
+        for path in LEGACY_WIKI_ROOT.rglob("*.md")
+        if path.relative_to(LEGACY_WIKI_ROOT) not in ALLOWED_LEGACY_ARTIFACTS
+    } if LEGACY_WIKI_ROOT.exists() else {}
+
+    docs_only = sorted(str(path) for path in docs_files.keys() - legacy_files.keys())
+    legacy_only = sorted(str(path) for path in legacy_files.keys() - docs_files.keys())
+    content_mismatches: list[str] = []
+
+    for rel in sorted(docs_files.keys() & legacy_files.keys()):
+        try:
+            docs_hash = content_hash(docs_files[rel].read_text(encoding="utf-8"))
+            legacy_hash = content_hash(legacy_files[rel].read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if docs_hash != legacy_hash:
+            content_mismatches.append(str(rel))
+
+    drift_status = "FAIL" if legacy_only or content_mismatches else "PASS"
+
+    result = {
+        "status": drift_status,
+        "docs_only_files": docs_only,
+        "legacy_only_files": legacy_only,
+        "content_mismatches": content_mismatches,
+    }
+    if use_cache:
+        write_analysis_cache(
+            "tree_drift",
+            version=TREE_DRIFT_CACHE_VERSION,
+            inputs_fingerprint=inputs_fingerprint,
+            payload=result,
+        )
+    return result
 
 
 def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = False) -> dict:
@@ -243,6 +372,11 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
         pages_status = "FAIL"
     elif targets or other_warnings:
         pages_status = "WARN"
+    drift = collect_tree_drift()
+    if drift["status"] == "FAIL":
+        pages_status = "FAIL"
+    elif drift["status"] == "WARN" and pages_status == "PASS":
+        pages_status = "WARN"
 
     stdout_preview = "\n".join(proc.stdout.splitlines()[:20])
     stderr_preview = "\n".join(proc.stderr.splitlines()[:20])
@@ -260,6 +394,33 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
         },
         "pages_health": {
             "status": pages_status,
+            "canonical_wiki_root": str(TECHNICAL_WIKI_ROOT.relative_to(REPO_ROOT)),
+            "legacy_wiki_root": str(LEGACY_WIKI_ROOT.relative_to(REPO_ROOT)),
+            "analysis_cache": {
+                "docs_link_index": {
+                    "path": ".agent/data/cache/docs_link_index.json",
+                    "version": DOCS_LINK_INDEX_CACHE_VERSION,
+                },
+                "canonical_name_index": {
+                    "path": ".agent/data/cache/canonical_name_index.json",
+                    "version": CANONICAL_NAME_INDEX_CACHE_VERSION,
+                },
+                "tree_drift": {
+                    "path": ".agent/data/cache/tree_drift.json",
+                    "version": TREE_DRIFT_CACHE_VERSION,
+                },
+            },
+            "drift_status": drift["status"],
+            "drift_counts": {
+                "docs_only_files": len(drift["docs_only_files"]),
+                "legacy_only_files": len(drift["legacy_only_files"]),
+                "content_mismatches": len(drift["content_mismatches"]),
+            },
+            "drift_examples": {
+                "docs_only_files": drift["docs_only_files"][:20],
+                "legacy_only_files": drift["legacy_only_files"][:20],
+                "content_mismatches": drift["content_mismatches"][:20],
+            },
             "unresolved_total": sum(item["count"] for item in targets),
             "allowlisted_total": allowlisted_total,
             "planned_fix_total": planned_fix_total,

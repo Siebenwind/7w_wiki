@@ -1,13 +1,14 @@
 ---
-layout: post
 title: Theorien der index (Sammelband)
 category: Allgemein
 ---
 
 # Theorien der [[index]] (Sammelband)
 
-**Autor:** [[Toran_Dur]]
-**Kategorie:** Fortgeschrittene Magietheorie
+!!! info "Metadaten"
+    - **Autor:** [[Toran_Dur]]
+    - **Kategorie:** Fortgeschrittene Magietheorie
+
 
 ## Inhalt
 

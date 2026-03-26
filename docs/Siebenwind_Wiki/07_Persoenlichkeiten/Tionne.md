@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Tionne
 category: Persönlichkeit
 ---
 
 # Tionne
 
-**Titel:** Hauptmann des Kronregiments
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Siebenwind_Kronregiment]]
-**Zeitraum:** aktiv ab 19 n.H.
+!!! info "Metadaten"
+    - **Titel:** Hauptmann des Kronregiments
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Siebenwind_Kronregiment]]
+    - **Zeitraum:** aktiv ab 19 n.H.
+
 
 ## Beschreibung
 Tionne diente lange Zeit als disziplinierter und loyaler Leutnant im Kronregiment von [[Siebenwind]]. Sie gilt als pflichtbewusste Offizierin, die sowohl das Vertrauen der Truppe als auch des Adels genießt.

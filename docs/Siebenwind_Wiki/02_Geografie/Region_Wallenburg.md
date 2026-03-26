@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Region Wallenburg
 category: Index
 author: [[Siebenwind]] Chronicler

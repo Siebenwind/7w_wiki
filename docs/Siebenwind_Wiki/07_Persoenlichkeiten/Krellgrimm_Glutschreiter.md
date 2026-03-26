@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Krellgrimm Glutschreiter
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Krellgrimm Glutschreiter
 
-**Titel:** König der Dwarschim
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Dwarschim]]
+!!! info "Metadaten"
+    - **Titel:** König der Dwarschim
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Dwarschim]]
+
 
 ## Beschreibung
 **Krellgrimm Glutschreiter** ist der König der Dwarschim ([[Zwerge]]).

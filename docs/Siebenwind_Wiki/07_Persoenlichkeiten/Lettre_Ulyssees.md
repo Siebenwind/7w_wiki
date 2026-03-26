@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Lettre Ulyssees
 category: Persönlichkeit
 ---
 
 # Lettre Ulyssees
 
-**Titel:** Redakteur beim Draconischen Heilerblatt
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Draconisches Heilerblatt
-**Zeitraum:** aktiv um 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Redakteur beim Draconischen Heilerblatt
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Draconisches Heilerblatt
+    - **Zeitraum:** aktiv um 18 n.H.
+
 
 ## Beschreibung
 Lettre Ulyssees ist ein Redakteur für Völkerkunde und exotische Krankheiten beim "Draconischen Heilerblatt". Er ist bekannt für seine journalistische Neugier und seine oft pointierten, teils provokanten Abhandlungen über die Anatomie und Psychologie der verschiedenen Völker Falandriens.

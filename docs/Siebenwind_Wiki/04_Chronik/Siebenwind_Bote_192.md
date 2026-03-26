@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a906
 title: Siebenwind Bote 192
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a906
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 192.md
 letzter_check: 2026-02-13T01:20:00+01:00
 ---
 # [[Siebenwind]] Bote 192
 
-**Epistemischer Status:** #bote
-**Datum:** 12. Querler 30 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 12. Querler 30 n.H.
+
 
 ## Überblick
 Diese Ausgabe berichtet von einem historischen Führungswechsel im [[Inselrat]], dem ersten militärischen Erfolg gegen den Lindwurm [[Akassvae]] und Neuigkeiten von der Befreiung des Festlands.

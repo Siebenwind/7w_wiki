@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Die Sprache Run
 category: [[index]]
-tags: [Sprache, Run, Linguistik, Mythologie, Gohor]
 status: #überlieferung
+tags: [Sprache, Run, Linguistik, Mythologie, Gohor]
 ---
 
 # Die Sprache Run

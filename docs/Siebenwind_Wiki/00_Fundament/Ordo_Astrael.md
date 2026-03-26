@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ordo Astrael
 category: Allgemein
 status: UNGEKLAERT

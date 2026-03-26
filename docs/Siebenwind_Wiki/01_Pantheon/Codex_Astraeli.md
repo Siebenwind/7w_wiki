@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Codex Astraeli
 category: Religion
 ---
 
 # Codex Astraeli
 
-**Epistemischer Status:** #überlieferung
-**Autor:** [[Donarius_Derrvus]]
-**Zugehörigkeit:** [[Kirche_der_Viere]], [[Akademie_von_Brandenstein]] (vermutet)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #überlieferung
+    - **Autor:** [[Donarius_Derrvus]]
+    - **Zugehörigkeit:** [[Kirche_der_Viere]], [[Akademie_von_Brandenstein]] (vermutet)
+
 
 Der **Codex Astraeli** (vollständiger Titel: *Codex Astraeli - De uno modo vero vitae magorum et magarum*) ist eine philosophische Abhandlung über die rechte Lebensführung von Magiebegabten. Er postuliert, dass die Beherrschung der astralen Kräfte untrennbar mit der Selbstbeherrschung des Magus verknüpft ist.
 

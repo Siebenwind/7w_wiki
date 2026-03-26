@@ -1,14 +1,15 @@
 ---
-layout: post
 title: Magica Curativa - Die Heilmagie
 category: Allgemein
 ---
 
 # Magica Curativa - Die Heilmagie
 
-**Autor:** [[Toran_Dur]]
-**Datum:** 7. Duler 34 n.H.
-**Kategorie:** Lehrbuch / Heilmagie
+!!! info "Metadaten"
+    - **Autor:** [[Toran_Dur]]
+    - **Datum:** 7. Duler 34 n.H.
+    - **Kategorie:** Lehrbuch / Heilmagie
+
 
 ## Inhalt
 

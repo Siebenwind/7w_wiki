@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: "Magier-Etikette und Gewandung"
 category: [[index]]
 status: integrated

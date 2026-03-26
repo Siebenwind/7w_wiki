@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Gilde der Feinschmiede
 category: [[Gesellschaft]]
 ---
 
 # Gilde der Feinschmiede
 
-**Typ:** Handwerksgilde
-**Epistemischer Status:** #bote
-**Sitz:** [[Falkensee]]
-**Einflussbereich:** Metallverarbeitung, [[Staubbindungs_Mechanik]]
+!!! info "Metadaten"
+    - **Typ:** Handwerksgilde
+    - **Epistemischer Status:** #bote
+    - **Sitz:** [[Falkensee]]
+    - **Einflussbereich:** Metallverarbeitung, [[Staubbindungs_Mechanik]]
+
 
 ## Beschreibung
 Die **Gilde der Feinschmiede** ist eine der einflussreichsten Handwerksvereinigungen auf [[Siebenwind]]. Sie vereint die Meister der Metallverarbeitung, von einfachen Hufschmieden bis hin zu hochspezialisierten Uhrmachern und Mechanikern.

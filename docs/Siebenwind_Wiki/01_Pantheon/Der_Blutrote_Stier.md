@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
+uuid: b1u1r0-t3-s713r-2026
 title: "Der Blutrote Stier"
 category: Religion
 status: integrated
-uuid: b1u1r0-t3-s713r-2026
 report_id: i0j1k2l3-m4n5-6o7p-8q9r-0s1t2u3v4w5x
 letzter_check: 2026-02-16T00:10:00+01:00
 ---

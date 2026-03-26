@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Marion Comari
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Marion Comari
 
-**Titel:** Vizekanzlerin (ehemals) / Adepta
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Comari]] / [[Akademie_der_Arkanen_Künste]]
+!!! info "Metadaten"
+    - **Titel:** Vizekanzlerin (ehemals) / Adepta
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Comari]] / [[Akademie_der_Arkanen_Künste]]
+
 
 ## Beschreibung
 **Marion Comari** war Vizekanzlerin der Baronie.

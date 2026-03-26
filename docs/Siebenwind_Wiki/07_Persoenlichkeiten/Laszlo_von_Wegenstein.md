@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Laszlo von Wegenstein
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_192]].md
 ---
 # Laszlo von Wegenstein
 
-**Titel:** Hochgeweihter der [[Vitama]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Orden_vom_Lieblichen_Kelche_Vitamas]] / [[Rothenschild]]
-**Zeitraum:** aktiv um 30 n.H.
+!!! info "Metadaten"
+    - **Titel:** Hochgeweihter der [[Vitama]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Orden_vom_Lieblichen_Kelche_Vitamas]] / [[Rothenschild]]
+    - **Zeitraum:** aktiv um 30 n.H.
+
 
 ## Beschreibung
 **Laszlo von Wegenstein** ist ein ranghoher Geweihter der Göttin [[Vitama]] und führt den [[Orden_vom_Lieblichen_Kelche_Vitamas]] an.

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Huns Siebzehnrübl
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_133]].md
 ---
 # Huns Siebzehnrübl
 
-**Titel:** Bürger / "Unerschrockener"
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Brandenstein]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Bürger / "Unerschrockener"
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Brandenstein]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Huns Siebzehnrübl** ist ein Bürger aus [[Brandenstein]], der sich selbst als unerschrocken und für seine Heldentaten bekannt beschreibt. Er wurde durch einen Bericht im [[Siebenwind_Bote_133|Boten 133]] bekannt, in dem er von einer gefährlichen nächtlichen Suche nach seinem Schaf "Kugel" berichtet.

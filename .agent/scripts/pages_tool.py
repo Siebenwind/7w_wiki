@@ -100,11 +100,17 @@ def cmd_build(args):
 def _run_validation_check(command_args, json_mode):
     if json_mode:
         result = _run_runtime_capture(command_args)
+        parsed_json = None
+        try:
+            parsed_json = json.loads(result.stdout)
+        except Exception:
+            parsed_json = None
         return {
             "command": command_args,
             "exit_code": result.returncode,
             "stdout": result.stdout,
             "stderr": result.stderr,
+            "json": parsed_json,
         }
     rc = _run_runtime(command_args)
     return {"command": command_args, "exit_code": rc}
@@ -120,6 +126,14 @@ def _build_validate_report(args):
             "build": {"exit_code": status_rc},
             "pages_health": {
                 "status": "FAIL",
+                "canonical_wiki_root": "docs/Siebenwind_Wiki",
+                "legacy_wiki_root": "Siebenwind_Wiki",
+                "drift_status": "FAIL",
+                "drift_counts": {
+                    "docs_only_files": 0,
+                    "legacy_only_files": 0,
+                    "content_mismatches": 0,
+                },
                 "unresolved_total": 0,
                 "allowlisted_total": 0,
                 "planned_fix_total": 0,
@@ -138,10 +152,15 @@ def _build_validate_report(args):
         checks.append(_run_validation_check(["test", "--suite", "process-dispatch-curiosity"], args.json))
     if not args.skip_reader_stats_contract:
         checks.append(_run_validation_check(["test", "--suite", "reader-stats-contract"], args.json))
+    if args.skip_audit:
+        checks.append(_run_validation_check(["test", "--suite", "content-contract"], args.json))
+        checks.append(_run_validation_check(["test", "--suite", "render-hygiene"], args.json))
     if not args.skip_audit:
         audit_args = ["audit"]
         if args.include_pages_audit:
             audit_args.append("--pages")
+        if args.json:
+            audit_args.append("--json")
         checks.append(_run_validation_check(audit_args, args.json))
 
     for check in checks:
@@ -153,6 +172,14 @@ def _build_validate_report(args):
                 "build": {"exit_code": None},
                 "pages_health": {
                     "status": "FAIL",
+                    "canonical_wiki_root": "docs/Siebenwind_Wiki",
+                    "legacy_wiki_root": "Siebenwind_Wiki",
+                    "drift_status": "FAIL",
+                    "drift_counts": {
+                        "docs_only_files": 0,
+                        "legacy_only_files": 0,
+                        "content_mismatches": 0,
+                    },
                     "unresolved_total": 0,
                     "allowlisted_total": 0,
                     "planned_fix_total": 0,
@@ -169,6 +196,30 @@ def _build_validate_report(args):
     report["strict_links_requested"] = bool(args.strict_links)
 
     pages_health = report["pages_health"]
+    audit_check = next((check for check in checks if check["command"] and check["command"][0] == "audit"), None)
+    contract_check = next((check for check in checks if check["command"] and check["command"][:3] == ["test", "--suite", "content-contract"]), None)
+    if audit_check and audit_check.get("json"):
+        report["drift_health"] = {
+            "render_hygiene": audit_check["json"]["categories"].get("render_hygiene", {}),
+            "contract_violations": audit_check["json"]["categories"].get("contract_violations", {}),
+            "stub_inventory": audit_check["json"]["categories"].get("stub_inventory", {}),
+            "bridge_inventory": audit_check["json"]["categories"].get("bridge_inventory", {}),
+            "split_brain": audit_check["json"]["categories"].get("split_brain", {}),
+            "traceability_gaps": audit_check["json"]["categories"].get("traceability_gaps", {}),
+        }
+    elif contract_check and contract_check.get("json"):
+        contract_payload = contract_check["json"]
+        report["drift_health"] = {
+            "render_hygiene": contract_payload.get("render_hygiene", {}),
+            "contract_violations": contract_payload.get("contract_violations", {}),
+            "stub_inventory": contract_payload.get("stub_inventory", {}),
+            "bridge_inventory": contract_payload.get("bridge_inventory", {}),
+            "split_brain": contract_payload.get("split_brain", {}),
+            "traceability_gaps": contract_payload.get("traceability_gaps", {}),
+            "cache": contract_payload.get("cache", {}),
+        }
+    else:
+        report["drift_health"] = {}
     non_roamlink_warning_count = len(pages_health.get("other_warnings", []))
     final_status = pages_health.get("status", report.get("status", "UNKNOWN"))
     exit_code = 0
@@ -176,6 +227,9 @@ def _build_validate_report(args):
     if report["build"]["exit_code"] != 0:
         final_status = "FAIL"
         exit_code = report["build"]["exit_code"]
+    elif pages_health.get("drift_status") == "FAIL":
+        final_status = "FAIL"
+        exit_code = 1
     elif args.strict and non_roamlink_warning_count > 0:
         final_status = "FAIL"
         exit_code = 1

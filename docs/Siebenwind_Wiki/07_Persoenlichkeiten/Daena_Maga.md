@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Daena (Maga)
 category: Persönlichkeit
 ---
 
 # [[Daena]] (Maga)
 
-**Titel:** Magierin der königlichen Akademie
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Magie_Grundlagen|Akademie zu Siebenwind]]
-**Zeitraum:** aktiv um 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Magierin der königlichen Akademie
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Magie_Grundlagen|Akademie zu Siebenwind]]
+    - **Zeitraum:** aktiv um 18 n.H.
+
 
 ## Beschreibung
 Maga [[Daena]] ist eine fähige Absolventin und Magierin der königlichen Schule der magischen Künste auf [[Siebenwind]]. Sie ist bekannt für ihre Expertise in der Abwehr und Verbannung von Geistererscheinungen und unnatürlichen Heimsuchungen.

@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a915
 title: Siebenwind Bote 153
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a915
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 153.md
 letzter_check: 2026-02-13T03:00:00+01:00
 ---
 # [[Siebenwind]] Bote 153
 
-**Epistemischer Status:** #bote
-**Datum:** 10. Seker 17 n.H. (Felatag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 10. Seker 17 n.H. (Felatag)
+
 
 ## Highlights
 *   **Prätor:** **[[Sean_Eire]]** wurde zum neuen Prätor der Diözese [[Siebenwind]] ernannt (Nachfolger von **[[Tzara_Rengis]]**).

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Samuel der Heiler"
 category: [[index]]
 ---

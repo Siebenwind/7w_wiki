@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Schwarze Reiter
 category: Allgemein
 status: UNGEKLAERT

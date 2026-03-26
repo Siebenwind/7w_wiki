@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Mael Duin
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Mael Duin
 
-**Titel:** Marschall / Lehensherr zu [[Tannenstein]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Adelskalender]] / [[Haus_Gerdenwald]]
+!!! info "Metadaten"
+    - **Titel:** Marschall / Lehensherr zu [[Tannenstein]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Adelskalender]] / [[Haus_Gerdenwald]]
+
 
 ## Beschreibung
 **Mael Duin** war im Jahr 15 n.H. (Bote 122) Marschall und Lehensherr zu Tannenstein sowie Protektor des Hauses von Gerdenwald.

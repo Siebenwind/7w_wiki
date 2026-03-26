@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Benion
 category: Allgemein
 status: UNGEKLAERT

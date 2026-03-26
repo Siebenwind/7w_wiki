@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Tion Altor
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Tion Altor
 
-**Titel:** Erzgeweihter des [[Bellum]] / Kanzler der [[Baronie_Siebenwind]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Belli]] / [[Baronie_Siebenwind]]
+!!! info "Metadaten"
+    - **Titel:** Erzgeweihter des [[Bellum]] / Kanzler der [[Baronie_Siebenwind]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ordo_Belli]] / [[Baronie_Siebenwind]]
+
 
 ## Beschreibung
 **Tion Altor** (Spitzname: "Silberopa") ist der Erzgeweihte des Kriegsgottes [[Bellum]] (Cratos) und amtierender Kanzler der Baronie [[Siebenwind]] (Stand 29 n.H., Bote 188).

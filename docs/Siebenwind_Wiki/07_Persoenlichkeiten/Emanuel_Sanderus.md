@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Emanuel Sanderus
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_172]].md
 ---
 # [[Emanuel]] Sanderus
 
-**Titel:** Bürger
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Falkensee]] (?)
-**Zeitraum:** aktiv ab 19 n.H.
+!!! info "Metadaten"
+    - **Titel:** Bürger
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Falkensee]] (?)
+    - **Zeitraum:** aktiv ab 19 n.H.
+
 
 ## Beschreibung
 **[[Emanuel]] Sanderus** ist ein Bewohner von [[Siebenwind]] und der Ehemann von Inselpatrizier [[Felis_Andras]].

@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Baron von Gerdenwald
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Baron von Gerdenwald
 
-**Titel:** Ihro Gnaden / Baron / Königlicher Schatzmeister und Verwalter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Galadonische Krone / [[Adelskalender]] / [[Haus_Gerdenwald]]
-**Zeitraum:** amtierend
+!!! info "Metadaten"
+    - **Titel:** Ihro Gnaden / Baron / Königlicher Schatzmeister und Verwalter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Galadonische Krone / [[Adelskalender]] / [[Haus_Gerdenwald]]
+    - **Zeitraum:** amtierend
+
 
 ## Beschreibung
 Der **Baron von und zu Gerdenwald**, mit vollem Namen vermutlich **[[Friedward_von_und_zu_Gerdenwald]]**, ist der vom König eingesetzte **Schatzmeister und Verwalter** von [[Siebenwind]].

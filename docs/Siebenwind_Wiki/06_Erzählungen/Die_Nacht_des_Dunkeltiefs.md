@@ -1,8 +1,7 @@
 ---
-layout: wiki_page
+uuid: 6BFB4A6D-4C1A-4473-96BF-56A0CD8581E2
 title: Die Nacht des Dunkeltiefs
 category: Erzählungen
-uuid: 6BFB4A6D-4C1A-4473-96BF-56A0CD8581E2
 status: integrated
 report_id: n4cht-dunk3lt-2026
 tags: [Lyrik, OutGame, Dunkeltief]

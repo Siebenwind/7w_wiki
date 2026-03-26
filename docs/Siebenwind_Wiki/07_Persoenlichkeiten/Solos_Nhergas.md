@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Solos Nhergas
 category: Persönlichkeit
 ---
 
 # Solos [[Nhergas]]
 
-**Titel:** Kanzlerin des Inselrats, Freifrau, **Hüterin des Großsiegels der Kronmark**
-**Epistemischer Status:** #canon / #bote
-**Zugehörigkeit:** [[Inselrat]] / Dienstadel
-**Zeitraum:** Aktiv ab ca. 15 n.H. (aktuell Kanzlerin)
+!!! info "Metadaten"
+    - **Titel:** Kanzlerin des Inselrats, Freifrau, **Hüterin des Großsiegels der Kronmark**
+    - **Epistemischer Status:** #canon / #bote
+    - **Zugehörigkeit:** [[Inselrat]] / Dienstadel
+    - **Zeitraum:** Aktiv ab ca. 15 n.H. (aktuell Kanzlerin)
+
 
 ## Karriere & Timeline
 - **Vor 18 n.H.:** Lehenskämmerin und später Lehenskanzlerin unter [[Hagen_Robaar]] (Bote 151). Ernennung zum niederen Dienstadel (Edelfrau).

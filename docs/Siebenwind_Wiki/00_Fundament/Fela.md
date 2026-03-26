@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Fela
 category: Allgemein
 status: UNGEKLAERT

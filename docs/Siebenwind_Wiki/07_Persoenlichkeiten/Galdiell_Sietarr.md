@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e
 title: Galdiell Sietarr
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 # Galdiell Sietarr
 
-**Titel:** Geweihte ([[Vitama]]) / Calatora
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Vitamae]] / [[Vitama]]
+!!! info "Metadaten"
+    - **Titel:** Geweihte ([[Vitama]]) / Calatora
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ordo_Vitamae]] / [[Vitama]]
+
 
 ## Beschreibung
 **Galdiell Sietarr** ist eine Geweihte der Göttin [[Vitama]] und trägt den Titel einer Calatora. Sie ist in [[Falkensee]] aktiv (Bote 178).

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Hendwig
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_163]].md
 ---
 # Hendwig
 
-**Titel:** Gardist der Baronsgarde
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Siebenwind]] / [[Baronsgarde]]
-**Zeitraum:** aktiv bis 19 n.H. (†)
+!!! info "Metadaten"
+    - **Titel:** Gardist der Baronsgarde
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Siebenwind]] / [[Baronsgarde]]
+    - **Zeitraum:** aktiv bis 19 n.H. (†)
+
 
 ## Beschreibung
 **Hendwig** war ein loyaler Soldat der [[Baronsgarde]] auf [[Siebenwind]]. Er ging als Held in die [[index]] der Insel ein.

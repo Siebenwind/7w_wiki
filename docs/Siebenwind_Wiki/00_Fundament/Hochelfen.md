@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Hochelfen"
 category: Allgemein
 ---

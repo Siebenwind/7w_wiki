@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Indoaich
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Indoaich
 
-**Titel:** Horwah ([[Angamon]])
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Angamon]]
+!!! info "Metadaten"
+    - **Titel:** Horwah ([[Angamon]])
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Angamon]]
+
 
 ## Beschreibung
 **Indoaich** ist ein Horwah (Halbgott/Avatar) des Gottes [[Angamon]].

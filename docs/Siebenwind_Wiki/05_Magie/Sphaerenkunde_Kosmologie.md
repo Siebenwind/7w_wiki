@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Sphärenkunde & Kosmologie
 category: [[index]]
 ---

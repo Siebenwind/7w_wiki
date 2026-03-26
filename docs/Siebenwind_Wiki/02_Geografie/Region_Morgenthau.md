@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Region Morgenthau
 category: Index
 author: [[Siebenwind]] Chronicler

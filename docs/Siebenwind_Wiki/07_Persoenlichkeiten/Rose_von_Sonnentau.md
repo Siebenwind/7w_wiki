@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Rose von Sonnentau
 category: Persönlichkeit
-quelle: "[Der letzte Falke]"
 status: "#überlieferung"
+quelle: "[Der letzte Falke]"
 ---
 
 # Rose von Sonnentau

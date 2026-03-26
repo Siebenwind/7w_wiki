@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Schamanische Magie
 category: Magie
 tags: [Schamanismus, Geister, Totem, Magietheorie]

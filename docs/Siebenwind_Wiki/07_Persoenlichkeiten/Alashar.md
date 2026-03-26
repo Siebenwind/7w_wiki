@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Alashar"
 category: [[index]]
 ---

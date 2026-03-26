@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Frederik Hamsberg
 category: Persönlichkeit
 ---
 
 # Frederik Hamsberg
 
-**Titel:** Ritter des [[Orden_der_Wachenden_Löwen|Löwenordens]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]]
-**Zeitraum:** aktiv um 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Ritter des [[Orden_der_Wachenden_Löwen|Löwenordens]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]]
+    - **Zeitraum:** aktiv um 18 n.H.
+
 
 ## Beschreibung
 Frederik Hamsberg ist ein fähiger Krieger und Ritter des **Löwenordens**. Er ist bekannt für seinen Mut und seine Ergebenheit gegenüber dem Königreich und der Kirche.

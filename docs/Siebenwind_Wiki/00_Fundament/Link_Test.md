@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Link Test Page
 category: Allgemein
 ---

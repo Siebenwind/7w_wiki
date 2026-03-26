@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Yves Rondragon
 category: Persönlichkeit
 ---
 
 # Yves Rondragon
 
-**Titel:** Großmeister der Ritterschaft / Lehnsherr von [[Seeberg]] / Earl ([[Nortraven]])
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ritter_der_Sieben_Winde]]
-**Zeitraum:** aktiv ab 19 n.H. (Lehnsherr von [[Seeberg]] ab 20 n.H.)
+!!! info "Metadaten"
+    - **Titel:** Großmeister der Ritterschaft / Lehnsherr von [[Seeberg]] / Earl ([[Nortraven]])
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ritter_der_Sieben_Winde]]
+    - **Zeitraum:** aktiv ab 19 n.H. (Lehnsherr von [[Seeberg]] ab 20 n.H.)
+
 
 ## Beschreibung
 **Yves Rondragon** ist ein Ritter der [[Ritter_der_Sieben_Winde]] und Hochmeister des Drachenordens. Seit der Abreise von [[Beladriel_Blaettertanz]] im Jahr 20 n.H. ist er der amtierende **Lehnsherr von [[Feste_Seeberg]]**.

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Avaratio Mischelgrimm
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_134]].md
 ---
 # Avaratio Mischelgrimm
 
-**Titel:** Liegenschaftsverwalter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Falkensee]] / [[Lehensverwaltung]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Liegenschaftsverwalter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Falkensee]] / [[Lehensverwaltung]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Avaratio Mischelgrimm** ist der Liegenschaftsverwalter von [[Falkensee]]. Er ist für die Zuweisung und Versteigerung von Pachtflächen in der künftigen Hauptstadt verantwortlich.

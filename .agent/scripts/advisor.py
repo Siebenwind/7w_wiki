@@ -142,6 +142,14 @@ def read_pages_health() -> dict:
     if not snapshot:
         return {
             "status": "UNKNOWN",
+            "canonical_wiki_root": "docs/Siebenwind_Wiki",
+            "legacy_wiki_root": "Siebenwind_Wiki",
+            "drift_status": "UNKNOWN",
+            "drift_counts": {
+                "docs_only_files": 0,
+                "legacy_only_files": 0,
+                "content_mismatches": 0,
+            },
             "unresolved_total": 0,
             "unallowlisted_total": 0,
             "last_validated_at": None,
@@ -159,6 +167,13 @@ def read_pages_health() -> dict:
 
     return {
         "status": pages.get("status", snapshot.get("status", "UNKNOWN")),
+        "canonical_wiki_root": pages.get("canonical_wiki_root", "docs/Siebenwind_Wiki"),
+        "legacy_wiki_root": pages.get("legacy_wiki_root", "Siebenwind_Wiki"),
+        "drift_status": pages.get("drift_status", "UNKNOWN"),
+        "drift_counts": pages.get(
+            "drift_counts",
+            {"docs_only_files": 0, "legacy_only_files": 0, "content_mismatches": 0},
+        ),
         "unresolved_total": int(pages.get("unresolved_total", 0)),
         "unallowlisted_total": int(pages.get("unallowlisted_total", 0)),
         "last_validated_at": last_validated_at,
@@ -245,6 +260,8 @@ def build_recommendations(phase, task, pending_sources, issues, dispatch_counts,
         recommendations.append(f"Run ./7w_wiki.py repair ({issues} consistency issues).")
     if pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}:
         recommendations.append("Route to /tech_master and run ./7w_wiki.py pages validate --strict.")
+    if pages_health.get("drift_status") in {"WARN", "FAIL"}:
+        recommendations.append("Pages drift detected; reconcile docs/Siebenwind_Wiki with the legacy shadow and higher-precedence sources.")
     if pages_health["unresolved_total"] >= 10:
         recommendations.append("Use ./7w_wiki.py repair --fix-roamlinks --auto for concentrated Pages-link drift.")
     open_dispatch = dispatch_counts.get("OPEN", 0)
@@ -418,6 +435,11 @@ def main():
         f"  🌐 Pages Health:      {pages_color}{pages_health['status']}{RESET} | "
         f"unresolved {pages_health['unresolved_total']} | "
         f"unallowlisted {pages_health['unallowlisted_total']}"
+    )
+    print(
+        f"  🧭 Drift-Status:      {pages_health['drift_status']} | "
+        f"legacy_only {pages_health['drift_counts']['legacy_only_files']} | "
+        f"content_mismatches {pages_health['drift_counts']['content_mismatches']}"
     )
     print(
         "  ⚙️  Tech Sync:        "

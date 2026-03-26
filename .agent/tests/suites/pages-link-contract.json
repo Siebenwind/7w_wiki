@@ -37,14 +37,23 @@
         "status",
         "checks",
         "build",
-        "pages_health"
+        "pages_health",
+        "drift_health"
       ],
       "expect_json_path_exists": [
         "pages_health.last_validated_at",
-        "pages_health.targets"
+        "pages_health.targets",
+        "pages_health.canonical_wiki_root",
+        "pages_health.legacy_wiki_root",
+        "pages_health.drift_status",
+        "pages_health.drift_counts.docs_only_files",
+        "pages_health.analysis_cache.docs_link_index.path",
+        "pages_health.analysis_cache.canonical_name_index.path",
+        "pages_health.analysis_cache.tree_drift.path"
       ],
       "expect_json_path_in": {
-        "pages_health.status": ["PASS", "WARN", "FAIL"]
+        "pages_health.status": ["PASS", "WARN", "FAIL"],
+        "pages_health.drift_status": ["PASS", "WARN", "FAIL"]
       },
       "timeout_sec": 300
     },
@@ -58,7 +67,39 @@
             "\"pages_health\"",
             "\"last_validated_at\"",
             "\"unresolved_total\"",
-            "\"unallowlisted_total\""
+            "\"unallowlisted_total\"",
+            "\"canonical_wiki_root\"",
+            "\"drift_status\"",
+            "\"analysis_cache\""
+          ]
+        },
+        {
+          "file": ".agent/data/cache/docs_link_index.json",
+          "must_include_regex": [
+            "\"version\"",
+            "\"generated_at\"",
+            "\"inputs_fingerprint\"",
+            "\"index\""
+          ]
+        },
+        {
+          "file": ".agent/data/cache/canonical_name_index.json",
+          "must_include_regex": [
+            "\"version\"",
+            "\"generated_at\"",
+            "\"inputs_fingerprint\"",
+            "\"index\""
+          ]
+        },
+        {
+          "file": ".agent/data/cache/tree_drift.json",
+          "must_include_regex": [
+            "\"version\"",
+            "\"generated_at\"",
+            "\"inputs_fingerprint\"",
+            "\"docs_only_files\"",
+            "\"legacy_only_files\"",
+            "\"content_mismatches\""
           ]
         }
       ]
@@ -81,7 +122,10 @@
       ],
       "expect_json_path_exists": [
         "categories.site_integrity.issues",
-        "details.site_integrity.targets"
+        "details.site_integrity.targets",
+        "categories.render_hygiene.issues",
+        "categories.contract_violations.issues",
+        "categories.split_brain.issues"
       ],
       "timeout_sec": 300
     },
@@ -103,6 +147,8 @@
       "expect_json_path_exists": [
         "pages_health.status",
         "pages_health.last_validated_at",
+        "pages_health.drift_status",
+        "pages_health.canonical_wiki_root",
         "tech_hygiene.last_sync_interop_at"
       ]
     }

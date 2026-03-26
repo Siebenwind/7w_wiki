@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: bd53263d-03ed-4de9-b61b-7308c9e1a925
 title: Siebenwind Bote 163
 category: [[index]]
 status: Bote
-uuid: bd53263d-03ed-4de9-b61b-7308c9e1a925
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 163.md
 letzter_check: 2026-02-13T15:10:00+01:00
 ---
 # [[Siebenwind]] Bote 163
 
-**Epistemischer Status:** #bote
-**Datum:** 30. Oner 19 n.H. (Mittentag)
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 30. Oner 19 n.H. (Mittentag)
+
 
 ## Highlights
 *   **Rettung des Königs:** Eine Expedition unter Führung von **[[Toran_Dur]]** brach am 17. Oner nach Etriska auf. Mit einem Tauchboot drangen sie in eine Unterwasserhöhle ein, besiegten die Entführer (darunter zwei adlige Magier) und befreiten den König sowie den Hochadel. Hinter dem Anschlag steckte der ehemalige Hofberater **[[Ignatius_von_Mendel]]**. Die **[[Königin_Brynn]]** hatte sich unerkannt unter die Retter gemischt.

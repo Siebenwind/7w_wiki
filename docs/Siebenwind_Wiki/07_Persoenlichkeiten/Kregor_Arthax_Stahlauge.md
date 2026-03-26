@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Kregor Arthax_Stahlauge
 category: Persönlichkeit
 ---
 
 # Kregor [[Arthax_Stahlauge]]
 
-**Titel:** Herr unter dem Berg, Anführer der Dwarschim in Dunquell
-**Epistemischer Status:** #canon
-**Zugehörigkeit:** Volk der Dwarschim / Dunquell
-**Zeitraum:** Aktiv (Bestätigt als Anführer ~15-20 n.H.)
+!!! info "Metadaten"
+    - **Titel:** Herr unter dem Berg, Anführer der Dwarschim in Dunquell
+    - **Epistemischer Status:** #canon
+    - **Zugehörigkeit:** Volk der Dwarschim / Dunquell
+    - **Zeitraum:** Aktiv (Bestätigt als Anführer ~15-20 n.H.)
+
 
 ## Beschreibung
 Kregor Stahlauge ist der politische und militärische Führer der [[Rasse_Zwerge]] in der Region Dunquell. Er gilt als besonnener, aber wehrhafter Anführer, der die Autonomie der Rasse_Zwerge wahrt, während er gleichzeitig die Allianz mit den [[Rasse_Menschen]] gegen äußere Bedrohungen pflegt.

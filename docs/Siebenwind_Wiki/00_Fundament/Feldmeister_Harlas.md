@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Feldmeister Harlas
 category: Allgemein
 status: UNGEKLAERT

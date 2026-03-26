@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Razzin
 category: Allgemein
 status: UNGEKLAERT

@@ -1,12 +1,11 @@
 ---
-layout: wiki_page
 title: Homunkuli ("Die falschen Seelen")
 category: [[index]]
 status: Canon
 quelle: "../../Quellen/[[index]] [[Toran_Dur]]/Anonymous - Homunkuli.md"
+author: "[[Anonymus]]"
 lore_trust: 8
 confidence: Certain
-author: "[[Anonymus]]"
 ---
 
 # Homunkuli ("Die falschen Seelen")

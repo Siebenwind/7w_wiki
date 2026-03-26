@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Orden des wachenden Loewen
 category: Allgemein
 status: UNGEKLAERT

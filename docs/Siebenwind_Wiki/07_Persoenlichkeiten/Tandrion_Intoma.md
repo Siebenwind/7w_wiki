@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Tandrion Intoma
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Tandrion Intoma
 
-**Titel:** Ältester / Ratsherr (†)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Hochelfen]] / [[Ersonter_Rat]]
+!!! info "Metadaten"
+    - **Titel:** Ältester / Ratsherr (†)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Hochelfen]] / [[Ersonter_Rat]]
+
 
 ## Beschreibung
 **Tandrion Intoma** war einer der Ältesten der Hochelfen in [[Falkensee]] und Mitglied des Ersonter Rates (Tempelwache).

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Wirtshaftsregister
 category: Allgemein
 status: UNGEKLAERT

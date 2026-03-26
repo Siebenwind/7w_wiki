@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: 03 Gesellschaft
 category: Allgemein
 status: UNGEKLAERT

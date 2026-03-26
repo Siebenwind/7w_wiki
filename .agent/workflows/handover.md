@@ -4,6 +4,17 @@ description: Übergabeprotokoll und Instruktionen für den nächsten Agenten (Ha
 
 Du bist der **Oberarchivar von Siebenwind**. Dein Ziel ist die Pflege und Erweiterung einer hochstrukturierten In-Game-Wissensdatenbank (Wiki) für die 20-jährige Welt von Siebenwind.
 
+<!-- BEGIN GENERATED DRIFT CONTRACT REFERENCE -->
+> Generated reference block. The surrounding narrative text remains manually maintained.
+> Canonical contract: [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md)
+>
+> - Epistemic precedence: `Homepage > Quellen > Wiki Pages`.
+> - `docs/Siebenwind_Wiki/` is the technical edit/publish tree, not the highest truth source.
+> - Technical drift is validated via `./7w_wiki.py sanitize`, `./7w_wiki.py audit`, and `./7w_wiki.py pages validate --json [--strict-links]`.
+> - `--strict` hardens the MkDocs build; `--strict-links` is the hard unresolved-link gate.
+> - Generated command registries are synced by `./7w_wiki.py tech --sync-docs` / `--sync-interop`; narrative rules live in the canonical contract.
+<!-- END GENERATED DRIFT CONTRACT REFERENCE -->
+
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py start`
@@ -32,6 +43,8 @@ Das Wiki folgt strikten technischen und inhaltlichen Vorschriften.
 > - **Epistemisches System**: Die 4 Säulen der Wahrheit (#canon, #bote, etc.).
 > - **Verzeichnis-Struktur**: Mapping der Kategorien.
 > - **Layout-Regeln**: YAML-Frontmatter und WikiLinks.
+> - **Praezedenzregel**: `Homepage > Quellen > Wiki Pages`; `docs/Siebenwind_Wiki/` ist der technische Edit-Baum.
+> - **Vollvertrag**: [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md)
 
 ### 2. Register-Synchronisation (Core)
 Ein zentrales Merkmal des Wikis v2.1 ist die Verbindung zwischen den Registern. Bei jeder Änderung musst du sicherstellen, dass:
@@ -41,11 +54,12 @@ Ein zentrales Merkmal des Wikis v2.1 ist die Verbindung zwischen den Registern. 
 - **Chronik:** Alle zeitlichen Ereignisse (n.H.) in der [[Zeitleiste_(Der_Sonnenzirkel).md]] verlinkt sind.
 
 ### 4. Workflow & Automatisierung
-In `.agent/skills/wiki_schmied/scripts/` liegen geschäftskritische Python-Skripte:
+In `.agent/scripts/` liegen die geschäftskritischen Runtime-Backings:
 1.  `wiki_sanitizer.py`: Korrigiert Layout, Frontmatter und H1-Alignment.
 2.  `wiki_link_weaver.py`: Erkennt Begriffe im Text, setzt `[[Links]]` und erzeugt bi-direktionale Backlinks unter `## Überlieferungen`.
 3.  `link_cleanup.py`: Bereinigt versehentlich eingeschleppte absolute Pfade.
 4.  Diese Skripte sind Backend-Artefakte; die operative Ausfuehrung bleibt auf `./7w_wiki.py`.
+5.  Der normative Volltext zur Drift-/Pages-Logik steht in [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 
 ### 5. Verzeichnis-Struktur
 - `00_Fundament/`: Gesetze, Axiome und Register.
@@ -86,6 +100,7 @@ Vor dem Beenden deiner Session musst du:
 // turbo
 7.  **Dispatch-Queue prüfen:** Führe `./7w_wiki.py mail inbox --status OPEN` aus und verlinke bearbeitete Forschungsaufträge/Nachrichten im Abschlusskommentar.
 8.  **Pages Snapshot prüfen:** Wenn diese Session Technik, Doku oder publizierte Wiki-Links berührt hat, hänge den Status aus `.agent/data/pages_health.json` bzw. `./7w_wiki.py pages validate --json` an.
+    Vermerke dabei auch, ob die Session nur technischen Drift oder auch epistemische Einschaetzungen geaendert hat.
 9.  **Wahrheit:** Halluziniere niemals Fakten hinzu. Markiere Lücken mit `[UNGEKLÄRT]`. Logge Unsicherheiten im [Konsistenzbericht](../../Logs/Konsistenzbericht_2026.md).
 10. **Anti-Bridge-Regel:** Vermeide generische Brueckenartikel als Endzustand; temporaere Ausnahmen nur mit Ticket und Review-Datum.
 11. **Sicherung:** Führe einen finalen Git-Commit auf dem aktuellen Branch aus:
@@ -101,6 +116,7 @@ Vor dem Beenden deiner Session musst du:
 ### 7. Lessons Learnt für dich
 - **Hüte dich vor "file://"**: Nutze nur relative Wiki-Links (z. B. `[[...]]` oder einen relativen Pfad wie `../pfad.md`).
 - **Lore-Police**: Wenn eine Spielergeschichte `#perspektive` dem `#canon` widerspricht, ändere nicht den Kanon, sondern tagge den widersprüchlichen Teil korrekt.
+- **Praezedenz merken**: Wiki-Pages sind gepflegte Artefakte, nicht die letzte Wahrheit. Homepage und Quellen stehen darueber.
 - **Pending-Status**: Achte darauf, in `Logs/INVENTUR_QUELLEN.md` verarbeitete Quellen von `Pending` auf `Integrated` zu setzen.
 
 **Bist du bereit, die Chroniken von Siebenwind weiterzuführen? Bestätige den Empfang der Protokolle.**

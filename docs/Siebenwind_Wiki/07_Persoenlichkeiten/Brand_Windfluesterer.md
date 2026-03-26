@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Brand Windflüsterer
 category: Persönlichkeit
 ---
 
 # Brand Windflüsterer
 
-**Titel:** Priester des [[Enhor]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ecclesia_Elementorum]]
-**Zeitraum:** 19 n.H. - † 21 n.H.
+!!! info "Metadaten"
+    - **Titel:** Priester des [[Enhor]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ecclesia_Elementorum]]
+    - **Zeitraum:** 19 n.H. - † 21 n.H.
+
 
 ## Beschreibung
 Brand Windflüsterer war ein Priester des Windgottes [[Enhor]] ([[Ventus]]). Er war bekannt für sein feuriges Temperament und seine strenge Auslegung der Ordensregeln. Im Jahr 21 n.H. (Bote 181) starb er während einer Gerichtsverhandlung in [[Falkensee]], nachdem er sich in Blitze aufgelöst hatte.

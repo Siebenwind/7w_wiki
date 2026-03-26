@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Elementarwerdung (Die Bindung an das Element)
 category: [[index]]
 status: integrated

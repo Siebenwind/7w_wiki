@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Geduldiger Sand
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_193]].md
 ---
 # Geduldiger Sand
 
-**Titel:** Erdrufer der [[Echsenmenschen]]
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Splitterfelsen]] / [[Echsenmenschen]]
-**Zeitraum:** aktiv um 30 n.H.
+!!! info "Metadaten"
+    - **Titel:** Erdrufer der [[Echsenmenschen]]
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Splitterfelsen]] / [[Echsenmenschen]]
+    - **Zeitraum:** aktiv um 30 n.H.
+
 
 ## Beschreibung
 **Geduldiger Sand** ist ein Erdrufer (Magier/Schamane) der [[Echsenmenschen]], die in den [[Splitterfelsen]] leben. Er gilt als besonnen und pragmatisch im Vergleich zu den fanatischen Hohepriestern seines Volkes.

@@ -1,7 +1,6 @@
 ---
 uuid: 1b3c8f24-7fb5-4ec3-9d43-7b1f17f69371
 status: ACTIVE
-updated_at: 2026-02-18T01:05:00Z
 epistemic: "#meta"
 ---
 
@@ -16,6 +15,18 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 3. Discoverability fuer Codex/Jules ueber `.agents/skills/` als duenne Wrapper; Workflow-Bridges und Skill-Bridges teilen sich dieselbe externe Flaeche.
 4. Governance-Dokumente bleiben in `System/` und `System/Synapse_Board/`.
 5. Neue Systemdokumente muessen in `System/COORDINATION_HUB.md` registriert werden.
+6. Epistemische Praezedenz ist `Homepage > Quellen > Wiki Pages`; die volle Drift-/Pages-Regel steht in [SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
+
+<!-- BEGIN GENERATED DRIFT CONTRACT REFERENCE -->
+> Generated reference block. The surrounding narrative text remains manually maintained.
+> Canonical contract: [SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md)
+>
+> - Epistemic precedence: `Homepage > Quellen > Wiki Pages`.
+> - `docs/Siebenwind_Wiki/` is the technical edit/publish tree, not the highest truth source.
+> - Technical drift is validated via `./7w_wiki.py sanitize`, `./7w_wiki.py audit`, and `./7w_wiki.py pages validate --json [--strict-links]`.
+> - `--strict` hardens the MkDocs build; `--strict-links` is the hard unresolved-link gate.
+> - Generated command registries are synced by `./7w_wiki.py tech --sync-docs` / `--sync-interop`; narrative rules live in the canonical contract.
+<!-- END GENERATED DRIFT CONTRACT REFERENCE -->
 
 ## Strukturkarte
 
@@ -29,12 +40,14 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 | `.agents/skills/` | Interop-Wrapper fuer externe Agenten (Skills + Workflow-Bridges) | Bruecke |
 | `System/Synapse_Board/` | Governance, Interop-Normen, Dispatch-Standards | Ja |
 | `docs/` | GitHub-Pages-Ausspielung | Publishing |
+| `docs/Siebenwind_Wiki/` | Technischer Edit-Baum fuer Wiki-Pages | Ja (technisch), nein (epistemisch) |
 
 ## Standard-Arbeitszyklus
 
 1. Orientieren: `./7w_wiki.py start` und `./7w_wiki.py advisor`.
 2. Planen: `MASTER_TASK_LIST.md`, `task.md`, offene Dispatch-Nachrichten.
 3. Umsetzen: Nur ueber CLI-Kommandos aus `7w_wiki.py`.
+   Drift zuerst klassifizieren: technischer Drift (Layout, Links, Split-Brain, Generatoren) vs. epistemischer Drift (Homepage/Quellen widersprechen Wiki-Pages). Fuer den verbindlichen Volltext gilt [SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 4. Validieren: Mindestens `./7w_wiki.py audit`, bei Dokuaenderungen auch `check`, `stats`, `archive sync`.
 5. Dokumentieren: `CHANGELOG.md`, Boards, Register- und Doku-Updates.
 
@@ -121,11 +134,11 @@ Referenz: `System/Synapse_Board/SY_TESTING.md`
 
 `./7w_wiki.py search` muss mit expliziter Quelle genutzt werden:
 
-- `--source wiki`: kuratierte Wissensebene
+- `--source wiki`: abgeleitete Wiki-Ebene unter `docs/Siebenwind_Wiki/`
 - `--source quellen`: Rohquellenebene
 - `--source all`: Kreuzabgleich beider Ebenen
 
-Regel: Bei relevanten Lore-Entscheidungen immer mindestens `wiki` und `quellen` pruefen; bei Konflikten `all` als Gesamtabgleich.
+Regel: Bei relevanten Lore-Entscheidungen immer Homepage und Quellen gegenpruefen; `wiki` ist die abgeleitete Seitenebene. `all` ist ein Arbeitsabgleich, kein Override der Praezedenz.
 
 ## Codex-Workflow-Bridges
 
@@ -189,7 +202,7 @@ Verbindlich gemaess `System/Synapse_Board/SY_DISPATCH.md`:
 ### Reader-Stats-Hygiene
 
 1. `./7w_wiki.py stats` erzeugt drei gekoppelte Artefakte:
-   - `Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md` (Leseransicht)
+   - `docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md` (Leseransicht)
    - `Logs/INGESTION_TRACKING_REGISTER.md` (Tracking-Detail)
    - `Logs/Archive/STATS_SNAPSHOT_latest.json` (maschinenlesbare Schnittstelle)
 2. Pflicht-Check: `./7w_wiki.py test --suite reader-stats-contract`.
@@ -201,8 +214,10 @@ Verbindlich gemaess `System/Synapse_Board/SY_DISPATCH.md`:
 3. Escalation: `./7w_wiki.py pages validate --json --strict-links` failt auf nicht-allowlistete unresolved Targets.
 4. `./7w_wiki.py audit --pages` zieht denselben Site-Integritaetsstatus in den Audit.
 5. `./7w_wiki.py repair --fix-roamlinks --auto` ist der aggressive, aber begrenzte Reparaturpfad fuer Pages-Linkdrift.
+6. Der normative Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 6. Policy-Datei: `.agent/config/pages_link_policy.json`.
 7. Snapshot-Datei: `.agent/data/pages_health.json`.
+8. Pages-Integritaet verhindert technischen Publishing-Drift; sie entscheidet keine Lore-Wahrheit gegen Homepage oder Quellen.
 
 ### Runtime-Konfiguration (zentral)
 
@@ -227,6 +242,7 @@ Reihenfolge bei Oracle:
 
 1. Autoritative Betriebsdokumente liegen in `System/`.
 2. Fuer GitHub Pages werden sichtbare Eintraege in `docs/` und `mkdocs.yml` gepflegt.
+2a. `docs/Siebenwind_Wiki/` ist die technische Pflegeflaeche fuer Wiki-Pages. Epistemische Wahrheit bleibt davon getrennt und folgt `Homepage > Quellen > Wiki Pages`; der Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 3. **Pages-Deployment**: Die Seite wird ueber `.github/workflows/deploy.yml` bei `push` auf `main`, bei **Tags (`v*`)** und per `workflow_dispatch` gebaut.
 4. **Release-Bundles**: Bundles werden nicht im Git-Verlauf oder auf `gh-pages` gespeichert. `.github/workflows/release-bundles.yml` baut sie nur fuer **Tags (`v*`)** und haengt sie als GitHub Release-Assets an.
 5. **Lokales Packaging**: Entwickler erzeugen Bundles ueber `./7w_wiki.py package ...`; der Standard-Ausgabeort `dist/` bleibt ein Runtime-/Release-Artefakt und wird nicht versioniert.

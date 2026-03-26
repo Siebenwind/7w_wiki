@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: a1b2c3d4-e5f6-4a1b-8c9d-0e1f2a3b4c5d
 title: Argus Ebonhart
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: 890b0622-d0c2-4d8e-8518-41047c90817d
 
 # Argus Ebonhart
 
-**Titel:** Magier
-**Epistemischer Status:** #canon
-**Zugehörigkeit:** Zirkel der [[index]] / Königliche Akademie
+!!! info "Metadaten"
+    - **Titel:** Magier
+    - **Epistemischer Status:** #canon
+    - **Zugehörigkeit:** Zirkel der [[index]] / Königliche Akademie
+
 
 ## Beschreibung
 **Argus Ebonhart** ist ein hocheminenter Magier, der dem inneren Zirkel der arkane Künste in Galadon angehört. Er gilt als Experte für theoretische Metamagie und historische Artefakte.

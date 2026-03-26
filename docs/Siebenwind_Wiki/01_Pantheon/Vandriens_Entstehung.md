@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: "Vandriens Entstehung"
 category: [[index]]
 status: integrated

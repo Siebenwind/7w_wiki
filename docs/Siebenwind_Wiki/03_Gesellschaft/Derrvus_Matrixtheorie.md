@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: "Postulat der idealen Form von Matricen"
 category: [[index]]
 status: integrated

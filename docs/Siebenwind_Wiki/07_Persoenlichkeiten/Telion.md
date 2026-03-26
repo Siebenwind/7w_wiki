@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Telion
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_146]].md
 ---
 # Telion
 
-**Titel:** Massenmörder / Falscher Abgesandter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** unbekannt (vermutlich Diener des Einen oder Vandrien)
-**Zeitraum:** aktiv um 17 n.H.
+!!! info "Metadaten"
+    - **Titel:** Massenmörder / Falscher Abgesandter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** unbekannt (vermutlich Diener des Einen oder Vandrien)
+    - **Zeitraum:** aktiv um 17 n.H.
+
 
 ## Beschreibung
 **Telion** ist ein gesuchter Massenmörder, der für grausamen Taten bekannt ist.

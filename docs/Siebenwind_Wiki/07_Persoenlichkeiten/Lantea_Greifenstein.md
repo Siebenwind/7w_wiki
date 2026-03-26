@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lantea Greifenstein
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_154]].md
 ---
 # Lantea Greifenstein
 
-**Titel:** Getreue
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Orden_des_wachenden_Loewen]]
-**Zeitraum:** aktiv 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Getreue
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Orden_des_wachenden_Loewen]]
+    - **Zeitraum:** aktiv 18 n.H.
+
 
 ## Beschreibung
 **Lantea Greifenstein** ist ein Mitglied (Getreue) des Löwenordens.

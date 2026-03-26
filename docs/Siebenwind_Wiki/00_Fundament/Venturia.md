@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Venturia
 category: Allgemein
 status: UNGEKLAERT

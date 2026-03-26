@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Decaras Pelenus
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Decaras Pelenus
 
-**Titel:** Adeptus / ehem. Grauer Rat
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Grauer_Pfad]] ([[index]])
+!!! info "Metadaten"
+    - **Titel:** Adeptus / ehem. Grauer Rat
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Grauer_Pfad]] ([[index]])
+
 
 ## Beschreibung
 **Decaras Pelenus** ist ein Magier des Grauen Pfades (Gleichgewicht).

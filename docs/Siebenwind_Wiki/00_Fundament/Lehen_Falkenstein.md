@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Lehen Falkenstein
 category: Allgemein
 status: UNGEKLAERT

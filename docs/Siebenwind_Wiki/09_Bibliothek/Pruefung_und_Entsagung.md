@@ -1,9 +1,8 @@
 ---
-layout: wiki_page
 title: Prüfung und Entsagung
 category: [[index]]
-tags: [Erzählung, [[Bellum]], Vandrien, Liebe, Tragödie]
 status: #perspektive
+tags: [Erzählung, [[Bellum]], Vandrien, Liebe, Tragödie]
 ---
 
 # Prüfung und Entsagung

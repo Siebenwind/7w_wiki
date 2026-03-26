@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: 00 Religion Uebersicht
 category: Allgemein
 status: UNGEKLAERT

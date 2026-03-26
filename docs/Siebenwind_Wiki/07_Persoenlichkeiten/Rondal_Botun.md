@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: 4e5f6a7b-8c9d-4e0f-1a2b-3c4d5e6f7a8b
 title: Rondal Botun
 category: Persönlichkeit
@@ -10,9 +9,11 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 
 # Rondal Botun
 
-**Titel:** Anwärter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Ordo_Belli]] / [[Bellum|Bellum]]
+!!! info "Metadaten"
+    - **Titel:** Anwärter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Ordo_Belli]] / [[Bellum|Bellum]]
+
 
 ## Beschreibung
 **Rondal Botun** ist ein Anwärter des [[Bellum]]-Ordens, der im Jahr 21 n.H. in den Klerusregistern erwähnt wird (Bote 179).

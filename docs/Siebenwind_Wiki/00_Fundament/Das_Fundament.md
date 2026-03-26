@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Das index
 category: Index
 ---

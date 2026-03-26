@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Verhaftung von Marnie_Ruatha
 category: [[index]]
 ---
 
 # Verhaftung von [[Marnie_Ruatha]]
 
-**Epistemischer Status:** #bote
-**Datum:** 10. Carmer 22 n.H. (Bote 186)
-**Ort:** [[Brandenstein]]
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 10. Carmer 22 n.H. (Bote 186)
+    - **Ort:** [[Brandenstein]]
+
 
 ## Verlauf
 Die Edelfrau [[Marnie_Ruatha]], Patrizierin von Malthust, wurde in [[Brandenstein]] von der Malthuster Wacht unter Leutnant [[Erin_Caoimme]] festgesetzt.

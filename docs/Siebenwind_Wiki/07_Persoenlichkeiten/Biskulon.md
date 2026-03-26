@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Biskulon
 category: Persönlichkeit
 ---
 
 # Biskulon
 
-**Titel:** Archivar / Bauleiter
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Ordo Astraeli
-**Zeitraum:** aktiv um 17 n.H.
+!!! info "Metadaten"
+    - **Titel:** Archivar / Bauleiter
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Ordo Astraeli
+    - **Zeitraum:** aktiv um 17 n.H.
+
 
 ## Beschreibung
 Biskulon ist ein engagiertes Mitglied des Ordo Astraeli in [[Falkensee]]. Er ist primär mit der Verwaltung und dem Ausbau der dortigen [[index]] betraut.

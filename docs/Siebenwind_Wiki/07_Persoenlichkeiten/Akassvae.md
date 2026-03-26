@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Akassvae
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Akassvae
 
-**Titel:** Grüner Lindwurm / "Die Geschuppte"
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Echsenmenschen]] ([[Splitterfelsen]]) / [[Rien]]-Einfluss
+!!! info "Metadaten"
+    - **Titel:** Grüner Lindwurm / "Die Geschuppte"
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Echsenmenschen]] ([[Splitterfelsen]]) / [[Rien]]-Einfluss
+
 
 ## Beschreibung
 **Akassvae** ist ein weiblicher grüner Lindwurm, der im Jahre 30 n.H. aus einem Ei schlüpfte, das von [[Ras_Altanin]] nach [[Siebenwind]] gebracht wurde. Sie wurde von den Echsenmenschen des Splitterfelsens aufgezogen und im Sinne der Prophezeiung vom "Anbrechen des Zeitalters der Geschuppten" als Waffe gegen die "Ungeschuppten" ([[Menschen]], [[Elfen]], Dwarschim) erzogen.

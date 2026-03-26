@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Wisper
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_148]].md
 ---
 # Wisper
 
-**Titel:** Schwarzmagierin / Mazzaremerin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Mazzareem]]
-**Zeitraum:** aktiv 17 n.H.
+!!! info "Metadaten"
+    - **Titel:** Schwarzmagierin / Mazzaremerin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Mazzareem]]
+    - **Zeitraum:** aktiv 17 n.H.
+
 
 ## Beschreibung
 **Wisper** ist eine in grün gewandete Magierin, die dem Volk von [[Mazzareem]] zugerechnet wird.

@@ -1,14 +1,13 @@
 ---
-layout: wiki_page
-title: Wiki Status
+title: "📊 Siebenwind Kompass"
 category: Index
 ---
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-02-18 01:07
+**Stand:** 2026-03-26 15:10
 
-> Wissenswetter: **Stuermisch: viele offene Baustellen, aber aktive Bewegung.**
+> Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
 ---
 
@@ -16,10 +15,10 @@ category: Index
 
 | Kennzahl | Wert |
 | :--- | :--- |
-| Artikel | **1360** |
-| Worte | **188,405** |
-| Durchschnittliche Artikellaenge | **139 Worte** |
-| Interne Verweise (`[[...]]`) | **15,018** |
+| Artikel | **1356** |
+| Worte | **186,866** |
+| Durchschnittliche Artikellaenge | **138 Worte** |
+| Interne Verweise (`[[...]]`) | **14,974** |
 | Vernetzungsdichte | **11.0 Links/Artikel** |
 | Personenprofile | **586** |
 
@@ -29,9 +28,9 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 1335 | - | - |
-| Letzte 30 Tage | 1335 | 1332 | 95 |
-| Letzte 90 Tage | 1335 | - | - |
+| Letzte 7 Tage | 0 | - | - |
+| Letzte 30 Tage | 0 | 0 | 0 |
+| Letzte 90 Tage | 1344 | - | - |
 
 ---
 
@@ -43,25 +42,25 @@ pie title Artikel pro Sektion
     "05_Magie" : 41
     "08_Bestiarium" : 33
     "03_Wissen" : 54
-    "03_Gesellschaft" : 57
+    "03_Gesellschaft" : 53
     "05_Geschichte" : 58
-    "02_Geografie" : 56
+    "02_Geografie" : 57
     "01_Pantheon" : 52
     "04_Chronik" : 83
     "06_Erzählungen" : 13
     "09_Bibliothek" : 28
-    "00_Fundament" : 287
+    "00_Fundament" : 286
 ```
 
 ## 📚 Lesetiefe nach Sektion (Top 5)
 
 | Sektion | Artikel | Ø Worte/Artikel | Ø Links/Artikel |
 | :--- | ---: | ---: | ---: |
-| `01_Pantheon` | 52 | 411 | 13.3 |
-| `06_Erzählungen` | 13 | 328 | 12.7 |
-| `Root` | 1 | 285 | 1.0 |
-| `05_Magie` | 41 | 279 | 14.2 |
-| `04_Chronik` | 83 | 271 | 35.3 |
+| `01_Pantheon` | 52 | 409 | 13.3 |
+| `06_Erzählungen` | 13 | 326 | 12.7 |
+| `Root` | 1 | 283 | 1.0 |
+| `05_Magie` | 41 | 277 | 14.2 |
+| `04_Chronik` | 83 | 270 | 35.3 |
 
 
 ---
@@ -71,11 +70,11 @@ pie title Artikel pro Sektion
 ### Starke Knoten (gesamt)
 | Entitaet | Verweise |
 | :--- | ---: |
-| [[Siebenwind]] | 705 |
+| [[Siebenwind]] | 702 |
 | [[Falkensee]] | 543 |
-| [[Brandenstein]] | 465 |
+| [[Brandenstein]] | 466 |
 | [[Astrael]] | 192 |
-| [[Toran_Dur]] | 173 |
+| [[Toran_Dur]] | 170 |
 | [[Bellum]] | 165 |
 | [[Nortraven]] | 144 |
 
@@ -83,7 +82,7 @@ pie title Artikel pro Sektion
 ### Praegende Persoenlichkeiten
 | Persoenlichkeit | Verweise |
 | :--- | ---: |
-| [[Toran_Dur]] | 173 |
+| [[Toran_Dur]] | 170 |
 | [[Geist]] | 125 |
 | [[Custodias]] | 83 |
 | [[Waldemar_Delarie]] | 60 |
@@ -110,17 +109,25 @@ pie title Artikel pro Sektion
 
 | Qualitaetsindikator | Wert | Fortschritt |
 | :--- | :--- | :--- |
-| Frontmatter-Abdeckung | 1360/1360 | `##########` 100.0% |
-| Aufgeloeste Quellenangabe (`quelle`) | 440/1360 | `###-------` 32.4% |
-| Ingestion Tracking vollstaendig | 50/54 | `#########-` 92.6% |
-| Ingestion Reports mit LQS | 52/54 | `##########` 96.3% |
-| `[UNGEKLAERT]`-Marker (gesamt) | 252 | Beobachtung |
+| Frontmatter-Abdeckung | 1356/1356 | `##########` 100.0% |
+| Aufgeloeste Quellenangabe (`quelle`) | 437/1356 | `###-------` 32.2% |
+| Ingestion Tracking vollstaendig | 55/55 | `##########` 100.0% |
+| Ingestion Reports mit LQS | 53/55 | `##########` 96.4% |
+| `[UNGEKLAERT]`-Marker (gesamt) | 251 | Beobachtung |
+
+## 🔏 Drift & Provenance
+| Kennzahl | Wert |
+| :--- | :--- |
+| Technischer Edit-Baum | `docs/Siebenwind_Wiki/` |
+| Epistemische Praezedenz | `homepage > sources > wiki` |
+| Homepage-Kanon | `https://www.siebenwind.de/` |
+| Inventar | `.agent/data/wiki_inventory.json` |
 
 ## Epistemische Verteilung
 | Tag | Artikel |
 | :--- | ---: |
-| `#bote` | 592 |
-| `#unbekannt` | 423 |
+| `#bote` | 589 |
+| `#unbekannt` | 422 |
 | `#canon` | 135 |
 | `#ueberlieferung` | 107 |
 | `#perspektive` | 102 |
@@ -133,31 +140,23 @@ pie title Artikel pro Sektion
 
 | Metrik | Stand |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | 437 |
-| Delta zum vorigen Audit | +0 |
-| Bridge-/Placeholder-Seiten | 89 |
-| Davon ohne Ausnahme-Metadaten | 89 |
-| Test-Suiten PASS | 7 |
-| Test-Suiten FAIL | 1 |
+| Letzter Audit-Problemtotal | 178 |
+| Delta zum vorigen Audit | -792 |
+| Bridge-/Placeholder-Seiten | 88 |
+| Davon ohne Ausnahme-Metadaten | 88 |
+| Test-Suiten PASS | 0 |
+| Test-Suiten FAIL | 0 |
 
 ### Letzte Test-Suites
 | Suite | Ergebnis | PASS | FAIL | SKIP |
 | :--- | :--- | ---: | ---: | ---: |
-| `bridge-placeholder-guard` | **PASS** | 2 | 0 | 0 |
-| `clean-client-state` | **PASS** | 8 | 0 | 0 |
-| `interop-doc-links` | **PASS** | 1 | 0 | 0 |
-| `process-dispatch-curiosity` | **PASS** | 1 | 0 | 0 |
-| `rag-relevance-smoke` | **FAIL** | 1 | 3 | 0 |
-| `reader-stats-contract` | **PASS** | 2 | 0 | 0 |
-| `source-link-hygiene` | **PASS** | 1 | 0 | 0 |
-| `takeover-handover` | **PASS** | 5 | 0 | 0 |
 
 
 ## 📍 Fortschritt Live Verfolgen
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_14de6856-3365-45ee-af46-370ff11b468a.txt`
+- Letzter Audit: `Logs/Archive/Audit_e9972f7c-85ca-4e3c-8318-bc1f4035072d.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

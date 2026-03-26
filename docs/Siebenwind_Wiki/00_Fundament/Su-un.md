@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Su-un
 category: Allgemein
 status: UNGEKLAERT

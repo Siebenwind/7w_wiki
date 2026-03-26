@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Weidenbach
 category: Allgemein
 status: UNGEKLAERT

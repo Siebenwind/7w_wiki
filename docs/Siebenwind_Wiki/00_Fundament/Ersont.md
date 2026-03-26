@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Ersont
 category: Allgemein
 status: UNGEKLAERT

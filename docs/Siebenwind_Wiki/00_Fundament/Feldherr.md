@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Feldherr
 category: Allgemein
 status: UNGEKLAERT

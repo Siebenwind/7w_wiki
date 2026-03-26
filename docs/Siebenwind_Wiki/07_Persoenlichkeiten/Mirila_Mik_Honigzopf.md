@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Mirila Mik-Honigzopf
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -8,9 +7,11 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_192]].md
 
 # Mirila Mik-Honigzopf
 
-**Titel:** Bürgermeisterin von [[Rothenbucht]] / Patrizierin
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Rothenbucht]] / [[Rasse_Hobbits]]
+!!! info "Metadaten"
+    - **Titel:** Bürgermeisterin von [[Rothenbucht]] / Patrizierin
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Rothenbucht]] / [[Rasse_Hobbits]]
+
 
 ## Beschreibung
 **Mirila Mik-Honigzopf** ist eine angesehene Hobbit-Patrizierin und die Bürgermeisterin der freien Reichsstadt [[Rothenbucht]] (ernannt 30 n.H.). Nach dem Tod ihres Mannes während der cortanischen Besatzung wurde sie zur treibenden Kraft des Widerstands in der Stadt.

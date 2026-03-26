@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Hektor
 category: Persönlichkeit
 ---
 
 # Hektor
 
-**Titel:** Waibel / Interims-Führer der Garde ([[Falkensee]])
-**Epistemischer Status:** #canon
-**Zugehörigkeit:** [[Finianswacht]] (Garde) / Waldemar Delaries Gefolge
-**Zeitraum:** Aktiv während des "Putsches" (ca. 26 n.H.)
+!!! info "Metadaten"
+    - **Titel:** Waibel / Interims-Führer der Garde ([[Falkensee]])
+    - **Epistemischer Status:** #canon
+    - **Zugehörigkeit:** [[Finianswacht]] (Garde) / Waldemar Delaries Gefolge
+    - **Zeitraum:** Aktiv während des "Putsches" (ca. 26 n.H.)
+
 
 ## Beschreibung
 Hektor war der treue Stellvertreter von **[[Waldemar_Delarie]]**. Er gilt als fähiger Soldat, dem jedoch das politische Feingefühl seines Vorgesetzten fehlt. Sein Handeln führte zum bisher schwersten politischen Bruch in der [[index]] Falkensees.

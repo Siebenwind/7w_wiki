@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 123
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 123
 
-**Epistemischer Status:** #bote
-**Datum:** 5. Carmer 15 n.H.
-**Redaktion:** [[Mael_Duin]] / J.D / [[Arn]] / HTd / TR
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 5. Carmer 15 n.H.
+    - **Redaktion:** [[Mael_Duin]] / J.D / [[Arn]] / HTd / TR
+
 
 ## Schlagzeilen
 

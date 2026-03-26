@@ -1,16 +1,17 @@
 ---
-layout: wiki_page
+uuid: 8dde4f46-2b4d-49ec-a50f-b1b6f2157aec
 title: Siebenwind Bote 133
 category: [[index]]
 status: Bote
-uuid: 8dde4f46-2b4d-49ec-a50f-b1b6f2157aec
 quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 133.md
 letzter_check: 2026-02-13T00:52:00+01:00
 ---
 # [[Siebenwind]] Bote 133
 
-**Epistemischer Status:** #bote
-**Datum:** 21. Duler 16 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 21. Duler 16 n.H.
+
 
 ## Überblick
 Die Ausgabe 133 berichtet von den Ehrentagen der [[Vitama]], einem großen Turnier in [[Falkensee]] sowie einer unheimlichen Begegnung in den Wäldern von [[Brandenstein]].

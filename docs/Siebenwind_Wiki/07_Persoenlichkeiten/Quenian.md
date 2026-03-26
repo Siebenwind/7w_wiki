@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Quenian
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_173]].md
 ---
 # Quenian
 
-**Titel:** Leutnant
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Siebenwind_Kronregiment]]
-**Zeitraum:** aktiv ab 20 n.H.
+!!! info "Metadaten"
+    - **Titel:** Leutnant
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Siebenwind_Kronregiment]]
+    - **Zeitraum:** aktiv ab 20 n.H.
+
 
 ## Beschreibung
 **Quenian** ist ein Offizier des [[Siebenwind_Kronregiment|Kronregiments]]. Er ist bekannt für seine Disziplin und Treue.

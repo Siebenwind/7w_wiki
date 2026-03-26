@@ -1,14 +1,15 @@
 ---
-layout: wiki_page
 title: Deros Gudowisch
 category: [[Persoenlichkeiten_Uebersicht]]
 ---
 
 # Deros Gudowisch
 
-**Titel:** Feinwerker / Wohlhabender Bürger
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Elfen]] / [[Brandenstein]]
+!!! info "Metadaten"
+    - **Titel:** Feinwerker / Wohlhabender Bürger
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Elfen]] / [[Brandenstein]]
+
 
 ## Beschreibung
 **Deros Gudowisch** ist ein Elf und Feinwerker. Er gilt als einer der wohlhabendsten Männer in [[Brandenstein]].

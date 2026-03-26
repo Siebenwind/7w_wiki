@@ -1,6 +1,5 @@
 ---
-layout: wiki_page
-title: Recht
+title: "Siebenwind Wiki - Recht"
 ---
 
 # [[Siebenwind]] Wiki - Recht

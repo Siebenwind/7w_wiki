@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Isgrim
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_140]].md
 ---
 # Isgrim
 
-**Titel:** Oberjäger
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Baronsforstverwaltung]] / [[Brandenstein]]
-**Zeitraum:** aktiv um 16 n.H.
+!!! info "Metadaten"
+    - **Titel:** Oberjäger
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Baronsforstverwaltung]] / [[Brandenstein]]
+    - **Zeitraum:** aktiv um 16 n.H.
+
 
 ## Beschreibung
 **Isgrim** ist ein erfahrener Oberjäger im Dienste der Baronsforstverwaltung. Er gilt als profunder Kenner der Wälder und des Wildbestandes auf [[Siebenwind]].

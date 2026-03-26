@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Anijane Salmoranes
 category: Allgemein
 status: UNGEKLAERT

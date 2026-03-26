@@ -1,13 +1,14 @@
 ---
-layout: post
 title: Lehrbuch der Magietheorie
 category: Allgemein
 ---
 
 # Lehrbuch der Magietheorie
 
-**Autor:** [[Toran_Dur]]
-**Kategorie:** Lehrbuch / Magietheorie
+!!! info "Metadaten"
+    - **Autor:** [[Toran_Dur]]
+    - **Kategorie:** Lehrbuch / Magietheorie
+
 
 ## Inhalt
 

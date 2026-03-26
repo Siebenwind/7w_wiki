@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Flavius Lewenstein
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_174]].md
 ---
 # Flavius Lewenstein
 
-**Titel:** Oberst
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** [[Region_Malthust]] / [[Pakt_der_Viereinigkeit]]
-**Zeitraum:** aktiv ab 20 n.H.
+!!! info "Metadaten"
+    - **Titel:** Oberst
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** [[Region_Malthust]] / [[Pakt_der_Viereinigkeit]]
+    - **Zeitraum:** aktiv ab 20 n.H.
+
 
 ## Beschreibung
 **Flavius Lewenstein** ist ein Oberst der Malthuster Armee und der führende Vertreter des **[[Pakt_der_Viereinigkeit|Paktes der Viereinigkeit]]** auf [[Siebenwind]]. Er residiert in [[Brandenstein]].

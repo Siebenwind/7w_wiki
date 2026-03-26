@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Armgard Torenson
 category: [[Persoenlichkeiten_Uebersicht]]
 status: Bote
@@ -7,10 +6,12 @@ quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_137]].md
 ---
 # Armgard Torenson
 
-**Titel:** Kapitän / Entdecker (historisch)
-**Epistemischer Status:** #bote
-**Zugehörigkeit:** Entdeckungsflotte
-**Zeitraum:** Legendär
+!!! info "Metadaten"
+    - **Titel:** Kapitän / Entdecker (historisch)
+    - **Epistemischer Status:** #bote
+    - **Zugehörigkeit:** Entdeckungsflotte
+    - **Zeitraum:** Legendär
+
 
 ## Beschreibung
 **Armgard Torenson** war der Kapitän jener legendären Entdeckungsfahrt, die zur Wiederentdeckung [[Siebenwind]]s führte. Sein Name ist untrennbar mit der frühen [[index]] der Kolonialisierung verbunden.

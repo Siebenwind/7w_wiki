@@ -1,13 +1,14 @@
 ---
-layout: wiki_page
 title: Siebenwind Bote 178
 category: [[index]]
 ---
 
 # [[Siebenwind]] Bote 178
 
-**Epistemischer Status:** #bote
-**Datum:** 21. Duler 21 n.H.
+!!! info "Metadaten"
+    - **Epistemischer Status:** #bote
+    - **Datum:** 21. Duler 21 n.H.
+
 
 ## Schlagzeilen
 

@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Handwerkshaus Falkensee
 category: Allgemein
 status: UNGEKLAERT

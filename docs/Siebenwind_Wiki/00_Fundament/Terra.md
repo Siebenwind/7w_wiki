@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Terra
 category: Allgemein
 status: UNGEKLAERT

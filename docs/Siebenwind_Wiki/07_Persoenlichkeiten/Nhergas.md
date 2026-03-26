@@ -1,15 +1,16 @@
 ---
-layout: wiki_page
 title: Nhergas
 category: Persönlichkeit
 ---
 
 # Nhergas
 
-**Titel:** Edeldame
-**Epistemischer Status:** #bote
-**Ort:** [[Brandenstein]]
-**Zeitraum:** aktiv um 18 n.H.
+!!! info "Metadaten"
+    - **Titel:** Edeldame
+    - **Epistemischer Status:** #bote
+    - **Ort:** [[Brandenstein]]
+    - **Zeitraum:** aktiv um 18 n.H.
+
 
 ## Beschreibung
 Edeldame Nhergas ist eine einflussreiche Persönlichkeit im Herzogtum, insbesondere in der Region um [[Brandenstein]].
