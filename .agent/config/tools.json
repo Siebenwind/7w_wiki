@@ -201,9 +201,21 @@
             "type": "boolean",
             "description": "Aggressively repair unresolved Pages / Roamlinks targets"
           },
+          "backlog_board": {
+            "type": "boolean",
+            "description": "Generate cluster-based backlog board and escalation artifacts"
+          },
+          "apply_lane1": {
+            "type": "boolean",
+            "description": "Apply the conservative lane-1 mechanical backlog wave"
+          },
           "dry_run": {
             "type": "boolean",
             "description": "Preview repair changes without writing files"
+          },
+          "json": {
+            "type": "boolean",
+            "description": "Emit machine-readable JSON for backlog-oriented repair modes"
           }
         },
         "required": []
@@ -309,6 +321,10 @@
       "parameters": {
         "type": "object",
         "properties": {
+          "fast": {
+            "type": "boolean",
+            "description": "Use cached analysis plus the latest Pages snapshot as an advisory-only precheck"
+          },
           "strict": {
             "type": "boolean",
             "description": "Enable strict mode for mkdocs build"

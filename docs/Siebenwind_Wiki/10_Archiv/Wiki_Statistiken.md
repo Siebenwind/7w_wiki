@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-03-26 15:10
+**Stand:** 2026-04-01 16:44
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -16,10 +16,10 @@ category: Index
 | Kennzahl | Wert |
 | :--- | :--- |
 | Artikel | **1356** |
-| Worte | **186,866** |
+| Worte | **187,115** |
 | Durchschnittliche Artikellaenge | **138 Worte** |
-| Interne Verweise (`[[...]]`) | **14,974** |
-| Vernetzungsdichte | **11.0 Links/Artikel** |
+| Interne Verweise (`[[...]]`) | **13,663** |
+| Vernetzungsdichte | **10.1 Links/Artikel** |
 | Personenprofile | **586** |
 
 ---
@@ -28,8 +28,8 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 0 | - | - |
-| Letzte 30 Tage | 0 | 0 | 0 |
+| Letzte 7 Tage | 1270 | - | - |
+| Letzte 30 Tage | 1270 | 0 | 2 |
 | Letzte 90 Tage | 1344 | - | - |
 
 ---
@@ -56,11 +56,11 @@ pie title Artikel pro Sektion
 
 | Sektion | Artikel | Ø Worte/Artikel | Ø Links/Artikel |
 | :--- | ---: | ---: | ---: |
-| `01_Pantheon` | 52 | 409 | 13.3 |
+| `01_Pantheon` | 52 | 410 | 12.3 |
 | `06_Erzählungen` | 13 | 326 | 12.7 |
 | `Root` | 1 | 283 | 1.0 |
-| `05_Magie` | 41 | 277 | 14.2 |
-| `04_Chronik` | 83 | 270 | 35.3 |
+| `05_Magie` | 41 | 277 | 11.5 |
+| `04_Chronik` | 83 | 270 | 32.9 |
 
 
 ---
@@ -70,23 +70,23 @@ pie title Artikel pro Sektion
 ### Starke Knoten (gesamt)
 | Entitaet | Verweise |
 | :--- | ---: |
-| [[Siebenwind]] | 702 |
+| [[Siebenwind]] | 584 |
 | [[Falkensee]] | 543 |
 | [[Brandenstein]] | 466 |
-| [[Astrael]] | 192 |
-| [[Toran_Dur]] | 170 |
-| [[Bellum]] | 165 |
+| [[Bellum]] | 167 |
+| [[Astrael]] | 156 |
 | [[Nortraven]] | 144 |
+| [[Toran_Dur]] | 136 |
 
 
 ### Praegende Persoenlichkeiten
 | Persoenlichkeit | Verweise |
 | :--- | ---: |
-| [[Toran_Dur]] | 170 |
+| [[Toran_Dur]] | 136 |
 | [[Geist]] | 125 |
 | [[Custodias]] | 83 |
 | [[Waldemar_Delarie]] | 60 |
-| [[Dunvallo_Linari]] | 53 |
+| [[Dunvallo_Linari]] | 50 |
 | [[Hagen_Robaar]] | 49 |
 | [[Solos_Nhergas]] | 48 |
 
@@ -94,13 +94,13 @@ pie title Artikel pro Sektion
 ### Praegende Ereignisse
 | Ereignis | Verweise |
 | :--- | ---: |
-| [[Siebenwind_Bote_175]] | 29 |
-| [[Blutschwert]] | 28 |
-| [[Siebenwind_Bote_179]] | 28 |
-| [[Das_Ende_der_Zeit_der_Koenige]] | 28 |
-| [[Siebenwind_Bote_173]] | 25 |
-| [[Siebenwind_Bote_180]] | 24 |
-| [[Siebenwind_Bote_172]] | 22 |
+| [[Blutschwert]] | 22 |
+| [[Siebenwind_Bote_172]] | 20 |
+| [[Siebenwind_Bote_175]] | 19 |
+| [[Siebenwind_Bote_173]] | 18 |
+| [[Siebenwind_Bote_180]] | 18 |
+| [[Siebenwind_Bote_186]] | 18 |
+| [[Historie_&_Ären]] | 18 |
 
 
 ---
@@ -110,10 +110,10 @@ pie title Artikel pro Sektion
 | Qualitaetsindikator | Wert | Fortschritt |
 | :--- | :--- | :--- |
 | Frontmatter-Abdeckung | 1356/1356 | `##########` 100.0% |
-| Aufgeloeste Quellenangabe (`quelle`) | 437/1356 | `###-------` 32.2% |
+| Aufgeloeste Quellenangabe (`quelle`) | 433/1356 | `###-------` 31.9% |
 | Ingestion Tracking vollstaendig | 55/55 | `##########` 100.0% |
 | Ingestion Reports mit LQS | 53/55 | `##########` 96.4% |
-| `[UNGEKLAERT]`-Marker (gesamt) | 251 | Beobachtung |
+| `[UNGEKLAERT]`-Marker (gesamt) | 257 | Beobachtung |
 
 ## 🔏 Drift & Provenance
 | Kennzahl | Wert |
@@ -127,8 +127,8 @@ pie title Artikel pro Sektion
 | Tag | Artikel |
 | :--- | ---: |
 | `#bote` | 589 |
-| `#unbekannt` | 422 |
-| `#canon` | 135 |
+| `#unbekannt` | 420 |
+| `#canon` | 137 |
 | `#ueberlieferung` | 107 |
 | `#perspektive` | 102 |
 | `#news` | 1 |
@@ -140,10 +140,10 @@ pie title Artikel pro Sektion
 
 | Metrik | Stand |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | 178 |
-| Delta zum vorigen Audit | -792 |
-| Bridge-/Placeholder-Seiten | 88 |
-| Davon ohne Ausnahme-Metadaten | 88 |
+| Letzter Audit-Problemtotal | 173 |
+| Delta zum vorigen Audit | +0 |
+| Bridge-/Placeholder-Seiten | 86 |
+| Davon ohne Ausnahme-Metadaten | 86 |
 | Test-Suiten PASS | 0 |
 | Test-Suiten FAIL | 0 |
 
@@ -156,7 +156,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_e9972f7c-85ca-4e3c-8318-bc1f4035072d.txt`
+- Letzter Audit: `Logs/Archive/Audit_93c31edf-51ad-44e7-a25b-ce37dd069883.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---
