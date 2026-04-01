@@ -1,6 +1,6 @@
 ---
 title: Abweisungen
-category: [[index]]
+category: Allgemein
 status: integrated
 tags: [Elf, Beziehung, [[Yota]]]
 report_id: e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b

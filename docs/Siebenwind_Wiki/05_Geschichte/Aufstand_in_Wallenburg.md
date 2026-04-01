@@ -1,6 +1,6 @@
 ---
 title: Aufstand in Wallenburg
-category: [[index]]
+category: Geschichte
 ---
 
 # Aufstand in Wallenburg

@@ -1,6 +1,6 @@
 ---
 title: Glossar
-category: [[index]]
+category: Allgemein
 ---
 
 # Glossar
@@ -82,7 +82,7 @@ Dieses Glossar enthält wichtige Begriffe der Welt [[Siebenwind]].
 | Eminenz | [DEFINITION_BENÖTIGT] | #canon |
 | Ende | [DEFINITION_BENÖTIGT] | #canon |
 | [[Endophal]] | [DEFINITION_BENÖTIGT] | #canon |
-| [[Enhor]] | [DEFINITION_BENÖTIGT] | #canon |
+| [[Die_Enhor|Enhor]] | [DEFINITION_BENÖTIGT] | #canon |
 | Ente | [DEFINITION_BENÖTIGT] | #canon |
 | Epistemischer | [DEFINITION_BENÖTIGT] | #canon |
 | Erde | [DEFINITION_BENÖTIGT] | #canon |

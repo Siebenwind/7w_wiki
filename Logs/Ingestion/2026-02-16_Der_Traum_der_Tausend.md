@@ -20,7 +20,7 @@
 ### 👤 Personen / Wesen
 | Name | Status | Ziel-Datei | Confidence | Notiz |
 |---|---|---|---|---|
-| [[Konig_der_Katzen]] | NEU | [[Gottheiten]] | 10 | Auch "Herr der Träume", "Nebelfürst" |
+| [[Konig_der_Katzen]] | NEU | [[Religion_Übersicht]] | 10 | Auch "Herr der Träume", "Nebelfürst" |
 | [[Totenvogel]] | Wesen | NEU | [[Bestiarium_Register]] | Knochiger Vogel im Traumreich |
 | [[Tai_Sah'Halour]] | UPDATE | [[Tai_Sah'Halour]] | 10 | Legendensammler |
 
@@ -29,7 +29,7 @@
 |---|---|---|---|---|
 | [[Reich_des_Nebelfurstens]] | Ort | NEU | [[Sphaerenkunde]] | Das Traumreich |
 | [[Geisterwald]] | Ort | NEU | [[Saeulenmeer]] | Zone im Traumreich |
-| [[Berg_der_Traumkatze]] | Ort | NEU | [[Gottheiten]] | Zentrum der Traumwelt |
+| [[Berg_der_Traumkatze]] | Ort | NEU | [[Religion_Übersicht]] | Zentrum der Traumwelt |
 | [[Traumformung]] | Konzept | NEU | [[Magietheorie]] | Die Idee, dass gemeinsames Träumen die Realität ändert |
 
 ## 🧠 Lore-Audit & Narrative Highlights

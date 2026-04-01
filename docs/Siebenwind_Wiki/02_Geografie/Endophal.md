@@ -1,6 +1,6 @@
 ---
 title: Endophal
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Endophal

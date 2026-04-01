@@ -1,6 +1,6 @@
 ---
 title: Flaake Distelstein
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Flaake Distelstein

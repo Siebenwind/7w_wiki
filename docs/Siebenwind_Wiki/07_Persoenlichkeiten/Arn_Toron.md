@@ -1,8 +1,8 @@
 ---
 title: Arn Toron
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_167]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_167.md
 ---
 # [[Arn]] Toron
 

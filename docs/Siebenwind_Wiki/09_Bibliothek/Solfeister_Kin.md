@@ -1,6 +1,6 @@
 ---
 title: Solfeister Kin
-category: [[index]]
+category: Allgemein
 status: #perspektive
 tags: [Erzählung, [[Angamon]], [[Dunkeltief]], Kult]
 ---

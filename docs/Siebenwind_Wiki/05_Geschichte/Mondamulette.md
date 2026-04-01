@@ -1,6 +1,6 @@
 ---
 title: Mondamulette
-category: [[Geschichte]]
+category: Geschichte
 ---
 
 # Mondamulette

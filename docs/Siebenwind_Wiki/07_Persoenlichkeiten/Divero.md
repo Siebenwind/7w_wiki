@@ -1,6 +1,6 @@
 ---
 title: Divero
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Divero

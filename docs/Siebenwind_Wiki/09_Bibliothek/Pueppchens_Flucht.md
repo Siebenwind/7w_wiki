@@ -1,6 +1,6 @@
 ---
 title: Püppchens Flucht
-category: [[index]]
+category: Allgemein
 status: #perspektive
 tags: [Erzählung, [[Seeberg]], Püppchen, Drama]
 ---

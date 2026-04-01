@@ -1,6 +1,6 @@
 ---
 title: Untote
-category: [[index]]
+category: Allgemein
 ---
 
 # Untote

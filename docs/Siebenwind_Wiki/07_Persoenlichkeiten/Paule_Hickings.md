@@ -1,6 +1,6 @@
 ---
 title: Paule Hickings
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Paule Hickings

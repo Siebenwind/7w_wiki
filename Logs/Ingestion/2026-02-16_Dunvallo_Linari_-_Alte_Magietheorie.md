@@ -26,10 +26,10 @@
 ### 🔮 Konzepte
 | Name | Kategorie | Status | Wiki-Link | Notiz |
 |---|---|---|---|---|
-| [[Thaumaturgisches_Gitter]] | Konzept | UPDATE | [[Magie]] | Modell aus Fäden und Knoten zur Beschreibung von Mana |
-| [[Knotentheorie]] | Konzept | NEU | [[Magie]] | Die Idee, dass Knoten die eigentliche Energiequelle sind |
+| [[Thaumaturgisches_Gitter]] | Konzept | UPDATE | [[Magietheorie_Linari]] | Modell aus Fäden und Knoten zur Beschreibung von Mana |
+| [[Knotentheorie]] | Konzept | NEU | [[Magietheorie_Linari]] | Die Idee, dass Knoten die eigentliche Energiequelle sind |
 | [[Artefakterstellung]] | Fertigkeit | UPDATE | [[Artefakte]] | Dreiteiliger Aufbau: Klinge, Handstück (Focus), Knauf (Elementstein) |
-| [[Tunneleffekt]] | Phänomen | NEU | [[Magie]] | Ansaugen von Mana aus anderen Sphären mittels Untoten-Fokus |
+| [[Tunneleffekt]] | Phänomen | NEU | [[Magietheorie_Linari]] | Ansaugen von Mana aus anderen Sphären mittels Untoten-Fokus |
 
 ## 🧠 Lore-Audit & Narrative Highlights
 - **Wichtigste Erkenntnisse**: Linari etabliert das Gittermodell als Standard für die Artefakterstellung. Ein Schwert muss demnach aus einer Klinge (Runen), einem Handstück (Focus aus Untotenknochen) und einem Knauf (Edelstein zur Elementbindung) bestehen. Der "Tunneleffekt" erklärt, wie Artefakte Energie aus anderen Sphären beziehen.

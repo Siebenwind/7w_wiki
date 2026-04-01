@@ -2,7 +2,7 @@
 uuid: 2a3b4c5d-6e7f-4a8b-9c0d-1e2f3a4b5c6d
 title: Tadschirim
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_167]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_167.md
 letzter_check: 2026-02-13T23:00:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---

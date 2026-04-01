@@ -1,6 +1,6 @@
 ---
 title: Nemesis
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Nemesis

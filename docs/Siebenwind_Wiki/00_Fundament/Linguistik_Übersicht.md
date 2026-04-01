@@ -1,6 +1,6 @@
 ---
 title: Linguistik Übersicht
-category: [[index]]
+category: Allgemein
 ---
 
 # Linguistik Übersicht

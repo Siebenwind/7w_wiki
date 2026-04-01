@@ -1,8 +1,8 @@
 ---
 title: Die Domänen Yerrodons
-category: [[index]]
+category: Magie
 status: Canon
-quelle: "../../Quellen/[[index]] [[Toran_Dur]]/Anonymous - öber die Verhaltensweisen von Daimonen.md"
+quelle: "../../Quellen/index Toran_Dur/Anonymous - öber die Verhaltensweisen von Daimonen.md"
 author: "[[Anonymus]]"
 lore_trust: 8
 confidence: Certain

@@ -1,8 +1,8 @@
 ---
 title: Arcana Procella (Die arkanen Wellen)
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Magica_Procella]] Die Lehre der arkanen Wellenbewegung.md"
+quelle: "/Quellen/index Toran_Dur/Magica_Procella Die Lehre der arkanen Wellenbewegung.md"
 ---
 
 # Arcana Procella (Die arkanen Wellen)

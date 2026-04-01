@@ -9,7 +9,7 @@ tags: [Göttin, Sahor, Leben, Frieden, Liebe, Frühling]
 
 **Epistemischer Status:** #canon
 
-**Vitama** ist eine der vier Hauptgötter (Sahor) und die einzige weibliche Gestalt unter diesen. Sie verkörpert das blühende Leben, die Liebe, die Fruchtbarkeit, den Frieden und die Schönheit.
+**Vitama** ist eine der vier **Sahor**, die im Alltagsglauben meist zusammenfassend als die **Viere** bezeichnet werden. Sie ist die einzige weibliche Gestalt unter diesen und verkörpert blühendes Leben, Liebe, Fruchtbarkeit, Frieden und Schönheit.
 
 ## Aspekte und Prinzipien
 - **Jahreszeit:** Frühling

@@ -1,6 +1,6 @@
 ---
 title: Rasse Menschen
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Rasse [[Menschen]]

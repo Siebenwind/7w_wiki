@@ -1,6 +1,6 @@
 ---
 title: Isogares Saleyn
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Isogares Saleyn

@@ -1,6 +1,6 @@
 ---
 title: Fogrim Goldaxt
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Fogrim Goldaxt

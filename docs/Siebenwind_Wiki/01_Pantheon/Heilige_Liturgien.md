@@ -1,8 +1,8 @@
 ---
 title: "Heilige Liturgien"
-category: [[index]]
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Heilige Liturgien.md"
+quelle: "/Quellen/index Astrael/Heilige Liturgien.md"
 author: "Aelwin"
 ---
 

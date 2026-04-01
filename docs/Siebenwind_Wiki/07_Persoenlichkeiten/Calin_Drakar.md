@@ -1,6 +1,6 @@
 ---
 title: Calin Drakar
-category: [[index]]
+category: Personen
 ---
 
 # Calin Drakar

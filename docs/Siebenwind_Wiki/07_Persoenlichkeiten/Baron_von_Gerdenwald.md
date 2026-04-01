@@ -1,6 +1,6 @@
 ---
 title: Baron von Gerdenwald
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Baron von Gerdenwald

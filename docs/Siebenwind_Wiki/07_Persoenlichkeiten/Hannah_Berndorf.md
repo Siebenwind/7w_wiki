@@ -1,6 +1,6 @@
 ---
 title: Hannah Berndorf zu Lichtenwald
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Hannah Berndorf zu Lichtenwald

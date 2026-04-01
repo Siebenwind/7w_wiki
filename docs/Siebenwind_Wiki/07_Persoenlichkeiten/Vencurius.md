@@ -2,7 +2,7 @@
 uuid: v3n-curi-us-42-vent-us
 title: Vencurius
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Der_Flug_der_Ente]]..md
+quelle: ../../../Quellen/Spielergeschichten/Der Flug der Ente..md
 letzter_check: 2026-02-13T22:45:00
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Talida
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Talida

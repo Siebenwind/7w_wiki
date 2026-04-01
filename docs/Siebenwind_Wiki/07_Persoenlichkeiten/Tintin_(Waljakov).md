@@ -2,7 +2,7 @@
 uuid: 4a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p
 title: Tintin (Waljakov)
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Der_Flug_der_Ente]]..md
+quelle: ../../../Quellen/Spielergeschichten/Der Flug der Ente..md
 letzter_check: 2026-02-13T22:45:00
 ---
 

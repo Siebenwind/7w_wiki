@@ -1,6 +1,6 @@
 ---
 title: Aurax Ellrothon
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Aurax Ellrothon

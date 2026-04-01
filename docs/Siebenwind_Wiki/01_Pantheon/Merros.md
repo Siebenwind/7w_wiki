@@ -1,6 +1,6 @@
 ---
 title: Merros
-category: [[index]]
+category: Religion
 ---
 
 # Merros

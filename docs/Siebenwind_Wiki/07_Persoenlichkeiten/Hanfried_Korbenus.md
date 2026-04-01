@@ -1,6 +1,6 @@
 ---
 title: Hanfried Korbenus
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Hanfried Korbenus

@@ -1,6 +1,6 @@
 ---
 title: Liche
-category: [[index]]
+category: Allgemein
 ---
 
 # Liche

@@ -1,6 +1,6 @@
 ---
 title: Die Tragödie am Wall
-category: [[index]]
+category: Geschichte
 ---
 
 # Die Tragödie am Wall

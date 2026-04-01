@@ -1,8 +1,8 @@
 ---
 title: "Magier-Etikette und Gewandung"
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/Anonymous - Etikette.md"
+quelle: "/Quellen/index Toran_Dur/Anonymous - Etikette.md"
 ---
 
 # Magier-Etikette und Gewandung

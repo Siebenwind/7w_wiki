@@ -1,6 +1,6 @@
 ---
 title: William Glaron
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # William Glaron

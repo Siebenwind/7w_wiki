@@ -1,8 +1,8 @@
 ---
 uuid: 0culu5-3ccl351a3-secret
 title: Oculus Ecclesiae
-category: [[index]]
-quelle: ../../Quellen/Spielergeschichten/[[Blutschwert]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
+category: Gesellschaft
+quelle: ../../Quellen/Spielergeschichten/Blutschwert | Siebenwind | Ultima Online Freeshard | Siebenwind.md
 letzter_check: 2026-02-13T23:00:00
 ---
 

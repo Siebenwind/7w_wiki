@@ -1,6 +1,6 @@
 ---
 title: Magietheorie (Toran_Dur)
-category: [[index]]
+category: Allgemein
 ---
 
 # Magietheorie ([[Toran_Dur]])

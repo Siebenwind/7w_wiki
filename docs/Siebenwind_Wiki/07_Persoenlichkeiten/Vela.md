@@ -2,7 +2,7 @@
 uuid: 4c5d6e7f-8a9b-4c0d-1e2f-3a4b5c6d7e8f
 title: Vela
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_181]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_181.md
 letzter_check: 2026-02-13T23:00:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---

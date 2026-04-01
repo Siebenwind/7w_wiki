@@ -2,7 +2,7 @@
 uuid: z0r4n-g05h-45tr43l-g0f1lm
 title: Zoran Gosh
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
+quelle: ../../../Quellen/Spielergeschichten/Das_Ende_der_Zeit_der_Koenige.md
 letzter_check: 2026-02-13T23:25:00
 ---
 

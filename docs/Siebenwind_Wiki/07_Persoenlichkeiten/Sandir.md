@@ -1,6 +1,6 @@
 ---
 title: "Sandir"
-category: [[index]]
+category: Personen
 ---
 
 # Sandir

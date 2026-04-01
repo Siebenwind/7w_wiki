@@ -1,9 +1,9 @@
 ---
 uuid: 0392856c-8aeb-4358-a383-32b7a8e9599c
 title: Siebenwind Bote 137
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 137.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 137.md
 letzter_check: 2026-02-13T00:52:00+01:00
 ---
 # [[Siebenwind]] Bote 137
@@ -41,4 +41,4 @@ Am ersten Tag des [[Lichthoch]]s findet die feierliche Hochzeit zwischen **[[Sir
 *   [[Finsterwangen]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 137](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20137.md)
+- Primärquelle: [Siebenwind Bote 137](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20137.md)

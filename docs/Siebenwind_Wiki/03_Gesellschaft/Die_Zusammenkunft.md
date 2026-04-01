@@ -1,8 +1,8 @@
 ---
 title: Die Zusammenkunft
-category: [[index]]
+category: Gesellschaft
 status: #überlieferung
-quelle: [[[Dunvallo_Linari]] - Artefakte]
+quelle: Dunvallo_Linari - Artefakte
 tags: [Wissenschaft, [[index]], [[index]]]
 report_id: b6a7d2e4-9f81-4a3b-8c7a-9f8e4d2e7b1a
 ---

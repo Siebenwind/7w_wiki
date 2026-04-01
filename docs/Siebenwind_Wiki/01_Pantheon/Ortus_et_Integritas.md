@@ -1,8 +1,8 @@
 ---
 title: Ortus et Integritas (Von der Reinheit des Anfangs)
-category: [[index]]
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Ortus et Integritas.md"
+quelle: "/Quellen/index Astrael/Ortus et Integritas.md"
 author: "Anais"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Wolf Baelborn
-category: [[Persoenlichkeiten_Uebersicht]]
-quelle: [[Siebenwind_Bote_158]]
+category: Personen
+quelle: ../../../Quellen/Zeitung 7w Bote/Siebenwind Bote 158.md
 ---
 
 # Wolf Baelborn

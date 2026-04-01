@@ -1,6 +1,6 @@
 ---
 title: Greifenklipp
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Greifenklipp

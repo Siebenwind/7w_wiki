@@ -1,6 +1,6 @@
 ---
 title: Rasse Zwerge
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Rasse [[Zwerge]]

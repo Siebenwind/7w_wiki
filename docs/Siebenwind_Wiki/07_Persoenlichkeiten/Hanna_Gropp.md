@@ -1,6 +1,6 @@
 ---
 title: Hanna Gropp
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Hanna Gropp

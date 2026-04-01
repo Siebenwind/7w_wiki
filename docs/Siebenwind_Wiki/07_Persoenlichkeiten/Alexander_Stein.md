@@ -1,6 +1,6 @@
 ---
 title: Alexander Stein
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Alexander Stein

@@ -2,7 +2,7 @@
 uuid: d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a
 title: Herr Kurt
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_180]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_180.md
 letzter_check: 2026-02-13T22:45:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---

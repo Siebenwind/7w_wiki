@@ -104,7 +104,7 @@ For the full generated list, run:
 python System/MCP/generate_mcp_tools.py
 ```
 
-Pages-aware flags such as `audit --pages`, `pages validate --json`, `pages validate --strict-links`, and `repair --fix-roamlinks` are exposed automatically through the generated tool schemas; no manual MCP edits are required.
+Pages-aware flags such as `audit --pages`, `pages validate --json`, `pages validate --json --strict-links`, `pages validate --fast`, and `repair --fix-roamlinks` are exposed automatically through the generated tool schemas; no manual MCP edits are required.
 
 ## Resources
 

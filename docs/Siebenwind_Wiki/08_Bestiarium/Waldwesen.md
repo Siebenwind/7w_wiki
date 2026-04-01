@@ -1,6 +1,6 @@
 ---
 title: Waldwesen
-category: [[index]]
+category: Allgemein
 ---
 
 # Waldwesen

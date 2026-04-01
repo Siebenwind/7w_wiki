@@ -1,6 +1,6 @@
 ---
 title: Geschichte der Mondamulette
-category: [[Geschichte]]
+category: Geschichte
 ---
 
 # [[Geschichte]] der [[Mondamulette]]

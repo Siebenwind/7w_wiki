@@ -1,9 +1,9 @@
 ---
-title: Das index
+title: Das Pantheon
 category: Index
 ---
 
-# Das [[index]]
+# Das Pantheon
 
 **Epistemischer Status:** #canon
 
@@ -12,7 +12,7 @@ Die Mächte, die Falandrien und [[Siebenwind]] formen.
 ## Die Ur-Sphäre
 *   [[Die_Gohor]] - Die Ur-[[Drachen]] und Schöpfer.
 
-## Die Viereinigkeit (Die Guten)
+## Die Viere (Sahor)
 *   [[Astrael]] - [[index]] & Ordnung.
 *   [[Bellum]] - Kampf & Ehre.
 *   [[Vitama]] - Leben & Heilung.
@@ -22,7 +22,7 @@ Die Mächte, die Falandrien und [[Siebenwind]] formen.
 *   [[Brevier_Ordo_Morsanes]] - Totenruhe & Schweigen.
 *   [[Brevier_Ordo_Vitamae]] - Segen, Heilung & Fruchtbarkeit.
 
-## Die Elemente & Andere
+## Die Elementarherren (Enhor)
 *   [[Ignis]] - Feuer.
 *   [[Rien]] - Natur.
 *   [[Ventus]] - Luft/Freiheit.

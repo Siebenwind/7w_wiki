@@ -1,6 +1,6 @@
 ---
 title: Erhebung Kaspar_Brandner zum Freiherrn
-category: [[index]]
+category: Geschichte
 ---
 
 # Erhebung [[Kaspar_Brandner]] zum Freiherrn

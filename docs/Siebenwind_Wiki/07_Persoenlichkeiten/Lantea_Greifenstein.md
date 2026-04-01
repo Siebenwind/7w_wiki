@@ -1,8 +1,8 @@
 ---
 title: Lantea Greifenstein
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_154]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_154.md
 ---
 # Lantea Greifenstein
 

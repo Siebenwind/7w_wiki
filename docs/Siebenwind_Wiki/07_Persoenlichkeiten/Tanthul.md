@@ -1,8 +1,8 @@
 ---
 title: Tanthul
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: #überlieferung
-quelle: [[Daimonicon]] / [Schwarze Ritualmagie]
+quelle: Daimonicon / Schwarze Ritualmagie
 letzter_check: 2026-02-14
 ---
 

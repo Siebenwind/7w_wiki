@@ -1,6 +1,6 @@
 ---
 title: Der blinde Maler
-category: [[index]]
+category: Allgemein
 ---
 
 # Der blinde Maler

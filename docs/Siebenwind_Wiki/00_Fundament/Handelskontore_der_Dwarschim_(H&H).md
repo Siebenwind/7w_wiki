@@ -1,6 +1,6 @@
 ---
 title: Handelskontore der Dwarschim (H&H)
-category: [[index]]
+category: Allgemein
 ---
 
 # Handelskontore der Dwarschim (H&H)

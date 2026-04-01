@@ -1,6 +1,6 @@
 ---
 title: Letzte Vorbereitungen
-category: [[index]]
+category: Allgemein
 status: #perspektive
 tags: [Erzählung, [[Morsan]], [[Dunkeltief]], Sandholz]
 ---

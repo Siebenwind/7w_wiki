@@ -9,7 +9,7 @@ tags: [Gott, Sahor, Tod, Traum, Ruhe, Winter]
 
 **Epistemischer Status:** #canon
 
-**Morsan** ist einer der vier Hauptgötter (Sahor) und der Herr über den Tod, den Schlaf und die Träume. Seine Domäne ist die ewige Ruhe, der Übergang vom Leben in das Jenseits (*Vidor*) und die Stille des Winters.
+**Morsan** ist einer der vier **Sahor**, die im Alltagsglauben meist zusammenfassend als die **Viere** bezeichnet werden. Er ist der Herr über Tod, Schlaf und Träume. Seine Domäne ist die ewige Ruhe, der Übergang vom Leben in das Jenseits (*Vidor*) und die Stille des Winters.
 
 ## Aspekte und Prinzipien
 - **Jahreszeit:** Winter

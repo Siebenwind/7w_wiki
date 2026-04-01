@@ -1,7 +1,7 @@
 ---
 title: Luydira
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_139]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_139.md
 letzter_check: 2026-02-13T23:45:00
 ---
 

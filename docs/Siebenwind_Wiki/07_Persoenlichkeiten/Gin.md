@@ -1,6 +1,6 @@
 ---
 title: Gin
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Gin

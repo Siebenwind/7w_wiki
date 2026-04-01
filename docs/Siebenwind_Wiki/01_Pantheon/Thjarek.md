@@ -1,6 +1,6 @@
 ---
 title: Thjarek
-category: [[index]]
+category: Religion
 ---
 
 # Thjarek

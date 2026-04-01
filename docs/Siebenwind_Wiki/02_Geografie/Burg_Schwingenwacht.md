@@ -1,7 +1,7 @@
 ---
 uuid: 782ECEAF-C1E6-44E0-A833-3A35BB0DD3E9
 title: Burg Schwingenwacht
-category: [[index]]
+category: Geografie
 letzter_check: 2026-02-13T15:05:00+01:00
 ---
 

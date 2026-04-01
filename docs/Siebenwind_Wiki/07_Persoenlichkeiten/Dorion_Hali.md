@@ -1,6 +1,6 @@
 ---
 title: Dorion Hali
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Bote
 quelle: 
 ---

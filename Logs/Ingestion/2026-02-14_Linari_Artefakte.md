@@ -35,8 +35,8 @@
 | Artefaktlehre | Konzept | NEU | [[Artefaktlehre]] | Umfassende Theorie der Artefakterstellung. |
 | Tunneleffekt | Konzept | NEU | [[Tunneleffekt]] | Verstärkung arkaner Ströme durch Untoten-Foki. |
 | Sphaerenfaeden | Konzept | UPDATE | [[Sphaerenkunde_Kosmologie]] | Verbindungspunkte zwischen parallelen Sphären. |
-| Kleines Ritual der Bindung | Konzept | NEU | [[Magische_Rituale]] | Vorbereitung des Nutzers auf ein Artefakt. |
-| Permanentes Ritual der Einigkeit | Konzept | NEU | [[Magische_Rituale]] | Ewige Bindung zwischen Nutzer und Artefakt. |
+| Kleines Ritual der Bindung | Konzept | NEU | [[Rituallehre_Sphaeren]] | Vorbereitung des Nutzers auf ein Artefakt. |
+| Permanentes Ritual der Einigkeit | Konzept | NEU | [[Rituallehre_Sphaeren]] | Ewige Bindung zwischen Nutzer und Artefakt. |
 
 ## 🧠 Lore-Audit & Narrative Highlights
 - **Wichtigste Erkenntnisse**: Artefakte benötigen einen Fokus (oft Untoten-Knochen), um arkane Energie aus anderen Sphären zu "saugen" (Tunneleffekt).

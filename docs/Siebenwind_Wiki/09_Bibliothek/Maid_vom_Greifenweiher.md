@@ -1,6 +1,6 @@
 ---
 title: Die Maid vom Greifenweiher (Sagenrolle)
-category: [[index]]
+category: Allgemein
 ---
 
 # Die Maid vom [[Greifenweiher]] (Sagenrolle)

@@ -1,6 +1,6 @@
 ---
 title: Midraan Minerius
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Midraan Minerius

@@ -1,8 +1,8 @@
 ---
 title: Die Mazzaremer
-category: [[index]]
+category: Geschichte
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_158]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_158.md
 ---
 # Die Mazzaremer
 

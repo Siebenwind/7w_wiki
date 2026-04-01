@@ -1,9 +1,9 @@
 ---
 uuid: b2c3d4e5-f6a1-4b2c-3d4e-5f6g7h8i9j0k
 title: Siebenwind Bote 172
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 172.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 172.md
 letzter_check: 2026-02-13T16:35:00+01:00
 ---
 # [[Siebenwind]] Bote 172
@@ -42,4 +42,4 @@ letzter_check: 2026-02-13T16:35:00+01:00
 *   **[[Heeron_Dherayne]]**: Söldnerführer, in Begleitung von Freifrau [[Nhergas]] gesehen.
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 172](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20172.md)
+- Primärquelle: [Siebenwind Bote 172](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20172.md)

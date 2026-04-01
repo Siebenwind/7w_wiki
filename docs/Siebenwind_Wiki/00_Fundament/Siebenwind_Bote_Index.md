@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote Index
-category: [[index]]
+category: Allgemein
 ---
 
 # [[Siebenwind]] Bote Index

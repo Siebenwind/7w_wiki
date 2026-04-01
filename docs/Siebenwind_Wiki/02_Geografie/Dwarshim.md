@@ -1,6 +1,6 @@
 ---
 title: Dwarshim
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Dwarshim

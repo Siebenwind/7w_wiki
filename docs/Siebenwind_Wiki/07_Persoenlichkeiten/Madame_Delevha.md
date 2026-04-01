@@ -1,6 +1,6 @@
 ---
 title: Madame Delevha
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Madame Delevha

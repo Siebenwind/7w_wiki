@@ -1,6 +1,6 @@
 ---
 title: Seelenfresser
-category: [[index]]
+category: Allgemein
 ---
 
 # Seelenfresser

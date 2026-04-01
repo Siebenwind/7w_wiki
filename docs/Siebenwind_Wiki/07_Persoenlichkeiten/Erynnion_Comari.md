@@ -1,6 +1,6 @@
 ---
 title: Erynnion Comari
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Erynnion Comari

@@ -1,7 +1,7 @@
 ---
 uuid: ff9c6d4e-4567-7890-1234-56bf2597e836
 title: Gorn Estrik
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 epistemic: "#bote"
 ---
 

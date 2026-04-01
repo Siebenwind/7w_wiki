@@ -1,6 +1,6 @@
 ---
 title: "Hadhal"
-category: [[index]]
+category: Personen
 ---
 
 # Hadhal

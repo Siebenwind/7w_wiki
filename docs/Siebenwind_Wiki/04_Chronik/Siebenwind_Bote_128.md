@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 128
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 128
@@ -22,7 +22,7 @@ category: [[index]]
 - **Ordnung:** Bericht über verschärfte Maßnahmen gegen Aufrührer und Ketzer. [[Etriska]] wird nicht mehr als Zwischenstation angesteuert; Neueinwanderer landen direkt auf [[Siebenwind]].
 
 ### Bauwesen
-- **Tempel [[Falkensee]]:** Die Kirche ruft zum Bau eines viergöttlichen Tempels in [[Falkensee]] auf. Initiative durch [[Finduleia_Laurelin]] und [[Baron_von_Gerdenwald]].
+- **Tempel [[Falkensee]]:** [[Kirche_der_Viere]] ruft zum Bau eines viergöttlichen Tempels in [[Falkensee]] auf. Initiative durch [[Finduleia_Laurelin]] und [[Baron_von_Gerdenwald]].
 
 ### Kultur
 - **Baronsgarde-Auflösung:** Erwähnung des Festes zur Auflösung der [[Baronsgarde]], bei dem Dichterin **[[M._Pfahl]]** ihr Gedicht "Die kleine Fee" vortrug.

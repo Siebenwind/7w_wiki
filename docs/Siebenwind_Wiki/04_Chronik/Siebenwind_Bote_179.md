@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 179
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 179

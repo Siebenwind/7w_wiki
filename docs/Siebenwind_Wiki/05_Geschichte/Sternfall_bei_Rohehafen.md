@@ -1,6 +1,6 @@
 ---
 title: Sternfall bei Rohehafen
-category: [[index]]
+category: Geschichte
 ---
 
 # Sternfall bei [[Rohehafen]]

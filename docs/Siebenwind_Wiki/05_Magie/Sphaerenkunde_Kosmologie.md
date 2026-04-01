@@ -1,6 +1,6 @@
 ---
 title: Sphärenkunde & Kosmologie
-category: [[index]]
+category: Magie
 ---
 
 # Sphärenkunde & Kosmologie

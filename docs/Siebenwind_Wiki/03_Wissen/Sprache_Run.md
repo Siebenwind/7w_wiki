@@ -1,8 +1,8 @@
 ---
 title: Die_Sprache_Run
-category: [[index]]
+category: Allgemein
 status: Canon
-quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Toran_Dur]] - [[Die_Sprache_Run]].md"
+quelle: "../../Quellen/index Toran_Dur/Toran_Dur - Die_Sprache_Run.md"
 author: "[[Anonymus]]"
 lore_trust: 9
 confidence: Certain

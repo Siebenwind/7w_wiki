@@ -23,10 +23,10 @@ Die "Mutter der Substanz" und das Prinzip des **Werdens**. Galamnor formte die M
 Das "Drachenkind". **[[Tare]]** ist die spirituelle Manifestation des Kindes von Timanor und Galamnor. In der schamanischen Lehre wird Tare als die Sphäre betrachtet, in der Tiergeister wohnen, die Schamanen als Quelle ihrer täglichen Magie dienen.
 
 ## Schamanische Lehre: Werden und Vergehen
-Nach schamanischem Verständnis sind die Gohor die ewigen Rahmenbedingungen des Daseins. Sie schufen die Gestirne und die Götter (Sahor & [[Enhor]]), verloren dabei jedoch ihre aktive Gestaltungskraft. Ihr Gesetz ist absolut: Ewiges Leben lässt sich magisch nie endgültig erreichen, da alles dem Kreislauf von Werden (Galamnor) und Vergehen (Timanor) unterliegt.
+Nach schamanischem Verständnis sind die Gohor die ewigen Rahmenbedingungen des Daseins. Sie schufen die Gestirne und die Götter (Sahor & [[Die_Enhor|Enhor]]), verloren dabei jedoch ihre aktive Gestaltungskraft. Ihr Gesetz ist absolut: Ewiges Leben lässt sich magisch nie endgültig erreichen, da alles dem Kreislauf von Werden (Galamnor) und Vergehen (Timanor) unterliegt.
 
 ## Ihre Rolle im Glauben
-Die Gohor werden selten direkt angebetet, da sie als zu fern und abstrakt gelten. Sie sind die "Götter der Götter". Die meisten Gebete der Sterblichen richten sich an die *Viere (Sahor)*, die als Wächter der Ordnung agieren, oder an die *Elementarherren ([[Enhor]])*, um die Naturgewalten zu besänftigen.
+Die Gohor werden selten direkt angebetet, da sie als zu fern und abstrakt gelten. Sie sind die "Götter der Götter". Die meisten Gebete der Sterblichen richten sich an die *Viere (Sahor)*, die als Wächter der Ordnung agieren, oder an die *Elementarherren ([[Die_Enhor|Enhor]])*, um die Naturgewalten zu besänftigen.
 
 ## Magietheoretische Bedeutung
 Einige Erzmagier, insbesondere **[[Toran_Dur]]**, postulieren, dass das **[[Astralnetz]]** ein ursprüngliches Werk der Gohor sei (eine Struktur aus Raum und Zeit), das bereits vor dem Eingreifen der Götter existierte. Diese Theorie steht im Widerspruch zum Dogma der [[Astrael]]-Kirche, welche das Netz als Geschenk ihres Gottes betrachtet. Die Verehrung der Gohor als "wahre Schöpfer" gilt unter Orthodoxen als Häresie (siehe [[Gohor_Haeresie]]).

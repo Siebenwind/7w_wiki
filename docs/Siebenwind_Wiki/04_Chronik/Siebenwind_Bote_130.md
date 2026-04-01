@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 130
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 130

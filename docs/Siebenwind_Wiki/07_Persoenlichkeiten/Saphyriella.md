@@ -1,6 +1,6 @@
 ---
 title: Saphyriella
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Saphyriella

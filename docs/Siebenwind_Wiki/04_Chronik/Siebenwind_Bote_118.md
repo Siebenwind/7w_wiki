@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 118
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 118

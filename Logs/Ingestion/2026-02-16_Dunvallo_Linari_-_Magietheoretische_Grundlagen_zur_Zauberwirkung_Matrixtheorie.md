@@ -26,10 +26,10 @@
 ### 🔮 Konzepte
 | Name | Kategorie | Status | Wiki-Link | Notiz |
 |---|---|---|---|---|
-| [[Matrix_naturalis]] | Konzept | NEU | [[Magie]] | Das natürliche, unsymmetrische Mana-Netz |
-| [[Matrix_artificialis]] | Konzept | NEU | [[Magie]] | Vom Magier konstruierte Matrix für Zauber |
-| [[Matrix_arcana]] | Konzept | NEU | [[Magie]] | Matrix magischer Körper (Metalle, Steine, Geist) |
-| [[Blutmagie]] | Magiezweig | UPDATE | [[Magie]] | Nutzung der Lebenskraft (Sikaryan) aus dem Blut |
+| [[Matrix_naturalis]] | Konzept | NEU | [[Matrixtheorie_Linari]] | Das natürliche, unsymmetrische Mana-Netz |
+| [[Matrix_artificialis]] | Konzept | NEU | [[Matrixtheorie_Linari]] | Vom Magier konstruierte Matrix für Zauber |
+| [[Matrix_arcana]] | Konzept | NEU | [[Matrixtheorie_Linari]] | Matrix magischer Körper (Metalle, Steine, Geist) |
+| [[Blutmagie]] | Magiezweig | UPDATE | [[Matrixtheorie_Linari]] | Nutzung der Lebenskraft (Sikaryan) aus dem Blut |
 | [[Siebtes_Element]] | Theorie | NEU | [[Kosmologie]] | Die Magie selbst als umstrittenes siebtes Element |
 | [[Limbus]] | Ort | ERWÄHNT | [[Limbus]] | Raum zwischen den Welten / Zwiebelschalenmodell |
 

@@ -1,6 +1,6 @@
 ---
 title: Fred
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Fred

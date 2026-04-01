@@ -2,7 +2,7 @@
 uuid: d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a
 title: Buergerwehr
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_168]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_168.md
 letzter_check: 2026-02-13T22:35:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---

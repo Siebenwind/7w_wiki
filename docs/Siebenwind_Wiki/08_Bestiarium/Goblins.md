@@ -1,6 +1,6 @@
 ---
 title: Goblins
-category: [[index]]
+category: Allgemein
 ---
 
 # Goblins

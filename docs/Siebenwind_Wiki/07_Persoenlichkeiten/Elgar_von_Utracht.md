@@ -1,8 +1,8 @@
 ---
 title: "Elgar von Utracht"
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Exercitium.md"
+quelle: "/Quellen/index Astrael/Exercitium.md"
 author: "Antigravity"
 owner: UNASSIGNED
 review_until: 2026-09-22

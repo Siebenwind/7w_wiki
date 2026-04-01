@@ -1,6 +1,6 @@
 ---
 title: Sammler
-category: [[index]]
+category: Allgemein
 ---
 
 # Sammler

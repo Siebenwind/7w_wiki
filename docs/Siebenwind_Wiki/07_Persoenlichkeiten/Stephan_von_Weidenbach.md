@@ -1,6 +1,6 @@
 ---
 title: Stephan von Weidenbach
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Stephan von Weidenbach

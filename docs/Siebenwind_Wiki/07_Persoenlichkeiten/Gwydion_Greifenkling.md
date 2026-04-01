@@ -1,6 +1,6 @@
 ---
 title: Gwydion Greifenkling
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Gwydion Greifenkling

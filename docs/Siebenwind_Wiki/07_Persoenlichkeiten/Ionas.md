@@ -1,6 +1,6 @@
 ---
 title: Ionas
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Ionas

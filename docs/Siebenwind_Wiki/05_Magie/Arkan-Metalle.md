@@ -1,8 +1,8 @@
 ---
 title: Arkan-Metalle
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Edomawyr]] - Die Wirkung von Metallen.md"
+quelle: "/Quellen/index Toran_Dur/Edomawyr - Die Wirkung von Metallen.md"
 ---
 
 # Arkan-Metalle

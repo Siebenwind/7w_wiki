@@ -1,6 +1,6 @@
 ---
 title: Halgar
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Halgar

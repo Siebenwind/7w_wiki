@@ -2,7 +2,7 @@
 uuid: t3l0ph45-v0n-b454r1u5
 title: Telophas von Basarius
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
+quelle: ../../../Quellen/Spielergeschichten/Das_Ende_der_Zeit_der_Koenige.md
 letzter_check: 2026-02-13T23:35:00
 ---
 

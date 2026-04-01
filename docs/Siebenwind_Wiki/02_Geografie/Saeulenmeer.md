@@ -1,8 +1,8 @@
 ---
 uuid: saeulenmeer-geo-obsidian
 title: Säulenmeer
-category: [[index]]
-quelle: ../../Quellen/Spielergeschichten/[[Der_Flug_der_Ente]]..md
+category: Geografie
+quelle: ../../../Quellen/Spielergeschichten/Der Flug der Ente..md
 letzter_check: 2026-02-13T22:45:00
 ---
 

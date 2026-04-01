@@ -31,7 +31,7 @@
 | Name | Status | Ziel-Datei | Confidence | Notiz |
 |---|---|---|---|---|
 | [[Weißer_Hochturm]] | UPDATE | [[Il'Drun]] | 10 | Das Zentrum in Draconis |
-| [[Die_Vier_Kirchen]] | UPDATE | [[Die_Kirche]] | 10 | Bündnispartner der Weißmagier |
+| Die Vier Kirchen | UPDATE | [[Kirche_der_Viere]] | 10 | Bündnispartner der Weißmagier |
 
 ### 🗺️ Orte / 🐉 Bestiarium / 🔮 Konzepte
 | Name | Kategorie | Status | Wiki-Link | Notiz |

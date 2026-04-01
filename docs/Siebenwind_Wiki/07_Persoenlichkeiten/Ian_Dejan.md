@@ -1,6 +1,6 @@
 ---
 title: Ian Dejan
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Ian Dejan

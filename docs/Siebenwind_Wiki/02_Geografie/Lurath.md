@@ -1,6 +1,6 @@
 ---
 title: Lurath
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Lurath

@@ -1,7 +1,7 @@
 ---
 title: Anonymus
-category: [[Persoenlichkeiten_Uebersicht]]
-quelle: [[Wissen_Siebenwind]]
+category: Personen
+quelle: Wissen_Siebenwind
 ---
 
 # Anonymus

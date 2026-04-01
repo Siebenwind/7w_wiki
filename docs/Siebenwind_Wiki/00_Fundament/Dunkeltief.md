@@ -1,8 +1,8 @@
 ---
 uuid: 1337-BOTE-DUNKELTIEF-2026
 title: Dunkeltief
-category: [[index]]
-quelle: [[Zeitrechnung_(Der_Sonnenzirkel)]], [[Siebenwind_Bote_175]]
+category: Allgemein
+quelle: Zeitrechnung_(Der_Sonnenzirkel), Siebenwind_Bote_175
 letzter_check: 2026-02-13T15:15:00+01:00
 ---
 

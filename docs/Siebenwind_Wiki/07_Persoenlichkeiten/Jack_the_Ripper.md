@@ -2,7 +2,7 @@
 uuid: e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b
 title: Jack the Ripper
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_122]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_122.md
 letzter_check: 2026-02-13T22:45:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---

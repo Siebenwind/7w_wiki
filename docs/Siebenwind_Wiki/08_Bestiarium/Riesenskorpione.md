@@ -1,6 +1,6 @@
 ---
 title: Riesenskorpione
-category: [[index]]
+category: Allgemein
 ---
 
 # Riesenskorpione

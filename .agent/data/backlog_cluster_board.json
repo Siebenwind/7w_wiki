@@ -1,0 +1,320 @@
+{
+  "generated_at": "2026-03-30T18:01:16Z",
+  "version": 1,
+  "pages_health": {
+    "status": "WARN",
+    "unresolved_total": 734,
+    "unallowlisted_total": 732,
+    "last_validated_at": "2026-03-30T17:04:18Z"
+  },
+  "contract": {
+    "bridge_invalid": 86,
+    "contract_violations": 0
+  },
+  "clusters": [
+    {
+      "cluster": "lane1_target_normalization",
+      "match_rule": "pages target has exactly one canonical candidate and normalize_key(target) == normalize_key(candidate)",
+      "canonical_target": "per-item single canonical candidate",
+      "lane": "lane1",
+      "auto_apply_allowed": true,
+      "escalate_if": "candidate set is empty, >1, or semantically non-identical",
+      "count": 7,
+      "examples": [
+        {
+          "target": "Dämonen",
+          "canonical_target": "Daemonen",
+          "count": 5,
+          "source_pages": [
+            "docs/Quellen/Spielergeschichten/Die Nacht des Dunkeltiefs.md",
+            "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
+            "docs/Siebenwind_Wiki/00_Fundament/Glossar.md",
+            "docs/Siebenwind_Wiki/00_Fundament/Lichthoch.md",
+            "docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md",
+            "docs/Siebenwind_Wiki/01_Pantheon/Aequilibrium.md",
+            "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md",
+            "docs/Siebenwind_Wiki/01_Pantheon/Ritus_der_Exercitio.md",
+            "docs/Siebenwind_Wiki/02_Geografie/Brandenstein.md",
+            "docs/Siebenwind_Wiki/02_Geografie/Finsterwangen.md"
+          ]
+        },
+        {
+          "target": "En'Hor",
+          "canonical_target": "Enhor",
+          "count": 3,
+          "source_pages": [
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
+            "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",
+            "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur).md",
+            "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Ritualisierung_(Rhadan_der_Graue).md",
+            "docs/Siebenwind_Wiki/03_Wissen/Werke/Schamanische_Magie_(Fragment).md",
+            "docs/Siebenwind_Wiki/03_Wissen/Werke/Sphaerenkunde_(Wolfgang_Ravinsthal).md",
+            "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_169.md",
+            "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_181.md",
+            "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
+            "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md"
+          ]
+        },
+        {
+          "target": "[index",
+          "canonical_target": "index",
+          "count": 1,
+          "source_pages": [
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 176.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 178.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 179.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 180.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 182.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 185.md",
+            "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
+            "docs/Siebenwind_Wiki/00_Fundament/Bibliotheks_Register.md",
+            "docs/Siebenwind_Wiki/00_Fundament/Das_Fundament.md"
+          ]
+        },
+        {
+          "target": "[Siebenwind",
+          "canonical_target": "Siebenwind",
+          "count": 1,
+          "source_pages": [
+            "docs/Archiv/Research_Board.md",
+            "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md",
+            "docs/Quellen/Spielergeschichten/Illis_Geschichtenecke.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 176.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 178.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 179.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 180.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 182.md",
+            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 185.md"
+          ]
+        },
+        {
+          "target": "Beladriel_Blättertanz",
+          "canonical_target": "Beladriel_Blaettertanz",
+          "count": 1,
+          "source_pages": [
+            "docs/Siebenwind_Wiki/00_Fundament/Archiv_Register.md",
+            "docs/Siebenwind_Wiki/00_Fundament/Link_Test.md",
+            "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+            "docs/Siebenwind_Wiki/02_Geografie/Feste_Seeberg.md",
+            "docs/Siebenwind_Wiki/02_Geografie/Siebenwind.md",
+            "docs/Siebenwind_Wiki/03_Gesellschaft/Koenigliches_Gericht.md",
+            "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_165.md",
+            "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_166.md",
+            "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_167.md",
+            "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_168.md"
+          ]
+        },
+        {
+          "target": "Forschungsberichte ([[Toran_Dur",
+          "canonical_target": "Forschungsberichte_(Toran_Dur)",
+          "count": 1,
+          "source_pages": [
+            "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+            "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md",
+            "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Caieta_Ajunier.md",
+            "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Enoah_Sullin.md",
+            "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rianna.md"
+          ]
+        },
+        {
+          "target": "Su'un",
+          "canonical_target": "Su-un",
+          "count": 1,
+          "source_pages": [
+            "docs/Siebenwind_Wiki/00_Fundament/index.md",
+            "docs/Siebenwind_Wiki/01_Pantheon/Der_Blutrote_Stier.md",
+            "docs/Siebenwind_Wiki/01_Pantheon/Der_Traum_der_Tausend.md"
+          ]
+        }
+      ]
+    },
+    {
+      "cluster": "frontmatter_category_wikilinks",
+      "match_rule": "frontmatter category is a bare wikilink such as [[index]] or [[Geschichte]]",
+      "canonical_target": "derive_category(path)",
+      "lane": "lane1",
+      "auto_apply_allowed": true,
+      "escalate_if": "file category intentionally differs from enclosing folder",
+      "count": 0,
+      "examples": []
+    },
+    {
+      "cluster": "quelle_frontmatter_lookup",
+      "match_rule": "frontmatter quelle contains broken wikilinks or source-like path text and lookup yields exactly one real file",
+      "canonical_target": "relative path to unique docs/Quellen file",
+      "lane": "lane1",
+      "auto_apply_allowed": true,
+      "escalate_if": "lookup returns 0 or >1 plausible source files",
+      "count": 259,
+      "examples": [
+        "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
+        "docs/Siebenwind_Wiki/02_Geografie/Feste_Seeberg.md",
+        "docs/Siebenwind_Wiki/02_Geografie/Tal_der_Ahnen.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Brandensteiner_Reiter.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Circus_Wendolyn.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Communis_Medici.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Ersonter_Bund.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Graue_Garde.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Koenigliches_Gericht.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Pakt_der_Viereinigkeit.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Terra_Dorotor.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_133.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_135.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_136.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_137.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_138.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_139.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_140.md"
+      ]
+    },
+    {
+      "cluster": "bridge_single_target_review",
+      "match_rule": "bridge page has exactly one explicit 'Siehe auch' target",
+      "canonical_target": "per-page explicit target",
+      "lane": "lane2",
+      "auto_apply_allowed": false,
+      "escalate_if": "entity type changes or target is semantically lossy",
+      "count": 82,
+      "examples": [
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/01_Vitama.md",
+          "canonical_target": "Vitama",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/02_Rien.md",
+          "canonical_target": "Rien",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/02_Vitama.md",
+          "canonical_target": "Vitama",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/02_Xan.md",
+          "canonical_target": "Xan",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/12_Magie_Grundlagen.md",
+          "canonical_target": "Magie_Grundlagen",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Adel.md",
+          "canonical_target": "Das_Adelssystem",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Akademie.md",
+          "canonical_target": "Koenigliche_Akademie_der_Arkanen_Kuenste",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Akademie_der_Arkanen_Künste.md",
+          "canonical_target": "Koenigliche_Akademie_der_Arkanen_Kuenste",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Ars_Magica_Metamorphosia.md",
+          "canonical_target": "Ars_Magica_Metamorphosia_(Lewyn_Anacar)",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Astraelorden.md",
+          "canonical_target": "Ordo_Astraeli",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Astreyon.md",
+          "canonical_target": "Astreyonas",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Aurora.md",
+          "canonical_target": "Solice_Aurora",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Baumwesen.md",
+          "canonical_target": "Theorem_zu_den_Baumwesen_(Themus_Takai)",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Benion.md",
+          "canonical_target": "Benion_Sandelholz",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Burg_Saalhorn.md",
+          "canonical_target": "Saalhornshof",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Comari.md",
+          "canonical_target": "Erynnion_Comari",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Erin_Caiomme.md",
+          "canonical_target": "Erin_Caoimme",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Ersont.md",
+          "canonical_target": "Region_Ersont",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Feanthil.md",
+          "canonical_target": "Feanthil_(Arinth)",
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Feldmeister_Harlas.md",
+          "canonical_target": "Llewellyen",
+          "bridge_status": "untracked"
+        }
+      ]
+    },
+    {
+      "cluster": "bridge_escalation",
+      "match_rule": "bridge page has zero or multiple explicit targets",
+      "canonical_target": "",
+      "lane": "lane3",
+      "auto_apply_allowed": false,
+      "escalate_if": "replacement target is unclear or bridge must remain temporary",
+      "count": 4,
+      "examples": [
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/00_Religion_Uebersicht.md",
+          "targets": [],
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/03_Gesellschaft.md",
+          "targets": [],
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Arman_von_Draconis.md",
+          "targets": [
+            "Arman",
+            "Draconis"
+          ],
+          "bridge_status": "untracked"
+        },
+        {
+          "file": "docs/Siebenwind_Wiki/00_Fundament/Werke_index.md",
+          "targets": [],
+          "bridge_status": "untracked"
+        }
+      ]
+    }
+  ]
+}

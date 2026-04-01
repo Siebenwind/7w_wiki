@@ -1,6 +1,6 @@
 ---
 title: Zeitstrahl
-category: [[Geschichte]]
+category: Geschichte
 ---
 
 # Zeitstrahl
@@ -9,9 +9,9 @@ category: [[Geschichte]]
 
 | Jahr | Ereignis / Kontext | Quelle |
 |------|---------------------|--------|
-| 11 n.H. | *   **11 n.H.:** "Die Jüngste Schlacht" bei Venturia (Sieg über unbekannte Feinde, evtl. | [[Historie]] |
+| 11 n.H. | *   **11 n.H.:** "Die Jüngste Schlacht" bei Venturia (Sieg über unbekannte Feinde, evtl. | [[Historie_&_Ären|Historie]] |
 | 12 n.H. | *   **12 n.H.:**
-    *   Veröffentlichung der **"Eisernen Tafeln"** in [[Brandenstein]] (Kriegsrecht/Kodex). | [[Historie]] |
+    *   Veröffentlichung der **"Eisernen Tafeln"** in [[Brandenstein]] (Kriegsrecht/Kodex). | [[Historie_&_Ären|Historie]] |
 | 123 n.H. | ---
 layout: wiki_page
 title: [[Altumion_Eisenbruch]]
@@ -58,9 +58,9 @@ category: Persönlichkeit
 ## Beschreibung
 [[Altumion_Eisenbruch]] ist ein hochangesehener Richter zwergischer Abstammung, der im Auftrag der Krone [[index]] spricht. | [[Altumion_Eisenbruch]] |
 | 14 n.H. | ### Die Frühen Jahre (1 - 14 n.H.)
-Diese Zeit ist geprägt vom Wiederaufbau und der Festigung des Königreichs Galadon und der Kolonie [[Siebenwind]]. | [[Historie]] |
+Diese Zeit ist geprägt vom Wiederaufbau und der Festigung des Königreichs Galadon und der Kolonie [[Siebenwind]]. | [[Historie_&_Ären|Historie]] |
 | 14 n.H. | ### Die Frühen Jahre (1 - 14 n.H.)
-Diese Zeit ist geprägt vom Wiederaufbau und der Festigung des Königreichs Galadon und der Kolonie [[Siebenwind]]. | [[Historie]] |
+Diese Zeit ist geprägt vom Wiederaufbau und der Festigung des Königreichs Galadon und der Kolonie [[Siebenwind]]. | [[Historie_&_Ären|Historie]] |
 | 15 n.H. | 15 n.H. (aktuell Kanzlerin)
 
 ## Karriere & Timeline
@@ -78,7 +78,7 @@ status: Kanon
 
 **Epistemischer Status:** #bote
 
-Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
+Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie_&_Ären|Historie]] |
 | 15 n.H. | ---
 layout: wiki_page
 title: [[Historie_&_Ären]]
@@ -90,7 +90,7 @@ status: Kanon
 
 **Epistemischer Status:** #bote
 
-Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
+Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie_&_Ären|Historie]] |
 | 15 n.H. | ---
 layout: wiki_page
 title: [[Historie_&_Ären]]
@@ -102,8 +102,8 @@ status: Kanon
 
 **Epistemischer Status:** #bote
 
-Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie]] |
-| 15 n.H. | *   [[Historie]] - Die großen Zeitalter und die [[index]] vor 15 n.H.
+Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusammen, die vor der aktuellen Zeitrechnung (ab 15 n.H.) liegen. | [[Historie_&_Ären|Historie]] |
+| 15 n.H. | *   [[Historie_&_Ären|Historie]] - Die großen Zeitalter und die [[index]] vor 15 n.H.
 *   [[Zeitleiste_15_30_nH]] - Die Ära des [[Siebenwind]] Boten. | [[index]] |
 | 15 n.H. | *   **Aktuelle Zeit:** Die Ereignisse des *[[Siebenwind]] Boten* spielen im Zeitraum **15 n.H. bis 30 n. | [[Zeitrechnung]] |
 | 16 n.H. | ## Karriere & Timeline
@@ -117,11 +117,11 @@ Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusamm
 - **17 n.H.:** Anwesend bei der Weihe von [[Fraomar_Arkad_Grembargh]] zum Arkadhrall in den Bingen. | [[Kregor_Stahlauge]] |
 | 17 n.H. | ---
 layout: wiki_page
-title: [[Fraomar_Arkad'Grembargh]]
+title: [[Fraomar_Arkad_Grembargh]]
 category: Persönlichkeit
 ---
 
-# [[Fraomar_Arkad'Grembargh]]
+# [[Fraomar_Arkad_Grembargh]]
 
 **Titel:** Arkadhrall des [[Ignis]] (Arkadon)
 **Epistemischer Status:** #canon
@@ -132,11 +132,11 @@ category: Persönlichkeit
 Fraomar ist ein hoher Priester des Elementarherrn [[Ignis]] (zwergisch: Arkadon). | [[Fraomar_Arkad_Grembargh]] |
 | 17 n.H. | ---
 layout: wiki_page
-title: [[Fraomar_Arkad'Grembargh]]
+title: [[Fraomar_Arkad_Grembargh]]
 category: Persönlichkeit
 ---
 
-# [[Fraomar_Arkad'Grembargh]]
+# [[Fraomar_Arkad_Grembargh]]
 
 **Titel:** Arkadhrall des [[Ignis]] (Arkadon)
 **Epistemischer Status:** #canon
@@ -363,7 +363,7 @@ Seine Eminenz [[Tion_Altor]] ist ein hochrangiger Priester des Gottes 03_Bellum.
 ## Überblick
 Dieses Ereignis beschreibt das Verschwinden und den grausamen Tod/Fall einer Gruppe von Verteidigern jenseits des Walls. | [[Die_Tragödie_am_Wall]] |
 | 30 n.H. | )
-*   Siehe [Zeitleiste (15-30 n.H.)](Zeitleiste_15_30_nH. | [[Historie]] |
+*   Siehe [Zeitleiste (15-30 n.H.)](Zeitleiste_15_30_nH. | [[Historie_&_Ären|Historie]] |
 | 30 n.H. | ---
 layout: wiki_page
 title: Zeitleiste (15-30 n.H.)

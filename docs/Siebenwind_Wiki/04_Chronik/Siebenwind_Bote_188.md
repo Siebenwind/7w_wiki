@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 188
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 188

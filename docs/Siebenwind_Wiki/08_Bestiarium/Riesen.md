@@ -1,6 +1,6 @@
 ---
 title: Riesen
-category: [[index]]
+category: Allgemein
 ---
 
 # Riesen

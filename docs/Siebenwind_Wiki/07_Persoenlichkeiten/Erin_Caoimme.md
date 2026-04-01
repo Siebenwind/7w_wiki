@@ -1,6 +1,6 @@
 ---
 title: Erin Caoimme
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Erin Caoimme

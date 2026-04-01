@@ -1,7 +1,7 @@
 ---
 uuid: a1234567-a916-48b3-9a30-8de6fbc712da
 title: Abschied und Verrat
-category: [[index]]
+category: Allgemein
 status: integrated
 tags: [[[Brandenstein]], Robaar von Saalhorn, Ritterorden, Saalhorn, [[Falkensee]], [[Seeberg]], Falandrien]
 report_id: f432a1b1-6c7d-4e8a-8d2b-1c3a4b5d6e7f

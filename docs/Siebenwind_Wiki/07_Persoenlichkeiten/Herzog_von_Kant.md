@@ -1,6 +1,6 @@
 ---
 title: Herzog von Kant
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: #überlieferung
 quelle: [Linari - Philosophie]
 ---

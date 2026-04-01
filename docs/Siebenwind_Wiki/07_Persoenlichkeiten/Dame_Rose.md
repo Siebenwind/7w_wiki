@@ -1,6 +1,6 @@
 ---
 title: Dame Rose
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Dame Rose

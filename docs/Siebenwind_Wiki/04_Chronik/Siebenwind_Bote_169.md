@@ -1,9 +1,9 @@
 ---
 uuid: e2f3g4h5-i6j7-k8l9-m0n1-o2p3q4r5s6t7
 title: Siebenwind Bote 169
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 169.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 169.md
 letzter_check: 2026-02-13T16:00:00+01:00
 ---
 # [[Siebenwind]] Bote 169
@@ -38,4 +38,4 @@ letzter_check: 2026-02-13T16:00:00+01:00
 *   **[[Balean_Urs]]**: Neuer Leutnant des Kronregiments.
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 169](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20169.md)
+- Primärquelle: [Siebenwind Bote 169](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20169.md)

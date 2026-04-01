@@ -1,6 +1,6 @@
 ---
 title: Elares Valjean
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Elares Valjean

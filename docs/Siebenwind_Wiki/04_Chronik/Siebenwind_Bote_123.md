@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 123
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 123

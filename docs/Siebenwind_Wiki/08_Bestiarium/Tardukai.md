@@ -1,6 +1,6 @@
 ---
 title: Tardukai
-category: [[index]]
+category: Allgemein
 ---
 
 # Tardukai

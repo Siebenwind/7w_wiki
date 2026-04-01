@@ -1,6 +1,6 @@
 ---
 title: Aren Remouldo
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Aren Remouldo

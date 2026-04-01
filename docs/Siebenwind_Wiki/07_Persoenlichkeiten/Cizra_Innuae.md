@@ -1,6 +1,6 @@
 ---
 title: Cizra Innuae
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Cizra Innuae

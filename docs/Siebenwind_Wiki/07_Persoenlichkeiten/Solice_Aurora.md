@@ -1,6 +1,6 @@
 ---
 title: Solice Aurora
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Solice Aurora

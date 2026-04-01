@@ -1,6 +1,6 @@
 ---
 title: Rasse Elfen
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Rasse [[Elfen]]

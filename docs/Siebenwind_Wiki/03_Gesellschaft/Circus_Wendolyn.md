@@ -2,7 +2,7 @@
 title: Circus Wendolyn
 category: Organisationen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_138]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_138.md
 ---
 # Circus Wendolyn
 

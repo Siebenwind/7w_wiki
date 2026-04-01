@@ -1,6 +1,6 @@
 ---
 title: Bragthor Wuchthammer
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Bragthor Wuchthammer

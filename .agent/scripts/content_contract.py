@@ -28,6 +28,15 @@ ALLOWED_LEGACY_ARTIFACTS = {
 }
 CONTENT_CONTRACT_SCHEMA_VERSION = 2
 INVENTORY_SCHEMA_VERSION = 2
+NORMALIZE_TRANSLATION = str.maketrans({
+    "ä": "ae",
+    "ö": "oe",
+    "ü": "ue",
+    "ß": "ss",
+    "Ä": "ae",
+    "Ö": "oe",
+    "Ü": "ue",
+})
 
 LEGACY_FORBIDDEN_FRONTMATTER_KEYS = {"layout"}
 STUB_REQUIRED_FIELDS = {
@@ -55,6 +64,26 @@ FRONTMATTER_ORDER = [
 ]
 METADATA_LINE_RE = re.compile(r"^\*\*(?P<label>[^*][^:]*?):\*\*\s*(?P<value>.+?)\s*$")
 H1_RE = re.compile(r"^\s*#\s+(?P<title>.+?)\s*$")
+LEGACY_INDEX_LINK_RE = re.compile(
+    r"\[\[03_Gesellschaft/index#(?P<anchor>[^\]|]+)(?:\|(?P<label>[^\]]+))?\]\]"
+)
+MARKDOWN_LINK_RE = re.compile(r"(?<!\!)\[(?P<label>[^\]]+)\]\((?P<target>[^)]+)\)")
+BOTE_SOURCE_LINK_RE = re.compile(
+    r"\[(?P<label>(?:\[\[[^\]]+\]\][^\]]*)+)\]\((?P<target>[^)]*Quellen/[^)]*(?:\[\[[^\]]+\]\][^)]*)+)\)"
+)
+DOUBLE_BRACKET_LABEL_SOURCE_LINK_RE = re.compile(
+    r"\[\[(?P<label>[^\]]+)\]\]\((?P<target>[^)]*(?:\[\[[^\]]+\]\][^)]*)+)\)"
+)
+CATEGORY_WIKILINK_RE = re.compile(r"^\s*\[\[(?P<target>[^\]|]+)(?:\|(?P<label>[^\]]+))?\]\]\s*$")
+LEGACY_INDEX_LINK_TARGETS = {
+    "dwarschim": "Dwarschim",
+    "siebenwindkronregiment": "Siebenwind_Kronregiment",
+    "loewenorden": "Löwenorden",
+    "weisserpfad": "Weißer_Pfad",
+    "dergrosserat": "Der_Große_Rat",
+    "malthust": "Region_Malthust",
+    "handwerk": "Handwerk_Übersicht",
+}
 
 
 def now_iso() -> str:
@@ -66,7 +95,8 @@ def iso_from_timestamp(timestamp: float) -> str:
 
 
 def normalize_key(value: str) -> str:
-    return value.lower().replace("_", "").replace(" ", "").replace("-", "").replace("'", "")
+    normalized = value.translate(NORMALIZE_TRANSLATION).lower()
+    return re.sub(r"[^a-z0-9]", "", normalized)
 
 
 def content_hash(raw: str) -> str:
@@ -265,6 +295,106 @@ def normalize_inline_metadata_block(body: str) -> tuple[str, list[tuple[str, str
     return new_body, block["items"]
 
 
+def normalize_legacy_index_links(body: str) -> tuple[str, list[dict]]:
+    changes: list[dict] = []
+
+    def repl(match: re.Match[str]) -> str:
+        anchor = match.group("anchor").strip()
+        label = (match.group("label") or "").strip()
+        target = LEGACY_INDEX_LINK_TARGETS.get(normalize_key(anchor), anchor)
+        replacement = f"[[{target}|{label}]]" if label and label != target else f"[[{target}]]"
+        if replacement != match.group(0):
+            changes.append(
+                {
+                    "type": "legacy_index_wikilink",
+                    "from": match.group(0),
+                    "to": replacement,
+                }
+            )
+        return replacement
+
+    return LEGACY_INDEX_LINK_RE.sub(repl, body), changes
+
+
+def _flatten_wikilinks(value: str) -> str:
+    flattened = re.sub(r"\[\[(.*?)(?:\|.*?)?\]\]", r"\1", value)
+    return flattened.replace("[", "").replace("]", "").strip()
+
+
+def normalize_source_markdown_links(body: str) -> tuple[str, list[dict]]:
+    changes: list[dict] = []
+
+    def repl(match: re.Match[str]) -> str:
+        label = match.group("label")
+        target = match.group("target")
+        if "Quellen/" not in target and "Archiv/Ingestion_Reports/" not in target:
+            return match.group(0)
+        if "[[" not in label and "]]" not in label and "[[" not in target and "]]" not in target:
+            return match.group(0)
+
+        new_label = _flatten_wikilinks(label)
+        new_target = target.replace("[[", "").replace("]]", "")
+        replacement = f"[{new_label}]({new_target})"
+        if replacement != match.group(0):
+            changes.append(
+                {
+                    "type": "legacy_source_markdown_link",
+                    "from": match.group(0),
+                    "to": replacement,
+                }
+            )
+        return replacement
+
+    return MARKDOWN_LINK_RE.sub(repl, body), changes
+
+
+def normalize_bote_source_links(body: str) -> tuple[str, list[dict]]:
+    changes: list[dict] = []
+
+    def repl(match: re.Match[str]) -> str:
+        label = _flatten_wikilinks(match.group("label"))
+        target = _flatten_wikilinks(match.group("target"))
+        replacement = f"[{label}]({target})"
+        if replacement != match.group(0):
+            changes.append(
+                {
+                    "type": "legacy_bote_source_link",
+                    "from": match.group(0),
+                    "to": replacement,
+                }
+            )
+        return replacement
+
+    return BOTE_SOURCE_LINK_RE.sub(repl, body), changes
+
+
+def normalize_flattened_source_wikilink_labels(body: str) -> tuple[str, list[dict]]:
+    changes: list[dict] = []
+
+    def repl(match: re.Match[str]) -> str:
+        label = match.group("label")
+        target = match.group("target")
+        if "Quellen/" not in target and "Archiv/Ingestion_Reports/" not in target:
+            return match.group(0)
+        if ("[[" not in label and "]]" not in label) or ("[[" not in target and "]]" not in target):
+            return match.group(0)
+
+        new_label = _flatten_wikilinks(label)
+        new_target = target.replace("[[", "").replace("]]", "")
+        replacement = f"[{new_label}]({new_target})"
+        if replacement != match.group(0):
+            changes.append(
+                {
+                    "type": "legacy_source_markdown_link",
+                    "from": match.group(0),
+                    "to": replacement,
+                }
+            )
+        return replacement
+
+    return DOUBLE_BRACKET_LABEL_SOURCE_LINK_RE.sub(repl, body), changes
+
+
 def is_stub(meta: dict[str, str], body: str) -> bool:
     status = meta.get("status", "").strip().strip('"').strip("'").lower()
     if status == "stub":
@@ -319,6 +449,21 @@ def normalize_document(raw: str, path: Path) -> tuple[str, list[dict], dict[str,
             meta.pop(key, None)
             changes.append({"type": "legacy_field", "key": key})
 
+    source_value = meta.get("quelle", "")
+    if "[[" in source_value or "]]" in source_value:
+        normalized_source = _flatten_wikilinks(source_value)
+        if normalized_source != source_value:
+            meta["quelle"] = normalized_source
+            changes.append({"type": "legacy_source_field", "from": source_value, "to": normalized_source})
+
+    category_value = meta.get("category", "")
+    category_match = CATEGORY_WIKILINK_RE.match(category_value)
+    if category_match:
+        normalized_category = derive_category(path)
+        if normalized_category != category_value:
+            meta["category"] = normalized_category
+            changes.append({"type": "category_frontmatter_wikilink", "from": category_value, "to": normalized_category})
+
     h1_title = extract_first_h1(body)
     if h1_title:
         title_value = meta.get("title", "").strip().strip('"').strip("'")
@@ -335,6 +480,26 @@ def normalize_document(raw: str, path: Path) -> tuple[str, list[dict], dict[str,
                 "labels": [label for label, _ in metadata_items],
             }
         )
+
+    normalized_body, legacy_index_changes = normalize_legacy_index_links(body)
+    if legacy_index_changes:
+        body = normalized_body
+        changes.extend(legacy_index_changes)
+
+    normalized_body, legacy_source_link_changes = normalize_source_markdown_links(body)
+    if legacy_source_link_changes:
+        body = normalized_body
+        changes.extend(legacy_source_link_changes)
+
+    normalized_body, bote_source_link_changes = normalize_bote_source_links(body)
+    if bote_source_link_changes:
+        body = normalized_body
+        changes.extend(bote_source_link_changes)
+
+    normalized_body, flattened_source_wikilink_changes = normalize_flattened_source_wikilink_labels(body)
+    if flattened_source_wikilink_changes:
+        body = normalized_body
+        changes.extend(flattened_source_wikilink_changes)
 
     if is_stub(meta, body):
         status = meta.get("status", "stub").strip().strip('"').strip("'").lower()
@@ -559,7 +724,7 @@ def _scan_contract_uncached(files: list[Path]) -> dict:
         change_types = {change["type"] for change in detail["changes"]}
         if "inline_metadata_block" in change_types:
             render_hygiene += 1
-        if any(change_type in change_types for change_type in {"legacy_field", "duplicate_frontmatter_key", "missing_frontmatter", "title_h1_mismatch"}):
+        if any(change_type in change_types for change_type in {"legacy_field", "duplicate_frontmatter_key", "missing_frontmatter", "title_h1_mismatch", "legacy_index_wikilink", "legacy_source_markdown_link", "legacy_bote_source_link", "legacy_source_field", "category_frontmatter_wikilink"}):
             contract_violations += 1
         if detail["analysis"]["stub_status"] == "stub":
             stub_total += 1

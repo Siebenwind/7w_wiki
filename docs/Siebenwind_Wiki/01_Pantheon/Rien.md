@@ -2,14 +2,14 @@
 title: Rien
 status: Kanon (Level 1)
 type: Religion
-tags: [Elementarherrin, [[Enhor]], Erde, [[Rasse_Zwerge]], [[index]]]
+tags: [Elementarherrin, [[Die_Enhor|Enhor]], Erde, [[Rasse_Zwerge]], [[index]]]
 ---
 
 # Rien
 
 **Epistemischer Status:** #canon
 
-**Rien** ist eine der vier Elementarherren ([[Enhor]]) und die Herrscherin über die Erde, den Fels und das Mineral. Sie steht für Stabilität, Beständigkeit, Fruchtbarkeit (als Nährboden) und Verteidigung.
+**Rien** ist eine der vier Elementarherren ([[Die_Enhor|Enhor]]) und die Herrscherin über die Erde, den Fels und das Mineral. Sie steht für Stabilität, Beständigkeit, Fruchtbarkeit (als Nährboden) und Verteidigung.
 
 ## Aspekte und Prinzipien
 - **Element:** Erde

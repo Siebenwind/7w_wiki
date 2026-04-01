@@ -1,6 +1,6 @@
 ---
 title: Greifenwald
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Greifenwald

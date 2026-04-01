@@ -1,6 +1,6 @@
 ---
 title: Guntram Sonnacker
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Guntram Sonnacker

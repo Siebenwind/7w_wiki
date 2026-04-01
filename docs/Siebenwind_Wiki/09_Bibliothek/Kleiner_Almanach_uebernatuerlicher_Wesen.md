@@ -1,6 +1,6 @@
 ---
 title: Kleiner Almanach übernatürlicher Wesen
-category: [[index]]
+category: Allgemein
 ---
 
 # Kleiner Almanach übernatürlicher Wesen

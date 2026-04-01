@@ -1,8 +1,8 @@
 ---
 title: Huns Siebzehnrübl
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_133]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_133.md
 ---
 # Huns Siebzehnrübl
 

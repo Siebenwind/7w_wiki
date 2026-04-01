@@ -2,7 +2,7 @@
 uuid: hali-pointe-e1ns
 title: Nichts und ohne Pointe
 category: Erzählung
-quelle: ../../Quellen/Spielergeschichten/Nichts und ohne Pointe | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
+quelle: ../../Quellen/Spielergeschichten/Nichts und ohne Pointe | Siebenwind | Ultima Online Freeshard | Siebenwind.md
 lore_trust: 7
 letzter_check: 2026-02-14T01:30:00
 ---

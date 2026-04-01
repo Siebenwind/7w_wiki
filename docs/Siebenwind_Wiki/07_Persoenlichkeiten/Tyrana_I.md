@@ -2,7 +2,7 @@
 uuid: 4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c
 title: Tyrana I. Ahm Senal
 category: Persönlichkeit
-quelle: ../../Quellen/Hintergrund/Khalandra.md
+quelle: ../../../Quellen/Hintergrund/Khalandra.md
 letzter_check: 2026-02-13T23:05:00
 report_id: bea60047-d2f3-4513-b2ca-a6494a919c3c
 ---

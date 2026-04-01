@@ -57,8 +57,16 @@ nav:
       - Zeitrechnung: Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md
     - Pantheon und Religion:
       - Uebersicht: Siebenwind_Wiki/01_Pantheon/index.md
+      - Religion Übersicht: Siebenwind_Wiki/00_Fundament/Religion_Übersicht.md
       - Das Pantheon: Siebenwind_Wiki/01_Pantheon/Das_Pantheon.md
-      - Astrael: Siebenwind_Wiki/01_Pantheon/Astrael.md
+      - Die Viere (Sahor):
+        - Astrael: Siebenwind_Wiki/01_Pantheon/Astrael.md
+        - Bellum: Siebenwind_Wiki/01_Pantheon/Bellum.md
+        - Vitama: Siebenwind_Wiki/01_Pantheon/Vitama.md
+        - Morsan: Siebenwind_Wiki/01_Pantheon/Morsan.md
+      - Die Elementarherren (Enhor): Siebenwind_Wiki/01_Pantheon/Die_Enhor.md
+      - Die Gohor: Siebenwind_Wiki/01_Pantheon/Die_Gohor.md
+      - Angamon: Siebenwind_Wiki/01_Pantheon/Angamon.md
     - Geografie und Orte:
       - Uebersicht: Siebenwind_Wiki/02_Geografie/index.md
       - Siebenwind: Siebenwind_Wiki/02_Geografie/Siebenwind.md
@@ -90,8 +98,7 @@ nav:
 
 plugins:
   - search
-  - roamlinks:
-      link_relative: true
+  - roamlinks
   - caseinsensitivefiles
 
 markdown_extensions:

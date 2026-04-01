@@ -1,7 +1,7 @@
 ---
 uuid: df7a4b2c-2345-5678-9012-34bf2597e836
 title: Faesa Farell
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 epistemic: "#bote"
 ---
 

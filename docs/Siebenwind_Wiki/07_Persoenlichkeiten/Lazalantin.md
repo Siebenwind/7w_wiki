@@ -1,6 +1,6 @@
 ---
 title: Lazalantin
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Lazalantin

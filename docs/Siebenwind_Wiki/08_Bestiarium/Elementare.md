@@ -1,6 +1,6 @@
 ---
 title: Elementare
-category: [[index]]
+category: Allgemein
 ---
 
 # Elementare

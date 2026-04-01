@@ -1,7 +1,7 @@
 ---
 title: Rhadan der Graue
-category: [[Persoenlichkeiten_Uebersicht]]
-quelle: [[Rituallehre_Sphaeren]]
+category: Personen
+quelle: Rituallehre_Sphaeren
 ---
 
 # Rhadan der Graue

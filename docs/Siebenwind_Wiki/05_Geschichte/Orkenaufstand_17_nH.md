@@ -1,6 +1,6 @@
 ---
 title: Der Orkenaufstand von 17 n.H.
-category: [[Geschichte]]
+category: Geschichte
 ---
 
 # Der Orkenaufstand von 17 n.H.

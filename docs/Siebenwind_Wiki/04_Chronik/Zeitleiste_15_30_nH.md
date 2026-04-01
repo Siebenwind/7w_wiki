@@ -1,6 +1,6 @@
 ---
 title: Zeitleiste (15-30 n.H.)
-category: [[index]]
+category: Chronik
 author: [[Siebenwind]] Chronicler
 ---
 

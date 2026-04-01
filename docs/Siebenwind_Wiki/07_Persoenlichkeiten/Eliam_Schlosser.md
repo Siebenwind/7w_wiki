@@ -1,7 +1,7 @@
 ---
 uuid: bc8f4a2d-1234-4567-8901-23bf2597e836
 title: Eliam Schlosser
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 epistemic: "#bote"
 ---
 

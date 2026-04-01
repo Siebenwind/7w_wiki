@@ -1,9 +1,9 @@
 ---
 uuid: e9292e20-bf18-448f-b0a1-81b5fcf43e64
 title: Siebenwind Bote 135
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 135.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 135.md
 letzter_check: 2026-02-13T00:52:00+01:00
 ---
 # [[Siebenwind]] Bote 135
@@ -51,4 +51,4 @@ Der Wegelagerer **[[Aaron]]** (ein ehemaliger Anwärter der [[Kriegerakademie]])
 *   [[Sha'Naz'Ghul]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 135](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20135.md)
+- Primärquelle: [Siebenwind Bote 135](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20135.md)

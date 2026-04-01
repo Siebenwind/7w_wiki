@@ -1,8 +1,8 @@
 ---
 title: "Baron Gerdenwald"
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Die Stadtchronik Rohehafens.md"
+quelle: "/Quellen/index Astrael/Die Stadtchronik Rohehafens.md"
 author: "Antigravity"
 owner: UNASSIGNED
 review_until: 2026-09-22

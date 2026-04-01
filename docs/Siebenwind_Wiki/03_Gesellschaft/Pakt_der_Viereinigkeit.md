@@ -1,8 +1,8 @@
 ---
 title: Pakt der Viereinigkeit
-category: [[index]]
+category: Gesellschaft
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_174]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_174.md
 ---
 # Pakt der Viereinigkeit
 

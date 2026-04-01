@@ -544,7 +544,10 @@ def main():
     repair_parser.add_argument("--auto", action="store_true", help="Run non-interactive auto-repair")
     repair_parser.add_argument("--full", action="store_true", help="Run full non-interactive repair cycle (1-3)")
     repair_parser.add_argument("--fix-roamlinks", action="store_true", help="Aggressively repair unresolved Pages / Roamlinks targets")
+    repair_parser.add_argument("--backlog-board", action="store_true", help="Generate cluster-based backlog board and escalation artifacts")
+    repair_parser.add_argument("--apply-lane1", action="store_true", help="Apply the conservative lane-1 mechanical backlog wave")
     repair_parser.add_argument("--dry-run", action="store_true", help="Preview repair changes without writing files")
+    repair_parser.add_argument("--json", action="store_true", help="Emit machine-readable JSON for backlog-oriented repair modes")
 
 
     audit_parser = subparsers.add_parser("audit", help="Run consistency audit (duplicates, orphans)")
@@ -568,6 +571,7 @@ def main():
     pages_build.add_argument("--no-clean", action="store_true", help="Skip mkdocs --clean")
     pages_build.add_argument("--config", default="mkdocs.yml", help="Path to mkdocs config (default: mkdocs.yml)")
     pages_validate = pages_sub.add_parser("validate", help="Run docs link suite, audit, and pages build")
+    pages_validate.add_argument("--fast", action="store_true", help="Use cached analysis plus the latest Pages snapshot as an advisory-only precheck")
     pages_validate.add_argument("--strict", action="store_true", help="Enable strict mode for mkdocs build")
     pages_validate.add_argument("--strict-links", action="store_true", help="Fail if non-allowlisted unresolved internal links remain")
     pages_validate.add_argument("--no-clean", action="store_true", help="Skip mkdocs --clean")
@@ -810,8 +814,14 @@ def main():
             repair_args.append("--full")
         if args.fix_roamlinks:
             repair_args.append("--fix-roamlinks")
+        if args.backlog_board:
+            repair_args.append("--backlog-board")
+        if args.apply_lane1:
+            repair_args.append("--apply-lane1")
         if args.dry_run:
             repair_args.append("--dry-run")
+        if args.json:
+            repair_args.append("--json")
         run_script(".agent/scripts/repair.py", repair_args)
 
     elif args.command == "audit":
@@ -839,6 +849,8 @@ def main():
             pages_parser.print_help()
             sys.exit(1)
         page_args = [args.pages_cmd]
+        if hasattr(args, "fast") and args.fast:
+            page_args.append("--fast")
         if hasattr(args, "strict") and args.strict:
             page_args.append("--strict")
         if hasattr(args, "no_clean") and args.no_clean:

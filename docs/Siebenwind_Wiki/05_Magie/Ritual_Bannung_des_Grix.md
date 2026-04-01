@@ -1,8 +1,8 @@
 ---
 title: Ritual zur Bannung des Grix
-category: [[index]]
+category: Magie
 status: Canon
-quelle: "../../Quellen/[[index]] [[Toran_Dur]]/Anonymous - Ritual zur Bannung des [[Grix]].md"
+quelle: "../../Quellen/index Toran_Dur/Anonymous - Ritual zur Bannung des Grix.md"
 author: "[[Anonymus]]"
 lore_trust: 8
 confidence: Certain

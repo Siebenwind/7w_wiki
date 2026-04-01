@@ -1,6 +1,6 @@
 ---
 title: Miana Tialis
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Miana Tialis

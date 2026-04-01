@@ -1,7 +1,7 @@
 ---
 uuid: ef8b5c3d-3456-6789-0123-45bf2597e836
 title: Geist
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 epistemic: "#bote"
 ---
 

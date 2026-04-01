@@ -1,6 +1,6 @@
 ---
 title: Ödland
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Ödland

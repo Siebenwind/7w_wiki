@@ -1,6 +1,6 @@
 ---
 title: Barad Hael
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Barad Hael

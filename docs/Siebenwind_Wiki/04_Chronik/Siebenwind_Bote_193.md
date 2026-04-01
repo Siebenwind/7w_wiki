@@ -1,9 +1,9 @@
 ---
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a907
 title: Siebenwind Bote 193
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 193.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 193.md
 letzter_check: 2026-02-13T01:30:00+01:00
 ---
 # [[Siebenwind]] Bote 193
@@ -46,4 +46,4 @@ Die Abrichterin **[[Tanja_Wollframm]]** gewann die von **[[Nathar_Erres]]** orga
 *   [[Nathar_Erres]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 193](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20193.md)
+- Primärquelle: [Siebenwind Bote 193](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20193.md)

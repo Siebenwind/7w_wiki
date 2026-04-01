@@ -1,8 +1,8 @@
 ---
 uuid: be2ae710-1639-4458-b50b-f5c901eab851
 title: Königliche Akademie der arkanen Künste
-category: [[index]]
-quelle: ../../Quellen/[[index]] [[Toran_Dur]]/[[Toran_Dur]] - Graue Charta II.md
+category: Gesellschaft
+quelle: ../../Quellen/index Toran_Dur/Toran_Dur - Graue Charta II.md
 letzter_check: 2026-02-13T01:02:10+01:00
 ---
 

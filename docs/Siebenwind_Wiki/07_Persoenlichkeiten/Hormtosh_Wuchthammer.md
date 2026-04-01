@@ -1,6 +1,6 @@
 ---
 title: Hormtosh Wuchthammer
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Hormtosh Wuchthammer

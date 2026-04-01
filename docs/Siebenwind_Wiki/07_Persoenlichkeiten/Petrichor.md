@@ -1,6 +1,6 @@
 ---
 title: Petrichor
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Petrichor

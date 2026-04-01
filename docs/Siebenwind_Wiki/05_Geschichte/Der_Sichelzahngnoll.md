@@ -1,6 +1,6 @@
 ---
 title: Der Fall des Sichelzahngnolls (18 n.H.)
-category: [[Geschichte]]
+category: Geschichte
 ---
 
 # Der Fall des Sichelzahngnolls (18 n.H.)

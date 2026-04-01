@@ -2,7 +2,7 @@
 title: Arknor
 category: Persönlichkeit
 status: "#überlieferung"
-quelle: "[[Sprache_Yerredoni]]"
+quelle: "Sprache_Yerredoni"
 ---
 
 # Arknor

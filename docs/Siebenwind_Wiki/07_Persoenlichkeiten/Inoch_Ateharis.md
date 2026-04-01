@@ -1,6 +1,6 @@
 ---
 title: Inoch Ateharis
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Inoch Ateharis

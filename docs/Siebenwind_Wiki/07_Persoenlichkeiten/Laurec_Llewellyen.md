@@ -1,6 +1,6 @@
 ---
 title: Laurec Llewellyen
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Laurec [[Llewellyen]]

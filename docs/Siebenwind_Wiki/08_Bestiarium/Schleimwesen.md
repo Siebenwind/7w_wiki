@@ -1,6 +1,6 @@
 ---
 title: Schleimwesen
-category: [[index]]
+category: Allgemein
 ---
 
 # Schleimwesen

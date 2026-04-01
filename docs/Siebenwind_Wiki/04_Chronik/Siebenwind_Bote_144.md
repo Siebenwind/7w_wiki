@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 144
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 144

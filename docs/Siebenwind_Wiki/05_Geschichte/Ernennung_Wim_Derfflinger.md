@@ -1,6 +1,6 @@
 ---
 title: Ernennung Wim_Derfflinger
-category: [[index]]
+category: Geschichte
 ---
 
 # Ernennung [[Wim_Derfflinger]]
@@ -8,7 +8,7 @@ category: [[index]]
 !!! info "Metadaten"
     - **Epistemischer Status:** #bote
     - **Datum:** 15 n.H. (Bote 123)
-    - **Ort:** [[Königliches_Gericht]]
+    - **Ort:** [[Koenigliches_Gericht]]
 
 
 ## Verlauf

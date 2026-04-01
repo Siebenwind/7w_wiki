@@ -2,7 +2,7 @@
 title: Der Blinde Maler
 category: Mythen und Legenden
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_175]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_175.md
 ---
 # Der Blinde Maler
 

@@ -1,6 +1,6 @@
 ---
 title: Katharina von Tiefenwald
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Katharina von Tiefenwald

@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 132
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 132

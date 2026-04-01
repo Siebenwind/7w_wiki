@@ -1,6 +1,6 @@
 ---
 title: Tarrant
-category: [[index]]
+category: Allgemein
 ---
 
 # Tarrant

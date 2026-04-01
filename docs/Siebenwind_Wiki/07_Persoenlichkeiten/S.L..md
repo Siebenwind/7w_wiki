@@ -1,6 +1,6 @@
 ---
 title: S.L.
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # S.L.

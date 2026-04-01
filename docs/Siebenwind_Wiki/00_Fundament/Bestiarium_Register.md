@@ -27,9 +27,9 @@ Nutzen reine Konzentration zur Entfesselung arkaner Kräfte.
 | Name | Klassifizierung | Primärer Lebensraum | Epistemischer Status |
 | :--- | :--- | :--- | :--- |
 | [[Chimären]] | Magische Wesen | Wüste / Labore | #canon |
-| [[Dämonen]] | Chaoswesen | Ssphärenrisse | #canon |
+| [[Daemonen]] | Chaoswesen | Ssphärenrisse | #canon |
 | [[Drachen]] | Mystische Wesen / Bestien | Unbekannt / Gebirge | #canon |
-| [[Dämonen]] | Beelzebuben / [[Daemonen]] | Zweite Sphäre / [[Tare]] | #canon |
+| [[Daemonen]] | Beelzebuben / [[Daemonen]] | Zweite Sphäre / [[Tare]] | #canon |
 | [[Elementare]] | [[Elementare]] | Orte arkaner Energie | #canon |
 | [[Feen]] | Übernatürliche Wesen | Wälder / Zweite Sphäre | #canon |
 | [[Ferrin]] | [[Chimären]] (Mensch/Ratte) | Sümpfe, [[Falkensee]] | #canon |

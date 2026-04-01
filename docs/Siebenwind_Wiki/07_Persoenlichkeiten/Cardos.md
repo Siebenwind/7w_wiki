@@ -1,6 +1,6 @@
 ---
 title: "Cardos"
-category: [[index]]
+category: Personen
 ---
 
 # Cardos

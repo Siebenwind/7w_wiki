@@ -5,6 +5,7 @@ import os
 import shutil
 import subprocess
 import sys
+import time
 
 from pages_integrity import collect_pages_build_report, now_iso, write_pages_health_snapshot
 
@@ -98,6 +99,7 @@ def cmd_build(args):
 
 
 def _run_validation_check(command_args, json_mode):
+    started = time.perf_counter()
     if json_mode:
         result = _run_runtime_capture(command_args)
         parsed_json = None
@@ -111,17 +113,26 @@ def _run_validation_check(command_args, json_mode):
             "stdout": result.stdout,
             "stderr": result.stderr,
             "json": parsed_json,
+            "duration_ms": round((time.perf_counter() - started) * 1000, 2),
         }
     rc = _run_runtime(command_args)
-    return {"command": command_args, "exit_code": rc}
+    return {
+        "command": command_args,
+        "exit_code": rc,
+        "duration_ms": round((time.perf_counter() - started) * 1000, 2),
+    }
 
 
 def _build_validate_report(args):
+    started_total = time.perf_counter()
     status_rc = cmd_status(args, silent=args.json)
     if status_rc != 0:
         return {
             "generated_at": now_iso(),
+            "mode": "fast" if args.fast else "full",
+            "advisory_only": bool(args.fast),
             "status": "FAIL",
+            "validation_timing_ms": {"total": round((time.perf_counter() - started_total) * 1000, 2)},
             "checks": [],
             "build": {"exit_code": status_rc},
             "pages_health": {
@@ -144,6 +155,7 @@ def _build_validate_report(args):
         }, status_rc
 
     checks = []
+    prechecks_started = time.perf_counter()
     if not args.skip_link_suite:
         checks.append(_run_validation_check(["test", "--suite", "interop-doc-links"], args.json))
     if not args.skip_source_hygiene:
@@ -162,12 +174,20 @@ def _build_validate_report(args):
         if args.json:
             audit_args.append("--json")
         checks.append(_run_validation_check(audit_args, args.json))
+    prechecks_duration_ms = round((time.perf_counter() - prechecks_started) * 1000, 2)
 
     for check in checks:
         if check["exit_code"] != 0:
             return {
                 "generated_at": now_iso(),
+                "mode": "fast" if args.fast else "full",
+                "advisory_only": bool(args.fast),
                 "status": "FAIL",
+                "validation_timing_ms": {
+                    "prechecks_total": prechecks_duration_ms,
+                    "report_build": 0,
+                    "total": round((time.perf_counter() - started_total) * 1000, 2),
+                },
                 "checks": checks,
                 "build": {"exit_code": None},
                 "pages_health": {
@@ -189,11 +209,18 @@ def _build_validate_report(args):
                 },
             }, check["exit_code"]
 
-    report = collect_pages_build_report(config=args.config, no_clean=args.no_clean)
+    report_build_started = time.perf_counter()
+    report = collect_pages_build_report(config=args.config, no_clean=args.no_clean, fast=args.fast)
+    report_build_duration_ms = round((time.perf_counter() - report_build_started) * 1000, 2)
     report["generated_at"] = now_iso()
     report["checks"] = checks
     report["strict_requested"] = bool(args.strict)
     report["strict_links_requested"] = bool(args.strict_links)
+    report["validation_timing_ms"] = {
+        "prechecks_total": prechecks_duration_ms,
+        "report_build": report_build_duration_ms,
+        "total": round((time.perf_counter() - started_total) * 1000, 2),
+    }
 
     pages_health = report["pages_health"]
     audit_check = next((check for check in checks if check["command"] and check["command"][0] == "audit"), None)
@@ -224,13 +251,13 @@ def _build_validate_report(args):
     final_status = pages_health.get("status", report.get("status", "UNKNOWN"))
     exit_code = 0
 
-    if report["build"]["exit_code"] != 0:
+    if not args.fast and report["build"]["exit_code"] != 0:
         final_status = "FAIL"
         exit_code = report["build"]["exit_code"]
     elif pages_health.get("drift_status") == "FAIL":
         final_status = "FAIL"
         exit_code = 1
-    elif args.strict and non_roamlink_warning_count > 0:
+    elif args.strict and not args.fast and non_roamlink_warning_count > 0:
         final_status = "FAIL"
         exit_code = 1
     elif args.strict_links and pages_health.get("unallowlisted_total", 0) > 0:
@@ -241,8 +268,9 @@ def _build_validate_report(args):
 
     report["status"] = final_status
     pages_health["status"] = final_status
-    pages_health["last_validated_at"] = report["generated_at"]
-    write_pages_health_snapshot(report)
+    if not args.fast:
+        pages_health["last_validated_at"] = report["generated_at"]
+        write_pages_health_snapshot(report)
     return report, exit_code
 
 
@@ -278,6 +306,7 @@ def main():
     build_parser.add_argument("--config", default="mkdocs.yml", help="mkdocs config path")
 
     validate_parser = subparsers.add_parser("validate", help="Run runtime checks and mkdocs build")
+    validate_parser.add_argument("--fast", action="store_true", help="Use cached analysis plus the latest Pages snapshot as an advisory-only precheck")
     validate_parser.add_argument("--strict", action="store_true", help="Run mkdocs build in strict mode")
     validate_parser.add_argument("--strict-links", action="store_true", help="Fail if non-allowlisted unresolved internal links remain")
     validate_parser.add_argument("--no-clean", action="store_true", help="Skip mkdocs --clean")

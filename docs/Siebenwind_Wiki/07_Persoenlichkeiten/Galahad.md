@@ -1,6 +1,6 @@
 ---
 title: "Galahad"
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: stub
 quelle: "Die Legende von Galahad, Ritter der Rosen"
 owner: UNASSIGNED

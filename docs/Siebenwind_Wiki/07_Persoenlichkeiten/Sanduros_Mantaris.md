@@ -2,7 +2,7 @@
 uuid: 54ndur05-m4nt4r15-45tr43l
 title: Sanduros Mantaris
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
+quelle: ../../../Quellen/Spielergeschichten/Das_Ende_der_Zeit_der_Koenige.md
 letzter_check: 2026-02-13T23:35:00
 ---
 

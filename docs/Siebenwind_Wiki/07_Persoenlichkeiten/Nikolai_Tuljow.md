@@ -1,6 +1,6 @@
 ---
 title: Nikolai Tuljow
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Nikolai Tuljow

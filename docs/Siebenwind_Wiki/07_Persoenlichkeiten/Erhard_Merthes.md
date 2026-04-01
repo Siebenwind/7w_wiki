@@ -1,6 +1,6 @@
 ---
 title: Erhard Merthes
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Erhard Merthes

@@ -1,6 +1,6 @@
 ---
 title: Hafengilde Brandenstein
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Hafengilde [[Brandenstein]]

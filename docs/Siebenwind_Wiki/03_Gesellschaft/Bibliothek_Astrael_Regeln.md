@@ -1,8 +1,8 @@
 ---
 title: Regulatorium der index zum Heiligen Auge Astraels
-category: [[index]]
+category: Gesellschaft
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Regulatorium der [[index]] zum Heiligen Auge Astraels.md"
+quelle: "/Quellen/index Astrael/Regulatorium der index zum Heiligen Auge Astraels.md"
 author: "Anais"
 ---
 

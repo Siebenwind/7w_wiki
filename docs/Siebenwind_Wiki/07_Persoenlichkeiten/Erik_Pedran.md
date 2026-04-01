@@ -2,7 +2,7 @@
 uuid: 1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f
 title: Erik Pedran
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_182]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_182.md
 letzter_check: 2026-02-13T22:40:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---
@@ -12,7 +12,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 !!! info "Metadaten"
     - **Titel:** Ritter
     - **Epistemischer Status:** #bote
-    - **Zugehörigkeit:** [[03_Gesellschaft/index#Löwenorden|Löwenorden]]
+    - **Zugehörigkeit:** [[Löwenorden]]
 
 
 ## Beschreibung
@@ -22,7 +22,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 - **Rittertum:** Dienst im Löwenorden unter dem Kommando von [[Hagen_Robaar]] (ehem.).
 
 ## Verlinkte Themen
-- [[03_Gesellschaft/index#Löwenorden]]
+- [[Löwenorden]]
 - [[Personenregister]]
 
 ## Referenzen

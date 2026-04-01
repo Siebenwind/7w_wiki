@@ -34,14 +34,14 @@
 ### 🔮 Magische Konzepte (Zauber/Runen)
 | Name | Kategorie | Status | Wiki-Link | Notiz |
 |---|---|---|---|---|
-| Wunden heilen | Zauber | UPDATE | [[Magie_Elementarmagie]] | Element Wasser (Xa). Fokus: "Dagal Arh e Zeaseij, ur man" oder "narra odal radine xa ki man…ing man" |
-| Entgiften | Zauber | UPDATE | [[Magie_Elementarmagie]] | Element Wasser (Xa). Fokus: "Dagal Naud, as Naud, ur Man" |
-| Erdschild / Rüstung | Zauber | UPDATE | [[Magie_Elementarmagie]] | Element Erde (Yhorn). Fokus: "Ing Sigil dra Yhorn, Ur Yhorn" |
-| Mauer aus Stein | Zauber | UPDATE | [[Magie_Elementarmagie]] | Element Erde (Yhorn). Fokus: "Ing vjera perdo yhorn…ing geb dra yhorn" |
-| Körper kräftigen | Zauber | UPDATE | [[Magie_Elementarmagie]] | Element Erde (Yhorn). Fokus: "Ur Yhorn ki har hian" |
-| Eissplitter / Eisangriff | Zauber | UPDATE | [[Magie_Elementarmagie]] | Element Eis (Isaz). Fokus: "Narra odal radine hagal ki isaz" oder "Dagal ji ki hian ..ing geb isaz" |
-| Lichtblitz / Blenden | Zauber | UPDATE | [[Magie_Elementarmagie]] | Element Feuer (Fe). Fokus: "Ing vjera Laf….ur Laf" |
-| Flammenwand / Reigen | Zauber | UPDATE | [[Magie_Elementarmagie]] | Element Feuer (Fe). Fokus: "Ur ji hian" und "Ing Fe veh ji’hian" |
+| Wunden heilen | Zauber | UPDATE | [[Magietheorie_Eigenschaften_der_Elemente]] | Element Wasser (Xa). Fokus: "Dagal Arh e Zeaseij, ur man" oder "narra odal radine xa ki man…ing man" |
+| Entgiften | Zauber | UPDATE | [[Magietheorie_Eigenschaften_der_Elemente]] | Element Wasser (Xa). Fokus: "Dagal Naud, as Naud, ur Man" |
+| Erdschild / Rüstung | Zauber | UPDATE | [[Magietheorie_Eigenschaften_der_Elemente]] | Element Erde (Yhorn). Fokus: "Ing Sigil dra Yhorn, Ur Yhorn" |
+| Mauer aus Stein | Zauber | UPDATE | [[Magietheorie_Eigenschaften_der_Elemente]] | Element Erde (Yhorn). Fokus: "Ing vjera perdo yhorn…ing geb dra yhorn" |
+| Körper kräftigen | Zauber | UPDATE | [[Magietheorie_Eigenschaften_der_Elemente]] | Element Erde (Yhorn). Fokus: "Ur Yhorn ki har hian" |
+| Eissplitter / Eisangriff | Zauber | UPDATE | [[Magietheorie_Eigenschaften_der_Elemente]] | Element Eis (Isaz). Fokus: "Narra odal radine hagal ki isaz" oder "Dagal ji ki hian ..ing geb isaz" |
+| Lichtblitz / Blenden | Zauber | UPDATE | [[Magietheorie_Eigenschaften_der_Elemente]] | Element Feuer (Fe). Fokus: "Ing vjera Laf….ur Laf" |
+| Flammenwand / Reigen | Zauber | UPDATE | [[Magietheorie_Eigenschaften_der_Elemente]] | Element Feuer (Fe). Fokus: "Ur ji hian" und "Ing Fe veh ji’hian" |
 
 ## 🧠 Lore-Audit & Narrative Highlights
 - **Wichtigste Erkenntnisse**: Detaillierte Beschreibungen, wie Elementarmagie in der Praxis durch spezifische Runenkombinationen fokussiert wird. Auch destruktive Abwandlungen von Heil-Elementen (Eis macht anfällig für Gifte) und heilende Abwandlungen von Angriffs-Elementen (Feuer heilt bei Erfahrenen besser als Wasser).

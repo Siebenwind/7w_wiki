@@ -1,6 +1,6 @@
 ---
 title: Das magische Gefecht vor Etriska
-category: [[Geschichte]]
+category: Geschichte
 ---
 
 # Das magische Gefecht vor Etriska

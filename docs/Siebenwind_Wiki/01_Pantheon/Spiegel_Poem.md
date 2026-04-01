@@ -1,8 +1,8 @@
 ---
 title: "Spiegel"
-category: [[index]]
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Spiegel.md"
+quelle: "/Quellen/index Astrael/Spiegel.md"
 author: "Rose"
 ---
 

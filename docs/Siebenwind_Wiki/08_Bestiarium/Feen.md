@@ -1,6 +1,6 @@
 ---
 title: Feen
-category: [[index]]
+category: Allgemein
 ---
 
 # Feen

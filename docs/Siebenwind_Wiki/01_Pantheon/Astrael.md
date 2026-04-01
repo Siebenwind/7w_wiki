@@ -9,7 +9,7 @@ tags: [Gott, Sahor, [[index]], [[index]], [[index]], Sommer]
 
 **Epistemischer Status:** #canon
 
-**Astrael** ist einer der vier Hauptgötter (Sahor) und gilt als der Behüter des Wissens, der [[index]] und des Gesetzes. Er repräsentiert den Intellekt, die Ordnung und die Zivilisation.
+**Astrael** ist einer der vier **Sahor**, die im Alltagsglauben meist zusammenfassend als die **Viere** bezeichnet werden. Er gilt als der Behüter des Wissens, der [[index]] und des Gesetzes und repräsentiert Intellekt, Ordnung und Zivilisation.
 
 ## Aspekte und Prinzipien
 - **Jahreszeit:** Sommer

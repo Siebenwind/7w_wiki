@@ -1,6 +1,6 @@
 ---
 title: Niemand
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Niemand

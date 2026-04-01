@@ -1,6 +1,6 @@
 ---
 title: Satai Akelas
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Satai Akelas

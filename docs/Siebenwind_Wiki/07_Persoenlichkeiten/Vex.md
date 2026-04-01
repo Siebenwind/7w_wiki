@@ -1,6 +1,6 @@
 ---
 title: Vex
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Vex

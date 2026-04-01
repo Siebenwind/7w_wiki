@@ -1,8 +1,8 @@
 ---
 title: Feste Seeberg
-category: [[index]]
+category: Geografie
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_174]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_174.md
 ---
 # Feste [[Seeberg]]
 

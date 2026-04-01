@@ -1,6 +1,6 @@
 ---
 title: Brand Windflüsterers Zorn (19 n.H.)
-category: [[Geschichte]]
+category: Geschichte
 ---
 
 # Brand Windflüsterers Zorn (19 n.H.)

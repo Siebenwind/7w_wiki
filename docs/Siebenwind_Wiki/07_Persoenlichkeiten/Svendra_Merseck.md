@@ -1,6 +1,6 @@
 ---
 title: Svendra Merseck
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Svendra Merseck

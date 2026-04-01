@@ -1,6 +1,6 @@
 ---
 title: Johan "Hund" Gottfried
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Johan "Hund" Gottfried

@@ -1,8 +1,8 @@
 ---
 title: Arenus der Weise
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: #überlieferung
-quelle: [[[Dunvallo_Linari]] - Philosophie] / [Philosophie]
+quelle: Dunvallo_Linari - Philosophie / Philosophie
 ---
 
 # Arenus der Weise

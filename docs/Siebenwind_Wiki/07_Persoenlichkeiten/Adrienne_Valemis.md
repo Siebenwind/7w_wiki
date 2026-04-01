@@ -1,6 +1,6 @@
 ---
 title: Adrienne Valemis
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: #überlieferung
 quelle: [Linari - Reagenzien]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Akassvae
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Akassvae

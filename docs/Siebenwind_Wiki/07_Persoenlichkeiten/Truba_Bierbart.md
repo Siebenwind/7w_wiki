@@ -1,6 +1,6 @@
 ---
 title: Truba Bierbart
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Truba Bierbart

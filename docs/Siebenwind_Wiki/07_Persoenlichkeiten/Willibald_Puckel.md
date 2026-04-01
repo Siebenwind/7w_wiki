@@ -1,6 +1,6 @@
 ---
 title: "Willibald Puckel"
-category: [[index]]
+category: Personen
 ---
 
 # Willibald Puckel

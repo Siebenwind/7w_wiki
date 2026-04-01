@@ -1,6 +1,6 @@
 ---
 title: Indoaich
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Indoaich

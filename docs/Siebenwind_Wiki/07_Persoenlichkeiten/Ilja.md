@@ -1,7 +1,7 @@
 ---
 title: Ilja
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Blutschwert]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
+quelle: ../../Quellen/Spielergeschichten/Blutschwert | Siebenwind | Ultima Online Freeshard | Siebenwind.md
 letzter_check: 2026-02-13T23:55:00
 ---
 

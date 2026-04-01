@@ -1,8 +1,8 @@
 ---
 title: Kulin Laetall
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: #überlieferung
-quelle: [[Daimonicon]]
+quelle: Daimonicon
 ---
 
 # Kulin Laetall

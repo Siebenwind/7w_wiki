@@ -1,6 +1,6 @@
 ---
 title: Toran Toran_Dur
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Toran [[Toran_Dur]]

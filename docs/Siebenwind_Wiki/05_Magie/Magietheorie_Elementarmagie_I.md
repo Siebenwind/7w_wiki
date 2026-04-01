@@ -1,8 +1,8 @@
 ---
 title: "Elementarmagie I"
-category: [[index]]
+category: Magie
 status: Canon
-quelle: "../../Quellen/[[index]] [[Toran_Dur]]/[[Amanda_Dunkelbaum]] - Elementarmagie 1.md"
+quelle: "../../Quellen/index Toran_Dur/Amanda_Dunkelbaum - Elementarmagie 1.md"
 author: "[[Amanda_Dunkelbaum]]"
 lore_trust: 8
 confidence: Certain

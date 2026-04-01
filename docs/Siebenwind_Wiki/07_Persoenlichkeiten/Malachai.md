@@ -1,6 +1,6 @@
 ---
 title: Malachai
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Malachai

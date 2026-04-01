@@ -1,6 +1,6 @@
 ---
 title: Geschäftiges Treiben
-category: [[index]]
+category: Allgemein
 status: #perspektive
 tags: [Erzählung, Nekromantie, Ru'n, [[index]], Ritual]
 ---

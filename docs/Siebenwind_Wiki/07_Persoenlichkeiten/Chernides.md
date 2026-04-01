@@ -1,6 +1,6 @@
 ---
 title: Chernides
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Chernides

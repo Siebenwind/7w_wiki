@@ -1,6 +1,6 @@
 ---
 title: Brandenstein
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Brandenstein

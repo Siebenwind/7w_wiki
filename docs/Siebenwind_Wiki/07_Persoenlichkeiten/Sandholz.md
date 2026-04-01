@@ -1,6 +1,6 @@
 ---
 title: "Sandholz"
-category: [[index]]
+category: Personen
 ---
 
 # Sandholz

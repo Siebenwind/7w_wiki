@@ -2,7 +2,7 @@
 uuid: c2d3e4f5-a6b7-4e4f-5a6b-7c8d9e0f1a2b
 title: Markward von Falkensee
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_120]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_120.md
 letzter_check: 2026-02-13T22:50:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Gero von Papin"
-category: [[index]]
+category: Personen
 ---
 
 # Gero von Papin

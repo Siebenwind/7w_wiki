@@ -1,8 +1,8 @@
 ---
 title: Von den Myten
-category: [[index]]
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Von den [[Myten]].md"
+quelle: "/Quellen/index Astrael/Von den Myten.md"
 author: "Donarius Derrvus"
 ---
 

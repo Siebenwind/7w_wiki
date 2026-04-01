@@ -1,6 +1,6 @@
 ---
 title: Das Buch der Bartanatomie
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Das Buch der Bartanatomie

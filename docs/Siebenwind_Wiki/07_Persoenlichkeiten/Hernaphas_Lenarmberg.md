@@ -1,8 +1,8 @@
 ---
 title: Hernaphas Lenarmberg
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: #überlieferung
-quelle: [[[Johann_Liebig]] - Arkane Verbindung]
+quelle: Johann_Liebig - Arkane Verbindung
 ---
 
 # Hernaphas Lenarmberg

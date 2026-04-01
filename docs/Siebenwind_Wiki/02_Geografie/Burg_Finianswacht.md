@@ -1,6 +1,6 @@
 ---
 title: Burg Finianswacht
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Burg [[Finianswacht]]

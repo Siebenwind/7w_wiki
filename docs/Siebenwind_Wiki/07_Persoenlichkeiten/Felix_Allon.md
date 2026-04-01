@@ -1,6 +1,6 @@
 ---
 title: Felix Allon
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Felix Allon

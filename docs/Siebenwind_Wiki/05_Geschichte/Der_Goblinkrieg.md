@@ -1,6 +1,6 @@
 ---
 title: Der Goblinkrieg
-category: [[index]]
+category: Geschichte
 ---
 
 # Der Goblinkrieg

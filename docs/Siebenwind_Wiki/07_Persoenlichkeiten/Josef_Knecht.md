@@ -1,6 +1,6 @@
 ---
 title: "Josef Knecht"
-category: [[index]]
+category: Personen
 ---
 
 # Josef Knecht

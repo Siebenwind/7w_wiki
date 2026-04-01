@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 141
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 141

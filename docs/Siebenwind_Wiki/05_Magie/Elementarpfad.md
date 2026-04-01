@@ -1,8 +1,8 @@
 ---
 title: Der Elementare Pfad
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Amanda_Dunkelbaum]] - Der [[Elementare]] Pfad.md"
+quelle: "/Quellen/index Toran_Dur/Amanda_Dunkelbaum - Der Elementare Pfad.md"
 ---
 
 # Der [[Elementare]] Pfad

@@ -1,6 +1,6 @@
 ---
 title: Die Zwergen-WG
-category: [[index]]
+category: Allgemein
 status: #perspektive
 tags: [Erzählung, Dwarschim, Humor, Alltag]
 ---

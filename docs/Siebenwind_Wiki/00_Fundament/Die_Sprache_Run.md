@@ -1,6 +1,6 @@
 ---
 title: Die Sprache Run
-category: [[index]]
+category: Allgemein
 status: #überlieferung
 tags: [Sprache, Run, Linguistik, Mythologie, Gohor]
 ---

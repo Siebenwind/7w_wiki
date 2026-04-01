@@ -1,8 +1,8 @@
 ---
 title: Malika Nohadi
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_136]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_136.md
 ---
 # Malika Nohadi
 

@@ -1,6 +1,6 @@
 ---
 title: Woran Lebensmüh
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Woran Lebensmüh

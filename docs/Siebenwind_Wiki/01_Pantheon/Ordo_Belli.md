@@ -1,6 +1,6 @@
 ---
 title: Ordo Belli
-category: [[index]]
+category: Religion
 ---
 
 # Ordo Belli

@@ -1,7 +1,7 @@
 ---
 uuid: 8E742D19-3272-4D89-83AB-4D7DABE4368C
 title: Vänskap
-category: [[index]]
+category: Geografie
 letzter_check: 2026-02-13T15:00:00+01:00
 ---
 

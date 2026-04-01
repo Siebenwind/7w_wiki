@@ -8,7 +8,7 @@ tags: [Elemente, Schöpfung, Pantheon]
 
 **Epistemischer Status:** #canon
 
-Die **Enhor** sind die vier mächtigen **Elementarherren**, die in der Hierarchie zwischen den ewigen [[Gohor]] und den göttlichen Sahor (Viere) stehen. In der schamanischen Weltsicht werden sie oft den Göttern gleichgesetzt.
+Die **Enhor**, meist schlicht die **Elementarherren** genannt, sind die vier mächtigen Herrscher der Ur-Elemente. In der Hierarchie stehen sie zwischen den ewigen [[Gohor]] und den göttlichen Sahor, die im Alltagsglauben meist als die Viere bezeichnet werden. In der schamanischen Weltsicht werden sie oft den Göttern gleichgesetzt.
 
 ## Die Vier Ur-Elemente
 

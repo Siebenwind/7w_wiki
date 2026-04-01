@@ -1,6 +1,6 @@
 ---
 title: Chimären
-category: [[index]]
+category: Allgemein
 ---
 
 # Chimären

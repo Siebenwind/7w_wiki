@@ -1,8 +1,8 @@
 ---
 title: Azgar Kazanin
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_121]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_121.md
 ---
 # Azgar Kazanin
 

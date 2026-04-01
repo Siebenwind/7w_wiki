@@ -1,6 +1,6 @@
 ---
 title: Befreiung des Larseij Bellums
-category: [[index]]
+category: Geschichte
 ---
 
 # Befreiung des Larseij Bellums

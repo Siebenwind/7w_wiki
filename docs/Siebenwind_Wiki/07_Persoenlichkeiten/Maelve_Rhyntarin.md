@@ -1,6 +1,6 @@
 ---
 title: Maelve Rhyntarin
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Maelve Rhyntarin

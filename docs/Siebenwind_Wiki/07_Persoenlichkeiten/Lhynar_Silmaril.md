@@ -2,7 +2,7 @@
 uuid: f9a0b1c2-d3e4-4e4f-5a6b-7c8d9e0f1a2b
 title: Lhynar Silmaril
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_164]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_164.md
 letzter_check: 2026-02-13T22:50:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---

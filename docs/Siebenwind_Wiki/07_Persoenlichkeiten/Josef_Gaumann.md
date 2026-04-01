@@ -1,6 +1,6 @@
 ---
 title: Josef Gaumann
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Josef Gaumann

@@ -2,7 +2,7 @@
 uuid: 7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f
 title: Gignoskein
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_164]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_164.md
 letzter_check: 2026-02-13T22:40:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---

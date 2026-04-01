@@ -35,7 +35,7 @@
 | Lazperday-Wesen | Konzept | NEU | [[Bestiarium_Register]] | Hand-Bewegende-Wesen (Gestik-Nutzer). |
 | Warthun-Wesen | Konzept | NEU | [[Bestiarium_Register]] | Geist-Wirkende-Wesen (Nur Konzentration). |
 | Odal Anungas | Konzept | NEU | [[Magietheorie_Toran_Dur]] | Runenbezeichnung für die Knotenpunkte im Astralnetz. |
-| Hankuk-Bewegung | Konzept | NEU | [[Magische_Rituale]] | Selbstreinigende Geste vor einem Ritual. |
+| Hankuk-Bewegung | Konzept | NEU | [[Rituallehre_Sphaeren]] | Selbstreinigende Geste vor einem Ritual. |
 | Golem-Ritual | Ritual | NEU | [[Golems]] | Vollständige Run-Formeln zur Erschaffung aus Ton/Lehm. |
 
 ## 🧠 Lore-Audit & Narrative Highlights

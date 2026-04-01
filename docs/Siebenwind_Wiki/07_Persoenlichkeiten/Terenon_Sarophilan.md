@@ -2,7 +2,7 @@
 title: Terenon Sarophilan
 category: Persönlichkeit
 status: "#überlieferung"
-quelle: "[Theorien der [[index]]]"
+quelle: "Theorien der index"
 ---
 
 # Terenon Sarophilan

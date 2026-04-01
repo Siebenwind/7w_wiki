@@ -1,7 +1,7 @@
 ---
 uuid: e5f6a7b8-9012-2345-6789-01bf2597e836
 title: Minelthuya
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 epistemic: "#bote"
 ---
 

@@ -1,9 +1,9 @@
 ---
 uuid: f5071e93-df07-4d92-864a-6f73ba513222
 title: Siebenwind Bote 140
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 140.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 140.md
 letzter_check: 2026-02-13T01:05:00+01:00
 ---
 # [[Siebenwind]] Bote 140
@@ -53,4 +53,4 @@ Der Bote veröffentlicht eine Liste der treuen Vasallen der Krone:
 *   [[Orden_der_Traenen_Vitamas]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 140](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20140.md)
+- Primärquelle: [Siebenwind Bote 140](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20140.md)

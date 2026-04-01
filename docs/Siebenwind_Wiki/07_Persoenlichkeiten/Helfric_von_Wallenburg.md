@@ -1,6 +1,6 @@
 ---
 title: Helfric von Wallenburg
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Helfric von Wallenburg

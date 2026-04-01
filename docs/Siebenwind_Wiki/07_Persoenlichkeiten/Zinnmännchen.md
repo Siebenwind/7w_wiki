@@ -1,7 +1,7 @@
 ---
 title: Zinnmännchen
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_150]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_150.md
 letzter_check: 2026-02-13T23:55:00
 ---
 

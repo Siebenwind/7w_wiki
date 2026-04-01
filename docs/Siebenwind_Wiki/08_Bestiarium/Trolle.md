@@ -1,6 +1,6 @@
 ---
 title: Trolle
-category: [[index]]
+category: Allgemein
 ---
 
 # Trolle

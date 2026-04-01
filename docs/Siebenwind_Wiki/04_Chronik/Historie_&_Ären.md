@@ -1,6 +1,6 @@
 ---
 title: Historie & Ären
-category: [[index]]
+category: Chronik
 status: Kanon
 ---
 

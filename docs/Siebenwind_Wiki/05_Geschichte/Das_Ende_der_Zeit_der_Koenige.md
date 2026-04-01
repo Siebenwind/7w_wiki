@@ -2,7 +2,7 @@
 uuid: 3nd3-z31t-k03n1g3-h15t0ry
 title: Das Ende der Zeit der Könige
 category: Erzählung
-quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
+quelle: ../../../Quellen/Spielergeschichten/Das_Ende_der_Zeit_der_Koenige.md
 letzter_check: 2026-02-13T23:25:00
 ---
 

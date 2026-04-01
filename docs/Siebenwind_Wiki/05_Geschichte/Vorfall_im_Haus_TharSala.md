@@ -1,6 +1,6 @@
 ---
 title: Vorfall im Haus Thar'Sala
-category: [[index]]
+category: Geschichte
 ---
 
 # Vorfall im Haus Thar'Sala

@@ -1,9 +1,9 @@
 ---
 uuid: b6e54d7c-dfcb-46df-9b0d-122fbf911d6c
 title: Siebenwind Bote 134
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 134.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 134.md
 letzter_check: 2026-02-13T00:52:00+01:00
 ---
 # [[Siebenwind]] Bote 134
@@ -50,4 +50,4 @@ Ein Schiff sank vor [[Brandenstein]]. Zwei Männer konnten gerettet werden. (Ber
 *   [[Turm_der_Magie]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 134](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20134.md)
+- Primärquelle: [Siebenwind Bote 134](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20134.md)

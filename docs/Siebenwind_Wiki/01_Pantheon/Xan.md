@@ -2,14 +2,14 @@
 title: Xan
 status: Kanon (Level 1)
 type: Religion
-tags: [Elementarherr, [[Enhor]], Wasser, Eis, [[index]]]
+tags: [Elementarherr, [[Die_Enhor|Enhor]], Wasser, Eis, [[index]]]
 ---
 
 # Xan
 
 **Epistemischer Status:** #canon
 
-**Xan** ist einer der vier Elementarherren ([[Enhor]]) und der Herrscher über das Element Wasser. Er steht für Tiefe, Geheimnis, Heilung (Wasser des Lebens) und Wandelbarkeit (Eis, Wasserdampf, Fluss).
+**Xan** ist einer der vier Elementarherren ([[Die_Enhor|Enhor]]) und der Herrscher über das Element Wasser. Er steht für Tiefe, Geheimnis, Heilung (Wasser des Lebens) und Wandelbarkeit (Eis, Wasserdampf, Fluss).
 
 ## Aspekte und Prinzipien
 - **Element:** Wasser (auch Eis und Nebel)
@@ -18,7 +18,7 @@ tags: [Elementarherr, [[Enhor]], Wasser, Eis, [[index]]]
 - **Symbole:** Die Welle, der Dreizack, der Kelch (als Gefäß).
 
 ## Mythologie
-Xan ist der stillste der [[Enhor]]. Seine Tiefen bergen Geheimnisse, die selbst *[[Morsan]] (Tod)* respektiert. Er ist der Wächter über das Leben spendende Nass, ohne das nichts auf *[[Tare]]* gedeihen könnte.
+Xan ist der stillste der [[Die_Enhor|Enhor]]. Seine Tiefen bergen Geheimnisse, die selbst *[[Morsan]] (Tod)* respektiert. Er ist der Wächter über das Leben spendende Nass, ohne das nichts auf *[[Tare]]* gedeihen könnte.
 
 ## Verehrung
 Fischer, Matrosen, Wäscherinnen und Heiler ehren ihn. Er gilt als Launisch: Ein ruhiges Meer kann schnell zum tosenden Sturm werden (oft im Streit mit *[[Ventus]]*).

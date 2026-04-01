@@ -1,6 +1,6 @@
 ---
 title: Brogar
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Brogar

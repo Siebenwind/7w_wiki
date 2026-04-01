@@ -1,9 +1,9 @@
 ---
 uuid: C8D39A64-BF40-4D2B-B3EB-847F6D68FE5A
 title: Hagen Robaar
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Kanon
-quelle: [[Siebenwind_Bote_151]], [[Siebenwind_Bote_155]], [[Siebenwind_Bote_174]], [[Adelskalender]]
+quelle: ../../../Quellen/Zeitung 7w Bote/Siebenwind Bote 151.md
 letzter_check: 2026-02-13T15:30:00+01:00
 ---
 

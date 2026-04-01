@@ -2,14 +2,14 @@
 title: Ventus
 status: Kanon (Level 1)
 type: Religion
-tags: [Elementarherr, [[Enhor]], Luft, Wind, [[index]]]
+tags: [Elementarherr, [[Die_Enhor|Enhor]], Luft, Wind, [[index]]]
 ---
 
 # Ventus
 
 **Epistemischer Status:** #canon
 
-**Ventus** ist einer der vier Elementarherren ([[Enhor]]) und der Herrscher über das Element Luft. Er steht für Freiheit, Bewegung, Unbeständigkeit und den [[Geist]] (in seiner flüchtigen Form).
+**Ventus** ist einer der vier Elementarherren ([[Die_Enhor|Enhor]]) und der Herrscher über das Element Luft. Er steht für Freiheit, Bewegung, Unbeständigkeit und den [[Geist]] (in seiner flüchtigen Form).
 
 ## Aspekte und Prinzipien
 - **Element:** Luft

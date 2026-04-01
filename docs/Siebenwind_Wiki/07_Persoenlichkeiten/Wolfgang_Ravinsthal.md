@@ -1,7 +1,7 @@
 ---
 title: Wolfgang Ravinsthal
-category: [[Persoenlichkeiten_Uebersicht]]
-quelle: [[Sphaerenkunde_Kosmologie]]
+category: Personen
+quelle: Sphaerenkunde_Kosmologie
 ---
 
 # Wolfgang Ravinsthal

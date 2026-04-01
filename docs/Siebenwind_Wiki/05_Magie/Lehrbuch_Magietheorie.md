@@ -1,8 +1,8 @@
 ---
 title: "Lehrbuch der Magietheorie"
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Toran_Dur]] - Lehrbuch der Magietheorie.md"
+quelle: "/Quellen/index Toran_Dur/Toran_Dur - Lehrbuch der Magietheorie.md"
 author: "[[Toran_Dur]]"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Nortraven
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Nortraven

@@ -1,6 +1,6 @@
 ---
 title: Drakenwald
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Drakenwald

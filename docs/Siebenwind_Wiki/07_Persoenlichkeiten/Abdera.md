@@ -1,6 +1,6 @@
 ---
 title: Abdera
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: #überlieferung
 quelle: [Linari - Philosophie]
 ---

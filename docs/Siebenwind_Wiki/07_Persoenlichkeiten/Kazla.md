@@ -2,7 +2,7 @@
 uuid: a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d
 title: Kazla
 category: Persönlichkeit
-quelle: ../../Hintergrund/Kanon.md
+quelle: "[UNGEKLÄRT] Hintergrund/Kanon.md (Legacy-Pfad)"
 letzter_check: 2026-02-13T23:05:00
 report_id: bea60047-d2f3-4513-b2ca-a6494a919c3c
 ---
@@ -26,4 +26,4 @@ report_id: bea60047-d2f3-4513-b2ca-a6494a919c3c
 - [[Personenregister]]
 
 ## Referenzen
-- Primärquelle: [Kanon](../../Hintergrund/Kanon.md)
+- Primärquelle: [UNGEKLÄRT] Hintergrund-Kanon (Legacy-Pfad `../../Hintergrund/Kanon.md`)

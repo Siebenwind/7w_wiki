@@ -1,6 +1,6 @@
 ---
 title: Jakobus Pfeiffle
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Jakobus Pfeiffle

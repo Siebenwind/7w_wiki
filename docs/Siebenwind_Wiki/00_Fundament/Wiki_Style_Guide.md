@@ -1,7 +1,7 @@
 ---
 uuid: 8a45d8ab-f9f6-49ab-9d56-edf44781a164
 title: Wiki Style Guide
-category: [[index]]
+category: Allgemein
 ---
 
 # Wiki Style Guide

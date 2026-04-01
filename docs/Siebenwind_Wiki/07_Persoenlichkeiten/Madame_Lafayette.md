@@ -2,7 +2,7 @@
 uuid: l4f-4y3tt3-d4m3-22nh
 title: Madame Lafayette
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Aus_dem_Liebesleben_eines_Dichters]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
+quelle: ../../Quellen/Spielergeschichten/Aus_dem_Liebesleben_eines_Dichters | Siebenwind | Ultima Online Freeshard | Siebenwind.md
 letzter_check: 2026-02-13T22:50:00
 ---
 

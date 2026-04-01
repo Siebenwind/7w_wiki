@@ -1,7 +1,7 @@
 ---
 uuid: b2c3d4e5-6789-9012-3456-78bf2597e836
 title: Himduir III ap Vjer
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 epistemic: "#canon"
 ---
 

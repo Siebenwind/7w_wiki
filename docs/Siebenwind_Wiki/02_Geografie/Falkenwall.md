@@ -1,6 +1,6 @@
 ---
 title: Der Falkenwall
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Der Falkenwall

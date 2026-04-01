@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 174
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 174

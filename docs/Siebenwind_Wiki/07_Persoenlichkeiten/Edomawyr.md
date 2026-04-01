@@ -1,6 +1,6 @@
 ---
 title: Edomawyr
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Edomawyr

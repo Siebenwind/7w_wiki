@@ -1,6 +1,6 @@
 ---
 title: Layna Rabenstein
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Layna Rabenstein

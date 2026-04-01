@@ -38,4 +38,4 @@ Im Jahr 29 n.H. wurde durch den [[Siebenwind_Bote_190]] bestätigt, dass Hilgora
 > - [[Könige_Falandriens]]
 
 ---
-**Siehe auch:** [[Galadonien]], [[Rückkehr_von_König_Hilgorad]], [[Haus_ap_Mer]]
+**Siehe auch:** [[Galadonien]], [[Rueckkehr_von_Koenig_Hilgorad]], [[Haus_ap_Mer]]

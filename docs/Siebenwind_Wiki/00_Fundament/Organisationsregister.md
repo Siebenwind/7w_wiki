@@ -1,6 +1,6 @@
 ---
 title: Organisationsregister
-category: [[index]]
+category: Allgemein
 ---
 
 # Organisationsregister

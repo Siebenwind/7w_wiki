@@ -1,6 +1,6 @@
 ---
 title: Der Krämer
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Der Krämer

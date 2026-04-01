@@ -1,8 +1,8 @@
 ---
 title: "Über die Gebete"
-category: [[index]]
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Über die Gebete.md"
+quelle: "/Quellen/index Astrael/Über die Gebete.md"
 author: "Jeremias"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Mehr'thak"
-category: [[index]]
+category: Personen
 status: stub
 owner: UNASSIGNED
 review_until: 2026-09-22

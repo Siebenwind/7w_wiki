@@ -1,6 +1,6 @@
 ---
 title: Ritter der Sieben Winde
-category: [[index]]
+category: Allgemein
 ---
 
 # Ritter der Sieben Winde

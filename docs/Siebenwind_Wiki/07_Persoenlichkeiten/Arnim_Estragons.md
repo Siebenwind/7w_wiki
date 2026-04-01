@@ -1,6 +1,6 @@
 ---
 title: Arnim Estragons
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Arnim Estragons

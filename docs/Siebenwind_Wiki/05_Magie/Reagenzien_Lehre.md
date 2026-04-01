@@ -1,8 +1,8 @@
 ---
 title: Reagenzien-Lehre (Fokus-Theorie)
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Dunvallo_Linari]] - Reagenzien.md"
+quelle: "/Quellen/index Toran_Dur/Dunvallo_Linari - Reagenzien.md"
 ---
 
 # Reagenzien-Lehre (Fokus-Theorie)

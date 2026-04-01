@@ -1,6 +1,6 @@
 ---
 title: Kopflose
-category: [[index]]
+category: Allgemein
 ---
 
 # Kopflose

@@ -1,8 +1,8 @@
 ---
 title: Siebenwind Bote 136
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 136.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 136.md
 ---
 # [[Siebenwind]] Bote 136
 
@@ -48,4 +48,4 @@ Der Bankier von [[Falkensee]], **[[Erich_Rosenquarz]]**, wurde von sogenannten *
 *   [[Brandensteiner_Reiter]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 136](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20136.md)
+- Primärquelle: [Siebenwind Bote 136](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20136.md)

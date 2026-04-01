@@ -2,7 +2,7 @@
 uuid: 8c9d0e1f-2a3b-4c4d-5e6f-7a8b9c0d1e2f
 title: Sha'Naz'Ghul
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_135]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_135.md
 letzter_check: 2026-02-13T23:00:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---

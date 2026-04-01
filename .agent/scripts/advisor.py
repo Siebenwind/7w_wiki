@@ -259,7 +259,7 @@ def build_recommendations(phase, task, pending_sources, issues, dispatch_counts,
     if issues > 0:
         recommendations.append(f"Run ./7w_wiki.py repair ({issues} consistency issues).")
     if pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}:
-        recommendations.append("Route to /tech_master and run ./7w_wiki.py pages validate --strict.")
+        recommendations.append("Route to /tech_master and run ./7w_wiki.py pages validate --json --strict-links.")
     if pages_health.get("drift_status") in {"WARN", "FAIL"}:
         recommendations.append("Pages drift detected; reconcile docs/Siebenwind_Wiki with the legacy shadow and higher-precedence sources.")
     if pages_health["unresolved_total"] >= 10:
@@ -285,7 +285,7 @@ def recommend_action(phase, task, pending_sources, issues, dispatch_counts, top_
         print(f"👉 Starte Workflow: {BOLD}./7w_wiki.py repair{RESET}")
         print(f"   (Alternativ: /audit Bericht lesen)")
         if pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}:
-            print(f"👉 Danach /tech_master: {BOLD}./7w_wiki.py pages validate --strict{RESET}")
+            print(f"👉 Danach /tech_master: {BOLD}./7w_wiki.py pages validate --json --strict-links{RESET}")
         return
 
     if pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}:
@@ -294,7 +294,7 @@ def recommend_action(phase, task, pending_sources, issues, dispatch_counts, top_
             print(f"👉 Pages snapshot ist veraltet. Route zu {BOLD}/tech_master{RESET}")
         else:
             print(f"👉 Starte Workflow: {BOLD}/tech_master{RESET}")
-        print(f"   Validation: {BOLD}./7w_wiki.py pages validate --strict{RESET}")
+        print(f"   Validation: {BOLD}./7w_wiki.py pages validate --json --strict-links{RESET}")
         if pages_health["unresolved_total"] >= 10:
             print(f"   Link-Reparatur: {BOLD}./7w_wiki.py repair --fix-roamlinks --auto{RESET}")
         return

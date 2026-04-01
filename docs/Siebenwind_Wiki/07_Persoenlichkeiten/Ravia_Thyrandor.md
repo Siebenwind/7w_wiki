@@ -1,6 +1,6 @@
 ---
 title: Ravia Thyrandor
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Ravia Thyrandor

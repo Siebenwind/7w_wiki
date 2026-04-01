@@ -1,6 +1,6 @@
 ---
 title: Astreyonas
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Astreyonas

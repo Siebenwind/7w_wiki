@@ -1,9 +1,9 @@
 ---
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a914
 title: Siebenwind Bote 152
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 152.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 152.md
 letzter_check: 2026-02-13T02:45:00+01:00
 ---
 # [[Siebenwind]] Bote 152
@@ -41,4 +41,4 @@ letzter_check: 2026-02-13T02:45:00+01:00
 *   [[Louis]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 152](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20152.md)
+- Primärquelle: [Siebenwind Bote 152](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20152.md)

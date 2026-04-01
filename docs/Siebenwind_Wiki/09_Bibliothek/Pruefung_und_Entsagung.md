@@ -1,6 +1,6 @@
 ---
 title: Prüfung und Entsagung
-category: [[index]]
+category: Allgemein
 status: #perspektive
 tags: [Erzählung, [[Bellum]], Vandrien, Liebe, Tragödie]
 ---

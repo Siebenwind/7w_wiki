@@ -28,7 +28,7 @@
 | [[Athos]] | UPDATE | [[Athos]] | 10 | Sir Athos, Herzensbrecher und Diplomat |
 | [[Sire_Aspin]] | UPDATE | [[Sire_Aspin]] | 10 | "Schwertklinge", opferte sich im Falkenhorst |
 | [[Sire_Aspin]] | UPDATE | [[Sire_Aspin]] | 10 | "Schwertklinge", der im See Wacht hält |
-| [[Katzchen]] | Wesen | UPDATE | [[Gottheiten]] | Möglicherweise eine Inkarnation oder Seherin |
+| [[Katzchen]] | Wesen | UPDATE | [[Religion_Übersicht]] | Möglicherweise eine Inkarnation oder Seherin |
 | [[Rose_von_Sonnentau]] | Person | UPDATE | [[Rose_von_Sonnentau]] | Bardin, die die Ballade verbreitete |
 
 ### 🏰 Organisationen

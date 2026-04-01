@@ -1,9 +1,9 @@
 ---
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a920
 title: Siebenwind Bote 158
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 158.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 158.md
 letzter_check: 2026-02-13T04:30:00+01:00
 ---
 # [[Siebenwind]] Bote 158
@@ -36,4 +36,4 @@ letzter_check: 2026-02-13T04:30:00+01:00
 *   **Mazzarem-Vortrag:** [[Toran_Dur]] erläuterte die [[index]] vor 5000 Jahren: Amulettkrieg, Verrat an dem Feldherrn, das Wirken von "[[Niemand]]" und die Rolle der [[Ferrin]] als Grabbewächter.
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 158](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20158.md)
+- Primärquelle: [Siebenwind Bote 158](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20158.md)

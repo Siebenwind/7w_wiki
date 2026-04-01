@@ -1,6 +1,6 @@
 ---
 title: "Plinius Deseglieri"
-category: [[index]]
+category: Personen
 ---
 
 # Plinius Deseglieri

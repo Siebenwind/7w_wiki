@@ -2,7 +2,7 @@
 uuid: blut-schw3rt-narrativ
 title: Blutschwert
 category: Erzählung
-quelle: ../../Quellen/Spielergeschichten/Blutschwert | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
+quelle: ../../Quellen/Spielergeschichten/Blutschwert | Siebenwind | Ultima Online Freeshard | Siebenwind.md
 lore_trust: 7
 letzter_check: 2026-02-14T00:40:00
 ---

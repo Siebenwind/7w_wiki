@@ -1,6 +1,6 @@
 ---
 title: Sedtrick Moosgrund
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Sedtrick Moosgrund

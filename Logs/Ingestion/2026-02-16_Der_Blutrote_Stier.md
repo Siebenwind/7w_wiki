@@ -29,7 +29,7 @@
 | [[Skapen]] | Ort | ERWÄHNT | [[Skapen]] | Gebirge im Norden |
 | [[Su'un]] | Volk | UPDATE | [[Su-un]] | Nordmänner-Stämme |
 | [[Roter_Stier]] | Wesen | NEU | [[Der_Blutrote_Stier]] | Manifestation eines blutigen Wunsches |
-| [[Der_bunte_Fremde]] | Wesen | NEU | [[Gottheiten]] | Eventuell eine Entität wie Galtor |
+| [[Der_bunte_Fremde]] | Wesen | NEU | [[Religion_Übersicht]] | Eventuell eine Entität wie Galtor |
 
 ## 🧠 Lore-Audit & Narrative Highlights
 - **Wichtigste Erkenntnisse**: Die Sage warnt vor dem Preis von Machtwünschen und dem Blutvergießen im Namen der Krone. Der "bunte Fremde" agiert als klassischer Trickster.

@@ -2,7 +2,7 @@
 uuid: d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a
 title: Arn
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_181]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_181.md
 letzter_check: 2026-02-13T22:30:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---

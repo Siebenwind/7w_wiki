@@ -2,7 +2,7 @@
 uuid: c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f
 title: Aradam
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_178]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_178.md
 letzter_check: 2026-02-13T22:30:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---

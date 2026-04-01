@@ -1,9 +1,9 @@
 ---
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a919
 title: Siebenwind Bote 157
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 157.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 157.md
 letzter_check: 2026-02-13T04:00:00+01:00
 ---
 # [[Siebenwind]] Bote 157
@@ -37,4 +37,4 @@ letzter_check: 2026-02-13T04:00:00+01:00
 *   [[Tal_der_Ahnen]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 157](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20157.md)
+- Primärquelle: [Siebenwind Bote 157](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20157.md)

@@ -1,6 +1,6 @@
 ---
 title: Aleis
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Aleis

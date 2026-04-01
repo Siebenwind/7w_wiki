@@ -1,6 +1,6 @@
 ---
 title: Mael Duin
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Mael Duin

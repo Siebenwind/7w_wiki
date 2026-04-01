@@ -20,7 +20,7 @@
 ### 👤 Personen / Wesen
 | Name | Status | Ziel-Datei | Confidence | Notiz |
 |---|---|---|---|---|
-| [[Erste_Mutter]] | Wesen | UPDATE | [[Gottheiten]] | Ur-Entität, gebar drei Kinder (Schwarz, Weiß, Grau) |
+| [[Erste_Mutter]] | Wesen | UPDATE | [[Religion_Übersicht]] | Ur-Entität, gebar drei Kinder (Schwarz, Weiß, Grau) |
 | [[Goldener_Drache]] | Wesen | NEU | [[Bestiarium_Register]] | Opferte sich zur Rettung von tausend Leben |
 | [[Die_Ersten]] | Wesen | ERWÄHNT | [[Su-un]] | Kannten keine Lieder, nur Gedichte |
 

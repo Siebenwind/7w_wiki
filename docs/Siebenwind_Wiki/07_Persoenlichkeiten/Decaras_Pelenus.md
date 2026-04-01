@@ -1,6 +1,6 @@
 ---
 title: Decaras Pelenus
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Decaras Pelenus

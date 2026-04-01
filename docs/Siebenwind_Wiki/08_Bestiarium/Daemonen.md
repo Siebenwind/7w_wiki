@@ -1,6 +1,6 @@
 ---
 title: Dämonen
-category: [[index]]
+category: Allgemein
 ---
 
 # Dämonen

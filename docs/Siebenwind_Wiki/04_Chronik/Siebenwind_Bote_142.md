@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 142
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 142

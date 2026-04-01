@@ -1,6 +1,6 @@
 ---
 title: Maltheos Thorn
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Maltheos Thorn

@@ -1,6 +1,6 @@
 ---
 title: Kaspar Brandner
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Kaspar Brandner

@@ -2,7 +2,7 @@
 uuid: 4f7c8a1e-8e2b-4b14-8f92-56c9d0e12345
 title: Adalbert der Heiler
 category: Persönlichkeit
-quelle: ../../Hintergrund/Kanon.md
+quelle: "[UNGEKLÄRT] Hintergrund/Kanon.md (Legacy-Pfad)"
 letzter_check: 2026-02-13T22:20:00
 report_id: 890b0622-d0c2-4d8e-8518-41047c90817d
 ---
@@ -27,4 +27,4 @@ report_id: 890b0622-d0c2-4d8e-8518-41047c90817d
 - [[Personenregister]]
 
 ## Referenzen
-- Primärquelle: [Kanon](../../Hintergrund/Kanon.md)
+- Primärquelle: [UNGEKLÄRT] Hintergrund-Kanon (Legacy-Pfad `../../Hintergrund/Kanon.md`)

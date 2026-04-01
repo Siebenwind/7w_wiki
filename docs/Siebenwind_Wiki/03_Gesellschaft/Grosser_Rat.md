@@ -1,8 +1,8 @@
 ---
 title: Großer Rat
-category: [[index]]
+category: Gesellschaft
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_155]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_155.md
 ---
 # Großer Rat
 

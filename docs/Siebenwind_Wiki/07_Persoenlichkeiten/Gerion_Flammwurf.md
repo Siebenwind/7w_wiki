@@ -1,6 +1,6 @@
 ---
 title: Gerion Flammwurf
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # [[Gerion]] Flammwurf

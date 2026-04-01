@@ -1,6 +1,6 @@
 ---
 title: "Andaris Maran"
-category: [[index]]
+category: Personen
 ---
 
 # Andaris Maran

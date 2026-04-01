@@ -6,11 +6,25 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
 - **Last Handover**: 2026-03-10 14:45 (Codex → Next Agent)
-- **Status**: Interop/Codex bridge hardening ist abgeschlossen; Drift-Praevention ist jetzt dokumentarisch und technisch verankert.
+- **Status**: Die konservative Lane-1-Welle ist umgesetzt; Contract-Drift wurde stark reduziert. Die Pantheon-Navigation ist nun symmetrisch und die Begriffe `Viere/Sahor` sowie `Elementarherren/Enhor` sind auf den Kernseiten ausgerichtet. Religions-, Historie- und nun auch der Magie-Cluster sind abgearbeitet; die publizierten Ingestion-Reports der Magie-Familie verweisen jetzt auf präzise Theorie- und Ritualseiten. Der harte Pages-Snapshot liegt nun bei `703` unresolved und `701` unallowlisted. Aktueller Fokus verschiebt sich damit auf den semantisch heikleren Cluster `Dämonen`, flankiert von reportartigen Restzielen wie `Die_Sammler` und `WikiLinks`, dazu weiter Quellenpfade und die `88` Bridge-Seiten.
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
+
+- [ ] **Pages Backlog Cluster Repair**: Die konservative Lane-1-Welle ist gelaufen, Religions-, Historie- und Magie-Cluster sind erledigt. Der harte Gate-Lauf steht aktuell bei `703` unresolved und `701` unallowlisted Pages-Zielen. Der naechste Hauptcluster ist jetzt `Dämonen` mit dem kanonischen Kandidaten `Daemonen`, weil dort sowohl aktive Wiki-Seiten als auch Quellenmaterial betroffen sind. Daneben bleiben report-/resolverlastige Restziele wie `Die_Sammler` und `WikiLinks` als separater Techniktrack sichtbar.
+
+- [ ] **Zeitstrahl Structural Repair**: `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md` ist ueber den reinen `Historie`-Linkfehler hinaus deutlich beschaedigt und enthaelt eingebettete Fremdseitenfragmente. Dieser Defekt wurde im Historie-Cluster bewusst nicht miterledigt und braucht einen eigenen, strukturorientierten Reparaturtrack.
+
+- [ ] **Backlog Board & Escalation Follow-Up**: Das aktuelle Cluster-Board liegt unter `.agent/data/backlog_cluster_board.json`, die Eskalationsliste unter `.agent/data/backlog_escalations.json`. Der naechste Agent soll diese Artefakte als Arbeitsgrundlage verwenden statt erneut ungeclustert in `audit --pages` einzusteigen.
+
+- [x] **Religions-Cluster Resolver Follow-Up**: Die Review-Grundlage liegt unter `.agent/data/religion_cluster_review.json` und `.agent/data/religion_cluster_escalations.json`. Der Folgeschritt ueber publizierte Ingestion-Reports und Maintainer-Doku ist erfolgt; Religions-Restziele wurden aus dem aktiven Repair-Fokus in dokumentierte Historie ueberfuehrt.
+
+- [ ] **Bridge Lifecycle Cleanup**: Das Backlog-Board trennt die `88` invaliden Bridges jetzt in `84` Single-Target-Bridges (`bridge_single_target_review`) und `4` echte Eskalationen (`bridge_escalation`). Naechster Schritt: die `84` Kandidaten clusterweise gegen semantische Verluste pruefen und nur die `4` Mehrdeutigkeiten separat eskalieren.
+
+- [ ] **Source Path Canonicalization fuer Quellen**: Lane 1 hat eindeutige `quelle:`-Lookups bereits gehoben, aber der Quellenbaum mischt weiter Leerzeichen- und Unterstrich-Dateinamen. Der naechste Schritt ist ein strikter lookup-basierter Normalizer fuer die verbliebenen Boten-Faelle (`176`, `178`-`182`, `185`) und vergleichbare Mehrdeutigkeiten.
+
+- [x] **Runtime Telemetry & Fast Pages Precheck**: `pages validate --fast` existiert jetzt als advisory Vorcheck; `pages validate --json` und `audit --pages --json` liefern Timing-/Cache-Metadaten fuer weitere Performance-Arbeit.
 
 - [x] **Drift-Prevention Governance Alignment**: AGENTS, Handbuch, Interop, Testing und Workflow-Texte bilden die Regel `Homepage > Quellen > Wiki Pages` sowie `docs/Siebenwind_Wiki/` als technischen Edit-Baum nun konsistent ab. Der Volltext liegt in `System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md`.
 
@@ -72,4 +86,4 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 *Aktiver Drift-/Pages-Vertrag:* `System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md`
 
 
-Die vollständige Projekthistorie (v1.0 bis v3.0) wurde archiviert unter: [[docs/Archiv/PROJECT_HISTORY.md]]
+Die vollständige Projekthistorie (v1.0 bis v3.0) wurde archiviert unter: `docs/Archiv/PROJECT_HISTORY.md`

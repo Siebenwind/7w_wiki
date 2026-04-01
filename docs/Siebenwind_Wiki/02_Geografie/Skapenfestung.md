@@ -1,7 +1,7 @@
 ---
 uuid: f1234567-a916-48b3-9a30-8de6fbc712da
 title: Skapenfestung
-category: [[index]]
+category: Geografie
 status: #bote
 tags: [Festung, Ravel, Skapengebirge, Verteidigung, [[Orken]]]
 ---

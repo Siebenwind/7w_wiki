@@ -1,6 +1,6 @@
 ---
 title: Ayk Areson
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Ayk Areson

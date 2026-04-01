@@ -1,6 +1,6 @@
 ---
 title: Hebren Zemand
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Hebren Zemand

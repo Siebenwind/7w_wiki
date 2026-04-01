@@ -1,6 +1,6 @@
 ---
 title: Feydis
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Feydis

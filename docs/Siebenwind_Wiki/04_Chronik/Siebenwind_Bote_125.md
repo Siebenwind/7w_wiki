@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 125
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 125

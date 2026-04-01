@@ -1,6 +1,6 @@
 ---
 title: Jorwo
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Jorwo

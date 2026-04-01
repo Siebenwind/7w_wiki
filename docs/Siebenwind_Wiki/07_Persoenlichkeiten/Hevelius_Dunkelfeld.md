@@ -1,6 +1,6 @@
 ---
 title: Hevelius Dunkelfeld
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Hevelius Dunkelfeld

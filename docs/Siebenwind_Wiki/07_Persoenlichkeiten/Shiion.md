@@ -1,8 +1,8 @@
 ---
 title: "Shiion"
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Vandriens Entstehung.md"
+quelle: "/Quellen/index Astrael/Vandriens Entstehung.md"
 author: "Antigravity"
 owner: UNASSIGNED
 review_until: 2026-09-22

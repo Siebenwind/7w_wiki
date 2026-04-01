@@ -2,7 +2,7 @@
 title: Nefustor
 category: Persönlichkeit
 status: "#überlieferung"
-quelle: "[[Daimonologie_und_Schwarze_Magie_(Toran_Dur)]]"
+quelle: "Daimonologie_und_Schwarze_Magie_(Toran_Dur)"
 ---
 
 # Nefustor

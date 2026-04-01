@@ -2,7 +2,7 @@
 uuid: 4e5f6a7b-8c9d-4e0f-1a2b-3c4d5e6f7a8b
 title: Rondal Botun
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_179]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_179.md
 letzter_check: 2026-02-13T22:55:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---

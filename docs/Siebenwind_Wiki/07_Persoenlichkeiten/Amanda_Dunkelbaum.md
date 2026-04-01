@@ -1,6 +1,6 @@
 ---
 title: Amanda Dunkelbaum
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Amanda Dunkelbaum

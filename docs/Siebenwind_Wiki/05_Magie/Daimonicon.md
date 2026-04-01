@@ -1,8 +1,8 @@
 ---
 title: Das Daimonicon
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/Kulin Lateal - Das_Daimonicon.md"
+quelle: "/Quellen/index Toran_Dur/Kulin Lateal - Das_Daimonicon.md"
 ---
 
 # Das Daimonicon
@@ -20,7 +20,7 @@ Die Macht eines [[Daemonen]] wird in "Hörnern" gemessen (primär im Astralraum 
 | Rang | Bezeichnung | Funktion / Macht |
 | :--- | :--- | :--- |
 | **0 Hörner** | Niedere [[Daemonen]] | Gefallene Seelen, Paktierer, Irahfar. |
-| **1-6 Hörner** | Gehörnte | Befehlshaber von Garnisonen (z.B. [[Sha_Naz_Ghul]]). |
+| **1-6 Hörner** | Gehörnte | Befehlshaber von Garnisonen (z.B. [[Sha'Naz'Ghul]]). |
 | **7-11 Hörner** | Legionäre | Kommandieren ganze Legionen von Yerrodon. |
 | **12 Hörner** | Hohe Kommandanten | Führen große Bereiche einer Domäne. |
 | **13 Hörner** | Domänenfürsten | Regenten einer ganzen Domäne (Erzdämonen). |

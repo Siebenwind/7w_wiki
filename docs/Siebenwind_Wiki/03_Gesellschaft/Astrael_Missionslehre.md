@@ -1,8 +1,8 @@
 ---
 title: Von der rechten Art der Mission und dem gesunden Maß
-category: [[index]]
+category: Gesellschaft
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Von der rechten Art der Mission und dem gesunden Mass.md"
+quelle: "/Quellen/index Astrael/Von der rechten Art der Mission und dem gesunden Mass.md"
 author: "Donarius Derrvus"
 ---
 

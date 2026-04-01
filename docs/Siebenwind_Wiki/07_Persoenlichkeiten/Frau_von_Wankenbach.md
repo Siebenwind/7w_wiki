@@ -1,6 +1,6 @@
 ---
 title: Frau von Wankenbach
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Frau von Wankenbach

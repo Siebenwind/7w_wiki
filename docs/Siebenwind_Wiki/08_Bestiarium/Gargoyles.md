@@ -1,6 +1,6 @@
 ---
 title: Gargoyles
-category: [[index]]
+category: Allgemein
 ---
 
 # Gargoyles

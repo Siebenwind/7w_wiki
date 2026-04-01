@@ -1,6 +1,6 @@
 ---
 title: Myten
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Myten

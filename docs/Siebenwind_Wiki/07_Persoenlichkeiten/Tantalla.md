@@ -1,6 +1,6 @@
 ---
 title: "Tantalla"
-category: [[index]]
+category: Personen
 ---
 
 # Tantalla

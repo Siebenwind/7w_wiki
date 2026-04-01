@@ -1,6 +1,6 @@
 ---
 title: Die Monde von Tare
-category: [[index]]
+category: Allgemein
 ---
 
 # Die Monde von [[Tare]]

@@ -1,6 +1,6 @@
 ---
 title: Schlacht um Falkensee
-category: [[index]]
+category: Geschichte
 ---
 
 # Schlacht um [[Falkensee]]

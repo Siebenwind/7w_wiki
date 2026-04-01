@@ -1,6 +1,6 @@
 ---
 title: Madame Estrella
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Madame Estrella

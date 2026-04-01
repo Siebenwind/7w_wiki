@@ -1,6 +1,6 @@
 ---
 title: G.K.
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # G.K.

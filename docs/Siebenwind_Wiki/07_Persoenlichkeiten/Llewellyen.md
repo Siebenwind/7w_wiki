@@ -1,6 +1,6 @@
 ---
 title: Llewellyen
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Llewellyen

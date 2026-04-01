@@ -1,6 +1,6 @@
 ---
 title: Cylia Rosenmond
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Cylia Rosenmond

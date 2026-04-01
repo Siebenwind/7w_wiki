@@ -1,6 +1,6 @@
 ---
 title: Entdeckung der Chernides Münze
-category: [[index]]
+category: Geschichte
 ---
 
 # Entdeckung der [[Chernides]] Münze

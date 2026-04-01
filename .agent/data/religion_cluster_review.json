@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-03-30T17:02:37Z",
+  "version": 3,
+  "cluster": "religion_cluster",
+  "baseline": {
+    "unresolved_total": 745,
+    "unallowlisted_total": 743,
+    "last_validated_at": "2026-03-30T16:06:38Z"
+  },
+  "result": {
+    "unresolved_total": 734,
+    "unallowlisted_total": 732,
+    "last_validated_at": "2026-03-30T17:02:37Z",
+    "drift_status": "PASS"
+  },
+  "subclusters": [
+    {
+      "name": "enhor_alias",
+      "status": "applied",
+      "scope": "docs/Siebenwind_Wiki only",
+      "changes": [
+        "[[En'Hor]] -> [[Die_Enhor|Enhor]]",
+        "plain En'Hor -> Enhor in derived wiki prose",
+        "duplicate frontmatter and legacy layout metadata normalized on touched files"
+      ],
+      "changed_files": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Die_Elemente_ungleiche_Geschwister.md"
+      ],
+      "notes": [
+        "Raw Quellen orthography was left unchanged.",
+        "No remaining En'Hor references were found in derived wiki pages after the rewrite."
+      ]
+    },
+    {
+      "name": "institution_weak_targets",
+      "status": "partially_applied_with_residual_escalation",
+      "targets": [
+        {
+          "target": "Die_Kirche",
+          "count": 3,
+          "source_pages": [],
+          "decision": "safe viere-context links applied; residual target escalated",
+          "options": [
+            "Kirche_der_Viere",
+            "Ecclesia_Elementorum"
+          ],
+          "reason": "Clear galadonisch-viergoettliche contexts were explicitly linked to Kirche_der_Viere, and the Ecclesia self-description was disambiguated. The unresolved target nevertheless persists in the Pages snapshot without source_pages, indicating residual resolver or archival-report drift."
+        },
+        {
+          "target": "Die_Vier_Kirchen",
+          "count": 3,
+          "source_pages": [],
+          "decision": "escalate",
+          "options": [
+            "Kirche_der_Viere",
+            "Ecclesia_Elementorum"
+          ],
+          "reason": "No direct raw wikilink occurrence was found in the active wiki tree. The target persists in the Pages snapshot and in generated archival report output, so it remains a resolver/archive follow-up instead of a further content rewrite."
+        }
+      ],
+      "changed_files": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_128.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_159.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_187.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Utrich_Rothnang.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Ecclesia_Elementorum.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Kirche_der_Viere.md"
+      ]
+    },
+    {
+      "name": "generic_terms",
+      "status": "retargeted_in_content_then_reduced_in_published_reports",
+      "targets": [
+        {
+          "target": "Gottheiten",
+          "count": 0,
+          "source_pages": [],
+          "decision": "retargeted to Religion_Übersicht in active wiki and reduced in published report output",
+          "options": [
+            "Religion_Übersicht",
+            "publish-hygiene follow-up complete"
+          ],
+          "reason": "The live wiki occurrence in Der_naive_Mensch was rewritten away from an alias target, and the surviving report/dokumentation residues were reduced in published ingestion reports and maintainer documentation."
+        }
+      ],
+      "changed_files": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_naive_Mensch.md",
+        "Logs/Ingestion/2026-02-16_Der_Blutrote_Stier.md",
+        "Logs/Ingestion/2026-02-16_Der_Traum_der_Tausend.md",
+        "Logs/Ingestion/2026-02-16_Der_letzte_Falke.md",
+        "Logs/Ingestion/2026-02-16_Die_Goldenen_Tafeln.md"
+      ]
+    },
+    {
+      "name": "publish_hygiene_follow_up",
+      "status": "applied",
+      "scope": "published reports and maintainer documentation",
+      "changes": [
+        "alias-style religion targets were reduced in active wiki pages",
+        "published ingestion reports were normalized so archive symlink content does not keep reintroducing religion targets",
+        "maintainer documentation stopped emitting literal unresolved religion targets in prose"
+      ],
+      "changed_files": [
+        "CHANGELOG.md",
+        "MASTER_TASK_LIST.md",
+        "Logs/Archive/SESSION_MEMORY_2026-03-30_RELIGION_CLUSTER.md",
+        "Logs/Archive/SESSION_MEMORY_2026-03-30_RELIGION_CLUSTER_PHASE2.md",
+        "Logs/Ingestion/2026-02-15_Aequitas.md",
+        "Logs/Ingestion/2026-02-15_Alles_ohne_Pointe.md",
+        "Logs/Ingestion/2026-02-15_Althea_Danea_-_Kompendium_der_Wei·magie.md"
+      ],
+      "notes": [
+        "docs/Archiv/Ingestion_Reports is a symlink to ../../Logs/Ingestion and therefore part of the published docs tree.",
+        "The next efficient backlog clusters are now generic targets like Historie and Magie rather than further religion-specific rewrites."
+      ]
+    }
+  ],
+  "notes": [
+    "The religion cluster no longer needs another content-first pass.",
+    "A publish-hygiene follow-up against Logs/Ingestion and maintainer docs lowered the full Pages snapshot from 746/744 to 734/732 without introducing new contract violations.",
+    "Further backlog work should move to generic index/category targets first, then to semantically riskier clusters like Dämonen."
+  ]
+}

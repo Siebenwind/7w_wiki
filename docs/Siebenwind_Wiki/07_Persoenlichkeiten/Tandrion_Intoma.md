@@ -1,6 +1,6 @@
 ---
 title: Tandrion Intoma
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Tandrion Intoma

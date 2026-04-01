@@ -1,6 +1,6 @@
 ---
 title: index Grundlagen
-category: [[index]]
+category: Allgemein
 ---
 
 # [[index]] Grundlagen
@@ -11,7 +11,7 @@ Die Theorie der [[index]] auf [[Tare]] ist eine jahrtausendealte Wissenschaft, d
 
 ## Die Quellen der Macht
 ### 1. Elementarmagie
-Die rohe [[index]] wird durch die vier **[[Die_Gohor|Ur-Elemente]]** und ihre elementaren Herrscher ([[Enhor]]) gespeist:
+Die rohe [[index]] wird durch die vier **[[Die_Gohor|Ur-Elemente]]** und ihre elementaren Herrscher ([[Die_Enhor|Enhor]]) gespeist:
 *   **[[Ignis]] (Feuer):** Kraft der Zerstörung und radikalen Wandlung.
 *   **[[Rien]] (Erde/Natur):** Kraft des Wachstums und der materiellen Stabilität.
 *   **[[Ventus]] (Luft):** Kraft der Bewegung, des Schalls und der Freiheit.

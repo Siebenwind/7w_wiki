@@ -2,7 +2,7 @@
 uuid: w1ll14m-m3rc4t0r-21nh
 title: William Mercator
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Briefe_aus_der_Ferne]].md
+quelle: ../../../Quellen/Spielergeschichten/Briefe aus der Ferne.md
 letzter_check: 2026-02-13T23:10:00
 ---
 

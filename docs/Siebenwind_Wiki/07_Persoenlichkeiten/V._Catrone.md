@@ -1,6 +1,6 @@
 ---
 title: V. Catrone
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # V. Catrone

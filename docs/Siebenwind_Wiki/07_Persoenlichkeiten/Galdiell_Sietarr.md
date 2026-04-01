@@ -2,7 +2,7 @@
 uuid: 6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e
 title: Galdiell Sietarr
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_178]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_178.md
 letzter_check: 2026-02-13T22:40:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---

@@ -1,8 +1,8 @@
 ---
 title: Marnie Tiefwasser
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_152]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_152.md
 ---
 # Marnie Tiefwasser
 

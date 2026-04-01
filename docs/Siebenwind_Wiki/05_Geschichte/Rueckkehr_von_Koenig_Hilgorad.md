@@ -1,6 +1,6 @@
 ---
 title: Rückkehr von König Hilgorad
-category: [[index]]
+category: Geschichte
 ---
 
 # Rückkehr von König Hilgorad

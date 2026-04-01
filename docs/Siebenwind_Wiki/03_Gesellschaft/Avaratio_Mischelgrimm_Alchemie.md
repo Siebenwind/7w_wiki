@@ -1,8 +1,8 @@
 ---
 title: Theorie der Form und des Funkens (Opus i de alchimiae)
-category: [[index]]
+category: Gesellschaft
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Opus i de alchimiae.md"
+quelle: "/Quellen/index Astrael/Opus i de alchimiae.md"
 author: "[[Avaratio_Mischelgrimm]]"
 ---
 

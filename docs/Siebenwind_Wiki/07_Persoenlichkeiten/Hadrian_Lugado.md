@@ -2,7 +2,7 @@
 uuid: h4dr14n-lug4d0-45tr43l
 title: Hadrian Lugado
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
+quelle: ../../../Quellen/Spielergeschichten/Das_Ende_der_Zeit_der_Koenige.md
 letzter_check: 2026-02-13T23:35:00
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Marion Comari
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Marion Comari

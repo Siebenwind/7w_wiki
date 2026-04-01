@@ -2,7 +2,7 @@
 title: Enoah Sullin
 category: Persönlichkeit
 status: "#überlieferung"
-quelle: "[[Forschungsberichte_(Toran_Dur)]]"
+quelle: "Forschungsberichte_(Toran_Dur)"
 ---
 
 # Enoah Sullin

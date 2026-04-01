@@ -1,6 +1,6 @@
 ---
 title: "Kaarem Balta"
-category: [[index]]
+category: Personen
 ---
 
 # Kaarem Balta

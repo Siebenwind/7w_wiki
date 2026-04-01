@@ -1,6 +1,6 @@
 ---
 title: Logbuch des Kerkers
-category: [[index]]
+category: Allgemein
 status: #perspektive
 tags: [Erzählung, [[Dunkeltief]], [[Falkensee]], [[Untote]], [[Waldemar_Delarie]]]
 ---

@@ -2,7 +2,7 @@
 uuid: r4jk4-54n53h4-21nh
 title: Rajka Sanseha
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Briefe_aus_der_Ferne]].md
+quelle: ../../../Quellen/Spielergeschichten/Briefe aus der Ferne.md
 letzter_check: 2026-02-13T23:10:00
 ---
 

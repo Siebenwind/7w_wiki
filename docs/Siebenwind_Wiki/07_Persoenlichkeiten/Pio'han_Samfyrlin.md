@@ -2,7 +2,7 @@
 uuid: 0a1b2c3d-e4f5-4f6a-7b8c-9a0d1e2f3a4b
 title: Pio'han Samfyrlin
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_133]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_133.md
 letzter_check: 2026-02-13T22:55:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---

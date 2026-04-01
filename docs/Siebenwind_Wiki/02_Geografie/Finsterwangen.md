@@ -1,6 +1,6 @@
 ---
 title: Finsterwangen
-category: [[index]]
+category: Geografie
 ---
 
 # Finsterwangen

@@ -1,6 +1,6 @@
 ---
 title: Weteka
-category: [[index]]
+category: Geografie
 status: #stub
 tags: [Ort, Vandrien, Stadt]
 ---

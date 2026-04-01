@@ -1,8 +1,8 @@
 ---
 title: Mirian
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_139]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_139.md
 ---
 # Mirian
 

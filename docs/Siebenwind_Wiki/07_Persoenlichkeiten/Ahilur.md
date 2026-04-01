@@ -1,6 +1,6 @@
 ---
 title: Ahilur
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Ahilur

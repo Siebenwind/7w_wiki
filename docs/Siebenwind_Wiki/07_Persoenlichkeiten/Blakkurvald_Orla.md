@@ -1,6 +1,6 @@
 ---
 title: Blakkurvald Orla
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Blakkurvald Orla

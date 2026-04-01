@@ -1,6 +1,6 @@
 ---
 title: Falkensee
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Falkensee

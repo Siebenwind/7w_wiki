@@ -1,7 +1,7 @@
 ---
 uuid: c3d4e5f6-7890-0123-4567-89bf2597e836
 title: Lauscher der Lieder
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 epistemic: "#bote"
 ---
 

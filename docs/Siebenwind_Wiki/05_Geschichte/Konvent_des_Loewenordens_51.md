@@ -1,6 +1,6 @@
 ---
 title: "51. Konvent des Löwenordens"
-category: [[index]]
+category: Geschichte
 ---
 
 # 51. Konvent des Löwenordens

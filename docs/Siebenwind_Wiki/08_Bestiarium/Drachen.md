@@ -1,6 +1,6 @@
 ---
 title: Drachen
-category: [[index]]
+category: Allgemein
 ---
 
 # Drachen

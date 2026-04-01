@@ -1,6 +1,6 @@
 ---
 title: Tare
-category: [[index]]
+category: Allgemein
 ---
 
 # Tare

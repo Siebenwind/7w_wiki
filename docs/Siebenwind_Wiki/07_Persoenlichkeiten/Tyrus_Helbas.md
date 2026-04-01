@@ -1,6 +1,6 @@
 ---
 title: Tyrus Helbas
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Tyrus Helbas

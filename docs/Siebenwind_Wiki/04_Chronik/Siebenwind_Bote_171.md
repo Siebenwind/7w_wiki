@@ -1,9 +1,9 @@
 ---
 uuid: a1b2c3d4-e5f6-4a1b-9c2d-3e4f5g6h7i8j
 title: Siebenwind Bote 171
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 171.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 171.md
 letzter_check: 2026-02-13T16:30:00+01:00
 ---
 # [[Siebenwind]] Bote 171
@@ -34,4 +34,4 @@ letzter_check: 2026-02-13T16:30:00+01:00
 *   **[[Leonard_von_Wolfenbach]]**: Erwähnt als ehemaliger Mentor Steiners.
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 171](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20171.md)
+- Primärquelle: [Siebenwind Bote 171](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20171.md)

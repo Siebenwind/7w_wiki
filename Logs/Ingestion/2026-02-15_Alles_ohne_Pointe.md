@@ -27,7 +27,7 @@
 ### 🏰 Organisationen
 | Name | Status | Ziel-Datei | Confidence | Notiz |
 |---|---|---|---|---|
-| [[Die_Vier_Kirchen]] | UPDATE | [[Die_Kirche]] | 10 | Errichten eine Kuranstalt |
+| Die Vier Kirchen | UPDATE | [[Kirche_der_Viere]] | 10 | Errichten eine Kuranstalt |
 
 ### 🗺️ Orte / 🐉 Bestiarium / 🔮 Konzepte
 | Name | Kategorie | Status | Wiki-Link | Notiz |

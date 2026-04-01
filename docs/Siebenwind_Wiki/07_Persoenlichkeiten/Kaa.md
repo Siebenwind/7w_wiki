@@ -1,8 +1,8 @@
 ---
 title: "Kaa"
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: stub
-quelle: "/Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_150]].md"
+quelle: "/Quellen/Zeitung 7w Bote/Siebenwind_Bote_150.md"
 author: "Antigravity"
 owner: UNASSIGNED
 review_until: 2026-09-22

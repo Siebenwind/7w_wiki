@@ -1,6 +1,6 @@
 ---
 title: Maichellis Wanderstern
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Maichellis Wanderstern

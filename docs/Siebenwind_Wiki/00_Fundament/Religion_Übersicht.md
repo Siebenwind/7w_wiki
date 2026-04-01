@@ -1,6 +1,6 @@
 ---
 title: Religion Übersicht
-category: [[index]]
+category: Allgemein
 ---
 
 # Religion Übersicht
@@ -17,6 +17,7 @@ Am Ursprung stehen die **Gohor**, kosmische Ur-[[Drachen]], die Raum und Zeit fo
 
 ## 2. Die Viere (Sahor) - Herrscher des Geistes
 Die Hauptgötter der [[Menschen]] (besonders in Galadon). Sie stehen für die geistigen und zivilisatorischen Aspekte.
+Im theologischen und kosmologischen Sprachgebrauch werden sie **Sahor** genannt; im Alltag, in Liturgie und Grußformeln dominiert die Bezeichnung **die Viere**.
 
 | Gott | Aspekt | Jahreszeit | Zugehöriger Mond |
 |------|--------|------------|------------------|
@@ -25,10 +26,11 @@ Die Hauptgötter der [[Menschen]] (besonders in Galadon). Sie stehen für die ge
 | **[[Vitama]]** | Liebe, Fruchtbarkeit, Frieden, Kunst | Frühling | Vitamalin (Der rosa Mond) |
 | **[[Morsan]]** | Tod, Traum, Ruhe | Winter | - |
 
-## 3. Die Elementarherren ([[Enhor]]) - Herrscher der Materie
+## 3. Die Elementarherren (Enhor) - Herrscher der Materie
 Geschwister der Viere, aber zuständig für die physischen Bausteine der Welt. Sie sind neutraler und roher.
+Die theologische Sammelbezeichnung lautet **Enhor**; im gebräuchlichen Sprachgebrauch werden sie meist schlicht **Elementarherren** genannt.
 - **[[Ignis]]:** Feuer
-- **[[Rien]]|[[Rien]]:** Erde (Schöpferin der Rasse_Zwerge, zusammen mit [[Bellum]])
+- **[[Rien]]:** Erde (Schöpferin der [[Rasse_Zwerge]], zusammen mit [[Bellum]])
 - **[[Ventus]]:** Luft
 - **[[Xan]]:** Wasser
 
@@ -39,8 +41,6 @@ Geschwister der Viere, aber zuständig für die physischen Bausteine der Welt. S
 
 ## 5. Korrektur früherer Annahmen
 - **Falsch:** Annahme, dass Elementarherren untergeordnet sind.
-- **Korrekt:** Sie sind gleichberechtigte Geschwister (Große Götter/Sahor vs. Elementarherren/[[Enhor]]), haben aber andere Zuständigkeitsbereiche ([[Geist]] vs. Materie).
+- **Korrekt:** Sie sind gleichberechtigte Geschwister (Große Götter/Sahor vs. Elementarherren/Enhor), haben aber andere Zuständigkeitsbereiche ([[Geist]] vs. Materie).
 - **Falsch:** Standard "Gut vs. Böse" Dualismus.
-- **Korrekt:** Ein komplexeres Geflecht aus Ordnung (Viere), Elementargewalt ([[Enhor]]) und Zerstörung ([[Angamon]]), eingebettet in einen drachischen Schöpfungsmythos.
-
-Bitte bestätigen Sie, dass dieses [[index]] nun korrekt ist, damit ich mit **Phase 2** beginnen kann.
+- **Korrekt:** Ein komplexeres Geflecht aus Ordnung (Viere), Elementargewalt ([[Die_Enhor|Enhor]]) und Zerstörung ([[Angamon]]), eingebettet in einen drachischen Schöpfungsmythos.

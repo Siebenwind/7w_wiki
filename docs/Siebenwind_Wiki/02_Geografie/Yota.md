@@ -1,6 +1,6 @@
 ---
 title: Yota
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Yota

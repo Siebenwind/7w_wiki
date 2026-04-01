@@ -41,21 +41,74 @@
         "drift_health"
       ],
       "expect_json_path_exists": [
+        "mode",
+        "advisory_only",
         "pages_health.last_validated_at",
         "pages_health.targets",
         "pages_health.canonical_wiki_root",
         "pages_health.legacy_wiki_root",
         "pages_health.drift_status",
         "pages_health.drift_counts.docs_only_files",
+        "validation_timing_ms.prechecks_total",
+        "validation_timing_ms.report_build",
+        "validation_timing_ms.total",
+        "build.timing_ms.total",
         "pages_health.analysis_cache.docs_link_index.path",
+        "pages_health.analysis_cache.docs_link_index.inputs_fingerprint",
+        "pages_health.analysis_cache.docs_link_index.hit",
         "pages_health.analysis_cache.canonical_name_index.path",
-        "pages_health.analysis_cache.tree_drift.path"
+        "pages_health.analysis_cache.canonical_name_index.inputs_fingerprint",
+        "pages_health.analysis_cache.canonical_name_index.hit",
+        "pages_health.analysis_cache.tree_drift.path",
+        "pages_health.analysis_cache.tree_drift.inputs_fingerprint",
+        "pages_health.analysis_cache.tree_drift.hit"
       ],
+      "expect_json_path_equals": {
+        "mode": "full",
+        "advisory_only": false
+      },
       "expect_json_path_in": {
         "pages_health.status": ["PASS", "WARN", "FAIL"],
         "pages_health.drift_status": ["PASS", "WARN", "FAIL"]
       },
       "timeout_sec": 300
+    },
+    {
+      "id": "pages-validate-fast-json",
+      "name": "pages validate --fast stays advisory-only and reports cached analysis metadata",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "validate",
+        "--json",
+        "--fast",
+        "--skip-audit"
+      ],
+      "expect_exit_any": [0, 1],
+      "expect_valid_json": true,
+      "expect_json_keys": [
+        "generated_at",
+        "status",
+        "checks",
+        "build",
+        "pages_health"
+      ],
+      "expect_json_path_exists": [
+        "mode",
+        "advisory_only",
+        "validation_timing_ms.total",
+        "build.skipped",
+        "pages_health.snapshot_based",
+        "pages_health.analysis_cache.docs_link_index.hit",
+        "pages_health.analysis_cache.canonical_name_index.hit",
+        "pages_health.analysis_cache.tree_drift.hit"
+      ],
+      "expect_json_path_equals": {
+        "mode": "fast",
+        "advisory_only": true,
+        "build.skipped": true
+      },
+      "timeout_sec": 120
     },
     {
       "id": "pages-health-snapshot",
@@ -123,6 +176,8 @@
       "expect_json_path_exists": [
         "categories.site_integrity.issues",
         "details.site_integrity.targets",
+        "timings_ms.total",
+        "timings_ms.content_contract",
         "categories.render_hygiene.issues",
         "categories.contract_violations.issues",
         "categories.split_brain.issues"
@@ -150,6 +205,9 @@
         "pages_health.drift_status",
         "pages_health.canonical_wiki_root",
         "tech_hygiene.last_sync_interop_at"
+      ],
+      "expect_stdout": [
+        "pages validate --json --strict-links"
       ]
     }
   ]

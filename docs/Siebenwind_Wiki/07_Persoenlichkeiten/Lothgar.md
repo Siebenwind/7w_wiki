@@ -1,8 +1,8 @@
 ---
 title: Lothgar
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Überlieferung
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_191]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_191.md
 ---
 # Lothgar
 

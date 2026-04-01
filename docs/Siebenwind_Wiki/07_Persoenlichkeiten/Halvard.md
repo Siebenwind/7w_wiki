@@ -1,6 +1,6 @@
 ---
 title: Halvard
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Halvard

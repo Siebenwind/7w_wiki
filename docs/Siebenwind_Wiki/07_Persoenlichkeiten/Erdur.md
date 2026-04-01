@@ -1,6 +1,6 @@
 ---
 title: "Erdur"
-category: [[index]]
+category: Personen
 ---
 
 # Erdur

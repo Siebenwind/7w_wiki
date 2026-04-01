@@ -1,6 +1,6 @@
 ---
 title: Riesenspinnen
-category: [[index]]
+category: Allgemein
 ---
 
 # Riesenspinnen

@@ -1,7 +1,7 @@
 ---
 uuid: f6a7b8c9-0123-3456-7890-12bf2597e836
 title: Rafael
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 epistemic: "#bote"
 ---
 

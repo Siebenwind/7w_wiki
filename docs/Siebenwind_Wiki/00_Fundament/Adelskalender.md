@@ -1,6 +1,6 @@
 ---
 title: Adelskalender
-category: [[index]]
+category: Allgemein
 ---
 
 # Adelskalender

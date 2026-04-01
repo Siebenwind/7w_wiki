@@ -1,6 +1,6 @@
 ---
 title: "T."
-category: [[index]]
+category: Personen
 ---
 
 # T.

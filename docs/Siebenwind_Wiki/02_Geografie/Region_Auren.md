@@ -1,6 +1,6 @@
 ---
 title: Auren
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Auren

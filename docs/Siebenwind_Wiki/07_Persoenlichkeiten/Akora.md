@@ -2,7 +2,7 @@
 uuid: ak0ra-falkensee-turm
 title: Akora
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Nichts_und_ohne_Pointe]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
+quelle: ../../Quellen/Spielergeschichten/Nichts_und_ohne_Pointe | Siebenwind | Ultima Online Freeshard | Siebenwind.md
 lore_trust: 6
 letzter_check: 2026-02-14T01:35:00
 ---

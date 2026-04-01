@@ -1,6 +1,6 @@
 ---
 title: Inselrat
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Inselrat

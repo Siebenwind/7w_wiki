@@ -1,6 +1,6 @@
 ---
 title: Tion Altor
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Tion Altor

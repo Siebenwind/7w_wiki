@@ -1,6 +1,6 @@
 ---
 title: Ergon
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Ergon

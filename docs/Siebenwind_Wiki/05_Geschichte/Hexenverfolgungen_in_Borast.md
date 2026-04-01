@@ -1,6 +1,6 @@
 ---
 title: Hexenverfolgungen in Borast (18 n.H.)
-category: [[Geschichte]]
+category: Geschichte
 ---
 
 # Hexenverfolgungen in Borast (18 n.H.)

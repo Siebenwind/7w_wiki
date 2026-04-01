@@ -1,6 +1,6 @@
 ---
 title: Paule Bitterling
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Paule Bitterling

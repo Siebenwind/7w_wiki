@@ -1,6 +1,6 @@
 ---
 title: Ritterehre (De Itinere Honoris)
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Ritterehre (De Itinere Honoris)

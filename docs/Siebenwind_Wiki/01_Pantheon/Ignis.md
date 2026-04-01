@@ -2,14 +2,14 @@
 title: Ignis
 status: Kanon (Level 1)
 type: Religion
-tags: [Elementarherr, [[Enhor]], Feuer, [[index]]]
+tags: [Elementarherr, [[Die_Enhor|Enhor]], Feuer, [[index]]]
 ---
 
 # Ignis
 
 **Epistemischer Status:** #canon
 
-**Ignis** ist einer der vier Elementarherren ([[Enhor]]) und der Herrscher über das Element Feuer. Er steht für Leidenschaft, Zerstörung, Reinigung und Wärme.
+**Ignis** ist einer der vier Elementarherren ([[Die_Enhor|Enhor]]) und der Herrscher über das Element Feuer. Er steht für Leidenschaft, Zerstörung, Reinigung und Wärme.
 
 ## Aspekte und Prinzipien
 - **Element:** Feuer
@@ -18,7 +18,7 @@ tags: [Elementarherr, [[Enhor]], Feuer, [[index]]]
 - **Symbole:** Die Flamme, der Drache (als Symbol der inneren Hitze).
 
 ## Mythologie
-Ignis wurde von *Galamnor* aus dem Urfeuer geformt. Er ist der wildeste der [[Enhor]]. Seine Macht kann Leben spenden (Wärme) oder alles vernichten (Brand). Er ist der Patron der Kampfmagier, die seine zerstörerische Kraft nutzen.
+Ignis wurde von *Galamnor* aus dem Urfeuer geformt. Er ist der wildeste der [[Die_Enhor|Enhor]]. Seine Macht kann Leben spenden (Wärme) oder alles vernichten (Brand). Er ist der Patron der Kampfmagier, die seine zerstörerische Kraft nutzen.
 
 ## Verehrung
 Ignis wird nicht wie die *Viere* in Tempeln verehrt, sondern eher gefürchtet und respektiert. Magier rufen ihn an, um Feuer zu kontrollieren. Schmiede bitten ihn um ein heißes Feuer.

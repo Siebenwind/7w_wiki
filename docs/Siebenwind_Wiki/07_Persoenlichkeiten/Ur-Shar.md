@@ -1,7 +1,7 @@
 ---
 title: Ur-Shar
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_185]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_185.md
 letzter_check: 2026-02-13T23:45:00
 ---
 

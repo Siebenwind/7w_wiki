@@ -1,6 +1,6 @@
 ---
 title: Dunkeltief 29 n.H.
-category: [[index]]
+category: Geschichte
 ---
 
 # [[Dunkeltief]] 29 n.H.

@@ -1,6 +1,6 @@
 ---
 title: Ranis
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Ranis

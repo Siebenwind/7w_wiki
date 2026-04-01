@@ -1,7 +1,7 @@
 ---
 uuid: d4e5f6a7-8901-1234-5678-90bf2597e836
 title: Linduc
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 epistemic: "#bote"
 ---
 

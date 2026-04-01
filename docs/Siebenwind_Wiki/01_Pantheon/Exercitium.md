@@ -1,8 +1,8 @@
 ---
 title: "Exercitium"
-category: [[index]]
+category: Religion
 status: integrated
-quelle: "/Quellen/[[index]] [[Astrael]]/Exercitium.md"
+quelle: "/Quellen/index Astrael/Exercitium.md"
 author: "Elgar von Utracht"
 ---
 

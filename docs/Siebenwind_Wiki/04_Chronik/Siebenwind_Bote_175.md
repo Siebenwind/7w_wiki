@@ -1,9 +1,9 @@
 ---
 uuid: e5f6a7b8-c9d0-4e1f-a2b3-c4d5e6f7g8h9
 title: Siebenwind Bote 175
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 175.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 175.md
 letzter_check: 2026-02-13T17:15:00+01:00
 ---
 # [[Siebenwind]] Bote 175
@@ -34,4 +34,4 @@ letzter_check: 2026-02-13T17:15:00+01:00
 *   **[[Traim_Eisenblut]]**: Dwarschim-Heerführer.
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 175](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20175.md)
+- Primärquelle: [Siebenwind Bote 175](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20175.md)

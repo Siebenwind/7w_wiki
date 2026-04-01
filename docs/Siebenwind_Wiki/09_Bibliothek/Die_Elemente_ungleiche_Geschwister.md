@@ -1,12 +1,7 @@
 ---
 title: Die Elemente - ungleiche Geschwister
-category: Allgemein
----
-
-layout: wiki_page
-title: Die Elemente - ungleiche Geschwister
 category: Magie
-tags: [Erzählung, Ecclesia Elementorum, Brandenstein, Ritual, En'Hor]
+tags: [Erzählung, Ecclesia Elementorum, Brandenstein, Ritual, Enhor]
 status: integrated
 uuid: 3l3m-2026-w1nd
 report_id: 3l3m-2026-w1nd
@@ -14,7 +9,11 @@ letzter_check: 2026-02-16T17:45:00+01:00
 ---
 
 # Die Elemente - ungleiche Geschwister
-**Epistemischer Status:** #perspektive (Augenzeugenbericht)
+
+!!! info "Metadaten"
+    - **Epistemischer Status:** #perspektive
+    - **Gattung:** Ritueller Bericht
+    - **Autor:** [[Brand_Windfluesterer|Brand Windflüsterer]]
 
 Der Text **"Die Elemente - ungleiche Geschwister"** ist ein ritueller Bericht von **[[Brand_Windfluesterer|Brand Windflüsterer]]**. Er dokumentiert ein bedeutendes Elementaropfer der **[[Ecclesia_Elementorum]]** in **[[Brandenstein]]**.
 
@@ -27,7 +26,7 @@ Dort wurde ein großes Opferfeuer entfacht, in dem die Gläubigen wertvolle Gabe
 - **Alchemie**: Kräuter, schwarze Samen und alchemistische Erzeugnisse.
 - **Emotionales**: Persönliche Andenken, Federn und die Asche verstorbener Geschwister.
 
-Das Ritual diente dem Dank und der Bitte an die **[[En'Hor]]** (elementare Geisterwesen) sowie die vier elementaren Gewalten **Arkadon/**[[Ignis]], [[Rien]], [[Ventus]] und [[Xan]].
+Das Ritual diente dem Dank und der Bitte an die **[[Die_Enhor|Enhor]]** (elementare Geisterwesen) sowie die vier elementaren Gewalten **Arkadon/**[[Ignis]], [[Rien]], [[Ventus]] und [[Xan]].
 
 ## Teilnehmer
 - **[[Orogrim]]**, **[[Gorion]]**, **[[Nithavela]]**: Erzpriester und Priester der Ecclesia.
@@ -41,8 +40,8 @@ Das Ritual diente dem Dank und der Bitte an die **[[En'Hor]]** (elementare Geist
 ### [[index]]
 *   **[[Brand_Windfluesterer]]**: Autor und Augenzeuge.
 *   **[[Orogrim]]**, **[[Gorion]]**, **[[Nithavela]]**: Teilnehmende Elementaristen.
-*   **[[Tintin_Waljakov|Tintin]]**: Spielt enthusiastisch Fiedel.
+*   **[[Tintin_(Waljakov)|Tintin]]**: Spielt enthusiastisch Fiedel.
 
 ### Mythologie
 *   **Die Elemente**: Angerufen werden **Arkadon/[[Ignis]]** (Feuer), **[[Rien]]** (Erde), **[[Ventus]]** (Luft) und **[[Xan]]** (Wasser).
-*   **En'Hor**: Werden als Empfänger von Dank und Wünschen genannt. Ähnlich den **Horwah** der Viere scheinen sie Mittlerwesen zu sein.
+*   **Enhor**: Werden als Empfänger von Dank und Wünschen genannt. Ähnlich den **Horwah** der Viere scheinen sie Mittlerwesen zu sein.

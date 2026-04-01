@@ -1,6 +1,6 @@
 ---
 title: Harlas
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Harlas

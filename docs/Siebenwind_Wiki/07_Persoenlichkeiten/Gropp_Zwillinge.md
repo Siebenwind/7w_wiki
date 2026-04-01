@@ -1,6 +1,6 @@
 ---
 title: Solos_Nadeeda_Laylira & Hagen_Siegfried_Kaspar
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # [[Solos_Nadeeda_Laylira]] & [[Hagen_Siegfried_Kaspar]]

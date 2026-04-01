@@ -1,8 +1,8 @@
 ---
 title: Arkane Kriegführung
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Erynnion_Comari]] - Arkane KriegsfÅhrung.md"
+quelle: "/Quellen/index Toran_Dur/Erynnion_Comari - Arkane KriegsfÅhrung.md"
 ---
 
 # Arkane Kriegführung

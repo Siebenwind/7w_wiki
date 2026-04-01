@@ -23,7 +23,16 @@ import difflib
 from urllib.parse import unquote
 from datetime import datetime, timezone
 
-from content_contract import REPO_ROOT, TECHNICAL_WIKI_ROOT, normalize_document
+from content_contract import (
+    REPO_ROOT,
+    TECHNICAL_WIKI_ROOT,
+    canonical_markdown_files,
+    derive_category,
+    normalize_document,
+    scan_contract,
+    serialize_frontmatter,
+    split_frontmatter,
+)
 from pages_integrity import collect_pages_build_report, load_pages_health_snapshot
 
 # ANSI Colors
@@ -40,6 +49,15 @@ INGESTION_DIR = PROJECT_ROOT / "Logs" / "Ingestion"
 DOCS_COORDINATION_HUB = PROJECT_ROOT / "docs" / "COORDINATION_HUB.md"
 DOCS_WIKI_DIR = TECHNICAL_WIKI_ROOT
 ROAMLINK_REPORT_DIR = PROJECT_ROOT / "Logs" / "Archive"
+BACKLOG_BOARD_PATH = PROJECT_ROOT / ".agent" / "data" / "backlog_cluster_board.json"
+BACKLOG_ESCALATIONS_PATH = PROJECT_ROOT / ".agent" / "data" / "backlog_escalations.json"
+BACKLOG_ARTIFACT_VERSION = 1
+SOURCE_DIR_TOKENS = ("bibliothek astrael", "bibliothek toran dur", "spielergeschichten", "zeitung 7w bote", "hintergrund", "forum", "news")
+SOURCE_SHORT_TOKENS = ("astrael", "toran", "bote", "spielergeschichten")
+CATEGORY_WIKILINK_RE = re.compile(r"^\s*\[\[(?P<target>[^\]|]+)(?:\|(?P<label>[^\]]+))?\]\]\s*$")
+BACKLOG_ALIAS_EXCLUDES = {"persoenlichkeiten", "buergerwehr"}
+BRIDGE_TARGET_LINE_RE = re.compile(r"^\s*Siehe auch:\s*(?P<targets>.+?)\s*$", re.IGNORECASE | re.MULTILINE)
+WIKILINK_TARGET_RE = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]")
 
 # Known Redirects / Hardcoded Fixes
 LORE_REDIRECTS = {
@@ -84,7 +102,17 @@ def derive_category(path: Path) -> str:
 
 def normalize_key(name: str) -> str:
     """Normalisiert einen Dateinamen für den Vergleich (lowercase, no space/underscore)."""
-    return name.lower().replace("_", "").replace(" ", "").replace("-", "")
+    translation = str.maketrans({
+        "ä": "ae",
+        "ö": "oe",
+        "ü": "ue",
+        "ß": "ss",
+        "Ä": "ae",
+        "Ö": "oe",
+        "Ü": "ue",
+    })
+    normalized = name.translate(translation).lower()
+    return re.sub(r"[^a-z0-9]", "", normalized)
 
 
 def _clean_link_target(target: str) -> str:
@@ -143,6 +171,42 @@ def _best_quellen_match(raw_target: str, lookup: dict[str, list[Path]]) -> Path 
         scored.append((score, len(str(cand)), cand))
     scored.sort(key=lambda x: (-x[0], x[1]))
     return scored[0][2]
+
+
+def _quellen_candidates(raw_target: str, lookup: dict[str, list[Path]]) -> list[Path]:
+    decoded = unquote(_clean_link_target(raw_target))
+    basename = Path(decoded).name
+    if not basename:
+        return []
+    if basename.lower().endswith(".html"):
+        basename = basename[:-5] + ".md"
+
+    key = normalize_key(Path(basename).stem)
+    return list(lookup.get(key, []))
+
+
+def _strict_quellen_match(raw_target: str, lookup: dict[str, list[Path]]) -> Path | None:
+    candidates = _quellen_candidates(raw_target, lookup)
+    if not candidates:
+        return None
+    if len(candidates) == 1:
+        return candidates[0]
+
+    decoded_low = unquote(_clean_link_target(raw_target)).lower()
+    token_filtered = [
+        cand for cand in candidates
+        if any(token in decoded_low and token in str(cand.relative_to(PROJECT_ROOT)).lower() for token in SOURCE_DIR_TOKENS)
+    ]
+    if len(token_filtered) == 1:
+        return token_filtered[0]
+
+    short_filtered = [
+        cand for cand in candidates
+        if any(token in decoded_low and token in str(cand.relative_to(PROJECT_ROOT)).lower() for token in SOURCE_SHORT_TOKENS)
+    ]
+    if len(short_filtered) == 1:
+        return short_filtered[0]
+    return None
 
 def get_canon_map(target_dir: Path) -> dict:
     """
@@ -286,6 +350,8 @@ def repair_source_references(files: list[Path], auto: bool = False):
             or re.search(r"%25[0-9A-Fa-f]{2}", target) is not None
             or "[[index]]" in target
             or "%5B%5Bindex%5D%5D" in target
+            or "[[" in target
+            or "]]" in target
         )
         if not is_source_like:
             return match.group(0)
@@ -295,6 +361,8 @@ def repair_source_references(files: list[Path], auto: bool = False):
             or re.search(r"%25[0-9A-Fa-f]{2}", target) is not None
             or "[[index]]" in target
             or "%5B%5Bindex%5D%5D" in target
+            or "[[" in target
+            or "]]" in target
             or target.endswith(".html")
         )
         if not needs_repair:
@@ -302,7 +370,7 @@ def repair_source_references(files: list[Path], auto: bool = False):
 
         resolved = None
         if "Quellen/" in target or target.startswith("file://"):
-            match_path = _best_quellen_match(target, quellen_lookup)
+            match_path = _strict_quellen_match(target, quellen_lookup)
             if match_path is not None:
                 resolved = os.path.relpath(match_path, start=source_file.parent).replace(os.sep, "/")
 
@@ -345,6 +413,104 @@ def repair_source_references(files: list[Path], auto: bool = False):
                 count += 1
 
     print(f"\n{count} Dateien mit Source-Referenzen repariert.")
+
+
+def repair_frontmatter_categories(files: list[Path], auto: bool = False, dry_run: bool = False) -> dict:
+    """
+    Normalisiert bare WikiLinks im category-Frontmatter auf den kanonischen Klartextwert.
+    Special case: [[index]] wird auf derive_category(path) gehoben.
+    """
+    changed_files = 0
+    touched: list[str] = []
+
+    for file_path in files:
+        try:
+            raw = file_path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        meta, body, order, _, had_frontmatter = split_frontmatter(raw)
+        if not had_frontmatter or "category" not in meta:
+            continue
+        category_value = meta.get("category", "")
+        match = CATEGORY_WIKILINK_RE.match(category_value)
+        if not match:
+            continue
+
+        target = (match.group("label") or match.group("target") or "").strip()
+        if normalize_key(target) == "index":
+            normalized = derive_category(file_path)
+        else:
+            normalized = derive_category(file_path)
+        if normalized == category_value:
+            continue
+
+        meta["category"] = normalized
+        new_raw = serialize_frontmatter(meta, body, order)
+        touched.append(str(file_path.relative_to(PROJECT_ROOT)))
+        if not dry_run and auto:
+            file_path.write_text(new_raw, encoding="utf-8")
+            changed_files += 1
+
+    return {
+        "cluster": "frontmatter_category_wikilinks",
+        "changed_files": changed_files,
+        "matched_files": len(touched),
+        "files": touched,
+    }
+
+
+def repair_quelle_frontmatter(files: list[Path], auto: bool = False, dry_run: bool = False) -> dict:
+    """
+    Normalisiert problematische quelle:-Felder konservativ:
+    - bare/broken wikilinks werden in Plaintext überführt
+    - Quellen/Bote-Dateireferenzen werden nur bei genau einem realen Treffer lookup-basiert auf relative Pfade gesetzt
+    """
+    changed_files = 0
+    touched: list[str] = []
+    quellen_lookup = _build_quellen_lookup()
+
+    for file_path in files:
+        try:
+            raw = file_path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        meta, body, order, _, had_frontmatter = split_frontmatter(raw)
+        if not had_frontmatter or "quelle" not in meta:
+            continue
+
+        original_value = meta.get("quelle", "").strip()
+        new_value = original_value
+        if "[[" in new_value or "]]" in new_value:
+            new_value = re.sub(r"\[\[(.*?)(?:\|.*?)?\]\]", r"\1", new_value)
+            new_value = new_value.replace("[", "").replace("]", "").strip()
+
+        if (
+            "Quellen/" in new_value
+            or new_value.startswith("file://")
+            or "Siebenwind_Bote" in new_value
+            or "Siebenwind Bote" in new_value
+            or new_value.endswith(".html")
+        ):
+            match_path = _strict_quellen_match(new_value, quellen_lookup)
+            if match_path is not None:
+                new_value = os.path.relpath(match_path, start=file_path.parent).replace(os.sep, "/")
+
+        if new_value == original_value:
+            continue
+
+        meta["quelle"] = new_value
+        new_raw = serialize_frontmatter(meta, body, order)
+        touched.append(str(file_path.relative_to(PROJECT_ROOT)))
+        if not dry_run and auto:
+            file_path.write_text(new_raw, encoding="utf-8")
+            changed_files += 1
+
+    return {
+        "cluster": "quelle_frontmatter_lookup",
+        "changed_files": changed_files,
+        "matched_files": len(touched),
+        "files": touched,
+    }
 
 def fix_frontmatter(files: list[Path], auto: bool = False):
     """Sucht und repariert fehlendes Frontmatter."""
@@ -401,7 +567,7 @@ def _roamlink_target_candidates(target: str, canon_map: dict) -> tuple[str | Non
 
 
 def _replace_target_in_content(content: str, original_target: str, replacement: str) -> str:
-    pattern = re.compile(rf"(\[{2,})({re.escape(original_target)})(#[^\]|]+)?(\|[^\]]+)?(\]{2,})")
+    pattern = re.compile(rf"(\[{{2,}})({re.escape(original_target)})(#[^\]|]+)?(\|[^\]]+)?(\]{{2,}})")
     return pattern.sub(lambda m: f"{m.group(1)}{replacement}{m.group(3) or ''}{m.group(4) or ''}{m.group(5)}", content)
 
 
@@ -424,6 +590,333 @@ def _resolve_source_repair_paths(source_pages: list[str]) -> list[Path]:
         seen.add(path)
         unique.append(path)
     return unique
+
+
+def _load_pages_health_for_backlog() -> dict:
+    snapshot = load_pages_health_snapshot()
+    if snapshot and snapshot.get("pages_health"):
+        return snapshot.get("pages_health", {})
+    report = collect_pages_build_report(config="mkdocs.yml", no_clean=False, fast=True)
+    return report.get("pages_health", {})
+
+
+def _mechanical_alias_candidate(item: dict) -> str | None:
+    target = str(item.get("target", "")).strip()
+    candidates = [candidate for candidate in item.get("canonical_candidates", []) if candidate]
+    if len(candidates) != 1 or not target:
+        return None
+    if normalize_key(target) in BACKLOG_ALIAS_EXCLUDES:
+        return None
+    candidate = candidates[0]
+    if normalize_key(target) != normalize_key(candidate):
+        return None
+    if target == candidate:
+        return None
+    return candidate
+
+
+def _collect_category_frontmatter_matches(files: list[Path]) -> list[str]:
+    matches: list[str] = []
+    for file_path in files:
+        try:
+            raw = file_path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        meta, _, _, _, had_frontmatter = split_frontmatter(raw)
+        if not had_frontmatter:
+            continue
+        category_value = meta.get("category", "")
+        if CATEGORY_WIKILINK_RE.match(category_value):
+            matches.append(str(file_path.relative_to(PROJECT_ROOT)))
+    return matches
+
+
+def _collect_quelle_frontmatter_matches(files: list[Path]) -> list[str]:
+    matches: list[str] = []
+    for file_path in files:
+        try:
+            raw = file_path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        meta, _, _, _, had_frontmatter = split_frontmatter(raw)
+        if not had_frontmatter:
+            continue
+        value = meta.get("quelle", "")
+        if not value:
+            continue
+        if "[[" in value or "]]" in value or "Siebenwind_Bote" in value or "Siebenwind Bote" in value or value.startswith("file://") or value.endswith(".html"):
+            matches.append(str(file_path.relative_to(PROJECT_ROOT)))
+    return matches
+
+
+def _extract_bridge_targets(path_str: str) -> list[str]:
+    path = PROJECT_ROOT / path_str
+    try:
+        raw = path.read_text(encoding="utf-8")
+    except Exception:
+        return []
+    match = BRIDGE_TARGET_LINE_RE.search(raw)
+    if not match:
+        return []
+    return [target.strip() for target in WIKILINK_TARGET_RE.findall(match.group("targets")) if target.strip()]
+
+
+def _build_backlog_board() -> tuple[dict, dict]:
+    files = canonical_markdown_files(TECHNICAL_WIKI_ROOT)
+    pages_health = _load_pages_health_for_backlog()
+    contract = scan_contract(TECHNICAL_WIKI_ROOT, refresh_inventory=False)
+
+    alias_items = []
+    escalation_items: list[dict] = []
+    for item in pages_health.get("targets", []):
+        target = str(item.get("target", "")).strip()
+        if not target:
+            continue
+        candidate = _mechanical_alias_candidate(item)
+        if candidate:
+            alias_items.append({
+                "target": target,
+                "canonical_target": candidate,
+                "count": item.get("count", 0),
+                "source_pages": item.get("source_pages", [])[:10],
+            })
+            continue
+        candidates = [candidate for candidate in item.get("canonical_candidates", []) if candidate]
+        if len(candidates) > 1 or (len(candidates) == 1 and normalize_key(target) != normalize_key(candidates[0])):
+            escalation_items.append({
+                "cluster": "pages_target_ambiguous",
+                "source_page": (item.get("source_pages") or [""])[0],
+                "current_target": target,
+                "candidates": candidates,
+                "proposed_decision": candidates[0] if len(candidates) == 1 else "",
+                "reason": "multiple or semantically non-identical canonical target candidates",
+            })
+
+    category_matches = _collect_category_frontmatter_matches(files)
+    quelle_matches = _collect_quelle_frontmatter_matches(files)
+    bridge_single_target: list[dict] = []
+    bridge_escalation_examples: list[dict] = []
+    for detail in contract.get("details", []):
+        analysis = detail.get("analysis", {})
+        if analysis.get("bridge_status") in {"incomplete", "untracked"}:
+            bridge_targets = _extract_bridge_targets(detail.get("path", ""))
+            if len(bridge_targets) == 1:
+                bridge_single_target.append({
+                    "file": detail.get("path", ""),
+                    "canonical_target": bridge_targets[0],
+                    "bridge_status": analysis.get("bridge_status"),
+                })
+            else:
+                bridge_escalation_examples.append({
+                    "file": detail.get("path", ""),
+                    "targets": bridge_targets,
+                    "bridge_status": analysis.get("bridge_status"),
+                })
+                escalation_items.append({
+                    "cluster": "bridge_invalid",
+                    "source_page": detail.get("path", ""),
+                    "current_target": "",
+                    "candidates": bridge_targets,
+                    "proposed_decision": bridge_targets[0] if len(bridge_targets) == 1 else "",
+                    "reason": f"bridge page is {analysis.get('bridge_status')} and has {len(bridge_targets)} explicit target(s)",
+                })
+
+    board = {
+        "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "version": BACKLOG_ARTIFACT_VERSION,
+        "pages_health": {
+            "status": pages_health.get("status", "UNKNOWN"),
+            "unresolved_total": pages_health.get("unresolved_total", 0),
+            "unallowlisted_total": pages_health.get("unallowlisted_total", 0),
+            "last_validated_at": pages_health.get("last_validated_at"),
+        },
+        "contract": {
+            "bridge_invalid": contract.get("bridge_inventory", {}).get("invalid", 0),
+            "contract_violations": contract.get("contract_violations", {}).get("issues", 0),
+        },
+        "clusters": [
+            {
+                "cluster": "lane1_target_normalization",
+                "match_rule": "pages target has exactly one canonical candidate and normalize_key(target) == normalize_key(candidate)",
+                "canonical_target": "per-item single canonical candidate",
+                "lane": "lane1",
+                "auto_apply_allowed": True,
+                "escalate_if": "candidate set is empty, >1, or semantically non-identical",
+                "count": len(alias_items),
+                "examples": alias_items[:20],
+            },
+            {
+                "cluster": "frontmatter_category_wikilinks",
+                "match_rule": "frontmatter category is a bare wikilink such as [[index]] or [[Geschichte]]",
+                "canonical_target": "derive_category(path)",
+                "lane": "lane1",
+                "auto_apply_allowed": True,
+                "escalate_if": "file category intentionally differs from enclosing folder",
+                "count": len(category_matches),
+                "examples": category_matches[:20],
+            },
+            {
+                "cluster": "quelle_frontmatter_lookup",
+                "match_rule": "frontmatter quelle contains broken wikilinks or source-like path text and lookup yields exactly one real file",
+                "canonical_target": "relative path to unique docs/Quellen file",
+                "lane": "lane1",
+                "auto_apply_allowed": True,
+                "escalate_if": "lookup returns 0 or >1 plausible source files",
+                "count": len(quelle_matches),
+                "examples": quelle_matches[:20],
+            },
+            {
+                "cluster": "bridge_single_target_review",
+                "match_rule": "bridge page has exactly one explicit 'Siehe auch' target",
+                "canonical_target": "per-page explicit target",
+                "lane": "lane2",
+                "auto_apply_allowed": False,
+                "escalate_if": "entity type changes or target is semantically lossy",
+                "count": len(bridge_single_target),
+                "examples": bridge_single_target[:20],
+            },
+            {
+                "cluster": "bridge_escalation",
+                "match_rule": "bridge page has zero or multiple explicit targets",
+                "canonical_target": "",
+                "lane": "lane3",
+                "auto_apply_allowed": False,
+                "escalate_if": "replacement target is unclear or bridge must remain temporary",
+                "count": len(bridge_escalation_examples),
+                "examples": bridge_escalation_examples[:20],
+            },
+        ],
+    }
+    escalations = {
+        "generated_at": board["generated_at"],
+        "version": BACKLOG_ARTIFACT_VERSION,
+        "items": escalation_items,
+    }
+    BACKLOG_BOARD_PATH.parent.mkdir(parents=True, exist_ok=True)
+    BACKLOG_BOARD_PATH.write_text(json.dumps(board, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    BACKLOG_ESCALATIONS_PATH.write_text(json.dumps(escalations, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return board, escalations
+
+
+def _apply_alias_target_normalization(pages_health: dict, auto: bool = False, dry_run: bool = False) -> dict:
+    canon_map = get_canon_map(WIKI_DIR)
+    if DOCS_WIKI_DIR.exists():
+        docs_canon = get_canon_map(DOCS_WIKI_DIR)
+        for key, paths in docs_canon.items():
+            canon_map[key].extend(path for path in paths if path not in canon_map[key])
+
+    changed_files = 0
+    changed_file_paths: set[str] = set()
+    fixed_entries: list[dict] = []
+    for item in pages_health.get("targets", []):
+        target = str(item.get("target", "")).strip()
+        replacement = _mechanical_alias_candidate(item)
+        if not replacement:
+            continue
+        source_pages = item.get("source_pages", [])
+        target_files = _resolve_source_repair_paths(source_pages)
+        per_item_changed: list[str] = []
+        for file_path in target_files:
+            try:
+                content = file_path.read_text(encoding="utf-8")
+            except Exception:
+                continue
+            new_content = _replace_target_in_content(content, target, replacement)
+            if new_content == content:
+                continue
+            per_item_changed.append(str(file_path.relative_to(PROJECT_ROOT)))
+            if not dry_run and auto:
+                file_path.write_text(new_content, encoding="utf-8")
+                changed_files += 1
+                changed_file_paths.add(str(file_path.relative_to(PROJECT_ROOT)))
+        fixed_entries.append({
+            "target": target,
+            "canonical_target": replacement,
+            "count": item.get("count", 0),
+            "source_pages": source_pages[:10],
+            "changed_files": per_item_changed,
+        })
+
+    return {
+        "cluster": "lane1_target_normalization",
+        "changed_files": changed_files,
+        "matched_targets": len(fixed_entries),
+        "files": sorted(changed_file_paths),
+        "items": fixed_entries,
+    }
+
+
+def repair_backlog_lane1(auto: bool = False, dry_run: bool = False, json_output: bool = False) -> int:
+    pages_health = _load_pages_health_for_backlog()
+    files = canonical_markdown_files(TECHNICAL_WIKI_ROOT)
+    board, escalations = _build_backlog_board()
+
+    cluster_results = [
+        _apply_alias_target_normalization(pages_health, auto=auto, dry_run=dry_run),
+        repair_frontmatter_categories(files, auto=auto, dry_run=dry_run),
+        repair_quelle_frontmatter(files, auto=auto, dry_run=dry_run),
+    ]
+    planned_files: set[str] = set()
+    for item in cluster_results:
+        planned_files.update(item.get("files", []))
+
+    summary = {
+        "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "mode": "dry-run" if dry_run else "apply",
+        "lane": "lane1",
+        "auto": auto,
+        "artifacts": {
+            "backlog_board": str(BACKLOG_BOARD_PATH.relative_to(PROJECT_ROOT)),
+            "escalations": str(BACKLOG_ESCALATIONS_PATH.relative_to(PROJECT_ROOT)),
+        },
+        "before": {
+            "unresolved_total": pages_health.get("unresolved_total", 0),
+            "unallowlisted_total": pages_health.get("unallowlisted_total", 0),
+            "last_validated_at": pages_health.get("last_validated_at"),
+            "bridge_invalid": board.get("contract", {}).get("bridge_invalid", 0),
+        },
+        "clusters": cluster_results,
+        "escalation_count": len(escalations.get("items", [])),
+        "changed_files_total": sum(item.get("changed_files", 0) for item in cluster_results),
+        "planned_files_total": len(planned_files),
+    }
+    if json_output:
+        print(json.dumps(summary, indent=2, ensure_ascii=False))
+    else:
+        print(f"\n{BLUE}--- Backlog Lane 1 Repair ---{RESET}")
+        print(f"Artifacts: {summary['artifacts']['backlog_board']}, {summary['artifacts']['escalations']}")
+        for item in cluster_results:
+            print(f"- {item['cluster']}: matched={item.get('matched_targets', item.get('matched_files', 0))} changed={item.get('changed_files', 0)}")
+        if dry_run:
+            print(f"{YELLOW}Dry-run aktiv: keine Dateien geschrieben.{RESET}")
+        else:
+            print(f"{GREEN}{summary['changed_files_total']} Dateien aktualisiert.{RESET}")
+    return 0
+
+
+def emit_backlog_board(json_output: bool = False) -> int:
+    board, escalations = _build_backlog_board()
+    payload = {
+        "generated_at": board["generated_at"],
+        "version": board["version"],
+        "artifacts": {
+            "backlog_board": str(BACKLOG_BOARD_PATH.relative_to(PROJECT_ROOT)),
+            "escalations": str(BACKLOG_ESCALATIONS_PATH.relative_to(PROJECT_ROOT)),
+        },
+        "pages_health": board["pages_health"],
+        "contract": board["contract"],
+        "clusters": board["clusters"],
+        "escalation_count": len(escalations.get("items", [])),
+    }
+    if json_output:
+        print(json.dumps(payload, indent=2, ensure_ascii=False))
+    else:
+        print(f"\n{BLUE}--- Backlog Cluster Board ---{RESET}")
+        print(f"Board: {payload['artifacts']['backlog_board']}")
+        print(f"Eskalationen: {payload['artifacts']['escalations']}")
+        for cluster in payload["clusters"]:
+            print(f"- {cluster['cluster']}: {cluster['count']} [{cluster['lane']}]")
+    return 0
 
 
 def repair_roamlinks(auto: bool = False, dry_run: bool = False) -> int:
@@ -518,7 +1011,10 @@ def main():
     parser.add_argument("--full", action="store_true", help="Voller Durchlauf (1-3) ohne Nachfrage")
     parser.add_argument("--check-collision", help="Prüft, ob ein Dateiname bereits existiert")
     parser.add_argument("--fix-roamlinks", action="store_true", help="Aggressive repair path for unresolved Pages / Roamlinks targets")
+    parser.add_argument("--backlog-board", action="store_true", help="Build cluster-based backlog board and escalation artifacts")
+    parser.add_argument("--apply-lane1", action="store_true", help="Apply the conservative lane-1 mechanical backlog wave")
     parser.add_argument("--dry-run", action="store_true", help="Preview changes without writing files")
+    parser.add_argument("--json", action="store_true", help="Emit machine-readable JSON for backlog-oriented repair modes")
     args = parser.parse_args()
     
     target_dir = Path(args.path)
@@ -526,11 +1022,10 @@ def main():
         print(f"Verzeichnis fehlt: {target_dir}")
         sys.exit(1)
 
-    print(f"Indiziere Canon Map für {target_dir}...")
-    canon_map = get_canon_map(target_dir)
-
     # Collision Check Mode
     if args.check_collision:
+        print(f"Indiziere Canon Map für {target_dir}...")
+        canon_map = get_canon_map(target_dir)
         key = normalize_key(args.check_collision)
         if key in canon_map:
             print(f"{RED}KOLLISION GEFUNDEN:{RESET}")
@@ -543,6 +1038,15 @@ def main():
 
     if args.fix_roamlinks:
         sys.exit(repair_roamlinks(auto=args.auto, dry_run=args.dry_run))
+
+    if args.backlog_board:
+        sys.exit(emit_backlog_board(json_output=args.json))
+
+    if args.apply_lane1:
+        sys.exit(repair_backlog_lane1(auto=args.auto, dry_run=args.dry_run, json_output=args.json))
+
+    print(f"Indiziere Canon Map für {target_dir}...")
+    canon_map = get_canon_map(target_dir)
 
     # Normal Mode
     files = list(target_dir.rglob("*.md"))

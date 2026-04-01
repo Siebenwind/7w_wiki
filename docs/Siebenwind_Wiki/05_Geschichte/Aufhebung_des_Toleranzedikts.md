@@ -1,6 +1,6 @@
 ---
 title: Aufhebung des Toleranzedikts
-category: [[index]]
+category: Geschichte
 ---
 
 # Aufhebung des Toleranzedikts

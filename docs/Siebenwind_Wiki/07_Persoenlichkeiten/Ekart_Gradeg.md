@@ -1,6 +1,6 @@
 ---
 title: Ekart Gradeg
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Ekart Gradeg

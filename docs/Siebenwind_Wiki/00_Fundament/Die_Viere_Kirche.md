@@ -1,12 +1,12 @@
 ---
 title: Die Viere Kirche
-category: Allgemein
-status: UNGEKLAERT
-quelle: UNGEKLAERT
+category: Religion
 ---
 
 # Die Viere Kirche
 
-[UNGEKLAERT] Brueckenartikel zur Stabilisierung bestehender WikiLinks.
+**Epistemischer Status:** #canon
 
-Siehe auch: [[Kirche_der_Viere]]
+`Die Viere Kirche` ist eine verkürzte oder umgangssprachliche Bezeichnung für die [[Kirche_der_Viere]], also die institutionalisierte Verehrung der Viere (Sahor) im Reich.
+
+Siehe auch: [[Kirche_der_Viere]], [[Viere]], [[Religion_Übersicht]]

@@ -1,6 +1,6 @@
 ---
 title: Lucy
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Lucy

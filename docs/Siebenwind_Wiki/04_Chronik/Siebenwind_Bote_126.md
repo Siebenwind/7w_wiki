@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 126
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 126

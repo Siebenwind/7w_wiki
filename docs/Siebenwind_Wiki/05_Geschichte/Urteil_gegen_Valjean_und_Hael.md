@@ -1,6 +1,6 @@
 ---
 title: Urteil gegen Valjean und Hael
-category: [[index]]
+category: Geschichte
 ---
 
 # Urteil gegen Valjean und Hael

@@ -1,6 +1,6 @@
 ---
 title: "Narbenschnauze"
-category: [[index]]
+category: Personen
 ---
 
 # Narbenschnauze

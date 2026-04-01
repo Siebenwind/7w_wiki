@@ -1,6 +1,6 @@
 ---
 title: Seeberg
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Seeberg

@@ -31,17 +31,17 @@
 ### 👤 Personen
 | Name | Status | Ziel-Datei | Confidence | Notiz |
 |---|---|---|---|---|
-| [Name] | [NEU/UPDATE] | [[Wiki_Link]] | [0-10] | [Kurzer Kontext] |
+| [Name oder kanonischer Anzeigename] | [NEU/UPDATE] | [[Kanonischer_Wiki_Link\|Anzeigename]] oder `-` | [0-10] | [Kurzer Kontext] |
 
 ### 🏰 Organisationen
 | Name | Status | Ziel-Datei | Confidence | Notiz |
 |---|---|---|---|---|
-| [Name] | [NEU/UPDATE] | [[Wiki_Link]] | [0-10] | [Zweck/Typ] |
+| [Name oder kanonischer Anzeigename] | [NEU/UPDATE] | [[Kanonischer_Wiki_Link\|Anzeigename]] oder `-` | [0-10] | [Zweck/Typ] |
 
 ### 🗺️ Orte / 🐉 Bestiarium / 🔮 Konzepte
 | Name | Kategorie | Status | Wiki-Link | Notiz |
 |---|---|---|---|---|
-| [Name] | [Ort/Wesen/...] | [NEU/UPDATE] | [[Wiki_Link]] | [Details] |
+| [Name oder kanonischer Anzeigename] | [Ort/Wesen/...] | [NEU/UPDATE] | [[Kanonischer_Wiki_Link\|Anzeigename]] oder `-` | [Details] |
 
 ## 🧠 Lore-Audit & Narrative Highlights
 - **Wichtigste Erkenntnisse**: [Was lernt die Engine Neues über die Welt?]
@@ -49,6 +49,8 @@
 - **Highlight**: [Besonders wertvolle "Insel-Lore" für das Narrative Enrichment]
 - **Offene Fragen an Spezialisten**: [Falls vorhanden: Historian/Guardian/Technician + Dispatch-ID]
 - **Link-Reparaturentscheidung**: [Rewrite auf kanonisches Ziel | temporäre Bridge-Ausnahme mit Ticket + Review-Datum]
+
+> In Archiv-/Ingestion-Reports darf die Rohbezeichnung in der linken Spalte stehen, aber die Zielspalte muss immer auf einen **kanonischen** Wiki-Link oder auf `-` zeigen. Keine spekulativen Platzhalter wie `Die_Kirche`, `Die_Vier_Kirchen` oder andere unaufgelöste Sammelziele eintragen.
 
 ---
 *Report-ID: [UUID-v4]*

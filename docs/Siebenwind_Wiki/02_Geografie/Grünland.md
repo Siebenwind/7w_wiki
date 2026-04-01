@@ -1,6 +1,6 @@
 ---
 title: Grünland
-category: [[Geografie]]
+category: Geografie
 ---
 # Grünland
 

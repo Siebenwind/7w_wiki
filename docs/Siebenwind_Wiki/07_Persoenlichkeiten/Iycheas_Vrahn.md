@@ -1,6 +1,6 @@
 ---
 title: Iycheas Vrahn
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Iycheas Vrahn

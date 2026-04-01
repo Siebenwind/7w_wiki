@@ -1,6 +1,6 @@
 ---
 title: Serass
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Serass

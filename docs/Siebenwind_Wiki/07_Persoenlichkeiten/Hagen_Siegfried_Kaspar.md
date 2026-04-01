@@ -1,7 +1,7 @@
 ---
 uuid: a1b2c3d4-5678-8901-2345-67bf2597e836
 title: Hagen Siegfried Kaspar
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 epistemic: "#bote"
 ---
 

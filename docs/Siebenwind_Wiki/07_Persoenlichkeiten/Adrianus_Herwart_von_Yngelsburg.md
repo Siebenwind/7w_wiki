@@ -1,6 +1,6 @@
 ---
 title: "Adrianus Herwart von Yngelsburg"
-category: [[index]]
+category: Personen
 ---
 
 # Adrianus Herwart von Yngelsburg

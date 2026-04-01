@@ -1,6 +1,6 @@
 ---
 title: Greifenweiher
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Greifenweiher

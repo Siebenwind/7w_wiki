@@ -1,6 +1,6 @@
 ---
 title: Tanja Wollframm
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Tanja Wollframm
@@ -8,7 +8,7 @@ category: [[Persoenlichkeiten_Uebersicht]]
 !!! info "Metadaten"
     - **Titel:** Abrichterin / Meisterschützin
     - **Epistemischer Status:** #bote
-    - **Zugehörigkeit:** [[Brandenstein]] / [[03_Gesellschaft/index#Handwerk|Abrichter]]
+    - **Zugehörigkeit:** [[Brandenstein]] / [[Handwerk|Abrichter]]
 
 
 ## Beschreibung

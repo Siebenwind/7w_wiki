@@ -1,6 +1,6 @@
 ---
 title: Konzil aller Pfade
-category: [[index]]
+category: Geschichte
 ---
 
 # Konzil aller Pfade

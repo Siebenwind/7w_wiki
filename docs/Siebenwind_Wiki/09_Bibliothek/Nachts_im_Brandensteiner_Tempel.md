@@ -1,6 +1,6 @@
 ---
 title: Nachts im Brandensteiner Tempel
-category: [[index]]
+category: Allgemein
 status: #perspektive
 tags: [Erzählung, [[Morsan]], [[Brandenstein]], Horwah, Ritual]
 ---

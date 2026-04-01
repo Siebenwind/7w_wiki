@@ -2,7 +2,7 @@
 uuid: 0e1f2a3b-4c5d-4e6f-7a8b-9c0d1e2f3a4b
 title: Silas
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_179]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_179.md
 letzter_check: 2026-02-13T23:00:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---

@@ -1,9 +1,9 @@
 ---
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a912
 title: Siebenwind Bote 150
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 150.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 150.md
 letzter_check: 2026-02-13T02:15:00+01:00
 ---
 # [[Siebenwind]] Bote 150
@@ -34,4 +34,4 @@ letzter_check: 2026-02-13T02:15:00+01:00
 *   [[Herr_Merik]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 150](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20150.md)
+- Primärquelle: [Siebenwind Bote 150](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20150.md)

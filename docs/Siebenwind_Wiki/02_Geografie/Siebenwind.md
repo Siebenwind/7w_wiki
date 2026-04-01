@@ -1,6 +1,6 @@
 ---
 title: Siebenwind
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Siebenwind

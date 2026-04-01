@@ -1,6 +1,6 @@
 ---
 title: Eydis
-category: [[index]]
+category: Religion
 ---
 
 # Eydis

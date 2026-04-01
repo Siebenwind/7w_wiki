@@ -1,6 +1,6 @@
 ---
 title: Wim Derfflinger
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Wim Derfflinger

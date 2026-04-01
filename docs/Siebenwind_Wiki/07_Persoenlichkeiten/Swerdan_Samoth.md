@@ -2,7 +2,7 @@
 uuid: 1f2a3b4c-5d6e-4f7a-8b9c-0d1e2f3a4b5c
 title: Swerdan Samoth
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_163]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_163.md
 letzter_check: 2026-02-13T23:00:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---

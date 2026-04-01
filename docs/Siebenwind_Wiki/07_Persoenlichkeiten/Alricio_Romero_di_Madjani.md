@@ -1,6 +1,6 @@
 ---
 title: Alricio Romero di Madjani
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Alricio Romero di Madjani

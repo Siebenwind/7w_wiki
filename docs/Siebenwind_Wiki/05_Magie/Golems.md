@@ -1,8 +1,8 @@
 ---
 title: Golems
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Johann_Liebig]] - Arkane Verbindung und Wirkung von hîheren Wesenheiten.md"
+quelle: "/Quellen/index Toran_Dur/Johann_Liebig - Arkane Verbindung und Wirkung von hîheren Wesenheiten.md"
 ---
 
 # Golems
@@ -32,4 +32,4 @@ Der Arkanist ruft [[Astrael]] und [[Rien]] an, um die Materie zu beseelen:
 Durch die Worte *„Vja ur, vja Vjera!“* (Wachse hoch, wachse groß!) dehnt sich die kleine Formung zur imposanten Größe des Golems aus. Am Ende wird das Wesen mit *„Molath Tas, wah Tas!“* (Gehorche mir, diene mir!) an den Willen des Meisters gebunden.
 
 ---
-**Siehe auch:** [[Höhere_Wesenheiten]], [[Rien]], [[Johann_Liebig]]
+**Siehe auch:** [[Hoehere_Wesenheiten]], [[Rien]], [[Johann_Liebig]]

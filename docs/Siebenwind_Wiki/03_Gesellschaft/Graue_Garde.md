@@ -1,8 +1,8 @@
 ---
 title: Graue Garde
-category: [[index]]
+category: Gesellschaft
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_175]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_175.md
 ---
 # Graue Garde
 

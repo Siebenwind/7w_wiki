@@ -1,7 +1,7 @@
 ---
 uuid: 07b8c9d0-1234-4567-8901-23bf2597e836
 title: Solos Nadeeda Laylira
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 epistemic: "#bote"
 ---
 

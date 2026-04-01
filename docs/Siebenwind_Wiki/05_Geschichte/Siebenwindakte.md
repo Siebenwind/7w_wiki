@@ -1,6 +1,6 @@
 ---
 title: Die Siebenwindakte
-category: [[Geschichte]]
+category: Geschichte
 ---
 
 # Die Siebenwindakte

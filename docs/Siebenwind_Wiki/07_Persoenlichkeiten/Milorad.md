@@ -1,6 +1,6 @@
 ---
 title: Milorad
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Milorad

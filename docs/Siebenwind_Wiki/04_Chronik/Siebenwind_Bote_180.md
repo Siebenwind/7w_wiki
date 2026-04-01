@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 180
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 180

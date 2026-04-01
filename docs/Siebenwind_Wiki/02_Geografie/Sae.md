@@ -1,6 +1,6 @@
 ---
 title: Sae
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Sae

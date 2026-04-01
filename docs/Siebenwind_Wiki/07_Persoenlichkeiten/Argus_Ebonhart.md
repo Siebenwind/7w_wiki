@@ -2,7 +2,7 @@
 uuid: a1b2c3d4-e5f6-4a1b-8c9d-0e1f2a3b4c5d
 title: Argus Ebonhart
 category: Persönlichkeit
-quelle: ../../Hintergrund/Kanon.md
+quelle: "[UNGEKLÄRT] Hintergrund/Kanon.md (Legacy-Pfad)"
 letzter_check: 2026-02-13T22:20:00
 report_id: 890b0622-d0c2-4d8e-8518-41047c90817d
 ---
@@ -27,4 +27,4 @@ report_id: 890b0622-d0c2-4d8e-8518-41047c90817d
 - [[Personenregister]]
 
 ## Referenzen
-- Primärquelle: [Kanon](../../Hintergrund/Kanon.md)
+- Primärquelle: [UNGEKLÄRT] Hintergrund-Kanon (Legacy-Pfad `../../Hintergrund/Kanon.md`)

@@ -34,8 +34,8 @@
 | Name | Kategorie | Status | Wiki-Link | Notiz |
 |---|---|---|---|---|
 | Essenz des Magierturms | Konzept | NEU | [[Koenigliche_Akademie_der_Arkanen_Kuenste]] | Kollektiver Wille der Turmbewohner, prüft Adepten. |
-| Tahim-Dreieck | Konzept | NEU | [[Magische_Rituale]] | Geometrische Basis für Elementar-Beschwörungen. |
-| Hankuk-Bewegung | Konzept | NEU | [[Magische_Rituale]] | Geste zur Abwehr dunkler Einflüsterungen. |
+| Tahim-Dreieck | Konzept | NEU | [[Rituallehre_Sphaeren]] | Geometrische Basis für Elementar-Beschwörungen. |
+| Hankuk-Bewegung | Konzept | NEU | [[Rituallehre_Sphaeren]] | Geste zur Abwehr dunkler Einflüsterungen. |
 | Magica Mutanda | Kategorie | NEU | [[Magietheorie_Toran_Dur]] | Schule der Wandlung und Verwandlung. |
 
 ## 🧠 Lore-Audit & Narrative Highlights

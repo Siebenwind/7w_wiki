@@ -1,8 +1,8 @@
 ---
 uuid: kl4u3n-w03lf3-r4c3
 title: Klauenwölfe
-category: [[index]]
-quelle: ../../Quellen/Spielergeschichten/[[Blutschwert]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
+category: Allgemein
+quelle: ../../Quellen/Spielergeschichten/Blutschwert | Siebenwind | Ultima Online Freeshard | Siebenwind.md
 letzter_check: 2026-02-13T23:00:00
 ---
 

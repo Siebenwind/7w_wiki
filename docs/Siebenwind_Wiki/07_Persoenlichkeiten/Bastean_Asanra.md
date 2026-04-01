@@ -1,6 +1,6 @@
 ---
 title: Bastean Asanra
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Bastean Asanra

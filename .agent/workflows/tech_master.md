@@ -27,6 +27,8 @@ Dieses Department ist das Revier des **Netz-Ingenieurs**. Es ist zuständig für
   - `7w_wiki.py index --status`
   - `7w_wiki.py audit --pages`
   - `7w_wiki.py repair --fix-roamlinks [--auto] [--dry-run]`
+  - `7w_wiki.py repair --backlog-board [--json]`
+  - `7w_wiki.py repair --apply-lane1 [--auto] [--dry-run] [--json]`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py mail post --from Technician --to <agent|ALL> --subject "<text>" --body "<text>"`
   - `7w_wiki.py tech --sync-matrix`
@@ -73,8 +75,10 @@ Führe bei Leerlauf diese Wartungsschritte durch, um Struktur und Dokumentation 
    - `./7w_wiki.py test --suite reader-stats-contract`
    - `./7w_wiki.py test --suite bridge-placeholder-guard`
 4. **Pages Integritaet:**
+   - Fuer schnelle Vorpruefung: `./7w_wiki.py pages validate --json --fast`
    - `./7w_wiki.py pages validate --json --strict-links`
    - Bei konzentrierten WARN-Targets: `./7w_wiki.py repair --fix-roamlinks --auto`
+   - Fuer clusterbasierte Backlog-Arbeit zuerst `./7w_wiki.py repair --backlog-board --json`, dann konservative Mechanik mit `./7w_wiki.py repair --apply-lane1 --auto`
    - Diese Schritte behandeln Publishing- und Linkdrift, nicht Lore-Praezedenz.
    - Der normative Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 5. **Index Live-Überwachung (`/watch`):**

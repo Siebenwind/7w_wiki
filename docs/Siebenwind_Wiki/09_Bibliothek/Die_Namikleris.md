@@ -1,6 +1,6 @@
 ---
 title: Die Namikleris
-category: [[index]]
+category: Allgemein
 status: #perspektive
 tags: [Erzählung, Seefahrt, [[Brandenstein]], Malthust, Tintin]
 ---

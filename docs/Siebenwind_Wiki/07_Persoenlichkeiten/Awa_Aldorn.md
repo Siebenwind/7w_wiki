@@ -1,6 +1,6 @@
 ---
 title: Awa Aldorn
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Awa Aldorn

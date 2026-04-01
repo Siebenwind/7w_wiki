@@ -1,6 +1,6 @@
 ---
 title: Cho Shnaz
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Cho Shnaz

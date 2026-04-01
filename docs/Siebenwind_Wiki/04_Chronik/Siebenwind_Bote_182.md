@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 182
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 182

@@ -1,6 +1,6 @@
 ---
 title: Ordo Vitamae
-category: [[index]]
+category: Religion
 ---
 
 # Ordo Vitamae

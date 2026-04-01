@@ -2,7 +2,7 @@
 uuid: 6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e
 title: Viktor Menzer
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_118]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_118.md
 letzter_check: 2026-02-13T23:05:00
 report_id: bea60047-d2f3-4513-b2ca-a6494a919c3c
 ---

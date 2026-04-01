@@ -1,6 +1,6 @@
 ---
 title: Feestar von Lichtenfeld
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Feestar von Lichtenfeld

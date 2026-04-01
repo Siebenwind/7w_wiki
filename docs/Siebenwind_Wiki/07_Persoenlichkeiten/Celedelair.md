@@ -1,6 +1,6 @@
 ---
 title: Calator Tendarion Celedelair Celetheyon
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Calator Tendarion Celedelair Celetheyon

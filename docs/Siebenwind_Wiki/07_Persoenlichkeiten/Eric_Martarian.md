@@ -1,6 +1,6 @@
 ---
 title: Eric Martarian
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Eric Martarian

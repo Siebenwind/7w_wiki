@@ -1,6 +1,6 @@
 ---
 title: Ventusreiter
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Ventusreiter

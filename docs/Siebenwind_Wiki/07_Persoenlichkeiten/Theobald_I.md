@@ -1,6 +1,6 @@
 ---
 title: Theobald I.
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Theobald I.

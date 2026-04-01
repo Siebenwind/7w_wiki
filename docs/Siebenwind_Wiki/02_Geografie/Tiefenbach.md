@@ -1,6 +1,6 @@
 ---
 title: Tiefenbach
-category: [[index]]
+category: Geografie
 ---
 
 # Tiefenbach

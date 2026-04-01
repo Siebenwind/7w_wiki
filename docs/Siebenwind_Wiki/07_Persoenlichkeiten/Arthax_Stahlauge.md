@@ -1,6 +1,6 @@
 ---
 title: Arthax Stahlauge
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Arthax Stahlauge

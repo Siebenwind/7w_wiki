@@ -1,6 +1,6 @@
 ---
 title: Kraken
-category: [[index]]
+category: Allgemein
 status: #perspektive
 tags: [Erzählung, Mythologie, Vandrien, [[Astrael]], Krieg]
 ---

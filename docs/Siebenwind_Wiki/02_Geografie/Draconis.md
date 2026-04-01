@@ -1,6 +1,6 @@
 ---
 title: Draconis
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Draconis

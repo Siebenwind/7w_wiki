@@ -1,6 +1,6 @@
 ---
 title: Aufbau von Greifenklipp
-category: [[index]]
+category: Geschichte
 ---
 
 # Aufbau von [[Greifenklipp]]

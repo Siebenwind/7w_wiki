@@ -1,6 +1,6 @@
 ---
 title: Vogelfreierklärung Elares_Valjean
-category: [[index]]
+category: Geschichte
 ---
 
 # Vogelfreierklärung [[Elares_Valjean]]

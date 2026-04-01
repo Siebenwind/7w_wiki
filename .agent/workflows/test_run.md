@@ -14,6 +14,7 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
   - `7w_wiki.py test --suite workflow-matrix-contract`
   - `7w_wiki.py test --suite tool-manifest-contract`
   - `7w_wiki.py test --suite pages-link-contract`
+  - `7w_wiki.py test --suite backlog-repair-contract`
   - `7w_wiki.py test --suite source-link-hygiene`
   - `7w_wiki.py test --suite process-dispatch-curiosity`
   - `7w_wiki.py test --suite bridge-placeholder-guard`
@@ -65,10 +66,11 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
 7. `./7w_wiki.py test --suite tool-manifest-contract` (typed tools.json + Alias-Kompatibilitaet)
 8. `./7w_wiki.py test --suite pages-link-contract` (Pages snapshot + advisor freshness + policy file)
 9. `./7w_wiki.py test --suite source-link-hygiene` (MkDocs-Strict-Risiken in Quellenlinks)
-10. `./7w_wiki.py test --suite process-dispatch-curiosity` (Workflow-/Persona-Prozesslogik)
-11. `./7w_wiki.py test --suite bridge-placeholder-guard` (verhindert Rueckfall in Stub-/Bridge-Policy-Fehler)
-12. `./7w_wiki.py test --suite reader-stats-contract` (Reader-Stats-Contract + Snapshot-Schnittstelle)
-13. Optional Vollabgleich: `./7w_wiki.py test --suite all` (ohne RAG-Smoke; stabiler Standardlauf)
+10. `./7w_wiki.py test --suite backlog-repair-contract` (Backlog-Board + Lane-1-Repair-Surface)
+11. `./7w_wiki.py test --suite process-dispatch-curiosity` (Workflow-/Persona-Prozesslogik)
+12. `./7w_wiki.py test --suite bridge-placeholder-guard` (verhindert Rueckfall in Stub-/Bridge-Policy-Fehler)
+13. `./7w_wiki.py test --suite reader-stats-contract` (Reader-Stats-Contract + Snapshot-Schnittstelle)
+14. Optional Vollabgleich: `./7w_wiki.py test --suite all` (ohne RAG-Smoke; stabiler Standardlauf)
 
 ## 3. Failure-Protokoll
 
@@ -81,6 +83,7 @@ Bei FAIL gilt:
 3. Nach Fix:
    - Re-Test der betroffenen Suite
    - Danach `./7w_wiki.py test --suite all` (RAG nur bei Bedarf via `--include-rag`)
+   - Fuer schnelle Technik-/QA-Vorchecks optional: `./7w_wiki.py pages validate --json --fast`
    - Fuer harte Site-Gates optional: `./7w_wiki.py pages validate --json --strict-links`
 4. Abschluss:
    - `./7w_wiki.py mail done <MSG-ID> --agent <name> --note "<kurzabschluss>"`

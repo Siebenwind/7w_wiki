@@ -2,7 +2,7 @@
 uuid: a1b2c3d4-e5f6-4a1b-8c9d-0e1f2a3b4c5d
 title: Haldur Toda
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Aus_dem_Liebesleben_eines_Dichters]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
+quelle: ../../Quellen/Spielergeschichten/Aus_dem_Liebesleben_eines_Dichters | Siebenwind | Ultima Online Freeshard | Siebenwind.md
 letzter_check: 2026-02-13T22:50:00
 ---
 

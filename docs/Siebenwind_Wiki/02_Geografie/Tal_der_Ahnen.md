@@ -1,8 +1,8 @@
 ---
 title: Tal der Ahnen
-category: [[index]]
+category: Geografie
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_175]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_175.md
 ---
 # Tal der Ahnen
 

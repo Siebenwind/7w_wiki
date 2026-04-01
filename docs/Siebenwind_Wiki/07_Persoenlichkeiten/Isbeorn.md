@@ -1,6 +1,6 @@
 ---
 title: Isbeorn
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Isbeorn

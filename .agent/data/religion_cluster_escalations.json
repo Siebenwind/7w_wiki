@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-03-30T17:02:37Z",
+  "version": 3,
+  "cluster": "religion_cluster",
+  "items": [
+    {
+      "source_page": "",
+      "current_target": "Die_Kirche",
+      "local_context": null,
+      "candidates": [
+        "Kirche_der_Viere",
+        "Ecclesia_Elementorum"
+      ],
+      "proposed_decision": "closed via publish-hygiene follow-up",
+      "reason": "Explicit Viere links were added in clear galadonisch-viergoettliche contexts, and the remaining published report/doc residues were reduced in the follow-up cluster."
+    },
+    {
+      "source_page": "",
+      "current_target": "Die_Vier_Kirchen",
+      "local_context": null,
+      "candidates": [
+        "Kirche_der_Viere",
+        "Ecclesia_Elementorum"
+      ],
+      "proposed_decision": "closed via publish-hygiene follow-up",
+      "reason": "No direct raw wikilink occurrence was found in the active wiki tree; the residual published report output was normalized in the follow-up cluster."
+    },
+    {
+      "source_page": "",
+      "current_target": "Gottheiten",
+      "local_context": "Active wiki occurrence in Der_naive_Mensch was rewritten to plain term + [[Religion_Übersicht]].",
+      "candidates": [
+        "Religion_Übersicht"
+      ],
+      "proposed_decision": "closed via publish-hygiene follow-up",
+      "reason": "The live wiki link was already retargeted, and the residual published report/doc artifacts were reduced in the follow-up cluster."
+    }
+  ]
+}

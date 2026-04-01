@@ -1,6 +1,6 @@
 ---
 title: Krellgrimm Glutschreiter
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Krellgrimm Glutschreiter

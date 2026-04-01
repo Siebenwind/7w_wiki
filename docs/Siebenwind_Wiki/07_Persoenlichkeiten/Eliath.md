@@ -2,7 +2,7 @@
 uuid: f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c
 title: Eliath
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_180]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_180.md
 letzter_check: 2026-02-13T22:35:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---

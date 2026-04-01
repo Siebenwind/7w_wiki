@@ -1,0 +1,67 @@
+{
+  "suite": "backlog-repair-contract",
+  "description": "Guards cluster-based backlog board generation and conservative lane-1 repair planning.",
+  "cases": [
+    {
+      "id": "repair-backlog-board-json",
+      "name": "repair emits a machine-readable backlog board and escalation artifact references",
+      "cmd": [
+        "./7w_wiki.py",
+        "repair",
+        "--backlog-board",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_keys": [
+        "generated_at",
+        "version",
+        "artifacts",
+        "pages_health",
+        "contract",
+        "clusters",
+        "escalation_count"
+      ],
+      "expect_json_path_exists": [
+        "artifacts.backlog_board",
+        "artifacts.escalations",
+        "clusters"
+      ]
+    },
+    {
+      "id": "repair-apply-lane1-dry-run-json",
+      "name": "repair lane1 dry-run stays machine-readable and advisory before writing files",
+      "cmd": [
+        "./7w_wiki.py",
+        "repair",
+        "--apply-lane1",
+        "--dry-run",
+        "--auto",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_keys": [
+        "generated_at",
+        "mode",
+        "lane",
+        "artifacts",
+        "before",
+        "clusters",
+        "escalation_count",
+        "changed_files_total"
+      ],
+      "expect_json_path_equals": {
+        "mode": "dry-run",
+        "lane": "lane1",
+        "auto": true
+      },
+      "expect_json_path_exists": [
+        "artifacts.backlog_board",
+        "artifacts.escalations",
+        "before.unresolved_total",
+        "clusters"
+      ]
+    }
+  ]
+}

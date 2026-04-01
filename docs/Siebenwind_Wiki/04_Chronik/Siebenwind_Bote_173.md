@@ -1,9 +1,9 @@
 ---
 uuid: c3d4e5f6-a1b2-4c3d-bd5e-6f7g8h9i0j1k
 title: Siebenwind Bote 173
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 173.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 173.md
 letzter_check: 2026-02-13T16:50:00+01:00
 ---
 # [[Siebenwind]] Bote 173
@@ -41,4 +41,4 @@ letzter_check: 2026-02-13T16:50:00+01:00
 *   **[[Benion_Sandelholz]]**: Calator der Diözese, Leiter des Ordens der Tränen.
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 173](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20173.md)
+- Primärquelle: [Siebenwind Bote 173](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20173.md)

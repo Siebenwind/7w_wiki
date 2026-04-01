@@ -1,6 +1,6 @@
 ---
 title: Nadeeda al Nuribad
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Nadeeda al Nuribad

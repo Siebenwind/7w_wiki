@@ -2,7 +2,7 @@
 uuid: e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b
 title: Auenbach
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_154]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_154.md
 letzter_check: 2026-02-13T22:30:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---

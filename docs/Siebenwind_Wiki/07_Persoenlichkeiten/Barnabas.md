@@ -1,6 +1,6 @@
 ---
 title: "Barnabas"
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: stub
 quelle: "Der letzte Falke"
 owner: UNASSIGNED

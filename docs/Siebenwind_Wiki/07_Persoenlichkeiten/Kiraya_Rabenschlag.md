@@ -1,6 +1,6 @@
 ---
 title: Kiraya Rabenschlag
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Kiraya Rabenschlag

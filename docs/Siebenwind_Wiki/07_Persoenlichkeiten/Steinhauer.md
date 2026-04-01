@@ -1,6 +1,6 @@
 ---
 title: Steinhauer
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Steinhauer

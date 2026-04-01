@@ -1,6 +1,6 @@
 ---
 title: Aaron
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Aaron

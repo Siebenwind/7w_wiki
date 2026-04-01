@@ -1,6 +1,6 @@
 ---
 title: Kida Gilwen
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Kida Gilwen

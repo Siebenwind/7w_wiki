@@ -1,6 +1,6 @@
 ---
 title: Rituallehre & Sphären
-category: [[index]]
+category: Magie
 ---
 
 # Rituallehre & Sphären

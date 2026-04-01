@@ -1,6 +1,6 @@
 ---
 title: Die arkane index
-category: [[index]]
+category: Magie
 status: integrated
 quelle: "Lit Ita'Im'Elarum Odalim ir Galadon"
 report_id: b3e5d1a2-4f6c-4e8a-9d2b-1c3a4b5d6e7f

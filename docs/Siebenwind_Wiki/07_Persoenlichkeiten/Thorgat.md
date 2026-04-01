@@ -2,7 +2,7 @@
 uuid: th0rgat-dwarschim-old
 title: Thorgat
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Erinnerungen_eines_alternden_Zwergen]] | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
+quelle: ../../../Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md
 lore_trust: 7
 letzter_check: 2026-02-14T01:20:00
 ---

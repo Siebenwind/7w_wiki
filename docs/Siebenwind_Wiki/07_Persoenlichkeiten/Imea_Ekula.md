@@ -1,6 +1,6 @@
 ---
 title: Imea Ekula
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Imea Ekula

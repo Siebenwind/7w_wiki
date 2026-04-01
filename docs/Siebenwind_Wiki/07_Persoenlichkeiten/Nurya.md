@@ -1,6 +1,6 @@
 ---
 title: "Nurya"
-category: [[index]]
+category: Personen
 ---
 
 # Nurya

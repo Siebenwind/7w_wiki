@@ -1,6 +1,6 @@
 ---
 title: index Siebenwinds (De Iuribus)
-category: [[Gesellschaft]]
+category: Gesellschaft
 status: #überlieferung
 tags: [Gesetz, [[index]], Verfassung, Strafe, Adel, Bürger]
 ---

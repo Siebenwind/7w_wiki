@@ -1,6 +1,6 @@
 ---
 title: Gorem Motlow
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # [[Gorem]] Motlow

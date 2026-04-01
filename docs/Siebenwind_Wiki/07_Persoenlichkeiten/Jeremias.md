@@ -1,8 +1,8 @@
 ---
 title: "Jeremias"
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Über die Gebete.md"
+quelle: "/Quellen/index Astrael/Über die Gebete.md"
 author: "Antigravity"
 owner: UNASSIGNED
 review_until: 2026-09-22

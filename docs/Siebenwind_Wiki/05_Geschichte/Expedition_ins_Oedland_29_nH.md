@@ -1,6 +1,6 @@
 ---
 title: Expedition ins Ödland (29 n.H.)
-category: [[index]]
+category: Geschichte
 ---
 
 # Expedition ins [[Ödland]] (29 n.H.)

@@ -1,6 +1,6 @@
 ---
 title: Finianswacht
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Finianswacht

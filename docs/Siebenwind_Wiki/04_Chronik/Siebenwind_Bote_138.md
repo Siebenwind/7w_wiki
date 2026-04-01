@@ -1,9 +1,9 @@
 ---
 uuid: feba58b7-1e0c-446e-871a-03eb4802ebff
 title: Siebenwind Bote 138
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 138.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 138.md
 letzter_check: 2026-02-13T00:55:00+01:00
 ---
 # [[Siebenwind]] Bote 138
@@ -37,4 +37,4 @@ Die Premiere des Zirkus auf der Insel findet am **12. Querler 16 n.H.** auf der 
 *   [[Enzo_Wendolyn]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 138](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20138.md)
+- Primärquelle: [Siebenwind Bote 138](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20138.md)

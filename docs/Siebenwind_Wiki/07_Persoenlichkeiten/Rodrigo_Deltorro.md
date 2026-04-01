@@ -2,7 +2,7 @@
 uuid: 3d4e5f6a-7b8c-4d9e-0f1a-2b3c4d5e6f7a
 title: Rodrigo Deltorro
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_181]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_181.md
 letzter_check: 2026-02-13T22:55:00
 report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 ---

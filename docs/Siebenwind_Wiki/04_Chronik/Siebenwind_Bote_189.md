@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 189
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 189

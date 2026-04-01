@@ -1,8 +1,8 @@
 ---
 title: Tzara Rengis
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_137]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_137.md
 ---
 # Tzara Rengis
 

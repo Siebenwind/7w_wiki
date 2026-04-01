@@ -1,6 +1,6 @@
 ---
 title: Tjure Odal
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Tjure Odal

@@ -1,8 +1,8 @@
 ---
 title: Arlin Sturmfels
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: #überlieferung
-quelle: [[[Dunvallo_Linari]] - Artefakte]
+quelle: Dunvallo_Linari - Artefakte
 report_id: b6a7d2e4-9f81-4a3b-8c7a-9f8e4d2e7b1a
 ---
 

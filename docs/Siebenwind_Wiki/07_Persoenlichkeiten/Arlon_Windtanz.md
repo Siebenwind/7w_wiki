@@ -1,8 +1,8 @@
 ---
 title: Arlon Windtanz
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_153]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_153.md
 ---
 # Arlon Windtanz
 

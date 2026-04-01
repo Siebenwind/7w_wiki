@@ -2,7 +2,7 @@
 uuid: e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b
 title: Althea Ekre
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_180]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_180.md
 letzter_check: 2026-02-13T22:30:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---

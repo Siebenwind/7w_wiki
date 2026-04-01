@@ -2,7 +2,7 @@
 title: Magica Procella
 category: Persönlichkeit
 status: "#überlieferung"
-quelle: "[[Arcana_Procella]]"
+quelle: "Arcana_Procella"
 ---
 
 # Magica Procella

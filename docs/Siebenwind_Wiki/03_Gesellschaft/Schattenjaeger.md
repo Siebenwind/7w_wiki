@@ -1,6 +1,6 @@
 ---
 title: Schattenjäger
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Schattenjäger

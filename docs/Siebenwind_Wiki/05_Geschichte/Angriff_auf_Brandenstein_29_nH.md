@@ -1,6 +1,6 @@
 ---
 title: Angriff auf Brandenstein (29 n.H.)
-category: [[index]]
+category: Geschichte
 ---
 
 # Angriff auf [[Brandenstein]] (29 n.H.)

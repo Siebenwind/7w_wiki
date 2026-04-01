@@ -52,4 +52,4 @@ Hexenmeister und Nekromanten (die nicht den *[[Morsan]]*-Riten folgen) rufen oft
 - [[Religion_Übersicht]]
 - [[Die_Viere_Kirche]] verdammt ihn.
 - [[Magie_Grundlagen]] - Dunkle [[index]]
-- [[Kreaturen]] - [[Dämonen]]
+- [[Kreaturen]] - [[Daemonen]]

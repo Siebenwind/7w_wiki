@@ -1,6 +1,6 @@
 ---
 title: Zeitrechnung (Der Sonnenzirkel)
-category: [[index]]
+category: Allgemein
 status: Kanon
 ---
 

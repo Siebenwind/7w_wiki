@@ -1,5 +1,133 @@
 # Changelog
 
+#### [2026-03-31.01] - Magie-Cluster: publizierte Report-Ziele auf kanonische Theorie- und Ritualseiten gehoben
+### Prioritaet: P1
+### Geändert
+- `Logs/Ingestion/2026-02-16_Dunvallo_Linari_-_Alte_Magietheorie.md`: generische Zielspalte `[[Magie]]` auf `[[Magietheorie_Linari]]` gehoben.
+- `Logs/Ingestion/2026-02-16_Dunvallo_Linari_-_Magietheoretische_Grundlagen_zur_Zauberwirkung_Matrixtheorie.md`: generische Zielspalte `[[Magie]]` auf `[[Matrixtheorie_Linari]]` gehoben.
+- `Logs/Ingestion/2026-02-20_Dunkelbaum_Eigenschaften_Elemente.md`: `[[Magie_Elementarmagie]]` auf `[[Magietheorie_Eigenschaften_der_Elemente]]` gehoben.
+- `Logs/Ingestion/2026-02-14_Linari_Thesen.md`: `[[Magietheorie_Grundlagen]]` auf `[[Magietheorie_Linari]]` gehoben.
+- `Logs/Ingestion/2026-02-14_Linari_Rituale.md`, `Logs/Ingestion/2026-02-14_Linari_Artefakte.md` und `Logs/Ingestion/2026-02-14_Liebig_Wesenheiten.md`: `[[Magische_Rituale]]` auf `[[Rituallehre_Sphaeren]]` gehoben.
+- `CHANGELOG.md`, `MASTER_TASK_LIST.md` und `Logs/Archive/SESSION_MEMORY_2026-03-31_MAGIE_CLUSTER.md`: Snapshot-Delta und den naechsten Cluster nachgezogen.
+### Validiert
+- `./7w_wiki.py pages validate --json --fast --skip-audit`
+- `./7w_wiki.py pages validate --json --skip-audit`
+
+#### [2026-03-30.04] - Historie-Cluster: Zeitstrahl auf Historie & Ären retargetiert
+### Prioritaet: P1
+### Geändert
+- `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md`: alle neun unresolved `[[Historie]]`-Vorkommen konservativ auf `[[Historie_&_Ären|Historie]]` gehoben. Das Ziel wurde gegen die bestehende Chronikseite `docs/Siebenwind_Wiki/04_Chronik/Historie_&_Ären.md` verifiziert.
+- `CHANGELOG.md`, `MASTER_TASK_LIST.md` und `Logs/Archive/SESSION_MEMORY_2026-03-30_HISTORIE_CLUSTER.md`: Snapshot-Delta und die neue Priorisierung auf den Magie-Cluster nachgezogen.
+### Validiert
+- `./7w_wiki.py pages validate --json --fast --skip-audit`
+- `./7w_wiki.py pages validate --json --skip-audit`
+
+#### [2026-03-30.03] - Publish-Hygiene-Cluster: Religions-Resolver-Reste aus Reports und Maintainer-Doku reduziert
+### Prioritaet: P1
+### Geändert
+- `docs/Siebenwind_Wiki/01_Pantheon/Der_naive_Mensch.md`: den Linkstil fuer den Sammelbegriff `Gottheiten` von der Alias-Form auf `Gottheiten (siehe [[Religion_Übersicht]])` umgestellt, damit der Zielbegriff nicht weiter als eigener Wikilink-Target im aktiven Wiki auftaucht.
+- `docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_128.md`, `docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_159.md`, `docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_187.md` und `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Utrich_Rothnang.md`: Alias-Formen `[[Kirche_der_Viere|Die Kirche]]` auf direkten kanonischen Linkstil `[[Kirche_der_Viere]]` zurueckgefuehrt.
+- `Logs/Ingestion/2026-02-15_Aequitas.md`, `Logs/Ingestion/2026-02-15_Alles_ohne_Pointe.md`, `Logs/Ingestion/2026-02-15_Althea_Danea_-_Kompendium_der_Wei·magie.md`, `Logs/Ingestion/2026-02-16_Der_Blutrote_Stier.md`, `Logs/Ingestion/2026-02-16_Der_Traum_der_Tausend.md`, `Logs/Ingestion/2026-02-16_Der_letzte_Falke.md` und `Logs/Ingestion/2026-02-16_Die_Goldenen_Tafeln.md`: publizierte Ingestion-Reports normalisiert, sodass `Die Kirche`-/`Gottheiten`-Resolver-Reste nicht mehr ueber den Symlink `docs/Archiv/Ingestion_Reports -> ../../Logs/Ingestion` in den Pages-Build eingespeist werden.
+- `CHANGELOG.md`, `MASTER_TASK_LIST.md` und die Session-Logs vom 2026-03-30: maintainerseitige Religions-Target-Nennungen auf Plaintext bzw. kanonische Zielseiten umgestellt, damit die Doku selbst keine kuenstlichen unresolved targets mehr erzeugt.
+- `.agent/data/religion_cluster_review.json` und `.agent/data/religion_cluster_escalations.json`: Religions-Cluster auf einen Publish-/Archiv-Follow-up fortgeschrieben; die verbliebenen aktiven Content-Rewrites gelten damit als abgeschlossen.
+### Validiert
+- `./7w_wiki.py pages validate --json --skip-audit`
+- `./7w_wiki.py test --suite content-contract`
+- `./7w_wiki.py test --suite render-hygiene`
+- `./7w_wiki.py test --suite interop-doc-links`
+
+#### [2026-03-30.02] - Religions-Cluster Phase 2: Kontext-Heuristik angewandt, Resolver-Rest offengelegt
+### Prioritaet: P1
+### Geändert
+- `docs/Siebenwind_Wiki/01_Pantheon/Der_naive_Mensch.md`: den Zielbegriff `Gottheiten` auf `Religion_Übersicht` gehoben.
+- `docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_128.md`, `docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_159.md`, `docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_187.md` und `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Utrich_Rothnang.md`: kontextsichere galadonisch-viergoettliche Vorkommen von `Die Kirche` explizit auf `[[Kirche_der_Viere|Die Kirche]]` gehoben.
+- `docs/Siebenwind_Wiki/03_Gesellschaft/Ecclesia_Elementorum.md`: ambige Selbstreferenz `Die Kirche` zu `Die Gemeinschaft` entschaerft.
+- `docs/Siebenwind_Wiki/03_Gesellschaft/Kirche_der_Viere.md`: alte freischwebende `[[Die Kirche der Viere in Galadon]]`-Verweise auf den echten Quellenpfad `docs/Quellen/Hintergrund/Die Kirche der Viere in Galadon.md` umgestellt.
+- `.agent/data/religion_cluster_review.json` und `.agent/data/religion_cluster_escalations.json`: Phase-2-Stand nachgezogen; verbleibende Religionsziele werden jetzt als Resolver-/Archiv-Rest dokumentiert statt als weitere sichere Content-Rewrites.
+- `MASTER_TASK_LIST.md`: aktiven Fokus vom reinen Religions-Review auf Religions-Resolver-/Archivreste verschoben.
+### Validiert
+- `./7w_wiki.py pages validate --json --fast --skip-audit`
+- `./7w_wiki.py pages validate --json --skip-audit`
+- `./7w_wiki.py pages validate --json --strict-links` (weiter am bekannten Audit-/Bridge-Altbestand rot)
+- `./7w_wiki.py test --suite content-contract`
+- `./7w_wiki.py test --suite render-hygiene`
+- `./7w_wiki.py test --suite interop-doc-links`
+
+#### [2026-03-30.01] - Konservativer Religions-Cluster: Enhor-Alias bereinigt, Institutionen/Gattungsziele eskaliert
+### Prioritaet: P1
+### Hinzugefügt
+- `.agent/data/religion_cluster_review.json` und `.agent/data/religion_cluster_escalations.json`: Arbeitsartefakte fuer die konservative Religions-Welle mit Delta-Nachweis, Review-Status und expliziten Eskalationen fuer institutionelle/generische Restziele.
+- `Logs/Archive/SESSION_MEMORY_2026-03-30_RELIGION_CLUSTER.md`: Sitzungsprotokoll fuer den Religions-/Pantheon-Cluster mit Baseline, Ergebnis und Restfaellen.
+### Geändert
+- `docs/Siebenwind_Wiki/09_Bibliothek/Die_Elemente_ungleiche_Geschwister.md`: Doppelte Frontmatter-/Legacy-Layout-Reste entfernt, Metadatenblock normalisiert und den abgeleiteten Wiki-Verweis `[[En'Hor]]` konservativ auf `[[Die_Enhor|Enhor]]` gehoben; reine Quellenorthographie wurde dabei nicht angefasst.
+- `docs/Siebenwind_Wiki/01_Pantheon/Der_naive_Mensch.md`: Doppelte Frontmatter-/Legacy-Layout-Reste entfernt und Metadatenblock normalisiert; der generische Zielbegriff `Gottheiten` blieb in Phase 1 noch bewusst unangetastet und wurde zunächst in die Eskalationsliste ueberfuehrt.
+- `MASTER_TASK_LIST.md`: Fokus auf den laufenden Religions-Cluster und die explizit review-pflichtigen Restziele `Gottheiten`, `Die_Kirche` und `Die_Vier_Kirchen` aktualisiert.
+### Validiert
+- `./7w_wiki.py pages validate --json --fast --skip-audit`
+- `./7w_wiki.py pages validate --json --skip-audit`
+- `./7w_wiki.py pages validate --json --strict-links` (bleibt am bekannten Altbestand im Audit-Precheck rot)
+- `./7w_wiki.py test --suite content-contract`
+- `./7w_wiki.py test --suite render-hygiene`
+- `./7w_wiki.py test --suite interop-doc-links`
+
+#### [2026-03-28.01] - Pantheon-Navigation symmetrisiert und Sahor/Enhor-Nomenklatur geklaert
+### Prioritaet: P1
+### Geändert
+- `mkdocs.yml`: Die Sonderbehandlung von `Astrael` in der GitHub-Pages-Navigation wurde beendet. `Pantheon und Religion` fuehrt die Vier nun symmetrisch als Gruppe `Die Viere (Sahor)` und stellt `Die Elementarherren (Enhor)` als eigene Pantheon-Gruppe daneben.
+- `docs/Siebenwind_Wiki/01_Pantheon/Das_Pantheon.md`: Ueberschriften auf die kanonische Begriffspaare `Die Viere (Sahor)` und `Die Elementarherren (Enhor)` ausgerichtet.
+- `docs/Siebenwind_Wiki/00_Fundament/Religion_Übersicht.md`: Doppelbenennung praezisiert (`Viere` als alltagsreligiöser Begriff, `Sahor`/`Enhor` als kosmologisch-theologische Sammelnamen), fehlerhaften `Rien`-Link repariert und den alten Agenten-Review-Satz entfernt.
+- `docs/Siebenwind_Wiki/00_Fundament/Viere.md`, `docs/Siebenwind_Wiki/00_Fundament/Die_Viere_Kirche.md`, `docs/Siebenwind_Wiki/03_Gesellschaft/Kirche_der_Viere.md` und `docs/Siebenwind_Wiki/03_Gesellschaft/Ecclesia_Elementorum.md`: Begriffs- und Institutionsseiten erklaeren jetzt sauber die Beziehung `Viere <-> Sahor` und `Elementarherren <-> Enhor`; offensichtliche Placeholder-/Syntaxreste wurden bereinigt.
+### Validiert
+- `./7w_wiki.py test --suite content-contract`
+- `./7w_wiki.py test --suite render-hygiene`
+- `./7w_wiki.py test --suite interop-doc-links`
+- `./7w_wiki.py pages validate --json --skip-audit`
+
+#### [2026-03-27.01] - Konservative Lane-1 Backlog-Welle für Pages und Contract-Drift
+### Prioritaet: P1
+### Hinzugefügt
+- `.agent/scripts/repair.py`: Neue Backlog-Modi `--backlog-board` und `--apply-lane1` erzeugen ein clusterbasiertes Arbeitsboard, eine Eskalationsliste und die erste konservative Auto-Welle fuer mechanische Pages-/Contract-Reparaturen.
+- `.agent/data/backlog_cluster_board.json` und `.agent/data/backlog_escalations.json`: Maschinenlesbare Artefakte fuer Cluster-Reihenfolge, Lane-Zuordnung und strittige Restfaelle.
+- `.agent/tests/suites/backlog-repair-contract.json`: Vertrags-Suite fuer die neuen Backlog-Repair-JSON-Surfaces.
+### Geändert
+- `.agent/scripts/content_contract.py`: `category: [[...]]` im Frontmatter wird jetzt kanonisch auf Klartext-/Ordnerkategorie normalisiert; `quelle:`-Felder mit kaputten Wikilinks werden robuster in Plaintext ueberfuehrt.
+- `.agent/scripts/repair.py`: Lane-1 repariert konservativ Alias-/Umlaut-/Syntaxdrift mit genau einem kanonischen Zielkandidaten, normalisiert `category`-Wikilinks und hebt `quelle:`-Felder bei eindeutigem Quellenlookup auf echte relative Pfade.
+- `7w_wiki.py`, `.agent/workflows/tech_master.md`, `.agent/workflows/test_run.md` und `MASTER_TASK_LIST.md`: Runtime und Wartungsdoku kennen jetzt das Backlog-Board und die konservative Lane-1-Welle.
+### Validiert
+- `python3 -m py_compile 7w_wiki.py .agent/scripts/repair.py .agent/scripts/content_contract.py`
+- `./7w_wiki.py test --suite backlog-repair-contract`
+- `./7w_wiki.py repair --backlog-board --json`
+- `./7w_wiki.py repair --apply-lane1 --dry-run --auto --json`
+- `./7w_wiki.py repair --apply-lane1 --auto --json`
+- `./7w_wiki.py audit --pages --json`
+- `./7w_wiki.py pages validate --json --strict-links --skip-audit`
+- `./7w_wiki.py advisor --json`
+
+#### [2026-03-26.01] - Pages Fast Precheck, Telemetrie & Backlog-Triage
+### Prioritaet: P1
+### Hinzugefügt
+- `./7w_wiki.py pages validate --fast`: Neuer advisory Vorcheck auf Basis gecachter Analyseartefakte. Der schnelle Modus liefert Fruehwarnung fuer Drift-/Link-/Contract-Signale, ersetzt aber bewusst keinen echten MkDocs-Gate-Lauf.
+### Geändert
+- `7w_wiki.py`, `.agent/scripts/pages_tool.py`, `.agent/scripts/pages_integrity.py` und `.agent/scripts/register_check.py`: Pages- und Audit-Ausgaben enthalten jetzt Timing-/Phasenfelder sowie Cache-Metadaten (`hit`, `inputs_fingerprint`, `duration_ms`) fuer Docs-Linkindex, Canonical-Name-Index und Tree-Drift-Analyse.
+- `.agent/scripts/advisor.py`: Empfehlungen verweisen nun auf den praezisen harten Gate `./7w_wiki.py pages validate --json --strict-links` statt auf das unschaerfere `--strict`.
+- `.agent/scripts/content_contract.py` und `.agent/scripts/repair.py`: Legacy-Indexziele, verschachtelte Quellenlinks und Umlaut-/Alias-Drift werden robuster normalisiert; viele `quelle:`-Felder und Bote-Referenzen im Wiki wurden auf das kanonische Contract-Format ueberfuehrt.
+- `mkdocs.yml`: Unnoetige `roamlinks`-Plugin-Option entfernt, damit der Build nicht mehr mit einem vermeidbaren Konfigurations-Warnsignal startet.
+- `MASTER_TASK_LIST.md`, `.agent/workflows/tech_master.md`, `.agent/workflows/test_run.md` und `System/MCP/README.md`: Dokumentation auf `--fast`-Vorcheck, Timing-Transparenz und den naechsten Pages-Backlog-Track angepasst.
+### Validiert
+- `python3 -m py_compile 7w_wiki.py .agent/scripts/advisor.py .agent/scripts/content_contract.py .agent/scripts/pages_integrity.py .agent/scripts/pages_tool.py .agent/scripts/register_check.py .agent/scripts/repair.py`
+- `./7w_wiki.py test --suite content-contract`
+- `./7w_wiki.py test --suite split-brain-guard`
+- `./7w_wiki.py test --suite takeover-handover`
+- `./7w_wiki.py test --suite interop-doc-links`
+- `./7w_wiki.py test --suite workflow-matrix-contract`
+- `./7w_wiki.py test --suite tool-manifest-contract`
+- `./7w_wiki.py test --suite codex-workflow-bridges`
+- `./7w_wiki.py test --suite pages-link-contract`
+- `./7w_wiki.py pages validate --json --skip-audit`
+- `./7w_wiki.py pages validate --json --fast --skip-audit`
+- `./7w_wiki.py audit --pages --json`
+- `./7w_wiki.py advisor --json`
+
 #### [2026-03-10.03] - Handover Closeout & Workflow Bridge Parser Fix
 ### Prioritaet: P2
 ### Behoben
@@ -285,4 +413,4 @@
 
 
 
-*Ältere Einträge siehe [Archiv](docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md)*
+*Ältere Einträge siehe `docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md`.*

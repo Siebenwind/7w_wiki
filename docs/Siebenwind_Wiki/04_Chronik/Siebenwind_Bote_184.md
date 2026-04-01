@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 184
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 184

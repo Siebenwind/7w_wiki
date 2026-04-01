@@ -1,8 +1,8 @@
 ---
 title: "Donarius Derrvus"
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Von den [[Myten]].md"
+quelle: "/Quellen/index Astrael/Von den Myten.md"
 author: "Antigravity"
 owner: UNASSIGNED
 review_until: 2026-09-22

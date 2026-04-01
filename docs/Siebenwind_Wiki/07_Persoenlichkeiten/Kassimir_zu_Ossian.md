@@ -1,6 +1,6 @@
 ---
 title: Kassimir zu Ossian
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Kassimir zu Ossian

@@ -1,8 +1,8 @@
 ---
 title: "Barath Or"
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Die [[index]] des Barath Or.md"
+quelle: "/Quellen/index Astrael/Die index des Barath Or.md"
 author: "Antigravity"
 owner: UNASSIGNED
 review_until: 2026-09-22

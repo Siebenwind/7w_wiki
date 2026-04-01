@@ -1,6 +1,6 @@
 ---
 title: Lea Sonnenschein
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Lea Sonnenschein

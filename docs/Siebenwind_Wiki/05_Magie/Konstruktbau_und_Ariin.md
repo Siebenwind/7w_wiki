@@ -1,8 +1,8 @@
 ---
 title: Konstruktbau und Ari'in
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Rhadan_der_Graue]] - AriÔin.md"
+quelle: "/Quellen/index Toran_Dur/Rhadan_der_Graue - AriÔin.md"
 ---
 
 # Konstruktbau und Ari'in

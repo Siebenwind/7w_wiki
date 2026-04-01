@@ -1,6 +1,6 @@
 ---
 title: Der Putsch von Falkensee
-category: [[index]]
+category: Geschichte
 ---
 
 # Der Putsch von [[Falkensee]]

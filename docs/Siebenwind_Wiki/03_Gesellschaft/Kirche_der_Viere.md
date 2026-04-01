@@ -9,11 +9,11 @@ author: [[Siebenwind]] Chronicler
 **Epistemischer Status:** #canon
 
 **Kategorie:** Religion
-**Götter:** [[Astrael]], 03_Bellum, [[Vitama]], [[Morsan]]
+**Götter:** [[Astrael]], [[Bellum]], [[Vitama]], [[Morsan]]
 **Verbreitung:** Staatsreligion in Galadon
 
 ## Einleitung
-Die Kirche der Viereinigkeit ist die dominierende religiöse Institution im Königreich Galadon. Sie vereint die Kulte der vier "Guten Götter" unter einem Dach, auch wenn die einzelnen Orden oft autonom agieren.
+Die Kirche der Viere ist die dominierende religiöse Institution im Königreich Galadon. Sie vereint die Kulte der vier **Sahor**, die im alltagsreligiösen Sprachgebrauch meist schlicht als die **Viere** bezeichnet werden, unter einem Dach, auch wenn die einzelnen Orden oft autonom agieren.
 
 ## Philosophie und Metaphern
 Gelehrte beschreiben die Gemeinschaft der Geweihten oft als einen **Baum**:
@@ -25,11 +25,13 @@ Gelehrte beschreiben die Gemeinschaft der Geweihten oft als einen **Baum**:
 Trotz dieses Bildes der Einheit herrscht innerhalb der Kirche oft Uneinigkeit über politische oder ethische Fragen, etwa wenn [[Bellum]]-Gläubige auf verschiedenen Seiten eines weltlichen Krieges gegeneinander kämpfen.
 
 ## Die Vier Götter und ihre Orden
+Im theologischen Register handelt es sich um die vier Sahor; im Reichs- und Alltagsgebrauch spricht man von den Vieren.
+
 1.  **[[Astrael]] (Das Allsehende Auge):**
     *   Aspekt: [[index]], [[index]], Ordnung, Herrschaft.
     *   Orden: "Orden des Allsehenden Auges Astraels".
     *   Anhänger: Gelehrte, Magier, Richter, Herrscher.
-    *   Zentrum: Herzogtum [[Region [[Sae]]|Sae]] (Lafay's Stab).
+    *   Zentrum: Herzogtum [[Region_Sae|Sae]] (Lafay's Stab).
 
 2.  **[[Bellum]] (Das Heilige Schwert):**
     *   Aspekt: Kampf, Ehre, Schutz, Kraft.
@@ -64,8 +66,8 @@ In der Praxis sind diese Grenzen oft fließend. In Krisengebieten übernimmt die
 *   **Macht:** In manchen Regionen übernimmt die Kirche weltliche Aufgaben (Rechtsprechung, Verteidigung), wenn der Adel schwach ist.
 
 ## Überlieferungen
-- [[Die Kirche der Viere in Galadon]]: Grundlegende Abhandlung über Struktur und Rechte.
+- [Die Kirche der Viere in Galadon](../../Quellen/Hintergrund/Die%20Kirche%20der%20Viere%20in%20Galadon.md): Grundlegende Abhandlung über Struktur und Rechte.
 
 ## Quellen
-- [[Die Kirche der Viere in Galadon]] (#canon)
+- [Die Kirche der Viere in Galadon](../../Quellen/Hintergrund/Die%20Kirche%20der%20Viere%20in%20Galadon.md) (#canon)
 - [[Adelskalender]]

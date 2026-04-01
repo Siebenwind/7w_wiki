@@ -1,6 +1,6 @@
 ---
 title: Horan Erandel
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Horan Erandel

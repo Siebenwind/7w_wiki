@@ -1,9 +1,9 @@
 ---
 uuid: 8dde4f46-2b4d-49ec-a50f-b1b6f2157aec
 title: Siebenwind Bote 133
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 133.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 133.md
 letzter_check: 2026-02-13T00:52:00+01:00
 ---
 # [[Siebenwind]] Bote 133
@@ -42,4 +42,4 @@ Ein Zeuge berichtet von einem gewaltigen **[[Baumwesen]]**, das nahe [[Brandenst
 *   [[Baumwesen]]
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 133](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20133.md)
+- Primärquelle: [Siebenwind Bote 133](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20133.md)

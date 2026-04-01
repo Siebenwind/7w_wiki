@@ -1,8 +1,8 @@
 ---
 title: Wille alter Meister
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_147]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_147.md
 ---
 # Wille alter Meister
 

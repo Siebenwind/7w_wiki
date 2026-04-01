@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Kronregiment
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # [[Siebenwind]] Kronregiment

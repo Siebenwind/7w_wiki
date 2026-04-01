@@ -1,6 +1,6 @@
 ---
 title: Magiefresser-Wolke
-category: [[index]]
+category: Allgemein
 ---
 
 # Magiefresser-Wolke

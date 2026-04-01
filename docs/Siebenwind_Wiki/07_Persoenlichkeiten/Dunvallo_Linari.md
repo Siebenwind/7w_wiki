@@ -1,6 +1,6 @@
 ---
 title: Dunvallo Linari
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Dunvallo Linari

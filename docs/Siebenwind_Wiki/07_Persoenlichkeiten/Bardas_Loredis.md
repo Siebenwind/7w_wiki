@@ -2,7 +2,7 @@
 uuid: a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d
 title: Bardas Loredis
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_165]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_165.md
 letzter_check: 2026-02-13T22:30:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---

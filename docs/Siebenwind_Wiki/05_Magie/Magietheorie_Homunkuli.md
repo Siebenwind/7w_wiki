@@ -1,8 +1,8 @@
 ---
 title: Homunkuli ("Die falschen Seelen")
-category: [[index]]
+category: Magie
 status: Canon
-quelle: "../../Quellen/[[index]] [[Toran_Dur]]/Anonymous - Homunkuli.md"
+quelle: "../../Quellen/index Toran_Dur/Anonymous - Homunkuli.md"
 author: "[[Anonymus]]"
 lore_trust: 8
 confidence: Certain

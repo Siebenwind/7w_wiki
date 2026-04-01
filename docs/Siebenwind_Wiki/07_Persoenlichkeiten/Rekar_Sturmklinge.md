@@ -1,6 +1,6 @@
 ---
 title: Rekar Sturmklinge
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Rekar Sturmklinge

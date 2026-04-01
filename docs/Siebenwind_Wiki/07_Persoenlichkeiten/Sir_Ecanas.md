@@ -1,6 +1,6 @@
 ---
 title: Sir Ecanas
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Sir Ecanas

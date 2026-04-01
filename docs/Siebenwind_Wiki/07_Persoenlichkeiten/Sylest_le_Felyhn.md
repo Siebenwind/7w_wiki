@@ -2,7 +2,7 @@
 title: Sylest le Felyhn
 category: Persönlichkeit
 status: "#überlieferung"
-quelle: "[[Vjera_Batama_Magica]]"
+quelle: "Vjera_Batama_Magica"
 ---
 
 # Sylest le Felyhn

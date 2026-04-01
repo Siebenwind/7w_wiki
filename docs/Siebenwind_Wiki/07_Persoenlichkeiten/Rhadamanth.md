@@ -1,6 +1,6 @@
 ---
 title: Rhadamanth
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: #überlieferung
 quelle: [Linari - Reagenzien]
 ---

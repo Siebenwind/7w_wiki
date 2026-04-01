@@ -1,8 +1,8 @@
 ---
 title: Theorie der Dämonenbeschwörung (Daimonologie)
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Dunvallo_Linari]] - Daimonen.md"
+quelle: "/Quellen/index Toran_Dur/Dunvallo_Linari - Daimonen.md"
 ---
 
 # Theorie der Dämonenbeschwörung (Daimonologie)

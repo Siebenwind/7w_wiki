@@ -1,6 +1,6 @@
 ---
 title: "Alashar"
-category: [[index]]
+category: Personen
 ---
 
 # Alashar

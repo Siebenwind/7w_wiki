@@ -1,9 +1,9 @@
 ---
 uuid: f3g4h5i6-j7k8-l9m0-n1o2-p3q4r5s6t7u8
 title: Siebenwind Bote 170
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 170.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 170.md
 letzter_check: 2026-02-13T16:15:00+01:00
 ---
 # [[Siebenwind]] Bote 170
@@ -32,4 +32,4 @@ letzter_check: 2026-02-13T16:15:00+01:00
 *   **Rechtsprechung:** Das [[Koenigliches_Gericht]] unter [[Solos_Nhergas]] sucht neues Personal (Schreiber, Gerichtsdiener, Advokaten).
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 170](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20170.md)
+- Primärquelle: [Siebenwind Bote 170](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20170.md)

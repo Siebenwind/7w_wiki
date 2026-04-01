@@ -1,8 +1,8 @@
 ---
 title: Philosophie der index
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Dunvallo_Linari]] - Philosophie.md"
+quelle: "/Quellen/index Toran_Dur/Dunvallo_Linari - Philosophie.md"
 ---
 
 # Philosophie der [[index]]

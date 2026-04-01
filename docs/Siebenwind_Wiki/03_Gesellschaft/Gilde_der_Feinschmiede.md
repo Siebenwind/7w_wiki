@@ -1,6 +1,6 @@
 ---
 title: Gilde der Feinschmiede
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Gilde der Feinschmiede

@@ -1,6 +1,6 @@
 ---
 title: Fayola
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Fayola

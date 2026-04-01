@@ -1,7 +1,7 @@
 ---
 title: Khorne
-category: [[Persoenlichkeiten_Uebersicht]]
-quelle: [[Astrael_Batch]]
+category: Personen
+quelle: Astrael_Batch
 ---
 
 # Khorne

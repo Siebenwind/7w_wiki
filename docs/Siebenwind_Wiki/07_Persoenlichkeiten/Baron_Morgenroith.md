@@ -2,7 +2,7 @@
 title: Baron Morgenroith
 category: Persönlichkeit
 status: "#überlieferung"
-quelle: "[[Iuribus_Siebenwind]]"
+quelle: "Iuribus_Siebenwind"
 ---
 
 # Baron Morgenroith

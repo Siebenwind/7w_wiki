@@ -19,6 +19,7 @@ import argparse
 import json
 import re
 import sys
+import time
 import uuid
 from pathlib import Path
 from collections import Counter
@@ -376,6 +377,7 @@ def main():
         "report_id": report_id,
         "generated_at": now_iso(),
         "issues_found": 0,
+        "timings_ms": {},
         "categories": {
             "content_backlog": {"issues": 0},
             "wiki_integrity": {"issues": 0},
@@ -420,6 +422,7 @@ def main():
     log(f"  Report-ID: {report_id}")
     log("=" * 60)
     log()
+    audit_started = time.perf_counter()
 
     # --- 1. Duplikat-Scan ---
     log("## 1. Duplikate im Personenregister")
@@ -616,7 +619,9 @@ def main():
 
     # --- 10. Content Contract / Drift ---
     log("## 10. Content Contract / Drift Prevention")
+    contract_started = time.perf_counter()
     contract = scan_contract(WIKI_DIR)
+    audit_data["timings_ms"]["content_contract"] = round((time.perf_counter() - contract_started) * 1000, 2)
     audit_data["details"]["stub_inventory"] = contract["stub_inventory"]
     audit_data["details"]["bridge_inventory"] = contract["bridge_inventory"]
     audit_data["details"]["split_brain"] = contract["split_brain"]["files"]
@@ -650,7 +655,9 @@ def main():
     log()
 
     if args.pages:
+        pages_started = time.perf_counter()
         pages_report = collect_pages_build_report(config="mkdocs.yml", no_clean=False)
+        audit_data["timings_ms"]["pages_integrity"] = round((time.perf_counter() - pages_started) * 1000, 2)
         pages_health = pages_report["pages_health"]
         audit_data["details"]["site_integrity"] = pages_health
         site_issues = pages_health.get("unallowlisted_total", 0) + len(pages_health.get("other_warnings", []))
@@ -677,6 +684,8 @@ def main():
         for warning in pages_health.get("other_warnings", [])[:10]:
             log(f"  ⚠️  Warning: {warning}")
         log()
+
+    audit_data["timings_ms"]["total"] = round((time.perf_counter() - audit_started) * 1000, 2)
 
     # --- Summary ---
     audit_data["categories"]["content_backlog"]["issues"] = len(audit_data["details"]["missing_sources"])
@@ -721,7 +730,7 @@ def main():
             print(f"\n[ERROR] Konnte Report nicht speichern: {e}", file=sys.stderr)
 
     if args.json:
-        print(json.dumps(audit_data, indent=2))
+        print(json.dumps(audit_data, indent=2, ensure_ascii=False))
         return 1 if issues_found > 0 else 0
 
 

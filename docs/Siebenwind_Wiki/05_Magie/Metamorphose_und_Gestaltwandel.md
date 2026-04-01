@@ -1,8 +1,8 @@
 ---
 title: Metamorphose und Gestaltwandel
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Lewyn_Anacar]] - Ars Magica Metamorphosia.md"
+quelle: "/Quellen/index Toran_Dur/Lewyn_Anacar - Ars Magica Metamorphosia.md"
 ---
 
 # Metamorphose und Gestaltwandel

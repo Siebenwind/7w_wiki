@@ -1,6 +1,6 @@
 ---
 title: Roland Telvos
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Roland Telvos

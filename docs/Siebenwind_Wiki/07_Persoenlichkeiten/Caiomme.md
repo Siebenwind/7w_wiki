@@ -1,6 +1,6 @@
 ---
 title: Caiomme
-category: [[index]]
+category: Personen
 ---
 
 # Caiomme

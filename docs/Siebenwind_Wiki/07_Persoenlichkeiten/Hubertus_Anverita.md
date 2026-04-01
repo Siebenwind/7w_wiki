@@ -2,7 +2,7 @@
 uuid: hub3rtu5-4nv3r1t4-45tr43l
 title: Hubertus Anverita
 category: Persönlichkeit
-quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
+quelle: ../../../Quellen/Spielergeschichten/Das_Ende_der_Zeit_der_Koenige.md
 letzter_check: 2026-02-13T23:25:00
 ---
 

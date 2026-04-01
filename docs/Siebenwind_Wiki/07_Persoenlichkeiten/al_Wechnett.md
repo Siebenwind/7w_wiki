@@ -1,6 +1,6 @@
 ---
 title: al Wechnett
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # al Wechnett

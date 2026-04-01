@@ -1,6 +1,6 @@
 ---
 title: Deros Gudowisch
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Deros Gudowisch

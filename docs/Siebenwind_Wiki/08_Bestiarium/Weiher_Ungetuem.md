@@ -1,6 +1,6 @@
 ---
 title: Weiher-Ungetüm (Spinnenkrebs)
-category: [[index]]
+category: Allgemein
 ---
 
 # Weiher-Ungetüm (Spinnenkrebs)

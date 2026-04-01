@@ -1,6 +1,6 @@
 ---
 title: Der Grix
-category: [[index]]
+category: Allgemein
 ---
 
 # Der [[Grix]]

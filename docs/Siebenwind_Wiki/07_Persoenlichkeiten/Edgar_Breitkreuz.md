@@ -2,7 +2,7 @@
 uuid: e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b
 title: Edgar Breitkreuz
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_149]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_149.md
 letzter_check: 2026-02-13T22:35:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---

@@ -2,7 +2,7 @@
 uuid: b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e
 title: Anlohr Flatnah
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_179]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_179.md
 letzter_check: 2026-02-13T22:30:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---

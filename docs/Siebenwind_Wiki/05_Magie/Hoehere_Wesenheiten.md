@@ -1,8 +1,8 @@
 ---
 title: Höhere Wesenheiten
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Johann_Liebig]] - Arkane Verbindung und Wirkung von hîheren Wesenheiten.md"
+quelle: "/Quellen/index Toran_Dur/Johann_Liebig - Arkane Verbindung und Wirkung von hîheren Wesenheiten.md"
 ---
 
 # Höhere Wesenheiten

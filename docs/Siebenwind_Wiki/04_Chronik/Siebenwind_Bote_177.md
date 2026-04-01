@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 176
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 176

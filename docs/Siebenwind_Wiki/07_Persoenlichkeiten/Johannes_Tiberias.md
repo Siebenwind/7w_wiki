@@ -1,8 +1,8 @@
 ---
 title: Johannes Tiberias
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_172]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_172.md
 ---
 # Johannes Tiberias
 

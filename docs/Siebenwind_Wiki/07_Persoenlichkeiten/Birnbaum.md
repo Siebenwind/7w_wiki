@@ -1,6 +1,6 @@
 ---
 title: Birnbaum
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Birnbaum

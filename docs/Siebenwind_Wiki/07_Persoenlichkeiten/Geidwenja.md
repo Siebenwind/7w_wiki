@@ -1,8 +1,8 @@
 ---
 title: "Geidwenja"
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Postulat der idealen Form von Matricen im Raum und in der Zeit.md"
+quelle: "/Quellen/index Astrael/Postulat der idealen Form von Matricen im Raum und in der Zeit.md"
 author: "Antigravity"
 owner: UNASSIGNED
 review_until: 2026-09-22

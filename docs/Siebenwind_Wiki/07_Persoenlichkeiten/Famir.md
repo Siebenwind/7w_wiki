@@ -1,6 +1,6 @@
 ---
 title: Famir
-category: [[Persönlichkeiten]]
+category: Personen
 ---
 
 # Famir

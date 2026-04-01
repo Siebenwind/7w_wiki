@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 120
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 120

@@ -1,6 +1,6 @@
 ---
 title: Stephan Llewellyen
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Stephan [[Llewellyen]]

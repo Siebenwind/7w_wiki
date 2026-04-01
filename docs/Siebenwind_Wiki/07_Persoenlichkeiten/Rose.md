@@ -1,8 +1,8 @@
 ---
 title: "Rose"
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: stub
-quelle: "/Quellen/[[index]] [[Astrael]]/Spiegel.md"
+quelle: "/Quellen/index Astrael/Spiegel.md"
 author: "Antigravity"
 owner: UNASSIGNED
 review_until: 2026-09-22

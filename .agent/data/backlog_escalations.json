@@ -1,0 +1,134 @@
+{
+  "generated_at": "2026-03-30T18:01:16Z",
+  "version": 1,
+  "items": [
+    {
+      "cluster": "pages_target_ambiguous",
+      "source_page": "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+      "current_target": "Persönlichkeiten",
+      "candidates": [
+        "Persoenlichkeiten_Uebersicht"
+      ],
+      "proposed_decision": "Persoenlichkeiten_Uebersicht",
+      "reason": "multiple or semantically non-identical canonical target candidates"
+    },
+    {
+      "cluster": "pages_target_ambiguous",
+      "source_page": "docs/Archiv/Research_Board.md",
+      "current_target": "Ari´in",
+      "candidates": [
+        "Ariin_(Rhadan_der_Graue)"
+      ],
+      "proposed_decision": "Ariin_(Rhadan_der_Graue)",
+      "reason": "multiple or semantically non-identical canonical target candidates"
+    },
+    {
+      "cluster": "pages_target_ambiguous",
+      "source_page": "",
+      "current_target": "Auren",
+      "candidates": [
+        "Region_Auren"
+      ],
+      "proposed_decision": "Region_Auren",
+      "reason": "multiple or semantically non-identical canonical target candidates"
+    },
+    {
+      "cluster": "pages_target_ambiguous",
+      "source_page": "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md",
+      "current_target": "Das_Daimonicon",
+      "candidates": [
+        "Daimonicon",
+        "Das_Daimonicon_(Kulin_Lateal)"
+      ],
+      "proposed_decision": "",
+      "reason": "multiple or semantically non-identical canonical target candidates"
+    },
+    {
+      "cluster": "pages_target_ambiguous",
+      "source_page": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kalveron_Dai.md",
+      "current_target": "De_Magica_Angamoniensis",
+      "candidates": [
+        "De_Magica_Angamoniensis_(Kalveron_Dai)"
+      ],
+      "proposed_decision": "De_Magica_Angamoniensis_(Kalveron_Dai)",
+      "reason": "multiple or semantically non-identical canonical target candidates"
+    },
+    {
+      "cluster": "pages_target_ambiguous",
+      "source_page": "docs/Siebenwind_Wiki/03_Wissen/Werke/Lehrbuch_der_Magietheorie_(Toran_Dur).md",
+      "current_target": "Die [[index",
+      "candidates": [
+        "Die_Chronik",
+        "Die_Magie_(Toran_Dur)"
+      ],
+      "proposed_decision": "",
+      "reason": "multiple or semantically non-identical canonical target candidates"
+    },
+    {
+      "cluster": "pages_target_ambiguous",
+      "source_page": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Raisha_al_Javet.md",
+      "current_target": "Invocatio_Elementharii",
+      "candidates": [
+        "Invocatio_Elementharii_(Raisha_al_Javet)"
+      ],
+      "proposed_decision": "Invocatio_Elementharii_(Raisha_al_Javet)",
+      "reason": "multiple or semantically non-identical canonical target candidates"
+    },
+    {
+      "cluster": "pages_target_ambiguous",
+      "source_page": "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
+      "current_target": "Sphärenkunde",
+      "candidates": [
+        "Sphaerenkunde",
+        "Sphaerenkunde_(Wolfgang_Ravinsthal)"
+      ],
+      "proposed_decision": "",
+      "reason": "multiple or semantically non-identical canonical target candidates"
+    },
+    {
+      "cluster": "pages_target_ambiguous",
+      "source_page": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Themus_Takai.md",
+      "current_target": "Theorem_zu_den_Baumwesen",
+      "candidates": [
+        "Theorem_zu_den_Baumwesen_(Themus_Takai)"
+      ],
+      "proposed_decision": "Theorem_zu_den_Baumwesen_(Themus_Takai)",
+      "reason": "multiple or semantically non-identical canonical target candidates"
+    },
+    {
+      "cluster": "bridge_invalid",
+      "source_page": "docs/Siebenwind_Wiki/00_Fundament/00_Religion_Uebersicht.md",
+      "current_target": "",
+      "candidates": [],
+      "proposed_decision": "",
+      "reason": "bridge page is untracked and has 0 explicit target(s)"
+    },
+    {
+      "cluster": "bridge_invalid",
+      "source_page": "docs/Siebenwind_Wiki/00_Fundament/03_Gesellschaft.md",
+      "current_target": "",
+      "candidates": [],
+      "proposed_decision": "",
+      "reason": "bridge page is untracked and has 0 explicit target(s)"
+    },
+    {
+      "cluster": "bridge_invalid",
+      "source_page": "docs/Siebenwind_Wiki/00_Fundament/Arman_von_Draconis.md",
+      "current_target": "",
+      "candidates": [
+        "Arman",
+        "Draconis"
+      ],
+      "proposed_decision": "",
+      "reason": "bridge page is untracked and has 2 explicit target(s)"
+    },
+    {
+      "cluster": "bridge_invalid",
+      "source_page": "docs/Siebenwind_Wiki/00_Fundament/Werke_index.md",
+      "current_target": "",
+      "candidates": [],
+      "proposed_decision": "",
+      "reason": "bridge page is untracked and has 0 explicit target(s)"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 ---
 title: Skorpione
-category: [[index]]
+category: Allgemein
 ---
 
 # Skorpione

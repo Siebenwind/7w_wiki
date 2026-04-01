@@ -1,6 +1,6 @@
 ---
 title: Südfall
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Südfall

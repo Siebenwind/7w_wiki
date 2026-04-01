@@ -2,7 +2,7 @@
 uuid: liebesleben-dichter-haldur-toda
 title: Aus dem Liebesleben eines Dichters
 category: Erzählung
-quelle: ../../Quellen/Spielergeschichten/Aus dem Liebesleben eines Dichters | [[Siebenwind]] | Ultima Online Freeshard | [[Siebenwind]].md
+quelle: ../../Quellen/Spielergeschichten/Aus dem Liebesleben eines Dichters | Siebenwind | Ultima Online Freeshard | Siebenwind.md
 letzter_check: 2026-02-13T22:50:00
 ---
 

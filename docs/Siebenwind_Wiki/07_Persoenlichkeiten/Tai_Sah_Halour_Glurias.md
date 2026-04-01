@@ -1,6 +1,6 @@
 ---
 title: "Tai Sah'Halour - Glurias"
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: stub
 quelle: "Die Eisernen Tafeln"
 owner: UNASSIGNED

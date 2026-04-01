@@ -2,7 +2,7 @@
 uuid: 2d3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f7a
 title: Estriol Karantes
 category: Persönlichkeit
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_135]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_135.md
 letzter_check: 2026-02-13T22:40:00
 report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 ---

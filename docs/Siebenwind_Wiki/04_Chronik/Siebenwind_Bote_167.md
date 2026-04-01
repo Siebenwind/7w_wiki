@@ -1,9 +1,9 @@
 ---
 uuid: d89c1234-5678-4321-abcd-ef9876543210
 title: Siebenwind Bote 167
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 167.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 167.md
 letzter_check: 2026-02-13T15:35:00+01:00
 ---
 # [[Siebenwind]] Bote 167
@@ -35,4 +35,4 @@ letzter_check: 2026-02-13T15:35:00+01:00
 *   **[[Tadschirim]]**: Ein blauer [[Geist]] (Schelm?).
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 167](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20167.md)
+- Primärquelle: [Siebenwind Bote 167](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20167.md)

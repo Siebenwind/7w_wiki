@@ -1,6 +1,6 @@
 ---
 title: Lario Anderus
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Lario Anderus

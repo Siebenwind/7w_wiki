@@ -1,8 +1,8 @@
 ---
 title: Herr Merik
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind_Bote_150]].md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_150.md
 ---
 # Herr Merik
 

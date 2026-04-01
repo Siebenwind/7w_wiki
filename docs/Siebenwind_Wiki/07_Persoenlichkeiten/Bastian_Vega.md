@@ -1,6 +1,6 @@
 ---
 title: Bastian Vega
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Bastian Vega

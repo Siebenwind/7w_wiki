@@ -1,6 +1,6 @@
 ---
 title: Aeusseu Schwarzenfels
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Aeusseu Schwarzenfels

@@ -1,6 +1,6 @@
 ---
 title: Angriff der Schwarzmagier (18 n.H.)
-category: [[Geschichte]]
+category: Geschichte
 ---
 
 # Angriff der Schwarzmagier (18 n.H.)

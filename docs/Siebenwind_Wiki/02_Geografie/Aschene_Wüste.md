@@ -1,6 +1,6 @@
 ---
 title: Aschene Wüste
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Aschene Wüste

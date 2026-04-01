@@ -1,9 +1,9 @@
 ---
 uuid: bd53263d-03ed-4de9-b61b-7308c9e1a926
 title: Siebenwind Bote 164
-category: [[index]]
+category: Chronik
 status: Bote
-quelle: ../../Quellen/Zeitung 7w Bote/[[Siebenwind]] Bote 164.md
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 164.md
 letzter_check: 2026-02-13T15:15:00+01:00
 ---
 # [[Siebenwind]] Bote 164
@@ -34,4 +34,4 @@ letzter_check: 2026-02-13T15:15:00+01:00
 *   **[[Hendwig]]**: Posthum als Held geehrt (aus vorheriger Ausgabe).
 
 ## Referenzen
-- Primärquelle: [[[Siebenwind]] Bote 164](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20164.md)
+- Primärquelle: [Siebenwind Bote 164](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20164.md)

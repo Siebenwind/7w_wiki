@@ -1,6 +1,6 @@
 ---
 title: Marnie Ruatha
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Marnie Ruatha

@@ -1,6 +1,6 @@
 ---
 title: Sylviana Drachenfeuer
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Sylviana Drachenfeuer

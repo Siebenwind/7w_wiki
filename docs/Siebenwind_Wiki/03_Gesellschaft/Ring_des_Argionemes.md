@@ -1,8 +1,8 @@
 ---
 uuid: r1ng-d35-4rg10n3m35-secret
 title: Ring des Argionemes
-category: [[index]]
-quelle: ../../Quellen/Spielergeschichten/[[Das_Ende_der_Zeit_der_Koenige]]
+category: Gesellschaft
+quelle: ../../../Quellen/Spielergeschichten/Das_Ende_der_Zeit_der_Koenige.md
 letzter_check: 2026-02-13T23:25:00
 ---
 

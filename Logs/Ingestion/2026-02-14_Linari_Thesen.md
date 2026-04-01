@@ -31,10 +31,10 @@
 ### 🗺️ Orte / 🐉 Bestiarium / 🔮 Konzepte
 | Name | Kategorie | Status | Wiki-Link | Notiz |
 |---|---|---|---|---|
-| Geist als Hauptelement | Konzept | NEU | [[Magietheorie_Grundlagen]] | Theorie: Der Geist ist das Werkzeug zur Formung der 4 Elemente. |
+| Geist als Hauptelement | Konzept | NEU | [[Magietheorie_Linari]] | Theorie: Der Geist ist das Werkzeug zur Formung der 4 Elemente. |
 | Die Fassbaren (Elemente) | Konzept | UPDATE | [[Elementarlehre]] | Feuer, Wasser, Erde, Luft. |
-| Astrales Gitter | Konzept | NEU | [[Magietheorie_Grundlagen]] | Netz aus Knotenpunkten (Elementen) und Fäden (Geist). |
-| Urmagie | Konzept | NEU | [[Magietheorie_Grundlagen]] | Magie ohne Formeln (Götter), direkter Zugriff auf Elemente. |
+| Astrales Gitter | Konzept | NEU | [[Magietheorie_Linari]] | Netz aus Knotenpunkten (Elementen) und Fäden (Geist). |
+| Urmagie | Konzept | NEU | [[Magietheorie_Linari]] | Magie ohne Formeln (Götter), direkter Zugriff auf Elemente. |
 
 ## 🧠 Lore-Audit & Narrative Highlights
 - **Wichtigste Erkenntnisse**: Magie ist keine mechanische Fertigkeit (Handwerk), sondern eine spezifische Art, die Welt zu betrachten.

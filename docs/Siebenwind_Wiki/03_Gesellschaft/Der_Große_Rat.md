@@ -1,6 +1,6 @@
 ---
 title: Der Große Rat
-category: [[Gesellschaft]]
+category: Gesellschaft
 ---
 
 # Der Große Rat

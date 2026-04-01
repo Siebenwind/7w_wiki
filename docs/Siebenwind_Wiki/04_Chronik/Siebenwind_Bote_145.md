@@ -1,6 +1,6 @@
 ---
 title: Siebenwind Bote 145
-category: [[index]]
+category: Chronik
 ---
 
 # [[Siebenwind]] Bote 145

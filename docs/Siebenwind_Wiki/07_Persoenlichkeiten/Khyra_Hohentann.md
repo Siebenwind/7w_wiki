@@ -1,6 +1,6 @@
 ---
 title: Khyra Hohentann
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Khyra Hohentann

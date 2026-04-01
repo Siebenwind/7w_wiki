@@ -1,6 +1,6 @@
 ---
 title: Fenwald
-category: [[Geografie]]
+category: Geografie
 ---
 
 # Fenwald

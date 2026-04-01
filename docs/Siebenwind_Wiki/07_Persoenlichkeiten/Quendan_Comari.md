@@ -1,6 +1,6 @@
 ---
 title: Quendan Comari
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Quendan Comari

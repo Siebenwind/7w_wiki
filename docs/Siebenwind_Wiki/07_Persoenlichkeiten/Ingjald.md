@@ -1,6 +1,6 @@
 ---
 title: Ingjald
-category: [[Persoenlichkeiten_Uebersicht]]
+category: Personen
 ---
 
 # Ingjald

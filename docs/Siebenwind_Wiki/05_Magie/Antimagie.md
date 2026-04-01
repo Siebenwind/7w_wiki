@@ -1,8 +1,8 @@
 ---
 title: Antimagie (Magica Contraria)
-category: [[index]]
+category: Magie
 status: integrated
-quelle: "/Quellen/[[index]] [[Toran_Dur]]/[[Nistram_Rigas]] - Magica Contraria.md"
+quelle: "/Quellen/index Toran_Dur/Nistram_Rigas - Magica Contraria.md"
 ---
 
 # Antimagie (Magica Contraria)
