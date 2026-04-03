@@ -1,5 +1,20 @@
 # Changelog
 
+#### [2026-04-03.02] - Tech Master: Pages-/Bridge-Backlog auf vier semantische Restfaelle reduziert
+### Prioritaet: P1
+### Hinzugefügt
+- `Logs/Archive/SESSION_MEMORY_2026-04-03_TECH_MASTER_BRIDGE_HANDOVER.md`: Session-Memory fuer den Technician-/Handover-Lauf mit Delta, Validierung und Empfehlungspaket fuer die vier verbleibenden Bridge-Entscheidungen.
+### Geändert
+- `docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md`, `docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md`, `docs/Siebenwind_Wiki/06_Erzählungen/Die_Nacht_des_Dunkeltiefs.md` und `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Herr_Merik.md`: den driftigen Zielbegriff `[[Dämonen]]` auf den kanonischen aktiven Zielartikel `[[Daemonen]]` gehoben.
+- `Quellen/Zeitung 7w Bote/Siebenwind Bote 176.md`, `Quellen/Zeitung 7w Bote/Siebenwind Bote 178.md`, `Quellen/Zeitung 7w Bote/Siebenwind Bote 179.md`, `Quellen/Zeitung 7w Bote/Siebenwind Bote 180.md`, `Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md`, `Quellen/Zeitung 7w Bote/Siebenwind Bote 182.md` und `Quellen/Zeitung 7w Bote/Siebenwind Bote 185.md`: defekte Root-Symlinks auf die kanonischen Rohquellen umgehoben, sodass der harte Pages-Precheck keine fehlenden Datei-Ziele mehr meldet.
+- `docs/Siebenwind_Wiki/00_Fundament/` sowie einzelne Restseiten in `01_Pantheon/` und `05_Geschichte/`: die Single-Target-Bridge-Welle mit temporaerer Lifecycle-Metadatenhygiene abgeschlossen (`bridge_mode`, `bridge_target`, `bridge_ticket`, `bridge_review_until`; Ticket `MSG-2026-0087`).
+- `MASTER_TASK_LIST.md`: Status-Snapshot auf den reduzierten Restbestand (`9` Issues / `4` invalide Bridges) und die Eskalationen `MSG-2026-0089` / `MSG-2026-0090` fortgeschrieben.
+### Validiert
+- `./7w_wiki.py repair --fix-roamlinks --auto`
+- `./7w_wiki.py audit --json`
+- `./7w_wiki.py pages validate --json --strict-links`
+- `./7w_wiki.py advisor --json`
+
 #### [2026-04-03.01] - Historian Research: Astrael-/Waldelfen-Kanon gegen Live-Homepage abgeglichen
 ### Prioritaet: P2
 ### Geändert

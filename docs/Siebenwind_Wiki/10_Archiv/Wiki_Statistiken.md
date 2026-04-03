@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-04-03 17:51
+**Stand:** 2026-04-03 19:23
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -16,9 +16,9 @@ category: Index
 | Kennzahl | Wert |
 | :--- | :--- |
 | Artikel | **1356** |
-| Worte | **187,115** |
-| Durchschnittliche Artikellaenge | **138 Worte** |
-| Interne Verweise (`[[...]]`) | **13,663** |
+| Worte | **188,106** |
+| Durchschnittliche Artikellaenge | **139 Worte** |
+| Interne Verweise (`[[...]]`) | **13,745** |
 | Vernetzungsdichte | **10.1 Links/Artikel** |
 | Personenprofile | **586** |
 
@@ -28,8 +28,8 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 839 | - | - |
-| Letzte 30 Tage | 1270 | 0 | 3 |
+| Letzte 7 Tage | 924 | - | - |
+| Letzte 30 Tage | 1272 | 0 | 5 |
 | Letzte 90 Tage | 1344 | - | - |
 
 ---
@@ -70,10 +70,10 @@ pie title Artikel pro Sektion
 ### Starke Knoten (gesamt)
 | Entitaet | Verweise |
 | :--- | ---: |
-| [[Siebenwind]] | 584 |
+| [[Siebenwind]] | 585 |
 | [[Falkensee]] | 543 |
-| [[Brandenstein]] | 466 |
-| [[Bellum]] | 167 |
+| [[Brandenstein]] | 467 |
+| [[Bellum]] | 168 |
 | [[Astrael]] | 156 |
 | [[Nortraven]] | 144 |
 | [[Toran_Dur]] | 136 |
@@ -99,8 +99,8 @@ pie title Artikel pro Sektion
 | [[Siebenwind_Bote_175]] | 19 |
 | [[Siebenwind_Bote_173]] | 18 |
 | [[Siebenwind_Bote_180]] | 18 |
+| [[Der_Putsch_von_Falkensee]] | 18 |
 | [[Siebenwind_Bote_186]] | 18 |
-| [[Historie_&_Ären]] | 18 |
 
 
 ---
@@ -140,10 +140,10 @@ pie title Artikel pro Sektion
 
 | Metrik | Stand |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | 173 |
+| Letzter Audit-Problemtotal | 9 |
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 86 |
-| Davon ohne Ausnahme-Metadaten | 86 |
+| Davon ohne Ausnahme-Metadaten | 4 |
 | Test-Suiten PASS | 0 |
 | Test-Suiten FAIL | 0 |
 
@@ -156,7 +156,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_439d186c-721a-44d2-a66b-a5a6c62fe5a6.txt`
+- Letzter Audit: `Logs/Archive/Audit_1a7a3eac-7e2c-468d-b3cb-d791009b3fc2.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

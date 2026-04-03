@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-03T16:31:35Z",
-  "inputs_fingerprint": "20a1ab22dce7c9f574696dd37592d79cd8522eaea87507125199924184e6fcf1",
+  "generated_at": "2026-04-03T17:26:18Z",
+  "inputs_fingerprint": "d4dbb449a1546092d8f9caa6bbe7fe9b0dbea1599eeb2b78a9f90c64408419c3",
   "payload": {
     "index": {
       "01catar": [
@@ -833,10 +833,8 @@
       ],
       "angriffaufbrandenstein29nh": [
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_190.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md",
         "docs/Siebenwind_Wiki/05_Geschichte/index.md"
-      ],
-      "angriffaufbrandenstein36nh": [
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md"
       ],
       "angriffderschwarzmagier": [
         "docs/Siebenwind_Wiki/00_Fundament/Schwarzmagier.md",
@@ -1021,10 +1019,8 @@
         "docs/Siebenwind_Wiki/02_Geografie/Drakenwald.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Paule_Bitterling.md"
       ],
-      "armgardtorbenson": [
-        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md"
-      ],
       "armgardtorenson": [
+        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_137.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
@@ -1399,15 +1395,13 @@
       "avindhrell": [
         "docs/Quellen/Spielergeschichten/Geschichten eines silbernen Adlers.md",
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Voelker_(Garreth_Moss).md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_170.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Erlass_des_Koenigs.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Geschichten_eines_silbernen_Adlers.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Feanthil_(Arinth).md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Safiriel.md"
-      ],
-      "avindrell": [
-        "docs/Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Voelker_(Garreth_Moss).md"
       ],
       "avor": [
         "docs/Siebenwind_Wiki/05_Geschichte/Massenentlassung_Kriegerakademie_15_nH.md"
@@ -1444,9 +1438,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
-      "bagarim": [
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_161.md"
-      ],
       "baldasti": [
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_175.md"
       ],
@@ -1482,11 +1473,9 @@
       ],
       "barongerdenwald": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Halblinge.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Die_Stadtchronik_Rohehafens.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
-      ],
-      "baroniegerdenwald": [
-        "docs/Siebenwind_Wiki/03_Gesellschaft/Halblinge.md"
       ],
       "baroniesiebenwind": [
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
@@ -1853,6 +1842,7 @@
         "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Bragarim.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_161.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_170.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_178.md",
@@ -2127,9 +2117,6 @@
       "brandensteinerzunft": [
         "docs/Siebenwind_Wiki/05_Geschichte/Anschlag_auf_den_Handelsbund.md"
       ],
-      "brandestein": [
-        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
-      ],
       "brandwindfluesterer": [
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
@@ -2336,11 +2323,9 @@
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
-      "calindakar": [
-        "docs/Siebenwind_Wiki/03_Gesellschaft/Schattenjaeger.md"
-      ],
       "calindrakar": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Schattenjaeger.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_133.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
@@ -2860,7 +2845,8 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Nhergas.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Solos_Nhergas.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Waldemar_Delarie.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Waldemars_Reise_Papin.md"
+        "docs/Siebenwind_Wiki/09_Bibliothek/Waldemars_Reise_Papin.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md"
       ],
       "derrvusmatrixtheorie": [
         "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",
@@ -3524,9 +3510,6 @@
       "diemagietorandur": [
         "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md"
       ],
-      "diemaidvomgreifenweiher": [
-        "docs/Siebenwind_Wiki/00_Fundament/Bibliotheks_Register.md"
-      ],
       "diemazzaremer": [
         "docs/Siebenwind_Wiki/00_Fundament/Mazzaremer.md",
         "docs/Siebenwind_Wiki/05_Geschichte/index.md"
@@ -3579,6 +3562,7 @@
         "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md"
       ],
       "diestadtchronikrohehafens": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Von_dem_Boesen.md",
         "docs/Siebenwind_Wiki/05_Geschichte/index.md"
       ],
       "dietragoedieamwall": [
@@ -5018,14 +5002,12 @@
         "docs/Siebenwind_Wiki/06_Erzählungen/Dunkeltief-_Vaenskap.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Beatrix.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lorence.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Wisper.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Bestie_von_Brandenstein.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Chimären.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Harpyien.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Sammler.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/index.md"
-      ],
-      "ferrins": [
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Wisper.md"
       ],
       "festeseeberg": [
         "docs/Siebenwind_Wiki/02_Geografie/index.md",
@@ -5779,10 +5761,8 @@
       "graumagie": [
         "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
+        "docs/Siebenwind_Wiki/02_Geografie/Skapenfestung.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Uron_Sbocaj.md"
-      ],
-      "graumagier": [
-        "docs/Siebenwind_Wiki/02_Geografie/Skapenfestung.md"
       ],
       "greifenklipp": [
         "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md",
@@ -6354,10 +6334,8 @@
         "docs/Quellen/Spielergeschichten/Ein Abschiedsbrief.md",
         "docs/Quellen/Spielergeschichten/Einsame Ladengedanken.md",
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Aequitas.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_149.md"
-      ],
-      "hilgoradi": [
-        "docs/Siebenwind_Wiki/01_Pantheon/Aequitas.md"
       ],
       "hilgoradiapmer": [
         "docs/Siebenwind_Wiki/00_Fundament/Hilgorad.md",
@@ -6406,8 +6384,7 @@
         "docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md",
         "docs/Siebenwind_Wiki/04_Chronik/Die_Chronik.md",
         "docs/Siebenwind_Wiki/04_Chronik/index.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md"
+        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md"
       ],
       "hobbits": [
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
@@ -7101,9 +7078,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_140.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
-      "isiebenwind": [
-        "docs/Siebenwind_Wiki/02_Geografie/Geografie.md"
-      ],
       "islarionethalasar": [
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 178.md",
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
@@ -7558,6 +7532,7 @@
         "docs/Siebenwind_Wiki/00_Fundament/Königliche_Akademie_zu_Siebenwind.md",
         "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Argus_Ebonhart.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Maelve_Rhyntarin.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Roland_Telvos.md"
       ],
@@ -8489,6 +8464,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "maidvomgreifenweiher": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bibliotheks_Register.md",
         "docs/Siebenwind_Wiki/02_Geografie/Greifenweiher.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/index.md"
       ],
@@ -12624,9 +12600,6 @@
         "docs/Siebenwind_Wiki/03_Wissen/Sprachen/index.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arknor.md"
       ],
-      "stadtchronikrohehafens": [
-        "docs/Siebenwind_Wiki/01_Pantheon/Von_dem_Boesen.md"
-      ],
       "stadtconsula": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
       ],
@@ -12867,12 +12840,10 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Tod_von_Tandrion_Intoma.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
-      "tanjawolfframm": [
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md"
-      ],
       "tanjawollframm": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_193.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Nathar_Erres.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
@@ -12896,6 +12867,7 @@
       ],
       "tanthul": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Schwarze_Ritualmagie_(Thanthul).md",
         "docs/Siebenwind_Wiki/05_Magie/Magietheorie_Daemonenbeschwoerung.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
@@ -13040,11 +13012,9 @@
       ],
       "tempeldervier": [
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Tempelwache_Falkensee.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_135.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_137.md"
-      ],
-      "tempelderviere": [
-        "docs/Siebenwind_Wiki/03_Gesellschaft/Tempelwache_Falkensee.md"
       ],
       "tempelwache": [
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
@@ -13091,9 +13061,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Divinum_et_Elementum.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Elementum_Commentari.md"
-      ],
-      "thanthul": [
-        "docs/Siebenwind_Wiki/03_Wissen/Werke/Schwarze_Ritualmagie_(Thanthul).md"
       ],
       "tharsala": [
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_151.md",

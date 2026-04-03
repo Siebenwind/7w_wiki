@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T16:29:28Z",
+  "generated_at": "2026-04-03T17:23:51Z",
   "version": 1,
   "pages_health": {
     "status": "WARN",
@@ -8,7 +8,7 @@
     "last_validated_at": "2026-04-03T15:53:27Z"
   },
   "contract": {
-    "bridge_invalid": 86,
+    "bridge_invalid": 4,
     "contract_violations": 0
   },
   "clusters": [
@@ -178,109 +178,8 @@
       "lane": "lane2",
       "auto_apply_allowed": false,
       "escalate_if": "entity type changes or target is semantically lossy",
-      "count": 82,
-      "examples": [
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/01_Vitama.md",
-          "canonical_target": "Vitama",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/02_Rien.md",
-          "canonical_target": "Rien",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/02_Vitama.md",
-          "canonical_target": "Vitama",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/02_Xan.md",
-          "canonical_target": "Xan",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/12_Magie_Grundlagen.md",
-          "canonical_target": "Magie_Grundlagen",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Adel.md",
-          "canonical_target": "Das_Adelssystem",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Akademie.md",
-          "canonical_target": "Koenigliche_Akademie_der_Arkanen_Kuenste",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Akademie_der_Arkanen_Künste.md",
-          "canonical_target": "Koenigliche_Akademie_der_Arkanen_Kuenste",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Ars_Magica_Metamorphosia.md",
-          "canonical_target": "Ars_Magica_Metamorphosia_(Lewyn_Anacar)",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Astraelorden.md",
-          "canonical_target": "Ordo_Astraeli",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Astreyon.md",
-          "canonical_target": "Astreyonas",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Aurora.md",
-          "canonical_target": "Solice_Aurora",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Baumwesen.md",
-          "canonical_target": "Theorem_zu_den_Baumwesen_(Themus_Takai)",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Benion.md",
-          "canonical_target": "Benion_Sandelholz",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Burg_Saalhorn.md",
-          "canonical_target": "Saalhornshof",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Comari.md",
-          "canonical_target": "Erynnion_Comari",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Erin_Caiomme.md",
-          "canonical_target": "Erin_Caoimme",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Ersont.md",
-          "canonical_target": "Region_Ersont",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Feanthil.md",
-          "canonical_target": "Feanthil_(Arinth)",
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Feldmeister_Harlas.md",
-          "canonical_target": "Llewellyen",
-          "bridge_status": "untracked"
-        }
-      ]
+      "count": 0,
+      "examples": []
     },
     {
       "cluster": "bridge_escalation",
