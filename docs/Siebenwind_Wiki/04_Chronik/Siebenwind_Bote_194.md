@@ -32,9 +32,9 @@ category: Chronik
 - **Miliz:** Eine [[Buergerwehr]] zur Verteidigung Brandensteins wurde ausgehoben.
 
 ### Vermischtes
-- **Kräuterwettstreit:** [[Tanja_Wolfframm]] gewann erneut den Wettbewerb der Wildniskundigen. Zweite wurde [[Khyra_Gropp]], Dritter [[Matis_Karntus]].
+- **Kräuterwettstreit:** [[Tanja_Wollframm]] gewann erneut den Wettbewerb der Wildniskundigen. Zweite wurde [[Khyra_Gropp]], Dritter [[Matis_Karntus]].
 - **Bündnis:** Die Baronie leistete dem Grünen Lindwurm [[Akassvae]] Beistand gegen [[Untote]] auf der Winzerinsel.
 
 ---
 **Quellen:** [[Siebenwind_Bote_194]] (Original)
-**Siehe auch:** [[Die_Chronik]], [[Angriff_auf_Brandenstein_36_nH]], [[Rotschuppe]]
+**Siehe auch:** [[Die_Chronik]], [[Angriff_auf_Brandenstein_29_nH]], [[Rotschuppe]]

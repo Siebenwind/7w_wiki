@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-03T15:53:29Z",
-  "inputs_fingerprint": "9260a25079099dc8649a536b3136ba656faf0c06b50ff815ef1724471d9a0641",
+  "generated_at": "2026-04-03T16:56:05Z",
+  "inputs_fingerprint": "355f399074701d18e9b3baf8b8ede26dd38476b9717dd7ce0db61b983cf12054",
   "payload": {
     "bridge_inventory": {
-      "invalid": 86,
+      "invalid": 4,
       "total": 86
     },
     "contract_violations": {
@@ -29,7 +29,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -37,6 +37,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Vitama]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -46,7 +50,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -54,6 +58,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Rien]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -63,7 +71,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -71,6 +79,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Vitama]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -80,7 +92,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -88,6 +100,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Xan]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -114,7 +130,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -122,6 +138,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Magie_Grundlagen]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -131,7 +151,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -139,6 +159,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Das_Adelssystem]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -163,7 +187,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -171,6 +195,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Koenigliche_Akademie_der_Arkanen_Kuenste]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -180,7 +208,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -188,6 +216,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Koenigliche_Akademie_der_Arkanen_Kuenste]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -280,7 +312,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -288,6 +320,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Ars_Magica_Metamorphosia_(Lewyn_Anacar)]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -297,7 +333,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -305,6 +341,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Ordo_Astraeli]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -331,7 +371,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -339,6 +379,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Astreyonas]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -365,7 +409,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -373,6 +417,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Solice_Aurora]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -450,7 +498,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -458,6 +506,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Theorem_zu_den_Baumwesen_(Themus_Takai)]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -467,7 +519,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -475,6 +527,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Benion_Sandelholz]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -650,7 +706,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -658,6 +714,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Saalhornshof]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -701,7 +761,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -709,6 +769,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Erynnion_Comari]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1083,7 +1147,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1091,6 +1155,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Erin_Caoimme]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1100,7 +1168,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1108,6 +1176,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Region_Ersont]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1202,7 +1274,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1210,6 +1282,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Feanthil_(Arinth)]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1253,7 +1329,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1261,6 +1337,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Llewellyen]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1270,7 +1350,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1278,6 +1358,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Llewellyen]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1370,7 +1454,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1378,6 +1462,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Galadon]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1387,7 +1475,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1395,6 +1483,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Galadon]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1421,7 +1513,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1429,6 +1521,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Region_Gerdenwald]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1453,7 +1549,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1461,6 +1557,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Die_Gohor]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1470,7 +1570,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1478,6 +1578,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Bellum]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1623,7 +1727,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1631,6 +1735,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Anschlag_auf_den_Handelsbund]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1687,7 +1795,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1695,6 +1803,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Region_Gerdenwald]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1738,7 +1850,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1746,6 +1858,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Hilgorad_I_ap_Mer]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1755,7 +1871,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1763,6 +1879,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Hilgorad_I_ap_Mer]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1772,7 +1892,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1780,6 +1900,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Rasse_Hobbits]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1821,7 +1945,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1829,6 +1953,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Der_Hutmacher]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -1972,7 +2100,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -1980,6 +2108,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Kriegerakademie]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2023,7 +2155,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2031,6 +2163,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Statut_der_Kronmark_Siebenwind]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2040,7 +2176,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2048,6 +2184,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Das_Daimonicon_(Kulin_Lateal)]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2123,7 +2263,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2131,6 +2271,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Koenigliche_Akademie_der_Arkanen_Kuenste]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2157,7 +2301,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2165,6 +2309,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Galadon]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2208,7 +2356,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2216,6 +2364,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Region_Falkenstein]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2274,7 +2426,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2282,6 +2434,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Orden_des_lieblichen_Kelches]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2308,7 +2464,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2316,6 +2472,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Lindwürmer]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2470,7 +2630,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2478,6 +2638,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Lehrbuch_Magietheorie]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2502,7 +2666,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2510,6 +2674,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Thesen_der_Magiezweige_(Uron_Sbocaj)]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2604,7 +2772,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2612,6 +2780,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Mazzareem]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2638,7 +2810,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2646,6 +2818,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Die_Mazzaremer]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2723,7 +2899,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2731,6 +2907,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Dirian_zu_Neuentau]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2774,7 +2954,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2782,6 +2962,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Orden_der_Wachenden_Löwen]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2823,7 +3007,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2831,6 +3015,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Orden_der_Wachenden_Löwen]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2857,7 +3045,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2865,6 +3053,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Ordo_Astraeli]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2889,7 +3081,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2897,6 +3089,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Ordo_Vitamae]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2938,7 +3134,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2946,6 +3142,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Orken]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2955,7 +3155,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2963,6 +3163,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Region_Ossian]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -2972,7 +3176,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -2980,6 +3184,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Region_Papin]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3005,7 +3213,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3013,6 +3221,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Proveus_Herand]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3039,7 +3251,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3047,6 +3259,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Orken]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3090,7 +3306,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3098,6 +3314,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Region_Ravel]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3124,7 +3344,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3132,6 +3352,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Recht_Siebenwinds]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3175,7 +3399,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3183,6 +3407,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Endophal]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3207,7 +3435,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3215,6 +3443,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Riens_Lorien_Arden]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3239,7 +3471,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3247,6 +3479,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Ritterschaft_der_Sieben_Winde]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3271,7 +3507,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3279,6 +3515,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Ritterschaft_der_Sieben_Winde]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3288,7 +3528,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3296,6 +3536,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Rohehafen]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3356,7 +3600,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3364,6 +3608,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Die_Sprache_Run]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3441,7 +3689,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3449,6 +3697,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Lilienwall]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3492,7 +3744,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3500,6 +3752,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Daimonologie_und_Schwarze_Magie_(Toran_Dur)]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3526,7 +3782,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3534,6 +3790,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Angriff_der_Schwarzmagier]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3592,7 +3852,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3600,6 +3860,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Siebenwind_Bote_Index]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3609,7 +3873,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3617,6 +3881,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Siegfried_Steiner]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3626,7 +3894,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3634,6 +3902,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Fedral_Lavid]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3643,7 +3915,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3651,6 +3923,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Randur_Kantrin]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3677,7 +3953,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3685,6 +3961,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Sphaerenkunde_Kosmologie]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3694,7 +3974,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3702,6 +3982,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Die_Spinnenplage_von_Falkensee]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3843,7 +4127,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3851,6 +4135,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Kirche_der_Viere]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3860,7 +4148,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3868,6 +4156,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Tempelwache_Falkensee]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3945,7 +4237,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3953,6 +4245,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Johannes_Tiberias]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3962,7 +4258,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3970,6 +4266,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Region_Tiefenwald]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -3979,7 +4279,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -3987,6 +4287,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Tintin_(Waljakov)]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -4115,7 +4419,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -4123,6 +4427,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Region_Vandrien]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -4132,7 +4440,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -4140,6 +4448,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Vandrien]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -4318,7 +4630,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -4326,6 +4638,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Region_Wallenburg]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -4369,7 +4685,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -4377,6 +4693,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Kompendium_der_Weissmagie_(Althea_Danea)]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -4806,7 +5126,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -4814,6 +5134,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Angamon]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -10406,7 +10730,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -10414,6 +10738,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Der_Putsch_von_Falkensee]]\"",
+          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",

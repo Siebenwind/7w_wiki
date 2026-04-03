@@ -35,7 +35,7 @@ Das Dokument gibt tiefen Einblick in die Spannungen zwischen dem falandrischen K
 ## Verlinkte Themen
 * [[Codex_Iuris_Canonici]]
 * [[Kirche_der_Viere]]
-* [[Hilgorad_I]]
+* [[Hilgorad]]
 
 ## Referenzen
 - Primärquelle: Aequitas (`../../Quellen/Bibliothek%20Astrael/Aequitas.md`)

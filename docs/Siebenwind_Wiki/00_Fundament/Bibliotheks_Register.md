@@ -15,7 +15,7 @@ Dieses Register dient der Erfassung aller schriftlichen [[index]], Manuskripte, 
 | :--- | :--- | :--- | :--- |
 | [[Kleiner_Almanach_uebernatuerlicher_Wesen|Kleiner Almanach übernatürlicher Wesen]] | [[Abdolus_Nachengalle]] | Sachbuch / Forschung | #bote |
 | [[Maerchen_und_wie_man_sie_vermeidet|Märchen und wie man sie vermeidet]] | [[Agatha_Sumpfendotter]] | Unterhaltung / Fiktion | #bote |
-| [[Die_Maid_vom_Greifenweiher]] | *Unbekannt* | Sage / Fortsetzungsgeschichte | #bote |
+| [[Maid_vom_Greifenweiher]] | *Unbekannt* | Sage / Fortsetzungsgeschichte | #bote |
 | [[Ueber_Maerchen_und_Almanache|Über Märchen und Almanache]] | *Rezension* | Literaturkritik | #bote |
 
 ## Scriptorium

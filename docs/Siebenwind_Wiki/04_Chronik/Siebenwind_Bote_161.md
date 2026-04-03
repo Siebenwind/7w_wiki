@@ -23,7 +23,7 @@ letzter_check: 2026-02-13T15:10:00+01:00
 *   **Sichelzahngnoll-Vorfall:** Ein betrunkener Seemann, der sich für den legendären "Sichelzahngnoll" hielt, beging mehrere Morde. Er wurde von der [[Graue_Garde|Grauen Garde]] unter **[[Jabin]]** gestellt und vernichtet.
 
 ## Lokales
-*   **Ehrungen am Wall:** Der [[Orden_der_Wachenden_Löwen]] und die zwergischen **[[Bagarim]]** erhielten das große Ehrenband für ihren Einsatz am [[Falkenwall]].
+*   **Ehrungen am Wall:** Der [[Orden_der_Wachenden_Löwen]] und die zwergischen **[[Bragarim]]** erhielten das große Ehrenband für ihren Einsatz am [[Falkenwall]].
 *   **Weinfest:** Ein stimmungsvolles Fest an der alten Waldbühne bei [[Brandenstein]] lockte Adel und Volk an.
 *   **Draconischer Spatz:** Eine reißerische Gazette verbreitete Gerüchte über das Verschwinden des Königspaares, die von der Boten-Redaktion jedoch scharf dementiert wurden.
 

@@ -19,7 +19,7 @@ Dieses Werk bietet eine subjektive, aber detaillierte Beschreibung der auf [[Sie
 *   **[[Nortraven]]:** Eine "Unterart" der [[Menschen]], größer und kräftiger. Leben in [[Dunkeltief]]. Bekannt für Schiffsbau ("Nordwind"), Körperbemalungen und eine Abneigung gegen [[index]] (außer Schamanismus). Glauben an [[Thjarek]] (Kraft) und [[Eydis]] (Natur).
 
 ### 2. Die [[Elfen]]
-*   **Auenelfen:** Leben in [[Avindrell]] (Mittlerer Westen). Zierlich, etwas wild ("animalisch"). Alle beherrschen [[index]]. Stark im Fernkampf (Kampftänzer) und Handwerk. Misstrauisch gegenüber Gästen.
+*   **Auenelfen:** Leben in [[Avindhrell]] (Mittlerer Westen). Zierlich, etwas wild ("animalisch"). Alle beherrschen [[index]]. Stark im Fernkampf (Kampftänzer) und Handwerk. Misstrauisch gegenüber Gästen.
 *   **Hochelfen:** Leben im Hochelfenviertel von [[Rohehafen]]. Bekannt für Architektur, Kunst und Wissensdurst. Verehren die Vier Götter (besonders [[Astrael]]) und Tares (als [[Drachen]]). Offener als andere [[Elfen]].
 *   **Waldelfen:** Leben in einem schwebenden Hain in den Baumkronen im Osten. Extrem verschlossen und territorial. [[index]] basiert auf Natur und Traum.
 

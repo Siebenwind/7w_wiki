@@ -8,7 +8,7 @@ category: Personen
 !!! info "Metadaten"
     - **Titel:** Waibel der [[Buergerwehr]] / Leiter Waisenhaus
     - **Epistemischer Status:** #bote
-    - **Zugehörigkeit:** [[Falkensee]] / [[Bürgerwehr]]
+    - **Zugehörigkeit:** [[Falkensee]] / [[Buergerwehr]]
 
 
 ## Beschreibung
@@ -16,4 +16,4 @@ category: Personen
 Im Jahr 22 n.H. (Bote 186) eröffnete er in [[Falkensee]] das erste Waisenhaus der Insel, die **"Bärenhöhle"**, inspiriert durch seinen Pflegesohn [[Milorad]].
 
 ---
-**Siehe auch:** [[Putsch_in_Falkensee]], [[Bürgerwehr]]
+**Siehe auch:** [[Putsch_in_Falkensee]], [[Buergerwehr]]

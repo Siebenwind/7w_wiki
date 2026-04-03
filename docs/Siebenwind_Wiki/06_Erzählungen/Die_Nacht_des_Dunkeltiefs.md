@@ -21,7 +21,7 @@ Seufzte das Grauen. Wie hinter gestorbener Toren
 Manchmal es fern noch hallt von dunkelen Rufen.
 
 Eine Fackel noch oben bog aus den Gängen,
-Lief im Chor. Und versank wie das Heer der [[Dämonen]]
+Lief im Chor. Und versank wie das Heer der [[Daemonen]]
 Rot und rauchend. Doch draußen der Waldung Kronen
 Wuchsen im Sturm und zerrten sich in die Länge.
 

@@ -19,7 +19,7 @@ report_id: 890b0622-d0c2-4d8e-8518-41047c90817d
 **Argus Ebonhart** ist ein hocheminenter Magier, der dem inneren Zirkel der arkane Künste in Galadon angehört. Er gilt als Experte für theoretische Metamagie und historische Artefakte.
 
 ## Wirken
-- **Lehrtätigkeit:** Er unterrichtet fortgeschrittene Adepten in der [[Königliche_Akademie_der_arkane_Künste]].
+- **Lehrtätigkeit:** Er unterrichtet fortgeschrittene Adepten in der [[Koenigliche_Akademie_der_Arkanen_Kuenste]].
 - **Forschung:** Autor mehrerer Abhandlungen über die "Sieben Winde" und deren energetische Signatur.
 
 ## Verlinkte Themen

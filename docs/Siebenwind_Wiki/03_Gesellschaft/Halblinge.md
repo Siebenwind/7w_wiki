@@ -39,5 +39,5 @@ Ihr Hauptsiedlungsgebiet ist die Insel **Hügelau** (politisch Baronie **Gerdenw
 
 ## Verlinkte Themen
 *   [[Region Hügelau]]
-*   [[Baronie Gerdenwald]]
+*   [[Baron_Gerdenwald]]
 *   [[Göttin Vitama]]

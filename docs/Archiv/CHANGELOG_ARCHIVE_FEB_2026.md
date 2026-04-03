@@ -890,7 +890,7 @@
 ### Geändert
 - **Rassen**: [[Elfen]], [[Zwerge]], [[Nortraven]] und [[Myten]] auf v2.7 Standard gehoben (Mythen & Geschichte).
 - **Register**: [[Personenregister]] und [[Organisationsregister]] um Gründungsfiguren und Orden ([[Elendur]], [[Kabale]]) erweitert.
-- **Korrektur**: Armgard Torenson zu [[Armgard_Torbenson]] korrigiert.
+- **Korrektur**: Armgard Torenson zu [[Armgard_Torenson]] korrigiert.
 
 #### [2026-02-16.30] - Phase 1.14: Silicon Inquisition Batches 2 & 3
 

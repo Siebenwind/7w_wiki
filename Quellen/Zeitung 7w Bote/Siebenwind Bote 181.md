@@ -1,1 +1,1 @@
-../../Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_181.md
+Siebenwind_Bote_181.md

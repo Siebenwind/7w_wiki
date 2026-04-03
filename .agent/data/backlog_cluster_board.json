@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-03T15:50:55Z",
+  "generated_at": "2026-04-03T16:29:28Z",
   "version": 1,
   "pages_health": {
     "status": "WARN",
     "unresolved_total": 708,
     "unallowlisted_total": 706,
-    "last_validated_at": "2026-04-01T14:47:06Z"
+    "last_validated_at": "2026-04-03T15:53:27Z"
   },
   "contract": {
     "bridge_invalid": 86,

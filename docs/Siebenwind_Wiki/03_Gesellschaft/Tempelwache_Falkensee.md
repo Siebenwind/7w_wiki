@@ -11,7 +11,7 @@ Die **Tempelwache [[Falkensee]]** ist eine im Jahr 21 n.H. durch [[Reto_Finkenfa
 Die ursprüngliche Tempelwache war eine historische Institution, die jedoch über die Jahre an Bedeutung verlor oder aufgelöst wurde. Im Frühjahr 21 n.H. ([[Siebenwind_Bote_178]]) initiierte der Templer [[Reto_Finkenfahn]] die Neugründung.
 
 ## Aufgaben
-*   Schutz des [[Tempel_der_Viere]] in [[Falkensee]].
+*   Schutz des [[Tempel_der_Vier]] in [[Falkensee]].
 *   Wahrung der Ordnung auf dem Tempelgelände.
 *   Schutz der Geweihten und Pilger.
 

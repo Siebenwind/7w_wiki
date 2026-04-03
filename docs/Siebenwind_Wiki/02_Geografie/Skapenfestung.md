@@ -19,7 +19,7 @@ Die Festung kontrolliert den einzig passierbaren Weg zwischen Khalandra und dem 
 Unter dem Hochmeister **Ahorat Betlis von Meerfest** sind in der Festung etwa 9.600 reguläre Soldaten stationiert, darunter:
 *   6 Bogenschützen-Bataillone (ca. 1.500 Mann), ausgebildet von [[Hochelfen]].
 *   Pikeniere und Schwertkämpfer-Brigaden (ca. 8.400 Mann).
-*   Eine Einheit von [[Graumagier|Graumagiern]] zur arkanan Unterstützung.
+*   Eine Einheit von [[Graumagie|Graumagiern]] zur arkanan Unterstützung.
 
 Zusammen mit Freiwilligen erreicht die Wehrkraft in Krisenzeiten bis zu 11.000 [[index]].
 

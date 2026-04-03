@@ -327,7 +327,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Rhadan_der_Graue]] | Erzmagier / Autor / Zeichner | [Rituallehre_Sphaeren] / [Ari´in] / [Zeichnung Tares] | Historisch | #überlieferung |
 | [[Rhadamanth]] | Spektabilität / Magister ([[Toran_Dur]]) | [Linari - Reagenzien] | Historisch | #überlieferung |
 | [[Steinhauer]] | Stellv. Gardehauptmann ([[Graue_Garde]]) | [Bote 183] | 21 n.H. | #bote |
-| [[Gorem_Motlow]] | Waibel ([[Bürgerwehr]]) / Ex-Gardist | [Bote 183] | 21 n.H. | #bote |
+| [[Gorem_Motlow]] | Waibel ([[Buergerwehr]]) / Ex-Gardist | [Bote 183] | 21 n.H. | #bote |
 | [[Gar_Navona]] | Magister / Schöpfer ([[Gargoyles]]) | [[Johann_Liebig]] - Arkane Verbindung] | Historisch | #überlieferung |
 | [[William_Glaron]] | Ritter / Sprecher ([[Löwenorden]]) | [Bote 183] | 21 n.H. | #bote |
 | [[Maltheos_Thorn]] | Hoher Diener ([[Bellum]]) | [Bote 183] | 21 n.H. | #bote |
@@ -535,7 +535,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Azgar_Kazanin]] | Rekrut / Ork | [Bote 121] | 15 n.H. | #bote |
 | [[Felix_Goldschein]] | Novize des [[Bellum]] | [[Aus_dem_Leben_eines_Schwarzmagiers]] | #perspektive |
 | [[Tyrana_I]] | König von [[Galadon]] | [[Khalandra]] | #bote |
-| [[Helfric_von_Wallenburg]] | Sire / Ritter ([[Brandestein]]) | [Bote 194] | 36 n.H. | #bote |
+| [[Helfric_von_Wallenburg]] | Sire / Ritter ([[Brandenstein]]) | [Bote 194] | 36 n.H. | #bote |
 | [[Matis_Karntus]] | Krämer ([[Brandenstein]]) | [Bote 194] | 36 n.H. | #bote |
 | [[Winzlig]] | Gnom / Däumling | [Bote 185] | 22 n.H. | #bote |
 | [[Tintin_(Waljakov)]] | "Tintin" (Kobold) | [Bote 192] | 30 n.H. | #bote |

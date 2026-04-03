@@ -8,7 +8,7 @@ author: Thanthul (Original), Archivteam (Zusammenstellung)
 
 # Schwarze Ritualmagie
 
-Verfasst von Lehrmeister [[Thanthul]].
+Verfasst von Lehrmeister [[Tanthul]].
 
 ## Grundlagen
 Thanthul unterteilt die Ritualmagie (*Ritus magicae*) in zwei Bereiche:

@@ -43,4 +43,4 @@ Nach der Theorie von **[[Johannes_Klos]]** wird [[index]] nicht direkt, sondern 
 - **Höhere [[index]]:** Anwendung komplexer [[index]] ([[Die_Sprache_Run|Run]]) und theoretischer Modelle (z.B. Astralgitter).
 
 ---
-**Siehe auch:** [[Magietheorie_Toran_Dur]], [[Sphärenkunde]], [[Codex_Astraeli]], [[Astrael]]
+**Siehe auch:** [[Magietheorie_Toran_Dur]], [[Sphaerenkunde]], [[Codex_Astraeli]], [[Astrael]]
