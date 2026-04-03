@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T17:23:51Z",
+  "generated_at": "2026-04-03T18:33:13Z",
   "version": 1,
   "items": [
     {
@@ -72,17 +72,6 @@
         "Invocatio_Elementharii_(Raisha_al_Javet)"
       ],
       "proposed_decision": "Invocatio_Elementharii_(Raisha_al_Javet)",
-      "reason": "multiple or semantically non-identical canonical target candidates"
-    },
-    {
-      "cluster": "pages_target_ambiguous",
-      "source_page": "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
-      "current_target": "Sphärenkunde",
-      "candidates": [
-        "Sphaerenkunde",
-        "Sphaerenkunde_(Wolfgang_Ravinsthal)"
-      ],
-      "proposed_decision": "",
       "reason": "multiple or semantically non-identical canonical target candidates"
     },
     {

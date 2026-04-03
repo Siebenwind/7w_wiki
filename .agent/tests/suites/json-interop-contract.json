@@ -14,7 +14,22 @@
         "status",
         "system_health",
         "recommendations"
-      ]
+      ],
+      "expect_json_path_exists": [
+        "routing.tech_master.mode",
+        "routing.tech_master.trigger",
+        "routing.tech_master.command"
+      ],
+      "expect_json_path_in": {
+        "routing.tech_master.mode": [
+          "required",
+          "advisory",
+          "not_needed"
+        ]
+      },
+      "expect_json_path_equals": {
+        "routing.tech_master.command": "./7w_wiki.py pages validate --json --strict-links"
+      }
     },
     {
       "id": "J-002",

@@ -211,13 +211,14 @@ Verbindlich gemaess `System/Synapse_Board/SY_DISPATCH.md`:
 
 1. `./7w_wiki.py pages validate --json` ist die kanonische Site-Integritaetsprobe fuer MkDocs/Roamlinks.
 2. Default: unresolved interne Links erscheinen als `WARN`, nicht als harter FAIL.
-3. Escalation: `./7w_wiki.py pages validate --json --strict-links` failt auf nicht-allowlistete unresolved Targets.
-4. `./7w_wiki.py audit --pages` zieht denselben Site-Integritaetsstatus in den Audit.
-5. `./7w_wiki.py repair --fix-roamlinks --auto` ist der aggressive, aber begrenzte Reparaturpfad fuer Pages-Linkdrift.
-6. Der normative Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
-6. Policy-Datei: `.agent/config/pages_link_policy.json`.
-7. Snapshot-Datei: `.agent/data/pages_health.json`.
-8. Pages-Integritaet verhindert technischen Publishing-Drift; sie entscheidet keine Lore-Wahrheit gegen Homepage oder Quellen.
+3. Routing: `WARN` bleibt ein sichtbares Health-Signal, erzwingt aber keinen `/tech_master`-Abzweig; Technician-first gilt fuer `FAIL`, `UNKNOWN` oder veraltete Pages-Snapshots.
+4. Escalation: `./7w_wiki.py pages validate --json --strict-links` failt auf nicht-allowlistete unresolved Targets.
+5. `./7w_wiki.py audit --pages` zieht denselben Site-Integritaetsstatus in den Audit.
+6. `./7w_wiki.py repair --fix-roamlinks --auto` ist der aggressive, aber begrenzte Reparaturpfad fuer Pages-Linkdrift.
+7. Der normative Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
+8. Policy-Datei: `.agent/config/pages_link_policy.json`.
+9. Snapshot-Datei: `.agent/data/pages_health.json`.
+10. Pages-Integritaet verhindert technischen Publishing-Drift; sie entscheidet keine Lore-Wahrheit gegen Homepage oder Quellen.
 
 ### Runtime-Konfiguration (zentral)
 

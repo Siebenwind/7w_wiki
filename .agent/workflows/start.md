@@ -51,7 +51,7 @@ Der erste Schritt jedes Agenten ist zu verstehen, wo wir stehen.
    - [SY_STANDARDS.md](../../System/Synapse_Board/SY_STANDARDS.md)
    - [COORDINATION_HUB.md](../../System/COORDINATION_HUB.md)
 8. Lies die aktuellste Session-Memory unter `Logs/Archive/SESSION_MEMORY_*.md` (falls vorhanden), bevor du neue Tasks startest.
-9. Wenn der Advisor `Pages Health` als `WARN`, `FAIL` oder `UNKNOWN` meldet, route zuerst zu `/tech_master`.
+9. Wenn der Advisor `Pages Health` als `FAIL` oder `UNKNOWN` meldet oder der Pages-Snapshot veraltet ist, route zuerst zu `/tech_master`. Bei `WARN` bleibt der Hinweis sichtbar, erzwingt aber nur fuer Pages-, Link-, Build- oder Runtime-Arbeit den Technician-Pfad.
 10. Klassifiziere den Auftrag vor der Umsetzung als Homepage-, Quellen- oder Wiki-Page-Drift.
 11. Der vollstaendige Drift-/Pages-Vertrag liegt in [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md); dieser Workflow fasst nur die Startentscheidung zusammen.
 

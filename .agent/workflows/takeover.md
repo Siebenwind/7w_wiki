@@ -54,7 +54,7 @@ Führe den **Onboarding-Workflow** aus, um alle Optionen und den aktuellen Syste
 // turbo
 2d. **Clean-State-Check:** Führe `./7w_wiki.py test --suite clean-client-state` aus.
 2e. **Session-Memory lesen:** Prüfe die neueste Datei `Logs/Archive/SESSION_MEMORY_*.md` und übernimm offene Punkte explizit.
-2f. **Advisor Pages Health prüfen:** Wenn `./7w_wiki.py advisor` veraltete oder degradierte Pages-Integrität meldet, route zuerst zu `/tech_master`.
+2f. **Advisor Pages Health prüfen:** Wenn `./7w_wiki.py advisor` `FAIL`, `UNKNOWN` oder einen veralteten Pages-Snapshot meldet, route zuerst zu `/tech_master`. Bei `WARN` bleibt der Hinweis sichtbar; route nur fuer Pages-, Link-, Build- oder Runtime-Arbeit zu `/tech_master`.
 
 ## 3. Die Exekution
 Folge der Empfehlung des Advisors.

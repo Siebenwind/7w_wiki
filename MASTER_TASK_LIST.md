@@ -6,7 +6,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
 - **Last Handover**: 2026-04-03 (Codex → Next Agent)
-- **Status**: Die konservative Lane-1-Welle bleibt umgesetzt; Religions-, Historie- und Magie-Cluster sind weiterhin abgearbeitet. In dieser Session wurde `MSG-2026-0005` abgeschlossen und der technische Pages-/Bridge-Backlog massiv reduziert: Der Audit-Stand fiel von `173` Issues auf `9`, die invaliden Bridges von `86` auf `4`. Offen sind jetzt nur noch die semantischen Restentscheidungen zu `00_Religion_Uebersicht`, `03_Gesellschaft`, `Arman_von_Draconis` und `Werke_index`, die per `MSG-2026-0089` an den Historian und per `MSG-2026-0090` an den Coordinator eskaliert wurden.
+- **Status**: Die konservative Lane-1-Welle bleibt umgesetzt; Religions-, Historie- und Magie-Cluster sind weiterhin abgearbeitet. In dieser Session wurde `MSG-2026-0005` abgeschlossen und der technische Pages-/Bridge-Backlog massiv reduziert: Der Audit-Stand fiel von `173` Issues auf `9`, die invaliden Bridges von `86` auf `4`. Zusaetzlich behandelt `advisor` `Pages Health = WARN` jetzt nur noch advisory statt als automatischen `/tech_master`-Zwang; die verbleibenden harten Restfaelle bleiben `FAIL`/`UNKNOWN`/stale Snapshots sowie die vier semantischen Bridge-Entscheidungen zu `00_Religion_Uebersicht`, `03_Gesellschaft`, `Arman_von_Draconis` und `Werke_index`, die per `MSG-2026-0089` an den Historian und per `MSG-2026-0090` an den Coordinator eskaliert wurden.
 
 ---
 
@@ -71,6 +71,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 🔵 Priorität 3: Qualität & Politur (Optimierung)
 *Verbesserungen an System und Lore, die den Nutzwert steigern.*
 
+- [x] **Advisor WARN Routing Relaxation**: `advisor`, `/start`, `/takeover` und das Betriebshandbuch behandeln `Pages Health = WARN` jetzt als sichtbares Advisory statt als automatischen Technician-First-Pfad. Die neue JSON-Surface `routing.tech_master` macht diese Routing-Entscheidung maschinenlesbar.
 - [ ] **Chronik-Konsolidierung**: Abgleich der neuen Erkenntnisse aus den Spielergeschichten mit der offiziellen [[Zeitrechnung_(Der_Sonnenzirkel).md]].
 - [ ] **Feature: „Der Kartograph“**: Implementierung eines Skills zur geografischen Datenverwaltung und Reisezeiten-Berechnung.
 

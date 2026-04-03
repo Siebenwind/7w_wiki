@@ -1,5 +1,19 @@
 # Changelog
 
+#### [2026-04-03.03] - Advisor: Pages-WARN Routing auf advisory statt Technician-Pflicht gelockert
+### Prioritaet: P3
+### Geändert
+- `.agent/scripts/advisor.py`: Pages-Health-Routing zentral klassifiziert (`required`, `advisory`, `not_needed`) und `advisor --json` um `routing.tech_master.{mode,trigger,command}` erweitert. `WARN` erzwingt damit keinen Technician-First-Pfad mehr, waehrend `FAIL`, `UNKNOWN` und veraltete Snapshots weiter hart auf `/tech_master` routen.
+- `.agent/workflows/start.md`, `.agent/workflows/takeover.md` und `System/AGENT_OPERATIONS_HANDBOOK.md`: Onboarding- und Betriebstexte auf dieselbe Routing-Regel gehoben, damit Runtime und Dokumentation nicht erneut auseinanderlaufen.
+- `.agent/tests/suites/json-interop-contract.json`: JSON-Vertrag fuer `advisor --json` um die neue Routing-Surface erweitert.
+- `System/Synapse_Board/DISPATCH/MSG-2026-0093_advisor_routing_relaxed_for_pages_warn.md`: Arbeitsbericht fuer die Session an den Coordinator gepostet.
+### Validiert
+- `./7w_wiki.py test --suite json-interop-contract`
+- `./7w_wiki.py test --suite clean-client-state`
+- `./7w_wiki.py test --suite interop-doc-links`
+- `./7w_wiki.py advisor --json`
+- `./7w_wiki.py start`
+
 #### [2026-04-03.02] - Tech Master: Pages-/Bridge-Backlog auf vier semantische Restfaelle reduziert
 ### Prioritaet: P1
 ### Hinzugefügt

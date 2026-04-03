@@ -40,6 +40,7 @@ BLUE = "\033[94m"
 CYAN = "\033[96m"
 BOLD = "\033[1m"
 RESET = "\033[0m"
+TECH_MASTER_VALIDATE_CMD = "./7w_wiki.py pages validate --json --strict-links"
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -181,6 +182,40 @@ def read_pages_health() -> dict:
     }
 
 
+def classify_tech_master_routing(pages_health: dict) -> dict[str, str]:
+    if pages_health.get("stale"):
+        return {
+            "mode": "required",
+            "trigger": "pages_stale",
+            "command": TECH_MASTER_VALIDATE_CMD,
+        }
+
+    status = pages_health.get("status", "UNKNOWN")
+    if status == "FAIL":
+        return {
+            "mode": "required",
+            "trigger": "pages_fail",
+            "command": TECH_MASTER_VALIDATE_CMD,
+        }
+    if status == "UNKNOWN":
+        return {
+            "mode": "required",
+            "trigger": "pages_unknown",
+            "command": TECH_MASTER_VALIDATE_CMD,
+        }
+    if status == "WARN":
+        return {
+            "mode": "advisory",
+            "trigger": "pages_warn",
+            "command": TECH_MASTER_VALIDATE_CMD,
+        }
+    return {
+        "mode": "not_needed",
+        "trigger": "pages_pass",
+        "command": TECH_MASTER_VALIDATE_CMD,
+    }
+
+
 def get_last_sync_interop_at() -> str | None:
     mtimes = []
     for path in TECH_SYNC_FILES:
@@ -254,12 +289,16 @@ def check_consistency():
     except Exception:
         return -1
 
-def build_recommendations(phase, task, pending_sources, issues, dispatch_counts, top_dispatch, pages_health):
+def build_recommendations(phase, task, pending_sources, issues, dispatch_counts, top_dispatch, pages_health, tech_master_routing):
     recommendations: list[str] = []
     if issues > 0:
         recommendations.append(f"Run ./7w_wiki.py repair ({issues} consistency issues).")
-    if pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}:
-        recommendations.append("Route to /tech_master and run ./7w_wiki.py pages validate --json --strict-links.")
+    if tech_master_routing["mode"] == "required":
+        recommendations.append(f"Route to /tech_master and run {tech_master_routing['command']}.")
+    elif tech_master_routing["mode"] == "advisory":
+        recommendations.append(
+            f"Pages Health is WARN; keep it visible, but use /tech_master only for Pages/link/build/runtime work. Hard gate if needed: {tech_master_routing['command']}."
+        )
     if pages_health.get("drift_status") in {"WARN", "FAIL"}:
         recommendations.append("Pages drift detected; reconcile docs/Siebenwind_Wiki with the legacy shadow and higher-precedence sources.")
     if pages_health["unresolved_total"] >= 10:
@@ -276,7 +315,7 @@ def build_recommendations(phase, task, pending_sources, issues, dispatch_counts,
     return recommendations
 
 
-def recommend_action(phase, task, pending_sources, issues, dispatch_counts, top_dispatch, pages_health):
+def recommend_action(phase, task, pending_sources, issues, dispatch_counts, top_dispatch, pages_health, tech_master_routing):
     """Entscheidungslogik für die Empfehlung."""
     print(f"{BOLD}--- Empfehlung ---{RESET}")
     
@@ -284,20 +323,29 @@ def recommend_action(phase, task, pending_sources, issues, dispatch_counts, top_
         print(f"{RED}⚠️  Priorität: Konsistenz wiederherstellen ({issues} Probleme).{RESET}")
         print(f"👉 Starte Workflow: {BOLD}./7w_wiki.py repair{RESET}")
         print(f"   (Alternativ: /audit Bericht lesen)")
-        if pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}:
-            print(f"👉 Danach /tech_master: {BOLD}./7w_wiki.py pages validate --json --strict-links{RESET}")
+        if tech_master_routing["mode"] == "required":
+            if tech_master_routing["trigger"] == "pages_stale":
+                print(f"👉 Danach /tech_master: {BOLD}{tech_master_routing['command']}{RESET} (Pages-Snapshot veraltet)")
+            else:
+                print(f"👉 Danach /tech_master: {BOLD}{tech_master_routing['command']}{RESET}")
+        elif tech_master_routing["mode"] == "advisory":
+            print("ℹ️  Pages Health ist WARN; /tech_master ist nur fuer Pages-, Link-, Build- oder Runtime-Arbeit noetig.")
         return
 
-    if pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}:
+    if tech_master_routing["mode"] == "required":
         print(f"{YELLOW}🛠️  Pages Health: {pages_health['status']}{RESET}")
-        if pages_health["stale"]:
+        if tech_master_routing["trigger"] == "pages_stale":
             print(f"👉 Pages snapshot ist veraltet. Route zu {BOLD}/tech_master{RESET}")
         else:
             print(f"👉 Starte Workflow: {BOLD}/tech_master{RESET}")
-        print(f"   Validation: {BOLD}./7w_wiki.py pages validate --json --strict-links{RESET}")
+        print(f"   Validation: {BOLD}{tech_master_routing['command']}{RESET}")
         if pages_health["unresolved_total"] >= 10:
             print(f"   Link-Reparatur: {BOLD}./7w_wiki.py repair --fix-roamlinks --auto{RESET}")
         return
+    if tech_master_routing["mode"] == "advisory":
+        print(f"{YELLOW}🌐 Pages Health: {pages_health['status']}{RESET}")
+        print("ℹ️  WARN bleibt sichtbar, erzwingt aber keinen Technician-Workflow.")
+        print(f"   Fuer Pages-, Link-, Build- oder Runtime-Arbeit: {BOLD}{tech_master_routing['command']}{RESET}")
 
     open_dispatch = dispatch_counts.get("OPEN", 0)
     if open_dispatch > 0:
@@ -335,7 +383,17 @@ def collect_advisor_data():
     dispatch_counts, top_dispatch = get_dispatch_status()
     issues = check_consistency()
     pages_health = read_pages_health()
-    recommendations = build_recommendations(phase, next_task, pending, issues, dispatch_counts, top_dispatch, pages_health)
+    tech_master_routing = classify_tech_master_routing(pages_health)
+    recommendations = build_recommendations(
+        phase,
+        next_task,
+        pending,
+        issues,
+        dispatch_counts,
+        top_dispatch,
+        pages_health,
+        tech_master_routing,
+    )
     degraded = issues != 0 or pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}
 
     return {
@@ -351,6 +409,9 @@ def collect_advisor_data():
         },
         "consistency_issues": issues,
         "pages_health": pages_health,
+        "routing": {
+            "tech_master": tech_master_routing,
+        },
         "tech_hygiene": {
             "last_sync_interop_at": get_last_sync_interop_at(),
         },
@@ -447,7 +508,7 @@ def main():
     )
         
     print("")
-    recommend_action(phase, next_task, pending, issues, dispatch_counts, top_dispatch, pages_health)
+    recommend_action(phase, next_task, pending, issues, dispatch_counts, top_dispatch, pages_health, data["routing"]["tech_master"])
     print("")
 
 if __name__ == "__main__":
