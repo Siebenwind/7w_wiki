@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-03-10 14:45 (Codex → Next Agent)
-- **Status**: Die konservative Lane-1-Welle ist umgesetzt; Contract-Drift wurde stark reduziert. Die Pantheon-Navigation ist nun symmetrisch und die Begriffe `Viere/Sahor` sowie `Elementarherren/Enhor` sind auf den Kernseiten ausgerichtet. Religions-, Historie- und nun auch der Magie-Cluster sind abgearbeitet; die publizierten Ingestion-Reports der Magie-Familie verweisen jetzt auf präzise Theorie- und Ritualseiten. Der harte Pages-Snapshot liegt nun bei `703` unresolved und `701` unallowlisted. Aktueller Fokus verschiebt sich damit auf den semantisch heikleren Cluster `Dämonen`, flankiert von reportartigen Restzielen wie `Die_Sammler` und `WikiLinks`, dazu weiter Quellenpfade und die `88` Bridge-Seiten.
+- **Last Handover**: 2026-04-03 (Codex → Next Agent)
+- **Status**: Die konservative Lane-1-Welle bleibt umgesetzt; Religions-, Historie- und Magie-Cluster sind weiterhin abgearbeitet. In dieser Session wurde der Forschungsauftrag `MSG-2026-0005` abgeschlossen: Der Live-Kanon vom 2026-04-03 bestaetigt Astrael weiter als Teil des klassischen Viererpantheons, waehrend Waldelfen/Myten trotz der News-Meldung von 2015 im spaeteren und aktuellen Hintergrund weiter als reale Voelker gefuehrt werden. Der aktuelle Advisor-Snapshot liegt bei `708` unresolved und `706` unallowlisted; der operative Hauptfokus bleibt damit beim semantisch heiklen Cluster `Dämonen` sowie den report-/resolverlastigen Restzielen.
 
 ---
 
@@ -48,7 +48,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] **Ingestion 2.0**: Fortsetzung der Boten-Verarbeitung (Bote 118, Bote 186+) - Erfolgreich importiert und integriert.
 
 ## 🟡 Priorität 2: Operative Ingestion & Research
-- [ ] **Kanon-Abgleich**: Wiederaufnahme der Prüfung zur Götterverschmelzung (RESEARCH-2026-010/011) - [DEFERRED].
+- [x] **Kanon-Abgleich (RESEARCH-2026-010/011)**: `MSG-2026-0005` ist abgeschlossen; der Bericht `Logs/Research/RESEARCH-2026-010-011_Summary.md` trennt jetzt sauber zwischen Live-Kanon (`Astrael` ohne Goetterverschmelzung) und historischem Projekt-/Plotstatus (`Waldelfen`/`Myten` als Diaspora bzw. inaktive Rassen statt Weltloeschung).
 - [x] **[MSG-2026-0034]** [P2][DEV] Workflow-Execute-Mode + Alias advisor: Integration von `--run` für start/takeover/handover und Alias-Normierung.
 - [x] **[MSG-2026-0040]** Test Suite Status: Tests in `/tmp` entkoppelt und JSON-Verträge etabliert.
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).

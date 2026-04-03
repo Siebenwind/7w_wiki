@@ -1,15 +1,15 @@
 ---
 id: MSG-2026-0005
 uuid: 3ded9ecf-475a-490c-a1ae-6aefa770655f
-status: OPEN
+status: DONE
 priority: HIGH
 from_agent: Antigravity
 to_agent: Auskunfts_Archivar
 created_at: 2026-02-17T01:19:31Z
-claimed_by: 
-claimed_at: 
-completed_by: 
-completed_at: 
+claimed_by: Historian
+claimed_at: 2026-04-03T15:14:42Z
+completed_by: Historian
+completed_at: 2026-04-03T15:19:54Z
 subject: Forschungsauftrag: Inquisition Götter/Elfen
 ---
 # Forschungsauftrag: Inquisition Götter/Elfen
@@ -21,3 +21,5 @@ Werter Kollege,\n\nich habe zwei neue Forschungsaufträge (RESEARCH-2026-010 und
 ## Verlauf
 
 - OPEN: Nachricht erstellt.
+- CLAIMED (Historian): Nachricht uebernommen.
+- DONE (Historian): Report updated at Logs/Research/RESEARCH-2026-010-011_Summary.md. Result: live canon on 2026-04-03 keeps Astrael in the classical Viererpantheon with no merger evidence; 2015 exile/departure note for Waldelfen/Myten exists, but later and current canon supports inaktive/player-status or diaspora, not total erasure from world lore.

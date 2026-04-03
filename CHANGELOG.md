@@ -1,5 +1,19 @@
 # Changelog
 
+#### [2026-04-03.01] - Historian Research: Astrael-/Waldelfen-Kanon gegen Live-Homepage abgeglichen
+### Prioritaet: P2
+### Geändert
+- `Logs/Research/RESEARCH-2026-010-011_Summary.md`: den bisherigen Kurzbericht zu einem datierten Historiker-Gutachten ausgebaut. Der Bericht trennt jetzt explizit zwischen Live-Kanon (Homepage am 2026-04-03), archivierten offiziellen News/Hintergrundquellen und aktuellem Wiki-Bestand.
+- `MASTER_TASK_LIST.md`: Status-Ueberblick und P2-Research-Block auf den Abschluss von `MSG-2026-0005` aktualisiert.
+- `System/Synapse_Board/DISPATCH/MSG-2026-0005_forschungsauftrag_inquisition_g_tter_elfen.md`: Forschungsauftrag durch den Historian uebernommen und abgeschlossen.
+- `System/Synapse_Board/DISPATCH/MSG-2026-0082_session_kickoff_complete_start_snapshot.md` und `System/Synapse_Board/DISPATCH/MSG-2026-0083_lore_gelehrter_standby_and_queue_triage.md`: Session-Start- und Lore-Triage-Status fuer die Dispatch-Historie abgelegt.
+### Validiert
+- Live-Abgleich gegen `https://www.siebenwind.de/hintergrund/gotterwelt/kirche-der-viere/`
+- Live-Abgleich gegen `https://www.siebenwind.de/hintergrund/rassen-und-klassen/waldelfen/`
+- Live-Abgleich gegen `https://www.siebenwind.de/hintergrund/rassen-und-klassen/myten/`
+- `./7w_wiki.py search "Astrael rückt auf" --source all --json --fast`
+- `./7w_wiki.py search "Waldelfen Myten" --source all --json --fast`
+
 #### [2026-03-31.01] - Magie-Cluster: publizierte Report-Ziele auf kanonische Theorie- und Ritualseiten gehoben
 ### Prioritaet: P1
 ### Geändert
