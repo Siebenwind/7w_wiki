@@ -9,21 +9,24 @@ category: Archiv
 Diese Seite ist die oeffentliche Kurations- und Releaseflaeche des Archivs.
 Sie verbindet zwei Dinge:
 - kuratierte Einstiegsstrecken fuer Leserinnen und Leser
-- frisch veroeffentlichte Forschungs- und Archivresultate
+- freigegebene Forschungs- und Archivresultate
 
 Die Auswahl ist **teilautomatisiert**: Vorselektion per Qualitaetsdaten, finale Freigabe durch Redaktion.
 
 ## Neu im Archiv
 
-### April 2026: Verifizierte Forschungsfunde und Berichte
+### April 2026: Freigegebene Berichte und Archivresultate
 
 | Neu veroeffentlicht | Typ | Stand | Warum jetzt lesenswert |
 |---|---|---|---|
-| [[RESEARCH-2026-004]] | Forschungsseite | 2026-04-08 | Sauberer Quellenentscheid zu `Arn Toron` und `Tjure Odal`; korrigiert eine unscharfe Altueberlieferung. |
-| [[RESEARCH-2026-007]] | Forschungsseite | 2026-04-08 | Klare Einordnung der [[Zeichnung_Tares]] als kosmologisches Schema statt freier Esoterik. |
 | [[Historian_Report_2026_003]] | Historian Report | 2026-04-08 | Gebuendelter Rueckblick auf Tiefenbach, Finsterwangen und das [[Ödland]] in einem publizierten Bericht. |
+| [[RESEARCH-2026-009_Report]] | Research Report | 2026-04-08 | Schliesst die Strukturfrage zu Gilden und Handwerk in einer freigegebenen Ergebnisdarstellung. |
+| [[RESEARCH-2026-008_Report]] | Research Report | 2026-04-08 | Verdichtet die Klaerung der `Dur`-Identitaet in einen publizierten Bericht. |
 | [[Research_Board]] | Ausschreibungsboard | 2026-04-08 | Zeigt den aktuellen Stand offener, laufender und bereits publizierter Lore-Forschung. |
 | [[Wiki_Statistiken]] | Statusseite | 2026-04-08 | Macht sichtbar, wie stark das Archiv gewachsen ist und welche Aktivitaet zuletzt stattfand. |
+
+**Hinweis:** Laufende Historian-Faelle oder Seiten im Status `fachlich offen` erscheinen nicht als `Neu im Archiv`.
+Sie bleiben auf [[Research_Board]] sichtbar, bis sie fachlich geklaert oder menschlich entschieden wurden.
 
 **Publikationsregel ab April 2026:** Forschungsfortschritt bleibt nicht mehr nur im Dispatch oder in `Logs/`.
 Jeder relevante Stand gehoert auf eine oeffentlich verlinkbare Archivseite:

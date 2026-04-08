@@ -32,7 +32,7 @@ Die Akademie nutzt komplexe Rituale zur Einweihung und Prüfung ihrer Mitglieder
 - **Die [[Graue_Garde]]:** Die Aufnahme in die Garde erfolgt durch einen feierlichen Schwur vor dem heiligen Feuer, meist in der Nacht.
 - **Sphärenrisse:** Die Akademie verfügt über spezifische Rituale zur Schließung von Sphärenrissen (historisch bedeutsam für [[Finsterwangen]]).
 
-## [[index]]
+## Einordnung
 Die Akademie blickt auf eine bewegte [[index]] zurück, einschließlich der Zerstörung alter Standorte im Krieg gegen den Einen (siehe [[Magierturm_zu_Tiefenbach]]) und der Abwehr dämonischer Bedrohungen.
 
 ---

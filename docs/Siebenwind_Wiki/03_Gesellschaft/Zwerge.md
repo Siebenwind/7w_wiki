@@ -33,7 +33,7 @@ Nach ihrem Glauben wurden die Dwarschim von ihrem Schöpfergott (oft **Angrosch*
 *   **Die Esse:** Das zentrale Symbol ihres Glaubens.
 *   **Schmiedekunst:** Gilt als heiliger Akt.
 
-## [[index]]
+## Einordnung
 *   **König:** Die Bingen werden oft von einem Zwergenkönig oder einem Ältestenrat regiert.
 *   **Clans:** Die Zugehörigkeit zum Clan ist identitätsstiftend.
 *   **Frauen:** Zwergenfrauen sind selten und werden streng behütet. Nach der zwergischen Lehre der **[[Bartanatomie]]** spiegelt der Bart des Ehemannes die Ehre und Tüchtigkeit der gesamten Familie wider.

@@ -1,19 +1,24 @@
 ---
 id: RESEARCH-{YYYY}-{NNN}
-status: TENDERED  # Optionen: TENDERED, CLAIMED (Agent XYZ), IN_PROGRESS, REVIEW, COMPLETED
+status: OPEN_HISTORIAN  # Optionen: OPEN_HISTORIAN, IN_REVIEW_HISTORIAN, AWAITING_HUMAN_DECISION, RESOLVED, THEMATIC_BACKLOG, DEFERRED, PARKED
 priority: {1-5}
 subject: {Name der Entität / Ereignis / Theorie}
 detected_by: {Agent}
 reward: {Lore Score Impact / Ranking}
 ---
 
-# Forschungsauftrag (Research Assignment)
+# Historian-Fall / Themenfeld
 
-## 🎯 Forschungsziel
-{Was genau soll herausgefunden oder präzisiert werden? Z.B. "Klärung der widersprüchlichen Geburtsdaten" oder "Geografische Einordnung des Turms X"}
+## 🎯 Anlass
+{Welche operative Arbeit hat den Fall erzeugt? Z.B. Ingestion, Artikelfix, neue Wikiseite, Reparaturlauf}
 
-## 🔍 Festgestellte Lücke / Inkongruenz
-{Beschreibung dessen, was aktuell unklar oder unzureichend erforscht ist.}
+## 🔍 Operative Lage
+{Ist der Fall operativ loesbar, historisch unklar oder eine echte Kontroverse?}
+
+## 🧭 Eskalationsklasse
+- [ ] historian_noetig
+- [ ] human_decision_required
+- [ ] thematic_backlog
 
 ## 📜 Vorhandene Anhaltspunkte (Primärquellen)
 - [ ] Source 1: {Link/Name}
@@ -24,8 +29,11 @@ reward: {Lore Score Impact / Ranking}
 - [ ] {Item 2: Register-Eintrag / Kategorisierung}
 - [ ] {Item 3: Narrative Einbettung}
 
-## 🧠 Historiker-Briefing (Optional)
-{Welche Hypothesen existieren bereits? Welche Quellen sind mit Vorsicht zu genießen?}
+## 🧠 Historiker-Briefing
+{Welche Unklarheit oder welcher Dissens macht eine Historian-Synthese noetig? Welche Quellen sind mit Vorsicht zu genießen?}
+
+## 🏛️ Menschvorlage (nur falls noetig)
+{Nur ausfuellen, wenn echte Kontroverse, Kanonkorrektur oder konkurrierende belastbare Lesarten vorliegen.}
 
 ---
-*Dieser Auftrag ist zur Bearbeitung ausgeschrieben. Claiming via Status-Update.*
+*Nur strittige oder groesser unklare Faelle werden als aktive Historian-Faelle gefuehrt. Reine Breitenthemen gehoeren ins Themenreservoir.*

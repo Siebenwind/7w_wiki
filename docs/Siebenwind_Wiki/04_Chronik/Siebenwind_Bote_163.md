@@ -24,7 +24,7 @@ letzter_check: 2026-02-13T15:10:00+01:00
 *   **Gastronomie:** Die Taverne **"Zum Seiltänzer"** im Fremdenviertel von [[Falkensee]] wurde unter neuer Führung wiedereröffnet.
 *   **Justiz:** In Ventria (Festland) wurde eine komplette Wachgarnison wegen rüpelhaften Verhaltens und Dienstversäumnissen entlassen.
 
-## [[index]]
+## Einordnung
 *   **[[Ignatius_von_Mendel]]**: Drahtzieher der Königsentführung.
 *   **[[Toran_Dur]]**: Leiter der Rettungsexpedition und neu gewählter Erzmagus.
 *   **[[Hendwig]]**: Gefallener Gardist (Heldenstatur).

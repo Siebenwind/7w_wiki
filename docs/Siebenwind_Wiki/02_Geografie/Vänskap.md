@@ -25,7 +25,7 @@ Das Dorf wird von einem „Leitwolf“ angeführt, einem traditionellen Titel de
 *   **Lachsfest:** Ein jährliches Fest, das im Dular gefeiert wird. Es beinhaltet Wettessen, Angeln und die Wahl einer Lachskönigin ([[Siebenwind_Bote_179]]).
 *   **Fischerei:** Die [[Nortraven]] von Vänskap sind exzellente Fischer und Seefahrer.
 
-## [[index]]
+## Einordnung
 
 *   **Der Angriff Ersonts:** Im 18. Jahr n.H. marschierten Truppen des Ersonter Bundes vor die Tore von Vänskap. Während der Bote zunächst von einem Angriff berichtete, wurde dies später als Missverständnis und friedlicher Aufmarsch deklariert, auch wenn die Spannungen in der Region spürbar blieben ([[Siebenwind_Bote_177]], [[Siebenwind_Bote_178]]).
 *   **Das [[Dunkeltief]]:** Während der großen Dunkelheit wurde Vänskap belagert, hielt jedoch stand. Die Verteidigung wurde oft im Zusammenhang mit den Dwarschim und Malthustern erwähnt.

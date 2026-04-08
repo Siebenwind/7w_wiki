@@ -54,7 +54,7 @@ Die Stadtwachen patrouillieren regelmäßig. Zudem ist auf der Burg eine Abteilu
 ## Religion und [[index]]
 König Hilgorad befahl die Anlage eines Platzes zu Ehren der Götter. Magisch ist die Stadt durch einen Außenposten der Magierakademie im Norden und das Haus des elementaren Erzmagus im Süden geprägt.
 
-## [[index]]
+## Einordnung
 * [[Hilgorad_I_ap_Mer|König Hilgorad]]
 * [[Baron_Gerdenwald]]
 * [[Etril_Gamajeff]] (Chronist)

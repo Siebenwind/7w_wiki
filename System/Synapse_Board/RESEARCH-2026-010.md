@@ -7,7 +7,7 @@ detected_by: Antigravity
 reward: +15 Lore-Trust
 ---
 
-# Forschungsauftrag (Research Assignment)
+# Themenfeld (Research Reservoir)
 
 ## 🎯 Forschungsziel
 Klärung der widersprüchlichen Informationen bezüglich einer "Götterverschmelzung". Es soll verifiziert werden, ob Astrael in den aktuellen Live-Kanon (site:siebenwind.de) als Nachfolger oder Verschmelzung anderer Gottheiten eingegangen ist oder ob dies ein reines OOC-Konstrukt/Vorschlag blieb.

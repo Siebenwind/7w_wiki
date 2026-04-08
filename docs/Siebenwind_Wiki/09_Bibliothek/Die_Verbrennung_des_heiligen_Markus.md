@@ -27,7 +27,7 @@ Die Tragik seines Schicksals liegt in der Fehlinterpretation seiner Taten. Da di
 
 ## Relevante Entitäten
 
-### [[index]]
+### Einordnung
 *   **[[Markus]]**: Protagonist. Magister, Asket, vermeintlicher Schwarzmagier.
 
 ### Konzepte

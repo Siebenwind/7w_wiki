@@ -17,7 +17,7 @@ Rekonstruktion des Waldelfen-Exodus und des Verbleibs der [[Myten]].
 - spaete Traditionslinien von [[Waldelfen]] und [[Myten]]
 
 ## Status
-**Deferred.** Der Auftrag ist vermerkt, aber derzeit nicht aktiv bearbeitet.
+**Themenreservoir (deferred).** Das Thema bleibt sichtbar, ist aber derzeit kein aktiver Historian-Fall.
 
 ---
 **Siehe auch:** [[Waldelfen]], [[Myten]], [[Research_Board]]

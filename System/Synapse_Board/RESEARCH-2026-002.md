@@ -1,13 +1,13 @@
 ---
 id: RESEARCH-2026-002
-status: TENDERED
+status: THEMATIC_BACKLOG
 priority: 3
 subject: [[Oedland]]
 detected_by: Oberarchivar
 reward: +10 Lore Score / Rank: Explorer
 ---
 
-# Forschungsauftrag: Die Transformation des Ödlands
+# Themenfeld: Die Transformation des Ödlands
 
 ## 🎯 Forschungsziel
 Erstellung eines umfassenden geografischen und chronologischen Profils des Ödlands, das die Entwicklungen von der "kargen Ruinenlandschaft" (17 n.H.) zum "Sumpf des Todes" (29 n.H.) abbildet.
@@ -26,4 +26,4 @@ Der Artikel [[Oedland]] basiert fast ausschließlich auf Informationen aus [[Sie
 - [ ] Vernetzung mit dem [[Dwarschim]]-Plot (Dämonenzwiebel).
 
 ---
-*Dieser Auftrag ist zur Bearbeitung ausgeschrieben.*
+*Dieses Themenfeld bleibt sichtbar, erzeugt aber erst bei konkreter operativer Unklarheit einen Historian-Fall.*

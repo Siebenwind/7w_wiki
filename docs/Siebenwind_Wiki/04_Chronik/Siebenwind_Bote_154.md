@@ -25,7 +25,7 @@ letzter_check: 2026-02-13T03:15:00+01:00
 *   **Entführung:** Die Tochter von **[[Caeden_Ecanas]]** wurde entführt. Hofmagier **[[Garreth_Moss]]** rettete sie durch eine List (Verwandlung in Falken).
 *   **Akademie:** Geistererscheinungen im Turm von [[Südfall]]. **[[Daena]]** arbeitet an der Austreibung.
 
-## [[index]]
+## Einordnung
 *   **[[Mirian_Lasar]]**: Neue Lehensritterin.
 *   **[[Utrich_Rothnang]]**: Magier (Feuermagier?), rettete Löwenritter trotz vorherigem Konflikt.
 *   **[[Garreth_Moss]]**: Hofmagier, rettete Ecanas' Tochter.

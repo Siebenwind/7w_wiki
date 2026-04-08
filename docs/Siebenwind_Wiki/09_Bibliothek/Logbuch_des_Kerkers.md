@@ -24,7 +24,7 @@ Zusammen mit anderen Gefangenen, darunter der Gardist **[[Gorem]]**, wird Waldem
 
 ## Relevante Entitäten
 
-### [[index]]
+### Einordnung
 *   **[[Waldemar_Delarie]]**: Autor und Protagonist.
 *   **[[Knochenfürst]]**: Anführer der Untoten Besatzungsmacht.
 *   **[[Hektor]]**: Waldemars Stellvertreter, dessen Loyalität in dieser Phase ambivalent erscheint.

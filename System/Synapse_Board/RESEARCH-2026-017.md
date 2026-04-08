@@ -1,13 +1,13 @@
 ---
 id: RESEARCH-2026-017
-status: CLAIMED (Oberarchivar)
+status: OPEN_HISTORIAN
 priority: 5
 subject: Die Logbücher der "Nordwind" (Entdeckung 1 n.H.)
 detected_by: Oberarchivar
 reward: Lore Integrity +15 / Historische Verankerung
 ---
 
-# Forschungsauftrag: Die Entdeckung von Siebenwind
+# Historian-Fall: Die Entdeckung von Siebenwind
 
 ## 🎯 Forschungsziel
 Präzisierung der Umstände der Entdeckung von Siebenwind im Jahr 1 n.H. durch Armgard Torbenson. Identifizierung der "Prophezeiung", die König Hilgorad den Anreiz zur Expansion gab.
@@ -29,4 +29,4 @@ Die Entdeckung wird in `Atlas` und `Historie` als faktisches Ereignis geführt, 
 Die "Nordwind" war ein Nortraven-Schiff unter galadonischer Flagge. Der Umstand, dass ein "Barbar" die Insel für den König entdeckte, ist politisch signifikant für die Allianz zwischen Galadon und Norland.
 
 ---
-*Dieser Auftrag wurde vom Oberarchivar beansprucht.*
+*Aktiver Historian-Fall auf Basis groesserer chronologischer Unklarheit.*

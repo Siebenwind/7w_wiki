@@ -1,4 +1,7 @@
 ---
+layout: wiki_page
+title: "Department: 📜 Rüstkammer der Geschichte (/lore_master)"
+category: Workflow
 description: Department Master Workflow für Lore-Forschung, Narrative und Kanon-Updates
 ---
 
@@ -40,12 +43,13 @@ Wenn offizielle `#canon` Hintergrund-Dokumente verarbeitet oder alte Widersprüc
 Das Wiki soll kein trockenes Datenblatt sein. Werte Artikel (vor allem von oft genannten Charakteren) auf "Roman-Qualität" (Novel-Quality) auf:
 1. **Context & Deep Read:** Wühle in den Boten-Quellen nach Handlungen und Beziehungen (wer kämpft, wer verhandelt, mit wem).
 2. **Atmosphäre & Motivation:** Beschreibe die Szenen und frage nach dem *Warum* (Pflichtgefühl, Gier, Angst?).
-3. **Regeln:** Keine Fakten erfinden (Halluzinations-Verbot). Nur vorhandene Rohdaten extrapolieren. Nutze Zitate, falls verfügbar. "NPC" ist ein verbotener Begriff.
+3. **Regeln:** Keine Fakten erfinden (Halluzinations-Verbot). Nur vorhandene Rohdaten extrapolieren. Nutze Zitate, falls verfügbar. Reduziere Figuren nicht auf rein technische Rollenbegriffe.
 4. **Score-Boost:** Nach der Aufwertung führe `./7w_wiki.py score <file>` aus, um den `lore_trust` manuell anzupassen.
 
 ## 4. Research Board Management
-- Prüfe regelmäßig das `System/Synapse_Board/LORE_RESEARCH_BOARD.md` auf Aufträge (`TENDERED`).
-- Lege Ergebnisse als Bericht unter `Logs/Research/` ab und übertrage sie anschließend im `Wiki-Schmied` Standard ins Wiki.
+- Prüfe regelmäßig das `System/Synapse_Board/LORE_RESEARCH_BOARD.md` auf aktive Historian-Faelle (`OPEN_HISTORIAN`, `IN_REVIEW_HISTORIAN`, `AWAITING_HUMAN_DECISION`).
+- Erzeuge neue Historian-Faelle nur dann, wenn operative Arbeit nicht sauber loesbar ist; weisse Flecken ohne akuten Fall bleiben im Themenreservoir.
+- Lege Ergebnisse als Bericht unter `Logs/Research/` ab und uebertrage sie anschließend im `Wiki-Schmied` Standard ins Wiki.
 - Melde Abschluss und Erkenntnisse via Dispatch (`mail done` oder `post`).
 
 #historie #lore #orakel #narrative

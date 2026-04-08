@@ -26,7 +26,7 @@ Die Legion vertritt das Prinzip "Ehre und Stärke". Sie betrachtet die Viergött
 *   **Methoden:** Zwangsrekrutierung, öffentliche Hinrichtungen zur Abschreckung und Besetzung strategisch wichtiger Handelsposten.
 *   **Hierarchie:** Angeführt wird die Legion von [[Herzog_Blutschwert]]. Es existieren Anzeichen für eine Zusammenarbeit mit korrumpierten [[Klauenwoelfe]].
 
-## [[index]]
+## Einordnung
 Die Legion entstand aus fanatischen Anhängern Angamons während der Wirren des Bürgerkriegs. Es gelang ihr in kürzester Zeit, die Truppen der Kirche und des Königs (u.a. die Ersonter Ritter) in vielen Gebieten Vandriens zurückzudrängen.
 
 ## Quellen

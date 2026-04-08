@@ -329,6 +329,10 @@ def run_script(path, args=[]):
     if result.returncode != 0:
         sys.exit(result.returncode)
 
+
+def run_research_review(action_args):
+    run_script(".agent/scripts/research_review.py", action_args)
+
 def view_workflow(name):
     path = os.path.join(os.path.dirname(__file__), f".agent/workflows/{name}.md")
     if os.path.exists(path):
@@ -511,6 +515,14 @@ def main():
     start_parser.add_argument("--run", action="store_true", help="Execute the workflow checklist automatically")
     start_parser.add_argument("--yes", "-y", action="store_true", help="Skip confirmation prompts during --run")
     start_parser.add_argument("--resume", action="store_true", help="Resume from last completed step")
+    start_parser.add_argument("--list-reviews", action="store_true", help="List research tasks currently awaiting review/approval")
+    start_parser.add_argument("--review-id", help="Research ID for a review action, e.g. RESEARCH-2026-004")
+    start_parser.add_argument("--approve", action="store_true", help="Approve a research result as final human review")
+    start_parser.add_argument("--return-for-rework", action="store_true", help="Return a research result to IN_PROGRESS with review notes")
+    start_parser.add_argument("--comment", action="store_true", help="Add a non-final review comment without changing ownership")
+    start_parser.add_argument("--reviewer", help="Reviewer name for approval/comment actions")
+    start_parser.add_argument("--role", choices=["human_final", "historian_comment", "coordinator_note"], help="Review role")
+    start_parser.add_argument("--note", help="Review note or approval rationale")
 
     # Test Runner
     test_parser = subparsers.add_parser("test", help="Run interoperability and clean-state test suites")
@@ -668,8 +680,8 @@ def main():
     mail_done.add_argument("--note")
 
     # Scout (Forum Crawler)
-    scout_parser = subparsers.add_parser("scout", help="Deep Scan of external forums (Bekanntmachungen/News)")
-    scout_parser.add_argument("--forum", choices=["bekanntmachungen", "news"], default="bekanntmachungen", help="Target forum")
+    scout_parser = subparsers.add_parser("scout", help="Deep Scan of external forums (allowlisted boards)")
+    scout_parser.add_argument("--forum", choices=["bekanntmachungen", "news", "geschichten"], default="bekanntmachungen", help="Target forum")
     scout_parser.add_argument("--pages", type=int, default=3, help="Number of pages to scan")
 
     # Technician (DevOps)
@@ -754,7 +766,22 @@ def main():
         run_script(".agent/scripts/advisor.py", adv_args)
 
     elif args.command == "start":
-        if args.run:
+        review_flags = [args.list_reviews, args.approve, args.return_for_rework, args.comment]
+        if args.list_reviews or any(review_flags[1:]):
+            if args.list_reviews:
+                run_research_review(["--list"])
+            else:
+                decision = "approved" if args.approve else "returned" if args.return_for_rework else "commented"
+                role = args.role or ("human_final" if decision in {"approved", "returned"} else "historian_comment")
+                review_args = [
+                    "--research-id", args.review_id,
+                    "--decision", decision,
+                    "--reviewer", args.reviewer,
+                    "--role", role,
+                    "--note", args.note,
+                ]
+                run_research_review(review_args)
+        elif args.run:
             run_workflow("start", auto_yes=args.yes, resume=args.resume)
         else:
             print(f"🚀 {BOLD}Workflow: /start{RESET}")
@@ -963,8 +990,7 @@ def main():
             archive_parser.print_help()
 
     elif args.command == "scout":
-        forum_map = {"bekanntmachungen": "6", "news": "1"}
-        run_script(".agent/scripts/forum_scanner.py", ["--forum_id", forum_map[args.forum], "--pages", str(args.pages)])
+        run_script(".agent/scripts/forum_scanner.py", ["--forum-key", args.forum, "--pages", str(args.pages)])
 
     elif args.command == "mail":
         if not getattr(args, "mail_cmd", None):

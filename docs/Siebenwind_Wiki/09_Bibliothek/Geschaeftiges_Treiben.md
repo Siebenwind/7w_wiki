@@ -24,6 +24,6 @@ Ein **[[Magister_ad_Sinister]]** (ehemaliger Schüler) und seine **Eminenz** (Ho
 *   **[[Magister_ad_Sinister]]**: Ein Titel oder Name eines Schwarzmagiers.
 *   **Seine Eminenz**: Der Lehrmeister des Magisters.
 
-### [[index]]
+### Einordnung
 *   **[[Ru'n]]**: Die Sprache der [[index]], hier im nekromantischen Kontext verwendet.
 *   **Fleischformung**: Die physische und magische Verschmelzung von Körperteilen zu einem Golem oder einer Chimäre.

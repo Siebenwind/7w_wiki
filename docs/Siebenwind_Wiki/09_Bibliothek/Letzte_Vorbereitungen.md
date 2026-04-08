@@ -19,7 +19,7 @@ Zum Abschluss zeichnet er mit gesegnetem Wasser, das er von **Eminenz [[Sandholz
 
 ## Relevante Entitäten
 
-### [[index]]
+### Einordnung
 *   **Eminenz [[Sandholz]]**: Ein hochrangiger Kleriker (vermutlich [[Morsan]]-Geweihter), der gesegnetes Wasser verteilt.
 
 ### Orte

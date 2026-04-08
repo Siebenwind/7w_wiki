@@ -27,7 +27,7 @@ letzter_check: 2026-02-13T15:15:00+01:00
 *   **Wesen:** Warnung vor "Däumlingen" ([[Gignoskein]]-Ehepaar), die Wanderer durch [[index]] und List berauben.
 *   **[[index]]:** Bericht vom Rätselabend im "Vitamas Kelch". Wohlgeboren **[[Ruodrik]]** verteidigte seinen Titel als Rätselkönig.
 
-## [[index]]
+## Einordnung
 *   **[[Aspin_Schwertklinge_von_Fahlenau]]**: Neuer Großmeister.
 *   **[[Dirian_zu_Neuentau]]**: Landsbaron und Ausrichter der Großjagd.
 *   **[[Zimahn_Alni_Balurdan]]**: Herold von Neuentau.

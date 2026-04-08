@@ -32,7 +32,7 @@ Ein Soldat im Fieberwahn wird von der Vision eines Jungen heimgesucht, dem ein *
 
 ## Relevante Entitäten
 
-### [[index]]
+### Einordnung
 *   **Der Söldner/Erzähler**: Unbekannt. Veteran des Vandrien-Krieges.
 *   **[[Raziel]]**: Fürst von Vandrien, Anführer der Rebellion.
 

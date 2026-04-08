@@ -23,7 +23,7 @@ Die Protagonisten sind der Krieger **[[Traim_Eisenblut]]**, der Schreiber **[[Gi
 
 ## Relevante Entitäten
 
-### [[index]]
+### Einordnung
 *   **[[Traim_Eisenblut]]**: "Der Schlächter", späterer Oberkommandierender. Hier in einer früheren, ausgelasseneren Phase.
 *   **[[Gimbart_Galdora]]**: Schreiber und Mitbewohner.
 *   **[[Nirluk]]**: Dämonentöter und dritter Mitbewohner.

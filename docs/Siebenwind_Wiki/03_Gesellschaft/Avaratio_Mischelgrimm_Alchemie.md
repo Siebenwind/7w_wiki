@@ -24,5 +24,5 @@ Jedes Ding und jedes Lebewesen besteht aus zwei Komponenten:
 ## Alchemistische Anwendung
 Die Alchemie ist die Kunst, die „Funken“ von Pflanzen und Reagenzien zu manipulieren, um physische „Formen“ zu verändern. Mischelgrimm sieht [[Astrael]] als den heiligen Ursprung dieses Handwerks, das der [[index]] in seinem Wesen ähnlich ist.
 
-## [[index]]
+## Einordnung
 * [[Avaratio_Mischelgrimm]] (Autor)

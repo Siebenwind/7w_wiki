@@ -5,7 +5,7 @@ category: Allgemein
 
 layout: wiki_page
 title: "Kompendium der Weißmagie"
-category: [[index]]
+category: Index
 status: integrated
 uuid: K1234567-B2C3-4D5E-8F9A-0A1B2C3D4E5F
 report_id: d4e5f6a7-b8c9-0d1e-2f3a-4b5c6d7e8f9a

@@ -67,21 +67,21 @@ category: Index
 
 ## Interessante Artikel
 
-Die Archivseite ist jetzt zweigeteilt: kuratierte Lesestrecken plus frisch publizierte Forschungsresultate.
-Aktuelle Rotation April 2026: **Unter dem Weissen Hochturm**. Parallel dazu sind neue Forschungsseiten und Historian Reports direkt lesbar veroeffentlicht.
+Die Archivseite ist jetzt zweigeteilt: kuratierte Lesestrecken plus freigegebene Forschungsresultate.
+Aktuelle Rotation April 2026: **Unter dem Weissen Hochturm**. Laufende Historian-Faelle bleiben auf dem Research Board sichtbar und werden erst nach Klaerung als Neuveroeffentlichung gefeatured.
 
 <div class="featured-grid">
-  <a href="Archiv/RESEARCH-2026-004/" class="featured-card">
-    <h3>Neu: RESEARCH-2026-004</h3>
-    <p>Arn Toron und Tjure Odal neu bewertet: belastbare Biografieteile getrennt von blossen Anklageformeln.</p>
-  </a>
-  <a href="Archiv/RESEARCH-2026-007/" class="featured-card">
-    <h3>Neu: RESEARCH-2026-007</h3>
-    <p>Die Zeichnung Tares ist nun als kosmologisches Schema erschlossen und nicht mehr nur ein lose gedeutetes Artefakt.</p>
-  </a>
   <a href="Archiv/Historian_Report_2026_003/" class="featured-card">
     <h3>Neu: Historian Report 2026-003</h3>
     <p>Tiefenbach, Finsterwangen und das Oedland als gebuendelte Forschungsveroeffentlichung.</p>
+  </a>
+  <a href="Archiv/RESEARCH-2026-009_Report/" class="featured-card">
+    <h3>Neu: Research Report 2026-009</h3>
+    <p>Gilden, Handwerk und staendische Ordnung als freigegebene Ergebnisdarstellung.</p>
+  </a>
+  <a href="Archiv/RESEARCH-2026-008_Report/" class="featured-card">
+    <h3>Neu: Research Report 2026-008</h3>
+    <p>Die Klaerung der Dur-Identitaet in kompakter, publizierter Berichtsform.</p>
   </a>
   <a href="Siebenwind_Wiki/02_Geografie/Draconis/" class="featured-card">
     <h3>Draconis</h3>
@@ -116,14 +116,14 @@ Mehr kuratierte Einstiege und Neuveroeffentlichungen: [Zur Uebersicht Interessan
   </div>
   <div class="method-card">
     <h3>Forschung</h3>
-    <p>Offene Fragen werden im Research Board ausgeschrieben und ueber den Dispatch koordiniert.</p>
+    <p>Nur strittige oder groesser unklare Faelle landen als Historian-Docket auf dem Research Board.</p>
   </div>
 </div>
 
 - [Interessante Artikel (Kurationsverfahren)](Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md)
 - [Qualitaetsrahmen 2026](Archiv/QUALITAETSRAHMEN_2026.md)
 - [Research Board](Archiv/Research_Board.md)
-- [Neueste Forschungsseiten und Reports](Archiv/RESEARCH-2026-004.md)
+- [Neueste freigegebene Research Reports](Archiv/Historian_Report_2026_003.md)
 - [Ingestion Reports](Archiv/Ingestion_Reports/index.md)
 
 ## Fuer technisch Interessierte

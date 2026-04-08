@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-08T16:30:34Z",
-  "inputs_fingerprint": "7f36e93f4484f9871fba4b914910f238eab6e6f0b3f93b23acef171441e8bae4",
+  "generated_at": "2026-04-08T20:19:39Z",
+  "inputs_fingerprint": "f31faf2b2972146d37c4619ea641c7b19f6d14e3ec342255b78bbf1b4f70ad8b",
   "payload": {
     "bridge_inventory": {
       "invalid": 0,
       "total": 85
     },
     "contract_violations": {
-      "issues": 20
+      "issues": 21
     },
     "details": [
       {
@@ -1536,6 +1536,27 @@
           "title": "Gefreite Famir"
         },
         "path": "docs/Siebenwind_Wiki/00_Fundament/Gefreite_Famir.md"
+      },
+      {
+        "analysis": {
+          "bridge_status": "none",
+          "classification": "article",
+          "duplicates": [],
+          "has_frontmatter": true,
+          "stub_status": "none"
+        },
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
+        "meta": {
+          "category": "Allgemein",
+          "epistemic": "\"#ueberlieferung\"",
+          "title": "Geist"
+        },
+        "path": "docs/Siebenwind_Wiki/00_Fundament/Geist.md"
       },
       {
         "analysis": {
@@ -15485,23 +15506,6 @@
         "changes": [],
         "meta": {
           "category": "Personen",
-          "epistemic": "\"#bote\"",
-          "title": "Geist",
-          "uuid": "ef8b5c3d-3456-6789-0123-45bf2597e836"
-        },
-        "path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Geist.md"
-      },
-      {
-        "analysis": {
-          "bridge_status": "none",
-          "classification": "article",
-          "duplicates": [],
-          "has_frontmatter": true,
-          "stub_status": "none"
-        },
-        "changes": [],
-        "meta": {
-          "category": "Personen",
           "quelle": "../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_138.md",
           "status": "Bote",
           "title": "Gerelda Wendolyn"
@@ -16389,6 +16393,29 @@
           "uuid": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f"
         },
         "path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Herr_Distelstein.md"
+      },
+      {
+        "analysis": {
+          "bridge_status": "none",
+          "classification": "article",
+          "duplicates": [],
+          "has_frontmatter": true,
+          "stub_status": "none"
+        },
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
+        "meta": {
+          "aliases": "[\"Geist (Assassine)\"]",
+          "category": "Personen",
+          "epistemic": "\"#bote\"",
+          "title": "Herr Geist",
+          "uuid": "ef8b5c3d-3456-6789-0123-45bf2597e836"
+        },
+        "path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Herr_Geist.md"
       },
       {
         "analysis": {
@@ -22964,12 +22991,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Index",
           "title": "\"📊 Siebenwind Kompass\""
@@ -23015,7 +23037,7 @@
     "render_hygiene": {
       "issues": 0
     },
-    "scanned_files": 1359,
+    "scanned_files": 1360,
     "split_brain": {
       "files": [],
       "issues": 0

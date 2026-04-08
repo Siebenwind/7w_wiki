@@ -40,6 +40,9 @@ Hier werden alle verbindlichen Verfahrensempfehlungen, Ingestion-Standards und t
 ## ⚖️ Mensch-KI-Dialektik (Zuständigkeit)
 - **Mensch (Rank 0)**: Letzte Instanz für Kanon (#canon), Vision und strategische Prioritäten.
 - **KI (Partner)**: Analyse, Strukturierung, Konsistenzprüfung und kreative Lore-Konstruktion in "weißen Flecken".
+- **Operativer Default**: Neue Quellen, neue Seiten und normale Artikelkorrekturen laufen zuerst ueber Ingestion, Redaktion und Pflege.
+- **Historian-Eskalation**: Nur groessere fachliche Unklarheit, Quellen-Synthese oder strittige Lesarten erzeugen einen Historian-Fall.
+- **Menschvorlage**: Nur echte Kontroversen, Kanonkorrekturen oder konkurrierende belastbare Lesarten gehen an den Menschen.
 
 ---
 *Änderungen an diesem Dokument müssen über den Koordinator (Logistik) laufen.*

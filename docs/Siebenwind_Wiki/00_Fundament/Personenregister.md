@@ -113,7 +113,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Herbertus_Wendolyn]] | Zirkusdirektor ([[Circus_Wendolyn]]) | [Bote 138] | 16 n.H. | #bote |
 | [[Horan_Erandel]] | Anwärter Kriegerakademie / Rekrut | [Bote 133/139] | ~15-16 n.H. | #bote |
 | [[Geduldiger_Sand]] | Echsen-Erdrufer | [Bote 193] | 30 n.H. | #bote |
-| [[Geist]] | Herr [[Geist]] / Assassine | [Bote 194] | 36 n.H. | #bote |
+| [[Herr_Geist]] | Herr Geist / Assassine | [Bote 194] | 36 n.H. | #bote |
 | [[Isolde_Wendolyn]] | Kostümbildnerin ([[Circus_Wendolyn]]) | [Bote 138] | 16 n.H. | #bote |
 | [[Hadrian_Lugado]] | Hochgeweihter (Argionemes) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |
 | [[Henricus_Decredon_Catae]] | Hochgeweihter / Prätor Lichtenfeld | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |

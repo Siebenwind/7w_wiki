@@ -2,7 +2,7 @@
 layout: wiki_page
 title: RESEARCH-2026-007 - Dossier Rhadan: Zeichnung Tares
 category: Archiv
-status: review
+status: in_review_historian
 letzter_check: 2026-04-08
 ---
 
@@ -20,7 +20,7 @@ Die Zeichnung ist im aktuellen Forschungsstand am saubersten als **schematische 
 Ein kleiner dunkler Nebenkreis und die Runenzeichen bleiben [UNGEKLAERT].
 
 ## Status
-**Review (Historian).**
+**Fachlich offen.** Historian-Gutachten liegt vor; Freigabe oder weitere Synthese steht noch aus.
 
 ---
 **Siehe auch:** [[Dossier_Rhadan]], [[Zeichnung_Tares]], [[Research_Board]]

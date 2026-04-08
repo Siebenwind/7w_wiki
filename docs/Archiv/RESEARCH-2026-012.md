@@ -2,7 +2,7 @@
 layout: wiki_page
 title: RESEARCH-2026-012 - Das Gruenland
 category: Archiv
-status: tendered
+status: thematic_backlog
 letzter_check: 2026-04-08
 ---
 
@@ -17,7 +17,7 @@ Umfassende Kartierung des [[Grünland]]s, Untersuchung historischer Siedlungsres
 - [[Siebenwind_Bote_168]]
 
 ## Status
-**Tendered.** Der Auftrag ist offen und wartet auf eine geographisch-historische Vollsichtung.
+**Themenreservoir.** Das Thema bleibt sichtbar, ist aber kein aktiver Historian-Fall, bis es aus realer Arbeit als konkrete Unklarheit wieder auftaucht.
 
 ---
 **Siehe auch:** [[Grünland]], [[Brandenstein]], [[Research_Board]]

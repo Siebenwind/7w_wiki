@@ -26,7 +26,7 @@ category: Chronik
 - **Kirche:** [[Custodias]] ist wieder **Calator**. [[Feydis]] wurde zum [[Vitama]]-Priester geweiht.
 - **Wirtschaft:** [[Alricio_Romero_di_Madjani]] eröffnete das Teehaus "Vitamas Rosengarten" (ehem. "Ersonter Kessel").
 
-### [[index]]
+### Einordnung
 - **Hochzeit:** Prinz [[Astreyonas]] von [[Sae]] heiratete [[Katharina_von_Tiefenwald]] in Lafay's Stab.
 - **Rosenbund:** [[Lucius_Gropp]] und [[Khyra_Hohentann]] haben geheiratet.
 

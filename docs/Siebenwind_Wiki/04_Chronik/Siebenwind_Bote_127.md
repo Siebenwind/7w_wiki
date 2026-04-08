@@ -20,7 +20,7 @@ category: Chronik
 ### [[index]] & Verwaltung
 - **Stadtverordnung:** [[Siegfried_von_Steiner]] (Lehensvasall, H.d.F.) erlässt eine vollständige Stadtverordnung für [[Brandenstein]] (§1-§19). Bürgerrecht, Mietpflichten, Tierhalteregeln, Waffengesetze. Die [[Baronsgarde]] des Hauses [[Gerdenwald]] wird explizit genannt (§15.2, §17, §18).
 
-### [[index]]
+### Einordnung
 - **Literaturwettbewerb:** [[Finduleia_Laurelin]] schreibt einen Literaturwettbewerb im Namen von Baron **Friedward von Gerdenwald** aus. Sieger wird Hofdichter.
 - **Hochzeit:** [[Samira_Sandelholz]] und **[[Benion_Sandelholz]]** heirateten. Dank an Dame **Rose** und Bruder **Barkor**.
 - **Taverne:** Die "Rote Seeschlange" ([[Svendra_Merseck]], [[Harwarn]]) bereitet die Wiedereröffnung vor.

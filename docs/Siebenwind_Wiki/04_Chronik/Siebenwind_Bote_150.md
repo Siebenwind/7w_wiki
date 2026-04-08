@@ -24,7 +24,7 @@ letzter_check: 2026-02-13T02:15:00+01:00
 *   **Tempelmord:** Ein Ork tötete eine Tempelwache nach einem Streit über eine Nortravin.
 *   **Zwergenweihe:** **[[Fraomar_Arkad_Grembargh]]** wurde zum Arkadhrall (Priester des [[Ignis]]/Arkadon) geweiht.
 
-## [[index]]
+## Einordnung
 *   **[[Fraomar_Arkad_Grembargh]]**: Neuer Zwergenpriester.
 *   **[[Gropp]]**: Überlebender eines Attentats.
 *   **[[Herr_Merik]]**: Opfer eines Dämonenangriffs (†).

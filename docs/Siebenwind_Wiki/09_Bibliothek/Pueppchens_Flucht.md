@@ -22,7 +22,7 @@ Verzweifelt und misstrauisch gegenüber den "Guten", die ihr mit Zwang oder Ver�
 
 ## Relevante Entitäten
 
-### [[index]]
+### Einordnung
 *   **Püppchen**: Spitzname der Protagonistin (schwarzes Haar).
 *   **Der blonde Mann**: Ein Antagonist aus ihrer Sicht.
 

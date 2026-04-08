@@ -942,10 +942,32 @@ def repair_roamlinks(auto: bool = False, dry_run: bool = False) -> int:
     fixed_entries: list[dict] = []
     ambiguous_entries: list[dict] = []
     files_changed = 0
+    repairable_classes = {"safe_exact_match", "safe_alias_match"}
+    classification_counts: dict[str, int] = {
+        "safe_exact_match": 0,
+        "safe_alias_match": 0,
+        "generic_term_conflict": 0,
+        "needs_historian": 0,
+        "needs_human": 0,
+    }
 
     for item in targets:
         target = item["target"]
         source_pages = item.get("source_pages", [])
+        classification = str(item.get("classification", "needs_historian"))
+        classification_counts.setdefault(classification, 0)
+        classification_counts[classification] += item.get("count", 0)
+        if classification not in repairable_classes:
+            ambiguous_entries.append(
+                {
+                    "target": target,
+                    "count": item.get("count", 0),
+                    "source_pages": source_pages,
+                    "classification": classification,
+                    "suggestions": item.get("canonical_candidates", []),
+                }
+            )
+            continue
         replacement, suggestions = _roamlink_target_candidates(target, canon_map)
         if not replacement:
             ambiguous_entries.append(
@@ -953,6 +975,7 @@ def repair_roamlinks(auto: bool = False, dry_run: bool = False) -> int:
                     "target": target,
                     "count": item.get("count", 0),
                     "source_pages": source_pages,
+                    "classification": classification,
                     "suggestions": suggestions,
                 }
             )
@@ -980,12 +1003,14 @@ def repair_roamlinks(auto: bool = False, dry_run: bool = False) -> int:
                 "count": item.get("count", 0),
                 "source_pages": source_pages,
                 "changed_files": changed_files,
+                "classification": classification,
             }
         )
 
     report = {
         "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "mode": "dry-run" if dry_run else "apply",
+        "classification_counts": classification_counts,
         "fixed": fixed_entries,
         "ambiguous": ambiguous_entries,
         "files_changed": files_changed,

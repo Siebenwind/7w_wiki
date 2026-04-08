@@ -21,7 +21,7 @@ Sie verlässt schließlich das Armenviertel Richtung Süden, um der Situation un
 
 ## Relevante Entitäten
 
-### [[index]]
+### Einordnung
 *   **L.**: Die Protagonistin (Name unbekannt, evtl. "[[Laske]]"?). Trägt eine Narbe an der Schulter.
 *   **Der Elf**: Ein Nachbar im selben Haus, attraktiv, kriegerisch.
 

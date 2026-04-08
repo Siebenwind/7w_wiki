@@ -25,7 +25,7 @@ letzter_check: 2026-02-13T02:30:00+01:00
 *   **Schule & Jagd:** Werbung für die Schule in [[Falkensee]] und eine geplante Jagdschule von **[[Daron]]**.
 *   **Hochelfen:** Treffen zur Revitalisierung der Kultur und der Miliz [[Thar_Sala]].
 
-## [[index]]
+## Einordnung
 *   **[[Hagen_Robaar]]**: Lehnsherr, von Orks entführt.
 *   **[[Caeden_Ecanas]]**: Ritter, entführt und befreit.
 *   **[[Solos_Nhergas]]**: Neue Lehenskanzlerin.

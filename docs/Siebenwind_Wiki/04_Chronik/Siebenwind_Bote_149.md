@@ -24,7 +24,7 @@ letzter_check: 2026-02-13T02:05:00+01:00
 *   **Laienorden:** [[Leomar_Finkenfarn]] wirbt für den Laienorden der Viere (gegründet 14 n.H. von [[Whyrrdin]]).
 *   **Soziales:** Der "[[Orden_der_Traenen_Vitamas]]", gegründet von **[[Benion_Sandelholz]]**, hielt eine Armenspeisung ab.
 
-## [[index]]
+## Einordnung
 *   **[[Leomar_Finkenfarn]]**: Heiler, Reporter und Mitglied des Laienordens.
 *   **[[Erudin_Gropp]]**: Fähiger Schmied, der das Reichsschwert neu schmiedete.
 *   **[[Benion_Sandelholz]]**: Geweihter und Gründer des Ordens der Tränen Vitamas.

@@ -56,6 +56,9 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [Synapse_Board/RESEARCH-2026-010.md](Synapse_Board/RESEARCH-2026-010.md)
 - [x] [Logs/Conclusions/2026-02-17_Forum_Research_Report.md](../Logs/Conclusions/2026-02-17_Forum_Research_Report.md)
 - [x] [.agent/scripts/forum_scanner.py](../.agent/scripts/forum_scanner.py) (legacy runtime alias: `Scripts/forum_scanner.py`)
+- [x] [.agent/scripts/research_review.py](../.agent/scripts/research_review.py) (Research-Review-Runtime fuer `./7w_wiki.py start --list-reviews|--approve|--return-for-rework|--comment`)
+- [x] [.agent/data/forum_scan_register.json](../.agent/data/forum_scan_register.json) (maschinenlesbares Sichtungsregister fuer allowlistete Forums-Scans)
+- [x] [Logs/Reviews/RESEARCH_REVIEW_REGISTER.md](../Logs/Reviews/RESEARCH_REVIEW_REGISTER.md) (Register fuer Forschungsfreigaben, Rueckgaben und Historian-Kommentare)
 - [x] [.agent/scripts/install_tool.py](../.agent/scripts/install_tool.py) (Interner Packaging-Helper fuer Bundle-Manifeste und lokale Installationsplaene)
 - [x] [.agent/scripts/package_tool.py](../.agent/scripts/package_tool.py) (Kanonischer Bundle-Builder hinter `./7w_wiki.py package`)
 - [x] [.agent/scripts/sync_runtime_docs.py](../.agent/scripts/sync_runtime_docs.py) (Generiert Runtime-Command-Register fuer Governance-Dokumente)
@@ -81,4 +84,4 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [.agents/skills/workflow_forum_search/SKILL.md](../.agents/skills/workflow_forum_search/SKILL.md) (Generierte Codex-Workflow-Bridge)
 
 ---
-*Zuletzt aktualisiert: 2026-03-10T13:40:00Z | Ref: #codex_workflow_bridges_2026_03_10*
+*Zuletzt aktualisiert: 2026-04-08T19:26:00Z | Ref: #research_approval_forum_pipeline_2026_04_08*

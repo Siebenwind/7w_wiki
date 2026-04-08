@@ -1,7 +1,7 @@
 ---
 layout: wiki_page
 title: Siebenwind Bote 176
-category: [[index]]
+category: Index
 ---
 
 # [[Siebenwind]] Bote 176

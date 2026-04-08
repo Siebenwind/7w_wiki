@@ -12,7 +12,7 @@ letzter_check: 2026-02-13T01:02:10+01:00
 
 Der **Magierturm zu [[Tiefenbach]]** war eine bedeutende magische Lehranstalt im Osten von [[Siebenwind]], nahe der gleichnamigen (heute zerstörten) Stadt [[Tiefenbach]]. Das Gebäude wurde oft als "Weißer Dorn" bezeichnet.
 
-## [[index]]
+## Einordnung
 Der Turm war ein Zentrum wacher Gelehrsamkeit, bis er – wie die Stadt [[Tiefenbach]] selbst – im Krieg gegen die Horden des Einen zerstört wurde.
 *   **Lehrmeister:** [[Dunvallo_Linari]] wirkte hier als Lehrmeister.
 *   **Zerstörung:** Die Ruinen liegen heute im [[Ödland]].

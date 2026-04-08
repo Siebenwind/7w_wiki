@@ -26,7 +26,7 @@ Aarions Sohn, **Shiion**, sollte später der erste Fürst von Vandrien werden un
 ## Der Fall des Fürsten [[Raziel]]
 Ein düsterer Epilog berichtet vom Ende der Erbreihe unter Fürst **[[Raziel]]**, der dem blasphemischen Kult des **[[Angamon]]** verfiel und als letzter seiner Linie gilt.
 
-## [[index]]
+## Einordnung
 * [[Aarion]] (Graf der Wolfsmark)
 * [[Geruslav]]
 * [[Arnhorte]]

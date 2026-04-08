@@ -12,7 +12,7 @@ letzter_check: 2026-02-13T01:02:10+01:00
 
 Die **Akademie der Schwarzen Künste** (auch: *Akademie zur Linken*) ist eine historisch belegte, heute verbotene Institution, die sich mit der Erforschung der Dämonologie und Nekromantie befasste.
 
-## [[index]]
+## Einordnung
 *   **Leitung:** [[Kulin_Lateal]] war einst Erzmagus dieser Akademie.
 *   **Konflikt:** Im Krieg gegen den Dämon Sha beteiligte sich die Akademie paradoxerweise an dessen Bannung, um die totale Vernichtung zu verhindern (siehe [[Angriff_der_Schwarzmagier]]).
 

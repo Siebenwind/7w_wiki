@@ -25,7 +25,7 @@ letzter_check: 2026-02-13T15:20:00+01:00
 *   **Religion:** **[[Bardas_Loredis]]** empfing die Novizenweihe, **[[Vincent_Ebenstein]]** wurde zum Geweihten erhoben.
 *   **[[index]]:** **[[Sire_Dueff]]** (Lehnsherr von [[Südfall]]) schloss den Vitamabund mit der Schneiderin **Leyah**.
 
-## [[index]]
+## Einordnung
 *   **[[Beladriel_Blaettertanz]]**: Neue Truchsess der Insel.
 *   **[[Fedral_Lavid]]**: Gefallener Hochmeister der Ritterschaft (†).
 *   **[[Conrad_Bejnkirchner]]**: Sekretarius der Truchsess.

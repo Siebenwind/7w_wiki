@@ -20,7 +20,7 @@ category: Chronik
 ### [[index]] & Völker
 - **[[Orken]]-Problem:** Bericht über zunehmende Kriminalität durch [[Ork|Orken]] (Entführung, Bärenangriff). Gefreite [[Frau_von_Wankenbach]] vom Schutzzug schildert ihren Fall. Plädoyer für Völkerverständigung trotz Konflikten.
 
-### [[index]]
+### Einordnung
 - **Rundreise [[Greifenwald]]:** Beschreibung des Unterlehens [[Greifenwald]] unter Vasall Sir [[Laurec_Llewellyen]]. Regionen: [[Nordforst]] (Halblingslager), [[Auenwald]], [[Hügelwald]] (Ruine), [[Greifenklipp]] ([[Nortraven]]-Dorf mit Palisaden).
 
 ### Kultur & Religion

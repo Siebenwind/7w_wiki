@@ -25,7 +25,7 @@ letzter_check: 2026-02-13T17:15:00+01:00
     *   **Heilung:** **[[Laylira_Hohentann]]** wurde für ihren Einsatz gegen den [[Atmender_Tod|Atmenden Tod]] als „Heilende Hand Vitamas“ geehrt.
     *   **[[Falkensee]]:** Eine Serie von Bränden (u.a. bei **[[Baldasti]]**) sorgt für Beunruhigung.
 
-## [[index]]
+## Einordnung
 *   **[[Yves_Rondragon]]**: Neuer Lehnsherr von [[Seeberg]].
 *   **[[Benion_Sandelholz]]**: Erzgeweihter der [[Vitama]].
 *   **[[Proveus_Herand]]**: Erzgeweihter des [[Bellum]].

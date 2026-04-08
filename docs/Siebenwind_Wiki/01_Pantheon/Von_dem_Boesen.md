@@ -22,6 +22,6 @@ Als Beweise für die herannahende Katastrophe nennt er:
 ## Aufruf zum Widerstand
 Gamajeff plädiert für einen aktiv gelebten Glauben, der sich den Lehren der Götter unterwirft und aktiv gegen das Wirken des Einen antritt.
 
-## [[index]]
+## Einordnung
 * [[Etril_Gamajeff]] (Autor)
 * [[Angamon]] (Der Eine)

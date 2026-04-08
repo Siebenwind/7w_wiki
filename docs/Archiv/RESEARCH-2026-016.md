@@ -2,7 +2,7 @@
 layout: wiki_page
 title: RESEARCH-2026-016 - Hardhaven-Anachronismus
 category: Archiv
-status: tendered
+status: thematic_backlog
 letzter_check: 2026-04-08
 ---
 
@@ -17,7 +17,7 @@ Pruefung des sogenannten `Hardhaven-Anachronismus` in Geografie und Chronik.
 - Namens- und Siedlungszeitlinien
 
 ## Status
-**Tendered.** Der Auftrag bleibt offen.
+**Themenreservoir.** Das Thema bleibt sichtbar, ist aber kein aktiver Historian-Fall, bis es aus realer Arbeit als konkrete Unklarheit wieder auftaucht.
 
 ---
 **Siehe auch:** [[Research_Board]]

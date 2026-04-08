@@ -21,6 +21,8 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 MASTER_TASK_LIST = PROJECT_ROOT / "MASTER_TASK_LIST.md"
 CHANGELOG = PROJECT_ROOT / "CHANGELOG.md"
 INVENTUR_QUELLEN = PROJECT_ROOT / "Logs" / "INVENTUR_QUELLEN.md"
+FORUM_SCAN_REGISTER = PROJECT_ROOT / ".agent" / "data" / "forum_scan_register.json"
+RESEARCH_BOARD = PROJECT_ROOT / "System" / "Synapse_Board" / "LORE_RESEARCH_BOARD.md"
 REGISTER_CHECK_SCRIPT = PROJECT_ROOT / ".agent" / "scripts" / "register_check.py"
 DISPATCH_DIR = PROJECT_ROOT / "System" / "Synapse_Board" / "DISPATCH"
 TECH_SYNC_FILES = [
@@ -31,6 +33,8 @@ TECH_SYNC_FILES = [
     PROJECT_ROOT / ".agent" / "config" / "tools.json",
 ]
 PAGES_STALE_DAYS = 7
+FORUM_SCAN_STALE_DAYS = 14
+FORUM_ALLOWLIST = ("bekanntmachungen", "news", "geschichten")
 
 # ANSI Colors
 RED = "\033[91m"
@@ -111,6 +115,86 @@ def get_pending_sources_count():
     content = INVENTUR_QUELLEN.read_text(encoding="utf-8")
     return content.count("Pending")
 
+
+def get_research_review_pending_count() -> int:
+    if not RESEARCH_BOARD.exists():
+        return 0
+    content = RESEARCH_BOARD.read_text(encoding="utf-8")
+    return sum(
+        1
+        for line in content.splitlines()
+        if "| IN_REVIEW_HISTORIAN |" in line or "| AWAITING_HUMAN_DECISION |" in line
+    )
+
+
+def get_historian_pending_count() -> int:
+    if not RESEARCH_BOARD.exists():
+        return 0
+    content = RESEARCH_BOARD.read_text(encoding="utf-8")
+    return sum(
+        1
+        for line in content.splitlines()
+        if "| OPEN_HISTORIAN |" in line or "| IN_REVIEW_HISTORIAN |" in line
+    )
+
+
+def get_human_decision_required_count() -> int:
+    if not RESEARCH_BOARD.exists():
+        return 0
+    content = RESEARCH_BOARD.read_text(encoding="utf-8")
+    return sum(1 for line in content.splitlines() if "| AWAITING_HUMAN_DECISION |" in line)
+
+
+def get_forum_scan_status() -> dict:
+    if not FORUM_SCAN_REGISTER.exists():
+        return {
+            "boards": 0,
+            "entries": 0,
+            "last_scanned_at": None,
+            "stale_boards": len(FORUM_ALLOWLIST),
+            "threshold_days": FORUM_SCAN_STALE_DAYS,
+            "is_stale": True,
+        }
+    try:
+        data = json.loads(FORUM_SCAN_REGISTER.read_text(encoding="utf-8"))
+    except Exception:
+        return {
+            "boards": 0,
+            "entries": 0,
+            "last_scanned_at": None,
+            "stale_boards": len(FORUM_ALLOWLIST),
+            "threshold_days": FORUM_SCAN_STALE_DAYS,
+            "is_stale": True,
+        }
+    boards = data.get("boards", {})
+    last_scanned_at = None
+    stale_boards = 0
+    threshold = datetime.now(timezone.utc) - timedelta(days=FORUM_SCAN_STALE_DAYS)
+    for entry in boards.values():
+        ts = entry.get("last_scanned_at")
+        if ts and (last_scanned_at is None or ts > last_scanned_at):
+            last_scanned_at = ts
+    for board_key in FORUM_ALLOWLIST:
+        ts = boards.get(board_key, {}).get("last_scanned_at")
+        if not ts:
+            stale_boards += 1
+            continue
+        try:
+            parsed = datetime.fromisoformat(ts.replace("Z", "+00:00"))
+        except ValueError:
+            stale_boards += 1
+            continue
+        if parsed < threshold:
+            stale_boards += 1
+    return {
+        "boards": len(boards),
+        "entries": len(data.get("entries", [])),
+        "last_scanned_at": last_scanned_at,
+        "stale_boards": stale_boards,
+        "threshold_days": FORUM_SCAN_STALE_DAYS,
+        "is_stale": stale_boards > 0,
+    }
+
 def get_last_changelog_entry():
     """Liest den letzten Eintrag aus CHANGELOG.md."""
     if not CHANGELOG.exists():
@@ -153,6 +237,13 @@ def read_pages_health() -> dict:
             },
             "unresolved_total": 0,
             "unallowlisted_total": 0,
+            "classification_counts": {
+                "safe_exact_match": 0,
+                "safe_alias_match": 0,
+                "generic_term_conflict": 0,
+                "needs_historian": 0,
+                "needs_human": 0,
+            },
             "last_validated_at": None,
             "stale": True,
         }
@@ -177,6 +268,16 @@ def read_pages_health() -> dict:
         ),
         "unresolved_total": int(pages.get("unresolved_total", 0)),
         "unallowlisted_total": int(pages.get("unallowlisted_total", 0)),
+        "classification_counts": pages.get(
+            "classification_counts",
+            {
+                "safe_exact_match": 0,
+                "safe_alias_match": 0,
+                "generic_term_conflict": 0,
+                "needs_historian": 0,
+                "needs_human": 0,
+            },
+        ),
         "last_validated_at": last_validated_at,
         "stale": stale,
     }
@@ -289,7 +390,20 @@ def check_consistency():
     except Exception:
         return -1
 
-def build_recommendations(phase, task, pending_sources, issues, dispatch_counts, top_dispatch, pages_health, tech_master_routing):
+def build_recommendations(
+    phase,
+    task,
+    pending_sources,
+    issues,
+    dispatch_counts,
+    top_dispatch,
+    pages_health,
+    tech_master_routing,
+    review_pending_research,
+    historian_pending_count,
+    human_decision_required_count,
+    forum_scan_status,
+):
     recommendations: list[str] = []
     if issues > 0:
         recommendations.append(f"Run ./7w_wiki.py repair ({issues} consistency issues).")
@@ -303,9 +417,23 @@ def build_recommendations(phase, task, pending_sources, issues, dispatch_counts,
         recommendations.append("Pages drift detected; reconcile docs/Siebenwind_Wiki with the legacy shadow and higher-precedence sources.")
     if pages_health["unresolved_total"] >= 10:
         recommendations.append("Use ./7w_wiki.py repair --fix-roamlinks --auto for concentrated Pages-link drift.")
+    if pages_health["classification_counts"].get("generic_term_conflict", 0) > 0:
+        recommendations.append("Pages backlog enthaelt generische Begriffsziele; trenne mechanische Fixes von Begriffs-/Disambiguierungsarbeit.")
+    if pages_health["classification_counts"].get("needs_human", 0) > 0:
+        recommendations.append("Mindestens ein unresolved-Link-Fall ist als echte Menschentscheidung markiert.")
     open_dispatch = dispatch_counts.get("OPEN", 0)
     if open_dispatch > 0:
         recommendations.append("Review ./7w_wiki.py mail inbox --status OPEN before starting new work.")
+    if review_pending_research > 0:
+        recommendations.append("Historian-Faelle in Review oder Menschvorlage pending; inspect ./7w_wiki.py start --list-reviews.")
+    if historian_pending_count > 0:
+        recommendations.append("Offene Historian-Faelle vorhanden; route nur strittige oder groesser unklare Faelle zum Historian.")
+    if human_decision_required_count > 0:
+        recommendations.append("Mindestens ein Historian-Fall braucht echte Menschentscheidung; pruefe das Research Board auf AWAITING_HUMAN_DECISION.")
+    if forum_scan_status.get("stale_boards", 0) > 0:
+        recommendations.append(
+            f"Forum-Scan ist fuer {forum_scan_status['stale_boards']} allowlistete Boards aelter als {forum_scan_status['threshold_days']} Tage oder fehlt."
+        )
     if pending_sources > 50:
         recommendations.append("Large source backlog detected; prioritize /ingest_master.")
     elif task:
@@ -380,9 +508,13 @@ def collect_advisor_data():
     last_change = get_last_changelog_entry()
     phase, next_task = get_next_task()
     pending = get_pending_sources_count()
+    review_pending_research = get_research_review_pending_count()
+    historian_pending_count = get_historian_pending_count()
+    human_decision_required_count = get_human_decision_required_count()
     dispatch_counts, top_dispatch = get_dispatch_status()
     issues = check_consistency()
     pages_health = read_pages_health()
+    forum_scan_status = get_forum_scan_status()
     tech_master_routing = classify_tech_master_routing(pages_health)
     recommendations = build_recommendations(
         phase,
@@ -393,6 +525,10 @@ def collect_advisor_data():
         top_dispatch,
         pages_health,
         tech_master_routing,
+        review_pending_research,
+        historian_pending_count,
+        human_decision_required_count,
+        forum_scan_status,
     )
     degraded = issues != 0 or pages_health["stale"] or pages_health["status"] in {"WARN", "FAIL", "UNKNOWN"}
 
@@ -403,10 +539,17 @@ def collect_advisor_data():
         "current_phase": phase,
         "next_task": next_task,
         "pending_sources": pending,
+        "review_pending_research": review_pending_research,
+        "historian_pending_count": historian_pending_count,
+        "human_decision_required_count": human_decision_required_count,
+        "human_review_required_count": human_decision_required_count,
+        "human_review_required": human_decision_required_count,
+        "forum_scan_stale": forum_scan_status["stale_boards"],
         "dispatch": {
             "counts": dispatch_counts,
             "top_open": top_dispatch
         },
+        "forum_scan": forum_scan_status,
         "consistency_issues": issues,
         "pages_health": pages_health,
         "routing": {
@@ -465,6 +608,9 @@ def main():
     pending = data["pending_sources"]
     color = RED if pending > 0 else GREEN
     print(f"  📜 Offene Quellen:    {color}{pending}{RESET}")
+    print(f"  🎓 Research Review:   {YELLOW}{data['review_pending_research']}{RESET}")
+    print(f"  📚 Historian-Faelle:  {YELLOW}{data['historian_pending_count']}{RESET}")
+    print(f"  👤 Human Decision:    {YELLOW}{data['human_decision_required_count']}{RESET}")
 
     # 5. Dispatch Queue
     dispatch_counts = data["dispatch"]["counts"]
@@ -498,6 +644,14 @@ def main():
         f"unallowlisted {pages_health['unallowlisted_total']}"
     )
     print(
+        "  🔗 Link-Klassen:      "
+        f"exact {pages_health['classification_counts']['safe_exact_match']} | "
+        f"alias {pages_health['classification_counts']['safe_alias_match']} | "
+        f"generic {pages_health['classification_counts']['generic_term_conflict']} | "
+        f"historian {pages_health['classification_counts']['needs_historian']} | "
+        f"human {pages_health['classification_counts']['needs_human']}"
+    )
+    print(
         f"  🧭 Drift-Status:      {pages_health['drift_status']} | "
         f"legacy_only {pages_health['drift_counts']['legacy_only_files']} | "
         f"content_mismatches {pages_health['drift_counts']['content_mismatches']}"
@@ -505,6 +659,10 @@ def main():
     print(
         "  ⚙️  Tech Sync:        "
         f"{BLUE}{data['tech_hygiene']['last_sync_interop_at'] or 'unbekannt'}{RESET}"
+    )
+    print(
+        "  🛰️  Forum-Scan:       "
+        f"{BLUE}{data['forum_scan']['boards']} Boards / {data['forum_scan']['entries']} Eintraege / stale {data['forum_scan_stale']}{RESET}"
     )
         
     print("")

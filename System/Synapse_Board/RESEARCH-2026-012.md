@@ -1,13 +1,13 @@
 ---
 id: RESEARCH-2026-012
-status: TENDERED
+status: THEMATIC_BACKLOG
 priority: 3
 subject: Die verlorenen Tage (Sonnenzirkel)
 detected_by: User/Antigravity
 reward: +15 Lore-Trust
 ---
 
-# Forschungsauftrag (Research Assignment)
+# Themenfeld (Research Reservoir)
 
 ## 🎯 Forschungsziel
 Verifikation des Konzepts der "Verlorenen Tage" im Sonnenzirkel. Der aktuelle Artikel [[Zeitrechnung_(Der_Sonnenzirkel)]] beschreibt Phasen zwischen den Monaten (Lichthoch, Dunkeltief) als "verlorene Tage". Ein Nutzer-Hinweis identifizierte dies als Trugschluss. Es ist zu klären, wie diese Tage kanonisch korrekt bezeichnet und berechnet werden.
@@ -26,4 +26,4 @@ Widerspruch zwischen der aktuellen Darstellung im Wiki (Verlorene Tage als Schal
 - [ ] Update der [[Zeitleiste_(15-30_n.H.)]] falls nötig.
 
 ---
-*Dieser Auftrag ist zur Bearbeitung ausgeschrieben. Claiming via Status-Update.*
+*Dieses Themenfeld bleibt sichtbar, erzeugt aber erst bei konkreter operativer Unklarheit einen Historian-Fall.*

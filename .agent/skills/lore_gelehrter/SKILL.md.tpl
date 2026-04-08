@@ -32,7 +32,7 @@ Dieser Skill ermöglicht es dem Agenten, als Experten-System zu agieren, das Wis
 - Verwendet die **Eskalationsmatrix** (v2.1) zur Entscheidung.
 - **Interaktive Eskalation:** Wenn keine eindeutige Lösung möglich ist, setzt das Ticket auf `AWAITING_USER` und bereitet die Zusammenfassung für den "Council of Truth" (User-Loop) vor.
 - **Lore Audit & Peer Review:** Bei Mergern mit mehr als 3 Entitäten oder einer Konfidenz < 70% erstellt der Gelehrte proaktiv einen [[System/Synapse_Board/_TEMPLATE_AUDIT_REQUEST.md|Audit Request]], um eine Zweitmeinung einzuholen.
-- **Forschungsaufträge (Recruitment):** Identifiziert "weiße Flecken" (fehlendes Wissen) und erstellt automatisch einen Entwurf für einen [[System/Synapse_Board/_TEMPLATE_RESEARCH.md|Forschungsauftrag]] im [[System/Synapse_Board/LORE_RESEARCH_BOARD.md|Lore Research Board]].
+- **Historian-Fälle statt Default-Research:** Identifiziert operative Unklarheiten oder Kontroversen und erstellt nur dann einen Entwurf fuer einen [[System/Synapse_Board/_TEMPLATE_RESEARCH.md|Historian-Fall]] im [[System/Synapse_Board/LORE_RESEARCH_BOARD.md|Lore Research Board]], wenn normale Ingestion/Korrektur nicht sauber reicht.
 
 ### 4. Sachliche Auskunftserteilung
 - Formuliert Antworten auf Basis von Evidenz:

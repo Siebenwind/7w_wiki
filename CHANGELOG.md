@@ -1,5 +1,65 @@
 # Changelog
 
+#### [2026-04-08.09] - Statistik entmischt, Geist entflechtet und konservative index-Welle gefahren
+### Prioritaet: P2
+### Hinzugefügt
+- `docs/Siebenwind_Wiki/00_Fundament/Geist.md`: neuer Begriffsartikel fuer den metaphysischen und magietheoretischen Gebrauch von `Geist`, klar getrennt von der Personenebene.
+### Geändert
+- `.agent/scripts/generate_wiki_stats.py`: Leserstatistik zeigt jetzt aktive Bearbeitungstage statt nackter Commit-Zahl, liest reale aktuelle Testreports aus Archiv und Temp-Verzeichnissen und blendet automatische Platzhalter aus den Personen-Rankings aus; ausserdem wird ein `index`-Placeholder-Inventar im Snapshot mitgefuehrt.
+- `.agent/scripts/pages_integrity.py`, `.agent/scripts/repair.py` und `.agent/scripts/advisor.py`: unresolved Pages-Targets werden jetzt in `safe_exact_match`, `safe_alias_match`, `generic_term_conflict`, `needs_historian` und `needs_human` klassifiziert; Advisor und Roamlink-Repair unterscheiden dadurch mechanische von begrifflichen Faellen.
+- `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Herr_Geist.md`, `docs/Siebenwind_Wiki/00_Fundament/Personenregister.md` und `docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md`: der Assassine wird jetzt eindeutig als `Herr_Geist` gefuehrt; `Geist` als generischer Begriff rankt nicht mehr als Persoenlichkeits-Stub.
+- `docs/Siebenwind_Wiki/**/*.md` und `docs/Quellen/**/*.md`: konservative erste `index`-Bereinigung fuer exakte Platzhalter in `category: [[index]]`, reinen `##/### [[index]]`-Ueberschriften und Glossar-Stubs.
+- `docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md`, `Logs/INGESTION_TRACKING_REGISTER.md` und `Logs/Archive/STATS_SNAPSHOT_latest.json`: auf den neuen Statistikstand regeneriert.
+### Validiert
+- `python3 -m py_compile .agent/scripts/generate_wiki_stats.py .agent/scripts/pages_integrity.py .agent/scripts/repair.py .agent/scripts/advisor.py`
+- `./7w_wiki.py stats`
+- `./7w_wiki.py test --suite reader-stats-contract`
+- `./7w_wiki.py test --suite source-link-hygiene`
+- `./7w_wiki.py check docs/Siebenwind_Wiki/00_Fundament/Geist.md`
+- `./7w_wiki.py check docs/Siebenwind_Wiki/07_Persoenlichkeiten/Herr_Geist.md`
+- `./7w_wiki.py pages validate --json --skip-audit` (`unresolved_total` von 681 auf 653, `generic_term_conflict` jetzt explizit sichtbar)
+- `./7w_wiki.py repair --fix-roamlinks --dry-run`
+
+#### [2026-04-08.08] - Research Board auf Historian-Docket und operativen Default zurueckgebaut
+### Prioritaet: P2
+### Geändert
+- `.agent/scripts/advisor.py` und `.agent/scripts/forum_scanner.py`: Advisor-Semantik auf `historian_pending_count`, `human_decision_required_count` und `forum_scan_stale` umgestellt; Geschichten-Scans archivieren jetzt roh, ohne standardmaessige Menschvorlage.
+- `.agent/scripts/research_review.py` sowie `docs/Archiv/Research_Board.md` und `System/Synapse_Board/LORE_RESEARCH_BOARD.md`: Research-/Review-Statuswortschatz auf `OPEN_HISTORIAN`, `IN_REVIEW_HISTORIAN`, `AWAITING_HUMAN_DECISION`, `RESOLVED` und `THEMATIC_BACKLOG` gehoben.
+- `docs/Archiv/RESEARCH-2026-002/003/004/007/010/011/012/015/016/017.md`, `docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md`, `docs/Siebenwind_Wiki/10_Archiv/index.md` und `docs/index.md`: nur noch freigegebene Berichte als Neuveroeffentlichung sichtbar; offene Historian-Faelle bleiben im Docket.
+- `.agent/workflows/*`, `.agent/instructions/persona_historian.md`, `.agent/skills/lore_gelehrter/SKILL.md`, `.agent/skills/lore_gelehrter/SKILL.md.tpl`, `System/Synapse_Board/_TEMPLATE_RESEARCH.md`, `System/Synapse_Board/SY_STANDARDS.md`, `System/Synapse_Board/SY_REVIEW.md` und `System/Synapse_Board/SY_HISTORIAN_TRACEABILITY.md`: operativ-zuerst, Historian-nur-bei-Unklarheit, Mensch-nur-bei-Kontroverse dokumentiert.
+### Validiert
+- `python3 -m py_compile .agent/scripts/advisor.py .agent/scripts/forum_scanner.py .agent/scripts/research_review.py .agent/skills/oracle/build_index.py`
+- `./7w_wiki.py advisor --json`
+- `./7w_wiki.py start --list-reviews`
+- `./7w_wiki.py check .agent/workflows/start.md`
+- `./7w_wiki.py check .agent/workflows/forum_search.md`
+- `./7w_wiki.py check .agent/workflows/ingest_master.md`
+- `./7w_wiki.py check .agent/workflows/historian.md`
+- `./7w_wiki.py check .agent/workflows/lore_master.md`
+- `./7w_wiki.py check .agent/workflows/takeover.md`
+- `./7w_wiki.py check docs/Archiv/Research_Board.md`
+- `./7w_wiki.py check docs/Archiv/RESEARCH-2026-004.md`
+- `./7w_wiki.py check docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md`
+- `./7w_wiki.py check docs/index.md`
+- `./7w_wiki.py check System/Synapse_Board/LORE_RESEARCH_BOARD.md`
+- `./7w_wiki.py check System/Synapse_Board/SY_REVIEW.md`
+- `./7w_wiki.py test --suite workflow-matrix-contract`
+
+#### [2026-04-08.07] - Research-Approval und forumgestuetzte Story-Quellenpipeline eingefuehrt
+### Prioritaet: P2
+### Hinzugefügt
+- `.agent/scripts/research_review.py`: Review-Helfer fuer Research-Freigaben, Rueckgaben und Historian-Kommentare mit Register- und Dispatch-Spur.
+- `.agent/data/forum_scan_register.json`: maschinenlesbares Sichtungsregister fuer Forenscans.
+### Geändert
+- `7w_wiki.py`: `/start` um Research-Review-Aktionen erweitert und `scout --forum` fuer allowlistete Story-Boards vorbereitet.
+- `.agent/scripts/forum_scanner.py`: forumweite Allowlist, Roharchiv-Metadaten fuer neue Story-Funde und zentrales Scan-Register eingebaut.
+- `.agent/scripts/advisor.py`: zeigt jetzt zusaetzlich offene Research-Reviews und menschlich zu pruefende Story-Quellen an.
+- `.agent/workflows/start.md`, `.agent/workflows/forum_search.md`, `System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md` und `System/Synapse_Board/SY_REVIEW.md`: neuen Review- und Forum-Scan-Prozess dokumentiert.
+### Validiert
+- `./7w_wiki.py start --list-reviews`
+- `./7w_wiki.py advisor --json`
+- `./7w_wiki.py scout --help`
+
 #### [2026-04-08.06] - Archiv-Publikationsmodell und Interessante Artikel zur Releaseflaeche ausgebaut
 ### Prioritaet: P2
 ### Geändert

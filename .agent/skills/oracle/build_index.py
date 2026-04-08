@@ -266,7 +266,20 @@ def collect_board_metrics() -> dict:
         else:
             dispatch_invalid.append(str(file.relative_to(REPO_ROOT)))
 
-    research = scan("RESEARCH-*.md", {"TENDERED", "CLAIMED", "IN_PROGRESS", "REVIEW", "DONE", "COMPLETED"})
+    research = scan(
+        "RESEARCH-*.md",
+        {
+            "OPEN_HISTORIAN",
+            "IN_REVIEW_HISTORIAN",
+            "AWAITING_HUMAN_DECISION",
+            "RESOLVED",
+            "THEMATIC_BACKLOG",
+            "DEFERRED",
+            "PARKED",
+            "DONE",
+            "COMPLETED",
+        },
+    )
     conflicts = scan("Conflict_*.md", {"NEEDS_REVIEW", "RESEARCHING", "AWAITING_USER", "AUTO_RESOLVED", "HUMAN_RESOLVED", "RESOLVED"})
 
     inq_files = sorted(inq_dir.glob("*.md")) if inq_dir.exists() else []

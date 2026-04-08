@@ -17,7 +17,7 @@ Theologischer Auftrag zur moeglichen Goetterverschmelzung und zum Aufstieg [[Ast
 - ketzerische oder scholastische Gegenmodelle
 
 ## Status
-**Deferred.** Der Auftrag bleibt notiert, wurde aber nicht in die aktuelle Arbeitswelle gezogen.
+**Themenreservoir (deferred).** Das Thema bleibt sichtbar, ist aber derzeit kein aktiver Historian-Fall.
 
 ---
 **Siehe auch:** [[Astrael]], [[Research_Board]]

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-08T16:30:35Z",
-  "inputs_fingerprint": "8ce2f0e4004b96fd7dcd2f295fb17594f2ee2c7308648b16c613f71e2fd1e49d",
+  "generated_at": "2026-04-08T20:18:42Z",
+  "inputs_fingerprint": "c5b9f31d9f0c4c9b0fbfb355f0ccfb205a32087f00275971856153249e5777fd",
   "payload": {
     "index": {
       "01catar": [
@@ -640,7 +640,6 @@
       "alchemiekompendium": [
         "docs/Archiv/RESEARCH-2026-002.md",
         "docs/Archiv/RESEARCH-2026-003.md",
-        "docs/Archiv/Research_Board.md",
         "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md",
         "docs/Siebenwind_Wiki/05_Magie/Reagenzien_Lehre.md",
         "docs/Siebenwind_Wiki/05_Magie/Ritual_Bannung_des_Grix.md",
@@ -1878,7 +1877,6 @@
       "brandenstein": [
         "docs/Archiv/RESEARCH-2026-004.md",
         "docs/Archiv/RESEARCH-2026-012.md",
-        "docs/Archiv/Research_Board.md",
         "docs/Quellen/Spielergeschichten/Abschied_und_Verrat.md",
         "docs/Quellen/Spielergeschichten/Dunkeltief- Vänskap.md",
         "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md",
@@ -5380,6 +5378,7 @@
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
         "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Geist.md",
         "docs/Siebenwind_Wiki/00_Fundament/Glossar.md",
         "docs/Siebenwind_Wiki/00_Fundament/Magietheorie_Toran_Dur.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
@@ -5438,9 +5437,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Sorania.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tadschirim.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Uron_Sbocaj.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Waldemar_Delarie.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md"
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Waldemar_Delarie.md"
       ],
       "gemeinschaftderelementarglaeubigen": [
         "docs/Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md"
@@ -6326,7 +6323,10 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "herrgeist": [
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md"
+        "docs/Siebenwind_Wiki/00_Fundament/Geist.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "herrkurt": [
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 180.md",
@@ -6628,19 +6628,15 @@
       ],
       "index": [
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 176.md",
-        "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 178.md",
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 179.md",
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 180.md",
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
-        "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 182.md",
-        "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 185.md",
         "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
         "docs/Siebenwind_Wiki/00_Fundament/Bibliotheks_Register.md",
         "docs/Siebenwind_Wiki/00_Fundament/Das_Fundament.md",
         "docs/Siebenwind_Wiki/00_Fundament/Die_Monde.md",
         "docs/Siebenwind_Wiki/00_Fundament/Die_Sprache_Run.md",
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
-        "docs/Siebenwind_Wiki/00_Fundament/Glossar.md",
         "docs/Siebenwind_Wiki/00_Fundament/Handelskontore_der_Dwarschim_(H&H).md",
         "docs/Siebenwind_Wiki/00_Fundament/Lichthoch.md",
         "docs/Siebenwind_Wiki/00_Fundament/Linguistik_Übersicht.md",
@@ -6668,18 +6664,14 @@
         "docs/Siebenwind_Wiki/01_Pantheon/Rien.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Spiegel_Poem.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Thjarek.md",
-        "docs/Siebenwind_Wiki/01_Pantheon/Vandriens_Entstehung.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Ventus.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Vitama.md",
-        "docs/Siebenwind_Wiki/01_Pantheon/Von_dem_Boesen.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Von_den_Myten.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Xan.md",
         "docs/Siebenwind_Wiki/02_Geografie/Brandenstein.md",
         "docs/Siebenwind_Wiki/02_Geografie/Burg_Schwingenwacht.md",
         "docs/Siebenwind_Wiki/02_Geografie/Falkensee.md",
-        "docs/Siebenwind_Wiki/02_Geografie/Feste_Seeberg.md",
         "docs/Siebenwind_Wiki/02_Geografie/Finsterwangen.md",
-        "docs/Siebenwind_Wiki/02_Geografie/Greifenklipp.md",
         "docs/Siebenwind_Wiki/02_Geografie/Region_Bernstein.md",
         "docs/Siebenwind_Wiki/02_Geografie/Region_Ersont.md",
         "docs/Siebenwind_Wiki/02_Geografie/Region_Falkenstein.md",
@@ -6712,12 +6704,10 @@
         "docs/Siebenwind_Wiki/03_Gesellschaft/Bibliothek_Astrael_Regeln.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Circus_Wendolyn.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Das_Adelssystem.md",
-        "docs/Siebenwind_Wiki/03_Gesellschaft/Derrvus_Matrixtheorie.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Die_Zusammenkunft.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Ecclesia_Elementorum.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Elfen.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Graue_Garde.md",
-        "docs/Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Kirche_der_Viere.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Koenigliche_Akademie_der_Arkanen_Kuenste.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Menschen.md",
@@ -6727,13 +6717,10 @@
         "docs/Siebenwind_Wiki/03_Gesellschaft/Persoenlichkeiten_Uebersicht.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Recht_Siebenwinds.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Ring_des_Argionemes.md",
-        "docs/Siebenwind_Wiki/03_Gesellschaft/Schwarze_Legion.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Siebenwind_Kronregiment.md",
-        "docs/Siebenwind_Wiki/03_Gesellschaft/Tempelwache_Falkensee.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Terra_Dorotor.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Ventusreiter.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/XIII_Kronregiment.md",
-        "docs/Siebenwind_Wiki/03_Gesellschaft/Zwerge.md",
         "docs/Siebenwind_Wiki/03_Wissen/Magietheorie_nach_Dunvallo_Linari.md",
         "docs/Siebenwind_Wiki/03_Wissen/Recht/Iuribus_Siebenwind.md",
         "docs/Siebenwind_Wiki/03_Wissen/Sprache_Run.md",
@@ -6792,31 +6779,14 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_138.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_142.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_145.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_148.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_149.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_150.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_151.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_152.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_153.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_154.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_155.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_156.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_157.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_158.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_159.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_160.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_161.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_162.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_163.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_164.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_165.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_166.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_167.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_168.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_169.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_171.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_172.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_173.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_175.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_176.md",
@@ -6826,7 +6796,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_181.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_183.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_184.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_185.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_186.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_188.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_189.md",
@@ -6860,7 +6829,6 @@
         "docs/Siebenwind_Wiki/05_Magie/Elementarpfad.md",
         "docs/Siebenwind_Wiki/05_Magie/Golems.md",
         "docs/Siebenwind_Wiki/05_Magie/Hoehere_Wesenheiten.md",
-        "docs/Siebenwind_Wiki/05_Magie/Horlafstrom_Theorie.md",
         "docs/Siebenwind_Wiki/05_Magie/Illusionstheorie_Asanra.md",
         "docs/Siebenwind_Wiki/05_Magie/Konstruktbau_und_Ariin.md",
         "docs/Siebenwind_Wiki/05_Magie/Lehrbuch_Magietheorie.md",
@@ -6887,7 +6855,6 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Argus_Ebonhart.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arlin_Sturmfels.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Armgard_Torenson.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arvid_Ryandoris.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Azgar_Kazanin.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Barath_Or.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Bastean_Asanra.md",
@@ -6898,7 +6865,6 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Donarius_Derrvus.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Dunvallo_Linari.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ekart_Gradeg.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Erich_Rosenquarz.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Feanthil_(Arinth).md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Fedral_Lavid.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Felix_Goldschein.md",
@@ -6906,7 +6872,6 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Haldur_Toda.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hektor.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hendwig.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Herbren_Maltis.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Horan_Erandel.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ignatius_von_Mendel.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ignaz_Moravio.md",
@@ -6920,7 +6885,6 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Markus_Panscher.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Markward_von_Falkensee.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Morin_Thamaz.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Quendan_Ryandoris.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Quirian_Grint.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rakurion_Argus.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/S.L..md",
@@ -6940,31 +6904,21 @@
         "docs/Siebenwind_Wiki/08_Bestiarium/Klauenwoelfe.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Liche.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Magiefresser_Wolke.md",
-        "docs/Siebenwind_Wiki/08_Bestiarium/Sammler.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Tardukai.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Trolle.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Abschied_und_Verrat.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Abweisungen.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Alles_ohne_Pointe.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Aus_dem_Leben_eines_Schwarzmagiers.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Blutschwert.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Die_Elemente_ungleiche_Geschwister.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Die_Namikleris.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Die_Verbrennung_des_heiligen_Markus.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Die_Zwergen_WG.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Geschaeftiges_Treiben.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Kleiner_Almanach_uebernatuerlicher_Wesen.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Kraken.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Letzte_Vorbereitungen.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Logbuch_des_Kerkers.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Maid_vom_Greifenweiher.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Nachts_im_Brandensteiner_Tempel.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Nichts_und_ohne_Pointe.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Pruefung_und_Entsagung.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Pueppchens_Flucht.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Solfeister_Kin.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Von_gesplitterten_Seelen.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Akademie_der_Schwarzen_Kuenste.md",
         "docs/Siebenwind_Wiki/10_Archiv/Magierturm_zu_Tiefenbach.md"
       ],
       "indexsiebenwindtorandur": [
@@ -7832,7 +7786,8 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Der_Hutmacher.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Der_blinde_Maler.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Abweisungen.md"
+        "docs/Siebenwind_Wiki/09_Bibliothek/Abweisungen.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md"
       ],
       "lasned": [
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
@@ -7959,6 +7914,7 @@
         "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md"
       ],
       "lehrbuchmagietheorie": [
+        "docs/Siebenwind_Wiki/00_Fundament/Geist.md",
         "docs/Siebenwind_Wiki/00_Fundament/Magietheorie.md",
         "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md",
         "docs/Siebenwind_Wiki/05_Magie/Elementarlehre_Dunkelbaum.md",
@@ -8452,6 +8408,7 @@
         "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md",
         "docs/Siebenwind_Wiki/00_Fundament/Das_Fundament.md",
         "docs/Siebenwind_Wiki/00_Fundament/Die_Monde.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Geist.md",
         "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Codex_Astraeli.md",
@@ -8639,7 +8596,6 @@
       ],
       "matrixtheorielinari": [
         "docs/Archiv/RESEARCH-2026-003.md",
-        "docs/Archiv/Research_Board.md",
         "docs/Siebenwind_Wiki/05_Magie/Lehrbuch_Magietheorie.md",
         "docs/Siebenwind_Wiki/05_Magie/Magietheorie_Linari.md",
         "docs/Siebenwind_Wiki/05_Magie/index.md",
@@ -10386,9 +10342,7 @@
       ],
       "research2026004": [
         "docs/Archiv/Research_Board.md",
-        "docs/MASTER_TASK_LIST.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md",
-        "docs/Siebenwind_Wiki/10_Archiv/index.md"
+        "docs/MASTER_TASK_LIST.md"
       ],
       "research2026005": [
         "docs/Archiv/Historian_Report_2026_003.md",
@@ -10400,16 +10354,16 @@
       ],
       "research2026007": [
         "docs/Archiv/Research_Board.md",
-        "docs/MASTER_TASK_LIST.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md",
-        "docs/Siebenwind_Wiki/10_Archiv/index.md"
+        "docs/MASTER_TASK_LIST.md"
       ],
       "research2026008": [
         "docs/Archiv/Research_Board.md"
       ],
       "research2026008report": [
         "docs/Archiv/RESEARCH-2026-008.md",
-        "docs/Archiv/Research_Board.md"
+        "docs/Archiv/Research_Board.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md",
+        "docs/Siebenwind_Wiki/10_Archiv/index.md"
       ],
       "research2026009": [
         "docs/Archiv/RESEARCH-2026-009_Report.md",
@@ -10417,7 +10371,9 @@
       ],
       "research2026009report": [
         "docs/Archiv/RESEARCH-2026-009.md",
-        "docs/Archiv/Research_Board.md"
+        "docs/Archiv/Research_Board.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md",
+        "docs/Siebenwind_Wiki/10_Archiv/index.md"
       ],
       "research2026010": [
         "docs/Archiv/Research_Board.md"
@@ -11266,6 +11222,7 @@
         "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
         "docs/Siebenwind_Wiki/00_Fundament/Bibliotheks_Register.md",
         "docs/Siebenwind_Wiki/00_Fundament/Das_Fundament.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Geist.md",
         "docs/Siebenwind_Wiki/00_Fundament/Glossar.md",
         "docs/Siebenwind_Wiki/00_Fundament/Handelskontore_der_Dwarschim_(H&H).md",
         "docs/Siebenwind_Wiki/00_Fundament/Handwerk_Übersicht.md",
@@ -12003,7 +11960,6 @@
       ],
       "siebenwindbote160": [
         "docs/Archiv/RESEARCH-2026-012.md",
-        "docs/Archiv/Research_Board.md",
         "docs/Siebenwind_Wiki/02_Geografie/Falkenwall.md",
         "docs/Siebenwind_Wiki/02_Geografie/Grünland.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Gilde_der_Feinschmiede.md",
@@ -12075,7 +12031,6 @@
       ],
       "siebenwindbote168": [
         "docs/Archiv/RESEARCH-2026-012.md",
-        "docs/Archiv/Research_Board.md",
         "docs/Siebenwind_Wiki/02_Geografie/Grünland.md",
         "docs/Siebenwind_Wiki/04_Chronik/Die_Chronik.md",
         "docs/Siebenwind_Wiki/04_Chronik/index.md",
@@ -12260,6 +12215,7 @@
       ],
       "siebenwindbote181": [
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Geist.md",
         "docs/Siebenwind_Wiki/04_Chronik/Die_Chronik.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_181.md",
         "docs/Siebenwind_Wiki/04_Chronik/index.md",
@@ -13337,6 +13293,7 @@
         "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md",
         "docs/Archiv/PROJECT_HISTORY.md",
         "docs/Archiv/RESEARCH-2026-008.md",
+        "docs/Archiv/Research_Board.md",
         "docs/Quellen/Spielergeschichten/Alles_ohne_Pointe.md",
         "docs/Quellen/Spielergeschichten/Aus dem Leben eines Schwarzmagiers.md",
         "docs/Quellen/Spielergeschichten/Aus_dem_Leben_eines_Schwarzmagiers.md",
@@ -14300,8 +14257,7 @@
         "docs/Siebenwind_Wiki/00_Fundament/Tare.md",
         "docs/Siebenwind_Wiki/00_Fundament/Vitamalin.md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rhadan_der_Graue.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md"
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rhadan_der_Graue.md"
       ],
       "zeitleiste1530nh": [
         "docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md",

@@ -2,6 +2,7 @@
 import json
 import re
 import subprocess
+import tempfile
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -24,6 +25,20 @@ EPI_PATTERN = re.compile(
     r"#(canon|bote|perspektive|ueberlieferung|überlieferung|news|meta|gemischt)",
     re.IGNORECASE,
 )
+INDEX_PLACEHOLDER_RE = re.compile(r"\[\[index\]\]", re.IGNORECASE)
+PLACEHOLDER_MARKERS = (
+    "[TBC]",
+    "Platzhalter und wurde automatisch während des Konsistenz-Audits erstellt.",
+    "Platzhalter und wurde automatisch waehrend des Konsistenz-Audits erstellt.",
+)
+GENERIC_PERSONALITY_BLOCKLIST = {
+    "geist",
+    "index",
+    "magie",
+    "persoenlichkeiten",
+    "wikilink",
+    "wikilinks",
+}
 
 
 def normalize_wikilink_target(target: str) -> str:
@@ -108,11 +123,22 @@ def safe_git_output(args: list[str]) -> str:
         return ""
 
 
+def _git_activity_days(days: int) -> int:
+    out = safe_git_output(
+        ["log", f"--since={days} days ago", "--date=format:%Y-%m-%d", "--format=%ad", "--", WIKI_DIR_NAME]
+    )
+    active_days = {line.strip() for line in out.splitlines() if line.strip()}
+    return len(active_days)
+
+
 def collect_git_activity() -> dict:
     activity = {
         "changed_files_7d": 0,
         "changed_files_30d": 0,
         "changed_files_90d": 0,
+        "active_days_7d": 0,
+        "active_days_30d": 0,
+        "active_days_90d": 0,
         "new_files_30d": 0,
         "commits_30d": 0,
     }
@@ -127,6 +153,7 @@ def collect_git_activity() -> dict:
             if line.strip().endswith(".md") and not line.strip().endswith("Wiki_Statistiken.md")
         }
         activity[key] = len(files)
+        activity[f"active_days_{days}d"] = _git_activity_days(days)
 
     out_new = safe_git_output(
         ["log", "--since=30 days ago", "--diff-filter=A", "--name-only", "--pretty=format:", "--", WIKI_DIR_NAME]
@@ -145,6 +172,17 @@ def collect_git_activity() -> dict:
         activity["commits_30d"] = 0
 
     return activity
+
+
+def _is_placeholder_article(raw: str) -> bool:
+    return any(marker in raw for marker in PLACEHOLDER_MARKERS)
+
+
+def _discover_test_report_paths() -> list[Path]:
+    report_paths = sorted(ARCHIVE_DIR.glob("TEST_*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
+    temp_root = Path(tempfile.gettempdir())
+    report_paths.extend(sorted(temp_root.glob("7w_test_*/TEST_*.md"), key=lambda p: p.stat().st_mtime, reverse=True))
+    return sorted(set(report_paths), key=lambda p: p.stat().st_mtime, reverse=True)
 
 
 def collect_ops_progress() -> dict:
@@ -181,7 +219,7 @@ def collect_ops_progress() -> dict:
         if match:
             progress["previous_audit_problems"] = int(match.group(1))
 
-    test_files = sorted(ARCHIVE_DIR.glob("TEST_*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
+    test_files = _discover_test_report_paths()
     by_suite: dict[str, Path] = {}
     for path in test_files:
         m = re.match(r"TEST_(.+)_\d{4}-\d{2}-\d{2}_\d{6}\.md$", path.name)
@@ -207,7 +245,7 @@ def collect_ops_progress() -> dict:
                 "pass": pass_count,
                 "fail": fail_count,
                 "skip": skip_count,
-                "report_file": str(path.relative_to(PROJECT_ROOT)),
+                "report_file": str(path.relative_to(PROJECT_ROOT)) if path.is_relative_to(PROJECT_ROOT) else str(path),
             }
         )
 
@@ -215,6 +253,52 @@ def collect_ops_progress() -> dict:
     progress["passing_suites"] = sum(1 for row in test_rows if row["result"] == "PASS")
     progress["failing_suites"] = sum(1 for row in test_rows if row["result"] == "FAIL")
     return progress
+
+
+def collect_index_placeholder_inventory() -> dict:
+    inventory = {
+        "total_exact_placeholders": 0,
+        "clusters": Counter(),
+        "samples": {},
+    }
+
+    for md_file in WIKI_DIR.rglob("*.md"):
+        try:
+            raw = md_file.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        rel_path = md_file.relative_to(WIKI_DIR)
+        section = rel_path.parts[0] if len(rel_path.parts) > 1 else "Root"
+        for line_no, line in enumerate(raw.splitlines(), start=1):
+            if not INDEX_PLACEHOLDER_RE.search(line):
+                continue
+            inventory["total_exact_placeholders"] += 1
+            stripped = line.strip()
+            if re.fullmatch(r"category:\s*\[\[index\]\]", stripped, re.IGNORECASE):
+                cluster = "frontmatter_category"
+            elif re.fullmatch(r"#{2,6}\s+\[\[index\]\]", stripped, re.IGNORECASE):
+                cluster = "placeholder_heading"
+            elif section in {"09_Bibliothek", "03_Wissen"}:
+                cluster = "bibliothek_werk"
+            elif section in {"05_Magie", "00_Fundament"}:
+                cluster = "wissen_magie"
+            elif section in {"03_Gesellschaft", "10_Archiv"}:
+                cluster = "institution_archiv"
+            else:
+                cluster = "begrifflich_unklar"
+            inventory["clusters"][cluster] += 1
+            sample_list = inventory["samples"].setdefault(cluster, [])
+            if len(sample_list) < 5:
+                sample_list.append(
+                    {
+                        "file": str(rel_path),
+                        "line": line_no,
+                        "text": stripped,
+                    }
+                )
+
+    inventory["clusters"] = dict(inventory["clusters"])
+    return inventory
 
 
 def collect_stats():
@@ -236,6 +320,7 @@ def collect_stats():
         "unclear_markers": 0,
         "epistemic_distribution": Counter(),
         "activity": collect_git_activity(),
+        "index_placeholder_inventory": collect_index_placeholder_inventory(),
     }
 
     personalities_lookup = {}
@@ -250,7 +335,12 @@ def collect_stats():
         target_norm = normalize_wikilink_target(stem)
         article_lookup[target_norm] = stem
         if "07_Persoenlichkeiten" in str(rel_path):
-            personalities_lookup[target_norm] = stem
+            try:
+                raw = md_file.read_text(encoding="utf-8")
+            except Exception:
+                raw = ""
+            if not _is_placeholder_article(raw) and target_norm not in GENERIC_PERSONALITY_BLOCKLIST:
+                personalities_lookup[target_norm] = stem
         if "04_Chronik" in str(rel_path) or "05_Geschichte" in str(rel_path):
             events_lookup[target_norm] = stem
 
@@ -505,11 +595,11 @@ category: Index
 
 ## 🔄 Was sich bewegt
 
-| Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
+| Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Aktive Tage |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | {stats['activity']['changed_files_7d']} | - | - |
-| Letzte 30 Tage | {stats['activity']['changed_files_30d']} | {stats['activity']['new_files_30d']} | {stats['activity']['commits_30d']} |
-| Letzte 90 Tage | {stats['activity']['changed_files_90d']} | - | - |
+| Letzte 7 Tage | {stats['activity']['changed_files_7d']} | - | {stats['activity']['active_days_7d']} |
+| Letzte 30 Tage | {stats['activity']['changed_files_30d']} | {stats['activity']['new_files_30d']} | {stats['activity']['active_days_30d']} |
+| Letzte 90 Tage | {stats['activity']['changed_files_90d']} | - | {stats['activity']['active_days_90d']} |
 
 ---
 
@@ -629,7 +719,7 @@ pie title Artikel pro Sektion
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
 - Letzter Audit: `{ops['latest_audit_file'] or 'n/a'}`
-- Letzte Testreports: `Logs/Archive/TEST_*.md`
+- Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
 
 ---
 > [!NOTE]
@@ -675,6 +765,9 @@ def build_stats_snapshot(stats: dict, tracking: dict, ops: dict) -> dict:
             "failing_suites": ops["failing_suites"],
         },
         "activity": stats["activity"],
+        "placeholder_inventory": {
+            "index": stats["index_placeholder_inventory"],
+        },
         "epistemic_distribution": dict(stats["epistemic_distribution"]),
         "files_per_category": dict(stats["files_per_category"]),
         "words_per_category": dict(stats["words_per_category"]),

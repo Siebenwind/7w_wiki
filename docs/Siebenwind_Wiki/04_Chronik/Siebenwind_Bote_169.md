@@ -28,7 +28,7 @@ letzter_check: 2026-02-13T16:00:00+01:00
 *   **Kirche:** Ein Skandal um den [[Enhor]]-Priester **[[Brand_Windfluesterer]]**, der die Regimentsheilerin **[[Isfaldia]]** angriff, wurde beigelegt.
 *   **Gerüchte:** Eine Romanze zwischen Baronin [[Beladriel_Blaettertanz]] und Ritter [[Aspin_Schwertklinge_von_Fahlenau|Aspin Schwertklinge]] sorgt für Gesprächsstoff.
 
-## [[index]]
+## Einordnung
 *   **[[Tionne]]**: Neue Hauptfrau des Kronregiments.
 *   **[[Nithavela]]**: Inselpatrizierin.
 *   **[[Elodril_Myrtholis]]**: Inselpatrizier.

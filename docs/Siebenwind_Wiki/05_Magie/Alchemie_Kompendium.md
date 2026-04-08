@@ -5,7 +5,7 @@ category: Magie
 
 layout: wiki_page
 title: "Alchemie Kompendium"
-category: [[index]]
+category: Index
 status: integrated
 uuid: A1234567-B2C3-4D5E-8F9A-0A1B2C3D4E5F
 report_id: b3c4d5e6-f7a8-4b9c-0d1e-2f3a4b5c6d7e

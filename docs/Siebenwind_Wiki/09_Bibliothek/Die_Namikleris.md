@@ -24,7 +24,7 @@ Der Text deutet an, dass dieses Schiff (vermutlich später umgetauft in **Namikl
 
 ## Relevante Entitäten
 
-### [[index]]
+### Einordnung
 *   **[[Tintin_(Waljakov)|Tintin]]**: Der Protagonist. Windtänzer, handwerklich begabt, von Fernweh getrieben.
 *   **[[Vencurius]]**: Sein Mentor, der "verrückte Tattergreis mit seinem Machtfimmel", Rektor der Priorei.
 *   **Szarmaduk**: Ein Name, den [[Vencurius]] für den "Meister" verwendet (oder eine separate Entität?), der sie in ein Dilemma gebracht hat.

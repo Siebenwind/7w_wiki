@@ -21,7 +21,7 @@ Später, während einer Dunkelheit (vermutlich ein [[Dunkeltief]]), schreibt/bet
 
 ## Relevante Entitäten
 
-### [[index]]
+### Einordnung
 *   **Der Erzähler**: Ein unbekannter [[Bellum]]-Anhänger, der sein Leben als "Prüfung und Entsagung" versteht.
 *   **[[Lucienne]]**: Seine Ehefrau, deren Schicksal ungeklärt bleibt.
 

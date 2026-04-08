@@ -70,7 +70,7 @@ Diese Zeit ist geprägt vom Wiederaufbau und der Festigung des Königreichs Gala
 | 15 n.H. | ---
 layout: wiki_page
 title: [[Historie_&_Ären]]
-category: [[index]]
+category: Index
 status: Kanon
 ---
 
@@ -82,7 +82,7 @@ Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusamm
 | 15 n.H. | ---
 layout: wiki_page
 title: [[Historie_&_Ären]]
-category: [[index]]
+category: Index
 status: Kanon
 ---
 
@@ -94,7 +94,7 @@ Diese [[index]] fasst die großen Zeitalter und historischen Meilensteine zusamm
 | 15 n.H. | ---
 layout: wiki_page
 title: [[Historie_&_Ären]]
-category: [[index]]
+category: Index
 status: Kanon
 ---
 
@@ -367,7 +367,7 @@ Dieses Ereignis beschreibt das Verschwinden und den grausamen Tod/Fall einer Gru
 | 30 n.H. | ---
 layout: wiki_page
 title: Zeitleiste (15-30 n.H.)
-category: [[index]]
+category: Index
 author: [[Siebenwind]] Chronicler
 ---
 
@@ -375,7 +375,7 @@ author: [[Siebenwind]] Chronicler
 | 30 n.H. | ---
 layout: wiki_page
 title: Zeitleiste (15-30 n.H.)
-category: [[index]]
+category: Index
 author: [[Siebenwind]] Chronicler
 ---
 

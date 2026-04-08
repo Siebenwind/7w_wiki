@@ -26,7 +26,7 @@ letzter_check: 2026-02-13T15:25:00+01:00
 *   **[[index]]:** Die Akademie forscht erfolgreich an **arkanen Prothesen** (Gefühlsgesteuerte Edelstein-Technik) für Nichtmagier.
 *   **Bildung:** Die **Kämpferschule [[Falkensee]]** (Leitung: **Sire [[Laske]]**) hat ihren Betrieb aufgenommen.
 
-## [[index]]
+## Einordnung
 *   **[[Zacharias_Gropp]]**: Knappe und Sieger der Großjagd.
 *   **[[Lucius_Gropp|Lucius Freiherr Gropp]]**: Gardemeister und Hauptmann (Interview im Boten).
 *   **[[Niklas_Rattenfaenger]]**: Held von [[Brandenstein]] und Retter des Grafen.

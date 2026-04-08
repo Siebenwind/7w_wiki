@@ -1,13 +1,13 @@
 ---
 id: RESEARCH-2026-003
-status: TENDERED
+status: THEMATIC_BACKLOG
 priority: 3
 subject: [[Dunvallo_Linari]]
 detected_by: Oberarchivar
 reward: +12 Lore Score / Rank: Arcanist
 ---
 
-# Forschungsauftrag: Die Linari-Matrix (Magietheorie)
+# Themenfeld: Die Linari-Matrix (Magietheorie)
 
 ## 🎯 Forschungsziel
 Vertiefung der magietheoretischen Dokumentation im Wiki durch Integration der Werke von [[Dunvallo_Linari]]. Fokus auf die praktische Anwendung der Matrixtheorie und Reagenzienlehre.
@@ -26,4 +26,4 @@ Dunvallo Linari ist als einer der bedeutendsten Theoretiker markiert, sein Profi
 - [ ] Integration in die [[Magie_Grundlagen]].
 
 ---
-*Dieser Auftrag ist zur Bearbeitung ausgeschrieben.*
+*Dieses Themenfeld bleibt sichtbar, erzeugt aber erst bei konkreter operativer Unklarheit einen Historian-Fall.*

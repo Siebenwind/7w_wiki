@@ -31,7 +31,7 @@ letzter_check: 2026-02-13T16:35:00+01:00
     *   **Hochzeit:** [[Felis_Andras]] und [[Emanuel_Sanderus]] heirateten am 30. Seker 19 n.H.
     *   **Visionen:** Massenvisionen heimsuchen die Bewohner, u.a. während einer Messe im Elementarkloster.
 
-## [[index]]
+## Einordnung
 *   **[[Pharalis_Avistur]]**: Neue Ritterin und Co-Leiterin der Kämpferschule.
 *   **[[Yves_Rondragon]]**: Neuer Ritter.
 *   **[[Johannes_Tiberias]]**: Neues Inselratsmitglied.

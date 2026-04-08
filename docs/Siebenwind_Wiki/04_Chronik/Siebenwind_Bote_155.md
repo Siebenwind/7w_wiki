@@ -22,7 +22,7 @@ letzter_check: 2026-02-13T03:30:00+01:00
 ## Dokumente
 *   [[Siebenwindakte]]
 
-## [[index]]
+## Einordnung
 *   **[[Hagen_Robaar]]**: Verfasser der Akte.
 *   **[[Solos_Nhergas]]**: Neue Inselpatrizierin.
 

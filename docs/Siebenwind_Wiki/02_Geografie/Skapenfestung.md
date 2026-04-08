@@ -26,7 +26,7 @@ Zusammen mit Freiwilligen erreicht die Wehrkraft in Krisenzeiten bis zu 11.000 [
 ## Architektur und Bau
 Die Festung wurde mit Unterstützung der [[Rasse_Zwerge|Zwerge]] errichtet, welche auch für die Konstruktion der gewaltigen Belagerungs- und Verteidigungswaffen (Ballisten, Katapulte) verantwortlich zeichneten. 
 
-## [[index]]
+## Einordnung
 Im Jahr 4415 n. A. (4. Jahr der Krönung von [[Tyrana_I|König Tyrana I.]]) kam es zu einer massiven Belagerung durch eine Allianz aus [[Orken]], Trollen und Ogern. Dabei gelang es den Angreifern mit einer spezialisierten Belagerungsmaschine, das erste Torhaus zu durchbrechen.
 
 ---

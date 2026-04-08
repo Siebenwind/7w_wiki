@@ -1,4 +1,7 @@
 ---
+layout: wiki_page
+title: "Workflow: `/start` (Das Orakel von Siebenwind)"
+category: Workflow
 description: Zentraler Startpunkt & Entscheidungshilfe für neue Agenten
 ---
 
@@ -43,17 +46,22 @@ Der erste Schritt jedes Agenten ist zu verstehen, wo wir stehen.
 3. Führe `./7w_wiki.py test --suite clean-client-state` aus.
 4. Führe `./7w_wiki.py archive sync` aus, um die Berichts-Symlinks zu aktualisieren.
 5. Prüfe die [MASTER_TASK_LIST.md](../../MASTER_TASK_LIST.md) auf Prioritäten.
-6. Suche im [Research Board](../../System/Synapse_Board/LORE_RESEARCH_BOARD.md) nach unerledigten Forschungsaufträgen.
-7. Verifiziere die Interop-Basis:
+6. Suche im [Research Board](../../System/Synapse_Board/LORE_RESEARCH_BOARD.md) nach offenen Historian-Faellen und dem Themenreservoir.
+7. Wenn Historian-Faelle im Status `IN_REVIEW_HISTORIAN` oder `AWAITING_HUMAN_DECISION` stehen, pruefe den Freigabepfad:
+   - `./7w_wiki.py start --list-reviews`
+   - Menschliche Freigabe: `./7w_wiki.py start --review-id RESEARCH-2026-XXX --approve --reviewer "<Name>" --note "<Begruendung>"`
+   - Rueckgabe zur Nacharbeit: `./7w_wiki.py start --review-id RESEARCH-2026-XXX --return-for-rework --reviewer "<Name>" --note "<Anmerkungen>"`
+   - Fachkommentar ohne finale Freigabe: `./7w_wiki.py start --review-id RESEARCH-2026-XXX --comment --reviewer Historian --role historian_comment --note "<Kommentar>"`
+8. Verifiziere die Interop-Basis:
    - [SY_INTEROP.md](../../System/Synapse_Board/SY_INTEROP.md)
    - [SY_DISPATCH.md](../../System/Synapse_Board/SY_DISPATCH.md)
    - [SY_TESTING.md](../../System/Synapse_Board/SY_TESTING.md)
    - [SY_STANDARDS.md](../../System/Synapse_Board/SY_STANDARDS.md)
    - [COORDINATION_HUB.md](../../System/COORDINATION_HUB.md)
-8. Lies die aktuellste Session-Memory unter `Logs/Archive/SESSION_MEMORY_*.md` (falls vorhanden), bevor du neue Tasks startest.
-9. Wenn der Advisor `Pages Health` als `FAIL` oder `UNKNOWN` meldet oder der Pages-Snapshot veraltet ist, route zuerst zu `/tech_master`. Bei `WARN` bleibt der Hinweis sichtbar, erzwingt aber nur fuer Pages-, Link-, Build- oder Runtime-Arbeit den Technician-Pfad.
-10. Klassifiziere den Auftrag vor der Umsetzung als Homepage-, Quellen- oder Wiki-Page-Drift.
-11. Der vollstaendige Drift-/Pages-Vertrag liegt in [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md); dieser Workflow fasst nur die Startentscheidung zusammen.
+9. Lies die aktuellste Session-Memory unter `Logs/Archive/SESSION_MEMORY_*.md` (falls vorhanden), bevor du neue Tasks startest.
+10. Wenn der Advisor `Pages Health` als `FAIL` oder `UNKNOWN` meldet oder der Pages-Snapshot veraltet ist, route zuerst zu `/tech_master`. Bei `WARN` bleibt der Hinweis sichtbar, erzwingt aber nur fuer Pages-, Link-, Build- oder Runtime-Arbeit den Technician-Pfad.
+11. Klassifiziere den Auftrag vor der Umsetzung als Homepage-, Quellen- oder Wiki-Page-Drift.
+12. Der vollstaendige Drift-/Pages-Vertrag liegt in [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md); dieser Workflow fasst nur die Startentscheidung zusammen.
 
 ## 2. Wähle deinen Pfad (Choose your Persona & Master-Workflow)
 
@@ -76,9 +84,10 @@ Welche Rolle nimmst du heute ein? Das System ist in **5 Säulen (Pillars)** unte
 - **Master-Workflow:** `/qa_master`.
 
 ### 📜 The Historian (Department Geschichtsschreibung)
-*Ziel: Komplexe Widersprüche auflösen, Kanon-Updates pflegen und Artikel literarisch anreichern.*
-- **Wann?** Wenn du einen Forschungsauftrag übernimmst, User-Fragen beantwortest (Oracle) oder "Roman-Qualität" erzeugen willst.
+*Ziel: Komplexe Widersprüche auflösen, groessere fachliche Unklarheit synthetisieren und Artikel literarisch anreichern.*
+- **Wann?** Wenn operative Arbeit nicht sauber weiterkommt, du User-Fragen beantwortest (Oracle) oder "Roman-Qualität" erzeugen willst.
 - **Master-Workflow:** `/lore_master`.
+- **Review-Grenze:** Der Historian ist Eskalations- und Syntheseorgan, nicht der Default-Editor fuer neue Quellen. Geschichten-/Perspektivmaterial geht nur bei echtem Dissens oder groesserer Unklarheit an ihn; bei strittigen Themen entscheidet der Mensch.
 
 ### ⚙️ The Technician (Der Maschinenraum)
 *Ziel: CI/CD, Scripts, GitHub Actions und Architektur am Laufen halten.*

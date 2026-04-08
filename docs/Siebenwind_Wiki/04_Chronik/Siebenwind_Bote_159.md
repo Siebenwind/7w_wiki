@@ -22,7 +22,7 @@ letzter_check: 2026-02-13T05:00:00+01:00
 *   **[[Lichthoch]]:** Die Hochtage des Lichts werden mit Messen, Prozessionen und einem Feuerwerk am [[Falkenwall]] gefeiert.
 *   **Ratswahl:** Das Menschenvolk sucht einen Vertreter für den [[Grosser_Rat|Großen Rat]]. Kandidaten sind **[[Akora_Dur]]** (Tochter von [[Toran_Dur]]) und der Barde **[[Fabius]]**.
 
-## [[index]]
+## Einordnung
 *   **[[Brynn]]**: Neue Königin von Galadon.
 *   **[[Hilgorad_I_ap_Mer]]**: König (Hochzeit).
 *   **[[Akora_Dur]]**: Kandidatin für den Großen Rat.

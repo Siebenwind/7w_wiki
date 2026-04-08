@@ -24,7 +24,7 @@ letzter_check: 2026-02-13T04:30:00+01:00
 *   **Forstverwaltung:** Die Inselpatrizierin **[[Solos_Nhergas]]** löste die Forstverwaltung unter Oberförster **Birk** wegen Inkompetenz und Tierquälerei auf.
 *   **Zünfte:** [[Der_Große_Rat]] plant die Einführung von Zünften zur Organisation des Handwerks.
 
-## [[index]]
+## Einordnung
 *   **[[Proveus_Herand]]**: Geweihter Bellums, Anführer der Expedition in die Tiefe.
 *   **[[Lorence]]**: Geweihter Bellums, Protektor der [[Ferrin]].
 *   **[[Edomawyr]]**: Neuer Pfadleiter des Grauen Pfades.

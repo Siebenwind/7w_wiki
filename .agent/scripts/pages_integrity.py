@@ -49,6 +49,15 @@ NORMALIZE_TRANSLATION = str.maketrans({
     "Ö": "oe",
     "Ü": "ue",
 })
+GENERIC_UNRESOLVED_TARGETS = {
+    "geist",
+    "index",
+    "magie",
+    "persoenlichkeiten",
+    "wikilink",
+    "wikilinks",
+}
+HUMAN_DECISION_OWNERS = {"human", "maintainer", "coordinator"}
 
 
 def normalize_key(value: str) -> str:
@@ -69,6 +78,23 @@ def parse_frontmatter(raw: str) -> dict[str, str]:
         key, value = line.split(":", 1)
         meta[key.strip()] = value.strip()
     return meta
+
+
+def classify_unresolved_target(entry: dict, policy_entry: dict | None) -> str:
+    target_norm = str(entry.get("normalized_target", ""))
+    candidates = [candidate for candidate in entry.get("canonical_candidates", []) if candidate]
+    owner = str((policy_entry or {}).get("owner", "")).strip().lower()
+
+    if target_norm in GENERIC_UNRESOLVED_TARGETS:
+        return "generic_term_conflict"
+    if owner in HUMAN_DECISION_OWNERS:
+        return "needs_human"
+    if len(candidates) == 1:
+        candidate = candidates[0]
+        if normalize_key(str(entry.get("target", ""))) == normalize_key(candidate):
+            return "safe_exact_match"
+        return "safe_alias_match"
+    return "needs_historian"
 
 
 def get_mkdocs_base_cmd() -> tuple[list[str] | None, str | None]:
@@ -504,6 +530,13 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
     allowlisted_total = 0
     planned_fix_total = 0
     unallowlisted_total = 0
+    classification_counts: dict[str, int] = {
+        "safe_exact_match": 0,
+        "safe_alias_match": 0,
+        "generic_term_conflict": 0,
+        "needs_historian": 0,
+        "needs_human": 0,
+    }
     for key, entry in sorted(grouped.items(), key=lambda item: (-item[1]["count"], item[1]["target"].lower())):
         policy_entry = policy_map.get(key)
         policy_status = "untracked"
@@ -516,6 +549,8 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
             unallowlisted_total += entry["count"]
         else:
             unallowlisted_total += entry["count"]
+        classification = classify_unresolved_target(entry, policy_entry)
+        classification_counts[classification] += entry["count"]
         targets.append(
             {
                 "target": entry["target"],
@@ -529,6 +564,7 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
                 "review_until": None if not policy_entry else policy_entry.get("review_until"),
                 "replacement_hint": None if not policy_entry else policy_entry.get("replacement_hint"),
                 "scope": None if not policy_entry else policy_entry.get("scope"),
+                "classification": classification,
             }
         )
     target_grouping_duration_ms = round((time.perf_counter() - grouping_started) * 1000, 2)
@@ -591,6 +627,7 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
             "allowlisted_total": allowlisted_total,
             "planned_fix_total": planned_fix_total,
             "unallowlisted_total": unallowlisted_total,
+            "classification_counts": classification_counts,
             "targets": targets,
             "other_warnings": other_warnings,
         },

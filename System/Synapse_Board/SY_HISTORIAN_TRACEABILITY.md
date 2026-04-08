@@ -48,7 +48,7 @@ Nur bestehende Artefakte verwenden, keine Parallelwahrheiten:
 | Domain | Struktur | Kann beantworten | Grenzen |
 |---|---|---|---|
 | Dispatch | `id`, `uuid`, `status`, `from_agent`, `to_agent`, Zeitstempel | Auftrag, Claim, Abschluss, Verantwortlichkeit | Kein Dateidiff |
-| Research | Ticketstatus (`TENDERED`...`DONE`) + Fachkontext | Forschungslage, Prioritaet, Ergebnispfad | Kein commit-genauer Touch |
+| Research | Ticketstatus (`OPEN_HISTORIAN`...`RESOLVED`, `THEMATIC_BACKLOG`) + Fachkontext | Historian-Lage, Prioritaet, Ergebnispfad | Kein commit-genauer Touch |
 | Conflict | Konfliktstatus + Historiker-Opinion | warum eine Korrektur erfolgte | technische Aenderung nur indirekt |
 | Inquisition | Forschungs-/Theorieakte | Hypothesenstand, Abschlussgrad | nicht automatisch kanonisch |
 | Audit/Test Reports | pass/fail + Zeitpunkt | Systemgesundheit je Lauf | kein semantischer Inhaltsentscheid |

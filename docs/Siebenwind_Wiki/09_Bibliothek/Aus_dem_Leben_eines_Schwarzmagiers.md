@@ -25,7 +25,7 @@ Der Magier (oder Felix, die Perspektive verschwimmt) beschwört eine Armee aus U
 
 ## Relevante Entitäten
 
-### [[index]]
+### Einordnung
 *   **[[Felix_Goldschein]]**: Junger [[Bellum]]-Novize, der zum Diener eines Schwarzmagiers wird.
 *   **Der Schwarzmagier**: Unbenannter Antagonist, Nekromant, "Großväterlich-tadelnd", foltert mit heißem Wachs.
 

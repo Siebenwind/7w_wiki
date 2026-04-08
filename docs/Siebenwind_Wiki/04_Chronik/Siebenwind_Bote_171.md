@@ -26,7 +26,7 @@ letzter_check: 2026-02-13T16:30:00+01:00
 *   **[[Falkensee]]:** Vorräte wurden gehortet und Quartiere für Flüchtlinge bereitgestellt. Der [[Orden_der_Wachenden_Löwen]] befestigte den [[Falkenwall|Wall]] notdürftig.
 *   **Kämpferschule:** Sire [[Laske]] führt weiterhin die Kämpferschule, um tapfere Recken für das Soldatenhandwerk auszubilden.
 
-## [[index]]
+## Einordnung
 *   **[[Siegfried_Steiner]]**: Neuer Großmeister und Heerführer.
 *   **[[Mirian_Lasar]]**: Neue Heermeisterin und [[Orken]]-Gesandte.
 *   **[[Arlon_Windtanz]]**: Zwergen-Gesandter.

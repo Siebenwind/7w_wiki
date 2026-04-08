@@ -2,7 +2,7 @@
 layout: wiki_page
 title: RESEARCH-2026-004 - Causa Tjure Odal und Arn Toron
 category: Archiv
-status: review
+status: in_review_historian
 letzter_check: 2026-04-08
 ---
 
@@ -17,7 +17,7 @@ Rekonstruktion der belastbaren Historie von `Tjure Odal` und `Arn Toron` im Umfe
 - [[Tjure_Odal]] bleibt biografisch **[UNGEKLAERT]** und ist im aktuellen Corpus nur einmalig in `Bote 186` greifbar.
 
 ## Status
-**Review (Historian).**
+**Fachlich offen.** Historian-Gutachten liegt vor; Freigabe oder weitere Synthese steht noch aus.
 
 ## Weiterfuehrung
 Voller Arbeitsbericht: `Logs/Research/RESEARCH-2026-004_Summary.md`

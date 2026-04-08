@@ -32,6 +32,6 @@ Die ideale Struktur einer Matrix folgt der Zahlenlehre der Alten:
 ## Ziel der magischen Forschung
 Statt Materie nur umzuformen (Mutanda/Transformica), sollte das Ziel sein, die komplexen astralen Matrizen auf ihre zugrundeliegenden idealen Geometrien zu reduzieren, um sich dem Punkt (der Urquelle) zu nähern.
 
-## [[index]]
+## Einordnung
 * [[Donarius_Derrvus]] (Autor)
 * [[Geidwenja]] (Wissenschaftlicher Rivale)

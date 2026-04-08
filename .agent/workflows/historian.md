@@ -1,11 +1,15 @@
 ---
+layout: wiki_page
+title: "Workflow: `/historian` (Der Historiker)"
+category: Workflow
 description: Deep lore analysis workflow for targeted reconstruction, canon checks, and contradiction resolution
 ---
 
 # Workflow: `/historian` (Der Historiker)
 
 Dieses ausfuehrbare Workflowblatt ist der fokussierte Einzelauftrag-Pfad fuer tiefe Lore-Analyse.
-Es dient als Runtime-Einstieg fuer konkrete Forschungsfragen und verweist fuer die groessere Department-Logik auf [lore_master.md](lore_master.md).
+Es ist **kein** Default-Einstieg fuer jede neue Quelle, sondern der Runtime-Pfad fuer Faelle, die operativ nicht sauber loesbar sind, sowie fuer gezielte Fachfragen.
+Fuer die groessere Department-Logik verweist es auf [lore_master.md](lore_master.md).
 
 ## Interop-Status
 - runtime_commands:
@@ -22,6 +26,7 @@ Es dient als Runtime-Einstieg fuer konkrete Forschungsfragen und verweist fuer d
 1. Lies offene Historian-Nachrichten mit `./7w_wiki.py mail inbox --status OPEN`.
 2. Lies die konkrete Nachricht mit `./7w_wiki.py mail read <id>`.
 3. Claime den Auftrag mit `./7w_wiki.py mail claim <id> --agent Historian`, sobald du ihn uebernimmst.
+4. Pruefe zuerst, ob der Fall wirklich Historian-Charakter hat oder operativ direkt loesbar ist.
 
 ## 2. Evidenz sammeln
 1. Starte mit `./7w_wiki.py search "<frage>" --source wiki`.
@@ -33,6 +38,7 @@ Es dient als Runtime-Einstieg fuer konkrete Forschungsfragen und verweist fuer d
 1. Rekonstruiere die robusteste, quellengetragene Lesart.
 2. Markiere verbleibende Unsicherheit explizit als `[UNGEKLAERT]` oder eskaliere question-first.
 3. Wenn ein Wiki-Ziel oder Artikel geaendert wird, dokumentiere die Entscheidung knapp im Dispatch oder in einem Research-Log.
+4. Route nur bei echter Kontroverse oder Kanonentscheidung an den Menschen weiter.
 
 ## 4. Abschluss
 1. Poste einen Statusbericht mit `./7w_wiki.py mail done` oder `./7w_wiki.py mail post`.

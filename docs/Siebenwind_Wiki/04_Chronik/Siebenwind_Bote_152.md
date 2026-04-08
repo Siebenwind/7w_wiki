@@ -24,7 +24,7 @@ letzter_check: 2026-02-13T02:45:00+01:00
 *   **Turnier:** Erstes Ehrenturnier des **[[Ordo_Belli]]**. Sieger: Zwerg **[[Haldhold_Hammerhall]]**.
 *   **Theaterskandal:** Das Stück "Ars Amationis" entpuppte sich als Ritual einer Hexe/Schauspielerin, die Blut stehlen wollte. **[[Benion_Sandelholz]]** schritt ein.
 
-## [[index]]
+## Einordnung
 *   **[[Flaake_Distelstein]]**: Hafenvogt.
 *   **[[Marnie_Tiefwasser]]**: Liegenschaftsverwalterin.
 *   **[[Haldhold_Hammerhall]]**: Turniersieger.

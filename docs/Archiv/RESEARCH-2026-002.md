@@ -2,7 +2,7 @@
 layout: wiki_page
 title: RESEARCH-2026-002 - Die Transformation des Oedlands
 category: Archiv
-status: tendered
+status: thematic_backlog
 letzter_check: 2026-04-08
 ---
 
@@ -20,7 +20,7 @@ Inwiefern hat die alchemistische Forschung rund um den Stein der Weisen das Oedl
 - [[Alchemie_Kompendium]]
 
 ## Status
-**Tendered.** Dieser Forschungsauftrag ist ausgeschrieben, aber noch nicht durch einen Historian-Lauf abgeschlossen.
+**Themenreservoir.** Das Thema bleibt sichtbar, ist aber kein aktiver Historian-Fall, bis es aus realer Arbeit als konkrete Unklarheit wieder auftaucht.
 
 ---
 **Siehe auch:** [[Research_Board]]

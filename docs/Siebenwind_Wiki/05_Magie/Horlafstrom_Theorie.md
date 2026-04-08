@@ -5,7 +5,7 @@ category: Magie
 
 layout: wiki_page
 title: "Horlafstrom-Theorie"
-category: [[index]]
+category: Index
 status: integrated
 uuid: H1234567-B2C3-4D5E-8F9A-0A1B2C3D4E5F
 report_id: d5e6f7a8-b9c0-1d2e-3f4a-5b6c7d8e9f0a

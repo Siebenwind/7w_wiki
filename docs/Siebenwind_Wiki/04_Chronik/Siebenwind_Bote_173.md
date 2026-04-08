@@ -31,7 +31,7 @@ letzter_check: 2026-02-13T16:50:00+01:00
     *   **[[Der_Hutmacher]]:** Berichte über einen Dämon ("[[Der_Hutmacher]]"), der [[Menschen]] in Träumen verführt und Hutfedern als Zeichen seiner Macht verteilt.
     *   **Gedenken:** Ehrung des ehemaligen "**Bundes der Tapferen**" und seiner verstorbenen Mitglieder (u.a. [[Taurec_von_Schildtburg]], [[Mael_Duin]]).
 
-## [[index]]
+## Einordnung
 *   **[[Quenian]]**: Neuer Leutnant des Kronregiments.
 *   **[[Urs]]**: Leutnant des Kronregiments.
 *   **[[Riens_Lorien_Arden]]**: Hohepriester der [[Ecclesia_Elementorum]].

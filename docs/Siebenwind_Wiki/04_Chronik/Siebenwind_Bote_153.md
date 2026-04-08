@@ -25,7 +25,7 @@ letzter_check: 2026-02-13T03:00:00+01:00
 *   **Höhlen-Raid:** Ein Vorstoß gegen das "Nest des Blenders" (Knochenwesen) unter Führung von **[[Amaris_Aurinas]]**, **[[Sanduros]]** und **[[Toran_Dur]]** war teilweise erfolgreich, endete aber im Rückzug durch ein Portal.
 *   **Turnier:** Das zweite [[Bellum]]-Turnier gewann **[[Caeden_Ecanas]]**.
 
-## [[index]]
+## Einordnung
 *   **[[Arlon_Windtanz]]**: Neuer Ritter.
 *   **[[Sean_Eire]]**: Neuer Prätor.
 *   **[[Siegfried_Steiner]]**: Neuer Drachenritter.

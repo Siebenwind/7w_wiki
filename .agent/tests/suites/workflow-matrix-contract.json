@@ -12,7 +12,7 @@
             "BEGIN GENERATED RUNTIME COMMANDS",
             "BEGIN GENERATED ADAPTER ROWS",
             "`/scout` \\| executable \\| `7w_wiki\\.py scout`",
-            "`/forum_search` \\| executable \\| `7w_wiki\\.py scout --forum bekanntmachungen\\\\\\|news --pages N`",
+            "`/forum_search` \\| executable \\| `7w_wiki\\.py scout --forum <allowlisted-board> --pages N`",
             "Promoted discovery entrypoint; intentionally first-class for external source discovery"
           ]
         }

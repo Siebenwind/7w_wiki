@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-08T16:30:35Z",
-  "inputs_fingerprint": "c6941d899bc7a14501e73729859e3d8f3ac4844bd8eaf14c6b8762e4deb5790e",
+  "generated_at": "2026-04-08T20:18:42Z",
+  "inputs_fingerprint": "c5867e1cce7e83e047f3696df797848940bdcc80ac1b696748f1fdf090d2aa14",
   "payload": {
     "index": {
       "00religionuebersicht": [
@@ -1538,6 +1538,9 @@
       "geist": [
         "Geist"
       ],
+      "geistassassine": [
+        "Herr_Geist"
+      ],
       "geografie": [
         "Geografie"
       ],
@@ -1835,6 +1838,9 @@
       ],
       "herrdistelstein": [
         "Herr_Distelstein"
+      ],
+      "herrgeist": [
+        "Herr_Geist"
       ],
       "herrkurt": [
         "Herr_Kurt"

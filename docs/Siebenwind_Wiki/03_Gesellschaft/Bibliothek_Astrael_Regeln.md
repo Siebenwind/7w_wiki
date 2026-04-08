@@ -25,6 +25,6 @@ Dieses Regelwerk (verfasst von **Anais**, Bibliothekarin zu [[Brandenstein]]) le
 ## Sanktionen
 Bei Verstößen gegen das Regulatorium erfolgt der sofortige Verweis und ein dauerhaftes Hausverbot, bis Besserung bewiesen wurde.
 
-## [[index]]
+## Einordnung
 * [[Anais]] (Bibliothekarin / Autor)
 * **[[Brandenstein]]** (Ort der [[index]])

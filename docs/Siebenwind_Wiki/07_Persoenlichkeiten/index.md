@@ -210,7 +210,7 @@ Das Archiv der Persoenlichkeiten.
 *   [[Garreth_Moss|Garreth Moss]]
 *   [[Geduldiger_Sand|Geduldiger Sand]]
 *   [[Geidwenja|Geidwenja]]
-*   [[Geist|Geist]]
+*   [[Herr_Geist|Herr Geist]]
 *   [[Gerelda_Wendolyn|Gerelda Wendolyn]]
 *   [[Gerion|Gerion]]
 *   [[Gerion_Flammwurf|[[Gerion]] Flammwurf]]

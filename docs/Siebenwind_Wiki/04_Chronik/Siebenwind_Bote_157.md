@@ -25,7 +25,7 @@ letzter_check: 2026-02-13T04:00:00+01:00
 *   **Kriminalfall:** Mord an der Magierin **[[Annika_Rokan]]** (kein Mitglied der Akademie, sondern einer Splittergruppe).
 *   **Betrug:** Warnung vor einem falschen Abt, der Spenden sammelt.
 
-## [[index]]
+## Einordnung
 *   **[[Lhynhar_Silmaril]]**: Secretarius der Inselpatrizierin.
 *   **[[Mythandir]]**: Anführer der [[Ventusreiter]].
 *   **[[Annika_Rokan]]**: Ermordete Magierin.

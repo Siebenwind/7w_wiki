@@ -22,7 +22,7 @@ letzter_check: 2026-02-13T03:45:00+01:00
 *   **Milizen:** Den einzelnen Siedlungen wird das [[index]] zugesprochen, eigene Wachten und Milizen zum Schutz vor Unordnung auszuheben.
 *   **Schänder-Brief:** Der Rat lehnt einstimmig eine Kriegsdrohung der Schänder ab.
 
-## [[index]]
+## Einordnung
 *   **[[Frank_Biederstein]]**: Secretarius der Inselpatrizierin.
 *   **[[Fedral_Lavid]]**: Ehemaliger Lehensherr von [[Falkensee]].
 *   **[[Solos_Nhergas]]**: Inselpatrizierin (Inhaberin des Signums).

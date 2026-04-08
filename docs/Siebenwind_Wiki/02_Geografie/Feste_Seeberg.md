@@ -22,7 +22,7 @@ Nach der Auflösung der [[Kronmark]] dient [[Seeberg]] als Rückzugsort und neue
 
 Die Festung wurde im Jahr 20 n.H. leicht umgebaut und erweitert, um den Hofstaat und die Truppen zu beherbergen. Sie steht unter der direkten Befehlsgewalt von **[[Beladriel_Blaettertanz]]**.
 
-## [[index]]
+## Einordnung
 [[Seeberg]] liegt strategisch günstig auf einem Gebirgsausläufer und bietet Schutz gegen äußere Bedrohungen. Die Umgebung gilt als königliches Kernland inmitten der neu verteilten Lehen und autonomen Gebiete.
 
 ---

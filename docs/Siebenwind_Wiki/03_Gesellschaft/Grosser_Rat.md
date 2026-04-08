@@ -22,7 +22,7 @@ Der Rat besteht aus Vertretern der Siedlungen, Völker und wichtigen Institution
 *   **Institutionen:** [[Magierakademie]], [[Kirche_der_Viere]], [[Gemeinschaft_der_Elementargläubigen]].
 *   **Ständige Mitglieder:** Baron von [[Gerdenwald]], ein [[Ritter_der_Sieben_Winde]], der [[Lehnsherr]], der [[Inselpatrizier]].
 
-## [[index]]
+## Einordnung
 Die erste Sitzung wurde für den 12. Onar 18 n.H. in den großen Burgsaal von [[Finianswacht]] einberufen.
 
 ---

@@ -25,7 +25,7 @@ Wildgaden berichtet zudem von schweren Kontributionen durch den **Grafen von [[E
 
 ## Relevante Entitäten
 
-### [[index]]
+### Einordnung
 *   **[[Hagen_Robaar|Graf Robaar von Saalhorn]]**: Empfänger des Briefes.
 *   **[[Todward_von_Saalhorn]]**: Bruder des Grafen, verschollen in Khalandra.
 *   **[[Aelfrid_Wildgaden]]**: Treuer Kastellan auf Burg Saalhorn.
