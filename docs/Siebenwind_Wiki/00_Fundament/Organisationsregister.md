@@ -1,5 +1,6 @@
 ---
 title: Organisationsregister
+layout: wiki_page
 category: Allgemein
 ---
 
@@ -66,7 +67,7 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 *Noch im Aufbau / Ingestion läuft*
 - **[[Gilde_der_Feinschmiede]]:** (dw.: *Angar-Gôm*) Zentrales Handwerk für Metallveredelung.
 - **[[Hafengilde_Brandenstein]]:** Verwaltung der Docks und des Handels in [[Brandenstein]].
-- **Die Redaktion:** Herausgeber des [[[Siebenwind]] Bote](Siebenwind_Bote_Index.md).
+- **Die Redaktion:** Herausgeber des [Siebenwind Bote](Siebenwind_Bote_Index.md).
 
 ## Politische Gremien
 - **[[Der_Große_Rat]]**: Oberstes Entscheidungsgremium der Allianz.

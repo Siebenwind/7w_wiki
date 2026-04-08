@@ -26,7 +26,7 @@ Durch deine Mitarbeit erklärst du dich mit folgenden Lizenzen einverstanden:
 
 Bitte beachte unseren [Wiki Style Guide](Siebenwind_Wiki/00_Fundament/Wiki_Style_Guide.md) für:
 - Korrekte Epistemik-Tags (`#canon`, `#bote`, etc.).
-- Die Verwendung von `[[WikiLinks]]`.
+- Die Verwendung von `\[\[WikiLinks\]\]`.
 - Das Standard-YAML-Frontmatter.
 
 ---

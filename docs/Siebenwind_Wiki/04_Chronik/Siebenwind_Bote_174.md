@@ -1,9 +1,10 @@
 ---
 title: Siebenwind Bote 174
+layout: wiki_page
 category: Chronik
 ---
 
-# [[Siebenwind]] Bote 174
+# Siebenwind Bote 174
 
 !!! info "Metadaten"
     - **Epistemischer Status:** #bote
@@ -16,7 +17,7 @@ category: Chronik
 In einem historischen Erlass hat König [[Hilgorad_I_ap_Mer]] die [[Kronmark]] [[Siebenwind]] mit sofortiger Wirkung aufgelöst. 
 - **Verwaltung:** Die [[Ritterschaft_der_Sieben_Winde]] und die [[Inselpatrizier]] sind ihrer Ämter enthoben. 
 - **[[index]]:** Die Insel wurde in neue Lehens- und Hoheitsgebiete aufgeteilt.
-- **Königliches Gebiet:** Nur die Feste [[Seeberg]] bleibt direktes Kronland unter der Führung von [[Beladriel_Blättertanz]].
+- **Königliches Gebiet:** Nur die Feste [[Seeberg]] bleibt direktes Kronland unter der Führung von [[Beladriel_Blaettertanz|Beladriel Blättertanz]].
 
 ### Neue Lehensherren
 - **[[Falkensee]] & [[Südfall]]:** Übergeben an den [[Ersonter_Bund]] (vertreten durch Burggräfin [[Hannah_Berndorf]]).

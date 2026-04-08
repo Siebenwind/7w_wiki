@@ -1,5 +1,6 @@
 ---
 title: Raisha al Javet
+layout: wiki_page
 category: Persönlichkeit
 status: "#überlieferung"
 quelle: "[Invocatio Elementharii]"
@@ -11,4 +12,4 @@ quelle: "[Invocatio Elementharii]"
 Magierin (Elementar). Historische Persönlichkeit der Magiegeschichte, bekannt durch ihre Arbeiten zur Elementar-Beschwörung ("Invocatio Elementharii").
 
 ## Referenzen
-- [[Invocatio_Elementharii]]
+- [[Invocatio_Elementharii_(Raisha_al_Javet)|Invocatio Elementharii]]

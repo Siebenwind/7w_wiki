@@ -12,7 +12,7 @@ Dieser Leitfaden fasst die zentralen Schreib- und Strukturregeln fuer das [[Sieb
 
 - Nutze Markdown mit sauberer Ueberschriftenstruktur.
 - Verwende konsistente Begriffe und Namenskonventionen.
-- Verlinke relevante Seiten mit `[[WikiLinks]]`.
+- Verlinke relevante Seiten mit `\[\[WikiLinks\]\]`.
 - Trenne IC-Inhalt und OOC-Hinweise klar.
 - Hinterlege Quellen transparent.
 

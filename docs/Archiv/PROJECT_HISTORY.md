@@ -172,7 +172,7 @@
 <details>
 <summary><b>Phase 1.10: Link Engine Stabilization (Feb 2026)</b></summary>
 
-- **Ezlinks-Migration**: Erfolgreiche Umstellung auf das `mkdocs-ezlinks-plugin` für globale `[[WikiLinks]]`.
+- **Ezlinks-Migration**: Erfolgreiche Umstellung auf das `mkdocs-ezlinks-plugin` für globale `\[\[WikiLinks\]\]`.
 - **Optimization**: Verfeinerung der Engine-Konfiguration für verzeichnisübergreifende Pfadauflösung.
 </details>
 

@@ -9,7 +9,7 @@ tags: [[[Vitama]], Gebet, Segen, Heilung, Fruchtbarkeit, Kunst]
 
 **Epistemischer Status:** #canon
 
-Das Brevier des [[Ordo_Vitamae]] ist eine umfangreiche Sammlung von Texten, die die lebensbejahende und gütige Natur der Göttin [[Vitama]] preisen. Die Texte, teils von bekannten [[Persönlichkeiten]] wie [[Lea_Sonnenschein]] verfasst, decken alle Aspekte des täglichen Lebens ab – von der Ernte bis zur Heilung.
+Das Brevier des [[Ordo_Vitamae]] ist eine umfangreiche Sammlung von Texten, die die lebensbejahende und gütige Natur der Göttin [[Vitama]] preisen. Die Texte, teils von bekannten [[Persoenlichkeiten_Uebersicht|Persönlichkeiten]] wie [[Lea_Sonnenschein]] verfasst, decken alle Aspekte des täglichen Lebens ab – von der Ernte bis zur Heilung.
 
 ## Lobpreisungen und Verse
 

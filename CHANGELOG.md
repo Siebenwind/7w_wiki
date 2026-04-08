@@ -1,5 +1,19 @@
 # Changelog
 
+#### [2026-04-08.10] - Welle 2 der Linkhygiene mechanisch fortgesetzt
+### Prioritaet: P2
+### Geändert
+- `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kalveron_Dai.md`, `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Raisha_al_Javet.md` und `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Themus_Takai.md`: Werkreferenzen auf die kanonischen disambiguierten Zieltitel umgestellt.
+- `docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md`: Personenlink auf `[[Beladriel_Blaettertanz]]` normalisiert und H1/frontmatter fuer `check` begradigt.
+- `docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md`: kaputte `[[[Siebenwind]]`-Klammer im Redaktionsverweis bereinigt und Frontmatter-Hygiene nachgezogen.
+### Validiert
+- `./7w_wiki.py check docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kalveron_Dai.md`
+- `./7w_wiki.py check docs/Siebenwind_Wiki/07_Persoenlichkeiten/Raisha_al_Javet.md`
+- `./7w_wiki.py check docs/Siebenwind_Wiki/07_Persoenlichkeiten/Themus_Takai.md`
+- `./7w_wiki.py check docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md`
+- `./7w_wiki.py check docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md`
+- `./7w_wiki.py pages validate --json --skip-audit` (`unresolved_total` von 653 auf 641, `generic_term_conflict` von 15 auf 5, `safe_alias_match` von 4 auf 2)
+
 #### [2026-04-08.09] - Statistik entmischt, Geist entflechtet und konservative index-Welle gefahren
 ### Prioritaet: P2
 ### Hinzugefügt

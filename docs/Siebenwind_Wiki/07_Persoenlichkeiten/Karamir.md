@@ -13,7 +13,7 @@ category: Persönlichkeit
 
 
 ## Beschreibung
-Karamir ist als treuer Begleiter bekannt, der in den Wirren der 15. Jahre n.H. an der Seite bedeutender [[Persönlichkeiten]] gesehen wurde. Über seine Herkunft ist wenig bekannt, doch sein Mut wird in mehreren Berichten gelobt.
+Karamir ist als treuer Begleiter bekannt, der in den Wirren der 15. Jahre n.H. an der Seite bedeutender [[Persoenlichkeiten_Uebersicht|Persönlichkeiten]] gesehen wurde. Über seine Herkunft ist wenig bekannt, doch sein Mut wird in mehreren Berichten gelobt.
 
 ---
 **Quellen:** [[Siebenwind_Bote_123]]

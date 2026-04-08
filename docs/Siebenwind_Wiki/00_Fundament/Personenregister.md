@@ -7,7 +7,7 @@ category: Allgemein
 
 **Epistemischer Status:** #canon
 
-Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten [[index]] und [[Persönlichkeiten]] der Welt [[Siebenwind]].
+Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten Index-Eintraege und [[Persoenlichkeiten_Uebersicht|Persönlichkeiten]] der Welt [[Siebenwind]].
 
 ## Zentrale Personenliste
 
@@ -26,8 +26,8 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Athos]] | Reichsritter (i.R.) / Sire | [Bote 140] / [Der letzte Falke] | Historisch / 16 n.H. | #überlieferung |
 | [[Azaris]] | Nekromant | [Legende von Galahad] | Legendär | #überlieferung |
 | [[Avaratio_Mischelgrimm]] | Alchemist / Autor | [Opus i de alchimiae] | Historisch | #überlieferung |
-| [[Barath_Or]] | Bresch / Großmeister ([[Astrael]]) | [[[index]] des Barath Or] | Historisch | #überlieferung |
-| [[Baron_Gerdenwald]] | Baron | [Stadtchronik [[Rohehafen]]] | Historisch | #überlieferung |
+| [[Barath_Or]] | Bresch / Großmeister ([[Astrael]]) | [[Die_Werke_des_Barath_Or|Die Werke des Barath Or]] | Historisch | #überlieferung |
+| [[Baron_Gerdenwald]] | Baron | [[Die_Stadtchronik_Rohehafens|Stadtchronik Rohehafen]] | Historisch | #überlieferung |
 | [[Baron_Morgenroith]] | Baron / Gesetzgeber | [[Iuribus_Siebenwind]] | Historisch | #überlieferung |
 | [[Barnabas]] | Großmeister / Ritter | [Der letzte Falke] | Historisch | #überlieferung |
 | [[Aaron]] | Wegelagerer (frivol) / Ex-Anwärter (verhaftet) | [Bote 133/135] | 15-16 n.H. | #bote |
@@ -177,7 +177,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Eire]] | Vater / Geistlicher | [Heilige Liturgien] | Historisch | #überlieferung |
 | [[Erik]] | Bruder ([[Astrael]]) | [Heilige Liturgien] | Historisch | #überlieferung |
 | [[Elgar_von_Utracht]] | Autor | [Exercitium] | Historisch | #überlieferung |
-| [[Etril_Gamajeff]] | Autor / Chronist | [Stadtchronik [[Rohehafen]]] | Historisch | #überlieferung |
+| [[Etril_Gamajeff]] | Autor / Chronist | [[Die_Stadtchronik_Rohehafens|Stadtchronik Rohehafen]] | Historisch | #überlieferung |
 | [[Goslian]] | Hochwürden (Venturia) | [Über die Gebete] | Historisch | #überlieferung |
 | [[Galahad]] | Ritter der Rosen | [Legende von Galahad] | Legendär | #überlieferung |
 | [[Syr_Geron]] | Ritter | [Bote 122] | 15 n.H. | #bote |
@@ -589,7 +589,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Sylest_le_Felyhn]] | Adepta Arkana (Rechts) | [[Vjera_Batama_Magica]] | Historisch | #überlieferung |
 | [[Tjure_Odal]] | nur als "bekannter Ketzer" angefuehrt; weitere Biografie [UNGEKLAERT] | [Bote 186] | 22 n.H. | #bote |
 | [[Veridon]] | ? | - | - | #überlieferung |
-| [[Terenon_Sarophilan]] | Magier (Elfenfreund) | [Theorien der [[index]]] | Historisch | #überlieferung |
+| [[Terenon_Sarophilan]] | Magier (Elfenfreund) | [[Theorien_der_Magie_(Terenon_Sarophilan)|Theorien der Magie]] | Historisch | #überlieferung |
 | [[Themus_Takai]] | Magier (Baumwesen) | [Theorem zu den Baumwesen] | Historisch | #überlieferung |
 | [[Uron_Sbocaj]] | Magier / Theoretiker | [Thesen der Magiezweige] | Historisch | #überlieferung |
 | [[Wolfgang_Ravinsthal]] | Adeptus / Adeptus Arkanis / Autor | [Sphärenkunde] | Historisch | #überlieferung |

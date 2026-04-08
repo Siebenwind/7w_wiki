@@ -1,5 +1,6 @@
 ---
 title: Themus Takai
+layout: wiki_page
 category: Persönlichkeit
 status: "#überlieferung"
 quelle: "[Theorem zu den Baumwesen]"
@@ -11,4 +12,4 @@ quelle: "[Theorem zu den Baumwesen]"
 Magier (Baumwesen). Historische Persönlichkeit der Magiegeschichte, bekannt durch seine Forschung zu Baumwesen ("Theorem zu den Baumwesen").
 
 ## Referenzen
-- [[Theorem_zu_den_Baumwesen]]
+- [[Theorem_zu_den_Baumwesen_(Themus_Takai)|Theorem zu den Baumwesen]]

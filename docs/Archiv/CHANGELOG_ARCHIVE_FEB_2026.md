@@ -991,7 +991,7 @@
 
 ### Hinzugefügt
 - **Standard**: `STYLING.md` zur Kodifizierung des "Minimalist Tool" Ansatzes und der Symlink-Architektur.
-- **System**: Native `wikilinks` Extension aktiviert für stabilere `[[WikiLink]]` Auflösung auf GitHub Pages.
+- **System**: Native `wikilinks` Extension aktiviert für stabilere `\[\[WikiLink\]\]` Auflösung auf GitHub Pages.
 
 ### Geändert
 - **Design**: Pivot zum "Modern Scholar" Aesthetic (Beige/Rötel, Hochkontrast, schlichte Funktionalität).
@@ -1218,7 +1218,7 @@
 #### [2026-02-14.16] - Phase 19: GitHub Pages Overhaul & Link Repair
 
 ### Hinzugefügt
-- **Wiki-Plugins**: Aktivierung von `mkdocs-roamlinks-plugin` zur Unterstützung von `[[WikiLinks]]`.
+- **Wiki-Plugins**: Aktivierung von `mkdocs-roamlinks-plugin` zur Unterstützung von `\[\[WikiLinks\]\]`.
 - **Visuals**: Vollständiges Redesign der Homepage (`index.md`) im "Lore Engine" Stil.
 - **Navigation**: Strukturierte `mkdocs.yml` mit Direktzugriff auf Register und Chronik.
 - **GitHub Actions**: Automatisierte Installation der notwendigen Plugins im Deployment-Workflow.
