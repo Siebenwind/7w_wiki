@@ -17,7 +17,7 @@ Das Archiv der Fundament.
 *   [[Amulettkriege|Amulettkriege]]
 *   [[Archiv_Register|Archiv Register]]
 *   [[Arkadon|Arkadon]]
-*   [[Arman_von_Draconis|Arman von Draconis]]
+*   [[Arman|Arman von Draconis]]
 *   [[Astralnetz|Astralnetz]]
 *   [[Astreyon|Astreyon]]
 *   [[Auenelfen|Auenelfen]]

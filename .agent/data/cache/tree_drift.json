@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-03T18:35:42Z",
-  "inputs_fingerprint": "8c3ca42669b35f46a00821ae225f3e46acfec5dd7a372425ced1dc1d397f5e07",
+  "generated_at": "2026-04-08T16:08:18Z",
+  "inputs_fingerprint": "bec9097815325ab43a74a74983cbd7c333b2c21266c0490924638d16cd89c293",
   "payload": {
     "content_mismatches": [],
     "docs_only_files": [
@@ -459,6 +459,7 @@
       "03_Wissen/Sprache_Run.md",
       "03_Wissen/Sprachen/Sprache_Yerredoni.md",
       "03_Wissen/Sprachen/index.md",
+      "03_Wissen/Werke.md",
       "03_Wissen/Werke/Arcana_Procella_(Unbekannt).md",
       "03_Wissen/Werke/Ariin_(Rhadan_der_Graue).md",
       "03_Wissen/Werke/Arkane_Kriegsfuehrung_Band_I_(Erynnion_Comari).md",
@@ -504,6 +505,7 @@
       "03_Wissen/Werke/Thesen_der_Magiezweige_(Uron_Sbocaj).md",
       "03_Wissen/Werke/Vjera_Batama_Magica_(Sylest_le_Felyhn).md",
       "03_Wissen/Werke/Wirkung_von_Metallen_auf_arkane_Kraefte_(Edomawyr).md",
+      "03_Wissen/Werke/Zeichnung_Tares.md",
       "03_Wissen/Werke/index.md",
       "03_Wissen/index.md",
       "04_Chronik/Die_Chronik.md",

@@ -1,4 +1,5 @@
 ---
+layout: wiki_page
 title: Marnie Ruatha
 category: Personen
 ---
@@ -19,8 +20,7 @@ category: Personen
 *   **Amtszeit (um 19 n.H.):** In ihrer Amtszeit wurde der Bau einer Palisade um [[Brandenstein]] und eine Fährverbindung zu den [[Nortraven]] vorangetrieben.
 *   **Vitamaball (20 n.H.):** Am 15. Duler 20 n.H. lud sie als Hafenvogtess zum großen Vitamaball bei der Waldbühne zu [[Brandenstein]] ein ([[Siebenwind_Bote_173]]).
 *   **Kuhbingo (20 n.H.):** Am 26. Onar 20 n.H. führte sie die Kuh "Wilde Hilde" beim Kuhbingo auf der Lichtung bei [[Brandenstein]] ([[Siebenwind_Bote_173]]).
-*   **Krise (22 n.H.):** Im Jahr 22 n.H. (Bote 186) wurde sie in [[Brandenstein]] von der eigenen Wacht...
-Um sie vor der Malthuster Militärjustiz zu schützen, stellte [[Custodias]] sie unter Kirchenasyl.
+*   **Krise (22 n.H.):** Im Jahr 22 n.H. (Bote 186) wurde sie in [[Brandenstein]] von der [[Malthuster_Wacht]] unter Leutnant [[Erin_Caoimme]] unter dem Vorwurf festgesetzt, Ketzern wie [[Arn_Toron]] und [[Tjure_Odal]] geholfen zu haben. Um sie vor der Malthuster Militärjustiz zu schützen, stellte [[Custodias]] sie unter Kirchenasyl.
 
 ---
 **Siehe auch:** [[Region_Malthust]], [[Brandenstein]], [[Custodias]]

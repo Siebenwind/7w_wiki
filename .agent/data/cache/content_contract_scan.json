@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-03T18:35:44Z",
-  "inputs_fingerprint": "799fdad3c5fd756bf4bb7ff3683a4b9f0330ca467c21d32f530d111c894cde6c",
+  "generated_at": "2026-04-08T16:08:21Z",
+  "inputs_fingerprint": "2e7b31082b96a5efd660710f6e9105c8026709c58e63f75140339a14444a24ea",
   "payload": {
     "bridge_inventory": {
-      "invalid": 4,
-      "total": 86
+      "invalid": 0,
+      "total": 85
     },
     "contract_violations": {
-      "issues": 0
+      "issues": 16
     },
     "details": [
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -20,6 +20,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Religion_Übersicht]]\"",
+          "bridge_ticket": "MSG-2026-0090",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -113,7 +117,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -121,6 +125,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Gesellschaft]]\"",
+          "bridge_ticket": "MSG-2026-0090",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -295,7 +303,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -303,6 +311,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Arman]]\"",
+          "bridge_ticket": "MSG-2026-0089",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -371,21 +383,23 @@
       },
       {
         "analysis": {
-          "bridge_status": "tracked",
-          "classification": "bridge",
+          "bridge_status": "none",
+          "classification": "article",
           "duplicates": [],
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
-          "bridge_mode": "temporary",
-          "bridge_review_until": "2026-06-30",
-          "bridge_target": "\"[[Astreyonas]]\"",
-          "bridge_ticket": "MSG-2026-0087",
           "category": "Allgemein",
-          "quelle": "UNGEKLAERT",
-          "status": "UNGEKLAERT",
+          "letzter_check": "2026-04-08",
+          "lore_trust": "2",
+          "quelle": "../../Quellen/Hintergrund/Monde Tares | Siebenwind | Ultima Online Freeshard | Siebenwind.md",
           "title": "Astreyon"
         },
         "path": "docs/Siebenwind_Wiki/00_Fundament/Astreyon.md"
@@ -935,11 +949,17 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Allgemein",
-          "quelle": "UNGEKLAERT",
-          "status": "UNGEKLAERT",
+          "letzter_check": "2026-04-08",
+          "lore_trust": "2",
+          "quelle": "../../Quellen/Hintergrund/Monde Tares | Siebenwind | Ultima Online Freeshard | Siebenwind.md",
           "title": "Dorayon"
         },
         "path": "docs/Siebenwind_Wiki/00_Fundament/Dorayon.md"
@@ -1301,11 +1321,17 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Allgemein",
-          "quelle": "UNGEKLAERT",
-          "status": "UNGEKLAERT",
+          "letzter_check": "2026-04-08",
+          "lore_trust": "2",
+          "quelle": "../../Quellen/Bibliothek Toran Dur/Toran Dur - Die Magie.md",
           "title": "Fela"
         },
         "path": "docs/Siebenwind_Wiki/00_Fundament/Fela.md"
@@ -4118,9 +4144,17 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Allgemein",
+          "letzter_check": "2026-04-08",
+          "lore_trust": "2",
+          "quelle": "../../Quellen/Bibliothek Toran Dur/Toran Dur - Die Magie.md",
           "title": "Tare"
         },
         "path": "docs/Siebenwind_Wiki/00_Fundament/Tare.md"
@@ -4585,11 +4619,17 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Allgemein",
-          "quelle": "UNGEKLAERT",
-          "status": "UNGEKLAERT",
+          "letzter_check": "2026-04-08",
+          "lore_trust": "2",
+          "quelle": "../../Quellen/Hintergrund/Monde Tares | Siebenwind | Ultima Online Freeshard | Siebenwind.md",
           "title": "Vitamalin"
         },
         "path": "docs/Siebenwind_Wiki/00_Fundament/Vitamalin.md"
@@ -4723,7 +4763,7 @@
       },
       {
         "analysis": {
-          "bridge_status": "untracked",
+          "bridge_status": "tracked",
           "classification": "bridge",
           "duplicates": [],
           "has_frontmatter": true,
@@ -4731,6 +4771,10 @@
         },
         "changes": [],
         "meta": {
+          "bridge_mode": "temporary",
+          "bridge_review_until": "2026-06-30",
+          "bridge_target": "\"[[Werke]]\"",
+          "bridge_ticket": "MSG-2026-0090",
           "category": "Allgemein",
           "quelle": "UNGEKLAERT",
           "status": "UNGEKLAERT",
@@ -5325,7 +5369,12 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Religion",
           "confidence": "Certain",
@@ -5347,9 +5396,15 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Index",
+          "lore_trust": "2",
           "title": "Das Pantheon"
         },
         "path": "docs/Siebenwind_Wiki/01_Pantheon/Das_Pantheon.md"
@@ -6082,9 +6137,15 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Geografie",
+          "lore_trust": "2",
           "title": "Draconis"
         },
         "path": "docs/Siebenwind_Wiki/02_Geografie/Draconis.md"
@@ -7561,10 +7622,16 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Gesellschaft",
           "letzter_check": "2026-02-13T23:25:00",
+          "lore_trust": "2",
           "quelle": "../../../Quellen/Spielergeschichten/Das_Ende_der_Zeit_der_Koenige.md",
           "title": "Ring des Argionemes",
           "uuid": "r1ng-d35-4rg10n3m35-secret"
@@ -8652,6 +8719,33 @@
       {
         "analysis": {
           "bridge_status": "none",
+          "classification": "article",
+          "duplicates": [],
+          "has_frontmatter": true,
+          "stub_status": "none"
+        },
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
+        "meta": {
+          "author": "[[Rhadan_der_Graue]] (zugeschrieben), Archivteam (Zusammenstellung)",
+          "category": "Werke",
+          "date": "2026-04-08",
+          "description": "Eine Rhadan zugeschriebene kosmologische Skizze von Tare und den benannten Himmelskoerpern Fela, Vitamalin, Astreyon und Dorayon.",
+          "file_name": "Zeichnung_Tares.md",
+          "letzter_check": "2026-04-08",
+          "lore_trust": "2",
+          "quelle": "../../../Quellen/Bibliothek Toran Dur/Rhadan der Graue - Zeichnung Tares.jpg",
+          "title": "Zeichnung Tares"
+        },
+        "path": "docs/Siebenwind_Wiki/03_Wissen/Werke/Zeichnung_Tares.md"
+      },
+      {
+        "analysis": {
+          "bridge_status": "none",
           "classification": "index",
           "duplicates": [],
           "has_frontmatter": true,
@@ -8662,6 +8756,21 @@
           "title": "\"Siebenwind Wiki - Werke\""
         },
         "path": "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md"
+      },
+      {
+        "analysis": {
+          "bridge_status": "none",
+          "classification": "article",
+          "duplicates": [],
+          "has_frontmatter": true,
+          "stub_status": "none"
+        },
+        "changes": [],
+        "meta": {
+          "category": "Index",
+          "title": "Werke"
+        },
+        "path": "docs/Siebenwind_Wiki/03_Wissen/Werke.md"
       },
       {
         "analysis": {
@@ -9588,7 +9697,12 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Chronik",
           "letzter_check": "2026-02-13T15:45:00+01:00",
@@ -12850,9 +12964,15 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Persönlichkeit",
+          "lore_trust": "2",
           "title": "Arman"
         },
         "path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arman.md"
@@ -12901,10 +13021,17 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Personen",
-          "quelle": "../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_167.md",
+          "letzter_check": "2026-04-08",
+          "lore_trust": "2",
+          "quelle": "../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_184.md",
           "status": "Bote",
           "title": "Arn Toron"
         },
@@ -18412,7 +18539,12 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Personen",
           "title": "Marnie Ruatha"
@@ -19458,10 +19590,17 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Personen",
-          "quelle": "Rituallehre_Sphaeren",
+          "letzter_check": "2026-04-08",
+          "lore_trust": "2",
+          "quelle": "../../Quellen/Bibliothek Toran Dur/Rhadan der Graue - AriÔin.md",
           "title": "Rhadan der Graue"
         },
         "path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rhadan_der_Graue.md"
@@ -20939,9 +21078,18 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Personen",
+          "letzter_check": "2026-04-08",
+          "lore_trust": "2",
+          "quelle": "../../Quellen/Zeitung 7w Bote/Siebenwind Bote 186.md",
+          "status": "Bote",
           "title": "Tjure Odal"
         },
         "path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tjure_Odal.md"
@@ -22845,7 +22993,7 @@
     "render_hygiene": {
       "issues": 0
     },
-    "scanned_files": 1357,
+    "scanned_files": 1359,
     "split_brain": {
       "files": [],
       "issues": 0

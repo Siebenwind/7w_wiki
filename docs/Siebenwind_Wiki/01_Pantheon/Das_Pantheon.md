@@ -1,6 +1,8 @@
 ---
+layout: wiki_page
 title: Das Pantheon
 category: Index
+lore_trust: 2
 ---
 
 # Das Pantheon

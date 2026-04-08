@@ -3,41 +3,46 @@ layout: wiki_page
 title: Forschungsdossier: Rhadan der Graue (RESEARCH-2026-007)
 category: Archiv/Dossiers
 report_id: DOS-2026-007
-status: #completed
+status: #review
 ---
 
-!!! note "Status: #überlieferung"
-    Dieses Dossier basiert auf den fragmentarischen Überlieferungen des Turms zu Tiefenbach und den erhaltenen Schriften der "Rituallehre".
+# Forschungsdossier: Rhadan der Graue (RESEARCH-2026-007)
+
+!!! note "Status: #ueberlieferung / Review 2026-04-08"
+    Dieses Dossier basiert auf direkter Bildsichtung der `Zeichnung Tares` und dem Abgleich gegen die ueberlieferten Werke Rhadans sowie die Hintergrund-Kosmologie im Repo.
 
 [!ABSTRACT]
-Rhadan der Graue gilt als der Architekt der modernen Ritualmagie innerhalb des Grauen Pfades. Sein Werk konzentriert sich auf die Entropie-Minderung durch geometrische Präzision und die spirituelle Reinigung von magischen Räumen.
+Der Forschungsdurchlauf zu `RESEARCH-2026-007` reduziert das Rhadan-Dossier auf den belastbaren Befund: Die `Zeichnung Tares` ist eine schematische kosmologische Skizze der ersten Sphaere. Sie zeigt `Tare` als drachisch gedachte Weltmitte und ordnet `Fela`, `Vitamalin`, `Astreyon` und `Dorayon` als benannte Himmelskoerper darum an. Einzelne Nebenelemente der Lithografie bleiben dagegen [UNGEKLAERT].
 
-## I. Historischer Kontext
-Rhadan lehrte am historischen **Turm zu Tiefenbach** (ca. 12-18 n.H.). In einer Ära, die von den Nachwehen der Vandrien-Krise und dem Aufstieg dunkler Kulte geprägt war, suchte er nach Wegen, die arkane Macht zu stabilisieren.
+## I. Quellenbasis
+- `Quellen/Bibliothek Toran Dur/Rhadan der Graue - Zeichnung Tares.jpg`
+- `Quellen/Bibliothek Toran Dur/Rhadan der Graue - AriÔin.md`
+- `Quellen/Bibliothek Toran Dur/Toran Dur - Die Magie.md`
+- `Quellen/Hintergrund/Monde Tares | Siebenwind | Ultima Online Freeshard | Siebenwind.md`
 
-## II. Theoretische Kernpunkte
-Seine Forschung befasste sich primär mit zwei Säulen:
-1. **Geometrische Ritualistik:** Die Anordnung von Fokus-Steinen in bestimmten Winkeln zur Minimierung von Astral-Rauschen.
-2. **Die "Bewegte Reinigung":** Ein dynamisches Verfahren zur Entfernung von Dämonischer Korruption aus Objekten und Personen.
+## II. Was die Zeichnung sicher zeigt
+- `Tare` als zentrale Weltkugel.
+- Einen **eingerollten Drachen** im bzw. unter dem Leib `Tares`.
+- Die beschrifteten Himmelskoerper `Fela`, `Vitamalin`, `Astreyon` und `Dorayon`.
+- Eine bewusst schematische, nicht massstabsgerechte Anordnung.
 
-## III. Vernetzung & Disziplinen
-In Rhadans Theorie sind die Disziplinen wie folgt verknüpft:
+## III. Kosmologischer Befund
+1. **Tare als Drachenwelt:** `Toran Dur - Die Magie` beschreibt die erste Sphaere als vom Drachen `Tare` dominiert. Die Zeichnung visualisiert genau dieses Modell.
+2. **Fela und Vitamalin als drachische Himmelskoerper:** Beide werden bei Toran Dur als Drachen in planetarer Gestalt gefuehrt; die Zeichnung behandelt sie entsprechend als reale kosmische Koerper.
+3. **Astreyon als Auge:** `Monde Tares` beschreibt Astreyon als `silbernes Auge`; das Bild greift dieses Motiv direkt auf.
+4. **Dorayon als verdunkelter Trabant:** Die fleckige, verwaschene Darstellung entspricht der dortigen Beschreibung des von Angamon verdunkelten Mondes.
 
-```mermaid
-graph TD
-    R["Rhadan der Graue"] --> RM["Ritualmagie"]
-    R --> RE["Reinigungstechniken"]
-    RM --> GE["Geometrie"]
-    RE --> AC["Anticorruption"]
-    AC --> GP["Der Graue Pfad"]
-```
+## IV. Grenzen der Deutung
+- Der kleine dunkle Kreis rechts von `Tare` ist in diesem Lauf **nicht sicher identifiziert**.
+- Die daneben stehenden Runenzeichen sind ohne weitere Primaerquelle **nicht sauber auswertbar**.
+- Die Zeichnung liefert **keine** belastbare neue Lehre zu Bahnen oder Groessenverhaeltnissen; sie ist ein Schema, kein astronomisches Messbild.
 
-## IV. Überlieferungen & Fragmente
-Die wichtigsten erhaltenen Fragmente sind:
-*   [[Rituallehre_Sphaeren|Die Ritualisierung]]
-*   [[Ariin_(Rhadan_der_Graue)|Über die Erschaffung von Dienern]]
+## V. Ergebnis
+Das eigentliche Resultat des Dossiers ist weniger eine neue Kosmologie als eine saubere Einordnung der ueberlieferten Rhadan-Zeichnung:
+Sie illustriert die bekannte Mandon-Lehre in einer drachisch-symbolischen Form und bestaetigt besonders stark die bereits schriftlich bezeugten Motive `Tare = Drachenwelt`, `Astreyon = Auge` und `Dorayon = verdunkelter Trabant`.
 
 ---
 **Zugehörige Entität:** [[Rhadan_der_Graue]]
 **Referenz-ID:** RESEARCH-2026-007
-**Archivar:** Antigravity
+**Forschungsbericht:** `Logs/Research/RESEARCH-2026-007_Summary.md`
+**Archivar:** Historian

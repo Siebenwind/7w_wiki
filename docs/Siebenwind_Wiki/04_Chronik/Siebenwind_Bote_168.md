@@ -1,4 +1,5 @@
 ---
+layout: wiki_page
 uuid: f1e2d3c4-b5a6-4c7d-8e9f-a0b1c2d3e4f5
 title: Siebenwind Bote 168
 category: Chronik
@@ -6,7 +7,7 @@ status: Bote
 quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 168.md
 letzter_check: 2026-02-13T15:45:00+01:00
 ---
-# [[Siebenwind]] Bote 168
+# Siebenwind Bote 168
 
 !!! info "Metadaten"
     - **Epistemischer Status:** #bote
@@ -29,7 +30,6 @@ letzter_check: 2026-02-13T15:45:00+01:00
 *   **[[Marnie_Ruatha]]**: Initiatorin der [[Buergerwehr]].
 *   **[[Beladriel_Blaettertanz]]**: Verhängte das Kriegsrecht.
 *   **[[Erin_Caoimme]]**: Erwähnt als Wachtmeisterin in [[Brandenstein]] (Bote 167/168 Kontext).
-*   **[[Arn_Toron]]**: Als Verräter gebrandmarkt.
 
 ## Referenzen
 - Primärquelle: [Siebenwind Bote 168](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20168.md)

@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-04-03 20:33
+**Stand:** 2026-04-08 18:06
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -15,11 +15,11 @@ category: Index
 
 | Kennzahl | Wert |
 | :--- | :--- |
-| Artikel | **1356** |
-| Worte | **188,106** |
+| Artikel | **1358** |
+| Worte | **189,173** |
 | Durchschnittliche Artikellaenge | **139 Worte** |
-| Interne Verweise (`[[...]]`) | **13,745** |
-| Vernetzungsdichte | **10.1 Links/Artikel** |
+| Interne Verweise (`[[...]]`) | **13,800** |
+| Vernetzungsdichte | **10.2 Links/Artikel** |
 | Personenprofile | **586** |
 
 ---
@@ -28,8 +28,8 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Commits |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 924 | - | - |
-| Letzte 30 Tage | 1272 | 0 | 6 |
+| Letzte 7 Tage | 99 | - | - |
+| Letzte 30 Tage | 1272 | 0 | 7 |
 | Letzte 90 Tage | 1344 | - | - |
 
 ---
@@ -41,7 +41,7 @@ pie title Artikel pro Sektion
     "07_Persoenlichkeiten" : 586
     "05_Magie" : 41
     "08_Bestiarium" : 33
-    "03_Wissen" : 54
+    "03_Wissen" : 56
     "03_Gesellschaft" : 53
     "05_Geschichte" : 58
     "02_Geografie" : 57
@@ -70,21 +70,21 @@ pie title Artikel pro Sektion
 ### Starke Knoten (gesamt)
 | Entitaet | Verweise |
 | :--- | ---: |
-| [[Siebenwind]] | 585 |
-| [[Falkensee]] | 543 |
-| [[Brandenstein]] | 467 |
+| [[Siebenwind]] | 583 |
+| [[Falkensee]] | 542 |
+| [[Brandenstein]] | 468 |
 | [[Bellum]] | 168 |
-| [[Astrael]] | 156 |
+| [[Astrael]] | 157 |
 | [[Nortraven]] | 144 |
-| [[Toran_Dur]] | 136 |
+| [[Toran_Dur]] | 137 |
 
 
 ### Praegende Persoenlichkeiten
 | Persoenlichkeit | Verweise |
 | :--- | ---: |
-| [[Toran_Dur]] | 136 |
+| [[Toran_Dur]] | 137 |
 | [[Geist]] | 125 |
-| [[Custodias]] | 83 |
+| [[Custodias]] | 84 |
 | [[Waldemar_Delarie]] | 60 |
 | [[Dunvallo_Linari]] | 50 |
 | [[Hagen_Robaar]] | 49 |
@@ -97,10 +97,10 @@ pie title Artikel pro Sektion
 | [[Blutschwert]] | 22 |
 | [[Siebenwind_Bote_172]] | 20 |
 | [[Siebenwind_Bote_175]] | 19 |
+| [[Siebenwind_Bote_186]] | 19 |
 | [[Siebenwind_Bote_173]] | 18 |
 | [[Siebenwind_Bote_180]] | 18 |
 | [[Der_Putsch_von_Falkensee]] | 18 |
-| [[Siebenwind_Bote_186]] | 18 |
 
 
 ---
@@ -109,8 +109,8 @@ pie title Artikel pro Sektion
 
 | Qualitaetsindikator | Wert | Fortschritt |
 | :--- | :--- | :--- |
-| Frontmatter-Abdeckung | 1356/1356 | `##########` 100.0% |
-| Aufgeloeste Quellenangabe (`quelle`) | 433/1356 | `###-------` 31.9% |
+| Frontmatter-Abdeckung | 1358/1358 | `##########` 100.0% |
+| Aufgeloeste Quellenangabe (`quelle`) | 440/1358 | `###-------` 32.4% |
 | Ingestion Tracking vollstaendig | 55/55 | `##########` 100.0% |
 | Ingestion Reports mit LQS | 53/55 | `##########` 96.4% |
 | `[UNGEKLAERT]`-Marker (gesamt) | 257 | Beobachtung |
@@ -128,7 +128,7 @@ pie title Artikel pro Sektion
 | :--- | ---: |
 | `#bote` | 589 |
 | `#unbekannt` | 420 |
-| `#canon` | 137 |
+| `#canon` | 139 |
 | `#ueberlieferung` | 107 |
 | `#perspektive` | 102 |
 | `#news` | 1 |
@@ -140,10 +140,10 @@ pie title Artikel pro Sektion
 
 | Metrik | Stand |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | 9 |
+| Letzter Audit-Problemtotal | 17 |
 | Delta zum vorigen Audit | +0 |
-| Bridge-/Placeholder-Seiten | 86 |
-| Davon ohne Ausnahme-Metadaten | 4 |
+| Bridge-/Placeholder-Seiten | 85 |
+| Davon ohne Ausnahme-Metadaten | 0 |
 | Test-Suiten PASS | 0 |
 | Test-Suiten FAIL | 0 |
 
@@ -156,7 +156,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_6985d4da-9626-4827-807e-478e864deff2.txt`
+- Letzter Audit: `Logs/Archive/Audit_11f413cd-82f8-4176-b9d8-922b4565763b.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md`
 
 ---

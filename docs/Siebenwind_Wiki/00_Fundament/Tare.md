@@ -1,16 +1,28 @@
 ---
+layout: wiki_page
 title: Tare
 category: Allgemein
+quelle: ../../Quellen/Bibliothek Toran Dur/Toran Dur - Die Magie.md
+lore_trust: 2
+letzter_check: 2026-04-08
 ---
 
 # Tare
 
-**Epistemischer Status:** #canon
+**Epistemischer Status:** #canon / #ueberlieferung
 
-**Tare** (fälschlicherweise oft auch *Tares* genannt) ist der Name der Welt, auf der die Sterblichen leben. Sie ist weit mehr als nur ein physischer Ort; in der spirituellen Kosmologie Siebenwinds gilt sie als das lebendige "Drachenkind" von Timanor und Galamnor.
+**Tare** (falschlicherweise oft auch *Tares* genannt) ist die Welt der Sterblichen und in der kosmologischen Ueberlieferung zugleich ein drachisch gedachtes Weltwesen.
 
 ## Kosmologie & Natur
-Die Welt wird als beseelt betrachtet. Sie ist der Sitz von Fela (der Sonne) und den drei Monden Astreyon, Vitamalin und Dorayon. Ein Jahr auf Tare umfasst 365 Tage, eingeteilt in vier Götter-Jahreszeiten.
+In [[Die_Magie_(Toran_Dur)|Die Magie]] beschreibt Toran Dur die erste Sphaere als vom Drachen `Tare` beherrscht, "auf dessen Ruecken wir uns befinden und der umschlungen in den Tiefen seines Leibes den Yehorn haelt".
+
+Die [[Zeichnung_Tares]] visualisiert genau dieses Modell: `Tare` erscheint als zentrale Weltkugel, in deren Leib ein eingerollter Drache sichtbar ist.
+
+Zur ersten Sphaere gehoeren in den geprueften Quellen ausserdem:
+- [[Fela]]
+- [[Vitamalin]]
+- [[Astreyon]]
+- [[Dorayon]]
 
 ## Bedrohung durch [[Angamon]]
 In den religiösen Schriften (insb. [[Angamon]]) wird Tare als das Ziel der Vernichtung durch den verstoßenen Göttersohn dargestellt. [[Angamon]] neidet der Welt ihre Schöpfungskraft und strebt danach, das Licht zu verschlingen, wie es bereits im Krieg um die [[Mondamulette]] beinahe geschah.

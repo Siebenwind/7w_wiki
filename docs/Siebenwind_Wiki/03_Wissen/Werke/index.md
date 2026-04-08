@@ -53,3 +53,4 @@ Das Archiv der Werke.
 *   [[Thesen_der_Magiezweige_(Uron_Sbocaj)|Thesen der Magiezweige]]
 *   [[Vjera_Batama_Magica_(Sylest_le_Felyhn)|Die Erweiterte Thematik der [[Vjera_Batama_Magica]]]]
 *   [[Wirkung_von_Metallen_auf_arkane_Kraefte_(Edomawyr)|Die Wirkung von Metallen auf die arkanen Kräfte]]
+*   [[Zeichnung_Tares|Zeichnung Tares]]

@@ -332,7 +332,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[William_Glaron]] | Ritter / Sprecher ([[Löwenorden]]) | [Bote 183] | 21 n.H. | #bote |
 | [[Maltheos_Thorn]] | Hoher Diener ([[Bellum]]) | [Bote 183] | 21 n.H. | #bote |
 | [[Gin]] | Gardehauptmann ([[Graue_Garde]]) | [Bote 184] | 21 n.H. | #bote |
-| [[Arn_Toron]] | Kaufmann / Ex-Konsul ([[Falkensee]]) / "Ketzer" | [Bote 168/184/186] | 19-22 n.H. | #bote |
+| [[Arn_Toron]] | Kaufmann / Ex-Konsul ([[Falkensee]]) / spaeter als "Ketzer" beschuldigt | [Bote 184/186] | 21-22 n.H. | #bote |
 | [[Beatrix]] | Rekrutin ([[Graue_Garde]]) | [Bote 184] | 21 n.H. | #bote |
 | [[Krellgrimm_Glutschreiter]] | König ([[Dwarschim]]) | [Bote 184] | 21 n.H. | #bote |
 | [[Ingjald]] | Jarl / Edler ([[Nortraven]]) | [Bote 184] | 21 n.H. | #bote |
@@ -587,7 +587,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Raisha_al_Javet]] | Magierin (Elementar) | [Invocatio Elementharii] | Historisch | #überlieferung |
 | [[Rose_von_Sonnentau]] | Bardin / Dichterin | [Der letzte Falke] | Historisch | #überlieferung |
 | [[Sylest_le_Felyhn]] | Adepta Arkana (Rechts) | [[Vjera_Batama_Magica]] | Historisch | #überlieferung |
-| [[Tjure_Odal]] | Ketzer / Magier (?) | [Bote 186] | 22 n.H. | #bote |
+| [[Tjure_Odal]] | nur als "bekannter Ketzer" angefuehrt; weitere Biografie [UNGEKLAERT] | [Bote 186] | 22 n.H. | #bote |
 | [[Veridon]] | ? | - | - | #überlieferung |
 | [[Terenon_Sarophilan]] | Magier (Elfenfreund) | [Theorien der [[index]]] | Historisch | #überlieferung |
 | [[Themus_Takai]] | Magier (Baumwesen) | [Theorem zu den Baumwesen] | Historisch | #überlieferung |

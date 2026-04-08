@@ -1,21 +1,25 @@
 ---
+layout: wiki_page
 title: Rhadan der Graue
 category: Personen
-quelle: Rituallehre_Sphaeren
+quelle: ../../Quellen/Bibliothek Toran Dur/Rhadan der Graue - AriÔin.md
+lore_trust: 2
+letzter_check: 2026-04-08
 ---
 
 # Rhadan der Graue
 
 !!! info "Metadaten"
     - **Titel:** Erzmagier, Lehrmeister am Turm zu [[Tiefenbach]]
-    - **Epistemischer Status:** #überlieferung
+    - **Epistemischer Status:** #ueberlieferung
     - **Zugehörigkeit:** Turm zu [[Tiefenbach]] / Grauer Pfad
 
-
 ## Beschreibung
-**Rhadan der Graue** war einer der bedeutendsten Lehrmeister für Ritualmagie und Reinigungstechniken. Sein Hauptwerk, **[[Rituallehre_Sphaeren|Die Ritualisierung]]**, dient als fundamentale Quelle für die geometrische Anordnung von Ritualen und die so genannten "bewegten Reinigungen".
+**Rhadan der Graue** ist im aktuellen Repo-Befund als ueberlieferter Erzmagier und Lehrmeister am Turm zu [[Tiefenbach]] greifbar. Ihm werden im ueberlieferten Corpus vor allem **[[Die_Ritualisierung_(Rhadan_der_Graue)|Die Ritualisierung]]** und **[[Ariin_(Rhadan_der_Graue)|Ari'in]]** zugeschrieben.
 
-Er lehrte am historischen Turm zu [[Tiefenbach]] und prägte Generationen von Graumagiern in der Kunst, das Geflecht des Seienden zu manipulieren, ohne dabei der Korruption des Namenlosen zu verfallen.
+Zusaetzlich ist mit der **[[Zeichnung_Tares]]** eine kosmologische Skizze ueberliefert, die `Tare` als drachisch gedachte Weltmitte und die Himmelskoerper `Fela`, `Vitamalin`, `Astreyon` und `Dorayon` in schematischer Anordnung zeigt.
+
+Die Forschungslage stuetzt damit sicher Rhadans Verbindung zu Ritualtheorie, Konstruktbau und kosmologischer Illustration. Weitergehende Datierungen oder eine exakte Schulgeschichte bleiben im geprueften Material hingegen [UNGEKLAERT].
 
 ---
-**Siehe auch:** [[Rituallehre_Sphaeren]], [[Magie_Grundlagen]]
+**Siehe auch:** [[Die_Ritualisierung_(Rhadan_der_Graue)]], [[Ariin_(Rhadan_der_Graue)]], [[Zeichnung_Tares]]

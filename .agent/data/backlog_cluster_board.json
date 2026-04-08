@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-03T18:33:13Z",
+  "generated_at": "2026-04-08T16:06:01Z",
   "version": 1,
   "pages_health": {
     "status": "WARN",
     "unresolved_total": 683,
     "unallowlisted_total": 681,
-    "last_validated_at": "2026-04-03T17:26:18Z"
+    "last_validated_at": "2026-04-08T15:01:07Z"
   },
   "contract": {
-    "bridge_invalid": 4,
-    "contract_violations": 0
+    "bridge_invalid": 0,
+    "contract_violations": 16
   },
   "clusters": [
     {
@@ -112,6 +112,7 @@
           "count": 1,
           "source_pages": [
             "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+            "docs/Siebenwind_Wiki/03_Wissen/Werke.md",
             "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md",
             "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Caieta_Ajunier.md",
             "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Enoah_Sullin.md",
@@ -147,7 +148,7 @@
       "lane": "lane1",
       "auto_apply_allowed": true,
       "escalate_if": "lookup returns 0 or >1 plausible source files",
-      "count": 259,
+      "count": 260,
       "examples": [
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
         "docs/Siebenwind_Wiki/02_Geografie/Feste_Seeberg.md",
@@ -188,32 +189,8 @@
       "lane": "lane3",
       "auto_apply_allowed": false,
       "escalate_if": "replacement target is unclear or bridge must remain temporary",
-      "count": 4,
-      "examples": [
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/00_Religion_Uebersicht.md",
-          "targets": [],
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/03_Gesellschaft.md",
-          "targets": [],
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Arman_von_Draconis.md",
-          "targets": [
-            "Arman",
-            "Draconis"
-          ],
-          "bridge_status": "untracked"
-        },
-        {
-          "file": "docs/Siebenwind_Wiki/00_Fundament/Werke_index.md",
-          "targets": [],
-          "bridge_status": "untracked"
-        }
-      ]
+      "count": 0,
+      "examples": []
     }
   ]
 }

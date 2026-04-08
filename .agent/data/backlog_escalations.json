@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T18:33:13Z",
+  "generated_at": "2026-04-08T16:06:01Z",
   "version": 1,
   "items": [
     {
@@ -83,41 +83,6 @@
       ],
       "proposed_decision": "Theorem_zu_den_Baumwesen_(Themus_Takai)",
       "reason": "multiple or semantically non-identical canonical target candidates"
-    },
-    {
-      "cluster": "bridge_invalid",
-      "source_page": "docs/Siebenwind_Wiki/00_Fundament/00_Religion_Uebersicht.md",
-      "current_target": "",
-      "candidates": [],
-      "proposed_decision": "",
-      "reason": "bridge page is untracked and has 0 explicit target(s)"
-    },
-    {
-      "cluster": "bridge_invalid",
-      "source_page": "docs/Siebenwind_Wiki/00_Fundament/03_Gesellschaft.md",
-      "current_target": "",
-      "candidates": [],
-      "proposed_decision": "",
-      "reason": "bridge page is untracked and has 0 explicit target(s)"
-    },
-    {
-      "cluster": "bridge_invalid",
-      "source_page": "docs/Siebenwind_Wiki/00_Fundament/Arman_von_Draconis.md",
-      "current_target": "",
-      "candidates": [
-        "Arman",
-        "Draconis"
-      ],
-      "proposed_decision": "",
-      "reason": "bridge page is untracked and has 2 explicit target(s)"
-    },
-    {
-      "cluster": "bridge_invalid",
-      "source_page": "docs/Siebenwind_Wiki/00_Fundament/Werke_index.md",
-      "current_target": "",
-      "candidates": [],
-      "proposed_decision": "",
-      "reason": "bridge page is untracked and has 0 explicit target(s)"
     }
   ]
 }

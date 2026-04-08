@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-03T18:35:44Z",
-  "inputs_fingerprint": "22448290469999f4ad2233556262399fe8d9fca48ccea6a801d84a8d00b07aac",
+  "generated_at": "2026-04-08T16:08:21Z",
+  "inputs_fingerprint": "871fdd3657dcd70ae4b0fba1f9cc58b2d92dc330bb3e61894146c53ac9a1b659",
   "payload": {
     "latest_path": ".agent/data/wiki_inventory.json",
-    "snapshot_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_183544.json"
+    "snapshot_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_160821.json"
   },
   "version": 2
 }

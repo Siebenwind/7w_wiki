@@ -1,6 +1,8 @@
 ---
+layout: wiki_page
 title: Arman
 category: Persönlichkeit
+lore_trust: 2
 ---
 
 # Arman

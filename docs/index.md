@@ -59,18 +59,20 @@
 
 ## Interessante Artikel
 
+Aktuelle Rotation April 2026: **Unter dem Weissen Hochturm**. Die Auswahl verbindet Stadtbild, Kirchenordnung und eine kleine menschliche Perspektive im Machtzentrum Galadons.
+
 <div class="featured-grid">
-  <a href="Siebenwind_Wiki/02_Geografie/Siebenwind/" class="featured-card">
-    <h3>Siebenwind</h3>
-    <p>Der strategische Kernraum der Welt mit politischer, geographischer und kultureller Verknuepfung.</p>
+  <a href="Siebenwind_Wiki/02_Geografie/Draconis/" class="featured-card">
+    <h3>Draconis</h3>
+    <p>Die Weisse Perle des Reiches: Hauptstadt, Tempelzentrum und Ausgangspunkt fuer Macht, Glaube und Legende.</p>
   </a>
-  <a href="Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel)/" class="featured-card">
-    <h3>Zeitrechnung (Der Sonnenzirkel)</h3>
-    <p>Grundlage fuer historische Einordnung, Datierung und Quervergleiche in der Chronik.</p>
+  <a href="Siebenwind_Wiki/01_Pantheon/Codex_Iuris_Canonici/" class="featured-card">
+    <h3>Codex Iuris Canonici</h3>
+    <p>Kirchenrecht als Machtinstrument: ein Blick auf die Ordnung zwischen Thron, Altar und geistlicher Disziplin.</p>
   </a>
-  <a href="Siebenwind_Wiki/01_Pantheon/Das_Pantheon/" class="featured-card">
-    <h3>Das Pantheon</h3>
-    <p>Komprimierter Einstieg in Theologie, Machtbeziehungen und religioese Ordnung.</p>
+  <a href="Siebenwind_Wiki/07_Persoenlichkeiten/Arman/" class="featured-card">
+    <h3>Arman</h3>
+    <p>Eine kleine Figur mit grosser Aussagekraft ueber Volksglauben, Misstrauen und die Naehe der Orden.</p>
   </a>
 </div>
 

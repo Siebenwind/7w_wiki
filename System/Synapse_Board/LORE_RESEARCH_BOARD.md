@@ -10,8 +10,8 @@ Dieses Board dient der Koordinierung von Forschungsaufträgen. Hier werden "wei�
 |----|------------|-----------|--------|-------|
 | [[RESEARCH-2026-002]] | Die Transformation des Ödlands | 🟡 Mittel | TENDERED | Geografie/Chronik |
 | [[RESEARCH-2026-003]] | Die Linari-Matrix (Magietheorie) | 🟡 Mittel | TENDERED | System-Lore |
-| [[RESEARCH-2026-004]] | Causa Tjure Odal & Arn Toron | 🔴 Hoch | OPEN | Biografie/Historiker |
-| [[RESEARCH-2026-007]] | Dossier Rhadan: Zeichnung Tares | 🔴 Hoch | OPEN | Kosmologie/Historiker |
+| [[RESEARCH-2026-004]] | Causa Tjure Odal & Arn Toron | 🔴 Hoch | REVIEW (Historian) | Biografie/Historiker |
+| [[RESEARCH-2026-007]] | Dossier Rhadan: Zeichnung Tares | 🔴 Hoch | REVIEW (Historian) | Kosmologie/Historiker |
 | [[RESEARCH-2026-010]] | Götterverschmelzung & Astraels Aufstieg | ⚪ Niedrig | DEFERRED | Theologie |
 | [[RESEARCH-2026-011]] | Waldelfen-Exodus & Myten-Verbleib | ⚪ Niedrig | DEFERRED | Völkerkunde |
 | [[RESEARCH-2026-012]] | Das Grünland (Geografie & Siedlung) | 🔴 Hoch | TENDERED | Geografie |
@@ -25,9 +25,9 @@ Dieses Board dient der Koordinierung von Forschungsaufträgen. Hier werden "wei�
 
 **RESEARCH-2026-003 (Linari-Matrix):** Können die "verschiebbaren Knotenpunkte" der Reagenzien direkt in eine Matrix eingewebt werden, um permanente Artefakte ohne physische Materie zu erschaffen? Quelle: [[Matrixtheorie_Linari]], [[Alchemie_Grundlagen]].
 
-**RESEARCH-2026-004 (Causa Tjure Odal):** Tjure Odal wird als "unterstützter Ketzer" genannt, existiert aber nicht im Wiki. Arn Toron wird im Kontext erwähnt, Rolle unklar. Ziel: Rekonstruktion ihrer Historie. Quelle: Recherche Marnie Ruatha (Bote 167-186).
+**RESEARCH-2026-004 (Causa Tjure Odal):** Stand 2026-04-08: Forschungsdurchlauf abgeschlossen. Arn Toron ist im Bote-Strang 184/186 als ehemaliger Konsul, Kaufmann und späterer Brandensteiner Exilant belastbar; die "Ketzer"-Markierung bleibt Anklagesprache. Tjure Odal ist im ausgewerteten Corpus nur einmalig in Bote 186 genannt und biografisch weiter [UNGEKLAERT]. Ergebnis: Report `Logs/Research/RESEARCH-2026-004_Summary.md`, Wiki-Seiten nachgezogen, Board wartet auf Review.
 
-**RESEARCH-2026-007 (Dossier Rhadan):** Was stellt die Zeichnung Tares exakt dar? Welche kosmologischen Details lassen sich aus der Lithografie Rhadan des Grauen ableiten? Quelle: [[Ari´in]], [[Zeichnung_Tares]].
+**RESEARCH-2026-007 (Dossier Rhadan):** Stand 2026-04-08: Forschungsdurchlauf abgeschlossen. Die `Zeichnung Tares` zeigt belastbar ein schematisches Kosmologiebild der ersten Sphaere mit `Tare` als drachisch gedachter Weltmitte sowie `Fela`, `Vitamalin`, `Astreyon` und `Dorayon` als benannten Himmelskoerpern. Besonders sicher bestaetigt sind die Motive `Astreyon = Auge` und `Dorayon = verdunkelter Trabant`; ein kleiner dunkler Nebenkreis und Runenzeichen bleiben [UNGEKLAERT]. Ergebnis: Report `Logs/Research/RESEARCH-2026-007_Summary.md`, neue Seite `[[Zeichnung_Tares]]`, Kosmologie-Minimalartikel nachgezogen, Board wartet auf Review.
 
 **RESEARCH-2026-012 (Grünland):** Umfassende Kartierung der Region, Untersuchung historischer Siedlungsreste, Verifizierung der Grenzverläufe zu [[Brandenstein]]. Quelle: [[Siebenwind]] Geografie-Audit, [[Siebenwind_Bote_160]], [[Siebenwind_Bote_168]].
 

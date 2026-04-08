@@ -1,20 +1,25 @@
 ---
+layout: wiki_page
 title: Tjure Odal
 category: Personen
+status: Bote
+quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind Bote 186.md
+lore_trust: 2
+letzter_check: 2026-04-08
 ---
 
 # Tjure Odal
 
-**Tjure Odal** ist ein mutmaßlicher [[Ketzer]], der im Jahr 22 n.H. im Zentrum einer politischen und religiösen Kontroverse um die Edelfrau [[Marnie_Ruatha]] stand.
+**Tjure Odal** ist eine im aktuellen Quellenbestand nur **einmal namentlich belegte** Person, die im Jahr 22 n.H. in den Vorwürfen gegen [[Marnie_Ruatha]] als "bekannter Ketzer" genannt wird.
 
 ## 📜 [[index]] & Hintergründe
-Über Tjure Odals Herkunft und Taten ist wenig Gesichertes bekannt. Er trat im *Carmer 22 n.H.* ins Licht der Öffentlichkeit, als die [[Malthuster_Wacht]] unter Leutnant [[Erin_Caoimme]] die Edelfrau [[Marnie_Ruatha]] in [[Brandenstein]] festsetzte.
+Über Tjure Odals Herkunft, Stand, Zugehörigkeit und tatsächliche Taten ist im ausgewerteten Repo-Corpus **nichts Gesichertes** bekannt. Er tritt im *Carmer 22 n.H.* nur deshalb ins Licht der Öffentlichkeit, weil die [[Malthuster_Wacht]] unter Leutnant [[Erin_Caoimme]] die Edelfrau [[Marnie_Ruatha]] in [[Brandenstein]] festsetzte.
 
 ### Die Anklage (22 n.H.)
-Die Malthuster Wacht warf [[Marnie_Ruatha]] vor, "bekannte Ketzer" wie **Tjure Odal** und [[Arn_Toron]] unterstützt zu haben. Odal wurde in diesem Zusammenhang als eine Figur genannt, deren bloße Assoziation ausreichte, um eine Patrizierin und Geweihte in Misskredit zu bringen. Ob er tatsächlich magische oder ketzerische Praktiken ausübte oder ob die Bezeichnung politisch motiviert war, bleibt in den Quellen unscharf.
+Die Malthuster Wacht warf [[Marnie_Ruatha]] vor, "bekannte Ketzer" wie **Tjure Odal** und [[Arn_Toron]] unterstützt zu haben. Mehr sagt die Primärquelle über Odal nicht. Ob er tatsächlich magische oder ketzerische Praktiken ausübte, ob der Name politisch instrumentalisiert wurde oder ob überhaupt eine eigenständige Biografie dahintersteht, bleibt [UNGEKLAERT].
 
 ## ⚖️ Historische Einordnung
-> *Historiker-Gutachten: Die Nennung Tjure Odals in einem Atemzug mit dem ehemaligen Konsul [[Arn_Toron]] deutet darauf hin, dass er Teil des widerständigen Netzwerks in [[Brandenstein]]/[[Falkensee]] war, das sich gegen die Malthuster Hegemonie stellte. Die "Ketzer"-Bezeichnung könnte eine Diffamierung politischer Gegner sein, wie sie im Konflikt zwischen Malthust und Ersont (21-22 n.H.) üblich war.*
+> *Historiker-Gutachten: Anders als [[Arn_Toron]] ist Tjure Odal im geprueften Quellenlauf nicht als politische oder soziale Figur greifbar. Die belastbare Aussage lautet lediglich, dass sein Name in Bote 186 als Teil einer Ketzeranklage auftaucht. Jeder weitergehende Schluss auf Netzwerk, Herkunft oder Funktion waere derzeit Spekulation.*
 
 ## 🧩 Verbindungen
 *   [[Marnie_Ruatha]] — Soll ihn unterstützt haben.
@@ -22,5 +27,4 @@ Die Malthuster Wacht warf [[Marnie_Ruatha]] vor, "bekannte Ketzer" wie **Tjure O
 
 ## 📚 Quellen
 *   [[Siebenwind_Bote_186]] (15. Carmer 22 n.H.)
-
-<!-- DISCORD_Placeholder -->
+*   Forschungsbericht `RESEARCH-2026-004` (2026-04-08)

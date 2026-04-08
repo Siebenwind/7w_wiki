@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-03T18:35:42Z",
-  "inputs_fingerprint": "20351d8c4269c0287f4beeff114a4c53de0b3a9ad5c54ef260833f4655862181",
+  "generated_at": "2026-04-08T16:08:18Z",
+  "inputs_fingerprint": "d72c74bb84b72e2d57346158476a97781bcf0008cbc6cb36c542e1300051f3a5",
   "payload": {
     "index": {
       "01catar": [
@@ -782,6 +782,7 @@
         "docs/Quellen/Spielergeschichten/Jassavia.md",
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
         "docs/Siebenwind_Wiki/00_Fundament/Die_Monde.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Dorayon.md",
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
         "docs/Siebenwind_Wiki/00_Fundament/Glossar.md",
         "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
@@ -952,12 +953,10 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Benion_Sandelholz.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
-      "ariin": [
-        "docs/Archiv/Research_Board.md"
-      ],
       "ariinrhadandergraue": [
-        "docs/Archiv/Dossier_Rhadan.md",
-        "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md"
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Zeichnung_Tares.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rhadan_der_Graue.md"
       ],
       "arkadon": [
         "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md",
@@ -1009,13 +1008,13 @@
       "arman": [
         "docs/Siebenwind_Wiki/00_Fundament/Arman_von_Draconis.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
-        "docs/Siebenwind_Wiki/02_Geografie/Draconis.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_123.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
-      ],
-      "armanvondraconis": [
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/02_Geografie/Draconis.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_123.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md"
+      ],
+      "armanvondraconis": [
         "docs/Siebenwind_Wiki/02_Geografie/Drakenwald.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Paule_Bitterling.md"
       ],
@@ -1060,11 +1059,11 @@
       ],
       "arntoron": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_168.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_186.md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Verhaftung_von_Marnie_Ruatha.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Marnie_Ruatha.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tjure_Odal.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
@@ -1147,6 +1146,7 @@
         "docs/Quellen/Spielergeschichten/Einsame Ladengedanken.md",
         "docs/Quellen/Spielergeschichten/Jassavia.md",
         "docs/Siebenwind_Wiki/00_Fundament/Adelskalender.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Astreyon.md",
         "docs/Siebenwind_Wiki/00_Fundament/Die_Monde.md",
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
         "docs/Siebenwind_Wiki/00_Fundament/Glossar.md",
@@ -1267,12 +1267,14 @@
       "astreyon": [
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
         "docs/Siebenwind_Wiki/00_Fundament/Lichthoch.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Tare.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Vitamalin.md",
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Zeichnung_Tares.md",
         "docs/Siebenwind_Wiki/05_Magie/Schamanische_Magie.md"
       ],
       "astreyonas": [
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 185.md",
-        "docs/Siebenwind_Wiki/00_Fundament/Astreyon.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_185.md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
@@ -2449,7 +2451,8 @@
       ],
       "codexiuriscanonici": [
         "docs/Siebenwind_Wiki/01_Pantheon/Aequitas.md",
-        "docs/Siebenwind_Wiki/01_Pantheon/index.md"
+        "docs/Siebenwind_Wiki/01_Pantheon/index.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md"
       ],
       "comari": [
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
@@ -2524,6 +2527,7 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Waldemar_Delaries_Reise_nach_Papin.md",
         "docs/Siebenwind_Wiki/06_Myten_und_Legenden/Der_Blinde_Maler.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arn_Toron.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Brand_Windfluesterer.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Geduldiger_Sand.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Guntram_Sonnacker.md",
@@ -3508,6 +3512,10 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kedrin.md"
       ],
       "diemagietorandur": [
+        "docs/Siebenwind_Wiki/00_Fundament/Fela.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Tare.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Vitamalin.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Zeichnung_Tares.md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md"
       ],
       "diemazzaremer": [
@@ -3535,7 +3543,9 @@
         "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md"
       ],
       "dieritualisierungrhadandergraue": [
-        "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md"
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Zeichnung_Tares.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rhadan_der_Graue.md"
       ],
       "diesilbernentafeln": [
         "docs/Siebenwind_Wiki/01_Pantheon/index.md",
@@ -3640,7 +3650,10 @@
       "dorayon": [
         "docs/Quellen/Spielergeschichten/Geschäftiges Treiben.md",
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
-        "docs/Siebenwind_Wiki/00_Fundament/index.md"
+        "docs/Siebenwind_Wiki/00_Fundament/Tare.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Vitamalin.md",
+        "docs/Siebenwind_Wiki/00_Fundament/index.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Zeichnung_Tares.md"
       ],
       "dordrun": [
         "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md"
@@ -3718,7 +3731,8 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Herbren_Maltis.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Roland_Telvos.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Telophas_von_Basarius.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Yves_Rondragon.md"
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Yves_Rondragon.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md"
       ],
       "drakenwald": [
         "docs/Siebenwind_Wiki/02_Geografie/index.md",
@@ -4374,6 +4388,7 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_190.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Verhaftung_von_Marnie_Ruatha.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hevelius_Dunkelfeld.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Marnie_Ruatha.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tjure_Odal.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
@@ -4799,7 +4814,6 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tandrion_Intoma.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tarjas_Talinor.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Thorgon_Goldschlag.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tjure_Odal.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Toran_Dur.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tzara_Rengis.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Vincent_Ebenstein.md",
@@ -4924,7 +4938,10 @@
         "docs/Quellen/Spielergeschichten/Aus_dem_Leben_eines_Schwarzmagiers.md",
         "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md",
         "docs/Quellen/Spielergeschichten/Khalandra.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Tare.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Vitamalin.md",
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Zeichnung_Tares.md",
         "docs/Siebenwind_Wiki/05_Magie/Schamanische_Magie.md"
       ],
       "feldherr": [
@@ -5142,6 +5159,7 @@
       ],
       "forschungsberichtetorandur": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke.md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Caieta_Ajunier.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Enoah_Sullin.md",
@@ -5515,6 +5533,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Safiriel.md"
       ],
       "gesellschaft": [
+        "docs/Siebenwind_Wiki/00_Fundament/03_Gesellschaft.md",
         "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
         "docs/Siebenwind_Wiki/00_Fundament/Bibliotheks_Register.md",
         "docs/Siebenwind_Wiki/00_Fundament/Handwerk_Übersicht.md",
@@ -6930,6 +6949,7 @@
         "docs/Siebenwind_Wiki/10_Archiv/Magierturm_zu_Tiefenbach.md"
       ],
       "indexsiebenwindtorandur": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke.md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md"
       ],
       "indoaich": [
@@ -7357,9 +7377,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Das_Ende_der_Zeit_der_Koenige.md"
-      ],
-      "ketzer": [
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tjure_Odal.md"
       ],
       "khalandra": [
         "docs/Quellen/Hintergrund/Kanon.md",
@@ -8324,7 +8341,6 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Garreth_Moss.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kida_Gilwen.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Morin_Thamaz.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rhadan_der_Graue.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Toran_Dur.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Wille_alter_Meister.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Elementare.md",
@@ -8494,6 +8510,7 @@
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_186.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_187.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Marnie_Ruatha.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tjure_Odal.md"
       ],
       "maltusshuarshirad": [
@@ -8685,7 +8702,6 @@
         "docs/Siebenwind_Wiki/05_Magie/Magietheorie_Daimonen_Domaenen.md",
         "docs/Siebenwind_Wiki/05_Magie/Philosophie_der_Magie.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Akassvae.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arn_Toron.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arnim_Estragons.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Fabius_Letarien.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Frau_von_Wankenbach.md",
@@ -9430,8 +9446,7 @@
         "docs/Siebenwind_Wiki/03_Gesellschaft/Schattenjaeger.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_Index.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Waldemar_Delarie.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Das_Ende_der_Zeit_der_Koenige.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md"
+        "docs/Siebenwind_Wiki/09_Bibliothek/Das_Ende_der_Zeit_der_Koenige.md"
       ],
       "orgolosch": [
         "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md",
@@ -9493,7 +9508,6 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Orkenaufstand_17_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Siebenwindakte.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Tod_von_Tandrion_Intoma.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arn_Toron.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Azgar_Kazanin.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Cavalaron_Vendell.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Cho_Shnaz.md",
@@ -9749,8 +9763,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ziska_Himmelmann.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Zyraghlos_cé_Vegano.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Aus_dem_Liebesleben_eines_Dichters.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Das_Ende_der_Zeit_der_Koenige.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md"
+        "docs/Siebenwind_Wiki/09_Bibliothek/Das_Ende_der_Zeit_der_Koenige.md"
       ],
       "petrichor": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
@@ -10314,6 +10327,7 @@
         "docs/Siebenwind_Wiki/02_Geografie/Region_Vandrien.md"
       ],
       "religionuebersicht": [
+        "docs/Siebenwind_Wiki/00_Fundament/00_Religion_Uebersicht.md",
         "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
         "docs/Siebenwind_Wiki/00_Fundament/Das_Fundament.md",
         "docs/Siebenwind_Wiki/00_Fundament/Die_Viere_Kirche.md",
@@ -10346,7 +10360,8 @@
         "docs/MASTER_TASK_LIST.md"
       ],
       "research2026004": [
-        "docs/Archiv/Research_Board.md"
+        "docs/Archiv/Research_Board.md",
+        "docs/MASTER_TASK_LIST.md"
       ],
       "research2026005": [
         "docs/Archiv/Research_Board.md"
@@ -10420,6 +10435,7 @@
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Ariin_(Rhadan_der_Graue).md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Ritualisierung_(Rhadan_der_Graue).md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Zeichnung_Tares.md",
         "docs/Siebenwind_Wiki/05_Magie/Konstruktbau_und_Ariin.md",
         "docs/Siebenwind_Wiki/05_Magie/Rituallehre_Sphaeren.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
@@ -10525,7 +10541,8 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Sanduros_Mantaris.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Telophas_von_Basarius.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Zoran_Gosh.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Das_Ende_der_Zeit_der_Koenige.md"
+        "docs/Siebenwind_Wiki/09_Bibliothek/Das_Ende_der_Zeit_der_Koenige.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md"
       ],
       "ritterdersiebenwinde": [
         "docs/Siebenwind_Wiki/00_Fundament/Adelskalender.md",
@@ -10600,10 +10617,8 @@
         "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md"
       ],
       "rituallehresphaeren": [
-        "docs/Archiv/Dossier_Rhadan.md",
         "docs/Siebenwind_Wiki/05_Magie/Sphaerenkunde_Kosmologie.md",
-        "docs/Siebenwind_Wiki/05_Magie/index.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rhadan_der_Graue.md"
+        "docs/Siebenwind_Wiki/05_Magie/index.md"
       ],
       "ritusderexercitio": [
         "docs/Siebenwind_Wiki/01_Pantheon/index.md",
@@ -11613,7 +11628,6 @@
         "docs/Siebenwind_Wiki/09_Bibliothek/Pruefung_und_Entsagung.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Von_gesplitterten_Seelen.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/index.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md",
         "docs/Siebenwind_Wiki/10_Archiv/Magierturm_zu_Tiefenbach.md",
         "docs/Siebenwind_Wiki/10_Archiv/Milizaufloesung_Erlass.md",
         "docs/Siebenwind_Wiki/10_Archiv/Provinzstatuten_Erlass.md",
@@ -11675,7 +11689,8 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Jalina.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Karamir.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Paule_Bitterling.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Vincent_Ebenstein.md"
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Vincent_Ebenstein.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md"
       ],
       "siebenwindbote124": [
         "docs/Siebenwind_Wiki/04_Chronik/Die_Chronik.md",
@@ -12221,6 +12236,7 @@
         "docs/Siebenwind_Wiki/04_Chronik/index.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Putsch_von_Falkensee.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Schlacht_um_Falkensee.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arn_Toron.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Vladimir_Kherbal.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/William_Glaron.md"
       ],
@@ -12237,6 +12253,7 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_186.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_Index.md",
         "docs/Siebenwind_Wiki/04_Chronik/index.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arn_Toron.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Cylia_Rosenmond.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ekart_Gradeg.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Gropp_Zwillinge.md",
@@ -12896,12 +12913,16 @@
       "tare": [
         "docs/Quellen/Spielergeschichten/Aus dem Leben eines Schwarzmagiers.md",
         "docs/Quellen/Spielergeschichten/Aus_dem_Leben_eines_Schwarzmagiers.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Astreyon.md",
         "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
         "docs/Siebenwind_Wiki/00_Fundament/Die_Monde.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Dorayon.md",
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Fela.md",
         "docs/Siebenwind_Wiki/00_Fundament/Glossar.md",
         "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
         "docs/Siebenwind_Wiki/00_Fundament/Religion_Übersicht.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Vitamalin.md",
         "docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md",
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Aequilibrium.md",
@@ -12927,6 +12948,7 @@
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Theorem_zu_den_Baumwesen_(Themus_Takai).md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Theorien_der_Magie_(Terenon_Sarophilan).md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Theorien_der_Magie_(Toran_Dur).md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Zeichnung_Tares.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Geschichte_der_Mondamulette.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Mondamulette.md",
         "docs/Siebenwind_Wiki/05_Magie/Daimonicon.md",
@@ -13231,6 +13253,7 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_186.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Verhaftung_von_Marnie_Ruatha.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arn_Toron.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Marnie_Ruatha.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "todvontandrionintoma": [
@@ -13304,6 +13327,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Adrienne_Valemis.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Akora_Dur.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Allakath.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arn_Toron.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Birnbaum.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Caieta_Ajunier.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Charlissa_Eulenstein.md",
@@ -13797,8 +13821,11 @@
       ],
       "vitamalin": [
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Fela.md",
         "docs/Siebenwind_Wiki/00_Fundament/Lichthoch.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Tare.md",
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Zeichnung_Tares.md",
         "docs/Siebenwind_Wiki/05_Magie/Schamanische_Magie.md"
       ],
       "vjerabatamamagica": [
@@ -13952,7 +13979,11 @@
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Uron_Sbocaj.md"
       ],
+      "werke": [
+        "docs/Siebenwind_Wiki/00_Fundament/Werke_index.md"
+      ],
       "werkeindex": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke.md",
         "docs/Siebenwind_Wiki/03_Wissen/index.md"
       ],
       "weteka": [
@@ -14195,15 +14226,20 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "zeichnungtares": [
-        "docs/Archiv/Research_Board.md"
+        "docs/Siebenwind_Wiki/00_Fundament/Astreyon.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Dorayon.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Fela.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Tare.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Vitamalin.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rhadan_der_Graue.md"
       ],
       "zeitleiste1530nh": [
         "docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md",
         "docs/Siebenwind_Wiki/02_Geografie/Seeberg.md",
         "docs/Siebenwind_Wiki/04_Chronik/Die_Chronik.md",
         "docs/Siebenwind_Wiki/04_Chronik/index.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md"
+        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md"
       ],
       "zeitrechnung": [
         "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md"
@@ -14213,8 +14249,7 @@
         "docs/Siebenwind_Wiki/00_Fundament/Das_Fundament.md",
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
         "docs/Siebenwind_Wiki/00_Fundament/Lichthoch.md",
-        "docs/Siebenwind_Wiki/00_Fundament/index.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md"
+        "docs/Siebenwind_Wiki/00_Fundament/index.md"
       ],
       "zeitrechnungdersonnenzirkelmd": [
         "docs/MASTER_TASK_LIST.md"

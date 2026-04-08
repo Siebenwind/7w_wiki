@@ -5,18 +5,20 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-04-03 (Codex → Next Agent)
-- **Status**: Die konservative Lane-1-Welle bleibt umgesetzt; Religions-, Historie- und Magie-Cluster sind weiterhin abgearbeitet. In dieser Session wurde `MSG-2026-0005` abgeschlossen und der technische Pages-/Bridge-Backlog massiv reduziert: Der Audit-Stand fiel von `173` Issues auf `9`, die invaliden Bridges von `86` auf `4`. Zusaetzlich behandelt `advisor` `Pages Health = WARN` jetzt nur noch advisory statt als automatischen `/tech_master`-Zwang; die verbleibenden harten Restfaelle bleiben `FAIL`/`UNKNOWN`/stale Snapshots sowie die vier semantischen Bridge-Entscheidungen zu `00_Religion_Uebersicht`, `03_Gesellschaft`, `Arman_von_Draconis` und `Werke_index`, die per `MSG-2026-0089` an den Historian und per `MSG-2026-0090` an den Coordinator eskaliert wurden.
+- **Last Handover**: 2026-04-08 (Codex → Next Agent)
+- **Status**: Die konservative Lane-1-Welle bleibt umgesetzt; Religions-, Historie- und Magie-Cluster sind weiterhin abgearbeitet. In dieser Session wurden drei der vier semantischen Bridge-Restfaelle aufgeloest: `00_Religion_Uebersicht` zeigt jetzt auf `Religion_Übersicht`, `03_Gesellschaft` auf `Gesellschaft`, und fuer `Werke_index` existiert mit `docs/Siebenwind_Wiki/03_Wissen/Werke.md` nun ein kanonischer Landing-Artikel. Der Audit-Stand fiel damit weiter auf `3` Issues, die invaliden Bridges auf `1`; einzig `Arman_von_Draconis` bleibt per `MSG-2026-0089` / `MSG-2026-0090` als Historian-/Coordinator-Entscheid offen.
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
 
-- [ ] **Residual Bridge Decision Gate**: Der technische Sweep ist gelaufen; `audit --json` steht nur noch bei `9` Issues und `bridge_inventory.invalid = 4`. Fuer `00_Religion_Uebersicht`, `03_Gesellschaft`, `Arman_von_Draconis` und `Werke_index` fehlt jeweils die autoritative Zielentscheidung. Vor weiteren Bridge-Rewrites erst die Antwort auf `MSG-2026-0089` abwarten oder dokumentiert gegen hoeherwertige Quellen/Historian-Vorgaben entscheiden.
+- [ ] **Residual Bridge Decision Gate**: Der technische Sweep ist fast abgeschlossen; `audit --json` steht nur noch bei `3` Issues und `bridge_inventory.invalid = 1`. Die Faelle `00_Religion_Uebersicht`, `03_Gesellschaft` und `Werke_index` wurden mit kanonischen Zielen bzw. dem neuen Landing-Artikel `Werke` geschlossen. Offen bleibt nur noch die autoritative Zielentscheidung fuer `Arman_von_Draconis`; vor dem letzten Bridge-Rewrite erst die Antwort auf `MSG-2026-0089` abwarten oder dokumentiert gegen hoeherwertige Quellen/Historian-Vorgaben entscheiden.
 
 - [ ] **Zeitstrahl Structural Repair**: `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md` ist ueber den reinen `Historie`-Linkfehler hinaus deutlich beschaedigt und enthaelt eingebettete Fremdseitenfragmente. Dieser Defekt wurde im Historie-Cluster bewusst nicht miterledigt und braucht einen eigenen, strukturorientierten Reparaturtrack.
 
-- [ ] **Backlog Board & Escalation Follow-Up**: Das aktuelle Cluster-Board liegt unter `.agent/data/backlog_cluster_board.json`, die Eskalationsliste unter `.agent/data/backlog_escalations.json`. Der naechste Agent soll diese Artefakte als Arbeitsgrundlage verwenden und nach Eingang der Historian-Entscheidung nur noch die vier Restfaelle sauber schliessen statt erneut ungeclustert in `audit --pages` einzusteigen.
+- [ ] **Backlog Board & Escalation Follow-Up**: Das aktuelle Cluster-Board liegt unter `.agent/data/backlog_cluster_board.json`, die Eskalationsliste unter `.agent/data/backlog_escalations.json`. Der naechste Agent soll diese Artefakte als Arbeitsgrundlage verwenden und nach Eingang der Historian-Entscheidung nur noch `Arman_von_Draconis` sauber schliessen statt erneut ungeclustert in `audit --pages` einzusteigen.
+
+- [x] **Bridge Blocker Pass**: `00_Religion_Uebersicht` und `03_Gesellschaft` wurden auf ihre kanonischen Zielartikel gehoben; fuer `Werke_index` entstand mit `docs/Siebenwind_Wiki/03_Wissen/Werke.md` ein stabiler Landing-Artikel. Ergebnis: `audit --json` fiel von `9` auf `3` Issues, `bridge_inventory.invalid` von `4` auf `1`.
 
 - [x] **Religions-Cluster Resolver Follow-Up**: Die Review-Grundlage liegt unter `.agent/data/religion_cluster_review.json` und `.agent/data/religion_cluster_escalations.json`. Der Folgeschritt ueber publizierte Ingestion-Reports und Maintainer-Doku ist erfolgt; Religions-Restziele wurden aus dem aktiven Repair-Fokus in dokumentierte Historie ueberfuehrt.
 
@@ -64,7 +66,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 | [[RESEARCH-2026-001]] | Die Neun Domänen des Angamon | 🔴 | [ ] Offen |
 | [[RESEARCH-2026-002]] | Die Transformation des Ödlands | 🟡 | [ ] Offen |
 | [[RESEARCH-2026-003]] | Die Linari-Matrix | 🟡 | [ ] Offen |
-| [[RESEARCH-2026-007]] | Dossier Rhadan (Zeichnung Tares) | 🔴 | [ ] Offen |
+| [[RESEARCH-2026-004]] | Causa Tjure Odal & Arn Toron | 🔴 | [x] Review |
+| [[RESEARCH-2026-007]] | Dossier Rhadan (Zeichnung Tares) | 🔴 | [x] Review |
 | [[RESEARCH-2026-012]] | Das Grünland (Geografie & Siedlung) | 🔴 | [ ] Offen |
 | [[RESEARCH-2026-017]] | Die Entdeckung Siebenwinds (1 n.H.) | 🟡 | [x] Bearbeitung |
 

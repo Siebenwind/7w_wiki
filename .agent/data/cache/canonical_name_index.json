@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-03T18:35:42Z",
-  "inputs_fingerprint": "fea5f6026b5dac087bf7c59c29e4a1a066e4552083852f285810a864c278795c",
+  "generated_at": "2026-04-08T16:08:18Z",
+  "inputs_fingerprint": "0c272245f78ab6af59372046e12f7b103a9f686de09ff690850a9df21e879739",
   "payload": {
     "index": {
       "00religionuebersicht": [
@@ -4261,6 +4261,9 @@
       "weissmagie": [
         "Weissmagie"
       ],
+      "werke": [
+        "Werke"
+      ],
       "werkeindex": [
         "Werke_index"
       ],
@@ -4372,6 +4375,9 @@
       ],
       "zarnaeschelwald": [
         "Zarna_Eschelwald"
+      ],
+      "zeichnungtares": [
+        "Zeichnung_Tares"
       ],
       "zeitleiste1530nh": [
         "Zeitleiste_(15-30_n.H.)",

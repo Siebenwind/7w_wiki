@@ -1,5 +1,73 @@
 # Changelog
 
+#### [2026-04-08.04] - Historian: RESEARCH-2026-007 als kosmologisches Schema statt Magierlegende eingeordnet
+### Prioritaet: P2
+### Hinzugefügt
+- `Logs/Research/RESEARCH-2026-007_Summary.md`: Forschungsbericht zur `Zeichnung Tares` mit Bildsichtung, Kosmologie-Abgleich und dokumentiertem Oracle-Fallback nach lokalem Reranker-Ausfall.
+- `docs/Siebenwind_Wiki/03_Wissen/Werke/Zeichnung_Tares.md`: neuer kanonischer Werkartikel fuer die Rhadan zugeschriebene Kosmologieskizze.
+### Geändert
+- `docs/Archiv/Dossier_Rhadan.md`: vom spekulativen Rhadan-Expose auf den belastbaren Befund zur `Zeichnung Tares` umgestellt.
+- `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rhadan_der_Graue.md`: um die gesichert ueberlieferten Werke `Ari'in`, `Die Ritualisierung` und `Zeichnung Tares` ergaenzt und quellenstrenger formuliert.
+- `docs/Siebenwind_Wiki/00_Fundament/Fela.md`, `docs/Siebenwind_Wiki/00_Fundament/Tare.md`, `docs/Siebenwind_Wiki/00_Fundament/Vitamalin.md`, `docs/Siebenwind_Wiki/00_Fundament/Astreyon.md` und `docs/Siebenwind_Wiki/00_Fundament/Dorayon.md`: von Platzhaltern bzw. unscharfer Kurzfassung auf quellengetragene Minimalartikel gehoben.
+- `docs/Siebenwind_Wiki/03_Wissen/Werke/index.md`: um `Zeichnung Tares` erweitert.
+- `System/Synapse_Board/LORE_RESEARCH_BOARD.md`, `docs/Archiv/Research_Board.md` und `MASTER_TASK_LIST.md`: `RESEARCH-2026-007` auf `REVIEW` gehoben und mit dem aktuellen Forschungsbefund versehen.
+### Validiert
+- manuelle Bildsichtung von `Rhadan der Graue - Zeichnung Tares.jpg`
+- manuelle Quellenlektuere von `Rhadan der Graue - AriÔin.md`, `Toran Dur - Die Magie.md` und `Monde Tares | Siebenwind | Ultima Online Freeshard | Siebenwind.md`
+- `./7w_wiki.py search "Rhadan Zeichnung Tares Ari´in" --source all` (Oracle-Ausfall dokumentiert; Fallback auf Direktquellen)
+
+#### [2026-04-08.03] - Historian: RESEARCH-2026-004 auf belastbare Quellenlage reduziert
+### Prioritaet: P2
+### Hinzugefügt
+- `Logs/Research/RESEARCH-2026-004_Summary.md`: Forschungsbericht zur Causa `Tjure Odal` / `Arn Toron` mit Quellenabgleich gegen den Bote-Strang 167-186 und expliziter Historian-Fallback-Dokumentation nach Oracle-Ausfall.
+### Geändert
+- `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arn_Toron.md`: vom pauschalen Verräter-/Ketzerprofil auf den quellengetragenen Befund als ehemaliger Konsul, Kaufmann und späterer Brandensteiner Exilant gehoben; Ketzerstatus jetzt als Anklagesprache markiert.
+- `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tjure_Odal.md`: auf den belastbaren Minimalbefund zurückgeführt; Tjure bleibt biografisch [UNGEKLAERT] und ist im aktuellen Corpus nur in Bote 186 namentlich fassbar.
+- `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Marnie_Ruatha.md`: die 22-n.H.-Krisenpassage vervollständigt und an die rekonstruierte Anklagelage angeschlossen.
+- `docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_168.md`: die nicht durch die Primärquelle bestätigte Arn-Toron-Nennung aus der Summary entfernt.
+- `docs/Siebenwind_Wiki/00_Fundament/Personenregister.md`: Registereinträge für `Arn_Toron` und `Tjure_Odal` auf den Forschungsbefund abgestimmt.
+- `System/Synapse_Board/LORE_RESEARCH_BOARD.md`, `docs/Archiv/Research_Board.md` und `MASTER_TASK_LIST.md`: `RESEARCH-2026-004` auf `REVIEW` gehoben und die alte Problembeschreibung an den aktuellen Repo-Stand angepasst.
+### Validiert
+- manuelle Quellenlektüre von `Siebenwind Bote 167`, `Siebenwind Bote 168`, `Siebenwind_Bote_184` und `Siebenwind Bote 186`
+- `./7w_wiki.py search "Tjure Odal Arn Toron" --source all` (Oracle-Ausfall dokumentiert; Fallback auf Direktquellen)
+
+#### [2026-04-08.02] - Historian: April-Kuration fuer "Interessante Artikel" auf Draconis-Thema gedreht
+### Prioritaet: P2
+### Geändert
+- `docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md`: von einer generischen Grundlagenliste auf die April-2026-Rotation `Unter dem Weissen Hochturm` umgestellt. Die Seite enthaelt jetzt eine thematische Shortlist mit Kanon-Begruendung, Quellenbasis, Leserwert und vorgeschlagenen Archiv-Themenmotiven.
+- `docs/index.md`: das Startseitenmodul `Interessante Artikel` auf die aktuelle Rotation gespiegelt und die drei Anrisskarten auf `Draconis`, `Codex Iuris Canonici` und `Arman` umgestellt.
+- `docs/Siebenwind_Wiki/02_Geografie/Draconis.md`, `docs/Siebenwind_Wiki/01_Pantheon/Das_Pantheon.md`, `docs/Siebenwind_Wiki/01_Pantheon/Codex_Iuris_Canonici.md`, `docs/Siebenwind_Wiki/03_Gesellschaft/Ring_des_Argionemes.md` und `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arman.md`: fuer die Kurationsvorauswahl mit aktuellem Score versehen und auf sauberes `layout`-Frontmatter gehoben, damit der Stilcheck fuer die ausgewaehlte Rotation grün laeuft.
+### Validiert
+- `./7w_wiki.py score docs/Siebenwind_Wiki/02_Geografie/Draconis.md`
+- `./7w_wiki.py score docs/Siebenwind_Wiki/01_Pantheon/Das_Pantheon.md`
+- `./7w_wiki.py score docs/Siebenwind_Wiki/01_Pantheon/Codex_Iuris_Canonici.md`
+- `./7w_wiki.py score docs/Siebenwind_Wiki/03_Gesellschaft/Ring_des_Argionemes.md`
+- `./7w_wiki.py score docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arman.md`
+- `./7w_wiki.py check docs/Siebenwind_Wiki/02_Geografie/Draconis.md`
+- `./7w_wiki.py check docs/Siebenwind_Wiki/01_Pantheon/Das_Pantheon.md`
+- `./7w_wiki.py check docs/Siebenwind_Wiki/01_Pantheon/Codex_Iuris_Canonici.md`
+- `./7w_wiki.py check docs/Siebenwind_Wiki/03_Gesellschaft/Ring_des_Argionemes.md`
+- `./7w_wiki.py check docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arman.md`
+
+#### [2026-04-08.01] - Bridge-Blocker-Pass auf einen Historian-Restfall reduziert
+### Prioritaet: P1
+### Hinzugefügt
+- `docs/Siebenwind_Wiki/03_Wissen/Werke.md`: neuer kanonischer Landing-Artikel fuer Legacy-Verweise auf das Werkarchiv.
+- `Logs/Archive/SESSION_MEMORY_2026-04-08_BRIDGE_BLOCKER_PASS.md`: Session-Memory fuer den Bridge-Resolver-Lauf mit Delta, Validierung und offenem Historian-Blocker.
+### Geändert
+- `docs/Siebenwind_Wiki/00_Fundament/00_Religion_Uebersicht.md`: mit Lifecycle-Metadaten versehen und auf `[[Religion_Übersicht]]` gehoben.
+- `docs/Siebenwind_Wiki/00_Fundament/03_Gesellschaft.md`: mit Lifecycle-Metadaten versehen und auf `[[Gesellschaft]]` gehoben.
+- `docs/Siebenwind_Wiki/00_Fundament/Werke_index.md`: mit Lifecycle-Metadaten versehen und auf `[[Werke]]` gehoben.
+- `docs/Siebenwind_Wiki/00_Fundament/Arman_von_Draconis.md`: bewusst unresolved belassen, aber explizit auf `MSG-2026-0089` / `MSG-2026-0090` als offene Zielentscheidung verwiesen.
+- `MASTER_TASK_LIST.md`: Status-Ueberblick und P1-Fokus auf den letzten Restfall `Arman_von_Draconis` fortgeschrieben.
+### Validiert
+- `./7w_wiki.py sanitize --json`
+- `./7w_wiki.py audit --json`
+- `./7w_wiki.py pages validate --json --strict-links`
+- `./7w_wiki.py test --suite interop-doc-links`
+- `./7w_wiki.py test --suite pages-link-contract`
+- `./7w_wiki.py test --suite bridge-placeholder-guard`
+
 #### [2026-04-03.03] - Advisor: Pages-WARN Routing auf advisory statt Technician-Pflicht gelockert
 ### Prioritaet: P3
 ### Geändert
