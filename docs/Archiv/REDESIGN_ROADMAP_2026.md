@@ -1,3 +1,9 @@
+---
+layout: wiki_page
+title: Redesign Roadmap 2026
+category: Archiv
+---
+
 # Redesign Roadmap 2026
 
 ## Zielbild
@@ -23,12 +29,14 @@
 - Teilautomatisierte Vorselektion per Score/Stilchecks.
 - Redaktionelle Freigabe nach festen Kriterien.
 - Monatliche Rotation mit Changelog- und Dispatch-Kommunikation.
+- Ausbau zur sichtbaren Releaseflaeche fuer neue Forschungsseiten und publizierte Historian Reports.
 
 ## Phase 4 - Governance und Transparenz
 
 - Verfahren fuer Ingestion, Bewertung, Bewahrung und Forschung auf Startseite sichtbar machen.
 - Qualitaetschecks und Audit-Praxis dokumentieren und verlinken.
 - Review-Rhythmus und Verantwortlichkeiten eindeutig zuweisen.
+- Forschungsfortschritt nicht nur intern loggen, sondern auf publizierten Archivseiten fortschreiben.
 
 ## Phase 5 - Kontinuierliche Verbesserung
 

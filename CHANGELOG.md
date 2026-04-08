@@ -1,5 +1,29 @@
 # Changelog
 
+#### [2026-04-08.06] - Archiv-Publikationsmodell und Interessante Artikel zur Releaseflaeche ausgebaut
+### Prioritaet: P2
+### Geändert
+- `docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md`: von reiner Kurationsnotiz zu einer oeffentlichen Kombination aus Lesestrecke und Releaseflaeche fuer neue Forschungsseiten ausgebaut.
+- `docs/index.md` und `docs/Siebenwind_Wiki/10_Archiv/index.md`: publizierte Forschungsseiten und Historian Reports als sichtbare Einstiege nachgezogen.
+- `docs/Archiv/QUALITAETSRAHMEN_2026.md`, `docs/Archiv/REDESIGN_ROADMAP_2026.md` und `docs/Archiv/Research_Board.md`: die Regel dokumentiert, dass Forschungsfortschritt auf publizierten Archivseiten sichtbar gehalten werden muss.
+### Validiert
+- `./7w_wiki.py check docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md`
+- `./7w_wiki.py check docs/index.md`
+
+#### [2026-04-08.05] - Stats refresh und Research-Archiv als publizierte Seiten nachgezogen
+### Prioritaet: P2
+### Hinzugefügt
+- `docs/Archiv/RESEARCH-2026-001.md` bis `docs/Archiv/RESEARCH-2026-017.md` fuer die aktuell im Research Board referenzierten Auftragsseiten als publizierte Archivziele.
+- `docs/Archiv/Historian_Report_2026_003.md` als publizierte Fassung des bislang nur im Log referenzierten Historian-Berichts zu `RESEARCH-2026-005/006`.
+### Geändert
+- `docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md`, `Logs/INGESTION_TRACKING_REGISTER.md` und `Logs/Archive/STATS_SNAPSHOT_latest.json`: Statistikstand auf 2026-04-08 aktualisiert.
+- `docs/Archiv/Research_Board.md`: Archiv-Board wieder auf echte publizierte Zielseiten gehoben und die veraltete Quelle `Alchemie_Grundlagen` auf `Alchemie_Kompendium` retargetet.
+- `System/Synapse_Board/LORE_RESEARCH_BOARD.md`: Quellanker und Konsolidierungsstand an den Archivpass angepasst.
+- `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Dunvallo_Linari.md`: veralteten Verweis auf `Alchemie_Grundlagen` auf die reale Seite `Alchemie_Kompendium` gehoben.
+### Validiert
+- `./7w_wiki.py stats`
+- `./7w_wiki.py test --suite reader-stats-contract`
+
 #### [2026-04-08.04] - Historian: RESEARCH-2026-007 als kosmologisches Schema statt Magierlegende eingeordnet
 ### Prioritaet: P2
 ### Hinzugefügt

@@ -1,3 +1,11 @@
+---
+layout: wiki_page
+title: Siebenwind Archiv
+category: Index
+---
+
+# Siebenwind Archiv
+
 <div class="hero-wrapper">
   <p class="hero-kicker">Wissens-Archiv der Siebenwind-Welt (Lore-Status: 30 n.H. / 2026)</p>
   <h1 class="hero-title">Siebenwind Archiv</h1>
@@ -59,9 +67,22 @@
 
 ## Interessante Artikel
 
-Aktuelle Rotation April 2026: **Unter dem Weissen Hochturm**. Die Auswahl verbindet Stadtbild, Kirchenordnung und eine kleine menschliche Perspektive im Machtzentrum Galadons.
+Die Archivseite ist jetzt zweigeteilt: kuratierte Lesestrecken plus frisch publizierte Forschungsresultate.
+Aktuelle Rotation April 2026: **Unter dem Weissen Hochturm**. Parallel dazu sind neue Forschungsseiten und Historian Reports direkt lesbar veroeffentlicht.
 
 <div class="featured-grid">
+  <a href="Archiv/RESEARCH-2026-004/" class="featured-card">
+    <h3>Neu: RESEARCH-2026-004</h3>
+    <p>Arn Toron und Tjure Odal neu bewertet: belastbare Biografieteile getrennt von blossen Anklageformeln.</p>
+  </a>
+  <a href="Archiv/RESEARCH-2026-007/" class="featured-card">
+    <h3>Neu: RESEARCH-2026-007</h3>
+    <p>Die Zeichnung Tares ist nun als kosmologisches Schema erschlossen und nicht mehr nur ein lose gedeutetes Artefakt.</p>
+  </a>
+  <a href="Archiv/Historian_Report_2026_003/" class="featured-card">
+    <h3>Neu: Historian Report 2026-003</h3>
+    <p>Tiefenbach, Finsterwangen und das Oedland als gebuendelte Forschungsveroeffentlichung.</p>
+  </a>
   <a href="Siebenwind_Wiki/02_Geografie/Draconis/" class="featured-card">
     <h3>Draconis</h3>
     <p>Die Weisse Perle des Reiches: Hauptstadt, Tempelzentrum und Ausgangspunkt fuer Macht, Glaube und Legende.</p>
@@ -76,7 +97,7 @@ Aktuelle Rotation April 2026: **Unter dem Weissen Hochturm**. Die Auswahl verbin
   </a>
 </div>
 
-Mehr kuratierte Einstiege: [Zur Uebersicht Interessante Artikel](Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md)
+Mehr kuratierte Einstiege und Neuveroeffentlichungen: [Zur Uebersicht Interessante Artikel](Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md)
 
 ## Qualitaet und Verfahren
 
@@ -102,6 +123,7 @@ Mehr kuratierte Einstiege: [Zur Uebersicht Interessante Artikel](Siebenwind_Wiki
 - [Interessante Artikel (Kurationsverfahren)](Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md)
 - [Qualitaetsrahmen 2026](Archiv/QUALITAETSRAHMEN_2026.md)
 - [Research Board](Archiv/Research_Board.md)
+- [Neueste Forschungsseiten und Reports](Archiv/RESEARCH-2026-004.md)
 - [Ingestion Reports](Archiv/Ingestion_Reports/index.md)
 
 ## Fuer technisch Interessierte

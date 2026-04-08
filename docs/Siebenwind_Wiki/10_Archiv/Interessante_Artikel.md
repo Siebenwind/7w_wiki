@@ -1,13 +1,38 @@
 ---
+layout: wiki_page
 title: Interessante Artikel
+category: Archiv
 ---
 
 # Interessante Artikel
 
-Diese Seite bildet eine kuratierte Einstiegsauswahl fuer Leserinnen und Leser.
+Diese Seite ist die oeffentliche Kurations- und Releaseflaeche des Archivs.
+Sie verbindet zwei Dinge:
+- kuratierte Einstiegsstrecken fuer Leserinnen und Leser
+- frisch veroeffentlichte Forschungs- und Archivresultate
+
 Die Auswahl ist **teilautomatisiert**: Vorselektion per Qualitaetsdaten, finale Freigabe durch Redaktion.
 
-## Aktuelle Auswahl
+## Neu im Archiv
+
+### April 2026: Verifizierte Forschungsfunde und Berichte
+
+| Neu veroeffentlicht | Typ | Stand | Warum jetzt lesenswert |
+|---|---|---|---|
+| [[RESEARCH-2026-004]] | Forschungsseite | 2026-04-08 | Sauberer Quellenentscheid zu `Arn Toron` und `Tjure Odal`; korrigiert eine unscharfe Altueberlieferung. |
+| [[RESEARCH-2026-007]] | Forschungsseite | 2026-04-08 | Klare Einordnung der [[Zeichnung_Tares]] als kosmologisches Schema statt freier Esoterik. |
+| [[Historian_Report_2026_003]] | Historian Report | 2026-04-08 | Gebuendelter Rueckblick auf Tiefenbach, Finsterwangen und das [[Ödland]] in einem publizierten Bericht. |
+| [[Research_Board]] | Ausschreibungsboard | 2026-04-08 | Zeigt den aktuellen Stand offener, laufender und bereits publizierter Lore-Forschung. |
+| [[Wiki_Statistiken]] | Statusseite | 2026-04-08 | Macht sichtbar, wie stark das Archiv gewachsen ist und welche Aktivitaet zuletzt stattfand. |
+
+**Publikationsregel ab April 2026:** Forschungsfortschritt bleibt nicht mehr nur im Dispatch oder in `Logs/`.
+Jeder relevante Stand gehoert auf eine oeffentlich verlinkbare Archivseite:
+- Ausschreibung und Status auf [[Research_Board]]
+- laufender Erkenntnisstand auf der jeweiligen `[[RESEARCH-2026-...]]`-Seite
+- Abschluss auf einer Report-, Dossier- oder Ergebnis-Seite
+- kuratorische Sichtbarkeit ueber diese Seite und die Startseite
+
+## Aktuelle Lesestrecke
 
 ### April 2026: Unter dem Weissen Hochturm
 
@@ -32,15 +57,16 @@ Stadt, Glaube, Ordnung, Geheimbund und die kleine Menschenperspektive im Schatte
 ## Kurationsverfahren (teilautomatisiert)
 
 1. **Vorselektion (maschinell):**
-   - Kandidaten aus hochwertigen Kernseiten und stabilen Registerartikeln sammeln.
+   - Kandidaten aus hochwertigen Kernseiten, stabilen Registerartikeln und neu publizierten Forschungsseiten sammeln.
    - Qualitaetsstand pro Kandidat mit `./7w_wiki.py score <datei>` pruefen.
    - Stil- und Strukturcheck mit `./7w_wiki.py check <datei>`.
 2. **Kuratorische Pruefung (menschlich):**
    - Kanonische Relevanz
    - Leserwert (Einstiegsnutzen, Verstaendlichkeit)
+   - Publikationswert (neue Erkenntnis, klare Verdichtung, sichtbarer Fortschritt)
    - Quellenbezug und Nachvollziehbarkeit
 3. **Freigabe und Rotation:**
-   - Monatlich bis zu drei neue Empfehlungen.
+   - Monatlich bis zu drei neue Empfehlungen und bis zu fuenf sichtbare Neuveroeffentlichungen.
    - Aenderungen im Dispatch ankündigen und im Changelog dokumentieren.
 
 ## Qualitätskriterien
@@ -48,6 +74,8 @@ Stadt, Glaube, Ordnung, Geheimbund und die kleine Menschenperspektive im Schatte
 - Keine spekulativen Aussagen ohne Quellenbasis.
 - Gute Verlinkung in Register und Chronik.
 - Lesbarer Einstieg ohne Vorwissen.
+- Forschungsseiten muessen den letzten belastbaren Stand sichtbar machen, auch wenn die Arbeit noch nicht abgeschlossen ist.
+- Berichte gehoeren in das publizierte Archiv, nicht nur in `Logs/Research/`.
 
 ## Nächster Review-Termin
 

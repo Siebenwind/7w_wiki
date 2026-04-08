@@ -6,7 +6,7 @@
     "sources": "Quellen",
     "wiki": "docs/Siebenwind_Wiki"
   },
-  "generated_at": "2026-04-08T16:30:34Z",
+  "generated_at": "2026-04-08T16:23:55Z",
   "items": [
     {
       "activity": "scan_contract",
@@ -17576,8 +17576,8 @@
       "agent": "content_contract",
       "bridge_status": "none",
       "classification": "article",
-      "content_hash": "1c1e67f40621c27e6d0bc16eac12f334fa5b4608ffc1379377317230790ff987",
-      "modified_at": "2026-04-08T16:29:55Z",
+      "content_hash": "96c52ff33686ccc9c5dec5509df9c97a0fcdc8229afa50baa7373dc2a3daa963",
+      "modified_at": "2026-04-08T15:38:41Z",
       "path": "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md",
       "review_until": null,
       "source_tree": "wiki",
@@ -17654,8 +17654,8 @@
       "agent": "content_contract",
       "bridge_status": "none",
       "classification": "index",
-      "content_hash": "7bf3829d145f5881ba2b8d22c992353cce1cbbd4bd8f5ef7221c2a205d6f9d7d",
-      "modified_at": "2026-04-08T16:29:55Z",
+      "content_hash": "bea6f1bb1e3652f368a1d20af91c42b1e23f70849561136e8eed770ee1a52dd1",
+      "modified_at": "2026-03-26T14:07:27Z",
       "path": "docs/Siebenwind_Wiki/10_Archiv/index.md",
       "review_until": null,
       "source_tree": "wiki",

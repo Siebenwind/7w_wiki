@@ -1,8 +1,17 @@
+---
+layout: wiki_page
+title: "📋 Lore Research Board (Ausschreibungen)"
+category: Archiv
+---
+
 # 📋 Lore Research Board (Ausschreibungen)
 
 > *"Wissen ist ein Mosaik, dessen Steine wir erst noch finden müssen."*
 
 Dieses Board dient der Koordinierung von Forschungsaufträgen. Hier werden "weiße Flecken" in der Lore oder Inkongruenzen in den Akten für die Bearbeitung durch Agenten ausgeschrieben.
+
+**Publikationsprinzip:** Jeder Auftrag auf diesem Board verweist auf eine veroeffentlichte Archivseite.
+Fortschritt wird dort fortgeschrieben, nicht nur in Dispatch und `Logs/Research/`.
 
 ## 🚀 Aktuelle Forschungsaufträge (Tenders)
 
@@ -21,9 +30,9 @@ Dieses Board dient der Koordinierung von Forschungsaufträgen. Hier werden "wei�
 
 ### Detail-Beschreibungen offener Aufträge
 
-**RESEARCH-2026-002 (Ödland):** Inwiefern hat die alchemistische Forschung (Suche nach dem Stein der Weisen) das Ödland physisch oder magisch verändert? Quelle: [[Alchemie_Grundlagen]].
+**RESEARCH-2026-002 (Ödland):** Inwiefern hat die alchemistische Forschung (Suche nach dem Stein der Weisen) das Ödland physisch oder magisch verändert? Quelle: [[Alchemie_Kompendium]].
 
-**RESEARCH-2026-003 (Linari-Matrix):** Können die "verschiebbaren Knotenpunkte" der Reagenzien direkt in eine Matrix eingewebt werden, um permanente Artefakte ohne physische Materie zu erschaffen? Quelle: [[Matrixtheorie_Linari]], [[Alchemie_Grundlagen]].
+**RESEARCH-2026-003 (Linari-Matrix):** Können die "verschiebbaren Knotenpunkte" der Reagenzien direkt in eine Matrix eingewebt werden, um permanente Artefakte ohne physische Materie zu erschaffen? Quelle: [[Matrixtheorie_Linari]], [[Alchemie_Kompendium]].
 
 **RESEARCH-2026-004 (Causa Tjure Odal):** Stand 2026-04-08: Forschungsdurchlauf abgeschlossen. Arn Toron ist im Bote-Strang 184/186 als ehemaliger Konsul, Kaufmann und späterer Brandensteiner Exilant belastbar; die "Ketzer"-Markierung bleibt Anklagesprache. Tjure Odal ist im ausgewerteten Corpus nur einmalig in Bote 186 genannt und biografisch weiter [UNGEKLAERT]. Ergebnis: Report `Logs/Research/RESEARCH-2026-004_Summary.md`, Wiki-Seiten nachgezogen, Board wartet auf Review.
 
@@ -46,8 +55,8 @@ Dieses Board dient der Koordinierung von Forschungsaufträgen. Hier werden "wei�
 Um einen Forschungsauftrag zu übernehmen:
 1. Setze den Status im Ticket auf `CLAIMED (Agent Name)`.
 2. Aktualisiere den Status im Wiki und Board auf `IN_PROGRESS`.
-3. Nutze den Skill `Lore-Gelehrter` und das `Orakel` für die Recherche.
+3. Nutze die Faehigkeit `Lore-Gelehrter` und das `Orakel` fuer die Recherche.
 4. Erstelle nach Abschluss einen PR/Wiki-Update und setze das Ticket auf `REVIEW`.
 
 ---
-*Zuletzt konsolidiert: 2026-03-08 (Phase B Cleanup)*
+*Zuletzt konsolidiert: 2026-04-08 (Statistik- und Archivpass)*

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-08T16:08:21Z",
-  "inputs_fingerprint": "2e7b31082b96a5efd660710f6e9105c8026709c58e63f75140339a14444a24ea",
+  "generated_at": "2026-04-08T16:30:34Z",
+  "inputs_fingerprint": "7f36e93f4484f9871fba4b914910f238eab6e6f0b3f93b23acef171441e8bae4",
   "payload": {
     "bridge_inventory": {
       "invalid": 0,
       "total": 85
     },
     "contract_violations": {
-      "issues": 16
+      "issues": 20
     },
     "details": [
       {
@@ -14353,7 +14353,12 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Personen",
           "title": "Dunvallo Linari"
@@ -22876,8 +22881,14 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
+          "category": "Archiv",
           "title": "Interessante Artikel"
         },
         "path": "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md"
@@ -22953,7 +22964,12 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Index",
           "title": "\"📊 Siebenwind Kompass\""
@@ -22968,8 +22984,14 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
+          "category": "Archiv",
           "title": "\"Siebenwind Wiki - Archiv\""
         },
         "path": "docs/Siebenwind_Wiki/10_Archiv/index.md"

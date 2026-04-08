@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-08T16:08:18Z",
-  "inputs_fingerprint": "d72c74bb84b72e2d57346158476a97781bcf0008cbc6cb36c542e1300051f3a5",
+  "generated_at": "2026-04-08T16:30:35Z",
+  "inputs_fingerprint": "8ce2f0e4004b96fd7dcd2f295fb17594f2ee2c7308648b16c613f71e2fd1e49d",
   "payload": {
     "index": {
       "01catar": [
@@ -637,16 +637,16 @@
       "alchemie": [
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Anonymus.md"
       ],
-      "alchemiegrundlagen": [
-        "docs/Archiv/Research_Board.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Dunvallo_Linari.md"
-      ],
       "alchemiekompendium": [
+        "docs/Archiv/RESEARCH-2026-002.md",
+        "docs/Archiv/RESEARCH-2026-003.md",
+        "docs/Archiv/Research_Board.md",
         "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md",
         "docs/Siebenwind_Wiki/05_Magie/Reagenzien_Lehre.md",
         "docs/Siebenwind_Wiki/05_Magie/Ritual_Bannung_des_Grix.md",
         "docs/Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md",
-        "docs/Siebenwind_Wiki/05_Magie/index.md"
+        "docs/Siebenwind_Wiki/05_Magie/index.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Dunvallo_Linari.md"
       ],
       "aldaro": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
@@ -777,6 +777,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "angamon": [
+        "docs/Archiv/RESEARCH-2026-001.md",
         "docs/Quellen/Spielergeschichten/Aus dem Leben eines Schwarzmagiers.md",
         "docs/Quellen/Spielergeschichten/Aus_dem_Leben_eines_Schwarzmagiers.md",
         "docs/Quellen/Spielergeschichten/Jassavia.md",
@@ -1058,6 +1059,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "arntoron": [
+        "docs/Archiv/RESEARCH-2026-004.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_186.md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
@@ -1143,6 +1145,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "astrael": [
+        "docs/Archiv/RESEARCH-2026-010.md",
         "docs/Quellen/Spielergeschichten/Einsame Ladengedanken.md",
         "docs/Quellen/Spielergeschichten/Jassavia.md",
         "docs/Siebenwind_Wiki/00_Fundament/Adelskalender.md",
@@ -1265,6 +1268,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Toran_Dur.md"
       ],
       "astreyon": [
+        "docs/Archiv/RESEARCH-2026-007.md",
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
         "docs/Siebenwind_Wiki/00_Fundament/Lichthoch.md",
         "docs/Siebenwind_Wiki/00_Fundament/Tare.md",
@@ -1872,6 +1876,8 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "brandenstein": [
+        "docs/Archiv/RESEARCH-2026-004.md",
+        "docs/Archiv/RESEARCH-2026-012.md",
         "docs/Archiv/Research_Board.md",
         "docs/Quellen/Spielergeschichten/Abschied_und_Verrat.md",
         "docs/Quellen/Spielergeschichten/Dunkeltief- Vänskap.md",
@@ -2667,6 +2673,7 @@
         "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md"
       ],
       "dasdaimoniconkulinlateal": [
+        "docs/Archiv/RESEARCH-2026-001.md",
         "docs/Siebenwind_Wiki/00_Fundament/Kulin_Lateal.md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md"
       ],
@@ -3648,6 +3655,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "dorayon": [
+        "docs/Archiv/RESEARCH-2026-007.md",
         "docs/Quellen/Spielergeschichten/Geschäftiges Treiben.md",
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
         "docs/Siebenwind_Wiki/00_Fundament/Tare.md",
@@ -3679,6 +3687,9 @@
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Die_Enhor.md",
         "docs/Siebenwind_Wiki/05_Magie/Schamanische_Magie.md"
+      ],
+      "dossierrhadan": [
+        "docs/Archiv/RESEARCH-2026-007.md"
       ],
       "drachen": [
         "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
@@ -4931,6 +4942,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "fela": [
+        "docs/Archiv/RESEARCH-2026-007.md",
         "docs/Quellen/Hintergrund/Kanon.md",
         "docs/Quellen/Hintergrund/Khalandra.md",
         "docs/Quellen/Spielergeschichten/Abschied_und_Verrat.md",
@@ -5115,6 +5127,8 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Zacharias_Gropp.md"
       ],
       "finsterwangen": [
+        "docs/Archiv/Historian_Report_2026_003.md",
+        "docs/Archiv/RESEARCH-2026-006.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Der_letzte_Falke.md",
         "docs/Siebenwind_Wiki/02_Geografie/Brandenstein.md",
@@ -5879,6 +5893,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Liam_Harrom.md"
       ],
       "gruenland": [
+        "docs/Archiv/RESEARCH-2026-012.md",
         "docs/Siebenwind_Wiki/02_Geografie/Greifenweiher.md",
         "docs/Siebenwind_Wiki/02_Geografie/Siebenwind.md"
       ],
@@ -6397,7 +6412,11 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kazla.md"
       ],
       "historianreport2026003": [
-        "docs/Archiv/Research_Board.md"
+        "docs/Archiv/RESEARCH-2026-005.md",
+        "docs/Archiv/RESEARCH-2026-006.md",
+        "docs/Archiv/Research_Board.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md",
+        "docs/Siebenwind_Wiki/10_Archiv/index.md"
       ],
       "historieaeren": [
         "docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md",
@@ -8575,6 +8594,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "marnieruatha": [
+        "docs/Archiv/RESEARCH-2026-004.md",
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 182.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
@@ -8618,6 +8638,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "matrixtheorielinari": [
+        "docs/Archiv/RESEARCH-2026-003.md",
         "docs/Archiv/Research_Board.md",
         "docs/Siebenwind_Wiki/05_Magie/Lehrbuch_Magietheorie.md",
         "docs/Siebenwind_Wiki/05_Magie/Magietheorie_Linari.md",
@@ -8917,6 +8938,7 @@
       ],
       "myten": [
         "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md",
+        "docs/Archiv/RESEARCH-2026-011.md",
         "docs/Siebenwind_Wiki/00_Fundament/Glossar.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Von_den_Myten.md",
@@ -9204,6 +9226,8 @@
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Weissmagie_(Althea_Danea).md"
       ],
       "oedland": [
+        "docs/Archiv/Historian_Report_2026_003.md",
+        "docs/Archiv/RESEARCH-2026-006.md",
         "docs/Quellen/Spielergeschichten/Jenseits des Walls.md",
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 179.md",
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 180.md",
@@ -9258,6 +9282,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tarjas_Talinor.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Zacharias_Gropp.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Tardukai.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md",
         "docs/Siebenwind_Wiki/10_Archiv/Magierturm_zu_Tiefenbach.md"
       ],
       "oger": [
@@ -10361,22 +10386,29 @@
       ],
       "research2026004": [
         "docs/Archiv/Research_Board.md",
-        "docs/MASTER_TASK_LIST.md"
+        "docs/MASTER_TASK_LIST.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md",
+        "docs/Siebenwind_Wiki/10_Archiv/index.md"
       ],
       "research2026005": [
+        "docs/Archiv/Historian_Report_2026_003.md",
         "docs/Archiv/Research_Board.md"
       ],
       "research2026006": [
+        "docs/Archiv/Historian_Report_2026_003.md",
         "docs/Archiv/Research_Board.md"
       ],
       "research2026007": [
         "docs/Archiv/Research_Board.md",
-        "docs/MASTER_TASK_LIST.md"
+        "docs/MASTER_TASK_LIST.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md",
+        "docs/Siebenwind_Wiki/10_Archiv/index.md"
       ],
       "research2026008": [
         "docs/Archiv/Research_Board.md"
       ],
       "research2026008report": [
+        "docs/Archiv/RESEARCH-2026-008.md",
         "docs/Archiv/Research_Board.md"
       ],
       "research2026009": [
@@ -10384,6 +10416,7 @@
         "docs/Archiv/Research_Board.md"
       ],
       "research2026009report": [
+        "docs/Archiv/RESEARCH-2026-009.md",
         "docs/Archiv/Research_Board.md"
       ],
       "research2026010": [
@@ -10407,8 +10440,26 @@
         "docs/MASTER_TASK_LIST.md"
       ],
       "researchboard": [
+        "docs/Archiv/Historian_Report_2026_003.md",
+        "docs/Archiv/RESEARCH-2026-001.md",
+        "docs/Archiv/RESEARCH-2026-002.md",
+        "docs/Archiv/RESEARCH-2026-003.md",
+        "docs/Archiv/RESEARCH-2026-004.md",
+        "docs/Archiv/RESEARCH-2026-005.md",
+        "docs/Archiv/RESEARCH-2026-006.md",
+        "docs/Archiv/RESEARCH-2026-007.md",
+        "docs/Archiv/RESEARCH-2026-008.md",
         "docs/Archiv/RESEARCH-2026-008_Report.md",
-        "docs/Archiv/RESEARCH-2026-009_Report.md"
+        "docs/Archiv/RESEARCH-2026-009.md",
+        "docs/Archiv/RESEARCH-2026-009_Report.md",
+        "docs/Archiv/RESEARCH-2026-010.md",
+        "docs/Archiv/RESEARCH-2026-011.md",
+        "docs/Archiv/RESEARCH-2026-012.md",
+        "docs/Archiv/RESEARCH-2026-015.md",
+        "docs/Archiv/RESEARCH-2026-016.md",
+        "docs/Archiv/RESEARCH-2026-017.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md",
+        "docs/Siebenwind_Wiki/10_Archiv/index.md"
       ],
       "retofinkenfahn": [
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 179.md",
@@ -10646,6 +10697,8 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "rohehafen": [
+        "docs/Archiv/Historian_Report_2026_003.md",
+        "docs/Archiv/RESEARCH-2026-005.md",
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 180.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/00_Fundament/Rohehaven.md",
@@ -11193,6 +11246,11 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_162.md"
       ],
       "siebenwind": [
+        "docs/Archiv/Historian_Report_2026_003.md",
+        "docs/Archiv/RESEARCH-2026-005.md",
+        "docs/Archiv/RESEARCH-2026-009.md",
+        "docs/Archiv/RESEARCH-2026-012.md",
+        "docs/Archiv/RESEARCH-2026-017.md",
         "docs/Archiv/Research_Board.md",
         "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md",
         "docs/Quellen/Spielergeschichten/Illis_Geschichtenecke.md",
@@ -11633,7 +11691,6 @@
         "docs/Siebenwind_Wiki/10_Archiv/Provinzstatuten_Erlass.md",
         "docs/Siebenwind_Wiki/10_Archiv/Statut_der_Kronmark_Siebenwind.md",
         "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md",
-        "docs/Siebenwind_Wiki/10_Archiv/index.md",
         "docs/Siebenwind_Wiki/index.md"
       ],
       "siebenwindakte": [
@@ -11945,6 +12002,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lettre_Ulyssees.md"
       ],
       "siebenwindbote160": [
+        "docs/Archiv/RESEARCH-2026-012.md",
         "docs/Archiv/Research_Board.md",
         "docs/Siebenwind_Wiki/02_Geografie/Falkenwall.md",
         "docs/Siebenwind_Wiki/02_Geografie/Grünland.md",
@@ -12016,6 +12074,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tadschirim.md"
       ],
       "siebenwindbote168": [
+        "docs/Archiv/RESEARCH-2026-012.md",
         "docs/Archiv/Research_Board.md",
         "docs/Siebenwind_Wiki/02_Geografie/Grünland.md",
         "docs/Siebenwind_Wiki/04_Chronik/Die_Chronik.md",
@@ -12911,6 +12970,7 @@
         "docs/Siebenwind_Wiki/08_Bestiarium/index.md"
       ],
       "tare": [
+        "docs/Archiv/RESEARCH-2026-007.md",
         "docs/Quellen/Spielergeschichten/Aus dem Leben eines Schwarzmagiers.md",
         "docs/Quellen/Spielergeschichten/Aus_dem_Leben_eines_Schwarzmagiers.md",
         "docs/Siebenwind_Wiki/00_Fundament/Astreyon.md",
@@ -13173,6 +13233,8 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_180.md"
       ],
       "tiefenbach": [
+        "docs/Archiv/Historian_Report_2026_003.md",
+        "docs/Archiv/RESEARCH-2026-005.md",
         "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Von_dem_Boesen.md",
         "docs/Siebenwind_Wiki/02_Geografie/Rohehafen.md",
@@ -13249,6 +13311,7 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Inquisitionsprozess_gegen_Maar_und_Llewellyen.md"
       ],
       "tjureodal": [
+        "docs/Archiv/RESEARCH-2026-004.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_186.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Verhaftung_von_Marnie_Ruatha.md",
@@ -13273,6 +13336,7 @@
       "torandur": [
         "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md",
         "docs/Archiv/PROJECT_HISTORY.md",
+        "docs/Archiv/RESEARCH-2026-008.md",
         "docs/Quellen/Spielergeschichten/Alles_ohne_Pointe.md",
         "docs/Quellen/Spielergeschichten/Aus dem Leben eines Schwarzmagiers.md",
         "docs/Quellen/Spielergeschichten/Aus_dem_Leben_eines_Schwarzmagiers.md",
@@ -13820,6 +13884,7 @@
         "docs/Siebenwind_Wiki/09_Bibliothek/Nachts_im_Brandensteiner_Tempel.md"
       ],
       "vitamalin": [
+        "docs/Archiv/RESEARCH-2026-007.md",
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
         "docs/Siebenwind_Wiki/00_Fundament/Fela.md",
         "docs/Siebenwind_Wiki/00_Fundament/Lichthoch.md",
@@ -13880,6 +13945,7 @@
       ],
       "waldelfen": [
         "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md",
+        "docs/Archiv/RESEARCH-2026-011.md",
         "docs/Quellen/Spielergeschichten/Geschichten eines silbernen Adlers.md",
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Elodril_Myrtholis.md",
@@ -13998,6 +14064,7 @@
         "docs/Siebenwind_Wiki/03_Gesellschaft/Menschen.md"
       ],
       "wikistatistiken": [
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md",
         "docs/Siebenwind_Wiki/10_Archiv/index.md"
       ],
       "wikistyleguide": [
@@ -14226,13 +14293,15 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "zeichnungtares": [
+        "docs/Archiv/RESEARCH-2026-007.md",
         "docs/Siebenwind_Wiki/00_Fundament/Astreyon.md",
         "docs/Siebenwind_Wiki/00_Fundament/Dorayon.md",
         "docs/Siebenwind_Wiki/00_Fundament/Fela.md",
         "docs/Siebenwind_Wiki/00_Fundament/Tare.md",
         "docs/Siebenwind_Wiki/00_Fundament/Vitamalin.md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md",
-        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rhadan_der_Graue.md"
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rhadan_der_Graue.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md"
       ],
       "zeitleiste1530nh": [
         "docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md",
