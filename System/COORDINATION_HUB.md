@@ -54,6 +54,7 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [Archivregister/ARCHIVREGISTER.json](Archivregister/ARCHIVREGISTER.json)
 - [x] [Synapse_Board/SY_HISTORIAN_TRACEABILITY.md](Synapse_Board/SY_HISTORIAN_TRACEABILITY.md)
 - [x] [Synapse_Board/RESEARCH-2026-010.md](Synapse_Board/RESEARCH-2026-010.md)
+- [x] [Synapse_Board/RESEARCH-2026-018.md](Synapse_Board/RESEARCH-2026-018.md)
 - [x] [Logs/Conclusions/2026-02-17_Forum_Research_Report.md](../Logs/Conclusions/2026-02-17_Forum_Research_Report.md)
 - [x] [.agent/scripts/forum_scanner.py](../.agent/scripts/forum_scanner.py) (legacy runtime alias: `Scripts/forum_scanner.py`)
 - [x] [.agent/scripts/research_review.py](../.agent/scripts/research_review.py) (Research-Review-Runtime fuer `./7w_wiki.py start --list-reviews|--approve|--return-for-rework|--comment`)
@@ -84,4 +85,4 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [.agents/skills/workflow_forum_search/SKILL.md](../.agents/skills/workflow_forum_search/SKILL.md) (Generierte Codex-Workflow-Bridge)
 
 ---
-*Zuletzt aktualisiert: 2026-04-08T19:26:00Z | Ref: #research_approval_forum_pipeline_2026_04_08*
+*Zuletzt aktualisiert: 2026-04-08T20:46:00Z | Ref: #historian_split_after_wave2_2026_04_08*

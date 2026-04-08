@@ -54,6 +54,43 @@
           "resume": {
             "type": "boolean",
             "description": "Resume from last completed step"
+          },
+          "list_reviews": {
+            "type": "boolean",
+            "description": "List research tasks currently awaiting review/approval"
+          },
+          "review_id": {
+            "type": "string",
+            "description": "Research ID for a review action, e.g. RESEARCH-2026-004"
+          },
+          "approve": {
+            "type": "boolean",
+            "description": "Approve a research result as final human review"
+          },
+          "return_for_rework": {
+            "type": "boolean",
+            "description": "Return a research result to IN_PROGRESS with review notes"
+          },
+          "comment": {
+            "type": "boolean",
+            "description": "Add a non-final review comment without changing ownership"
+          },
+          "reviewer": {
+            "type": "string",
+            "description": "Reviewer name for approval/comment actions"
+          },
+          "role": {
+            "type": "string",
+            "description": "Review role",
+            "enum": [
+              "human_final",
+              "historian_comment",
+              "coordinator_note"
+            ]
+          },
+          "note": {
+            "type": "string",
+            "description": "Review note or approval rationale"
           }
         },
         "required": []
@@ -888,7 +925,8 @@
             "description": "Target forum",
             "enum": [
               "bekanntmachungen",
-              "news"
+              "news",
+              "geschichten"
             ]
           },
           "pages": {

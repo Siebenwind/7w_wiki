@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-08T20:31:13Z",
-  "inputs_fingerprint": "cc3620e4ae4c26f9a90cff1a1e8dc40c1a1bfc0486bbebeb46ceea0e6f2e638b",
+  "generated_at": "2026-04-08T20:54:37Z",
+  "inputs_fingerprint": "803aa2744c44fa1425bc1e8ceb19081bd30228d103985ae60920e86e5cea6ff9",
   "payload": {
     "bridge_inventory": {
       "invalid": 0,
       "total": 85
     },
     "contract_violations": {
-      "issues": 21
+      "issues": 26
     },
     "details": [
       {
@@ -3155,7 +3155,12 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Allgemein",
           "title": "Organisationsregister"
@@ -9837,7 +9842,12 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Chronik",
           "title": "Siebenwind Bote 174"
@@ -17268,7 +17278,12 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Persönlichkeit",
           "quelle": "\"[De Magica Angamoniensis] / [System arkaner Lokalitäten]\"",
@@ -19423,7 +19438,12 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Persönlichkeit",
           "quelle": "\"[Invocatio Elementharii]\"",
@@ -20973,7 +20993,12 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [],
+        "changes": [
+          {
+            "key": "layout",
+            "type": "legacy_field"
+          }
+        ],
         "meta": {
           "category": "Persönlichkeit",
           "quelle": "\"[Theorem zu den Baumwesen]\"",

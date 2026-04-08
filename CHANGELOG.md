@@ -1,5 +1,14 @@
 # Changelog
 
+#### [2026-04-08.11] - Semantischen Restbestand in Historian- und Technician-Spur aufgeteilt
+### Prioritaet: P2
+### Hinzugefügt
+- `System/Synapse_Board/RESEARCH-2026-018.md`: neuer aktiver Historian-Fall fuer die Disambiguierung der verbleibenden generischen `Magie`-/`index`-Verwendungen nach ausgeschoepfter mechanischer Linkreparatur.
+- `docs/Archiv/RESEARCH-2026-018.md`: oeffentliche Archivseite zum neuen Historian-Fall gemaess Publikationsprinzip.
+### Geändert
+- `docs/Archiv/Research_Board.md` und `System/Synapse_Board/LORE_RESEARCH_BOARD.md`: um `RESEARCH-2026-018` als offenen Historian-Fall ergaenzt; Professorenansicht und Detailbeschreibung auf den neuen semantischen Restbestand erweitert.
+- `System/COORDINATION_HUB.md`: neues Research-Artefakt registriert.
+
 #### [2026-04-08.10] - Welle 2 der Linkhygiene mechanisch fortgesetzt
 ### Prioritaet: P2
 ### Geändert

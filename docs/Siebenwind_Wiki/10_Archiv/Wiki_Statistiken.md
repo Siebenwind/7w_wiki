@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-04-08 22:16
+**Stand:** 2026-04-08 22:52
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -16,9 +16,9 @@ category: Index
 | Kennzahl | Wert |
 | :--- | :--- |
 | Artikel | **1359** |
-| Worte | **189,664** |
+| Worte | **189,703** |
 | Durchschnittliche Artikellaenge | **140 Worte** |
-| Interne Verweise (`[[...]]`) | **13,736** |
+| Interne Verweise (`[[...]]`) | **13,732** |
 | Vernetzungsdichte | **10.1 Links/Artikel** |
 | Personenprofile | **586** |
 
@@ -28,9 +28,9 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Aktive Tage |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 124 | - | 2 |
-| Letzte 30 Tage | 1274 | 2 | 4 |
-| Letzte 90 Tage | 1346 | - | 9 |
+| Letzte 7 Tage | 206 | - | 2 |
+| Letzte 30 Tage | 1276 | 3 | 4 |
+| Letzte 90 Tage | 1348 | - | 9 |
 
 ---
 
@@ -70,7 +70,7 @@ pie title Artikel pro Sektion
 ### Starke Knoten (gesamt)
 | Entitaet | Verweise |
 | :--- | ---: |
-| [[Siebenwind]] | 583 |
+| [[Siebenwind]] | 582 |
 | [[Falkensee]] | 542 |
 | [[Brandenstein]] | 468 |
 | [[Bellum]] | 168 |
@@ -140,7 +140,7 @@ pie title Artikel pro Sektion
 
 | Metrik | Stand |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | 21 |
+| Letzter Audit-Problemtotal | 27 |
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 85 |
 | Davon ohne Ausnahme-Metadaten | 0 |
@@ -179,7 +179,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_09b07017-ccac-43e7-80a8-1e245de18a34.txt`
+- Letzter Audit: `Logs/Archive/Audit_4f31386b-6534-4f18-b663-b2f6c3abcd75.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
 
 ---

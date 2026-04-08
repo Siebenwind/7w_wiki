@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-08T16:06:01Z",
+  "generated_at": "2026-04-08T20:52:02Z",
   "version": 1,
   "pages_health": {
     "status": "WARN",
-    "unresolved_total": 683,
-    "unallowlisted_total": 681,
-    "last_validated_at": "2026-04-08T15:01:07Z"
+    "unresolved_total": 638,
+    "unallowlisted_total": 636,
+    "last_validated_at": "2026-04-08T20:36:04Z"
   },
   "contract": {
     "bridge_invalid": 0,
-    "contract_violations": 16
+    "contract_violations": 26
   },
   "clusters": [
     {
@@ -19,7 +19,7 @@
       "lane": "lane1",
       "auto_apply_allowed": true,
       "escalate_if": "candidate set is empty, >1, or semantically non-identical",
-      "count": 7,
+      "count": 4,
       "examples": [
         {
           "target": "En'Hor",
@@ -53,57 +53,6 @@
             "docs/Siebenwind_Wiki/01_Pantheon/Ritus_der_Exercitio.md",
             "docs/Siebenwind_Wiki/02_Geografie/Brandenstein.md",
             "docs/Siebenwind_Wiki/02_Geografie/Finsterwangen.md"
-          ]
-        },
-        {
-          "target": "[index",
-          "canonical_target": "index",
-          "count": 1,
-          "source_pages": [
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 176.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 178.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 179.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 180.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 182.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 185.md",
-            "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
-            "docs/Siebenwind_Wiki/00_Fundament/Bibliotheks_Register.md",
-            "docs/Siebenwind_Wiki/00_Fundament/Das_Fundament.md"
-          ]
-        },
-        {
-          "target": "[Siebenwind",
-          "canonical_target": "Siebenwind",
-          "count": 1,
-          "source_pages": [
-            "docs/Archiv/Research_Board.md",
-            "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md",
-            "docs/Quellen/Spielergeschichten/Illis_Geschichtenecke.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 176.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 178.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 179.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 180.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 182.md",
-            "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 185.md"
-          ]
-        },
-        {
-          "target": "Beladriel_Blättertanz",
-          "canonical_target": "Beladriel_Blaettertanz",
-          "count": 1,
-          "source_pages": [
-            "docs/Siebenwind_Wiki/00_Fundament/Archiv_Register.md",
-            "docs/Siebenwind_Wiki/00_Fundament/Link_Test.md",
-            "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
-            "docs/Siebenwind_Wiki/02_Geografie/Feste_Seeberg.md",
-            "docs/Siebenwind_Wiki/02_Geografie/Siebenwind.md",
-            "docs/Siebenwind_Wiki/03_Gesellschaft/Koenigliches_Gericht.md",
-            "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_165.md",
-            "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_166.md",
-            "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_167.md",
-            "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_168.md"
           ]
         },
         {

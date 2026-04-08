@@ -28,6 +28,7 @@ Fortschritt wird dort fortgeschrieben, nicht nur in Dispatch und `Logs/Research/
 
 ### Offene Historian-Faelle
 
+- [[RESEARCH-2026-018]] - `OPEN_HISTORIAN`: semantische Disambiguierung von `Magie`- und `index`-Restfaellen nach ausgeschoepfter Mechanik.
 - [[RESEARCH-2026-017]] - `OPEN_HISTORIAN`: aktive Chronik-Synthese zur Entdeckung [[Siebenwind]]s.
 - [[RESEARCH-2026-004]] - `IN_REVIEW_HISTORIAN`: Gutachten liegt vor, Freigabeweg ist offen.
 - [[RESEARCH-2026-007]] - `IN_REVIEW_HISTORIAN`: Gutachten liegt vor, Freigabeweg ist offen.
@@ -44,11 +45,14 @@ Fortschritt wird dort fortgeschrieben, nicht nur in Dispatch und `Logs/Research/
 
 | ID | Gegenstand | Priorität | Status | Fokus |
 |----|------------|-----------|--------|-------|
+| [[RESEARCH-2026-018]] | Disambiguierung generischer Begriffe `Magie` & `index` | 🟡 Mittel | OPEN_HISTORIAN | Terminologie/Linksemantik |
 | [[RESEARCH-2026-017]] | Die Logbücher der "Nordwind" (1 n.H.) | 🔴 Hoch | OPEN_HISTORIAN | Chronik/Entdeckung |
 | [[RESEARCH-2026-004]] | Causa Tjure Odal & Arn Toron | 🔴 Hoch | IN_REVIEW_HISTORIAN | Biografie/Historiker |
 | [[RESEARCH-2026-007]] | Dossier Rhadan: Zeichnung Tares | 🔴 Hoch | IN_REVIEW_HISTORIAN | Kosmologie/Historiker |
 
 ### Detail-Beschreibungen aktiver Historian-Faelle
+
+**RESEARCH-2026-018 (Magie/index-Disambiguierung):** Stand 2026-04-08: Der mechanische Linkhygiene-Lauf ist weitgehend ausgeschoepft; der Restbestand besteht ueberwiegend aus echten Begriffsfragen. Der Fall soll klaeren, wann `Magie` als allgemeiner Begriff stehen bleiben muss, wann konkrete Zielseiten wie `[[Magie_Grundlagen]]` oder einzelne Theorieseiten gemeint sind, und welche `index`-Verwendungen nur Platzhalter/OCR-Reste versus echte Inhaltsbegriffe (`Geschichte`, `Recht`, `Bibliothek`, `Sprache`, `Werk`, `Ordnung`) sind. Ergebnisziel ist eine konservative Semantik-Matrix fuer weitere Technik-/Produktionslaeufe, keine blinde Massenersetzung.
 
 **RESEARCH-2026-017 (Nordwind):** Der Fall ist kein Standard-Ingest, sondern ein Syntheseauftrag mit groesserer historischer Unklarheit. Mehrere Traditionslinien zur Entdeckung [[Siebenwind]]s muessen sauber zusammengezogen werden, ohne die Gruendungsnarrative vorschnell zu glatten.
 
@@ -91,4 +95,4 @@ Ein Historian-Fall entsteht nicht primaer per Ausschreibung, sondern als Eskalat
 5. Der Mensch entscheidet nur bei echter Kontroverse oder Kanonkorrektur.
 
 ---
-*Zuletzt konsolidiert: 2026-04-08 (Statistik- und Archivpass)*
+*Zuletzt konsolidiert: 2026-04-08 (Historian-Split nach Wave-2-Linkhygiene)*
