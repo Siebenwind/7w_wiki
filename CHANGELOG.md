@@ -1,5 +1,24 @@
 # Changelog
 
+#### [2026-04-09.02] - Zeitstrahl-Handoversync und Runtime-Artefakte aktualisiert
+### Prioritaet: P1
+### Geändert
+- `CHANGELOG.md`, `MASTER_TASK_LIST.md` und der Handover-Stand: Session auf den tatsaechlichen Restbestand gehoben; aktiver Fokus jetzt semantischer Pages-Backlog, Historian-Reviews `RESEARCH-2026-004` / `RESEARCH-2026-007` und stale Forum-Scan-Pipeline.
+- `docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md`, `Logs/INGESTION_TRACKING_REGISTER.md` und die generierten Cache-/Inventarartefakte unter `.agent/data/`: durch `stats`, `audit`, `pages validate` und die Handover-Validierung auf den aktuellen Stand regeneriert.
+- `.agent/data/backlog_cluster_board.json` und `.agent/data/backlog_escalations.json`: Pages-/Backlog-Snapshot auf den bereinigten Vertragsstand (`contract_violations = 0`) und den aktuellen unresolved-Stand gehoben.
+### Hinzugefügt
+- `Logs/Archive/SESSION_MEMORY_2026-04-09_ZEITSTRAHL_HANDOVER_SYNC.md`: Session-Memory mit Abschlusslage, Validierung und offenem Restbestand fuer den naechsten Agenten.
+- `.agent/data/wiki_inventory_history/wiki_inventory_2026-04-09_181833.json`, `.agent/data/wiki_inventory_history/wiki_inventory_2026-04-09_181840.json` und `.agent/data/wiki_inventory_history/wiki_inventory_2026-04-09_181842.json`: neue Inventar-Snapshots aus dem Handover-Lauf.
+### Validiert
+- `./7w_wiki.py stats`
+- `./7w_wiki.py archive rotate`
+- `./7w_wiki.py tech --manifest`
+- `./7w_wiki.py audit --json`
+- `./7w_wiki.py pages validate --json` (`FAIL` nur wegen Runtime-Precheck auf dem bekannten `score_cluster`, keine neuen Contract-Verletzungen)
+- `./7w_wiki.py test --suite all` (vollstaendige Reportmenge unter `/var/folders/m0/28md0wx56p7d_3y66c75ggfc0000gn/T/7w_test_rk82__tl`; in den erzeugten Reports keine `FAIL`-/`SKIP`-Marker gefunden, aber der Wrapper lieferte im beobachteten Fenster keine finale Summary zurueck)
+- `./7w_wiki.py mail inbox --status OPEN`
+- `./7w_wiki.py start --list-reviews`
+
 #### [2026-04-09.01] - Wave 2 Pages-Haertung abgeschlossen und Restbestand fuer Handover neu fokussiert
 ### Prioritaet: P1
 ### Geändert

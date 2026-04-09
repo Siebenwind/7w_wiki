@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-09T17:36:20Z",
-  "inputs_fingerprint": "a6df0778117213dbd65a9a765cff9ac69d9db1bc17bbcc8617b6d2408709b5e0",
+  "generated_at": "2026-04-09T18:18:41Z",
+  "inputs_fingerprint": "9ab9da841d0455deada156817e979b0fb6d93e6fd222fc4048d57b83d3e8664f",
   "payload": {
     "index": {
       "01catar": [
@@ -2679,7 +2679,8 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Sanduros_Mantaris.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Telophas_von_Basarius.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Zoran_Gosh.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/index.md"
+        "docs/Siebenwind_Wiki/09_Bibliothek/index.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md"
       ],
       "dasfundament": [
         "docs/Siebenwind_Wiki/00_Fundament/Magietheorie_Toran_Dur.md",
@@ -2837,8 +2838,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Nhergas.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Solos_Nhergas.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Waldemar_Delarie.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Waldemars_Reise_Papin.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md"
+        "docs/Siebenwind_Wiki/09_Bibliothek/Waldemars_Reise_Papin.md"
       ],
       "derrvusmatrixtheorie": [
         "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",

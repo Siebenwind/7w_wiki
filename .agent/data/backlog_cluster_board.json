@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-09T15:47:12Z",
+  "generated_at": "2026-04-09T18:18:34Z",
   "version": 1,
   "pages_health": {
     "status": "WARN",
-    "unresolved_total": 639,
-    "unallowlisted_total": 637,
-    "last_validated_at": "2026-04-09T15:19:43Z"
+    "unresolved_total": 635,
+    "unallowlisted_total": 633,
+    "last_validated_at": "2026-04-09T17:37:38Z"
   },
   "contract": {
     "bridge_invalid": 0,
-    "contract_violations": 26
+    "contract_violations": 0
   },
   "clusters": [
     {

@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-04-09 17:47
+**Stand:** 2026-04-09 20:18
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -16,10 +16,10 @@ category: Index
 | Kennzahl | Wert |
 | :--- | :--- |
 | Artikel | **1359** |
-| Worte | **189,703** |
-| Durchschnittliche Artikellaenge | **140 Worte** |
-| Interne Verweise (`[[...]]`) | **13,732** |
-| Vernetzungsdichte | **10.1 Links/Artikel** |
+| Worte | **188,197** |
+| Durchschnittliche Artikellaenge | **138 Worte** |
+| Interne Verweise (`[[...]]`) | **13,553** |
+| Vernetzungsdichte | **10.0 Links/Artikel** |
 | Personenprofile | **586** |
 
 ---
@@ -70,11 +70,11 @@ pie title Artikel pro Sektion
 ### Starke Knoten (gesamt)
 | Entitaet | Verweise |
 | :--- | ---: |
-| [[Siebenwind]] | 582 |
-| [[Falkensee]] | 542 |
-| [[Brandenstein]] | 468 |
-| [[Bellum]] | 168 |
-| [[Astrael]] | 157 |
+| [[Siebenwind]] | 570 |
+| [[Falkensee]] | 533 |
+| [[Brandenstein]] | 465 |
+| [[Bellum]] | 165 |
+| [[Astrael]] | 155 |
 | [[Nortraven]] | 144 |
 | [[Toran_Dur]] | 137 |
 
@@ -83,11 +83,11 @@ pie title Artikel pro Sektion
 | Persoenlichkeit | Verweise |
 | :--- | ---: |
 | [[Toran_Dur]] | 137 |
-| [[Custodias]] | 84 |
-| [[Waldemar_Delarie]] | 60 |
+| [[Custodias]] | 71 |
+| [[Waldemar_Delarie]] | 54 |
 | [[Dunvallo_Linari]] | 50 |
-| [[Hagen_Robaar]] | 49 |
-| [[Solos_Nhergas]] | 48 |
+| [[Solos_Nhergas]] | 44 |
+| [[Hagen_Robaar]] | 41 |
 | [[Laske]] | 40 |
 
 
@@ -100,7 +100,7 @@ pie title Artikel pro Sektion
 | [[Siebenwind_Bote_186]] | 19 |
 | [[Siebenwind_Bote_173]] | 18 |
 | [[Siebenwind_Bote_180]] | 18 |
-| [[Der_Putsch_von_Falkensee]] | 18 |
+| [[Das_Ende_der_Zeit_der_Koenige]] | 17 |
 
 
 ---
@@ -140,7 +140,7 @@ pie title Artikel pro Sektion
 
 | Metrik | Stand |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | 27 |
+| Letzter Audit-Problemtotal | 1 |
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 85 |
 | Davon ohne Ausnahme-Metadaten | 0 |
@@ -185,7 +185,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_5097c1ce-0b7e-45f6-8b17-f09b61fc4e23.txt`
+- Letzter Audit: `Logs/Archive/Audit_6a649e52-1ea3-4bba-ac2a-15679b680e29.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
 
 ---
