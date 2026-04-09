@@ -6,15 +6,15 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
 - **Last Handover**: 2026-04-09 (Codex → Next Agent)
-- **Status**: Wave 2 der Pages-/Interop-Haertung ist umgesetzt: die physische Root-Struktur `Siebenwind_Wiki/` ist entfernt, `pages validate --contract --json` existiert als deterministischer CI-/Vertragsmodus, und Entwurfs-Assets liegen nicht mehr unter `docs/assets/`. Der technische Drift zwischen Root- und Docs-Baum ist damit geschlossen (`legacy_root_status = removed`, `bridge_inventory.invalid = 0`). Offen bleiben nun keine semantischen Bridge-Entscheide mehr, sondern der neue Restbestand aus `26` sichtbaren `layout`-Altfeldern im Audit, einem moeglichen Audit-Zaehl-Artefakt (`issues_found = 27` bei `26` ausgewiesenen Vertraegen), der strukturell defekten `Zeitstrahl.md` sowie dem semantischen Pages-Backlog (`637` unresolved, davon `625 needs_historian`).
+- **Status**: Wave 2 der Pages-/Interop-Haertung ist umgesetzt: die physische Root-Struktur `Siebenwind_Wiki/` ist entfernt, `pages validate --contract --json` existiert als deterministischer CI-/Vertragsmodus, und Entwurfs-Assets liegen nicht mehr unter `docs/assets/`. Der technische Drift zwischen Root- und Docs-Baum ist damit geschlossen (`legacy_root_status = removed`, `bridge_inventory.invalid = 0`). Der fruehere `layout`-/Audit-Rest wurde bereinigt; `audit --json` zeigt nun keinen `layout`-Vertragsbruch mehr und weist den verbleibenden Ingestion-Score-Cluster konsistent als sichtbares Einzelproblem aus. Offener Restbestand sind jetzt die strukturelle Chronikpflege nach dem `Zeitstrahl`-Pass, der semantische Pages-Backlog (`637` unresolved, davon `625 needs_historian`), die Historian-Reviews `RESEARCH-2026-004` / `RESEARCH-2026-007` sowie die stale Forum-Pipeline.
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
 
-- [ ] **Layout-Contract Cleanup & Audit-Zaehllogik**: `audit --json` meldet jetzt `27` Issues, weist aber inhaltlich `26` `legacy_field: layout`-Verletzungen aus. Der naechste Agent soll die verbleibenden `layout`-Altfelder in den betroffenen Seiten entfernen bzw. auf den aktuellen Vertrag heben und dabei pruefen, ob der verbleibende Delta-Zaehler ein Aggregationsfehler im Audit ist.
+- [x] **Layout-Contract Cleanup & Audit-Zaehllogik**: Die `layout`-Altfelder aus den audit-relevanten Seiten wurden entfernt; `audit --json` meldet keine `legacy_field: layout`-Verletzungen mehr und weist den verbleibenden Ingestion-Score-Cluster konsistent unter `details.ingestion_issues` aus.
 
-- [ ] **Zeitstrahl Structural Repair**: `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md` ist ueber den reinen `Historie`-Linkfehler hinaus deutlich beschaedigt und enthaelt eingebettete Fremdseitenfragmente. Dieser Defekt wurde im Historie-Cluster bewusst nicht miterledigt und braucht einen eigenen, strukturorientierten Reparaturtrack.
+- [x] **Zeitstrahl Structural Repair**: `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md` wurde von einem strukturell korrumpierten Mischdokument auf eine kompakte Chronik-Uebersicht mit Verweisen auf `Historie & Aeren` und `Zeitleiste (15-30 n.H.)` zurueckgefuehrt.
 
 - [ ] **Semantic Pages Backlog Triage**: `advisor --json` zeigt trotz technischem Drift-Fix weiter `Pages WARN` mit `637` unresolved Targets (`625 needs_historian`, `5 generic_term_conflict`). Der naechste Agent soll die bestehenden Board-/Backlog-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) als Arbeitsgrundlage verwenden und die semantische Begriffsarbeit strikt von mechanischen Reparaturen trennen.
 

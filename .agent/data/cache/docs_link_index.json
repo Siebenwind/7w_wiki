@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-09T15:47:19Z",
-  "inputs_fingerprint": "5efcd10a3170ed3531dbdb7ef4c2fde3ce5e301bd31ce6190e3a97b1a8a0a317",
+  "generated_at": "2026-04-09T17:36:20Z",
+  "inputs_fingerprint": "a6df0778117213dbd65a9a765cff9ac69d9db1bc17bbcc8617b6d2408709b5e0",
   "payload": {
     "index": {
       "01catar": [
@@ -447,7 +447,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/Orden_der_Wachenden_Löwen.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_192.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Solos_Nhergas.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
@@ -564,7 +563,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_192.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_193.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Custodias.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Geduldiger_Sand.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Petrichor.md",
@@ -714,7 +712,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_123.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Ernennung_Wim_Derfflinger.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "alwechnett": [
@@ -949,7 +946,6 @@
       ],
       "ariannamorgentau": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Benion_Sandelholz.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
@@ -1103,7 +1099,6 @@
       "aschehorn": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_193.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arthax_Stahlauge.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Helfric_von_Wallenburg.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kregor_Arthax_Stahlauge.md",
@@ -1210,7 +1205,6 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Das_Ende_der_Zeit_der_Koenige.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Entdeckung_der_Chernides_Muenze.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Gefecht_vor_Etriska.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/05_Magie/Golems.md",
         "docs/Siebenwind_Wiki/05_Magie/Lehrbuch_Magietheorie.md",
         "docs/Siebenwind_Wiki/05_Magie/Magie_Theorien.md",
@@ -1652,7 +1646,6 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Dunkeltief_29_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Geschichte_der_Mondamulette.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Konvent_des_Loewenordens_51.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/05_Magie/Sphaerenkunde_Kosmologie.md",
         "docs/Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Bernhelm_Tarek.md",
@@ -1714,7 +1707,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_175.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_176.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Schwarzer_Samen.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Emanuel_Sanderus.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Felis_Andras.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Khyra_Hohentann.md",
@@ -1992,7 +1984,6 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Trollkrieg_von_Brandenstein.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Verhaftung_von_Marnie_Ruatha.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Vorfall_im_Haus_TharSala.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Zerstoerung_von_Westhever.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Atmender_Tod.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Der_Flug_der_Ente.md",
@@ -2528,7 +2519,6 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Putsch_von_Falkensee.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Die_Spinnenplage_von_Falkensee.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Verhaftung_von_Marnie_Ruatha.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Waldemar_Delaries_Reise_nach_Papin.md",
         "docs/Siebenwind_Wiki/06_Myten_und_Legenden/Der_Blinde_Maler.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arn_Toron.md",
@@ -2707,9 +2697,6 @@
       "dassystemarkanerlokalitaetenkalverondai": [
         "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md"
       ],
-      "dasunbekanntemeer": [
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md"
-      ],
       "dasxiiikoeniglicheregiment": [
         "docs/Siebenwind_Wiki/00_Fundament/Lehensbanner.md",
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
@@ -2770,7 +2757,6 @@
         "docs/Siebenwind_Wiki/02_Geografie/Saeulenmeer.md",
         "docs/Siebenwind_Wiki/04_Chronik/Die_Chronik.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Geschichte.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Erzählungen.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/index.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Erzpriester_Vencurius.md",
@@ -2845,7 +2831,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Geschichte.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Putsch_in_Falkensee.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/05_Geschichte/index.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Custodias.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hektor.md",
@@ -3583,7 +3568,6 @@
         "docs/Siebenwind_Wiki/02_Geografie/Ödland.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Persoenlichkeiten_Uebersicht.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Geschichte.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/05_Geschichte/index.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Emanuel.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Sorania.md"
@@ -4234,7 +4218,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/Glossar.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Die_Tragödie_am_Wall.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Jenseits_des_Walls.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Emanuel_Sanderus.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Sorania.md",
@@ -4459,7 +4442,6 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Putsch_von_Falkensee.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Schlacht_um_Falkensee.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Tod_von_Tandrion_Intoma.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Waldemar_Delaries_Reise_nach_Papin.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Cho_Shnaz.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hannah_Berndorf.md",
@@ -4711,7 +4693,6 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Orkenaufstand_17_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Schlacht_um_Falkensee.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Tod_von_Tandrion_Intoma.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Atmender_Tod.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Geschichten_eines_silbernen_Adlers.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Myten_in_Falkensee.md",
@@ -5113,7 +5094,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_180.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Putsch_von_Falkensee.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Siebenwindakte.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Anissa_Merden.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Gwydion_Greifenkling.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hannah_Berndorf.md",
@@ -5190,7 +5170,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/Adelskalender.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_150.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kregor_Arthax_Stahlauge.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
@@ -5957,7 +5936,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_169.md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arlon_Windtanz.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Aspin_Schwertklinge_von_Fahlenau.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Benedict_Rabenfels.md",
@@ -5978,8 +5956,7 @@
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_179.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_184.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Schlacht_um_Falkensee.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md"
+        "docs/Siebenwind_Wiki/05_Geschichte/Schlacht_um_Falkensee.md"
       ],
       "hagenrobaarzusaalhorn": [
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md"
@@ -6260,7 +6237,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/Glossar.md",
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Persoenlichkeiten_Uebersicht.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Waldemar_Delaries_Reise_nach_Papin.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Waldemar_Delarie.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md",
@@ -6573,7 +6549,6 @@
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Sphaerenkunde_(Wolfgang_Ravinsthal).md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Theorien_der_Magie_(Toran_Dur).md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_150.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/05_Magie/Elementarlehre_Dunkelbaum.md",
         "docs/Siebenwind_Wiki/05_Magie/Elementarwerdung.md",
         "docs/Siebenwind_Wiki/05_Magie/Sphaerenkunde_Kosmologie.md",
@@ -6818,7 +6793,6 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Konzil_aller_Pfade.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Siebenwindakte.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Vorfall_im_Haus_TharSala.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/05_Magie/Alchemie_Kompendium.md",
         "docs/Siebenwind_Wiki/05_Magie/Arcana_Procella.md",
         "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md",
@@ -6990,7 +6964,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_192.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Erlass_des_Koenigs.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Adhemar_Ravenforth.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Celedelair.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Cendaric_Tibur.md",
@@ -7032,7 +7005,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Entdeckung_der_Chernides_Muenze.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Custodias.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ekart_Gradeg.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
@@ -7172,7 +7144,6 @@
       ],
       "jenseitsdeswalls": [
         "docs/Siebenwind_Wiki/05_Geschichte/Die_Tragödie_am_Wall.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Erzählungen.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/index.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Emanuel.md",
@@ -7554,7 +7525,6 @@
         "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_170.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Ernennung_Wim_Derfflinger.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Altumion_Eisenbruch.md"
       ],
       "koenigreichgaladon": [
@@ -7641,11 +7611,7 @@
         "docs/Siebenwind_Wiki/03_Gesellschaft/Bragarim.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Persoenlichkeiten_Uebersicht.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_193.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
-      ],
-      "kregorstahlauge": [
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md"
       ],
       "krellgrimmglutschreiter": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
@@ -7843,7 +7809,6 @@
       "lazalantin": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_184.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "leandra": [
@@ -8564,7 +8529,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_189.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Die_Tragödie_am_Wall.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Verhaftung_von_Marnie_Ruatha.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Jenseits_des_Walls.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arn_Toron.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Erin_Caoimme.md",
@@ -8859,7 +8823,6 @@
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Theorem_zu_den_Baumwesen_(Themus_Takai).md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Theorien_der_Magie_(Toran_Dur).md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_186.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/05_Magie/Daimonicon.md",
         "docs/Siebenwind_Wiki/05_Magie/Sphaerenkunde_Kosmologie.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Jenseits_des_Walls.md",
@@ -8887,7 +8850,6 @@
       "myrandhir": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_173.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Custodias.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
@@ -9225,7 +9187,6 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Schwarzer_Samen.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Trollkrieg_gegen_Brandenstein.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Trollkrieg_von_Brandenstein.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Erzählungen.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Erudin_Gropp.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Garreth_Moss.md",
@@ -9373,7 +9334,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_133.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_152.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Die_Spinnenplage_von_Falkensee.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Bernhelm_Tarek.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Caeden_Ecanas.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Felix_Goldschein.md",
@@ -9793,7 +9753,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/Provenus_Herand.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_158.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_175.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
       "provinzstatutenerlass": [
@@ -9986,7 +9945,6 @@
         "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",
         "docs/Siebenwind_Wiki/04_Chronik/Historie_&_Ären.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Siebenwindakte.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kregor_Arthax_Stahlauge.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lettre_Ulyssees.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Thorgon_Goldschlag.md"
@@ -10568,7 +10526,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_171.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Erlass_des_Koenigs.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Siebenwindakte.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Adhemar_Ravenforth.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arlon_Windtanz.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Beladriel_Blaettertanz.md",
@@ -10737,7 +10694,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_193.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arthax_Stahlauge.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Aschehorn.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kregor_Arthax_Stahlauge.md",
@@ -10852,7 +10808,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Die_Mazzaremer.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Die_Tragödie_am_Wall.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/05_Magie/Magietheorie_Toran_Dur_Fragmente.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Dunkeltief-_Vaenskap.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Jenseits_des_Walls.md",
@@ -11430,7 +11385,6 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Geschichte.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Orkenaufstand_17_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Rueckkehr_von_Koenig_Hilgorad.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/05_Geschichte/index.md",
         "docs/Siebenwind_Wiki/05_Magie/Lehrbuch_Magietheorie.md",
         "docs/Siebenwind_Wiki/05_Magie/index.md",
@@ -12551,7 +12505,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Putsch_von_Falkensee.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Waldemar_Delaries_Reise_nach_Papin.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Adhemar_Ravenforth.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Aspin_Schwertklinge_von_Fahlenau.md",
@@ -12576,7 +12529,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Die_Tragödie_am_Wall.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Geschichte.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Jenseits_des_Walls.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Emanuel.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
@@ -12676,7 +12628,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Putsch_von_Falkensee.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Schlacht_um_Falkensee.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arn_Toron.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Custodias.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Falk_Steinhauer.md",
@@ -13222,7 +13173,6 @@
       ],
       "tintin": [
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Der_Flug_der_Ente.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Erzpriester_Vencurius.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Die_Elemente_ungleiche_Geschwister.md"
@@ -13247,7 +13197,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_190.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Brandenstein_29_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Dunkeltief_29_nH.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ayk_Areson.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Guntram_Sonnacker.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Inoch_Ateharis.md",
@@ -13633,7 +13582,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Der_Flug_der_Ente.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Erzpriester_Vencurius.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Telandrion.md",
@@ -13675,7 +13623,6 @@
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Theorien_der_Magie_(Toran_Dur).md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_181.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Brand_Windfluesterers_Zorn.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/05_Magie/Elementarlehre_Dunkelbaum.md",
         "docs/Siebenwind_Wiki/05_Magie/Elementarwerdung.md",
         "docs/Siebenwind_Wiki/05_Magie/Sphaerenkunde_Kosmologie.md",
@@ -13747,7 +13694,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_130.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_165.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Handelsbundturnier_15_nH_Ergebnisse.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kiraya_Rabenschlag.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
@@ -13819,7 +13765,6 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Geschichte_der_Mondamulette.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Hexenverfolgungen_in_Borast.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Sternfall_bei_Rohehafen.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/05_Magie/Metamorphose_und_Gestaltwandel.md",
         "docs/Siebenwind_Wiki/05_Magie/Sphaerenkunde_Kosmologie.md",
         "docs/Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md",
@@ -13927,7 +13872,6 @@
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Putsch_von_Falkensee.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Die_Spinnenplage_von_Falkensee.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Waldemar_Delaries_Reise_nach_Papin.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Cho_Shnaz.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Custodias.md",
@@ -13953,7 +13897,6 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Solos_Nhergas.md"
       ],
       "waldemarsreisepapin": [
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Custodias.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hektor.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Solos_Nhergas.md",
@@ -14264,9 +14207,6 @@
         "docs/Siebenwind_Wiki/02_Geografie/Seeberg.md",
         "docs/Siebenwind_Wiki/04_Chronik/Die_Chronik.md",
         "docs/Siebenwind_Wiki/04_Chronik/index.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md"
-      ],
-      "zeitrechnung": [
         "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md"
       ],
       "zeitrechnungdersonnenzirkel": [
