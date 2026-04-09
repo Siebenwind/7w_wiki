@@ -1,15 +1,25 @@
 ---
-name: Linguist (Analyse & Pflege) Bridge
-description: Auto-generated external visibility bridge for Linguist (Analyse & Pflege).
+name: Linguist (Analyse & Pflege)
+description: Fähigkeit, falandrische Sprachen zu erkennen, zu interpretieren und die Datensätze zu pflegen.
 ---
 
-# Skill: Linguist (Analyse & Pflege) (External Bridge)
-> **Wrapper for**: `.agent/skills/linguist/SKILL.md`
+# Codex Skill: Linguist (Analyse & Pflege)
 
-This is an auto-generated bridge file. Its sole purpose is to make the internal skill capabilities discoverable to external agents (like Jules, Claude, or Gemini).
+> **Canonical skill**: `.agent/skills/linguist/SKILL.md`
+> **Marker**: Generated Codex adapter skill. Do not edit manually.
 
-## ⚠️ Mandatory Usage Instruction
-To understand the actual capabilities, constraints, and runtime commands for this skill, **you MUST explicitly read the internal target file**: 
-`.agent/skills/linguist/SKILL.md`
+This adapter is generated from the canonical catalog. Runtime execution stays on `./7w_wiki.py`; `.agent/` remains the source of truth.
 
-Do not attempt to guess the functionality based on this bridge file.
+## Primary Runtime Command
+`./7w_wiki.py translate [args...]`
+
+## Follow-up Commands
+- `./7w_wiki.py search <query> --source all`
+
+## Instructions
+- Use this adapter for falandric analysis, translation tasks, and language-dataset maintenance.
+- Resolve meaning in context, not as isolated word substitution.
+- Cross-check canon significance through search when a term affects lore or chronology.
+
+## References
+- `.agent/skills/linguist/SKILL.md`

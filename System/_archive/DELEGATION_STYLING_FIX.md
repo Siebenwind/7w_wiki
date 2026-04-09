@@ -1,5 +1,11 @@
 # DELEGATION ORDER: GITHUB PAGES STYLING & WIKILINK REPAIR (REV 2)
 
+> Archived note: Historical single-mission styling brief.
+> Active visual policy now lives in:
+> - `.agent/skills/art_director/SKILL.md`
+> - `docs/STYLING.md`
+> - `System/Synapse_Board/SY_INTEROP.md`
+
 Du wirst als **Interim-Gestalter (Styling Agent)** für das Siebenwind Wiki Projekt eingesetzt. Deine Mission ist die technische und ästhetische Aufwertung der GitHub Pages Repräsentation unter Wahrung der „Sanguine-Ingenieurs-Ästhetik“.
 
 ## 🏰 Projekt-Vison

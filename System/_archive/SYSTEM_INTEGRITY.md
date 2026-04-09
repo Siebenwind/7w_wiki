@@ -1,5 +1,11 @@
 # System Integrity & Directory Standards
 
+> Archived note: This document reflects the retired root-first physical-sync model.
+> Active source-tree and drift truth now lives in:
+> - `System/Synapse_Board/SY_INTEROP.md`
+> - `System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md`
+> - `System/AGENT_OPERATIONS_HANDBOOK.md`
+
 ## 📂 Core Directory Structure
 
 The Siebenwind Wiki follows a strict directory hierarchy. **Do NOT delete or move these folders** without an authorized migration plan.

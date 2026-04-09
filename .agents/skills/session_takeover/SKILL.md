@@ -1,19 +1,19 @@
 ---
 name: Session Takeover
-description: Codex bridge for adopting an existing Siebenwind session.
+description: Codex-native adapter for adopting an existing Siebenwind session.
 ---
 
-# Workflow Bridge: /takeover
+# Codex Skill: Session Takeover
 
-> **Wrapper for**: `.agent/workflows/takeover.md`
-> **Marker**: Generated workflow bridge. Do not edit manually.
+> **Canonical workflow**: `.agent/workflows/takeover.md`
+> **Marker**: Generated Codex adapter skill. Do not edit manually.
 
-This is a generated Codex-facing workflow bridge. Runtime execution must stay on `./7w_wiki.py`.
+This adapter is generated from the canonical catalog. Runtime execution stays on `./7w_wiki.py`; `.agent/` remains the source of truth.
 
 ## Primary Runtime Command
 `./7w_wiki.py takeover`
 
-## Execution Mode
+## Execution Modes
 - View workflow: `./7w_wiki.py takeover`
 - Execute checklist: `./7w_wiki.py takeover --run`
 
@@ -22,5 +22,12 @@ This is a generated Codex-facing workflow bridge. Runtime execution must stay on
 - `./7w_wiki.py advisor --json`
 - `./7w_wiki.py mail inbox --status OPEN`
 
-## Usage Rule
-Read `.agent/workflows/takeover.md` for the authoritative process. Do not guess workflow semantics from this bridge file alone.
+## Instructions
+- Use this adapter when inheriting work from a prior agent session.
+- Prefer /start as the canonical routing surface; antigravity survives only as a compatibility alias.
+- Carry forward open dispatches, the latest session memory, and unresolved historian or technician gates explicitly.
+
+## References
+- `.agent/workflows/takeover.md`
+- `.agent/workflows/start.md`
+- `Logs/Archive/SESSION_MEMORY_*.md`

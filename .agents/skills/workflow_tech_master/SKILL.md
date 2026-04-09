@@ -1,22 +1,29 @@
 ---
 name: Workflow Tech Master
-description: Codex bridge for the technician maintenance loop and interop sync path.
+description: Codex-native maintenance adapter for interop sync, pages health, and runtime hygiene.
 ---
 
-# Workflow Bridge: /tech_master
+# Codex Skill: Workflow Tech Master
 
-> **Wrapper for**: `.agent/workflows/tech_master.md`
-> **Marker**: Generated workflow bridge. Do not edit manually.
+> **Canonical workflow**: `.agent/workflows/tech_master.md`
+> **Marker**: Generated Codex adapter skill. Do not edit manually.
 
-This is a generated Codex-facing workflow bridge. Runtime execution must stay on `./7w_wiki.py`.
+This adapter is generated from the canonical catalog. Runtime execution stays on `./7w_wiki.py`; `.agent/` remains the source of truth.
 
 ## Primary Runtime Command
-`./7w_wiki.py tech`
+`./7w_wiki.py tech --sync-surfaces`
 
 ## Follow-up Commands
 - `./7w_wiki.py tech --sync-interop`
 - `./7w_wiki.py pages validate --json`
 - `./7w_wiki.py audit --pages`
 
-## Usage Rule
-Read `.agent/workflows/tech_master.md` for the authoritative process. Do not guess workflow semantics from this bridge file alone.
+## Instructions
+- Use this adapter for runtime-authoritative maintenance work: docs sync, adapter generation, pages integrity, and CLI surface hygiene.
+- Prefer ./7w_wiki.py tech --sync-surfaces for the full surface refresh. --sync-bridges remains compatibility-only.
+- Treat GitHub Pages and Codex integration as derived UX layers; keep .agent plus ./7w_wiki.py authoritative.
+
+## References
+- `.agent/workflows/tech_master.md`
+- `System/Synapse_Board/SY_INTEROP.md`
+- `System/MCP/README.md`

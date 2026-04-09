@@ -1,0 +1,35 @@
+[agents]
+max_threads = 2
+
+[mcp_servers.siebenwind-wiki]
+command = "python3"
+args = ["System/MCP/server.py"]
+cwd = "."
+enabled = true
+required = false
+startup_timeout_sec = 20
+tool_timeout_sec = 120
+
+[[skills.config]]
+path = ".agents/skills/session_start"
+enabled = true
+
+[[skills.config]]
+path = ".agents/skills/session_takeover"
+enabled = true
+
+[[skills.config]]
+path = ".agents/skills/session_handover"
+enabled = true
+
+[[skills.config]]
+path = ".agents/skills/workflow_tech_master"
+enabled = true
+
+[[skills.config]]
+path = ".agents/skills/workflow_test_run"
+enabled = true
+
+[[skills.config]]
+path = ".agents/skills/workflow_forum_search"
+enabled = true

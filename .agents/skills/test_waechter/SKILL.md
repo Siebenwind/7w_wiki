@@ -1,15 +1,27 @@
 ---
-name: Test Waechter Bridge
-description: Auto-generated external visibility bridge for Test Waechter.
+name: Test Waechter
+description: Standardized suite execution, defect routing via Dispatch/Task, and re-test discipline.
 ---
 
-# Skill: Test Waechter (External Bridge)
-> **Wrapper for**: `.agent/skills/test_waechter/SKILL.md`
+# Codex Skill: Test Waechter
 
-This is an auto-generated bridge file. Its sole purpose is to make the internal skill capabilities discoverable to external agents (like Jules, Claude, or Gemini).
+> **Canonical skill**: `.agent/skills/test_waechter/SKILL.md`
+> **Marker**: Generated Codex adapter skill. Do not edit manually.
 
-## ⚠️ Mandatory Usage Instruction
-To understand the actual capabilities, constraints, and runtime commands for this skill, **you MUST explicitly read the internal target file**: 
-`.agent/skills/test_waechter/SKILL.md`
+This adapter is generated from the canonical catalog. Runtime execution stays on `./7w_wiki.py`; `.agent/` remains the source of truth.
 
-Do not attempt to guess the functionality based on this bridge file.
+## Primary Runtime Command
+`./7w_wiki.py test --suite clean-client-state`
+
+## Follow-up Commands
+- `./7w_wiki.py test --suite all`
+- `./7w_wiki.py test --suite adapter-surfaces-contract`
+
+## Instructions
+- Use this adapter for standardized suite execution and defect-routing discipline.
+- On failure, create or claim the defect communication artifact before editing.
+- Re-run focused suites first, then the broader regression pass.
+
+## References
+- `.agent/skills/test_waechter/SKILL.md`
+- `.agent/workflows/test_run.md`

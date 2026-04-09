@@ -1,20 +1,22 @@
-# Workflow- und Skill-Bruecken
+# Workflow- und Skill-Adapter
 
-Dieser Bereich zeigt die Bruecke zwischen autoritativen Workflows in `.agent/` und den discoverbaren Codex-Wrappern in `.agents/skills/`.
+Dieser Bereich zeigt die Verbindung zwischen autoritativen Artefakten in `.agent/` und den abgeleiteten Codex-Adaptern in `.agents/skills/`.
 
 ## Architektur
 
 - Autoritativ: `.agent/workflows/`, `.agent/skills/`, `.agent/instructions/`
-- Interop-Wrapper: `.agents/skills/` (Codex/Jules)
-- Runtime: `./7w_wiki.py`
+- Kanonischer Discovery-Katalog: `.agent/catalog/catalog.v1.json`
+- AI-agnostische Kompatibilitaet: `lore_manifest.json`
+- Codex-Adapter: `.agents/skills/` plus `.codex/config.toml`
+- Offene Runtime: `./7w_wiki.py` plus MCP
 
-## Wichtige Bruecken-Skills
+## Wichtige Adapter-Skills
 
 - `session_start` -> `./7w_wiki.py start`, `advisor`, Inbox, Clean-State
 - `session_takeover` -> `./7w_wiki.py takeover`, `start`, `advisor`
 - `session_handover` -> `./7w_wiki.py handover`, `test --suite all`, `stats`
-- `workflow_tech_master` -> `./7w_wiki.py tech`, `tech --sync-interop`, `pages validate --json`
-- `workflow_test_run` -> `./7w_wiki.py test --suite all`, `test --suite codex-workflow-bridges`
+- `workflow_tech_master` -> `./7w_wiki.py tech --sync-surfaces`, `tech --sync-interop`, `pages validate --json`
+- `workflow_test_run` -> `./7w_wiki.py test --suite all`, `test --suite adapter-surfaces-contract`
 - `workflow_forum_search` -> `./7w_wiki.py scout --forum bekanntmachungen --pages 3`
 
 ## Zugeordnete Workflows
@@ -25,6 +27,15 @@ Dieser Bereich zeigt die Bruecke zwischen autoritativen Workflows in `.agent/` u
 - `/forum_search`
 - `/tech_master`
 - `/test_run`
+
+Legacy:
+- `/antigravity` bleibt nur als deprecated Alias auf `/start`.
+
+## Repo-Pflege
+
+- `./7w_wiki.py tech --sync-interop` synchronisiert Matrix, Runtime-Doku, Katalog, Codex-Adapter, A2A-Karte, Manifest und Tool-Manifest.
+- `./7w_wiki.py tech --repo-hygiene --json` zeigt Hot/Cold/Runtime/Build-Klassifikation.
+- `./7w_wiki.py tech --repo-hygiene --apply` fuehrt nur konservative, kanonkonforme Bereinigungsschritte aus.
 
 ## Discovery-Split
 

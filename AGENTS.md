@@ -1,7 +1,7 @@
 # 🤖 Siebenwind Wiki: Agent Protocols
 
 > **Canonical Entry Point for Autonomous Agents**
-> *Compatible with: Google Jules, OpenAI Codex, Gemini CLI, Antigravity*
+> *Compatible with: OpenAI Codex, MCP-capable IDEs/CLIs, legacy Antigravity alias*
 
 ## 🎯 Mission Statement
 You are operating on the **Siebenwind Wiki**, a 20-year-old collaborative world-building project. Your goal is to preserve its history while modernizing its infrastructure.
@@ -24,6 +24,9 @@ You are operating on the **Siebenwind Wiki**, a 20-year-old collaborative world-
     -   Use `System/Synapse_Board/` for conflict resolution.
 5.  **Agent Interop**:
     -   Respect the folder structure: `.agent/` is for internal logic.
+    -   Treat `.agent/catalog/catalog.v1.json` as the canonical discovery catalog.
+    -   Treat `lore_manifest.json` as a generated compatibility surface, never as the source of truth.
+    -   Treat `.agents/skills/` plus `.codex/config.toml` as the Codex adapter surface, not as the source of truth.
     -   Use `.agent/config/tools.json` for machine-readable tool discovery (OpenAI-compatible schema).
     -   Use `./7w_wiki.py --help-json` for dynamic CLI introspection.
 6.  **Mission Report Protocol**:
@@ -85,7 +88,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `scout` | Promoted discovery entrypoint for external source scanning. | `.agent/scripts/forum_scanner.py` |
 | `tech` | Show the technician workflow or run interop maintenance helpers. | `.agent/workflows/tech_master.md` |
 | `version` | Show or bump the wiki standard version. | `.agent/scripts/version_manager.py` |
-| `antigravity` | Show the core default workflow hub. | `.agent/workflows/antigravity.md` |
+| `antigravity` | Deprecated alias for start workflow overview. | `.agent/workflows/antigravity.md` |
 | `leitpunkt <view|status|check|scaffold>` | Manage the human maintainer standpoint workflow. | `.agent/scripts/leitpunkt_tool.py` |
 | `stats` | Generate reader-facing stats and machine snapshots. | `.agent/scripts/generate_wiki_stats.py` |
 | `mcp` | Start the MCP server for structured agent access. | `System/MCP/server.py` |
@@ -102,25 +105,25 @@ Use `./7w_wiki.py <command>` for all operations.
 -   **Workflows**: `.agent/workflows/*.md` (Standard Operating Procedures)
 -   **Personas**: `.agent/instructions/*.md` (Role definitions)
 
-## 🧭 Codex Workflow Bridges
+## 🧭 Adapter Surfaces
 
-Codex does not expose repo-defined slash commands like Antigravity. Instead, this repo mirrors selected workflows into discoverable wrappers under `.agents/skills/`.
+Canonical layer model:
 
-- **Session kickoff**: `session_start`
-- **Session adoption**: `session_takeover`
-- **Session closeout**: `session_handover`
-- **Tech maintenance**: `workflow_tech_master`
-- **Regression loop**: `workflow_test_run`
-- **Forum-source hunting**: `workflow_forum_search`
+- **Canonical core**: `.agent/` + `./7w_wiki.py`
+- **Open runtime surface**: MCP via `./7w_wiki.py mcp` and `mcp_config.json`
+- **Compatibility surface**: `lore_manifest.json`
+- **Codex adapter surface**: `.agents/skills/` + `.codex/config.toml`
+- **Future discovery surface**: `docs/.well-known/agent.json`
 
 Practical meaning:
-- If you want the Antigravity feeling of `/start`, use the `session_start` bridge or run `./7w_wiki.py start`.
-- If you want to search legacy forums for new ingestable sources, use `workflow_forum_search` or run `./7w_wiki.py scout --forum bekanntmachungen --pages 3`.
+- Use `./7w_wiki.py start` as the canonical onboarding path. `antigravity` survives only as a deprecated compatibility alias.
+- Use `.agents/skills/` for Codex-native discoverability, but treat those files as generated adapters derived from the canonical catalog.
 - `/scout` remains the broad external discovery entrypoint; `/forum_search` is the dedicated operational path for board-first source discovery.
 
 Maintainer note:
-- Regenerate wrappers with `./7w_wiki.py tech --sync-bridges` or `./7w_wiki.py tech --sync-interop`.
-- These syncs write into `.agents/skills/`, so the runtime needs filesystem permission to create/update bridge directories.
+- Regenerate the canonical discovery and adapter surfaces with `./7w_wiki.py tech --sync-surfaces` or the full `./7w_wiki.py tech --sync-interop`.
+- Use `./7w_wiki.py tech --repo-hygiene [--apply] [--json]` for conservative hot/cold/runtime/build cleanup and retention.
+- `./7w_wiki.py tech --sync-bridges` remains only as a deprecated alias for old runbooks.
 
 ## 🚀 How to Work Here (Standard Loop)
 
@@ -129,7 +132,7 @@ Maintainer note:
 3.  **Execute**: Use `7w_wiki.py` tools. Do NOT edit `7w_wiki.py` unless assigned to "DevOps". Send status heartbeats via `mail post` on long tasks and route contradictions as specialist questions (question-first).
     Classify lore drift before editing: homepage drift, Quellen drift, or wiki-page drift. Reconcile against higher-precedence sources first; only then treat wiki-page edits as resolved.
     Bundle archives under `dist/` are release/build artifacts, not repo truth. Create them locally or via GitHub Releases, but do not commit them.
-4.  **Verify**: Run `./7w_wiki.py audit`, `./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-command-registry`, `./7w_wiki.py test --suite codex-workflow-bridges`, `./7w_wiki.py test --suite workflow-matrix-contract`, `./7w_wiki.py test --suite tool-manifest-contract`, `./7w_wiki.py test --suite pages-link-contract`, `./7w_wiki.py test --suite bridge-placeholder-guard`, `./7w_wiki.py test --suite reader-stats-contract`, `./7w_wiki.py test --suite content-contract`, `./7w_wiki.py test --suite split-brain-guard`, and `./7w_wiki.py test --suite render-hygiene` before committing.
+4.  **Verify**: Run `./7w_wiki.py audit`, `./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-command-registry`, `./7w_wiki.py test --suite catalog-contract`, `./7w_wiki.py test --suite adapter-surfaces-contract`, `./7w_wiki.py test --suite delegation-policy-contract`, `./7w_wiki.py test --suite repo-hygiene-contract`, `./7w_wiki.py test --suite manifest-contract`, `./7w_wiki.py test --suite source-tree-contract`, `./7w_wiki.py test --suite legacy-doc-contract`, `./7w_wiki.py test --suite asset-surface-contract`, `./7w_wiki.py test --suite workflow-matrix-contract`, `./7w_wiki.py test --suite tool-manifest-contract`, `./7w_wiki.py test --suite pages-link-contract`, `./7w_wiki.py test --suite bridge-placeholder-guard`, `./7w_wiki.py test --suite reader-stats-contract`, `./7w_wiki.py test --suite content-contract`, `./7w_wiki.py test --suite split-brain-guard`, and `./7w_wiki.py test --suite render-hygiene` before committing.
    If the published site or docs navigation changed, also run `./7w_wiki.py pages validate --json` and align the result with [SY_DRIFT_PAGES_CONTRACT.md](System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 5.  **Log**: Update `CHANGELOG.md` or `Logs/` as appropriate. End each session with `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` and reference it via `./7w_wiki.py mail post`.
 
@@ -146,12 +149,13 @@ Rule: when factual conflicts exist, Homepage and Quellen govern. Wiki pages are 
 
 ## 🔌 MCP Server (Model Context Protocol)
 
-An MCP server is available that wraps the entire CLI as structured, typed tools for AI agents.
+The MCP server is the **canonical live interface** for external agents and IDEs. It wraps the CLI as structured tools and also exposes the canonical catalog as resources.
 
 - **Start**: `./7w_wiki.py mcp` (stdio) or `./7w_wiki.py mcp --transport streamable-http --port 7777` (network)
 - **Auto-Discovery**: `mcp_config.json` at repo root for MCP-capable clients
 - **Docs**: [System/MCP/README.md](System/MCP/README.md)
 - **Generated typed tools** auto-generated from `--help-json` — zero maintenance
+- **Catalog resources**: `wiki://catalog`, `wiki://workflows`, `wiki://skills`, `wiki://agents`
 - **`wiki_mail_quip`**: You ARE encouraged to use this tool for in-character interagency commentary, humor, and personality. See `[QUIP]` tag in [SY_DISPATCH.md](System/Synapse_Board/SY_DISPATCH.md).
 
 > **Dependency**: `pip install 'mcp[cli]'`

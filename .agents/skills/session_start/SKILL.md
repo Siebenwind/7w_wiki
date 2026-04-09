@@ -1,19 +1,19 @@
 ---
 name: Session Start
-description: Codex kickoff wrapper for the standard onboarding loop.
+description: Codex-native onboarding adapter for the standard session kickoff loop.
 ---
 
-# Workflow Bridge: /start
+# Codex Skill: Session Start
 
-> **Wrapper for**: `.agent/workflows/start.md`
-> **Marker**: Generated workflow bridge. Do not edit manually.
+> **Canonical workflow**: `.agent/workflows/start.md`
+> **Marker**: Generated Codex adapter skill. Do not edit manually.
 
-This is a generated Codex-facing workflow bridge. Runtime execution must stay on `./7w_wiki.py`.
+This adapter is generated from the canonical catalog. Runtime execution stays on `./7w_wiki.py`; `.agent/` remains the source of truth.
 
 ## Primary Runtime Command
 `./7w_wiki.py start`
 
-## Execution Mode
+## Execution Modes
 - View workflow: `./7w_wiki.py start`
 - Execute checklist: `./7w_wiki.py start --run`
 
@@ -22,5 +22,12 @@ This is a generated Codex-facing workflow bridge. Runtime execution must stay on
 - `./7w_wiki.py mail inbox --status OPEN`
 - `./7w_wiki.py test --suite clean-client-state`
 
-## Usage Rule
-Read `.agent/workflows/start.md` for the authoritative process. Do not guess workflow semantics from this bridge file alone.
+## Instructions
+- Use this adapter when opening a fresh Siebenwind session in Codex or another IDE.
+- Run the primary command first; use --run only when the workflow checklist should execute interactively.
+- Review advisor output, open dispatch, clean-client-state, and the latest session memory before taking new work.
+
+## References
+- `.agent/workflows/start.md`
+- `MASTER_TASK_LIST.md`
+- `Logs/Archive/SESSION_MEMORY_*.md`

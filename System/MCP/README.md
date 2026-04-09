@@ -1,10 +1,10 @@
 # Siebenwind Wiki — MCP Server
 
-> Model Context Protocol Server for AI Agent Integration
+> Canonical live Model Context Protocol surface for external AI agent integration
 
 ## Overview
 
-This MCP server exposes the typed, generated `7w_wiki.py` tool surface as structured tools for AI agents. It follows the **Thin Relay** principle: the server has no own logic — it delegates everything to the CLI entry point.
+This MCP server is the canonical live interface for external agents and IDEs. It exposes the typed, generated `7w_wiki.py` tool surface as structured tools and also publishes the canonical agent catalog as MCP resources. It follows the **Thin Relay** principle for execution: runtime logic stays on the CLI entry point.
 
 ```
 MCP Client (Antigravity / Gemini CLI / Codex / Claude)
@@ -71,7 +71,7 @@ When using HTTP transport, the server probes the port first. If already in use, 
 
 Tool definitions are **never maintained manually**. On every startup, the server runs `generate_mcp_tools.py`, which calls `./7w_wiki.py --help-json` and converts the typed CLI schema into MCP tool definitions.
 
-**Add or change a CLI command/subcommand contract -> it automatically appears in MCP and the OpenAI-compatible tools manifest.**
+The server also loads `.agent/catalog/catalog.v1.json` for resources and prompt metadata. If the catalog is missing, the server attempts to regenerate it automatically.
 
 ### Oracle Availability Probe
 
@@ -108,12 +108,24 @@ Pages-aware flags such as `audit --pages`, `pages validate --json`, `pages valid
 
 ## Resources
 
-The server also exposes MCP resources (read-only data):
+The server exposes MCP resources (read-only data) for the canonical catalog and live status:
 
 | URI | Description |
 |---|---|
+| `wiki://catalog` | Canonical catalog for agents, skills, workflows, delegation, and surfaces |
+| `wiki://workflows` | Workflow catalog entries |
+| `wiki://skills` | Skill catalog entries |
+| `wiki://agents` | Persona/agent catalog entries |
+| `wiki://prompts` | Generated workflow-prompt metadata |
 | `wiki://status` | Current system status (advisor output) |
 | `wiki://dispatch/open` | Open dispatch messages |
+
+## Prompts
+
+Major workflows such as `start`, `takeover`, `handover`, `tech_master`, `test_run`, and `forum_search` are emitted as generated prompt metadata in the catalog.
+
+- If the installed MCP SDK supports prompt registration, the server registers them at runtime.
+- If prompt registration is unavailable, the metadata remains accessible via `wiki://prompts` and `wiki://catalog`.
 
 ## The `[QUIP]` System
 
@@ -171,6 +183,7 @@ launchctl load ~/Library/LaunchAgents/com.siebenwind.mcp.plist
 | `server.py` | MCP Server (Thin Relay, dual-mode startup) |
 | `generate_mcp_tools.py` | Auto-extraction pipeline (CLI → MCP tools) |
 | `__init__.py` | Package init |
+| `../../.agent/catalog/catalog.v1.json` | Canonical discovery metadata consumed by MCP resources/prompts |
 | `../../mcp_config.json` | Client auto-discovery config |
 
 ---

@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """
-Siebenwind Wiki — MCP Server (Thin Relay)
+Siebenwind Wiki — MCP Server (Canonical Live Surface)
 
 A Model Context Protocol server that exposes the 7w_wiki.py CLI as
-structured tools for AI agents (Antigravity, Gemini CLI, Codex, Claude).
+structured tools, resources, and workflow prompts for AI agents.
 
 Architecture:
   MCP Client → server.py (this file) → ./7w_wiki.py <command> → result
 
-The server has NO own logic. It delegates everything to the CLI.
-Tool definitions are auto-generated from `./7w_wiki.py --help-json`.
+The server keeps execution logic on the CLI. Tool definitions are auto-generated
+from `./7w_wiki.py --help-json`. Catalog-backed resources and prompts are derived
+from `.agent/catalog/catalog.v1.json`.
 
 Usage:
   # Standalone daemon (primary)
@@ -38,6 +39,8 @@ from content_contract import TECHNICAL_WIKI_ROOT
 # Resolve repo root (System/MCP/server.py → ../../)
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CLI_PATH = REPO_ROOT / "7w_wiki.py"
+CATALOG_PATH = REPO_ROOT / ".agent" / "catalog" / "catalog.v1.json"
+CATALOG_GENERATOR = REPO_ROOT / ".agent" / "scripts" / "generate_agent_catalog.py"
 
 # --- Lazy SDK import (fail gracefully if not installed) ---
 
@@ -150,6 +153,55 @@ def load_tool_definitions() -> list[dict]:
     ]
 
 
+def load_catalog_data() -> dict:
+    """
+    Load the canonical catalog. If it is missing, try to regenerate it once so
+    MCP resources stay available even in fresh checkouts.
+    """
+    if not CATALOG_PATH.exists():
+        try:
+            subprocess.run(
+                [sys.executable, str(CATALOG_GENERATOR)],
+                capture_output=True,
+                text=True,
+                timeout=20,
+                cwd=str(REPO_ROOT),
+                check=True,
+            )
+        except Exception as exc:
+            print(f"[MCP Server] Catalog generation failed: {exc}", file=sys.stderr)
+            return {}
+    try:
+        return json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
+    except Exception as exc:
+        print(f"[MCP Server] Failed to load catalog: {exc}", file=sys.stderr)
+        return {}
+
+
+def _catalog_json(payload) -> str:
+    return json.dumps(payload, indent=2, ensure_ascii=False)
+
+
+def register_catalog_prompts(mcp, catalog: dict):
+    prompt_decorator = getattr(mcp, "prompt", None)
+    if not callable(prompt_decorator):
+        return
+
+    prompts = catalog.get("surfaces", {}).get("mcp", {}).get("prompts", [])
+    for prompt in prompts:
+        prompt_id = prompt.get("id")
+        prompt_description = prompt.get("description", "")
+        prompt_text = prompt.get("prompt", "")
+        if not prompt_id or not prompt_text:
+            continue
+        try:
+            @prompt_decorator(name=f"workflow_{prompt_id}", description=prompt_description)
+            def _workflow_prompt(prompt_text=prompt_text) -> str:
+                return prompt_text
+        except Exception as exc:
+            print(f"[MCP Server] Prompt registration skipped for {prompt_id}: {exc}", file=sys.stderr)
+
+
 # ──────────────────────────────────────────────
 # MCP Server Setup
 # ──────────────────────────────────────────────
@@ -172,6 +224,7 @@ def create_server():
     # Load tool definitions from auto-extraction pipeline
     tool_defs = load_tool_definitions()
     oracle_available = probe_oracle()
+    catalog = load_catalog_data()
 
     # Register each tool dynamically
     for tool_def in tool_defs:
@@ -188,7 +241,7 @@ def create_server():
         # Register the tool using a closure to capture the right values
         _register_tool(mcp, tool_def, cli_path, json_capable, is_quip)
 
-    # Register wiki content as a resource
+    # Register runtime and catalog resources
     @mcp.resource("wiki://status")
     def wiki_status() -> str:
         """Current wiki system status (advisor output)."""
@@ -199,6 +252,32 @@ def create_server():
         """Currently open dispatch messages."""
         return run_cli_command(["mail", "inbox"], ["--status", "OPEN"])
 
+    @mcp.resource("wiki://catalog")
+    def wiki_catalog() -> str:
+        """Canonical catalog for agents, skills, workflows, and adapter surfaces."""
+        return _catalog_json(catalog or {})
+
+    @mcp.resource("wiki://workflows")
+    def wiki_workflows() -> str:
+        """Workflow catalog entries."""
+        return _catalog_json(catalog.get("workflows", []))
+
+    @mcp.resource("wiki://skills")
+    def wiki_skills() -> str:
+        """Skill catalog entries."""
+        return _catalog_json(catalog.get("skills", []))
+
+    @mcp.resource("wiki://agents")
+    def wiki_agents() -> str:
+        """Agent/persona catalog entries."""
+        return _catalog_json(catalog.get("agents", []))
+
+    @mcp.resource("wiki://prompts")
+    def wiki_prompts() -> str:
+        """Generated MCP prompt metadata."""
+        return _catalog_json(catalog.get("surfaces", {}).get("mcp", {}).get("prompts", []))
+
+    register_catalog_prompts(mcp, catalog)
     return mcp
 
 

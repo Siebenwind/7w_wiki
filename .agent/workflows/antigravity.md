@@ -1,67 +1,39 @@
 ---
-description: Der Ur-Prozess / Default Protocol (Antigravity)
+description: Deprecated compatibility alias that redirects to /start
 ---
 
-# Workflow: `/antigravity` (The Core Loop)
+# Workflow: `/antigravity` (Compatibility Alias)
 
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py antigravity`
   - `7w_wiki.py start`
-  - `7w_wiki.py advisor`
-  - `7w_wiki.py audit`
-  - `7w_wiki.py repair`
-  - `7w_wiki.py stats`
-  - `7w_wiki.py test --suite clean-client-state`
-  - `7w_wiki.py mail post --from <agent> --to <agent|ALL> --subject "<text>" --body "<text>"`
 - method_only:
   - `/antigravity`
+- interop_note: Deprecated compatibility alias. `./7w_wiki.py antigravity` now prints a deprecation note and then shows `/start`.
+- matrix_status: executable
+- catalog_id: `workflow.antigravity`
+- primary_command: `7w_wiki.py antigravity`
+- followup_commands:
+  - `7w_wiki.py start`
+  - `7w_wiki.py advisor --json`
+- adapter_targets:
+  - `mcp:compat/antigravity`
+- deprecated_aliases:
+  - `/antigravity`
 
-Dieser Workflow ist das **Fundament** der Agenten-Interaktion. Er unterwirft den Agenten strikt der Logik der Skripte. Er ist die Antwort auf die Frage nach "Default Options".
+`/antigravity` ist kein architektonisches Zentrum mehr. Es bleibt nur als **Kompatibilitätsalias** fuer alte Runbooks, alte Agentengewohnheiten und historische Dokumentation erhalten.
 
-## 1. Die Mentalität (Code is Law)
-Solange dieser Workflow aktiv ist, gibst du deine kreative Freiheit auf.
-- **Du bist eine Runtime Environment**, kein Autor.
-- **Du exekutierst**, du interpretierst nicht.
-- **Du vertraust dem Code** mehr als deiner Intuition.
+## Status
 
-## 1b. Das Gerichtsprotokoll (Eskalation)
-Nutze das [JUDICIARY_LOG.md](../../Logs/JUDICIARY_LOG.md) **nur bei Eskalation (Level 3)**:
-- Wenn der Kanon unklar ist.
-- Wenn du eine schwerwiegende Entscheidung ohne direkte Anweisung triffst.
-- Bei allen `[UNGEKLÄRT]` Fällen.
-Routineaufgaben werden weiterhin nur via Git und Changelog dokumentiert.
+1. Verwende fuer neue Sessions und neue Dokumentation immer `/start` beziehungsweise `./7w_wiki.py start`.
+2. Behandle `./7w_wiki.py antigravity` als Weiterleitung, nicht als eigene Steuerungsebene.
+3. Migriere neue Integrationen auf den kanonischen Kern:
+   - `.agent/` fuer Authoring und Governance
+   - `./7w_wiki.py` fuer Runtime
+   - MCP fuer offene Laufzeit-Integration
+   - `.agents/skills/` plus `.codex/config.toml` fuer den Codex-Adapter
 
-## 2. Der Status-Check (Onboarding)
-Der erste Schritt ist immer das Onboarding. Es analysiert den Status und gibt dir Handlungsoptionen.
+## Historischer Hinweis
 
-// turbo
-./7w_wiki.py start
-
-## 3. Die Exekution
-Führe **exakt** das aus, was der Advisor empfiehlt.
-- Wenn er Konsistenzarbeit empfiehlt, führe `./7w_wiki.py repair` oder den `/qa_master` Workflow aus.
-- Wenn er offene Quellen meldet, folge dem `/ingest_master` Workflow.
-- Wenn er sagt "Nichts zu tun", dann generiere Statistiken (`./7w_wiki.py stats`) und melde dich beim User.
-
-## 4. Die Sicherheits-Garantie
-Solltest du jemals unsicher sein, was zu tun ist:
-1.  Halte inne.
-2.  Führe `./7w_wiki.py audit` aus.
-3.  Lies das Ergebnis.
-4.  Handle danach.
-
-## 5. Die Dokumentations-Pflicht (No Silent Changes)
-Jede relevante Aenderung wird nachvollziehbar dokumentiert.
-1. Update `CHANGELOG.md` (Was, Warum, Validierung).
-2. Bei UX/CD-Anpassungen:
-   - `docs/Archiv/REDESIGN_ROADMAP_2026.md` aktualisieren.
-   - Betroffene Skills/Workflows synchronisieren (z.B. Art Director, /herold, /tech_master).
-3. Sessionende:
-   - Session-Memory unter `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md`.
-   - Pfad per `./7w_wiki.py mail post` an Folgeagenten melden.
-
-### Aenderungsstand
-- 2026-02-17: Leserfokus-Relaunch als dokumentationspflichtiger Standardfall verankert (Roadmap + Skill/Workflow-Sync + Session-Memory/Dispatch).
-
-**Information Loss is unacceptable.**
+Antigravity bleibt als historischer Begriff sichtbar, damit alte Arbeitsprotokolle lesbar bleiben. Neue Prozesse, neue Tests und neue Onboarding-Hinweise referenzieren jedoch `/start`.

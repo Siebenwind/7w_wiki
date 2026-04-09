@@ -1,16 +1,15 @@
 {
   "suite": "codex-workflow-bridges",
-  "description": "Guard generated Codex workflow bridges and the forum-search bridge surface.",
+  "description": "Deprecated compatibility alias for adapter-surfaces-contract.",
   "cases": [
     {
-      "id": "generated-bridge-files",
-      "name": "All Codex-enabled workflow bridges exist as generated skill wrappers",
+      "id": "generated-adapter-files",
+      "name": "All Codex-enabled workflow adapters exist as generated skill surfaces",
       "required_regex_by_file": [
         {
           "file": ".agents/skills/session_start/SKILL.md",
           "must_include_regex": [
-            "Generated workflow bridge\\. Do not edit manually\\.",
-            "Wrapper for.*\\.agent/workflows/start\\.md",
+            "Generated Codex adapter skill\\. Do not edit manually\\.",
             "\\./7w_wiki\\.py start",
             "start --run"
           ]
@@ -18,7 +17,6 @@
         {
           "file": ".agents/skills/session_takeover/SKILL.md",
           "must_include_regex": [
-            "Wrapper for.*\\.agent/workflows/takeover\\.md",
             "\\./7w_wiki\\.py takeover",
             "takeover --run"
           ]
@@ -26,7 +24,6 @@
         {
           "file": ".agents/skills/session_handover/SKILL.md",
           "must_include_regex": [
-            "Wrapper for.*\\.agent/workflows/handover\\.md",
             "\\./7w_wiki\\.py handover",
             "handover --run"
           ]
@@ -34,28 +31,25 @@
         {
           "file": ".agents/skills/workflow_tech_master/SKILL.md",
           "must_include_regex": [
-            "Wrapper for.*\\.agent/workflows/tech_master\\.md",
-            "\\./7w_wiki\\.py tech",
+            "\\./7w_wiki\\.py tech --sync-surfaces",
             "\\./7w_wiki\\.py tech --sync-interop"
           ]
         },
         {
           "file": ".agents/skills/workflow_test_run/SKILL.md",
           "must_include_regex": [
-            "Wrapper for.*\\.agent/workflows/test_run\\.md",
             "\\./7w_wiki\\.py test --suite all",
-            "\\./7w_wiki\\.py test --suite codex-workflow-bridges"
+            "\\./7w_wiki\\.py test --suite adapter-surfaces-contract"
           ]
         },
         {
           "file": ".agents/skills/workflow_forum_search/SKILL.md",
           "must_include_regex": [
-            "Wrapper for.*\\.agent/workflows/forum_search\\.md",
             "\\./7w_wiki\\.py scout --forum bekanntmachungen --pages 3",
             "--forum",
             "bekanntmachungen",
             "news",
-            "Quellen/Forum/\\.\\.\\."
+            "References"
           ]
         }
       ]

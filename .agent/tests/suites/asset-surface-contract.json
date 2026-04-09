@@ -1,0 +1,62 @@
+{
+  "suite": "asset-surface-contract",
+  "description": "Guard docs/assets as the live asset surface and prevent active guidance from using retired asset paths.",
+  "cases": [
+    {
+      "id": "asset-policy-docs",
+      "name": "Active docs and skills name the canonical live and historical asset surfaces",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/skills/art_director/SKILL.md",
+          "must_include_regex": [
+            "docs/assets/generated/",
+            "docs/assets/` ist die live publizierte Asset-Surface",
+            "System/Design_Assets/"
+          ]
+        },
+        {
+          "file": "docs/STYLING.md",
+          "must_include_regex": [
+            "docs/assets/themes/base\\.css",
+            "docs/assets/themes/material\\.css",
+            "System/Design_Assets/"
+          ]
+        },
+        {
+          "file": "System/Synapse_Board/SY_INTEROP.md",
+          "must_include_regex": [
+            "`docs/assets/` ist die kanonische Live-Asset-Oberflaeche",
+            "`System/Design_Assets/` ist der historische bzw\\. quellseitige Design-Archivbereich"
+          ]
+        },
+        {
+          "file": "System/STYLING.md",
+          "must_include_regex": [
+            "`docs/assets/` ist die kanonische Live-Asset-Flaeche",
+            "`System/Design_Assets/` beherbergt historische oder rohe Designquellen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-retired-asset-paths-in-active-guidance",
+      "name": "Active guidance no longer points to retired top-level asset production paths",
+      "pattern_check_globs": [
+        "README.md",
+        "docs/STYLING.md",
+        "System/Synapse_Board/SY_INTEROP.md",
+        "System/AGENT_OPERATIONS_HANDBOOK.md",
+        ".agent/skills/**/*.md"
+      ],
+      "exclude_globs": [
+        ".agent/skills/oracle/**/*",
+        ".agent/skills/lektor/**/*"
+      ],
+      "forbid_regex": [
+        "assets/images/",
+        "assets/banner\\.png",
+        "assets/social_preview\\.png"
+      ]
+    }
+  ]
+}

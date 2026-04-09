@@ -1,0 +1,47 @@
+{
+  "suite": "source-tree-contract",
+  "description": "Guard docs/Siebenwind_Wiki as the active technical wiki tree and prevent live root-tree guidance.",
+  "cases": [
+    {
+      "id": "active-docs-state-the-canonical-tree",
+      "name": "Active docs consistently point to docs/Siebenwind_Wiki as the technical tree",
+      "required_regex_by_file": [
+        {
+          "file": "README.md",
+          "must_include_regex": [
+            "docs/Siebenwind_Wiki/index\\.md",
+            "docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel\\.md"
+          ]
+        },
+        {
+          "file": "System/Synapse_Board/SY_INTEROP.md",
+          "must_include_regex": [
+            "`docs/Siebenwind_Wiki/` ist der einzige aktive technische Wiki-Baum"
+          ]
+        },
+        {
+          "file": ".agent/workflows/ingest_master.md",
+          "must_include_regex": [
+            "docs/Siebenwind_Wiki/",
+            "docs/Siebenwind_Wiki/Zielordner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-live-root-tree-guidance",
+      "name": "Active guidance no longer treats the root Siebenwind_Wiki tree as the live edit path",
+      "pattern_check_globs": [
+        "README.md",
+        "System/Synapse_Board/SY_INTEROP.md",
+        "System/AGENT_OPERATIONS_HANDBOOK.md",
+        ".agent/workflows/ingest_master.md"
+      ],
+      "forbid_regex": [
+        "(?<!docs/)Siebenwind_Wiki/index\\.md",
+        "(?<!docs/)Siebenwind_Wiki/00_",
+        "`Siebenwind_Wiki/`, `docs/index\\.md`, `docs/Siebenwind_Wiki/`"
+      ]
+    }
+  ]
+}

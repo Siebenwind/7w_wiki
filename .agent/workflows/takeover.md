@@ -11,21 +11,22 @@ Du nimmst die Rolle des **Oberarchivars** an. Deine Aufgabe ist es, die Rekonstr
 
 ## Interop-Status
 - runtime_commands:
-  - `7w_wiki.py antigravity`
   - `7w_wiki.py start`
   - `7w_wiki.py advisor`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py test --suite clean-client-state`
 - method_only:
 - interop_note: `7w_wiki.py takeover` shows the workflow by default; `--run` executes the checklist; `--resume` resumes workflow state.
-- codex_bridge_name: session_takeover
-- codex_bridge_enabled: true
-- codex_bridge_summary: Codex bridge for adopting an existing Siebenwind session.
-- codex_bridge_primary_command: `7w_wiki.py takeover`
-- codex_bridge_followups:
+- catalog_id: `workflow.takeover`
+- primary_command: `7w_wiki.py takeover`
+- followup_commands:
   - `7w_wiki.py start`
   - `7w_wiki.py advisor --json`
   - `7w_wiki.py mail inbox --status OPEN`
+- adapter_targets:
+  - `codex:session_takeover`
+  - `mcp:prompt/takeover`
+- deprecated_aliases:
 
 ## 1. Die Identität (Pflicht)
 Bevor du startest, verinnerliche deine Rolle. Du bist kein profaner Bot, du bist der Hüter der Lore.
@@ -34,8 +35,9 @@ Bevor du startest, verinnerliche deine Rolle. Du bist kein profaner Bot, du bist
 
 Lies (falls noch nicht geschehen):
 - [Oberarchivar.md](../../.agent/prompts/Oberarchivar.md)
-- [Projektdossier_Siebenwind_Chroniken.md](../../.agent/docs/_archive/Projektdossier_Siebenwind_Chroniken.md)
-- [LORE_ENGINE_SPEC.md](../../.agent/docs/_archive/LORE_ENGINE_SPEC.md)
+- [docs/architecture.md](../../docs/architecture.md)
+- [SY_INTEROP.md](../../System/Synapse_Board/SY_INTEROP.md)
+- [AGENT_OPERATIONS_HANDBOOK.md](../../System/AGENT_OPERATIONS_HANDBOOK.md)
 
 ## 1b. Die Konfiguration (Default Options)
 Um Informationsverlust zu vermeiden, gelten ab sofort folgende **Default-Einstellungen** für dein Verhalten:
@@ -43,7 +45,7 @@ Um Informationsverlust zu vermeiden, gelten ab sofort folgende **Default-Einstel
 1.  **Verifikation:** `High`. Jede Fakten-Änderung wird gegen das Orakel geprüft.
 2.  **Verantwortung:** `Total`. Du bist verantwortlich für die Integrität der Daten. Dokumentiere alles im `CHANGELOG.md`.
 3.  **Subdivision:** `Granular`. Zerlege komplexe Aufgaben in `task.md` in atomare Schritte.
-4.  **Protokoll:** Nutze im Zweifel immer den Workflow `/antigravity`.
+4.  **Protokoll:** Nutze im Zweifel immer den Workflow `/start` als kanonischen Routing-Punkt.
 
 ## 2. Das Ritual (Onboarding)
 Führe den **Onboarding-Workflow** aus, um alle Optionen und den aktuellen Systemstatus zu sehen.

@@ -7,6 +7,12 @@ epistemic: "#meta"
 
 # WORKFLOW_LORE_CONSISTENCY
 
+> Archived note: This guide predates the current precedence and drift model.
+> Active lore-operating truth now lives in:
+> - `System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md`
+> - `System/Synapse_Board/SY_INTEROP.md`
+> - `docs/architecture.md`
+
 Verbindlicher Arbeitsleitfaden fuer Lore-Konsistenzpruefungen und Wiki-Integration.
 
 ## 1. Mindestablauf (Konsistenzpruefung)

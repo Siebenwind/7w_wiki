@@ -1,6 +1,6 @@
 {
   "suite": "takeover-handover",
-  "description": "Workflow bridge verification for takeover/handover plus mandatory supporting commands.",
+  "description": "Workflow verification for takeover/handover plus mandatory supporting commands.",
   "cases": [
     {
       "id": "cli-help-includes-workflows",

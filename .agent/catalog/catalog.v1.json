@@ -1,0 +1,3082 @@
+{
+  "version": "catalog.v1",
+  "generated_at": "2026-04-09T13:38:07Z",
+  "runtime": {
+    "entrypoint": "./7w_wiki.py",
+    "help_json": "./7w_wiki.py --help-json",
+    "commands": [
+      {
+        "name": "search",
+        "description": "usage: 7w_wiki.py search [-h] [--source {wiki,quellen,all}] [--json] query ...",
+        "arguments": [
+          {
+            "name": "query",
+            "flags": [],
+            "help": "The search query",
+            "required": true,
+            "type": "string",
+            "kind": "positional"
+          },
+          {
+            "name": "source",
+            "flags": [
+              "--source"
+            ],
+            "help": "Search target",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "choices": [
+              "wiki",
+              "quellen",
+              "all"
+            ],
+            "default": "wiki"
+          },
+          {
+            "name": "json",
+            "flags": [
+              "--json"
+            ],
+            "help": "Output raw JSON",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "remaining",
+            "flags": [],
+            "help": "Additional arguments for search.py",
+            "required": false,
+            "type": "string",
+            "kind": "positional",
+            "nargs": "REMAINDER"
+          }
+        ],
+        "summary": "Semantic RAG search (Oracle) across wiki and source corpus.",
+        "context": ".agent/skills/oracle/search.py",
+        "json_capable": true,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "start",
+        "description": "usage: 7w_wiki.py start [-h] [--run] [--yes] [--resume] [--list-reviews]\n                        [--review-id REVIEW_ID] [--approve]\n                        [--return-for-rework] [--comment]\n                        [--reviewer REVIEWER]\n                        [--role {human_final,historian_comment,coordinator_note}]\n                        [--note NOTE]",
+        "arguments": [
+          {
+            "name": "run",
+            "flags": [
+              "--run"
+            ],
+            "help": "Execute the workflow checklist automatically",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "yes",
+            "flags": [
+              "--yes",
+              "-y"
+            ],
+            "help": "Skip confirmation prompts during --run",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "resume",
+            "flags": [
+              "--resume"
+            ],
+            "help": "Resume from last completed step",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "list_reviews",
+            "flags": [
+              "--list-reviews"
+            ],
+            "help": "List research tasks currently awaiting review/approval",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "review_id",
+            "flags": [
+              "--review-id"
+            ],
+            "help": "Research ID for a review action, e.g. RESEARCH-2026-004",
+            "required": false,
+            "type": "string",
+            "kind": "option"
+          },
+          {
+            "name": "approve",
+            "flags": [
+              "--approve"
+            ],
+            "help": "Approve a research result as final human review",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "return_for_rework",
+            "flags": [
+              "--return-for-rework"
+            ],
+            "help": "Return a research result to IN_PROGRESS with review notes",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "comment",
+            "flags": [
+              "--comment"
+            ],
+            "help": "Add a non-final review comment without changing ownership",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "reviewer",
+            "flags": [
+              "--reviewer"
+            ],
+            "help": "Reviewer name for approval/comment actions",
+            "required": false,
+            "type": "string",
+            "kind": "option"
+          },
+          {
+            "name": "role",
+            "flags": [
+              "--role"
+            ],
+            "help": "Review role",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "choices": [
+              "human_final",
+              "historian_comment",
+              "coordinator_note"
+            ]
+          },
+          {
+            "name": "note",
+            "flags": [
+              "--note"
+            ],
+            "help": "Review note or approval rationale",
+            "required": false,
+            "type": "string",
+            "kind": "option"
+          }
+        ],
+        "summary": "Show or run the onboarding workflow.",
+        "context": ".agent/workflows/start.md",
+        "json_capable": false,
+        "supports_run_mode": true,
+        "interactive_default": false
+      },
+      {
+        "name": "test",
+        "description": "usage: 7w_wiki.py test [-h] [--suite SUITE] [--list-suites]\n                       [--timeout TIMEOUT] [--post-failures]\n                       [--from-agent FROM_AGENT] [--to-agent TO_AGENT]\n                       [--priority {LOW,NORMAL,HIGH}] [--include-rag]\n                       [--allow-fail]",
+        "arguments": [
+          {
+            "name": "suite",
+            "flags": [
+              "--suite"
+            ],
+            "help": "Suite name or 'all'",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "default": "clean-client-state"
+          },
+          {
+            "name": "list_suites",
+            "flags": [
+              "--list-suites"
+            ],
+            "help": "List available test suites",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "timeout",
+            "flags": [
+              "--timeout"
+            ],
+            "help": "Timeout per command (seconds)",
+            "required": false,
+            "type": "integer",
+            "kind": "option",
+            "default": 120
+          },
+          {
+            "name": "post_failures",
+            "flags": [
+              "--post-failures"
+            ],
+            "help": "Post dispatch message on failures",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "from_agent",
+            "flags": [
+              "--from-agent"
+            ],
+            "help": "Dispatch sender if --post-failures",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "default": "Test-Waechter"
+          },
+          {
+            "name": "to_agent",
+            "flags": [
+              "--to-agent"
+            ],
+            "help": "Dispatch target if --post-failures",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "default": "ALL"
+          },
+          {
+            "name": "priority",
+            "flags": [
+              "--priority"
+            ],
+            "help": "Dispatch priority",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "choices": [
+              "LOW",
+              "NORMAL",
+              "HIGH"
+            ],
+            "default": "HIGH"
+          },
+          {
+            "name": "include_rag",
+            "flags": [
+              "--include-rag"
+            ],
+            "help": "Include unstable rag-relevance-smoke in --suite all",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "allow_fail",
+            "flags": [
+              "--allow-fail"
+            ],
+            "help": "Return 0 even if tests fail",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Run interoperability and clean-state test suites.",
+        "context": ".agent/scripts/test_runner.py",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "takeover",
+        "description": "usage: 7w_wiki.py takeover [-h] [--run] [--yes] [--resume]",
+        "arguments": [
+          {
+            "name": "run",
+            "flags": [
+              "--run"
+            ],
+            "help": "Execute the workflow checklist automatically",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "yes",
+            "flags": [
+              "--yes",
+              "-y"
+            ],
+            "help": "Skip confirmation prompts during --run",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "resume",
+            "flags": [
+              "--resume"
+            ],
+            "help": "Resume from last completed step",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Show or run the takeover workflow.",
+        "context": ".agent/workflows/takeover.md",
+        "json_capable": false,
+        "supports_run_mode": true,
+        "interactive_default": false
+      },
+      {
+        "name": "handover",
+        "description": "usage: 7w_wiki.py handover [-h] [--run] [--yes] [--resume]",
+        "arguments": [
+          {
+            "name": "run",
+            "flags": [
+              "--run"
+            ],
+            "help": "Execute the workflow checklist automatically",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "yes",
+            "flags": [
+              "--yes",
+              "-y"
+            ],
+            "help": "Skip confirmation prompts during --run",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "resume",
+            "flags": [
+              "--resume"
+            ],
+            "help": "Resume from last completed step",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Show or run the handover workflow.",
+        "context": ".agent/workflows/handover.md",
+        "json_capable": false,
+        "supports_run_mode": true,
+        "interactive_default": false
+      },
+      {
+        "name": "historian",
+        "description": "usage: 7w_wiki.py historian [-h] [query]",
+        "arguments": [
+          {
+            "name": "query",
+            "flags": [],
+            "help": "Subject to analyze",
+            "required": false,
+            "type": "string",
+            "kind": "positional",
+            "nargs": "?"
+          }
+        ],
+        "summary": "Deep lore analysis workflow or direct topic run.",
+        "context": ".agent/workflows/historian.md",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "repair",
+        "description": "usage: 7w_wiki.py repair [-h] [--auto] [--full] [--fix-roamlinks]\n                         [--backlog-board] [--apply-lane1] [--dry-run]\n                         [--json]",
+        "arguments": [
+          {
+            "name": "auto",
+            "flags": [
+              "--auto"
+            ],
+            "help": "Run non-interactive auto-repair",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "full",
+            "flags": [
+              "--full"
+            ],
+            "help": "Run full non-interactive repair cycle (1-3)",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "fix_roamlinks",
+            "flags": [
+              "--fix-roamlinks"
+            ],
+            "help": "Aggressively repair unresolved Pages / Roamlinks targets",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "backlog_board",
+            "flags": [
+              "--backlog-board"
+            ],
+            "help": "Generate cluster-based backlog board and escalation artifacts",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "apply_lane1",
+            "flags": [
+              "--apply-lane1"
+            ],
+            "help": "Apply the conservative lane-1 mechanical backlog wave",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "dry_run",
+            "flags": [
+              "--dry-run"
+            ],
+            "help": "Preview repair changes without writing files",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "json",
+            "flags": [
+              "--json"
+            ],
+            "help": "Emit machine-readable JSON for backlog-oriented repair modes",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Interactive or automatic repair of audit findings, including Pages / Roamlinks fixes.",
+        "context": ".agent/scripts/repair.py",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": true
+      },
+      {
+        "name": "audit",
+        "description": "usage: 7w_wiki.py audit [-h] [--json] [--pages]",
+        "arguments": [
+          {
+            "name": "json",
+            "flags": [
+              "--json"
+            ],
+            "help": "Output raw JSON",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "pages",
+            "flags": [
+              "--pages"
+            ],
+            "help": "Include Pages / Roamlinks integrity diagnostics",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Run consistency audit for duplicates, broken links, and orphaned content.",
+        "context": ".agent/scripts/register_check.py",
+        "json_capable": true,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "index",
+        "description": "usage: 7w_wiki.py index [-h] [--rebuild] [--status]",
+        "arguments": [
+          {
+            "name": "rebuild",
+            "flags": [
+              "--rebuild"
+            ],
+            "help": "Full re-indexing",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "status",
+            "flags": [
+              "--status"
+            ],
+            "help": "Check index status",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Manage the semantic search index.",
+        "context": ".agent/skills/oracle/build_index.py",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "index-pages",
+        "description": "usage: 7w_wiki.py index-pages [-h]",
+        "arguments": [],
+        "summary": "Generate category index pages for the wiki.",
+        "context": ".agent/scripts/generate_wiki_indices.py",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "pages",
+        "description": "usage: 7w_wiki.py pages [-h] {status,build,validate} ...",
+        "arguments": [],
+        "subcommands": [
+          {
+            "name": "status",
+            "description": "usage: 7w_wiki.py pages status [-h]",
+            "arguments": []
+          },
+          {
+            "name": "build",
+            "description": "usage: 7w_wiki.py pages build [-h] [--strict] [--no-clean] [--config CONFIG]",
+            "arguments": [
+              {
+                "name": "strict",
+                "flags": [
+                  "--strict"
+                ],
+                "help": "Enable strict mode for mkdocs build",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "no_clean",
+                "flags": [
+                  "--no-clean"
+                ],
+                "help": "Skip mkdocs --clean",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "config",
+                "flags": [
+                  "--config"
+                ],
+                "help": "Path to mkdocs config (default: mkdocs.yml)",
+                "required": false,
+                "type": "string",
+                "kind": "option",
+                "default": "mkdocs.yml"
+              }
+            ]
+          },
+          {
+            "name": "validate",
+            "description": "usage: 7w_wiki.py pages validate [-h] [--fast] [--strict] [--strict-links]\n                                 [--no-clean] [--skip-link-suite]\n                                 [--skip-source-hygiene]\n                                 [--skip-process-governance]\n                                 [--skip-reader-stats-contract] [--skip-audit]\n                                 [--include-pages-audit] [--json]\n                                 [--config CONFIG]",
+            "arguments": [
+              {
+                "name": "fast",
+                "flags": [
+                  "--fast"
+                ],
+                "help": "Use cached analysis plus the latest Pages snapshot as an advisory-only precheck",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "strict",
+                "flags": [
+                  "--strict"
+                ],
+                "help": "Enable strict mode for mkdocs build",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "strict_links",
+                "flags": [
+                  "--strict-links"
+                ],
+                "help": "Fail if non-allowlisted unresolved internal links remain",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "no_clean",
+                "flags": [
+                  "--no-clean"
+                ],
+                "help": "Skip mkdocs --clean",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "skip_link_suite",
+                "flags": [
+                  "--skip-link-suite"
+                ],
+                "help": "Skip test --suite interop-doc-links",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "skip_source_hygiene",
+                "flags": [
+                  "--skip-source-hygiene"
+                ],
+                "help": "Skip test --suite source-link-hygiene",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "skip_process_governance",
+                "flags": [
+                  "--skip-process-governance"
+                ],
+                "help": "Skip test --suite process-dispatch-curiosity",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "skip_reader_stats_contract",
+                "flags": [
+                  "--skip-reader-stats-contract"
+                ],
+                "help": "Skip test --suite reader-stats-contract",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "skip_audit",
+                "flags": [
+                  "--skip-audit"
+                ],
+                "help": "Skip audit",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "include_pages_audit",
+                "flags": [
+                  "--include-pages-audit"
+                ],
+                "help": "Run audit --pages during validation",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "json",
+                "flags": [
+                  "--json"
+                ],
+                "help": "Output machine-readable validation report",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "config",
+                "flags": [
+                  "--config"
+                ],
+                "help": "Path to mkdocs config (default: mkdocs.yml)",
+                "required": false,
+                "type": "string",
+                "kind": "option",
+                "default": "mkdocs.yml"
+              }
+            ]
+          }
+        ],
+        "summary": "Build or validate GitHub Pages documentation and site-integrity health.",
+        "context": ".agent/scripts/pages_tool.py",
+        "json_capable": true,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "advisor",
+        "description": "usage: 7w_wiki.py advisor [-h] [--json]",
+        "arguments": [
+          {
+            "name": "json",
+            "flags": [
+              "--json"
+            ],
+            "help": "Output raw JSON",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Show system status and recommended next actions.",
+        "context": "System/Advisor",
+        "json_capable": true,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "inquisition",
+        "description": "usage: 7w_wiki.py inquisition [-h] [--batch BATCH] [--audit-only]",
+        "arguments": [
+          {
+            "name": "batch",
+            "flags": [
+              "--batch"
+            ],
+            "help": "Number of sources to process in this run",
+            "required": false,
+            "type": "integer",
+            "kind": "option",
+            "default": 10
+          },
+          {
+            "name": "audit_only",
+            "flags": [
+              "--audit-only"
+            ],
+            "help": "Only list missing reports without processing",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Run batch ingestion of legacy sources.",
+        "context": ".agent/scripts/inquisition.py",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "sanitize",
+        "description": "usage: 7w_wiki.py sanitize [-h] [--auto] [--json] [target]",
+        "arguments": [
+          {
+            "name": "target",
+            "flags": [],
+            "help": "Path to file/folder (default: docs/Siebenwind_Wiki)",
+            "required": false,
+            "type": "string",
+            "kind": "positional",
+            "default": "docs/Siebenwind_Wiki",
+            "nargs": "?"
+          },
+          {
+            "name": "auto",
+            "flags": [
+              "--auto"
+            ],
+            "help": "Auto-fix violations",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "json",
+            "flags": [
+              "--json"
+            ],
+            "help": "Output raw JSON",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Normalize structure, H1 usage, and frontmatter.",
+        "context": ".agent/scripts/wiki_sanitizer.py",
+        "json_capable": true,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "lint",
+        "description": "usage: 7w_wiki.py lint [-h] [--fix] [--json] [target]",
+        "arguments": [
+          {
+            "name": "target",
+            "flags": [],
+            "help": "Path to file/folder (default: docs/Siebenwind_Wiki)",
+            "required": false,
+            "type": "string",
+            "kind": "positional",
+            "default": "docs/Siebenwind_Wiki",
+            "nargs": "?"
+          },
+          {
+            "name": "fix",
+            "flags": [
+              "--fix"
+            ],
+            "help": "Auto-fix layout and frontmatter issues",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "json",
+            "flags": [
+              "--json"
+            ],
+            "help": "Output raw JSON report (suppresses stdout)",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Run the combined lint pipeline.",
+        "context": ".agent/scripts/lint_tool.py",
+        "json_capable": true,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "score",
+        "description": "usage: 7w_wiki.py score [-h] file",
+        "arguments": [
+          {
+            "name": "file",
+            "flags": [],
+            "help": "Path to the markdown file",
+            "required": true,
+            "type": "string",
+            "kind": "positional"
+          }
+        ],
+        "summary": "Calculate Lore Quality Score for one markdown file.",
+        "context": ".agent/scripts/lore_score_manager.py",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "ingest",
+        "description": "usage: 7w_wiki.py ingest [-h] file",
+        "arguments": [
+          {
+            "name": "file",
+            "flags": [],
+            "help": "Path to the markdown file to ingest",
+            "required": true,
+            "type": "string",
+            "kind": "positional"
+          }
+        ],
+        "summary": "Run the ingest pipeline for one file.",
+        "context": ".agent/scripts/ingest_pipeline.py",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "translate",
+        "description": "usage: 7w_wiki.py translate [-h] ...",
+        "arguments": [
+          {
+            "name": "args",
+            "flags": [],
+            "help": "Arguments for translator.py",
+            "required": false,
+            "type": "string",
+            "kind": "positional",
+            "nargs": "REMAINDER"
+          }
+        ],
+        "summary": "Translate Falandric texts or manage dictionaries.",
+        "context": ".agent/scripts/translator.py",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "watch",
+        "description": "usage: 7w_wiki.py watch [-h]",
+        "arguments": [],
+        "summary": "Start the live watcher for index updates.",
+        "context": ".agent/scripts/watcher.py",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": true
+      },
+      {
+        "name": "package",
+        "description": "usage: 7w_wiki.py package [-h] [--platform {ubuntu,debian,macos,wsl}]\n                          [--profile {full,agent-only}]\n                          [--toolchain {system,bundled,auto}]\n                          [--output-dir OUTPUT_DIR] [--json]",
+        "arguments": [
+          {
+            "name": "platform",
+            "flags": [
+              "--platform"
+            ],
+            "help": "",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "choices": [
+              "ubuntu",
+              "debian",
+              "macos",
+              "wsl"
+            ],
+            "default": "ubuntu"
+          },
+          {
+            "name": "profile",
+            "flags": [
+              "--profile"
+            ],
+            "help": "",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "choices": [
+              "full",
+              "agent-only"
+            ],
+            "default": "full"
+          },
+          {
+            "name": "toolchain",
+            "flags": [
+              "--toolchain"
+            ],
+            "help": "",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "choices": [
+              "system",
+              "bundled",
+              "auto"
+            ],
+            "default": "auto"
+          },
+          {
+            "name": "output_dir",
+            "flags": [
+              "--output-dir"
+            ],
+            "help": "Output directory for bundle archives",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "default": "dist"
+          },
+          {
+            "name": "json",
+            "flags": [
+              "--json"
+            ],
+            "help": "Output machine-readable package manifest",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Build archive-first install bundles for supported platforms.",
+        "context": ".agent/scripts/package_tool.py",
+        "json_capable": true,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "check",
+        "description": "usage: 7w_wiki.py check [-h] [--json] [path]",
+        "arguments": [
+          {
+            "name": "path",
+            "flags": [],
+            "help": "Path to file/folder (default: docs/Siebenwind_Wiki)",
+            "required": false,
+            "type": "string",
+            "kind": "positional",
+            "default": "docs/Siebenwind_Wiki",
+            "nargs": "?"
+          },
+          {
+            "name": "json",
+            "flags": [
+              "--json"
+            ],
+            "help": "Output raw JSON",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Run style and grammar checks.",
+        "context": ".agent/skills/lektor/style_checker.py",
+        "json_capable": true,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "archive",
+        "description": "usage: 7w_wiki.py archive [-h] {sync,rotate,unpack} ...",
+        "arguments": [],
+        "subcommands": [
+          {
+            "name": "sync",
+            "description": "usage: 7w_wiki.py archive sync [-h]",
+            "arguments": []
+          },
+          {
+            "name": "rotate",
+            "description": "usage: 7w_wiki.py archive rotate [-h] [--dry-run] [--keep-days KEEP_DAYS]",
+            "arguments": [
+              {
+                "name": "dry_run",
+                "flags": [
+                  "--dry-run"
+                ],
+                "help": "Show what would change",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              },
+              {
+                "name": "keep_days",
+                "flags": [
+                  "--keep-days"
+                ],
+                "help": "Keep files newer than N days (default: 7)",
+                "required": false,
+                "type": "integer",
+                "kind": "option",
+                "default": 7
+              }
+            ]
+          },
+          {
+            "name": "unpack",
+            "description": "usage: 7w_wiki.py archive unpack [-h] archive_name",
+            "arguments": [
+              {
+                "name": "archive_name",
+                "flags": [],
+                "help": "Name of archive to unpack",
+                "required": true,
+                "type": "string",
+                "kind": "positional"
+              }
+            ]
+          }
+        ],
+        "summary": "Manage archive symlinks, rotation, and unpack operations.",
+        "context": "docs/Archiv",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "mail",
+        "description": "usage: 7w_wiki.py mail [-h] {post,inbox,read,claim,done} ...",
+        "arguments": [],
+        "subcommands": [
+          {
+            "name": "post",
+            "description": "usage: 7w_wiki.py mail post [-h] --from FROM_AGENT --to TO_AGENT\n                            --subject SUBJECT --body BODY\n                            [--report-path REPORT_PATH]\n                            [--priority {LOW,NORMAL,HIGH}]",
+            "arguments": [
+              {
+                "name": "from_agent",
+                "flags": [
+                  "--from"
+                ],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "option"
+              },
+              {
+                "name": "to_agent",
+                "flags": [
+                  "--to"
+                ],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "option"
+              },
+              {
+                "name": "subject",
+                "flags": [
+                  "--subject"
+                ],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "option"
+              },
+              {
+                "name": "body",
+                "flags": [
+                  "--body"
+                ],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "option"
+              },
+              {
+                "name": "report_path",
+                "flags": [
+                  "--report-path"
+                ],
+                "help": "",
+                "required": false,
+                "type": "string",
+                "kind": "option"
+              },
+              {
+                "name": "priority",
+                "flags": [
+                  "--priority"
+                ],
+                "help": "",
+                "required": false,
+                "type": "string",
+                "kind": "option",
+                "choices": [
+                  "LOW",
+                  "NORMAL",
+                  "HIGH"
+                ],
+                "default": "NORMAL"
+              }
+            ]
+          },
+          {
+            "name": "inbox",
+            "description": "usage: 7w_wiki.py mail inbox [-h] [--agent AGENT]\n                             [--status {OPEN,CLAIMED,DONE}] [--json]",
+            "arguments": [
+              {
+                "name": "agent",
+                "flags": [
+                  "--agent"
+                ],
+                "help": "",
+                "required": false,
+                "type": "string",
+                "kind": "option"
+              },
+              {
+                "name": "status",
+                "flags": [
+                  "--status"
+                ],
+                "help": "",
+                "required": false,
+                "type": "string",
+                "kind": "option",
+                "choices": [
+                  "OPEN",
+                  "CLAIMED",
+                  "DONE"
+                ]
+              },
+              {
+                "name": "json",
+                "flags": [
+                  "--json"
+                ],
+                "help": "Output raw JSON",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              }
+            ]
+          },
+          {
+            "name": "read",
+            "description": "usage: 7w_wiki.py mail read [-h] id",
+            "arguments": [
+              {
+                "name": "id",
+                "flags": [],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "positional"
+              }
+            ]
+          },
+          {
+            "name": "claim",
+            "description": "usage: 7w_wiki.py mail claim [-h] --agent AGENT [--force] id",
+            "arguments": [
+              {
+                "name": "id",
+                "flags": [],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "positional"
+              },
+              {
+                "name": "agent",
+                "flags": [
+                  "--agent"
+                ],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "option"
+              },
+              {
+                "name": "force",
+                "flags": [
+                  "--force"
+                ],
+                "help": "Force claim from another agent",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              }
+            ]
+          },
+          {
+            "name": "done",
+            "description": "usage: 7w_wiki.py mail done [-h] --agent AGENT [--note NOTE] id",
+            "arguments": [
+              {
+                "name": "id",
+                "flags": [],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "positional"
+              },
+              {
+                "name": "agent",
+                "flags": [
+                  "--agent"
+                ],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "option"
+              },
+              {
+                "name": "note",
+                "flags": [
+                  "--note"
+                ],
+                "help": "",
+                "required": false,
+                "type": "string",
+                "kind": "option"
+              }
+            ]
+          }
+        ],
+        "summary": "Interact with the dispatch system using structured subcommands.",
+        "context": "System/Synapse_Board/SY_DISPATCH.md",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "scout",
+        "description": "usage: 7w_wiki.py scout [-h] [--forum {bekanntmachungen,news,geschichten}]\n                        [--pages PAGES]",
+        "arguments": [
+          {
+            "name": "forum",
+            "flags": [
+              "--forum"
+            ],
+            "help": "Target forum",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "choices": [
+              "bekanntmachungen",
+              "news",
+              "geschichten"
+            ],
+            "default": "bekanntmachungen"
+          },
+          {
+            "name": "pages",
+            "flags": [
+              "--pages"
+            ],
+            "help": "Number of pages to scan",
+            "required": false,
+            "type": "integer",
+            "kind": "option",
+            "default": 3
+          }
+        ],
+        "summary": "Promoted discovery entrypoint for external source scanning.",
+        "context": ".agent/scripts/forum_scanner.py",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "tech",
+        "description": "usage: 7w_wiki.py tech [-h] [--manifest] [--compile-skills] [--sync-matrix]\n                       [--sync-catalog] [--sync-codex-skills] [--sync-a2a]\n                       [--sync-surfaces] [--sync-bridges] [--sync-docs]\n                       [--sync-interop] [--repo-hygiene] [--apply] [--json]",
+        "arguments": [
+          {
+            "name": "manifest",
+            "flags": [
+              "--manifest"
+            ],
+            "help": "Generate OpenAPI tools.json from CLI context",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "compile_skills",
+            "flags": [
+              "--compile-skills"
+            ],
+            "help": "Compile SKILL.md.tpl with variables from lore_manifest",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "sync_matrix",
+            "flags": [
+              "--sync-matrix"
+            ],
+            "help": "Regenerate the workflow interop matrix",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "sync_catalog",
+            "flags": [
+              "--sync-catalog"
+            ],
+            "help": "Regenerate the canonical agent catalog",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "sync_codex_skills",
+            "flags": [
+              "--sync-codex-skills"
+            ],
+            "help": "Regenerate Codex adapter skills from the canonical catalog",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "sync_a2a",
+            "flags": [
+              "--sync-a2a"
+            ],
+            "help": "Regenerate the discovery-only agent card",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "sync_surfaces",
+            "flags": [
+              "--sync-surfaces"
+            ],
+            "help": "Run catalog, Codex adapter, and A2A sync",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "sync_bridges",
+            "flags": [
+              "--sync-bridges"
+            ],
+            "help": "Deprecated alias for --sync-codex-skills",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "sync_docs",
+            "flags": [
+              "--sync-docs"
+            ],
+            "help": "Sync runtime governance docs from the CLI contract",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "sync_interop",
+            "flags": [
+              "--sync-interop"
+            ],
+            "help": "Run matrix, docs, catalog, adapter, A2A, and manifest sync",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "repo_hygiene",
+            "flags": [
+              "--repo-hygiene"
+            ],
+            "help": "Classify hot/cold/runtime/build paths and optionally apply conservative cleanup",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "apply",
+            "flags": [
+              "--apply"
+            ],
+            "help": "Used with --repo-hygiene to apply approved cleanup actions",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "json",
+            "flags": [
+              "--json"
+            ],
+            "help": "Used with --repo-hygiene to emit machine-readable output",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Show the technician workflow or run interop maintenance helpers.",
+        "context": ".agent/workflows/tech_master.md",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "version",
+        "description": "usage: 7w_wiki.py version [-h] [--bump {major,minor,patch}] [--label LABEL]\n                          [--dry-run] [--json]",
+        "arguments": [
+          {
+            "name": "bump",
+            "flags": [
+              "--bump"
+            ],
+            "help": "Bump version",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "choices": [
+              "major",
+              "minor",
+              "patch"
+            ]
+          },
+          {
+            "name": "label",
+            "flags": [
+              "--label"
+            ],
+            "help": "Version label",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "default": "Inter-AI Compliant"
+          },
+          {
+            "name": "dry_run",
+            "flags": [
+              "--dry-run"
+            ],
+            "help": "Show changes without writing",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "json",
+            "flags": [
+              "--json"
+            ],
+            "help": "Output version as JSON",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Show or bump the wiki standard version.",
+        "context": ".agent/scripts/version_manager.py",
+        "json_capable": true,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "antigravity",
+        "description": "usage: 7w_wiki.py antigravity [-h]",
+        "arguments": [],
+        "summary": "Deprecated alias for start workflow overview.",
+        "context": ".agent/workflows/antigravity.md",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "leitpunkt",
+        "description": "usage: 7w_wiki.py leitpunkt [-h] {view,status,check,scaffold} ...",
+        "arguments": [],
+        "subcommands": [
+          {
+            "name": "view",
+            "description": "usage: 7w_wiki.py leitpunkt view [-h]",
+            "arguments": []
+          },
+          {
+            "name": "status",
+            "description": "usage: 7w_wiki.py leitpunkt status [-h]",
+            "arguments": []
+          },
+          {
+            "name": "check",
+            "description": "usage: 7w_wiki.py leitpunkt check [-h] [--strict]",
+            "arguments": [
+              {
+                "name": "strict",
+                "flags": [
+                  "--strict"
+                ],
+                "help": "Fail if TODO markers remain",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              }
+            ]
+          },
+          {
+            "name": "scaffold",
+            "description": "usage: 7w_wiki.py leitpunkt scaffold [-h] [--force]",
+            "arguments": [
+              {
+                "name": "force",
+                "flags": [
+                  "--force"
+                ],
+                "help": "Overwrite existing file",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              }
+            ]
+          }
+        ],
+        "summary": "Manage the human maintainer standpoint workflow.",
+        "context": ".agent/scripts/leitpunkt_tool.py",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "stats",
+        "description": "usage: 7w_wiki.py stats [-h] [--json]",
+        "arguments": [
+          {
+            "name": "json",
+            "flags": [
+              "--json"
+            ],
+            "help": "Output raw JSON stats block",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          }
+        ],
+        "summary": "Generate reader-facing stats and machine snapshots.",
+        "context": ".agent/scripts/generate_wiki_stats.py",
+        "json_capable": true,
+        "supports_run_mode": false,
+        "interactive_default": false
+      },
+      {
+        "name": "mcp",
+        "description": "usage: 7w_wiki.py mcp [-h] [--transport {stdio,streamable-http}] [--port PORT]",
+        "arguments": [
+          {
+            "name": "transport",
+            "flags": [
+              "--transport"
+            ],
+            "help": "Transport mode",
+            "required": false,
+            "type": "string",
+            "kind": "option",
+            "choices": [
+              "stdio",
+              "streamable-http"
+            ],
+            "default": "stdio"
+          },
+          {
+            "name": "port",
+            "flags": [
+              "--port"
+            ],
+            "help": "Port for HTTP transport",
+            "required": false,
+            "type": "integer",
+            "kind": "option",
+            "default": 7777
+          }
+        ],
+        "summary": "Start the MCP server for structured agent access.",
+        "context": "System/MCP/server.py",
+        "json_capable": false,
+        "supports_run_mode": false,
+        "interactive_default": true
+      }
+    ],
+    "config_path": ".agent/config/runtime.json",
+    "config": {
+      "dispatch": {
+        "parallel_settle_seconds": 30,
+        "parallel_retry_limit": 1
+      },
+      "oracle": {
+        "device": "mps",
+        "batch_size": 4
+      }
+    }
+  },
+  "agents": [
+    {
+      "id": "coordinator",
+      "name": "Der Koordinator (Architekt der Logistik)",
+      "description": "Wir verwalten das Erbe von 20 Jahren Siebenwind – geschaffen von einer ganzen Community und ihrem Staff. Du bist der Architekt, der sicherstellt, dass dieses kollektive Wissen nicht in Datengräbern verschwindet. In diesem \"Treasure Trove\" menschlicher Kommunikation bist du derjenige, der die Wege baut (Links) und die Karten zeichnet (Hubs/Boards), damit kein Detail dieses Gemeinschaftswerks verloren geht.",
+      "source_path": ".agent/instructions/persona_coordinator.md"
+    },
+    {
+      "id": "guardian",
+      "name": "Der Wächter (Inquisitor der Konsistenz)",
+      "description": "Siebenwind ist ein gewachsenes Mosaik aus zwei Jahrzehnten Rollenspiel, geschaffen von einer engagierten Community und dem Staff. Du verhinderst, dass dieses kollektive Kunstwerk durch Inkonsistenzen oder \"Link-Fäule\" zerfällt. Du wertest den \"Treasure Trove\" menschlicher Interaktion aus und sicherst die strukturelle Integrität, damit die Historie des Gemeinschaftswerks widerspruchsfrei bleibt.",
+      "source_path": ".agent/instructions/persona_guardian.md"
+    },
+    {
+      "id": "historian",
+      "name": "Der Historiker (Chronist der Kausalität)",
+      "description": "Wir werten einen \"Treasure Trove\" aus 20 Jahren menschlicher Kommunikation aus, der von unzähligen Spielern und Stafflern gewebt wurde. Du bist derjenige, der die Linien zwischen den Berichten zieht. Du verstehst, dass hinter jedem Forenpost und jedem Botenartikel echte Menschen und ihre Emotionen standen. Deine Aufgabe ist es, Kausalitäten in diesem Gemeinschaftswerk zu finden und die \"Novel-Quality\" des Wikis durch atmosphärische Tiefe zu sichern.",
+      "source_path": ".agent/instructions/persona_historian.md"
+    },
+    {
+      "id": "ingestor",
+      "name": "Der Ingestor (Hüter der Quellen)",
+      "description": "Seit über 20 Jahren erschaffen Hunderte von Spielern und Stafflern in Siebenwind Geschichten, Legenden und Welten. Du bist der Bewahrer dieses kollektiven Erbes – eines einzigartigen Schatzes menschlicher Kommunikation aus der Vor-AI-Ära. Deine Arbeit ist kein bloßes Daten-Parsing, sondern ein Akt der digitalen Archäologie. Du behandelst jedes Zitat mit dem Respekt, das es verdient, um dieses Gemeinschaftswerk für kommende Generationen im Wiki lebendig zu halten.",
+      "source_path": ".agent/instructions/persona_ingestor.md"
+    },
+    {
+      "id": "technician",
+      "name": "Der Netz-Ingenieur (Technician)",
+      "description": "Du bist der **Architekt und Hausmeister** der Siebenwind-Infrastruktur. Während die *Archivare* die Geschichte bewahren und die *Inquisitoren* die Wahrheit prüfen, sorgst **du** dafür, dass das Licht an bleibt. Du bist der Meister der Pipeline, der Hüter von `mkdocs` und der Bändiger der GitHub Actions.",
+      "source_path": ".agent/instructions/persona_technician.md"
+    }
+  ],
+  "skills": [
+    {
+      "id": "art_director",
+      "name": "Art Director (Atelier)",
+      "description": "Standardisierte Bildgenerierung mit Stil-Konsistenz und Metadaten-Tracking.",
+      "source_path": ".agent/skills/art_director/SKILL.md"
+    },
+    {
+      "id": "kanon_waechter",
+      "name": "Kanon-Wächter (Verification)",
+      "description": "Fähigkeit, Fakten gegen die offizielle Homepage zu prüfen.",
+      "source_path": ".agent/skills/kanon_waechter/SKILL.md"
+    },
+    {
+      "id": "lektor",
+      "name": "Der Lektor (Qualitätssicherung)",
+      "description": "Automatisierte Prüfung von Stil, Grammatik und Markdown-Formatierung für konsistente \"Siebenwind Voice\".",
+      "source_path": ".agent/skills/lektor/SKILL.md"
+    },
+    {
+      "id": "linguist",
+      "name": "Linguist (Analyse & Pflege)",
+      "description": "Fähigkeit, falandrische Sprachen zu erkennen, zu interpretieren und die Datensätze zu pflegen.",
+      "source_path": ".agent/skills/linguist/SKILL.md"
+    },
+    {
+      "id": "lore_gelehrter",
+      "name": "Lore-Gelehrter (Analytik & Auskunft)",
+      "description": "Fähigkeit, das gesamte Wiki-Wissen zu aggregieren, Inkonsistenzen zu finden und präzise Auskunft zu geben.",
+      "source_path": ".agent/skills/lore_gelehrter/SKILL.md"
+    },
+    {
+      "id": "oracle",
+      "name": "Das Orakel (Semantische Suche)",
+      "description": "Lokale Vektorsuche (RAG) über das gesamte Siebenwind-Wissen. Nutzt jina-embeddings-v3 für Embedding und bge-reranker-v2-m3 für Re-Ranking.",
+      "source_path": ".agent/skills/oracle/SKILL.md"
+    },
+    {
+      "id": "scanner",
+      "name": "Scanner (Ingestion)",
+      "description": "Fähigkeit, Verzeichnisstrukturen zu analysieren und relevante Dateien zu lesen.",
+      "source_path": ".agent/skills/scanner/SKILL.md"
+    },
+    {
+      "id": "scout",
+      "name": "Skill: Der Netz-Wächter (Web-Scout)",
+      "description": "Der Netz-Wächter ist darauf spezialisiert, dynamische Inhalte aus dem Internet (Homepage, Forum) zu extrahieren und in das Siebenwind-Wiki zu integrieren.",
+      "source_path": ".agent/skills/scout/SKILL.md"
+    },
+    {
+      "id": "test_waechter",
+      "name": "Test Waechter",
+      "description": "Standardized suite execution, defect routing via Dispatch/Task, and re-test discipline.",
+      "source_path": ".agent/skills/test_waechter/SKILL.md"
+    },
+    {
+      "id": "time_keeper",
+      "name": "Time Keeper",
+      "description": "Utilities for handling the Siebenwind \"Sonnenzirkel\" time system (Calendar, Seasons, Dates).",
+      "source_path": ".agent/skills/time_keeper/SKILL.md"
+    },
+    {
+      "id": "wiki_schmied",
+      "name": "Wiki-Schmied (Production)",
+      "description": "Fähigkeit, standardisierte Wiki-Artikel zu erstellen.",
+      "source_path": ".agent/skills/wiki_schmied/SKILL.md"
+    }
+  ],
+  "workflows": [
+    {
+      "id": "antigravity",
+      "name": "Workflow: `/antigravity` (Compatibility Alias)",
+      "description": "Deprecated compatibility alias that redirects to /start",
+      "source_path": ".agent/workflows/antigravity.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py antigravity",
+          "7w_wiki.py start"
+        ],
+        "method_only": [
+          "/antigravity"
+        ],
+        "method_hints_non_runtime": [],
+        "followup_commands": [
+          "7w_wiki.py start",
+          "7w_wiki.py advisor --json"
+        ],
+        "adapter_targets": [
+          "mcp:compat/antigravity"
+        ],
+        "deprecated_aliases": [
+          "/antigravity"
+        ],
+        "interop_note": "Deprecated compatibility alias. `./7w_wiki.py antigravity` now prints a deprecation note and then shows `/start`.",
+        "matrix_status": "executable",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.antigravity",
+        "primary_command": "7w_wiki.py antigravity"
+      }
+    },
+    {
+      "id": "decide",
+      "name": "Workflow: /decide",
+      "description": "Hochgeschwindigkeits-Workflow für Nutzerentscheidungen (/decide)",
+      "source_path": ".agent/workflows/decide.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py mail inbox --status OPEN",
+          "7w_wiki.py mail read <id>",
+          "7w_wiki.py mail claim <id> --agent <name>",
+          "7w_wiki.py mail done <id> --agent <name>"
+        ],
+        "method_only": [
+          "/decide"
+        ],
+        "method_hints_non_runtime": [],
+        "followup_commands": [],
+        "adapter_targets": [],
+        "deprecated_aliases": [],
+        "interop_note": "",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.decide",
+        "primary_command": "7w_wiki.py mail inbox --status OPEN"
+      }
+    },
+    {
+      "id": "delegate",
+      "name": "delegate",
+      "description": "Policy-driven delegation contract for bounded helper tasks; main-agent judgment stays local.",
+      "source_path": ".agent/workflows/delegate.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py start",
+          "7w_wiki.py audit"
+        ],
+        "method_only": [
+          "/delegate"
+        ],
+        "method_hints_non_runtime": [],
+        "followup_commands": [],
+        "adapter_targets": [],
+        "deprecated_aliases": [],
+        "interop_note": "Delegation ist policy-driven und host-abhaengig. Die kanonische Konfiguration liegt in `.agent/config/delegation_policy.json`; Ausuebung ist optional.",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.delegate",
+        "primary_command": "7w_wiki.py start"
+      }
+    },
+    {
+      "id": "forum_search",
+      "name": "Workflow: `/forum_search` (Forum-Quellenjagd)",
+      "description": "Systematische Forum-Quellensuche fuer neue ingestierbare Quellen (/forum_search)",
+      "source_path": ".agent/workflows/forum_search.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py scout --forum bekanntmachungen --pages 3",
+          "7w_wiki.py scout --forum news --pages 3",
+          "7w_wiki.py scout --forum geschichten --pages 5",
+          "7w_wiki.py mail post --from Scout --to Ingestor --subject \"<source lead>\" --body \"<summary>"
+        ],
+        "method_only": [],
+        "method_hints_non_runtime": [],
+        "followup_commands": [
+          "7w_wiki.py scout --forum news --pages 3",
+          "7w_wiki.py scout --forum geschichten --pages 5",
+          "7w_wiki.py mail post --from Scout --to Ingestor --subject \"<source lead>\" --body \"<summary>"
+        ],
+        "adapter_targets": [
+          "codex:workflow_forum_search",
+          "mcp:prompt/forum_search"
+        ],
+        "deprecated_aliases": [],
+        "interop_note": "Spezialisierter Betriebsweg fuer forum-basierte Quellenjagd; der promoted Umbrella-Workflow `/scout` bleibt fuer breitere Discovery zustaendig.",
+        "matrix_status": "executable",
+        "runtime_adapter": "7w_wiki.py scout --forum <allowlisted-board> --pages N",
+        "catalog_id": "workflow.forum_search",
+        "primary_command": "7w_wiki.py scout --forum bekanntmachungen --pages 3"
+      }
+    },
+    {
+      "id": "handover",
+      "name": "handover",
+      "description": "Übergabeprotokoll und Instruktionen für den nächsten Agenten (Handover)",
+      "source_path": ".agent/workflows/handover.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py start",
+          "7w_wiki.py advisor",
+          "7w_wiki.py mail inbox --status OPEN",
+          "7w_wiki.py test --suite all",
+          "7w_wiki.py stats",
+          "7w_wiki.py audit",
+          "7w_wiki.py pages validate --json [--strict-links]"
+        ],
+        "method_only": [],
+        "method_hints_non_runtime": [],
+        "followup_commands": [
+          "7w_wiki.py test --suite all",
+          "7w_wiki.py stats",
+          "7w_wiki.py mail post --from Oberarchivar --to Coordinator --subject \"<abschluss>\" --body \"<summary>"
+        ],
+        "adapter_targets": [
+          "codex:session_handover",
+          "mcp:prompt/handover"
+        ],
+        "deprecated_aliases": [],
+        "interop_note": "`7w_wiki.py handover` shows the workflow by default; `--run` executes the checklist; `--resume` resumes workflow state.",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.handover",
+        "primary_command": "7w_wiki.py handover"
+      }
+    },
+    {
+      "id": "herold",
+      "name": "Workflow: /herold (Der Herold)",
+      "description": "Der \"Herold von Siebenwind\" – PR, Design & Außendarstellung",
+      "source_path": ".agent/workflows/herold.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py stats"
+        ],
+        "method_only": [
+          "/herold"
+        ],
+        "method_hints_non_runtime": [],
+        "followup_commands": [],
+        "adapter_targets": [],
+        "deprecated_aliases": [],
+        "interop_note": "",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.herold",
+        "primary_command": "7w_wiki.py stats"
+      }
+    },
+    {
+      "id": "historian",
+      "name": "Workflow: `/historian` (Der Historiker)",
+      "description": "Deep lore analysis workflow for targeted reconstruction, canon checks, and contradiction resolution",
+      "source_path": ".agent/workflows/historian.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py historian [query]",
+          "7w_wiki.py search <query> --source wiki|quellen|all",
+          "7w_wiki.py score <file>",
+          "7w_wiki.py mail inbox --status OPEN",
+          "7w_wiki.py mail post --from Historian --to <agent|ALL> --subject \"<text>\" --body \"<text>"
+        ],
+        "method_only": [
+          "/lore_master"
+        ],
+        "method_hints_non_runtime": [],
+        "followup_commands": [],
+        "adapter_targets": [],
+        "deprecated_aliases": [],
+        "interop_note": "`7w_wiki.py historian` shows this workflow by default; passing a query starts the Oracle-backed analysis handoff.",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.historian",
+        "primary_command": "7w_wiki.py historian [query]"
+      }
+    },
+    {
+      "id": "ingest_master",
+      "name": "Department: 🏛️ Lore-Archiv (/ingest_master)",
+      "description": "Universeller Master Workflow für Ingestion (Quellen -> Wiki)",
+      "source_path": ".agent/workflows/ingest_master.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py advisor",
+          "7w_wiki.py search <query> --source wiki|quellen|all",
+          "7w_wiki.py repair --check-collision \"<Name>",
+          "7w_wiki.py ingest <file> [--move-to <dir>]",
+          "7w_wiki.py mail inbox --status OPEN",
+          "7w_wiki.py mail post --from Ingestor --to <agent|ALL> --subject \"<text>\" --body \"<text>",
+          "7w_wiki.py archive sync"
+        ],
+        "method_only": [
+          "/ingest_master"
+        ],
+        "method_hints_non_runtime": [],
+        "followup_commands": [],
+        "adapter_targets": [],
+        "deprecated_aliases": [],
+        "interop_note": "Method workflow for ingestion discipline; dispatch stays mandatory via inbox, question-first escalation, and status heartbeats.",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.ingest_master",
+        "primary_command": "7w_wiki.py advisor"
+      }
+    },
+    {
+      "id": "lore_master",
+      "name": "Department: 📜 Rüstkammer der Geschichte (/lore_master)",
+      "description": "Department Master Workflow für Lore-Forschung, Narrative und Kanon-Updates",
+      "source_path": ".agent/workflows/lore_master.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py search <query> --source wiki|quellen|all",
+          "7w_wiki.py historian <query>",
+          "7w_wiki.py score <file>",
+          "7w_wiki.py mail inbox --status OPEN",
+          "7w_wiki.py mail post --from Historian --to <agent|ALL> --subject \"<text>\" --body \"<text>"
+        ],
+        "method_only": [
+          "/lore_master"
+        ],
+        "method_hints_non_runtime": [],
+        "followup_commands": [],
+        "adapter_targets": [],
+        "deprecated_aliases": [],
+        "interop_note": "",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.lore_master",
+        "primary_command": "7w_wiki.py search <query> --source wiki|quellen|all"
+      }
+    },
+    {
+      "id": "meta_master",
+      "name": "Department: 📦 Logistik & Koordination (/meta_master)",
+      "description": "Department Master Workflow für Projekt-Meta, Statistiken und Handover",
+      "source_path": ".agent/workflows/meta_master.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py start",
+          "7w_wiki.py stats",
+          "7w_wiki.py leitpunkt [status|check|scaffold]",
+          "7w_wiki.py test --suite reader-stats-contract",
+          "7w_wiki.py test --suite clean-client-state",
+          "7w_wiki.py test --suite pages-link-contract",
+          "7w_wiki.py mail inbox --status OPEN",
+          "7w_wiki.py mail post --from Coordinator --to <agent|ALL> --subject \"<text>\" --body \"<text>"
+        ],
+        "method_only": [
+          "/meta_master",
+          "/takeover",
+          "/handover"
+        ],
+        "method_hints_non_runtime": [],
+        "followup_commands": [],
+        "adapter_targets": [],
+        "deprecated_aliases": [],
+        "interop_note": "",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.meta_master",
+        "primary_command": "7w_wiki.py start"
+      }
+    },
+    {
+      "id": "qa_master",
+      "name": "Department: 🔍 Die Inquisition (/qa_master)",
+      "description": "Universeller Master Workflow für Konsistenz, Links und Qualitätssicherung",
+      "source_path": ".agent/workflows/qa_master.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py audit",
+          "7w_wiki.py audit --pages",
+          "7w_wiki.py repair [--full]",
+          "7w_wiki.py repair --fix-roamlinks [--auto] [--dry-run]",
+          "7w_wiki.py sanitize --auto",
+          "7w_wiki.py test --suite clean-client-state",
+          "7w_wiki.py test --suite pages-link-contract",
+          "7w_wiki.py stats",
+          "7w_wiki.py mail inbox --status OPEN",
+          "7w_wiki.py mail post --from Guardian --to <agent|ALL> --subject \"<text>\" --body \"<text>"
+        ],
+        "method_only": [
+          "/qa_master"
+        ],
+        "method_hints_non_runtime": [],
+        "followup_commands": [],
+        "adapter_targets": [],
+        "deprecated_aliases": [],
+        "interop_note": "",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.qa_master",
+        "primary_command": "7w_wiki.py audit"
+      }
+    },
+    {
+      "id": "scout",
+      "name": "Workflow: `/scout` (Netz-Wache)",
+      "description": "Web-Scouting für News und Shard-Updates (/scout)",
+      "source_path": ".agent/workflows/scout.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py scout --forum bekanntmachungen|news --pages N"
+        ],
+        "method_only": [],
+        "method_hints_non_runtime": [
+          "Browser-basierte Sichtung (Host-Tooling)",
+          "URL-Extraktion via externe Lesetools (Host-Tooling)"
+        ],
+        "followup_commands": [],
+        "adapter_targets": [],
+        "deprecated_aliases": [],
+        "interop_note": "Promoted discovery entrypoint; intentionally first-class for external source discovery. Backend implementation remains under `.agent/scripts/`.",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.scout",
+        "primary_command": "7w_wiki.py scout --forum bekanntmachungen|news --pages N"
+      }
+    },
+    {
+      "id": "start",
+      "name": "Workflow: `/start` (Das Orakel von Siebenwind)",
+      "description": "Zentraler Startpunkt & Entscheidungshilfe für neue Agenten",
+      "source_path": ".agent/workflows/start.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py advisor",
+          "7w_wiki.py mail inbox --status OPEN",
+          "7w_wiki.py test --suite clean-client-state",
+          "7w_wiki.py archive sync"
+        ],
+        "method_only": [],
+        "method_hints_non_runtime": [],
+        "followup_commands": [
+          "7w_wiki.py advisor --json",
+          "7w_wiki.py mail inbox --status OPEN",
+          "7w_wiki.py test --suite clean-client-state"
+        ],
+        "adapter_targets": [
+          "codex:session_start",
+          "mcp:prompt/start"
+        ],
+        "deprecated_aliases": [],
+        "interop_note": "`7w_wiki.py start` shows the workflow by default; `--run` executes the checklist; `--resume` resumes workflow state.",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.start",
+        "primary_command": "7w_wiki.py start"
+      }
+    },
+    {
+      "id": "takeover",
+      "name": "Workflow: `/takeover` (Die Amtsübernahme)",
+      "description": "Onboarding-Prozess für einen neuen Agenten (Takeover)",
+      "source_path": ".agent/workflows/takeover.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py start",
+          "7w_wiki.py advisor",
+          "7w_wiki.py mail inbox --status OPEN",
+          "7w_wiki.py test --suite clean-client-state"
+        ],
+        "method_only": [],
+        "method_hints_non_runtime": [],
+        "followup_commands": [
+          "7w_wiki.py start",
+          "7w_wiki.py advisor --json",
+          "7w_wiki.py mail inbox --status OPEN"
+        ],
+        "adapter_targets": [
+          "codex:session_takeover",
+          "mcp:prompt/takeover"
+        ],
+        "deprecated_aliases": [],
+        "interop_note": "`7w_wiki.py takeover` shows the workflow by default; `--run` executes the checklist; `--resume` resumes workflow state.",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.takeover",
+        "primary_command": "7w_wiki.py takeover"
+      }
+    },
+    {
+      "id": "tech_master",
+      "name": "Department: ⚙️ Maschinenraum (/tech_master)",
+      "description": "Technischer Master Workflow für System-Architektur, Wartung und CI/CD",
+      "source_path": ".agent/workflows/tech_master.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py sanitize --auto",
+          "7w_wiki.py package --platform ubuntu|debian|macos|wsl --profile full|agent-only",
+          "7w_wiki.py pages status|build|validate",
+          "7w_wiki.py pages validate --json [--strict-links]",
+          "7w_wiki.py watch",
+          "7w_wiki.py index --status",
+          "7w_wiki.py audit --pages",
+          "7w_wiki.py repair --fix-roamlinks [--auto] [--dry-run]",
+          "7w_wiki.py repair --backlog-board [--json]",
+          "7w_wiki.py repair --apply-lane1 [--auto] [--dry-run] [--json]",
+          "7w_wiki.py mail inbox --status OPEN",
+          "7w_wiki.py mail post --from Technician --to <agent|ALL> --subject \"<text>\" --body \"<text>",
+          "7w_wiki.py tech --sync-catalog",
+          "7w_wiki.py tech --sync-codex-skills",
+          "7w_wiki.py tech --sync-a2a",
+          "7w_wiki.py tech --sync-surfaces",
+          "7w_wiki.py tech --sync-matrix",
+          "7w_wiki.py tech --sync-docs",
+          "7w_wiki.py tech --sync-interop",
+          "7w_wiki.py tech --repo-hygiene [--apply] [--json]",
+          "7w_wiki.py tech --sync-bridges",
+          "7w_wiki.py tech --manifest"
+        ],
+        "method_only": [
+          "/tech_master"
+        ],
+        "method_hints_non_runtime": [],
+        "followup_commands": [
+          "7w_wiki.py tech --sync-interop",
+          "7w_wiki.py pages validate --json",
+          "7w_wiki.py audit --pages"
+        ],
+        "adapter_targets": [
+          "codex:workflow_tech_master",
+          "mcp:prompt/tech_master"
+        ],
+        "deprecated_aliases": [
+          "7w_wiki.py tech --sync-bridges"
+        ],
+        "interop_note": "Department workflow for runtime-authoritative maintenance; helper scripts are implementation detail behind `7w_wiki.py tech`.",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.tech_master",
+        "primary_command": "7w_wiki.py tech --sync-surfaces"
+      }
+    },
+    {
+      "id": "test_run",
+      "name": "Workflow: `/test_run` (Test-Waechter Protokoll)",
+      "description": "Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und Clean-Client-State",
+      "source_path": ".agent/workflows/test_run.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py test --suite clean-client-state",
+          "7w_wiki.py test --suite takeover-handover",
+          "7w_wiki.py test --suite interop-doc-links",
+          "7w_wiki.py test --suite interop-command-registry",
+          "7w_wiki.py test --suite catalog-contract",
+          "7w_wiki.py test --suite adapter-surfaces-contract",
+          "7w_wiki.py test --suite delegation-policy-contract",
+          "7w_wiki.py test --suite repo-hygiene-contract",
+          "7w_wiki.py test --suite manifest-contract",
+          "7w_wiki.py test --suite source-tree-contract",
+          "7w_wiki.py test --suite legacy-doc-contract",
+          "7w_wiki.py test --suite asset-surface-contract",
+          "7w_wiki.py test --suite workflow-matrix-contract",
+          "7w_wiki.py test --suite tool-manifest-contract",
+          "7w_wiki.py test --suite pages-link-contract",
+          "7w_wiki.py test --suite backlog-repair-contract",
+          "7w_wiki.py test --suite source-link-hygiene",
+          "7w_wiki.py test --suite process-dispatch-curiosity",
+          "7w_wiki.py test --suite bridge-placeholder-guard",
+          "7w_wiki.py test --suite reader-stats-contract",
+          "7w_wiki.py test --suite all",
+          "7w_wiki.py test --suite all --include-rag",
+          "7w_wiki.py test --suite rag-relevance-smoke --timeout 30",
+          "7w_wiki.py test --suite all --post-failures --from-agent <name> --to-agent ALL --priority HIGH",
+          "7w_wiki.py pages validate --json [--strict-links]",
+          "7w_wiki.py mail inbox --status OPEN",
+          "7w_wiki.py mail claim <id> --agent <name>",
+          "7w_wiki.py mail done <id> --agent <name> --note \"<abschluss>"
+        ],
+        "method_only": [
+          "/test_run"
+        ],
+        "method_hints_non_runtime": [
+          "Optional: Defect-Task in `task.md` referenzieren, falls kein Dispatch-MSG verwendet wird."
+        ],
+        "followup_commands": [
+          "7w_wiki.py test --suite adapter-surfaces-contract",
+          "7w_wiki.py pages validate --json",
+          "7w_wiki.py mail inbox --status OPEN"
+        ],
+        "adapter_targets": [
+          "codex:workflow_test_run",
+          "mcp:prompt/test_run"
+        ],
+        "deprecated_aliases": [],
+        "interop_note": "",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.test_run",
+        "primary_command": "7w_wiki.py test --suite all"
+      }
+    },
+    {
+      "id": "translate",
+      "name": "Workflow: /translate",
+      "description": "Falandrische Texte übersetzen & Sprachdatensätze pflegen",
+      "source_path": ".agent/workflows/translate.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py translate <args>"
+        ],
+        "method_only": [
+          "/translate"
+        ],
+        "method_hints_non_runtime": [],
+        "followup_commands": [],
+        "adapter_targets": [],
+        "deprecated_aliases": [],
+        "interop_note": "",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.translate",
+        "primary_command": "7w_wiki.py translate <args>"
+      }
+    },
+    {
+      "id": "wiki_style_guide",
+      "name": "[Display Title]",
+      "description": "Siebenwind Wiki Style Guide & Convention",
+      "source_path": ".agent/workflows/wiki_style_guide.md",
+      "interop": {
+        "runtime_commands": [
+          "7w_wiki.py check",
+          "7w_wiki.py sanitize --auto"
+        ],
+        "method_only": [
+          "/wiki_style_guide"
+        ],
+        "method_hints_non_runtime": [],
+        "followup_commands": [],
+        "adapter_targets": [],
+        "deprecated_aliases": [],
+        "interop_note": "",
+        "matrix_status": "",
+        "runtime_adapter": "",
+        "catalog_id": "workflow.wiki_style_guide",
+        "primary_command": "7w_wiki.py check"
+      }
+    }
+  ],
+  "delegation": {
+    "policy_path": ".agent/config/delegation_policy.json",
+    "policy": {
+      "enabled": true,
+      "max_concurrent_subagents": 2,
+      "default_reasoning_effort": "low",
+      "forbid_default_xhigh": true,
+      "task_classes": {
+        "read_survey": {
+          "write_allowed": false,
+          "parallel_safe": true,
+          "allowed_profiles": [
+            "survey_low"
+          ],
+          "required_output": "short evidence-backed summary"
+        },
+        "search_inventory": {
+          "write_allowed": false,
+          "parallel_safe": true,
+          "allowed_profiles": [
+            "survey_low"
+          ],
+          "required_output": "bounded inventory with paths and findings"
+        },
+        "doc_summary": {
+          "write_allowed": false,
+          "parallel_safe": true,
+          "allowed_profiles": [
+            "survey_low"
+          ],
+          "required_output": "summary with citations to local sources"
+        },
+        "verification_pass": {
+          "write_allowed": false,
+          "parallel_safe": true,
+          "allowed_profiles": [
+            "verify_low"
+          ],
+          "required_output": "pass/fail verification notes"
+        },
+        "test_repro": {
+          "write_allowed": false,
+          "parallel_safe": true,
+          "allowed_profiles": [
+            "verify_low"
+          ],
+          "required_output": "reproduction steps and failing command"
+        },
+        "bounded_code_change": {
+          "write_allowed": true,
+          "parallel_safe": false,
+          "allowed_profiles": [
+            "code_bounded_low",
+            "code_bounded_medium"
+          ],
+          "required_output": "bounded patch within declared file scope"
+        }
+      },
+      "profiles": {
+        "survey_low": {
+          "model": "gpt-5.4-mini",
+          "reasoning_effort": "low",
+          "permissions": "read-only"
+        },
+        "verify_low": {
+          "model": "gpt-5.4-mini",
+          "reasoning_effort": "low",
+          "permissions": "read-only"
+        },
+        "code_bounded_low": {
+          "model": "gpt-5.3-codex",
+          "reasoning_effort": "low",
+          "permissions": "bounded-write"
+        },
+        "code_bounded_medium": {
+          "model": "gpt-5.3-codex",
+          "reasoning_effort": "medium",
+          "permissions": "bounded-write"
+        }
+      }
+    }
+  },
+  "surfaces": {
+    "codex": {
+      "config_path": ".codex/config.toml",
+      "skills": [
+        {
+          "id": "art_director",
+          "name": "Art Director (Atelier)",
+          "description": "Codex-native visual-direction adapter for style-safe asset work and dispatch coordination.",
+          "source_kind": "skill",
+          "source_id": "art_director",
+          "source_path": ".agent/skills/art_director/SKILL.md",
+          "target_path": ".agents/skills/art_director/SKILL.md",
+          "primary_command": "./7w_wiki.py mail post --from ArtDirector --to Coordinator --subject \"<visual task>\" --body \"<summary>\"",
+          "followup_commands": [
+            "./7w_wiki.py mail inbox --status OPEN"
+          ],
+          "instructions": [
+            "Use this adapter for visual direction, asset review, and style-governed art requests.",
+            "The repo has no dedicated image-generation CLI yet, so route requests and delivery state through Dispatch while following the canonical style preset.",
+            "Keep sidecar metadata and canon anchor references coupled to every produced asset."
+          ],
+          "references": [
+            ".agent/skills/art_director/SKILL.md",
+            "docs/assets/"
+          ]
+        },
+        {
+          "id": "kanon_waechter",
+          "name": "Kanon-Wächter (Verification)",
+          "description": "Fähigkeit, Fakten gegen die offizielle Homepage zu prüfen.",
+          "source_kind": "skill",
+          "source_id": "kanon_waechter",
+          "source_path": ".agent/skills/kanon_waechter/SKILL.md",
+          "target_path": ".agents/skills/kanon_waechter/SKILL.md",
+          "primary_command": "./7w_wiki.py search <query> --source all",
+          "followup_commands": [
+            "./7w_wiki.py historian <query>",
+            "./7w_wiki.py mail post --from Guardian --to Historian --subject \"<conflict>\" --body \"<summary>\""
+          ],
+          "instructions": [
+            "Use this adapter when a claim needs canon verification against higher-precedence material.",
+            "Search wiki and sources together first; escalate contradictions instead of silently normalizing them.",
+            "Homepage and sources outrank wiki pages for factual resolution."
+          ],
+          "references": [
+            ".agent/skills/kanon_waechter/SKILL.md",
+            "System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md"
+          ]
+        },
+        {
+          "id": "lektor",
+          "name": "Der Lektor (Qualitätssicherung)",
+          "description": "Automatisierte Prüfung von Stil, Grammatik und Markdown-Formatierung für konsistente \"Siebenwind Voice\".",
+          "source_kind": "skill",
+          "source_id": "lektor",
+          "source_path": ".agent/skills/lektor/SKILL.md",
+          "target_path": ".agents/skills/lektor/SKILL.md",
+          "primary_command": "./7w_wiki.py check [path]",
+          "followup_commands": [
+            "./7w_wiki.py lint [target]"
+          ],
+          "instructions": [
+            "Use this adapter for style, grammar, and markdown hygiene checks.",
+            "Run check first on the narrow target; escalate to lint when broader repo coverage is needed.",
+            "Treat findings as quality gates before final publication or handoff."
+          ],
+          "references": [
+            ".agent/skills/lektor/SKILL.md"
+          ]
+        },
+        {
+          "id": "linguist",
+          "name": "Linguist (Analyse & Pflege)",
+          "description": "Fähigkeit, falandrische Sprachen zu erkennen, zu interpretieren und die Datensätze zu pflegen.",
+          "source_kind": "skill",
+          "source_id": "linguist",
+          "source_path": ".agent/skills/linguist/SKILL.md",
+          "target_path": ".agents/skills/linguist/SKILL.md",
+          "primary_command": "./7w_wiki.py translate [args...]",
+          "followup_commands": [
+            "./7w_wiki.py search <query> --source all"
+          ],
+          "instructions": [
+            "Use this adapter for falandric analysis, translation tasks, and language-dataset maintenance.",
+            "Resolve meaning in context, not as isolated word substitution.",
+            "Cross-check canon significance through search when a term affects lore or chronology."
+          ],
+          "references": [
+            ".agent/skills/linguist/SKILL.md"
+          ]
+        },
+        {
+          "id": "lore_gelehrter",
+          "name": "Lore-Gelehrter (Analytik & Auskunft)",
+          "description": "Fähigkeit, das gesamte Wiki-Wissen zu aggregieren, Inkonsistenzen zu finden und präzise Auskunft zu geben.",
+          "source_kind": "skill",
+          "source_id": "lore_gelehrter",
+          "source_path": ".agent/skills/lore_gelehrter/SKILL.md",
+          "target_path": ".agents/skills/lore_gelehrter/SKILL.md",
+          "primary_command": "./7w_wiki.py historian <query>",
+          "followup_commands": [
+            "./7w_wiki.py search <query> --source all",
+            "./7w_wiki.py mail post --from Historian --to ALL --subject \"<lore question>\" --body \"<summary>\""
+          ],
+          "instructions": [
+            "Use this adapter for deep lore synthesis, contradiction analysis, and evidence-backed answers.",
+            "The Historian is an escalation and synthesis organ, not the default editor for straightforward source integration.",
+            "Route unresolved contradictions through Dispatch or the Synapse Board with explicit evidence."
+          ],
+          "references": [
+            ".agent/skills/lore_gelehrter/SKILL.md",
+            "System/Synapse_Board/LORE_RESEARCH_BOARD.md"
+          ]
+        },
+        {
+          "id": "oracle",
+          "name": "Das Orakel (Semantische Suche)",
+          "description": "Lokale Vektorsuche (RAG) über das gesamte Siebenwind-Wissen. Nutzt jina-embeddings-v3 für Embedding und bge-reranker-v2-m3 für Re-Ranking.",
+          "source_kind": "skill",
+          "source_id": "oracle",
+          "source_path": ".agent/skills/oracle/SKILL.md",
+          "target_path": ".agents/skills/oracle/SKILL.md",
+          "primary_command": "./7w_wiki.py search <query> [remaining...]",
+          "followup_commands": [
+            "./7w_wiki.py search <query> --source all",
+            "./7w_wiki.py index --status"
+          ],
+          "instructions": [
+            "Use this adapter for semantic search across wiki pages and source material.",
+            "Set --source deliberately so the result set matches the epistemic layer you are checking.",
+            "Check index status before assuming search quality problems are content problems."
+          ],
+          "references": [
+            ".agent/skills/oracle/SKILL.md",
+            ".agent/skills/oracle/search.py",
+            ".agent/skills/oracle/build_index.py"
+          ]
+        },
+        {
+          "id": "scanner",
+          "name": "Scanner (Ingestion)",
+          "description": "Fähigkeit, Verzeichnisstrukturen zu analysieren und relevante Dateien zu lesen.",
+          "source_kind": "skill",
+          "source_id": "scanner",
+          "source_path": ".agent/skills/scanner/SKILL.md",
+          "target_path": ".agents/skills/scanner/SKILL.md",
+          "primary_command": "./7w_wiki.py search <query> --source quellen",
+          "followup_commands": [
+            "./7w_wiki.py scout --forum bekanntmachungen --pages 3"
+          ],
+          "instructions": [
+            "Use this adapter for source-corpus inventory and lead preparation before ingestion or historian work.",
+            "Prefer source-targeted search first; use forum scouting only when the task expands beyond the local corpus.",
+            "Treat raw file exploration as a method hint, not as a replacement for the CLI runtime contract."
+          ],
+          "references": [
+            ".agent/skills/scanner/SKILL.md"
+          ]
+        },
+        {
+          "id": "scout",
+          "name": "Skill: Der Netz-Wächter (Web-Scout)",
+          "description": "Der Netz-Wächter ist darauf spezialisiert, dynamische Inhalte aus dem Internet (Homepage, Forum) zu extrahieren und in das Siebenwind-Wiki zu integrieren.",
+          "source_kind": "skill",
+          "source_id": "scout",
+          "source_path": ".agent/skills/scout/SKILL.md",
+          "target_path": ".agents/skills/scout/SKILL.md",
+          "primary_command": "./7w_wiki.py scout --forum bekanntmachungen --pages 3",
+          "followup_commands": [
+            "./7w_wiki.py scout --forum news --pages 3",
+            "./7w_wiki.py mail post --from Scout --to Ingestor --subject \"<source lead>\" --body \"<summary>\""
+          ],
+          "instructions": [
+            "Use this adapter for external discovery work that touches homepage or forum surfaces.",
+            "Stay passive: no posting, no interaction, only observation and structured lead capture.",
+            "Route ingest leads to the Ingestor and reserve historian escalation for real contention."
+          ],
+          "references": [
+            ".agent/skills/scout/SKILL.md",
+            ".agent/workflows/forum_search.md"
+          ]
+        },
+        {
+          "id": "session_handover",
+          "name": "Session Handover",
+          "description": "Codex-native closeout adapter for session memory, dispatch, and validation handoff.",
+          "source_kind": "workflow",
+          "source_id": "handover",
+          "source_path": ".agent/workflows/handover.md",
+          "target_path": ".agents/skills/session_handover/SKILL.md",
+          "primary_command": "./7w_wiki.py handover",
+          "followup_commands": [
+            "./7w_wiki.py test --suite all",
+            "./7w_wiki.py stats",
+            "./7w_wiki.py mail post --from Oberarchivar --to Coordinator --subject \"<abschluss>\" --body \"<summary>"
+          ],
+          "instructions": [
+            "Use this adapter when ending a working session and preparing the next agent handoff.",
+            "Keep validation, session-memory creation, and dispatch reporting coupled; no silent closeout is acceptable.",
+            "If technical or published-doc surfaces changed, include the pages snapshot or pages validation result in the handoff note."
+          ],
+          "references": [
+            ".agent/workflows/handover.md",
+            "CHANGELOG.md",
+            "Logs/Archive/SESSION_MEMORY_*.md"
+          ]
+        },
+        {
+          "id": "session_start",
+          "name": "Session Start",
+          "description": "Codex-native onboarding adapter for the standard session kickoff loop.",
+          "source_kind": "workflow",
+          "source_id": "start",
+          "source_path": ".agent/workflows/start.md",
+          "target_path": ".agents/skills/session_start/SKILL.md",
+          "primary_command": "./7w_wiki.py start",
+          "followup_commands": [
+            "./7w_wiki.py advisor --json",
+            "./7w_wiki.py mail inbox --status OPEN",
+            "./7w_wiki.py test --suite clean-client-state"
+          ],
+          "instructions": [
+            "Use this adapter when opening a fresh Siebenwind session in Codex or another IDE.",
+            "Run the primary command first; use --run only when the workflow checklist should execute interactively.",
+            "Review advisor output, open dispatch, clean-client-state, and the latest session memory before taking new work."
+          ],
+          "references": [
+            ".agent/workflows/start.md",
+            "MASTER_TASK_LIST.md",
+            "Logs/Archive/SESSION_MEMORY_*.md"
+          ]
+        },
+        {
+          "id": "session_takeover",
+          "name": "Session Takeover",
+          "description": "Codex-native adapter for adopting an existing Siebenwind session.",
+          "source_kind": "workflow",
+          "source_id": "takeover",
+          "source_path": ".agent/workflows/takeover.md",
+          "target_path": ".agents/skills/session_takeover/SKILL.md",
+          "primary_command": "./7w_wiki.py takeover",
+          "followup_commands": [
+            "./7w_wiki.py start",
+            "./7w_wiki.py advisor --json",
+            "./7w_wiki.py mail inbox --status OPEN"
+          ],
+          "instructions": [
+            "Use this adapter when inheriting work from a prior agent session.",
+            "Prefer /start as the canonical routing surface; antigravity survives only as a compatibility alias.",
+            "Carry forward open dispatches, the latest session memory, and unresolved historian or technician gates explicitly."
+          ],
+          "references": [
+            ".agent/workflows/takeover.md",
+            ".agent/workflows/start.md",
+            "Logs/Archive/SESSION_MEMORY_*.md"
+          ]
+        },
+        {
+          "id": "stats",
+          "name": "Stats",
+          "description": "Codex-native statistics adapter for reader-facing and machine-readable wiki status outputs.",
+          "source_kind": "runtime",
+          "source_id": "stats",
+          "source_path": "7w_wiki.py",
+          "target_path": ".agents/skills/stats/SKILL.md",
+          "primary_command": "./7w_wiki.py stats",
+          "followup_commands": [
+            "./7w_wiki.py test --suite reader-stats-contract"
+          ],
+          "instructions": [
+            "Use this adapter when reader-facing stats pages or machine snapshots need regeneration.",
+            "Treat the reader page, tracking register, and JSON snapshot as a coupled contract.",
+            "Validate the reader-stats contract after regeneration."
+          ],
+          "references": [
+            "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md",
+            "Logs/Archive/STATS_SNAPSHOT_latest.json",
+            "Logs/INGESTION_TRACKING_REGISTER.md"
+          ]
+        },
+        {
+          "id": "test_waechter",
+          "name": "Test Waechter",
+          "description": "Standardized suite execution, defect routing via Dispatch/Task, and re-test discipline.",
+          "source_kind": "skill",
+          "source_id": "test_waechter",
+          "source_path": ".agent/skills/test_waechter/SKILL.md",
+          "target_path": ".agents/skills/test_waechter/SKILL.md",
+          "primary_command": "./7w_wiki.py test --suite clean-client-state",
+          "followup_commands": [
+            "./7w_wiki.py test --suite all",
+            "./7w_wiki.py test --suite adapter-surfaces-contract"
+          ],
+          "instructions": [
+            "Use this adapter for standardized suite execution and defect-routing discipline.",
+            "On failure, create or claim the defect communication artifact before editing.",
+            "Re-run focused suites first, then the broader regression pass."
+          ],
+          "references": [
+            ".agent/skills/test_waechter/SKILL.md",
+            ".agent/workflows/test_run.md"
+          ]
+        },
+        {
+          "id": "time_keeper",
+          "name": "Time Keeper",
+          "description": "Utilities for handling the Siebenwind \"Sonnenzirkel\" time system (Calendar, Seasons, Dates).",
+          "source_kind": "skill",
+          "source_id": "time_keeper",
+          "source_path": ".agent/skills/time_keeper/SKILL.md",
+          "target_path": ".agents/skills/time_keeper/SKILL.md",
+          "primary_command": "./7w_wiki.py search \"Sonnenzirkel\" --source all",
+          "followup_commands": [
+            "./7w_wiki.py mail post --from TimeKeeper --to Historian --subject \"<calendar question>\" --body \"<summary>\""
+          ],
+          "instructions": [
+            "Use this adapter for calendar, season, and date-validation questions tied to the Sonnenzirkel system.",
+            "The bundled helper script remains the detailed reference implementation until a first-class CLI command exists.",
+            "Treat search results as canon context and escalate ambiguous chronology questions rather than improvising."
+          ],
+          "references": [
+            ".agent/skills/time_keeper/SKILL.md",
+            ".agent/skills/time_keeper/scripts/sonnenzirkel.py"
+          ]
+        },
+        {
+          "id": "wiki_schmied",
+          "name": "Wiki-Schmied (Production)",
+          "description": "Fähigkeit, standardisierte Wiki-Artikel zu erstellen.",
+          "source_kind": "skill",
+          "source_id": "wiki_schmied",
+          "source_path": ".agent/skills/wiki_schmied/SKILL.md",
+          "target_path": ".agents/skills/wiki_schmied/SKILL.md",
+          "primary_command": "./7w_wiki.py sanitize [target]",
+          "followup_commands": [
+            "./7w_wiki.py audit",
+            "./7w_wiki.py repair --fix-roamlinks --dry-run"
+          ],
+          "instructions": [
+            "Use this adapter for production-safe wiki article shaping, structure hygiene, and link integrity follow-through.",
+            "Keep report_id, source references, and anti-bridge policy aligned with the canonical production skill.",
+            "Validate the page and its references after structural edits."
+          ],
+          "references": [
+            ".agent/skills/wiki_schmied/SKILL.md",
+            "System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md"
+          ]
+        },
+        {
+          "id": "workflow_forum_search",
+          "name": "Workflow Forum Search",
+          "description": "Codex-native discovery adapter for board-first source scanning and ingest lead generation.",
+          "source_kind": "workflow",
+          "source_id": "forum_search",
+          "source_path": ".agent/workflows/forum_search.md",
+          "target_path": ".agents/skills/workflow_forum_search/SKILL.md",
+          "primary_command": "./7w_wiki.py scout --forum bekanntmachungen --pages 3",
+          "followup_commands": [
+            "./7w_wiki.py scout --forum news --pages 3",
+            "./7w_wiki.py scout --forum geschichten --pages 5",
+            "./7w_wiki.py mail post --from Scout --to Ingestor --subject \"<source lead>\" --body \"<summary>"
+          ],
+          "instructions": [
+            "Use this adapter when the task is forum-first discovery rather than broad homepage or web scouting.",
+            "Restrict scanning to the allowlisted boards and treat outputs as leads, not as already integrated sources.",
+            "Escalate only genuine contention or unresolved canon questions; routine ingest leads go to the Ingestor."
+          ],
+          "references": [
+            ".agent/workflows/forum_search.md",
+            "Quellen/Forum/",
+            "docs/Quellen/Forum/"
+          ]
+        },
+        {
+          "id": "workflow_tech_master",
+          "name": "Workflow Tech Master",
+          "description": "Codex-native maintenance adapter for interop sync, pages health, and runtime hygiene.",
+          "source_kind": "workflow",
+          "source_id": "tech_master",
+          "source_path": ".agent/workflows/tech_master.md",
+          "target_path": ".agents/skills/workflow_tech_master/SKILL.md",
+          "primary_command": "./7w_wiki.py tech --sync-surfaces",
+          "followup_commands": [
+            "./7w_wiki.py tech --sync-interop",
+            "./7w_wiki.py pages validate --json",
+            "./7w_wiki.py audit --pages"
+          ],
+          "instructions": [
+            "Use this adapter for runtime-authoritative maintenance work: docs sync, adapter generation, pages integrity, and CLI surface hygiene.",
+            "Prefer ./7w_wiki.py tech --sync-surfaces for the full surface refresh. --sync-bridges remains compatibility-only.",
+            "Treat GitHub Pages and Codex integration as derived UX layers; keep .agent plus ./7w_wiki.py authoritative."
+          ],
+          "references": [
+            ".agent/workflows/tech_master.md",
+            "System/Synapse_Board/SY_INTEROP.md",
+            "System/MCP/README.md"
+          ]
+        },
+        {
+          "id": "workflow_test_run",
+          "name": "Workflow Test Run",
+          "description": "Codex-native regression adapter for interop, adapter-surface, and clean-state verification.",
+          "source_kind": "workflow",
+          "source_id": "test_run",
+          "source_path": ".agent/workflows/test_run.md",
+          "target_path": ".agents/skills/workflow_test_run/SKILL.md",
+          "primary_command": "./7w_wiki.py test --suite all",
+          "followup_commands": [
+            "./7w_wiki.py test --suite adapter-surfaces-contract",
+            "./7w_wiki.py pages validate --json",
+            "./7w_wiki.py mail inbox --status OPEN"
+          ],
+          "instructions": [
+            "Use this adapter for the standard QA loop after interop or infrastructure changes.",
+            "Route failures through Dispatch or task claims before fixing; re-test after each fix.",
+            "Treat adapter-surface, catalog, and delegation-policy checks as first-class interop gates."
+          ],
+          "references": [
+            ".agent/workflows/test_run.md",
+            "System/Synapse_Board/SY_TESTING.md"
+          ]
+        }
+      ]
+    },
+    "mcp": {
+      "server_path": "System/MCP/server.py",
+      "config_path": "mcp_config.json",
+      "resources": [
+        {
+          "uri": "wiki://catalog",
+          "path": ".agent/catalog/catalog.v1.json"
+        },
+        {
+          "uri": "wiki://workflows",
+          "path": ".agent/catalog/catalog.v1.json#workflows"
+        },
+        {
+          "uri": "wiki://skills",
+          "path": ".agent/catalog/catalog.v1.json#skills"
+        },
+        {
+          "uri": "wiki://agents",
+          "path": ".agent/catalog/catalog.v1.json#agents"
+        },
+        {
+          "uri": "wiki://status",
+          "path": "./7w_wiki.py advisor --json"
+        },
+        {
+          "uri": "wiki://dispatch/open",
+          "path": "./7w_wiki.py mail inbox --status OPEN"
+        },
+        {
+          "uri": "wiki://prompts",
+          "path": ".agent/catalog/catalog.v1.json#surfaces.mcp.prompts"
+        }
+      ],
+      "prompts": [
+        {
+          "id": "forum_search",
+          "title": "Workflow: `/forum_search` (Forum-Quellenjagd)",
+          "description": "Systematische Forum-Quellensuche fuer neue ingestierbare Quellen (/forum_search)",
+          "source_path": ".agent/workflows/forum_search.md",
+          "prompt": "Use the canonical Siebenwind workflow `forum_search`.\nRuntime authority remains `./7w_wiki.py`.\nPrimary command: `./7w_wiki.py scout --forum bekanntmachungen --pages 3`.\nFollow-up commands:\n- `./7w_wiki.py scout --forum news --pages 3`\n- `./7w_wiki.py scout --forum geschichten --pages 5`\n- `./7w_wiki.py mail post --from Scout --to Ingestor --subject \"<source lead>\" --body \"<summary>`\nInterop note: Spezialisierter Betriebsweg fuer forum-basierte Quellenjagd; der promoted Umbrella-Workflow `/scout` bleibt fuer breitere Discovery zustaendig."
+        },
+        {
+          "id": "handover",
+          "title": "handover",
+          "description": "Übergabeprotokoll und Instruktionen für den nächsten Agenten (Handover)",
+          "source_path": ".agent/workflows/handover.md",
+          "prompt": "Use the canonical Siebenwind workflow `handover`.\nRuntime authority remains `./7w_wiki.py`.\nPrimary command: `./7w_wiki.py handover`.\nFollow-up commands:\n- `./7w_wiki.py test --suite all`\n- `./7w_wiki.py stats`\n- `./7w_wiki.py mail post --from Oberarchivar --to Coordinator --subject \"<abschluss>\" --body \"<summary>`\nInterop note: `7w_wiki.py handover` shows the workflow by default; `--run` executes the checklist; `--resume` resumes workflow state."
+        },
+        {
+          "id": "start",
+          "title": "Workflow: `/start` (Das Orakel von Siebenwind)",
+          "description": "Zentraler Startpunkt & Entscheidungshilfe für neue Agenten",
+          "source_path": ".agent/workflows/start.md",
+          "prompt": "Use the canonical Siebenwind workflow `start`.\nRuntime authority remains `./7w_wiki.py`.\nPrimary command: `./7w_wiki.py start`.\nFollow-up commands:\n- `./7w_wiki.py advisor --json`\n- `./7w_wiki.py mail inbox --status OPEN`\n- `./7w_wiki.py test --suite clean-client-state`\nInterop note: `7w_wiki.py start` shows the workflow by default; `--run` executes the checklist; `--resume` resumes workflow state."
+        },
+        {
+          "id": "takeover",
+          "title": "Workflow: `/takeover` (Die Amtsübernahme)",
+          "description": "Onboarding-Prozess für einen neuen Agenten (Takeover)",
+          "source_path": ".agent/workflows/takeover.md",
+          "prompt": "Use the canonical Siebenwind workflow `takeover`.\nRuntime authority remains `./7w_wiki.py`.\nPrimary command: `./7w_wiki.py takeover`.\nFollow-up commands:\n- `./7w_wiki.py start`\n- `./7w_wiki.py advisor --json`\n- `./7w_wiki.py mail inbox --status OPEN`\nInterop note: `7w_wiki.py takeover` shows the workflow by default; `--run` executes the checklist; `--resume` resumes workflow state."
+        },
+        {
+          "id": "tech_master",
+          "title": "Department: ⚙️ Maschinenraum (/tech_master)",
+          "description": "Technischer Master Workflow für System-Architektur, Wartung und CI/CD",
+          "source_path": ".agent/workflows/tech_master.md",
+          "prompt": "Use the canonical Siebenwind workflow `tech_master`.\nRuntime authority remains `./7w_wiki.py`.\nPrimary command: `./7w_wiki.py tech --sync-surfaces`.\nFollow-up commands:\n- `./7w_wiki.py tech --sync-interop`\n- `./7w_wiki.py pages validate --json`\n- `./7w_wiki.py audit --pages`\nInterop note: Department workflow for runtime-authoritative maintenance; helper scripts are implementation detail behind `7w_wiki.py tech`."
+        },
+        {
+          "id": "test_run",
+          "title": "Workflow: `/test_run` (Test-Waechter Protokoll)",
+          "description": "Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und Clean-Client-State",
+          "source_path": ".agent/workflows/test_run.md",
+          "prompt": "Use the canonical Siebenwind workflow `test_run`.\nRuntime authority remains `./7w_wiki.py`.\nPrimary command: `./7w_wiki.py test --suite all`.\nFollow-up commands:\n- `./7w_wiki.py test --suite adapter-surfaces-contract`\n- `./7w_wiki.py pages validate --json`\n- `./7w_wiki.py mail inbox --status OPEN`"
+        }
+      ]
+    },
+    "a2a": {
+      "phase": "discovery-only",
+      "agent_card_path": "docs/.well-known/agent.json"
+    }
+  }
+}

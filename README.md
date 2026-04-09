@@ -8,9 +8,9 @@ Kuratiertes Lore-Archiv fuer die Welt Siebenwind mit offenem KI-Betrieb, Audit-T
 
 ## Fuer Leser
 
-- Wiki-Startpunkt: [Siebenwind_Wiki/index.md](Siebenwind_Wiki/index.md)
-- Kuratierte Einstiege: [Interessante Artikel](Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md)
-- Chronik-Zeitrahmen: [Zeitrechnung (Der Sonnenzirkel)](Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md)
+- Wiki-Startpunkt: [docs/Siebenwind_Wiki/index.md](docs/Siebenwind_Wiki/index.md)
+- Kuratierte Einstiege: [docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md](docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md)
+- Chronik-Zeitrahmen: [docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md](docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md)
 
 ## Fuer technisch Interessierte: Was die Engine kann
 
@@ -21,9 +21,11 @@ Kuratiertes Lore-Archiv fuer die Welt Siebenwind mit offenem KI-Betrieb, Audit-T
 - **Lint- und Ingest-Pipelines:** `lint` (Sanitizer + Lektor + Score) und `ingest` (Lint + Archive Sync + Audit) als Ein-Befehl-Pipelines.
 - **Version Management:** Zentrales `VERSION` File mit `./7w_wiki.py version --bump`.
 - **Archivar:** `archive rotate` komprimiert veraltete Logs, rotiert DONE-Dispatches und archiviert abgeschlossene Tickets.
+- **Repo-Hygiene:** `tech --repo-hygiene [--apply] [--json]` klassifiziert Hot/Cold/Runtime/Build-Pfade und fuehrt konservative Bereinigung aus.
 - **Workflow Automation:** `--run` und `--resume` fuer Start/Takeover/Handover Workflows.
 - **Qualitaetsgates:** Standardisierte Testsuiten plus Audit-Check als Integritaetsbarriere.
 - **Agentenkoordination:** Dispatch-Bus mit `--report-path` und strukturierten Payloads.
+- **Kompatibilitaetsmanifest:** `lore_manifest.json` bleibt als generierte, AI-agnostische Surface erhalten und wird aus dem Katalog aktualisiert.
 
 ## 5-Minuten Tech Tour
 
@@ -35,7 +37,7 @@ Kuratiertes Lore-Archiv fuer die Welt Siebenwind mit offenem KI-Betrieb, Audit-T
 ./7w_wiki.py search "Dunvallo Linari" --source wiki
 
 # 3) Lint-Pipeline (Sanitizer + Lektor + Score)
-./7w_wiki.py lint Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md --fix
+./7w_wiki.py lint docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md --fix
 
 # 4) Ingest-Pipeline (Lint + Archive Sync + Audit)
 ./7w_wiki.py ingest Quellen/Zeitung\ 7w\ Bote/Bote_194.md
@@ -45,12 +47,16 @@ Kuratiertes Lore-Archiv fuer die Welt Siebenwind mit offenem KI-Betrieb, Audit-T
 
 # 6) Version pruefen
 ./7w_wiki.py version
+
+# 7) Repo-Hygiene und Retention
+./7w_wiki.py tech --repo-hygiene --json
 ```
 
 ## Kernbereiche im Repository
 
-- **Praesentation (Leserfokus):** `Siebenwind_Wiki/`, `docs/index.md`, `docs/Siebenwind_Wiki/`
+- **Praesentation (Leserfokus):** `docs/index.md`, `docs/Siebenwind_Wiki/`, `docs/assets/`
 - **Betrieb (Prozessfokus):** `System/`, `System/Synapse_Board/`, `.agent/`, `.agents/`
+- **Kompatibilitaet & Discovery:** `.agent/catalog/`, `lore_manifest.json`, `mcp_config.json`, `docs/.well-known/agent.json`
 - **Koordination:** `MASTER_TASK_LIST.md`, `CHANGELOG.md`, `System/Synapse_Board/DISPATCH/`
 
 ## Technische Dokumentation

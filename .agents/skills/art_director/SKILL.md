@@ -1,21 +1,26 @@
 ---
-name: Art Director Bridge
-description: Thin wrapper for visual direction tasks. Uses workflow guidance only and keeps runtime execution on ./7w_wiki.py.
+name: Art Director (Atelier)
+description: Codex-native visual-direction adapter for style-safe asset work and dispatch coordination.
 ---
 
-# Skill: Art Director (Atelier)
-> **Wrapper for**: `.agent/skills/art_director/SKILL.md`
+# Codex Skill: Art Director (Atelier)
 
-This skill handles image generation and visual consistency for the wiki.
+> **Canonical skill**: `.agent/skills/art_director/SKILL.md`
+> **Marker**: Generated Codex adapter skill. Do not edit manually.
 
-## Usage
-This skill is invoked via workflow guidance and project review tasks.
-See `.agent/skills/art_director/SKILL.md` for prompt engineering guidelines.
+This adapter is generated from the canonical catalog. Runtime execution stays on `./7w_wiki.py`; `.agent/` remains the source of truth.
 
-## Standards
-- **Style**: Archivum Argentum (Silverpoint / Renaissance Draft, serioes und reduziert).
-- **Format**: WebP, 16:9 or 1:1.
-- **Coordination**: Post status/questions via Dispatch when outputs block other agents.
+## Primary Runtime Command
+`./7w_wiki.py mail post --from ArtDirector --to Coordinator --subject "<visual task>" --body "<summary>"`
 
-## Change Note
-- 2026-02-17: Bridge auf das neue Stilprofil Archivum Argentum synchronisiert.
+## Follow-up Commands
+- `./7w_wiki.py mail inbox --status OPEN`
+
+## Instructions
+- Use this adapter for visual direction, asset review, and style-governed art requests.
+- The repo has no dedicated image-generation CLI yet, so route requests and delivery state through Dispatch while following the canonical style preset.
+- Keep sidecar metadata and canon anchor references coupled to every produced asset.
+
+## References
+- `.agent/skills/art_director/SKILL.md`
+- `docs/assets/`

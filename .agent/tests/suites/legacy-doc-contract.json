@@ -1,0 +1,43 @@
+{
+  "suite": "legacy-doc-contract",
+  "description": "Guard that active workflows no longer depend on archived docs and that dormant singleton docs were demoted.",
+  "cases": [
+    {
+      "id": "takeover-uses-active-canon-docs",
+      "name": "Takeover onboarding references active canon docs instead of .agent/docs/_archive",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/workflows/takeover.md",
+          "must_include_regex": [
+            "docs/architecture\\.md",
+            "System/Synapse_Board/SY_INTEROP\\.md",
+            "System/AGENT_OPERATIONS_HANDBOOK\\.md"
+          ]
+        },
+        {
+          "file": "System/_archive/README.md",
+          "must_include_regex": [
+            "historische System-Dokumente",
+            "aktive Operator-Guidance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "active-guidance-no-archive-dependencies",
+      "name": "Active guidance does not require archived docs or retired singleton standards",
+      "pattern_check_globs": [
+        "AGENTS.md",
+        "README.md",
+        "System/Synapse_Board/SY_INTEROP.md",
+        "System/AGENT_OPERATIONS_HANDBOOK.md",
+        ".agent/workflows/*.md"
+      ],
+      "forbid_regex": [
+        "\\.agent/docs/_archive/",
+        "System/SYSTEM_INTEGRITY\\.md",
+        "System/WORKFLOW_LORE_CONSISTENCY\\.md"
+      ]
+    }
+  ]
+}

@@ -17,14 +17,16 @@ description: Systematische Forum-Quellensuche fuer neue ingestierbare Quellen (/
 - matrix_status: executable
 - runtime_adapter: `7w_wiki.py scout --forum <allowlisted-board> --pages N`
 - interop_note: Spezialisierter Betriebsweg fuer forum-basierte Quellenjagd; der promoted Umbrella-Workflow `/scout` bleibt fuer breitere Discovery zustaendig.
-- codex_bridge_name: workflow_forum_search
-- codex_bridge_enabled: true
-- codex_bridge_summary: Codex bridge for forum-based source discovery and ingestion lead generation.
-- codex_bridge_primary_command: `7w_wiki.py scout --forum bekanntmachungen --pages 3`
-- codex_bridge_followups:
+- catalog_id: `workflow.forum_search`
+- primary_command: `7w_wiki.py scout --forum bekanntmachungen --pages 3`
+- followup_commands:
   - `7w_wiki.py scout --forum news --pages 3`
   - `7w_wiki.py scout --forum geschichten --pages 5`
   - `7w_wiki.py mail post --from Scout --to Ingestor --subject "<source lead>" --body "<summary>"`
+- adapter_targets:
+  - `codex:workflow_forum_search`
+  - `mcp:prompt/forum_search`
+- deprecated_aliases:
 
 Dieser Workflow dient der gezielten Suche nach **neuen ingestierbaren Quellen** in den Legacy-Foren. Er ist enger gefasst als `/scout`: keine Homepage-Sichtung, kein allgemeines Web-Monitoring, sondern Board-fokussierte Quellenjagd.
 

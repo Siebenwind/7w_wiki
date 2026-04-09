@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-04-08 22:52
+**Stand:** 2026-04-08 23:55
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -144,17 +144,20 @@ pie title Artikel pro Sektion
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 85 |
 | Davon ohne Ausnahme-Metadaten | 0 |
-| Test-Suiten PASS | 23 |
+| Test-Suiten PASS | 26 |
 | Test-Suiten FAIL | 0 |
 
 ### Letzte Test-Suites
 | Suite | Ergebnis | PASS | FAIL | SKIP |
 | :--- | :--- | ---: | ---: | ---: |
+| `adapter-surfaces-contract` | **PASS** | 3 | 0 | 0 |
 | `backlog-repair-contract` | **PASS** | 2 | 0 | 0 |
 | `bridge-placeholder-guard` | **PASS** | 2 | 0 | 0 |
+| `catalog-contract` | **PASS** | 2 | 0 | 0 |
 | `clean-client-state` | **PASS** | 8 | 0 | 0 |
 | `codex-workflow-bridges` | **PASS** | 2 | 0 | 0 |
 | `content-contract` | **PASS** | 1 | 0 | 0 |
+| `delegation-policy-contract` | **PASS** | 2 | 0 | 0 |
 | `dispatch-doc-runtime-alignment` | **PASS** | 2 | 0 | 0 |
 | `dispatch-governance-contract` | **PASS** | 1 | 0 | 0 |
 | `interop-command-registry` | **PASS** | 1 | 0 | 0 |
@@ -179,7 +182,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_4f31386b-6534-4f18-b663-b2f6c3abcd75.txt`
+- Letzter Audit: `Logs/Archive/Audit_3398c41f-fba4-4b64-930e-526aa89aeaea.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
 
 ---

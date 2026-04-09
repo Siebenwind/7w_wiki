@@ -1,0 +1,54 @@
+{
+  "suite": "manifest-contract",
+  "description": "Guard the generated compatibility manifest and its alignment with the canonical core.",
+  "cases": [
+    {
+      "id": "sync-interop-wires-manifest-refresh",
+      "name": "Full interop sync is wired to regenerate lore_manifest.json",
+      "required_regex_by_file": [
+        {
+          "file": "7w_wiki.py",
+          "must_include_regex": [
+            "tech_parser\\.add_argument\\(\"--sync-interop\"",
+            "run_script\\(\"\\.agent/scripts/generate_lore_manifest\\.py\"\\)"
+          ]
+        },
+        {
+          "file": ".agent/scripts/generate_lore_manifest.py",
+          "must_include_regex": [
+            "MANIFEST_PATH = REPO_ROOT / \"lore_manifest\\.json\"",
+            "print\\(f\"Wrote \\{MANIFEST_PATH\\.relative_to\\(REPO_ROOT\\)\\}\"\\)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manifest-current-runtime-shape",
+      "name": "Manifest points at the current runtime, tree model, and machine surfaces",
+      "required_regex_by_file": [
+        {
+          "file": "lore_manifest.json",
+          "must_include_regex": [
+            "\"schema_version\": \"lore-manifest\\.v3\"",
+            "\"generated_from\": \"\\.agent/catalog/catalog\\.v1\\.json\"",
+            "\"cli\": \"\\./7w_wiki\\.py\"",
+            "\"technical_wiki_root\": \"docs/Siebenwind_Wiki/\"",
+            "\"legacy_wiki_root\": \"Siebenwind_Wiki/\"",
+            "\"catalog\": \"\\.agent/catalog/\"",
+            "\"mcp_server\": \"System/MCP/server\\.py\"",
+            "\"published_assets\": \"docs/assets/\""
+          ]
+        },
+        {
+          "file": ".agent/scripts/generate_lore_manifest.py",
+          "must_include_regex": [
+            "CATALOG_PATH = REPO_ROOT / \"\\.agent\" / \"catalog\" / \"catalog\\.v1\\.json\"",
+            "\"cli\": \"\\./7w_wiki\\.py\"",
+            "\"generated_from\": \"\\.agent/catalog/catalog\\.v1\\.json\"",
+            "\"catalog\": \"\\.agent/catalog/\""
+          ]
+        }
+      ]
+    }
+  ]
+}

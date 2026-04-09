@@ -232,7 +232,7 @@ COMMAND_METADATA = {
         "interactive_default": False,
     },
     "antigravity": {
-        "summary": "Show the core default workflow hub.",
+        "summary": "Deprecated alias for start workflow overview.",
         "context": ".agent/workflows/antigravity.md",
         "json_capable": False,
         "supports_run_mode": False,
@@ -497,7 +497,7 @@ def main():
     config = load_nexus_config()
     lore_config = config.get("lore", {})
     world_name = lore_config.get("world_name", "Siebenwind")
-    default_wiki = lore_config.get("directories", {}).get("wiki", "Siebenwind_Wiki")
+    default_wiki = lore_config.get("directories", {}).get("wiki", "docs/Siebenwind_Wiki")
 
     parser = argparse.ArgumentParser(description=f"{world_name} Lore Engine CLI")
     subparsers = parser.add_subparsers(dest="command", help="Available commands")
@@ -689,9 +689,16 @@ def main():
     tech_parser.add_argument("--manifest", action="store_true", help="Generate OpenAPI tools.json from CLI context")
     tech_parser.add_argument("--compile-skills", action="store_true", help="Compile SKILL.md.tpl with variables from lore_manifest")
     tech_parser.add_argument("--sync-matrix", action="store_true", help="Regenerate the workflow interop matrix")
-    tech_parser.add_argument("--sync-bridges", action="store_true", help="Regenerate external bridge skills")
+    tech_parser.add_argument("--sync-catalog", action="store_true", help="Regenerate the canonical agent catalog")
+    tech_parser.add_argument("--sync-codex-skills", action="store_true", help="Regenerate Codex adapter skills from the canonical catalog")
+    tech_parser.add_argument("--sync-a2a", action="store_true", help="Regenerate the discovery-only agent card")
+    tech_parser.add_argument("--sync-surfaces", action="store_true", help="Run catalog, Codex adapter, and A2A sync")
+    tech_parser.add_argument("--sync-bridges", action="store_true", help="Deprecated alias for --sync-codex-skills")
     tech_parser.add_argument("--sync-docs", action="store_true", help="Sync runtime governance docs from the CLI contract")
-    tech_parser.add_argument("--sync-interop", action="store_true", help="Run matrix, doc, bridge, and manifest sync")
+    tech_parser.add_argument("--sync-interop", action="store_true", help="Run matrix, docs, catalog, adapter, A2A, and manifest sync")
+    tech_parser.add_argument("--repo-hygiene", action="store_true", help="Classify hot/cold/runtime/build paths and optionally apply conservative cleanup")
+    tech_parser.add_argument("--apply", action="store_true", help="Used with --repo-hygiene to apply approved cleanup actions")
+    tech_parser.add_argument("--json", action="store_true", help="Used with --repo-hygiene to emit machine-readable output")
 
     # Version Management
     ver_parser = subparsers.add_parser("version", help="Show or bump the wiki standard version")
@@ -701,7 +708,7 @@ def main():
     ver_parser.add_argument("--json", action="store_true", help="Output version as JSON")
 
     # Antigravity (Core Protocol)
-    subparsers.add_parser("antigravity", help="Show Antigravity core workflow (default protocol)")
+    subparsers.add_parser("antigravity", help="Deprecated alias for start workflow overview")
 
     # Maintainer Standpoint (Human Steering Anchor)
     leit_parser = subparsers.add_parser("leitpunkt", help="Manage maintainer standpoint workflow and checks")
@@ -1027,9 +1034,34 @@ def main():
             print(f"🔧 {BOLD}Synchronizing interop surfaces...{RESET}")
             run_script(".agent/scripts/update_matrix.py")
             run_script(".agent/scripts/sync_runtime_docs.py")
-            run_script(".agent/scripts/generate_agent_bridges.py")
-            run_script(".agent/scripts/generate_workflow_bridges.py")
+            run_script(".agent/scripts/generate_agent_catalog.py")
+            run_script(".agent/scripts/generate_codex_skills.py")
+            run_script(".agent/scripts/generate_a2a_agent_card.py")
+            run_script(".agent/scripts/generate_lore_manifest.py")
             run_script(".agent/scripts/generate_tools_manifest.py")
+        elif getattr(args, "sync_surfaces", False):
+            print(f"🔧 {BOLD}Synchronizing canonical adapter surfaces...{RESET}")
+            run_script(".agent/scripts/generate_agent_catalog.py")
+            run_script(".agent/scripts/generate_codex_skills.py")
+            run_script(".agent/scripts/generate_a2a_agent_card.py")
+        elif getattr(args, "repo_hygiene", False):
+            hygiene_args = []
+            if getattr(args, "apply", False):
+                hygiene_args.append("--apply")
+            if getattr(args, "json", False):
+                hygiene_args.append("--json")
+            run_script(".agent/scripts/repo_hygiene.py", hygiene_args)
+        elif getattr(args, "sync_catalog", False):
+            print(f"🔧 {BOLD}Regenerating canonical agent catalog...{RESET}")
+            run_script(".agent/scripts/generate_agent_catalog.py")
+        elif getattr(args, "sync_codex_skills", False):
+            print(f"🔧 {BOLD}Regenerating Codex adapter skills...{RESET}")
+            run_script(".agent/scripts/generate_agent_catalog.py")
+            run_script(".agent/scripts/generate_codex_skills.py")
+        elif getattr(args, "sync_a2a", False):
+            print(f"🔧 {BOLD}Regenerating discovery-only agent card...{RESET}")
+            run_script(".agent/scripts/generate_agent_catalog.py")
+            run_script(".agent/scripts/generate_a2a_agent_card.py")
         elif getattr(args, "sync_matrix", False):
             print(f"🔧 {BOLD}Regenerating workflow matrix...{RESET}")
             run_script(".agent/scripts/update_matrix.py")
@@ -1037,9 +1069,9 @@ def main():
             print(f"🔧 {BOLD}Syncing runtime docs...{RESET}")
             run_script(".agent/scripts/sync_runtime_docs.py")
         elif getattr(args, "sync_bridges", False):
-            print(f"🔧 {BOLD}Regenerating bridge skills...{RESET}")
-            run_script(".agent/scripts/generate_agent_bridges.py")
-            run_script(".agent/scripts/generate_workflow_bridges.py")
+            print(f"⚠️  {BOLD}--sync-bridges is deprecated; using --sync-codex-skills instead.{RESET}")
+            run_script(".agent/scripts/generate_agent_catalog.py")
+            run_script(".agent/scripts/generate_codex_skills.py")
         elif getattr(args, "manifest", False):
             print(f"🔧 {BOLD}Regenerating tools.json manifest...{RESET}")
             run_script(".agent/scripts/generate_tools_manifest.py")
@@ -1063,8 +1095,9 @@ def main():
         run_script(".agent/scripts/version_manager.py", ver_args)
 
     elif args.command == "antigravity":
-        print(f"🧲 {BOLD}Workflow: /antigravity (Core Protocol){RESET}")
-        view_workflow("antigravity")
+        print(f"🧲 {BOLD}Workflow: /antigravity{RESET}")
+        print("Deprecated compatibility alias. Redirecting to `/start`; treat Antigravity as history, not as the canonical control plane.\n")
+        view_workflow("start")
 
     elif args.command == "leitpunkt":
         if not args.leit_cmd or args.leit_cmd == "view":

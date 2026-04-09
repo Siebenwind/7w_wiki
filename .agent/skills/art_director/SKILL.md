@@ -33,8 +33,8 @@ Aktuelle Ära: **"Archivum Argentum"** (Silverpoint / Renaissance Draft)
 Bei jeder `generate_image` Aktion MUSS gleichzeitig eine `.json` Metadaten-Datei angelegt werden.
 
 **Namenskonvention:**
-*   Bild: `assets/images/[Kategorie]/[Name]_[Timestamp].png`
-*   Meta: `assets/images/[Kategorie]/[Name]_[Timestamp].json`
+*   Bild: `docs/assets/generated/[Kategorie]/[Name]_[Timestamp].png`
+*   Meta: `docs/assets/generated/[Kategorie]/[Name]_[Timestamp].json`
 
 **Metadaten-Struktur (JSON):**
 ```json
@@ -61,6 +61,11 @@ Bei jeder `generate_image` Aktion MUSS gleichzeitig eine `.json` Metadaten-Datei
 4.  **Validierung:** Prüfe das Ergebnis visuell (method hint, non-runtime: Editor/Browser-Host-Tooling). Passt der Stil?
 5.  **Kanon-Check:** Verifiziere, dass Motivbeschreibung und verlinkter Artikel inhaltlich uebereinstimmen.
 6.  **Archivierung:** Speichere Bild + JSON.
+
+## Surface-Regel
+- `docs/assets/` ist die live publizierte Asset-Surface.
+- `System/Design_Assets/` ist historischer Design-Quellbestand.
+- Das Top-Level-`assets/` ist kein aktiver Produktionspfad mehr.
 
 ## Zukunfts-Sicherheit
 Sollte sich der Art Style ändern, wird lediglich der Abschnitt **1. Style Presets** in diesem Skill aktualisiert. Die Metadaten alter Bilder bleiben erhalten und dokumentieren ihre Epoche.

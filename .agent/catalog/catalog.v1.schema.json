@@ -1,0 +1,186 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Siebenwind Agent Catalog v1",
+  "type": "object",
+  "required": [
+    "version",
+    "generated_at",
+    "runtime",
+    "agents",
+    "skills",
+    "workflows",
+    "delegation",
+    "surfaces"
+  ],
+  "properties": {
+    "version": {
+      "const": "catalog.v1"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "runtime": {
+      "type": "object",
+      "required": [
+        "entrypoint",
+        "help_json",
+        "commands",
+        "config"
+      ],
+      "properties": {
+        "entrypoint": {
+          "type": "string"
+        },
+        "help_json": {
+          "type": "string"
+        },
+        "commands": {
+          "type": "array"
+        },
+        "config": {
+          "type": "object"
+        }
+      }
+    },
+    "agents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "description",
+          "source_path"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "source_path": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "description",
+          "source_path"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "source_path": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "workflows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "description",
+          "source_path",
+          "interop"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "source_path": {
+            "type": "string"
+          },
+          "interop": {
+            "type": "object",
+            "required": [
+              "runtime_commands",
+              "method_only",
+              "followup_commands",
+              "adapter_targets",
+              "deprecated_aliases"
+            ],
+            "properties": {
+              "runtime_commands": {
+                "type": "array"
+              },
+              "method_only": {
+                "type": "array"
+              },
+              "followup_commands": {
+                "type": "array"
+              },
+              "adapter_targets": {
+                "type": "array"
+              },
+              "deprecated_aliases": {
+                "type": "array"
+              }
+            }
+          }
+        }
+      }
+    },
+    "delegation": {
+      "type": "object",
+      "required": [
+        "policy_path",
+        "policy"
+      ],
+      "properties": {
+        "policy_path": {
+          "type": "string"
+        },
+        "policy": {
+          "type": "object"
+        }
+      }
+    },
+    "surfaces": {
+      "type": "object",
+      "required": [
+        "codex",
+        "mcp",
+        "a2a"
+      ],
+      "properties": {
+        "codex": {
+          "type": "object"
+        },
+        "mcp": {
+          "type": "object"
+        },
+        "a2a": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

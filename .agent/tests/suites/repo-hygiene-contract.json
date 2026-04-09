@@ -1,0 +1,51 @@
+{
+  "suite": "repo-hygiene-contract",
+  "description": "Guard the canonical repo hygiene command and its hot/cold/runtime/build classification policy.",
+  "cases": [
+    {
+      "id": "tech-help-exposes-repo-hygiene",
+      "name": "Tech help exposes the repo hygiene entrypoint",
+      "cmd": ["./7w_wiki.py", "tech", "--help"],
+      "expect_exit": 0,
+      "expect_stdout": [
+        "--repo-hygiene",
+        "--apply",
+        "--json"
+      ]
+    },
+    {
+      "id": "repo-hygiene-report-shape",
+      "name": "Repo hygiene JSON report classifies hot, cold, runtime, and build families",
+      "cmd": ["./7w_wiki.py", "tech", "--repo-hygiene", "--json"],
+      "expect_exit": 0,
+      "expect_stdout": [
+        "\"id\": \"canonical_core\"",
+        "\"action\": \"refuse\"",
+        "\"id\": \"review_snapshots\"",
+        "\"classification\": \"versioned_cold\"",
+        "\"id\": \"local_runtime_cache\"",
+        "\"classification\": \"local_runtime\"",
+        "\"id\": \"build_dist\"",
+        "\"classification\": \"build_output\""
+      ]
+    },
+    {
+      "id": "repo-hygiene-script-policy",
+      "name": "Repo hygiene script keeps the conservative retention and protected hot paths",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/scripts/repo_hygiene.py",
+          "must_include_regex": [
+            "RETENTION_LIMIT = 5",
+            "SAMPLE_LIMIT = 20",
+            "\"canonical_hot\"",
+            "\"versioned_cold\"",
+            "\"local_runtime\"",
+            "\"build_output\"",
+            "\"prune_runtime_tree\""
+          ]
+        }
+      ]
+    }
+  ]
+}

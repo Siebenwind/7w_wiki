@@ -12,10 +12,11 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 
 1. Runtime Authority: Ausfuehrung nur ueber `./7w_wiki.py`.
 2. Orchestrierung bleibt in `.agent/` autoritativ.
-3. Discoverability fuer Codex/Jules ueber `.agents/skills/` als duenne Wrapper; Workflow-Bridges und Skill-Bridges teilen sich dieselbe externe Flaeche.
+3. Discoverability fuer externe Hosts folgt dem Layer-Modell: `.agent/` plus `./7w_wiki.py` sind kanonisch; MCP ist die Live-Schnittstelle; `.agents/skills/` plus `.codex/config.toml` bilden den Codex-Adapter.
 4. Governance-Dokumente bleiben in `System/` und `System/Synapse_Board/`.
 5. Neue Systemdokumente muessen in `System/COORDINATION_HUB.md` registriert werden.
 6. Epistemische Praezedenz ist `Homepage > Quellen > Wiki Pages`; die volle Drift-/Pages-Regel steht in [SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
+7. `lore_manifest.json` ist eine generierte Kompatibilitaetsoberflaeche, nicht die Quelle der Wahrheit.
 
 <!-- BEGIN GENERATED DRIFT CONTRACT REFERENCE -->
 > Generated reference block. The surrounding narrative text remains manually maintained.
@@ -37,10 +38,15 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 | `.agent/instructions/` | Persona- und Rollenlogik | Ja |
 | `.agent/scripts/` | Implementierte Backing-Skripte hinter CLI-Kommandos | Ja |
 | `.agent/skills/` | Fachlogik (z. B. Oracle, Lektor) | Ja |
-| `.agents/skills/` | Interop-Wrapper fuer externe Agenten (Skills + Workflow-Bridges) | Bruecke |
+| `.agent/catalog/` | Neutraler Discovery-Katalog fuer Skills, Workflows und Surfaces | Ja |
+| `lore_manifest.json` | Generiertes, AI-agnostisches Kompatibilitaetsmanifest | Kompatibilitaet |
+| `.agents/skills/` | Codex-native Adapter-Surface (abgeleitet aus dem Katalog) | Adapter |
+| `.codex/config.toml` | Projektweite Codex-Verdrahtung auf MCP und Adapter-Skills | Adapter |
 | `System/Synapse_Board/` | Governance, Interop-Normen, Dispatch-Standards | Ja |
 | `docs/` | GitHub-Pages-Ausspielung | Publishing |
 | `docs/Siebenwind_Wiki/` | Technischer Edit-Baum fuer Wiki-Pages | Ja (technisch), nein (epistemisch) |
+| `docs/assets/` | Live-Asset-Surface fuer publizierte Styles und Medien | Ja (publiziert) |
+| `System/Design_Assets/` | Historisches Design-Archiv / Quellenmaterial | Kalt |
 
 ## Standard-Arbeitszyklus
 
@@ -48,6 +54,7 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 2. Planen: `MASTER_TASK_LIST.md`, `task.md`, offene Dispatch-Nachrichten.
 3. Umsetzen: Nur ueber CLI-Kommandos aus `7w_wiki.py`.
    Drift zuerst klassifizieren: technischer Drift (Layout, Links, Split-Brain, Generatoren) vs. epistemischer Drift (Homepage/Quellen widersprechen Wiki-Pages). Fuer den verbindlichen Volltext gilt [SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
+   Repo-Hygiene, Retention und kalte Evidenzbuckets laufen ueber `./7w_wiki.py tech --repo-hygiene`.
 4. Validieren: Mindestens `./7w_wiki.py audit`, bei Dokuaenderungen auch `check`, `stats`, `archive sync`.
 5. Dokumentieren: `CHANGELOG.md`, Boards, Register- und Doku-Updates.
 
@@ -112,15 +119,22 @@ Verbindlicher Einstieg:
 3. `./7w_wiki.py test --suite interop-doc-links`
 4. `./7w_wiki.py test --suite interop-command-registry`
 5. `./7w_wiki.py test --suite workflow-matrix-contract`
-6. `./7w_wiki.py test --suite codex-workflow-bridges`
-7. `./7w_wiki.py test --suite tool-manifest-contract`
-8. `./7w_wiki.py test --suite pages-link-contract`
-9. `./7w_wiki.py test --suite source-link-hygiene`
-10. `./7w_wiki.py test --suite process-dispatch-curiosity`
-11. `./7w_wiki.py test --suite bridge-placeholder-guard`
-12. `./7w_wiki.py test --suite reader-stats-contract`
-13. Optional Gesamtlauf: `./7w_wiki.py test --suite all` (stabiler Standardlauf ohne RAG-Smoke)
-14. Optional Oracle-Diagnose: `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`
+6. `./7w_wiki.py test --suite catalog-contract`
+7. `./7w_wiki.py test --suite adapter-surfaces-contract`
+8. `./7w_wiki.py test --suite delegation-policy-contract`
+9. `./7w_wiki.py test --suite repo-hygiene-contract`
+10. `./7w_wiki.py test --suite manifest-contract`
+11. `./7w_wiki.py test --suite source-tree-contract`
+12. `./7w_wiki.py test --suite legacy-doc-contract`
+13. `./7w_wiki.py test --suite asset-surface-contract`
+14. `./7w_wiki.py test --suite tool-manifest-contract`
+15. `./7w_wiki.py test --suite pages-link-contract`
+16. `./7w_wiki.py test --suite source-link-hygiene`
+17. `./7w_wiki.py test --suite process-dispatch-curiosity`
+18. `./7w_wiki.py test --suite bridge-placeholder-guard`
+19. `./7w_wiki.py test --suite reader-stats-contract`
+20. Optional Gesamtlauf: `./7w_wiki.py test --suite all` (stabiler Standardlauf ohne RAG-Smoke)
+21. Optional Oracle-Diagnose: `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`
 
 Defect-Regel:
 
@@ -140,11 +154,11 @@ Referenz: `System/Synapse_Board/SY_TESTING.md`
 
 Regel: Bei relevanten Lore-Entscheidungen immer Homepage und Quellen gegenpruefen; `wiki` ist die abgeleitete Seitenebene. `all` ist ein Arbeitsabgleich, kein Override der Praezedenz.
 
-## Codex-Workflow-Bridges
+## Adapter Surfaces
 
-Codex bekommt workflow-nahe Einstiegspunkte ueber generierte Wrapper in `.agents/skills/`.
+Codex bekommt workflow-nahe Einstiegspunkte ueber generierte Adapter-Skills in `.agents/skills/`.
 
-Aktuelle Wrapper:
+Aktuelle Schwerpunkt-Adapter:
 - `session_start`
 - `session_takeover`
 - `session_handover`
@@ -157,10 +171,11 @@ Discovery-Split:
 - `/forum_search` ist der dedizierte Betriebsweg fuer neue ingestierbare Forenquellen.
 
 Maintainer-Regel:
-- Workflow-Bridges werden nicht manuell gepflegt.
-- Quelle der Wahrheit sind die `Interop-Status`-Metadaten in `.agent/workflows/*.md`.
-- Regeneration erfolgt ueber `./7w_wiki.py tech --sync-bridges` oder `./7w_wiki.py tech --sync-interop`.
-- Diese Syncs muessen Schreibzugriff auf `.agents/skills/` haben, da neue Bridge-Verzeichnisse dort erzeugt werden.
+- Adapter-Skills werden nicht manuell gepflegt.
+- Quelle der Wahrheit ist der kanonische Katalog in `.agent/catalog/catalog.v1.json`.
+- Regeneration erfolgt ueber `./7w_wiki.py tech --sync-surfaces` oder den Vollabgleich `./7w_wiki.py tech --sync-interop`.
+- Das Kompatibilitaetsmanifest `lore_manifest.json` wird aus demselben Kanon erzeugt und im Vollabgleich mitgeschrieben.
+- `./7w_wiki.py tech --sync-bridges` bleibt nur als deprecated Alias fuer alte Runbooks bestehen.
 
 ## Dispatch-Betriebsmodell
 
@@ -249,6 +264,7 @@ Reihenfolge bei Oracle:
 5. **Lokales Packaging**: Entwickler erzeugen Bundles ueber `./7w_wiki.py package ...`; der Standard-Ausgabeort `dist/` bleibt ein Runtime-/Release-Artefakt und wird nicht versioniert.
 6. Der `/tech_master`-Workflow ist die Pflichtstrecke fuer Doku-Paritaet, Runtime-Sync und Release-Hygiene.
 7. `advisor` muss Pages-Freshness (`pages_health`, `last_sync_interop_at`) sichtbar machen, damit veraltete Tech-Hygiene frueh auffaellt.
+8. `docs/assets/` ist die Live-Asset-Flaeche; `System/Design_Assets/` ist historischer Quellbestand, kein primaerer Publikationspfad.
 
 ## Verweise
 

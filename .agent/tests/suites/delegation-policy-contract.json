@@ -1,0 +1,53 @@
+{
+  "suite": "delegation-policy-contract",
+  "description": "Guard the canonical delegation policy and Codex thread limit configuration.",
+  "cases": [
+    {
+      "id": "delegation-policy-shape",
+      "name": "Delegation policy includes the required limits, task classes, and profiles",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/config/delegation_policy.json",
+          "must_include_regex": [
+            "\"max_concurrent_subagents\": 2",
+            "\"default_reasoning_effort\": \"low\"",
+            "\"forbid_default_xhigh\": true",
+            "\"read_survey\"",
+            "\"search_inventory\"",
+            "\"doc_summary\"",
+            "\"verification_pass\"",
+            "\"test_repro\"",
+            "\"bounded_code_change\"",
+            "\"survey_low\"",
+            "\"verify_low\"",
+            "\"code_bounded_low\"",
+            "\"code_bounded_medium\"",
+            "\"model\": \"gpt-5\\.3-codex\""
+          ]
+        },
+        {
+          "file": ".codex/config.toml",
+          "must_include_regex": [
+            "\\[agents\\]",
+            "max_threads = 2",
+            "\\[mcp_servers\\.siebenwind-wiki\\]",
+            "command = \"python3\"",
+            "\\[\\[skills\\.config\\]\\]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-default-xhigh",
+      "name": "Delegation policy and Codex project config do not default to xhigh reasoning",
+      "pattern_check_globs": [
+        ".agent/config/delegation_policy.json",
+        ".codex/config.toml"
+      ],
+      "forbid_regex": [
+        "\"reasoning_effort\": \"xhigh\"",
+        "model_reasoning_effort = \"xhigh\""
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "suite": "catalog-contract",
+  "description": "Guard the canonical agent catalog, schema, and mandatory top-level sections.",
+  "cases": [
+    {
+      "id": "sync-catalog-command",
+      "name": "Catalog sync command succeeds",
+      "cmd": ["./7w_wiki.py", "tech", "--sync-catalog"],
+      "expect_exit": 0,
+      "expect_stdout": [
+        "Regenerating canonical agent catalog...",
+        "Wrote .agent/catalog/catalog.v1.json"
+      ]
+    },
+    {
+      "id": "catalog-schema-and-sections",
+      "name": "Catalog schema and generated catalog expose required sections",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/catalog/catalog.v1.schema.json",
+          "must_include_regex": [
+            "\"title\": \"Siebenwind Agent Catalog v1\"",
+            "\"required\": \\[",
+            "\"runtime\"",
+            "\"agents\"",
+            "\"skills\"",
+            "\"workflows\"",
+            "\"delegation\"",
+            "\"surfaces\""
+          ]
+        },
+        {
+          "file": ".agent/catalog/catalog.v1.json",
+          "must_include_regex": [
+            "\"version\": \"catalog.v1\"",
+            "\"runtime\": \\{",
+            "\"agents\": \\[",
+            "\"skills\": \\[",
+            "\"workflows\": \\[",
+            "\"delegation\": \\{",
+            "\"surfaces\": \\{",
+            "\"id\": \"start\"",
+            "\"id\": \"oracle\"",
+            "\"id\": \"historian\""
+          ]
+        }
+      ]
+    }
+  ]
+}

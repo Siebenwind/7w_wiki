@@ -1,0 +1,221 @@
+{
+  "generated_at": "2026-04-09T13:36:05Z",
+  "entries": [
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-01_144454.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-01_144454.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-01_144458.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-01_144458.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-01_144709.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-01_144709.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_155049.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_155049.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_155101.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_155101.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_155329.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_155329.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_163144.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_163144.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_163356.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_163356.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_165154.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_165154.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_165323.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_165323.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_165420.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_165420.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_165516.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_165516.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_165605.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_165605.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_172340.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_172340.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_172356.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_172356.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_172620.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_172620.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_183302.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_183302.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_183314.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_183314.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_183318.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_183318.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-03_183544.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-03_183544.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_144253.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_144253.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_145845.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_145845.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_145848.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_145848.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_150110.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_150110.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_151605.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_151605.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_160603.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_160603.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_160607.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_160607.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_160821.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_160821.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_162355.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_162355.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_163034.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_163034.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_175425.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_175425.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_201612.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_201612.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_201627.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_201627.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_201939.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_201939.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_203113.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_203113.json",
+      "family": "wiki_inventory_history"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-04-08_204953.json",
+      "cold_path": ".agent/data/cold/wiki_inventory_history/2026-04/wiki_inventory_2026-04-08_204953.json",
+      "family": "wiki_inventory_history"
+    }
+  ]
+}

@@ -17,9 +17,9 @@
         {
           "file": ".agents/skills/stats/SKILL.md",
           "must_include_regex": [
-            "Skill: Stats",
+            "Codex Skill: Stats",
             "\\./7w_wiki\\.py stats",
-            "reader-facing status page",
+            "reader-facing and machine-readable",
             "STATS_SNAPSHOT_latest\\.json"
           ]
         }

@@ -1,15 +1,28 @@
 ---
-name: Das Orakel (Semantische Suche) Bridge
-description: Auto-generated external visibility bridge for Das Orakel (Semantische Suche).
+name: Das Orakel (Semantische Suche)
+description: Lokale Vektorsuche (RAG) über das gesamte Siebenwind-Wissen. Nutzt jina-embeddings-v3 für Embedding und bge-reranker-v2-m3 für Re-Ranking.
 ---
 
-# Skill: Das Orakel (Semantische Suche) (External Bridge)
-> **Wrapper for**: `.agent/skills/oracle/SKILL.md`
+# Codex Skill: Das Orakel (Semantische Suche)
 
-This is an auto-generated bridge file. Its sole purpose is to make the internal skill capabilities discoverable to external agents (like Jules, Claude, or Gemini).
+> **Canonical skill**: `.agent/skills/oracle/SKILL.md`
+> **Marker**: Generated Codex adapter skill. Do not edit manually.
 
-## ⚠️ Mandatory Usage Instruction
-To understand the actual capabilities, constraints, and runtime commands for this skill, **you MUST explicitly read the internal target file**: 
-`.agent/skills/oracle/SKILL.md`
+This adapter is generated from the canonical catalog. Runtime execution stays on `./7w_wiki.py`; `.agent/` remains the source of truth.
 
-Do not attempt to guess the functionality based on this bridge file.
+## Primary Runtime Command
+`./7w_wiki.py search <query> [remaining...]`
+
+## Follow-up Commands
+- `./7w_wiki.py search <query> --source all`
+- `./7w_wiki.py index --status`
+
+## Instructions
+- Use this adapter for semantic search across wiki pages and source material.
+- Set --source deliberately so the result set matches the epistemic layer you are checking.
+- Check index status before assuming search quality problems are content problems.
+
+## References
+- `.agent/skills/oracle/SKILL.md`
+- `.agent/skills/oracle/search.py`
+- `.agent/skills/oracle/build_index.py`

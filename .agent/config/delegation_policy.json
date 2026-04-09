@@ -1,0 +1,79 @@
+{
+  "enabled": true,
+  "max_concurrent_subagents": 2,
+  "default_reasoning_effort": "low",
+  "forbid_default_xhigh": true,
+  "task_classes": {
+    "read_survey": {
+      "write_allowed": false,
+      "parallel_safe": true,
+      "allowed_profiles": [
+        "survey_low"
+      ],
+      "required_output": "short evidence-backed summary"
+    },
+    "search_inventory": {
+      "write_allowed": false,
+      "parallel_safe": true,
+      "allowed_profiles": [
+        "survey_low"
+      ],
+      "required_output": "bounded inventory with paths and findings"
+    },
+    "doc_summary": {
+      "write_allowed": false,
+      "parallel_safe": true,
+      "allowed_profiles": [
+        "survey_low"
+      ],
+      "required_output": "summary with citations to local sources"
+    },
+    "verification_pass": {
+      "write_allowed": false,
+      "parallel_safe": true,
+      "allowed_profiles": [
+        "verify_low"
+      ],
+      "required_output": "pass/fail verification notes"
+    },
+    "test_repro": {
+      "write_allowed": false,
+      "parallel_safe": true,
+      "allowed_profiles": [
+        "verify_low"
+      ],
+      "required_output": "reproduction steps and failing command"
+    },
+    "bounded_code_change": {
+      "write_allowed": true,
+      "parallel_safe": false,
+      "allowed_profiles": [
+        "code_bounded_low",
+        "code_bounded_medium"
+      ],
+      "required_output": "bounded patch within declared file scope"
+    }
+  },
+  "profiles": {
+    "survey_low": {
+      "model": "gpt-5.4-mini",
+      "reasoning_effort": "low",
+      "permissions": "read-only"
+    },
+    "verify_low": {
+      "model": "gpt-5.4-mini",
+      "reasoning_effort": "low",
+      "permissions": "read-only"
+    },
+    "code_bounded_low": {
+      "model": "gpt-5.3-codex",
+      "reasoning_effort": "low",
+      "permissions": "bounded-write"
+    },
+    "code_bounded_medium": {
+      "model": "gpt-5.3-codex",
+      "reasoning_effort": "medium",
+      "permissions": "bounded-write"
+    }
+  }
+}

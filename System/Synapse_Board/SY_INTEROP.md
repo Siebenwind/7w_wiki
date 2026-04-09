@@ -17,6 +17,7 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
 2. welche Kommandos tatsaechlich ausfuehrbar sind,
 3. welche Boards als verbindliche Kommunikationspfade gelten.
 4. wie technischer Drift von epistemischem Drift getrennt wird.
+5. welche Repo-Bereiche heiss, kalt, lokal oder reine Build-Ausgabe sind.
 
 <!-- BEGIN GENERATED DRIFT CONTRACT REFERENCE -->
 > Generated reference block. The surrounding narrative text remains manually maintained.
@@ -60,7 +61,14 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
   - `method_only:` (nur Prozessbeschreibung)
   - optional `method_hints_non_runtime:` (Host-Tooling/Hilfsmethoden, klar als nicht-runtime markiert)
 - `method_hints_non_runtime` darf **niemals** als Ersatz fuer `runtime_commands` verwendet werden.
-- Workflow-Bridges fuer Codex werden zusaetzlich ueber Metadaten im `Interop-Status` erzeugt; diese duerfen Runtime-Semantik nicht eigenmaechtig ueberschreiben.
+- Adapter-Surfaces fuer Codex, MCP und Discovery werden aus dem kanonischen Katalog erzeugt; diese duerfen Runtime-Semantik nicht eigenmaechtig ueberschreiben.
+
+## Norm 2b: Heiss/Kalt-Klassifikation
+- **Canonical hot**: aktive Docs, Governance, Runtime-Metadaten, Katalog, MCP/Codex-Adapter und eine kleine Menge aktueller Maschinen-Snapshots.
+- **Versioned cold**: historische Reports, alte Snapshot-Familien und Alt-Konzeptmaterial, das in Git erhalten bleibt, aber die aktive Arbeit nicht dominieren soll.
+- **Local runtime**: Caches, venvs, Modelle, Vektordatenbanken und Scratch-State; diese gelten als regenerierbar.
+- **Build output**: `site/`, `dist/` und aehnliche Artefakte sind generierte Ausgaben, nie Quelldaten.
+- Der kanonische Operator-Einstieg fuer diese Klassifikation ist `./7w_wiki.py tech --repo-hygiene [--apply] [--json]`.
 
 ## Norm 3: Command Registry (Single Source)
 Die operative Kommandoliste lautet aktuell:
@@ -147,11 +155,21 @@ Nicht existente, aber als Pflicht benannte Dateien sind als **interop blocker** 
 - Veraltete Skripte sind nach `.agent/scripts/_archive/` zu verschieben, nicht zu loeschen.
 - Sonderfall `scout`: Die Discovery-Prominenz ist eine bewusste Produktentscheidung, aber der Backend-Pfad bleibt trotzdem `.agent/scripts/forum_scanner.py`.
 
-## Norm 9: Codex-Workflow-Bridges
-- Codex bekommt keine repo-definierten Slash-Kommandos.
-- Stattdessen werden ausgewaehlte Workflows als duenne Wrapper in `.agents/skills/` gespiegelt.
-- Diese Wrapper muessen auf `.agent/workflows/...` verweisen und duerfen Runtime-Ausfuehrung nur ueber `./7w_wiki.py` beschreiben.
+## Norm 9: Canonical Core + Adapter Surfaces
+- `.agent/` plus `./7w_wiki.py` bilden den kanonischen Kern.
+- MCP ist die kanonische Live-Schnittstelle fuer externe Agenten und IDEs.
+- Codex bekommt keine repo-definierten Slash-Kommandos; stattdessen werden `.agents/skills/` und `.codex/config.toml` als abgeleitete Adapterflaeche gepflegt.
+- `.agent/catalog/catalog.v1.json` ist die neutrale Discovery-Oberflaeche fuer Adapter und Tools.
+- `lore_manifest.json` bleibt als generierte, AI-agnostische Kompatibilitaetsflaeche erhalten und darf nicht eigenmaechtig von Katalog oder CLI abweichen.
+- `docs/.well-known/agent.json` ist die Discovery-only Vorbereitung fuer spaetere A2A-Anbindung.
 - `/scout` bleibt der promoted Umbrella-Einstieg; `/forum_search` ist der spezialisierte, forum-fokussierte Arbeitsweg.
+
+## Norm 9b: Tree- und Asset-Kanon
+- `docs/Siebenwind_Wiki/` ist der einzige aktive technische Wiki-Baum.
+- Das Wurzelverzeichnis `Siebenwind_Wiki/` ist nur noch ein vestigialer Kompatibilitaetsrest und kein normaler Edit-Pfad.
+- `docs/assets/` ist die kanonische Live-Asset-Oberflaeche fuer publizierte Styles, Banner und statische Medien.
+- `System/Design_Assets/` ist der historische bzw. quellseitige Design-Archivbereich.
+- Top-Level-`assets/` ist kein aktiver Arbeitsort mehr.
 
 ## Compliance-Checks
 Bei jedem groesseren Update:
@@ -161,7 +179,7 @@ Bei jedem groesseren Update:
 4. Interop-Testlauf ausfuehren (`./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-doc-links`, optional RAG-Diagnose nur explizit via `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`).
 5. Pages-Contract pruefen (`./7w_wiki.py test --suite pages-link-contract`).
 6. Bridge-Guard pruefen (`./7w_wiki.py test --suite bridge-placeholder-guard`).
-7. Codex-Workflow-Bridge-Guard pruefen (`./7w_wiki.py test --suite codex-workflow-bridges`).
+7. Catalog-, Adapter- und Delegation-Guards pruefen (`./7w_wiki.py test --suite catalog-contract`, `adapter-surfaces-contract`, `delegation-policy-contract`).
 8. Reader-Stats-Guard pruefen (`./7w_wiki.py test --suite reader-stats-contract`).
 9. Content-Contract-Guards pruefen (`./7w_wiki.py test --suite content-contract`, `split-brain-guard`, `render-hygiene`).
 10. Bei lore-relevanten Aenderungen dokumentieren, dass Homepage/Quellen gegen den Wiki-Edit-Baum abgeglichen wurden und dass der Drift-/Pages-Vertrag eingehalten wurde.

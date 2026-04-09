@@ -1,39 +1,90 @@
 {
-    "project": "Siebenwind Lore Engine",
-    "version": "2.1.0",
-    "philosophy": "AI-Agnostic Lore Intelligence",
-    "lore": {
-        "world_name": "Siebenwind",
-        "chronology": "Sonnenzirkel",
-        "tone": "immersiv, historisch",
-        "directories": {
-            "wiki": "docs/Siebenwind_Wiki",
-            "sources": "Quellen"
-        }
-    },
-    "interface": {
-        "cli": "./7w.py",
-        "commands": [
-            "search",
-            "stats",
-            "repair",
-            "audit",
-            "index"
-        ]
-    },
-    "capabilities": {
-        "rag": "Oracle (jina-embeddings-v3 / ChromaDB)",
-        "verification": "Epistemic System (#canon, #bote, #perspektive, #überlieferung)",
-        "audit": "Redundancy and Orphan detection"
-    },
-    "structure": {
-        "wiki_root": "docs/Siebenwind_Wiki/",
-        "sources_root": "Quellen/",
-        "agent_configs": ".agent/"
-    },
-    "docs": {
-        "changelog": "CHANGELOG.md",
-        "task_list": "MASTER_TASK_LIST.md",
-        "stats": "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md"
+  "schema_version": "lore-manifest.v3",
+  "generated_at": "2026-04-09T13:37:03Z",
+  "generated_from": ".agent/catalog/catalog.v1.json",
+  "project": "Siebenwind Lore Engine",
+  "version": "3.0",
+  "philosophy": "AI-Agnostic Lore Intelligence",
+  "lore": {
+    "world_name": "Siebenwind",
+    "chronology": "Sonnenzirkel",
+    "tone": "immersiv, historisch",
+    "directories": {
+      "wiki": "docs/Siebenwind_Wiki",
+      "sources": "Quellen"
     }
+  },
+  "interface": {
+    "cli": "./7w_wiki.py",
+    "commands": [
+      "start",
+      "advisor",
+      "mail",
+      "search",
+      "audit",
+      "repair",
+      "stats",
+      "pages",
+      "tech",
+      "mcp",
+      "antigravity",
+      "archive",
+      "check",
+      "handover",
+      "historian",
+      "index",
+      "index-pages",
+      "ingest",
+      "inquisition",
+      "leitpunkt",
+      "lint",
+      "package",
+      "sanitize",
+      "score",
+      "scout",
+      "takeover",
+      "test",
+      "translate",
+      "version",
+      "watch"
+    ],
+    "machine_surfaces": {
+      "catalog": ".agent/catalog/catalog.v1.json",
+      "tools_manifest": ".agent/config/tools.json",
+      "mcp_config": "mcp_config.json"
+    }
+  },
+  "compatibility": {
+    "legacy_cli_aliases": [
+      "./7w.py"
+    ],
+    "root_wiki_tree": "Siebenwind_Wiki",
+    "note": "The root wiki tree survives only as a compatibility remnant; docs/Siebenwind_Wiki is the canonical technical tree."
+  },
+  "capabilities": {
+    "rag": "Oracle (semantic search with explicit source scope)",
+    "verification": "Homepage > Quellen > Wiki Pages precedence with historian escalation",
+    "audit": "Consistency, pages, and interop diagnostics",
+    "interop": "MCP runtime plus generated Codex adapter skills"
+  },
+  "structure": {
+    "technical_wiki_root": "docs/Siebenwind_Wiki/",
+    "legacy_wiki_root": "Siebenwind_Wiki/",
+    "sources_root": "Quellen/",
+    "agent_core": ".agent/",
+    "catalog": ".agent/catalog/",
+    "codex_adapter": ".agents/skills/",
+    "codex_config": ".codex/config.toml",
+    "mcp_server": "System/MCP/server.py",
+    "published_assets": "docs/assets/",
+    "historical_design_assets": "System/Design_Assets/"
+  },
+  "docs": {
+    "changelog": "CHANGELOG.md",
+    "task_list": "MASTER_TASK_LIST.md",
+    "stats": "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md",
+    "architecture": "docs/architecture.md",
+    "interop": "System/Synapse_Board/SY_INTEROP.md",
+    "ops_handbook": "System/AGENT_OPERATIONS_HANDBOOK.md"
+  }
 }

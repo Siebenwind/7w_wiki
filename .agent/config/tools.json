@@ -958,9 +958,25 @@
             "type": "boolean",
             "description": "Regenerate the workflow interop matrix"
           },
+          "sync_catalog": {
+            "type": "boolean",
+            "description": "Regenerate the canonical agent catalog"
+          },
+          "sync_codex_skills": {
+            "type": "boolean",
+            "description": "Regenerate Codex adapter skills from the canonical catalog"
+          },
+          "sync_a2a": {
+            "type": "boolean",
+            "description": "Regenerate the discovery-only agent card"
+          },
+          "sync_surfaces": {
+            "type": "boolean",
+            "description": "Run catalog, Codex adapter, and A2A sync"
+          },
           "sync_bridges": {
             "type": "boolean",
-            "description": "Regenerate external bridge skills"
+            "description": "Deprecated alias for --sync-codex-skills"
           },
           "sync_docs": {
             "type": "boolean",
@@ -968,7 +984,19 @@
           },
           "sync_interop": {
             "type": "boolean",
-            "description": "Run matrix, doc, bridge, and manifest sync"
+            "description": "Run matrix, docs, catalog, adapter, A2A, and manifest sync"
+          },
+          "repo_hygiene": {
+            "type": "boolean",
+            "description": "Classify hot/cold/runtime/build paths and optionally apply conservative cleanup"
+          },
+          "apply": {
+            "type": "boolean",
+            "description": "Used with --repo-hygiene to apply approved cleanup actions"
+          },
+          "json": {
+            "type": "boolean",
+            "description": "Used with --repo-hygiene to emit machine-readable output"
           }
         },
         "required": []
@@ -1013,7 +1041,7 @@
     "type": "function",
     "function": {
       "name": "cli_antigravity",
-      "description": "Show the core default workflow hub.",
+      "description": "Deprecated alias for start workflow overview.",
       "parameters": {
         "type": "object",
         "properties": {},

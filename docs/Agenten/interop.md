@@ -1,21 +1,31 @@
 # Interop-Leitlinien
 
-Ziel: Einheitliches Verhalten zwischen Codex, Gemini CLI und Antigravity bei unveraenderter Runtime-Oberflaeche.
+Ziel: Einheitliches Verhalten zwischen Codex und anderen MCP-faehigen IDEs/CLIs bei unveraenderter Runtime-Oberflaeche.
 
 ## Kernregeln
 
 1. Runtime authority: Ausfuehrung nur ueber `./7w_wiki.py`.
 2. Orchestrierung bleibt in `.agent/` autoritativ.
-3. Externe Discoverability fuer Codex/Jules ueber `.agents/skills/` als duenne Wrapper.
-4. Keine Semantik-Aenderung von Workflows ohne dokumentierte Governance-Entscheidung.
+3. Externe Discoverability folgt einem Layer-Modell: MCP ist die Live-Schnittstelle, `.agents/skills/` plus `.codex/config.toml` sind der Codex-Adapter.
+4. `lore_manifest.json` bleibt als generierte AI-agnostische Kompatibilitaetsflaeche erhalten.
+5. Keine Semantik-Aenderung von Workflows ohne dokumentierte Governance-Entscheidung.
 
-## Codex-Modell
+## Layer-Modell
 
-- Antigravity: workflow-native UX.
-- Codex: discoverbare Workflow- und Skill-Bridges in `.agents/skills/`.
-- Runtime: weiterhin ausschliesslich `./7w_wiki.py`.
+- Kanonischer Kern: `.agent/` + `./7w_wiki.py`
+- Offene Laufzeitoberflaeche: MCP
+- Kompatibilitaetsmanifest: `lore_manifest.json`
+- Codex-Adapter: `.agents/skills/` + `.codex/config.toml`
+- Discovery-only Zukunftsflaeche: `docs/.well-known/agent.json`
 
-Codex bekommt keine repo-definierten Slash-Kommandos. Stattdessen verweisen die generierten Workflow-Bridges auf die autoritativen Workflows in `.agent/workflows/` und auf die korrekten CLI-Kommandos.
+Codex bekommt keine repo-definierten Slash-Kommandos. Stattdessen verweisen die generierten Adapter-Skills auf die autoritativen Workflows und Skills in `.agent/` und auf die korrekten CLI-Kommandos.
+
+## Repo-Hygiene
+
+- `docs/Siebenwind_Wiki/` ist der einzige aktive technische Wiki-Baum.
+- `docs/assets/` ist die Live-Asset-Surface fuer publizierte Artefakte.
+- Historische Evidenz und Snapshot-Familien werden ueber `./7w_wiki.py tech --repo-hygiene [--apply] [--json]` in kalte Buckets verschoben.
+- Build-Ausgaben (`site/`, `dist/`) und Laufzeitmassen (Caches, Modelle, venvs) sind keine Repo-Wahrheit.
 
 ## Pflichtchecks
 
@@ -23,10 +33,12 @@ Codex bekommt keine repo-definierten Slash-Kommandos. Stattdessen verweisen die 
 ./7w_wiki.py test --suite clean-client-state
 ./7w_wiki.py test --suite takeover-handover
 ./7w_wiki.py test --suite interop-doc-links
+./7w_wiki.py test --suite repo-hygiene-contract
+./7w_wiki.py test --suite manifest-contract
 ./7w_wiki.py audit
 ```
 
-## Codex-Workflow-Bridges
+## Codex-Adapter
 
 Aktuelle Einstiegspunkte:
 
@@ -36,6 +48,8 @@ Aktuelle Einstiegspunkte:
 - `workflow_tech_master`
 - `workflow_test_run`
 - `workflow_forum_search`
+
+Antigravity bleibt nur noch als deprecated CLI-Alias zu `/start` erhalten.
 
 Forum-Discovery bleibt zweistufig:
 

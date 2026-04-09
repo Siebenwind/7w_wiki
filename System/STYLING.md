@@ -28,12 +28,15 @@ Das Wiki ist ein **Spezialisten-Werkzeug**, keine immersive Rollenspieldarstellu
 | `docs/Siebenwind_Wiki/` | Technischer Edit- und Publishing-Baum fuer Wiki-Pages. Wird von mkdocs direkt als Content-Quelle verwendet. | ✅ Ja |
 | `Quellen/` | Rohquellen (Boten, Spielergeschichten, Bibliothek). Wird per CI in `docs/Quellen/` kopiert. | ✅ Ja |
 | `docs/` | mkdocs `docs_dir` — enthält Wiki, Quellen-Kopie, Archiv und Meta-Seiten. | ✅ Ja |
+| `docs/assets/` | Live publizierte Styles, Banner und statische Medien fuer Pages und Leseroberflaeche. | ✅ Ja |
+| `System/Design_Assets/` | Historische oder rohe Designquellen; kein produktiver Publishing-Pfad. | ✅ Ja |
 
 > **Historischer Hinweis (2026-03):** Bis Phase B der Projektreinigung existierte ein zweites `Siebenwind_Wiki/` im Wurzelverzeichnis. Die ursprüngliche Architektur nutzte Symlinks (`docs/Siebenwind_Wiki → ../Siebenwind_Wiki`), was aber mit mkdocs inkompatibel war (mkdocs folgt keinen Directory-Symlinks). `docs/Siebenwind_Wiki/` ist nun der einzige technische Pflegeort fuer Wiki-Pages; epistemische Praezedenz bleibt `Homepage > Quellen > Wiki Pages`.
 
 ### 🔄 CI/CD-Pipeline (`deploy.yml`)
 - **Quellen-Sync:** `Quellen/` wird vor jedem Build physisch nach `docs/Quellen/` kopiert, da die Quellen außerhalb von `docs/` gepflegt werden.
 - **Wiki-Inhalte:** Direkt in `docs/Siebenwind_Wiki/` editiert — kein Sync nötig.
+- **Asset-Kanon:** `docs/assets/` ist die kanonische Live-Asset-Flaeche; `System/Design_Assets/` beherbergt historische oder rohe Designquellen.
 - **Symlinks:** `CHANGELOG.md`, `LICENSE.md` und `MASTER_TASK_LIST.md` in `docs/` sind Datei-Symlinks auf ihre Pendants im Wurzelverzeichnis. Git und mkdocs unterstützen Datei-Symlinks korrekt.
 
 ### 📜 Skript-Verzeichnis
@@ -77,4 +80,4 @@ Der Footer muss zwingend folgende Information enthalten:
 *Hinweis: Der Code steht unter MIT (LeCorbeau), die Inhalte unter CC BY-NC-SA 4.0 (Gemeinschaft).*
 
 ---
-*Zuletzt aktualisiert: 15.02.2026 durch Antigravity (Standard v2.8)*
+*Zuletzt aktualisiert: 09.04.2026 | Cleanup- und Interop-Welle*

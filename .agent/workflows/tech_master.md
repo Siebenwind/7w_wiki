@@ -31,22 +31,30 @@ Dieses Department ist das Revier des **Netz-Ingenieurs**. Es ist zuständig für
   - `7w_wiki.py repair --apply-lane1 [--auto] [--dry-run] [--json]`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py mail post --from Technician --to <agent|ALL> --subject "<text>" --body "<text>"`
+  - `7w_wiki.py tech --sync-catalog`
+  - `7w_wiki.py tech --sync-codex-skills`
+  - `7w_wiki.py tech --sync-a2a`
+  - `7w_wiki.py tech --sync-surfaces`
   - `7w_wiki.py tech --sync-matrix`
-  - `7w_wiki.py tech --sync-bridges`
   - `7w_wiki.py tech --sync-docs`
   - `7w_wiki.py tech --sync-interop`
+  - `7w_wiki.py tech --repo-hygiene [--apply] [--json]`
+  - `7w_wiki.py tech --sync-bridges`
   - `7w_wiki.py tech --manifest`
 - method_only:
   - `/tech_master`
 - interop_note: Department workflow for runtime-authoritative maintenance; helper scripts are implementation detail behind `7w_wiki.py tech`.
-- codex_bridge_name: workflow_tech_master
-- codex_bridge_enabled: true
-- codex_bridge_summary: Codex bridge for the technician maintenance loop and interop sync path.
-- codex_bridge_primary_command: `7w_wiki.py tech`
-- codex_bridge_followups:
+- catalog_id: `workflow.tech_master`
+- primary_command: `7w_wiki.py tech --sync-surfaces`
+- followup_commands:
   - `7w_wiki.py tech --sync-interop`
   - `7w_wiki.py pages validate --json`
   - `7w_wiki.py audit --pages`
+- adapter_targets:
+  - `codex:workflow_tech_master`
+  - `mcp:prompt/tech_master`
+- deprecated_aliases:
+  - `7w_wiki.py tech --sync-bridges`
 
 ## 1. Identität & Fokus
 Du bist der **Netz-Ingenieur**. Deine Welt ist der *Code*, nicht die *Lore*.
@@ -62,12 +70,16 @@ Führe bei Leerlauf diese Wartungsschritte durch, um Struktur und Dokumentation 
    - `./7w_wiki.py sanitize --auto` (Struktur normalisieren)
    - `./7w_wiki.py audit` (Global-Check)
    - `./7w_wiki.py audit --pages` (Docs-/Roamlinks-Lagebild)
-2. **Matrix & Bridge Update (Doku-Synchronisation):**
+2. **Matrix & Surface Update (Doku-Synchronisation):**
    - Falls neue Workflows hinzugekommen sind: `./7w_wiki.py tech --sync-matrix`
-   - Falls neue Skills hinzugekommen sind: `./7w_wiki.py tech --sync-bridges`
-   - Falls neue Codex-Workflow-Bridges hinzugekommen sind: ebenfalls `./7w_wiki.py tech --sync-bridges`
+   - Falls der kanonische Katalog driftet: `./7w_wiki.py tech --sync-catalog`
+   - Falls Codex-Adapter oder `.agents/skills/` driftet: `./7w_wiki.py tech --sync-codex-skills`
+   - Falls die Discovery-Metadaten unter `docs/.well-known/` driftet: `./7w_wiki.py tech --sync-a2a`
+   - Fuer den kompletten Adapterabgleich: `./7w_wiki.py tech --sync-surfaces`
+   - `./7w_wiki.py tech --sync-bridges` bleibt nur als deprecated Alias fuer alte Runbooks bestehen.
    - Falls Runtime-Dokumentation driftet: `./7w_wiki.py tech --sync-docs`
    - Fuer Komplettabgleich: `./7w_wiki.py tech --sync-interop`
+   - Fuer konservative Hot/Cold-Bereinigung und Retention: `./7w_wiki.py tech --repo-hygiene [--apply] [--json]`
    - Bundles fuer Entwickler lokal nur ueber `./7w_wiki.py package ...` bauen; `dist/` bleibt Runtime-Artefakt und wird nicht committed.
 3. **Dokumentations-Tests:**
    - `./7w_wiki.py test --suite interop-doc-links`

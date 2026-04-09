@@ -15,14 +15,16 @@ description: Zentraler Startpunkt & Entscheidungshilfe für neue Agenten
   - `7w_wiki.py archive sync`
 - method_only:
 - interop_note: `7w_wiki.py start` shows the workflow by default; `--run` executes the checklist; `--resume` resumes workflow state.
-- codex_bridge_name: session_start
-- codex_bridge_enabled: true
-- codex_bridge_summary: Codex kickoff wrapper for the standard onboarding loop.
-- codex_bridge_primary_command: `7w_wiki.py start`
-- codex_bridge_followups:
+- catalog_id: `workflow.start`
+- primary_command: `7w_wiki.py start`
+- followup_commands:
   - `7w_wiki.py advisor --json`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py test --suite clean-client-state`
+- adapter_targets:
+  - `codex:session_start`
+  - `mcp:prompt/start`
+- deprecated_aliases:
 
 Willkommen, Oberarchivar. Du stehst vor dem gewaltigen Wissen von 20 Jahren Siebenwind. Dieser Workflow hilft dir, dich zu orientieren und die nächsten Schritte zu wählen.
 

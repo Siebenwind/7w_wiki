@@ -18,7 +18,7 @@ CHRONOLOGY = lore.get("chronology", "Sonnenzirkel")
 TONE = lore.get("tone", "immersiv, historisch")
 
 directories = lore.get("directories", {})
-WIKI_DIR_NAME = directories.get("wiki", "Siebenwind_Wiki")
+WIKI_DIR_NAME = directories.get("wiki", "docs/Siebenwind_Wiki")
 SOURCES_DIR_NAME = directories.get("sources", "Quellen")
 
 WIKI_DIR = REPO_ROOT / WIKI_DIR_NAME

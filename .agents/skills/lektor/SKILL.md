@@ -1,15 +1,25 @@
 ---
-name: Der Lektor (Qualitätssicherung) Bridge
-description: Auto-generated external visibility bridge for Der Lektor (Qualitätssicherung).
+name: Der Lektor (Qualitätssicherung)
+description: Automatisierte Prüfung von Stil, Grammatik und Markdown-Formatierung für konsistente "Siebenwind Voice".
 ---
 
-# Skill: Der Lektor (Qualitätssicherung) (External Bridge)
-> **Wrapper for**: `.agent/skills/lektor/SKILL.md`
+# Codex Skill: Der Lektor (Qualitätssicherung)
 
-This is an auto-generated bridge file. Its sole purpose is to make the internal skill capabilities discoverable to external agents (like Jules, Claude, or Gemini).
+> **Canonical skill**: `.agent/skills/lektor/SKILL.md`
+> **Marker**: Generated Codex adapter skill. Do not edit manually.
 
-## ⚠️ Mandatory Usage Instruction
-To understand the actual capabilities, constraints, and runtime commands for this skill, **you MUST explicitly read the internal target file**: 
-`.agent/skills/lektor/SKILL.md`
+This adapter is generated from the canonical catalog. Runtime execution stays on `./7w_wiki.py`; `.agent/` remains the source of truth.
 
-Do not attempt to guess the functionality based on this bridge file.
+## Primary Runtime Command
+`./7w_wiki.py check [path]`
+
+## Follow-up Commands
+- `./7w_wiki.py lint [target]`
+
+## Instructions
+- Use this adapter for style, grammar, and markdown hygiene checks.
+- Run check first on the narrow target; escalate to lint when broader repo coverage is needed.
+- Treat findings as quality gates before final publication or handoff.
+
+## References
+- `.agent/skills/lektor/SKILL.md`

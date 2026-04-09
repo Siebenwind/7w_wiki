@@ -26,14 +26,16 @@ Du bist der **Oberarchivar von Siebenwind**. Dein Ziel ist die Pflege und Erweit
   - `7w_wiki.py pages validate --json [--strict-links]`
 - method_only:
 - interop_note: `7w_wiki.py handover` shows the workflow by default; `--run` executes the checklist; `--resume` resumes workflow state.
-- codex_bridge_name: session_handover
-- codex_bridge_enabled: true
-- codex_bridge_summary: Codex bridge for closing a session and preparing the next agent handoff.
-- codex_bridge_primary_command: `7w_wiki.py handover`
-- codex_bridge_followups:
+- catalog_id: `workflow.handover`
+- primary_command: `7w_wiki.py handover`
+- followup_commands:
   - `7w_wiki.py test --suite all`
   - `7w_wiki.py stats`
   - `7w_wiki.py mail post --from Oberarchivar --to Coordinator --subject "<abschluss>" --body "<summary>"`
+- adapter_targets:
+  - `codex:session_handover`
+  - `mcp:prompt/handover`
+- deprecated_aliases:
 
 ### 1. Projekt-Kontext & Standards
 Das Wiki folgt strikten technischen und inhaltlichen Vorschriften.

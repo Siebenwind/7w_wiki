@@ -7,7 +7,7 @@ description: Universeller Master Workflow für Ingestion (Quellen -> Wiki)
 
 # Department: 🏛️ Lore-Archiv (/ingest_master)
 
-Dieser Workflow definiert den einzigen autorisierten Prozess, um rohes Wissen (HTML, DOCX, PDF, MD) aus dem `/Quellen/`-Verzeichnis in strukturierte Wiki-Artikel (`/Siebenwind_Wiki/`) zu überführen.
+Dieser Workflow definiert den einzigen autorisierten Prozess, um rohes Wissen (HTML, DOCX, PDF, MD) aus dem `/Quellen/`-Verzeichnis in strukturierte Wiki-Artikel unter `docs/Siebenwind_Wiki/` zu ueberfuehren.
 
 Er kombiniert Lese-, Verifikations- und Schreibprozesse (Read-Verify-Write) und garantiert, dass keine Entitäten übersehen werden.
 
@@ -48,7 +48,7 @@ Lies den Quelltext. Achte auf Charakter-Motivationen, soziales Gefüge und Atmos
 
 ### B. Das Entity Manifest (Pflicht-Scan)
 Erstelle für den Chat ein Checklisten-Manifest (*Personen, Organisationen, Kreaturen, Orte, Ereignisse, Zeitpunkte*). 
-Gleiche JEDE gefundene Entität sofort gegen die aktuellen Wiki-Register ab (z.B. mittels `rg -n "<Entity>" Quellen Siebenwind_Wiki` oder dem Orakel).
+Gleiche JEDE gefundene Entitaet sofort gegen die aktuellen Wiki-Register ab (z.B. mittels `rg -n "<Entity>" Quellen docs/Siebenwind_Wiki` oder dem Orakel).
 Nutze das **Orakel (`./7w_wiki.py search`)** bei Unklarheiten. 
 
 ### C. Verifikation (Eskalationsmatrix)
@@ -64,7 +64,7 @@ Nutze das **Orakel (`./7w_wiki.py search`)** bei Unklarheiten.
 
 Nutze NICHT Einzelschritte, sondern IMMER die Ingest-Pipeline:
 ```bash
-./7w_wiki.py ingest "Quellen/Zielordner/Datei.md" --move-to "Siebenwind_Wiki/Zielordner"
+./7w_wiki.py ingest "Quellen/Zielordner/Datei.md" --move-to "docs/Siebenwind_Wiki/Zielordner"
 ```
 Diese Pipeline erledigt vollautomatisch:
 1. **Linting & Styling:** Wendet den Wiki Style Guide an.

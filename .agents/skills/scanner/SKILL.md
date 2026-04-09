@@ -1,15 +1,25 @@
 ---
-name: Scanner (Ingestion) Bridge
-description: Auto-generated external visibility bridge for Scanner (Ingestion).
+name: Scanner (Ingestion)
+description: Fähigkeit, Verzeichnisstrukturen zu analysieren und relevante Dateien zu lesen.
 ---
 
-# Skill: Scanner (Ingestion) (External Bridge)
-> **Wrapper for**: `.agent/skills/scanner/SKILL.md`
+# Codex Skill: Scanner (Ingestion)
 
-This is an auto-generated bridge file. Its sole purpose is to make the internal skill capabilities discoverable to external agents (like Jules, Claude, or Gemini).
+> **Canonical skill**: `.agent/skills/scanner/SKILL.md`
+> **Marker**: Generated Codex adapter skill. Do not edit manually.
 
-## ⚠️ Mandatory Usage Instruction
-To understand the actual capabilities, constraints, and runtime commands for this skill, **you MUST explicitly read the internal target file**: 
-`.agent/skills/scanner/SKILL.md`
+This adapter is generated from the canonical catalog. Runtime execution stays on `./7w_wiki.py`; `.agent/` remains the source of truth.
 
-Do not attempt to guess the functionality based on this bridge file.
+## Primary Runtime Command
+`./7w_wiki.py search <query> --source quellen`
+
+## Follow-up Commands
+- `./7w_wiki.py scout --forum bekanntmachungen --pages 3`
+
+## Instructions
+- Use this adapter for source-corpus inventory and lead preparation before ingestion or historian work.
+- Prefer source-targeted search first; use forum scouting only when the task expands beyond the local corpus.
+- Treat raw file exploration as a method hint, not as a replacement for the CLI runtime contract.
+
+## References
+- `.agent/skills/scanner/SKILL.md`

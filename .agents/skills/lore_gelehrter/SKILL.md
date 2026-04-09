@@ -1,15 +1,27 @@
 ---
-name: Lore-Gelehrter (Analytik & Auskunft) Bridge
-description: Auto-generated external visibility bridge for Lore-Gelehrter (Analytik & Auskunft).
+name: Lore-Gelehrter (Analytik & Auskunft)
+description: Fähigkeit, das gesamte Wiki-Wissen zu aggregieren, Inkonsistenzen zu finden und präzise Auskunft zu geben.
 ---
 
-# Skill: Lore-Gelehrter (Analytik & Auskunft) (External Bridge)
-> **Wrapper for**: `.agent/skills/lore_gelehrter/SKILL.md`
+# Codex Skill: Lore-Gelehrter (Analytik & Auskunft)
 
-This is an auto-generated bridge file. Its sole purpose is to make the internal skill capabilities discoverable to external agents (like Jules, Claude, or Gemini).
+> **Canonical skill**: `.agent/skills/lore_gelehrter/SKILL.md`
+> **Marker**: Generated Codex adapter skill. Do not edit manually.
 
-## ⚠️ Mandatory Usage Instruction
-To understand the actual capabilities, constraints, and runtime commands for this skill, **you MUST explicitly read the internal target file**: 
-`.agent/skills/lore_gelehrter/SKILL.md`
+This adapter is generated from the canonical catalog. Runtime execution stays on `./7w_wiki.py`; `.agent/` remains the source of truth.
 
-Do not attempt to guess the functionality based on this bridge file.
+## Primary Runtime Command
+`./7w_wiki.py historian <query>`
+
+## Follow-up Commands
+- `./7w_wiki.py search <query> --source all`
+- `./7w_wiki.py mail post --from Historian --to ALL --subject "<lore question>" --body "<summary>"`
+
+## Instructions
+- Use this adapter for deep lore synthesis, contradiction analysis, and evidence-backed answers.
+- The Historian is an escalation and synthesis organ, not the default editor for straightforward source integration.
+- Route unresolved contradictions through Dispatch or the Synapse Board with explicit evidence.
+
+## References
+- `.agent/skills/lore_gelehrter/SKILL.md`
+- `System/Synapse_Board/LORE_RESEARCH_BOARD.md`

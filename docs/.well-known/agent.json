@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "0.2.5",
+  "protocol": "discovery-only",
+  "name": "Siebenwind Wiki",
+  "description": "Cross-platform multi-agent librarian system for the Siebenwind Wiki. Canonical runtime lives on ./7w_wiki.py and the MCP server; Codex skills are derived adapters.",
+  "url": "https://siebenwind.github.io/7w_wiki/",
+  "documentationUrl": "https://siebenwind.github.io/7w_wiki/Agenten/",
+  "preferredTransport": "mcp",
+  "transports": [
+    {
+      "type": "mcp",
+      "entrypoint": "./7w_wiki.py mcp",
+      "config": "mcp_config.json"
+    }
+  ],
+  "capabilities": {
+    "mcp": true,
+    "codex_skills": true,
+    "a2a_transport": false
+  },
+  "skills": [
+    {
+      "id": "art_director",
+      "name": "Art Director (Atelier)",
+      "description": "Codex-native visual-direction adapter for style-safe asset work and dispatch coordination."
+    },
+    {
+      "id": "kanon_waechter",
+      "name": "Kanon-Wächter (Verification)",
+      "description": "Fähigkeit, Fakten gegen die offizielle Homepage zu prüfen."
+    },
+    {
+      "id": "lektor",
+      "name": "Der Lektor (Qualitätssicherung)",
+      "description": "Automatisierte Prüfung von Stil, Grammatik und Markdown-Formatierung für konsistente \"Siebenwind Voice\"."
+    },
+    {
+      "id": "linguist",
+      "name": "Linguist (Analyse & Pflege)",
+      "description": "Fähigkeit, falandrische Sprachen zu erkennen, zu interpretieren und die Datensätze zu pflegen."
+    },
+    {
+      "id": "lore_gelehrter",
+      "name": "Lore-Gelehrter (Analytik & Auskunft)",
+      "description": "Fähigkeit, das gesamte Wiki-Wissen zu aggregieren, Inkonsistenzen zu finden und präzise Auskunft zu geben."
+    },
+    {
+      "id": "oracle",
+      "name": "Das Orakel (Semantische Suche)",
+      "description": "Lokale Vektorsuche (RAG) über das gesamte Siebenwind-Wissen. Nutzt jina-embeddings-v3 für Embedding und bge-reranker-v2-m3 für Re-Ranking."
+    },
+    {
+      "id": "scanner",
+      "name": "Scanner (Ingestion)",
+      "description": "Fähigkeit, Verzeichnisstrukturen zu analysieren und relevante Dateien zu lesen."
+    },
+    {
+      "id": "scout",
+      "name": "Skill: Der Netz-Wächter (Web-Scout)",
+      "description": "Der Netz-Wächter ist darauf spezialisiert, dynamische Inhalte aus dem Internet (Homepage, Forum) zu extrahieren und in das Siebenwind-Wiki zu integrieren."
+    },
+    {
+      "id": "session_handover",
+      "name": "Session Handover",
+      "description": "Codex-native closeout adapter for session memory, dispatch, and validation handoff."
+    },
+    {
+      "id": "session_start",
+      "name": "Session Start",
+      "description": "Codex-native onboarding adapter for the standard session kickoff loop."
+    },
+    {
+      "id": "session_takeover",
+      "name": "Session Takeover",
+      "description": "Codex-native adapter for adopting an existing Siebenwind session."
+    },
+    {
+      "id": "stats",
+      "name": "Stats",
+      "description": "Codex-native statistics adapter for reader-facing and machine-readable wiki status outputs."
+    },
+    {
+      "id": "test_waechter",
+      "name": "Test Waechter",
+      "description": "Standardized suite execution, defect routing via Dispatch/Task, and re-test discipline."
+    },
+    {
+      "id": "time_keeper",
+      "name": "Time Keeper",
+      "description": "Utilities for handling the Siebenwind \"Sonnenzirkel\" time system (Calendar, Seasons, Dates)."
+    },
+    {
+      "id": "wiki_schmied",
+      "name": "Wiki-Schmied (Production)",
+      "description": "Fähigkeit, standardisierte Wiki-Artikel zu erstellen."
+    },
+    {
+      "id": "workflow_forum_search",
+      "name": "Workflow Forum Search",
+      "description": "Codex-native discovery adapter for board-first source scanning and ingest lead generation."
+    },
+    {
+      "id": "workflow_tech_master",
+      "name": "Workflow Tech Master",
+      "description": "Codex-native maintenance adapter for interop sync, pages health, and runtime hygiene."
+    },
+    {
+      "id": "workflow_test_run",
+      "name": "Workflow Test Run",
+      "description": "Codex-native regression adapter for interop, adapter-surface, and clean-state verification."
+    }
+  ],
+  "workflows": [
+    {
+      "id": "antigravity",
+      "name": "Workflow: `/antigravity` (Compatibility Alias)",
+      "primary_command": "7w_wiki.py antigravity"
+    },
+    {
+      "id": "decide",
+      "name": "Workflow: /decide",
+      "primary_command": "7w_wiki.py mail inbox --status OPEN"
+    },
+    {
+      "id": "delegate",
+      "name": "delegate",
+      "primary_command": "7w_wiki.py start"
+    },
+    {
+      "id": "forum_search",
+      "name": "Workflow: `/forum_search` (Forum-Quellenjagd)",
+      "primary_command": "7w_wiki.py scout --forum bekanntmachungen --pages 3"
+    },
+    {
+      "id": "handover",
+      "name": "handover",
+      "primary_command": "7w_wiki.py handover"
+    },
+    {
+      "id": "herold",
+      "name": "Workflow: /herold (Der Herold)",
+      "primary_command": "7w_wiki.py stats"
+    },
+    {
+      "id": "historian",
+      "name": "Workflow: `/historian` (Der Historiker)",
+      "primary_command": "7w_wiki.py historian [query]"
+    },
+    {
+      "id": "ingest_master",
+      "name": "Department: 🏛️ Lore-Archiv (/ingest_master)",
+      "primary_command": "7w_wiki.py advisor"
+    },
+    {
+      "id": "lore_master",
+      "name": "Department: 📜 Rüstkammer der Geschichte (/lore_master)",
+      "primary_command": "7w_wiki.py search <query> --source wiki|quellen|all"
+    },
+    {
+      "id": "meta_master",
+      "name": "Department: 📦 Logistik & Koordination (/meta_master)",
+      "primary_command": "7w_wiki.py start"
+    },
+    {
+      "id": "qa_master",
+      "name": "Department: 🔍 Die Inquisition (/qa_master)",
+      "primary_command": "7w_wiki.py audit"
+    },
+    {
+      "id": "scout",
+      "name": "Workflow: `/scout` (Netz-Wache)",
+      "primary_command": "7w_wiki.py scout --forum bekanntmachungen|news --pages N"
+    },
+    {
+      "id": "start",
+      "name": "Workflow: `/start` (Das Orakel von Siebenwind)",
+      "primary_command": "7w_wiki.py start"
+    },
+    {
+      "id": "takeover",
+      "name": "Workflow: `/takeover` (Die Amtsübernahme)",
+      "primary_command": "7w_wiki.py takeover"
+    },
+    {
+      "id": "tech_master",
+      "name": "Department: ⚙️ Maschinenraum (/tech_master)",
+      "primary_command": "7w_wiki.py tech --sync-surfaces"
+    },
+    {
+      "id": "test_run",
+      "name": "Workflow: `/test_run` (Test-Waechter Protokoll)",
+      "primary_command": "7w_wiki.py test --suite all"
+    },
+    {
+      "id": "translate",
+      "name": "Workflow: /translate",
+      "primary_command": "7w_wiki.py translate <args>"
+    },
+    {
+      "id": "wiki_style_guide",
+      "name": "[Display Title]",
+      "primary_command": "7w_wiki.py check"
+    }
+  ],
+  "metadata": {
+    "catalog": ".agent/catalog/catalog.v1.json",
+    "generatedAt": "2026-04-09T13:37:03Z",
+    "phase": "phase1-codex-plus-mcp"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "suite": "adapter-surfaces-contract",
+  "description": "Guard generated Codex adapter skills, the discovery agent card, and no-thin-wrapper regressions.",
+  "cases": [
+    {
+      "id": "surface-sync-flags-exist",
+      "name": "Tech help exposes the canonical surface sync commands",
+      "cmd": ["./7w_wiki.py", "tech", "--help"],
+      "expect_exit": 0,
+      "expect_stdout": [
+        "--sync-catalog",
+        "--sync-codex-skills",
+        "--sync-a2a",
+        "--sync-surfaces"
+      ]
+    },
+    {
+      "id": "generated-adapter-files",
+      "name": "Codex adapters and discovery card exist with real runtime guidance",
+      "required_regex_by_file": [
+        {
+          "file": ".agents/skills/session_start/SKILL.md",
+          "must_include_regex": [
+            "Generated Codex adapter skill\\. Do not edit manually\\.",
+            "Primary Runtime Command",
+            "\\./7w_wiki\\.py start",
+            "Execute checklist: `\\./7w_wiki\\.py start --run`"
+          ]
+        },
+        {
+          "file": ".agents/skills/session_takeover/SKILL.md",
+          "must_include_regex": [
+            "Primary Runtime Command",
+            "\\./7w_wiki\\.py takeover",
+            "Execution Modes"
+          ]
+        },
+        {
+          "file": ".agents/skills/session_handover/SKILL.md",
+          "must_include_regex": [
+            "Primary Runtime Command",
+            "\\./7w_wiki\\.py handover",
+            "Follow-up Commands"
+          ]
+        },
+        {
+          "file": ".agents/skills/workflow_tech_master/SKILL.md",
+          "must_include_regex": [
+            "\\./7w_wiki\\.py tech --sync-surfaces",
+            "\\./7w_wiki\\.py tech --sync-interop",
+            "Instructions"
+          ]
+        },
+        {
+          "file": ".agents/skills/workflow_test_run/SKILL.md",
+          "must_include_regex": [
+            "\\./7w_wiki\\.py test --suite all",
+            "\\./7w_wiki\\.py test --suite adapter-surfaces-contract",
+            "Instructions"
+          ]
+        },
+        {
+          "file": ".agents/skills/workflow_forum_search/SKILL.md",
+          "must_include_regex": [
+            "\\./7w_wiki\\.py scout --forum bekanntmachungen --pages 3",
+            "\\./7w_wiki\\.py scout --forum news --pages 3",
+            "References"
+          ]
+        },
+        {
+          "file": ".agents/skills/oracle/SKILL.md",
+          "must_include_regex": [
+            "\\./7w_wiki\\.py search <query> \\[remaining\\.\\.\\.\\]",
+            "\\./7w_wiki\\.py index --status",
+            "Instructions"
+          ]
+        },
+        {
+          "file": ".agents/skills/stats/SKILL.md",
+          "must_include_regex": [
+            "\\./7w_wiki\\.py stats",
+            "reader-stats-contract",
+            "References"
+          ]
+        },
+        {
+          "file": "docs/.well-known/agent.json",
+          "must_include_regex": [
+            "\"protocol\": \"discovery-only\"",
+            "\"preferredTransport\": \"mcp\"",
+            "\"catalog\": \".agent/catalog/catalog.v1.json\""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-thin-wrapper-regressions",
+      "name": "Adapter skills no longer use thin-wrapper bridge language",
+      "pattern_check_globs": [
+        ".agents/skills/**/*.md"
+      ],
+      "forbid_regex": [
+        "Generated workflow bridge\\. Do not edit manually\\.",
+        "This is an auto-generated bridge file\\.",
+        "This is a generated Codex-facing workflow bridge\\.",
+        "Do not guess workflow semantics from this bridge file alone\\.",
+        "Thin wrapper"
+      ]
+    }
+  ]
+}

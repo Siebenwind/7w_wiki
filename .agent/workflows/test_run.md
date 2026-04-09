@@ -10,7 +10,14 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
   - `7w_wiki.py test --suite takeover-handover`
   - `7w_wiki.py test --suite interop-doc-links`
   - `7w_wiki.py test --suite interop-command-registry`
-  - `7w_wiki.py test --suite codex-workflow-bridges`
+  - `7w_wiki.py test --suite catalog-contract`
+  - `7w_wiki.py test --suite adapter-surfaces-contract`
+  - `7w_wiki.py test --suite delegation-policy-contract`
+  - `7w_wiki.py test --suite repo-hygiene-contract`
+  - `7w_wiki.py test --suite manifest-contract`
+  - `7w_wiki.py test --suite source-tree-contract`
+  - `7w_wiki.py test --suite legacy-doc-contract`
+  - `7w_wiki.py test --suite asset-surface-contract`
   - `7w_wiki.py test --suite workflow-matrix-contract`
   - `7w_wiki.py test --suite tool-manifest-contract`
   - `7w_wiki.py test --suite pages-link-contract`
@@ -31,14 +38,16 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
   - `/test_run`
 - method_hints_non_runtime:
   - Optional: Defect-Task in `task.md` referenzieren, falls kein Dispatch-MSG verwendet wird.
-- codex_bridge_name: workflow_test_run
-- codex_bridge_enabled: true
-- codex_bridge_summary: Codex bridge for the standard interop and regression validation loop.
-- codex_bridge_primary_command: `7w_wiki.py test --suite all`
-- codex_bridge_followups:
-  - `7w_wiki.py test --suite codex-workflow-bridges`
+- catalog_id: `workflow.test_run`
+- primary_command: `7w_wiki.py test --suite all`
+- followup_commands:
+  - `7w_wiki.py test --suite adapter-surfaces-contract`
   - `7w_wiki.py pages validate --json`
   - `7w_wiki.py mail inbox --status OPEN`
+- adapter_targets:
+  - `codex:workflow_test_run`
+  - `mcp:prompt/test_run`
+- deprecated_aliases:
 
 ## 1. Agentenmentalitaet (verbindlich)
 
@@ -61,16 +70,23 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
 2. `./7w_wiki.py test --suite takeover-handover`
 3. `./7w_wiki.py test --suite interop-doc-links` (lokale Markdown-Links)
 4. `./7w_wiki.py test --suite interop-command-registry` (Live-CLI gegen Governance-Inventare)
-5. `./7w_wiki.py test --suite codex-workflow-bridges` (Codex-Workflow-Bridges + Wrapper-Drift)
-6. `./7w_wiki.py test --suite workflow-matrix-contract` (generierte Matrix + Workflow-Referenzen)
-7. `./7w_wiki.py test --suite tool-manifest-contract` (typed tools.json + Alias-Kompatibilitaet)
-8. `./7w_wiki.py test --suite pages-link-contract` (Pages snapshot + advisor freshness + policy file)
-9. `./7w_wiki.py test --suite source-link-hygiene` (MkDocs-Strict-Risiken in Quellenlinks)
-10. `./7w_wiki.py test --suite backlog-repair-contract` (Backlog-Board + Lane-1-Repair-Surface)
-11. `./7w_wiki.py test --suite process-dispatch-curiosity` (Workflow-/Persona-Prozesslogik)
-12. `./7w_wiki.py test --suite bridge-placeholder-guard` (verhindert Rueckfall in Stub-/Bridge-Policy-Fehler)
-13. `./7w_wiki.py test --suite reader-stats-contract` (Reader-Stats-Contract + Snapshot-Schnittstelle)
-14. Optional Vollabgleich: `./7w_wiki.py test --suite all` (ohne RAG-Smoke; stabiler Standardlauf)
+5. `./7w_wiki.py test --suite catalog-contract` (kanonischer Katalog + Schema + Pflichtsektionen)
+6. `./7w_wiki.py test --suite adapter-surfaces-contract` (Codex-Adapter, MCP-nahe Artefakte, keine Thin-Wrapper)
+7. `./7w_wiki.py test --suite delegation-policy-contract` (Delegationsrichtlinie + Thread-Limit + Profil-Mapping)
+8. `./7w_wiki.py test --suite repo-hygiene-contract` (Hot/Cold/Runtime/Build-Klassifikation und Schutzregeln)
+9. `./7w_wiki.py test --suite manifest-contract` (generiertes `lore_manifest.json` gegen Katalog und CLI)
+10. `./7w_wiki.py test --suite source-tree-contract` (aktiver Tree-Kanon fuer `docs/Siebenwind_Wiki/`)
+11. `./7w_wiki.py test --suite legacy-doc-contract` (keine Pflicht-Links mehr in `_archive` oder alte Singleton-Standards)
+12. `./7w_wiki.py test --suite asset-surface-contract` (aktive Docs/Skills zeigen nur auf kanonische Asset-Surfaces)
+13. `./7w_wiki.py test --suite workflow-matrix-contract` (generierte Matrix + Workflow-Referenzen)
+14. `./7w_wiki.py test --suite tool-manifest-contract` (typed tools.json + Alias-Kompatibilitaet)
+15. `./7w_wiki.py test --suite pages-link-contract` (Pages snapshot + advisor freshness + policy file)
+16. `./7w_wiki.py test --suite source-link-hygiene` (MkDocs-Strict-Risiken in Quellenlinks)
+17. `./7w_wiki.py test --suite backlog-repair-contract` (Backlog-Board + Lane-1-Repair-Surface)
+18. `./7w_wiki.py test --suite process-dispatch-curiosity` (Workflow-/Persona-Prozesslogik)
+19. `./7w_wiki.py test --suite bridge-placeholder-guard` (verhindert Rueckfall in Stub-/Bridge-Policy-Fehler)
+20. `./7w_wiki.py test --suite reader-stats-contract` (Reader-Stats-Contract + Snapshot-Schnittstelle)
+21. Optional Vollabgleich: `./7w_wiki.py test --suite all` (ohne RAG-Smoke; stabiler Standardlauf)
 
 ## 3. Failure-Protokoll
 
