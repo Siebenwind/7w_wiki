@@ -1,8 +1,10 @@
 import os
 import re
+from pathlib import Path
 
-WIKI_PATH = "/Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki"
-GLOSSARY_FILE = "/Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/00_Fundament/Glossar.md"
+REPO_ROOT = Path(__file__).resolve().parents[4]
+WIKI_PATH = REPO_ROOT / "docs" / "Siebenwind_Wiki"
+GLOSSARY_FILE = WIKI_PATH / "00_Fundament" / "Glossar.md"
 
 def build_glossary():
     terms = {}
@@ -14,7 +16,7 @@ def build_glossary():
     for root, _, files in os.walk(WIKI_PATH):
         for f in files:
             if f.endswith(".md") and f != "Glossar.md":
-                with open(os.path.join(root, f), "r") as file:
+                with open(os.path.join(root, f), "r", encoding="utf-8") as file:
                     content = file.read()
                     matches = re.findall(term_pattern, content)
                     for m in matches:
@@ -25,7 +27,7 @@ def build_glossary():
     relevant_terms = sorted([t for t, count in terms.items() if count > 5])
 
     # Write to Glossary file
-    with open(GLOSSARY_FILE, "w") as f:
+    with GLOSSARY_FILE.open("w", encoding="utf-8") as f:
         f.write("---\nlayout: wiki_page\ntitle: Glossar\ncategory: Fundament\n---\n\n# Glossar\n\nDieses Glossar enthält wichtige Begriffe der Welt Siebenwind.\n\n| Begriff | Beschreibung | Status |\n|---------|--------------|--------|\n")
         for t in relevant_terms:
             f.write(f"| {t} | [DEFINITION_BENÖTIGT] | #canon |\n")

@@ -18,9 +18,12 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
   - `7w_wiki.py test --suite source-tree-contract`
   - `7w_wiki.py test --suite legacy-doc-contract`
   - `7w_wiki.py test --suite asset-surface-contract`
+  - `7w_wiki.py test --suite root-tree-retirement-contract`
+  - `7w_wiki.py test --suite styling-surface-contract`
   - `7w_wiki.py test --suite workflow-matrix-contract`
   - `7w_wiki.py test --suite tool-manifest-contract`
-  - `7w_wiki.py test --suite pages-link-contract`
+  - `7w_wiki.py test --suite pages-contract-mode-contract`
+  - `7w_wiki.py test --suite pages-full-smoke`
   - `7w_wiki.py test --suite backlog-repair-contract`
   - `7w_wiki.py test --suite source-link-hygiene`
   - `7w_wiki.py test --suite process-dispatch-curiosity`
@@ -30,6 +33,7 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
   - `7w_wiki.py test --suite all --include-rag`
   - `7w_wiki.py test --suite rag-relevance-smoke --timeout 30`
   - `7w_wiki.py test --suite all --post-failures --from-agent <name> --to-agent ALL --priority HIGH`
+  - `7w_wiki.py pages validate --contract --json`
   - `7w_wiki.py pages validate --json [--strict-links]`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py mail claim <id> --agent <name>`
@@ -80,13 +84,15 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
 12. `./7w_wiki.py test --suite asset-surface-contract` (aktive Docs/Skills zeigen nur auf kanonische Asset-Surfaces)
 13. `./7w_wiki.py test --suite workflow-matrix-contract` (generierte Matrix + Workflow-Referenzen)
 14. `./7w_wiki.py test --suite tool-manifest-contract` (typed tools.json + Alias-Kompatibilitaet)
-15. `./7w_wiki.py test --suite pages-link-contract` (Pages snapshot + advisor freshness + policy file)
-16. `./7w_wiki.py test --suite source-link-hygiene` (MkDocs-Strict-Risiken in Quellenlinks)
-17. `./7w_wiki.py test --suite backlog-repair-contract` (Backlog-Board + Lane-1-Repair-Surface)
-18. `./7w_wiki.py test --suite process-dispatch-curiosity` (Workflow-/Persona-Prozesslogik)
-19. `./7w_wiki.py test --suite bridge-placeholder-guard` (verhindert Rueckfall in Stub-/Bridge-Policy-Fehler)
-20. `./7w_wiki.py test --suite reader-stats-contract` (Reader-Stats-Contract + Snapshot-Schnittstelle)
-21. Optional Vollabgleich: `./7w_wiki.py test --suite all` (ohne RAG-Smoke; stabiler Standardlauf)
+15. `./7w_wiki.py test --suite root-tree-retirement-contract` (retired Root-Baum bleibt entfernt; aktive Skripte/Workflows nutzen nur den Docs-Baum)
+16. `./7w_wiki.py test --suite styling-surface-contract` (nur eine aktive Styling-Autoritaet; `docs/assets/` bleibt production-only)
+17. `./7w_wiki.py test --suite pages-contract-mode-contract` (deterministischer Pages-/CI-Vertrag ohne Snapshot-Schreibseitenwirkungen)
+18. `./7w_wiki.py test --suite source-link-hygiene` (MkDocs-Strict-Risiken in Quellenlinks)
+19. `./7w_wiki.py test --suite backlog-repair-contract` (Backlog-Board + Lane-1-Repair-Surface)
+20. `./7w_wiki.py test --suite process-dispatch-curiosity` (Workflow-/Persona-Prozesslogik)
+21. `./7w_wiki.py test --suite bridge-placeholder-guard` (verhindert Rueckfall in Stub-/Bridge-Policy-Fehler)
+22. `./7w_wiki.py test --suite reader-stats-contract` (Reader-Stats-Contract + Snapshot-Schnittstelle)
+23. Optional Vollabgleich: `./7w_wiki.py test --suite all` (ohne RAG-Smoke; stabiler Standardlauf)
 
 ## 3. Failure-Protokoll
 
@@ -99,6 +105,7 @@ Bei FAIL gilt:
 3. Nach Fix:
    - Re-Test der betroffenen Suite
    - Danach `./7w_wiki.py test --suite all` (RAG nur bei Bedarf via `--include-rag`)
+   - Fuer deterministische CI-/Contract-Vorchecks optional: `./7w_wiki.py pages validate --contract --json`
    - Fuer schnelle Technik-/QA-Vorchecks optional: `./7w_wiki.py pages validate --json --fast`
    - Fuer harte Site-Gates optional: `./7w_wiki.py pages validate --json --strict-links`
 4. Abschluss:

@@ -4,7 +4,7 @@ status: NEEDS_REVIEW
 priority: 3
 trust_level: 3
 confidence: Suspected
-source_files: ["/Quellen/Bibliothek Toran Dur/Toran Dur - Lehrbuch der Magietheorie.md", "/Siebenwind_Wiki/01_Pantheon/Astrael.md"]
+source_files: ["Quellen/Bibliothek Toran Dur/Toran Dur - Lehrbuch der Magietheorie.md", "docs/Siebenwind_Wiki/01_Pantheon/Astrael.md"]
 detected_by: Archivar
 ---
 

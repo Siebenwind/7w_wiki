@@ -1,0 +1,47 @@
+{
+  "suite": "pages-contract-mode-contract",
+  "description": "Guard deterministic Pages validation for contracts and CI.",
+  "cases": [
+    {
+      "id": "pages-contract-json",
+      "name": "pages validate --contract --json is deterministic and static-only",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "validate",
+        "--contract",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_keys": [
+        "generated_at",
+        "status",
+        "checks",
+        "build",
+        "pages_health",
+        "drift_health"
+      ],
+      "expect_json_path_exists": [
+        "mode",
+        "advisory_only",
+        "validation_timing_ms.total",
+        "build.reason",
+        "pages_health.canonical_wiki_root",
+        "pages_health.legacy_root_status",
+        "pages_health.analysis_cache.docs_link_index.path",
+        "pages_health.analysis_cache.canonical_name_index.path",
+        "pages_health.analysis_cache.tree_drift.path"
+      ],
+      "expect_json_path_equals": {
+        "mode": "contract",
+        "advisory_only": true,
+        "build.skipped": true,
+        "pages_health.legacy_wiki_root": null,
+        "pages_health.legacy_root_status": "removed",
+        "pages_health.snapshot_written": false
+      },
+      "timeout_sec": 120
+    }
+  ]
+}

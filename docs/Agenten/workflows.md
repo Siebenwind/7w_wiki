@@ -46,6 +46,7 @@ Legacy:
 
 ```bash
 ./7w_wiki.py pages status
+./7w_wiki.py pages validate --contract --json
 ./7w_wiki.py pages validate --json
 ./7w_wiki.py pages validate --json --strict-links
 ./7w_wiki.py pages build --strict

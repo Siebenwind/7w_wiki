@@ -42,7 +42,10 @@
             "\"versioned_cold\"",
             "\"local_runtime\"",
             "\"build_output\"",
-            "\"prune_runtime_tree\""
+            "\"prune_runtime_tree\"",
+            "\"archive_inventory_reports\"",
+            "\"archive_queue_reports\"",
+            "\"archive_permission_temp\""
           ]
         }
       ]

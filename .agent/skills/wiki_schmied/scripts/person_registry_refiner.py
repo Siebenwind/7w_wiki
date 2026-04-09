@@ -1,9 +1,11 @@
 import re
+from pathlib import Path
 
-REGISTRY_FILE = "/Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+REPO_ROOT = Path(__file__).resolve().parents[4]
+REGISTRY_FILE = REPO_ROOT / "docs" / "Siebenwind_Wiki" / "00_Fundament" / "Personenregister.md"
 
 def refine_registry():
-    with open(REGISTRY_FILE, "r") as f:
+    with REGISTRY_FILE.open("r", encoding="utf-8") as f:
         lines = f.readlines()
     
     header = lines[:13] # Keep frontmatter and table header
@@ -33,7 +35,7 @@ def refine_registry():
     for e in unique_entries:
         new_content += f"| {' | '.join(e)} |\n"
     
-    with open(REGISTRY_FILE, "w") as f:
+    with REGISTRY_FILE.open("w", encoding="utf-8") as f:
         f.write(new_content)
     
     print(f"Refined Person Registry: {len(unique_entries)} unique entries sorted.")

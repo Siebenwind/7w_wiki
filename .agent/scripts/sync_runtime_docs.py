@@ -92,6 +92,7 @@ def build_contract_reference(path: Path) -> str:
         "> - Epistemic precedence: `Homepage > Quellen > Wiki Pages`.",
         "> - `docs/Siebenwind_Wiki/` is the technical edit/publish tree, not the highest truth source.",
         "> - Technical drift is validated via `./7w_wiki.py sanitize`, `./7w_wiki.py audit`, and `./7w_wiki.py pages validate --json [--strict-links]`.",
+        "> - Deterministic contract/CI checks use `./7w_wiki.py pages validate --contract --json`.",
         "> - `--strict` hardens the MkDocs build; `--strict-links` is the hard unresolved-link gate.",
         "> - Generated command registries are synced by `./7w_wiki.py tech --sync-docs` / `--sync-interop`; narrative rules live in the canonical contract.",
     ]

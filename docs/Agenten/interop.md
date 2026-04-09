@@ -23,7 +23,9 @@ Codex bekommt keine repo-definierten Slash-Kommandos. Stattdessen verweisen die 
 ## Repo-Hygiene
 
 - `docs/Siebenwind_Wiki/` ist der einzige aktive technische Wiki-Baum.
-- `docs/assets/` ist die Live-Asset-Surface fuer publizierte Artefakte.
+- Das Wurzelverzeichnis `Siebenwind_Wiki/` ist retired; nur der publizierte URL-Segmentname bleibt bestehen.
+- `docs/assets/` ist die Live-Asset-Surface fuer publizierte Artefakte und production-only.
+- Entwurfs- und Proposal-Dateien liegen unter `System/Design_Assets/`.
 - Historische Evidenz und Snapshot-Familien werden ueber `./7w_wiki.py tech --repo-hygiene [--apply] [--json]` in kalte Buckets verschoben.
 - Build-Ausgaben (`site/`, `dist/`) und Laufzeitmassen (Caches, Modelle, venvs) sind keine Repo-Wahrheit.
 
@@ -35,6 +37,9 @@ Codex bekommt keine repo-definierten Slash-Kommandos. Stattdessen verweisen die 
 ./7w_wiki.py test --suite interop-doc-links
 ./7w_wiki.py test --suite repo-hygiene-contract
 ./7w_wiki.py test --suite manifest-contract
+./7w_wiki.py test --suite root-tree-retirement-contract
+./7w_wiki.py test --suite styling-surface-contract
+./7w_wiki.py test --suite pages-contract-mode-contract
 ./7w_wiki.py audit
 ```
 

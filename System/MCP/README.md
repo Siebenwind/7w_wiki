@@ -75,7 +75,7 @@ The server also loads `.agent/catalog/catalog.v1.json` for resources and prompt 
 
 ### Oracle Availability Probe
 
-The `wiki_search` tool depends on the Oracle (semantic RAG index). If the index is not ready, the server registers a **grep-based fallback** that performs basic text search across `Siebenwind_Wiki/`.
+The `wiki_search` tool depends on the Oracle (semantic RAG index). If the index is not ready, the server registers a **grep-based fallback** that performs basic text search across `docs/Siebenwind_Wiki/`.
 
 ## Available Tools
 
@@ -104,7 +104,7 @@ For the full generated list, run:
 python System/MCP/generate_mcp_tools.py
 ```
 
-Pages-aware flags such as `audit --pages`, `pages validate --json`, `pages validate --json --strict-links`, `pages validate --fast`, and `repair --fix-roamlinks` are exposed automatically through the generated tool schemas; no manual MCP edits are required.
+Pages-aware flags such as `audit --pages`, `pages validate --json`, `pages validate --contract --json`, `pages validate --json --strict-links`, `pages validate --fast`, and `repair --fix-roamlinks` are exposed automatically through the generated tool schemas; no manual MCP edits are required.
 
 ## Resources
 

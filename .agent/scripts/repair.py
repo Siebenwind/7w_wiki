@@ -577,11 +577,6 @@ def _resolve_source_repair_paths(source_pages: list[str]) -> list[Path]:
         docs_path = PROJECT_ROOT / rel
         if docs_path.exists():
             resolved.append(docs_path)
-        if rel.startswith("docs/Siebenwind_Wiki/"):
-            twin_rel = rel.replace("docs/Siebenwind_Wiki/", "Siebenwind_Wiki/", 1)
-            twin_path = PROJECT_ROOT / twin_rel
-            if twin_path.exists():
-                resolved.append(twin_path)
     unique: list[Path] = []
     seen: set[Path] = set()
     for path in resolved:

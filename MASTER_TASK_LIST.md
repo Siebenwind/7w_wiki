@@ -5,18 +5,24 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-04-08 (Codex → Next Agent)
-- **Status**: Die konservative Lane-1-Welle bleibt umgesetzt; Religions-, Historie- und Magie-Cluster sind weiterhin abgearbeitet. In dieser Session wurden drei der vier semantischen Bridge-Restfaelle aufgeloest: `00_Religion_Uebersicht` zeigt jetzt auf `Religion_Übersicht`, `03_Gesellschaft` auf `Gesellschaft`, und fuer `Werke_index` existiert mit `docs/Siebenwind_Wiki/03_Wissen/Werke.md` nun ein kanonischer Landing-Artikel. Der Audit-Stand fiel damit weiter auf `3` Issues, die invaliden Bridges auf `1`; einzig `Arman_von_Draconis` bleibt per `MSG-2026-0089` / `MSG-2026-0090` als Historian-/Coordinator-Entscheid offen.
+- **Last Handover**: 2026-04-09 (Codex → Next Agent)
+- **Status**: Wave 2 der Pages-/Interop-Haertung ist umgesetzt: die physische Root-Struktur `Siebenwind_Wiki/` ist entfernt, `pages validate --contract --json` existiert als deterministischer CI-/Vertragsmodus, und Entwurfs-Assets liegen nicht mehr unter `docs/assets/`. Der technische Drift zwischen Root- und Docs-Baum ist damit geschlossen (`legacy_root_status = removed`, `bridge_inventory.invalid = 0`). Offen bleiben nun keine semantischen Bridge-Entscheide mehr, sondern der neue Restbestand aus `26` sichtbaren `layout`-Altfeldern im Audit, einem moeglichen Audit-Zaehl-Artefakt (`issues_found = 27` bei `26` ausgewiesenen Vertraegen), der strukturell defekten `Zeitstrahl.md` sowie dem semantischen Pages-Backlog (`637` unresolved, davon `625 needs_historian`).
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
 
-- [ ] **Residual Bridge Decision Gate**: Der technische Sweep ist fast abgeschlossen; `audit --json` steht nur noch bei `3` Issues und `bridge_inventory.invalid = 1`. Die Faelle `00_Religion_Uebersicht`, `03_Gesellschaft` und `Werke_index` wurden mit kanonischen Zielen bzw. dem neuen Landing-Artikel `Werke` geschlossen. Offen bleibt nur noch die autoritative Zielentscheidung fuer `Arman_von_Draconis`; vor dem letzten Bridge-Rewrite erst die Antwort auf `MSG-2026-0089` abwarten oder dokumentiert gegen hoeherwertige Quellen/Historian-Vorgaben entscheiden.
+- [ ] **Layout-Contract Cleanup & Audit-Zaehllogik**: `audit --json` meldet jetzt `27` Issues, weist aber inhaltlich `26` `legacy_field: layout`-Verletzungen aus. Der naechste Agent soll die verbleibenden `layout`-Altfelder in den betroffenen Seiten entfernen bzw. auf den aktuellen Vertrag heben und dabei pruefen, ob der verbleibende Delta-Zaehler ein Aggregationsfehler im Audit ist.
 
 - [ ] **Zeitstrahl Structural Repair**: `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md` ist ueber den reinen `Historie`-Linkfehler hinaus deutlich beschaedigt und enthaelt eingebettete Fremdseitenfragmente. Dieser Defekt wurde im Historie-Cluster bewusst nicht miterledigt und braucht einen eigenen, strukturorientierten Reparaturtrack.
 
-- [ ] **Backlog Board & Escalation Follow-Up**: Das aktuelle Cluster-Board liegt unter `.agent/data/backlog_cluster_board.json`, die Eskalationsliste unter `.agent/data/backlog_escalations.json`. Der naechste Agent soll diese Artefakte als Arbeitsgrundlage verwenden und nach Eingang der Historian-Entscheidung nur noch `Arman_von_Draconis` sauber schliessen statt erneut ungeclustert in `audit --pages` einzusteigen.
+- [ ] **Semantic Pages Backlog Triage**: `advisor --json` zeigt trotz technischem Drift-Fix weiter `Pages WARN` mit `637` unresolved Targets (`625 needs_historian`, `5 generic_term_conflict`). Der naechste Agent soll die bestehenden Board-/Backlog-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) als Arbeitsgrundlage verwenden und die semantische Begriffsarbeit strikt von mechanischen Reparaturen trennen.
+
+- [ ] **Review- und Scan-Restbestand schliessen**: `RESEARCH-2026-004` und `RESEARCH-2026-007` stehen weiter auf `IN_REVIEW_HISTORIAN`, waehrend der Forum-Scan fuer `3` allowlistete Boards als stale gilt. Der naechste Agent soll entscheiden, ob zuerst die Historian-Reviews publiziert/geschlossen oder die Foren-Pipeline reaktiviert wird.
+
+- [x] **Residual Bridge Decision Gate**: `MSG-2026-0089` ist abgeschlossen; `docs/Siebenwind_Wiki/00_Fundament/Arman_von_Draconis.md` verweist temporaer auf `[[Arman]]`, `bridge_inventory.invalid = 0`, und der fruehere P1-Blocker ist damit aus dem aktiven Fokus gefallen.
+
+- [x] **Wave 2: Pages Surface Hardening & Root-Tree Retirement**: `Siebenwind_Wiki/` wurde als physischer Altbaum entfernt, `pages validate --contract --json` als deterministischer Vertragsmodus eingefuehrt, `docs/assets/` auf produktive Assets begrenzt und die Maschinenoberflaechen auf `legacy_root_status = removed` umgestellt.
 
 - [x] **Bridge Blocker Pass**: `00_Religion_Uebersicht` und `03_Gesellschaft` wurden auf ihre kanonischen Zielartikel gehoben; fuer `Werke_index` entstand mit `docs/Siebenwind_Wiki/03_Wissen/Werke.md` ein stabiler Landing-Artikel. Ergebnis: `audit --json` fiel von `9` auf `3` Issues, `bridge_inventory.invalid` von `4` auf `1`.
 
@@ -68,6 +74,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 | [[RESEARCH-2026-003]] | Die Linari-Matrix | 🟡 | [ ] Offen |
 | [[RESEARCH-2026-004]] | Causa Tjure Odal & Arn Toron | 🔴 | [x] Review |
 | [[RESEARCH-2026-007]] | Dossier Rhadan (Zeichnung Tares) | 🔴 | [x] Review |
+| [[RESEARCH-2026-018]] | Magie/index-Disambiguierung nach mechanischer Linkwelle | 🔴 | [ ] Offen |
 | [[RESEARCH-2026-012]] | Das Grünland (Geografie & Siedlung) | 🔴 | [ ] Offen |
 | [[RESEARCH-2026-017]] | Die Entdeckung Siebenwinds (1 n.H.) | 🟡 | [x] Bearbeitung |
 

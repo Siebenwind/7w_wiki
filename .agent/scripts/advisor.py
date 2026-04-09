@@ -228,7 +228,8 @@ def read_pages_health() -> dict:
         return {
             "status": "UNKNOWN",
             "canonical_wiki_root": "docs/Siebenwind_Wiki",
-            "legacy_wiki_root": "Siebenwind_Wiki",
+            "legacy_wiki_root": None,
+            "legacy_root_status": "removed",
             "drift_status": "UNKNOWN",
             "drift_counts": {
                 "docs_only_files": 0,
@@ -260,7 +261,8 @@ def read_pages_health() -> dict:
     return {
         "status": pages.get("status", snapshot.get("status", "UNKNOWN")),
         "canonical_wiki_root": pages.get("canonical_wiki_root", "docs/Siebenwind_Wiki"),
-        "legacy_wiki_root": pages.get("legacy_wiki_root", "Siebenwind_Wiki"),
+        "legacy_wiki_root": pages.get("legacy_wiki_root"),
+        "legacy_root_status": pages.get("legacy_root_status", "removed"),
         "drift_status": pages.get("drift_status", "UNKNOWN"),
         "drift_counts": pages.get(
             "drift_counts",

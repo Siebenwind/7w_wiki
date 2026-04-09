@@ -22,7 +22,7 @@ Das Orakel ermöglicht semantische, nicht-lineare Suche über das gesamte Sieben
 | Collection | Inhalt | Level |
 |------------|--------|-------|
 | `siebenwind_quellen` | `/Quellen/` — Rohmaterial | canon, chronicle, lore, legend |
-| `siebenwind_wiki` | `/Siebenwind_Wiki/` — Abgeleitetes Wissen | wiki |
+| `siebenwind_wiki` | `/docs/Siebenwind_Wiki/` — Abgeleitetes Wissen | wiki |
 
 ## Voraussetzungen
 

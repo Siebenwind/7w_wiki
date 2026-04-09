@@ -15,7 +15,7 @@ Kanonischer Vertrag fuer Drift-Praevention, Pages-Integritaet und epistemische P
 
 1. Epistemische Praezedenz ist verbindlich: `Homepage > Quellen > Wiki Pages`.
 2. `docs/Siebenwind_Wiki/` ist der technische Edit- und Publishing-Baum fuer Wiki-Pages, aber nicht die hoechste Wahrheitsebene.
-3. Split-Brain zwischen `docs/Siebenwind_Wiki/` und `Siebenwind_Wiki/` ist ein technischer Defect, kein normaler Betriebszustand.
+3. Das Wurzelverzeichnis `Siebenwind_Wiki/` ist retired; seine Wiederkehr ist ein technischer Defect, kein normaler Betriebszustand.
 
 ## Content-Contract
 
@@ -29,9 +29,10 @@ Kanonischer Vertrag fuer Drift-Praevention, Pages-Integritaet und epistemische P
 
 1. `./7w_wiki.py pages validate --json` ist die kanonische Site-Integritaetsprobe.
 2. `./7w_wiki.py pages validate --json --strict-links` ist der harte Gate-Modus fuer nicht-allowlistete Targets.
-3. `./7w_wiki.py audit --pages` spiegelt denselben Site-Zustand im Audit.
-4. `./7w_wiki.py repair --fix-roamlinks --auto` ist der begrenzte Reparaturpfad fuer hohe Trefferwahrscheinlichkeit.
-5. Pages-Warnungen pruefen technischen Publishing-Drift; sie entscheiden keine Lore-Wahrheit gegen Homepage oder Quellen.
+3. `./7w_wiki.py pages validate --contract --json` ist der deterministische Contract-/CI-Modus ohne MkDocs-Build und ohne Snapshot-Schreibseitenwirkungen.
+4. `./7w_wiki.py audit --pages` spiegelt denselben Site-Zustand im Audit.
+5. `./7w_wiki.py repair --fix-roamlinks --auto` ist der begrenzte Reparaturpfad fuer hohe Trefferwahrscheinlichkeit.
+6. Pages-Warnungen pruefen technischen Publishing-Drift; sie entscheiden keine Lore-Wahrheit gegen Homepage oder Quellen.
 
 ## Traceability
 

@@ -7,7 +7,12 @@ import subprocess
 import sys
 import time
 
-from pages_integrity import collect_pages_build_report, now_iso, write_pages_health_snapshot
+from pages_integrity import (
+    collect_pages_build_report,
+    collect_pages_contract_report,
+    now_iso,
+    write_pages_health_snapshot,
+)
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 REPO_CLI = os.path.join(REPO_ROOT, "7w_wiki.py")
@@ -125,6 +130,17 @@ def _run_validation_check(command_args, json_mode):
 
 def _build_validate_report(args):
     started_total = time.perf_counter()
+    if args.contract:
+        report = collect_pages_contract_report(config=args.config)
+        exit_code = 0 if report["status"] != "FAIL" else 1
+        if args.strict_links and report["pages_health"].get("unallowlisted_total", 0) > 0:
+            report["status"] = "FAIL"
+            report["pages_health"]["status"] = "FAIL"
+            exit_code = 1
+        report.setdefault("validation_timing_ms", {})
+        report["validation_timing_ms"].setdefault("total", round((time.perf_counter() - started_total) * 1000, 2))
+        return report, exit_code
+
     status_rc = cmd_status(args, silent=args.json)
     if status_rc != 0:
         return {
@@ -138,7 +154,8 @@ def _build_validate_report(args):
             "pages_health": {
                 "status": "FAIL",
                 "canonical_wiki_root": "docs/Siebenwind_Wiki",
-                "legacy_wiki_root": "Siebenwind_Wiki",
+                "legacy_wiki_root": None,
+                "legacy_root_status": "removed",
                 "drift_status": "FAIL",
                 "drift_counts": {
                     "docs_only_files": 0,
@@ -193,7 +210,8 @@ def _build_validate_report(args):
                 "pages_health": {
                     "status": "FAIL",
                     "canonical_wiki_root": "docs/Siebenwind_Wiki",
-                    "legacy_wiki_root": "Siebenwind_Wiki",
+                    "legacy_wiki_root": None,
+                    "legacy_root_status": "removed",
                     "drift_status": "FAIL",
                     "drift_counts": {
                         "docs_only_files": 0,
@@ -306,6 +324,7 @@ def main():
     build_parser.add_argument("--config", default="mkdocs.yml", help="mkdocs config path")
 
     validate_parser = subparsers.add_parser("validate", help="Run runtime checks and mkdocs build")
+    validate_parser.add_argument("--contract", action="store_true", help="Use deterministic static validation for contracts/CI (no build, no snapshot writes)")
     validate_parser.add_argument("--fast", action="store_true", help="Use cached analysis plus the latest Pages snapshot as an advisory-only precheck")
     validate_parser.add_argument("--strict", action="store_true", help="Run mkdocs build in strict mode")
     validate_parser.add_argument("--strict-links", action="store_true", help="Fail if non-allowlisted unresolved internal links remain")

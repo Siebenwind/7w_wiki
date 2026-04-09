@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-09T13:41:55Z",
-  "inputs_fingerprint": "6e36c8ba4a6dec9a60be9477c7871bda30a8cba205a6df513e3b28f114aa4f75",
+  "generated_at": "2026-04-09T15:47:19Z",
+  "inputs_fingerprint": "5efcd10a3170ed3531dbdb7ef4c2fde3ce5e301bd31ce6190e3a97b1a8a0a317",
   "payload": {
     "index": {
       "01catar": [
@@ -10393,7 +10393,8 @@
         "docs/MASTER_TASK_LIST.md"
       ],
       "research2026018": [
-        "docs/Archiv/Research_Board.md"
+        "docs/Archiv/Research_Board.md",
+        "docs/MASTER_TASK_LIST.md"
       ],
       "researchboard": [
         "docs/Archiv/Historian_Report_2026_003.md",

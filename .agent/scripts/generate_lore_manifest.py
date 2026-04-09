@@ -83,8 +83,9 @@ def build_manifest(catalog: dict) -> dict:
         },
         "compatibility": {
             "legacy_cli_aliases": ["./7w.py"],
-            "root_wiki_tree": "Siebenwind_Wiki",
-            "note": "The root wiki tree survives only as a compatibility remnant; docs/Siebenwind_Wiki is the canonical technical tree.",
+            "root_wiki_tree": None,
+            "legacy_root_status": "removed",
+            "note": "The root wiki tree has been retired; docs/Siebenwind_Wiki is the canonical technical tree.",
         },
         "capabilities": {
             "rag": "Oracle (semantic search with explicit source scope)",
@@ -94,7 +95,8 @@ def build_manifest(catalog: dict) -> dict:
         },
         "structure": {
             "technical_wiki_root": "docs/Siebenwind_Wiki/",
-            "legacy_wiki_root": "Siebenwind_Wiki/",
+            "legacy_wiki_root": None,
+            "legacy_root_status": "removed",
             "sources_root": "Quellen/",
             "agent_core": ".agent/",
             "catalog": ".agent/catalog/",

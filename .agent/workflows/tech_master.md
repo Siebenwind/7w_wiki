@@ -13,6 +13,7 @@ Dieses Department ist das Revier des **Netz-Ingenieurs**. Es ist zuständig für
 > - Epistemic precedence: `Homepage > Quellen > Wiki Pages`.
 > - `docs/Siebenwind_Wiki/` is the technical edit/publish tree, not the highest truth source.
 > - Technical drift is validated via `./7w_wiki.py sanitize`, `./7w_wiki.py audit`, and `./7w_wiki.py pages validate --json [--strict-links]`.
+> - Deterministic contract/CI checks use `./7w_wiki.py pages validate --contract --json`.
 > - `--strict` hardens the MkDocs build; `--strict-links` is the hard unresolved-link gate.
 > - Generated command registries are synced by `./7w_wiki.py tech --sync-docs` / `--sync-interop`; narrative rules live in the canonical contract.
 <!-- END GENERATED DRIFT CONTRACT REFERENCE -->
@@ -22,6 +23,7 @@ Dieses Department ist das Revier des **Netz-Ingenieurs**. Es ist zuständig für
   - `7w_wiki.py sanitize --auto`
   - `7w_wiki.py package --platform ubuntu|debian|macos|wsl --profile full|agent-only`
   - `7w_wiki.py pages status|build|validate`
+  - `7w_wiki.py pages validate --contract --json`
   - `7w_wiki.py pages validate --json [--strict-links]`
   - `7w_wiki.py watch`
   - `7w_wiki.py index --status`
@@ -83,10 +85,13 @@ Führe bei Leerlauf diese Wartungsschritte durch, um Struktur und Dokumentation 
    - Bundles fuer Entwickler lokal nur ueber `./7w_wiki.py package ...` bauen; `dist/` bleibt Runtime-Artefakt und wird nicht committed.
 3. **Dokumentations-Tests:**
    - `./7w_wiki.py test --suite interop-doc-links`
-   - `./7w_wiki.py test --suite pages-link-contract`
+   - `./7w_wiki.py test --suite pages-contract-mode-contract`
+   - `./7w_wiki.py test --suite root-tree-retirement-contract`
+   - `./7w_wiki.py test --suite styling-surface-contract`
    - `./7w_wiki.py test --suite reader-stats-contract`
    - `./7w_wiki.py test --suite bridge-placeholder-guard`
 4. **Pages Integritaet:**
+   - Fuer deterministische Contract-/CI-Pruefung: `./7w_wiki.py pages validate --contract --json`
    - Fuer schnelle Vorpruefung: `./7w_wiki.py pages validate --json --fast`
    - `./7w_wiki.py pages validate --json --strict-links`
    - Bei konzentrierten WARN-Targets: `./7w_wiki.py repair --fix-roamlinks --auto`

@@ -1,0 +1,28 @@
+{
+  "suite": "styling-surface-contract",
+  "description": "Guard that only one active styling authority is presented and that operator guidance points to the published styling profile.",
+  "cases": [
+    {
+      "id": "system-styling-is-thin-pointer",
+      "name": "System/STYLING points operators at docs/STYLING as the active authority",
+      "required_regex_by_file": [
+        {
+          "file": "System/STYLING.md",
+          "must_include_regex": [
+            "docs/STYLING\\.md",
+            "production-only",
+            "retired Root-Verzeichnis `Siebenwind_Wiki/`"
+          ]
+        },
+        {
+          "file": "docs/STYLING.md",
+          "must_include_regex": [
+            "docs/assets/themes/base\\.css",
+            "docs/assets/themes/material\\.css",
+            "production-only"
+          ]
+        }
+      ]
+    }
+  ]
+}

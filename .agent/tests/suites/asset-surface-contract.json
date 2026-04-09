@@ -19,6 +19,7 @@
           "must_include_regex": [
             "docs/assets/themes/base\\.css",
             "docs/assets/themes/material\\.css",
+            "production-only",
             "System/Design_Assets/"
           ]
         },
@@ -26,6 +27,7 @@
           "file": "System/Synapse_Board/SY_INTEROP.md",
           "must_include_regex": [
             "`docs/assets/` ist die kanonische Live-Asset-Oberflaeche",
+            "production-only",
             "`System/Design_Assets/` ist der historische bzw\\. quellseitige Design-Archivbereich"
           ]
         },
@@ -36,6 +38,35 @@
             "`System/Design_Assets/` beherbergt historische oder rohe Designquellen"
           ]
         }
+      ]
+    },
+    {
+      "id": "no-live-design-proposals",
+      "name": "docs/assets/design_proposals has been removed from the live asset surface",
+      "paths_must_not_exist": [
+        "docs/assets/design_proposals"
+      ]
+    },
+    {
+      "id": "no-live-design-proposals-guidance",
+      "name": "Active guidance no longer points at docs/assets/design_proposals",
+      "pattern_check_globs": [
+        "AGENTS.md",
+        "README.md",
+        "docs/STYLING.md",
+        "docs/Agenten/*.md",
+        "System/Synapse_Board/*.md",
+        "System/AGENT_OPERATIONS_HANDBOOK.md",
+        ".agent/workflows/*.md",
+        ".agent/skills/**/*.md"
+      ],
+      "exclude_globs": [
+        "System/Synapse_Board/DISPATCH/**",
+        "System/_archive/**",
+        ".agent/scripts/_archive/**"
+      ],
+      "forbid_regex": [
+        "docs/assets/design_proposals/"
       ]
     },
     {

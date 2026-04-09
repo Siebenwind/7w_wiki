@@ -1,6 +1,6 @@
 status: RESEARCHING
 priority: 1
-source_files: ["/System/Sandbox/test_source.md", "/System/Sandbox/test_source_2.md", "Siebenwind_Wiki/02_Geografie/Region_Galadon.md"]
+source_files: [".agent/tests/fixtures/falkensee/test_source.md", ".agent/tests/fixtures/falkensee/test_source_2.md", "docs/Siebenwind_Wiki/02_Geografie/Region_Galadon.md"]
 detected_by: Archivar (Simulation)
 ---
 
@@ -21,7 +21,7 @@ Drei-Wege-Widerspruch zur Gründung von Falkensee:
 1. **Priorisierung:** Kanon (12 n.H.) bleibt das offizielle Datum.
 2. **Integration:** Die Info aus `test_source_2` wird als "Frühe Gerüchte/Siedlungsspuren" unter `#überlieferung` aufgenommen.
 3. **Korrektur:** Die Behauptung aus `test_source` wird als "unzuverlässige Chronik" verworfen.
-4. **Wiki-Aktion:** Erstelle `Falkensee_Timeline.tmp` in `/System/Sandbox/` mit diesen korrigierten Daten.
+4. **Wiki-Aktion:** Erstelle `Falkensee_Timeline.tmp` unter `.agent/tests/fixtures/falkensee/` mit diesen korrigierten Daten.
 
 # Gutachten & Empfehlungen
 ## 🧠 Der Historiker (Lore Opinion)

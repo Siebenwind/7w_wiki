@@ -2,7 +2,7 @@
 id: 2026-001
 status: AUTO_RESOLVED
 priority: 3
-source_files: ["Siebenwind_Wiki/07_Persoenlichkeiten/Cendaric_Tibur.md", "Quellen/Zeitung 7w Bote/Siebenwind Bote 172.md"]
+source_files: ["docs/Siebenwind_Wiki/07_Persoenlichkeiten/Cendaric_Tibur.md", "Quellen/Zeitung 7w Bote/Siebenwind Bote 172.md"]
 detected_by: Historiker (Legacy Migration)
 ---
 

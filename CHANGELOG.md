@@ -1,5 +1,29 @@
 # Changelog
 
+#### [2026-04-09.01] - Wave 2 Pages-Haertung abgeschlossen und Restbestand fuer Handover neu fokussiert
+### Prioritaet: P1
+### Geändert
+- `7w_wiki.py`, `.agent/scripts/pages_tool.py` und `.agent/scripts/pages_integrity.py`: deterministischen Vertragsmodus `./7w_wiki.py pages validate --contract --json` eingefuehrt; Full-Validate bleibt fuer Operatoren erhalten.
+- `.agent/scripts/advisor.py`, `.agent/scripts/content_contract.py`, `.agent/scripts/generate_lore_manifest.py` und `lore_manifest.json`: Legacy-Root-Surface auf `legacy_wiki_root = null` und `legacy_root_status = "removed"` umgestellt.
+- `docs/assets/design_proposals/*` nach `System/Design_Assets/design_proposals/2026-04-wave2/` verlagert; `docs/assets/` damit auf produktive/publizierte Assets begrenzt.
+- `MASTER_TASK_LIST.md`: den veralteten P1-Blocker `Arman_von_Draconis` aus dem aktiven Fokus entfernt und den realen Restbestand auf `layout`-Contract-Cleanup, `Zeitstrahl`-Reparatur, semantischen Pages-Backlog sowie offene Historian-/Forum-Spuren umgestellt.
+- `System/STYLING.md`, `System/Synapse_Board/SY_INTEROP.md`, `System/Synapse_Board/SY_TESTING.md`, `docs/Agenten/interop.md`, `docs/Agenten/workflows.md` und `AGENTS.md`: auf Root-Tree-Retirement, produktive Asset-Surface und die neuen Suites `pages-contract-mode-contract`, `pages-full-smoke`, `root-tree-retirement-contract` und `styling-surface-contract` gehoben.
+### Hinzugefügt
+- `.agent/tests/suites/pages-contract-mode-contract.json`, `.agent/tests/suites/pages-full-smoke.json`, `.agent/tests/suites/root-tree-retirement-contract.json` und `.agent/tests/suites/styling-surface-contract.json`: neue Wave-2-Vertraege fuer deterministische Pages-Validierung, finalen Root-Tree-Retirement-Check und die Styling-Autoritaet.
+- `Logs/Archive/SESSION_MEMORY_2026-04-09_WAVE2_PAGES_HANDOVER.md`: Handover-Notiz mit Restbestand, Validierung und Operationsplan fuer den naechsten Agenten.
+### Validiert
+- `python3 -m py_compile .agent/scripts/advisor.py .agent/scripts/content_contract.py .agent/scripts/generate_lore_manifest.py .agent/scripts/pages_integrity.py .agent/scripts/pages_tool.py .agent/scripts/repair.py .agent/scripts/repo_hygiene.py .agent/scripts/sync_runtime_docs.py .agent/scripts/test_runner.py 7w_wiki.py`
+- `./7w_wiki.py tech --sync-interop`
+- `./7w_wiki.py tech --manifest`
+- `./7w_wiki.py tech --repo-hygiene --apply --json`
+- `./7w_wiki.py stats`
+- `./7w_wiki.py archive rotate`
+- `./7w_wiki.py advisor --json`
+- `./7w_wiki.py audit --json`
+- `./7w_wiki.py start --list-reviews`
+- `./7w_wiki.py test --suite all`
+- `./7w_wiki.py test --suite pages-full-smoke`
+
 #### [2026-04-08.11] - Semantischen Restbestand in Historian- und Technician-Spur aufgeteilt
 ### Prioritaet: P2
 ### Hinzugefügt

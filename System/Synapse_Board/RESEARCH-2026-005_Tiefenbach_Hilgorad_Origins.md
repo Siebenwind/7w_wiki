@@ -17,7 +17,7 @@ In vorangegangenen Analysen wurden möglicherweise Fakten halluziniert oder fals
 - `Quellen/Hintergrund/Nortraven | Siebenwind | Ultima Online Freeshard | Siebenwind.md` (Schiffbau-Pakt)
 - `Quellen/Zeitung 7w Bote/Siebenwind Bote 164.md` (Magierturm-Details)
 - `Quellen/Bibliothek Toran Dur/` (Historische Berichte)
-- `Siebenwind_Wiki/07_Persoenlichkeiten/Hilgorad_I_ap_Mer.md`
+- `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hilgorad_I_ap_Mer.md`
 
 ## ⚠️ Warnhinweis (Halluzinations-Schutz)
 Jede Behauptung muss mit einem direkten Zitat oder einer Dateischnittstelle belegt werden. Begriffe wie "strahlende Hauptstadt" dürfen nur verwendet werden, wenn sie explizit in einer Quelle auftauchen.

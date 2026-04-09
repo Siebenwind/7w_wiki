@@ -13,7 +13,7 @@ Verbindlicher Standard fuer reproduzierbare Testdurchlaeufe, Defect-Kommunikatio
 
 ## Ziel
 
-1. Testlaeufe standardisieren (`clean-client-state`, `takeover-handover`, `interop-doc-links`, `interop-command-registry`, `workflow-matrix-contract`, `tool-manifest-contract`, `pages-link-contract`, `source-link-hygiene`, `process-dispatch-curiosity`, `bridge-placeholder-guard`, `reader-stats-contract`, `all` + optional `rag-relevance-smoke`).
+1. Testlaeufe standardisieren (`clean-client-state`, `takeover-handover`, `interop-doc-links`, `interop-command-registry`, `workflow-matrix-contract`, `tool-manifest-contract`, `pages-contract-mode-contract`, `pages-full-smoke`, `root-tree-retirement-contract`, `styling-surface-contract`, `source-link-hygiene`, `process-dispatch-curiosity`, `bridge-placeholder-guard`, `reader-stats-contract`, `all` + optional `rag-relevance-smoke`).
 2. Defects ohne stille Fixes behandeln.
 3. Fixes nur auf Basis kommunizierter Auftraege umsetzen.
 4. Technischen Drift frueh sichtbar machen (`content-contract`, `split-brain-guard`, `render-hygiene`) und epistemischen Drift getrennt behandeln. Der kanonische Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](SY_DRIFT_PAGES_CONTRACT.md).
@@ -27,7 +27,9 @@ Verbindlicher Standard fuer reproduzierbare Testdurchlaeufe, Defect-Kommunikatio
 - `./7w_wiki.py test --suite interop-command-registry`
 - `./7w_wiki.py test --suite workflow-matrix-contract`
 - `./7w_wiki.py test --suite tool-manifest-contract`
-- `./7w_wiki.py test --suite pages-link-contract`
+- `./7w_wiki.py test --suite pages-contract-mode-contract`
+- `./7w_wiki.py test --suite root-tree-retirement-contract`
+- `./7w_wiki.py test --suite styling-surface-contract`
 - `./7w_wiki.py test --suite source-link-hygiene`
 - `./7w_wiki.py test --suite process-dispatch-curiosity`
 - `./7w_wiki.py test --suite bridge-placeholder-guard`
@@ -50,6 +52,7 @@ Stabilitaetsregel:
 - `--suite all` laesst `rag-relevance-smoke` standardmaessig aus.
 - RAG-Smoke nur als explizite Diagnose per `--include-rag` oder direktem Suite-Aufruf.
 - Pages-/Link-Suiten decken technischen Publishing-Drift ab; sie belegen keine epistemische Korrektheit gegen Homepage oder Quellen.
+- Fuer Pages-/Navigationsaenderungen zusaetzlich `./7w_wiki.py test --suite pages-full-smoke` oder den Operatorpfad `./7w_wiki.py pages validate --json` laufen lassen.
 
 RAG-Diagnose- und Benchmarkdoku:
 - `docs/Archiv/RAG_DIAGNOSE_2026-02-16.md`

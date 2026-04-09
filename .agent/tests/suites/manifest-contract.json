@@ -33,7 +33,9 @@
             "\"generated_from\": \"\\.agent/catalog/catalog\\.v1\\.json\"",
             "\"cli\": \"\\./7w_wiki\\.py\"",
             "\"technical_wiki_root\": \"docs/Siebenwind_Wiki/\"",
-            "\"legacy_wiki_root\": \"Siebenwind_Wiki/\"",
+            "\"legacy_wiki_root\": null",
+            "\"legacy_root_status\": \"removed\"",
+            "\"root_wiki_tree\": null",
             "\"catalog\": \"\\.agent/catalog/\"",
             "\"mcp_server\": \"System/MCP/server\\.py\"",
             "\"published_assets\": \"docs/assets/\""

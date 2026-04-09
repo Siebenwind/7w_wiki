@@ -25,6 +25,7 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 > - Epistemic precedence: `Homepage > Quellen > Wiki Pages`.
 > - `docs/Siebenwind_Wiki/` is the technical edit/publish tree, not the highest truth source.
 > - Technical drift is validated via `./7w_wiki.py sanitize`, `./7w_wiki.py audit`, and `./7w_wiki.py pages validate --json [--strict-links]`.
+> - Deterministic contract/CI checks use `./7w_wiki.py pages validate --contract --json`.
 > - `--strict` hardens the MkDocs build; `--strict-links` is the hard unresolved-link gate.
 > - Generated command registries are synced by `./7w_wiki.py tech --sync-docs` / `--sync-interop`; narrative rules live in the canonical contract.
 <!-- END GENERATED DRIFT CONTRACT REFERENCE -->
@@ -127,14 +128,21 @@ Verbindlicher Einstieg:
 11. `./7w_wiki.py test --suite source-tree-contract`
 12. `./7w_wiki.py test --suite legacy-doc-contract`
 13. `./7w_wiki.py test --suite asset-surface-contract`
-14. `./7w_wiki.py test --suite tool-manifest-contract`
-15. `./7w_wiki.py test --suite pages-link-contract`
-16. `./7w_wiki.py test --suite source-link-hygiene`
-17. `./7w_wiki.py test --suite process-dispatch-curiosity`
-18. `./7w_wiki.py test --suite bridge-placeholder-guard`
-19. `./7w_wiki.py test --suite reader-stats-contract`
-20. Optional Gesamtlauf: `./7w_wiki.py test --suite all` (stabiler Standardlauf ohne RAG-Smoke)
-21. Optional Oracle-Diagnose: `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`
+14. `./7w_wiki.py test --suite root-tree-retirement-contract`
+15. `./7w_wiki.py test --suite styling-surface-contract`
+16. `./7w_wiki.py test --suite tool-manifest-contract`
+17. `./7w_wiki.py test --suite pages-contract-mode-contract`
+18. `./7w_wiki.py test --suite source-link-hygiene`
+19. `./7w_wiki.py test --suite process-dispatch-curiosity`
+20. `./7w_wiki.py test --suite bridge-placeholder-guard`
+21. `./7w_wiki.py test --suite reader-stats-contract`
+22. Optional Gesamtlauf: `./7w_wiki.py test --suite all` (stabiler Standardlauf ohne RAG-Smoke)
+23. Optional Oracle-Diagnose: `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`
+
+Bei Pages-/Navigationsaenderungen zusaetzlich:
+
+- `./7w_wiki.py test --suite pages-full-smoke`
+- `./7w_wiki.py pages validate --json`
 
 Defect-Regel:
 

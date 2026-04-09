@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-08T21:57:28Z",
-  "inputs_fingerprint": "cf73aad24a3ccca85d997e40af124e2960ec426fd5344b6ea4cfd2e22ddced4f",
+  "generated_at": "2026-04-09T15:47:20Z",
+  "inputs_fingerprint": "6bab12918d1704b6526b6b53855b43407d26f730230aafff9ec4109ece1313b0",
   "payload": {
     "bridge_inventory": {
       "invalid": 0,
@@ -23075,5 +23075,5 @@
       "issues": 0
     }
   },
-  "version": 2
+  "version": 3
 }

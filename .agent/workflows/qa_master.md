@@ -13,6 +13,7 @@ Dieses Department überwacht die Integrität des Wikis, bannt "Link-Dämonen" un
 > - Epistemic precedence: `Homepage > Quellen > Wiki Pages`.
 > - `docs/Siebenwind_Wiki/` is the technical edit/publish tree, not the highest truth source.
 > - Technical drift is validated via `./7w_wiki.py sanitize`, `./7w_wiki.py audit`, and `./7w_wiki.py pages validate --json [--strict-links]`.
+> - Deterministic contract/CI checks use `./7w_wiki.py pages validate --contract --json`.
 > - `--strict` hardens the MkDocs build; `--strict-links` is the hard unresolved-link gate.
 > - Generated command registries are synced by `./7w_wiki.py tech --sync-docs` / `--sync-interop`; narrative rules live in the canonical contract.
 <!-- END GENERATED DRIFT CONTRACT REFERENCE -->
@@ -25,7 +26,8 @@ Dieses Department überwacht die Integrität des Wikis, bannt "Link-Dämonen" un
   - `7w_wiki.py repair --fix-roamlinks [--auto] [--dry-run]`
   - `7w_wiki.py sanitize --auto`
   - `7w_wiki.py test --suite clean-client-state`
-  - `7w_wiki.py test --suite pages-link-contract`
+  - `7w_wiki.py test --suite pages-contract-mode-contract`
+  - `7w_wiki.py test --suite root-tree-retirement-contract`
   - `7w_wiki.py stats`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py mail post --from Guardian --to <agent|ALL> --subject "<text>" --body "<text>"`
@@ -98,7 +100,8 @@ Wenn User oder externe Systeme Inhalte einreichen (z.B. PRs):
 ## 4. Abschluss & Dokumentation
 1. Führe `./7w_wiki.py audit` erneut aus. Ziel: `✅ Keine Duplikate`, `✅ Alle Profile registriert`.
 2. Führe `./7w_wiki.py test --suite bridge-placeholder-guard` aus.
-3. Führe `./7w_wiki.py test --suite pages-link-contract` aus.
-4. Führe `./7w_wiki.py stats` aus, um die Dashboard-Metriken zu erneuern.
-5. Mache einen präzisen Git-Commit (z.B. `fix(lore): resolved 5 orphan links and deductive deduplication`).
-6. Schließe offene QA-Tickets via Dispatch (`mail done`).
+3. Führe `./7w_wiki.py test --suite pages-contract-mode-contract` aus.
+4. Pruefe bei Pages-/Navigationsaenderungen optional `./7w_wiki.py test --suite pages-full-smoke`.
+5. Führe `./7w_wiki.py stats` aus, um die Dashboard-Metriken zu erneuern.
+6. Mache einen präzisen Git-Commit (z.B. `fix(lore): resolved 5 orphan links and deductive deduplication`).
+7. Schließe offene QA-Tickets via Dispatch (`mail done`).

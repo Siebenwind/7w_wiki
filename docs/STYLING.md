@@ -17,7 +17,7 @@ In `mkdocs.yml` unter `extra_css`:
 - Für MkDocs Material: zusätzlich `assets/themes/material.css` laden.
 
 Asset-Regel:
-- `docs/assets/` ist die Live-Asset-Surface fuer publizierte Artefakte.
+- `docs/assets/` ist die Live-Asset-Surface fuer publizierte Artefakte und production-only.
 - `System/Design_Assets/` ist historischer bzw. quellseitiger Design-Bestand.
 
 ## Designrichtung

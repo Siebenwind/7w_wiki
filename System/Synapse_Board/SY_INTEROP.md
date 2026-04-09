@@ -26,6 +26,7 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
 > - Epistemic precedence: `Homepage > Quellen > Wiki Pages`.
 > - `docs/Siebenwind_Wiki/` is the technical edit/publish tree, not the highest truth source.
 > - Technical drift is validated via `./7w_wiki.py sanitize`, `./7w_wiki.py audit`, and `./7w_wiki.py pages validate --json [--strict-links]`.
+> - Deterministic contract/CI checks use `./7w_wiki.py pages validate --contract --json`.
 > - `--strict` hardens the MkDocs build; `--strict-links` is the hard unresolved-link gate.
 > - Generated command registries are synced by `./7w_wiki.py tech --sync-docs` / `--sync-interop`; narrative rules live in the canonical contract.
 <!-- END GENERATED DRIFT CONTRACT REFERENCE -->
@@ -122,6 +123,7 @@ Fuer Agent-zu-Agent Arbeit ist `SY_DISPATCH` verbindlich:
 ## Norm 4b: Pages-Integrity-Policy
 - Der verbindliche Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](SY_DRIFT_PAGES_CONTRACT.md).
 - Publizierte Site-Integritaet wird ueber `./7w_wiki.py pages validate --json` und `./7w_wiki.py audit --pages` sichtbar gemacht.
+- Deterministische Contract-/CI-Pruefung laeuft ueber `./7w_wiki.py pages validate --contract --json`.
 - Default-Semantik: unresolved interne Roamlinks-Ziele sind `WARN`, kein harter FAIL.
 - Harter Gate-Modus ist explizit: `./7w_wiki.py pages validate --json --strict-links`.
 - Erwartete Ausnahmen duerfen nur in `.agent/config/pages_link_policy.json` gepflegt werden.
@@ -166,8 +168,8 @@ Nicht existente, aber als Pflicht benannte Dateien sind als **interop blocker** 
 
 ## Norm 9b: Tree- und Asset-Kanon
 - `docs/Siebenwind_Wiki/` ist der einzige aktive technische Wiki-Baum.
-- Das Wurzelverzeichnis `Siebenwind_Wiki/` ist nur noch ein vestigialer Kompatibilitaetsrest und kein normaler Edit-Pfad.
-- `docs/assets/` ist die kanonische Live-Asset-Oberflaeche fuer publizierte Styles, Banner und statische Medien.
+- Das Wurzelverzeichnis `Siebenwind_Wiki/` ist retired; seine Wiederkehr gilt als technischer Defect.
+- `docs/assets/` ist die kanonische Live-Asset-Oberflaeche fuer publizierte Styles, Banner und statische Medien und production-only.
 - `System/Design_Assets/` ist der historische bzw. quellseitige Design-Archivbereich.
 - Top-Level-`assets/` ist kein aktiver Arbeitsort mehr.
 
@@ -177,13 +179,14 @@ Bei jedem groesseren Update:
 2. Abgleich Workflow-Kommandos gegen `7w_wiki.py`.
 3. Dispatch-Queue auf offene Direktiven pruefen.
 4. Interop-Testlauf ausfuehren (`./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-doc-links`, optional RAG-Diagnose nur explizit via `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`).
-5. Pages-Contract pruefen (`./7w_wiki.py test --suite pages-link-contract`).
-6. Bridge-Guard pruefen (`./7w_wiki.py test --suite bridge-placeholder-guard`).
-7. Catalog-, Adapter- und Delegation-Guards pruefen (`./7w_wiki.py test --suite catalog-contract`, `adapter-surfaces-contract`, `delegation-policy-contract`).
-8. Reader-Stats-Guard pruefen (`./7w_wiki.py test --suite reader-stats-contract`).
-9. Content-Contract-Guards pruefen (`./7w_wiki.py test --suite content-contract`, `split-brain-guard`, `render-hygiene`).
-10. Bei lore-relevanten Aenderungen dokumentieren, dass Homepage/Quellen gegen den Wiki-Edit-Baum abgeglichen wurden und dass der Drift-/Pages-Vertrag eingehalten wurde.
-11. Changelog-Eintrag mit Interop-Delta erstellen.
+5. Pages-Contract pruefen (`./7w_wiki.py test --suite pages-contract-mode-contract`).
+6. Root-Retirement- und Styling-Surfaces pruefen (`./7w_wiki.py test --suite root-tree-retirement-contract`, `styling-surface-contract`).
+7. Bridge-Guard pruefen (`./7w_wiki.py test --suite bridge-placeholder-guard`).
+8. Catalog-, Adapter- und Delegation-Guards pruefen (`./7w_wiki.py test --suite catalog-contract`, `adapter-surfaces-contract`, `delegation-policy-contract`).
+9. Reader-Stats-Guard pruefen (`./7w_wiki.py test --suite reader-stats-contract`).
+10. Content-Contract-Guards pruefen (`./7w_wiki.py test --suite content-contract`, `split-brain-guard`, `render-hygiene`).
+11. Bei lore-relevanten Aenderungen dokumentieren, dass Homepage/Quellen gegen den Wiki-Edit-Baum abgeglichen wurden und dass der Drift-/Pages-Vertrag eingehalten wurde.
+12. Changelog-Eintrag mit Interop-Delta erstellen.
 
 ## Beschluss
 Diese Norm gilt ab sofort fuer alle neuen und ueberarbeiteten Antigravity-Artefakte.

@@ -358,6 +358,10 @@
       "parameters": {
         "type": "object",
         "properties": {
+          "contract": {
+            "type": "boolean",
+            "description": "Use deterministic static validation for contracts/CI (no build, no snapshot writes)"
+          },
           "fast": {
             "type": "boolean",
             "description": "Use cached analysis plus the latest Pages snapshot as an advisory-only precheck"

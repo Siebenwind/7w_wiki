@@ -1,0 +1,39 @@
+{
+  "suite": "root-tree-retirement-contract",
+  "description": "Guard the final retirement of the filesystem root wiki tree and forbid active root-tree assumptions.",
+  "cases": [
+    {
+      "id": "root-tree-physically-absent",
+      "name": "The retired root wiki tree no longer exists on disk",
+      "paths_must_not_exist": [
+        "Siebenwind_Wiki"
+      ]
+    },
+    {
+      "id": "active-surfaces-do-not-hardcode-root-tree",
+      "name": "Active scripts, prompts, and workflows do not hardcode retired root-tree or sandbox filesystem paths",
+      "pattern_check_globs": [
+        ".agent/skills/**/*.md",
+        ".agent/prompts/*.md",
+        ".agent/workflows/*.md",
+        ".agent/scripts/repair.py",
+        ".agent/scripts/pages_integrity.py",
+        ".agent/scripts/pages_tool.py",
+        ".agent/scripts/advisor.py",
+        "System/Synapse_Board/Conflict*.md",
+        "System/Synapse_Board/RESEARCH-*.md",
+        "System/MCP/README.md"
+      ],
+      "exclude_globs": [
+        "System/Synapse_Board/DISPATCH/**",
+        "System/_archive/**",
+        ".agent/scripts/_archive/**"
+      ],
+      "forbid_regex": [
+        "(?<!docs/)Siebenwind_Wiki/",
+        "/System/Sandbox/",
+        "System/Sandbox"
+      ]
+    }
+  ]
+}

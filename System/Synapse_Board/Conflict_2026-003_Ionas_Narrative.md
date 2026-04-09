@@ -2,7 +2,7 @@
 id: 2026-003
 status: NEEDS_REVIEW
 priority: 3
-source_files: ["Siebenwind_Wiki/07_Persoenlichkeiten/Ionas.md"]
+source_files: ["docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ionas.md"]
 detected_by: Konsistenzbericht (Legacy)
 ---
 

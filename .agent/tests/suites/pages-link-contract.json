@@ -21,14 +21,14 @@
       ]
     },
     {
-      "id": "pages-validate-json",
-      "name": "pages validate emits machine-readable site integrity status and writes a snapshot",
+      "id": "pages-contract-compat-json",
+      "name": "Deprecated compatibility suite uses deterministic contract-mode validation",
       "cmd": [
         "./7w_wiki.py",
         "pages",
         "validate",
-        "--json",
-        "--skip-audit"
+        "--contract",
+        "--json"
       ],
       "expect_exit": 0,
       "expect_valid_json": true,
@@ -43,16 +43,14 @@
       "expect_json_path_exists": [
         "mode",
         "advisory_only",
-        "pages_health.last_validated_at",
+        "pages_health.legacy_root_status",
         "pages_health.targets",
         "pages_health.canonical_wiki_root",
         "pages_health.legacy_wiki_root",
         "pages_health.drift_status",
         "pages_health.drift_counts.docs_only_files",
-        "validation_timing_ms.prechecks_total",
-        "validation_timing_ms.report_build",
         "validation_timing_ms.total",
-        "build.timing_ms.total",
+        "build.reason",
         "pages_health.analysis_cache.docs_link_index.path",
         "pages_health.analysis_cache.docs_link_index.inputs_fingerprint",
         "pages_health.analysis_cache.docs_link_index.hit",
@@ -64,49 +62,16 @@
         "pages_health.analysis_cache.tree_drift.hit"
       ],
       "expect_json_path_equals": {
-        "mode": "full",
-        "advisory_only": false
+        "mode": "contract",
+        "advisory_only": true,
+        "pages_health.legacy_wiki_root": null,
+        "pages_health.legacy_root_status": "removed",
+        "build.skipped": true,
+        "pages_health.snapshot_written": false
       },
       "expect_json_path_in": {
         "pages_health.status": ["PASS", "WARN", "FAIL"],
         "pages_health.drift_status": ["PASS", "WARN", "FAIL"]
-      },
-      "timeout_sec": 300
-    },
-    {
-      "id": "pages-validate-fast-json",
-      "name": "pages validate --fast stays advisory-only and reports cached analysis metadata",
-      "cmd": [
-        "./7w_wiki.py",
-        "pages",
-        "validate",
-        "--json",
-        "--fast",
-        "--skip-audit"
-      ],
-      "expect_exit_any": [0, 1],
-      "expect_valid_json": true,
-      "expect_json_keys": [
-        "generated_at",
-        "status",
-        "checks",
-        "build",
-        "pages_health"
-      ],
-      "expect_json_path_exists": [
-        "mode",
-        "advisory_only",
-        "validation_timing_ms.total",
-        "build.skipped",
-        "pages_health.snapshot_based",
-        "pages_health.analysis_cache.docs_link_index.hit",
-        "pages_health.analysis_cache.canonical_name_index.hit",
-        "pages_health.analysis_cache.tree_drift.hit"
-      ],
-      "expect_json_path_equals": {
-        "mode": "fast",
-        "advisory_only": true,
-        "build.skipped": true
       },
       "timeout_sec": 120
     },
@@ -150,6 +115,7 @@
             "\"version\"",
             "\"generated_at\"",
             "\"inputs_fingerprint\"",
+            "\"legacy_root_status\"",
             "\"docs_only_files\"",
             "\"legacy_only_files\"",
             "\"content_mismatches\""
@@ -204,6 +170,7 @@
         "pages_health.last_validated_at",
         "pages_health.drift_status",
         "pages_health.canonical_wiki_root",
+        "pages_health.legacy_root_status",
         "tech_hygiene.last_sync_interop_at"
       ],
       "expect_stdout": [

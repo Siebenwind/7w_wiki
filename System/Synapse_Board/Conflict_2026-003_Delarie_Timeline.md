@@ -2,7 +2,7 @@
 id: 2026-003
 status: RESOLVED
 priority: 2
-source_files: ["Siebenwind_Wiki/07_Persoenlichkeiten/Waldemar_Delarie.md", "Quellen/Spielergeschichten/Waldemar Delaries Reise nach Papin.md", "Quellen/Zeitung 7w Bote/Siebenwind Bote 183.md"]
+source_files: ["docs/Siebenwind_Wiki/07_Persoenlichkeiten/Waldemar_Delarie.md", "Quellen/Spielergeschichten/Waldemar Delaries Reise nach Papin.md", "Quellen/Zeitung 7w Bote/Siebenwind Bote 183.md"]
 detected_by: Archivar (Consistency Scan)
 ---
 

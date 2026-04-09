@@ -14,11 +14,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from content_contract import (
-    ALLOWED_LEGACY_ARTIFACTS,
     CONTENT_CONTRACT_SCHEMA_VERSION,
-    LEGACY_WIKI_ROOT,
+    RETIRED_WIKI_ROOT,
     TECHNICAL_WIKI_ROOT,
-    content_hash,
     fingerprint_paths,
     load_analysis_cache,
     now_iso,
@@ -39,7 +37,7 @@ WARNING_LINE_RE = re.compile(r"^WARNING -\s+(?P<message>.+)$")
 WIKILINK_RE = re.compile(r"\[{2,}([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]{2,}")
 DOCS_LINK_INDEX_CACHE_VERSION = 1
 CANONICAL_NAME_INDEX_CACHE_VERSION = 1
-TREE_DRIFT_CACHE_VERSION = 1
+TREE_DRIFT_CACHE_VERSION = 2
 NORMALIZE_TRANSLATION = str.maketrans({
     "ä": "ae",
     "ö": "oe",
@@ -158,6 +156,16 @@ def _pages_runtime_paths(config: str = "mkdocs.yml") -> list[Path]:
     if VENV_MKDOCS.exists():
         paths.append(VENV_MKDOCS)
     return [path for path in paths if path.exists()]
+
+
+def legacy_root_status() -> dict:
+    retired_files = sorted(RETIRED_WIKI_ROOT.rglob("*.md")) if RETIRED_WIKI_ROOT.exists() else []
+    status = "present" if retired_files else "removed"
+    return {
+        "legacy_wiki_root": None,
+        "legacy_root_status": status,
+        "unexpected_files": [str(path.relative_to(REPO_ROOT)) for path in retired_files[:20]],
+    }
 
 
 def build_docs_link_index(use_cache: bool = True, *, config: str = "mkdocs.yml", return_meta: bool = False):
@@ -296,16 +304,16 @@ def build_canonical_name_index(use_cache: bool = True, *, config: str = "mkdocs.
 def collect_tree_drift(use_cache: bool = True, *, config: str = "mkdocs.yml", return_meta: bool = False):
     started = time.perf_counter()
     docs_all = sorted(TECHNICAL_WIKI_ROOT.rglob("*.md")) if TECHNICAL_WIKI_ROOT.exists() else []
-    legacy_all = sorted(LEGACY_WIKI_ROOT.rglob("*.md")) if LEGACY_WIKI_ROOT.exists() else []
+    retired_all = sorted(RETIRED_WIKI_ROOT.rglob("*.md")) if RETIRED_WIKI_ROOT.exists() else []
     inputs_fingerprint = fingerprint_paths(
-        docs_all + legacy_all + _pages_runtime_paths(config),
+        docs_all + retired_all + _pages_runtime_paths(config),
         extra={
             "cache": "tree_drift",
             "version": TREE_DRIFT_CACHE_VERSION,
             "content_contract_schema_version": CONTENT_CONTRACT_SCHEMA_VERSION,
             "technical_root": str(TECHNICAL_WIKI_ROOT.relative_to(REPO_ROOT)),
-            "legacy_root": str(LEGACY_WIKI_ROOT.relative_to(REPO_ROOT)),
-            "allowed_legacy_artifacts": sorted(str(path) for path in ALLOWED_LEGACY_ARTIFACTS),
+            "retired_root": str(RETIRED_WIKI_ROOT.relative_to(REPO_ROOT)),
+            "retired_root_strategy": "removed",
         },
     )
     if use_cache:
@@ -325,33 +333,23 @@ def collect_tree_drift(use_cache: bool = True, *, config: str = "mkdocs.yml", re
             }
             return (result, meta) if return_meta else result
 
-    docs_files = {
-        path.relative_to(TECHNICAL_WIKI_ROOT): path
-        for path in TECHNICAL_WIKI_ROOT.rglob("*.md")
-    } if TECHNICAL_WIKI_ROOT.exists() else {}
-    legacy_files = {
-        path.relative_to(LEGACY_WIKI_ROOT): path
-        for path in LEGACY_WIKI_ROOT.rglob("*.md")
-        if path.relative_to(LEGACY_WIKI_ROOT) not in ALLOWED_LEGACY_ARTIFACTS
-    } if LEGACY_WIKI_ROOT.exists() else {}
+    retired_files = (
+        {
+            path.relative_to(RETIRED_WIKI_ROOT): path
+            for path in RETIRED_WIKI_ROOT.rglob("*.md")
+        }
+        if RETIRED_WIKI_ROOT.exists()
+        else {}
+    )
 
-    docs_only = sorted(str(path) for path in docs_files.keys() - legacy_files.keys())
-    legacy_only = sorted(str(path) for path in legacy_files.keys() - docs_files.keys())
+    docs_only: list[str] = []
+    legacy_only = sorted(str(path) for path in retired_files.keys())
     content_mismatches: list[str] = []
-
-    for rel in sorted(docs_files.keys() & legacy_files.keys()):
-        try:
-            docs_hash = content_hash(docs_files[rel].read_text(encoding="utf-8"))
-            legacy_hash = content_hash(legacy_files[rel].read_text(encoding="utf-8"))
-        except Exception:
-            continue
-        if docs_hash != legacy_hash:
-            content_mismatches.append(str(rel))
-
-    drift_status = "FAIL" if legacy_only or content_mismatches else "PASS"
+    drift_status = "FAIL" if legacy_only else "PASS"
 
     result = {
         "status": drift_status,
+        "legacy_root_status": "present" if legacy_only else "removed",
         "docs_only_files": docs_only,
         "legacy_only_files": legacy_only,
         "content_mismatches": content_mismatches,
@@ -373,6 +371,98 @@ def collect_tree_drift(use_cache: bool = True, *, config: str = "mkdocs.yml", re
     return (result, meta) if return_meta else result
 
 
+def collect_pages_contract_report(config: str = "mkdocs.yml") -> dict:
+    started_total = time.perf_counter()
+    config_path = REPO_ROOT / config
+    snapshot = load_pages_health_snapshot()
+    drift, drift_meta = collect_tree_drift(config=config, return_meta=True)
+    _, link_meta = build_docs_link_index(config=config, return_meta=True)
+    _, canonical_meta = build_canonical_name_index(config=config, return_meta=True)
+    root_state = legacy_root_status()
+
+    pages_health = dict(snapshot.get("pages_health", {})) if snapshot else {}
+    pages_health["canonical_wiki_root"] = str(TECHNICAL_WIKI_ROOT.relative_to(REPO_ROOT))
+    pages_health["legacy_wiki_root"] = root_state["legacy_wiki_root"]
+    pages_health["legacy_root_status"] = root_state["legacy_root_status"]
+    pages_health["drift_status"] = drift["status"]
+    pages_health["drift_counts"] = {
+        "docs_only_files": len(drift["docs_only_files"]),
+        "legacy_only_files": len(drift["legacy_only_files"]),
+        "content_mismatches": len(drift["content_mismatches"]),
+    }
+    pages_health["drift_examples"] = {
+        "docs_only_files": drift["docs_only_files"][:20],
+        "legacy_only_files": drift["legacy_only_files"][:20],
+        "content_mismatches": drift["content_mismatches"][:20],
+    }
+    pages_health["analysis_cache"] = {
+        "docs_link_index": link_meta,
+        "canonical_name_index": canonical_meta,
+        "tree_drift": drift_meta,
+    }
+    pages_health["snapshot_based"] = bool(snapshot)
+    pages_health["snapshot_written"] = False
+    pages_health.setdefault("targets", [])
+    pages_health.setdefault("other_warnings", [])
+    pages_health.setdefault(
+        "classification_counts",
+        {
+            "safe_exact_match": 0,
+            "safe_alias_match": 0,
+            "generic_term_conflict": 0,
+            "needs_historian": 0,
+            "needs_human": 0,
+        },
+    )
+    pages_health["other_warnings"] = list(dict.fromkeys([
+        *pages_health["other_warnings"],
+        *(
+            []
+            if snapshot
+            else ["Contract mode uses static config and cached analysis only; unresolved-target counts come from the last snapshot when available."]
+        ),
+    ]))
+
+    static_failures: list[str] = []
+    if not config_path.exists():
+        static_failures.append("mkdocs config missing")
+    if not DOCS_DIR.exists():
+        static_failures.append("docs dir missing")
+    if drift["status"] == "FAIL":
+        static_failures.append("retired root tree unexpectedly present")
+
+    if static_failures:
+        status = "FAIL"
+    elif snapshot:
+        status = pages_health.get("status", "UNKNOWN")
+    else:
+        status = "PASS"
+    pages_health["status"] = status
+
+    return {
+        "generated_at": now_iso(),
+        "config": config,
+        "mode": "contract",
+        "advisory_only": True,
+        "status": status,
+        "checks": [],
+        "build": {
+            "skipped": True,
+            "reason": "contract_validation_static_only",
+            "config_exists": config_path.exists(),
+            "docs_dir_exists": DOCS_DIR.exists(),
+            "timing_ms": {
+                "total": round((time.perf_counter() - started_total) * 1000, 2),
+            },
+        },
+        "pages_health": pages_health,
+        "drift_health": {
+            "mode": "static_only",
+            "unexpected_legacy_files": root_state["unexpected_files"],
+        },
+    }
+
+
 def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = False, *, fast: bool = False) -> dict:
     started_total = time.perf_counter()
     if fast:
@@ -380,6 +470,7 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
         drift, drift_meta = collect_tree_drift(config=config, return_meta=True)
         _, link_meta = build_docs_link_index(config=config, return_meta=True)
         _, canonical_meta = build_canonical_name_index(config=config, return_meta=True)
+        root_state = legacy_root_status()
         if not snapshot:
             return {
                 "generated_at": now_iso(),
@@ -394,7 +485,8 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
                 "pages_health": {
                     "status": "FAIL",
                     "canonical_wiki_root": str(TECHNICAL_WIKI_ROOT.relative_to(REPO_ROOT)),
-                    "legacy_wiki_root": str(LEGACY_WIKI_ROOT.relative_to(REPO_ROOT)),
+                    "legacy_wiki_root": root_state["legacy_wiki_root"],
+                    "legacy_root_status": root_state["legacy_root_status"],
                     "analysis_cache": {
                         "docs_link_index": link_meta,
                         "canonical_name_index": canonical_meta,
@@ -418,7 +510,8 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
 
         pages_health = dict(snapshot.get("pages_health", {}))
         pages_health["canonical_wiki_root"] = str(TECHNICAL_WIKI_ROOT.relative_to(REPO_ROOT))
-        pages_health["legacy_wiki_root"] = str(LEGACY_WIKI_ROOT.relative_to(REPO_ROOT))
+        pages_health["legacy_wiki_root"] = root_state["legacy_wiki_root"]
+        pages_health["legacy_root_status"] = root_state["legacy_root_status"]
         pages_health["drift_status"] = drift["status"]
         pages_health["drift_counts"] = {
             "docs_only_files": len(drift["docs_only_files"]),
@@ -457,12 +550,16 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
 
     mkdocs_cmd, mkdocs_source = get_mkdocs_base_cmd()
     if not mkdocs_cmd:
+        root_state = legacy_root_status()
         return {
             "generated_at": now_iso(),
             "status": "FAIL",
             "build": {"exit_code": 1, "mkdocs_source": None},
             "pages_health": {
                 "status": "FAIL",
+                "canonical_wiki_root": str(TECHNICAL_WIKI_ROOT.relative_to(REPO_ROOT)),
+                "legacy_wiki_root": root_state["legacy_wiki_root"],
+                "legacy_root_status": root_state["legacy_root_status"],
                 "unresolved_total": 0,
                 "allowlisted_total": 0,
                 "planned_fix_total": 0,
@@ -575,6 +672,7 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
     elif targets or other_warnings:
         pages_status = "WARN"
     drift, drift_meta = collect_tree_drift(config=config, return_meta=True)
+    root_state = legacy_root_status()
     if drift["status"] == "FAIL":
         pages_status = "FAIL"
     elif drift["status"] == "WARN" and pages_status == "PASS":
@@ -606,7 +704,8 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
         "pages_health": {
             "status": pages_status,
             "canonical_wiki_root": str(TECHNICAL_WIKI_ROOT.relative_to(REPO_ROOT)),
-            "legacy_wiki_root": str(LEGACY_WIKI_ROOT.relative_to(REPO_ROOT)),
+            "legacy_wiki_root": root_state["legacy_wiki_root"],
+            "legacy_root_status": root_state["legacy_root_status"],
             "analysis_cache": {
                 "docs_link_index": link_meta,
                 "canonical_name_index": canonical_meta,

@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-04-08 23:55
+**Stand:** 2026-04-09 17:47
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -28,9 +28,9 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Aktive Tage |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 206 | - | 2 |
-| Letzte 30 Tage | 1276 | 3 | 4 |
-| Letzte 90 Tage | 1348 | - | 9 |
+| Letzte 7 Tage | 206 | - | 3 |
+| Letzte 30 Tage | 1276 | 3 | 5 |
+| Letzte 90 Tage | 1348 | - | 10 |
 
 ---
 
@@ -144,13 +144,14 @@ pie title Artikel pro Sektion
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 85 |
 | Davon ohne Ausnahme-Metadaten | 0 |
-| Test-Suiten PASS | 26 |
+| Test-Suiten PASS | 29 |
 | Test-Suiten FAIL | 0 |
 
 ### Letzte Test-Suites
 | Suite | Ergebnis | PASS | FAIL | SKIP |
 | :--- | :--- | ---: | ---: | ---: |
 | `adapter-surfaces-contract` | **PASS** | 3 | 0 | 0 |
+| `asset-surface-contract` | **PASS** | 4 | 0 | 0 |
 | `backlog-repair-contract` | **PASS** | 2 | 0 | 0 |
 | `bridge-placeholder-guard` | **PASS** | 2 | 0 | 0 |
 | `catalog-contract` | **PASS** | 2 | 0 | 0 |
@@ -158,23 +159,25 @@ pie title Artikel pro Sektion
 | `codex-workflow-bridges` | **PASS** | 2 | 0 | 0 |
 | `content-contract` | **PASS** | 1 | 0 | 0 |
 | `delegation-policy-contract` | **PASS** | 2 | 0 | 0 |
-| `dispatch-doc-runtime-alignment` | **PASS** | 2 | 0 | 0 |
-| `dispatch-governance-contract` | **PASS** | 1 | 0 | 0 |
 | `interop-command-registry` | **PASS** | 1 | 0 | 0 |
 | `interop-doc-links` | **PASS** | 1 | 0 | 0 |
 | `json-interop-contract` | **PASS** | 7 | 0 | 0 |
-| `pages-link-contract` | **PASS** | 6 | 0 | 0 |
+| `legacy-doc-contract` | **PASS** | 2 | 0 | 0 |
+| `manifest-contract` | **PASS** | 2 | 0 | 0 |
+| `pages-contract-mode-contract` | **PASS** | 1 | 0 | 0 |
+| `pages-full-smoke` | **PASS** | 1 | 0 | 0 |
+| `pages-link-contract` | **PASS** | 5 | 0 | 0 |
 | `process-dispatch-curiosity` | **PASS** | 1 | 0 | 0 |
-| `prompt-runtime-contract` | **PASS** | 2 | 0 | 0 |
 | `reader-stats-contract` | **PASS** | 2 | 0 | 0 |
 | `render-hygiene` | **PASS** | 2 | 0 | 0 |
-| `review-install-contract` | **PASS** | 9 | 0 | 0 |
-| `runtime-artifact-contract` | **PASS** | 2 | 0 | 0 |
+| `repo-hygiene-contract` | **PASS** | 3 | 0 | 0 |
+| `root-tree-retirement-contract` | **PASS** | 2 | 0 | 0 |
 | `source-link-hygiene` | **PASS** | 1 | 0 | 0 |
+| `source-tree-contract` | **PASS** | 2 | 0 | 0 |
 | `split-brain-guard` | **PASS** | 2 | 0 | 0 |
+| `styling-surface-contract` | **PASS** | 1 | 0 | 0 |
 | `takeover-handover` | **PASS** | 6 | 0 | 0 |
 | `tool-manifest-contract` | **PASS** | 1 | 0 | 0 |
-| `tracked-generated-hygiene` | **PASS** | 2 | 0 | 0 |
 | `workflow-matrix-contract` | **PASS** | 2 | 0 | 0 |
 
 
@@ -182,7 +185,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_3398c41f-fba4-4b64-930e-526aa89aeaea.txt`
+- Letzter Audit: `Logs/Archive/Audit_5097c1ce-0b7e-45f6-8b17-f09b61fc4e23.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
 
 ---

@@ -1,0 +1,43 @@
+{
+  "suite": "pages-full-smoke",
+  "description": "Exercise the full Pages validation path separately from deterministic contract mode.",
+  "cases": [
+    {
+      "id": "pages-full-validate-json",
+      "name": "pages validate --json --skip-audit still exercises the full validation path",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "validate",
+        "--json",
+        "--skip-audit"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_keys": [
+        "generated_at",
+        "status",
+        "checks",
+        "build",
+        "pages_health",
+        "drift_health"
+      ],
+      "expect_json_path_exists": [
+        "mode",
+        "advisory_only",
+        "pages_health.last_validated_at",
+        "pages_health.legacy_root_status",
+        "validation_timing_ms.prechecks_total",
+        "validation_timing_ms.report_build",
+        "build.timing_ms.total"
+      ],
+      "expect_json_path_equals": {
+        "mode": "full",
+        "advisory_only": false,
+        "pages_health.legacy_wiki_root": null,
+        "pages_health.legacy_root_status": "removed"
+      },
+      "timeout_sec": 300
+    }
+  ]
+}

@@ -15,7 +15,7 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 TECHNICAL_WIKI_ROOT = REPO_ROOT / "docs" / "Siebenwind_Wiki"
-LEGACY_WIKI_ROOT = REPO_ROOT / "Siebenwind_Wiki"
+RETIRED_WIKI_ROOT = REPO_ROOT / "Siebenwind_Wiki"
 SOURCES_ROOT = REPO_ROOT / "Quellen"
 HOMEPAGE_URL = "https://www.siebenwind.de/"
 TRUTH_HIERARCHY = ["homepage", "sources", "wiki"]
@@ -23,10 +23,7 @@ TRUTH_RANK = {"homepage": 3, "sources": 2, "wiki": 1}
 INVENTORY_PATH = REPO_ROOT / ".agent" / "data" / "wiki_inventory.json"
 INVENTORY_HISTORY_DIR = REPO_ROOT / ".agent" / "data" / "wiki_inventory_history"
 CACHE_DIR = REPO_ROOT / ".agent" / "data" / "cache"
-ALLOWED_LEGACY_ARTIFACTS = {
-    Path("10_Archiv/Wiki_Statistiken.md"),
-}
-CONTENT_CONTRACT_SCHEMA_VERSION = 2
+CONTENT_CONTRACT_SCHEMA_VERSION = 3
 INVENTORY_SCHEMA_VERSION = 2
 NORMALIZE_TRANSLATION = str.maketrans({
     "ä": "ae",
@@ -567,13 +564,10 @@ def canonical_target_scope(target: Path | None = None) -> str:
 
 
 def detect_split_brain_files() -> list[Path]:
-    if not LEGACY_WIKI_ROOT.exists():
+    if not RETIRED_WIKI_ROOT.exists():
         return []
     findings: list[Path] = []
-    for path in sorted(LEGACY_WIKI_ROOT.rglob("*.md")):
-        rel = path.relative_to(LEGACY_WIKI_ROOT)
-        if rel in ALLOWED_LEGACY_ARTIFACTS:
-            continue
+    for path in sorted(RETIRED_WIKI_ROOT.rglob("*.md")):
         findings.append(path)
     return findings
 
@@ -764,7 +758,7 @@ def _contract_scan_fingerprint(files: list[Path], *, scope: str) -> str:
             "scope": scope,
             "legacy_forbidden_frontmatter_keys": sorted(LEGACY_FORBIDDEN_FRONTMATTER_KEYS),
             "stub_required_fields": STUB_REQUIRED_FIELDS,
-            "allowed_legacy_artifacts": sorted(str(path) for path in ALLOWED_LEGACY_ARTIFACTS),
+            "retired_root_strategy": "removed",
         },
     )
 

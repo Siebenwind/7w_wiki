@@ -23,7 +23,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SUITES_DIR = PROJECT_ROOT / ".agent" / "tests" / "suites"
 SYSTEM_TMP_DIR = Path(tempfile.gettempdir())
 MSG_ID_RE = re.compile(r"^(MSG-\d{4}-\d{4})\b")
-QUARANTINED_IN_ALL = {"rag-relevance-smoke"}
+QUARANTINED_IN_ALL = {"rag-relevance-smoke", "pages-full-smoke"}
 
 
 @dataclass
@@ -222,6 +222,21 @@ def check_required_patterns_by_file(requirements: list[dict]) -> tuple[bool, str
     preview = "; ".join(missing[:5])
     extra = f" (+{len(missing)-5} weitere)" if len(missing) > 5 else ""
     return False, f"Required pattern missing: {preview}{extra}"
+
+
+def check_paths_absent(paths: list[str]) -> tuple[bool, str]:
+    existing: list[str] = []
+    for rel in paths:
+        target = (PROJECT_ROOT / rel).resolve()
+        if target.exists():
+            existing.append(rel)
+
+    if not existing:
+        return True, "ok"
+
+    preview = ", ".join(existing[:5])
+    extra = f" (+{len(existing)-5} weitere)" if len(existing) > 5 else ""
+    return False, f"Paths still exist: {preview}{extra}"
 
 
 def check_command_inventory_files(files: list[str]) -> tuple[bool, str]:
@@ -449,6 +464,27 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     name=name,
                     status="PASS" if ok else "FAIL",
                     command=["required-pattern-check"],
+                    exit_code=0 if ok else 1,
+                    reason=reason,
+                    stdout="",
+                    stderr="",
+                    duration_sec=duration_sec,
+                )
+            )
+            print(f"[{suite_name}] case {case_id}: {results[-1].status} ({results[-1].reason})", flush=True)
+            continue
+
+        absent_paths = case.get("paths_must_not_exist", [])
+        if absent_paths:
+            started = time.perf_counter()
+            ok, reason = check_paths_absent(list(absent_paths))
+            duration_sec = time.perf_counter() - started
+            results.append(
+                CaseResult(
+                    case_id=case_id,
+                    name=name,
+                    status="PASS" if ok else "FAIL",
+                    command=["path-absence-check"] + list(absent_paths),
                     exit_code=0 if ok else 1,
                     reason=reason,
                     stdout="",

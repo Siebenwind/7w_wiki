@@ -1,8 +1,10 @@
 import os
 import re
+from pathlib import Path
 
-WIKI_PATH = "/Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki"
-TIMELINE_FILE = "/Users/alexandrerabe/siebenwind/7w_wiki/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md"
+REPO_ROOT = Path(__file__).resolve().parents[4]
+WIKI_PATH = REPO_ROOT / "docs" / "Siebenwind_Wiki"
+TIMELINE_FILE = WIKI_PATH / "05_Geschichte" / "Zeitstrahl.md"
 
 def weave_timeline():
     events = []
@@ -14,7 +16,7 @@ def weave_timeline():
         for f in files:
             if f.endswith(".md") and f != "Zeitstrahl.md":
                 page_name = f.replace(".md", "")
-                with open(os.path.join(root, f), "r") as file:
+                with open(os.path.join(root, f), "r", encoding="utf-8") as file:
                     content = file.read()
                     matches = re.findall(year_pattern, content)
                     for m in matches:
@@ -27,7 +29,7 @@ def weave_timeline():
     events.sort(key=lambda x: x['year'])
 
     # Write to Timeline file
-    with open(TIMELINE_FILE, "w") as f:
+    with TIMELINE_FILE.open("w", encoding="utf-8") as f:
         f.write("---\nlayout: wiki_page\ntitle: Zeitstrahl\ncategory: Geschichte\n---\n\n# Zeitstrahl\n\n| Jahr | Ereignis / Kontext | Quelle |\n|------|---------------------|--------|\n")
         for e in events:
             f.write(f"| {e['year']} | {e['context']} | [[{e['source']}]] |\n")

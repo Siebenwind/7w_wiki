@@ -582,7 +582,8 @@ def main():
     pages_build.add_argument("--strict", action="store_true", help="Enable strict mode for mkdocs build")
     pages_build.add_argument("--no-clean", action="store_true", help="Skip mkdocs --clean")
     pages_build.add_argument("--config", default="mkdocs.yml", help="Path to mkdocs config (default: mkdocs.yml)")
-    pages_validate = pages_sub.add_parser("validate", help="Run docs link suite, audit, and pages build")
+    pages_validate = pages_sub.add_parser("validate", help="Run pages validation (full build or deterministic contract mode)")
+    pages_validate.add_argument("--contract", action="store_true", help="Use deterministic static validation for contracts/CI (no build, no snapshot writes)")
     pages_validate.add_argument("--fast", action="store_true", help="Use cached analysis plus the latest Pages snapshot as an advisory-only precheck")
     pages_validate.add_argument("--strict", action="store_true", help="Enable strict mode for mkdocs build")
     pages_validate.add_argument("--strict-links", action="store_true", help="Fail if non-allowlisted unresolved internal links remain")
@@ -885,6 +886,8 @@ def main():
         page_args = [args.pages_cmd]
         if hasattr(args, "fast") and args.fast:
             page_args.append("--fast")
+        if hasattr(args, "contract") and args.contract:
+            page_args.append("--contract")
         if hasattr(args, "strict") and args.strict:
             page_args.append("--strict")
         if hasattr(args, "no_clean") and args.no_clean:

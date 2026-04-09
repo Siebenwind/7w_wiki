@@ -1,6 +1,6 @@
 {
   "schema_version": "lore-manifest.v3",
-  "generated_at": "2026-04-09T13:37:03Z",
+  "generated_at": "2026-04-09T15:13:54Z",
   "generated_from": ".agent/catalog/catalog.v1.json",
   "project": "Siebenwind Lore Engine",
   "version": "3.0",
@@ -58,8 +58,9 @@
     "legacy_cli_aliases": [
       "./7w.py"
     ],
-    "root_wiki_tree": "Siebenwind_Wiki",
-    "note": "The root wiki tree survives only as a compatibility remnant; docs/Siebenwind_Wiki is the canonical technical tree."
+    "root_wiki_tree": null,
+    "legacy_root_status": "removed",
+    "note": "The root wiki tree has been retired; docs/Siebenwind_Wiki is the canonical technical tree."
   },
   "capabilities": {
     "rag": "Oracle (semantic search with explicit source scope)",
@@ -69,7 +70,8 @@
   },
   "structure": {
     "technical_wiki_root": "docs/Siebenwind_Wiki/",
-    "legacy_wiki_root": "Siebenwind_Wiki/",
+    "legacy_wiki_root": null,
+    "legacy_root_status": "removed",
     "sources_root": "Quellen/",
     "agent_core": ".agent/",
     "catalog": ".agent/catalog/",
