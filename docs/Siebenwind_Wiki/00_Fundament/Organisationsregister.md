@@ -1,6 +1,5 @@
 ---
 title: Organisationsregister
-layout: wiki_page
 category: Allgemein
 ---
 

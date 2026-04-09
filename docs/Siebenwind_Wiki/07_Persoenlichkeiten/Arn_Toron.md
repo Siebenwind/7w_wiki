@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Arn Toron
 category: Personen
 status: Bote

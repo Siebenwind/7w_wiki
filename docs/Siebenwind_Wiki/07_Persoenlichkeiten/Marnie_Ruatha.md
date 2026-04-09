@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Marnie Ruatha
 category: Personen
 ---

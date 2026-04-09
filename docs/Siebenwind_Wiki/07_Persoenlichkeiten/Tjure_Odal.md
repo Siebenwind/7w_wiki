@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Tjure Odal
 category: Personen
 status: Bote

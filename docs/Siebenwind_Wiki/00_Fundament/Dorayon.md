@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Dorayon
 category: Allgemein
 quelle: ../../Quellen/Hintergrund/Monde Tares | Siebenwind | Ultima Online Freeshard | Siebenwind.md

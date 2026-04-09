@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Astreyon
 category: Allgemein
 quelle: ../../Quellen/Hintergrund/Monde Tares | Siebenwind | Ultima Online Freeshard | Siebenwind.md

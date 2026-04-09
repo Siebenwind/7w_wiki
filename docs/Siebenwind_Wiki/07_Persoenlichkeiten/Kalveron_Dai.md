@@ -1,6 +1,5 @@
 ---
 title: Kalveron Dai
-layout: wiki_page
 category: Persönlichkeit
 status: "#überlieferung"
 quelle: "[De Magica Angamoniensis] / [System arkaner Lokalitäten]"

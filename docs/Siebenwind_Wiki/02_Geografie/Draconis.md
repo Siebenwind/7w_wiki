@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Draconis
 category: Geografie
 lore_trust: 2

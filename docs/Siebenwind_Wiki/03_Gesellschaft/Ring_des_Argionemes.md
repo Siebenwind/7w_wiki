@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: r1ng-d35-4rg10n3m35-secret
 title: Ring des Argionemes
 category: Gesellschaft

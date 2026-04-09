@@ -1,6 +1,5 @@
 ---
 title: Geist
-layout: wiki_page
 category: Allgemein
 epistemic: "#ueberlieferung"
 ---

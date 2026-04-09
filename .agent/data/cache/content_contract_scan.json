@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-09T15:47:20Z",
-  "inputs_fingerprint": "6bab12918d1704b6526b6b53855b43407d26f730230aafff9ec4109ece1313b0",
+  "generated_at": "2026-04-09T16:11:57Z",
+  "inputs_fingerprint": "ae46215fa0b3c50f85e0b1b12b7f556a62cfca240ce3d359ab7026150d20b606",
   "payload": {
     "bridge_inventory": {
       "invalid": 0,
       "total": 85
     },
     "contract_violations": {
-      "issues": 26
+      "issues": 0
     },
     "details": [
       {
@@ -389,12 +389,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Allgemein",
           "letzter_check": "2026-04-08",
@@ -949,12 +944,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Allgemein",
           "letzter_check": "2026-04-08",
@@ -1321,12 +1311,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Allgemein",
           "letzter_check": "2026-04-08",
@@ -1545,12 +1530,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Allgemein",
           "epistemic": "\"#ueberlieferung\"",
@@ -3155,12 +3135,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Allgemein",
           "title": "Organisationsregister"
@@ -4170,12 +4145,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Allgemein",
           "letzter_check": "2026-04-08",
@@ -4645,12 +4615,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Allgemein",
           "letzter_check": "2026-04-08",
@@ -5395,12 +5360,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Religion",
           "confidence": "Certain",
@@ -5422,12 +5382,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Index",
           "lore_trust": "2",
@@ -6163,12 +6118,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Geografie",
           "lore_trust": "2",
@@ -7648,12 +7598,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Gesellschaft",
           "letzter_check": "2026-02-13T23:25:00",
@@ -8750,12 +8695,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "author": "[[Rhadan_der_Graue]] (zugeschrieben), Archivteam (Zusammenstellung)",
           "category": "Werke",
@@ -9723,12 +9663,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Chronik",
           "letzter_check": "2026-02-13T15:45:00+01:00",
@@ -9842,12 +9777,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Chronik",
           "title": "Siebenwind Bote 174"
@@ -12995,12 +12925,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Persönlichkeit",
           "lore_trust": "2",
@@ -13052,12 +12977,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Personen",
           "letzter_check": "2026-04-08",
@@ -14384,12 +14304,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Personen",
           "title": "Dunvallo Linari"
@@ -16412,12 +16327,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "aliases": "[\"Geist (Assassine)\"]",
           "category": "Personen",
@@ -17278,12 +17188,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Persönlichkeit",
           "quelle": "\"[De Magica Angamoniensis] / [System arkaner Lokalitäten]\"",
@@ -18586,12 +18491,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Personen",
           "title": "Marnie Ruatha"
@@ -19438,12 +19338,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Persönlichkeit",
           "quelle": "\"[Invocatio Elementharii]\"",
@@ -19642,12 +19537,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Personen",
           "letzter_check": "2026-04-08",
@@ -20993,12 +20883,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Persönlichkeit",
           "quelle": "\"[Theorem zu den Baumwesen]\"",
@@ -21135,12 +21020,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Personen",
           "letzter_check": "2026-04-08",
@@ -22933,12 +22813,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Archiv",
           "title": "Interessante Artikel"
@@ -23031,12 +22906,7 @@
           "has_frontmatter": true,
           "stub_status": "none"
         },
-        "changes": [
-          {
-            "key": "layout",
-            "type": "legacy_field"
-          }
-        ],
+        "changes": [],
         "meta": {
           "category": "Archiv",
           "title": "\"Siebenwind Wiki - Archiv\""

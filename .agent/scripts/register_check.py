@@ -539,6 +539,9 @@ def main():
     if total_reports == 0:
         log("  ⚠️  Keine Ingestion-Reports gefunden.")
         issues_found += 1
+        audit_data["details"]["ingestion_issues"].append(
+            {"type": "missing_reports", "error": "No ingestion reports found"}
+        )
     else:
         with_core = ingestion["with_core_tracking"]
         with_lqs = ingestion["with_lqs"]
@@ -564,6 +567,15 @@ def main():
             if top_count / max(1, with_lqs) >= 0.5:
                 log(f"  ⚠️  Score-Cluster auffaellig eng (Top-Profil {top_profile} = {top_count}/{with_lqs}).")
                 issues_found += 1
+                audit_data["details"]["ingestion_issues"].append(
+                    {
+                        "type": "score_cluster",
+                        "error": "Score cluster too narrow",
+                        "profile": top_profile,
+                        "count": top_count,
+                        "with_lqs": with_lqs,
+                    }
+                )
     log()
 
     # --- 8. Deep WikiLink Check ---

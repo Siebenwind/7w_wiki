@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Rhadan der Graue
 category: Personen
 quelle: ../../Quellen/Bibliothek Toran Dur/Rhadan der Graue - AriÔin.md

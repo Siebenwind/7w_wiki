@@ -1,6 +1,5 @@
 ---
 title: Siebenwind Bote 174
-layout: wiki_page
 category: Chronik
 ---
 

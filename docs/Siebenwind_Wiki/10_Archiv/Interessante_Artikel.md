@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Interessante Artikel
 category: Archiv
 ---

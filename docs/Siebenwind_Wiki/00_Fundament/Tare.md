@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Tare
 category: Allgemein
 quelle: ../../Quellen/Bibliothek Toran Dur/Toran Dur - Die Magie.md

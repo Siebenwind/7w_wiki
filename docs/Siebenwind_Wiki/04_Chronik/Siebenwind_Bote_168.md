@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 uuid: f1e2d3c4-b5a6-4c7d-8e9f-a0b1c2d3e4f5
 title: Siebenwind Bote 168
 category: Chronik

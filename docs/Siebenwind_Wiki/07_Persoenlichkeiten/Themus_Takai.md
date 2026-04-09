@@ -1,6 +1,5 @@
 ---
 title: Themus Takai
-layout: wiki_page
 category: Persönlichkeit
 status: "#überlieferung"
 quelle: "[Theorem zu den Baumwesen]"

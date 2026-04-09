@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: "Siebenwind Wiki - Archiv"
 category: Archiv
 ---

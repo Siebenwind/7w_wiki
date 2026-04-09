@@ -1,5 +1,4 @@
 ---
-layout: wiki_page
 title: Zeichnung Tares
 file_name: Zeichnung_Tares.md
 category: Werke

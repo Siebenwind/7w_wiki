@@ -1,7 +1,6 @@
 ---
 uuid: ef8b5c3d-3456-6789-0123-45bf2597e836
 title: Herr Geist
-layout: wiki_page
 category: Personen
 epistemic: "#bote"
 aliases: ["Geist (Assassine)"]
