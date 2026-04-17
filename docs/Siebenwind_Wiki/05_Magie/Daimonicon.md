@@ -35,7 +35,7 @@ Yerrodon ist in neun pervertierte Domänen unterteilt, die den Göttern und Elem
 6. **Kulmar Sanghûlis (Schmerz/Lust):** Auch *Esparell’it Mosali*. Folter und Glücksrausch.
 7. **Moghtor (Tod):** Reich des Siechtums und der Untoten.
 8. **Agoth'ro'Hawenn (Angst):** Ursprung allen Grauens und der Illusionen.
-9. **Mele Môrthere ([[index]]):** Auch *Zensyn Lramori*. Dämonische [[index]] aller Leben.
+9. **Mele Môrthere (Wissen):** Auch *Zensyn Lramori*. Dämonisches Wissen aller Leben.
 
 ---
 **Siehe auch:** [[Magietheorie_Daemonenbeschwoerung]], [[Kulin_Laetall]], [[Angamon]]

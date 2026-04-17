@@ -19,7 +19,7 @@ Ein massiver Angriff von Trollen und [[Goblins]] aus dem [[Ödland|Ödland]] bed
 
 ### Tag der Helden
 Am 20. Oner fand in [[Seeberg]] eine feierliche Ehrung der Verteidiger des Dunkeltiefs statt.
-- **Geehrte [[index]]:** U.a. [[Hektor_Steinhauer]], [[Alarich_Falkenhain]], [[Hemalar]], [[Amriele_Silberfels]], [[Quirian_Grint]] und [[Richard_Gropp]].
+- **Geehrte Personen:** U.a. [[Hektor_Steinhauer]], [[Alarich_Falkenhain]], [[Hemalar]], [[Amriele_Silberfels]], [[Quirian_Grint]] und [[Richard_Gropp]].
 - **Eklat:** Gardewaibel [[Waldemar_Delarie]] (Ersont) provozierte die Malthuster Delegation, was zu Spannungen zwischen den Lehen führte.
 
 ### Wiedergründung der Tempelwache

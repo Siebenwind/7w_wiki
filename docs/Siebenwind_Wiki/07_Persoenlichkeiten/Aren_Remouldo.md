@@ -12,7 +12,7 @@ category: Personen
 
 
 ## Beschreibung
-**Aren Remouldo** ist bekannt für die Entwicklung der **[[Horlafstrom_Theorie]]**, welche magisches Wirken als Interaktion mit dem Horlaf (dem Licht der Mächte) beschreibt. Sein Ansatz verbindet arkanes [[index]] stark mit den Schriften der [[Yehramnis]].
+**Aren Remouldo** ist bekannt für die Entwicklung der **[[Horlafstrom_Theorie]]**, welche magisches Wirken als Interaktion mit dem Horlaf (dem Licht der Mächte) beschreibt. Sein Ansatz verbindet arkanes Wissen stark mit den Schriften der [[Yehramnis]].
 
 ---
 **Siehe auch:** [[Horlafstrom_Theorie]], [[Yehramnis]]

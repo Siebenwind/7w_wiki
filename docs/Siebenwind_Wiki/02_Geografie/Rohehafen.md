@@ -14,7 +14,7 @@ category: Geografie
 ## 📜 Beschreibung
 **Rohehafen** war die erste Hauptstadt der Kronmark [[Siebenwind]], gegründet kurz nach der Hilgorad-Expedition (1 n.H.). Heute ist sie eine gefährliche Ruinenstätte im [[Ödland]], die von den Narben der großen Verwüstung gezeichnet ist.
 
-## ⚔️ [[index]]
+## Geschichte
 ### Die Erste Hauptstadt (1 - ca. 10 n.H.)
 Nach der Entdeckung der Insel durch **Armgard Torbenson** wurde Rohehafen als prachtvolles Zentrum der neuen Kolonie errichtet. König **[[Hilgorad_I_ap_Mer|Hilgorad]]** ließ gezielt Häuser bauen, um Siedler aus Falandrien anzuziehen, und sogar der Chronist **Etril Gamajeff** pries die Stadt als "Marmorstadt" und Juwel der Insel.
 

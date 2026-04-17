@@ -21,7 +21,7 @@ Zoran Gosh ist der Abt des Klosters Gofilm und ein führendes Mitglied des "Inne
 ## Wirken
 Gosh ist ein Meister der Geduld und der weitreichenden strategischen Planung.
 *   **Mission nach [[Siebenwind]] (13 n.H.):** Er entsandte [[Calmexistus_Salanus]] und [[Sanduros_Mantaris]] auf das Eiland, um dort den Einfluss des Rings zu festigen.
-*   **Geheimoperationen:** Ihm wird der Raub wichtiger weißmagischer Schriften aus der [[index]] von [[Lafays_Stab]] zugeschrieben. Er nutzt die Bruderschaft als seinen persönlichen Geheimdienst.
+*   **Geheimoperationen:** Ihm wird der Raub wichtiger weißmagischer Schriften aus der Bibliothek von [[Lafays_Stab]] zugeschrieben. Er nutzt die Bruderschaft als seinen persönlichen Geheimdienst.
 
 ## Lore
 Als einer der "alten Meister" genießt er selbst unter anderen hochrangigen Magiern und Geweihten tiefen Respekt, aber auch Furcht vor seiner asketischen Entschlossenheit.

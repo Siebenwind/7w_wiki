@@ -10,7 +10,7 @@ tags: [Gott, Sahor, Krieg, Handwerk, Ehre, Herbst]
 
 **Glaube:** [[Bellum]] (Kampf), [[Ignis]] (Feuer), [[Vitama]] (Heilung)
 
-**Bellum** ist einer der vier **Sahor**, die im Alltagsglauben meist zusammenfassend als die **Viere** bezeichnet werden. Er ist der Schmied des Schicksals und der Hüter der Ehre. Er verkörpert die notwendige Stärke, um das [[index]] zu schützen, und die Disziplin, die aus roher Gewalt eine ritterliche Kunst formt.
+**Bellum** ist einer der vier **Sahor**, die im Alltagsglauben meist zusammenfassend als die **Viere** bezeichnet werden. Er ist der Schmied des Schicksals und der Hüter der Ehre. Er verkörpert die notwendige Stärke, um das Gute zu schützen, und die Disziplin, die aus roher Gewalt eine ritterliche Kunst formt.
 
 ## Aspekte und Prinzipien
 - **Jahreszeit:** Herbst

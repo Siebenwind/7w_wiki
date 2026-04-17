@@ -19,7 +19,7 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 **Rakurion Argus** ist ein Adeptus der arkanen Künste, der im Jahr 18 n.H. seine Studien absolvierte (Bote 158).
 
 ## Wirken
-- **[[index]]:** Studium und Anwendung theoretischer und praktischer [[index]].
+- **Magie:** Studium und Anwendung theoretischer und praktischer Magie.
 
 ## Verlinkte Themen
 - [[Personenregister]]

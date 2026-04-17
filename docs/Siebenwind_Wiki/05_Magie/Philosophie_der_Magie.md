@@ -1,16 +1,16 @@
 ---
-title: Philosophie der index
+title: Philosophie der Magie
 category: Magie
 status: integrated
 quelle: "/Quellen/index Toran_Dur/Dunvallo_Linari - Philosophie.md"
 ---
 
-# Philosophie der [[index]]
+# Philosophie der Magie
 
-Die Philosophie der [[index]] befasst sich mit der Stellung der Völker im Universum (den Sphären), den Werten der Erkenntnis und den ethischen Grenzen magischen Handelns. Sie gilt als notwendiges [[index]] der Wissenschaft, um Methoden und Begriffe zu begründen.
+Die Philosophie der Magie befasst sich mit der Stellung der Völker im Universum (den Sphären), den Werten der Erkenntnis und den ethischen Grenzen magischen Handelns. Sie gilt als notwendige Grundlage der Wissenschaft, um Methoden und Begriffe zu begründen.
 
-## 1. Ursprung und [[index]]
-Die Philosophie gilt als Geschenk von [[Astrael]], der den [[Menschen]] Rätsel aufgibt, um sie zum Nachdenken anzuregen. Als Pionier der Disziplin gilt **[[Arenus_der_Weise]]** (ca. 70 vor Hilograd), der eine ganze [[index]] zu diesem Thema verfasste.
+## 1. Ursprung und Magie
+Die Philosophie gilt als Geschenk von [[Astrael]], der den [[Menschen]] Rätsel aufgibt, um sie zum Nachdenken anzuregen. Als Pionier der Disziplin gilt **[[Arenus_der_Weise]]** (ca. 70 vor Hilograd), der eine ganze Schrift zu diesem Thema verfasste.
 
 ## 2. Die Sphären als Traum
 Ein zentrales Theorem des [[Arenus_der_Weise]] besagt, dass die Sphären (insbesondere die erste, [[Tare]]) möglicherweise ein Traum der Götter sind. Die Wirklichkeit sei demnach nicht so beschaffen, wie sie den Sinnen erscheint. Erkenntnis wird als ewiger Kreislauf aus Theorie, Diskussion und Umsturz verstanden.

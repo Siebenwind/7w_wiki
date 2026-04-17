@@ -18,7 +18,7 @@ Diese Ausgabe steht ganz im Zeichen des Königsgeburtstags und des herannahenden
 
 ## Wichtige Ereignisse
 ### Kunstauktion zu Ehren des Königs (30. Triar 16 n.H.)
-Das Lehen veranstaltet eine Versteigerung von Kunstgegenständen aus königlichem Besitz. Unter den Exponaten befinden sich seltene Schachbretter, Büsten früherer Könige (z.B. **König Patrick IV.**) und der Sextant des Entdeckers **[[Armgard_Torenson]]**. Auch [[index]] des Hofkünstlers **[[Herbren_Maltis]]** kommen unter den Hammer.
+Das Lehen veranstaltet eine Versteigerung von Kunstgegenständen aus königlichem Besitz. Unter den Exponaten befinden sich seltene Schachbretter, Büsten früherer Könige (z.B. **König Patrick IV.**) und der Sextant des Entdeckers **[[Armgard_Torenson]]**. Auch Werke des Hofkünstlers **[[Herbren_Maltis]]** kommen unter den Hammer.
 
 ### Einweihung des Tempels in [[Falkensee]]
 Zum Geburtstag von König Hilgorad I. (30. Trier) wird der neue [[Tempel_der_Vier]] in [[Falkensee]] feierlich eingeweiht. Das prachtvolle Bauwerk stellt fortan einen neuen Mittelpunkt des Glaubens auf der Insel dar.

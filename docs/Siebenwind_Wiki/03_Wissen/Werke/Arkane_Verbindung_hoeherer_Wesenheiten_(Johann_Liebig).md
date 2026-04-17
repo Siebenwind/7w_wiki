@@ -12,20 +12,20 @@ Verfasst von Adeptus Arkanis [[Johann_Liebig]] (Pfad der Mitte).
 
 ## Klassifizierung der Wesenheiten
 
-Liebig unterteilt magische Wesenheiten anhand ihrer Art, [[index]] zu wirken (Gestik vs. [[Geist]]) in zwei Hauptgruppen:
+Liebig unterteilt magische Wesenheiten anhand ihrer Art, Magie zu wirken (Gestik vs. [[Geist]]) in zwei Hauptgruppen:
 
 ### 1. Lazperday-Wesen ("Hand-Bewegende")
-Wesen, die [[index]] primär durch instinktive oder gelernte **Gesten** wirken.
+Wesen, die Magie primär durch instinktive oder gelernte **Gesten** wirken.
 *   **Merkmale:** Schnelle Reaktion, mittleres Machtpotenzial.
 *   **Untergruppen:**
     *   *Man-Lazperday:* Natürlich geboren (z.B. **Gnome**, Waldgeister, [[Feen]]).
     *   *Ing-Lazperday:* Erschaffen (z.B. **[[Gargoyles]]**).
 *   **Beispiele:**
-    *   **Gnome:** Wirken Feuerzauber durch komplexe Handbewegungen. Instinktive [[index]].
-    *   **[[Gargoyles]]:** Erschaffen durch Magister [[Gar_Navona]]. Wirken [[index]] im Flug durch Klauen-Gesten.
+    *   **Gnome:** Wirken Feuerzauber durch komplexe Handbewegungen. Instinktive Magie.
+    *   **[[Gargoyles]]:** Erschaffen durch Magister [[Gar_Navona]]. Wirken Magie im Flug durch Klauen-Gesten.
 
 ### 2. Warthun-Wesen ("[[Geist]]-Wirkende")
-Wesen, die [[index]] durch reine **Gedankenkraft/Konzentration** wirken.
+Wesen, die Magie durch reine **Gedankenkraft/Konzentration** wirken.
 *   **Merkmale:** Hohes bis sehr hohes Machtpotenzial, trägere Reaktion.
 *   **Untergruppen:**
     *   *Uruzman-Warthun:* Natürlich/Anomalie (z.B. **[[Liche]]**, Höhere [[Elementare]]).
@@ -43,4 +43,4 @@ Liebig beschreibt detailliert das Ritual zur Erschaffung eines Lehmgolems ("Nuin
 *   **Ergebnis:** Ein Golem ohne eigene Sinnesorgane (Edelsteine als Augen), der absolut dem Willen des Erschaffers gehorcht. Wird die Bindung getrennt, wird der Golem aggressiv (Amoklauf).
 
 ## Zitat
-> "Das [[index]] um die Mächte ist das [[index]] was die Mächte erst zu den Mächten macht."
+> "Das Wissen um die Mächte ist das Wissen was die Mächte erst zu den Mächten macht."

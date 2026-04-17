@@ -12,7 +12,7 @@ category: Personen
 
 
 ## Beschreibung
-**Dunvallo Linari** war ein bedeutender Magietheoretiker, dessen [[index]] insbesondere die **[[Magietheorie_Linari|Alte Magietheorie]]**, die **[[Matrixtheorie_Linari|Matrixtheorie]]**, seine Studien zur **[[Alchemie_Kompendium|Reagenzienlehre]]** sowie die wegweisende **[[Artefaktlehre]]** umfassen.
+**Dunvallo Linari** war ein bedeutender Magietheoretiker, dessen Werke insbesondere die **[[Magietheorie_Linari|Alte Magietheorie]]**, die **[[Matrixtheorie_Linari|Matrixtheorie]]**, seine Studien zur **[[Alchemie_Kompendium|Reagenzienlehre]]** sowie die wegweisende **[[Artefaktlehre]]** umfassen.
 
 ---
 **Siehe auch:** [[Magietheorie_Linari]], [[Matrixtheorie_Linari]], [[Artefaktlehre]]

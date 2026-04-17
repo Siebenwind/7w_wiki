@@ -23,12 +23,12 @@ Dai beschreibt ein zweistufiges Verfahren zur Ortung:
 Lokalitäten werden nach **Quantität** (Stärke) und **Qualität** (Art) unterschieden:
 *   **Energiefluss:**
     *   *Passiv:* Natürliche, unberührte Häufung (Potential zum "Erwecken").
-    *   *Aktiv:* Durch [[index]] bereits geformt oder gebunden (erkennbar an Manipulationsmustern im Gitter).
+    *   *Aktiv:* Durch Magie bereits geformt oder gebunden (erkennbar an Manipulationsmustern im Gitter).
 *   **[[Elementare]] Zuordnung:** Bestimmung des vorherrschenden Elements durch Knotenfärbung und Muster. ([[Geist]]/Wrathe wurde bisher nie als lokale Häufung gefunden).
 *   **Wächter:** Identifikation von Wächter-Elementaren oder Geistern anhand ihrer spezifischen Signaturen im Gitter.
 
 ### 3. Anrufung
-Für die Kontaktaufnahme mit den Wächtern verweist Dai auf die [[index]] von **Rhadan** ("Traktate zur Ritualisierung") und **[[Aurax_Ellrothon]]** ("Batama Magica" - Edelsteine).
+Für die Kontaktaufnahme mit den Wächtern verweist Dai auf die Schriften von **Rhadan** ("Traktate zur Ritualisierung") und **[[Aurax_Ellrothon]]** ("Batama Magica" - Edelsteine).
 
 ## Zitat
 > "Der erste Schritt zur Auffindung einer solchen Lokalität sei das Sammeln von Informationen... ohne genaue Angaben über die Lage sind nähere Untersuchungen gänzlich unmöglich."

@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-04-09 (Codex → Next Agent)
-- **Status**: Wave 2 der Pages-/Interop-Haertung ist umgesetzt: die physische Root-Struktur `Siebenwind_Wiki/` ist entfernt, `pages validate --contract --json` existiert als deterministischer CI-/Vertragsmodus, und Entwurfs-Assets liegen nicht mehr unter `docs/assets/`. Der technische Drift zwischen Root- und Docs-Baum ist damit geschlossen (`legacy_root_status = removed`, `bridge_inventory.invalid = 0`). Der fruehere `layout`-/Audit-Rest wurde bereinigt; `audit --json` zeigt nun keinen `layout`-Vertragsbruch mehr und weist den verbleibenden Ingestion-Score-Cluster konsistent als sichtbares Einzelproblem aus. Offener Restbestand sind jetzt die strukturelle Chronikpflege nach dem `Zeitstrahl`-Pass, der semantische Pages-Backlog (`637` unresolved, davon `625 needs_historian`), die Historian-Reviews `RESEARCH-2026-004` / `RESEARCH-2026-007` sowie die stale Forum-Pipeline.
+- **Last Handover**: 2026-04-17 (Codex → Next Agent)
+- **Status**: Der technische Root-/Pages-Drift bleibt geschlossen (`legacy_root_status = removed`, `bridge_inventory.invalid = 0`). In dieser Session wurde `RESEARCH-2026-018` operativ ohne Oracle/RAG-Funktionalitaet abgearbeitet: alle exakten `[[index]]`-Platzhalter in `docs/Siebenwind_Wiki/` wurden durch kontextnahe Klartextbegriffe, kanonische Links oder `[UNGEKLÄRT]` ersetzt. `audit --json` zeigt weiterhin `0 contract_violations` und nur den bekannten `score_cluster`. `pages validate --json` bestaetigt `source-link-hygiene` als PASS, scheitert aber weiter am bekannten Audit-Precheck; `pages validate --contract --json` bleibt WARN wegen des breiteren bestehenden unresolved-Linkbacklogs (`635` unresolved, `633` unallowlisted, `621 needs_historian`), nicht wegen `[[index]]`.
 
 ---
 
@@ -17,6 +17,10 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] **Zeitstrahl Structural Repair**: `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md` wurde von einem strukturell korrumpierten Mischdokument auf eine kompakte Chronik-Uebersicht mit Verweisen auf `Historie & Aeren` und `Zeitleiste (15-30 n.H.)` zurueckgefuehrt.
 
 - [ ] **Semantic Pages Backlog Triage**: `advisor --json` zeigt trotz technischem Drift-Fix weiter `Pages WARN` mit `637` unresolved Targets (`625 needs_historian`, `5 generic_term_conflict`). Der naechste Agent soll die bestehenden Board-/Backlog-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) als Arbeitsgrundlage verwenden und die semantische Begriffsarbeit strikt von mechanischen Reparaturen trennen.
+
+- [x] **Fallback `[[index]]`-Platzhalterbereinigung**: Das Orakel/RAG war fuer diese Session nicht funktionstuechtig; die Bereinigung wurde deshalb ueber direkte `rg`-Suchen, Kontextlektüre und konservative Klartext-Ersetzungen durchgefuehrt. Ergebnis: `rg "\[\[index\]\]" docs/Siebenwind_Wiki -g '*.md'` findet keine Treffer mehr; unklare Stellen wurden nicht erfunden, sondern mit `[UNGEKLÄRT]` markiert.
+
+- [ ] **Pages-Linkbacklog nach `[[index]]`-Welle**: Nach der Platzhalterbereinigung ist der naechste operative Block der allgemeine Pages-Linkbacklog aus `./7w_wiki.py pages validate --contract --json`: zuerst `safe_exact_match` und `planned_fix`, dann `generic_term_conflict`, danach die `needs_historian`-Ziele.
 
 - [ ] **Review- und Scan-Restbestand schliessen**: `RESEARCH-2026-004` und `RESEARCH-2026-007` stehen weiter auf `IN_REVIEW_HISTORIAN`, waehrend der Forum-Scan fuer `3` allowlistete Boards als stale gilt. Der naechste Agent soll entscheiden, ob zuerst die Historian-Reviews publiziert/geschlossen oder die Foren-Pipeline reaktiviert wird.
 
@@ -74,7 +78,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 | [[RESEARCH-2026-003]] | Die Linari-Matrix | 🟡 | [ ] Offen |
 | [[RESEARCH-2026-004]] | Causa Tjure Odal & Arn Toron | 🔴 | [x] Review |
 | [[RESEARCH-2026-007]] | Dossier Rhadan (Zeichnung Tares) | 🔴 | [x] Review |
-| [[RESEARCH-2026-018]] | Magie/index-Disambiguierung nach mechanischer Linkwelle | 🔴 | [ ] Offen |
+| [[RESEARCH-2026-018]] | Magie/index-Disambiguierung nach mechanischer Linkwelle | 🔴 | [x] Operativ bereinigt; Rest ist Pages-Linkbacklog |
 | [[RESEARCH-2026-012]] | Das Grünland (Geografie & Siedlung) | 🔴 | [ ] Offen |
 | [[RESEARCH-2026-017]] | Die Entdeckung Siebenwinds (1 n.H.) | 🟡 | [x] Bearbeitung |
 

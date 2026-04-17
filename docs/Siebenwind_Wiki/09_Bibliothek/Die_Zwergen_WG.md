@@ -13,7 +13,7 @@ Der Text **"Studenten – WG"** (hier als **"Die Zwergen-WG"** geführt) schilde
 
 ## Handlung
 
-Die Protagonisten sind der Krieger **[[Traim_Eisenblut]]**, der Schreiber **[[Gimbart_Galdora]]** und der Dämonentöter **[[Nirluk]]**. Die [[index]] konzentriert sich auf eine Reihe von gegenseitigen Streichen ("Pranks") zwischen Traim und Gimbart.
+Die Protagonisten sind der Krieger **[[Traim_Eisenblut]]**, der Schreiber **[[Gimbart_Galdora]]** und der Dämonentöter **[[Nirluk]]**. Die Erzählung konzentriert sich auf eine Reihe von gegenseitigen Streichen ("Pranks") zwischen Traim und Gimbart.
 
 ### Die Streiche
 *   **Der Schlafsack-Vorfall:** Traim rollt den schlafenden Gimbart aus seinem Schlafsack auf den kalten Boden.

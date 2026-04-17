@@ -15,7 +15,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_175.md
 ## Beschreibung
 Die **Terra'Dorotor** sind eine Gruppe von abtrünnigen [[Dwarschim]], die dem Kult des **[[Merros]]** (einem gefallenen Offizier des Dämons Sha'Nhaz'Ghul) dienen. Sie tragen schwarze Rüstungen mit roten Umhängen und nutzen rote Waffen, die vermutlich dämonischen Ursprungs sind.
 
-## [[index]] und Ziele
+## Geschichte und Ziele
 Die Dorotor wurden von ihrem eigenen Volk ausgestoßen, da sie die Ideale des [[Merros]] weiterverfolgen. Sie verfolgen das Ziel, die [[Menschen]] aus Siedlungen wie [[Falkensee]] und [[Brandenstein]] zu vertreiben und die Insel unter die Herrschaft des Einen zu bringen. Im Jahr 20 n.H. verbündeten sie sich offen mit den Anhängern des Einen und Magiern zur Linken.
 
 ## Konflikt und Niederlage (20 n.H.)

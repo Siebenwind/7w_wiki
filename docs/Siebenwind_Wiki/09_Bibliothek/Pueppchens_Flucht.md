@@ -13,7 +13,7 @@ Der Text **"Püppchens Flucht"** beschreibt die emotionale Flucht einer jungen F
 
 ## Handlung
 
-Die Protagonistin, eine Frau mit langem schwarzen Haar, fühlt sich in der Taverne von verschiedenen [[index]] bedrängt, die sie metaphorisch als Raubtiere oder Gefahren wahrnimmt:
+Die Protagonistin, eine Frau mit langem schwarzen Haar, fühlt sich in der Taverne von verschiedenen Personen bedrängt, die sie metaphorisch als Raubtiere oder Gefahren wahrnimmt:
 *   **Der Wildhüter** (ein blonder Mann): Will sie "retten" oder einsperren ("Pflichtbewusst... fürchtend um seine Tollwut").
 *   **Die Hexe**: Will sie lehren zu "reißen" (kämpfen?), wirkt aber wahnsinnig.
 *   **Der Geschichtensammler**: Manipulativ, stellt "Futter auf die Lichtung mit den Wölfen".

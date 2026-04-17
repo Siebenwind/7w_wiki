@@ -13,7 +13,7 @@ category: Erzählung
 **Status:** Verarbeitet
 
 ## Zusammenfassung
-Die Erzählung beschreibt die gefährliche Reise einer Gruppe durch die Steinwüste von [[Endophal]] während des **Dunkeltiefs**. Die Gruppe, angeführt von dem skrupellosen Waffenhändler [[Al-Barlis-Nekor]] und beschützt durch die Söldnertruppe "Blutige Faust", wird am Schlachtenberg von Untoten (Skeletten) angegriffen. Die [[index]] thematisiert Gier, Verzweiflung und das Grauen der Diener des Einen.
+Die Erzählung beschreibt die gefährliche Reise einer Gruppe durch die Steinwüste von [[Endophal]] während des **Dunkeltiefs**. Die Gruppe, angeführt von dem skrupellosen Waffenhändler [[Al-Barlis-Nekor]] und beschützt durch die Söldnertruppe "Blutige Faust", wird am Schlachtenberg von Untoten (Skeletten) angegriffen. Die Geschichte thematisiert Gier, Verzweiflung und das Grauen der Diener des Einen.
 
 ## Schlüsselfiguren
 - [[Al-Barlis-Nekor]]: Kaufmann aus As-Ashrun, skrupelloser Profiteur.

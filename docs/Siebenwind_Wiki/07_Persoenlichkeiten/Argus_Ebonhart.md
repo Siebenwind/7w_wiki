@@ -12,7 +12,7 @@ report_id: 890b0622-d0c2-4d8e-8518-41047c90817d
 !!! info "Metadaten"
     - **Titel:** Magier
     - **Epistemischer Status:** #canon
-    - **Zugehörigkeit:** Zirkel der [[index]] / Königliche Akademie
+    - **Zugehörigkeit:** Zirkel der Magie / Königliche Akademie
 
 
 ## Beschreibung

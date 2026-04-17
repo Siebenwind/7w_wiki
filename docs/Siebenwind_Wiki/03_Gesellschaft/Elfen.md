@@ -10,10 +10,10 @@ author: [[Siebenwind]] Chronicler
 
 **Kategorie:** Rasse
 **Unterarten:** Waldelfen (Tiefenwald), Auenelfen (Lichtenfeld/[[Sae]]), Hochelfen (Städte/Librasulus)
-**Glaube:** [[Rien]] (Natur), [[Xan]] ([[index]]/[[index]]), oder die Viere allgemein
+**Glaube:** [[Rien]] (Natur), [[Xan]] (Wasser/Eis), oder die Viere allgemein
 
 ## Einleitung
-Die Elfen (das "Alte Volk") sind eine der ältesten Rassen Falandriens. Sie zeichnen sich durch ihre Langlebigkeit, ihre magische Begabung und ihre tiefe Verbundenheit zur Natur (oder zur [[index]] selbst) aus. Auf [[Siebenwind]] und in Galadon unterscheidet man drei Hauptvölker.
+Die Elfen (das "Alte Volk") sind eine der ältesten Rassen Falandriens. Sie zeichnen sich durch ihre Langlebigkeit, ihre magische Begabung und ihre tiefe Verbundenheit zur Natur (oder zur Magie selbst) aus. Auf [[Siebenwind]] und in Galadon unterscheidet man drei Hauptvölker.
 
 ## Herkunft: Das Land [[Region_Auren|Auren]]
 In grauer Vorzeit, noch vor den Amulettkriegen, lebten alle Elfenvölker in [[Region_Auren|Auren]], einer fruchtbaren Wildnis jenseits der Mauer von [[Ma'ahn]]. Während Wald- und Auenelfen dort noch immer anzutreffen sind, haben sich viele Sippen über ganz Falandrien verbreitet.
@@ -33,13 +33,13 @@ In grauer Vorzeit, noch vor den Amulettkriegen, lebten alle Elfenvölker in [[Re
 
 ### 3. Hochelfen
 *   **Lebensraum:** Bevorzugen städtische Umgebungen. Große Populationen finden sich in **Librasulus** (Baronie Kettel) und **[[Draconis]]**.
-*   **Kultur:** Hochzivilisiert, stolz und oft akademisch. Sie sind Meister der arkanen [[index]], der Architektur und der Schneiderkunst (Librasulus).
-*   **Glaube:** Verehren oft **[[Xan]]** ([[index]]/[[index]]) oder **[[Astrael]]**.
+*   **Kultur:** Hochzivilisiert, stolz und oft akademisch. Sie sind Meister der arkanen Magie, der Architektur und der Schneiderkunst (Librasulus).
+*   **Glaube:** Verehren oft **[[Xan]]** (Wasser/Eis) oder **[[Astrael]]**.
 
 ## Biologie und Eigenschaften
 *   **Langlebigkeit:** Elfen werden mehrere hundert Jahre alt.
 *   **Ohren:** Markante, spitze Ohren.
-*   **[[index]]:** Fast alle Elfen besitzen eine angeborene Begabung für [[index]], sei es druidischer (Wald) oder arkaner (Hoch) Art.
+*   **Magie:** Fast alle Elfen besitzen eine angeborene Begabung für Magie, sei es druidischer (Wald) oder arkaner (Hoch) Art.
 
 ## Beziehungen zu anderen Völkern
 *   **[[Rasse_Menschen]]:** Wechselhaft. Hochelfen sind integriert, Waldelfen isoliert. Generell friedly, aber Elfen betrachten [[Rasse_Menschen]] oft als "kurzlebig und hastig".

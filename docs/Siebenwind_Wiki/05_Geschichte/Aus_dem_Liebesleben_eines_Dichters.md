@@ -21,12 +21,12 @@ Die Erzählung beginnt mit [[Haldur_Toda]], der in einem Schlafwagen durch alte 
 Haldur pflegt trotz seiner Distanz zu [[Siebenwind]] (oder innerhalb Galadons) Kontakt zu einem Freund namens "T.", der seine Bücher verkauft und ihn über das Schicksal alter Bekannter wie [[Udor]] oder [[Madame_Lafayette]] auf dem Laufenden hält.
 
 ### Lyrische Reflexionen
-Ein zentraler Bestandteil sind die lyrischen [[index]], die Toda in Momenten der Einsamkeit oder unter dem Einfluss seines "weißen Freundes" (Melancholie/Wein) verfasst:
+Ein zentraler Bestandteil sind die lyrischen Werke, die Toda in Momenten der Einsamkeit oder unter dem Einfluss seines "weißen Freundes" (Melancholie/Wein) verfasst:
 *   *Gedichte an die Eine*: Sehnsuchtsvolle Verse über die Unerreichbarkeit der Liebe.
 *   *Briefe an die Herzdamen*: Eine Sammlung, die Todas Ruhm begründete.
 
 ## Atmosphäre
-Die [[index]] vermittelt ein tiefes Gefühl von Isolation und dem Versuch, Schmerz in Kunst zu verwandeln. Sie zeigt das Bild eines Dichters, der zwischen seinem öffentlichen Ruhm und seinem privaten Scheitern gefangen ist.
+Die Erzählung vermittelt ein tiefes Gefühl von Isolation und dem Versuch, Schmerz in Kunst zu verwandeln. Sie zeigt das Bild eines Dichters, der zwischen seinem öffentlichen Ruhm und seinem privaten Scheitern gefangen ist.
 
 ## Lore-Bedeutung
 Die Erzählung gibt wertvolle Einblicke in das kulturelle Leben und die Bildungsbürgerschicht von Galadon und [[Brandenstein]] um das Jahr 22 n.H. Sie verdeutlicht die Bedeutung von Korrespondenz und Literatur als Medium der sozialen Verbindung.

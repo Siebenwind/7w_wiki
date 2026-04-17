@@ -23,7 +23,7 @@ In den turbulenten Zeiten nach dem Rücktritt von [[Alricio_Romero_di_Madjani]] 
 In einer Phase politischer Umbrüche – von den Stürmen in Vandrien bis zu den Unruhen in Wallenburg – galt seine Redaktion als Fels in der Brandung. Ionas weigerte sich, reißerische Schlagzeilen zu drucken. Stattdessen setzte er auf nüchterne Aufklärung und versuchte, die komplexen Zusammenhänge der Welt für den einfachen Bürger verständlich zu machen. Für ihn ist Journalismus eine Form des Gottesdienstes: Das Ordnen des Chaos der Ereignisse.
 
 ### Die Weihe (22 n.H.)
-Seine Erhebung zum Geweihten durch [[Custodias]] im Carmer 22 n.H. (Bote 186) war die logische Konsequenz seines Lebensweges. Doch auch als Geweihter legte er die Schreibfeder nicht nieder. Im Gegenteil: Er sieht in der Verbreitung von [[index]] eine heilige Pflicht Astraels.
+Seine Erhebung zum Geweihten durch [[Custodias]] im Carmer 22 n.H. (Bote 186) war die logische Konsequenz seines Lebensweges. Doch auch als Geweihter legte er die Schreibfeder nicht nieder. Im Gegenteil: Er sieht in der Verbreitung von Wissen eine heilige Pflicht Astraels.
 
 ### Die Münze des [[Chernides]]
 Ein Beispiel für seinen investigativen [[Geist]] ist die Lösung des Rätsels um die "Münze des [[Chernides]]" (Bote 186). Als ein Sterbender ihm ein Tagebuch und eine mysteriöse Münze übergab, ruhte Ionas nicht, bis er die Hintergründe um den vergessenen Horwah aufgedeckt und einen diplomatischen Ausgleich zwischen dem [[Astrael]]- und dem [[Vitama]]-Orden herbeigeführt hatte. Dies zeigt sein Talent als Vermittler und Forscher.

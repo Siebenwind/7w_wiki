@@ -22,7 +22,7 @@ Die Alchemie ist die Lehre von den stofflichen Wirkungsweisen in Verbindung ihre
 ## 1. Klassifizierung der Alchemie
 Die Alchemie wird in zwei wesentliche Disziplinen unterteilt:
 - **Niedere Alchemie:** Befasst sich mit der materiellen Suche nach dem "Stein der Weisen", der Herstellung gebräuchlicher Tränke und der Verfeinerung von Apparaturen. Sie finanziert sich oft durch Märkte oder Anstellungen an Adelskursen.
-- **Hohe Alchemie:** Die Domäne der Magi. Sie ist geheimnisvoll und nutzt oft magische Formeln (latente [[index]]), seltene Edelsteine oder bereits extrahierte Substanzen der niederen Alchemie als Basis. Prozesse können Jahre dauern.
+- **Hohe Alchemie:** Die Domäne der Magi. Sie ist geheimnisvoll und nutzt oft magische Formeln (latente Magie), seltene Edelsteine oder bereits extrahierte Substanzen der niederen Alchemie als Basis. Prozesse können Jahre dauern.
 
 ## 2. Der alchemistische Dekalog (Sicherheitsregeln)
 Arbeiten in Laboren unterliegen strengen Sicherheitsvorkehrungen:

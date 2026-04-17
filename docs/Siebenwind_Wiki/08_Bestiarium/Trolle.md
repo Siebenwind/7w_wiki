@@ -12,7 +12,7 @@ category: Allgemein
 
 ## Merkmale und Verhalten
 - **Physis:** Trolle erreichen oft eine Körpergröße von über drei Schritt. Ihre Haut ist zäh und lederartig.
-- **Widerstand:** Sie besitzen einen geradezu unglaublichen Widerstand gegen [[index]] und hervorragende Tarnungsfähigkeiten.
+- **Widerstand:** Sie besitzen einen geradezu unglaublichen Widerstand gegen Magie und hervorragende Tarnungsfähigkeiten.
 - **Sozialverhalten:** Sie sind langlebig und ziehen meist einzeln oder in kleinen Gruppen umher. Anderen Völkern gegenüber treten sie mit einer gewissen Überheblichkeit und Geduld entgegen, solange sie nicht angegriffen werden.
 - **Rache:** Ein "Trollmörder" wird von anderen Trollen gejagt. Dank ihrer Geduld schlagen sie oft erst zu einem für sie besonders günstigen Zeitpunkt zu.
 

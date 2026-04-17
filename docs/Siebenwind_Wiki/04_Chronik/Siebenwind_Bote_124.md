@@ -16,7 +16,7 @@ category: Chronik
 ### Adel & Ehrungen
 - **Erhebung:** [[Koruun_McKevin]] (Graf) erhob Feldhauptmann [[Kaspar_Brandner]] zum Freiherrn. Brandner erhielt ein graviertes Schwert ("Befreier Siebenwinds"). Zeugen: Sir [[Agranor_von_Eahlstan]], Sir [[Siegfried_von_Steiner]], Sir [[Athos]], Sir [[Randur_Kantrin]].
 
-### [[index]] & Justiz
+### Recht & Justiz
 - **Todesurteil Valjean:** [[Elares_Valjean]] wurde wegen Hochverrat, Verschwörung und Eidbruch (§ 39 Abs.2 Codex Criminalis) **in Abwesenheit** zum Tode verurteilt.
 - **Hinrichtung Hael:** [[Barad_Hael]] wurde wegen Angriff auf einen hohen Ritter und Majestätsbeleidigung zum Tode verurteilt. Das Urteil wurde am **14. Carmer** vollstreckt. Richter: [[Hanfried_Korbenus]].
 

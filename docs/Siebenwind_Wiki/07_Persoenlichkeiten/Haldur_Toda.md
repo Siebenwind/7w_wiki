@@ -20,9 +20,9 @@ Haldur Toda ist ein galadonischer Dichter, dessen Schaffen von tiefer Melancholi
 
 ## Wirken
 Toda ist bekannt für seine Gedichtbände und Briefsammlungen, die auch auf dem Festland Anhänger finden.
-*   **Wichtigste [[index]]:**
+*   **Wichtigste Werke:**
     *   *Briefe an die Herzdamen*: Eine Sammlung, die besonders bei der galadonischen Damenwelt (u.a. [[Madame_Lafayette]]) Anklang fand.
-    *   *Die [[index]] von der Maus und dem Baum*: Eine Parabel über Aufmerksamkeit und Ignoranz.
+    *   *Die Geschichte von der Maus und dem Baum*: Eine Parabel über Aufmerksamkeit und Ignoranz.
     *   *Den Kleingeistigen das Himmelreich*: Ein sozialkritisches Werk über die Enge des Geistes.
 
 ### Das Privatleben (Der tragische Dichter)

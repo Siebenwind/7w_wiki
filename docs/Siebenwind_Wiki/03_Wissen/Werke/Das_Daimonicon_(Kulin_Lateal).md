@@ -24,7 +24,7 @@ Yerrodon (die Niederhöllen) ist in 9 Herrschaftsbereiche unterteilt:
 6.  **Kulmar Sanghûlis (Lust/Schmerz):** Blutige Ekstasen, Folter, Orgien.
 7.  **Moghtor (Untod):** Das Reich der Rastlosen. Ursprung der Nekromantie.
 8.  **Agoth'ro'Hawenn (Angst):** Herrschaft durch Furcht, Illusionen, Alpträume. Diener: **Irahfar**.
-9.  **Mele Môrthere ([[index]]):** Eine gigantische [[index]], die alles [[index]] (Vergangenheit und Zukunft) speichert.
+9.  **Mele Môrthere (Wissen):** Eine gigantische Sammlung, die alles Wissen (Vergangenheit und Zukunft) speichert.
 
 ## Hierarchie (Das Horntheorem)
 [[Daemonen]] steigen durch Siege auf ("Hörner rauben").
@@ -44,7 +44,7 @@ Yerrodon (die Niederhöllen) ist in 9 Herrschaftsbereiche unterteilt:
 
 ## Paraphernalia (Zuordnungen)
 *   **Amethyst:** Lust/Schmerz (Esparell’it Mosali).
-*   **Diamant:** [[index]]/Erkenntnis (Zensyn Lramori).
+*   **Diamant:** Wissen/Erkenntnis (Zensyn Lramori).
 *   **Schwarze Perlen:** Untod (Moghtor).
 *   **Topas:** (?) Kathul Eddon.
 *   **Rubin:** Krieg (Il'kas'Myrith).

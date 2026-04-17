@@ -48,10 +48,10 @@ Die Stadt ist ein zentraler Wegeknotenpunkt:
 * **Taverne "Zur goldenen Harfe"**
 * **Streunerlager**: Ein Zeltlager im Süden für Reisende mit wenig Geld, Zigeuner und Abenteurer.
 
-## [[index]] und Ordnung
+## Sicherheit und Ordnung
 Die Stadtwachen patrouillieren regelmäßig. Zudem ist auf der Burg eine Abteilung der **Ritter von [[Siebenwind]]** stationiert, die im Notfall gegen Monster oder Diebesbanden ausrückt.
 
-## Religion und [[index]]
+## Religion und Magie
 König Hilgorad befahl die Anlage eines Platzes zu Ehren der Götter. Magisch ist die Stadt durch einen Außenposten der Magierakademie im Norden und das Haus des elementaren Erzmagus im Süden geprägt.
 
 ## Einordnung

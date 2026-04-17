@@ -13,7 +13,7 @@ Golems sind mächtige, künstlich erschaffene Wesenheiten aus Materie (meist Leh
 - **Statur:** Meist über zwei Schritt hoch und einen Schritt breit.
 - **Sinnesorgane:** Golems besitzen keine natürlichen Sinne. Oft werden rituell behandelte Edelsteine als Augen eingesetzt.
 - **Verhalten:** Sie sind absolut loyal gegenüber ihrem Erschaffer. Geht die Verbindung zum Meister verloren (z.B. durch dessen Tod), reagieren sie extrem aggressiv auf alle Lebewesen.
-- **[[index]]:** Sie wirken selten Zauber, verfügen aber über ein hohes Potenzial an Naturmagie (Erdknoten-Affinität).
+- **Magie:** Sie wirken selten Zauber, verfügen aber über ein hohes Potenzial an Naturmagie (Erdknoten-Affinität).
 
 ## 2. Das Erschaffungsritual (nach Liebig)
 Das Ritual ist ein hochkomplexer Akt der **Batama Magica** und erfordert äußerste Konzentration.

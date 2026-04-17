@@ -8,7 +8,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Fürstentum
+**Kategorie:** Region / Fürstentum
 **Hauptstadt:** Garan
 **Herrscher:** Edwin von Tiefenwald ap Raan
 
@@ -21,7 +21,7 @@ Ein riesiges Waldgebiet, das fast unberührt wirkt. Es ist die Heimat vieler **W
 
 ## Wirtschaft & Kultur
 *   **Holz:** Die Zimmerleute von Tiefenwald gelten als die besten Tares.
-*   **[[index]]:** Vereinzelte elfische Lehrmeister (Naturmagie).
+*   **Magie:** Vereinzelte elfische Lehrmeister (Naturmagie).
 
 ## Verlinkte Themen
 *   [[Rasse_Elfen]]

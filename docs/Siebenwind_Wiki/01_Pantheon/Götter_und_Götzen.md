@@ -16,12 +16,12 @@ In dieser Abhandlung analysiert Schwertmeister Tesion die Glaubensformen der "un
 ## Die Götzen der [[Orken]]
 Tesion identifiziert zwei zentrale Götzen, die er als Verzerrungen von [[Bellum]] und [[Astrael]] deutet:
 *   **Berg’lum:** Eine auf reine körperliche Kraft und Muskeln reduzierte Pervertierung von [[Bellum]]. Aspekte wie Ehre, Gerechtigkeit und Tugend fehlen völlig.
-*   **Ci’rbuz:** Eine grausame Pervertierung von [[Astrael]]. Anstelle von Weisheit und [[index]] steht hier nur die Macht zur zerstörerischen [[index]] im Vordergrund.
+*   **Ci’rbuz:** Eine grausame Pervertierung von [[Astrael]]. Anstelle von Weisheit und Wissen steht hier nur die Macht zur zerstörerischen Magie im Vordergrund.
 Die orkische Schöpfungsgeschichte, in der sich diese Götzen aus Spaß bekriegen, spiegele lediglich die gewalttätige Natur des Volkes wider.
 
 ## Die Götzen der [[Nortraven]]
 Der Glaube der [[Nortraven]] wird als weniger gefährlich, aber oberflächlich und unvollständig eingestuft:
-*   **[[Thjarek]]:** Vereint Attribute von [[Xan]] ([[index]]) und [[Bellum]] (Kraft/Meere).
+*   **[[Thjarek]]:** Vereint Attribute von [[Xan]] (Wasser) und [[Bellum]] (Kraft/Meere).
 *   **[[Eydis]]:** Schutzpatronin der Frauen, vereint Aspekte von [[Vitama]], [[Ventus]] und [[Rien]].
 Laut Tesion fehlen diesem Glauben die tiefgreifenden Aspekte von [[Morsan]] (Tod) und [[Astrael]] (Weisheit/Gesetz). Die [[Nortraven]] reduzierten die Götter auf weltliche, konfliktfreie Attribute.
 

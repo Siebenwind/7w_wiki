@@ -2,7 +2,7 @@
 title: "Warum der Glaube an die Gohor haeretisch ist"
 category: Religion
 status: integrated
-quelle: "/Quellen/index Astrael/Über die Gohor.md"
+quelle: "../../Quellen/Bibliothek Astrael/Über die Gohor.md"
 author: "Donarius Derrvus"
 ---
 

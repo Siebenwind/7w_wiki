@@ -15,7 +15,7 @@ Der kurze Text **"Abweisungen"** beschreibt die inneren Monologe einer Frau ("L.
 
 ## Handlung
 
-Die Protagonistin **L.** wägt ab, ob sie der Einladung eines elfischen Nachbarn folgen soll. Obwohl sie ihn attraktiv findet, entscheidet sie sich dagegen. Sie möchte sich niederlassen und ein ehrbares Leben führen, was mit einem "Ketzer" (Elf) in vielen Gegenden [[Falandrien]]s schwierig wäre. Zudem plagen sie Erinnerungen an eine Narbe und eine vergangene [[index]] in **[[Yota]]**.
+Die Protagonistin **L.** wägt ab, ob sie der Einladung eines elfischen Nachbarn folgen soll. Obwohl sie ihn attraktiv findet, entscheidet sie sich dagegen. Sie möchte sich niederlassen und ein ehrbares Leben führen, was mit einem "Ketzer" (Elf) in vielen Gegenden [[Falandrien]]s schwierig wäre. Zudem plagen sie Erinnerungen an eine Narbe und eine vergangene Erinnerung in **[[Yota]]**.
 
 Sie verlässt schließlich das Armenviertel Richtung Süden, um der Situation und dem "Nein", das sie ihm geben müsste, auszuweichen.
 

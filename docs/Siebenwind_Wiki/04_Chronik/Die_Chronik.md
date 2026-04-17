@@ -1,18 +1,18 @@
 ---
-title: Die index
+title: Die Chronik
 category: Index
 ---
 
-# Die [[index]]
+# Die Chronik
 
 **Epistemischer Status:** #bote
 
-Die [[index]] der Welt, geordnet nach dem Sonnenzirkel.
+Die Chronik der Welt, geordnet nach dem Sonnenzirkel.
 
 *   [[Historie_&_Ären]] - Die großen Zeitalter Tares.
 *   [[Zeitleiste_(15-30_n.H.)]] - Detaillierte Ereignisse der jüngeren [[Geschichte]].
 
-## [[Siebenwind]] Bote [[index]]
+## [[Siebenwind]] Bote Chronik
 Sammlung der integrierten Boten-Ausgaben:
 
 *   [[Siebenwind_Bote_118]], [[Siebenwind_Bote_120]], [[Siebenwind_Bote_121]], [[Siebenwind_Bote_122]], [[Siebenwind_Bote_123]]
@@ -34,7 +34,7 @@ Sammlung der integrierten Boten-Ausgaben:
 *   [[Siebenwind_Bote_191]], [[Siebenwind_Bote_192]], [[Siebenwind_Bote_193]], [[Siebenwind_Bote_194]]
 
 ## Literarische Quellen & Berichte
-Ereignisberichte und [[index]] (Spielergeschichten):
+Ereignisberichte und Erzählungen (Spielergeschichten):
 *   [[Der_Flug_der_Ente]] (Bürgerkriegszeit / [[Saeulenmeer]])
 *   [[Aus_dem_Liebesleben_eines_Dichters]] (Kultur / Galadonien)
 *   [[Blutschwert]] (Militär / Vandrien-Krise)

@@ -11,11 +11,11 @@ letzter_check: 2026-02-13T23:00:00
 **Epistemischer Status:** #perspektive
 
 ## Überblick
-"Blutschwert" ist eine epische Erzählung von **Tim Benion**, welche die [[index]] des ehemaligen Assassinen [[Veridon]] (Nebelklinge) während des Bürgerkriegs in Vandrien dokumentiert. Sie dient als Vorgeschichte zum Schicksal seines Sohnes [[Benion]].
+"Blutschwert" ist eine epische Erzählung von **Tim Benion**, welche die Geschichte des ehemaligen Assassinen [[Veridon]] (Nebelklinge) während des Bürgerkriegs in Vandrien dokumentiert. Sie dient als Vorgeschichte zum Schicksal seines Sohnes [[Benion]].
 
 ## Handlung
 ### Der Fall der Nebelklinge
-Die [[index]] beginnt mit dem Hintergrund von Veridon, einem ehemaligen Agenten der [[Oculus_Ecclesiae]], der alles verlor und zum alkoholabhängigen Wanderer wurde.
+Die Erzählung beginnt mit dem Hintergrund von Veridon, einem ehemaligen Agenten der [[Oculus_Ecclesiae]], der alles verlor und zum alkoholabhängigen Wanderer wurde.
 
 ### Der Terror der Legion
 Schauplatz ist das kriegszerrüttete Vandrien, in dem die [[Schwarze_Legion]] unter [[Herzog_Blutschwert]] eine Schreckensherrschaft errichtet. Veridon wird Zeuge von Massakern und der totalen Unterwerfung von Dörfern.

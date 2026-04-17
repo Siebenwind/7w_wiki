@@ -35,7 +35,7 @@ Der Rat, vertreten durch [[Solice_Aurora]], [[Custodias]] und [[Hebren_Zemand]],
 ## Quellen
 > [!NOTE]
 > **Primärquelle:** [[Siebenwind_Bote_183]] (Sonderausgabe: "Militärputsch in [[Falkensee]]").
-> **[[index]]:** [[Siebenwind_Bote_184]] (Nachwehen und Reorganisation).
+> **Quelle:** [[Siebenwind_Bote_184]] (Nachwehen und Reorganisation).
 
 ---
 **Siehe auch:** [[Falkensee]], [[Waldemar_Delarie]], [[Custodias]], [[Ersonter_Bund]]

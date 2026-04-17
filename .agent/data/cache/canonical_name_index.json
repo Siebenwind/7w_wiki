@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-09T18:18:41Z",
-  "inputs_fingerprint": "43597af46f51712ba5a4264a5faeeda380cef1eb5b74aea220079df0f2e23df0",
+  "generated_at": "2026-04-17T15:51:28Z",
+  "inputs_fingerprint": "04d01e70d57232fddd80aab2f89758bee522045e6bce2f693f95486c160f87a4",
   "payload": {
     "index": {
       "00religionuebersicht": [
@@ -801,9 +801,6 @@
       "dasfundament": [
         "Das_Fundament"
       ],
-      "dasindex": [
-        "Das_Fundament"
-      ],
       "dasmagischegefechtvoretriska": [
         "Gefecht_vor_Etriska"
       ],
@@ -911,9 +908,6 @@
       "diearkanegesellschaft": [
         "Die_arkane_Gesellschaft"
       ],
-      "diearkaneindex": [
-        "Die_arkane_Gesellschaft"
-      ],
       "diebannerschaft": [
         "Die_Bannerschaft"
       ],
@@ -944,7 +938,7 @@
       "dieerweitertethematikdervjerabatamamagica": [
         "Vjera_Batama_Magica_(Sylest_le_Felyhn)"
       ],
-      "diefokibedeutunginderpraktischenindex": [
+      "diefokibedeutunginderpraktischenmagie": [
         "Die_Foki_(Dimiona)"
       ],
       "diefokidimiona": [
@@ -959,10 +953,6 @@
       "dieheimsuchungderakademie": [
         "Heimsuchung_der_Akademie"
       ],
-      "dieindex": [
-        "Die_Chronik",
-        "Die_Magie_(Toran_Dur)"
-      ],
       "diekunstdererschaffenendiener": [
         "Die_Kunst_der_erschaffenen_Diener_(Nuir_Ekre)"
       ],
@@ -971,6 +961,9 @@
       ],
       "dielegendevongalahadritterderrosen": [
         "Die_Legende_von_Galahad_Ritter_der_Rosen"
+      ],
+      "diemagie": [
+        "Die_Magie_(Toran_Dur)"
       ],
       "diemagietorandur": [
         "Die_Magie_(Toran_Dur)"
@@ -1953,17 +1946,8 @@
       "index": [
         "index"
       ],
-      "indexgrundlagen": [
-        "Magie_Grundlagen"
-      ],
-      "indexregister": [
-        "Bestiarium_Register"
-      ],
       "indexsiebenwind": [
         "Index_Siebenwind_(Toran_Dur)"
-      ],
-      "indexsiebenwindsdeiuribus": [
-        "Recht_Siebenwinds"
       ],
       "indexsiebenwindtorandur": [
         "Index_Siebenwind_(Toran_Dur)"
@@ -2341,7 +2325,7 @@
       "lewynanacar": [
         "Lewyn_Anacar"
       ],
-      "lexikonderindex": [
+      "lexikondermagie": [
         "Lexikon_der_Magie_(Dunvallo_Linari)"
       ],
       "lexikondermagiedunvallolinari": [
@@ -2897,9 +2881,6 @@
       "pharell": [
         "Pharell"
       ],
-      "philosophiederindex": [
-        "Philosophie_der_Magie"
-      ],
       "philosophiedermagie": [
         "Philosophie_der_Magie"
       ],
@@ -3017,6 +2998,9 @@
       "rechtsiebenwinds": [
         "Recht_Siebenwinds"
       ],
+      "rechtsiebenwindsdeiuribus": [
+        "Recht_Siebenwinds"
+      ],
       "rechtundgesetz": [
         "Recht_und_Gesetz"
       ],
@@ -3098,7 +3082,7 @@
       "regionwallenburg": [
         "Region_Wallenburg"
       ],
-      "regulatoriumderindexzumheiligenaugeastraels": [
+      "regulatoriumderbibliothekzumheiligenaugeastraels": [
         "Bibliothek_Astrael_Regeln"
       ],
       "rekarsturmklinge": [
@@ -3299,11 +3283,9 @@
       "sataiakelas": [
         "Satai_Akelas"
       ],
-      "schamanischeindex": [
-        "Schamanische_Magie_(Fragment)"
-      ],
       "schamanischemagie": [
-        "Schamanische_Magie"
+        "Schamanische_Magie",
+        "Schamanische_Magie_(Fragment)"
       ],
       "schamanischemagiefragment": [
         "Schamanische_Magie_(Fragment)"
@@ -3946,7 +3928,7 @@
       "theoremzudenbaumwesenthemustakai": [
         "Theorem_zu_den_Baumwesen_(Themus_Takai)"
       ],
-      "theorethikderarkanenindexillusionistik": [
+      "theorethikderarkanenmagieillusionistik": [
         "Theorie_der_Illusionistik_(Bastean_Asanra)"
       ],
       "theoriearkanemagie": [
@@ -3964,7 +3946,7 @@
       "theoriederillusionistikbasteanasanra": [
         "Theorie_der_Illusionistik_(Bastean_Asanra)"
       ],
-      "theorienderindexsammelband": [
+      "theoriendermagiesammelband": [
         "Theorien_der_Magie_(Toran_Dur)"
       ],
       "theoriendermagieterenonsarophilan": [
@@ -3973,10 +3955,10 @@
       "theoriendermagietorandur": [
         "Theorien_der_Magie_(Toran_Dur)"
       ],
-      "theorienueberdieherkunftunddaswirkenderindex": [
+      "theorienueberdieherkunftunddaswirkendermagie": [
         "Theorien_der_Magie_(Terenon_Sarophilan)"
       ],
-      "theoriezurarkanenindexgeneraltheorie": [
+      "theoriezurarkanenmagiegeneraltheorie": [
         "Theorie_arkane_Magie"
       ],
       "thesendermagiezweige": [

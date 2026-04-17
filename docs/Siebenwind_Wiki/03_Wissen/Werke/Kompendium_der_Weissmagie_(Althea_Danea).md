@@ -19,7 +19,7 @@ Verfasst von Magistra [[Althea_Danea]].
 
 ## 1. Der Weiße Pfad
 
-Die Weißmagie widmet sich den schützenden und heilenden Aspekten der arkanen Künste. Sie steht im Gegensatz zur zerstörerischen Schwarzen [[index]] und bildet neben der Grauen und Elementaren [[index]] eine der vier großen Säulen der [[index]].
+Die Weißmagie widmet sich den schützenden und heilenden Aspekten der arkanen Künste. Sie steht im Gegensatz zur zerstörerischen Schwarzen Magie und bildet neben der Grauen und Elementaren Magie eine der vier großen Säulen der Magie.
 
 ### Historischer Abriss
 *   **Ursprung:** Der Pfad formte sich nach den **Amulettkriegen** (vor ca. 4000 Jahren). Ein Streit entzweite die Magier in das, was später als Weiß- und Graumagier bekannt wurde.
@@ -38,17 +38,17 @@ Die Heilmagie ist die wohl edelste Disziplin, aber auch eine der verantwortungsv
     *   **Grenzen:** Heilung profaner Krankheiten (Husten, Schnupfen) gelingt selten arkan, außer bei magischem Ursprung; Wiederherstellung verlorener Gliedmaßen erfordert extrem kraftraubende Rituale.
 
 ### 2.2 [[Antimagie]] (Magica Contraria)
-Die "Königsdisziplin", da sie [[index]] über alle anderen Magieformen voraussetzt.
+Die "Königsdisziplin", da sie Wissen über alle anderen Magieformen voraussetzt.
 *   **Ziel:** Aufheben, Verhindern oder Abwehren von Zaubern.
 *   **Vorgehen:** Analyse der zauberischen Struktur (mittels Hellsicht) und anschließende Auflösung oder Neutralisierung (z.B. Wasser gegen Feuer).
 *   **Bannung:** Das Zurückschicken von beschworenen Wesenheiten ([[Daemonen]]) in ihre Sphären. Dies erfordert oft Rituale und Kenntnis des wahren Namens oder Wesens.
 
 ### 2.3 Hellsichtmagie (Clairvoyanz)
-Die [[index]] der Erkenntnis, oft Basis für die [[Antimagie]].
+Die Magie der Erkenntnis, oft Basis für die [[Antimagie]].
 *   **Anwendungen:** Erkennen von arkanen Mustern (Matrix), Sicht im Dunkeln, Fernwahrnehmung.
 *   **Risiken:** Die Gefahr, Dinge zu sehen, die den [[Geist]] belasten, oder durch Trugbilder in die Irre geführt zu werden.
 *   **Hilfsmittel:** Spiegel, Kristalle, Wasserbecken.
 
 ---
 **Zitat:**
-> "Die Kunst der [[index]] ist mehr als die einfache Ausübung irgendeiner Tätigkeit... Die [[index]] ist eine Art, die ganze Welt zu betrachten."
+> "Die Kunst der Magie ist mehr als die einfache Ausübung irgendeiner Tätigkeit... Die Magie ist eine Art, die ganze Welt zu betrachten."

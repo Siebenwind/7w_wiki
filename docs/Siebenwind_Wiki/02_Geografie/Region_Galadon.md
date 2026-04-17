@@ -8,7 +8,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Königreich
+**Kategorie:** Region / Königreich
 **Hauptstadt:** [[Draconis]] (Herzogtum Bernstein)
 **Herrscher:** König Hilgorad XIII. ap Mer
 **Ausdehnung:** ca. 2/3 der Landmasse Falandriens
@@ -49,7 +49,7 @@ Das Reich ist in zahlreiche Herzogtümer, Fürstentümer, Grafschaften und Baron
 *   **[[Region_Khalandra]]:** (Nordgrenze) Wildes Barbarenland.
 *   **[[Region_Morgenthau]]:** (Ostgrenze) Der Große Wall.
 
-## [[index]] & Klima
+## Geografie & Klima
 Galadon umfasst fast alle Klimazonen, von den gemäßigten, regenreichen Küsten des Westens bis zu den kontinentalen, teils rauen Gebirgen des Ostens (Klauenberge, Dabus).
 
 ## Verlinkte Themen

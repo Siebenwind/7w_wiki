@@ -2,32 +2,32 @@
 title: Astrael
 status: Kanon (Level 1)
 type: Religion
-tags: [Gott, Sahor, [[index]], [[index]], [[index]], Sommer]
+tags: [Gott, Sahor, Wissen, Magie, Gesetz, Sommer]
 ---
 
 # Astrael
 
 **Epistemischer Status:** #canon
 
-**Astrael** ist einer der vier **Sahor**, die im Alltagsglauben meist zusammenfassend als die **Viere** bezeichnet werden. Er gilt als der Behüter des Wissens, der [[index]] und des Gesetzes und repräsentiert Intellekt, Ordnung und Zivilisation.
+**Astrael** ist einer der vier **Sahor**, die im Alltagsglauben meist zusammenfassend als die **Viere** bezeichnet werden. Er gilt als der Behüter des Wissens, der Magie und des Gesetzes und repräsentiert Intellekt, Ordnung und Zivilisation.
 
 ## Aspekte und Prinzipien
 - **Jahreszeit:** Sommer
-- **Element:** [[Geist]] / [[index]]
+- **Element:** [[Geist]] / Wissen
 - **Zugehöriger Mond:** Astreyon (Der weiße Mond)
 - **Tugenden:** Weisheit, Wahrheit, Gerechtigkeit, Disziplin.
 - **Symbole:** Das Allsehende Auge, das Buch, die Waage.
 
 ## Mythologie
-Astrael ist der Erstgeborene der Sahor. In den alten Mythen heißt es, er habe eines seiner Augen geopfert, um die [[index]] in die Welt zu bringen und den Sterblichen das Geschenk des Arkanen zu machen. Dieses Opfer symbolisiert, dass wahres [[index]] und Macht immer einen Preis haben.
+Astrael ist der Erstgeborene der Sahor. In den alten Mythen heißt es, er habe eines seiner Augen geopfert, um die Magie in die Welt zu bringen und den Sterblichen das Geschenk des Arkanen zu machen. Dieses Opfer symbolisiert, dass wahres Wissen und Macht immer einen Preis haben.
 
 ## Verehrung
 Die **[[Kirche_der_Viere]]** verehrt Astrael als den Stifter von Gesetz und Ordnung.
-- **Orden:** Der *Orden des Allsehenden Auges* (Ordo Astraeli) ist der klerikale Arm, der sich dem Studium der [[index]], der [[index]] und der Rechtsprechung widmet.
+- **Orden:** Der *Orden des Allsehenden Auges* (Ordo Astraeli) ist der klerikale Arm, der sich dem Studium der Magie, des Wissens und der Rechtsprechung widmet.
 - **Anhänger:** Richter, Magier, Gelehrte, Bibliothekare und jene, die nach Wahrheit suchen.
 
-## Die [[index]]
-Astrael ist der Schirmherr der arkanen Künste. Anders als die *Elementarherren*, die die rohe Kraft der Natur verkörpern, steht Astrael für die *geformte* [[index]] – die Matrix, das Ritual, die Formel. [[index]] wird als Werkzeug verstanden, um Ordnung in das Chaos zu bringen.
+## Die Magie
+Astrael ist der Schirmherr der arkanen Künste. Anders als die *Elementarherren*, die die rohe Kraft der Natur verkörpern, steht Astrael für die *geformte* Magie – die Matrix, das Ritual, die Formel. Magie wird als Werkzeug verstanden, um Ordnung in das Chaos zu bringen.
 
 ### Kontroverse: Ursprung des Netzes
 Während das kirchliche Dogma (basierend auf dem *Yehramnis*) lehrt, dass das **[[Astralnetz]]** ein direktes Geschenk Astraels an die Sterblichen sei, existieren in der akademischen Magietheorie abweichende Thesen. Prominent vertritt der Erzmagus **[[Toran_Dur]]** die Ansicht, dass das Netz bereits existierte (möglicherweise geschaffen von den [[Gohor]]) und Astrael den Sterblichen lediglich die *Gabe* (den Zugang) verlieh. Diese Theorie gilt unter strengen Dogmatikern als grenzwertig, da sie die Schöpfungsmacht des Gottes relativiert (siehe [[Gohor_Haeresie]]).

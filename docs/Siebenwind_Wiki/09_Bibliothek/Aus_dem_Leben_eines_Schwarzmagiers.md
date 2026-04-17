@@ -10,7 +10,7 @@ letzter_check: 2026-02-15T23:45:00+01:00
 
 **Epistemischer Status:** #perspektive (Horror-Erzählung von *unicrack*)
 
-Die dreiteilige [[index]] **"Aus dem Leben eines Schwarzmagiers"** schildert das düstere Schicksal des [[Bellum]]-Novizen **[[Felix_Goldschein]]**.
+Die dreiteilige Erzählung **"Aus dem Leben eines Schwarzmagiers"** schildert das düstere Schicksal des [[Bellum]]-Novizen **[[Felix_Goldschein]]**.
 
 ## Handlung
 

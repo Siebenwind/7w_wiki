@@ -7,7 +7,7 @@ category: Allgemein
 
 !!! info "Metadaten"
     - **Autor:** [[Toran_Dur]]
-    - **Kategorie:** Linguistik / Alte [[index]]
+    - **Kategorie:** Linguistik / Alte Sprache
 
 
 ## Inhalt

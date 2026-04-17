@@ -16,7 +16,7 @@ Der Text **"Abschied und Verrat"** beinhaltet einen dramatischen Briefwechsel, d
 
 ## Handlung
 
-Der Text beginnt in der [[index]] von [[Saalhornshof]], wo **Graf Robaar von Saalhorn** (vermutlich [[Hagen_Robaar]]) eine Depesche von seinem Kastellan erhält.
+Der Text beginnt in der Residenz von [[Saalhornshof]], wo **Graf Robaar von Saalhorn** (vermutlich [[Hagen_Robaar]]) eine Depesche von seinem Kastellan erhält.
 
 ### Der Brief
 **Kastellan [[Aelfrid_Wildgaden]]** schreibt von **Burg Saalhorn** (am 21. Duler 20 n.H.). Er berichtet, dass Robaars Bruder, **[[Todward_von_Saalhorn]]**, während eines Kriegszuges in [[Khalandra]] verschollen ist. Von 41 Männern kehrten nur zwei zurück (**Frederich** und **Halfdan**). Todward kämpfte tapfer, vermisst wird er seit einer chaotischen Flucht nach einer Niederlage gegen die "Wilden".

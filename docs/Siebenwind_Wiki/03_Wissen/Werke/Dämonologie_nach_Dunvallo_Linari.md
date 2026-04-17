@@ -19,12 +19,12 @@ Dieses Dokument fasst die Schriften "[[Daemonen]] - Eine Einführung" und "Daimo
 
 ## Die Kunst der Beschwörung (Conjuratio)
 
-Die Beschwörung von [[Daemonen]] gilt als eine der gefährlichsten Disziplinen der [[index]]. Dunvallo warnt eindringlich vor Leichtsinn.
+Die Beschwörung von [[Daemonen]] gilt als eine der gefährlichsten Disziplinen der Magie. Dunvallo warnt eindringlich vor Leichtsinn.
 
 ### Tugenden des Beschwörers
 Ein Beschwörer muss über folgende Tugenden verfügen, um nicht selbst Opfer seiner Rufe zu werden:
 1.  **Willenskraft:** Unbeugsamkeit gegenüber den Einflüsterungen und Drohungen der [[Daemonen]].
-2.  **[[index]]:** Exakte Kenntnis der wahren Namen, Sigillen und Hierarchien.
+2.  **Wissen:** Exakte Kenntnis der wahren Namen, Sigillen und Hierarchien.
 3.  **Vorsicht:** Niemals ohne Schutzkreis arbeiten.
 
 ### Der Schutzkreis

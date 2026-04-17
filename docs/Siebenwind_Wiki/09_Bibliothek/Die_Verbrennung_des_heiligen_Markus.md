@@ -20,7 +20,7 @@ Der Text **"Die Verbrennung des heiligen Markus"** erzählt das Schicksal des Ma
 Markus, einst ein angesehener Magier, unterzog sich einer dreimonatigen radikalen Askese und Meditation, um sich geistig auf das kommende [[Dunkeltief]] vorzubereiten. Durch Hunger und Selbstgeißelung verwandelte er sich äußerlich in einen "zahnlosen Bettler", erreichte jedoch innerlich einen Zustand höchster Reinheit und Nähe zu den [[Viere]]n.
 
 ### Das Wunder im [[Dunkeltief]]
-Während des Dunkeltiefs (im Monat [[Kalender#[[Morsan]]|Morsan]]), als der Ansturm dämonischer Mächte die [[index]] für gewöhnliche Magier unberechenbar machte, konnte Markus dank seiner geistigen Klarheit weiterhin "reine" [[index]] wirken. Er nutzte diese Kraft, um die Stadt (vermutlich [[Falkensee]] oder [[Brandenstein]]) zu schützen und Leben zu retten.
+Während des Dunkeltiefs (im Monat [[Kalender#[[Morsan]]|Morsan]]), als der Ansturm dämonischer Mächte die Magie für gewöhnliche Magier unberechenbar machte, konnte Markus dank seiner geistigen Klarheit weiterhin "reine" Magie wirken. Er nutzte diese Kraft, um die Stadt (vermutlich [[Falkensee]] oder [[Brandenstein]]) zu schützen und Leben zu retten.
 
 ### Das Urteil
 Die Tragik seines Schicksals liegt in der Fehlinterpretation seiner Taten. Da die Bevölkerung und seine ehemaligen Kollegen glaubten, dass im [[Dunkeltief]] nur Schwarzmagier wirkungsvoll zaubern könnten, wurde seine Rettungstat als Beweis für dunkle Künste gewertet. Markus wurde verhaftet und auf dem Scheiterhaufen verbrannt. Der Titel "Heiliger Markus" im Text deutet auf eine bittere Ironie oder eine verdeckte Verehrung durch Wissende hin.
@@ -31,5 +31,5 @@ Die Tragik seines Schicksals liegt in der Fehlinterpretation seiner Taten. Da di
 *   **[[Markus]]**: Protagonist. Magister, Asket, vermeintlicher Schwarzmagier.
 
 ### Konzepte
-*   **[[Dunkeltief]]**: Die Zeit der Prüfung, in der [[index]] normalerweise gestört ist.
+*   **[[Dunkeltief]]**: Die Zeit der Prüfung, in der Magie normalerweise gestört ist.
 *   **Magietheorie**: Die Annahme, dass nur Schwarzmagie im [[Dunkeltief]] funktioniert, wird hier dekonstruiert.

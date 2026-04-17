@@ -2,7 +2,7 @@
 title: "Postulat der idealen Form von Matricen"
 category: Gesellschaft
 status: integrated
-quelle: "/Quellen/index Astrael/Postulat der idealen Form von Matricen im Raum und in der Zeit.md"
+quelle: "../../Quellen/Bibliothek Astrael/Postulat der idealen Form von Matricen im Raum und in der Zeit.md"
 author: "Donarius Derrvus"
 ---
 

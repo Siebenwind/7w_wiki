@@ -2,7 +2,7 @@
 title: "Vandriens Entstehung"
 category: Religion
 status: integrated
-quelle: "/Quellen/index Astrael/Vandriens Entstehung.md"
+quelle: "../../Quellen/Bibliothek Astrael/Vandriens Entstehung.md"
 author: "Roland Ronde"
 ---
 

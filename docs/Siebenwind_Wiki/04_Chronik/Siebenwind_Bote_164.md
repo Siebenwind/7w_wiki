@@ -24,8 +24,8 @@ letzter_check: 2026-02-13T15:15:00+01:00
 
 ## Lokales
 *   **Etikette:** Neue Anreden für Ritter setzen sich durch: **Ser** (m) und **Sera** (w) als Alternative zu Sir/Sire.
-*   **Wesen:** Warnung vor "Däumlingen" ([[Gignoskein]]-Ehepaar), die Wanderer durch [[index]] und List berauben.
-*   **[[index]]:** Bericht vom Rätselabend im "Vitamas Kelch". Wohlgeboren **[[Ruodrik]]** verteidigte seinen Titel als Rätselkönig.
+*   **Wesen:** Warnung vor "Däumlingen" ([[Gignoskein]]-Ehepaar), die Wanderer durch Magie und List berauben.
+*   **Kultur:** Bericht vom Rätselabend im "Vitamas Kelch". Wohlgeboren **[[Ruodrik]]** verteidigte seinen Titel als Rätselkönig.
 
 ## Einordnung
 *   **[[Aspin_Schwertklinge_von_Fahlenau]]**: Neuer Großmeister.

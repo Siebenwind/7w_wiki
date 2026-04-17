@@ -16,7 +16,7 @@ letzter_check: 2026-02-13T22:50:00
 
 
 ## Beschreibung
-Madame Lafayette ist eine gebildete und wohlhabende Frau des Festlandes, die als eine der größten Bewunderinnen der [[index]] von [[Haldur_Toda]] gilt. Sie wird als eloquente Korrespondentin beschrieben, die trotz ihrer sozialen Stellung (möglicherweise adlig oder zum gehobenen Bürgertum gehörend) eine tiefe Sehnsucht nach ehrlicher Emotion und lyrischer Tiefe hegt.
+Madame Lafayette ist eine gebildete und wohlhabende Frau des Festlandes, die als eine der größten Bewunderinnen der Werke von [[Haldur_Toda]] gilt. Sie wird als eloquente Korrespondentin beschrieben, die trotz ihrer sozialen Stellung (möglicherweise adlig oder zum gehobenen Bürgertum gehörend) eine tiefe Sehnsucht nach ehrlicher Emotion und lyrischer Tiefe hegt.
 
 ## Wirken
 Lafayette unterstützte Toda indirekt durch den Kauf seiner Abschriften (u.a. vermittelt durch [[Sinistrus]]) und hielt über Jahre hinweg Kontakt zu ihm.

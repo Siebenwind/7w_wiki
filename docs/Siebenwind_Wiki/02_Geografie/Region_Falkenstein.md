@@ -8,7 +8,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Grenzland
+**Kategorie:** Region / Grenzland
 **Hauptstadt:** Falkenstein (20.000 Einwohner)
 **Herrscher:** Markgraf Salman di Seregatto (Vertreter des Königs)
 

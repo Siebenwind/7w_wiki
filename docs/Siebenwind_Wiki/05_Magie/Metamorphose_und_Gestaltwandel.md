@@ -7,7 +7,7 @@ quelle: "/Quellen/index Toran_Dur/Lewyn_Anacar - Ars Magica Metamorphosia.md"
 
 # Metamorphose und Gestaltwandel
 
-Die *Ars Magica Metamorphosia* befasst sich mit der Veränderung und Verwandlung von lebendigen Wesen sowie unbelebten Objekten. Sie gilt als eine der schwierigsten und energieintensivsten Schulen der [[index]].
+Die *Ars Magica Metamorphosia* befasst sich mit der Veränderung und Verwandlung von lebendigen Wesen sowie unbelebten Objekten. Sie gilt als eine der schwierigsten und energieintensivsten Schulen der Magie.
 
 ## 1. Klassifizierung der Metamorphose
 

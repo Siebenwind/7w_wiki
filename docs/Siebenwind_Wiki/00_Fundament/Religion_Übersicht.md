@@ -21,7 +21,7 @@ Im theologischen und kosmologischen Sprachgebrauch werden sie **Sahor** genannt;
 
 | Gott | Aspekt | Jahreszeit | Zugehöriger Mond |
 |------|--------|------------|------------------|
-| **[[Astrael]]** | [[index]], [[index]], [[index]] | Sommer | Astreyon (Der weiße Mond) |
+| **[[Astrael]]** | Wissen, Magie, Gesetz | Sommer | Astreyon (Der weiße Mond) |
 | **[[Bellum]]** | Ehre, Krieg, Gerechtigkeit, Handwerk | Herbst | - |
 | **[[Vitama]]** | Liebe, Fruchtbarkeit, Frieden, Kunst | Frühling | Vitamalin (Der rosa Mond) |
 | **[[Morsan]]** | Tod, Traum, Ruhe | Winter | - |

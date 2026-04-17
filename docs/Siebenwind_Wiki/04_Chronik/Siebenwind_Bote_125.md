@@ -17,7 +17,7 @@ category: Chronik
 - **Trophäenhändler:** [[Rekar_Sturmklinge]], ehemaliger Jäger, eröffnete einen Trophäenhandel vor den Westtoren von [[Brandenstein]] im Auftrag der Krone.
 - **Botengebäude:** Die Redaktion des Boten sucht Handwerker für den Umbau ihrer Räumlichkeiten.
 
-### [[index]] & Völker
+### Gesellschaft & Völker
 - **[[Orken]]-Problem:** Bericht über zunehmende Kriminalität durch [[Ork|Orken]] (Entführung, Bärenangriff). Gefreite [[Frau_von_Wankenbach]] vom Schutzzug schildert ihren Fall. Plädoyer für Völkerverständigung trotz Konflikten.
 
 ### Einordnung

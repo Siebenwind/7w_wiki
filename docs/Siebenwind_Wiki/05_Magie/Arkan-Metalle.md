@@ -11,14 +11,14 @@ Die Interaktion zwischen Metallen und [[Magietheorie|arkanen Kräften]] ist ein 
 
 ## 1. [[Elementare]] Zuordnung (nach [[Edomawyr]])
 
-Metalle können als **Fokus** (erleichtert die [[index]] eines Elements) oder **Gegenfokus** (stört/blockiert ein Element) wirken.
+Metalle können als **Fokus** (erleichtert die Magie eines Elements) oder **Gegenfokus** (stört/blockiert ein Element) wirken.
 
 | Metall | Element | Gott/Prinzip | Fokus für | Gegenfokus für |
 | :--- | :--- | :--- | :--- | :--- |
-| **Gold & Kupfer** | [[Elementarlehre_Feuer|Feuer]] | [[Ingis]] | Feuer-[[index]] | Wasser-[[index]] |
-| **Bronze** | [[Elementarlehre_Erde|Erde]] | [[Rien]] | Erd-[[index]] | Luft-[[index]] |
-| **Stahl / Eisen** | [[Elementarlehre_Luft|Luft]] | [[Khaleb]] | Luft-[[index]] | Erd-[[index]] |
-| **Silber** | [[Elementarlehre_Wasser|Wasser]] | [[Xan]] | Wasser-[[index]] | Feuer-[[index]] |
+| **Gold & Kupfer** | [[Elementarlehre_Feuer|Feuer]] | [[Ingis]] | Feuer-Magie | Wasser-Magie |
+| **Bronze** | [[Elementarlehre_Erde|Erde]] | [[Rien]] | Erd-Magie | Luft-Magie |
+| **Stahl / Eisen** | [[Elementarlehre_Luft|Luft]] | [[Khaleb]] | Luft-Magie | Erd-Magie |
+| **Silber** | [[Elementarlehre_Wasser|Wasser]] | [[Xan]] | Wasser-Magie | Feuer-Magie |
 | **Fethril** | Heilig / Feuer | Ingis | Unbekannt / Extrem stark | - |
 
 ## 2. Der Metall-Effekt

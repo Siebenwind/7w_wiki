@@ -15,7 +15,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_158.md
 
 ## Beschreibung
 **Magister Morin Thamaz** ist ein Gelehrter der arkanen Künste.
-*   **18 n.H. (Bote 158):** Er übernahm die Leitung des **Elementaren Pfades** an der [[Magierakademie]]. Er zeichnet sich durch sein ausgeprägtes fachliches [[index]] aus.
+*   **18 n.H. (Bote 158):** Er übernahm die Leitung des **Elementaren Pfades** an der [[Magierakademie]]. Er zeichnet sich durch sein ausgeprägtes fachliches Wissen aus.
 
 ---
 **Siehe auch:** [[Magierakademie]], [[Magie_Grundlagen]]

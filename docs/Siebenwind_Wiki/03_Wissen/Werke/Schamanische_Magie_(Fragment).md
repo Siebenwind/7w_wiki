@@ -1,12 +1,12 @@
 ---
-title: Schamanische index
+title: Schamanische Magie
 file_name: Schamanische_Magie_(Fragment).md
-description: Ein fragmentarisches Werk unbekannter Herkunft, das die Grundlagen schamanischer [[index]], Geisterbeschwörung (Tiergeister, Mondgeister) und Totemmagie beschreibt.
+description: Ein fragmentarisches Werk unbekannter Herkunft, das die Grundlagen schamanischer Magie, Geisterbeschwörung (Tiergeister, Mondgeister) und Totemmagie beschreibt.
 date: 2024-05-24
 author: Unbekannt (Fragment), Archivteam (Zusammenstellung)
 ---
 
-# Schamanische [[index]]
+# Schamanische Magie
 
 Verfasst von einem unbekannten Schamanen oder Forscher. Das Pergament bricht mittendrin ab.
 
@@ -15,7 +15,7 @@ Verfasst von einem unbekannten Schamanen oder Forscher. Das Pergament bricht mit
 *   **Gestirne:**
     *   *Vitamalin:* Feengeister, gute Wesen.
     *   *Astreyon:* Wahrsagerei.
-    *   *Dorrayon:* Schwarze [[index]], Flüche, Verrat (nicht [[Angamon]], sondern "verborgene Gier").
+    *   *Dorrayon:* Schwarze Magie, Flüche, Verrat (nicht [[Angamon]], sondern "verborgene Gier").
     *   *Fela:* Extreme Destruktivmagie.
     *   *[[Tare]]:* Tiergeister (schwach, aber nützlich).
 *   **Gohor (Ewige [[Drachen]]):** Galamnor und Timanor. Prinzipien von Werden und Vergehen. Schöpfer der Götter (laut diesem Text).

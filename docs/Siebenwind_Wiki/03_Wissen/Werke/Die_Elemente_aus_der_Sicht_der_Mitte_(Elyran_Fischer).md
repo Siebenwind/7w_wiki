@@ -26,7 +26,7 @@ Fischer ordnet die Elemente nach **Ordnung** und **Chaos** sowie ihrem praktisch
 | **Feuer** | Chaos (Zerstörung) | Jähzornig, leidenschaftlich | Kampf (C. Combattiva), "Ausbrennen" v. Krankheit |
 | **[[Geist]]** | Neutral | Manipulierend, intelligent | Metamagie, Analyse, Steuerung der anderen Elemente |
 
-## Anwendung in der Grauen [[index]]
+## Anwendung in der Grauen Magie
 
 ### Magica Combattiva (Kampf)
 Effizienz ist der Schlüssel.

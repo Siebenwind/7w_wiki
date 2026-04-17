@@ -35,7 +35,7 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
 - In Wiki-/System-Dokumenten sind **keine absoluten `file://` Pfade** erlaubt.
 - Erlaubt sind:
   - repo-relative Markdown-Links (z. B. `System/Synapse_Board/SY_REVIEW.md`),
-  - `[[WikiLinks]]` fuer Wissensseiten.
+  - WikiLinks fuer Wissensseiten.
 - Ausnahme: Externe Webquellen (`https://...`) sind zulaessig.
 
 ## Norm 1b: Bridge-Page-Policy

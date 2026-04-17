@@ -22,7 +22,7 @@ Der Legende nach waren die Klauenwölfe einst ein Volk wie [[Elfen]] oder [[Zwer
 ## Verhalten und Kultur
 *   **Wächter des Waldes:** Sie stehen oft in einem alten Bündnis mit Kräuterkundigen und Waldhütern (wie [[Ilja]]). 
 *   **Soziale Struktur:** Sie leben in Rudeln mit komplexen Hierarchien.
-*   **Korrumpierbarkeit:** Während sie allgemein als Schützer der Natur gelten, gibt es Berichte, dass einzelne Rudel oder Individuen von der [[Schwarze_Legion]] unterworfen oder durch dunkle [[index]] korrumpiert wurden.
+*   **Korrumpierbarkeit:** Während sie allgemein als Schützer der Natur gelten, gibt es Berichte, dass einzelne Rudel oder Individuen von der [[Schwarze_Legion]] unterworfen oder durch dunkle Magie korrumpiert wurden.
 
 ## Bekannte Individuen
 *   **Narbenschnauze:** Ein großer Klauenwolf mit einer markanten Narbe, der als Bote oder Wächter der Kräuterfrau [[Ilja]] fungiert.

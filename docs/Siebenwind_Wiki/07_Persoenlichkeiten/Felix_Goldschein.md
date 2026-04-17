@@ -16,7 +16,7 @@ report_id: 754c8f86-07f6-4769-ad51-79434539af3e
 
 
 ## Beschreibung
-**Felix Goldschein** ist ein Novize des [[Bellum]], dessen Erlebnisse in der [[index]] "[[Aus_dem_Leben_eines_Schwarzmagiers]]" dokumentiert sind.
+**Felix Goldschein** ist ein Novize des [[Bellum]], dessen Erlebnisse in der Erzählung "[[Aus_dem_Leben_eines_Schwarzmagiers]]" dokumentiert sind.
 
 ## Wirken
 - **Klerale Laufbahn:** Ausbildung zum Geweihten des Gottes [[Bellum]].

@@ -17,7 +17,7 @@ category: Chronik
 - **Neubau:** Die "neue Hauptstadt" ([[Brandenstein]]?) befindet sich im Aufbau. Es werden dringend Arbeitskräfte gesucht.
 - **Finanzen:** Finanzmagistratin [[Saphyriella]] fordert Mieten von diversen Häusern ein.
 
-### [[index]] & Konflikte
+### Politik & Konflikte
 - **[[Turek]]-Auktion:** Eine Auktion der Familie [[Turek]] am 1. Querlar wurde von [[Ordo_Astrael]]-Geweihten gestoppt, da sie auf einen Feiertag ("Spiegel des [[Astrael]]") fiel. [[Siegfried_von_Steiner]] und [[Aelwin]] schlichteten. Die Auktion fand am 3. Querlar statt.
 - **Thar'Sala:** Das Elfenhaus "Thar'Sala" wurde vom Lehensbanner durchsucht. Auslöser war ein Angriff auf eine Wache mit vermuteter Schwarzmagie. Man fand Leichenteile und dunkle Notizen. Verdacht gegen [[Ravia_Thyrandor]].
 - **Sicherheit:** Ein Ork brachte gezähmte Monster (Bären, Troll) in die Stadt zum Handel. Kritik an der Sorglosigkeit der Bürger (u.a. [[Ravia_Thyrandor]]).

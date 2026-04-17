@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-09T18:18:42Z",
-  "inputs_fingerprint": "6403c145f0da1d5f917cd784c56c84f7cf65d387faa20ff34768e06ea1509c9f",
+  "generated_at": "2026-04-17T15:51:12Z",
+  "inputs_fingerprint": "e757fc5c09b6b512cabcac3a0d47c6d66206a1b469588c63097a0b82772e3de6",
   "payload": {
     "bridge_inventory": {
       "invalid": 0,
@@ -575,7 +575,7 @@
         "changes": [],
         "meta": {
           "category": "Index",
-          "title": "index Register"
+          "title": "Bestiarium Register"
         },
         "path": "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
       },
@@ -834,7 +834,7 @@
         "changes": [],
         "meta": {
           "category": "Index",
-          "title": "Das index"
+          "title": "Das Fundament"
         },
         "path": "docs/Siebenwind_Wiki/00_Fundament/Das_Fundament.md"
       },
@@ -2634,7 +2634,7 @@
         "changes": [],
         "meta": {
           "category": "Allgemein",
-          "title": "index Grundlagen"
+          "title": "Magie Grundlagen"
         },
         "path": "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md"
       },
@@ -5208,7 +5208,7 @@
           "category": "Religion",
           "confidence": "Certain",
           "lore_trust": "3",
-          "quelle": "../../Quellen/index Astrael/Aequitas.md",
+          "quelle": "../../Quellen/Bibliothek Astrael/Aequitas.md",
           "report_id": "BATCH-TEST-2026-02-13",
           "status": "Legende",
           "title": "Aequitas",
@@ -5244,7 +5244,7 @@
         "changes": [],
         "meta": {
           "status": "Kanon (Level 1)",
-          "tags": "[Gott, Sahor, [[index]], [[index]], [[index]], Sommer]",
+          "tags": "[Gott, Sahor, Wissen, Magie, Gesetz, Sommer]",
           "title": "Astrael",
           "type": "Religion"
         },
@@ -5329,7 +5329,7 @@
           "confidence": "Certain",
           "letzter_check": "2026-02-15T23:55:00+01:00",
           "lore_trust": "9",
-          "quelle": "\"../../Quellen/index Astrael/Brevier des Ordo Astraeli.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Brevier des Ordo Astraeli.md\"",
           "report_id": "a2b3c4d5-e6f7-4a1b-2c3d-4e5f6a7b8c9d",
           "status": "integrated",
           "title": "Brevier des Ordo Astraeli",
@@ -5366,7 +5366,7 @@
           "confidence": "Certain",
           "letzter_check": "2026-02-16T00:00:00+01:00",
           "lore_trust": "10",
-          "quelle": "\"../../Quellen/index Astrael/Codex Iuris Canonici.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Codex Iuris Canonici.md\"",
           "report_id": "h9i0j1k2-l3m4-5n6o-7p8q-9r10s11t12u13",
           "status": "integrated",
           "title": "Codex Iuris Canonici",
@@ -5611,7 +5611,7 @@
         "meta": {
           "author": "\"[[Anonymus]]\"",
           "category": "Religion",
-          "quelle": "\"/Quellen/index Astrael/Elementum et Gens Humanis.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Elementum et Gens Humanis.md\"",
           "status": "integrated",
           "title": "Elementum et Gens Humanis (Kommentar zu Divinum et Elementum)"
         },
@@ -5629,7 +5629,7 @@
         "meta": {
           "author": "\"Elgar von Utracht\"",
           "category": "Religion",
-          "quelle": "\"/Quellen/index Astrael/Exercitium.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Exercitium.md\"",
           "status": "integrated",
           "title": "\"Exercitium\""
         },
@@ -5677,7 +5677,7 @@
         "meta": {
           "author": "\"Donarius Derrvus\"",
           "category": "Religion",
-          "quelle": "\"/Quellen/index Astrael/Über die Gohor.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Über die Gohor.md\"",
           "status": "integrated",
           "title": "\"Warum der Glaube an die Gohor haeretisch ist\""
         },
@@ -5710,7 +5710,7 @@
         "meta": {
           "author": "\"Aelwin\"",
           "category": "Religion",
-          "quelle": "\"/Quellen/index Astrael/Heilige Liturgien.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Heilige Liturgien.md\"",
           "status": "integrated",
           "title": "\"Heilige Liturgien\""
         },
@@ -5727,7 +5727,7 @@
         "changes": [],
         "meta": {
           "status": "Kanon (Level 1)",
-          "tags": "[Elementarherr, [[Die_Enhor|Enhor]], Feuer, [[index]]]",
+          "tags": "[Elementarherr, [[Die_Enhor|Enhor]], Feuer, Magie]",
           "title": "Ignis",
           "type": "Religion"
         },
@@ -5837,7 +5837,7 @@
         "meta": {
           "author": "\"Anais\"",
           "category": "Religion",
-          "quelle": "\"/Quellen/index Astrael/Ortus et Integritas.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Ortus et Integritas.md\"",
           "status": "integrated",
           "title": "Ortus et Integritas (Von der Reinheit des Anfangs)"
         },
@@ -5854,7 +5854,7 @@
         "changes": [],
         "meta": {
           "status": "Kanon (Level 1)",
-          "tags": "[Elementarherrin, [[Die_Enhor|Enhor]], Erde, [[Rasse_Zwerge]], [[index]]]",
+          "tags": "[Elementarherrin, [[Die_Enhor|Enhor]], Erde, [[Rasse_Zwerge]], Magie]",
           "title": "Rien",
           "type": "Religion"
         },
@@ -5872,7 +5872,7 @@
         "meta": {
           "author": "\"Aelwin\"",
           "category": "Religion",
-          "quelle": "\"/Quellen/index Astrael/Über den heiligen Ritus der Exercitio.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Über den heiligen Ritus der Exercitio.md\"",
           "status": "integrated",
           "title": "\"Der heilige Ritus der Exercitio\""
         },
@@ -5890,7 +5890,7 @@
         "meta": {
           "author": "\"Rose\"",
           "category": "Religion",
-          "quelle": "\"/Quellen/index Astrael/Spiegel.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Spiegel.md\"",
           "status": "integrated",
           "title": "\"Spiegel\""
         },
@@ -5923,7 +5923,7 @@
         "meta": {
           "author": "\"Jeremias\"",
           "category": "Religion",
-          "quelle": "\"/Quellen/index Astrael/Über die Gebete.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Über die Gebete.md\"",
           "status": "integrated",
           "title": "\"Über die Gebete\""
         },
@@ -5941,7 +5941,7 @@
         "meta": {
           "author": "\"Roland Ronde\"",
           "category": "Religion",
-          "quelle": "\"/Quellen/index Astrael/Vandriens Entstehung.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Vandriens Entstehung.md\"",
           "status": "integrated",
           "title": "\"Vandriens Entstehung\""
         },
@@ -5958,7 +5958,7 @@
         "changes": [],
         "meta": {
           "status": "Kanon (Level 1)",
-          "tags": "[Elementarherr, [[Die_Enhor|Enhor]], Luft, Wind, [[index]]]",
+          "tags": "[Elementarherr, [[Die_Enhor|Enhor]], Luft, Wind, Magie]",
           "title": "Ventus",
           "type": "Religion"
         },
@@ -5993,7 +5993,7 @@
         "meta": {
           "author": "\"Etril Gamajeff\"",
           "category": "Religion",
-          "quelle": "\"/Quellen/index Astrael/Von dem Bösen.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Von dem Bösen.md\"",
           "status": "integrated",
           "title": "\"Von dem Bösen\""
         },
@@ -6011,7 +6011,7 @@
         "meta": {
           "author": "\"Donarius Derrvus\"",
           "category": "Religion",
-          "quelle": "\"/Quellen/index Astrael/Von den Myten.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Von den Myten.md\"",
           "status": "integrated",
           "title": "Von den Myten"
         },
@@ -6028,7 +6028,7 @@
         "changes": [],
         "meta": {
           "status": "Kanon (Level 1)",
-          "tags": "[Elementarherr, [[Die_Enhor|Enhor]], Wasser, Eis, [[index]]]",
+          "tags": "[Elementarherr, [[Die_Enhor|Enhor]], Wasser, Eis, Magie]",
           "title": "Xan",
           "type": "Religion"
         },
@@ -6953,7 +6953,7 @@
         "meta": {
           "author": "\"Donarius Derrvus\"",
           "category": "Gesellschaft",
-          "quelle": "\"/Quellen/index Astrael/Von der rechten Art der Mission und dem gesunden Mass.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Von der rechten Art der Mission und dem gesunden Mass.md\"",
           "status": "integrated",
           "title": "Von der rechten Art der Mission und dem gesunden Maß"
         },
@@ -6971,7 +6971,7 @@
         "meta": {
           "author": "\"[[Avaratio_Mischelgrimm]]\"",
           "category": "Gesellschaft",
-          "quelle": "\"/Quellen/index Astrael/Opus i de alchimiae.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Opus i de alchimiae.md\"",
           "status": "integrated",
           "title": "Theorie der Form und des Funkens (Opus i de alchimiae)"
         },
@@ -7004,9 +7004,9 @@
         "meta": {
           "author": "\"Anais\"",
           "category": "Gesellschaft",
-          "quelle": "\"/Quellen/index Astrael/Regulatorium der index zum Heiligen Auge Astraels.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Regulatorium der Bibliothek zum Heiligen Auge Astraels.md\"",
           "status": "integrated",
-          "title": "Regulatorium der index zum Heiligen Auge Astraels"
+          "title": "Regulatorium der Bibliothek zum Heiligen Auge Astraels"
         },
         "path": "docs/Siebenwind_Wiki/03_Gesellschaft/Bibliothek_Astrael_Regeln.md"
       },
@@ -7137,7 +7137,7 @@
         "meta": {
           "author": "\"Donarius Derrvus\"",
           "category": "Gesellschaft",
-          "quelle": "\"/Quellen/index Astrael/Postulat der idealen Form von Matricen im Raum und in der Zeit.md\"",
+          "quelle": "\"../../Quellen/Bibliothek Astrael/Postulat der idealen Form von Matricen im Raum und in der Zeit.md\"",
           "status": "integrated",
           "title": "\"Postulat der idealen Form von Matricen\""
         },
@@ -7157,7 +7157,7 @@
           "quelle": "Dunvallo_Linari - Artefakte",
           "report_id": "b6a7d2e4-9f81-4a3b-8c7a-9f8e4d2e7b1a",
           "status": "#überlieferung",
-          "tags": "[Wissenschaft, [[index]], [[index]]]",
+          "tags": "[Wissenschaft, Magie, Artefaktlehre]",
           "title": "Die Zusammenkunft"
         },
         "path": "docs/Siebenwind_Wiki/03_Gesellschaft/Die_Zusammenkunft.md"
@@ -7378,7 +7378,7 @@
         "meta": {
           "category": "Gesellschaft",
           "letzter_check": "2026-02-13T01:02:10+01:00",
-          "quelle": "../../Quellen/index Toran_Dur/Toran_Dur - Graue Charta II.md",
+          "quelle": "../../Quellen/Bibliothek Toran Dur/Toran Dur - Graue Charta II.md",
           "title": "Königliche Akademie der arkanen Künste",
           "uuid": "be2ae710-1639-4458-b50b-f5c901eab851"
         },
@@ -7585,8 +7585,8 @@
         "meta": {
           "category": "Gesellschaft",
           "status": "#überlieferung",
-          "tags": "[Gesetz, [[index]], Verfassung, Strafe, Adel, Bürger]",
-          "title": "index Siebenwinds (De Iuribus)"
+          "tags": "[Gesetz, Recht, Verfassung, Strafe, Adel, Bürger]",
+          "title": "Recht Siebenwinds (De Iuribus)"
         },
         "path": "docs/Siebenwind_Wiki/03_Gesellschaft/Recht_Siebenwinds.md"
       },
@@ -8153,9 +8153,9 @@
         "meta": {
           "author": "[[Dimiona]] (Original), Archivteam (Zusammenstellung)",
           "date": "2024-05-24",
-          "description": "Eine Magisterarbeit von Adepta Maior [[Dimiona]] über die vier Hauptfoki der [[index]] ([[Geist]], Runen, Gesten, Wille) und deren Bedeutung in der Praxis.",
+          "description": "Eine Magisterarbeit von Adepta Maior [[Dimiona]] über die vier Hauptfoki der Magie ([[Geist]], Runen, Gesten, Wille) und deren Bedeutung in der Praxis.",
           "file_name": "Die_Foki_([[Dimiona]]).md",
-          "title": "Die Foki - Bedeutung in der praktischen index"
+          "title": "Die Foki - Bedeutung in der praktischen Magie"
         },
         "path": "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Foki_(Dimiona).md"
       },
@@ -8188,7 +8188,7 @@
         "changes": [],
         "meta": {
           "category": "Allgemein",
-          "title": "Die index"
+          "title": "Die Magie"
         },
         "path": "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Magie_(Toran_Dur).md"
       },
@@ -8318,7 +8318,7 @@
         "meta": {
           "author": "[[Aren_Remouldo]] (Original), Archivteam (Zusammenstellung)",
           "date": "2024-05-24",
-          "description": "Eine alternative Magietheorie von Adeptus [[Aren_Remouldo]], die das Wirken von [[index]] durch die Verbindung zum \"Horlaf\" (Licht der Mächte) erklärt.",
+          "description": "Eine alternative Magietheorie von Adeptus [[Aren_Remouldo]], die das Wirken von Magie durch die Verbindung zum \"Horlaf\" (Licht der Mächte) erklärt.",
           "file_name": "Horlafstrom-Theorie_(Aren_Remouldo).md",
           "title": "Die Theorie des Horlafstroms"
         },
@@ -8419,7 +8419,7 @@
           "date": "2024-05-24",
           "description": "Ein Nachschlagewerk für magische Begrifflichkeiten, Definitionen der Elemente, Sphären und diverser magischer Schulen, verfasst von Erzmagus [[Dunvallo_Linari]].",
           "file_name": "Lexikon_der_Magie_(Dunvallo_Linari).md",
-          "title": "Lexikon der index"
+          "title": "Lexikon der Magie"
         },
         "path": "docs/Siebenwind_Wiki/03_Wissen/Werke/Lexikon_der_Magie_(Dunvallo_Linari).md"
       },
@@ -8504,9 +8504,9 @@
         "meta": {
           "author": "Unbekannt (Fragment), Archivteam (Zusammenstellung)",
           "date": "2024-05-24",
-          "description": "Ein fragmentarisches Werk unbekannter Herkunft, das die Grundlagen schamanischer [[index]], Geisterbeschwörung (Tiergeister, Mondgeister) und Totemmagie beschreibt.",
+          "description": "Ein fragmentarisches Werk unbekannter Herkunft, das die Grundlagen schamanischer Magie, Geisterbeschwörung (Tiergeister, Mondgeister) und Totemmagie beschreibt.",
           "file_name": "Schamanische_Magie_(Fragment).md",
-          "title": "Schamanische index"
+          "title": "Schamanische Magie"
         },
         "path": "docs/Siebenwind_Wiki/03_Wissen/Werke/Schamanische_Magie_(Fragment).md"
       },
@@ -8578,7 +8578,7 @@
           "date": "2024-05-24",
           "description": "Eine theoretische Abhandlung über die Funktionsweise von Illusionen, basierend auf der Seelennetztheorie und der Manipulation von Wahrnehmungsfäden.",
           "file_name": "Theorie_der_Illusionistik_(Bastean_Asanra).md",
-          "title": "Theorethik der arkanen index: Illusionistik"
+          "title": "Theorethik der arkanen Magie: Illusionistik"
         },
         "path": "docs/Siebenwind_Wiki/03_Wissen/Werke/Theorie_der_Illusionistik_(Bastean_Asanra).md"
       },
@@ -8612,9 +8612,9 @@
         "meta": {
           "author": "[[Terenon_Sarophilan]] (Original), Archivteam (Zusammenstellung)",
           "date": "2024-05-24",
-          "description": "Eine Abhandlung von [[Terenon_Sarophilan]] über verschiedene Theorien zur Herkunft der [[index]], darunter \"Das Geschenk Astraels\", \"Der große Teich\", \"Das Erbe\" und \"Zyklus und Selektion\".",
+          "description": "Eine Abhandlung von [[Terenon_Sarophilan]] über verschiedene Theorien zur Herkunft der Magie, darunter \"Das Geschenk Astraels\", \"Der große Teich\", \"Das Erbe\" und \"Zyklus und Selektion\".",
           "file_name": "Theorien_der_Magie_(Terenon_Sarophilan).md",
-          "title": "Theorien über die Herkunft und das Wirken der index"
+          "title": "Theorien über die Herkunft und das Wirken der Magie"
         },
         "path": "docs/Siebenwind_Wiki/03_Wissen/Werke/Theorien_der_Magie_(Terenon_Sarophilan).md"
       },
@@ -8629,7 +8629,7 @@
         "changes": [],
         "meta": {
           "category": "Allgemein",
-          "title": "Theorien der index (Sammelband)"
+          "title": "Theorien der Magie (Sammelband)"
         },
         "path": "docs/Siebenwind_Wiki/03_Wissen/Werke/Theorien_der_Magie_(Toran_Dur).md"
       },
@@ -8763,7 +8763,7 @@
         "changes": [],
         "meta": {
           "category": "Index",
-          "title": "Die index"
+          "title": "Die Chronik"
         },
         "path": "docs/Siebenwind_Wiki/04_Chronik/Die_Chronik.md"
       },
@@ -11179,7 +11179,7 @@
           "quelle": "Dunvallo_Linari - Artefakte",
           "report_id": "b6a7d2e4-9f81-4a3b-8c7a-9f8e4d2e7b1a",
           "status": "#überlieferung",
-          "tags": "[[[index]], Artefakte, Theorie]",
+          "tags": "[Magie, Artefakte, Theorie]",
           "title": "Artefaktlehre"
         },
         "path": "docs/Siebenwind_Wiki/05_Magie/Artefaktlehre.md"
@@ -11215,7 +11215,7 @@
           "quelle": "\"Lit Ita'Im'Elarum Odalim ir Galadon\"",
           "report_id": "b3e5d1a2-4f6c-4e8a-9d2b-1c3a4b5d6e7f",
           "status": "integrated",
-          "title": "Die arkane index"
+          "title": "Die arkane Gesellschaft"
         },
         "path": "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md"
       },
@@ -11639,7 +11639,7 @@
           "category": "Magie",
           "quelle": "\"/Quellen/index Toran_Dur/Dunvallo_Linari - Philosophie.md\"",
           "status": "integrated",
-          "title": "Philosophie der index"
+          "title": "Philosophie der Magie"
         },
         "path": "docs/Siebenwind_Wiki/05_Magie/Philosophie_der_Magie.md"
       },
@@ -11736,8 +11736,13 @@
         },
         "changes": [],
         "meta": {
+          "author": "\"[[Anonymus]]\"",
           "category": "Magie",
-          "title": "Theorie zur arkanen index (Generaltheorie)"
+          "letzter_check": "2026-02-15T23:35:00+01:00",
+          "report_id": "c4d5e6f7-a8b9-0d1e-2f3a-4b5c6d7e8f9a",
+          "status": "integrated",
+          "title": "Theorie zur arkanen Magie (Generaltheorie)",
+          "uuid": "T1234567-B2C3-4D5E-8F9A-0A1B2C3D4E5F"
         },
         "path": "docs/Siebenwind_Wiki/05_Magie/Theorie_arkane_Magie.md"
       },
@@ -22530,7 +22535,7 @@
         "meta": {
           "category": "Allgemein",
           "status": "#perspektive",
-          "tags": "[Erzählung, Nekromantie, Ru'n, [[index]], Ritual]",
+          "tags": "[Erzählung, Nekromantie, Ru'n, Magie, Ritual]",
           "title": "Geschäftiges Treiben"
         },
         "path": "docs/Siebenwind_Wiki/09_Bibliothek/Geschaeftiges_Treiben.md"

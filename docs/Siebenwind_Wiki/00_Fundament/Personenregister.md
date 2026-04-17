@@ -104,7 +104,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Gropp_Zwillinge]] | [[Gropp_Zwillinge]] | [Bote 186] | Geboren 22 n.H. | #bote |
 | [[Faesa_Farell]] | Gastronomin / Theaterbuffet | [Bote 186] | 22 n.H. | #bote |
 | [[Hadrian]] | Ritter (Löwenorden) | [Bote 167] | 18 n.H. | #bote |
-| [[Hevelius_Dunkelfeld]] | Bürger / Kultist / Magus | [Bote 180] / [[index]] | † 21 n.H. / 30 n.H. (?) | #bote |
+| [[Hevelius_Dunkelfeld]] | Bürger / Kultist / Magus | [Bote 180] | † 21 n.H. / 30 n.H. (?) | #bote |
 | [[Hagen_Robaar]] | Graf / Lehnsherr / Großmeister ([[Löwenorden]]) | [Bote 136/140/151/155/174] | bis 20 n.H. | #canon |
 | [[Todward_von_Saalhorn]] | Bruder v. Graf Robaar (Verschollen) | [[Abschied_und_Verrat]] | 20 n.H. | #perspektive |
 | [[Aelfrid_Wildgaden]] | Kastellan ([[Burg_Saalhorn]]) | [[Abschied_und_Verrat]] | 20 n.H. | #perspektive |

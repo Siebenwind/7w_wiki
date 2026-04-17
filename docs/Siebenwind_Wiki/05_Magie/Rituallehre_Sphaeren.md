@@ -18,7 +18,7 @@ Bevor ein Ritual begonnen werden kann, müssen Magier und Ort von parasitären m
 ### Bewegte Reinigung (Gesten)
 *   **Mithandrinische Handbewegung**: Reinigt Augen und Zunge von schwarzen Einflüssen (Rechte Hand).
 *   **Hankukbewegung**: Schutz gegen dunkle Einflüsterungen.
-*   **Stabbewegungen**: Gezielte Auflösung oder Abwehr schwarzer [[index]] durch kreisende Stabführung.
+*   **Stabbewegungen**: Gezielte Auflösung oder Abwehr schwarzer Magie durch kreisende Stabführung.
 
 ## Geometrische Knotenpunkte
 Die Form des Ritualplatzes bestimmt die Art des Kraftflusses.

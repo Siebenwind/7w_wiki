@@ -20,7 +20,7 @@ letzter_check: 2026-02-14T01:20:00
 ## Beschreibung
 Thorgat ist ein altgedienter Krieger der [[Dwarschim]], dessen Gesicht und Körper die Spuren jahrhundertelanger Kämpfe tragen. Sein Haar und sein Bart sind strahlend weiß und oft wild zerzaust. Ein markantes Merkmal sind seine **eisernen Zahnschienen**, die er tragen muss, seit ihm ein Troll im Kampf sämtliche Zähne ausschlug. Trotz seines hohen Alters (ca. 313 Jahre zur Zeit seiner Aufzeichnungen) gilt er als kraftvoller Kämpfer, der die "Flamme Arkadons" noch immer in sich spürt.
 
-## Wirken & [[index]]
+## Wirken & Geschichte
 Thorgat stammt ursprünglich aus den **Drachenschwingen** auf dem Festland. Er blickt auf eine lange Karriere in der Zwergenwache zurück, die ihn durch zahlreiche Krisen führte.
 
 ### Bedeutende Erlebnisse

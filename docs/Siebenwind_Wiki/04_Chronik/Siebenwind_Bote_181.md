@@ -44,7 +44,7 @@ Eskalation durch Überfälle und Entführungen.
 
 ### Gerüchteküche
 - **Spuk:** Ein [[Geist]] mit Dolch sucht nach "Hannah Berndorf" (der Gräfin/Rätin).
-- **Apfelsaft:** Der Orden vom Roten Salamander warnt vor berauschender Wirkung von Apfelsaft bei manchen [[index]].
+- **Apfelsaft:** Der Orden vom Roten Salamander warnt vor berauschender Wirkung von Apfelsaft bei manchen Personen.
 - **Freudenhaus:** Gerüchte über ein gut besuchtes Etablissement in [[Falkensee]].
 
 ---

@@ -41,7 +41,7 @@ Run zeichnet sich durch ein systematisches Endungsschema aus:
 *   **Corp:** Tod
 *   **Dyr:** Wille
 *   **Enwunji:** Buch
-*   **Odal:** [[index]]
+*   **Odal:** Magie
 
 ---
 > [!TIP]

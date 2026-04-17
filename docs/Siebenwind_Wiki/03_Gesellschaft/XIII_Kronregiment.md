@@ -10,7 +10,7 @@ category: Organisationen
 ## Überblick
 Das **XIII. Kronregiment** ist die zentrale militärische Einheit der Krone auf der Insel [[Siebenwind]]. Es dient dem Schutz der Bewohner, der Wahrung des königlichen Rechts und der Verteidigung gegen äußere und innere Feinde.
 
-## [[index]] und Status
+## Geschichte und Status
 Das Regiment hat eine legendäre Vergangenheit und wurde nach den Verlusten im Vandrienkrieg auf [[Siebenwind]] endgültig neu aufgestellt. Trotz seiner vergleichsweise geringen Mannstärke gilt es als den anderen Kronregimentern des Festlands gleichrangig.
 
 ## Führung und Struktur

@@ -1,17 +1,17 @@
 ---
-title: Das index
+title: Das Fundament
 category: Index
 ---
 
-# Das [[index]]
+# Das Fundament
 
 **Epistemischer Status:** #canon
 
 Hier liegen die grundlegenden Regeln und Axiome der Welt [[Siebenwind]].
 
 *   [[Religion_Übersicht]] - [[Das_Pantheon]] und die Mächte.
-*   [[Linguistik_Übersicht]] - Die [[index]] von Falandrien.
-*   [[Magie_Grundlagen]] - Wie [[index]] funktioniert (Göttlich vs. Dämonisch).
+*   [[Linguistik_Übersicht]] - Die Sprachen von Falandrien.
+*   [[Magie_Grundlagen]] - Wie Magie funktioniert (Göttlich vs. Dämonisch).
 *   [[Magietheorie_Toran_Dur]] - Akademische Abhandlung zur arkanen Kraft.
 *   [[Zeitrechnung_(Der_Sonnenzirkel)]] - Der Sonnenzirkel.
 *   [[Dunkeltief]] - Die drei Tage der Finsternis.

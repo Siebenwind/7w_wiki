@@ -11,7 +11,7 @@ author: [[Rhadan_der_Graue]] (Original), Archivteam (Zusammenstellung)
 Verfasst von [[Rhadan_der_Graue]] (Turm zu [[Tiefenbach]]).
 
 ## Inhalt
-Das Werk lehrt die Grundlagen der rituellen [[index]], beginnend mit der **Reinigung** von Körper und Ort, um fremde magische Einflüsse zu entfernen.
+Das Werk lehrt die Grundlagen der rituellen Magie, beginnend mit der **Reinigung** von Körper und Ort, um fremde magische Einflüsse zu entfernen.
 
 ### Reinigung
 *   **Des Selbst:** Meditation, Gebet oder "bewusster Tiefschlaf" (Ruhend).
@@ -39,4 +39,4 @@ Das Werk lehrt die Grundlagen der rituellen [[index]], beginnend mit der **Reini
 2.  **Gerade Knotenzahl:** Ruhig, ausgeglichen, wirkt nur im Inneren (z.B. Viereck).
 
 ## Zitat
-> "Jedes Wirken von [[index]] hinterlässt seine Spuren im Geflechte des Seienden."
+> "Jedes Wirken von Magie hinterlässt seine Spuren im Geflechte des Seienden."

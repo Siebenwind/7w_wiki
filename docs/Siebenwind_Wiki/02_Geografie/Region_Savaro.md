@@ -8,7 +8,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Herzogtum
+**Kategorie:** Region / Herzogtum
 **Hauptstadt:** (Nicht genannt, vermutlich Sitz der Herzogin)
 **Herrscher:** Herzogin Almut von Savaro ahm Mer
 

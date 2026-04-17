@@ -22,7 +22,7 @@ letzter_check: 2026-02-13T15:45:00+01:00
 
 ## Lokales
 *   **Grünland:** Ein Wachzug des [[Das_XIII_Koenigliche_Regiment|Kronregiments]] schlug eine Orkbande östlich von [[Brandenstein]] in die Flucht.
-*   **Propaganda:** Die [[index]] "Das Mädchen mit der Laute" wird verbreitet, um Kindern und Bürgern die Notwendigkeit der Ritterschaft und des Schutzes durch die Krone näherzubringen.
+*   **Propaganda:** Die Erzählung "Das Mädchen mit der Laute" wird verbreitet, um Kindern und Bürgern die Notwendigkeit der Ritterschaft und des Schutzes durch die Krone näherzubringen.
 
 ## Einordnung
 *   **[[Lucius_Gropp|Lucius Freiherr Gropp]]**: Federführend bei der Mobilmachung.

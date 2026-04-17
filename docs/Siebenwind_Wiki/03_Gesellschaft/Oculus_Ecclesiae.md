@@ -22,7 +22,7 @@ Die "Oculus Ecclesiae" (Das Auge der Kirche) ist ein im Verborgenen agierender B
 Die Oculus rekrutiert gezielt Geweihte der kämpferischen und listigen Götter, insbesondere [[Bellum]] und [[Astrael]].
 *   **Identitäten:** Agenten leben oft unter Tarnidentitäten und brechen den Kontakt zu ihrem früheren Leben ab.
 *   **Aufträge:** Sabotage, Spionage und gezielte Eliminierung von Feinden der Kirche oder Dienern des "Einen".
-*   **Verschwiegenheit:** Das [[index]] über die Existenz der Oculus ist selbst innerhalb der Kirchenhierarchie auf die höchsten Kreise beschränkt. Agenten, die enttarnt werden oder sterben, werden offiziell verleugnet.
+*   **Verschwiegenheit:** Das Wissen über die Existenz der Oculus ist selbst innerhalb der Kirchenhierarchie auf die höchsten Kreise beschränkt. Agenten, die enttarnt werden oder sterben, werden offiziell verleugnet.
 
 ## Bekannte Mitglieder
 *   **[[Veridon]] (Nebelklinge):** Ein ehemaliger Assassine, der nach der Enttarnung durch Diener des "Einen" untertauchte.

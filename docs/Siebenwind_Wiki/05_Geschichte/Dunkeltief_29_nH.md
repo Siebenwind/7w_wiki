@@ -12,7 +12,7 @@ category: Geschichte
 
 
 ## Die Bedrohung
-Das [[Dunkeltief]] des Jahres 29 n.H. gilt als eines der bedeutendsten der jüngeren [[index]]. Es stand im Zeichen der "Rückkehr des verlorenen Sohnes" und der Freilassung der "Gehörnten".
+Das [[Dunkeltief]] des Jahres 29 n.H. gilt als eines der bedeutendsten der jüngeren Geschichte. Es stand im Zeichen der "Rückkehr des verlorenen Sohnes" und der Freilassung der "Gehörnten".
 - **[[Daemonen]]:** Ein mächtiger Dämon in Zwergengestalt ("König") errichtete eine Festung im [[Ödland]]. Weitere [[Daemonen]] (Ork/[[Bellum]], Rote Frau/[[Vitama]]) erschienen.
 - **Angriffe:** Lebende Wurzeln und das Elfenholz ([[Tra_avain]]) griffen die Bewohner an.
 

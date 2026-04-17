@@ -32,7 +32,7 @@ Da auch Tiere aus Elementarknoten bestehen, kann der Magier sein eigenes Element
 *   **Runen-Beispiel:** `narra odal` (Macht/Veränderung), `radine` (Handlung am Selbst), `tar hian` (Fokus/Körper), `ki hian vuchaleij` (Zielgestalt). In Kombination: Verwandlung in einen Vogel.
 
 ### Illusionen
-Dunkelbaum argumentiert, dass Illusionen ("Zaubermantel", "unscheinbarer Stein") nicht auf [[Geist]]-[[index]] beruhen, sondern physikalische Manipulationen von Luft und Feuer (Hitze-Flimmern) sind.
+Dunkelbaum argumentiert, dass Illusionen ("Zaubermantel", "unscheinbarer Stein") nicht auf [[Geist]]-Magie beruhen, sondern physikalische Manipulationen von Luft und Feuer (Hitze-Flimmern) sind.
 
 ## Referenzen
 - Primärquelle: [[Amanda_Dunkelbaum]] - Elementarmagie 1 (`../../Quellen/Bibliothek%20Toran%20Dur/Amanda%20Dunkelbaum%20-%20Elementarmagie%201.md`)

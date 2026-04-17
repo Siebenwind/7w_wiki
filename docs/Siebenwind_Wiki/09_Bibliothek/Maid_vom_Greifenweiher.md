@@ -15,7 +15,7 @@ category: Allgemein
 Die [[Geschichte]] erzählt von der schicksalhaften Begegnung einer jungen Maid mit einem Meermann am [[Greifenweiher]]. Die Erzählung thematisiert Liebe über die Grenzen der Völker hinweg und den gemeinsamen Kampf gegen monströse Bedrohungen (siehe [[Weiher_Ungetuem]]).
 
 ## Bedeutung
-Es handelt sich um eines der populärsten [[index]] der "Bote-Belletristik". Die [[Geschichte]] löste eine Welle der Begeisterung für romantische Sagen in [[Falkensee]] aus.
+Es handelt sich um eine der populärsten Erzählungen der "Bote-Belletristik". Die [[Geschichte]] löste eine Welle der Begeisterung für romantische Sagen in [[Falkensee]] aus.
 
 ---
 **Siehe auch:** [[Bibliotheks_Register]], [[Weiher_Ungetuem]]

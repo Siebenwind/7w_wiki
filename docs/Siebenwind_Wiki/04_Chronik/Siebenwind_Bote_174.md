@@ -15,7 +15,7 @@ category: Chronik
 ### Das Ende der Kronmark
 In einem historischen Erlass hat König [[Hilgorad_I_ap_Mer]] die [[Kronmark]] [[Siebenwind]] mit sofortiger Wirkung aufgelöst. 
 - **Verwaltung:** Die [[Ritterschaft_der_Sieben_Winde]] und die [[Inselpatrizier]] sind ihrer Ämter enthoben. 
-- **[[index]]:** Die Insel wurde in neue Lehens- und Hoheitsgebiete aufgeteilt.
+- **Politik:** Die Insel wurde in neue Lehens- und Hoheitsgebiete aufgeteilt.
 - **Königliches Gebiet:** Nur die Feste [[Seeberg]] bleibt direktes Kronland unter der Führung von [[Beladriel_Blaettertanz|Beladriel Blättertanz]].
 
 ### Neue Lehensherren

@@ -18,7 +18,7 @@ Markus Panscher ist ein exzentrischer, aber brillanter Alchemist, der für seine
 ## Wirken
 
 ### Erforschung des Atmenden Todes (20 n.H.)
-Panscher isolierte die Erreger des "Atmenden Todes" und arbeitete unermüdlich an alchemistischen Lösungen, um die Ausbreitung der Krankheit zu stoppen. Trotz seines oft schroffen Auftretens rettete sein [[index]] unzähligen Bewohnern das Leben.
+Panscher isolierte die Erreger des "Atmenden Todes" und arbeitete unermüdlich an alchemistischen Lösungen, um die Ausbreitung der Krankheit zu stoppen. Trotz seines oft schroffen Auftretens rettete sein Wissen unzähligen Bewohnern das Leben.
 
 ---
 **Quellen:** [[Siebenwind_Bote_174]], [[Siebenwind_Bote_175]]

@@ -2,7 +2,7 @@
 title: "Heilige Liturgien"
 category: Religion
 status: integrated
-quelle: "/Quellen/index Astrael/Heilige Liturgien.md"
+quelle: "../../Quellen/Bibliothek Astrael/Heilige Liturgien.md"
 author: "Aelwin"
 ---
 
@@ -20,9 +20,9 @@ Die häufigste Form der heiligen Messe ist das *Quartarius* (Vierteilung), beste
 ## Messen für die Götter
 
 ### Messe für [[Astrael]]
-Fokus auf Weisheit, Verstand und den rechten Umgang mit [[index]].
-* **Leitsatz**: [[index]] ist ein Geschenk Astraels, das nur im Einklang mit den Gesetzen der Krone (König [[Hilgorad_I_ap_Mer|Hilgorad]]) und der Kirche genutzt werden darf.
-* **Tugend**: [[index]] und [[index]].
+Fokus auf Weisheit, Verstand und den rechten Umgang mit Magie.
+* **Leitsatz**: Magie ist ein Geschenk Astraels, das nur im Einklang mit den Gesetzen der Krone (König [[Hilgorad_I_ap_Mer|Hilgorad]]) und der Kirche genutzt werden darf.
+* **Tugend**: Wissen und rechter Umgang.
 
 ### Messe für [[Bellum]]
 Thematisiert Mut, Kraft und Ehre.
@@ -36,7 +36,7 @@ Fokus auf Liebe, Leben und Fruchtbarkeit.
 ### Messe für [[Morsan]]
 Diese Messe folgt nicht dem Quartarius. Sie beginnt mit der Herbeiführung von Ruhe (Beichte/Gebet) und führt über die Oratio zur Erkenntnis.
 
-## Beteiligte [[index]]
+## Beteiligte Personen
 * [[Aelwin]] (Kompilator)
 * [[Anais]] (Inquisitorin/Mentorin)
 * [[Eire]] (Vater/Geistlicher)

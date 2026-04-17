@@ -21,7 +21,7 @@ Unter dem Hochmeister **Ahorat Betlis von Meerfest** sind in der Festung etwa 9.
 *   Pikeniere und Schwertkämpfer-Brigaden (ca. 8.400 Mann).
 *   Eine Einheit von [[Graumagie|Graumagiern]] zur arkanan Unterstützung.
 
-Zusammen mit Freiwilligen erreicht die Wehrkraft in Krisenzeiten bis zu 11.000 [[index]].
+Zusammen mit Freiwilligen erreicht die Wehrkraft in Krisenzeiten bis zu 11.000 Mann.
 
 ## Architektur und Bau
 Die Festung wurde mit Unterstützung der [[Rasse_Zwerge|Zwerge]] errichtet, welche auch für die Konstruktion der gewaltigen Belagerungs- und Verteidigungswaffen (Ballisten, Katapulte) verantwortlich zeichneten. 

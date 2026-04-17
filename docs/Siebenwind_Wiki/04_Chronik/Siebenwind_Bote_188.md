@@ -20,10 +20,10 @@ Ein historisches [[Dunkeltief]], markiert durch die Rückkehr des "Verlorenen So
 - **Horwahs:** [[Nemses]] (Auge) ermöglichte Portale. [[Indoaich]] ([[Angamon]]) kämpfte gegen die [[Daemonen]].
 - **Elfenviertel:** Ein Golem aus lebendem Holz ([[Tra_avain]]) griff an, gestoppt von [[Hormtosh_Wuchthammer]].
 
-### Politik & [[index]]
+### Politik & Magie
 - **Kanzler:** [[Tion_Altor]] ist Kanzler und Erzgeweihter des [[Bellum]].
 - **Wirtschaft:** [[Inoch_Ateharis]] ist neuer Wirtschaftsminister ("Königsmarkt").
-- **[[index]]:** Großes [[Konzil_aller_Pfade]] (inkl. Linker Hand). [[Erynnion_Comari]] und [[Quendan_Comari]] reaktivieren die Akademie.
+- **Magie:** Großes [[Konzil_aller_Pfade]] (inkl. Linker Hand). [[Erynnion_Comari]] und [[Quendan_Comari]] reaktivieren die Akademie.
 - **Kirche:** [[Celedelair]] diente als Gefäß für [[Astrael]], um eine magische Explosion der [[Elfen]] zu binden.
 
 ### Außenpolitik

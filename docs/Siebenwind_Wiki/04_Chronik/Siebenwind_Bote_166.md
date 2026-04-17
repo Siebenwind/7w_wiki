@@ -23,7 +23,7 @@ letzter_check: 2026-02-13T15:25:00+01:00
 ## Lokales
 *   **Kriminalität:** **[[Hagen_Robaar]]** wurde im Brandensteiner Park überfallen, konnte aber durch das Eingreifen von [[Niklas_Rattenfaenger]] und einer [[Schattenjaeger|Schattenjägerin]] gerettet werden.
 *   **Sicherheit:** In [[Brandenstein]] wurde der Bau einer neuen Stadtmauer gestattet. Das XIII. Regiment besetzte einen Wachturm zur Sicherung der Hafenstadt.
-*   **[[index]]:** Die Akademie forscht erfolgreich an **arkanen Prothesen** (Gefühlsgesteuerte Edelstein-Technik) für Nichtmagier.
+*   **Magie:** Die Akademie forscht erfolgreich an **arkanen Prothesen** (Gefühlsgesteuerte Edelstein-Technik) für Nichtmagier.
 *   **Bildung:** Die **Kämpferschule [[Falkensee]]** (Leitung: **Sire [[Laske]]**) hat ihren Betrieb aufgenommen.
 
 ## Einordnung

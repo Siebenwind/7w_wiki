@@ -24,7 +24,7 @@ Die Konjugation erfolgt durch Suffixe:
 *   `~et`: Konjunktiv (Möglichkeitsform)
 *   `~ek`: Negierung (Verneinung)
 
-### Substantivierung ([[index]]/Objekte)
+### Substantivierung (Personen/Objekte)
 *   `~ai`: Das Subjekt (Der Täter / "Der, der etwas tut")
 *   `~as`: Das Objekt (Das Opfer / "Der, an dem etwas getan wird")
 *   `~im`: Plural von *~ai*

@@ -12,7 +12,7 @@ confidence: Certain
 
 **Epistemischer Status:** #überlieferung
 
-In diesem magietheoretischen Werk beschreibt [[Amanda_Dunkelbaum]] die praktische Anwendung der vier Elemente (plus Eis) in der [[index]].
+In diesem magietheoretischen Werk beschreibt [[Amanda_Dunkelbaum]] die praktische Anwendung der vier Elemente (plus Eis) in der Magie.
 
 ## Inhalt
 Dunkelbaum ordnet jedem Element spezifische Wirkungsweisen und Runen zu:

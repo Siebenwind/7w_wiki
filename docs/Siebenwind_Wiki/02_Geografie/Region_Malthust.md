@@ -8,7 +8,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Fürstentum
+**Kategorie:** Region / Fürstentum
 **Hauptstadt:** (Nicht genannt, vermutlich Sitz des Fürsten)
 **Herrscher:** Fürst Kasimier Herwald von Liebenwerth zu Hohenbrunn
 

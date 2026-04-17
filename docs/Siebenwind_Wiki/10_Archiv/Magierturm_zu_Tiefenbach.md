@@ -18,7 +18,7 @@ Der Turm war ein Zentrum wacher Gelehrsamkeit, bis er – wie die Stadt [[Tiefen
 *   **Zerstörung:** Die Ruinen liegen heute im [[Ödland]].
 
 ## Bedeutung
-Der Turm symbolisiert das alte [[index]], das in den Wirren des Krieges verloren ging.
+Der Turm symbolisiert das alte Wissen, das in den Wirren des Krieges verloren ging.
 
 ---
 **Siehe auch:** [[Geschichte]], [[Ödland]], [[Dunvallo_Linari]]

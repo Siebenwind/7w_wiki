@@ -11,13 +11,13 @@ letzter_check: 2026-02-13T15:00:00+01:00
 
 **Vänskap** ist ein Dorf der [[Nortraven]] auf der Insel [[Siebenwind]]. Es liegt in der Nähe von [[Greifenklipp]] und ist bekannt für seine maritime Kultur und seine strategische Lage an der Küste.
 
-## [[index]] & Infrastruktur
+## Lage & Infrastruktur
 
 Vänskap liegt an einer markanten Hafenbucht. Aufgrund der engen Handelsbeziehungen zu den Küstenlehen des Pakts der Viereinigkeit besteht eine regelmäßige Fährverbindung nach [[Brandenstein]], um den Warenverkehr und den Personentransport zu erleichtern ([[Siebenwind_Bote_174]]).
 
 Zentraler Treffpunkt des Dorfes ist die örtliche Taverne, die besonders bei Festlichkeiten wie dem jährlichen **Lachsfest** eine zentrale Rolle spielt ([[Siebenwind_Bote_179]]).
 
-## [[index]] & Führung
+## Gesellschaft & Führung
 
 Das Dorf wird von einem „Leitwolf“ angeführt, einem traditionellen Titel der [[Nortraven]]. Bekanntester Träger dieses Titels ist **Havarr**. Die Bevölkerung besteht primär aus [[Nortraven]] und gilt als wehrhaft und traditionsbewusst.
 

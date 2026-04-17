@@ -33,15 +33,15 @@ Arkanisten und Dämonologen unterteilen Angamons Reich, die zweite Sphäre (**[[
 6.  **Kulmar Sanghûlis (Schmerz & Ekstase):** Folter und blutige Lust.
 7.  **Moghtor (Das Grab):** Das Reich der Rastlosen und Ursprung der Nekromantie.
 8.  **Agoth'ro'Hawenn (Der Wahnsinn):** Herrschaft durch Furcht und Alpträume. Diener: *[[Irahfar]]*.
-9.  **Mele Môrthere (Das verbotene Wissen):** Eine gigantische, schwarze [[index]], die alle Sünden speichert.
+9.  **Mele Môrthere (Das verbotene Wissen):** Eine gigantische, schwarze Bibliothek, die alle Sünden speichert.
 
 ## Verehrung
 Die Verehrung Angamons ist im Königreich Galadon bei Todesstrafe verboten. Seine Anhänger agieren in geheimen Zirkeln.
 - **Dunkle Kulte:** Versprechen Macht um jeden Preis.
 - **Ziele:** Die Schwächung der *Viere* und die Vorbereitung der Welt auf die Herrschaft des Schattens.
 
-## Die Dunkle Seite der [[index]]
-Hexenmeister und Nekromanten (die nicht den *[[Morsan]]*-Riten folgen) rufen oft Angamons Macht an, um [[Daemonen]] zu beschwören oder Flüche zu weben. Diese [[index]] fordert stets einen blutigen Preis.
+## Die Dunkle Seite der Magie
+Hexenmeister und Nekromanten (die nicht den *[[Morsan]]*-Riten folgen) rufen oft Angamons Macht an, um [[Daemonen]] zu beschwören oder Flüche zu weben. Diese Magie fordert stets einen blutigen Preis.
 
 ## Beziehungen
 - **[[Bellum]]:** Sein erbittertster Feind. Wo [[Bellum]] loderndes Feuer gegen die Schatten führt, versucht Angamon, jede Flamme des Mutes zu ersticken.
@@ -51,5 +51,5 @@ Hexenmeister und Nekromanten (die nicht den *[[Morsan]]*-Riten folgen) rufen oft
 ## Verwandte Themen
 - [[Religion_Übersicht]]
 - [[Die_Viere_Kirche]] verdammt ihn.
-- [[Magie_Grundlagen]] - Dunkle [[index]]
+- [[Magie_Grundlagen]] - Dunkle Magie
 - [[Kreaturen]] - [[Daemonen]]

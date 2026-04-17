@@ -20,7 +20,7 @@ letzter_check: 2026-02-13T02:05:00+01:00
 
 ## Lokales
 *   **Bildung:** Gründung einer Schule in [[Falkensee]] durch [[Foth]] und **[[Leomar_Finkenfarn]]**.
-*   **Kultur:** Ein Schreibwettbewerb für eine neue [[index]] wurde ausgerufen, gesponsert von **[[Navarian_Arandal]]**.
+*   **Kultur:** Ein Schreibwettbewerb für eine neue Geschichte wurde ausgerufen, gesponsert von **[[Navarian_Arandal]]**.
 *   **Laienorden:** [[Leomar_Finkenfarn]] wirbt für den Laienorden der Viere (gegründet 14 n.H. von [[Whyrrdin]]).
 *   **Soziales:** Der "[[Orden_der_Traenen_Vitamas]]", gegründet von **[[Benion_Sandelholz]]**, hielt eine Armenspeisung ab.
 

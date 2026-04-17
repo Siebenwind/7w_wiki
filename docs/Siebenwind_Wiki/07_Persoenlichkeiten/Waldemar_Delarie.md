@@ -46,7 +46,7 @@ Rund um das Jahr 21 n.H., insbesondere im Vorfeld des Putsches, kursierten düst
 > - [[Siebenwind_Bote_183]] (Sonderausgabe zum Militärputsch)
 > - [[Siebenwind_Bote_180]] (Dokumentation der Adelserhebung)
 > - [[Siebenwind_Bote_176]] (Erwähnung als Regierungsrat)
-> - [[Waldemars_Reise_Papin]] (Narrative [[index]] seiner Expedition)
+> - [[Waldemars_Reise_Papin]] (Narrative Quelle seiner Expedition)
 
 ---
 **Siehe auch:** [[Falkensee]], [[Der_Putsch_von_Falkensee]], [[Custodias]], [[Organisationsregister]]

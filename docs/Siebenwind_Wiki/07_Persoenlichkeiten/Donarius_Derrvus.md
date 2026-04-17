@@ -11,7 +11,7 @@ reason: legacy_stub
 
 # Donarius Derrvus
 
-**Donarius Derrvus** ist ein hochrangiger Geweihter des [[Astrael]] (oder [[Morsan]] laut anderen Quellen), der als *Defensor Fidei* und Dozent bekannt ist. Er verfasste grundlegende [[index]] über die [[Von_den_Myten|Myten]], die [[Gohor_Haeresie|Gohor-Häresie]] und die [[Derrvus_Matrixtheorie|Matrixtheorie]].
+**Donarius Derrvus** ist ein hochrangiger Geweihter des [[Astrael]] (oder [[Morsan]] laut anderen Quellen), der als *Defensor Fidei* und Dozent bekannt ist. Er verfasste grundlegende Werke über die [[Von_den_Myten|Myten]], die [[Gohor_Haeresie|Gohor-Häresie]] und die [[Derrvus_Matrixtheorie|Matrixtheorie]].
 
 ## Überlieferung
 * [Von den [[Myten]]]

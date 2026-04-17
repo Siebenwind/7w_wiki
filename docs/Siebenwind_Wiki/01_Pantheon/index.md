@@ -20,7 +20,7 @@ Das Archiv der Pantheon.
 *   [[Brevier_des_Ordo_Astraeli|Brevier des Ordo Astraeli]]
 *   [[Codex_Astraeli|Codex Astraeli]]
 *   [[Codex_Iuris_Canonici|Codex Iuris Canonici]]
-*   [[Das_Pantheon|Das [[index]]]]
+*   [[Das_Pantheon|Das Pantheon]]
 *   [[Der_Blutrote_Stier|Der Blutrote Stier]]
 *   [[Der_Traum_der_Tausend|Der Traum der Tausend]]
 *   [[Der_letzte_Falke|Der letzte Falke]]

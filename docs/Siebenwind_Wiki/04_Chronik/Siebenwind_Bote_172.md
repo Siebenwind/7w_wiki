@@ -25,9 +25,9 @@ letzter_check: 2026-02-13T16:35:00+01:00
     *   **Titel:** **[[Cendaric_Tibur]]** erhält den Titel "**Schwert der Kronmark**" stellvertretend für den [[Orden_der_Wachenden_Löwen]].
     *   **Jagdgesetze:** Neuer Erlass zur Regulierung der Jagd (Forstgilden in [[Brandenstein]], [[Greifenwald]], [[Südfall]], [[Falkensee]] und Kesselklamm).
 *   **Kämpferschule:** Neuaufbau der Schule unter der Leitung von Ritter [[Laske]] und Ritter [[Pharalis_Avistur]]. Lehrer für verschiedene Disziplinen werden gesucht.
-*   **[[index]] & Ereignisse:**
+*   **Kultur & Ereignisse:**
     *   **Mordfall:** **[[Niklas_Rattenfaenger]]**, ein bekannter Zeitungsjunge, wurde im Südwest-Viertel [[Falkensee|Falkensees]] ermordet. Ein Mann mit Säbel (Totenkopfgriff) wird gesucht.
-    *   **[[index]]:** Einweihung der [[index]] in [[Brandenstein]] unter Leitung von **[[Maelve_Rhyntarin]]**.
+    *   **Bibliothek:** Einweihung der Bibliothek in [[Brandenstein]] unter Leitung von **[[Maelve_Rhyntarin]]**.
     *   **Hochzeit:** [[Felis_Andras]] und [[Emanuel_Sanderus]] heirateten am 30. Seker 19 n.H.
     *   **Visionen:** Massenvisionen heimsuchen die Bewohner, u.a. während einer Messe im Elementarkloster.
 

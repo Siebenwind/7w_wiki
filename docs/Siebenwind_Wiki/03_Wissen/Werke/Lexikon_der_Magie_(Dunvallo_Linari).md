@@ -1,12 +1,12 @@
 ---
-title: Lexikon der index
+title: Lexikon der Magie
 file_name: Lexikon_der_Magie_(Dunvallo_Linari).md
 description: Ein Nachschlagewerk für magische Begrifflichkeiten, Definitionen der Elemente, Sphären und diverser magischer Schulen, verfasst von Erzmagus [[Dunvallo_Linari]].
 date: 2024-05-24
 author: [[Dunvallo_Linari]] (Original), Archivteam (Zusammenstellung)
 ---
 
-# Lexikon der [[index]]
+# Lexikon der Magie
 
 Verfasst von Seiner Magnifizenz, Erzmagus [[Dunvallo_Linari]].
 
@@ -35,7 +35,7 @@ Verfasst von Seiner Magnifizenz, Erzmagus [[Dunvallo_Linari]].
 *   **Hellsicht (Clairvoyanz):** Wahrnehmung über Distanz oder Zeit.
 *   **Illusion:** Erschaffung von Trugbildern für die Sinne.
 *   **Kampfmagie (Magica Combativa):** Direkte Schadenswirkung durch magische Energie.
-*   **Nekromantie:** [[index]] des Todes und der Untoten (oft verboten).
+*   **Nekromantie:** Magie des Todes und der Untoten (oft verboten).
 *   **Verwandlung (Metamorphose):** Änderung der Gestalt von Lebewesen oder Objekten.
 
 ## Titel und Grade
@@ -45,7 +45,7 @@ Akademische Titel innerhalb der magischen Gilden und Türme:
 2.  **Adeptus (Minor/Maior):** Ein fortgeschrittener Schüler oder Absolvent der ersten Prüfungen.
 3.  **Magus / Maga:** Ein voll ausgebildeter Zauberer.
 4.  **Magister:** Ein Lehrer und Meister seines Fachs.
-5.  **Erzmagus / Erzmagier:** Ein Titel für herausragende magische Macht und [[index]].
+5.  **Erzmagus / Erzmagier:** Ein Titel für herausragende magische Macht und Wissen.
 6.  **Spektabilität:** Ehrenanrede für Leiter von Akademien (z.B. [[Rhadamanth]], [[Adrienne_Valemis]]).
 
 ## Wesenheiten

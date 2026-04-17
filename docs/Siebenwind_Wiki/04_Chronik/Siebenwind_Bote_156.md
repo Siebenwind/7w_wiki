@@ -19,7 +19,7 @@ letzter_check: 2026-02-13T03:45:00+01:00
 *   **[[Fedral_Lavid]]:** Ein Rückblick auf das Wirken von **[[Fedral_Lavid]]**, dem "Gründervater" und ehemaligen Lehensherrn von [[Falkensee]], der die Stadt aus dem Sumpf erschuf.
 
 ## Lokales
-*   **Milizen:** Den einzelnen Siedlungen wird das [[index]] zugesprochen, eigene Wachten und Milizen zum Schutz vor Unordnung auszuheben.
+*   **Milizen:** Den einzelnen Siedlungen wird das Recht zugesprochen, eigene Wachten und Milizen zum Schutz vor Unordnung auszuheben.
 *   **Schänder-Brief:** Der Rat lehnt einstimmig eine Kriegsdrohung der Schänder ab.
 
 ## Einordnung

@@ -51,12 +51,12 @@ Regelt Verbrechen und deren Bestrafung. Strafen umfassen Tod, Haft, Pranger, Gel
 ### Verbrechen und Vergehen (Auszug)
 *   **Körperverletzung:** Pranger, Geldstrafe oder Haft, je nach Schwere und Stand des Opfers.
 *   **Diebstahl:** Pranger oder Geldstrafe.
-*   **Missbrauch von [[index]]:** Pranger oder Haft (bei Verbrechen).
+*   **Missbrauch von Magie:** Pranger oder Haft (bei Verbrechen).
 *   **Amtsanmaßung:** Pranger oder Geldstrafe.
 
 **Besonderheiten:**
 *   **Notwehr:** Ist straffrei.
-*   **[[index]]:** Missbrauch zu kriminellen Zwecken wirkt strafverschärfend.
+*   **Magie:** Missbrauch zu kriminellen Zwecken wirkt strafverschärfend.
 *   **Adel:** Wird oft milder oder ehrenvoller bestraft (Hausarrest statt Kerker), außer bei Hochverrat.
 
 ---
@@ -78,10 +78,10 @@ Sonderrechte und Pflichten für den Adelsstand.
 
 *   **Gerichtsbarkeit:** Adlige haben Anspruch auf ein Urteil durch den Lehensherrn.
 *   **Privilegien:** Schutz vor körperlicher Züchtigung und unehrenhaften Strafen (Pranger).
-*   **Ehrenduell:** [[index]] zur Verteidigung der Ehre durch Waffen.
-*   **Asylrecht:** Adlige können [[index]] Schutz gewähren.
+*   **Ehrenduell:** Recht zur Verteidigung der Ehre durch Waffen.
+*   **Asylrecht:** Adlige können Schutzbefohlenen Asyl gewähren.
 *   **Pflichten:** Treue zur Krone und Waffendienst im Kriegsfall.
 
 ---
 
-*(Vollständiger Text im [[index]] der [[index]] zu [[Toran_Dur]] einsehbar)*
+*(Vollständiger Text in der Bibliothek zu [[Toran_Dur]] einsehbar)*

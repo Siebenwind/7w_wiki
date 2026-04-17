@@ -33,7 +33,7 @@ Nutzung von Tannenholz (Zeit/Dauer), Spinnenseide (Gefängnis) und Masseleisen (
 Die Dreiecke beginnen zu glühen.
 
 ### Akt IV: Stärkung durch die Diamanten
-Übertragung der Macht in die Diamanten ("Steine voll zurückhaltender [[index]]").
+Übertragung der Macht in die Diamanten ("Steine voll zurückhaltender Magie").
 Die Kugel wird weiß und undurchdringlich. Die Bestie ist gefangen.
 
 ## Linguistik (Alt-Galad Fragmente)

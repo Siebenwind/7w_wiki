@@ -3,7 +3,7 @@ uuid: 6c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f
 title: Brevier des Ordo Astraeli
 category: Religion
 status: integrated
-quelle: "../../Quellen/index Astrael/Brevier des Ordo Astraeli.md"
+quelle: "../../Quellen/Bibliothek Astrael/Brevier des Ordo Astraeli.md"
 lore_trust: 9
 confidence: Certain
 report_id: a2b3c4d5-e6f7-4a1b-2c3d-4e5f6a7b8c9d
@@ -19,7 +19,7 @@ Das **Brevier des Ordo Astraeli** ist ein Gebetbuch und Leitfaden für Mitgliede
 ## Inhalte
 
 ### 1. Lobpreisung der Weisheit
-Das Brevier enthält poetische Anrufungen an [[Astrael]] als den "Herrn der Gelehrsamkeit", dessen Weisheit über die Wolken reicht. Es definiert das Streben nach [[index]] nicht als Selbstzweck, sondern als Weg, die göttliche Gnade zu erfahren.
+Das Brevier enthält poetische Anrufungen an [[Astrael]] als den "Herrn der Gelehrsamkeit", dessen Weisheit über die Wolken reicht. Es definiert das Streben nach Wissen nicht als Selbstzweck, sondern als Weg, die göttliche Gnade zu erfahren.
 
 ### 2. Die Tugend der Demut
 Ein zentrales Bittgebet fordert den Suchenden auf, nicht um weltlichen Überfluss, Ruhm oder Ehre zu bitten, sondern einzig um "Weisheit und Verstand". Pflichtgefühl vor den Göttern wird als der wahre Ruhm eines Astraeli bezeichnet.

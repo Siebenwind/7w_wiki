@@ -1,5 +1,17 @@
 # Changelog
 
+#### [2026-04-17.01] - Fallback-index-Platzhalter global bereinigt
+### Prioritaet: P1
+### Geändert
+- `docs/Siebenwind_Wiki/**`: alle exakten `[[index]]`-Platzhalter konservativ auf kontextnahe Klartextbegriffe, bestehende kanonische Ziele oder `[UNGEKLÄRT]` gehoben. Bearbeitet wurden unter anderem `00_Fundament`, `01_Pantheon`, `02_Geografie`, `03_Gesellschaft`, `03_Wissen`, `04_Chronik`, `05_Geschichte`, `05_Magie`, `07_Persoenlichkeiten`, `08_Bestiarium`, `09_Bibliothek` und `10_Archiv`.
+- `docs/Siebenwind_Wiki/01_Pantheon/*` und `docs/Siebenwind_Wiki/03_Gesellschaft/*`: alte `Quellen/index Astrael`- bzw. `Quellen/index ...`-Metadatenpfade auf vorhandene `Quellen/Bibliothek Astrael`- und `Quellen/Bibliothek Toran Dur`-Pfade korrigiert.
+- `System/Synapse_Board/RESEARCH-2026-018.md` und `docs/Archiv/RESEARCH-2026-018.md`: als Arbeits- und Archivanker fuer die Fallback-Bereinigung genutzt.
+### Validiert
+- `rg "\[\[index\]\]" docs/Siebenwind_Wiki -g '*.md'` ohne Treffer.
+- `./7w_wiki.py audit --json` (`0 contract_violations`; bekannter `score_cluster` bleibt einziges Issue).
+- `./7w_wiki.py pages validate --json` (`source-link-hygiene` PASS; Gesamtstatus FAIL wegen bekanntem Audit-Precheck).
+- `./7w_wiki.py pages validate --contract --json` (`drift_status = PASS`; WARN wegen bestehendem breiteren unresolved-Linkbacklog, nicht wegen `[[index]]`).
+
 #### [2026-04-09.02] - Zeitstrahl-Handoversync und Runtime-Artefakte aktualisiert
 ### Prioritaet: P1
 ### Geändert

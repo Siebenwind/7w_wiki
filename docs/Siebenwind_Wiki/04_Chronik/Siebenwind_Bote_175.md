@@ -20,7 +20,7 @@ letzter_check: 2026-02-13T17:15:00+01:00
     *   **[[Proveus_Herand]]** wurde im Schreine [[Bellum|Bellums]] zu [[Brandenstein]] zum **Erzgeweihten** erhoben (durch **[[Bernhardt_Wiesinger]]**).
 *   **Der [[Der_blinde_Maler|Blinde Maler]]:** Ein neuer Dämon plagt die Insel. Er entführte **[[Laske]]** (Hochmeister des Falkenordens) und hinterließ dessen scheinbar leblosen, mumifizierten Körper als Statue. **[[Custodias]]** opferte sein Augenlicht, um in das Reich des Dämons vorzudringen und [[Laske]] zu retten.
 *   **Krieg im [[Ödland]]:** Eine Koalition der freien Völker unter dem Oberbefehl von **[[Traim_Eisenblut]]** griff das **[[Tal_der_Ahnen]]** an, um die **[[Terra_Dorotor]]** (Verräter-[[Zwerge]] unter dem Kult des [[Merros]]) zu besiegen. Der Anführer der Dorotor wurde vernichtet.
-*   **[[index]]:**
+*   **Lokales:**
     *   **[[Graue_Garde]]**: Primus **[[Quirian_Grint]]** erläutert die Aufgaben der Garde als magische Exekutive im Dienste des [[Ersonter_Bund|Ersonter Bundes]].
     *   **Heilung:** **[[Laylira_Hohentann]]** wurde für ihren Einsatz gegen den [[Atmender_Tod|Atmenden Tod]] als „Heilende Hand Vitamas“ geehrt.
     *   **[[Falkensee]]:** Eine Serie von Bränden (u.a. bei **[[Baldasti]]**) sorgt für Beunruhigung.

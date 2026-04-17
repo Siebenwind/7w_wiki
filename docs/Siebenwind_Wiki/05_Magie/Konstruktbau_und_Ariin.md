@@ -12,7 +12,7 @@ Der Konstruktbau (oder das Schaffen von **Ari'in**) ist die arkane Kunst, unbele
 ## 1. Die Natur der Ari'in
 Ari'in (sing. *Arias*) sind weder beseelt noch fühlend. Sie sind Werkzeuge des Geistes, die an bestimmte Reiz-Reaktions-Muster gebunden sind. 
 - **Keine Seele:** Sie können nicht unabhängig lernen oder Gefühle wie Hass oder Liebe empfinden.
-- **Nyhum:** Jedes Konstrukt bleibt den Gesetzmäßigkeiten seiner Materie unterworfen (ein Stoffvogel fliegt nicht ohne zusätzliche [[index]]; Metall ist schwer).
+- **Nyhum:** Jedes Konstrukt bleibt den Gesetzmäßigkeiten seiner Materie unterworfen (ein Stoffvogel fliegt nicht ohne zusätzliche Magie; Metall ist schwer).
 - **Namensmagie:** Ein Arias besitzt meist einen dreiteiligen Namen, der sein Wirken beschreibt. Wer den vollen Namen kennt, gilt dem Konstrukt als Erbauer/Herr.
 
 ## 2. Klassifizierung der Ari'in (nach Rhadan)

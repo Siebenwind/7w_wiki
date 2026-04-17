@@ -21,9 +21,9 @@ letzter_check: 2026-02-13T15:20:00+01:00
 
 ## Lokales
 *   **Verwaltung:** **[[Jannaia_Lavrial]]** führte am 6. Dular die erste offizielle Volkszählung in [[Falkensee]] durch.
-*   **[[index]]:** Der Wald bei [[Südfall]] zeigt unnatürliches, erschreckendes Wachstum (Verderbnis?).
+*   **Natur:** Der Wald bei [[Südfall]] zeigt unnatürliches, erschreckendes Wachstum (Verderbnis?).
 *   **Religion:** **[[Bardas_Loredis]]** empfing die Novizenweihe, **[[Vincent_Ebenstein]]** wurde zum Geweihten erhoben.
-*   **[[index]]:** **[[Sire_Dueff]]** (Lehnsherr von [[Südfall]]) schloss den Vitamabund mit der Schneiderin **Leyah**.
+*   **Gesellschaft:** **[[Sire_Dueff]]** (Lehnsherr von [[Südfall]]) schloss den Vitamabund mit der Schneiderin **Leyah**.
 
 ## Einordnung
 *   **[[Beladriel_Blaettertanz]]**: Neue Truchsess der Insel.

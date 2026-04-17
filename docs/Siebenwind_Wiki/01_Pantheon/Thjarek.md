@@ -7,7 +7,7 @@ category: Religion
 
 **Epistemischer Status:** #überlieferung | #bote
 
-**Thjarek** (der Allmächtige) ist der Hauptgott im [[index]] der [[Nortraven]].
+**Thjarek** (der Allmächtige) ist der Hauptgott im Glauben der [[Nortraven]].
 
 ## Rolle & Attribute
 Er gilt als der Schöpfer der Welt [[Tare]] und des nortravischen Volkes. Thjarek wird als gewaltiger Mann mit blondem Haar und blauen Augen beschrieben, der Stärke, Stolz und Unbeugsamkeit verkörpert. Sein Element ist das Wasser und das Meer, sein Symbol der Hammer.

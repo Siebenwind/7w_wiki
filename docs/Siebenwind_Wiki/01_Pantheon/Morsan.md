@@ -31,7 +31,7 @@ Morsan wird oft gefürchtet, aber auch als Erlöser von Schmerz und Altersschwä
 
 ## Beziehungen
 - **[[Vitama]]:** Seine Schwester des Lebens. Morsan weiß, dass sein Walten ohne ihr Geschenk bedeutungslos wäre. Ein Tod ohne vorheriges Leben ist Nichts.
-- **[[Astrael]]:** Sein Bruder des Wissens. Morsan birgt das [[index]], das jenseits des Verstandes liegt – das Mysterium des Endes.
+- **[[Astrael]]:** Sein Bruder des Wissens. Morsan birgt das Wissen, das jenseits des Verstandes liegt – das Mysterium des Endes.
 - **[[Bellum]]:** Sein Bruder des Kampfes. Morsan beendet jeden Kampf, sei es durch Sieg oder Niederlage. Am Ende finden alle Krieger Ruhe bei ihm.
 
 ## Verwandte Themen

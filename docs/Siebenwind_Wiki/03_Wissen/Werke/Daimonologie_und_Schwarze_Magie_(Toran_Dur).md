@@ -12,7 +12,7 @@ category: Allgemein
 
 ## Inhalt
 
-Dieser Artikel fasst mehrere Texte zusammen, die sich mit den dunklen Aspekten der [[index]], Dämonologie und den Fragmenten der [[Sammler]] befassen. **Warnung:** Das Studium dieser Texte kann gefährlich sein.
+Dieser Artikel fasst mehrere Texte zusammen, die sich mit den dunklen Aspekten der Magie, Dämonologie und den Fragmenten der [[Sammler]] befassen. **Warnung:** Das Studium dieser Texte kann gefährlich sein.
 
 ### Daimonologie
 Eine Abhandlung über die hierarchischen Strukturen der dämonischen Ebenen.
@@ -21,7 +21,7 @@ Eine Abhandlung über die hierarchischen Strukturen der dämonischen Ebenen.
 *   **Hierarchie**: Klassifizierung von [[Daemonen]] anhand der Anzahl ihrer Hörner.
 
 ### Schwarze Magietheorie (Protokoll von [[Nefustor]])
-Ein Unterrichtsprotokoll, das tief in die Theorie der schwarzen [[index]] eintaucht.
+Ein Unterrichtsprotokoll, das tief in die Theorie der schwarzen Magie eintaucht.
 *   **Definition**: Wille + Imagination + Gnosis = Magischer Akt.
 *   **Praxis**: Nutzung von "Paraphernalia" (Reagenzien) wie Spinnenseide oder Schwefelasche.
 *   **Zauber**: Erwähnt "Vjera Fe" (Feuerball), "Area Flamma" (Feuerfeld), "Coscentia" (Schwarzes Gewissen), "Knochendiener" (Nekromantie).

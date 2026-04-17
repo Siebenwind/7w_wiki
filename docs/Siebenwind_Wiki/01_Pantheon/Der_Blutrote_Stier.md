@@ -21,7 +21,7 @@ Zwei Herrscher im Norden (hinter den Skapen) führten einen achtjährigen Krieg 
 Der Wunsch wurde auf grausame Weise erfüllt: Ein monströses, aufgedunsenes Wesen aus Fleisch und Blut ("Der Rote Stier") erschien und vernichtete innerhalb von 99 Tagen alles Leben in beiden Reichen. Schließlich verschlang die Bestie auch den König selbst.
 
 ## Lore-Bedeutung
-Die [[index]] dient als warnendes Beispiel gegenüber der Anrufung unbekannter Mächte und illustriert das tragische Schicksal der Su'un-Völker vor ihrer Einigung. Der "bunte Fremde" weist Ähnlichkeiten mit Trickster-Gottheiten oder dämonischen Verführern auf.
+Die Erzählung dient als warnendes Beispiel gegenüber der Anrufung unbekannter Mächte und illustriert das tragische Schicksal der Su'un-Völker vor ihrer Einigung. Der "bunte Fremde" weist Ähnlichkeiten mit Trickster-Gottheiten oder dämonischen Verführern auf.
 
 ---
 

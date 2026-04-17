@@ -19,7 +19,7 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 **Tarnuk** ist ein Magister, der mit der Gemeinschaft des "Lieblichen Kelchs" in Verbindung steht und im Jahr 21 n.H. akademische Studien vorantrieb (Bote 180).
 
 ## Wirken
-- **Lehre:** Vermittlung von [[index]] innerhalb der spezialisierten akademischen Zirkel.
+- **Lehre:** Vermittlung von Wissen innerhalb der spezialisierten akademischen Zirkel.
 
 ## Verlinkte Themen
 - [[Lieblicher_Kelch]]

@@ -3,7 +3,7 @@ uuid: 4a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
 title: Codex Iuris Canonici
 category: Religion
 status: integrated
-quelle: "../../Quellen/index Astrael/Codex Iuris Canonici.md"
+quelle: "../../Quellen/Bibliothek Astrael/Codex Iuris Canonici.md"
 lore_trust: 10
 confidence: Certain
 report_id: h9i0j1k2-l3m4-5n6o-7p8q-9r10s11t12u13

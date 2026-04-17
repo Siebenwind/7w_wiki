@@ -14,7 +14,7 @@ letzter_check: 2026-02-13T04:30:00+01:00
 
 
 ## Highlights
-*   **Bedrohung aus der Tiefe:** Ein Schlangenvolk, die **[[Sammler]]**, bricht aus unterirdischen Gängen hervor. Sie stammen angeblich von den Mazzaremern ab und nutzen mächtige [[index]] (Thaumaturgen). Ein Angriff auf den **Falkenwall** konnte durch **[[Toran_Dur]]** abgewehrt werden.
+*   **Bedrohung aus der Tiefe:** Ein Schlangenvolk, die **[[Sammler]]**, bricht aus unterirdischen Gängen hervor. Sie stammen angeblich von den Mazzaremern ab und nutzen mächtige Magie (Thaumaturgen). Ein Angriff auf den **Falkenwall** konnte durch **[[Toran_Dur]]** abgewehrt werden.
 *   **Hochmagier [[Toran_Dur]]:** [[Toran_Dur]] wurde offiziell zum Hochmagier ernannt. Der neue Pfadleiter der Grauen, **[[Edomawyr]]**, vollzog die Ernennung. Zuvor rettete [[Toran_Dur]] die Ritter **[[Galthana]]** und **[[Amaris_Aurinas]]** aus der Gefangenschaft der [[Orken]].
 *   **Waffengesetz:** **[[Mirian_Lasar]]** erließ ein Gesetz über Waffen und Rüstungen in [[Falkensee]]. Das Tragen schwerer Waffen und Rüstungen ist Bürgern und Freien in der Stadt untersagt (Ausnahme: Adel, Wache, Kirche).
 
@@ -32,8 +32,8 @@ letzter_check: 2026-02-13T04:30:00+01:00
 *   **[[Morin_Thamaz]]**: Neuer Leiter des Elementaren Pfades.
 *   **[[Richard_Tiefenwasser]]**: Stellte sich der Justiz und nahm an der Untoten-Expedition teil.
 
-## [[index]] & [[index]]
-*   **Mazzarem-Vortrag:** [[Toran_Dur]] erläuterte die [[index]] vor 5000 Jahren: Amulettkrieg, Verrat an dem Feldherrn, das Wirken von "[[Niemand]]" und die Rolle der [[Ferrin]] als Grabbewächter.
+## Geschichte & Magie
+*   **Mazzarem-Vortrag:** [[Toran_Dur]] erläuterte die Geschichte vor 5000 Jahren: Amulettkrieg, Verrat an dem Feldherrn, das Wirken von "[[Niemand]]" und die Rolle der [[Ferrin]] als Grabbewächter.
 
 ## Referenzen
 - Primärquelle: [Siebenwind Bote 158](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20158.md)

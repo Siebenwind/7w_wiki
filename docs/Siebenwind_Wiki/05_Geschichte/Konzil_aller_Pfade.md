@@ -12,7 +12,7 @@ category: Geschichte
 
 
 ## Verlauf
-Ein historisches Treffen der Magierschaft, zu dem erstmals auch offiziell Vertreter des **Pfades zur Linken** ("Schwarze [[index]]") eingeladen waren.
+Ein historisches Treffen der Magierschaft, zu dem erstmals auch offiziell Vertreter des **Pfades zur Linken** ("Schwarze Magie") eingeladen waren.
 Ziel war die Regelung der Zusammenarbeit und die Legalisierung bestimmter Praktiken im Kampf gegen die Bedrohung.
 Der **Weiße Pfad** äußerte Bedenken und verließ Teile der Versammlung vorzeitig.
 

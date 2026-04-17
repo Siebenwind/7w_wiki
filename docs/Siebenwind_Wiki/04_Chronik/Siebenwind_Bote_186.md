@@ -23,7 +23,7 @@ category: Chronik
 - **Zerstörung:** Ein Angriff von Orks und Viertlern auf die "Märchennacht" im Theater [[Falkensee]] wurde abgewehrt.
 - **Verbannung:** Der Hochelf [[Ahilur]] wurde vom Rat und der Elfengemeinschaft geächtet und verbannt, nachdem er den Ältesten mit Mord gedroht hatte.
 
-### Kirche & [[index]]
+### Kirche & Magie
 - **[[Chernides]]:** Eine Münze des vergessenen Horwah [[Chernides]] (Glück/Handel) wurde durch den Forscher [[Ekart_Gradeg]] (†) entdeckt. [[Ionas]] urteilte, dass die Münze abwechselnd vom [[Astrael]]-Orden (Papin) und [[Vitama]]-Orden verwahrt wird.
 - **Weihe:** [[Ionas]] wird zum [[Astrael]]-Geweihten geweiht. Einführung des Ranges "Akoluth" für Laiendiener.
 - **Dämonenbann:** Ein unsichtbarer Kälte-Dämon am Wall wurde durch ein Ritual (geführt von [[Laylira_Hohentann]], [[Solos_Nhergas]] und [[Maelve_Rhyntarin]]) vernichtet. Beteiligt waren auch [[Malachai]] ([[Morsan]]) und [[Custodias]].

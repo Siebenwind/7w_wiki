@@ -25,7 +25,7 @@ Der [[Putsch_in_Falkensee]] eskalierte am 1. Seker zu offenen Kämpfen.
 - **Dwarschim & Malthust:** König [[Krellgrimm_Glutschreiter]] schloss einen Handelspakt mit dem [[Pakt_der_Viereinigkeit]].
 - **Ossian vs. Wallenburg:** Blutiger Zollkonflikt um Goldlieferungen endete durch königliche Intervention (Taras).
 
-### [[index]] & Bedrohung
+### Magie & Bedrohung
 - **Kristall-Waffe:** [[Lazalantin]] und [[Toran_Dur]] setzten Kristalle (Nachbau des "Invar"-Spiegels) gegen die [[Sammler]] ein. Diese schleuderten die Kristalle jedoch zurück (Einschläge in [[Seeberg]]).
 - **[[Ferrin]]-Expedition:** [[Toran_Dur]] führte eine Armee in die [[Ferrin]]-Höhlen. Die [[Sammler]] flohen kampflos.
 

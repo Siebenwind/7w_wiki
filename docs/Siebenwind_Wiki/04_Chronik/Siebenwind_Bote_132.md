@@ -7,7 +7,7 @@ category: Chronik
 
 **Epistemischer Status:** #bote
 
-*Hinweis: Die Ausgaben 133 bis 135 enthalten identische Nachrichtenbeiträge im vorliegenden [[index]].*
+*Hinweis: Die Ausgaben 133 bis 135 enthalten identische Nachrichtenbeiträge im vorliegenden Archiv.*
 
 ## Rekultivierung der Aschenen Wüste
 **Location:** [[Falkensee]] (Treffpunkt Seiltänzer), [[Aschene_Wüste]].

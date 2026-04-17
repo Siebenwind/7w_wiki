@@ -27,4 +27,4 @@ Zur ersten Sphaere gehoeren in den geprueften Quellen ausserdem:
 In den religiösen Schriften (insb. [[Angamon]]) wird Tare als das Ziel der Vernichtung durch den verstoßenen Göttersohn dargestellt. [[Angamon]] neidet der Welt ihre Schöpfungskraft und strebt danach, das Licht zu verschlingen, wie es bereits im Krieg um die [[Mondamulette]] beinahe geschah.
 
 ## Umfeld & Wahrnehmung
-Für die Bewohner ist Tare das "[[index]]" ihrer Existenz. Gelehrte der [[Kirche_der_Viere]] mahnen zur Wahrung der göttlichen Ordnung auf Tare, um den Fortbestand des Lebens gegen das Chaos zu sichern.
+Für die Bewohner ist Tare das Zentrum ihrer Existenz. Gelehrte der [[Kirche_der_Viere]] mahnen zur Wahrung der göttlichen Ordnung auf Tare, um den Fortbestand des Lebens gegen das Chaos zu sichern.

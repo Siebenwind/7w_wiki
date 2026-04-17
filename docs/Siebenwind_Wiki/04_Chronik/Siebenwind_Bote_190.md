@@ -28,7 +28,7 @@ Nach drei Jahren der Ungewissheit wurde bestätigt: Seine Majestät **[[Hilgorad
 - **Festland:** Fürst [[Raziel]] ist nach [[Vandrien]] zurückgekehrt. König [[Theobald_I]] von Cortan finanziert den [[Turm_des_Nordwinds]].
 
 ### Sonstiges
-- **[[index]]:** Eine "[[index]] des zweiten Zeitalters" über die Dämonenbedrohung wird erstellt ([[Erynnion_Comari]]).
+- **Chronik:** Eine "Chronik des zweiten Zeitalters" über die Dämonenbedrohung wird erstellt ([[Erynnion_Comari]]).
 - **Bote:** Bezieht Quartier in Haus 13, [[Brandenstein]].
 
 ---

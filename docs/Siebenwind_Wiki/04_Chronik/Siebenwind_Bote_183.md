@@ -21,7 +21,7 @@ Die **[[Graue_Garde]]** unter Hauptmann [[Waldemar_Delarie]] und Stellvertreter 
 
 ### Reaktionen und Fraktionen
 - **[[Buergerwehr]]:** Der Rat gründete eine [[Buergerwehr]] unter **[[Gorem_Motlow]]** zur Aufrechterhaltung der Ordnung.
-- **Malthust:** Die [[Malthuster_Armee]] (unter [[Marnie_Ruatha]]) rückte in [[Falkensee]] ein, um "[[index]] und Gesetz" zu wahren (eingeladen von [[Toran_Dur]]).
+- **Malthust:** Die [[Malthuster_Armee]] (unter [[Marnie_Ruatha]]) rückte in [[Falkensee]] ein, um "Recht und Gesetz" zu wahren (eingeladen von [[Toran_Dur]]).
 - **Löwenorden:** Der [[Löwenorden]] (vertreten durch [[William_Glaron]]) sichert die Stadt, greift aber (noch) nicht die Garde an. Sie stützen die Position des Rates.
 - **Kirche:** Der [[Bellum]]-Orden unter [[Maltheos_Thorn]] stellt sich hinter [[Custodias]].
 

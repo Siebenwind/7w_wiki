@@ -28,7 +28,7 @@ Trotz dieses Bildes der Einheit herrscht innerhalb der Kirche oft Uneinigkeit ü
 Im theologischen Register handelt es sich um die vier Sahor; im Reichs- und Alltagsgebrauch spricht man von den Vieren.
 
 1.  **[[Astrael]] (Das Allsehende Auge):**
-    *   Aspekt: [[index]], [[index]], Ordnung, Herrschaft.
+    *   Aspekt: Wissen, Magie, Ordnung, Herrschaft.
     *   Orden: "Orden des Allsehenden Auges Astraels".
     *   Anhänger: Gelehrte, Magier, Richter, Herrscher.
     *   Zentrum: Herzogtum [[Region_Sae|Sae]] (Lafay's Stab).

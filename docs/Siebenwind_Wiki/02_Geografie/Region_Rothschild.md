@@ -8,7 +8,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Grafschaft
+**Kategorie:** Region / Grafschaft
 **Hauptstadt:** Rothenbucht
 **Herrscher:** Graf Patrick von Rothschild
 

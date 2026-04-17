@@ -2,7 +2,7 @@
 title: "Von dem Bösen"
 category: Religion
 status: integrated
-quelle: "/Quellen/index Astrael/Von dem Bösen.md"
+quelle: "../../Quellen/Bibliothek Astrael/Von dem Bösen.md"
 author: "Etril Gamajeff"
 ---
 

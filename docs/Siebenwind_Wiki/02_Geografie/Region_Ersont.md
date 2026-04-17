@@ -8,7 +8,7 @@ author: [[Siebenwind]] Chronicler
 
 **Epistemischer Status:** #canon
 
-**Kategorie:** [[index]] / Grafschaft
+**Kategorie:** Region / Grafschaft
 **Hauptstadt:** Ersonts Tal
 **Herrscher:** Graf Gernod von Ersont
 

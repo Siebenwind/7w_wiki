@@ -13,7 +13,7 @@ Die Entstehung der **Gargoyles** geht auf ein fehlgeschlagenes Experiment der gr
 ## Merkmale
 - **Physis:** Gargoyles sind lebendige Steinstatuen mit Flügeln. Ihr steinerner Körper verleiht ihnen eine natürliche Panzerung und ihre Klauen verursachen schwere Verletzungen.
 - **Intelligenz:** Sie besitzen eine hinterhältige, bösartige Intelligenz. Ihr einziger Zweck scheint die Jagd auf lebende Wesen zu sein.
-- **Magieresistenz:** Sie weisen eine hohe natürliche Widerstandskraft gegen viele Arten von [[index]] auf.
+- **Magieresistenz:** Sie weisen eine hohe natürliche Widerstandskraft gegen viele Arten von Magie auf.
 
 ## Besonderheit
 Trotz zahlreicher Berichte über die Zerstörung von Gargoyles scheint ihre Population nicht abzunehmen. Es existiert die Theorie, dass sie in der Lage sind, sich nach der Zerstörung ihres Körpers immer wieder neue steinerne Hüllen zu erschaffen.

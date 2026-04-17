@@ -42,4 +42,4 @@ Ein dokumentiertes Beispiel einer Prüfungssituation, vermutlich für einen Adep
 
 ---
 
-**Hinweis:** Die genauen Inchantationen und Gesten sind in den entsprechenden Lehrbüchern der [[index]] von [[Toran_Dur]] zu finden und werden nur Eingeweihten mündlich weitergegeben.
+**Hinweis:** Die genauen Inchantationen und Gesten sind in den entsprechenden Lehrbüchern der Magie von [[Toran_Dur]] zu finden und werden nur Eingeweihten mündlich weitergegeben.

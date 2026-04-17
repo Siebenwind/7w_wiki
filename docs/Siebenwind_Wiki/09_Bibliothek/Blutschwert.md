@@ -11,7 +11,7 @@ letzter_check: 2026-02-14T00:40:00
 
 **Epistemischer Status:** #perspektive
 
-"Blutschwert" ist eine düstere Erzählung über den ehemaligen Assassinen **[[Veridon]]** (Code: Nebelklinge) und seinen verzweifelten Kampf gegen die **[[Schwarze_Legion]]** unter der Führung von **[[Herzog_Blutschwert]]**. Die [[index]] spielt vornehmlich im kriegszerrütteten **Vandrien**.
+"Blutschwert" ist eine düstere Erzählung über den ehemaligen Assassinen **[[Veridon]]** (Code: Nebelklinge) und seinen verzweifelten Kampf gegen die **[[Schwarze_Legion]]** unter der Führung von **[[Herzog_Blutschwert]]**. Die Erzählung spielt vornehmlich im kriegszerrütteten **Vandrien**.
 
 ## Handlung
 
@@ -23,7 +23,7 @@ Die Erzählung folgt Veridon, einem ehemaligen Spion des **[[Oculus_Ecclesiae]]*
 *   **[[Klauenwoelfe]]:** Das Auftauchen von intelligenten **[[Klauenwoelfe|Klauenwölfen]]** (wie **Narbenschnauze**) deutet auf eine uralte Verbindung zwischen der Natur und dem Volk hin, wobei einige Individuen offenbar in den Dienst der Dunkelheit gezwungen wurden.
 
 ## Lore-Bedeutung
-Das Dokument bietet wertvolle Einblicke in die Struktur des **[[Oculus_Ecclesiae]]** und die Grausamkeiten der **[[Schwarze_Legion]]**. Es thematisiert zudem die "Anker-Runen"—eine Form der dunklen [[index]], die [[Menschen]] in lebende Portale verwandelt.
+Das Dokument bietet wertvolle Einblicke in die Struktur des **[[Oculus_Ecclesiae]]** und die Grausamkeiten der **[[Schwarze_Legion]]**. Es thematisiert zudem die "Anker-Runen"—eine Form der dunklen Magie, die [[Menschen]] in lebende Portale verwandelt.
 
 ## Referenzen
 - Primärquelle: Blutschwert (`../../Quellen/Spielergeschichten/Blutschwert%20|%20Siebenwind%20|%20Ultima%20Online%20Freeshard%20|%20Siebenwind.md`)

@@ -28,7 +28,7 @@ Soranias Schicksal ist eine Mahnung an die Gefahren der Ödnisländer und dient 
 ## Überlieferungen
 - [[Geschichte]]: Erwähnung in der Überlieferung.
 - [[Zeitstrahl]]: Erwähnung in der Überlieferung.
-- [[index]]: Erwähnung in der Überlieferung.
+- [UNGEKLÄRT]: Erwähnung in der Überlieferung.
 - [[Die_Tragödie_am_Wall]]: Erwähnung in der Überlieferung.
 ## Quellen
 - [[Jenseits_des_Walls]] (Erzählung)

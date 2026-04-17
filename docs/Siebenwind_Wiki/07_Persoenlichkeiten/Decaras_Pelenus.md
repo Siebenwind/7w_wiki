@@ -8,7 +8,7 @@ category: Personen
 !!! info "Metadaten"
     - **Titel:** Adeptus / ehem. Grauer Rat
     - **Epistemischer Status:** #bote
-    - **Zugehörigkeit:** [[Grauer_Pfad]] ([[index]])
+    - **Zugehörigkeit:** [[Grauer_Pfad]] (Magie)
 
 
 ## Beschreibung

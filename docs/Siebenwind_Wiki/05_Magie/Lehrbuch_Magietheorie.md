@@ -10,10 +10,10 @@ author: "[[Toran_Dur]]"
 
 **Epistemischer Status:** #überlieferung (Akademischer Kanon des [[Toran_Dur_Turm|Magierturms]])
 
-Das *Lehrbuch der Magietheorie* von [[Toran_Dur]] gilt als eines der Standardwerke der arkanen Forschung auf [[Siebenwind]]. Es definiert die grundlegenden Prinzipien der [[index]], den Aufbau des Astralnetzes und die psychologischen Voraussetzungen für das Wirken von Zauberei.
+Das *Lehrbuch der Magietheorie* von [[Toran_Dur]] gilt als eines der Standardwerke der arkanen Forschung auf [[Siebenwind]]. Es definiert die grundlegenden Prinzipien der Magie, den Aufbau des Astralnetzes und die psychologischen Voraussetzungen für das Wirken von Zauberei.
 
-## 1. Definition der [[index]]
-[[index]] wird als der Vorgang definiert, bei dem ein sterbliches Wesen das **Astralnetz** mittels der Macht seines Geistes beeinflusst.
+## 1. Definition der Magie
+Magie wird als der Vorgang definiert, bei dem ein sterbliches Wesen das **Astralnetz** mittels der Macht seines Geistes beeinflusst.
 
 ### Ursprung des Netzes
 Hinsichtlich des Ursprungs existieren zwei Haupttheorien:
@@ -41,7 +41,7 @@ Das Modell des Astralnetzes besteht aus Fäden, die omnipräsent durch alle drei
 Um einen Effekt zu erzielen, muss ein Magier aus den Fäden **Knoten** knüpfen. Ein Zauber ist im Wesentlichen eine Bündelung von Knoten auf engem Raum. Stabile Gewebe erfordern das Element [[Geist]] zum "Abbinden".
 
 ## 3. Der [[Geist]] des Sterblichen (Zensor-Theorie)
-Das Wirken von [[index]] erfordert die Überwindung des **Zensors** – einer Filterinstanz zwischen Tagesbewusstsein (Logik) und Unterbewusstsein (Wille/Wahrnehmung).
+Das Wirken von Magie erfordert die Überwindung des **Zensors** – einer Filterinstanz zwischen Tagesbewusstsein (Logik) und Unterbewusstsein (Wille/Wahrnehmung).
 
 - **Der Zensor:** Schützt den Verstand vor Überflutung mit Informationen.
 - **Umgehung:** Der Magier nutzt ein **arkanes Modell** (Glaube/Systematik), um seinen Willen am Zensor vorbei an das arkane Zentrum im Unterbewusstsein zu senden.

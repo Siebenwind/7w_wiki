@@ -2,7 +2,7 @@
 title: "Der heilige Ritus der Exercitio"
 category: Religion
 status: integrated
-quelle: "/Quellen/index Astrael/Über den heiligen Ritus der Exercitio.md"
+quelle: "../../Quellen/Bibliothek Astrael/Über den heiligen Ritus der Exercitio.md"
 author: "Aelwin"
 ---
 

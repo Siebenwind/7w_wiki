@@ -33,8 +33,8 @@ Yerredoni scheint keine eigenständige Grammatik zu haben, sondern ersetzt zentr
 *   **Kathul:** Dämon / Daimon
 *   **Cuthal Ithos:** Ritualkerzen
 
-**[[index]] & Ränge:**
-*   **Are:** [[index]]
+**Magie & Ränge:**
+*   **Are:** Magie
 *   **Ares:** Magister
 *   **Spectru:** Novize
 *   **Boldares:** Adept

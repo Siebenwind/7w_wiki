@@ -2,7 +2,7 @@
 title: Elementum et Gens Humanis (Kommentar zu Divinum et Elementum)
 category: Religion
 status: integrated
-quelle: "/Quellen/index Astrael/Elementum et Gens Humanis.md"
+quelle: "../../Quellen/Bibliothek Astrael/Elementum et Gens Humanis.md"
 author: "[[Anonymus]]"
 ---
 

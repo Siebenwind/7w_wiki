@@ -1,9 +1,9 @@
 ---
-title: index Register
+title: Bestiarium Register
 category: Index
 ---
 
-# [[index]] Register
+# Bestiarium Register
 
 **Epistemischer Status:** #canon
 
