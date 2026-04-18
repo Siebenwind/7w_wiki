@@ -26,7 +26,7 @@ Das Archiv ist nicht nur Ablage, sondern die veroeffentlichte Oberflaeche fuer K
 ## Weitere Archivartikel
 
 - [[Akademie_der_Schwarzen_Kuenste|Akademie der Schwarzen Kuenste]]
-- [[Magierturm_zu_Tiefenbach|Magierturm zu [[Tiefenbach]]]]
+- [[Magierturm_zu_Tiefenbach|Magierturm zu Tiefenbach]]
 - [[Milizaufloesung_Erlass|Aufloesung der Milizrechtsvertraege (19 n.H.)]]
 - [[Provinzstatuten_Erlass|Rechtsgueltigkeit der Provinz-Statuten (19 n.H.)]]
-- [[Statut_der_Kronmark_Siebenwind|Statut der Kronmark [[Siebenwind]] (19 n.H.)]]
+- [[Statut_der_Kronmark_Siebenwind|Statut der Kronmark Siebenwind (19 n.H.)]]

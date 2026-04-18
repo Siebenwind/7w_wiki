@@ -14,5 +14,5 @@ Das Archiv der Wissen.
 *   **[[Werke/index|Werke]]**
 
 ### Artikel
-*   [[Magietheorie_nach_Dunvallo_Linari|Magietheorie nach [[Dunvallo_Linari]]]]
-*   [[Sprache_Run|[[Die_Sprache_Run]]]]
+*   [[Magietheorie_nach_Dunvallo_Linari|Magietheorie nach Dunvallo Linari]]
+*   [[Sprache_Run|Die Sprache Run]]

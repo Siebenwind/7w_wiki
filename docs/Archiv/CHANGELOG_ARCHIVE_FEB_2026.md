@@ -227,8 +227,8 @@
 
 ### Geaendert
 - Malformed-WikiLinks in Register/Profilen/Werke-Index normalisiert:
-  - `[[Forschungsberichte ([[Toran_Dur]])]]` -> `[[Forschungsberichte_(Toran_Dur)]]`
-  - `[[Die Ordenssatzung ... ([[Toran_Dur]])]]` -> `[[Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur)]]`
+  - `Forschungsberichte (Toran Dur)` -> `[[Forschungsberichte_(Toran_Dur)]]`
+  - `Die Ordenssatzung ... (Toran Dur)` -> `[[Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur)]]`
   - `Daimonologie und Schwarze index (Toran_Dur)` -> `[[Daimonologie_und_Schwarze_Magie_(Toran_Dur)]]`
 - Folge-Batch fuer verbleibende Singletons in `Siebenwind_Wiki/00_Fundament` ausgefuehrt.
 - Lessons-Learned per Dispatch an `ALL` verteilt:

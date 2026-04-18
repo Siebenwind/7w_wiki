@@ -58,6 +58,18 @@ CATEGORY_WIKILINK_RE = re.compile(r"^\s*\[\[(?P<target>[^\]|]+)(?:\|(?P<label>[^
 BACKLOG_ALIAS_EXCLUDES = {"persoenlichkeiten", "buergerwehr"}
 BRIDGE_TARGET_LINE_RE = re.compile(r"^\s*Siehe auch:\s*(?P<targets>.+?)\s*$", re.IGNORECASE | re.MULTILINE)
 WIKILINK_TARGET_RE = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]")
+WIKILINK_OCCURRENCE_RE = re.compile(
+    r"\[\[(?P<target>[^\]|#\n]+)(?P<anchor>#[^\]\n|]+)?(?P<label>\|[^\]\n]+)?\]\]"
+)
+MARKDOWN_LINK_RE = re.compile(r"(?<!!)\[(?P<label>[^\n]*?)\]\((?P<target>[^)\n]+)\)")
+ENCODED_OR_LITERAL_WIKILINK_WRAPPER_RE = re.compile(r"(\[\[|\]\]|%5B%5B|%5D%5D)", re.IGNORECASE)
+DERIVED_BACKLOG_ROOTS = (
+    DOCS_WIKI_DIR,
+    PROJECT_ROOT / "docs" / "Archiv",
+)
+READONLY_BACKLOG_ROOTS = (
+    PROJECT_ROOT / "docs" / "Quellen",
+)
 
 # Known Redirects / Hardcoded Fixes
 LORE_REDIRECTS = {
@@ -610,6 +622,322 @@ def _mechanical_alias_candidate(item: dict) -> str | None:
     return candidate
 
 
+def _is_within(path: Path, roots: tuple[Path, ...]) -> bool:
+    resolved = path.resolve()
+    for root in roots:
+        try:
+            resolved.relative_to(root.resolve())
+            return True
+        except ValueError:
+            continue
+    return False
+
+
+def _relpath(path: Path) -> str:
+    return str(path.relative_to(PROJECT_ROOT))
+
+
+def _backlog_scan_files(include_sources: bool = True) -> list[Path]:
+    roots = list(DERIVED_BACKLOG_ROOTS)
+    if include_sources:
+        roots.extend(READONLY_BACKLOG_ROOTS)
+    files: set[Path] = set()
+    for root in roots:
+        if root.exists():
+            files.update(root.rglob("*.md"))
+    return sorted(files)
+
+
+def _canonical_target_exists(target: str, canon_map: dict) -> bool:
+    return normalize_key(target) in canon_map
+
+
+def _backlog_item_replacement(item: dict, canon_map: dict) -> tuple[str | None, str]:
+    candidate = _mechanical_alias_candidate(item)
+    if candidate:
+        return candidate, "safe_exact_match"
+
+    candidates = [candidate for candidate in item.get("canonical_candidates", []) if candidate]
+    if str(item.get("classification", "")) == "safe_alias_match" and len(candidates) == 1:
+        return candidates[0], "safe_alias_match"
+
+    replacement_hint = str(item.get("replacement_hint") or "").strip()
+    if (
+        str(item.get("policy_status", "")) == "planned_fix"
+        and replacement_hint
+        and _canonical_target_exists(replacement_hint, canon_map)
+    ):
+        return replacement_hint, "planned_fix"
+
+    return None, ""
+
+
+def _backlog_target_indexes(pages_health: dict, canon_map: dict) -> tuple[dict[str, dict], dict[str, tuple[str, str]]]:
+    items_by_target: dict[str, dict] = {}
+    replacements_by_target: dict[str, tuple[str, str]] = {}
+    for item in pages_health.get("targets", []):
+        target = str(item.get("target", "")).strip()
+        if not target:
+            continue
+        items_by_target[target] = item
+        replacement, replacement_reason = _backlog_item_replacement(item, canon_map)
+        if replacement:
+            replacements_by_target[target] = (replacement, replacement_reason)
+    return items_by_target, replacements_by_target
+
+
+def _markdown_target_without_wrappers(target: str) -> str:
+    fixed = target.replace("[[", "").replace("]]", "")
+    fixed = re.sub(r"%5B%5B", "", fixed, flags=re.IGNORECASE)
+    fixed = re.sub(r"%5D%5D", "", fixed, flags=re.IGNORECASE)
+    return fixed
+
+
+def _markdown_target_path_exists(source_file: Path, target: str) -> bool:
+    clean_target = target.strip()
+    if not clean_target or re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*:", clean_target):
+        return False
+    clean_target = clean_target.split("#", 1)[0]
+    try:
+        decoded = unquote(clean_target)
+        return (source_file.parent / decoded).resolve().exists()
+    except Exception:
+        return False
+
+
+def _backlog_repair_status(
+    file_path: Path,
+    item: dict,
+    replacement: str | None,
+    replacement_reason: str,
+) -> str:
+    if _is_within(file_path, READONLY_BACKLOG_ROOTS):
+        return "read_only_source_residue"
+    if not _is_within(file_path, DERIVED_BACKLOG_ROOTS):
+        return "out_of_scope"
+    if replacement and replacement_reason == "planned_fix":
+        return "auto_safe_policy"
+    if replacement:
+        return "auto_safe"
+    classification = str(item.get("classification", "needs_historian"))
+    if classification in {"generic_term_conflict", "needs_historian", "needs_human"}:
+        return "manual_review"
+    return "no_safe_replacement"
+
+
+def _build_backlog_inventory(pages_health: dict | None = None) -> dict:
+    pages_health = pages_health or _load_pages_health_for_backlog()
+    canon_map = get_canon_map(WIKI_DIR)
+    if DOCS_WIKI_DIR.exists():
+        docs_canon = get_canon_map(DOCS_WIKI_DIR)
+        for key, paths in docs_canon.items():
+            canon_map[key].extend(path for path in paths if path not in canon_map[key])
+
+    items_by_target, replacements_by_target = _backlog_target_indexes(pages_health, canon_map)
+    occurrences: list[dict] = []
+    seen_targets: set[str] = set()
+
+    for file_path in _backlog_scan_files(include_sources=True):
+        try:
+            lines = file_path.read_text(encoding="utf-8").splitlines()
+        except Exception:
+            continue
+        rel_path = _relpath(file_path)
+        for line_number, line in enumerate(lines, start=1):
+            for match in WIKILINK_OCCURRENCE_RE.finditer(line):
+                target = match.group("target").strip()
+                item = items_by_target.get(target)
+                if not item:
+                    continue
+                seen_targets.add(target)
+                replacement, replacement_reason = replacements_by_target.get(target, (None, ""))
+                label = match.group("label") or ""
+                anchor = match.group("anchor") or ""
+                occurrences.append(
+                    {
+                        "file": rel_path,
+                        "line": line_number,
+                        "column": match.start() + 1,
+                        "link_kind": "wikilink",
+                        "target": target,
+                        "classification": item.get("classification", "needs_historian"),
+                        "policy_status": item.get("policy_status", "untracked"),
+                        "canonical_candidates": item.get("canonical_candidates", []),
+                        "replacement_target": replacement,
+                        "replacement": f"[[{replacement}{anchor}{label}]]" if replacement else None,
+                        "repair_status": _backlog_repair_status(file_path, item, replacement, replacement_reason),
+                    }
+                )
+
+            for match in MARKDOWN_LINK_RE.finditer(line):
+                target = match.group("target").strip()
+                if not ENCODED_OR_LITERAL_WIKILINK_WRAPPER_RE.search(target):
+                    continue
+                fixed_target = _markdown_target_without_wrappers(target)
+                nested_targets = [
+                    nested.group("target").strip()
+                    for nested in WIKILINK_OCCURRENCE_RE.finditer(target)
+                    if nested.group("target").strip()
+                ]
+                for nested_target in nested_targets:
+                    for unresolved_target in items_by_target:
+                        if unresolved_target.startswith("[") and normalize_key(unresolved_target) == normalize_key(nested_target):
+                            seen_targets.add(unresolved_target)
+                target_exists = fixed_target != target and _markdown_target_path_exists(file_path, fixed_target)
+                if _is_within(file_path, READONLY_BACKLOG_ROOTS):
+                    repair_status = "read_only_source_residue"
+                elif _is_within(file_path, DERIVED_BACKLOG_ROOTS) and target_exists:
+                    repair_status = "auto_safe_wrapper"
+                elif _is_within(file_path, DERIVED_BACKLOG_ROOTS):
+                    repair_status = "missing_resolved_path"
+                else:
+                    repair_status = "out_of_scope"
+                occurrences.append(
+                    {
+                        "file": rel_path,
+                        "line": line_number,
+                        "column": match.start() + 1,
+                        "link_kind": "markdown_url_wrapper",
+                        "target": ", ".join(nested_targets) if nested_targets else target,
+                        "url_target": target,
+                        "classification": "technical_wrapper",
+                        "policy_status": "untracked",
+                        "canonical_candidates": [],
+                        "replacement_target": fixed_target if target_exists else None,
+                        "replacement": fixed_target if target_exists else None,
+                        "repair_status": repair_status,
+                    }
+                )
+
+    status_counts: dict[str, int] = defaultdict(int)
+    kind_counts: dict[str, int] = defaultdict(int)
+    for occurrence in occurrences:
+        status_counts[occurrence["repair_status"]] += 1
+        kind_counts[occurrence["link_kind"]] += 1
+
+    unresolved_targets = pages_health.get("targets", [])
+    unfound_targets = []
+    for item in unresolved_targets:
+        target = str(item.get("target", "")).strip()
+        if target and target not in seen_targets:
+            unfound_targets.append(
+                {
+                    "target": item.get("target", ""),
+                    "count": item.get("count", 0),
+                    "classification": item.get("classification", "needs_historian"),
+                    "policy_status": item.get("policy_status", "untracked"),
+                    "canonical_candidates": item.get("canonical_candidates", []),
+                    "replacement_hint": item.get("replacement_hint"),
+                }
+            )
+
+    return {
+        "generated_at": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+        "mode": "inventory",
+        "pages_health": {
+            "status": pages_health.get("status", "UNKNOWN"),
+            "unresolved_total": pages_health.get("unresolved_total", 0),
+            "unallowlisted_total": pages_health.get("unallowlisted_total", 0),
+            "classification_counts": pages_health.get("classification_counts", {}),
+            "last_validated_at": pages_health.get("last_validated_at"),
+        },
+        "summary": {
+            "occurrences_total": len(occurrences),
+            "status_counts": dict(sorted(status_counts.items())),
+            "kind_counts": dict(sorted(kind_counts.items())),
+            "unfound_targets_total": len(unfound_targets),
+        },
+        "occurrences": occurrences,
+        "unfound_targets": unfound_targets,
+    }
+
+
+def emit_backlog_inventory(json_output: bool = False) -> int:
+    inventory = _build_backlog_inventory()
+    if json_output:
+        print(json.dumps(inventory, indent=2, ensure_ascii=False))
+        return 0
+
+    print(f"\n{BLUE}--- Backlog Occurrence Inventory ---{RESET}")
+    print(f"Pages: {inventory['pages_health']['status']} unresolved={inventory['pages_health']['unresolved_total']}")
+    for status, count in inventory["summary"]["status_counts"].items():
+        print(f"- {status}: {count}")
+    print(f"Unfound targets: {inventory['summary']['unfound_targets_total']}")
+    return 0
+
+
+def _apply_backlog_occurrence_repairs(pages_health: dict, auto: bool = False, dry_run: bool = False) -> dict:
+    inventory = _build_backlog_inventory(pages_health)
+    eligible_statuses = {"auto_safe", "auto_safe_policy", "auto_safe_wrapper"}
+    entries_by_file: dict[str, list[dict]] = defaultdict(list)
+    for occurrence in inventory.get("occurrences", []):
+        if occurrence.get("repair_status") not in eligible_statuses:
+            continue
+        entries_by_file[occurrence["file"]].append(occurrence)
+
+    planned_files: list[str] = []
+    applied_files: list[str] = []
+    item_summaries: list[dict] = []
+
+    for rel_path, entries in sorted(entries_by_file.items()):
+        file_path = PROJECT_ROOT / rel_path
+        try:
+            content = file_path.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        new_content = content
+
+        direct_replacements: dict[str, str] = {}
+        wrapper_count = 0
+        for entry in entries:
+            if entry.get("link_kind") == "wikilink" and entry.get("replacement_target"):
+                direct_replacements[entry["target"]] = entry["replacement_target"]
+            elif entry.get("link_kind") == "markdown_url_wrapper":
+                wrapper_count += 1
+
+        for target, replacement in sorted(direct_replacements.items()):
+            new_content = _replace_target_in_content(new_content, target, replacement)
+
+        if wrapper_count:
+            def wrapper_repl(match: re.Match) -> str:
+                target = match.group("target").strip()
+                if not ENCODED_OR_LITERAL_WIKILINK_WRAPPER_RE.search(target):
+                    return match.group(0)
+                fixed_target = _markdown_target_without_wrappers(target)
+                if fixed_target == target or not _markdown_target_path_exists(file_path, fixed_target):
+                    return match.group(0)
+                return f"[{match.group('label')}]({fixed_target})"
+
+            new_content = MARKDOWN_LINK_RE.sub(wrapper_repl, new_content)
+
+        if new_content == content:
+            continue
+
+        planned_files.append(rel_path)
+        if not dry_run and auto:
+            file_path.write_text(new_content, encoding="utf-8")
+            applied_files.append(rel_path)
+
+        item_summaries.append(
+            {
+                "file": rel_path,
+                "occurrences": len(entries),
+                "wikilink_targets": sorted(direct_replacements),
+                "markdown_url_wrappers": wrapper_count,
+            }
+        )
+
+    return {
+        "cluster": "backlog_occurrence_repairs",
+        "changed_files": len(planned_files) if dry_run else len(applied_files),
+        "planned_files": planned_files,
+        "applied_files": applied_files,
+        "files": planned_files,
+        "matched_occurrences": sum(len(entries) for entries in entries_by_file.values()),
+        "items": item_summaries,
+    }
+
+
 def _collect_category_frontmatter_matches(files: list[Path]) -> list[str]:
     matches: list[str] = []
     for file_path in files:
@@ -656,7 +984,7 @@ def _extract_bridge_targets(path_str: str) -> list[str]:
     return [target.strip() for target in WIKILINK_TARGET_RE.findall(match.group("targets")) if target.strip()]
 
 
-def _build_backlog_board() -> tuple[dict, dict]:
+def _build_backlog_board(write_artifacts: bool = True) -> tuple[dict, dict]:
     files = canonical_markdown_files(TECHNICAL_WIKI_ROOT)
     pages_health = _load_pages_health_for_backlog()
     contract = scan_contract(TECHNICAL_WIKI_ROOT, refresh_inventory=False)
@@ -787,9 +1115,10 @@ def _build_backlog_board() -> tuple[dict, dict]:
         "version": BACKLOG_ARTIFACT_VERSION,
         "items": escalation_items,
     }
-    BACKLOG_BOARD_PATH.parent.mkdir(parents=True, exist_ok=True)
-    BACKLOG_BOARD_PATH.write_text(json.dumps(board, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    BACKLOG_ESCALATIONS_PATH.write_text(json.dumps(escalations, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    if write_artifacts:
+        BACKLOG_BOARD_PATH.parent.mkdir(parents=True, exist_ok=True)
+        BACKLOG_BOARD_PATH.write_text(json.dumps(board, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        BACKLOG_ESCALATIONS_PATH.write_text(json.dumps(escalations, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return board, escalations
 
 
@@ -844,10 +1173,10 @@ def _apply_alias_target_normalization(pages_health: dict, auto: bool = False, dr
 def repair_backlog_lane1(auto: bool = False, dry_run: bool = False, json_output: bool = False) -> int:
     pages_health = _load_pages_health_for_backlog()
     files = canonical_markdown_files(TECHNICAL_WIKI_ROOT)
-    board, escalations = _build_backlog_board()
+    board, escalations = _build_backlog_board(write_artifacts=not dry_run)
 
     cluster_results = [
-        _apply_alias_target_normalization(pages_health, auto=auto, dry_run=dry_run),
+        _apply_backlog_occurrence_repairs(pages_health, auto=auto, dry_run=dry_run),
         repair_frontmatter_categories(files, auto=auto, dry_run=dry_run),
         repair_quelle_frontmatter(files, auto=auto, dry_run=dry_run),
     ]
@@ -863,6 +1192,7 @@ def repair_backlog_lane1(auto: bool = False, dry_run: bool = False, json_output:
         "artifacts": {
             "backlog_board": str(BACKLOG_BOARD_PATH.relative_to(PROJECT_ROOT)),
             "escalations": str(BACKLOG_ESCALATIONS_PATH.relative_to(PROJECT_ROOT)),
+            "written": not dry_run,
         },
         "before": {
             "unresolved_total": pages_health.get("unresolved_total", 0),
@@ -879,9 +1209,13 @@ def repair_backlog_lane1(auto: bool = False, dry_run: bool = False, json_output:
         print(json.dumps(summary, indent=2, ensure_ascii=False))
     else:
         print(f"\n{BLUE}--- Backlog Lane 1 Repair ---{RESET}")
-        print(f"Artifacts: {summary['artifacts']['backlog_board']}, {summary['artifacts']['escalations']}")
+        if summary["artifacts"]["written"]:
+            print(f"Artifacts: {summary['artifacts']['backlog_board']}, {summary['artifacts']['escalations']}")
+        else:
+            print("Artifacts: dry-run, keine Board-Dateien geschrieben")
         for item in cluster_results:
-            print(f"- {item['cluster']}: matched={item.get('matched_targets', item.get('matched_files', 0))} changed={item.get('changed_files', 0)}")
+            matched = item.get("matched_occurrences", item.get("matched_targets", item.get("matched_files", 0)))
+            print(f"- {item['cluster']}: matched={matched} changed={item.get('changed_files', 0)}")
         if dry_run:
             print(f"{YELLOW}Dry-run aktiv: keine Dateien geschrieben.{RESET}")
         else:
@@ -889,14 +1223,15 @@ def repair_backlog_lane1(auto: bool = False, dry_run: bool = False, json_output:
     return 0
 
 
-def emit_backlog_board(json_output: bool = False) -> int:
-    board, escalations = _build_backlog_board()
+def emit_backlog_board(json_output: bool = False, dry_run: bool = False) -> int:
+    board, escalations = _build_backlog_board(write_artifacts=not dry_run)
     payload = {
         "generated_at": board["generated_at"],
         "version": board["version"],
         "artifacts": {
             "backlog_board": str(BACKLOG_BOARD_PATH.relative_to(PROJECT_ROOT)),
             "escalations": str(BACKLOG_ESCALATIONS_PATH.relative_to(PROJECT_ROOT)),
+            "written": not dry_run,
         },
         "pages_health": board["pages_health"],
         "contract": board["contract"],
@@ -907,8 +1242,11 @@ def emit_backlog_board(json_output: bool = False) -> int:
         print(json.dumps(payload, indent=2, ensure_ascii=False))
     else:
         print(f"\n{BLUE}--- Backlog Cluster Board ---{RESET}")
-        print(f"Board: {payload['artifacts']['backlog_board']}")
-        print(f"Eskalationen: {payload['artifacts']['escalations']}")
+        if payload["artifacts"]["written"]:
+            print(f"Board: {payload['artifacts']['backlog_board']}")
+            print(f"Eskalationen: {payload['artifacts']['escalations']}")
+        else:
+            print("Dry-run: keine Board-Dateien geschrieben.")
         for cluster in payload["clusters"]:
             print(f"- {cluster['cluster']}: {cluster['count']} [{cluster['lane']}]")
     return 0
@@ -1032,6 +1370,7 @@ def main():
     parser.add_argument("--check-collision", help="Prüft, ob ein Dateiname bereits existiert")
     parser.add_argument("--fix-roamlinks", action="store_true", help="Aggressive repair path for unresolved Pages / Roamlinks targets")
     parser.add_argument("--backlog-board", action="store_true", help="Build cluster-based backlog board and escalation artifacts")
+    parser.add_argument("--backlog-inventory", action="store_true", help="Inventory concrete Pages backlog occurrences without writing artifacts")
     parser.add_argument("--apply-lane1", action="store_true", help="Apply the conservative lane-1 mechanical backlog wave")
     parser.add_argument("--dry-run", action="store_true", help="Preview changes without writing files")
     parser.add_argument("--json", action="store_true", help="Emit machine-readable JSON for backlog-oriented repair modes")
@@ -1059,8 +1398,11 @@ def main():
     if args.fix_roamlinks:
         sys.exit(repair_roamlinks(auto=args.auto, dry_run=args.dry_run))
 
+    if args.backlog_inventory:
+        sys.exit(emit_backlog_inventory(json_output=args.json))
+
     if args.backlog_board:
-        sys.exit(emit_backlog_board(json_output=args.json))
+        sys.exit(emit_backlog_board(json_output=args.json, dry_run=args.dry_run))
 
     if args.apply_lane1:
         sys.exit(repair_backlog_lane1(auto=args.auto, dry_run=args.dry_run, json_output=args.json))

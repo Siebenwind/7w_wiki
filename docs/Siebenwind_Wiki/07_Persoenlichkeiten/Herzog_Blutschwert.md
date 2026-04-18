@@ -30,4 +30,4 @@ Als Anführer der [[Schwarze_Legion]] führt er einen Feldzug der Vernichtung un
 Es wird vermutet, dass [[Blutschwert]] eine direkte Manifestation oder ein hochrangiger Avatar der dunklen Mächte Vandriens ist. Seine Existenz ist untrennbar mit dem Aufstieg der [[Schwarze_Legion]] verbunden.
 
 ## Quellen
-*   [[Blutschwert]](../../Quellen/Spielergeschichten/[[Blutschwert]]%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+*   [[Blutschwert]](../../Quellen/Spielergeschichten/Blutschwert%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)

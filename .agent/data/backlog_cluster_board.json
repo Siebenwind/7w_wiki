@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-15T16:28:43Z",
+  "generated_at": "2026-04-18T14:41:01Z",
   "version": 1,
   "pages_health": {
     "status": "WARN",
-    "unresolved_total": 635,
-    "unallowlisted_total": 633,
-    "last_validated_at": "2026-04-09T17:37:38Z"
+    "unresolved_total": 629,
+    "unallowlisted_total": 627,
+    "last_validated_at": "2026-04-17T16:29:04Z"
   },
   "contract": {
     "bridge_invalid": 0,
@@ -19,7 +19,7 @@
       "lane": "lane1",
       "auto_apply_allowed": true,
       "escalate_if": "candidate set is empty, >1, or semantically non-identical",
-      "count": 5,
+      "count": 4,
       "examples": [
         {
           "target": "En'Hor",
@@ -70,19 +70,6 @@
             "docs/Quellen/Spielergeschichten/Illis_Geschichtenecke.md",
             "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 176.md",
             "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 178.md"
-          ]
-        },
-        {
-          "target": "Forschungsberichte ([[Toran_Dur",
-          "canonical_target": "Forschungsberichte_(Toran_Dur)",
-          "count": 1,
-          "source_pages": [
-            "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
-            "docs/Siebenwind_Wiki/03_Wissen/Werke.md",
-            "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md",
-            "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Caieta_Ajunier.md",
-            "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Enoah_Sullin.md",
-            "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rianna.md"
           ]
         },
         {

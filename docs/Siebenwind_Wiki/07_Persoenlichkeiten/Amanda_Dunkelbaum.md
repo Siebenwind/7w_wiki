@@ -12,7 +12,7 @@ category: Personen
 
 
 ## Beschreibung
-**Amanda Dunkelbaum** verfasste das Werk **[[Elementarlehre_Dunkelbaum|Der [[Elementare]] Pfad]]**, in dem sie die vier klassischen Elemente als arkane Prinzipien beschreibt und die Rolle des Geistes als verbindende Kraft betont.
+**Amanda Dunkelbaum** verfasste das Werk **[[Elementarlehre_Dunkelbaum|Der Elementare Pfad]]**, in dem sie die vier klassischen Elemente als arkane Prinzipien beschreibt und die Rolle des Geistes als verbindende Kraft betont.
 
 ---
 **Siehe auch:** [[Elementarlehre_Dunkelbaum]], [[Magie_Grundlagen]]

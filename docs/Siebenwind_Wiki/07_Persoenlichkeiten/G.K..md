@@ -7,7 +7,7 @@ category: Personen
 
 **Epistemischer Status:** #bote
 
-Ein besorgter Bürger und Autor für den [[Die_Chronik|[[Siebenwind]] Boten]].
+Ein besorgter Bürger und Autor für den [[Die_Chronik|Siebenwind Boten]].
 
 ## Beiträge & Warnungen
 G.K. tritt in seinen Texten oft als Mahner gegen den moralischen Verfall und die zunehmende Bedrohung durch "Gesindel" auf. Er berichtete über falsche Steuereintreiber und warnte vor den "Ratten", die bei großer Hitze aus ihren Löchern kämen ([[Siebenwind_Bote_132]]).

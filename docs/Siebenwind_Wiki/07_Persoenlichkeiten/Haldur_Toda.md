@@ -36,4 +36,4 @@ In späteren Jahren erhielt er einen Brief seiner ehemaligen Geliebten **[[Eleon
 
 ## Quellen
 *   [[Aus_dem_Liebesleben_eines_Dichters]](../../Quellen/Spielergeschichten/Aus%20dem%20Liebesleben%20eines%20Dichters%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
-*   [[Siebenwind_Bote_182]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20182.md)
+*   [[Siebenwind_Bote_182]](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20182.md)

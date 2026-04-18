@@ -17,6 +17,6 @@ Das Archiv der Erzählungen.
 *   [[Geschichten_eines_silbernen_Adlers|Geschichten eines silbernen Adlers]]
 *   [[Heimsuchung_der_Akademie|Die Heimsuchung der Akademie]]
 *   [[Jenseits_des_Walls|Jenseits des Walls]]
-*   [[Myten_in_Falkensee|Die [[Myten]] in [[Falkensee]]]]
+*   [[Myten_in_Falkensee|Die Myten in Falkensee]]
 *   [[Von_gesplitterten_Seelen_und_blutigen_Kehlen|Von gesplitterten Seelen und blutigen Kehlen]]
 *   [[Waldemar_Delaries_Reise_nach_Papin|Waldemar Delaries Reise nach Papin]]

@@ -14,7 +14,7 @@ letzter_check: 2026-02-13T23:45:00
 
 
 ## Beschreibung
-Ilmar ist ein Fischer auf [[Siebenwind]], der in den Berichten des [[Siebenwind_Bote_134|[[Siebenwind]] Boten]] erwähnt wird.
+Ilmar ist ein Fischer auf [[Siebenwind]], der in den Berichten des [[Siebenwind_Bote_134|Siebenwind Boten]] erwähnt wird.
 
 ## Quellen
-*   [[Siebenwind_Bote_134]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20134.md)
+*   [[Siebenwind_Bote_134]](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20134.md)

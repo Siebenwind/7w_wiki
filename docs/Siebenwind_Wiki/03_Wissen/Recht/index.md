@@ -8,4 +8,4 @@ Das Archiv der Recht.
 ## Inhalte
 
 ### Artikel
-*   [[Iuribus_Siebenwind|Iuribus [[Siebenwind]]]]
+*   [[Iuribus_Siebenwind|Iuribus Siebenwind]]

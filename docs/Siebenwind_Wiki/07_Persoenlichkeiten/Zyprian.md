@@ -14,7 +14,7 @@ letzter_check: 2026-02-13T23:45:00
 
 
 ## Beschreibung
-Zyprian ist ein Eremit, der im [[Siebenwind_Bote_147|[[Siebenwind]] Boten]] als zurückgezogen lebende Person erwähnt wird.
+Zyprian ist ein Eremit, der im [[Siebenwind_Bote_147|Siebenwind Boten]] als zurückgezogen lebende Person erwähnt wird.
 
 ## Quellen
-*   [[Siebenwind_Bote_147]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20147.md)
+*   [[Siebenwind_Bote_147]](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20147.md)

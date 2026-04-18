@@ -29,7 +29,7 @@ category: Chronik
 - **Dämonenbann:** Ein unsichtbarer Kälte-Dämon am Wall wurde durch ein Ritual (geführt von [[Laylira_Hohentann]], [[Solos_Nhergas]] und [[Maelve_Rhyntarin]]) vernichtet. Beteiligt waren auch [[Malachai]] ([[Morsan]]) und [[Custodias]].
 
 ### Einordnung
-- **Nachwuchs:** [[Lucius_Gropp]] und Khyra bekamen Zwillinge: [[Gropp_Zwillinge|[[Solos_Nadeeda_Laylira]] und Hagen Siegfried Kaspar]].
+- **Nachwuchs:** [[Lucius_Gropp]] und Khyra bekamen Zwillinge: [[Gropp_Zwillinge|Solos Nadeeda Laylira und Hagen Siegfried Kaspar]].
 - **Waisenhaus:** [[Gorem_Motlow]] eröffnete die "Bärenhöhle" in [[Falkensee]] (Hausnr. 13) für Waisenkinder wie [[Milorad]].
 - **Kultur:** Dichterwettstreit in [[Falkensee]]. 1. Platz: [[Jakobus_Pfeiffle]], 2. Platz: [[Hanna_Gropp]], 3. Platz: [[Layna_Rabenstein]].
 - **Festland:** Verbot von "Schatten"-Waffen und dunkelgrauen "Uniformen" der Diebesgilden. Graf [[Feestar_von_Lichtenfeld]] schoss bei der Jagd versehentlich einen Begleiter an.

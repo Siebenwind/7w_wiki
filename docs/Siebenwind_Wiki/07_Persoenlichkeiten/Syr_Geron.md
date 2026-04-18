@@ -14,7 +14,7 @@ letzter_check: 2026-02-13T23:45:00
 
 
 ## Beschreibung
-Syr Geron ist ein Ritter, der in den frühen Ausgaben des [[Siebenwind_Bote_122|[[Siebenwind]] Boten]] erwähnt wird.
+Syr Geron ist ein Ritter, der in den frühen Ausgaben des [[Siebenwind_Bote_122|Siebenwind Boten]] erwähnt wird.
 
 ## Quellen
-*   [[Siebenwind_Bote_122]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20122.md)
+*   [[Siebenwind_Bote_122]](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20122.md)

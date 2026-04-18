@@ -25,4 +25,4 @@ Die **Buergerwehr** wird im [[Personenregister]] als kollektives Subjekt oder Pe
 - [[Personenregister]]
 
 ## Referenzen
-- Primärquelle: [[Siebenwind_Bote_168]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20168.md)
+- Primärquelle: [[Siebenwind_Bote_168]](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20168.md)

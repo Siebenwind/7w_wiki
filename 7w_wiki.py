@@ -557,6 +557,7 @@ def main():
     repair_parser.add_argument("--full", action="store_true", help="Run full non-interactive repair cycle (1-3)")
     repair_parser.add_argument("--fix-roamlinks", action="store_true", help="Aggressively repair unresolved Pages / Roamlinks targets")
     repair_parser.add_argument("--backlog-board", action="store_true", help="Generate cluster-based backlog board and escalation artifacts")
+    repair_parser.add_argument("--backlog-inventory", action="store_true", help="Inventory concrete Pages backlog occurrences without writing artifacts")
     repair_parser.add_argument("--apply-lane1", action="store_true", help="Apply the conservative lane-1 mechanical backlog wave")
     repair_parser.add_argument("--dry-run", action="store_true", help="Preview repair changes without writing files")
     repair_parser.add_argument("--json", action="store_true", help="Emit machine-readable JSON for backlog-oriented repair modes")
@@ -851,6 +852,8 @@ def main():
             repair_args.append("--fix-roamlinks")
         if args.backlog_board:
             repair_args.append("--backlog-board")
+        if args.backlog_inventory:
+            repair_args.append("--backlog-inventory")
         if args.apply_lane1:
             repair_args.append("--apply-lane1")
         if args.dry_run:

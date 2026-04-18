@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T16:28:43Z",
+  "generated_at": "2026-04-18T14:41:01Z",
   "version": 1,
   "items": [
     {
@@ -19,17 +19,6 @@
       "candidates": [
         "Daimonicon",
         "Das_Daimonicon_(Kulin_Lateal)"
-      ],
-      "proposed_decision": "",
-      "reason": "multiple or semantically non-identical canonical target candidates"
-    },
-    {
-      "cluster": "pages_target_ambiguous",
-      "source_page": "docs/Siebenwind_Wiki/03_Wissen/Werke/Lehrbuch_der_Magietheorie_(Toran_Dur).md",
-      "current_target": "Die [[index",
-      "candidates": [
-        "Die_Chronik",
-        "Die_Magie_(Toran_Dur)"
       ],
       "proposed_decision": "",
       "reason": "multiple or semantically non-identical canonical target candidates"

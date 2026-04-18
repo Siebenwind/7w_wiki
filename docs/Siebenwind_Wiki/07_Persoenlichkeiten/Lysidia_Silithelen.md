@@ -25,4 +25,4 @@ report_id: fcfdf15e-fd3a-491c-ae4c-798a1c4d399d
 - [[Personenregister]]
 
 ## Referenzen
-- Primärquelle: [[Siebenwind_Bote_135]](../../Quellen/Zeitung%207w%20Bote/[[Siebenwind]]%20Bote%20135.md)
+- Primärquelle: [[Siebenwind_Bote_135]](../../Quellen/Zeitung%207w%20Bote/Siebenwind%20Bote%20135.md)
