@@ -242,6 +242,10 @@
             "type": "boolean",
             "description": "Generate cluster-based backlog board and escalation artifacts"
           },
+          "backlog_inventory": {
+            "type": "boolean",
+            "description": "Inventory concrete Pages backlog occurrences without writing artifacts"
+          },
           "apply_lane1": {
             "type": "boolean",
             "description": "Apply the conservative lane-1 mechanical backlog wave"
@@ -936,6 +940,30 @@
           "pages": {
             "type": "integer",
             "description": "Number of pages to scan"
+          },
+          "archive_fulltext": {
+            "type": "boolean",
+            "description": "Archive full forum topic text for discovered or selected topics"
+          },
+          "topic_id": {
+            "type": "string",
+            "description": "Archive or inspect one specific forum topic ID"
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Limit fulltext archive attempts in this run"
+          },
+          "dry_run": {
+            "type": "boolean",
+            "description": "Preview fulltext archive writes without changing files"
+          },
+          "max_topic_pages": {
+            "type": "integer",
+            "description": "Maximum topic pages to fetch during fulltext archival"
+          },
+          "json": {
+            "type": "boolean",
+            "description": "Output machine-readable scout results"
           }
         },
         "required": []

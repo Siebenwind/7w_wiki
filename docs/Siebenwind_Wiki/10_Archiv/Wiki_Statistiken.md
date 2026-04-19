@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-04-09 20:18
+**Stand:** 2026-04-19 16:06
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -16,10 +16,10 @@ category: Index
 | Kennzahl | Wert |
 | :--- | :--- |
 | Artikel | **1359** |
-| Worte | **188,197** |
-| Durchschnittliche Artikellaenge | **138 Worte** |
-| Interne Verweise (`[[...]]`) | **13,553** |
-| Vernetzungsdichte | **10.0 Links/Artikel** |
+| Worte | **188,231** |
+| Durchschnittliche Artikellaenge | **139 Worte** |
+| Interne Verweise (`[[...]]`) | **12,866** |
+| Vernetzungsdichte | **9.5 Links/Artikel** |
 | Personenprofile | **586** |
 
 ---
@@ -28,9 +28,9 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Aktive Tage |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 206 | - | 3 |
-| Letzte 30 Tage | 1276 | 3 | 5 |
-| Letzte 90 Tage | 1348 | - | 10 |
+| Letzte 7 Tage | 382 | - | 2 |
+| Letzte 30 Tage | 1304 | 3 | 7 |
+| Letzte 90 Tage | 1348 | - | 12 |
 
 ---
 
@@ -56,11 +56,11 @@ pie title Artikel pro Sektion
 
 | Sektion | Artikel | Ø Worte/Artikel | Ø Links/Artikel |
 | :--- | ---: | ---: | ---: |
-| `01_Pantheon` | 52 | 410 | 12.3 |
-| `06_Erzählungen` | 13 | 326 | 12.7 |
+| `01_Pantheon` | 52 | 410 | 11.2 |
+| `06_Erzählungen` | 13 | 326 | 12.5 |
 | `Root` | 1 | 283 | 1.0 |
-| `05_Magie` | 41 | 277 | 11.4 |
-| `04_Chronik` | 83 | 270 | 32.5 |
+| `05_Magie` | 41 | 276 | 9.8 |
+| `04_Chronik` | 83 | 270 | 31.6 |
 
 
 ---
@@ -70,19 +70,19 @@ pie title Artikel pro Sektion
 ### Starke Knoten (gesamt)
 | Entitaet | Verweise |
 | :--- | ---: |
-| [[Siebenwind]] | 570 |
-| [[Falkensee]] | 533 |
+| [[Falkensee]] | 532 |
+| [[Siebenwind]] | 501 |
 | [[Brandenstein]] | 465 |
 | [[Bellum]] | 165 |
 | [[Astrael]] | 155 |
 | [[Nortraven]] | 144 |
-| [[Toran_Dur]] | 137 |
+| [[Toran_Dur]] | 133 |
 
 
 ### Praegende Persoenlichkeiten
 | Persoenlichkeit | Verweise |
 | :--- | ---: |
-| [[Toran_Dur]] | 137 |
+| [[Toran_Dur]] | 133 |
 | [[Custodias]] | 71 |
 | [[Waldemar_Delarie]] | 54 |
 | [[Dunvallo_Linari]] | 50 |
@@ -94,13 +94,13 @@ pie title Artikel pro Sektion
 ### Praegende Ereignisse
 | Ereignis | Verweise |
 | :--- | ---: |
-| [[Blutschwert]] | 22 |
 | [[Siebenwind_Bote_172]] | 20 |
 | [[Siebenwind_Bote_175]] | 19 |
 | [[Siebenwind_Bote_186]] | 19 |
 | [[Siebenwind_Bote_173]] | 18 |
 | [[Siebenwind_Bote_180]] | 18 |
 | [[Das_Ende_der_Zeit_der_Koenige]] | 17 |
+| [[Der_Putsch_von_Falkensee]] | 17 |
 
 
 ---
@@ -113,7 +113,7 @@ pie title Artikel pro Sektion
 | Aufgeloeste Quellenangabe (`quelle`) | 440/1359 | `###-------` 32.4% |
 | Ingestion Tracking vollstaendig | 55/55 | `##########` 100.0% |
 | Ingestion Reports mit LQS | 53/55 | `##########` 96.4% |
-| `[UNGEKLAERT]`-Marker (gesamt) | 258 | Beobachtung |
+| `[UNGEKLAERT]`-Marker (gesamt) | 259 | Beobachtung |
 
 ## 🔏 Drift & Provenance
 | Kennzahl | Wert |
@@ -144,48 +144,19 @@ pie title Artikel pro Sektion
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 85 |
 | Davon ohne Ausnahme-Metadaten | 0 |
-| Test-Suiten PASS | 29 |
+| Test-Suiten PASS | 0 |
 | Test-Suiten FAIL | 0 |
 
 ### Letzte Test-Suites
 | Suite | Ergebnis | PASS | FAIL | SKIP |
 | :--- | :--- | ---: | ---: | ---: |
-| `adapter-surfaces-contract` | **PASS** | 3 | 0 | 0 |
-| `asset-surface-contract` | **PASS** | 4 | 0 | 0 |
-| `backlog-repair-contract` | **PASS** | 2 | 0 | 0 |
-| `bridge-placeholder-guard` | **PASS** | 2 | 0 | 0 |
-| `catalog-contract` | **PASS** | 2 | 0 | 0 |
-| `clean-client-state` | **PASS** | 8 | 0 | 0 |
-| `codex-workflow-bridges` | **PASS** | 2 | 0 | 0 |
-| `content-contract` | **PASS** | 1 | 0 | 0 |
-| `delegation-policy-contract` | **PASS** | 2 | 0 | 0 |
-| `interop-command-registry` | **PASS** | 1 | 0 | 0 |
-| `interop-doc-links` | **PASS** | 1 | 0 | 0 |
-| `json-interop-contract` | **PASS** | 7 | 0 | 0 |
-| `legacy-doc-contract` | **PASS** | 2 | 0 | 0 |
-| `manifest-contract` | **PASS** | 2 | 0 | 0 |
-| `pages-contract-mode-contract` | **PASS** | 1 | 0 | 0 |
-| `pages-full-smoke` | **PASS** | 1 | 0 | 0 |
-| `pages-link-contract` | **PASS** | 5 | 0 | 0 |
-| `process-dispatch-curiosity` | **PASS** | 1 | 0 | 0 |
-| `reader-stats-contract` | **PASS** | 2 | 0 | 0 |
-| `render-hygiene` | **PASS** | 2 | 0 | 0 |
-| `repo-hygiene-contract` | **PASS** | 3 | 0 | 0 |
-| `root-tree-retirement-contract` | **PASS** | 2 | 0 | 0 |
-| `source-link-hygiene` | **PASS** | 1 | 0 | 0 |
-| `source-tree-contract` | **PASS** | 2 | 0 | 0 |
-| `split-brain-guard` | **PASS** | 2 | 0 | 0 |
-| `styling-surface-contract` | **PASS** | 1 | 0 | 0 |
-| `takeover-handover` | **PASS** | 6 | 0 | 0 |
-| `tool-manifest-contract` | **PASS** | 1 | 0 | 0 |
-| `workflow-matrix-contract` | **PASS** | 2 | 0 | 0 |
 
 
 ## 📍 Fortschritt Live Verfolgen
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_6a649e52-1ea3-4bba-ac2a-15679b680e29.txt`
+- Letzter Audit: `Logs/Archive/Audit_50dbbc23-577f-4c68-8a31-d3f7873fef48.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
 
 ---

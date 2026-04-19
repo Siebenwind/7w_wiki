@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-18T14:41:29Z",
-  "inputs_fingerprint": "d5eb74c028ef873b5ffcf720323cb5f4afda7bb275d7226ff57ac9b18fdb94ea",
+  "generated_at": "2026-04-19T14:43:58Z",
+  "inputs_fingerprint": "d62c41192bf20b757ff77065fc74f1fecd945b395531a1b901e88577ef69b9ad",
   "payload": {
     "index": {
       "01catar": [
@@ -1828,8 +1828,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ilja.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Veridon.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Klauenwoelfe.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/index.md",
-        "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md"
+        "docs/Siebenwind_Wiki/09_Bibliothek/index.md"
       ],
       "bragarim": [
         "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md",
@@ -2837,7 +2836,8 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Nhergas.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Solos_Nhergas.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Waldemar_Delarie.md",
-        "docs/Siebenwind_Wiki/09_Bibliothek/Waldemars_Reise_Papin.md"
+        "docs/Siebenwind_Wiki/09_Bibliothek/Waldemars_Reise_Papin.md",
+        "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md"
       ],
       "derrvusmatrixtheorie": [
         "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",

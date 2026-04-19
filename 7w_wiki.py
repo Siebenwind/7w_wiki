@@ -199,7 +199,7 @@ COMMAND_METADATA = {
     "scout": {
         "summary": "Promoted discovery entrypoint for external source scanning.",
         "context": ".agent/scripts/forum_scanner.py",
-        "json_capable": False,
+        "json_capable": True,
         "supports_run_mode": False,
         "interactive_default": False,
     },
@@ -685,6 +685,12 @@ def main():
     scout_parser = subparsers.add_parser("scout", help="Deep Scan of external forums (allowlisted boards)")
     scout_parser.add_argument("--forum", choices=["bekanntmachungen", "news", "geschichten"], default="bekanntmachungen", help="Target forum")
     scout_parser.add_argument("--pages", type=int, default=3, help="Number of pages to scan")
+    scout_parser.add_argument("--archive-fulltext", action="store_true", help="Archive full forum topic text for discovered or selected topics")
+    scout_parser.add_argument("--topic-id", help="Archive or inspect one specific forum topic ID")
+    scout_parser.add_argument("--limit", type=int, help="Limit fulltext archive attempts in this run")
+    scout_parser.add_argument("--dry-run", action="store_true", help="Preview fulltext archive writes without changing files")
+    scout_parser.add_argument("--max-topic-pages", type=int, default=20, help="Maximum topic pages to fetch during fulltext archival")
+    scout_parser.add_argument("--json", action="store_true", help="Output machine-readable scout results")
 
     # Technician (DevOps)
     tech_parser = subparsers.add_parser("tech", help="Show Technician workflow (DevOps & Infrastructure)")
@@ -1003,7 +1009,20 @@ def main():
             archive_parser.print_help()
 
     elif args.command == "scout":
-        run_script(".agent/scripts/forum_scanner.py", ["--forum-key", args.forum, "--pages", str(args.pages)])
+        scout_args = ["--forum-key", args.forum, "--pages", str(args.pages)]
+        if getattr(args, "archive_fulltext", False):
+            scout_args.append("--archive-fulltext")
+        if getattr(args, "topic_id", None):
+            scout_args.extend(["--topic-id", args.topic_id])
+        if getattr(args, "limit", None) is not None:
+            scout_args.extend(["--limit", str(args.limit)])
+        if getattr(args, "dry_run", False):
+            scout_args.append("--dry-run")
+        if getattr(args, "max_topic_pages", None) is not None:
+            scout_args.extend(["--max-topic-pages", str(args.max_topic_pages)])
+        if getattr(args, "json", False):
+            scout_args.append("--json")
+        run_script(".agent/scripts/forum_scanner.py", scout_args)
 
     elif args.command == "mail":
         if not getattr(args, "mail_cmd", None):

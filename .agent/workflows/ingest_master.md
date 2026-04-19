@@ -16,7 +16,7 @@ Er kombiniert Lese-, Verifikations- und Schreibprozesse (Read-Verify-Write) und 
   - `7w_wiki.py advisor`
   - `7w_wiki.py search <query> --source wiki|quellen|all`
   - `7w_wiki.py repair --check-collision "<Name>"`
-  - `7w_wiki.py ingest <file> [--move-to <dir>]`
+  - `7w_wiki.py ingest <file>`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py mail post --from Ingestor --to <agent|ALL> --subject "<text>" --body "<text>"`
   - `7w_wiki.py archive sync`
@@ -62,15 +62,16 @@ Nutze das **Orakel (`./7w_wiki.py search`)** bei Unklarheiten.
 
 ## 3. Die Produktion (Wiki-Schmied)
 
-Nutze NICHT Einzelschritte, sondern IMMER die Ingest-Pipeline:
+Nutze die Ingest-Pipeline fuer den technischen Abschluss des bearbeiteten Quelldokuments:
 ```bash
-./7w_wiki.py ingest "Quellen/Zielordner/Datei.md" --move-to "docs/Siebenwind_Wiki/Zielordner"
+./7w_wiki.py ingest "docs/Quellen/Zielordner/Datei.md"
 ```
-Diese Pipeline erledigt vollautomatisch:
+Diese Pipeline erledigt derzeit:
 1. **Linting & Styling:** Wendet den Wiki Style Guide an.
-2. **Lore Scoring:** Berechnet den anfänglichen `lore_trust` Score (z.B. 1-10).
-3. **Archive Sync:** Repariert die Index-Symlinks.
-4. **Global Audit:** Prüft das Wiki auf Register-Konsistenz.
+2. **Archive Sync:** Repariert die Index-Symlinks.
+3. **Global Audit:** Prüft das Wiki auf Register-Konsistenz.
+
+Wichtig: Ein dokumentierter `--move-to`-Automatismus ist aktuell nicht Runtime-real. Neue oder geaenderte Wiki-Artikel unter `docs/Siebenwind_Wiki/Zielordner` muessen nach dem Read-Verify-Write-Verfahren gezielt erstellt oder aktualisiert werden; die Quelle bleibt der nachvollziehbare Beleg, nicht automatisch kanonisierte Lore.
 
 ## 4. Abschluss & Register-Synchronisation
 Nach dem `--ingest`:

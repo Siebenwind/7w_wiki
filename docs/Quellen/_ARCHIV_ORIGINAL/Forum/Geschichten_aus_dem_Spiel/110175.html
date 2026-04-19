@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Angriff auf Westhever, Piraten in Sicht und ein Angebot.....</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 19.04.26, 16:39<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=110175&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Angriff auf Westhever, Piraten in Sicht und ein Angebot.....</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=110175"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 1 Beitrag ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=110175&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=110175&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=110175&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p953719"></a>
+				<b class="postauthor">Askahal78&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Angriff auf Westhever, Piraten in Sicht und ein Angebot.....</div><div style="float: right;"><a href="./viewtopic.php?p=953719#p953719"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 4.04.23, 11:21&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 28.02.23, 23:53<br /><b>Beiträge:</b> 95<br /><b>Wohnort:</b> Ingolstadt				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="color: #0000FF">Das Ende der Dunkelheit im zweiten Zyklus des 04. Dular im Jahr 34 nach Hilgorad war gerade gekommen als sich die Hintertür des Ordenshauses in Richtung Kirche öffnete und eine junge Frau in der Uniform der Tempelwache das Gebäude verließ zu ihrem ersten Rundgang des Tages. Sie war noch etwas müde und der Kopf noch nicht vollständig klar nach dem gestrigen Abend als sie zum Vitamafeste entgegen ihrer Gewohnheiten und nach Aufhebung der Regelung mehr als den einen üblichen Humpen Bier getrunken hatte. Die Messe und Feier war genau dass, was sie und wahrscheinlich alle anderen Bürger der Inseln nach den letzten Tagen brauchte. Ablenkung und etwas Ruhe einige Stunden sorgenlos die Zeit verstreichen lassen.</span> <br /><br />Die beiden Tage zuvor waren sehr ereignisreich gewesen. Der Angriff auf Westhever zwei Tage zuvor kam fast aus dem nichts.  Zwar gab Gerüchte über Goblins die gesichtet wurden und einen Schwarzen Ziegenbock der sein Unwesen trieb. Aber das waren lose Geschichten ohne Zusammenhang und man wusste, dass das einfache Volk ob ihres Aberglaubens oftmals mehr sah als tatsächlich vorhanden war. Da wurde der Schatten eines Schafes der sich an die Felswand warf auch mal zu einer reißenden Bestie. In diesem Fall aber waren es keine leeren Hirngespinste. Zwar wurde kein Schwarzer Ziegenbock entdeckt, aber die Goblins waren nur zu Real. Das wirklich wunderliche an der Sache war, dass nicht nur Goblins sondern auch Ferrins und Fischmenschen an dem Angriff beteiligt waren. Die Tatsache dass drei derlei unterschiedliche Rassen gemeinsame Sache machten konnte eigentlich nur bedeuten, dass jemand im Hintergrund die Fäden zog und die Geschöpfe wie auch immer unter seiner Kontrolle hat. <br /><br />Zurück in Brandenstein bekam sie von Edelmut das Angebot welches ihr Leben innerhalb kurzer Zeit in eine völlig andere Bahn katapultierte. Sich der Tempelwache anzuschließen wurde sie gebeten. Es war absolut nicht dass was sie sich für ihr Leben gewünscht hatte. War nicht ihr Ziel nach ihrem Abschied von zu Hause gewesen die beste Schützin der bekannten Welt zu werden ?  Doch als das Angebot im Raum stand und die Worte kaum verklungen waren, fühlte es sich plötzlich richtig an und sie überlegte kaum länger als ein Paar Herzschläge ehe sie das Angebot danken annahm. Ein Teil der Kirche zu sein ist etwas großartiges fand sie und wer weiß wohin dieser Weg noch führen würde. Sollte der Templer Elgbert verschollen bleiben würde sie nach ihrer Vereidigung plötzlich Erste Templerin sein möglicherweise. Eine Ehre von der nicht wenige Krieger ihr Leben lang träumen. Aber ging das eigentlich ? Sie war keine Kriegerin sondern eine Schützin. Wäre es möglich so einen Posten zu erhalten für Sie ? Darüber könnte sie sich zu gegebener Zeit sorgen machen.  <br /><br />Sie waren gerade im Spatzen angekommen und wollten ihren Sieg gebührend feiern als sich Unruhe vom Hafen her ausbreitete und die Feiernden dazu veranlasste Humpen und Speisen stehen zu lassen und sich zum Hafen aufzumachen um nach dem Rechten zu sehen. Der Grund der Unruhe war schnell ausgemacht. Mehrere Schiffe befanden sich auf dem Meer in der Nähe des Hafens. Zwei davon waren aber wohl der Grund für die Unruhe.  Zum einen ein Handelsschiff welches sich auf der Flucht vor einem Dreimaster auf direktem Weg zum Hafen befand. Das andere Schiff war ein Dreimaster unter der Flagge der königlichen Marine. Die Annahme das Kriegsschiff verfolge ein Handelsschiff das mit Piraten oder dergleichen besetzt war sollte sich schon bald aus Falsch herausstellen. Das Handelsschiff legte am Hafen an, das Kriegsschiff jedoch ging außerhalb vor Anker was die Anwesenden mit verdutzen Blicken zurückließ. <br /><br />Nach einem Gespräch mit dem Kapitän des Handelsschiffes stellte sich heraus, dass die mutmaßlichen Piraten sich auf dem Marineschiff befanden welches sie gekapert hatten. So wurde aus dem ruhigen Abend im „Spatzen“ plötzlich eine Verfolgungsjagd zur See.  Die Litheth im Hafen von Brandenstein wurde in aller Eile bereit gemacht. Die Besatzung bis  auf Kapitän Lazalantin ausnahmslos keine ausgebildeten Seeleute gaben ihr Bestes und so dauerte es nicht lange bis das stolze Schiff den Hafen verließ und Jagd auf das gekaperte Schiff machte. Doch die Winde und vielleicht auch die fehlende Erfahrung der Besatzung machten es unmöglich den Dreimaster zu stellen nachdem diese voll im Wind segelten. Zu allem Überfluss flüchtete das Feige Piratenpack sich auch noch in eine jäh aufkommende Nebelbank. Zuvor waren sie allerdings ein Fass über Bord, welches an Bord der Litheth für eine grausige Überraschung sorgen sollte. In dem Fass befand sich die Leiche des ursprünglichen Kaptiäns des Marineschiffs.  Die zahlreichen Wunden die seinen Körper übersäten ließen erahnen dass der sich bis zum letzten Atemzug zur Wehr gesetzt hatte. Zurück in Brandenstein brachte sie zusammen mit Edelmut und Kapitän Lazalantin den Leichnam in die Totenhalle. <br /><br />Am nächsten Tag trat sie ihren Dienst als Anwärterin an und trug zum ersten Mal die Uniform der Templer. Es war erhebendes Gefühl, und doch war sie gleichzeitig voller Demut und Dankbarkeit für diese große Möglichkeit. Mit Aschwin Lotter gab es an diesem Tag sogar noch einen Zweiten Anwärter für die Tempelwache. Am Abend machten sie sich zusammen mit Ihrer Gnaden Edelmut und Seiner Gnaden Myrandhir auf Weg zu Gaisgeach´s Stein. Dort befindet sich ein Heiligtum des Bellum. Nachdem Sie den Nortraven die hier lebten ihre Aufwartung gemacht hatten und den Schrein inspiziert hatten kam plötzlich eine Erzmaga und unterrichtete sie von einem Angriff der Piraten auf Brandenstein. Durch die Hilfe der Erzmaga welche ein Portal für sie öffnete konnten sie rechtzeitig am Hafen in Brandenstein ankommen und den Angriff der Piraten erfolgreich zurückschlagen…………  <br /><br />Soviel geschehen in zwei Tagen dachte sie auf ihrem Rundgang durch die Kirche über den Tempelvorplatz und zurück ins Ordenshaus. Was mag noch auf uns zukommen in den nächsten Wochen und  Monaten. Nur die Götter wissen das, und das ist auch gut so !</div>
+
+											<span class="postbody"><br />_________________<br /><span style="color: #0000FF"><span style="font-size: 150%; line-height: normal"><span style="text-decoration: underline"><span style="font-style: italic"><span style="font-weight: bold"><div align="center">RP ist keine Einbahnstraße</div> </span></span></span></span></span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=43301"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=43301"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=110175&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=110175"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 1 Beitrag ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 13 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=110175"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

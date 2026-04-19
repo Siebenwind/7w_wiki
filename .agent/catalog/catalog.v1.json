@@ -1,6 +1,6 @@
 {
   "version": "catalog.v1",
-  "generated_at": "2026-04-09T18:18:35Z",
+  "generated_at": "2026-04-19T14:43:28Z",
   "runtime": {
     "entrypoint": "./7w_wiki.py",
     "help_json": "./7w_wiki.py --help-json",
@@ -439,7 +439,7 @@
       },
       {
         "name": "repair",
-        "description": "usage: 7w_wiki.py repair [-h] [--auto] [--full] [--fix-roamlinks]\n                         [--backlog-board] [--apply-lane1] [--dry-run]\n                         [--json]",
+        "description": "usage: 7w_wiki.py repair [-h] [--auto] [--full] [--fix-roamlinks]\n                         [--backlog-board] [--backlog-inventory]\n                         [--apply-lane1] [--dry-run] [--json]",
         "arguments": [
           {
             "name": "auto",
@@ -483,6 +483,18 @@
               "--backlog-board"
             ],
             "help": "Generate cluster-based backlog board and escalation artifacts",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "backlog_inventory",
+            "flags": [
+              "--backlog-inventory"
+            ],
+            "help": "Inventory concrete Pages backlog occurrences without writing artifacts",
             "required": false,
             "type": "boolean",
             "kind": "flag",
@@ -1434,7 +1446,7 @@
       },
       {
         "name": "scout",
-        "description": "usage: 7w_wiki.py scout [-h] [--forum {bekanntmachungen,news,geschichten}]\n                        [--pages PAGES]",
+        "description": "usage: 7w_wiki.py scout [-h] [--forum {bekanntmachungen,news,geschichten}]\n                        [--pages PAGES] [--archive-fulltext]\n                        [--topic-id TOPIC_ID] [--limit LIMIT] [--dry-run]\n                        [--max-topic-pages MAX_TOPIC_PAGES] [--json]",
         "arguments": [
           {
             "name": "forum",
@@ -1462,11 +1474,78 @@
             "type": "integer",
             "kind": "option",
             "default": 3
+          },
+          {
+            "name": "archive_fulltext",
+            "flags": [
+              "--archive-fulltext"
+            ],
+            "help": "Archive full forum topic text for discovered or selected topics",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "topic_id",
+            "flags": [
+              "--topic-id"
+            ],
+            "help": "Archive or inspect one specific forum topic ID",
+            "required": false,
+            "type": "string",
+            "kind": "option"
+          },
+          {
+            "name": "limit",
+            "flags": [
+              "--limit"
+            ],
+            "help": "Limit fulltext archive attempts in this run",
+            "required": false,
+            "type": "integer",
+            "kind": "option"
+          },
+          {
+            "name": "dry_run",
+            "flags": [
+              "--dry-run"
+            ],
+            "help": "Preview fulltext archive writes without changing files",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
+          },
+          {
+            "name": "max_topic_pages",
+            "flags": [
+              "--max-topic-pages"
+            ],
+            "help": "Maximum topic pages to fetch during fulltext archival",
+            "required": false,
+            "type": "integer",
+            "kind": "option",
+            "default": 20
+          },
+          {
+            "name": "json",
+            "flags": [
+              "--json"
+            ],
+            "help": "Output machine-readable scout results",
+            "required": false,
+            "type": "boolean",
+            "kind": "flag",
+            "default": false,
+            "nargs": 0
           }
         ],
         "summary": "Promoted discovery entrypoint for external source scanning.",
         "context": ".agent/scripts/forum_scanner.py",
-        "json_capable": false,
+        "json_capable": true,
         "supports_run_mode": false,
         "interactive_default": false
       },
@@ -2031,6 +2110,8 @@
           "7w_wiki.py scout --forum bekanntmachungen --pages 3",
           "7w_wiki.py scout --forum news --pages 3",
           "7w_wiki.py scout --forum geschichten --pages 5",
+          "7w_wiki.py scout --forum geschichten --archive-fulltext --limit 5 --json",
+          "7w_wiki.py scout --forum geschichten --topic-id <id> --archive-fulltext --json",
           "7w_wiki.py mail post --from Scout --to Ingestor --subject \"<source lead>\" --body \"<summary>"
         ],
         "method_only": [],
@@ -2038,6 +2119,8 @@
         "followup_commands": [
           "7w_wiki.py scout --forum news --pages 3",
           "7w_wiki.py scout --forum geschichten --pages 5",
+          "7w_wiki.py scout --forum geschichten --archive-fulltext --limit 5 --json",
+          "7w_wiki.py scout --forum geschichten --topic-id <id> --archive-fulltext --json",
           "7w_wiki.py mail post --from Scout --to Ingestor --subject \"<source lead>\" --body \"<summary>"
         ],
         "adapter_targets": [
@@ -2146,7 +2229,7 @@
           "7w_wiki.py advisor",
           "7w_wiki.py search <query> --source wiki|quellen|all",
           "7w_wiki.py repair --check-collision \"<Name>",
-          "7w_wiki.py ingest <file> [--move-to <dir>]",
+          "7w_wiki.py ingest <file>",
           "7w_wiki.py mail inbox --status OPEN",
           "7w_wiki.py mail post --from Ingestor --to <agent|ALL> --subject \"<text>\" --body \"<text>",
           "7w_wiki.py archive sync"
@@ -2950,6 +3033,8 @@
           "followup_commands": [
             "./7w_wiki.py scout --forum news --pages 3",
             "./7w_wiki.py scout --forum geschichten --pages 5",
+            "./7w_wiki.py scout --forum geschichten --archive-fulltext --limit 5 --json",
+            "./7w_wiki.py scout --forum geschichten --topic-id <id> --archive-fulltext --json",
             "./7w_wiki.py mail post --from Scout --to Ingestor --subject \"<source lead>\" --body \"<summary>"
           ],
           "instructions": [
@@ -3053,7 +3138,7 @@
           "title": "Workflow: `/forum_search` (Forum-Quellenjagd)",
           "description": "Systematische Forum-Quellensuche fuer neue ingestierbare Quellen (/forum_search)",
           "source_path": ".agent/workflows/forum_search.md",
-          "prompt": "Use the canonical Siebenwind workflow `forum_search`.\nRuntime authority remains `./7w_wiki.py`.\nPrimary command: `./7w_wiki.py scout --forum bekanntmachungen --pages 3`.\nFollow-up commands:\n- `./7w_wiki.py scout --forum news --pages 3`\n- `./7w_wiki.py scout --forum geschichten --pages 5`\n- `./7w_wiki.py mail post --from Scout --to Ingestor --subject \"<source lead>\" --body \"<summary>`\nInterop note: Spezialisierter Betriebsweg fuer forum-basierte Quellenjagd; der promoted Umbrella-Workflow `/scout` bleibt fuer breitere Discovery zustaendig."
+          "prompt": "Use the canonical Siebenwind workflow `forum_search`.\nRuntime authority remains `./7w_wiki.py`.\nPrimary command: `./7w_wiki.py scout --forum bekanntmachungen --pages 3`.\nFollow-up commands:\n- `./7w_wiki.py scout --forum news --pages 3`\n- `./7w_wiki.py scout --forum geschichten --pages 5`\n- `./7w_wiki.py scout --forum geschichten --archive-fulltext --limit 5 --json`\n- `./7w_wiki.py scout --forum geschichten --topic-id <id> --archive-fulltext --json`\n- `./7w_wiki.py mail post --from Scout --to Ingestor --subject \"<source lead>\" --body \"<summary>`\nInterop note: Spezialisierter Betriebsweg fuer forum-basierte Quellenjagd; der promoted Umbrella-Workflow `/scout` bleibt fuer breitere Discovery zustaendig."
         },
         {
           "id": "handover",
