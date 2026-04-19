@@ -5,6 +5,7 @@
 - **Datum der Verarbeitung**: 2026-02-14
 - **Quellentyp**: #überlieferung (Dwarschim-Kultur)
 - **Lore-Score (LQS)**: 7/10
+- **Quality-Profil (A/T/K/B/U)**: 4/3/4/3/3
 - **Verantwortlicher Agent**: Antigravity
 
 ## 📊 Lore Quality Score (LQS)

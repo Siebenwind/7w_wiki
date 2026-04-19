@@ -558,18 +558,16 @@
     "type": "function",
     "function": {
       "name": "cli_ingest",
-      "description": "Run the ingest pipeline for one file.",
+      "description": "Run ingestion workflows, including forum queue, inspection, drafting, finalization, and legacy technical checks.",
       "parameters": {
         "type": "object",
         "properties": {
-          "file": {
+          "args": {
             "type": "string",
-            "description": "Path to the markdown file to ingest"
+            "description": "Ingest command arguments or legacy markdown file"
           }
         },
-        "required": [
-          "file"
-        ]
+        "required": []
       }
     }
   },

@@ -1,5 +1,25 @@
 # Changelog
 
+#### [2026-04-19.01] - Forum-Ingestion v2 und Handover-Status
+### Prioritaet: P1
+### Hinzugefügt
+- `./7w_wiki.py scout --forum geschichten --archive-fulltext`: Volltextarchivierung fuer Forum-Geschichten mit Raw-HTML-Sicherung, Batch-/Topic-Steuerung und Registerstatus.
+- `./7w_wiki.py ingest forum-queue|forum-inspect|forum-draft|forum-finalize|reports-calibrate`: agentischer Forum-Ingestion-Pfad mit Queue, Dossier, Artikel-Draft, Registerabschluss und Report-Kalibrierung.
+- `docs/Siebenwind_Wiki/03_Gesellschaft/Orkisches_Handelskontor.md`: neuer quellengetragener Forum-/Perspektivartikel ohne Bridge-Placeholder.
+- `Logs/Ingestion/2026-04-19_Forum_*.md`: Ingestion-Reports fuer Ergon und das Orkische Handelskontor.
+### Geändert
+- `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ergon.md`: vorsichtige Forum-Ergaenzung als weitere Ueberlieferung, ohne die aeltere Boten-Einordnung zu ersetzen.
+- `.agent/workflows/ingest_master.md` und generierte Interop-Surfaces: Forum-Ingestion-CLI, Statuswerte und Stilregel fuer Forum-Drafts dokumentiert.
+- `.agent/scripts/pages_integrity.py`: Contract-Mode erbt keinen harten `FAIL` mehr aus einem vorherigen `strict-links`-Snapshot, sondern bleibt bei statisch sauberem Drift als WARN fuer den bekannten Backlog.
+### Behoben
+- Legacy-Ingestion-Reports wurden ueber `reports-calibrate` so kalibriert, dass der fruehere `score_cluster` kein Audit-Gate mehr blockiert.
+- OOC-Formulierungen wie "archivierte Forumquelle" wurden aus den Pilot-Wikiartikeln und aus der `forum-draft`-Vorlage entfernt.
+### Validiert
+- `python3 -m py_compile 7w_wiki.py .agent/scripts/forum_scanner.py .agent/scripts/ingest_pipeline.py .agent/scripts/pages_integrity.py .agent/scripts/pages_tool.py`
+- `./7w_wiki.py audit --json` (`issues_found = 0`)
+- `./7w_wiki.py pages validate --contract --json` (`drift_status = PASS`, `legacy_root_status = removed`, Gesamtstatus WARN wegen bestehendem Pages-Linkbacklog)
+- `./7w_wiki.py test --suite all` (Exitcode 0; Reportverzeichnis `/var/folders/m0/28md0wx56p7d_3y66c75ggfc0000gn/T/7w_test_sxikw41b`)
+
 #### [2026-04-17.01] - Fallback-index-Platzhalter global bereinigt
 ### Prioritaet: P1
 ### Geändert

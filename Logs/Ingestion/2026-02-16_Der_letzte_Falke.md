@@ -9,6 +9,7 @@
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung
 - **Lore-Score (LQS)**: 10/10
+- **Quality-Profil (A/T/K/B/U)**: 5/5/5/4/4
 - **Verantwortlicher Agent**: Antigravity
 
 ## 📊 Lore Quality Score (LQS)

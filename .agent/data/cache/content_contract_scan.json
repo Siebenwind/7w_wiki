@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-19T14:14:50Z",
-  "inputs_fingerprint": "29ae4eac3679a43fefa464549c4a183ce303477c594ecb7b51ccbf2e6abbbc7e",
+  "generated_at": "2026-04-19T17:52:00Z",
+  "inputs_fingerprint": "073e9b02198dfa846c0d36a809e3f262efb062ee3f87b9d003d7d18702533511",
   "payload": {
     "bridge_inventory": {
       "invalid": 0,
@@ -7507,6 +7507,28 @@
         "changes": [],
         "meta": {
           "category": "Gesellschaft",
+          "epistemic": "\"#forum #perspektive\"",
+          "lore_trust": "4",
+          "quelle": "\"../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_das_orkische_handelskontor.md\"",
+          "report_id": "20cf5fd3-264c-440f-902a-7fcc12a4c35a",
+          "status": "gepflegt",
+          "title": "Orkisches Handelskontor",
+          "updated_at": "\"2026-04-19T15:30:32Z\"",
+          "uuid": "19c1e188-844d-4a5c-8ea0-afae306d0725"
+        },
+        "path": "docs/Siebenwind_Wiki/03_Gesellschaft/Orkisches_Handelskontor.md"
+      },
+      {
+        "analysis": {
+          "bridge_status": "none",
+          "classification": "article",
+          "duplicates": [],
+          "has_frontmatter": true,
+          "stub_status": "none"
+        },
+        "changes": [],
+        "meta": {
+          "category": "Gesellschaft",
           "quelle": "../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_174.md",
           "status": "Bote",
           "title": "Pakt der Viereinigkeit"
@@ -14701,7 +14723,14 @@
         "changes": [],
         "meta": {
           "category": "Personen",
-          "title": "Ergon"
+          "epistemic": "\"#bote #forum\"",
+          "lore_trust": "4",
+          "quelle": "\"../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ergon_und_der_duft_des_herbstes.md\"",
+          "report_id": "1343d38d-fcf5-4dc0-ad2e-878758ab0bb1",
+          "status": "gepflegt",
+          "title": "Ergon",
+          "updated_at": "\"2026-04-19T15:30:32Z\"",
+          "uuid": "a9979560-a1f3-43f9-bee2-983b0e1ec8c5"
         },
         "path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ergon.md"
       },
@@ -22937,7 +22966,7 @@
     "render_hygiene": {
       "issues": 0
     },
-    "scanned_files": 1360,
+    "scanned_files": 1361,
     "split_brain": {
       "files": [],
       "issues": 0

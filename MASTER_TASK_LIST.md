@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-04-17 (Codex → Next Agent)
-- **Status**: Der technische Root-/Pages-Drift bleibt geschlossen (`legacy_root_status = removed`, `bridge_inventory.invalid = 0`). In dieser Session wurde `RESEARCH-2026-018` operativ ohne Oracle/RAG-Funktionalitaet abgearbeitet: alle exakten `[[index]]`-Platzhalter in `docs/Siebenwind_Wiki/` wurden durch kontextnahe Klartextbegriffe, kanonische Links oder `[UNGEKLÄRT]` ersetzt. `audit --json` zeigt weiterhin `0 contract_violations` und nur den bekannten `score_cluster`. `pages validate --json` bestaetigt `source-link-hygiene` als PASS, scheitert aber weiter am bekannten Audit-Precheck; `pages validate --contract --json` bleibt WARN wegen des breiteren bestehenden unresolved-Linkbacklogs (`635` unresolved, `633` unallowlisted, `621 needs_historian`), nicht wegen `[[index]]`.
+- **Last Handover**: 2026-04-19 (Codex → Next Agent)
+- **Status**: Forum-Geschichten sind von metadata-only zu einem agentischen Ingestion-v2-Pfad gehoben: `scout --archive-fulltext`, `ingest forum-queue/forum-inspect/forum-draft/forum-finalize` und `reports-calibrate` existieren; Ergon wurde als Update-Pilot integriert und das Orkische Handelskontor als quellengetragener neuer Artikel angelegt. `audit --json` meldet `issues_found = 0`; `pages validate --contract --json` bleibt wegen des bestehenden Pages-Linkbacklogs WARN (`629` unresolved, `627` unallowlisted, `616 needs_historian`), nicht wegen Drift oder Audit-Gates.
 
 ---
 
@@ -17,6 +17,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] **Zeitstrahl Structural Repair**: `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md` wurde von einem strukturell korrumpierten Mischdokument auf eine kompakte Chronik-Uebersicht mit Verweisen auf `Historie & Aeren` und `Zeitleiste (15-30 n.H.)` zurueckgefuehrt.
 
 - [ ] **Semantic Pages Backlog Triage**: `advisor --json` zeigt trotz technischem Drift-Fix weiter `Pages WARN` mit `637` unresolved Targets (`625 needs_historian`, `5 generic_term_conflict`). Der naechste Agent soll die bestehenden Board-/Backlog-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) als Arbeitsgrundlage verwenden und die semantische Begriffsarbeit strikt von mechanischen Reparaturen trennen.
+
+- [x] **Forum-Ingestion v2 Pilot**: Die Forum-Volltextarchivierung und agentische Verarbeitung sind als Runtime-Pfad umgesetzt. Zwei Pilotquellen sind integriert (`Ergon` als Update, `Orkisches Handelskontor` als Neuanlage), das Forumregister bleibt bei `201` Eintraegen mit `2 integrated`, und die Draft-Stilregel verhindert kuenftig OOC-Formulierungen im Artikelkoerper.
 
 - [x] **Fallback `[[index]]`-Platzhalterbereinigung**: Das Orakel/RAG war fuer diese Session nicht funktionstuechtig; die Bereinigung wurde deshalb ueber direkte `rg`-Suchen, Kontextlektüre und konservative Klartext-Ersetzungen durchgefuehrt. Ergebnis: `rg "\[\[index\]\]" docs/Siebenwind_Wiki -g '*.md'` findet keine Treffer mehr; unklare Stellen wurden nicht erfunden, sondern mit `[UNGEKLÄRT]` markiert.
 
@@ -66,6 +68,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] **[MSG-2026-0034]** [P2][DEV] Workflow-Execute-Mode + Alias advisor: Integration von `--run` für start/takeover/handover und Alias-Normierung.
 - [x] **[MSG-2026-0040]** Test Suite Status: Tests in `/tmp` entkoppelt und JSON-Verträge etabliert.
 - [ ] **Massen-Ingestion**: Integration der verbleibenden Quellen (Status `Pending`).
+- [ ] **Forum-Queue Batchweise verarbeiten**: Nach den zwei Piloten weitere volltextarchivierte Forumquellen ueber `ingest forum-queue`, `forum-inspect`, `forum-draft` und `forum-finalize` bearbeiten. Neue Artikel sind erlaubt, wenn die Quelle eigenstaendig genug ist und der Artikel ohne erfundene Lore auskommt.
 - [ ] **Lore Research Board**: Abarbeitung der offenen Ausschreibungen (Angamon, Ödland).
 
 ## 🔬 Aktuelle Lore-Ausschreibungen (Research Board)

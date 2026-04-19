@@ -6,7 +6,7 @@
     "sources": "Quellen",
     "wiki": "docs/Siebenwind_Wiki"
   },
-  "generated_at": "2026-04-19T17:52:00Z",
+  "generated_at": "2026-04-19T17:49:43Z",
   "items": [
     {
       "activity": "scan_contract",
@@ -17667,8 +17667,8 @@
       "agent": "content_contract",
       "bridge_status": "none",
       "classification": "article",
-      "content_hash": "3ce42a1c13e993e840696e5cb0a9aadcd19ab4a86ed221bbc3e4192ae6035419",
-      "modified_at": "2026-04-19T17:51:57Z",
+      "content_hash": "c0540a04f6a0eb7be43e07b89614fcbe1b043340199277c8ddf902d28e6cfd04",
+      "modified_at": "2026-04-19T14:06:49Z",
       "path": "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md",
       "review_until": null,
       "source_tree": "wiki",

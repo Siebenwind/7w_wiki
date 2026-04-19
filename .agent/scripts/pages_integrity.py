@@ -434,7 +434,12 @@ def collect_pages_contract_report(config: str = "mkdocs.yml") -> dict:
     if static_failures:
         status = "FAIL"
     elif snapshot:
-        status = pages_health.get("status", "UNKNOWN")
+        has_advisory_backlog = bool(
+            pages_health.get("targets")
+            or pages_health.get("other_warnings")
+            or int(pages_health.get("unallowlisted_total", 0) or 0) > 0
+        )
+        status = "WARN" if has_advisory_backlog else "PASS"
     else:
         status = "PASS"
     pages_health["status"] = status

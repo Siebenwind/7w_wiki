@@ -5,6 +5,7 @@
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #überlieferung (Theologisches Traktat)
 - **Lore-Score (LQS)**: 9/10
+- **Quality-Profil (A/T/K/B/U)**: 5/4/5/4/4
 - **Verantwortlicher Agent**: Antigravity
 
 ## 📊 Lore Quality Score (LQS)

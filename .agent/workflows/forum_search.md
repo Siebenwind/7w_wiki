@@ -14,6 +14,8 @@ description: Systematische Forum-Quellensuche fuer neue ingestierbare Quellen (/
   - `7w_wiki.py scout --forum geschichten --pages 5`
   - `7w_wiki.py scout --forum geschichten --archive-fulltext --limit 5 --json`
   - `7w_wiki.py scout --forum geschichten --topic-id <id> --archive-fulltext --json`
+  - `7w_wiki.py ingest forum-queue --json`
+  - `7w_wiki.py ingest forum-inspect --source <quellen-md> --json`
   - `7w_wiki.py mail post --from Scout --to Ingestor --subject "<source lead>" --body "<summary>"`
 - method_only:
 - matrix_status: executable
@@ -26,6 +28,8 @@ description: Systematische Forum-Quellensuche fuer neue ingestierbare Quellen (/
   - `7w_wiki.py scout --forum geschichten --pages 5`
   - `7w_wiki.py scout --forum geschichten --archive-fulltext --limit 5 --json`
   - `7w_wiki.py scout --forum geschichten --topic-id <id> --archive-fulltext --json`
+  - `7w_wiki.py ingest forum-queue --json`
+  - `7w_wiki.py ingest forum-inspect --source <quellen-md> --json`
   - `7w_wiki.py mail post --from Scout --to Ingestor --subject "<source lead>" --body "<summary>"`
 - adapter_targets:
   - `codex:workflow_forum_search`
@@ -56,25 +60,31 @@ Standard-Tiefe: `--pages 3`, fuer Geschichten-Boards `--pages 5`
    - kein gleichwertiger Quelldatensatz bereits in `Quellen/Forum/...` vorhanden ist,
    - der Titel nicht nur ein Dublett mit leicht abweichender Schreibweise ist,
    - der Fund inhaltlich über bloße UI-/Forenrauschsignale hinausgeht.
-5. Geschichten-Funde werden zunaechst nur als forumnahe Rohquelle archiviert; keine direkte Voll-Ingestion im Scout-Schritt.
+5. Geschichten-Funde werden zunaechst nur als forumnahe Rohquelle archiviert; keine direkte Wiki-Produktion im Scout-Schritt.
    - Metadatenlauf: `./7w_wiki.py scout --forum geschichten --pages 5`
    - Volltext-Pilot: `./7w_wiki.py scout --forum geschichten --topic-id <id> --archive-fulltext --json`
    - Volltext-Batch: `./7w_wiki.py scout --forum geschichten --archive-fulltext --limit 5 --json`
    - Dry-Run vor groesseren Batches: `--dry-run --json`
    - Raw HTML wird unter `docs/Quellen/_ARCHIV_ORIGINAL/Forum/...` sessionbereinigt abgelegt; lesbare Quellen entstehen unter `docs/Quellen/Forum/...`.
-6. Route nur dann an Historian oder Mensch weiter, wenn Eskalationskriterien greifen:
+6. Uebergib verarbeitbare Volltexte an den Ingest-Pfad:
+   - Queue: `./7w_wiki.py ingest forum-queue --json`
+   - Einzelfall: `./7w_wiki.py ingest forum-inspect --source <quellen-md> --json`
+   - Der Ingest-Pfad entscheidet zwischen `update_existing`, `create_article`, `archive_only`, `historian_required` und `human_escalation_required`.
+7. Route nur dann an Historian oder Mensch weiter, wenn Eskalationskriterien greifen:
    - groessere fachliche Unklarheit
    - fehlende Zweitstuetze fuer starke Behauptungen
    - Quellenwiderspruch oder Kanonkorrektur
    - konkurrierende belastbare Lesarten
+   - Menschliche Sichtung ist Eskalation, nicht der Default fuer jede Forumquelle.
 
 ## 3. Hand-off und Routing
 
 Wenn neue Quellenkandidaten gefunden wurden:
 1. Fasse Board, Topic-ID, Titel und Relevanz in einem kurzen Dispatch zusammen.
-2. Bei Volltextlaeufen den JSON-Handoff aus `ready_for_ingestion`, `requires_historian_review` und `errors` in den Dispatch uebernehmen.
-3. Sende `./7w_wiki.py mail post --from Scout --to Ingestor --subject "<source lead>" --body "<summary>"`.
-4. Wenn der Fund operativ nicht sauber loesbar ist, route question-first an Historian; nur echte Kontroversen gehen weiter an den Menschen.
+2. Bei Volltextlaeufen den JSON-Handoff aus `ready_for_ingestion` und `errors` in den Dispatch uebernehmen.
+3. Fuer archivierte Volltexte zusaetzlich `ingest forum-queue --json` ausfuehren und die empfohlenen Aktionen nennen.
+4. Sende `./7w_wiki.py mail post --from Scout --to Ingestor --subject "<source lead>" --body "<summary>"`.
+5. Wenn der Fund operativ nicht sauber loesbar ist, route question-first an Historian; nur echte Kontroversen gehen weiter an den Menschen.
 
 ## 4. Wann stattdessen `/scout`?
 

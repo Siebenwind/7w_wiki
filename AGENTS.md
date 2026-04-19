@@ -79,7 +79,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `sanitize [target]` | Normalize structure, H1 usage, and frontmatter. | `.agent/scripts/wiki_sanitizer.py` |
 | `lint [target]` | Run the combined lint pipeline. | `.agent/scripts/lint_tool.py` |
 | `score <file>` | Calculate Lore Quality Score for one markdown file. | `.agent/scripts/lore_score_manager.py` |
-| `ingest <file>` | Run the ingest pipeline for one file. | `.agent/scripts/ingest_pipeline.py` |
+| `ingest [args...]` | Run ingestion workflows, including forum queue, inspection, drafting, finalization, and legacy technical checks. | `.agent/scripts/ingest_pipeline.py` |
 | `translate [args...]` | Translate Falandric texts or manage dictionaries. | `.agent/scripts/translator.py` |
 | `watch` | Start the live watcher for index updates. | `.agent/scripts/watcher.py` |
 | `package` | Build archive-first install bundles for supported platforms. | `.agent/scripts/package_tool.py` |

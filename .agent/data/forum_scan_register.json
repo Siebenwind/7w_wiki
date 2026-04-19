@@ -65,7 +65,14 @@
       ],
       "post_count": 1,
       "fulltext_archived_at": "2026-04-19T14:38:31Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ergon.md",
+      "ingestion_report": "Logs/Ingestion/2026-04-19_Forum_ergon_und_der_duft_des_herbstes.md",
+      "integrated_at": "2026-04-19T15:32:29Z"
     },
     {
       "board": "geschichten",
@@ -103,7 +110,14 @@
       ],
       "post_count": 1,
       "fulltext_archived_at": "2026-04-19T14:38:32Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/03_Gesellschaft/Orkisches_Handelskontor.md",
+      "ingestion_report": "Logs/Ingestion/2026-04-19_Forum_das_orkische_handelskontor.md",
+      "integrated_at": "2026-04-19T15:32:29Z"
     },
     {
       "board": "geschichten",

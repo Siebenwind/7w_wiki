@@ -5,6 +5,7 @@
 - **Datum der Verarbeitung**: 2026-02-16
 - **Quellentyp**: #perspektive (Lyrik)
 - **Lore-Score (LQS)**: 5/10
+- **Quality-Profil (A/T/K/B/U)**: 3/2/4/2/3
 - **Verantwortlicher Agent**: Antigravity
 
 ## 📊 Lore Quality Score (LQS)

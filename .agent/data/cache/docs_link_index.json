@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-19T14:43:58Z",
-  "inputs_fingerprint": "d62c41192bf20b757ff77065fc74f1fecd945b395531a1b901e88577ef69b9ad",
+  "generated_at": "2026-04-19T17:51:59Z",
+  "inputs_fingerprint": "6bafac369c6ceb829fbe7be19d595c873128c6c7a2767494b899746b07d61b72",
   "payload": {
     "index": {
       "01catar": [
@@ -1906,6 +1906,7 @@
         "docs/Siebenwind_Wiki/03_Gesellschaft/Hafengilde_Brandenstein.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Inselrat.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Nortraven.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Orkisches_Handelskontor.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Pakt_der_Viereinigkeit.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Terra_Dorotor.md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/De_Magica_Angamoniensis_(Kalveron_Dai).md",
@@ -5598,6 +5599,7 @@
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 180.md",
         "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
         "docs/Siebenwind_Wiki/02_Geografie/Rohehafen.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Orkisches_Handelskontor.md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Forschungsberichte_(Toran_Dur).md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_120.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md",
@@ -5920,6 +5922,7 @@
       ],
       "hafengildebrandenstein": [
         "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Orkisches_Handelskontor.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/index.md"
       ],
       "hagenrobaar": [
@@ -6406,6 +6409,7 @@
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Erlass_des_Koenigs.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ergon.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Felis_Andras.md"
       ],
       "hochelfen": [
@@ -8919,6 +8923,7 @@
       "oger": [
         "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md",
         "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Orkisches_Handelskontor.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Riesen.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/index.md"
       ],
@@ -9143,6 +9148,7 @@
         "docs/Siebenwind_Wiki/03_Gesellschaft/Halblinge.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Menschen.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Nortraven.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Orkisches_Handelskontor.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Zwerge.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Voelker_(Garreth_Moss).md",

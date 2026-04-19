@@ -17,6 +17,11 @@ Er kombiniert Lese-, Verifikations- und Schreibprozesse (Read-Verify-Write) und 
   - `7w_wiki.py search <query> --source wiki|quellen|all`
   - `7w_wiki.py repair --check-collision "<Name>"`
   - `7w_wiki.py ingest <file>`
+  - `7w_wiki.py ingest forum-queue --json`
+  - `7w_wiki.py ingest forum-inspect --source <quellen-md> --json`
+  - `7w_wiki.py ingest forum-draft --source <quellen-md> --action update|create --target <wiki-md> --dry-run|--apply --json`
+  - `7w_wiki.py ingest forum-finalize --source <quellen-md> --target <wiki-md> --report <report-md> --status integrated --json`
+  - `7w_wiki.py ingest reports-calibrate --dry-run|--apply --json`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py mail post --from Ingestor --to <agent|ALL> --subject "<text>" --body "<text>"`
   - `7w_wiki.py archive sync`
@@ -62,6 +67,38 @@ Nutze das **Orakel (`./7w_wiki.py search`)** bei Unklarheiten.
 
 ## 3. Die Produktion (Wiki-Schmied)
 
+Fuer archivierte Forumquellen ist der Runtime-Pfad agentisch:
+1. `./7w_wiki.py ingest forum-queue --json` zeigt den Arbeitsvorrat und die empfohlene Aktion.
+2. `./7w_wiki.py ingest forum-inspect --source <quellen-md> --json` prueft Zielkandidaten und Risiken.
+3. Bei sauberer Lage erstellt oder aktualisiert der Wiki-Schmied den Artikel mit:
+   - `forum-draft --action update --target <bestehender artikel> --apply`
+   - `forum-draft --action create --target <neuer artikel> --apply`
+4. `forum-finalize` schreibt Registerstatus, Report-Verweis und Integrationsnachweis.
+
+Neue Wiki-Artikel sind erlaubt, wenn die Quelle volltextarchiviert ist, kein kanonischer Zielartikel existiert, der Gegenstand eigenstaendig genug ist und der Artikel ohne erfundene Lore geschrieben werden kann. Forumquellen behalten eine niedrige epistemische Markierung (`#forum`, `#perspektive`). Menschliche Pruefung ist nur bei echter Kanonentscheidung, unloesbarem Widerspruch oder niedriger Evidenz erforderlich.
+
+Stilregel fuer Forum-Drafts: Der Artikelkoerper bleibt im Wiki-Ton. Technische Hinweise wie "archivierte Forumquelle", Raw-HTML-Status oder Registerlogik gehoeren in Frontmatter, Referenzen und Ingestion-Report, nicht in die Beschreibung. Im Fliesstext werden niedrigere Quellenlagen als "Erzaehlueberlieferung", "weitere Ueberlieferung" oder mit sachlicher Distanz formuliert; die epistemische Markierung bleibt ueber Metadaten sichtbar.
+
+### Forum-Ingestion CLI-Referenz
+
+```bash
+./7w_wiki.py ingest forum-queue --json [--status fulltext_archived|integrated] [--limit N]
+./7w_wiki.py ingest forum-inspect --source docs/Quellen/Forum/.../<datei>.md --json
+./7w_wiki.py ingest forum-draft --source docs/Quellen/Forum/.../<datei>.md --action update --target docs/Siebenwind_Wiki/.../<ziel>.md --dry-run --json
+./7w_wiki.py ingest forum-draft --source docs/Quellen/Forum/.../<datei>.md --action create --target docs/Siebenwind_Wiki/.../<neuer_artikel>.md --apply --json
+./7w_wiki.py ingest forum-finalize --source docs/Quellen/Forum/.../<datei>.md --target docs/Siebenwind_Wiki/.../<ziel>.md --report Logs/Ingestion/<report>.md --status integrated --json
+./7w_wiki.py ingest reports-calibrate --dry-run --json
+```
+
+Status- und Aktionswerte:
+- `metadata_only`: nur Metadatenquelle vorhanden; zuerst `scout --archive-fulltext` nutzen.
+- `fulltext_archived`: Volltext und Raw HTML vorhanden; bereit fuer `forum-inspect`.
+- `update_existing`: vorhandener Zielartikel ist wahrscheinlich.
+- `create_article`: eigenstaendige Neuanlage ist moeglich.
+- `historian_required`: erst agentische Historikerpruefung.
+- `human_escalation_required`: nur bei echter Kanonentscheidung.
+- `integrated`: Quelle ist mit Zielseite und Ingestion-Report abgeschlossen.
+
 Nutze die Ingest-Pipeline fuer den technischen Abschluss des bearbeiteten Quelldokuments:
 ```bash
 ./7w_wiki.py ingest "docs/Quellen/Zielordner/Datei.md"
@@ -75,12 +112,13 @@ Wichtig: Ein dokumentierter `--move-to`-Automatismus ist aktuell nicht Runtime-r
 
 ## 4. Abschluss & Register-Synchronisation
 Nach dem `--ingest`:
-1. **Register manuell nachziehen**: Aktualisiere `Personenregister.md`, `Organisationsregister.md`, etc. basierend auf den Entitäten, die du im Text gefunden hast.
-2. **Logging [PFLICHT]**: Erstelle in `Logs/Ingestion/` einen Tracking-Report.
+1. **Register nachziehen**: Fuer Forumquellen erledigt `forum-finalize` das Quellenregister; fachliche Register wie `Personenregister.md` oder Organisationsseiten werden nur aktualisiert, wenn der neue Inhalt dies verlangt.
+2. **Logging [PFLICHT]**: Erstelle in `Logs/Ingestion/` einen Tracking-Report oder nutze den von `forum-draft --apply` erzeugten Report.
    - Trage Metadaten ein: `Auswertungs-ID`, `Ausgewertet von`, `Auswertungszeitpunkt`.
-3. **Dispatch-Heartbeat [PFLICHT bei langen Läufen]**: Nach 3-5 Quellen oder bei Blockern einen kurzen Statusbericht via `./7w_wiki.py mail post` senden.
-4. **Dashboard-Aktualisierung**: Aktualisiere lesbare Statusflaechen nur dann, wenn sichtbarer Archivbestand oder Veroeffentlichungen geaendert wurden.
-5. **Inventar Update**: Ändere den Quellstatus in `Logs/INVENTUR_QUELLEN.md` auf "Integrated".
-6. **Git Commit**: Committe die Arbeit präzise (`Wiki-Processing: [Dateiname] integriert`).
+3. **Score-Kalibrierung**: Wenn der Audit `score_cluster` meldet, nutze `./7w_wiki.py ingest reports-calibrate --dry-run --json` und danach `--apply`.
+4. **Dispatch-Heartbeat [PFLICHT bei langen Läufen]**: Nach 3-5 Quellen oder bei Blockern einen kurzen Statusbericht via `./7w_wiki.py mail post` senden.
+5. **Dashboard-Aktualisierung**: Aktualisiere lesbare Statusflaechen nur dann, wenn sichtbarer Archivbestand oder Veroeffentlichungen geaendert wurden.
+6. **Inventar Update**: `Logs/INVENTUR_QUELLEN.md` bleibt fuer Altbestand relevant; fuer Forumquellen ist `.agent/data/forum_scan_register.json` der operative Status.
+7. **Git Commit**: Committe die Arbeit präzise (`Wiki-Processing: [Dateiname] integriert`).
 
 #ingestion #produktion #master

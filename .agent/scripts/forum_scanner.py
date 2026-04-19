@@ -23,7 +23,7 @@ FORUM_ALLOWLIST = {
         "docs_dir": REPO_ROOT / "docs" / "Quellen" / "Forum" / "Bekanntmachungen",
         "raw_html_dir": REPO_ROOT / "docs" / "Quellen" / "_ARCHIV_ORIGINAL" / "Forum" / "Bekanntmachungen",
         "default_pages": 3,
-        "human_review_required": False,
+        "human_escalation_default": False,
         "status": "archiviert",
     },
     "news": {
@@ -32,7 +32,7 @@ FORUM_ALLOWLIST = {
         "docs_dir": REPO_ROOT / "docs" / "Quellen" / "Forum" / "Newsticker",
         "raw_html_dir": REPO_ROOT / "docs" / "Quellen" / "_ARCHIV_ORIGINAL" / "Forum" / "Newsticker",
         "default_pages": 3,
-        "human_review_required": False,
+        "human_escalation_default": False,
         "status": "archiviert",
     },
     "geschichten": {
@@ -41,7 +41,7 @@ FORUM_ALLOWLIST = {
         "docs_dir": REPO_ROOT / "docs" / "Quellen" / "Forum" / "Geschichten_aus_dem_Spiel",
         "raw_html_dir": REPO_ROOT / "docs" / "Quellen" / "_ARCHIV_ORIGINAL" / "Forum" / "Geschichten_aus_dem_Spiel",
         "default_pages": 5,
-        "human_review_required": True,
+        "human_escalation_default": False,
         "status": "archiviert",
     },
 }
@@ -243,7 +243,7 @@ def write_raw_metadata(topic: dict, cfg: dict) -> str | None:
     if target.exists():
         return str(target.relative_to(REPO_ROOT))
 
-    human_review_required = "true" if cfg["human_review_required"] else "false"
+    human_escalation_required = "false"
     body = "\n".join(
         [
             "---",
@@ -257,7 +257,9 @@ def write_raw_metadata(topic: dict, cfg: dict) -> str | None:
             f"forum_id: {topic['forum_id']}",
             f"topic_id: {topic['topic_id']}",
             "content_status: metadata_only",
-            f"human_review_required: {human_review_required}",
+            "review_status: archive_only",
+            "review_owner: Scout",
+            f"human_escalation_required: {human_escalation_required}",
             "---",
             "",
             f"# {topic['title']}",
@@ -526,7 +528,7 @@ def write_topic_markdown(topic: dict, cfg: dict, parsed: dict, source_ref: str, 
     source_url = topic_url(cfg["forum_id"], topic["topic_id"])
     date = parsed.get("date") or topic.get("date") or ""
     title = parsed.get("title") or topic.get("title") or f"Topic {topic['topic_id']}"
-    human_review_required = "true" if cfg["human_review_required"] else "false"
+    human_escalation_required = "false"
 
     lines: list[str] = [
         "---",
@@ -541,10 +543,12 @@ def write_topic_markdown(topic: dict, cfg: dict, parsed: dict, source_ref: str, 
         f"forum_id: {cfg['forum_id']}",
         f"topic_id: {topic['topic_id']}",
         "content_status: fulltext_archived",
+        "review_status: triage_ready",
+        "review_owner: Scout",
+        f"human_escalation_required: {human_escalation_required}",
         f"archived_at: {yaml_string(now_iso())}",
         f"post_count: {parsed['post_count']}",
         f"topic_pages_archived: {parsed['topic_pages_archived']}",
-        f"human_review_required: {human_review_required}",
         "raw_html_refs:",
     ]
     lines.extend([f"  - {yaml_string(ref)}" for ref in raw_refs])
@@ -799,11 +803,12 @@ def main() -> int:
                 for r in archive_results
                 if r.get("status") in {"archived_fulltext", "already_fulltext", "sanitized_raw_html"} and r.get("source_ref")
             ],
-            "requires_historian_review": [
+            "ready_for_agentic_triage": [
                 r["source_ref"]
                 for r in archive_results
-                if r.get("status") in {"archived_fulltext", "already_fulltext", "sanitized_raw_html"} and r.get("source_ref") and cfg["human_review_required"]
+                if r.get("status") in {"archived_fulltext", "already_fulltext", "sanitized_raw_html"} and r.get("source_ref")
             ],
+            "requires_historian_review": [],
             "errors": [r for r in archive_results if r.get("status") in {"fulltext_error", "no_posts"}],
         },
     }

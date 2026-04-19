@@ -18,6 +18,8 @@ This adapter is generated from the canonical catalog. Runtime execution stays on
 - `./7w_wiki.py scout --forum geschichten --pages 5`
 - `./7w_wiki.py scout --forum geschichten --archive-fulltext --limit 5 --json`
 - `./7w_wiki.py scout --forum geschichten --topic-id <id> --archive-fulltext --json`
+- `./7w_wiki.py ingest forum-queue --json`
+- `./7w_wiki.py ingest forum-inspect --source <quellen-md> --json`
 - `./7w_wiki.py mail post --from Scout --to Ingestor --subject "<source lead>" --body "<summary>`
 
 ## Instructions

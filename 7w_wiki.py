@@ -155,9 +155,9 @@ COMMAND_METADATA = {
         "interactive_default": False,
     },
     "ingest": {
-        "summary": "Run the ingest pipeline for one file.",
+        "summary": "Run ingestion workflows, including forum queue, inspection, drafting, finalization, and legacy technical checks.",
         "context": ".agent/scripts/ingest_pipeline.py",
-        "json_capable": False,
+        "json_capable": True,
         "supports_run_mode": False,
         "interactive_default": False,
     },
@@ -624,8 +624,22 @@ def main():
     score_parser.add_argument("file", help="Path to the markdown file")
 
     # Ingest Pipeline
-    ingest_parser = subparsers.add_parser("ingest", help="Run full Ingest Pipeline (Lint -> Archive Sync -> Audit)")
-    ingest_parser.add_argument("file", help="Path to the markdown file to ingest")
+    ingest_parser = subparsers.add_parser(
+        "ingest",
+        help="Run ingestion workflows and legacy technical checks",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=(
+            "Forum ingestion subcommands:\n"
+            "  ingest forum-queue --json [--status <status>] [--limit N]\n"
+            "  ingest forum-inspect --source <quellen-md>|--topic-id <id> --json [--dry-run]\n"
+            "  ingest forum-draft --source <quellen-md>|--topic-id <id> --action update|create --target <wiki-md> --dry-run|--apply --json\n"
+            "  ingest forum-finalize --source <quellen-md> --target <wiki-md> --report <report-md> --status integrated --json\n"
+            "  ingest reports-calibrate --dry-run|--apply --json\n\n"
+            "Legacy technical check:\n"
+            "  ingest <file>\n"
+        ),
+    )
+    ingest_parser.add_argument("args", nargs=argparse.REMAINDER, help="Ingest command arguments or legacy markdown file")
 
     # Translation
     trans_parser = subparsers.add_parser("translate", help="Translate Falandric texts or manage dictionaries")
@@ -944,7 +958,7 @@ def main():
         run_script(".agent/scripts/lint_tool.py", lint_args)
 
     elif args.command == "ingest":
-        run_script(".agent/scripts/ingest_pipeline.py", [args.file])
+        run_script(".agent/scripts/ingest_pipeline.py", args.args)
 
     elif args.command == "score":
         run_script(".agent/scripts/lore_score_manager.py", [args.file])

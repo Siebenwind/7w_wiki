@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-04-19 16:06
+**Stand:** 2026-04-19 19:51
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -15,10 +15,10 @@ category: Index
 
 | Kennzahl | Wert |
 | :--- | :--- |
-| Artikel | **1359** |
-| Worte | **188,231** |
+| Artikel | **1360** |
+| Worte | **188,476** |
 | Durchschnittliche Artikellaenge | **139 Worte** |
-| Interne Verweise (`[[...]]`) | **12,866** |
+| Interne Verweise (`[[...]]`) | **12,878** |
 | Vernetzungsdichte | **9.5 Links/Artikel** |
 | Personenprofile | **586** |
 
@@ -28,9 +28,9 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Aktive Tage |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 382 | - | 2 |
-| Letzte 30 Tage | 1304 | 3 | 7 |
-| Letzte 90 Tage | 1348 | - | 12 |
+| Letzte 7 Tage | 382 | - | 3 |
+| Letzte 30 Tage | 1304 | 3 | 8 |
+| Letzte 90 Tage | 1348 | - | 13 |
 
 ---
 
@@ -42,7 +42,7 @@ pie title Artikel pro Sektion
     "05_Magie" : 41
     "08_Bestiarium" : 33
     "03_Wissen" : 56
-    "03_Gesellschaft" : 53
+    "03_Gesellschaft" : 54
     "05_Geschichte" : 58
     "02_Geografie" : 57
     "01_Pantheon" : 52
@@ -72,7 +72,7 @@ pie title Artikel pro Sektion
 | :--- | ---: |
 | [[Falkensee]] | 532 |
 | [[Siebenwind]] | 501 |
-| [[Brandenstein]] | 465 |
+| [[Brandenstein]] | 469 |
 | [[Bellum]] | 165 |
 | [[Astrael]] | 155 |
 | [[Nortraven]] | 144 |
@@ -109,10 +109,10 @@ pie title Artikel pro Sektion
 
 | Qualitaetsindikator | Wert | Fortschritt |
 | :--- | :--- | :--- |
-| Frontmatter-Abdeckung | 1359/1359 | `##########` 100.0% |
-| Aufgeloeste Quellenangabe (`quelle`) | 440/1359 | `###-------` 32.4% |
-| Ingestion Tracking vollstaendig | 55/55 | `##########` 100.0% |
-| Ingestion Reports mit LQS | 53/55 | `##########` 96.4% |
+| Frontmatter-Abdeckung | 1360/1360 | `##########` 100.0% |
+| Aufgeloeste Quellenangabe (`quelle`) | 442/1360 | `###-------` 32.5% |
+| Ingestion Tracking vollstaendig | 57/57 | `##########` 100.0% |
+| Ingestion Reports mit LQS | 55/57 | `##########` 96.5% |
 | `[UNGEKLAERT]`-Marker (gesamt) | 259 | Beobachtung |
 
 ## 🔏 Drift & Provenance
@@ -130,7 +130,7 @@ pie title Artikel pro Sektion
 | `#unbekannt` | 420 |
 | `#canon` | 139 |
 | `#ueberlieferung` | 108 |
-| `#perspektive` | 102 |
+| `#perspektive` | 103 |
 | `#news` | 1 |
 
 
@@ -140,23 +140,41 @@ pie title Artikel pro Sektion
 
 | Metrik | Stand |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | 1 |
+| Letzter Audit-Problemtotal | 0 |
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 85 |
 | Davon ohne Ausnahme-Metadaten | 0 |
-| Test-Suiten PASS | 0 |
+| Test-Suiten PASS | 18 |
 | Test-Suiten FAIL | 0 |
 
 ### Letzte Test-Suites
 | Suite | Ergebnis | PASS | FAIL | SKIP |
 | :--- | :--- | ---: | ---: | ---: |
+| `adapter-surfaces-contract` | **PASS** | 3 | 0 | 0 |
+| `asset-surface-contract` | **PASS** | 4 | 0 | 0 |
+| `backlog-repair-contract` | **PASS** | 2 | 0 | 0 |
+| `bridge-placeholder-guard` | **PASS** | 2 | 0 | 0 |
+| `catalog-contract` | **PASS** | 2 | 0 | 0 |
+| `clean-client-state` | **PASS** | 8 | 0 | 0 |
+| `codex-workflow-bridges` | **PASS** | 2 | 0 | 0 |
+| `content-contract` | **PASS** | 1 | 0 | 0 |
+| `delegation-policy-contract` | **PASS** | 2 | 0 | 0 |
+| `interop-command-registry` | **PASS** | 1 | 0 | 0 |
+| `interop-doc-links` | **PASS** | 1 | 0 | 0 |
+| `pages-contract-mode-contract` | **PASS** | 1 | 0 | 0 |
+| `process-dispatch-curiosity` | **PASS** | 1 | 0 | 0 |
+| `reader-stats-contract` | **PASS** | 2 | 0 | 0 |
+| `render-hygiene` | **PASS** | 2 | 0 | 0 |
+| `source-link-hygiene` | **PASS** | 1 | 0 | 0 |
+| `source-tree-contract` | **PASS** | 2 | 0 | 0 |
+| `tool-manifest-contract` | **PASS** | 1 | 0 | 0 |
 
 
 ## 📍 Fortschritt Live Verfolgen
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_50dbbc23-577f-4c68-8a31-d3f7873fef48.txt`
+- Letzter Audit: `Logs/Archive/Audit_1cccf54a-19d9-47c7-ba01-54f16fa75f3b.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
 
 ---
