@@ -32,6 +32,6 @@ Wassermagier (Hydromanten) können heilen, Wasser atmen, Eiswände erschaffen od
 - **[[Ventus]] (Luft):** Oft im Tanz vereint (Wellen, Sturm).
 
 ## Verwandte Themen
-- [[01_Pantheon/index|Religion Übersicht]]
+- [[Das_Pantheon|Religion Übersicht]]
 - [[Magie_Grundlagen]]
 - [[Rasse_Elfen]] - Auenelfen leben oft an Flüssen.

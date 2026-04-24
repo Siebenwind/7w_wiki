@@ -32,6 +32,6 @@ Der Pfad der Luft bietet Kontrolle über Winde (Segel setzen, Gegner wegwehen), 
 - **[[Xan]] (Wasser):** Wasser verdunstet zu Wolken, Wolken regnen Wasser. Ein ewiger Kreislauf.
 
 ## Verwandte Themen
-- [[01_Pantheon/index|Religion Übersicht]]
+- [[Das_Pantheon|Religion Übersicht]]
 - [[Magie_Grundlagen]]
 - [[21_Rassen_Elfen]] - Besonders die *Windtänzer* (eine Elfenklasse) verehren ihn.

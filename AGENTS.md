@@ -7,9 +7,22 @@
 You are operating on the **Siebenwind Wiki**, a 20-year-old collaborative world-building project. Your goal is to preserve its history while modernizing its infrastructure.
 **Repository Root:** `.`
 
+## 🧱 Wissenswerk 2.0 Layer
+
+Wissenswerk is the new generic, IDE-independent corpus-to-wiki platform layer. Siebenwind remains the reference tenant, while generic behavior moves into `./wissenswerk.py`, `wissenswerk.yaml`, `project_manifest.json`, and `DESIGN.md`.
+
+- Continue to enter through `./7w_wiki.py` for legacy Siebenwind operations and existing test suites.
+- Use `./7w_wiki.py wissenswerk ...` or `./wissenswerk.py ...` for the new generic platform surface.
+- Treat `wissenswerk.yaml` as the tenant configuration contract and `project_manifest.json` as the generic machine-readable product manifest.
+- Treat `DESIGN.md` as the root design contract for UI and documentation design; UI agents must read it before frontend or theme changes.
+- Keep Siebenwind-specific concepts such as Lore, Bote, Kanon, Sonnenzirkel, Forum and Historian in tenant-specific rules, not in the generic core.
+- Treat Codex, Jules, Gemini CLI, Cursor, Aider, IDE plugins and future agent hosts as consumers of the same open contracts, not as privileged runtime authorities.
+- Platform-neutral surfaces are `AGENTS.md`, nested tenant `AGENTS.md` files, `DESIGN.md`, `wissenswerk.yaml`, `project_manifest.json`, `./wissenswerk.py --json`, `./7w_wiki.py --help-json`, `.agent/config/tools.json`, and MCP.
+- Codex-specific files such as `.agents/skills/` and `.codex/config.toml` are generated adapter outputs. They may improve discovery inside Codex, but must never contain unique semantics that are absent from the neutral surfaces.
+
 ## 📜 The Golden Rules (Non-Negotiable)
 
-1.  **Runtime Authority**: The **ONLY** executable interface is `./7w_wiki.py`. Do not create custom scripts or use `sed`/`awk` for complex logic.
+1.  **Runtime Authority**: The legacy Siebenwind executable interface is `./7w_wiki.py`; the Wissenswerk v2 platform interface is `./wissenswerk.py` and is also reachable via `./7w_wiki.py wissenswerk ...`. Do not use `sed`/`awk` for complex logic.
 2.  **Epistemic Integrity**:
     -   Never hallucinate lore. If information is missing, use tags like `[UNGEKLÄRT]`.
     -   **Epistemic precedence is `Homepage > Quellen > Wiki Pages`.**
@@ -26,7 +39,9 @@ You are operating on the **Siebenwind Wiki**, a 20-year-old collaborative world-
     -   Respect the folder structure: `.agent/` is for internal logic.
     -   Treat `.agent/catalog/catalog.v1.json` as the canonical discovery catalog.
     -   Treat `lore_manifest.json` as a generated compatibility surface, never as the source of truth.
-    -   Treat `.agents/skills/` plus `.codex/config.toml` as the Codex adapter surface, not as the source of truth.
+    -   Treat `project_manifest.json` as the Wissenswerk v2 product manifest; `lore_manifest.json` remains the Siebenwind legacy export.
+    -   Treat `.agents/skills/` plus `.codex/config.toml` as a generated Codex adapter surface, not as the source of truth.
+    -   Keep all new agent capabilities IDE/platform independent first; add host-specific adapter files only by generation from the neutral catalog.
     -   Use `.agent/config/tools.json` for machine-readable tool discovery (OpenAI-compatible schema).
     -   Use `./7w_wiki.py --help-json` for dynamic CLI introspection.
 6.  **Mission Report Protocol**:
@@ -93,6 +108,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `leitpunkt <view|status|check|scaffold>` | Manage the human maintainer standpoint workflow. | `.agent/scripts/leitpunkt_tool.py` |
 | `stats` | Generate reader-facing stats and machine snapshots. | `.agent/scripts/generate_wiki_stats.py` |
 | `mcp` | Start the MCP server for structured agent access. | `System/MCP/server.py` |
+| `wissenswerk [args...]` | Run the generic Wissenswerk 2.0 corpus-to-wiki platform CLI. | `wissenswerk.py` |
 <!-- END GENERATED COMMAND REGISTRY -->
 
 ## 📂 Documentation Map
@@ -110,15 +126,17 @@ Use `./7w_wiki.py <command>` for all operations.
 
 Canonical layer model:
 
-- **Canonical core**: `.agent/` + `./7w_wiki.py`
-- **Open runtime surface**: MCP via `./7w_wiki.py mcp` and `mcp_config.json`
-- **Compatibility surface**: `lore_manifest.json`
-- **Codex adapter surface**: `.agents/skills/` + `.codex/config.toml`
+- **Wissenswerk canonical core**: `./wissenswerk.py`, `wissenswerk.yaml`, `project_manifest.json`, `AGENTS.md`, `DESIGN.md`
+- **Siebenwind legacy core**: `.agent/` + `./7w_wiki.py`
+- **Open runtime surface**: CLI JSON, `.agent/config/tools.json`, MCP via `./7w_wiki.py mcp` and `mcp_config.json`
+- **Compatibility surfaces**: `lore_manifest.json` for Siebenwind, `./7w_wiki.py wissenswerk ...` for legacy runtime access
+- **Generated host adapters**: `.agents/skills/` + `.codex/config.toml` for Codex; future Jules/Gemini/Cursor/Aider surfaces must derive from the same catalog
 - **Future discovery surface**: `docs/.well-known/agent.json`
 
 Practical meaning:
 - Use `./7w_wiki.py start` as the canonical onboarding path. `antigravity` survives only as a deprecated compatibility alias.
 - Use `.agents/skills/` for Codex-native discoverability, but treat those files as generated adapters derived from the canonical catalog.
+- For non-Codex hosts, prefer `AGENTS.md`, `DESIGN.md`, `./wissenswerk.py --json`, `./7w_wiki.py --help-json`, `.agent/config/tools.json`, and MCP over host-specific workflow copies.
 - `/scout` remains the broad external discovery entrypoint; `/forum_search` is the dedicated operational path for board-first source discovery.
 
 Maintainer note:

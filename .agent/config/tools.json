@@ -1207,5 +1207,22 @@
         "required": []
       }
     }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_wissenswerk",
+      "description": "Run the generic Wissenswerk 2.0 corpus-to-wiki platform CLI.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "args": {
+            "type": "string",
+            "description": "Arguments for wissenswerk.py"
+          }
+        },
+        "required": []
+      }
+    }
   }
 ]

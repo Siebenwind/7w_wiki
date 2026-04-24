@@ -6,17 +6,19 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
 - **Last Handover**: 2026-04-19 (Codex → Next Agent)
-- **Status**: Forum-Geschichten sind von metadata-only zu einem agentischen Ingestion-v2-Pfad gehoben: `scout --archive-fulltext`, `ingest forum-queue/forum-inspect/forum-draft/forum-finalize` und `reports-calibrate` existieren; Ergon wurde als Update-Pilot integriert und das Orkische Handelskontor als quellengetragener neuer Artikel angelegt. `audit --json` meldet `issues_found = 0`; `pages validate --contract --json` bleibt wegen des bestehenden Pages-Linkbacklogs WARN (`629` unresolved, `627` unallowlisted, `616 needs_historian`), nicht wegen Drift oder Audit-Gates.
+- **Status**: Forum-Geschichten sind von metadata-only zu einem agentischen Ingestion-v2-Pfad gehoben: `scout --archive-fulltext`, `ingest forum-queue/forum-inspect/forum-draft/forum-finalize` und `reports-calibrate` existieren; Ergon wurde als Update-Pilot integriert und das Orkische Handelskontor als quellengetragener neuer Artikel angelegt. `RESEARCH-2026-018` ist als Historian-Fall formal geschlossen; `audit --json` meldet `issues_found = 0`; `pages validate --contract --json` bleibt wegen des bestehenden allgemeinen Pages-Linkbacklogs WARN (`629` unresolved, `627` unallowlisted, `616 needs_historian`), nicht wegen Drift oder Audit-Gates.
 
 ---
 
 ## 🔴 Priorität 1: Aktueller Fokus (Next Step)
 
+- [ ] **Wissenswerk 2.0 Plattformkern**: Der neue generische Produktkern wird unter dem Namen `Wissenswerk` aufgebaut. Phase 1 persistiert die Root-Vertraege (`AGENTS.md`, `DESIGN.md`, `project_manifest.json`, `wissenswerk.yaml`), eine tenantfaehige CLI `./wissenswerk.py`, RagPrep-Importkontrakte, pgvector/OpenAI-kompatible Providerprofile, Auto-Apply-Reports und einen Siebenwind-Referenztenant. `./7w_wiki.py` bleibt vorerst Kompatibilitaets-CLI; Siebenwind-spezifische Lore-/Forum-/Kanonregeln werden schrittweise aus dem Kern heraus in Tenant-/Skill-Flaechen verschoben. Grundsatz nach Nachpruefung gegen AGENTS.md-, Codex- und DESIGN.md-Dokumentation: Wissenswerk bleibt IDE-/Plattform-unabhaengig; Codex, Jules, Gemini CLI, Cursor, Aider und weitere Hosts duerfen nur generierte Adapter auf denselben offenen Vertraegen sein.
+
 - [x] **Layout-Contract Cleanup & Audit-Zaehllogik**: Die `layout`-Altfelder aus den audit-relevanten Seiten wurden entfernt; `audit --json` meldet keine `legacy_field: layout`-Verletzungen mehr und weist den verbleibenden Ingestion-Score-Cluster konsistent unter `details.ingestion_issues` aus.
 
 - [x] **Zeitstrahl Structural Repair**: `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md` wurde von einem strukturell korrumpierten Mischdokument auf eine kompakte Chronik-Uebersicht mit Verweisen auf `Historie & Aeren` und `Zeitleiste (15-30 n.H.)` zurueckgefuehrt.
 
-- [ ] **Semantic Pages Backlog Triage**: `advisor --json` zeigt trotz technischem Drift-Fix weiter `Pages WARN` mit `637` unresolved Targets (`625 needs_historian`, `5 generic_term_conflict`). Der naechste Agent soll die bestehenden Board-/Backlog-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) als Arbeitsgrundlage verwenden und die semantische Begriffsarbeit strikt von mechanischen Reparaturen trennen.
+- [x] **Semantic Pages Backlog Triage / RESEARCH-2026-018**: Die Magie/index-Semantik ist geklaert und formal geschlossen. `docs/Siebenwind_Wiki/` enthaelt keine exakten Magie-, index- oder WikiLinks-Wikilinks mehr; source-page-leere Restwarnungen gehoeren in den allgemeinen Pages-/Resolver-Backlog.
 
 - [x] **Forum-Ingestion v2 Pilot**: Die Forum-Volltextarchivierung und agentische Verarbeitung sind als Runtime-Pfad umgesetzt. Zwei Pilotquellen sind integriert (`Ergon` als Update, `Orkisches Handelskontor` als Neuanlage), das Forumregister bleibt bei `201` Eintraegen mit `2 integrated`, und die Draft-Stilregel verhindert kuenftig OOC-Formulierungen im Artikelkoerper.
 
@@ -81,7 +83,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 | [[RESEARCH-2026-003]] | Die Linari-Matrix | 🟡 | [ ] Offen |
 | [[RESEARCH-2026-004]] | Causa Tjure Odal & Arn Toron | 🔴 | [x] Review |
 | [[RESEARCH-2026-007]] | Dossier Rhadan (Zeichnung Tares) | 🔴 | [x] Review |
-| [[RESEARCH-2026-018]] | Magie/index-Disambiguierung nach mechanischer Linkwelle | 🔴 | [x] Operativ bereinigt; Rest ist Pages-Linkbacklog |
+| [[RESEARCH-2026-018]] | Magie/index-Disambiguierung nach mechanischer Linkwelle | 🔴 | [x] RESOLVED; Rest ist Pages-Linkbacklog |
 | [[RESEARCH-2026-012]] | Das Grünland (Geografie & Siedlung) | 🔴 | [ ] Offen |
 | [[RESEARCH-2026-017]] | Die Entdeckung Siebenwinds (1 n.H.) | 🟡 | [x] Bearbeitung |
 

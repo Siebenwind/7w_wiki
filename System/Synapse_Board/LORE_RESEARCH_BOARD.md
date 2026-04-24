@@ -23,12 +23,12 @@ Fortschritt wird dort fortgeschrieben, nicht nur in Dispatch und `Logs/Research/
 ### Letzte geloeste Historian-Faelle
 
 - [[Historian_Report_2026_003]] - publizierter Sammelbericht zu `RESEARCH-2026-005/006`, fachlich geklaert und archiviert.
+- [[RESEARCH-2026-018]] - Magie/index-Semantik geklaert; aktive Wiki-Seiten sind frei von exakten index-Platzhaltern.
 - [[RESEARCH-2026-009]] - handwerkliche und gesellschaftliche Struktur der Insel belastbar verdichtet.
 - [[RESEARCH-2026-008]] - `Dur` als [[Toran_Dur]] belastbar geklaert und publiziert.
 
 ### Offene Historian-Faelle
 
-- [[RESEARCH-2026-018]] - `OPEN_HISTORIAN`: semantische Disambiguierung von `Magie`- und `index`-Restfaellen nach ausgeschoepfter Mechanik.
 - [[RESEARCH-2026-017]] - `OPEN_HISTORIAN`: aktive Chronik-Synthese zur Entdeckung [[Siebenwind]]s.
 - [[RESEARCH-2026-004]] - `IN_REVIEW_HISTORIAN`: Gutachten liegt vor, Freigabeweg ist offen.
 - [[RESEARCH-2026-007]] - `IN_REVIEW_HISTORIAN`: Gutachten liegt vor, Freigabeweg ist offen.
@@ -45,14 +45,11 @@ Fortschritt wird dort fortgeschrieben, nicht nur in Dispatch und `Logs/Research/
 
 | ID | Gegenstand | Priorität | Status | Fokus |
 |----|------------|-----------|--------|-------|
-| [[RESEARCH-2026-018]] | Disambiguierung generischer Begriffe `Magie` & `index` | 🟡 Mittel | OPEN_HISTORIAN | Terminologie/Linksemantik |
 | [[RESEARCH-2026-017]] | Die Logbücher der "Nordwind" (1 n.H.) | 🔴 Hoch | OPEN_HISTORIAN | Chronik/Entdeckung |
 | [[RESEARCH-2026-004]] | Causa Tjure Odal & Arn Toron | 🔴 Hoch | IN_REVIEW_HISTORIAN | Biografie/Historiker |
 | [[RESEARCH-2026-007]] | Dossier Rhadan: Zeichnung Tares | 🔴 Hoch | IN_REVIEW_HISTORIAN | Kosmologie/Historiker |
 
 ### Detail-Beschreibungen aktiver Historian-Faelle
-
-**RESEARCH-2026-018 (Magie/index-Disambiguierung):** Stand 2026-04-08: Der mechanische Linkhygiene-Lauf ist weitgehend ausgeschoepft; der Restbestand besteht ueberwiegend aus echten Begriffsfragen. Der Fall soll klaeren, wann `Magie` als allgemeiner Begriff stehen bleiben muss, wann konkrete Zielseiten wie `[[Magie_Grundlagen]]` oder einzelne Theorieseiten gemeint sind, und welche `index`-Verwendungen nur Platzhalter/OCR-Reste versus echte Inhaltsbegriffe (`Geschichte`, `Recht`, `Bibliothek`, `Sprache`, `Werk`, `Ordnung`) sind. Ergebnisziel ist eine konservative Semantik-Matrix fuer weitere Technik-/Produktionslaeufe, keine blinde Massenersetzung.
 
 **RESEARCH-2026-017 (Nordwind):** Der Fall ist kein Standard-Ingest, sondern ein Syntheseauftrag mit groesserer historischer Unklarheit. Mehrere Traditionslinien zur Entdeckung [[Siebenwind]]s muessen sauber zusammengezogen werden, ohne die Gruendungsnarrative vorschnell zu glatten.
 
@@ -84,6 +81,7 @@ Sie werden erst dann zu Historian-Faellen, wenn sie aus Ingestion, Artikelarbeit
 | [[RESEARCH-2026-006]] | Finsterwangen & Ursprung des Ödlands | RESOLVED | [[Historian_Report_2026_003]] |
 | [[RESEARCH-2026-008]] | Die Dur-Identität (Toran Dur) | RESOLVED | [[RESEARCH-2026-008_Report]] |
 | [[RESEARCH-2026-009]] | Gilden-Struktur & Handwerk | RESOLVED | [[RESEARCH-2026-009_Report]] |
+| [[RESEARCH-2026-018]] | Disambiguierung generischer Begriffe `Magie` & `index` | RESOLVED | Semantik-Matrix und aktive index-Bereinigung abgeschlossen; Rest ist Pages-/Resolver-Backlog. |
 
 ---
 ### 🤝 Mitmachen (Agent Recruitment)
@@ -95,4 +93,4 @@ Ein Historian-Fall entsteht nicht primaer per Ausschreibung, sondern als Eskalat
 5. Der Mensch entscheidet nur bei echter Kontroverse oder Kanonkorrektur.
 
 ---
-*Zuletzt konsolidiert: 2026-04-08 (Historian-Split nach Wave-2-Linkhygiene)*
+*Zuletzt konsolidiert: 2026-04-19 (RESEARCH-2026-018 formal geschlossen)*

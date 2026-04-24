@@ -1,6 +1,6 @@
 {
   "version": "catalog.v1",
-  "generated_at": "2026-04-19T17:51:52Z",
+  "generated_at": "2026-04-24T15:26:12Z",
   "runtime": {
     "entrypoint": "./7w_wiki.py",
     "help_json": "./7w_wiki.py --help-json",
@@ -1241,7 +1241,7 @@
         "subcommands": [
           {
             "name": "post",
-            "description": "usage: 7w_wiki.py mail post [-h] --from FROM_AGENT --to TO_AGENT\n                            --subject SUBJECT --body BODY\n                            [--report-path REPORT_PATH]\n                            [--priority {LOW,NORMAL,HIGH}]",
+            "description": "usage: 7w_wiki.py mail post [-h] --from FROM_AGENT --to TO_AGENT --subject\n                            SUBJECT --body BODY [--report-path REPORT_PATH]\n                            [--priority {LOW,NORMAL,HIGH}]",
             "arguments": [
               {
                 "name": "from_agent",
@@ -1905,6 +1905,26 @@
         "json_capable": false,
         "supports_run_mode": false,
         "interactive_default": true
+      },
+      {
+        "name": "wissenswerk",
+        "description": "usage: 7w_wiki.py wissenswerk [-h] ...",
+        "arguments": [
+          {
+            "name": "args",
+            "flags": [],
+            "help": "Arguments for wissenswerk.py",
+            "required": false,
+            "type": "string",
+            "kind": "positional",
+            "nargs": "REMAINDER"
+          }
+        ],
+        "summary": "Run the generic Wissenswerk 2.0 corpus-to-wiki platform CLI.",
+        "context": "wissenswerk.py",
+        "json_capable": true,
+        "supports_run_mode": false,
+        "interactive_default": false
       }
     ],
     "config_path": ".agent/config/runtime.json",

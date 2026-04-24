@@ -1,0 +1,106 @@
+{
+  "suite": "wissenswerk-contract",
+  "description": "Guard the Wissenswerk 2.0 bootstrap contracts, CLI bridge, providers, DESIGN.md lint, and RagPrep import shape.",
+  "cases": [
+    {
+      "id": "wissenswerk-root-contracts-present",
+      "name": "Root contracts and generic manifest expose the Wissenswerk platform layer",
+      "required_regex_by_file": [
+        {
+          "file": "wissenswerk.yaml",
+          "must_include_regex": [
+            "\"schema_version\": \"wissenswerk\\.config\\.v1\"",
+            "\"product\": \"Wissenswerk\"",
+            "\"kind\": \"pgvector\"",
+            "\"kind\": \"openai-compatible\"",
+            "\"auto_apply\": true",
+            "\"contract\": \"DESIGN\\.md\"",
+            "\"platform_independent\": true",
+            "\"host_specific_semantics_allowed\": false"
+          ]
+        },
+        {
+          "file": "project_manifest.json",
+          "must_include_regex": [
+            "\"schema_version\": \"wissenswerk-manifest\\.v1\"",
+            "\"product\": \"Wissenswerk\"",
+            "\"legacy_cli\": \"\\./7w_wiki\\.py\"",
+            "\"new_cli\": \"\\./wissenswerk\\.py\"",
+            "\"platform_independence\"",
+            "\"host_specific_semantics_allowed\": false",
+            "\"ragprep_import\"",
+            "\"retrieval\""
+          ]
+        },
+        {
+          "file": "DESIGN.md",
+          "must_include_regex": [
+            "\"name\": \"Wissenswerk\"",
+            "\"colors\"",
+            "\"typography\"",
+            "\"components\"",
+            "## Do's and Don'ts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legacy-cli-bridges-wissenswerk",
+      "name": "Legacy CLI exposes a Wissenswerk compatibility bridge",
+      "required_regex_by_file": [
+        {
+          "file": "7w_wiki.py",
+          "must_include_regex": [
+            "\"wissenswerk\"",
+            "subparsers\\.add_parser\\(\"wissenswerk\"",
+            "run_script\\(\"wissenswerk\\.py\", args\\.args\\)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "help-json-lists-wissenswerk",
+      "name": "help-json includes the Wissenswerk command",
+      "cmd": ["./7w_wiki.py", "--help-json"],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_stdout": ["\"name\": \"wissenswerk\""]
+    },
+    {
+      "id": "providers-check-json",
+      "name": "Provider check exposes pgvector and OpenAI-compatible profiles",
+      "cmd": ["./7w_wiki.py", "wissenswerk", "providers", "check", "--json"],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "ok",
+        "vector_store.kind": "pgvector"
+      }
+    },
+    {
+      "id": "design-lint-json",
+      "name": "DESIGN.md lint passes the bootstrap design contract",
+      "cmd": ["./7w_wiki.py", "wissenswerk", "design", "lint", "--json"],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "pass",
+        "summary.errors": 0
+      }
+    },
+    {
+      "id": "discord-adapter-dry-status",
+      "name": "Discord adapter reports status without connecting to Discord",
+      "cmd": ["./7w_wiki.py", "wissenswerk", "bot", "discord", "--json"],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "adapter": "discord",
+        "run": false
+      },
+      "expect_json_path_in": {
+        "status": ["ready", "missing_token"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "status": "ready",
+  "mode": "dry-run",
+  "source": ".agent/tests/fixtures/ragprep",
+  "chunks_total": 1,
+  "documents_total": 1,
+  "validation_findings": [],
+  "vector_store": {
+    "kind": "pgvector",
+    "dsn_env": "WISSENSWERK_DATABASE_URL",
+    "schema": "wissenswerk",
+    "collection": "siebenwind"
+  },
+  "report_path": "",
+  "written": []
+}

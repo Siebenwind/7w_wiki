@@ -111,6 +111,12 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [.agents/skills/workflow_test_run/SKILL.md](../.agents/skills/workflow_test_run/SKILL.md) (Generierter Codex-Adapter)
 - [x] [.agents/skills/workflow_forum_search/SKILL.md](../.agents/skills/workflow_forum_search/SKILL.md) (Generierter Codex-Adapter)
 - [x] [docs/.well-known/agent.json](../docs/.well-known/agent.json) (Discovery-only Agent-Card fuer spaetere A2A-Anbindung)
+- [x] [wissenswerk.py](../wissenswerk.py) (Wissenswerk 2.0 Plattform-CLI fuer generische Korpus-zu-Wiki-Workflows)
+- [x] [wissenswerk.yaml](../wissenswerk.yaml) (Siebenwind-Referenztenant und Provider-/RagPrep-/Auto-Apply-Konfiguration)
+- [x] [project_manifest.json](../project_manifest.json) (Generisches Wissenswerk-Produktmanifest; `lore_manifest.json` bleibt Legacy-Export)
+- [x] [DESIGN.md](../DESIGN.md) (Agentenlesbarer Designvertrag fuer Wissenswerk UI-/Dokumentationsflaechen)
+- [x] [.agent/tests/suites/wissenswerk-contract.json](../.agent/tests/suites/wissenswerk-contract.json)
+- [x] [.agent/tests/fixtures/ragprep/sample_chunks.json](../.agent/tests/fixtures/ragprep/sample_chunks.json)
 
 ---
-*Zuletzt aktualisiert: 2026-04-08T21:35:00Z | Ref: #canonical_core_mcp_codex_phase1_2026_04_08*
+*Zuletzt aktualisiert: 2026-04-24T17:10:00Z | Ref: #wissenswerk_2_0_platform_core_2026_04_24*

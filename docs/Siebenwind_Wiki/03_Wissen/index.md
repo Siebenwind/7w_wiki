@@ -8,10 +8,10 @@ Das Archiv der Wissen.
 ## Inhalte
 
 ### Kategorien
-*   **[[Personen/index|Personen]]**
-*   **[[Recht/index|Recht]]**
-*   **[[Sprachen/index|Sprachen]]**
-*   **[[Werke/index|Werke]]**
+*   **[Personen](Personen/index.md)**
+*   **[Recht](Recht/index.md)**
+*   **[Sprachen](Sprachen/index.md)**
+*   **[Werke](Werke/index.md)**
 
 ### Artikel
 *   [[Magietheorie_nach_Dunvallo_Linari|Magietheorie nach Dunvallo Linari]]

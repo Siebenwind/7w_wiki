@@ -1,0 +1,106 @@
+{
+  "schema_version": "wissenswerk.config.v1",
+  "project": {
+    "name": "Siebenwind",
+    "product": "Wissenswerk",
+    "language": "de",
+    "tenant_id": "siebenwind",
+    "description": "Referenztenant fuer den generischen Wissenswerk-Plattformkern."
+  },
+  "paths": {
+    "sources": ["Quellen", "docs/Quellen"],
+    "wiki": "docs/Siebenwind_Wiki",
+    "reports": "Logs/Wissenswerk",
+    "ragprep_imports": ".agent/data/wissenswerk/ragprep_imports",
+    "runtime_state": ".agent/data/wissenswerk/state"
+  },
+  "source_precedence": ["Homepage", "Quellen", "Wiki Pages"],
+  "automation": {
+    "auto_apply": true,
+    "write_reports": true,
+    "require_provenance": true,
+    "rollback_hint": true
+  },
+  "providers": {
+    "chat": {
+      "kind": "openai-compatible",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "OPENAI_API_KEY",
+      "model": "gpt-5.4"
+    },
+    "summary": {
+      "kind": "openai-compatible",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "OPENAI_API_KEY",
+      "model": "gpt-5.4-mini"
+    },
+    "embedding": {
+      "kind": "openai-compatible",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "OPENAI_API_KEY",
+      "model": "text-embedding-3-large",
+      "dimensions": 3072
+    },
+    "rerank": {
+      "kind": "openai-compatible",
+      "base_url": "http://localhost:8000/v1",
+      "api_key_env": "WISSENSWERK_RERANK_API_KEY",
+      "model": "bge-reranker-v2-m3"
+    }
+  },
+  "vector_store": {
+    "kind": "pgvector",
+    "dsn_env": "WISSENSWERK_DATABASE_URL",
+    "schema": "wissenswerk",
+    "collection": "siebenwind"
+  },
+  "ragprep": {
+    "accepted_extensions": [".json", ".jsonl"],
+    "required_fields": ["document_id", "chunk_id", "text", "source_path"],
+    "optional_fields": ["title", "section", "language", "hash", "entities", "summary"]
+  },
+  "interop": {
+    "platform_independent": true,
+    "canonical_surfaces": [
+      "AGENTS.md",
+      "DESIGN.md",
+      "wissenswerk.yaml",
+      "project_manifest.json",
+      "./wissenswerk.py --help",
+      "./wissenswerk.py <command> --json",
+      "./7w_wiki.py --help-json",
+      ".agent/config/tools.json",
+      "mcp_config.json",
+      "./7w_wiki.py mcp"
+    ],
+    "adapter_policy": {
+      "source_of_truth": "canonical_surfaces",
+      "generated_adapter_targets": ["codex"],
+      "future_adapter_targets": ["jules", "gemini-cli", "cursor", "aider", "github-copilot", "zed"],
+      "host_specific_semantics_allowed": false
+    }
+  },
+  "agents": {
+    "roles": ["koordinator", "kurator", "pruefer", "techniker"],
+    "protected_core_paths": [
+      "7w_wiki.py",
+      "wissenswerk.py",
+      "project_manifest.json",
+      ".agent/catalog/",
+      ".agent/config/tools.json",
+      ".agent/scripts/generate_*.py"
+    ],
+    "low_cost_profile": "summary"
+  },
+  "design": {
+    "contract": "DESIGN.md",
+    "lint_command": "./wissenswerk.py design lint --json"
+  },
+  "bot": {
+    "discord": {
+      "enabled": false,
+      "token_env": "DISCORD_BOT_TOKEN",
+      "command_prefix": "!ww"
+    }
+  }
+}

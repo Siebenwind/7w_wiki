@@ -1,5 +1,47 @@
 # Changelog
 
+#### [2026-04-24.02] - Wissenswerk Interop plattformneutral nachgezogen
+### Prioritaet: P1
+### Geändert
+- `AGENTS.md`, `wissenswerk.yaml` und `project_manifest.json`: Wissenswerk als IDE-/Plattform-unabhaengigen Kern explizit festgeschrieben. Codex, Jules, Gemini CLI, Cursor, Aider und weitere Hosts sind nur Adapterkonsumenten offener Surfaces.
+- `MASTER_TASK_LIST.md`: v2.0-Fokus um den Plattformneutralitaetsgrundsatz nach Abgleich mit AGENTS.md-, Codex- und DESIGN.md-Dokumentation ergaenzt.
+- `.agent/tests/suites/wissenswerk-contract.json`: Contract-Smoke prueft jetzt auch `platform_independent` und das Verbot host-spezifischer Semantik.
+
+#### [2026-04-24.01] - Wissenswerk 2.0 Plattformkern Bootstrap
+### Prioritaet: P1
+### Hinzugefügt
+- `wissenswerk.py`: generische Wissenswerk-CLI fuer `init`, RagPrep-Import, Wiki-Build-Report, Suche, Provider-Check, DESIGN.md-Lint und Discord-Adapter-Status.
+- `wissenswerk.yaml`, `project_manifest.json` und `DESIGN.md`: neuer Tenant-/Produkt-/Designvertrag fuer den Wissenswerk-v2-Kern mit pgvector-Default und OpenAI-kompatiblen Providerprofilen.
+- `.agent/tests/suites/wissenswerk-contract.json` und `.agent/tests/fixtures/ragprep/sample_chunks.json`: Contract-Smokes fuer Root-Vertraege, Legacy-Bridge, Provider, Design und Bot-Adapter.
+- `System/Synapse_Board/DISPATCH/MSG-2026-0148_wissenswerk_2_0_plattformkern_gestartet.md`: Startmeldung zur Planpersistenz.
+### Geändert
+- `7w_wiki.py`: neue Kompatibilitaetsbruecke `./7w_wiki.py wissenswerk ...`, damit bestehendes Agenten-/Test-Tooling die Wissenswerk-Oberflaeche ueber die Legacy-Runtime erreichen kann.
+- `AGENTS.md`: Wissenswerk-2.0-Schichtregel, `DESIGN.md` als UI-/Doku-Designvertrag und `project_manifest.json` als generisches Produktmanifest dokumentiert.
+- `System/COORDINATION_HUB.md`: neue v2-Root- und Testdateien registriert.
+- `7w_wiki.py`: Help-JSON-Serializer behandelt `argparse.REMAINDER` wieder als optional, damit bestehende Tool-Schemas nicht kuenstlich Pflichtargumente fuer Raw-Remainder bekommen.
+- `.agent/config/tools.json` und `.agent/catalog/catalog.v1.json`: Tool-Manifest und Katalog mit der neuen Wissenswerk-Bridge regeneriert.
+### Validiert
+- `python3 -m py_compile wissenswerk.py 7w_wiki.py`
+- `./7w_wiki.py test --suite wissenswerk-contract --timeout 60`
+- `./7w_wiki.py test --suite tool-manifest-contract --timeout 60`
+- `./7w_wiki.py test --suite catalog-contract --timeout 60`
+- `./7w_wiki.py test --suite manifest-contract --timeout 60`
+- `./7w_wiki.py test --suite clean-client-state --timeout 60`
+- `./7w_wiki.py audit --json` (`issues_found = 0`)
+- `./7w_wiki.py wissenswerk ingest --from-ragprep .agent/tests/fixtures/ragprep --json`
+- `./7w_wiki.py wissenswerk search Siebenwind --source wiki --top 2 --json`
+
+#### [2026-04-19.02] - RESEARCH-2026-018 formal geschlossen
+### Prioritaet: P1
+### Geändert
+- `System/Synapse_Board/RESEARCH-2026-018.md` und `docs/Archiv/RESEARCH-2026-018.md`: Status auf abgeschlossen gehoben; Abschlussbefund trennt Historian-Semantik von allgemeinem Pages-/Resolver-Backlog.
+- `System/Synapse_Board/LORE_RESEARCH_BOARD.md` und `docs/Archiv/Research_Board.md`: `RESEARCH-2026-018` aus den offenen Historian-Faellen in die geloesten Faelle verschoben.
+- `MASTER_TASK_LIST.md`: aktiven Fokus angepasst; Magie/index-Disambiguierung ist erledigt, der verbleibende Pages-WARN bleibt allgemeiner Linkbacklog.
+### Validiert
+- `rg "\[\[(Magie|index|WikiLinks)\]\]" docs/Siebenwind_Wiki -g '*.md'` ohne Treffer.
+- `./7w_wiki.py pages validate --contract --json` bleibt WARN mit `drift_status = PASS`, `629` unresolved und `627` unallowlisted; die Restwarnungen fuer `Magie`/`WikiLinks` haben leere `source_pages`.
+- Oracle/Historian-RAG konnte weiterhin nicht laufen, weil `jinaai/jina-embeddings-v3` offline nicht im Cache liegt; die Entscheidung stuetzt sich auf die vorhandene Matrix und direkte Dateipruefung.
+
 #### [2026-04-19.01] - Forum-Ingestion v2 und Handover-Status
 ### Prioritaet: P1
 ### Hinzugefügt

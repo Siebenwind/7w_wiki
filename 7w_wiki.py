@@ -252,6 +252,13 @@ COMMAND_METADATA = {
         "supports_run_mode": False,
         "interactive_default": True,
     },
+    "wissenswerk": {
+        "summary": "Run the generic Wissenswerk 2.0 corpus-to-wiki platform CLI.",
+        "context": "wissenswerk.py",
+        "json_capable": True,
+        "supports_run_mode": False,
+        "interactive_default": False,
+    },
 }
 
 def get_oracle_python():
@@ -281,11 +288,14 @@ def infer_action_kind(action):
     return "positional"
 
 def serialize_action(action):
+    required = getattr(action, "required", False)
+    if getattr(action, "nargs", None) == argparse.REMAINDER:
+        required = False
     data = {
         "name": action.dest,
         "flags": action.option_strings,
         "help": action.help or "",
-        "required": getattr(action, "required", False),
+        "required": required,
         "type": infer_action_type(action),
         "kind": infer_action_kind(action),
     }
@@ -751,6 +761,10 @@ def main():
     mcp_parser.add_argument("--transport", choices=["stdio", "streamable-http"], default="stdio", help="Transport mode")
     mcp_parser.add_argument("--port", type=int, default=7777, help="Port for HTTP transport")
 
+    # Wissenswerk 2.0 compatibility bridge
+    wissenswerk_parser = subparsers.add_parser("wissenswerk", help="Run generic Wissenswerk 2.0 commands")
+    wissenswerk_parser.add_argument("args", nargs=argparse.REMAINDER, help="Arguments for wissenswerk.py")
+
     # Check for help-json explicitly before parsing (to bypass required arguments)
     if "--help-json" in sys.argv:
         schema = {
@@ -1161,6 +1175,9 @@ def main():
     elif args.command == "mcp":
         mcp_args = ["--transport", args.transport, "--port", str(args.port)]
         run_script("System/MCP/server.py", mcp_args)
+
+    elif args.command == "wissenswerk":
+        run_script("wissenswerk.py", args.args)
 
     else:
         parser.print_help()

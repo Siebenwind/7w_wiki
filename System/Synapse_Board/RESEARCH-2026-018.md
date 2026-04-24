@@ -3,7 +3,7 @@ layout: wiki_page
 title: "Historian-Fall: Disambiguierung generischer Begriffe Magie und index"
 category: Synapse Board
 id: RESEARCH-2026-018
-status: OPEN_HISTORIAN
+status: DONE
 priority: 4
 subject: Disambiguierung generischer Begriffe Magie und index
 detected_by: Codex
@@ -16,10 +16,12 @@ reward: Pages Integrity +10 / Terminologiehaerte
 Der Fall entstand aus dem Pages-/Linkhygiene-Lauf nach der Statistik- und Resolver-Bereinigung am 2026-04-08. Die mechanischen Korrekturen sind weitgehend ausgeschoepft; der Restbestand besteht nun ueberwiegend aus semantischen Begriffsverwendungen, die nicht blind per Repair aufloesbar sind.
 
 ## 🔍 Operative Lage
-Der Fall ist **nicht mehr rein technisch**, aber auch **noch keine Menschvorlage**. Die offenen Treffer mischen:
+Der Fall ist **fachlich abgeschlossen**. Die ursprünglichen Treffer mischten:
 - `Magie` als generischer Begriff,
-- `[[index]]` als Platzhalter fuer sehr unterschiedliche Inhalte (Geschichte, Ordnung, Sprache, Bibliothek, Recht, Werk, Bericht),
+- index-Platzhalter fuer sehr unterschiedliche Inhalte (Geschichte, Ordnung, Sprache, Bibliothek, Recht, Werk, Bericht),
 - einzelne Resolver-/Archivresiduen wie `WikiLinks`, die nicht ueber Inhaltsumschreibung geloest werden sollten.
+
+Stand 2026-04-19: Die Semantik-Matrix liegt vor, alle exakten index-Platzhalter in `docs/Siebenwind_Wiki/` sind bereinigt, und gezielte Pruefung findet dort keine exakten Magie-, index- oder WikiLinks-Wikilinks mehr. Die verbliebenen Pages-Warnungen fuer `Magie` und `WikiLinks` haben leere `source_pages` und gehoeren damit nicht mehr in die Historian-Inhaltsarbeit, sondern in den allgemeinen Pages-/Resolver-Backlog.
 
 ## 🧭 Eskalationsklasse
 - [x] historian_noetig
@@ -35,10 +37,10 @@ Der Fall ist **nicht mehr rein technisch**, aber auch **noch keine Menschvorlage
 - [x] `docs/Siebenwind_Wiki/01_Pantheon/Astrael.md`
 
 ## 🧬 Erwartete Ergebnisse
-- [ ] Disambiguierungsleitlinie fuer `Magie` als Begriff vs. kanonische Zielseiten
-- [ ] Katalog fuer die haeufigsten `index`-Bedeutungen im aktiven Wiki-Bestand
-- [ ] Konservative Liste: was operativ ersetzt werden darf und was als normaler Klartext stehen bleiben soll
-- [ ] Keine blinde Massenersetzung; nur belastbare semantische Retargets
+- [x] Disambiguierungsleitlinie fuer `Magie` als Begriff vs. kanonische Zielseiten
+- [x] Katalog fuer die haeufigsten `index`-Bedeutungen im aktiven Wiki-Bestand
+- [x] Konservative Liste: was operativ ersetzt werden darf und was als normaler Klartext stehen bleiben soll
+- [x] Keine blinde Massenersetzung; nur belastbare semantische Retargets
 
 ## 🧠 Historiker-Briefing
 Der Technikerlauf hat den rein mechanischen Teil bereits reduziert (`generic_term_conflict` von 15 auf 5; `safe_alias_match` von 4 auf 2). Die verbleibenden Faelle verlangen keine neue Brueckenproduktion, sondern eine begriffliche Ordnung:
@@ -73,15 +75,15 @@ Oracle/Historian konnte nicht gegen den Vektorindex laufen, weil das lokale Mode
 | Chronik, Zeitalter, Boten-Ausgaben, Ereignisberichte | Geschichte/Chronik | `docs/Siebenwind_Wiki/04_Chronik/Die_Chronik.md` | Auf `[[Geschichte]]`, `[[Die_Chronik]]` oder Klartext je nach Satz; Boten-Indizes bleiben Navigationsseiten. |
 | Recht, Gericht, Akte, Exekutivgewalt, Ordnung | Recht/Ordnung | Treffer in Chronik- und Gesellschaftsartikeln | Nur retargeten, wenn Satz eindeutig juristisch ist; sonst Historian-Pruefung. |
 | Magische Theorie, Wirken, Astrales Netz, Mana, Pfade | Magie | `Magie_Grundlagen`, `Magietheorie_Toran_Dur`, Werkartikel unter `03_Wissen/Werke/` | Auf Klartext `Magie` oder konkrete Magietheorie-Seite nach Kontext. |
-| Kategoriezeilen wie `Kategorie: [[index]] / Baronie` | Struktur-/Kategorieartefakt | Regionsartikel | Technician/Production sollte Kategoriefrontmatter reparieren; kein Lore-Retarget. |
+| Kategoriezeilen wie `Kategorie: index / Baronie` | Struktur-/Kategorieartefakt | Regionsartikel | Technician/Production sollte Kategoriefrontmatter reparieren; kein Lore-Retarget. |
 | Rohquellen unter `docs/Quellen/` | Quellenartefakt | Bote 176/179/180/181 | Nicht direkt umschreiben, solange keine hoehere Quelle bestaetigt; Wiki-Derivate separat korrigieren. |
 
 ### Konservative Freigaben
 
-- `[[index]]` in `Magie_Grundlagen.md` und `Magietheorie_Toran_Dur.md` darf nicht generisch bleiben; dort ist der Begriff fast durchgehend `Magie`, teils mit Ziel `[[Magie_Grundlagen]]` bzw. `[[Magietheorie_Toran_Dur]]`.
-- `[[index]]` in `Linguistik_Übersicht.md` ist ueberwiegend `Sprache`/`Sprachen`; nur Run-spezifische Saetze duerfen auf `[[Die_Sprache_Run]]`.
-- `[[index]]` in `Bibliotheks_Register.md` meint je nach Satz `Werke`, `Schriften` oder `Bibliothek`; hier ist Klartext meist sicherer als neue WikiLinks.
-- `[[index]]` in Chronik-Indexseiten meint meist `Chronik`, `Geschichte`, `Ausgaben-Index` oder `Berichte`; Navigationsseiten nicht als lorehaltige Zielartikel behandeln.
+- index-Platzhalter in `Magie_Grundlagen.md` und `Magietheorie_Toran_Dur.md` duerfen nicht generisch bleiben; dort ist der Begriff fast durchgehend `Magie`, teils mit Ziel `Magie_Grundlagen` bzw. `Magietheorie_Toran_Dur`.
+- index-Platzhalter in `Linguistik_Übersicht.md` sind ueberwiegend `Sprache`/`Sprachen`; nur Run-spezifische Saetze duerfen auf `Die_Sprache_Run`.
+- index-Platzhalter in `Bibliotheks_Register.md` meinen je nach Satz `Werke`, `Schriften` oder `Bibliothek`; hier ist Klartext meist sicherer als neue WikiLinks.
+- index-Platzhalter in Chronik-Indexseiten meinen meist `Chronik`, `Geschichte`, `Ausgaben-Index` oder `Berichte`; Navigationsseiten nicht als lorehaltige Zielartikel behandeln.
 
 ### Nicht freigegeben
 
@@ -93,5 +95,15 @@ Oracle/Historian konnte nicht gegen den Vektorindex laufen, weil das lokale Mode
 ## 🏛️ Menschvorlage (nur falls noetig)
 Aktuell **nicht noetig**. Eine Menschvorlage entsteht nur dann, wenn der Historiker bei einzelnen Begriffen auf echte Kanonkonkurrenz oder unaufloesbare Mehrdeutigkeit zwischen belastbaren Lesarten stoesst.
 
+## ✅ Abschluss 2026-04-19
+
+Der Historian-Teil von `RESEARCH-2026-018` ist erledigt. Ergebnis ist keine neue Lore-Behauptung, sondern eine belastbare Arbeitsgrenze:
+
+- `Magie` bleibt im Fliesstext Klartext, solange kein expliziter Grundlagen-, Toran-Dur- oder Pfadbezug besteht.
+- `05_Magie/index.md` bleibt eine Navigationsseite und ist kein semantisches Fliesstextziel.
+- `index` wurde als Platzhalterklasse aufgeloest; die aktiven Wiki-Seiten enthalten keine exakten index-Wikilinks mehr.
+- `WikiLinks` und source-page-leere Restwarnungen sind Technician-/Resolver-Arbeit, nicht Historian-Lore.
+- Der verbleibende Pages-WARN (`629` unresolved / `627` unallowlisted im Contract-Lauf vom 2026-04-19) ist der allgemeine Linkbacklog und kein offener Magie/index-Fall.
+
 ---
-*Aktiver Historian-Fall auf Basis groesserer fachlicher Unklarheit nach ausgeschoepfter mechanischer Reparatur.*
+*Abgeschlossener Historian-Fall auf Basis groesserer fachlicher Unklarheit nach ausgeschoepfter mechanischer Reparatur.*

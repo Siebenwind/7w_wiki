@@ -2,8 +2,8 @@
 layout: wiki_page
 title: RESEARCH-2026-018 - Disambiguierung generischer Begriffe Magie und index
 category: Archiv
-status: open_historian
-letzter_check: 2026-04-08
+status: resolved
+letzter_check: 2026-04-19
 ---
 
 # RESEARCH-2026-018 - Disambiguierung generischer Begriffe Magie und index
@@ -18,7 +18,7 @@ Wie sollen die verbleibenden generischen Begriffe `Magie` und `index` im aktiven
 - Produktionsfaehige Semantik
 
 ## Status
-**Fachlich offen.** Der Fall entsteht aus der Pages-/Repair-Arbeit nach ausgeschoepfter mechanischer Linkbereinigung und ist noch keine Menschvorlage.
+**Fachlich abgeschlossen.** Der Fall entstand aus der Pages-/Repair-Arbeit nach ausgeschoepfter mechanischer Linkbereinigung und wurde ohne Menschvorlage geloest.
 
 ## Erwartetes Ergebnis
 Eine belastbare Arbeitsmatrix fuer `Magie`- und `index`-Verwendungen, mit der spaetere Technik-/Produktionslaeufe nur noch klar abgesicherte Retargets anfassen.
@@ -52,7 +52,13 @@ Der Oracle-Lauf konnte nicht gegen den lokalen Vektorindex arbeiten, weil das Em
 
 ### Freigabegrenze
 
-Freigegeben ist nur kontextklare Korrektur. Nicht freigegeben sind pauschale Ersetzungen von `[[index]]`, neue Bridge-Seiten fuer `Magie` oder `index`, sowie Umschreibungen von Rohquellen.
+Freigegeben ist nur kontextklare Korrektur. Nicht freigegeben sind pauschale Ersetzungen von index-Platzhaltern, neue Bridge-Seiten fuer `Magie` oder `index`, sowie Umschreibungen von Rohquellen.
+
+## Abschluss 2026-04-19
+
+Die Historian-Frage ist erledigt: Die Semantik-Matrix trennt `Magie` als allgemeinen Begriff von Grundlagen-, Toran-Dur- und Pfadbezug; `05_Magie/index.md` bleibt reine Navigation; `index` wurde als Platzhalterklasse fuer aktive Wiki-Seiten ausgeraeumt. Gezielte Pruefung findet in `docs/Siebenwind_Wiki/` keine exakten Magie-, index- oder WikiLinks-Wikilinks mehr.
+
+Der verbleibende Pages-WARN ist allgemeiner Linkbacklog. Restwarnungen fuer `Magie` oder `WikiLinks` ohne `source_pages` gehoeren in den Resolver-/Technician-Track, nicht in weitere Historian-Inhaltsarbeit.
 
 ---
 **Siehe auch:** [[Magie_Grundlagen]], [[Research_Board]]
