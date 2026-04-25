@@ -114,9 +114,18 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [wissenswerk.py](../wissenswerk.py) (Wissenswerk 2.0 Plattform-CLI fuer generische Korpus-zu-Wiki-Workflows)
 - [x] [wissenswerk.yaml](../wissenswerk.yaml) (Siebenwind-Referenztenant und Provider-/RagPrep-/Auto-Apply-Konfiguration)
 - [x] [project_manifest.json](../project_manifest.json) (Generisches Wissenswerk-Produktmanifest; `lore_manifest.json` bleibt Legacy-Export)
+- [x] [wissenswerk_export_manifest.json](../wissenswerk_export_manifest.json) (Branch-first Extraktionsvertrag fuer das spaetere eigenstaendige Wissenswerk-Repository)
 - [x] [DESIGN.md](../DESIGN.md) (Agentenlesbarer Designvertrag fuer Wissenswerk UI-/Dokumentationsflaechen)
+- [x] [docs/Wissenswerk/index.md](../docs/Wissenswerk/index.md) (Technischer Einstieg fuer den generischen Wissenswerk-Kern)
+- [x] [docs/Wissenswerk/architecture.md](../docs/Wissenswerk/architecture.md) (Wissenswerk-Schichten, Datenfluss und Legacy-Abgrenzung)
+- [x] [docs/Wissenswerk/cli.md](../docs/Wissenswerk/cli.md) (CLI- und Operationsreferenz fuer `./wissenswerk.py`)
+- [x] [docs/Wissenswerk/retrieval.md](../docs/Wissenswerk/retrieval.md) (Retrieval-, RagPrep- und Memory-Vertrag)
+- [x] [docs/Wissenswerk/cleanup.md](../docs/Wissenswerk/cleanup.md) (Branch-Cleanup, Report-Hygiene und Public-Repo-Exportgate)
+- [x] [docs/Wissenswerk/discord-bot.md](../docs/Wissenswerk/discord-bot.md) (Discord-Bot-Zieladapter auf der gemeinsamen Retriever-/Oracle-Schnittstelle)
+- [x] [docs/Wissenswerk/agent-system-hermes.md](../docs/Wissenswerk/agent-system-hermes.md) (Hermes-/Agentensystem-Integration ueber neutrale Vertraege)
+- [x] [docs/Wissenswerk/positioning.md](../docs/Wissenswerk/positioning.md) (Produktpositionierung gegen Karpathy-/LLM-Wiki-Muster)
 - [x] [.agent/tests/suites/wissenswerk-contract.json](../.agent/tests/suites/wissenswerk-contract.json)
 - [x] [.agent/tests/fixtures/ragprep/sample_chunks.json](../.agent/tests/fixtures/ragprep/sample_chunks.json)
 
 ---
-*Zuletzt aktualisiert: 2026-04-24T17:10:00Z | Ref: #wissenswerk_2_0_platform_core_2026_04_24*
+*Zuletzt aktualisiert: 2026-04-24T18:25:00Z | Ref: #wissenswerk_2_0_documentation_2026_04_24*

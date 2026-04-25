@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-04-09T13:36:05Z",
+  "entries": [
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-03_155049.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-03_155049.json",
+      "family": "stats_snapshots"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-03_155100.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-03_155100.json",
+      "family": "stats_snapshots"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-03_155101.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-03_155101.json",
+      "family": "stats_snapshots"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-03_172339.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-03_172339.json",
+      "family": "stats_snapshots"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-03_172355.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-03_172355.json",
+      "family": "stats_snapshots"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-03_172356.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-03_172356.json",
+      "family": "stats_snapshots"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-03_180833.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-03_180833.json",
+      "family": "stats_snapshots"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-03_183302.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-03_183302.json",
+      "family": "stats_snapshots"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-03_183318.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-03_183318.json",
+      "family": "stats_snapshots"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-08_145843.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-08_145843.json",
+      "family": "stats_snapshots"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-08_145848.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-08_145848.json",
+      "family": "stats_snapshots"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-08_160606.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-08_160606.json",
+      "family": "stats_snapshots"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/STATS_SNAPSHOT_2026-04-08_160607.json",
+      "cold_path": "Logs/Archive/cold/stats_snapshots/2026-04/STATS_SNAPSHOT_2026-04-08_160607.json",
+      "family": "stats_snapshots"
+    }
+  ]
+}

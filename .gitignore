@@ -1,54 +1,47 @@
-# === OS ===
-.DS_Store
-Thumbs.db
-
-# === Python ===
+# Python
 __pycache__/
-*.pyc
-*.pyo
-venv/
-.venv/
+*.py[cod]
 *.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
 
-# === ML Models & Data ===
-.agent/data/models/
-.agent/data/chroma_db/
-.agent/data/oracle_venv/
-.agent/data/*_latest.json
-.agent/data/*SNAPSHOT*.json
-.agent/data/pages_health.json
-.agent/data/pages_cache/
-.agent/data/workflow_state.json
-.agent/skills/oracle/config.json
-.agent/skills/oracle/venv/
+# Secrets and local provider config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
 
-# === IDE ===
-.vscode/
-.idea/
+# Wissenswerk runtime state
+.wissenswerk/
+reports/wissenswerk/
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql.gz
 
-# === Logs & Temp ===
-*.log
-Logs/Queues/
-Logs/Archive/*
-!Logs/Archive/SESSION_MEMORY_*.md
-!Logs/Archive/AUDIT_CONSOLIDATION_INDEX_*.md
-!Logs/Archive/AGENT_CHANGE_PACKET_*.md
+# RagPrep and corpus-local outputs
+ragprep_output/
+ragprep_outputs/
+.ragprep/
+corpus/.ragprep/
+
+# Bot and memory caches
+bot_session/
+discord_session/
+honcho_cache/
+
+# Build and docs output
 site/
 dist/
-.tmp/
-missing_links.txt
-register_links.txt
-walkthrough.md
-/tmp/7w_test_*
+build/
 
-# === Debug & One-Off Artifacts (never commit) ===
-*_debug.json
-*_backup
-
-# === Archives (Raw originals, not needed in deployed wiki) ===
-Quellen/_ARCHIV_ORIGINAL/
-
-# === Antigravity Agent Brain (conversation-specific) ===
-.gemini/
-Inbox/
-System/DELEGATION_CODEX_PHASE_20.md
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

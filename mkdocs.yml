@@ -87,6 +87,16 @@ nav:
     - Changelog: CHANGELOG.md
     - Redesign Roadmap 2026: Archiv/REDESIGN_ROADMAP_2026.md
   - Betrieb und Technik:
+    - Wissenswerk:
+      - Uebersicht: Wissenswerk/index.md
+      - Architektur: Wissenswerk/architecture.md
+      - CLI und Betrieb: Wissenswerk/cli.md
+      - Retrieval und Memory: Wissenswerk/retrieval.md
+      - Branch Cleanup: Wissenswerk/cleanup.md
+      - Publication Readiness: Wissenswerk/publication-readiness.md
+      - Discord Bot: Wissenswerk/discord-bot.md
+      - Agentensystem und Hermes: Wissenswerk/agent-system-hermes.md
+      - Positionierung: Wissenswerk/positioning.md
     - Agenten-Hub: Agenten/index.md
     - Operations Handbook: AGENT_OPERATIONS_HANDBOOK.md
     - Interop: Agenten/interop.md

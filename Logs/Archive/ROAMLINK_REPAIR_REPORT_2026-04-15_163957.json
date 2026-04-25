@@ -1,0 +1,4103 @@
+{
+  "generated_at": "2026-04-15T16:39:57Z",
+  "mode": "dry-run",
+  "classification_counts": {
+    "safe_exact_match": 8,
+    "safe_alias_match": 1,
+    "generic_term_conflict": 5,
+    "needs_historian": 621,
+    "needs_human": 0
+  },
+  "fixed": [
+    {
+      "target": "En'Hor",
+      "replacement": "Enhor",
+      "count": 3,
+      "source_pages": [
+        "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur).md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Ritualisierung_(Rhadan_der_Graue).md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Schamanische_Magie_(Fragment).md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Sphaerenkunde_(Wolfgang_Ravinsthal).md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_169.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_181.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
+        "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md"
+      ],
+      "changed_files": [],
+      "classification": "safe_exact_match"
+    },
+    {
+      "target": "Dämonen",
+      "replacement": "Daemonen",
+      "count": 2,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Die Nacht des Dunkeltiefs.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Glossar.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Lichthoch.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Aequilibrium.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Ritus_der_Exercitio.md",
+        "docs/Siebenwind_Wiki/02_Geografie/Brandenstein.md",
+        "docs/Siebenwind_Wiki/02_Geografie/Finsterwangen.md"
+      ],
+      "changed_files": [],
+      "classification": "safe_exact_match"
+    },
+    {
+      "target": "[Siebenwind",
+      "replacement": "Siebenwind",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/Historian_Report_2026_003.md",
+        "docs/Archiv/RESEARCH-2026-005.md",
+        "docs/Archiv/RESEARCH-2026-009.md",
+        "docs/Archiv/RESEARCH-2026-012.md",
+        "docs/Archiv/RESEARCH-2026-017.md",
+        "docs/Archiv/Research_Board.md",
+        "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md",
+        "docs/Quellen/Spielergeschichten/Illis_Geschichtenecke.md",
+        "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 176.md",
+        "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 178.md"
+      ],
+      "changed_files": [],
+      "classification": "safe_exact_match"
+    },
+    {
+      "target": "Forschungsberichte ([[Toran_Dur",
+      "replacement": "Forschungsberichte_(Toran_Dur)",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Caieta_Ajunier.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Enoah_Sullin.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rianna.md"
+      ],
+      "changed_files": [],
+      "classification": "safe_exact_match"
+    },
+    {
+      "target": "Su'un",
+      "replacement": "Su-un",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/index.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_Blutrote_Stier.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_Traum_der_Tausend.md"
+      ],
+      "changed_files": [],
+      "classification": "safe_exact_match"
+    }
+  ],
+  "ambiguous": [
+    {
+      "target": "Die_Sammler",
+      "count": 5,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sire_Aspin",
+      "count": 5,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_letzte_Falke.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Garthis_Eid",
+      "count": 4,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Il'Drun",
+      "count": 4,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Althea_Danea.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Inkwitmoore",
+      "count": 4,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Kanath",
+      "count": 4,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Die_Goldenen_Tafeln.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magie",
+      "count": 4,
+      "source_pages": [],
+      "classification": "generic_term_conflict",
+      "suggestions": []
+    },
+    {
+      "target": "Orogrim",
+      "count": 4,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Die_Elemente_ungleiche_Geschwister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tai_Sah'Halour",
+      "count": 4,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ashordon",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Horlafstrom_Theorie.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Bannstaub",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Alchemie_Kompendium.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Carmer",
+      "count": 3,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Einsame Ladengedanken.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Dordrun",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Erzconsilium_der_Viere",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Codex_Iuris_Canonici.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Falkenhorst",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_letzte_Falke.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Fera_Noril",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/06_Erzählungen/Der_Flug_der_Ente.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Il'Drûn",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Kosmologie",
+      "count": 3,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Orden_des_Heiligen_Schwertes_Bellums",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Landrin_Eisklinge.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Religion",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Chernides.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Religionsphilosophie",
+      "count": 3,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Robaar_von_Saalhorn",
+      "count": 3,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Abschied_und_Verrat.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Saalhorn",
+      "count": 3,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Abschied_und_Verrat.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "...",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "02_Geografie",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "06_Gruppen",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lucius_Gropp.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Adelssystem Galadon",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Galadon.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Koruun_McKevin.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Akademie_Brandenstein",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Magier_Etikette.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Akademie_Tiefenbach",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Akira",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Akoras_Turm",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Arkane_Akademie",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Arkane_Geometrie",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Arkanium",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arkane_Kriegfuehrung.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Asodayr_I_Ahm_Erson",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Weissmagie_(Althea_Danea).md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Auktionshaus_Graustein",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Auren und die Verbreitung der Elfenvölker",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Elfen.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Brandensteiner_Zunft",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Anschlag_auf_den_Handelsbund.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Brockental",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Voelker_(Garreth_Moss).md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "C._Eibenwald",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Daimonologie_Grundlagen",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Der_Schwarzmagier",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Dämonenseuche",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Eiserne_Tafeln",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Die_Silbernen_Tafeln.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Elementarherren",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Endrûn",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ensis_Caelestis",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Erste_Mutter",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Die_Goldenen_Tafeln.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Falken_von_Silberwald",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Familie_Gerdenwald",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Herbren_Maltis.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Fila_sensoriae",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Finanzverwaltung",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Anijane_Lavid.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Galthana",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_158.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Garilko_Wopes",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_149.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gilden_und_Handwerk",
+      "count": 2,
+      "source_pages": [
+        "docs/Archiv/PROJECT_HISTORY.md",
+        "docs/Archiv/RESEARCH-2026-009_Report.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Glurdrûn",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Glurias",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Handwerk",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Talida.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tanja_Wollframm.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Haus_ap_Mer",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hilgorad_I_ap_Mer.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Haus_Saalhorn",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Heilige_Kuranstalt",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hilgorad_I",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hintergrund",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kazla.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ian_Saranis",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Iudicium_Divinus",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Jannaia_Lavrial",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_165.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Katzchen",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_letzte_Falke.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Klerus",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Koenigliche_Magierakademie_zu_Siebenwind",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Graue_Garde.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Kompendium_Weissmagie",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Althea_Danea.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Laienorden_der_Viere",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Leomar_Finkenfarn.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Limbus",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magier_ohne_Namen",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arcana_Procella.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magierturm_zu_Siebenwind",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Dame_al_Javet.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magische_Sprachen",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Malthust",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Malthuster_Viereinigkeit",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Marine_Siebenwinds",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Schneid.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Nachtschatten",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Nekromantie",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Norland",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lothgar.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Odalerich_I_Ap_Erson",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Weissmagie_(Althea_Danea).md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Okallus_Barim",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Orden_vom_Wachenden_Loewen",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur).md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ordo_Ignis",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hormtosh_Wuchthammer.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Organisationenregister",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Priorei_Brandenstein",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Rasse_Myten",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Menschen.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Reliquien",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ritterschaft_vom_Falkenhorst",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Rubenia_Sturmspalter",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Die_Zwergen_WG.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Schwertmeister_Tesion",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Ritterehre_De_Itinere_Honoris.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Setas_Gonar",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/08_Bestiarium/Gargoyles.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sheddja",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Siebenwind_Bote_120|120-125",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Siebenwind_Bote_126|126-140",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Siebenwind_Bote_141|141-160",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Siebenwind_Bote_161|161-170",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Siebenwind_Bote_171|171-185",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Siebenwind_Bote_186|186-194",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Skapen",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Thar_Sala",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_151.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ravia_Thyrandor.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Thaumaturgische_Gitter",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Artefaktlehre.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Traumformung",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_Traum_der_Tausend.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tunneleffekt",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Turm_der_Magie",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Zensor",
+      "count": 2,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "01_Catar",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Roland_Telvos.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "01_Enhor",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "01_Ventus",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "03_Morsan",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_191.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "10_Angamon|10 Angamon",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "20_Rassen_Zwerge",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Rien.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "21_Rassen_Elfen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Ventus.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "A.D.",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_148.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Adepta Hohentann",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/08_Bestiarium/Bestie_von_Brandenstein.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Akademie_des_gruenen_Zweiges",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Akademie_von_Brandenstein",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Codex_Astraeli.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Akademie_von_Toran_Dur",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Akademie_zur_Linken",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hevelius_Dunkelfeld.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Alarich_Falkenhain",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Alchemie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Anonymus.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Aldorn",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Waldemars_Reise_Papin.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Alt_Galad",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Foki_(Dimiona).md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Amriele_Silberfels",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Amulettgeister",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Geschichte_der_Mondamulette.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Angstdämonen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Ödland.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Anstalt_fuer_ozeanische_Thaumaturgie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Arkane_Gesellschaft",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Arkane_Verbindung",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Johann_Liebig.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Arkanogenese",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Artefakte",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Artefakterstellung",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Askese_Weg",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Asodayr_I",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Astralebene",
+      "count": 1,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Einer Löwin Traum.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Atema_Fellaran",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Atema_Fellaran_zu_Bernstein",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Auelfen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Maichellis_Wanderstern.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Auenelfen | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Auenwald",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_125.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Aura_Primus",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arcana_Procella.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Auren",
+      "count": 1,
+      "source_pages": [],
+      "classification": "safe_alias_match",
+      "suggestions": [
+        "Laurelin",
+        "Arn",
+        "Rien",
+        "Tare",
+        "Region_Auren"
+      ]
+    },
+    {
+      "target": "Avor",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Massenentlassung_Kriegerakademie_15_nH.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Awa",
+      "count": 1,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Einsame Ladengedanken.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ayleen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Baldasti",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_175.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Baronsforstverwaltung",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Isgrim.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Bekanntmachungen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Belebender_Odem",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Bellum-Kirche",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Veridon.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Bellum-Orden",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Berg_der_Traumkatze",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Bergheim",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Bestiarium",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/08_Bestiarium/Riesenspinnen.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Bibliothek_Astrael",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Bindungslehre",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Elurai_Calades.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Bjoern_Zemand",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_167.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Blinde_Maler",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/08_Bestiarium/Daemonen.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Blitz",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Elementare_Atomlehre.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Blutmagie",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Brecher",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Zerstoerung_von_Westhever.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Bresch",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Burg Bernstein",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Bernstein.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Bürger",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Recht_Siebenwinds.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Calades",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Corpus_et_Spiritus",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Daimonologie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Metamorphose_und_Gestaltwandel.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Daimonologie und Schwarze [[index",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Daniel_Donares",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_148.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Daron",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_151.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Das_Daimonicon",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": [
+        "Daimonicon",
+        "Das_Daimonicon_(Kulin_Lateal)"
+      ]
+    },
+    {
+      "target": "Das_Rund",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Dedelebres_Zuflucht",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Celedelair.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Delarie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Der_bunte_Fremde",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Der_Gehörnte",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Der_Hohe_Rat",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Derfflinger",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Myrandhir.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Die [[index",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Lehrbuch_der_Magietheorie_(Toran_Dur).md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": [
+        "Die_Chronik",
+        "Die_Magie_(Toran_Dur)"
+      ]
+    },
+    {
+      "target": "Die Ordenssatzung ... ([[Toran_Dur",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Die_Bestien",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Die_Dwarschim",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Adolfo_Bastian.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Die_Ersten",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Die_Foki",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Dimiona.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Die_Weisse_Aera",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Diener_des_Einen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/William_Glaron.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Diözese_Siebenwind",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Sean_Eire.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Djinns",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Dornenkrieg",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Drei-Gekronter-Drache",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Dreiteilung_Siebenwinds",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Dunkle_Ritter",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Johan_Gottfried.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Edomwayr",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Magica_Curativa_(Toran_Dur).md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Egozentrik_im_Glauben",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ein Elf",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Eis",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Elementare_Atomlehre.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Eisernen Tafeln",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Die_Goldenen_Tafeln.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ekre",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Briefe_aus_der_Ferne.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Elementarismus",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Elementarlehre",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Elementarlehre_Erde",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Elementarlehre_Feuer",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Elementarlehre_Wasser",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Elementarmagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Uron_Sbocaj.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Elementaropfer",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Elemente_der_Mitte",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Elyran_Fischer.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Elendur",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Endrun",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Entenschnabel-Flugfisch",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Etikette",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Anonymus.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Exorzismus_Bannung",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Extractio_Illuminati",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Falkenorden",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Malika_Nohadi.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Famir_Aldun",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Azgar_Kazanin.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Feuerwesen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Fila_astralae",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Fila_Instructae",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Fila_logicae",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Filiae_astraeli",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Filiae_manae",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Filiae_proelium",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Finanzen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Saphyriella.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Flux",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Foth",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_149.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Freie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Recht_Siebenwinds.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Friedward_von_Gerdenwald",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Gerdenwald.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Fundgrube",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Heinrich_Drachenfall.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Fürst_Raziel",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/08_Bestiarium/Tardukai.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Fürstentum_Malthust",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Der_Erlass_des_Koenigs.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Galadonier",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_168.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Galtors_Schwinge",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Garde",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Die_Spinnenplage_von_Falkensee.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gastronomie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Svendra_Merseck.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gawain_von_Tiefenwald",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Mirian.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gefaengnissystem",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gefaengnissystem.md",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gefühlsmagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Geisterwald",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gemeinschaft_der_Elementargläubigen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gerechtigkeit",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Geschichte_Falandriens",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gesetze",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/10_Archiv/Statut_der_Kronmark_Siebenwind.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gesetzeskodex_der_Kronmark",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Inselrat.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Glaubensdoktrin",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Glaubenslehre",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Glurdrun",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gnaden_Custodias",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hevelius_Dunkelfeld.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gnome",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gold",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Goldene_Tafeln",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Die_Silbernen_Tafeln.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Goldener_Drache",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gott Angamon",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Sae.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gott Astrael",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Sae.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gott Be'rglum",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Orken.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gott Ci'rgbus",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Orken.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gott Ignis",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Zwerge.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Gott Morsan",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Morthum.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Grab_aus_Wellen",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Grosse_Meister",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Grundstein_der_Welt",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Göttin Vitama",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Halblinge.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Göttliche_Ordnung",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "H&H_der_Dwarschim",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Fogrim_Goldaxt.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hafen_Brandenstein",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hagen_Robaar_zu_Saalhorn",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Handelsbundturnier_15_nH",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Handelsbundturnier_15_nH_Ergebnisse.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Handelskonto",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Dwarshim.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hankuk",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Rituallehre_Sphaeren.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Havarr",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Vänskap.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Heilkunde",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rolosin_Vadebor.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Heilmagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Metamorphose_und_Gestaltwandel.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Heiltränke",
+      "count": 1,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Einsame Ladengedanken.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hektor_Steinhauer",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hemalar",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hierarchie",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Historie",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hochelfen | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hochtuerme",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hochtürme_der_Magie",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hohe_Alchemie",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hoher_Rat",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Horlaf",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hospiz_zu_Falkensee",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Laylira_Hohentann.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Humus",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Elementare_Atomlehre.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Häresie_der_Elementarverehrung",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Höhle Niemands",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Forschungsberichte_(Toran_Dur).md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hörige",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Recht_Siebenwinds.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hügelwald",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_125.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Hüter_des_Grosssiegels_der_Kronmark",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Koenigliches_Gericht.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ignis-Kirche",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Telandrion.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ikanariaschmetterling",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ingis",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Insel Siebenwind",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Ossian.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "INVENTUR_QUELLEN",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Irahfar",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Irdirim",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ita'Il",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ita'Im'Elarum",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "iustitia",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Jagd",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Nathar_Erres.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Jägergilde",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_148.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Jüngste_Schlacht",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Kabale",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Kabinett_Altor",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Inoch_Ateharis.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Kaempferschule",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Feste_Seeberg.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Kalender",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Die_Verbrennung_des_heiligen_Markus.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Kampfmagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Antimagie_und_Gegenzauber.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Khaleb",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Khyra_Gropp",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Knotentheorie",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Koenigliche_Kriegerakademie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Konflikt_Ersont_Malthust_21nH",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Cizra_Innuae.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Konig_der_Katzen",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Konvent_des_Loewenordens_51|51. Konvent des Löwenordens",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Kreaturen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Kreuzrueckenspinne",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Krieg_der_Feder",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Kudahar",
+      "count": 1,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Kuenstlerakademie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Könige_Falandriens",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hilgorad_I_ap_Mer.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Königliche Magierakademie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Graue_Charta_(Zweiter_Entwurf).md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Königliche_Akademie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Daena.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Königliche_Akademie_der_arkane_ Künste",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Argus_Ebonhart.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "L.",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "L.H.",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_132.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Landelfen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Landesorden",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Leckerlie",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Lehen_Suedfall",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ovelia_Galthana.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Lehen_Wasserwall",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Anijane_Lavid.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Lehnsherr",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Leitwolf_von_Westhever",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Leonard_von_Wolfenbach",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_171.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Lich",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Hoehere_Wesenheiten.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Lichtenfeld",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Feestar_von_Lichtenfeld.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Lit_Ita_Im_Elarum_Odalim_ir_Galadon",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tai_Sah_Halour_Glurias.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Locus_Magicae",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Johannes_Klos.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "LORE_RESEARCH_BOARD.md",
+      "count": 1,
+      "source_pages": [
+        "docs/MASTER_TASK_LIST.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Lyril",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Von_gesplitterten_Seelen.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magie Grauer Pfad",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Kadamark.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magie_Elementarmagie",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magie_Linker_Pfad",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/10_Archiv/Akademie_der_Schwarzen_Kuenste.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magier-Hierarchie",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magierakademie_Posten",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magierturm",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_147.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magietheorie_Dunkeltief",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magietheorie_Grundlagen",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magische_Rituale",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magister_Konvent",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Koenigliche_Akademie_der_Arkanen_Kuenste.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Magnifizenz_Calades",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Malakor",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Malthuster",
+      "count": 1,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Jenseits des Walls.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Malthuster_Armee",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_183.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Masseinheiten",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Masseinheiten.md",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Matrix_arcana",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Matrix_artificialis",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Matrix_naturalis",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Mazzarener",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arcana_Procella.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Maßeinheiten | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Militärwesen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Siebenwind_Kronregiment.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Mindoril",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Miran_Ernesto",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Inquisitionsprozess_gegen_Maar_und_Llewellyen.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Moorlaeuferin",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Morsansacker",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Roald_Spitzbart.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Myten | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Namikleris",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Navarian_Arandal",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_149.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Nebelberge",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Mirian.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Nebelbergen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Mirian.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Nekria_I",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Nekria_I_Ahm_Mer",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Neun_Gestirne",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "News",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Newsticker",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Niedere_Alchemie",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Nordforst",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_125.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Nortraven | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Objektive_Illusionistik",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Odalerich_I",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Orden_Bellums",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lorence.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Orden_der_Viere",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Communis_Medici.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Orden_vom_Heiligen_Schwert_Bellums",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Maltheos_Thorn.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Orden_vom_Roten_Salamander",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ork",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_125.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ortsrat_Brandenstein",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_152.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Pantheon",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Personen_Plinius_Deseglieri",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Aequitas.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Pilpulismus",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Profess",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Prophezeiungen",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "R.G.",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_142.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Rabainsteine",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Thjarek.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Rasse Halblinge",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Gerdenwald.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Rasse Rasse_Zwerge",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Kettel.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Rasse_Goblins",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Trollkrieg_von_Brandenstein.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Rasse_Skaven",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Von_dem_Boesen.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Rasse_Trolle",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Trollkrieg_von_Brandenstein.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Rassen und Klassen | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Raufels",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Heinrich_Drachenfall.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Region [[Region_Endophal",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Falkenstein.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Region Hügelau",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Halblinge.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Region Norland",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Khalandra.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Region Taras",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Galadon.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Register",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Reich_des_Nebelfurstens",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Religion Der Eine",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Vandrien.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "RESEARCH-2026-...",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Rhator_zeg",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_188.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Rhazzas",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Richard_Gropp",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ring_der_Wissenden",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Ritter_von_Siebenwind",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Rittergarde",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Roter_Stier",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sandro_Ernesto",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Inquisitionsprozess_gegen_Maar_und_Llewellyen.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Santanos_Alexandrius",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Schiffsregister",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Schule_der_tausend_Funken",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Schutzmagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Antimagie_und_Gegenzauber.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Schwarm",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Die_Mazzaremer.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Schwarze_Rose_aus_Obsidian",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Schwarzer_Monolith",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Schwarzmagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sekretarius_al_Wechnett",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_143.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Selbsteinschätzung",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Serafina",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/06_Erzählungen/Geschichten_eines_silbernen_Adlers.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Shag_zor_Ga_Zul",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sichelzahngnoll",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_162.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Siebtes_Element",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Silber",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Silberwald",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Simil",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Logbuch_des_Kerkers.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sinistrus",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Madame_Lafayette.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sir_Robaar",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_139.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sire_Siegfried_Steiner",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_139.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sire_von_Steiner",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Skrupel",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sonus",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sphaerenfaeden",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Artefaktlehre.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sphären",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Philosophie_der_Magie.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Stadt Draconis",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Bernstein.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Stadt Rothenbucht",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Rothschild.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Stadtconsula",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Stadtverordnung_Brandenstein",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_127.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Stein_der_Macht",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Geschichte_der_Mondamulette.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Streunerlager_Rohehafen",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Stumme_Stadt_des_Ostens",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Subjektive_Illusionistik",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Sumpfland",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Gerrion_Arres.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "SY_STANDARDS",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Wiki_Style_Guide.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Symbolik_Astraels",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "System_arkaner_Lokalitaeten",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kalveron_Dai.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tafeln_der_Asche",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tanz_der_Winde",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tare’say",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tarnek",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hevelius_Dunkelfeld.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tar’Sala",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Feanthil_(Arinth).md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Taurec_von_Schildtburg",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_173.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tellbas_Fellaran",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tellbas_Fellaran_zu_Bernstein",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Thaumaturgisches_Gitter",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Theorie zur arkan. Magie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Anonymus.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Theorie_der_elementaren_Atome",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Jennaia_Lavrial.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Theorien der [[index",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Magie_(Toran_Dur).md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Theorien_der_Magie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Terenon_Sarophilan.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tirgalad_Gildin",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Inquisitionsprozess_gegen_Maar_und_Llewellyen.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Titel_und_Raenge",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Toran_Dor",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Azgar_Kazanin.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Toron",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_184.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Totenvogel",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tradition_der_Magier",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Magier_Etikette.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tragantor",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Trinso_Langenbriel",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_124.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Tuhle",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Blakkurvald_Orla.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Turm_des_Nordwinds",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_190.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Udor",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Aus_dem_Liebesleben_eines_Dichters.md"
+      ],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Unsichtbarkeitstrank",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Waldelfen | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Weisheit",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Weißer_Hochturm",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Westhever",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "WikiLinks",
+      "count": 1,
+      "source_pages": [],
+      "classification": "generic_term_conflict",
+      "suggestions": []
+    },
+    {
+      "target": "Zur_goldenen_Harfe",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    },
+    {
+      "target": "Zwerge | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "classification": "needs_historian",
+      "suggestions": []
+    }
+  ],
+  "files_changed": 0
+}

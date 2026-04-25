@@ -1,0 +1,7241 @@
+{
+  "generated_at": "2026-03-09T18:02:56Z",
+  "mode": "dry-run",
+  "fixed": [
+    {
+      "target": "[Siebenwind",
+      "replacement": "Siebenwind",
+      "count": 41,
+      "source_pages": [],
+      "changed_files": []
+    },
+    {
+      "target": "[Johann_Liebig",
+      "replacement": "Johann_Liebig",
+      "count": 6,
+      "source_pages": [],
+      "changed_files": []
+    },
+    {
+      "target": "[Dunvallo_Linari",
+      "replacement": "Dunvallo_Linari",
+      "count": 5,
+      "source_pages": [],
+      "changed_files": []
+    },
+    {
+      "target": "Fraomar_Arkad'Grembargh",
+      "replacement": "Fraomar_Arkad_Grembargh",
+      "count": 4,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Adelskalender.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_150.md",
+        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kregor_Arthax_Stahlauge.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Die_Vier_Kirchen",
+      "replacement": "Die_Viere_Kirche",
+      "count": 3,
+      "source_pages": [],
+      "changed_files": []
+    },
+    {
+      "target": "Hilgorad_I",
+      "replacement": "Hilgorad",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Aequitas.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "[Astrael",
+      "replacement": "Astrael",
+      "count": 2,
+      "source_pages": [],
+      "changed_files": []
+    },
+    {
+      "target": "Ferrins",
+      "replacement": "Ferrin",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Wisper.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Malthust",
+      "replacement": "Region_Malthust",
+      "count": 2,
+      "source_pages": [],
+      "changed_files": []
+    },
+    {
+      "target": "Organisationenregister",
+      "replacement": "Organisationsregister",
+      "count": 2,
+      "source_pages": [],
+      "changed_files": []
+    },
+    {
+      "target": "Angriff_auf_Brandenstein_36_nH",
+      "replacement": "Angriff_auf_Brandenstein_29_nH",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Arkane_Gesellschaft",
+      "replacement": "Die_arkane_Gesellschaft",
+      "count": 1,
+      "source_pages": [],
+      "changed_files": []
+    },
+    {
+      "target": "Armgard_Torbenson",
+      "replacement": "Armgard_Torenson",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Avindrell",
+      "replacement": "Avindhrell",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Voelker_(Garreth_Moss).md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Bagarim",
+      "replacement": "Bragarim",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_161.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Baronie Gerdenwald",
+      "replacement": "Baron_Gerdenwald",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Halblinge.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Beladriel_Blättertanz",
+      "replacement": "Beladriel_Blaettertanz",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Brandestein",
+      "replacement": "Brandenstein",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Calin_Dakar",
+      "replacement": "Calin_Drakar",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Schattenjaeger.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Die_Maid_vom_Greifenweiher",
+      "replacement": "Maid_vom_Greifenweiher",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bibliotheks_Register.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Forschungsberichte ([[Toran_Dur",
+      "replacement": "Forschungsberichte_(Toran_Dur)",
+      "count": 1,
+      "source_pages": [],
+      "changed_files": []
+    },
+    {
+      "target": "Graumagier",
+      "replacement": "Graumagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Skapenfestung.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "I_Siebenwind",
+      "replacement": "Siebenwind",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Geografie.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Stadtchronik_Rohehafens",
+      "replacement": "Die_Stadtchronik_Rohehafens",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Von_dem_Boesen.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Tanja_Wolfframm",
+      "replacement": "Tanja_Wollframm",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Tempel_der_Viere",
+      "replacement": "Tempel_der_Vier",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Tempelwache_Falkensee.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Thanthul",
+      "replacement": "Tanthul",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Schwarze_Ritualmagie_(Thanthul).md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Tintin_Waljakov",
+      "replacement": "Tintin_(Waljakov)",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Die_Elemente_ungleiche_Geschwister.md"
+      ],
+      "changed_files": []
+    },
+    {
+      "target": "Westhever",
+      "replacement": "Dunkeltief",
+      "count": 1,
+      "source_pages": [],
+      "changed_files": []
+    }
+  ],
+  "ambiguous": [
+    {
+      "target": "Dämonen",
+      "count": 9,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Die Nacht des Dunkeltiefs.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md",
+        "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
+        "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Die_Nacht_des_Dunkeltiefs.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Herr_Merik.md"
+      ],
+      "suggestions": [
+        "Daemonen",
+        "Die_Monde",
+        "Daimonicon",
+        "Galadonien",
+        "Dimiona"
+      ]
+    },
+    {
+      "target": "Historie",
+      "count": 9,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md"
+      ],
+      "suggestions": [
+        "Historie_&_Ären",
+        "Lothorien",
+        "Skorpione",
+        "Hektor",
+        "Isgrim"
+      ]
+    },
+    {
+      "target": "Magie",
+      "count": 9,
+      "source_pages": [],
+      "suggestions": [
+        "Urmagie",
+        "Antimagie",
+        "Graumagie",
+        "Metamagie",
+        "Weissmagie"
+      ]
+    },
+    {
+      "target": "Magie_Elementarmagie",
+      "count": 8,
+      "source_pages": [],
+      "suggestions": [
+        "Magietheorie_Elementarmagie_I",
+        "Elementare",
+        "Elementarpfad",
+        "Zirkel_der_Magie",
+        "Magietheorie_Linari"
+      ]
+    },
+    {
+      "target": "Gottheiten",
+      "count": 6,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_naive_Mensch.md"
+      ],
+      "suggestions": [
+        "Lothorien",
+        "Magie_Theorien",
+        "Götter_und_Götzen",
+        "Magietheorie",
+        "Geist"
+      ]
+    },
+    {
+      "target": "Die_Sammler",
+      "count": 5,
+      "source_pages": [],
+      "suggestions": [
+        "Sammler",
+        "Die_Namikleris",
+        "Sammlervolk",
+        "Die_Zusammenkunft",
+        "Adelskalender"
+      ]
+    },
+    {
+      "target": "Magische_Rituale",
+      "count": 5,
+      "source_pages": [],
+      "suggestions": [
+        "Magischer_Flux",
+        "Magietheorie",
+        "Magie_Theorien",
+        "Magier_Etikette",
+        "Magister_ad_Sinister"
+      ]
+    },
+    {
+      "target": "Sire_Aspin",
+      "count": 5,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_letzte_Falke.md"
+      ],
+      "suggestions": [
+        "Sebastian",
+        "Sir_Ecanas",
+        "Region_Papin",
+        "Papin",
+        "Saran"
+      ]
+    },
+    {
+      "target": "WikiLinks",
+      "count": 5,
+      "source_pages": [],
+      "suggestions": [
+        "Link_Test",
+        "Wiki_Style_Guide",
+        "Goblins",
+        "Miana_Tialis",
+        "Wiki_Statistiken"
+      ]
+    },
+    {
+      "target": "Garthis_Eid",
+      "count": 4,
+      "source_pages": [],
+      "suggestions": [
+        "Garreth_Moss",
+        "Athos",
+        "Gyrth",
+        "Sarthas_Glaser",
+        "Baronie_Siebenwind"
+      ]
+    },
+    {
+      "target": "Il'Drun",
+      "count": 4,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Althea_Danea.md"
+      ],
+      "suggestions": [
+        "Ausbildung",
+        "Heilung",
+        "Ru'n",
+        "Rune",
+        "Awa_Aldorn"
+      ]
+    },
+    {
+      "target": "Inkwitmoore",
+      "count": 4,
+      "source_pages": [],
+      "suggestions": [
+        "Link_Test",
+        "Viktor_Menzer",
+        "Tion_Altor",
+        "Lindwürmer",
+        "Hektor"
+      ]
+    },
+    {
+      "target": "Kanath",
+      "count": 4,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Die_Goldenen_Tafeln.md"
+      ],
+      "suggestions": [
+        "Kaa",
+        "Tanthul",
+        "Allakath",
+        "Ambareth",
+        "Auenbach"
+      ]
+    },
+    {
+      "target": "Orogrim",
+      "count": 4,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Die_Elemente_ungleiche_Geschwister.md"
+      ],
+      "suggestions": [
+        "Bragarim",
+        "Brogar",
+        "Isgrim",
+        "Ordo_Vitama",
+        "Der_Grix"
+      ]
+    },
+    {
+      "target": "Persönlichkeiten",
+      "count": 4,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Brevier_Ordo_Vitamae.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Ordo_Vitamae.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Aaron.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Aleis.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Arnim_Estragons.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Dame_Rose.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Der_Krämer.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Divero.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Famir.md"
+      ],
+      "suggestions": [
+        "Persoenlichkeiten_Uebersicht",
+        "Hoehere_Wesenheiten",
+        "Viereinigkeit",
+        "Region_Lichtenfeld",
+        "Feestar_von_Lichtenfeld"
+      ]
+    },
+    {
+      "target": "Tai_Sah'Halour",
+      "count": 4,
+      "source_pages": [],
+      "suggestions": [
+        "Tai_Sah_Halour_Glurias",
+        "Aschehorn",
+        "Awa_Aldorn",
+        "Tion_Altor",
+        "Tarjas_Talinor"
+      ]
+    },
+    {
+      "target": "Alchemie_Grundlagen",
+      "count": 3,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Dunvallo_Linari.md"
+      ],
+      "suggestions": [
+        "Magie_Grundlagen",
+        "12_Magie_Grundlagen",
+        "Alchemie_Kompendium",
+        "Abweisungen",
+        "Schamanische_Magie_(Fragment)"
+      ]
+    },
+    {
+      "target": "Ashordon",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Horlafstrom_Theorie.md"
+      ],
+      "suggestions": [
+        "Aschehorn",
+        "Arkadon",
+        "Arn_Toron",
+        "Astreyon",
+        "Aaron"
+      ]
+    },
+    {
+      "target": "Bannstaub",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Alchemie_Kompendium.md"
+      ],
+      "suggestions": [
+        "Neuentau",
+        "Shabanna",
+        "Brandenstein",
+        "Sebastian",
+        "Rianna"
+      ]
+    },
+    {
+      "target": "Bürgerwehr",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Gorem_Motlow.md"
+      ],
+      "suggestions": [
+        "Buergerwehr",
+        "Region_Herder",
+        "Bruder_Zar",
+        "Brogar",
+        "Baron_Gerdenwald"
+      ]
+    },
+    {
+      "target": "Carmer",
+      "count": 3,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Einsame Ladengedanken.md"
+      ],
+      "suggestions": [
+        "Schwarzmagier",
+        "Mazzaremer",
+        "Caiomme",
+        "Karamir",
+        "Sammler"
+      ]
+    },
+    {
+      "target": "Die_Kirche",
+      "count": 3,
+      "source_pages": [],
+      "suggestions": [
+        "Die_Viere_Kirche",
+        "Die_Sprache_Run",
+        "Drachen",
+        "Krasche",
+        "Eire"
+      ]
+    },
+    {
+      "target": "Dordrun",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md"
+      ],
+      "suggestions": [
+        "Dorrayon",
+        "Dorayon",
+        "Donarius_Derrvus",
+        "Ru'n",
+        "Rune"
+      ]
+    },
+    {
+      "target": "En'Hor",
+      "count": 3,
+      "source_pages": [
+        "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 181.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Glossar.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "docs/Siebenwind_Wiki/00_Fundament/Religion_Übersicht.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Die_Gohor.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Ignis.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Rien.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Ventus.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Xan.md"
+      ],
+      "suggestions": [
+        "Enhor",
+        "Die_Enhor",
+        "San'cho",
+        "Enoha_Adorne",
+        "Arnhorte"
+      ]
+    },
+    {
+      "target": "Erzconsilium_der_Viere",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Codex_Iuris_Canonici.md"
+      ],
+      "suggestions": [
+        "Tempel_der_Vier",
+        "Kirche_der_Viere",
+        "Ernennung_Wim_Derfflinger",
+        "Bruder_Schinderle",
+        "Wilhelm_der_Eroberer"
+      ]
+    },
+    {
+      "target": "Falkenhorst",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_letzte_Falke.md"
+      ],
+      "suggestions": [
+        "Falkensee",
+        "Falk_Steinhauer",
+        "Arnhorte",
+        "Valerast",
+        "Enhor"
+      ]
+    },
+    {
+      "target": "Fera_Noril",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/06_Erzählungen/Der_Flug_der_Ente.md"
+      ],
+      "suggestions": [
+        "Feanthil",
+        "Ferrin",
+        "Yaris_Ferano",
+        "Tanoniel",
+        "Enhor"
+      ]
+    },
+    {
+      "target": "Il'Drûn",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md"
+      ],
+      "suggestions": [
+        "Awa_Aldorn",
+        "Ilmar",
+        "Ausbildung",
+        "Erik_Pedran",
+        "Falandrien"
+      ]
+    },
+    {
+      "target": "Kosmologie",
+      "count": 3,
+      "source_pages": [],
+      "suggestions": [
+        "Sphaerenkunde_Kosmologie",
+        "Kopflose",
+        "Kobold",
+        "Weissmagie",
+        "Wiki_Style_Guide"
+      ]
+    },
+    {
+      "target": "Kregor_Stahlauge",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md"
+      ],
+      "suggestions": [
+        "Kregor_Arthax_Stahlauge",
+        "Arthax_Stahlauge",
+        "Region_Sae",
+        "Region_Morgenthau",
+        "Region_Morthum"
+      ]
+    },
+    {
+      "target": "Magietheorie_Grundlagen",
+      "count": 3,
+      "source_pages": [],
+      "suggestions": [
+        "Magie_Grundlagen",
+        "12_Magie_Grundlagen",
+        "Magietheorie_Toran_Dur_Fragmente",
+        "Magie_Theorien",
+        "Magietheorie_Artefaktkunde"
+      ]
+    },
+    {
+      "target": "Orden_des_Heiligen_Schwertes_Bellums",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Landrin_Eisklinge.md"
+      ],
+      "suggestions": [
+        "Orden_des_lieblichen_Kelches",
+        "Befreiung_des_Larseij_Bellums",
+        "Orden_des_wachenden_Loewen",
+        "Orden_der_Wachenden_Löwen",
+        "Von_gesplitterten_Seelen"
+      ]
+    },
+    {
+      "target": "Religion",
+      "count": 3,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Chernides.md"
+      ],
+      "suggestions": [
+        "Telion",
+        "Region_Sae",
+        "Religion_Übersicht",
+        "Schwarze_Legion",
+        "Region_Auren"
+      ]
+    },
+    {
+      "target": "Religionsphilosophie",
+      "count": 3,
+      "source_pages": [],
+      "suggestions": [
+        "Philosophie_der_Magie",
+        "Region_Ossian",
+        "Region_Rothschild",
+        "Region_Sae",
+        "Religion_Übersicht"
+      ]
+    },
+    {
+      "target": "Robaar_von_Saalhorn",
+      "count": 3,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Abschied_und_Verrat.md"
+      ],
+      "suggestions": [
+        "Todward_von_Saalhorn",
+        "Arondar_von_Mellhorn",
+        "Hagen_Robaar_von_Saalhorn_und_Siebenwind",
+        "Burg_Saalhorn",
+        "Haaron_Maar"
+      ]
+    },
+    {
+      "target": "Saalhorn",
+      "count": 3,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Abschied_und_Verrat.md"
+      ],
+      "suggestions": [
+        "Burg_Saalhorn",
+        "Saalhornshof",
+        "Awa_Aldorn",
+        "Barath_Or",
+        "Aaron"
+      ]
+    },
+    {
+      "target": "02_Geografie",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "suggestions": [
+        "Geografie",
+        "02_Rien",
+        "Magietheorie",
+        "Edora",
+        "Elyran_Fischer"
+      ]
+    },
+    {
+      "target": "06_Gruppen",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lucius_Gropp.md"
+      ],
+      "suggestions": [
+        "Gropp",
+        "02_Rien",
+        "Rotschuppe",
+        "Juppert",
+        "Gero_von_Papin"
+      ]
+    },
+    {
+      "target": "[index",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "index",
+        "Werke_index",
+        "Die_Monde",
+        "Ian_Dejan",
+        "Avindhrell"
+      ]
+    },
+    {
+      "target": "Adelssystem Galadon",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Galadon.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Koruun_McKevin.md"
+      ],
+      "suggestions": [
+        "Das_Adelssystem",
+        "Galadon",
+        "Galadons",
+        "Adelskalender",
+        "Region_Galadon"
+      ]
+    },
+    {
+      "target": "Akademie_Brandenstein",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Magier_Etikette.md"
+      ],
+      "suggestions": [
+        "Brandenstein",
+        "Bestie_von_Brandenstein",
+        "Akademie_der_Arkanen_Künste",
+        "Hafengilde_Brandenstein",
+        "Akademie_der_Schwarzen_Kuenste"
+      ]
+    },
+    {
+      "target": "Akademie_Tiefenbach",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Tiefenbach",
+        "Magierturm_zu_Tiefenbach",
+        "Akademie",
+        "Kaspian_Tiefenwald",
+        "Altumion_Eisenbruch"
+      ]
+    },
+    {
+      "target": "Akira",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Akora",
+        "Kirstan",
+        "Vaka",
+        "Akora_Dur",
+        "Arman"
+      ]
+    },
+    {
+      "target": "Akoras_Turm",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Akora_Dur",
+        "Akora",
+        "Toran_Dur_Turm",
+        "Grauer_Turm",
+        "Arlin_Sturmfels"
+      ]
+    },
+    {
+      "target": "Arkane_Akademie",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Akademie",
+        "Magierakademie",
+        "Kriegerakademie",
+        "Arkan-Metalle",
+        "Bartanatomie"
+      ]
+    },
+    {
+      "target": "Arkane_Geometrie",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Arkan-Metalle",
+        "Akademie",
+        "Bartanatomie",
+        "Arknor",
+        "Randur_Kantrin"
+      ]
+    },
+    {
+      "target": "Arkanium",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arkane_Kriegfuehrung.md"
+      ],
+      "suggestions": [
+        "Arkadon",
+        "Taranis",
+        "Markus_Teranius",
+        "Tardukai",
+        "Arman"
+      ]
+    },
+    {
+      "target": "Asodayr_I_Ahm_Erson",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Weissmagie_(Althea_Danea).md"
+      ],
+      "suggestions": [
+        "Syr_Geron",
+        "Andaris_Maran",
+        "Ayk_Areson",
+        "Aarion",
+        "Arnim_Estragons"
+      ]
+    },
+    {
+      "target": "Auktionshaus_Graustein",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md"
+      ],
+      "suggestions": [
+        "Layna_Rabenstein",
+        "Bestie_von_Brandenstein",
+        "Lantea_Greifenstein",
+        "Auktion_der_Familie_Turek",
+        "Region_Auren"
+      ]
+    },
+    {
+      "target": "Auren und die Verbreitung der Elfenvölker",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Elfen.md"
+      ],
+      "suggestions": [
+        "Die_Verbrennung_des_heiligen_Markus",
+        "Das_Ende_der_Zeit_der_Koenige",
+        "Letzte_Vorbereitungen",
+        "Maerchen_und_wie_man_sie_vermeidet",
+        "Adalbert_der_Heiler"
+      ]
+    },
+    {
+      "target": "Brandensteiner_Zunft",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Anschlag_auf_den_Handelsbund.md"
+      ],
+      "suggestions": [
+        "Brandenstein",
+        "Brandensteiner_Reiter",
+        "Nachts_im_Brandensteiner_Tempel",
+        "Brand_Windfluesterers_Zorn",
+        "Bestie_von_Brandenstein"
+      ]
+    },
+    {
+      "target": "Brockental",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Voelker_(Garreth_Moss).md"
+      ],
+      "suggestions": [
+        "Drakenwald",
+        "Baron_Gerdenwald",
+        "Arkan-Metalle",
+        "Region_Kettel",
+        "Orken"
+      ]
+    },
+    {
+      "target": "C._Eibenwald",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md"
+      ],
+      "suggestions": [
+        "Greifenwald",
+        "Fenwald",
+        "Gerdenwald",
+        "Tiefenwald",
+        "Region_Gerdenwald"
+      ]
+    },
+    {
+      "target": "Daimonologie_Grundlagen",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Magie_Grundlagen",
+        "12_Magie_Grundlagen",
+        "Daimonologie_und_Schwarze_Magie_(Toran_Dur)",
+        "Dämonologie_nach_Dunvallo_Linari",
+        "Das_Daimonicon_(Kulin_Lateal)"
+      ]
+    },
+    {
+      "target": "Der_Schwarzmagier",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Schwarzmagier",
+        "Schwarze_Magie",
+        "Angriff_der_Schwarzmagier",
+        "Aus_dem_Leben_eines_Schwarzmagiers",
+        "Schwarze_Legion"
+      ]
+    },
+    {
+      "target": "Dämonenseuche",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Menschen",
+        "Altumion_Eisenbruch",
+        "Daemonen",
+        "Lea_Sonnenschein",
+        "Rasse_Menschen"
+      ]
+    },
+    {
+      "target": "Eiserne_Tafeln",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Die_Silbernen_Tafeln.md"
+      ],
+      "suggestions": [
+        "Die_Eisernen_Tafeln",
+        "Die_Silbernen_Tafeln",
+        "Die_Goldenen_Tafeln",
+        "Weiher_Ungetuem",
+        "Region_Kettel"
+      ]
+    },
+    {
+      "target": "Elementarherren",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Elementare",
+        "Elementarwerdung",
+        "Elementarlehre_Luft",
+        "Elementare_Atomlehre",
+        "Elementarlehre_Dunkelbaum"
+      ]
+    },
+    {
+      "target": "Endrûn",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md"
+      ],
+      "suggestions": [
+        "Kedrin",
+        "Telandrion",
+        "Leandra",
+        "Enoha_Adorne",
+        "Vandrien"
+      ]
+    },
+    {
+      "target": "Ensis_Caelestis",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Herr_Distelstein",
+        "Ecclesia",
+        "Jenseits_des_Walls",
+        "Geschaeftiges_Treiben",
+        "Elurai_Calades"
+      ]
+    },
+    {
+      "target": "Erste_Mutter",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Die_Goldenen_Tafeln.md"
+      ],
+      "suggestions": [
+        "Albert_Metzler",
+        "Steinhauer",
+        "Thaugitter",
+        "Magier_Etikette",
+        "Ersonter_Rat"
+      ]
+    },
+    {
+      "target": "Falken_von_Silberwald",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Falkenwall",
+        "Baron_von_Gerdenwald",
+        "Ulanda_von_Tiefenwald",
+        "Falkensee",
+        "Drakenwald"
+      ]
+    },
+    {
+      "target": "Familie_Gerdenwald",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Herbren_Maltis.md"
+      ],
+      "suggestions": [
+        "Gerdenwald",
+        "Haus_Gerdenwald",
+        "Baron_Gerdenwald",
+        "Region_Gerdenwald",
+        "Baron_von_Gerdenwald"
+      ]
+    },
+    {
+      "target": "Fila_sensoriae",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Riesenskorpione",
+        "Riens_Lorien_Arden",
+        "Eleonore",
+        "Falkensee",
+        "Bastean_Asanra"
+      ]
+    },
+    {
+      "target": "Finanzverwaltung",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Anijane_Lavid.md"
+      ],
+      "suggestions": [
+        "Lehensverwaltung",
+        "Finsterwangen",
+        "Finianswacht",
+        "Burg_Finianswacht",
+        "Ian_Dejan"
+      ]
+    },
+    {
+      "target": "Galthana",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_158.md"
+      ],
+      "suggestions": [
+        "Althea_Danea",
+        "Ovelia_Galthana",
+        "Galadon",
+        "Galahad",
+        "Galadons"
+      ]
+    },
+    {
+      "target": "Garilko_Wopes",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_149.md"
+      ],
+      "suggestions": [
+        "Gargoyles",
+        "Galadons",
+        "Hanfried_Korbenus",
+        "Lario_Anderus",
+        "Ring_des_Argionemes"
+      ]
+    },
+    {
+      "target": "Gilden_und_Handwerk",
+      "count": 2,
+      "source_pages": [
+        "docs/Archiv/PROJECT_HISTORY.md",
+        "docs/Archiv/RESEARCH-2026-009_Report.md"
+      ],
+      "suggestions": [
+        "Emanuel_Sanderus",
+        "Leandra",
+        "Magie_Grundlagen",
+        "Lehensbanner",
+        "Index_Siebenwind_(Toran_Dur)"
+      ]
+    },
+    {
+      "target": "Glurdrûn",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md"
+      ],
+      "suggestions": [
+        "Galadon",
+        "Galadons",
+        "Laurelin",
+        "Laurus_Delany",
+        "Lurkz"
+      ]
+    },
+    {
+      "target": "Glurias",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Louis",
+        "Lurath",
+        "Elurai_Calades",
+        "Urs",
+        "Goblins"
+      ]
+    },
+    {
+      "target": "Haus_ap_Mer",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hilgorad_I_ap_Mer.md"
+      ],
+      "suggestions": [
+        "Sammler",
+        "Hilgorad_I_ap_Mer",
+        "Anissa_Merden",
+        "Sarthas_Glaser",
+        "Halgar"
+      ]
+    },
+    {
+      "target": "Haus_Saalhorn",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Burg_Saalhorn",
+        "Awa_Aldorn",
+        "Saalhornshof",
+        "Todward_von_Saalhorn",
+        "Astraelorden"
+      ]
+    },
+    {
+      "target": "Heilige_Kuranstalt",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Heilige_Liturgien",
+        "Lilienwall",
+        "Geduldiger_Sand",
+        "Die_Silbernen_Tafeln",
+        "Wolfgang_Ravinsthal"
+      ]
+    },
+    {
+      "target": "Hintergrund",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kazla.md"
+      ],
+      "suggestions": [
+        "Ersonter_Bund",
+        "Finsterwangen",
+        "Rhadan_der_Graue",
+        "Handelsbund",
+        "Magie_Grundlagen"
+      ]
+    },
+    {
+      "target": "Historian_Report_2026_003",
+      "count": 2,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md"
+      ],
+      "suggestions": [
+        "Historie_&_Ären",
+        "Astralnetz",
+        "Horan_Erandel",
+        "Quirian_Grint",
+        "Toran_Dur_Turm"
+      ]
+    },
+    {
+      "target": "Ian_Saranis",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Taranis",
+        "Anais",
+        "Mantaris",
+        "Miana_Tialis",
+        "Ranis"
+      ]
+    },
+    {
+      "target": "Iudicium_Divinus",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Die_Foki_(Dimiona)",
+        "Paule_Hickings",
+        "Donarius_Derrvus",
+        "Rituale_des_Magierturms",
+        "Dirian_zu_Neuentau"
+      ]
+    },
+    {
+      "target": "Jannaia_Lavrial",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_165.md"
+      ],
+      "suggestions": [
+        "Janniea_Lavrial",
+        "Jennaia_Lavrial",
+        "Miana_Tialis",
+        "Anijane_Lavid",
+        "Johannes_Tiberias"
+      ]
+    },
+    {
+      "target": "Katzchen",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_letzte_Falke.md"
+      ],
+      "suggestions": [
+        "Drachen",
+        "Krasche",
+        "Aschehorn",
+        "Kraken",
+        "Sprache_Run"
+      ]
+    },
+    {
+      "target": "Klerus",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Geruslav",
+        "Herkules",
+        "Valerast",
+        "Lario_Anderus",
+        "Aleis"
+      ]
+    },
+    {
+      "target": "Koenigliche_Magierakademie_zu_Siebenwind",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Graue_Garde.md"
+      ],
+      "suggestions": [
+        "Königliche_Akademie_zu_Siebenwind",
+        "Koenigliche_Akademie_der_Arkanen_Kuenste",
+        "Kriegerakademie_Seeberg",
+        "Königliche_Akademie_der_Kriegskünste",
+        "Magierakademie"
+      ]
+    },
+    {
+      "target": "Kompendium_Weissmagie",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Althea_Danea.md"
+      ],
+      "suggestions": [
+        "Kompendium_der_Weissmagie_(Althea_Danea)",
+        "Weissmagie",
+        "Zirkel_der_Magie",
+        "Alchemie_Kompendium",
+        "Philosophie_der_Magie"
+      ]
+    },
+    {
+      "target": "Königliche_Akademie_der_arkane_Künste",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Argus_Ebonhart.md"
+      ],
+      "suggestions": [
+        "Koenigliche_Akademie_der_Arkanen_Kuenste",
+        "Königliche_Akademie_der_Kriegskünste",
+        "Akademie_der_Arkanen_Künste",
+        "Akademie_der_Schwarzen_Kuenste",
+        "Königliche_Akademie_zu_Siebenwind"
+      ]
+    },
+    {
+      "target": "Laienorden_der_Viere",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Leomar_Finkenfarn.md"
+      ],
+      "suggestions": [
+        "Kirche_der_Viere",
+        "Löwenorden",
+        "Auktion_der_Familie_Turek",
+        "Lario_Anderus",
+        "Brandensteiner_Reiter"
+      ]
+    },
+    {
+      "target": "Limbus",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Aleis",
+        "Felis",
+        "Louis",
+        "Fabius",
+        "Golems"
+      ]
+    },
+    {
+      "target": "Magier_ohne_Namen",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arcana_Procella.md"
+      ],
+      "suggestions": [
+        "Magierakademie",
+        "Magietheorie_Daimonen_Domaenen",
+        "Magie_Grundlagen",
+        "Laylira_Hohentann",
+        "Magie_Theorien"
+      ]
+    },
+    {
+      "target": "Magierturm_zu_Siebenwind",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Dame_al_Javet.md"
+      ],
+      "suggestions": [
+        "Magierturm_zu_Tiefenbach",
+        "Iuribus_Siebenwind",
+        "Ritterschaft_zu_Siebenwind",
+        "Baronie_Siebenwind",
+        "Ritter_der_Sieben_Winde"
+      ]
+    },
+    {
+      "target": "Magische_Sprachen",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Die_Sprache_Run",
+        "Iycheas_Vrahn",
+        "Magie_Theorien",
+        "Magischer_Flux",
+        "Sprache_Run"
+      ]
+    },
+    {
+      "target": "Malthuster_Viereinigkeit",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Pakt_der_Viereinigkeit",
+        "Viereinigkeit",
+        "Malthuster_Wacht",
+        "Letzte_Vorbereitungen",
+        "Magier_Etikette"
+      ]
+    },
+    {
+      "target": "Marine_Siebenwinds",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Schneid.md"
+      ],
+      "suggestions": [
+        "Baronie_Siebenwind",
+        "Recht_Siebenwinds",
+        "Siebenwind",
+        "Wissen_Siebenwind",
+        "Iuribus_Siebenwind"
+      ]
+    },
+    {
+      "target": "Nachtschatten",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Schattenhand",
+        "Schattenjaeger",
+        "Menschen",
+        "Aschehorn",
+        "Zacharias_Cana"
+      ]
+    },
+    {
+      "target": "Nekromantie",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Krone",
+        "Sanduros_Mantaris",
+        "Ersont",
+        "Nakoti",
+        "Yeroma"
+      ]
+    },
+    {
+      "target": "Norland",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lothgar.md"
+      ],
+      "suggestions": [
+        "Grünland",
+        "Toran_Dur",
+        "Nortraven",
+        "Cortan",
+        "Lasned"
+      ]
+    },
+    {
+      "target": "Odalerich_I_Ap_Erson",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Kompendium_der_Weissmagie_(Althea_Danea).md"
+      ],
+      "suggestions": [
+        "Maichellis_Wanderstern",
+        "Die_Chronik",
+        "Erik_Pedran",
+        "Alexander_Stein",
+        "Codex_Iuris_Canonici"
+      ]
+    },
+    {
+      "target": "Okallus_Barim",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Roald_Spitzbart",
+        "Alashar",
+        "Romualdo_Lavarin",
+        "Aequilibrium",
+        "Bragarim"
+      ]
+    },
+    {
+      "target": "Ordo_Ignis",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hormtosh_Wuchthammer.md"
+      ],
+      "suggestions": [
+        "Ignis",
+        "Ordo_Morsanes",
+        "Ranis",
+        "Riens",
+        "Ordo_Belli"
+      ]
+    },
+    {
+      "target": "Priorei_Brandenstein",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Brandenstein",
+        "Bestie_von_Brandenstein",
+        "Hafengilde_Brandenstein",
+        "Trollkrieg_von_Brandenstein",
+        "Bruno_Reichenstein"
+      ]
+    },
+    {
+      "target": "Rasse_Myten",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Menschen.md"
+      ],
+      "suggestions": [
+        "Rasse Orken",
+        "Rasse_Elfen",
+        "Rasse_Menschen",
+        "Myten",
+        "Rasse_Zwerge"
+      ]
+    },
+    {
+      "target": "Reliquien",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Rien",
+        "Region_Auren",
+        "Laurelin",
+        "Lucienne",
+        "Mael_Duin"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-001",
+      "count": 2,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md",
+        "docs/MASTER_TASK_LIST.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-002",
+      "count": 2,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md",
+        "docs/MASTER_TASK_LIST.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-003",
+      "count": 2,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md",
+        "docs/MASTER_TASK_LIST.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-007",
+      "count": 2,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md",
+        "docs/MASTER_TASK_LIST.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-009",
+      "count": 2,
+      "source_pages": [
+        "docs/Archiv/RESEARCH-2026-009_Report.md",
+        "docs/Archiv/Research_Board.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-012",
+      "count": 2,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md",
+        "docs/MASTER_TASK_LIST.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-017",
+      "count": 2,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md",
+        "docs/MASTER_TASK_LIST.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "Ritterschaft_vom_Falkenhorst",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Ritterschaft",
+        "Der_Putsch_von_Falkensee",
+        "Schlacht_um_Falkensee",
+        "Ritterschaft_zu_Siebenwind",
+        "Ritterschaft_der_Sieben_Winde"
+      ]
+    },
+    {
+      "target": "Rubenia_Sturmspalter",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Die_Zwergen_WG.md"
+      ],
+      "suggestions": [
+        "Rekar_Sturmklinge",
+        "Ventusreiter",
+        "Hubertus_Anverita",
+        "Herbren_Maltis",
+        "Organisationsregister"
+      ]
+    },
+    {
+      "target": "Schwertmeister_Tesion",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Ritterehre_De_Itinere_Honoris.md"
+      ],
+      "suggestions": [
+        "Schwarze_Reiter",
+        "Herr_Distelstein",
+        "Schrein_des_Windes",
+        "Solfeister_Kin",
+        "Wille_alter_Meister"
+      ]
+    },
+    {
+      "target": "Setas_Gonar",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/08_Bestiarium/Gargoyles.md"
+      ],
+      "suggestions": [
+        "Sarthas_Glaser",
+        "Region_Auren",
+        "Seiltaenzer",
+        "Sean_Eire",
+        "Seegarde"
+      ]
+    },
+    {
+      "target": "Sheddja",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Iss_Hetjas",
+        "Schneid",
+        "Abschied_und_Verrat",
+        "Edora",
+        "Geidwenja"
+      ]
+    },
+    {
+      "target": "Siebenwind_Bote_120|120-125",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Siebenwind_Bote_120",
+        "Siebenwind_Bote_121",
+        "Siebenwind_Bote_122",
+        "Siebenwind_Bote_125",
+        "Siebenwind_Bote_118"
+      ]
+    },
+    {
+      "target": "Siebenwind_Bote_126|126-140",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Siebenwind_Bote_120",
+        "Siebenwind_Bote_121",
+        "Siebenwind_Bote_122",
+        "Siebenwind_Bote_124",
+        "Siebenwind_Bote_126"
+      ]
+    },
+    {
+      "target": "Siebenwind_Bote_141|141-160",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Siebenwind_Bote_140",
+        "Siebenwind_Bote_141",
+        "Siebenwind_Bote_144",
+        "Siebenwind_Bote_146",
+        "Siebenwind_Bote_160"
+      ]
+    },
+    {
+      "target": "Siebenwind_Bote_161|161-170",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Siebenwind_Bote_160",
+        "Siebenwind_Bote_161",
+        "Siebenwind_Bote_166",
+        "Siebenwind_Bote_167",
+        "Siebenwind_Bote_170"
+      ]
+    },
+    {
+      "target": "Siebenwind_Bote_171|171-185",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Siebenwind_Bote_118",
+        "Siebenwind_Bote_171",
+        "Siebenwind_Bote_175",
+        "Siebenwind_Bote_177",
+        "Siebenwind_Bote_178"
+      ]
+    },
+    {
+      "target": "Siebenwind_Bote_186|186-194",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Siebenwind_Bote_118",
+        "Siebenwind_Bote_161",
+        "Siebenwind_Bote_164",
+        "Siebenwind_Bote_166",
+        "Siebenwind_Bote_169"
+      ]
+    },
+    {
+      "target": "Skapen",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Kraken",
+        "Sae",
+        "Skapenfestung",
+        "Skapengebirge",
+        "Vänskap"
+      ]
+    },
+    {
+      "target": "Thar_Sala",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_151.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ravia_Thyrandor.md"
+      ],
+      "suggestions": [
+        "Harlas",
+        "Tantalla",
+        "Arthax_Stahlauge",
+        "Nithavela",
+        "Aradam"
+      ]
+    },
+    {
+      "target": "Thaumaturgische_Gitter",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Artefaktlehre.md"
+      ],
+      "suggestions": [
+        "Thaugitter",
+        "Schamanische_Magie",
+        "Bestiarium_Register",
+        "Wirtshaftsregister",
+        "Magischer_Flux"
+      ]
+    },
+    {
+      "target": "Traumformung",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_Traum_der_Tausend.md"
+      ],
+      "suggestions": [
+        "Der_Traum_der_Tausend",
+        "Tzara_Rengis",
+        "Astraelorden",
+        "Nistram_Rigas",
+        "Toran_Dur"
+      ]
+    },
+    {
+      "target": "Tunneleffekt",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Auenelfen",
+        "Dunkeltief",
+        "Dunkelzeit",
+        "Dunkeltief-_Vaenskap",
+        "Klauenwoelfe"
+      ]
+    },
+    {
+      "target": "Turm_der_Magie",
+      "count": 2,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md"
+      ],
+      "suggestions": [
+        "Urmagie",
+        "Zirkel_der_Magie",
+        "Theorie_arkane_Magie",
+        "Antimagie",
+        "Graumagie"
+      ]
+    },
+    {
+      "target": "Zensor",
+      "count": 2,
+      "source_pages": [],
+      "suggestions": [
+        "Enhor",
+        "Die_Enhor",
+        "Eleonore",
+        "Nefustor",
+        "Edora"
+      ]
+    },
+    {
+      "target": "...",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "G.K.",
+        "S.L.",
+        "T.",
+        "M._Pfahl",
+        "Zeitleiste_(15-30_n.H.)"
+      ]
+    },
+    {
+      "target": "01_Catar",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Roland_Telvos.md"
+      ],
+      "suggestions": [
+        "Tare",
+        "01_Vitama",
+        "Mantaris",
+        "Aaron",
+        "Caieta_Ajunier"
+      ]
+    },
+    {
+      "target": "01_Enhor",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "suggestions": [
+        "Enhor",
+        "Die_Enhor",
+        "Enoha_Adorne",
+        "Arnhorte",
+        "Die_Gohor"
+      ]
+    },
+    {
+      "target": "01_Ventus",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "suggestions": [
+        "Ventus",
+        "Ventos",
+        "Venturia",
+        "Ventusreiter",
+        "Vencurius"
+      ]
+    },
+    {
+      "target": "03_Morsan",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_191.md"
+      ],
+      "suggestions": [
+        "Morsan",
+        "Ordo_Morsanes",
+        "Cortan",
+        "Mirian",
+        "Ossian"
+      ]
+    },
+    {
+      "target": "10_Angamon|10 Angamon",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "10_Angamon",
+        "Angamon",
+        "Daimonicon",
+        "Haaron_Maar",
+        "Annika_Rokan"
+      ]
+    },
+    {
+      "target": "20_Rassen_Zwerge",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Rien.md"
+      ],
+      "suggestions": [
+        "Rasse_Zwerge",
+        "Zwerge",
+        "Magiezweige",
+        "Reagenzien_Lehre",
+        "Sean_Eire"
+      ]
+    },
+    {
+      "target": "21_Rassen_Elfen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Ventus.md"
+      ],
+      "suggestions": [
+        "Rasse_Elfen",
+        "Auenelfen",
+        "Rasse Rasse_Elfen",
+        "Rasse Orken",
+        "Rasse_Zwerge"
+      ]
+    },
+    {
+      "target": "A.D.",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_148.md"
+      ],
+      "suggestions": [
+        "Adel",
+        "G.K.",
+        "S.L.",
+        "Abdera",
+        "Aldaro"
+      ]
+    },
+    {
+      "target": "Adepta Hohentann",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/08_Bestiarium/Bestie_von_Brandenstein.md"
+      ],
+      "suggestions": [
+        "Laylira_Hohentann",
+        "Khyra_Hohentann",
+        "Tal_der_Ahnen",
+        "Lehensbanner",
+        "Utrich_Rothnang"
+      ]
+    },
+    {
+      "target": "Akademie_des_gruenen_Zweiges",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "suggestions": [
+        "Akademie_der_Schwarzen_Kuenste",
+        "Akademie_der_Arkanen_Künste",
+        "Aus_dem_Liebesleben_eines_Dichters",
+        "Arkane_Kriegfuehrung",
+        "Der_Erlass_des_Koenigs"
+      ]
+    },
+    {
+      "target": "Akademie_von_Brandenstein",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Codex_Astraeli.md"
+      ],
+      "suggestions": [
+        "Bestie_von_Brandenstein",
+        "Trollkrieg_von_Brandenstein",
+        "Brandenstein",
+        "Akademie_der_Arkanen_Künste",
+        "Hafengilde_Brandenstein"
+      ]
+    },
+    {
+      "target": "Akademie_von_Toran_Dur",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Die_Magie_(Toran_Dur)",
+        "Magietheorie_Toran_Dur",
+        "Akademie",
+        "Akora_Dur",
+        "Toran_Dur"
+      ]
+    },
+    {
+      "target": "Akademie_zur_Linken",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hevelius_Dunkelfeld.md"
+      ],
+      "suggestions": [
+        "Akademie",
+        "Pakt_der_Viereinigkeit",
+        "Akademie_der_Schwarzen_Kuenste",
+        "Akademie_der_Arkanen_Künste",
+        "Kult_des_Einen"
+      ]
+    },
+    {
+      "target": "Alarich_Falkenhain",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md"
+      ],
+      "suggestions": [
+        "Lehen_Falkenstein",
+        "Region_Falkenstein",
+        "Malachai",
+        "Schlacht_um_Falkensee",
+        "Schattenhand"
+      ]
+    },
+    {
+      "target": "Alchemie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Anonymus.md"
+      ],
+      "suggestions": [
+        "Akademie",
+        "Malachai",
+        "Alchemie_Kompendium",
+        "Aleis",
+        "Liche"
+      ]
+    },
+    {
+      "target": "Aldorn",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Waldemars_Reise_Papin.md"
+      ],
+      "suggestions": [
+        "Awa_Aldorn",
+        "Galadon",
+        "Galadons",
+        "Aldaro",
+        "Arn"
+      ]
+    },
+    {
+      "target": "Alt_Galad",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Foki_(Dimiona).md"
+      ],
+      "suggestions": [
+        "Galadon",
+        "Galahad",
+        "Galadons",
+        "Halgar",
+        "Noalim_al_Achid"
+      ]
+    },
+    {
+      "target": "Amriele_Silberfels",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md"
+      ],
+      "suggestions": [
+        "Die_Silbernen_Tafeln",
+        "Samuel_der_Heiler",
+        "Astrael_Missionslehre",
+        "Briefe_aus_der_Ferne",
+        "Die_Eisernen_Tafeln"
+      ]
+    },
+    {
+      "target": "Amulettgeister",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Geschichte_der_Mondamulette.md"
+      ],
+      "suggestions": [
+        "Amulettkriege",
+        "Mondamulette",
+        "Wille_alter_Meister",
+        "Archiv_Register",
+        "Bestiarium_Register"
+      ]
+    },
+    {
+      "target": "Angstdämonen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Ödland.md"
+      ],
+      "suggestions": [
+        "Angamon",
+        "Daemonen",
+        "10_Angamon",
+        "Galadonien",
+        "Roland_Ronde"
+      ]
+    },
+    {
+      "target": "Anstalt_fuer_ozeanische_Thaumaturgie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "suggestions": [
+        "Schamanische_Magie",
+        "Angriff_der_Schwarzmagier",
+        "Statut_der_Kronmark_Siebenwind",
+        "Die_Stadtchronik_Rohehafens",
+        "Sternfall_bei_Rohehafen"
+      ]
+    },
+    {
+      "target": "Ari´in",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md"
+      ],
+      "suggestions": [
+        "Aarion",
+        "Arn",
+        "Hadrian",
+        "Rien",
+        "Harpyien"
+      ]
+    },
+    {
+      "target": "Arkane_Verbindung",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Johann_Liebig.md"
+      ],
+      "suggestions": [
+        "Arkane_Kriegfuehrung",
+        "Randur_Kantrin",
+        "Baronie_Siebenwind",
+        "Ausbildung",
+        "Kalveron_Dai"
+      ]
+    },
+    {
+      "target": "Arkanogenese",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md"
+      ],
+      "suggestions": [
+        "Arkan-Metalle",
+        "Arianna_Morgentau",
+        "Falkensee",
+        "Markward_von_Falkensee",
+        "Arknor"
+      ]
+    },
+    {
+      "target": "Artefakte",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Artefaktlehre",
+        "Ra-Harakte",
+        "Der_letzte_Falke",
+        "Marnie_Tiefwasser",
+        "Albert_Metzler"
+      ]
+    },
+    {
+      "target": "Artefakterstellung",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Artefaktlehre",
+        "Skapenfestung",
+        "Region_Falkenstein",
+        "Alexander_Stein",
+        "Lehen_Falkenstein"
+      ]
+    },
+    {
+      "target": "Askese_Weg",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Rasse_Zwerge",
+        "Falkensee",
+        "Aschene_Wüste",
+        "Feste_Seeberg",
+        "Laske"
+      ]
+    },
+    {
+      "target": "Asodayr_I",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Aarion",
+        "Aldaro",
+        "Azaris",
+        "Alashar",
+        "Hadrian"
+      ]
+    },
+    {
+      "target": "Astralebene",
+      "count": 1,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Einer Löwin Traum.md"
+      ],
+      "suggestions": [
+        "Astralnetz",
+        "Astraelorden",
+        "Astrael",
+        "Astreyon",
+        "Woran_Lebensmueh"
+      ]
+    },
+    {
+      "target": "Atema_Fellaran",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Faesa_Farell",
+        "Tantalla",
+        "Waldemar_Delarie",
+        "Astraelorden",
+        "Leomar_Finkenfarn"
+      ]
+    },
+    {
+      "target": "Atema_Fellaran_zu_Bernstein",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Layna_Rabenstein",
+        "Hafengilde_Brandenstein",
+        "Frank_Biederstein",
+        "Alexander_Stein",
+        "Lantea_Greifenstein"
+      ]
+    },
+    {
+      "target": "Auelfen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Maichellis_Wanderstern.md"
+      ],
+      "suggestions": [
+        "Auenelfen",
+        "Elfen",
+        "Waldelfen",
+        "Rasse_Elfen",
+        "Laurelin"
+      ]
+    },
+    {
+      "target": "Auenelfen | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Siebenwind_Bote_Index",
+        "Siebenwindakte",
+        "Siebenwind_Boten",
+        "Ritter_der_Sieben_Winde",
+        "Aus_dem_Leben_eines_Schwarzmagiers"
+      ]
+    },
+    {
+      "target": "Auenwald",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_125.md"
+      ],
+      "suggestions": [
+        "Fenwald",
+        "Drakenwald",
+        "Haus_Gerdenwald",
+        "Falkenwall",
+        "Gerdenwald"
+      ]
+    },
+    {
+      "target": "Aura_Primus",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arcana_Procella.md"
+      ],
+      "suggestions": [
+        "Azaris",
+        "Rakurion_Argus",
+        "Taranis",
+        "Markus_Teranius",
+        "Tzara_Rengis"
+      ]
+    },
+    {
+      "target": "Auren",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Laurelin",
+        "Arn",
+        "Rien",
+        "Tare",
+        "Region_Auren"
+      ]
+    },
+    {
+      "target": "Avor",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Massenentlassung_Kriegerakademie_15_nH.md"
+      ],
+      "suggestions": [
+        "Akora",
+        "Arknor",
+        "Aurora",
+        "Dannor",
+        "Galtor"
+      ]
+    },
+    {
+      "target": "Awa",
+      "count": 1,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Einsame Ladengedanken.md"
+      ],
+      "suggestions": [
+        "Kaa",
+        "Harwarn",
+        "Alma",
+        "Vaka",
+        "Aaron"
+      ]
+    },
+    {
+      "target": "Ayleen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md"
+      ],
+      "suggestions": [
+        "Layen",
+        "Caeden",
+        "Waldelfen",
+        "Waldwesen",
+        "Feen"
+      ]
+    },
+    {
+      "target": "Baldasti",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_175.md"
+      ],
+      "suggestions": [
+        "Valerast",
+        "Brandenstein",
+        "Balean_Urs",
+        "Sebastian",
+        "Theobald_I"
+      ]
+    },
+    {
+      "target": "Baronsforstverwaltung",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Isgrim.md"
+      ],
+      "suggestions": [
+        "Lehensverwaltung",
+        "Baron_von_Gerdenwald",
+        "Baron_Gerdenwald",
+        "Finsterwangen",
+        "Grosser_Rat"
+      ]
+    },
+    {
+      "target": "Bekanntmachungen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md"
+      ],
+      "suggestions": [
+        "Antimagie",
+        "Abweisungen",
+        "Erzählungen",
+        "Antimagie_und_Gegenzauber",
+        "Der_Hutmacher"
+      ]
+    },
+    {
+      "target": "Belebender_Odem",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Atmender_Tod",
+        "Elementarwerdung",
+        "Adelskalender",
+        "Alexander_Stein",
+        "Celedelair"
+      ]
+    },
+    {
+      "target": "Bellum-Kirche",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Veridon.md"
+      ],
+      "suggestions": [
+        "Bellum",
+        "Liche",
+        "Gott Bellum",
+        "Die_Viere_Kirche",
+        "Conrad_Bejnkirchner"
+      ]
+    },
+    {
+      "target": "Bellum-Orden",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Bellum",
+        "Astraelorden",
+        "Merden",
+        "Gott Bellum",
+        "Löwenorden"
+      ]
+    },
+    {
+      "target": "Berg_der_Traumkatze",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Der_Traum_der_Tausend",
+        "Bruderschaft_der_Tardukai",
+        "Graumagie",
+        "Der_Flug_der_Ente",
+        "Brevier_des_Ordo_Astraeli"
+      ]
+    },
+    {
+      "target": "Bergheim",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md"
+      ],
+      "suggestions": [
+        "Bragarim",
+        "Bernhelm_Tarek",
+        "Zwerge",
+        "Beatrix",
+        "Der_Eine"
+      ]
+    },
+    {
+      "target": "Bestiarium",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/08_Bestiarium/Riesenspinnen.md"
+      ],
+      "suggestions": [
+        "Bestiarium_Register",
+        "Beatrix",
+        "Bestien",
+        "Birnbaum",
+        "Bragarim"
+      ]
+    },
+    {
+      "target": "Bibliothek_Astrael",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Bibliothek_Astrael_Regeln",
+        "Bibliotheks_Register",
+        "Codex_Astraeli",
+        "Astrael",
+        "Ordo_Astrael"
+      ]
+    },
+    {
+      "target": "Bindungslehre",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Elurai_Calades.md"
+      ],
+      "suggestions": [
+        "Fabius_Letarien",
+        "Staubbindungs_Mechanik",
+        "Brand_Windfluesterer",
+        "Burg_Saalhorn",
+        "Finduleia_Laurelin"
+      ]
+    },
+    {
+      "target": "Bjoern_Zemand",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_167.md"
+      ],
+      "suggestions": [
+        "Hebren_Zemand",
+        "Niemand",
+        "Jeremias",
+        "Bernhelm_Tarek",
+        "Baron_Gerdenwald"
+      ]
+    },
+    {
+      "target": "Blinde_Maler",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/08_Bestiarium/Daemonen.md"
+      ],
+      "suggestions": [
+        "Der_blinde_Maler",
+        "Lindwürmer",
+        "Lillien_Degner",
+        "Plinius_Deseglieri",
+        "Irindal"
+      ]
+    },
+    {
+      "target": "Blitz",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Elementare_Atomlehre.md"
+      ],
+      "suggestions": [
+        "Eliath",
+        "Goblins",
+        "Hobbits",
+        "Militär",
+        "Blutige_Faust"
+      ]
+    },
+    {
+      "target": "Blutmagie",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Urmagie",
+        "Antimagie",
+        "Graumagie",
+        "Metamagie",
+        "Hutmacher"
+      ]
+    },
+    {
+      "target": "Brecher",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Zerstoerung_von_Westhever.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Bruder_Schinderle",
+        "Sprache_Run",
+        "Drachen",
+        "Krasche"
+      ]
+    },
+    {
+      "target": "Bresch",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Recht",
+        "Krasche",
+        "Ambareth",
+        "Brandeis",
+        "Menschen"
+      ]
+    },
+    {
+      "target": "Burg Bernstein",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Bernstein.md"
+      ],
+      "suggestions": [
+        "Region_Bernstein",
+        "Brandenstein",
+        "Bruno_Reichenstein",
+        "Layna_Rabenstein",
+        "Fruger_Hansen"
+      ]
+    },
+    {
+      "target": "Bürger",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Recht_Siebenwinds.md"
+      ],
+      "suggestions": [
+        "Brogar",
+        "Oger",
+        "Buergerwehr",
+        "Bragarim",
+        "Syr_Geron"
+      ]
+    },
+    {
+      "target": "Calades",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Elurai_Calades",
+        "Aleis",
+        "Galadons",
+        "Waldwesen",
+        "Caeden"
+      ]
+    },
+    {
+      "target": "Corpus_et_Spiritus",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Ortus_et_Integritas",
+        "Donarius_Derrvus",
+        "Gefecht_vor_Etriska",
+        "Plinius_Deseglieri",
+        "Cedric_Rotfuchs"
+      ]
+    },
+    {
+      "target": "Daimonologie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Metamorphose_und_Gestaltwandel.md"
+      ],
+      "suggestions": [
+        "Daimonicon",
+        "Daemonen",
+        "Die_Monde",
+        "Monolith",
+        "Antimagie"
+      ]
+    },
+    {
+      "target": "Daimonologie und Schwarze [[index",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Daimonologie_und_Schwarze_Magie_(Toran_Dur)",
+        "Akademie_der_Schwarzen_Kuenste",
+        "Aeusseu_Schwarzenfels",
+        "Dämonologie_nach_Dunvallo_Linari",
+        "Lea_Sonnenschein"
+      ]
+    },
+    {
+      "target": "Daniel_Donares",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_148.md"
+      ],
+      "suggestions": [
+        "Daemonen",
+        "Die_Monde",
+        "Eleonore",
+        "Galadons",
+        "Gerrion_Arres"
+      ]
+    },
+    {
+      "target": "Daron",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_151.md"
+      ],
+      "suggestions": [
+        "Aaron",
+        "Arn",
+        "Aarion",
+        "Aldaro",
+        "Arkadon"
+      ]
+    },
+    {
+      "target": "Das_Daimonicon",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md"
+      ],
+      "suggestions": [
+        "Daimonicon",
+        "Das_Daimonicon_(Kulin_Lateal)",
+        "Daemonen",
+        "Das_Fundament",
+        "Aarion"
+      ]
+    },
+    {
+      "target": "Das_Rund",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Das_Fundament",
+        "Lasned",
+        "Ödland",
+        "Arn",
+        "Handelsbund"
+      ]
+    },
+    {
+      "target": "Das_Unbekannte_Meer",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md"
+      ],
+      "suggestions": [
+        "Das_Fundament",
+        "Albert_Metzler",
+        "Kaspar_Brandner",
+        "Marlon_Brandner",
+        "Saeulenmeer"
+      ]
+    },
+    {
+      "target": "De_Magica_Angamoniensis",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kalveron_Dai.md"
+      ],
+      "suggestions": [
+        "De_Magica_Angamoniensis_(Kalveron_Dai)",
+        "Daimonicon",
+        "Magierakademie",
+        "Codex_Iuris_Canonici",
+        "Ars_Magica_Metamorphosia"
+      ]
+    },
+    {
+      "target": "Dedelebres_Zuflucht",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Celedelair.md"
+      ],
+      "suggestions": [
+        "Pueppchens_Flucht",
+        "Die_Bannerschaft",
+        "00_Religion_Uebersicht",
+        "Gesellschaft",
+        "Aus_dem_Liebesleben_eines_Dichters"
+      ]
+    },
+    {
+      "target": "Delarie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "suggestions": [
+        "Der_Eine",
+        "Waldemar_Delarie",
+        "Keljar",
+        "Celedelair",
+        "Dunkeltief"
+      ]
+    },
+    {
+      "target": "Der_bunte_Fremde",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Der_blinde_Maler",
+        "Der_Hutmacher",
+        "Der_Blutrote_Stier",
+        "Der_Flug_der_Ente",
+        "Der_letzte_Falke"
+      ]
+    },
+    {
+      "target": "Der_Gehörnte",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Der_Flug_der_Ente",
+        "Der_Eine",
+        "Der_Große_Rat",
+        "Der_Grix",
+        "Buergerwehr"
+      ]
+    },
+    {
+      "target": "Der_Hohe_Rat",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Der_Große_Rat",
+        "Ersonter_Rat",
+        "Der_Hutmacher",
+        "Thorgat",
+        "Heeron_Dherayne"
+      ]
+    },
+    {
+      "target": "Derfflinger",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Myrandhir.md"
+      ],
+      "suggestions": [
+        "Wim_Derfflinger",
+        "Der_Eine",
+        "Ernennung_Wim_Derfflinger",
+        "Der_Flug_der_Ente",
+        "Der_blinde_Maler"
+      ]
+    },
+    {
+      "target": "Die [[index",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Lehrbuch_der_Magietheorie_(Toran_Dur).md"
+      ],
+      "suggestions": [
+        "Die_Monde",
+        "index",
+        "Werke_index",
+        "Der_Eine",
+        "Der_blinde_Maler"
+      ]
+    },
+    {
+      "target": "Die Ordenssatzung ... ([[Toran_Dur",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Die_Sprache_Run_(Toran_Dur)",
+        "Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur)",
+        "Theorien_der_Magie_(Toran_Dur)",
+        "Index_Siebenwind_(Toran_Dur)",
+        "Die_Magie_(Toran_Dur)"
+      ]
+    },
+    {
+      "target": "Die_Bestien",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Bestien",
+        "Von_dem_Boesen",
+        "Sebastian",
+        "Riesen",
+        "Der_Blutrote_Stier"
+      ]
+    },
+    {
+      "target": "Die_Dwarschim",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Adolfo_Bastian.md"
+      ],
+      "suggestions": [
+        "Dwarschim",
+        "Dwarshim",
+        "Die_Bannerschaft",
+        "Die_Chronik",
+        "Tadschirim"
+      ]
+    },
+    {
+      "target": "Die_Ersten",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Die_Zwergen_WG",
+        "Riesen",
+        "Frank_Biederstein",
+        "Der_Eine",
+        "Kirstan"
+      ]
+    },
+    {
+      "target": "Die_Foki",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Dimiona.md"
+      ],
+      "suggestions": [
+        "Divero",
+        "Die_Foki_(Dimiona)",
+        "Die_Chronik",
+        "Die_Enhor",
+        "Die_Gohor"
+      ]
+    },
+    {
+      "target": "Die_Weisse_Aera",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Die_Eisernen_Tafeln",
+        "Die_Werke_des_Barath_Or",
+        "Die_Sprache_Run",
+        "Greifenweiher",
+        "Wisper"
+      ]
+    },
+    {
+      "target": "Diener_des_Einen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/William_Glaron.md"
+      ],
+      "suggestions": [
+        "Der_Eine",
+        "Kult_des_Einen",
+        "Siegfried_Steiner",
+        "Vincent_Ebenstein",
+        "Riesenspinnen"
+      ]
+    },
+    {
+      "target": "Diözese_Siebenwind",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Sean_Eire.md"
+      ],
+      "suggestions": [
+        "Wissen_Siebenwind",
+        "Siebenwind",
+        "Baronie_Siebenwind",
+        "Iuribus_Siebenwind",
+        "Recht_Siebenwinds"
+      ]
+    },
+    {
+      "target": "Djinns",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
+      ],
+      "suggestions": [
+        "Eydis",
+        "Ignis",
+        "Ionas",
+        "Jabin",
+        "Riens"
+      ]
+    },
+    {
+      "target": "Dornenkrieg",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Der_Goblinkrieg",
+        "Gorn_Estrik",
+        "Lorence",
+        "Arkane_Kriegfuehrung",
+        "Gwydion_Greifenkling"
+      ]
+    },
+    {
+      "target": "Drei-Gekronter-Drache",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Region_Herder",
+        "Brevier_Ordo_Morsanes",
+        "Religion_Übersicht",
+        "Heeron_Dherayne",
+        "Brevier_Ordo_Vitamae"
+      ]
+    },
+    {
+      "target": "Dreiteilung_Siebenwinds",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Recht_Siebenwinds",
+        "Iuribus_Siebenwind",
+        "Ritter_der_Sieben_Winde",
+        "Ritterschaft_zu_Siebenwind",
+        "Wissen_Siebenwind"
+      ]
+    },
+    {
+      "target": "Dunkle_Ritter",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Johan_Gottfried.md"
+      ],
+      "suggestions": [
+        "Dunkelzeit",
+        "Paule_Bitterling",
+        "Mondamulette",
+        "Die_Namikleris",
+        "Untote"
+      ]
+    },
+    {
+      "target": "Edomwayr",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Magica_Curativa_(Toran_Dur).md"
+      ],
+      "suggestions": [
+        "Edomawyr",
+        "Edora",
+        "Comari",
+        "Quendan_Comari",
+        "Yeroma"
+      ]
+    },
+    {
+      "target": "Egozentrik_im_Glauben",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Region_Galadon",
+        "Sedtrick_Moosgrund",
+        "Gorn_Estrik",
+        "Derontas_Marilus",
+        "Region_Khalandra"
+      ]
+    },
+    {
+      "target": "Ein Elf",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Auenelfen",
+        "Der_Eine",
+        "Emanuel",
+        "Tzentel",
+        "Eire"
+      ]
+    },
+    {
+      "target": "Eis",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Elementare_Atomlehre.md"
+      ],
+      "suggestions": [
+        "Aleis",
+        "Eydis",
+        "Felis",
+        "Geist",
+        "Feydis"
+      ]
+    },
+    {
+      "target": "Eisernen Tafeln",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Die_Goldenen_Tafeln.md"
+      ],
+      "suggestions": [
+        "Die_Eisernen_Tafeln",
+        "Die_Silbernen_Tafeln",
+        "Die_Goldenen_Tafeln",
+        "Elementare",
+        "Echsenmenschen"
+      ]
+    },
+    {
+      "target": "Ekre",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Briefe_aus_der_Ferne.md"
+      ],
+      "suggestions": [
+        "Eire",
+        "Eret",
+        "Krone",
+        "Nuir_Ekre",
+        "Viere"
+      ]
+    },
+    {
+      "target": "Elementarismus",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Elementare",
+        "Elementarpfad",
+        "Elementarwerdung",
+        "Mantaris",
+        "Elementarlehre_Luft"
+      ]
+    },
+    {
+      "target": "Elementarlehre",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Elementarlehre_Luft",
+        "Elementare_Atomlehre",
+        "Elementare",
+        "Elementarlehre_Dunkelbaum",
+        "Elementarwerdung"
+      ]
+    },
+    {
+      "target": "Elementarlehre_Erde",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md"
+      ],
+      "suggestions": [
+        "Elementarlehre_Luft",
+        "Elementare_Atomlehre",
+        "Elementare",
+        "Elementarlehre_Dunkelbaum",
+        "Elementarwerdung"
+      ]
+    },
+    {
+      "target": "Elementarlehre_Feuer",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md"
+      ],
+      "suggestions": [
+        "Elementarlehre_Luft",
+        "Elementarlehre_Dunkelbaum",
+        "Elementare_Atomlehre",
+        "Elementare",
+        "Elementarwerdung"
+      ]
+    },
+    {
+      "target": "Elementarlehre_Wasser",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md"
+      ],
+      "suggestions": [
+        "Elementarlehre_Luft",
+        "Elementare_Atomlehre",
+        "Elementarlehre_Dunkelbaum",
+        "Elementare",
+        "Elementarwerdung"
+      ]
+    },
+    {
+      "target": "Elementarmagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Uron_Sbocaj.md"
+      ],
+      "suggestions": [
+        "Elementare",
+        "Metamagie",
+        "Elementarpfad",
+        "Magietheorie_Elementarmagie_I",
+        "Elementare_Atomlehre"
+      ]
+    },
+    {
+      "target": "Elementaropfer",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Elementare",
+        "Elementarpfad",
+        "Elementarwerdung",
+        "Elementare_Atomlehre",
+        "Elementarlehre_Luft"
+      ]
+    },
+    {
+      "target": "Elemente_der_Mitte",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Elyran_Fischer.md"
+      ],
+      "suggestions": [
+        "Elementare_Atomlehre",
+        "Elementare",
+        "Elementarlehre_Luft",
+        "Elementum_Commentari",
+        "Elementarwerdung"
+      ]
+    },
+    {
+      "target": "Elendur",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md"
+      ],
+      "suggestions": [
+        "Leandra",
+        "Eleonore",
+        "Elfen",
+        "Erdur",
+        "Lindwurm"
+      ]
+    },
+    {
+      "target": "Endrun",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Kedrin",
+        "Telandrion",
+        "Leandra",
+        "Ru'n",
+        "Rune"
+      ]
+    },
+    {
+      "target": "Entenschnabel-Flugfisch",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Narbenschnauze",
+        "Pueppchens_Flucht",
+        "Zeitrechnung",
+        "Befreiung_des_Larseij_Bellums",
+        "Bruderschaft_Gofilm"
+      ]
+    },
+    {
+      "target": "Etikette",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Anonymus.md"
+      ],
+      "suggestions": [
+        "Magier_Etikette",
+        "Region_Kettel",
+        "Thaugitter",
+        "Wichtige Städte",
+        "Bestien"
+      ]
+    },
+    {
+      "target": "Exorzismus_Bannung",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Ritual_Bannung_des_Grix",
+        "Calmexistus_Salanus",
+        "Die_Zusammenkunft",
+        "Codex_Iuris_Canonici",
+        "Ausbildung"
+      ]
+    },
+    {
+      "target": "Extractio_Illuminati",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Exercitium",
+        "Magietheorie_Linari",
+        "Traim_Eisenblut",
+        "Matrixtheorie_Linari",
+        "Estriol_Karantes"
+      ]
+    },
+    {
+      "target": "Falkenorden",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Malika_Nohadi.md"
+      ],
+      "suggestions": [
+        "Löwenorden",
+        "Falkensee",
+        "Eleonore",
+        "Astraelorden",
+        "Lehen_Falkenstein"
+      ]
+    },
+    {
+      "target": "Famir_Aldun",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Azgar_Kazanin.md"
+      ],
+      "suggestions": [
+        "Famir",
+        "Mirian",
+        "Ausbildung",
+        "Arkadon",
+        "Milorad"
+      ]
+    },
+    {
+      "target": "Feuerwesen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
+      ],
+      "suggestions": [
+        "Arenus_der_Weise",
+        "Fruger_Hansen",
+        "Baumwesen",
+        "Feuerberg",
+        "Riesen"
+      ]
+    },
+    {
+      "target": "Fila_astralae",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Astralnetz",
+        "Astrael",
+        "Astraelorden",
+        "Finsterwangen",
+        "Flaake_Distelstein"
+      ]
+    },
+    {
+      "target": "Fila_Instructae",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Finsterwangen",
+        "Astrael",
+        "Cizra_Innuae",
+        "Calveas_Catae",
+        "Flavius_Lewenstein"
+      ]
+    },
+    {
+      "target": "Fila_logicae",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Isfaldia",
+        "Antimagie",
+        "Elurai_Calades",
+        "Liche",
+        "Custos_artis_Magicae"
+      ]
+    },
+    {
+      "target": "Filiae_astraeli",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Astrael",
+        "Codex_Astraeli",
+        "Finduleia_Laurelin",
+        "Ordo_Astraeli",
+        "Bibliothek_Astrael_Regeln"
+      ]
+    },
+    {
+      "target": "Filiae_manae",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "William_Glaron",
+        "Emanuel",
+        "Leandra",
+        "Niemand",
+        "Faesa_Farell"
+      ]
+    },
+    {
+      "target": "Filiae_proelium",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Finduleia_Laurelin",
+        "Laurelin",
+        "Aequilibrium",
+        "Familie_Gropp",
+        "Cylia_Rosenmond"
+      ]
+    },
+    {
+      "target": "Finanzen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Saphyriella.md"
+      ],
+      "suggestions": [
+        "Finsterwangen",
+        "Ian_Dejan",
+        "Fingarion",
+        "Tionne",
+        "Falandrien"
+      ]
+    },
+    {
+      "target": "Flux",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Fela",
+        "Lucy",
+        "Magischer_Flux",
+        "Felis",
+        "Louis"
+      ]
+    },
+    {
+      "target": "Foth",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_149.md"
+      ],
+      "suggestions": [
+        "Lothgar",
+        "Feanthil",
+        "Monolith",
+        "Yota",
+        "Lothorien"
+      ]
+    },
+    {
+      "target": "Freie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Recht_Siebenwinds.md"
+      ],
+      "suggestions": [
+        "Der_Eine",
+        "Feen",
+        "Fred",
+        "Rien",
+        "Safiriel"
+      ]
+    },
+    {
+      "target": "Friedward_von_Gerdenwald",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Gerdenwald.md"
+      ],
+      "suggestions": [
+        "Friedward_von_und_zu_Gerdenwald",
+        "Baron_Gerdenwald",
+        "Baron_von_Gerdenwald",
+        "Region_Gerdenwald",
+        "Gerdenwald"
+      ]
+    },
+    {
+      "target": "Fundgrube",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Heinrich_Drachenfall.md"
+      ],
+      "suggestions": [
+        "Feuerberg",
+        "Falandrien",
+        "Rhadan_der_Graue",
+        "Das_Fundament",
+        "Dunquell"
+      ]
+    },
+    {
+      "target": "Fürst_Raziel",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/08_Bestiarium/Tardukai.md"
+      ],
+      "suggestions": [
+        "Raziel",
+        "Astrael",
+        "Ordo_Astrael",
+        "Ordo_Astraeli",
+        "Satai_Akelas"
+      ]
+    },
+    {
+      "target": "Fürstentum_Malthust",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Der_Erlass_des_Koenigs.md"
+      ],
+      "suggestions": [
+        "Region_Malthust",
+        "Herbren_Maltis",
+        "Derontas_Marilus",
+        "Malthuster_Wacht",
+        "Serena_Kyloth"
+      ]
+    },
+    {
+      "target": "Galadonier",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_168.md"
+      ],
+      "suggestions": [
+        "Galadonien",
+        "Galadon",
+        "Galadons",
+        "Galtor",
+        "Region_Galadon"
+      ]
+    },
+    {
+      "target": "Galtors_Schwinge",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Galtor",
+        "Murrin_Hammerschwinger",
+        "Burg_Schwingenwacht",
+        "Blutschwert",
+        "Amulettkriege"
+      ]
+    },
+    {
+      "target": "Garde",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Die_Spinnenplage_von_Falkensee.md"
+      ],
+      "suggestions": [
+        "Seegarde",
+        "Adel",
+        "Graue_Garde",
+        "Tare",
+        "Baronsgarde"
+      ]
+    },
+    {
+      "target": "Gastronomie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Svendra_Merseck.md"
+      ],
+      "suggestions": [
+        "Astreyon",
+        "Bartanatomie",
+        "Marion_Comari",
+        "V._Catrone",
+        "Astralnetz"
+      ]
+    },
+    {
+      "target": "Gawain_von_Tiefenwald",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Mirian.md"
+      ],
+      "suggestions": [
+        "Katharina_von_Tiefenwald",
+        "Region_Tiefenwald",
+        "Ulanda_von_Tiefenwald",
+        "Kaspian_Tiefenwald",
+        "Tiefenwald"
+      ]
+    },
+    {
+      "target": "Gefaengnissystem",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md"
+      ],
+      "suggestions": [
+        "Gefreite_Famir",
+        "Das_Adelssystem",
+        "Lehen_Falkenstein",
+        "Personenregister",
+        "Organisationsregister"
+      ]
+    },
+    {
+      "target": "Gefaengnissystem.md",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Gefreite_Famir",
+        "Das_Adelssystem",
+        "Lehen_Falkenstein",
+        "Personenregister",
+        "Anissa_Merden"
+      ]
+    },
+    {
+      "target": "Gefühlsmagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md"
+      ],
+      "suggestions": [
+        "Weissmagie",
+        "Graumagie",
+        "Metamagie",
+        "Zirkel_der_Magie",
+        "Urmagie"
+      ]
+    },
+    {
+      "target": "Geisterwald",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Greifenwald",
+        "Gerdenwald",
+        "Zeitstrahl",
+        "Geist",
+        "Magistrat"
+      ]
+    },
+    {
+      "target": "Gemeinschaft_der_Elementargläubigen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md"
+      ],
+      "suggestions": [
+        "Magietheorie_Eigenschaften_der_Elemente",
+        "Magietheorie_Elementarmagie_I",
+        "Bruderschaft_der_Tardukai",
+        "Bindungslehre_der_Elementarmagier_(Elurai_Calades)",
+        "Ritterschaft_der_Sieben_Winde"
+      ]
+    },
+    {
+      "target": "Gerechtigkeit",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Viereinigkeit",
+        "Magier_Etikette",
+        "Recht_und_Gesetz",
+        "Recht",
+        "Recht_Siebenwinds"
+      ]
+    },
+    {
+      "target": "Geschichte_Falandriens",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Falandrien",
+        "Geschichte",
+        "Schlacht_um_Falkensee",
+        "Telandrion",
+        "Geschichten_eines_silbernen_Adlers"
+      ]
+    },
+    {
+      "target": "Gesetze",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/10_Archiv/Statut_der_Kronmark_Siebenwind.md"
+      ],
+      "suggestions": [
+        "Geist",
+        "Recht_und_Gesetz",
+        "Seiltaenzer",
+        "Eret",
+        "Gesellschaft"
+      ]
+    },
+    {
+      "target": "Gesetzeskodex_der_Kronmark",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Inselrat.md"
+      ],
+      "suggestions": [
+        "Heerfuehrer_der_Kronmark",
+        "Statut_der_Kronmark_Siebenwind",
+        "Kronmark",
+        "Riesenskorpione",
+        "Geschaeftiges_Treiben"
+      ]
+    },
+    {
+      "target": "Glaubensdoktrin",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Layna_Rabenstein",
+        "Flavius_Lewenstein",
+        "Telandrion",
+        "Galadon",
+        "Tannenstein"
+      ]
+    },
+    {
+      "target": "Glaubenslehre",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Alavia_Rabenschrey",
+        "Reagenzien_Lehre",
+        "Klauenwoelfe",
+        "Auenelfen",
+        "Falkensee"
+      ]
+    },
+    {
+      "target": "Glurdrun",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Galadon",
+        "Luther_Dueff",
+        "Galadons",
+        "Lario_Anderus",
+        "Laurelin"
+      ]
+    },
+    {
+      "target": "Gnaden_Custodias",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hevelius_Dunkelfeld.md"
+      ],
+      "suggestions": [
+        "Vater_Custodias",
+        "Custodias",
+        "Haldur_Toda",
+        "Aequitas",
+        "Nefustor"
+      ]
+    },
+    {
+      "target": "Gnome",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
+      ],
+      "suggestions": [
+        "Gorem",
+        "Goerts",
+        "Golems",
+        "Nemses",
+        "Untote"
+      ]
+    },
+    {
+      "target": "Gold",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md"
+      ],
+      "suggestions": [
+        "Ergol",
+        "Golems",
+        "Kobold",
+        "Galahad",
+        "Goblins"
+      ]
+    },
+    {
+      "target": "Goldene_Tafeln",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Die_Silbernen_Tafeln.md"
+      ],
+      "suggestions": [
+        "Die_Goldenen_Tafeln",
+        "Die_Eisernen_Tafeln",
+        "Die_Silbernen_Tafeln",
+        "Region_Kettel",
+        "Auenelfen"
+      ]
+    },
+    {
+      "target": "Goldener_Drache",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Die_Goldenen_Tafeln",
+        "Die_Viere_Kirche",
+        "Drachen",
+        "Leandra",
+        "Orden_der_Wachenden_Löwen"
+      ]
+    },
+    {
+      "target": "Gott Angamon",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Sae.md"
+      ],
+      "suggestions": [
+        "Angamon",
+        "10_Angamon",
+        "Region_Galadon",
+        "Tanoniel",
+        "Aaron"
+      ]
+    },
+    {
+      "target": "Gott Astrael",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Sae.md"
+      ],
+      "suggestions": [
+        "Astrael",
+        "Ordo_Astrael",
+        "Ordo_Astraeli",
+        "Codex_Astraeli",
+        "Astraelorden"
+      ]
+    },
+    {
+      "target": "Gott Be'rglum",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Orken.md"
+      ],
+      "suggestions": [
+        "Gott Bellum",
+        "Bellum",
+        "Region_Kettel",
+        "Rodeberg",
+        "Gorem"
+      ]
+    },
+    {
+      "target": "Gott Ci'rgbus",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Orken.md"
+      ],
+      "suggestions": [
+        "Gott Bellum",
+        "Goerts",
+        "Goblins",
+        "Ersonter_Bund",
+        "Birnbaum"
+      ]
+    },
+    {
+      "target": "Gott Ignis",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Zwerge.md"
+      ],
+      "suggestions": [
+        "Ignis",
+        "Goblins",
+        "Ortus_et_Integritas",
+        "Goerts",
+        "Gorion"
+      ]
+    },
+    {
+      "target": "Gott Morsan",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Morthum.md"
+      ],
+      "suggestions": [
+        "Morsan",
+        "Ordo_Morsanes",
+        "Goslian",
+        "Toran_Dur",
+        "Region_Ossian"
+      ]
+    },
+    {
+      "target": "Grab_aus_Wellen",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Baumwesen",
+        "Rasse_Elfen",
+        "Rasse Rasse_Elfen",
+        "Laurec_Llewellyen",
+        "Auenelfen"
+      ]
+    },
+    {
+      "target": "Grosse_Meister",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Rasse_Menschen",
+        "Grosser_Rat",
+        "Geist",
+        "Gefreite_Famir",
+        "Solfeister_Kin"
+      ]
+    },
+    {
+      "target": "Grundstein_der_Welt",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Brandensteiner_Reiter",
+        "Bruder_Schinderle",
+        "Siegfried_Steiner",
+        "Siegfried_von_Steiner",
+        "Brandenstein"
+      ]
+    },
+    {
+      "target": "Göttin Vitama",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Halblinge.md"
+      ],
+      "suggestions": [
+        "Vitama",
+        "01_Vitama",
+        "02_Vitama",
+        "Vitamalin",
+        "Ordo_Vitama"
+      ]
+    },
+    {
+      "target": "Göttliche_Ordnung",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Götter_und_Götzen",
+        "Utrich_Rothnang",
+        "Zeitrechnung",
+        "Die_Sprache_Run",
+        "Magie_Theorien"
+      ]
+    },
+    {
+      "target": "H&H_der_Dwarschim",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Fogrim_Goldaxt.md"
+      ],
+      "suggestions": [
+        "Dwarschim",
+        "Dwarshim",
+        "Handelskontore_der_Dwarschim_(H&H)",
+        "Deros_Gudowisch",
+        "Handwerk_Übersicht"
+      ]
+    },
+    {
+      "target": "Hafen_Brandenstein",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Hafengilde_Brandenstein",
+        "Brandenstein",
+        "Bestie_von_Brandenstein",
+        "Alexander_Stein",
+        "Layna_Rabenstein"
+      ]
+    },
+    {
+      "target": "Hagen_Robaar_zu_Saalhorn",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md"
+      ],
+      "suggestions": [
+        "Hagen_Robaar",
+        "Hagen_Robaar_von_Saalhorn_und_Siebenwind",
+        "Todward_von_Saalhorn",
+        "Burg_Saalhorn",
+        "Arondar_von_Mellhorn"
+      ]
+    },
+    {
+      "target": "Handelsbundturnier_15_nH",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Handelsbundturnier_15_nH_Ergebnisse.md"
+      ],
+      "suggestions": [
+        "Handelsbundturnier_15_nH_Ergebnisse",
+        "Handelsbund",
+        "Hahngard_Esteron",
+        "Adelskalender",
+        "Heilige_Liturgien"
+      ]
+    },
+    {
+      "target": "Handelskonto",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Dwarshim.md"
+      ],
+      "suggestions": [
+        "Handelsbund",
+        "Handel",
+        "Hahngard_Esteron",
+        "Johannes_Klos",
+        "Adelskalender"
+      ]
+    },
+    {
+      "target": "Handwerk",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Talida.md"
+      ],
+      "suggestions": [
+        "Handel",
+        "Handwerk_Übersicht",
+        "Harok",
+        "Mythandir",
+        "Abdera"
+      ]
+    },
+    {
+      "target": "Hankuk",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Rituallehre_Sphaeren.md"
+      ],
+      "suggestions": [
+        "Tarnuk",
+        "Harok",
+        "Maluk",
+        "Sphaerenkunde",
+        "Handel"
+      ]
+    },
+    {
+      "target": "Havarr",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Vänskap.md"
+      ],
+      "suggestions": [
+        "Halvard",
+        "Halgar",
+        "Halmar",
+        "Haaron_Maar",
+        "Harwarn"
+      ]
+    },
+    {
+      "target": "Heilkunde",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rolosin_Vadebor.md"
+      ],
+      "suggestions": [
+        "Heilung",
+        "Sphaerenkunde",
+        "Volkskunde",
+        "Handelsbund",
+        "Herkules"
+      ]
+    },
+    {
+      "target": "Heilmagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Metamorphose_und_Gestaltwandel.md"
+      ],
+      "suggestions": [
+        "Weissmagie",
+        "Antimagie",
+        "Metamagie",
+        "Schwarze_Magie",
+        "Heilung"
+      ]
+    },
+    {
+      "target": "Heiltränke",
+      "count": 1,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Einsame Ladengedanken.md"
+      ],
+      "suggestions": [
+        "Heilung",
+        "Eire",
+        "Heilige_Liturgien",
+        "Bernhelm_Tarek",
+        "Sphaerenkunde"
+      ]
+    },
+    {
+      "target": "Hektor_Steinhauer",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md"
+      ],
+      "suggestions": [
+        "Steinhauer",
+        "Falk_Steinhauer",
+        "Viktor_Menzer",
+        "Siegfried_Steiner",
+        "Hektor"
+      ]
+    },
+    {
+      "target": "Hemalar",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md"
+      ],
+      "suggestions": [
+        "Halgar",
+        "Halvard",
+        "Aldaro",
+        "Halmar",
+        "Harlas"
+      ]
+    },
+    {
+      "target": "Herr_Geist",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md"
+      ],
+      "suggestions": [
+        "Geist",
+        "Herr_Merik",
+        "Herbren_Maltis",
+        "Nhergas",
+        "Eret"
+      ]
+    },
+    {
+      "target": "Hierarchie",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Die_Sprache_Run",
+        "Drachen",
+        "Krasche",
+        "Die_Viere_Kirche",
+        "Der_Hutmacher"
+      ]
+    },
+    {
+      "target": "Hochelfen | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Siebenwind_Bote_Index",
+        "Recht_Siebenwinds",
+        "Siebenwindakte",
+        "Siebenwind_Boten",
+        "Ritter_der_Sieben_Winde"
+      ]
+    },
+    {
+      "target": "Hochtuerme",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Hochelfen",
+        "Chernides",
+        "Herr_Merik",
+        "Hutmacher",
+        "Gohor_Haeresie"
+      ]
+    },
+    {
+      "target": "Hochtürme_der_Magie",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Philosophie_der_Magie",
+        "Zirkel_der_Magie",
+        "Schwarze_Magie",
+        "Theorie_arkane_Magie",
+        "Theorien_der_Magie_(Toran_Dur)"
+      ]
+    },
+    {
+      "target": "Hohe_Alchemie",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Hochelfen",
+        "Gohor_Haeresie",
+        "Schamanische_Magie",
+        "Avaratio_Mischelgrimm_Alchemie",
+        "Alchemie_Kompendium"
+      ]
+    },
+    {
+      "target": "Hoher_Rat",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Grosser_Rat",
+        "Thorgat",
+        "Ersonter_Rat",
+        "Herr_Kurt",
+        "Terra"
+      ]
+    },
+    {
+      "target": "Horlaf",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Harlas",
+        "Horwah",
+        "Thorgat",
+        "Hilgorad",
+        "Akora"
+      ]
+    },
+    {
+      "target": "Hospiz_zu_Falkensee",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Laylira_Hohentann.md"
+      ],
+      "suggestions": [
+        "Falkensee",
+        "Putsch_in_Falkensee",
+        "Handwerkshaus_Falkensee",
+        "Schlacht_um_Falkensee",
+        "Myten_in_Falkensee"
+      ]
+    },
+    {
+      "target": "Humus",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Elementare_Atomlehre.md"
+      ],
+      "suggestions": [
+        "Markus",
+        "Themus_Takai",
+        "Urs",
+        "Anonymus",
+        "Herkules"
+      ]
+    },
+    {
+      "target": "Häresie_der_Elementarverehrung",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Elementarwerdung",
+        "Elementarlehre_Luft",
+        "Elementare_Atomlehre",
+        "Elementarlehre_Dunkelbaum",
+        "Elementare"
+      ]
+    },
+    {
+      "target": "Höhere_Wesenheiten",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Golems.md"
+      ],
+      "suggestions": [
+        "Hoehere_Wesenheiten",
+        "Personenregister",
+        "Riesenspinnen",
+        "Erschaffene_Diener",
+        "Herr_Distelstein"
+      ]
+    },
+    {
+      "target": "Höhle Niemands",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Forschungsberichte_(Toran_Dur).md"
+      ],
+      "suggestions": [
+        "Niemand",
+        "Hebren_Zemand",
+        "Chernides",
+        "Ödland",
+        "Hafengilde_Brandenstein"
+      ]
+    },
+    {
+      "target": "Hörige",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Recht_Siebenwinds.md"
+      ],
+      "suggestions": [
+        "Rien",
+        "Harpyien",
+        "Riens",
+        "Chernides",
+        "Halblinge"
+      ]
+    },
+    {
+      "target": "Hügelwald",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_125.md"
+      ],
+      "suggestions": [
+        "Gerdenwald",
+        "Fenwald",
+        "Haus_Gerdenwald",
+        "Greifenwald",
+        "Zarna_Eschelwald"
+      ]
+    },
+    {
+      "target": "Hüter_des_Grosssiegels_der_Kronmark",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Koenigliches_Gericht.md"
+      ],
+      "suggestions": [
+        "Heerfuehrer_der_Kronmark",
+        "Ritter_der_Sieben_Winde",
+        "Lauscher_der_Lieder",
+        "Grosser_Rat",
+        "Herr_Distelstein"
+      ]
+    },
+    {
+      "target": "Ignis-Kirche",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Telandrion.md"
+      ],
+      "suggestions": [
+        "Die_Viere_Kirche",
+        "Ignis",
+        "Gignoskein",
+        "Linguistik_Übersicht",
+        "Indoaich"
+      ]
+    },
+    {
+      "target": "Ikanariaschmetterling",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Layna_Rabenstein",
+        "Vandriens_Entstehung",
+        "Sylviana_Drachenfeuer",
+        "Kiraya_Rabenschlag",
+        "Sarahna_Greifenschwing"
+      ]
+    },
+    {
+      "target": "Ingis",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md"
+      ],
+      "suggestions": [
+        "Ignis",
+        "Anais",
+        "Geist",
+        "Ionas",
+        "Ranis"
+      ]
+    },
+    {
+      "target": "Insel Siebenwind",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Ossian.md"
+      ],
+      "suggestions": [
+        "Wissen_Siebenwind",
+        "Siebenwind",
+        "Baronie_Siebenwind",
+        "Iuribus_Siebenwind",
+        "Recht_Siebenwinds"
+      ]
+    },
+    {
+      "target": "INVENTUR_QUELLEN",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md"
+      ],
+      "suggestions": [
+        "Ventusreiter",
+        "Dunquell",
+        "Venturia",
+        "Vincent_Ebenstein",
+        "Auenelfen"
+      ]
+    },
+    {
+      "target": "Invocatio_Elementharii",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Raisha_al_Javet.md"
+      ],
+      "suggestions": [
+        "Invocatio_Elementharii_(Raisha_al_Javet)",
+        "Inoch_Ateharis",
+        "Magietheorie_Elementarmagie_I",
+        "Elementare",
+        "Elementarpfad"
+      ]
+    },
+    {
+      "target": "Irahfar",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md"
+      ],
+      "suggestions": [
+        "Ra-Harakte",
+        "Rafael",
+        "Ur-Shar",
+        "Liam_Harrom",
+        "Alashar"
+      ]
+    },
+    {
+      "target": "Irdirim",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md"
+      ],
+      "suggestions": [
+        "Isgrim",
+        "Tadschirim",
+        "Ruodrik",
+        "Bragarim",
+        "Aequilibrium"
+      ]
+    },
+    {
+      "target": "Ita'Il",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Tanoniel",
+        "Nithavela",
+        "Vitamalin",
+        "Ahilur",
+        "Kida_Gilwen"
+      ]
+    },
+    {
+      "target": "Ita'Im'Elarum",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Nithavela",
+        "Vitama",
+        "Liam_Harrom",
+        "Traim_Eisenblut",
+        "Satai_Akelas"
+      ]
+    },
+    {
+      "target": "iustitia",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Inquisition",
+        "Custodias",
+        "Tintin",
+        "Ortus_et_Integritas",
+        "Kirstan"
+      ]
+    },
+    {
+      "target": "Jagd",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Nathar_Erres.md"
+      ],
+      "suggestions": [
+        "Ingjald",
+        "Adel",
+        "Ilja",
+        "Jabin",
+        "Jasna"
+      ]
+    },
+    {
+      "target": "Jägergilde",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_148.md"
+      ],
+      "suggestions": [
+        "Ergol",
+        "Chernides",
+        "Gargoyles",
+        "Geidwenja",
+        "Geografie"
+      ]
+    },
+    {
+      "target": "Jüngste_Schlacht",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Geschichte",
+        "Gesellschaft",
+        "03_Gesellschaft",
+        "Linguistik_Übersicht",
+        "Ritterschaft"
+      ]
+    },
+    {
+      "target": "Kabale",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md"
+      ],
+      "suggestions": [
+        "Kaa",
+        "Kaarem_Balta",
+        "Akassvae",
+        "Ambareth",
+        "Arkan-Metalle"
+      ]
+    },
+    {
+      "target": "Kabinett_Altor",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Inoch_Ateharis.md"
+      ],
+      "suggestions": [
+        "Tion_Altor",
+        "Arkan-Metalle",
+        "Kulin_Laetall",
+        "Al-Barlis-Nekor",
+        "Statthalterin"
+      ]
+    },
+    {
+      "target": "Kaempferschule",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Feste_Seeberg.md"
+      ],
+      "suggestions": [
+        "Rasse_Menschen",
+        "Krasche",
+        "Tempelwache",
+        "Dame_Rose",
+        "Akademie_der_Schwarzen_Kuenste"
+      ]
+    },
+    {
+      "target": "Kalender",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Die_Verbrennung_des_heiligen_Markus.md"
+      ],
+      "suggestions": [
+        "Adelskalender",
+        "Leandra",
+        "Alexander_Stein",
+        "Atmender_Tod",
+        "Kalveron_Dai"
+      ]
+    },
+    {
+      "target": "Kampfmagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Antimagie_und_Gegenzauber.md"
+      ],
+      "suggestions": [
+        "Kaufmannsgilde",
+        "Antimagie",
+        "Graumagie",
+        "Metamagie",
+        "Urmagie"
+      ]
+    },
+    {
+      "target": "Ketzer",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tjure_Odal.md"
+      ],
+      "suggestions": [
+        "Ente",
+        "Seiltaenzer",
+        "Viktor_Menzer",
+        "Terra",
+        "Äther"
+      ]
+    },
+    {
+      "target": "Khaleb",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arkan-Metalle.md"
+      ],
+      "suggestions": [
+        "Johann_Liebig",
+        "Aleis",
+        "Kazla",
+        "Halblinge",
+        "Hadhal"
+      ]
+    },
+    {
+      "target": "Khyra_Gropp",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_194.md"
+      ],
+      "suggestions": [
+        "Harwarn_Gropp",
+        "Hanna_Gropp",
+        "Gropp",
+        "Regina_Gropp",
+        "Zacharias_Gropp"
+      ]
+    },
+    {
+      "target": "Kleiner_Almanach_übernatürlicher_Wesen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Maerchen_und_wie_man_sie_vermeidet.md"
+      ],
+      "suggestions": [
+        "Kleiner_Almanach_uebernatuerlicher_Wesen",
+        "Hannah_Berndorf_zu_Lichtenwald",
+        "Orden_der_Wachenden_Loewen",
+        "Orden_der_Wachenden_Löwen",
+        "Orden_des_wachenden_Loewen"
+      ]
+    },
+    {
+      "target": "Knotentheorie",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Magietheorie",
+        "Lothorien",
+        "Magie_Theorien",
+        "Horlafstrom_Theorie",
+        "Interessante_Artikel"
+      ]
+    },
+    {
+      "target": "Koenigliche_Kriegerakademie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "suggestions": [
+        "Kriegerakademie",
+        "Koenigliches_Gericht",
+        "Heimsuchung_der_Akademie",
+        "Kriegerakademie_Seeberg",
+        "Koenigliche_Akademie_der_Arkanen_Kuenste"
+      ]
+    },
+    {
+      "target": "Konflikt_Ersont_Malthust_21nH",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Cizra_Innuae.md"
+      ],
+      "suggestions": [
+        "Region_Malthust",
+        "Derontas_Marilus",
+        "Malthuster_Wacht",
+        "Ersonter_Rat",
+        "Vorfall_im_Haus_TharSala"
+      ]
+    },
+    {
+      "target": "Konig_der_Katzen",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Von_den_Myten",
+        "Frank_Biederstein",
+        "Orken",
+        "Randur_Kantrin",
+        "Alexander_Stein"
+      ]
+    },
+    {
+      "target": "Konvent_des_Loewenordens_51|51. Konvent des Löwenordens",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Konvent_des_Loewenordens_51",
+        "Orden_der_Wachenden_Löwen",
+        "Entdeckung_der_Chernides_Muenze",
+        "Von_gesplitterten_Seelen_und_blutigen_Kehlen",
+        "Die_Kunst_der_erschaffenen_Diener_(Nuir_Ekre)"
+      ]
+    },
+    {
+      "target": "Kreaturen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md"
+      ],
+      "suggestions": [
+        "Wasserkreaturen",
+        "Region_Auren",
+        "Kraken",
+        "Akora_Dur",
+        "Grüneaue"
+      ]
+    },
+    {
+      "target": "Kreuzrueckenspinne",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
+      ],
+      "suggestions": [
+        "Riesenspinnen",
+        "Riesenskorpione",
+        "Koorun_McKevin",
+        "Koruun_McKevin",
+        "Oculus_Ecclesiae"
+      ]
+    },
+    {
+      "target": "Krieg_der_Feder",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Briefe_aus_der_Ferne",
+        "Kriegerakademie",
+        "Kriegerakademie_Seeberg",
+        "Gilde_der_Feinschmiede",
+        "Ritter_der_Sieben_Winde"
+      ]
+    },
+    {
+      "target": "Kudahar",
+      "count": 1,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md"
+      ],
+      "suggestions": [
+        "Ur-Shar",
+        "Kaa",
+        "Alashar",
+        "Aaron",
+        "Bruder_Zar"
+      ]
+    },
+    {
+      "target": "Kuenstlerakademie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "suggestions": [
+        "Kriegerakademie",
+        "Magierakademie",
+        "Akademie",
+        "Heimsuchung_der_Akademie",
+        "Kriegerakademie_Seeberg"
+      ]
+    },
+    {
+      "target": "Könige_Falandriens",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hilgorad_I_ap_Mer.md"
+      ],
+      "suggestions": [
+        "Falandrien",
+        "Galadonien",
+        "Telandrion",
+        "Königreich Galadon",
+        "Königliche_Armee"
+      ]
+    },
+    {
+      "target": "Königliche Magierakademie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Graue_Charta_(Zweiter_Entwurf).md"
+      ],
+      "suggestions": [
+        "Magierakademie",
+        "Kriegerakademie",
+        "Königliche_Akademie_zu_Siebenwind",
+        "Königliche_Armee",
+        "Königliche_Akademie_der_Kriegskünste"
+      ]
+    },
+    {
+      "target": "Königliche_Akademie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Daena.md"
+      ],
+      "suggestions": [
+        "Königliche_Armee",
+        "Königliche_Akademie_zu_Siebenwind",
+        "Kriegerakademie",
+        "Königliche_Akademie_der_Kriegskünste",
+        "Koenigliche_Akademie_der_Arkanen_Kuenste"
+      ]
+    },
+    {
+      "target": "Königliches_Gericht",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Ernennung_Wim_Derfflinger.md"
+      ],
+      "suggestions": [
+        "Koenigliches_Gericht",
+        "Königliche_Armee",
+        "Königliche_Akademie_der_Kriegskünste",
+        "Das_XIII_Koenigliche_Regiment",
+        "Lieblicher_Kelch"
+      ]
+    },
+    {
+      "target": "L.",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "S.L.",
+        "T.",
+        "Adel",
+        "Alma",
+        "Fela"
+      ]
+    },
+    {
+      "target": "L.H.",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_132.md"
+      ],
+      "suggestions": [
+        "G.K.",
+        "S.L.",
+        "Liche",
+        "Eliath",
+        "Lurath"
+      ]
+    },
+    {
+      "target": "Landelfen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md"
+      ],
+      "suggestions": [
+        "Auenelfen",
+        "Waldelfen",
+        "Elfen",
+        "Handel",
+        "Klauenwoelfe"
+      ]
+    },
+    {
+      "target": "Landesorden",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Falandrien",
+        "Löwenorden",
+        "Alexander_Stein",
+        "Roland_Ronde",
+        "Vandrien"
+      ]
+    },
+    {
+      "target": "Leckerlie",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Chernides",
+        "Amulettkriege",
+        "Jack_the_Ripper",
+        "Lauscher_der_Lieder",
+        "Kedrin"
+      ]
+    },
+    {
+      "target": "Lehen_Suedfall",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ovelia_Galthana.md"
+      ],
+      "suggestions": [
+        "Lehensverwaltung",
+        "Südfall",
+        "Lehensbanner",
+        "Jenseits_des_Walls",
+        "Lehen_Falkenstein"
+      ]
+    },
+    {
+      "target": "Lehen_Wasserwall",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Anijane_Lavid.md"
+      ],
+      "suggestions": [
+        "Wasserwall",
+        "Lehensverwaltung",
+        "Lehensbanner",
+        "Falkenwall",
+        "Lilienwall"
+      ]
+    },
+    {
+      "target": "Lehnsherr",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md"
+      ],
+      "suggestions": [
+        "Lehensbanner",
+        "Feldherr",
+        "Menschen",
+        "Region_Herder",
+        "Lehensverwaltung"
+      ]
+    },
+    {
+      "target": "Leitwolf_von_Westhever",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Zerstoerung_von_Westhever",
+        "Zerstörung_von_Westhever",
+        "Greifenweiher",
+        "Laszlo_von_Wegenstein",
+        "Siegfried_von_Steiner"
+      ]
+    },
+    {
+      "target": "Leonard_von_Wolfenbach",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_171.md"
+      ],
+      "suggestions": [
+        "Stephan_von_Weidenbach",
+        "Frau_von_Wankenbach",
+        "Sire_von_Weidenbach",
+        "Tiefenbach",
+        "Weidenbach"
+      ]
+    },
+    {
+      "target": "Lich",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Hoehere_Wesenheiten.md"
+      ],
+      "suggestions": [
+        "Liche",
+        "Lichthoch",
+        "Eliath",
+        "Linduc",
+        "Indoaich"
+      ]
+    },
+    {
+      "target": "Lichtenfeld",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Feestar_von_Lichtenfeld.md"
+      ],
+      "suggestions": [
+        "Region_Lichtenfeld",
+        "Feestar_von_Lichtenfeld",
+        "Liche",
+        "Benedict_Rabenfels",
+        "Samuel_Lichtenthal"
+      ]
+    },
+    {
+      "target": "Lit_Ita_Im_Elarum_Odalim_ir_Galadon",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tai_Sah_Halour_Glurias.md"
+      ],
+      "suggestions": [
+        "Hilgorad_I._ap_Mer_von_Galadon",
+        "Aelfrid_Wildgaden",
+        "Noalim_al_Achid",
+        "Region_Galadon",
+        "William_Glaron"
+      ]
+    },
+    {
+      "target": "Locus_Magicae",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Johannes_Klos.md"
+      ],
+      "suggestions": [
+        "Custos_artis_Magicae",
+        "Locus_Magicae_(Johannes_Klos)",
+        "Urmagie",
+        "Graumagie",
+        "Elurai_Calades"
+      ]
+    },
+    {
+      "target": "LORE_RESEARCH_BOARD.md",
+      "count": 1,
+      "source_pages": [
+        "docs/MASTER_TASK_LIST.md"
+      ],
+      "suggestions": [
+        "Oberfoerster_Birk",
+        "Ritterschaft",
+        "Ritus_der_Exercitio",
+        "Terenon_Sarophilan",
+        "Erhebung_Kaspar_Brandner"
+      ]
+    },
+    {
+      "target": "Lyril",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Von_gesplitterten_Seelen.md"
+      ],
+      "suggestions": [
+        "Lhynar_Silmaril",
+        "Lyrius_Telrunya",
+        "Irindal",
+        "Lhynhar_Silmaril",
+        "Luydira"
+      ]
+    },
+    {
+      "target": "Magie Grauer Pfad",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Kadamark.md"
+      ],
+      "suggestions": [
+        "Grauer_Pfad",
+        "Magierakademie",
+        "Magie_Grundlagen",
+        "12_Magie_Grundlagen",
+        "Graue_Garde"
+      ]
+    },
+    {
+      "target": "Magie_Linker_Pfad",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/10_Archiv/Akademie_der_Schwarzen_Kuenste.md"
+      ],
+      "suggestions": [
+        "Elementarpfad",
+        "Grauer_Pfad",
+        "Weißer_Pfad",
+        "Magier_Etikette",
+        "Magierakademie"
+      ]
+    },
+    {
+      "target": "Magier-Hierarchie",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Magietheorie_Linari",
+        "Magietheorie_Toran_Dur",
+        "Magier_Etikette",
+        "Magierturm_zu_Tiefenbach",
+        "Magietheorie"
+      ]
+    },
+    {
+      "target": "Magierakademie_Posten",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Magierakademie",
+        "Magister_ad_Sinister",
+        "Kriegerakademie",
+        "Kriegerakademie_Seeberg",
+        "Magier_Etikette"
+      ]
+    },
+    {
+      "target": "Magierturm",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_147.md"
+      ],
+      "suggestions": [
+        "Grauer_Turm",
+        "Rituale_des_Magierturms",
+        "Magistrat",
+        "Magierturm_zu_Tiefenbach",
+        "Magischer_Flux"
+      ]
+    },
+    {
+      "target": "Magietheorie_Dunkeltief",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Magietheorie_Homunkuli",
+        "Magie_Theorien",
+        "Magietheorie",
+        "Magietheorie_Linari",
+        "Magietheorie_Elementarmagie_I"
+      ]
+    },
+    {
+      "target": "Magister_Konvent",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Koenigliche_Akademie_der_Arkanen_Kuenste.md"
+      ],
+      "suggestions": [
+        "Magistrat",
+        "Magie_Theorien",
+        "Magister_ad_Sinister",
+        "Magie_Grundlagen",
+        "Magietheorie"
+      ]
+    },
+    {
+      "target": "Magnifizenz_Calades",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Elurai_Calades",
+        "Magierakademie",
+        "Greifenwald",
+        "Region_Tiefenwald",
+        "Anijane_Salmoranes"
+      ]
+    },
+    {
+      "target": "Malakor",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Akora",
+        "Maluk",
+        "Aldaro",
+        "Arknor",
+        "Galtor"
+      ]
+    },
+    {
+      "target": "Malthuster",
+      "count": 1,
+      "source_pages": [
+        "docs/Quellen/Spielergeschichten/Jenseits des Walls.md"
+      ],
+      "suggestions": [
+        "Malthuster_Wacht",
+        "Maltheos_Thorn",
+        "Region_Malthust",
+        "Althea_Ekre",
+        "Thaugitter"
+      ]
+    },
+    {
+      "target": "Malthuster_Armee",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_183.md"
+      ],
+      "suggestions": [
+        "Malthuster_Wacht",
+        "Maltheos_Thorn",
+        "Maltus_Shuarshirad",
+        "Althea_Ekre",
+        "Markus_Teranius"
+      ]
+    },
+    {
+      "target": "Masseinheiten",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/CHANGELOG_ARCHIVE_FEB_2026.md"
+      ],
+      "suggestions": [
+        "Magie_Theorien",
+        "Rasse_Menschen",
+        "Rasse_Elfen",
+        "Hoehere_Wesenheiten",
+        "Magister_ad_Sinister"
+      ]
+    },
+    {
+      "target": "Masseinheiten.md",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Magie_Theorien",
+        "Rasse_Menschen",
+        "Rasse_Elfen",
+        "Hoehere_Wesenheiten",
+        "Magister_ad_Sinister"
+      ]
+    },
+    {
+      "target": "Matrix_arcana",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Amaris_Aurinas",
+        "Zacharias_Cana",
+        "Matis_Karntus",
+        "Eric_Martarian",
+        "Mirian"
+      ]
+    },
+    {
+      "target": "Matrix_artificialis",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Amaris_Aurinas",
+        "Miana_Tialis",
+        "Matis_Karntus",
+        "Marnie_Tiefwasser",
+        "Katharina_von_Tiefenwald"
+      ]
+    },
+    {
+      "target": "Matrix_naturalis",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Miana_Tialis",
+        "Arlin_Sturmfels",
+        "Marion_Comari",
+        "Matis_Karntus",
+        "Matrixtheorie_Linari"
+      ]
+    },
+    {
+      "target": "Mazzarener",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Arcana_Procella.md"
+      ],
+      "suggestions": [
+        "Mazzaremer",
+        "Mazzareem",
+        "Die_Mazzaremer",
+        "Mazareem",
+        "Marnie_Ruatha"
+      ]
+    },
+    {
+      "target": "Maßeinheiten | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Recht_Siebenwinds",
+        "Siebenwind_Bote_Index",
+        "Ritter_der_Sieben_Winde",
+        "Index_Siebenwind_(Toran_Dur)",
+        "Von_gesplitterten_Seelen_und_blutigen_Kehlen"
+      ]
+    },
+    {
+      "target": "Militärwesen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Siebenwind_Kronregiment.md"
+      ],
+      "suggestions": [
+        "Militär",
+        "Splitterfelsen",
+        "Baumwesen",
+        "Waldwesen",
+        "Riesen"
+      ]
+    },
+    {
+      "target": "Mindoril",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Mandor",
+        "Indoaich",
+        "Mirian",
+        "Avindhrell",
+        "Dorion_Hali"
+      ]
+    },
+    {
+      "target": "Miran_Ernesto",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Inquisitionsprozess_gegen_Maar_und_Llewellyen.md"
+      ],
+      "suggestions": [
+        "Midraan_Minerius",
+        "Brandenstein",
+        "Horan_Erandel",
+        "Quirian_Grint",
+        "Mirian"
+      ]
+    },
+    {
+      "target": "Moorlaeuferin",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
+      ],
+      "suggestions": [
+        "Mael_Duin",
+        "Amaris_Aurinas",
+        "Gohor_Haeresie",
+        "Solfeister_Kin",
+        "Ferrin"
+      ]
+    },
+    {
+      "target": "Morsansacker",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Roald_Spitzbart.md"
+      ],
+      "suggestions": [
+        "Markus_Panscher",
+        "Morsan",
+        "Ordo_Morsanes",
+        "Guntram_Sonnacker",
+        "Elyran_Fischer"
+      ]
+    },
+    {
+      "target": "Myten | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Siebenwind_Bote_Index",
+        "Siebenwindakte",
+        "Siebenwind_Boten",
+        "Ritter_der_Sieben_Winde",
+        "Recht_Siebenwinds"
+      ]
+    },
+    {
+      "target": "Namikleris",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Die_Namikleris",
+        "Aleis",
+        "Nemesis",
+        "Sammler",
+        "Miana_Tialis"
+      ]
+    },
+    {
+      "target": "Navarian_Arandal",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_149.md"
+      ],
+      "suggestions": [
+        "Andaris_Maran",
+        "Horan_Erandel",
+        "Adana_Regan",
+        "Ravia_Thyrandor",
+        "Irindal"
+      ]
+    },
+    {
+      "target": "Nebelberge",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Mirian.md"
+      ],
+      "suggestions": [
+        "Seeberg",
+        "Feuerberg",
+        "Eleonore",
+        "Rodeberg",
+        "Feste_Seeberg"
+      ]
+    },
+    {
+      "target": "Nebelbergen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Mirian.md"
+      ],
+      "suggestions": [
+        "Seeberg",
+        "Feuerberg",
+        "Eleonore",
+        "Rodeberg",
+        "Die_Zwergen_WG"
+      ]
+    },
+    {
+      "target": "Nekria_I",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Neraja",
+        "Etriska",
+        "Nhergas",
+        "Ventria",
+        "Erin_Caiomme"
+      ]
+    },
+    {
+      "target": "Nekria_I_Ahm_Mer",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Erin_Caiomme",
+        "Erin_Caoimme",
+        "Der_Krämer",
+        "Neraja",
+        "Inselpatrizier"
+      ]
+    },
+    {
+      "target": "Neun_Gestirne",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Tannenstein",
+        "Nefustor",
+        "Brandenstein",
+        "Vincent_Ebenstein",
+        "Skapengebirge"
+      ]
+    },
+    {
+      "target": "News",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md"
+      ],
+      "suggestions": [
+        "Nemses",
+        "Nemesis",
+        "Nhergas",
+        "Aschene_Wüste",
+        "Brandeis"
+      ]
+    },
+    {
+      "target": "Newsticker",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md"
+      ],
+      "suggestions": [
+        "Gorn_Estrik",
+        "Bestien",
+        "Nefustor",
+        "Aschene_Wüste",
+        "Johannes_Tiberias"
+      ]
+    },
+    {
+      "target": "Niedere_Alchemie",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Kriegerakademie",
+        "Die_Viere_Kirche",
+        "Zirkel_der_Magie",
+        "Drachen",
+        "Adrienne_Valemis"
+      ]
+    },
+    {
+      "target": "Nordforst",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_125.md"
+      ],
+      "suggestions": [
+        "Ordo_Astrael",
+        "Knochenfürst",
+        "Ordo_Astraeli",
+        "Ordo_Morsanes",
+        "Oberfoerster_Birk"
+      ]
+    },
+    {
+      "target": "Nortraven | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Ritter_der_Sieben_Winde",
+        "Ritterschaft_der_Sieben_Winde",
+        "Siebenwind_Bote_Index",
+        "Recht_Siebenwinds",
+        "Orden_der_Traenen_Vitamas"
+      ]
+    },
+    {
+      "target": "Objektive_Illusionistik",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Theorie_der_Illusionistik_(Bastean_Asanra)",
+        "Illusionstheorie_Asanra",
+        "Codex_Iuris_Canonici",
+        "Oberfoerster_Birk",
+        "Blutige_Faust"
+      ]
+    },
+    {
+      "target": "Odalerich_I",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Dwarschim",
+        "Noalim_al_Achid",
+        "Dwarshim",
+        "Indoaich",
+        "Malachai"
+      ]
+    },
+    {
+      "target": "Orden vom Wachenden Löwen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur).md"
+      ],
+      "suggestions": [
+        "Orden_der_Wachenden_Löwen",
+        "Orden_der_Wachenden_Loewen",
+        "Orden_des_wachenden_Loewen",
+        "Orden_vom_Lieblichen_Kelche_Vitamas",
+        "Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur)"
+      ]
+    },
+    {
+      "target": "Orden_Bellums",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lorence.md"
+      ],
+      "suggestions": [
+        "Bellum",
+        "Ordo_Belli",
+        "Gott Bellum",
+        "Befreiung_des_Larseij_Bellums",
+        "Lorence"
+      ]
+    },
+    {
+      "target": "Orden_der_Viere",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Communis_Medici.md"
+      ],
+      "suggestions": [
+        "Kirche_der_Viere",
+        "Tempel_der_Vier",
+        "Arenus_der_Weise",
+        "Orden_der_Traenen_Vitamas",
+        "Orden_der_Wachenden_Löwen"
+      ]
+    },
+    {
+      "target": "Orden_vom_Heiligen_Schwert_Bellums",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Maltheos_Thorn.md"
+      ],
+      "suggestions": [
+        "Orden_vom_Lieblichen_Kelche_Vitamas",
+        "Magietheorie_Eigenschaften_der_Elemente",
+        "Der_naive_Mensch",
+        "Brandensteiner_Reiter",
+        "Orden_des_lieblichen_Kelches"
+      ]
+    },
+    {
+      "target": "Orden_vom_Roten_Salamander",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "suggestions": [
+        "Ordo_Morsanes",
+        "Orden_der_Traenen_Vitamas",
+        "Ordo_Vitamae",
+        "Orden_vom_Lieblichen_Kelche_Vitamas",
+        "Adelskalender"
+      ]
+    },
+    {
+      "target": "Orden_vom_Wachenden_Loewen",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Orden_der_Wachenden_Loewen",
+        "Orden_des_wachenden_Loewen",
+        "Orden_der_Wachenden_Löwen",
+        "Die_Ordenssatzung_des_Ordens_vom_Wachenden_Loewen_(Toran_Dur)",
+        "Orden_vom_Lieblichen_Kelche_Vitamas"
+      ]
+    },
+    {
+      "target": "Ork",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_125.md"
+      ],
+      "suggestions": [
+        "Orks",
+        "Orken",
+        "Ruodrik",
+        "Erik",
+        "Igor"
+      ]
+    },
+    {
+      "target": "Ortsrat_Brandenstein",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_152.md"
+      ],
+      "suggestions": [
+        "Brandenstein",
+        "Tannenstein",
+        "Bestie_von_Brandenstein",
+        "Trollkrieg_von_Brandenstein",
+        "Hafengilde_Brandenstein"
+      ]
+    },
+    {
+      "target": "Pantheon",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Das_Pantheon",
+        "Arn_Toron",
+        "Astreyon",
+        "Athos",
+        "Aschehorn"
+      ]
+    },
+    {
+      "target": "Personen_Plinius_Deseglieri",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Aequitas.md"
+      ],
+      "suggestions": [
+        "Plinius_Deseglieri",
+        "Personenregister",
+        "Persoenlichkeiten_Uebersicht",
+        "Der_blinde_Maler",
+        "Die_Verbrennung_des_heiligen_Markus"
+      ]
+    },
+    {
+      "target": "Pilpulismus",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Louis",
+        "Clavius_Aurelius",
+        "Spiegel_Poem",
+        "Milizaufloesung_Erlass",
+        "Laurelin"
+      ]
+    },
+    {
+      "target": "Profess",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Rose",
+        "Felis",
+        "Gargoyles",
+        "Krone",
+        "Proveus_Herand"
+      ]
+    },
+    {
+      "target": "Prophezeiungen",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Gropp_Zwillinge",
+        "Heilung",
+        "Abweisungen",
+        "Erzählungen",
+        "Letzte_Vorbereitungen"
+      ]
+    },
+    {
+      "target": "R.G.",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_142.md"
+      ],
+      "suggestions": [
+        "G.K.",
+        "S.L.",
+        "Ergol",
+        "Ergon",
+        "Kurga"
+      ]
+    },
+    {
+      "target": "Rabainsteine",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Thjarek.md"
+      ],
+      "suggestions": [
+        "Brandenstein",
+        "Layna_Rabenstein",
+        "Frank_Biederstein",
+        "Tannenstein",
+        "Region_Bernstein"
+      ]
+    },
+    {
+      "target": "Rasse Halblinge",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Gerdenwald.md"
+      ],
+      "suggestions": [
+        "Halblinge",
+        "Rasse_Hobbits",
+        "Ras_Altanin",
+        "Rasse_Elfen",
+        "Wasserwall"
+      ]
+    },
+    {
+      "target": "Rasse Rasse_Zwerge",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Kettel.md"
+      ],
+      "suggestions": [
+        "Rasse_Zwerge",
+        "Rasse Rasse_Elfen",
+        "Serass",
+        "Zwerge",
+        "Rasse Orken"
+      ]
+    },
+    {
+      "target": "Rasse_Goblins",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Trollkrieg_von_Brandenstein.md"
+      ],
+      "suggestions": [
+        "Rasse_Hobbits",
+        "Goblins",
+        "Rasse Orken",
+        "Rasse_Elfen",
+        "Region_Sae"
+      ]
+    },
+    {
+      "target": "Rasse_Skaven",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Von_dem_Boesen.md"
+      ],
+      "suggestions": [
+        "Rasse Orken",
+        "Rasse_Elfen",
+        "Rasse Rasse_Elfen",
+        "Wasserkreaturen",
+        "Der_Erlass_des_Koenigs"
+      ]
+    },
+    {
+      "target": "Rasse_Trolle",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Trollkrieg_von_Brandenstein.md"
+      ],
+      "suggestions": [
+        "Trolle",
+        "Rasse Orken",
+        "Rasse_Elfen",
+        "Wasserwall",
+        "Rasse_Zwerge"
+      ]
+    },
+    {
+      "target": "Rassen und Klassen | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Ritter_der_Sieben_Winde",
+        "Wissen_Siebenwind",
+        "Brand_Windfluesterer",
+        "Siebenwind_Bote_Index",
+        "Brand_Windfluesterers_Zorn"
+      ]
+    },
+    {
+      "target": "Raufels",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Heinrich_Drachenfall.md"
+      ],
+      "suggestions": [
+        "Rafael",
+        "Felis",
+        "Ravel",
+        "Raziel",
+        "Arlin_Sturmfels"
+      ]
+    },
+    {
+      "target": "Region [[Region_Endophal",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Falkenstein.md"
+      ],
+      "suggestions": [
+        "Region_Endophal",
+        "Region_Morgenthau",
+        "Region_Gerdenwald",
+        "Region_Tiefenwald",
+        "Region_Vandrien"
+      ]
+    },
+    {
+      "target": "Region [[Sae",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Kirche_der_Viere.md"
+      ],
+      "suggestions": [
+        "Region_Sae",
+        "Region_Auren",
+        "Region_Ravel",
+        "Region_Ossian",
+        "Region_Savaro"
+      ]
+    },
+    {
+      "target": "Region Hügelau",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Halblinge.md"
+      ],
+      "suggestions": [
+        "Region_Galadon",
+        "Region_Morgenthau",
+        "Region_Auren",
+        "Region_Ravel",
+        "Region_Khalandra"
+      ]
+    },
+    {
+      "target": "Region Norland",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Khalandra.md"
+      ],
+      "suggestions": [
+        "Region_Ossian",
+        "Region_Khalandra",
+        "Region_Galadon",
+        "Region_Ravel",
+        "Region_Vandrien"
+      ]
+    },
+    {
+      "target": "Region Taras",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Galadon.md"
+      ],
+      "suggestions": [
+        "Region_Auren",
+        "Region_Ravel",
+        "Region_Sae",
+        "Region_Savaro",
+        "Region_Khalandra"
+      ]
+    },
+    {
+      "target": "Register",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Archiv_Register",
+        "Region_Sae",
+        "Personenregister",
+        "Bestiarium_Register",
+        "Geist"
+      ]
+    },
+    {
+      "target": "Reich_des_Nebelfurstens",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Region_Bernstein",
+        "Bruno_Reichenstein",
+        "Persoenlichkeiten_Uebersicht",
+        "Recht_und_Gesetz",
+        "Die_Nacht_des_Dunkeltiefs"
+      ]
+    },
+    {
+      "target": "Religion Der Eine",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Vandrien.md"
+      ],
+      "suggestions": [
+        "Region_Bernstein",
+        "Region_Auren",
+        "Religion_Übersicht",
+        "Region_Ersont",
+        "Region_Herder"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-004",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-005",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-006",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-008",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-010",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-011",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-015",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "RESEARCH-2026-016",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md"
+      ],
+      "suggestions": [
+        "Recht",
+        "Tiefenbach",
+        "Weidenbach",
+        "Riens_Lorien_Arden",
+        "Tempelwache"
+      ]
+    },
+    {
+      "target": "Rhator_zeg",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_188.md"
+      ],
+      "suggestions": [
+        "Arnhorte",
+        "Barath_Or",
+        "Ra-Harakte",
+        "Schwarze_Magie",
+        "Galtor"
+      ]
+    },
+    {
+      "target": "Rhazzas",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Azaris",
+        "Harlas",
+        "Razzin",
+        "Barnabas",
+        "Anais"
+      ]
+    },
+    {
+      "target": "Richard_Gropp",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md"
+      ],
+      "suggestions": [
+        "Regina_Gropp",
+        "Zacharias_Gropp",
+        "Harwarn_Gropp",
+        "Hanna_Gropp",
+        "Erudin_Gropp"
+      ]
+    },
+    {
+      "target": "Ring_der_Wissenden",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "suggestions": [
+        "Arenus_der_Weise",
+        "Orden_der_Wachenden_Löwen",
+        "Anissa_Merden",
+        "Orden_der_Wachenden_Loewen",
+        "Region_Gerdenwald"
+      ]
+    },
+    {
+      "target": "Ritter_von_Siebenwind",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Ritter_der_Sieben_Winde",
+        "Ritterschaft_zu_Siebenwind",
+        "Wissen_Siebenwind",
+        "Baronie_Siebenwind",
+        "Ritterschaft_der_Sieben_Winde"
+      ]
+    },
+    {
+      "target": "Rittergarde",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "suggestions": [
+        "Graue_Garde",
+        "Seegarde",
+        "Ritterschaft",
+        "Riens_Lorien_Arden",
+        "Baronsgarde"
+      ]
+    },
+    {
+      "target": "Roter_Stier",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Der_Blutrote_Stier",
+        "Wolpertinger",
+        "Oberfoerster_Birk",
+        "Bestien",
+        "Ersonter_Rat"
+      ]
+    },
+    {
+      "target": "Rückkehr_von_König_Hilgorad",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hilgorad_I_ap_Mer.md"
+      ],
+      "suggestions": [
+        "Rueckkehr_von_Koenig_Hilgorad",
+        "Hilgorad",
+        "Königreich Galadon",
+        "Region_Galadon",
+        "Hilgorad_I_ap_Mer"
+      ]
+    },
+    {
+      "target": "Sandro_Ernesto",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Inquisitionsprozess_gegen_Maar_und_Llewellyen.md"
+      ],
+      "suggestions": [
+        "Sanduros",
+        "Xandros",
+        "Tandrion_Intoma",
+        "Atmender_Tod",
+        "Hornstoß"
+      ]
+    },
+    {
+      "target": "Santanos_Alexandrius",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Santanos_Alexandrius_von_Eichstatt",
+        "Anijane_Salmoranes",
+        "Alexander_Stein",
+        "Salanus",
+        "Derontas_Marilus"
+      ]
+    },
+    {
+      "target": "Schiffsregister",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Archiv_Register",
+        "Wirtshaftsregister",
+        "Schwarze_Reiter",
+        "Organisationsregister",
+        "Bestiarium_Register"
+      ]
+    },
+    {
+      "target": "Schule_der_tausend_Funken",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md"
+      ],
+      "suggestions": [
+        "Herbertus_Wendolyn",
+        "Der_Traum_der_Tausend",
+        "Kult_des_Einen",
+        "Schleimwesen",
+        "Schrein_des_Windes"
+      ]
+    },
+    {
+      "target": "Schutzmagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Antimagie_und_Gegenzauber.md"
+      ],
+      "suggestions": [
+        "Schwarze_Magie",
+        "Schwarzmagier",
+        "Schutzzug",
+        "Urmagie",
+        "Antimagie"
+      ]
+    },
+    {
+      "target": "Schwarm",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Die_Mazzaremer.md"
+      ],
+      "suggestions": [
+        "Schwarze_Magie",
+        "Schwarzmagier",
+        "Schwarzer_Samen",
+        "Ur-Shar",
+        "Tadschirim"
+      ]
+    },
+    {
+      "target": "Schwarze_Rose_aus_Obsidian",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Schwarzer_Samen",
+        "Schwarze_Reiter",
+        "Schwarze_Legion",
+        "Schwarze_Magie",
+        "Schwarzmagier"
+      ]
+    },
+    {
+      "target": "Schwarzer_Monolith",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Schwarze_Reiter",
+        "Schwarzer_Samen",
+        "Schwarze_Magie",
+        "Schwarze_Legion",
+        "Monolith"
+      ]
+    },
+    {
+      "target": "Schwarzmagie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md"
+      ],
+      "suggestions": [
+        "Schwarze_Magie",
+        "Schwarzmagier",
+        "Schwarze_Legion",
+        "Schwarze_Reiter",
+        "Schwarzer_Samen"
+      ]
+    },
+    {
+      "target": "Sekretarius_al_Wechnett",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_143.md"
+      ],
+      "suggestions": [
+        "al_Wechnett",
+        "Elementare_Atomlehre",
+        "Krasche",
+        "Krellgrimm_Glutschreiter",
+        "Wasserkreaturen"
+      ]
+    },
+    {
+      "target": "Selbsteinschätzung",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Schutzzug",
+        "Sebastian",
+        "Rasse_Menschen",
+        "Aus_dem_Leben_eines_Schwarzmagiers",
+        "Aus_dem_Liebesleben_eines_Dichters"
+      ]
+    },
+    {
+      "target": "Serafina",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/06_Erzählungen/Geschichten_eines_silbernen_Adlers.md"
+      ],
+      "suggestions": [
+        "Sorania",
+        "Saran",
+        "Geografie",
+        "Sebastian",
+        "Sir_Ecanas"
+      ]
+    },
+    {
+      "target": "Sha_Naz_Ghul",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
+        "docs/Siebenwind_Wiki/02_Geografie/Finsterwangen.md",
+        "docs/Siebenwind_Wiki/02_Geografie/Rohehafen.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Das_Daimonicon_(Kulin_Lateal).md",
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_135.md",
+        "docs/Siebenwind_Wiki/05_Magie/Daimonicon.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Wim_Derfflinger.md",
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
+      ],
+      "suggestions": [
+        "Sha'Naz'Ghul",
+        "Hannibal_Thule",
+        "Tanthul",
+        "Cho_Shnaz",
+        "Shabanna"
+      ]
+    },
+    {
+      "target": "Shag_zor_Ga_Zul",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md"
+      ],
+      "suggestions": [
+        "Sha'Naz'Ghul",
+        "Thorgat",
+        "Akora_Dur",
+        "Hilgorad",
+        "Schutzzug"
+      ]
+    },
+    {
+      "target": "Sichelzahngnoll",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_162.md"
+      ],
+      "suggestions": [
+        "Der_Sichelzahngnoll",
+        "Iycheas_Vrahn",
+        "Aschehorn",
+        "Abdolus_Nachengalle",
+        "Zarna_Eschelwald"
+      ]
+    },
+    {
+      "target": "Siebtes_Element",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Divinum_et_Elementum",
+        "Elementare",
+        "Spiegel_Poem",
+        "Siebenwind_Kronregiment",
+        "Ecclesia_Elementorum"
+      ]
+    },
+    {
+      "target": "Silber",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md"
+      ],
+      "suggestions": [
+        "Isbeorn",
+        "Sammler",
+        "Seeberg",
+        "Seiltaenzer",
+        "Tiberias"
+      ]
+    },
+    {
+      "target": "Silberwald",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Gerdenwald",
+        "Lilienwall",
+        "Siebenwind",
+        "Tiefenwald",
+        "Wasserwall"
+      ]
+    },
+    {
+      "target": "Simil",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/09_Bibliothek/Logbuch_des_Kerkers.md"
+      ],
+      "suggestions": [
+        "Safiriel",
+        "Silas",
+        "Isgrim",
+        "Shiion",
+        "Lhynar_Silmaril"
+      ]
+    },
+    {
+      "target": "Sinistrus",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Madame_Lafayette.md"
+      ],
+      "suggestions": [
+        "Ignis",
+        "Nistram_Rigas",
+        "Nirluk",
+        "Ventus",
+        "Arlin_Sturmfels"
+      ]
+    },
+    {
+      "target": "Sir_Robaar",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_139.md"
+      ],
+      "suggestions": [
+        "Hagen_Robaar",
+        "Sir_Ecanas",
+        "Sire_Randur_Kantrin",
+        "Brogar",
+        "Calin_Drakar"
+      ]
+    },
+    {
+      "target": "Sire_Siegfried_Steiner",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_139.md"
+      ],
+      "suggestions": [
+        "Siegfried_Steiner",
+        "Siegfried_von_Steiner",
+        "Hagen_Siegfried_Kaspar",
+        "Region_Bernstein",
+        "Frank_Biederstein"
+      ]
+    },
+    {
+      "target": "Sire_von_Steiner",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md"
+      ],
+      "suggestions": [
+        "Siegfried_von_Steiner",
+        "Siegfried_Steiner",
+        "Sire_von_Weidenbach",
+        "Bestie_von_Brandenstein",
+        "Region_Bernstein"
+      ]
+    },
+    {
+      "target": "Skrupel",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Skorpione",
+        "Astrael",
+        "Rune",
+        "Biskulon",
+        "Safiriel"
+      ]
+    },
+    {
+      "target": "Sonus",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Salanus",
+        "Anonymus",
+        "Ionas",
+        "Ersont",
+        "Shiion"
+      ]
+    },
+    {
+      "target": "Sphaerenfaeden",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Artefaktlehre.md"
+      ],
+      "suggestions": [
+        "Sphaerenkunde",
+        "Saeulenmeer",
+        "Sphaerenkunde_Kosmologie",
+        "Anissa_Merden",
+        "Astraelorden"
+      ]
+    },
+    {
+      "target": "Sphären",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Philosophie_der_Magie.md"
+      ],
+      "suggestions": [
+        "Chimären",
+        "Sphaerenkunde",
+        "Sprache_Run",
+        "Pharell",
+        "Das_Pantheon"
+      ]
+    },
+    {
+      "target": "Sphärenkunde",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md"
+      ],
+      "suggestions": [
+        "Sphaerenkunde",
+        "Sphaerenkunde_Kosmologie",
+        "Sprache_Run",
+        "Volkskunde",
+        "Provenus_Herand"
+      ]
+    },
+    {
+      "target": "Stadt Draconis",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Bernstein.md"
+      ],
+      "suggestions": [
+        "Draconis",
+        "Taranis",
+        "Arman_von_Draconis",
+        "Tzara_Rengis",
+        "Sanduros"
+      ]
+    },
+    {
+      "target": "Stadt Rothenbucht",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/02_Geografie/Region_Rothschild.md"
+      ],
+      "suggestions": [
+        "Rothenbucht",
+        "Rothenschild",
+        "Statthalterin",
+        "Tal_der_Ahnen",
+        "Auenbach"
+      ]
+    },
+    {
+      "target": "Stadtconsula",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md"
+      ],
+      "suggestions": [
+        "Tanthul",
+        "Draconis",
+        "Galadons",
+        "Sandholz",
+        "Sanduros"
+      ]
+    },
+    {
+      "target": "Stadtverordnung_Brandenstein",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_127.md"
+      ],
+      "suggestions": [
+        "Bestie_von_Brandenstein",
+        "Trollkrieg_von_Brandenstein",
+        "Hafengilde_Brandenstein",
+        "Trollkrieg_gegen_Brandenstein",
+        "Brandenstein"
+      ]
+    },
+    {
+      "target": "Stein_der_Macht",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Geschichte_der_Mondamulette.md"
+      ],
+      "suggestions": [
+        "Steinhauer",
+        "Weidenbach",
+        "Atmender_Tod",
+        "Josef_Knecht",
+        "Indoaich"
+      ]
+    },
+    {
+      "target": "Streunerlager_Rohehafen",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Sternfall_bei_Rohehafen",
+        "Rohehafen",
+        "Die_Stadtchronik_Rohehafens",
+        "Fruger_Hansen",
+        "Rohehaven"
+      ]
+    },
+    {
+      "target": "Stumme_Stadt_des_Ostens",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Bestie_von_Brandenstein",
+        "Der_Traum_der_Tausend",
+        "Alexander_Stein",
+        "Arnim_Estragons",
+        "Das_Adelssystem"
+      ]
+    },
+    {
+      "target": "Su'un",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/index.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_Blutrote_Stier.md",
+        "docs/Siebenwind_Wiki/01_Pantheon/Der_Traum_der_Tausend.md"
+      ],
+      "suggestions": [
+        "Su-un",
+        "Ru'n",
+        "Biskulon",
+        "Rune",
+        "Schutzzug"
+      ]
+    },
+    {
+      "target": "Subjektive_Illusionistik",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Theorie_der_Illusionistik_(Bastean_Asanra)",
+        "Illusionstheorie_Asanra",
+        "Hubertus_Anverita",
+        "Auktion_der_Familie_Turek",
+        "Blutige_Faust"
+      ]
+    },
+    {
+      "target": "Sumpfland",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Gerrion_Arres.md"
+      ],
+      "suggestions": [
+        "Festland",
+        "Sturmflut_in_Vandrien",
+        "Lasned",
+        "Mandor",
+        "Sandir"
+      ]
+    },
+    {
+      "target": "SY_STANDARDS",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Wiki_Style_Guide.md"
+      ],
+      "suggestions": [
+        "Sanduros",
+        "Mythandir",
+        "Sandir",
+        "Vandris",
+        "Xandros"
+      ]
+    },
+    {
+      "target": "Symbolik_Astraels",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Astrael",
+        "Ordo_Astrael",
+        "Ordo_Astraeli",
+        "Bibliothek_Astrael_Regeln",
+        "Codex_Astraeli"
+      ]
+    },
+    {
+      "target": "System_arkaner_Lokalitaeten",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Kalveron_Dai.md"
+      ],
+      "suggestions": [
+        "Das_System_arkaner_Lokalitaeten_(Kalveron_Dai)",
+        "Theorie_arkane_Magie",
+        "Arkane_Kriegfuehrung",
+        "Arkan-Metalle",
+        "Marnie_Ruatha"
+      ]
+    },
+    {
+      "target": "Tafeln_der_Asche",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Tal_der_Ahnen",
+        "Felis_Andras",
+        "Elyran_Fischer",
+        "Tiefenbach",
+        "Alexander_Stein"
+      ]
+    },
+    {
+      "target": "Tanz_der_Winde",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Telandrion",
+        "Der_Eine",
+        "Arenus_der_Weise",
+        "Roland_Ronde",
+        "Tal_der_Ahnen"
+      ]
+    },
+    {
+      "target": "Tare’say",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md"
+      ],
+      "suggestions": [
+        "Tare",
+        "Isogares_Saleyn",
+        "Taranis",
+        "Tarrant",
+        "Thjarek"
+      ]
+    },
+    {
+      "target": "Tarnek",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hevelius_Dunkelfeld.md"
+      ],
+      "suggestions": [
+        "Tarnuk",
+        "Tare",
+        "Thjarek",
+        "Turek",
+        "Arn"
+      ]
+    },
+    {
+      "target": "Tar’Sala",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Feanthil_(Arinth).md"
+      ],
+      "suggestions": [
+        "Tantalla",
+        "Aradam",
+        "Elares_Valjean",
+        "Harlas",
+        "Tarjas_Talinor"
+      ]
+    },
+    {
+      "target": "Taurec_von_Schildtburg",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_173.md"
+      ],
+      "suggestions": [
+        "Rothenschild",
+        "Region_Rothschild",
+        "Ausbildung",
+        "Elias_von_Rothschild",
+        "Helfric_von_Wallenburg"
+      ]
+    },
+    {
+      "target": "Tellbas_Fellaran",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Yaris_Ferano",
+        "Bastean_Asanra",
+        "Elfen",
+        "Saran",
+        "Sebastian"
+      ]
+    },
+    {
+      "target": "Tellbas_Fellaran_zu_Bernstein",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Layna_Rabenstein",
+        "Hafengilde_Brandenstein",
+        "Brandenstein",
+        "Frank_Biederstein",
+        "Bestie_von_Brandenstein"
+      ]
+    },
+    {
+      "target": "Thaumaturgisches_Gitter",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Thaugitter",
+        "Schamanische_Magie",
+        "Bestiarium_Register",
+        "Wirtshaftsregister",
+        "Magischer_Flux"
+      ]
+    },
+    {
+      "target": "Theorem_zu_den_Baumwesen",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Themus_Takai.md"
+      ],
+      "suggestions": [
+        "Theorem_zu_den_Baumwesen_(Themus_Takai)",
+        "Baumwesen",
+        "Magietheorie_Daemonenbeschwoerung",
+        "Arenus_der_Weise",
+        "Magietheorie_Elementarmagie_I"
+      ]
+    },
+    {
+      "target": "Theorie zur arkan. Magie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Anonymus.md"
+      ],
+      "suggestions": [
+        "Theorie_arkane_Magie",
+        "Magietheorie_Elementarmagie_I",
+        "Kriegerakademie",
+        "Theorien_der_Magie_(Toran_Dur)",
+        "Magietheorie_Artefaktkunde"
+      ]
+    },
+    {
+      "target": "Theorie_der_elementaren_Atome",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Jennaia_Lavrial.md"
+      ],
+      "suggestions": [
+        "Theorie_der_elementaren_Atome_(Jennaia_Lavrial)",
+        "Elementare_Atomlehre",
+        "Magietheorie_Elementarmagie_I",
+        "Magietheorie_Eigenschaften_der_Elemente",
+        "Theorien_der_Magie_(Terenon_Sarophilan)"
+      ]
+    },
+    {
+      "target": "Theorien der [[index",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Magie_(Toran_Dur).md"
+      ],
+      "suggestions": [
+        "Theorien_der_Magie_(Toran_Dur)",
+        "Theorie_arkane_Magie",
+        "Heeron_Dherayne",
+        "Siebenwind_Bote_Index",
+        "Hebren_Zemand"
+      ]
+    },
+    {
+      "target": "Theorien_der_Magie",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Terenon_Sarophilan.md"
+      ],
+      "suggestions": [
+        "Theorie_arkane_Magie",
+        "Theorien_der_Magie_(Toran_Dur)",
+        "Philosophie_der_Magie",
+        "Magietheorie_Elementarmagie_I",
+        "Theorien_der_Magie_(Terenon_Sarophilan)"
+      ]
+    },
+    {
+      "target": "Tirgalad_Gildin",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Inquisitionsprozess_gegen_Maar_und_Llewellyen.md"
+      ],
+      "suggestions": [
+        "Galadonien",
+        "Galadon",
+        "Galadons",
+        "Tra_avain",
+        "Region_Galadon"
+      ]
+    },
+    {
+      "target": "Titel_und_Raenge",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Finsterwangen",
+        "Telandrion",
+        "Schattenjaeger",
+        "Götter_und_Götzen",
+        "Magie_Grundlagen"
+      ]
+    },
+    {
+      "target": "Toran_Dor",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Azgar_Kazanin.md"
+      ],
+      "suggestions": [
+        "Toran_Dur",
+        "Mandor",
+        "Toran_Dur_Turm",
+        "Ravia_Thyrandor",
+        "Akora_Dur"
+      ]
+    },
+    {
+      "target": "Toron",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_184.md"
+      ],
+      "suggestions": [
+        "Arn_Toron",
+        "Gorion",
+        "Dorayon",
+        "Astreyon",
+        "Dorrayon"
+      ]
+    },
+    {
+      "target": "Totenvogel",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Tanoniel",
+        "Baron_von_Gerdenwald",
+        "Schattenjaeger",
+        "Untote",
+        "Götter_und_Götzen"
+      ]
+    },
+    {
+      "target": "Tradition_der_Magier",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Magie/Magier_Etikette.md"
+      ],
+      "suggestions": [
+        "Auktion_der_Familie_Turek",
+        "Antimagie",
+        "Theorien_der_Magie_(Toran_Dur)",
+        "Rituale_des_Magierturms",
+        "Der_blinde_Maler"
+      ]
+    },
+    {
+      "target": "Tragantor",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Galtor",
+        "Tarjas_Talinor",
+        "Tarrant",
+        "Thorgat",
+        "Arn_Toron"
+      ]
+    },
+    {
+      "target": "Trinso_Langenbriel",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_124.md"
+      ],
+      "suggestions": [
+        "Tanoniel",
+        "Interessante_Artikel",
+        "Personenregister",
+        "Finsterwangen",
+        "Skapengebirge"
+      ]
+    },
+    {
+      "target": "Tuhle",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Blakkurvald_Orla.md"
+      ],
+      "suggestions": [
+        "Turek",
+        "Äther",
+        "Trolle",
+        "Tanthul",
+        "Thjarek"
+      ]
+    },
+    {
+      "target": "Turm_des_Nordwinds",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_190.md"
+      ],
+      "suggestions": [
+        "Schrein_des_Windes",
+        "Ritter_der_Sieben_Winde",
+        "Bardas_Loredis",
+        "Riesenskorpione",
+        "Astraelorden"
+      ]
+    },
+    {
+      "target": "Udor",
+      "count": 1,
+      "source_pages": [
+        "docs/Siebenwind_Wiki/05_Geschichte/Aus_dem_Liebesleben_eines_Dichters.md"
+      ],
+      "suggestions": [
+        "Edora",
+        "Aurora",
+        "Dannor",
+        "Mandor",
+        "Urs"
+      ]
+    },
+    {
+      "target": "Unsichtbarkeitstrank",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Schwarze_Reiter",
+        "Schwarzer_Samen",
+        "Andaris_Maran",
+        "Forschungsberichte_(Toran_Dur)",
+        "Iycheas_Vrahn"
+      ]
+    },
+    {
+      "target": "Waldelfen | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Siebenwind_Bote_Index",
+        "Wissen_Siebenwind",
+        "Siebenwindakte",
+        "Siebenwind_Boten",
+        "Ritter_der_Sieben_Winde"
+      ]
+    },
+    {
+      "target": "Weisheit",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Geist",
+        "Iss_Hetjas",
+        "Wisper",
+        "Weissmagie",
+        "Wirtschaft"
+      ]
+    },
+    {
+      "target": "Weißer_Hochturm",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Exercitium",
+        "Weiher_Ungetuem",
+        "Eichstamm_B",
+        "Grauer_Turm",
+        "Weidenbach"
+      ]
+    },
+    {
+      "target": "WikiLink",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Wiki_Style_Guide",
+        "Winzlig",
+        "Wiki_Statistiken",
+        "Biskulon",
+        "Link_Test"
+      ]
+    },
+    {
+      "target": "Zeichnung_Tares",
+      "count": 1,
+      "source_pages": [
+        "docs/Archiv/Research_Board.md"
+      ],
+      "suggestions": [
+        "Zeitrechnung",
+        "Recht_und_Gesetz",
+        "Weiher_Ungetuem",
+        "Erich_Rosenquarz",
+        "Gerrion_Arres"
+      ]
+    },
+    {
+      "target": "Zur_goldenen_Harfe",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Die_Goldenen_Tafeln",
+        "Reagenzien_Lehre",
+        "Region_Endophal",
+        "Buergerwehr",
+        "Die_Enhor"
+      ]
+    },
+    {
+      "target": "Zwerge | Siebenwind | Ultima Online Freeshard",
+      "count": 1,
+      "source_pages": [],
+      "suggestions": [
+        "Siebenwind_Bote_Index",
+        "Ritter_der_Sieben_Winde",
+        "Siebenwindakte",
+        "Siebenwind_Boten",
+        "Recht_Siebenwinds"
+      ]
+    }
+  ],
+  "files_changed": 0
+}

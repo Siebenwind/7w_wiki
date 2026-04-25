@@ -129,13 +129,17 @@ Mehr kuratierte Einstiege und Neuveroeffentlichungen: [Zur Uebersicht Interessan
 ## Fuer technisch Interessierte
 
 <div class="featured-grid">
+  <a href="Wissenswerk/" class="featured-card">
+    <h3>Wissenswerk</h3>
+    <p>Generischer Korpus-zu-Wiki-Kern mit RagPrep-Import, Curation, Reports, Retrieval und Reset/Wipe-Policy.</p>
+  </a>
   <a href="architecture.md" class="featured-card">
     <h3>Engine-Architektur</h3>
-    <p>Bausteine, Datenfluss und Trennung von Praesentation, Runtime und Governance.</p>
+    <p>Branch-first Trennung zwischen Wissenswerk-Kern und Siebenwind-Legacy.</p>
   </a>
   <a href="setup_rag.md" class="featured-card">
-    <h3>RAG und Oracle</h3>
-    <p>Indexierung, Source-Scopes und reproduzierbare Suche via <code>./7w_wiki.py search</code>.</p>
+    <h3>Retrieval und Oracle</h3>
+    <p>pgvector-Zielarchitektur, OpenAI-kompatible Provider und Legacy-Orakel-Abgrenzung.</p>
   </a>
   <a href="Agenten/dispatch.md" class="featured-card">
     <h3>Dispatch-Bus</h3>
@@ -149,6 +153,7 @@ Mehr kuratierte Einstiege und Neuveroeffentlichungen: [Zur Uebersicht Interessan
 
 ```bash
 # 2-Minuten Technik-Check
+./wissenswerk.py doctor --json
 ./7w_wiki.py advisor
 ./7w_wiki.py search "Dunvallo Linari" --source wiki
 ./7w_wiki.py test --suite clean-client-state

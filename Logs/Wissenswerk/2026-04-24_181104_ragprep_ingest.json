@@ -1,0 +1,18 @@
+{
+  "status": "ready",
+  "mode": "auto-apply",
+  "source": ".agent/tests/fixtures/ragprep",
+  "chunks_total": 1,
+  "documents_total": 1,
+  "validation_findings": [],
+  "vector_store": {
+    "kind": "pgvector",
+    "dsn_env": "WISSENSWERK_DATABASE_URL",
+    "schema": "wissenswerk",
+    "collection": "siebenwind"
+  },
+  "report_path": "",
+  "written": [
+    ".agent/data/wissenswerk/ragprep_imports/ragprep_import_2026-04-24_181104.json"
+  ]
+}

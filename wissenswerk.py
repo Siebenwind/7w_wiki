@@ -6,6 +6,8 @@ import hashlib
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
 import uuid
 from datetime import datetime, timezone
@@ -16,6 +18,7 @@ REPO_ROOT = Path(__file__).resolve().parent
 DEFAULT_CONFIG = REPO_ROOT / "wissenswerk.yaml"
 DEFAULT_DESIGN = REPO_ROOT / "DESIGN.md"
 DEFAULT_MANIFEST = REPO_ROOT / "project_manifest.json"
+DEFAULT_EXPORT_MANIFEST = REPO_ROOT / "wissenswerk_export_manifest.json"
 
 
 def now_iso() -> str:
@@ -61,7 +64,7 @@ def ensure_dir(path: Path) -> None:
 
 
 def write_report(config: dict[str, Any], name: str, payload: dict[str, Any]) -> Path:
-    reports_dir = repo_path(config.get("paths", {}).get("reports", "Logs/Wissenswerk"))
+    reports_dir = repo_path(config.get("paths", {}).get("reports", "reports/wissenswerk"))
     ensure_dir(reports_dir)
     stamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
     report_path = reports_dir / f"{stamp}_{name}.json"
@@ -81,11 +84,15 @@ def default_config_payload() -> dict[str, Any]:
         "paths": {
             "sources": ["corpus"],
             "wiki": "docs/Wiki",
-            "reports": "Logs/Wissenswerk",
-            "ragprep_imports": ".agent/data/wissenswerk/ragprep_imports",
-            "runtime_state": ".agent/data/wissenswerk/state",
+            "reports": "reports/wissenswerk",
+            "ragprep_imports": ".wissenswerk/ragprep_imports",
+            "runtime_state": ".wissenswerk/state",
         },
         "source_precedence": ["Primary Sources", "Derived Notes", "Wiki Pages"],
+        "localization": {
+            "default_locale": "en",
+            "available_locales": ["en", "de"],
+        },
         "automation": {
             "auto_apply": True,
             "write_reports": True,
@@ -97,13 +104,13 @@ def default_config_payload() -> dict[str, Any]:
                 "kind": "openai-compatible",
                 "base_url": "https://api.openai.com/v1",
                 "api_key_env": "OPENAI_API_KEY",
-                "model": "gpt-5.4",
+                "model": "gpt-5.2",
             },
             "summary": {
                 "kind": "openai-compatible",
                 "base_url": "https://api.openai.com/v1",
                 "api_key_env": "OPENAI_API_KEY",
-                "model": "gpt-5.4-mini",
+                "model": "gpt-5.2",
             },
             "embedding": {
                 "kind": "openai-compatible",
@@ -117,6 +124,17 @@ def default_config_payload() -> dict[str, Any]:
             "dsn_env": "WISSENSWERK_DATABASE_URL",
             "schema": "wissenswerk",
             "collection": "example",
+        },
+        "memory": {
+            "default": "markdown-db-hybrid",
+            "facts_authority": ["sources", "wiki", "provenance", "retrieval"],
+            "optional_providers": {
+                "honcho": {"enabled": False, "api_key_env": "HONCHO_API_KEY"},
+            },
+        },
+        "agents": {
+            "roles": ["coordinator", "curator", "verifier", "maintainer"],
+            "low_cost_profile": "summary",
         },
         "ragprep": {
             "accepted_extensions": [".json", ".jsonl"],
@@ -143,6 +161,7 @@ def provider_status(config: dict[str, Any]) -> dict[str, Any]:
     checks = []
     for name, provider in sorted(providers.items()):
         key_env = provider.get("api_key_env", "")
+        structural_status = "configured" if provider.get("base_url") and provider.get("model") else "incomplete"
         checks.append(
             {
                 "name": name,
@@ -151,18 +170,23 @@ def provider_status(config: dict[str, Any]) -> dict[str, Any]:
                 "model": provider.get("model", ""),
                 "api_key_env": key_env,
                 "env_present": bool(key_env and os.environ.get(key_env)),
-                "status": "configured" if provider.get("base_url") and provider.get("model") else "incomplete",
+                "status": structural_status,
+                "runtime_status": "ready" if key_env and os.environ.get(key_env) else "missing_credentials",
             }
         )
     vector = config.get("vector_store", {})
     dsn_env = vector.get("dsn_env", "")
+    incomplete = [provider for provider in checks if provider["status"] != "configured"]
+    missing_credentials = [provider for provider in checks if provider["runtime_status"] != "ready"]
     return {
-        "status": "ok",
+        "status": "incomplete" if incomplete else "configured",
+        "runtime_status": "missing_credentials" if missing_credentials or not os.environ.get(dsn_env, "") else "ready",
         "providers": checks,
         "vector_store": {
             "kind": vector.get("kind", ""),
             "dsn_env": dsn_env,
             "env_present": bool(dsn_env and os.environ.get(dsn_env)),
+            "runtime_status": "ready" if dsn_env and os.environ.get(dsn_env) else "missing_credentials",
             "schema": vector.get("schema", ""),
             "collection": vector.get("collection", ""),
         },
@@ -176,7 +200,7 @@ def command_providers_check(args: argparse.Namespace) -> int:
 
 
 def print_provider_status(payload: dict[str, Any]) -> None:
-    print("Wissenswerk provider status")
+    print(f"Wissenswerk provider status: {payload['status']} ({payload['runtime_status']})")
     for provider in payload["providers"]:
         env = "present" if provider["env_present"] else "missing"
         print(f"- {provider['name']}: {provider['kind']} {provider['model']} ({env})")
@@ -429,7 +453,7 @@ def command_ingest(args: argparse.Namespace) -> int:
         "written": [],
     }
     if args.apply and not findings:
-        state_dir = repo_path(config.get("paths", {}).get("ragprep_imports", ".agent/data/wissenswerk/ragprep_imports"))
+        state_dir = repo_path(config.get("paths", {}).get("ragprep_imports", ".wissenswerk/ragprep_imports"))
         ensure_dir(state_dir)
         state_path = state_dir / f"ragprep_import_{datetime.now().strftime('%Y-%m-%d_%H%M%S')}.json"
         state_path.write_text(json.dumps({"generated_at": now_iso(), "chunks": chunks}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -440,54 +464,883 @@ def command_ingest(args: argparse.Namespace) -> int:
     return 1 if findings else 0
 
 
+def latest_import_state(config: dict[str, Any]) -> tuple[Path | None, list[dict[str, Any]]]:
+    state_dir = repo_path(config.get("paths", {}).get("ragprep_imports", ".wissenswerk/ragprep_imports"))
+    if not state_dir.exists():
+        return None, []
+    imports = sorted(state_dir.glob("ragprep_import_*.json"))
+    if not imports:
+        return None, []
+    latest = imports[-1]
+    payload = json.loads(latest.read_text(encoding="utf-8"))
+    chunks = payload.get("chunks", [])
+    return latest, chunks if isinstance(chunks, list) else []
+
+
+def command_curate(args: argparse.Namespace) -> int:
+    config = load_config(repo_path(args.config))
+    state_path, chunks = latest_import_state(config)
+    documents: dict[str, dict[str, Any]] = {}
+    duplicate_chunk_ids: set[str] = set()
+    seen_chunk_ids: set[str] = set()
+    for chunk in chunks:
+        if not isinstance(chunk, dict):
+            continue
+        chunk_id = str(chunk.get("chunk_id", ""))
+        if chunk_id in seen_chunk_ids:
+            duplicate_chunk_ids.add(chunk_id)
+        seen_chunk_ids.add(chunk_id)
+        document_id = str(chunk.get("document_id") or chunk.get("source_path") or "unknown")
+        doc = documents.setdefault(
+            document_id,
+            {
+                "document_id": document_id,
+                "title": str(chunk.get("title") or Path(str(chunk.get("source_path", ""))).stem or document_id),
+                "source_path": str(chunk.get("source_path", "")),
+                "language": str(chunk.get("language") or config.get("project", {}).get("language", "")),
+                "chunks": 0,
+                "sections": set(),
+                "summaries": 0,
+            },
+        )
+        doc["chunks"] += 1
+        if chunk.get("section"):
+            doc["sections"].add(str(chunk["section"]))
+        if chunk.get("summary"):
+            doc["summaries"] += 1
+
+    article_candidates = []
+    for doc in sorted(documents.values(), key=lambda item: item["title"].lower()):
+        sections = sorted(doc.pop("sections"))
+        article_candidates.append(
+            {
+                **doc,
+                "sections": sections,
+                "readiness": "ready" if doc["chunks"] and doc["source_path"] else "needs_source",
+                "recommended_action": "wiki build" if doc["chunks"] else "inspect source",
+            }
+        )
+    payload = {
+        "status": "ready" if chunks else "empty",
+        "source_import": rel(state_path) if state_path else "",
+        "workflow": "curate",
+        "chunks_total": len(chunks),
+        "documents_total": len(article_candidates),
+        "article_candidates": article_candidates,
+        "conflicts": {
+            "duplicate_chunk_ids": sorted(duplicate_chunk_ids),
+            "missing_summaries": sum(1 for chunk in chunks if isinstance(chunk, dict) and not chunk.get("summary")),
+        },
+        "next_commands": [
+            "./wissenswerk.py wiki build --apply --json",
+            "./wissenswerk.py search \"<query>\" --source all --json",
+        ],
+        "report_path": "",
+    }
+    report_path = write_report(config, "curation", payload)
+    payload["report_path"] = rel(report_path)
+    json_print(payload) if args.json else print_curate(payload)
+    return 0
+
+
+def print_curate(payload: dict[str, Any]) -> None:
+    print(f"Wissenswerk curate: {payload['status']} ({payload['documents_total']} article candidates)")
+    for candidate in payload["article_candidates"][:10]:
+        print(f"- {candidate['title']} chunks={candidate['chunks']} readiness={candidate['readiness']}")
+
+
+def slugify_title(value: str, fallback: str) -> str:
+    slug = re.sub(r"[^A-Za-z0-9_-]+", "_", value.strip()).strip("_")
+    return slug or fallback
+
+
 def command_wiki_build(args: argparse.Namespace) -> int:
     config = load_config(repo_path(args.config))
     wiki_root = repo_path(config.get("paths", {}).get("wiki", "docs/Wiki"))
     sources = [repo_path(path) for path in config.get("paths", {}).get("sources", [])]
     existing_sources = [path for path in sources if path.exists()]
     articles = sorted(wiki_root.rglob("*.md")) if wiki_root.exists() else []
+    state_path, chunks = latest_import_state(config)
     payload = {
         "status": "ready",
         "mode": "auto-apply" if args.apply else "dry-run",
         "wiki_root": rel(wiki_root),
         "source_roots": [rel(path) for path in existing_sources],
         "articles_seen": len(articles),
+        "source_import": rel(state_path) if state_path else "",
+        "documents_seen": len({str(chunk.get("document_id", "")) for chunk in chunks if isinstance(chunk, dict)}),
         "report_path": "",
         "written": [],
         "rollback_hint": "Revert the files listed in `written` and remove the report for this run.",
     }
     if args.apply:
-        report_md = wiki_root / "Wissenswerk_Plattformstatus.md"
-        ensure_dir(report_md.parent)
-        report_md.write_text(
-            "\n".join(
-                [
-                    "---",
-                    f"uuid: {uuid.uuid4()}",
-                    "title: Wissenswerk Plattformstatus",
-                    "category: System",
-                    "epistemic: \"#meta\"",
-                    f"updated_at: {now_iso()}",
-                    "---",
-                    "",
-                    "# Wissenswerk Plattformstatus",
-                    "",
-                    "Dieser Artikel dokumentiert den generischen Wissenswerk-Plattformkern fuer den Siebenwind-Referenztenant.",
-                    "",
-                    f"- Artikel im Wiki-Baum: {len(articles)}",
-                    f"- Quellenwurzeln: {', '.join(rel(path) for path in existing_sources) or '[UNGEKLAERT]'}",
-                    "- Retrieval-Default: pgvector",
-                    "- Designvertrag: DESIGN.md",
-                    "",
+        if chunks:
+            grouped: dict[str, list[dict[str, Any]]] = {}
+            for chunk in chunks:
+                if isinstance(chunk, dict):
+                    grouped.setdefault(str(chunk.get("document_id") or chunk.get("source_path") or "unknown"), []).append(chunk)
+            for index, (document_id, doc_chunks) in enumerate(sorted(grouped.items()), start=1):
+                title = str(doc_chunks[0].get("title") or document_id)
+                article_path = wiki_root / "Articles" / f"{slugify_title(title, f'article_{index}')}.md"
+                ensure_dir(article_path.parent)
+                citations = [
+                    f"- `{chunk.get('chunk_id', '')}` from `{chunk.get('source_path', '')}`"
+                    for chunk in doc_chunks
                 ]
-            ),
-            encoding="utf-8",
-        )
-        payload["written"].append(rel(report_md))
+                body_sections = []
+                for chunk in doc_chunks[:5]:
+                    section = str(chunk.get("section") or "Source excerpt")
+                    summary = str(chunk.get("summary") or chunk.get("text", "")[:500]).strip()
+                    body_sections.extend([f"## {section}", "", summary or "[UNRESOLVED]", ""])
+                article_path.write_text(
+                    "\n".join(
+                        [
+                            "---",
+                            f"uuid: {uuid.uuid4()}",
+                            f"title: {title}",
+                            "category: Generated",
+                            "epistemic: \"#derived\"",
+                            f"updated_at: {now_iso()}",
+                            f"source_document_id: {document_id}",
+                            "---",
+                            "",
+                            f"# {title}",
+                            "",
+                            *body_sections,
+                            "## Sources",
+                            "",
+                            *citations,
+                            "",
+                        ]
+                    ),
+                    encoding="utf-8",
+                )
+                payload["written"].append(rel(article_path))
+        else:
+            report_md = wiki_root / "Wissenswerk_Platform_Status.md"
+            ensure_dir(report_md.parent)
+            report_md.write_text(
+                "\n".join(
+                    [
+                        "---",
+                        f"uuid: {uuid.uuid4()}",
+                        "title: Wissenswerk Platform Status",
+                        "category: System",
+                        "epistemic: \"#meta\"",
+                        f"updated_at: {now_iso()}",
+                        "---",
+                        "",
+                        "# Wissenswerk Platform Status",
+                        "",
+                        "No RagPrep import state was found. Run ingest and curate before building generated articles.",
+                        "",
+                        f"- Existing articles in wiki tree: {len(articles)}",
+                        f"- Source roots: {', '.join(rel(path) for path in existing_sources) or '[UNRESOLVED]'}",
+                        "- Retrieval default: pgvector",
+                        "- Design contract: DESIGN.md",
+                        "",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+            payload["written"].append(rel(report_md))
     report_path = write_report(config, "wiki_build", payload)
     payload["report_path"] = rel(report_path)
     json_print(payload) if args.json else print(f"wiki build {payload['mode']}: report {rel(report_path)}")
     return 0
+
+
+def gitignore_patterns() -> list[str]:
+    gitignore = REPO_ROOT / ".gitignore"
+    if not gitignore.exists():
+        return []
+    return [
+        line.strip()
+        for line in gitignore.read_text(encoding="utf-8").splitlines()
+        if line.strip() and not line.strip().startswith("#")
+    ]
+
+
+def command_doctor(args: argparse.Namespace) -> int:
+    config = load_config(repo_path(args.config))
+    checks: list[dict[str, Any]] = []
+    for path in [Path("AGENTS.md"), Path("DESIGN.md"), Path("project_manifest.json"), Path("wissenswerk.yaml")]:
+        checks.append({"name": f"contract:{path}", "status": "pass" if repo_path(path).exists() else "fail"})
+    public_files = [
+        Path("SECURITY.md"),
+        Path("SUPPORT.md"),
+        Path("CODE_OF_CONDUCT.md"),
+        Path("CONTRIBUTING.md"),
+        Path("pyproject.toml"),
+        Path(".github/workflows/ci.yml"),
+        Path(".github/PULL_REQUEST_TEMPLATE.md"),
+        Path(".github/ISSUE_TEMPLATE/bug_report.yml"),
+        Path(".github/ISSUE_TEMPLATE/feature_request.yml"),
+        Path(".github/CODEOWNERS"),
+    ]
+    missing_public_files = [rel(repo_path(path)) for path in public_files if not repo_path(path).exists()]
+    mapped_contract_groups = {
+        "public_agent_contract": [Path("AGENTS.md")],
+        "public_license": [Path("LICENSE")],
+        "public_manifest": [Path("project_manifest.json")],
+        "public_config": [Path("wissenswerk.yaml")],
+        "public_pyproject": [Path("pyproject.toml")],
+    }
+    missing_groups = [
+        name
+        for name, candidates in mapped_contract_groups.items()
+        if not any(repo_path(candidate).exists() for candidate in candidates)
+    ]
+    checks.append(
+        {
+            "name": "github:community-and-ci-surfaces",
+            "status": "pass" if not missing_public_files and not missing_groups else "fail",
+            "missing": missing_public_files,
+            "missing_contract_groups": missing_groups,
+        }
+    )
+    roles = config.get("agents", {}).get("roles", [])
+    checks.append(
+        {
+            "name": "agents:english-core-roles",
+            "status": "pass" if roles == ["coordinator", "curator", "verifier", "maintainer"] else "fail",
+            "value": roles,
+        }
+    )
+    design_payload = lint_design(DEFAULT_DESIGN)
+    checks.append({"name": "design:lint", "status": design_payload["status"], "summary": design_payload["summary"]})
+    provider_payload = provider_status(config)
+    checks.append(
+        {
+            "name": "providers:configured",
+            "status": "pass" if provider_payload["status"] == "configured" else "fail",
+            "runtime_status": provider_payload["runtime_status"],
+        }
+    )
+    patterns = gitignore_patterns()
+    required_patterns = [".env", ".env.*", "*.sqlite", "*.db", "*.dump", ".wissenswerk/"]
+    missing_patterns = [pattern for pattern in required_patterns if pattern not in patterns]
+    checks.append(
+        {
+            "name": "gitignore:wissenswerk-runtime",
+            "status": "pass" if not missing_patterns else "warn",
+            "missing": missing_patterns,
+        }
+    )
+    failures = [check for check in checks if check["status"] == "fail"]
+    warnings = [check for check in checks if check["status"] == "warn"]
+    payload = {
+        "status": "fail" if failures else "warn" if warnings else "ok",
+        "checks": checks,
+        "next_commands": [
+            "./wissenswerk.py ingest --from-ragprep tests/fixtures/ragprep --apply --json",
+            "./wissenswerk.py curate --json",
+            "./wissenswerk.py reset index --dry-run --json",
+        ],
+    }
+    json_print(payload) if args.json else print_doctor(payload)
+    return 1 if failures else 0
+
+
+def print_doctor(payload: dict[str, Any]) -> None:
+    print(f"Wissenswerk doctor: {payload['status']}")
+    for check in payload["checks"]:
+        print(f"- {check['name']}: {check['status']}")
+
+
+def existing_path_specs(paths: list[Path]) -> list[str]:
+    return [rel(path) for path in paths if path.exists()]
+
+
+def run_git_ls_files(paths: list[str] | None = None) -> list[str]:
+    cmd = ["git", "ls-files"]
+    if paths:
+        cmd.extend(paths)
+    result = subprocess.run(cmd, cwd=REPO_ROOT, text=True, capture_output=True, check=False)
+    if result.returncode != 0:
+        return []
+    return [line.strip() for line in result.stdout.splitlines() if line.strip()]
+
+
+def directory_size(path: Path) -> int:
+    if not path.exists():
+        return 0
+    if path.is_file():
+        return path.stat().st_size
+    total = 0
+    for child in path.rglob("*"):
+        try:
+            if child.is_file():
+                total += child.stat().st_size
+        except OSError:
+            continue
+    return total
+
+
+def count_files(path: Path) -> int:
+    if not path.exists():
+        return 0
+    if path.is_file():
+        return 1
+    return sum(1 for child in path.rglob("*") if child.is_file())
+
+
+def report_hygiene_inventory() -> dict[str, Any]:
+    roots = [
+        {
+            "path": "Logs",
+            "classification": "legacy_report_archive",
+            "publish_policy": "exclude_from_public_wissenswerk",
+        },
+        {
+            "path": "System/Synapse_Board/DISPATCH",
+            "classification": "legacy_dispatch_queue",
+            "publish_policy": "exclude_from_public_wissenswerk",
+        },
+        {
+            "path": "System/Archivregister",
+            "classification": "legacy_archive_index",
+            "publish_policy": "exclude_from_public_wissenswerk",
+        },
+        {
+            "path": ".wissenswerk",
+            "classification": "generated_runtime_state",
+            "publish_policy": "exclude_from_public_wissenswerk",
+        },
+        {
+            "path": "docs/archive",
+            "classification": "generated_or_historical_archive",
+            "publish_policy": "exclude_from_public_wissenswerk",
+        },
+        {
+            "path": "docs/Wissenswerk",
+            "classification": "generic_documentation",
+            "publish_policy": "include_documentation_subset",
+        },
+    ]
+    entries = []
+    total_files = 0
+    tracked_files = 0
+    total_bytes = 0
+    for root in roots:
+        root_path = repo_path(root["path"])
+        tracked = run_git_ls_files([root["path"]])
+        files = count_files(root_path)
+        size = directory_size(root_path)
+        total_files += files
+        tracked_files += len(tracked)
+        total_bytes += size
+        entries.append(
+            {
+                **root,
+                "exists": root_path.exists(),
+                "files_total": files,
+                "tracked_files": len(tracked),
+                "bytes": size,
+                "status": "review" if root["publish_policy"].startswith("exclude") and tracked else "ok",
+            }
+        )
+    stale_open_dispatch = 0
+    dispatch_root = repo_path("System/Synapse_Board/DISPATCH")
+    if dispatch_root.exists():
+        for path in dispatch_root.glob("MSG-*.md"):
+            try:
+                if re.search(r"^status:\s*OPEN\s*$", path.read_text(encoding="utf-8"), re.MULTILINE):
+                    stale_open_dispatch += 1
+            except OSError:
+                continue
+    return {
+        "status": "review" if tracked_files else "ok",
+        "scope": "branch_cleanup",
+        "roots": entries,
+        "summary": {
+            "files_total": total_files,
+            "tracked_files": tracked_files,
+            "bytes_total": total_bytes,
+            "open_dispatch_messages": stale_open_dispatch,
+        },
+        "recommendations": [
+            "Do not include generated logs, dispatch state, archive indexes, runtime caches, or local archives in the public repository.",
+            "Keep reports runtime-generated and ignored; commit only stable contracts, fixtures, and documentation dossiers.",
+            "Triage OPEN dispatch messages before closing them; many are completion notices rather than live work.",
+            "Use export plan as the publishable-branch gate before creating a fresh repository.",
+        ],
+    }
+
+
+def command_hygiene_reports(args: argparse.Namespace) -> int:
+    payload = report_hygiene_inventory()
+    json_print(payload) if args.json else print_hygiene_reports(payload)
+    return 0
+
+
+def print_hygiene_reports(payload: dict[str, Any]) -> None:
+    print(f"Wissenswerk report hygiene: {payload['status']}")
+    for root in payload["roots"]:
+        print(
+            f"- {root['path']}: files={root['files_total']} tracked={root['tracked_files']} "
+            f"policy={root['publish_policy']}"
+        )
+
+
+def flatten_manifest_paths(section: Any) -> list[str]:
+    paths: list[str] = []
+    if isinstance(section, dict):
+        for value in section.values():
+            paths.extend(flatten_manifest_paths(value))
+    elif isinstance(section, list):
+        for value in section:
+            paths.extend(flatten_manifest_paths(value))
+    elif isinstance(section, str):
+        paths.append(section)
+    return paths
+
+
+def is_exportable_manifest_file(path: Path) -> bool:
+    parts = set(path.parts)
+    if "__pycache__" in parts:
+        return False
+    if path.suffix in {".pyc", ".pyo"}:
+        return False
+    return True
+
+
+def expand_manifest_path(value: str, *, include_files: bool) -> dict[str, Any]:
+    path = repo_path(value)
+    if any(char in value for char in "*?[]"):
+        matches = sorted(REPO_ROOT.glob(value))
+    elif path.exists():
+        matches = [path]
+    else:
+        matches = []
+    files = []
+    for match in matches:
+        if match.is_dir():
+            files.extend(sorted(child for child in match.rglob("*") if child.is_file() and is_exportable_manifest_file(child)))
+        elif match.is_file() and is_exportable_manifest_file(match):
+            files.append(match)
+    return {
+        "spec": value,
+        "exists": bool(matches),
+        "files": [rel(file_path) for file_path in files] if include_files else [],
+        "file_count": len(files),
+    }
+
+
+def manifest_spec_matches_file(spec: str, file_path: str) -> bool:
+    if any(char in spec for char in "*?[]"):
+        return Path(file_path).match(spec)
+    if spec.endswith("/"):
+        return file_path.startswith(spec)
+    spec_path = repo_path(spec)
+    if spec_path.is_dir():
+        normalized = spec.rstrip("/") + "/"
+        return file_path.startswith(normalized)
+    return file_path == spec
+
+
+def manifest_requirement_satisfied(requirement: str, include_specs: list[str], included_files: list[str]) -> bool:
+    if requirement in include_specs or requirement in included_files:
+        return True
+    if requirement.endswith("/"):
+        return any(file_path.startswith(requirement) for file_path in included_files)
+    return False
+
+
+def public_safety_findings(manifest: dict[str, Any], included_files: list[str]) -> list[dict[str, Any]]:
+    safety = manifest.get("public_safety", {})
+    scan_specs = flatten_manifest_paths(safety.get("scan_specs", []))
+    patterns = safety.get("forbidden_patterns", [])
+    if not isinstance(patterns, list):
+        return []
+    scan_entries = [expand_manifest_path(spec, include_files=True) for spec in scan_specs]
+    scan_files = sorted({file for entry in scan_entries for file in entry["files"] if file in included_files})
+    findings: list[dict[str, Any]] = []
+    for file_path in scan_files:
+        try:
+            raw = repo_path(file_path).read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+        for item in patterns:
+            if not isinstance(item, dict):
+                continue
+            pattern = str(item.get("pattern", ""))
+            if pattern and pattern in raw:
+                findings.append(
+                    {
+                        "kind": "public_forbidden_pattern",
+                        "file": file_path,
+                        "pattern": pattern,
+                        "description": item.get("description", ""),
+                    }
+                )
+    return findings
+
+
+def rewrite_manifest_strings(value: Any, mappings: dict[str, str]) -> Any:
+    if isinstance(value, dict):
+        return {key: rewrite_manifest_strings(item, mappings) for key, item in value.items()}
+    if isinstance(value, list):
+        return [rewrite_manifest_strings(item, mappings) for item in value]
+    if isinstance(value, str):
+        return mappings.get(value, value)
+    return value
+
+
+def materialized_manifest_payload(manifest_path: Path) -> dict[str, Any]:
+    manifest = load_json_like(manifest_path)
+    mappings = {str(key): str(value) for key, value in manifest.get("export_mappings", {}).items()}
+    rewritten = rewrite_manifest_strings(manifest, mappings)
+    if isinstance(rewritten, dict):
+        rewritten["strategy"] = "standalone"
+        rewritten["status"] = "public_contract"
+        rewritten["export_mappings"] = {}
+        notes = rewritten.get("migration_notes", [])
+        if isinstance(notes, list):
+            rewritten["migration_notes"] = [
+                note
+                for note in notes
+                if isinstance(note, str) and "Map " not in note and "migration branch" not in note
+            ]
+    return rewritten if isinstance(rewritten, dict) else manifest
+
+
+def export_plan(manifest_path: Path) -> dict[str, Any]:
+    manifest = load_json_like(manifest_path)
+    include_specs = flatten_manifest_paths(manifest.get("include", {}))
+    exclude_specs = flatten_manifest_paths(manifest.get("exclude", {}))
+    include_entries = [expand_manifest_path(spec, include_files=True) for spec in include_specs]
+    exclude_entries = [expand_manifest_path(spec, include_files=False) for spec in exclude_specs]
+    missing_required = [entry["spec"] for entry in include_entries if not entry["exists"]]
+    included_files = sorted({file for entry in include_entries for file in entry["files"]})
+    excluded_file_count = sum(int(entry["file_count"]) for entry in exclude_entries)
+    overlap = sorted(
+        {
+            file_path
+            for file_path in included_files
+            for spec in exclude_specs
+            if manifest_spec_matches_file(spec, file_path)
+        }
+    )
+    gate_findings = []
+    for gate in manifest.get("public_gates", []):
+        if not isinstance(gate, dict):
+            continue
+        missing = [
+            requirement
+            for requirement in gate.get("requires_included", [])
+            if not manifest_requirement_satisfied(str(requirement), include_specs, included_files)
+        ]
+        if missing:
+            gate_findings.append({"kind": "public_gate_missing_inputs", "command": gate.get("command", ""), "missing": missing})
+    safety_findings = public_safety_findings(manifest, included_files)
+    hygiene = report_hygiene_inventory()
+    blockers = []
+    warnings = []
+    if overlap:
+        blockers.append({"kind": "include_exclude_overlap", "paths": overlap})
+    if missing_required:
+        blockers.append({"kind": "missing_include_specs", "paths": missing_required})
+    blockers.extend(gate_findings)
+    blockers.extend(safety_findings)
+    if hygiene["summary"]["tracked_files"]:
+        warnings.append(
+            {
+                "kind": "legacy_report_state_present",
+                "tracked_files": hygiene["summary"]["tracked_files"],
+                "policy": "excluded_from_public_export",
+            }
+        )
+    return {
+        "status": "blocked" if blockers else "ready",
+        "manifest": rel(manifest_path),
+        "public_repo": manifest.get("public_repo", {}),
+        "export_mappings": manifest.get("export_mappings", {}),
+        "public_gates": manifest.get("public_gates", []),
+        "include": include_entries,
+        "exclude": exclude_entries,
+        "summary": {
+            "include_specs": len(include_specs),
+            "include_files_existing": len(included_files),
+            "exclude_specs": len(exclude_specs),
+            "exclude_files_existing": excluded_file_count,
+            "exclude_file_hits_existing": excluded_file_count,
+            "exclude_counting": "spec_hits_may_overlap",
+            "missing_include_specs": missing_required,
+            "overlap": overlap,
+            "public_safety_findings": len(safety_findings),
+        },
+        "report_hygiene": hygiene["summary"],
+        "blockers": blockers,
+        "warnings": warnings,
+        "next_commands": [
+            "./wissenswerk.py hygiene reports --json",
+            "./wissenswerk.py test --json",
+        ],
+    }
+
+
+def command_export_plan(args: argparse.Namespace) -> int:
+    payload = export_plan(repo_path(args.manifest))
+    json_print(payload) if args.json else print_export_plan(payload)
+    return 1 if payload["status"] == "blocked" and args.strict else 0
+
+
+def command_test(args: argparse.Namespace) -> int:
+    test_root = repo_path(args.path)
+    cmd = [sys.executable, "-m", "unittest", "discover", "-s", rel(test_root)]
+    result = subprocess.run(cmd, cwd=REPO_ROOT, text=True, capture_output=True, check=False)
+    payload = {
+        "status": "pass" if result.returncode == 0 else "fail",
+        "command": cmd,
+        "path": rel(test_root),
+        "returncode": result.returncode,
+        "stdout": result.stdout,
+        "stderr": result.stderr,
+    }
+    json_print(payload) if args.json else print_test(payload)
+    return result.returncode
+
+
+def export_materialize_plan(manifest_path: Path, target: Path) -> dict[str, Any]:
+    plan = export_plan(manifest_path)
+    mappings = plan.get("export_mappings", {})
+    files = sorted({file for entry in plan.get("include", []) for file in entry.get("files", [])})
+    operations = []
+    for file_path in files:
+        destination = mappings.get(file_path, file_path)
+        operations.append({"source": file_path, "destination": str(destination)})
+    return {
+        "status": "blocked" if plan["blockers"] else "ready",
+        "manifest": plan["manifest"],
+        "target": rel(target),
+        "operations": operations,
+        "files_total": len(operations),
+        "blockers": plan["blockers"],
+        "warnings": plan["warnings"],
+    }
+
+
+def command_export_materialize(args: argparse.Namespace) -> int:
+    target = repo_path(args.target)
+    manifest_path = repo_path(args.manifest)
+    payload = export_materialize_plan(manifest_path, target)
+    if payload["blockers"]:
+        json_print(payload) if args.json else print(f"export materialize blocked: {len(payload['blockers'])} blockers")
+        return 1
+    if args.apply:
+        if target.resolve() == REPO_ROOT.resolve():
+            payload["status"] = "blocked"
+            payload["blockers"].append({"kind": "target_is_repository_root", "target": rel(target)})
+            json_print(payload) if args.json else print("Refusing to materialize into repository root")
+            return 1
+        for operation in payload["operations"]:
+            source = repo_path(operation["source"])
+            destination = target / operation["destination"]
+            ensure_dir(destination.parent)
+            if source.resolve() == manifest_path.resolve():
+                destination.write_text(
+                    json.dumps(materialized_manifest_payload(manifest_path), indent=2, ensure_ascii=False) + "\n",
+                    encoding="utf-8",
+                )
+            else:
+                shutil.copy2(source, destination)
+        payload["status"] = "written"
+    else:
+        payload["status"] = "dry-run"
+    json_print(payload) if args.json else print_export_materialize(payload)
+    return 0
+
+
+def run_verification_command(target: Path, command: list[str]) -> dict[str, Any]:
+    result = subprocess.run(command, cwd=target, text=True, capture_output=True, check=False)
+    return {
+        "command": command,
+        "returncode": result.returncode,
+        "status": "pass" if result.returncode == 0 else "fail",
+        "stdout": result.stdout,
+        "stderr": result.stderr,
+    }
+
+
+def command_export_verify(args: argparse.Namespace) -> int:
+    target = repo_path(args.target)
+    commands = [
+        [sys.executable, "-m", "py_compile", "wissenswerk.py"],
+        [sys.executable, "wissenswerk.py", "doctor", "--json"],
+        [sys.executable, "wissenswerk.py", "export", "plan", "--strict", "--json"],
+        [sys.executable, "wissenswerk.py", "test", "--json"],
+        [sys.executable, "-m", "json.tool", "wissenswerk_export_manifest.json"],
+        [sys.executable, "-m", "json.tool", "project_manifest.json"],
+        [sys.executable, "-m", "json.tool", "wissenswerk.yaml"],
+    ]
+    if (target / ".git").exists():
+        commands.append(["git", "diff", "--check"])
+    results = [run_verification_command(target, command) for command in commands]
+    failures = [result for result in results if result["status"] != "pass"]
+    payload = {
+        "status": "fail" if failures else "pass",
+        "target": rel(target),
+        "checks": results,
+        "summary": {"pass": len(results) - len(failures), "fail": len(failures)},
+    }
+    json_print(payload) if args.json else print_export_verify(payload)
+    return 1 if failures else 0
+
+
+def print_export_verify(payload: dict[str, Any]) -> None:
+    print(f"Wissenswerk export verify: {payload['status']}")
+    for check in payload["checks"]:
+        print(f"- {' '.join(check['command'])}: {check['status']}")
+
+
+def print_export_materialize(payload: dict[str, Any]) -> None:
+    print(f"Wissenswerk export materialize: {payload['status']}")
+    print(f"- target: {payload['target']}")
+    print(f"- files: {payload['files_total']}")
+
+
+def print_test(payload: dict[str, Any]) -> None:
+    print(f"Wissenswerk tests: {payload['status']}")
+    if payload["stdout"]:
+        print(payload["stdout"].rstrip())
+    if payload["stderr"]:
+        print(payload["stderr"].rstrip())
+
+
+def print_export_plan(payload: dict[str, Any]) -> None:
+    print(f"Wissenswerk export plan: {payload['status']}")
+    summary = payload["summary"]
+    print(f"- include specs: {summary['include_specs']} ({summary['include_files_existing']} files)")
+    print(f"- exclude specs: {summary['exclude_specs']} ({summary['exclude_file_hits_existing']} file hits)")
+    for blocker in payload["blockers"]:
+        print(f"- blocker: {blocker['kind']}")
+
+
+def reset_plan(config: dict[str, Any], target: str) -> dict[str, Any]:
+    paths_cfg = config.get("paths", {})
+    runtime_state = repo_path(paths_cfg.get("runtime_state", ".wissenswerk/state"))
+    ragprep_imports = repo_path(paths_cfg.get("ragprep_imports", ".wissenswerk/ragprep_imports"))
+    reports = repo_path(paths_cfg.get("reports", "reports/wissenswerk"))
+    wiki_root = repo_path(paths_cfg.get("wiki", "docs/Wiki"))
+    specs: dict[str, dict[str, Any]] = {
+        "memory": {
+            "affected_paths": existing_path_specs([runtime_state / "memory"]),
+            "protected_paths": ["Logs/Archive/SESSION_MEMORY_*.md"],
+            "stale_indexes": [],
+            "next_commands": ["./wissenswerk.py doctor --json"],
+        },
+        "index": {
+            "affected_paths": existing_path_specs([runtime_state / "index", runtime_state / "legacy_vector_cache"]),
+            "virtual_targets": [config.get("vector_store", {})],
+            "protected_paths": [rel(ragprep_imports), rel(wiki_root)],
+            "stale_indexes": ["pgvector", "lexical-bootstrap"],
+            "next_commands": ["./wissenswerk.py ingest --from-ragprep <dir> --apply --json"],
+        },
+        "generated": {
+            "affected_paths": existing_path_specs([reports, runtime_state / "curation", runtime_state / "generated"]),
+            "protected_paths": [rel(ragprep_imports), rel(wiki_root)],
+            "stale_indexes": [],
+            "next_commands": ["./wissenswerk.py curate --json"],
+        },
+        "wiki": {
+            "affected_paths": existing_path_specs([wiki_root / "Wissenswerk_Platform_Status.md", wiki_root / "Articles"]),
+            "protected_paths": [rel(wiki_root), *[rel(repo_path(path)) for path in paths_cfg.get("sources", [])]],
+            "stale_indexes": ["wiki"],
+            "next_commands": ["./wissenswerk.py wiki build --apply --json"],
+        },
+    }
+    return specs[target]
+
+
+def remove_path(path: Path) -> None:
+    if not path.exists():
+        return
+    if path.is_dir():
+        for child in sorted(path.iterdir(), reverse=True):
+            remove_path(child)
+        path.rmdir()
+    else:
+        path.unlink()
+
+
+def command_reset(args: argparse.Namespace) -> int:
+    config = load_config(repo_path(args.config))
+    plan = reset_plan(config, args.target)
+    payload = {
+        "status": "dry-run" if args.dry_run or not args.apply else "applied",
+        "target": args.target,
+        "dry_run": bool(args.dry_run or not args.apply),
+        "affected_paths": plan.get("affected_paths", []),
+        "virtual_targets": plan.get("virtual_targets", []),
+        "protected_paths": plan.get("protected_paths", []),
+        "stale_indexes": plan.get("stale_indexes", []),
+        "next_commands": plan.get("next_commands", []),
+        "written": [],
+        "removed": [],
+    }
+    if args.apply and not args.dry_run:
+        for value in payload["affected_paths"]:
+            path = repo_path(value)
+            remove_path(path)
+            payload["removed"].append(value)
+        report_path = write_report(config, f"reset_{args.target}", payload)
+        payload["written"].append(rel(report_path))
+    json_print(payload) if args.json else print_reset(payload)
+    return 0
+
+
+def print_reset(payload: dict[str, Any]) -> None:
+    print(f"Wissenswerk reset {payload['target']}: {payload['status']}")
+    for path in payload["affected_paths"]:
+        print(f"- affected: {path}")
+
+
+def command_wipe(args: argparse.Namespace) -> int:
+    config = load_config(repo_path(args.config))
+    paths_cfg = config.get("paths", {})
+    runtime_state = repo_path(paths_cfg.get("runtime_state", ".wissenswerk/state"))
+    ragprep_imports = repo_path(paths_cfg.get("ragprep_imports", ".wissenswerk/ragprep_imports"))
+    reports = repo_path(paths_cfg.get("reports", "reports/wissenswerk"))
+    wiki_root = repo_path(paths_cfg.get("wiki", "docs/Wiki"))
+    tenant_paths = existing_path_specs([runtime_state, ragprep_imports, reports, wiki_root / "Wissenswerk_Platform_Status.md", wiki_root / "Articles"])
+    protected = [rel(repo_path(path)) for path in paths_cfg.get("sources", [])]
+    protected.extend([rel(wiki_root), "wissenswerk.yaml", "project_manifest.json", "AGENTS.md", "DESIGN.md"])
+    needs_confirm = args.target == "all"
+    confirmed = args.confirm == "WIPE-WISSENSWERK"
+    dry_run = bool(args.dry_run or not args.apply)
+    status = "dry-run"
+    if args.apply and needs_confirm and not confirmed:
+        status = "blocked_confirmation_required"
+    elif args.apply and not dry_run:
+        status = "applied"
+    payload = {
+        "status": status,
+        "target": args.target,
+        "dry_run": dry_run,
+        "confirm_required": needs_confirm,
+        "confirm_token": "WIPE-WISSENSWERK" if needs_confirm else "",
+        "affected_paths": tenant_paths,
+        "protected_paths": protected,
+        "stale_indexes": ["pgvector", "wiki", "lexical-bootstrap"],
+        "next_commands": ["./wissenswerk.py init --json", "./wissenswerk.py ingest --from-ragprep <dir> --apply --json"],
+        "removed": [],
+        "written": [],
+    }
+    if status == "applied":
+        for value in tenant_paths:
+            remove_path(repo_path(value))
+            payload["removed"].append(value)
+        report_path = write_report(config, f"wipe_{args.target}", payload)
+        payload["written"].append(rel(report_path))
+    json_print(payload) if args.json else print_wipe(payload)
+    return 2 if status == "blocked_confirmation_required" else 0
+
+
+def print_wipe(payload: dict[str, Any]) -> None:
+    print(f"Wissenswerk wipe {payload['target']}: {payload['status']}")
+    for path in payload["affected_paths"]:
+        print(f"- affected: {path}")
 
 
 def lexical_search(config: dict[str, Any], query: str, source: str, limit: int) -> list[dict[str, Any]]:
@@ -576,6 +1429,9 @@ def build_parser() -> argparse.ArgumentParser:
     ingest.add_argument("--apply", action="store_true")
     ingest.add_argument("--json", action="store_true")
 
+    curate = sub.add_parser("curate", help="Plan article candidates from the latest RagPrep import")
+    curate.add_argument("--json", action="store_true")
+
     wiki = sub.add_parser("wiki", help="Build or inspect generated wiki artifacts")
     wiki_sub = wiki.add_subparsers(dest="wiki_command")
     wiki_build = wiki_sub.add_parser("build", help="Build wiki artifacts")
@@ -593,6 +1449,22 @@ def build_parser() -> argparse.ArgumentParser:
     providers_check = providers_sub.add_parser("check", help="Check provider configuration")
     providers_check.add_argument("--json", action="store_true")
 
+    doctor = sub.add_parser("doctor", help="Run dependency-light Wissenswerk health checks")
+    doctor.add_argument("--json", action="store_true")
+
+    reset = sub.add_parser("reset", help="Reset selected generated Wissenswerk state")
+    reset.add_argument("target", choices=["memory", "index", "generated", "wiki"])
+    reset.add_argument("--dry-run", action="store_true")
+    reset.add_argument("--apply", action="store_true")
+    reset.add_argument("--json", action="store_true")
+
+    wipe = sub.add_parser("wipe", help="Wipe tenant or local Wissenswerk state with safeguards")
+    wipe.add_argument("target", choices=["tenant", "all"])
+    wipe.add_argument("--dry-run", action="store_true")
+    wipe.add_argument("--apply", action="store_true")
+    wipe.add_argument("--confirm", default="")
+    wipe.add_argument("--json", action="store_true")
+
     design = sub.add_parser("design", help="Inspect the DESIGN.md contract")
     design_sub = design.add_subparsers(dest="design_command")
     design_lint = design_sub.add_parser("lint", help="Lint DESIGN.md")
@@ -604,6 +1476,30 @@ def build_parser() -> argparse.ArgumentParser:
     discord = bot_sub.add_parser("discord", help="Discord bot adapter")
     discord.add_argument("--run", action="store_true")
     discord.add_argument("--json", action="store_true")
+
+    hygiene = sub.add_parser("hygiene", help="Inspect publishability and runtime/report ballast")
+    hygiene_sub = hygiene.add_subparsers(dest="hygiene_command")
+    hygiene_reports = hygiene_sub.add_parser("reports", help="Inventory report, dispatch, archive, and runtime state")
+    hygiene_reports.add_argument("--json", action="store_true")
+
+    export = sub.add_parser("export", help="Plan standalone Wissenswerk repository extraction")
+    export_sub = export.add_subparsers(dest="export_command")
+    export_plan_cmd = export_sub.add_parser("plan", help="Dry-run the public repository export manifest")
+    export_plan_cmd.add_argument("--manifest", default=str(DEFAULT_EXPORT_MANIFEST))
+    export_plan_cmd.add_argument("--strict", action="store_true")
+    export_plan_cmd.add_argument("--json", action="store_true")
+    export_materialize = export_sub.add_parser("materialize", help="Copy the public export tree into a target directory")
+    export_materialize.add_argument("--manifest", default=str(DEFAULT_EXPORT_MANIFEST))
+    export_materialize.add_argument("--target", required=True)
+    export_materialize.add_argument("--apply", action="store_true")
+    export_materialize.add_argument("--json", action="store_true")
+    export_verify = export_sub.add_parser("verify", help="Run public export gates inside a materialized target directory")
+    export_verify.add_argument("--target", required=True)
+    export_verify.add_argument("--json", action="store_true")
+
+    test_cmd = sub.add_parser("test", help="Run standalone Wissenswerk unit tests")
+    test_cmd.add_argument("--path", default="tests")
+    test_cmd.add_argument("--json", action="store_true")
     return parser
 
 
@@ -614,16 +1510,34 @@ def main(argv: list[str] | None = None) -> int:
         return command_init(args)
     if args.command == "ingest":
         return command_ingest(args)
+    if args.command == "curate":
+        return command_curate(args)
     if args.command == "wiki" and args.wiki_command == "build":
         return command_wiki_build(args)
     if args.command == "search":
         return command_search(args)
     if args.command == "providers" and args.providers_command == "check":
         return command_providers_check(args)
+    if args.command == "doctor":
+        return command_doctor(args)
+    if args.command == "reset":
+        return command_reset(args)
+    if args.command == "wipe":
+        return command_wipe(args)
     if args.command == "design" and args.design_command == "lint":
         return command_design_lint(args)
     if args.command == "bot" and args.bot_command == "discord":
         return command_bot_discord(args)
+    if args.command == "hygiene" and args.hygiene_command == "reports":
+        return command_hygiene_reports(args)
+    if args.command == "export" and args.export_command == "plan":
+        return command_export_plan(args)
+    if args.command == "export" and args.export_command == "materialize":
+        return command_export_materialize(args)
+    if args.command == "export" and args.export_command == "verify":
+        return command_export_verify(args)
+    if args.command == "test":
+        return command_test(args)
     parser.print_help()
     return 1
 

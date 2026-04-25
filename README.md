@@ -1,80 +1,75 @@
-# Siebenwind Wiki (7w_wiki)
+# Wissenswerk
 
-Kuratiertes Lore-Archiv fuer die Welt Siebenwind mit offenem KI-Betrieb, Audit-Trails und redaktioneller Qualitaetskontrolle.
+Wissenswerk is a platform-independent knowledge compiler. It imports prepared document corpora, builds an auditable Markdown wiki, preserves provenance and reports, and exposes the same knowledge through search, bot adapters, and future API surfaces.
 
-- Public Pages: <https://siebenwind.github.io/7w_wiki/>
-- Leser-Einstieg: [docs/index.md](docs/index.md)
-- Technische Regeln: [AGENTS.md](AGENTS.md)
+The project is designed for agents and humans working together through open repository contracts instead of IDE-specific assumptions.
 
-## Fuer Leser
-
-- Wiki-Startpunkt: [docs/Siebenwind_Wiki/index.md](docs/Siebenwind_Wiki/index.md)
-- Kuratierte Einstiege: [docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md](docs/Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md)
-- Chronik-Zeitrahmen: [docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md](docs/Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel).md)
-
-## Fuer technisch Interessierte: Was die Engine kann
-
-- **Einheitliche Runtime Authority:** Alle Operationen laufen ueber `./7w_wiki.py <command>`.
-- **Oracle/RAG mit Source-Scope:** Reproduzierbare semantische Suche mit `--source wiki|quellen|all`.
-- **Self-Describing CLI:** `./7w_wiki.py --help-json` fuer dynamische Introspection, `.agent/config/tools.json` fuer OpenAI-kompatible Tool-Definitionen.
-- **Universal JSON:** Alle Kernkommandos unterstuetzen `--json` fuer maschinenlesbare Ausgabe.
-- **Lint- und Ingest-Pipelines:** `lint` (Sanitizer + Lektor + Score) und `ingest` (Lint + Archive Sync + Audit) als Ein-Befehl-Pipelines.
-- **Version Management:** Zentrales `VERSION` File mit `./7w_wiki.py version --bump`.
-- **Archivar:** `archive rotate` komprimiert veraltete Logs, rotiert DONE-Dispatches und archiviert abgeschlossene Tickets.
-- **Repo-Hygiene:** `tech --repo-hygiene [--apply] [--json]` klassifiziert Hot/Cold/Runtime/Build-Pfade und fuehrt konservative Bereinigung aus.
-- **Workflow Automation:** `--run` und `--resume` fuer Start/Takeover/Handover Workflows.
-- **Qualitaetsgates:** Standardisierte Testsuiten plus Audit-Check als Integritaetsbarriere.
-- **Agentenkoordination:** Dispatch-Bus mit `--report-path` und strukturierten Payloads.
-- **Kompatibilitaetsmanifest:** `lore_manifest.json` bleibt als generierte, AI-agnostische Surface erhalten und wird aus dem Katalog aktualisiert.
-
-## 5-Minuten Tech Tour
+## Quick Start
 
 ```bash
-# 1) Lagebild und Prioritaeten
-./7w_wiki.py advisor
-
-# 2) Oracle mit expliziter Quelle
-./7w_wiki.py search "Dunvallo Linari" --source wiki
-
-# 3) Lint-Pipeline (Sanitizer + Lektor + Score)
-./7w_wiki.py lint docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md --fix
-
-# 4) Ingest-Pipeline (Lint + Archive Sync + Audit)
-./7w_wiki.py ingest Quellen/Zeitung\ 7w\ Bote/Bote_194.md
-
-# 5) Archivar (Log-Rotation)
-./7w_wiki.py archive rotate --dry-run
-
-# 6) Version pruefen
-./7w_wiki.py version
-
-# 7) Repo-Hygiene und Retention
-./7w_wiki.py tech --repo-hygiene --json
+./wissenswerk.py init --json
+./wissenswerk.py ingest --from-ragprep tests/fixtures/ragprep --apply --json
+./wissenswerk.py curate --json
+./wissenswerk.py wiki build --apply --json
+./wissenswerk.py search "example question" --source all --json
 ```
 
-## Kernbereiche im Repository
+## Core Principles
 
-- **Praesentation (Leserfokus):** `docs/index.md`, `docs/Siebenwind_Wiki/`, `docs/assets/`
-- **Betrieb (Prozessfokus):** `System/`, `System/Synapse_Board/`, `.agent/`, `.agents/`
-- **Kompatibilitaet & Discovery:** `.agent/catalog/`, `lore_manifest.json`, `mcp_config.json`, `docs/.well-known/agent.json`
-- **Koordination:** `MASTER_TASK_LIST.md`, `CHANGELOG.md`, `System/Synapse_Board/DISPATCH/`
+- **Markdown-first:** generated knowledge remains inspectable and portable.
+- **RagPrep boundary:** parsing, cleanup, and pre-chunking happen before Wissenswerk.
+- **Provenance first:** auto-apply runs produce reports, auditable state, and rollback hints.
+- **Provider-neutral:** chat, summary, embeddings, and rerank use OpenAI-compatible endpoints.
+- **pgvector default:** PostgreSQL + pgvector is the default retrieval target.
+- **Agent-readable contracts:** `AGENTS.md`, `DESIGN.md`, `wissenswerk.yaml`, `project_manifest.json`, JSON CLI output, and future MCP/tool manifests are canonical.
 
-## Technische Dokumentation
+## Roles
 
-- Architektur: [docs/architecture.md](docs/architecture.md)
-- RAG Setup: [docs/setup_rag.md](docs/setup_rag.md)
-- Operations Handbook: [System/AGENT_OPERATIONS_HANDBOOK.md](System/AGENT_OPERATIONS_HANDBOOK.md)
-- Interop Standards: [System/Synapse_Board/SY_INTEROP.md](System/Synapse_Board/SY_INTEROP.md)
-- Testing Protocol: [System/Synapse_Board/SY_TESTING.md](System/Synapse_Board/SY_TESTING.md)
-- Menschlicher Leitpunkt: [docs/Archiv/MAINTAINER_STANDPUNKT.md](docs/Archiv/MAINTAINER_STANDPUNKT.md)
+Public role IDs are English and stable:
 
-## Mitwirken
+- `coordinator`: run planning, reports, delegation, human escalation.
+- `curator`: corpus inventory, RagPrep import, article planning, source mapping.
+- `verifier`: citations, conflicts, link checks, provenance and audit.
+- `maintainer`: core code, providers, migrations, tests, releases.
 
-- Leitfaden: [CONTRIBUTING.md](CONTRIBUTING.md)
-- Aktuelle Prioritaeten: [MASTER_TASK_LIST.md](MASTER_TASK_LIST.md)
-- Aenderungshistorie: [CHANGELOG.md](CHANGELOG.md)
+Localized display names belong in tenant configuration.
 
-## Lizenz
+## Verification
 
-- Code: [MIT](LICENSE)
-- Inhalte: CC BY-NC-SA 4.0 (Community Legacy)
+```bash
+python3 -m py_compile wissenswerk.py
+./wissenswerk.py doctor --json
+./wissenswerk.py export plan --strict --json
+./wissenswerk.py test --json
+git diff --check
+```
+
+To create and verify a candidate public repository tree:
+
+```bash
+./wissenswerk.py export materialize --target /tmp/wissenswerk-public --apply --json
+./wissenswerk.py export verify --target /tmp/wissenswerk-public --json
+```
+
+## GitHub Readiness
+
+The repository includes:
+
+- `README.md`, `LICENSE`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, and `SUPPORT.md`
+- issue templates, pull request template, CODEOWNERS, and Python CI under `.github/`
+- `.gitignore` coverage for secrets, runtime state, local databases, and generated reports
+- `AGENTS.md` and `DESIGN.md` as agent-readable root contracts
+- `pyproject.toml` for package metadata and the `wissenswerk` console script
+
+## Documentation
+
+- Agent contract: [AGENTS.md](AGENTS.md)
+- Design contract: [DESIGN.md](DESIGN.md)
+- CLI and operations: [docs/Wissenswerk/cli.md](docs/Wissenswerk/cli.md)
+- Architecture: [docs/Wissenswerk/architecture.md](docs/Wissenswerk/architecture.md)
+- Retrieval and memory: [docs/Wissenswerk/retrieval.md](docs/Wissenswerk/retrieval.md)
+- Publication readiness: [docs/Wissenswerk/publication-readiness.md](docs/Wissenswerk/publication-readiness.md)
+
+## License
+
+Wissenswerk is licensed under the [MIT License](LICENSE).

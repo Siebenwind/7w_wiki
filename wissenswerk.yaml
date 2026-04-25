@@ -1,20 +1,26 @@
 {
   "schema_version": "wissenswerk.config.v1",
   "project": {
-    "name": "Siebenwind",
+    "name": "Example Corpus",
     "product": "Wissenswerk",
-    "language": "de",
-    "tenant_id": "siebenwind",
-    "description": "Referenztenant fuer den generischen Wissenswerk-Plattformkern."
+    "language": "en",
+    "tenant_id": "example",
+    "description": "Neutral starter tenant for a standalone Wissenswerk installation."
   },
   "paths": {
-    "sources": ["Quellen", "docs/Quellen"],
-    "wiki": "docs/Siebenwind_Wiki",
-    "reports": "Logs/Wissenswerk",
-    "ragprep_imports": ".agent/data/wissenswerk/ragprep_imports",
-    "runtime_state": ".agent/data/wissenswerk/state"
+    "sources": ["corpus"],
+    "wiki": "docs/Wiki",
+    "reports": "reports/wissenswerk",
+    "ragprep_imports": ".wissenswerk/ragprep_imports",
+    "runtime_state": ".wissenswerk/state"
   },
-  "source_precedence": ["Homepage", "Quellen", "Wiki Pages"],
+  "source_precedence": ["Primary Sources", "Derived Notes", "Wiki Pages"],
+  "localization": {
+    "default_locale": "en",
+    "available_locales": ["en"],
+    "tenant_locale": "en",
+    "public_ids_language": "en"
+  },
   "automation": {
     "auto_apply": true,
     "write_reports": true,
@@ -26,13 +32,13 @@
       "kind": "openai-compatible",
       "base_url": "https://api.openai.com/v1",
       "api_key_env": "OPENAI_API_KEY",
-      "model": "gpt-5.4"
+      "model": "gpt-5.2"
     },
     "summary": {
       "kind": "openai-compatible",
       "base_url": "https://api.openai.com/v1",
       "api_key_env": "OPENAI_API_KEY",
-      "model": "gpt-5.4-mini"
+      "model": "gpt-5.2"
     },
     "embedding": {
       "kind": "openai-compatible",
@@ -52,12 +58,37 @@
     "kind": "pgvector",
     "dsn_env": "WISSENSWERK_DATABASE_URL",
     "schema": "wissenswerk",
-    "collection": "siebenwind"
+    "collection": "example"
   },
   "ragprep": {
     "accepted_extensions": [".json", ".jsonl"],
     "required_fields": ["document_id", "chunk_id", "text", "source_path"],
     "optional_fields": ["title", "section", "language", "hash", "entities", "summary"]
+  },
+  "memory": {
+    "default": "markdown-db-hybrid",
+    "facts_authority": ["sources", "wiki", "provenance", "retrieval"],
+    "structured_state": "sqlite-or-postgres",
+    "vector_memory": "pgvector",
+    "optional_providers": {
+      "honcho": {
+        "enabled": false,
+        "api_key_env": "HONCHO_API_KEY",
+        "purpose": "agent and user working memory only; never factual authority"
+      }
+    }
+  },
+  "workflows": {
+    "user_flow": ["init", "ingest", "wiki build", "search", "publish/bot"],
+    "maintainer_flow": ["doctor", "plan", "apply", "audit", "report", "reset/rollback"],
+    "areas": ["project", "corpus", "wiki", "retrieval", "quality", "publish"]
+  },
+  "reset_policy": {
+    "default_mode": "dry-run",
+    "targets": ["memory", "index", "generated", "wiki"],
+    "wipe_targets": ["tenant", "all"],
+    "wipe_all_confirm_token": "WIPE-WISSENSWERK",
+    "protect_sources_by_default": true
   },
   "interop": {
     "platform_independent": true,
@@ -68,10 +99,7 @@
       "project_manifest.json",
       "./wissenswerk.py --help",
       "./wissenswerk.py <command> --json",
-      "./7w_wiki.py --help-json",
-      ".agent/config/tools.json",
-      "mcp_config.json",
-      "./7w_wiki.py mcp"
+      "mcp_config.json"
     ],
     "adapter_policy": {
       "source_of_truth": "canonical_surfaces",
@@ -81,14 +109,12 @@
     }
   },
   "agents": {
-    "roles": ["koordinator", "kurator", "pruefer", "techniker"],
+    "roles": ["coordinator", "curator", "verifier", "maintainer"],
     "protected_core_paths": [
-      "7w_wiki.py",
       "wissenswerk.py",
       "project_manifest.json",
-      ".agent/catalog/",
-      ".agent/config/tools.json",
-      ".agent/scripts/generate_*.py"
+      "DESIGN.md",
+      "AGENTS.md"
     ],
     "low_cost_profile": "summary"
   },

@@ -1,0 +1,6 @@
+{
+  "device": "mps",
+  "batch_size": 4,
+  "benchmark_date": "2026-02-13",
+  "speed": 0.42
+}

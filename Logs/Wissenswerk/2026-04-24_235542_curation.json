@@ -1,0 +1,31 @@
+{
+  "status": "ready",
+  "source_import": ".agent/data/wissenswerk/ragprep_imports/ragprep_import_2026-04-24_181104.json",
+  "workflow": "curate",
+  "chunks_total": 1,
+  "documents_total": 1,
+  "article_candidates": [
+    {
+      "document_id": "sample-doc-001",
+      "title": "Sample RagPrep Document",
+      "source_path": "fixtures/sample.md",
+      "language": "en",
+      "chunks": 1,
+      "summaries": 1,
+      "sections": [
+        "Overview"
+      ],
+      "readiness": "ready",
+      "recommended_action": "wiki build"
+    }
+  ],
+  "conflicts": {
+    "duplicate_chunk_ids": [],
+    "missing_summaries": 0
+  },
+  "next_commands": [
+    "./wissenswerk.py wiki build --apply --json",
+    "./wissenswerk.py search \"<query>\" --source all --json"
+  ],
+  "report_path": ""
+}

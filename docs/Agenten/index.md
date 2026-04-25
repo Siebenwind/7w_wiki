@@ -1,18 +1,21 @@
-# Agenten-Hub
+# Agent and Operations Hub
 
-Technischer Bereich fuer Agentenbetrieb, Workflows und Interoperabilitaet.
+Technical area for platform-independent agent operation, workflows, and interoperability.
 
 ## Schnellstart
 
 ```bash
-./7w_wiki.py start
-./7w_wiki.py advisor
-./7w_wiki.py test --suite clean-client-state
-./7w_wiki.py audit
+./wissenswerk.py doctor --json
+./wissenswerk.py providers check --json
+./wissenswerk.py design lint --json
+./wissenswerk.py hygiene reports --json
+./wissenswerk.py export plan --json
+./7w_wiki.py test --suite wissenswerk-contract --timeout 60
 ```
 
 ## Betriebsbereiche
 
+- [Wissenswerk overview](../Wissenswerk/index.md)
 - [Interop-Leitlinien](interop.md)
 - [Dispatch und Agentenkommunikation](dispatch.md)
 - [Workflow- und Skill-Bruecken](workflows.md)
@@ -20,5 +23,11 @@ Technischer Bereich fuer Agentenbetrieb, Workflows und Interoperabilitaet.
 
 ## Abgrenzung
 
-Diese Sektion ist fuer technische Redaktion und Agentensysteme gedacht.
-Fuer Endnutzerinhalte nutze den [Wiki-Startpunkt](../Siebenwind_Wiki/index.md).
+This section is for technical editors and agent systems.
+
+- Use `./wissenswerk.py` for generic Wissenswerk work.
+- Use `./7w_wiki.py` for legacy Siebenwind operations.
+- Run broad Siebenwind audit/Pages suites only for legacy content, legacy tooling, or published-site changes.
+- Host-specific adapters must derive from the neutral contracts, not define their own behavior.
+
+For reader-facing Siebenwind content, use the [Wiki start page](../Siebenwind_Wiki/index.md).

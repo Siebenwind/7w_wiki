@@ -1,0 +1,50 @@
+============================================================
+  SIEBENWIND WIKI — REGISTER-CHECK
+  Report-ID: 6627efcc-bd23-46d6-83f0-c5dbc963e145
+============================================================
+
+## 1. Duplikate im Personenregister
+  ✅ Keine Duplikate gefunden.
+
+## 2. Verwaiste Profile (Datei ohne Register-Eintrag)
+  ✅ Alle Profile sind registriert.
+
+## 3. Registrierte Personen ohne Profildatei
+  ✅ Alle registrierten Personen haben Profildateien.
+
+## 4. Boten-Lücken (Quellen vorhanden, nicht integriert)
+  ✅ Alle verfügbaren Boten sind integriert.
+
+## 5. Index-Lücken (Dateien vorhanden, nicht in Die_Chronik.md)
+  ✅ Alle Boten-Dateien sind im Index erfasst.
+
+## 6. Source Link Hygiene (MkDocs Strict Risks)
+  ✅ Keine kritischen Source-Link-Muster gefunden.
+
+## 7. Ingestion Tracking & Score Distribution
+  Reports gesamt: 57
+  Mit Kern-Tracking (Quelle + Wer + Wann): 57
+  Mit LQS: 55
+  LQS-Verteilung: 3:1, 4.0:1, 4.2:1, 5:2, 7:6, 8:13, 8.4:1, 9:14, 10:16
+  Profil-Cluster: 5/5/5/4/4:16, 4/4/5/4/4:14, 5/4/5/4/4:14, 4/3/4/3/3:6, 3/2/4/2/3:2
+
+## 8. Deep WikiLink Check (Internal Integrity)
+  ✅ Alle [[WikiLinks]] sind valide.
+
+## 9. Bridge Placeholder Hygiene (Preventive)
+  Gefundene Bridge-/Placeholder-Seiten: 85
+  Mit Ausnahme-Metadaten: 85
+  Ohne Ausnahme-Metadaten: 0
+
+## 10. Content Contract / Drift Prevention
+  Render-Hygiene-Issues: 0
+  Contract-Verletzungen: 0
+  Stubs gesamt / invalid: 41 / 0
+  Bridges gesamt / invalid: 85 / 0
+  Split-Brain-Dateien: 0
+  Inventar: .agent/data/wiki_inventory.json
+
+============================================================
+  ERGEBNIS: 0 Probleme gefunden.
+  🎉 Das Wiki ist konsistent!
+============================================================

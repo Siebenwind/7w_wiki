@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-04-24T16:11:04Z",
+  "chunks": [
+    {
+      "document_id": "sample-doc-001",
+      "chunk_id": "sample-doc-001:0001",
+      "text": "Wissenswerk imports RagPrep chunks and preserves source provenance.",
+      "source_path": "fixtures/sample.md",
+      "title": "Sample RagPrep Document",
+      "section": "Overview",
+      "language": "en",
+      "hash": "sample-hash-001",
+      "entities": [
+        "Wissenswerk",
+        "RagPrep"
+      ],
+      "summary": "A small fixture for the Wissenswerk RagPrep import contract.",
+      "ragprep_file": ".agent/tests/fixtures/ragprep/sample_chunks.json"
+    }
+  ]
+}

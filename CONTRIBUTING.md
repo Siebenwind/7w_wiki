@@ -1,31 +1,50 @@
-# Contributing to Siebenwind Wiki
+# Contributing to Wissenswerk
 
-Thank you for your interest in contributing to the Siebenwind Lore Engine! We welcome contributions from the community to help preserve and expand the world of Siebenwind.
+Wissenswerk is a generic corpus-to-wiki platform. Contributions should keep the core portable, auditable, and independent of any single IDE, model provider, tenant, or document collection.
 
-## 🤝 How to Contribute
+## Contribution Rules
 
-### Reporting Issues
-- Use the **Issue Tracker** to report bugs, inconsistencies in lore, or suggest new features.
-- Please check existing issues before creating a new one to avoid duplicates.
+- Use English public IDs for code, commands, role names, schemas, and package-facing documentation.
+- Keep labels and generated prose localizable through tenant configuration.
+- Treat `./wissenswerk.py`, `wissenswerk.yaml`, `project_manifest.json`, `AGENTS.md`, and `DESIGN.md` as core contracts.
+- Do not add unique semantics to IDE-specific adapters. Agent hosts should consume the same neutral contracts.
+- Keep generated reports, private corpora, local databases, provider credentials, and memory caches out of version control.
 
-### Content Contributions (Lore)
-1.  **Fork the Repository**: Create your own copy of the project.
-2.  **Create a Branch**: Use a descriptive name (e.g., `lore/update-tiefenbach`).
-3.  **Adhere to Style Guide**: Follow the [Wiki Style Guide](Siebenwind_Wiki/00_Fundament/Wiki_Style_Guide.md).
-    - Use Markdown.
-    - Adding metadata header is mandatory.
-4.  **Submit a Pull Request**: Describe your changes clearly.
+## Development Flow
 
-### Technical Contributions (Code)
-- Python scripts are located in the root or `System/` directory.
-- Ensure your code follows PEP 8 standards.
-- Run local tests before submitting.
+```bash
+./wissenswerk.py doctor --json
+./wissenswerk.py providers check --json
+./wissenswerk.py design lint --json
+./wissenswerk.py export plan --strict --json
+./wissenswerk.py test --json
+git diff --check
+```
 
-## 📜 License
-By contributing, you agree that your contributions will be licensed under the project's **Dual License** (MIT for code, CC BY-NC-SA 4.0 for content).
+Use `--json` where available so agents and CI can parse results reliably.
 
-## ⚖️ Canonical Authority
-Please note that all lore changes must be approved by the **Siebenwind Canon Keepers** (Legislative Body) to ensure consistency with the established world history.
+## Public Export Flow
 
----
-*The Siebenwind Chroniclers Guild*
+```bash
+./wissenswerk.py export materialize --target /tmp/wissenswerk-public --apply --json
+./wissenswerk.py export verify --target /tmp/wissenswerk-public --json
+```
+
+The materialized tree must pass its own verification before it is pushed or released.
+
+## Data and Secrets
+
+Never commit provider keys, Discord tokens, database URLs, local databases, pgvector dumps, private RagPrep outputs, local memory caches, or bot session files. Keep small anonymized fixtures under `tests/fixtures/`.
+
+## Pull Requests
+
+Pull requests should include:
+
+- a short summary of behavior changes,
+- verification output or a concise list of commands run,
+- documentation updates for changed public interfaces,
+- explicit notes for migration, reset, wipe, provider, or security implications.
+
+## License
+
+By contributing, you agree that code and documentation contributions are licensed under MIT unless a file states otherwise.

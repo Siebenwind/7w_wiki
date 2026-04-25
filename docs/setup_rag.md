@@ -1,90 +1,106 @@
-# Das Orakel: Setup & Nutzung des RAG Systems
+# Retrieval and Provider Setup
 
-Das "Orakel" ist die semantische Suchmaschine der Siebenwind Lore Engine. Es basiert auf **RAG (Retrieval Augmented Generation)** und ermöglicht es, Fragen an das Wiki zu stellen, statt nur nach Stichworten zu suchen.
+Wissenswerk separates corpus processing, retrieval state, and agent memory.
 
-## 🛠️ Technologie-Stack
-- **Embeddings:** `jinaai/jina-embeddings-v3` (Optimiert für Semantic Search).
-- **Reranker:** `BAAI/bge-reranker-v2-m3` (Präzise Nachsortierung der Ergebnisse).
-- **Vektor-Store:** Lokal (FAISS oder HNSW via `chromadb` / `lancethree` - *Implementierungsabhängig*).
-- **Interface:** CLI (`7w_wiki.py`).
+## Current Split
 
-## 🚀 Installation & Setup
+- `./wissenswerk.py search`: generic search surface; currently lexical bootstrap.
+- Target backend: PostgreSQL + pgvector with OpenAI-compatible embedding and rerank endpoints.
+- Optional local development backends can be added as adapters, but they must not replace the provider contract.
 
-### 1. Umgebung vorbereiten
-Das Orakel benötigt Python 3.10+ und einige schwergewichtige ML-Bibliotheken. Wir empfehlen die Nutzung des bereitgestellten Virtual Environments.
+## Provider Configuration
 
-```bash
-# Im Root-Verzeichnis
-pip install -r requirements.txt
+Providers are configured in `wissenswerk.yaml`:
+
+```json
+{
+  "providers": {
+    "chat": {
+      "kind": "openai-compatible",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "OPENAI_API_KEY",
+      "model": "gpt-5.2"
+    },
+    "summary": {
+      "kind": "openai-compatible",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "OPENAI_API_KEY",
+      "model": "gpt-5.2"
+    },
+    "embedding": {
+      "kind": "openai-compatible",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "OPENAI_API_KEY",
+      "model": "text-embedding-3-large"
+    }
+  }
+}
 ```
 
-### 2. Index initialisieren
-Bevor du suchen kannst, muss das Wissen "gelernt" (indiziert) werden. Dieser Prozess liest alle Markdown-Dateien, chunked sie in Abschnitte und berechnet die Vektoren.
+Check configuration:
 
 ```bash
-# Baut den Index komplett neu auf
-./7w_wiki.py index --rebuild
+./wissenswerk.py providers check --json
 ```
-*Dauer: Je nach Hardware 2-10 Minuten für das gesamte Wiki.*
 
-### 3. Status prüfen
-Überprüfe, ob der Index bereit ist:
+Missing environment variables are reported as runtime status. A provider profile can still be structurally valid.
+
+## Vector Store
+
+The intended default is:
+
+```json
+{
+  "vector_store": {
+    "kind": "pgvector",
+    "dsn_env": "WISSENSWERK_DATABASE_URL",
+    "schema": "wissenswerk",
+    "collection": "example"
+  }
+}
+```
+
+The production implementation should:
+
+1. create schema/table migrations,
+2. store document ID, chunk ID, source path, title, section, language, hash, text, and embedding,
+3. support filtered search by `raw`, `wiki`, and `all`,
+4. expose scores and chunk metadata,
+5. preserve provenance links in answer output.
+
+## RagPrep Import
+
+RagPrep is responsible for parsing, cleanup, and pre-chunking. Wissenswerk imports the artifacts:
 
 ```bash
-./7w_wiki.py index --status
+./wissenswerk.py ingest --from-ragprep <dir> --apply --json
+./wissenswerk.py curate --json
 ```
 
-Der Statuslauf erzeugt zugleich ein zentrales Archivregister mit Fortschritts- und Board-Metriken:
-- `System/Archivregister/ARCHIVREGISTER.md`
-- `System/Archivregister/ARCHIVREGISTER.json`
+Required chunk fields:
 
-Oracle-Defaults koennen zentral in `.agent/config/runtime.json` gesetzt werden:
-- `oracle.device`
-- `oracle.batch_size`
+- `document_id`
+- `chunk_id`
+- `text`
+- `source_path`
 
-Hinweis zur Kompatibilitaet:
-- Lokale Oracle-Datei `.agent/skills/oracle/config.json` bleibt als Legacy-Override aktiv.
+Optional fields:
 
----
+- `title`
+- `section`
+- `language`
+- `hash`
+- `entities`
+- `summary`
 
-## 🔮 Nutzung (The Oracle)
-
-Die Suche erfolgt über das Unified CLI Tool `7w_wiki.py`.
-
-### Einfache Frage
-Stelle eine Frage in natürlicher Sprache.
+## Search
 
 ```bash
-./7w_wiki.py search "Wer gründete den Löwenorden?"
+./wissenswerk.py search "question" --source raw --json
+./wissenswerk.py search "question" --source wiki --json
+./wissenswerk.py search "question" --source all --json
 ```
 
-### Quellen-Filter
-Du kannst die Suche auf bestimmte Bereiche einschränken:
+## Memory Boundary
 
-```bash
-# Nur im offiziellen Wiki suchen (Höchste Kanon-Treue)
-./7w_wiki.py search "Magiegesetze" --source wiki
-
-# Nur in den Quellen suchen (Historische Forschung)
-./7w_wiki.py search "Alte Schlachtberichte" --source quellen
-```
-
-### Historiker-Modus
-Für tiefe Analysen gibt es den Historiker-Modus, der eine breitere Suche durchführt und die Ergebnisse synthetisiert:
-
-```bash
-./7w_wiki.py historian "Die Entwicklung der Magie über die Jahrhunderte"
-```
-
----
-
-## ⚠️ Troubleshooting
-
-**Fehler: `No module named 'torch'`**
-Stelle sicher, dass du das Virtual Environment aktiviert hast oder die Requirements installiert sind.
-
-**Fehler: `Index not found`**
-Führe `./7w_wiki.py index --rebuild` aus.
-
-**Falsche Ergebnisse?**
-Die Qualität hängt von der Granularität der Wiki-Artikel ab. Lange, unstrukturierte Texte sind schwerer zu durchsuchen. Nutze den `/audit` Workflow, um die Struktur zu verbessern.
+Optional memory systems may be used for user or agent working memory. They must not become factual authority. Facts come from source corpus, wiki pages, provenance, and retrieval indexes.

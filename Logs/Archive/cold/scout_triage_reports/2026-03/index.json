@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-04-09T13:36:05Z",
+  "entries": [
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/SCOUT_TRIAGE_2026-03-17_154105.json",
+      "cold_path": "Logs/Archive/cold/scout_triage_reports/2026-03/SCOUT_TRIAGE_2026-03-17_154105.json",
+      "family": "scout_triage_reports"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/SCOUT_TRIAGE_2026-03-17_164308.json",
+      "cold_path": "Logs/Archive/cold/scout_triage_reports/2026-03/SCOUT_TRIAGE_2026-03-17_164308.json",
+      "family": "scout_triage_reports"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/SCOUT_TRIAGE_2026-03-18_180245.json",
+      "cold_path": "Logs/Archive/cold/scout_triage_reports/2026-03/SCOUT_TRIAGE_2026-03-18_180245.json",
+      "family": "scout_triage_reports"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/SCOUT_TRIAGE_2026-03-18_181217.json",
+      "cold_path": "Logs/Archive/cold/scout_triage_reports/2026-03/SCOUT_TRIAGE_2026-03-18_181217.json",
+      "family": "scout_triage_reports"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/SCOUT_TRIAGE_2026-03-21_183114.json",
+      "cold_path": "Logs/Archive/cold/scout_triage_reports/2026-03/SCOUT_TRIAGE_2026-03-21_183114.json",
+      "family": "scout_triage_reports"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/SCOUT_TRIAGE_2026-03-21_201926.json",
+      "cold_path": "Logs/Archive/cold/scout_triage_reports/2026-03/SCOUT_TRIAGE_2026-03-21_201926.json",
+      "family": "scout_triage_reports"
+    },
+    {
+      "archived_at": "2026-04-09T13:36:05Z",
+      "original_path": "Logs/Archive/SCOUT_TRIAGE_2026-03-23_164348.json",
+      "cold_path": "Logs/Archive/cold/scout_triage_reports/2026-03/SCOUT_TRIAGE_2026-03-23_164348.json",
+      "family": "scout_triage_reports"
+    }
+  ]
+}

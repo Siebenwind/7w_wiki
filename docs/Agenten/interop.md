@@ -1,68 +1,54 @@
-# Interop-Leitlinien
+# Interop Guidelines
 
-Ziel: Einheitliches Verhalten zwischen Codex und anderen MCP-faehigen IDEs/CLIs bei unveraenderter Runtime-Oberflaeche.
+Goal: consistent behavior across Codex, MCP-capable IDEs/CLIs, and future agent hosts without making any host-specific adapter authoritative.
 
-## Kernregeln
+## Core Rules
 
-1. Runtime authority: Ausfuehrung nur ueber `./7w_wiki.py`.
-2. Orchestrierung bleibt in `.agent/` autoritativ.
-3. Externe Discoverability folgt einem Layer-Modell: MCP ist die Live-Schnittstelle, `.agents/skills/` plus `.codex/config.toml` sind der Codex-Adapter.
-4. `lore_manifest.json` bleibt als generierte AI-agnostische Kompatibilitaetsflaeche erhalten.
-5. Keine Semantik-Aenderung von Workflows ohne dokumentierte Governance-Entscheidung.
+1. Generic Wissenswerk operations run through `./wissenswerk.py`.
+2. Legacy Siebenwind operations run through `./7w_wiki.py`.
+3. Platform-neutral contracts come first: `AGENTS.md`, `DESIGN.md`, `wissenswerk.yaml`, `project_manifest.json`, JSON CLI output, tool manifests, and MCP.
+4. IDE-specific files such as `.agents/skills/` and `.codex/config.toml` are generated adapters.
+5. `project_manifest.json` is the generic product manifest; `lore_manifest.json` is a legacy Siebenwind compatibility surface.
 
-## Layer-Modell
+## Layer Model
 
-- Kanonischer Kern: `.agent/` + `./7w_wiki.py`
-- Offene Laufzeitoberflaeche: MCP
-- Kompatibilitaetsmanifest: `lore_manifest.json`
-- Codex-Adapter: `.agents/skills/` + `.codex/config.toml`
-- Discovery-only Zukunftsflaeche: `docs/.well-known/agent.json`
+- Wissenswerk core: `./wissenswerk.py`, `wissenswerk.yaml`, `project_manifest.json`, `AGENTS.md`, `DESIGN.md`.
+- Legacy core: `.agent/` plus `./7w_wiki.py`.
+- Open runtime surface: JSON CLI and MCP.
+- Tool discovery: `.agent/config/tools.json`, `.agent/catalog/catalog.v1.json`.
+- Host adapters: `.agents/skills/`, `.codex/config.toml`, future Gemini/Cursor/Aider/Jules adapters.
 
-Codex bekommt keine repo-definierten Slash-Kommandos. Stattdessen verweisen die generierten Adapter-Skills auf die autoritativen Workflows und Skills in `.agent/` und auf die korrekten CLI-Kommandos.
-
-## Repo-Hygiene
-
-- `docs/Siebenwind_Wiki/` ist der einzige aktive technische Wiki-Baum.
-- Das Wurzelverzeichnis `Siebenwind_Wiki/` ist retired; nur der publizierte URL-Segmentname bleibt bestehen.
-- `docs/assets/` ist die Live-Asset-Surface fuer publizierte Artefakte und production-only.
-- Entwurfs- und Proposal-Dateien liegen unter `System/Design_Assets/`.
-- Historische Evidenz und Snapshot-Familien werden ueber `./7w_wiki.py tech --repo-hygiene [--apply] [--json]` in kalte Buckets verschoben.
-- Build-Ausgaben (`site/`, `dist/`) und Laufzeitmassen (Caches, Modelle, venvs) sind keine Repo-Wahrheit.
-
-## Pflichtchecks
+## Required Checks
 
 ```bash
-./7w_wiki.py test --suite clean-client-state
-./7w_wiki.py test --suite takeover-handover
-./7w_wiki.py test --suite interop-doc-links
-./7w_wiki.py test --suite repo-hygiene-contract
-./7w_wiki.py test --suite manifest-contract
-./7w_wiki.py test --suite root-tree-retirement-contract
-./7w_wiki.py test --suite styling-surface-contract
-./7w_wiki.py test --suite pages-contract-mode-contract
-./7w_wiki.py audit
+python3 -m py_compile wissenswerk.py
+./wissenswerk.py doctor --json
+./wissenswerk.py hygiene reports --json
+./wissenswerk.py export plan --json
+./7w_wiki.py test --suite wissenswerk-contract --timeout 60
+git diff --check
 ```
 
-## Codex-Adapter
+When interop contracts changed, add:
 
-Aktuelle Einstiegspunkte:
+```bash
+./7w_wiki.py test --suite interop-command-registry --timeout 60
+./7w_wiki.py test --suite manifest-contract --timeout 60
+./7w_wiki.py test --suite tool-manifest-contract --timeout 60
+```
 
-- `session_start`
-- `session_takeover`
-- `session_handover`
-- `workflow_tech_master`
-- `workflow_test_run`
-- `workflow_forum_search`
+Legacy `audit`, Pages validation, full MkDocs builds, and source/content/render suites are not default checks for Wissenswerk-only work. They belong to Siebenwind tenant or legacy tooling changes.
 
-Antigravity bleibt nur noch als deprecated CLI-Alias zu `/start` erhalten.
+## Runtime and State Hygiene
 
-Forum-Discovery bleibt zweistufig:
+- Runtime state, local DBs, provider secrets, pgvector dumps, bot sessions, and private RagPrep outputs are not repository truth.
+- Use `./wissenswerk.py reset ... --dry-run --json` for Wissenswerk state planning.
+- Use `./7w_wiki.py tech --repo-hygiene [--apply] [--json]` for legacy hot/cold/runtime/build classification.
 
-- `/scout`: breiter Discovery-Einstieg fuer Homepage, News und Reconnaissance
-- `/forum_search`: gezielte Forenquellensuche ueber `./7w_wiki.py scout --forum ...`
+## Canonical Sources
 
-## Kanonische Quellen
-
+- `AGENTS.md`
+- `DESIGN.md`
 - `System/Synapse_Board/SY_INTEROP.md`
 - `System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md`
-- `AGENTS.md`
+- `System/AGENT_OPERATIONS_HANDBOOK.md`

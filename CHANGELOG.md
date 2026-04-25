@@ -1,5 +1,71 @@
 # Changelog
 
+#### [2026-04-24.06] - Wissenswerk Verifikationsgrenze dokumentiert
+### Prioritaet: P1
+### Geändert
+- `AGENTS.md`, `System/AGENT_OPERATIONS_HANDBOOK.md`, `README.md`, `CONTRIBUTING.md`, `docs/Wissenswerk/cleanup.md`, `docs/Wissenswerk/cli.md` und Agenten-Doku: Wissenswerk-only Gate explizit von breiten Siebenwind-Legacy-Pruefungen getrennt.
+- Dokumentiert: Full MkDocs build, Pages-Validierung, Lore-Audit, Source-/Content-/Render-Suiten sind keine Standardpruefung fuer Public-Wissenswerk-Export oder Cleanup-Arbeit; sie gelten nur bei Legacy-Tenant-, Legacy-Tooling- oder publizierten Site-Aenderungen.
+### Fokusgate
+- `python3 -m py_compile wissenswerk.py`
+- `./wissenswerk.py doctor --json`
+- `./wissenswerk.py hygiene reports --json`
+- `./wissenswerk.py export plan --json`
+- `./7w_wiki.py test --suite wissenswerk-contract --timeout 60`
+- `git diff --check`
+
+#### [2026-04-24.03] - Wissenswerk Branch-First Konsolidierung
+### Prioritaet: P1
+### Hinzugefügt
+- `./wissenswerk.py curate`, `doctor`, `reset` und `wipe`: neue generische CLI-Flaechen fuer Artikelkandidaten, Plattformdiagnose, dry-run-first Reset und geschuetzten Tenant-Wipe.
+- `wissenswerk_export_manifest.json`: Branch-first Extraktionsvertrag fuer ein spaeteres eigenstaendiges Wissenswerk-Repository ohne Siebenwind-Tenant im ersten Public-Core.
+### Geändert
+- `wissenswerk.yaml` und `project_manifest.json`: oeffentliche Rollen-IDs auf `coordinator`, `curator`, `verifier`, `maintainer` gehoben; Lokalisierung, Memory-Hybrid, Reset-Policy, Workflow-Bereiche und Honcho als optionaler Nicht-Fakten-Memory-Adapter dokumentiert.
+- `README.md`, `CONTRIBUTING.md`, `AGENTS.md` und `System/AGENT_OPERATIONS_HANDBOOK.md`: Produktfokus von Siebenwind-Legacy auf Wissenswerk-Kern, Branch-First-Strategie und plattformunabhaengige Bedienung umgestellt.
+- `System/Synapse_Board/SY_INTEROP.md` und `System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md`: Runtime-Inventare um `wissenswerk` und den generischen Kern ergaenzt.
+- `.gitignore`: Secrets, lokale DBs, pgvector/Postgres-Dumps, private RagPrep-Ausgaben, Bot-Sessions und Wissenswerk-Runtime-State ergaenzt.
+- `.agent/tests/suites/wissenswerk-contract.json`: Contract-Smokes fuer Doctor, Curate, Reset/Wipe und Extraktionsmanifest erweitert.
+### Validiert
+- `python3 -m py_compile wissenswerk.py`
+- `./wissenswerk.py doctor --json`
+- `./7w_wiki.py wissenswerk ingest --from-ragprep .agent/tests/fixtures/ragprep --apply --json`
+- `./wissenswerk.py curate --json`
+- `./7w_wiki.py test --suite wissenswerk-contract --timeout 60`
+- `./7w_wiki.py test --suite interop-command-registry --timeout 60`
+- `./7w_wiki.py test --suite manifest-contract --timeout 60`
+- `./7w_wiki.py test --suite tool-manifest-contract --timeout 60`
+- `./7w_wiki.py test --suite clean-client-state --timeout 60`
+- `./7w_wiki.py audit --json` (`issues_found = 0`)
+
+#### [2026-04-24.05] - Wissenswerk Cleanup- und Exportgate
+### Prioritaet: P1
+### Hinzugefügt
+- `./wissenswerk.py hygiene reports --json`: maschinenlesbare Inventur von Report-, Dispatch-, Archiv- und Runtime-Ballast.
+- `./wissenswerk.py export plan --json`: trockener Public-Repo-Exportplan auf Basis von `wissenswerk_export_manifest.json`.
+- `docs/Wissenswerk/cleanup.md`, `discord-bot.md`, `agent-system-hermes.md`, `positioning.md`: Dossiers fuer Branch-Cleanup, Bot-Zielbild, Hermes-/Agentensystem und Produktpositionierung.
+### Geändert
+- `wissenswerk_export_manifest.json`: Report-Policy und explizite Excludes fuer Legacy-Reports, Dispatch, Archivregister, Runtime-State und Siebenwind-Tenantdaten ergaenzt.
+- `README.md`, `CONTRIBUTING.md`, `System/AGENT_OPERATIONS_HANDBOOK.md`, `mkdocs.yml`: Cleanup-/Exportgate in den Standardablauf aufgenommen.
+### Befund
+- `hygiene reports` zeigt aktuell 1885 Dateien / 133 MB in relevanten Legacy-Reportflaechen, davon 445 tracked, plus 95 OPEN Dispatch-Nachrichten. Diese Flaechen bleiben im Siebenwind-Referenzbranch, sind aber aus dem Public-Wissenswerk-Export ausgeschlossen.
+
+#### [2026-04-24.04] - Wissenswerk Dokumentation nachgezogen
+### Prioritaet: P1
+### Hinzugefügt
+- `docs/Wissenswerk/index.md`, `architecture.md`, `cli.md` und `retrieval.md`: eigene technische Wissenswerk-Doku fuer Produktueberblick, Architektur, CLI/Operations, Retrieval, RagPrep-Grenze und Memory-Policy.
+### Geändert
+- `docs/architecture.md` und `docs/setup_rag.md`: von Siebenwind-only auf Wissenswerk-Kern plus Legacy-Abgrenzung umgeschrieben.
+- `docs/Agenten/index.md`, `docs/Agenten/interop.md` und `docs/Agenten/workflows.md`: plattformneutrale Agenten-, Rollen- und Workflow-Regeln nachgezogen.
+- `docs/index.md` und `mkdocs.yml`: Wissenswerk-Doku in den technischen Einstieg und die Navigation aufgenommen.
+- `System/COORDINATION_HUB.md`: neue Wissenswerk-Dokumentationsseiten registriert.
+### Validiert
+- `./7w_wiki.py test --suite interop-doc-links --timeout 60`
+- `./7w_wiki.py test --suite wissenswerk-contract --timeout 60`
+- `./7w_wiki.py pages validate --contract --json` (`status = WARN`, bekannter Siebenwind-Linkbacklog; `drift_status = PASS`)
+- `.venv/bin/mkdocs build -f mkdocs.yml --clean`
+- `./7w_wiki.py test --suite pages-full-smoke --timeout 120`
+- `./7w_wiki.py pages validate --json` (`status = WARN`, Build Exitcode 0, bekannter Linkbacklog)
+- `git diff --check`
+
 #### [2026-04-24.02] - Wissenswerk Interop plattformneutral nachgezogen
 ### Prioritaet: P1
 ### Geändert

@@ -1,0 +1,17 @@
+{
+  "status": "empty",
+  "source_import": "",
+  "workflow": "curate",
+  "chunks_total": 0,
+  "documents_total": 0,
+  "article_candidates": [],
+  "conflicts": {
+    "duplicate_chunk_ids": [],
+    "missing_summaries": 0
+  },
+  "next_commands": [
+    "./wissenswerk.py wiki build --apply --json",
+    "./wissenswerk.py search \"<query>\" --source all --json"
+  ],
+  "report_path": ""
+}

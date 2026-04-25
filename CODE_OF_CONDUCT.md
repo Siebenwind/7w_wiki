@@ -24,7 +24,7 @@ Examples of unacceptable behavior include:
 This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces.
 
 ## Enforcement
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [Siebenwind Governance Body]. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported through the project's security or maintainer contact channels. All complaints will be reviewed and investigated promptly and fairly.
 
 ---
 *Based on the Contributor Covenant, version 2.1*

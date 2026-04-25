@@ -41,6 +41,7 @@ Zweck: Abgleich zwischen historisch gewachsenen Slash-Workflows und tatsaechlich
 - `leitpunkt`
 - `stats`
 - `mcp`
+- `wissenswerk`
 <!-- END GENERATED RUNTIME COMMANDS -->
 
 ## Adaptermatrix

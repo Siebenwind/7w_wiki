@@ -1,0 +1,112 @@
+{
+  "activity": {
+    "changed_files_30d": 1270,
+    "changed_files_7d": 839,
+    "changed_files_90d": 1344,
+    "commits_30d": 3,
+    "new_files_30d": 0
+  },
+  "content_contract": {
+    "epistemic_precedence": [
+      "homepage",
+      "sources",
+      "wiki"
+    ],
+    "homepage_url": "https://www.siebenwind.de/",
+    "inventory_path": ".agent/data/wiki_inventory.json",
+    "technical_wiki_root": "docs/Siebenwind_Wiki/"
+  },
+  "epistemic_distribution": {
+    "bote": 589,
+    "canon": 137,
+    "news": 1,
+    "perspektive": 102,
+    "ueberlieferung": 107,
+    "unbekannt": 420
+  },
+  "files_per_category": {
+    "00_Fundament": 286,
+    "01_Pantheon": 52,
+    "02_Geografie": 57,
+    "03_Gesellschaft": 53,
+    "03_Wissen": 54,
+    "04_Chronik": 83,
+    "04_Wesenheiten": 1,
+    "05_Geschichte": 58,
+    "05_Magie": 41,
+    "06_Erzählungen": 13,
+    "06_Geschichte": 1,
+    "06_Myten_und_Legenden": 2,
+    "07_Persoenlichkeiten": 586,
+    "08_Bestiarium": 33,
+    "09_Bibliothek": 28,
+    "10_Archiv": 7,
+    "Root": 1
+  },
+  "generated_at_utc": "2026-04-03T15:51:00Z",
+  "latest_tests": [],
+  "links_per_category": {
+    "00_Fundament": 1787,
+    "01_Pantheon": 641,
+    "02_Geografie": 576,
+    "03_Gesellschaft": 823,
+    "03_Wissen": 701,
+    "04_Chronik": 2730,
+    "04_Wesenheiten": 1,
+    "05_Geschichte": 959,
+    "05_Magie": 472,
+    "06_Erzählungen": 165,
+    "06_Geschichte": 1,
+    "06_Myten_und_Legenden": 18,
+    "07_Persoenlichkeiten": 4059,
+    "08_Bestiarium": 291,
+    "09_Bibliothek": 382,
+    "10_Archiv": 56,
+    "Root": 1
+  },
+  "ops_progress": {
+    "bridge_total": 86,
+    "bridge_without_exception": 86,
+    "failing_suites": 0,
+    "latest_audit_file": "Logs/Archive/Audit_439d186c-721a-44d2-a66b-a5a6c62fe5a6.txt",
+    "latest_audit_problems": 173,
+    "passing_suites": 0,
+    "previous_audit_file": "Logs/Archive/Audit_46e6b4a1-4f62-4313-b6f3-820ce115c444.txt",
+    "previous_audit_problems": 173
+  },
+  "quality": {
+    "files_with_frontmatter": 1356,
+    "files_with_resolved_quelle": 433,
+    "tracking_reports_complete": 55,
+    "tracking_reports_total": 55,
+    "tracking_reports_with_lqs": 53,
+    "unclarified_markers_total": 257
+  },
+  "reader_metrics": {
+    "articles": 1356,
+    "avg_links_per_article": 10.1,
+    "avg_words_per_article": 138,
+    "links": 13663,
+    "personalities": 586,
+    "words": 187115
+  },
+  "words_per_category": {
+    "00_Fundament": 17735,
+    "01_Pantheon": 21314,
+    "02_Geografie": 6920,
+    "03_Gesellschaft": 10858,
+    "03_Wissen": 14472,
+    "04_Chronik": 22441,
+    "04_Wesenheiten": 12,
+    "05_Geschichte": 10352,
+    "05_Magie": 11342,
+    "06_Erzählungen": 4238,
+    "06_Geschichte": 12,
+    "06_Myten_und_Legenden": 227,
+    "07_Persoenlichkeiten": 54297,
+    "08_Bestiarium": 5781,
+    "09_Bibliothek": 6083,
+    "10_Archiv": 748,
+    "Root": 283
+  }
+}

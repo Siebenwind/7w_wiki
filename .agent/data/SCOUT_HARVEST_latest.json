@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-03-24T15:01:01Z",
+  "source_root": "docs/Quellen",
+  "summary": {
+    "board": "geschichten",
+    "board_type": "stories",
+    "forum_id": 27,
+    "pages_scanned": 1,
+    "scan_error_count": 1,
+    "topics_seen": 1
+  },
+  "topics": [
+    {
+      "board": "geschichten",
+      "board_type": "stories",
+      "board_type_confidence": "high",
+      "date": "date_unknown",
+      "date_confidence": "low",
+      "forum_id": 27,
+      "raw_date": "",
+      "scan_error": true,
+      "title": "[SCAN_ERROR] <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "topic_id": "scan_error",
+      "url": "http://schnellerwind.mind.de/Foren/phpBB3/viewforum.php?f=27&start=0"
+    }
+  ]
+}

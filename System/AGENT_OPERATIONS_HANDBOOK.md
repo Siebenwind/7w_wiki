@@ -10,13 +10,13 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 
 ## Betriebsinvarianten
 
-1. Runtime Authority: Ausfuehrung nur ueber `./7w_wiki.py`.
-2. Orchestrierung bleibt in `.agent/` autoritativ.
-3. Discoverability fuer externe Hosts folgt dem Layer-Modell: `.agent/` plus `./7w_wiki.py` sind kanonisch; MCP ist die Live-Schnittstelle; `.agents/skills/` plus `.codex/config.toml` bilden den Codex-Adapter.
+1. Runtime Authority: Generische Wissenswerk-Operationen laufen ueber `./wissenswerk.py`; Legacy-Siebenwind-Operationen laufen weiter ueber `./7w_wiki.py`.
+2. Orchestrierung bleibt plattformneutral: `AGENTS.md`, `DESIGN.md`, `wissenswerk.yaml`, `project_manifest.json`, JSON-CLI, Tool-Manifest und MCP sind die kanonischen Vertraege.
+3. Discoverability fuer externe Hosts folgt dem Layer-Modell: Host-spezifische Adapter wie `.agents/skills/` plus `.codex/config.toml` werden aus neutralen Vertraegen abgeleitet und duerfen keine eigene Semantik enthalten.
 4. Governance-Dokumente bleiben in `System/` und `System/Synapse_Board/`.
 5. Neue Systemdokumente muessen in `System/COORDINATION_HUB.md` registriert werden.
 6. Epistemische Praezedenz ist `Homepage > Quellen > Wiki Pages`; die volle Drift-/Pages-Regel steht in [SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
-7. `lore_manifest.json` ist eine generierte Kompatibilitaetsoberflaeche, nicht die Quelle der Wahrheit.
+7. `project_manifest.json` ist das generische Wissenswerk-Produktmanifest; `lore_manifest.json` ist eine generierte Siebenwind-Kompatibilitaetsoberflaeche, nicht die Quelle der Wahrheit.
 
 <!-- BEGIN GENERATED DRIFT CONTRACT REFERENCE -->
 > Generated reference block. The surrounding narrative text remains manually maintained.
@@ -34,13 +34,18 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 
 | Pfad | Rolle | Autoritaet |
 |---|---|---|
-| `7w_wiki.py` | Einziger Runtime-Einstieg | Ja |
-| `.agent/workflows/` | Methodische SOPs und Department-Loops | Ja |
-| `.agent/instructions/` | Persona- und Rollenlogik | Ja |
+| `wissenswerk.py` | Generischer Wissenswerk Runtime-Einstieg | Ja |
+| `7w_wiki.py` | Legacy-Siebenwind Runtime und Kompatibilitaetsbruecke | Kompatibilitaet |
+| `wissenswerk.yaml` | Tenant-, Provider-, Workflow-, Reset- und Lokalisierungsvertrag | Ja |
+| `project_manifest.json` | Generisches Produktmanifest | Ja |
+| `DESIGN.md` | UI-/Dokumentationsdesignvertrag | Ja |
+| `.agent/workflows/` | Legacy-SOPs und Tenant-/Maintainer-Loops | Legacy/Adapter |
+| `.agent/instructions/` | Legacy-Personae; neue Kernrollen sind coordinator/curator/verifier/maintainer | Legacy/Adapter |
 | `.agent/scripts/` | Implementierte Backing-Skripte hinter CLI-Kommandos | Ja |
 | `.agent/skills/` | Fachlogik (z. B. Oracle, Lektor) | Ja |
 | `.agent/catalog/` | Neutraler Discovery-Katalog fuer Skills, Workflows und Surfaces | Ja |
-| `lore_manifest.json` | Generiertes, AI-agnostisches Kompatibilitaetsmanifest | Kompatibilitaet |
+| `lore_manifest.json` | Generiertes Siebenwind-Kompatibilitaetsmanifest | Kompatibilitaet |
+| `wissenswerk_export_manifest.json` | Branch-first Extraktionsvertrag fuer das spaetere Standalone-Repo | Ja |
 | `.agents/skills/` | Codex-native Adapter-Surface (abgeleitet aus dem Katalog) | Adapter |
 | `.codex/config.toml` | Projektweite Codex-Verdrahtung auf MCP und Adapter-Skills | Adapter |
 | `System/Synapse_Board/` | Governance, Interop-Normen, Dispatch-Standards | Ja |
@@ -51,15 +56,43 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 
 ## Standard-Arbeitszyklus
 
-1. Orientieren: `./7w_wiki.py start` und `./7w_wiki.py advisor`.
+1. Orientieren: `./7w_wiki.py start`, `./7w_wiki.py advisor --json` und fuer den generischen Kern `./wissenswerk.py doctor --json`.
 2. Planen: `MASTER_TASK_LIST.md`, `task.md`, offene Dispatch-Nachrichten.
-3. Umsetzen: Nur ueber CLI-Kommandos aus `7w_wiki.py`.
+3. Umsetzen: Generische Operationen ueber `wissenswerk.py`; Legacy-Siebenwind-Operationen ueber `7w_wiki.py`.
    Drift zuerst klassifizieren: technischer Drift (Layout, Links, Split-Brain, Generatoren) vs. epistemischer Drift (Homepage/Quellen widersprechen Wiki-Pages). Fuer den verbindlichen Volltext gilt [SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
-   Repo-Hygiene, Retention und kalte Evidenzbuckets laufen ueber `./7w_wiki.py tech --repo-hygiene`.
-4. Validieren: Mindestens `./7w_wiki.py audit`, bei Dokuaenderungen auch `check`, `stats`, `archive sync`.
+   Repo-Hygiene, Retention und kalte Evidenzbuckets laufen ueber `./7w_wiki.py tech --repo-hygiene`; Wissenswerk-State laeuft ueber `./wissenswerk.py reset ... --dry-run --json` oder `./wissenswerk.py wipe ... --dry-run --json`. Vor Public-Repo-Arbeit immer `./wissenswerk.py hygiene reports --json` und `./wissenswerk.py export plan --json` pruefen.
+4. Validieren: Fuer Wissenswerk-only Arbeit gilt der fokussierte Gate: `python3 -m py_compile wissenswerk.py`, `./wissenswerk.py doctor --json`, `./wissenswerk.py hygiene reports --json`, `./wissenswerk.py export plan --json`, `./7w_wiki.py test --suite wissenswerk-contract --timeout 60` und `git diff --check`. Bei geaenderten Vertraegen oder Navigationsdateien zusaetzlich `manifest-contract`, `interop-command-registry` und `interop-doc-links`. Legacy-Siebenwind-Pruefungen wie `audit`, `pages validate`, `pages-full-smoke`, `stats` und `archive sync` nur ausfuehren, wenn Legacy-Inhalt, Legacy-Tooling oder die publizierte Siebenwind-Seite beruehrt wurde.
 5. Dokumentieren: `CHANGELOG.md`, Boards, Register- und Doku-Updates.
 
 **Automatisierung**: Markierungen wie `// turbo` sind methodische Host-Hinweise. `7w_wiki.py start|takeover|handover` zeigen standardmaessig die Workflows an; erst `--run` startet die jeweilige Checkliste, `--resume` setzt sie fort.
+
+## Wissenswerk 2.0 Kernprozess
+
+Nutzerfluss:
+
+1. `./wissenswerk.py init --json`
+2. `./wissenswerk.py ingest --from-ragprep <dir> --apply --json`
+3. `./wissenswerk.py curate --json`
+4. `./wissenswerk.py wiki build --apply --json`
+5. `./wissenswerk.py search "<query>" --source raw|wiki|all --json`
+6. `./wissenswerk.py bot discord --json`
+
+Maintainerfluss:
+
+1. `./wissenswerk.py doctor --json`
+2. `./wissenswerk.py providers check --json`
+3. `./wissenswerk.py design lint --json`
+4. `./wissenswerk.py hygiene reports --json`
+5. `./wissenswerk.py export plan --json`
+6. `./wissenswerk.py reset <memory|index|generated|wiki> --dry-run --json`
+7. `./wissenswerk.py wipe <tenant|all> --dry-run --json`
+
+Kernrollen:
+
+- `coordinator`: Run-Planung, Reports, Delegation, menschliche Eskalation.
+- `curator`: Korpus-Inventar, RagPrep-Import, Artikelplanung, Quellenzuordnung.
+- `verifier`: Belege, Konflikte, Link-/Provenance-Pruefung, Audit.
+- `maintainer`: Core-Code, Provider, Migrationen, Tests, Releases.
 
 ## Runtime Commands
 
@@ -94,6 +127,7 @@ Zweck: Zentrale Uebersicht fuer den operativen Betrieb von Agenten, Skills und W
 - `leitpunkt`
 - `stats`
 - `mcp`
+- `wissenswerk`
 <!-- END GENERATED RUNTIME COMMAND LIST -->
 
 ## Maintainer-Leitpunkt (Menschliche Steuerung)

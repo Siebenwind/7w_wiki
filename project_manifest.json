@@ -2,10 +2,9 @@
   "schema_version": "wissenswerk-manifest.v1",
   "product": "Wissenswerk",
   "generated_from": "wissenswerk.yaml",
-  "reference_tenant": "siebenwind",
+  "branch_strategy": "standalone",
+  "reference_tenant": "example",
   "compatibility": {
-    "legacy_manifest": "lore_manifest.json",
-    "legacy_cli": "./7w_wiki.py",
     "new_cli": "./wissenswerk.py"
   },
   "contracts": {
@@ -15,52 +14,53 @@
   },
   "platform_independence": {
     "status": "required",
-    "principle": "Wissenswerk is specified through open repository contracts, CLI JSON, tool manifests, and MCP. IDE-specific files are generated adapters only.",
+    "principle": "Wissenswerk is specified through open repository contracts, CLI JSON, tool manifests, and MCP-compatible adapters. IDE-specific files are generated adapters only.",
     "canonical_surfaces": [
       "AGENTS.md",
       "DESIGN.md",
       "wissenswerk.yaml",
       "project_manifest.json",
       "./wissenswerk.py",
-      "./7w_wiki.py --help-json",
-      ".agent/config/tools.json",
-      "mcp_config.json"
+      "./wissenswerk.py <command> --json"
     ],
-    "adapter_surfaces": {
-      "codex": [".agents/skills/", ".codex/config.toml"],
-      "future": ["jules", "gemini-cli", "cursor", "aider", "github-copilot", "zed"]
-    },
     "host_specific_semantics_allowed": false
   },
   "capabilities": {
     "ragprep_import": "Import pre-chunked corpora without duplicating parsing logic.",
-    "retrieval": "PostgreSQL pgvector default with legacy Chroma adapter retained for Siebenwind.",
+    "retrieval": "PostgreSQL pgvector default with OpenAI-compatible embedding endpoints.",
     "providers": "OpenAI-compatible chat, summary, embedding, and rerank profiles.",
     "automation": "Auto-apply wiki generation with reports, provenance, and rollback hints.",
-    "bot": "Discord adapter over the same Orakel/search interface."
+    "curation": "Generate article candidates, conflicts, and next actions from imported RagPrep chunks.",
+    "doctor": "Run platform-neutral contract, provider, design, and hygiene checks.",
+    "export_plan": "Dry-run the standalone repository export manifest and report publishability warnings.",
+    "reset_wipe": "Dry-run-first reset and wipe planning for memory, indexes, generated state, wiki output, and tenant state.",
+    "bot": "Discord adapter over the same Retriever/search interface."
+  },
+  "memory": {
+    "default": "markdown-db-hybrid",
+    "structured_state": "sqlite-or-postgres",
+    "retrieval_state": "pgvector",
+    "optional_provider": "honcho",
+    "rule": "facts come from sources, wiki, provenance, and retrieval; chat history and optional memory providers are not factual authority"
+  },
+  "localization": {
+    "public_ids_language": "en",
+    "default_locale": "en",
+    "tenant_locale_configurable": true
   },
   "generic_roles": [
-    "koordinator",
-    "kurator",
-    "pruefer",
-    "techniker"
-  ],
-  "tenant_bound_terms": [
-    "Siebenwind",
-    "Lore",
-    "Bote",
-    "Kanon",
-    "Sonnenzirkel",
-    "Forum",
-    "Historian"
+    "coordinator",
+    "curator",
+    "verifier",
+    "maintainer"
   ],
   "core_terms": [
-    "Korpus",
-    "Quelle",
-    "Artikel",
-    "Beleg",
-    "Konflikt",
-    "Kuratierung",
-    "Pruefung"
+    "corpus",
+    "source",
+    "article",
+    "citation",
+    "conflict",
+    "curation",
+    "verification"
   ]
 }

@@ -55,7 +55,7 @@ Jeder Agent soll ohne Vorwissen sofort erkennen:
 - Technische Pfadautoritaet ist nicht gleich epistemische Autoritaet.
 
 ## Norm 2: Ausfuehrbarkeit vs. Methodik
-- Nur Befehle, die in `7w_wiki.py` via `add_parser(...)` existieren, gelten als **runtime-executable**.
+- Legacy-Befehle, die in `7w_wiki.py` via `add_parser(...)` existieren, gelten fuer Siebenwind als **runtime-executable**. Generische Wissenswerk-Befehle laufen ueber `wissenswerk.py` und die Bridge `7w_wiki.py wissenswerk ...`.
 - Workflows ohne CLI-Entsprechung muessen als **methodisch** markiert werden.
 - Jeder Department-Workflow enthaelt am Anfang einen Block:
   - `runtime_commands:` (real existierende Befehle)
@@ -105,6 +105,7 @@ Die operative Kommandoliste lautet aktuell:
 - `leitpunkt`
 - `stats`
 - `mcp`
+- `wissenswerk`
 <!-- END GENERATED RUNTIME COMMAND LIST -->
 
 
@@ -158,7 +159,8 @@ Nicht existente, aber als Pflicht benannte Dateien sind als **interop blocker** 
 - Sonderfall `scout`: Die Discovery-Prominenz ist eine bewusste Produktentscheidung, aber der Backend-Pfad bleibt trotzdem `.agent/scripts/forum_scanner.py`.
 
 ## Norm 9: Canonical Core + Adapter Surfaces
-- `.agent/` plus `./7w_wiki.py` bilden den kanonischen Kern.
+- `./wissenswerk.py`, `wissenswerk.yaml`, `project_manifest.json`, `AGENTS.md` und `DESIGN.md` bilden den generischen Wissenswerk-Kern.
+- `.agent/` plus `./7w_wiki.py` bilden den Legacy-Siebenwind-Kern und die Kompatibilitaetsbruecke.
 - MCP ist die kanonische Live-Schnittstelle fuer externe Agenten und IDEs.
 - Codex bekommt keine repo-definierten Slash-Kommandos; stattdessen werden `.agents/skills/` und `.codex/config.toml` als abgeleitete Adapterflaeche gepflegt.
 - `.agent/catalog/catalog.v1.json` ist die neutrale Discovery-Oberflaeche fuer Adapter und Tools.

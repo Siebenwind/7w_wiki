@@ -1,81 +1,63 @@
-# System-Architektur und Prinzipien
+# System Architecture
 
-Das Siebenwind Wiki ist ein strukturiertes Archivsystem zur Konsolidierung von Rollenspiel-Lore. Es kombiniert manuelle Dokumentation mit automatisierter Konsistenzpruefung, offenen Maschinenoberflaechen und einem konservativen Erhaltungsprinzip fuer historische Arbeitsspuren.
+Wissenswerk compiles prepared document corpora into an auditable Markdown wiki.
 
-## 1. Verfassungsmodell (Trias Politica)
+```text
+RagPrep artifacts -> ingest -> curate -> wiki build -> search/bot/API
+```
 
-Das System trennt Verantwortung bewusst, damit Agenten nicht zugleich Gesetzgeber, Richter und Vollstrecker werden.
+## Canonical Surfaces
 
-### Legislative (Nutzer/Kanon)
-*Die definierende Instanz.*
-- Legt Kanon, Prioritaeten und kreative Richtungsentscheidungen fest.
-- Ist die letzte Instanz fuer echte Kontroversen und Kanonbrueche.
+- `./wissenswerk.py`
+- `wissenswerk.yaml`
+- `project_manifest.json`
+- `wissenswerk_export_manifest.json`
+- `AGENTS.md`
+- `DESIGN.md`
 
-### Judikative (Pruefskripte)
-*Die ueberwachende Instanz.*
-- Prueft Register, Links, Drift, Pages-Integritaet und Runtime-Vertraege.
-- Liefert Beweise und Defect-Signale, trifft aber keine kreativen Weltentscheidungen.
+The public core uses English IDs for roles, commands, schemas, and APIs. Labels and generated prose can be localized by tenant configuration.
 
-### Exekutive (Agenten)
-*Die ausfuehrende Instanz.*
-- Fuehrt Ingestion, Pflege, Strukturreparaturen und Interop-Arbeit aus.
-- Muss Unsicherheit explizit markieren, statt sie mit vermeintlicher Sicherheit zu ueberschreiben.
-
-## 2. Offene Laufzeitschichten
-
-Die Architektur ist bewusst host-agnostisch:
-
-- Kanonischer Kern: `.agent/` plus `./7w_wiki.py`
-- Offene Laufzeit: MCP via `./7w_wiki.py mcp`
-- Neutrale Discovery: `.agent/catalog/catalog.v1.json`
-- Kompatibilitaetsoberflaeche: `lore_manifest.json`
-- Codex-Adapter: `.agents/skills/` plus `.codex/config.toml`
-
-Folgerung: IDE-spezifische Oberflaechen sind abgeleitet, nicht autoritativ. Die Runtime-Semantik darf nur im Kern definiert werden.
-
-## 3. Der Wisdom Loop (Weisheits-Kreislauf)
-
-Der Prozess der Wissensgenerierung ist zyklisch, nicht linear.
+## Knowledge Compiler Loop
 
 ```mermaid
 graph TD
-    A[Quellen / Rohdaten] -->|Ingestion Protocol| B(Lore Extraktion)
-    B -->|Audit & Check| C{Wahrheits-Prüfung}
-    C -->|Canon| D[Wiki-Kern / Fundament]
-    C -->|Widerspruch| E[Lore Research Board]
-    E -->|Entscheidung| C
-    D -->|Semantic Search| F[Das Orakel]
-    F -->|Antwort| G[Endnutzer / Agenten]
-    G -->|Feedback| A
+    A[Document corpus] -->|RagPrep| B[Pre-chunked artifacts]
+    B -->|ingest| C[Import state and provenance]
+    C -->|curate| D[Article candidates and conflicts]
+    D -->|wiki build| E[Markdown wiki]
+    C -->|index| F[pgvector retrieval]
+    E -->|search| G[Retriever interface]
+    F -->|search| G
+    G -->|answer/source links| H[CLI, bot, future API]
+    D -->|audit/report| I[Maintainer feedback]
 ```
 
-1.  **Ingestion:** Rohdaten (Boten, Logs) werden strukturiert aufgenommen.
-2.  **Extraktion:** Fakten werden isoliert und in Kontext gesetzt.
-3.  **Wahrheits-Prüfung (Judikative):** Widerspricht das Neue dem Alten?
-4.  **Integration:** Das Wissen wird Teil des Fundaments.
-5.  **Abruf (Orakel):** Das Wissen steht sofort via Vektorsuche zur Verfügung.
+## Responsibility Split
 
----
+| Responsibility | Owner |
+|---|---|
+| Runtime CLI | `wissenswerk.py` |
+| Tenant config | `wissenswerk.yaml` |
+| Product manifest | `project_manifest.json` |
+| Agent contract | `AGENTS.md` |
+| Design contract | `DESIGN.md` |
+| Retrieval target | PostgreSQL + pgvector |
+| Corpus preparation | RagPrep |
 
-## 4. Eskalationsstufen
-Wir arbeiten nach dem Prinzip der minimal notwendigen Bürokratie.
+## Platform Independence
 
-- **Level 1: Standard-Exekution** (Routineaufgaben, klare Quellen).
-- **Level 2: Kontrollierte Exekution** (Zusammenführung widersprüchlicher Quellen).
-- **Level 3: Judizieller Prozess** (Unklarer Kanon, User-Intervention nötig -> Synapse Board).
+Wissenswerk is specified through open repository contracts and machine-readable command output. IDE-specific files are adapters, not authorities.
 
-## 5. Persistenz und Heiss/Kalt-Grenzen
+Agents and tools should prefer:
 
-Siebenwind ist ein Archivsystem, kein Wegwerf-Workspace. Deshalb gilt:
+- `AGENTS.md`
+- `DESIGN.md`
+- `./wissenswerk.py ... --json`
+- `project_manifest.json`
+- future MCP/tool manifests
 
-- Relevante Resultate werden persistiert, nicht nur im Chat genannt.
-- Aktive Wahrheiten bleiben im heissen Baum leicht auffindbar.
-- Massenhafte Snapshots, Audits und Repair-Reports wandern in kalte Buckets, nicht in Vergessenheit.
-- Build-Ausgaben, Caches, Modelle und Scratch-State sind lokale Runtime-Masse, nicht Repo-Wahrheit.
+## State and Persistence
 
-## 6. Technische Prinzipien
-- **Single Runtime Authority:** Ausfuehrung nur ueber `./7w_wiki.py`.
-- **Machine-readable First:** CLI-JSON, Katalog und MCP gehen vor manuell geparster Ausgabe.
-- **Explicit Uncertainty:** `[UNGEKLAERT]` und question-first Eskalation schlagen Halluzination und stilles Ueberschreiben.
-- **Link-Dichte:** Wir streben eine hohe Vernetzung (>50 Links / 1k Worte) an.
-- **Atomare Commits:** Aenderungen werden logisch getrennt.
+Facts are derived from sources, wiki pages, provenance, and retrieval indexes. Session memory, chat logs, and optional memory providers can improve continuity, but they are not factual authority.
+
+Runtime state, local DB files, private RagPrep outputs, bot sessions, and provider secrets are ignored by git.
