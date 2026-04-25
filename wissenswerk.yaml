@@ -12,7 +12,8 @@
     "wiki": "docs/Wiki",
     "reports": "reports/wissenswerk",
     "ragprep_imports": ".wissenswerk/ragprep_imports",
-    "runtime_state": ".wissenswerk/state"
+    "runtime_state": ".wissenswerk/state",
+    "tasks": ".wissenswerk/tasks"
   },
   "source_precedence": ["Primary Sources", "Derived Notes", "Wiki Pages"],
   "localization": {
@@ -110,6 +111,13 @@
   },
   "agents": {
     "roles": ["coordinator", "curator", "verifier", "maintainer"],
+    "signals": {
+      "enabled": true,
+      "store": ".wissenswerk/tasks/tasks.sqlite",
+      "active_markdown": ".wissenswerk/tasks/active",
+      "facts_authority": false,
+      "raise_only_for": ["anomaly", "blocker", "handoff", "approval", "audit_finding", "run_event"]
+    },
     "protected_core_paths": [
       "wissenswerk.py",
       "project_manifest.json",

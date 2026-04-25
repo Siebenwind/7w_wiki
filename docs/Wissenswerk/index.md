@@ -52,6 +52,7 @@ Tenant-specific display names can be localized.
 - [Architecture](architecture.md)
 - [CLI and Operations](cli.md)
 - [Retrieval and Memory](retrieval.md)
+- [Signals and Tasks](signals-tasks.md)
 - [Publication Readiness](publication-readiness.md)
 - [Discord Bot](discord-bot.md)
 - [Agent System Integration](agent-system-hermes.md)

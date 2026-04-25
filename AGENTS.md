@@ -50,6 +50,19 @@ doctor -> plan -> apply -> audit -> report -> reset/rollback
 6. Keep tenant-specific terms in tenant configuration or tenant packs, not in generic core code.
 7. Before UI, theme, or documentation-design changes, read `DESIGN.md` and run the design lint gate.
 
+## Signals & Tasks
+
+Signals are for coordination exceptions, not chat and not facts. Use `./wissenswerk.py task ... --json` when work needs another decision unit:
+
+- raise `anomaly` when input, provenance, or generated output looks suspicious but is not an immediate blocker.
+- raise `blocker` when the current workflow cannot continue safely.
+- raise `handoff` when another role must own the next step.
+- raise `approval` before destructive, expensive, external, or protected operations.
+- raise `audit_finding` when validation finds missing citations, schema violations, or provenance gaps.
+- raise `run_event` only for meaningful long-running status changes.
+
+Read `./wissenswerk.py task digest --json` at the start of larger runs. Do not copy `.wissenswerk/tasks/` into public docs; durable human decisions belong in curated documentation.
+
 ## Focused Verification
 
 Run this gate for standalone Wissenswerk changes:

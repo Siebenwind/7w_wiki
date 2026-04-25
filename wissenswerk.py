@@ -2,15 +2,17 @@
 from __future__ import annotations
 
 import argparse
+import contextlib
 import hashlib
 import json
 import os
 import re
 import shutil
+import sqlite3
 import subprocess
 import sys
 import uuid
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -19,6 +21,11 @@ DEFAULT_CONFIG = REPO_ROOT / "wissenswerk.yaml"
 DEFAULT_DESIGN = REPO_ROOT / "DESIGN.md"
 DEFAULT_MANIFEST = REPO_ROOT / "project_manifest.json"
 DEFAULT_EXPORT_MANIFEST = REPO_ROOT / "wissenswerk_export_manifest.json"
+TASK_TYPES = {"anomaly", "blocker", "handoff", "approval", "audit_finding", "run_event"}
+TASK_SEVERITIES = {"low", "medium", "high", "critical"}
+TASK_STATUSES = {"submitted", "working", "input-required", "auth-required", "completed", "failed", "canceled", "rejected"}
+TASK_TERMINAL_STATUSES = {"completed", "failed", "canceled", "rejected"}
+TASK_ROLES = {"coordinator", "curator", "verifier", "maintainer"}
 
 
 def now_iso() -> str:
@@ -63,6 +70,11 @@ def ensure_dir(path: Path) -> None:
     path.mkdir(parents=True, exist_ok=True)
 
 
+def task_root(config: dict[str, Any]) -> Path:
+    paths = config.get("paths", {})
+    return repo_path(paths.get("tasks", ".wissenswerk/tasks"))
+
+
 def write_report(config: dict[str, Any], name: str, payload: dict[str, Any]) -> Path:
     reports_dir = repo_path(config.get("paths", {}).get("reports", "reports/wissenswerk"))
     ensure_dir(reports_dir)
@@ -70,6 +82,318 @@ def write_report(config: dict[str, Any], name: str, payload: dict[str, Any]) -> 
     report_path = reports_dir / f"{stamp}_{name}.json"
     report_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return report_path
+
+
+def json_dumps_compact(value: Any) -> str:
+    return json.dumps(value, ensure_ascii=False, separators=(",", ":"))
+
+
+def parse_json_field(value: str | None, fallback: Any) -> Any:
+    if not value:
+        return fallback
+    try:
+        return json.loads(value)
+    except json.JSONDecodeError:
+        return fallback
+
+
+class TaskStore:
+    """Small local task store for agent coordination; never a factual authority."""
+
+    def __init__(self, root: Path):
+        self.root = root
+        self.active_dir = root / "active"
+        self.db_path = root / "tasks.sqlite"
+
+    def connect(self) -> sqlite3.Connection:
+        ensure_dir(self.root)
+        ensure_dir(self.active_dir)
+        conn = sqlite3.connect(self.db_path)
+        conn.row_factory = sqlite3.Row
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS tasks (
+              id TEXT PRIMARY KEY,
+              type TEXT NOT NULL,
+              severity TEXT NOT NULL,
+              status TEXT NOT NULL,
+              role TEXT NOT NULL,
+              summary TEXT NOT NULL,
+              evidence_json TEXT NOT NULL,
+              dedupe_key TEXT,
+              created_by TEXT NOT NULL,
+              claimed_by TEXT,
+              created_at TEXT NOT NULL,
+              updated_at TEXT NOT NULL,
+              artifacts_json TEXT NOT NULL,
+              ttl_days INTEGER NOT NULL,
+              parent_id TEXT,
+              repeat_count INTEGER NOT NULL DEFAULT 1,
+              last_evidence_json TEXT NOT NULL,
+              resolution TEXT
+            )
+            """
+        )
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_tasks_status ON tasks(status)")
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_tasks_dedupe ON tasks(dedupe_key)")
+        conn.execute("CREATE INDEX IF NOT EXISTS idx_tasks_updated ON tasks(updated_at)")
+        conn.commit()
+        return conn
+
+    def next_id(self, conn: sqlite3.Connection) -> str:
+        year = datetime.now(timezone.utc).year
+        prefix = f"TASK-{year}-"
+        row = conn.execute("SELECT id FROM tasks WHERE id LIKE ? ORDER BY id DESC LIMIT 1", (f"{prefix}%",)).fetchone()
+        if not row:
+            return f"{prefix}0001"
+        try:
+            number = int(str(row["id"]).rsplit("-", 1)[1]) + 1
+        except (IndexError, ValueError):
+            number = 1
+        return f"{prefix}{number:04d}"
+
+    def row_to_task(self, row: sqlite3.Row) -> dict[str, Any]:
+        return {
+            "id": row["id"],
+            "type": row["type"],
+            "severity": row["severity"],
+            "status": row["status"],
+            "role": row["role"],
+            "summary": row["summary"],
+            "evidence": parse_json_field(row["evidence_json"], []),
+            "dedupe_key": row["dedupe_key"] or "",
+            "created_by": row["created_by"],
+            "claimed_by": row["claimed_by"] or None,
+            "created_at": row["created_at"],
+            "updated_at": row["updated_at"],
+            "artifacts": parse_json_field(row["artifacts_json"], []),
+            "ttl_days": int(row["ttl_days"]),
+            "parent_id": row["parent_id"] or None,
+            "repeat_count": int(row["repeat_count"]),
+            "last_evidence": parse_json_field(row["last_evidence_json"], []),
+            "resolution": row["resolution"] or "",
+        }
+
+    def get(self, task_id: str) -> dict[str, Any] | None:
+        with contextlib.closing(self.connect()) as conn:
+            row = conn.execute("SELECT * FROM tasks WHERE id = ?", (task_id,)).fetchone()
+            return self.row_to_task(row) if row else None
+
+    def list(self, status: str | None = None) -> list[dict[str, Any]]:
+        with contextlib.closing(self.connect()) as conn:
+            if status:
+                rows = conn.execute("SELECT * FROM tasks WHERE status = ? ORDER BY updated_at DESC, id DESC", (status,)).fetchall()
+            else:
+                rows = conn.execute("SELECT * FROM tasks ORDER BY updated_at DESC, id DESC").fetchall()
+            return [self.row_to_task(row) for row in rows]
+
+    def raise_signal(
+        self,
+        *,
+        task_type: str,
+        severity: str,
+        summary: str,
+        role: str = "coordinator",
+        evidence: list[str] | None = None,
+        dedupe_key: str = "",
+        created_by: str = "agent",
+        artifacts: list[str] | None = None,
+        ttl_days: int = 30,
+        parent_id: str | None = None,
+    ) -> dict[str, Any]:
+        if task_type not in TASK_TYPES:
+            raise ValueError(f"Unsupported task type: {task_type}")
+        if severity not in TASK_SEVERITIES:
+            raise ValueError(f"Unsupported task severity: {severity}")
+        if role not in TASK_ROLES:
+            raise ValueError(f"Unsupported task role: {role}")
+        evidence = evidence or []
+        artifacts = artifacts or []
+        timestamp = now_iso()
+        with contextlib.closing(self.connect()) as conn:
+            if dedupe_key:
+                row = conn.execute(
+                    "SELECT * FROM tasks WHERE dedupe_key = ? AND status NOT IN ('completed','failed','canceled','rejected') ORDER BY updated_at DESC LIMIT 1",
+                    (dedupe_key,),
+                ).fetchone()
+                if row:
+                    repeat_count = int(row["repeat_count"]) + 1
+                    conn.execute(
+                        """
+                        UPDATE tasks
+                        SET summary = ?, severity = ?, role = ?, evidence_json = ?, last_evidence_json = ?,
+                            updated_at = ?, repeat_count = ?
+                        WHERE id = ?
+                        """,
+                        (
+                            summary,
+                            severity,
+                            role,
+                            json_dumps_compact(evidence),
+                            json_dumps_compact(evidence),
+                            timestamp,
+                            repeat_count,
+                            row["id"],
+                        ),
+                    )
+                    conn.commit()
+                    task = self.get(str(row["id"]))
+                    if task:
+                        self.write_active_markdown(task)
+                        return {"status": "deduped", "task": task}
+            task_id = self.next_id(conn)
+            conn.execute(
+                """
+                INSERT INTO tasks (
+                  id, type, severity, status, role, summary, evidence_json, dedupe_key,
+                  created_by, claimed_by, created_at, updated_at, artifacts_json, ttl_days,
+                  parent_id, repeat_count, last_evidence_json, resolution
+                )
+                VALUES (?, ?, ?, 'submitted', ?, ?, ?, ?, ?, NULL, ?, ?, ?, ?, ?, 1, ?, NULL)
+                """,
+                (
+                    task_id,
+                    task_type,
+                    severity,
+                    role,
+                    summary,
+                    json_dumps_compact(evidence),
+                    dedupe_key or None,
+                    created_by,
+                    timestamp,
+                    timestamp,
+                    json_dumps_compact(artifacts),
+                    ttl_days,
+                    parent_id,
+                    json_dumps_compact(evidence),
+                ),
+            )
+            conn.commit()
+        task = self.get(task_id)
+        if not task:
+            raise RuntimeError(f"Task was not created: {task_id}")
+        self.write_active_markdown(task)
+        return {"status": "created", "task": task}
+
+    def transition(self, task_id: str, *, status: str, summary: str = "", claimed_by: str | None = None) -> dict[str, Any]:
+        if status not in TASK_STATUSES:
+            raise ValueError(f"Unsupported task status: {status}")
+        with contextlib.closing(self.connect()) as conn:
+            row = conn.execute("SELECT * FROM tasks WHERE id = ?", (task_id,)).fetchone()
+            if not row:
+                raise KeyError(task_id)
+            current = str(row["status"])
+            if current in TASK_TERMINAL_STATUSES:
+                raise ValueError(f"Task {task_id} is terminal: {current}")
+            timestamp = now_iso()
+            resolution = summary if status in TASK_TERMINAL_STATUSES else row["resolution"]
+            claimer = claimed_by if claimed_by is not None else row["claimed_by"]
+            conn.execute(
+                "UPDATE tasks SET status = ?, claimed_by = ?, updated_at = ?, resolution = ? WHERE id = ?",
+                (status, claimer, timestamp, resolution, task_id),
+            )
+            conn.commit()
+        task = self.get(task_id)
+        if not task:
+            raise KeyError(task_id)
+        if status in TASK_TERMINAL_STATUSES:
+            self.remove_active_markdown(task_id)
+        else:
+            self.write_active_markdown(task)
+        return task
+
+    def claim(self, task_id: str, agent: str) -> dict[str, Any]:
+        if agent not in TASK_ROLES:
+            raise ValueError(f"Unsupported agent role: {agent}")
+        return self.transition(task_id, status="working", claimed_by=agent)
+
+    def resolve(self, task_id: str, summary: str) -> dict[str, Any]:
+        return self.transition(task_id, status="completed", summary=summary)
+
+    def reject(self, task_id: str, reason: str) -> dict[str, Any]:
+        return self.transition(task_id, status="rejected", summary=reason)
+
+    def status_counts(self) -> dict[str, int]:
+        with contextlib.closing(self.connect()) as conn:
+            rows = conn.execute("SELECT status, COUNT(*) AS count FROM tasks GROUP BY status").fetchall()
+            return {str(row["status"]): int(row["count"]) for row in rows}
+
+    def blocking_tasks(self) -> list[dict[str, Any]]:
+        tasks = self.list()
+        return [
+            task
+            for task in tasks
+            if task["status"] not in TASK_TERMINAL_STATUSES
+            and (task["severity"] == "critical" or task["type"] == "approval" or task["status"] in {"input-required", "auth-required"})
+        ]
+
+    def digest(self, since: datetime) -> dict[str, Any]:
+        tasks = self.list()
+        open_tasks = [task for task in tasks if task["status"] not in TASK_TERMINAL_STATUSES]
+        new_tasks = [task for task in tasks if parse_task_time(task["created_at"]) >= since]
+        return {
+            "status": "ok",
+            "generated_at": now_iso(),
+            "since": since.replace(microsecond=0).isoformat().replace("+00:00", "Z"),
+            "counts": self.status_counts(),
+            "open": open_tasks,
+            "blocking": self.blocking_tasks(),
+            "new": new_tasks,
+        }
+
+    def write_active_markdown(self, task: dict[str, Any]) -> None:
+        if task["status"] in TASK_TERMINAL_STATUSES:
+            self.remove_active_markdown(task["id"])
+            return
+        ensure_dir(self.active_dir)
+        path = self.active_dir / f"{task['id']}.md"
+        lines = [
+            "---",
+            f"id: {task['id']}",
+            f"type: {task['type']}",
+            f"severity: {task['severity']}",
+            f"status: {task['status']}",
+            f"role: {task['role']}",
+            f"created_at: {task['created_at']}",
+            f"updated_at: {task['updated_at']}",
+            "---",
+            "",
+            f"# {task['id']}: {task['summary']}",
+            "",
+            f"- Created by: `{task['created_by']}`",
+            f"- Claimed by: `{task['claimed_by'] or '[unclaimed]'}`",
+            f"- Dedupe key: `{task['dedupe_key'] or '[none]'}`",
+            f"- Repeat count: {task['repeat_count']}",
+            "",
+            "## Evidence",
+            "",
+        ]
+        evidence = task.get("evidence", [])
+        lines.extend(f"- `{item}`" for item in evidence or ["[none]"])
+        path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    def remove_active_markdown(self, task_id: str) -> None:
+        path = self.active_dir / f"{task_id}.md"
+        if path.exists():
+            path.unlink()
+
+
+def parse_task_time(value: str) -> datetime:
+    return datetime.fromisoformat(value.replace("Z", "+00:00"))
+
+
+def parse_since(value: str) -> datetime:
+    match = re.fullmatch(r"(\d+)([hdw])", value.strip())
+    if match:
+        amount = int(match.group(1))
+        unit = match.group(2)
+        delta = {"h": timedelta(hours=amount), "d": timedelta(days=amount), "w": timedelta(weeks=amount)}[unit]
+        return datetime.now(timezone.utc) - delta
+    return parse_task_time(value)
+
+
+def default_task_store(config: dict[str, Any]) -> TaskStore:
+    return TaskStore(task_root(config))
 
 
 def default_config_payload() -> dict[str, Any]:
@@ -87,6 +411,7 @@ def default_config_payload() -> dict[str, Any]:
             "reports": "reports/wissenswerk",
             "ragprep_imports": ".wissenswerk/ragprep_imports",
             "runtime_state": ".wissenswerk/state",
+            "tasks": ".wissenswerk/tasks",
         },
         "source_precedence": ["Primary Sources", "Derived Notes", "Wiki Pages"],
         "localization": {
@@ -207,6 +532,146 @@ def print_provider_status(payload: dict[str, Any]) -> None:
     vector = payload["vector_store"]
     env = "present" if vector["env_present"] else "missing"
     print(f"- vector_store: {vector['kind']} schema={vector['schema']} ({env})")
+
+
+def task_payload(status: str, task: dict[str, Any] | None = None, **extra: Any) -> dict[str, Any]:
+    payload: dict[str, Any] = {"status": status}
+    if task is not None:
+        payload["task"] = task
+    payload.update(extra)
+    return payload
+
+
+def command_task_raise(args: argparse.Namespace) -> int:
+    config = load_config(repo_path(args.config))
+    try:
+        result = default_task_store(config).raise_signal(
+            task_type=args.type,
+            severity=args.severity,
+            summary=args.summary,
+            role=args.role,
+            evidence=args.evidence,
+            dedupe_key=args.dedupe_key,
+            created_by=args.created_by,
+            artifacts=args.artifact,
+            ttl_days=args.ttl_days,
+            parent_id=args.parent_id or None,
+        )
+    except ValueError as exc:
+        payload = {"status": "fail", "error": str(exc)}
+        json_print(payload) if args.json else print(payload["error"])
+        return 2
+    json_print(result) if args.json else print(f"{result['status']}: {result['task']['id']}")
+    return 0
+
+
+def command_task_list(args: argparse.Namespace) -> int:
+    config = load_config(repo_path(args.config))
+    tasks = default_task_store(config).list(args.status)
+    payload = {"status": "ok", "tasks": tasks, "count": len(tasks)}
+    json_print(payload) if args.json else print_task_list(payload)
+    return 0
+
+
+def command_task_show(args: argparse.Namespace) -> int:
+    config = load_config(repo_path(args.config))
+    task = default_task_store(config).get(args.id)
+    if not task:
+        payload = {"status": "not_found", "id": args.id}
+        json_print(payload) if args.json else print(f"Task not found: {args.id}")
+        return 1
+    payload = {"status": "ok", "task": task}
+    json_print(payload) if args.json else print_task(task)
+    return 0
+
+
+def command_task_claim(args: argparse.Namespace) -> int:
+    config = load_config(repo_path(args.config))
+    try:
+        task = default_task_store(config).claim(args.id, args.agent)
+    except (KeyError, ValueError) as exc:
+        payload = {"status": "fail", "error": str(exc), "id": args.id}
+        json_print(payload) if args.json else print(payload["error"])
+        return 2
+    payload = task_payload("claimed", task)
+    json_print(payload) if args.json else print(f"claimed: {task['id']}")
+    return 0
+
+
+def command_task_resolve(args: argparse.Namespace) -> int:
+    config = load_config(repo_path(args.config))
+    try:
+        task = default_task_store(config).resolve(args.id, args.summary)
+    except (KeyError, ValueError) as exc:
+        payload = {"status": "fail", "error": str(exc), "id": args.id}
+        json_print(payload) if args.json else print(payload["error"])
+        return 2
+    payload = task_payload("resolved", task)
+    json_print(payload) if args.json else print(f"resolved: {task['id']}")
+    return 0
+
+
+def command_task_reject(args: argparse.Namespace) -> int:
+    config = load_config(repo_path(args.config))
+    try:
+        task = default_task_store(config).reject(args.id, args.reason)
+    except (KeyError, ValueError) as exc:
+        payload = {"status": "fail", "error": str(exc), "id": args.id}
+        json_print(payload) if args.json else print(payload["error"])
+        return 2
+    payload = task_payload("rejected", task)
+    json_print(payload) if args.json else print(f"rejected: {task['id']}")
+    return 0
+
+
+def command_task_digest(args: argparse.Namespace) -> int:
+    config = load_config(repo_path(args.config))
+    try:
+        since = parse_since(args.since)
+    except ValueError as exc:
+        payload = {"status": "fail", "error": f"Invalid --since value: {exc}"}
+        json_print(payload) if args.json else print(payload["error"])
+        return 2
+    payload = default_task_store(config).digest(since)
+    json_print(payload) if args.json else print_task_digest(payload)
+    return 0
+
+
+def command_run_status(args: argparse.Namespace) -> int:
+    config = load_config(repo_path(args.config))
+    store = default_task_store(config)
+    payload = {
+        "status": "ok",
+        "generated_at": now_iso(),
+        "task_store": rel(store.db_path),
+        "counts": store.status_counts(),
+        "blocking": store.blocking_tasks(),
+        "facts_authority": ["sources", "wiki", "provenance", "retrieval"],
+    }
+    json_print(payload) if args.json else print_run_status(payload)
+    return 0
+
+
+def print_task(task: dict[str, Any]) -> None:
+    print(f"{task['id']} [{task['status']}] {task['severity']} {task['type']}: {task['summary']}")
+
+
+def print_task_list(payload: dict[str, Any]) -> None:
+    print(f"Wissenswerk tasks: {payload['count']}")
+    for task in payload["tasks"]:
+        print_task(task)
+
+
+def print_task_digest(payload: dict[str, Any]) -> None:
+    print(f"Wissenswerk task digest: {len(payload['open'])} open, {len(payload['blocking'])} blocking")
+    for task in payload["blocking"]:
+        print_task(task)
+
+
+def print_run_status(payload: dict[str, Any]) -> None:
+    print("Wissenswerk run status: ok")
+    print(f"- task store: {payload['task_store']}")
+    print(f"- blocking tasks: {len(payload['blocking'])}")
 
 
 def parse_design_file(path: Path) -> tuple[dict[str, Any], str]:
@@ -440,6 +905,22 @@ def command_ingest(args: argparse.Namespace) -> int:
     raw_records = iter_ragprep_records(import_dir)
     chunks = [normalize_chunk(record, config.get("project", {}).get("language", "de")) for record in raw_records]
     findings = validate_chunks(chunks)
+    task_events = []
+    if findings:
+        store = default_task_store(config)
+        for finding in findings:
+            missing = ",".join(finding.get("missing", []))
+            chunk_id = str(finding.get("chunk_id") or f"index-{finding.get('index', 0)}")
+            result = store.raise_signal(
+                task_type="audit_finding",
+                severity="high",
+                role="curator",
+                summary=f"RagPrep chunk {chunk_id} is missing required field(s): {missing}",
+                evidence=[rel(import_dir)],
+                dedupe_key=f"ragprep:missing-required:{chunk_id}:{missing}",
+                created_by="ingest",
+            )
+            task_events.append({"trigger": "ragprep_validation", **result})
     status = "fail" if findings else "ready"
     payload = {
         "status": status,
@@ -449,6 +930,7 @@ def command_ingest(args: argparse.Namespace) -> int:
         "documents_total": len({chunk["document_id"] for chunk in chunks if chunk.get("document_id")}),
         "validation_findings": findings,
         "vector_store": config.get("vector_store", {}),
+        "tasks": task_events,
         "report_path": "",
         "written": [],
     }
@@ -520,6 +1002,20 @@ def command_curate(args: argparse.Namespace) -> int:
                 "recommended_action": "wiki build" if doc["chunks"] else "inspect source",
             }
         )
+    task_events = []
+    if duplicate_chunk_ids:
+        store = default_task_store(config)
+        for chunk_id in sorted(duplicate_chunk_ids):
+            result = store.raise_signal(
+                task_type="anomaly",
+                severity="medium",
+                role="curator",
+                summary=f"Duplicate RagPrep chunk id detected during curation: {chunk_id}",
+                evidence=[rel(state_path) if state_path else ""],
+                dedupe_key=f"curate:duplicate-chunk:{chunk_id}",
+                created_by="curate",
+            )
+            task_events.append({"trigger": "duplicate_chunk_id", **result})
     payload = {
         "status": "ready" if chunks else "empty",
         "source_import": rel(state_path) if state_path else "",
@@ -531,6 +1027,7 @@ def command_curate(args: argparse.Namespace) -> int:
             "duplicate_chunk_ids": sorted(duplicate_chunk_ids),
             "missing_summaries": sum(1 for chunk in chunks if isinstance(chunk, dict) and not chunk.get("summary")),
         },
+        "tasks": task_events,
         "next_commands": [
             "./wissenswerk.py wiki build --apply --json",
             "./wissenswerk.py search \"<query>\" --source all --json",
@@ -570,11 +1067,29 @@ def command_wiki_build(args: argparse.Namespace) -> int:
         "source_import": rel(state_path) if state_path else "",
         "documents_seen": len({str(chunk.get("document_id", "")) for chunk in chunks if isinstance(chunk, dict)}),
         "report_path": "",
+        "tasks": [],
         "written": [],
         "rollback_hint": "Revert the files listed in `written` and remove the report for this run.",
     }
     if args.apply:
         if chunks:
+            missing_source_chunks = [
+                str(chunk.get("chunk_id") or chunk.get("document_id") or "unknown")
+                for chunk in chunks
+                if isinstance(chunk, dict) and not chunk.get("source_path")
+            ]
+            if missing_source_chunks:
+                store = default_task_store(config)
+                result = store.raise_signal(
+                    task_type="audit_finding",
+                    severity="high",
+                    role="verifier",
+                    summary=f"Wiki build encountered chunks without source_path: {', '.join(missing_source_chunks[:5])}",
+                    evidence=[rel(state_path) if state_path else rel(wiki_root)],
+                    dedupe_key="wiki-build:missing-source-path:" + hashlib.sha256(",".join(sorted(missing_source_chunks)).encode("utf-8")).hexdigest()[:16],
+                    created_by="wiki-build",
+                )
+                payload["tasks"].append({"trigger": "missing_source_path", **result})
             grouped: dict[str, list[dict[str, Any]]] = {}
             for chunk in chunks:
                 if isinstance(chunk, dict):
@@ -617,6 +1132,16 @@ def command_wiki_build(args: argparse.Namespace) -> int:
                 )
                 payload["written"].append(rel(article_path))
         else:
+            result = default_task_store(config).raise_signal(
+                task_type="anomaly",
+                severity="low",
+                role="curator",
+                summary="Wiki build ran without RagPrep import state; generated only a platform status page.",
+                evidence=[rel(wiki_root)],
+                dedupe_key="wiki-build:no-import-state",
+                created_by="wiki-build",
+            )
+            payload["tasks"].append({"trigger": "no_import_state", **result})
             report_md = wiki_root / "Wissenswerk_Platform_Status.md"
             ensure_dir(report_md.parent)
             report_md.write_text(
@@ -727,6 +1252,22 @@ def command_doctor(args: argparse.Namespace) -> int:
             "missing": missing_patterns,
         }
     )
+    try:
+        store = default_task_store(config)
+        with contextlib.closing(store.connect()):
+            pass
+        blocking_tasks = store.blocking_tasks()
+        checks.append(
+            {
+                "name": "tasks:coordination-state",
+                "status": "warn" if blocking_tasks else "pass",
+                "store": rel(store.db_path),
+                "blocking": len(blocking_tasks),
+                "blocking_task_ids": [task["id"] for task in blocking_tasks],
+            }
+        )
+    except (OSError, sqlite3.Error) as exc:
+        checks.append({"name": "tasks:coordination-state", "status": "fail", "error": str(exc)})
     failures = [check for check in checks if check["status"] == "fail"]
     warnings = [check for check in checks if check["status"] == "warn"]
     payload = {
@@ -793,11 +1334,6 @@ def report_hygiene_inventory() -> dict[str, Any]:
             "publish_policy": "exclude_from_public_wissenswerk",
         },
         {
-            "path": "System/Synapse_Board/DISPATCH",
-            "classification": "legacy_dispatch_queue",
-            "publish_policy": "exclude_from_public_wissenswerk",
-        },
-        {
             "path": "System/Archivregister",
             "classification": "legacy_archive_index",
             "publish_policy": "exclude_from_public_wissenswerk",
@@ -840,15 +1376,6 @@ def report_hygiene_inventory() -> dict[str, Any]:
                 "status": "review" if root["publish_policy"].startswith("exclude") and tracked else "ok",
             }
         )
-    stale_open_dispatch = 0
-    dispatch_root = repo_path("System/Synapse_Board/DISPATCH")
-    if dispatch_root.exists():
-        for path in dispatch_root.glob("MSG-*.md"):
-            try:
-                if re.search(r"^status:\s*OPEN\s*$", path.read_text(encoding="utf-8"), re.MULTILINE):
-                    stale_open_dispatch += 1
-            except OSError:
-                continue
     return {
         "status": "review" if tracked_files else "ok",
         "scope": "branch_cleanup",
@@ -857,12 +1384,11 @@ def report_hygiene_inventory() -> dict[str, Any]:
             "files_total": total_files,
             "tracked_files": tracked_files,
             "bytes_total": total_bytes,
-            "open_dispatch_messages": stale_open_dispatch,
         },
         "recommendations": [
-            "Do not include generated logs, dispatch state, archive indexes, runtime caches, or local archives in the public repository.",
+            "Do not include generated logs, legacy coordination state, archive indexes, runtime caches, or local archives in the public repository.",
             "Keep reports runtime-generated and ignored; commit only stable contracts, fixtures, and documentation dossiers.",
-            "Triage OPEN dispatch messages before closing them; many are completion notices rather than live work.",
+            "Use `./wissenswerk.py task digest --json` for active coordination instead of publishing local task state.",
             "Use export plan as the publishable-branch gate before creating a fresh repository.",
         ],
     }
@@ -1051,6 +1577,19 @@ def export_plan(manifest_path: Path) -> dict[str, Any]:
                 "policy": "excluded_from_public_export",
             }
         )
+    config = load_config(DEFAULT_CONFIG) if DEFAULT_CONFIG.exists() else default_config_payload()
+    store = default_task_store(config)
+    if store.db_path.exists():
+        blocking_tasks = store.blocking_tasks()
+        if blocking_tasks:
+            warnings.append(
+                {
+                    "kind": "open_coordination_tasks_present",
+                    "blocking": len(blocking_tasks),
+                    "task_ids": [task["id"] for task in blocking_tasks],
+                    "policy": "excluded_from_public_export",
+                }
+            )
     return {
         "status": "blocked" if blockers else "ready",
         "manifest": rel(manifest_path),
@@ -1267,19 +1806,38 @@ def remove_path(path: Path) -> None:
 def command_reset(args: argparse.Namespace) -> int:
     config = load_config(repo_path(args.config))
     plan = reset_plan(config, args.target)
+    dry_run = bool(args.dry_run or not args.apply)
+    confirmed = args.confirm == "APPLY-WISSENSWERK"
+    status = "dry-run" if dry_run else "applied"
+    task_events = []
+    if args.apply and not dry_run and not confirmed:
+        result = default_task_store(config).raise_signal(
+            task_type="approval",
+            severity="high",
+            role="maintainer",
+            summary=f"Reset apply requested for `{args.target}` without confirmation token.",
+            evidence=plan.get("affected_paths", []),
+            dedupe_key=f"approval:reset:{args.target}",
+            created_by="reset",
+        )
+        task_events.append({"trigger": "reset_apply_without_confirm", **result})
+        status = "blocked_approval_required"
     payload = {
-        "status": "dry-run" if args.dry_run or not args.apply else "applied",
+        "status": status,
         "target": args.target,
-        "dry_run": bool(args.dry_run or not args.apply),
+        "dry_run": dry_run,
+        "confirm_required": bool(args.apply and not dry_run),
+        "confirm_token": "APPLY-WISSENSWERK" if args.apply and not dry_run else "",
         "affected_paths": plan.get("affected_paths", []),
         "virtual_targets": plan.get("virtual_targets", []),
         "protected_paths": plan.get("protected_paths", []),
         "stale_indexes": plan.get("stale_indexes", []),
         "next_commands": plan.get("next_commands", []),
+        "tasks": task_events,
         "written": [],
         "removed": [],
     }
-    if args.apply and not args.dry_run:
+    if status == "applied":
         for value in payload["affected_paths"]:
             path = repo_path(value)
             remove_path(path)
@@ -1287,7 +1845,7 @@ def command_reset(args: argparse.Namespace) -> int:
         report_path = write_report(config, f"reset_{args.target}", payload)
         payload["written"].append(rel(report_path))
     json_print(payload) if args.json else print_reset(payload)
-    return 0
+    return 2 if status == "blocked_approval_required" else 0
 
 
 def print_reset(payload: dict[str, Any]) -> None:
@@ -1306,7 +1864,7 @@ def command_wipe(args: argparse.Namespace) -> int:
     tenant_paths = existing_path_specs([runtime_state, ragprep_imports, reports, wiki_root / "Wissenswerk_Platform_Status.md", wiki_root / "Articles"])
     protected = [rel(repo_path(path)) for path in paths_cfg.get("sources", [])]
     protected.extend([rel(wiki_root), "wissenswerk.yaml", "project_manifest.json", "AGENTS.md", "DESIGN.md"])
-    needs_confirm = args.target == "all"
+    needs_confirm = bool(args.apply and not (args.dry_run or not args.apply))
     confirmed = args.confirm == "WIPE-WISSENSWERK"
     dry_run = bool(args.dry_run or not args.apply)
     status = "dry-run"
@@ -1324,9 +1882,21 @@ def command_wipe(args: argparse.Namespace) -> int:
         "protected_paths": protected,
         "stale_indexes": ["pgvector", "wiki", "lexical-bootstrap"],
         "next_commands": ["./wissenswerk.py init --json", "./wissenswerk.py ingest --from-ragprep <dir> --apply --json"],
+        "tasks": [],
         "removed": [],
         "written": [],
     }
+    if status == "blocked_confirmation_required":
+        result = default_task_store(config).raise_signal(
+            task_type="approval",
+            severity="critical" if args.target == "all" else "high",
+            role="maintainer",
+            summary=f"Wipe apply requested for `{args.target}` without confirmation token.",
+            evidence=tenant_paths,
+            dedupe_key=f"approval:wipe:{args.target}",
+            created_by="wipe",
+        )
+        payload["tasks"].append({"trigger": "wipe_apply_without_confirm", **result})
     if status == "applied":
         for value in tenant_paths:
             remove_path(repo_path(value))
@@ -1397,18 +1967,35 @@ def command_bot_discord(args: argparse.Namespace) -> int:
     config = load_config(repo_path(args.config))
     discord_cfg = config.get("bot", {}).get("discord", {})
     token_env = discord_cfg.get("token_env", "DISCORD_BOT_TOKEN")
+    approval_required = bool(args.run and os.environ.get(token_env) and args.confirm != "RUN-WISSENSWERK-BOT")
     payload = {
-        "status": "ready" if os.environ.get(token_env) else "missing_token",
+        "status": "approval_required" if approval_required else "ready" if os.environ.get(token_env) else "missing_token",
         "adapter": "discord",
         "enabled": bool(discord_cfg.get("enabled", False)),
         "token_env": token_env,
         "token_present": bool(os.environ.get(token_env)),
         "command_prefix": discord_cfg.get("command_prefix", "!ww"),
         "run": bool(args.run),
+        "confirm_required": approval_required,
+        "confirm_token": "RUN-WISSENSWERK-BOT" if approval_required else "",
+        "tasks": [],
         "note": "Bootstrap adapter. Use --run only after installing a Discord runtime package.",
     }
     if args.run and not payload["token_present"]:
         json_print(payload) if args.json else print("Discord token missing")
+        return 2
+    if approval_required:
+        result = default_task_store(config).raise_signal(
+            task_type="approval",
+            severity="high",
+            role="maintainer",
+            summary="Discord bot live run requested without confirmation token.",
+            evidence=["wissenswerk.yaml"],
+            dedupe_key="approval:bot:discord:run",
+            created_by="bot-discord",
+        )
+        payload["tasks"].append({"trigger": "discord_run_without_confirm", **result})
+        json_print(payload) if args.json else print("Discord bot run requires approval")
         return 2
     json_print(payload) if args.json else print(f"Discord adapter: {payload['status']}")
     return 0
@@ -1456,6 +2043,7 @@ def build_parser() -> argparse.ArgumentParser:
     reset.add_argument("target", choices=["memory", "index", "generated", "wiki"])
     reset.add_argument("--dry-run", action="store_true")
     reset.add_argument("--apply", action="store_true")
+    reset.add_argument("--confirm", default="")
     reset.add_argument("--json", action="store_true")
 
     wipe = sub.add_parser("wipe", help="Wipe tenant or local Wissenswerk state with safeguards")
@@ -1475,11 +2063,53 @@ def build_parser() -> argparse.ArgumentParser:
     bot_sub = bot.add_subparsers(dest="bot_command")
     discord = bot_sub.add_parser("discord", help="Discord bot adapter")
     discord.add_argument("--run", action="store_true")
+    discord.add_argument("--confirm", default="")
     discord.add_argument("--json", action="store_true")
+
+    task = sub.add_parser("task", help="Manage Signals & Tasks coordination state")
+    task_sub = task.add_subparsers(dest="task_command")
+    task_raise = task_sub.add_parser("raise", help="Raise a coordination signal")
+    task_raise.add_argument("--type", required=True, choices=sorted(TASK_TYPES))
+    task_raise.add_argument("--severity", required=True, choices=sorted(TASK_SEVERITIES))
+    task_raise.add_argument("--role", default="coordinator", choices=sorted(TASK_ROLES))
+    task_raise.add_argument("--summary", required=True)
+    task_raise.add_argument("--evidence", action="append", default=[])
+    task_raise.add_argument("--dedupe-key", default="")
+    task_raise.add_argument("--created-by", default="agent")
+    task_raise.add_argument("--artifact", action="append", default=[])
+    task_raise.add_argument("--ttl-days", type=int, default=30)
+    task_raise.add_argument("--parent-id", default="")
+    task_raise.add_argument("--json", action="store_true")
+    task_list = task_sub.add_parser("list", help="List coordination tasks")
+    task_list.add_argument("--status", choices=sorted(TASK_STATUSES))
+    task_list.add_argument("--json", action="store_true")
+    task_show = task_sub.add_parser("show", help="Show one coordination task")
+    task_show.add_argument("id")
+    task_show.add_argument("--json", action="store_true")
+    task_claim = task_sub.add_parser("claim", help="Claim one coordination task")
+    task_claim.add_argument("id")
+    task_claim.add_argument("--agent", required=True, choices=sorted(TASK_ROLES))
+    task_claim.add_argument("--json", action="store_true")
+    task_resolve = task_sub.add_parser("resolve", help="Resolve one coordination task")
+    task_resolve.add_argument("id")
+    task_resolve.add_argument("--summary", required=True)
+    task_resolve.add_argument("--json", action="store_true")
+    task_reject = task_sub.add_parser("reject", help="Reject one coordination task")
+    task_reject.add_argument("id")
+    task_reject.add_argument("--reason", required=True)
+    task_reject.add_argument("--json", action="store_true")
+    task_digest = task_sub.add_parser("digest", help="Summarize active coordination tasks")
+    task_digest.add_argument("--since", default="24h")
+    task_digest.add_argument("--json", action="store_true")
+
+    run = sub.add_parser("run", help="Inspect current local run and coordination state")
+    run_sub = run.add_subparsers(dest="run_command")
+    run_status = run_sub.add_parser("status", help="Show local run status")
+    run_status.add_argument("--json", action="store_true")
 
     hygiene = sub.add_parser("hygiene", help="Inspect publishability and runtime/report ballast")
     hygiene_sub = hygiene.add_subparsers(dest="hygiene_command")
-    hygiene_reports = hygiene_sub.add_parser("reports", help="Inventory report, dispatch, archive, and runtime state")
+    hygiene_reports = hygiene_sub.add_parser("reports", help="Inventory report, archive, and runtime state")
     hygiene_reports.add_argument("--json", action="store_true")
 
     export = sub.add_parser("export", help="Plan standalone Wissenswerk repository extraction")
@@ -1528,6 +2158,22 @@ def main(argv: list[str] | None = None) -> int:
         return command_design_lint(args)
     if args.command == "bot" and args.bot_command == "discord":
         return command_bot_discord(args)
+    if args.command == "task" and args.task_command == "raise":
+        return command_task_raise(args)
+    if args.command == "task" and args.task_command == "list":
+        return command_task_list(args)
+    if args.command == "task" and args.task_command == "show":
+        return command_task_show(args)
+    if args.command == "task" and args.task_command == "claim":
+        return command_task_claim(args)
+    if args.command == "task" and args.task_command == "resolve":
+        return command_task_resolve(args)
+    if args.command == "task" and args.task_command == "reject":
+        return command_task_reject(args)
+    if args.command == "task" and args.task_command == "digest":
+        return command_task_digest(args)
+    if args.command == "run" and args.run_command == "status":
+        return command_run_status(args)
     if args.command == "hygiene" and args.hygiene_command == "reports":
         return command_hygiene_reports(args)
     if args.command == "export" and args.export_command == "plan":

@@ -65,11 +65,29 @@ Current retrieval is lexical bootstrap over configured roots. The target impleme
 ./wissenswerk.py doctor --json
 ./wissenswerk.py providers check --json
 ./wissenswerk.py design lint --json
+./wissenswerk.py task digest --json
+./wissenswerk.py run status --json
 ./wissenswerk.py reset index --dry-run --json
 ./wissenswerk.py wipe tenant --dry-run --json
 ```
 
 Reset and wipe commands are dry-run-first. `wipe all` requires the explicit confirm token `WIPE-WISSENSWERK` when applied.
+
+## Signals & Tasks
+
+Signals are coordination events. Tasks are tracked work items. They are local runtime state, not committed project knowledge.
+
+```bash
+./wissenswerk.py task raise --type anomaly --severity medium --summary "Chunk metadata looks wrong" --json
+./wissenswerk.py task list --status submitted --json
+./wissenswerk.py task show TASK-2026-0001 --json
+./wissenswerk.py task claim TASK-2026-0001 --agent verifier --json
+./wissenswerk.py task resolve TASK-2026-0001 --summary "Verified against source" --json
+./wissenswerk.py task reject TASK-2026-0001 --reason "Duplicate of later task" --json
+./wissenswerk.py task digest --since 24h --json
+```
+
+Supported task types are `anomaly`, `blocker`, `handoff`, `approval`, `audit_finding`, and `run_event`. Supported statuses are `submitted`, `working`, `input-required`, `auth-required`, `completed`, `failed`, `canceled`, and `rejected`.
 
 ## Export Commands
 

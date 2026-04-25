@@ -12,6 +12,7 @@ The project is designed for agents and humans working together through open repo
 ./wissenswerk.py curate --json
 ./wissenswerk.py wiki build --apply --json
 ./wissenswerk.py search "example question" --source all --json
+./wissenswerk.py task digest --json
 ```
 
 ## Core Principles
@@ -21,6 +22,7 @@ The project is designed for agents and humans working together through open repo
 - **Provenance first:** auto-apply runs produce reports, auditable state, and rollback hints.
 - **Provider-neutral:** chat, summary, embeddings, and rerank use OpenAI-compatible endpoints.
 - **pgvector default:** PostgreSQL + pgvector is the default retrieval target.
+- **Signals, not chat:** agents use local Tasks for anomalies, blockers, handoffs, approvals, audit findings, and run events.
 - **Agent-readable contracts:** `AGENTS.md`, `DESIGN.md`, `wissenswerk.yaml`, `project_manifest.json`, JSON CLI output, and future MCP/tool manifests are canonical.
 
 ## Roles
@@ -33,6 +35,20 @@ Public role IDs are English and stable:
 - `maintainer`: core code, providers, migrations, tests, releases.
 
 Localized display names belong in tenant configuration.
+
+## Signals & Tasks
+
+Wissenswerk uses a local coordination layer instead of a committed message board:
+
+```bash
+./wissenswerk.py task raise --type anomaly --severity medium --summary "Unexpected source shape" --json
+./wissenswerk.py task list --status submitted --json
+./wissenswerk.py task claim TASK-2026-0001 --agent verifier --json
+./wissenswerk.py task resolve TASK-2026-0001 --summary "Checked and documented" --json
+./wissenswerk.py run status --json
+```
+
+Task state lives under `.wissenswerk/tasks/` and is ignored by git. It coordinates work; it is never factual authority.
 
 ## Verification
 

@@ -34,6 +34,7 @@
     "doctor": "Run platform-neutral contract, provider, design, and hygiene checks.",
     "export_plan": "Dry-run the standalone repository export manifest and report publishability warnings.",
     "reset_wipe": "Dry-run-first reset and wipe planning for memory, indexes, generated state, wiki output, and tenant state.",
+    "signals_tasks": "Local JSON-first coordination layer for anomalies, blockers, handoffs, approvals, audit findings, and run events.",
     "bot": "Discord adapter over the same Retriever/search interface."
   },
   "memory": {

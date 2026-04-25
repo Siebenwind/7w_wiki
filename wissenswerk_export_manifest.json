@@ -120,7 +120,6 @@
       "Logs/Reports/",
       "Logs/Research/",
       "Logs/Wissenswerk/",
-      "System/Synapse_Board/DISPATCH/",
       "System/Archivregister/",
       "docs/Archiv/"
     ]
@@ -129,7 +128,7 @@
     "public_repo_default": "exclude",
     "commit_policy": "commit contracts, fixtures, source docs, and curated dossiers only",
     "runtime_reports": "generated locally and ignored",
-    "dispatch_policy": "summarize or migrate actionable items; do not publish legacy queue history"
+    "coordination_policy": "keep local task state private; publish only curated decisions"
   },
   "migration_notes": [
     "Use `./wissenswerk.py export plan --json` as the dry-run gate for publishability.",

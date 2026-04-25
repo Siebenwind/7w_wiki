@@ -23,6 +23,7 @@ RagPrep artifacts -> Wissenswerk import/curation -> Markdown wiki + provenance +
 | Curation | Article candidates, conflicts, next actions | `curate` |
 | Wiki output | Markdown pages and reports | `wiki build` |
 | Retrieval | Search over raw/wiki/all | `search` |
+| Coordination | Local Signals and Tasks | `task`, `run status` |
 | Quality | Contract, provider, design, export, and test checks | `doctor`, `design lint`, `export plan`, `test` |
 | Reset | Local state reset and protected wipe planning | `reset`, `wipe` |
 
