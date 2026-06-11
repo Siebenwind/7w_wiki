@@ -1,6 +1,6 @@
 {
   "version": "catalog.v1",
-  "generated_at": "2026-04-19T17:51:52Z",
+  "generated_at": "2026-06-11T14:56:37Z",
   "runtime": {
     "entrypoint": "./7w_wiki.py",
     "help_json": "./7w_wiki.py --help-json",
@@ -49,7 +49,7 @@
             "name": "remaining",
             "flags": [],
             "help": "Additional arguments for search.py",
-            "required": false,
+            "required": true,
             "type": "string",
             "kind": "positional",
             "nargs": "REMAINDER"
@@ -1017,7 +1017,7 @@
             "name": "args",
             "flags": [],
             "help": "Ingest command arguments or legacy markdown file",
-            "required": false,
+            "required": true,
             "type": "string",
             "kind": "positional",
             "nargs": "REMAINDER"
@@ -1037,7 +1037,7 @@
             "name": "args",
             "flags": [],
             "help": "Arguments for translator.py",
-            "required": false,
+            "required": true,
             "type": "string",
             "kind": "positional",
             "nargs": "REMAINDER"
@@ -1241,7 +1241,7 @@
         "subcommands": [
           {
             "name": "post",
-            "description": "usage: 7w_wiki.py mail post [-h] --from FROM_AGENT --to TO_AGENT\n                            --subject SUBJECT --body BODY\n                            [--report-path REPORT_PATH]\n                            [--priority {LOW,NORMAL,HIGH}]",
+            "description": "usage: 7w_wiki.py mail post [-h] --from FROM_AGENT --to TO_AGENT --subject\n                            SUBJECT --body BODY [--report-path REPORT_PATH]\n                            [--priority {LOW,NORMAL,HIGH}]",
             "arguments": [
               {
                 "name": "from_agent",

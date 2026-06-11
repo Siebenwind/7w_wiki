@@ -52,3 +52,17 @@ Quellen/_ARCHIV_ORIGINAL/
 .gemini/
 Inbox/
 System/DELEGATION_CODEX_PHASE_20.md
+
+# === Local Session Residue (do not publish as main repo content) ===
+# Older tracked handover notes remain in git history, but new per-session
+# bycatch should stay local unless deliberately force-added.
+Logs/Archive/SESSION_MEMORY_*.md
+System/Synapse_Board/DISPATCH/MSG-*_session_memory_*.md
+.agent/data/wiki_inventory_history/wiki_inventory_*.json
+
+# === Wissenswerk/v2 Runtime Residue ===
+# Standalone Wissenswerk output belongs to its own product surface, not this
+# Siebenwind wiki tree.
+.wissenswerk/
+docs/Wiki/
+reports/wissenswerk/

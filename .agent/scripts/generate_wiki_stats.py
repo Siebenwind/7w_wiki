@@ -566,6 +566,11 @@ def generate_markdown(stats: dict, tracking: dict, ops: dict) -> str:
         avg_links = round(stats["links_per_category"][category] / max(1, count), 1)
         top_dense_categories.append((category, avg_words, avg_links, count))
     top_dense_categories.sort(key=lambda x: x[1], reverse=True)
+    pie_rows = "\n".join(
+        f'    "{category}" : {count}'
+        for category, count in stats["files_per_category"].items()
+        if count > 10
+    )
 
     md = f"""---
 title: "📊 {WORLD_NAME} Kompass"
@@ -607,7 +612,7 @@ category: Index
 
 ```mermaid
 pie title Artikel pro Sektion
-{"\n".join([f'    "{k}" : {v}' for k, v in stats['files_per_category'].items() if v > 10])}
+{pie_rows}
 ```
 
 ## 📚 Lesetiefe nach Sektion (Top 5)

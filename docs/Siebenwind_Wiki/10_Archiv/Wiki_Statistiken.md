@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-04-19 19:51
+**Stand:** 2026-06-11 16:40
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -28,9 +28,9 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Aktive Tage |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 382 | - | 3 |
-| Letzte 30 Tage | 1304 | 3 | 8 |
-| Letzte 90 Tage | 1348 | - | 13 |
+| Letzte 7 Tage | 0 | - | 0 |
+| Letzte 30 Tage | 0 | 0 | 0 |
+| Letzte 90 Tage | 1305 | - | 8 |
 
 ---
 
@@ -144,37 +144,24 @@ pie title Artikel pro Sektion
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 85 |
 | Davon ohne Ausnahme-Metadaten | 0 |
-| Test-Suiten PASS | 18 |
-| Test-Suiten FAIL | 0 |
+| Test-Suiten PASS | 3 |
+| Test-Suiten FAIL | 2 |
 
 ### Letzte Test-Suites
 | Suite | Ergebnis | PASS | FAIL | SKIP |
 | :--- | :--- | ---: | ---: | ---: |
-| `adapter-surfaces-contract` | **PASS** | 3 | 0 | 0 |
-| `asset-surface-contract` | **PASS** | 4 | 0 | 0 |
-| `backlog-repair-contract` | **PASS** | 2 | 0 | 0 |
-| `bridge-placeholder-guard` | **PASS** | 2 | 0 | 0 |
-| `catalog-contract` | **PASS** | 2 | 0 | 0 |
 | `clean-client-state` | **PASS** | 8 | 0 | 0 |
-| `codex-workflow-bridges` | **PASS** | 2 | 0 | 0 |
-| `content-contract` | **PASS** | 1 | 0 | 0 |
-| `delegation-policy-contract` | **PASS** | 2 | 0 | 0 |
-| `interop-command-registry` | **PASS** | 1 | 0 | 0 |
-| `interop-doc-links` | **PASS** | 1 | 0 | 0 |
-| `pages-contract-mode-contract` | **PASS** | 1 | 0 | 0 |
+| `interop-doc-links` | **FAIL** | 0 | 1 | 0 |
 | `process-dispatch-curiosity` | **PASS** | 1 | 0 | 0 |
-| `reader-stats-contract` | **PASS** | 2 | 0 | 0 |
-| `render-hygiene` | **PASS** | 2 | 0 | 0 |
+| `reader-stats-contract` | **FAIL** | 1 | 1 | 0 |
 | `source-link-hygiene` | **PASS** | 1 | 0 | 0 |
-| `source-tree-contract` | **PASS** | 2 | 0 | 0 |
-| `tool-manifest-contract` | **PASS** | 1 | 0 | 0 |
 
 
 ## 📍 Fortschritt Live Verfolgen
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_1cccf54a-19d9-47c7-ba01-54f16fa75f3b.txt`
+- Letzter Audit: `Logs/Archive/Audit_1c6516d9-8f2f-404b-8048-571aa3fc76e8.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
 
 ---
