@@ -39,6 +39,9 @@ FORUM_STATUSES = {
     "triage_blocked",
     "integrated",
     "reviewed_no_wiki_change",
+    "draft_created",
+    "style_review_required",
+    "ready_to_finalize",
     "duplicate_source",
     "error",
 }
@@ -625,6 +628,226 @@ Zum Warenbild zählen einfaches Rüstzeug, grobe Waffen und gelegentlich seltene
     target.write_text(serialize_frontmatter(meta, body), encoding="utf-8")
 
 
+def wiki_title_from_link(link: str) -> str:
+    return link.split("|", 1)[0].strip("[]")
+
+
+def generic_forum_links(source: dict) -> list[str]:
+    haystack = f"{source['title']}\n{source['body_text']}"
+    candidates = [
+        ("Brandenstein", "[[Brandenstein]]"),
+        ("Rathaus", "[[Brandenstein]]"),
+        ("Westhever", "[[Zerstoerung_von_Westhever|Westhever]]"),
+        ("Dunkeltief", "[[Dunkeltief]]"),
+        ("Finsterwangen", "[[Finsterwangen]]"),
+        ("Tardukai", "[[Bruderschaft_der_Tardukai]]"),
+        ("Schattenhand", "[[Schattenhand]]"),
+        ("Burg-Ruine Schwingenwacht", "[[Burg_Schwingenwacht|Burg Schwingenwacht]]"),
+        ("Schwingenwacht", "[[Burg_Schwingenwacht|Burg Schwingenwacht]]"),
+        ("Königin Brynn", "[[Königin_Brynn|Königin Brynn]]"),
+        ("Brynn", "[[Königin_Brynn|Königin Brynn]]"),
+        ("Toran Dur", "[[Toran_Dur]]"),
+        ("Ignis", "[[Ignis]]"),
+        ("Ventus", "[[Ventus]]"),
+        ("Xan", "[[Xan]]"),
+        ("Morsan", "[[Morsan]]"),
+        ("Tempelwache", "[[Tempelwache]]"),
+        ("Bellum", "[[Bellum]]"),
+        ("Myrandhir", "[[Myrandhir]]"),
+        ("Nortraven", "[[Nortraven]]"),
+        ("Goblins", "[[Goblins]]"),
+        ("Goblin", "[[Goblins]]"),
+    ]
+    links: list[str] = []
+    seen: set[str] = set()
+    for needle, link in candidates:
+        if re.search(rf"\b{re.escape(needle)}\b", haystack, re.IGNORECASE):
+            key = wiki_title_from_link(link)
+            if key not in seen:
+                links.append(link)
+                seen.add(key)
+    return links or ["[[Siebenwind]]"]
+
+
+def generic_forum_summary(source: dict) -> list[str]:
+    norm = normalize_key(source["title"])
+    if "treibenimrathaus" in norm:
+        return [
+            "Im Rathaus von [[Brandenstein]] regt sich nach längerer Ruhe wieder Betrieb. Ein ehrgeizig wirkender Mann geht dort wiederholt ein und aus.",
+            "Das erneut sichtbare Öffnungsschild und entstaubte Räume lassen erkennen, dass die sogenannte Neue Verwaltung wieder Aufmerksamkeit auf sich zieht.",
+        ]
+    if "angriffaufwesthever" in norm:
+        return [
+            "Ein Angriff auf [[Zerstoerung_von_Westhever|Westhever]] verbindet sich mit Gerüchten über [[Goblins]], Ferrins und Fischmenschen.",
+            "Danach kommt es am Hafen von [[Brandenstein]] zu Unruhe, einem gekaperten Marineschiff und einer Verfolgung durch die Litheth.",
+            "Weitere Szenen betreffen den Eintritt einer jungen Frau in die Tempelwache, kirchliche Figuren und einen späteren Piratenangriff auf Brandenstein.",
+        ]
+    if norm == "xiii":
+        return [
+            "Ein alter Seemann hält bei einem Leuchtfeuer nahe [[Brandenstein]] Wache und denkt über ein Geisterschiff, Schuld und sicheren Kurs auf See nach.",
+            "Die Xanfelawende verbindet sich mit Gebeten an [[Ignis]], [[Ventus]] und [[Xan]] sowie mit Verlust, Kameradschaft und der Erinnerung an gefallene Seeleute.",
+            "Der zweite Beitrag führt das Motiv über Zinnsoldaten und den Xanschrein weiter; die Toten von Krieg, Schiffbruch und Seenot werden ausdrücklich den Fluten und [[Morsan]] anvertraut.",
+        ]
+    if "aufkeimendeschatten" in norm:
+        return [
+            "Eine maskierte Gestalt aus dem Umfeld dunkler Angamon-Verehrung bewegt sich nach dem zurückliegenden [[Dunkeltief]] zwischen verstreuten Glaubensgruppen, der [[Bruderschaft_der_Tardukai]] und der Erinnerung an die [[Schattenhand]].",
+            "Im Zentrum stehen Untersuchungen an kopflosen bleichen Kreaturen, Knochenwerkzeugen, Schädeln und einer fremden, streng geometrischen Magiesignatur. Die Spur führt von einer alten Mine über die Wälder bei [[Brandenstein]] bis in ein verborgenes Labor unter der Insel.",
+            "Faisons Kult, Finsterwangen, Knochenmasken und eine fliehende bleiche Gestalt bleiben als Motive dieser Überlieferung greifbar; Herkunft und Meister der Kreaturen bleiben [UNGEKLÄRT].",
+        ]
+    if "einfuchsstreiftdurchdiewaelder" in norm:
+        return [
+            "Eine Gestalt, die als Fuchs oder alter Mann erscheint, zieht über die Insel, sucht Ruinen und abgelegene Orte auf und beansprucht schließlich einen alten Wachturm nahe Kesselklamm für sich.",
+            "Unter dem Namen Theodor Fuchs tritt die Figur als Sekretarius der Stadtverwaltung [[Brandenstein]] auf und berichtet in Briefen an Dunquell, Finsterwangen und die Bewacher des Walls von der Ankunft [[Königin_Brynn|Königin Brynns]] und ihres Gefolges.",
+            "Weitere Beiträge verbinden Natur- und Ritualmotive mit [[Burg_Schwingenwacht|Schwingenwacht]], einem Turm, Tierzeichen, Opfergaben und wiederkehrenden Beobachtungen der politischen und magischen Lage auf der Insel.",
+        ]
+    paragraphs = []
+    for raw_line in source["body_text"].splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith(("#", "-", "_", "---")):
+            continue
+        if re.match(r"^(Autor|Verfasst|Post-ID|Forum|Link|Topic-ID|Archiviert am):", line):
+            continue
+        if len(line) >= 80:
+            paragraphs.append(line)
+        if len(paragraphs) >= 2:
+            break
+    if not paragraphs:
+        return ["Eine belastbare Kurzfassung dieser Überlieferung bleibt [UNGEKLÄRT]."]
+    return [
+        re.sub(r"\s+", " ", paragraph).strip()
+        for paragraph in paragraphs[:2]
+    ]
+
+
+def create_generic_forum_page(target: Path, source: dict, report_id: str, report_path: Path) -> None:
+    target.parent.mkdir(parents=True, exist_ok=True)
+    title = source["title"].strip().rstrip(".")
+    if not title:
+        title = target.stem.replace("_", " ")
+    category = "Geschichte" if "05_Geschichte" in rel(target) else "Erzählung"
+    links = generic_forum_links(source)
+    summary = generic_forum_summary(source)
+    meta = {
+        "uuid": str(uuid.uuid4()),
+        "title": yaml_string(title),
+        "category": category,
+        "status": "gepflegt",
+        "epistemic": '"#forum #perspektive"',
+        "quelle": yaml_string(source_rel_from_target(source["path"], target)),
+        "lore_trust": "4",
+        "report_id": report_id,
+        "updated_at": yaml_string(now_iso()),
+    }
+    body = [
+        f"# {title}",
+        "",
+        "## Überblick",
+    ]
+    body.extend(summary)
+    body.extend(
+        [
+            "",
+            "## Motive und Bezüge",
+            "Die Überlieferung ist im Frontmatter als `#forum #perspektive` markiert. Offene Deutungen bleiben ausdrücklich als [UNGEKLÄRT] gekennzeichnet.",
+            "",
+            "## Verlinkte Themen",
+        ]
+    )
+    body.extend(f"- {link}" for link in links)
+    body.extend(
+        [
+            "",
+            "## Referenzen",
+            f"- Forumquelle: `{source_rel_from_target(source['path'], target)}`",
+            f"- Raw HTML: `{os.path.relpath(repo_path(source['raw_html_refs'][0]), target.parent).replace(os.sep, '/') if source['raw_html_refs'] else '[UNGEKLÄRT]'}`",
+            f"- Prüfbericht: `{os.path.relpath(report_path, target.parent).replace(os.sep, '/')}` (ID: `{report_id}`)",
+        ]
+    )
+    target.write_text(serialize_frontmatter(meta, "\n".join(body).rstrip() + "\n"), encoding="utf-8")
+
+
+def forum_production_gate(target: Path) -> list[str]:
+    issues: list[str] = []
+    if not target.exists():
+        return [f"Target does not exist: {rel(target)}"]
+    if not rel(target).startswith("docs/Siebenwind_Wiki/"):
+        return issues
+
+    raw = target.read_text(encoding="utf-8")
+    meta, body, _ = split_frontmatter(raw)
+    for required in ("title", "category"):
+        if required not in meta or not clean_scalar(meta.get(required, "")):
+            issues.append(f"Fehlendes Frontmatter-Feld: '{required}'")
+    if "layout" in meta:
+        issues.append("Legacy-Frontmatter-Feld 'layout' darf in neuen Produktionsartikeln nicht gesetzt sein")
+
+    title = clean_scalar(meta.get("title", ""))
+    h1 = extract_h1(body)
+    if title and h1 != title:
+        issues.append(f"Titel-Mismatch: H1='{h1}' != Frontmatter='{title}'")
+    elif not h1:
+        issues.append("Keine H1-Überschrift gefunden.")
+
+    main_body = re.split(r"^##\s+Referenzen\s*$", body, maxsplit=1, flags=re.MULTILINE)[0]
+    forbidden_patterns = [
+        (r"archivierte Forumquelle", "Technische Archivformel gehoert nicht in den Artikelkoerper"),
+        (r"nicht automatisch kanonisiert", "Kanonisierungs-Boilerplate gehoert in Metadaten/Report"),
+        (r"Raw HTML", "Raw-HTML-Hinweise gehoeren nur in Referenzen/Report"),
+        (r"Registerstatus|Registerlogik", "Registerhinweise gehoeren nicht in den Artikelkoerper"),
+        (r"Die Quelle bleibt", "Quellenkarten-Formulierung statt Wiki-Ton"),
+        (r"Die Aussagen dieser Seite bleiben", "Quellenkarten-Formulierung statt Wiki-Ton"),
+        (r"^##\s+Einordnung\s*$", "Generische Einordnung ist fuer Forum-Neuanlagen kein Produktionsstandard"),
+        (r"!!! info \"Metadaten\"[\s\S]{0,220}Forumquelle", "Sichtbare technische Forum-Metabox statt Wiki-Ton"),
+    ]
+    for pattern, message in forbidden_patterns:
+        if re.search(pattern, main_body, re.IGNORECASE | re.MULTILINE):
+            issues.append(message)
+
+    return issues
+
+
+def update_source_draft_status(source_path: Path, target: Path, report: Path) -> None:
+    source = read_source(source_path)
+    with register_lock():
+        meta = dict(source["meta"])
+        payload = load_register()
+        meta["review_status"] = "style_review_required"
+        meta["review_owner"] = "Codex / Scanner + Wiki-Schmied"
+        meta["integration_status"] = "draft_created"
+        meta["integrated_target"] = yaml_string(rel(target))
+        meta["ingestion_report"] = yaml_string(rel(report))
+        source_path.write_text(serialize_frontmatter(meta, source["body"], source["meta_order"]), encoding="utf-8")
+
+        updated = False
+        for entry in payload.setdefault("entries", []):
+            if str(entry.get("topic_id")) == str(source["topic_id"]):
+                entry["review_status"] = "style_review_required"
+                entry["integration_status"] = "draft_created"
+                entry["review_owner"] = "Codex / Scanner + Wiki-Schmied"
+                entry["integrated_target"] = rel(target)
+                entry["ingestion_report"] = rel(report)
+                entry["content_status"] = entry.get("content_status") or "fulltext_archived"
+                updated = True
+                break
+        if not updated:
+            payload.setdefault("entries", []).append(
+                {
+                    "board": "geschichten",
+                    "topic_id": source["topic_id"],
+                    "title": source["title"],
+                    "source_ref": rel(source_path),
+                    "fulltext_ref": rel(source_path),
+                    "content_status": "fulltext_archived",
+                    "review_status": "style_review_required",
+                    "integration_status": "draft_created",
+                    "integrated_target": rel(target),
+                    "ingestion_report": rel(report),
+                    "human_escalation_required": False,
+                }
+            )
+        save_register(payload)
+
+
 def command_forum_draft(args: argparse.Namespace) -> int:
     source_path = resolve_source(args.source, args.topic_id)
     source = read_source(source_path)
@@ -675,10 +898,15 @@ def command_forum_draft(args: argparse.Namespace) -> int:
         update_ergon_page(target, source, report_id, report_path)
     elif "handelskontor" in normalize_key(source["title"]) and action == "create":
         create_handelskontor_page(target, source, report_id, report_path)
+    elif action == "create":
+        create_generic_forum_page(target, source, report_id, report_path)
     else:
         raise ValueError("Generic forum drafting is not implemented for this source/action pair yet")
+    update_source_draft_status(source_path, target, report_path)
 
     planned["report_ref"] = rel(report_path)
+    planned["integration_status"] = "draft_created"
+    planned["review_status"] = "style_review_required"
     if args.json:
         json_print(planned)
     else:
@@ -754,6 +982,22 @@ def command_forum_finalize(args: argparse.Namespace) -> int:
         raise FileNotFoundError(f"Target does not exist: {args.target}")
     if not report.exists():
         raise FileNotFoundError(f"Report does not exist: {args.report}")
+    gate_issues = forum_production_gate(target) if args.status == "integrated" else []
+    if gate_issues and not args.allow_draft_finalize:
+        result = {
+            "status": "blocked",
+            "reason": "production_gate_failed",
+            "source_ref": rel(source_path),
+            "target": rel(target),
+            "issues": gate_issues,
+        }
+        if args.json:
+            json_print(result)
+        else:
+            print(f"Production gate failed for {rel(target)}:")
+            for issue in gate_issues:
+                print(f"- {issue}")
+        return 1
     result = {"status": "ok", "finalized": update_source_finalization(source_path, target, report, args.status)}
     if args.json:
         json_print(result)
@@ -928,6 +1172,7 @@ def build_parser() -> argparse.ArgumentParser:
     finalize.add_argument("--target", required=True)
     finalize.add_argument("--report", required=True)
     finalize.add_argument("--status", required=True, choices=["integrated", "reviewed_no_wiki_change"])
+    finalize.add_argument("--allow-draft-finalize", action="store_true", help="Bypass wiki production gate for exceptional/manual cases")
     finalize.add_argument("--json", action="store_true")
     finalize.set_defaults(func=command_forum_finalize)
 

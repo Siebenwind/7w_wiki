@@ -73,6 +73,36 @@ def check_style(content):
          
     return issues
 
+def check_forum_article_tone(content, metadata):
+    issues = []
+    if not metadata:
+        return issues
+
+    epistemic = metadata.get("epistemic", "")
+    source = metadata.get("quelle", "") or metadata.get("source", "")
+    is_forum_article = "#forum" in epistemic or "Quellen/Forum" in source
+    if not is_forum_article:
+        return issues
+
+    # References may name raw archival assets; the article body should not read like an ingest report.
+    text = re.sub(r"^---\n.*?\n---", "", content, flags=re.DOTALL)
+    main_body = re.split(r"^##\s+Referenzen\s*$", text, maxsplit=1, flags=re.MULTILINE)[0]
+    forbidden = [
+        (r"archivierte Forumquelle", "Forum-Archivstatus gehoert in Frontmatter, Referenzen oder Report, nicht in den Artikelkoerper."),
+        (r"nicht automatisch kanonisiert", "Kanonisierungs-Boilerplate gehoert in Metadaten oder Report, nicht in den Artikelkoerper."),
+        (r"Raw HTML", "Raw-HTML-Hinweise gehoeren nur in Referenzen oder Report."),
+        (r"Registerstatus|Registerlogik", "Registerhinweise gehoeren nicht in den Artikelkoerper."),
+        (r"Die Quelle bleibt", "Quellenkarten-Formulierung statt Wiki-Ton."),
+        (r"Die Aussagen dieser Seite bleiben", "Quellenkarten-Formulierung statt Wiki-Ton."),
+        (r"^##\s+Einordnung\s*$", "Generische Einordnung ist fuer Forum-Neuanlagen kein Produktionsstandard."),
+        (r"!!! info \"Metadaten\"[\s\S]{0,220}Forumquelle", "Sichtbare technische Forum-Metabox statt Wiki-Ton."),
+    ]
+    for pattern, message in forbidden:
+        if re.search(pattern, main_body, re.IGNORECASE | re.MULTILINE):
+            issues.append(f"{YELLOW}Forum-Ton:{RESET} {message}")
+
+    return issues
+
 def check_file(path):
     try:
         content = path.read_text(encoding="utf-8")
@@ -97,6 +127,7 @@ def check_file(path):
     # 3. Style Check
     style_issues = check_style(content)
     all_issues.extend(style_issues)
+    all_issues.extend(check_forum_article_tone(content, metadata))
     
     return all_issues
 

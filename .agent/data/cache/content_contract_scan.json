@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-11T14:40:31Z",
-  "inputs_fingerprint": "618145625fe39ba95d79c05251de4779218139d88608d3d3dc4bd56c9bd15898",
+  "generated_at": "2026-06-11T16:18:17Z",
+  "inputs_fingerprint": "918f1a557060950213c9765ab2806d191d7736632f63c15744dd8b6059c73302",
   "payload": {
     "bridge_inventory": {
       "invalid": 0,
@@ -7826,6 +7826,28 @@
         },
         "changes": [],
         "meta": {
+          "category": "Wissen",
+          "epistemic": "\"#forum #perspektive\"",
+          "lore_trust": "4",
+          "quelle": "\"../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_hintergrundexkurse.md\"",
+          "report_id": "e2151c6b-80ca-4325-a2c2-ecbbd720db7b",
+          "status": "gepflegt",
+          "title": "Dunkeleisen",
+          "updated_at": "\"2026-06-11T15:24:00Z\"",
+          "uuid": "38fb2090-541a-427e-8552-e8a589fa1276"
+        },
+        "path": "docs/Siebenwind_Wiki/03_Wissen/Dunkeleisen.md"
+      },
+      {
+        "analysis": {
+          "bridge_status": "none",
+          "classification": "article",
+          "duplicates": [],
+          "has_frontmatter": true,
+          "stub_status": "none"
+        },
+        "changes": [],
+        "meta": {
           "author": "[[Dunvallo_Linari]] (Original), Archivteam (Zusammenstellung)",
           "date": "2024-05-24",
           "description": "Eine umfassende Zusammenstellung der magietheoretischen Schriften des Erzmagus [[Dunvallo_Linari]], inklusive Abhandlungen zu Philosophie, Matrixtheorie, Reagenzien und Gestik.",
@@ -10223,6 +10245,28 @@
         "changes": [],
         "meta": {
           "category": "Geschichte",
+          "epistemic": "\"#forum #perspektive\"",
+          "lore_trust": "4",
+          "quelle": "\"../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_angriff_auf_westhever_piraten_in_sicht_und_ein_angebot.md\"",
+          "report_id": "a9ecebba-48db-4497-9d38-6cb685543869",
+          "status": "gepflegt",
+          "title": "\"Angriff auf Westhever, Piraten in Sicht und ein Angebot\"",
+          "updated_at": "\"2026-06-11T15:14:33Z\"",
+          "uuid": "eae437a0-96be-4580-9f07-dcc81585e753"
+        },
+        "path": "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Westhever_Piraten_in_Sicht.md"
+      },
+      {
+        "analysis": {
+          "bridge_status": "none",
+          "classification": "article",
+          "duplicates": [],
+          "has_frontmatter": true,
+          "stub_status": "none"
+        },
+        "changes": [],
+        "meta": {
+          "category": "Geschichte",
           "title": "Angriff der Schwarzmagier (18 n.H.)"
         },
         "path": "docs/Siebenwind_Wiki/05_Geschichte/Angriff_der_Schwarzmagier.md"
@@ -10952,6 +10996,28 @@
           "title": "Tod von Tandrion_Intoma"
         },
         "path": "docs/Siebenwind_Wiki/05_Geschichte/Tod_von_Tandrion_Intoma.md"
+      },
+      {
+        "analysis": {
+          "bridge_status": "none",
+          "classification": "article",
+          "duplicates": [],
+          "has_frontmatter": true,
+          "stub_status": "none"
+        },
+        "changes": [],
+        "meta": {
+          "category": "Geschichte",
+          "epistemic": "\"#forum #perspektive\"",
+          "lore_trust": "4",
+          "quelle": "\"../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_treiben_im_rathaus.md\"",
+          "report_id": "8eca78da-07e1-4253-b39b-c01fa411a44a",
+          "status": "gepflegt",
+          "title": "\"Treiben im Rathaus\"",
+          "updated_at": "\"2026-06-11T15:14:33Z\"",
+          "uuid": "32bf5048-cfba-499d-8f17-acdca7373a46"
+        },
+        "path": "docs/Siebenwind_Wiki/05_Geschichte/Treiben_im_Rathaus.md"
       },
       {
         "analysis": {
@@ -11824,6 +11890,28 @@
         },
         "changes": [],
         "meta": {
+          "category": "Erzählung",
+          "epistemic": "\"#forum #perspektive\"",
+          "lore_trust": "4",
+          "quelle": "\"../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_aufkeimende_schatten_in_der_dunkelheit.md\"",
+          "report_id": "6724cc74-e63c-4736-b50f-cc2d877d86c6",
+          "status": "gepflegt",
+          "title": "\"Aufkeimende Schatten in der Dunkelheit\"",
+          "updated_at": "\"2026-06-11T15:22:49Z\"",
+          "uuid": "a6401b4d-d4d0-426e-8236-2e3144ab4a2f"
+        },
+        "path": "docs/Siebenwind_Wiki/06_Erzählungen/Aufkeimende_Schatten_in_der_Dunkelheit.md"
+      },
+      {
+        "analysis": {
+          "bridge_status": "none",
+          "classification": "article",
+          "duplicates": [],
+          "has_frontmatter": true,
+          "stub_status": "none"
+        },
+        "changes": [],
+        "meta": {
           "category": "Allgemein",
           "title": "\"Der Flug der Ente\""
         },
@@ -11888,6 +11976,28 @@
           "uuid": "v4nsk4p-dunk-2026"
         },
         "path": "docs/Siebenwind_Wiki/06_Erzählungen/Dunkeltief-_Vaenskap.md"
+      },
+      {
+        "analysis": {
+          "bridge_status": "none",
+          "classification": "article",
+          "duplicates": [],
+          "has_frontmatter": true,
+          "stub_status": "none"
+        },
+        "changes": [],
+        "meta": {
+          "category": "Erzählung",
+          "epistemic": "\"#forum #perspektive\"",
+          "lore_trust": "4",
+          "quelle": "\"../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_fuchs_streift_durch_die_w_lder.md\"",
+          "report_id": "6b7103cb-8c73-4de1-88db-d6338b14437d",
+          "status": "gepflegt",
+          "title": "\"Ein Fuchs streift durch die Wälder\"",
+          "updated_at": "\"2026-06-11T15:22:49Z\"",
+          "uuid": "2e523c83-2a49-4865-af54-feffe1a2a2c7"
+        },
+        "path": "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Fuchs_streift_durch_die_Waelder.md"
       },
       {
         "analysis": {
@@ -11993,6 +12103,28 @@
           "title": "Waldemar Delaries Reise nach Papin"
         },
         "path": "docs/Siebenwind_Wiki/06_Erzählungen/Waldemar_Delaries_Reise_nach_Papin.md"
+      },
+      {
+        "analysis": {
+          "bridge_status": "none",
+          "classification": "article",
+          "duplicates": [],
+          "has_frontmatter": true,
+          "stub_status": "none"
+        },
+        "changes": [],
+        "meta": {
+          "category": "Erzählung",
+          "epistemic": "\"#forum #perspektive\"",
+          "lore_trust": "4",
+          "quelle": "\"../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_xiii.md\"",
+          "report_id": "06434847-2f88-4104-8d43-bc8312ccfb1c",
+          "status": "gepflegt",
+          "title": "\"XIII\"",
+          "updated_at": "\"2026-06-11T15:17:22Z\"",
+          "uuid": "064d786f-94bc-40d5-bd04-a25921bd710d"
+        },
+        "path": "docs/Siebenwind_Wiki/06_Erzählungen/XIII_Erzaehlung.md"
       },
       {
         "analysis": {
@@ -22966,7 +23098,7 @@
     "render_hygiene": {
       "issues": 0
     },
-    "scanned_files": 1361,
+    "scanned_files": 1367,
     "split_brain": {
       "files": [],
       "issues": 0

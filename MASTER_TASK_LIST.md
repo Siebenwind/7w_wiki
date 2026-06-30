@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** Aktiv & Sandbox-Resilienz (v1.1)
-- **Last Handover**: 2026-04-19 (Codex → Next Agent)
-- **Status**: Forum-Geschichten sind von metadata-only zu einem agentischen Ingestion-v2-Pfad gehoben: `scout --archive-fulltext`, `ingest forum-queue/forum-inspect/forum-draft/forum-finalize` und `reports-calibrate` existieren; Ergon wurde als Update-Pilot integriert und das Orkische Handelskontor als quellengetragener neuer Artikel angelegt. `audit --json` meldet `issues_found = 0`; `pages validate --contract --json` bleibt wegen des bestehenden Pages-Linkbacklogs WARN (`629` unresolved, `627` unallowlisted, `616 needs_historian`), nicht wegen Drift oder Audit-Gates.
+- **Last Handover**: 2026-06-11 (Codex → Next Agent)
+- **Status**: Tech-Master-Handover abgeschlossen. `stats`, Archivrotation, Tool-Manifest und `test --suite all` laufen durch; lokale Session- und Wissenswerk/v2-Residuen sind per `.gitignore` aus der Hauptrepo-Sicht genommen. `audit --pages` meldet saubere Register-, Contract- und Bridge-Gates; `pages validate --contract --json` bleibt wegen des bestehenden Pages-Linkbacklogs WARN/Strict-Link-FAIL (`629` unresolved, `627` unallowlisted, `616 needs_historian`), nicht wegen Drift oder Audit-Gates.
 
 ---
 
@@ -16,7 +16,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 - [x] **Zeitstrahl Structural Repair**: `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md` wurde von einem strukturell korrumpierten Mischdokument auf eine kompakte Chronik-Uebersicht mit Verweisen auf `Historie & Aeren` und `Zeitleiste (15-30 n.H.)` zurueckgefuehrt.
 
-- [ ] **Semantic Pages Backlog Triage**: `advisor --json` zeigt trotz technischem Drift-Fix weiter `Pages WARN` mit `637` unresolved Targets (`625 needs_historian`, `5 generic_term_conflict`). Der naechste Agent soll die bestehenden Board-/Backlog-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) als Arbeitsgrundlage verwenden und die semantische Begriffsarbeit strikt von mechanischen Reparaturen trennen.
+- [ ] **Semantic Pages Backlog Triage**: `advisor --json` zeigt nach Tech-Master-Refresh weiter `Pages FAIL` nur im Strict-Link-Gate (`629` unresolved Targets, `627` unallowlisted, `616 needs_historian`, `5 generic_term_conflict`). `drift_status = PASS`, und `repair --apply-lane1 --dry-run --json` plant aktuell `0` sichere mechanische Dateiedits. Der naechste Agent soll die bestehenden Board-/Backlog-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) als Arbeitsgrundlage verwenden und die semantische Begriffsarbeit strikt von mechanischen Reparaturen trennen.
 
 - [x] **Forum-Ingestion v2 Pilot**: Die Forum-Volltextarchivierung und agentische Verarbeitung sind als Runtime-Pfad umgesetzt. Zwei Pilotquellen sind integriert (`Ergon` als Update, `Orkisches Handelskontor` als Neuanlage), das Forumregister bleibt bei `201` Eintraegen mit `2 integrated`, und die Draft-Stilregel verhindert kuenftig OOC-Formulierungen im Artikelkoerper.
 

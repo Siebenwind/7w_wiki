@@ -1,0 +1,520 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - aufkeimende Schatten in der Dunkelheit..</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 11.06.26, 17:18<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=110358&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">aufkeimende Schatten in der Dunkelheit..</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=110358"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 4 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=110358&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=110358&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=110358&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p954397"></a>
+				<b class="postauthor">Vakgar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> aufkeimende Schatten in der Dunkelheit..</div><div style="float: right;"><a href="./viewtopic.php?p=954397#p954397"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 15.11.23, 04:04&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2121_1456060191.jpg" width="75" height="70" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 20.06.02, 10:00<br /><b>Beiträge:</b> 738<br /><b>Wohnort:</b> Wuthöhle!				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><span style="font-size: 55%; line-height: normal">[Spielerthread]</span><br /><img src="https://live.staticflickr.com/65535/53333158260_fecd9505c4_o.jpg" alt="Bild" /><br /><br /><br /><br /><span style="font-family: Yu Gothic UI Light;"><span style="font-style: italic">...die Nachwirkungen des zurückliegenden Dunkeltiefs kann man innerhalb der Stadtmauern der schwarzen Stadt förmlich greifen,<br />leere Gassen, so leer wie die Versprechen der Dämonen welche sich zur letzten Dunkelheit zeigten.<br />Komplizierte Vorgänge, undurchsichtige Gestalten, die Chroniken der Stadt sind bis auf wenige Ausnahmen voll damit..<br />nur eine kleine Hand voll Glaubensbrüdern &amp; Schwestern ist übrig gebieben, dazu noch über die halbe Insel versprengt.<br />Die Klüfte zwischen den Lagern, die in der Vergangenheit unüberbrückbar schienen, wenigstens sie schwinden nun zögerlich..<br /><br /><br />Inmitten all dessen sieht man eine maskierte Gestalt welche sich in den Schatten bewegt, die Maske .. der Schutz seiner Identität hat eine hohe Priorität.<br />alte Gewohnheiten legt man nicht so schnell ab, zu wenig Vertrauen in die Kirche .. die Inquisition. Insgeheim werden Verschwörungen gewittert, lieber etwas<br />erhöhte Vorsicht als brennend auf dem Scheiterhaufen zu liegen. Die Abkehr Angamons von Yerrodon, die Annäherung an die Götzen-Götter.. <br />Für viele war dies ein Sturz in die Bedeutungslosigkeit, keine Verwendung mehr zu haben hat an einigen genagt..<br />Nur die dunkle Bruderschaft der Tardukai hat durch die scheinbar stärkere Bindung zum Allmächtigen noch eine Aufgabe von Bedeutung.<br />Das Chaos im Reich der Dämonen, der Kampf um die Throne der Dämonenreiche scheint entbrannt.. durch diese Umstände gelangen die Dämonen<br />einfacher aus ihrer Spähre in die unsere, was auch die Anzahl derer die im letzten Dunkeltief zu uns kamen erklärt.<br />ein jeder Dorftrottel ist nun im Stande einen Dämon herzulocken, ihn zu kontrollieren ist ein Ding der Unmöglichkeit ohne das richtige Wissen.<br />eben dieser Umstand macht alles unkontrollierbar, unerträglich..<br /><br /><br />Wissen .. <br />auf seiner Stola die er trägt, stehen in einer fast vergessenen dunkeln Sprache die Worte &quot;der Erhalt des alten Wissen ist der erste Schritt zu größerer Macht&quot;.<br />In den zurückliegenden Monden wurde der Wissensstand stetig erhöht, die Worte und Schriften seines alten Meisters Exzellenz Sullin, waren dabei ein unschätzbares Werkzeug.<br />Die Werke in der Magistrats Bibliothek wurden begierig aufgesaugt, in vielen Werken stehen die Namen von Veteranen der linken Akademie.<br />Darel.. Ahriman.. Valkun <br />verschiedenste Kulte und Gruppierungen wie die Scutum Umbrae oder den Kult der Schattenhand werden erwähnt.<br />Einer der Gründe weshalb die maskierte Gestalt auf dieser Insel weilt, ist das sein älterer Burder welcher Mitglied der Schattenhand war.. <br />in den Reihen der Rittergarde enttarnt wurde und die Kirche seine Hinrichtung durchführte - die Rache dafür wird die Insel in Schmerz ertränken.<br /><br /><br />Seine Vorbereitungen auf die sehnsüchtig erwartete Dunkelheit laufen auf Hochtouren, in alten Aufzeichungen fand er Hinweise auf einen<br />längst vergessenen Schrein, tief verborgen im Schoß der Insel. Noch bevor die dunkeln Schatten über Siebenwind herfallen, war es eines<br />seiner Ziele die Weihe des Schreins aufzufrischen, ein Opfer für den allmächtigen Gottkönig, um zu zeigen das seine Anhängerschaft immer noch im wahren Glauben verbunden ist.<br />Unerwartet bekam er Hilfe bei diesem Unterfangen, die Suchende und ein getreuer Diener seines Meisters unterstützen ihn bei ersten Erforschungen..<br />Wenn er sich schon in seiner eigenen Rolle nicht gänzlich entfalten kann, so führen sie zusammen den vermeintlichen Willen Angamons aus.<br /><br /><br /><img src="https://live.staticflickr.com/65535/53332653751_f4781eebfd_o.jpg" alt="Bild" /><br /><br /><br />die Suchende .. <br />selten ist es geworden das die Diener der Götzen vom Glauben abfallen, zuviel derer Lügen die sie ertragen müssen.. Sie ist eine davon.<br />Vor den Toren des Goblinlagers hatte er sie einst aufgelesen, auch wenn das &quot;verführen&quot; der Verblendeten das Tagewerk der dunkeln Tardukai Streiter ist,<br />so ist der Maskierte vielleicht nicht ganz so Wortgewandt wie sie, doch vermag er den verlorenen Seelen den rechten Weg zu wahrer Erleuchtung zu weisen.<br />Manchen die Augen gänzlich zu öffnen, ist ein langwieriger Vorgang, der meinst nicht ohne Stolpersteine oder Rückschläge bleibt.<br />So ist es auch bei ihr, vieles ist schwer zu begreifen oder zu erfassen. Ansichten sind verschieden, gerade unter den verbleibenden Gruppierungen.<br />Einblicke in diesen Weg den es einzuschlagen gilt, vermag er ihr zu zeigen mehr nicht. Ein jeder von ihnen muss die Überwindung selbst aufbringen sich dieser Herausforderung zu stellen.<br />Nicht alle sind wie er, in diesen Weg hineingeboren worden. Zu den undankbarsten Zeiten, die Hoch-Zeit der Inquisition, wurden ihm das Fundament seines heutigen Seins gelegt,<br />begleitet von schmerzhaftem Verlust und anderen Bürden die ihm auferlegt wurden.<br />Aber am Ende dieses Weges liegt die Wahrheit, man muss die Fesseln der Götzen-Diener sprengen, vergiftet von Lügen, klein gehalten.. kontrollierte Sklaven sind sie .. mehr nicht.<br /><br /><br /><br />es liegt nicht in seiner Hand ..<br />denn die Suchende ist keine Arkane, vom Kriegshandwerk &amp; Taktik hat er keinen blassen Schimmer. Sein Faibel für Nekromantie hat ihn schon das ein oder andere mal in Schwierigkeiten gebracht.<br />&quot;Sie&quot; war eher abgeschreckt von seiner Faszination für die Untoten, er erklärte ihr das der Weg der Tardukai die bessere Wahl wäre. Aber auch diese verfallen allmählich in eine Art Lethagie.<br />Zu verübeln ist es ihnen nicht, so waren sie einst gefürchtet wenn sie zu Pferd umherritten und den Götzen Dienern die kalte Angst in die Knochen trieben. Davon übrig blieb nicht viel, Verträge und Bundschaften<br />wurden mit den Götzen Dienern eingegangen, so wie es auch in der schwarzen Stadt der Fall war. Die Annäherung an die Verblendeten, der erste große Fehler von vielen.<br />Wenigstens ein paar dieser Fehler wurden in der kürzlich zurückliegenden Zeitspanne vergessen gemacht, jedoch lag ihnen noch zuviel an den Seelen der Hafenstadt.<br />Vorerst bleibt nur die Hoffnung auf eine Rückkehr düsterer Zeiten hier und dort, angesichts dieser ungewissen Zukunft wird sich noch die ein oder andere Sichtweise ändern.<br /><br /><br /><br />die Schatten der Niederhöllen welche seinen Körper umhüllen färbt er Blutrot, die Farben der Blutgarde. Aus Gedenken an zurückliegende Zeiten trägt er die Farben offen als er sich auf<br />dem Weg zum Heiligtum befindet. Im Gebet seinen Geist zu stärken, zu meditieren dazu fühlte er sich in der letzten Zeit hingezogen. Als er die Stufen des Tempel hinabschreitet, fällt ihm eine Gestalt vor dem Altar auf.<br />Sie platziert selbstgefertigte Kerzen rings herum, mit einem Besen wird das Heiligtum von Unrat gesäubert. Die eisigen Flammen Ifri’gha’Sirrak&#39;s welche in den Feuerschalen auf dem Altar für das wenige Licht im Innenraum des Tempels sorgen,<br />schützen eigentlich das gewohnte Auge vor zunehmenden Staub auf den Bänken, aber es beruhig zu sehen das sich noch einige wenige sich um dessen Erhalt mühen.<br />Noch bevor seine Anwesenheit bemerkt wird, schreitet er die letzten Stufen hinab, verborgen im Schatten spricht er kaum hörbar sein Gebet..</span></span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="font-family: Ink Free;">Als Ehrfürchtiger Anhänger versammele ich mich im Schatten deiner Macht,<br />Angamon, der einstige Dämonenkönig, geächteter Sohn Vitamas und Bellums, erhebe dein finsteres Banner über uns, <br />und wir verkünden stolz unsere Treue zu deiner skrupellosen Herrschaft.<br />Aus der Finsternis der zweiten Sphäre, verbannt .. verdrängt bete ich dafür das du die Kraft findest die Macht über die Dämonen der Niederhöllen zurück zu gewinnen.<br />Mögen wir, deine demütigen Diener, ebenfalls die Kraft finden, unsere inneren Dämonen zu beherrschen und für unsere eigenen Ziele zu instrumentalisieren.<br /><br />Du predigst die Befreiung von den Fesseln der Regeln, die uns kleinhalten wollen. In Deiner Lehre finden wir die Kraft, unser Potenzial zu entfesseln und uns nicht den vorgegebenen Normen zu beugen.<br />Möge unsere Treue zu dir Herr, uns vor den Schwächlingen der Viereinigkeit schützen. Möge unser Glaube uns die Kraft verleihen, selbst in den Tempeln der Viere zu wandeln, ohne von ihrer Schwäche beeinflusst zu werden.<br />In der Finsternis finden wir Stärke, in der Selbstsucht finden wir Freiheit, segne uns mit deiner Macht und lenke unsere Schritte auf dem Pfad der Skrupellosigkeit.<br /></div></span><br /><br /><img src="https://live.staticflickr.com/65535/53332928728_d4c51a5e22_o.jpg" alt="Bild" /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2121"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p954424"></a>
+				<b class="postauthor">Vakgar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: aufkeimende Schatten in der Dunkelheit..</div><div style="float: right;"><a href="./viewtopic.php?p=954424#p954424"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 25.11.23, 04:02&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2121_1456060191.jpg" width="75" height="70" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 20.06.02, 10:00<br /><b>Beiträge:</b> 738<br /><b>Wohnort:</b> Wuthöhle!				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://live.staticflickr.com/65535/53354203424_bba24a1606_o.jpg" alt="Bild" /><br /><br /><br /><br /><span style="font-family: Yu Gothic UI Light;"><span style="font-style: italic"><br />..Auf dem Rückweg vom Schlund, stolpert die maskierte Gestalt auf eine bunt zusammengewürfelte Truppe am Schlachtenpass..<br />Ein Ork, Mitglieder der Marine .. Bürger Brandensteins welche einen verwundeten Jäger begleiten.<br />Angriffe irgendeiner Kreatur haben ihn etwas mitgenommen, er wirkt verwirrt.. hat Blut im Gesicht und musste seine tierische Beute zurücklassen.<br />der Maskierte folgt dem Trupp im sicheren Abstand - Sie schlagen sich durch die Wälder nord-westlich vom Schlachtenpass.<br />die Nähe zum neu hochgezogenen Goblinfort vermittelt kein gutes Bauchgefühl, als sie sich einer Höhle nähern.. dessen Eingang kaum mehr als ein schattenhafter Schlitz ist.<br />eine alte Mine, düstere Skelette kommen ihnen entgegengestürmt als sie einen Fuß hineinsetzen.<br /><br /><br />je tiefer sie in die alte Mine vordringen, desto mehr Skelettwächter kommen ihnen entgegen. Es bietet sich ihnen ein für Unwissende schreckliches Schauspiel dar..<br />Kopflose Kreaturen, mit weißer bleicher Haut welche über Kadaver von Goblins gebeugt sind und diese mit primitivem Werkzeug zu Leibe rücken..<br />Knochen werden zermahlen, manche der Kadaver wirken schon gut ausgebeutet... aber welchen Zweck hat das Ganze..?<br />große Haufen bearbeiteter Knochen türmen sich im fahlen Fackelschein der Höhle auf, sie scheinen wohl schon länger dieser Arbeit nach zu gehen..<br />Noch bevor er weiterforschen kann, schwingen die stumpfen Götzendiener ihre Waffen und die 3 kopflosen Kreaturen fallen ihnen zum Opfer..<br /><br /><br />Hätten sie doch wenigstens einen von ihnen am Leben gelassen, um ihn genauer zu untersuchen.. aber Nein!<br />Ihre Furcht war schon zum greifen nah, als sie den ersten Blick auf die Leichenteile warfen..<br />Daher war es abzusehen das die &quot;altbewährte&quot; Methode .. Erst  schlagen, dann fragen angewandt wurde.<br />Nun Tote stellen dann keine Fragen mehr, aber Antworten können sie dann auch keine mehr geben.<br />Wie befiehlt man Kreaturen die nicht sehen oder hören können..? Für den Maskierten war schnell klar das dort mehr hintersteckt, als das Auge zu erblicken im Stande ist..<br />Noch während der Trupp die Arbeitsbereiche wie Plünderer nach wertvollem Besitz durchsuchen, macht sich der Maskierte daran den Knochen-Staub aus den Schalen am Boden zu analysieren..<br />Den Staub zerreibt er zwischen Zeigefinger und Daumen, als er Überreste einer fremdartigen Energie vernimmt stellen sich ihm die kleinen Nackenhaare auf. <br />nachdem er die Energie-Signatur nicht gänzlich zuordnen kann, verbringt er einige Staubproben in einen kleinen Beutel..<br /><br /><br /><img src="https://live.staticflickr.com/65535/53354271129_0937599d2b_o.jpg" alt="Bild" /><br /><br /><br />Es hält den Maskierten nicht mehr in den schützenden Schatten, zuviele der Spuren schwinden dahin.. eine Ader auf der Stirn pocht stark auf als einer der Goblins des Orken über die Kadaver der drei kopflosen Bleichen läuft..<br />Neben einem der bleichen Überreste geht er in die Hocke, mit einer Hand auf der Brust der Kreatur versucht er auf arkaner Ebene, eine Verbindung zu den verbleibenden Lebenslinien des Wesens..<br />mit jedem Blutstropfen der aus dem Kadaver in den sandigen Höhlenboden einsickert, scheint die Spur schwächer zu werden.<br />An einem lebenden Objekt wäre dies durchaus einfacher gewesen, aber dazu gab es ja keine Chance. Also bleibt nur diese Wahl übrig um vielleicht eine Signatur oder ähnliches, von dem Beschwörer oder Erschaffer der Kreaturen zu erhaschen.<br />die herabwürdigen, herrischen Worte des Marine Admirals während dieses Vorgangs weiß er zu ingorieren, zu wichtig wären weitere Erkenntnisse für ihn..<br />Aber die Furcht vor ihrem Nicht-Wissen kann auch die vulgäre Aussprache des Admirals nicht kaschieren.. Tief muss er &quot;graben&quot; bis er auf fast verblasste Eindrücke einer fremden Energie stößt.<br /><span style="font-weight: bold">eine symmetrische, geometrische, abstrakte... und erstaunlich asketische verblasste Spur</span><br />als er diese Überreste der Spur wahrnimmt, lößt er sofort den Kontakt zum Kadaver .. er hat für Sekundenbruchteile das Bild eines riesigen Knochenschädel vor seinen Augen.. eine alte Erinnerung?<br /><br /><br />Der Maskierte hatte wohl auf andere Erkenntnisse gehofft, etwas mehr Chaos .. vielleicht Zeichen Angamons auf bevorstehende Ereignisse.<br />Kaum hat er sich von den Eindrücken erholt, werden Waffen auf ihn gerichtet, auf ihn eingeredet .. Die Götzendiener suchen wohl einen Sündenbock für die ganze Aufregung.<br />Verscheuchen lässt er sich jedenfalls nicht und als die Wortgefechte ihr Ende finden, rückt der Trupp in Richtung Heimat ab.<br />Vor der Höhle treffen sie Hannes, den mitgenommenen Jäger - Sein Messer sieht er wohl nicht mehr wieder.<br />Nach eingehender Betrachtung kommt der Maskierte zum Schluss das der Waidmann kein Teil dieses Puzzles zu sein scheint,<br />eher hat er die ganzen Vorkomnisse durch seine Ungeschickteit oder Zufall erst ins Rollen gebracht..<br />genug der Konfrontation, er selbst zieht sich in den Schutz der schwarzen Stadt zurück um einige Gedanken revue passieren zu lassen..<br /><br /><br />später in der Nacht behält der Maskierte den Eingang zur alten Mine im Blick, erst als er sicher ist das die Luft rein ist, begibt er sich abermals hinein..<br />die Spuren am Ort der Schande, sind schon lange verblasst als er sich den Überresten nähert.<br />Er verbringt viel Zeit damit die bearbeiteten Knochen zu mustern, Werkzeuge aus ihnen sind nichts ungewöhnliches .. aber die schiere Menge an<br />Material in der Höhle zwingt ihn über deren Zweck zu grübeln..<br />Ein abgetrennter Goblinkopf auf einem der Tische zieht seine Aufmerksamkeit auf sich, es scheint als würde der Maskierte sich die Handschuhe ausziehen..<br />ein primitiver Dolch aus Rattenzähnen gleitet über die ungeschütze Handfläche, die Hand wird  zur Faust geballt und einige Tropfen Blut fallen auf den Goblinschädel hinab..<br />Zeigefinger und Daumen der anderen Hand berühren jeweils eines der Augen des Goblins, dunkle Schatten haben Kontakt mit der Netzhaut..<br />Vor seinem geistigen Auge, sieht der Maskierte die letzten Augenblicke des Goblins bevor ihm der Kopf vom Rumpf geschlagen wird, von einer der kopflosen bleichen Kreaturen,<br />danach bricht die Vision ab und die geballte Faust donnert frustriert auf den Tisch hinab, worauf hin der Kopf hinunterkullert.<br />als die Bewegungen des Kopfes zum Stillstand kommen, liegt er vor dem großen Schädelhaufen, auf dessen Spitze der schwarze, verzierte, leuchtende Schädel thronte..<br />die Matrosin der Marine hatte den Schädel an sich genommen, bevor er sich ihm auch nur nähern konnte .. die vermeintliche letzte Spur. <br /><br /><br /><br /><img src="https://live.staticflickr.com/65535/53353680136_b84337a10b_o.jpg" alt="Bild" /></span></span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2121"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p954439"></a>
+				<b class="postauthor">Vakgar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: aufkeimende Schatten in der Dunkelheit..</div><div style="float: right;"><a href="./viewtopic.php?p=954439#p954439"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 4.12.23, 01:01&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2121_1456060191.jpg" width="75" height="70" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 20.06.02, 10:00<br /><b>Beiträge:</b> 738<br /><b>Wohnort:</b> Wuthöhle!				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://live.staticflickr.com/65535/53373784520_5f5813c082_o.jpg" alt="Bild" /><br /><br /><br /><span style="font-family: Yu Gothic UI Light;">in einer schummrigen Grotte hockt die maskierte Gestalt an einem unaufgeräumten Schreibtisch über ein Buch gebeugt,<br />es wirkt wie aus Leder, aber es ist zu dunkel als würde es von einem Schwarzbären oder Höhlenwolf stammen.. alt sieht es jedenfalls aus, mit einer Vielzahl von Symbolen.. <br />die Geschehnisse vom gestrigen Königstag noch verarbeitend, fertigt er grobe Zeichnungen an, von dem Kopf einer Kreatur, von einer Hand mit eingebrannten<br />Zeichen von Faisons Klan aus der Enklave, einer Körperstruktur, nebenbei sind allerhand Kommentare oder schriftliche Ergänzungen zu finden..<br />In seinen Gedanken schwelgt er noch in den markanten Erinnerungen des erlebten Vortages..<br /><br /><br /><span style="font-style: italic">gerade als er seine Spuren auf dem Morsansacker bei Brandenstein beseitigen will, erklingt das Horn der Wachleute am Nordtor. War er doch zu weit weg, als das man ihn in der<br />Dunkelheit bei der Ausübung seiner Tätigkeiten entdeckt hätte, nachdem die Spuren verwischt sind lauert er im Waldstück rund um die Mine abseits des Nordtores und es dauert<br />auch nicht lang, bis einige brave Bürger Brandensteins dem erklingen des Hornes nachgehen. Die Torwache meint etwas hätte die Dunkelheit im Wald erleuchtet, nicht weit weg von <br />ihrer Position. Die Neugier ist zu stark, er folgt dem Brandensteiner Trupp tiefer in den Wald und dort treffen sind auf eine Hand voll Kultisten aus der alten Enklave Finsterwangens,<br />welche scheinbar im Wald einige verstümmelte Kadaver von einem Karren laden.<br /><br /><br />einer der höhern Schüler des Kultes scheint den Trupp anzuführen, jedenfalls bellt er Befehle und die anderen müssen knechten, den Leichen die sie auf der Waldlichtung<br />ablegen, fehlen offensichtlich Teile des Schädels, hastig entfernen alle Drei Gestalten Kennzeichungen und andere Zugehörigkeits-Symbole welche auf Faisons Kult Rückschlüsse zulassen würden..<br />Als der maskierte das äußere des Knochenmasken tragenden Schülers mustert, fällt ihm seine große Kette auf die um seinen Hals hängt, er vernimmt Spuren von einer Art Fluchmagie, selbst auf die etwas größere<br />Entfernung bis zu seinem Versteck im dichten Blattwerk des Brandensteiner Waldes..<br />Welche Bürde trägt der arme Hund? Was hat er angestellt das seine Meister ihn so strafen..?<br />Ein spitzohriger Diener des Schwertherren stößt zur Brandensteiner Gruppe, das Schänden der Leichen bleibt nicht lange ungesühnt und kurze Zeit später, fliegen die ersten Feuerbälle<br />auf die Kulisten der Enklave, die niederen sind keine Gegner und liegen rasch neben den Leichen die sie zuvor abgeladen haben.<br /><br /><br />Nun steht nur noch der Schüler Nofias da, umzingelt von Marine Soldaten und den Priestern. Die Niederlage sieht er scheinbar schon kommen und wendet sich verzweifelt an den Maskierten.<br />Aber er hilft ihm nicht, auch wenn sie vielleicht entfernte Brüder im Glauben sind, hat der Schüler oder seine Meister nichts zu bieten, was der Maskierte nicht schon von Faison selbst geraubt hätte<br />und so überlässt er Nofias seinem Schicksal. Er wird rasch zu Boden gebracht und die Götzen Diener der Kirche tun das was sie am besten können.. Foltern..<br />unter unerträglichen Schmerzen erzählt er etwas von einer Bestie die sein Kult über Brandenstein entfesseln will und einige wirre Worte bevor der Ignis-Diener ihn in Flammen aufgehen lässt..<br />Einiges geht in Flammen auf, mal wieder sind die Spuren schneller vom Wind verweht als das sich der Maskierte ernsthaft damit befassen könnte. Der Karren, die Leichen, die Diener, der Schüler, von ihnen<br />bleibt nichts als Asche übrig.<br /><br /><br /><img src="https://live.staticflickr.com/65535/53372941996_db2ba29f14_o.jpg" alt="Bild" /><br /><br /><br />Nur kurze Zeit bleibt den &quot;Sieg&quot; auszukosten, eine der bleichen Kopflosen Kreaturen, welche sie schon in der alten Mine vorgefunden haben, huscht durch die Wälder auf der Flucht..<br />Die Kreatur versucht durch das Portal zurück in die Öde, zu Faisons Enklave zu entkommen, aber verläuft sich im Wald. Ohne Kopf in der Dunkelheit sieht es sich wohl schlecht .. auch er stirbt den Feuertod in den Wäldern.<br />die Brandensteiner gehen der Spur nach und schlüpfen durchs Portal, auf der anderen Seite angekommen präsentiert Faisons Kult ein Empfangskomitee. <br />der Lärm des Kampfgetümmels wird von einem ohrenbetäubenden Schrei unterbrochen, aber er kommt nicht aus Faisons Festung, sonder eher östlich aus der Öde..<br />Sie ziehen sich von den alten zerfallenen Stadttoren zurück und auch die Kultisten setzen ihnen nicht allzu sehr nach..<br /><br /><br />etwas Abseits treffen sie auf eine riesiege Bestie, eine erschaffene Kreatur fast 3 Schritt groß, wo sie gerade dabei ist einen von den gerüsteten Kultisten zu erschlagen. dem armen Knecht neben ihm ergeht<br />es nicht anders, die Bestie greift ihn mit den großen Klauen und beißt ihm in den Schädel und frisst scheinbar sein Hirn. die Brandensteiner befinden sich noch in einer Art Schockstarre, doch auch der Maskierte sucht lieber<br />etwas Abstand zu der massiven Bestie.. es dauert nicht lange bis sie angreift, aber umso erstaunlicher das sie keinen langen Kampf liefert sondern schnell zu Boden geht.. Ungewöhnlich wo sie doch so bedrohlich aussah .. <br />und den gerüsteten Kultisten den Kopf abgerissen hat, als würde man eine Beere vom Strauch abpflücken.<br /><br /><br />als der Maskierte die Kreatur untersucht, ist das ganze schon von einer gewissen Hektik begleitet.. da im Hintergrund schon die beiden Leichen der Kultisten in Flammen aufgehen.<br />die verblassenden Strukturen im Inneren der Bestie sind von erstaunlich geordneter Struktur - streng, geometrisch, eine elegante Einfachheit - eine Handschrift unbekannter Erschaffer..<br />die Merkmale werfen wieder mehr Fragen auf als sie beantworten können, als er von der Kreatur ablassen will, fällt ihm ihre scheinbar maßgefertigte Knochenmaske auf, mit einem der Finger<br />streicht er über die tiefen Riefen welche jemand dort mit großer Handwerkskunst hineingetrieben hat, sie ergeben kein bekanntes Muster während er den Rest der Knochenmaske betrachtet.<br />Nicht viele sind in der Lage aus den Knochen auch nur halbwegs was brauchbares zu fertigen, meistens ist es mehr Schmuck oder Werkzeug... Masken oder ähnliches sieht man eher selten.<br />forscht er doch selbst gerade an einem alten Knochenstab und befasste sich mit der Materie rund herum, aber sieht sich nicht in der Lage Rückschlüsse auf den Hersteller oder ähnliches zu machen..<br />Aber wer auch immer in der Lage war, so einen Druck auf Faisons Kult auszuüben, scheint ein Gegner zu sein den man besser nicht unterschätzt. Nur wenige können von sich behaupten schonmal das<br />innere von Faisons Turm gesehen zu haben und das zu Recht, weil mit den fanatischen Irren nicht gut Kirschen essen ist..<br /><br />Der Trupp entfernt sich aus der Reichweite der Enklave zurück nach Brandenstein, nachdem er seinen Hunger gestillt hat verschwindet auch der Maskierte aus der Stadt..<br />Zurück in Finsterwangen, findet er sich in der Grotte ein, die Maske legt er neben sich auf den Tisch, etwas was wie ein dunkler Grubenwolf amutet schmiegt sich an die Beine des Mannes..<br />aus der Quelle in der Wand der Grotte füllt er etwas von dem eiskalten Wasser in eine Karaffe ab, noch bevor er  den schwarzen Vandrischen Glaskelch befüllt, gießt er etwas von dem Wasser<br />in eine Schale auf dem Boden, erst dann gönnt er sich selbst einige erfischende Schlücke aus dem Kelch und ergreift den Knochenstab der seitlich am Schreibtisch angelehnt ist.<br />Als er diesen genauer betrachtet und mustert, kreisen seine Gedanken nur noch um die Bestie..<br /><br /><br /><br /><br /><img src="https://live.staticflickr.com/65535/53373751094_e002e329d8_o.jpg" alt="Bild" /></span></span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2121"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p954453"></a>
+				<b class="postauthor">Vakgar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: aufkeimende Schatten in der Dunkelheit..</div><div style="float: right;"><a href="./viewtopic.php?p=954453#p954453"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 11.12.23, 02:10&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2121_1456060191.jpg" width="75" height="70" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 20.06.02, 10:00<br /><b>Beiträge:</b> 738<br /><b>Wohnort:</b> Wuthöhle!				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://live.staticflickr.com/65535/53389138751_6019186647_o.jpg" alt="Bild" /><br /><br /><br /><span style="font-family: Yu Gothic UI Light;"><span style="font-style: italic"><br />auf dem Rückweg von der Sägemühle, wo ihm die Schreinermeisterin bei der Restauration des Knochenstabes zur Hand<br />gegangen ist, verweilt er noch am Hafen, die Überreste seiner Magischen Tarnung entfernend in der Dunkelheit des Schlachthauses,<br />aus dem die wilden Oger grunzend um ein Stück Fleisch streiten.<br />ein Gruppe Brandensteiner in Begleitung zweier Trinkwunder aus der Hafenpinte kommt durch das Stadttor zum Hafen hinab.<br />Einige Matrosen sind wohl seit kurzem aus den dunkeln Kanälen unterhalb des Hafenviertels verschwunden..<br />Der Maskierte folgt dem Trupp, aber im stinkenden Rattenloch werden sie erstmal nicht fündig.<br /><br /><br />Der Abgang zur Kanalisation unterhalb des Hafens ist ihr nächstes Ziel, schon kurz nachdem sie durch die dunkeln Gänge strobern,<br />werden sie auch schon von Skelettdienern attackiert, nicht weit entfernt laufen die bleichen kopflosen Kreaturen fluchtartig davon.<br />Der Ork aus der Gruppe der Brandensteiner überwältigt einen von ihnen und der kopflose verliert einen goldenen Schädel.<br />Während sie die Gänge nach weitern Spuren erkunden, ist der Maskierte kurzweilig fasziniert wie die früherern Hafenbewohner die<br />Gänge in Räume mit gewissen Funktionen verwandelt haben.<br /><br /><br />ein Kokon in der dunkeln Ecke fällt dem Maskieren ins Auge, er ist eigentlich zu groß für einen einfachen Spinnenkokon. Das Material aus dem er besteht ist auf den<br />ersten Blick keine Spinnenseide, es sieht perlmutt matt schimmernd aus .. bei genauerer Betrachtung könnte man meinen etwas im Inneren scheint sich zu bewegen<br />zumindestens sieht es so aus. Als der Kapitän den Säbel ansetzt und den Kokon öffnet, zerfällt er ähnlich wie Porzellan in viele ungleiche Scherben.<br />in seinem Inneren waren eine vielzahl an Schädeln deponiert, welche nun herauspurzeln und auf dem Boden verbleiben.<br />Die anderen erfoschen ein weiteres mal die verzweigten Gänge, während der Maskierte bei dem Haufen verbleibt.<br />Bei nährerer Betrachtung des Schädelhaufens vernimmt er die selbe Magie-Signatur wie bei den bleichen zuvor in der alten Mine und der Ausweider Kreatur bei der Enklave,<br />aber etwas fehlt um die Funktion des Zaubers zu komplettieren, der goldene Schädel des Kopflosen welchen sie zuvor erschlugen erweist sich als der Schlüssel des ganzen.<br /><br /><br />nachdem er das Portal, welches sich in dem Schädelhaufen geschickt verborgen hatte mitsamt dem goldenen Schädel geöffnet hat, tritt die Gruppe nach vorheriger Prüfung durch<br />das schimmernde Tor.. hinter dem Portal eine Fremde Szene - Sie sind in einer hohen Höhle weit entfernt auf dieser Insel, unter der Oberfläche .. aber keiner weiß wo genau.<br />Vor ihnen ein Schein von Feuer, deren Schatten über eine reglose Statue spielen, überall Blut.. vereinzelt kommen noch Skelette aus den Ecken gekrochen, doch schnell<br />sind sie nur noch Knochenhäufchen am Boden, drei-vier große Räume in denen die Kopflosen, wie Arbeiter-Dronen ihren Aufgaben nachgehen, einige von ihnen sind über<br />zerteile Körperrümpfe gebeugt und bearbeiten diese mit Werkzeugen, andere scheinen zahlreiche Hirne zu sezieren.<br />Es wirkt nicht wie ein Lager, eher ein vorgelagertes Labor oder ähnliches, in einem der anderen Räume sind Körperteile, Hirne mitsamt Balsamierflüssigkeit in großen Behältern zu sehen.<br />die Angriffe der Skelette finden ein Ende und das Grüppchen findet eine Bestie, gleich der in der Enklave Finsterwanges, aber ein sichtlich jüngeres Exemplar.<br />Denn diese mal weiß die Bestie sich der Angreifer zu erwehren und wird erst nach zähem Kampf niedergerungen..<br /><br /><br /><img src="https://live.staticflickr.com/65535/53389374663_1fbd8b315f_o.jpg" alt="Bild" /><br /><br /><br />Aber noch bevor der Kampf mit der Bestie überhaupt beginnt, sieht man auf dem Ritualplatz den sie zu bewachen scheint eine Gestalt mit bleicher Maske. Die Gestalt ist auf der Flucht,<br />hektisch packt sie einige Gegenstände ein, verliert jedoch auch einige, als sie ist dabei sich durch ein Portal abzusetzen, welches dem das den Trupp in dieses Labor gebracht hat sehr ähnelt.<br />Kurz vor der Portalquerung stößt sie ein Zischlaut aus..<br /><br /><span style="font-weight: bold">ZzzzZZzzzzchhZ&#39;chhh&#39;ZhhZ&#39;zhhh!</span><br /><br />es schneidet durch den Raum, es schneidet sich durch ihre Gedanken.. noch geblendet von dem Eindruck, nutzt die bleiche Masken Gestalt die Chance zur Flucht.<br />Nachdem der junge Aufreißer besiegt wurde, untersuchen sie den Ritualplatz genauer, ein Kultist der Enklave wurde dort vor nicht allzulanger Zeit geopfert.<br />Dabei findet der einbeinige Seebär, ein knöchernen Schlüssel.. den die bleiche Gestalt wohl bei seiner hektischen Fluch verloren hat.<br />Bei der Rückverfolgung seines Fluchtweges ist der Schlüssel jedoch keine Hilfe, schwach magisch, aber nicht das richtige Puzzleteil um ihm nachzustellen.<br />Einzig eine tropische Wärme, die für einen Atemzug über alle Anwesenden hinweg wischt, verrät vielleicht den möglichen Ort den die Gestalt für seine Flucht genutzt hat.<br /><br /><br />die erkaltete Spur erst einmal außer Acht lassend, sehen sie sich weiter in dem &quot;Labor&quot; um, der Maskierte könnte Wochenumläufe hier verbringen.. zu fasziniert scheint er von der Akribie<br />der Unbekannten zu sein. Woran forschen sie hier..? Finden sie hier die Stärken und Schwächen der einzelnen Kreaturen oder Menschen der Insel heraus..?<br />Aber nicht nur Forschungen scheinen hier vorrangetrieben zu sein, in einem der Nebenräume finden sich ganze Tische voller Werkzeuge und ähnlichen Gegenständen,<br />allesamt aus Knochen gefertigt. ein Stab mit Klingen an beiden Enden des Stabes fällt dem Maskierten ins Auge, mit der Fingerspitze prüft er die Schärfe der Klinge.<br />Welche Kreaturen ihnen wohl noch mit feineren Todeswerkzeugen aus Knochen als nächstes Gegenüberstehen würden..?<br /><br /><br />in einem anderen Raum sind Gefängnis-Zellen vorhanden, ein verwahloster Oger und einer der Faison Kultisten sind hier eingesperrt. Bei dem Versuch dem noch lebenden<br />Kultisten Informationen zu entlocken, verfällt dieser in eine Art Wahn und findet sein Ende ohne auch nur ein Wort ausgesprochen zu haben.<br />Nebenbei arbeiten die bleichen Kopflosen, weiter an der Extraktion von Knochen aus unbekannten Kadavern, während im nächsten Raum<br />die Arbeiter-Dronen Schädel und Hirne vermessen..? vorbereiten..?<br />Die Götzendiener, allesamt unter Schock von dem was sie dort in dieser finsteren Höhle vorgefunden haben.. Aber auch der Maskierte hat an dem was er erblickt hat zu knabbern..<br />Der Erforschung der Nekromantie hat er sein Augenmerk gewidmet, er steht noch weit am Anfang seines Wissens, die schiere Perferktion mit der die Bleichen vorgehen lassen ihn<br />kalte Schauer den Rücken hinablaufen.. Woher haben sie das Wissen, wie man Bestien wie diese Aufreißer-Kreaturen formt, sie wirken jedesmal wenn der Maskierte sie erblickt, als wären sie wie ein<br />Frankenstein-Monster aus mehreren &quot;Stücken/Teilen&quot; zusammengesetzt, aber mit solch einer starken Bindung und Energie, das sie eine reale Gefahr darstellen..<br /><br /><br />Auch das wieder Opfer von Faisons verrücktem Angamon-Kult unter den Opfern sind, zeigt das sie vor niemandem Halt machen, unabhängig von Glauben oder sonstiger Zugehörigkeit.<br />Sie und unzählige andere scheinen in den Räumlichkeiten ihr Leben gelassen zu haben, auch die Säufer aus der Hafenkneipe, welche sie eigentlich aufspüren wollten werden, wähnt der Maskierte<br />unter den Leichenteilen welche überall in der Höhle verstreut sind. Immerhin ist der Knochen-Schlüssel den sie vorher am Ritualplatz gefunden haben noch von nutzen, der Kapitän öffnet mit ihm <br />einen Weg zurück in die feuchte Kanalisation unter dem Hafen Brandensteins. An der Oberfläche angekommen, finden sie die zwei Trunkenbolde aus der Hafenpinte wieder.<br />Es hat einer ihrer Saufkumpane doch geschafft aus dieser Hölle zu entkommen, den Kapitän hat es aber erst ruhig schlafen zu lassen, wenn er selbst die letzten Halunken in Sicherheit wiegt.<br />Der betrunkene Überlebende lallt mehr die Schilderung seiner Flucht und fällt wieder in seinen Schlaf zurück.<br /><br /><br />Die Wege trennen sich... zurück in seiner Grotte setzt der Maskierte den goldenen Schädel aus der Kanalisation auf seinem Tisch ab, das selbstgefällige Grinsen welches sie dem Schädel eingekerbt haben<br />lässt die Wut in ihm kochen, während er sein Buch aufschlägt und einige Notizen zu dem erlebten die Seiten füllen, kreisen seine Gedanken noch um das Labor welches sie entdeckt haben..<br />das Schlangenblut auf den Seiten ist noch am trocknen, als er den grinsenden goldenen Schädel noch einmal genauer untersucht, aber mehr als ein Schlüssel ist er nunmal nicht. Die Unbekannte <br />Magieform mit der diese Bleichen alles erschaffen und/oder Kontrollieren ist ihm auch ein Rätsel.. Wie sie in diesem Knochenhaufen in der Kanalisation eine Möglichkeit des unentdeckten Reisen realisiert haben,<br />war eine wahre Kunst. Anfänglich der Kokon, oder auch der Schädelhaufen an sich von ihnen ging so eine schwache Magiesignatur aus, dass man sie auch leicht hätte übersehen können.<br />Die Form der Illusion mit der die Tarnung gearbeitet hat stellt ihn nur vor noch mehr Fragen ...<br /><br />Auch der Schrei oder das Kreischen welches er kurz vor der Flucht der bleichen Maskierten Gestalt vernommen hat war beschäftigt ihn fortwährend.. Ob es an dem Kampflärm oder etwas anderem lag, vermag<br />er nun nicht mehr zu beantworten, es war als hätte er akustisch keinen Schrei oder ähnliches vernommen, zu weit Weg war die Gestalt in diesem Moment..<br />Nur in Gedanken hatte er ihn vernommen und im Augenblick dessen hatte er vor seinem geistigen Auge das Abbild einer Gestalt vor sich, dessen Augen zugenäht waren .. und das über ein drittes Auge welches<br />in seiner Stirn gebettet war kommuniziert hat.. Ob dieses Bild alte Erinnerungen des Maskierten sind oder welchen Ursprung es hatte, erschließt sich nicht..<br />Aus den Gedanken aufwachend schlägt der Maskierte mit einem uralten, verzierten Stab aus Knochen in seinen Händen den grinsenden Schädel wutentbrannt vom Tisch.. <br /><br /><br /><br /><img src="https://live.staticflickr.com/65535/53389576249_1e9071c8d7_o.jpg" alt="Bild" /></span></span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2121"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=110358&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=110358"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 4 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=110358"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

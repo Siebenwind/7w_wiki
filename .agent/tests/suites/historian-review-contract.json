@@ -1,0 +1,250 @@
+{
+  "suite": "historian-review-contract",
+  "description": "Guards the structured Historian research review backlog surface.",
+  "cases": [
+    {
+      "id": "historian-review-list-json",
+      "name": "Historian review list exposes machine-readable backlog",
+      "cmd": [
+        "./7w_wiki.py",
+        "historian",
+        "review",
+        "--list",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_keys": [
+        "status",
+        "count",
+        "results"
+      ],
+      "expect_json_path_min": {
+        "count": 1
+      }
+    },
+    {
+      "id": "historian-review-dossier-json",
+      "name": "Historian review dossier exposes evidence paths and required actions",
+      "cmd": [
+        "./7w_wiki.py",
+        "historian",
+        "review",
+        "--dossier",
+        "--research-id",
+        "RESEARCH-2026-004",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "research_id": "RESEARCH-2026-004",
+        "status": "review_candidate",
+        "exists.archive_page": true,
+        "exists.summary": true
+      },
+      "expect_json_path_exists": [
+        "paths.archive_page",
+        "paths.summary",
+        "required_actions"
+      ]
+    },
+    {
+      "id": "historian-review-dossier-existing-review-json",
+      "name": "Historian review dossier reads an existing review section without swallowing the article body",
+      "cmd": [
+        "./7w_wiki.py",
+        "historian",
+        "review",
+        "--dossier",
+        "--research-id",
+        "RESEARCH-2026-007",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "research_id": "RESEARCH-2026-007",
+        "status": "review_candidate",
+        "review_section": "- Letzte Entscheidung: `commented`\n- Reviewer: `Historian`\n- Rolle: `historian_comment`\n- Datum: `2026-06-30`\n- Oeffentliche Notiz: Zweiter Funktionstest des gehaerteten Historian-Review-Prozesses: Dossier abrufbar, Archiv und Summary vorhanden, fehlendes System-Ticket wird korrekt gemeldet. Review-Stand wir...\n- Dispatch-Referenz: `MSG-2026-0158`"
+      }
+    },
+    {
+      "id": "historian-review-blocks-non-human-final-approval",
+      "name": "Historian review blocks final approval by non-human role",
+      "cmd": [
+        "./7w_wiki.py",
+        "historian",
+        "review",
+        "--research-id",
+        "RESEARCH-2026-004",
+        "--decision",
+        "approved",
+        "--reviewer",
+        "Historian",
+        "--role",
+        "historian_comment",
+        "--note",
+        "Contract test: non-human role must not approve.",
+        "--json"
+      ],
+      "expect_exit": 2,
+      "expect_stderr": [
+        "Nur human_final darf Forschung final freigeben oder zur Nacharbeit zurueckgeben."
+      ]
+    },
+    {
+      "id": "historian-review-blocks-non-queue-comment",
+      "name": "Historian review blocks comments on entries outside the review queue",
+      "cmd": [
+        "./7w_wiki.py",
+        "historian",
+        "review",
+        "--research-id",
+        "RESEARCH-2099-999",
+        "--decision",
+        "commented",
+        "--reviewer",
+        "Historian",
+        "--role",
+        "historian_comment",
+        "--note",
+        "Contract test: non-queue entries must not receive review comments.",
+        "--json"
+      ],
+      "expect_exit": 1,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "blocked",
+        "reason": "not_in_review_status",
+        "research_id": "RESEARCH-2099-999"
+      }
+    },
+    {
+      "id": "historian-review-human-final-approved-dry-run",
+      "name": "Human final approval can be validated without mutating live review state",
+      "cmd": [
+        "./7w_wiki.py",
+        "historian",
+        "review",
+        "--research-id",
+        "RESEARCH-2026-004",
+        "--decision",
+        "approved",
+        "--reviewer",
+        "Human",
+        "--role",
+        "human_final",
+        "--note",
+        "Contract test: dry-run human final approval.",
+        "--dry-run",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "dry_run",
+        "research_id": "RESEARCH-2026-004",
+        "decision": "approved",
+        "role": "human_final",
+        "would_mutate": [
+          "dispatch_post",
+          "append_review_register",
+          "update_archive_page",
+          "update_system_research_board",
+          "update_archive_research_board",
+          "set_system_ticket_resolved_if_present",
+          "final_human_gate"
+        ]
+      }
+    },
+    {
+      "id": "historian-review-human-final-returned-dry-run",
+      "name": "Human final return can be validated without mutating live review state",
+      "cmd": [
+        "./7w_wiki.py",
+        "historian",
+        "review",
+        "--research-id",
+        "RESEARCH-2026-007",
+        "--decision",
+        "returned",
+        "--reviewer",
+        "Human",
+        "--role",
+        "human_final",
+        "--note",
+        "Contract test: dry-run human final return.",
+        "--dry-run",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "dry_run",
+        "research_id": "RESEARCH-2026-007",
+        "decision": "returned",
+        "role": "human_final",
+        "would_mutate": [
+          "dispatch_post",
+          "append_review_register",
+          "update_archive_page",
+          "update_system_research_board",
+          "update_archive_research_board",
+          "set_system_ticket_open_historian_if_present",
+          "final_human_gate"
+        ]
+      }
+    },
+    {
+      "id": "historian-review-docs-runtime-path",
+      "name": "Historian workflow documents direct review commands",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/workflows/historian.md",
+          "must_include_regex": [
+            "historian review --list --json",
+            "historian review --dossier",
+            "--dry-run --json",
+            "IN_REVIEW_HISTORIAN",
+            "human_final"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historian-review-archive-markdown-hygiene",
+      "name": "Historian review writer keeps archive frontmatter and sections separated",
+      "required_regex_by_file": [
+        {
+          "file": "docs/Archiv/RESEARCH-2026-004.md",
+          "must_include_regex": [
+            "letzter_check: 2026-06-30\\n---\\n\\n# RESEARCH-2026-004 - Causa Tjure Odal und Arn Toron\\n\\n## Review-Stand",
+            "finale Freigabe oder weitere Synthese steht aus\\.\\n\\n## Weiterfuehrung"
+          ]
+        },
+        {
+          "file": "docs/Archiv/RESEARCH-2026-007.md",
+          "must_include_regex": [
+            "letzter_check: 2026-06-30\\n---\\n\\n# RESEARCH-2026-007 - Dossier Rhadan: Zeichnung Tares\\n\\n## Review-Stand",
+            "Dispatch-Referenz: `MSG-2026-0158`\\n\\n## Forschungsfrage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historian-command-json-capable",
+      "name": "CLI help-json marks historian as JSON-capable review surface",
+      "cmd": [
+        "./7w_wiki.py",
+        "--help-json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_stdout": [
+        "\"name\": \"historian\"",
+        "\"json_capable\": true"
+      ]
+    }
+  ]
+}

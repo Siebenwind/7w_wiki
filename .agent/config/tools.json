@@ -205,13 +205,13 @@
     "type": "function",
     "function": {
       "name": "cli_historian",
-      "description": "Deep lore analysis workflow or direct topic run.",
+      "description": "Deep lore analysis workflow, direct topic run, and research review operations.",
       "parameters": {
         "type": "object",
         "properties": {
-          "query": {
+          "args": {
             "type": "string",
-            "description": "Subject to analyze"
+            "description": "Subject to analyze, or: review --list|--dossier|--decision ..."
           }
         },
         "required": []

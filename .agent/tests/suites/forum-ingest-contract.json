@@ -1,0 +1,59 @@
+{
+  "suite": "forum-ingest-contract",
+  "description": "Guards forum ingestion production gates, style review and finalize blockers.",
+  "cases": [
+    {
+      "id": "lektor-blocks-forum-boilerplate",
+      "name": "Lektor rejects forum ingest boilerplate in article body",
+      "cmd": [
+        "./7w_wiki.py",
+        "check",
+        ".agent/tests/fixtures/forum_bad_article_boilerplate.md"
+      ],
+      "expect_exit": 1,
+      "expect_stdout": [
+        "Forum-Ton"
+      ]
+    },
+    {
+      "id": "repaired-forum-article-passes",
+      "name": "Repaired forum article passes the style gate",
+      "cmd": [
+        "./7w_wiki.py",
+        "check",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Aufkeimende_Schatten_in_der_Dunkelheit.md"
+      ],
+      "expect_exit": 0
+    },
+    {
+      "id": "finalize-gate-runtime-present",
+      "name": "Forum finalize exposes production gate and explicit override",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/scripts/ingest_pipeline.py",
+          "must_include_regex": [
+            "production_gate_failed",
+            "allow_draft_finalize",
+            "style_review_required",
+            "draft_created"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "workflow-documents-draft-before-finalize",
+      "name": "Ingest workflow documents draft, style review and finalize gate",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/workflows/ingest_master.md",
+          "must_include_regex": [
+            "Draft ist erst produktionsreif",
+            "forum-finalize.*blockiert",
+            "style_review_required",
+            "ready_to_finalize"
+          ]
+        }
+      ]
+    }
+  ]
+}

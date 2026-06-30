@@ -70,12 +70,16 @@ Nutze das **Orakel (`./7w_wiki.py search`)** bei Unklarheiten.
 Fuer archivierte Forumquellen ist der Runtime-Pfad agentisch:
 1. `./7w_wiki.py ingest forum-queue --json` zeigt den Arbeitsvorrat und die empfohlene Aktion.
 2. `./7w_wiki.py ingest forum-inspect --source <quellen-md> --json` prueft Zielkandidaten und Risiken.
-3. Bei sauberer Lage erstellt oder aktualisiert der Wiki-Schmied den Artikel mit:
+3. Bei sauberer Lage erstellt oder aktualisiert der Wiki-Schmied einen Draft mit:
    - `forum-draft --action update --target <bestehender artikel> --apply`
    - `forum-draft --action create --target <neuer artikel> --apply`
-4. `forum-finalize` schreibt Registerstatus, Report-Verweis und Integrationsnachweis.
+4. Der Draft ist erst produktionsreif, wenn `./7w_wiki.py check <zielartikel>` und bei Bedarf `./7w_wiki.py lint <zielartikel> --fix` bestanden sind.
+5. Der Artikelkoerper wird vor Abschluss in Wiki-Ton gebracht. Quellenkarten-Sprache, sichtbare Archiv-/Registerhinweise und generische Kanonisierungs-Boilerplates sind kein finaler Artikelstil.
+6. `forum-finalize` schreibt Registerstatus, Report-Verweis und Integrationsnachweis. Bei `--status integrated` blockiert die Runtime Wiki-Ziele, wenn Pflicht-Frontmatter, H1-Abgleich oder Forum-Ton-Gate fehlschlagen. Nur begruendete Ausnahmefaelle duerfen `--allow-draft-finalize` nutzen.
 
 Neue Wiki-Artikel sind erlaubt, wenn die Quelle volltextarchiviert ist, kein kanonischer Zielartikel existiert, der Gegenstand eigenstaendig genug ist und der Artikel ohne erfundene Lore geschrieben werden kann. Forumquellen behalten eine niedrige epistemische Markierung (`#forum`, `#perspektive`). Menschliche Pruefung ist nur bei echter Kanonentscheidung, unloesbarem Widerspruch oder niedriger Evidenz erforderlich.
+
+Historian-Regel fuer `Geschichten aus dem Spiel`: Die archivierte Metaquelle `docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_zweck_dieses_forums.md` dokumentiert, dass dieses Forum seit dem 11. Maerz 2015 fuer tatsaechlich geschehene Spielereignisse vorgesehen ist; rein fiktive Geschichten sollten in einem getrennten Forum stehen. Das hebt einzelne Forumtexte nicht auf #canon, erlaubt aber eine operative Erstannahme als gespielte Ereignisueberlieferung, solange keine hoeherwertige Quelle widerspricht.
 
 Stilregel fuer Forum-Drafts: Der Artikelkoerper bleibt im Wiki-Ton. Technische Hinweise wie "archivierte Forumquelle", Raw-HTML-Status oder Registerlogik gehoeren in Frontmatter, Referenzen und Ingestion-Report, nicht in die Beschreibung. Im Fliesstext werden niedrigere Quellenlagen als "Erzaehlueberlieferung", "weitere Ueberlieferung" oder mit sachlicher Distanz formuliert; die epistemische Markierung bleibt ueber Metadaten sichtbar.
 
@@ -97,6 +101,9 @@ Status- und Aktionswerte:
 - `create_article`: eigenstaendige Neuanlage ist moeglich.
 - `historian_required`: erst agentische Historikerpruefung.
 - `human_escalation_required`: nur bei echter Kanonentscheidung.
+- `draft_created`: Zielartikel wurde technisch erstellt, ist aber noch nicht produktionsreif.
+- `style_review_required`: Lektor-/Wiki-Ton-Gate ist noch offen.
+- `ready_to_finalize`: Stil- und Strukturpruefung sind bestanden; `forum-finalize` kann laufen.
 - `integrated`: Quelle ist mit Zielseite und Ingestion-Report abgeschlossen.
 
 Nutze die Ingest-Pipeline fuer den technischen Abschluss des bearbeiteten Quelldokuments:

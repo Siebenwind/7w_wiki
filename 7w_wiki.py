@@ -78,9 +78,9 @@ COMMAND_METADATA = {
         "interactive_default": False,
     },
     "historian": {
-        "summary": "Deep lore analysis workflow or direct topic run.",
+        "summary": "Deep lore analysis workflow, direct topic run, and research review operations.",
         "context": ".agent/workflows/historian.md",
-        "json_capable": False,
+        "json_capable": True,
         "supports_run_mode": False,
         "interactive_default": False,
     },
@@ -549,7 +549,7 @@ def main():
 
     # Historian
     hist_parser = subparsers.add_parser("historian", help="Deep Lore Analysis (Workflow)")
-    hist_parser.add_argument("query", nargs="?", help="Subject to analyze")
+    hist_parser.add_argument("args", nargs=argparse.REMAINDER, help="Subject to analyze, or: review --list|--dossier|--decision ...")
 
     # Repair
     repair_parser = subparsers.add_parser("repair", help="Interactive repair of links and metadata")
@@ -850,12 +850,14 @@ def main():
         run_script(".agent/scripts/test_runner.py", test_args)
 
     elif args.command == "historian":
-        # Historian logic: If query is provided, start a search + analysis briefing
-        # If not, just show the workflow instructions.
-        if args.query:
-            print(f"🏛️  {BOLD}Historiker-Analyse für: {args.query}{RESET}")
+        hist_args = list(args.args or [])
+        if hist_args and hist_args[0] == "review":
+            run_research_review(hist_args[1:])
+        elif hist_args:
+            query = " ".join(hist_args)
+            print(f"🏛️  {BOLD}Historiker-Analyse für: {query}{RESET}")
             # First, trigger a search to gather context
-            search_args = [args.query, "--top", "10", "--source", "all"]
+            search_args = [query, "--top", "10", "--source", "all"]
             run_script(".agent/skills/oracle/search.py", search_args)
             print(f"\n💡 {YELLOW}Tipp:{RESET} Nutze den Workflow `/historian` für die tiefe Rekonstruktion.")
         else:

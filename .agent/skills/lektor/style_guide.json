@@ -26,5 +26,5 @@
     "Dungeon": "Gewölbe"
   },
   "passive_threshold": 0.3,
-  "required_frontmatter": ["layout", "title", "category"]
+  "required_frontmatter": ["title", "category"]
 }

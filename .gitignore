@@ -58,6 +58,7 @@ System/DELEGATION_CODEX_PHASE_20.md
 # bycatch should stay local unless deliberately force-added.
 Logs/Archive/SESSION_MEMORY_*.md
 System/Synapse_Board/DISPATCH/MSG-*_session_memory_*.md
+System/Synapse_Board/DISPATCH/MSG-*_session_handover_*.md
 .agent/data/wiki_inventory_history/wiki_inventory_*.json
 
 # === Wissenswerk/v2 Runtime Residue ===

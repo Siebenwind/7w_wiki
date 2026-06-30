@@ -1,5 +1,20 @@
 # Changelog
 
+#### [2026-06-11.01] - Tech-Master Pages-Handover und lokale Residuen ausgeblendet
+### Prioritaet: P1
+### Geändert
+- `.gitignore`: lokale Session-Memory-/Dispatch-Bycatch-Dateien, neue Wiki-Inventar-Snapshots sowie Wissenswerk/v2-Runtime-Ausgaben unter `.wissenswerk/`, `docs/Wiki/` und `reports/wissenswerk/` werden nicht mehr als Hauptrepo-Aenderungen angezeigt.
+- `.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `.agent/data/pages_health.json` und Cache-/Inventarartefakte: Pages-Backlog und Tech-Master-Snapshot auf den Stand 2026-06-11 gehoben.
+- `docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md` und `Logs/INGESTION_TRACKING_REGISTER.md`: durch `./7w_wiki.py stats` regeneriert.
+### Validiert
+- `python3 -m py_compile 7w_wiki.py .agent/scripts/generate_wiki_stats.py .agent/scripts/generate_codex_skills.py`
+- `./7w_wiki.py test --suite interop-doc-links`
+- `./7w_wiki.py test --suite reader-stats-contract`
+- `./7w_wiki.py test --suite pages-contract-mode-contract`
+- `./7w_wiki.py test --suite adapter-surfaces-contract`
+- `./7w_wiki.py audit --pages` (Register-, Contract- und Bridge-Gates sauber; Pages-Linkbacklog bleibt sichtbar)
+- `./7w_wiki.py pages validate --contract --json` (`drift_status = PASS`, Gesamtstatus WARN wegen bekanntem Linkbacklog)
+
 #### [2026-04-19.01] - Forum-Ingestion v2 und Handover-Status
 ### Prioritaet: P1
 ### Hinzugefügt

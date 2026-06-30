@@ -1,23 +1,28 @@
 ---
+title: "Angriff auf Westhever, Piraten in Sicht und ein Angebot....."
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=110175"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=110175"
-title: "Angriff auf Westhever, Piraten in Sicht und ein Angebot....."
 date: 2023-04-04
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 110175
 content_status: fulltext_archived
+review_status: integrated
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
+human_escalation_required: false
+integration_status: integrated
+integrated_target: "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Westhever_Piraten_in_Sicht.md"
+ingestion_report: "Logs/Ingestion/2026-06-11_Forum_angriff_auf_westhever_piraten_in_sicht_und_ein_angebot.md"
+integrated_at: "2026-06-11T15:15:28Z"
 archived_at: "2026-04-19T14:37:53Z"
 post_count: 1
 topic_pages_archived: 1
-human_review_required: true
 raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110175.html"
 ---
-
 # Angriff auf Westhever, Piraten in Sicht und ein Angebot.....
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

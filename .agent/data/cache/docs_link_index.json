@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-11T14:43:00Z",
-  "inputs_fingerprint": "119e912f1efce2e53ce58becdc83f9bc1de78affb256a634185a8c94f56e6b76",
+  "generated_at": "2026-06-11T16:18:27Z",
+  "inputs_fingerprint": "7180f66771a9510de5d3406b7fc8253a911e647cfec733380b16d5b927abbe1a",
   "payload": {
     "index": {
       "01catar": [
@@ -1641,6 +1641,7 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_188.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_191.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_192.md",
+        "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Westhever_Piraten_in_Sicht.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Auktion_der_Familie_Turek.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Dunkeltief_29_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Geschichte_der_Mondamulette.md",
@@ -1966,6 +1967,7 @@
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Brandenstein_29_nH.md",
+        "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Westhever_Piraten_in_Sicht.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Angriff_der_Schwarzmagier.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Anschlag_auf_den_Handelsbund.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Auktion_der_Familie_Turek.md",
@@ -1979,14 +1981,18 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Konflikt_Tempelwache_Nortraven.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Schwarzer_Samen.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Sternfall_bei_Rohehafen.md",
+        "docs/Siebenwind_Wiki/05_Geschichte/Treiben_im_Rathaus.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Trollkrieg_gegen_Brandenstein.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Trollkrieg_von_Brandenstein.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Verhaftung_von_Marnie_Ruatha.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Vorfall_im_Haus_TharSala.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Zerstoerung_von_Westhever.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Atmender_Tod.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Aufkeimende_Schatten_in_der_Dunkelheit.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Der_Flug_der_Ente.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Dunkeltief-_Vaenskap.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Fuchs_streift_durch_die_Waelder.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/XIII_Erzaehlung.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Alassea.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Albert_Metzler.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Alexander_Stein.md",
@@ -2183,6 +2189,7 @@
         "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_174.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Aufkeimende_Schatten_in_der_Dunkelheit.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Tardukai.md"
       ],
       "bruderschaftgofilm": [
@@ -2270,6 +2277,7 @@
         "docs/Quellen/Spielergeschichten/Kriegstagebuch eines Soldaten.md",
         "docs/Siebenwind_Wiki/02_Geografie/Geografie.md",
         "docs/Siebenwind_Wiki/02_Geografie/index.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Fuchs_streift_durch_die_Waelder.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Vladimir_Kherbal.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/Harpyien.md"
       ],
@@ -3734,6 +3742,9 @@
         "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Fingarion.md"
       ],
+      "dunkeleisen": [
+        "docs/Siebenwind_Wiki/03_Wissen/index.md"
+      ],
       "dunkeltief": [
         "docs/Quellen/Spielergeschichten/Dunkeltief- Vänskap.md",
         "docs/Quellen/Spielergeschichten/Einer Löwin Traum.md",
@@ -3769,7 +3780,9 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Mondamulette.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Zerstoerung_von_Westhever.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Atmender_Tod.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Aufkeimende_Schatten_in_der_Dunkelheit.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Dunkeltief-_Vaenskap.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Fuchs_streift_durch_die_Waelder.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Heimsuchung_der_Akademie.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Von_gesplitterten_Seelen_und_blutigen_Kehlen.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Al-Barlis-Nekor.md",
@@ -5127,6 +5140,8 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_140.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_190.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Die_Stadtchronik_Rohehafens.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Aufkeimende_Schatten_in_der_Dunkelheit.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Fuchs_streift_durch_die_Waelder.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Birnbaum.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lucy.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Vex.md"
@@ -5608,9 +5623,12 @@
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Brandenstein_29_nH.md",
+        "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Westhever_Piraten_in_Sicht.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Goblinkrieg.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Trollkrieg_gegen_Brandenstein.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Trollkrieg_von_Brandenstein.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Aufkeimende_Schatten_in_der_Dunkelheit.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Fuchs_streift_durch_die_Waelder.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Grix.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Toran_Dur.md",
         "docs/Siebenwind_Wiki/08_Bestiarium/index.md",
@@ -6080,7 +6098,8 @@
       "handwerkuebersicht": [
         "docs/Siebenwind_Wiki/00_Fundament/Staubbindungs_Mechanik.md",
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
-        "docs/Siebenwind_Wiki/03_Gesellschaft/Gilde_der_Feinschmiede.md"
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Gilde_der_Feinschmiede.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Dunkeleisen.md"
       ],
       "hanfriedkorbenus": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
@@ -6558,7 +6577,9 @@
         "docs/Siebenwind_Wiki/05_Magie/Elementarlehre_Dunkelbaum.md",
         "docs/Siebenwind_Wiki/05_Magie/Elementarwerdung.md",
         "docs/Siebenwind_Wiki/05_Magie/Sphaerenkunde_Kosmologie.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Aufkeimende_Schatten_in_der_Dunkelheit.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Der_Flug_der_Ente.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/XIII_Erzaehlung.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Fraomar_Arkad_Grembargh.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hormtosh_Wuchthammer.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Telandrion.md",
@@ -7194,6 +7215,7 @@
       "koeniginbrynn": [
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_163.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Fuchs_streift_durch_die_Waelder.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hartwine_Hilamos.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hendwig.md"
       ],
@@ -8544,7 +8566,9 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_186.md",
         "docs/Siebenwind_Wiki/05_Magie/Daimonicon.md",
         "docs/Siebenwind_Wiki/05_Magie/Sphaerenkunde_Kosmologie.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Fuchs_streift_durch_die_Waelder.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Jenseits_des_Walls.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/XIII_Erzaehlung.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Donarius_Derrvus.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Emanuel.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Galahad.md",
@@ -8569,6 +8593,7 @@
       "myrandhir": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_173.md",
+        "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Westhever_Piraten_in_Sicht.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Custodias.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
       ],
@@ -8799,6 +8824,7 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_190.md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_(15-30_n.H.).md",
         "docs/Siebenwind_Wiki/04_Chronik/Zeitleiste_15_30_nH.md",
+        "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Westhever_Piraten_in_Sicht.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Aufbau_von_Greifenklipp.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Erlass_des_Koenigs.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Der_Goblinkrieg.md",
@@ -9799,6 +9825,7 @@
         "docs/Siebenwind_Wiki/02_Geografie/Geografie.md",
         "docs/Siebenwind_Wiki/02_Geografie/Region_Auren.md",
         "docs/Siebenwind_Wiki/02_Geografie/index.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Dunkeleisen.md",
         "docs/Siebenwind_Wiki/05_Magie/Die_arkane_Gesellschaft.md"
       ],
       "regiongerdenwald": [
@@ -10637,6 +10664,7 @@
         "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_180.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Aufkeimende_Schatten_in_der_Dunkelheit.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Ritus_Gebet_und_Erleuchtung.md"
       ],
       "schattenjaeger": [
@@ -12565,6 +12593,7 @@
         "docs/Siebenwind_Wiki/03_Gesellschaft/Rasse_Elfen.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Rasse_Menschen.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Rasse_Zwerge.md",
+        "docs/Siebenwind_Wiki/03_Wissen/Dunkeleisen.md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/De_Magica_Angamoniensis_(Kalveron_Dai).md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Lexikon_der_Magie_(Dunvallo_Linari).md",
         "docs/Siebenwind_Wiki/03_Wissen/Werke/Schamanische_Magie_(Fragment).md",
@@ -12665,6 +12694,7 @@
       "tempelwache": [
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_177.md",
+        "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Westhever_Piraten_in_Sicht.md",
         "docs/Siebenwind_Wiki/05_Geschichte/Konflikt_Tempelwache_Nortraven.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Eric_Martarian.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ian_Dejan.md",
@@ -12948,6 +12978,7 @@
         "docs/Siebenwind_Wiki/05_Geschichte/Konvent_des_Loewenordens_51.md",
         "docs/Siebenwind_Wiki/05_Magie/Lehrbuch_Magietheorie.md",
         "docs/Siebenwind_Wiki/05_Magie/Magietheorie_Toran_Dur_Fragmente.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Fuchs_streift_durch_die_Waelder.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Adrienne_Valemis.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Akora_Dur.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Allakath.md",
@@ -13281,6 +13312,8 @@
         "docs/Siebenwind_Wiki/05_Magie/Elementarwerdung.md",
         "docs/Siebenwind_Wiki/05_Magie/Sphaerenkunde_Kosmologie.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Der_Flug_der_Ente.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Fuchs_streift_durch_die_Waelder.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/XIII_Erzaehlung.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Brand_Windfluesterer.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Erzpriester_Vencurius.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lazalantin.md",
@@ -13754,6 +13787,8 @@
         "docs/Siebenwind_Wiki/05_Magie/Elementarwerdung.md",
         "docs/Siebenwind_Wiki/05_Magie/Sphaerenkunde_Kosmologie.md",
         "docs/Siebenwind_Wiki/05_Magie/Vjera_Batama_Magica.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Fuchs_streift_durch_die_Waelder.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/XIII_Erzaehlung.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Aren_Remouldo.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Petrichor.md",
         "docs/Siebenwind_Wiki/09_Bibliothek/Die_Elemente_ungleiche_Geschwister.md",
@@ -13893,7 +13928,9 @@
       ],
       "zerstoerungvonwesthever": [
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_190.md",
-        "docs/Siebenwind_Wiki/05_Geschichte/index.md"
+        "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Westhever_Piraten_in_Sicht.md",
+        "docs/Siebenwind_Wiki/05_Geschichte/index.md",
+        "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Fuchs_streift_durch_die_Waelder.md"
       ],
       "zimahnalnibalurdan": [
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_164.md"

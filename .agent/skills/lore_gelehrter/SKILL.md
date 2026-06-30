@@ -33,6 +33,8 @@ Dieser Skill ermöglicht es dem Agenten, als Experten-System zu agieren, das Wis
 - **Interaktive Eskalation:** Wenn keine eindeutige Lösung möglich ist, setzt das Ticket auf `AWAITING_USER` und bereitet die Zusammenfassung für den "Council of Truth" (User-Loop) vor.
 - **Lore Audit & Peer Review:** Bei Mergern mit mehr als 3 Entitäten oder einer Konfidenz < 70% erstellt der Gelehrte proaktiv einen [[System/Synapse_Board/_TEMPLATE_AUDIT_REQUEST.md|Audit Request]], um eine Zweitmeinung einzuholen.
 - **Historian-Fälle statt Default-Research:** Identifiziert operative Unklarheiten oder Kontroversen und erstellt nur dann einen Entwurf fuer einen [[System/Synapse_Board/_TEMPLATE_RESEARCH.md|Historian-Fall]] im [[System/Synapse_Board/LORE_RESEARCH_BOARD.md|Lore Research Board]], wenn normale Ingestion/Korrektur nicht sauber reicht.
+- **Review-Backlog zuerst strukturiert prüfen:** Nutzt `./7w_wiki.py historian review --list --json` und `./7w_wiki.py historian review --dossier --research-id RESEARCH-2026-XXX --json`, bevor alte Dispatch-Meldungen manuell interpretiert werden.
+- **Rollen sauber trennen:** Historian-Kommentare sind erlaubt; finale Freigabe oder Rueckgabe zur Nacharbeit bleibt der Rolle `human_final` vorbehalten.
 
 ### 4. Sachliche Auskunftserteilung
 - Formuliert Antworten auf Basis von Evidenz:

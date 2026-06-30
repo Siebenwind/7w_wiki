@@ -68,7 +68,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `test` | Run interoperability and clean-state test suites. | `.agent/scripts/test_runner.py` |
 | `takeover [--run]` | Show or run the takeover workflow. | `.agent/workflows/takeover.md` |
 | `handover [--run]` | Show or run the handover workflow. | `.agent/workflows/handover.md` |
-| `historian [query]` | Deep lore analysis workflow or direct topic run. | `.agent/workflows/historian.md` |
+| `historian [args...]` | Deep lore analysis workflow, direct topic run, and research review operations. | `.agent/workflows/historian.md` |
 | `repair` | Interactive or automatic repair of audit findings, including Pages / Roamlinks fixes. | `.agent/scripts/repair.py` |
 | `audit` | Run consistency audit for duplicates, broken links, and orphaned content. | `.agent/scripts/register_check.py` |
 | `index` | Manage the semantic search index. | `.agent/skills/oracle/build_index.py` |

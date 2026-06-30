@@ -1,6 +1,6 @@
 {
   "version": "catalog.v1",
-  "generated_at": "2026-06-11T14:56:37Z",
+  "generated_at": "2026-06-30T18:03:21Z",
   "runtime": {
     "entrypoint": "./7w_wiki.py",
     "help_json": "./7w_wiki.py --help-json",
@@ -49,7 +49,7 @@
             "name": "remaining",
             "flags": [],
             "help": "Additional arguments for search.py",
-            "required": true,
+            "required": false,
             "type": "string",
             "kind": "positional",
             "nargs": "REMAINDER"
@@ -419,21 +419,21 @@
       },
       {
         "name": "historian",
-        "description": "usage: 7w_wiki.py historian [-h] [query]",
+        "description": "usage: 7w_wiki.py historian [-h] ...",
         "arguments": [
           {
-            "name": "query",
+            "name": "args",
             "flags": [],
-            "help": "Subject to analyze",
+            "help": "Subject to analyze, or: review --list|--dossier|--decision ...",
             "required": false,
             "type": "string",
             "kind": "positional",
-            "nargs": "?"
+            "nargs": "REMAINDER"
           }
         ],
-        "summary": "Deep lore analysis workflow or direct topic run.",
+        "summary": "Deep lore analysis workflow, direct topic run, and research review operations.",
         "context": ".agent/workflows/historian.md",
-        "json_capable": false,
+        "json_capable": true,
         "supports_run_mode": false,
         "interactive_default": false
       },
@@ -1017,7 +1017,7 @@
             "name": "args",
             "flags": [],
             "help": "Ingest command arguments or legacy markdown file",
-            "required": true,
+            "required": false,
             "type": "string",
             "kind": "positional",
             "nargs": "REMAINDER"
@@ -1037,7 +1037,7 @@
             "name": "args",
             "flags": [],
             "help": "Arguments for translator.py",
-            "required": true,
+            "required": false,
             "type": "string",
             "kind": "positional",
             "nargs": "REMAINDER"
@@ -1241,7 +1241,7 @@
         "subcommands": [
           {
             "name": "post",
-            "description": "usage: 7w_wiki.py mail post [-h] --from FROM_AGENT --to TO_AGENT --subject\n                            SUBJECT --body BODY [--report-path REPORT_PATH]\n                            [--priority {LOW,NORMAL,HIGH}]",
+            "description": "usage: 7w_wiki.py mail post [-h] --from FROM_AGENT --to TO_AGENT\n                            --subject SUBJECT --body BODY\n                            [--report-path REPORT_PATH]\n                            [--priority {LOW,NORMAL,HIGH}]",
             "arguments": [
               {
                 "name": "from_agent",
@@ -2205,6 +2205,9 @@
       "interop": {
         "runtime_commands": [
           "7w_wiki.py historian [query]",
+          "7w_wiki.py historian review --list --json",
+          "7w_wiki.py historian review --dossier --research-id RESEARCH-2026-XXX --json",
+          "7w_wiki.py historian review --research-id RESEARCH-2026-XXX --decision commented --reviewer Historian --role historian_comment --note \"<Kommentar>\" --json",
           "7w_wiki.py search <query> --source wiki|quellen|all",
           "7w_wiki.py score <file>",
           "7w_wiki.py mail inbox --status OPEN",
@@ -2785,11 +2788,14 @@
           "primary_command": "./7w_wiki.py historian <query>",
           "followup_commands": [
             "./7w_wiki.py search <query> --source all",
+            "./7w_wiki.py historian review --list --json",
+            "./7w_wiki.py historian review --dossier --research-id RESEARCH-2026-XXX --json",
             "./7w_wiki.py mail post --from Historian --to ALL --subject \"<lore question>\" --body \"<summary>\""
           ],
           "instructions": [
             "Use this adapter for deep lore synthesis, contradiction analysis, and evidence-backed answers.",
             "The Historian is an escalation and synthesis organ, not the default editor for straightforward source integration.",
+            "Use historian review for structured Research Board review backlog before relying on ad-hoc Dispatch reading.",
             "Route unresolved contradictions through Dispatch or the Synapse Board with explicit evidence."
           ],
           "references": [

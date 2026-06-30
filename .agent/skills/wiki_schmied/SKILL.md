@@ -18,7 +18,6 @@ Dieser Skill generiert die finalen Artefakte im Ordner `/Siebenwind_Wiki`.
     *   **Frontmatter:** Pflicht!
         ```yaml
         ---
-        layout: wiki_page
         uuid: [UUID-v4, z.B. via Python: `import uuid; str(uuid.uuid4())`]
         title: [Display Title]
         category: [Persönlichkeit | Geschichte | Erzählung | Geografie | Religion | Magie]

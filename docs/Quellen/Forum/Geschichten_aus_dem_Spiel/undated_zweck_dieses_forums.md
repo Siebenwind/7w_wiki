@@ -1,23 +1,28 @@
 ---
+title: "Zweck dieses Forums"
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=102477"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=102477"
-title: "Zweck dieses Forums"
 date: 2015-03-11
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 102477
 content_status: fulltext_archived
+review_status: reviewed_no_wiki_change
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
+human_escalation_required: false
+integration_status: reviewed_no_wiki_change
+integrated_target: ".agent/workflows/ingest_master.md"
+ingestion_report: "Logs/Ingestion/2026-06-11_Forum_zweck_dieses_forums.md"
+integrated_at: "2026-06-11T15:24:24Z"
 archived_at: "2026-04-19T14:38:30Z"
 post_count: 1
 topic_pages_archived: 1
-human_review_required: true
 raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/102477.html"
 ---
-
 # Zweck dieses Forums
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

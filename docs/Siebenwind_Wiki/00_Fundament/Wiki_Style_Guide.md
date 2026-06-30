@@ -20,7 +20,6 @@ Dieser Leitfaden fasst die zentralen Schreib- und Strukturregeln fuer das [[Sieb
 
 Jede Seite sollte Frontmatter mit mindestens folgenden Feldern enthalten:
 
-- `layout`
 - `title`
 - `category`
 

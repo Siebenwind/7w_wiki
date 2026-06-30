@@ -2,6 +2,7 @@
 import argparse
 import contextlib
 import io
+import json
 import re
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -23,8 +24,9 @@ ARCHIVED_ROW_RE = re.compile(
     r"^\| \[\[(RESEARCH-\d{4}-\d{3})\]\] \| (.*?) \| (.*?) \| (.*?) \|$"
 )
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
-STATUS_SECTION_RE = re.compile(r"(?ms)^## Status\n.*?(?=^## |\n---\n|\Z)")
-REVIEW_SECTION_RE = re.compile(r"(?ms)^## Review-Stand\n.*?(?=^## |\n---\n|\Z)")
+SECTION_END_RE = r"(?=^#{1,6}\s|\n---\n|\Z)"
+STATUS_SECTION_RE = re.compile(rf"(?ms)^## Status\n.*?{SECTION_END_RE}")
+REVIEW_SECTION_RE = re.compile(rf"(?ms)^## Review-Stand\n.*?{SECTION_END_RE}")
 
 
 @dataclass
@@ -34,6 +36,18 @@ class ReviewCandidate:
     priority: str
     status: str
     focus: str
+
+    def as_dict(self) -> dict:
+        return {
+            "research_id": self.research_id,
+            "title": self.title,
+            "priority": self.priority,
+            "status": self.status,
+            "focus": self.focus,
+            "system_path": rel_path(system_ticket_path(self.research_id)),
+            "archive_path": rel_path(archive_page_path(self.research_id)),
+            "summary_path": rel_path(summary_path(self.research_id)),
+        }
 
 
 def now_iso() -> str:
@@ -51,6 +65,21 @@ def load_text(path: Path) -> str:
 def save_text(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
+
+
+def rel_path(path: Path) -> str:
+    try:
+        return str(path.relative_to(REPO_ROOT))
+    except ValueError:
+        return str(path)
+
+
+def system_ticket_path(research_id: str) -> Path:
+    return REPO_ROOT / "System" / "Synapse_Board" / f"{research_id}.md"
+
+
+def summary_path(research_id: str) -> Path:
+    return REPO_ROOT / "Logs" / "Research" / f"{research_id}_Summary.md"
 
 
 def list_review_candidates() -> list[ReviewCandidate]:
@@ -74,6 +103,91 @@ def list_review_candidates() -> list[ReviewCandidate]:
             )
         )
     return candidates
+
+
+def extract_section(raw: str, heading: str) -> str:
+    pattern = re.compile(rf"(?ms)^## {re.escape(heading)}\n(.*?){SECTION_END_RE}")
+    match = pattern.search(raw)
+    if not match:
+        return ""
+    return match.group(1).strip()
+
+
+def extract_frontmatter(raw: str) -> dict:
+    match = FRONTMATTER_RE.search(raw)
+    if not match:
+        return {}
+    data: dict[str, str] = {}
+    for line in match.group(1).splitlines():
+        if ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        data[key.strip()] = value.strip().strip('"')
+    return data
+
+
+def make_review_dossier(research_id: str) -> dict:
+    candidates = {candidate.research_id: candidate for candidate in list_review_candidates()}
+    candidate = candidates.get(research_id)
+    system_path = system_ticket_path(research_id)
+    archive_path = archive_page_path(research_id)
+    summary = summary_path(research_id)
+
+    dossier = {
+        "research_id": research_id,
+        "status": "review_candidate" if candidate else "not_in_review_queue",
+        "candidate": candidate.as_dict() if candidate else None,
+        "paths": {
+            "system_ticket": rel_path(system_path),
+            "archive_page": rel_path(archive_path),
+            "summary": rel_path(summary),
+            "review_register": rel_path(RESEARCH_REVIEW_REGISTER),
+        },
+        "exists": {
+            "system_ticket": system_path.exists(),
+            "archive_page": archive_path.exists(),
+            "summary": summary.exists(),
+        },
+        "frontmatter": {},
+        "status_section": "",
+        "review_section": "",
+        "summary_preview": "",
+        "required_actions": [],
+        "recommended_decisions": [],
+    }
+
+    if archive_path.exists():
+        raw = load_text(archive_path)
+        dossier["frontmatter"] = extract_frontmatter(raw)
+        dossier["status_section"] = extract_section(raw, "Status")
+        dossier["review_section"] = extract_section(raw, "Review-Stand")
+
+    if summary.exists():
+        lines = [
+            line.strip()
+            for line in load_text(summary).splitlines()
+            if line.strip() and not line.strip().startswith("---")
+        ]
+        dossier["summary_preview"] = "\n".join(lines[:12])
+
+    required_actions: list[str] = []
+    if not archive_path.exists():
+        required_actions.append("archive_page_missing")
+    if not summary.exists():
+        required_actions.append("summary_missing")
+    if not system_path.exists():
+        required_actions.append("system_ticket_missing")
+    if candidate and candidate.status == "IN_REVIEW_HISTORIAN":
+        required_actions.append("human_final_approve_or_return")
+        dossier["recommended_decisions"] = ["approved", "returned", "commented"]
+    elif candidate and candidate.status == "AWAITING_HUMAN_DECISION":
+        required_actions.append("human_final_required")
+        dossier["recommended_decisions"] = ["approved", "returned"]
+    elif not candidate:
+        required_actions.append("not_actionable_in_review_queue")
+
+    dossier["required_actions"] = required_actions
+    return dossier
 
 
 def capture_dispatch_post(from_agent: str, to_agent: str, subject: str, body: str) -> str | None:
@@ -213,17 +327,19 @@ def update_archive_page(
     )
 
     if STATUS_SECTION_RE.search(raw):
-        raw = STATUS_SECTION_RE.sub(status_text, raw, count=1)
+        raw = STATUS_SECTION_RE.sub(status_text.rstrip() + "\n\n", raw, count=1)
     else:
         raw += "\n\n" + status_text + "\n"
 
     if REVIEW_SECTION_RE.search(raw):
-        raw = REVIEW_SECTION_RE.sub(review_text, raw, count=1)
+        raw = REVIEW_SECTION_RE.sub(review_text.rstrip() + "\n\n", raw, count=1)
     else:
-        insertion = "\n\n" + review_text + "\n"
-        marker = "\n---\n"
-        if marker in raw:
-            raw = raw.replace(marker, insertion + marker, 1)
+        insertion = "\n" + review_text.rstrip() + "\n"
+        h1 = re.search(r"(?m)^# .+\n", raw)
+        if h1:
+            raw = raw[: h1.end()] + insertion + raw[h1.end() :]
+        elif (frontmatter := FRONTMATTER_RE.search(raw)):
+            raw = raw[: frontmatter.end()] + insertion + raw[frontmatter.end() :]
         else:
             raw = raw.rstrip() + insertion
 
@@ -292,18 +408,90 @@ def maybe_update_system_ticket(research_id: str, new_status: str) -> None:
     save_text(path, raw)
 
 
-def apply_review_action(research_id: str, decision: str, reviewer: str, role: str, note: str) -> int:
+def review_mutation_plan(research_id: str, decision: str, role: str) -> list[str]:
+    actions = [
+        "dispatch_post",
+        "append_review_register",
+        "update_archive_page",
+        "update_system_research_board",
+        "update_archive_research_board",
+    ]
+    if decision == "approved":
+        actions.append("set_system_ticket_resolved_if_present")
+    elif decision == "returned":
+        actions.append("set_system_ticket_open_historian_if_present")
+    if role == "human_final":
+        actions.append("final_human_gate")
+    return actions
+
+
+def apply_review_action(
+    research_id: str,
+    decision: str,
+    reviewer: str,
+    role: str,
+    note: str,
+    json_mode: bool = False,
+    dry_run: bool = False,
+) -> int:
     candidates = {candidate.research_id for candidate in list_review_candidates()}
-    if research_id not in candidates and decision != "commented":
-        print(f"{research_id} ist derzeit nicht im REVIEW-Status.")
+    if research_id not in candidates:
+        payload = {
+            "status": "blocked",
+            "reason": "not_in_review_status",
+            "research_id": research_id,
+            "dossier": make_review_dossier(research_id),
+        }
+        if json_mode:
+            print(json.dumps(payload, indent=2, ensure_ascii=False))
+        else:
+            print(f"{research_id} ist derzeit nicht im REVIEW-Status.")
         return 1
+    if decision in {"approved", "returned"} and role != "human_final":
+        payload = {
+            "status": "blocked",
+            "reason": "human_final_required",
+            "research_id": research_id,
+            "decision": decision,
+            "role": role,
+            "dossier": make_review_dossier(research_id),
+        }
+        if json_mode:
+            print(json.dumps(payload, indent=2, ensure_ascii=False))
+        else:
+            print(f"{decision} fuer {research_id} erfordert Rolle human_final.")
+        return 1
+
+    if dry_run:
+        payload = {
+            "status": "dry_run",
+            "research_id": research_id,
+            "decision": decision,
+            "reviewer": reviewer,
+            "role": role,
+            "would_mutate": review_mutation_plan(research_id, decision, role),
+            "dossier": make_review_dossier(research_id),
+        }
+        if json_mode:
+            print(json.dumps(payload, indent=2, ensure_ascii=False))
+        else:
+            print(f"{research_id}: dry-run {decision} durch {reviewer} ({role})")
+            print("Would mutate: " + ", ".join(payload["would_mutate"]))
+        return 0
 
     dispatch_subject = f"Research review: {research_id} {decision}"
     dispatch_body = (
         f"Review-Entscheidung fuer {research_id}: {decision}. Reviewer: {reviewer} ({role}). "
         f"Notiz: {note}"
     )
-    dispatch_ref = capture_dispatch_post(role.split("_", 1)[0].title(), "Coordinator", dispatch_subject, dispatch_body)
+    if json_mode:
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            dispatch_ref = capture_dispatch_post(role.split("_", 1)[0].title(), "Coordinator", dispatch_subject, dispatch_body)
+        dispatch_output = buf.getvalue().strip()
+    else:
+        dispatch_ref = capture_dispatch_post(role.split("_", 1)[0].title(), "Coordinator", dispatch_subject, dispatch_body)
+        dispatch_output = ""
     append_review_register(research_id, reviewer, role, decision, note, dispatch_ref)
     update_archive_page(research_id, decision, reviewer, role, note, dispatch_ref)
     move_or_update_board_row(SYSTEM_RESEARCH_BOARD, research_id, decision)
@@ -312,22 +500,44 @@ def apply_review_action(research_id: str, decision: str, reviewer: str, role: st
         maybe_update_system_ticket(research_id, "RESOLVED")
     elif decision == "returned":
         maybe_update_system_ticket(research_id, "OPEN_HISTORIAN")
-    print(f"{research_id}: {decision} durch {reviewer} ({role})")
+    if json_mode:
+        print(json.dumps({
+            "status": "ok",
+            "research_id": research_id,
+            "decision": decision,
+            "reviewer": reviewer,
+            "role": role,
+            "dispatch_ref": dispatch_ref,
+            "dispatch_output": dispatch_output,
+            "dossier": make_review_dossier(research_id),
+        }, indent=2, ensure_ascii=False))
+    else:
+        print(f"{research_id}: {decision} durch {reviewer} ({role})")
     return 0
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Research review and approval helper")
     parser.add_argument("--list", action="store_true", help="List research review candidates")
+    parser.add_argument("--dossier", action="store_true", help="Show one machine-readable review dossier")
     parser.add_argument("--research-id", help="Research ID, e.g. RESEARCH-2026-004")
     parser.add_argument("--decision", choices=["approved", "returned", "commented"])
     parser.add_argument("--reviewer")
     parser.add_argument("--role", choices=["human_final", "historian_comment", "coordinator_note"])
     parser.add_argument("--note")
+    parser.add_argument("--json", action="store_true", help="Output machine-readable JSON")
+    parser.add_argument("--dry-run", action="store_true", help="Validate the action and show planned mutations without writing")
     args = parser.parse_args()
 
     if args.list:
         candidates = list_review_candidates()
+        if args.json:
+            print(json.dumps({
+                "status": "ok",
+                "count": len(candidates),
+                "results": [candidate.as_dict() for candidate in candidates],
+            }, indent=2, ensure_ascii=False))
+            return 0
         if not candidates:
             print("Keine Research-Auftraege im REVIEW-Status.")
             return 0
@@ -338,13 +548,34 @@ def main() -> int:
             )
         return 0
 
+    if args.dossier:
+        if not args.research_id:
+            parser.error("--dossier benoetigt --research-id.")
+        dossier = make_review_dossier(args.research_id)
+        if args.json:
+            print(json.dumps(dossier, indent=2, ensure_ascii=False))
+        else:
+            print(f"{args.research_id}: {dossier['status']}")
+            print(f"Archivseite: {dossier['paths']['archive_page']} ({'ok' if dossier['exists']['archive_page'] else 'fehlt'})")
+            print(f"Summary: {dossier['paths']['summary']} ({'ok' if dossier['exists']['summary'] else 'fehlt'})")
+            print("Required actions: " + ", ".join(dossier["required_actions"]))
+        return 0
+
     if not all([args.research_id, args.decision, args.reviewer, args.role, args.note]):
         parser.error("Fuer Review-Aktionen sind --research-id, --decision, --reviewer, --role und --note erforderlich.")
 
     if args.role != "human_final" and args.decision in {"approved", "returned"}:
         parser.error("Nur human_final darf Forschung final freigeben oder zur Nacharbeit zurueckgeben.")
 
-    return apply_review_action(args.research_id, args.decision, args.reviewer, args.role, args.note)
+    return apply_review_action(
+        args.research_id,
+        args.decision,
+        args.reviewer,
+        args.role,
+        args.note,
+        args.json,
+        args.dry_run,
+    )
 
 
 if __name__ == "__main__":
