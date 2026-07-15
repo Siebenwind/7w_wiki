@@ -14,12 +14,12 @@ Dieses Register dient der systematischen Erfassung aller Kreaturen, Unholde und 
 
 ### Lazperday-Wesen (Hand-Bewegende-Wesen)
 Nutzen Gestik zur Kontrolle der Mächte.
-- **Man-Lazperday:** Auf [[Tare]] geborene Wesen (z.B. [[Kobold|Kobolde]], [[Gnome]]).
+- **Man-Lazperday:** Auf [[Tare]] geborene Wesen (z.B. [[Kobold|Kobolde]], [[Hoehere_Wesenheiten|Gnome]]).
 - **Ing-Lazperday:** Erschaffene oder aus Anomalien entstandene Wesen (z.B. [[Gargoyles]], [[Harpyien]]).
 
 ### Warthun-Wesen ([[Geist]]-Wirkende-Wesen)
 Nutzen reine Konzentration zur Entfesselung arkaner Kräfte.
-- **Uruzman-Warthun:** Geboren oder aus starken Anomalien (z.B. höhere [[Elementare]], [[Djinns]]).
+- **Uruzman-Warthun:** Geboren oder aus starken Anomalien (z.B. höhere [[Elementare]], [[Hoehere_Wesenheiten|Djinns]]).
 - **Nuinarra-Warthun:** Durch hohe Arkanisten erschaffen (z.B. [[Liche]], [[Golems]]).
 
 ## Kreaturenverzeichnis
@@ -58,8 +58,8 @@ Nutzen reine Konzentration zur Entfesselung arkaner Kräfte.
 | [[Kobold]] | Feenwesen | [[Brandenstein]] | #bote |
 | [[Feuerwesen]] | Elementar / Beschwörung | Beschworen | #bote |
 | [[Riesenspinnen]] | Bestien | [[Falkensee]] / [[Südfall]] | #bote |
-| [[Moorlaeuferin]] | Bestien (Spinne) | Lichtscheu | #bote |
-| [[Kreuzrueckenspinne]] | Bestien (Züchtung) | Tödliches Gift | #bote |
+| [[Riesenspinnen|Moorläuferin]] | Bestien (Spinne) | Lichtscheu | #bote |
+| [[Riesenspinnen|Kreuzrückenspinne]] | Bestien (Züchtung) | Tödliches Gift | #bote |
 
 ## Erläuterung der Klassifizierung
 - **Beelzebuben/[[Daemonen]]:** Wesenheiten der Niederhöllen.

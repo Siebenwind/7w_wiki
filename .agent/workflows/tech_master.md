@@ -31,6 +31,12 @@ Dieses Department ist das Revier des **Netz-Ingenieurs**. Es ist zuständig für
   - `7w_wiki.py repair --fix-roamlinks [--auto] [--dry-run]`
   - `7w_wiki.py repair --backlog-board [--json]`
   - `7w_wiki.py repair --apply-lane1 [--auto] [--dry-run] [--json]`
+  - `7w_wiki.py pages backlog summary [--json]`
+  - `7w_wiki.py pages backlog historian --next`
+  - `7w_wiki.py pages backlog historian --cluster <cluster> --dry-run [--json]`
+  - `7w_wiki.py pages backlog historian --article <path> --resolve [--json]`
+  - `7w_wiki.py pages backlog historian --cluster <cluster> --resolve [--json]`
+  - `7w_wiki.py pages backlog historian --run-all --resolve [--json]`
   - `7w_wiki.py mail inbox --status OPEN`
   - `7w_wiki.py mail post --from Technician --to <agent|ALL> --subject "<text>" --body "<text>"`
   - `7w_wiki.py tech --sync-catalog`
@@ -96,7 +102,10 @@ Führe bei Leerlauf diese Wartungsschritte durch, um Struktur und Dokumentation 
    - `./7w_wiki.py pages validate --json --strict-links`
    - Bei konzentrierten WARN-Targets: `./7w_wiki.py repair --fix-roamlinks --auto`
    - Fuer clusterbasierte Backlog-Arbeit zuerst `./7w_wiki.py repair --backlog-board --json`, dann konservative Mechanik mit `./7w_wiki.py repair --apply-lane1 --auto`
-   - Diese Schritte behandeln Publishing- und Linkdrift, nicht Lore-Praezedenz.
+   - `needs_historian` ist keine Mensch-Warteschlange, sondern die Historian-Clusterlane: `./7w_wiki.py pages backlog historian --next`.
+   - Semantische Resolution-Laeufe starten mit `--resolve`; schreibende Vollautomaten benoetigen `--yes --i-understand-bulk-semantics`.
+   - `needs_human` bleibt die echte Maintainer-Eskalation bei inhaltlichen Konflikten.
+   - Diese Schritte behandeln Publishing- und Linkdrift; bei epistemischen Konflikten gilt `Homepage > Quellen > Wiki Pages`.
    - Der normative Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
 5. **Index Live-Überwachung (`/watch`):**
    - Bei bedarf `./7w_wiki.py watch` in einem separaten Terminal starten, um inkrementelle Index-Updates (`build_index.py`) für das Oracle beim Speichern zu garantieren.

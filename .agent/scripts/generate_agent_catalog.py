@@ -200,12 +200,19 @@ SKILL_Codex_ADAPTERS = {
             "./7w_wiki.py search <query> --source all",
             "./7w_wiki.py historian review --list --json",
             "./7w_wiki.py historian review --dossier --research-id RESEARCH-2026-XXX --json",
+            "./7w_wiki.py pages backlog historian --next",
+            "./7w_wiki.py pages backlog historian --cluster <cluster> --dry-run --json",
+            "./7w_wiki.py pages backlog historian --article <path> --resolve --json",
+            "./7w_wiki.py pages backlog historian --cluster <cluster> --resolve --json",
+            "./7w_wiki.py pages backlog historian --run-all --resolve --json",
             "./7w_wiki.py mail post --from Historian --to ALL --subject \"<lore question>\" --body \"<summary>\""
         ],
         "instructions": [
             "Use this adapter for deep lore synthesis, contradiction analysis, and evidence-backed answers.",
             "The Historian is an escalation and synthesis organ, not the default editor for straightforward source integration.",
             "Use historian review for structured Research Board review backlog before relying on ad-hoc Dispatch reading.",
+            "Treat Pages needs_historian as a Historian-operable cluster lane; reserve needs_human for true maintainer escalation.",
+            "Use Pages backlog --resolve for article, cluster, and run-all resolution runs; bulk semantic apply requires explicit warning acknowledgement.",
             "Route unresolved contradictions through Dispatch or the Synapse Board with explicit evidence."
         ],
         "references": [

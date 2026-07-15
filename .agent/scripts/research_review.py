@@ -154,6 +154,7 @@ def make_review_dossier(research_id: str) -> dict:
         "summary_preview": "",
         "required_actions": [],
         "recommended_decisions": [],
+        "human_actions": [],
     }
 
     if archive_path.exists():
@@ -180,14 +181,73 @@ def make_review_dossier(research_id: str) -> dict:
     if candidate and candidate.status == "IN_REVIEW_HISTORIAN":
         required_actions.append("human_final_approve_or_return")
         dossier["recommended_decisions"] = ["approved", "returned", "commented"]
+        dossier["human_actions"] = [
+            f"./7w_wiki.py historian review --approve {research_id} --note \"<Begruendung>\" --dry-run",
+            f"./7w_wiki.py historian review --return {research_id} --note \"<Nacharbeit>\" --dry-run",
+        ]
     elif candidate and candidate.status == "AWAITING_HUMAN_DECISION":
         required_actions.append("human_final_required")
         dossier["recommended_decisions"] = ["approved", "returned"]
+        dossier["human_actions"] = [
+            f"./7w_wiki.py historian review --approve {research_id} --note \"<Begruendung>\" --dry-run",
+            f"./7w_wiki.py historian review --return {research_id} --note \"<Nacharbeit>\" --dry-run",
+        ]
     elif not candidate:
         required_actions.append("not_actionable_in_review_queue")
 
     dossier["required_actions"] = required_actions
     return dossier
+
+
+def make_human_review_queue() -> dict:
+    items = []
+    for candidate in list_review_candidates():
+        dossier = make_review_dossier(candidate.research_id)
+        items.append(
+            {
+                "research_id": candidate.research_id,
+                "title": candidate.title,
+                "status": candidate.status,
+                "priority": candidate.priority,
+                "focus": candidate.focus,
+                "archive_page": dossier["paths"]["archive_page"],
+                "summary": dossier["paths"]["summary"],
+                "required_actions": dossier["required_actions"],
+                "human_actions": dossier["human_actions"],
+            }
+        )
+    return {
+        "status": "ok",
+        "count": len(items),
+        "items": items,
+        "usage": [
+            "./7w_wiki.py historian review --human",
+            "./7w_wiki.py historian review --dossier --research-id RESEARCH-2026-XXX",
+            "./7w_wiki.py historian review --approve RESEARCH-2026-XXX --note \"<Begruendung>\" --dry-run",
+            "./7w_wiki.py historian review --return RESEARCH-2026-XXX --note \"<Nacharbeit>\" --dry-run",
+            "./7w_wiki.py historian review --approve RESEARCH-2026-XXX --note \"<Begruendung>\"",
+            "./7w_wiki.py historian review --return RESEARCH-2026-XXX --note \"<Nacharbeit>\"",
+        ],
+    }
+
+
+def print_human_review_queue(queue: dict) -> None:
+    print("Human Review: offene Entscheidungen")
+    print("")
+    if queue["count"] == 0:
+        print("Keine offenen Human-Review-Entscheidungen.")
+        return
+    for item in queue["items"]:
+        print(f"- {item['research_id']} | {item['priority']} | {item['title']}")
+        print(f"  Status: {item['status']} | Fokus: {item['focus']}")
+        print(f"  Archiv: {item['archive_page']}")
+        print(f"  Summary: {item['summary']}")
+        print(f"  Offen: {', '.join(item['required_actions'])}")
+        print("  Optionen:")
+        for action in item["human_actions"]:
+            print(f"    {action}")
+        print("")
+    print("Tipp: Erst mit --dry-run pruefen, danach denselben Befehl ohne --dry-run ausfuehren.")
 
 
 def capture_dispatch_post(from_agent: str, to_agent: str, subject: str, body: str) -> str | None:
@@ -519,10 +579,13 @@ def apply_review_action(
 def main() -> int:
     parser = argparse.ArgumentParser(description="Research review and approval helper")
     parser.add_argument("--list", action="store_true", help="List research review candidates")
+    parser.add_argument("--human", action="store_true", help="Show human-friendly pending decisions and copyable commands")
     parser.add_argument("--dossier", action="store_true", help="Show one machine-readable review dossier")
+    parser.add_argument("--approve", metavar="RESEARCH_ID", help="Human-friendly final approval shortcut")
+    parser.add_argument("--return", dest="return_review", metavar="RESEARCH_ID", help="Human-friendly return-for-rework shortcut")
     parser.add_argument("--research-id", help="Research ID, e.g. RESEARCH-2026-004")
     parser.add_argument("--decision", choices=["approved", "returned", "commented"])
-    parser.add_argument("--reviewer")
+    parser.add_argument("--reviewer", default="Human")
     parser.add_argument("--role", choices=["human_final", "historian_comment", "coordinator_note"])
     parser.add_argument("--note")
     parser.add_argument("--json", action="store_true", help="Output machine-readable JSON")
@@ -548,6 +611,14 @@ def main() -> int:
             )
         return 0
 
+    if args.human:
+        queue = make_human_review_queue()
+        if args.json:
+            print(json.dumps(queue, indent=2, ensure_ascii=False))
+        else:
+            print_human_review_queue(queue)
+        return 0
+
     if args.dossier:
         if not args.research_id:
             parser.error("--dossier benoetigt --research-id.")
@@ -559,7 +630,29 @@ def main() -> int:
             print(f"Archivseite: {dossier['paths']['archive_page']} ({'ok' if dossier['exists']['archive_page'] else 'fehlt'})")
             print(f"Summary: {dossier['paths']['summary']} ({'ok' if dossier['exists']['summary'] else 'fehlt'})")
             print("Required actions: " + ", ".join(dossier["required_actions"]))
+            if dossier["human_actions"]:
+                print("Human options:")
+                for action in dossier["human_actions"]:
+                    print(f"  {action}")
         return 0
+
+    if args.approve and args.return_review:
+        parser.error("--approve und --return duerfen nicht gemeinsam verwendet werden.")
+
+    if args.approve or args.return_review:
+        if not args.note:
+            parser.error("--approve/--return benoetigt --note.")
+        research_id = args.approve or args.return_review
+        decision = "approved" if args.approve else "returned"
+        return apply_review_action(
+            research_id,
+            decision,
+            args.reviewer,
+            "human_final",
+            args.note,
+            args.json,
+            args.dry_run,
+        )
 
     if not all([args.research_id, args.decision, args.reviewer, args.role, args.note]):
         parser.error("Fuer Review-Aktionen sind --research-id, --decision, --reviewer, --role und --note erforderlich.")

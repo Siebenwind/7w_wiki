@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-11T16:18:27Z",
-  "inputs_fingerprint": "7180f66771a9510de5d3406b7fc8253a911e647cfec733380b16d5b927abbe1a",
+  "generated_at": "2026-07-15T15:08:00Z",
+  "inputs_fingerprint": "0d967db098e1de153a847fb4b6412809b2a5648e54dbd3bd720671863eae89d2",
   "payload": {
     "index": {
       "01catar": [
@@ -3628,9 +3628,6 @@
       "divinumetelementum": [
         "docs/Siebenwind_Wiki/01_Pantheon/index.md"
       ],
-      "djinns": [
-        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
-      ],
       "donariusderrvus": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/01_Pantheon/Aequilibrium.md",
@@ -5606,9 +5603,6 @@
       "gnadencustodias": [
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Hevelius_Dunkelfeld.md"
       ],
-      "gnome": [
-        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
-      ],
       "goblins": [
         "docs/Quellen/Spielergeschichten/Erinnerungen_eines_alternden_Zwergen.md",
         "docs/Quellen/Zeitung 7w Bote/Siebenwind Bote 180.md",
@@ -6448,6 +6442,7 @@
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Tandrion_Intoma.md"
       ],
       "hoeherewesenheiten": [
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
         "docs/Siebenwind_Wiki/05_Magie/Golems.md",
         "docs/Siebenwind_Wiki/05_Magie/index.md"
       ],
@@ -7357,9 +7352,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_184.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md"
-      ],
-      "kreuzrueckenspinne": [
-        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
       ],
       "kriegerakademie": [
         "docs/Siebenwind_Wiki/00_Fundament/Kriegerakademie_Seeberg.md",
@@ -8511,9 +8503,6 @@
         "docs/Siebenwind_Wiki/00_Fundament/index.md",
         "docs/Siebenwind_Wiki/06_Erzählungen/Dunkeltief-_Vaenskap.md",
         "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Gerrion_Arres.md"
-      ],
-      "moorlaeuferin": [
-        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
       ],
       "morinthamaz": [
         "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",

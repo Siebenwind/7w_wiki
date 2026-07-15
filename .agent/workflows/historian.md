@@ -15,9 +15,17 @@ Fuer die groessere Department-Logik verweist es auf [lore_master.md](lore_master
 - runtime_commands:
   - `7w_wiki.py historian [query]`
   - `7w_wiki.py historian review --list --json`
+  - `7w_wiki.py historian review --human`
   - `7w_wiki.py historian review --dossier --research-id RESEARCH-2026-XXX --json`
   - `7w_wiki.py historian review --research-id RESEARCH-2026-XXX --decision commented --reviewer Historian --role historian_comment --note "<Kommentar>" --json`
-  - `7w_wiki.py historian review --research-id RESEARCH-2026-XXX --decision approved|returned --reviewer Human --role human_final --note "<Entscheidung>" --dry-run --json`
+  - `7w_wiki.py historian review --approve RESEARCH-2026-XXX --note "<Begruendung>" --dry-run`
+  - `7w_wiki.py historian review --return RESEARCH-2026-XXX --note "<Nacharbeit>" --dry-run`
+  - `7w_wiki.py pages backlog historian --next`
+  - `7w_wiki.py pages backlog historian --cluster <cluster> --dry-run --json`
+  - `7w_wiki.py pages backlog historian --article <path> --resolve --json`
+  - `7w_wiki.py pages backlog historian --cluster <cluster> --resolve --json`
+  - `7w_wiki.py pages backlog historian --run-all --resolve --json`
+  - `7w_wiki.py pages backlog historian --run-all --resolve --apply --yes --i-understand-bulk-semantics`
   - `7w_wiki.py search <query> --source wiki|quellen|all`
   - `7w_wiki.py score <file>`
   - `7w_wiki.py mail inbox --status OPEN`
@@ -48,11 +56,24 @@ Fuer die groessere Department-Logik verweist es auf [lore_master.md](lore_master
 
 ## 3b. Review-Haertung fuer Backlog-Abbau
 1. `IN_REVIEW_HISTORIAN` bedeutet: Gutachten liegt vor; der Historian darf fachlich kommentieren, aber nicht final menschlich freigeben.
-2. Nutze fuer Historian-Kommentare:
+2. Menschen nutzen zuerst die Entscheidungsansicht:
+   `./7w_wiki.py historian review --human`
+3. Nutze fuer Historian-Kommentare:
    `./7w_wiki.py historian review --research-id RESEARCH-2026-XXX --decision commented --reviewer Historian --role historian_comment --note "<Kommentar>" --json`
-3. Finales Approve/Return bleibt `--role human_final` vorbehalten und sollte vor Live-Ausfuehrung mit `--dry-run --json` validiert werden.
-4. Jeder nicht-trockene Review-Schritt schreibt ins Review-Register, aktualisiert die Archivseite und erzeugt Dispatch-Nachweis.
-5. Backlog-Abbau beginnt mit `review --list --json`; Faelle ohne Summary oder Archivseite sind zuerst strukturell zu reparieren.
+4. Finales Approve/Return erfolgt menschenfreundlich ueber `--approve RESEARCH-2026-XXX --note "<Begruendung>"` oder `--return RESEARCH-2026-XXX --note "<Nacharbeit>"`; beide Befehle setzen intern `human_final`.
+5. Vor Live-Ausfuehrung zuerst denselben Befehl mit `--dry-run` validieren.
+6. Jeder nicht-trockene Review-Schritt schreibt ins Review-Register, aktualisiert die Archivseite und erzeugt Dispatch-Nachweis.
+7. Backlog-Abbau beginnt mit `review --human`; Faelle ohne Summary oder Archivseite sind zuerst strukturell zu reparieren.
+
+## 3c. Pages-Backlog als Historian-Clusterlane
+1. `needs_historian` bedeutet: Der Fall ist nicht mechanisch sicher, aber durch den Historian clusterweise bearbeitbar.
+2. Starte mit `./7w_wiki.py pages backlog historian --next`.
+3. Pruefe konkrete Cluster mit `./7w_wiki.py pages backlog historian --cluster <cluster> --dry-run --json`.
+4. Erzeuge semantische Entscheidungen mit `./7w_wiki.py pages backlog historian --cluster <cluster> --resolve --json` oder dateiweise mit `--article <path> --resolve --json`.
+5. Schreibe semantische Entscheidungen nur mit `--resolve --apply --yes`; der Vollautomat zusaetzlich nur mit `--run-all --resolve --apply --yes --i-understand-bulk-semantics`.
+6. Technische Format-/Wrapper-Cluster duerfen nur bei eindeutigem Replacement angewendet werden; semantische Cluster schreiben nur `replace`-Entscheidungen mit lokaler Evidenz.
+7. Rohquellen unter `docs/Quellen` bleiben read-only und werden hoechstens als Residuen notiert.
+8. Nur echte Kanon-, Praezedenz- oder Zielkonflikte werden als `needs_human` eskaliert.
 
 ## 4. Abschluss
 1. Poste einen Statusbericht mit `./7w_wiki.py mail done` oder `./7w_wiki.py mail post`.

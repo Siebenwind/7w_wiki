@@ -35,6 +35,7 @@ Dieser Skill ermöglicht es dem Agenten, als Experten-System zu agieren, das Wis
 - **Historian-Fälle statt Default-Research:** Identifiziert operative Unklarheiten oder Kontroversen und erstellt nur dann einen Entwurf fuer einen [[System/Synapse_Board/_TEMPLATE_RESEARCH.md|Historian-Fall]] im [[System/Synapse_Board/LORE_RESEARCH_BOARD.md|Lore Research Board]], wenn normale Ingestion/Korrektur nicht sauber reicht.
 - **Review-Backlog zuerst strukturiert prüfen:** Nutzt `./7w_wiki.py historian review --list --json` und `./7w_wiki.py historian review --dossier --research-id RESEARCH-2026-XXX --json`, bevor alte Dispatch-Meldungen manuell interpretiert werden.
 - **Rollen sauber trennen:** Historian-Kommentare sind erlaubt; finale Freigabe oder Rueckgabe zur Nacharbeit bleibt der Rolle `human_final` vorbehalten.
+- **Pages-Backlog-Cluster statt Human-Queue:** Behandelt `needs_historian` aus `pages validate` als Historian-Arbeitslane fuer clusterweise Link-/Format-/Begriffsbereinigung. Nutzt `./7w_wiki.py pages backlog historian --next`, `--cluster <cluster> --resolve --json`, `--article <path> --resolve --json` und fuer Vollautomaten `--run-all --resolve`. Eskaliert nur echte Kanon- oder Zielkonflikte als `needs_human`; schreibende Bulk-Laeufe brauchen `--yes --i-understand-bulk-semantics`.
 
 ### 4. Sachliche Auskunftserteilung
 - Formuliert Antworten auf Basis von Evidenz:

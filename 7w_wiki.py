@@ -113,7 +113,7 @@ COMMAND_METADATA = {
         "interactive_default": False,
     },
     "pages": {
-        "summary": "Build or validate GitHub Pages documentation and site-integrity health.",
+        "summary": "Build, validate, and inspect GitHub Pages documentation and backlog health.",
         "context": ".agent/scripts/pages_tool.py",
         "json_capable": True,
         "supports_run_mode": False,
@@ -597,6 +597,8 @@ def main():
     pages_validate.add_argument("--include-pages-audit", action="store_true", help="Run audit --pages during validation")
     pages_validate.add_argument("--json", action="store_true", help="Output machine-readable validation report")
     pages_validate.add_argument("--config", default="mkdocs.yml", help="Path to mkdocs config (default: mkdocs.yml)")
+    pages_backlog = pages_sub.add_parser("backlog", help="Inspect and run Pages backlog workbench lanes")
+    pages_backlog.add_argument("args", nargs=argparse.REMAINDER, help="Backlog workbench arguments: summary|historian ...")
 
     # Advisor (Default)
     advisor_parser = subparsers.add_parser("advisor", help="Show system status and recommendations (Default)")
@@ -908,6 +910,9 @@ def main():
         if not args.pages_cmd:
             pages_parser.print_help()
             sys.exit(1)
+        if args.pages_cmd == "backlog":
+            run_script(".agent/scripts/pages_backlog_workbench.py", list(args.args or []))
+            return
         page_args = [args.pages_cmd]
         if hasattr(args, "fast") and args.fast:
             page_args.append("--fast")

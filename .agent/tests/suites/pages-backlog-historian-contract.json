@@ -1,0 +1,255 @@
+{
+  "suite": "pages-backlog-historian-contract",
+  "description": "Guards the Historian-operable Pages backlog workbench lane.",
+  "cases": [
+    {
+      "id": "pages-backlog-summary-json",
+      "name": "Pages backlog summary separates Historian and Human semantics",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "backlog",
+        "summary",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_keys": [
+        "status",
+        "pages_health",
+        "clusters",
+        "recommended_next",
+        "semantics"
+      ],
+      "expect_json_path_min": {
+        "pages_health.unresolved_total": 1,
+        "cluster_count": 1
+      },
+      "expect_stdout": [
+        "\"needs_historian\": \"Historian-operable cluster lane\"",
+        "\"needs_human\": \"Final human escalation only\""
+      ]
+    },
+    {
+      "id": "pages-backlog-historian-next",
+      "name": "Historian next view exposes cluster commands",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "backlog",
+        "historian",
+        "--next"
+      ],
+      "expect_exit": 0,
+      "expect_stdout": [
+        "Pages Backlog Workbench",
+        "./7w_wiki.py pages backlog historian --cluster"
+      ]
+    },
+    {
+      "id": "pages-backlog-historian-cluster-json",
+      "name": "Historian cluster dry-run exposes planned actions without applying",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "backlog",
+        "historian",
+        "--cluster",
+        "register_links",
+        "--dry-run",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "ok",
+        "cluster": "register_links",
+        "apply_supported": false
+      },
+      "expect_json_path_exists": [
+        "summary",
+        "planned",
+        "action_counts"
+      ]
+    },
+    {
+      "id": "pages-backlog-readonly-sources",
+      "name": "Historian workbench never offers raw sources as editable fixes",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "backlog",
+        "historian",
+        "--cluster",
+        "readonly_quellen_residue",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "ok",
+        "cluster": "readonly_quellen_residue"
+      },
+      "expect_stdout": [
+        "\"action\": \"readonly_note\"",
+        "\"editable\": false"
+      ]
+    },
+    {
+      "id": "pages-backlog-apply-requires-yes",
+      "name": "Historian apply path requires explicit yes",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "backlog",
+        "historian",
+        "--cluster",
+        "format_wrappers",
+        "--apply",
+        "--json"
+      ],
+      "expect_exit": 1,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "blocked",
+        "reason": "apply_requires_yes",
+        "cluster": "format_wrappers"
+      }
+    },
+    {
+      "id": "pages-backlog-command-surface",
+      "name": "CLI help-json exposes pages backlog subcommand",
+      "cmd": [
+        "./7w_wiki.py",
+        "--help-json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_stdout": [
+        "\"name\": \"backlog\"",
+        "Backlog workbench arguments: summary|historian ..."
+      ]
+    },
+    {
+      "id": "pages-backlog-article-resolve-json",
+      "name": "Historian article resolve limits decisions to one article",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "backlog",
+        "historian",
+        "--article",
+        "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
+        "--resolve",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "ok",
+        "mode": "resolve",
+        "scope": "article",
+        "article": "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md"
+      },
+      "expect_json_path_exists": [
+        "summary",
+        "resolutions"
+      ]
+    },
+    {
+      "id": "pages-backlog-cluster-resolve-json",
+      "name": "Historian cluster resolve emits semantic decisions",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "backlog",
+        "historian",
+        "--cluster",
+        "register_links",
+        "--resolve",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "ok",
+        "mode": "resolve",
+        "scope": "cluster",
+        "cluster": "register_links"
+      },
+      "expect_stdout": [
+        "\"resolutions\":",
+        "\"action\":"
+      ]
+    },
+    {
+      "id": "pages-backlog-run-all-resolve-json",
+      "name": "Historian run-all resolve exposes warning and summary without applying",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "backlog",
+        "historian",
+        "--run-all",
+        "--resolve",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "ok",
+        "mode": "resolve",
+        "scope": "run_all"
+      },
+      "expect_stdout": [
+        "Semantic bulk run may change many links"
+      ]
+    },
+    {
+      "id": "pages-backlog-run-all-apply-requires-bulk-ack",
+      "name": "Historian run-all semantic apply requires explicit warning acknowledgement",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "backlog",
+        "historian",
+        "--run-all",
+        "--resolve",
+        "--apply",
+        "--yes",
+        "--json"
+      ],
+      "expect_exit": 1,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "blocked",
+        "reason": "bulk_semantic_apply_requires_explicit_warning_ack"
+      }
+    },
+    {
+      "id": "pages-backlog-readonly-resolve-apply-no-content-writes",
+      "name": "Historian readonly resolve apply does not edit raw sources",
+      "cmd": [
+        "./7w_wiki.py",
+        "pages",
+        "backlog",
+        "historian",
+        "--cluster",
+        "readonly_quellen_residue",
+        "--resolve",
+        "--apply",
+        "--yes",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "ok",
+        "changed_files_total": 0
+      },
+      "expect_stdout": [
+        "\"readonly_note\""
+      ]
+    }
+  ]
+}

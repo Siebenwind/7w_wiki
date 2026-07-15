@@ -1,6 +1,6 @@
 {
   "version": "catalog.v1",
-  "generated_at": "2026-06-30T18:03:21Z",
+  "generated_at": "2026-07-15T15:07:45Z",
   "runtime": {
     "entrypoint": "./7w_wiki.py",
     "help_json": "./7w_wiki.py --help-json",
@@ -626,7 +626,7 @@
       },
       {
         "name": "pages",
-        "description": "usage: 7w_wiki.py pages [-h] {status,build,validate} ...",
+        "description": "usage: 7w_wiki.py pages [-h] {status,build,validate,backlog} ...",
         "arguments": [],
         "subcommands": [
           {
@@ -835,9 +835,24 @@
                 "default": "mkdocs.yml"
               }
             ]
+          },
+          {
+            "name": "backlog",
+            "description": "usage: 7w_wiki.py pages backlog [-h] ...",
+            "arguments": [
+              {
+                "name": "args",
+                "flags": [],
+                "help": "Backlog workbench arguments: summary|historian ...",
+                "required": false,
+                "type": "string",
+                "kind": "positional",
+                "nargs": "REMAINDER"
+              }
+            ]
           }
         ],
-        "summary": "Build or validate GitHub Pages documentation and site-integrity health.",
+        "summary": "Build, validate, and inspect GitHub Pages documentation and backlog health.",
         "context": ".agent/scripts/pages_tool.py",
         "json_capable": true,
         "supports_run_mode": false,
@@ -2206,8 +2221,17 @@
         "runtime_commands": [
           "7w_wiki.py historian [query]",
           "7w_wiki.py historian review --list --json",
+          "7w_wiki.py historian review --human",
           "7w_wiki.py historian review --dossier --research-id RESEARCH-2026-XXX --json",
           "7w_wiki.py historian review --research-id RESEARCH-2026-XXX --decision commented --reviewer Historian --role historian_comment --note \"<Kommentar>\" --json",
+          "7w_wiki.py historian review --approve RESEARCH-2026-XXX --note \"<Begruendung>\" --dry-run",
+          "7w_wiki.py historian review --return RESEARCH-2026-XXX --note \"<Nacharbeit>\" --dry-run",
+          "7w_wiki.py pages backlog historian --next",
+          "7w_wiki.py pages backlog historian --cluster <cluster> --dry-run --json",
+          "7w_wiki.py pages backlog historian --article <path> --resolve --json",
+          "7w_wiki.py pages backlog historian --cluster <cluster> --resolve --json",
+          "7w_wiki.py pages backlog historian --run-all --resolve --json",
+          "7w_wiki.py pages backlog historian --run-all --resolve --apply --yes --i-understand-bulk-semantics",
           "7w_wiki.py search <query> --source wiki|quellen|all",
           "7w_wiki.py score <file>",
           "7w_wiki.py mail inbox --status OPEN",
@@ -2457,6 +2481,12 @@
           "7w_wiki.py repair --fix-roamlinks [--auto] [--dry-run]",
           "7w_wiki.py repair --backlog-board [--json]",
           "7w_wiki.py repair --apply-lane1 [--auto] [--dry-run] [--json]",
+          "7w_wiki.py pages backlog summary [--json]",
+          "7w_wiki.py pages backlog historian --next",
+          "7w_wiki.py pages backlog historian --cluster <cluster> --dry-run [--json]",
+          "7w_wiki.py pages backlog historian --article <path> --resolve [--json]",
+          "7w_wiki.py pages backlog historian --cluster <cluster> --resolve [--json]",
+          "7w_wiki.py pages backlog historian --run-all --resolve [--json]",
           "7w_wiki.py mail inbox --status OPEN",
           "7w_wiki.py mail post --from Technician --to <agent|ALL> --subject \"<text>\" --body \"<text>",
           "7w_wiki.py tech --sync-catalog",
@@ -2790,12 +2820,19 @@
             "./7w_wiki.py search <query> --source all",
             "./7w_wiki.py historian review --list --json",
             "./7w_wiki.py historian review --dossier --research-id RESEARCH-2026-XXX --json",
+            "./7w_wiki.py pages backlog historian --next",
+            "./7w_wiki.py pages backlog historian --cluster <cluster> --dry-run --json",
+            "./7w_wiki.py pages backlog historian --article <path> --resolve --json",
+            "./7w_wiki.py pages backlog historian --cluster <cluster> --resolve --json",
+            "./7w_wiki.py pages backlog historian --run-all --resolve --json",
             "./7w_wiki.py mail post --from Historian --to ALL --subject \"<lore question>\" --body \"<summary>\""
           ],
           "instructions": [
             "Use this adapter for deep lore synthesis, contradiction analysis, and evidence-backed answers.",
             "The Historian is an escalation and synthesis organ, not the default editor for straightforward source integration.",
             "Use historian review for structured Research Board review backlog before relying on ad-hoc Dispatch reading.",
+            "Treat Pages needs_historian as a Historian-operable cluster lane; reserve needs_human for true maintainer escalation.",
+            "Use Pages backlog --resolve for article, cluster, and run-all resolution runs; bulk semantic apply requires explicit warning acknowledgement.",
             "Route unresolved contradictions through Dispatch or the Synapse Board with explicit evidence."
           ],
           "references": [

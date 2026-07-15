@@ -6,7 +6,7 @@
     "sources": "Quellen",
     "wiki": "docs/Siebenwind_Wiki"
   },
-  "generated_at": "2026-06-11T16:18:17Z",
+  "generated_at": "2026-07-15T15:08:01Z",
   "items": [
     {
       "activity": "scan_contract",
@@ -390,8 +390,8 @@
       "agent": "content_contract",
       "bridge_status": "none",
       "classification": "article",
-      "content_hash": "181ea84e5ee36abe5785df47ba35e795e8a69db7a24a1ea07475f6cb10a69464",
-      "modified_at": "2026-04-16T16:50:45Z",
+      "content_hash": "e19624b8a6760262a0503ec0cd831b7bab1044cb13816a3ae333ca8969fb418e",
+      "modified_at": "2026-06-30T18:48:51Z",
       "path": "docs/Siebenwind_Wiki/00_Fundament/Bestiarium_Register.md",
       "review_until": null,
       "source_tree": "wiki",
@@ -17745,8 +17745,8 @@
       "agent": "content_contract",
       "bridge_status": "none",
       "classification": "article",
-      "content_hash": "53c428ec16077675292179debbb65418e43a10d7706d8342946c23247f046ca1",
-      "modified_at": "2026-06-11T15:01:18Z",
+      "content_hash": "3d6cabc6f636c2b79c06e09d45803017e3e1c3d74c6c8f7e53c65e58a3ec1f92",
+      "modified_at": "2026-07-15T15:07:52Z",
       "path": "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md",
       "review_until": null,
       "source_tree": "wiki",

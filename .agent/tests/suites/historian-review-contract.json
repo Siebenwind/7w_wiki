@@ -127,14 +127,8 @@
         "./7w_wiki.py",
         "historian",
         "review",
-        "--research-id",
+        "--approve",
         "RESEARCH-2026-004",
-        "--decision",
-        "approved",
-        "--reviewer",
-        "Human",
-        "--role",
-        "human_final",
         "--note",
         "Contract test: dry-run human final approval.",
         "--dry-run",
@@ -165,14 +159,8 @@
         "./7w_wiki.py",
         "historian",
         "review",
-        "--research-id",
+        "--return",
         "RESEARCH-2026-007",
-        "--decision",
-        "returned",
-        "--reviewer",
-        "Human",
-        "--role",
-        "human_final",
         "--note",
         "Contract test: dry-run human final return.",
         "--dry-run",
@@ -197,6 +185,46 @@
       }
     },
     {
+      "id": "historian-review-human-queue",
+      "name": "Human review queue exposes plain language options",
+      "cmd": [
+        "./7w_wiki.py",
+        "historian",
+        "review",
+        "--human"
+      ],
+      "expect_exit": 0,
+      "expect_stdout": [
+        "Human Review: offene Entscheidungen",
+        "./7w_wiki.py historian review --approve RESEARCH-2026-004",
+        "./7w_wiki.py historian review --return RESEARCH-2026-004",
+        "Tipp: Erst mit --dry-run pruefen"
+      ]
+    },
+    {
+      "id": "historian-review-human-queue-json",
+      "name": "Human review queue is machine-readable for future UI surfaces",
+      "cmd": [
+        "./7w_wiki.py",
+        "historian",
+        "review",
+        "--human",
+        "--json"
+      ],
+      "expect_exit": 0,
+      "expect_valid_json": true,
+      "expect_json_path_equals": {
+        "status": "ok"
+      },
+      "expect_json_path_min": {
+        "count": 1
+      },
+      "expect_json_path_exists": [
+        "items",
+        "usage"
+      ]
+    },
+    {
       "id": "historian-review-docs-runtime-path",
       "name": "Historian workflow documents direct review commands",
       "required_regex_by_file": [
@@ -204,8 +232,11 @@
           "file": ".agent/workflows/historian.md",
           "must_include_regex": [
             "historian review --list --json",
+            "historian review --human",
             "historian review --dossier",
-            "--dry-run --json",
+            "--approve RESEARCH-2026-XXX",
+            "--return RESEARCH-2026-XXX",
+            "--dry-run",
             "IN_REVIEW_HISTORIAN",
             "human_final"
           ]

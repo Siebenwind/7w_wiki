@@ -720,7 +720,9 @@ def _backlog_repair_status(
     if replacement:
         return "auto_safe"
     classification = str(item.get("classification", "needs_historian"))
-    if classification in {"generic_term_conflict", "needs_historian", "needs_human"}:
+    if classification in {"generic_term_conflict", "needs_historian"}:
+        return "historian_review"
+    if classification == "needs_human":
         return "manual_review"
     return "no_safe_replacement"
 

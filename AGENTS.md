@@ -73,7 +73,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `audit` | Run consistency audit for duplicates, broken links, and orphaned content. | `.agent/scripts/register_check.py` |
 | `index` | Manage the semantic search index. | `.agent/skills/oracle/build_index.py` |
 | `index-pages` | Generate category index pages for the wiki. | `.agent/scripts/generate_wiki_indices.py` |
-| `pages <status|build|validate>` | Build or validate GitHub Pages documentation and site-integrity health. | `.agent/scripts/pages_tool.py` |
+| `pages <status|build|validate|backlog>` | Build, validate, and inspect GitHub Pages documentation and backlog health. | `.agent/scripts/pages_tool.py` |
 | `advisor` | Show system status and recommended next actions. | `System/Advisor` |
 | `inquisition` | Run batch ingestion of legacy sources. | `.agent/scripts/inquisition.py` |
 | `sanitize [target]` | Normalize structure, H1 usage, and frontmatter. | `.agent/scripts/wiki_sanitizer.py` |

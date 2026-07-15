@@ -321,7 +321,7 @@
     "type": "function",
     "function": {
       "name": "cli_pages_status",
-      "description": "Build or validate GitHub Pages documentation and site-integrity health. (status). Structured subcommand interface.",
+      "description": "Build, validate, and inspect GitHub Pages documentation and backlog health. (status). Structured subcommand interface.",
       "parameters": {
         "type": "object",
         "properties": {},
@@ -333,7 +333,7 @@
     "type": "function",
     "function": {
       "name": "cli_pages_build",
-      "description": "Build or validate GitHub Pages documentation and site-integrity health. (build). Structured subcommand interface.",
+      "description": "Build, validate, and inspect GitHub Pages documentation and backlog health. (build). Structured subcommand interface.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -358,7 +358,7 @@
     "type": "function",
     "function": {
       "name": "cli_pages_validate",
-      "description": "Build or validate GitHub Pages documentation and site-integrity health. (validate). Structured subcommand interface.",
+      "description": "Build, validate, and inspect GitHub Pages documentation and backlog health. (validate). Structured subcommand interface.",
       "parameters": {
         "type": "object",
         "properties": {
@@ -422,6 +422,23 @@
   {
     "type": "function",
     "function": {
+      "name": "cli_pages_backlog",
+      "description": "Build, validate, and inspect GitHub Pages documentation and backlog health. (backlog). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "args": {
+            "type": "string",
+            "description": "Backlog workbench arguments: summary|historian ..."
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
       "name": "cli_pages",
       "description": "Deprecated compatibility alias for `pages`. Prefer the structured subcommand tools.",
       "parameters": {
@@ -433,7 +450,8 @@
             "enum": [
               "status",
               "build",
-              "validate"
+              "validate",
+              "backlog"
             ]
           },
           "raw_args": {
