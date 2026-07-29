@@ -1,9 +1,0 @@
-{
-  "generated_at": "2026-07-15T15:08:01Z",
-  "inputs_fingerprint": "65e1a665d7eab50236c0f85e221dc7988c1676b56186f0e809deadee91c63e7c",
-  "payload": {
-    "latest_path": ".agent/data/wiki_inventory.json",
-    "snapshot_path": ".agent/data/wiki_inventory_history/wiki_inventory_2026-07-15_150801.json"
-  },
-  "version": 2
-}

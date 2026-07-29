@@ -1,19 +1,26 @@
-# === OS ===
+# === OS cruft ===
 .DS_Store
 Thumbs.db
 
-# === Python ===
+# === Python runtime, environments & test output ===
 __pycache__/
-*.pyc
-*.pyo
-venv/
+*.py[cod]
 .venv/
+venv/
 *.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+/build/
 
-# === ML Models & Data ===
+# === Local ML/runtime state ===
 .agent/data/models/
 .agent/data/chroma_db/
 .agent/data/oracle_venv/
+.agent/data/cache/
 .agent/data/*_latest.json
 .agent/data/*SNAPSHOT*.json
 .agent/data/pages_health.json
@@ -25,45 +32,48 @@ venv/
 # === IDE ===
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
-# === Logs & Temp ===
+# === Local logs, rolling reports & build output ===
 *.log
-Logs/Queues/
-Logs/Archive/*
-!Logs/Archive/SESSION_MEMORY_*.md
-!Logs/Archive/AUDIT_CONSOLIDATION_INDEX_*.md
-!Logs/Archive/AGENT_CHANGE_PACKET_*.md
-site/
-dist/
-.tmp/
-missing_links.txt
-register_links.txt
-walkthrough.md
-/tmp/7w_test_*
+/Logs/Queues/
+/Logs/Archive/*
+!/Logs/Archive/AUDIT_CONSOLIDATION_INDEX_*.md
+!/Logs/Archive/AGENT_CHANGE_PACKET_*.md
+/site/
+/dist/
+/.tmp/
+/missing_links.txt
+/register_links.txt
+/walkthrough.md
 
 # === Debug & One-Off Artifacts (never commit) ===
 *_debug.json
 *_backup
 
-# === Archives (Raw originals, not needed in deployed wiki) ===
-Quellen/_ARCHIV_ORIGINAL/
+# === Intentionally versioned evidence (do not ignore broadly) ===
+# - docs/Quellen/_ARCHIV_ORIGINAL/  (source provenance)
+# - Logs/Ingestion/                 (ingestion evidence)
+# - System/Synapse_Board/DISPATCH/ (coordination history)
+# - docs/Siebenwind_Wiki/           (canonical technical edit tree)
 
 # === Antigravity Agent Brain (conversation-specific) ===
-.gemini/
-Inbox/
-System/DELEGATION_CODEX_PHASE_20.md
+/.gemini/
+/Inbox/
+/System/DELEGATION_CODEX_PHASE_20.md
 
 # === Local Session Residue (do not publish as main repo content) ===
-# Older tracked handover notes remain in git history, but new per-session
-# bycatch should stay local unless deliberately force-added.
-Logs/Archive/SESSION_MEMORY_*.md
-System/Synapse_Board/DISPATCH/MSG-*_session_memory_*.md
-System/Synapse_Board/DISPATCH/MSG-*_session_handover_*.md
-.agent/data/wiki_inventory_history/wiki_inventory_*.json
+# Logs/Archive is ignored above; selected governance documents are re-included.
+# Older tracked handover notes remain in git history.
+/System/Synapse_Board/DISPATCH/MSG-*_session_memory_*.md
+/System/Synapse_Board/DISPATCH/MSG-*_session_handover_*.md
+/.agent/data/wiki_inventory_history/wiki_inventory_*.json
 
 # === Wissenswerk/v2 Runtime Residue ===
 # Standalone Wissenswerk output belongs to its own product surface, not this
 # Siebenwind wiki tree.
-.wissenswerk/
-docs/Wiki/
-reports/wissenswerk/
+/.wissenswerk/
+/docs/Wiki/
+/reports/wissenswerk/
