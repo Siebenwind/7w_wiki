@@ -8,7 +8,7 @@ category: Personen
 !!! info "Metadaten"
     - **Titel:** 1. Ordensmeister des [[Orden_der_Wachenden_Löwen]], Hochmagus, Erzmagier des Grauen Pfades, Edler
     - **Epistemischer Status:** #bote
-    - **Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]] / [[Magierakademie]] / [[Falkensee]] / [[Graue_Garde]] (Leitung)
+    - **Zugehörigkeit:** [[Orden_der_Wachenden_Löwen]] / [[Koenigliche_Akademie_der_Arkanen_Kuenste|Magierakademie]] / [[Falkensee]] / [[Graue_Garde]] (Leitung)
     - **Zeitraum:** Aktiv ca. 15-30 n.H. (Geboren 49 v.H.)
 
 

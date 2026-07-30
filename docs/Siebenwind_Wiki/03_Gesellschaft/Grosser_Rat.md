@@ -19,7 +19,7 @@ Der **Große Rat** (auch "Orkrat" spöttisch?) ist das höchste zivile Gremium [
 Der Rat besteht aus Vertretern der Siedlungen, Völker und wichtigen Institutionen der Insel. Jede Gruppe entsendet einen Vertreter (plus bis zu zwei Begleiter).
 *   **Siedlungen:** [[Falkensee]], [[Brandenstein]], [[Südfall]], [[Greifenklipp]], [[Bergheim]]
 *   **Völker:** [[Menschen]] (Mittelreich), [[Nortraven]] (via [[Greifenklipp]]), [[Zwerge]] (via Bergheim), [[Landelfen]], [[Hochelfen]], [[Halblinge]], [[Orken]] (via Stamm der **[[Kazla]]**).
-*   **Institutionen:** [[Magierakademie]], [[Kirche_der_Viere]], [[Gemeinschaft_der_Elementargläubigen]].
+*   **Institutionen:** [[Koenigliche_Akademie_der_Arkanen_Kuenste|Magierakademie]], [[Kirche_der_Viere]], [[Gemeinschaft_der_Elementargläubigen]].
 *   **Ständige Mitglieder:** Baron von [[Gerdenwald]], ein [[Ritter_der_Sieben_Winde]], der [[Lehnsherr]], der [[Inselpatrizier]].
 
 ## Einordnung

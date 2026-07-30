@@ -1,0 +1,521 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Fjerulfs Pfad</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 21.07.26, 18:06<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=105722&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Fjerulfs Pfad</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=105722"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 4 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=105722&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=105722&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=105722&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p931113"></a>
+				<b class="postauthor">bAnNiN&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Fjerulfs Pfad</div><div style="float: right;"><a href="./viewtopic.php?p=931113#p931113"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 7.11.16, 18:09&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2776_1564476540.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 10.11.02, 21:58<br /><b>Beiträge:</b> 53<br /><b>Wohnort:</b> Leá Monde				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Mit einem leisen Kratzen schabte das Messer über den Ast, ebnete die Form, befreite ihn von Rinde, spitzte ein Ende zu. Der zukünftige Pfeil wurde immer wieder in das Licht des prasselnden Lagerfeuers gehalten und begutachtet. Sie legte ihn zu den anderen, deren Spitzen in einem Haufen Kohle angehärtet wurden, und nahm ein neues Stück Holz zur Hand. Lediglich die Federn mussten den fertigen Pfeilschäften am Schluss noch hinzugefügt werden.<br /><br />Dann sprang sie wütend auf und schleuderte den unbearbeiteten Ast zornig mit aller Kraft von sich. Irgendwo jenseits des Lagerfeuers beschwerte sich lautstark ein Schaf in der Dunkelheit über das ungezielte Wurfgeschoss. Daraufhin war es wieder still. Am liebsten hätte sie den Dwarschim in jenem Moment grob an den Schultern gepackt, wie um die Wahrheit aus ihm rauszuschütteln, aber sie wusste, dass Borrim die Wahrheit gesagt hatte. Sie war auf einer verdammten Insel gelandet. Und sie würde noch einige Zeit dort bleiben, wie es schien. Eine Fahrt von der Insel weg war für sie nicht leistbar, besaß sie doch nicht mehr als ihren treuen Ark, ein paar Messer und die wenigen Fetzen, welche sie als Kleidung am Leib trug. Außerdem war die Überfahrt nicht sicher, und sie bezweifelte, dass ein ähnliches Vorgehen wie bei ihrer letzten Flucht genau so glimpflich enden würde. Desweiteren schloss sich Hrydjas Kleid mit eisigem Griff um die Meere, und bevor die Himmelsgöttin Tare wieder vom Frost befreien würde, sollten noch etliche Monde vergehen.<br /><br />Sie dachte nicht mehr daran, den halbfertig geschnitzten Pfeil in der Dunkelheit zu suchen, sondern packte ihre Sachen um im Dunkel der Wälder zu verschwinden. Heute Nacht würde sie im Haus am See rasten. Es war abgelegen, die Türen waren nicht verschlossen und es schien so, als ob dort selten jemand vorbeikam. Außerdem erinnerte sie die Schamanenhöhle an jene Aufenthaltsorte der Wölvas ihrer Heimat. Und Heimatgefühl, das war etwas, was sie nach der heutigen Erkenntnis durchaus nötig hatte.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2776"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=2776"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p931330"></a>
+				<b class="postauthor">bAnNiN&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Fjerulfs Pfad</div><div style="float: right;"><a href="./viewtopic.php?p=931330#p931330"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 9.11.16, 22:36&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2776_1564476540.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 10.11.02, 21:58<br /><b>Beiträge:</b> 53<br /><b>Wohnort:</b> Leá Monde				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Zufrieden ließ sie sich auf ihrem Schlafplatz nieder. Ihr Herz pochte immer noch etwas, einerseits wegen der Aufregung am Lager der Holzfäller, andererseits weil sie beinahe den ganzen Weg zurückgelaufen war.<br /><br />Als die Soldaten aus Brandenstein wegritten, dachte sie instinktiv, dass jene das Holzfällerlager aufsuchen würden. Wahrscheinlich war irgendwas Wichtiges in den Buchstaben gestanden, welche sie am Tag zuvor in einem Zelt gesehen hatte, aber natürlich nicht in der Lage war zu lesen. Edelmut und die Elfe hatten die Schriften anschließend erneut ausgespäht und den Inhalt sicherlich dem Banner mitgeteilt. Deswegen war sie auch umgehend zum Lager gegangen, um zu beobachten, was die Soldaten im Schilde führten. In sicherem Abstand folgte sie der Szene, welche sich ihr darbot, und mehr als einmal fühlte sie sich wütend daran erinnert, wie die Galadonier ihr eigenes Volk in Khalandra oft be- und misshandelt hatten. Mit zusammengepressten Lippen und Fäusten zogen Erinnerungen an herrische Anweisungen, südländische Arroganz und eiskalten Übergriffen an ihrem inneren Auge vorrüber. Denn trotz des Friedensvertrages, den Argon ausgehandelt hatte, blieb das Leben in Khalandra rau, ein jedes Volk war misstrauisch und oft auch feindselig gegenüber dem nächsten. Teilweise selbst die einzelnen Stämme der Khalandrier untereinander. <br /><br />Als die Frau, die das Lager seit jeher bewachte, ihre Waffe erhob, machte Aervild keine Anstalten den Soldaten beizustehen. Sie würde sich weder auf die Seite der einen Krone schlagen, noch auf die der anderen. Ihrer Ansicht nach gab es nur einen &quot;König&quot;, dem sie zu folgen hatte, und dieser herrschte in der hölzernen Stadt und trug den ehrenvollen Titel des Khan.<br /><br />Als eine Welle der Panik durch die Holzarbeiter ging, fing eines der Zelte in dem Chaos Feuer. Dann noch eines. Dann noch eines. Während die Soldaten des Lehensbanners am Eingang des Lagers mit der Wächterin beschäfigt waren, zählte Aervild genau auf allen zehn Fingern mit, bis sie sich sicher war, dass alle Arbeiter das Lager in Flucht verlassen oder vom Lehensbanner gefangen genommen waren. Als sich in unmittelbarer Nähe eines nicht vom Feuer entfachten Zeltes niemand mehr aufhielt, stieg sie in jenes ein - und das Glück war ihr hold. Sie war im Proviantzelt gelandet. Einige schnelle, plündernde Handgriffe, dann war sie auch schon wieder verschwunden. Ihr Lohn: ein voll bepackter Proviantbeutel und zwei Flaschen Bier. Heute würde sie einen mit vollem Magen und vom schweren Bier begleiteten, tiefen Schlaf haben.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2776"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=2776"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p931524"></a>
+				<b class="postauthor" style="color: #string">Hut mit Feder&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Fjerulfs Pfad</div><div style="float: right;"><a href="./viewtopic.php?p=931524#p931524"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 16.11.16, 01:21&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9249_1475954211.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 22.12.15, 19:50<br /><b>Beiträge:</b> 19				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Der Dwarschim hatte die Begegnung mit der großen Khaelafrau noch nicht ganz verdaut, jedoch schon von den anderen Bärten in der Binge gehört, dass sie sich in den Wäldchen rund um Dunquell herumtrieb. Für ein besonders großes Langbein war sie ihm etwas zu stolz und etwas zu misstrauisch, allerdings brachte sie frisches Fleisch und kippte das Trosh weg, als wäre sie eine waschechte Rahem. Nun, zumindest einen anständigen Zopf besaß sie auch.<br /><br />Er füllte seinen Krug erneut an dem Fässchen, und starrte wartend in das Feuer, welches im Abenteurertreff zufriedenstellend vor sich hinknisterte. Einige Tagesläufe würde er hier noch auf die nächste Lieferung warten, bevor er sich wieder in die Binge zurückziehen würde. Die Vorbereitungen für das kommende Dunkel sollten nicht darunter leiden, jedoch war es auch wichtig genügend Fleisch für die Brescha und Rahema in die Vorratskammer zu packen. Für das Trosh würde er selbst sorgen.</div>
+
+											<span class="postbody"><br />_________________<br /><a class="postlink" href="http://www.lethentir.de/7w/index.php/Orthal_Steinbeisser" target="_blank"><span style="color: #BF4000"><span style="font-size: 85%; line-height: normal">&quot;Rippchen eines Steinbeißers...&quot;</span></span></a></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9249"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9249"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p931534"></a>
+				<b class="postauthor">bAnNiN&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Fjerulfs Pfad</div><div style="float: right;"><a href="./viewtopic.php?p=931534#p931534"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 17.11.16, 00:30&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2776_1564476540.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 10.11.02, 21:58<br /><b>Beiträge:</b> 53<br /><b>Wohnort:</b> Leá Monde				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Der Dvärg behandelte sie wie die anderen seines Volkes gut und anständig, auch wenn sie alle etwas eigenbrötlerisch schienen und so eigenartige Laute in ihrer noch eigenartigeren Sprache verwendeten, dass einem ganz schwindelig im Kopf werden konnte. Umgehend nachdem sie sich mit dem Bartträger getroffen hatte um ihre zusätzlichen Vorräte loszuwerden, kehrte sie für ein letztes Mal zu dem Haus am See zurück.  <br /><br />Es war nicht schweren Herzens, als sie ihre alte Bleibe verließ und ihr weniges Hab und Gut zusammenpackte. Das Haus am See südlich der Steinstadt mit den dunkelhäutigen, wortkargen Wachen war zwar bequem und trocken, jedoch sprachen die unverschlossenen Türen eine Einladung für jede Person aus, welche unverhofft über diesen Ort stolpern würde. Ein Glück, dass sie einen neuen Ort gefunden hatte, an dem sie sich nun zurückziehen konnte - wobei &quot;gefunden&quot; nicht ganz der Wahrheit entsprach. Jemand hatte ihr dieses  neue Heim gezeigt und vorrübergehend zur Verfügung gestellt.<br /><br />Der alte Kerl überraschte sie vor einigen Tagesläufen bei der Jagd. Im Windschatten eines Baumes, jederzeit bereit die Flucht zu ergreifen oder einen möglichen Angriff abzuwehren, wechselten sie erst einige Worte miteinander. Im Fackelschein ihres Gegenübers musterte sie aufmerksam sein Gesicht, ehe ihr Blick über seine Gewandung und das galadonische Langschwert an seinem Gürtel glitt. Wieviele ihrer Brüder und Schwestern hatte der betagte Streiter wohl damit erschlagen? Als er erwähnt hatte, an der &quot;Befriedung&quot; ihres Heimatlandes teilgenommen zu haben,  bestätigte dies  zwar ihr Misstrauen, schürte jedoch keinen Zorn in ihrem Inneren. Kein Verlangen, einen Pfeil durch seine Kehle zu jagen oder bei dem Versuch zu sterben. Anfangs war ihr nicht ganz klar weshalb,  im Laufe ihres Gesprächs verstand sie allerdings. Als ihr der alte Veteran einen ihrer verschossenen Pfeile darbot, mit einem Stück Schinken darauf aufgespießt, erkannte sie, dass dieser Mann eine durchtriebene, bewegende Vergangenheit hinter sich haben musste - und nun eine andere Person war als damals, als er Befehlen anderer folgen musste und Schlachten schlug, welche nicht zwingend seine persönlichen gewesen waren. Seiner Ausstrahlung hing stets ein Schleier von Melancholie nach, und Aervild vermutete, dass die Geister der Vergangenheit den rüstigen Kämpfer von Zeit zu Zeit heimsuchten, um ihn mit seinen Taten, Erlegbnissen und Ängsten zu konfrontieren. Doch selbst mit jener, ihr unbekannten Last auf seinen Schultern und allen Widrigkeiten zum Trotze, bestritt er sein Leben nach wie vor unbeirrt. Und das imponierte ihr.<br /><br />Als Rodrik ihr davon erzählte, alleine einen Feldzug gegen die Piraten zu führen, war sie beeindruckt, fühlte sie wohl, dass er die Wahrheit sprach. Doch als er sie zu seiner Einsiedelei führte, und die Khalandrierin Zeugin dessen wurde, wie der ergraute Soldat eine Harpyie nach der anderen erschlug, wähnte sie sich den leibhaftigen Harjazan persönlich vor ihren eigenen Augen zu haben. Neben seiner Einsiedelei machte er sie auch mit einigen guten Jagdplätzen und einer Hütte in einem der dichteren Wäldchen der Insel bekannt. Letztere stellte er ihr auch bereitwillig für den nahenden Frost zur Verfügung. Anfangs wusste sie nicht recht, wie sie mit dieser Selbstlosigkeit umgehen sollte, denn Dankbarkeit und Demut waren nich unbedingt Eigenschaften, die jeder Khalandrier von Haus aus im Blute trug. Schließlich traf sie jedoch eine Entscheidung, mit der sie leben konnte: Rodrik war würdig genug, dass Aervild ihm gegenüber Wertschätzung und Dankbarkeit zeigen konnte. Immerhin hatte er damals das Wüten der Berserker und Thursen ihres Volkes überlebt. Wenn allein dieser Umstand nicht Respekt verdient hatte, was dann? <br /><br /><br /><div align="center"><img src="http://img.photobucket.com/albums/v335/dt_dante/siebenwind/bsw001.jpg" alt="Bild" /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2776"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=2776"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=105722&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=105722"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 4 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 0 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=105722"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

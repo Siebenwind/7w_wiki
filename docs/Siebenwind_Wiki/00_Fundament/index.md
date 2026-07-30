@@ -137,7 +137,6 @@ Das Archiv der Fundament.
 *   [[Löwenorden|Löwenorden]]
 *   [[Ma'ahn|Ma'ahn]]
 *   [[Magie_Grundlagen|Magie Grundlagen]]
-*   [[Magierakademie|Magierakademie]]
 *   [[Magietheorie|Magietheorie]]
 *   [[Magietheorie_Toran_Dur|Magietheorie (Toran Dur)]]
 *   [[Magiezweige|Magiezweige]]

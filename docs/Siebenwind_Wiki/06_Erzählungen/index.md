@@ -14,6 +14,7 @@ Das Archiv der Erzählungen.
 *   [[Die_Namikleris|Die Namikleris]]
 *   [[Dunkeltief-_Vaenskap|Dunkeltief - Vänskap]]
 *   [[Erzählungen|Erzählungen]]
+*   [[Fjerulfs_Pfad|Fjerulfs Pfad]]
 *   [[Geschichten_eines_silbernen_Adlers|Geschichten eines silbernen Adlers]]
 *   [[Heimsuchung_der_Akademie|Die Heimsuchung der Akademie]]
 *   [[Jenseits_des_Walls|Jenseits des Walls]]

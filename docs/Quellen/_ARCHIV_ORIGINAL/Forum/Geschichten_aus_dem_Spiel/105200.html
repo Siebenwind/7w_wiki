@@ -1,0 +1,1042 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Briefe an einen Vitamageweihten</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 27.07.26, 19:54<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=105200&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Briefe an einen Vitamageweihten</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=105200"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 13 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=105200&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=105200&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=105200&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p926784"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=926784#p926784"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 1.07.16, 17:58&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Die Briefe werden in unregelmäßigen Abständen bei der Kirche abgegeben oder im Briefkasten hinterlegt. Adressiert sind sie allesamt an &quot;Gnaden Tendarion Silberglanz&quot;, ein Absender ist nicht zu erkennen, dafür sind alle Briefe gesiegelt. Das Siegel selbst erinnert an eine zerklüftete Auenlandschaft mit einem Baum mit herabhängenden Zweigen in der Mitte auf einer kleinen Insel unter vielen weiteren.</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Vitamas Segen Niah.<br /><br />Wenn wir einander schon nicht sehen, dann dachte ich es freut Dich zumindest ab und an von mir zu hören.<br />Da Du sehr interessiert an jedweder Meinung zu dem Ort den Du mir zeigtest scheinst, ich aber wie Du wohl gut nachvollziehen kannst am späteren gestrigen Abend nicht mehr so ganz geistig auf der Höhe war habe ich mir heute ein wenig Ruhe gegönnt um noch ein mal darüber nach zu denken.<br />Im Spiel selbst haben wir drei Horwen. Valuni und ihre Spinnen mit Bezug zu Vitama, Träumen und Trost, Galtor mit Bezug zu Morsan mit dem für diesen wohl eher untypischen Zustand der Neugierde, aber auch dem vertrauteren des Innehaltens und Feran mit Bezug zu Astrael, zugleich aber in Bezug zu den erstgenannten stehend. Der Ort selbst ist wie schon erwähnt nicht der Limbus, auch wenn gewisse Ähnlichkeiten dazu vorhanden sein mögen. Er ist aber auch nicht rein weltlich oder wirklich, da er sich beidem zumindest in Teilen entzieht.<br />Wenn ich dies alles zusammen nehme denke ich, ganz unwissenschaftlich, dass eben jener Ort etwas unstoffliches und ungreifbares an sich hat, das zum Kern seines Wesens gehört, daher könnte es sich um eine Form oder eine Vermischung von Ebenen der Phantasie, der Inspiration oder auch der Erinnerung anderer handeln. Zumindest gefallen mir diese Interpretationen besser als die Vorstellung, dass es lediglich eine Art Einblick in einen höheren Geist ist, da so die Aspekte von Vitama und Morsan besser mit einfliessen können oder konkreter, dass ohne diese Aspekte der Ort anders wäre und sich vermutlich dem intuitiven Zugang zu ihm entziehen würde. Denn genau das scheint nicht der Fall zu sein, viel mehr wirkt es, als wolle dieser Ort verstanden werden, gleich ob von hohen oder von doch eher schlichten Gemütern. Er sperrt niemanden aus und genau deshalb ist womöglich ein allzu rationales Herangehen der falsche Weg um ihn so verstehen zu können, wie er verstanden werden will.<br />Phantasie und Vorstellungskraft gefallen mir dabei noch am besten als Deutung, grenzenlos außer den Grenzen, die wir selbst in uns tragen, Regale und Bücher wie Türen zu einer jeweils ganz eigenen Welt, die sich uns nur erschließt oder - wenn Du so magst - die wir nur dann fortan mit uns tragen können, wenn wir uns auf diese Welten auch einlassen, wenn wir erlauben, dass sie etwas in uns berühren. Tun wir dies nicht, so bleiben uns diese Welten verwehrt. Man mag sie suchen, aber man kann sie nicht in sich auf nehmen, weil man sich selbst gegen sie sperrt.<br />Ich sagte gestern, dass Wissen gefährlich ist, dass es die Menschen blind und taub machen kann, starr vor Angst und rasend vor Hass, aber Wissen kann auch die Flamme sein, die in uns brennt und uns Licht spendet in der Finsternis, ein Licht, das wir in uns bewahren und irgendwann an unsere Kinder und Kindeskinder weiter reichen möchten, auf dass es auch ihnen Hoffnung und Zuversicht schenke und sie vielleicht dereinst das einst kleine Flämmchen mit weiteren seiner Art zu verschmelzen verstehen, auf dass es noch heller scheine.<br /><br />Ich kann nicht sagen ob ich mit meiner Deutung richtig liege. Ich kann nicht einmal sagen ob sie besonders gut oder besonders schlecht ist. Ich bin mir nicht einmal sicher ob es die eine richtige Deutung überhaupt gibt, geschweige denn geben darf, ob wir nicht allein mit dem Versuch einer solchen bereits etwas grenzenloses in Grenzen zu zwängen versuchen, die gleich wie weit wir sie ab stecken mögen immer noch zu klein sein werden.<br />Was ich aber sagen kann ist, dass die Deutung mir gefällt und wenn sie Dir ein wenn auch nur kleines Lächeln auf das Gesicht gezaubert hat, dann hat sie ihren Zweck schon mehr als erfüllt.<br /><br />Ich werde Dir in den kommenden Wochen weiter schreiben wann immer sich die Gelegenheit ergibt und ich Dir etwas spannendes oder schönes zu erzählen habe.<br /><br /><br /><br />Liebe Grüße und viele Küsse<br /><br /><span style="font-style: italic">Deine Diana</span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p926790"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=926790#p926790"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 1.07.16, 19:26&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Als Tendarion gerade dabei war seine letzten Sachen zu packen, ehe er das Ordenshaus für eine Weile endgültig verlassen würde, kam Elgbert in den Keller hinab und reichte dem Elfen den Brief. Das Siegel war ihm unbekannt und auch die Schrift war keine, die er oft erblickt hatte. So schweifte sein Blick sogleich zu der Schlussformel und den Namen. Die Mundwinkel hoben sich und er setzt sich neben seinem Rucksack auf den Boden und begann an Ort und Stelle zu lesen.<br /><br />Er brachte seinen Rucksack hoch und setzte sich ein letztes Mal in die Schreibstube um einen Brief zu verfassen. <br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="font-style: italic"><span style="font-family: Tendarion;">Col Ni&#39;Ahir, Niah&#39;ma,<br /><br />Shilor wollte es wohl, dass dieser Brief mich sogleich auffinden sollte, denn er wurde mir direkt von Elgbert überbracht, kurz nachdem du ihn bei ihm abgegeben hast. Und ich muss gestehen es freut mich, dass ich noch einmal die Gelegenheit habe über deine Worte nachzudenken und auch meine Gedanken dazu teilen zu können, ehe ich mich einige Wochenläufe jedweder Kommunikation mit anderen vorerst entziehe.<br /><br />Und zunächst möchte das Herz, das für Astrael schlägt aus mir sprechen und dich mit guten Absichten nochmals über die Geschichten, die du gestern zum ersten Mal zu Gesichte bekamst, aufklären.<br /><br />Du scheinst, wohl in der kurzen Zeit, in der du dich den Schriften gestern gewidmet hast, etwass durcheinander geworfen zu haben. Valuni ist nicht diejenige die du meinst, sondern Lifna und ihre Spinnen. Lifna, die mit Galtor seinen dritten Sohn, Feran, zeugte. Ob es ihr leiblicher Sohn ist? Ein göttlicher Helfer, ihnen von Morsan geschickt, auf dass er als Bindeglied zwischen Lifna und Galtor agiere? Ob die Horwen und die Verwandtschaftsgrade Sterblicher überhaupt in Einklang zu bringen sind? Wie du schon richtig erkanntest - wir können und werden es nicht wissen. Es ist nicht an uns zu entscheiden ob etwas richtig oder falsch ist.<br /><br />Einzig und allein unser Herz entscheidet, ob wir auf dem für uns richtigem Pfad wandeln. Erfüllt es uns mit selbstloser Freude und Liebe, so können wir davon ausgehen, dass es für uns als Kind der Götter, richtig sein muss. So können wir davon ausgehen, dass unser Denken und Handeln nicht anderen schadet. Erst wenn wir andere Dinge zulassen, wie Hass, Neid, Eifersucht und Rachsucht, erst dann wissen wir, dass unser Pfad, den wir beschreiten, nicht richtig sein kann. Das mag durchaus naiv und sehr lichtdurchwirkt anmuten, aber ich denke, dass man auch auf diese Art und Weise Strenge und die notwendige Überzeugungskraft aufbringen kann um sich selbst und anderen ein bewussteres und vor allem altruistischeres Leben zu gewähren.<br /><br />Doch um deutlich zu machen, dass ich deine Worte und den Kontext an dieser Stelle noch nicht aus den Augen verloren habe, will ich nun auf das Wissen eingehen. <br /><br />Wissen ist in meinen Augen nur dann schädlich, wenn man es nicht vollständig erhält. Weiß ich nur einen Teil, vervollständige ich das Fehlende und mache sie zu meiner Wahrheit. Diese Wahrheit verbreite ich und andere machen sie zum Gesetz. Und erst an diesem Punkt, wo man von Gesetzen spricht, geschehen die Fehler. Es wird ein Kodex erstellt, der unverrückbar ist. Man gönnt anderen keine Meinung mehr, da man sich auf das Gesetz stützt. Und am Ende hat man Halbwissen in Unterdrückung gewandelt. Kenne ich die Wahrheit, oder maße mir nicht an die Wahrheit vollständig zu kennen, nur weil ich einen Teil von jener für mich beanspruchen kann, dann habe ich kein Interesse an Unterdrückung und Gesetzmäßigkeiten. Dann versuche ich vielmehr jene zu erreichen, die ebenso die Wahrheit erkennen, oder aber Teile der Wahrheit sehen, die Lücken ergänzen und uns beide näher an das große Ganze führen.<br /><br />Wissen muss jedoch nicht immer Wahrheit sein. Und das ist es was viele auf Tare missverstehen. Widersprichst du jemanden, bist du entweder wissender als derjenige oder aber schlichtweg ein Lügner. Wir beide können uns gewiss darauf einigen, dass es meistens auf das Letztere hinausläuft. Ich denke die einzige Wahrheit, die wir Sterbliche für uns beanspruchen können ist der Glaube. Und genau jener Glaube formt das, was uns die Götter zeigen und mitteilen wollen.<br /><br />Wir - oder vielmehr ich und jene, die ein ähnliches Bild von Tare vertreten - haben oft den Wunsch die Wahrheit zu kennen. Ein Buch in den Händen zu halten, das ich jenen, die die Wahrheit für sich beanspruchen, wortlos entgegenhalten könnte. Ich bin davon überzeugt, dass die wenigsten es wagen es anzunehmen. Und auch bin ich davon überzeugt, dass diese Wahrheit auch von jenen, die sich über andere gestellt wissen wollen, solange verdreht wird, dass wir wieder von der rohen Wahrheit - dem vollständigen Wissen - zu einer platten Lüge abrutschen würden - dem unzureichenden Halbwissen. Ein Buch in der Hand eines, das nur wörtlich an andere weitergereicht wird, oder aber nur stellenweise rezitiert wird, kann in der Tat kein guter Lehrer sein. Aber auch kann sich jener als schlechter Lehrer entpuppen, der sein Wissen nur mündlich über Generationen weg erhalten hatte. Eigene Wahrheiten überdecken stets die Wahrheit des großen Ganzen. <br /><br />Wie also sollen wir uns davor schützen Halbwissen zu erhalten? Es unbewusst zu Lügen zu spinnen, die wir in guter Absicht an andere weitertragen? Indem wir einen jeden unserer Schüler auch als unseren Lehrmeister erachten. Indem wir jeden unserer Lehrmeister als unseren Schüler erachten. Indem wir jedes sterbliche Wesen als unseren Schüler und Lehrmeister erachten. In meinen Augen ist es demnach irrelevant, welchen Weg man geht, solange man nicht seine Wahrheit anderen auferzwingt. Solange man nicht mit seiner Wahrheit anderen Schmerzen zufügt - ob mental oder physisch. Solange man nicht mit seiner Wahrheit versucht jemanden anderen zu zerstören - ob mental oder physisch. <br /><br />Ist man bereit das Wissen eines einzelnen anzunehmen, um es zu seiner Wahrheit zu machen, dann hat man die höchste und reinste Form der Liebe erreicht. Wenn man sich dann noch bewahrt, selbstkritisch und bewusst damit umzugehen, dann hat man sich dazu entschieden, sich sogar dem Göttlichen anzunähern.<br /><br />Wir beide haben das Problem uns über den Dingen zu sehen und oftmals in Überheblichkeit über den anderen zu schweben. Aber gleichsam ist uns beiden bewusst, dass wir fehlbar sind und nie Tare vollständig ergründen werden. Und dennoch hören wir zu und sehen unser Umfeld, als das was es ist und nicht, das was wir uns wünschen, dass es wäre. Manchesmal würde ich gerne den weinroten Seidenschleier weiterhin vor meinem Gesicht gehalten haben, aber letztendlich ist es wichtiger ein reines Herz zu wahren und dafür roh und unnachgiebig nach außen hin zu wirken, als dass man sich viele Freunde schafft, weil man umgänglich ist. Du sagtest mir, dass ich dich darauf hinweisen soll, wenn du überheblich wirst. Ich habe es dir versprochen und werde mich daran halten. Aber ich würde es bedauern, wenn du dafür deine Unnachgiebigkeit und deine scharfe Zunge opferst. <br /><br />Ich sehe meiner Rückkehr mit Vorfreude entgegen und werde mir all deine Gedanken zu Gemüte führen, ehe wir uns wiedersehen. Es verspricht ein spannender Moment zu werden, wenn ich die deinen Gedanken vollumfassend kenne, aber du nicht einen meiner Gedanken dazu erraten kannst. Ein Rätsel? Ich denke, Galdiell hat recht, und ich habe mein Herz zu oft in Tinte getaucht und werde das blau in meiner Seele nie vollends abstreifen können. Aber da es mich mit Freude erfüllt, will ich mir wieder einmal einreden, dass es auch der Herrin gefällt. Soll sie mich necken, wie andere es tun. Ich freue mich, wenn ich ihr damit ein Lächeln entlocken kann.<br /><br />Und dein Lächeln trage ich nun in meinem Geiste und bewahre es mir bis zu meiner Rückkehr, wo du diese Erinnerung auffrischen wirst.<br /><br />Der Segen der Mutter sei mit dir und ihre Liebe soll stets dein Herz erfüllen und dein Handeln leiten.<br /><br />Tendarion</span></span></div><br /><br />Das grüne Siegelwachs wurde auf den Umschlag geträufelt und rasch mit einem Stäbchen eine Rose ohne Dornen gemalt, ehe das Wachs vollends getrocknet war. Elgbert wurde der Brief übergeben, auf dass er einen Boten beauftragte, dass der Brief an Diana Weidenbach überbracht werden sollte. Tendarion verabschiedete sich von allen Anwesenden im Ordenshaus und von den Templern und verließ die Stadt...</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p926811"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=926811#p926811"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 2.07.16, 01:35&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Kopfschüttelnd sass sie noch bis tief in der Nacht über dem Schreiben und nippte immer wieder an dem bitteren Kräutertee. Nein, Nachtschatten war wirklich nichts, das den Geschmack verbesserte, egal wie viel Honig man hinterher hinein rührte. Aber er beruhigte und half gegen den Brummschädel.<br />Ruhig strich die Feder über das Pergament, Wort für Wort, Zeile für Zeile, bis sie den Brief am Ende versiegelte. Zur Kirche bringen würde sie ihn erst am Folgetag.</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Vitamas Segen Niah.<br /><br />Drei Dinge fallen mir spontan ein:<br />Erstens, Auriel verliert wirklich viel von seiner Eigenart, wenn man es in galadonische Letter zwingt. Zugegeben, mein Auriel reicht gerade einmal für mith, tal at, dha dha, nill nill und für ein &quot;Geh mit den Göttern, aber geh!&quot;-thaliya. Aber ich vermute zumindest, dass ihr Fey die Feinheiten der Betonung, die beispielsweise den Unterschied zwischen einer Niah und der Niah ausmachen mit kleinen Bögen, Schnörkeln oder vielleicht auch einem festeren oder sanfteren Strich des Federkiels in der Schrift zur Geltung kommen lassen könnt. Feinheiten, die im Galad verloren gehen. Verstehe mich nicht falsch, ich mag Galad in Wort und Schrift und wie ich Dir irgendwann einmal zeigen werde, ich mag es mit der galadonischen Sprache zu spielen. Sie ist hart und kantig und wehrt sich dagegen in sanfte, elegante Formen gebracht zu werden, aber gerade das macht den Reiz an ihr aus, das Spiel mit den Worten in dieser Sprache ähnelt einem Kampf oder einem Tanz mit ihr mit oftmals ungewissem Ausgang, bei dem beide Seiten die Oberhand zu erlangen versuchen bis sich einer von beiden fügen und dem anderen hingeben muss. Mal siegt die Sprache, mal der Dichter aber gleich wie es ausgehen mag, es ist immer aufregend. Jedoch, ich schweife ab, was ich sagen will ist einfach nur folgendes: Wenn Auriel ein Fluss ist, der sich sanft durch die Landschaft schlängelt, so ist Galad der Damm an dem er sich auf türmt.<br />Zweitens komme ich nicht umhin mir ein zu gestehen wie sehr Du mich gestern aus dem Konzept gebracht hast. Eigentlich hatte ich mir den Abend doch anders vorgestellt, aber es stimmt wohl, was man so sagt: Wenn man Vitama mal so richtig zum Lachen bringen will sollte man anfangen, Pläne zu schmieden. Dennoch soll dies keine Klage sein, würde ich die Zeit noch ein mal zurück drehen, es gäbe nichts, das ich mir an besagtem Abend anders wünschen würde. Unerwartet, vollkommen überraschend aber in sich makellos. Ein Stückchen Unbeschwertheit auf einer Insel, die großes Vergnügen daran zu haben scheint einen jeden der auf ihr wandelt Tag um Tag ein weiteres Stück seiner Seele abknapsen zu wollen. Zumindest mir hat es richtig gut getan dort einmal kein Stück abgeluchst zu bekommen, sondern freiwillig und guten Gewissens zu verschenken.<br />Drittens: Mir brummt der Schädel auch noch nach zwei Tassen Kräutertee Spezial. Wie Du bereits wieder zu solchen Gedankengängen fähig bist ist mir völlig schleierhaft, daher kann ich nur vermuten, dass sie Dir bereits in Fleisch und Blut über gegangen sind und daher die Worte nur so aus Dir heraus sprudeln. Ich habe eine Weile überlegt ob ich die Zeilen nicht erst einmal sacken lassen und ein oder zwei Nächte überschlafen soll bis mein Kopf wieder zu Denkleistungen fähig ist, die über &quot;Die Kuh macht Muh.&quot; hinaus gehen, aber dann habe ich mir gesagt: Hol's der Hund, zeig' es ihm ruhig.<br />Und damit wir uns auch gleich richtig verstehen: Das bekommst Du zurück. Ich habe auch schon sehr genaue Vorstellungen über das wie und ein nicht unerheblicher Teil davon dreht sich um einen Tavernenabend mit Musik, Tanz und Gesang. Instrumente beherrsche ich zwar nicht, aber Lieder kenne ich so einige und Tänze auch. Du hast mir einen Teil von Deiner Welt gezeigt, nun zeige ich Dir mal einen Teil von meiner, das was ich normalerweise tue, wenn ich mal einen freien Kopf brauche und gerade kein elfischer Geweihter zur Hand ist, der mir denselbigen völlig verdreht.<br /><br />Aber genug gejammert, ich möchte nun auch noch auf den Inhalt Deines Briefes eingehen.<br />Ich vermute, dass nicht mit anderen zu kommunizieren beinhaltet, dass Du in dieser Zeit auch keine Korrespondenz empfängst, die Dich davon ablenken könnte zu Dir selbst zu finden. Was ich schade finde, aber ich kann es verstehen. Es wird mich dennoch nicht vom Schreiben abhalten. Dass Du dadurch einen gewissen Vorteil mir gegenüber hast mag sein, aber den hattest Du mit Deiner Gabe von Anfang an. Es ist für mich immer noch ein wenig ungewohnt, aber letztendlich stört es mich weniger als es vielleicht sollte mich Dir gegenüber unterlegen zu fühlen, aber es tut mir auch gut zur Abwechslung mal diese Rolle ein zu nehmen und mich einfach treiben zu lassen und wie Du festgestellt hast bin ich nicht nur willens sondern auch fähig daraus ein kleines Ringen um die Oberhand zu machen.<br />Uns ist beiden bewusst, dass wir über vielen Dingen stehen, dass wir ob wir es nun wollen oder nicht Teil von etwas sind, das sich vielen entziehen mag. Was uns bleibt ist das Beste aus diesen Anlagen zu machen, sie nicht nur an zu nehmen, sondern zu erforschen und aus zu loten um unser Potential noch über die Grenzen unserer eigenen Vorstellungskraft hinaus zu erweitern. Dass zumindest mich das <span style="text-decoration: line-through;">gelegentlich</span> zu einer arroganten Zicke macht ist mir bewusst, aber ich schätze, dass dies einfach meine Natur ist und da ich Dich noch nicht völlig verschreckt und verstört habe mag es wohl auch noch in einem akzeptablen Rahmen liegen. Ich bin Dir dennoch dafür dankbar, dass Du mit ein Auge darauf werfen willst, dass es innerhalb dieses Rahmens bleibt, denn alles was darüber hinaus ginge wäre nicht ich und wenn ich mir einer Sache sicher bin, dann der, dass ich gerne ich selbst bin. Heute mehr denn je zuvor. Male Dir Deinen Anteil daran selbst aus und wische Dir dann das selbstzufriedene Grinsen aus dem Gesicht.<br />Kommen wir zum Brummschädelteil. Wissen und Wahrheit. Ich stelle gerade beim dritten Durchlesen fest, dass es weniger brummt, wenn man den Teil von unten nach oben liest. Entweder das oder der Nachtschatten im Fencheltee entfaltet endlich seine Wirkung.<br />Ich muss gestehen, der Teil mit dem Wissen, der Liebe und dem Göttlichen, der erschließt sich mir noch nicht. Das mag aber auch daran liegen, das dem voran Gestellte etwas anders sehe. Du sprichst von richtig und von falsch, jedoch haben beide Worte für mich kaum eine Bedeutung. Es sind menschliche Worte, Schubladendenken mit viel zu kleinen Fächern, subjektiv und viel zu häufig auch vollkommen eigennützig gedacht. Ich weiß, dass Du die menschliche Ebene nicht oder nur am Rande ansprechen wolltest, dass Du eher nach einem göttlichen Richtig und Falsch suchst und es in den Menschen zu finden erhoffst.<br />Ich bin gerne bereit an zu erkennen, dass der göttliche Funke in den Menschen ist und dass daher ein jeder, auch der unscheinbarste, ein Körnchen der Wahrheit in sich tragen mag und allein das zu akzeptieren, zu verstehen, dass hinter dem scheinbar Gewöhnlichen das Außergewöhnliche steckt und zugleich hinter dem scheinbar Außergewöhnlichen auch nur das gewöhnliche Außergewöhnliche mag uns sicherlich der Wahrheit ein gutes Stück näher bringen. Allein, all diese Körnchen zusammen zu tragen und zu der einen Wahrheit in ihrer Gänze zusammen fügen zu wollen gleicht dem Versuch alle Sandkörner eines Strandes zu vermessen und kartographieren zu wollen. Spätestens mit der nächsten Flut ist es mit dem Unterfangen dann auch vorbei und selbst wenn sie ausbleiben sollte, auch wenn alles so wie es ist vor uns ausgebreitet sein mag, so verändert das Eingreifen, das Vermessen die Verteilung und diese ist weniger zufällig als es den Anschein haben mag. Richtig, falsch, gut, böse, weiß, schwarz, die Suche verändert nicht nur den Suchenden, sondern auch das zu Suchende, Grenzen zu ziehen wo vielleicht keine sind verändert den Fluss. Gibt es ihn, weil er existiert oder existiert er nur in unserer Vorstellung, zwingen wir ihn zur Existenz weil wir wollen, dass er existiert? Weil es einfacher für uns ist, wenn er existiert?<br />Was die Übermittlung von Wissen anbelangt, es mag sein, dass beide Arten ihre Vor- und Nachteile mit sich bringen. Dennoch gestehe ich eher dem Lehrer die Fähigkeit zur Selbsterkenntnis zu, also auch, falsch gelegen zu haben, wohingegen ein Buch starr und kalt bleibt. Pergament ist bekanntlich geduldig und jenes auf dem ich gerade schreibe hat sich nun wahrlich lang genug in Geduld geübt.<br />So vieles fällt mir noch ein zu Wissen, Halbwissen, Gesetzen, Grenzen und vielem mehr, jedoch bin ich noch nicht müde genug um nicht zu erkennen, dass ich meinen eigenen Standpunkt mit jeder Zeile und jedem Wort zunehmend schwäche, denn auch wenn dies hier kein Buch sein mag, so ist es doch einem Buch näher als dem Dialog oder auch Streitgespräch, die ich jederzeit jeder noch so dünnen Fibel oder jedem noch so dicken Wälzer vor ziehe, denn wenn der Funke im Menschen, Fey, Dwarshim und so weiter sei, dann wird er dort selbst bei einem schlechten Lehrer zu finden sein. Ein schlechtes Buch hingegen hat nur Antworten, aber keine Fragen. Losgelöst von allem, ohne Bande, mag es ein passabler Zeitvertreib sein aber eben nicht mehr. Und viel zu viele Autoren sind bestrebt nur Antworten zu geben, aber nicht die entscheidenden Fragen zu stellen.<br /><br />Für mich wird es nun Zeit zu Bett zu gehen. Du wirst mir fehlen in den kommenden Wochen, aber ich bevorzuge es jederzeit jemanden zu haben, den man vermissen kann, als wenn da niemand ist auf den man nicht verzichten möchte, obwohl man es muss.<br /><br /><br /><br />Sanfte Träume und sichere Pfade.<br /><br /><span style="font-style: italic">Deine Diana</span><br /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p926850"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=926850#p926850"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 2.07.16, 23:05&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Auch am Folgetag mag sie in einer ruhigen Stunde sinnierend über einem Blatt Pergament hocken. Mal nachdenklich die Miene, mal spitzbübisch lächelnd verfasste sie Zeile um Zeile.</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Mein lieber Specht.<br /><br />Ich wusste zwar vorher schon, dass Nachtschatten eine überaus nennen wir es einmal belebende Wirkung auf die Träume in der Nacht hat, aber eine solch durchschlagende Wirkung hätte ich dann doch nicht erwartet. Heute Morgen brauchte ich erst mal ein langes Eisbad um wieder halbwegs zu Sinnen zu kommen und mich so weit ab zu kühlen um kein Loch in die Laken zu brennen.<br />Ich hoffe Du hast auch gut geschlafen und etwas schönes geträumt, wobei soweit mir bekannt ihr Fey ja eher selten träumt. Aber mir gefällt der Gedanke, dass auch Du Dinge hast, die es wert sind, dass man von ihnen träumt.<br />Anbei, tut mir leid, wenn die Abkehr vom klassischen Briefstil nicht so Deinen Geschmack trifft, aber ich finde, wenn ich Dir schon mit der Feder die Ohren abkaue, dann kann ich es ruhig auch auf meine Art tun.<br />Ich habe mich noch mal ein wenig mit Deinem letzten Brief auseinander gesetzt. Keine Ahnung, was ich gestern dazu für einen Unfug verzapft habe, aber ich erinnere mich noch daran, dass ich diesen Bücher gegen Lehrer Streit aufgenommen habe und irgendwie mit all den Zeilen die ich Dir schreibe mein Argument nicht wirklich stütze, jedoch, dies tust Du auch nur bedingt. Ziemlich weit am Anfang greifst Du das Wort &quot;Liebe&quot; auf, danach musste es jedoch weichen zugunsten von Wissen. Ich musste auch über Dich nachdenken, wie Deine Augen jedes mal leuchten wenn Du von Dingen erzählst, an die Du glaubst und auch glauben möchtest, wie dabei jedes mal Deine Pupillen sich leicht erweitern und Dein Herzschlag eine Spur rascher wird. Das mein Niah nennt man Erregung und auch wenn ich erahnen kann wie viel Freude Du daran hattest mir noch ein mal zu schreiben, so komme ich nicht umhin fest zu halten, dass es mehr eine Ahnung ist, ein unbestimmtes Gefühl, ein Bild das ich von Dir habe. Aber all dies habe ich nur, weil ich ein Stück von Dir bei mir trage so wie Du einen Teil von mir. Würden wir einander nicht kennen, so würde ich aus diesen Zeilen zwar die Liebe zum Wissen und zur Verbreitung und Mehrung desselben heraus lesen, aber eben auf einer sehr abstrakten Ebene, die den Leser geistig aber eben nicht physisch berühren soll und das Bild wäre schlicht falsch. So bist Du nicht aber wer der Dich nicht kennt, der nicht zugelassen hast, dass Du ihn ebenso kennen lernst, mag das beurteilen können?<br />Anfangs war ich sogar recht skeptisch, ich fand, der Brief passe irgendwie nicht so recht zu Dir. Mittlerweile jedoch denke ich wir meinen dasselbe, wir drücken es nur anders aus. Du nennst es das Göttliche, ich würde es einfach nur Liebe nennen, Liebe zum Leben oder zur Schöpfung wenn Du so magst. Jegliches Wissen ohne dies ist bedeutungslos, es verliert sich in sich selbst und verkommt zum Selbstzweck, wird anfällig für das was Du Rachsucht, Neid oder eben schlicht sündhaft nennen würdest. Liebe ist der rote Faden, der sich durch alles hindurch zieht und ohne den alles nichts und nichtig ist und wer das nicht zu erkennen vermag, der verleugnet sich selbst. Aber so ohne Liebe alles nichts ist, so kann der Hass nicht das Gegenstück zu ihr sein, denn auch wenn er vergiften und das Ende der Liebe bereiten kann, so ist Hass allein so selbstzerstörerisch er sein mag doch immer noch ein Antrieb, etwas, das der Liebe eine Bedeutung bei mißt und sei es nur der Wunsch sie zerstört zu sehen. Nein, wenn Liebe immerzu die Liebe zum Sein, zum Leben sein muss, dann ist ihr Gegenstück die vollkommene Gleichgültigkeit dem gegenüber. Gleichgültigkeit gegenüber dem Leben anderer, aber auch gegenüber dem eigenen.<br />Ich schätze dies war der Grund weshalb Du seinerzeit so besorgt um mich warst, dass ich meinem eigenen Leben gegenüber nicht aufgeschlossen oder liebevoll genug gegenüber gewesen sein mag, aber dort kann ich Dich beruhigen. Auch wenn ich mein Leben und die Bahnen die es ein schlug und die Seelen mit denen es mich verbindet heute doch noch etwas mehr schätze denn damals, so war es mir doch nie gleichgültig. Ich liebe mich selbst und ich liebe mein Leben und das war schon immer so und nur dadurch dass ich zu beidem fähig bin bin ich auch fähig andere so lieben zu können wie sie geliebt werden möchten. Jedoch mache ich mir vor dem Hintergrund auch ein wenig Sorgen um Dich.<br />Ich weiß, dass es meine eigenen Worte waren, die Dich ermuntern sollten Deine Gabe vollends aus zu kosten, dass Du gänzlich darauf vertrauen solltest, dass sie Dir nicht als Bürde gegeben wurde, dass Du sie nicht hättest, wenn Du sie nicht ertragen könntest. Ich möchte nicht bezweifeln, dass sie eine Last sein kann, dass sie Dir viel ab verlangt, denn letztendlich zwingt sie Dich dazu die Fehler in uns Menschen zu erkennen. Wie viel leichter wäre es andere lieben zu können ohne all ihre Fehler zu kennen, aber Du und ich wir wissen beide, dass dies nicht der Weg ist, der Dir oder Deiner erwählten Gottheit vorbehalten ist. Sie liebt gerade auch ihre schwarzen Schafe, weil sie weiß, dass die weißen unter ihnen sich gegenseitig genug Liebe zu schenken vermögen. Aber auch wenn Du dies als neunmalklug auffassen magst, ich denke dennoch, dass Du im Umgang mit Deiner Gabe etwas falsch machst. Ich stehe weiterhin dazu, dass Du Dich dieser Gabe und damit den Menschen hingeben solltest, jedoch denke ich auch, dass Du Dich zu sehr von ihr einvernehmen lässt. Diese Gabe ist kein Geschenk an Dich persönlich, viel mehr hat Sie durch diese Gabe Dich anderen zum Geschenk gemacht. Ich mag mich Dir gegenüber nackt fühlen, weil ich weiß, dass Du meine Gefühle immer kennen wirst, dass da nichts ist, dass ich vor Dir verstecken kann, aber um ein wie vieles nackter bist Du mir gegenüber in dem Wissen, dass ich so wie jeder andere auch meine Gefühle in Dich pflanzen kann und Du dem erst einmal wehrlos gegenüber stehst? Mag ich mich auch ertappt und Dir in geradezu schamlosester Weise ausgeliefert fühlen, aber wie gering ist das schon verglichen mit Dir und Deinen Gefühlen? Ich stehe nur vor Dir nackt da und ich vertraue Dir mehr als genug um davor keinerlei Angst zu haben und diese Nacktheit Dir gegenüber nicht nur offen zu zu lassen, sondern diese kostbaren Augenblicke völliger Offenheit und vollkommener Schutzlosigkeit obendrein zu genießen. Du jedoch bist einem jeden gegenüber ausgeliefert, Du bist nicht nur nackt, Du liegst auch noch wie ein Käfer auf dem Rücken auf dem Boden, auf dass ein jeder auf Dir nach Herzenslust herum trampeln darf. Und genau dort sehe ich den Fehler.<br />Nicht die Situation an sich. Ich schätze das ist einfach ihr Naturell und damit auch das Deinige. Aber Deine Ergebenheit in diese ist es nicht. Du musst nichts davon so hinnehmen wie es ist. Du magst keinen Schild führen um den zu erwartenden Hieb ab wehren zu können, aber Du kannst die Umstände zu Deinen Gunsten verändern, Dein gegenüber dazu bringen, gar nicht erst zuschlagen zu wollen.<br />Du erinnerst Dich bestimmt an den Abend mit den cortanischen Soldaten nach dem Angriff der schwarzen Magier. Selbst ein Blinder hätte gesehen wie an dem Abend etwas in Dir zerbrochen ist, wie rasch Du von diesem Ort wieder fort wolltest. Wie gerne hätte ich Dir dort etwas von meinem Mut gegeben, wie gerne hätte ich ein paar Worte an die Cortaner gerichtet, ihnen ein Lied gesungen, das mir Opa Jonathan einst beigebracht hat:<br /><br /><div align="center">Ich hatte einen Kameraden, haben lange Zeit zusammen gedient,<br />Durch Feuer und Sturm gingen wir, doch dann gingst Du von uns - allein.<br />Denn nun fehlst Du beim Apell des Morgens, womit hast Du dies bloß verdient?<br />So stehen wir hier an Deinem Grabe, tragen Deinen Sarg vorbei an den Reih&#39;n.<br />Ich hatte einen Kameraden, schritt Seit&#39; an Seit mit ihm einher,<br />Hab Dir mein Leben anvertraut so wie Du Deines in meine Hände gelegt.<br />Wir trugen auf der Brust das gleiche Wappen, stritten für dieselbe Wehr,<br />Hatten unter demselben Banner gedient, das nun Deinen Sarg umweht.<br /><br />Gefallener Kamerad, wo immer Du auch bist<br />Du weißt, daß an unserer Tafel ein Platz Dir bereitet ist.<br />Gefallener Kamerad, wir vermissen Dich,<br />In unseren Herzen bleibst Du auf ewig unsterblich.<br /><br />Ich hatte einen Kameraden, sie geben ihn der Erde her.<br />Es endet des Priesters Predigt, verstummt sind die Fürbitten,<br />Doch eines das bleibt noch zu sagen: Kamerad Dein Platz blieb leer,<br />Wo immer Du bist, ich wünsch Dir Glück und den Frieden für den Du gestritten.<br />Ich hatte einen Kameraden, werde ihn im Leben nicht wieder sehen<br />Bis zu dem Tag, da der Feind auch mich darnieder streckt,<br />Doch bis zu jenem Tag werde ich weiter für unser beider Sache einstehen.<br />Folge ich Dir dereinst nach, weiß ich, Du hast die Tafel mir schon gedeckt.<br /><br />Gefallener Kamerad, wo immer Du auch bist<br />Du weißt, daß an unserer Tafel ein Platz Dir bereitet ist.<br />Gefallener Kamerad, wir vermissen Dich,<br />In unseren Herzen bleibst Du auf ewig unsterblich.<br />Gefallener Kamerad - unsterblich.<br />Gefallener Kamerad - unsterblich.</div><br /><br />Aber dafür hätte ich Dich an meiner Seite gebraucht. Vermutlich hätte ich Dich dort haben können, Dich dazu bringen können dort zu verweilen, einzig, ich war mir nicht sicher wie sehr Du mir vertraust, ob Du diese Manipulation, die Dir schon so viele auf zwingen mir nicht im Nachhinein übel genommen hättest, ob ich überhaupt das Recht dazu habe Dich dazu zu nötigen.<br />Im Nachhinein weiß ich, dass es geholfen hätte, Ihnen und Dir. Dass mir hätte egal sein müssen ob Du mich in dem Augenblick dafür verachtest es Dir auf zu zwingen, dass mir noch viel egaler hätte sein müssen, was andere davon halten. Da habe ich als Deine Niah Dir gegenüber auf ganzer Linie versagt und auch wenn Du sonst meinst, dass ich Dir gegenüber schamlos bin, dafür schäme ich mich und es tut mir sehr leid, dass ich dort nicht so für Dich da war wie ich es hätte sein sollen.<br />Mittlerweile weiß ich jedoch wie tief unser beider Vertrauen geht, daher, wenn Dir das nächste mal die Kraft fehlt von meinem Mut zu zehren, weil das Dunkel um Dich herum so übermächtig wirkt, dass Du das Licht nicht mehr recht erspüren magst, wisse, dass ich für Dich da sein und Dich leiten werde auf dass wir die Welt um uns herum so gestalten, dass sie vielleicht nicht gut, aber doch ein Stück weit besser und damit für Dich auch erträglicher wird. So lange bis Du Dir Deiner Gabe selbst sicher genug bist um Dich hingeben zu können ohne Dich völlig einvernehmen zu lassen, denn auch wenn Du in dem Moment nur Trauer und Verzweifelung gespürt haben magst, so war die Liebe doch präsent und auch wenn die Gabe Dich zwingt zu fühlen was andere fühlen und Du darüber das Gespür für Dich selbst ein wenig aus den Augen verlierst, wisse: Auch Du bist Teil des Lebens, Teil der Schöpfung und das bedeutet, dass auch Du immerzu geliebt wirst. Das kann Dir niemand nehmen außer Du Dir selbst indem Du Dich dagegen unempfindlich machst, indem Du gleichgültig dieser Liebe gegenüber wirst. Noch magst Du nur spüren was andere empfinden, jedoch irgendwann wirst Du auch empfinden können was für andere empfunden wird. Denn alles ist miteinander verbunden, alles Leben entstammt einer Quelle und diese liebt ihre Kinder. Von ganzem Herzen.<br />Und somit schließe ich den Kreis mit einem letzten Seitenhieb gegen das Bücherwissen. Es mag großartig sein um das Verborgene, das Hintergründige erforschen zu wollen, das was sich nicht beim ersten Lesen oder Hören offenbaren mag und doch ist gerade das ein Knackpunkt. Bücher verschleiern das Offensichtliche hinter zu vielen Worten.<br />Ich vermute, Du bist des Linfarn mächtig. Vitam ama - Liebe das Leben. Das bringt es schön auf den Punkt wie ich finde.<br /><br />Fühle Dich geherzt und vor allem geliebt.<br /><br /><span style="font-style: italic">Deine Diana</span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p926880"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=926880#p926880"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 3.07.16, 17:00&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Es ist gerade einmal Felatag und ich vermisse Dich bereits. Ich weiß, dass das nicht das ist, was Du hören magst, dass Dir das zu wissen nicht hilft. Ich weiß auch, dass ein Teil davon daher rührt, dass mir unwohl bei dem Gedanken ist, Dir gerade nicht beistehen zu können, aber das ist alles Kopfwissen.<br />Mein Bauch und mein Herz sprechen eine andere Sprache. Sie schätzen das Gefühl neben meiner Familie auf dem Festland noch jemanden zu haben, der mir fehlt. Es bedeutet wohl, dass ich allmählich auf dieser Insel angekommen bin, dass ich bereit bin mich von ihr berühren zu lassen, dass ich nicht mehr nur ein Gast bin. Und beide, Bauch wie Herz, vertrauen Dir und so vertrauen sie auch darauf, dass der Weg den Du gehst der Richtige für Dich ist und dass Du diesen Weg auch ohne mich gehen kannst. Außerdem ist Vorfreude noch immer die schönste Freude und so finde ich meinen Frieden in den Zeilen, die ich Dir schreibe. Sie lassen mich die Momente die wir teilten noch einmal spüren, noch einmal geniessen, sie wecken in mir die Vorfreude auf unser Wiedersehen, darauf Dich so wie Du dann sein magst kennen und schätzen zu lernen. Mag sein, dass ich dann für Dich nicht mehr bin wer oder was ich bin oder war, aber es ist in Ordnung wie es ist. Alles ist im Fluss und gleich was geschehen mag, Du bist ein Teil von mir und diesen Teil werde ich immerdar - auf meine Art - lieben und achten. Gleich ob es Dir schmeckt oder nicht, da hilft Dir nur eines: Augen zu und durch.<br />Apropos durch. Im Nachhinein fiel mir auf, dass eine Stelle im letzten Brief wohl etwas scharf formuliert war, der Teil bei dem ich Dir versprochen habe, dass ich bei dem was Dir und anderen dient keine Kompromisse mehr machen werde. Es klingt wohl so dreist wie es ist wenn man es so formuliert, aber letztendlich betrifft es nur Situationen in denen Du so oder so keine Wahl hast. Wir beide sind gelegentlich gezwungen Dinge zu tun, einfach weil sie unserer Natur entsprechen und wir dies auch gar nicht anders wollen. Es ist einfach nicht meine Art zu fragen ob ich jemandem einen Gefallen tun darf, ich mag in solchen Momenten doch sehr devot sein, aber wenn ich es bin, dann gegenüber der Sache, dem höheren Ziel, nicht gegenüber der Person. Was ich also meinte ist schlicht, dass ich Dir helfen werde Du selbst zu sein wann immer Du Dir da selbst im Weg herum stehst. Aber auch nur dann. Es ist Dein Leben, Dein Weg, beides werde ich respektieren. Vermutlich wird das unsere Beziehung zueinander schwer belasten, aber darauf kann und darf ich in solchen Augenblicken keine Rücksicht nehmen. Die Liebe zur Schöpfung muss selbstlos sein, an einem Punkt an dem sie darum bettelt erwidert zu werden wird sie selbstsüchtig und verliert sich. Ich werde Dir eine Niah sein, gleich was das für mich bedeuten mag. Magst Du es auch nicht immer verstehen oder gut heißen, mit der Zeit wirst Du erkennen, dass es aus einer Form der Liebe heraus geschieht zu der zu viele gar nicht fähig sind, weil sie verlernt haben nicht nur mit ihrem Körper oder ihrem Geist, sondern auch mit ihrer Seele zu lieben.<br /><br />Doch genug von mir für den Augenblick. Ich wollte Dich auch über alles was so vor sich geht auf dem Laufenden halten. Hier auf der Insel plätschert alles gerade noch ein wenig vor sich hin, aber es fühlt sich an wie die Ruhe vor dem Sturm.<br />Janus hatte gestern wohl ein etwas längeres Gespräch mit Sarana. Seiner Reaktion nach zu urteilen muss sie ihn ganz schön auf die Palme gebracht haben. Jedenfalls liess er verkünden, dass ihren Worten fürderhin kein Glaube geschenkt werden solle, dass einzig ihre Taten zu bewerten seien und dass sie von allem arkanen, aber auch politischem und militärischem Wissen aus zu schließen sei, ferner dürfe sie die Stadt selbst nicht verlassen, auch nicht in Begleitung.<br />Stattdessen solle sie durch Arbeit und Lehre zu den Menschen und den Vieren gegen die sie sich so oft stellte zurück finden. Irgendwie musste ich dabei an die kleinen Felder denken, die zwischen dem Tempel und dem Portal zur Magierakademie liegen, vielleicht wäre ein wenig Garten- und Feldarbeit ein ganz guter Anfang. Ich werde es Janus bei Gelegenheit mal vor schlagen. Im Hospital sehe ich sie nämlich offen gestanden nicht, zumindest wäre mir selbst mehr als unwohl bei dem Gedanken mich in ihre Hände zu begeben und zumindest der Umgang mit Kranken wäre ob ihres Zustandes alles andere als empfehlenswert.<br />Apropos. Es wurde auch offiziell verkündet, dass Du für Deinen Orden die Vormundschaft für das Kind übernehmen wirst. Darüber habe ich eine Weile nach gedacht und ja, Asche auf mein Haupt, ich habe auch einige Bücher und Schriftrollen gewälzt und bin zumindest teilweise auch fündig geworden.<br />Gesucht habe ich nach zweierlei. Zum einen wirst Du als Vormund das Problem haben, dass stillende Mütter und Ammen auf der Insel doch eher selten sein werden. Da ich bezweifele, dass Du das Kind mindestens ein mal pro Zyklus der Mutter übergeben möchtest, Tiermilch und ähnliches aber kein adäquater Ersatz ist und ob ihres zierlichen Körperbaus womöglich der Einschuss auch erst versetzt und spärlich ein setzt möchte ich Dir folgendes anbieten:<br />Meine Art kennt einen Trank, der den Körper einer Frau, selbst wenn jene noch nie ein Kind gebar, ein wenig überlistet und eben diesen Zustand vor gaukelt, wodurch diese Frauen befähigt sind selbst Kinder zu stillen. Üblicherweise wird dies genutzt wenn ein Kind innerhalb meiner Art geboren wird um früh Bande zu diesem Kind knüpfen zu können indem es einer jeden von uns an die Brust gelegt wird und auch wenn wir nicht völlig das Warum erklären können hat sich gezeigt, dass gerade diese Kinder überaus gesund aufwachsen. Wir vermuten, dass es die miteinander geteilte Liebe zu dem Kind ist, aber das mag auch nur eine starke Romantisierung sein. Fest steht jedoch, dass ein Kind nicht nur die Nahrung, sondern auch die Nähe und Zuneigung einer mütterlichen Brust bedarf und eben jenes vermag ich zu ermöglichen. Gerne würde ich es selbst tun, wenn Dir aber eine andere Frau dafür geeigneter erscheint wäre ich zwar enttäuscht, aber dennoch bereit Dir den Trank zur Verfügung zu stellen.<br />Das zweite betrifft die Schwangerschaft darselbst, hier bin ich nur bedingt fündig geworden, aber ich möchte meine bisherigen Erkenntnisse dennoch mit Dir teilen. Wie ich Dir gegenüber bereits andeutete besitze ich Macht über die Zeit darselbst, ich kann sie beschleunigen, verlangsamen, sogar vor und zurück drehen, wenn auch nicht für alle Lebewesen, für ein einzelnes aber definitiv. Es wäre mir im Rahmen eines Rituales also durchaus möglich das Wachstum des Kindes im Mutterleib zu beschleunigen, bis zum Moment seiner Geburt hin.<br />Aber ich muss dort auch klar warnen: Derlei tun wir für gewöhnlich nicht. Ich habe einen dokumentierten Fall gefunden bei dem ein bereits im sechsten Mond geborenes Kind auf diese Art soweit gealtert wurde, als dass Herz und vor allem die Lunge kräftig genug wurden um das kleine Leben auch erhalten zu können, aber es war ein Akt der mehr aus Verzweifelung denn allem anderen heraus geboren wurde. Eine Veränderung im Mutterleib selbst dagegen ist etwas, das unter normalen Umständen keine der meinen auch nur in Erwägung ziehen würde. Ob der Umstände möchte ich aber, dass Du weißt, dass derlei möglich sei. Das Risiko für das Kind ist dabei jedoch hoch und doch, wenn Du es wünscht, dann werde ich es tun. Wenn Du meinst, dass das Risiko es der Mutter und ihrer Launen zu überlassen das Risiko eines solchen Eingriffes überwiegt, dann biete ich es Dir an, jedoch die Entscheidung selbst musst Du fällen und bei ihr kann ich Dir nicht helfen. Ich kenne niemanden, die derlei schon einmal getan hätte und die daher die Risiken vernünftig ab schätzen kann. Ich kann lediglich sagen, dass es möglich, aber eben auch risikobehaftet ist und dass ich Dir bei der Einschätzung was für das Kind das Beste ist voll und ganz vertraue.<br /><br />Ein anderes Thema. Kommenden Mittentag findet die Verhandlung gegen Lazalantin statt. Wie Du ja weißt bin ich als Zeugin vorgeladen und werde dort auch erscheinen. Das Säbelgerassel diesbezüglich hat aber schon lange begonnen und auch wenn ich Vertrauen in Magnifizienz Nhergas als Richterin habe, so ahne ich doch, dass es hinterher einige Scherben auf zu kehren geben wird. Und ich bin besorgt.<br />Man sagt, dass es für den Sieg des Bösen ausreicht, wenn die Guten die Hände im Schoss falten. Zugegeben, gut und böse mögen nicht wirklich Denkmuster sein in denen ich mich üblicherweise bewege, aber ich denke, dass Du weißt, was ich meine. Momentan werde ich eben einfach den Eindruck nicht los, dass die Hände gefaltet zu halten bereits ein Fortschritt wäre, dass ich gleich wie oft und intensiv ich mich um gegenseitiges Verständnis bemüht habe da versuche ein Fass ohne Boden zu füllen. Die Leidenschaft mit der die die geeint sein sollten nach Zwietracht und Streit suchen hat schon etwas groteskes an sich, niemand will nachgeben, niemand will weichen, niemand will auch nur versuchen die Situation des anderen zu verstehen. Es sind Momente wie diese in denen ich versucht bin all die Rotzgören und Streithammel mal nach Strich und Faden übers Knie zu legen.<br />Dazu musst Du wissen, dass ich beim Stöbern in alten Schriften nach dem oben beschriebenen auch etwas über Lazalantin gefunden habe. Nicht, dass es mir als Tochter und Enkelin von Rittern nicht vorher schon an jeglichem Verständnis daran gemangelt hätte wie einem das Leben eines anderen und hier speziell eines Ritters so wenig bedeuten kann, aber dann fand ich das hier:<br />Vor einigen Läufen hat der drei von meiner Art schwer verletzt und anschließend noch eine der Lebensadern Tares mit einem Blitz gespalten, nur um ihnen auch noch seelisch weh tun zu können. Warum? Weil sie ihn nicht an einem Ort haben wollten, der ihnen überaus wichtig ist und der ihm gemessen an seinen Taten überhaupt nichts bedeutete oder zumindest nicht mehr als jeder andere Ort auch. Dass es gerade letzteres war weswegen sie ihn dort nicht sehen wollten hat er wohl bis heute nicht verstanden und ich bezweifele auch, dass er es jemals verstehen wird.<br />In diesem Zuge fiel mit die Ausarbeitung eines kompletten Fluchritus in die Hände mit dem Ziel ihm die Freiheit der Bewegung zu nehmen bis er zu Kreuze angekrochen käme. Der Ritus ist vollständig, wurde aber nie umgesetzt. Über die Beweggründe schweigt sich die Autorin aus, daher kann ich nur vermuten, dass das reine Niederschreiben und Vorbereiten genügte um den Rachedurst zu stillen und man es daher nicht mehr als notwendig ansah Taten sprechen zu lassen, dass man sich nicht auf diese Spirale der Gewalt einlassen wollte. Womöglich aber haben sie auch einfach nur resigniert in dem Wissen, dass auf diesem Wege keine Einsicht und daher auch keine Suche um Vergebung zu erlangen sein wird und haben daher auf die Umsetzung verzichtet. Aber beides ist recht spekulativ.<br />Eines weiß ich jedoch: Vor ein paar Monden noch hätte ich gesagt, dass meine Einmischung dort eine Verschwendung meines Potentials ist, dass ich mich nicht im einzelnen verlieren darf, solange noch viele mehr auf dem Spiel stehen. Tja und dann kamst Du in meine Welt und hast mich sanft dorthin geführt wo ich jetzt stehe. An einen Punkt an dem mir nach wie vor jegliches Verständnis für die gesamte Situation fehlt, an dem mir dieses fehlende Verständnis aber nicht mehr im Wege steht. Ich kann nicht sagen ob er Gnade verdient hat, aber ich kann sagen, dass dies nicht meine Entscheidung ist. Mag er Vergebung finden oder auch nicht, es ist nicht meine Aufgabe ihm den Weg schwerer zu gestalten, als er es eh schon ist. Denn gleich was immer er getan oder auch nicht getan haben mag, auch er wird geliebt und das verstehe ich nun und für diese Einsicht danke ich Dir. Dafür, dass Du mir hilfst ich selbst zu sein und ich selbst zu bleiben. Dafür, dass Du mir gezeigt hast wie sehr ich mich selbst lieben kann ohne andere dadurch weniger lieben zu müssen. Dafür danke ich Dir und dafür liebe ich Dich.<br /><br /><span style="font-style: italic">Deine Diana</span><br /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p926978"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=926978#p926978"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.07.16, 17:25&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Die Schrift dieses Briefes ist etwas abgehakter und krakeliger als sonst. Auch ist das Pergament an mehreren Stellen leicht gewellt, so als wäre es dort in Kontakt mit kleinen Wassermengen gekommen.</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Liebster Tendarion,<br /><br />Wenn Du diese Zeilen in den Händen hältst bitte ich Dich Dich nun zu setzen oder hin zu legen. Am besten liest Du sie nicht alleine, sondern in vertrauter Gesellschaft.<br />Ich war nie allzu gut im Überbringen schlechter Kunde, daher gleich frei heraus: Sarana ist tot, vermutlich durch ihre eigene Hand. Janus und Maik waren großartig, sie haben über einen Tag lang für sie und das Kind gebetet und ich habe versucht uns etwas Zeit zu erkaufen indem ich ihren Unterleib in eine Art Stase versetzt habe, die diesen zeitlich gefangen hielt bis wir bereit waren für einen Rettungsversuch des Kindes. Jedoch als wir dazu ansetzen wollten erschien im Schrein kurz ein Rabe und als er wieder davon flog klarte der Himmel auf. Ich wollte daraufhin den Bauch Saranas öffnen, aber das stieß nicht gerade auf Gegenliebe. Zumindest gefiel es Deiner Herrin besser mein Messer in einen Blumenstrauß zu verwandeln. Sarana wurde daraufhin in der Krypta aufgebahrt und unangetastet dem Ordo Morsan übergeben.<br />Ich gebe zu, dass dies nicht unsere stärkste Stunde war. Zumindest ich war übermüdet, traurig, enttäuscht und zornig. Ich wollte daraufhin Janus überreden Dir die Wahrheit zu verschweigen und Dich mit einer tröstlichen Lüge ab zu speisen. Heute, einen Tag später weiß ich, dass das nicht der richtige Weg gewesen wäre. Ich war verwirrt, aufgewühlt, macht- und hilflos und erfüllt vom Drang etwas Tun zu können. Hin- und hergerissen zwischen dem Drang etwas zu zerstören oder etwas sehr Lebensbejahendes zu tun bin ich die halbe Nacht ziellos umher geirrt bis mir die eine Erkenntnis kam, dass aus dieser Lüge nichts Gutes erwachsen wäre und dass Du sie uns allen zurecht übel genommen hättest, dass sie es Dir erschwert hätte je wieder einem von uns zu vertrauen. <br />Daher möchte ich mit Dir nun die Wahrheit teilen wie ich sie nun mehr verstehe:<br />Die gesamte Schwangerschaft stand von Anbeginn an unter einem schlechten Stern und gleich was wir alle sahen oder zu sehen hofften, wer hätte auch nur einem von uns eine Garantie dafür geben können, dass Saranas Körper das Kind nicht mit dem nächsten oder übernächsten Mondblut abgestoßen hätte? Vielleicht wollten wir alle von Anbeginn an retten, was nie da gewesen war, einfach weil wir hoffen wollten, dass es da ist. Was wenn unsere Enttäuschung und Hilflosigkeit uns nur blind machen sollten für die einzigen zwei Wahrheiten, die uns an diesem Tage offenbart wurden:<br />Dass Sarana eine gequälte Seele war und auch wenn keiner von uns dreien verstehen wollte weshalb sie tat was sie getan hatte, so wollten wir alle doch fest daran glauben, dass ihr Leben durch das Kind zumindest etwas Gutes hervor gebracht hätte. Auch wenn wir dadurch vor allem das Kind retten wollten, so haben wir auf dem Wege auch sie nicht aufgegeben, bis zum Schluss. Gleich wer sie war, gleich was sie getan hatte, im Tod wurde sie auf eine wenn auch eigenwillige Art geliebt und konnte auf diesem Wege Frieden in den Armen Morsans finden.<br />Die zweite Wahrheit ist noch etwas trauriger, aber ich finde, auch sie hat etwas tröstliches an sich. Ich weigere mich für wahr halten zu wollen, dass die Herrin lediglich keine Blutflecke auf ihrem Teppich sehen wollte. Was wenn alles was ich über das Kind gesagt habe wahr ist, wenn es entweder gar keines gab oder es nie lebensfähig gewesen und daher von Anbeginn an nie geboren worden wäre? Was hätte es dann gebracht ihren Bauch zu öffnen und Gewissheit zu erlangen? Wir hätten in diesem Falle Gewissheit, aber keine Antworten und keinen Trost. Es hätte nichts erbracht außer Kummer, die quälenden Fragen was wir hätten anders machen sollen, anders machen müssen. Ist es so schwer vorstellbar, dass sie uns diesen Kummer ersparen wollte, dass sie wusste, dass das was wir finden niemandem helfen, sondern nur schaden würde? Dass es besser für einen jeden von uns sei zu akzeptieren, dass wir für dieses Wissen nicht bereit sind, dass wir es nicht anstreben, sondern stattdessen den Trost nehmen sollten, dass wir ohne eigenes Verschulden niemals eine Chance gehabt haben? Sind die Gründe dafür denn wichtig? Wir haben unser möglichstes getan, aber die Aufgabe war nicht zu erfüllen gewesen. Der Gedanke ist tröstlich genug um den bitteren Nachgeschmack der Niederlage zu übertünchen. Aber wenn man es von diesem Punkt aus sieht, dann war es keine.<br />Für das Kind, so es denn jemals eines gab, gab es nie eine Chance. Sie hätte es verloren noch bevor es den Lebensatem gespendet bekommen hätte. Unabhängig davon was wir getan und gewollt hätten. Für Sarana indes konnten wir die eine, letzte Chance erbitten, ihrer gequälten Seele genug Raum geben, auf dass sie nun den Frieden finden mag, der ihr im Leben verwehrt blieb.<br />Was mich betrifft, so ist dies die Wahrheit. Dass ihre Dämonen nicht am Ende noch gesiegt haben. Dass ein jeder, der gleich wie sehr er im Leben verhasst sein mochte im Tode geliebt werden und darüber Erlösung finden kann. Und diese Wahrheit kann uns niemand nehmen, kein Mensch, kein Gott, wir können sie nur verlieren indem wir uns ihr gegenüber versperren.<br />Bitte entschuldige wenn der Brief an dieser Stelle bereits endet. Ich bin noch immer aufgewühlt, aber ich bin nicht mehr zornig. Noch immer habe ich den Drang etwas Lebensbejahendes zu tun, aber nicht mehr mit irgendwem. Ich bezweifele, dass ich es tun werde, aber mir gefällt der Gedanke daran und mir gefällt, dass ich die freie Wahl dazu habe, weil Du mir die Angst davor genommen hast. Dafür danke ich Dir und dafür liebe ich Dich.<br /><br /><span style="font-style: italic">Deine Diana</span><br /><br /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p927053"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=927053#p927053"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 7.07.16, 19:54&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Ich hoffe heute geht es Dir ein bisschen besser Niah'ma. Siehst Du, jetzt habe ich es zwar nicht ausgesprochen, aber wenigstens schon ein mal geschrieben.<br />Um Deine Laune ein wenig auf zu hellen, Janus, Maik und ich haben gestern mit Collnaid gesprochen. Ihm war deutlich an zu merken, dass ihm die Kunde schwer fiel, aber er hat sie ganz gut aufgenommen, dafür, dass er schon am Vortag einigermaßen ins Bilde gesetzt worden war. Ich hoffe nicht durch Rowen, der ist wirklich ein Breitschwert und das meine ich nicht nur im positiven Sinne. Charme kann man wohl wirklich nicht lernen. Immerhin weiß ich jetzt, warum die Geweihten im Ordo Belli so selten ihre Rüstungen ablegen, zumindest für mich wäre die Versuchung gestern ihm in den Hintern zu treten ohne mir dabei den Fuss zu brechen doch ungemein verlockend gewesen. Auch wenn ich weiß, dass er es nicht böse meint, dass er einfach nur brutal ehrlich ist, aber eben drum sollte er ehrlich genug zu sich selbst sein um zu erkennen welche Kämpfe er besser anderen überlassen sollte, weil diese eben das Fingerspitzengefühl erfordern, das er in seinen Panzerhandschuhen nicht hat.<br />Sei es drum, Maik hatte dann aber noch eine sehr gute Idee gehabt indem er Collnaid mit seinem Hengst vertraut machte. Und nein, das soll kein Euphemismus sein, also hör schon auf so frech zu grinsen! Collnaid fiel es deutlich leichter mit dem Pferd zu sprechen als mit uns, auch wirkte er dort deutlich entspannter als sonst. Es stimmt wohl, was man sich so sagt: Wer die Menschen kennt liebt die Tiere.<br />Gegen Ende wirkte Collnaid gelöst. Noch immer aufgewühlt aber die Deutung die wir ihm erklärten schien ihm zumindest ein wenig Frieden zu geben und auch wenn es fruchtlos gewesen sein mag, so war er uns allen doch aufrichtig dankbar für den Versuch sein Kind zu retten. Er will mich die Tage wieder sehen, wie er sagt weil ihm meine Art zu denken gefällt und ich werde dies wohl annehmen, denn ich weiß nicht, was Du in ihm sahst, aber ich weiß, was ich gesehen habe wie er so den Hengst streichelte. Mag Maik auch meinen, dass jemand der die Tiere liebt kein schlechtes Herz habe, ein Punkt bei dem ich Maik nicht widersprechen wollte, auch wenn ich weiß, dass gerade jene die Tiere von ganzem Herzen lieben die Menschen mit gleicher Inbrunst verachten können, aber in dem Falle ist es nicht das Herz von Collnaid, das mir Sorgen macht. Es ist sein Verstand. Du könntest das mit Deiner Gabe bestimmt viel besser auf den Punkt bringen als ich mit meiner, aber ich denke, Du weißt ganz genau was ich meine.<br />Nichtsdestotrotz, am Ende des Abends mag er erschöpft und immer noch ein wenig traurig gewesen sein, aber eben auch ein Stück weit erleichtert, sogar ein Stück weit froh. Ich denke das ist etwas worauf man aufbauen kann und vermutlich könnte er bei seiner Suche nach Antworten oder neuen Fragen an schlechtere Menschen geraten denn an mich.<br /><br />Ansonsten habe ich nicht allzu viel zu erzählen. Gestern sollte ja die Verhandlung gegen Lazalantin statt finden. Die Verhandlung wurde noch vor der Verlesung der Anklageschrift vertagt, weil Ankläger und Verteidiger einander wilde Vorwürfe an den Kopf schmissen. Standsicher im Umgang mit weltlichen Gerichten waren beide nicht, genau genommen gab es mehr zu kritisieren als zu loben, gleichzeitig aber waren beide selbstsicher genug um Ratschläge aus zu schlagen. Das muss man aber auch erst einmal erleben, dass die Verteidigung der Anklage offen droht und im Gegenzug die Anklage ihr Handeln mehr von Rachsucht denn von einem Streben nach Gerechtigkeit geleitet werde. Eine einzige Farce um deren Vorsitz ich Freifrau Nhergas nicht beneide, da sind auch ohne dass Lazalantin zugegen war zwei Streithammel so dermaßen aneinander geraten, dass man nicht umhin kam sich unwillkürlich nach der Grube um zu schauen in der der Eine hockt und sich irre lachend die Hände reibt.<br />Dieses Gericht wird unabhängig vom Urteil einen tiefen Keil zwischen Mutter Kirche und Ritterschaft, respektive Vater Staat, treiben und dieser Entwicklung sehe ich mit großer Sorge entgegen, denn dies kann weder in des einen noch in des anderen Sinne sein.<br />Falls Du die Tage durch irgendeinen Umstand meiner gedenken solltest oder mich in Deine Gebete mit einschließt, dann bitte auch gleich um eine silberne Zunge, ich werde sie brauchen. Zugegeben allzu große Hoffnungen dort noch etwas retten zu können habe ich nicht, aber entmutigen lasse ich mich davon nicht. Einen Versuch ist es alle male wert und nur das zählt.<br />Wünsche mir Glück und gutes Gelingen, halte die Flauscheöhrchen steif, bleibe gesund und vor allem finde was Du brauchst. Und vergiss nie: Du wirst vermisst und Du wirst geliebt.<br /><br /><span style="font-style: italic">Deine Diana</span><br /><br /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p927166"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=927166#p927166"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 9.07.16, 17:10&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Vitamas Segen Niah'ma.<br /><br />Heute schreibe ich Dir mal einfach so, einfach weil mir gerade danach ist. Wenn Du also versuchen magst aus dem hier den wichtigen, siebenwinderschütternden Gehalt heraus zu suchen, dann such mal schön weiter, den wirst Du hier nicht finden. Hier geht es jetzt wirklich mal nur und ausschließlich um meine ganz persönlichen Belange und um mein ganz persönliches Befinden. Aber meine Meisterin wollte ja eh, dass ich mal etwas vollkommen selbstsüchtiges tue um den Geschmack zu kosten und ich schätze dies hier kommt dem nahe genug, bei allem anderen was ich versucht habe habe ich da doch ganz kläglich versagt. Ich schätze ich bin für sowas einfach nicht gemacht und das meine ich durchaus wörtlich.<br />Ich liege anbei gerade im Schrein und kuschele mich oben hinter dem Vorhang in die Kissen während ich Dir diese Zeilen schreibe. Ich mag diesen Ort, auch weil ihm noch Dein Geruch anhaftet. Denkst Du hier werden viele Briefe dieser Art geschrieben? Also ich denke schon, aber diese Insel ist wohl auch in den scheinbar unscheinbaren Dingen verschieden vom Festland und das nicht immer im Guten. Es sind Momente wie diese in denen ich mich frage, ob es zu wenig Liebe auf Tare gibt, ob sie einfach nur ungerecht verteilt ist oder - und da geht meine Tendenz hin - es zwar genug gibt, aber es einfach nicht so wahr genommen wird, weil man sie nur spüren kann wenn man sie auch spüren will. Aber sei es wie es sei, der Gedanke allein ist schwermütig und danach strebt mir gerade so überhaupt nicht der Sinn, denn dann bin ich ganz schnell wieder bei Lucy und bei Edelmut und auf solche Themen habe ich gerade einfach keine Lust.<br />Du wolltest gerne mehr über mich erfahren und das hier ist wohl eine ganz gute Gelegenheit dazu. Ich gebe zu ich war anfangs versucht etwas Baldrian auf den Brief zu träufeln, dessen durchschlagende Wirkung auf Katzen und auf Zweibeiner mit spitzen Ohren ist ja hinlänglich bekannt, aber das fand ich dann doch etwas zu gemein. Aber irgendwie auch amüsant. Falls der Brief dennoch etwas intensiver riechen sollte als Du es gewohnt bist, die Rückseite über meinen Hals zu reiben konnte ich mir dann doch nicht verkneifen und wie Du ja weißt mag ich Parfüms und Öle weniger als Du. Warum gefällt Dir der Lavendel eigentlich so sehr? Ich vermute, dass da eine Geschichte dahinter steckt, denn wenn es einfach nur um den Geruch ginge, dann würdest Du mehr variieren, nach Lust und Stimmung, kombinieren. Daher vermute ich, dass der Lavendelduft für Dich mit einer Erinnerung verknüpft ist und damit mit einer Geschichte, die es wert ist gehört zu werden.<br />Oder ich liege völlig falsch und es ist nur dem Umstand geschuldet, dass ihr Fey insgesamt einen doch eher milden Geruch und Geschmack habt, Stichwort Honigschlecken und Du auf diese Art nur denen mit weniger fein entwickelten Sinnen ein wenig präsenter in Erinnerung bleiben möchtest. Zumindest ist dies bei mir der Grund, weshalb ich Parfüms nicht mag, ich möchte so wahr genommen werden wie ich bin und wer mich deswegen nicht riechen kann, der soll mich auch nicht riechen können. Aller Wahrscheinlichkeit nach kann ich ihn ebenso wenig leiden, damit ist die Waage dann auch wieder im Lot.<br />Anbei an den kommenden Tagen ist Lichthoch wie Du ja weißt. Das sind auch für mich Festtage, allerdings begehen wir diese wohl anders als Du es gewohnt bist. Also hier in Brandenstein sind Festlichkeiten geplant, unter anderem eine Theateraufführung. Also ich war schon ewig nicht mehr im Theater, das letzte Stück das ich gesehen habe war &quot;Dämon Mensch&quot; und da war ich noch recht klein. Aber das Thema würde ganz gut passen, jedoch denke ich, dass gerade diesen Lauf diese Tage überschattet sein werden. Zumindest scheint es, dass diese Tage für eine Offensive wider die Söldner vom Bündnis der Klinge genutzt werden sollen und auch wenn Du das eher als Notwendigkeit erachten magst, die Dir dennoch nicht allzu sehr zusagt, so halte ich es für richtig diesen taktischen Vorteil auch einmal zu nutzen. Nichts anderes tun die Rattenkinder an den Tagen des Dunkeltiefs ja auch. Das ist etwas, das ich nie so recht verstanden habe. Für die Meinen sind es Tage des Tatendranges und der Schaffenskraft in denen das Prinzip der Männlichkeit mit all seiner ungestümen Wildheit im Vordergrund stehen. Besinnlichkeit und Innehalten sind uns generell ja eher fremd, aber gerade an diesen Tagen dürstet es und förmlich danach nur allzu umfassend Gebrauch von unseren Fähigkeiten und Kräften zu machen. Heilerin heile, Tänzerin tanz, ich werde schon allein ganz unruhig und kribbelig wenn ich so wie jetzt da ich diese Zeilen schreibe nur daran denke. Um so mehr verwundert es mich, wenn Kreaturen des Lichtes, deren Natur es ist nach dem Licht zu streben diese Tage eher in Ruhe und mit Mäßigung begehen wollen. Aber gut, soweit mir bekannt ist es nicht nur bei uns, sondern auch bei den Deinen so, dass nicht wenige Kinder an eben diesen Tagen gezeugt wurden, also steckt wohl auch in anderen noch ein Bruchteil dieser alten Macht und Kraft. Mal schauen ob irgendwer die Leute auch auf diesen Aspekt ein zu stimmen versucht oder ob es doch wieder bei eher beschaulichem Treiben verbleiben wird. Ich gehe ja eher von letzterem aus.<br />Anbei, das mit der Scham musst Du mir irgendwann noch einmal erklären. Das Konzept ist mir immer noch fremd und gleich von welchem Winkel aus ich es betrachte, so recht einleuchten will es mir nicht. Verstehe mich nicht falsch, das Prinzip der Treue kenne ich und es ist mir auch nicht fremd, denn es liegt schlicht in dem Bestreben begründet jenen die man liebt nicht schaden zu wollen. Aber Scham scheint mir auch nach längerer Überlegung vor allem auf Angst zu beruhen und Angst mag nützlich sein um die Grenze zwischen Mut und Übermut, Frohsinn und Leichtsinn abstecken zu können, aber letztendlich ist Angst auch nur ein Gefühl. Machtvoll, zweifellos, aber meine Gefühle müssen die meinen sein, wenn sie beginnen sich gegen mich zu richten mache ich etwas falsch. Aber vielleicht kannst Du das besser erklären.<br />Anbei, falls Dich diese Worte irgendwie getroffen haben sollten, auch Du hast noch Gefühle die nur Dir allein gehören. Mag sein, dass andere mit ihren Gefühlen die Deinen zu übertünchen vermögen, aber fort sind sie dadurch nicht, Du stellst sie nur zugunsten der Gefühle anderer in den Hintergrund um besser auf sie eingehen zu können. Aber zumindest ich weiß, dass es Dich noch immer gibt, dass es noch einen Teil Deiner selbst gibst, der nur Dir gehört und bei dem Du allein entscheiden kannst mit wem Du ihn teilen magst und mit wem nicht. Siehe das Stichwort weiter oben. Damit und mit der Gewissheit, dass Du gerade bis über beide Flauscheöhrchen hinweg grinst möchte ich den heutigen Brief dann auch beenden. Bleib so liebenswert wie Du bist.<br /><br />Küsschen<br /><span style="font-style: italic">Deine Diana</span><br /><br /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p927258"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=927258#p927258"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 13.07.16, 16:35&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Dem Brief wurde eine einzelne, getrocknete Kirschblüte beigelegt. Ansonsten wirkt er nicht anders als die anderen.</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Thaliya Flauscheöhrchen.<br /><br />Ich denke es wird heute ein eher kurzer Brief. Alle sind schon mehr oder weniger auf das Lichthoch eingestimmt und so gibt es auch nicht allzu viel zu berichten.<br />Gestern wurde die Festung der Söldner vom Bündnis gestürmt, ich weiß nicht weshalb man dies noch vor dem Lichthoch in Angriff nehmen wollte, aber es war wohl ein voller Erfolg. So singen es jedenfalls die Spatzen von allen Dächern, zwar seien der Hauptmann und mehrere seiner Magier mit einem Schiff entkommen, aber zumindest in den nächsten vier Tagen werden sie wohl nicht allzu viel Unheil anrichten. Ich vermute, dass sie sich nach Kairodung wie Du es so oft nennst zurück ziehen werden, aber wer weiß, womöglich werden sie auch ein Opfer ihres eigenen Kraken oder es zieht sie doch nach Brandenstein oder womöglich auch ganz von der Insel fort. Schauen wir halt einmal wohin die Reise geht, im wahrsten Sinne des Wortes.<br /><br />Ich selbst habe nicht viel zu berichten, wie ich Dir ja schrieb bin ich die Tage bereits eher rastlos. Immerhin, was einst als fixe Idee begann nimmt allmählich Gestalt an und so werde ich Dich bei Deiner Rückkehr mal brauchen um Kontakt zu einem bestimmten Geweihten auf dem Festland her zu stellen. Genauer gesagt zu jemandem in Necris, ich denke, da wird es Dir leichter fallen als mir ihn für ein bestimmtes Unterfangen zu gewinnen.<br />Wie Du ja weißt wurde mit den schwarzen Samen auf Siebenwind ein Mittel gegen den atmenden Tod gefunden. Allerdings können nur wenige erklären weshalb es wirkt und das ist auch gut so, denn letztendlich verstehen wir bis heute die Krankheit selbst noch nicht in ihrer Gänze und für die Masse begnügen wir uns auch damit sie nicht wissen zu lassen, dass der atmende Tod trefflich benannt ist und neben einer alchemistischen und einer magischen auch eine dämonische Komponente hat.<br />Gerade dieser wirken die Samen entgegen, wohingegen die anderen Komponenten durch klassische und magische Heilkunde gut zu behandeln sind. Das Problem, dass sich daraus ergibt stellt die Kerngebiete des heutigen AKM dar.<br />Zum einen wo ein Dämon ist, da ist auch ein Beschwörer, Paktierer oder zumindest ein Artefakt oder Relikt. Die Krankheit selbst mögen wir soweit im Griff haben, aber solange der wahre Schuldige noch nicht gefunden ist ist noch nichts gewonnen, die Krankheit könnte jederzeit in stärkerer Form zurück kehren.<br />Das zweite ist die Verbesserung der schwarzen Samen, insbesondere ihrer Eigenart ihre Kraft außerhalb von Siebenwind zu verlieren. Das liegt schlicht in ihrer Natur begründet, denn das sogenannte Heilmittel ist streng genommen keines, es kuriert den atmenden Tod nicht, es ignoriert ihn. Diese Samen kennen den Tod nicht, sie haben nicht einmal eine Vorstellung vom Tod und somit blockieren sie die Krankheit eher, bzw. verhindern, dass diese Schaden anrichtet bis der dämonische Anteil verbraucht ist und sich verflüchtigt hat. Die Welt oder besser die Wirklichkeit in die sie gebracht werden kennt den Tod aber sehr wohl und dieser Kontakt mit dieser Wirklichkeit läuft ihrer Natur dermaßen zuwider, als dass es sie ab stösst und sie sich letztendlich fügen müssen. Somit besteht das zweite Hauptaugenmerk vor allem darin durch entsprechende Zusätze und Behandlung diesen Kontakt mit der Wirklichkeit hinaus zu zögern oder zu verlangsamen.<br />Ersteres muss in Morthum selbst geschehen, zweiteres hier auf Siebenwind und dazu habe ich bereits ein paar Ideen. Allein, was diese taugen kann nur ein möglichst genauer Erfahrungsbericht aus Morthum besagen und da dachte ich an die Kirche und somit an Dich.<br /><br />Um diesen Brief jetzt aber nicht nur mit Schwermütigkeit zu füllen noch rasch ein etwas heiteres Thema. Ich habe Dir ja schon geschrieben, dass ich gerne mit Worten und Sprache spiele und beim Schreiben dieser Briefe kam in mir die Frage auf wie es wohl aussehen würde, wenn Vitama ihren Kindern einen Liebesbrief schreiben würde. Das ist dabei heraus gekommen. Magst Du etwas anmaßend finden, aber ich denke, ich habe sie ganz gut getroffen, jedoch: Ich bin da einfach mal auf Deine Meinung gespannt, insbesondere darauf ob es Dir gefallen hat. Eine Melodie dafür habe ich schon im Hinterkopf, ich muss die Tage dann mal eine Bardin fragen ob sie die Noten an die ich denke einmal festhalten kann. Aber genug der Worte:<br /><br /><div align="center">Im Gedenken an Gefühle die man in mir wach rief<br />Vereine ich die Gedanken und schreibe einen Liebesbrief.<br />Sammle Wort um Wort forme aus ihnen ganze Zeilen<br />Die nicht nur kurz, sondern die bis in alle Ewigkeiten verweilen.<br />Ein Brief an den einen, der mein Herz erreichte,<br />Ein Brief an die eine, die mein Herz erweichte,<br />Nicht einzig, nicht einmalig, doch einzigartig immerdar,<br />Für mich stets etwas besonderes, so wie vor Dir noch niemand war.<br />So halte ich die Gedanken jung, die Erinnerungen in mir wach<br />Hänge wie mein Herz an Dir hängt meinen Gedanken an Dich nach.<br />Ich trage Dich in meinem Herzen, ich trage Dich auf meinen Händen<br />Und müssen auch weltliche Dinge alle irgendwann einst enden<br />Was wir beide aneinander haben es ist nicht von dieser Welt<br />So bleibt es uns erhalten, auch wenn die Welt in Scherben fällt.<br />So gedenke ich Deiner in Liebe so wie Du auch mir gedenkst<br />Verbleibe mit dem leisen Dank, dass Du mir Deine Liebe schenkst.<br />Hochachtungsvoll, bleibe wie Du bist, mach&#39; es gut mit liebem Gruss,<br />Ich vermisse Dich, Du fehlst mir, bleib&#39; gesund und dicken Kuss,<br />So unterfertige ich in meinen Gedanken die Zeilen die ich geschrieben,<br />Adressiert an alle die mich wie ich bin kennen, wertschätzen, lieben.<br />Doch diese Zeilen werde ich auch dieses mal nicht nieder schreiben<br />Denn sie gehören nur uns beiden und wie es ist soll es auch bleiben.<br />Kein Pergament, keine Steintafel werden uns beiden je gerecht<br />Wären nur Käfige mit Gittern, als Gefässe ungeeignet schlecht.<br />So bleibt mein Brief an Dich nun wieder einmal unabgeschickt<br />Statt zur Feder zu greifen genieße ich still den Augenblick,<br />Denn unsere Briefe sind bereits in unsere Herzen eingraviert<br />Dort werden sie bleiben bis es Dich einst zu mir zurück führt.</div><br /><br />Na, soviel dann zu &quot;wird wohl ein kurzer Brief&quot;. Ich hoffe er hat Dir gefallen. Bleib gesund, erhole Dich gut, bleibe Dir selbst treu und fühle Dich geherzt und geküsst.<br /><br /><span style="font-style: italic">Deine Diana</span><br /><br /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p927332"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=927332#p927332"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 18.07.16, 14:22&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Ehre sei Weshran!<br /><br />Nein, nur ein Spaß. Liebe Grüße Niah'ma, ich hoffe, Dir geht es gut. Das Lichthoch ist nun mehr vorbei und somit komme auch wieder ein wenig zur Ruhe. Insgesamt sind diese Tage recht ruhig gewesen, bis auf dass einige Leute scheinbar zum ersten mal in ihrem Leben Feen und Lichtwesen gesehen haben den Reaktionen nach zu urteilen.<br />Ich selbst bin ziemlich erschöpft, daher werde ich mir gleich auch einen schönen, langen Mittagsschlaf gönnen, aber das hat auch seine Vorteile, zumindest ist mir gerade nicht nach Ablenkung oder Geschäftigkeit und so kann ich dann auch mal ein paar Gedanken zu ihrem Ende denken und zu Pergament bringen. Ich denke gerade über Vertrauen nach, nicht was Du jetzt vielleicht denken magst, kein unschöner Anlass, der einen alles noch mal von Grund auf überdenken lässt, einfach so, weil mir gerade danach ist. Du warst ja begierig darauf meine Gedanken kennen zu lernen, also, ich bin gespannt was Du von diesem hältst:<br />Nüchtern betrachtet ist Vertrauen etwas sehr seltsames und ambivalentes. Auf eine Art ungemein stark und belastbar, aber zumeist auch mit diversen Schwachstellen versehen an denen es nur zu leicht brechen kann. Zugleich ist es etwas völlig natürliches, für das selbst jene die keines Vertrauens würdig sind ein Gespür haben, eine Art Urvertrauen, das uns mit auf den Weg gegeben wurde. Gleichzeitig aber strebt es immerzu nach Erwiderung, unser Vertrauen ist abhängig von jenen denen wir vertrauen oder zumindest vertrauen möchten, dennoch kann es auch losgelöst davon existieren. Dennoch ist es die Grundlage jedweder Beziehung, gleich wie geartet sie sein mag, was mich zum eigentlichen Kern meiner Gedanken führt.<br />Liebe und Vertrauen gehen Hand in Hand miteinander und doch sehe ich hier nicht die Liebe als den dominanten Part in diesem Paar an. Zwar mag der Gedanke valid sein, dass je größer das eine um so mehr mag das andere erwachsen können, jedoch bedeutet der Verlust des einen zwangsweise auch den Verlust des anderen, nur fällt mir kein Umstand ein, bei dem man eine Liebe verlieren kann ohne nicht zuvor etwas anderes verloren zu haben. Wie zum Beispiel das Vertrauen. Dennoch auch wenn sie einander bedingen tue ich mich schwer damit sie wirklich gegenüber zu stellen, denn das eine ist selbstlos und kann auch vollkommen einseitig sein und dennoch Bestand haben. Einseitiges Vertrauen jedoch wird nie allzu lang halten, weil es immerzu nach Erwiderung und Mehrung seiner selbst strebt und sich mit den Grenzen die wir ihm auf zeigen nur schwerlichst abfinden kann. Beständig und doch rastlos zugleich bleibt Vertrauen fordernd für beide Seiten, denn wo Liebe einfach nur ist und gar nicht erst versucht mehr oder weniger zu sein bleibt das Vertrauen unstet in seinem Versuch kein theoretisches Abstraktum zu sein, sondern zur Praxis zu werden. Vertrauen strebt nach Beweisen seiner Existenz und vor allem auch seiner Tiefe, auf beiden Seiten, dem Vertrauten, aber auch dem Vertrauenden. Was mich in diesem Zusammenhang auch über Vertrauen und Begierde nachdenken lässt. Ich denke, dass echtes, aufrechtes Begehren ohne Vertrauen und damit immer auch zumindest ein wenig Liebe gar nicht möglich ist. Ohne Vertrauen ist es einfach nur triebhaft und mag man da auch davon sprechen, dass man seinen Trieben freien Lauf lässt oder ihnen nach gibt, so empfinde ich dort einen etwas älteren Ausdruck als viel passender: Man bedient seine Triebe. Es ist ein vollkommener Verlust der Kontrolle über sich selbst und das eigene Verlangen und dies gegenüber jemandem, bei dem man dies eigentlich gar nicht will, weil einem das Vertrauen zu ihm oder ihr fehlt. Würdelos, erniedrigend, also ich für meinen Teil denke, dass diese Form der Zweisamkeit eher zu der Widersacherin Deiner Göttin passt als zu ihr selbst.<br />Es mag wie eine jugendliche, romantische Schwärmerei klingen, aber für mich gehört zur Begierde eben immer auch das Vertrauen oder genauer gesagt sich selbst, sein eigenes Verlangen und nicht zuletzt auch seinen eigenen Körper dem anderen an zu vertrauen und sich mehr als nur sinnbildlich in die Hände des anderen zu begeben. Begierde strebt nicht den Besitz an, sondern die gegenseitige Hingabe, eine Art von Vertrauen wie man sie nicht mit jedem teilen kann, möchte oder sollte oder vielmehr vielleicht eine Art sein Vertrauen auf einer körperlichen, aber auch emotional-geistigen Ebene aus zu drücken und mit dem oder der anderen zu teilen und auch zu empfangen.<br />Womit ich mit all dem hinaus will ist folgendes: Vielleicht ist Liebe gar nicht so sehr die treibende Kraft für die wir sie halten oder sie ist es auf eine viel subtilere Art als angenommen. Man kann zwei Menschen gleichermaßen lieben aber ihnen doch unterschiedlich tief vertrauen und damit sie auch unterschiedlich tief begehren. Man kann es nicht nur, man sollte es sogar, denn im Gegensatz zur Liebe ist das Vertrauen endlich und wie schon gesagt auch zerbrechlich. Man kann jemanden durchaus mehr lieben als er es verdient hat. Gut zugegeben, ob es sinnvoll ist da einen Maßstab zu setzen ob und wenn wie viel jemand geliebt werden sollte ist sehr müßig, da hier wieder zu viele Begrifflichkeiten durcheinander geworfen werden, was ich letztendlich sagen will ist, dass egal wie innig man einen anderen liebt, es richtet für sich allein genommen keinen Schaden an. Liebe kann nicht missbraucht oder gegen einen gewendet werden und daher schadet es auch nicht zu lieben oder jemanden den man liebt noch etwas mehr lieben zu wollen und auch lieben zu können. Vertrauen indes kann sehr wohl ausgenutzt werden und auch wenn es nach Mehrung strebt, so strebt es doch eben auch nach Erwiderung und wenn dort nichts zurück kommt oder das Vertrauen gar missbraucht wird, dann bildet es sich auch zurück. Vertrauen macht einen verletzlich und daher ist es schon allein zum eigenen Wohle wichtig zu bemessen wie tief wir dem einzelnen vertrauen können und möchten und dieses Vertrauen wenn dann auch nur schrittweise zu erhöhen. Zugegeben, ich bin die Letzte die aus eigener Erfahrung heraus verneinen würde, dass sich der kopflose Sprung ins kalte Wasser nicht zuletzt doch auch einmal auszahlen kann, aber in aller Regel ist das Ergebnis dann doch nur, dass man am Ende wie ein begossener Pudel nur um eine Erfahrung reicher aber an Vertrauen ärmer da steht. Ein wenig beneide ich Dich dort um Deine Herkunft. Nicht, dass nicht auch Deine Art schon einige wirklich abschreckende Exemplare hervor gebracht hätte, aber die vertrauensunwürdigen unter ihnen halten sich doch deutlich mehr im Rahmen als es bei den Menschen der Fall ist. Aber letztendlich habt ihr ein viel intuitiveres Gespür für das Urvertrauen als es die Menschen haben und zumindest soweit ich es beurteilen kann könnt ihr daher mit dem Thema Vertrauen viel besser umgehen. Oder es hängt einfach weniger Ballast daran, das mag auch möglich sein.<br />Jedenfalls denke ich, dass Menschen und Fey sich zwar gleich leicht oder schwer damit tun, einander ein Freund zu sein, wenn der andere einen Freund braucht und auch damit einander ein Geliebter zu sein, wenn der andere einen Geliebten braucht, aber Menschen tun sich deutlich schwerer damit dem anderen ein Freund und eben kein Geliebter zu sein wenn der andere gerade einfach nur einen Freund braucht. Haben zwei Menschen diese Grenze ein mal überschritten, dann gibt es für sie gewöhnlich kein zurück mehr und an diesem Drängen werden letztendlich das Vertrauen und damit die Freundschaft zerbrechen. Ich denke was das anbelangt dort können die Menschen noch viel von Deiner Art lernen. Ich für meinen Teil bin jedenfalls froh, dass ich das Dilemma nicht habe.<br />In diesem Sinne bleibe Dir selbst treu. Küsschen.<br /><br /><span style="font-style: italic">Deine Diana</span><br /><br /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p927333"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=927333#p927333"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 18.07.16, 18:01&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Ein Brief der nie abgesendet wurde und möglicherweise auch nie den Adressaten erreichen wird, wurde an einem zeitlosen ruhigen Ort von einem Elfen zu Pergament gebracht...<br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="font-style: italic"><span style="font-family: Trebuchet;">Niah&#39;ma,<br /><br />es ist keineswegs ungewohnt für mich einen Brief zu verfassen, der vielleicht niemals von jemand anderen als mir gelesen wird, oder erst sehr viel später, wenn die aktuelle Situation und meine derzeitigen Emotionen keine Rolle mehr spielen, dem Adressaten überreicht wird.<br /><br />Ungewohnterweise habe ich gar keinen Antrieb etwas bestimmtes zu erzählen oder zu berichten. Möglicherweise habe ich auch endlich den Punkt erreicht, an dem ich mich ungezwungen einem beseelten Wesen mitteilen möchte, unabhängig davon, ob es überhaupt je gelesen oder verstanden wird. Oder aber auch ein Fey hat irgendwann das Bedürfnis sich einem astraelgesegneten Wesen mitzuteilen und auf einer höheren Ebene zu kommunizieren. Und wieder merke ich an diesen Zeilen, dass es mir relativ gleich ist. Und das stimmt mich fröhlich. Ich war lange nicht mehr in der Lage einfach das zu tun, was mir gut tat oder mir in den Sinn kam. Meine Leben in Draconis und auch meine ersten Monde auf der Insel waren davon geprägt. Ich ließ mich treiben von dem was ich vom Herzen tun wollte. <br /><br />Und zurückblickend analysiere ich diese Leichtigkeit in meinem Leben und meinem Dasein darauf, dass ich mein Herz nie sehr weit geöffnet hatte. Freunde waren etwas vergängliches - so hatte ich es erfahren. Liebe war ein Konzept, das für mich unberührt und rein war - so lebten es mir meine Eltern vor. Lust war einzig und allein der Antrieb um den Fortbestand des Volkes zu sichern - zumindest war dies meine Interpretation.<br /><br />Dieses einfache Konzept, das mir auch ein einfaches, wenn auch zugebenermaßen sehr vorhersehbares, Leben die letzten Jahrzehnte beschert hatte, wurde seit meiner Weihe über alle Maße zerrüttet. Ich fühlte mich von Zwängen und Schuldgefühlen dazu verleitet jedem das zu geben, was er von mir forderte, weil ich fühlen konnte, wie verzweifelt sie waren. Dies trieb ich soweit, dass ich selbst nicht mehr wusste, was ich überhaupt noch wollte. Ich war nie ein Freund von Erwartungen oder Forderungen, doch hatte man genau dies von mir verlangt. Ich sollte ein Anführer sein, aber nur wie es jene wünschten, die mir folgen wollten. Ich sollte ein Mentor sein, aber dennoch waren meine Ansichten nicht jene die erwünscht waren. Ich sollte ein Freund sein, aber nur wenn ich dabei nicht vernachlässige eine strenge Hand walten zu lassen, wenn es eingefordert wurde. Ich sollte alles sein, was mein Umfeld erwartete, wann es dies erwartete und wie es es erwartete. Es gab nur einen Raum, wo ich sein und lassen konnte wie ich es wollte. Bei meinen Liebsten und in der Lust.<br /><br />Die nachfolgenden Worte mögen aus der Feder eines Geweihten der Herrin seltsam erscheinen, aber Lust ist etwas was mir nach wie vor Angst macht. Nicht weil ich sie als unmoralisch oder verwerflich empfinde, sondern weil ich nun weiß, welche Macht sie über einen hat. Wie man dazu bereit ist, für Lust seinen eigenen Wohlfühlbereich zu verlassen. Wie man freiwillig Kontrolle aufgibt. Und wie abhängig man davon werden kann. Ich wünschte mir oftmals ich hätte mich nicht darauf eingelassen. Liebe ohne Lust ist nicht fordernd. Nie einschränkend. Und kann vor allem nie befleckt werden. <br /><br />Ich will nicht von Bereuen oder aber anderen negativen Dingen sprechen, die alles was ich bisher in meinem Leben mit und für andere tat in Frage stellt. Aber dennoch habe ich das Gefühl, dass gerade dieses impulsive Fühlen und Handeln viele Dinge heraufbeschworen hatte, die ich vor einem Götterlauf oder mehr nie in Erwägung gezogen hätte. Ich habe die Erkenntnis gewonnen, dass ich den schmalen Grat zwischen wenigen engen Beziehungen, die mich einen Teil meines Lebens mit einem vorhersehbaren Ende begleiten werden, und vielen Bekanntschaften und Freundschaften, die nicht mein Herz belasten, stets bewandern werden muss. Diese Erkenntnis zu verdrängen versuchte ich in den letzten Monden. Aber dies ist kein Kampf, den es zu verlieren oder gewinnen galt. Es ist einfach der Kreislauf des Lebens. <br /><br />Ich werde viele Dinge klären und ändern müssen. Grenzen müssen gezogen werden. Einige Mauern wieder errichtet werden, die man mit Gewalt von meinem Herzen abgetragen hatte. Es wird viele Verwirrungen geben. Viele Momente, an denen ich an mir zweifeln werde. Doch am Ende sehe ich ein Licht, auf dass es sich zuzugehen lohnt, egal wie düster der Raum erscheint, in dem ich mich im Moment bewege. <br /><br />Ich habe viele Ängste abgebaut in der Zeit in der ich hier verweile. Viele Dinge verstanden, für die ich schlichtweg keine Zeit hatte, um darüber nachzudenken. Und vor allem merke ich, dass ich mich selbst wieder gefunden habe. Ich denke direkt nach dem Dunkeltief, nach dem Verlust Falkensees und den erschreckenden Bildern, die sich in diesen wenigen Wochenläufen sich in mein Herz und meinen Geist brannten, war ich noch nicht bereit dazu das Geschenk der Herrin zu nutzen. Ich war labil und habe ohne jede Defensive versucht für andere stark zu sein, die ebenso labil waren. Und das war die Besiegelung meines eigenen geistigen Untergangs. <br /><br />Ich wollte hassen. Der dunkle Keim in mir brodelte und wollte emporwachsen. Doch anstatt, dass ich die Wut nutzen konnte um sie in Kraft zu wandeln, stieß es mich immer mehr in Verzweiflung, dass ich gar nicht in der Lage war zu hassen. Gar nicht in der Lage bin zu hassen. Ich fühle nur noch ein breites Feld von diversen Abstufungen von Liebe. Ärgere mich über die Hoffnung die ich selbst in die abscheulichsten Menschen auf dieser Insel lege. Die Erkenntnis, dass ich für den Feind genauso lügen würde, wie für einen Freund, um ihn zu schützen, nagt ebenso an mir, wie die Tatsache, dass ich auch anfing jene zu belügen, die mir am nächsten sind, um meine eigenen Taten ohne Konsequenzen zu wissen.<br /><br />Und deshalb werde ich nach meiner Rückkehr Offenheit walten lassen. Ich weiß, dass das Resultat schwerwiegend sein wird. Mir ist auch bewusst, dass es nicht ohne Verluste einhergehen wird. Aber ich habe meine Prioritäten gesetzt und werde nach ihnen leben und auch die Konsequenzen tragen. Aber ich bin das erste Mal seit langem wieder bereit dazu so einen Kampf zu fechten. Schon allein, da mir bewusst wurde, wie sehr es mich belastet, dass ich am Ende aller Wahrscheinlichkeit nach die Tränen einer meiner Liebsten nicht mehr selbst trocknen darf. Aber so habe ich aus Selbstsucht und Verrat, etwas geschaffen, das mich wieder fernab jeder Instinkte und Triebe in meine selbstlose Natur führt. Der Schmerz der Selbstlosigkeit, ist nämlich weitaus erträglicher, als der Schmerz der aus Selbstsucht und Lüge entsteht.<br /><br />Ich denke du verstehst, was ich dir sagen will. Und ich weiß auch, dass du verstehst, dass ich nichts bereue und es auch nicht rückgängig machen würde, wenn die Viere mir die Macht dazu geben würden. Aber ich musste feststellen, dass diese Art von Liebe nicht mit jedem geteilt werden kann, ohne dass jemand verletzt wird. Ich habe es schlichtweg unterschätzt in meiner Unerfahrenheit. Aber ich kann nur künftiges verhindern. Und so will ich es halten.<br /><br />Warum ich es gewohnt bin ungelesene Briefe an andere zu schreiben? Ich habe das Bedürfnis, dies mit dir, oder vielmehr mit dem Pergament das ich dir widmen will, zu teilen. Ein Teil meines Herzens den ich noch nie nach außen getragen habe.<br /><br />Mit meinem Vater konnte ich Zeit meines Lebens nicht wirklich offen reden. Er ermahnte mich stets. Das war seine Form von Liebe und Fürsorge. Es gab für einen Fehl nie mehr Ärger, wie man es erwarten würde, aber gleichsam gab es für eine positive Sache auch nie mehr Lob. Ich würde die Beziehung zu meinen Vater wie einen ruhigen vor sich herplätschernden Bach bezeichnen. Es gab nie viele Worte die gesagt werden mussten. Ein Blick von ihm konnte mich auffangen und gleichsam zerstören. <br />Mutter fragte mich oft, warum ich so oft an mir zweifelte. Warum ich mich unvollkommen fühlte. Ich konnte es ihr nicht beantworten. Nicht weil ich es nicht wusste oder vielmehr ahnte, sondern weil ich zwischen meine Eltern keinen Keil treiben wollte. <br /><br />Ich war und bin davon überzeugt, dass die Tatsache, dass mein Vater mich im Grunde gar nicht wollte, eine Distanz zwischen ihm und mir in meine Wiege legte. Er kümmerte sich recht oberflächlich um mich, im Gegenzug zu meinen Schwestern, die ihm weitaus einfacher und schneller ein Lächeln auf die Lippen zaubern konnten. Ich sah wie er sich auf gewisse Weise ertappt fühlte, wenn ich sie beobachtete und den vertrauensvollen Umgang besah. Er würde mir in diesen Momenten stets einen strengen Blick zeigen und den Raum verlassen, so ich denn nicht selbst ging. Ich verstehe es auch heute nicht, was genau zwischen uns steht. Und ich vermute es würde noch mehrere Jahrhunderte andauern, ehe ich es erfahren sollte. Falls ich es je erfahren sollte. <br /><br />So wie ich auch ihm die nie ausgesprochenen Dinge schrieb, die er nie zu Gesicht bekam, so schreibe ich nun dir, Diana. Möglicherweise habe ich jedoch mittlerweile mehr Selbstbewusstsein, dir den Brief direkt zu übergeben. Aber ich will mich nicht darauf festlegen.<br /><br />Ich bin kein Künstler im schaffenden Sinne, aber ein Künstler darin, mich mit unausgesprochenen Worten in einer gewissen Melancholie stets festzuhalten, die ich nur schwerlich vor anderen verbergen kann. Ich verstehe warum Fyonn stets dachte, ich würde wegen seiner Taten melancholisch und verschlossen sein. Wie viele andere wohl ebenso über mich denken? Haben deshalb soviele das Bedürfnis mich stets zu fragen was mich belastet? Ich versuche diesen Teil meiner selbst abzubauen oder zumindest einzuschließen. Nie wollte ich ein Objekt der Sorge werden. Immer war es mein größtes Glück einfach anderen zuzuhören ohne dafür etwas von mir preisgeben zu müssen. <br /><br />Ich habe das Gefühl, dass dieser Brief nie enden würde, wenn ich nicht an dieser Stelle mich selbst ermahne, dass ich nur eine gewisse Menge an Tinte und Pergament mit mir genommen habe. <br /><br />Vergiss nie, dass ich für dich da bin und ich vergesse nie dieses unschätzbare Geschenk, das du in meine Obhut gelegt hast. <br /><br />Möge Sie dich immer mit Glück und Liebe beseelen.<br /><br />Tendarion</span></span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p927404"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=927404#p927404"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 21.07.16, 17:52&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">An einem ruhigen Nachmittag lag sie im Schatten einer hohen Eiche und verfasste wie so oft in den letzten Wochen einen weiteren Brief.</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Sichere Pfade Niah'ma.<br /><br />Wie es scheint wird uns das Lichthoch dieses Jahr noch etwas länger begleiten. Ich schrieb Dir ja bereits von den Feen, jedoch noch nicht, dass diese mehrere Leute zu sich eingeladen haben und ihnen mehrere Eier zur Verwahrung mitgegeben haben. Du kannst Dir also vor stellen, dass hier in Brandenstein vor allem die Damenwelt gerade immer noch ein wenig aus dem Häuschen ist und es kaum erwarten kann, dass die Feen schlüpfen. Ich denke Du hättest an diesen auch Deine Freude, zwar haben die Feen darum gebeten, dass die Eier nur positiven Gefühlen ausgesetzt werden, aber die Chance darauf dürfte doch eher gering sein, insofern können wir wohl gespannt sein, welche Feen die nächsten Generationen auf dieser Insel begleiten werden.<br />Immerhin: Wenn das Wetter künftig noch genau so verregnet sein wird wie man es gewohnt ist können wir dann Lazalantins Sturmfee die Schuld zu schieben und wenn irgendwo Chaos und Schabernack ihr Unwesen treiben wird Edelmuts Fee nicht weit sein. Mal schauen was aus Galdiells Fee wird, sie zieht das Ei im Vitamaschrein groß, aber irgend etwas sagt mir, dass dabei dennoch keine Heil-, sondern eher eine Liebesfee herum kommen wird, aber warten wir es mal ab. Nur gut, dass ich das Spektakel verpasst habe, Wald- und Auenelfen hätten zwar sicherlich ihre Freude an einer Wildfee, aber ob eine solche für den Rest der Insel ein Segen wäre, na, ich weiß ja nicht. Es ist dennoch niedlich mit an zu sehen wie die einen mehr die anderen weniger die Eier beglucken und die verdatterten Mienen als man mich fragte ob ich wüsste was zu tun sei und ich nur erwiderte, dass beim Thema Eierausbrüten jede Henne kompetenter sei als ich, mjam, köstlich sage ich Dir, einfach nur köstlich.<br />Ansonsten ereignet sich hier nicht allzu viel. Der Marschall ist sonst wo, auch seinen Knappen habe ich jetzt schon eine Weile lang nicht mehr gesehen, genauer gesagt beim letzten Prozesstag. Damit zieht sich der Prozess selbst auch in die Länge, aber bis es soweit ist ist Lazalantin auf freiem Fusse und Merghild hat das Kommando über das Lehensbanner. Apropos, du hättest mir ruhig auch mal sagen können, dass Du mich ihr empfohlen hast solange Du nicht in der Stadt verweilst, dann hätte mich ihre Anfrage nicht so unvorbereitet getroffen. Aber naja ich bekomme das schon hin, ist vielleicht auch mal wieder eine gute Übung mit Leuten zu arbeiten, die nicht totkrank oder schwer verletzt sind. <br />Du siehst also insgesamt merkt man der Insel an, dass es jeden Tag so warm ist, dass einem jeder Fetzen Stoff am Leib zuviel ist. Die Strände und ruhigeren Flussläufe sind gut besucht, selbst die Jäger haben scheinbar keine Lust mehr bei dieser Hitze auch noch auf die Pirsch zu gehen, so dass sich die Wildbestände gut erholt haben in dem letzten Mond. Man sieht jetzt wieder öfter Bären und Wildkatzen durch das Unterholz schleichen und die Hasen und Kaninchen vermehren sich nun wie sich Kaninchen eben vermehren. Wenn das so weiter geht werden sie noch zur Plage, die die Felder kahl frisst, allerdings denke ich wird dies nur vorübergehend sein, da die Wolfsrudel noch trächtig sind, aber sobald der Nachwuchs da ist wird auch dieser jagen und vor allem essen wollen, daher, das kommt schon wieder ins Lot. Wie Du siehst, dem Land selbst geht es gut, dafür werden die Cortaner zunehmend aggressiver und feindseliger. Zwar sind sie immer noch vornehmlich im Kastell und nahe der Winzerinsel stationiert, aber ohne geltenden Friedensvertrag kommt es immer wieder zu Zusammenstössen mit einzelnen Soldaten, auch diesseits des Walles und so langsam reisst mir der Geduldsfaden. Den nächsten, der &quot;Fangen&quot; mir mir spielen will bekommt Tesan gut verschnürt zusammen mit einem Beschwerdebrief zugestellt.<br />Was Tesan selbst anbelangt, Du erinnerst Dich vielleicht noch daran, dass ich Dir schon vor langer Zeit mal etwas über ihn erzählen wollte, aber irgendwie sind wir nie so richtig dazu gekommen, da immerzu andere Dinge wichtiger waren. Nun um es auf den Punkt zu bringen, seine Familie und meine Familie kennen sich wohl schon etwas länger, Lichtenfeld selbst mag groß sein, aber was das anbelangt ist es doch sehr klein. Zwar kann ich mich nicht daran entsinnen ihn dort schon einmal gesehen zu haben, aber das muss nichts heißen, da ich den Großteil meines bisherigen Lebens am Hochturm verbracht habe. Jedenfalls einigen Gästen an dem Abend als ich ihm begegnete nach zu urteilen soll er wohl ein Auge auf mich geworfen haben. Das habe ich zwar anders wahr genommen, aber wie Du nur zu gut weisst bin ich auf dem Gebiet überhaupt nicht bewandert, von daher, schon möglich, dass es sich so verhält. Wenn sie denn Recht haben sollten, was ich nicht glaube, dann weiß ich nicht wie ich mit der Situation umgehen soll. Verstehe mich nicht falsch, er wäre nicht der erste Junge oder junge Mann, der von mir ein &quot;nein&quot; zu hören bekommt, aber er wäre der erste bei dem ich nicht wüsste was dieses &quot;nein&quot; für Folgen haben wird. Die Chance, dass ich mich für ihn erwärmen kann erscheint mir doch eher gering und die Chance, dass sein Interesse an mir nicht zuerst dem Lehen gilt halte ich für noch geringer. Ich weiß schon, was Du sagen wirst und ich weiß auch wie ich es sehen sollte, nämlich so wie ich es anderen auch immer rate: Wenn es sich richtig anfühlt muss es nicht zwangsläufig auch richtig sein, aber wenn es sich falsch anfühlt, dann ist es auch falsch. Nur, richtig und falsch sind nicht gerade die Schubladen nach denen ich mich oder mein Handeln bewerte, ich bin und ich bin wie ich bin und in dem Fall bin ich fürs erste ratlos, daher bleibt mir fürs erste nur zu hoffen, dass nicht ich sondern die anderen diejenigen mit den Tomaten auf den Augen waren. Tu' was Dich glücklich macht mag da ein guter Rat sein, aber nicht unbedingt einer, der einem auf die Schnelle weiter hilft. In Momenten wie diesen fehlst Du mir halt besonders, denn auch wenn wir uns ab und an zanken, mit Dir war ich immer glücklich. Nicht unbedingt Bilderbuch-Märchen-Traumhochzeit-glücklich, aber einfach einfach-glücklich eben, die Sorte, die nicht nach mehr fragt oder gar verlangt, sondern die still zufrieden ist im Augenblick gefangen und genau das fehlt mir gerade. Jemand, der mich annimmt wie ich bin, gleich wie ich bin oder noch werde und der selbst auf dieselbe Art angenommen werden möchte und ebenso glücklich darüber ist auf diese Art angenommen zu werden.<br />Ich bin gespannt darauf wie Du sein wirst wenn Du zurück kehrst, wer weiß, vielleicht werden wir beide uns dann ganz neu kennen lernen müssen. Ich selbst erwarte zumindest einige Reibereien anfangs, aber das ist ganz natürlich wenn veränderte Auren sich erst aneinander gewöhnen müssen. Für Maluk, Janus und die anderen wird es wohl ebenso ein wenig gewöhnungsbedürfig werden, aber ich weiß, dass sie Dich lieben und Liebe kann bekanntlich alles überwinden. Daher, gleich wie sehr Du Dich auch verändern magst oder auch nicht, vergiss eines nie:<br />Du wirst geliebt und Du wirst vermisst.<br /><br />Kuss,<br /><br /><span style="font-style: italic">Deine Diana</span><br /><br /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p929790"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Briefe an einen Vitamageweihten</div><div style="float: right;"><a href="./viewtopic.php?p=929790#p929790"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 16.09.16, 01:49&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Am frühen Morgen des 16. befindet sich ein weiterer der Briefe im Briefkasten der Kirche. Dieses mal ist er adressiert an &quot;Gnaden Celetheyon&quot;, das Siegel darauf ist jedoch noch dasselbe.</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Mutters Segen Niah'ma,<br /><br />Da ich in den nächsten Tagen eher wenig Zeit finde wollte ich etwas, das mir heute schon fast wie eine alte, aber lieb gewonnene Gewohnheit erscheint mal wieder aufleben lassen. Mir wollen mit die letzten Worte vom letzten Abend als Du davon sprachst, dass manche Dinge besser zu Falkensee passen als zur Kirche als solche nicht so recht aus dem Kopf gehen, daher möchte ich meine Gedanken dazu mit Dir teilen.<br />Zuvorderst, im Grundsatz stimme ich Dir zu, jedoch das Beispiel will mir noch nicht so recht einleuchten oder genauer gesagt, ich bewerte es in diesem Fall anders. Mag es für Dich auch einfach nur Triebhaftigkeit und Wollust gewesen sein, so ziehe ich persönlich hier doch eine klare Trennlinie, nämlich die, ob dabei Liebe im Spiel war oder nicht. Ohne würde ich Dir vorbehaltlos zustimmen, da dies jedoch nicht der Fall war bewerte ich das Ganze anders. Denn je mehr ich über die Liebe als solche nachdenke um so mysteriöser erscheint sie mir, mit jeder Tür die man aufstößt tun sich weitere Räume mit neuen Türen auf und so dämmert mir allmählich, warum über dieses Thema seit Urzeiten geschrieben, berichtet und gesungen wird ohne dass es je jemandem gelungen wäre es gänzlich zu fassen.<br />Nun jedenfalls in diesem speziellen Fall sehe ich es so, dass diese Form der Liebe danach trachtet gezeigt oder wenn Du so magst gelebt zu werden. Vertrauen spielt dabei eine wichtige Rolle, das Vertrauen Dinge nicht nur zu zu lassen, sondern auch tatsächlich zu begehren, der Wille dazu etwas das nur schwer beschreibbar ist durch etwas handfesteres, greifbareres aus zu drücken in einer Art stummer (gut, manchmal auch ziemlich lauter) Kommunikation die Gefühle und Erfahrungen bezeugt, die auf anderem Wege in dieser Intensität nicht nacherlebt werden können. Ein Austausch von Vertraulichkeiten, von Hingabe und nicht zuletzt Gefühlen, die man in der Form nur mit sehr wenigen im Laufe des Lebens teilen kann und auch tatsächlich teilen will und genau das ist der Punkt: Es ist ein Austausch, ein Geben und Nehmen, wo das was Du anprangerst ein einseitiges bedienen und benutzen ist. Solange dieser Austausch statt findet, solange diese Kommunikation von beiden Seiten aus geführt wird kann ich daher keinen Fehl erkennen, sondern einzig den beidseitigen Wunsch und das beidseitige Bestreben das Besondere auch in etwas Besonderes zu kleiden. Daher gleich wie impulsiv und intensiv es sein mag, so denke ich was in beidseitiger Liebe geschieht kann nicht so schlecht oder falsch sein wie Du es dar gestellt hast.<br />In diesem Zuge möchte ich mit Dir eine Erkenntnis teilen, die mir während ich über all dem wach gelegen habe gekommen ist und die mich wie ich zugeben muss selbst überrascht hat: Wer liebt kann verzeihen auch wenn er gar nicht verzeihen will. Auf eine Art die ich selbst nicht so recht zu erklären weiß scheint es so zu sein, dass das Gefühl zu lieben und dabei auch geliebt zu werden ganz instinktiv eine so hohe Priorität ein zu nehmen, dass man selbst geneigt ist all die kleinen oder auch großen Dinge die dem im Wege stehen zu ignorieren, bzw. darüber hinweg zu sehen anstatt sie dem anderen nach zu tragen. Vielleicht liegt aber auch da der Hase im Pfeffer, dass die Liebe als solche danach trachtet so unbeschwert wie möglich zu sein und daher solchen Ballast ganz schnell wieder los zu werden versucht. So oder so auch wenn es sich erst einmal ungewohnt und daher irritierend an fühlt, der Drang nicht nach tragen zu müssen und auch gar nicht nachtragen zu wollen hat etwas aufregend neues und letztendlich auch friedvolles an sich. Wenn auch über Ecken. Für meine Antwort auf die Frage nach meinem Befinden vorgestern könnte ich mich immer noch ohrfeigen, zumindest war das der erste Impuls nachdem ich die Antwort gegeben habe. Es mag zwar auf eine gewisse Weise eine ehrliche Antwort gewesen sein, aber doch fühlte sich der Vergleich mit dem mahad'schen Wurfholz sowohl richtig als auch falsch an, so als wäre etwas zwar inhaltlich wahr aber dennoch nicht die Wahrheit und damit nicht wahrhaftig, denn irgendwie war das auch einfach nur gemein und das tat mir schon leid bevor ich es ganz ausgesprochen hatte. Wahrhaftiger wäre die Antwort gewesen die ich zu diesem Zeitpunkt zwar geben wollte, aber nicht zu geben imstande war: Ich fühle mich geliebt und das ist ein schönes Gefühl.<br />Vermutlich klingt das alles irgendwie seltsam wenn man mich näher kennt, ich bin mir nicht einmal sicher ob ich es so ausdrücken kann wie ich es ausdrücken will oder nicht letztendlich nur noch mehr Verwirrung stifte. Aber vermutlich gehört das einfach mit dazu wenn man versucht etwas in Worte zu verpacken, das sich uns vielleicht gar nicht so umfassend erschließen will wie wir dies zuweilen gerne hätten. Es ist mir dennoch wichtig, dass Du das weißt. Ich hoffe es hat, wenn es vielleicht auch nicht geholfen haben mag, Dir zumindest an der einen oder anderen Stelle ein Lächeln entlockt.<br />Ich wünsche Dir den Frieden nach dem Du Dich sehnst und wen mit dem Du dieses Gefühl dann auch teilen kannst.<br /><br />Fühle Dich geherzt und geküsst,<br /><br /><span style="font-style: italic">Deine Diana</span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=105200&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=105200"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 13 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 4 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=105200"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

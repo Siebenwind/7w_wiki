@@ -351,6 +351,8 @@ def build_archive_register(rag_progress: dict) -> tuple[dict, Path, Path]:
     """Erstellt zentrales Archivregister (JSON + Markdown Summary)."""
     records = []
     corpus_counts = {name: 0 for name, _ in REGISTER_CORPORA}
+    registered_paths: set[str] = set()
+    overlap_records_skipped = 0
 
     for corpus, root in REGISTER_CORPORA:
         if not root.exists():
@@ -359,6 +361,14 @@ def build_archive_register(rag_progress: dict) -> tuple[dict, Path, Path]:
             rec = _register_record_for_file(corpus, path)
             if rec is None:
                 continue
+            # REGISTER_CORPORA is ordered by specificity. In particular,
+            # docs/Siebenwind_Wiki belongs to both "wiki" and "docs"; keep the
+            # first, more specific classification and never duplicate a path.
+            relative_path = rec["relative_path"]
+            if relative_path in registered_paths:
+                overlap_records_skipped += 1
+                continue
+            registered_paths.add(relative_path)
             records.append(rec)
             corpus_counts[corpus] += 1
 
@@ -383,6 +393,7 @@ def build_archive_register(rag_progress: dict) -> tuple[dict, Path, Path]:
             "with_content_uuid": with_content_uuid,
             "uuid_coverage_pct": round(uuid_coverage, 2),
             "by_corpus": corpus_counts,
+            "overlap_records_skipped": overlap_records_skipped,
             "indexable_total": indexable_total,
             "rag_progress": rag_progress,
             "inventur_progress": inventur,
@@ -413,6 +424,7 @@ def build_archive_register(rag_progress: dict) -> tuple[dict, Path, Path]:
     lines.append("## Überblick")
     lines.append("")
     lines.append(f"- Datensaetze gesamt: {total_records}")
+    lines.append(f"- Ueberlappende Corpus-Treffer dedupliziert: {overlap_records_skipped}")
     lines.append(f"- Mit Content-UUID: {with_content_uuid} ({uuid_coverage:.2f}%)")
     lines.append(f"- Wiki indexierbar: {indexable_total['wiki']} | Quellen indexierbar: {indexable_total['quellen']}")
     lines.append("")

@@ -19,7 +19,7 @@ Verzeichnis der einflussreichen und bekannten Gestalten Siebenwinds.
 ## Klerus & Religion
 *   [[Custodias]] - Hochgeweihter des [[Astrael]] (amtierend).
 *   [[Tion_Altor]] - Erzgeweihter des [[Bellum]] (amtierend).
-*   [[Erzpriester_Vencurius]] - Erzpriester des [[Ventus]] (amtierend).
+*   [[Vencurius]] - Erzpriester des [[Ventus]] und in einer Forumquelle Calator.
 *   [[Vincent_Ebenstein]] - Geweihter des [[Morsan]] (seit 19 n.H.).
 
 ## Völkervertreter

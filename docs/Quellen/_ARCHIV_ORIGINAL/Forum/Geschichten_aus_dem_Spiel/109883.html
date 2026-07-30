@@ -1,0 +1,404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Vom Glückskind zum Diener.</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 15.07.26, 21:59<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=109883&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Vom Glückskind zum Diener.</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=109883"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 2 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=109883&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=109883&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=109883&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952388"></a>
+				<b class="postauthor">Lusenia Remorian&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Vom Glückskind zum Diener.</div><div style="float: right;"><a href="./viewtopic.php?p=952388#p952388"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 14.12.22, 00:55&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=41801_1670796573.jpg" width="93" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 15.11.22, 18:00<br /><b>Beiträge:</b> 3				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Ankunft auf Siebenwind. <br /><br />- Vom Meer aus, aus gewisser  entfernung, sah diese Insel ganz normal aus. Dieser Hafen war wie jeder andere auch. Zumindest, wenn man die Details nicht fassen konnte. Die lange Anreise, brachte das Gefühl von ferne mit sich, ein Gefühl aus den alten Mustern und Fesseln entkommen zu sein. Selbst nach der Abgabe ihrer selbst und ihres Bruders im Tempel in Mendel, hatte vieles nicht aufgehört auch wenn sich das Leben dort leichter gestaltete an ihrem Elternhaus in dem man stets versuchte den Kindern eine Gewisse Rolle zuzuzwingen die sie weder ausfüllen wollten noch konnten. Ihre älteren Geschwister hatten Resigniert, Gantras war so von Krankheit gebeutelt, das ihm der Segen der Ignoranz ihrer verkopften und Sturen Eltern zuteil wurde. Lediglich für die zur Schaustellung der beiden Lichthoch Vitamawunder, war er Interessant für die Eltern und an diesen Tagen bot sich ihm die seltene Abwechslung. Die ärmeren Menschen die weniger Bildung genossen, liessen sich von diesen Leeren Worten und den Lügen ihrer Eltern anstecken. Die besser bestellten Familien wollten ihr Ansehen mehren, indem sie sich mit unseren Eltern gut stellten. So wagte es niemand, dieses Wunder wirklich infrage zu stellen. Glückskinder. Sie schüttelt den Kopf und stieß den Gedanken von sich fort. Hier war sie nur eine Dienerin von vielen, die vom Festland kommen um die Kirche zu unterstützen. Kein Glücksbringer. Niemand, von dessen Licht jemand profitieren wollte. Die Insel selbst wirkte fast Menschenleer, lediglich wenige Personen waren in der Taverne. Und das was sie und Gantras dort hörten, war mehr als beunruhigend. Diese ganze Stadt schien aus den Fugen geraten. Der Tempel befand sich in desolatem zustand, und sie vebrachte die erste Nacht damit den Schrein ihres Herren zu reinigen. <br /><br /><br />Das Leben und wie es sein kann. <br /><br />-Alles hier war so anders. Lusenia hatte zwar gegenüber Gantras nicht gezeigt, das sie nicht mit der neuen Umgebung zurechtkam, und die Unsicherheit sie ausbremste hatten sie dazu gebracht sich öfter als sie es gewöhnt gewesen ist, in der Bücherei zu verstecken. Wortwörtlich verstecken, vor der quälenden Unsicherheit und der Erwartungshaltung das man zu funktionieren hatte. Und dann der Anspruch an sie selbst, der sie Zwang sich dem auch zu beugen. Nur eine eingewöhnungszeit. Gantras hingegen schien aufzublühen. Er war noch immer Still, aber er erzählte häufiger das er mehr sprach als auf dem Festland. Es widerstrebte ihm merklich, aber Lusenia sah das als gutes Zeichen. Schon auf dem Festland hatte er das im grunde nicht nötig gehabt. Langsam traute sie sich dann jedoch heraus, nach und nach. Einmal war sie alleine in einer Taverne, und auch mit dem Klerus sprach sie ein wenig häufiger. Seit der Vieremesse, schien es bergauf zu gehen. Hoffentlich hatte niemand ihre wie Espenlaub zitternden Hände bemerkt, kurz vor ihrer Sprechzeit, die sie in den Robenärmeln der viel zu großen Ordensrobe versteckte. <br /><br /><br />Komfortzonen und eigene grenzen<br /><br />-Es gefiel ihr nicht, wie Körperlich die Diener Vitamas auf dieser Insel waren. Bei gefühlt jeder Gelegenheit, gab es Anlass sie ungefragt zu berühren. Und dann das, nach der Messe, Es hatte ihr nicht gefallen, als Gantras die gemütliche Runde verließ. Er wusste genau wie sehr sie lange, ausgiebige Bäder genoss, aber wie verloren sie in Gegenwart anderer Beseelter war. Sie wusste nicht, wie man recht mit ihnen umging und in einer Situation in der sie sich grundsätzlich unwohl fühlte noch mehr. Ohnehin war ihre Komfortzone an diesem Tag an ihre Maximalgrenze gelangt. Gott sei dank legte sich ihre Anspannung, als ein Interessantes lehrreiches Gespräch daraus erwuchs. Leider wurde es Unterbrochen, aber sie hatte kein alleinrecht auf irgendwelche Themen. Sie hatte in den Momenten einiges gelernt, und wichtige Erkennisse schaffen können. Allerdings ging sie zerstreuter und verunsicherter aus dem ganzen heraus. Was bitte war DAS gewesen? Es einordnen kostete sie einige schlaflose nächte. Die Szene spielte sich häufiger in ihrem Kopf ab, weil sie nicht ganz Verstand wie es dazu gekommen war, und wann sie diese Hemmschwelle abgelegt hatte. Und das auch noch in Anwesenheit, einer unbeteiligten Dritten. Was würde das für ein Licht auf Lusenia werfen? Und überhaupt. Ihre grenzen einreissen, würde sie nicht noch einmal zulassen. Das dachte sie zumindest... <br /><br />Inkonsequenz<br /><br />...bis sie sich ertappte, wie sie einen Brief hinterließ und im grunde schon wusste, wie es auf die Empfängerperson wirken dürfte. Vielleicht blieb aber eine Antwort ohnehin aus.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=41801"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=41801"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952867"></a>
+				<b class="postauthor">Lusenia Remorian&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Vom Glückskind zum Diener.</div><div style="float: right;"><a href="./viewtopic.php?p=952867#p952867"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 11.01.23, 10:58&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=41801_1670796573.jpg" width="93" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 15.11.22, 18:00<br /><b>Beiträge:</b> 3				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Glückskinder, hiess es. <br />Als Lusenia in den Tempel gerufen wurde, weil einer der Novizen Tot aufgefunden wurde, war das letzte mit dem sie rechnete ihren Bruder vorzufinden. Das Dunkeltief hatte wie zu erwarten seine Opfer gefordert, neben der Wache am Tempel machte der Schrecken der furchtbaren Tage natürlich auch vor dem Klerus und der Kirche keinen halt. Sie erinnerte sich an die Brüder und Schwestern aus dem Bellumsorden, die auf dem Festland ihr Leben in der Dunkelheit verloren, als sie versuchten die zu retten die sich nicht selbst helfen konnten. Wen es wohl getroffen hatte? Als sie die Treppen der Krypta hinabging, beschlich sie dann doch ein schlechtes Gefühl und fast wollte sie umdrehen und lieber einen anderen Geistlichen mitnehmen, doch wen sollte sie fragen der sie begleitete? Die meisten hatten sich noch weit vor dem Dunkel in die abgeschiedenheit begeben, und man konnte es ihnen nicht verdenken. Die Insel war ausser Rand und Band, und mit den derzeitigen Mitteln war dem nur bedingt möglich dem entgegen zu wirken. <br /><br />Als ihr der Herr, der den Leichnahm entdeckte und um Identifizierung bat, sie dorthin führte wo er die Leiche abgelegt hatte, zog sie das Leichentuch ohne viel zögern von dem Gesicht des Mannes. Es war nicht ihre erste Leiche, doch die erste, dessen Gesicht ihr sofort die Fähigkeit zum atmen raubte: Nein. Nein. Nein. <br />Die Junge Astraeldienerin, hatte lange nicht mehr die Beherrschung über sich verloren, und im Grunde war es auch nicht die volle Selbstbeherrschung die sie hier vor dem überbringer der Botschaft fallen liess, doch ihre Knie gaben augenblicklich nach, während sie in das ruhige, entspannte Gesicht ihres Bruders sah. Die Verletzungen an seinem Körper sprachen jedoch eine andere Sprache, es muss kein schöner Tot gewesen sein. Ganz klar, das es die restlichen Kreaturen des Dunkels zu verantworten hatten. Der Geruch nach Tot haftete der Leiche so stark an, das es keinen Zweifel gab wenn man den restlichen Zustand des Körpers beachtete. <br /><br />Zwei, drei Stunden blieb sie einfach Still neben ihrem Bruder in der Krypta sitzen, ehe sie die Kraft fand zum Turm hinüberzugehen. In diesem Zustand sollte sie sich den gläubigen nicht zeigen, eigentlich niemandem. Aber es wollte ein Totenschein ausgestellt werden, der mangels Diener Morsans wohl aus ihrer Feder geschrieben werden muss. So setzte sie sich oben im Turm an den Tisch, besonders weit kam sie mit dem Schriftstück jedoch nicht. Es war weitaus verlockender, einfach unter die Decke im Schlafzimmer zu kriechen, und sich nicht mehr zu bewegen. Oder ein Glas Wein. Ja, an besonderen Tagen, wird schließlich immer die Weinflasche hervorgeholt.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=41801"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=41801"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=109883&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=109883"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 2 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 3 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=109883"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

@@ -239,6 +239,64 @@ def check_paths_absent(paths: list[str]) -> tuple[bool, str]:
     return False, f"Paths still exist: {preview}{extra}"
 
 
+def check_json_unique_by_file(requirements: list[dict]) -> tuple[bool, str]:
+    findings: list[str] = []
+
+    for req in requirements:
+        rel_file = req.get("file")
+        array_path = req.get("array_path")
+        key = req.get("key")
+        if not rel_file or not array_path or not key:
+            findings.append(f"Ungueltige JSON-Unique-Anforderung: {req!r}")
+            continue
+
+        file_path = (PROJECT_ROOT / rel_file).resolve()
+        if not file_path.exists():
+            findings.append(f"{rel_file}: DATEI_FEHLT")
+            continue
+        try:
+            payload = json.loads(file_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as err:
+            findings.append(f"{rel_file}: JSON nicht lesbar ({err})")
+            continue
+
+        current = payload
+        for part in str(array_path).split("."):
+            if not isinstance(current, dict) or part not in current:
+                findings.append(f"{rel_file}: JSON-Pfad {array_path!r} fehlt")
+                current = None
+                break
+            current = current[part]
+        if current is None:
+            continue
+        if not isinstance(current, list):
+            findings.append(f"{rel_file}: JSON-Pfad {array_path!r} ist keine Liste")
+            continue
+
+        seen: set[str] = set()
+        duplicates: list[str] = []
+        for item in current:
+            if not isinstance(item, dict) or key not in item:
+                findings.append(f"{rel_file}: Eintrag ohne Schluessel {key!r}")
+                continue
+            value = str(item[key])
+            if value in seen:
+                duplicates.append(value)
+            else:
+                seen.add(value)
+        if duplicates:
+            preview = ", ".join(sorted(set(duplicates))[:5])
+            findings.append(
+                f"{rel_file}: {len(duplicates)} doppelte Werte fuer {key!r}: {preview}"
+            )
+
+    if not findings:
+        return True, "ok"
+    preview = "; ".join(findings[:5])
+    extra = f" (+{len(findings)-5} weitere)" if len(findings) > 5 else ""
+    return False, f"JSON uniqueness violation: {preview}{extra}"
+
+
 def check_command_inventory_files(files: list[str]) -> tuple[bool, str]:
     result = run_cmd(["./7w_wiki.py", "--help-json"], timeout=30)
     if result.returncode != 0:
@@ -485,6 +543,27 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
                     name=name,
                     status="PASS" if ok else "FAIL",
                     command=["path-absence-check"] + list(absent_paths),
+                    exit_code=0 if ok else 1,
+                    reason=reason,
+                    stdout="",
+                    stderr="",
+                    duration_sec=duration_sec,
+                )
+            )
+            print(f"[{suite_name}] case {case_id}: {results[-1].status} ({results[-1].reason})", flush=True)
+            continue
+
+        json_unique_requirements = case.get("json_unique_by_file", [])
+        if json_unique_requirements:
+            started = time.perf_counter()
+            ok, reason = check_json_unique_by_file(list(json_unique_requirements))
+            duration_sec = time.perf_counter() - started
+            results.append(
+                CaseResult(
+                    case_id=case_id,
+                    name=name,
+                    status="PASS" if ok else "FAIL",
+                    command=["json-unique-check"],
                     exit_code=0 if ok else 1,
                     reason=reason,
                     stdout="",

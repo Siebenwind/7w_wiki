@@ -17,7 +17,7 @@ Die **Communis Medici** ist die neugegründete (bzw. unter altem Namen wiederbel
 
 ## Aufgaben & Struktur
 *   **Hospiz-Dienst:** Die Mitglieder besetzen das städtische Hospiz in [[Falkensee]] nach einem festen Dienstplan, um ständige Hilfe für Bedürftige zu gewährleisten.
-*   **Zusammenarbeit:** Es wird eine enge Kooperation mit dem [[Orden_der_Viere]], dem [[Löwenorden]] und der [[Magierakademie]] (insb. [[Ecclesia_Elementorum]]) angestrebt.
+*   **Zusammenarbeit:** Es wird eine enge Kooperation mit dem [[Orden_der_Viere]], dem [[Löwenorden]] und der [[Koenigliche_Akademie_der_Arkanen_Kuenste|Magierakademie]] (insb. [[Ecclesia_Elementorum]]) angestrebt.
 *   **Wissenschaftlicher Austausch:** Die Gilde dient als Forum für den Austausch über Heilmethoden und Kräuterkunde.
 
 ## Bekannte Mitglieder

@@ -1,7 +1,7 @@
 ---
 uuid: 6af36c09-c985-4de8-9dc5-9680b9de9b5b
 status: ACTIVE
-updated_at: 2026-06-11T15:01:18Z
+updated_at: 2026-07-30T17:08:22Z
 epistemic: "#meta"
 ---
 
@@ -13,15 +13,43 @@ Zentrales Tracking fuer Ingestion-Auswertungen (wer/wann/wie + Scoreprofil).
 
 ## Snapshot
 
-- Reports gesamt: 57
-- Reports mit Tracking-Kernfeldern: 57
-- Reports mit LQS: 55
-- Dominante Score-Cluster: 5/5/5/4/4 (16), 4/4/5/4/4 (14), 5/4/5/4/4 (14)
+- Reports gesamt: 85
+- Reports mit Tracking-Kernfeldern: 85
+- Reports mit LQS: 83
+- Dominante Score-Cluster: 2/2/4/2/4 (24), 5/5/5/4/4 (16), 4/4/5/4/4 (14)
 
 ## Register
 
 | Report | Quelle | Ausgewertet von | Auswertungszeitpunkt (UTC) | Workflow/Skill | Dispatch | LQS | Profil |
 |---|---|---|---|---|---|---|---|
+| `Logs/Ingestion/2026-07-27_Forum_ein_raedchen_im_uhrwerk.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_r_dchen_im_uhrwerk.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-27T17:56:29Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-27_Forum_ig_vor_dem_westtor_in_luth_chalid.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ig_vor_dem_westtor_in_luth_chalid.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-27T17:56:29Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-21_Forum_der_mann_in_ketten.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_mann_in_ketten.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-21T16:10:00Z | N/A | N/A | 4.2 | 2/2/4/3/4 |
+| `Logs/Ingestion/2026-07-21_Forum_einsamkeit_und_ein_unerwartetes_treffen.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_einsamkeit_und_ein_unerwartetes_treffen.md | Codex / Scout + Ingestor + Time-Keeper | 2026-07-21T16:10:00Z | N/A | N/A | 2.5 | 1/2/2/1/5 |
+| `Logs/Ingestion/2026-07-21_Forum_fjerulfs_pfad.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_fjerulfs_pfad.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-21T16:10:00Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-21_Forum_gefaehrliches_spiel.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_gef_hrliches_spiel.md | Codex / Scout + Ingestor + Time-Keeper | 2026-07-21T16:10:00Z | N/A | N/A | 0.5 | 0/1/1/0/5 |
+| `Logs/Ingestion/2026-07-21_Forum_glut_und_asche.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_glut_und_asche.md | Codex / Scout + Ingestor + Time-Keeper | 2026-07-21T16:10:00Z | N/A | N/A | 2.5 | 1/2/2/1/5 |
+| `Logs/Ingestion/2026-07-15_Forum_das_spiel_geht_weiter.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_das_spiel_geht_weiter.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-15T20:14:04Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-15_Forum_der_verlorene_knappe.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_verlorene_knappe.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-15T20:14:04Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-15_Forum_honig_und_flauschefell.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_honig_und_flauschefell.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-15T20:14:04Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-15_Forum_ein_wiedersehen.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_wiedersehen.md | Codex / Scout + Ingestor + Time-Keeper | 2026-07-15T20:14:00Z | N/A | N/A | 2.0 | 1/1/2/1/5 |
+| `Logs/Ingestion/2026-07-15_Forum_ein_besonderer_arbeitstag_nr_1.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_besonderer_arbeitstag_nr_1.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-15T20:02:00Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-15_Forum_mitmachthread_bauarbeiten_im_norden.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthread_bauarbeiten_im_norden.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-15T20:02:00Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-15_Forum_vom_glueckskind_zum_diener.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_vom_gl_ckskind_zum_diener.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-15T20:02:00Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-15_Forum_die_weihe_einer_schmiede.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_weihe_einer_schmiede.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-15T19:05:47Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-15_Forum_ein_besonderer_arbeitstag_nr_2.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_besonderer_arbeitstag_nr_2.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-15T19:05:47Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-15_Forum_von_vertrauter_vergaenglichkeit.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_vertrauter_verg_nglichkeit.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-15T19:04:21Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-15_Forum_dur_sches_hoheitsgebiet.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_dur_sches_hoheitsgebiet.md | Codex / Scout + Ingestor + Wiki-Schmied | 2026-07-15T15:34:42Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-15_Forum_welle_und_brandung.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_welle_und_brandung.md | Codex / Scout + Ingestor + Wiki-Schmied | 2026-07-15T15:34:42Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-15_Forum_events_an_warmen_sommertagen.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_events_an_warmen_sommertagen.md | Codex / Scout + Ingestor + Wiki-Schmied | 2026-07-15T15:21:41Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-07-15_Forum_piraten_seid_gewarnt.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_piraten_seid_gewarnt.md | Codex / Scout + Ingestor + Wiki-Schmied | 2026-07-15T15:21:37Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-06-11_Forum_zweck_dieses_forums.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_zweck_dieses_forums.md | Codex / Historian | 2026-06-11T15:25:00Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-06-11_Forum_dunkeleisen.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_hintergrundexkurse.md | Codex / Historian + Wiki-Schmied | 2026-06-11T15:24:00Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-06-11_Forum_aufkeimende_schatten_in_der_dunkelheit.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_aufkeimende_schatten_in_der_dunkelheit.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-06-11T15:22:49Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-06-11_Forum_ein_fuchs_streift_durch_die_waelder.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_fuchs_streift_durch_die_w_lder.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-06-11T15:22:49Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-06-11_Forum_xiii.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_xiii.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-06-11T15:17:22Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-06-11_Forum_angriff_auf_westhever_piraten_in_sicht_und_ein_angebot.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_angriff_auf_westhever_piraten_in_sicht_und_ein_angebot.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-06-11T15:14:33Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-06-11_Forum_treiben_im_rathaus.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_treiben_im_rathaus.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-06-11T15:14:33Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
 | `Logs/Ingestion/2026-04-19_Forum_das_orkische_handelskontor.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_das_orkische_handelskontor.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-04-19T15:30:32Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
 | `Logs/Ingestion/2026-04-19_Forum_ergon_und_der_duft_des_herbstes.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ergon_und_der_duft_des_herbstes.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-04-19T15:30:32Z | N/A | N/A | 4.2 | 2/2/4/3/4 |
 | `Logs/Ingestion/2026-02-20_Dunkelbaum_Eigenschaften_Elemente.md` | Quellen/Bibliothek Toran Dur/Amanda Dunkelbaum - Eigenschaften der Elemente.md | Antigravity | 2026-02-19T23:27:00Z | `inquisition.py` / `ingest_pipeline.py` | N/A | 8.4 | 4/4/5/4/4 |

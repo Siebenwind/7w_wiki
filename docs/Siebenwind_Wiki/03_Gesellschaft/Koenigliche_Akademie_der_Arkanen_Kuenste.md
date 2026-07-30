@@ -4,6 +4,9 @@ title: Königliche Akademie der arkanen Künste
 category: Gesellschaft
 quelle: ../../Quellen/Bibliothek Toran Dur/Toran Dur - Graue Charta II.md
 letzter_check: 2026-02-13T01:02:10+01:00
+epistemic: "#canon #forum #perspektive"
+report_id: e6722f0d-bd39-494a-9956-dde2f9750d1f
+updated_at: "2026-07-15T19:06:08Z"
 ---
 
 # Königliche Akademie der arkanen Künste
@@ -32,8 +35,23 @@ Die Akademie nutzt komplexe Rituale zur Einweihung und Prüfung ihrer Mitglieder
 - **Die [[Graue_Garde]]:** Die Aufnahme in die Garde erfolgt durch einen feierlichen Schwur vor dem heiligen Feuer, meist in der Nacht.
 - **Sphärenrisse:** Die Akademie verfügt über spezifische Rituale zur Schließung von Sphärenrissen (historisch bedeutsam für [[Finsterwangen]]).
 
-## Einordnung
+## Entwicklung
 Die Akademie blickt auf eine bewegte Geschichte zurück, einschließlich der Zerstörung alter Standorte im Krieg gegen den Einen (siehe [[Magierturm_zu_Tiefenbach]]) und der Abwehr dämonischer Bedrohungen.
 
----
-**Siehe auch:** [[Graue_Garde]], [[Magister_Konvent]], [[Zirkel_der_Magie]]
+## Ungewöhnliche Vorgänge im Duler 34 n.H.
+
+Im Duler 34 n.H. sollen kindliches Lachen in den Hallen, angebissenes Essen und Geräusche verrückter Möbel aufgefallen sein, ohne dass sich eine verantwortliche Person erkennen ließ. Ein nicht näher benannter alter Mann durchsuchte daraufhin die Akademie und legte drei reife Pfirsiche im Gemeinschaftssaal aus. Ursache, Identität und Ausgang dieser Begebenheit bleiben [UNGEKLÄRT].
+
+## Verlinkte Themen
+
+- [[Graue_Garde]]
+- [[Magister_Konvent]]
+- [[Zirkel_der_Magie]]
+- [[Brandenstein]]
+
+## Referenzen
+
+- Führende Quelle: `../../Quellen/Bibliothek Toran Dur/Toran Dur - Graue Charta II.md`
+- Forumquelle: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_etwas_andere_besuch_der_magierakademie.md`
+- Raw HTML: `../../Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110158.html`
+- Prüfbericht: `../../../Logs/Ingestion/2026-07-15_Forum_der_etwas_andere_besuch_der_magierakademie.md` (ID: `e6722f0d-bd39-494a-9956-dde2f9750d1f`)

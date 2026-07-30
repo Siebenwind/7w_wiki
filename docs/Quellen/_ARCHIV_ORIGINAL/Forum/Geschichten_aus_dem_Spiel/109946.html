@@ -1,0 +1,627 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - In der Kapelle von Ewigwacht</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 15.07.26, 21:59<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=109946&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">In der Kapelle von Ewigwacht</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=109946"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 6 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=109946&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=109946&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=109946&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952784"></a>
+				<b class="postauthor">Computergig&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> In der Kapelle von Ewigwacht</div><div style="float: right;"><a href="./viewtopic.php?p=952784#p952784"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 6.01.23, 11:03&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 30.05.12, 16:25<br /><b>Beiträge:</b> 330<br /><b>Wohnort:</b> Berlin				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Ein schwaches, mickriges, kleines Kerzenlichtlein kämpft gegen die übermächtige allumfassende Finsternis welche den Eindruck macht mit jedem noch so kleinem aufkommenden Windstoß, die bei weitem unterlegene kleine Flamme zum erlischen zu bringen. Außer dem Knistern welches vom Todeskampf der Flamme zeugt, herrscht völlige Stille in der Kapelle. <br /><br />Im schwach erleuchteten Kerzenflammenschein mag man zwei Gestalten erkennen. Beide reglos in Stille verharrt,  beide schauen sich direkt an, doch kein Wort, kein Ton wird gesprochen. Wie Mutter und Kind mag man meinen, die eine Erwachsen die andere klein wie ein Säugling. Doch anders wie ein Säugling welcher sich dreht und wendet und ach noch so viele Geräusche von sich gibt, bleibt das Kind starr, leblos, die Augen ausdruckslos. <br /><br />Mit jedem Schattenschlag mag es scheinen ob die Puppe Fratzen ziehen mag. Mal verzieht sie die Mundwinkel in eine Richtung dann in die andere. Freudig? oder doch erschreckt? Die Mutter hält die Kerze näher an das Gesicht des Kindes, doch es ist starr, kalt und leblos weiterhin. Ein Trugbild? Oder die Ermüdung der Mutter? <br /><br />Die Kerze fast am Ende ihres Lebens angekommen, fast nur noch der Docht ist übrig. Wird die Stille von Fußschritten durchbrochen, erst ganz fern mag man sie vernehmen dann kommen sie immer näher, zielstrebig, entschlossen, hart treten sie auf die kalten Steine der Kapelle. Ihr Klang hallt in der kleinen Kapelle und mit einem mal erlischt die kleine Kerze ihr leben ausgehaucht und dann, komplette Finsternis und Stille - so klar - so rein - so wahrhaftig. <br /><span style="font-style: italic"><br /><span style="font-weight: bold">Wachablösung</span></span> <br />schnittig, direkt, befehlerisch unterbricht das Wort die Stille. <br /><br />Der Mann nimmt die Position der Mutter ein und entzündet eine neue Kerze und der Todeskampf beginnt von neuem.</div></div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><img src="http://tardukai.de/wp-content/uploads/2022/12/schriftzug.jpg" alt="Bild" /></div><br /><div align="center">&quot;Mena rech ekh Bennain - tora dolmon ekh got deskos Tardukai!&quot;<br />&quot;Niemals werden wir weichen - wir, die wir die Treuesten der Treuen sind!&quot;</div><br /><br />Discord<br />Martin</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8823"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8823"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952789"></a>
+				<b class="postauthor">DieHammerfelsn&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: In der Kapelle von Ewigwacht</div><div style="float: right;"><a href="./viewtopic.php?p=952789#p952789"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 6.01.23, 16:47&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ratsberater</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/7wlogo.gif" alt="Ratsberater" title="Ratsberater" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.02.02, 01:10<br /><b>Beiträge:</b> 3774				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Die Worte des Tardukai waren eindeutig. Lasst dieses Geschenk nicht aus den Augen. Nicht. Einen. Moment.<br /><br />Ungewohnt aufgebracht konnte man die Gestalt in der nachtschwarzen Rüstung sehen, als er die Kapelle verließ. Tage, Wochen und Monde an Wissen in die Köpfe dieser Gefolgsleute und Schüler gepresst, nur um es in einem Anflug von geistiger Umnachtung wieder verschwinden zu sehen. Ja der Mann war aufgebracht. Nicht so sehr ob der Handlung der Gefolgsleute, sie waren am Lernen. Doch hätte er mehr erwartet von einem Morotai. Einem gereiften Morotai am Ende seiner Ausbildung. Womöglich war er doch noch nicht so weit wie gedacht. Einige Herzschläge dauert es, bis er sich beruhigt hatte.<br /><br />Das Dunkel kam wie erwartet auf leisen Sohlen. Doch kaum da der Dorayon sich hoch oben am Firmamet zeigt war es vorbei mit der Ruhe. Die Zeit der Dämonen ward eingeläutet und natürlich ließen sie nicht lange auf sich warten. Wie lang der Arm des Allmächtigen war war mehr denn je eine Unbekannt in dieser Gleichung. Es erforderte eine klaren Gedanken und wachen Geist um nicht in die Fallen zu gehen die zweifelsohne kommen würden. Und doch begann das Dunkel völlig anders als erwartet...<br /><br />Einige Schritt weiter unten in der Feste Ewigwacht suchte der Mann den Raum über dem Torhaus auf. Diese kleine Kammer war noch dunkler als der Rest der Burg, in welcher jederorts Feuer entzündet worden waren, doch das störte den Mann nicht im geringsten. Ein prüfender Blick in dem kleinen Raum, dann richtet er sich für die Nacht ein. Der Blick in die Ödnis vor dem Tor hinaus. Es würden lange Tage, ... lange Nächte werden. Diese erste wollte er hier verbringen, im stillen Gebet zwischen dem Quartier der Schüler und dem Gästequartier.<br /><br /><div align="center"><span style="font-style: italic">Allmächtiger Vater. Herr über das Reich Yerrodon.<br />Höre die Worte deines demütigen Dieners.<br /><br />Die Zeit des Chaos ist angebrochen und sie haben ihre Fratze gezeigt.<br />Wisse, nicht einen Schritt werden wir weichen.<br />Scharfer Stahl, wacher Geist und reines Herz.<br />Das Bollwerk dir zur Ehr wird nicht wanken.<br /><br />Doch entsende deinen Blick auch in die Herzen all jener<br />die nicht zu sehen vermögen im Dunkel der Nacht.<br />Entsende deine Segen all jenen, welche wanken in jener Zeit.<br />Denn wir werden dein Licht im Dunkel sein sie alle zu erretten.<br /><br />Dein Reich komme. Dein Wille geschehe.<br />Allmächtiger Vater. Herr über das Reich Yerrodon.</span></div><br /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=1138"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952798"></a>
+				<b class="postauthor">Daimion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: In der Kapelle von Ewigwacht</div><div style="float: right;"><a href="./viewtopic.php?p=952798#p952798"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 6.01.23, 19:59&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=360_1537104932.jpg" width="75" height="75" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.12.01, 18:03<br /><b>Beiträge:</b> 3398				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Eins, zwei, drei [..] er zählte sie nicht, die Tropfen Blut welche aus seiner aufgeschnittenen Hand in die geweihte Kerze träufelten. Ein Opfer, ein persönliches Opfer an IHN. Leer fühlte er sich, ausgebrannt, wie ein Gefäß das nicht ausgefüllt ist, oder ist er es? Ist er so gefüllt von IHM, dass ihm nichts weiter als diese Leere geblieben ist?<br /><br />Mit jedem Tropfen der in den Flammen zischend verging fühlte er wie es kälter wurde um ihn herum, oder wurde er kälter? Er wusste es nicht, war es wichtig? War irgendwas noch wichtig? Deine Pflicht. Ja die Pflicht, sein Dienst, sein Werk ewig treu.<br /><br />Kleine Schatten tänzelten um seine Wunde, wie ein feiner kaum wahrnehmbarer Nebel und drangen schließlich in seine Wunde ein. Es schmerzte, es war kalt. Er presste die Augen zusammen und ballte die Hand zur Faust. Die Kälte und den Schmerz nahm er auf, es füllte ihn das leere Gefäß in Gänze aus. Als er sie wieder öffnete war die Wunde geschlossen und er wusste, ER war bei ihm.<br /><br />Die Begegnung mit dem Medium, dem Dämon hatte er noch nicht verarbeitet. Ein tiefes Mistrauen hegt er gegen diese Kreaturen, selbst als sie in SEINEN Hallen waren, überkam ihm der Gedanke, dass diese Wesenheit die Gläubigen zu betrügen versuchen könnte. Jedes Wort lag er auf die Waagschale und noch immer hatte er seine Bedenken, ob dies alles in SEINEM Sinnen war. ER wird es uns aufzeigen. Gefüllt mit Schmerzen und Kälte erhob er sich schließlich. Da war noch mehr, Vertrauen und das Wissen um die Rechtschaffenheit des Weges der heiligen Bruderschaft, gerade genug um Kraft zu schenken weiter zu machen.</div></div>
+
+											<span class="postbody"><br />_________________<br /><span style="font-weight: bold">Spieler von:</span><br />* Velyan Tziradai - Tardukai (Hauptcharakter)<br />* Velka Artyr - Schneiderin (Nebencharakter)<br /><img src="https://i.imgur.com/PsCWQom.jpg" alt="Bild" /></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=360"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=360"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952809"></a>
+				<b class="postauthor">DieHammerfelsn&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: In der Kapelle von Ewigwacht</div><div style="float: right;"><a href="./viewtopic.php?p=952809#p952809"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 7.01.23, 15:00&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ratsberater</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/7wlogo.gif" alt="Ratsberater" title="Ratsberater" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.02.02, 01:10<br /><b>Beiträge:</b> 3774				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><div align="center"><span style="font-style: italic">Vorhang auf für den Flötenspieler.</span></div><br /><br />Die erste Wacht war beendet, als die ersten Gläubigen abermals in die Ewigwacht zurückkehrten. Es war der zweite Tag des Dunkels und so wie es sich bereits am ersten Tag angekündigt hatte, sollte es wohl ruhiger verlaufen als erwartet. Das zentrale Objekt war die Puppe die als Geschenk und Kontaktmöglichkeit übergeben worden war. Das jedoch, nicht ohne einen Knebel mit dieser zu überreichen, der dem Mann in schwarz jedes einzelne Mal wieder das Blut etwas zum kochen brachte, wenn er nur darüber nachdachte.<br /><br />Es wurde Zeit diesem Spiel auf den Grund zu gehen. Das Spiel mit ein paar neuen Regeln zu versehen.<br /><br /><span style="font-weight: bold"><div align="center"><span style="font-style: italic">„Ruft seinen Namen an, Feradai. Ruft ihn, auf das er sich vor der heiligen Bruderschaft verantwortet und Rede und Antwort steht. Lasst ihn wissen das meine Worte ungebunden sind er sich jemand anderen für sein albernes Spiel der Gehemniskrämerei suchen soll. Dient er dem allmächtigen Vater, dann tut er es mit jeder Faser seines Seins oder er schweigt still.“ </span></div></span><br /><br />Und er kam tatsächlich. Der Bote des Meisters gehüllt in ein Netz aus Halbwahrheiten und all zu weichen Formulierungen, die es an Präzision fehlen ließen. Er hasst das. Das Wort als Waffe derart stumpf einzusetzen verursachte ihm körperliche Schmerzen. So zog sich das Gespräch in die Länge, wiederholte sich stellenweise. Das übliche Tanzen des eigenen Namens. Am Ende gab es keinen Pakt, keine Vereinbarung. Natürlich nicht. Es war schlicht unmöglich gewesen, insbesondere zu dieser Zeit des Jahreslaufes, wenn die Gesetzte ohnehin anders geschrieben sind. Das Gespräch würde fortgesetzt werden. Auch das war klar.<br /><br />Als das Wesen, aufgrund seiner mitgeführten Flöte fortan bekannt als der Flötenspieler, ging, war nur eines klar: Ewigwacht war wohl sicher für dieses Dunkel. Brandenstein war der Fokus der Anstrengungen des Flötenspielers oder seines nekromantischen Meisters. Warum genau offenbarte sich erst später am Abend.<br /><br /><div align="center"><span style="font-style: italic">„Lobpreis sei Angamon. Wir sind gerettet!“ </span></div><br />Mit dem Wissen, dass Ewigwacht sicher war, war es an der Zeit nach Brandenstein zu sehen. Die Lage, dass es einen Bund mit der Stadt gab - gar einen Vertrag – war Ausgeburt dieser unsäglichen Situation der Umwälzung und Annährung. Etwas das ihm schon viele Kopfschmerzen bereitet hatte, aber dazu geführt hatte, dass dieser Besuch überhaupt möglich war. Ein Portal wurde geöffnet und eine Gruppe von acht Glaubensbrüdern und -Schwestern erschien im Zentrum des öffentlichen Lebens der Stadt. Es war nicht das erste Mal, doch die Reaktion der von der Schlacht gezeichneten Bewohner war neu. Es brauchte viel der Selbstbeherrschung des Streiters in Schwarz den Männer und Frauen nicht in Gesicht zu schreien oder ihnen gar körperliche Schmerzen zuzufügen. Hatten sie denn alle vergessen wie es noch vor Jahren auf dieser Insel war? Waren sie denn so naiv?! Die Situation hätte eine Flucht und anschließend ein hektisches Sammeln von Truppen ausgelöst, um diesen Feind, die Brut des Bösen, von den Straßen zu tilgen. Heute, in der „neuen Zeit“, atmete die Stadt auf. Die Streiter Angamons waren gekommen um sie zu retten! Die Feinde würden zurückzuschlagen werden und es würde Zeit geben die Wunden zu versorgen. Freundlichkeit, Danksagungen und Entspannung bei den Kämpfern Brandensteins – man möchte Brechen.<br /><br />Das Kommando über die Verteidigung der Stadt führte Siomon. Jener Siomon, Diener des Herren der Flamme, welche noch vor dem Dunkel die Messe seiner Allmacht besucht. Wie passend, würde er lächeln, wäre es jetzt passiert. Sire Ravenforth war im Tempel. Zweifelsohne in den Kammern der Hure… ohne sein Beinkleid. Ein Schwertbruder des Schlächters der die Reihen ordnete? Nekra, wozu auch – es war ja nur das Dunkel über Siebenwind gekommen. Dwarschim, Elfen und sogar Orken starben in den Straßen für Brandenstein. Es war eine Prüfung des Gottvaters. Es konnte nicht anders sein. Und dann noch einmal Siomon. Er war schwer gezeichnet, blutend und kaum noch auf den Beinen. „Ja dann soll doch jemand das Kommando nehmen, der es kann!“. Oh Herr, wirklich? Das Flehen in den Augen des Mannes war förmlich zu fühlen. Die Stadt entkam der gerechten Hand der heiligen Bruderschaft mit dem Erscheinen des Sires. Dann doch. Er hätte auch einen Eimer und einen Wischmopp bei sich tragen können, war von seiner Stadtverteidigung neben acht Standhaften Streitern des Allmächtigen – ohne auch nur einen Kratzer – nicht viel mehr übrig als Sturzbäche von Blut auf den Straßen.<br /><br />Die folgende Unterredung in der Burg der Stadt war dann der letzte Akt in diesem Possenspiel. Im großen Saal versammelt benannte der Ritter die zu Bleibenden und kommentierte den Rest hinaus. Der Befehl des mächtigsten Mannes auf der Insel wurde teilweise ausgeführt, teilweise ignoriert. Er toleriert es. Im gehen wurde er ein Feigling geheißen. Die Reaktion, man wolle anfangen und sich nicht weiter aufhalten lassen. Ein bewundernswertes Maß an Selbstbeherrschung oder völlige Ohnmacht in einem Machtvakuum. Ich weiß es nicht. Nur eines weiß ich, der Mann der diese Worte gesprochen hatte, er würde unter dem Wolfsbanner niemals wieder einen Atemzug tun. Niemals.<br /><br />Etwas Wichtiges wurde dann nicht mehr besprochen. Das Angebot den Schutz der heiligen Bruderschaft aufzusuchen und die noch vorhanden Leben in diesen Mauern zu retten wurde höflich abgelehnt. Was sollte er auch tun. Er hätte sich einen Strick nehmen können hätte er es angenommen. Ein Ausweg, den er ablehnte.<br />Und so kehrten die Streiter zurück nach Ewigwacht. Zurück ließen sie Blut, Schmerz, Verlust und Hoffnung in der Größe einer Kerzenflamme dieser Tage im Dunkel. <br /><br />Zeit war es, der Seelen zu gedenken, die heute für Ihn verloren gingen.<br /><br /><div align="center"><span style="font-style: italic"><br />Allmächtiger Vater. Herr über das Reich Yerrodon.<br /><br />In deiner unendlichen Weisheit nahmst du die Hand der Mutter.<br />Mit klarem Blick voran entfachtest du den Zorn des Vaters.<br /><br />Dein Wille ist mir Prüfung. Deine Weisheit mir Herausforderung.<br />Denn ich bin Dein, bis in den Tod und darüber hinaus.<br /><br />Dein Licht erstrahlt klar und hell in unseren Herzen.<br />Auch die wankenden Seelen in Brandenstein konnte es heute sehen.<br /><br />Wir spendeten Trost, auf das sie Deine Wahrheit zu sehen vermögen.<br />Wir gaben Halt, wo das Netz der Lügen sie fallen ließ.<br /><br />Sie werden wandeln unter deinem Blick.<br />Sie werden greifen die Hand im Schatten.<br />Sie werden sehen das Licht im Dunkel.<br /><br />Oh Herr, erhöre meine Worte. Errette die Bewohner Brandensteins.<br />In unerschütterlichem Glauben stehen wir, wir die wir die Treusten der Treuen sind.<br /><br />Allmächtiger Vater. Herr über das Reich Yerrodon.<br /></span></div></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=1138"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952811"></a>
+				<b class="postauthor">Vakgar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: In der Kapelle von Ewigwacht</div><div style="float: right;"><a href="./viewtopic.php?p=952811#p952811"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 7.01.23, 18:07&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2121_1456060191.jpg" width="75" height="70" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 20.06.02, 10:00<br /><b>Beiträge:</b> 738<br /><b>Wohnort:</b> Wuthöhle!				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><div align="center"><span style="font-style: italic">zu Spät war der Schwarzpelz an diesem Abend erwacht, der mächtige Portal-Reisende war schon in die Ferne verschwunden..<br />so stand er nun auf den Treppen vor dem Heiligtum, der Kampfeslärm aus der Hafenstadt war bis in den Süden zu hören.<br />Ein Ritt dorthin kam nicht in Frage, zu gefährlich waren die Wege außerhalb der sicheren Mauern Finsterwangens, zumal die Kreaturen auch die wahrhaft Gläubigen attackieren..<br />Über ihm zogen die geflügelten dunkeln Bestien hinweg, welche Brandenstein aus der Luft angriffen, wilde Kriegsschreie stieß er aus, fluchte mit geballter Pranke..<br />eine der dunkeln Nachtbestien stürzt auf den Orken hinab.. er wird von den mächtigen Krallen gepackt.. in die Lüfte gehoben...<br /><br /><br />Im Anflug auf die Stadt lässt sich der erste Blick auf das Chaos erahnen.. der Hafen fast überrannt.. die Straßen einiger Viertel sind gefüllt mit untoten Kreaturen.. <br />Die Kampfeslust erfüllt den Orken, der Blutrausch setzt ein.. nach endlosen Tagen könnte er endlich wieder ein paar Seelen erhaschen..<br />Unsanft wird er von der geflügelten Bestie in niedriger Höhle abseits der Bank der Hafenstadt abgeworfen..<br />rasch findet er die Dunkeln Streiter und ihr Gefolge abseits des Marktes, umringt von Verwundeten und kriegsmüden Streitern..<br /><br /><br />ein wirres Bild bietet sich dem Orken, als er mit den seinen im Raum der Tafelrunde angekommen ist.. war er doch für das Schlachtenwerk hier..<br />so muss er nun einer Lagebesprechung beiwohnen.. er hoffte zwischendurch würden die Nachtbestien welche über der Stadt kreisen, das sie in den Raum hinabstürzen<br />und das Chaos noch vergrößern.. während sie abrücken sagt er noch..<br /><br /><span style="font-weight: bold">&quot;Whänn whir nhokmarhl zhurükkhärähnz .. whärdähnz nuhr nhokk Ähzzää üphrik zhaihnz!&quot;</span><br /><br /><br />die Musterung des obstern Dunkeln ließ er unkommentiert über sich ergehen, er wird erkannt haben das er einen wahrhaftigen Streiter des Gottkönigs vor sich hatte..<br />Nur der rotberobte Portal-Öffner und der Ork verblieben in der Hafenstadt, wohingegen die Streiter und ihr Gefolge nach Ewigwacht zurückkehrten..<br />welches groteske Bild sich den beiden auf den Marktplatz bot, machte selbst den Orken sprachlos..<br />Gerüchte über entführte Personen aus der Siedlung der Zwerge machten die Runde unter den Verwundeten..<br /><br /><br />ein ihm unbekannter dunkler Zauberer erscheint .. umringt von Skeletten.. Forderungen werden ausgesprochen, scheinbar will er Gefangene machen.<br />der Ork fragt seinen Nebenmann ob jetzt ein guter Zeitpunkt wäre sich einzumischen, ein Kopfschütteln, dabei juckt es dem Schwarzen so sehr in den wurstigen Fingern..<br />Er blickt umher, der Choharhar der Ka&#39;zla und sein Aikar&#39;cribuz unterstützen die Menschen, der Großmeister in der letzten Reihe, <br />um ihn herum Zwerge und Elfen die ihre Wunden lecken..<br />Als der Zauberer einen der Elfen aus dem Gefolge des Historikers entführen will.. mischt sich <span style="text-decoration: underline">niemand</span> ein..<br /><br /><br />Es ist einzig der einbeinige Kapitän der sich dem dunkeln Zauberer entgegenstellt.. ein ungleiches Duell<br />fast schon amüsiert verfolgt der Ork das Schauspiel.. der Zauberer reißt ein Portal offen.. in welchem der Elf verschwindet..<br />der Einbeinige stürzt hinterher .. gefolgt vom Zauberer ... das Portal schließt sich.<br />selbst vom dümmsten Hegäl seiner Art, hätte der Ork nicht erwartet, das er sich am zweiten Tag der Dunkelheit durch ein Portal eines dunkeln Magier stürzt..<br />Ihm schossen Gedanken durch den Kopf, wo führte das Portal wohl hin.? Wird man den Kapitän nochmals sehen.?<br />fast schon belustigt an den Gedanken den Einbeinigen, bald als untoten Piraten in Marlonshafen zu treffen lacht er blechern unter dem Helm auf..<br /><br /><br /><span style="font-weight: bold">&quot;Ähzz whird Zhaiht hiarh zhu Vhärzhwindhähnz.. Phäfor zhikk hiarh ahllä khäkähnzhaithik Zhnäzzähn&quot;</span><br /><br /><br /><br />der rotberobte Portal-Öffner ebnete den Weg zurück in die schützenden Mauern der dunkeln Stadt..<br />dort angekommen schmerzte es den Orken sehr..  weniger die Bauchmuskeln ob des anhaltenden Lachen..<br />eher weil sie in der Stadt kein Blut vergießen durften, insgeheim wäre er gerne noch in den dunkeln Straßen<br />der Hafenstadt geblieben und hätte den ein oder anderen armen Menschen erlößt..<br /><br /><br />sein Weg führt ihn wieder zurück zum Heiligtum, als er die Stufen erklimmt, verblasst das Lachen aus seiner hässlichen Fratze..<br />Im Tempel angekommen, entledigt er sich seiner Wehr.. mit bloßem Oberkörper steht er vor dem Altar..<br />der verzierte Dolch gleitet durch den schwarzen Pelz, das Blut fließt.. benetzt den Altarboden..<br />flehend bittet der Ork den mächtigen Gottkönig um Vergebung.. das er in dieser Dunkelheit noch kein Blut seiner Feinde vergießen konnte..<br /><br /></span></div></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2121"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p953140"></a>
+				<b class="postauthor">Computergig&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: In der Kapelle von Ewigwacht</div><div style="float: right;"><a href="./viewtopic.php?p=953140#p953140"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 30.01.23, 00:55&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 30.05.12, 16:25<br /><b>Beiträge:</b> 330<br /><b>Wohnort:</b> Berlin				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><span style="font-size: 150%; line-height: normal"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Der Mann stand mit nackten Oberkörper im Kerzenschein vor dem Altar und schlug sich mit der Peitsche selbst. Er atmete schwer, aber in seinen Augen lag keine Spur von Schmerz. Nur die Kraft des Willens brannte darin - die Kraft, dieser Prüfung zu bestehen.<br />Immer wieder hieb er sich mit der Peitsche, bis seine Haut blutig und wund war. Und immer wieder sprach er die gleichen Worte: &quot;Ich bin schwach, stärke meinen sündigen Körper.&quot;<br />Doch je länger er es tat, desto stärker glaubte er an die Worte, die er sprach. Je mehr Schmerzen er ertrug, desto klarer sah er seine eigene Unwürdigkeit. Und je mehr Blut floss, desto größer wurde sein Glaube an Angamon.<br />Als der Morgen graute, hatte sich der Mann in etwas verwandelt - etwas Besseres als zuvor, so schien es. Er betete leise vor sich hin - <br /><br /><span style="font-style: italic">Herr, lass mich nicht vergessen, meine Aufgaben und Pflichten.<br />Niemals soll ich bei ihrer Erfüllung versagen, der eine Tag baut auf den anderen Tag auf.<br />Immer soll mir bewusst sein, dass mein Leben dir gehört.<br />Dein Wille in meinem Ohr.<br />Mein Handeln auf Dein Wort.<br />Mein Leben in Deiner Hand.<br />Meine Seele unter Deinem Gericht.<br />Meine Kraft schöpfe ich jetzt bereits, da ich weiß, dass Du an meiner Seite stehst.<br />Meinen Mut schöpfe ich jetzt bereits, da ich weiß, dass Du an meiner Seite stehst.<br />Meine Ehre stärke ich jetzt bereits, da ich weiß, dass Du an meiner Seite stehst.<br />Ich werde nie Deinen Pfad verlassen, nicht jetzt, nicht am Abend und auch nicht am morgigen Tag.<br />Stets bin ich Dir treu, da ich weiß, dass Du an meiner Seite stehst.<br />Herr, Du bist bei mir, allgegenwärtig an meiner Seite. Dies macht mich stark.<br />Deine Weisheit macht mich stark.<br />Deine Wahrheit macht mich stark.<br />Angamon, mein Sein in deinen Händen</span><br /><br /><br />dann ging er hinaus in den neuen Tag um Sein Werk zu verrichten...</div></span></div></div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><img src="http://tardukai.de/wp-content/uploads/2022/12/schriftzug.jpg" alt="Bild" /></div><br /><div align="center">&quot;Mena rech ekh Bennain - tora dolmon ekh got deskos Tardukai!&quot;<br />&quot;Niemals werden wir weichen - wir, die wir die Treuesten der Treuen sind!&quot;</div><br /><br />Discord<br />Martin</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8823"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8823"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=109946&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=109946"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 6 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 3 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=109946"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

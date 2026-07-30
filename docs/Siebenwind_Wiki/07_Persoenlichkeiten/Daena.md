@@ -9,7 +9,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_154.md
 !!! info "Metadaten"
     - **Titel:** Maga
     - **Epistemischer Status:** #bote
-    - **Zugehörigkeit:** [[Magierakademie]] / [[Königliche_Akademie]]
+    - **Zugehörigkeit:** [[Koenigliche_Akademie_der_Arkanen_Kuenste|Königliche Magierakademie]]
     - **Zeitraum:** aktiv 18 n.H.
 
 

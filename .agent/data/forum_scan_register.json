@@ -4,16 +4,16 @@
     "geschichten": {
       "forum_id": 27,
       "label": "Geschichten aus dem Spiel",
-      "last_scanned_at": "2026-06-11T15:16:19Z",
-      "last_page_scanned": 3,
-      "last_seen_topic_id": null
+      "last_scanned_at": "2026-07-27T17:54:16Z",
+      "last_page_scanned": 5,
+      "last_seen_topic_id": "102477"
     }
   },
   "entries": [
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "102477",
       "title": "Zweck dieses Forums",
       "decision": "duplicate",
@@ -39,7 +39,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "31020",
       "title": "Hintergrundexkurse",
       "decision": "duplicate",
@@ -58,7 +58,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110470",
       "title": "Ergon und der Duft des Herbstes",
       "decision": "duplicate",
@@ -84,7 +84,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110446",
       "title": "Treiben im Rathaus",
       "decision": "duplicate",
@@ -110,7 +110,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110398",
       "title": "Das orkische Handelskontor",
       "decision": "duplicate",
@@ -136,27 +136,36 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110386",
       "title": "Piraten, seid gewarnt!",
-      "decision": "fulltext_error",
+      "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_piraten_seid_gewarnt.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only",
+      "content_status": "fulltext_archived",
       "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_piraten_seid_gewarnt.md",
-      "raw_html_refs": [],
-      "post_count": null,
-      "fulltext_archived_at": null,
-      "last_error": "ConnectionResetError: [Errno 54] Connection reset by peer"
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110386.html"
+      ],
+      "post_count": 2,
+      "fulltext_archived_at": "2026-07-15T15:20:13Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "integrated_target": "docs/Siebenwind_Wiki/05_Geschichte/Piraten_seid_gewarnt.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_piraten_seid_gewarnt.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T15:23:00Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110358",
       "title": "aufkeimende Schatten in der Dunkelheit..",
-      "decision": "archived_fulltext",
+      "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_aufkeimende_schatten_in_der_dunkelheit.md",
       "dispatch_ref": null,
       "historian_comment": null,
@@ -179,10 +188,10 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110366",
       "title": "XIII.",
-      "decision": "archived_fulltext",
+      "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_xiii.md",
       "dispatch_ref": null,
       "historian_comment": null,
@@ -205,10 +214,10 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109990",
       "title": "ein Fuchs streift durch die Wälder..",
-      "decision": "archived_fulltext",
+      "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_fuchs_streift_durch_die_w_lder.md",
       "dispatch_ref": null,
       "historian_comment": null,
@@ -231,96 +240,179 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110339",
       "title": "[Events] An warmen Sommertagen",
-      "decision": "fulltext_error",
+      "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_events_an_warmen_sommertagen.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only",
+      "content_status": "fulltext_archived",
       "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_events_an_warmen_sommertagen.md",
-      "raw_html_refs": [],
-      "post_count": null,
-      "fulltext_archived_at": null,
-      "last_error": "ConnectionResetError: [Errno 54] Connection reset by peer"
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110339.html"
+      ],
+      "post_count": 3,
+      "fulltext_archived_at": "2026-07-15T15:20:18Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/05_Geschichte/An_warmen_Sommertagen.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_events_an_warmen_sommertagen.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T15:23:05Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110307",
       "title": "Welle und Brandung",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_welle_und_brandung.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_welle_und_brandung.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110307.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-07-15T15:33:19Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Welle_und_Brandung.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_welle_und_brandung.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T15:37:51Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110194",
       "title": "Erforschung und Entdeckungen in der neuen Heimat",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_erforschung_und_entdeckungen_in_der_neuen_heimat.md",
-      "dispatch_ref": null,
+      "dispatch_ref": "MSG-2026-0169",
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_erforschung_und_entdeckungen_in_der_neuen_heimat.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110194.html"
+      ],
+      "post_count": 9,
+      "fulltext_archived_at": "2026-07-15T15:33:20Z",
+      "last_error": null,
+      "review_status": "historian_required",
+      "review_owner": "Historian"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109969",
       "title": "Von ewiger Treue",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_ewiger_treue.md",
-      "dispatch_ref": null,
+      "dispatch_ref": "MSG-2026-0170",
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_ewiger_treue.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/109969.html"
+      ],
+      "post_count": 8,
+      "fulltext_archived_at": "2026-07-15T15:33:21Z",
+      "last_error": null,
+      "review_status": "historian_required",
+      "review_owner": "Historian"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110186",
       "title": "Dur´sches Hoheitsgebiet",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_dur_sches_hoheitsgebiet.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_dur_sches_hoheitsgebiet.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110186.html"
+      ],
+      "post_count": 2,
+      "fulltext_archived_at": "2026-07-15T15:33:21Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/05_Geschichte/Dursches_Hoheitsgebiet.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_dur_sches_hoheitsgebiet.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T15:37:51Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110204",
       "title": "Eine neue Ordensrüstung für Myrandhir",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_neue_ordensr_stung_f_r_myrandhir.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_neue_ordensr_stung_f_r_myrandhir.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110204.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-07-15T15:33:22Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Myrandhir.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_eine_neue_ordensruestung_fuer_myrandhir.md",
+      "integrated_at": "2026-07-15T15:37:51Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110166",
       "title": "*Event* Am Hafen Brandensteins",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_event_am_hafen_brandensteins.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_event_am_hafen_brandensteins.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110166.html"
+      ],
+      "post_count": 3,
+      "fulltext_archived_at": "2026-07-15T19:01:59Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/05_Geschichte/Angriff_auf_Westhever_Piraten_in_Sicht.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_event_am_hafen_brandensteins.md",
+      "integrated_at": "2026-07-15T19:10:24Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110175",
       "title": "Angriff auf Westhever, Piraten in Sicht und ein Angebot.....",
       "decision": "duplicate",
@@ -346,115 +438,227 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110158",
       "title": "@der etwas andere Besuch der Magierakademie",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_etwas_andere_besuch_der_magierakademie.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_etwas_andere_besuch_der_magierakademie.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110158.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-07-15T19:02:00Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/03_Gesellschaft/Koenigliche_Akademie_der_Arkanen_Kuenste.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_der_etwas_andere_besuch_der_magierakademie.md",
+      "integrated_at": "2026-07-15T19:10:24Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110155",
       "title": "Von vertrauter Vergänglichkeit",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_vertrauter_verg_nglichkeit.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_vertrauter_verg_nglichkeit.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110155.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-07-15T19:02:01Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Von_vertrauter_Vergaenglichkeit.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_von_vertrauter_vergaenglichkeit.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T19:10:15Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110144",
       "title": "Die Weihe einer Schmiede",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_weihe_einer_schmiede.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_weihe_einer_schmiede.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110144.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-07-15T19:02:01Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "integrated_target": "docs/Siebenwind_Wiki/05_Geschichte/Die_Weihe_einer_Schmiede.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_die_weihe_einer_schmiede.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T19:10:15Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110037",
       "title": "Ein besonderer Arbeitstag Nr. 2",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_besonderer_arbeitstag_nr_2.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_besonderer_arbeitstag_nr_2.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110037.html"
+      ],
+      "post_count": 5,
+      "fulltext_archived_at": "2026-07-15T19:02:02Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "integrated_target": "docs/Siebenwind_Wiki/05_Geschichte/Bau_einer_Faehre_in_Brandenstein.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_ein_besonderer_arbeitstag_nr_2.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T19:10:15Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109948",
       "title": "Die Säulen des Valkun",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_s_ulen_des_valkun.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_s_ulen_des_valkun.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/109948.html"
+      ],
+      "post_count": 6,
+      "fulltext_archived_at": "2026-07-15T20:00:06Z",
+      "last_error": null
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109946",
       "title": "In der Kapelle von Ewigwacht",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_in_der_kapelle_von_ewigwacht.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_in_der_kapelle_von_ewigwacht.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/109946.html"
+      ],
+      "post_count": 6,
+      "fulltext_archived_at": "2026-07-15T19:59:59Z",
+      "last_error": null
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "110019",
       "title": "Ein besonderer Arbeitstag Nr. 1",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_besonderer_arbeitstag_nr_1.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_besonderer_arbeitstag_nr_1.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110019.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-07-15T20:00:07Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Ein_besonderer_Arbeitstag.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_ein_besonderer_arbeitstag_nr_1.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T20:04:27Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109883",
       "title": "Vom Glückskind zum Diener.",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_vom_gl_ckskind_zum_diener.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_vom_gl_ckskind_zum_diener.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/109883.html"
+      ],
+      "post_count": 2,
+      "fulltext_archived_at": "2026-07-15T19:59:59Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lusenia_Remorian.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_vom_glueckskind_zum_diener.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T20:04:27Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109927",
       "title": "[Mitmachthread] Bauarbeiten im Norden",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthread_bauarbeiten_im_norden.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthread_bauarbeiten_im_norden.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/109927.html"
+      ],
+      "post_count": 4,
+      "fulltext_archived_at": "2026-07-15T19:59:59Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/05_Geschichte/Bauarbeiten_im_Norden.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_mitmachthread_bauarbeiten_im_norden.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T20:04:28Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "48524",
       "title": "Die wahrste Wahrheit über Orken",
       "decision": "duplicate",
@@ -466,7 +670,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109905",
       "title": "Ewigwacht",
       "decision": "duplicate",
@@ -478,7 +682,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107595",
       "title": "Allerlei aus Finsterwangen",
       "decision": "duplicate",
@@ -490,7 +694,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109867",
       "title": "Neues Chaos auf Tevras Pfaden",
       "decision": "duplicate",
@@ -502,7 +706,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109847",
       "title": "Traumtagebuch",
       "decision": "duplicate",
@@ -514,7 +718,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109858",
       "title": "Blutrache",
       "decision": "duplicate",
@@ -526,7 +730,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109841",
       "title": "Wölfe bewegen sich gern im Rudel...",
       "decision": "duplicate",
@@ -538,7 +742,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109833",
       "title": "Von Schiffen und Schmerzen",
       "decision": "duplicate",
@@ -550,7 +754,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109818",
       "title": "Reinigung des Morsanschreins",
       "decision": "duplicate",
@@ -562,7 +766,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109785",
       "title": "Haus#9 in Brandenstein",
       "decision": "duplicate",
@@ -574,7 +778,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106019",
       "title": "Dunkle Tage, Lichte Nächte",
       "decision": "duplicate",
@@ -586,7 +790,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "81975",
       "title": "Weg in den Wahnsinn",
       "decision": "duplicate",
@@ -598,7 +802,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109582",
       "title": "Ein Zelt, kaum Wetterfest...",
       "decision": "duplicate",
@@ -610,7 +814,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109574",
       "title": "[Mitmachthread] Ein Goblin kommt selten allein",
       "decision": "duplicate",
@@ -622,7 +826,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109571",
       "title": "Gerüchte über einen neuen Riesen",
       "decision": "duplicate",
@@ -634,7 +838,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109483",
       "title": "Jeder nur einen winzigen Schluck...",
       "decision": "duplicate",
@@ -646,7 +850,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108944",
       "title": "Im Zwielicht...",
       "decision": "duplicate",
@@ -658,7 +862,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109310",
       "title": "Der Weg ist das Ziel",
       "decision": "duplicate",
@@ -670,7 +874,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108788",
       "title": "Tabenbuch vom Huns Siebzehnrübl",
       "decision": "duplicate",
@@ -682,7 +886,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106975",
       "title": "Der alte Aktenschrank",
       "decision": "duplicate",
@@ -694,7 +898,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109430",
       "title": "[Mitmachthread] Vom Wüstenwinde verweht",
       "decision": "duplicate",
@@ -706,7 +910,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109411",
       "title": "Von grünen Flügeln und wütenden Zwergen",
       "decision": "duplicate",
@@ -718,7 +922,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "103341",
       "title": "Ein gewöhnlicher Diener der Viere",
       "decision": "duplicate",
@@ -730,7 +934,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "99477",
       "title": "[Kriegsschiff] Thjareks Brecher",
       "decision": "duplicate",
@@ -742,7 +946,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "102689",
       "title": "Lauten und anderer Lärm",
       "decision": "duplicate",
@@ -754,7 +958,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109294",
       "title": "Schild des Lichts",
       "decision": "duplicate",
@@ -766,7 +970,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109282",
       "title": "[Mitmachthred] Mein erster Char...",
       "decision": "duplicate",
@@ -778,7 +982,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "79166",
       "title": "~ Lichter im Dunklen ~",
       "decision": "duplicate",
@@ -790,7 +994,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109007",
       "title": "Wer trifft, hat recht",
       "decision": "duplicate",
@@ -802,7 +1006,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109190",
       "title": "Unter der Wüstensonne Ras Altanin's",
       "decision": "duplicate",
@@ -814,7 +1018,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109195",
       "title": "Vorsichtige Schritte auf den Stufen",
       "decision": "duplicate",
@@ -826,7 +1030,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109068",
       "title": "Das Licht am Ende des Tunnels",
       "decision": "duplicate",
@@ -838,7 +1042,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109141",
       "title": "Am Teich der Ruhe",
       "decision": "duplicate",
@@ -850,7 +1054,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109065",
       "title": "Kulturschock - Mit den Augen eines vergangenen Dwarschim",
       "decision": "duplicate",
@@ -862,7 +1066,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "109020",
       "title": "Zweifel & Sehnsucht",
       "decision": "duplicate",
@@ -874,7 +1078,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108074",
       "title": "Schwarze Tage, weiße Nächte",
       "decision": "duplicate",
@@ -886,7 +1090,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108980",
       "title": "Gedankengänge",
       "decision": "duplicate",
@@ -898,7 +1102,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108940",
       "title": "Nachts auf der Litheth....",
       "decision": "duplicate",
@@ -910,7 +1114,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108912",
       "title": "Schneid Bericht zur neuen Insel",
       "decision": "duplicate",
@@ -922,7 +1126,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108905",
       "title": "Schneids Bericht: Wie der Hauptmann ins Bett gekommen ist...",
       "decision": "duplicate",
@@ -934,7 +1138,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108896",
       "title": "Die Geschichte von Huns Siebzehnrübl",
       "decision": "duplicate",
@@ -946,7 +1150,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108636",
       "title": "Pflicht",
       "decision": "duplicate",
@@ -958,7 +1162,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108861",
       "title": "Schneids Bericht über den gestrigen Wachgang",
       "decision": "duplicate",
@@ -970,7 +1174,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108840",
       "title": "[Mitmachthread] Die schwarzen Schwingen von Ewigwacht",
       "decision": "duplicate",
@@ -982,7 +1186,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108783",
       "title": "Seemannsbraut",
       "decision": "duplicate",
@@ -994,7 +1198,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108708",
       "title": "Des Alten letzte Hoffnung - Geist über Materie",
       "decision": "duplicate",
@@ -1006,7 +1210,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108776",
       "title": "Zu Gast in Ewigwacht",
       "decision": "duplicate",
@@ -1018,7 +1222,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108772",
       "title": "In der Mandragora..",
       "decision": "duplicate",
@@ -1030,7 +1234,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108763",
       "title": "Maegwynns Geheimnisse",
       "decision": "duplicate",
@@ -1042,7 +1246,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108735",
       "title": "Das Gefolge - Ein Buch aus Finsterwangen",
       "decision": "duplicate",
@@ -1054,7 +1258,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107362",
       "title": "Neue Chronik Finsterwangen",
       "decision": "duplicate",
@@ -1066,7 +1270,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108683",
       "title": "Vorbereitung eines neuen Ladens in Brandenstein",
       "decision": "duplicate",
@@ -1078,7 +1282,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108647",
       "title": "Der größte Auftrag ihres Lebens",
       "decision": "duplicate",
@@ -1090,7 +1294,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108642",
       "title": "Macht",
       "decision": "duplicate",
@@ -1102,7 +1306,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108563",
       "title": "[Mitmachthread] An der Front",
       "decision": "duplicate",
@@ -1114,7 +1318,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108569",
       "title": "An Bruder S. in Vandrien",
       "decision": "duplicate",
@@ -1126,7 +1330,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108345",
       "title": "Reges treiben im Kastell",
       "decision": "duplicate",
@@ -1138,7 +1342,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108314",
       "title": "[MMT] Geschichten aus der Burg Brandenstein",
       "decision": "duplicate",
@@ -1150,7 +1354,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108278",
       "title": "Brief an die Akademie Finsterwangen von der Front",
       "decision": "duplicate",
@@ -1162,7 +1366,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108268",
       "title": "Übergabe des mächtigsten Schädelspalters",
       "decision": "duplicate",
@@ -1174,7 +1378,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108234",
       "title": "Söldner, Diebe, Mörder und Streuner aufgepasst!",
       "decision": "duplicate",
@@ -1186,7 +1390,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108030",
       "title": "Blut wird fließen...",
       "decision": "duplicate",
@@ -1198,7 +1402,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108143",
       "title": "Neues im Alten Finden",
       "decision": "duplicate",
@@ -1210,7 +1414,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108023",
       "title": "Der Weg des Herren",
       "decision": "duplicate",
@@ -1222,7 +1426,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "108004",
       "title": "Erlebnisse eines Khalandriers",
       "decision": "duplicate",
@@ -1234,7 +1438,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107973",
       "title": "Brückenreparatur vor Dunquell",
       "decision": "duplicate",
@@ -1246,7 +1450,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107930",
       "title": "Der Himmelsschlund",
       "decision": "duplicate",
@@ -1258,7 +1462,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "103834",
       "title": "[Mitmachthread] Helden des Alltags",
       "decision": "duplicate",
@@ -1270,7 +1474,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107774",
       "title": "Rückkehr in die vergessene Heimat",
       "decision": "duplicate",
@@ -1282,7 +1486,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107661",
       "title": "Falscher Heiland",
       "decision": "duplicate",
@@ -1294,7 +1498,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107604",
       "title": "[IG] Ein junger Bursche im Tempel der Viere...",
       "decision": "duplicate",
@@ -1306,7 +1510,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107153",
       "title": "Auf der Suche nach dem alten Wissen",
       "decision": "duplicate",
@@ -1318,7 +1522,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107537",
       "title": "[Flaschenpost] Der letzte Brief",
       "decision": "duplicate",
@@ -1330,7 +1534,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107457",
       "title": "Westhever - Fornvinnr - Brandenstein",
       "decision": "duplicate",
@@ -1342,7 +1546,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106945",
       "title": "Einbruchserie Brandenstein",
       "decision": "duplicate",
@@ -1354,7 +1558,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107351",
       "title": "[IG] Am Ort der Dämonenbannung",
       "decision": "duplicate",
@@ -1366,7 +1570,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107323",
       "title": "Brandenstein - Unkraut und Unrat",
       "decision": "duplicate",
@@ -1378,7 +1582,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107317",
       "title": "[ig] Renovierung im Hafenviertel",
       "decision": "duplicate",
@@ -1390,7 +1594,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107198",
       "title": "Persönlicher Kanzlergruß",
       "decision": "duplicate",
@@ -1402,7 +1606,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107180",
       "title": "Die Kanzlerdebatte - Redebeiträge",
       "decision": "duplicate",
@@ -1414,7 +1618,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107162",
       "title": "Zwischen Traum, Erinnerung und Realität",
       "decision": "duplicate",
@@ -1426,7 +1630,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107096",
       "title": "Schwert, Stock, Wein und Trank",
       "decision": "duplicate",
@@ -1438,7 +1642,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107085",
       "title": "Briefe an die geliebte Ehefrau",
       "decision": "duplicate",
@@ -1450,7 +1654,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106932",
       "title": "Memoiren eines Meisters",
       "decision": "duplicate",
@@ -1462,7 +1666,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107057",
       "title": "Die Eiswölfe ziehen in die Heimat",
       "decision": "duplicate",
@@ -1474,7 +1678,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107038",
       "title": "Vom Lernen und Leiden unter dem Banner des Wolfs",
       "decision": "duplicate",
@@ -1486,7 +1690,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107040",
       "title": "Mehlmühle im Handwerkshaus",
       "decision": "duplicate",
@@ -1498,7 +1702,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106926",
       "title": "Piratenglück",
       "decision": "duplicate",
@@ -1510,7 +1714,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106809",
       "title": "Büchersammlung Darian Venar",
       "decision": "duplicate",
@@ -1522,7 +1726,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107027",
       "title": "Ebbe und Flut",
       "decision": "duplicate",
@@ -1534,7 +1738,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106598",
       "title": "[Mitmachthread] Die ewige Schlacht",
       "decision": "duplicate",
@@ -1546,7 +1750,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "107003",
       "title": "Ein Tross zieht von Avindhrell nach Brandenstein",
       "decision": "duplicate",
@@ -1558,7 +1762,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106999",
       "title": "Gegenhexereien um dessentwillen Markwarts Schutz",
       "decision": "duplicate",
@@ -1570,7 +1774,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "99388",
       "title": "Außenseiter",
       "decision": "duplicate",
@@ -1582,7 +1786,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106835",
       "title": "Zeitlos",
       "decision": "duplicate",
@@ -1594,7 +1798,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106939",
       "title": "[IG] Krypta - Mondtag, 31. Querler 28 nach Hilgorad",
       "decision": "duplicate",
@@ -1606,7 +1810,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106934",
       "title": "Schiff Ahoi!",
       "decision": "duplicate",
@@ -1618,7 +1822,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "99796",
       "title": "[Zwerge&Hobbits-Mitmachthread] Dunquell-Tag&Nacht",
       "decision": "duplicate",
@@ -1630,7 +1834,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106927",
       "title": "Ein Opfer an die Mächte des Wassers",
       "decision": "duplicate",
@@ -1642,7 +1846,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106921",
       "title": "Sommerfrische",
       "decision": "duplicate",
@@ -1654,7 +1858,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106916",
       "title": "Feuerfeste",
       "decision": "duplicate",
@@ -1666,7 +1870,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106909",
       "title": "Ein Bote des Nachts im Brandensteiner Hafenviertel",
       "decision": "duplicate",
@@ -1678,7 +1882,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "86573",
       "title": "Fabelwesen und schlimmeres Getier",
       "decision": "duplicate",
@@ -1690,7 +1894,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106872",
       "title": "[Betreff IG Aufruf an alle Gauner] Der Bärenringer",
       "decision": "duplicate",
@@ -1702,7 +1906,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106841",
       "title": "Maskenball",
       "decision": "duplicate",
@@ -1714,7 +1918,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106781",
       "title": "[IG] Zwiegespräch und Erkenntnisse",
       "decision": "duplicate",
@@ -1726,7 +1930,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106695",
       "title": "Im chaos des Feuers",
       "decision": "duplicate",
@@ -1738,7 +1942,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106143",
       "title": "[Festlandevent] Die Macht der Miliz",
       "decision": "duplicate",
@@ -1750,7 +1954,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106562",
       "title": "Wasser zu Blut",
       "decision": "duplicate",
@@ -1762,7 +1966,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106539",
       "title": "Das Handelsschiff bei Finsterwangen",
       "decision": "duplicate",
@@ -1774,7 +1978,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "97823",
       "title": "Susens Witzekiste",
       "decision": "duplicate",
@@ -1786,7 +1990,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106505",
       "title": "Boten aus dem Lehen Kairodun ...",
       "decision": "duplicate",
@@ -1798,7 +2002,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106444",
       "title": "Die Maskenbildnerin",
       "decision": "duplicate",
@@ -1810,7 +2014,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106016",
       "title": "Das niedergeschriebene wunderbar erscheinend und dennoch...",
       "decision": "duplicate",
@@ -1822,7 +2026,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106357",
       "title": "Ein Nortrave kommt selten alleine zurück",
       "decision": "duplicate",
@@ -1834,7 +2038,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106410",
       "title": "Aktivität an der alten Berghütte",
       "decision": "duplicate",
@@ -1846,7 +2050,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106259",
       "title": "Via Venatoris",
       "decision": "duplicate",
@@ -1858,7 +2062,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106381",
       "title": "Ein Gefühl von Heimkehr",
       "decision": "duplicate",
@@ -1870,7 +2074,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106220",
       "title": "Der alte Wall - Neu entdeckt",
       "decision": "duplicate",
@@ -1882,7 +2086,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "103849",
       "title": "Große Schwester, kleiner Bruder",
       "decision": "duplicate",
@@ -1894,7 +2098,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105878",
       "title": "Das Leben auf Burg Brandenstein",
       "decision": "duplicate",
@@ -1906,7 +2110,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "101526",
       "title": "Ein Hundeleben",
       "decision": "duplicate",
@@ -1918,7 +2122,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106197",
       "title": "Ein Schrein - Ihm zu dienen",
       "decision": "duplicate",
@@ -1930,7 +2134,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105771",
       "title": "[Mitmachthread] Morgens um 6: Brandensteiner Burg",
       "decision": "duplicate",
@@ -1942,7 +2146,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106178",
       "title": "Mutters Werk und Vitamas Beitrag",
       "decision": "duplicate",
@@ -1954,7 +2158,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "73545",
       "title": "Hinter grauer Maske und güld'ner Wehr...",
       "decision": "duplicate",
@@ -1966,7 +2170,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "106126",
       "title": "Sonstiges Chaos auf Tevras Pfaden",
       "decision": "duplicate",
@@ -1978,7 +2182,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "96919",
       "title": "Gehirnscreenshot",
       "decision": "duplicate",
@@ -1990,7 +2194,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105976",
       "title": "Zwischen den Stühlen",
       "decision": "duplicate",
@@ -2002,7 +2206,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105696",
       "title": "Irrlicht in der Dunkelheit",
       "decision": "duplicate",
@@ -2014,7 +2218,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105981",
       "title": "Vereint im Kampf unter dem Banner seiner Eminenz Fürst Darel",
       "decision": "duplicate",
@@ -2026,7 +2230,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105868",
       "title": "Ein Kind.",
       "decision": "duplicate",
@@ -2038,7 +2242,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105968",
       "title": "[Mitmachthread] In der Roten Seeschlange",
       "decision": "duplicate",
@@ -2050,7 +2254,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105876",
       "title": "[Mitmach-Thread] Blaue Fahnen, rotes Blut",
       "decision": "duplicate",
@@ -2062,7 +2266,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105901",
       "title": "Geduld.",
       "decision": "duplicate",
@@ -2074,187 +2278,380 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "103300",
       "title": "Eine ungewöhnliche Vagabundin",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_ungew_hnliche_vagabundin.md",
-      "dispatch_ref": null,
+      "dispatch_ref": "MSG-2026-0179",
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_ungew_hnliche_vagabundin.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/103300.html"
+      ],
+      "post_count": 6,
+      "fulltext_archived_at": "2026-07-15T20:11:39Z",
+      "last_error": null,
+      "review_status": "historian_required",
+      "review_owner": "Historian"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105844",
       "title": "Ein Wiedersehen.",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_wiedersehen.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_wiedersehen.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105844.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-07-15T20:11:39Z",
+      "last_error": null,
+      "review_status": "reviewed_no_wiki_change",
+      "integration_status": "reviewed_no_wiki_change",
+      "review_owner": "Codex / Scout + Ingestor + Time-Keeper",
+      "human_escalation_required": false,
+      "integrated_target": ".agent/workflows/ingest_master.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_ein_wiedersehen.md",
+      "integrated_at": "2026-07-15T20:13:54Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105537",
       "title": "Honig und Flauschefell",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_honig_und_flauschefell.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_honig_und_flauschefell.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105537.html"
+      ],
+      "post_count": 4,
+      "fulltext_archived_at": "2026-07-15T20:11:40Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Benjamin_Mondsilberhaar.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_honig_und_flauschefell.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T20:15:57Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105810",
       "title": "Der verlorene Knappe",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_verlorene_knappe.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_verlorene_knappe.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105810.html"
+      ],
+      "post_count": 3,
+      "fulltext_archived_at": "2026-07-15T20:11:41Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "integrated_target": "docs/Siebenwind_Wiki/05_Geschichte/Der_verlorene_Knappe.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_der_verlorene_knappe.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T20:15:57Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105770",
       "title": "Das Spiel geht weiter",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_das_spiel_geht_weiter.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_das_spiel_geht_weiter.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105770.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-07-15T20:11:41Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Das_Spiel_geht_weiter.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-15_Forum_das_spiel_geht_weiter.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-15T20:15:58Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105722",
       "title": "Fjerulfs Pfad",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_fjerulfs_pfad.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_fjerulfs_pfad.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105722.html"
+      ],
+      "post_count": 4,
+      "fulltext_archived_at": "2026-07-21T16:06:39Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Fjerulfs_Pfad.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-21_Forum_fjerulfs_pfad.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-21T16:20:09Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105760",
       "title": "Einsamkeit und ein unerwartetes Treffen",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_einsamkeit_und_ein_unerwartetes_treffen.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_einsamkeit_und_ein_unerwartetes_treffen.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105760.html"
+      ],
+      "post_count": 2,
+      "fulltext_archived_at": "2026-07-21T16:06:44Z",
+      "last_error": null,
+      "review_status": "reviewed_no_wiki_change",
+      "integration_status": "reviewed_no_wiki_change",
+      "review_owner": "Codex / Scout + Ingestor + Time-Keeper",
+      "human_escalation_required": false,
+      "integrated_target": ".agent/workflows/ingest_master.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-21_Forum_einsamkeit_und_ein_unerwartetes_treffen.md",
+      "integrated_at": "2026-07-21T16:20:09Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105563",
       "title": "Glut und Asche",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_glut_und_asche.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_glut_und_asche.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105563.html"
+      ],
+      "post_count": 2,
+      "fulltext_archived_at": "2026-07-21T16:06:50Z",
+      "last_error": null,
+      "review_status": "reviewed_no_wiki_change",
+      "integration_status": "reviewed_no_wiki_change",
+      "review_owner": "Codex / Scout + Ingestor + Time-Keeper",
+      "human_escalation_required": false,
+      "integrated_target": ".agent/workflows/ingest_master.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-21_Forum_glut_und_asche.md",
+      "integrated_at": "2026-07-21T16:20:09Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105756",
       "title": "Gefährliches Spiel",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_gef_hrliches_spiel.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_gef_hrliches_spiel.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105756.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-07-21T16:06:55Z",
+      "last_error": null,
+      "review_status": "reviewed_no_wiki_change",
+      "integration_status": "reviewed_no_wiki_change",
+      "review_owner": "Codex / Scout + Ingestor + Time-Keeper",
+      "human_escalation_required": false,
+      "integrated_target": ".agent/workflows/ingest_master.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-21_Forum_gefaehrliches_spiel.md",
+      "integrated_at": "2026-07-21T16:20:09Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105685",
       "title": "Der Mann in Ketten",
       "decision": "duplicate",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_mann_in_ketten.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_mann_in_ketten.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105685.html"
+      ],
+      "post_count": 2,
+      "fulltext_archived_at": "2026-07-21T16:06:59Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Vencurius.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-21_Forum_der_mann_in_ketten.md",
+      "integrated_at": "2026-07-21T16:20:09Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105652",
       "title": "Ein Rädchen im Uhrwerk",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_r_dchen_im_uhrwerk.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_r_dchen_im_uhrwerk.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105652.html"
+      ],
+      "post_count": 2,
+      "fulltext_archived_at": "2026-07-27T17:54:24Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Raedchen_im_Uhrwerk.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-27_Forum_ein_raedchen_im_uhrwerk.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-27T17:59:23Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105027",
       "title": "Im Dunkeln verborgen",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_dunkeln_verborgen.md",
-      "dispatch_ref": null,
-      "historian_comment": null,
-      "content_status": "metadata_only"
+      "dispatch_ref": "MSG-2026-0183",
+      "historian_comment": "Neunteiliger Angamon-Erzählkomplex mit verschlüsselter Sprache und unklarer Figuren- und Organisationszuordnung.",
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_dunkeln_verborgen.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105027.html"
+      ],
+      "post_count": 9,
+      "fulltext_archived_at": "2026-07-27T17:54:24Z",
+      "last_error": null,
+      "review_status": "historian_required",
+      "review_owner": "Historian",
+      "human_escalation_required": false
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105592",
       "title": "[IG] Vor dem Westtor in Luth Chalid..",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ig_vor_dem_westtor_in_luth_chalid.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ig_vor_dem_westtor_in_luth_chalid.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105592.html"
+      ],
+      "post_count": 2,
+      "fulltext_archived_at": "2026-07-27T17:54:24Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper",
+      "integrated_target": "docs/Siebenwind_Wiki/05_Geschichte/Vor_dem_Westtor_in_Luth_Chalid.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-27_Forum_ig_vor_dem_westtor_in_luth_chalid.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-07-27T17:59:23Z"
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105420",
       "title": "[Mitmachthread] Elfensiedlung in Brandenstein",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthread_elfensiedlung_in_brandenstein.md",
-      "dispatch_ref": null,
-      "historian_comment": null,
-      "content_status": "metadata_only"
+      "dispatch_ref": "MSG-2026-0184",
+      "historian_comment": "Mehrteilige Siedlungsgründung mit Überschneidungen zu Brandenstein und Tra avain; Zielverteilung vor Integration klären.",
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthread_elfensiedlung_in_brandenstein.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105420.html"
+      ],
+      "post_count": 6,
+      "fulltext_archived_at": "2026-07-27T17:54:24Z",
+      "last_error": null,
+      "review_status": "historian_required",
+      "review_owner": "Historian",
+      "human_escalation_required": false
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105200",
       "title": "Briefe an einen Vitamageweihten",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_briefe_an_einen_vitamageweihten.md",
-      "dispatch_ref": null,
-      "historian_comment": null,
-      "content_status": "metadata_only"
+      "dispatch_ref": "MSG-2026-0185",
+      "historian_comment": "Dreizehnteilige private Korrespondenz mit Theologie, Magietheorie und Zeitgeschichte; Identität Tendarions und Zielseiten prüfen.",
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_briefe_an_einen_vitamageweihten.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105200.html"
+      ],
+      "post_count": 13,
+      "fulltext_archived_at": "2026-07-27T17:54:24Z",
+      "last_error": null,
+      "review_status": "historian_required",
+      "review_owner": "Historian",
+      "human_escalation_required": false
     },
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105411",
       "title": "Wacht für Angamon und ein erster Kontakt",
       "decision": "duplicate",
@@ -2266,7 +2663,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105233",
       "title": "Hinter dem Spiegel",
       "decision": "duplicate",
@@ -2278,7 +2675,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105471",
       "title": "Im Schloss zu Brandenstein",
       "decision": "duplicate",
@@ -2290,7 +2687,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105386",
       "title": "Im Rathaus Luth Chalid's...",
       "decision": "duplicate",
@@ -2302,7 +2699,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105371",
       "title": "Die Nacht im Hospitz von Brandenstein",
       "decision": "duplicate",
@@ -2314,7 +2711,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105249",
       "title": "ein Abschied auf dauer?",
       "decision": "duplicate",
@@ -2326,7 +2723,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105164",
       "title": "Im starken Schutz des Höchsten.",
       "decision": "duplicate",
@@ -2338,7 +2735,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105219",
       "title": "Eine Gesellschaft",
       "decision": "duplicate",
@@ -2350,7 +2747,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105214",
       "title": "Ein Suizid",
       "decision": "duplicate",
@@ -2362,7 +2759,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105159",
       "title": "Die Felsen in der Brandung",
       "decision": "duplicate",
@@ -2374,7 +2771,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105188",
       "title": "Im Wüstensand",
       "decision": "duplicate",
@@ -2386,7 +2783,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105132",
       "title": "Bääääääääääärenkampf",
       "decision": "duplicate",
@@ -2398,7 +2795,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105060",
       "title": "Rückkehr eines Geschäftsmannes und Handwerkers",
       "decision": "duplicate",
@@ -2410,7 +2807,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105023",
       "title": "Eine Hütte in der Wildnis",
       "decision": "duplicate",
@@ -2422,7 +2819,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104750",
       "title": "Geschichten auf 1001 Hadernblatt",
       "decision": "duplicate",
@@ -2434,7 +2831,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104898",
       "title": "Der Angriff auf den Wall",
       "decision": "duplicate",
@@ -2446,7 +2843,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104852",
       "title": "Die Bewohner der Auen",
       "decision": "duplicate",
@@ -2458,7 +2855,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104864",
       "title": "Zärtliche Cousinen",
       "decision": "duplicate",
@@ -2470,7 +2867,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104860",
       "title": "Reitunterricht",
       "decision": "duplicate",
@@ -2482,7 +2879,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104857",
       "title": "Der Morgen danach.",
       "decision": "duplicate",
@@ -2494,7 +2891,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104801",
       "title": "Auf einer Lichtung im Wald",
       "decision": "duplicate",
@@ -2506,7 +2903,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104775",
       "title": "Eine Rose ohne Dornen",
       "decision": "duplicate",
@@ -2518,7 +2915,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104746",
       "title": "Die Stadttore von Finsterwangen schließen sich",
       "decision": "duplicate",
@@ -2530,7 +2927,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104735",
       "title": "Korrespondenz mit einem Erzmagier",
       "decision": "duplicate",
@@ -2542,7 +2939,7 @@
     {
       "board": "geschichten",
       "pages_scanned": 5,
-      "scanned_at": "2026-06-11T15:16:11Z",
+      "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104494",
       "title": "Umbau in Falkensee - Ab- und Aufbruchsstimmung",
       "decision": "duplicate",

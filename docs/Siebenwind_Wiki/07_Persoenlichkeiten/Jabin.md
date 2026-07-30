@@ -9,7 +9,7 @@ quelle: ../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_161.md
 !!! info "Metadaten"
     - **Titel:** Magister / Leiter des Hospizes / Grauer Gardist
     - **Epistemischer Status:** #bote
-    - **Zugehörigkeit:** [[Magierakademie]] / [[Graue_Garde]] / [[Communis_Medici]]
+    - **Zugehörigkeit:** [[Koenigliche_Akademie_der_Arkanen_Kuenste|Magierakademie]] / [[Graue_Garde]] / [[Communis_Medici]]
     - **Zeitraum:** aktiv 18 n.H.
 
 

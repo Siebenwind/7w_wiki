@@ -1,0 +1,645 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Eine ungewöhnliche Vagabundin</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 15.07.26, 22:11<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=103300&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Eine ungewöhnliche Vagabundin</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=103300"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 6 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=103300&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=103300&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=103300&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p913021"></a>
+				<b class="postauthor" style="color: #string">Zwilfy&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Eine ungewöhnliche Vagabundin</div><div style="float: right;"><a href="./viewtopic.php?p=913021#p913021"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 31.08.15, 01:09&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9202_1548510852.jpg" width="100" height="133" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 30.08.15, 13:05<br /><b>Beiträge:</b> 177				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold">Ankunft auf Siebenwind</span><br /><br />Seit wenigen Tagen zieht eine recht ungewöhnliche Vagabundin durch Siebenwind. Meist hält sie sich in der Gegend zwischen Brandenstein und Falkensee auf. Dort wandert sie zwischen den Ortschaften oder durch die Straßen und Gassen der Städte, spielt die Laute auf der Straße oder in Tavernen und scheint keinem geregelten Tagwerk nachzugehen.<br /><br />Wer in den letzten Tagen in Brandenstein oder Falkensee zugegen war, mag ihr vielleicht begegnet sein. Sie ist eine junge, hübsche und zierliche Frau von vielleicht 18 Jahren. Ungewöhnlicherweise hat ihr kurzes, lockiges und teilweise etwas verfilztes Haar eine silbrig-graue Farbe, wie das Haar einer Greisin. Im Kontrast dazu steht ihr jugendliches, ja fast kindliches verhalten und ihre teils übermütige, unbekümmerte Art. Sie ist in farbenfrohe Wanderkleidung gehüllt, der einst gelbe Umhang staubig und von unzähligen bunten Flicken übersäht. Sie trägt eine Vielzahl von Beuteln und Täschchen am Gürtel und ihrer Gewandung, die außerdem mit bunten Bändchen, Talismanen, Stickereien und Symbolen geschmückt ist. Auf dem Kopf trägt sie einen breiten, grünlich-grauen Schlapphut, der ebenso verziert ist. In der Hand hält sie einen langen Wanderstock, den Schnitzereien bedecken, und der genauso bunt geschmückt ist wie ihre Kleidung. <br /><br />Dem aufmerksamen Zeitgenossen mag auffallen, dass sie wohl schon länger umherzieht. Sie wirkt eher ungepflegt, aufgrund ihres Charisma, der eulenhaften, gelblich-grünen Augen, die meist fröhlich funkeln, der vollen Lippen, und ihrer unbekümmerten, kindlichen Art, strahlt sie auf so manchen jedoch wohl trotzdem eine äußerst natürliche Schönheit aus. Ihre einfache Kleidung ist abgetragen, an manchen Stellen geflickt und nicht sehr sauber. Die alte, aber gute Laute die an einer bunten Kordel über ihrer Schulter hängt weist darauf hin, dass sie eine Bardin oder Musikerin ist. Wer sie morgens erblickt, dem mögen Stroh oder Laub in ihrem Haar und an ihrer Kleidung ein Hinweis darauf sein, dass sie im Freien genächtigt hat.<br /><br />Dem kundigen Beobachter mögen darüber hinaus einige Details auffallen, die auf eine magische Begabung des Mädchens hinweisen, auch wenn sie diese scheinbar eher zu verbergen versucht. Wenn sie sich unbeobachtet wägt, bewegt sie Dinge (zum Beispiel ihren Wanderstock) scheinbar allein mit ihrer Gedankenkraft oder entzündet das Rauchkraut in ihrer Pfeife ohne irgendein Hilfsmittel zur Hand zu haben. Einige der Talismane an ihrer Kleidung, die aus Holz, Stein, Federn und Leder gefertigt sind mögen dem magisch gebildeten wie Fokusgegenstände erscheinen. Manchmal berührt sie diese, während sie leise vor sich hin murmelt oder summt.<br /><br />Wem sie begegnet dem mag ihre Erscheinung zunächst sehr ungewöhnlich vorkommen. Die Laute lässt sie wie eine Bardin erscheinen, der Stock und Hut wie eine Vagabundin, die Symbole und Talismane wie eine Jahrmarktzauberin, ihr graues Haar wie eine alte Frau jedoch ihr Gebaren wie ein unbekümmertes Kind. Sie strahlt gleichzeitig Weisheit und Selbstsicherheit aus so wie kindliche Zerbrechlichkeit und Sensibilität. Es scheint als stecke dieses Mädchen voller Geheimnisse und Gegensätze.</div>
+
+											<span class="postbody"><br />_________________<br /><span style="font-weight: bold">Aktive Charaktere:</span><br /><span style="font-weight: bold"><span style="color: #0080BF">Jazper Gudano - </span></span><span style="font-weight: bold"><span style="color: #BF4000">Geschäftsmann und Opportunist</span></span><br /><br /><span style="font-weight: bold">Ehemalige Charaktere:</span><br />Zwilfy Wyrfel, Tilvoril Lheyafir, Thal Ravik, Trizk Salamandris</span>
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=9202" style="color: #string;" class="username-coloured">Zwilfy</a>: 8.09.15, 14:06, insgesamt 2-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9202"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p913130"></a>
+				<b class="postauthor" style="color: #string">Zwilfy&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Eine ungewöhnliche Vagabundin</div><div style="float: right;"><a href="./viewtopic.php?p=913130#p913130"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 2.09.15, 11:33&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9202_1548510852.jpg" width="100" height="133" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 30.08.15, 13:05<br /><b>Beiträge:</b> 177				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold">Heilerin für eine Nacht</span><br /><br />Am Tag der Heerschau zu Falkensee haben sich einige Menschenmassen auf den Plätzen der Stadt versammelt um dem Spektakel beizuwohnen. Unter ihnen war auch die merkwürdige, junge Vagabundin, die man seit einigen Tagen des öfteren sieht. Wie gewohnt spazierte sie mit ihrem bunt verzierten Wanderstock und der Laute &quot;bewaffnet&quot; durch die Gassen.<br /><br />Zu später Stunde, als die Streiter aus der Schlacht zurückkehrten und es hieß die zweite &quot;Schlacht&quot; - das Behandeln und Retten der Verwundeten - zu schlagen, war die junge Frau im Hospitz zugegen. Mit ihrer schäbigen, bunten und leicht schmutzigen Kleidung wirkte sie dort wohl ein wenig fehl am Platze. Dennoch packte sie fleißig mit an und ging dem Heiler Tendarion bei der Versorgung der Verletzten zur Hand. Dem aufmerksamen Beobachter mag aufgefallen sein, dass sie sich in dieser Rolle wohl ein wenig seltsam oder unsicher gefühlt haben mag. Man hat ihr anmerken können, dass diese Situation für sie neu war. Denjenigen um die sich sich gekümmert hat, mag außerdem ihre kindliche Art und ihre offene, liebevolle und unbekümmerte Umgangsweise mit ihren Mitmenschen aufgefallen sein, jedoch auch ihre fehlende Kenntnis von Etikette und höfischen Umgangsformen, militärischen Rängen und dergleichen. Und wer einen Blick in ihre eulenartigen, großen gelblich-grünen Augen gewagt hat, der mag darin ein lebhaftes Funkeln und kindliche Begeisterung entdeckt haben. <br /><br />Nachts, als sich das Hospitz allmählich geleert hatte und die zum Glück größtenteils nur leicht verwundeten Soldaten wieder auf den Beinen waren, konnte manch ein Beobachter sie vielleicht noch sehen, wie sie sich auf einer Bank am Marktplatz ausruhte und genüsslich eine Pfeife rauchte, bevor sie in der Dunkelheit der voranschreitenden Nacht verschwand. Wer sie etwas näher kennt, dem mag aufgefallen sein, dass sie ungewohnt nachdenklich wirkte.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9202"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p913320"></a>
+				<b class="postauthor" style="color: #string">Zwilfy&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Eine ungewöhnliche Vagabundin</div><div style="float: right;"><a href="./viewtopic.php?p=913320#p913320"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 8.09.15, 16:44&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9202_1548510852.jpg" width="100" height="133" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 30.08.15, 13:05<br /><b>Beiträge:</b> 177				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold">Verschlungene magische Pfade</span><br /><br />Mit nachdenklich gerunzelter Stirn schlendert die junge Frau über den Marktplatz von Falkensee, aus Richtung der Königlichen Magierakademie kommend. Sie hält ihren fein geschnitzten, und mit bunten Lederbändern, Perlen und einigen federn geschmückten Wanderstock in der rechten und ihre linke Hand ist um die Kordel geschlungen, an der eine alte Laute über ihrer Schulter hängt. Ihr einst gelber Mantel, mit den unzähligen, farbenfrohen Flicken flattert hinter ihr im Wind. Ihre einst farbenfrohe, vielleicht gar leuchtende Kleidung ist abgetragen, von Staub und Schmutz ermattet und teilweise löchrig oder geflickt. Die aufgenähten, merkwürdigen Symbole und die angebrachten Talismane, Federn und Perlen lassen sie auf sonderbare Weise Aufmerksamkeit erwecken. Trotz ihres Zustandes wirkt die Kleidung passend, auf seltsame Weise &quot;richtig&quot;. Dem einfühlsamen Beobachter mag es fast scheinen, als bestehe eine innige Bindung zwischen der Frau und ihrer Kleidung. Ihr nicht ganz schulterlanges Haar, das unter dem braunen, bunt verzierten Wanderhut hervorschaut ist hellgrau, mit einem silbrigen Schimmer und flattert ebenfalls leicht im Wind. Es ist leicht gelockt, zerzaust und teilweise verfilzt. Einige Holzperlen und Federn sind hinein geflochten.<br /><br />Während ihre zierlichen, in abgelatschten, braunen Lederschuhen steckenden, Füße sie über das unebene Pflaster tragen bewegen sich ihre Lippen als würde sie zu sich selbst sprechen. Jedoch nur wer ihr sehr nahe kommt kann fetzen dieses Selbstgespräches erhaschen.<br /><br /><span style="font-weight: bold">&quot;...am Unterricht teilnehmen...&quot;</span>, murmelt sie nachdenklich den Kopf schüttelnd. <span style="font-weight: bold">&quot;Das tragen von Hüten ist auf dem Gelände der Akademie verboten!&quot;</span>, sagt sie spöttisch in einer merkwürdigen Stimm- und Tonlage, als würde sie jemanden imitieren wollen. <span style="font-weight: bold">&quot;...aber interessantes Wissen gibt es dort bestimmt aufzuschnappen...&quot;</span>, spricht sie wie um sich selbst zu überzeugen. <span style="font-weight: bold">&quot;Ich kann es mir ja mal anseh'n!&quot;</span>, scheint sie letztlich schulterzuckend eine Entscheidung zu treffen, während sie es sich auf einer der Bänke am Falkenseer Brunnen bequem macht. <br /><br />Nachdenklich bleibt sie auf der Bank sitzen und starrt auf die unruhige Wasserfläche des Springbrunnens. Ihre Gedanken kreisen um die seltsamen Ereignisse, in die sie seit ihrer Ankunft auf Siebenwind verstrickt war. Dann wandern sie weiter zurück, folgen dem Pfad der sie hierher geführt hat. Zu ihrer Zeit als Teil einer Truppe des Fahrenden Volks, da sie viel über die Natur ihrer magischen Begabung erfuhr und allmählich lernte, diese besser zu kontrollieren. Ihr Lehrmeister, Ortmas der Seher, wie ihn alle nannten. Zwilfy wusste nicht wirklich wer oder was der alte Mann war. Nur dass er wohl einmal auf einer Magierakademie unterrichtet wurde, von wo er jedoch floh. Er zeigte ihr wie man Talismane herstellt und als Fokus nutzt um seine magischen Kräfte besser zu lenken und zu kontrollieren. Durch ihn gelang es ihr, ihre magische Seite zu akzeptieren und nicht weiter zu fürchten. Sie lernte über die Jahre, ihr Talent gezielt einzusetzen und für sich zu nutzen.<br /><br />Als ihre Gedanken noch weiter zurück wandern, zu der Zeit da sie im Heim lebte, verfinstert sich ihr Blick etwas. Die Stirn kräuselt sich in leichten Falten. Damals wusste sie noch nichts über die Magie. Wie ein unzähmbarer Sturm trat die Magie manchmal aus ihr hervor, oder aber sie legte sich wie ein behütender, sanfter Mantel um sie. Scheinbar nur geweckt und gelenkt durch ihre stärksten Gefühle wie Angst oder Wut. Sie erinnert sich an die unendliche Angst, eine Hexe zu sein, oder schlimmeres... an Ihre Flucht...<br /><br />Während sie schließlich, am ende ihres gedanklichen Weges, kurz über ihre eigene Geburt sinniert, und die Mutter die sie nie kennen lernen durfte, spielen ihre Finger unbewusst an einem kleinen Beutelchen, das an ihrem Gürtel befestigt ist. In ihm befinden sich zwei steinerne Würfel, ihr einziges Andenken an ein zu Hause, in dem sie nie wirklich zu Hause war... <br /><br />Dann bewegen sich ihre Gedanken in ungewohnte Bahnen. Sie forschen nach dem Kern ihrer magischen Begabung, nach dem Kern ihrer selbst. Scheinbar angeregt durch das Gespräch, dass sie an der Magierakademie mit dem Hofmagier von Brandenstein geführt hat. Sie erkennt, dass sie eigentlich nichts über die Magie weiß. Sie weiß, wie sich die Magie anfühlt, wie sie sie teilweise als leise Melodie wahrnehmen, und manchmal ihre Schwingungen spüren kann. Die Magie scheint eng an ihr musikalisches Gespür gebunden zu sein. Fast gleichzeitig mit dem erlernen der Flöte und Laute trat damals ihr magisches Talent hervor. Jedoch weiß sie nichts über die Magie an sich. Woher sie kommt. Warum es sie gibt. Warum ausgerechnet sie eine magische Begabung hat. Ihr wird bewusst, dass sie sich diese Fragen niemals zuvor gestellt hat. Selbst Ortmas hatte sie nur die praktische Seite der Magie gelehrt. Nützliche Tricks, wie sie es immer nannte... <br /><br />Ihre Neugier treibt sie letztlich zu dem Entschluss, sich erst einmal am Unterricht an der Magierakademie zu beteiligen, wie Sandir es ihr vorgeschlagen hatte. Zusätzliches Wissen konnte letztlich nur nützlich für sie sein. Und in der Magierakademie gab es sicher unglaublich viele Geheimnisse herauszufinden und magische Dinge zu entdecken...</div>
+
+											<span class="postbody"><br />_________________<br /><span style="font-weight: bold">Aktive Charaktere:</span><br /><span style="font-weight: bold"><span style="color: #0080BF">Jazper Gudano - </span></span><span style="font-weight: bold"><span style="color: #BF4000">Geschäftsmann und Opportunist</span></span><br /><br /><span style="font-weight: bold">Ehemalige Charaktere:</span><br />Zwilfy Wyrfel, Tilvoril Lheyafir, Thal Ravik, Trizk Salamandris</span>
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=9202" style="color: #string;" class="username-coloured">Zwilfy</a>: 3.11.15, 15:58, insgesamt 3-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9202"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p915349"></a>
+				<b class="postauthor" style="color: #string">Zwilfy&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Eine ungewöhnliche Vagabundin</div><div style="float: right;"><a href="./viewtopic.php?p=915349#p915349"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 3.11.15, 13:07&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9202_1548510852.jpg" width="100" height="133" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 30.08.15, 13:05<br /><b>Beiträge:</b> 177				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold">Neue Wege tun sich auf</span><br /><br />Einige Wochen sind ins Land gezogen und Zwilfy war in die verschiedensten Geschichten verstrickt. Rasch hat sie die Insel auf der sie so unverhofft gelandet ist, mitsamt ihren Bewohnern, in ihr Herz geschlossen. Viele neue Freunde hat sie gefunden und viel lustige, aber auch viele erschreckende Dinge erlebt. Durch ihre Ankunft auf der Insel hat sich ihr Leben komplett verändert. Zwar lebt sie noch immer als Vagabundin, jedoch nicht mehr als Teil einer großen Truppe. Sie zieht nicht mehr durch ganz Galadon, von ort zu Ort, sondern lebt nun auf einer recht kleinen, aber alles andere als friedlichen Insel. Sie muss hier alleine ihren Weg finden, allein zurecht kommen. Und durch das Alleinsein hat sie ungewohnt viel Zeit um über sich und Tare nachzudenken. Eine Frage die sie vor allem beschäftigte war die nach ihrer Rolle in der Welt. Konnte es sein, dass sie einfach nur existierte, ohne einen Grund? Oder gab es dort draußen irgendeine Aufgabe  für sie? Hatte es gar einen bestimmten Grund, dass sie ausgerechnet hier... auf Siebenwind gelandet war? Waren die Viere sich ihrer bewusst und hatten sie gar etwas bestimmtes für sie vorgesehen? Sie wusste es nicht, aber sie hatte sich vorgenommen es herauszufinden. Sie würde ihrem Herzen folgen und den Vieren, allen voran Vitama, die sie so sehr an ihre eigene Mutter erinnerte, gleichwohl sie diese nie kennen lernen durfte...<br /><br />In einen wunderschönen, weiten Umhang aus Federn gehüllt durchstreift sie mittlerweile das Land. Noch immer trägt sie den markanten, bunt verzierten Wanderhut und an ihrer Kleidung sind Bändchen, Talismane und andere Verzierungen und Schmuckstücke angebracht. Der sorgfältig geschnitzte und ebenso vielseitig verzierte Wanderstock scheint ihr ständiger Begleiter zu sein. Seit kurzem trägt sie dazu noch ein hölzernes Schwert an ihrem Gürtel, das mit einer Eulenschnitzerei verziert ist. Sie ist jedenfalls noch immer recht eindeutig als Vagabundin zu entlarven. Die zwischenzeitig aufgetretenen Zeichen von Müdigkeit und Sorge sind seit Gestern wieder von ihrem jungen, fast kindlichen Gesicht verschwunden. Seit dem Morgen strahlt sie gar eine Lebensfreude aus, wie sie selbst für sie ungewöhnlich ist. Selig lächelnd schlendert sie zum Marktplatz, wohl von der Magierakademie her kommend. <br /><br /><span style="font-weight: bold">&quot;Jetzt ist es also soweit&quot;</span>, denkt sie während sie über die zu dieser Uhrzeit leeren Marktstände blickt. <span style="font-weight: bold">&quot;Ich werde eine Magierin, und auch noch eine graue!&quot;</span> Sie schmunzelt etwas vor sich hin, während sie weiter durch das morgendliche Falkensee schlendert. <span style="font-weight: bold">&quot;Wer hätte das gedacht, dass etwas graues in mir steckt? Aber Erynnions Worte waren eindeutig.&quot;</span>, sie nickt vor sich hin, wie um sich selbst endgültig davon zu überzeugen. <span style="font-weight: bold">&quot;Und Tendarion und der Tempel werden mir helfen, mehr über die Götter zu lernen.&quot;</span> Mittlerweile spricht sie die Worte gar leise zu sich selbst, scheinbar ohne sich dessen bewusst zu sein.<br /><br /><span style="font-weight: bold">&quot;Vielleicht kann ich so meinen Weg finden, in dem ich mehr lerne. Über die Magie, über die Götter und über mich selbst.&quot;</span><br /><br /><span style="font-weight: bold">&quot;Und dann ist da ja auch noch Susen...&quot;</span>, schießt es ihr durch den Kopf und ihr lächeln formt sich zu einem schelmischen Grinsen. <span style="font-weight: bold">&quot;Mal seh'n was sie dazu sagt!&quot;</span>. Sie schnalzt fröhlich mit der Zunge und schlendert Richtung Rathaus weiter.<br /><br />Als sie auf dem Kopfsteinpflaster vor sich einen saftigen Apfel liegen sieht, hält sie inne. Noch vor wenigen Tagen hätte sie sich ohne zu zögern danach gebückt, hinein gebissen und Vitama gedankt während sie ihn genüsslich verspeist hätte. Nun jedoch... aufgrund der schlechten Erfahrungen die sie in den letzten Tagen mit vergiftetem Obst und Giftfallen gemacht hat, fokussiert sie den Apfel mit ihrem Blick, und scheinbar nur durch die Kraft ihrer Gedanken lässt sie ihn etwa eine Elle hoch in die Luft schweben, dann versetzt sie ihm einen Tritt, so dass er in einem Gebüsch vor dem Tempel verschwindet. Kichernd und wie befreit tänzelt sie weiter und beginnt eine fröhliche und zugleich recht ungewöhnliche Melodie zu summen. <br /><br />Ihr blick hebt sich gen Himmel. <span style="font-weight: bold">&quot;Ein guter Tag!&quot;</span>, sagt sie fröhlich und zufrieden.</div>
+
+											<span class="postbody"><br />_________________<br /><span style="font-weight: bold">Aktive Charaktere:</span><br /><span style="font-weight: bold"><span style="color: #0080BF">Jazper Gudano - </span></span><span style="font-weight: bold"><span style="color: #BF4000">Geschäftsmann und Opportunist</span></span><br /><br /><span style="font-weight: bold">Ehemalige Charaktere:</span><br />Zwilfy Wyrfel, Tilvoril Lheyafir, Thal Ravik, Trizk Salamandris</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9202"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p931696"></a>
+				<b class="postauthor" style="color: #string">Zwilfy&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Eine ungewöhnliche Vagabundin</div><div style="float: right;"><a href="./viewtopic.php?p=931696#p931696"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 25.11.16, 14:16&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9202_1548510852.jpg" width="100" height="133" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 30.08.15, 13:05<br /><b>Beiträge:</b> 177				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold">Unerwartete Rückkehr</span><br /><br />Urplötzlich war sie wieder da. Die unverwechselbare Zwilfy Wyrfel, Vagabundin mit Hut, Stock und Holzschwert. Getrieben von Neugierde, Abenteuerlust und einem großen Schuss verrückter, kindlicher Fantasie. Nachdem Zwilfy im Chaos der letzten Monde nur selten in den Städten Siebenwinds zu sehen war, ist sie seit zwei Tagen auf einmal wieder in Brandenstein zugegen, als wäre sie nie fort gewesen. Etwas verwildert sah sie zwar aus. Tannennadeln im verfilzten Haar, Schmutz im gewohnt fröhlichen Gesicht und abgewetzte, löchrige Klamotten. Aber nichts was ein Bad sowie Nadel und Faden nicht rasch wieder in Ordnung gebracht hätten.<br /><br />Sie hat wohl viel Zeit in den Wäldern verbracht, abseits der Anfeindungen und Auseinandersetzungen zwischen den Parteien und Städten. Ein paarmal zeigte sie sich zwar in Falkensee, war dabei aber erstaunlich ruhig und in sich gekehrt und verschwand meist so plötzlich wieder, wie sie aufgetaucht war. Ob sie nur die nahende Kälte wieder in die Stadt trieb? Oder war da noch etwas anderes?<br /><br />Nun spaziert sie jedenfalls durch die Gassen Brandensteins und steckt wie eh und je ihre Nase in sämtliche verlockende Angelegenheiten und Winkel. Ihr loses Mundwerk und ihre kindliche Neugierde sorgen bei den Einen für herzliche Belustigung und Freude, bei den Anderen für zähneknirschenden Frust und Unverständnis. Sie treibt sich wohl auch des Öfteren bei der Wagensiedlung vor Brandenstein herum. Eine Vagabundin wie sie wird von bunten Wägen und Zelten wohl magisch angezogen. <br /><br />Jedenfalls hat sie begonnen, alte Freundschaften zu pflegen, neue zu schließen und sie beweist bereits wieder ihr Talent dafür, in die verrücktesten Geschichten verwickelt zu werden, oder sie notfalls selbst zu initiieren. Fast scheint es, als sei sie diesmal zurückgekommen, um zu bleiben...</div>
+
+											<span class="postbody"><br />_________________<br /><span style="font-weight: bold">Aktive Charaktere:</span><br /><span style="font-weight: bold"><span style="color: #0080BF">Jazper Gudano - </span></span><span style="font-weight: bold"><span style="color: #BF4000">Geschäftsmann und Opportunist</span></span><br /><br /><span style="font-weight: bold">Ehemalige Charaktere:</span><br />Zwilfy Wyrfel, Tilvoril Lheyafir, Thal Ravik, Trizk Salamandris</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9202"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p932045"></a>
+				<b class="postauthor" style="color: #string">Zwilfy&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Eine ungewöhnliche Vagabundin</div><div style="float: right;"><a href="./viewtopic.php?p=932045#p932045"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.12.16, 14:06&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9202_1548510852.jpg" width="100" height="133" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 30.08.15, 13:05<br /><b>Beiträge:</b> 177				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold">Gedanken im Schneetreiben</span><br /><br />Nachdenklich saß Zwilfy auf einem der verlassenen Marktstände in Brandenstein, gemütlich an den Balken der Überdachung gelehnt. Ein Bein hatte sie ganz an ihren Körper gezogen mit dem matschigen Stiefel auf dem Tresen, ihr Kinn ruhte auf ihrem Knie. Das andere Bein baumelte vom Marktstand und der Stiefel polterte regelmäßig leicht gegen die Bretterverkleidung des Stands, wie der dumpfe Schlag einer fernen Trommel. Ihr Blick verlor sich im wirren treiben der Schneeflocken, die den Marktplatz in ein gespenstisches Weiß hüllten.<br /><br /><span style="font-weight: bold">&quot;Nun bricht also der Morsan an, kalt, still und weiß wie immer...&quot;</span>, ging es ihr durch den Kopf, während sie das Spiel der Flocken mit einem verzückten Lächeln auf den Lippen beobachtete. Ihren mit bunten Verzierungen und Federn versehenen Wandershut hatte sie tief ins Gesicht gezogen, und den Umhang aus Federn eng um den schlanken, fast kindlichen Körper geschlungen.<br /><br /><span style="font-weight: bold">&quot;Jeder scheint schon wieder die Dunklen Tage zu fürchten. Der Umgang wird rauher, ich kann die Angst förmlich riechen... Aber wir werden's schon schaffen, wie jedes Jahr!&quot;</span>, setzten sich ihre Gedankengänge fort.<br /><br />Sie zog aus ihrer Umhängetasche eine kleine Laterne und stellte sie neben sich auf den Tresen. Ein kurzer Griff an den Talisman aus Feuerstein, der an ihrem Gürtel befestigt war, und ein Augenblick der Konzentration, begleitet von leisem Summen, reichte aus um den Docht wie von Geisterhand zu entflammen. Im Schein der Laterne machte sie sich daran ihre Pfeife zu stopfen, mit dem guten Rauchkraut vom Markt in Dunquell. Ihr Lächeln verbreiterte sich ein wenig, als sie an den Hobbit Ergon dachte, der es ihr verkauft hatte. <br /><br /><span style="font-weight: bold">&quot;Irgendwie bin ich auch fast wie ein Hobbit.&quot;</span>, schoss es ihr durch den Kopf. <span style="font-weight: bold">&quot;Zumindest tausche ich auch lieber, als diese schweren Münzen mit mir rum zu schleppen. Aber ich trink' auch Trosh wie ein Zwerg, und sammle Wissen wie ein Elf... und außerdem kann ich zaubern. Hmmm, irgendwie bin ich wohl von allem ein wenig.&quot;</span>, mit diesem Gedanken konnte sie sich scheinbar gut anfreunden, denn ihr Lächeln war nun fast seelig und von Vorfreude erfüllt klemmte sie sich die Pfeife zwischen die Zähne. Ebenso wie die Lampe, ließ diese sich ganz leicht per Gedanken entzünden, unterstützt von dem Talisman, der ihr wohl als Fokus diente.  Schon wurde die Luft um sie herum von dicken, würzigen Rauchschwaden erfüllt.<br /><br />Als ihr Blick zum Tempel der Viere ging, dessen Säulen und Portale durch das Schneetreiben eher schemenhaft zu erahnen waren verschwand das Lächeln ganz kurz von ihren Lippen und ein paar nachdenkliche Falten kräuselten ihre Stirn. <br /><br /><span style="font-weight: bold">&quot;Ein wenig Sorgen macht es mir aber schon, dass grade jetzt die Kirche so zerrissen scheint. Ausgerechnet jetzt, wo eigentlich alle Freunde des Lichts zusammenhalten müssten... Ob Tendarion und die anderen das rechtzeitig wieder hinkriegen?quot;</span><br /><br />Ihr Blick ging etwas ins Leere, während diese Gedanken von ihr Besitz ergriffen. Nach nur einem kurzen Moment der Ernsthaftigkeit kehrten ihr Lächeln und die Ausstrahlung völliger Unbekümmertheit und Gelassenheit jedoch sofort zurück. Als wären sie nie fort gewesen. Wie der strahlende Sonnenschein, der mit voller Kraft zurückkehrt nachdem er für Sekunden von einer kleinen Wolke abgedunkelt wurde. <br /><br /><span style="font-weight: bold">&quot;Dann muss ich ihnen eben irgendwie unter die Arme greifen.&quot;</span>, nahm sie sich vor und sprang mit diesem Gedanken vom Tresen. Geschickt und sicher landeten ihre Füße auf dem mittlerweile rutschigen Pflaster. Ihren kunstvoll mit Schnitzereien und allerhand Bändern, Federn, Muscheln und Steinen verzierter Wanderstock landete fast wie von Geisterhand in ihrer Rechten, die Linke schnappte sich die kleine Laterne. Und so stapfte sie dann durch's Schneetreiben davon...</div>
+
+											<span class="postbody"><br />_________________<br /><span style="font-weight: bold">Aktive Charaktere:</span><br /><span style="font-weight: bold"><span style="color: #0080BF">Jazper Gudano - </span></span><span style="font-weight: bold"><span style="color: #BF4000">Geschäftsmann und Opportunist</span></span><br /><br /><span style="font-weight: bold">Ehemalige Charaktere:</span><br />Zwilfy Wyrfel, Tilvoril Lheyafir, Thal Ravik, Trizk Salamandris</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9202"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=103300&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=103300"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 6 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 5 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=103300"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

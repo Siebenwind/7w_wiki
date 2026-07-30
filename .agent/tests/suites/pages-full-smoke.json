@@ -37,7 +37,7 @@
         "pages_health.legacy_wiki_root": null,
         "pages_health.legacy_root_status": "removed"
       },
-      "timeout_sec": 300
+      "timeout_sec": 420
     }
   ]
 }

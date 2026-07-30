@@ -23,4 +23,4 @@ Der **Grix** ist ein etwa halblinggroßes, geflügeltes Wesen mit dem Aussehen e
 *   **Läuterung:** Im Tempel zu [[Falkensee]] wurde der Grix festgehalten und unter Anleitung der Priesterschaft geläutert, bis er versprach, seine Kräfte künftig nur noch zum Wohle der [[Menschen]] einzusetzen. Er verschwand daraufhin in seine Heimsphäre.
 
 ---
-**Siehe auch:** [[Magierakademie]], [[Falkenwall]], [[Jabin]]
+**Siehe auch:** [[Koenigliche_Akademie_der_Arkanen_Kuenste|Magierakademie]], [[Falkenwall]], [[Jabin]]

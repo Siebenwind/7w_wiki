@@ -1,5 +1,156 @@
 # Changelog
 
+#### [2026-07-30.01] - Pages-Full-Smoke-Zeitbudget stabilisiert
+### Prioritaet: P2
+### Behoben
+- `MSG-2026-0190`: Das Zeitbudget des bewusst langsamen Full-Smoke-Pfads wurde von 300 auf 420 Sekunden angehoben.
+- Der direkte Lauf endete fachlich korrekt mit `WARN` und `drift_status = PASS`, benötigte mit `300,36 s` jedoch knapp mehr als das frühere Suite-Limit.
+### Validiert
+- Fokussierter Re-Test: `./7w_wiki.py test --suite pages-full-smoke`
+- Anschließender stabiler Gesamtlauf: `./7w_wiki.py test --suite all`
+
+#### [2026-07-29.01] - Forum-Ingestion: sechster Fuenferbatch
+### Prioritaet: P2
+### Hinzugefügt
+- Die Topics `105652`, `105027`, `105592`, `105420` und `105200` wurden einzeln mit Volltext und Raw HTML archiviert und vollständig triagiert.
+- Neue Wikiartikel: `Ein_Raedchen_im_Uhrwerk.md` und `Vor_dem_Westtor_in_Luth_Chalid.md`.
+- `MSG-2026-0183`, `MSG-2026-0184` und `MSG-2026-0185` routen die komplexen Quellen `Im Dunkeln verborgen`, `Elfensiedlung in Brandenstein` und `Briefe an einen Vitamageweihten` mit Entity-Manifesten an den Historian.
+### Geändert
+- Datierungen aus September und Oktober 2016 wurden in gültige Sonnenzirkelangaben des Carmer und Carmar 27 n.H. überführt.
+- Quellenkarten und Forumregister dokumentieren die beiden Integrationen und die drei Historian-Aufträge samt tatsächlicher Bearbeitungsrollen.
+### Behoben
+- Die Wortähnlichkeit `Luth` / `Luther` erzeugte keine falsche Zielkollision; bestehende Seiten zu `Fela`, `Tra avain`, `Brandenstein` und `Celedelair` wurden vor Neuanlagen geprüft.
+- Der 29. September wurde nicht als ungültiger 29. Carmer übernommen, sondern als Ende des Carmer wiedergegeben.
+### Validiert
+- Lektor und Sanitizer für beide neuen Wikiartikel: PASS
+- `./7w_wiki.py audit --json`: `issues_found = 0`, Abschlussreport `4f7f89c3-b745-4f47-8c39-55b5f189b3f4`
+- `./7w_wiki.py pages validate --contract --json`: `drift_status = PASS`, Gesamtstatus WARN nur wegen des bekannten Linkbacklogs
+- `forum-ingest-contract`, `source-tree-contract`, `content-contract`, `render-hygiene` und die vollständige Testsuite: PASS
+- Statistik, Archivrotation und Tool-Manifest wurden im Session-Handover aktualisiert; `git diff --check`: PASS
+- Das Orakel blieb wegen des fehlenden lokalen Embedding-Modells nicht verfügbar; die Kollisions- und Quellenprüfung erfolgte konservativ im Repository.
+
+#### [2026-07-21.01] - Forum-Ingestion: fuenfter Fuenferbatch
+### Prioritaet: P2
+### Hinzugefügt
+- Die Topics `105722`, `105760`, `105563`, `105756` und `105685` wurden einzeln mit Volltext und Raw HTML archiviert und vollstaendig triagiert.
+- Neuer Wikiartikel: `Fjerulfs_Pfad.md` als quellenkritische Erzaehlung ueber Aervilds erste Wege auf Siebenwind.
+- Drei Pruefberichte dokumentieren `Einsamkeit und ein unerwartetes Treffen`, `Glut und Asche` sowie den inhaltsleeren Beitrag `Gefaehrliches Spiel` als `reviewed_no_wiki_change`.
+### Geändert
+- `Vencurius.md` wurde um die perspektivisch belegte Gefangennahme am 23. Carmar 27 n.H. erweitert.
+- Alle Datierungen aus 2016 wurden mit dem Time-Keeper in gueltige Sonnenzirkelangaben des Jahres 27 n.H. ueberfuehrt.
+- Erzaehlungsindex, Personenregister und Persoenlichkeitsuebersicht wurden an die neuen beziehungsweise konsolidierten Ziele angepasst.
+### Behoben
+- Die bestehende Doppelung `Erzpriester_Vencurius.md` / `Vencurius.md` wurde im beruehrten Zielbereich auf `Vencurius.md` konsolidiert; eingehende Register- und Uebersichtslinks zeigen nun auf eine Personenseite.
+- Unbenannte Fey und der unbenannte Dwarschim aus zwei Quellen erzeugen keine spekulativen Personenartikel.
+- `Gefaehrliches Spiel` erzeugt aus Titel und Autor keine erfundene Lore.
+### Validiert
+- Lektor und Sanitizer fuer `Fjerulfs_Pfad.md` und `Vencurius.md`: PASS
+- `./7w_wiki.py audit --json`: `issues_found = 0`, Abschlussreport `6edfad48-6f98-4cba-a846-0ab561abb290`
+- `./7w_wiki.py pages validate --contract --json`: `drift_status = PASS`, Gesamtstatus WARN nur wegen des bekannten Linkbacklogs von 625 Zielen
+- `forum-ingest-contract`, `source-tree-contract`, `content-contract`, `render-hygiene` und die vollstaendige Testsuite: PASS
+- Keine OG-Jahreszahlen oder ungueltigen Sonnenzirkeltage in den beiden Wikiartikeln; `git diff --check`: PASS
+
+#### [2026-07-15.05] - Forum-Ingestion: vierter Fuenferbatch
+### Prioritaet: P2
+### Hinzugefügt
+- Die Topics `103300`, `105844`, `105537`, `105810` und `105770` wurden einzeln mit Volltext und Raw HTML archiviert und vollstaendig triagiert.
+- Neue Wikiartikel: `Benjamin_Mondsilberhaar.md`, `Der_verlorene_Knappe.md` und `Das_Spiel_geht_weiter.md`.
+- `MSG-2026-0179` routet die mehrjaehrige Charakterchronik `Eine ungewöhnliche Vagabundin` an den Historian.
+- `Ein Wiedersehen` wurde mangels benannter Zielentitaet als `reviewed_no_wiki_change` archiviert und dokumentiert.
+### Geändert
+- Benjamin Mondsilberhaar wurde im Personenregister und Persoenlichkeitsindex eingetragen.
+- OG-Datierungen wurden in Sonnenzirkelangaben des 26. und 27. Jahres n.H. uebertragen.
+### Behoben
+- Erdmonatstage oberhalb des 28-Tage-Sonnenzirkels werden als Monatsende wiedergegeben statt ungueltige Daten wie `29. Carmer` zu erzeugen.
+- Der Knappe Vincent wurde nicht ohne Nachweis mit `Vincent_Ebenstein` gleichgesetzt; der Titel `Honig und Flauschefell` erzeugte keine falsche Verbindung zu `Mirila_Mik-Honigzopf`.
+- Ein neuer toter WikiLink zu Kesselklamm wurde vermieden, da keine kanonische Zielseite existiert.
+### Validiert
+- `./7w_wiki.py check` und `./7w_wiki.py sanitize --json` fuer alle drei Wiki-Ziele
+- `./7w_wiki.py audit --json` (`issues_found = 0`, Report `30a9b2ed-09a2-4c35-a66a-50ed443c503e`)
+- `./7w_wiki.py pages validate --contract --json` (`drift_status = PASS`, Gesamtstatus WARN wegen bestehendem Pages-Linkbacklog)
+- `forum-ingest-contract`, `source-tree-contract`, `content-contract` und `render-hygiene`: PASS
+- Keine OG-Jahreszahlen oder ungueltigen Sonnenzirkeltage in den neuen Wikiartikeln; `git diff --check`: PASS
+
+#### [2026-07-15.04] - Forum-Ingestion: dritter Fuenferbatch
+### Prioritaet: P2
+### Hinzugefügt
+- Die Topics `109948`, `109946`, `110019`, `109883` und `109927` wurden einzeln mit Volltext und Raw HTML archiviert und vollstaendig triagiert.
+- Neue Wikiartikel: `Ein_besonderer_Arbeitstag.md`, `Lusenia_Remorian.md` und `Bauarbeiten_im_Norden.md`.
+- `MSG-2026-0176` und `MSG-2026-0177` routen die komplexen Mehrbeitragsquellen `Die Säulen des Valkun` und `In der Kapelle von Ewigwacht` an den Historian.
+- Drei Ingestion-Reports enthalten vollstaendige Entity-Manifeste.
+### Geändert
+- Alle im Wiki uebernommenen OG-Daten wurden in Sonnenzirkelangaben ueberfuehrt: 14./29./31. Sekar 33 n.H. sowie 1./2./11./20. Oner 34 n.H.
+- `Lusenia_Remorian` wurde im Personenregister und im Persoenlichkeitsindex eingetragen.
+### Behoben
+- Die unbenannte Stadt des besonderen Arbeitstags und die unbenannte nortravische Siedlung wurden nicht spekulativ vorhandenen Orten zugeordnet.
+- Finalizer-Standardbesitzer wurden auf die tatsaechlich beteiligten Rollen Scout, Ingestor, Wiki-Schmied und Time-Keeper korrigiert.
+### Validiert
+- `./7w_wiki.py check` und `./7w_wiki.py sanitize --json` fuer alle drei Wiki-Ziele
+- `./7w_wiki.py audit --json` (`issues_found = 0`, Abschlussreport `669f8380-06af-40bf-93a0-87c1da30dedf`)
+- `./7w_wiki.py pages validate --contract --json` (`drift_status = PASS`, Gesamtstatus WARN wegen bestehendem Pages-Linkbacklog)
+- `forum-ingest-contract`, `source-tree-contract`, `content-contract` und `render-hygiene`: PASS
+- Keine OG-Jahreszahlen in den neuen Wikiartikeln; `git diff --check`: PASS
+
+#### [2026-07-15.03] - Forum-Ingestion: zweiter Fuenferbatch
+### Prioritaet: P2
+### Hinzugefügt
+- Die Topics `110166`, `110158`, `110155`, `110144` und `110037` wurden einzeln mit Volltext und Raw HTML archiviert und vollstaendig verarbeitet.
+- Neue Wikiartikel: `Von_vertrauter_Vergaenglichkeit.md`, `Die_Weihe_einer_Schmiede.md` und `Bau_einer_Faehre_in_Brandenstein.md`.
+- Fuenf Ingestion-Reports enthalten Entity-Manifeste fuer Personen, Orte, Organisationen, Ereignisse, Gegenstaende und Sonnenzirkel-Zeitpunkte.
+### Geändert
+- `Angriff_auf_Westhever_Piraten_in_Sicht.md` wurde um den Angriff der Ventria im Dular 34 n.H. erweitert.
+- `Koenigliche_Akademie_der_Arkanen_Kuenste.md` dokumentiert nun die ungeklärten Vorgaenge im Duler 34 n.H.; die fuehrende Charta-Quelle bleibt erhalten.
+- OG-Datierungen wurden durchgehend in Sonnenzirkelangaben ueberfuehrt. Auch `An_warmen_Sommertagen.md` und `Piraten_seid_gewarnt.md` aus dem vorherigen Restbatch wurden nachgezogen.
+### Behoben
+- Der leere Doppelartikel `00_Fundament/Magierakademie.md` wurde entfernt; alle eingehenden Links zeigen nun auf die kanonische `Koenigliche_Akademie_der_Arkanen_Kuenste.md`.
+- Der OOC-Nachspann des Hafen-Events blieb im Quellenarchiv und gelangte nicht in den Wikiartikel.
+### Validiert
+- `./7w_wiki.py check` und `./7w_wiki.py sanitize --json` fuer alle fuenf Wiki-Ziele
+- `./7w_wiki.py audit --json` (`issues_found = 0`)
+- `./7w_wiki.py pages validate --contract --json` (`drift_status = PASS`, Gesamtstatus WARN wegen bestehendem Pages-Linkbacklog)
+- `forum-ingest-contract`, `source-tree-contract`, `content-contract` und `render-hygiene`: PASS
+- Archivregister nach Neugenerierung: `0` doppelte `relative_path`-Werte
+
+#### [2026-07-15.02] - Forum-Ingestion: Fuenferbatch Geschichten
+### Prioritaet: P2
+### Hinzugefügt
+- Fuenf explizit ausgewaehlte Geschichten-Themen wurden mit Volltext und Raw HTML archiviert; der fehleranfaellige generische `--limit 5`-Batch blieb ungenutzt.
+- `docs/Siebenwind_Wiki/06_Erzählungen/Welle_und_Brandung.md` und `docs/Siebenwind_Wiki/05_Geschichte/Dursches_Hoheitsgebiet.md` wurden als quellengebundene Forum-/Perspektivartikel erstellt und integriert.
+- `MSG-2026-0169` und `MSG-2026-0170` routen die komplexen Mehrbeitragsquellen `110194` und `109969` an den Historian.
+### Geändert
+- `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Myrandhir.md` wurde um die Forumueberlieferung zur neuen Ordensruestung ergaenzt; der Siebenwind-Bote bleibt die fuehrende Quelle.
+- Die OG-Datierungen der April-2023-Forumquellen wurden in den Wikiartikeln mit dem Time-Keeper auf `Dular 34 n.H.` umgestellt; die OG-Daten bleiben nur als Archivmetadaten erhalten.
+- Forumregister, Quellenkarten und drei Ingestion-Reports dokumentieren die integrierten Ziele sowie die beiden offenen Historian-Faelle.
+### Behoben
+- Das Archivregister dedupliziert ueberlappende Corpus-Wurzeln nun nach dem kanonischen Repository-Pfad. Dadurch fiel der Bestand von `1369+` doppelten Pfaden auf `0`; `Myrandhir.md` wird nur noch einmal als `wiki` gefuehrt.
+- `source-tree-contract` prueft die Eindeutigkeit aller `relative_path`-Werte im maschinenlesbaren Archivregister und blockiert kuenftige Doppelaufnahmen.
+### Validiert
+- `./7w_wiki.py check` und `./7w_wiki.py sanitize --json` fuer alle drei Wiki-Ziele
+- `./7w_wiki.py audit --json` (`issues_found = 0`)
+- `./7w_wiki.py pages validate --contract --json` (`drift_status = PASS`, Gesamtstatus WARN wegen bestehendem Pages-Linkbacklog)
+- `./7w_wiki.py test --suite forum-ingest-contract`
+- `./7w_wiki.py test --suite source-tree-contract`
+- `./7w_wiki.py test --suite content-contract`
+- `./7w_wiki.py test --suite render-hygiene`
+
+#### [2026-07-15.01] - Forum-Restabrufe integriert
+### Prioritaet: P2
+### Hinzugefügt
+- Die zuvor an Verbindungsabbruechen gescheiterten Forumtopics `110386` und `110339` wurden mit Volltext und Raw HTML archiviert.
+- `docs/Siebenwind_Wiki/05_Geschichte/Piraten_seid_gewarnt.md` und `docs/Siebenwind_Wiki/05_Geschichte/An_warmen_Sommertagen.md` wurden als quellengebundene Forum-/Perspektivartikel erstellt und finalisiert.
+- Zwei Ingestion-Reports unter `Logs/Ingestion/2026-07-15_Forum_*.md` dokumentieren die Chain of Custody.
+### Geändert
+- Die zugehoerigen Quellenkarten wurden von `metadata_only` auf `fulltext_archived` und `integrated` gehoben.
+- Ungeklaerte Elemente des Feuerereignisses bleiben ausdruecklich als `[UNGEKLÄRT]` markiert; es erfolgte keine Aufwertung zu `#canon`.
+### Validiert
+- `./7w_wiki.py check` und `./7w_wiki.py sanitize --json` fuer beide neuen Artikel
+- `./7w_wiki.py audit --json` (`issues_found = 0`)
+- `./7w_wiki.py pages validate --contract --json` (`drift_status = PASS`, Gesamtstatus WARN wegen bestehendem Pages-Linkbacklog)
+- `./7w_wiki.py test --suite forum-ingest-contract`
+- `./7w_wiki.py test --suite source-tree-contract`
+- `./7w_wiki.py test --suite content-contract`
+- `./7w_wiki.py test --suite render-hygiene`
+
 #### [2026-06-11.01] - Tech-Master Pages-Handover und lokale Residuen ausgeblendet
 ### Prioritaet: P1
 ### Geändert

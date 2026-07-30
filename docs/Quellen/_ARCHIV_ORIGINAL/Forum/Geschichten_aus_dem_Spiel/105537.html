@@ -1,0 +1,520 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Honig und Flauschefell</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 15.07.26, 22:11<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=105537&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Honig und Flauschefell</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=105537"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 4 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=105537&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=105537&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=105537&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p929760"></a>
+				<b class="postauthor" style="color: #string">Benjamin Mondsilberhaar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Honig und Flauschefell</div><div style="float: right;"><a href="./viewtopic.php?p=929760#p929760"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 15.09.16, 11:19&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=25_1475644851.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 4.12.01, 08:48<br /><b>Beiträge:</b> 528				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Vitamaschrein in Brandenstein, erster Zyklus des Vieretags<br /><br />&quot;Du bist träge geworden, Ben,&quot; tadelt er sich selbst, während er den Kopf gemütlich in den Nacken legt und zur Decke des Schreins hinaufblick, die Hände am Hinterkopf verschränkt. Den Worten fehlt aber die nötige Schärfe, und auch das zufriedene Schmunzeln läßt darauf schließen, daß er nicht allzu hart daran arbeitet, das zu ändern.<br /><br />Das neuerliche Bad - es hat schließlich noch nicht gereicht, daß er am Morgen mit schrumpeligen Fingern und Zehen im Wasserbecken im oberen Stockwerks des Schreins aufgewacht ist - umschmeichelt den von der langen Reise etwas ausgezehrten Körper, und mit einem tiiiiiiiiiiiiiefen Seufzen läßt er sich noch ein Stückchen weiter ins Wasser gleiten, bis ihm dieses bis direkt unter's Kinn reicht.<br /><br />Er hat ja nie wirklich den Ruf des zähen Recken gehabt, aber die letzten Götterläufe haben ihn wohl wirklich vollends verweichlicht. Wenn er da an seine Novizenreise als &quot;Schiffsgeweihter&quot; zurückdenkt, während der er jeden Tag mit schwieligen Fingern und schmerzendem Rücken in seine kleine Koje geklettert ist - dagegen hätte sich die vergleichsweise kurze Überfahrt als einfacher Passagier wie ein erfrischender Spaziergang anfühlen müssen.<br /><br />Aber etwas sagt ihm, daß es noch ein paar Zyklen Einweiken dauern wird, bis er endlich das Gefühl haben wird, noch die letzten Reste von Salz und Schmutz losgeworden zu sein.<br /><br />Das Schmunzeln schwindet dann langsam, als er daran zurückdenkt, daß er damals jeden Tageslauf schon als herausragenden Erfolg verzeichnet hat, an dem es nicht Dämonengeifer oder menschliches Blut gewesen sind, die er sich von den zierlichen Fingern hat schrubben müssen. Und auch wenn er nach dem gemütlichem Empfang gestern im Hafen von Brandenstein fast schon geneigt gewesen ist, an den scheinbaren Frieden zu glauben, der sich seinen Augen offenbar hat - das Gespräch danach hat ihn rasch auf den Boden der Tatsachen zurückgeholt.<br /><br />Die Insel mag sich bis zur Unkenntlichkeit verändert haben - aber in ihrem Kern ist sie wohl derselbe intrigendurchwachsene, von Dienern der Dunkelheit unterwanderte Sündenpfuhl geblieben, der sie schon immer gewesen ist.<br /><br />&quot;Bäh!&quot; Mit einem Satz verschwindet er gänzlich unter der Wasseroberfläche, sodaß nur noch die felablonden Strähnen in sanft schaukelnden Bewegungen darauf treiben und das Licht von außerhalb in schimmernden Mustern an seine geöffneten Augen dringt. Eine Weile liegt er nur so da, beobachtet das mesmerisierende Treiben der hellen Locken, bis die ersten Luftbläschen zwischen seinen Lippen hindurchdrängen und er rasch auftaucht, um dann mit einem gierigen Schnappen frische Luft in seine Lungen zu ziehen.<br /><br />Vergnüglich klingt das Kichern, mit welchem er die dumme Aktion kommentiert, und in seinem Kopf klingt eine vertraute Stimme nach:<br /><br />&quot;Ach, küß mich doch, wo die Felascheibe nie hinscheint - Trübsalblasen ist was für Langeweiler!&quot;</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=25"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p930153"></a>
+				<b class="postauthor" style="color: #string">Benjamin Mondsilberhaar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Honig und Flauschefell</div><div style="float: right;"><a href="./viewtopic.php?p=930153#p930153"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 29.09.16, 15:41&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=25_1475644851.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 4.12.01, 08:48<br /><b>Beiträge:</b> 528				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Morsanschrein in Brandenstein, frühe Morgenzyklen des Vieretags<br /><br />Im Schneidersitz hockt der junge Elf vor dem Altar, die Hände ruhig auf die Füße gebettet in der lockeren Form einer angedeuteten Raute. Seine Brust hebt und senkt sich in langen, gleichmäßigen Atemzügen und seine Augen sind entspannt geschlossen.<br /><br />Zwei Wochenläufe sind ins Land gezogen, seit er gemütlich im Schrein nebenan im Wasserbecken gelegen und sich entspannt hat - zwei Wochen, in denen die Insel mal wieder damit begonnen hat, sich von ihrer liebenswürdigsten Seite zu zeigen.<br /><br />Ein tiefer, tiefer Atemzug, dann pustet er sachte die Luft zwischen seinen Lippen hervor, läßt den beißenden Sarkasmus seiner Gedanken damit entweichen. Unverbrauchte, reinigende Luft erfüllt wieder seine Lungen.<br /><br />Nein, wirklich: im Wind baumelnde Leichen, in Blut verfaßte Nachrichten, unausgesprochene Mißverständnisse und explodierende Medizinregale. Willkommen auf Siebenwind. Es regnet. Du wirst verbrannt, geköpft, aufgeknüpft und geschändet.<br /><br />Wieder ein sehr bewußter, langsamer Atemzug. Sarkasmus raus. Ruhe rein.<br /><br />Auf der anderen Seite zeigen sich aber auch immer wieder die schönen Dinge, deretwegen man ihn damals mit Schlafgift außer Gefecht hat setzen müssen, um ihn von der Insel zu schaffen (da er sonst nie freiwillig gegangen wäre).<br /><br />Ein kleines Lächeln umspielt seine Lippen, als er an die stundenlangen Gespräche über Lust und Liebe denkt. Sein Herz beginnt freudig zu pochen, als er auf die gemeinsamen Herumalbereien im Ordenshaus zurückblickt. Ein warmes Gefühl breitet sich in ihm aus, als vor seinem inneren Auge neuerlich das Tra'avain zu einer neuen Heimat emporwächst. Und das Blut rauscht aufgeregt in seinen Ohren, als er sich an das Fest und all die vielen, lieben Gäste erinnert.<br /><br />Nein, nein, nein! Keine Bewertung, einfach nur aufnehmen und...<br /><br />Schmunzelnd öffnet er die Augen und richtet sich dann leise auf, um sich tief vor dem Altar zu verbeugen. &quot;Tut mir leid, Herr... aber wenn die Mutter ruft, dann kann ich halt nicht anders&quot;, haucht er liebevoll und huscht aus dem Schrein, um nebenan ein fröhliches Dankgebet an die Liebliche zu richten.<br /><br />Für all die schönen Dinge der letzten Tagesläufe, für Freundschaft und Freude, und für das Leben selbst.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=25"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p930699"></a>
+				<b class="postauthor" style="color: #string">Benjamin Mondsilberhaar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Honig und Flauschefell</div><div style="float: right;"><a href="./viewtopic.php?p=930699#p930699"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 19.10.16, 15:51&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=25_1475644851.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 4.12.01, 08:48<br /><b>Beiträge:</b> 528				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">&quot;Was sagst du? Nicht grad die Art von Nachricht, die ich bekommen möchte, aber vielleicht ja besser als nichts, aye?quot;<br /><br />Manchmal hat er wirklich das Gefühl, sein Wolfsfreund würde jedes seiner Worte verstehen, denn dieser schenkt ihm gerade jene Art von Blick, wie sie ein guter Freud der Aussage &quot;Willst du jetzt wirklich eine Antwort drauf?quot; voranstellen würde. Dieser halb mitleidige, halb tadelnde Blick, der keinen Zweifel daran läßt, daß man gerade Schwachsinn redet.<br /><br />Seufzend sieht er also auf das Schreiben in seiner Hand hinab. Um ihn herum, im feuchten Gras verstreut und teilweise schon gänzlich durchnäßt, liegen die vorherigen Versionen des Briefes. Manche enthalten zu viele Informationen, manche wiederum gar auffällig wenige.<br /><br />Manche lesen sich wie diese vitamagefälligen, recht dünn gehaltenen Erzählwerke, welche auf den ersten Seiten meist die Zeichnung einer überragend hübschen Frau präsentieren, die mit schmachtendem Blick in den unglaublich muskulösen Armen eines Mannes hängt, der sich aus irgend einem Grund wohl kein Hemd leisten kann.<br /><br />Manche wiederum könnten direkt aus dem Aktenschrank eines überexakten Inquisitors stammen in ihrer überzogenen Korrektheit, der distanzierten Sprache und der so wundervoll nichtssagenden Worthülsen.<br /><br />Die jetzige Fassung hingegen hat von alledem ein wenig, was sie zu der bisher schlechtesten macht. Aber auch zu jener, die er vermutlich versenden wird:<br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Der Herrin Freude mit dir, meine Liebste!<br /><br />Ich hoffe wirklich, du liest diesen Brief, anstatt ihn ungesehen einfach in der Luft zu zerreißen. Sofern er dich überhaupt erreicht, sind vermutlich mittlerweile vier oder fünf Monde ins Land gezogen, seit ich dich so unrühmlich außer Gefecht gesetzt habe.<br /><br />Sei nicht sauer, ja? Du weißt, daß ich dich nicht zurückgelassen hätte, wenn ich eine andere Lösung gesehen hätte. Aber der Dienst an der Mutter führt eben manchmal auf Pfade, die ich nur alleine betreten kann.<br /><br />Nein, ich werde dir hier nicht vorlügen, ich wäre an einem sicheren Ort und jegliche Sorge unbegründet. Wir wissen ja beide nur zu gut, daß es einen solchen Ort derzeit auf ganz Falandrien nicht gibt.<br /><br />Aber ich bin wie immer wohlbehütet umgeben von anderen Mitgliedern der Kirche, habe einen kuschlig warmen Schlafplatz und Aufgaben, die mich den ganzen Tag auf Trab halten. Alles was mir fehlt ist deine Nähe. Und ja, ich weiß, daß das schnulzig klingt.<br /><br />Ich kann dir nicht sagen, wie lange ich wegbleiben werde. Mir bleibt wirklich nur dich zu bitten, Geduld mit mir zu haben. Mal wieder.<br /><br />Bitte mach Mama Minaa nicht allzu viele Schwierigkeiten. Ich denke, ich muß dir nicht sagen, daß sie dir ohnehin nicht verraten wird, wo ich bin. Auch wenn du vermutlich schon mehrfach versucht hast, das aus ihr heraus zu kitzeln...<br /><br />Ich schicke dir hundert Küßchen. Einen davon gib bitte an Ratte weiter, aber der Rest gehört ganz und gar dir!<br /><br />In ergebenster Liebe,<br />Dein Ben</div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=25"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p931965"></a>
+				<b class="postauthor" style="color: #string">Benjamin Mondsilberhaar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Honig und Flauschefell</div><div style="float: right;"><a href="./viewtopic.php?p=931965#p931965"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 3.12.16, 14:18&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=25_1475644851.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 4.12.01, 08:48<br /><b>Beiträge:</b> 528				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Die Sanduhr ist wahrlich gewaltig.<br /><br />Gut doppelt so hoch wie er selbst, der Rahmen gefertigt aus schlichtem Holz, ohne großartige Verzierungen. Das Glas, klar und gleichmäßig geformt, scheint schon einmal zerschlagen gewesen zu sein, wobei die einzelnen Scherben wohl mit einer goldgelben, mittlerweile kristallisierten Masse zusammengekleistert worden sind.<br /><br />Der Sand darin ist aber der interessanteste Teil. Während er im unteren Bauch des Gefäßes etwas mehr als bis zur Hälfte in saftigem Grün gefärbt ist, präsentiert sich der Rest des rieselnden Inhalts in einem dunklen, sanften Grau.<br /><br />Flach legt der zu kurz geratene Elf eine Hand gegen das Glas, mit einem sachten, melancholischen Lächeln.<br /><br />&quot;Die... hab ich schon lang nimmer gesehn, hm?quot; fragt er nach rechts hinüber, wo eine weibliche Gestalt in grauer Robe und mit einer ebensolchen Kapuze steht. Die Gestalt antwortet nicht, sondern zieht nur schweigend etwas aus den Falten der Robe hervor.<br /><br /><span style="font-style: italic">'Warum hat sie neue Risse'</span> Die Worte stehen auf einer schlichten Schiefertafel, welche die Graugerobte so vor sein Gesicht hält, daß er kaum darum herum kommt, sie zu lesen.<br /><br />Einige Momente lang ist er einfach nur perplex und vollkommen sprachlos, dann aber lacht er leise auf, ein trotz der momentan vorherrschenden Melancholie doch recht vergnügt klingender Laut. &quot;Oha, schickt mir der liebe Hirte eine seiner Heiligen, um mir den Hintern zu versohlen, aye? Wie geht's dir?quot;<br /><br />Statt einer Antwort, hält sie nur stoisch weiterhin die Schiefertafel hoch. <span style="font-style: italic">'Warum hat sie neue Risse'</span><br /><br />Sein Blick wandert zurück auf das Glas, welches sich unter seiner Hand kühl und glatt anfühlt. Nun, da sie es erwähnt hat, fallen ihm jedoch auch die Unreinheiten auf, welche an vielen Stellen die leicht spiegelnde Obefläche überziehen. Feine Risse, noch nicht durch und durch gehend, aber bereits deutliche Schwachstellen.<br /><br />&quot;Ach, die? Naja, läuft nicht alles ganz rund grad,&quot; gesteht er ihr ein, aber damit auch sich selbst. &quot;Bin wieder auf deiner Insel, und jemand der mir viel bedeutet... naja, weißt ja, wie das läuft, hm?quot;<br /><br /><span style="font-style: italic">'Du hast mir ein Versprechen gegeben, Ben...'</span> Statt die neuen Worte auf die Tafel zu schreiben, fährt sie nur mit einem Robenärmel über die schwarze Oberfläche, und die Kreide scheint ganz von alleine die neue Form anzunehmen.<br /><br />&quot;Ich weiß, und ich halt's auch. Sieh mal!&quot; Mit einem kleinen Lächeln deutet er ihr, ihm zu folgen, und er macht ein paar Schritte um die gigantische Sanduhr herum, bis er zu einem der Risse kommt, der in etwa auf Augenhöhe zu finden ist. Kurz zögert er, dann aber fährt er die Unreinheit im Glas sachte mit einem Finger nach, wobei die Fingerkuppen unmerklich zu leuchten beginnen. &quot;So gut wie neu, aye?quot;<br /><br />Er löst den Blick von der nun an dieser Stelle tatsächlich unversehrte Oberfläche, um sich ihr wieder zuzuwenden - und starrt direkt in das hämisch grinsende Gesicht einer großgewachsenen, kahlköpfigen Gestalt, welche sich zu ihm vorgebeugt hat und ihm den nach Krieg und Tod stinkenden Atem ins Gesicht haucht.<br /><br />Und dann schnellt die Hand des Dämons nach vorne, trifft ihn hart gegen die Brust und schleudert ihn nach hinten.<br /><br />&quot;WOAH!&quot; Er kippt mitsamt des Stuhls um, und es ist wohl eine Mischung aus Magie, elfischem Geschick und über Jahrzehnte angeübten Reflexen, daß er sich noch rechtzeitig herumrollen kann, um auf den Händen zu landen anstatt auf dem Kopf. Der Stuhl knallt dabei auf den Boden, und aus dem noch offen auf dem Tisch stehenden Tintenfäßchen schwappt etwas Inhalt über den Rand.<br /><br />Hektisch rappelt er sich auf, um die Tinte schnell mit einem fleckigen Tuch vom Tisch zu entfernen und die bunt gestaltete Kladde in Sicherheit zu bringen.<br /><br />&quot;Der Traum... ging jetzt aber ziemlich plötzlich in die Binsen...&quot;</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=25"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=105537&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=105537"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 4 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 5 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=105537"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

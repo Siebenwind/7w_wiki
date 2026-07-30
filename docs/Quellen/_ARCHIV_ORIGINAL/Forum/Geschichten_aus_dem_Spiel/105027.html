@@ -1,0 +1,810 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Im Dunkeln verborgen</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 27.07.26, 19:54<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=105027&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Im Dunkeln verborgen</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=105027"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 9 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=105027&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=105027&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=105027&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p925179"></a>
+				<b class="postauthor">Sperling&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Im Dunkeln verborgen</div><div style="float: right;"><a href="./viewtopic.php?p=925179#p925179"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 3.06.16, 12:34&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9223_1449603363.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.11.15, 20:00<br /><b>Beiträge:</b> 768				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">OOC: Wer eine ganz besonders rege Phantasie hat, möge sich hiermit bitte gewarnt fühlen. Die folgenden Texte handeln nicht unbedingt von regenbogenpupsenden Einhörnern... <img src="./images/smilies/icon_redface.gif" alt=":oops:" title="Embarassed" /></div></div></div><br />In den späten Nachtstunden des 2. Trias dringen leise Schreie aus einer der dunklen Seitengassen Brandensteins zum Marktplatz hin - eine Frauenstimme, gedämpft und unverständlich. Einzig die leisen Gespräche der Wachen am Tor zur Burg sorgen wohl dafür, daß die weibliche Stimme ungehört verhallt.<br /><br />Die Quelle der leisen Schreie sitzt mit dem Rücken zur Wand auf dem Boden, ihren Körper fest gegen den kalten Stein gepreßt und ihre Augen panisch auf den Mann gerichtet, der über ihr kniet.<br /><br />&quot;LASS MICH!&quot; ruft sie schrill und versucht nach der Gestalt des Mannes zu treten, mit beiden Fäusten wild auf ihn einzuschlagen. &quot;Nicht anfassen!&quot;<br /><br />Doch der Blick in den Augen des Mannes ist von Entschlossenheit und unnachgibiger Härte erfüllt. Kraftvoll und harsch sind seine Bewegungen, mit denen er einerseits ihre Angriffe abzuwehren versucht, andererseits mit vom eigenen Blut besudelten Fingern nach ihr greift.<br /><br />Rücksichtslos nutzt er das eigene Körpergewicht, um die hilflose Frau unter sich gefangen zu halten, während er fest eine Hand auf ihren Mund drückt - noch scheint niemand die Schreie vernommen zu haben, oder zumindest nicht gewillt zu sein, zugunsten einer Wildfremden die schützenden Mauern des eigenen Heims zu verlassen.<br /><br />Nur noch unterdrückte Laute der Panik sind zu hören, begleitet von wilder Gegenwehr. Ein kräftiger Biß in die Hand, welche weiterhin gnadenlos ihre Schreie zum Verstummen bringt, erweist sich als nutzlos. Obgleich ihre Zähne sich schmerzhaft durch den Handschuh bohren, deutet nichts darauf hin, daß der Angreifer sich davon beeindrucken lassen würde.<br /><br />Die blutigen Finger legen sich auf ihren Körper, zeichnen gleich lange Linien auf das teure Kleid - das unheilige Kreuz des Gottkönigs, das sich nun in dunklem Rot von ihrer Kleidung abhebt. Dann legt sich die blutverschmierte Hand flach darauf und keuchend rezidiert der Mann Worte.<br /><br />&quot;Arkan... eth Modh, krin ta arn,&quot; spricht er mit harter Stimme, unnachgibig die Handfläche gegen den Stoff des Kleides gedrückt. Dabei ignoriert er gänzlich ihre weiterhin heftigen Versuche, sich von ihm loszureißen, das panische Funkeln in ihren Augen.<br /><br />&quot;Arkum eth Vegehk vara onach.&quot; Begleitet werden die Worte weiterhin von ihren unterdrückten Schreckenslauten - dumpf nur mag man sie am Rande des Marktplatzes noch hören, doch scheint sich dort ohnehin niemand mehr aufzuhalten. Wer den Abend bei der Messe zu Ehren der Viere verbracht hat, ist längst schon wieder nachhause zurückgekehrt, und niemand scheint sich um das Wimmern der hilflosen Frau zu kümmern.<br /><br />&quot;Rahtar ta arn ve dih Talfar.&quot; Angst und Entsetzen liegen unvermindert in ihren geweiteten Augen, doch langsam beginnt sie die Kraft zu verlassen, und ihre Gegenwehr nimmt ab. Keine Chance hat sie gegen den so viel größeren und stärkeren Angreifer.<br /><br />&quot;Onach... Thul veh... Nekrum...&quot; Ein letztes Keuchen, und dann ist es vorbei, so plötzlich, wie es begonnen hat. Mit dem Ende des kleinen Rituals löst er die blutige Hand von ihrem Körper, ebenso wie er die Hand von ihrem Mund nimmt, und sie ist wieder frei.<br /><br />Unversehrt, zumindest scheint es so nach außen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p927065"></a>
+				<b class="postauthor">Sperling&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Dunkeln verborgen</div><div style="float: right;"><a href="./viewtopic.php?p=927065#p927065"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 7.07.16, 20:55&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9223_1449603363.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.11.15, 20:00<br /><b>Beiträge:</b> 768				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Irgendwann im letzten Zyklus des 6. Querlers wird die Luft einer der stillgelegten Stollen, tief im Inneren von Tares Leib unterhalb der Schicksalsinsel, von Kampfeslärm durchdrungen. Metall trifft auf Metall, wieder und wieder, während eine der Gestalten immer mehr in die Defensive gedrängt wird.<br /><br />Keine Gnade mehr. Dreimal wurde er gewarnt, dreimal hat er in grenzenloser Selbstüberschätzung mit hämischen Worten auf das Angebot einer friedlichen Lösung reagiert. Nun steht ihm die Angst ins Gesicht geschrieben, als ihm bewußt wird, daß er wohl seinen letzten Fehler begangen hat.<br /><br />Er winselt und fleht, doch nun ist es zu spät. Der Mann, dem er hat die Kehle aufschlitzen wollen, und der nun wohl stattdessen eben dieses mit dem verzweifelten Angreifer tun wird, hat dazugelernt. Manche Leute verdienen es einfach nicht, verschont zu werden, und die gnadenvollste Lösung ist es, ihnen ein rasches Ende zu bereiten.<br /><br />Und rasch ist das Ende wahrlich, als sich schließlich die Schneide des gut gepflegten Schwertes an der Schulter vorbei in den Oberkörper verbeißt. Knochen knacken und splittern, während die breite Klinge sich mit tödlicher Wucht durch das Gewebe hindurch arbeitet. Kein Schmerz mehr dringt bis in die Gedanken des Sterbenden vor, und lange bevor der Körper leblos zu Boden sackt, sind die Augen des Banditen schon erloschen.<br /><br />Mit einem kräftigen Ruck wird das Schwert aus dem reglosen Körper gezogen und an dessen zerlumpten Kleidung grob gesäubert, ehe der Mann ein sauberes Tuch zückt, um selbst noch die letzte Blutschliere restlos zu entfernen. Dann erst, nachdem das tödliche Werkzeug wieder in seinen makellosen Ursprungszustand zurückversetzt und gescheidet ist, widmet sich die Gestalt wieder der Leiche.<br /><br />Die scharfe Klinge eines Arbeitsmessers gleitet beinahe lautlos durch den schäbigen Stoff des blutbesudelten Hemdes, und die so geschaffenen Hälften werden zur Seite geschoben, um die ruhende Brust zu offenbaren. Neuerlich setzt der Mann das Messer an, diesmal direkt auf der ungewaschenen Haut des toten Angreifers.<br /><br />&quot;Trakrar Hor vill kemar arn du,&quot; spricht er mit fester Stimme, während sich die Schneide kreuzförmig durch das noch warme Fleisch zieht, in geraden, gleich messenden Linien.<br /><br />&quot;Rahtar onah veh dih Talfar.&quot; Worte und Zeichen des Gottkönigs sollen ein Leuchtfeuer sein für jene, deren Blicke beständig Tares Rücken entlang wandern, um frische Seelen zu sammeln für den gerechten Kampf gegen die Götzen. Kein Rabe wird nach der Essenz des Banditen heischen, denn kein Ritus der Verblendeten ist es, der über den Gefallenen gesprochen wird.<br /><br />Ähnlich gründlich wird das Messer gereinigt wie zuvor das Schwert, ehe er schließlich grob den Arm des Toten greift, um ihn hinüber zu schleifen zum leeren Unterschlupf der Räuber. Beinahe könnte man meinen, der Bandit sei nur einem Alkoholrausch erlegen, nachdem ihn die vermeintlich leichte Beute mit dem Rücken gegen die Bank gelehnt hat, die Ellenbogen auf die Sitzfläche gestützt.<br /><br />Beinahe, denn die halb vom Körper getrennte Schulter und das blutrote Angamonkreuz auf der Brust sprechen eine andere Sprache. Bald schon werden sich die Ratten um den Körper des Toten streiten, so wie die Dämonen den Wettlauf um seine Seele antreten mögen, doch mit etwas Glück wird vielleicht noch genug von ihm übrig sein, um als stille Warnung an die anderen zu dienen, nicht ebenso sinnlos ihr Leben wegzuwerfen.<br /><br />Einen letzten Blick wirft der Mann noch auf sein Geschenk an die Seelensammler, ehe er sich abwendet und seinen Weg anteilnahmslos fortsetzt, als hätte diese Begegnung nie stattgefunden.<br /><br />Gnade, ja. Aber nicht mehr um jeden Preis.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p927578"></a>
+				<b class="postauthor">Sperling&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Dunkeln verborgen</div><div style="float: right;"><a href="./viewtopic.php?p=927578#p927578"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 26.07.16, 13:18&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9223_1449603363.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.11.15, 20:00<br /><b>Beiträge:</b> 768				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">In den frühen Zyklen des 26. Querlers kniet eine Gestalt auf dem kühlen Steinboden einer gänzlich in Schwarz und Rot gehaltenen Halle. Stille herrscht im Inneren ebenso wie Kälte, beides nur bedingt durch die Feuerschalen durchbrochen, welche in regelmäßigen Abständen die nachtfarbenen Wände in flackerndes Halblicht tauchen.<br /><br />Und beides ist ihm ein willkommener Begleiter. Die Stille als lautlose Untermalung der Gedanken, die Kälte als stählerner Schutzmantel gegen äußere Einflüsse. Nichts mag die Überlegungen trüben, welche er in sorgsam geordneten Bahnen im Zuge des stillen Gebetes durch sein Bewußtsein wandern läßt.<br /><br />Wie ein Mosaik aus Feuer und Dornen setzt er die gesprochenen Worte zusammen, reiht sie neben-, über- und untereinander an, um unter dem Schleier des Bedauerns das Gesamtbild zu erkennen.<br /><br />Der eine Gesprächspartner. Herablassend, von sich selbst eingenommen, direkt. Letzteres hat zu dieser irrigen Vermutung geführt, daß jener Mensch es wert wäre, weiter verfolgt zu werden, doch hat er seine Lektion gelernt: Direktheit und Ehrlichkeit bedingen sich nicht unbedingt gegenseitig.<br /><br />Niemals wird er Respekt von seinem Gegenüber erwarten können, nicht von jemandem, der versucht Salz in offene Wunden zu streuen, nur um am Ende behaupten zu können, gewonnen zu haben. Nicht von jemandem, der sich unlauterer Totschlagargumente bedient, mit abwertenden Worten den Gesprächspartner zu demütigen versucht und dann dessen Worte bewußt verdreht, um eine gehässige Argumentation beruhend auf jenen ins Unkenntliche verzerrten Standpunkten aufzusetzen.<br /><br />Der voran geneigte Kopf hebt sich gerade so weit an, daß er von unten her zum Altar hochblicken kann, und mit einem tiefen Atemzug läßt er das Bestreben entweichen, eine gemeinsame Basis zu finden. Kühle Luft erfüllt stattdessen seine Lungen, und mit ihr kehrt auch Zorn in sein Herz ein, nicht brodelnd heiße Wut, sondern eine zielgerichtete Kälte, welche ihn von innen her stärkt.<br /><br />Hoffnungslos. Zeit und Aufwand nicht wert.<br /><br />Der andere Gesprächspartner. Unsicher, idealistisch, unehrlich. Weniger anderen als wohl scheinbar viel mehr sich selbst gegenüber. Ebenso vergeudete Zeit, weiter an ihm festzuhalten, unnötiger Einsatz von Kraft, die anderweitig besser aufgehoben wäre.<br /><br />Ein neuerlicher Atemzug, wieder nimmt er die vom Geruch nach kaltem Stein versetzte Luft tief in sich auf, läßt sie durch seinen Körper wandern, um erneut sein Herz darin einzuhüllen. Doch der Zorn bleibt diesmal aus.<br /><br />Ein aussichtsloser Fall - aber auch hoffnungslos?</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p927776"></a>
+				<b class="postauthor">Sperling&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Dunkeln verborgen</div><div style="float: right;"><a href="./viewtopic.php?p=927776#p927776"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 2.08.16, 14:00&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9223_1449603363.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.11.15, 20:00<br /><b>Beiträge:</b> 768				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">In den späten Morgenzyklen des 2. Querlars hallt ein heiserer Aufschrei von schwarzen, kalten Wänden wider. Ein Mann, gekleidet nur in ein verschwitztes Hemd, sitzt kerzengerade in einem der westlichen Betten des Schlafsaals, die Augen geweitet und der Herzschlag rasend.<br /><br />Einige Momente ziehen vorbei, ehe er sich mit einem kurzer Blick in die Runde orientiert, wo er sich befindet und ob ihm eine akute Gefahr droht. Erst als er die zweite Frage definitiv verneinen kann, lösen sich die eben noch aufmerksam angespannten Muskeln langsam und er läßt sich zurücksinken in eine halb liegende Position, die Unterarme locker in die Bettlaken gestemmt.<br /><br />Langsam nur kehren die Erinnerungen an den Vorabend zurück, an manchen Stellen verschwommen nur, an anderen fast grausam deutlich. Jeden einzelnen Schlag, jeden Tritt hat er deutlich im Gedächtnis behalten, jedes schmerzhafte Aufplatzen der eigenen Haut, als die drei Gestalten weiter auf ihn eingeschlagen haben.<br /><br />Er ist sich nicht sicher, wie er den Weg hierher überstanden haben soll. Sein Verstand und seine Ausbildung ermahnen ihn, daß er in keinem Zustand gewesen ist, um es bis zu seinem treuen Roß zu schaffen, noch viel weniger, sich auf dessen Rücken zu ziehen und den weiten Rückweg anzutreten.<br /><br />Zu viele Platzwunden, zu viele gezielte Kopfverletzungen.<br /><br />Der Atem langsam wieder beruhigt, schiebt er vorsichtig die Beine aus dem Bett und richtet sich wieder in eine sitzende Position auf, wobei er den Oberkörper etwas nach vorne beugt und für einige Momente die Augen schließt, um in sich hinein zu horchen.<br /><br />Keine Schmerzen.<br /><br />Sein Körper ist von einer unnatürlichen Kälte durchzogen, von Müdigkeit und einer matten Trägheit, wie sie ihm ansonsten völlig fremd ist, doch die Schmerzen vom Vortag sind gänzlich verflogen. Irritierend, diese vollkommene Abwesenheit, denn neuerlich meldet sich sein Wissen über die Heilkunst zu Wort, beharrt darauf, daß er sich am Morgen nach dem Erlebten winden müßte vor Pein.<br /><br />Mit gefurchter Stirn hebt er einen Arm an, läßt den Blick über den Verband dort wandern - einer nur von unzähligen. Er löst den Knoten und wickelt dann Bahn für Bahn den Stoff ab, aus Gewohnheit langsam, auch wenn das Fehlen von Blut und Wundflüssigkeit bedeuten, daß dieser ohnehin nicht an der Wunde haften würde.<br /><br />Ein letzter, tiefer Atemzug, dann löst er die untersten Bahnen, um die Verletzung darunter offenzulegen.<br /><br />&quot;Vegehkar Horkum Angamon!&quot; entfährt es ihm heiser, als sein Blick auf die freigelegte Haut fällt. Alles hat er erwartet, jeden noch so grausamen Anblick.<br /><br />Doch nicht diesen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p927926"></a>
+				<b class="postauthor">Sperling&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Dunkeln verborgen</div><div style="float: right;"><a href="./viewtopic.php?p=927926#p927926"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.08.16, 16:48&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9223_1449603363.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.11.15, 20:00<br /><b>Beiträge:</b> 768				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Es sind die frühen Morgenzyklen des 5. Querlars, als neuerlich eine Gestalt in den Heiligen Hallen kniet, den Kopf gesenkt und die Arme in einem gleichseitigen Kreuz vor der Brust verschränkt. Trotz der Konzentration, mit welcher er in sein Gebet, seine Meditation vertieft ist, wirken seine Gesichtszüge entspannt. Der Atem geht ruhig und bis auf eine Bewegung ist sein Körper vollkommen reglos: Das wilde Flackern der Augen unter den geschlossenen Lidern.<br /><br />Seine Gedanken fliegen frei, vollkommen losgelöst von den Befindlichkeiten seines Körpers, mit jenem nur noch lose verbunden durch die Kälte, welche zähflüssig und kräftigend durch seine Adern fließt - und durch den feinsten Hauch eines ihm noch fremdartigen Dunkels, welches sich in seinem Inneren eingenistet und dann dort tief zurückgezogen hat. So viel der Kälte ist dafür aus der Wunde an der Hand hervor gesickert, so viel der mittlerweile vertrauten Kraft, auf deren Erkundung er in den letzten Tagesläufen jeden freien Moment verwendet hat - und doch scheint sie stärker denn je durch seine Blutgefäße zu pulsieren.<br /><br />Den Veränderungen geschuldet, welche sein Geist derzeit durchlebt?<br /><br />Mit dem letzten Schreiben ist etwas in ihm zerbrochen - und es ist ein heilsamer Bruch gewesen, nicht unähnlich einem falsch zusammengewachsenen Knochen, der erst durch diese neuerliche Violation zurück in seine ihm angedachte Form gebracht werden kann. Schon beim Verfassen seiner Antwort ist im klar gewesen, daß der Empfänger diese neuerlich falsch deuten wird, wieder verborgene Bedeutungen hineininterpretieren und Verrat darin finden wird, um sich selbst tiefer in seine von ihm geschaffene Lügenwelt zurückzuziehen, in welcher hinter einem jeden der offenen Worte eine versteckte böse Absicht lauert.<br /><br />Dem Betenden ist es einerlei. &quot;Du vilyr kanar derandar elak ag, arn ta logan,&quot; formen seine Lippen, ehe sich diese in einem entspannten Lächeln wieder der Reglosigkeit hingeben.<br /><br />Es ist eine wichtige Lektion auf dem steinigen Weg zum Verstehen. Seiner Selbst. Seiner Menschlichkeit. Warum er sich von dieser lösen muß.<br /><br />Die Worte sind an sein Ohr gedrungen, als die Priesterin sie gesprochen hat, doch ist es erst der feine Schmerz beim Lesen der Zeilen gewesen, welcher diese unter seine Haut hat sickern lassen, nach innen, wo nicht nur sein Verstand sie aufnehmen kann, sondern seine Seele selbst dieser gewahr wird. Wie sehr er doch an der Hoffnung festgehalten, sie als Hoffnung für den Verblendeten tituliert hat, obgleich er doch von Anfang an gewußt hat, daß dieser zu tief in seinem eigenen Lügennetz verwickelt ist, um jemals die Wahrheit anerkennen zu können - oder auch nur zuzulassen, den kleinsten Funken dieser überhaupt zu erahnen.<br /><br />Da ist keine Hoffnung, und es muß auch keine geben. Na Onah gedar, medna meh kherinar. Oder wie die Priesterin sagen würde, sie spielen mit den Karten, welche ihnen zugeteilt werden. Und je mehr er sich von seinen Wünschen, Ängsten und närrischen Hoffnungen befreit, desto mehr kann er lernen, jene Karten zu nutzen.<br /><br />Nicht für sich selbst, sondern um das gemeinsame Blatt aller zu vervollständigen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p929772"></a>
+				<b class="postauthor">Sperling&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Dunkeln verborgen</div><div style="float: right;"><a href="./viewtopic.php?p=929772#p929772"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 15.09.16, 16:14&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9223_1449603363.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.11.15, 20:00<br /><b>Beiträge:</b> 768				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">In den frühen Morgenzyklen des 15. Carmers hallt ein kräftiges Klopfen durch ansonsten totenstilles Gemäuer. Eine Gestalt in stählerner Rüste verharrt reglos auf ihrem Posten, den wachsamen Blick auf den kränklich blassen Schlafenden gerichtet, welcher nur flach atmend auf einem der Betten im Raum ruht. Erst beim zweiten Pochen kommt langsam Bewegung in den Gerüsteten und er wendet sich der geschwärzten Türe zu.<br /><br />Ein Mann, gehüllt in eine kupferfarbene Uniform, wartet auf der anderen Seite, verneigt sich tief beim Öffnen der Türe und richtet demütig die Augen auf die Stahlstiefel hinab. Beide Hände hebt er ein wenig an - die eine hält einen unregelmäßig ausgebeulten Beutel umschlossen, auf der Handfläche der anderen ruht ein Dolch von schlichter und doch besonders hochwertiger Machart. Geronnenes Blut verunziert die Klinge.<br /><br />In aller Ruhe nimmt der Mann in Stahlgrau beides entgegen, und dabei entgeht ihm keineswegs der kurze Blick seines Gegenübers hinüber zu den Betten. Der Verwundete, gehüllt in eine schlichte, gräulich weiße Robe, scheint irgendwo zwischen Leben und Tod zu hängen, der vordere Teil der Kapuze und der Kragen ebenso von Blut besudelt wie die geschärfte Waffe.<br /><br />Derselbe Blick wie vor zwei Tagesläufen, stellt der Ranghöhere mit Mißfallen fest, als sein einstiger Schüler sein Leben ausgehaucht hat und dessen Namen aus der Geschichte Tares getilgt worden ist. Dieselbe Miene, nicht geprägt von Mißtrauen oder gar Vorwürfen, sondern von einer Regung, welche er nicht genauer zuordnen kann. Eine Regung jedoch, wie sie zweifelsohne ebenso unangebracht ist.<br /><br />&quot;Das ist alles,&quot; mahnt er den Braungewandeten, welcher daraufhin erneut den Oberkörper tief voran beugt, um sich dann zügig umzuwenden. Er hingegen tritt neuerlich auf das belegte Bett zu und sieht auf den Büßer hinab. Nicht viel hat diesen von einem ähnlich unrühmlichen Ende getrennt, wie es sein vormaliger Schützling gefunden hat.<br /><br />So blind. So schwach.<br /><br />Die Antworten hätten dem Weißgerobten einfach über die Lippen kommen müssen, allem voran die alles entscheidende Frage, auf welche die gesamte Lektion hingeführt hat. Er hat das Thema dieser Lektion gekannt - wie nur kann es sein, daß er mit Inbrunst eine Antwort hat geben können, welche diesem grundlegenden Prinzip so vollkommen entgegengesetzt ist?<br /><br />Mit einem leisen Schnauben läßt der Gerüstete den Blick über den Verletzten wandern. Ist er selbst tatsächlich ebenso blind gewesen? Und wird der Büßer diesen letzten Part der Lektion verstehen?<br /><br />Verstehen, warum er noch lebt?</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p929819"></a>
+				<b class="postauthor">Computergig&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Dunkeln verborgen</div><div style="float: right;"><a href="./viewtopic.php?p=929819#p929819"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 17.09.16, 10:35&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 30.05.12, 16:25<br /><b>Beiträge:</b> 330<br /><b>Wohnort:</b> Berlin				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Eine kleine Kerze erleuchtet spärlich den sonst dunklen Raum. Ihre Flamme ist im ständigen Kampf mit der Dunkelheit, immer am Rand des Abgrunds. <br />Ein schauriges Schattenspiel ergibt sich auf dem kalten Gemäuer als die Flamme der Kerze hin und herschwankt.<br />So klein und so zerbrechlich ist die Flamme und doch kann man sich an ihr das Fleisch verbrennen. Genährt wird sie von einer Wachssäule die einst groß und stark <br />war jetzt nur noch ein kleiner stumpen dessen Tage gezählt sind und der Luft der die Kerze umgibt.<br />Diese Luft, Nahrung und Gefahr zugleich. Immer muss ein Gleichgewicht gefunden werden.<br />Zu wenig Luft und die Flamme erlischt zu viel und sie wird erstickt. <br />Diese Flamme die Licht und Wärme spendet muss sich in einer sicheren Umgebung befinden um ideal zu gedeihen wie eine junge Pflanze die Schutz und Geborgenheit braucht und diese später zurückgeben kann. <br />Eine Symbiose man gewährt ihr Schutz und erhält dadruch Schutz. Unachtsam wird die Tür zum Zimmer aufgetan, die Tür wirkt wie ein großer Fächer, wirbelt die Luft auf, kurz bäumt sich die Flamme auf gestärkt von der vielen Luft, bis sie realsiert, es ist zu viel, dann, nur noch Dunkelheit....<br /><br />Onach Thul veh Nekrum, Bruder</div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><img src="http://tardukai.de/wp-content/uploads/2022/12/schriftzug.jpg" alt="Bild" /></div><br /><div align="center">&quot;Mena rech ekh Bennain - tora dolmon ekh got deskos Tardukai!&quot;<br />&quot;Niemals werden wir weichen - wir, die wir die Treuesten der Treuen sind!&quot;</div><br /><br />Discord<br />Martin</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8823"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8823"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p929852"></a>
+				<b class="postauthor">Sperling&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Dunkeln verborgen</div><div style="float: right;"><a href="./viewtopic.php?p=929852#p929852"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 19.09.16, 12:08&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9223_1449603363.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.11.15, 20:00<br /><b>Beiträge:</b> 768				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Die Braungerüsteten verneigen sich tief, als er an ihnen vorbeitritt, doch im ersten Moment würdigt er sie keines Blickes, tief in Gedanken versunken, welche keinen Aufschub zugunsten von Nichtigkeiten erlauben. Als jedoch sein Blick auf den Innenhof fällt, verlangsamen sich seine Schritte, ehe er unter dem inneren Tor schließlich gänzlich zum Stehen kommt.<br /><br />&quot;Feradai Rufus, kemard kankor!&quot; Ohne zu zögern setzt sich eine der Torwachen in Bewegung und verharrt eine Schrittlänge hinter ihm. Der unter dem Helm verborgene Blick folgt der in grauen Stahl gekleideten Hand, welche auf zwei Tische und einen Hocker mit einer schlichten Konstruktion darauf gerichtet ist. &quot;Keretard Vikumaktait nah dukderva ta turkankta.&quot;<br /><br />Neuerlich ist da kein Zögern in den Schritten des Mannes in Kupferrüstung, obschon sie sich beide bewußt sind, wie sehr dieser unter der genannten Aufgabe zu leiden hat. Jene Gegenstände, die der Rangniedere zu entfernen hat, sind eine Erinnerung an seinen Fehl, den Fehl aller Träger des braunen Umhang und den Verrat eines der ihren. Doch der stählern Gerüstete hat sehr bewußt eben ihn ausgewählt, diese Arbeit zu vollbringen, und kein fehlgeleitetes Mitleid läßt ihn darüber nachdenken, diesen aus seiner Verantwortung zu entlassen.<br /><br />&quot;Danach wirst du die herrenlose Ausrüstung aus euren Unterkünften einsammeln und den Beständen hinzufügen. Ich erwarte sowohl einen entsprechenden Eintrag in den Bestandslisten, als auch eine Erklärung, weshalb dies nicht bereits geschehen ist.&quot;<br /><br />Er wartet weder die militärisch knappe Antwort auf seine Worte ab, noch die neuerliche tiefe Verneigung, sondern setzt seinen Weg über den Innenhof hinüber zum Gemeinschaftsschlafsaal fort, als wäre sein Schritt nie von jenem beiläufigen Nebengedanken gezügelt worden.<br /><br />Das schwarze Tor gibt leise knarzend seinem Zug nach, und der mit ihm eindringende Lufthauch bringt die einzelne Kerze im Raum ein letztes verzweifeltes Mal zum Flackern und schließlich gänzlich zum Erlischen. Dunkelheit umfängt ihn und Schwärze, eine Stille, welche für einige Momente sein gesamtes Sein einhüllt.<br /><br />Dann folgen Schritte, das Klackern eines Verschlusses und ein leises Poltern aus dem nordöstlichen Teil des Raumes. Ein leises Zischen noch, und der unruhige Schein eines einzelnen Schwefelhölzchens flackert über die schwarzen Steinmauern. In aller Ruhe entzündet er die frische Kerze an der flüchtigen Flamme und tauscht den abgebrannten Stumpen in der Mitte des Tisches gegen diese aus.<br /><br />Schließlich wendet er sich herum, zum ersten Bett unweit des Eingangs.<br /><br />&quot;Godh, du bist wach,&quot; spricht er in die Stille hinein. &quot;Es wird Zeit zu reden.&quot;</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p930642"></a>
+				<b class="postauthor">Sperling&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Dunkeln verborgen</div><div style="float: right;"><a href="./viewtopic.php?p=930642#p930642"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 17.10.16, 18:07&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9223_1449603363.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.11.15, 20:00<br /><b>Beiträge:</b> 768				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Zur Mittagsstunde des 17. Carmars verlangsamt eine Gestalt ihre forschen Schritte, um neben einem hölzernen Tor zum Stehen zu kommen. Zyklen scheinen zu vergehen, ehe der Mann sich ohne jede Hast umwendet, den Blick auf das Tor richtet - auf das Zeichen, welches dort offenbar mit einem spitzen Gegenstand eingeritzt wurde.<br /><br />Eine Raute, darin ein Auge über zwei gekreuzten Schwertern.<br /><br />Mit bedächtigen Bewegungen streckt er die Linke danach aus, bettet deren Handfläche eben auf das Zeichen, und er geht tief in sich, um den Zorn ob des Symbols in seinem Inneren zu finden. Doch da ist nur die Kälte, welche beständig durch seine Adern pulsiert.<br /><br />Spielen ihm seine Gedanken einen Streich, ist es nicht mehr als Einbildung, oder strebt sie seiner Linken entgegen? Nein, immer mehr der nun so vertrauten Kraft scheint sich dort zu sammeln, die Hand zu durchfluten - die Handfläche erst einem unterschwelligen Ziehen zu unterwerfen, dann einem stetig anschwellenden Schmerz.<br /><br />&quot;Beinahe zwei Jahrzehnte unter dem Joch dieses Zeichens.&quot; Und der Schmerz versiegt im selben Maße, in welchem sich das kalte Lächeln auf seinen Zügen ausbreiten. &quot;Horkum Angamon, Pan ta Dukai, Gedare ta Dor eth Hyl, vill dorylar ilar logana eth hylar Onach Dukai. Modhvardy Onach Manak, kherinkta sarkhor!&quot;<br /><br />Als seine Hand sich zurückzieht...<br /><br />Ruht das Zeichen unverändert, und er wendet sich schlicht ab, gibt die Einkerbung wieder der Bedeutungslosigkeit preis.<br /><br />&quot;Thular meh makivar makivarei, brawta?quot;</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9223"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=105027&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=105027"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 9 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 4 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=105027"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

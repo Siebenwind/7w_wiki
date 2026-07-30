@@ -42,6 +42,17 @@
         "(?<!docs/)Siebenwind_Wiki/00_",
         "`Siebenwind_Wiki/`, `docs/index\\.md`, `docs/Siebenwind_Wiki/`"
       ]
+    },
+    {
+      "id": "archive-register-paths-are-unique",
+      "name": "Archive register contains every repository path at most once",
+      "json_unique_by_file": [
+        {
+          "file": "System/Archivregister/ARCHIVREGISTER.json",
+          "array_path": "records",
+          "key": "relative_path"
+        }
+      ]
     }
   ]
 }

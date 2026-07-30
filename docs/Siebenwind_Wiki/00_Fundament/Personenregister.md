@@ -55,6 +55,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Armgard_Torenson]] | Kapitän / Entdecker | [Bote 137] | Legendär | #bote |
 | [[Arnim_Estragons]] | Stellv. Botenleitung / Lehensherr | [Bote 131] | ~15 n.H. | #bote |
 | [[Beladriel_Blaettertanz]] | Heerführerin ([[Seeberg]]) / Truchsess | [Bote 165/174] | 18-20 n.H. | #bote |
+| [[Benjamin_Mondsilberhaar]] | Elf / Diener Vitamas | Forum 105537 | 27 n.H. | #perspektive |
 | [[Benion_Sandelholz]] | Hochgeweihter ([[Vitama]]) / Gründer (Tränenorden) | [Bote 130/140/149] | ~15-17 n.H. | #bote |
 | [[Biskulon]] | Bibliothekar / Bauleiter | [[Falkensee]] | 17 n.H. | #bote |
 | [[Brandeis]] | Wachmann (verstorben) | [Bote 130] | ~15 n.H. | #bote |
@@ -81,7 +82,6 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Emanuel]] | Paladin | [Kanon] | amtierend | #canon |
 | [[Enzo_Wendolyn]] | Tierpfleger ([[Circus_Wendolyn]]) | [Bote 138] | 16 n.H. | #bote |
 | [[Estriol_Karantes]] | Bürger (Opfer) | [Bote 135] | 16 n.H. | #bote |
-| [[Erzpriester_Vencurius]] | Klerus ([[Xan]]) | [Kanon] | amtierend | #canon |
 | [[Eleonore]] | Ehemalige Geliebte ([[Haldur_Toda]]) | [L. eines Dichters] | 13-22 n.H. | #perspektive |
 | [[Erdur]] | Sohn von [[Haldur_Toda]] | [L. eines Dichters] | Geboren ~13 n.H. | #perspektive |
 | [[Eret]] | Fleischer (Mainland) | [L. eines Dichters] | 22 n.H. | #perspektive |
@@ -187,7 +187,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Ur-Shar]] | Schlangenwesen / Hohepriester | [Bote 185] | 30 n.H. | #bote |
 | [[Ra-Harakte]] | Gott (altägyptisch/fremd) | [Mythologie] | Antike | #überlieferung |
 | [[Rakurion_Argus]] | Magier / Adeptus | [Bote 158] / [G. eines s. Adlers] | 18-22 n.H. | #perspektive |
-| [[Vencurius]] | Erzpriester des [[Ventus]] | [Flug der Ente] | 22 n.H. | #perspektive |
+| [[Vencurius]] | Erzpriester des [[Ventus]] / Calator | [Flug der Ente / Forum] | 22 und 27 n.H. | #perspektive |
 | [[Haldur_Toda]] | Dichter / Autor | [L. eines Dichters] | 22 n.H. | #perspektive |
 | [[Halmar]] | Söldner | [Bote 154] | 18 n.H. | #bote |
 | [[Niemand]] | Mysteriöse Gestalt | [Bote 136] | ~15 n.H. | #bote |
@@ -566,6 +566,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Cardos]] | Bürger ([[Falkensee]]) | [Einsame Ladengedanken] | - | #perspektive |
 | [[Nurya]] | Bürgerin | [Einsame Ladengedanken] | - | #perspektive |
 | [[Lucienne]] | Ehefrau | [[Pruefung_und_Entsagung]] | - | #perspektive |
+| [[Lusenia_Remorian]] | Astraeldienerin | Forum 109883 | 33-34 n.H. | #perspektive |
 | [[Magister_ad_Sinister]] | Titel / Nekromant | [[Geschaeftiges_Treiben]] | - | #perspektive |
 | [[Solfeister_Kin]] | Kultist ([[Angamon]]) | [[Solfeister_Kin]] | - | #perspektive |
 | [[Szarmaduk]] | "Meister" / Entität (?) | [[Die_Namikleris]] | - | #perspektive |

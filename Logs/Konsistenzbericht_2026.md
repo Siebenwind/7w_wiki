@@ -1,7 +1,7 @@
 # Konsistenzbericht 2026
 
 **Status:** Aktiv
-**Letzte Prüfung:** 2026-02-17
+**Letzte Prüfung:** 2026-07-21
 **Verantwortlich:** Inquisition & Archiv
 
 ## 🚨 Analyse: GitHub vs. Lokal Audit
@@ -32,6 +32,8 @@
 | K-002 | 19k Dead Links | Inhalt | Massive Anzahl toter Wiki-Links in älteren Artikeln. | 🔴 Offen |
 | K-003 | Handover Link-Check Regression | Interop | `test --suite all` meldet in `interop-doc-links` einen defekten Link in `.agent/workflows/handover.md` (`../...`). | 🔴 Offen |
 | K-004 | Audit Gate Regression | Betrieb | `./7w_wiki.py audit` liefert 1184 Probleme (u.a. `Mirila_Mik_Honigzopf` Duplikat, fehlendes `Althea_Danea` Profil, breite Missing-File-WikiLinks). | 🔴 Offen |
+| K-005 | Fjerulfs Pfad | Lore | Bedeutung des Titels, genaue Herkunft Aervilds sowie Identitaeten mehrerer Nebenfiguren sind nur forumsperspektivisch oder ungeklärt; siehe `Logs/Ingestion/2026-07-21_Forum_fjerulfs_pfad.md`. | 🔴 Offen |
+| K-006 | Vencurius in Ketten | Lore | Zuordnung des unbenannten Calators zu Vencurius ist quellennahe Identifikation; Haftgrund, Dunquert und Befreiung bleiben ungeklärt; siehe `Logs/Ingestion/2026-07-21_Forum_der_mann_in_ketten.md`. | 🔴 Offen |
 
 ## ✅ Gelöste Probleme
 *Archiv der behobenen Inkonsistenzen.*
@@ -39,3 +41,4 @@
 | ID | Eintrag | Lösung | Datum |
 |---|---|---|---|
 | T-001 | Absolute Pfade | Workflows | Entfernung aller `file://` Referenzen aus Workflows. | 2026-02-17 |
+| T-002 | Vencurius-Dublette | `Erzpriester_Vencurius.md` wurde in das kanonische technische Ziel `Vencurius.md` konsolidiert und alle aktiven Registerlinks wurden umgestellt. | 2026-07-21 |
