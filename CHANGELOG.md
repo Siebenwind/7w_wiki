@@ -1,5 +1,34 @@
 # Changelog
 
+#### [2026-08-04.04] - Gesamtstatus zu Forum-Ingestion und Backlogs commitbereit dokumentiert
+### Prioritaet: P2
+### Hinzugefügt
+- `Logs/STATUSBERICHT_2026-08-04_FORUM_INGESTION_UND_BACKLOG.md` quantifiziert Forumfortschritt, Historiker-, Research-, Pages- und Koordinationsbacklog.
+### Geändert
+- `MASTER_TASK_LIST.md` auf `54` Forum-Integrationen, `141` Metadatenreste, zwei ausstehende Newsquellen und den aktuellen Pages-Stand `624/622` angehoben.
+- Der Statistiklauf erfasst nun `1.397` Artikel und `95` vollständig getrackte Ingestion-Berichte; die fünf jüngsten Historikerberichte erhielten den kanonischen Trackingblock.
+### Hygiene
+- Keine versionierten Buildartefakte gefunden; `site/`, Laufzeitcaches und virtuelle Umgebungen bleiben ignoriert.
+- Forum-Raw-HTML bleibt als Quellenbeleg im Commit, die sachfremde unversionierte Dispatchdatei `MSG-2026-0199` bleibt ausgeschlossen.
+
+#### [2026-08-04.03] - Forum-Historikerbatch zu Hadernblättern, Falkenwall, Avindhrell und Maichellis abgeschlossen
+### Prioritaet: P2
+### Hinzugefügt
+- `Geschichten_auf_1001_Hadernblatt.md` trennt drei endophalisch geprägte Lehrgeschichten von einer bestätigten historischen Chronik.
+- `Zaertliche_Cousinen.md` bewahrt den Falkenseer Einbruch vom 3. Trier 27 n.H., ohne Täter, Kartenzeichen oder Verwandtschaft zu erfinden.
+- Fünf Berichte dokumentieren Quellenabgleich und Zielentscheidungen für die Topics `104750`, `104898`, `104852`, `104864` und `104860`.
+### Geändert
+- `Falkenwall.md` erhielt den Skelettangriff des Jahres 27 n.H. als klar begrenzte Forumsperspektive neben dem zeitnahen offiziellen Wochenüberblick.
+- Die Platzhalter `Auenelfen.md` und `Avindhrell.md` wurden anhand des offiziellen Hintergrunds ausgebaut; Forum und News ergänzen den datierten Krisenbefund.
+- `Maichellis_Wanderstern.md` führt nun die belegten Stationen als Obergefreiter, Vogt und militärischer Koordinator; unbelegte Charakterdeutung und zugeschriebenes Zitat wurden entfernt.
+- Alle fünf Forumquellen stehen auf `integrated`; der Erzählungsindex erschließt die beiden neuen Seiten.
+### Validiert
+- `./7w_wiki.py audit --json`: `issues_found = 0`
+- Lektor und Sanitizer für alle sieben berührten Wiki-Seiten: PASS
+- `forum-ingest-contract`, `historian-review-contract`, `content-contract`, `source-tree-contract`, `render-hygiene`, `bridge-placeholder-guard` und `clean-client-state`: PASS
+- `pages-full-smoke`: PASS; direkte Pages-Validierung mit erfolgreichem Build, `drift_status = PASS` und bekanntem globalem Backlog von `624` unresolved / `622` unallowlisted
+- `git diff --check`: PASS
+
 #### [2026-08-04.02] - Forum-Historikerbatch zu Endophali, Bärenkampf, Balian und Waldhütte abgeschlossen
 ### Prioritaet: P2
 ### Hinzugefügt

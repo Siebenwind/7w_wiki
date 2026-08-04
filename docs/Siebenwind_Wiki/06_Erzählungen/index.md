@@ -23,6 +23,7 @@ Das Archiv der Erzählungen.
 *   [[Erzählungen|Erzählungen]]
 *   [[Eine_Huette_in_der_Wildnis|Eine Hütte in der Wildnis]]
 *   [[Fjerulfs_Pfad|Fjerulfs Pfad]]
+*   [[Geschichten_auf_1001_Hadernblatt|Geschichten auf 1001 Hadernblatt]]
 *   [[Geschichten_eines_silbernen_Adlers|Geschichten eines silbernen Adlers]]
 *   [[Heimsuchung_der_Akademie|Die Heimsuchung der Akademie]]
 *   [[Im_starken_Schutz_des_Hoechsten|Im starken Schutz des Höchsten]]
@@ -32,3 +33,4 @@ Das Archiv der Erzählungen.
 *   [[Saranas_Tod|Saranas Tod]]
 *   [[Von_gesplitterten_Seelen_und_blutigen_Kehlen|Von gesplitterten Seelen und blutigen Kehlen]]
 *   [[Waldemar_Delaries_Reise_nach_Papin|Waldemar Delaries Reise nach Papin]]
+*   [[Zaertliche_Cousinen|Zärtliche Cousinen]]

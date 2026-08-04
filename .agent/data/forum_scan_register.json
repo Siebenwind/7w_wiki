@@ -3059,11 +3059,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104750",
       "title": "Geschichten auf 1001 Hadernblatt",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_geschichten_auf_1001_hadernblatt.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_geschichten_auf_1001_hadernblatt.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/104750.html"
+      ],
+      "post_count": 4,
+      "fulltext_archived_at": "2026-08-04T16:17:47Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Geschichten_auf_1001_Hadernblatt.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_geschichten_auf_1001_hadernblatt.md",
+      "integrated_at": "2026-08-04T16:28:04Z"
     },
     {
       "board": "geschichten",
@@ -3071,11 +3085,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104898",
       "title": "Der Angriff auf den Wall",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_angriff_auf_den_wall.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_angriff_auf_den_wall.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/104898.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-08-04T16:17:52Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/02_Geografie/Falkenwall.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_der_angriff_auf_den_wall.md",
+      "integrated_at": "2026-08-04T16:28:04Z"
     },
     {
       "board": "geschichten",
@@ -3083,11 +3111,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104852",
       "title": "Die Bewohner der Auen",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_bewohner_der_auen.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_bewohner_der_auen.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/104852.html"
+      ],
+      "post_count": 3,
+      "fulltext_archived_at": "2026-08-04T16:17:52Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/00_Fundament/Avindhrell.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_die_bewohner_der_auen.md",
+      "integrated_at": "2026-08-04T16:28:04Z"
     },
     {
       "board": "geschichten",
@@ -3095,11 +3137,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104864",
       "title": "Zärtliche Cousinen",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_z_rtliche_cousinen.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_z_rtliche_cousinen.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/104864.html"
+      ],
+      "post_count": 4,
+      "fulltext_archived_at": "2026-08-04T16:17:52Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Zaertliche_Cousinen.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_zaertliche_cousinen.md",
+      "integrated_at": "2026-08-04T16:28:04Z"
     },
     {
       "board": "geschichten",
@@ -3107,11 +3163,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "104860",
       "title": "Reitunterricht",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_reitunterricht.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_reitunterricht.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/104860.html"
+      ],
+      "post_count": 10,
+      "fulltext_archived_at": "2026-08-04T16:17:53Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Maichellis_Wanderstern.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_reitunterricht.md",
+      "integrated_at": "2026-08-04T16:28:05Z"
     },
     {
       "board": "geschichten",

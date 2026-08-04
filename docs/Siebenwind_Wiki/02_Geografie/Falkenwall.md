@@ -4,7 +4,7 @@ title: Der Falkenwall
 category: Geografie
 quelle: "../../Quellen/News/2023-07-24_Neuer_Clientpatch.md"
 lore_trust: 8
-letzter_check: 2026-08-02
+letzter_check: 2026-08-04
 report_id: ac9849b5-3cc2-4111-9292-b4918f3d43e4
 ---
 
@@ -19,6 +19,12 @@ Der **Falkenwall** trennte das befriedete Grünland vom [[Ödland]] und schützt
 ## Ausbau im Jahr 18 n.H.
 
 Im Carmer des Jahres 18 n.H. wurde unter Beteiligung des Inselpatriziers **[[Gropp]]** eine Erweiterung des Walls angekündigt. Der **Siebenwind Bote 160** nennt ein zusätzliches Torhaus zum Grünland und vier schwere Belagerungswaffen. Spätere Botenberichte belegen die Wacht des [[Orden_der_Wachenden_Löwen|Ordens der Wachenden Löwen]], Kämpfe gegen Angreifer aus dem Ödland und wiederholte Instandsetzungen.
+
+## Skelettangriff im Jahr 27 n.H.
+
+Die Forumquelle **„Der Angriff auf den Wall“** berichtet für den Abend des 10. Trier 27 n.H. von einer kleinen Truppe unter Führung **Cayal'Ra Ralins**. Nach der Warnung eines Orken sei die aus Luth Chalid kommende Gruppe nördlich des bereits als ehemalige Stadt bezeichneten [[Falkensee|Falkensees]] auf mehrere Skeletttrupps und am Wall auf eine Knochenbestie gestoßen.
+
+Nach der Darstellung Diana Weidenbachs waren die Arbeiter am Wall tot. Geborgene Leichen seien der cortanischen Botschaft übergeben worden; zugleich habe die Gruppe davor gewarnt, dass sich mehrere zerstörte Gegner wieder zusammensetzten und erhoben. Der Wochenüberblick vom 9. Mai 2016 belegt zeitnahe Unruhe in der Region und einen Zug bewaffneter Personen in Richtung Wall, bestätigt aber weder Cayal'Ra Ralins Führung noch die Toten und die beschriebenen Wiedergänger. Diese Einzelheiten bleiben Forumsperspektive.
 
 ## Das Ronnoch-Ereignis
 
@@ -54,9 +60,14 @@ Nach dem Ronnoch-Ereignis kann der Falkenwall nicht mehr ohne zeitliche Einordnu
 - Ergänzende Chronik: `../../Quellen/Zeitung 7w Bote/Siebenwind Bote 189.md`
 - Perspektivquelle: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_ewiger_treue.md`
 - Perspektivquelle: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_erforschung_und_entdeckungen_in_der_neuen_heimat.md`
+- Perspektivquelle: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_angriff_auf_den_wall.md`
+- Zeitnaher offizieller Wochenüberblick: `../../Quellen/News/2016-05-09_Wochenuberblick.md`
 - Raw HTML: `../../Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/109969.html`
 - Raw HTML: `../../Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110194.html`
+- Raw HTML: `../../Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/104898.html`
 
 > [!ABSTRACT] Prüfbericht verfügbar: `../../../Logs/Ingestion/2026-08-02_Historian_Triage_Forum_109969.md` (ID: ac9849b5-3cc2-4111-9292-b4918f3d43e4)
 
 > [!ABSTRACT] Ergänzender Prüfbericht: `../../../Logs/Ingestion/2026-08-02_Historian_Triage_Forum_110194.md` (ID: 343df89e-e10b-4fc9-abfb-80238685ae40)
+
+> [!ABSTRACT] Ergänzender Prüfbericht: `../../../Logs/Ingestion/2026-08-04_Forum_der_angriff_auf_den_wall.md` (ID: 53526be1-5659-49ea-9dcd-f46fe42f9f81)

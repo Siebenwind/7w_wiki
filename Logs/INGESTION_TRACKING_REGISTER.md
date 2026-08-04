@@ -1,7 +1,7 @@
 ---
 uuid: 6af36c09-c985-4de8-9dc5-9680b9de9b5b
 status: ACTIVE
-updated_at: 2026-08-04T15:31:41Z
+updated_at: 2026-08-04T16:48:37Z
 epistemic: "#meta"
 ---
 
@@ -13,15 +13,20 @@ Zentrales Tracking fuer Ingestion-Auswertungen (wer/wann/wie + Scoreprofil).
 
 ## Snapshot
 
-- Reports gesamt: 90
-- Reports mit Tracking-Kernfeldern: 90
-- Reports mit LQS: 88
-- Dominante Score-Cluster: 2/2/4/2/4 (29), 5/5/5/4/4 (16), 4/4/5/4/4 (14)
+- Reports gesamt: 95
+- Reports mit Tracking-Kernfeldern: 95
+- Reports mit LQS: 93
+- Dominante Score-Cluster: 2/2/4/2/4 (31), 5/5/5/4/4 (16), 4/4/5/4/4 (14)
 
 ## Register
 
 | Report | Quelle | Ausgewertet von | Auswertungszeitpunkt (UTC) | Workflow/Skill | Dispatch | LQS | Profil |
 |---|---|---|---|---|---|---|---|
+| `Logs/Ingestion/2026-08-04_Forum_der_angriff_auf_den_wall.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_angriff_auf_den_wall.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T16:23:28Z | N/A | N/A | 4.2 | 2/2/4/3/4 |
+| `Logs/Ingestion/2026-08-04_Forum_die_bewohner_der_auen.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_bewohner_der_auen.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T16:23:28Z | N/A | N/A | 4.2 | 2/2/4/3/4 |
+| `Logs/Ingestion/2026-08-04_Forum_geschichten_auf_1001_hadernblatt.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_geschichten_auf_1001_hadernblatt.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T16:23:28Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-08-04_Forum_reitunterricht.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_reitunterricht.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T16:23:28Z | N/A | N/A | 4.2 | 2/2/4/3/4 |
+| `Logs/Ingestion/2026-08-04_Forum_zaertliche_cousinen.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_z_rtliche_cousinen.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T16:23:28Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
 | `Logs/Ingestion/2026-08-04_Forum_eine_huette_in_der_wildnis.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_h_tte_in_der_wildnis.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T15:01:16Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
 | `Logs/Ingestion/2026-08-04_Forum_baeaeaeaeaeaeaeaeaeaeaerenkampf.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_b_renkampf.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T15:01:15Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
 | `Logs/Ingestion/2026-08-04_Forum_im_wuestensand.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_w_stensand.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T15:01:15Z | N/A | N/A | 4.0 | 2/2/4/2/4 |

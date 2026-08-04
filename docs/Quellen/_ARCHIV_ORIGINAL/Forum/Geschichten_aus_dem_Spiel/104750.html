@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Geschichten auf 1001 Hadernblatt</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 18:17<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=104750&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Geschichten auf 1001 Hadernblatt</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=104750"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 4 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=104750&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=104750&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=104750&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p922475"></a>
+				<b class="postauthor" style="color: #string">Mahiathi Teh Ashlahi&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Geschichten auf 1001 Hadernblatt</div><div style="float: right;"><a href="./viewtopic.php?p=922475#p922475"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 18.04.16, 18:59&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 18.04.16, 18:45<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Irgendwo auf Tare, vielleicht sogar auf der Insel Siebenwind, findet sich eine Sammlung loser Hadernblätter, auf denen mit <span style="text-decoration: line-through;">schlichtem Kohlestift</span> hochwertiger Tinte kleine Geschichten notiert sind. Zumeist sind die Blätter <span style="text-decoration: line-through;">zusammengerollt und mit einem Stück Leder umwickelt</span> in einer schlichten Kladde aufbewahrt, um sie gegen die Elemente zu schützen.<br /><br />Aber manchmal, wenn der Verfasser unachtsam oder der geneigte Leser gewitzt ist, mag man einen kurzen Blick auf eine der Geschichten erhaschen.</div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=9278" style="color: #string;" class="username-coloured">Mahiathi Teh Ashlahi</a>: 21.05.16, 13:19, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9278"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9278"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p922476"></a>
+				<b class="postauthor" style="color: #string">Mahiathi Teh Ashlahi&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Geschichten auf 1001 Hadernblatt</div><div style="float: right;"><a href="./viewtopic.php?p=922476#p922476"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 18.04.16, 19:03&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 18.04.16, 18:45<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Ein schlichtes Blatt, mit Kohlestift beschrieben und ohne jede Verzierung:<br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="font-weight: bold"><span style="font-size: 150%; line-height: normal">Die Geschichte des gebrochenen Wächters</span></span><br /><br />Es wird erzählt in den fernen Landen der Chaladaim die Geschichte eines Jünglings, schön anzusehen und mit einem hellen Geist gesegnet. Doch wisse, daß jener Sohn einer Sippenmutter von den Mächten vor eine schwere Prüfung gestellt war, an welcher sein Wille einst zerbrochen.<br /><br />Erst durch die Liebe zu seiner Schwester, die zu beschützen er im Beisein seiner Sippe geschworen hatte, vermochte er die Ketten des Jochs zu sprengen und sich gegen einen gefürchteten Ves'grha aufzulehnen, wie ein stolzer Rappe sich vor einem Löwen aufbäumt.<br /><br />Die Schwester des Jünglings jedoch, nunmehr selbst zur Mutter der Familie herangewachsen, erkannte bald, daß sein Geist weiterhin gefangen war in seiner Art zu dienen, nicht als ihr Wächter und stolzer Mann der Sippe, sondern als Knecht und Sklave.<br /><br />Zu jener Zeit lebte in einer fernen Stadt El Mahids eine junge Frau vom Blute der Chaladaim, mit Haar silbern wie das Licht des Kani-Jaleth und Narben im Gesicht, die von Leid und Stärke zeugten.<br /><br />»Sprich, edler Sohn der Wüste,« forderte sie den Jüngling auf, als ihre Wege sich kreuzten und sie seiner Ergebenheit gewahr wurde. »Warum läßt du dich unterjochen von dieser Frau?« Denn sie war unerfahren und die Sitten der Kuraim waren ihr fremd.<br /><br />Die Mutter der Sippe, stolz und doch weise entgegen ihrer Jugend, zürnte der Chalada nicht. Im rebellischen Geist des Mädchens erblickte sie eine Gelegenheit, ihren Bruder vor sich selbst zu schützen, und so ließ sie das Kind gewähren.<br /><br />Ihr Bruder aber war von Unsicherheit erfüllt und deutete das folgende Gespräch als Zeichen seines Versagens, die Ehre der Familie aufrecht zu erhalten. Und so kam es, daß sein Herz erfüllt war von Reue und Schmerz, als seine Schwester ihn danach zu sich rief.<br /><br />»Vergib mir, denn ich habe Schande über unsere Familie gebracht, Mutter meiner Sippe!« Und der Jüngling fiel auf die Knie und senkte demütig seine Stirn gen Boden herab ohne zu wissen, daß seiner Schwester Herz von ähnlichem Schmerz erfüllt war. Denn schwerer noch als des Weltendrachen sandiger Leib lastete das Wissen auf ihr, daß er ihre Strafe fürchtete.<br /><br />So hob sie sachte sein Haupt an und ihre Lippen berührten die Stirn unter seinem Turban. »Kennst du deine eigene Schwester nicht mehr, M'Ihor?« sprach sie sanft. »Ich bin deine Sippenführerin und du mein Wächter, aber ich bin nicht deine Herrin und du nicht mein Sklave.«<br /><br />Und der Jüngling blickte zu ihr auf, und sein Herz war erfüllt von neuer Kraft, denn er nahm die Worte in sich auf und der Wunsch, ihnen zu entsprechen, wuchs in seinem Inneren. Mit neuem Mut antwortete er, und tat seinen ersten Schritt, indem er um etwas für sich selbst bat.<br /><br />Da lächelte seine Schwester, und sein Wunsch war ihm gewährt.</div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9278"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9278"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p924221"></a>
+				<b class="postauthor" style="color: #string">Mahiathi Teh Ashlahi&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Geschichten auf 1001 Hadernblatt</div><div style="float: right;"><a href="./viewtopic.php?p=924221#p924221"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 20.05.16, 10:44&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 18.04.16, 18:45<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Ein weiteres Blatt reiht sich in die Riege der Geschichten ein, die nicht gesondert unter Verschluß aufbewahrt werden. Diese Erzählung ist inzwischen mit schlichter Tinte verfaßt, und auf beim Schöpfen bereits mit frischem Harzgeruch versetztem Hadernpapier.<br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">Die Geschichte des weisen Weshran</span></span><br /><br />Wisse, daß einst ein stolzer Krieger der Kuraim lebte, fern der Heimat, und doch trug er die Wüste in seinem Herzen. Sein Weg war steinig und sein Wirken beschwerlich, denn er war ein Fremder in einem fremden Land.<br /><br />&quot;Höre mein Flehen, o gütige Blüte dieses fruchtbaren Landes,&quot; sprach er zu der Weshra der Stadt, welche er zu seiner Heimat fernab der Heimat erkoren hatte. &quot;Ein Diener will ich dir sein, voll Fleiß und demütiger Ergebenheit, gibst nur du mir die Gelegenheit, mich zu beweisen.&quot;<br /><br />Denn weise war er und geduldig, und harter Arbeit gab er sich hin in dem Wissen, daß niemand ihm würde bereiten einen ebenen Pfad zu seinem Glück.<br /><br />Und so kam es, daß er arbeitete für die Weshra, und unzählige Male wandelte sich das Gesicht des Kani-Jaleth, während er schlichte und doch aufrechte Aufgaben übernahm auf ihr Geheiß.<br /><br />Auch den Mächten blieben Fleiß und Beharrlichkeit des stolzen Sohnes Crowahsts nicht verborgen, und so lenkten sie seine Geschicke in günstige Bahnen.<br /><br />Hoch war er in jener Zeit in der Gunst der Weshra gestiegen, und als ihre Abreise die Stadt ohne Führung zurück ließ, ging er weiter beharrlich seiner Arbeit nach. Nicht lange dauerte es, bis man zu ihm kam um Rat und Unterstützung, und als der Moment gekommen war, die Nachfolge zu bestimmen, haderte niemand.<br /><br />Doch noch immer war der Pfad, der vor dem neuen Weshran lag, steinig und uneben. Die Bürger blickten auf zu ihm, doch unterlag er, und damit seine Stadt, weiterhin dem Joch der Chaladaim.<br /><br />Die Mächte aber wirken in einer Weise, wie sie uns einfachen Geschöpfen auf ewig verborgen bleiben wird, und so kam es, daß auf die dunkelsten Tage seines Lebens bald der strahlendste Aufstieg folgen sollte, ganz wie das ewige Wechselspiel aus Licht und Dunkelheit, das uns schon die Ältesten lehrten.<br /><br />Besetzt von den Kriegern der Macht des Chaos und den gefürchtetsten Ves'grha war seine Stadt in der Dunkelheit des Kani-Imteph, und den Flammen sollte sie zum Opfer fallen.<br /><br />Der weise Weshran aber lenkte die Geschicke selbst aus der Gefangenschaft heraus noch, und als er erblickte die brennenden Dächer seiner Stadt, da erhob er sich und trat an die Chaladaim heran, die ihn gefangen hielten.<br /><br />&quot;Lauschet meinen Worten, o siegreiche Krieger, denn sehe ich in euren Augen, daß auch ihr euch sehnt nach Frieden und dem Ruhen der Waffen.&quot;<br /><br />Und so sprach er zu ihnen und teilte mit ihnen seine Gedanken, seine Stadt zum Ort des Friedens zu machen. Keine der Seiten solle darüber herrschen, sondern sie zu Reichtum und Wohlstand erblühen unter der weisen Herrschaft der Kisha von El Mahid.<br /><br />So kam es schließlich, daß er seine vom Krieg geschundene Stadt emporhob zu einem blühenden Zentrum des Handels und der Kultur, und fortan sollte sie bekannt sein unter dem Namen Luth Chalid, wie es der Wille der Mächte war.</div></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=9278" style="color: #string;" class="username-coloured">Mahiathi Teh Ashlahi</a>: 21.05.16, 13:23, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9278"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9278"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p924270"></a>
+				<b class="postauthor" style="color: #string">Mahiathi Teh Ashlahi&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Geschichten auf 1001 Hadernblatt</div><div style="float: right;"><a href="./viewtopic.php?p=924270#p924270"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 21.05.16, 13:16&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 18.04.16, 18:45<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Neuerlich wird die Sammlung um eine kleine Geschichte erweitert, verfaßt auch diesmal auf einem mit Harzgeruch versetztem Blatt, doch geschrieben mit hochwertiger Tinte.<br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">Die Geschichte des flammenden Sandes</span></span><br /><br />Es war einst geboren in den südlichen Ländern der Chaladaim der Sohn eines Heilkundigen, dessen Berufung das Brauen von Elixieren war, um dem Leben von seinem bitteren Leid zu nehmen. In seine Fußstapfen sollte der Sohn einst treten, wie es Tradition war in ihrer Heimat, doch flammte ein Feuer tief in der Brust des jungen Mannes, das ihn auf einen anderen Pfad führte.<br /><br />Viele Geschichten hatte sein Mekigr ihm erzählt über die Wüsten, die Schreine der Mächte tief verborgen in ihren sandigen Weiten und über die alten Drachen. Und so zog er aus, um seine Neugier zu stillen und sein Ra zu finden, wie die Mächte es von Anbeginn für ihn vorgesehen hatten.<br /><br />Lange wanderte er und die Wüste prüfte ihn mit denselben Entbehrungen, die auch in den Kuraim Stärke und Duldsamkeit entfachen, bis er inmitten des Roten Sandes einen Schrein zu Ehren des Mahit At betrat. Mit offenen Armen wurde er aufgenommen, denn keine Fremden gibt es unter den Lebenden, welche wandeln in der roten Glut, und seine Heimat sollte der Schrein werden für lange Zeit.<br /><br />Wißbegierig lernte er zu jener Zeit die Sprache der Kuraim, und auch Wissen über die Macht des Mahit At wurde ihm in jenen Tagen zuteil, denn nicht minder war die Verbundenheit, die er den Flammen gegenüber verspürte. Sein Ra jedoch offenbarte sich in der dunkelsten Stunde, so wie jedem von uns nach der tiefsten Dunkelheit stets wieder das Licht entgegenblickt im ewigen Kreislauf.<br /><br />Es sollte sich zutragen, daß einem Händler aus Luth Mahid die Gastfreundschaft der Schwestern und Brüder im Schrein zuteil wurde. Seine Taschen gefüllt mit den feinsten Stoffen, war er auf dem Weg zur nächsten Siedlung, und so bat er den jungen Suchenden, ihn auf seinem Weg zu begleiten. Dieser, noch nicht gewahr seines Weges und tätig als schlichter Abenteurer, der seine Dienste gegen Lhos anbot, versprach ihn zu begleiten und vor den Gefahren der Wüste zu schützen.<br /><br />Die Mächte aber blendeten seine Augen mit sandigen Winden, und viele Male sollte der Wechsel von Dunkelheit und Licht den Himmel verändern, während sie durch den Roten Sand irrten. Ihre Vorräte waren bald aufgebraucht und die Schwingen des Rha kreisten über ihnen, doch der Suchende gab sich nicht der Verzweiflung hin, sondern führte den Händler weiter, stets Gebete an die Mächte auf den papierenen Lippen.<br /><br />Und die Mächte sandten ihm eine Antwort in Form eines Traums, in welchem eine der gestreiften Chiathiim aus der Grünen Wüste ihn durch den Roten Sand führte. Und dort, wo sie entlang wanderten, sollte sich am nächsten Tag eine Spur lodernder Flammen im trockenen Sand finden, der sie bis zu einer kleinen Oase folgten. So konnten sie ihre Vorräte auffrischen, und bald schon hatte er den Händler von dort in die Sicherheit der nächsten Siedlung geführt.<br /><br />Dem Suchende aber, der kein Suchender mehr war, hatte sich sein Ra offenbart, und er kehrt zurück in den Schrein, um dort der Macht des Mahit At zu opfern und Ihr sein Leben zu weihen.</div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9278"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9278"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=104750&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=104750"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 4 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 5 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=104750"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+<img src="./cron.php?cron_type=tidy_sessions" width="1" height="1" alt="cron" /></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

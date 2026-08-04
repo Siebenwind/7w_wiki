@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-08-04 17:31
+**Stand:** 2026-08-04 18:48
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -15,10 +15,10 @@ category: Index
 
 | Kennzahl | Wert |
 | :--- | :--- |
-| Artikel | **1395** |
-| Worte | **201,589** |
+| Artikel | **1397** |
+| Worte | **203,211** |
 | Durchschnittliche Artikellaenge | **145 Worte** |
-| Interne Verweise (`[[...]]`) | **13,175** |
+| Interne Verweise (`[[...]]`) | **13,192** |
 | Vernetzungsdichte | **9.4 Links/Artikel** |
 | Personenprofile | **590** |
 
@@ -28,9 +28,9 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Aktive Tage |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 29 | - | 1 |
-| Letzte 30 Tage | 30 | 10 | 2 |
-| Letzte 90 Tage | 34 | - | 4 |
+| Letzte 7 Tage | 46 | - | 2 |
+| Letzte 30 Tage | 47 | 15 | 3 |
+| Letzte 90 Tage | 51 | - | 5 |
 
 ---
 
@@ -47,7 +47,7 @@ pie title Artikel pro Sektion
     "02_Geografie" : 57
     "01_Pantheon" : 52
     "04_Chronik" : 83
-    "06_Erzählungen" : 32
+    "06_Erzählungen" : 34
     "09_Bibliothek" : 28
     "00_Fundament" : 286
 ```
@@ -57,7 +57,7 @@ pie title Artikel pro Sektion
 | Sektion | Artikel | Ø Worte/Artikel | Ø Links/Artikel |
 | :--- | ---: | ---: | ---: |
 | `01_Pantheon` | 52 | 410 | 11.2 |
-| `06_Erzählungen` | 32 | 298 | 9.4 |
+| `06_Erzählungen` | 34 | 302 | 9.1 |
 | `Root` | 1 | 283 | 1.0 |
 | `05_Magie` | 41 | 276 | 9.8 |
 | `04_Chronik` | 83 | 270 | 31.6 |
@@ -70,9 +70,9 @@ pie title Artikel pro Sektion
 ### Starke Knoten (gesamt)
 | Entitaet | Verweise |
 | :--- | ---: |
-| [[Falkensee]] | 540 |
-| [[Brandenstein]] | 513 |
-| [[Siebenwind]] | 510 |
+| [[Falkensee]] | 544 |
+| [[Brandenstein]] | 516 |
+| [[Siebenwind]] | 509 |
 | [[Bellum]] | 169 |
 | [[Astrael]] | 159 |
 | [[Nortraven]] | 147 |
@@ -109,11 +109,11 @@ pie title Artikel pro Sektion
 
 | Qualitaetsindikator | Wert | Fortschritt |
 | :--- | :--- | :--- |
-| Frontmatter-Abdeckung | 1395/1395 | `##########` 100.0% |
-| Aufgeloeste Quellenangabe (`quelle`) | 486/1395 | `###-------` 34.8% |
-| Ingestion Tracking vollstaendig | 90/90 | `##########` 100.0% |
-| Ingestion Reports mit LQS | 88/90 | `##########` 97.8% |
-| `[UNGEKLAERT]`-Marker (gesamt) | 300 | Beobachtung |
+| Frontmatter-Abdeckung | 1397/1397 | `##########` 100.0% |
+| Aufgeloeste Quellenangabe (`quelle`) | 491/1397 | `####------` 35.1% |
+| Ingestion Tracking vollstaendig | 95/95 | `##########` 100.0% |
+| Ingestion Reports mit LQS | 93/95 | `##########` 97.9% |
+| `[UNGEKLAERT]`-Marker (gesamt) | 301 | Beobachtung |
 
 ## 🔏 Drift & Provenance
 | Kennzahl | Wert |
@@ -127,11 +127,11 @@ pie title Artikel pro Sektion
 | Tag | Artikel |
 | :--- | ---: |
 | `#bote` | 590 |
-| `#unbekannt` | 419 |
-| `#perspektive` | 139 |
+| `#unbekannt` | 417 |
+| `#perspektive` | 142 |
 | `#canon` | 138 |
 | `#ueberlieferung` | 108 |
-| `#news` | 1 |
+| `#news` | 2 |
 
 
 ---
@@ -188,7 +188,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_f963e700-dddf-465b-83ec-f04293449d93.txt`
+- Letzter Audit: `Logs/Archive/Audit_2f5615a4-78a3-4de7-8578-c94f5d52a1af.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
 
 ---
