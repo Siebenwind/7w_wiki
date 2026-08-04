@@ -1,0 +1,630 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Traumtagebuch</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=109847&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Traumtagebuch</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=109847"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 6 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=109847&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=109847&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=109847&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952200"></a>
+				<b class="postauthor">Winni Moorpichler&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Traumtagebuch</div><div style="float: right;"><a href="./viewtopic.php?p=952200#p952200"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 30.11.22, 11:32&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.12.16, 02:04<br /><b>Beiträge:</b> 140				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">Vorbereitung</span></span><br />(Sorry, der Inhalt selbst wird hoffentlich etwas spannender <img src="./images/smilies/icon_mrgreen.gif" alt=":mrgreen:" title="Mr. Green" /> )<br /><br /><br />Der wirre Rotschopf kann heute beobachtet werden, wie er mit einem prall gefüllten Sack über der Schulter in Richtung Handwerkshaus maschiert, begleitet von einem aufgeregt gackernden Huhn, welches immer wieder mit ein paar kurzen Flügelschlägen zu dem Zausel aufschließt.<br /><br />Im Inneren des Gebäudes wird erst einmal ein Bottich mit Wasser gefüllt und dann der Inhalt des Sackes auf dem Boden ausgebreitet - allerlei Blätter, Geäste und sonstige Kostbarkeiten, die man im Wald so finden kann. Mit starrem, gedankenverlorenem Blick macht sich der Mann daran, die Pflanzen zu zerkleinern und im Wasserbottich aufzulösen.<br /><br />Das seltsame Huhn hilft sogar fleißig mit, indem es in die Wasser-Pflanzen-Mischung hüpft, mit übermütigem Herumtrippeln die Pampe gut vermischt und so die Pflanzenfasern beim Auflösen unterstützt.<br /><br />Sein Herrchen hat es sich inzwischen mit seinem geliebten Topf und ein paar Knollen auf dem Boden bequem gemacht. Ein alter, teils schon fürchterlich verbogener Küchenhobel wird genutzt, um die Pflanzen in ganz besonders feine Flöckchen zu zerteilen, die mit etwas Wasser im Topf aufgelöst werden.<br /><br />Dann sucht sich der Karottenkopf aus den Beständen des Handwerkshauses ein geeignetes Sieb, auf welchem er unter strenger Beobachtung durch das inzwischen patschnasse Huhn ein wenig der Pflanzenpampe gleichmäßig verteilt, wozu er das Sieb vorsichtig über dem Bottich schüttelt. Der Vorgang wird mit weiteren Sieben wiederholt und selbige überall in der Werkstatt verteilt.<br /><br />Während die dünnen Pflanzenschichten am Trocknen sind, widmet er sich wieder seinem Topf. Mit einem Stück Stoff, welches vor langer, langer Zeit wohl auch schon einmal besser ausgesehen haben muß, beginnnt er die breiige Masse sorgsam zu waschen, die reine Knollenstärke vom Rest der Pflanzen zu trennen.<br /><br />Am Ende wird eine dünne Schicht des Stärkeextraktes auf die beinahe getrockneten Siebe aufgetragen und das Ganze zum endgültigen Trocknen weggestellt.<br /><br />Während er darauf wartet, daß sein Papier fertig wird, hockt sich der seltsame Kauz wieder auf den Boden und fischt ein paar alte Lederstücke aus seiner Tasche. Das Huhn beugt sich neugierig über seinen Schoß und inspiziert die Rohstoffe, während er ein abgetragenes Nähtäschchen hervor holt und das Leder über Zuschneiden und Zusammennähen in die richtige Form bringt.<br /><br />Als nächstes sind dann wieder die Siebe dran - vorsichtig wird das fertige Papier herausgelöst und dann auf die gewünschte Größe zugeschnitten. Jeweils vier Blatt werden ineinander gelegt, nachdem er diese mit einem Stück Holz ordentlich gefalzt hat. Das Schneidertäschchen kommt gleich ein zweites Mal zum Einsatz, in Form einer dicken Nadel, mit welcher er in regelmäßigen Abständen Löcher durch den Falzbund sticht.<br /><br />Am Ende mißbraucht er einen der Schraubstöcke des Schreinertisches und zwei einfache Bretter, um das Papier in eine halbwegs glatte, kompakte Form zu bringen. Während die improvisierte Buchpresse ihr Werk tut, blickt er sich nachdenklich um, und beschließt dann, kurzerhand den Webstuhl als Heftlade zu mißbrauchen. Er spannt dort, wo normal die Längsfäden des Stoffes befestigt werden, eine Reihe dicker Schnüre - im Abstand der Löcher, die er vorhin gestochen hat.<br /><br />Das Papier wird wieder aus dem Schraubstock gelöst und er macht sich daran, die einzelnen Lagen miteinander und den gespannten Schnüren zu vernähen, während es sich sein Huhn auf seiner Tasche bequem macht und ein kleines Nickerchen hält. Mit einer Geduld, die man dem unruhigen, unkonzentrierten Mann wohl eher nicht zugetraut hätte, sitzt er so Stunde um Stunde an seiner Arbeit.<br /><br />Letztendlich werden die zusammengenähten Lagen dann wieder in die improvisierte Presse gespannt und er macht sich mit seinem Kräutermesserchen daran, vorsichtig die Kanten abzuhobeln, um vor allem gegenüber der Falz einen sauberen Abschluß der Seiten zu gewährleisten.<br /><br />Ein letztes Mal wird der Block dann in der Presse neu ausgerichtet, um die Ober- und Unterkante des Rückens frei zugänglich zu machen. Ein mittlerweile wieder aufgewachtes und sichtlich gelangweiltes Huhn marschiert leise vor sich hin gackernd durch die Werkstatt, während sein menschlicher Freund in mühevoller Fitzelarbeit die Kapitale näht.<br /><br />Am Ende des Tages bleibt dann nur noch übrig, die Werkstätte nach einem Topf Leim zu durchsuchen, um den Ledereinband an den Buchblock anzukleben.<br /><br />&quot;G...g...g...geht ja d...doch noch ...&quot; verkündet der Ersatzbuchbinder stolz, als er das fertige Büchlein schließlich seinem Huhn präsentiert und ein anerkennendes &quot;Gock, gock, gock!&quot; erntet. Das Resultat ist jetzt vielleicht kein Schmuckstück, aber für rissige, schwielenübersähte Hände, welche dieser Tätigkeit offenbar seit Jahren nicht mehr nachgegangen sind, ist das Ergebnis doch ganz passabel.<br /><br />Die Werkstätte wird noch artig in den Originalszustand versetzt, ehe sich der grüne Kauz mit seinem Huhn wieder in Richtung Tempel bewegt, sein neues Buch zufrieden unter dem Arm tragend.</div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #804040">Just like the seed</span><br /><span style="color: #008000">I don&#39;t know where to go</span><br /><span style="color: #804040">Through dirt and shadow I grow</span><br /><span style="color: #008000">I&#39;m reaching light through the struggle</span></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952201"></a>
+				<b class="postauthor">Winni Moorpichler&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Traumtagebuch</div><div style="float: right;"><a href="./viewtopic.php?p=952201#p952201"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 30.11.22, 15:00&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.12.16, 02:04<br /><b>Beiträge:</b> 140				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">28. Seker 33nH - Flammen</span></span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Ich stehe im Wald nördlich von Brandenstein. Zumindest erscheint es mir so - alles fühlt sich vertraut und geborgen an, auch wenn ich um mich herum nicht viel zu erkennen vermag. Denn ich stehe im Zentrum eines Flammenmeeres, welches alles um mich herum zu verschlingen droht.<br /><br />Und doch verspüre ich keine Angst, keine Sorge um der Herrin wohlbehüteten Wald. Im Gegenteil, in mir breitet sich ein intensives Gefühl von Stolz aus, tiefe Zufriedenheit. Die Flammen zügeln an meiner Kleidung, aber vermögen diese nicht einmal zu versengen, genauso wie das Grün um mich herum nicht unter dem Feuer zu leiden hat.<br /><br />Aus dem sanften Inferno schält sich ein einzelnes Kerzenflämmchen heraus, geschwungene Formen wie die einer jungen Frau scheinen mich betören zu wollen - die seltsame Gestalt tanz und räkelt sich vor meinen Augen. Und dann spricht sie zu mir, ach wenn es nicht mit der verführerischen Stimme einer jungen Tänzerin ist.<br /><br />Eine warme, helle Männerstimme rügt mich stattdessen mit sanfter Strenge, meine Truhe hätte wohl erneut versucht, auf den Schoß des Kommandanten zu springen. Ich habe den Drang, mich zu entschuldigen, doch endet der Traum, ehe ich dazu Gelegenheit bekomme.</div><br /><br />Darunter wurden in der Schrift eines anderen Notizen erfaßt:<br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Die rügende Stimme wurde vom Hilfesuchenden als &quot;der wandelnde Stern&quot; bezeichnet</div></div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #804040">Just like the seed</span><br /><span style="color: #008000">I don&#39;t know where to go</span><br /><span style="color: #804040">Through dirt and shadow I grow</span><br /><span style="color: #008000">I&#39;m reaching light through the struggle</span></div></span>
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=9310">Winni Moorpichler</a>: 9.12.22, 17:20, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952203"></a>
+				<b class="postauthor">Winni Moorpichler&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Traumtagebuch</div><div style="float: right;"><a href="./viewtopic.php?p=952203#p952203"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 1.12.22, 00:25&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.12.16, 02:04<br /><b>Beiträge:</b> 140				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">29. Seker 33nH - Ertrinken</span></span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Erneut der wiederkehrende Traum, gefangen in Maquiras Armen.<br /><br />Ich öffne die Augen und blicke von unten zur Wasseroberfläche empor. Das Licht der Felascheibe glitzert auf einer Myriade kleiner Wellen, blendet mich, verhöhnt mich in meinem kalten, nassen Grab.<br /><br />Meine Hand strecke ich nach oben, der rettenden Oberfläche entgegen, aber ich sinke nur tiefer, immer tiefer. Meine Glieder sind vor Kälte wie erstarrt und auf meiner Zunge schmecke ich das Salz des Meeres.<br /><br />Einen Moment lang überkommt mich ein Gefühl von innerem Frieden, ich schwebe in sanfter Schwerelosigkeit, meine Gedanken und Emotionen im perfekten Equilibrium - nur um dann plötzlich dem Drang nicht mehr standhalten zu können, meine Lungen wieder zu füllen.<br /><br />Während mir das salzige Naß in Nase und Rachen brennt, erscheint über mir ein Gesicht - durch die Lichtbrechung des Wassers nicht erkennbar, aber offensichtlich von Gram und Bedauern gezeichnet. Dann ... nur noch Schwärze.<br /><br />---<br /><br />Manches Mal, wenn ich am Fluß stehe und auf das Wasser hinabblicke, kehren die Erinnerungen an den Traum wie ein siedend heißer Schwall zurück in meinen Geist und ich verliere jeglichen Bezug zur Realität. Nach dem letzten Vorfall dieser Art waren mehrere Stunden wie aus meinem Gedächtnis herausgebrannt.</div><br /><br />Auch hier finden sich Notizen einer zweiten Person:<br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Erschreckte Reaktion auf die Erwähnung des Tauchens, &quot;Nein Ihr dürft nicht tauchen&quot;, gefolgt von Ausruf in vermutlich Run: &quot;Xa riae corp&quot;, später &quot;Maquire riae man&quot;</div></div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #804040">Just like the seed</span><br /><span style="color: #008000">I don&#39;t know where to go</span><br /><span style="color: #804040">Through dirt and shadow I grow</span><br /><span style="color: #008000">I&#39;m reaching light through the struggle</span></div></span>
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=9310">Winni Moorpichler</a>: 9.12.22, 17:22, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952204"></a>
+				<b class="postauthor">Winni Moorpichler&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Traumtagebuch</div><div style="float: right;"><a href="./viewtopic.php?p=952204#p952204"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 1.12.22, 01:03&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.12.16, 02:04<br /><b>Beiträge:</b> 140				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">30. Seker 33nH - Der Webstuhl</span></span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Ich befinde mich in einem fensterlosen Raum, umgeben von schwarzem Stein. Neben mir eine Gestalt, gehüllt in reinstes Weiß, vor mir ein Webstuhl mit straff gespannten Fäden. Die weiße Gestalt spricht zu mir, die Worte jedoch im Traum für mich unverständlich.<br /><br />Weitere Personen befinden sich mit uns im Raum, aber das strahlende Weiß blendet zu sehr, um sie in der Dunkelheit des Ortes ausmachen zu können.<br /><br />Und dann beginnen wir zu weben.<br /><br />Die Augen geschlossen, wiederholen wir die Worte des Weißen, und Bahn um Bahn entsteht das kunstvolle Muster eines Teppichs - die Farben leuchtend, die Textur von makelloser Gleichmäßigkeit. Ich nehme die tiefe Verbundenheit wahr, die gemeinsame Stärke, das Wissen um die komplexen Textilien, welche wir im gemeinsamen Tun so erschaffen könnten.<br /><br />Es ist beinahe wie ein Rausch, in welchem ich mich zu verlieren drohe, ehe mich die Stimme des Weißen an den Webstuhl zurückholt.<br /><br />Bis zum Ende bleibt uns das Bild verborgen, welches wir da weben, bis sich schließlich in den filigranen Windungen des Musters die Kontur einer weißen Feder abzeichnet. Ich verstehe nicht, und auch der Geist des Weißen schmeckt nach Unverständnis.<br /><br />Da löst sich die Feder vom gewebten Stoff, und als ich an mir hinab blicke, halte ich ein weißes Huhn schützend mit den Armen umschlossen. Die mich leitende Lichtgestalt ist verschwunden, nicht mehr anzutreffen, als ich nach Antworten auf meine Fragen strebend den Blick anhebe.<br /><br />Stattdessen spricht ein grauer Schatten zu mir: &quot;Wer weiß, was es damit auf sich hat. Ich mache es zu Eurer persönlichen Aufgabe, euch darum zu kümmern. Und vergeßt nicht: Ich mag Zwergenbier.&quot;<br /><br />---<br /><br />Die Referenz zum Zwergenbier ist mir ein Rätsel, und warum ausgerechnet ein Webstuhl zum zentralen Thema des Traumes wurde. Das Huhn an sich aber stellt sich aus meiner Sicht als reine Verarbeitung des Tagesgeschehen dar. Zuerst zeigte sich mir gegenüber heute auf dem Marktplatz ein Schaf erstaunlich anhänglich - möglicherweise ergibt sich der Zusammenhang mit dem Webstuhl ja aus der Korrelation mit der Wolle? - und dann geschah recht Ähnliches mit einem Huhn an der Brücke zum Elfengarten.<br /><br />An jener Brücke drängte sich mir auch der Verdacht auf, ich hätte den Ort gefunden, welcher bei meinem Gespräch mit Bruder Gantras kurzzeitig in meinen Erinnerungen erwachte. Eine Gärtnerei, möglicherweise ein Ort, an welchem ich früher meine Dienste angeboten habe? Aber in welchem Zusammenhang steht jenes Grundstück im Osten der Stadt mit meinem Traum?</div><br /><br />Als er endlich die letzten drei Tage nachgetragen hat, bettet der Karottenhaarige das Buch auf eines der Kissen im oberen Bereich des Morsanschreins. Tituliert als Traumtagebuch, und mit einem kleinen Lederfetzen versehen, auf dem deutlich der Name Gantras Remorian vermerkt ist - vermutlich als Einladung an jenen, es ohne Scheu zu lesen?<br /><br />Der Mann selbst verschwindet wieder in einem der abgetrennten Bereiche, um dort auf den nächsten Traum zu warten.<br /><br /><br />Einige Tage später wurde auch hier etwas vermerkt:<br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Weben mögliche Analogie für das astrale Wirken im Netz. Weißgehüllte Person womöglich ein Weißmagier.<br />Vermutlich magisch erschaffenes Huhn, Name &quot;Kvir Odal&quot;.</div></div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #804040">Just like the seed</span><br /><span style="color: #008000">I don&#39;t know where to go</span><br /><span style="color: #804040">Through dirt and shadow I grow</span><br /><span style="color: #008000">I&#39;m reaching light through the struggle</span></div></span>
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=9310">Winni Moorpichler</a>: 9.12.22, 17:32, insgesamt 3-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952213"></a>
+				<b class="postauthor">Winni Moorpichler&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Traumtagebuch</div><div style="float: right;"><a href="./viewtopic.php?p=952213#p952213"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 2.12.22, 01:55&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.12.16, 02:04<br /><b>Beiträge:</b> 140				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">1. Sekar 33nH - Schwert</span></span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Ich befinde mich in einem Innenhof, in der Rechten halte ich eine Mistgabel, in der Linken einen Wassereimer. Mein Blick ist auf eine tanzende Gestalt im Zentrum gerichtet. Schwarzes, glänzendes Haar wirbelt bei jeder Drehung, als hätten Khaleb und Maquira sich vereint, um das perfekte Bildnis fließender Bewegung zu erschaffen.<br /><br />Ein letzter Tanzschritt, eine letzte Verwirbelung des eleganten Körpers, und der Fey kommt mir gegenüber zum Stehen. In seiner mir auffordernd entgegen gestreckten Hand ruht ein Schwert, eben noch Teil seiner Darbietung, nun stattdessen eine Verheißung des vor mir liegenden Schicksals.<br /><br />&quot;Euer Part&quot;, spricht er mit ruhigen Worten. Die Klinge wird mein Ende besiegeln, dessen bin ich mir sicher, und dennoch greife ich danach.<br /><br />Als ich mich umwende, liegt vor mir der Hafen, kaum noch erhellt von einzelnen Laternen, deren fahles, kränkliches Licht den aufkommenden Nebel nur schwerlich zu durchdringen vermag. Ich spüre die Kreaturen, noch ehe mein Blick sie erfaßt oder das markerschütternde Knirschen ihrer stummen Schreie meinen Leib durchfährt.<br /><br />Und dann schält sich aus dem Zwielicht, was ich erst für riesige Lastenkräne hielt: zwei Ungetüme aus Stein, emporragend in schwindelerregende Höhen - und ihre leeren Augenghöhlen sind starr auf mich gerichtet.<br /><br />Mit unbarmherziger Deutlichkeit wird mir bewußt, daß ich nicht nur alleine bin, sondern zudem das letzte Hindernis auf ihrem zerstörerischen Weg gen der ungeschützten Wohnhäusern darstelle. Ich bin kein Held, kein Krieger, aber bin ich mir auch des Umstandes bewußt, daß ich nicht mit der Schuld leben könnte, es nicht zumindest versucht zu haben. Zudem quälen mich Worte in meinem Hinterkopf, ein Schwur, den ich einst geleistet habe - auch wenn mir im Traum dessen Wortlaut oder Ziel nicht bekannt ist.<br /><br />Letzten Endes blicke ich auf das mir dargereichte Schwert hinab und werfe es der ersten Bestie entgegen, während der Pflasterstein mit einem Mal von hellem Feuerschein erleuchtet wird. Ich habe keine Zeit mich umzublicken, wer den zweiten Angreifer in Flammen gehüllt hat - in meinem Herzen aber lodert die Gewißheit, Ignis stünde uns bei.<br /><br />Wider alle Instinkte stürme ich auf das brennende Ungetüm zu, tauche unter dessen stampfenden Marmorsäulen von Beinen hindurch, um in seinem Rücken wieder zum Vorschein zu kommen. Ich kenne meine Aufgabe - es von den hölzernen Bauten fernzuhalten, während die beständig neu aufflammende Feuersbrunst die steinerne Haut langsam zu verzehren beginnt.<br /><br />Meinem Schwert wird dieselbe Aufgabe mit dem anderen Gegner zuteil, doch kein Segen des Ignis ist es, welcher dessen Kreatur zu Fall bringen soll. Ein lautes Brüllen, dann stürmt ein Orkan aus Zähnen, Fell und Klauen auf den Kolossus zu, wirft sich gegen diesen und bringt ihn gar ein wenig ins Schwanken. Mir aber ist es nicht vergönnt, den dort drüben tobenden Kampf weiter zu beobachten, denn schon saust einer der in Flammen stehenden Arme auf mich herab.<br /><br />Wie schon im Traum mit der tanzenden Flamme, bleibe ich von der Hitze des Feuers verschont, die Wucht des Aufpralls aber treibt mir die Luft aus den Lungen und schmettert mich unbarmherzig zu Boden. Der harte Pflasterstein treibt die Schnallen meines Lederwamses in meinen Körper und warmes, flüssiges Leben beginnt sich unter meinem Körper auszubreiten.<br /><br />Ein letztes Mal flammt das Inferno auf, aber ich spüre, daß es nicht reichen wird. Daß gerade noch genug Leben in der Bestie steckt, um die verkohlten Steinarme ein letztes Mal anzuheben und mich darunter zu zerschmettern. Und so wäre es wohl auch gekommen...<br /><br />... hätte sich nicht im letzten Moment der Knauf meines Schwertes in eine der Felsspalten am Hals des Feindes gebohrt und dessen Kopf vom ignisgezeichneten Körper gehebelt. Ein letztes Taumeln, dann sackt der Steinkoloß leblos in sich zusammen. Die Klinge poltert einen Herzschlag später klirrend neben mir zu Boden. Und dann herrscht Stille.<br /><br />Ich bin wieder alleine.<br /><br />Geschunden und mit dem metallenen Geruch des beständig aus mir hervorsickernden Blutes in der Nase, lasse ich erschöpft den Kopf zu Boden sinken. Wie klein die Welt aus dieser Perspektive ist, nur wenige Schritt reicht der halb verschwommene Blick, der einzig von den unregelmäßigen Oberflächen der zum Kai verbauten Pflastersteine erfüllt scheint.<br /><br />Ist es nur Einbildung, daß meine Ohren das Peitschen ferner Flügelschläge vernehmen? Nur ein Auswuchs peinerfüllten Deliriums, als sich der schwarz glänzende Leib eines eleganten Vogels in mein beschränktes Gesichtsfeld schiebt?<br /><br />Die Erschöpfung droht mich zu übermannen, aber ich wage nicht, die Augen zu schließen und damit dem stierenden Blick des Raben auszuweichen, welcher direkt in meine Seele vorzudringen scheint.<br /><br />Letztendlich erwache ich dann mit einem Gefühl der Erleichterung und dem nur langsam verblassenden Bild des Raben, wie dieser sich von mir abwendet und mit zwei kräftigen Flügelschlägen im Zwielicht des nun wieder friedlich ruhenden Hafens verschwindet.</div><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Schwerttänzer wandelnder Stern wie in Traum 1.</div></div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #804040">Just like the seed</span><br /><span style="color: #008000">I don&#39;t know where to go</span><br /><span style="color: #804040">Through dirt and shadow I grow</span><br /><span style="color: #008000">I&#39;m reaching light through the struggle</span></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952389"></a>
+				<b class="postauthor">Winni Moorpichler&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Traumtagebuch</div><div style="float: right;"><a href="./viewtopic.php?p=952389#p952389"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 14.12.22, 02:19&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.12.16, 02:04<br /><b>Beiträge:</b> 140				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">14. Sekar 33nH - Farbenmeer</span></span><br /><br />Notizen wurden zu den vergangenen Aufzeichnungen hinzugefügt, aber eine ganze Weile fand sich kein neuer Eintrag in seinem Traumtagebuch. Selten wiederholten sich vergangene Träume, zumeist aber war er in letzter Zeit schlicht nach langem Wandern in einen erholsamen, traumlosen Schlaf verfallen.<br /><br />Heute aber gesellt sich eine neue Aufzeichnung hinzu:<br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Ich befinde mich auf einer Lichtung, umringt von Wäldern, welche ich nicht der Schicksalsinsel zuordnen würde - welche mir aber dennoch seltsam vertraut erscheinen, als hätte ich unzählige Rien hier verbracht.<br /><br />In einer Hand halte ich einen Beutel, ähnlich jenen, die ich auch heute noch mit mir trage - und deren wahre Bedeutung mir erst mit dem Erwachen aus diesem Traum wirklich bewußt wird. Und ebenso wie diese ist er mit Samen gefüllt, von welchen ich in regelmäßigen Abständen eine Prise entnehme und vor mir auf den Boden streue.<br /><br />Natürlich bin ich mir bewußt, daß ich die Worte sprechen sollte - Xemwu'vja'e Evra u Man ir Tevra - so wie ich es heute bei der Beerdigung tat, um jene Knolle zum Sprießen zu bringen, auf daß sie mit Riens Erwachen die ersten Knospen tragen mag.<br /><br />Aber ich schweige, tanze durch den Wald, spüre mit jeder Berührung meiner bloßen Fußsohlen die Verbindung, den Hauch von Energieaustausch, der zwischen meiner Haut und dem warmen Erdreich stattfindet. Nicht Worte sind es, über welche ich den Kontakt zu Tevras Wirken aufbaue, denn Worte waren nie ein solch inniges Band wie der harzige Geruch der nahen Bäume, das wohlige Kribbeln feinster Grashalme zwischen den Zehen, das ferne Rufen eines wölfischen Bruders.<br /><br />Ein leicht grunzendes Kinderlachen ertönt - mein eigenes Lachen, als ich mich im Gehen umwende und die Myriaden an frischen Pflänzchen betrachte, welche unter jedem meiner Schritte aus dem Boden hervorsprießen, emporwachsen und die Lichtung in eine chaotische Plethora an buntesten Farbschattierungen tauchen.<br /><br />Ungestüm wirble ich herum, und bekomme so gar nicht jenes Hindernis mit, welches sich mir unbemerkt in den Weg gestellt hat. Ich pralle mit aller Wucht dagegen, gegen den weichen Stoff einer Robe, zu deren Inhalt ich verdattert aufblicke. Ein zeitloses Gesicht, geziert von einem Schmunzeln der wohlgeformten Lippen, sieht im Gegenzug zu mir hinab.<br /><br />&quot;Sah'lien Freund der Fagaceae&quot;, spricht der Fey mit singender Stimme, und ich kann mich der Versuchung nicht erwehren, meine Arme um ihn zu schließen und ihn in mein ausgelassenes Lachen miteinzubeziehen. Mir ist der Name ob meines Zustandes nicht geläufig, ich kenne keine Details - aber die Sanftheit, mit welcher seine Hände auf meinem Rücken landen, ist mir wohlvertraut und mehr als willkommen. Ein Gefühl von Sicherheit.<br /><br />Von Heimat.<br /><br />So sehr ich mich danach sehne, ihn aufrecht zu erhalten, der Traum verpufft in eben jenem Momente, entzieht sich meinem Griff - umso schneller je mehr ich mich weigere, ihn ziehen zu lassen.<br /><br />Er hat seine Aufgabe aber wohl ohnehin erfüllt. Die Frage beantwortet, welche ich mir gestern stellte, ob ich tatsächlich ein solcher Langeweiler gewesen sei. Mir scheint, zumindest nicht von Anbeginn an ...?<br /><br />Interessant aber auch jenes Gefühl, die Verbindung, welche ich wohl zum Wirken der Magie nutzte. Keine Intuitivmagie wohl im engeren Sinne, denn bei aller Ausgelassenheit war mein Geist durchaus fokussiert, weitaus mehr als ich mir ein 'aus dem Bauch heraus' ausmalen würde.<br /><br />Die Ansätze kontrollierter, akademischer Nutzung waren vorhanden, es mangelte keineswegs daran - nein, im Gegenteil, mich überkommt das Gefühl, als hätte ich meine übliche Vorgehensweise an jenem Tage bewußt unterdrückt, bewußt nach einer Alternative gesucht. Eine Exkursion in alternative Foki, möglicherweise? Ein wissenschaftliches Experiment, gepaart mit der Lebensfreude eines deutlich jüngeren Ichs?<br /><br />Ich verspüre den Wunsch, mir eine geeignete Lichtung zu suchen und es auf einen Versuch ankommen zu lassen - und doch überkommt mich die Angst, keine Erfolge verzeichnen zu können. Das alles ist mir noch immer so neu, so vertraut, so unbekannt, so altgediegen.<br /><br />Mein Kopf schmerzt.</div></div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #804040">Just like the seed</span><br /><span style="color: #008000">I don&#39;t know where to go</span><br /><span style="color: #804040">Through dirt and shadow I grow</span><br /><span style="color: #008000">I&#39;m reaching light through the struggle</span></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=109847&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=109847"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 6 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=109847"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

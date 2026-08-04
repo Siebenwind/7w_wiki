@@ -1,0 +1,1458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - [Kriegsschiff] Thjareks Brecher</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=99477&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">[Kriegsschiff] Thjareks Brecher</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=99477"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 20 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=99477&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=99477&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=99477&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p886532"></a>
+				<b class="postauthor">Vencurius&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> [Kriegsschiff] Thjareks Brecher</div><div style="float: right;"><a href="./viewtopic.php?p=886532#p886532"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 13.01.14, 22:46&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4484_1210672894.gif" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.04, 14:32<br /><b>Beiträge:</b> 6702<br /><b>Wohnort:</b> Hamburg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-size: 85%; line-height: normal"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Moin liebe Mitspieler, <br />dieser Thread dient allen, die beim aktuellen Event um den Bau des Schiffes mitwirken, mitwirken möchten usw. ihre Tätigkeiten zu dokumentieren oder einfach tolle Geschichten und Gedanken zu teilen. <br />Ich wünsche viel Spaß weiterhin Ingame.<br />LG<br />Venc</div></span><br /><br /><span style="font-style: italic">Als es eigentlich zum achten Mal an diesem Tag Licht geben und somit Fela über den Horizont sich erheben sollte scheinen eine Menge Männer und Frauen vor Vänskap etwas zu beginnen, welches später in einem <span style="font-weight: bold">Logbuch</span> des baldigen Schiffes dokumentarisch vom Jarl von Greifenklipp wie folgt niedergeschrieben wird: </span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="color: darkred"><span style="font-family: timesnewroman;"><div align="right">Jarl Halvard<br />Lehen Greifenklipp<br />Mondag, 13. Evnar 45 nach Wulfhold</div><br /><div align="center"><span style="font-weight: bold"><span style="text-decoration: underline"><span style="font-size: 125%; line-height: normal">Beginn der Arbeiten</span></span></span></div><br /><br />Maltid,<br /><br />endlich san hver Planungen für dej Werft und den Schiffsbau abgeschlossen, die Bestellungen und die Rohstoffbeschaffungen sind fast umgesetzt und wir kenn endlich anfangen rett zu arbeiten.<br /><br />Heute haben sej ejnige Männer und Frauen zusammengerauft zu helfen und mit anzupacken, waren insgesamt acht Mann, wenn jej das rett im Blick hatte.<br /><br />Nachdem wir hver Areal abgegangen sind havat Toran angefangen dej Bereich zu schmelzen und hvern Boden durch irgendwelche Explosionen im Erdreich zu lockern, sodass wir danach relativ einfach das Erdreich ausheben konnten.<br /><br />Zwei Männer, ejner von ihnen Farin, der Schreiner, haben dann angefangen zur Küste hin ejnen Holzdamm zu bauen, damit ins spätere Trockendock kejn Wasser fließt. Domhnall und Angeja fingen an die Stützpfeiler der Werft aufzurichten, während der Rest das aufgelockerte Areal nun anfängt auszuheben, damit genug Platz set. <br /><br />Wird noch ejne Menge Arbeit, aber wenn alle weiter so anpacken, wird&#39;s.<br /><br /><span style="font-style: italic">Unterzeichnet</span><br />Halvard<br />Jarl von Vänskap und Greifenklipp</span></span></div></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=4484">Vencurius</a>: 17.04.17, 21:56, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4484"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p886537"></a>
+				<b class="postauthor">Fara&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886537#p886537"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 13.01.14, 23:09&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5245_1415394151.jpg" width="100" height="100" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 25.01.05, 15:21<br /><b>Beiträge:</b> 253<br /><b>Wohnort:</b> weit weit weg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Farin Llewellyen schlug am heutigen Tage ( Mondag, 13. Evnar 45 nach Wulfhold ) bereits 1455 Stämme für den Bau des Schiffes.<br />Sowohl am gestrigen Tage weitere 600 Stämme.</div>
+
+											<span class="postbody"><br />_________________<br /><div align="center">Lang lebe seine Majestät</div><br /><div align="center"><span style="font-family: Edwardian Script ITC;"><span style="font-size: 150%; line-height: normal">*Schwungvoll signiert und gesiegelt*</span></span><br /><br /><span style="font-family: Edwardian Script ITC;"><span style="font-size: 200%; line-height: normal"><span style="font-weight: bold">F</span></span><span style="font-size: 150%; line-height: normal">arin </span><span style="font-size: 200%; line-height: normal"><span style="font-weight: bold">L</span></span><span style="font-size: 150%; line-height: normal">lewellyen</span></span></div><br /><div align="center">Großmeister der Ritterschaft der Flammenden Drachen</div><br /><br /><br /> <div align="center"><img src="http://www.lethentir.de/7w/images/8/8e/Rdsw_blue.jpg" alt="Bild" /></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5245"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p886540"></a>
+				<b class="postauthor">Balian&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886540#p886540"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 14.01.14, 00:09&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5657_1273822005.jpg" width="100" height="97" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 10.09.05, 15:12<br /><b>Beiträge:</b> 373<br /><b>Wohnort:</b> Siebenwind				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">*Auch Ulrich Federfarn schien fleißig nördlich von Brandenstein Holzstämme zum Bauernhof zu schleppen. Er hat bereits 1700 Stämme gesammelt. Müde und erschöpft zieht sich der junge Bauer in sein Haus zurück ... </span></div>
+
+											<span class="postbody"><br />_________________<br /><span style="font-size: 70%; line-height: normal"><br /><span style="text-decoration: underline">Charaktere:</span><br /><br />o  Meister B. Ruhnbert<br />o  Ulrich Federfarn<br />o Gerald</span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5657"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p886542"></a>
+				<b class="postauthor" style="color: #string">Briac&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886542#p886542"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 14.01.14, 11:57&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=8961_1425102766.gif" width="100" height="100" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 19.02.13, 11:13<br /><b>Beiträge:</b> 428				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Gebannt und gefesselt stand Konrad hinter dem abgesteckten Bereich während er den großen Toran Dur dabei beobachtete, wie er das riesige Feld für den Werftbauplatz in Flammen aufgingen ließ und der Schnee nur so unter der Hitze verpuffte. Eine Mischung aus Respekt, Hochachtung und Angst durchströmte ihn in diesen Momenten, die er später kaum mehr nachvollziehen konnte. Waren er, der gewaltige Koloss von Mann, Halvard, und auch der Schmied Leopold im Grunde doch ganz bodenständige Männer. Sie machten schlechte Witze beim Würfelspiel, trietzten sich gegenseitig und tranken Bier und gemeinsam lachten die vier Männer als seien sie seit Götterläufen schon Kameraden. Genau das war es, was Konrad so vermisst hatte: Kameradschaft.<br /><br />Sie spiegelte sich auch schon beim Werftbau später wieder. Mit zehn Frauen und Männern gingen sie die Arbeit an und begannen ihre eingeteilten Aufgaben. Aber es werkelte nicht jeder alleine für sich, sondern alle gemeinsam. Brauchte jemand eine helfende Hand oder aufmunternde Worte, so war wie durch Zauberhand immer jemand zur Stelle. Besonders bei der schweren Aufgabe die massiven Stützbalken in den tiefsten Löchern zu versenken, packten alle mit an. Die reibungslose Arbeit zeichnete sich später im Ergebnis ab: Sie hatten eine Menge geschafft. <br /><br />Auch wenn es nicht der letzte Arbeitstag gewesen sein sollte und sie wohl noch mehr helfende Hände hätten gebrauchen können, stand das Grundgerüst für das große Ziel bereits. Und diese Einigkeit machte Mut und Hoffnung, denn niemand sprach mehr über die Finsternis und die Aschewolke. Sollten sie gemeinsam so auch in anderen Bereichen weiterarbeiten können, dann sollten sich die Skelette schon einmal warm anziehen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8961"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8961"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p886544"></a>
+				<b class="postauthor">Vencurius&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886544#p886544"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 14.01.14, 12:26&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4484_1210672894.gif" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.04, 14:32<br /><b>Beiträge:</b> 6702<br /><b>Wohnort:</b> Hamburg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Bereits heute früh schon als Fela eigentlich über den Horizont treten sollte und die letzten Aschewolkenreste jedoch die Sicht zu ihr versperrten machte sich der alte Nordmann aus seinen Fellen auf, gab Frau und Kindern einen Kuss und entschwand der morgentlichen Arbeit.<br /><br />Die Harmonie im Dorf stimmte so gut wie schon lange nicht mehr, jeder packte mit an, jeder half dem anderen, egal in welcher Lebenslage. Er war zufrieden eine Gemeinschaft geformt zu haben die das Wort von Gemeinschaft wirklich lebte, die nach und nach die Grundpfeiler des eigenen Volkes verstehen lernten: Mut, Stärke und Weisheit. <br /><br />Aber auch das Bündnis mit den Malthustern und den Löwen wuchs und gedieh und mit der Weissagung des Geweihten der hohen nordischen Götter hatte er ein klares Ziel vor Augen für das er Schweiß und Blut gern ließ. <br /><br />Und so hörte man über den ganzen Vormittag hinweg zum Dorf hinschallen die regelmäßigen Hammerschläge, wie der alte Nordmann sich daran machte das neue Konstrukt auszukleiden und in die Höhe zu ziehen.</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4484"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p886554"></a>
+				<b class="postauthor">Fara&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886554#p886554"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 14.01.14, 17:21&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5245_1415394151.jpg" width="100" height="100" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 25.01.05, 15:21<br /><b>Beiträge:</b> 253<br /><b>Wohnort:</b> weit weit weg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Die Tür der Schreinerei Llewellyen öffnet sich . Der Blondschopf tritt heraus ,greift die Zügel der Pferde und trabt in den Wald. Das Beil kracht voller Wucht in die Stämme der Bäume. Das Spalten des Holzes ist im Umkreis wohl mehr als deutlich zu vernehmen.</div>
+
+											<span class="postbody"><br />_________________<br /><div align="center">Lang lebe seine Majestät</div><br /><div align="center"><span style="font-family: Edwardian Script ITC;"><span style="font-size: 150%; line-height: normal">*Schwungvoll signiert und gesiegelt*</span></span><br /><br /><span style="font-family: Edwardian Script ITC;"><span style="font-size: 200%; line-height: normal"><span style="font-weight: bold">F</span></span><span style="font-size: 150%; line-height: normal">arin </span><span style="font-size: 200%; line-height: normal"><span style="font-weight: bold">L</span></span><span style="font-size: 150%; line-height: normal">lewellyen</span></span></div><br /><div align="center">Großmeister der Ritterschaft der Flammenden Drachen</div><br /><br /><br /> <div align="center"><img src="http://www.lethentir.de/7w/images/8/8e/Rdsw_blue.jpg" alt="Bild" /></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5245"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p886575"></a>
+				<b class="postauthor">Vencurius&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886575#p886575"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 15.01.14, 00:32&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4484_1210672894.gif" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.04, 14:32<br /><b>Beiträge:</b> 6702<br /><b>Wohnort:</b> Hamburg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Im Lehen Greifenklipp vermochte man noch bis in die späten Abendstunden immer wieder Nortraven, Menschen in malthuster Uniformen und vereinzelte Mitglieder des Löwenordens als auch allerhand freie Handwerker sehen, wie diese kamen und gingen. <br /><br />Von irgendwo nahe Vänskaps mochte man dabei die ganze Zeit Baulärm vernehmen, hier und das Brüllen von Ansagen und Delegierungen, hier und da das laute Donnern von Hammerschlägen. <br /><br />Immer wieder kehrte dabei ein älterer Nordmann nach Vänskap um weitere Rohstoffe, vor allem größere Ladungen an Holz zum Bauwerk zu schaffen. Dabei hielt er immer wieder inne, als der eine oder andere eine Frage hatte oder einer der Lieferanten vorbei kam um seine Tagesumsätze vorbei zu bringen und so sah man wie Münzen und Rohstoffe ihre Besitzer wechselten. <br /><br />Die Westhever Wölfe waren indess deutlich wachsamer, sollte doch nichts den Bau dieses Konstruktes im Wege stehen oder gar gefährden. <br /><br />Erst in den späten Abendstunden verebbte der Baulärm und einige Männer und Frauen fanden sich in der Taverne ein um große Fisch- und Fleischplatten beim guten Koch des Hauses, Petter, zu bestellen. Ehe der Abend mit Gesöff, Gesang und am Ende mit einer Mütze voll Schlaf endete. <br /><br />Und so wird man am Morgen des nächsten Tages den gewaltigen Fortschritt diesen Tages erkennen, die Rampen waren hochgezogen, die Werft weit genug ausgehoben und der Damm, welcher zum Meer hin errichtet wurde hielt stand. So konnte der nächste Tag beginnen und allerlei war bereits wieder geplant.</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4484"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p886631"></a>
+				<b class="postauthor">Vencurius&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886631#p886631"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 15.01.14, 23:09&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4484_1210672894.gif" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.04, 14:32<br /><b>Beiträge:</b> 6702<br /><b>Wohnort:</b> Hamburg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Als Fela am heutigen Morgen über den Horizont brach und immer wieder durch die Aschewolke hindurch zu blinzeln suchte, waren bereits die Arbeiten im vollen Gange. Im Dorf war schon ordentlich Trubel - der Leitwolf war bereits seine erste morgentliche Runde gelaufen und stieß auf Saya - Petter hatte bereits begonnen Teig zu kneten und den Ofen entfacht. Während nach und nach die Leute aus dem Langhaus heraus traten, sich mit Schnee wuschen oder direkt den Weg zu Petter suchten um sich was nahrhaftes in den Bauch zu schieben. <br /><br />Es dauerte auch nicht allzulang, da sah man bereits den alten Nordmann Halvard von der Werft her hoch kommen zum Dorf, offenbar hatte er bereits früh am morgen mit kleineren Bauarbeiten angefangen noch bevor alle anderen wach waren und gesellte sich erstmal zum Frühstück.<br /><br />Als dieses eingenommen war wurden die Pläne für den Tag besprochen, Avanjanas teilte einige der freiwilligen Helfer und weitere Nortraven ein. Und so ging der Tag weiter und noch bevor Fela im Zenit stand, hörte man bereits im ganzen Dorf den Baulärm. <br /><br />Späten Nachmittags wurden dann im Rathaus weitere Pläne geschmiedet - der Hofschmied Leopold und der Dorfschmied Balgruuf hingen mit dem Jarl über einigen Plänen, es schien wohl um die Konstruktion des bronzenen Kiels zu gehen - auch Petter und Toran Dur kamen dazu und besahen sich die Dinge, während man sich auf neue Pläne für den Folgetag einigte. <br /><br />Und so ging ein weiterer arbeitsreicher Tag langsam zu Ende.</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4484"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p886684"></a>
+				<b class="postauthor">Marnie&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886684#p886684"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 16.01.14, 22:16&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Altratler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/7wlogo_grau.gif" alt="Altratler" title="Altratler" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5728_1460573198.gif" width="100" height="40" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 4.10.05, 20:43<br /><b>Beiträge:</b> 3950<br /><b>Wohnort:</b> Oberbayern				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="font-style: italic">Am Abend dieses forstigen Tages sieht man in Begleitung der Patrizierin und Edeldame von Brandenstein, Marnie Ruatha, zwei bewaffnete und gerüstete Soldaten in Richtung des Dorfes marschieren. Nach einem kurzen, erklärenden Plausch mit den Dorfwachen am Tor, führt sie der Weg auch schon weiter zu der errichteten Werft nahe Vänskaps. Auf Anweisung der Patrizierin werden die beiden eifrigen Soldaten dort verweilen und für die Sicherheit der Werft und dem Bau des Schiffes sorgen.</span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5728"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=5728"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p886704"></a>
+				<b class="postauthor">Vencurius&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886704#p886704"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 17.01.14, 00:46&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4484_1210672894.gif" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.04, 14:32<br /><b>Beiträge:</b> 6702<br /><b>Wohnort:</b> Hamburg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">...die Wachen sehen wie immer wieder Arbeiter heran kommen und sich beim Bau abwechseln, immer wieder kehrt dabei auch der Jarl selbst zur Werft und scheint sich in keinsterweise dafür zu fein sich mit Dreck und Schweiß zu besudeln. <br /><br />Immer wieder kommen Arbeiter zu ihm, um mit ihm über einzelne Arbeitsschritte zu sprechen die folgen sollen und Verbesserungen hier und da vorzunehmen. Doch allmählich schien sich die Werft vollständig aufzurichten, sodass man wohl bald mit dem Schiffsbau beginnen konnte. <br /><br />Die Wachen werden noch bis zum letzten Dunkel strebsame Arbeiter vorfinden, welche am Ende des Abends mit jeweils 2.500 Dukaten für ihre Tagesarbeit entlohnt werden. <br /><br />Die einbrechende Nacht birgt neben viel Wolfsgeheul und den üblichen nächtlichen Aktivitäten wohl nicht viel, um die Werft scheint es des offenbar ruhig bestellt, wenn keine absonderlichen Vorkommnisse geschehen...</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4484"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p886728"></a>
+				<b class="postauthor">Vencurius&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886728#p886728"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 17.01.14, 17:11&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4484_1210672894.gif" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.04, 14:32<br /><b>Beiträge:</b> 6702<br /><b>Wohnort:</b> Hamburg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">...als der Morgen anbricht kommt der alte Jarl auch schon heran getapft mit vier Lastpferden, welche wohl Nachschub an Brettern und Stämmen herantragen und ziehen. Ein kleiner Junge rennt ihm dabei voraus mit einem Tablett in der Hand auf dem zwei große Schalen Drachenfeuer und Brot, sowie zwei Krüge warmen Metes geladen sind. <br /><br />&quot;Goden Morgen!&quot; Brummt der alte Nordmann den beiden Wachen entgegen und überreicht ihnen ihre Mahlzeit zu dem auch jeweils ein kleines Goldsäckle gehört, jedes wohl beladen mit 1.000 Dukaten, wohl als Motivationsschub weiterhin so aufmerksam zu sein. <br /><br />Kurz darauf macht der alte Nordmann sich selbst an die Arbeit...</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4484"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p886731"></a>
+				<b class="postauthor">Balian&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886731#p886731"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 17.01.14, 17:31&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5657_1273822005.jpg" width="100" height="97" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 10.09.05, 15:12<br /><b>Beiträge:</b> 373<br /><b>Wohnort:</b> Siebenwind				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">*eine weitere Nachricht wurde an das Brett in Brandenstein gehängt*</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><br />Ich habe nun 5.000 Holzstämme für das Schiff in Greifenklipp gesammelt. Wann kann man das Holz in Greifenklipp abliefern?<br /><br />gezeichnet<br />Ulrich Federfarn<br />17 Oner, 25 n.H.<br /><br /></div><br /><br />*die Nachricht ist bereits vom Brett geweht ...*</div>
+
+											<span class="postbody"><br />_________________<br /><span style="font-size: 70%; line-height: normal"><br /><span style="text-decoration: underline">Charaktere:</span><br /><br />o  Meister B. Ruhnbert<br />o  Ulrich Federfarn<br />o Gerald</span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5657"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p886860"></a>
+				<b class="postauthor">Vencurius&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886860#p886860"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 20.01.14, 01:45&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4484_1210672894.gif" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.04, 14:32<br /><b>Beiträge:</b> 6702<br /><b>Wohnort:</b> Hamburg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Am heutigen Tag herrschte reges Treiben an der Werft. Die letzten Bauarbeiten sollten durchgeführt werden. Der alte Nordmann hatte schon einiges geplant was am heutigen Tag noch umgesetzt werden sollte, zum Beispiel die Errichtung der Treppen und des Hebekrans. <br /><br />Nachdem die großen Rohstoffmengen zur Werft transportiert waren und sich noch einige Freiwillige aus Brandenstein meldeten, darunter drei Soldaten der Armee und ein Schreiner konnte man mit guten zehn Mann den Arbeiten entgegen treten. <br /><br />Während der Schreiner Farin mit Angeja und Petter die Abschlussarbeiten an der einen Seite und die Soldaten Malthusts, Johan und Farold auf der anderen Seite arbeiteten, beobachtete der alte Jarl wie Vidkunn die Bretter zurecht sägte. Irgendwann stießen auch noch die junge Nortravin Juna und der Leitwolf Domhnall hinzu um bei den letzten Arbeiten mit anzupacken. <br /><br />Nach langer schweißtreibender Arbeit fanden sich dann gegen Abend die besagten Personen in Vänskap wieder ein, die Soldaten wurden nochmals fürstlich entlohnt ehe dann das Mahl des Abends, zubereitet von Petter, dem Koch, bereits auf dem Tisch der Taverne stand. Es wurde ausgelassen gegessen und getrunken und der Abend in einer kleinen gemütlichen Feier endete spät, waren die Nortraven stolz darauf, dass sie die Werft soweit sich erarbeitet hatten. <br /><br />Zufrieden stand der alte Nordmann nun am Hain der Götter. Alles formte sich und nahm Gestalt an. Sie würden stolz sein, daran glaubte er.  Sein Blick schweifte über den großen Stein der Tugenden der Rabainsteine. Ein Schiffsbauer war eingetroffen, Bjornar. Genau zum rechten Zeitpunkt, als hätte ihn Thjarek höchst selbst auf diese Insel entsendet. Kurz darauf schweifte sein Blick gen Brandenstein rüber, was seine Enkelin wohl gerad tun würde? Vermutlich hatte sie allerhand zu tun, wie immer.  Sein Blick schweifte zurück über sein Dorf. Es waren gute Brüder und Schwestern und langsam aber sicher wurden sie zu einer festen unzerbrechlichen Gemeinschaft, welche sich über jeden Zuwachs im Dorf freute.<br /><br />Sie würden alles überstehen was dort noch auf sie kommen mochte.</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4484"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p886999"></a>
+				<b class="postauthor">Vencurius&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=886999#p886999"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 21.01.14, 23:08&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4484_1210672894.gif" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.04, 14:32<br /><b>Beiträge:</b> 6702<br /><b>Wohnort:</b> Hamburg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Auch in den letzten drei Tagen war mächtig viel los und damit eine Menge Baulärm in Vänskap und Umgebung zu vernehmen. Noch vor drei Tagen hatten sich eine ganze Menge Personen eingefunden, neben den Malthustern auch recht viele Nortraven und die Werft vollendet. <br /><br />Am darauf folgenden Tag hatte der alte Jarl die Aufgaben des Bau's an den neu angereisten Schiffsbauer Bjornar übergeben und diesem seine bisherigen Pläne vorgestellt, vermutlich würde der gute Schiffsbauer eh noch allerhand Änderungen vornehmen. Die Baupläne für den Kiel aus Bronze zum Brechen von Eis oder anderem ließen ebenso noch auf sich warten. Und so fanden sich am gestrigen Tag wieder eine Menge Arbeiter an der Werft ein. Dieses mal hatte der Schiffsbauer Bjornar die Verteilung der Arbeiten übernommen und die Personen in Partnergruppen eingeteilt um die Stämme zu spalten, würde dieses für das Holz des Schiffes deutlich besser sein, als wenn man sie sägen würde.<br /><br />Und so gingen die Arbeiten wieder bis spät in den Abend hinein und gute zehn Arbeiter packten mit an wo sie nur konnten, sodass der Bau des Schiffes endlich begonnen hatte.<br /><br />Zudem findet sich gegen Abend ein weiteres befülltes Pergament im Logbuch.</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="color: darkred"><span style="font-family: timesnewroman;"><div align="right">Jarl Halvard<br />Lehen Greifenklipp<br />Mondsdag, 20. Evnar 45 nach Wulfhold</div><br /><div align="center"><span style="font-weight: bold"><span style="text-decoration: underline"><span style="font-size: 125%; line-height: normal">Fertigstellung der Werft - Beginn des Schiffbaus</span></span></span></div><br /><br />Maltid,<br /><br />endlich san hver Werft fertig geworden. Ejne Menge Männer och Frauen haben geholfen, viele von hver Brodire och Soras, aber och welche von Malthust. Wie als hätt&#39; Thjarek selbst eingegriffen, kam gestern zum Abschluss der Arbeiten an hver Werft ein Schiffsbauer aus dem Norland, Bjornar, ejn goder Mann.<br /><br />Die Materialien wurden nun auch vollständig eingeholt und dabei mehrere hunderttausend Münzen ausgegeben, aber was sind jene schon wert, wenn es Thjareks Wille selbst ist, der dafür sorgte, dass dieses Schiff gebaut wird und in dessen Schoß es letztenendes liegen wird. <br /><br />Aber hver schwere Arbeit, das Besorgen der Rohstoffe und die abendlichen Feiern owjr besser gesagt das Zusammensein schweißen die Gemeinschaft immer stärker zusammen und die Neuen im Dorf bringen auch wieder Leben mit. <br /><br />Jej bin zuversichtlich, dass wir hver Prüfungen god meistern werden.<br /><br /><span style="font-style: italic">Unterzeichnet</span><br />Halvard<br />Jarl von Vänskap und Greifenklipp</span></span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4484"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p887059"></a>
+				<b class="postauthor">Biff&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=887059#p887059"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 22.01.14, 19:12&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=3426_1361448031.jpg" width="100" height="100" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 4.05.03, 20:41<br /><b>Beiträge:</b> 1552				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Nachdem alle anderen Arbeiter gegangen sind, kann man den Schiffsbauer noch sehen, wie er weiter an den Balken arbeitet und die Enden anschrägt. Am Ende legt er die schrägen Enden der Balken aufeinander und fixiert sie mit je vier Nägeln.<br /><br />Am nächsten Tag kann man sehen, wie er gebogenen Stämmen zur Werft zieht und dort wie die Arbeiter am Tag durch abspalten des Restes, die Stämme zu gebogenen Balken weiter verarbeitet. Auch hier schrägt er wieder die Enden an und befestigt sie vorne und hinten um so den Kiel zu beenden.</span></div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #FF0000">Ceterum censeo Carthaginem esse delendam</span><br />Koala im IRC</div><br /><div align="right"><span style="font-size: 50%; line-height: normal">16:11 - =M$= Oroberus: Ich hasse EA so sehr, dass ich mir nicht mal LPs zu EA-Spielen anschaue!<br />16:11 - =M$= Oroberus: #angrywhiteman</span><br /><span style="font-size: 25%; line-height: normal"><span style="color: #FF0000">verursachte Serverabstürze: XLV</span></span></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=3426"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p887077"></a>
+				<b class="postauthor">Biff&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=887077#p887077"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 23.01.14, 15:14&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=3426_1361448031.jpg" width="100" height="100" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 4.05.03, 20:41<br /><b>Beiträge:</b> 1552				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Am heutigen Tage, kann man einen einzelnen Nortraven sehen, der anfängt mit einer Dechsel an der oberen Kante des Kiels, den ganzen Kiel entlang etwas raus zu arbeiten. Er arbeitet bis zur Dunkelheit um auf beiden Seiten, die Ausbuchtung zu machen, in der wohl später die Bretter angesetzt werden sollen. Dann schaut er sich einmal kurz brummend um und geht weg.</span><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">Einmal der Kiel im Querschnitt&#40;ohne BRetter bisher&#41; und die Befestigung der Balken mit einander<br /><img src="http://imagizer.imageshack.us/v2/800x600q90/856/q5cb.png" alt="Bild" /></div></div></div></div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #FF0000">Ceterum censeo Carthaginem esse delendam</span><br />Koala im IRC</div><br /><div align="right"><span style="font-size: 50%; line-height: normal">16:11 - =M$= Oroberus: Ich hasse EA so sehr, dass ich mir nicht mal LPs zu EA-Spielen anschaue!<br />16:11 - =M$= Oroberus: #angrywhiteman</span><br /><span style="font-size: 25%; line-height: normal"><span style="color: #FF0000">verursachte Serverabstürze: XLV</span></span></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=3426"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p888933"></a>
+				<b class="postauthor">Vencurius&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein neues Schiff...</div><div style="float: right;"><a href="./viewtopic.php?p=888933#p888933"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 20.02.14, 04:38&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4484_1210672894.gif" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.04, 14:32<br /><b>Beiträge:</b> 6702<br /><b>Wohnort:</b> Hamburg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Es waren nun mehrere Tage vergangen. Der Stapellauf des Schiffes lief reibungslos, ebenso die Schiffstaufe. Eine Menge Personen waren Anwesend, welche den Abschluss der Arbeiten verfolgt hatten. &quot;Thjareks Brecher&quot; wurde das neue Flagschiff der Nortraven getauft und mit jenen Worten in den Schoß des nortravischen Gottes Thjarek überführt. Nun mehr lag es in der Bucht von Vänskap-Brandenstein vor Anker unter stetiger Wacht eines der Wachen aus dem Rudel der Wölfe.<br /><br />Einige Tage waren vergangen, die Nortraven hatten sich versammelt und hatten über ihre kommenden Pläne gesprochen. Es war soweit, man hatte sich auf den bevorstehenden Weg und die Umsetzung der Pläne ausgetauscht. Nun wurde es Zeit Worten auch Taten folgen zu lassen.</span><br /><br /><span style="text-decoration: underline"><span style="font-style: italic">Thing der Nortraven</span></span><br /><img src="http://www.lethentir.de/7w/images/d/d0/Thing6.jpg" alt="Bild" /><br /><br /><span style="font-style: italic">Später am Abend stand der alte Jarl auf dem Balkon des Rathauses und sah ins Dorf. Er wurde nun Vogt von der Provinz, was für ein galadonischer Mist, aber er würde den Anweisungen des Hetmanns und der Geweihten seiner Götter Folge leisten, für das Wohl seiner Brüder und Schwestern auf diesem Eiland. Ihm gingen weiter die Worte des Geweihten durch den Kopf. Viele Nortraven aus alten Zeiten kehrten zurück, die Götter schienen seine eigene Arbeit für gut zu befinden und ihn in seinem Handeln stärken zu wollen. Und die Pläne nahmen ihren Lauf, alles lief, wie er es zusammengelegt hatte. Mit einem zufriedenen Nicken und einem letzten tiefen Schluck vom Eiswasser aus seinem Trinkhorn begab er sich nach drinnen um einen Eintrag im Logbuch des Thjarek Brechers vorzunehmen.</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="color: darkred"><span style="font-family: timesnewroman;"><div align="right">Jarl Halvard<br />Provinz Vänskap/Greifenklipp<br />Mittendag, 20. Onvar 45 nach Wulfhold</div><br /><div align="center"><span style="font-weight: bold"><span style="text-decoration: underline"><span style="font-size: 125%; line-height: normal">~ Thjareks Brecher ~</span></span></span></div><br /><br />Maltid,<br /><br />das Schiff der Nortraven Vänskaps wurde fertig gestellt und liegt nun im Herzen der Bucht von Vänskap-Brandenstein. Getauft wurde das neue Schiff &quot;Thjareks Brecher&quot;, auf dass der Allvater mit Wohlwollen auf das neue Schmuckstück hinabsehen mag und ihm all Zeit guten Wind in den Segeln geben mag.<br /><br />Die Dorfgemeinschaft Vänskaps wächst. Alte Gesichter tauchen auf. All die Arbeit und Mühe lohnt sich und zahlt sich aus. Die neu angekommenden Nortraven leben sich ein, bekannte Brodire und Soras helfen wo sie können. Mares, Petter und Angeja kümmern sich wirklich gut, Minah braucht noch etwas Unterstützung und ein klares Ziel vor Augen. <br /><br />Laut Angaben des Leitwolfs Domhnall wächst die Zahl der Krieger, offenbar scheinen sich einige der Jungkrieger als Welpen gut zu machen. Wollen wir hoffen, dass der Zuwachs der Krieger einen neuen Wurf guter Welpen und letztlich verlässlicher Wölfe bringen wird. Ich verlasse mich da auf Domhnall, er wurde gut ausgebildet und weiß was er macht. <br /><br />Wollen wir hoffen, dass auch die neue Dorfschamanin Caira dafür Sorge trägt, dass die Geister uns wohlgesonnen sind und die Götter ohne Argwohn auf sie hinab blicken und uns Kraft, Mut und Weisheit in diesem Dorf bescheren werden. <br /><br />Petter befüllt die Kombüse, laut Angaben von ihm sind Vorräte für vier Monde vorhanden. <br />Was auch auf uns wartet. <br />Wir sind gewappnet.<br /><br /><span style="font-style: italic">Unterzeichnet</span><br />Halvard<br />Jarl von Vänskap und Greifenklipp</span></span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4484"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p935680"></a>
+				<b class="postauthor">Vencurius&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: [Kriegsschiff] Thjareks Brecher</div><div style="float: right;"><a href="./viewtopic.php?p=935680#p935680"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 17.04.17, 22:08&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4484_1210672894.gif" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.04, 14:32<br /><b>Beiträge:</b> 6702<br /><b>Wohnort:</b> Hamburg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="font-style: italic"><span style="color: #BF0000">Am Mondttagabend des 17. Dulars scheint vor der Küste Brandensteins in der Meeresbucht, welche zu den Häfen Brandenstein und Westhever führt ordentlich Tumult zu entstehen. Die Wellen schlagen am späten Abend höher und die Hafenbewohner Brandensteins scheinen rasch aus ihren Hafenkneipen heraus zu kommen und sich das Spektakel anzusehen.<br /><br />Das mächtige Kriegsschiff der Nortraven Westhevers, mancher behauptet gar es wäre eines der größten Kriegsschiffe das er je gesehen hätte, hisst an diesem Abend seine zahlreichen Segel. Zuvor schienen mehrere Ruderboote bemannt mit Nortraven mit Wolfsköpfen zum Kriegsschiff gerudert zu sein und der schwere Anker wurde gelichtet. <br /><br />Der Thjareks Brecher mit seinem schweren Bronzekiel, seinen zwölf Ballisten und mehreren Katapulten, sowie der schwer beschilderten Bepanzerung von außen, sowie dem gewaltigen Drachenkopf, nahm einen neuen Kurs ein sobald der Wind sich in den Segeln fing und die langen Ruderblätter im Meer eingetaucht waren. Das Kriegsschiff verlässt seine angestammte Position zwischen Brandenstein und Westhever, wo es beide Häfen und die gesamte Bucht schützte und nahm Kurs auf Westhever.<br /><br />Später am Abend nimmt das nortravische Kriegsschiff einen neuen Platz direkt vor dem Hafen Westhevers ein, tiefer in der Bucht, sodass es nicht mehr die gesamte Bucht und Brandenstein in Schutz zu nehmen scheint. Die Segel wurden wieder gerefft und der Anker versenkt. Einige Wolfskrieger scheinen nun Platz genommen zu haben auf dem Schiff und die Bucht zu beobachten.<br /><br />Nur warum hat nun dieses große Kriegsschiff seinen angestammten Platz verlassen? Was mag da vorgehen?</span></span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4484"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p949382"></a>
+				<b class="postauthor">Vencurius&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: [Kriegsschiff] Thjareks Brecher</div><div style="float: right;"><a href="./viewtopic.php?p=949382#p949382"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 30.07.19, 19:03&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4484_1210672894.gif" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.04, 14:32<br /><b>Beiträge:</b> 6702<br /><b>Wohnort:</b> Hamburg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="font-style: italic"><span style="color: #BF0000">Früh an diesem Morgen trat der zweieinhalb Schritt hohe Hüne mit der schneeweißen Maske eines Eisbären auf dem Kopf, welche ihm zum Berserker auszeichnete, an den Hafen und grüßte die verschiedensten Hafenarbeiter, Nordmänner und Seeleute. <br /><br />Kurz darauf ertönte laut seine Stimme, welche dafür sorgte, dass alle Arbeiten mit einem Schlag anhielten und jeder ihn verdutzt ansah: &quot;HVERN ALLVADDR DEJ EHR OCH THJAR, BRODIRE OCH SORAS! HÖRT ! HVER JARL OCH JEJ WOLLEN HVER THJAREKS BRECHER FLOTT KRIEGEN! JEJ WEISS, DASS IHR EUCH GOD UM IHN KÜMMERT, ABER ER MUSS NUN KAMPFTAUGLICH GEMACHT WERDEN!&quot; <br /><br />Als seine lauten, bässernen Worte gegen die Fluten des Meeres anbrandeten deutete er herüber zum Thjareks Brecher, welcher Seehafen ankerte. Kurz darauf machten sich bereits die ersten Männer daran und begannen unter dem Kommando des alten Berserkers das Kriegsschiff in die einst dafür gebaute, riesige Werft, einzufahren. <br /><br />Noch an diesem Tag begannen die Instandsetzungen, die meist kleinere Reparaturen beinhalteten. Einiges in die Zeit gekommenes wurde begonnen auszutauschen. Vor allem aber wurde der gesamte Rumpf des Schiffes von Algen, Muscheln und ähnlichem Gezücht befreit.<br /><br />Dabei hallten immer wieder die Befehle des alten Nordmanns über das Deck. Selbst der Jarl, Ayk Arensson, ließ sich dann und wann blicken und begutachtete das eine oder andere und packte mit an. Alles in allem gingen die Arbeiten gut voran.</span></span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4484"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p949451"></a>
+				<b class="postauthor">Vencurius&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: [Kriegsschiff] Thjareks Brecher</div><div style="float: right;"><a href="./viewtopic.php?p=949451#p949451"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 4.08.19, 13:31&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4484_1210672894.gif" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 6.04.04, 14:32<br /><b>Beiträge:</b> 6702<br /><b>Wohnort:</b> Hamburg				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="font-style: italic"><span style="color: #BF0000">Mehrere Tage waren nun vergangen seit der Trockenlegung und Instandsetzung des Thjareks Brechers. Viele Seemänner hatten unter der Anleitung des Hafenvorstehers und der Argus Augen des Jarls und des alten Berserkers den Rumpf von Muscheln, Seetang und anderem Meeresgetier befreit und erneuert, wo Erneuerungen nötig waren.<br /><br />In der Zeit liefen weitere Schiffe in den Hafen von Westhever ein und brachten die ersehnte Verstärkung aus dem Norden. Altgediente Krieger, sogenannte Hetjas, welche die Wachposten übernahmen und Westhever verstärkten. <br /><br />Aber auch junger Nachwuchs, welcher am aktiven Dorfleben teilhaben wollte, kam mit der aus dem Norland gerufenen Verstärkung an. Krieger und Handwerker, welche sich für den kommenden Konflikt wappneten.<br /><br />Eines wurde dem alten Berserker immer deutlicher: Das größte Übel saß nicht mehr in Finsterwangen oder Ewigwacht, sondern in Brandenstein. Er musste nun eingreifen um seine Enkelin mal wieder zu beschützen, auch wenn sie es selbst nicht erkannte oder abtun würde. <br /><br />Es war Zeit die Machenschaften des Klüngels aus Kirche, Tardukai, einigen Elfen und ihren Anhängern auszumerzen und wie bei der alljährlichen Verbrennung der Felder, Platz für Neues zu schaffen.<br /><br />Der Krieg würde in Kürze beginnen.</span></span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4484"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=99477&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=99477"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 20 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=99477"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

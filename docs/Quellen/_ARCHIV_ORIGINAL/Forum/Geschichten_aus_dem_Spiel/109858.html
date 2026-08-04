@@ -1,0 +1,641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Blutrache</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=109858&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Blutrache</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=109858"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 6 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=109858&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=109858&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=109858&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952284"></a>
+				<b class="postauthor">Halgar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Blutrache</div><div style="float: right;"><a href="./viewtopic.php?p=952284#p952284"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 6.12.22, 18:23&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=6381_1273071895.jpg" width="100" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.10.06, 00:25<br /><b>Beiträge:</b> 1660				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">OOC: *Basiert auf <!-- l --><a class="postlink-local" href="http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&amp;t=109841" onclick="window.open(this.href);return false;">viewtopic.php?f=27&amp;t=109841</a><!-- l --> *<br /><br />Wild keuchend rannte der Goblin zurück ins Lager und wollte schon seinen Bericht überbringen. Doch stockte er als er sah, wie die Schamanen seines Stammes, noch einen Kreis um die Puppe bildeten in ihrer Mitte. Für einen Menschen, war diese Puppe nur ein primitives geflecht aus Stroh und paar Fetzen aus Stoff und Büscheln aus Wolfsfell, doch für die Goblins war es die Manifestierung ihres Feindes. Den Feind den einige Trolle „Wolfsmann“ nannten oder „Fischkopf“ von den Orks. <br />Voller Ehrfurcht beobachtete er still das Ritual. Einer der Schamanen hatte sein Gesicht mit Blut bemalt und schwarze Federn zierten sein Haupt. <br />„Die Krähe wurde schon geopfert...“ dachte sich der Goblin und wusste das es nun kein zurück mehr gab. Die Blutfehde war nun offiziell.<br />Dann nahm der Schamane mit dem schwarzen Federnschmuck die Puppe und warf sie wild grunzend ins Feuer. <br /><br />„Hast den Kriegsruf zum Feind getragen?“ fragte der Schamane fordernd und harsch.<br />„Ja das habe ich.“<br />„Was konntest du sehen vom Feind?“<br />„Sie sind größer als die anderen Menschen und sie reisen über dem Salzwasser auf riesigen Echsen“<br />Berichtete der Goblin, noch immer keuchend von seinem Marathon von Westhever bis ins Ödland.<br /><br />Der Schamane nickte bedächtig und verließ mit den anderen Schamanen die Feuerstelle im Lager. Anweisungen wurden gebrüllt und Boten zu den anderen Stämmen geschickt. Ein Nortrave tötete ihren Spähertrupp und wenn sie ihr Gesicht nicht vor den anderen Goblinstämmen verlieren wollten, mussten sie diese Niederlage rächen.<br /><br /><br /><img src="https://abload.de/img/goblinbannerusdue.jpg" alt="Bild" /></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=6381"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952286"></a>
+				<b class="postauthor">einsamer Wolf&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Blutrache</div><div style="float: right;"><a href="./viewtopic.php?p=952286#p952286"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 6.12.22, 20:44&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=41991_1669591656.gif" width="100" height="73" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 28.11.22, 00:06<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">*Der Nordmann hockt in der Taverne, vor ihm auf dem Tisch eine Schüssel warmes Drachenfeuer, er tunkt das Fischbrot in die Brühe. Plötzlich schlägt dir Tür auf, Halfdan eine der Torwachen betritt den Schankraum.. <br />einige Worte werden gewechselt, der Wolf wird am Tor gebraucht.. mit dem letzten Stück Fischbrot wischt er die Schüssel gänzlich leer, nachdem er den Umhang umgeworfen hat, greift er sich drei mit Met befüllte Trinkhörner womit er sich zum Tor begibt..*<br /><br /><br />*Dankbar werden die Hörner an von den Wachen am Tor entgegen genommen, der Nordmann gesellt sich zu Alrik*<br /><br />&quot;Vastep! Alrik wat set los hier..?<br /><br />&quot;Der Bruder oben auf dem Turm hat hinten an der zweiten Brücke heute einige Gestalten gesehen,<br />sie haben dort etwas Plunder abgeladen och man hat Gegrunze gehört!&quot;<br /><br />&quot;Sach, waren es Grynter..?quot;<br /><br />&quot;Nej, die waren deutlich kleiner och die kamen so schnell wie se verschwunden sind!&quot;<br /><br />&quot;Aye, von denen hab Jej letztens am Wall ejne kleine Gruppe erschlagen.. Jej war verwundert wie weit sie sich zu uns trauen.<br />Aver wat willst erwarten, die Galas och Dvärge sieht man schon lang nicht mehr am Wall.. Solang die Trolle sich net auch noch rüber wagen set allet God..<br />Von diesen stinkdenen Goblins kann man Fünfe übereinanderstapeln och die sind noch lang net so groß wie ein Troll!<br />Sollen sie sich nur weiter rüberwagen, Jej kann et kaum erwarten ejn paar Fackeln in deren Höhlen zu werfen!&quot;<br /><br /><br /><br /><img src="https://vvcap.com/img/1vDwkQagj.png" alt="Bild" /><br /><br /><br />*Schon seit der Geisterwolf Sichtung in den Wäldern um Brandenstein und vor dem kommenden Dunkeltief waren die Wachen am Tor verstärkt worden.<br />In den nächsten Abendstunden wird man den Nordmann nun in der Nähe der Toranlagen sehen wie,<br />er von der Brüstung oder der Brücke den Weg und das Umland im Blick hat..*<br /><br /><br /></span></div>
+
+											<span class="postbody"><br />_________________<br /><span style="font-style: italic">Hildur - Wolf<br /></span></span>
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=41991">einsamer Wolf</a>: 10.12.22, 03:21, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=41991"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=41991"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952319"></a>
+				<b class="postauthor">einsamer Wolf&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Blutrache</div><div style="float: right;"><a href="./viewtopic.php?p=952319#p952319"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 10.12.22, 02:52&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=41991_1669591656.gif" width="100" height="73" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 28.11.22, 00:06<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold"><div align="center"><span style="font-style: italic">*Felas Antlitz blendete den Nordmann, als er aus den tiefen Minen am Lavafluss aufstieg. Die Rüstung voller Staub - ein kräftiges Husten und ein Schluck aus der Met-Feldflasche helfen im ersten Moment!<br />Nachdem er sich in den Sattel hieft, führt der Weg zum Wall, nicht weit davon entfernt hausen einige der Goblins..<br />Ihn trieb keine Nervosität, scheinbar wollte er nur Sicher gehen das diese Kreaturen die Warnungen verstehen würden .. und ein Blick nach dem Rechten schadet nie..<br />Nur wenige Momente verweilte er hinter der Brücke am Wall, als auch schon der erste stinkende Goblin aus den Büschen trat..*</span></div><br /></span><br /><br /><br /><br /><div align="center"><img src="https://vvcap.com/img/udFMNHrvM.png" alt="Bild" /></div><br /><br /><span style="font-weight: bold"><span style="font-style: italic"><div align="center">*Ohne Verdacht zu schöpfen gewährt er dem Grünen noch genug Zeit Verstärkung zu rufen, bevor ihn ein schneller Tod ereilt..<br />Vielleicht ein Fehler den er Später noch bereuen sollte, aus allen Löchern kommen die Goblins angestürmt.. Haben sie schon dort gewartet? <br />Was trieb sie wieder so nah an den Wall..?*</div></span></span><br /><br /><div align="center"><img src="https://vvcap.com/img/8EkkWHrlV.png" alt="Bild" /></div><br /><br /><span style="font-weight: bold"><span style="font-style: italic"><div align="center">*als die Kämpfer der anfänglichen Angriffswellen den Boden schmückten, zögern die Goblins...<br />Die Anzahl stimmte den Nordmann schon nachdenklich, stand er doch allein vor der Brücke..<br />Nach und nach trauten sich noch einige der gerüsteten Goblins vor - Sie teilten das Schicksal ihrer Vorgänger<br />Wutentbrannt brüllt der Wolf, nordische Flüche in die Öde hinein.. einer der abgetrennten Goblin-Schädel flog gleich hinterher*</div></span></span><br /><br /><div align="center"><img src="https://vvcap.com/img/EhvF6u6oj.png" alt="Bild" /></div><br /><br /><br /><span style="font-style: italic"><div align="center"><span style="font-weight: bold">*hallt es zurück, immer wieder gröhlen die Goblin es aus der Entfernung..<br />Wer war der Anführer den er vor einigen Tagesumläufen am Wall erschlug, der Sprössling vom Häuptling..? oder 6te uneheliche Sohn des Oberschamanen..?<br />Verflucht sollen sie sein die kleinen Grynter - Scheinbar wollen sie den Kopf des Wolfes!*</span></div></span><br /><br /><div align="center"><img src="https://vvcap.com/img/qz8koRuc7.png" alt="Bild" /></div><br /><br /><span style="font-weight: bold"><span style="font-style: italic"><div align="center">*Erst als sich keiner mehr traut anzugreifen und die Reste des zersprengten Trupps Richtung Osten flüchtet..<br />ebbt die Nordische Wut des Wolfes ab, genug Blut wurde vergossen um ein Zeichen zu setzen, das er keine einfache Beute ist..<br />Noch eine Weile verbleibt er am Wall um sicher zu gehen, das nicht doch noch einige der zerstreuten Goblins zurückkehren,<br />bevor er nach Westhever davonreitet, dort angekommen tritt er das aufgestellte Goblinbanner vor der Brücke, im vorbeireiten mit seinem Stiefel..*</div></span></span></div>
+
+											<span class="postbody"><br />_________________<br /><span style="font-style: italic">Hildur - Wolf<br /></span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=41991"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=41991"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952329"></a>
+				<b class="postauthor">Halgar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Blutrache</div><div style="float: right;"><a href="./viewtopic.php?p=952329#p952329"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 10.12.22, 19:44&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=6381_1273071895.jpg" width="100" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.10.06, 00:25<br /><b>Beiträge:</b> 1660				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold"><div align="center">Mit Kehlen dürstend nach Blut und Kampfeslust im Herzen zogen sie aus. Ihre kurzen kräftigen Beine trugen die Last ihrer schweren Rüstungen mit leichtigkeit auf diesem Marsch. Vier Krieger aus den vier stärksten Stämmen der Goblins. Der Abstand zwischen ihnen wurde größer, denn jeder von ihnen wollte den Ruhm allein ernten, den der Abschluss ihrer Mission ihnen bringen würde.<br /><br />Zuvor im Goblinlager:<br /><br />Die weisen und klugen Schamanen, nunja zumindest für Goblinverhältnisse klug, sammelten über Jahre das Wissen, über jene Zahl. Die Vier schien den Ruinen ihrer Städte und alten Schreinen zufolge eine große Bedeutung zu haben. Wie sonst konnte ein Volk, das nicht so schön und kraftvoll wie die von den Goblins gefürchteten Orks oder ihren Freunden den Trollen, so mächtig sein? Es musste an dieser Vier liegen...womöglich. Vielleicht war es an der Zeit den Zauber der in dieser Zahl lag für sich zu nutzen. <br /><br />„Diese Fellträger glauben an einen anderen Zauber.“ mischte sich der alte Trollschmied ein der den Goblins die Rüstungen brachte. <br /><br />„So? Tun sie das?“ hakte der Goblinschamane spitzfindig aber durchaus neugierig nach.<br />„Deren Zauber liegt im Winter und im Salzwasser. Das erzählte mal einer aus meinem Clan, der den Orks diente und der Winter ist bereits da.“<br /><br />Die Argumente des Trolls waren nicht von der Hand zu weisen, doch einer der Krieger hatte kein Gehör dafür.<br /><br />„Und wenn sie beide Zauber haben, dieser Fischmann wird wie jedes Schwein bluten wenn meine Axt seinen Hals erwischt!“ Grunzte der stolze Goblinkrieger.<br /><br />Später am Falkenwall:<br /><br />Tatsächlich blutete er wie ein Schwein als die Klinge seinen Hals erwischte. Heiß und dickflüssig überströmte ihn der Lebenssaft, wärmte ihn aber kein bisschen, denn auch wenn kleine Dampfschwaden von der tiefen Wunde und dem Blut in die kalte Luft empor stiegen, wurde dem Goblinkrieger eiskalt. Zu dumm das es sein eigener Hals war und nicht der des Nordmanns. <br />Er fiel neben die anderen Krieger und nur noch einer von ihnen war auf den Beinen und kämpfte heroisch gegen den Nortraven. Es sah sogar fast so aus als würde er gewinnen. Ein gezielter Hieb und der Nordmann würde fallen, doch scheinbar, irgendjemand oder irgendetwas gab ihm ein letztes mal Kraft so das er auch den letzten, so tapfer und kraftvoll er kämpfte, getötet hat. <br />„Vermutlich war das deren Zauber der im Winter liegt...“ dachte sich der Goblin bevor ihm schwarz vor Augen wurde und das Licht Tares zum letzten mal erblickte.<br /><br />Am nächsten Tag:<br /><br />Nachdem die Gemeinen, jene Goblins die den Kriegern als Helfer und Proviantträgern dienten, zurückkehrten und vom Kampf berichteten schnaubte der Schamane. <br /><br />„Schlachtet ein paar Hirsche und folgt mir!“ grunzte der Schamane im Befehlston.<br /><br />Mit einem Sack voll frisch geschlachtetem Rotwild, marschierte der Schamane mit einem Krieger und einem Gemeinen zum Trollberg und gingen einen hohen Bogen um diesen. Ja die Trolle waren ihre Freunde, aber der Schamane wollte keine Freunde sehen die dem Nortraven zum Opfer fielen. Zum Glück aber lebten nicht nur Trolle an diesem Berg.<br />Am Fuße des Berges lebte jemand der kein Troll war, aber mindestens genauso stark, wenn auch nicht so schlau wie ein Troll.<br />Dennoch stark genug um seine Behausung mit den Köpfen von Trollen zu schmücken.<br /><br /><img src="https://abload.de/img/goblin1n7cjd.jpg" alt="Bild" /><br /><img src="https://abload.de/img/goblin2thfda.jpg" alt="Bild" /><br /><br />&quot;Runu bekommt also Fressen dafür um Jemanden zu fressen und bekommt für fressen von Jemand nochmehr Fressen? Runu sagt abgemacht!&quot; grunzte der Oger mit verschlagenen Schweinsaugen.</div></span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=6381"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952340"></a>
+				<b class="postauthor">Halgar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Blutrache</div><div style="float: right;"><a href="./viewtopic.php?p=952340#p952340"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 11.12.22, 02:08&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=6381_1273071895.jpg" width="100" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.10.06, 00:25<br /><b>Beiträge:</b> 1660				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://abload.de/img/trollgoblinfpdbf.jpg" alt="Bild" /></div><br /><br /><div align="center"><span style="font-weight: bold">Beeindruckt pfeiffte der Troll durch die Zähne und glotzte ungläubig zu dem aufgespießten Ogerschädel. <br />„Das ist er! Das ist Runu! Er hat Drei aus meinem Clan getötet!“ bellte der Troll in Euphorie.<br />Selbstzufrieden grunzte der Goblinschamane bei den Worten und nickte mehrmals.<br />„Wie ich es dir versprochen habe. Ich habe die Ehre deiner Familie wieder hergestellt und deine Brüder gerächt.“ grunzte der Goblin feierlich.<br />„Ich stehe tief in deiner Schuld weiser Schamane. Wir hätten niemals an unserer Freundschaft zweifeln dürfen.“ gestand der Troll schuldbewusst.<br />„Also sind wir wieder Verbündete?“ hakte der Goblin nach.<br />„Deine Feinde sind meine Feinde!“ versprach der Troll mit felsenfester Stimme.<br /><br />Mit einem zufriedenen Grinsen wandte sich der Goblin ab und ließ den Troll noch weiter die Trophäe bestaunen. <br /><br />Müde vom langen Tag erreichte der Schamane den Bau seines Stammes und ließ sich auf sein Hirschfell nieder um zu schlafen, doch bemerkte er in der Ecke eine kleine Gestalt. <br />„Wir müssen mehr Krieger schicken!“ sprach die kleine Gestalt und trat ins fahle Licht der kleinen Feuerstelle.<br />Mit einem nachsichtigen Augenrollen schüttelte der Schamane den Kopf.<br /><br />„Nein.“<br />„Aber der Fischmann muss sterben! Sonst respektieren uns die anderen Stämme nicht!“<br />„Das werden sie aber.“<br /><br />Der Schüler des Schamanen verzog das Gesicht zu einer verständnislosen Fratze.<br /><br />„Aber er hat den Oger besiegt. Wir haben verloren wenn wir nichts machen.“<br />„Wir haben nicht verloren. Wir haben gewonnen.“<br />„Das versteh ich nicht.“<br />„Weil du noch lernen musst schlau zu sein.“<br />„Wieso haben wir gewonnen?“<br /><br />Genervt schnaufend richtete sich der Schamane wieder auf und winkte seinen jungen Schüler heran, der nur zögerlich näher heran trat.<br /><br />„Wenn du schlau sein willst, musst du lernen an Morgen zu denken und nicht an Heute. Der Fischmann hat uns bei den anderen Stämmen erniedrigt ja, aber dadurch das er Runu im Zweikampf besiegte, hat er unseren Ruf wieder hergestellt. Gegen einen zu verlieren der im Zweikampf einen mächtigen Oger tötet ist keine Schande und Runu war verhasst bei den Trollen. <br />Hätte er den Fischmann besiegt, hätte Gili den ich mitschickte Runu getötet und der Sieg über den Fischmann wäre Unser. Wenn aber der Fischmann Runu tötet, ist unsere Niederlage keine Schande mehr und die Trolle denken jetzt das ich den Fischmann damit beauftragte Runu zu töten. Der Beweis steht an der Mauer zum grünen Land. Jetzt haben wir wieder die Trolle als Freunde und die Blutfehde mit dem Fischmann ist beendet.“<br /><br />Gespannt lauschte der junge Goblin dem Monolog seines Lehrers und weitete die Augen über den gerissenen und schlauen Geist des Schamanen. Mit Bewunderung aber auch Neid betrachtete der Schüler seinen weisen Lehrer und hoffte eines Tages so schlau und weise zu sein wie er. So klug konnten nur Goblins sein, die das Blut von Käzar noch in sich tragen... </span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=6381"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952341"></a>
+				<b class="postauthor">einsamer Wolf&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Blutrache</div><div style="float: right;"><a href="./viewtopic.php?p=952341#p952341"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 11.12.22, 02:52&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=41991_1669591656.gif" width="100" height="73" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 28.11.22, 00:06<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold"><span style="font-style: italic"><div align="center">*Müde steht der Nordmann an Westhevers Hafenausleger, die eisige Briese fegt ihm vom Westen her durchs Gesicht..<br />während andere vor der Kälte lieber ins Warme flüchten, genießt er die stillen Momente, die nur vom Meeresrauschen unterbrochen werden..<br />Finster werden die Züge auf seinem Gesicht als er zur Hafenstadt rübersieht, auch aus der Ferne hört man den Lärm einer Taverne und reges <br />Treiben in den Gassen..*<br />&quot;Wenigstens haven die noch ejn bisschen Spaß..&quot;<br /><br />*Als der Nordmann im Stall angekommen ist und die Satteltaschen für den Ausritt prüft, fällt ihm Uhlwins gut gefüllter<br />Waffenständer ins Auge. Neben den üblichen Höhlen, hatte der Nordmann auch einen Abstecher ins Ödland geplant..<br />Dort würde es eh nicht allzulang dauern bis ihm Trolle vom Splitterfels oder wilde Oger aus dem alten Lager östlich <br />über den Weg laufen würden.<br />Die Pike, zwei Wurfspeere - Es waren nicht die Waffen seiner Wahl, noch konnte er vernünftig mit den Wurfspeeren umgehen,<br />aber etwas Reichweite könnte gegen die trägen Riesen des Ödlands nicht schaden..*</div></span><br /><br /><br /><div align="center"><img src="https://vvcap.com/img/udJFaZVqo.png" alt="Bild" /></div><br /><br /><br /><div align="center"><span style="font-style: italic">*Der Wolf flucht leise als er aus der Höhle klettert, welch ekelhafter Gestank lag doch in der Luft..<br />Und es war nicht der Geruch von Schwefel aus der Mine.. Als er das Gegrunze hört wird schnell klar<br />das er möglicherweise schon wieder in die nächste Falle getappt ist..<br />Das mit waffenbeladene Pferd steht auf der anderen Seite des Weges, Bei Thjarek es wurde noch<br />nicht gefressen..*</span></div><br /><br /><span style="font-style: italic"><div align="center">*der Oger grunzt etwas von Fressen, als der Nordmann sein Pferd ranpfeift..<br />Er zieht einen der Wurfspeere aus den Schlaufen am Sattel, gibt dem Pferd einen Klaps<br />auf die Flanke, woraufhin es in den Wald davon trabt.. und macht sich bereit den Oger zu attackieren..<br />Er wirft den Speer, trifft den Oger nur an der Schulter.. Schnell wird klar das der Wolf<br />größeres Werkzeug braucht um den Oger zu besiegen.. mit der zweihändigen Axt<br />macht auch der Oger nach einigen Angriffen, keine großen Anstalten mehr sich zu wehren<br />und geht zu Boden..*</div></span><br /><br /><br /><div align="center"><img src="https://vvcap.com/img/z6VYrH2XJ.png" alt="Bild" /></div><br /><br /><div align="center"><span style="font-style: italic">*Oger sind zu Träge und selten haben sie Grips in der Birne, der Oger war kein allzustarker Gegner<br />für den agilen Hünen, einge Finten, gekonntes Ausweichen.. dies und ein starker Waffenarm, mehr braucht man für diese<br />Kreaturen nicht..<br />Während der Wolf den Kadaver begutachtet, kommt ihm beim Anblick des Kopfes ein Gedanke,<br />zwei-drei Axthiebe später spießt er den abgetrennten Kopf des Ogers mit dem Wurfspeer auf.. und macht sich auf zum Wall*</span></div><br /><br /><div align="center"><img src="https://vvcap.com/img/jhuPwZGEV.png" alt="Bild" /></div><br /><br /><div align="center"><span style="font-style: italic">*der aufgespießte Schädel wird direkt am Eingang der Öde in den Boden gerammt, grimmig blickt der<br />Wolf zum Splitterfelsen.. Ob die Goblins endlich Ruhe geben..?<br />Kommen die stinkenden Trollberserker als nächstes..? Vielleicht sollte er ihnen zuvorkommen..?<br />Ungewohnt düster ist die Lache des Nordmannes als er sich abwendet..<br />der dunkle Troll-Häupling auf dem Splitterfels sollte seine schöne Axt in der nächsten Zeit etwas fester umklammern..<br />Wenn die Goblins nur wüssten welche Plage sie entfesselt haben, den Wolf zu reizen war ein Fehler...<br />Aber dies werden die anderen Bewohner des Ödlandes noch früh genug selbst erfahren..*</span></div></span><br /><br /><span style="font-weight: bold"><div align="center"><span style="font-style: italic">*So hatten die Trolle also noch etwas Zeit bevor der Nordmann den Splitterfelsen unsicher macht..<br />Aber auch die Echsen sollte man in der Öde nicht unterschätzen.. rasch haben sie sich überall breit gemacht<br />Ob Vorsorge ... oder reine Blutlust .. man weiß es nicht, aber der Wolf stieg in die Lagune hinab..<br />Die Echsen sind eigentlich zu schlau um sich mit anderen einzulassen.. Vielleicht sehnte sich der Wolf auch<br />nur nach einem Dampfbad wie man es sonst nur in der Winterzeit in Eskandar erlebt, mit einer Sauna..*</span></div></span><br /><br /><div align="center"><img src="https://vvcap.com/img/3le8SuAkG.png" alt="Bild" /></div><br /><br /><div align="center"><span style="font-style: italic"><span style="font-weight: bold">*kaum hat die goldene Echse ihren letzten Blitz nach dem Nordmann geworfen, liegt sie auch schon erschlagen im Wasser..<br />mit der Beute macht er sich auf den Weg zurück ins Grünland, nordische Schlachtenrufe gröhlt er auf dem Rückweg..<br />Jetzt dürfte auch den letzten Kreaturen östlich des Walls klar sein.. das der Nordmann wie die Pest über die Öde kommen würde..*</span></span></div></div>
+
+											<span class="postbody"><br />_________________<br /><span style="font-style: italic">Hildur - Wolf<br /></span></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=41991"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=41991"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=109858&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=109858"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 6 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=109858"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

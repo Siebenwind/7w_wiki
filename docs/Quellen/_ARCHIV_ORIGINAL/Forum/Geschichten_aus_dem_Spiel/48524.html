@@ -1,0 +1,566 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Die wahrste Wahrheit über Orken</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:09<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=48524&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Die wahrste Wahrheit über Orken</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=48524"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 2 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=48524&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=48524&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=48524&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p462445"></a>
+				<b class="postauthor">Saz&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Die wahrste Wahrheit über Orken</div><div style="float: right;"><a href="./viewtopic.php?p=462445#p462445"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 13.01.08, 15:41&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2304_1212495555.gif" width="32" height="32" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 25.07.02, 04:06<br /><b>Beiträge:</b> 828<br /><b>Wohnort:</b> steady state				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">Umfassende Studie über die Rasse der Orken,  <br />basierend auf aktuellsten Erkenntnissen<br /> <span style="font-style: italic"></span> </span> <br /><br />                                 Von <br />Rhois Grobkind 	<br /> <br />Verzeichnis:<br /><br /><br />1. <span style="font-weight: bold"> Vorwort</span> <br /><br />2. <span style="font-weight: bold">Der Weg zum Ork</span> <br /><br />3. <span style="font-weight: bold">Hauptteil</span> <br /><br />3.1 <span style="font-weight: bold">Stammesleben der Orken </span> <br /><br />3.1.1 Allgemein<br />3.1.2 Stammestheorie oder <span style="font-size: 75%; line-height: normal">“Grobkind’sche Theorie der absoluten Abhängigkeit des gemeinen  Individuums zu seinem Stamm“</span> <br />3.1.3 Stamm versus Stamm<br />3.1.4 Stamm/Stämme versus Mensch<br /><br />3.2 <span style="font-weight: bold">Phänomen: Macht</span> <br /><br />3.2.1 Allgemein<br />3.2.2 Hackordnung<br />3.2.3 System der Hackordnung<br />3.2.4 Ränge der Hackordnung<br />3.2.5 Der Aikar<br />3.2.6 Intelligenztheorie oder <span style="font-size: 75%; line-height: normal">„Grobkind’sche Theorie des Parallelwachstums von positiver und negativer kognitiver Potenz“</span> <br />3.2.7 Der weibliche Ork<br />3.2.8 Die Religion des Orken <br /><br />4.  <span style="font-weight: bold">Ork plus Siebenwind plus Missverstehen gleich Unzufriedenheit</span> <br /></span> 
+<br />
+<br /><span style="font-weight: bold">1. Vorwort:</span>
+<br />
+<br />Man wird sich fragen, wie ein gebildeter Mensch wie ich dazu kommt, sich eingehend mit einer Rasse wie den Orken zu befassen. Um dies aufzuklären muss ich  <span style="font-style: italic">etwas</span> weiter ausholen. Leser, welche sich mit dieser Studie lediglich aus wissenschaftlicher Intention heraus befassen, sollten demnach die Umstände überspringen und unverzüglich zum Hauptteil übergehen.
+<br />Es gibt unzählige Schriften, Bücher und Geschichten über das fleißige Volk der Dwarschim, der wundersamen (in jeder Hinsicht wundersam, man verzeihe den Vermerk) Elfen oder der ehrgeizigen Menschen. Orkengeschichten gibt es zwar auch, allerdings findet man diese fast ausschließlich in der Rubrik Grusel – und Ungeheuergeschichten. Nun, warum ist das so? Basiert die orkische Existenz tatsächlich auf simplifizierter Bosheit und Gewalt?  
+<br />Sind Orken ein Missgriff der Götter? 
+<br />Ihr erste Versuch, sozusagen? 
+<br />Sehr viele – auch mir persönlich Bekannte – renommierte Theoretiker der Rassen und Völker Tares vertreten genau diese (oder eine davon <span style="font-style: italic">leicht</span>  abgewandelte) Meinung. Ich nicht! Ich sage: Das Volk der Orken unterwirft sich entgegen der allgemeinen Meinung einem tiefgründigen Sozial – und Ordnungssystem, von welchem andere Völker sich in gewissen Belangen noch ein Scheibchen abschneiden könnten. 
+<br />Sie werden missverstanden.
+<br />
+<br /><span style="font-weight: bold">2. Der Weg zum Ork</span>
+<br />
+<br />Aus Gründen, welche zu erläutern den Rahmen des Zumutbaren sprengen würden, verließ ich die Insel Siebenwind um meine dort gesammelten Erfahrungen auf dem Festland zu verarbeiten. Unterm Strich könnte man es Urlaub nennen. Wie dem auch sei, ich reiste mit dem Nortraven K. aus W. und dem Hochelfen E. aus F. 
+<br />Die Schiffsreise zum Festland war ähnlich ereignislos wie die Hinfahrt, daher nicht weiter erwähnenswert. Das Schiff legte an der Küste in der Nähe des Kadagebirges an, von wo aus wir bis zu einem gewissen Punkt gemeinsam reisen wollten. Da der Gesprächsstoff zwischen dem, sagen wir, kognitiv praktischer gestrickten Nordmann und dem esoterisch begeisterten  Elfen relativ schnell erschöpft war, musste ich die kleine Gruppe permanent mit meinem beachtlichen Fundus an Erfahrung und Wissen rund um Tare bei Laune halten, sodass stets für beide was dabei war. <span style="font-style: italic"> [Randnotiz] (Studie über den gemeinsamen Nenner der Elfen und Nortraven).  </span>
+<br />So verhielt es sich im Grunde die meiste Zeit der Reise. Wir umwanderten das Kadagebirge südwärts und reisten bis nach Gofilm um unsere Vorräte aufzustocken. Außerdem habe ich eine Bibliothek aufsuchen müssen, um mir eine unglaublich unglaubwürdige Geschichte, welche der Elf mir in den ersten Wochen der Reise auftischte, bestätigen oder widerlegen zu lassen. Es ist kaum zu fassen, diese Elfen, meine Güte! <span style="font-style: italic"> [Randnotiz] (unleserlich)  </span>
+<br />Das nächste Reiseziel bis Draconis (wo wir uns schließlich trennen wollten) war Librasulus. Wir legten etwa ein drittel der Strecke zurück als wir einen guten Platz für ein Lager erspähten, kurz nach der Grenze Kadamark –Kettel. Wir rasteten am Wasser, da der Hochelf ein erfrischendes Nachtbad nehmen wollte. Daraus wurde jedoch nichts, weil der Nortrave seine Notdurft - akustisch beeindruckend untermalt – in den See verrichtete. Dementsprechend trostlos war die Stimmung in jener Nacht. Selbst meine spannendsten Geschichten konnten die Stimmung nicht auflockern, sehr wundersam. So aß, trank und redete man nur das Nötigste und fiel aufgrund der alltäglichen Anstrengung rasch in den Schlaf. 
+<br />Ich wurde mitten in einem erquickenden Traum äußerst ruppig und wild gröhlend geweckt (Ich wusste, bevor ich wach war, dass der Elf es nicht sein kann) K. aus W. zischte mich an, ich solle mich in Acht nehmen, die Orken kämen! Das war äußerst unwahrscheinlich, zumal wir extra das Umland der Grenzen nach Ravel gemieden hatten. Er war jedoch davon überzeugt, unverkennbar orkisch-gutturale Laute gehört zu haben. Der Hochelf, offensichtlich kein Krieger, saß völlig fassungslos und kreidebleich auf seinem Blätterschlafsack. Daher entschied ich mich,  ihm gut zu zureden, statt mir einen dicken Ast zu suchen. Die mächtige Axt des Nordmannes schimmerte etwas im Feuer, und plötzlich sah ich es auch: Gelbe Augenpaare, welche mich auf bizarre Art und Weise an glimmende Schweinsäuglein erinnerten, näherten sich unserer Position. Es mussten 5 Orken an der Zahl sein, und keine guten Schleicher oder Jäger, auch wenn sie sich Mühe gaben. Plötzlich sprang der Nortrave wie von Sinnen, einen ordinären Schlachtruf brüllend, in die Dunkelheit. Man hörte einige Sekunden ein Grunzen und Klirren, offensichtlich hat der Nortrave die Augenpaare nicht gezählt (oder er war größenwahnsinnig, worauf die Zeit welche ich mit ihm verbrachte jedoch keine Anhaltspunkte gab) Ich musste vom Schlimmsten ausgehen und befahl dem Elfen die Ruhe zu bewahren und keine Eskalation zu provozieren.  Schließlich gesellten sich die Silhouetten zu den Augenpaaren und kurz darauf schälten sich stämmige Orken aus der Dunkelheit und glitzerten uns mit ihren hypnotisierenden Schweinsäuglein an. Der Ork im Vordergrund trug eine matschig-zerfledderte schwarze Tunika und stiefelte auf den Elfen zu, welcher mühelos am Kragen in die Höhe gehoben wurde. Die blutige Axt, welche der Ork ihm – ich nehme an als Artikulationshilfe – vor das Gesicht hielt, verriet, wer das Leben von K. aus W. beendete. <span style="font-style: italic"> „Thu Fhuutuu?“  </span>entfuhr es dem Orken. Zuerst dachte ich, die Reaktion des Elfen sei ein Anfall, bis ich merkte, dass er wie verrückt zitterte. Dem Orken schien dies nur suboptimal zu gefallen. Er schüttelte den Elfen wie eine Marionette und fragte erneut, diesmal deutlich gereizter: <span style="font-style: italic"> „Thu Fhuutuu!?“  </span>Ich wusste natürlich von meinen Abenteuern auf Siebenwind, dass Orken die Magie verabscheuen und die einzig richtige Antwort demnach  <span style="font-style: italic">„Nein“ </span> lauten musste. Um dem Elfen das Leben zu retten, erhob ich schließlich die Stimme: <span style="font-style: italic"> „Friedliche Grüße, ehrwürdiger Anführer der Orken!“ </span> Der halslose Klotz von einem Kopf fuhr herum und stierte mich ziemlich ungeduldig und aufs äußerste gereizt an: <span style="font-style: italic"> „Nun, der Elf in eurer Gewalt ist völlig harmlos und – so sei euch mein Wort gegeben – in jeder Weise magisch unbegabt. Er hasst Magie sozusagen!“ „Akzho, Schnorakh“ </span> entfuhr es dem Orken, bevor er den Hals des drahtigen Elfen wie einen Zweig brach und den Kadaver achtlos zur Seite warf. Die Orken im Hintergrund lachten sich ins schinkengroße Fäustchen. Da denkt man, was auf Siebenwind gelernt zu haben, und dann so was. Ich war, gelinde gesagt, völlig schockiert und perplex zugleich,  wodurch es dem Orken gelang, mich ebenfalls am Kragen zu Packen. Sein Atem war betäubend: <span style="font-style: italic"> „Unth thu Gitz, thu Fhuutuu?“ </span> Jetzt nur keine Panik, dachte ich,  er stellt die Frage schließlich nicht ohne Grund, und <span style="font-style: italic"> „Nein“ </span> kann die Antwort ja schon mal nicht mehr lauten <span style="font-style: italic"> [Randnotiz] Der arme Elf. Ich sollte seiner Familie Blumen schicken. Wobei ich nicht weiß ob sie das als Beleidigung auffassen. Vielleicht Käse ? </span>
+<br />Jedenfalls zwang ich mich ruhig zu bleiben und antwortete voller Verzweiflung: <span style="font-style: italic"> „Ohja, ich bin durchaus magisch begabt, ich kann dir hier sofort ´nen Riesenfeuerwerk hinmachen mit allen“ </span> und es wurde schwarz. 
+<br />Als ich gefühlte 10 Monde später auf einer Decke erwachte, die wie ein toter Hund roch, bestand das Zentrum meiner Existenz aus Kopfschmerzen, welche mich – in Kombination mit der Duftintensität – fast erneut meines Bewusstseins beraubt hätten. Nach langen Momenten der körperlosen Meditation stellte sich meine Scharfsicht wieder ein, und ich fand mich in einer Art Zelthütte wieder, welche man fast als geschmackvoll verziert und eingerichtet hätte bezeichnen können (von den ganzen Nagetierskeletten die rumhangen vielleicht abgesehen) 
+<br />Da war ich nun, dachte ich,  Rhois Grobkind, Gefangener eines brutalen Orken-Klans. Wahrscheinlich würde ich ein rituelles Opfer abgeben, dank der magischen Begabung sozusagen eine Ziege mit Sahnehäubchen. Bevor jedoch meine Gedanken noch grotesker und gruseliger werden konnten, öffnete sich die Zeltwand und ein alternativ gekleideter Ork trat ein, gehüllt in eine zerfledderte Robe und eine Tiermaske, vermutlich Bär, aber aufgrund des Alters war dies nicht mehr eindeutig zu erkennen
+<br /> <span style="font-style: italic"><br />(Natürlich wäre es aus praktischen Gründen einfacher, ich würde das vom Orken Gesprochene ganzheitlich ins hoch-galadonisch übersetzen, jedoch komplettiert einzig die wahrheitsgetreue Wiedergabe der Dialoge das Orkenbild authentisch. Um Lesern, welche dem Orkisch-galadonischen nicht mächtig sind, ebenfalls die Geheimnisse meiner Schriften offenbaren zu können, sind orkische Textstellen allerdings nach bestem Wissen ergänzend übersetzt worden) <br /><br />Ork: „Arargh!“<br />       	 „Ich grüße euch herzlichst!“<br /><br />Ich: „Bitte, tötet mich nicht!“<br /><br />Ork: „Haltz Mauhl unth höräntz uargh zhu!“<br />          	„Bitte habe keine Angst und hör mir zu!“	<br /><br />Ich:  „Aber was wollt ihr von mir!?“<br /><br />Ork:  „Uargh haph haltz mauhl käzakth, klaikh fährtäh uargh aphar rikktik zauhär!“ <br />	„Ich habe doch gesagt, keine Angst. So habe doch etwas Geduld!“<br /><br />Also hörte ich zu.<br /><br />Ork: „Patz aufh Gitz: Thi ainzikäh Krunth farumh thu hiar pitz itz failh thu Fhuutuu makäntz kannzth. Fännh thu allätz bari makzth, fhiar latzäntz tikkh mith Pälonunkh opäntraufh fhitar laufähntz. <br />Thainäh Aufkapäh itzt, uargh Fhuutuu zhu zaikähn fhail unzarh Aikar laithar… putth käkankähn itz. Klinkth zfärh – itz zfähr. Makäntz bari, thann fraihhaith, makäntz groxx…. Hrmlz, makäntz lipahr bari. Faiztäh päzaith, hr?<br />„Hör zu, Menschenfreund: Der einzige Grund, wieso du Gast bei uns bist, ist der, dass du Meister der magischen Künste bist. Wenn du deine Aufgabe meisterst, erlangst du die Freiheit und obendrein sogar noch eine Belohnung. <br />Die Aufgabe ist, mich in den magischen Künsten zu unterweisen da unser Schamane leider [D] kaputt gegangen ist[/D]  gestorben ist. Klingt anspruchsvoll – ist aber machbar. Mach deine Aufgabe gut, und du wirst belohnt, machst du sie nicht ganz so gut… weißt du Bescheid, nicht wahr?“<br /><br />Ich: Oha<br /> </span>
+<br />
+<br />Was hatte ich schon für eine Wahl? Selbstverständlich war ich – kompetenztechnisch - in der Lage, diese Herausforderung anzunehmen, denn zufälligerweise bin ich in der Schamanie bewandert. Aber moralisch? Konnte ich es ethisch vertreten, dass mein elfischer Kamerad von den Orken getötet worden ist? Andererseits war der Elf sowieso völlig untauglich um dem Schamanen der Orken jegliche Zauberkunst zu vermitteln, also wäre er ohnehin gestorben. Ich hatte ihm, wenn man es mal prinzipiell betrachtet, denn schmerzloseren Tod beschert. Ich hatte Schaden präventiv verhindert! Zwar nicht vorsätzlich, aber zumindest doch schamanisch intuitiv, oder? <span style="font-style: italic"><br /> [Randnotiz] Jeder mag Käse. </span>
+<br />So entschloss ich mich, die Aufgabe anzunehmen. 
+<br />Später erfuhr ich die vollen Hintergründe meiner Entführung, welche ich, um dem Verständnis Hilfe sein zu können, vorneweg wiedergeben sollte. Bei einem Ritual, welches dem Stamm der Ravel-Orken einen essentiellen Vorteil gegenüber einem rivalisierenden Stamm verschaffen sollte, meinte es der oberste Schamane des Stammes offensichtlich etwas zu gut und überführte sich durch eine wahnwitzige Menge an Orkwurz höchstpersönlich ins Jenseits.   <span style="font-style: italic">[Randnotiz] (Wo beginnt Suizid eigentlich?) </span>
+<br />Bedauerlicherweise gab es keinen weiteren Schamanen, welcher auch nur annährend über die Fähigkeiten des Verstorbenen verfügte. Der Häuptling des Stammes, der „Choharhar“, kommandierte in seiner Verzweiflung viele kleine Kampftrupps ab, welche er in alle Himmelsrichtungen schickte, um ein magisch begabtes Wesen zu „überreden“ ins Lager mitzukommen, um den Jungschamanen des Dorfes in der Magie zu unterweisen ( <span style="font-style: italic">Pixies  </span> nur im Notfall, wodurch das rasche Ableben meines elfischen Kameraden zumindest im Ansatz erklärbar wird) 
+<br />Nun sollten genug Informationen gegeben sein, um sich ein grobes Bild davon zu machen, wie ich, Rhois Grobkind, zu dieser Studie kam.
+<br />
+<br />Da es sich bei dieser Arbeit jedoch um keine magie-theoretische Arbeit handelt, werden sämtliche magie-bezogenen Themen oder spirituelle Sitzungen mit meinem Schüler ausgeblendet. Folgende Texte beziehen sich einzig auf die soziokulturellen Verhältnisse und in sich sinnvoll verschachtelte Machtgefüge der orkischen Rasse.
+<br />
+<br />
+<br /><span style="font-weight: bold">3. Hauptteil:</span>
+<br />
+<br /><span style="font-weight: bold">3.1 Stammesleben der Orken</span>
+<br />
+<br /><span style="font-weight: bold">3.1.1 - Allgemein</span>
+<br />
+<br />Es ist allgemein bekannt, dass sich die Orken in sogenannten Stämmen organisieren, mit einer Mannstärke von etwa 50 – 1000 Individuen (durchschnittlich allerdings rund 200 ) Hierbei muss zwischen den 2 wesentlichen Organisationsformen der Stämme unterschieden werden: Sesshafte Stämme in fruchtbareren Landen sind meist größer als nomadische Stämme, wobei nomadische Stämme einen in der Relation größeren Anteil an Kriegern aufzeigen.
+<br />
+<br /><span style="font-weight: bold">3.1.2 – Stammestheorie </span>
+<br />
+<br />Ganz gleich wie niedrig der Stand eines Orken im Stamm ist, oder wie schlecht es ihm dort ergehen mag: Der Ork braucht den Stamm. Das - harte aber hütende - Kollektiv ist essentiell für den Ork. Es gibt keine (gemeinen) Orken welche auf eigene Faust durch die Lande ziehen. Diese Beobachtungen münden in die Theorie dass der Ork als Individuum bedingungslos abhängig von seinem Stamm ist (etwa so abhängig wie ein Säugling von seiner Mutter) 
+<br />Jedes Abweichen von diesem natürlichen Verhalten ist auf eine Störung der einfachen, jedoch im Grunde stabilen geistigen Fähigkeiten zurückzuführen. Die Lebenserwartung von Orken welche isoliert von Stamm leben, sinkt rapide. 
+<br />Um diese Theorie zu untermauern, sei angemerkt, dass ich aus eigener Beobachtung heraus weiß, dass ein Ork sich lieber hinrichten lässt, als verbannt zu werden oder zu fliehen. Ich nenne es die <span style="font-style: italic"> „Grobkind’sche Theorie der absoluten Abhängigkeit des gemeinen  Individuums zu seinem Stamm“ </span>
+<br />
+<br /><span style="font-weight: bold">3.1.3 - Stamm versus Stamm </span>
+<br />
+<br />Man weiß heute, dass innerhalb der orkischen Rasse keine Einheit herrscht und dies darin begründet ist, dass sich die einzelnen Stämme regelmäßig bekriegen. Die spannende Frage ist nun, weshalb die Orken interne Kriege ausfechten, wo eine Vereinigung der Stämme doch viel vorteilhafter wäre. Bislang ging man davon aus, Orken unterlägen einem angeborenen Blutdurst, einer prinzipiellen Gewaltbereitschaft welche sie regelmäßig dazu zwingt, blutige Kämpfe außerhalb des eigenen Stammes auszufechten. Gewiss, eine bequeme Erklärung und durchaus nachvollziehbar vergleicht man sie mit den aktuellen Umständen auf Siebenwind (doch zu diesen speziellen Umständen später mehr) 
+<br />Wie dem auch sei, die Erklärung ist grundlegend falsch, schlecht referiert und eher ein Gruselmärchen denn einer fachlichen Erläuterung. Fakt ist nämlich, dass das Gebiet, welches sich die Orken einst von den Menschen erkämpften (Ravel)  und nun von ihnen besiedelt wird, eine in Falandrien kaum vergleichbare Unfruchtbarkeit des Bodens aufweist. Diese Unfruchtbarkeit führt zwangsweise zu Missernten und darauf folgenden Hungersnöten. Die Geburtenrate der Orken (ich habe in meiner Zeit bei den Orken geburtsratentechnisch schier unglaubliches gesehen) gibt ihren Rest dazu. Man stelle sich nun 200 ausgehungerte Krieger vor, welcher vor der Wahl stehen, sich zum sterben hinzulegen oder aber in den Krieg mit einem benachbarten Stamm zu ziehen (ich habe diese Kriege eigens miterlebt) 
+<br />Natürlich sind Orken nicht zimperlich und allgemein gewaltbereiter als ein Elf oder Mensch, jedoch muss man sich die Umstände vor Augen führen, welche zu diesen stammesinternen Kriegen führen. 
+<br />Diese ökonomische Zwickmühle ist zwar der bei weitem größte, jedoch nicht der Einzige Grund, denn es kann hin und wieder auch vorkommen, dass simple Meinungsverschiedenheiten zweier Schamanen oder zweier Häuptlinge einen Krieg auslösen können. Diese sind jedoch die Außnahme.
+<br />
+<br />
+<br /><span style="font-weight: bold">3.1.4 - Stamm/Stämme versus Menschen</span>
+<br />
+<br />Wenn innerhalb der eigenen Grenzen Ravels nichts mehr zu holen ist (an Vorräten) sind einzelne Stämme hin und wieder gezwungen ins galadonische Grenzland einzufallen um sich eine Existenz zu bewahren. Diese kriegerischen Akte liegen demnach ebenfalls einem ökonomischen Zwang zu Grunde, von welchem sich die Orken lediglich durch den Hungertod lossagen könnten. Wenn bei diesen „Raubzügen“ (Man könnte auch „Nahrung sammeln“ sagen, das klingt in polemischen Reden und Schriften jedoch bei weitem nicht so gut) dass ein oder andere nicht unbedingt lebensnotwenige Gut entwendet wird, so muss man sich einen Orken vorstellen, der zum ersten mal in seinem bescheidenen Leben einen glitzernden Goldring, eine Kette oder ähnliches zu Gesicht bekommt. Wenn der Träger des Schmucks bereits erschlagen wurde, kümmert es ihn sowieso nicht weiter. Statt sich daran zu erfreuen, dass die Orken fasziniert und gerade zu angetan von galadonischer Goldschmiedekunst sind, tituliert man sie lieber leichtfertig als habgieriges Barbarenvolk ohne jedes Gefühl.
+<br />Auch wenn ich dem Spektakel persönlich nicht beigewohnt habe, erfuhr ich doch von den Schamanen, dass es vorkommen kann, temporäre Einigkeit innerhalb der Stämme zu erlangen, welche zu einem ernsthaften Problem der galadonischen Grenzposten werden kann. Auf ganz ähnliche Weise wurde Ravel damals erobert. Dieses Ereignis liegt zwar 600 Jahre zurück, zeigt aber, zu welchen Leistungen die Rasse Ork als Ganze in Notzeiten in der Lage ist. Galadon kann sich wahrlich glücklich schätzen, dass sich diese Phänomene nicht allzu oft wiederholen. Wer kann einer grünen Flut zehntausender Muskelpakete schon widerstehen?
+<br />
+<br />
+<br /><span style="font-weight: bold">3.2 Phänomen: Macht</span>
+<br />
+<br /><span style="font-weight: bold">3.2.1 – Allgemein</span>
+<br />
+<br />Zu aller erst ist zu erfassen, worum es sich bei dem ominösen Wort „Macht“ handelt. Macht bedeutet, mittels eigener Kraft andere Individuen zu beeinflussen. Diese Erläuterung ist deswegen so unkonkret, weil sie für jeden individuell zu definieren ist und man sich ihr nicht entziehen kann, ob man nun von Macht beeinflusst wird, oder durch Macht beeinflusst. Ich wage zu behaupten, dass die Rasse Ork sich der grundlegendsten und plausibelsten Philosophie der Macht unterwirft welche es gibt. (Einzige Ausnahme bilden die Schamanen)
+<br />Orken intrigieren nicht, verraten nicht, korrumpieren nicht, manipulieren nicht und verderben nicht. All jene Makel, Giftigkeiten der angeblich höher entwickelten Wesen sind den Orken fremd, ihr Machtverständnis reduziert sich auf die pure Ausprägung der eigenen Kampfkraft. Wer sind wir, dass wir dieses geradezu geniale wie einfache System als „primitiv“ oder „barbarisch“ bezeichnen? 
+<br />
+<br /><span style="font-weight: bold">3.2.2. – Hackordnung </span>
+<br />
+<br />Da unter den Lesern der Begriff „Hackordnung“ wohl am geläufigsten ist und dem System der Orken sehr Nahe kommt, werde ich mich ebenfalls dieser Vokabel bedienen. Wie bereits geschildert, basiert das Verständnis von Macht bei den Orken auf der eigenen Fähigkeit sich im Kampf zu behaupten. Sicherlich gibt es auch Schneider und Schmiede welche einen gewissen Einfluss aufgrund ihres Nutzens genießen, jedoch reicht dieser niemals auch nur in die Nähe eines gestandenen Orkenkriegers. Das Ziel eines jeden Orken ist es, so meine Erfahrung, möglichst weit in der Rangordnung des Stammes aufzusteigen, gewiss auch unter dem Einsatz des eigenen Lebens. 
+<br />Doch bedeutet Macht nicht nur die Kraft des Individuums selbst, sondern auch die Gesamtheit der Krieger eines Stammes. Ein orkischer Stamm welcher reich an Vorräten oder sogar Luxusgütern (das heißt, nicht lebensnotweniger Güter)  ist, ist noch nicht reich. Reichtum wird gemessen an der Summe der zur Verfügung stehenden Krieger. Man sieht, das System der Kampfkraft, welches den Ork als Einzelnen ausmacht, lässt sich fast identisch auf den gesamten Stamm projizieren. 
+<br />
+<br /><span style="font-weight: bold">3.2.3. – System der Hackordnung</span>
+<br />
+<br />Aufgegliedert in eine Anzahl von Rängen, stellt das System sozusagen die Leiter zum Erfolg eines Orken dar. Obwohl die Ränge prinzipiell vom Alter unabhängig sind, stehen die jüngsten Orken ganz unten in der Hackordnung. Es gibt verschiedene Möglichkeiten um sich innerhalb der Hackordnung zu behaupten. Um vom untersten Rang zum nächsten aufzusteigen, muss man im Prinzip nichts weiter tun, als lange genug am Leben zu bleiben und zumindest eine ausreichende Affinität zur Kampfkunst aufzeigen. Später ist es üblich, dem Orken Prüfungen aufzuerlegen, welche es zu meistern gilt. Die Prüfungen werden logischerweise von Orken höheren Ranges auferlegt. 
+<br />Ging man jedoch bislang davon aus, die Prüfungen würden einem festen Raster folgen, so ist dies ein Irrtum. Es gibt zwar beliebte Prüfungsmuster, welche meiner Annahme nach aus kreativen Mängeln der Orken heraus Anklang fanden, jedoch ist man durchaus flexibel was die Prüfungen angeht. So können auch schlichte Duelle zwischen zwei Rangunterschiedlichen Orken dazu führen, dass der rangniedere Ork (so er gewinnt) in eine höhere Kaste erhoben wird.
+<br />Fest steht jedoch: Ein Ork welcher Kampfgeist, Ehrgeiz und eine gewisse Schläue an den Tag legt, wird mit sogut wie jeder Prüfung fertig werden, welche ihm auf dem Weg zum vollwertigen Krieger auferlegt wird.
+<br />
+<br /><span style="font-weight: bold">3.2.4 – Ränge der Hackordnung </span>
+<br />
+<br />Die Randgruppe, sozusagen der Bodensatz einer orkischen Gesellschaft (zu welcher ich übrigens auch gehöre, allerdings unter dem Schutz der Schamanen stehe) stellt der Rang der sogenannten „Na’gloh“ dar. Sie werden aus Gefangenen und Sklaven gebildet, wodurch sie eine Sonderrolle einnehmen, da sie nicht in der Hackordnung aufsteigen können. Ich bin derzeit übrigens der einzige „Na’gloh“ des Stammes. Etwas Besonderes, sozusagen. Sie tragen keine Tunika.
+<br />
+<br /><span style="text-decoration: underline"> Mo’karh</span> 
+<br />
+<br />Umgangssprachlich auch „Hegäl“ genannt, besteht dieser Rang aus allen Jungorken. Ab  hier beginnt das System der Hackordnung zu greifen. Der Lebensinhalt eines Hegäls besteht darin, möglichst am Leben zu bleiben und sich grundlegende orkische Eigenschaften anzueignen, allem voran die Liebe zum Kampf.
+<br />Persönliche Beobachtungen zeigen jedoch, dass viele Mo’karh mehrere Anläufe benötigen, sterben oder sich aufgrund von Unfähigkeit am Handwerkszweig orientieren. Die Farbe ihrer Tunika ist Hellgrün.
+<br />
+<br /><span style="text-decoration: underline"> Truch’karh</span> 
+<br />
+<br />Die Truch’karh sind  eigentlich 2 Kasten in einer, denn: Sowohl Orken, welche den Pfad          des Kriegers einschlagen (also Zo’karh werden wollen) als auch Jäger-Orken bilden diese Kaste. Der einzige Unterschied besteht optisch in einer dezenten Grüntondifferenz der Tuniken. Im Gegensatz zum Mo’karh ist die Tunika des Truch’karh dunkler, was vor allem der Tarneigenschaften eines Jäger-Orken zu Gute kommt.
+<br />
+<br /> <span style="text-decoration: underline"> ( Orach’karh )</span> 
+<br />
+<br />Orach’karh müssen gesondert betrachtet werden. Sie bilden zwar die Zwillingskaste der Truch’karh, allerdings sind die die Endstation für Orken, welche in jene aufsteigen. Die Orach’karh bestehen aus den Handwerkern des Stamms. Orach’karh können nicht zum Zo’karh aufsteigen, genießen jedoch ein gewisses Ansehen aufgrund ihrer Unentbehrlichkeit. Ihre Tuniken sind blau. 
+<br />
+<br /><span style="text-decoration: underline"> Zo’karh</span> 
+<br />
+<br />Der Mensch will schön sein, der Elf will weise sein, der Zwerg will reich sein und der Ork will Zo’karh sein. Die Kriegerkaste. Reichtum des Stammes. Je mehr Zo’karh ein Stamm beherbergt, desto wohlhabender ist er. Die Erwähnung der brachialen Kampfkraft dieser Individuen muss nicht weiter erläutert werden. 
+<br />Um Zo’karh werden zu können, muss der Truch’karh sich als nützlich erwiesen haben und die Prüfungen bestehen, welche ihm in der Regel von den Margh’Zo’karh auferlegt werden. 
+<br />
+<br /><span style="text-decoration: underline"> Margh’Zo’karh	</span> 	
+<br />
+<br />Diese Kaste muss eigentlich als Sonderkaste betrachtet werden, denn die Mitgliederzahl beläuft sich meiner Beobachtung nach auf maximal 3-6 Individuen pro Stamm. Die Perfektionierung der Kampfkraft sowie eine gewisse Bauernschläue und eine ordentliche Portion Glück können einem Zo’karh verhelfen, in die Elitekaste der Margh’Zo’karh erhoben zu werden. Sie bilden gleichzeitig die Vertrauten des Häuptlings. Ihre Tuniken sind schwarz.
+<br />
+<br /><span style="text-decoration: underline"> Der Choharhar</span> 
+<br />
+<br />Die Tatsache, dass es in der orkischen Terminologie kein Plural für das Wort „Choharhar“ gibt, zeugt deutlich welch einzigartige Position ein Ork diesen Ranges bekleidet. Er ist der Anführer des Stammes, der Häuptling. Auch wenn allgemein angenommen wird, ein Choharhar sei noch einmal deutlich stärker als ein Margh’zo’karh, der ist im Irrtum. Der Choharhar ist, was seine Kampfkraft angeht vergleichbar mit einem Margh’zo’karh, jedoch verschaffen ihm seine herausragenden Führungsqualitäten die nötige Menge an Respekt und Ehrfurcht. Das ist auch der Grund, weshalb es selten zu einem Duell kommt zwischen dem Häuptling und einem seiner Berater im Sinne eines Machtwechsels: Die Margh’zo’karh verehren ihren Häuptling in der Regel und würden alleine den Gedanken an einen Putschversuch als Sakrileg empfinden. Seine Tunika ist blutrot.
+<br />
+<br />
+<br /><span style="font-weight: bold">3.2.5 - Der Aikar	</span>
+<br />
+<br />Dem Aikar (was sich am ehesten mit „Schamane“ übersetzen lässt) kommt die wohl vielseitigste Rolle zu. Während die Kasten der Hackordnung klar definiert und abgegrenzt sind, vereinigt der Aikar eines Stammes eine ganze Vielzahl von Eigenschaften in seinem Aufgabenspektrum. Er ist der geistige sowie geistliche Anführer der Orken. Obwohl der Choharhar als Häuptling theoretisch über dem Aikar steht, wird dieser seinem Schamanen nur in den seltensten Fällen widersprechen. 
+<br />Seinem Wesen liegt mir persönlich eine ganz eigene Ironie zu Grunde: Obwohl ich die meiste Zeit mit dem Aikar verbrachte, umgibt ihn immer noch das größte Mysterium und trotzdem könnte ich mühelos hunderte von Seiten lediglich mit ihm als Thema füllen.
+<br />Während weltliches und kirchliches beim Menschen durch mehrere komplexe Institutionen und einer ganzen Schar von Individuen getrennt ausgefüllt wird, vereinigt eine lächerliche Anzahl von maximal einem Aikar (die Vokabel Aikar existiert ebenfalls nur im Singular)  und seinen 2-4 schamanischen Untergebenen all dies in sich. 
+<br />Schamanische Orken verfügen selbst für menschliche Maßstäbe über eine beeindruckende Intelligenz. Akademisch gebildete Greise sollten sich daher nicht dem Trugschluss hingeben, nur weil ein Volk keine Schriftsprache kennt und in Hütten oder Zelten wohnt, könnte aus ihr keine ernstzunehmende Intelligenz erwachsen. 
+<br />Die Medaille hat jedoch zwei Seiten: Verblüffenderweise haften gleichzeitig zur kognitiven Potenz des Aikar auch menschliche, beziehungsweise, un-orkische Makel an ihm. Der Aikar weiß um seine Intelligenz und ist durchaus in der Lage diese mit filigran gesponnenen Manipulationsnetzwerken innerhalb des Stammes maximal zu nutzen. Demnach kann er untreu sein (also ganz eigene Ziele verfolgen),  Intrigen spinnen, manipulieren und auch wahnsinnig sein. 
+<br />Obwohl der Aikar demnach eine Gefahr für einen Stamm bedeuten könnte, ist seine Anwesenheit dennoch von absoluter Notwenigkeit. Vergleicht man den Stamm mit einem Tier, so ist der Kopf des Tieres der Aikar. Das Tier kann Dinge tun, welche in eine negative Konsequenz münden, doch würde die Abwesenheit des Kopfes zum Tode führen. Man sieht: Der Aikar ist durchaus als ambivalent zu betrachten, Segen und Fluch. Er ist die einzige Anomalie, das einzig unergründliche Mysterium und Ungleichgewicht im ansonsten absolut konstanten und harmonisch plausiblen Orkwesen. Ohne Zweifel ist der Aikar der unorkischste Ork aller Orken. Aber warum ist dies so? 
+<br />Fest steht, die hohe Intelligenz und magische Affinität eines Aikar ist angeboren und kann nicht erlernt werden, gleichzeitig sind alle anderen Orken absolut magisch unbegabt und kognitiv nur einfach strukturiert. Diese zwei Tatsachen lassen zwei Theorien zu:
+<br />
+<br />1.	Irgendwann in der Geschichte kreuzte sich eine uns heute unbekannte Rasse mit hoher Intelligenz und Magiebegabung mit der orkischen Rasse. 
+<br />Hieraus erwuchs eine Blutlinie von Orken welche gleichzeitig kognitiv potent und magisch begabt waren. Die Natur der orkischen Polygamie verteilte und verstreute diese Eigenschaften dann über die komplette Rasse, wodurch sich die in der Relation geringe Anzahl schamanischer Orken erklären ließe. . 
+<br />
+<br />2.	Jeder Stamm braucht mindestens einen Aikar um zu funktionieren, das heißt, würde es keine Schamanen geben, gäbe es keine Orken. Einzig und allein schamanische Orken sind magisch begabt und intelligent, alle anderen zeigen nicht einmal den Ansatz dieser Gaben. Es gibt keine Skalierung. Dies lässt sich durch göttliche Einwirkung erklären. Die Götter erkennen die Notwendigkeit des Aikar und verleihen einer geringen Anzahl von Orken diese Fähigkeiten, welche essentiell für das Orkentum sind. Diese Theorie würde gleichzeitig die herkömmliche Annahme der orkischen Götzenanbetung widerlegen da die Existenz ihrer Götter durch das unmittelbare Einwirken in ihr Leben bewiesen wäre.
+<br />   
+<br />Ein normaler Ork mit schwacher kognitiver Potenz ist gleichzeitig Musterbeispiel für Loyalität und Moral unter Berücksichtigung orkischer Maßstäbe. 
+<br />Ein Ork mit hoher kognitiver Potenz, also ein schamanischer Ork, ist gleichzeitig mit Makeln behaftet welche den Gegensatz zu orkischer Moral und Loyalität bilden. Auch diese beiden Fakten habe ich in eine Theorie zusammengefasst.
+<br />
+<br />
+<br /><span style="font-weight: bold">3.2.6 - Intelligenztheorie </span>
+<br />
+<br />Banal ließe sich sagen, ein Ork wird dumm geboren oder schlau. Allerdings muss der schlaue Ork selbstverständlich einen Lernprozess durchlaufen bevor er von seiner angeborenen Potenz zehren kann, sie ist nicht unmittelbar verfügbar (was meine Gefangenschaft bei den Orken übrigens auch reichlich sinnlos machen würde) Meine Beobachtungen zeigen, dass gleichzeitig mit dem Füllen der eigenen Möglichkeiten auch negative Eigenschaften im Wesen eines Orken immer deutlicher werden. Während ein „Jung-Aikar“ (Die Vokabel hilft dem Verständnis, sie existiert nicht wirklich) noch relativ konventionell-orkische Denkmuster aufzeigt, wird jenes mit steigender geistiger Versiertheit immer unkonventioneller und kann gerade zu absurd boshafte Züge annehmen. Ich bin absolut davon überzeugt, würde innerhalb der Rasse Ork eine Skalierung kognitiver Potenz herrschen, würde dies meine Theorie, die „Grobkind’sche Theorie des Parallelwachstums von positiver und negativer kognitiver Potenz“, bestätigen.
+<br />
+<br /><span style="font-weight: bold">3.2.7 – Der weibliche Ork</span>
+<br />
+<br />Auch ohne die explizite Erwähnung müsste jedem Leser bis hierhin klar geworden sein, dass Orkenstämme Patriarchate sind. 
+<br />Da die Macht eines Orken auf seiner Kampfkraft basiert und Orkweibchen trotz umstrittener Ästhetik so gut wie jedem Orkmännchen im Kampf unterlegen sind, gilt die Hackordnung für sie nicht. Die meisten Orkweibchen versuchen sich in handwerklichen Disziplinen zu schulen um zumindest in die Orach’karh-Kaste zu gelangen und somit mehr Wert sind, als die ledigliche Summe an Orkmännchen welche sie in ihrem Leben auf die Welt bringen. 
+<br />Interessant zu beobachten ist, dass Orkweibchen teilweise eine ganz eigene „Hackordnung“ zu haben scheinen, nämlich wenn es darum geht, um die Gunst eines ranghohen Orkmännchens zu buhlen. Der Weibchenzirkel des Choharhar zB, welcher aus den attraktivsten Orkinnen besteht (die Schönheitskriterien sind mir nicht gänzlich bekannt), genießen zumindest ein mit dem Truch’karh vergleichbares Ansehen, welches jedoch eher aus Angst vor dem Häuptling besteht. 
+<br />Hierbei legen Orkweibchen übrigens eine dezente Hinterhältigkeit an den Tag, wenn es darum geht Rivalinnen auszustechen, welche ja eigentlich eine Eigenschaft eines Aikar, also intelligenten Orken ist (3.2.6.). Der Vergleich ist zwar weit hergeholt, da die Ausprägung bei Orkinnen verschwindend ist im Vergleich zu einem schamanischen Orken, jedoch wird noch erforscht werden, ob weiblichen Orken eine gewisse Basispotenz an Intelligenz in die Wiege gelegt ist.
+<br />Das Ziel eines Orkweibchens ist zusammenfassend also entweder, sich nützliche Fähigkeiten für die Gemeinschaft anzueignen um geachtet zu werden (Orach’karh) oder im Auge eines Orken schlicht attraktiv zu sein (Weibchen eines ranghohen Orken.) Gewisse Parallelen zu anderen Rassen lassen sich nicht abstreiten.
+<br />
+<br />
+<br /><span style="font-weight: bold">3.2.8 – Die Religion des Orken </span>
+<br />
+<br />Das Religionswesen der Orken spiegelt die Bedürfnisse ihrer Gesellschaft wieder. Als Existenz anerkannt werden zwei Götter: Berglum und Cirgbus (diese Schreibform kommt dem Gesprochenen am nächsten)
+<br />Orken bauen keine Gotteshäuser, Altare sind das höchste der Gefühle.
+<br />Rituelle Opferungen sind gängig, jedoch lediglich an Cirgbus und durchgeführt vom Aikar.
+<br />
+<br />Berglum: Berglum ist der Gott des Krieges und der Nahrung, die zwei wichtigsten Pfeiler der orkischen Existenz. Kaum verwunderlich dass man Berglum als großes, überproportional muskulöses Wildschwein darstellt. Die Ähnlichkeit zum Orken ist selbstverständlich kein Zufall: Ein Muskelberg mit 2 Hauern und ungestümem Gemüt.
+<br />
+<br />Cirgbus: Cirgbus ist der mystische der beiden Götter. Ein normaler Ork versteht Cirgbus nicht, genauso wenig wie er seinen Aikar versteht. Das muss er auch nicht. Der normale Ork vertraut darauf, dass neben Berglum (welcher ungleich beliebter ist) ein Gott für das Unbekannte existiert, welcher einzig vom Aikar erfasst werden kann und mit seiner pro-orkischen Natur jedwede anti-orkische Natur bekämpft und somit die Orken schützt. Obwohl er angebetet wird, wird er ebenso gefürchtet und aus eben jener Furcht auch nicht bildlich dargestellt. Natürlich ist auch hier die Ähnlichkeit mit dem Aikar kein Zufall. Während Berglum der Gott für die Masse ist, ist Cirgbus das unbekannte Mysterium welches nur vom ebenfalls mystischen Aikar begriffen werden kann.
+<br />
+<br /><span style="font-weight: bold">4 – Ork plus Siebenwind plus Missverstehen gleich Unzufriedenheit</span>
+<br />
+<br />Ein Außenstehender, welcher noch von orkischen Gruselmärchen unbelastet ist und auch nicht auf Siebenwind lebt, würde die Rasse Ork gewiss als beeindruckend und respektwürdig betrachten. Das Problem ist allerdings, dass es solche „Außenstehenden“ nicht in adäquater Menge gibt. Vor allem nicht auf Siebenwind. 
+<br />Ork-Sympathisanten werden sogar allzu leichtfertig als „Mit-Wilde“ oder „Halb-Orken“ bezeichnet.
+<br />Auch hier stellt sich die Frage, warum das so ist. Richtig ist, dass Siebenwind ein sozialer Brennpunkt ist und die Übergriffe der Orken, welche nicht aus Hungerleiden entstehen, überproportional hoch sind. Und auch das hat seinen Grund.
+<br />Die göttliche Vorsehung sieht die Miteinbeziehung sämtlicher Rassen auf der Insel Siebenwind vor, was meiner Meinung nach der einzige Grund ist, weshalb Orken überhaupt auf ihr geduldet werden. Nach Siebenwind gelangen die Orken, gleich den anderen Völkern, mit dem Schiff. Der Unterschied ist, dass sich die Freiwilligkeit der Orken in den Stämmen Ravels, jenen zu verlassen um ins Ungewisse zu segeln in Grenzen hält. Sie werden gegen ihren Willen durch willkürliche Selektion zum meist endgültigen Verlassen ihres Stammes gezwungen. Welch verheerende Auswirkungen dies auf das Gemüt des Orken haben kann, ergibt sich aus der Stammestheorie (3.1.2) Auf Siebenwind angelangt schmeißt man nun einen Haufen Orken zusammen, welche das Jugendalter überschritten haben und sich völlig fremd sind, wirft ihnen ein paar Tuniken über und erfreut sich am neuen Orkenstamm. So kann das nicht funktionieren. 
+<br />Jeder Stamm baut auf einer eigenen Geschichte auf wobei die Wurzeln der spezifischen Traditionen eines Stammes das Handeln eines Orken mitbestimmen können. Wenn ich einen kleinen Stamm von 50 Orken aus 45 verschiedenen Stämmen aus dem Boden stampfe, sind Probleme vorprogrammiert. Der einzige Grund der die völlige Katastrophe verhindert ist der Choharhar und seine Führungsqualitäten. Ein Choharhar auf Siebenwind hat zugegeben keinen beneidenswerten Titel.
+<br />Ein weiterer, vielleicht noch gewichtigerer Grund ist die Überforderung des Orken. Man verlangt von einem leicht reizbaren Muskelpaket mit dem Verstand eines Kindes, sich im Süßigkeitenladen alles nur anzusehen, aber nichts anzufassen. 
+<br />Ein Ork, welcher nicht lesen und schreiben kann, soll einer fremden Rasse vertrauen (Menschen) sich ihrem Rechtssystem unterwerfen und sich integrieren. Auch das kann nicht funktionieren. Man stelle sich die relativ karge Einöde Ravels vor, welche einen Orken sein gesamtes Leben lang begleitet hat. Nun kommt er nach Siebenwind, und so ziemlich das Erste was er zu Gesicht bekommt ist der Marktplatz von Falkensee mit all seinem Glitzer und Prunk. Die Konsequenzen liegen auf der Hand: Völlige Reizüberflutung und gesteigerte Aggression aufgrund von fremden Milieu. 
+<br />Diese Entwicklung zusammen mit der ohnehin negativen Grundeinstellung gegen Orken hat die aktuelle Situation herbeigeführt. 
+<br />Die Rasse der Orken hat meiner Meinung nach nichts auf Siebenwind verloren, denn es ist völlig unakzeptabel von einer derartig eigentümlichen und traditionsbewussten Rasse zu verlangen sein komplettes Wesen umzukrempeln. Ich prophezeie dass sich die Lage der Orken auf Siebenwind bis zur Katastrophe verschlechtern wird, wenn die Gemeinschaft Siebenwind nicht einlenkt und akzeptiert, dass die Rasse der Orken mehr Freiräume braucht als ein Volk welches 1. freiwillig nach Siebenwind kam und 2. bereits auf dem Festland menschenähnliche Verhältnisse, Werte und Traditionen vermittelt bekam.
+<br />Zum Schluss möchte ich sagen, dass ich trotz anfänglicher Schwierigkeiten, keinen Tag bei den Orken bereue. Die Gefangenschaft gab mir ausreichend Zeit zu erkennen, dass eine ganze Rasse aufgrund von Banalitäten missverstanden wird und dank Denkblockaden wahrscheinlich niemals auf den grünen Zweig gelangen wird, der ihnen eigentlich zustehen sollte.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2304"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952699"></a>
+				<b class="postauthor">Saz&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Die wahrste Wahrheit über Orken</div><div style="float: right;"><a href="./viewtopic.php?p=952699#p952699"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 1.01.23, 16:27&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2304_1212495555.gif" width="32" height="32" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 25.07.02, 04:06<br /><b>Beiträge:</b> 828<br /><b>Wohnort:</b> steady state				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Is ja witzig. <br /><br />Ihr hebt euer Zeug ja lange auf.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2304"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=48524&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=48524"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 2 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 6 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=48524"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

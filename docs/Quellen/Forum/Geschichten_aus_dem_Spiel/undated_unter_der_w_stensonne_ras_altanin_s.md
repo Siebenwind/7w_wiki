@@ -1,22 +1,306 @@
 ---
-source: http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=109190
+source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=109190"
+source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=109190"
 title: "Unter der Wüstensonne Ras Altanin's"
-date: 
+date: 2019-06-05
 type: Forum Entry
 epistemic: "#forum"
 status: archiviert
-forum: Geschichten aus dem Spiel
+forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 109190
-human_review_required: false
+content_status: fulltext_archived
+review_status: triage_ready
+review_owner: Scout
+human_escalation_required: false
+archived_at: "2026-08-04T17:10:19Z"
+post_count: 4
+topic_pages_archived: 1
+raw_html_refs:
+  - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/109190.html"
 ---
 
 # Unter der Wüstensonne Ras Altanin's
 
-_Metadaten-Archiv aus der Forenuebersicht. Detailinhalt kann bei Bedarf durch Amtspruefung nachgezogen werden._
+_Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._
 
 - Forum: **Geschichten aus dem Spiel**
 - Link: http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=109190
 - Topic-ID: `109190`
-- Letzte Sichtung: `2026-04-19T14:12:14Z`
+- Archiviert am: `2026-08-04T17:10:19Z`
 
+## Beitrag 1: Unter der Wüstensonne Ras Altanin's
+
+- Autor: `Sylest`
+- Verfasst: `5.06.19, 00:39`
+- Post-ID: `p948624`
+
+... Mondtag, 3. Triar im 30. Götterlauf nach Hilgorad I. ...
+
+Im Laufe des Tages sollte sie die Nachricht erreichen, welcher sie so lange ausharrte, um wieder der Ernüchterung zu erliegen, dass man abermals ihrer Bitte nicht entsprach. Nur zwei Tage wollte sie im Voraus unterrichtet werden, es hätte ihr genügend Zeit gelassen sich hinreichend verabschieden zu können und gegebenenfalls noch offene Fragen zu klären.
+Doch es war ihr nicht vergönnt und so verblieb nur der fade Geschmack sich diesem Umstand zu fügen und sich der Hoffnung hinzugeben, dass sie jene, mit denen sie sich die Tage zuvor noch unterhielt, genug dazu animieren konnte, den Schutz der einzelnen Provinzen der Baronie weiter voranzutreiben.
+
+Ein letzter Brief wanderte in ihre Mappe für den Schriftverkehr, ehe ihre Hände ruhend darauf ablegt wurden und sie sich eines Augenblickes des Empfängers besann. Dabei verspürte sie die innere Zuversicht, dass Er ihrem Wunsch nachkommen würde. Es entsprach einfach seinem Naturell, seinem Ehrgeiz, seinem Pflichtgefühl und erst dann würde Er vor sie treten und sie würde die Gewissheit besitzen, dass die Unsicherheit, die sich in seinen Zeilen offenbarte, gewichen war und er für das künftige bereit wäre - wie einst.
+
+Als sie sich von ihren Erinnerungen löste, erhob sie sich von ihrem Stuhl, nahm die Tasche zur Hand und verließ Claimoh's Wacht in Richtung Brandenstein. Zu Beginn des siebten dunklen Zyklus sollte die Litheth in See stechen. Das Ziel war klar - Ras Altanin, im galadonisch als Dracheninsel geläufig.
+
+Sie wagte einen kurzen Abstecher in Richtung des Ordenshaus der Kirche, obwohl sie wusste, dass es nicht klug wäre, denn sie könnten beide nicht voneinander lassen und sich in unendlichen Gesprächen verlieren für die Zeit keine Bedeutung hatte. Doch eben diese saß ihr an jenem Tag im Nacken. Sie wollte jedoch sicher gehen, dass Er darum weiß, dass der Tag des Aufbruches gekommen ist und Er dem Instrument der öffentlichen Zurschaustellung ihres tief empfundenen Unmuts nicht weiter ausgesetzt ist … vorerst.
+
+Die Überfahrt selbst gestaltete sich recht ereignislos, wenngleich sie keinen Gefallen am ungehobelten Ton der Marinesoldaten empfand und Marnie's Worte dahingehend wenig zu ändern vermochten, fügte sie sich einmal mehr. Die See war ihre Domäne und ein Eklat hätte daran wenig geändert. Sie vertrat die Überzeugung, dass er dem gesamten Unterfangen ohnehin wohl eher abträglich gewesen wäre, also schwieg sie, nicht jedoch ohne dem Kapitän einen mahnenden Blick angedeihen zu lassen.
+
+Die Veränderung der Seeluft war Zeugnis dessen, dass sie sich der Dracheninsel allmählich näherten und als das Schiff schlussendlich im kleinen Hafenbecken von Sijada Manzil Anker setzte und sie über die hölzerne Planke von Bord des Schiffes ging, fand sie sich einem wechselndem Extrem ausgesetzt. Auf Siebenwind war sie es stets, die wenig Freude über das regnerische und eher kühle Wetter zum Ausdruck brachte. Sie sehnte sich nach den wärmenden Strahlen Felas. Hier auf der Dracheninsel wurde ihr jedoch schlagartig bewusst, was sie doch an eben jenem verteufelten Wetter auf Siebenwind zu schätzen hatte.
+Felas Strahlen prasselten ungnädig auf sie hernieder, als würden sie dem unnachgiebigen Drang folgen, sie in die Knie zwingen zu wollen … und dies gelang ihnen auch … wenngleich Marnie bereits begann mit einer der am Hafen befindlichen Wachen ins Gespräch zu kommen, fing sie - ohne auch nur die geringste Tätigkeit vollzogen zu haben - an zu schwitzen. Selbst das herabschlagen des Kragens ihres Gambeson's und das öffnen einiger Knöpfe ihres darunter befindlichen Hemdes schafften keine Linderung. Sie spürte wie der Schweiß sich seinen Weg entlang ihres Oberkörpers nach unten bahnte und Stellen passierte die kein anderer auf Siebenwind je zu Gesicht bekam und es war ihr mehr als nur unangenehm sich dieser Begebenheit ausgesetzt zu fühlen.
+Doch dessen nicht genug, zerrte die Hitze an ihrer Konzentration. Es glich einem Kraftakt sich ständig ins Bewusstsein zu rufen, dass sie funktionieren musste, zu viel könnte davon abhängen, denn diese Reise hatte ihren Grund und sie wollte … konnte … durfte nicht versagen, sie stand doch erst am Anfang.
+
+Das Gespräch mit der Wache ergab, dass der Meister der Schlangen gerade nicht in Sijada Manzil weilte, jedoch der Rat der Stadt dem Gesuch stattgegeben hatte, die nördlichen Sanddünenweiten zu erkunden, sowie sich in den öffentlich zugänglichen Bereichen der Stadt aufhalten zu dürfen. Es sollte sichergestellt werden, dass kein weiteres Ei Ras Altanin verlassen würde - das war die Bedingung die daran geknüpft wurde und Marnie gab ihr Wort.
+
+Meister der Schlangen … in ihrem Kopf manifestierten sich einige der fantasiereichsten Vorstellungen seiner Erscheinung. Doch letztlich wichen sie alle ihrer einfachen logischen Schlussfolgerung, dass er schier geübt darin sein könnte, mit gespaltener Zunge zu sprechen und seine wahren Absichten gut zu verbergen weiß. Dies galt es herauszufinden, denn es war nicht nur einem aufkeimenden Reiz geschuldet es in Erfahrung bringen zu wollen, sondern schlichtweg auch notwendig, um diese Person ansatzweise einschätzen zu können.
+
+Der Tross der Litheth setzte seinen Weg durch die Gassen der Stadt fort, vorbei an Händlern die in fremden Sprachen ihre verschiedensten Waren feilboten, bis sie die Ausläufer der Wüste erreichten. Es dauerte nicht lange und ihr Interesse galt dem für sie spektakulären und faszinierenden Vorbeiziehen einer Sandhose, weshalb sie dabei fast den Anschluss zu den anderen verlor. Die Entdeckung einer kleineren Ruine im Norden der Insel, ließ bei näherer Betrachtung die nüchterne Erkenntnis übrig, dass sich keine Anhaltpunkte offenbarten, die ihnen für ihr Unterfangen nützlich sein könnten. Sie schien bereits geplündert worden zu sein und der einzige Fund dem der Tross mit Überraschung entgegen sehen durfte, war ein Nest voller Schlangen. Während es für sie bereits einem Kraftakt glich, eine der Schlangen mit einem beherzten Tritt die Düne in einem Bogen hinab segeln zu sehen, erwehrten sich die anderen mit den ihnen gegebenen Mitteln … Stahl und einem Holzbein.
+
+Die Reise setzte sich durch die Weiten des Sandmeeres fort, entlang der in die Höhe ragenden Gebirgsausläufer im Nordwesten der Dracheninsel. Eine kleine Ausbuchtung erregte aufsehen und stellte sich alsbald als Ort heraus, an welchem wohl Bergbau von den Einheimischen betrieben wurde. Ein in den Berg hinab ragender Schacht festigte diese Vermutung und so wurde er näher in Augenschein genommen. Auch hier fanden sich keine Spuren, keine Anhaltspunkte die näheren Aufschluss über die Offenbarung der Astralgeweihten geben konnte, unter den Sanden von Ras Altanin etwas zu finden, was wohlmöglich als nützlich erscheinen könnte, dem schuppigen Wurmproblem auf Siebenwind Abhilfe zu leisten.
+Und dennoch war das was sie fanden eine Wohltat … kühle Luft. Sie war belebend, wenn auch nur von kurzer Dauer, denn alsbald wurde man sich des Umstandes gewahr, dass der halbe Tross fehlte.
+Sie verließen den Schacht, setzten sich erneut der Unnachgiebigkeit Felas aus und zogen weiter in südwestliche Richtung durch das Sandmeer bis sie die Küste der Insel erreichten. Die dort entdeckten Spuren sollten sie zurück nach Sijada Manzil führen, der bloßen Vermutung nachgehend, die andere Hälfte des verlorenen Trosses dort vorzufinden.
+
+Sie wusste, dass nun der Augenblick gekommen war, Marnie davon in Kenntnis zu setzen, dass sie auf Ras Altanin verbleiben würde. Sie hatten weder etwas brauchbares gefunden, noch war ihnen die Möglichkeit gegeben worden, mit dem Meister der Schlangen ins Gespräch zu treten. Wenngleich die Erkundung an sich ein erster Schritt gewesen war, sich einen groben Überblick über einen Teil der Dracheninsel zu verschaffen, war er gleichsam jedoch nichtssagend. Dieser kurze Aufenthalt … er glich mehr der Begebenheit auf einem Weg einer Person gewahr zu werden die man bereits einmal sah, sie grüßte und weiter ging. Sie würde nicht ausreichen, um den Prozess des wachsenden Vertrauens in Gang zu setzen, nicht reichen um das zu finden für was sie überhaupt diese Reise antraten.
+Schlussendlich konnte sie sich auch nicht von dem Gedanken lösen, dass die hier heimischen Endopahli's bereits das gefunden haben könnten, was sie suchten. Vielleicht dies in Sicherheit gebracht haben, um es vor fremden Blicken zu schützen - wobei sie unweigerlich an die geplünderte Ruine dachte - oder aber zumindest Anhaltspunkte liefern könnten, wo man die Suche effektiv ansetzen kann.
+Sie entsann sich nur weniger Begegnungen auf Siebenwind mit Endopahli's, doch sie wusste um die geheimnistuerische Verschwiegenheit die sich nur all zu oft hinter wohlfeinen Worten, sowie einem Lächeln verbarg und sie unterlag nicht der Naivität zu glauben, dass einem Fremden - im flüchtigen Moment einer Begegnung - ausgiebiges Wissen zuteil wurde, dafür hatte sie zu viel erlebt.
+
+So traf sie ihre Entscheidung. Sie wollte lernen und verstehen. Sie beobachten, wie sie ihremTagwerk nachgingen und mit was sie sich befassten, zur Hand gehen so es geboten erschien und nicht minder vertrauter damit zu werden, auf was sie zu achten hätte, um sich auf dieser Insel integrieren zu können. All jene kleinen Schritte tun, die nötig waren, um Vertrauen wachsen zu lassen und Wissen erlangen zu können. Es würde Zeit brauchen, jene die sie eigentlich nicht hatte aber sich nehmen musste und nur ihr eigener Tatendrang würde Zeugnis sein, ob sie in der ihr gesetzten Zeit erfolgreich wäre oder versagte.
+Letztlich musste sie ebenso sicherstellen, dass Marnie ihr Wort gegenüber der Wache einhalten konnte. Wenngleich das Schiff vor der Überfahrt nach fremden, schuppigen Passagieren durchsucht wurde, wie es Marnie ihr beteuerte, mag dies nicht bedeuten, dass sie nicht einen anderen Weg fanden nach Ras Altanin zu gelangen, um weiterer Eier habhaft zu werden.
+
+Und so verharrte sie schlussendlich am Dock des kleinen Hafens, wurde sich Harlas seinem abschließenden Salut's gewahr, nachdem er die Planke einholte und sah der Litheth nach, wie sie allmählich in See stach und sich von Ras Altanin entfernte.
+In diesem Augenblick erfüllte Wehmut ihr Herz. Es war für sie schwer geworden jene, wenn auch nur für geraume Zeit, den Rücken zukehren zu müssen, welche sie nach ihrer Rückkehr kennen lernen durfte und jener welcher sie sich aufs neue gewahr wurde.
+Ihr letzter Gedanke, bei der immer weiter schwindenden Silhouette der Litheth, galt Maichellis. Diesem kleinen Träumer, der so überschwänglich und voller Bewunderung über den grünen Lindwurm sprach, dass er schier für den Bruchteil eines Augenblickes vergaß, als kleine Zwischenmahlzeit im Bauch dieses Wesens hätte enden können.
+Ihre Hand wanderte an jene Stelle, an welcher stets ihres Eidesklinge ruht und es doch nicht tat. Seit längerem fühlte sie sich eines Teils ihrer selbst beraubt und konnte nur hoffen, dass sich dies bei ihrer Rückkehr änderte. Die Bürde welche sie ihm damit aussetzte war schwer, aber sie war notwendig, um sie in seinem Bewusstsein fest zu verankern. Eines Tages wohlmöglich würde er sie selbst schultern müssen, bis zu seinem Lebensende und so war es nicht minder ihre Pflicht ihn den Prüfstand zu unterziehen, um zu erkennen, ob er die Bedeutung hinter gelehrten Worten verstand, oder nur die Worte wiederzugeben vermochte. Letztlich verstanden nur die wenigsten, was es ihn für Entbehrungen kosten wird, diesen von ihm gewählten Pfad zu gehen und das es keine Umkehr mehr gibt, so eines Tages, in althergebrachter Form, die Klinge auf seinen Schultern ruht. Darauf musste sie ihn vorbereiten, mit emotionsloser Distanziertheit, um seine zu treffende Entscheidung, diesen Weg bis zum Ende gehen zu wollen, nicht durch eine Beziehungsbindung zu beeinflussen.
+
+Als in der Ferne nur noch die See selbst den Horizont streifte, wandte sie sich herum und erkundigte sich bei der Wache nach dem Ort für ihre Unterbringung. Die Gaststube war ihr auserkorenes Ziel und wenngleich sie Schwierigkeiten besaß, diese unter den Bauten selbst ausfindig machen zu können, folgte sie dem gedeuteten Weg in den Norden der Stadt. Ein kleines karges Feld an der Seite eines der Häuser erregte ihr Interesse … sie musste unweigerlich an die Feldarbeiten denken, derer sie seit Wendels eintreffen auf der Insel nachging, so es ihre Pflicht erlaubte und im selben Augenblick rief sie sich seiner Worte in Erinnerung. Sie trat an die Hauswand und entledigte sich ihres Bidenhänders, gleich ihres Langschwertes und des Schildes. Alles ruhte schlussendlich sorgfältig angelehnt an eben dieser Hauswand. Erst im Anschluss betrat sie das Haus, um sich in einer Wolke aus Pfeifenqualm wiederzufinden.
+Beschwerlich ließ sie sich auf eines der Kissen nieder und die Anstrengungen des Tages unter Felas unnachgiebigen Strahlen sollten allmählich ihren Tribut einfordern. Die Erschöpfung legte sich wie ein grauer Schleier über ihr Gesicht, die Augenlider wurden schwerer. Wenngleich es ihr gelang sie ein um das andere mal wieder aufzuschlagen, war sie am Ende ihrer Kräfte. Nur in der Gaststube vernahm man ein dumpfes Geräusch, als ihr Oberkörper auf die Tischfläche aufprallte und sie da mit geschlossenen Augen und im Gesicht klebenden Haarsträhnen schlief.
+
+## Beitrag 2: Re: Unter der Wüstensonne Ras Altanin's
+
+- Autor: `Sylest`
+- Verfasst: `8.06.19, 20:04`
+- Post-ID: `p948658`
+
+Ein Augenaufschlag … ein zweiter … sie blickte zur Decke des aus Sandstein gebauten Hauses hinauf und binnen weniger Sekunden saß sie mit aufgerissenen Augen senkrecht im Bett. Ihr Herzschlag, sowie ihre Atmung wurden schneller - ein Schreckmoment.
+
+Sie tastete ihren Körper ab, prüfte den Sitz und Zustand ihrer Kleidung, um sich zu vergewissern, dass niemand den Umstand ausnutzte, sich im Schlaf an ihr vergangen zu haben. Hernach schweifte ihr Blick unstet über die feinen, blickdurchlässigen, güldenen Vorhänge, die sich durch den warmen Wüstenwind in leichte Bewegungen versetzten. Sie wurde sich des Tisches gewahr, auf welchem ein Tablett mit einem Wasserkrug und einem Teller mit einigen Speisen stand. Wie gelangte sie hier her?
+Die rechte Hand wanderte an ihren Kopf und sie schloss ihre Augen, wie sich einem nachdenklichen Moment hinzugeben. Sie besaß keine Erinnerung dieses Zimmer aufgesucht zu haben und so verblieb die Vermutung, dass man sie nach ihrer Ohnmacht hierher getragen und auf dem Bett abgelegt haben muss.
+
+Vor ihrem geistigen Auge zeichnete sich das Bild von Marnie ab. Ihr Atem wurde ruhiger, ihr Herzschlag normalisierte sich, als sie sich des ausgiebigen Gespräches an jenen Abend in Marnie's Haus wieder bewusst wurde. Ihr sollte hier kein Leid zugefügt und sie keiner Entwürdigung ausgesetzt sein, denn dies alles würde auf den Gastgeber des Hauses selbst zurückfallen und ihn seiner Ehre berauben.
+So öffnete sie ihre Augen wieder und erhob sich aus ihrer Bettstätte.
+Als sie die Vorhänge beiseite schob und schlussendlich vor dem Tisch stand, befüllte sie das Glas auf dem Tablett mit Wasser, nahm einen Schluck zu sich und war im Begriff sich dem Essen zuzuwenden, als ein sie einen unangenehmen Geruch verspürte.
+Daraufhin nahm sie die Speisen genauer in Augenschein, doch es wurde ihr bewusst, dass jener Geruch eben nicht vom Essen ausging sondern von ihr selbst.
+Die aufwühlenden Momente zuvor ließen sie schlicht die Tatsache vergessen, dass sie seit ihrer Ankunft auf Ras Altanin und durch die Hitze Fela’s hervorgerufene überdurchschnittliche Transpiration weder ihre Kleidung gewechselt, noch sich selbst bisher gewaschen hatte. Dies vermittelte ihr ebenso von Kopf bis Fuß jenes klebrige Gefühl, welches ihren Körper überzog.
+Eitelkeit war kein Zustand den sie bewusst nacheiferte, oder gefallen daran fand, doch auf Reinheit legte sie einen hohen Wert und so sollte das erste an jenen neuen Tag auf einer ihr fremden Insel sein, einen Ort zu finden, an welchem sie ihr alltägliches Ritual vollziehen konnte.
+
+So beließ sie das Essen unberührt, nahm ihre Tasche zur Hand und verließ das Zimmer. Sie trat die Stufen hinab in eine Gasse, welche sie bis zu einer weiteren Türe folgte, um schlussendlich ein Stück weit entfernt von jener Türe zu stehen, die sie am Vortag passierte und sich in einem Wirtshaus wiederfand.
+Ein prüfender Blick an die Hauswand vermittelte ihr die Unversehrtheit ihrer dort ruhenden Waffenwehr. Einzig eine feine Sandschicht hatte sich auf einigen Stellen abgelagert. Es erweckte den Eindruck, als würde der Sand selbst in gemächlicher, stetig fortwährender Manier versuchen, sich ihre beiden Klingen und das Schild einverleiben zu wollen.
+Als der Blick wieder voran gerichtet wurde schreckte sie zurück. Zwei riesige Scheren, ein ständig klackernder Ton, eine feuerrötliche Färbung und ein zum Rücken hin gebogener schwanzartiger Hinterleib an dessen Ende ein bedrohlich wirkender schwarzer Stachel ruhte, der in seiner Größe einem Büttelschwert gleichkam.
+Doch dieser monströse Skorpion schien kein Interesse an ihr selbst zu haben. Unbeirrt setzte dieser seinen Weg fort und ihr zuvor wachsam auf dem Tier ruhender Blick musterte die Endophali in ihrer Umgebung. Wenngleich sie dem Tier den einen oder anderen Blick zuwarfen, schienen sie sich von seiner Anwesenheit nicht bedroht zu fühlen, so als würden sie gelernt haben, mit dieser Kreatur und ihrer Eigenheit zu leben.
+
+Sie fühlte sich in eine fremde Welt versetzt, eine Welt die sie nicht anhand ihrer eigenen Maßstäbe bemessen konnte.
+Ras Altanin war fremd und gleichzeitig interessant, dass es schier die Abenteuerlust im Herzen entfachen konnte, dieses Land, seine Bewohner und seine Geheimnisse zu ergründen.
+Auf Siebenwind wurde ihr einst ein Teil der Vergangenheit der Insel offenbart. Das alte Volk der Mazzaremer und ihre Verbindung zu den schlangenähnlichen Wesen die den Namen Sammler trugen.
+Welche Geheimnisse sich wohl wirklich in den Weiten der Sande von Ras Altanin verborgen hielten, fernab von jenem Wissen das sie suchte? Welche Geschichten sie vermutlich erzählen könnten … ihre Zeit hier würde nicht ausreichen, um es annähernd ergründen zu können.
+
+Als ihr Weg wieder freigegeben war, setzte sie diesen in Richtung Süden fort, vorbei an den lauthals agierenden Händlern in der kleinen Marktgasse.
+Sich dem Hafenbecken nähernd, schwenkte sie in westliche Richtung um und fand sich nach einer Weile am Stadtrand von Sijada Manzil wieder. Dort angelangt, sollte ihr restlicher Weg die Küste Ras Altanins offenbaren.
+
+Sie lauschte den Geräuschen der Brandung, besah das stetige Spiel der kleinen Wellen die gegen die Küste schlugen und sich wieder ins Meer zurück zogen. Spürte den warmen Wind, der sie streifte und entledigte sich allmählich ihrer Stiefel, um den Sand zwischen ihren Füßen gewahr zu werden. In einem flüchtigen, sorglosen Moment trat sie langsam ins Meer und öffnete die Knöpfe ihres Hemdes, welches sie sich erst gänzlich entledigte, als sie brusttief im Wasser stand. Einem beherzten Handschwung folgend, landete dieses mit einem Klatschen im Sand. Die Arme wurden zur Seite ausgestreckt und begannen in leichte rudernde Bewegungsabläufe überzugehen.
+Ein kurzes Abtauchen ins warme, dennoch erfrischende Nass und sie schmeckte die salzige Note des Wassers auf ihren Lippen. Als sie wieder an der Oberfläche auftauchte, glitten ihre Hände durch ihr langes, rabenschwarzes Haar, gefolgt von einem tiefen Atemzug. Sie ergab sich gänzlich dem Meer und ließ sich auf dessen Wellen, mit seitlich ausgestreckten Armen und ab und an rudernden Bewegungen ihrer Füße, treiben.
+Ihr Blick war auf den azurblauen, wolkenlosen Himmel gerichtet und ihre Gesichtszüge zeugten von einer innerlichen Entspannung, als würde sie diesen unbeschwerten Moment einfach nur genießen, fern jeder Sorge, jeder Last oder jedweder Bürde.
+
+Sorglose Momente sind auf Tare, insbesondere auf Siebenwind, ein seltenes Gut und sie war geprägt von dieser Insel, sodass sie nach nur kurzer Zeit wieder den Gedanken erlag, welche Möglichkeiten ihr offenstanden, ihrer Aufgabe vollumfänglich nachgehen zu können.
+Der erste Schritt, befasste sich mit ihrer Überlegung einige Zeit in Sijada Manzil zu bleiben, damit sich ihr Körper an die klimatischen Verhältnisse auf Ras Altanin anpassen könnte, bevor sie wieder einen Schritt in die Wüste setzt. Sie war nun allein, keiner würde ihr Beistehen können, würde sie in der heißen Wüste der Ohnmacht erliegen. Es wäre ihr Untergang und kein sonderlich ruhmreicher, sondern eher ein recht törichter.
+Sie wollte ohnehin das Tagwerk der Bewohner Sijada Manzils beobachten, von ihnen lernen – sprachlich wie auch kulturell – und selbst Hand anlegen, um sich zu integrieren, weshalb also nicht Zweierlei miteinander verbinden. Ihr schien dies eine durchaus logische Schlussfolgerung zu sein. Letztlich musste sie funktionieren, geistig wie auch körperlich, um den entgegentreten zu können, was sich ihr offenbaren würde. Vielleicht würde sie sogar jemanden begegnen, welcher seine Dienste als Führer darzubieten vermochte. Sie über jene Orte aufklären können, die für jederman frei zugänglich wären und ebenso jene, welche für die Bewohner Ras Altanin's einen besonderen Stellenwert einnahmen und die sie dadurch zu achten hätte.
+
+Und so löste sie sich vom sorglosen Treiben auf den Wellen des Meeres und tauchte erneut ab.
+
+Als sie wieder Boden unter ihren Füßen verspürte, folgte ein forscher Blick über die Küste. Einige Felsen wurden genauer begutachtet, um sicherzustellen, dass sich hinter ihnen kein Schatten verbarg, welcher sie in unsittlicher Art und Weise beobachte. Erst dann trat sie gänzlich aus dem Wasser und entledigte sich ihrer noch am Körper verbliebenen nassen Hose.
+
+Der Tasche wurden einige trockene Kleidungsstücke entnommen und sie begann sich jene langsam und ohne jedwede Hast anzuziehen, ehe schlussendlich der Kopf zur Seite geneigt wurde, ihre Hände das Haar griffen und es zu den Spitzen hinab ausrangen. Eine wuschelnde Handbewegung folgte und sie führte es auf ihrem Hinterkopf zu einem lockeren Dutt zusammen.
+Die nassen Sachen stopfte sie in ihre Tasche zurück und so brach sie den Rückweg nach Sijada Manzil an.
+
+## Beitrag 3: Re: Unter der Wüstensonne Ras Altanin's
+
+- Autor: `Sylest`
+- Verfasst: `9.06.19, 21:50`
+- Post-ID: `p948678`
+
+Ihr Name ist Fatma und in ihrem Dienst … wohl eher in ihrem Besitz befinden sich ein Mann und eine Frau – Sklaven.
+
+Dieses Wort allein führte ihr stets die dahinter verborgene Bedeutung vor Augen und schürte innerlich Missmut.
+Menschen, deren einzige Daseinsberechtigung darin bestand, sich wie ein einfacher Gegenstand im Besitz eines anderen vorzufinden. Wenngleich von höherem Wert als ein Tisch oder Stuhl, besaßen sie ihres Erachtens nach nicht das Essenzielle … Selbstbestimmung.
+
+Für einen Endophali bedeutet der Besitz von Sklaven Ansehen und zeugt von einer gewissen Art von Reichtum, doch was bedeutet dieser Stand für einen Sklaven selbst? War er unfähig ein eigenes Leben zu führen und zog es vor, sich die Ketten einer bedeutungslosen Existenz anzulegen – was jedoch einer Selbstbestimmung gleich käme - oder entschieden es andere für sein Wohl? Besaß er überhaupt eine Wahl oder wurde er in dieses Gefüge hineingeboren?
+Ihrem Verständnis nach war dies unbegreiflich und sie wusste nur allzu gut, welchen explosiven Zündstoff dieses Thema durch die konträren Anschauungen ihrer beiden Völker hervorrufen konnte.
+
+Am Tag ihrer Ankunft gab sie dem blinden Mann ein Versprechen, sie würde in Erfahrung bringen, wo sich die Unterkünfte der Sklaven befinden, sollte es solche überhaupt geben, und sie würde ihm nach ihrer Rückkehr davon berichten.
+Sie wusste von seiner Intension, die mit dieser Information zur Umsetzung kommen sollte, doch hielt sie jene für weise? Sie war sich unsicher, als würde man sie an den Armen ruckartig stets von einer Seite zur anderen ziehen. Sie verstand es als eine Einmischung in eine fremde Kultur, dem Aufzwängen galadonischer Wertvorstellungen und der Missachtung von Traditionen die ein anderes Volk pflegte, wenngleich sie selbst keinen Gefallen daran fand. Er verstand es als Symbol der Hoffnung und Zuversicht. Hoffnung für was eigentlich?
+Sie konnte sein hehres Ansinnen nachvollziehen, einen Samen in das Bewusstsein jener Sklaven pflanzen zu wollen, um ihnen die Möglichkeiten von Veränderungen aufzuzeigen. Was aber, wenn sie diese gar nicht wollten und seine Absicht missverstehen?
+Würde man ein Huhn aus seinem Gatter befreien und ihm die Selbstbestimmung in Form von Freiheit offenbaren, wäre es denn überhaupt Freiheit oder würde man ihm nicht letztlich all das entreißen was es selbst nur kannte und das ihm genügsam erschien?
+
+Beide Völker folgten einer übergeordneten Ordnung. Veränderungen erwiesen sich nicht immer als förderlich und so manch eine Veränderung vermochte als Stein des Anstoßes gelten, um dem Chaos eine Möglichkeit darzubieten diese Ordnung anzugreifen. Hatte Er dies bedacht? Sie wusste es nicht, aber sie maßte sich nicht an, ihre Überlegungen über die seinen zu stellen, denn dies war ebenso jener Ordnung geschuldet. Nicht sie war es, die von Astrael gesegnet wurde, als sein Instrument auf Tare zu dienen, sondern sie wurde dazu berufen an seiner Seite zu stehen, so wie er an der ihrigen Stand, wie zwei verschiedene Seiten einer Münze, die aber schlussendlich eine Einheit bildeten.
+
+Kein Ausdruck in den Gesichtern der beiden Sklaven ließen in ihr das Bild entstehen, dass sie sich geknechtet oder zu unrecht behandelt fühlten. Sie gingen ihrer Arbeit in der Gaststube mit der ihnen größtmöglichen Sorgfalt nach, reinigten die Vorhänge, klopften die Kissen aus, brachten Essen und Getränke und befüllten die Wasserpfeifen auf den Tischen. Ein Trugschluss oder bittere Realität?
+
+Es stellte sich heraus, dass Fatma nicht nur die Besitzerin eben jener beiden Sklaven war, sondern ebenso dieses Wirtshauses und ein gewisser Stolz stand ihr ins Gesicht geschrieben. So kamen beide Frauen eingehender ins Gespräch.
+
+Sie erzählte ihr, dass die meisten Bewohner von Sijada Manzil am Ende des geschäftigen Tages in ihrer Gaststube einkehren, um ihn ausklingen zu lassen. Selbst die Wachen der Ortschaft.
+Davon, wie sie eine neue Lieferung von diversen Waren erwartet, das Schiff des Händlers sich jedoch verspätet und sie deshalb den Preis nach unten handeln will, oder ihn unverhoffter Dinge wieder abziehen lässt.
+Aber auch das sie sich wieder um die Instandsetzung der Gasthauses selbst kümmern müsste. Es wäre ein steter Kampf gegen den Wüstenwind, welcher den feinen Sand auftreibt und ihn gegen die Sandsteinwände des Hauses führt. So wie ein steter Wassertropfen den Stein auszuhöhlen vermag, so schleife der sandige Wind das Mauerwerk und einige Steine müssten erneuert und dessen Zwischenräume mit neuem Lehm versiegelt werden. Ihre beiden Sklaven wollte sie dazu in den kommenden Tagen zu einer Grube im Nordosten dieses Teils von Ras Altanin schicken, damit sie etwas des dort geförderten Lehms besorgen.
+
+So bot sie Fatma ihre Hilfe an. Sie wollte es nicht wie Dank für die ihr zur Verfügung gestellte Bettstätte, noch für die Verköstigung die sie von ihr, während ihres Aufenthaltes, erhielt darstellen, dies würde Fatma wohl in ihrer Ehre kränken, denn Gastlichkeit war diesem Volk ein hohes Gut, genauso wie ihn der Handel im Blute lag.
+Und so verkehrte sie ihren Dank in einen Handel um, für einen einfachen Preis – alltägliches sprachliches Gut und etwas Beistand dabei, sich der örtlichen Gepflogenheiten etwas vertrauter machen zu können.
+Im Gegenzug würde sie bei der Instandsetzung des Gasthauses behilflich sein, sich der Wäsche annehmen und ihr auf dem kargen Feld vor ihrem Haus zur Hand gehen, um die Ernte einzuholen.
+Fatma willigte ein und so wurde der Handel mit einem Handschlag besiegelt.
+
+Marnie war es, die ihr am Tage der Ankunft die gebräuchliche Begrüßung und den Abschied mit auf den Weg gab und wenngleich sie stets die Worte mit deutlich galadonischen Akzent aussprach und mitunter die Betonung des Wortes an der falschen Stelle ansetzte, erweiterte sie ihren Wortschatz.
+
+Dana be lahu’tha. Ein Wort des Dankes, wohlmöglich für den geschlossenen Handel, oder vielleicht für die Achtung ihrer kulturellen Gepflogenheiten? Es war schwer einzuschätzen, sie war schwer einzuschätzen. Ihr Blick war vielsagend und doch barg er eben jene geheimnistuerische Verschwiegenheit in sich, als wüsste sie von dem Dilemma ihrer Gesprächspartnerin und den Weg, welchen sie wählte, um diesem zu entkommen.
+
+Ohne sich in weiteren Worten zu ergeben, machte sie sich sogleich ans Tatwerk und trat vor das Haus, um sich das Feld anzusehen. Das Getreide und der Mais schienen weniger Probleme mit den klimatischen Verhältnissen auf Ras Altanin zu haben, trotz dessen ihre Ergiebigkeit von der Größe und Menge der Körner her geringer ausfielen. Der Boden des Feldes war aufgerissen und zeugte von der schieren Trockenheit, die hier vorlag. Sie nahm sich einen der Eimer von der Ladefläche des Karrens, der an der Hausecke abgestellt war und machte sich in südliche Richtung auf den Weg zum Brunnen.
+Als sie dort angelangt und im Begriff war, den Eimer wie selbstverständlich mit Wasser zu befüllen, hielt sie inne.
+Sie rief sich in Erinnerung, dass das Wasser nicht minder ein wertvolles Gut für die Wüstenbewohner darstellte und bevor sie jenes unachtsam nutzt, wollte sie sich erkundigen, ob sie es eben für jene Zwecke durfte. So brach sie weiter in südliche Richtung zum kleinen Hafenbecken auf, jenen Ort, wo einige der Wachen Sijada Manzils ihre Posten bezogen hatten.
+Ein Gruß wurde diesen entgegen gebracht, ein leichtes Neigen ihres Kopfes als höfliche Geste folgte. Sie erntete jedoch nur einen skeptischen Blick, ein unverhohlener Ausdruck von Misstrauen, doch sie ließ sich nichts anmerken und bedankte sich mit ihrem neu erworbenen Wortschatz für dieses kurze Gespräch.
+
+Da die Wache keinen Protest zum Ausdruck brachte kehrte sie zum Brunnen zurück und befüllte den Eimer mit Wasser, bedacht darauf, diesen nicht bis zum oberen Anschlag hin zu befüllen.
+Wieder auf dem Feld angelangt, machte sie sich sogleich an die Arbeit die Pflanzen behutsam zu bewässern und schlussendlich einige der kleinen, reifen Maiskolben vom Stängel abzuschneiden und in einem Korb zu hinterlegen.
+Felas Strahlen prasselten auch an jenem Tag ungnädig auf sie nieder und der Schweiß lief ihr ein um das andere mal über das Gesicht, was sie dazu veranlasste mit dem Arm über ihre Stirn zu wischen, ehe sie ihre Werk fortführte.
+So war es für sie ein befreiender Umstand, als sie ihre Arbeit beenden konnte.
+
+Wieder in der Gaststube eingekehrt, stellte sie den Korb auf dem Tresen ab und erkundigte sich bei Fatma, nach einer schlichten Kopfbedeckung, damit Felas Strahlen ihr bei der Arbeit nicht allzu sehr zusetzen sollten.
+Auf Siebenwind bedurfte sie einer solchen höchstens in einem strengen Morsan, ansonsten zog sie es vor ihr Haupt unbedeckt zu belassen, doch hier auf Ras Altanin schien es ihr essenziell notwendig zu sein.
+
+Mit diesen letzten erkundigenden Worten zog sie sich allmählich zurück, verließ die Gaststube, um sich der seitlichen Gasse am Haus zuzuwenden und die Stufen zur Dachterrasse hinauf zu gehen. Dort fand sie bereits einen gedeckten Tisch vor, eine Kanne und eine Tasse deren Inhalt ebenso schwarz wie die Nacht selbst war.
+Sie ließ sich auf eines der Kissen nieder. Ihr Blick galt Fela, wie sie im Begriff war, am entfernten Horizont im Wüstenmeer zu versinken und den sonst wolkenfreien Himmel mit ihren letzten Strahlen in ein angenehmes rötliches Licht zu tauchen.
+
+Die Tasse wurde zur Hand genommen und sie führte diese an ihre Lippen, um einen kleinen Schluck der schwarzen Flüssigkeit zu sich zu nehmen. Sollte es eine ihr unbekannte Teesorte sein? Der Geschmack war recht bitter und nach einer Weile stellte sie ein leicht trockenes Gefühl im Mund fest, also nahm sie einen weiteren Schluck zu sich und noch einen, bis die halbe Kanne leer war.
+So ließ sie ihren Tag schlussendlich ausklingen, bevor sie sich wieder in ihr Zimmer begab.
+
+## Beitrag 4: Re: Unter der Wüstensonne Ras Altanin's
+
+- Autor: `Sylest`
+- Verfasst: `16.06.19, 00:17`
+- Post-ID: `p948764`
+
+Sie wälzte sich in ihrem Bett unentwegt von einer Seite auf die andere. Schlaf … ihr war dieser in jener Nacht nicht vergönnt. Doch warum?
+Allzu oft verlor sie sich auf Siebenwind des Nachts in Gedanken, sei es um die Erlebnisse des Tages zu reflektieren, Überlegungen anzustellen, oder ihre getroffenen Entscheidungen wider für wider abzuwägen.
+Hier, in der kleinen Stadt Sijada Manzil schien alles so befreiend. Einfache, aber durch Felas ausstrahlende Hitze, harte Arbeit. Sie musste sich nicht den politischen Spielchen und Querelen aussetzen, die auf Siebenwind zu oft den Alltag bestimmten.
+Weshalb fand sie dann aber keine Ruhe? Die nächtliche Wärme? Nein, sie spürte wie sich ihr Körper langsam den klimatischen Verhältnissen anzupassen schien und die Nächte waren erquickender als so mancher Tag, der ihr bei der Arbeit den Schweiß ins Gesicht trieb.
+So blieb nur eine Erklärung übrig, jene schwarze Flüssigkeit, die sie einige Stunden vor dem zu Bett gehen auf der Dachterrasse zu sich nahm. Teufelsgebräu, dachte sie sich nur, nie wieder würde sie auch nur einen Schluck davon zu sich nehmen und während sich ihr Unmut gedanklich auf eine so harmlos aussehende Tasse und dessen schwarzen Inhaltes fokussierte, verstrich die Zeit und die Nacht wandelte sich aufs Neue zum Tag.
+
+Es half nichts, sie musste wieder aufstehen um nicht den Eindruck bei Fatma zu erwecken, sie würde ihren Teil des Handels nicht einhalten wollen.
+Sie trat die Stufen von der Dachterrasse hinab und schwenkte, nach dem durchschreiten der Gasse, nach rechts. Der kleine Brunnen in der Nähe des Wirtshauses sollte ihr für das kleine morgendliche Ritual ausreichend sein und so tauchte sie ihre Hände in das Wasser und begann sich zu waschen.
+
+Nach einem kleinen Frühstück wandte sie sich der häuslichen Arbeiten zu. Die Schmutzwäsche wurde zusammengetragen und in der Nähe des Brunnens auf einem Haufen deponiert, dann die Waschwanne aufgestellt und Wasser mit einem Eimer aus dem Brunnen abgeschöpft, um die Wanne bis zur Hälfte zu füllen. Anschließend wurden die zum Teil verunreinigten und mitunter geruchsintensiven Kleidungsstücke in die Wanne befördert und unter Wasser gedrückt. Während sie darauf wartete, dass die Kleidung sich allmählich mit Wasser vollsog, spannte sie im Hof ein Seil zwischen einer der schattenspendenden Palmen und dem Mauerwerk des Durchganges, welcher Besucher zum Wirtshaus führte.
+Als sie sich dann wieder der Waschwanne zuwendete, sich auf den Boden niederließ und damit begann einzelne Kleidungsstücke zu greifen und zwischen ihren Händen zu reiben, um den Schmutz aus diesen zu entfernen, verengte sich ihr Blick und die Lippen formten sich zu einem schmalen Strich. Ihre Handlungsabläufe wurden energischer, was sich nicht zuletzt darin offenbarte, dass ihre Gesichtszüge umso verbissener erschienen, als sie die einzelnen Wäschestücke in ihren Händen in entgegen gesetzte Richtungen drehte, somit eine Spannung erzeugte und das überschüssige Wasser aus ihnen herauspresste.
+Ein stiller Beobachter, der sie nicht zu kennen vermochte, würde in ihr wohl eine einfache Magd sehen, die mit voller Inbrunst in ihren häuslichen Pflichten aufzugehen schien. Doch jene die sie kannten, würden vermutlich verunsichert von ihr zurückschrecken, da ihnen bewusst wäre, dass in ihrem gedanklichen Bild eben nicht jene Wäsche zum Vorschein kam, die sie so pfleglich „säuberte“.
+So schien der tiefe Atemzug, der nach vollendeter Arbeit erfolgte, auch keine sonderliche Verwunderung darzustellen und eher einen befreienden Charakter zu besitzen.
+
+Schlussendlich wanderte die Wäsche auf das gespannte Seil und wurde an den seitlichen und unteren Enden durch Zupfen in Form gebracht, um einige Falten zu glätten. Das verbliebene Schmutzwasser der Waschwanne entsorgte sie sodann auf dem Feld, um die Pflanzen damit zu bewässern.
+Ihre nächste Tätigkeit bestand darin, die Ladefläche des Karrens mit einigen Strohballen zu beladen. Fatma besaß keine Tiere die es zu versorgen galt und die wenigen Bewohner Sijada Manzils die Viehzucht in Form von Ziegen und Kühen betrieben, siedelten am Randgebiet und dahin war sie im Begriff aufzubrechen.
+Sie trat zwischen das Gestänge des Karrens, griff mit ihren Händen zu beiden Seiten danach und setzte ihn mit einem leisen Ächzen und einem ruckartigen Zug in Bewegung. Das Rad bekundete ihren Weg in den südwestlichen Teil des Dorfes, in quietschender Art und Weise.
+Vorbei an den Marktständen der lauthals rufenden Händler, an den Wachen die sie wie üblich begrüßte, bis sie an den Zelten ankam, wo Amir und Nahil ihre Arbeiten stets im freien verrichteten, denn sie verstanden sich offenkundig darin das Schlachtvieh abzuhängen um es ausbluten zu lassen, sowie die Häute zu spannen und zu trocknen.
+
+Sie hielt inne und ließ vom Karren ab. Ihr Blick folgte kurz den beiden flüchtigen Gestalten die sie grüßten, ehe dieser auf Sie gerichtet wurde.
+In jenem Augenblick verblasste in ihr das Gefühl der so befreienden Einfachheit der harten Arbeit und sie sah sich wieder mit der Realität konfrontiert, weshalb sie überhaupt in Ras Altanin verweilte.
+
+Überrascht sah sie zu jener Frau, die vorrangig von Männern und in ihren eigenen Reihen zumeist aufgrund ihrer Handlungsweise belächelt wurde.
+Doch sie verbarg sich nicht, wie die meisten ihrer Zunft, hinter feinen Roben, prunkvollen Stäben und Wortgeflechten, die nur die eigene Untätigkeit zum Ausdruck brachten fernab eigener zweckdienlicher Befindlichkeiten, aus eigenem Antrieb und zum Wohl anderer zu handeln. Selbst wenn Ihr Hohn zuteil wurde, wankte Sie nicht und gleich ob Sie in ihren strebsamen Bemühen scheitern sollte oder nicht, war es die einfache Tatsache es versucht zu haben, eben jene, die Ihr ihre Wertschätzung einbrachte.
+Sie würde bei ihr stets auf offene Ohren stoßen, ein Wort der Aufmunterung finden und Zuspruch erhalten, dies gab sie Ihr einst zu verstehen. So mag es auch nicht verwunderlich erscheinen, dass sie Sie vor geraumer Zeit – trotz mancher Stimme der Vernunft, die versuchte sie davon abzubringen – damit betraute, die Möglichkeit eines magischen Behälters, für einen bestimmten Zweck, zu erforschen.
+
+Ein kurzes Gespräch folgte zwischen beiden Frauen. Wenn in Sijada Manzil etwas gewiss war, dann der Umstand, dass der Wind Augen und Ohren besaß.
+So wurde sich augenscheinlich im Verständnis der Wachen über die karge Ergiebigkeit der angebauten Mais- und Getreidepflanzen unterhalten, während die dazwischen liegenden leisen Worte einem Austausch gleichkamen. Ein unbeschriebenes Buch wechselte den Besitzer und eine letzte Bitte wurde offenbart.
+Worte bestimmt für einen anderen, dann folgte der Abschied und sie setzte ihren Weg mit den Karren weiter fort.
+
+Sie erreichte das letzte Haus am südwestlichen Stadtrand, an welchem das Gatter mit den Kühen angrenzte. Der Karren wurde in die Nähe der Hauswand geführt, ehe sie damit begann die einzelnen Strohballen von der Ladefläche zu hieven und sie auf dem Boden abzusetzen. Zuletzt wandte sie sich der Türe zu und klopfte mehrmals dagegen – erfolglos, sie blieb ihr wie die Tage zuvor verschlossen.
+So wurde ein Stück Pergament aus der Tasche genommen und gegen die Türe gedrückt, während sie mit der anderen den Kohlestift hielt und einige Zeilen zu Papier brachte.
+Es waren freundliche Worte, ein entrichteter Gruß im ortsüblichen Sprachgebrauch, ein Hinweis das sie Futter für die Tiere brachte, gefolgt von der Bitte, ihr Zugang zu den Gattern zu gewähren, um sich um die Tiere kümmern und ihn somit in seiner Arbeit unterstützen zu können.
+Das Pergament wurde gefaltet und zwischen den Türspalt geklemmt, sodass der Wind sich seiner nicht bemächtigen konnte. Danach trat sie mit dem Karren den Rückweg an.
+
+Als sie in der Stadtmitte ankam, ließ sie abermals vom Karren ab und trat an den dort befindlichen Hauptbrunnen von Sijada Manzil. Die Hände wurden in das erfrischende Nass getaucht, ehe sie sich voranbeugte und mit den Händen etwas Wasser schöpfte um einen Schluck zu sich zu nehmen und im Anschluss ihr Gesicht und den Nacken zu befeuchten.
+Dann wandte sie ihren Blick hinüber zur Gerberei.
+
+Ihr war der Besitzer der Gerberei nicht bekannt, doch Fatma erzählte ihr von dem Gehilfen welcher dort tagtäglich seine Arbeit verrichtete, man nannte ihn dem schweigsamen Yussuf.
+Kein Wort drang je über seine Lippen, seine Blicke wirkten stets ausdruckslos. Einzig seinem ständigen Begleiter in Form eines jungen Hundes, welcher immer verspielt wirkend mit wedelndem Schwanz um seine Beine lief, wurden versonnene und freundliche Blicke zugewandt.
+Würde sie es vielleicht schaffen ihm Worte entlocken zu können, wenn auch nur ein einziges oder einen einzig versonnenen Blick erhaschen, welcher nicht nur seinem jungen Hund galt?
+Es weckte einmal mehr diesen unbeschreiblichen Reiz in ihr, es in Erfahrung bringen zu wollen und als sie sich wieder ihrem Karren zuwandte und ihren Rückweg zum Wirtshaus fortsetzte, legte sie ein freundliches Lächeln auf, grüßte ihn und winkte ihm mit erhobener Hand zu. Eine Reaktion seinerseits blieb wie zu erwarten aus, doch sie gab sie nicht geschlagen und in ihr keimte der Gedanke dies Tag für Tag wie einen Ritus zu vollziehen, immer wenn sie an der Gerberei vorbei kommen sollte.
+
+Mit dem Karren im Schlepptau erreichte sie schlussendlich das Wirtshaus. Er wurde an seiner üblichen Position an der Ecke der Hauswand abgestellt und sie kehrte im Anschluss in die Gastube ein. Dort wandte sie sich sogleich dem mit blauen, blickdurchlässigen Vorhängen versehenen Separee zu, ließ sich auf eines der Kissen nieder und legte das Buch vor sich auf den Tisch.
+Mehrmals glitt ihre rechte Hand über den schlicht gehaltenen Bucheinband, ehe sie das Buch aufschlug und sich ihr Blick auf der ersten leeren Seite verlor.
+
+Bücher … sie waren im Laufe der Zeit ein Teil ihres Lebens geworden. Wie viel gewonnene Erkenntnisse verblassten in den vielen Götterläufen der Geschichte Siebenwinds. Erkenntnisse über Personen, Ereignisse von geringer wie auch umfänglicher Tragweite, aber ebenso die Geschichten der einfachen Menschen, die ihre Sicht der Dinge meist in fantasievollen Beschreibungen zu Wort gaben. Kaum eine Seele vermochte davon noch zu berichten und im schlimmsten Fall waren viele dieser Erkenntnisse unwiederbringlich verloren gegangen.
+So empfand sie es als notwendig und wichtig ihren Beitrag zu leisten und dergleichen auf Papier zu bannen, als Zeugnis der Erinnerung, als Bereicherung des Wissens, aber gleichfalls als Mahnung vor dem Fehl, welcher mit vielen Handlungen einhergehen konnte und dessen Gelehrigkeit nicht minder in neu zu treffenden Entscheidungen Einzug halten sollte.
+
+Ein Kohlestift wurde aus ihrer Tasche gezogen und so begann sie die erste Seite des leeren Buches mit einigen Zeilen zu füllen. Es folgten Skizzierungen die mit Randvermerken unterlegt wurden. Ein geschultes Auge würde in ihnen mehr einen strategischen Nutzen erkennen, anstelle einer gewisser Schönheit, oder einem gesegneten Talent des Zeichners. Wenngleich andere Skizzierungen wiederum von einem strategischen Nutzen weit entfernt schienen … oder welche tiefere Bedeutung hätte wohl die Zeichnung eines handgroßen Eies mit Einbuchtungen an der oberen Schale und faserartigen Ausläufern an dessen Seiten, die mit dem Randvermerk „Kokosnuss“ und „harte Schale“ versehen sind?
+
+Nach geraumer Zeit klemmte sie den Kohlestift zwischen die Seiten des Buches und schlug jenes zu, ehe sie sich wieder von ihrem Kissen erhob.
+Die Dämmerung hatte bereits eingesetzt und kündigte vom Ende des heißen Tages an. So machte sie sich erneut auf den Weg zur Stadtmitte von Sijada Manzil und ließ sich auf den Rand des Brunnens nieder, ehe sie ihr Buch erneut öffnete.
+Ihr Blick schweifte durch die nähere Umgebung, fing die Merkmale und Besonderheiten ihres Umfeldes ein, ehe er sich erneut auf die Buchseiten fokussierte und sie ihre Skizzierungen fortsetzte.
+
+Ein hörbares Gespräch erregte ihre Aufmerksamkeit, als sie wieder ihren Blick anhob und sich dessen gewahr wurde, was ihr seit dem Tage ihrer Ankunft auf Ras Altanin beobachten konnte – eine Wachablösung.
+Das Gespräch verebbte als man ihren Blick bemerkte. Sie wiederum schenkte den Wachen ein freundliches Lächeln, einen üblichen Gruß und wandte den Blick wieder auf ihr Buch ab.
+Die Bedeutung hinter dem Verhalten der Wachen war ihr nur allzu gut bekannt. Seit sie einen Fuß auf diese Insel aufsetze, verfolgten sie stets im Nacken misstrauische und beobachtende Blicke. Sie glichen dem Zwitschern von Vögeln welches, getragen vom warmen Wüstenwind, an das Gehör eines Raben drangen, eben jenes, der sich am Tage ihrer Ankunft entschuldigen ließ, dem Meister der Schlangen.
+Obgleich sich die Endophali’s in Gastlichkeit zu rühmen wissen war ihr bewusst, dass es weit mehr als Worte erfordert, um Vertrauen erlangen zu können und so mühte sie sich seither darum, bis sich der Klang im Zwitschern der Vögel wandeln würde und es für sie das Zeichen wäre, dass der Rabe sein Nest verlässt, um sich einem anderen Raben zu offenbaren.
+
+Abermals wurde sie in ihrer Tätigkeit unterbrochen, als ein Sklave am Brunnen Rast machte und sie grüßte. Eine eher drahtige und schmächtige Gestalt die vor der Brust einen Korb mit sich trug. Sie erwiderte jenen Gruß, doch beließ sie es nicht dabei und so kamen sie ins Gespräch. Er wollte Tränke für seinen Meister abholen, welcher erkrankt sei. Die nähere Frage hinsichtlich der Tätigkeit seines Meisters offenbarte ihr die Erkenntnis, dass er sich der Alchemie und der Erforschung der Schriften in den Sanden von Ras Altanin hingegeben habe.
+So erkundigte sie sich, ob sie ihn begleiten dürfte – er willigte ein, merkte jedoch an, dass sein Meister aufgrund seiner Krankheit kein Gastgeber sein konnte, was sie zur Kenntnis nahm.
+
+Sie erreichten das Wirtshaus und dem darauf folgendem Gespräch zwischen Fatma und dem Sklaven konnte sie nur schwer folgen. Wenngleich ihr einige der Worte in ihrer Bedeutung mittlerweile vertraut waren und sie es auch ansatzweise verstand, die Mimik und Körpersprache des Sklaven im Gespräch zu deuten, blieb ihr das vollumfängliche Verständnis der Worte verwehrt … bis ein Name fiel … Nemekath.
+
+Diese hagere Gestalt war also der Sklave jenes alten Mannes, der nach dem Wissen um die Kultur der Echsen auf ihrer Insel suchte und welchem in den Augen der Magier bei der einstigen Zusammenkunft im Ordenshaus der Kirche mit Misstrauen begegnet werden sollte, weil er wohl einem Echsenkult angehörig wäre. Doch welchen Echsen denn genau? Einem Schreiben an der Akademie der Arkanen zufolge, waren ihm die siebenwindschen Schuppentiere fremd, könnten es ihres Verständnisses nach also jene Kreaturen sein, die ihr als Lindwürmer bekannt waren?
+
+Sie begleitete den Sklaven zurück, bis zum Haus seines Meisters, wo sie sich letztlich verabschiedeten.
+All diese kurze Zeit mit ihm, vermittelte er ihr einen besorgten Eindruck um das Wohl seines Meisters und abermals ergriff sie ein kurzer Gedanke über die ihr bekannte Intension des blinden Mannes.
+Waren sie nach galadonischen Verständnis her wirklich nur einfache Sklaven, geknechtet und der Selbstbestimmung beraubt, oder steckte nach dem endophalischen Verständnis her mehr Bedeutung hinter diesem so negativ behafteten Wort?
+
+Ihre Gedanken kreisten auf dem Rückweg um die Erkenntnisse jenes Abends. Was würde mit dem Sklaven geschehen, wenn sein Meister der Krankheit erliegen würde? Welche Auswirkungen hätte dies für Sijada Manzil und nicht zuletzt auch für die Aufgabe, weswegen sie hier verweilte? In ihrem Volksmund bezeichnete man solche Personen wie ihn als Gelehrte und hinsichtlich ihrer bisher gewonnenen Erkenntnisse und Beobachtungen, schien er hier unter den ohnehin schon recht wenigen Bewohnern der einzige zu sein.
+Gleich ob man ihm mit Misstrauen begegnen sollte, war es immer noch ein Vitama gefälliges Leben und ob seines betagten Alters würde er vermutlich ohnehin nicht mehr viele Götterläufe erleben, doch sollte dies ihrer Auffassung nach nicht durch einer Krankheit geschehen und so traf sie eine Entscheidung.
+
+Wieder im Wirtshaus angelangt, zog sie sich in ihre Gemächer zurück, ließ sich auf den Hocker am Tisch nieder, schob das Tablett beiseite und nahm Pergament und Feder zur Hand.
+Mit jedem getätigten Federstrich wichen die weichen Züge aus ihrem Gesicht und hinterließen jene ihr zu eigen gewohnte ausdrucklose Miene.
+
+*Die Ränder des Pergamentes scheinen etwas von Feuchtigkeit angegriffen zu sein, doch die Zeilen sind nach wie vor lesbar.* hat geschrieben:
+
+Ehre ihren Majestaeten, Hochwuerden Celedelair.
+
+Ich schreibe Euch in einem dringlichen Anliegen, dessen Auswirkung zuweilen noch nicht abzusehen ist. Der Gelehrte, namentlich bekannt als Nemekath, ist erkrankt.
+
+Sijada Manzil, wie diese kleine Stadt von den Bewohnern genannt wird, beherbergt augenscheinlich keine Person, welche sich ausgiebig in der Heilkunst versteht und meine eigenen Kenntnisse, sind maßgeblich auf die Behandlung von Kampfverletzungen begrenzt.
+
+Die Schwierigkeit besteht darin herauszufinden, welche Krankheit er sich in diesen uns fremden Gefilden zugezogen hat und welcher groeßeren Gefahr er sich aufgrund seines betagten Alters ausgesetzt sieht.
+
+Da ihr Euren Dienst an Astrael und den Bewohnern der Baronie in Brandenstein verrichtet, moegt Ihr vielleicht einen geschulten Heiler kennen der genuegend Wissen und Erfahrung vorzuweisen hat, sich dieser Aufgabe stellen zu koennen.
+
+Solltet Ihr eine solche Person kennen, oder finden und jene darin hadern die Reise zur Dracheninsel anzutreten, dann gebt Ihr zu verstehen, dass nicht minder ein Vitama gefaelliges Leben von seiner Entscheidung abhaengen mag und die Baronie seinen Einsatz entsprechend in barer Muenze zu honorieren wisse.
+
+Er soll jedoch Hand- und Mundschutz mitfuehren.
+
+Um eine wohlbehaltene und sichere Ueberfahrt zu gewaehrleisten, soll Knappe Wanderstern den Heiler begleiten. Er mag mich somit gleichwohl persoenlich ueber die Fortschritte der Maßnahmen zum Schutz der Provinzen der Baronie in Kenntnis setzen.
+
+Der Faehrmann wird beide im Hafen Brandensteins erwarten.
+
+Wenngleich ich derzeit nichts ueber das Krankeitsbild auszusagen vermag, bitte ich Euch ebenso darum, einen Korb mit etwas Obst – Aepfel, Birnen, Trauben und Kirschen – und Gemuese – Kartoffeln, Tomaten, Salat und Kohl – mit auf den Weg zu schicken, da dergleichen Nahrungsmittel hier nicht angebaut werden und hoechstens ueber den Handel ihren Weg hierher finden.
+Vielleicht mag diese Kost der Genesung Nemekath's zutraeglich sein, der Heiler wird es schlussendlich nach seinem getroffenen Befund zu entscheiden wissen.
+
+In den kommenden Tagen erhaltet Ihr einen vorlaeufigen Bericht ueber meine bisherigen Beobachtungen und Erkenntnisse. Ihr moegt jenen an die entsprechenden Stellen weiterleiten, wie einst auf der Zusammenkunft vereinbart.
+
+Ein letztes noch. Solltet Ihr, oder eine andere Person, mir ein Schreiben mit brisantem Inhalt ueber einen Boten zukommen lassen wollen, so rate ich dringlichst davon ab.
+
+Der Wuestenwind hat Augen und Ohren.
+
+*schlichtes Signum*
+
+~ Galthana ~
+
+Sie legte die Feder beiseite und rollte das Pergament zusammen, dann schweifte ihr Blick suchend durch den Raum und haftete sich an eine der Kokosnüsse.
+An diesem Abend begann sie zum ersten mal ein Nahrungsmittel einem anderem Zweck zuzuführen, als für was es selbst gedacht war und so durchstieß sie die Einbuchtung am oberen Ende der Nuss, leerte ihren wässrigen Inhalt bis zum letzten Tropfen und friemelte das kleine zusammengerollte Pergament in die Öffnung, bis es in dessen Hohlraum verschwunden war. Dann machte sie sich auf den Weg zum Hafenbecken.
+
+Dem siebenwindschen Fährmann stellte sie sich vor, gab ihm in angemessener Entfernung zu den Hafenwachen mit eindringlichem Blick leise zu verstehen, dass er die Kokosnuss auf direktem Weg nach Siebenwind zum Ordenshaus der Kirche und in die Hände des Hochgeweihten Celedelair’s überstellen sollte und dieser sie vorsichtig zu öffnen hätte.
+Im Hafen sollte er dann auf die Ankunft von zwei Passagieren warten.
+Sie versicherte sich seiner unversehrten Abreise und wandte sich zuletzt wieder vom Hafen ab, als die kleine Fähre am Horizont verschwunden war.
+
+Und so begann die Reise einer zweckentfremdeten braunen, handgroßen Nuss über das Meer.

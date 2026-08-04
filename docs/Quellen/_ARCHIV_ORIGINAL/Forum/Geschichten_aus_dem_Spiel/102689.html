@@ -1,0 +1,743 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Lauten und anderer Lärm</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=102689&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Lauten und anderer Lärm</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=102689"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 8 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=102689&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=102689&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=102689&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p908930"></a>
+				<b class="postauthor" style="color: #string">Savant&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Lauten und anderer Lärm</div><div style="float: right;"><a href="./viewtopic.php?p=908930#p908930"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 10.04.15, 18:35&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.09.10, 22:46<br /><b>Beiträge:</b> 8				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">In später Stund klingt aus einem Waldstück in der Insel ein holpriges Lautenspiel. Wohl übt ein unbegabter Barde irgendwo ein stockendes Liedchen</span><br /><br />Und so rief Halrik, mehr als drei Schritt groß,<br />stolzer Hühne, mit dem Schwert grandios,<br />Kapitän, Feldherr und Universaltalent,<br />zur Hochzeit, dem feierlichen Moment.<br /><br />Alle Würdenträger der Insel waren geladen,<br />alle Weltenretter, all die tapfren Helden,<br />jeder der auf der Insel hatte was zu melden,<br />und sie kamen mit Geschenken schwer beladen.<br /><br />Da war die tapfere Verteidiger der Hafenstadt<br />und fraß sich am Tisch Tempelschänder satt.<br />Und der alte Magier trank alle Krüge leer,<br />dabei warf er gestern  Flammen nach der Insel Heer!<br /><br />Keinen Deut kümmert die stolze Braut<br />ihres Mannes schneeweisse Haut:<br />&quot;Mir gleich, sind seine Lippen kalt und weiss,<br />solang sein Zapfen ist so hart wie Eis.&quot;<br /><br />Nur einen hatte Halrik nicht geladen,<br />Raziel, obwohl sie wandern auf den gleichen Pfaden.<br />Und das hatte aber auch nur einen Grund:<br />Wein und Weib, das war nix für den alten Hund.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8371"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8371"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p911308"></a>
+				<b class="postauthor" style="color: #string">Savant&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Lauten und anderer Lärm</div><div style="float: right;"><a href="./viewtopic.php?p=911308#p911308"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 11.07.15, 16:03&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.09.10, 22:46<br /><b>Beiträge:</b> 8				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">In der Tasche eines Unbekannten wartet ein Zettel auf seine Entdeckung, vielleicht ein Lied, vielleicht nur ein Gedicht. Auf jeden Fall sind unzählige Wörter durchgestrichen, das ganze scheinbar noch in Arbeit</span><br /><br />Siebenwind, du Perle im weiten Meer,<br />lockst uns mit deinem Sirenengesang,<br />all dein Reichtum macht mich ganz bang,<br />doch die goldene Muschel, ist sie nicht leer?<br /><br />Mehr Tanzsääle als Tempel,<br />mehr Bühnen als Barracken,<br />anstatt Brot essen wir Kuchen,<br />und müssen nach dem Sinn schlicht weiter suchen.<br /><br />Aus glänzendem Gold schmieden wir unsere Wehr<br />kleiden uns in Silberfell und Seidengewand,<br />und lechzen nach allerlei magischem Tand,<br />und fühlen uns ganz taub, so völlig leer.<br /><br />Keine Messen mehr, nur feine Feste,<br />keine Spelunken, nur edle Tavernen,<br />jeder trinkt Wein, niemand trinkt Bier,<br />jeder vergöttern sich selbst, keiner die Vier.<br /><br />Wir leben in Palästen, jeder hat seine eigene Burg<br />oder mindestens einen edlen Hof ganz fürs ich allein,<br />alle sind drei Schritt groß, fühlt sich denn niemand klein?<br />jeder ein Held, ein König, doch wer ist dann im Tross?</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8371"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8371"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p913117"></a>
+				<b class="postauthor" style="color: #string">Savant&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Lauten und anderer Lärm</div><div style="float: right;"><a href="./viewtopic.php?p=913117#p913117"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 2.09.15, 08:12&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.09.10, 22:46<br /><b>Beiträge:</b> 8				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold">Ode an den Meisterspion</span><br /><br />Er rennt, wo andere nur spazieren,<br />er handelt, wo sie nur diskutieren,<br />Er will alles, ragt aus der Masse empor,<br />so schlägt er ein wie ein Meteor!<br /><br />Immer zu siegen, sein größter Traum,<br />Das Wollen ist groß, für Moral bleibt kein Raum.<br />Er nimmt sich alles, niemand kommt ihm zuvor,<br />und schlägt dabei ein wie ein Meteor!<br /><br />Ohne jede Reue bricht er die Herzen der Frauen,<br />und wird sie später doch niemehr anschauen.<br />Gefährten sind ihm alle nur Mittel zum Zweck,<br />ob Freund oder Feind, das sind alle bloß Dreck.<br /><br />Die Tage des Zauderns sind für ihn Vergangenheit,<br />zum Kämpfen, zum Streiten ist er immer bereit,<br />&quot;Die Sache ist es wert!&quot; flüstert er dir ins Ohr.<br />Und so schlägt er ein wie ein Meteor.<br /><br /><span style="font-style: italic">EDIT: <!-- m --><a class="postlink" href="https://www.youtube.com/watch?v=sT0x7QiJI1g">https://www.youtube.com/watch?v=sT0x7QiJI1g</a><!-- m --></span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8371"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8371"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p914982"></a>
+				<b class="postauthor" style="color: #string">Savant&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Lauten und anderer Lärm</div><div style="float: right;"><a href="./viewtopic.php?p=914982#p914982"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 25.10.15, 00:00&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.09.10, 22:46<br /><b>Beiträge:</b> 8				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold">Ein tragisches Lied über unerwiederte Liebe<br /></span><br />Er sieht nicht, wie sehr deine Augen leuchten,<br />jedes Mal wenn er spricht.<br />Er sieht nicht, wie du innehälst und starrst,<br />wandert er vorbei.<br />Und du siehst mich nicht, wie ich will, dass du mich willst,<br />wie du ihn willst, denn du bist alles für mich.<br /><br />Ich will doch nur, dass du mich siehst,<br />doch wir sind <span style="font-weight: bold">unsichtbar</span>,<br />Er wird dich nie so lieben wie ich,<br />ach was bin ich für ein großer Narr.<br />Doch du schaust einfach durch mich hindurch,<br />hast nur Augen für ihn.<br />Würdest du mich sehen, dann wären wir wunderbar,<br />unsere Liebe, reine Magie - und nicht nur <span style="font-weight: bold">unsichtbar</span>.<br /><br />In dir brennt ein helles Licht,<br />das nicht anders kann als zu scheinen,<br />Doch was auch immer du tust,<br />er ist verloren, im Dunkeln, er liebt dich nicht.<br />Alles was du tust, ich kann nicht wegsehen,<br />und nur dran denken, was wir zusammen wären.<br /><br />Ich will doch nur, dass du mich siehst,<br />doch wir sind <span style="font-weight: bold">unsichtbar</span>,<br />Er wird dich nie so lieben wie ich,<br />ach was bin ich für ein großer Narr.<br />Doch du schaust einfach durch mich hindurch,<br />hast nur Augen für ihn.<br />Würdest du mich sehen, dann wären wir wunderbar,<br />unsere Liebe, reine Magie - und nicht nur <span style="font-weight: bold">unsichtbar</span>.<br /><br />Komm, wir beide vergessen unsere Pflicht<br />hör auf dem Schwarzmagier nachzustellen,<br />er ist verloren, findet nie mehr ins Licht.<br />Komm, eins will ich nicht mehr sein - <span style="font-weight: bold">unsichtbar</span>,<br />Komm, wäre unsere Liebe nicht wunderbar?</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8371"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8371"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p916926"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Lauten und anderer Lärm</div><div style="float: right;"><a href="./viewtopic.php?p=916926#p916926"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 16.12.15, 20:37&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-weight: bold">Das Klagelied</span><br /><br />Viele Narben zieren unsere schönen Gesichter,<br />doch wir sind nicht entellt, sondern nur verwegen,<br />wir sind Magier, Vögte, Helden, keine kleinen Lichter.<br />Und eines haben wir ganz sicher, der Götter Segen.<br /><br />Unser Kleiderschrank voller Seide und Brokat,<br />wir sind immer zur Seite mit Rat und Tat,<br />überall wollen wir die Nasen reinstecken,<br />gleich wie Groß die Gefahr, wir werden eh nie verrecken!<br /><br />Dem Tod schauen wir mit einem Schmunzeln ins Gesicht,<br />zurückzustecken, daran decken wir doch garnicht.<br />Die Götter lesen uns jeden Wunsch von den Augen ab,<br />aber sicher ist eins, den Feind schicken wir ins Grab!<br /><br />Ein Husten, die Nase läuft, oh welch große Schmach,<br />schlecht dazustehen, das ist ein Ungemach!<br />Wir stöhnen, wir jammern, wir drohen, wir klagen,<br />sollen die Götter doch andere mit ihrer Pest plagen!<br /><br />Gut zu meinen hat es das Schicksal mit uns Helden,<br />denn nur wir allein haben auf der Insel alles zu melden!<br />Krank sein oder strauchen, dass wollen wir nicht,<br />dafür zu sorgen ist doch der Götter Pflicht!<br /><br />Krank werden sollen Andere, ja bloß nicht wir,<br />erst um sich als Retter zu feiern, dafür sind wir hier.<br />Feinde haben nur eine einzige, allerhöchste Pflicht:<br />überm Kamin zu hängen, wir halten hier Gericht!<br /><br />Uns wehe es geschieht etwas, was wir nicht wollen,<br />dann werden aber ganz sicher einige Köpfe rollen!<br />Unser Leben ist doch schon nach einem Drehbuch geplant,<br />bei allem anderem sind wir so garnicht tolerant.<br /><br />Und so schreien wir das Unrecht in die Welt hinaus,<br />ob aus einer Burg, nem Palast oder dem nächsten Rathaus,<br />Welch übles Spiel treiben die Götter mit uns dieses Mal!<br />Wir sind doch Helden, uns darf nichts passieren, wie anormal!</div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #800040"> &quot;Der Mensch gehört nicht in die Wildnis / Das ist wider die Natur / Der Mensch gehört in eine Wohnung / Auf eine Sofagarnitur!&quot;</span></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p949291"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Lauten und anderer Lärm</div><div style="float: right;"><a href="./viewtopic.php?p=949291#p949291"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 24.07.19, 19:11&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">An verborgenen Orten spielt ein einsamer Barde ohne jedes Publikum</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Ist dein Leben noch der Rede wert<br />Wenn du kein Silberschmuck trägst?<br />Sie hab'n nur zwanzig Ringe hergestellt!<br />Mach auf die Börse, gib her all dein Geld.<br /><br />Wartest du auch auf den Sturm,<br />der alles wegfegt für dich?<br />Denkst du volle Schatzkisten<br />werden den Tod überlisten?<br /><br />Dein Kleiderschrank ist voll.<br />Deine Taschen sind leer.<br />Deine Seide macht dich stolz.<br />Doch dein Nachbar hat mehr.<br /><br />Wartest du immer noch auf den Sturm?<br />Der hier alles verwüstet und zerbricht?<br />Denkst die verdammten Millionen<br />Ersetzen alle Visionen?</div></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=2082">Tarlas</a>: 24.07.19, 23:13, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p949292"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Lauten und anderer Lärm</div><div style="float: right;"><a href="./viewtopic.php?p=949292#p949292"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 24.07.19, 22:30&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">In einer stürmischen Nacht erklingt ein disharmonisches Lied in einem finstrem Wald.</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Dreh dich, dreh dich, immer tiefer<br />immer tiefer, komm zu mir<br />Wander, wander mit dem Kobold<br />Tausend Schätze schenk ich dir<br /><br />Verlockend wilde Melodie<br />Die Laute kreischt, die Flöte weint<br />und irgendwo - brichst du entzwei.<br /> <br />Gnadenloser Freudentanz<br />Hohl singt der Wind, kalt riecht der Stein<br />Die Höhlenluft - verschlingt dich ganz.<br /><br />Dreh dich, dreh dich, immer tiefer<br />immer tiefer, komm zu mir<br />Wander, wander mit dem Kobold<br />Tausend Schätze schenk ich dir.<br /><br />Niemals müder Wanderschritt<br />Die Zunge lechzt, das Leben flieht<br />Und irgendwas - bleibt weit zurück.</div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p949355"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Lauten und anderer Lärm</div><div style="float: right;"><a href="./viewtopic.php?p=949355#p949355"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 27.07.19, 18:11&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Heimlich und ohne Zuhörer übt ein Lautenspieler ein neues Liedchen.</span><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Meine Lippen sind noch blau<br />Kristalle auf der Haut<br />Doch langsam tau' ich auf<br />Ich fühle mich wie neu<br />Was haben wir für ein Jahr?<br />Wie lang' hab' ich geträumt<br />Und was hab' ich versäumt?<br />Anscheinend nicht so viel<br />Nicht allzu viel passiert<br />Ich hab' so das Gefühl<br />Hundert Jahr haben nicht genügt<br />Vielleicht bin ich zu früh<br /><br />Denn für die Lieder, die ich schreib'<br />Leb' ich in der falschen Zeit<br />Doch vielleicht ist es bald soweit<br />Frier mich bitte wieder ein<br />Und wenn ihr irgendwann begreift<br />Ist mein Körper schon vereist<br />Doch vielleicht ist es bald soweit<br />Frier mich bitte wieder ein<br /><br />Neues Mal – neues Glück<br />Dreh' den Zeiger noch ein Stück<br />Neuer Mal– neues Glück<br />Dreh' den Zeiger noch ein Stück.</div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=102689&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=102689"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 8 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=102689"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

@@ -2,6 +2,7 @@
 title: "Statusbericht: Forum-Ingestion und Projektbacklog"
 category: Meta
 created_at: 2026-08-04T16:46:00Z
+updated_at: 2026-08-04T17:15:00Z
 status: current
 epistemic: "#meta"
 ---
@@ -12,7 +13,7 @@ epistemic: "#meta"
 
 ## Kurzfazit
 
-Die Forum-Ingestion ist vom Pilotbetrieb in einen stabilen Serienprozess übergegangen. Von **201 registrierten Forumthemen** sind **60 als Volltext archiviert**. Davon sind **59 fachlich abgeschlossen**: **54 wurden in das Wiki integriert**, fünf wurden bewusst ohne Wikiänderung archiviert. Nur ein bereits volltextarchivierter Fall ist noch nicht ausgewertet. Der mengenmäßig größte Forumrest besteht damit aus **141 Metadatensätzen**, deren Volltexte noch archiviert und anschließend gesichtet werden müssen.
+Die Forum-Ingestion ist vom Pilotbetrieb in einen stabilen Serienprozess übergegangen. Von **201 registrierten Forumthemen** sind **101 als Volltext archiviert**. Davon sind **59 fachlich abgeschlossen**: **54 wurden in das Wiki integriert**, fünf wurden bewusst ohne Wikiänderung archiviert. Nach der jüngsten fehlerfreien Archivierung von 41 weiteren Themen warten **42 Volltexte auf fachliche Sichtung**. Weitere **100 Metadatensätze** müssen noch volltextarchiviert und anschließend gesichtet werden.
 
 Parallel ist die technische Wiki-Basis stabil: Der Audit meldet keine Konsistenzprobleme, 32 erfasste Testsuiten sind grün und der Veröffentlichungsbaum weist keinen technischen Drift auf. Der größte andere Arbeitsblock ist nicht mechanisch, sondern semantisch: **624 ungelöste Linkziele**, von denen 611 Historikerentscheidungen benötigen.
 
@@ -21,16 +22,18 @@ Parallel ist die technische Wiki-Basis stabil: Der Audit meldet keine Konsistenz
 | Zustand | Themen | Anteil am Register |
 | :--- | ---: | ---: |
 | Registriert | 201 | 100,0 % |
-| Volltextarchiviert | 60 | 29,9 % |
+| Volltextarchiviert | 101 | 50,2 % |
 | Fachlich abgeschlossen | 59 | 29,4 % |
 | In das Wiki integriert | 54 | 26,9 % |
 | Geprüft, keine Wikiänderung | 5 | 2,5 % |
-| Volltext offen | 1 | 0,5 % |
-| Nur Metadaten vorhanden | 141 | 70,1 % |
+| Volltext fachlich offen | 42 | 20,9 % |
+| Nur Metadaten vorhanden | 100 | 49,8 % |
 
-Unter den 59 abgeschlossenen Volltexten führten **91,5 %** zu einer Wikiintegration. **8,5 %** wurden nach Prüfung bewusst nicht in neue oder bestehende Artikel übernommen. Es gibt keine Themen in den Zwischenzuständen `triage_ready`, `draft_created`, `style_review_required` oder `ready_to_finalize` und keine registrierten Fehler oder Dubletten. Die bereits archivierte Arbeitswarteschlange ist damit zu **98,3 %** abgearbeitet.
+Unter den 59 abgeschlossenen Volltexten führten **91,5 %** zu einer Wikiintegration. **8,5 %** wurden nach Prüfung bewusst nicht in neue oder bestehende Artikel übernommen. Die bereits archivierte Arbeitswarteschlange ist nach dem großen Quellenlauf zu **58,4 %** fachlich abgearbeitet. Der Archivierungslauf selbst meldete keine Fehler.
 
-Seit dem Pilotstand mit zwei integrierten Themen ist der Bestand auf 54 Integrationen gewachsen. Der nächste vorgemerkte Metadatenkandidat ist Topic `104857`, **„Der Morgen danach“**. Vor seiner historischen Auswertung muss zunächst der Volltext archiviert werden. Der einzige bereits volltextarchivierte und noch nicht ausgewertete Fall ist Topic `31020`, **„Hintergrundexkurse“**.
+Seit dem Pilotstand mit zwei integrierten Themen ist der Bestand auf 54 Integrationen gewachsen. Der jüngste Lauf archivierte 41 neue Volltexte von Topic `48524`, **„Die wahrste Wahrheit über Orken“**, bis Topic `108896`, **„Die Geschichte von Huns Siebzehnrübl“**. Topic `104857`, **„Der Morgen danach“**, wurde wegen seiner bestehenden Dublettenentscheidung korrekt übersprungen. Der nächste zulässige Metadatenkandidat ist Topic `108636`, **„Pflicht“**. Zur offenen Sichtung gehören Topic `31020`, **„Hintergrundexkurse“**, und die 41 neu archivierten Themen.
+
+Die maschinelle Queue-Klassifizierung über alle 201 Registereinträge weist aktuell 33 Fälle als `historian_required`, 27 als `update_existing`, 41 als `create_article` und 100 als `archive_only` aus. Diese Werte sind Routingempfehlungen; sie ersetzen nicht die fachliche Einzelfallprüfung.
 
 ## Wirkung auf das Wiki
 
@@ -77,13 +80,13 @@ Die Dispatch-Inbox weist formal 138 offene Nachrichten aus. Diese Zahl entsprich
 - Pages: Build erfolgreich, `drift_status = PASS`; der bekannte semantische Linkbacklog bleibt sichtbar.
 - Bridges: 85 dokumentierte Übergangsseiten, keine ohne erforderliche Ausnahme-Metadaten.
 - Keine Buildausgaben sind versioniert. `site/`, virtuelle Umgebungen, Modell- und Vektorcaches, Python-Bytecode sowie `dist/` sind ignorierte Laufzeit- oder Buildpfade.
-- Die fünf neuen HTML-Dateien unter `docs/Quellen/_ARCHIV_ORIGINAL/Forum/` sind keine Buildartefakte, sondern die maßgeblichen Rohquellen der bearbeiteten Forumthemen.
+- Die 51 neuen HTML-Dateien unter `docs/Quellen/_ARCHIV_ORIGINAL/Forum/` sind keine Buildartefakte, sondern die Rohseiten der 41 bearbeiteten Forumthemen; mehrseitige Themen erzeugen mehrere HTML-Dateien.
 - Die sachfremde unversionierte Dispatchdatei `MSG-2026-0199_yen_usd_carry_trade_dossier_recherchiert.md` gehört nicht zum Siebenwind-Arbeitsblock und bleibt außerhalb des Commits.
 
 ## Empfohlene Reihenfolge nach dem Commit
 
-1. Aktuellen Historiker- und Statusstand pushen.
-2. Forumscan auffrischen und die nächsten Metadatenkandidaten ab Topic `104857` volltextarchivieren.
+1. Die 42 offenen Volltexte in kleinen Historikerpaketen sichten; Topic `31020` bleibt der älteste offene Fall.
+2. Den Forumscan auffrischen und danach ab Topic `108636` weitere zulässige Metadatenkandidaten volltextarchivieren.
 3. Die beiden fertigen Historikerreviews `RESEARCH-2026-004` und `RESEARCH-2026-007` schließen.
 4. `RESEARCH-2026-018` als semantische Arbeitslane für den Pages-Backlog fortsetzen.
 5. Die zwei ausstehenden Newsquellen integrieren.

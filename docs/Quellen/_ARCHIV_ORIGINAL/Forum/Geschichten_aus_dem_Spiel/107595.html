@@ -1,0 +1,1215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Allerlei aus Finsterwangen</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=107595&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Allerlei aus Finsterwangen</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=107595"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 16 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=107595&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=107595&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=107595&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p941650"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=941650#p941650"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 22.01.18, 00:00&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">Ein Sammelthread, in dem auch andere Texte oder Geschichtchen zu Events, Predigten und anderen Ereignissen posten können!</div></div></div><br /><span style="color: #000080">Ich will heute nur wenige Worte verlieren, damit mehr als genug Zeit bleibt für die Beratungen. Und diese wenigen Worte will ich widmen, um Zweifel zu zerstreuen und Unsicherheit aus der Welt zu schaffen. Wir leben in einem neuen Zeitalter, daran besteht kein Zweifel.<br /><br />Für die da drauen stürzen die Säulen ihrer Welt ein. All die Veränderungen zerren und rütteln an den Grundfesten ihres Glaubens. Und so tasten sie wirr in der Dunkelheit. So greift der Erzgeweihte Bellums in seiner Furcht vor dem Ungewissen und der Einsamkeit nach der Hand des Satais. So lobt der Erzgeweihte Astraels unseren Herren, Angamon den Höchsten in einer Predigt. Aber dieser Tempel und unsere Lehre hier bleibt standhaft in den Wirren und diesem Sturm. Unser Glauben ist fest, wir können und dürfen nicht denken, der Herr hätte sich in seiner Gänze geändert. Dass alles was hier je gepredigt wurde und alles was wir je getan haben, nun hinfällig ist.<br /><br />Der Kern unseres Bekenntnisses ist weiterhin - <span style="font-weight: bold">eine neue Ordnung. Eine bessere Ordnung. Eine Ordnung, die alles andere in der Welt überstrahlt.</span> </span><br /><br /><div align="center"><span style="font-weight: bold">Kommt zum Altar, Schüler. Bekennt ihr euch zu einer neuen Ordnung?</span><br />Ich bekenne mich zu Angamon... Und ich bekenne mich zu jedwener neuen Ordnung die seine Herrlichkeit über allen stellt.<br /><br /><span style="font-weight: bold">Diese neue Ordnung - bekennt ihr euch, dass für sie die alte Ordnung weichen muss?</span><br />Die goldenen Schuppen müssen vom Wolf gerissen werden um Platz für Neues zu schaffen.<br /><br /><span style="font-weight: bold">Werdet ihr die alten Tugenden und die alten Gebote umwerfen, wenn der Herr euch so befiehlt?</span><br />Ja. Das werde ich.</div><br /><br /><span style="color: #000080">Die alten Gebote sind ein &quot;Du sollst&quot;. Und &quot;Du darfst nicht&quot;. Das ist die alte Predigt. Dass wir Sterblichen schwach sind und unfähig uns selbst ein Richtschwert ber das Haupt zu hängen. Wir mögen zwar in einem neuen Zeitalter sein, aber die alte Ordnung ragt noch immer hoch in den Himmel. Der erste Schritt unseres Bekenntnises ist weiterhin, dass sie etwas Neuem und Besserem weichen muss. Das Einzige, das sich geändert hat ist, dass wir dazu nicht mehr zu einem Krieg rufen, der Alles und Jeden erfasst. Wir werden den Thron hoch im Himmel nicht erreichen, indem wir hier auf Erden Berge aus Knochen erbauen. Das erste Zeichen des Bekenntnisses ist es, das alte &quot;Du-darfst-nicht&quot; zu zerschmettern.<br /><br />Die Pergamente sind dafür da, in den nächsten Wochen aufzuschreiben, wo ein jeder von uns zu Ehren Angamons eines der alten Gebote und eine der alten Regeln gebrochen hat. Das Überschreiten eines solchen Gebots soll eines der Opfer sein am Altar von Angamon. Nicht unser Blut, wenn wir uns schneiden. Lassen wir die Scherben fünf Tage unberührt. Und damit erhoffe ich Angamons Segen für uns Alle. Schutz unter seinen Schwingen und sein Licht in der Finsternis und in der Ungewissheit.</span><br /><br /><div align="center"><img src="https://cdn.pbrd.co/images/H3ZNWIQ.png" alt="Bild" /></div><br /><br /><span style="font-style: italic">Ein jeder der Zuhörer zerschmetterte seine Schiefertafel, auf denen allerlei Gebote und Verbote niedergeschrieben sind. Für fünf Tage liegen die Scherben noch auf dem Tempelboden, während die Gemeinde sich verstreut, um das Brechen von Gesetzen und Geboten zu einem Opfer an ihren Gott zu verwandeln.</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p942315"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=942315#p942315"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 25.02.18, 23:00&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://cdn.pbrd.co/images/H9k8muh.png" alt="Bild" /></div><br /><span style="color: #BF0000"><br />Im Rahmen einer Andacht zog die Gemeinde vom hohen Thron Angamons aus dem Schrein von Finsterwangen in die ausgebrannten Ruinen von Falkensee. In ihrer ersten Andacht bekannte sich die Gemeinde zu einigen Grundpfeilern ihres Glaubens an Angamon.<br /><br /><span style="font-weight: bold"><div align="center">Dass er ihr einziges Licht in der Finsternis ist.<br />Dass sein Wesen längst über seine allererste Schöpfung hinausgewachsen ist.<br />Dass ihre Taten im vergangenen Zeitalters recht und richtig waren.<br />Der Fall von Falkensee ist ihnen stolzes Werk und nicht schändliche Tat.</div></span><br /><br />Als Zeugen dieses Bekenntnissen verbleiben in den Ruinen nur die Überreste einiger verbrannter Strohpuppen.</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p942316"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=942316#p942316"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 25.02.18, 23:29&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic"><div align="center">Vor etwa zwei Monaten:</div></span><br /><div align="center"><img src="https://cdn.pbrd.co/images/H17gHVy.png" alt="Bild" /></div><br /><br />Kurz nach Jahresbeginn und vor Dunkeltief wurden vor der Stadt von Finsterwangen drei große Scheiterhaufen angezündet. In einem Scheiterhaufen brannte eine Strohpuppe ganz in Gold gekleidet, übrig ist nur ein eiserner Helm, von dem die goldene Farbe abblättert inmitten der verkohlten Überreste. Eine weitere Strohpuppe in einer braunen weiten Robe brannte im zweiten Feier, übrig ist davon nur eine kupferne gehörte Fratzenmaske. Im dritten Feuer brannte schließlich eine Dämonin, ein Sukkubus mit teufelsroter Haut, die sich wandte und an den Fesseln riss, komplett tonlos in ihrem Widerstand. Vom bereitgestellten Schnaps und Bier hat leider keiner getrunken.<br /><br />Die Feuer brannten als Zeichen des Triumphs der Sterblichen, ihres Verstands und ihrer List über die Unsterblichen, ihren jahrtausende alten Kampf und über scheinbare Vorherbestimmung. Eine Feier des Sich-Aufbeugens gegen das Schicksal. Ganz sicher bewusst erinnerte das Feuer an den Kampf zwischen dem Erbauer und einem Streiter aus dem goldenen Heer, beendet durch eine menschengemachte Falle in einem Inferno vor der Stadt. Noch zwei Tage, bis zum Tag vor dem ersten Dunkeltief, kümmern sich die Torwachen der Stadt darum, dass die Feuer auch weiterbrennen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p942448"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=942448#p942448"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.03.18, 20:11&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://cdn.pbrd.co/images/HawCqVF.png" alt="Bild" /></div><br /><span style="color: #000040"><div align="center"><span style="font-weight: bold">Vereidigung der neuen Abgesandtin der Stadt Finsterwangen in den Inselrat: Magistra Lucy wird neue Vogtin.</span></div><br /><br />Die treusten Bürger der Stadt, fast alle Bekennende der Gemeinde vom hohen Thron Angamons, waren Zuschauer der Vereidigung der neuen Vogtin durch den zurückgekehrten Kanzler der Baronie. Vorangegangen waren ihrem Schwur fast zwei Stunden an anderen Verhandlungen und Gesprächen, doch so leicht dringt deren Inhalt nicht nach Außen. Aber es wird gemunkelt, dass der Rat der Provinz so einiges an mühsam erlangtem Wissen mit dem Kanzler und seinem Minister teilte und auch seine Stimme für eine Entscheidung im nächsten Inselrat versprach. Was Finsterwangen wohl dafür als Gegenleistung ausgehandelt hat?</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p942714"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=942714#p942714"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 19.03.18, 19:52&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://cdn.pbrd.co/images/HcExi4z.png" alt="Bild" /></div><br /><span style="color: #000040"><div align="center"><span style="font-weight: bold">Versuchstiere in Finsterwangen.</span></div><br /><br />Laut und schrill ist das Gekreische und Gebrüll mehrerer Goblins in Finsterwangen heute, besonders das der zwei Exemplare in der Grube im Zentrum der Stadt. Sie rütteln an ihren Kerkergittern und schütteln ihre eisernen Ketten. Unglückliche Gardisten und miesmütige Schüler der Akademie füttern diese wilden Bestien und hoffen dabei keinen Finger zu verlieren. Bald wird das Gekreische weniger, die Goblins lethargischer und antriebsloser. In der Nacht ist das Gebrüll verstummt und diese Bestien vegetieren den Großteil des Tages vor sich hin, ab und zu das verfütterte Fleisch verschlingend. Für welch üble Absichten diese Monster wohl gebraucht werden?</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p943147"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=943147#p943147"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 20.04.18, 10:51&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://cdn.pbrd.co/images/HhsOTBU.png" alt="Bild" /></div><br /><span style="color: #000040"><div align="center"><span style="font-weight: bold">Finsterwangen erfährt Gerechtigkeit.</span></div><br /><br />Vor einem ordentlichen Gericht erfährt Finsterwangen Gerechtigkeit durch die Verurteilung eines übergriffigen Adepten. Solange die Provinz zur Baronie gehört, solange gilt dort auch der Iuribus und Androhung von Folter und Gewalt gegen die reuigen Bewohner von Finsterwangen wird bestraft. Wer glaubt das Recht selbst in die Hand nehmen zu können, weil er falsch vermutet die Provinz würde ihren Verpflichtungen nicht gerecht und treibe ein falsches Spiel, der wird durch ein ordentliches Gericht eines besseren belehrt!</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p943150"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=943150#p943150"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 21.04.18, 10:04&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="color: #000080">Die letzte Andacht und Zusammenkunft der Gemeinde vom hohen Thron ist einige Zeit her. Damals war das neue Zeitalter gerade frisch geboren und alte Gewissheiten waren wie weggewischt. Eine Zeit der Verwirrung. Wer war nun Feind und wer Freund? Einige haben sich als Verkünder neuer Wahrheiten ausgerufen. Haben Banner errichtet um Getreue unter sich zu scharen. Hier auf der Insel unter dem Banner des Wolfs. Oder wir unter dem Banner des hohen Throns.<br /><br />In den letzten Monaten sind die Verwirrungen der neuen Zeit uns zur Gewohnheit geworden. Uns verbindet nicht mehr allein der gemeinsame Widerstand gegen das Heer der Ewigen. Oder unser Beitrag zum Fall von Falkensee. Uns verbindet ein neues Bekenntnis, als eine neue Gemeinde. Ein erster Teil dieses Bekenntnisses ist die Feindschaft zu den Dämonenreichen und ihrem Aufruhr gegen ihren rechtmässigen Herrscher. Aber ein gemeinsamer Feind allein ist nicht genug für ein wahres Bekenntnis. Nötig ist ein gemeinsames Ziel. Ein Schicksalsbund und ein geteilter Glauben an eine Wahrheit.<br /></span><br /><br /><span style="font-weight: bold">Adept, was ist euer höhstes Ziel, wenn ihr vor seinen Altar tretet?</span><br />Ich wünsche mir, dass der von mir gewählte Pfad und wie ich ihn bestritten habe Ihm zur Ehr gereicht.<br /><span style="font-weight: bold">Dann also Anerkennung und Achtung eurer Taten. Stolz und erhaben vor seinen Altar zu treten, ist es das?</span><br />Jah, ohne Zweifel und ohne Reue für das was ich tat<br /><br /><span style="font-weight: bold">Professor, wonach ruft euer Herz wenn ihr in seinem Schrein betet?</span><br />Der HERR hat einen Plan, ein Plan der uns sterblichen nie in Gänze offenbart wird, doch an dessen Ende, dem bin ich sicher, dass wohl die reinrassigen Menschheit stehen wird. Meine persnlichen Gebete, meine Wünsche meine Träume sind es dem HERREN auf diesem gerechtem Pfade zu folgen. Mein Wissen zu mehren um effektiver dienen zu können.D as Werkzeug zu sein, dem HERREN zu genügen und IHM als HERR allen Seins, aller Götter und Bezwinger der abtrünigen Dämonen und Rassen und geisteskrank machenden Magieformen zu dienen.<br /><span style="font-weight: bold">Dieser Weg, ist er für euch ein Pfad der Vervollkommnung?</span><br />Der Pfad der Vervollkommnung! Der Pfad der Effizienz ohne Gutelfentum. Der Pfad des Wissesn ohne weißmagische Scharlatanerie. Der einzige Pfad, der dem Menschengeschlecht Rettung verheissen zu vermag.<br /><span style="font-weight: bold"><br />Der Weg zu einer edlen Seele. In himmlische Höhen. Magistra, eure eigene Seele habt ihr einst einem der Dämonen vermacht. Doch habt ihr zur Wende der Zeitalter um diese eure Seele gekämpft. Warum habt ihr diese Mühen auf euch genommen, Magistra?</span><br />Es hatte sich vieles geändert. Er war eine Gefahr geworden und unser Feind.<br /><span style="font-weight: bold">Da habt ihr erkannt, welch wertvoller Besitz eure Seele ist. Und gehandelt. Getan was nötig war anstatt im Gebet um Gnade zu versinken.</span><br /><br /><span style="color: #000080">In der kleinen Schar hier haben wir einige Bruchstücke eines tieferen Bekenntnisses. Worte und Überzeugungen, die zu einer höheren Wahrheit<br />gefügt werden müssen. Das habe ich mir als Pflicht auferlegt. Nicht Warheiten zu verkünden, die der Herr mit einflüstert oder in den Mund legt. Sondern Wahrheiten zusammenzufügen, die jeder in dieser Gemeinde in diesen Schrein hineinträgt.<br /><br />Der Adept will stolz in diesem Heiligtum stehen. Erhobenen Hauptes und nicht mit den Knien und der Stirn im Staub. Ein Vorrecht, dass er sich durch seine Taten verdienen will. Der Professor will mit edlem Geist, edler Seele und edlem Wesen vor den Altar treten. Er sucht nach den nächsten Schritten auf dem Weg der Vervollkommnung. Denn nur wenn wir zu Edlen werden, sind wir es würdig über diese Welt zu herrschen. Der Magistra Seele kämpfte sich aus den niedersten Tiefen der Dämonenreiche zurück in unsere Spähre. Sie wartete nicht auf gnadenvolle Rettung. Nein, sie erstritt sich selbst Erlösung aus diesem Schicksal.<br /><br />Das ist eine der Wahrheiten, die ich in dieser Gemeinde sehe. Die Überzeugung, dass Erlösung nicht Gnade erfordert. Nicht durch demütiges Kriechen vorm<br />Altar Angamons erlangt wird. Nicht geschenkt wird, sondern errungen. Dass wir nicht unvollkommen bleiben müssen und können. Dass die weite Kluft zwischen uns und unserem Herren nicht Demut verlangt, sondern Kriegermut sie zu überspringen.</span><br /><br /><div align="center"><img src="https://cdn.pbrd.co/images/HhLRZW9.png" alt="Bild" /></div><br /><br />Medicas. Suchender. Steht auf und tretet vor. Ich will auch euch ein Gleichnis machen auf unserer Suche nach tieferen Wahrheiten und Antworten. Es gibt dabei kein Richtig und kein Falsch. Das soll keine Prüfung eures Glaubens sein. Sondern eine Erforschung. Lasst mich eure Hnde binden. Es gibt viele Fesseln, die uns davon abhalten nach Erlösung zu greifen. Heute ist nicht der Zeitpunkt um über diese Fesseln zu sprechen. Heute wollen wir - die Gemeinde - darüber nachsinnen auf welchen Wegen diese Fesseln gesprengt werden können. Nochmals, es gibt keine richtigen Antworten. Dies ist keine Prüfung. Sondern eine gemeinsame Suche nach Antworten. Sinnt darüber nach, auf welchen Wegen ihr euch befreien könnt. Hier im Heiligtum des Herren. Auch die Anderen sollen darüber nachdenken.<br /><br /><span style="font-style: italic">Beiden Männern werden die Hände an den Gelenken mit Lederschnüren zusammengebunden. Einer zögert nicht die Hilfe einer Glaubensschwester zu fordern, deren Klinge seine Fesseln durchschneidet. Der Andere lässt die Fesseln an einer Flamme im Heiligtum durchbrennen und zieht sich dabei Brandwunden zu, die er Kraft seiner ihm innewohnenden Magie wieder heilt.</span><br /><br />Zwei Wege sich zu befreien. Der Professor zögerte nicht die Hilfe eines anderen Teils der Gemeinde zu suchen. Eine Erinnerung daran, dass wir nicht allein in unseren Bemhungen sind? Der Suchende vertraute auf sich selbst und seine Kraft die eigenen Wunden mit Magie zu heilen. Und seine eigene Fertigkeit Pein zu ertragen. Ein Zeichen, dass Fesseln zu sprengen auch immer Gewalt bedeutet? Beide haben schnell entschieden. Kaum lange gegrübelt. Ihre Läsungen verraten vielleicht nicht nur tiefere Antworten sondern auch etwas ber ihr eigenes Wesen. Wir anderen dürfen und sollten darüber nachsinnen, ob wir andere Wege gewählt und gefunden hätten die Fesseln zu lösen. Und was uns unsere Wahl verrät. Über unseren Glauben und über uns selbst. Mit diesem Gedanken will ich diese Andacht abschließen. Mgen wir stets würdig sein vor seinem Altar und seinem Segen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p944107"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=944107#p944107"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 12.07.18, 23:40&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Nach Wochen kommt wieder die Gemeinde der heiligen Stadt Finsterwangen zusammen, ungewohnt am letzten Tag des Lichthochs. Einiges war geschehen, der Verschlinger war vernichtet worden, die Verwerfung im Ödland Geschichte. Im Halbdunkel des Schreins und seinen spärlich beleuchteten Schatten fanden sich ungewöhnlich viele Gestalten zusammen, später dann sogar noch zwei Nachzügler mehr.</span><br /><br /><div align="center"><img src="https://cdn.pbrd.co/images/HuaCJcF.png" alt="Bild" /></div><br /><br />Die Predigt begann mit einer Erinnerung an das letzte Lichthoch, den Kampf gegen das goldene Heer und die Verteidigung der heiligen Stadt Finsterwangens am letzten Tage des alten Zeitalters. Dort wurde ein neuer Bund geschmiedet, die Geburt der neuen Gemeinde von Finsterwangen aus dem gemeinsamen Kampf gegen das drohende Weltenende. Diese Gemeinde entstand also aus dem gleichen Bekenntnis, Angamon ihren Herren zu nennen, sondern aus der gemeinsam erlebten Schlacht um ihr Heiligtum. In der Andacht erzählte so mancher wie er dieses Lichthoch erlebt hatte. Andere, die damals noch nicht auf der Insel waren, erzählten ihre Geschichte, wie sie zu Angamon fanden. Geschichten voller Blut und gerächtem Verrat und der Erlösung.<br /><br />Aber nicht die Errettung in Angamon nach verzweifeltem Flehen sollte in dieser Andacht als Wunder gepriesen werden, sondern die Entscheidung das eigene Schwert gegen die Verräter und Heuchler zu erheben und sie zu richten. Angamon ist nicht mit den Flehenden und er schreibt keine Gebote auf goldene Tafeln. <span style="font-weight: bold">Die Predigt der Gemeinde ist, dass es recht ist sich selbst ein Gesetz zu geben und sich selbst zum  Henker aufzuschwingen. Nicht Erlösung ist Angamons Geschenk, sondern ein kaltes Herz, unbeugsame Stärke und scharfsinnige Weisheit. Selbst ein Gesetz über sich zu hängen, selbst ein Richter zu werden und nach dem Richtschwert zu greifen und das eigene Gesetz mit harter Hand und kaltem Herzen durchzusetzen.</span><br /><br />Über eine zweite Lektion sollte die Gemeinde in der Messe ebenso nachsinnen, darüber was in den Ruinen von Rohehafen geschehen war. Einige meinten, es sei eine Prüfung gewesen, sich dem dort verborgenen Dämon zu erwehren und seine Verlockungen abzuschütteln. Andere vermuteten, die Lektion war es, dass trotz aller Weisheit und Anstrengungen und obwohl solch viele unterschiedliche Geister zusammen kamen, am Ende doch nur das Auge Nemses uns sehen hatte lassen - eine Warnung vor dem Hochmut? Was aber, so waren die Worte des Predigers, wenn die Warnung eine andere war? Eine Warnung vor den Zeichen des blutigen Auges, die einen anstatt der Gefahr nur ein Rätsel sehen lassen haben. Das Gefühl von Sicherheit, vielleicht sogar in einem geheimen Tempel Nemses nach Antworten zu suchen?<span style="font-weight: bold"> Doch in Wahrheit verbarg sich hinter dem blutigen Auge kein Rätsel, sondern nur ein hungriger Feind, ein Biest, ein Dämon. War es vielleicht eine Warnung gewesen, dass der Feind sich auch im Gewand des eigenen Glaubens verbergen kann, hinter den Symbolen und Zeichen von Angamon und seinem Gefolge? Eine Warnung vor falschen Weggefährten und auch vor falschen Propheten?</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p945987"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=945987#p945987"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 31.10.18, 00:45&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Am gestrigen Tag kam die Gemeinde von Finsterwangen nicht nur zusammen, um einen neuen Anführer zu bestimmen, sondern auch um einer Andacht zu lauschen. Einige Fetzen der Predigt dringen zu dieser Stunde aus dem Tempel und noch in den Tagen dannach kann man vielleicht einige Wachen und andere Bürger über den Inhalt raunen hören. Der Kern dieser Predigt ist auch an den wenigen Fetzen wohl gut erkennbar. Gegen Ende teilten sich die Gemeinde und der Prediger eine bittere Frucht als Zeichen des gemeinsamen Bekenntnisses.</span><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><div align="center"><span style="color: #800000">Was ist die größte Ungerechtigkeit der Schöpfung... sie lässt selbst jene wanken, die sich sonst fest bei den Vieren wähnen...<br /><br />... es ist der Tod. Der Rabe, der auf das Fleisch an unseren Knochen wartet...<br /><br />... er treibt so Manchen zu großer Verzweiflungstat... den Geist an fauliges Fleisch zu ketten... sich mehr Zeit zum Preis seiner Seele zu erkaufen...<br /><br />... der Tod knechtet jede Seele, der Rabe will jeden in seinem Königreich haben...<br /><br />Angamons noch unerfülltes Versprechen, das Ende dieser Ungerechtigkeit. Die Ewigkeit ... und die Rückkehr aller Seelen.<br /><br /><span style="text-decoration: underline">Doch</span> ... das Fundament seines neuen Zeitalters wird nicht auf Knochen erbaut.<br /></span></div></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p946379"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=946379#p946379"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 7.12.18, 21:40&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Vor einigen Tagen kam die Gemeinde von Finsterwangen wieder zu einer kleinen Andacht zusammen. Kurz sollte die Predigt dieses Mal sein, heute sich nur um eine Frage drehen: <span style="font-weight: bold">Wer war der Prophet Schattenhand?</span></span><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="color: #800000"><br />Der Prophet Schattenhand war ein Magier, dessen Name sich in die Geschichte des schwarzen Pfades vor mehreren hundert Jahren eingebrannt hat. Damals war der Pfad noch uneins zwischen den tiefgläubigen Dienern Angamons und jenen, die frei und munter mit Dämonen paktierten und sich der Sache Yerrodons verschrieben hatten. Schattenhand war einer ihrer Feinde im Streit um die Vorherrschaft um den Zweig, doch in den Legenden um den Propheten ist von Wundertaten die Rede, die sich sonst keiner erklären konnte. So bestand sein Gefolge nicht nur aus Magiern und Gläubigen, sondern auch aus fünf besonderen Dämonen - nicht Sklaven, nicht Dienern, sondern seine Schüler, seiner Lehre und Angamon treu ergeben. Bekehrte Dämonen. Schattenhand ging als Prophet in die Geschichte des Pfades zur Linken ein, für seine Vorhersagen eines kommenden Zeitalters. Wenn Angamon die Krone der Dämonenreiche abstreift, weil sie ihm längst zu klein geworden ist, und rechtmäßig die Krone über die ganze Schöpfung sein Haupt ziert. Während seine Lehren und Taten zu Legenden geworden sind, für manche blosse Märchen und Mythen, hat ein simples Ritual aus seiner Zeit, als dessen Vater der Prophet gilt, bis heute überlebt: Ein geteilter Kelch vor einem Altar Angamons<br /></span></div><br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><div align="center"><span style="font-size: 150%; line-height: normal"><span style="text-decoration: underline">Ritual des geteilten Kelchs</span><br /></span><br />Ich reiche euch den Kelch und ihr trinkt nach einem kurzen Gebetsspruch an unseren Herren. Einen Wunsch, einen Dank oder eine Huldigung. Ganz euch überlassen.<br /><br /><span style="color: #0000BF"><span style="font-weight: bold">Gesegnet sei der Name des Gottkönigs und mögen wir ihn seiner Gunst wandeln.</span></span><br /><br />Dannach füllt ihr den Kelch und reicht ihm dem Nächsten hin.<br /><br /><span style="color: #800000"><span style="font-weight: bold">Ewig soll seine Herrschaft sein, die Herrschaft des Königs aller Götter.</span></span><br /><br />So folgt ein weiterer Segensspruch. Nicht für Angamon, sondern nun für euch. Ein Wunsch oder ein Verlangen. Gleich wie eigennützig, denn Eigennutz ist Angamon eine Tugend. An sich und seinen eigenen Vorteil zu denken ist recht und gesegnet. Ewiges Leben oder die Rückkehr von Verlorenem. Ob Ruhm oder der Lohn der Welt. Wünscht euch, was euch zusteht und was ihr begehrt.<br /><br /><span style="color: #0000BF"><span style="font-weight: bold">Möge ich Leben ewig erhalten unter der Herrschaft Angamons!</span></span><br /><br /><span style="color: #800000"><span style="font-weight: bold">Ewiges Leben auch für mich, ich will dem Raben nicht ein Staubkorn lassen.</span></span></div></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p946664"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=946664#p946664"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 4.01.19, 01:23&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://cdn.pbrd.co/images/HUNBF19.png" alt="Bild" /></div><br /><br />Die Überreste einer Messe im Heiligtum von Finsterwangen vor dem Dunkeltief: Zwei kalte Goblinleichen mit durchgeschnittenen Kehlen - eine davon mir mehrfachen groben Dolchstochen in der Brust. Blut an den steinernen Ankhs, einem der vielen Zeichen Angamons. Blut am pechschwarzen Boden. Blut in den Becken, die sonst nur das graulich-dunkle Wasser füllt. Blut an den Händen des Predigers und an den Händen seines treusten Gläubigen.<br /><br />Die Predigt eine simple Nachricht: Es ist Angamons Vorrecht, über die ganze Schöpfung zu herrschen und sie sich Untertan zu machen. Das ist das endgültige Ziel der Geschichte, der Moment, in dem Vollkommenheit herrscht, wenn alles und jeder sich vor seinem Altar beugt. Die Tage des Dunkeltiefs sind immernoch seine höchsten Tage und werden wieder nur noch Tage der Feiern zu seinen Ehren sein, wenn die Dämonenreiche sich wieder vor seiner Herrschaft beugen. Vor der Krone des Dämonenkönigs, dem einzigen Gott im Besitz einer Seele. Und das gleiche Vorrecht verspricht er seinem Gefolge, den rechtmäßigen Herrschern Tares unter seinem Zeichen. Den kommenden Königen, den kommenden Meistern und Mächtigen. Das Recht sich alles Untertan zu machen, auch die Bestien, ob Tier oder ob Dämon. Das Recht, diesen Bestien zu befehlen, frei über sie zu verfügen, wie über Vieh, wie auch über all die niederen Seelen der Völker. Und das Recht sie nach Belieben zu opfern, zu ermorden, ihr Blut und Leben dem höchsten Gott anzubieten.<br /><br />Der einsame Gläubige lauschte dieser kurzen Predigt, dann nahm er die Einladung des Predigers an, sich zu dieser Überzeugung und dem Willen die Ordnung der Welt so neu zu errichten zu bekennen. Blitzende Dolche im Heiligtum, das Blut der geopferten Goblins an ihren Händen und als Zeichen des Segens auch auf ihrer Stirn. Immernoch liegen die erkalteten Leiber in diesem Heiligtum Angamons auf dieser Insel.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p946694"></a>
+				<b class="postauthor" style="color: #string">Des Meisters Mund&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=946694#p946694"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.01.19, 21:33&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 17.02.11, 21:45<br /><b>Beiträge:</b> 28				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">*Jorge Borgiacremo sucht zum Dunkeltief die Gardisten, die Recken der Brandensteiner Miliz  und auch vereinzelte Bürger in Finsterwangen auf. <br />Eindringlich spricht er zu den Männern und Frauen. Seine Rede mochte in etwa folgenden Wortlaut haben*<br /><br /><span style="font-size: 110%; line-height: normal"><span style="font-weight: bold"><span style="font-style: italic">Bürger des Lehen, Gardisten, Recken der Brandensteiner Miliz!<br /><br />Seid gewarnt vor den Worten jener Gefolgsleute des Fürsten Raziel, denn es sind falsche Propheten, deren Worte allein nur Lügen sind, so sie sich anmaßen zu behaupten, dass sie das Wort Angamons verkünden. Allein Verrat und Hinterlist ist es, was sich bisher durch ihre Taten offenbarte. Auf dem Eiland kungelten sie einst mit der galadonischen Brut und scheuten nicht davor zurück, Brüder und Schwestern unseres Glaubens niederzumetzeln, während sie auf dem Festland gemeinsam mit den cortanischen Heeren König Theobalds wider den Galadoniern zu Felde zogen im blutigen Ringen um die Vorherrschaft auf dem Festland.<br /><br />Als Ihr, tapfere Recken, diese Brut niedergerungen hattet in der Schlacht in den Ruinen von Falkensee, sahen diese Schlangen darin nicht das göttliche Zeichen unseren Herrn, dass der Pfad, den sie beschritten, der falsche, irrige Weg war. Weder Einsicht noch Demut war die ihrige Sache, sondern schmollend zogen sie sich zurück auf jene im Ödland gelegene Feste, welche sie nun Ewigwacht nennen. Zudem frevelten sie noch, in dem sie Feuer legten in Finsterwangen, und sie nahmen dabei in Kauf, dass durch dieses Tun Leib und Leben eines jeden Bürgers der Stadt Finsterwangen in Gefahr geriet.  <br /><br />Ihr seht an den Taten dieser Brut, die sich Tardukai nennt und von sich behauptet, von dem Willen des Herrn zu künden, dass all die Worte und Taten dieser Brut voller Falschheit und Trug sind. Nicht der Wille des Herrn ist es, der sie leitet in ihrem Tun, sondern allein die Gier nach Macht und Einfluss und die Eitelkeit. So ist es auch nicht verwunderlich, dass ein unbedeutender Magier, ein Emporkömmling es ist, der es vermochte, in und durch die Bruderschaft der Tardukai an Macht und Einfluss zu gewinnen, nachdem er Verrat begangen hatte an der Akademie von Finsterwangen, Verrat beging wider der Stadt Finsterwangen und damit Verrat beging an Euch alle. Doch damit nicht genug scheute er auch nicht vor dem Frevel zurück, heilige Sakramente aus dem Heiligtum Finsterwangens zu entwenden.   <br /><br />Ihr fragt mich, was  zu tun ist? Ich will es Euch sagen. Verteidigt diese Stadt Finsterwangen, in welcher sich findet das Heiligtum des Herrn. Verteidigt sie gegen jeden Feind und gegen diese falschen Propheten.  Erschlagt einen jeden dieser Nattern, so sie sich zeigen in dieser Stadt. Schlagt ihnen den Schädel ein und seid Euch gewiss, dass dieses Euer Tun  ist der Wille der Herrn. <br /><br />Zeigt, dass ihr allein es seid, die beseelt sind vom wahrhaften Glauben an Angamon, wie es einst jene waren wie Magister Valkun und Eminenz Dariel. Auch sie waren es, beseelt vom Glauben an Angamon, die nie verzagten im Kampf, um dieser Natternbrut zu schaden, wo sie es vermochten. Drum tut auch Ihr so und schart Euch um die, die da sind und die da wahrhaftig dienen dem einzigen und wahrhaftigen Gott.</span></span></span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8536"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p946751"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=946751#p946751"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 8.01.19, 23:06&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://cdn.pbrd.co/images/HVxW3Os.png" alt="Bild" /></div><br /><br /><div align="center">Ein Fest in Finsterwangen, was für eine eigenartige Vorstellung. Und dennoch, die Gäste scheinen sich den Bauch vollgeschlagen, reichlich getrunken und noch mehr Kraut geraucht zu haben. Doch Finsterwangen kann scheinbar nicht ohne Skandal, ein eine dämonische Dienerin im Schlepptau eines Orken lies zwei Elfen auf der Schwelle wieder umkehren?</div><br /><br /><div align="center"><img src="https://cdn.pbrd.co/images/HVxVVJQ.png" alt="Bild" /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p947197"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=947197#p947197"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 3.02.19, 22:07&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://vvcap.com/img/sBsiRUH7C.png" alt="Bild" /><br />In Finsterwangen gedenkt man Medicas.</div><br /><br />Vor dem Schrein ruft man sich die Taten des Professors ins Gedächtnis, auch wenn sein Schicksal nach der Entführung ungewiss ist. Als Gefährte im Kampf, als Säule der Stadt Finsterwangen, als einer der Verteidiger der Stadt zu einem Lichthoch, wo die Niederlage gegen das goldene Heer sicher erschien. Medicas hat sich als würdig erwiesen in den Augen der Gemeinde von Finsterwangen, nicht als eine Seele von unzähligen sich im Seelenfluss zu verlieren und in Vergessenheit zu fallen, sondern als einer der wenigen Auserwählten von Angamon in die Ewigkeit gerettet zu werden, als einer der vereinzelten Sterne an einem fernen Firmament am Ende aller Zeit.<br /><br />So brachten die Lebenden die Erinnerung des vermeintlich Gestorbenen ins Heiligtum von Finsterwangen, um seine Großtaten und seine Würdigkeit für diesen seltenen Segen zu bezeugen. Medicas Seele sei zu wertvoll, um sie dem diebischen Raben zu überlassen, so das Bekenntnis und die Überzeugung seiner Weggefährten. Aus den Händen der knienden Knochendienern nahmen sie die Gardeklinge, den Umhang und den Helm des Professors und legten diese Überbleibsel vorm Altar nieder. Und auch diese Lebenden erhoffen, im Tode sich als ebenso würdig zu erweisen, über den Tod zu triumphieren und dem Raben zu entkommen: Als Bekenntnis dieser Hoffnung zerschlugen sie die Skelette, diese Kreaturen aus Kochen und damit Symbole des unentrinnbaren Todes.<br /><br /><div align="center"><img src="https://cdn.pbrd.co/images/HZuMJIS.png" alt="Bild" /></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952267"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=952267#p952267"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 4.12.22, 22:57&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Im Schrein Angamons in Finsterwangen glitzern in dem Becken voll trüben Wassers vier Edelsteine, als wohnte in ihrem Inneren ein unnatürliches Feuer. Zwei Rubine glimmen im Wasser in blutrotem Schein, ein Smaragd glitzern in giftigem Grün und ein Diamamt scheint in eiskaltem Licht. Die Edelsteine sind Zeunisse einer Andacht zu Ehren der Gefallenen unter dem Banner Angamons und ein Versprechen an eine Gemeinde, dass Angamons Reich einst den Tod bezwingen und die Mauern des Totenreichs sprengen wird. Angamon verspricht ewiges Leben, die Rettung vor dem Tod und seine Gläubigen weigern sich ohne Kampf vor den heutigen Heren der Stille zu treten.<br /><br /><span style="font-weight: bold"><span style="color: #BF0000">Valkun... er vergoß das Blut unserer Feinde und riss den Tempel in Falkensee nieder. Als blutroter Stern leuchtet er uns den Weg. Wir erwarten seine Wiederkehr.</span><br /><span style="color: #004000">... sie diente auf verschlungenen Wegen und verführte manche Seele zur Sache Angamons. Giftgrün leuchtet ihr Stern, lockt und fängt neue Seelen. Wir erwarten ihre Wiederkehr.</span><br /><span style="color: #000080">Graf Nahar, mit scharfem Verstand träumte er von einer Heimat, die mehr ist als ein Versteck, und schuf uns Kairodun. Seine Seele leuchtet uns als kalter Stern den Weg. Wir erwarten seine Wiederkehr.</span></span><br /><br />Einer der Besucher der Andacht beanspruchte nach seinem Tode einen Platz an der Seite Valkuns als blutroter Stern. In einem Meer aus Blut erkämpfte er sich diese Würde schon zu Lebzeiten. Eine Besucherin nahm einen giftgrünen Smaragd mit nach Hause, in Demut wird sie den Richtspruch Angamons nach ihrem Tode erwarten und strebt dannach diesen Tag mit allen Mitteln rauszuschieben. Ein dritter Besucher lehnte ab, seine Vertrauen nach einem Leben nach dem Tod mit einem Edelstein zu bezeugen und vertraut vollkommen dem Urteil seines Herrens.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952450"></a>
+				<b class="postauthor">Tarlas&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Allerlei aus Finsterwangen</div><div style="float: right;"><a href="./viewtopic.php?p=952450#p952450"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 16.12.22, 22:31&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=2082_1465742156.gif" width="48" height="76" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 12.06.02, 19:27<br /><b>Beiträge:</b> 2990				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://i.postimg.cc/CLLmht3P/grafik.png" alt="Bild" /></div><br /><br />Ein seltener Anblick im Schrein Angamons: Streiter der Bruderschaft der Tardukai und Bewohner von Finsterwangen in einer gemeinsamen Predigt, ohne sich gegenseitig die Köpfe einzuschlagen. Noch seltener Besuch aber ein Ritter und zwei Begleiter. Sie verharrten für einen Teil des Rituals am Eingang des Heiligtums, unschlüssig vielleicht ob des Anblicks der Opferung einer Schlange, und zogen dann ohne weitere Worte vor dem Ende der Predigt wieder ab. Was sie wohl nach Finsterwangen getrieben hatte? Noch heute, einen Tag später, liegt der Schlangenleib und der abgetrennte Kopf auf dem steinernen Altar und noch heute klebt etwas Schlangenblut in der schwarzirdenen Schale.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=2082"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=107595&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=107595"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 16 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=107595"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

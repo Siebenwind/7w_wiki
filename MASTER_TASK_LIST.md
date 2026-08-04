@@ -6,7 +6,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** DEGRADED; lokaler Modell-/Indexcache fehlt, direkte Quellenprüfung bleibt der aktive Fallback (`MSG-2026-0192`).
 - **Last Handover**: 2026-08-04 (Codex → Next Agent)
-- **Status**: Der Forumprozess umfasst 201 registrierte Themen: 60 Volltexte sind archiviert, 54 davon integriert, fünf ohne Wikiänderung abgeschlossen und nur einer noch offen; 141 Themen liegen erst als Metadaten vor. Der aktuelle Wiki-Snapshot umfasst 1.397 Artikel und 95 vollständig getrackte Ingestion-Berichte. `audit --json` meldet `0` Issues, 32 erfasste Testsuiten sind grün und `drift_status = PASS`. Der semantische Pages-Rest liegt bei `624` unresolved / `622` unallowlisted, davon `611 needs_historian`. Der vollständige Lagebericht steht in `Logs/STATUSBERICHT_2026-08-04_FORUM_INGESTION_UND_BACKLOG.md`.
+- **Status**: Der Forumprozess umfasst 201 registrierte Themen: 101 Volltexte sind archiviert, 54 davon integriert, fünf ohne Wikiänderung abgeschlossen und 42 warten auf fachliche Sichtung; 100 Themen liegen erst als Metadaten vor. Der aktuelle Wiki-Snapshot umfasst 1.397 Artikel und 95 vollständig getrackte Ingestion-Berichte. `audit --json` meldet `0` Issues, 32 erfasste Testsuiten sind grün und `drift_status = PASS`. Der semantische Pages-Rest liegt bei `624` unresolved / `622` unallowlisted, davon `611 needs_historian`. Der vollständige Lagebericht steht in `Logs/STATUSBERICHT_2026-08-04_FORUM_INGESTION_UND_BACKLOG.md`.
 
 ---
 
@@ -25,6 +25,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [ ] **Pages-Linkbacklog nach `[[index]]`-Welle**: Nach der Platzhalterbereinigung ist der naechste operative Block der allgemeine Pages-Linkbacklog aus `./7w_wiki.py pages validate --contract --json`: zuerst `safe_exact_match` und `planned_fix`, dann `generic_term_conflict`, danach die `needs_historian`-Ziele.
 
 - [ ] **Review- und Scan-Restbestand schliessen**: `RESEARCH-2026-004` und `RESEARCH-2026-007` stehen weiter auf `IN_REVIEW_HISTORIAN`, waehrend der Forum-Scan fuer `2` allowlistete Boards als stale gilt. Der naechste Agent soll entscheiden, ob zuerst die Historian-Reviews publiziert/geschlossen oder die Foren-Pipeline reaktiviert wird.
+
+- [ ] **Nächster Forum-Historikerlauf – fünf Quellen (`MSG-2026-0229`)**: In dieser Reihenfolge `31020` (Hintergrundexkurse), `48524` (Die wahrste Wahrheit über Orken), `109905` (Ewigwacht), `107595` (Allerlei aus Finsterwangen) und `109867` (Neues Chaos auf Tevras Pfaden) bearbeiten. Drei Fälle sind `historian_required`, Ewigwacht ist ein `update_existing`-Fall und der Tevra-Thread muss vor einer möglichen Erzählungsneuanlage quellenkritisch geprüft werden; Details stehen in `Logs/Archive/SESSION_MEMORY_2026-08-04_FORUM_INGESTION_41_UND_HISTORIKERPAKET.md`.
 
 - [x] **Residual Bridge Decision Gate**: `MSG-2026-0089` ist abgeschlossen; `docs/Siebenwind_Wiki/00_Fundament/Arman_von_Draconis.md` verweist temporaer auf `[[Arman]]`, `bridge_inventory.invalid = 0`, und der fruehere P1-Blocker ist damit aus dem aktiven Fokus gefallen.
 
@@ -68,7 +70,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] **[MSG-2026-0034]** [P2][DEV] Workflow-Execute-Mode + Alias advisor: Integration von `--run` für start/takeover/handover und Alias-Normierung.
 - [x] **[MSG-2026-0040]** Test Suite Status: Tests in `/tmp` entkoppelt und JSON-Verträge etabliert.
 - [ ] **Massen-Ingestion**: Zwei offizielle Newsquellen stehen auf `pending`: `2025-10-30_Kuerbisschreck.md` und `2025-12-15_Ankuendigung_Dunkeltief.md`.
-- [ ] **Forum-Queue Batchweise verarbeiten**: Nach den Piloten weitere Forumquellen über `ingest forum-queue`, `forum-inspect`, `forum-draft` und `forum-finalize` bearbeiten. Aktueller Registerstand: `201` Themen, davon `60` volltextarchiviert, `54` integriert, `5` ohne Wikiänderung abgeschlossen, `1` Volltext offen und `141` nur als Metadaten vorhanden. Sämtliche früheren Historiker-Nachläufe einschließlich `110194` sind abgeschlossen. Als nächster vorgemerkter Metadatenkandidat bleibt `104857`; der einzige bereits archivierte offene Volltext ist `31020`.
+- [ ] **Forum-Queue Batchweise verarbeiten**: Nach den Piloten weitere Forumquellen über `ingest forum-queue`, `forum-inspect`, `forum-draft` und `forum-finalize` bearbeiten. Aktueller Registerstand: `201` Themen, davon `101` volltextarchiviert, `54` integriert, `5` ohne Wikiänderung abgeschlossen, `42` Volltexte fachlich offen und `100` nur als Metadaten vorhanden. Der jüngste Scout-Lauf archivierte `41` neue Themen ohne Fehler; nächster zulässiger Metadatenkandidat ist Topic `108636` (`Pflicht`). Topic `104857` wird wegen seiner bestehenden Dublettenentscheidung korrekt übersprungen.
 - [ ] **Lore Research Board**: Abarbeitung der offenen Ausschreibungen (Angamon, Ödland).
 
 ## 🔬 Aktuelle Lore-Ausschreibungen (Research Board)

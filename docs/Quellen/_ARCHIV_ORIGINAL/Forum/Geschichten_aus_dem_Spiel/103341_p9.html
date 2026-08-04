@@ -1,0 +1,2028 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Ein gewöhnlicher Diener der Viere</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '5');
+	var perpage = '30';
+	var base_url = './viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=103341&amp;start=120&amp;st=0&amp;sk=t&amp;sd=a">Ein gewöhnlicher Diener der Viere</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=103341"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>5</strong> von <strong>8</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 232 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Klicken Sie, um auf Seite … zu gehen">Gehe zu Seite</a> <a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=90">Vorherige</a>&nbsp;&nbsp;<a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=30">2</a><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=60">3</a><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=90">4</a><span class="page-sep">, </span><strong>5</strong><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=150">6</a><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=180">7</a><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=210">8</a> &nbsp;<a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=150">Nächste</a></b></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=103341&amp;start=120&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=103341&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=103341&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p932748"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=932748#p932748"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 4.01.17, 14:03&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Tendarion wagte es nicht oft aus egoistischen Gründen Guntram aus seiner selbsterwählten Suche nach Ruhe und Nähe zu Astrael herauszuzerren, aber in dieser Nacht ging es nicht anders. Und es war ihm gleich, dass er ihn dafür weckte. Es war ihm gleich, dass er Missfallen dafür in dem anderen hervorrief. Es war für Tendarion wichtig in genau jenem Moment mit einem Diener Astraels zu sprechen. Wäre der Inquisitor ihm auf persönlicher Ebene vertrauter, hätte er auch jenen geweckt. Doch Guntram konnte Tendarion genau das bieten was er suchte. Weisung, Rat und Objektivität, wenn Emotionalität Überhand zu nehmen drohte. Tendarion hatte gelernt zu fühlen, wann es anfing. Wann er an den Punkt geriet darüber nachzudenken alles hinter sich zu lassen. Wenn er diese überspitzte Sorglosigkeit einem jeden entgegenbrachte. Sogar dann wenn es ihm körperlich übel war vor Sorge. <br /><br />Die Mithilfe beim Palisadenbau, das gute Ziehen in seinem ganzen Körper, weil seine Muskeln über Gebühr beansprucht wurde, half ihm vieles zu kompensieren. Doch den Moment wo er alleine in der Schreibstube war oder in einer entspannten Umgebung, spürte er langsam und kriechend über seinen Rücken hinweg, sich in seinen Nacken verbeißend und dann fest um seinen Kopf krallend, diesen Schrecken, der sein ganzes Sein erfüllte, veränderte und Teile von ihm zerrissen hat, die die Viere selbst neu anordnen mussten, damit er seinen Weg noch klar vor Augen hatte. Bilder von Dämonen. Das außersphärische  Kreischen und Brüllen. Die Kinder der Schwertstreichs die hinter ihrem von widernatürlichen Gestalten verfolgten Vater hinterhergingen. Das Geschrei wider Vitamas von diesen Verrückten. <br /><br />Der Stich und Schmerz in seiner Brust als seine Mutter litt. Das Rauschen seines Blutes, das jedes Geräusch Tares lahmlegte. <br /><br />Das unmenschlich verzerrte Gesicht Guntrams. Der verdrehte Körper. Blut. Viel zu viel Blut.<br /><br />Absolute Ohnmacht. Verwirrung. Todesangst. <br /><br />Tendarion musste die Schreibfeder beiseite legen als von seiner plötzlich zitternden Hand ein Tintentropfen auf das Pergament herabfiel. Das Aufschlagen des Tropfens war lauter als das Gebrüll und Geschrei in seinem Kopf und er zuckte zusammen als er merkte, dass Maichellis ihn ansprach. Ein studiertes Lächeln und ein sachtes Kopfschütteln und er schob das ruinierte Pergament beiseite und machte sich daran einen weiteren der Aushänge zu vervielfältigen. Er sah die Blicke Maichellis'. Und er wusste was er dachte. Aber wie konnte man etwas heilen, was seit einem Götterlauf in einem schwelte? <br /><br />Normalerweise würde er sich dem Ordo Morsan anvertrauen. Doch Tendarion fiel in Ungnade. Normalerweise würde er sich dem Ordo Vitamae anvertrauen, aber auch hier hatte Tendarion zunehmend das Gefühl etwas angerichtet zu haben, das ihm zu Lasten gelegt wurde. Also war er ganz und gar auf die Diener Astraels angewiesen. Sachlichkeit in sein aufgewühltes Ich zu legen, in der Hoffnung, dass sie lauter war als sein Herz. Seinen Geist über sein Herz stellen. Und wenn sein Geist nicht stark genug war, seinen Körper an den Rand der Erschöpfung bringen. Angst in Mut umwandeln. Unsicherheit in Kampfeszorn. Panik in die Ruhe der Erschöpfung.<br /><br />Astrael war ihm ein Segen. Gefühle versagten zu oft. Gefühle verrieten ihn immer genau dann, wenn er sich am meisten auf sie verlassen wollte. Unberechenbar, nagend und schlängelnd umfassten sie seinen schnurgeraden Weg. Schufen Pfade die nicht da sein sollten. Schufen Abkürzungen, die er nicht gehen wollte. Und die Lianen und Winden trugen Dornen, die nicht seinen Körper, sondern seinen Geist zerrissen. <br /><br />Er hatte unbeschreibliche Furcht. <br /><br />Das nächste Pergament wurde hervorgenommen. Er schrieb weiter und ignorierte die Blicke des anderen. Doch er war wieder anwesend. Der Geist hatte obsiegt.<br /><br />Und mit dem Sieg kam die Erleichterung.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p932814"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=932814#p932814"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 6.01.17, 14:30&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Die Erleichterung als Diana endlich vor schierer emotionaler und körperlicher Erschöpfung einschlief konnte Tendarion nicht von sich weisen. Er wachte über den kurzen Schlaf des Marschalls und der jungen Dienerin der Herrin. Erst als er sicherstellen konnte, nachdem Maichellis wieder aufgestanden war, dass Diana unruhig aber fest schlief, machte er sich daran Guntram zu suchen. Wie zu erwarten war, war er im Allerheiligsten des Herrn doch war es nicht  zu übersehen, dass er keine Nähe wollte. Oder nicht in der Lage war zu zeigen was er wirklich wollte. So beschränkte sich Tendarion auf das was Guntram einen Götterlauf zuvor bei Tendarion tat: Schlichtweg nach bestem Gewissen für ihn da zu sein und ihn daran zu erinnern dass diese Gefühle, diese Einsamkeit, weichen würden.<br /><br />Tendarion machte eine einsame Runde durch die Schwärze. Half jenen die aufgewühlt oder verängstigt wirkten. Und trug seine Maske vor sich wie die Diener des Einen in all ihrem Irrsinn und ihrer Kleingeistigkeit eine Maske tragen mussten, weil sie dann das Spiegelbild ihrer selbst nicht sehen mussten. Tendarion dachte an Akelas und fühlte Wut. Warum tat er sich das an? Warum ließ er diesen so offensichtlichen Wahnsinn zu? Aber Tendarion kannte schon die Antwort. Es sind Fragen die er gestellt hatte, ehe er die Relevanz dieser Antwort verstanden hatte. Nicht jeder Wahn ist chaotisch und systemlos. Dieser geordnete Wahn war es, der den Einen so gefährlich machte. Diese perfekten Obsidianklingen unter all den schwarzen Scherben die zwar schnitten und Blut verursachten, aber keinen tarebewegenden Unterschied machten. Akelas war eine dieser Klingen. Und Tendarion hatte gehörigen Respekt davor. Er wagte sie nicht anzufassen, schon gar nicht herauszufordern - aber aus den Augen zu lassen? Das war indiskutabel.<br /><br />Tendarion ging wieder in den Schrein um Diana und den bald ausgewachsenen Luchs, der Tendarion ans Herz gewachsen war wie kaum ein anderes Tier, aneinandergeschmiegt zu entdecken. Zwei verängstigte Raubkatzen die Nähe suchten.<br /><br />Und Tendarions Herz wurde nur schwerer. Der Anblick riss ihn nicht aus dieser Leere die in ihm bedrohlich harrte. Der Moment wo Tulendrel das Auge Ajasendalla und den Mond Lyrenn verbarg, zerriss etwas in Tendarion. Und einer aufkeimenden Panikattacke zum Trotz harrte er schweigend aus. Als Tion sich näherte und seine Hand hob, senkte er mehr aus Instinkt seinen Kopf, als dass er realisierte, dass ein Segen über ihn gesprochen wurde. Die Worte aus Tions Mund waren wie von Wolle gedämpft. Ein Echo wie aus fernen Sphären und einer anderen Zeit. Etwas was Tendarions Ohren nicht erreichen sollte, da die ohrenbetäubende Leere nach ihm lautlos schrie. Ein Schrei der aus seinen Lippen hervorquellen wollte. Doch hörte er das kreischende aneinanderreiben der Kettenringe. Das vernichtend laute Knarren des Leders. Das nervenraubende Reiben an dem Holz der Fackel. Die Flammen die neben ihm loderten und wie ein Eissturm sein Sein wegreißen, vernichten und auffressen wollten.<br /><br />Er hörte ein Lachen durch die Sphären. Zerrütteter Wahn, blanker Hass und blinde Zerstörungswut. <br /><br />Tendarion wusste dass der Moment kommen würde. Aber er wollte nicht vor all diesen Leuten vergehen. Wollte nicht deutlich machen wie unendlich einsam und traurig er sich fühlte. Wie er am liebsten sich an den nächstbesten krallen wollte und um Nähe flehen wollte. <br /><br />Aber er merkte, dass Astrael nicht den selben Einfluss auf ihn hatte wie Vitama. Es wurde ihm nicht ein Wohlgefühl und Sanftmut entrissen. Es wurde nicht diese absolute Überzeugung entrissen, dass er jederzeit geliebt und geachtet wurde. Ihm wurde schlichtweg einfach nur ein gehöriges Stück Selbstbeherrschung beraubt. Er fühlte mehr als zuvor. Aber er fühlte sich nicht vollkommen ungeliebt. Sein Geist war klar. Er konnte noch Astrael dienen. Er musste nur diese Einsamkeit - diese absolute untröstliche Einsamkeit - verbergen. Dann könnte er stark sein für all jene die von ihren Emotionen übermannt wurden.<br /><br />Tendarion war von Vitama zu einem Werkzeug geformt worden. Astrael riss es an sich und schliff die Imperfektion aus den Kanten. Sie beide benutzten ihn so wie es ihnen beliebte.<br /><br />Doch zum Dunkeltief haben sie dieses Werkzeug verlegt und die Wartung durch sie fehlte. Doch was war ein Geweihter? Ein Werkzeug, dass in der Lage war sich selbst bis zu einem gewissen Grad zu reparieren, schleifen und der Situation angemessen anzubieten. Ohne die Viere war es unendlich schwer. Doch ohne die Sterblichen war das Werkzeug nutzlos.<br /><br />Und so stand Tendarion da und füllte all die Leere, die Ajasendallas schließen seines Auges hinterlassen hatte, mit einem kleinen Licht, das er mit wenig Brennmaterial, zum brennen brachte. Eine klitzekleine Windlaterne auf dem großen schwarzen Meer der Hoffnungslosigkeit.<br /><br />Er schloss die Augen. Und endlich konnte er, verborgen vor den wachen Blicken anderer, weinen. Vor Angst und Erleichterung.<br /><br />Die Hoffnung erlosch nicht, nur weil das große Licht nicht mehr schien. Die Hoffnung erlosch erst dann, wenn man die kleinen Lichter nicht mehr sehen wollte.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p932898"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=932898#p932898"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 9.01.17, 16:05&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Er zog eines der Felle enger um sich und versuchte das Zittern ein wenig unter Kontrolle zu bekommen. Das Holz der Rüstung bohrte sich, durch den kurzen und unbewegten Schlaf der Erschöpfung, den er sich gönnte, allmählich in seinen Körper. Doch fühlte er sich darin nach einem Dunkeltief, das er in eben jener Rüstung überlebte, etwas sicherer. Eine Verbindung zu seinem Volk. Etwas Normalität. Etwas was ihn jenseits des Flusses verbunden hielt. Er umfasste den Viereanhänger, der um sein Handgelenk gewickelt war und unentwegt wisperte er Gebete an die Viere, in den Momenten wo man ihn nur schweigsam bewachte. <br /><br />Keine Zweifel, keine Selbstvorwürfe.<br /><br />Seine Entscheidung war auch in dieser Situation noch richtig. Er hatte sich auf solche Situationen vorbereitet. Unentbehrlichkeit für die rechtgläubigen vorgetäuscht, indem er sich in den Vordergrund drängte. Und es hat sich bezahlt gemacht. Seine Widersacher auf beiden Seiten waren davon überzeugt, dass er sich überall einmischte, dass er alles in der Hand hielt. Der Schild vor den Rechtgläubigen, den er über einen Götterlauf hinweg geschmiedet hat, hat seinen Nutzen bewiesen. Er war nun abgenutzt und unbrauchbar, doch er hat gehalten als es entscheidend war. Er dankte Astrael für die Beherrschung seiner Emotionen als Maichellis sich anbot, Tendarion schützen wollte. Doch er ließ sich nichts anmerken. Wie gerne hätte er ihn angeherrscht, dass er gehen solle, da er viel zu viel preisgab. Aber Tendarion betete stumm. Beherrschung und innere Ruhe überkamen ihn. Und sie kamen alle frei. <br /><br />Erleichterung kam in dem Elfen auf. Ein weiteres Dankesgebet an die Viere wurde entsandt.<br /><br />Er wusste, er würde sterben. Der Gedanke schmerzte ihm, da er Vitama nach all ihrer Liebe und Güte, nicht mehr gerecht werden konnte, indem er sein eigenes Leben behütete und beschützte. Indem er aktiv das Leben anderer behütete und beschützte. Doch hoffte er inständig, dass die schlichte Notwendigkeit seiner Taten von Astrael anerkannt wurde. <br /><br />Ein leises Seufzen war aus der Zelle zu hören, das sich in einer Wolke kondensierten Atems vor ihm verflüchtigte.<br /><br />Selina war dem Tod geweiht, aber dieses Ende hatte sie nicht verdient. Nicht vor einer hysterischen Frau die das Feuer begeistert anschrie in der Hoffnung dass es dadurch heißer wurde. Nicht vor einen Haufen Geisteskranker die tanzen und singen wollten. Nein, sie hatte, ehe ihr von Khaleb geschenkter Hauch durch Ignis' zerstörenden Kuss aufgezehrt wurde, für eine hehre Sache gekämpft. Sie hätte mit Würde behandelt werden müssen. So hatte Tendarion sein Haupt gesenkt, nicht zu ihr gesehen, sondern ihr ein letztes Gebet gewidmet und ihr vergeben, da sie ein starker Mensch war, der nur den falschen Idealen folgte. Der klare Momente in all dem Wahn zeigte. <br /><br />Akzeptanz erfüllte den Elfen, als er ihrer gedachte. Er respektierte ihre Entscheidungen, doch wünschte er sich, dass sie diese auf dem Weg der Viere gefällt hätte. Eine verlorene Seele. Doch der Tod machte dafür keinen Unterschied.<br /><br />Tendarion hatte nicht erwartet in seiner Gefangenschaft schon wieder mit Guntram konfrontiert zu werden. Manchesmal hatte man das Gefühl, dass Guntram auf dem Festland leben könnte und man Tendarion dennoch in seinen Schatten stellen würde. Mühselig und enervierend. Aber was sollte man von Menschen auch erwarten? Es ging immer nur um jene die mehr Macht haben wollen und welche die sie bereits innehatten. <br /><br />Neid. Machtgier. Hass.<br /><br />So leicht zu reizen, jenes junglebige Volk. So schwer sie wieder zu erreichen, wenn sie an ihren Emotionen festhalten wollen.Tendarion wartete ergeben darauf, dass der Scheiterhaufen erneut aufgeschichtet würde. <br /><br />Und er betete.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p933006"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933006#p933006"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 12.01.17, 14:41&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Mit leerem Blick besah er sein Spiegelbild und das vernarbte Zeichen des Einen, das in perfekter Symmetrie auf seiner Stirn zu sehen war. Es würde Zeit in Anspruch nehmen, ehe es vollständig geheilt werden konnte. Das kurze Haar, das seinen Kopf so ungewohnt kahl wirken ließ, war allmählich ein gewohnterer Anblick geworden. <br /><br /><div align="center"><span style="font-style: italic">Du bist erwachsen geworden.</span></div><br /><br />Fernab jeder schützenden Hand die über ihn gehalten wurde, konnte Tendarion sich durchaus eingestehen, dass Rowen recht hatte mit diesen Worten. Er traf Entscheidungen und hatte dadurch Feinde erlangt. Man wollte ihn auf der einen Seite töten. Auf der anderen Seite ihn moralisch und emotional vernichten.<br /><br />Unterdrückung. Ablehnung. Systematische Zerstörung von all dem was Tendarion war.<br /><br />Leere erfüllte Tendarion bei diesen Gedanken. Keine emotionalen Höhenflüge mehr. All seine Gedanken erdeten ihn. Er war von Besonnenheit erfüllt. Sein Dienst über allem. Sein Dienst stand über ihn selbst. Niemanden wird er opfern. Niemanden auf einen Weg führen, der von den Vieren fortführte. <br /><br />Doch es gab keine Perfektion.<br /><br />Man musste versagen, gehasst und verachtet werden, um zu verstehen wofür man kämpfte. Man musste leiden, Schmerzen fühlen und sich Schwäche ergeben, um zu verstehen, wie erstrebenswert das Licht war. Er wartete auf die Schläge, Tritte - die schneidenden Worte. Das rechte Urteil, das über ihn, seiner Taten wegen, gesprochen würde. <br /><br />Er dankte Astrael, dass er diese Lektion erfahren durfte.<br /><br />Ein Bündnis, das aberwitzig, fernab jeden rechten Wegs und doch für das große Ganze essenziell war. Und er würde dafür kämpfen, das nur sein Gesicht diese Aktion trug. Das nur er es war, der die Fäden sponn. Er hatte die richtigen Karten ausgespielt über einen Götterlauf hinweg. Und all seine Trümpfe waren nun hinfort. <br /><br />Ein Lächeln zeigte sich auf Tendarions Lippen.<br /><br />Das Stirnband über seine Stirn legend, richtete er sein Haar mit wenigen Handgriffen. Es war praktischer so, musste er sich eingestehen. Vielleicht, würde er sein Haar so beibehalten. Er war nicht mehr der naive Diener Vitamas der von allen geachtet wurde. Er war ein wahrer Diener der Viere geworden. Bereit alles weltliche abzulegen um Transzendenz zu finden. Bereit alles weltliche abzulegen, um einzig allein dem großen Ganzen gerecht zu werden. <br /><br />Und er fühlte sich noch nie so angekommen, wahrhaft geliebt und seiner Sache sicher, wie in jenem Moment.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p933057"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933057#p933057"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 15.01.17, 14:26&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Es war seltsam auf den Tod zu warten.<br /><br />Seiner Magie beraubt. Seinem Umfeld  beraubt. Sein Todesurteil nur wenige Wochenläufe entfernt. Tendarion fühlte zum ersten Mal in seinem Leben wie es sich anfühlen musste ein alter Mensch zu sein. Der seine Familie überlebte und nur noch auf Galtors unausweichliche Hand wartete. Doch wurde ihm gleichsam bewusst, dass man Frieden mit dieser Erkenntnis schließen konnte. Tendarion hatte seinen Frieden mit Galtors und Morsans Aufgabe geschlossen. Es gab keinen Grund des Selbstmitleids oder des Grolls. Nur Vitama gegenüber fühlte er eine tiefe Schuld. Er ist in eine Schlacht ausgeritten, die nur mit seinem Tod enden konnte. Egal ob er die Schlacht selbst gewonnen hätte oder nicht. Das wusste er von Anfang an. Aber er hat es verschwiegen, um seine Bereitschaft die Seelen anderer über sein persönliches Wohl zu stellen zu verdeutlichen.<br /><br />Doch Eidbruch in der Inquisition war nichts, was mit einer Ermahnung abgetan wurde. Eidbruch war nichts, mit dem sich ein Diener Astraels auf seinem Weg brüsten sollte. Astrael war wohl weit weniger enttäuscht von seiner Entscheidung als Tendarions Umfeld, denn er wusste von Tendarions Bereitschaft dafür in jeder erdenklichen Art zu büßen.<br /><br />Das Zeichen des Einen auf der Stirn zu tragen. Jedweden Respekt vor anderen zu verlieren. Das Unvermögen jemals wieder der Kirche dienen zu dürfen. Und das unausweichliche Urteil des Inquisitors.<br /><br />Tendarions unorthodoxes Handeln und ketzerisch anmutendes Tun hatte System. Alles was er vorberechnet hatte, war eingetroffen. Alles was er vermutet hatte, hatte mit wenig Veränderungen im Endeffekt stattgefunden. Vitama war ihm nach wie vor hold. Astrael hat ihm nicht den Rücken gekehrt. Tendarion spürte diese Zufriedenheit, dass die Sterblichen ihn ablehnten - gar hassten - aber die Viere einfach wussten, dass Tendarion schlichtweg jede Mauer erklomm, egal wie viele Steine darauf geschichtet wurden. Und jene die wirklich Tendarion sahen, die mehr in seinen Worten als Manipulation sehen wollten, lehnten ihn noch immer nicht ab. Er würde einem letzten Brief an seine Familie schreiben, denn der Tag seines Todes war nun vorhersehbar. Ein Abschied bei dem alles gesagt wurde, würde allen leichter fallen.<br /><br />Doch konnte er nicht leugnen, dass er sich wie auf einem freien Platz fühlte, umgeben von Armbrustschützen, die mit einem selbstgefälligen Lächeln auf den Lippen darauf warteten, dass der Befehl zum Schießen gegeben würde. <br /><br />Und dennoch regte er sich keinen Deut.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p933089"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933089#p933089"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 18.01.17, 17:22&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><span style="font-style: italic">&quot;Hass ist in allen Aspekten der Gegensatz zu Liebe. Doch wie auch die Liebe, kann man Hass nicht ablegen. Doch schwindet ein Geliebter, so kann man von den positiven Erinnerungen zehren. Schwindet das Objekt des Hasses? So verbleibt nur Leere die danach trachtet gefüllt zu werden mit erneutem Hass.&quot;</span></div><br /><br />Die Gedanken geleiteten Tendarion den ganzen Morgen über. Man hatte Angst davor ihm dies zu lehren. Ihm Hass beizubringen. Jener Elf der es noch immer nicht verstand. Er kannte mehrere Variationen von Abscheu. Aber ein Gefühl, das einen so einnimmt, dass alles andere gleichgültig war? Das kannte Tendarion nicht. Er konnte stets loslassen. Und auch in dieser Situation konnte er es. Doch man wollte sich verbissen in ihn krallen. <br /><br />Tendarions Herz blieb von Tag zu Tag immer unberührter davon. Worte wurden hinterfragt. Aber keiner wusste Argumente zu nennen. Ein Nebelschleier aus Emotionen der mit keinerlei Rationalität aufzuklären war.<br /><br /><div align="center">~~~</div><br /><br />Dùlindwen zupfte an einem seiner Zöpfe den sie zuvor geflochten hatte. Tendarion verzog schmerzvoll das Gesicht und sah missgestimmt zu ihr auf. Ein Heben der Brauen seiner Schwester sorgte nach einigem Zögern seinerseits dafür, dass er den Blick ergeben absinken ließ. So nahm sie das Kämmen und flechten seiner Haare wieder auf. Wie lang musste das zurückgelegen haben? Vierzig Götterläufe? Doch Tendarion hielt die Worte, die viele seiner nachfolgenden Entscheidungen prägten, noch immer klar im Geiste..<br /><br /><span style="font-style: italic">&quot;Du bist nicht einer. Deine Meinung steht nicht über der anderer. Deine Meinung sollte sich stets mit dem Volk, mit Tare vereinbaren können. Du bist der Meinung richtig zu liegen, während der Rest sich auflehnt? Dann überdenke dich und nicht die Taten anderer. Du bist dann noch immer der Meinung, etwas muss getan und verändert werden? Dann kämpfe dafür aber ziehe nur jene mit, die sich dir anbieten, nachdem sie dich anhörten. <br /><br />Du hast kein Anrecht darauf angehört zu werden. Und genauso wenig hat jemand das Anrecht darauf darüber zu bestimmen wie du etwas beurteilst oder wie du dich fühlst. Deine Gedanken gehören Astrael. Deine Gefühle Vitama. Dein Handeln Bellum. Deine Seele? Einzig und allein Morsan. Und den Moment wo du eins davon als allein dir gehörig deklarierst, versündigst du dich an den Vieren. Den Moment wo jemand sich dieser Dinge bemächtigen will, stellt er sich über die Viere.<br /><br />Handle mit Bedacht um dich - als ein Geschenk der Viere an Tare - nicht der Dunkelheit zu ergeben. Handle in Weisheit um weder dich noch andere zu opfern. Und wenn du ein Opfer geben musst, dann lass es nie für einen einzelnen sein. Nie für dich. Nie für einen Geliebten. Sondern stets im Sinne der Gemeinschaft, im Sinne der Viere, im Sinne des großen Ganzen.&quot;</span><br /><br />Tendarion schloss die Augen als seine Schwester die langen Haare zu einer aufwendigen Frisur flocht, drehte und schließlich mit einem Diadem verzierte. Leise Worte drangen von seinen Lippen. So leise, dass er wusste, dass nur sie es hören konnte.<br /><br /><span style="font-style: italic">&quot;Du weißt, dass ich ihm nicht grolle. Aber ich verstehe seine Erwartungen nicht. Vater ist immerzu nur dann zufrieden, wenn ich nicht ich selbst bin. Und ich frage mich, ob nun ich im Unrecht bin oder er?quot;</span><br /><br />Die Elfe hielt inne und wandte sich um ihren kleinem Bruder. Das vitamagefällige Kleid, das kaum ihren Leib verhüllte, sondern mehr sehen als erahnen ließ, hatte er nun direkt auf Augenhöhe. Keine Scham oder Verlegenheit keimte in ihm auf, als er den so offensichtlichen Unterschied zwischen einer männlichen und einer weiblichen Brust so präsentiert bekam. Ein schöner Leib, der es wert war behütet zu werden, da das Herz das in dieser Brust ruhte das schönste war was dieses Wesen vor ihm je tragen könnte. Als er merkte, dass er einen Moment zu lange auf ihre Brust in seiner Gedankenverlorenheit starrte, zupfte wieder eine hartnäckige Hand an seinem Zopf und er sah etwas geknickt hoch.<br /><br /><span style="font-style: italic">&quot;Tendarion, mein geliebter Bruder, du kannst nicht jedem gefallen. Und manche werden dich für das verachten was du bist und wieder andere werden dich dafür verachten, dass du dich verstellst um jenen zu gefallen, die dich nicht wollen wie du bist. <br /><br />Ich denke, es ist an dir zu entscheiden, welche Seite dir wahrlich wohlgesonnen ist. Und was Vater anbelangt,... nun, er lehrt dich damit umzugehen. Du bist jemand der sich zuviel mit Menschen, seiner Meinung nach, abgibt. Und er will dich vorbereiten auf das unvermeidliche. Du wirst verstehen, was er tut, wenn du dich in einer Situation befindest, wo du dich an genau dieses Gespräch und all das was Vater dir stets sagte, erinnern wirst, als wäre es dir erst gestern gesagt worden. Wobei es natürlich nun wenig Wirkung hat wenn es tatsächlich morgen eintritt.&quot;</span><br /><br />Und ihr ansteckendes Lächeln, war ein Bann dem sich auch Tendarion nie entziehen konnte und er erwiderte die Mimik aufrichtig.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p933132"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933132#p933132"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 20.01.17, 14:05&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Er hatte vergessen wie schwer die Robe zu sonstiger Kleidung war, doch stellte er fest, dass sie sich, im Vergleich zu der Kettenrüstung die er tragen musste,  wie ein Hauch eines Seidenschleiers anfühlte. Vielleicht war es auch dem Umstand geschuldet, dass sein Körper deutlich von den körperlichen Übungen gestärkt war. Oder war es schlicht die Anspannung, die aus seinem Körper wich?<br /><br />Nicht einen Moment vergaß er, was ihm bevorstehen würde. Nicht einen Moment fühlte er sich in Sicherheit gewogen. Aber diese Robe hatte eine Funktion. Sie gab Tendarion einen Zweck, eine Aufgabe. Und gleichsam waren es die Zügel die er brauchte, da er keine Rücksicht auf sich nahm, wenn er nicht jemand anderen verpflichtet war. Er hatte den Ruf des Ordens und der Kirche nun zu wahren. Die zwei etwas außer Rand und Band geratenen Vitama-Anwärterinnen wieder etwas mehr in eine Bahn zu lenken, die ihnen nicht klar vor Augen war. Mit Logik, Wissen und Verständnis die überquellenden Gefühle eindämmen, auf dass sie im gesunden Maß, an richtiger Stelle, zum richtigen Zeitpunkt zu tragen kämen.<br /><br />Eine schwere Aufgabe, an der er schon einmal mit wehenden Fahnen gescheitert war. Doch er hatte seine Fehler nicht nur erkannt, sondern auch viel Erkenntnis daraus gewonnen. Wer an Gefühlen festhalten wollte, sollte fortgeschickt werden, bis er selbst erkannt hatte, dass er es selbst war der sich im Weg stand. Und das galt für Tendarion selbst genauso. Fühlte sich etwas gezwungen oder wenig ergiebig an, so sollte man schweigen oder sich zurückziehen. Man konnte nur als Trommel benutzt werden, wenn man das Fell selbst spannte. <br /><br />Wie dankbar war er Morsan für seinen Segen der ihn begleitete seit er seine Gefangenschaft hinter sich brachte. Sein Herz war nicht verschlossen und dennoch war jedweder Frust gewichen. Er fühlte sich durch die öffentlichen Erniedrungen nicht mehr tangiert. Einzig und allein Analyse und das sachliche Hinnehmen erfüllten ihn. Auch wenn er enerviert war, weil es sich wie ein Kinderspiel anfühlte, das nur von einer Seite krampfhaft aufrechterhalten wurde. Das konnte er dann doch nicht von sich weisen.<br /><br />Er fegte den Gedanken fort. Er hatte Guntrams Aufgabe zu erfüllen. Das war bei weitem wichtiger, als dieser bedeutungslose Kleinkrieg.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p933321"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933321#p933321"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 29.01.17, 13:56&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Ein letzter Abschied. <br /><br />So fühlte sich der Abend und die Nacht an. Und wieder wurde bestätigt, durch eine unschuldige Aussage seines Bruders Meralis, dass es sinnvoll war einen Abschied anzustreben von allem was ihm wichtig war. Er würde brennen.<br /><br />Welche Ironie er darin sah, dass der Erste der durch die Inquisition hingerichtet würde kein Ketzer war, sondern ein Diener der Viere. Tendarion verabscheute den Gedanken eine Art Märtyrer zu werden. Aber noch mehr würde er den Gedanken verabscheuen, dass man ihn der Ketzerei und Mithilfe von Ketzern anklagen würde. Mit diesem Gedanken könnte und wollte er nicht leben. <br /><br />Doch noch hatte er einen Tag zu leben. Und er würde ihn nutzen. Er würde versuchen noch Informationen einzuholen um sie an die Inquisition weiterzuleiten. Er würde versuchen noch Dinge zu klären. Wogen zu glätten. Doch stellte er fest, dass dies nicht mehr erreichbar schien. Aktionismus würde wenig bewirken. Er musste geordnet vorgehen. Prioritäten setzen. Etwas was andere für ihn stets übernahmen. Doch hatte er die Emanzipation von allem und jedem angestrebt und neue Prioritäten für sich auserkoren. Handeln anstatt zögern. Bestimmen anstatt lange zu debattieren.<br /><br />Er war Heiler. Es gab für ihn keine Welt in der er Zeit hatte nachzudenken über das was vor ihm stand. Zögern bedeutete den Tod eines Patienten. Unbedachtheit und Aktionismus ebenso. Ein schmaler Grat zwischen ständigem Fehl und daraus lernen und absoluter Gewissheit das einzig richtige zu tun. Und nun würde ihm genau das sein Leben kosten. Er hatte eine Operation durchgeführt, bei der er sich nur selbst geschnitten hatte und nun darauf angewiesen war, dass andere bestimmten ob er verbluten würde oder nicht.<br /><br />Er fühlte sich bereits ausgeblutet. Zermürbend war es nur noch zu erfahren, dass man von ihm nichts als Asche übrig lassen wollte. <br /><br />Noch lange, ehe Maichellis nach den Kampfübungen sich zu seinem Dienst zurückziehen musste, vollführte Tendarion unermüdlich, wenn auch deutlich von Muskelschmerzen ubd Atemlosigkeit geplagt, den Schwerttanz an der freien Fläche im Wald westlich Brandensteins durch. Sein Körper wollte nicht untätig sein. Er wollte Bellum und Vitama beweisen, dass er sich zwar dem Recht fügen würde, aber bis dahin nicht aufhörte zu leben. Auf sich zu achten. Gerechtigkeit war subjektiv. Aus Sicht der Inquisition und jener die Tendarion verachteten, war sein kommender Tod mehr als gerechtfertigt. Doch hatte er sich daran gewöhnt, dass die Insel von Recht nichts wissen will. Recht war ein gutes Mittel um seine subjektive Gerechtigkeit durchzusetzen. Ansonsten war Recht unangenehm, eine Last und ungerecht.<br /><br />Tendarion diente dem Recht. Er würde das Urteil möglicherweise als ungerecht empfinden, wenn er die vollständige Erklärung dazu bekäme. Aber das war irrelevant. Recht hat keine Emotionen. Recht ist. Und Tendarion konnte nur beweisen, dass er wahrhaft Astrael diente, wenn er für sein Recht kämpfen würde, aber das Urteil dann auch akzeptierte, wenn seine Verteidigung ungenügend wäre. Und er wusste dass seine Verteidigung schwach war. Aber er würde das einzig sinnvolle tun: Rat erteilen, warum so vieles schief gegangen war und wie man besser damit hätte umgehen können und Rede und Antwort stehen. Alles andere war sinnlos. Emotionen waren sinnlos für soetwas Unausweichliches wie den Tod.<br /><br />Er ließ sich schwer atmend rücklings in den Schnee fallen und besah Rilamnors Leib. Sein Blick fiel auf Ajasendalla. Möglicherweise besah er ihn in diesem Moment das allerletzte Mal. Seine Augen brannten verdächtig.<br /><br />Die Augen schlossen sich und er betete.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p933348"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933348#p933348"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 31.01.17, 12:40&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><span style="font-size: 85%; line-height: normal"><a class="postlink" href="https://youtu.be/gw9fKuymA0I" target="_blank">Hintergrundmusik</a></span></div><br /><br />Und Astraels Auge sollte Tendarion fortan tatsächlich nicht mehr sehen.<br /><br />Die verbalen Anweisungen der Gardisten befolgend, als er verwirrt und desorientiert im absoluten Dunkel tappte, fühlte er sich entwürdigt und erniedrigt. Er steuerte direkt auf eine Wand zu, die Worte des Mannes, den er nicht einmal namentlich kannte, drangen zu ihm wie durch einen Schleier. Ein leises Schluchzen der Überforderung und Hilflosigkeit entkam ihm und er irrte weiter. Führungslos und - er musste es sich eingestehen - ziellos irrte er dann weiter. Eine Erhebung im Boden ließ ihn stolpern. Ein Stein verkeilte sich unter seinem Stiefel und er wäre fast daran ausgerutscht. Der Frust stieg. Und mit ihm die Angst. Doch verging der Moment, als er Maichellis' Stimme hörte. Schlagartig wurde Tendarion daran erinnert, dass er lebte. Seine Würde war irrelevant. Er lebte. Er konnte sich erneut beweisen. Die Stimme des anderen Elfen von Verwirrtheit und schließlich unterdrückten Zorn gepresst, erinnerte ihn an alles wofür Tendarion je lebte und kämpfte. <br /><br />Er wurde nicht entwürdigt. Keine Ketzerei warf man ihm vor. Man hat ihm Gnade erwiesen. Und er war fortan von jeglicher weltlichen Schuld befreit. Alles andere musste er mit sich und den Göttern selbst ausmachen.<br /><br />Als er die Wärme des anderen Fey spürte, war Tendarions einziger Gedanke in den Schrein der Herrin umgehend zu gehen um ihr zu danken. Und das ist es was er tat. Er erkannte seine eigene Stimme nicht, als die Worte träge und etwas lallend von ihm kamen. Ein beständiger Druck pochte an seiner Stirn. Die wenigen klaren Gedanken die er hatte, analysierten seinen Zustand aus einer losgelösten Perspektive. Der Perspektive eines Heilers.<br /><br />Ein leichter Brandgeruch haftete seinem Gesicht an, doch war sein Gesicht selbst unversehrt. Die Augen allerdings waren verborgen. Es roch nach reinem Alkohol. Eine Ginsenglösung wurde benutzt. Man hatte ihn fachmännisch miss- und behandelt. Sein Geist war von der Betäubung benebelt. Doch die Dumpfheit des Schmerzes, ließ darauf schließen, dass man ihm auch schmerzbetäubende Substanzen gab.<br /><br />Tendarion berechnete im Geist die Dosis an Nachtschatten die er später noch zu sich nehmen könnte, ohne dass er sich damit selbst umbrachte. Er könnte in einem Zyklus eine weitere Dosis nehmen um sicher zu stellen, dass der volle Schmerz nicht hervorbrach, ehe Diana sich seiner annehmen könnte. Und so wies er Edelmut an. Wäre er ganz bei Verstand gewesen, hätte er sich einem Alchemisten oder anderen ausgelernten Heiler anvertraut, da die Möglichkeit, ihn schlichtweg mit einer Überdosis umzubringen mehr als greifbar war. Aber zu Edelmuts Glück, war er es nicht. Und der Elf überlebte tatsächlich diesen Tag, nachdem er blind darauf vertrauen musste, dass sie seine Anweisungen penibel eingehalten hatte. <br /><br />In seinem benebelten Geist, der seine Emotionen ebenso dämpfte wie seinen Schmerz, beschwichtigte er bekannte Stimmen, die von Zorn verzerrt waren. Sie alle versuchten vor ihm zu verbergen, was er nicht sehen konnte, doch das leichte Zittern ihrer Stimmen, oder der keineswegs zurückgehaltene hörbare Zorn, verzerrte die Stimmen derart, dass er erahnen konnte, wie sie ihn ansahen. Doch er ließ sich nichts anmerken. Beschwichtigung war sein oberstes Ziel. Er wollte nicht noch schwächer vor Dunquert dastehen, indem man Tendarion vorwerfen konnte, dass er nun gegen die Inquisition predigte.<br /><br />Egal wie sehr man ihm Eidbruch vorwarf. Er hatte nicht einmal die Inquisition verraten. Und er würde sich auch weiterhin an den Eid halten. <br /><br />Und so tadelte er jeden, der gegen den Inquisitor sprach. Ermahnte von Rachegelüsten Abstand zu nehmen. Aus einer unpersönlichen Sache keinen persönlichen Feldzug zu machen. Immer wieder erwähnend, dass er lebte. Und wer lebte, konnte Dinge wieder richtig stellen. Wer lebte konnte Gnade erwarten. Tendarions Vertrauen in die Götter war ungebrochen. Sollte er fortan ohne seine Magie und blind seinen Dienst vollrichten, dann war er genau so von Astrael gewollt. Dann sollte er genau so sein um ein Exempel zu statuieren an jenen, die alles hatten und dennoch an den Göttern zweifelten. Wer immer nur dann glaubte, wenn er davon profitieren konnte, glaubte nicht. Er war dann nur berechnend, selbstverherrlichend und wollte sich bereichern. <br /><br />Tendarion wusste, dass er stets an der Grenze zum Hochmut diente. Dass er Wände einriss, die andere hochziehen versuchten. Dass er nicht zögerte sich von einer großen Menge abzuwenden um in die genau gegengesetzte Richtung zu gehen. Und dass er niemanden davon abhielt, der diesem Beispiel folgte, sondern schlichtweg an der Hand nahm und weiterzerrte. Er war den Göttern gegenüber demütig. Sein Vertrauen absolut. Doch die Menschen haben ihn immer und immer wieder enttäuscht. Immer dann wenn er meinte, seinen Frieden mit ihnen geschlossen zu haben, vollführte einer von ihnen etwas, was diesen Frieden in Unmut, Hilflosigkeit und Zorn kehrte. Die Menschen hassten Tendarions Hoffnung und wollten sie zerstört wissen. Mit Tritten und Worten wirkten sie auf ihn ein. Und dennoch stand er immer wieder auf und bot ihnen die Stirn. <br /><br />Sie wollten ihn demütig und merkten nicht, wie sehr sie dafür sorgten, dass er nicht demütig sein konnte. Solange er liegen blieb, waren andere die Ziele der Tritte und Worte. Und das konnte und wollte er nicht zulassen. Tendarion bezog seine Kraft nicht aus seinem eigenen Wohl. Er liebte sich. Er liebte die Viere. Und er liebte eine jede ihrer Schöpfungen. <br /><br />Und wer sich an ihnen vergehen wollte, musste Tendarion zunächst vollständig vernichten.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p933356"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933356#p933356"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 1.02.17, 13:53&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Das Glöckchen bimmelte leise als er die Schritte um sich herum bewusst anhörte. Er sollte ein Gefühl dafür bekommen, wo der andere das Schwert hielt. Mal war der Glockenklang etwas höher, mal tiefer. Mal näher an ihm, dann weiter entfernt. Maichellis wiederholte das Spiel solange, bis Tendarion ein angedeutetes Nicken erfolgen ließ. Er hatte sich die Klangunterschiede eingeprägt. Jetzt war es an ihm seine Bewegungen, seine Schwerthand und alles was damit einherging vollkommen neu zu koordinieren. Er hatte bereits Intuition durch das nun mondelange üben. Sein Körper vollführte den Schwerttanz ohne dass sein Geist daran beteiligt war. Es war zu einer geistig losgelösten Übung geworden, die seinen Körper forderte. Sein Geist konnte dabei ruhen.<br /><br />Immer wieder prasselten die Hiebe des stumpfen Tra'avain-Schwertes des anderen auf ihn ein. Er verlangte nicht geschont zu werden. Sein Körper war die harten Schläge bereits gewöhnt. Schonung würde ihn nur wieder schwächen. Jeder Schmerz den er nun fühlte, war das letzte Maß an Motivation seine Koordination zu verbessern. Er wusste dass er nie wieder einen ernsthaften Kampf fechten werden würde. Er wusste dass er nie wieder schreiben könnte. Nie wieder lesen könnte. Nie wieder sein Umfeld und Tevras und Vitamas gemeinsame Schöpfungen besehen konnte. <br /><br />Vielleicht war es so, dass Astrael ihm in ein paar Jahrzehnten oder Jahrhunderten vergab. Aber dann waren sie alle tot. All die Menschen. Anwyn, Maichellis und Myrandhir verblieben ihm dann. Drei gewohnte Anblicke in einer für ihn fremdgewordenen Welt. Er wollte Diana noch malen. Maluk ebenso. So wie er Guntram malte. Nie hätte er es laut gesagt, aber ihm war bewusst, dass sie es geahnt hätten, warum er diese Bilder malen wollte. Menschen festhalten in der vollen Blüte der Gefühle. Und damit nicht nur ihr Antlitz verewigen, sondern auch die Erinnerung an die gemeinsame Zeit.<br /><br />Aber das wurde ihm genommen. Und Diana hat ihm nun zwei Tagesläufe hindurch den letzten Rest an guten Erinnerungen an sie genommen. Er hatte nur noch Angst in ihrer Nähe. Jetzt wo er wusste, dass er sie regelrecht emotional misshandelte, konnte er sich selbst nicht mehr ertragen. Konnte nicht verstehen, wie sie es ertrug. <br /><br />Als er mit einem Mal schmerzhaft auf dem Rücken aufkam und ihm die Luft aus den Lungen gepresst wurde, hörte er Maichellis Stimme, die forsch wie immer war, wenn Tendarion unkonzentriert war. Doch das leise Zittern in jener verriet Tendarion, dass er die Forschheit erzwingen musste. Mitleid, Trauer, Zorn und Hilflosigkeit waren in Maichellis jeden Wort zu erahnen, seit zwei Tagesläufen. Doch Tendarion mühte sich darum den ahnungslosen zu mimen. Es war erstaunlich einfach seine Miene starr zu halten, wenn man seinen Blick, der die Gefühle zu oft offenbarte, nicht mehr abwenden musste.<br /><br />Er rappelte sich mit der Hand des anderen auf. Und wieder gingen die stumpfen Schwerthiebe auf ihn nieder. Keinen einzigen Hieb konnte er ausweichen. Keinen einzigen Hieb blocken. Er wurde regelrecht verprügelt, während er orientierungslos versuchte dem schnellem Klang des Glöckchens zu folgen. Doch seine Reflexe waren bei weitem nicht ausgebildet genug um angemessen zu reagieren. Er war noch lange kein guter Kämpfer. Das wurde ihm nur allzu sehr bewusst. Frust stieg in ihm auf.<br /><br />Ein lautes Knallen - Holz gegen Holz - erschallte über der Wiese als ein Treffer am Rücken Maichellis aufschlug, hervorgerufen durch Tendarions ausladenden wuchtigen und zornerfüllten Seitenhieb. Absoluter Frust. Pures Glück. Maichellis beendete die Kampfübungen. Ein kleiner unabsichtlich herbeigerufener Erfolg sollte Tendarion vergönnt sein. Jede weitere Übung hätte den Erfolg nur künstlich verschmälert. <br /><br />Er ließ sich in das Bad geleiten und eröffnete ihm, dass er Elgbert darum bitten solle Edelmut auszurichten, dass er sich für unbestimmte Zeit zurückziehen würde. Der Zorn der ihn umringt, stahl ihm jede Hoffnung. Er konnte nicht mehr für andere da sein, wenn sie ihn behandelten als wüssten sie besser was Tendarion gut täte.<br /><br />Er wollte geistig gefordert werden. Ruhe und Rationalität suchen. Weg von Emotionalität. Er war ein Diener Astraels. Keine Entscheidungen mehr, die durch Emotionen veranlasst wurden. Egal wir sehr Diana darauf bestünde, dass sie ihm half, so merkte Tendarion dass er gestern den letzten Rest an Hoffnung durch ihre Worte verlor. Den letzten Rest, der verstand warum er noch lebte. Warum er noch leben wollte. Er hoffte, das Guntram ihm dabei verhelfen konnte diese Scherben wieder zu etwas neuem zusammenzusetzen. Das war sein einziger Antrieb. Wenn es ein so hoher Diener seines Herrn es nicht schaffte, war Tendarion nicht mehr in der Lage zu dienen. <br /><br />Denn dann wäre seine Seele bei Morsan besser aufgehoben.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p933396"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933396#p933396"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 3.02.17, 15:16&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Nach drei Tagen hatte er endlich einige harmonisch klingende Akkorde durch das ständige herumprobieren - das Guntram womöglich schon bald in den Wahnsinn treiben würde - entdeckt. Noch beschränkte er sein Erforschen und Analysieren der Geige auf das Zupfen der Seite und ließ den Bogen vollkommen außer Acht. Dies minimierte somit die Lautstärke des zyklenlangen Klangterror des Übens um ein vielfaches. <br /><br />Wie gerne würde er einfach im Ordenshaus sitzen und Unterrichte abhalten. Wie gerne in der Taverne mit anderen philosophieren. Aber es wurde ihm verwehrt. Logisch war es nicht im geringsten. Warum sollte man alle Anwärter, Novizen und das Volk bestrafen nur um einem Novizen eines auszuwischen? Tendarion versuchte den Sinn des Ganzen nicht mehr zu hinterfragen. Also übte er weiterhin mit seiner Geige. Unterhielt sich mit Guntram. Verfasste mit ihm Schriften. Beschäftigte sich mit den Dingen die das Volk nach wie vor an Tendarion herantrug.<br /><br />Wenn man ihn nicht als Hilfe für die Kirche wollte, so machte er sich einfach da nützlich wo man ihn explizit um Hilfe bat. Und die erste Zurückhaltung ob seiner Blindheit wich allmählich aus seinem Umfeld. Der Zorn wich aus vielen Stimmen. Man sprach wieder über andere Dinge. Wichtige Dinge. Nicht über verletzten Stolz, Kleinstkriege, vermeindliches Unrecht wo kein Unrecht stattfand.  Es rückte in den Hintergrund. Ein wenig zumindest. Und Tendarion war froh darüber. Auch wenn er jedesmal mit Panik hochschreckte, wenn er aufwachte und es nach wie vor Dunkel war. Doch auch daran würde er sich über kurz oder lang gewöhnen. Sein Geist musste es verstehen lernen. <br /><br />Und wie er da so zupfte, in den Pausen das Kratzen der Feder des anderen hörte, dachte Tendarion daran, dass sein Leben gut war. Nicht perfekt. Nicht so wie es sein sollte, wenn man niemanden etwas Böses oder Unrechtes wollte. Ein Lächeln stahl sich auf seinen Lippen. Vitama berührte ihn. Astrael war für ihn da.<br /><br />Er war gesegnet. <br /><br />Und das reichte vollkommen um neuen Mut zu schöpfen und sich all den Herausforderungen zu stellen. Seine Aufgabe war es anderen zu lehren, dass das Leben im Antlitz der Viere der einzig wahre Weg war. Und immer dann, wenn man gewillt war dankbar zu sein, für das was man hatte, nicht noch mehr einforderte oder anderen gar das Leben schwermachte, hatte man wahrhaftig zu den Vieren gefunden. Fehler waren da um sie zu bereinigen. Und genau das würde Tendarion tun.<br /><br />So Astrael es will.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p933431"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933431#p933431"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.02.17, 14:48&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Ein Leben von fast absoluter Abhängigkeit. Jeder versuchte ihm zu helfen. Jeder gab ihm Hinweise und Ratschläge. Niemals hätte er erahnt, dass er darauf angewiesen sein würde, dass stets jemand in der Nähe sein musste. Er fühlte sich schicksalsergeben. Ausgeliefert. Unmündig. Es war ihm durch und durch unangenehm und belastete sein Gemüt. Seine Laune konnte er verbergen durch sein geheures Maß an Selbstbeherrschung, doch merkte er, dass er anhänglich wurde bei jenen, die er nicht mit dem Vorenthalten seiner Unzufriedenheit beschwichtigen wollte. Er war stets gerne alleine. Das waren die Momente an jedem Tageslauf, die für ihn am erstrebenswertesten waren. Nun hatte es sich ins Gegenteil verkehrt. Nicht mehr zu sehen was sein Umfeld machte, führte dazu, dass er mehr kommunizierte. Und somit auch dann und wann Guntram bei seiner Arbeit unterbrach. Trotz aller Geduld des anderen war es Tendarion unangenehm eine Belastung zu sein. <br /><br />Und doch kam ihm gestern im Gespräch mit Nithavela und Rodrik ein entscheidender Gedanke. Es war eine Prüfung. Eindeutig. Doch nicht um den Eidbruch zu verstehen. Oder was er getan hat. Sondern um zu verstehen, dass er sich nicht nur den Göttern anvertrauen sollte, sondern auch seinem Umfeld. Nicht alles selbst in der Hand halten zu wollen, um im Falle dessen, dass etwas schief ging, dafür die Konsequenzen tragen zu können. Er entmündigte stets sein Umfeld. Und gleichzeitig sorgte er dafür, dass andere nur hilflos neben ihm stehen konnten, da er sich nicht helfen lassen wollte. Nithavela traf es auf dem Punkt mit ihrem Angebot. Noch nie hatte Tendarion so unscheinbar und dennoch so zielgenau vorgeführt bekommen, wie wenig er in der Lage war die einfachsten - und vor allem normalsten - Dinge, die er anderen stets auftrug und riet selbst umzusetzen.<br /><br />Eine einfache Bitte um Hilfe. <br /><br />Sie machte ihm deutlich, dass diese Bitte nur selbstsüchtig und eigennützig sein würde. Kein Profit für sie, außer Tendarions größte Überwindung auskosten zu können. Er wusste nicht ob er ihr grollen oder sie küssen sollte. Vielleicht beides. Vielleicht nichts von beidem. Doch sein Geist arbeitete. Arbeitete gegen sein Herz das alle Mauern hochzog. Das keine Hilfe annehmen wollte. Ein Handel? Akzeptabel. Selbstlos etwas für jemanden tun, ohne davon zu profitieren? Für Tendarion  ein gewohnter und gewünschter Umstand. Wenn alles geklärt ist und alle Umstehenden haben was sie benötigten, konnte Tendarion zufrieden sein, keine Sorge in sich tragen und sich selbst widmen. Und Nithavela hackte mit einer Spitzhacke an dieser hübsch aufgezogenen Mauer mit diesem ihrem Angebot.<br /><br />Es war eine Lehre darin, dass eine Waagschale sich nicht immer sofort austarieren würde und konnte. Es war eine Lehre darin, dass er nichts mehr zu geben hatte, was anderen profitabel erschien. Sein Leben, sein Herz und sein Geist. Mehr hatte er nicht. Und andere wollten ihm etwas geben, damit er wieder etwas hat, was ihn einen Schritt näher zu Astrael brachte. Er kam nicht umhin breit zu schmunzeln, als er im Schrein Astraels vor dem Altar kniete und seine Gedankengänge ganz Astrael widmete. Oh, wie unzufrieden und frustriert musste sein Herr mit ihm sein, dass Tendarions Herz schneller pochte, als seine Gedanken folgen konnten. Doch war es nicht Tendarions Ansinnen sein Herz zu unterdrücken. <br /><br />Er würde einen Weg für sich finden, wie er Astrael gefallen könnte, ohne Vitamas selbstlose Liebe aufgeben zu müssen. Und allmählich schien er die richtigen Gedanken zu haben, nachdem Astrael ihn nun mehr als deutlich auf seinen Platz verwiesen hatte. Richtig war, angemessen über alles nachzudenken - vor allem zuende zu denken - und nicht danach zu handeln, wenn man sah, dass es zu viele Nachteile mit sich brachte. Nachdenken, planen, organisieren. Da konnte er sein Herz noch vollständig einfließen lassen. Doch wenn es um die Umsetzung ging, war kein Platz mehr für Gefühle. Man musste objektiv handeln, gleich wie subjektiv die vorangegangenen Gedanken waren. Nur dann konnte er die Waagschale im Lot halten.<br /><br />Nur dann konnte er Astrael wirklich dienen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p933505"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933505#p933505"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 7.02.17, 13:30&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Wie satt hatte Tendarion dieses angamongefällige Verhalten. Einen Disput überhaupt erst ins Leben rufen, daran scheitern und dann dem anderen die Schuld zu geben, war dem Einen ein natürlich sehr willkommenes Mittel, wenn man sich selbst als die Perfektion eines Dieners sah und in Hochmut die Finger gen anderer streckte, aber sein eigenes Verhalten nicht ein einziges Mal kritisch hinterfragte.<br /><br />Sein gesamter Körper schmerzte, nachdem er sich gestern nach dieser missgünstigen Ansprache bezüglich Alois Fortgang mit Maichellis regelrecht geprügelt hatte um seinen Zorn auf diesen Mann loszuwerden. Und bei dem Übungskampf am darauf folgenden Tag war ihm bewusst, dass ein Kampf ohne Rüstung tatsächlich extrem unangenehme Blessuren hinterließ. Doch sein Geist war wieder fokussiert. Der Zorn verflogen. Nur der bittere Geschmack, dass sein Heim auf dieser Insel systematisch zerlegt wurde, belegte seine Zunge und dimmte die Freude in seinem Herzen.<br /><br />Ein Mann der andere vernichten musste, damit er existieren konnte. Entweder man war freiwillig vor ihm auf den Boden, oder man wurde solange dort hingetreten, bis man nachgab oder man wurde von ihm ignoriert. Das waren die Optionen. Und mit jedem Wort, mit jeder Begegnung macht er es umso mehr deutlich.<br /><br />Und immer mehr gingen. Und immer mehr litten. Und anstatt das Leid aufzuheben, wie es jedem Diener der Viere ein Anliegen sein sollte, wurde es nur angefüttert. Tendarion hörte von allen Seiten nur die Klagen. Doch er, blind, mundtot und handlungsfähig gemacht,  konnte immer nur einen Rat geben, der nie eingehalten wurde. Der immer nur dann berücksichtigt wurde, wenn ein anderer seinen Kopf dafür hinhielt.<br /><br />So wirkte natürlich in der absoluten Untätigkeit nur das Wort jener, die es auch laut auszusprechen wagten und waren fortan verdammt als streitlustig und hochmütig zu gelten. Und die anderen schwiegen. Aus Angst, Bequemlichkeit und Unsicherheit. <br /><br />Tendarion ging im Schrein des Herrn Astrael auf und ab. Ein Gedanke. Ein zündener Einfall. Tendarion hoffte verzweifelt auf einen Gedankengang der ihm weiterhalf.<br /><br />Wie konnte man den Streit beseitigen? Wie konnte man dieses Gift entfernen ohne direkt das Gegengift anwenden zu müssen? Vitamas Güte versagte. Astraels Weisheit versagte. Nur Bellums gerechter Zorn stand zwischen allen. Alle anderen Viere hatten kein Mitspracherecht. Hatten keine Relevanz.<br /><br />Und genau so wurden ihre Diener behandelt. Der Ordo Vitamae und Ordo Morsan solange zwischen die Fronten geschoben und instrumentalisiert bis sie sich in Unsicherheit zurückzogen. Der Ordo Astrael offen abgelehnt vom Calator. Das Wirken des Ordens als Machenschaften bezeichnet.<br /><br />Tendarion merkte, wie der Zorn wieder in ihm hochkochte. Morsan wurde von dem Elfen gequält. Und neben dem Zorn kam ein schlechtes Gewissen in Tendarion auf. Er wollte nur für andere da sein. Anderen helfen.<br /><br />Doch wollte man ihn mit allen verfügbaren Mitteln - egal wie weit sie vom Recht, Logik und Verstand entfernt waren - davon abhalten. Tendarion wünschte, dass der andere endlich erkannte, dass er niemanden zu den Vieren hinführt, sondern jene die den Vieren nahe war immer weiter von ihnen wegtrieb.<br /><br />Und so kniete sich Tendarion im Schrein darnieder und bat seinen Herrn um Weisung. Bat ihn um Vergebung und die Zusicherung, dass all sein Fehl der seine war. Die Zusicherung, dass er wusste, was er tat und die Konsequenzen nicht nur in Kauf nahm sondern mit vollem Bewusstsein annahm.<br /><br /><div align="center"><span style="font-style: italic">Herr, lass mich sehen, was ich bisher übersehen habe,<br />lass mich verstehen, wo ich und mein Umfeld Fehl ging,<br />warum Vitamas liebevolle Hand nicht wirkte,<br />warum dein weisender Rat als Intrige wahrgenommen wird.<br /><br />Lass mich erkennen, wie ich dir helfen kann diesen Dienern, die von Zorn verzehrt werden, wieder Hoffnung zu geben. <br />Die Möglichkeit Kompromisse einzugehen,<br />zu verstehen, dass ein Streit nur von zwei genährt werden kann;<br />zu verstehen, dass die Kirche zerbröckelt und noch immer mit Spitzhacken in den Trümmern nach anderen Schuldigen gesucht wurde.<br /><br />Sei mein sehendes Auge, wo ich blind bin,<br />sei meine führende Hand, die mir den Weg zur Lösung zeigt.<br /><br />Und ich bin willens dir noch mehr zu geben, als ich bereits gab.<br /><br />Ael.</span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p933596"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933596#p933596"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 9.02.17, 18:14&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Unermüdlich kratzte die Schreibfeder, geführt von Anwyns Hand, zu Tendarions Worten. Ein erster Entwurf der durch Guntram angeregten Theorie. Eine Theorie die mehr Fragen aufwarf, als dass Antworten parat waren. Doch wurden die Geister beflügelt. Inspiration diese Theorie zu bestärken oder aber zu widerlegen erfüllte die anwesenden Magier und auch Tendarion. Und noch am nächsten Tageslauf profitierte Tendarion von diesem anspruchsvollen Gespräch. <br /><br />Der Übungskampf mit Maichellis war weniger verbissen. Sein Frust war vollständig verschwunden. Tendarion hatte neuen Mut gefasst. Er hatte Erkenntnis gewonnen. Erkenntnis über das was Astrael von ihm erwartete. Erkenntnis was Tendarion sich aufbürden konnte. Und damit war sein Geist vollkommen fokussiert. Er folgte dem Glockenklang, der Tendarion einen Hinweis darauf gab, wo das Schwert des anderen Fey als nächstes zuschlagen würde, und Tendarion ließ seinen Körper treiben. Schlag um Schlag knallte das Holz der stumpfen Tra'avain-Schwerter aneinander. Er hatte erheblich mehr Schläge abgewehrt als in den Tagen zuvor, die von Frust und Zorn dominiert wurden. <br /><br />Er war ein Fey. Selbstbeherrschung sein Lebenselixier. Fokus sein Werkzeug. Perfektion das ihm in die Wiege gelegte Ziel.<br /><br />Und er kam nicht umhin zufrieden zu lächeln. Keine Unterwerfung. Kein Druck. Keine Verbote. Er durfte sagen was er wollte und wurde berichtigt, oder aber in seinen Worten bestätigt. Er wusste woran er war. Lange fühlte er sich nicht mehr so wohl, egal wie oft er von Toran aufgezogen wurde vor allen anderen, als an jenem Abend.<br /><br />Anwyn riss ihn aus seinen Gedanken, als er nicht mehr weiterdiktierte und stellte sein verwegenes Lächeln in Frage. Unter Androhungen wieder einen Krug Wasser zur Abkühlung der zu heißen Gedanken zu holen, gab sich Tendarion lachend geschlagen.<br /><br />Astrael war kein gutmütiger Herr. Aber er war für seine Diener da, wenn sie um seine Hilfe baten. Und Tendarion wusste es: Astrael segnete den gestrigen Abend um seinem verirrten Diener wieder den rechten Weg zu zeigen. Er konnte sich nur selbst entziehen, von dem was ihm schadete. Und das würde er tun. Er würde nur noch Rat an jene aussprechen, die ihn suchten. <br /><br />Guntram hingegen bewies abermals, dass er den richtigen Weg für Tendarion gefunden hatte. Er verstand Tendarion auf einer Ebene, auf der der Elf sich selbst nicht verstehen konnte. Und Tendarion musste ihm schlichtweg die Führung überlassen und nur hinterfragen was er nicht verstand, aber nicht warum man ihn dort hinführte.<br /><br />Bedingungsloses Vertrauen. In Astrael und seinem Diener.<br /><br />Und Tendarions Lächeln gewann wieder an Stärke, ehe er sich mit irgendetwas Weichen beworfen fühlte und sich lachend Anwyns Vorwürfen ergab. Seinen Gedanken nachzuhängen gefiel Astrael gewiss, doch Strebsamkeit und das Abschließen einer Arbeit war ihm gefälliger. Und so diktierte er weiter.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p933652"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933652#p933652"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 11.02.17, 06:30&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Seit er geblendet wurde fegte er unentwegt über den verdreckten Boden in der Bibliothek.<br /><br />Hier und da zeigten seine Bemühungen endlich den gewünschten Erfolg. Auch Guntram fühlte sich bemüßigt ihm bei einer ganz bestimmten Ecke bei der Reinigung zu helfen, nachdem Tendarion ihn auf einen Schmutzhaufen hinwies, der nicht durch Tendarions Schuld sich dort angesammelt hatte. Guntram räumte die Ecke frei. Tendarion putzte darüber, bis wieder dieser strahlend weiße, makellose Marmor zu sehen war.<br /><br />Tendarion verschaffte dies neuen Arbeitseifer. Eine so glänzende Ecke ließ den Rest nur noch verdreckter erscheinen. Und so fegte und schrubbte er, und fühlte sich mit jeder Rechtschritt den er wieder zu vollem Glanz verhalf, leichter.<br /><br />Bis auf diese eine tückische Stelle. Jedesmal blieb er vor dem Regal stehen. Das eine zerfledderte und abgegriffene Buch, das bei unsachgemäßer Behandlung zerfallen würde, stach ihm wieder ins Auge. Wie immer konnte er seine Finger nicht davon lassen. Jedesmal schnitt er sich an den Kanten. Und wieder drohte eine Seite herauszufallen. Und als der Buchrücken sich gefährlich durchzubiegen drohte, und die eine Hälfte des Buches hinabfallen wollte, fing er sie erschrocken auf, trat den Eimer mit dem bereits zusammengefegten Unrat dabei um und sah hilflos und resigniert dabei zu, wie der ganze Dreck sich über dem Boden wieder verteilte.<br /><br />Wie immer fiel er auf dieses Buch und seine nicht vorhandene Selbstbeherrschung rein. Doch ein so zerlesenes Buch musste doch Mehrwert haben. Musste doch ein Geheimnis in sich tragen. Wissen. Wahrheit. Irgendetwas, das für die Nachwelt interessant wäre. Doch blätterte er darin herum. Wurde von Seite zu Seite frustrierter. <br /><br />Alle Seiten waren leer.<br /><br />Weshalb ging Tendarion für ein leeres Buch, dem er mehr Bedeutung beimessen wollte, als es so offenkundig hatte, stets das Risiko ein es vollends zu vernichten oder aber seine Reinigungsarbeit zu boykottieren? Es war unlogisch. Irrational. Eine Hoffnung, die es gar nicht gab. Tendarion fasste einen Entschluss. Er ließ Eimer, Besen und Dreck zurück und stapfte mit dem Buch ins Archiv. Das war nicht die Aufgabe für einen Wissensucher. Das war die Aufgabe eines Restaurateurs. Und das lag außerhalb seiner Kompetenz. So legte er das zerfledderte Buch auf das Arbeitspult im Archiv und ging wieder zurück an seine Arbeit.<br /><br />Mühevoll wischte er den Gang sauber. Doch das Regal war von dem unansehnlichen Buch befreit. Und so schob er den Dreck in den Eimer und er wischte den Gang sorgfältig sauber.<br /><br />Mit einem zufriedenen Lächeln sah er über den Boden der einige Kerben und Kratzer hatte. Der Ort konnte nur noch mit einem Schleifstein wieder einen glänzenden Boden aufweisen. Aber auch das war nicht Tendarions Arbeit.<br /><br />Er ging zum nächsten Gang und fegte.</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p933681"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933681#p933681"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 13.02.17, 12:35&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Er wies sie alle aktiv ab. Sie sollten sich in Kirchenangelegenheiten an den Calator wenden. Doch blieb es dabei. Sie wollten mit Tendarion sprechen. Es war frustrierend und zufriedenstellend zugleich. Tendarion konnte innerhalb der Kirche weiterhin nur alles falsch machen, weil das Volk ihm vertraute und gleichsam machte er scheinbar außerhalb der Kirche damit vieles richtig. <br /><br />Er sprach seine Gedanken aus. Sprach von seiner Blendung. Gab offen zu, dass er Fehler machte. Dass er Fehleinschätzungen unterlag, doch lächelte er wieder, sein Glauben war ungebrochen und er suchte neue Wege zu dienen, wie es ihm eben körperlich möglich war. Und alles was er plante und sich zurechtlegte stellte sich auch als durchführbar aus. <br /><br />Eine Welle der Erleichterung ging durch ihn, als er das nötige geklärt hatte. Man hat nicht einmal gezögert oder hinterfragt. Er bat um eine Möglichkeit und sie wurde ihm gewährt. Man konnte ihm vorwerfen überall seine Finger im Spiel zu haben, doch nur unter der Prämisse, dass Loyalität nicht bedeutete offen Feindschaften zu pflegen und seinen Verbündeten nach dem Mund zu reden, sondern im Fall aller schwersten Fälle loyal zu jenen stand denen man die Loyalität aussprach.<br /><br />Loyalität war nichts was man zelebrieren musste. Entweder man fühlte sie, oder man musste sich selbst dazu überreden, indem man stets anderen ihre Loyalität zusicherte. Soldaten waren zu dieser Zusicherung gezwungen, da sie einem ihnen persönlich unbekannten Herrscher dienten. Doch war die absolute Loyalität zu den Vieren nicht auch das grundlegende Vertrauen in all jene die den Vieren nahe waren? Ein Vertrauensvorschuss, auf dem basiert das Vertrauen steigen oder aber verloren gehen konnte. <br /><br />Aber das war eine Entwicklung rein weltlicher Dinge. Und Tendarion maß dem tatsächlich immer weniger bei, weshalb er das Thema leid war. Mitleid wollte er nicht. Er tat was er tat, und liebte und verabscheute sich nicht mehr dafür. Die Viere haben es ihm nicht so übel gesehen, wie manche es ihm nun einzureden versuchten. Und dennoch haben die Viere es auch nicht ganz ohne Tadel gesehen, weshalb Mitleid Fehl am Platze war. Er war ein Diener. Sein Dienst war eine unpersönliche Sache. Und dennoch war es eine Sache die er mit sich und Astrael alleine ausmachen musste. <br /><br />Vitama hat ihm so oft Dinge aufgebürdet, ihn dazu erzogen die Zügel in die Hand zu nehmen, wenn alles aus dem Ruder zu laufen schien. Er hinterfragte es irgendwann nicht mehr. Tendarion wurde von den Vieren angeschoben, stets wieder auf die Beine gestellt. Nie hatten sie sich abgewandt. Er konnte nicht alles falsch verstehen, was mit ihm geschah. Er konnte auch nicht akzeptieren, dass man ihn nun darum bat demütiger zu werden als zuvor. Astrael der Selbstsicherheit und Strebsamkeit bevorzugte, weil er keine Geduld für Beschwichtigung und Trost hatte. Fakten. Ergebnisse. Stringenz. <br /><br />Alles was aus jenem Muster fiel, war Astrael nicht gefällig. Und er hatte es mehr als deutlich gemacht, dass er Tendarion als jemanden der funktionierte haben wollte. Nicht still und duckmäuserisch. Jemand der kämpfen wollte - konnte. Der Tränen, Trauer und Wut verbergen konnte, um Rationalität, Klarheit und Verstand zu propagieren. Gefühle waren Fehl am Platz - solange er nicht empathielos und ohne Mitgefühl sich gegen die anderen Viere dabei auflehnte. <br /><br />Er genoss es seine Gedanken wieder mehr der Philosophie zu widmen. Zu spüren wie die Fragmente des Zorns und der Wut von ihm abfielen. Wie gleichgültiger er gegenüber der Irrationalität anderer wurde. Wie entspannend es doch war sich im Schrein des Herrn Astrael zurückzulehnen und all die Dinge, die an seinem inneren Auge vorbeirauschten und mit Emotionen gefüllt waren immer weniger belastend waren und immer mehr als Lektion an Bedeutung gewannen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p933838"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933838#p933838"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 20.02.17, 13:08&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Der Frust der Untätigkeit überschattete allmählich seine Gedankenspiele. Theorien über Theorien. Immer angewiesen sein auf andere, selbst wenn es darum ging eine Passage aus einem Buch nochmals nachlesen zu wollen. Anwyn unermüdlich an seiner Seite, jedes Wort von ihm zu verschriftlichen und nicht einmal ein wahres Wort der Klage dazu fallen lassend. Und dennoch hatte er das Gefühl gefangen zu sein.<br /><br />Gefangen in Untätigkeit, in absolutem Unvermögen noch wirklich dienen zu können. Und anstatt dass die Last leichter wurde, wurde es von Zyklus zu Zxkls unerträglicher. Zu anfangs musste er diesen Zorn um sich herum stets kühlen. All die Worte die sich gegen den Inquisitor richteten abmildern. All die Ablehnung die Tendarion dadurch zu spüren bekam, dass er den Inquisitor nicht verdämonisierte. All den Zorn der sich auf Tendarion fokussierte. Es lenkte ihn von seiner Blindheit ab, weshalb er gar keine Zeit fand sich damit überhaupt zu beschäftigen. Man wollte ihn brechen und erniedrigen, weil man der Meinung war, dass es schneller ginge, doch hatte es genau das Gegenteil bewirkt. <br /><br />Verständnislosigkeit und Sorge, dass er nun für so viele eine Last geworden war, trieb ihn näher an jene, die ihn noch als Diener behandelten. Die Momente wo es nicht um ihn und die Inquisition ging, wo es nicht um all den Zorn ging, den sein Umfeld pflegte, als wäre es das was die Seele nährte, waren die Momente wo alles um ihn herum leichter schien. <br /><br />Und doch kam mit der Gewöhnung seiner Situation und der allmählichen Beruhigung seines Umfeldes die Melancholie. Die Depression. Der Niedergang. <br /><br />Die Kampfübungen waren sein Ausgleich für die Untätigkeit geworden. Und dennoch blieb ihm, wenn Maichellis einen Fortschritt kommentierte, die schiere Ironie, dass er mit all den Übungen und dem Fortschritt nichts anfangen konnte, kaum verborgen. Er würde irgendwann in vielen Götterläufen womöglich ansatzweise so leben können, dass er nicht auf eine vollständige Nähe von anderen angewiesen sein würde, aber bis dahin war er Morsans Ruhe wohl näher als all den anderen Götter.<br /><br />Der Gedanke die Insel zu verlassen, zurück zu seiner Familie zu kehren, auf dass er von dem Langmut seines Volkes lernen konnte, war immer präsenter geworden. Mehr als Schriften diktieren war ihm nicht mehr möglich. Was kümmerte es die Insel ob er diese auf dem Festland verfasste oder hier. Hier waren tatkräftige Männer und Frauen von Nöten und keine lebenden Hindernisse, die nichts ausführen konnten. <br /><br />Sein Herz verhärtete sich immer mehr. Und seine Gedanken wurde düster. <br /><br />Seine besudelte Stirn, mit dem verblassten eingebrannten Zeichen des Einen berührten die Stufen des Altars als er im Schrein des Herrn Astraels kniete. Seine Gefühle schwanden wenn er hier war. Die harten Kanten des kalten Marmors die sich unerbittlich in seine Unterschenkel bohrten. Die Eiseskälte die an ihm emporkroch. Tendarion hatte keine Wärme verdient, denn er hatte Astrael enttäuscht. <br /><br />Und so harrte er wieder zyklenlang aus, in dem Schutz der Kälte. Im Schutz der Gefühlskälte. Und flehte schweigend um Vergebung.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p933856"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933856#p933856"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 21.02.17, 03:50&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Er zupfte einen Akkord auf der Geige und hielt inne. Guntram war schon so lange still. Doch schrieb er nicht und auch war nicht das Blättern einer Buchseite zu hören. Es war ungewöhnlich für ihn, dass er einfach nur da saß und offenkundig nichts tat.<br /><br /><span style="color: #800080"><div align="center">&quot;Was tust du?quot;</div></span><br /><br />Hörte er sich selbst fragen. Er konnte die Besorgnis nicht ganz aus seiner Stimme drängen, aber gleichsam erwartete er auch nicht, dass es einen Grund zur Sorge gäbe.<br /><br /><span style="color: #0000FF"><div align="center">&quot;Nachdenken&quot;</div></span><br /><br />Sogleich war jedwede Sorge weggefegt, als er den entspannten Tonfall des anderen wahrnahm. Sein inneres Auge fügte das Bild eines lächelnden Guntrams ein und er konnte sich selbst nicht eines Lächelns erwehren. Das Verhältnis zwischen ihnen war so entspannt wie nie zuvor. Das Vertrauen, auch in die unausgesprochenen Dinge, absolut.<br /><span style="color: #800080"><br /><div align="center">&quot;Worüber?quot;</div></span><br /><br />Er hörte, wie der andere sich erhob und dabei zwei Worte sprach, die Tendarion tatsächlich nicht erwartet hatte.<br /><br /><span style="color: #0000FF"><div align="center">&quot;Übers Packen...&quot;</div></span><br /><br />Tendarion legte die Geige beiseite und lehnt sich in dem Stuhl zurück. Auf die Antwort hin musste er seine Gedanken und Gefühle erst analysieren. Ein Keim der Überraschung ruhte in ihm, aber es reichte nicht, dass jener auch aufblühte. Er dachte über die Informationen und Fakten nach, die ihm zur Verfügung standen und die Beweggründe des anderen deutlicher machten. Aber Tendarion konnte ausschließen, dass er selbst Anteil daran hatte, weshalb er sich tatsächlich nicht emotional berührt davon fühlte. <br /><br /><span style="color: #800080"><div align="center">&quot;Wohin willst du gehen?quot;</div></span><br /><br />Darauf folgte keine Antwort. Guntram war bereits in seiner Schreibstube und wieder folgte das Gespräch über seine viel zu kleinen Regale und den viel zu vielen Büchern. Eine entspannte Debatte entbrannte über diese überfüllten Bücherregale, die nur noch wie ein einstudiertes Spiel seit Monden geführt wurde und keinerlei Biss oder Nachdruck hatte. Gedanken, wie man so viele Bücher mitnehmen wollte erfüllten das nachfolgende Gespräch. Und das Fazit führte nur zu der Erkenntnis, dass weder Guntram noch Tendarion wirklich genug Ahnung  davon hatten, wie viele Kisten für so viele Bücher benötigt wurden.<br /><br /><span style="color: #800080"><div align="center">&quot;Wir werden wohl einige Kisten besorgen müssen, bevor wir anfangen zu packen, hm?quot;</div></span><br /><br />Tendarion lächelte bei den Worten, als er versuchte sich daran zu erinnern wie die Bücher in den Regalen angeordnet waren. Wie Guntrams Schreibtisch aussah. Wie die Holzstatue des Schreibers aussah, der auf dem Beistelltisch stand. Doch Guntrams Miene zu seinen Worten blieb ihm verborgen. <br /><br />Doch vertrauensvoll gab er sich dem Schweigen des anderen und seinem eigenen Unvermögen seine Miene zu sehen hin. Guntram war Astrael so nahe, wie kein anderer, den Tendarion kannte. Tendarion war Astrael hingegen so fern, dass er es nicht mehr wagte Guntram in Frage zu stellen. Er vertraute ihm. Und auch sein Verstand gab ihm keinen Grund daran zu zweifeln.<br /><br />Tendarion würde definitiv keinen weiteren Eid mehr brechen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p933993"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=933993#p933993"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 25.02.17, 16:09&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Nachdem er sich wortwörtlich vollkommen jeder Kraft beraubt in den Turm geschleppt hatte und bäuchlings - noch halb gekleidet - auf die freie Seite auf dem Bett fallen hat lassen, schwor er sich nicht mit Maichellis zu üben.<br /><br />Als er dann nach gefühlten fünf Momenten von einem Geklopfe wach wurde, hörte er schon kurz darauf Guntrams und Maichellis' Stimme. Müde schmunzelte Tendarion vor sich hin. Ein kurzer Dämpfer in seiner Laune wurde dadurch verursacht, dass er seine Augen öffnete und aus dem großen Fenster die Stadt sehen wollte. Etwas was ihm jetzt und fortan für immer verwehrt bleiben würde.<br /><br />So befreite er sich halb aus seiner schlafzerdrückten Kleidung und ging den Stimmen nach. Es roch nach Brot, Fleisch und Käse. Saft. Möglicherweise sollte Guntram und Maichellis wirklich kochen lernen, dachte er bei sich und ließ sich schlichtweg auf dem nächstbesten freien Stuhl ab und lehnte sich, noch nicht ganz erwacht, an Guntrams Schulter und beklagte sein kraftloses Dasein und dass er unter keinen Umständen heute zu den Übungen könnte. Unter amüsierten Tadel beließ man es bei einem angenehmen Gespräch und einem ausgedehnten Frühstück.<br /><br />Als die beiden Männer sich unterhielten verblieb Tendarion ganz in Gedanken an den gestrigen Tag. Er war guter Dinge als er aufwachte. Und auch ließ er sich nicht durch den einen oder anderen schneidenden Kommentar den er aufschnappen musste, als sie heimlich geflüstert zu anderen gesprochen wurden, aus der Bahn werfen. Er kehrte in sein damaliges temporäres Heim für einige Zyklen zurück. Der Ort an dem er näher zu seinem Volk und zu Vitama und Morsan fand. An dem er wieder bedingungslose Liebe für das Leben erlangte. An dem er vergessen und loslassen konnte.<br /><br />Die Tafel wog im Nachhinein betrachtet vor allem in ihrer Bedeutung schwer. Tendarion fühlte sich an Vitama erinnert, wie schwer sie auf seinen Schultern lastete, weil er sie nicht mit Leichtherzigkeit einfach offen und bewusst annehmen konnte. Er suchte in Vitama einen Sinn eine Logik zu finden. Und das war sein Fehler. Er trug die Tafel wie er damals in ihrem Dienst schwer trug. Und dennoch fühlte er sich, als würde er ihr etwas schenken. Die Vorfreude sie wieder zu spüren, die Unsicherheit als Guntram verfrüht gehen wollte, weil er wieder unzufrieden war, und schließlich die Erleichterung, als er auf Tendarions Bitte hin das Vorhabem verwarf. Das war kein Ort für einen Streit oder Gezanke. Sondern ein Ort der dem Leben und der Liebe gehörte. <br /><br />Es war seltsam nicht zu sehen wohin er ging. Nicht zu erahnen wie weit sie waren. Hier und da Kampfeslärm, mal fern von ihm, mal direkt neben ihm. Er war angespannt und auch ängstlich, aber er hatte die Tafel. Er hatte diese Bürde auf sich genommen, nachdem Diana darum bat, dass Tendarion mitkommen sollte. Aufgeben war in seinem Buch ein Wort das nicht definiert wurde. Und er hatte nicht vor eine Definition dafür - gerade in dieser Situation - zu entwickeln.<br /><br />So ging er einfach vertrauensvoll den Schritten der anderen nach und stellte mit einem warmen Gefühl in seiner Brust fest, dass Guntram nicht einmal von seiner Seite wich. Tendarions Blendung mag möglicherweise nichts Gutes für Tare geboren haben, aber es hatte Guntram und ihn näher zusammengeführt als je zuvor. <br /><br />Es war auch nicht weniger einfach vollumfassend zu verstehen was bei dem Altar passierte. Viele Geräusche, Handgriffe und leise Worte - schließlich das Gebet und dann der Kelch der seine Lippen berührte und der Wein der seine Zunge benetzte und schließlich in seiner Kehle herablief..<br /><br />..und dann dieses Gefühl dieser absoluten Sehnsucht. Die Liebe seines Lebens aus einer vergangenen Zeit. Im Guten und ohne Groll getrennt und doch war einem bewusst, dass man eine Geliebte wie sie nie wieder finden kann. Diese kopflose Lust, diese bedingungslose Liebe, die Reinheit in all ihren Gefühlen. Die kristallklaren Tränen, die von Freude und Trauer gleichsam sprachen. Jeder Kuss wie der süßeste Wein. Jeder gemeinsame Höhepunkt fortan unerreichbar in seiner Intensität. Jede Berührung ein Fest der Sinne. Wie sehr er sie in diesem Moment vermisste. Vitama. Seine größte Schwäche, seine innigste Liebe. Er hätte lachen und weinen können. Jauchzen und schreien. Diese absolute Trauer die ihn erfüllte, als sie ihn gehen ließ...<br /><br />Doch griff er schlicht nach der Hand seines Nebenmannes und mit einem sehnsuchtserfüllten Lächeln und liebevoller Stimme, gestand er sein Vermissen.<br /><br />Und erinnerte sich daran, wie Astrael ihn an der Schulter packte, ihn einmal zur Besinnung schüttelte und ihm deutlich machte, dass er fortan zu gehorchen und zu funktionieren habe. Er dulde keine Fehler, doch Liebe sollte Tendarion nach wie vor nicht verwehrt bleiben.<br /><br />Und er legte die Finger zwischen die Finger des anderen und Tendarion wusste, dass Vitama für immer bei ihm war. <br /><br />Edelmut und Diana hatten diesen schweren Weg geschafft. Er kam nicht umhin sie beide als seine Schülerinnen zu sehen. Sich für sie verantwortlich zu fühlen. Und so schlich er sich hinaus, sich den liebenden Armen des anderen entwindend, um Edelmut und Diana die rechte Aufmerksamkeit und das gebührende Lob zu geben. <br /><br />Er war unendlich stolz. Und er fühlte sich geliebt.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p934049"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=934049#p934049"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 28.02.17, 14:08&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Ein Gespräch mit Diana brachte die Erkenntnis.<br /><br />Geboren aus dem Nichts im Astraelschrein entkamen ihm die Worte. Sein Geständnis nicht zu wissen, was Astrael von ihm forderte. Sein Unvermögen es zu erkennen. Also richtete er sich weiterhin nach Guntram. Das erschien ihm das einzig richtige. <br /><br />Was Guntram sagte, wurde umgesetzt. Was er beanstandete wurde sein gelassen. Ansonsten wartete Tendarion schlichtweg ab. Reagierte auf sein Umfeld, aber agierte nicht mehr. <br /><br />Doch die Erkenntnis, dass seine Blindheit nun andere dazu aufforderte agieren zu müssen, tauchte all das vorangegangene in ein seltsames Licht. Wurde er ausgenutzt in dieser Zeit? Wurde unbewusst dazu gebracht dort zu enden, wo er nun endete? Ein krüppelhafter Diener, der einzig auf Astraels Gnade und dem Wohlwollen seines Umfeldes angewiesen war. Sturheit war sein größter Fehl. Doch erkannte er in jener Situation darin einen trotzigen Überlebenswillen. Sein Zynismus wuchs von Tageslauf zu Tageslauf, doch schwieg er sich aus. Die wenigsten zeigten noch Antrieb in der Kirche. Stimmen wurden laut, dass wenn er ginge keiner mehr sich in das Ordenshaus verirren würde. Und Tendarion schluckte die bissigen Kommentare herunter. Fragte so sachlich wie möglich woran das lag. Er schloss das Thema mit dem offensichtlichen und der unausweichlichen Wahrheit:<br /><br />Die Kirche war vor Tendarion und sie wird auch nach Tendarion sein.<br /><br />Das Thema wurde beendet. Tendarions Unzufriedenheit mit der Unselbstständigkeit der anderen ausgeschwiegen. Er schwor Morsan keinen Streit mehr zu entfachen. Es wurde nur noch gesagt was gesagt werden musste und den Rest trug er in sein Gebet und schloss es tief in seine Gedanken ein. <br /><br />Wissen war nicht nur das Einholen von Informationen. Sondern auch das Annehmen von Fakten, die allgemein gültig waren, selbst wenn man anderer Meinung war. Der wahre Weg zur Objektivität. Der wahre Weg um die Waage ins Lot zu bringen. Sich zu fragen, wann die eigene Meinung und wann die allgemeine Meinung angemessen war. Fehlte dazu eine eindeutige Antwort, so gab man Morsan den Vorzug und schwieg.<br /><br />Der Keim der Weisheit und Besonnenheit lag einzig und allein in Astrael und Morsan. Jedes Gefühl überschattete die Erkenntnis. Tendarions Zynismus und seine Melancholie waren die Zeichen seiner Unvollkommenheit. Der Grund dessen, dass er nicht vollumfassend verstehen konnte. Er hatte sich an Bellum gerade richtig herangetastet. Gemäßigte Leidenschaft und im rechten Moment verfügbarer Mut, sowie Tatendrang in allen Aufgaben erfüllten ihn. Doch war er noch zu nah an Vitama. Die Waage gen Morsan nicht austariert. Er musste näher zu ihm. Ruhiger werden. Seine innige und naive Hoffnung gegen etwas weltlicheres tauschen. Akzeptieren und Hinnehmen lernen. <br /><br />Erst wenn Tendarion die Waage in alle Himmelsrichtungen drehen konnte und sie stets im Lot verblieb, war er bei Astrael wahrhaft angekommen. Erst wenn seine Persönlichkeit nur zum Tragen kam, wenn sie benötigt wurde, war er ein wahrer Diener Astraels. <br /><br />Wieder bohrten sich die kalten, harten Stufen in seine Unterschenkel. Sein Körper gezeichnet von den Blutergüssen der Kampfesübungen, die er mittlerweile bevorzugt ohne Rüstung durchführte. Die Schmerzen trieben ihn an seine Defensive perfektionieren zu wollen. Sein Gehör zu schulen. Die angespannten Muskeln waren erstmalig locker durch Lynns wunderbaren Einfluss. Nach so vielen Jahrzehnten der Rastlosigkeit war sein Körper froh, endlich Entspannung zu finden. Er spürte das unangenehme Ziehen, als seine Muskeln sich daran gewöhnten, dass sie nicht mehr unter stetiger Spannung befanden. Die vollkommene Dunkelheit die ihn stets umgab. Die jedes laute Geräusch surreal und außersphärisch wirken ließ. Er war körperlich zu nichts mehr geeignet, als ein Dorn im Fuße des Lebens aller um ihn herum zu sein. Eine Last. Ein Krüppel.<br /><br />Doch seinen Geist konnte er selbst lenken. Seine Gefühle dämmen. Sein Innerstes in neue Gewänder kleiden, die diese kaputte Hülle vergessen machen lassen. Er würde sein fehlbares Dasein ausmerzen. <br /><br />Und er dankte Astrael im schweigenden Gebet, dass er endlich das Gewicht gefunden hatte das die Waage, die sein Leben war, austarieren konnte.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p934106"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=934106#p934106"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 3.03.17, 16:34&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><span style="font-style: italic">Man blendet andere nur, wenn man Unrecht verschleiern will.</span></div><br /><br />Die Worte, an diesen stark unangenehm riechenden Mann gerichtet, entkamen Tendarion ohne jede Emotion. Eine Feststellung aus dem Nichts. Nie zuvor hatte er bewusst darüber nachgedacht. Nie zuvor diese Worte an jemand anderes gerichtet. <br /><br />Er musste, den Moment wo er sie sagte, seine eigene Situation beiseite schieben. Hatte er unbewusst etwas ausgesprochen, was ihn näher an die Wahrheit bezüglich der Inquisition führte? Oder hatte er sich von den Worten seines Umfeldes zu sehe prägen lassen? Tendarion war sich nicht sicher. Also schwieg er diese Situation aus. <br /><br />Er bat Edelmut darum diesem diebischen Mann noch eine Gelegenheit zu geben sich zu beweisen, ehe er direkt an den Pranger kam. Es hatte noch kein Gesetz verstoßen, da Tendarion sogleich merkte, dass mit der Bitte einen spontanen Maskenball zu organisieren, etwas nicht stimmte. Vehemenz bei soetwas nichtigen an den Tag zu legen war stets verdächtig. Und Tendarion sollte recht behalten. Fortan würden die Templer die Schreine noch mehr im Auge behalten. Sicher gehen, dass keine der Devotionalien von unschätzbar hohem Wert durch Gier in die falschen Hände geriet. Noch eine so glückliche Fügung, wie mit dem gesegneten Kelch der Freude würde es gewiss nicht geben. <br /><br />Tendarion hatte nie wissentlich ein weltliches Gesetz gebrochen. Für ihn war es nicht möglich nachzuvollziehen, was in jemanden vorging, dem bereits alles nötige, ohne jede Gegenleistung einzufordern, gegeben wurde, aber dennoch seine wandernden Finger nicht bei sich behalten konnte. Gier? Neid? Die Lust daran etwas Verbotenes zu tun? Scham? Oder war es schlichtweg nur die Tatsache, dass er sich selbst mehr gönnte als anderen?<br /><br />Tendarion legte all diese Eigenschaften in eine imaginäre Waagschale in seinem Kopf. Und er sah wie diese Waage unter der schweren Last dieser bitteren Gefühle fast umzukippen drohte, als die leere Waagschale nach oben schnellte. Gute Gefühle wogen nicht viel. Sie belasteten weder Herz noch Seele, weshalb unser Gewissen sich ebenso leicht anfühlte. Einzig und allein die Verbitterung durch diesen dunklen Einfluss dieser schlechten Eigenschaften und Taten legten sich wie Steine auf unsere Schultern. Und je mehr man davon in die linke Waagschale legte, desto offensichtlicher wurde, wie eine schlechte Eigenschaft durch eine gute Eigenschaft nicht immer aufgewogen werden konnte. <br /><br />So mussten auf eine schlechte Eigenschaft stets zwei Gute entgegenstehen. <br /><br />Schatten und Licht im Gleichgewicht ergab stets einen diesigen Nebel. Man war nicht geblendet, aber konnte nicht weit sehen. Doch trug man eine Fackel in der Hand bot sich ein ganz anderer Anblick. Man hatte plötzlich den Blick auf den Weg unter sich wieder frei. Man konnte sehen ob jemand direkt neben einem war. Erkennen, dass man in dem Dunst des Nebels nicht alleine stand. Und wenn jene Person ebenso eine Fackel trug, so sah man noch mehr von dem Weg als zuvor.<br /><br />Tendarion blickte ins Schwarze. Er hatte jedwedes Zeitgefühl verloren. Wie lange war es her? Nur einen verschwindend geringen Bruchteil des Lebens, das ihm bevorstand. Kurz drohte wieder die Panik in ihm hochzukriechen. <br /><br /><div align="center"><span style="font-style: italic">Alles so schwarz. So dunkel. Nie wieder Licht. Nie wieder das Antlitz seiner Liebsten sehend.</span></div><br /><br />Er atmete mehrere Male tief durch. Diesen Kloß in seinem Hals herabschluckend. Ihm war noch immer schlecht, und er wusste dass Torans Einwirken auf seinen Geist diese Anfälle verschlimmerte. Kurz sah er Dinge die für ihn so selbstverständlich waren durch die Augen des anderen. Schemen in der Dunkelheit. Schließlich die Fäden und Knoten des Arkanen Netzes. Jedwede Beherrschung die Tendarion aufbringen konnte, ging darin auf seine Würde in diesem kurzen Moment zu erhalten. Sein Herz pochte wie ein von einem eiligen Schmied geführten Schmiedehammer. Seine Gedanken rasten wie ein Wildpferd, das im Galopp über die Wiese lief. <br /><br />Es war das Schönste was Tendarion je sehen durfte. <br /><br />Und dieses Gefühl, dies nie wieder für sich beanspruchen zu dürfen, ließ etwas in seinem Inneren zerbrechen. Das letzte bisschen Widerstand. Das letzte Fünkchen naive Hoffnung was ihn noch zu sehr an Vitama band. Er atmete tief durch die Nase ein. Morsan war bei ihm. <br /><br />Er spürte die Ruhe. Ging in den Schrein des Herrn Astrael und sprach seinen aufrichtigen Dank aus, dass er Tendarion gewährte eines der größten Wunder, die Astrael seinem Volk vermachte, für einen kurzen Moment noch einmal erblicken zu dürfen, um seinen Frieden mit der vollkommenen Dunkelheit zu schließen. Er musste diese Bruchstücke, die in ihm ruhten fortan sortieren. <br /><br />Mit der Gewissheit, das jeder der Viere stets für ausnahmslos jeden Beseelten da war, konnte er das Equilibrium seines Seins nun endlich erschaffen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p934247"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=934247#p934247"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 8.03.17, 15:15&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Manchesmal war es schwer Demut und ratlose Ergebenheit voneinander zu trennen. Genauso wie es eine Herausforderung war Tatendrang und Überheblichkeit vollständig voneinander zu trennen.<br /><br />Tendarion war stolz und stur. Seine Selbstsicherheit was sein Können und Wissen betraf war ungebrochen. Doch verblieb von seinem einstigem Stolz nicht mehr viel. Sich darauf verlassend, dass andere ihn darauf hinwiesen, ob er angemessen gekleidet war, ob er sich beim Essen beschmutzt hatte oder ob er wieder die nächste Kohlenpfanne in der Stadt umstoßen würde, weil er dagegen rannte. Es blieb wenig Selbstständigkeit und Stolz übrig, wenn man anderen derart ausgeliefert war. Gleichmut erfüllte ihn und der innige Drang sich von größeren Personenansammlungen fernzuhalten wurde immer offensichtlicher. <br /><br />Er war nicht unglücklich, jedoch auch nicht glücklich. Wenn er sich mit Astrael beschäftigte war er zumindest zufrieden. Von einer gewissen temporären Freude beseelt, wenn er sich mit seinen nahestehendsten Vertrauten umgab. Aber bis auf diese Zufriedenheit, wenn es um seinen Dienst ging, gab es nichts was ihn noch wirklich langfristig berührte. Weder im negativen noch im positiven. <br /><br />Wie energisch sie alle von den ersten Blumen sprachen. Wie bunt alles bald sein würde. Sein letzter Blick auf Tare war weiß. Die Pflanzen tot. Die Erinnerung an das Dunkeltief noch präsent. Für ihn war Tare in seiner letzten Erinnerung trostlos. Nun war Tare schwarz. Die Erinnerungen an Farben wurden allmählich grau. Offenbar schien sein Geist sich darauf einzustellen, dass er keine weiteren visuellen Sinneseindrücke mehr bekam. Gerüche dominierten seine jüngsten Erinnerungen. Und Geräusche. <br /><br />Und diese dezenten Schwankungen in den Stimmen anderer, die er mit seiner Sicht nie so wahrgenommen hatte, offenbarten ihm eine neue Möglichkeit zu erkennen, wann es Zeit war zu intervenieren. Tendarion mochte nicht der einfühlsamste Elf auf Tare sein, doch erkannte er dass ein Novize der Magierakademie dem zu offenen und ruppigen Verhalten von zwei Soldaten alleine nicht gewachsen war. Und so war es einfacher als Diener Astraels die mahnende Rolle einzunehmen um dem anderen einen Rückzug zu ermöglichen. Besser war Tendarion das Ziel des Unverständnisses als ein Magier der sich seinem respektablen Ruf noch aufbauen musste. Tendarion hatte nichts zu verlieren. Wen kümmerte es dann noch, wenn man ihn als mitleidlosen, mahnenden und ständig unzufriedenen Diener wahrnahm?<br /><br />Zumindest fühlte Tendarion sich in dieser Situation Guntram näher als zuvor. Emotionsloses Hinweisen auf Missstände hatte nie ein positives Echo eingebracht. Und dennoch musste jemand diese Rolle übernehmen. Tendarion war mit dieser Erkenntnis nicht glücklich. Aber er war auch nicht unglücklich.<br /><br />Er war zufrieden, weil Astrael es so wollte.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p934902"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=934902#p934902"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 24.03.17, 09:21&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Seine Zelle war drei Schritt breit und etwa fünf Schritt lang. Er hatte keine Ahnung in welchem Zustand der Raum war, doch war die Luft abgestanden und das Bett roch staubig und muffig. <br /><br />Warum sollte Tendarion, der Tjure Odal vor kurzem erst freies Geleit in und aus der Stadt gewährte nun genau zu jenem gehen und ihn erdolchen? In seinem eigenen Bett, von dem Tendarion nicht einmal ahnte wo es stehen sollte? Blind, ohne die Gabe der Magie.<br /><br />Es war absurd. Schlichtweg absurd.<br /><br />Und dennoch war Tendarion es, der nun eingesperrt war. Unschuldig und doch verdammt eingesperrt zu sein, nur um sein von den vieregegebenes Recht zu leben zu verteidigen. <br /><br />Er hatte zumindest einen Namen. Wenn sie ihn herausfordern wollten, so würde er die Herausforderung annehmen. Und Tendarion wusste, dass Astrael gegen jene, die schuldig sind, Lügen verbreiteten und den Namen des Rechts und Gesetzes in den Dreck zogen, ein hartes und mitleidloses Urteil fällen würde.<br /><br />Auf seinem muffigen Bett sitzend, strich der Elf über die augenförmige Narbe an seiner Hand. Zum Schutz der Insel, zum Schutz seiner Liebsten und stets um Astraels Wille zu verteidigen.<br /><br />Und seine Mundwinkel hoben sich an. Er wüsste nun was zu tun war.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p935004"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=935004#p935004"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 28.03.17, 15:20&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Es war zermürbend selbst die kleinsten Wege ausschließlich in Begleitung hinter sich zu bringen. Der Raum, der nur wenigen bekannt war, war mehr und mehr als Sinnbild für die beklemmende Klaue des Einen geworden, die sich um seinen freien Willen krallte und von Tageslauf zu Tageslauf fester zudrückte. Der staubige und muffige Gestank trieb ihn nach und nach in den Wahnsinn. Kein Fenster, nur diese Türe, durch die der Wind pfeifend zog, wenn er stark genug war.<br /><br />Ironisch, dass selbst die Gefangene der Kirche besser wohnte als er. Doch fühlte er sich gleichsam undankbar, gegenüber jenen die ihm diesen Ort zur Verfügung stellten. Die Zelle in Szindrun war deutlich weniger einladend. Und deutlich kälter und feuchter. Tendarion erinnerte sich an Lucys Hohn als er dort einsaß, wie es sie glücklich stimmte, dass es ihm schlecht ging. Die Genugtuung, die sie kundtat, dass er sich nun so fühlte, wie sie sich fühlte. <br /><br />Es war ernüchternd jemanden gegenüberzustehen, der nicht mehr erkennen konnte, dass er seinen eigenen Geist und seine Seele in einen Kerker steckte und sich dann darüber echauffierte, dass andere zur Sicherheit den Leib dieser Person in Gewahrsam nehmen mussten. Diese seltsame Ansicht von Freiheit, die diese Personen wählten, war ein Kuriosum, das Tendarion nicht verstehen konnte. Weshalb war es essenziell, jemanden grundlos und ohne Provokation mit Magie und Folter zu belegen, um seine eigene Freiheit zu verteidigen? Es war wahrhaft absurd in seinen Augen.<br /><br />Freiheit war ein Begriff der eng mit den Sahor und den Enhor verbunden war. Klare Strukturen, die nicht die Zerstörung eines Aspektes dieser acht Götter beinhaltete, sondern die perfekte Koexistenz und das absolute Gleichgewicht. Zerstörung und das Auflehnen eines Aspektes gegenüber all den anderen war kein Teil davon.<br /><br />Doch all jene die dem Einen dienten, suchten diese Auflehnung. Suchten diese Erhabenheit und den Drang ihre Wahrheit wahrer zu machen. Sie alle wussten nichts davon was es wahrhaftig benötigte eine Waage zu bedienen. Sie kippten alles in eine Waagschale, ohne jede Form von Zurückhaltung und gaben anderen die Schuld wenn die Waage umkippte oder gar die Waagschale sich vor Überlastung löste und der ganze Inhalt vor ihren Füßen zerbrach. Schuld konnte man nicht weitergeben. Eigenschuld nicht auf andere projizieren. <br /><br />Der wahre Weg zu den Vieren war einzig und allein darin zu finden, dass man die Schuld die man tätige bewusst auf sich nahm und willens war diese Schuld im Sinne der Sahor zu tilgen. Und wenn man willens war, die Schuld anderer mitzutragen, um ihnen auf ihren Weg zu den Vieren zu helfen, dann war man nicht nur ihnen gefällig, sondern man war ihnen ein wahrer Diener.<br /><br />Tendarion atmete die abgestandene Luft ein. Er konnte hier atmen, trinken und sich nähren. Wenn er das Ziel sein sollte, für eine Untat, die man ihm unrechtens vorwarf, dann sollte es so sein. Die Schuld dieser obskuren Vorwürfe  würde er nicht annehmen, aber die Konsequenzen aufrecht tragen. <br /><br />Und so wirkte der Raum mit einem Mal wie ein Ort der Freiheit. Ein Ort seines Herrn Astraels, an dem er sich auf das Wesentliche konzentrieren konnte. Keine Störungen, denn nur er allein bestimmte wer diesen Raum betrat.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p935297"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=935297#p935297"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 4.04.17, 15:57&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Visionen.<br /><br />Für gewöhnlich etwas, was Tendarion mit Ehrfurcht und Strebsamkeit erfüllte. Die göttliche Weisung zu interpretieren, zu verbreiten, Anhaltspunkte zu finden. <br /><br />Doch diesmal lief es dem Elfen kalt den Rücken herunter. Die Rede war von Maynagh. Eine weitere Vision, die den Einen selbst zeigte. Die Anwesenheit der Prinzessin. Was besagte dies über den Verlauf des Krieges? War die galadonische Krone dem Untergang geweiht? Die Prophezeiung, von der alle wussten, doch kein einziger in klare Worte fassen konnte - sollte sie sich etwa erfüllen? <br /><br />Tendarion wusste, dass er älter würde als die meisten seines Umfeldes und die Möglichkeit, etwas tareverändertes zu erleben, ist durchaus wahrscheinlicher, wenn man mehrere Jahrhunderte auf Tare verweilte, doch hatte er nicht ein Jahrhundert erlebt und nun sollte sich dies schon bewahrheiten? Wie immer in der letzten Zeit, seit er am Marktplatz auf sein Leben bedroht wurde, fühlte er sich nur noch im Sanktum des Herrn oder seiner kleinen Zelle wirklich wohl. Unsehend ging er langsam die Regale entlang. Die Bücher bauten sich links und rechts turmartig in den Regalen neben ihm auf. So viel Zeit hatte er mit Lesen verbracht. Doch nun war er allein mit seinen Gedanken. Er konnte nur von dem schöpfen was in ihm ruhte, was andere sagten. <br /><br />Er hoffte auf Weisung, einen Hinweis, wie Astrael ihm jemals vergeben könnte. Es war zermürbend machtlos, untätig und nutzlos zu sein. Nur hohle Worte konnte er von sich geben. Kaum eine Tätigkeit noch ohne Hilfe ausführen. Nun war er noch in Gefahr, dazu verdammt noch weniger alleine tun zu dürfen und zu können. Von freiem Willen und Freiheit war nicht mehr viel übrig. Tendarion legte sich im Sinne der Viere gerne jede Fessel an und kniete vor ihm, wenn es ihm und seinen Geschwistern nur helfen konnte. Doch konnte Tendarion sich nicht begreiflich machen, warum Astrael nur noch das von ihm verlangte. Nur noch Demut. Nur noch Geduld. Nur noch alles den anderen zu überlassen.<br /><br />Das Ende nahte offenbar und Tendarion konnte nur in der Ecke stehen und hoffen, dass er nicht im Weg stand.<br /><br />Erstmalig seit langem kochte der Frust seiner Machtlosigkeit wieder in ihm hoch und er konnte ihn nicht mehr abschütteln. Er setzte sich auf eine der Bänke im Sanktum und verharrte. Weit weg von allen, auf dass er nicht im Weg stünde. Auf dass er nicht nur eine Last sein würde.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p935676"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=935676#p935676"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 17.04.17, 15:06&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Böser Bruder.<br /><br />Es war interessant festzustellen, dass er mit dieser Rolle sich nach und nach mehr anfreunden konnte, als mit jener des freundlichen und immer verständnisvollen Dieners. Tendarion strafte nicht gerne. Er tat es auch ungewöhnlich selten. Schon gar nicht kündigte er Strafen an. Hielt sich exzessiv von jeglicher emotionaler Erpressung fern.<br /><br />Er entzog niemanden seine Liebe. Niemand würde vor ihm, um seine persönliche Gunst zu erlangen, knien müssen. Seine Liebe war streng und fordernd. Aber sie war jederzeit und wahr. <br /><br />Menschen im Allgemeinen hatten in seinen Augen immerzu das Problem, dass Enttäuschung stets mit Liebesentzug oder anderen emotionalen Strafen einhergehen musste. Freundschaften die gekündigt wurden, Versprechen die nicht mehr eingehalten wurden. So viele Bestrafungen nur weil man nicht der sein konnte oder wollte, den sich ein anderer wünschte. <br /><br />Tendarion war glücklich darüber, dass Guntrams Art und Weise als angenehmer und einfacher empfunden wurde als die seine. Denn im Grunde war es auch so. Guntram war ein standhafter Leuchtturm dem weder Gischt noch schneidende Winde ernsthaft zum wanken brachte. Tendarion war mehr das flackernde Licht das in jenem brannte. Stets sichtbar, verlässlich, aber bei weitem nicht so zäh und widerspenstig wie der Turm selbst. Tendarion war leicht zu entflammen. Konnte in der kleinsten Glut eine Stichflamme hervorbringen. Das war seine Stärke. Aber machte ihn nicht so zäh wie seinen Mentor. <br /><br />Aber er hatte auch noch viele Jahrhunderte vor sich um selbst ein Turm zu werden, der einst ein flackerndes Licht beherbergen, schützen und auf den rechten Pfad lenken würde.<br /><br />Als böser Bruder war Tendarion hingegen ein loderndes Leuchtfeuer. Er wusste immerzu dass es seine Aufgabe war, das zu behüten, was Vitama so selbstlos schenkte aber es nicht im stande war sich selbst zu behüten. Wer einen Diener der Herrin drangsalierte, herumschubste und ständig provozierte, zwang ihn sich von Vitama zu entfernen. Und jener Punkt war es, der ihn als bösen Bruder sinnvoll und unabdingbar machte. Wer sich dem Orden seines Herzen entgegenstellte, als Feind, Provokateur oder ewiger Nörgler, der hatte sich in Tendarion einen Feind geschaffen.<br /><br />Und dieser Feind hatte sich von Vitama schon entfernt. Aber noch genügend Spielraum immer näher zu Bellum zu finden um all jene zu verteidigen die bei Vitama um jeden Preis bleiben mussten.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p936112"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=936112#p936112"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.05.17, 01:54&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Zu lange hatte er mit angesehen und miterlebt, wie sie sich immer mehr darin verlor nur ihm zu gefallen. Wie sie sich von Mal zu Mal wandelte, bis er sie nicht mehr erkannte.<br /><br />Sie war nicht mehr sie selbst, doch Tendarion fehlte jegliches Feingefühl dafür, ihr wieder zu sich selbst zu helfen. Immer mehr verdrehte er sich um sich ihr entgegenzubiegen, in der Hoffnung sie damit wieder gerade zu bekommen. Sie sich wieder selbst finden lassend. Sie selbst Vitama kennenlernen lassend, ohne seinen Einfluss. Ohne als Vorbild zu gelten. Nicht Mentor wollte er für sie sein, sondern Bruder.<br /><br />Doch die Scherben, auf denen er seit Monden ging, zerschnitten ihm die Füße und er wusste nicht mehr wo er hintreten sollte. Sie von ihr wegzufegen, war nicht möglich. Vor ihr etwas zu verstecken war nicht möglich. Sie musste genauso wie er selbst auf dem Scherbenbett ausharren. Also musste er das einzige was noch zwischen ihnen funktionierte töten.<br /><br />Erst wenn sie ihn nicht mehr liebte, musste sie nicht mehr in diesen Scherben spazieren. Er war irrelevant. Sie keineswegs. <br /><br />Er setzte den Dolch an. Stach zu und drehte ihn um. <br /><br />Keine Befreiung. Keine Erleichterung. Nur der letzte Rest Selbstbeherrschung, als der Blutschwall ihm entgegenkam und ihr Entsetzen in Verwünschungen über ihn hereinbrach. Er hatte soetwas nie getan. Was er da redete, sprudelte ihm aus den Mund, doch wusste er nicht was er da sagte. Er war aufgewühlt, nervös, verwirrt. Warum tat er ihr so weh? <br /><br />Weil sie nur gesunden konnte wenn das Geschwür entfernt wurde. Und letzteres war er.<br /><br />Er musste Vitama gegenüber büßen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p936120"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=936120#p936120"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.05.17, 13:14&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Die kalte Nachtluft tat gut. Kurz nickte der Templer am Eingang der Kathedrale ihr zu, sie erwiderte es, während sie an der Mauer lehnte und ihre Gedanken und Gefühle sortierte.<br />Das also sollte der letzte Akt in dem Stück sein. Der letzte verzweifelte Versuch sein Bild von sich selbst aufrecht zu erhalten. Ein gutes Stück weit kränkte es sie, dass er sie für derart dämlich hielt um das nicht zu durchschauen. Es war ja nicht so, dass er genau das nicht schon einmal versucht hätte, sie mit so viel Gewalt von sich zu stoßen wie er auf zu bringen imstande war und jedes mal hatte er fest stellen müssen, dass seine Kraft dafür nicht aus reichte. Dasselbe Spiel, eine andere Methode, auch wenn die Vehemenz immer drastischere Formen an nahm. Hatte was von diesem General der Belagerungswaffen, wie hieß er noch gleich? Wenn ein Katapultschuss Dein Problem nicht löst, dann schieß noch mal. Interessantes Lebensmotto, aber naja, Versuch macht klug, dann schieß doch. Er hatte sich schon früher schamlos an seinem Umfeld bedient, andere für das gegeißelt, was er selbst tat und dieses mal war es halt die Maskenbildnerin die er sich zum Vorbild genommen hatte und wie jedes mal wenn er ihr etwas vor zu gaukeln versuchte hatte er sich durch zu wenig Liebe zum Detail selbst verraten. Auch wenn er es für einen Augenblick geschafft haben mochte, dass sie an sich selbst und an den Vieren zweifelte, aber dann brach sein Kern doch wieder durch. Wie er innerlich zusammen gezuckt war als sie die Magie ins Spiel gebracht hatte, dieses Winden, dass Auren so unvergleichbar wären. Träum weiter, ihren Ursprung können sie nicht verleugnen, der bleibt immerzu gleich. Mensch, Elf, Zwerg, einerlei. Kein Wort des Widerspruchs, als sie den Einen ins Spiel gebracht hatte. Ein kühner Schritt um ihre Theorie zu untermauern, aber die Reaktion darauf war wie erwartet. Und wie jedes mal kein Wort des Bedauerns, keine einzige Entschuldigung für das was er ihr angetan hatte die nicht zugleich ein einziges Heischen um Mitleid waren. Nein, das war er wie er leibt und lebt. Unfähig irgendwen zu lieben außer sich selbst, nur glücklich, wenn er im Mittelpunkt auf einem hohen Podest stand von dem aus er gebraucht, ja angehimmelt wurde, während er auf alle anderen herab blicken konnte. Der entsetzt war wann immer sie ihm auf zeigte mit welcher Leichtigkeit sie hinter das Trugbild blicken konnte, der er seine schlechtesten Seiten zwar vorenthalten wollte, aber nicht konnte und das ohne dass sie sich von ihm ab wandte. Der verwirrt war, geradezu hilflos, wenn er nicht trotz, sondern wegen seiner Fehler geliebt wurde. Das war etwas, das er weder an ihr noch an Vitama jemals wirklich verstanden hatte. Dass Liebe nicht verletzt, nicht verletzen kann, gleich wie verletzbar man durch sie wirken mochte. Dass es die die einen lieben traurig macht wenn man das was man ihnen gibt nicht wert schätzt, wenn man sich dessen schämt, sich dessen nicht als würdig erachtet, dass aber gleich was er tun oder auch nicht tun mochte dies die Liebe nicht schmälern würde, nicht schmälern konnte. Liebe war schon immer etwas absolutes. So wie man nicht ein bisschen schwanger sein konnte konnte man nicht nur ein bisschen lieben. Man tat es oder man tat es nicht. Und dazwischen ward kein Platz für irgendwas. An diesem einen Punkt hatte er Vitama nie so an sich heran gelassen wie sie es wollte und deshalb war er heute was er war, wer er war. Noch immer derselbe, nur im anderen Gewand.<br />Kurz musste sie schmunzeln. Ja, sie wusste nicht viel Gutes über ihn zu sagen, aber eines, das musste sie ihm lassen: Er war kein guter Lügner. Die meisten würden das als Beleidigung empfinden, es im ersten Moment als vorteilhafter ansehen geübte und versierte Lügenmäuler zu sein, aber letztendlich war es ein Kompliment an den Charakter wenn man nicht halb so gut lügen konnte wie man selbst von sich dachte.<br />Dass es Vitama einerlei sein sollte, wenn ihre Geweihten weder lieben können noch wollen, ja, dass sie es befürworten sollte wenn man dem gegenüber dies nur vor gaukelte um es ausnutzen zu können oder damit einer der beiden sich besser fühlte, nein, das wusste sie selbst besser. Dass Astrael keinen Anstoss daran nehmen soll wenn in seinem Schrein an einem Strang gelogen wird? Na, da passte der Seitenhieb den er deswegen von Astrael hat einstecken müssen und von dem er so bereit willig erzählt hatte nicht zu. Dass man um vieregefällig sein zu können erst alles aus sich verbannen musste was vieregefällig ist? Dass man einen von ihnen ablehnen und seine Gaben nicht wollen kann und dennoch ihnen allen gerecht werden soll dabei? Wirkte sie wirklich so dumm auf ihr Umfeld? Kannte er sie so schlecht? Ihr Zeigefinger ging kurz gen Himmel. Ja, Du da oben. Glaub' ja nicht, dass ich Dich nicht erkennen würde.<br />Sie betrat die Kathedrale erneut und wandte sich gen des Schreins, aber er war schon fort. Wohin auch immer. Sei es drum. Ein kurzes Nicken gen der Waagschale, eine stille und schlichte Geste des Dankes. Vielleicht wäre sie glücklicher, wenn sie nur etwas dümmer geboren worden wäre, wenn sie den Abend nicht hinterfragen, sondern einfach hinnehmen könnte. Ein klarer Schnitt zwischen ihr und ihm. Ein Ende der ewigen Vorwürfe, dass sie ihn nicht lieben würde. Vielleicht wäre sie glücklicher so. Es heißt, das Unwissenheit ein Segen sein kann, aber hier, an diesem Ort, konnte sie dem nicht zustimmen. Wissen zu besitzen war immer besser als es nicht zu besitzen, das Wissen war nicht das Problem an sich, sondern einzig die Versuchung die dahinter steckte. So wie die Versuchung ihm unter die Nase zu reiben wo er es dieses mal verpatzt hatte.<br />Nur eines, das störte das Gesamtbild: In diesem Schrein war heute Nacht gelogen worden, dass sich die Balken bogen. Nun, immer noch besser, als wäre das der Standard.<br />He, Gott der Wahrheit, ich habe eine Wahrheit für Dich: Wer liebt kann alles ertragen. Auch nicht zurück geliebt zu werden. Frag' mal Deine Schwester, die kann da ein Lied von singen.<br />Ihr linker Mundwinkel zuckte nach oben, dann wandte sie sich aus dem Schrein ab. Was für ein selten unerfreulicher Abend.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p936333"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=936333#p936333"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 12.05.17, 20:12&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Die salzig-riechende Brise umspielte sein Haar, das Gras unter seinen nackten Füßen fühlte sich weich und feucht an. Der Fleck auf dem er stand, war von Fela gewärmt, sein Kopf, seine Schultern und sein Gesicht brannte sanft unter den Strahlen des Sonnendrachen. Mit dem Bogen entlockte er der Geige deutlich harmonischere Töne, die von Sanftheit und Zärtlichkeit sprachen. Melancholie konnte er nie verdrängen, wenn er übte. Doch war sie tröstend, eine Möglichkeit sein Innerstes nach außen zu kehren, ohne darüber sprechen zu müssen. Ohne sich erklären zu müssen. <br /><br />Das Gedicht, das er am Künstlerabend sprach, war ganz nach elfischer Dichtkunst geschrieben. Die Harmonie wurde fast ausschließlich durch die Intonation erreicht. Etwas was in Auriel gar nicht anders möglich war, da ein jedes Wort durch eine veränderte Betonungen vollkommen andere Bedeutungen erhielt. Doch in Galad war diese Dichtkunst schwierig bis äußerst disharmonisch umzusetzen. Der Elf war nicht zufrieden mit seiner Vorstellung an dem Abend. Der Ork hatte in seinen Augen zurechtgewonnen, denn viel harmonischer klang Tendarions Gedicht beim besten Willen nicht, als der schwer zu verstehende Kauderwelsch des Orken. Doch wenn es nicht als Gedicht ausreichte, so war es doch das beste, eine Melodie dazu zu komponieren, war es doch im Herzen nie als etwas anderes gedacht?<br /><br />So hörte man, wenn man sich in der Küstennähe nordwestlich von Brandenstein aufhielt, das Geigenspiel und die ruhige Stimme, die zwischen Bariton und Tenor angesiedelt ist, trägt einige Worte vom Turm herab.<br /><br /><div align="center"><span style="font-style: italic">Die Vitamablume<br /><br />Eine Blüte im Felde so schön und so rein,<br />was mochte ihr Sinn ihre Bestimmung wohl sein?<br /><br />Überstrahlet sie in ihrer Pracht alle andern,<br />ach, wie schwer es doch fällt weiterzuwandern.<br /><br />Die Farbe dem Wein gleich, den Rosen und der Liebe gar <br />wie misse ich sie, obschon sie nie die meinige war.<br /><br />Auch wird es künftig niemals so sein,<br />bin ich doch fehlbar und keineswegs rein.<br /><br />Ihre Farbe, ihr Liebreiz und auch ihre Pracht,<br />haben mein Herz stets nur Wehmut gebracht.<br /><br />Nicht weil sie verletzte und auch Pein bracht&#39; sie nie,<br />Nein - nie mehr begehrte ich, zu sein, so wie sie.<br /><br />Ein Blick in den Spiegel - was erkenn&#39; ich darin?<br />Ein verhärmtes Leben mit nur Wissen im Sinn.<br /><br />Das blau des Himmels, so silbern sein Auge,<br />so trüb ist mein Blick, getaucht wie in Lauge.<br /><br />Die Farben sind öd, gelangweilt und grau,<br />nichts kann mich erfüllen - auch Mann nicht, noch Frau.<br /><br />Das Silber, das Blau, das Grau und das Wissen,<br />wie trostlos mein Herz, meine Gedanken - verbissen.<br /><br />Der Blick auf die Blüte mein Herz nur zerreißt, <br />doch neigt sich ihr Kopf - ein Deuten, das weist?<br /><br />Ich blicke dorthin, nur Trübsinn im Leben, <br />doch was sehe ich? Mein Herz lässt &#39;s erbeben.<br /><br />Die Kornblumen, die Tulpen und auch die Morsanrose,<br />wie konnt&#39; ich nur zweifeln - ich der so gedankenlose.<br /><br />So blau, so rot und schwarz ebenso,<br />so bunt und so prächtig - was bin ich doch froh!<br /><br />Ich blicke zur weinroten Blume und weine,<br />es gibt nicht nur diese, nicht nur die eine.<br /><br />Ich richte mich auf - mein Herz voll von Glück.<br />Zu den anderen ich gehe, doch..<br /><br />..ich kehre zurück.</span></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p936588"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein gewöhnlicher Diener der Viere</div><div style="float: right;"><a href="./viewtopic.php?p=936588#p936588"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 21.05.17, 16:42&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Das Gras knirschte unbehaglich unter seinen leichten Schritten. So viele berichteten von dieser grell-blendenden Fela. Die trockene Hitze, die in den Hellzyklen den Boden austrocknen lies. Er bemerkte es auf dem Grasfleck im Astraelgarten. Das Gras klang wie Heu unter seinen Füßen. <br /><br />Ironischerweise tappte er in zweierlei Hinsicht im Dunkeln. Einerseits konnte er aufgrund seiner fehlenden Sicht nicht einschätzen, was genau so seltsam an dem Licht Felas sein sollte. Andererseits waren die Mutmaßungen die Diana und Edelmut aufstellten, ebenso beunruhigend wie unerklärlich.<br /><br />Sahen die Geweihten mehr darin, weil sie wussten, dass Zeichen oftmals uneindeutig waren? Vielleicht war es nur eine Laune Ignis' die nicht näher zu definieren ist, doch wollte der sterbliche Verstand etwas - oder mehr - darin erkennen. Waren sie zu übervorsichtig? Waren sie zu nachlässig? Tendarion wusste es nicht.<br /><br />Er wusste nur, dass ihm diese Hitze gut tat. Ein Trost für das fehlende Licht in seinem Leben. Ein Trost für die Kälte die sein Herz viel zu oft mittlerweile einnahm.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=103341&amp;start=120"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=103341"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>5</strong> von <strong>8</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 232 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Klicken Sie, um auf Seite … zu gehen">Gehe zu Seite</a> <a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=90">Vorherige</a>&nbsp;&nbsp;<a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a">1</a><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=30">2</a><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=60">3</a><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=90">4</a><span class="page-sep">, </span><strong>5</strong><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=150">6</a><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=180">7</a><span class="page-sep">, </span><a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=210">8</a> &nbsp;<a href="./viewtopic.php?f=27&amp;t=103341&amp;st=0&amp;sk=t&amp;sd=a&amp;start=150">Nächste</a></b></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=103341"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

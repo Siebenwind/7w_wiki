@@ -1,0 +1,819 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Schwarze Tage, weiße Nächte</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=108074&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Schwarze Tage, weiße Nächte</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=108074"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 9 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=108074&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=108074&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=108074&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p943662"></a>
+				<b class="postauthor">Nithavela&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Schwarze Tage, weiße Nächte</div><div style="float: right;"><a href="./viewtopic.php?p=943662#p943662"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 7.06.18, 19:15&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5279_1291546442.jpg" width="100" height="100" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 8.02.05, 20:06<br /><b>Beiträge:</b> 3501<br /><b>Wohnort:</b> The Combination Pizza Hut and Taco Bell				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Es war bereits dunkle Nacht, als zwei Frauen durch die Straßen Brandensteins schlenderten, scheinbar ohne Ziel, freundlich und leise sich unterhaltend. An einer Weggabelung hielten sie an und blickten kurz umher, um dann auf den nahen Zeltplatz zu verschwinden. Ein Trank wurde getrunken, ein kurzer Zauberspruch gewirkt und wenige Momente später öffnete eine der Frauen die Tür zu einem der Wohnwagen, in dem die Beiden dann verschwanden. <br /><br />Als sie den Wohnwagen einige Zeit später verließen, war jener nur auf den ersten Blick unberührt. Die Kisten waren aufgebrochen und durchwühlt worden, das Bett zerrauft und die Sachen im Regal verschoben. Offenbar war hier ein meisterhafter Einbrecher am Werk, denn es finden sich keine Spuren von zerbrochenen Dietrichen. Oder vielleicht sind die Schlösser im Wohnwagen auch einfach nur von minderwertiger Qualität. Trotz der durchwühlten Kisten scheint fast nichts zu fehlen. Ein wüst zusammengestückeltes Buch und eine Narrenkappe scheinen Alles zu sein, und bei den vollen Kisten mag es eine Weile dauern, bis sich diese Erkenntnis bildet.<br /><br />-------------------------------------------------<br /><br />In ihrer Hütte im Armenhaus sitzend lächelte Iomine zufrieden in sich hinein, als sie das Buch über blaue Magie schloss und unter ihr Kopfkissen schob. Dann bettete sie den Kopf auf ihr Stofftier und schloss die Augen. &quot;Wir werden dem schon zeigen, was Verantwortung ist, Herr Mümmel. Ob er will oder nicht..&quot; murmelte sie mit vergnügtem Glucksen. Dies würde nicht nur eine hervorragende Übung sein, sondern auch einem guten Zweck dienen. Iomine schlief in dieser Nacht tief und zufrieden, denn wenn sie eines wusste, dann dass Stofftiere der beste Schutz gegen schlechte Träume waren. Morgen musste sie nur noch ein Ding beschaffen, dann konnte sie sich an die Arbeit machen.</div>
+
+											<span class="postbody"><br />_________________<br />Spieler von: <br /><br />Nithavela, Hohepriesterin Xans<br />Iomine und Herrn Mümmel, Glücksbringer und Stoffhase</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5279"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=5279"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p943679"></a>
+				<b class="postauthor" style="color: #string">Gwydeon Lichtertanz&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Schwarze Tage, weiße Nächte</div><div style="float: right;"><a href="./viewtopic.php?p=943679#p943679"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 9.06.18, 01:48&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9276_1533336005.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.04.16, 23:32<br /><b>Beiträge:</b> 294<br /><b>Wohnort:</b> Dreieich (Hessen)				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Nach Bier und Schnaps riechend und leicht schwankend kam Gwydeon in dieser Nacht an seinen Wohnwagen. Seelig brabbelnd fuddelte er an seinem Gürtel, an dem wie immer die seltsamsten Sachen baumelten nach seinem Schlüsselring. Es dauerte eine Weile, bis er den groben Eisenschlüssel gefunden hatte, obwohl er ihn wohlweisslich mit blauer Kordel umwickelt hatte, um ihn auch im Dunkel einfacher zu ertasten. Aber er war ja auch betrunken, da musste er etwas nachsichtiger mit sich sein. Es hatte ihn an diesem Abend nicht im Gauklerlager gehalten, Susen schlief die meiste Zeit in ihrem Wagen und Zwilfy streunerte vermutlich wieder am Hafen herum, sei´s drum, er hatte ohnehin keinen Bedarf mit den Beiden über die Dinge zu reden, die ihn seit Wochen umtrieben.<br />Mit einem leisen Klackn öffnete das schlichte Schloss an seiner Wagentür, wozu ein teures Schloss für einen Planwagen kaufen, wenn wirklich mal jemand reinwollte sollte er lieber durch die Fenster klettern oder die Plane aufschlitzen und sich Zugang verschaffen... das wäre für ihn mit ein paar Nadelstichen und einem bunten Flicken Stoff wenigstens einfach zu reparieren gewesen.<br />Ein kalter, einsamer Regentropfen der sich vom letzten Schauer noch der Wagenplane gehalten hatte, fiel in sein Genick als er eintrat und die Tür hinter sich zuzog. Sein vom Weinbrand leicht benebelter Blick huschte nach oben, bemerkte, wie so viele Male zuvor das kleine Loch, durch das er die Sterne am nächtlichen Himmel glitzern sehen konnte. Das würde er morgen gleich erledigen, morgen gleich in der Frühe, sagte er sich - so wie die letzten Male zuvor.<br />Mit dem Fuß stieß er ein paar leere Weinflaschen um, nur um sich sogleich in einem achtlos auf den Boden geworfenen Hemd mit den Füßen zu verhaken. Es polterte kurz, ein rascher Ausfallschritt, zwei unsicher tapsende Schritte nach links, und dann nach rechts, und schließlich ein beherzter Griff an das Gestell des Hochbettes, dass ihn vor dem Sturz retete. <br />Er seufzte schwer und zog sich hoch, und schimpfte sich selbst einen unordentlichen Chaoten, der nicht mal auf der acht Rechtschritt großen Fläche eines Wohnwagen Ordnung halten konnte. Als er sich, mit Klamotten und Stiefeln ins Bett fallen lies, wanderten seine Gedanken kurz zu Edelmut und dem kleinen Bündel auf ihrem Arm, das sein Fleisch und Blut war. Gänsehaut huschte über seine Haut: schauderte ihn die Vorstellung die Verantwortung für das Leben eines so hilflosen Wesens zu haben. Fürchtete er sich vor diesem quasi untrennbaren Band, das sie drei verband, ein Leben lang ab jetzt?<br />Seine Gefühle waren zwiespältig, nicht wie sonst einfach nur unstet, er wusste sich nicht zu helfen, wusste nicht wie er mit der Situation umgehen sollte. <br />Beherzt musste er aufstoßen, und der Geruch von schalem Bier und Schnaps, sowie dem fettigen stück Schweinebraten, dass er in der Taverne im Hafenviertel zu sich genommen hatte, breitete sich im Wagen aus. Er drehte sich auf die Seite und legte seine Hände unter den Kopf, die Augen halb offen.<br />Natürlich war es lustig, dem kleinen Ding ein paar Kaninchen aus dem nichts herbeizuzaubern. Aber das hätte er auch für jedes andere Kind getan, dass sich halbwegs interessiert gezeigt hätte. Oder tat er das nur für Edelmut? Hatte er für die Vitamadienerin, die einstmals seine Gefährtin war, den blauen Holzhasen geschnitzt? Er zog eine Hand hervor und kratzte sich gähnend am Hintern. Wie sollte das weitergehen? Am besten er würde sich einfach von Ihr und dem Kind fernhalten... ja genau, einfach Abstand und keine Nähe zulassen, dann wird sie ihm das kleine Ding nicht schon wieder einfach mal so auf den  Arm drücken... halbwegs zufrieden mit diesem Plan schlief er dann bald ein.</div>
+
+											<span class="postbody"><br />_________________<br />Für alles zu haben, zu nix zu gebrauchen!</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9276"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9276"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p943685"></a>
+				<b class="postauthor" style="color: #string">Gwydeon Lichtertanz&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Schwarze Tage, weiße Nächte</div><div style="float: right;"><a href="./viewtopic.php?p=943685#p943685"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 10.06.18, 00:59&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9276_1533336005.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.04.16, 23:32<br /><b>Beiträge:</b> 294<br /><b>Wohnort:</b> Dreieich (Hessen)				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Gwydeon verließ mit gemischten Gefühlen das Ordenshaus. Er machte sich Sorgen um Edelmut, sie wirkte müde und erschöpft. Er hatte es ihr auch gesagt, als er mit ihr, seinem Kind und diesem Morsandiener am Tisch saß und ein wenig plauderte. Gleichzeitig war er ein wenig enttäuscht von Leuten wie Tendarion und Arin, und auch diesem Morsandiener. Nach außen hin taten sie immer wie eine große Familie, lebten gemeinsam unter einem Dach und dann unterstüzen sie nicht mal ihre Schwester mit ihrem Kind. Waren das die Tugenden der Viere? Die Gerechtigkeit Astrales, der Ruhm und die Ehre Bellums, die Liebe und Fürsorge Vitamas? Gut, solange Edelmut sich alleine um das Kind kümmern musste, war auch die Ruhe Morsans gewährleistet und keiner musste sich um das quängelnde Blag kümmern. Wieso war Edelmut damals nicht auf seinen Vorschlag eingegangen? Sie hätten gemeinsam Falandrien in seinem Wagen bereist, jede Woche ein anderes Dorf, eine andere Stadt, eine neue Gegend. Er würde die Dukaten verdienen, sie würde das Kind versorgen, oder die Kinder, wer weiß das schon. Und sie hätten ein schönes und beschauliches Leben führen können. Aber sie wollte ja nicht... vermutlich hatte sie gehofft mehr Unterstützung bei ihren Ordensbrüdern, und -schwestern zu finden. War sie deshalb so aufgebracht ihm gegenüber? Weil sie sich , ihm gegenüber nicht eingestehen wollte, dass er eigentlich recht hatte? Sie war früher schon so stolz gewesen, und vermutlich war  ihr Stolz der sie nicht über ihren Schatten springen lies und all diese unnötigen Pflichten hinter sich lassen zu können. Ständig die ideale Vitamas hochhalten, am besten ständig lächeln und die gute Mutter spielen, dazu würde sie, so wie er sie kannte, jede Arbeit annehmen die man ihr auftrug, nur um keine Schwäche zu zeigen. Irgendwie war das schon ein heuchlerischer Haufen... waren die Worte Saranas damals vielleicht gar nicht so falsch? Die weißhaarige Frau, die Schwarzmagierin und Dienerin des Einen kam ihm in den Sinn. Hatte sie damals vielleicht wirklich recht mit ihren Worten gehabt... Aber er wollte sich an diesem Abend nicht auch noch Gedanken über die Götter machen.....</div>
+
+											<span class="postbody"><br />_________________<br />Für alles zu haben, zu nix zu gebrauchen!</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9276"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9276"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p944166"></a>
+				<b class="postauthor">Nithavela&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Schwarze Tage, weiße Nächte</div><div style="float: right;"><a href="./viewtopic.php?p=944166#p944166"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 16.07.18, 19:04&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5279_1291546442.jpg" width="100" height="100" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 8.02.05, 20:06<br /><b>Beiträge:</b> 3501<br /><b>Wohnort:</b> The Combination Pizza Hut and Taco Bell				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Die Vorbereitungen für das Ritual hatten länger gedauert als erwartet, vor allem weil die inzwischen etwas ältere Elena nicht mehr so sehr an ihrem Stofftier zu hängen schien und es nicht zu jeder Zeit mit sich herum trug. Iomine seufzte leise, als sie auf ihren eigenen Stoffhasen blickte und ihn einmal liebevoll drückte, bevor sie ihn auf dem Boden ihres Kellers absetzte. Der Kellerraum war klein, etwas feucht und vollkommen leer, vor allem weil sie sich bis heute nicht sicher war, was sie damit überhaupt anfangen sollte. Was machten andere Leute mit Kellern? Sachen darin lagern? Dann müsste sie sie doch dauernd hoch und runter tragen.. <br /><br />Den Kopf schüttelnd fokussierte sie sich auf die vor ihr ausgebreiteten Dinge, die im Licht einer einsam flackernden Laterne schimmerten. In dem kleinen Kessel blubberte eine dunkle Flüssigkeit geheimnissvoll. Natürlich war diese Flüssigkeit nur Wasser mit Tinte, und statt einem prasselnden Feuer erhitzten einige glühende Steine den Kesselinhalt, aber es kam bei solcher Magie auch immer etwas auf das Aussehen an. Über ihrem Heim war der Himmel nächtlich dunkel, und da die meisten Bewohner der Insel auf einer Art Seefahrt waren, würde sie sicher niemand stören. Zeit, sich an die Arbeit zu machen.<br /><br />Zuerst begann sie mit einer Anrufung an Mutter und an die Monde, denn ihre Absicht war finster genug, dass ihr dies angemessen schien. Vater würde solche Taten sicher nicht gut heißen, ebenso wenig wie Morsan oder Lifna. Sie konnte später Buße tun. Mit einem Blick auf ihren vorgeschriebenen Text begann sie zu intonieren.<br /><br /><span style="font-style: italic">Gnädig' Mutter, hör mein Rufen, lass mein Fluchen Stärke finden.<br />Dir zur Ehre will ich wirken, dir zum Ruhme will ich binden<br />den, der deine Gabe schmähet, Leben schafft und Pflichten meidet.<br />Schenk meiner Magie den Segen, seinen Fehler ich ihm zeige.<br /><br />Goldmond, stärke meinen Willen, ihm zu rauben seinen Frieden.<br />Weißaug, schärfe meine Einsicht, gib mir Weisheit, schenk mir Listen,<br />Schwarzherz, hülle meine Pläne ein in deine dunklen Wege,<br />dass mein Wirken still und leise einen Pfad zum Guten lege.</span><br /><br />Sie war einigermaßen stolz auf das Ergebnis von mehreren Stunden Dichtkunst und der hirnzermarternden Lektüre mehrerer Werke über Versmaß und Dichtung. Herr Mümmel hatte darauf bestanden, dass, wenn sie schon bei einer Anrufung reimen wollte es immerhin richtig täte. Sogleich spührte sie, wie ihre Worte und ihr auf diese konzentrierter Wille die Luft des Kellerraumes mit Magie erfüllten. Schwer, drückend und belastend legte sich die Kraft auf ihre Schultern. Auch das Grinsen ihres Stoffhasen schien noch eine Spur breiter und gefährlicher zu werden. Nun gab es jedoch keinen Weg zurück mehr, und außerdem wollte sie auch garnicht aufhören.<br /><br />Eine Hand voll Haare, die sie im Bett ihres Opfers zusammengesucht hatte, warf sie in den Kessel, langsam streuend, während sie mit der anderen Hand eine Kelle rührend im Kreis bewegte. <br /><br /><span style="font-style: italic">Deine silbergrauen Haare sollen weiß sein von den Schrecken.<br />Deine Beine ohne Ruhe sollen dich nicht lang verstecken.<br />Bei Fleisch und Blut, bei Mark und Bein,<br />gebunden soll dein Geist nun sein.</span><br /><br />Diese Worte sprechend, konzentrierte sie sich auf die Verbindung, die sie zu ihrem Opfer aufbauen sollte. Ein Fluch musste auf sein Ziel abgestimmt sein, damit er traf und saß, und auch wenn sie kein Blut hatte, würden die Haare genügen. Als nächstes musste sie die Art des Fluches gestalten, und auch dafür war sie gut vorbereitet. Ihre Hand griff eine Schale mit in der Abenddämmerung gesammelter Spinnweben, die sie in das Wasser fallen ließ. Sie bezweifelte, dass sie von einem Lifnaknecht stammten, aber auch hier würde es ausreichen müssen.<br /><br /><span style="font-style: italic">Deine Träume, deine Freunde, unverdient dir Ruhe schenkend, <br />während andre einsam weinen, sollen dich mit Furcht ertränken.<br />Keine Ruhe und auch kein' Flucht, <br />vor dem, was dich im Schlaf heimsucht.</span><br /><br />Nun folgte eine kleine Phiole mit Gift, die sie vor einer Weile in einem Räubersteck eingesteckt hatte. Es war kein sonderlich starkes Gift, aber sie wollte das Ziel ihres Fluches ja auch nicht mit seinen Träumen umbringen, sondern nur ängstigen und etwas quälen. Lieber etwas zu schwach als zu stark, nachlegen konnte sie immernoch. Leise gluckernd floss das Gift in das Gebräu.<br /><br /><span style="font-style: italic">Leise soll das Gift nun wirken, heimlich sich an dir ernähren.<br />Sollst nichts ahnen, langsam quälen, kannst dich seiner nicht erwehren.<br />Leise wie auf Spinnenbeinen<br />kommt es bald und du sollst leiden.</span><br /><br />Eines fehlte noch. Sorgfältig aus einer Schale ein einzelnes Haar nehmend, das von einem rötlichen Braun war, warf sie dieses in den Sud, es vorher einige Momente darin dümpeln lassend, bevor sie es umrührte.<br /><br /><span style="font-style: italic">Dein Gewissen soll dich quälen, dass du die, die dich vermissen<br />nicht beachtest, nicht bedenkest. Sollst nun auch ihr Leiden wissen.<br />Nur bei ihnen sollst du ruhen, Frieden vor dir selber finden.<br />Buße dann an ihnen tuen und dich an die deinen binden.</span><br /><br />Zuletzt sog sie das rotbraune Haar wieder von der Oberfläche, wobei sie sich gehörig die Finger verbrannte. Egal, wer fluchte, durfte nicht vor etwas Schmerzen zurückscheuen. Sie band es um das letzte von ihr vorbereitete Utensil, eine Rabenfeder, die sie auf einem Friedhof aufgelesen hatte. Vier mal gegen den Uhrzeigersinn rührte sie mit der Feder durch den mit böswilliger Magie aufgeladenen, tintenblauen Sud, und als sie sie hervorzog, hatte die Feder selbst einen dunkelblauen Farbton angenommen. Dies war gewollt, denn wie sie im Buch ihres Zieles las, entsprach dies genau der beabsichtigten Wirkung in der Farbenlehre seiner Magie. Seine eigene Magie und seinen eigenen Glauben gegen ihn zu wenden würde den Fluch noch mehr auf ihn münzen, so hoffte sie zumindest. Nachdem die Feder getrocknet war, schlug sie sie sorgsam in ein Stück Stoff und verlöschte die glühenden Steine, nachdem sie mit einigen letzten Worten die Anrufung wieder aufhob. Nun musste nur noch Eines getan werden, damit der Zauber wirkte. Nicht heute jedoch, dies konnte sie nicht alleine tun, und merklich zerschlagen spührte sie, wieviel Kraft sie diese Magie gekostet hatte. Als sie die Leiter hinaufstieg und erschöpft neben ihrem Hund ins Bett sank, war es draussen bereits wieder Dämmerung und den Klängen nach waren die Krieger der Insel von ihrer Unternehmung gerade heim gekommen. Zu den Klängen ihrer lautstarken Gespräche schlief Iomine ein, die Wange auf ihrem Stofftier und den Kopf voller dunkler Schatten, wie sie sie auch einem Anderen anhängen würde.</div>
+
+											<span class="postbody"><br />_________________<br />Spieler von: <br /><br />Nithavela, Hohepriesterin Xans<br />Iomine und Herrn Mümmel, Glücksbringer und Stoffhase</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5279"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=5279"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p944429"></a>
+				<b class="postauthor">Nithavela&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Schwarze Tage, weiße Nächte</div><div style="float: right;"><a href="./viewtopic.php?p=944429#p944429"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 7.08.18, 15:35&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5279_1291546442.jpg" width="100" height="100" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 8.02.05, 20:06<br /><b>Beiträge:</b> 3501<br /><b>Wohnort:</b> The Combination Pizza Hut and Taco Bell				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Zu den frühen Abendstunden verschafften sich erneut zwei Frauen Eintritt in den Wohnwagen des Gauklers, und während die Größere Schmiere stand, verschwand die Kleinere im Inneren, wo sie sich zu schaffen machte. Danach fehlte nichts, im Gegenteil, das vorher &quot;ausgeliehene&quot; Buch fand wieder seinen Platz im Regal, als wäre es niemals fort gewesen. Aber nicht nur das Gestohlene sollte zurückgelassen werden. Unter dem Kopfkissen des Bettes lag eine einzelne, schwarz-blaue Rabenfeder, darauf harrend, dass jemand sich auf dem Kissen zur Ruhe bettete. Sobald der Wohnwagenbesitzer dies tat, würde er Opfer des Fluchs sein, auch wenn er davon erst einmal wenig mitbekommen würde.<br /><br />In der Tat würde es einige Tage dauern, bis sich erste Symptome zeigten. Zuerst ein etwas unruhiger Schlaf, den man gewiss auch auf das warme Wetter und störende Geräusche schieben konnte. Dann erste, zuerst vage, dann immer klarer werdende Alpträume. Ein Gefühl von Einsamkeit und Eindrücke von Dunkelheit, die sich zu panikhafter Furcht steigern würden, mit jedem Traum ein wenig schlimmer, langsam, aber unaufhaltsam, bis keine Nachtruhe mehr diesen Namen verdient. Die Alpträume bleiben dabei ungewöhnlich klar in Erinnerung, auch wenn während der Stunden der Wachheit bis auf die aus ihnen entstehende Müdigkeit sich keine weiteren Symptome zeigen würden.<br /><br />Unter dem Kissen verblieb jedoch die blau gefärbte Rabenfeder, mit einigen Spinnweben und etwas Staub bedeckt, aber ansonsten völlig gewöhnlich für Augenschein und magische Sinne. Sie hatte ihren Zweck erfüllt.</div>
+
+											<span class="postbody"><br />_________________<br />Spieler von: <br /><br />Nithavela, Hohepriesterin Xans<br />Iomine und Herrn Mümmel, Glücksbringer und Stoffhase</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5279"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=5279"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p944574"></a>
+				<b class="postauthor" style="color: #string">Gwydeon Lichtertanz&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Schwarze Tage, weiße Nächte</div><div style="float: right;"><a href="./viewtopic.php?p=944574#p944574"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 16.08.18, 00:28&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9276_1533336005.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.04.16, 23:32<br /><b>Beiträge:</b> 294<br /><b>Wohnort:</b> Dreieich (Hessen)				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Er hatte miserabel geschlafen. Ständig war er aufgewacht. Und das nicht nur heute, seit knapp einem Wochenlauf ging das schon so. Am Anfang dachte er, es läge daran, dass im Nachbargebäude eine neue Taverne eröffnet hatte: Der Seiltänzer, ehemals ein Publikumsmagnet in der nun niedergebrannten Stadt Falkensee, hatte seine Tore nun in Brandenstein im Fremdenviertel eröffnet.<br /> Bis in die tiefe Nacht hinein wurde dort recht laut diskutiert und geschwatzt, und dazu schwerer süßlicher Frucht-Tabak und anderes  Rauchkraut aus den blubbernden Wasserpfeifen gesaugt und als dichter Qualm aus Mund und Nase ausgeatmet. Normalerweise wäre ihm das egal gewesen, im Gegenteil, er war einer der letzten die es nicht in solche Etablisments zog. Allerdings war er vorher schon genervt gewesen, von dem improvisierten Zaun den dieser Endophali direkt an den Wagenplatz grenzend aus losen Holzbalken aufgebaut hatte: nicht nur, dass er ihm den Zugang zum Wagenplatz unnötig versperrte, nein man hatte auch einen störrischen Stier durch eingepfercht der seinen Unmut über seine Lage durch beständige Muhen und Schnauben sowie herausforderndem Scharren mit der Vorderhufe unterstrich.<br />Dazu war es in seinem Wohnwagen wie in jedem Astrael nahezu unerträglich warm und stickig. Dann kamen noch Alpträume in den letzten Nächten hinzu. Anfangs wachte er einfach nur schweißgebadet auf, die letzten Nächte waren jedoch nahezu unerträglich. Sein Herz raste noch immer und er spürte dessen schier unablässiges Schlagen bis zum Hals hinauf und das Blut schien ihm in den Ohren zu rauschen. Die Schatten, die all der Krimskrams in seinem Wagen an die Dachplane war,f wirkten bedrohlich und dunkel. Er  hatte den letzten Traum noch ganz deutlich vor Augen: <br /><br /><span style="font-style: italic">Er stand auf dem Marktplatz von Brandenstein, alleine, ringsherum war keine Menschenseele zu sehen.Nur er, die verlassenen Marktstände, und der kleine filzbespannte Tisch, auf dem er drei bronzene Metallbecher und drei rote kleine Bälle für eine Kunststück liegen hatte.<br />Die Häuser waren dunkel, die Fassaden der Gebäude wirkten heruntergekommen, als hätte sich niemand für lange Zeit um deren Instandhaltung gekümmert. Der Himmel wirkte trüb und milchig, es gab nur diffusen Felaschein, sofern man in diesem Zwielicht überhaupt davon reden konnte. Er fühlte etwas in sich aufsteigen, etwas das er kannte, das er jedoch nie für bedrohlich oder Angst einflößend gehalten hatte. Das Gefühl wuchs immer mehr an als er durch die unwirklichen Häuserschluchten ging. Die Fenster waren allesamt milchig trüb und es brannte nirgendwo ein Licht. Die Türen der Häuser hingen, sofern überhaupt noch welche vorhanden waren, schief in den Angeln, ansonsten gähnten ihn dunkle Löcher in den Hauseingängen an. Auch war kein Laut zu hören, kein Geräusch von geschäftigem Treiben, wie er es sonst von Brandenstein kannte, kein Schlagen auf dem Amboss, kein Hämmern eines Zimmermanns, kein Tratschen, Rufen, Reden der Marktweiber. Kein Pferdehuf, kein Bellen eines Hundes oder gar das Zwitschern eines Vogels war zu hören. Ja, nicht einmal das für den Astrael typische Zirpen der Grillen oder sonstiges Brummen von insekten war zu hören.<br />Da war nichts! Niemand! Kein Mensch, kein Tier. <br />Panik stieg in ihm auf, Dunkelheit schien nach seinem Herzen zu greifen als ihm das bewusst wurde. </span><br /><br />Keuchend wachte er auf. Schweißgebadet saß er aufrecht im Bett. <br />Und nur ein einziger Gedanke geisterte in seinem Kopf umher: <span style="font-weight: bold">ALLEINE, er war.. ganz alleine!</span></div>
+
+											<span class="postbody"><br />_________________<br />Für alles zu haben, zu nix zu gebrauchen!</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9276"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9276"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p945336"></a>
+				<b class="postauthor" style="color: #string">Gwydeon Lichtertanz&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Schwarze Tage, weiße Nächte</div><div style="float: right;"><a href="./viewtopic.php?p=945336#p945336"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 24.09.18, 22:21&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9276_1533336005.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.04.16, 23:32<br /><b>Beiträge:</b> 294<br /><b>Wohnort:</b> Dreieich (Hessen)				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Er konnte nicht mehr. Die zermürbende Unruhe, die schrecklichen Albträume... es wurde immer schlimmer. Wochenlang hatte er gelitten, eine albtraumhafte Nacht folgte auf die nächste genauso schlimme Nacht. Alles in ihm schrie nach Flucht. Er wollte diesen Albträumen entfliehen. WEG! einfach nur weg! <br />Die Albträume zeigten immer wieder die verlassene Stadt Brandenstein, keiner der da war. Niemand mehr. Eine Geisterstadt, und er alleine darin herumirrend. Wach- und Schlafphasen schienen mittlerweile zu verschmelzen. In den wenigen wachen Momenten versuchte er dem Alptraum zu entkommen. Vor den Toren der Stadt wüteten grausige Erdbestien, die urplötzlich aus dem Erdreich zu emporstiegen und ihn verfolgten, oder garstige dämonenartige Rangen und Wurzeln schienen nach ihm zu greifen. Waren das noch die Alpträume oder war es die Insel die ihn töten wollte?<br />Er musste weg! Fliehen! Alles hinter sich lassen. Er stopfte das wenige Hab und Gut, dass er hatte in seine Reisetruhe und brachte sie zum Hafen. <br /><br />Die Wachen am Hafentor blickten sich verwundert an, als sie den wirr redenden grauhaarigen Gaukler mit einer schlecht gepackten Truhe auf einem Handkarren zum Kai steuern sahen. Er wirkte blass und hager, hatte tiefe Augenringe, so als hätte er seit Ewigkeiten nicht geschlafen und kaum gegessen. Und unablässig murmelte er vor sich hin und schaute sich beständig um als würde er verfolgt werden.<br /><br />Eines der Schiffe, die immer wieder Wagemutige und Abenteurer auf das seltsame Eiland brachten, wurde gerade für die Rückreise zum Festland beladen. Recht schnell wurde der Gaukler sich mit dem Kapitän einig, und ein großer klimpernder Beutel wechselte den Besitzer und zwei Seeleute halfen dem Grauschopf mit seiner schweren Kiste.<br /><br />Und erst als der Anker eingeholt wurde, dann die Taue vom Kai gelöst wurden und schließlich die Segel in Richtung Festland gesetzt wurden, schien Gwydeon Lichtertanz sich ein wenig zu entspannen.</div>
+
+											<span class="postbody"><br />_________________<br />Für alles zu haben, zu nix zu gebrauchen!</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9276"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9276"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p946115"></a>
+				<b class="postauthor">Nithavela&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Schwarze Tage, weiße Nächte</div><div style="float: right;"><a href="./viewtopic.php?p=946115#p946115"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 10.11.18, 15:59&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5279_1291546442.jpg" width="100" height="100" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 8.02.05, 20:06<br /><b>Beiträge:</b> 3501<br /><b>Wohnort:</b> The Combination Pizza Hut and Taco Bell				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Ein neuer Tag brach an und fand Iomine schon zu früher Stunde vor dem Spiegel sitzend, ihr wildes Haar von den gröbsten Ästen und Zweigen befreiend, die ihr der morgendliche Spaziergang mit ihrem Hund beschert hatte. Das letzte Fallobst des Jahres lag auf den Wiesen und trieb den Hund von einer Fressorgie in die nächste, sodass Iomine ihn kaum noch mit Fleischresten der nahen Schlachterei und altem Brot versorgen brauchte. Nun schlief der Hund mit vollem Magen und brummte leise zufrieden in seinen Träumen, während die junge Frau einige Zeit für sich hatte.<br /><br />Eingehend betrachtete sie ihr Spiegelbild. Sie hatte sich nicht verändert seit dem gestrigen Abend, zumindest seitdem die leichte Verbrennung an ihrer Wange und die daran abgestriffene Erde einem Waschlappen und etwas Heilmagie gewichen waren. Dennoch konnte sie die Veränderungen erkennen, die das letzte Jahr auf dieser Insel mit sich gebracht hatten. Ihre Züge waren etwas voller, die Wangen gesünder, sie hatte noch ein paar Finger an Höhe zugelegt und auch ihre Figur, die sie meistens unter einem weiten Mantel verbarg, war ein wenig erwachsener geworden. Ein Jahr relativer Überfluss, gutes Essen und ohne ständige Angst um Leib und Leben hatten ihr gut getan, zumindest körperlich. Sie war zwar immernoch genauso verrückt wie vorher, aber auf dieser Insel, wo tatsächlich fast jeder irre war, fiel das nicht weiter auf.<br /><br />&quot;Sie hat dich nicht gefragt ob du auch aufgenommen werden wolltest.. ich schätze mal du sähest mit so einer Robe sowieso albern aus, Herr Mümmel. Trotzdem...&quot;<br /><br /><span style="font-style: italic">Es ist gut so, wie es ist. Lass sie in ihrem Glauben und geh deinen Weg. Nicht den Alten, sondern den neuen. Gemeinsam mit mir und meinem Weg.</span> Liebevoll lächelte Iomine dem grinsenden Stofftier zu, das sie auf ihren Knien trug und das ihr über den Spiegel hinweg zugrinste. <span style="font-style: italic">Du bist mächtig geworden, kleine Iomine. Ich bin gespannt, wie mächtig wir noch werden.</span><br /><br />Mit fröhlichem Lächeln nickte Iomine und sah ihrem Spiegelbild über die Schulter. Auf dem kleinen Tisch in ihrer Wohnung lag der Plan des gestrigen Rituals, die mühsam erdachten Reime und die sorgfältig ausgewählten symbolischen Handlungen und Dinge. Daneben lagen ihre Aufzeichnungen für den Ritualkundeunterricht der Magierakademie, klar strukturiertes Wissen um Fäden und Knoten. Beides für sich alleine mächtig, doch gemeinsam.. wer wusste, wo die Grenze war? Hatte es schon jemand erprobt? Oder waren jene, die es versuchten, gescheitert und hatten einen hohen Preis bezahlt? Iomine war es gleichgültig, denn dies war ihr Weg, und sie würde ihn bis zum Ende gehen. <br /><br /><span style="font-style: italic">&quot;Niemand wird uns bedrohen.&quot;</span> sprach sie ruhig zu ihrem Spiegelbild und legte ihren Kamm beiseite, bevor jener in ihrer Frisur zuviel Ordnung anrichten konnte. Sie hatte Arbeit vor sich. Mit entschlossenem Blick und dem Arm voller Pergamente führte sie ihr Weg aus der Hütte und gen Magierakademie.</div>
+
+											<span class="postbody"><br />_________________<br />Spieler von: <br /><br />Nithavela, Hohepriesterin Xans<br />Iomine und Herrn Mümmel, Glücksbringer und Stoffhase</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5279"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=5279"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p947486"></a>
+				<b class="postauthor">Nithavela&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Schwarze Tage, weiße Nächte</div><div style="float: right;"><a href="./viewtopic.php?p=947486#p947486"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 28.02.19, 19:57&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5279_1291546442.jpg" width="100" height="100" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 8.02.05, 20:06<br /><b>Beiträge:</b> 3501<br /><b>Wohnort:</b> The Combination Pizza Hut and Taco Bell				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Iomine lag auf ihrem Bauch und begutachtete im schummrigen Licht ihrer Wohnung die Decke ihrer kleinen Hütte. Sie war schon vor einigen Momenten aufgewacht, doch rührte sie sich nicht, sondern verharrte fast bewegungslos. Grund war ihr weißer Mischling Wurzel, der die Nacht in ihrem Bett verbrachte und derzeit mit seinem etwas klobigen Kopf ihren Bauch beschwerte, ein Schlappohr über diesen gelegt. Würde sie aufstehen, würde ihr Hund sofort wach werden, und dann würde die morgendliche Ruhe fröhlichem Bellen und einem viel zu kalten Morgenspaziergang weichen. Nicht dass sie diese Spaziergänge störten. Nur ein paar Minuten länger.<br /><br />Sie dachte zurück an den gestrigen Abend, an ihr Gespräch mit der Seherin des nun nicht mehr existenten Zirkus. Sie hatte ihr eine neue Aufgabe angetragen. Nicht, dass sie dieser nicht sowieso gefolgt wäre, alleine schon um ihr eigenes Heim zu schützen. Zu sagen, dass auf solchen Dingen wie Drachen zähmen kein Segen lag war eine ziemliche Untertreibung. Außerdem würde so ein Lindwurm garnicht in ihre Wohnung passen.<br /><br />Als Dank für diese neue Lebensaufgabe hatte sie eine Kartenlesung bekommen. Sechs Karten, sechs Deutungen. Vergangenheit, Gegenwart, Beruf, Gesundheit, Liebe und Todesursache. Optimisten würden dies als Rundumpaket bezeichnen, Herr Mümmel bezeichnete es etwas abfällig als Touristenmuster. Sie wollte sich nicht beschweren und hatte sich die Deutungen der anderen Frau geduldig und aufnahmebereit angehört, aber wenn sie daran zurückdachte, musste sie ihrem Stofftier zustimmen. Die Karten waren gut gelegt, doch schlecht gedeutet.<br /><br />Ihre Vergangenheit...<br /><br /><img src="https://i.ibb.co/zSDRmSc/e5fbd48a98aac0724d844a695f577ded.jpg" alt="Bild" /><br /><br />Eine Vergangenheit der Krankheit. Sie kam aus Morthum, also war das schonmal selbstverständlich. Dass ihre Mutter verstarb und sie selbst häufig krank war machte diese Karte noch genauer. Und zuletzt war nicht nur ihr Körper, sondern auch ihr Geist erkrankt. Nicht, dass sie dies störte, auf Siebenwind lebten genug Verrückte, dass sie sich sehr wohl fühlte. Die meisten grüßen sogar ihr Stofftier.<br /><br />Ihre Gegenwart...<br /><br /><img src="https://i.ibb.co/F8DXZkw/00220760.jpg" alt="Bild" /><br /><br />Eine Frau, die am Ufer stand und aufs Meer hinausblickte. Die Kartenlegerin hatte dies als Nachdenklichkeit und Unentschlossenheit interpretiert, doch es bedeutete so viel mehr. Sie stand fest auf dem Boden ihrer eigenen Magie, ihres eigenen Glaubens und Könnens und blickte hinaus in die weite, fremde Welt der akademischen Magier. Sie konnte in das Wasser waten, einige Schwimmzüge machen, vielleicht sogar weit hinausschwimmen und tief darin eintauchen, aber sie würde doch stets eine Kreatur dessen sein, was sie war. Das bedeutete nicht, dass sie Irrwege ging. Wie eine Perlentaucherin würde sie die Wellen durchdringen, in die Tiefen eintauchen und alles, was für sie wertvoll war einsammeln und mit sich an Land bringen, wo es ihr nützlich war. Sie würde nicht das Meer für ihre Heimat halten, denn dies konnte nur damit enden, dass sie in ihm ertrank.<br /><br />Ihr Beruf...<br /><br /><img src="https://i.ibb.co/1GvCJ9X/Narr-tarot-a7a0c8dfc01bd34b177db2954c31decd-d3hi6an.png" alt="Bild" /><br /><br />Die Kartenlegerin meinte, dass ihr närrisches Verhalten ihr im Wege stehen würde und andere deshalb auf sie herabblicken würden. Doch der Narr bedeutete mehr als dies. Er stand für den Beginn einer Reise und für grenzenloses Potential, und viel mehr noch stand er für den Narr im eigentlichen Sinn. Der Narr war ein wichtiges Mitglied jedes Fürstenhofes, denn dank seiner Narrenfreiheit konnte er unangenehme Wahrheiten aussprechen und sich fern von höfischem Gezanke darum kümmern, klare Einblicke zu verschaffen. Solange der Narr diese Rolle meisterte, würde er mächtig sein, doch würde ein Narr sich zum Fürsten aufschwingen wollen, so wäre er ein Narr im anderen Sinne. So stand er dann auch dafür, seinen eigenen Platz in der Welt zu erkennen und diesem gerecht zu werden.<br /><br />Ihre Gesundheit...<br /><br /><img src="https://i.ibb.co/m8dcTnb/18a01daa88539db52e194b280876c083.jpg" alt="Bild" /><br /><br />Die Eiche stand für beständiges Wachstum und ausdauernde Kraft. Tatsächlich war Iomine in den bald anderthalb Jahren ihres Aufenthalts auf Siebenwind auch körperlich robuster geworden. War sie früher schon bei längerem Treppensteigen außer Atem geraten, bewältigte sie nun die Mühen ihres Alltags spielend und ohne magische Hilfe, dank guter Ernährung, sicherer Behausung und regelmäßiger Bewegung.<br /><br />Ihr Liebesleben...<br /><br /><img src="https://i.ibb.co/nbfgvZ1/cooki001.jpg" alt="Bild" /><br /><br />Würde sie einen Koch heiraten? Oder jemanden, der seine Arbeit liebte? Iomine verwarf den Gedanken mit einem sachten Schulterzucken. Für Liebe und Partnerschaft fehlte ihr der rechte Antrieb. Vielleicht eine weitere Folge ihrer Verrücktheit, oder einfach nur ihrer körperlichen Verfassung. Diese Dinge gingen einfach an ihr vorbei und sie vermisste sie nicht wirklich. Doch was war ein Koch, wenn nicht jemand sehr ähnliches wie eine Hexe, die auch mit den unterschiedlichsten Dingen an einem Kessel die erstaunlichsten Ergebnisse erzielte? Vielleicht war ihre Liebe einfach ihre Magie? Das, oder ein Hexer wäre ihr zugedacht. Da hatte sie ja sogar Auswahl auf dieser seltsamen Insel. <br /><br />Und ihr Tod...<br /><br /><img src="https://i.ibb.co/TYb08GC/depositphotos-167612120-stock-photo-warrior-minor-arcana-tarot-card.jpg" alt="Bild" /><br /><br />Ein gewaltsamer Tod im Kampf um das, woran sie glaubte und was ihr wichtig war prophezeite ihr die Kartenlegerin. Iomine empfand dies als sehr beruhigend. Mit ihrer eigenen Sterblichkeit hatte sie trotz, oder vielleicht dank ihrer jungen Jahre schon länger Frieden geschlossen, doch der Gedanke, als alte, schwächliche Frau in einem Bett zu sterben schreckte sie ebenso sehr ab wie ein Tod ähnlich ihrer Mutter, bei der Geburt eines Kindes das sie niemals kennenlernen würde. Was konnte sie sich mehr wünschen als einen Tod, der etwas bedeutete, und was könnte sie mehr motivieren, noch mehr zu lernen und noch mächtiger zu werden? Wenn sie schon beim Kampf um etwas wichtiges sterben wollte, so sollte ihr Gegner würdig sein und sie war fest entschlossen, ihn zu bezwingen, wer oder was auch immer es war.<br /><br />Sie hatte für die Seherin ebenfalls die Karten gelegte, ihre eigenen, am heimischen Tisch. Das Blatt hatte von einer schweren Vergangenheit erzählt, geprägt von Unsicherheit und frisch verdorben durch Verrat, doch ihre Zukunft sah gut aus, mit neuen Freunden, alten Erinnerungen und dem Dienst an der Mutter. Sie freute sich über diese Vorhersage und wünschte ihr alles Gutes.<br /><br />Genug gegrübelt, beschloss Iomine. Es war Zeit, aufzustehen und sich dem neuen Tag zu stellen, der mit neuem Wissen und Abenteuern lockte. Und außerdem wurde der Hundekopf langsam schwer und drückte ihr auf die ziemlich volle Blase.</div>
+
+											<span class="postbody"><br />_________________<br />Spieler von: <br /><br />Nithavela, Hohepriesterin Xans<br />Iomine und Herrn Mümmel, Glücksbringer und Stoffhase</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5279"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=5279"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=108074&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=108074"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 9 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=108074"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

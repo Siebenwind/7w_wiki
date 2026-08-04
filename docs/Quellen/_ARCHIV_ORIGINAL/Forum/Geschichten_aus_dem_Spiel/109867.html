@@ -1,0 +1,512 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Neues Chaos auf Tevras Pfaden</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=109867&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Neues Chaos auf Tevras Pfaden</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=109867"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 4 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=109867&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=109867&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=109867&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952320"></a>
+				<b class="postauthor">Winni Moorpichler&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Neues Chaos auf Tevras Pfaden</div><div style="float: right;"><a href="./viewtopic.php?p=952320#p952320"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 10.12.22, 08:54&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.12.16, 02:04<br /><b>Beiträge:</b> 140				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Eine Gestalt, übersäht von Kratz- und Schnittwunden, schleppt sich über den Platz vor dem Brunnen in Brandenstein, die halb zerfetzte Kleidung mit einer Hand an den Körper gepreßt, während sich die andere auf einen angekokelten, knorrigen Stab aufstützt.<br /><br />Der sichtlich erschöpfte Mann verschwindet für eine Weile im Inneren der Bank, um dann mit einem klimpernden Beutel wieder heraus zu treten. Er nimmt auf einer der Bänke am Brunnen platz und beginnt eine Nachricht zu verfassen.<br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent">Ich bin mir nicht sicher - will mein Lehrmeister mich bereits am ersten Tage loswerden, wünscht meine Herrin mich jetzt schon zu prüfen, oder bin ich lediglich vom Pech verfolgt?<br /><br />Ich habe heute zu jedem der En'hor - sowie noch Vitama und ihrem Sohn - einen entsprechenden Schrein besuchen dürfen. Gar noch einen, welcher den En'hor in ihrer Fünf-Einigkeit gewidmet schien.<br /><br />Doch Tevra entschied, mich bezüglich des Ihren blind über die Insel laufen zu lassen. Selbst jetzt bin ich unsicher, ob jene Ruine im Süden, bewacht von majestätischen Baumwesen, als Schrein im Sinne der Aufgabe anerkannt wird - ein Ort Ihres Wirkens ist er allemal.<br /><br />Um nicht mein Leid, den Verlust meiner Kleidung und die Schindung meines Körpers gänzlich umsonst ertragen zu haben, habe ich Dir von jedem der en'hor-gefälligen Orte, die ich besuchte, ein kleines Mitbringsel bereitgelegt.<br /><br />Ich selbst ziehe mich in den Wald zurück, um dort meine Wunden zu lecken und niemanden mit den halb entblößten Resten meines geschundenen Leibs zu belästigen.<br /><br />- Winni<br /><br /><br />Inventar:<br /><ul><li>Ein flammender Stein vom Rand der Caldera des Feuerberges</li><li>Asche aus derselben zur Konservation des Steins</li><li>Ein Fläschchen mit Windhauch vom Ventus-Schrein am höchsten Gipfel der südlichen Bergkette</li><li>Ein Fläschchen mit Wasser aus einem Schrein Maquiras, wohlverborgen hinter einem Wasserfall</li><li>Eine Handvoll fruchtbarer Erde aus dem Zentrum jenes Schreins, der den Fünfen gewidmet scheint</li><li>Zu Boden gefallene Äste jenes hochragenden Baumes, der von den arborischen Wächtern umringt steht</li></ul></div><br /><br />Selbige wird zusammen mit den aufgelisteten Gegenständen in einen wohl selbst geflochtenen Korb aus Zweigen gelegt, und das Ganze mitsamt seiner klimpernden Last zum Westtor hinausgetragen.<br /><br />Später mag man beobachtet haben, wie er sich um den Korb erleichtert in die Wälder nördlich von Brandenstein zurückgezogen hat.</div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #804040">Just like the seed</span><br /><span style="color: #008000">I don&#39;t know where to go</span><br /><span style="color: #804040">Through dirt and shadow I grow</span><br /><span style="color: #008000">I&#39;m reaching light through the struggle</span></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952375"></a>
+				<b class="postauthor">Winni Moorpichler&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Neues Chaos auf Tevras Pfaden</div><div style="float: right;"><a href="./viewtopic.php?p=952375#p952375"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 13.12.22, 03:55&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.12.16, 02:04<br /><b>Beiträge:</b> 140				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">Pilgerreise - Einleitung</span></span><br /><br />Die Bäume in den Wäldern nördlich von Brandenstein haben das Pfeifen gelernt.<br /><br />Oder zumindest könnte man das denken, folgt man den fröhlichen Tönen nicht bis zu deren Ursprung - einer knorrigen Eiche, vom Gestein einer kleinen Felsklippe in eine recht einseitige Form gedrängt, davon jedoch auch vor den derben Küstenwinden bewahrt.<br /><br />Der Pfeifende, eine Gestalt in zerschlissener Kleidung und mit dem halben Wald in Haar und Bart, hat es sich im Herzen der Krone gemütlich gemacht, den Rücken gegen einen steil emporragenden Ast gelehnt und ein Bein vergnüglich in der Luft baumelnd. Und dabei sollte man meinen, die unzähligen Kratz- und Schnittwunden ließen nicht viel Spielraum für Heiterkeit.<br /><br />Ein Teil davon ist mit einer schlammigen Substanz überzogen, bei anderen nimmt er das &quot;meine Wunden lecken&quot; ein bißchen gar wortwörtlich: Immer wieder fährt er mit der rauen Oberseite der Zunge über einige der Kratzer. Ein vermutlich recht kauziger Anblick - nur daß diese nach einer Weile tatsächlich zu verblassen beginnen!<br /><br />Irgendwo im Hinterkopf kommt zwar der Gedanke auf, daß er die Zunge eigentlich eher dazu nutzen sollte, fokussierendes Run zu zitieren - aber Hand aufs Herz, kein Magister weit und breit, der ihn für seine unrühmliche Zurschaustellung alternativer Zauberfoki ermahnen könnte.<br /><br />Er hat während seiner Pilgerreise natürlich kleinere Experimente betrieben, sich die von Buochwin Moorpichler - von ihm! - verfaßten akademiemagischen Texte durchgelesen und neuen Zugang zu der Magie zu finden versucht, von der er am Tag vor seiner Abreise überhaupt erst erfahren hat, daß sie ihm innewohnt.<br /><br />Aber je weiter seine Füße ihn getragen haben, je mehr er sich in seiner kleinen Aufgabe gefunden hat, umso mehr haben die Worte an Bedeutung verloren, all das Geschwafel von arkanen Netzen und stofflichen Dispersionen und bla ... bla ... bla. War er in seinem früheren Leben wirklich solch ein von grundauf langweiliger Besserwisser?<br /><br />Als die letzte Wunde geleckt ist, lehnt er letztlich den Kopf gegen den Ast und schließt die Augen. Nimmt sich nach Erfüllung der priorisierten Aufgaben - seinem kurzen Besuch im Ignis-Schrein und der Versorgung der Verletzungen - endlich die Zeit, die vergangenen Tage ein wenig Revue passieren, die Vielzahl an Eindrücken und Erkenntnissen auf sich wirken zu lassen.</div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #804040">Just like the seed</span><br /><span style="color: #008000">I don&#39;t know where to go</span><br /><span style="color: #804040">Through dirt and shadow I grow</span><br /><span style="color: #008000">I&#39;m reaching light through the struggle</span></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p952380"></a>
+				<b class="postauthor">Winni Moorpichler&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Neues Chaos auf Tevras Pfaden</div><div style="float: right;"><a href="./viewtopic.php?p=952380#p952380"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 13.12.22, 15:08&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.12.16, 02:04<br /><b>Beiträge:</b> 140				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">Pilgerreise - Rückblende, Tag 1</span></span><br /><br />Er kniete am Rand des kleinen Teichs und tauchte einen seiner ausgeleierten Trinkschläuche in das kalte Naß, während ein Stück weiter seine gefiederter Begleiterin freudig im frischen Quellwasser plantschte.<br /><br />Eine letzte Vorbereitung vor seinem endgültigen Aufbruch, war er doch kopflos genug direkt vom Schrein aus in den Wald marschiert, ohne sich vorher zumindest mit rudimentären Vorräten oder passender Ausrüstung auszustatten. So ganz war er sich noch nicht sicher - hatte er es plötzlich derart eilig gehabt, weil ihn der Vorschlag des Priesters sofort uneingeschränkt begeistern konnte ...<br /><br />... oder hatte er einfach nur Angst gehabt, den Mut zu verlieren, wenn er nicht sofort ins kalte Wasser sprang?<br /><br />Ein eisiger Schauer lief ihm bei diesem Gedanken über den Rücken - nicht nur wegen des Sinnbildes, welches ihn viel zu sehr an seinen wiederkehrenden Alptraum erinnerte, sondern vor allem, weil ihm eben jene Angst weiterhin tief in den Knochen steckte. Angst zu versagen, Angst den falschen Weg einzuschlagen, Angst seine Schutzherrin mit der Dreistigkeit zu verärgern, sich Ihrem Dienst gewachsen zu fühlen.<br /><br />Die Sanfte mochte Ihrem Namen als mildeste der En'hor ja zumeist treu bleiben, aber am Ende war auch Sie eine Naturgewalt, welche sich mit unerbittlicher Macht allem entgegenstellte, das sich gegen die natürliche Ordnung aufzulehnen wagte. Siomon hatte ihn gewarnt, daß die Diener der En'hor oft ein hohes Lehrgeld zu zahlen hatten, und wie konnte er allen Ernstes erwarten, mit seinen aktuell stark eingeschränkten geistigen Kapazitäten nicht von einem Fehler in den nächsten zu stolpern.<br /><br />Eiskaltes Teichwasser spritzte ihm ins Gesicht, als ihn Kvir Odal mit einer Reihe kräftiger Flügelschläge aus den Gedanken riß. Das dazugehörige Gackern klang mehr als vorwurfsvoll, als sein 'magisches' Huhn mal wieder ganz genau zu wissen schien, wann er in selbstmitleidiges Grübeln abrutschte.<br /><br />Entsprechen wenig Ernsthaftigkeit lag in seiner Reaktion: &quot;H...h...hey!&quot; protestierte und ließ die Handkante auf das vor ihm liegende Wasser aufprallen, um mit dem Handrücken einen Schwall eiskalter Revanche in Richtung des Geflügeltiers zu lenken.<br /><br /><div align="center"><img src="http://www.das-poehse.de/jimmy/7w/pilgerreise_tag01_01.png" alt="Bild" /></div><br /><br />~~~<br /><br />Sie hatten den größten Teil des Tages damit zugebracht, jene Teile der Wälder nördlich von Brandenstein zu erkunden, welche ihm in den vergangenen Wochenläufen nicht ohnehin schon in Fleisch und Blut übergegangen waren. Da hatte sich schon der ein oder andere interessante Ort gefunden, aber nichts, das ihm jetzt als heiliger Ort ins Auge gesprungen wäre.<br /><br />Gut, auf der anderen Seite verfluchte er sich mittlerweile selbst, sich nicht bei Siomon erkundigt zu haben, wonach genau er überhaupt Ausschau halten sollte. Tevras Wirken war schließlich allgegenwärtig hier auf Tare, von daher hätte man ja beinahe schon jeden Stein und jeden Baum als Geschenk der Erdenmutter und damit als heilige Verbindung zu Ihr werten können.<br /><br />Aber einen solchen Ort zu erkennen war wohl mindestens ebenso Teil der Selbstfindung wie die Beharrlichkeit zu zeigen, diese Reise bis zu ihrem Ende durchzuziehen.<br /><br />Es hatte schon zu dämmern begonnen, als sie letztlich die Brücke nach Greifenwald überquert und damit begonnen hatten, die Wälder zwischen Dunquell und Seeberg abzugrasen. Er hatte die Gerüchte über ungewöhnlich aggressive Wölfe und endophalische Lager mitbekommen, konnte aber keinerlei Anzeichen dafür erkennen. Keines der von ihm aufgesuchten Lager ließ auf einen kürzlich stattgefundenen Kampf schließen - aber möglicherweise war die Kirche der Sahor auch einfach nur wieder recht gründlich beim Abtransport diverser lebloser Körper gewesen.<br /><br />Als ihn die Müdigkeit dann irgendwann zu übermannen gedroht hatte, hatten sich die beiden ungleichen Weggefährten an einer alten Feuerstelle niedergelassen, um dort in seinem geliebten Luth-Chalid-Gedenktopf eine schmackhafte Wurzelsuppe vor sich hinköcheln zu lassen.<br /><br />Es war ein langer Tag gewesen, und bezüglich seiner persönlichen Queste vollkommen ergebnislos - dennoch breitete sich ein gewissen Gefühl der Zufriedenheit in ihm aus, als sie sich an den Flammen des Lagerfeuers die Hände/Flügel wärmten. So fernab der Zivilisation hatte er das Gefühl, wesentlich öfters klare Momente zu haben, sich seltener in geistigen Aussetzern zu verlieren.<br /><br />Oder vielleicht war es einfach, daß sich die Pflanzen und Tiere des Waldes herzlich wenig daran störten, wenn er einige Momente lang schlicht in die Ferne starrte?<br /><br />&quot;H...hier ...&quot; kommentierte er das Ausstreuen einer Handvoll Körner für seine gefiederte Begleiterin, ehe er sich selbst mit einer Schüssel herzhafter Suppe von innen her aufwärmte.<br /><br /><div align="center"><img src="http://www.das-poehse.de/jimmy/7w/pilgerreise_tag01_02.png" alt="Bild" /></div></div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #804040">Just like the seed</span><br /><span style="color: #008000">I don&#39;t know where to go</span><br /><span style="color: #804040">Through dirt and shadow I grow</span><br /><span style="color: #008000">I&#39;m reaching light through the struggle</span></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p952393"></a>
+				<b class="postauthor">Winni Moorpichler&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Neues Chaos auf Tevras Pfaden</div><div style="float: right;"><a href="./viewtopic.php?p=952393#p952393"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 14.12.22, 14:26&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.12.16, 02:04<br /><b>Beiträge:</b> 140				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">Pilgerreise - Rückblende, Tag 2</span></span><br /><br />Es war das Leuchten, welches ursprünglich seine Neurgier weckte.<br /><br />Der Rotschopf und sein Huhn waren den größten Teil des Tages über ziellos umher gewandert, stets nur ihrem Bauchgefühl und den verschlungenen Pfaden unter ihren Füßen folgend, ohne Plan oder Vernunft. Irgendwann hatte das Ziel an sich an Wichtigkeit verloren und die Reise selbst war zum Mittelpunkt geworden - einfach einen Schritt vor den anderen setzen, fernab jeder Hast, einfach nur die Freiheit und Ungezwungenheit genießend.<br /><br />Immerhin, der Priester hatte ihm nie eine zeitliche Einschränkung auflegt, nicht wahr?<br /><br />Eigentlich hätte er auch längst schon die Orientierung verlieren müssen, aber noch immer hatte er eine recht genaue Vorstellung davon, wo sie sich gerade befanden - er war sich nur nicht sicher, ob der Aufbau der Insel noch irgendwo in den angeschlagenen Gehirnwindungen seines Geistes verborgen war, oder er unterbewußt doch irgendwie die eigenen Schritte und Wendungen mitgezählt hatte.<br /><br />Irgendwo auf halben Wege hatte er sich aus den langsam schmerzenden Stiefeln geschält, die nun zusammengebunden über seine Schulter hingen, während sich die bloßen Fußsohlen auch gleich deutlich müheloser den Unregelmäßigkeiten des Untergrundes anpassen konnten.<br /><br />Es war dann letztendlich das Leuchten, welches wie gesagt die Aufmerksamkeit des nicht mehr ganz so zauseligen Zausels auf den kleinen Wasserfall lenkte.<br /><br />Nicht nur seine noch ungeklärte Angst vor dem Ertrinken hätte ihn sonst davon abgehalten, durch das eisige Wasser zu waten und einen näheren Blick auf diesen ungewöhnlichen Ort zu werfen. Das seltsame Licht aber ließ die Härchen in seinem Nacken sich aufstellen - ein merkwürdiges Kribbeln, nicht unheilverkündend, ganz im Gegenteil.<br /><br />Begleitet von empörtem Gackern schob er sich durch einen Vorhang aus Spritzwasser neben dem Wasserfall hindurch, um doch tatsächlich hinter diesem eine Höhle aufzufinden, welche dort tiefer in den Berg vordrang. Ihn fröstelte ein wenig ob der Feuchtigkeit, welche mitten im Xan nun nicht gerade dafür sorgte, ihn aufzuwärmen - aber dort ihm Inneren mochte er wenigstens eine Zeit lang vor den kalten Winden geschützt sein, welche seinen Weg nun schon seit mehreren Zyklen beständig begleiteten.<br /><br />Und dann lag am Ende der Höhle plötzlich der Schrein vor ihm.<br /><br />Natürlich nicht der seiner Herrin, ganz so einfach sollte seine Reise nicht ihr vorzeitiges Ende finden. Ein Ort der Schutzpatronin über die aktuelle Jahreszeit, die friedliche Stimmung untermalt vom nunmehr fern klingenden Rauschen des Wasserfalls und dem sanften Gluckern der Quelle, welche das reine Wasserbecken im Zentrum speiste. Die hinter wuchernden Ranken verborgenen Wände und von blauen Blüten gezierten Säulen, ließen wirklich kein Zweifel daran, daß es sich um einen menschen- oder feygefertigten Schrein handeln mußte, der Herrin Maquira gewidmet.<br /><br />Ein Lächeln breitete sich unter dem Bart aus. Freilich, er hatte sein Ziel nicht erreicht, aber war es nicht doch irgendwie passend, auf einer Pilgerreise den Schrein eines weiteren En'hors entdeckt zu haben? Gegensätzlich und manches Mal scheinbar unvereinbar, bildeten sie doch schließlich eine untrennbare Einheit, ohne welche der natürliche Zustand Tares niemals aufrecht aufrecht erhalten werden könnte.<br /><br />Mit einem strengen Blick und einer gestammelten Warnung hielt er Kvir Odal davon ab, kurzerhand ins Wasserbecken zu springen und dort ihr Gefieder zu putzen, ehe er sich selbst am Beckenrand auf die Knie herabließ und ein kleines Fläschchen hervorkramte.<br /><br />&quot;S...s...so wie k...keine Pf...pf...laaaaaanze ohne d...das Geschenk d...d...des Wassers ü...ü...berleben kann, k...kommt wohl auch die S...s...suche nach einem Ort T...t...evras nicht ohne Besuch e..einer Stätte I...i...ihrer Schwester aus ...?quot; meinte er schmunzelnd, während er vorsichtig das Fläschchen mit der klaren Flüssigkeit aus dem Becken füllte.<br /><br />Ein kleines Mitbringsel für Siomon, wenn ihm schon das Glück beschert war, diesen versteckten Ort zu finden.<br /><br /><div align="center"><img src="http://www.das-poehse.de/jimmy/7w/pilgerreise_tag02_01.png" alt="Bild" /></div></div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="color: #804040">Just like the seed</span><br /><span style="color: #008000">I don&#39;t know where to go</span><br /><span style="color: #804040">Through dirt and shadow I grow</span><br /><span style="color: #008000">I&#39;m reaching light through the struggle</span></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9310"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=109867&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=109867"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 4 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=109867"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

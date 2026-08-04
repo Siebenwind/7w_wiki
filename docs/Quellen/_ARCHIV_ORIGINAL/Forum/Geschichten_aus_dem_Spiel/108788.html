@@ -1,0 +1,1073 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Tabenbuch vom Huns Siebzehnrübl</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=108788&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Tabenbuch vom Huns Siebzehnrübl</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=108788"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 13 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=108788&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=108788&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=108788&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p946444"></a>
+				<b class="postauthor">Huns Siebzehnrübl&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=946444#p946444"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 13.12.18, 16:38&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5280_1270044029.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.02.05, 05:24<br /><b>Beiträge:</b> 503<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/c6bd973dac03425f6a6710038cbae78f.jpg" alt="Bild" /></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=5280">Huns Siebzehnrübl</a>: 18.12.18, 18:38, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5280"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p946451"></a>
+				<b class="postauthor">Huns Siebzehnrübl&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=946451#p946451"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 14.12.18, 13:45&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5280_1270044029.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.02.05, 05:24<br /><b>Beiträge:</b> 503<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/08eba55194c15de0b3ccff8c621db759.jpg" alt="Bild" /></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=5280">Huns Siebzehnrübl</a>: 18.12.18, 18:38, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5280"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p946464"></a>
+				<b class="postauthor">Huns Siebzehnrübl&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=946464#p946464"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 15.12.18, 01:43&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5280_1270044029.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.02.05, 05:24<br /><b>Beiträge:</b> 503<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/336a3a7f1557b526b1500576a9d466d9.jpg" alt="Bild" /></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=5280">Huns Siebzehnrübl</a>: 18.12.18, 18:39, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5280"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p946470"></a>
+				<b class="postauthor">Huns Siebzehnrübl&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=946470#p946470"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 16.12.18, 10:35&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5280_1270044029.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.02.05, 05:24<br /><b>Beiträge:</b> 503<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/880fecc29f845bf6e16735d617f40afb.jpg" alt="Bild" /></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=5280">Huns Siebzehnrübl</a>: 18.12.18, 18:39, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5280"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p946485"></a>
+				<b class="postauthor">Huns Siebzehnrübl&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=946485#p946485"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 17.12.18, 13:35&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5280_1270044029.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.02.05, 05:24<br /><b>Beiträge:</b> 503<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/64bd92411ecaa3f3761b876cdcc52c3d.jpg" alt="Bild" /><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">Tabenbuch vom Huns Siebzehnrübl<br /><div align="right">Velatag, 16. Sekrar 29 n. Hilgergrad</div><br />Sehr serzehrts Tabenbuch,<br /><br />der wahr eim sehr guter Zufall, wo ich heute dem Galdriäl zertroffn hab, eim sehr intoressanter und kompertempter Fraunzimmer. So wies auschaut verkannte ich dem Galdriäl noch vom früher, wo ich mich aber nicht mehr gut zerinnern kann. Ich zermute, dass der das dem Fraunzimmer wohl recht peimlich wahr, weil ich dem nicht mehr so gut zerkannt hab. Ich hoff auch, dass ich früher immer recht amstemdig derzu wahr. Auf jedm Fall hat mir der Galdriäl der Vitama höbstzersömlich zerschickt, weil der mein ganzer Fleisch zerkocht hat, wo ich noch vom Schlachtm hat. Der hat so vieler Schweinerbratn zerbratm umd Rimdfleisch zerkocht, so vieler, dass ich jetzt nicht eimal weis, was ich mit so vieler Zeig machn sollt. Zum Glück hat der vitamagefälliger Köchin eim Teil vom dem zerkochtn Zeig berhaltn. Aber ich hab eim schlechts Gerwissm, weil ich hätt ihm noch eim Schnupfertabak ambietn soll. Ich bim mir recht sicher, der Fraunzimmer hätt sich berstimmt sehr stark darüber zerfreut.<br /><br />Aber was soll ich jetz mit der ganzm Esser machm? Ich hab so vieler, und der Zeig schmept auch sehr gut. Aber ich kann nicht aller selber essn, weil in mein Wampn brauch ich auch noch eim Platz vür dem ganzm Bier, da ich eim leers Fas brauch für die Zukumpft. Nicht dass mir der vieler Essn am End noch zerdirbt. Pfielleicht zerkauf ich dem vieler Schweinerbratn aufm Markt. Ich hab nämlich festgerstellt, dass heut auf eimal mehrer Leutn wie sompst unterwegs warn, dopplter so vieler berstimmt. Wenn der jetzt wieder mehr Leutn herumzerlaufn, habm die berstimmt eim grosn Hunger. Pfielleicht sollt ich auch die Küher melkn, weil die habm bestimmt auch eim Durst. Dann kann ich der ganzm Zeug aufm Markt zerkaufn. Als eim besonderer Attrektion könnt ich derzu auch noch eim Lied sing, das würd die Leutn bestimmt sehr zerfreun.</div></div></div></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=5280">Huns Siebzehnrübl</a>: 20.12.18, 18:14, insgesamt 3-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5280"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p946494"></a>
+				<b class="postauthor">Huns Siebzehnrübl&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=946494#p946494"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 18.12.18, 13:39&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5280_1270044029.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.02.05, 05:24<br /><b>Beiträge:</b> 503<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/0c7107d6fe5214b074117a26efa29de5.jpg" alt="Bild" /><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">Tabenbuch vom Huns Siebzehnrübl<br /><div align="right">Montag, 17. Sekrar 29 n. Hilgergrad</div><br />Sehr zerscherts Tabenbuch,<br /><br />heute wahr eim ser zerfolgreicher Tag. Der Idee mit dem Markt wahr eim sehr guter, wo ich eim ganzm Haufer Goldstücker und vieler intoressanter Leutn zertroffn hab. Zwar habm die Leutn dem Schweinerbratn gegessm, aber noch sehr viel gröserer Intoresse am Leder hattn. Aufgrund vom dessm muss ich zersuchm, da eim Nachschub herzumkriegm, der armer Sau und Küher. Die ganzm Fäller und Vedern und Woll hat überhaupt keimer zerkauft, scheinbar brauchm die Leut solcher Sachm nicht. Eim sehr interossanter Zerspräch hat ich mit eim recht junger Alchermistm, wo eim Tränker braum will, wo keim Bier ist, sonderm wo man umsichtbarer Weiber hesslich machm kam. Nein, merment, umgerkehrt, wo man hesslicher Weiber umsichtbar machm kann. Er hat Zwieblm gerkauft, wo er dafür braucht, um eim solch Sach zerzumstelln. Ich bim zerspannt, ob ihm der Umperfangem gerlingt.<br /><br />Aber der gibt noch mehr Neuerkeitm: Eim sehr interossanter Gerspräch hat ich mit dem Herr Silberfus. Der guter Elfer hat mir zerzählt, dass der im Ödlamd Ferter gibt, wo frei im der Gegmd zerlaufn. Eigmtlich mag ich Ferter nicht so gerner, weil der so vieler Arbeit machm. Aber aus irgndeim Gründn hab ich meim Meinum zerändert. Der ist alles sehr komisch. Ich hatt wieder so eim komischer Gerfühl, als wie wenn alls ganz amders wär, wie wem ich treum, umd gleichzeitig aber fieler Sach recht gut zerstandm. Ich glaub lampsam, dass ich mit meim zunehmd Alter nochmol gerscheiterter werd, aber nur momchmol. Der ganzer Sach ist sehr sonderbar. Der pressiert mir immer aufm Markt vor dem Radhaus, umd immer, wenn ich vorher eim Milch getrunkm hab. Lampsam hab ich eim sehr kronketen Zerdacht: Der Milch, vom einer vom der Küher, der macht mich noch gescheiterter, wie ich schom bim. Sollte der wirklich der Fall seim, umd der Milch hat auch bei anderm Leutm den gleichm Wirkum, dann ist der Sach gamz klar: Ich hab eim margisch begabter Kuh!<br /><br />Der Frage ist jetzt, was ich als nächsts mach. Pfielleicht soll ich mal im dem Ödlamd reitm. Weil der Elfer Silberfus hat germeint, dass der dort sehr gerfehrlich ist, wo ich noch nicht recht opft dort gerwesm. Ich überzerleg momerntan, ob ich da nicht eim Expendertiom mach, um eimal zu schaum, ob ich dort Ferter zertdeckm kann. Weil der Leuter habm scheinbar groser Zinteresse am Ferter, wo ich nicht so gut zerstehen kann, weil ich mag der grosm Viecher nicht so gern wie Sau, wo pfiel weniger Arbeit machm, der guter Umgetümer. Aber ich glaub imzwischm trotzdem, dass man mit Ferter guter Gerschäftn machm kann. Auferdem hab ich auch noch eim Gerücht zernommn, wernach pfielleicht eim recht zielzersprechnder Gehöfter bald frei wird, wo ich dam pfielleicht eimziehm kann, weil momerntan hab ich meim Viecher noch beim Weimgut unterzerstellt, wo ich aber pfermutlich garnicht derf, aber wo die Leutn im der Stadtzerwaltum sicher eim Aumg zerdrückn, wegm der berschenktm Sau. Der Sach zeigt eibmtlich sehr gut, dass eimer vom der Küh zermutlich wirklich eim margischer Milch gibt, wo man sehr guter Ideen berkommt.</div></div></div></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=5280">Huns Siebzehnrübl</a>: 20.12.18, 18:12, insgesamt 1-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5280"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p946499"></a>
+				<b class="postauthor">Huns Siebzehnrübl&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=946499#p946499"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 19.12.18, 13:45&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5280_1270044029.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.02.05, 05:24<br /><b>Beiträge:</b> 503<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/d6a5c8aff9888c778e6330907433b2a0.jpg" alt="Bild" /><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">Tabenbuch vom Huns Siebzehnrübl<br /><div align="right">Wamdltag, 18. Sekrar 29. n. Hilgergrad</div><br />Sehr zerkehrts Tabenbuch,<br /><br />heute bim ich aufzerbrochm zu eim Ausreis ims Ödlamd. Der war sehr zerschreckend, was mir da alls pressiert ist. Neben sehr angenehmer Zeitgernossn wie Reher, Küher und Bärm treiben sich dort auch recht zwieblichter Zerstaltm herum, wie zum Beispiel Wesm aus Erdm, wo eim Umgehäuer derstelln. Oder Skelleter und anderer Umgeziever. Ich kan keim zernümftigm Mensch ratm, da allein himzumgehn. Aufgrund vom sehr umpassnder Umstend sind mir dan auch sehr furchtbarer Ergnisser zerstosn, so habm mich der wüstn Gestaltn zweimal auf dem Bodn zerhaun. Mit Mü umd Nod konnt ich dan aus dem zerdorbner Lamd wieder flüchtn. Also ich weis noch nicht, ob ich da wieder dereimst hinzereit, pfielleicht erranschier ich der nächster Mal eim Laibwechter, wo mir der Umgehäuer vom der Versn haltn kam.<br /><br />Eim gutn Sach gibt der allerding zu zermeldn, weil ich hab dort tertsechlich Ferter zertrofn. Der Umgetümer zerlaufn dort auf der Wiesn, der ist leichter als zerdacht, so eim eimzufang. Ich glaub der Viecher simd sergar sehr froh darüber, wem sie von eim amstemdig Abntäurer aus der grintign Lättn zerettet und im eim warm Stall zerbracht werdm, vor allm jetz im Morsam. Leider laufm der Viecher aber noch nicht sehr schnell, wo ich dem Umgetier erst eimal zereitn mus, so dass der vauler Viech eim besser Tembo kriegt. Aber nachher werd ich den zerkaufm, hopfntlich habm der Leut in der Zukumpft auch noch eim Zinteresse daran. Weil so teurer Fresser wie Ferter kann ich mir nicht sehr langer Zeit leistn. So eim Umgehäuer sollt man immer möblichst schnell weiterzerhaun, bevor er eim der Haare aufm Kopf zerscheist.</div></div></div></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=5280">Huns Siebzehnrübl</a>: 20.12.18, 18:33, insgesamt 2-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5280"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p946506"></a>
+				<b class="postauthor">Huns Siebzehnrübl&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=946506#p946506"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 20.12.18, 17:24&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5280_1270044029.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.02.05, 05:24<br /><b>Beiträge:</b> 503<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/d34f8102919a557d61200c9584008b98.jpg" alt="Bild" /><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">Tabenbuch vom Huns Siebzehnrübl<br /><div align="right">Midntag, 19. Sekrar 29 n. Hilgergrad</div><br />Sehr zersehrts Tabenbuch,<br /><br />heut war eim sehr guter und zergleich eim sehr schlimmer Tag. Ich fang mit der schlimmer Sach am: Also aufm Markt warn eimiger Leutn, wo der Gebeiner von Margiern eimsammln wolltn. Ich hab der Leut gersagt, dass der sowas am bestn im der Margierakärdemie vindn, weil der da hausn, aber der hörtn nicht. Stattdessm hat uns der Herr Silberfus quär durch den Imsl in eim sonderbarn Hölle verführt. Also wir wahrn umgefehr sex Gäfehrtn: Der Elfer selber, wo ums verführte, der Gala, der Kalium umd ich. Umd ein Sau, wo ich forsichtshalber mitzerbracht hab.<br /><br />Wir sind also der Hölle hinabzerstiegn, zerbei am toter Umgehäuer, umd Blut, und anderer Sach, umd dann habm wir selber Umgehäuer zerhaun. Der Gala hat eim sehr interossanter Wesm verzaubert, wo der Umgetümer im der Hölle verstört hat indem der mit sein Mässern sich gamz schnell im Kreis verdreht hat. Der war sehr interossant, und ich überzerleg schom, ob man so eim Kompstrukt hernehm kann zum Meishexln. Der war auch eim fliebmder Sensor derbei, wo auch eim sehr brauchbarer Arbeitsinstrerment ist. Wir simd immer tiefer im der Hölle reimaschiert, simd Wasserfeller himuntergestürzt, und durch enger Holreume verkrochm. Aufm Weg habm wir dann wirklich momchmol gefragter Gebeiner erfundm, wo noch sehr rot warn.<br /><br />Der Umgehäur im der Hölle warn aller sehr schlimm: Skeletter, Murmien und anderer Gebeinerwesm. Je weiter wir im der Hölle drin warn, sind immer mehrer Umtoter vom Bodm aufzerstandm. Ich hab zwar welcher zerhaun könn, aber leider habm dann mich der Umgehäuer aufm Bodn zerlegt. Zum Glück warn der anderer Gäfehrtn derbei, wo mir dann wieder auf der Haxn zerholfm habm. Nach eim sehr langer Weg und sehr vieler Kempfe war der Hölle emdlich verbei, umd wir konntn wieder hinaustretn vor der Tür. Der war eim sehr schömer Morment, der schlimmer Ortschaft hinter ums zu zerlassn. Der restlicher Weg zurück nach Brandnstein war dann sehr traurig, weil eimer vom unserm Gefährtn im Kampf zerfallen ist: Der Sau ist im der Hölle krempiert, wir mussten ihn zurücklassn.<br /><br />Also der war der schlimmer Nachrecht, aber der gibt auch eim guter: Ich hab Marnie wieder zertrofm, weil der guter alter Fraunzimmer arbeit jetz im der  Stadtverwaltum. Ich bin sehr zerfrieden, dass der Marnie der beschenktn Sau berkommen hat, ich glaub der hat sich richtig zerfreut derüber. Der Marnie ist imzwischen auch sehr zerühmt, ähnlich wie eim König, aber vom Brandnstein. Und der gibt noch besserer Nachrechtn: Der ist eim Saurennem gerplannt! Eim Saurennem. Ich hab gleich mein Teilnahm angerkündigt. Aber noch eim sehr guter Nachrecht gibt der: Ich hab jetzt emdlich eim Hof zerpachtet, wo mit der Hofnummer 1. Der ist eim sehr guter Amwesn, wo ich aber noch schaum muss, ob ich da nicht eim Stall umzerbaun kann. Ich muss demnächst auch zum Frau Buchwald gehn, wo ich der zerklärn muss, dass ich eim Eimrichtum brauch, am bestn noch vorm Dumpltief.</div></div></div></div>
+
+												<br /><br />
+							<span class="gensmall">Zuletzt geändert von <a href="./memberlist.php?mode=viewprofile&amp;u=5280">Huns Siebzehnrübl</a>: 23.12.18, 17:10, insgesamt 2-mal geändert.</span>
+						<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5280"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p946522"></a>
+				<b class="postauthor">Huns Siebzehnrübl&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=946522#p946522"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 23.12.18, 17:08&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5280_1270044029.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.02.05, 05:24<br /><b>Beiträge:</b> 503<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/cd41e4c436a3588edc6b33d906f8a45e.jpg" alt="Bild" /><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">Tabenbuch vom Huns Siebzehnrübl<br /><div align="right">Könibstag, 22. Sekrar 29. Hilgergrad</div><br />Sehr zerkehrts Tabenbuch,<br /><br />der letzter Tagn wahr nicht sehr fiel los, nach der ganzer Aufrebum wegm der Aufemphalt im der Hölle habe ich ein Zerholung bernötigt. Heute war aber eim recht zerfolgreicher Tag, weil der Frau Buchwald war da, wo mir eim Eimrichtum fürn Hof baut. Also der war ser zerschreckend, weil der Frau Buchwald hat germeint, dass der ganzer Sach, wo ich brauch, eim ganzm Haufm Goldstücker kost. Ich hab zersucht, der Fraunzimmer eim Schnupfertabak amzubietn, wo der dann eim bessers Amgebot macht, aber der hat keim genomm, und der Preis wahr deswebm ser hoch. Fiel zer fiel, mehr als wo ich hab. Aber der gibt eim guter Nachricht: Der Frau Buchwald kann Fäller umd Vedern brauchm, wo ich ihm gleich als Amzahlum Fäller vom Schwarzbeer umd vom Braunbeer rübergertragn hab - weil der Fraunzimmer haust gleich auf der anderer Seitn vom der Strasn. Wir habm zereinbart, dass wir pfielleicht eimal muserziern, wo wir dann auftretm könn, um der Leutn eim groser Freud zu zerreitn. Zerfreulicherweis hat mir der freundlicher Nachbär dan am End noch eim Bier im der Hand zerdrückt, wo ser angernehm umd forzüglich war.<br /><br />Dermit ich auch beim Tema währ: Mir geht der Bier aus. Der ist eim groser Katerstrof, und noch derzu so kurz vorm Dumpltief. Weil wenn ich da keim Bier hab, dann zerdreh ich durch! Ich muss also dringemd schaum, dass ich am der wichtiger Lebmselerxir komm, sonst kam ich für nix garentiern. Eim groser Glück ist, dass ich eim Hopfm hab. Wenn aller gut geht, hab ich eim einzerrichteter Hüttn umd eim Bier, wenn der Dumpftief kommt, so dass ich dann nicht fiel ausm Haus muss, wenns erst eimal pfinster wird.</div></div></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5280"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p946907"></a>
+				<b class="postauthor">Huns Siebzehnrübl&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=946907#p946907"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 16.01.19, 13:53&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5280_1270044029.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.02.05, 05:24<br /><b>Beiträge:</b> 503<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/373bf3c74301acd8f9eaf7c1a9a09e80.jpg" alt="Bild" /><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">Tabenbuch vom Huns Siebzehnrübl<br /><div align="right">Mondtag, 14. Onar 30 n. Hilgergrad</div><br />Sehr zerlassns Tabenbuch,<br /><br />es ists eim sehr lamber Zeiraum, wo ich nix mehr verschriebm hab. Der vergangener Wochm warm sehr eimtömig, abgesehm vom Dumpltief, wo mir der Bier fast auszergang ist. Leider ist der Dumpltief auch auf Siebmwind so schlimm wie überall amders auf Tarre, umd er schaut auch so aus, wie überall amders:<br /><br /><br />Der schlimmer Sach ist auf aller Fäller, dass ich nur noch eim paar Schluck Bier übrib hab. Der ist aber eim glücklicher Umstamd, wo ich da was überhört hab vom eim Umterricht, wo eim Geleerter macht vom wegem Tränker braum, wo eimer gesümder werden lassm, also Bier. Ich glaub da werd ich morgm himschaum, pfielleicht kann ich da rausfindm, wie man selber eim Bier braut.</div></div></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5280"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p946908"></a>
+				<b class="postauthor">Huns Siebzehnrübl&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=946908#p946908"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 16.01.19, 13:54&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5280_1270044029.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.02.05, 05:24<br /><b>Beiträge:</b> 503<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/966943708549abe6bed3230dcbb91f6b.jpg" alt="Bild" /><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">Tabenbuch vom Huns Siebzehnrübl<br /><div align="right">Wandtag, 15. Onar 30 n. Hilgergrad</div><br />Sehr verzehrter Tabenbuch,<br /><br />heute war eim zereignisreicher Tag. Ich war aufm Weg zu dem Geleerter, wo der eim Umterricht gibt, wo man selber eim Bier braut umd anderer Tränker. Ich war aufm Weg derthin, wo ich dem Galdriäl zertroffm hab, wo ich sehr zerfräut war. Der guter Fraunzimmer ist dann auch mitzerkomm zu dem Umterricht. Aber ich war schorkiert, weil leider war der Geleerter eim kleiner Dwarschirm nams Nalli. Ein Zwärg, wo ich der Umgeziever nicht gern mag! Aber der Nalli war eibmtlich sehr freumdlich, was eim großer Ausnahm ist für Zwärger, wo der kleiner Umgetümer oftmals sehr bös sind. Pfielleicht simd der Zwärger imwzwischm nicht meer so umfreundlich auf Siebmwind, der muss ich heruaszerfindm.<br /><br />Also der Umterricht war schom sehr lambweilig. Ich hab extra eim Hopfen und eim Getreider mitzerbracht, weil ich wollt gleich ampfangem mit dem Braun von der Tränker, aber der Nalli hat der ganzer Zeit geredet. Vom Kiselwasser, umd vom Fulkanflügl, und anderer Zeig, und für was der ganzer Sach gut ist. Wo ich nicht sehr viel gewusst hab, aber ich war sehr schlau, und hab oftmals gersagt was der Galdriäl gersagt hat, so dass der nicht aufgerfalln ist, dass ich der ganzer Sach nicht sehr gut zerstandn hab. Aber der anderer beidm sind jetz bestimmt am Bodn zereindruckt über mein viel Wissen, wo der jetz glaubm, dass ich dem hab, dabei war ich nur sehr schlau und hab der beidm hinterm Licht verführt.<br /><br />Also derzuverlernt hab ich aber trotzdem vieler Sach: Also der gibt der eim Flüglsaft, wo man nicht fliegm kann, wenn man dem trinkt. Und der gibt der eim Bimssteimsaft, wo ich zergessn hab, für wem der gut ist. Und da gibt der noch mehrerer Pulfer, auch für schwangerer Fraunzimmer, wobei der himterher keim Schluggauf mehr habm, aber wo nicht bei Ferter hilft. Der war sehr viel zinterossanter Informertion, wo ich mit meim schlaum Schädl gut aufzernom hab. Imzwischm hab ich sogar Zintoresse daran erfundm, und denk drüber nach, ob ich nicht noch meer über der ganzer Sach verlern soll, und wo ich selber solcher Sachm herställ, mit anderer Reargenzn als wie Hopfm und Getreider. Soweit ich bei der Zeranstaltum herauserfundm hab, kann man vieler Sach wie eim Flügl vom eim Flebermaus oder verschiedener Pulfer auf eim Fäuer zerhitzn, wo der berstimmt eim schöner Berschäftibumm ist.<br /><br />Der Galdriäl hab ich himterher noch auf meim Hof verführt, wo der Fraunzimmer sehr zereindrückt war. Aber auf eimal habm wir draust eim Gereusch vernomm, wo eim Braumbeer draust war, wo bei meim Nachbär Lina Buchwald seim Schreimerei drübm zerlaufm ist. Ich hab dem gefehrlicher Umgeheuer mitm Speer zertriebm. Beim Stadttor warn dann Läuter, wo dem Beer komblett abzermurpst habm. Hab dem Umgetüm dann der Fäll überm Orm verzogm. Deraufhin hat eim Ork, der in der Nähe zerlaufm ist, der ganzt Laich vom dem Viech aufzerfressm, weil der eim hagerer Kerl war, der Beer. Ich war ser zereindruckt vom dem schöner Wesn, also dem Ork, also dem Viech, den der zerritm hat. Der war eim sehr zinteresonanter Gerschöpf, vom eim sehr großer Schömheit. Der wär sehr zinterossant, mehr über solcher Wesm herauszuzerfindm.<br /><br />Ja, also guter Tabenbuch, der war also eim sehr zereignisreicher Tag, wo viel parsiert ist. Ich hoff der Galdriäl kommt bald wieder zerbei, weil ich schlacht extra eim Sau dafür, wo der braucht. Ich brauch dergegm eim Bier, weil der ist berstimmt nicht sehr gersund, woman lämber als eim Tag ohne der wichtiger Heiltrank ist, wo Lebm zerrettn kann.</div></div></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5280"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p947013"></a>
+				<b class="postauthor">heppcatt&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=947013#p947013"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 22.01.19, 14:20&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 15.12.01, 16:24<br /><b>Beiträge:</b> 2978<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/c81ad73eb8cac8603e38843e39dceb23.jpg" alt="Bild" /><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">Tabenbuch vom Huns Siebzehnrübl<br /><div align="right">Montag, 21. Onar 30 n. Hilgergrad</div><br />Sehr zereists Tabenbuch,<br /><br />der war keim kleimer Schritt für eim Mensch, aber auch keim großer Schritt für eim Sau! Nämlich wo ich teilzernomm hab am eim Reis zu eim neuer Imsl. Aber der ganzer Sach muss ich der Reih nach zerschreibn: Also, der hab ich der also überhört, wo der eim Schiff himwegfährt zu eim neuer Imsl, wo es eim Zerpflebum auf dem Schiff gibt. Deswebm bim ich da him, auf dem Schiff, und webm der Zerpflebum. Also der Himfahrt war sehr angernehm, weil der gab eim ganzer Fas mit Bier dort. Hab umgefehr so um der sechs oder siebm Krug aufm Himweg mir gerzapft. Der warn auch eim paar anderer Reisnder, wo eim paar auch eim Schnaps zertrunkm habm, ich hab der anderer Mitfahrer eim Schnupferbak anzerboten. Es war sehr schöm! Auf dem Schiff hab ich auch Berkannter zerstroffm, wo früher schom überlebt habm, zerm Beispiel dem Riamma und dem Akorer, wo ich erst germeint hab, dass der zertrunkm ist, wo ich der übersehm hab, mit eim ganzer Bierfass im der Händ. Aber war auch mein Nachbär Lina Buchwald da, also wirklich vieler Läuter, derunter vieler Fraunzimmer. Wo mir lampsam Sorgm macht, weil überall simd der Fraunzimmer, und ich schau keimer umterm Rock, weil ich mich um dem Bierfas zerkümmern muss.<br /><br />Also nach der Himfahrt verfolgte der Amkumft. Derbei muss ich auch zerschreibem, wie der auf dem Schiff war: Also da war der Herr Kapertän, wo der mehrerer Sehläute kommerdiert hat. Der war sehr zinterossant, weil der Sehläute simd dann recht schnell aufm Schiff zerlaufm, mamchmal sind der sogar raufzerklettert auf der langer Mastm. Also wen ich noch eim paar Jahr jünger wär, dann wär der pfielleicht eim guter Berschäftibum für mich gerwesm. Also Kapertän, oder eim Sehmann. Weil der müssm nicht nur fleissib schreim und kletterm und am der Seiler amziehn, sonderm auch singem. Also auf jedm Fall habm der Sehmänner der Schiff, wo eim sehr komplerzierter Nam hatte, so dass ich mir dem nicht sehr gut zermerkm konnt, und ich will hier ja auch keim Umsinn schreibm, weil der ist halt wichtig, dass man keim falscher Zeug aufschreibt. Also der Sehläute habm der Schiff zu der Imsl versteuert, wo wir dam im kleimer Bohte umgestiebm simd, wo ums dann rüberzerbracht habm, was nicht eimfach war mit eim Sau umd anderer Sach, wo ich derbei hatte, und wo ich aufgrund vom Wasser, wo recht gerwackelt hat, fasst ims Wasser geflobm wär.<br /><br />Weil aufgrund vom meim Schlauheid hab ich dem Bierfas, wo aufm Schiff war, dann auch mit runter auf der Imsl zernom, wo wir da amgerkommen sind. Weil der war nicht klar, wie lamb der ganzer Sach dauert. Ein Sau hat ich auch derbei, für aller Fäller. Es warn auf jedm Fall eim ganzm Haufm Läutn, umd aller sind rumzerlaufm. Forn warn Krieger, dann kamen der Zaubrer, umd hint war ich, wo ich der zerschiedner Fraunzimmer mit meim Amwesnheit zerfreut hab, damit der nix persiert, also damit der nicht zerletzt werdm. Auserdem hat ich ja den Bier. Wo ich dem Fas aber nach eimiber Zeit im der Nähe vom eim schömer Baum im Samt zersetzt hab, weil mir der zu schwer wurd. Überhaupt, der war überall Samt! Wie Samt am Mehr! Umd eim Haufm Ungerziefer, wie zum Beispiel Skorpioner umd Schlammen. Umd ein ganz besonderer Viech, wo ich seltm so eim schöm hässlichs Viech übersehn hab: Es hat eim ganz dummer Kopf, am eim langer Hals, ähnlich wie eim Fert, aber er war kein richtiger Fert, somdern kleimer, umd amders, und berstimmt noch dümmer wie eim Fert, dafür aber sehr schöm hässlich.<br /><br />Aber lamber Zeit konnt ich dem nicht amschaum, weil da warm komischer Gerstaltm, wo sehr unzerständlich zered habm. Ich bim mir auch nicht sicher, ob nicht eimer vom dem auf mein Sau abgersehen hat. Auf jedm Fall gabs da dann auch zerschiedmer Räubereien, weil da warm dan Plümberer, umd anderer Imslbewohner, ich hab da schnell dem Überblick zerlorm, vor allm weil ich plötzlich zergessn hab, wo der Fas mitm Bier zerschwundm ist. Wo ich dan zum Glück dem Akorer zerinnerte, dass der Bier woanders steht. Auf jedm Fall habn dann umserer Läutn mit der anderer Läutn zersprochm, und dan hat einer vom unserer Läutn gesagt, der Niterwella soll keim so eim Zeug zerzähln, aber der hat der dann trotzdem, umd dann hab ich überhaupt nix mehr zerstandm, und drum sind wir dann auch wieder zurück zum Schiff, weil sich da keimer mehr auszerkennt hat, umd kreuz umd quer über der Imsl zerlaufm sind. Leider hab ich dem Fas mit dem Bier nicht mehr erfundm, was sehr schade ist, weil er war sehr gut. Zermutlich hat eimer vom dem Läutn, der auf der Imsl hausn, dem Fas erfundm, und hat sich dem mitzernommen. Pfielleicht habn der Imslberwohner den als großer Gerschenk wahrzernommen, wo der sich jetzt bei uns pfielleicht sergar berdankm möchtn! Und weil eimer vom der Imslbewohner dem Bierfas mitzernommen hat, habm wir eim vom seim Läutn mitzernommen, um aufm Schiff im eim Gerfämbnis reinzersperrt.<br /><br />Ja, auf aler Fäller simd wir danach zurück nach Siebmwind, wo auch der Sehläute wieder sehr fleissib warm, und wo dann auch wieder Lieder zersungen wordm sind, mit eim sehr schömer Melerdie, wo ich mir recht schnell amzereignen konnte. Pfielleicht nehm ich der nächster Mal eim Hafer mit, dermit ich der Sehläute besser helfn kann beim muserzierm umd singem. Wobei ich auch sehr aufpassm muss, weil auf keim Fall darf der Kapertän der Sach mit den Bier zerfahren. Weil ich muss da umberdimpt wieder hin auf der Imsl, weil pfielleicht kann ich eim Sau gegm eim schöm hässlicher Halstier tauschm, oder selber eims eimfamben.</div></div></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=433"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=433"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p950087"></a>
+				<b class="postauthor">Huns Siebzehnrübl&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Tabenbuch vom Huns Siebzehnrübl</div><div style="float: right;"><a href="./viewtopic.php?p=950087#p950087"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 22.11.19, 15:27&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=5280_1270044029.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.02.05, 05:24<br /><b>Beiträge:</b> 503<br /><b>Wohnort:</b> Geschlossener Vollzug				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><img src="http://huns.siebenwind.he-hosting.de/uploads/big/6dc52a58ec4d40ecb0b04d3544d046d5.jpg" alt="Bild" /><br /><br /><div align="center"><div class="quotetitle"><b>Versteckter Inhalt bzw. Spoiler :</b> 
+<input class="spoilbtn" value="Inhalt anzeigen" onclick="java:if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Inhalt verstecken'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Inhalt anzeigen'; }" onfocus="this.blur();" type="button">
+</div><div class="quotecontent" align="left"><div style="display: none;">Tabenbuch vom Huns Siebzehnrübl<br /> <br />Embtag, 22. Seker 30 nach Hilgergrad<br /><br />Sehr zerstaubter Tabenbuch,<br /><br />emblich ist es wider serweit, eim neuer Eimtrab im dem recht schömer Buch.<br /><br />Weil ich bim wieder hier, auf der Imsl Siebmwimd. For eimiger Tagn bim ich angärkommen.<br />Ich war ser zerfreut, wo meim alter Hof noch immer frei war. Weil da hab ich gleich<br />nachgärschaut, und dan zerdeckt, wo da keimer Tiern warn, auf keimer Saite. Aufgrumd<br />vom mein grosartiger umd unzergleichlicher Weissheit hab ich gleich kontreliert, wo der Hof<br />noch frei ist im Radhaus. Zu meiner groser Zerfriedmheit war der Hof frei.<br /><br />Nachdem ich meiner Viecher, wo ich mit dem Schif mitzerbracht hab, sehr grindlich im Stall<br />eimzersperrt hab, umd nach eimer Pause, wo ich eim Bir gärtrumkm hab, hab ich aufgrumd<br />vom meim Schlauheid gleich zerkannt, dass ich drimbend Haustiern brauch wegm dem Wätter.<br />Ich hab dem Lina Buchwald umd dem Terrania Wolfrahm gärschriebm, aber nur lauter<br />sonderbarer Amtwortn bärkommen. Ich glaub da muss ich nochmal persöhmlich mit der<br />Fraunzimmer redm, damit mich der richtig zersteht.<br /><br />Gästern war eim Träfn vom der margisch bärgabter Wesn, wo ich mit der Eseltraut<br />himgehen wollt. Weil der Eseltraut gibt eim Milch, wo man noch gescheiterter wird, wo man<br />dem trinkt. Aufm Weg hab ich der Galdriäl widerzerstehen. Der Fraunzimmer hat mich<br />ser zereindruckt, wo der mir ser guter Radschlägm gegäbm hat, wie man der Eseltraut durch<br />dem Pertal brimbt, wo eim zu der Margiehof brimbt.<br /><br />Leider war der eim Fraunzimmer auf dem Margiehof, wo eim recht eim grantiger war. Der<br />hat gleich ganz hüsterisch gärkreischt &quot;Der Ku muss raus, bring der Ku raus&quot;, wo ich mit<br />der Eseltraut zu dem Träfn derzu wollte. Ich hab der Geschrei nicht sär gut auszerhaltm<br />umd der Eseltraut da wider wegzerschobm. Der Riamma war aber ser freumdlich. Wir simd<br />dam wieder weg vom Margiehof umd zurück durch dem Pertal zum Blatz vor dem Radhaus.<br /><br />Aber da war dam eim ser böser Bub, wo der auch eim Nam hat, nemlich Mathias. Der<br />böser Bub hat zerhauptet, dass dem seim Hof meimer ist. Nein, umgäkert, dass meim Hof<br />dem seiner ist. Auf jedm Fal eim ser zerwaloster Kind. Ich glaub der böser Bub trinkt<br />nicht gärnug Bir. Zermutlich schnupft der auch noch nicht. Auf jedm Fall ist der dann<br />zum Hof zerrant. Ser schnell, so dass ich mit meiner alter Haxn nicht nachgärkommen bim.<br />Als ich auch beim Hof war, hat der böser Bub aller Sach mitzernommn. Nur meiner<br />Viecher nicht, so dass ich auch im Zukumpft recht vieler Abeit hab.<br /><br />Ich werde wegm der Sach eim Brif am dem Gsindl im Radhaus schreibm umd die mit eim<br />Sau umd eim Käs umd eimer Wurscht zerstechn. Imzwischm kenn ich mich mit der ganzer<br />Persernal im Radhaus schom bässer aus. Eim Sau mögn die immer, pfielleicht abeitet da<br />sogar noch der Marnie, wo ser zerfreut war, als ich der eim Sau gärschenkt hab letzts<br />Jahr.<br /><br />So, guter Tabenbuch. Ich muss jetz noch eim Bir trinkm und schnupfm. Danach werd<br />ich mich ebwas ausruhm vom der ganzer harter Abeit.</div></div></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=5280"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=108788&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=108788"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 13 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=108788"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

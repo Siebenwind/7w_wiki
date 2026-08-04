@@ -1,0 +1,838 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Im Zwielicht...</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '2');
+	var perpage = '30';
+	var base_url = './viewtopic.php?f=27&amp;t=108944&amp;st=0&amp;sk=t&amp;sd=a';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=108944&amp;start=30&amp;st=0&amp;sk=t&amp;sd=a">Im Zwielicht...</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=108944"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>2</strong> von <strong>2</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 40 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Klicken Sie, um auf Seite … zu gehen">Gehe zu Seite</a> <a href="./viewtopic.php?f=27&amp;t=108944&amp;st=0&amp;sk=t&amp;sd=a&amp;start=0">Vorherige</a>&nbsp;&nbsp;<a href="./viewtopic.php?f=27&amp;t=108944&amp;st=0&amp;sk=t&amp;sd=a">1</a><span class="page-sep">, </span><strong>2</strong></b></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=108944&amp;start=30&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=108944&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=108944&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p948893"></a>
+				<b class="postauthor" style="color: #string">Volandur&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Zwielicht...</div><div style="float: right;"><a href="./viewtopic.php?p=948893#p948893"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 27.06.19, 16:35&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.18, 18:28<br /><b>Beiträge:</b> 135				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center">Zorn. Frustration. Enttäuschung. <br /><br />Wieder hatte Tendarion bewiesen, das er Volandur nicht so einschätzen konnte, wie er offensichtlich glaubte. Er hörte ihm zwar zu, doch nahm er ihn weder wirklich ernst in den Entscheidenden Momenten, noch schien er die richtigen Schlüsse zu ziehen. Das Ionas hingegen verstanden hatte, zeigte Volandur das es vielleicht nicht wie er bisher dachte an ihm selbst lag wenn derlei vorkam. Zumindest nicht allein. Doch das war es nicht, was Volandur in Zorn versetzte. Auch nicht die Tatsache, das Tendarion eine Forderung an ihn hatte die ihm nicht leicht fiel. Er hatte seine Gefühle, wie so oft doch er schluckte es schlichtweg in den meisten Fällen herunter, mit Füßen getreten und sie vor einer ihm fremden Person ausgebreitet. Gewöhnlich war die Art und Weiße ähnlich Bloßstellend aber in einem Kontext den Volandur akzeptiert hatte weil ihm Bewusst war das Tendarion es nicht böswillig tat. Doch dieses mal, nutzte er es aus, um zu Unterstreichen wie Minderwertig Volandurs Leistungen in manchen Bereichen war. Vielleicht war das nicht seine Intention aber noch nie hatte Volandur das Gefühl derart von Tendarion verletzt worden zu sein. Und er merkte es nicht einmal in dem Bezug, der Relevant war. Als er ihm am Ende, als für ihn scheinbar alles wieder in Ordnung war berührte, die Leisen Worte gesprochen waren zeigte er wieder, das er ihn kein Stück respektierte. <br /><br />Volandur war wohlmöglich nicht perfekt, doch dieses mal kam er nicht umhin darüber nachzudenken ob es all die Schmerzen die unweigerlich folgen würde Wert war. Ionas wollte ihm helfen, dafür war er dankbar, doch wenn Tendarion deshalb das Gefühl hatte Volandur würde ihn der Kirche wegnehmen hatte er keine Lust zu versuchen sich an jemand anderen dort zu wenden. Es war wie damals, als Volandur schon einmal versucht hatte sich von Tendarion in gewisser Hinsicht zu lösen, doch er sich an ihm festhielt und ihn nicht ziehen lassen wollte offenbar. <br />Und plötzlich fühlte er sich eingesperrt und in die Ecke gedrängt. Er hatte gehen wollen, um den Abstand zu schenken der offenbar gebraucht war. Als er das tat, wurde Tendarion nur wieder zornig. Ionas saß als Stiller beobachter dabei, während der andere ihn immer mehr dazu zwang, sich Mental weiter zu entblößen, sofern er die Vorwürfe nicht so stehen lassen wollte. <br />Es war nichts mehr Privates zwischen ihnen ab diesem Zeitpunkt. Volandur brauchte ruhe, und Zeit zum nachdenken. <br /><br />Natürlich war ihm klar, das er anhänglich war. Doch er konnte nicht anders. Er hatte schon einmal, jemanden alleine gelassen, der ihm am Herzen lag und der kurz darauf Tare verlassen musste. <br /><br />Er konnte nicht behaupten, das dieser Abend seine Gefühl für den anderen Getrübt hätte. Er liebte ihn, nach wie vor. Ganz gleich, wie Oft er ihn noch treten würde. <br />Und er würde sein Wort halten, an seiner Seite zu verweilen solange er es zuliess. Aber ihm kam ein Gedanke, dabei, der ihn keineswegs losliess: <br /><br />Nicht auf kosten, meines eigenen Wohlbefindens. Oder auf kosten dessen, der anderen. Nicht mehr...<br /><br /><br />Ionas hingegen, war eine unkomplizierte Abwechslung, die er durchaus zu schätzen wusste. Er kannte ihn kaum, was es Volandur erleichterte sich nicht allzusehr von seinen Emotionen verwirren zu lassen, und einen rationalen Blick aus einer anderen Richtung ermöglichte. Die Kugel die er ihm gab, bettete er sorgsam auf einem freien Platz bei seinen Kreaturenstatuen und wies Kjell an, besonders vorsichtig damit umzugehen, wenn er sie putzen würde. Eine lange weile Betrachtete er die Kugel. Doch auch Ionas war wieder ein Kontakt, der Tendarion nahestand. Er war sich sicher, das er von Tendarion gebeten wurde sich mit Volandur zu beschäftigen, nachdem Aynira gegangen war. &quot;Hast du sie verscheucht?quot; Ein kleiner Stich in Volandurs Brust verriet, das ihm das näher ging als es sollte. Natürlich hatte er es nicht, zumindest nicht bewusst, getan. Er hatte versucht die Novizin davon abzuhalten den Raum zu verlassen, doch offensichtlich wollte sie dennoch gehen. Wer schuld daran war, schien klar. Seine Unfähigkeit schien offensichtlich. Das durfte nicht noch einmal vorkommen. Doch Ionas, gab er keine Schuld daran das es die logischste Schlussfolgerung war, das Volandur sie wohlmöglich hatte vertreiben wollen. Lediglich sich selbst. <br /><br />Ein Traumloser Schlaf, löste ihn aus seinem Gedankenkreis.</div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p948909"></a>
+				<b class="postauthor" style="color: #string">Volandur&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Zwielicht...</div><div style="float: right;"><a href="./viewtopic.php?p=948909#p948909"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 30.06.19, 12:42&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.18, 18:28<br /><b>Beiträge:</b> 135				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center">Volandur sah dem Elfen nachdenklich nach, als er Morgens das Haus verliess. <br /><br />Er war unsicher, wie er sich fühlen sollte. Er hätte, das Tendarion zuliess das er für ihn da war, nun als einen Sieg werten können doch es schmerzte ihn das er erst unter deratigem Druck stehen musste um sich zu öffnen. Er verstand Tendarion nach dem Gespräch am Vorabend zwar besser, doch das er derart leidete das er seine emotionen so ungewohnt offen zeigte machte voli rasend vor wut. <br />Egal wie oft man es Ionas erklärte, er stach immer weiter mit dem Dolch in Tendarions Herz. <br />Volandur interessierte sich, obgleich er zunächst anders dachte, weniger an sich. Er hatte schlichtweg kein Interesse daran das jeder den Atem anhielt, weil es auf der Insel einer Person wegen Liebeskummer schlecht ging. Natürlich war auch die Amnesie ein Thema, doch solange der Mann nicht erkennen würde, das es daran lag, nicht am Liebeskummer würden die Situationen immer mehr eskalieren. Alle hatten verständnis für ihn und seine Situation gezeigt, und alles was er bewiesen hatte war das er zu eigenständigen Gedanken nicht mehr fähig war. <br /><br />Tendarion war nicht der, der geprüft wurde. Nicht diesesmal, er hatte sich die Prüfung aus freien Stücken zu seiner gemacht, die Prüfung war einzig und alleine Für Ionas und Guntram. <br />Guntram, der auf dem Sofa saß und Still nach trost gierte, und Ionas der es offener Tat. Beide waren unfähig mit den Gefühlen die sich über die Jahre aufgestaut hatten umzugehen, und der Leidtragende war Tendarion, das ganze Umfeld und die gläubigen für die kaum mehr Zeit blieb. Warum wollte das nicht in die Köpfe der Drei? Für Tendarion hatte Volandur ein gewisses Verständnis. Er war Jung, ihm fehlte die Erfahrung und er musste lernen sich in diesen Situationen abzugrenzen und zu behaupten. <br />Ionas und Guntram hingegen, waren zwei erwachsene Menschen, die sich verhielten wie Kinder. Und er hoffte inständig, das zumindest Guntram merkte was Tendarion mit der derzeitigen Situation angetan wurde, und eine Grenze ziehen würde die dafür sorgte das für alle beteiligten Klare Strukturen herrschte. Selbst wenn er Ionas würde verlassen wollen, sollte er zumindest davon wissen und nicht in ungewissheit vergehen. Vielleicht verstand volandur nicht alles,da er Ionas und Guntram nicht gut kannte, doch er würde nicht zulassen wenn er es konnte das Tendarion sich selbst bis in den Abgrund hinabprügelte, nur weil er unfähig war den gesunden Egoismus einzufordern, der ihm auch als Diener noch zustand. <br /><br />Volandur merkte, wie der Zorn wieder in ihm hochstieg, er musste ihn loslassen. <br />Untote, waren nun genau das richtige Ziel, um es an ihnen auszulassen. Denn er wollte Tendarion nicht noch einmal anschreien, damit er endlich zuhörte. <br />Nie wieder.</div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p948970"></a>
+				<b class="postauthor" style="color: #string">Volandur&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Zwielicht...</div><div style="float: right;"><a href="./viewtopic.php?p=948970#p948970"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 3.07.19, 15:03&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.18, 18:28<br /><b>Beiträge:</b> 135				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><span style="font-style: italic">&quot;Wessen Hände sind es, die die Welt verändern könnten, Novize?quot;</span><br /><br />Es dauerte bis Volandur es wahrhaftig begriff. Es war leicht gewesen, die richtigen Worte zu finden doch er verstand es nicht. Wie sollte er, der nur Schmerz und Zerstörung bislang vollbracht hatte in seinem Leben, etwas heilen oder in rechte Bahnen lenken? Wie sollte er, der er von Gier angetrieben war, etwas das Tare irgendwie weiterbrachte vollbringen? Er starrte auf seine Hände ab, ein feuchter Tropfen. Es war nichts, das ihm einfach widerfuhr. Auch wenn es sich so anfühlte, als am Markt Gefahr drohte, und er instinktiv demonstrierte das es eine ziemlich dumme Idee wäre, sich mit ihm anzulegen. Keine Gewalt, nur die Gewissheit das Feuer Heiss war. Das Bier lenkte den armen Mann, der nicht wusste wie er mit seinem innerlichen Schmerz umzugehen hatte, sodass er davon absah weiter ärger machen zu wollen und Xalia nachlief wie ein welpe der sich auf ein Leckerli freute. Die Freude, die er kurz zuvor spürte als er Tendarions verklärten Blick, ganz anders als zuvor, auf sich sah versiegte schnell. Und die Müdigkeit machte sich wieder in ihm breit. Er hatte etwas geschaffen, das keinen Schmerz verursacht hatte. Etwas, das Neu und anstrengend war und Volandur keinen wirklichen nutzen brachte. <br /><br />Konnten diese Hände wirklich nur Zerstören? Der kleine Matis und seine Wunden, die Elementare deren Sicherheit für ihn in jedem Kampf wichtig war, sein neu gefundener Beschützerinstinkt gegenüber fremden und geliebten Personen, die Prothese und Gespräche die nicht nur ihn selbst mit Interesse erfüllten wie jenes vor einigen Tagen mit Aynira. &quot;Niah&quot; nannte Maichellis ihn. Es war wie ein Reflex, ihm zu antworten zunächst, ihn in seinem Gefühl zu bestätigen. Freunde, Feinde, Schutzbefohlene, liebste, lehrer, schüler, Vorgesetzte.. Das alles war viel Enger miteinander verwoben als Volandur es sich vorstellen konnte. Wann hatte er sich so sehr angepasst? Zu fast allem konnte er ein Gesicht Ordnen, und er fühlte sich doch wie so oft leer. Er war nicht Einsam, und er war auch nicht traurig. Was trieb ihn dann an? Letztenendes, war alles was derzeit um ihn herum geschah, weil er es selbst beeinflusst hatte. Wie es eigentlich schon immer war. Warum war das so schwer zu begreifen? <br /><br />Seine Gedanken wurden von einem zurückhaltenden, leisen Klopfen unterbrochen. Wohlmöglich war es auch gut, bevor er seine Erkenntnis schlichtweg zerdachte und in einen Negativen Bezug legte. <br />Er war der Herr seiner taten, und leistete damit seinen beitrag zu dem Verlauf in seinem Umfeld. <br />Doch die Verantwortung die daraus erwuchs, war kein Druck der ihn zurückhaltend werden liess. Es war ein Antrieb, und ein kurzes Lächeln huschte schon wieder über sein Gesicht, als er die Tür öffnete. Schlafen war jetzt genau das richtige.</div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p949210"></a>
+				<b class="postauthor" style="color: #string">Volandur&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Zwielicht...</div><div style="float: right;"><a href="./viewtopic.php?p=949210#p949210"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 21.07.19, 19:07&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.18, 18:28<br /><b>Beiträge:</b> 135				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center">Volandur zog sich die Decke über das Gesicht. <br />Er war kein Anführer, doch es fühlte sich immer mehr so an, seit er die Stimme der Fey war, ein solcher sein zu müssen. Nicht vielleicht im klassischen Sinne wie die Biundai, doch auf seine eigene Art doch. Er hatte weder Lust, noch glaubte er die nerven dafür zu besitzen. Je aktiver er versuchte, etwas Bewegung in den Inselrat zu bewegen, desto mehr wurde ihm klar dass das nicht Temporär bis zur nächsten Lösung die vermutlich auch scheiterte, genau so immer wieder von vorne beginnen würde. Er war jetzt schon Müde, doch sein Pflichtbewusstsein hielt ihn fest. Er hatte wenig freizeit, was nicht der schlechteste Zeitpunkt dafür war da sein Privatleben zumindest die nächsten weiteren zwei Wochenläufe nicht würde darunter leiden können. Tendarion war fort, auf dem Festland, und Volandur vermisste ihn. Dabei waren Drei Wochenläufe keine Zeit, die für einen Fey besonders lange wäre. Er hatte so viel Zeit mit dieser Person verbracht, das er sich mehr an sie Gewöhnt hatte als es Volandur geheuer war. Er stieg aus dem Bett, und sah einen Moment auf das Kissen auf dem er zuletzt saß um zu lesen, dann in die deutlich wohnlicher wirkende Ecke seiner Wohnung die er für ihn so gestellt hatte, damit er sich Essen warm oder einen Tee machen konnte. <br /><br />Noch nie kam Volandur überhaupt in den Sinn jemandem einen Schlüssel zu seinem Heim zu überlassen. Er hatte weniger Bedenken über Diebstahl oder dergleichen, vielmehr wusste er lediglich nicht was er davon halten sollte sein Heim zu teilen. Es war etwas anderes, wenn man sich lediglich um sich und seine Tiere sorgen musste, als noch dafür das sich eine zweite Person wohlfühlte wenn sie dort war. <br />Tendarion wirkte hingegen völlig entspannt, als Volandur sich verhielt als wäre er allein im Raum, was ihn in seinem handeln bestätigte. Und doch war es merkwürdig anders als Gewöhnlich. Nicht das Volandur es nicht gefiel, noch er war verwirrt von dem anderen. Wie konnte so eine kleinigkeit im Umgang, soviel auslösen? <br />Und wieso wünschte sich Tendarion von ihm, wenn er keine tieferen Gefühle für Volandur hegte, in dieser Form ein Teil seines Lebens werden zu dürfen? Er verstand diesen Fey nicht. <br />Einerseits, versuchte er ihn auf Abstand zu halten doch wann immer er ihn suchte, griff er nach seinem Arm und zerrte ihn zurück zu sich nur um ihn so fest wie möglich zu halten damit er bei ihm blieb, sei es Mental oder auch Physisch. <br />Volandur hatte nie die intention gehabt, sich in irgendeiner Form von Tendarion zu entfernen und doch fiel ihm auf, wann immer er es auch nur aussehen liess aufgrund irgendwelcher umstände, weil es notwendig schien wurde Tendarion ungehalten und das geschah. Vielleicht konnte er sich schlichtweg nicht eingestehen, das er mehr für Volandur empfand als er ihm bisher zugestand. <br />Ihm war durchaus bewusst, das man nicht alles versichern musste, doch er war nicht gut darin das Verhalten anderer auf emotionaler Basis zu lesen, sodass er durchaus dankbar wäre wenn man ihm wenn er aus der daraus entstehenden unsicherheit versuchte klare verhältnisse zu schaffen, ihm das auch gewährte. Es musste ja nicht stundenlang forciert werden. <br /><br />So oder so, als würde der Elf ihm neuerlich einen Schlag auf den Kopf verpassen, begann er sich wieder seiner Pflichten zu besinnen. Sie sorgten dafür das er gut abgelenkt von dem Trennungsschmerz war, und so machte er sich auf den Weg zu Custodias Turm, ehe er nach diesem Gespräch einige Botschaften zu verfassen begann. <br />Es war an der Zeit, sich seiner Pflichten und Aufgaben bewusst zu werden. Und das betraf nicht nur ihn selbst.</div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p949221"></a>
+				<b class="postauthor" style="color: #string">Volandur&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Zwielicht...</div><div style="float: right;"><a href="./viewtopic.php?p=949221#p949221"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 22.07.19, 14:43&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.18, 18:28<br /><b>Beiträge:</b> 135				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Ein Kind das Panisch um sich schlug, einen Bolzen im Bein. Es hat schmerzen, Angst und gewiss hatte es das auch als es zuerst begann zuzuschlagen. Teile seiner Familie lagen Leblos in dem Fluss, den Magier zuvor mittels Blitzen zu einer Todesfalle für einen jeden der Hineinging gemacht hatten. Zu Angst und Sorge kamen also Verzweiflung und Wut dann die Schmerzen durch den Angriff mit der Balliste. Und dann wagte es einer dieser Magier, das Drachenkind anzusprechen um Hilfe anzubieten. Ausgerechnet der, der auch noch den Einfall für diese Todesfalle hatte. <br />Volandur dämmerte, dass das ganze nicht sehr glaubwürdig auf den Jungen Lindwurm wirken dürfte. Und als dann noch die Verbündeten des Elfen begannen unentwegt auf ihn einzuschlagen, das Kampfgetümmel einfach kein Ende nahm und ein Elf versuchte auf seinen Rücken zu steigen, war jede Hoffnung auf ein Gespräch verloren. Sie war zu Parteiisch, um zu verstehen das nur Gekämpft wurde weil es keine Wahl gab. Er hatte versucht Maichellis fortzuziehen bevor diese Kreatur ihn bemerken würde wie er sich seinen Weg auf ihren Rücken bahnen wollte. <br />Es war eine Sache, verantwortungsgefühl für seine Männer zu zeigen, sich als krieger und beschützer zu sehen, aber das was er da tat kam einem Suizid gleich, und ein solcher Tod war für Volandur nicht akzeptabel. Es machte keinen Sinn, zwei weitere Tote zu beklagen anstatt nur des einen. Vielleicht hätte er ihm das auch so sagen sollen, das dieser Lindwurm erst maichellis getötet hätte, dann den Soldaten. Es schien ihm so offensichtlich, das er es nicht erst erwähnen müsste. Dass das Risiko es, so grausam es erscheint, in diesem Fall nicht wert gewesen war. <br />Volandur war nicht unbedingt vorsichtiger, doch würde er noch am Schwanz des Tieres genug aufmerksamkeit erregen können, würde er zwar auch ihn aber eben auch Maichellis von sich stoßen. Das würde großen Schaden anrichten, aber wenn Volandur seine letzte Kraft aufbrauchen würde, vor dem Aufprall, würden sie vermutlich zumindest überleben wenn er schnell genug war. <br />Am liebsten hätte Volandur Maichellis ob seines Unverständnisses für die Situation genommen und solange durchgeschüttelt, bis sich die Erkenntnis aus seinem Geist löste und in das gegenwärtige Bewusstsein purzelte. Solange er anwesend war, würde keiner seiner Freunde einen Sinnlosen Tot sterben. Nicht wenn Volandur es verhindern konnte, und er spürte als alles vorbei war bevor er über dem Frisch versorgten Fey in sich Zusammensank, einen kleinen Stich. <br /><br />Er wünschte sich, das Tendarion da wäre, in einem Moment in dem er sich selbst fühlte wie der Drache es tun musste. Wie ein Panisches, wütendes Kind das schmerzen hatte und nicht imstande war sich selbst aus diesem Kreislauf zu befreien. Und wenn er nur eine kräftige Ohrfeige dafür erhalten würde das er sich derart entkräftet hatte, und dabei auch noch sehr Penetrant Galtor den Mittelfinger hingehalten hatte, als er sich ohne zögern fast selbst in sein Grab gebracht hatte. Und er wusste nun, das er recht gehabt hatte. Akassvae war nicht umzustimmen, denn sie verstand entweder nicht oder wollte es auch garnicht. wie Maichellis sagte. <br />Ein kurzer Schockmoment, als der ersehnte Hieb des Elfen folgte. Aber er war garnicht da.. Magistra Gropp hatte ihm offenbar einen Schlag versetzt bevor sie die Kraft eines Artefaktes in Volandur fliessen liess, die er sofort mit dem Elfen unter sich zu teilen begann. Eine hälfte für Maichellis, den größten Teil des Restes ausser dem Teil den Volandur brauchte um sich auf den Beinen zu halten, würde an die Magistra selbst gehen. <br /><br />Und er war zufrieden, als die beiden recht fest auf ihren Beinen stehen konnte, während Volandur völlig erschöpft auf dem Rücken des Sympathisch eigenwilligen Pferdes von Maichellis saß. <br />Das gemeinsame Bad entspannte ihn deutlich, und so war er froh, als er letztenendes in den erlösenden Schlaf fiel. Er konnte sich nicht leisten, sich zu sehr mit seinen eigenen Persönlichen problemen zu beschäftigen, es galt einiges zu erledigen in den nächsten Tagen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p949250"></a>
+				<b class="postauthor" style="color: #string">Volandur&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Zwielicht...</div><div style="float: right;"><a href="./viewtopic.php?p=949250#p949250"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 24.07.19, 02:59&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.18, 18:28<br /><b>Beiträge:</b> 135				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center">Volandur war guter Dinge, als er bereits früh Morgens durch die Stadttore wieder nach Brandenstein kam. Der Wunsch nach ein wenig Ruhe und einem Spaziergang endete in einer angenehmen Überraschung, die er nur zu gerne entgegennahm. Mit einem zufriedenen Lächeln auf den Lippen, setzte er sich daran einige Berichte zu schreiben, auch die aussicht auf das Gespräch mit den Dwarschim konnten seiner Laune nur wenig schaden. Der Tag verlief angenehm, und erst als er kurz vor den Toren zu Dunquell war, beschlich ihn das ungute Gefühl das es wohl eher Ratsam gewesen wäre, zumindest eine Rüstung unter dem weiten Elfischen GEwand zu tragen. Die Dwarschim waren dieser Tage unberechenbar, doch er wollte nicht den Anschein erwecken das ihn irgendetwas an diesem Termin verunsicherte. Ausserdem war er durchaus imstande, sich im Notfall zu verteidigen oder zumindest die Flucht zu ergreifen. Letztenendes waren seine Bedenken vermutlich wie so oft eher haltlos. <br /><br />Und tatsächlich, war der Kregor in der Taverne durchaus Freundlich. Er bot ihm etwas Bier an, das Volandur nicht wirklich schmeckte aber es aus Höflichkeit trank und lobte. <br />Ein wenig irritiert, wurde der Brief betrachtet der dem Kregor offenbar von jemandem der Beteiligt gewesen sein muss überbracht wurde. Grundsätzlich, entspach der Inhalt der Wahrheit, doch war er vollkommen aus dem Kontext gerissen. Jegliche Aufklärung, stiess auf Taube ohren und Schnippische nachfragerei, die mehr wirkte als wollte man Volandur denunzieren. Er selbst blieb ruhig, liess sich nicht Provozieren, bis am Ende obgleich er keinerlei anstalten machte sich länger als Nötig aufzudrängen, geschweige denn jemandem etwas zu tun oder Magie zu wirken, die Personen im Raum ihre Waffen auf ihn richteten. Er reagierte nicht ganz schnell genug, offensichtlich, denn bevor er sich fortzaubern konnte traf ihn ein Bolzen im Linken Bein, der schmerz lenkte ihn von dem Zauber ab und er ging zu Boden als er den nächsten Schlag bekam, den Kopf angestoßen. Als er zu sich kam, wurde er unsanft herumgezerrt, gefesselt und ein Eisenkragen um den Hals. Doch es wirkte zu unwirklich, die beiden Zwerge die ihn transportierten, und die Schmerzen in Kopf und Bein. Als er im Kerker auf einer Liege abgelegt und durchsucht wurde, und er sich offenkundig intuitiv weigerte Valentins Ring abzulegen, wurde er durch den Schlag den Bolwin befahl, in die Realität zurückgeholt, nur um kurz darauf in das Schwarze Loch gezogen zu werden welches zwar verschlossen wurde, irgendwann aber das Konstrukt noch zu Fragil war um einer jeden Belastung stand zu halten. Die Suche nach dem Licht, wurde von einem Ruck gänzlich durchbrochen. Was blieb war Dunkelheit, und die Bilder die er nicht sehen wollte. Das atmen wurde fast vertraulich schwerer, mit jedem Moment wo die Stimme dieses verrückten zwergen, der nicht einmal davor zurückschreckte seine Schwester im Volke zu verletzen, an seine Ohren drang. Volandur wünschte, er könnte ihm sagen das alles was er sagte aus der Luft gegriffen war, auch wenn er sich von dem Weg den er ihm unterstellte gelöst hatte konnte er keineswegs leugnen das dieses Misstrauen unberechtigt war. Volandur hatte nun alleine mit seiner Anwesenheit sein Volk in Gefahr gebracht, die wenigen Freunde die er hatte. Er hatte nichts gewollt, ausser eine Sicherheit für die Fey zu schaffen, nun war zu befürchten das jeder Elf den die Dwarschim in die Hände bekamen von Bolwin gefangen genommen wurden. Er zweifelte an der Richtigkeit dessen, das er nun die Stimme der Fey war. Er zweifelte daran, das all das Gute der letzten Monde in irgendeiner Art und Weise verdient war. Und plötzlich fühlte sich die harte Arbeit im letzten Götterläuf an, als wäre sie vollständig nichtig. <br />Er sehnte sich zu Tendarion, er wollte kein Mitleid. Er wollte Gnadenlose Logik, die ihn von seinen Emotionen die gerade verrückt spielten und die Dunklen Gedanken fortbrachte. Eine schallende Verbale Ohrfeige, und erst ein wenig Verständnis wenn er sich wieder gefasst hatte. Volandur war ein häufchen Elend. Es errinerte ihn an damals und die erste Zeit als er den Eisenkragen ob der Buße tragen musste. <br />&quot;Einatmen... und lange wieder ausamten.&quot; Es dauerte bis Volandur begriff, das jemand wieder zu ihm sprach nachdem der Zwerg vor einer Weile von ihm abliess um irgendeinen Brief zu formulieren. Mit mäßigem Erfolg, versuchte er die Anweisungen zu befolgen, doch der Kragen drückte viel zu sehr. <br />Ein Lichtblick, als er endlich eine ihm besser bekannte Stimme hörte. Arthax! Ein wenig Hoffnung stieg in Volandur auf, diesen Zustand nicht mehr länger erdulden zu müssen. Wenn es auch weniger war das er sich an der Gefangenschaft störte. <br />Und eine ganze Weile, und ein zerschlissenes Werkzeug später, war er frei. Der Kragen fort, und er fühlte die Magie wieder durch sich hindurchfliessen nur um sich bald in seinem Versteck wiederzufinden. Mit dem verletzten BEin war der Weg beschwerlich, in Brandenstein angekommen stach ihm sogleich ein Aushang in das Blickfeld. Er stockte und erschauderte, die Selbstzweifel wurden nurnoch größer. Vielleicht hatte er sich nur eingebildet, zu mehr imstande zu ein als Dinge zu zerstören. Eingebildet, das er friedfertig war und das er enen neuen Weg gefunden hatte. Eingebildet, das er es wert war sich noch im Kreise seiner Geschwister und Freunde zu befinden. Verrotten sollte er also, wohl irgendwie verdient, das konnte er nicht leugnen. Es wäre fast traurig, würde Volandur nicht wissen das vollkommene Irrationalität aus diesen Zeilen spräche. Er musste nun mehrere Berichte schreiben, obgleich er noch immer zitterte als wäre er mit den Nordmännern in Eiswasser geschwommen. <br /><br />Eine unruhige Nacht folgte, in der er erstmals in einem solchen Moment jemand anderen als Tendarion eine Stütze sein liess, und als er das erste mal in der Nacht erwachte erstaunt feststellte das Maichellis noch immer da war, ihn festhielt und offenbar davon absah zu schlafen. Er wehrte sich weder gegen Volandurs kindische klammerei, noch sprach er ihn auf mögliche merkmale seiner Albträume an. Was er entweder als verständnisvolles Taktgefühl wertete, oder schlicht die Tatsache das sie nicht vorhanden waren. <br />Erst nach einigen malen die er hochschreckte, und Maichellis noch immer da war, schaffte er es eine längere Zeit zu schlafen.<br />Vielleicht, war Volandur den Aufwand und die Sorge doch Wert. Nur vielleicht.</div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p949329"></a>
+				<b class="postauthor" style="color: #string">Volandur&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Zwielicht...</div><div style="float: right;"><a href="./viewtopic.php?p=949329#p949329"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 25.07.19, 22:59&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.18, 18:28<br /><b>Beiträge:</b> 135				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Versager. <br />Volandur spielte die Szenarien durch, so oft es ging. Er brachte rein garnichts zustande und sein Umfeld zeigte es ihm auch recht deutlich. Nicht Maichellis, aber das war auch etwas anderes. Nicht einmal existieren in einer Zweckmäßig eingenommenen Position konnte er, ohne seine Geschwister in Gefahr zu bringen. Wie durch einen Schwarzen Tunnel, sah er weit weit weg was um ihn herum geschah. Und so wandelte er über Tare. Solos Nhergas würde enttäuscht sein, wenn sie hörte wie er sich gegenüber Magistra Rianna verhalten hatte. Tendarion auch. Schwester Safiriel entfernte sich von den Fey. Und er war unfähig etwas zu tun. <br />Es gab nun einige KOnsequenzen zu ziehen, ob sie Volandur gefielen stand auf einem anderen Blatt. <br />Denn es war eingetreten, wovor er sich immer gefürchtet hatte: <br />Seine liebsten und sein Umfeld mussten leiden, weil es ihn in ihrem Leben gab. <br />Er würde sich aus diesem Grund zurückziehen, für eine Gewisse zeit und von beseelten fernhalten. <br /><br />All die Arbeit der letzten Monde vergangen. Durch errinerungen. <br />Was war sein Leben wert, wenn er nichts tat?<br />Er hatte keine Lust mehr darüber nachzudenken. Ein Glas Wein würde gewiss helfen. <br /><br />&quot;Du bist nur ihre Stimme, weil sie Angst vor dir haben.&quot;<br />&quot;Die Elfen die ich kenne, kennen dich nicht du bist nicht ihre Stimme.&quot;<br />&quot;Verroten im Kerker..&quot;<br />&quot;Angamon selbst leitet dich&quot;<br /><br />Die Liste der Vorwürfe war lang, sie verstummten, natürlich nicht. <br />Und Volandur konnte sich das nicht mehr anhören. Er war nie gewillt gewesen eine Führende Position in derartigem Ausmaß wie er sie hatte anzunehmen. <br />Er sagte Maichellis und Tendarion das er nicht glaubte geeignet zu sein. <br />Sie machten ihm stattdessen mut, und nun sah er was er davon hatte jemandem zu vertrauen. <br /><br />Wut kroch wieder in ihm hoch, und er versuchte sich zu Zügeln...<br />Vorerst.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p949343"></a>
+				<b class="postauthor" style="color: #string">Volandur&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Zwielicht...</div><div style="float: right;"><a href="./viewtopic.php?p=949343#p949343"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 26.07.19, 14:04&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.18, 18:28<br /><b>Beiträge:</b> 135				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center">Nur kurz riss der sanfte Kuss den Elfen durch die Überraschung und Verwirrtheit aus seinem Gedankenkreis aus Selbstgeißelung und Frustration, Angst und Verzweiflung, unverständnis wieder heraus. <br />Doch schnell kreisten seine Gedanken wieder, und er spannte sich von neuem an. Sein unsäglicher Ausbruch war nicht hinzunehmen, und zur Belohnung wurde er geküsst?! <br />Hatte Bolwin recht, und man stellte sich wirklich aus Angst mit ihm gut? Nutzte er aus, wie Tendarion es einst tat, das er mit Körperlichkeiten abzulenken war um ihn im Licht zu halten? <br />&quot;Ich mag dich, sehr.&quot; Das war unpersönlich, aber persönlich genug noch um Volandur zumindest ruhig zu stellen. Er hasste diesen Satz: &quot;Finde es selbst heraus.&quot; <br />Er wollte nur klarheit, wenn möglich, und offenen Umgang. Was war falsch daran,dinge beim Namen zu nennen wenn jemand danach fragte?<br /><br /><span style="font-style: italic">- Volandur starrte entgeistert auf die Lange Eisenstange in den Händen des Mannes, der es nicht einmal mehr für nötig hielt sein Gesicht zu verbergen. Er kannte ihn. Sehr gut. Und nun war er eine der Personen, die ihn hier folterten, wegen eines Artefakts das man mit eigener Arbeit vermutlich selbst herstellen konnte. Es steckte wahrscheinlich mehr dahinter, doch Volandur machte keine Anstalten einen Ton zu sagen. Er war kein Verräter. Und er würde lieber Sterben, als jemanden zu verraten der nur gutes im Sinn hatte. - <br /></span><br />Was war aus Volandurs Loyalität geworden? Er war ein Verräter. Ein unfähiger Versager, nicht einmal eine Scheibe Käse von einem Stück schneiden konnte er. Jetzt lag er Würdelos hier, der nächste Morgen nach einer Albtraumumwobenen Nacht war vorbei, und der andere Elf schien im laufe der Nacht die Flucht ergriffen zu haben. Oder seinen Pflichten nachzugehen. Stattdessen gab er ihm offensichtlich ein Kissen. Warum hatte er ihn nicht geweckt? Es war kurz nach der sechsten Stunde, ein Geräusch hatte ihn geweckt. <br />So rappelte sich Volandur auf. Die Türe war abgeschlossen, nachdem er sich wieder angekleidet hatte, rüttelte er prüfend daran. Na großartig. Also Magie verschwenden. <br />Was hatte er sich überhaupt dabei Gedacht, das er auf diesen Annäherungsversuch einging? Wenn er nur zuneigung erhielt, weil er ein Häufchen Elend war von dem sich einige zur Aufgabe machten es sofort wieder aufzurichten wenn es in sich zusammensackte. <br />Er verabscheute sich, er hatte sich auf so eine Billige Art und Weise hereinlegen lassen. <br />Ihn Mögen, nein.. Das war nicht möglich. Und es wunderte Volandur auch nicht mehr, das der andere nicht einfach direkt seine Intention auf nachfrage nannte. <br />Dumm war er. <br />Als er in seiner Wohnung ankam, machte er sich daran die Tiere zu versorgen, und die Hausaufgabe die man ihm gab gewissenhaft zu erledigen. <br /><br />Müde war er. Und das altbekannte Pochen im Kopf, erhielt wieder Einzug in seinen Alltag. <br />Großartig. <br />Das hast du wirklich Großartig gemacht, Volandur. <br /><br />Der Leise Tadel verebbte als er über der Liste der Runwörter brütete und zunächst einige Zauber notierte die er damit betiteln wollte. <br />Eine willkommene Ablenkung.</div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p949376"></a>
+				<b class="postauthor" style="color: #string">Volandur&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Zwielicht...</div><div style="float: right;"><a href="./viewtopic.php?p=949376#p949376"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 30.07.19, 11:07&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.18, 18:28<br /><b>Beiträge:</b> 135				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center">Die Nacht im Morsanschrein war heilsam. <br /><br />Als Volandur riss die Augen auf, als er erwachte. Er war nicht in Panik, nicht von Albträumen geplagt. Schlichtweg die Erkenntnis in seinem Geiste, das er nicht er selbst gewesen war in den letzten Tagen, packte ihn im Nacken und Riss ihn hinauf und aus der gefühlten Apathie heraus. Er hatte wegen so einer Kindischen angelegenheit, seinen liebsten Verletzt, seine Freunde hilflos zusehen lassen wie er immer mehr zu einem Schatten wurde der Ängstlich zurückwich wenn das Licht auf ihn schien. <br />Er richtete die Kleidung ein wenig, die er wieder anzog und fand sich kurz darauf im leisen Gebet wieder. Dann durchsuchte er den Tempel, nicht wirklich gründlich zugegeben, denn der Iuribus hielt ihn erneut davon ab. Er hatte ihn zwar bereits mehrere Male gelesen, sodass er seine Rechte und Pflichten besser denn je kannte, doch ein weiteres mal schadete nicht. <br />Es war nur ein Buch, Papier das beschriftet wurde doch wenn man es für sich zu nutzen wusste konnte es durchaus Hilfreich sein. Mit den Gesetzmäßigkeiten dieser Stadt spezifisch war er ja nun einmal vertrauter. Volandur könnte natürlich nun losgehen, und Westhever und Dunquell in Flammen setzen, doch das Feuer würde nicht lange währen, nur mehr Hass schüren und zu guter letzt: <br /><br />Das war nicht mehr Volandur&#39;s Art und Weise Ruhe in eine Angelegenheit zu bringen. Sie wünschten den Konflikt, den würden sie gerne bekommen. Doch nicht so, wie man es von ihm versuchte herauszukitzeln. Und vorallem, würde er sich nicht weiter an den Boden pressen lassen. <br /><br />Es war an der Zeit, zu demonstrieren das nicht nur Dämonen Gegner waren mit denen man wohlmöglich lieber keinen Streit würde suchen sollen. <br /><br />Er war zufrieden, als er den Tempel verliess. <br />Wenn er seine Pflichten erledigt hatte, würde er die Sache mit Tendarion in Angriff nehmen. <br />So ungerne er das zugab, es war die kleinste Sorge derzeit.<br /><br />Zwei Kriege mit Orks, wegen des Zwangs sich waschen zu müssen und einem Rosa Kleid. Er schmunzelte.</div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p950145"></a>
+				<b class="postauthor" style="color: #string">Volandur&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Im Zwielicht...</div><div style="float: right;"><a href="./viewtopic.php?p=950145#p950145"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.12.19, 15:41&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.18, 18:28<br /><b>Beiträge:</b> 135				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Volandur hatte sich die Entscheidung alles andere als Leicht gemacht. Die Probleme um die Lindwürmer, sowie das nahende Dunkeltief waren nicht der beste Zeitpunkt die Magierakademie und auch die Bevölkerung der Insel alleine zurückzulassen. Doch bereits seit einigen Wochenläufen, beunruhigten die Briefe aus der Heimat zusehends. Was muss es für einen Gesundheitlichen Grund geben, aus dem heraus es auch einen Fey dahinraffen könnte? Das letzte mal als er seine Eltern zu Gesicht bekommen hatte, war so weit fort das er es sich nicht verzeihen könnte, zu spät zurückzukehren, würde er noch länger darauf warten. <br />Einige Dinge packte er zusammen. Volandur hing nicht an sehr vielen Dingen in seinem Besitz, den Rest würde er für die Fey zurücklassen. Wohlmöglich könnte er mit dem nächsten Schiff noch auf das Festland reisen. <br />Er würde sich lediglich noch von Tendarion verabschieden, nicht für immer. Doch es könnte Jahrzehnte dauern, bis sie sich wiedersehen könnten. Auf die Insel würde er  nicht so schnell wiederkehren. <br />Bis dahin würde Volandur seiner Familie durch die Schwere Zeit helfen, und seine Ausbildung auf dem Festland vollenden. Und dann nach Tendarion suchen, um wieder vor ihn treten zu können, wie der Fey der er ist, ohne durch alte Laster ausgebremst zu werden. <br /><br />Nurnoch ein letzter Blick über die Insel, ehe das ausgewählte Schiff ihn auf das Festland tragen würde. Und ein Gefühl von Schwermut überkam ihn. Dankbarkeit, für das was man ihm hier hatte schenken können. Eine Zeit, an die er wohl noch öfter zurückdenken würde.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=13688"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=108944&amp;start=30"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=108944"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>2</strong> von <strong>2</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 40 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"><b><a href="#" onclick="jumpto(); return false;" title="Klicken Sie, um auf Seite … zu gehen">Gehe zu Seite</a> <a href="./viewtopic.php?f=27&amp;t=108944&amp;st=0&amp;sk=t&amp;sd=a&amp;start=0">Vorherige</a>&nbsp;&nbsp;<a href="./viewtopic.php?f=27&amp;t=108944&amp;st=0&amp;sk=t&amp;sd=a">1</a><span class="page-sep">, </span><strong>2</strong></b></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=108944"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

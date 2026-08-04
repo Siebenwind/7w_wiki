@@ -1,5 +1,23 @@
 # Changelog
 
+#### [2026-08-04.05] - 41 Forumvolltexte archiviert und nächsten Historikerlauf vorbereitet
+### Prioritaet: P2
+### Hinzugefügt
+- 41 weitere Forumthemen wurden als lesbare Volltextquellen archiviert; 51 HTML-Rohseiten bewahren die quellentreuen Originalseiten mehrseitiger Threads.
+- `MSG-2026-0229` übergibt dem Historian das nächste Fünferpaket: `31020`, `48524`, `109905`, `107595` und `109867`.
+### Geändert
+- Der Forumstand liegt bei `201` Themen, `101` Volltexten, `59` fachlichen Abschlüssen, `42` offenen Sichtungen und `100` Metadatensätzen.
+- `MASTER_TASK_LIST.md` und der allgemeine Forum-/Backlogbericht nennen nun den nächsten zulässigen Metadatenkandidaten `108636`; `104857` bleibt wegen seiner Dublettenentscheidung übersprungen.
+- Vier Quellen des vorbereiteten Fünferpakets stehen auf `triage_ready`; `31020` bleibt als ältester offener Volltext an erster Stelle.
+### Validiert
+- Volltextarchivierung: `41` neue Themen, `0` Fehler.
+- Einzelinspektion: drei `historian_required`, ein `update_existing`, ein vorläufiges `create_article`; keine menschliche Eskalationspflicht.
+- `./7w_wiki.py audit --json`: `issues_found = 0`.
+- Vollständige Testsuite einschließlich `forum-ingest-contract`, `historian-review-contract`, `source-tree-contract`, `content-contract` und `render-hygiene`: PASS.
+- Pages-Vertrag: `624` unresolved / `622` unallowlisted / `611 needs_historian`, `drift_status = PASS`.
+- Statistik, Archivrotation und Werkzeugmanifest wurden für den Session-Handover aktualisiert.
+- Lektor für den aktualisierten Lagebericht und `git diff --check`: PASS.
+
 #### [2026-08-04.04] - Gesamtstatus zu Forum-Ingestion und Backlogs commitbereit dokumentiert
 ### Prioritaet: P2
 ### Hinzugefügt

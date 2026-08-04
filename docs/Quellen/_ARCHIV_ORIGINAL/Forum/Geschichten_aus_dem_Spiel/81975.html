@@ -1,0 +1,618 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Weg in den Wahnsinn</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=81975&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Weg in den Wahnsinn</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=81975"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 6 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=81975&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=81975&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=81975&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p713560"></a>
+				<b class="postauthor" style="color: #string">Zweiblum&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Weg in den Wahnsinn</div><div style="float: right;"><a href="./viewtopic.php?p=713560#p713560"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 2.05.10, 23:27&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 2.05.10, 23:11<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Die Nacht war schon etwas wundersames. Dunkelheit, die die Abwesenheit von Licht darstellt, umhüllte alles. Selbst kein Zustand, sondern das fehlen eines solchen.<br />Kälte, ebenso kein Zustand sondern nur das Fehlen von Wärme. Kälte die in jeden Knochen kriecht und heisse Schauder über Rücken und Arme tanzen lässt. Die Nacht symbolisiert die Abwesenheit, Verlassenheit und dennoch wirkt die Welt in ihr glücklich und zufrieden.<br /><br />Glück und Zufriedenheit waren zwei Zustände welche die junge Frau, welche im Wald an den kahlen Baum gelehnt saß, schon seid langem nicht mehr verspürte. Auch die ruhe der Nacht blieb ihr verwehrt, schon lange hatte sie Nacht´s kein Auge mehr schließen können. Zu grausam waren die Bilder welche sich vor ihren Augen abspielten. <br /><br />War dies der Preis den sie zu zahlen hatte für die Freiheit. Eine Freiheit die kaum noch etwas mit Leben zu tun hatte, sondern vielmehr mit einem vor sich hin vegetieren. Vegetieren, wie ein Tier ohne sinn einfach weiter und weiter gleich was da komme.<br /><br />“ So sieh dir doch ein Tier an, eine Katze oder einen Hund, was auch immer. Mn muss doch sehen das sie alle richtig sind. Das kein einziges Tier in Verlegenheit ist oder nicht weiß, was es tun soll oder wie es sich benehmen muss. Sie wollen keinem imponieren. Sie sind wie sie sind. Wie Steine oder Blumen, oder die Sterne am Himmel. Meistens sind Tiere traurig. Wenn eine Mensch sehr traurig ist, nicht weil er Zahnweh hat oder Geld verloren hat sondern weil er einmal für eine Sekunde spürt wie alles ist, das ganze Leben und er ist dann richtig traurig, dann sieht er einwenig einem Tier ähnlich. Er sieht dann traurig aus, aber richtiger und schöner als sonst&quot;<br /><br />Floh sie vielleicht wirklich vor dem Rest. Vor den Menschen. Diese extremen Momente zwischen abgrundtiefer Trauer und vollkommener Gleichgültigkeit al sei nie etwas geschehen zerrten an ihr. <br />Lief sie fort um sich finden zu lassen? Und wenn ja, von wem? <br />Von ihrem Herren, von jenem einen der ihr die Freiheit schenkte. Der sie befreite aus der Tyrannei ihres Vaters?<br /><br />Sie war allein, allein inmitten einer Masse von Menschen. Wie es dazu kam wusste sie nicht, sie wusste nur das sie darunter litt und daran zugrunde ging. Gleich an wen sie auch dachte, niemand vermochte ihr nähe zu geben. Niemand vermochte ihr einen halt zu bieten in jenen dunklen, tiefschwarzen Tagen.<br />Wie tief und fest konnte sich Einsamkeit eigentlich in eine Seele fressen? Hatte sie überhaupt noch eine Seele? War es ein schwarzer Klumpen der sich in ihrem inneren formte der sie von innen aufzufressen schien? War dies der Wahnsinn in den sie getrieben wurde?<br /><br />Sollte sie tatsächlich den Verstand verlieren?<br /><br />Ihr Kopf nickte nach vorne und scheinbar konnte sie der übermannenden Kraft der Müdigkeit nicht mehr standhalten. Doch nur kurz schien sich ihr Atem ruhig zu legen. Schon bald würden wieder die Träume einkehren zu ihr und ihre Nacht noch grausamer gestalten wie es der Tag in Einsamkeit ohnehin schon war…..</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8225"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8225"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p741622"></a>
+				<b class="postauthor" style="color: #string">Zweiblum&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Weg in den Wahnsinn</div><div style="float: right;"><a href="./viewtopic.php?p=741622#p741622"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 15.09.10, 23:45&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 2.05.10, 23:11<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Ruhig und Entspannt erschienen ihre Gesichtszüge während ihr Blick auf dem Lagerfeuer<br /> ruht. Das Knistern des Holzes, welches unter der Hitze des Feuers zerspringt, scheint durch<br /> die totenstille Nacht zu hallen und das flackern des Feuers erhellt die umliegende Lichtung im<br /> Wechsel. Allein sitzt die dunkelhaarige junge Frau an dem Feuer und scheint mit den<br /> Gedanken an einem fernen Ort zu sein. <br /><br />Plötzlich durchzieht ein schriller, ohrenbetäubender Schrei die stille Nacht. Ein gequälter<br /> Schrei der das zu ertragende Leid zu jedem Trägt der jenen vernimmt und einen jeden bis ins<br /> Mark erschüttert. Zugleich sprüht aus dem bislang ruhigen Feuer eine Feuersäule empor und<br /> erhellt die Lichtung innerhalb von Sekunden. Nur wenige Bruchteile von Sekunden verbleiben<br /> der jungen Frau ehe eine Menschlich wirkende Gestalt aus dem Feuer hervorkommt und sie<br /> mit einer Feurig lodernden Hand am Hals greift.<br /><br />Nur für einen kurzen Moment schossen der Frau die Gedanken an ihren im Brand verstorbenen<br /> Vater durch den Kopf, ehe sie mit dem Kopf zuerst in die Flammen gezerrt wurde. Schnell<br /> legt sich der Schmerz von Kopf aus über den Rest der Haut und der beißende Gestank steigt<br /> in ihre Nase. Es schien ihr als würde sie ewig durch das Feuer gezogen werden und als wollen<br /> die Schmerzen kein Ende nehmen</span>. <br /><br /><br />Plötzlich schreckte die Frau aus ihrem Traum auf. Der Schweiß lag auf ihrer Stirn und die<br /> Schmerzen pochten fürchterlich in ihrem Kopf. Unsicher Blickt sie sich um und erblickte mit<br /> gewisser Verwunderung die Vegetation um sich herum. Wie lange hatte sie geschlafen? Hatte<br /> sie überhaupt geschlafen? Waren es Tage, Wochen oder gar Monate die sie dort Lag?<br /><br />Etwas wankend drückt sich die Frau auf und hält sich mit schmerzverzerrtem Gesicht den<br /> Kopf. Angestrengt versucht sie sich an die Letzten Tage zu erinnern, doch schien ihr nichts<br /> außer die Erinnerung an ihren Vater und ihre Heimat verblieben zu sein. <br />Unsicher stützt sie sich an einem Baum ab und wendet sich der Dunkelheit der Nacht zu, jene<br /> Dunkelheit in der sie sich nach wie vor geborgen und aufgehoben fühlt…</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8225"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8225"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p746508"></a>
+				<b class="postauthor" style="color: #string">Zweiblum&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Weg in den Wahnsinn</div><div style="float: right;"><a href="./viewtopic.php?p=746508#p746508"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 11.10.10, 23:41&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 2.05.10, 23:11<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Die Knie geben ein knacken von sich als die Frau auf sie fällt. Die ohnehin dünne Haut reißt auf und der Stein auf den sie gefallen ist färbt sich im Regen langsam Rot vom Blut. Die nassen Haare hängen ihr ins Gesicht und die Arme sind wie die Hände von schnitten überzogen. Nicht mehr wie einen Haufen Elend bot die Frau dar wie sie auf dem Stein kniete.<br />Als sie die Hände mit einem schrei auf die Ohren presste färbten sich auch die Schwarzen Haare in ein dunkles Rot. Und doch gelang es ihr nicht die Stimmen zum Schweigen zu bringen….</span><br /><br /><br /><span style="color: #BF0000">In dir ist die Saat des Bösen,<br />die nun aufzugehen scheint.<br />Für dich steht die Zeit still,<br />das Blut das dich bedeckt,<br />es ist die Saat des Bösen.<br /><br />Hältst du die Augen verschlossen,<br />siehst du die Geister die du gerufen hast.<br />Im Blut getaucht sind alle deine Träume.<br /><br />Fühlst du es auch, das du es willst.<br /><br />Ich sehe die Angst in deinen Augen,<br />sich sehe das Blut an deinen Lippen.<br />Spürst du die Kraft in deinen Träumen,<br />spürst du den Schmerz in deinen Wunden.<br /><br />Spürst du die Macht, spürst du die Angst,<br />spürst du das Blut an deinem Mund.<br /><br />Blutrot ist die Liebe.<br />Es ist das Rot, das man vermisst.<br />Blutrot ist die Liebe,<br />die längst gestorben ist.</span><br /><br /><br /><span style="font-style: italic">Leblos sackt der Körper auf dem Stein zusammen und scheint im Strömenden regen zu verenden.</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8225"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8225"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p770202"></a>
+				<b class="postauthor" style="color: #string">Zweiblum&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Weg in den Wahnsinn</div><div style="float: right;"><a href="./viewtopic.php?p=770202#p770202"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 22.01.11, 01:29&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 2.05.10, 23:11<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Ihr war Kalt, eisig Kalt. Nur Frost, eisigen Frost verspürte die Frau wie sie auf den kalten Steinen lag. Jede Pore ihrer Haut schien vereist, Schmerzen die sich in ihre Seele zu fressen schienen.<br /><br />Und doch öffnete sie wieder die Augen. Wieder vermochte sie nicht zu erkennen ob sie nun Stunden, Tage oder gar Monde da lag. Ihre Kleidung war durchnässt, ihre Glieder steif. Jede Regung ihres Körpers schmerzte.<br /><br />Dem Tod, der Erlösung, schien sie so nah doch wollte der letzte Hauch von Leben ihren Körper nicht verlassen. War das seine Art ihr seine Nähe zu zeigen? Seine Existenz spüren zu lassen. Die Macht welche sein war und deren Teil sie werden wollte.<br /><br />Sie drückte sich mühevoll von dem kalten Stein auf. Schmerzvoll verzieht sie das Gesicht bei jeder Bewegung. Die durch ihr eigenes Blut verklebten Haare fallen ihr ins Gesicht und verdecken die von Blut unterlaufenen Augen. Was war es das sie noch am Leben hielt? Prüfte er sie, gleich zu beginn? <br />Oder versuchte etwas sie von ihrem Weg abzuhalten? <br />Mühvoll schleppte sie sich zu einer Pfütze um sich das Blut etwas aus dem Gesicht zu waschen. Einen erbärmlichen Anblick würde sie wohl abgeben, das war es nicht wohin sie wollte, jedoch obliegt die Wahl des Pfades auf dem man schreitet einem nicht immer selbst.</span><br /><br /><br /><span style="color: #BF0000"><div align="center">Und vor Erschöpfung schon ganz leer,<br />die Seele von zuviel Blut zu schwer,<br />trieb er sie ein ums andere mal,<br />es wurde Leid und Qual</div></span><br /><br /><span style="font-style: italic">Erschöpft rappelte sie sich dann auf. Nachdem sie das Blut etwas notdürftig abgewaschen hatte machte sie sich auf nach Falkensee. Was würde sie wohl erwarten? Wie viel Zeit war wohl vergangen?</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8225"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8225"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p908351"></a>
+				<b class="postauthor" style="color: #string">Zweiblum&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Weg in den Wahnsinn</div><div style="float: right;"><a href="./viewtopic.php?p=908351#p908351"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 26.03.15, 00:02&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 2.05.10, 23:11<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><span style="color: #800000">Schmerz</span></div><br /><br /><span style="color: #800000"><span style="font-style: italic"><div align="center">Der Mensch ist eigens dafür erschaffen um Schmerz zu empfinden. Nur fünf Sinne hat er um das Wohlbefinden wahrzunehmen, für den Schmerz dagegen ist er an jeder Stelle seines Körpers empfänglich.<br />Wo man ihn sticht, blutet er.<br />Wo man ihn verbrennt, bilden sich Blasen.<br />Die Lungen, die Leber, die Eingeweide vermögen ihm keinerlei Genuss zu verschaffen. <br />Doch entzündet sich die Lunge und lässt ihn Husten, die Leber schwillt an und lässt ihn an Fieber leiden, die Eingeweide verschlingen sich und verursachen schmerzvolle Geschwüre.<br />Ihr habt nicht einen Nerv, nicht einen Muskel, nicht eine Sehen unter der Haut, die euch nicht vor Schmerzen schreien lassen könnten.</div></span></span><br /><br />Langsamen und schlürfenden Schrittes wandert sie durch die durch Brandenstein. Bei jedem Schritt schmerzen ihre Knochen und Muskeln. Noch immer<br />hat sie keine vorstellung wie viele Sommerläufe wirklich vergangen sind und welchen Tribut ihr Herr von ihr fordern würde dafür das sie noch stets<br />auf der Irdischen wandelte. Es fühlt sich nicht richtig an das sie hier ist, es fühlt sich an als sei ihr Leben bereits gelebt und jegliches Recht darauf<br />vor langer Zeit verwirkt.<br /><br /><div align="center"><span style="color: #800000">Wenn all deine Lügen niederstürzen, sucht er dich auf in lodernder Gier.<br />Was dereinst war, wird nie wieder sein. Richten wird er dich im lodernden Schein des Feuers. <br />So will ich sehen wie der Meister vor dir steht und dich niederbrennt bis auf deine Verräterische Asche!!</span></div><br /><br />Nicht zuletzt die Angst ist es welche die zerbrechliche Frau peinigt. Die Angst davor ihrem Herren nicht gerecht zu werden und seinen<br />Zorn auf sich zu ziehen. Am Hafen Brandensteins angekommen sackt sie auf einigen Holzkisten zusammen und murmelt leise unkentliche<br />Worte vor sich hin. <br /><br />Wer auch immer am Hafen ankommen würde, wird wohl nur ein Häufchen Elend vorfinden, sofern die vor sich hinsiechende Frau überhaut <br />einem auffallen sollte...</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8225"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8225"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p950680"></a>
+				<b class="postauthor" style="color: #string">Zweiblum&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Weg in den Wahnsinn</div><div style="float: right;"><a href="./viewtopic.php?p=950680#p950680"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 2.02.21, 01:02&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 2.05.10, 23:11<br /><b>Beiträge:</b> 6				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Langsamen Schrittes geht die gebrechlich wirkende Frau auf den See voll Blut am Ritualplatz in der Höhle zu. Ob es Unsicherheit, Gleichgültigkeit oder Überzeugung ist welche sie jeden Schritt in Zeitlupe machen lässt wird sie wahrscheinlich selbst nicht wissen. Als sie den See erreicht hat tritt sie hinein und geht im Blut auf die Knie.<br /><br /><span style="color: #BF0040">“ Sterbender, der du nun die Bürde trägst, sieh das Blut derer, die sie einst trugen“</span><br /><br />Welche Bürde auch immer gemeint war, sie war bereit jede Bürde zu tragen wenn diese sie ihrem Herren näher bringen würde…<br /><br />Stumm kniet sich im Blut und tunkt die Hände in den Blutsee. Sie schöpft Blut aus dem See um sich mit den Blutverschmierten Händen durch das Gesicht du die Haare zu fahren.<br />Ihr Gesicht färbt sich rot und ihre Haare verkleben zu einer schmierigen nach Blut stinkenden Masse. Kurz verweilt sie im See ehe sie sich ebenso langsam wie zuvor erhebt und sich weiter Richtung Ritualplatz wendet <br /><br /> <br />Am Tisch angekommen geht sie in die Knie und zieht ihren Dolch aus dem Gürtel. Den Dolch legt sie auf ihre Brandnarbe welche seid ihrer Kindheit ihre Rechte Hand zeichnet<br /><br />Mit schwacher Stimme beginnt sie dann zu flüstern als wären jene Worte nur für sie bestimmt<br /><br /><span style="font-weight: bold"><span style="font-style: italic"><div align="center"><span style="color: #800040">Du Allmächtiger Herr, Unheilsbringer und wahrer Herr aller Götter Angamon<br />Sieh deine Dienerin die vor dir Kniet, Angamon Allmächtiger<br />Siehe sie kommt um die Welt zu verderben!</span></div></span></span><br /><br />Während sie spricht zieht sie langsam den Dolch langsam durch ihre Hand. Feste presst sie die Hand zur Faust und lässt das Blut auf den Opfertisch tropfen.<br /><br /><span style="font-style: italic"><span style="font-weight: bold"><div align="center"><span style="color: #800040">Siehe deine Dienerin, sie erkent den Zweck von Tod und Verderben!<br />Siehe sie fleht um deine Aufmerksamkeit und opfert dir ihr Blut!<br />Siehe deine Dienerin, sie will keine Hilfe, keine Antwort keine Führung<br />Angamon, Herr über alles, sie sehnt sich nur nach deiner Nähe!</span></div></span></span><br /><br /> <br />Erschöpft lehnt sie Ihren Kopf gegen den Steintisch und verharrt im stillen Gebet in der Ritualhöhle.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8225"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=8225"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=81975&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=81975"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 6 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=81975"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

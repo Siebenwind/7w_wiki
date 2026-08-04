@@ -1,0 +1,462 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Gedankengänge</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 19:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=108980&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Gedankengänge</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=108980"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 3 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=108980&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=108980&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=108980&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p947418"></a>
+				<b class="postauthor" style="color: #string">Erynnion Comari&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Gedankengänge</div><div style="float: right;"><a href="./viewtopic.php?p=947418#p947418"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 19.02.19, 22:41&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9206_1671194918.jpeg" width="100" height="129" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 16.09.15, 14:16<br /><b>Beiträge:</b> 281				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://i.imgur.com/YyKEkg1.jpg" alt="Bild" /></div><br /><br />In den letzten Zyklen eines verregneten Mondentags irgendwann im Onar des 30. Umlaufs nach der Thronbesteigung Hilgorads schritt ein Mann in grauer Robe die Stufen zum Lehrsaal hinauf. Wenig später hörte man ein lautes Knarren als eine Tür sich öffnete und wieder ins Schloss fiel. Der Mann strich sich über den frisch rasierten Bart während er durch den Raum blickte. Oh welch Hochgefühl war es gewesen, nach all den Monden der Reise und der damit verbundenen mangelhaften Körperhygiene das verfilzte Gestrüpp aus seinem Gesicht zu entfernen.<br />Ähnlich verwahrlost war der Raum in dem er sich nun befand. Der massive Schreibtisch, die Stühle, die Regale und nicht zuletzt die Teppiche waren mit einer dicken Staubschicht versehen. An manchen Stellen war ein Buch aus dem Regal gefallen, die Steinbüste mit dem Antlitz König Hilgorads lag am Boden und auch seine alchemistischen Apparaturen schienen massiv gelitten zu haben. Seiner Auffassung nach waren dies stumme Zeugen der offensichtlichen Turbulenzen welche die Akademie erfasst haben mögen. <br /><br />Es war Zeit Alfred zu rufen, er würde Ordnung in dieses Chaos bringen. So wie es der eifrige Leibdiener seit Umläufen für seine Familie tat. Der Mann schloss die Augen und wisperte einige Worte, einen Lidschlag später erschien der kleine grüne Leib im Zimmer und fragte womit er dem Meister dienen könne. Nach einem wortlosen Fingerzeig machte sich der Imp an die Arbeit.<br />Zufrieden nickend trat Erynnion aus seiner Kammer hinaus und begab sich in den oberen Säulengang der Akademie. Von hieraus blickte der Magus durch die großen Fenster auf die Insel hinab und stopfte sich seine Pfeife.<br /><br />Turbulenzen, was für ein passender Begriff für die Geschehnisse an der Akademie. Er war noch nicht mal einen vollen Tageslauf zurück und hatte bereits das Gezanke zweier Magister miterlebt. Der eine wohl berauscht von seinem weitreichenden Einfluss behandelte seine Kollegin, seine Freundin, derart herablassend das man meinen könnte sie wäre seine Leibeigene und im Gegenzug verhielt sie sich wie ein frühreifes galadonisches Kind dem man seinen letzten Kringel weggenommen hatte.<br />Er wusste welchen Eindruck es hinterlassen musste, das gerade er, - der Hitzkopf - welcher in der Vergangenheit meist nur belächelt wurde, zur Ordnung rief und an die Einigkeit appellierte angesichts derlei Kindereien.<br /><br />Einen Fingerschnippser und einem gesprungenen Funken später wart das Kraut entzündet und das Mundstück wurde genüsslich in Beschlag genommen. Durch einen tiefen Atemzug gelang der Rauch bis in das letzte Fleckchen seiner Lunge, ehe er langsam in die kalte Umgebung entlassen wurde. Das wohlige Gefühl der Wärme und die beruhigende Wirkung des Krauts setzen unmittelbar ein und hinterließen ein Lächeln auf den sonst so ausdruckslosen Zügen.<br /><br />Er hatte nicht gedacht einmal in der Position zu sein auch nur einen der beiden Streitenden zu mahnen. War er es doch bisweilen der unbedacht sprach, oft vorschnell handelte und nur weniges bis zum Ende durchdachte. Doch etwas schien sich geändert zu haben. Das war wohl der Hauptgrund weshalb er sich seinem langjährigen Freund bei einem Glas Whiskey anvertraut hatte und sich nach dessen Meinung erkundigte. Auch wenn er genau wusste das etwaige Personen dahinter neuerlich einen intriganten Plan vermuten würden. Doch welche Pläne? Welche Ziele? Welche Ambitionen hatte er noch?<br /><br />Er schreckte auf als er ein lautes Klirren hörte, offensichtlich war etwas zu Bruch gegangen. Der Mann seufzte nur kurz. Gleich würde Alfred durch die Tür kommen, die behagliche Ruhe beenden und ihm beichten das er die mitgebrachte endophalische Weinflasche hatte fallen lassen oder war sein Destillierkolben die Quelle dieses Geräuschs gewesen? Nein, es wird wohl die Flasche sein. Einen weiteren Rauchkringel ausstoßend betrachtete er das verschlafene Brandenstein, das nun im Schein von Rilmanors Mantel durch die schimmernden Wellen der See umspielt wurde.<br /><br />Vielleicht war es gerade das? Er hatte aufgegeben sich an die Insel zu binden. Er war hier her gekommen auf der Suche nach Quendan und um einen Lehrstuhl innerhalb der Akademie zu erlangen. Dies war ihm gelungen, das lehren bereitete ihm großes Vergnügen und anders als in anderen Lehranstalten herrschte, dank der Magnifizenz, trotz aller Widrigkeiten eine gewisse Einigkeit. Eine vereinte Front gegen die Feinde der Baronie ebenso wie gegen die anderen Säulen des galadonischen Großreichs. Außerdem machte er keinen Hel mehr daraus, nicht zu wissen wie lange es ihn hier hielt. All das war befreiend und brachte ihn dazu von der ewige Ränkeschmiederei abzusehen. Er würde lehren, lernen und jene dabei unterstützen die dafür Sorge trugen das, die verschiedenen Mitglieder des Magistrats sich nicht gegenseitig zerfleischten. Das war ein Anfang.<br /><br />Er lächelte zufrieden und kaute auf dem Mundstück herum, ehe die Tür des Lehrsaals aufschwang und eine kleine geflügelte Gestalt auf Erynnion zu hielt und sprach:<br /><br />„Meisters, euer Wein …“</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9206"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9206"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p947430"></a>
+				<b class="postauthor" style="color: #string">Erynnion Comari&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Gedankengänge</div><div style="float: right;"><a href="./viewtopic.php?p=947430#p947430"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 21.02.19, 18:55&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9206_1671194918.jpeg" width="100" height="129" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 16.09.15, 14:16<br /><b>Beiträge:</b> 281				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://i.imgur.com/yrCIKiR.jpg" alt="Bild" /></div><br /><br />An einem weiteren verregneten Mittentag, wie mag es auch anders sein auf diesem verfluchten Stück Felsen, konnte man ein kleines grünes Wesens beobachten welches durch die Akademie von Raum zu Raum flog, im Lehrsaal die Pulte, Stühle und sogar die gepolsterten Sessel der Magister vom Staub und Schmutz der Umläufe befreite. Im Schlafsaal der Novizen, das Bettzeug ordentlich zusammengelegte, den Innenhof vom letzten Schnee befreite, die Vorräte des Speisesaals auffüllte und vieles mehr vollbrachte.<br />Während Alfred fleißig seinem Tagewerk nachging saß der mittlerweile beinahe vollständig ergraute Mann in seine Robe gehüllt an einem Kamin im unteren Stockwerk der Bibliothek. <br /><br />Ja, dies war das akademische Leben das er sich erhofft hatte. Keine täglichen Konflikte, wöchentliche Schlachten gegen zahllose Dämonen, Wahnsinnige und all jene Dinge welche das Schicksal noch für Siebenwind bereit hielt. Stattdessen erfüllte ihn eine noch nie gekannte Ruhe und Zufriedenheit. Dennoch schien ihn die Insel nicht zur Gänze los lassen zu wollen. Der offensichtlichste Beweis dafür war jene endophalische Augenweide die am heutigen Umlauf die Lehranstalt heimsuchte.<br /><br />Erynnion blätterte durch den Folianten, starrte auf die Seiten und seufzte nach einer Weile. Just in diesem Moment schob sich die Tür im oberen Stockwerk mit einem Ächzen auf und einen Augenblick später flog der Imp mit einem Tablett in der Hand auf jenen Tisch zu an dem sein Herr saß. Das Wesen nahm die darauf befindliche Teekanne mit seinen kleinen zittrigen Händen und füllte eine Tasse mit dem dampfenden Inhalt. Hierbei war es wohl mehr dem Zufall als der Kontrolle des Dieners über seine Gliedmaßen zu verdanken, das kein einziger Tropfen auf dem Tisch oder gar auf der Garderobe des Magus landete. Jener quittierte das Werk der Kreatur mit einem Nicken und wandte seinen Blick wieder dem aufgeschlagenen Buch zu.<br /><br />All der Ruhe und des Friedens zum Trotz gelang es ihm nicht, sich auf den Text zu konzentrieren. Er gehörte dem falschen Pfad an um hinter jenem unverfänglichen Angebot der Wüstendame, ihre Geschichte zu studieren und zu diesem Zweck eine Delegation der Akademie zu entsenden, keine niedere Absicht zu vermuten. Ob es nun der Wunsch nach neuen, mächtigeren Sklaven war, oder das Ziel genug Würdenträger weg zu locken um mit dem Rest der Baronie leichtes Spiel zu haben war ihm Einerlei. Er selbst würde sich der Delegation nicht anschließen, sollte das Magistrat dennoch darauf bestehen jemanden zu entsenden mag dies jemand jüngeres sein der den Wunsch hege sich zu beweisen.<br /><br />Der Mann schlug das Buch zu, legte es auf den Tisch und griff nach einem kleinen Löffel um aus dem Honigglas, ein wenig der goldenen Maße zu entnehmen und in das dampfende Gefäß zu tröpfeln. Kurz darauf wurde die Tasse angehoben und zu den Lippen geführt. Der angenehme Geschmack von Ginseng mit der Nuance der süßlichen Wohltat breitete sich in seinem Mund aus. Entspannt schloss der Galadonier die Augen und atmet tief ein, um die Luft anschließend ganz langsam wieder entweichen zu lassen.<br /><br />Endophalier, ja er hatte wahrlich genug mit diesem eigenbrötlerischem, intriganten Volksschlag und ihren sogenannten „Geistern“ oder „Mächten“ zu tuen gehabt. War es während seiner Dienstzeit in Endophal als Prätor in der Ensis Caelestis oder in seinen Monden als Kanzler als sich jene dunkelhäutigen Menschen in Falkensee niederließen und uns doch am Ende alle verrieten. Außerdem, so nahm er an, gab es einen Grund, warum jene Frau mit ihrem Anliegen zu ihm kam und die Fragen seiner jungen Kollegin ignorierte. Im Sinne der verklärten Ansichten die sich unter dem endophalischen Matriarchat ausgebreiteten hatte, hoffte sie wohl auf einen dümmlichen minderwertigen Mann gestoßen zu sein der, der Intelligenz des überlegenen weiblichen Geschlechts nichts entgegen zu setzen hatte. Da würde sich wohl jemand die feingliedrigen Finger verbrennen.<br /><br />Der Gedanke war gerade erst Erynnions Verstand entsprungen als man ein lautes aufheulen vernahm und der Geruch von verbranntem Fleisch die Bibliothek erfüllte. Das darauf folgende laute Gefluche war wohl am gesamten Campus zu hören gewesen.<br /><br /><span style="font-weight: bold">„Verdammtes Feuers! Meisters! Es brennens! Es brennens …“</span></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9206"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9206"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p947464"></a>
+				<b class="postauthor" style="color: #string">Erynnion Comari&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Gedankengänge</div><div style="float: right;"><a href="./viewtopic.php?p=947464#p947464"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 26.02.19, 01:59&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9206_1671194918.jpeg" width="100" height="129" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 16.09.15, 14:16<br /><b>Beiträge:</b> 281				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><img src="https://i.imgur.com/M7wnLkp.jpg" alt="Bild" /></div><br /><br />Während der frühen Morgenzyklen des Wandeltags hörte man in den Ruinen Falkensees bereits von Weitem das regelmäßige Tocken eines Stabes auf den, einst prachtvollen, steinernen Straßen. Die Bewohner des Waldes, vornehmlich das Kleingetier, schienen angesichts des Geräuschs bereits lange das Weite gesucht zu haben bevor die Quelle, ein Mann in einer weiten grauen Robe das westliche Tor der einstigen Festungsstadt erreicht hatte. Dieser ließ seinen Blick auf die Verteidigungsanlagen der gefallenen Stadt schweifen, ehe er für einen Moment die Augen schloss und auf die Geräusche seiner Umgebung acht gab.<br /><br />Nichts, es herrschte eine angenehme friedliche Ruhe in seinem ehemaligen Zuhause. Falkensee… er verband so viele Erinnerungen mit diesem Ort. Gute, wie schlechte. Und die Stille, schon damals hatte er sich des öfteren ohne das Wissen der Stadtwächter auf einen der großen Ecktürme begeben. War es nun in der Gestalt des Grauen Raben oder durch die Translokation. Er genoss dieses Gefühl. Was wohl auch der Grund für seine Flucht aus der Akademie gewesen war. Selbst Zyklen nach dem Ende der Magistratssitzung spürte er immer noch die vorherrschend Anspannung. Sie war förmlich greifbar und war unerträglich geworden als der Erzmagier den Saal betreten hatte und die Sticheleien begannen. Selbst die vorsitzende Solos Nhergas schien dies gespürt und daher auf ein schnelles Ende der Sitzung hingearbeitet zu haben.<br /><br />Die Augen des Grauberobten ruhten nun mehr auf dem einst mächtigen, aus weißem Marmor bestehenden, Torhaus das so manchem Ansturm am Dunkeltief standgehalten hatte. Vom Prunk vergangener Tage war nichts mehr zu sehen. Der Marmor war nun schwarz gefärbt vom Ruß und zu großen Teilen überwuchert. Das Tocken erklang wieder als sich der Galadonier einen Weg am Torhaus vorbei und durch das Gestrüpp bahnte. Die Ruinen des Seiltänzers, das Handwerkshaus der Dwarschim, das zerstörte Theater … es wirkte als würde dies alles am Magier vorbei rauschen während so mancher Moment vor seinem inneren Auge erschien. Schließlich stand der Wanderer in dem, was einst der Innenhof des Ordenshauses gewesen war. Dort hielt jener inne.<br /><br />Freude und Wehmut überfielen ihn als er an diesen Ort zurückdachte. Hier war er Monde lang mit dem damaligen Diener Vitamas und später auch mit einem heutigen Großmeister gesessen. Sie hatten philosophische Diskussionen über alle möglichen Themen geführt. Hatten sich besprochen, bei einander Rat gesucht und eine innige Freundschaft gepflegt. Bis einer aus ihrer Mitte zum ersten Kanzler bestimmt wurde und der Kontakt mehr und mehr abbrach. Heute wusste er, das er viele falsche Entscheidungen getroffen und seinen Fokus nicht so sehr auf die Errichtung einer funktionierenden Baronie sondern auf seine Feinde hätte richten sollen. Und das er den ihm dargebotenen von Kirche und Freifrau hätte annehmen sollen. Doch jetzt war es zuspät. Viel zu spät jene Entscheidungen rückgängig zu machen. Er wusste, das viele auch ihm die Schuld am Fall der Stadt zutrugen.<br /><br />Erynnion setzte sich wieder in Bewegung. Seine Wanderung führte ihn weiter. Am Tempel und an Aldorns und Panschers Geschäften vorbei hin zum Nordtor und über die verbeulte Tür hinweg, hinauf zum Wehrgang. Prüfend tastete er mit dem Stab voran, den Weg zu seinem ehemaligen Rückzugsort ab. Nach einer Weile hatte er den Nordwestlichen Turm erreicht und warf einen Blick auf das atemberaubende Panorama das sich ihm bot. Im Lichte des aufgehenden Felascheins wurde das Dorf der Auenelfen, Dunquell, die Ruinen der alten und die Festungsmauern der neuen Ritterburg in ein rötliches Licht getaucht. Und als der Magus die Augen zusammenkniff konnte er sogar die Umrisse Brandensteins erkennen.<br /><br />Diese Zeiten waren nun vorbei, er hatte aus seinen Fehlern eine Lehre gezogen. Deshalb gab er Caieta auch jene Antwort als sie bereits kurz nach seiner Ankunft mit ihrem Anliegen an ihn herangetreten war. Er würde sich nach wie vor nicht in die Ränke der beiden Fraktionen des Magistrats hineinziehen lassen doch es gab fernab davon viel zu tuen. Ein Graues Konvent musste ausgerichtet, der nächste Unterricht geplant und die alten Texte über die Traditionen eines der ältesten Pfade der Magier im unendlichen Chaos seines Archivs gefunden werden.<br /><br />Nach einer Weile des stillen Beobachtens tockte der Stab des Magisters zwei Mal auf den Boden auf und die Gestalt verblasste um nichts als seine Fußspuren im Ruß zurück zu lassen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9206"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9206"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=108980&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=108980"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 3 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 7 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=108980"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>
