@@ -1,13 +1,15 @@
 ---
 title: "Siebenwind Wiki - Gesellschaft"
+category: Gesellschaft
 ---
 
-# [[Siebenwind]] Wiki - Gesellschaft
+# Siebenwind Wiki - Gesellschaft
 Das Archiv der Gesellschaft.
 
 ## Inhalte
 
 ### Artikel
+*   [[Akademie_zur_Linken|Akademie zur Linken]]
 *   [[Astrael_Missionslehre|Von der rechten Art der Mission und dem gesunden Maß]]
 *   [[Avaratio_Mischelgrimm_Alchemie|Theorie der Form und des Funkens (Opus i de alchimiae)]]
 *   [[Bartanatomie|Das Buch der Bartanatomie]]

@@ -1,0 +1,928 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de" xml:lang="de">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2000, 2002, 2005, 2007 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Siebenwind Foren &bull; Thema anzeigen - Ein Suizid</title>
+
+<link rel="stylesheet" href="./styles/siebenwind/theme/stylesheet.css" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Geben Sie die Nummer der Seite an, zu der Sie gehen möchten.:', '1');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+// ]]>
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+
+<div id="wrapheader">
+
+	<div id="logodesc">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td><a href="./index.php"><img src="./styles/siebenwind/imageset/site_logo.gif" width="300" height="100" alt="" title="" /></a></td>
+			<!-- <td width="100%" align="center"><h1>Siebenwind Foren</h1><span class="gen">Die Welt des Rollenspiels</span></td>  -->
+			<td width="100%" align="right">
+				<span class="gentopbutton">
+					<a href="http://www.siebenwind.de" target="_top"><img src="./styles/siebenwind/theme/images/button_hp.gif" width="135" height="32" alt="Siebenwindhomepage" /></a>&nbsp;&nbsp;
+					<a href="index.php"><img src="./styles/siebenwind/theme/images/button_siebenwind.gif" width="192" height="32" alt="Siebenwindforen" /></a>&nbsp;&nbsp;
+									</span>
+			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="genmed">
+				<a href="./ucp.php?mode=login"><img src="./styles/siebenwind/theme/images/icon_mini_login.gif" width="16" height="16" alt="*" /> Anmelden</a>&nbsp; &nbsp;<a href="./ucp.php?mode=register"><img src="./styles/siebenwind/theme/images/icon_mini_register.gif" width="16" height="16" alt="*" /> Registrieren</a>
+								</td>
+			<td class="genmed" align="right">
+				<a href="./faq.php"><img src="./styles/siebenwind/theme/images/icon_mini_faq.gif" width="16" height="16" alt="*" /> FAQ</a>
+				&nbsp; &nbsp;<a href="./search.php"><img src="./styles/siebenwind/theme/images/icon_mini_search.gif" width="16" height="16" alt="*" /> Suche</a>&nbsp; &nbsp;<a href="./memberlist.php?mode=leaders"><img src="./styles/siebenwind/theme/images/icon_mini_team.gif" width="16" height="16" alt="*" /> Forenteam</a>			</td>
+		</tr>
+		</table>
+	</div>
+
+	<div id="datebar">
+		<table width="100%" cellspacing="0">
+		<tr>
+			<td class="gensmall"></td>
+			<td class="gensmall" align="right">Aktuelle Zeit: 4.08.26, 16:10<br /></td>
+		</tr>
+		</table>
+	</div>
+
+</div>
+
+<div id="wrapcentre">
+
+		<p class="searchbar">
+		<span style="float: left;"><a href="./search.php?search_id=unanswered">Unbeantwortete Themen</a> | <a href="./search.php?search_id=active_topics">Aktive Themen</a></span>
+			</p>
+	
+	<br style="clear: both;" />
+
+	<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>
+	<br />
+<div id="pageheader">
+	<h2><a class="titles" href="./viewtopic.php?f=27&amp;t=105214&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a">Ein Suizid</a></h2>
+
+</div>
+
+<br clear="all" /><br />
+
+<div id="pagecontent">
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=105214"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 11 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat">
+			<table width="100%" cellspacing="0">
+			<tr>
+				<td class="nav" nowrap="nowrap">&nbsp;
+				<a href="./viewtopic.php?f=27&amp;t=105214&amp;start=0&amp;st=0&amp;sk=t&amp;sd=a&amp;view=print" title="Druckansicht">Druckansicht</a>				</td>
+				<td class="nav" align="right" nowrap="nowrap"><a href="./viewtopic.php?f=27&amp;t=105214&amp;view=previous">Vorheriges Thema</a> | <a href="./viewtopic.php?f=27&amp;t=105214&amp;view=next">Nächstes Thema</a>&nbsp;</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+	<table class="tablebg" width="100%" cellspacing="1">
+			<tr>
+			<th>Autor</th>
+			<th>Nachricht</th>
+		</tr>
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p926879"></a>
+				<b class="postauthor">Zedoaire&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Ein Suizid</div><div style="float: right;"><a href="./viewtopic.php?p=926879#p926879"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 3.07.16, 16:14&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Festlandbewohner</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1pink.gif" alt="Festlandbewohner" title="Festlandbewohner" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9260_1478208293.jpg" width="100" height="118" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 8.02.16, 03:02<br /><b>Beiträge:</b> 532<br /><b>Wohnort:</b> Bremen				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Sie atmet tief durch. <br />Legt einen Zettel vor sich. <br />Setzt sich dann wieder hin. <br />Eine Stimme in ihrem Kopf: <br />&quot;Du kannst doch dein Kind nicht töten!&quot;<br />Wieder atmet sie tief durch. &quot;Doch&quot;<br />Sie hatte sich jetzt schon eine weile den Kopf darüber zerbrochen. <br />Der Elf wird dieses Kind niemals bekommen. Und sie auch nicht. <br />Sie hatte jedes bisschen Selbstachtung an die Kirche verloren. <br />DAS wird sie sich nicht auch noch nehmen lassen. Lieber tut sie es selbst. <br />Sie wird es ohnehin nicht mehr richtig machen können. <br />Nichts, aber auch GARNICHTS, ist diesen Menschen gut genug. <br />Anfangs wollte sie sich wirklich ändern. Hat sich brav an die Regeln gehalten. <br />Getan was notwendig war, aber auch das reichte ihnen nicht aus. <br />Sie hat so ziemlich jeden verraten den sie kennt. <br />Sie hat ihren Gott verraten, sich versündigt. <br />&quot;Aber Collnaid..&quot; Wieder die Stimme die in ihrem Kopf aufploppt. NEIN!<br />Jedesmal wenn sie noch die möglichkeit hatte unterzutauchen, hatte er sie zurückgebracht. <br />Sie hat getan was er wollte, ist hiergeblieben, obwohl ihr völlig klar war das genau das, was geschehen ist, unausweichlich sein<br />würde. Sie hat ihm vertraut. <br />Wieder ein tiefes durchatmen, und der altbekannte Hass machte sich in ihr breit. <br />Fast schon genießerisch schließt sie ihre Augen. Es fühlt sich gut an. <br />Ja, inzwischen kann man sagen das sie auch ihn hasst. <br />Er versteht sie nicht,  wollte nicht verstehen. Zugehört hatte er den Niederträchtigen Schäfchen der Viere. <br />Sie greift den ersten Pilz, und schiebt ihn sich langsam, in einem Stück in den Mund. Schluckt den matsch runter. <br />Ein wenig schwindelig wird ihr, nach einiger Zeit beginnt es in ihrem Unterleib zu stechen. <br />&quot;STIRB! SCHEISS BLAG! ALLES HAST DU ZERSTÖRT!&quot; Da war sie wieder. Die gute Stimme, die ihr leise zuzischt wenn sie etwas richtig macht. <br />Wieder schliesst sie genießerisch die Augen, und lässt den Moment auf sich wirken. <br />Langsam sinkt sie in sich zusammen. Sie spürt die aufkommende Schwäche. Sie verliert Blut. Die Schmerzen in ihrem <br />Unterleib werden stärker, sie krümmt sich ein wenig zusammen, und der Atem wird ihr schwer. <br />Wieder Streckt sie die Hand aus, und greift einen der Pilze, den sie unendlich langsam aufnimmt, und wieder zerkaut. Nein. Lieber alle. Sie streckt erneut ihren Arm nach den Pilzen aus, und greift die handvoll. Langsam zerkaut sie jeden einzelnen. Sie zittert. Stark. Schweißausbrüche. Die letzten reste der Pilze, fallen aus ihrer Hand als sie keine Kraft mehr hat diese an ihren Mund zu halten. Der Arm sinkt ab. Hin und wieder zuckt sie Krampfartig. Der Atem wird flacher. <br />Langsam scheint auch der herzschlag schwächer zu werden. Jeder Atemzug, den sie noch fertigbringt, ist ein leises Hilfloses röcheln. <br />Ein letztes mal ploppt die Stimme in Saranas Kopf auf, ehe sie in einen endgültigen, erlösenden Schlaf fällt... <br /><br />&quot;Es tut mir leid. Ich hasse euch beide nicht.&quot;</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9260"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p926896"></a>
+				<b class="postauthor">Arin&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein Suizid</div><div style="float: right;"><a href="./viewtopic.php?p=926896#p926896"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 3.07.16, 22:26&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9248_1452871676.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 21.12.15, 14:43<br /><b>Beiträge:</b> 1522				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><span style="font-style: italic">Der tote Körper wurde in den Vitamaschrein gebracht, der besudelte Zettel ist auch nicht mehr vor Ort.</span></div>
+
+											<span class="postbody"><br />_________________<br />Inaktiv.</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9248"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9248"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p926901"></a>
+				<b class="postauthor">Diana Weidenbach&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein Suizid</div><div style="float: right;"><a href="./viewtopic.php?p=926901#p926901"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 4.07.16, 02:14&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Ehrenbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/3white.gif" alt="Ehrenbürger" title="Ehrenbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9273_1459725341.jpg" width="100" height="128" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 3.04.16, 03:13<br /><b>Beiträge:</b> 818				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Spät nachts erreichte ein Templer Diana in der Akademie. Etwas verwirrt ob der Hektik nahm sie das Schreiben entgegen, überflog es, schenkte dem Templer noch einen raschen Blick und schob es dann unter der Tür von Solos Nhergas hindurch ehe sie sich zum Tempel begab.<br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="font-style: italic">Astrael id Vaai,<br /><br />Sarana wurde heute tot aufgefunden. Haben sie im Vitamaschrein aufgebahrt, da wir nicht wissen, ob das Kind in ihrem Leibe noch lebt. Da seine Gnaden Silberglanz abwesend ist und mir mitteilte, daß er euch vertraut, wende ich mich in der Bitte, Euch dieser Sache anzunehmen, an Euch und den weißen Pfad. Ich möchte Hoffnung nicht aufgeben, welche Sarana uns zu Nichte machen wollte. Diesen Gewinn will ich ihr nicht zugestehen lassen.<br /><br />Janus</span></div><br /><br />Unterwegs traf sie noch kurz Edelmut, aber für mehr als einen kurzen Gruß wollte sie sich nicht die Zeit nehmen. Der am Eingang zum Schrein postierte Templer schien sie bereits zu kennen. Entweder das oder Janus hatte ihm gut beschrieben wen er noch erwarte. Ihre Stiefel schmiss sie achtlos ins Regal ehe sie den Schrein betrat und hinter sich die Vorhänge wieder zu zog.<br />Kurz sah sie zu den Betenden, dann atmete sie durch und nahm das sehr scharf geschliffene Messer mit der einen geschwärzten Schneide zur Hand. Ruhig stellte sie sich vor die Aufgebahrte und richtete sich selbst gen Osten aus. Ruhig vollführte sie mit dem ausgestreckten Messer in der Hand eine Drehung gegen den Uhrzeigersinn bis sie wieder im Osten ankam und sprach derweil:<br /><br /><span style="font-style: italic">&quot;Bei den immerhohen Bergen von Ma'ahn, Herrin des Ostens, Herrin der Erde, ich beschwöre Dich! Bitte beschütze diesen Kreis!&quot;<br />Bei den glühenden Sandwüsten Endophals, Herrin des Südens, Herrin des Feuers, ich beschwöre Dich! Bitte beschütze diesen Kreis!<br />Bei den peitschenden Wellen der sieben Meere, Herrin des Westens, Herrin des Wassers, ich beschwöre Dich! Bitte beschütze diesen Kreis!<br />Bei den sturmumtosten Eisflächen des Norlandes, Herrin des Nordens, Herrin der Lüfte, ich beschwöre Dich! Bitte beschütze diesen Kreis!<br />Herrinnen des Ostens, des Südens, des Westens und des Nordens, Herrinnen der Erde, des Feuers, des Wassers und der Luft,<br />Ich Diana Weidenbach rufe und beschwöre Euch! Bitte beschützt diesen Kreis!&quot;</span><br /><br />Anschließend kniete sie sich hin und legte das Messer neben der Aufgebahrten ab. Mochten streng Gläubige sich daran auch stören, ihr war es einerlei. Sollte jemand der Anwesenden versuchen es auf zu heben oder gar aus dem unsichtbaren Schutzkreis den sie um sich und die Aufgebahrte gezogen hat zu entfernen, so scheint es als würde das Messer mehrere hundert Stein wiegen.<br />Aus der Tasche nahm sie ein Tiegelchen mit Asche und zeichnete damit auf Bauch und Unterleib ein Dreieck auf die Aufgebahrte mit der Spitze in ihrem Schoss. Dann legte sie beide Hände in das Dreieck. Kurz tastete sie nach den Auren und nach Restessenzen des Giftes und wurde auch fündig. Das Gift selbst zu neutralisieren war nicht allzu schwer, derlei hatte sie schon oft getan. Doch das was jetzt kam war neu. Vor und zurück, das hatte sie oft genug geübt. Das hier jedoch nicht. Abermals atmete sie tief durch und hob erneut zu sprechen an:<br /><br /><span style="font-style: italic">&quot;Bei der Mutter, bei der Macht, bei dem Tag und bei der Nacht.<br />Das Rad der Zeit es stehe still, es rühre sich nur wie ich es will.<br />Keinen Schritt voran, keinen Schritt zurück, es verharre ganz in diesem Augenblick.<br />Kein Leid soll Dir hier mehr geschehen, solange die Winde der Magie noch wehen.<br />Bei der Macht von drei mal drei, bei den drei Monden, bei der Hexerei:<br />Rad der Zeit ich befehle Dir, halte ein, gehorche mir!<br />Alte Macht und Kraft in mir in meinem Werk vereint sich hier!&quot;</span><br /><br />So hob sie an und geleitet von Wille und Wort versetzte sie den Unterleib und das darin vorhandene und womöglich noch lebende Kind in einen Zustand vollkommener Stase. Unabhängig von äußeren und inneren Einflüssen stand die Zeit für das ungeborene Leben still. Ihr war bewusst, dass der Zauber nichts besser machen würde. Aber er würde der Kirche und auch ihr selbst Zeit erkaufen für den Augenblick. Zeit, die sie später am Tag, zusammen, vielleicht nutzen könnten. Ihr war mehr als bewusst was sie dort tat und auch wie es auf die Anwesenden wirken musste. Es war ihr egal. Sie hatte es ihm versprochen und hier und jetzt wollte sie genau dies. Es war keine Zeit für Versteckspiele, sondern für Taten. In einem toten Körper gefangen lagen die Chancen des Kindes bei Null, falls es denn überhaupt noch eine hatte. Auf Zeit zu spielen war im Augenblick die einzige Option, das einzige, was helfen konnte und Zeit war was sie den anderen geben konnte. Für alles weitere würden sie ein Wunder brauchen. Und vielleicht auch eine Hexe.<br />So sass sie im Schrein, stoisch, starr, selbst wie ein wenig in Trance wirkend. Ihre Augen waren geschlossen, lediglich wenn jemand oder etwas in den Kreis den sie gezogen hatte trat oder darauf einwirkte riss sie ruckartig die Augen auf.<br />Ab und an murmelte sie leise Worte, Worte wie &quot;<span style="font-style: italic">Ich bin für Dich da</span>&quot; oder auch &quot;<span style="font-style: italic">Ich lasse Dich nicht im Stich</span>&quot;, die sie wie ein Mantra vor sich hin murmelte, während sie einfach den Kreis und die Stase aufrecht erhielt. Zeit. Wenn sie noch Zeit hatten, dann würde sie diesen Zustand bewahren bis diese Zeit genutzt werden konnte. Koste es was es wolle.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9273"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p926902"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein Suizid</div><div style="float: right;"><a href="./viewtopic.php?p=926902#p926902"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 4.07.16, 06:03&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Er wusste, dass es bereits Nacht war und ihn verließ das Gefühl der nackten, kalten Angst, dass sich in seinen Nacken gefressen hatte, keinen Moment. Was auch immer geschehen war hielt an. Das erloschene Glühwürmchen wich keinen Moment von seiner Seite. Wie eine Fliege an einem heißen Tag im Astrael. Doch wirkte es nicht irritierend oder enervierend. Es war ein Bote der Herrin. Es hatte eine Funktion.<br /><br />Meditation half nicht. Das Ablenken durch Lesen oder Schreiben war nicht gegeben. Er dachte einen kurzen Moment daran sich selbst zu berühren, um wenigstens einen Teil der Unruhe loszuwerden. Aber dies hatte er noch nie getan und in seinen Augen war das gewiss nicht der rechte Zeitpunkt um mit Ablenkung durch Lust zu reagieren.<br /><br />Also tat er, was ihm immer half: Beten.<br /><br />Tendarion suchte sich - dicht geleitet von seinem fliegenden neuen Freund - einen angemessenen Platz in dem heiligen Hort der Herrin und er ließ sich nackt wie er sich hier nun seit gestern aufhielt im Schneidersitz ab.<br /><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><span style="font-style: italic">Er kannte dieses Gefühl in das er schon nach wenigen Momenten rutschte nur allzu gut. Eine berauschende Art der Meditation. Sein Geist entschwand, bezwang seine körperlichen Sinne und nur noch sein Geist - seine Seele? - fühlte. Liebe und Zuversicht durchströmte ihn. Lust und Leidenschaft erweckten in ihm das Begehren Tare und all seine Bewohner zu umarmen und zu versichern, dass sie geliebt werden. Er wollte einen jeden Erreichen, der seiner Liebe und seiner Fürsorge bedurfte. <br /><br />Und ein Gesang - ein tatsächlicher Gesang, den er sonst selten von sich hören ließ - erfüllte diesen zeitlosen Ort. Auriel war keine Sprache, sondern das ursprünglichste Lied, dass auf Tare zwar leiser geworden, aber nie verklungen war.<br /><br /> <div align="center"><span style="font-weight: bold">Herrin, dein Diener, dein Gefäß, dein Kind,<br />Hört und Spürt die Last die brauset den Wind.<br /><br />Nimm und nutze mich hier an diesem Ort,<br />Wische Kummer und Leid hinfort,<br />In jenen die nach deiner Güte greifen,<br />lass in ihnen deine Liebe reifen.<br />Jene die sich winden in Schmerzen,<br />zeig deinen Platz in ihren Herzen.<br />Küsse und lindere alle Wunden,<br />bis sie sich ihrer Pein entwunden.<br />Reich ihnen die Hand und führe sie aus dem Leid,<br />hinaus in das Licht, weg von der Dunkelheit.<br /><br />Nutze mich als dein Kelch, deine Schale,<br />fülle ihre Herzen wie das meine du fülltest so viele Male.<br /><br />Das reine Herz soll bestimmen,<br />Den Berg der Hoffnung erklimmen.<br />Wunden vergehen,<br />Leben bestehen.<br />Tod überwinden,<br />Liebe sie binden.<br /><br />Ich liebe die Liebe, wie du es mir lehrst.<br />Ich lebe die Liebe, auf dass du sie mehrst.<br /></span></div><br /><br />Und das erste Mal in seinem Leben, trotz seines ungeübten Gesangs, fühlte er diesen Rausch, diese tiefe Verbundenheit zu Vitama und seinem Volk. Magie und etwas mächtigeres, viel unbeschreiblicheres erfüllte seine ganze Existenz.<br /><br />Er wusste nicht worum er bat und was geschehen war. Er wusste nur dass jemand auf Tare war der seine Unterstützung benötigte. Und auch wenn Tendarion nicht bei diesem armen Kind der Viere sein konnte, streckte es seine Arme verzweifelt nach der Herrin aus. </span></div><br />Den Rest des Tages würde er in seinem berauschendem Gebet verbleiben. Der tragende Zwieklang seines Gesanges wird nicht vergehen, bis das Glühwürmchen ihm verdeutlichte, dass seine Aufgabe abgeschlossen war.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p926903"></a>
+				<b class="postauthor">KomischerTyp&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein Suizid</div><div style="float: right;"><a href="./viewtopic.php?p=926903#p926903"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 4.07.16, 08:46&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.11.12, 13:40<br /><b>Beiträge:</b> 201				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Noch bevor die Leiche weg gebracht wurde könnten aufmerksame Bürger der Stadt gesehen haben, wie zwei zwielichtige Gestalten neugierig durch die offene Tür in das Haus lugten. <br /><br /><span style="font-weight: bold">&quot;Hehe.. tote Frauen brauchen keine Besitztümer mehr.&quot;</span> spricht eine kichernde Gestalt und huscht flink in den Raum. <br /><br />Ihr Blick fällt auf den Zettel neben der Leiche.<span style="font-weight: bold"> &quot;Ach ein perfekter Ort um mich zu verewigen! Kunst entsteht doch immer da, wo man sie nicht sucht...&quot; </span> murmelt er leise nach dem er den Brief überflogen hatte. Mit einer filigranen Federführung kritzelt er schamlos etwas unter den Abschiedsbrief und legt diesen kichernd zurück in die toten Hände der Frau. <br /><br />Danach bemerkt er die Leinwand im Vorraum. <span style="font-weight: bold">&quot;Welch eine Szenerie... Ein Narr wäre ich den Moment nicht einzufangen in Farben!&quot;</span> und kaum gedacht wurde die Farbe bereits angerührt. Schnell zeichnet sich das Bild im Vorraum auf der Leinwand ab. Eine tote Frau zwischen Kissen, in ihrer Hand der Brief und daneben die angeknabberten Pilze. <span style="font-weight: bold">&quot;Ohh Sperling wäre sicher stolz auf mich... Ein echter Künstler bin ich geworden&quot;</span> kichert er beim Malen schelmisch und beendet mit dem letzten Pinselstrich sein Kunstwerk.<br /><br /><span style="font-weight: bold">&quot;So Kollege.. Wir sind fertig hier.. Haste noch was gutes gefunden zum mitnehmen?quot;</span> spricht er hastig zum Komplizen und beide stapfen mit einem dicken Grinsen im Gesicht aus dem Haus zurück in die Gassen der Stadt. Achtlos wird dabei die Leiche behandelt, mit einem guten Augen kann man vielleicht noch einen männlichen Fußabdruck auf ihrer Kleidung erkennen.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=8892"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p926905"></a>
+				<b class="postauthor">Arin&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein Suizid</div><div style="float: right;"><a href="./viewtopic.php?p=926905#p926905"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 4.07.16, 08:58&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9248_1452871676.png" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 21.12.15, 14:43<br /><b>Beiträge:</b> 1522				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Der Schrein war still, als er ihn mit bloßen Füßen und in ein einfaches, bequemes Gewand gehüllt, betrat. Das Wasser, mit dem er sich die Hände geradezu zwanghaft gründlich gereinigt hatte, tupfte dunkle Löcher in den Boden, während es hinab fiel, hinterließ noch eine leichte, feuchte Spur auf einem der Kissen, dass er sich griff. Er kniete sich zu dem Leichnam, den er um ihn halbwegs diskret durch Brandenstein tragen zu können in einen Teppich geschlagen hatte, löste diesen und warf ihn achtlos beiseite, stellte dann seine Tasche griffbereit ab.<br />Achtsam hob er das Haupt der Toten an, ohne ihr im Besonderen Beachtung zu schenken, bettete es auf dem Kissen und begann damit, den Leib ordentlich hin zu legen: die Beine zusammen,  die Hände, noch nicht völlig in Morsanstarre verkrampft, vorsichtig über dem Bauch gefaltet, die Arme an den Leib gedrückt. Auch die Gewänder ordnete er mit seiner üblichen, peniblen Genauigkeit. Schließlich zog er eine Bürste aus seiner Tasche, um ihr Haar sorgfältig zu kämmen; dabei hielt er routinemässig mit kritischem Blick Ausschau nach möglichen Auffälligkeiten. Vielleicht, da waren er und Janus sich eilig, war es gar kein Selbstmord gewesen, vielleicht ein Mordanschlag der Akademie zur Linken, um die Kirche zu diskreditieren, wer weiß? Alles musste in Betracht gezogen werden.<br />Kaum war das Haar präsentabel angeordnet, zog er eine Bandage heraus und fixierte mit dieser den Kiefer am Haupt, als wäre die Tote eine Patientin mit einem Zahnleiden; er wusste mittlerweile nur zu gut, dass sich im Laufe der Zeit während die Morsanstarre den Leichnam durchzog, der Kiefer sich so manches Mal weit öffnete - ein für mögliche Betrachter verstörender Anblick, der sich nur so verhindert werden konnte. Leider half auch das Schleifchen, mit dem er die Arbeit abschloss, nicht wirklich, das iritierende Bild zu verschönern. Er hoffte innig, dass er Collnaid lange genug von der Leiche würde fern halten können, dass ihm dieser widersinnige Anblick erspart bliebe. Nicht, dass es seinem Freund all zu viel nutzte: die Mutter seines ungeborenen Kindes war tot, hatte ihm mit brachialer Grausamkeit das Kind genommen, dessen Vater er werden sollte. Wie grausam das war, konnte der Fey nur bedingt nach empfinden, quälte ihn doch vor allem der Gedanke, dasss irgendwer befähigt war, eine werdende Mutter zu töten, ob Entleibung aus eigener Hand oder Mord war dabei recht gleich. Für Fey war das werdende Leben das größte Geschenk, eine schwangere Frau etwas, dass selbst der friedfertigste Fey mit Waffengewalt und seinem eigenen Blut verteidigen würde, müsste er. Ohne zu zögern.<br />Maichellis beendete die Arbeiten an der Toten, rollte den Teppich zusammen und warf ihn nach draussen, zur Seite weg; er würde ihn später entsorgen. Ganz sicher war er sich ob dessen, was heute Nacht und am nächsten Tag womöglich geschehen würde, doch wenn wirklich jener Segen existierte, von dem Janus gesprochen hatte, dann.. dann gab es die Spur einer Hoffnung.<br />Natürlich hätte er versuchen können, das Lied des Lebens zu finden, andererseits war es nicht an ihm, dort Hoffnung zu schenken oder zu nehmen: dies war Sache der Geweihten.<br />Der Fey kniete sich in der Bellum gefälligen HImmelsrichtung nieder, ein Knie aufrecht stehend, eines am Boden, der Fuß aufgestellt, den Rücken beließ er gerade, ergriff die Kette, die Rodrik ihm dereinst geschenkt hatte und die er seither stets bei sich trug, mit beiden  Händen. Viel mehr als seine Gebete würde er nicht beisteuern können, doch auch nicht weniger: er würde seinen menschlichen Gefährten beistehen, hoffend. Wie schön wäre es, Collnaid dabei zu sehen, wie er sein schreiendes, miefendes Kind auf den Armen trüge, wie Tendarion, wenn er zurück kehrte, nicht zerbrechen würde an Grausamkeit eines solch sinnlosen Schicksals!<br />Aber, noch viel wichtiger als das Glück seiner Freunde war ganz schlicht jenes ungeborene Leben im Schoß der gebrochenen Närrin: es hatte nichts getan, diesen Alptraum zu verdienen, es war unschuldig, und darum musste er ihm hier und jetzt Schild sein.<br />Und so betete er, leise, ohne auf das Tun der anderen Bittsteller zu achten, in leisem, rituellem Gesang seiner Muttersprache, inbrünstig und ergeben.<br /><span style="font-style: italic">Meine Kraft sei die seine, Herzschlag im Einklang, geteilter Odem, will ich geben mein Blut, meinen Willen!</span></div>
+
+											<span class="postbody"><br />_________________<br />Inaktiv.</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9248"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9248"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p926909"></a>
+				<b class="postauthor" style="color: #string">Collnaid&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein Suizid</div><div style="float: right;"><a href="./viewtopic.php?p=926909#p926909"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 4.07.16, 10:26&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Einsiedler</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/1white.gif" alt="Einsiedler" title="Einsiedler" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9237_1484829928.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 5.12.15, 12:04<br /><b>Beiträge:</b> 116				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Sachte ließ er die Bürste über das glänzende Fell des Packpferdes gleiten, ein ruhiges, zufriedenes Lächeln auf den Lippen.<br /><br />&quot;Mein Kind ist in Sicherheit,&quot; raunte er seiner vierbeinigen Gefährtin zu, und ein wohliger, kalter Schauer durchlief seinen Körper. &quot;Deid, mein Kind ist in Sicherheit.&quot;<br /><br />Er war mit sich im Reinen - keine Verlustgefühle mehr, keine Sorgen über die Zukunft, einfach nur die Akzeptanz der Worte, welche sie zuletzt zu ihm gesprochen hatte. Daß er vor Freude auf dem Tisch tanzen könne in der Gewißheit, daß sein Kind leben würde.<br /><br />Und er dankte dem Herrn der Ehre und der Gerechtigkeit, daß er jenes Kind als das Seine anerkannt hatte. Betete inbrünstig, daß er es, sobald es den ersten Atemzug auf Tares Rücken genommen hatte, von Seiner reinigenden Kraft und von Seinem Mut erfüllt sein würde. Daß Er das kleine Herz stärken und auf die harten Prüfungen vorbereiten möge, die vor dem jungen Leben liegen würden.<br /><br />&quot;Mein Kind ist in Sicherheit...&quot;</div>
+
+											<span class="postbody"><br />_________________<br /><div align="center"><span style="font-size: 85%; line-height: normal">I&#39;ll keep my sights on a waking dream<br />I gave my life to the vile beneath<br />I am but one of a dying breed<br />Hope drains this world, but it won&#39;t drain me</span></div></span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9237"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9237"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p926963"></a>
+				<b class="postauthor" style="color: #string">Gwydeon Lichtertanz&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein Suizid</div><div style="float: right;"><a href="./viewtopic.php?p=926963#p926963"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.07.16, 00:14&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9276_1533336005.jpg" width="100" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 11.04.16, 23:32<br /><b>Beiträge:</b> 294<br /><b>Wohnort:</b> Dreieich (Hessen)				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Es war bereits spät in der Nacht als er durch die offene Tür in das Haus eintrat. Es sah in dem Vorraum noch alles so aus, wie er es zuletzt gesehen hatte. Kurze Erinnerungen des Glücks blitzen vor seinem inneren Auge auf. Er wischte sich mit dem Handrücken eine Träne aus den geröteten Augen.<br /><br />Aus seiner Tasche kramte er eine kleine blaue Kerze die er mittig im Raum plazierte. Mit den Fingern zeichnete er über dem Docht eine stilisierte Flamme und sein Mund formte tonlos ein paar Worte. <br />Im Flackern des des Kerzenlichts legte er dann ohne weitere Worte eine weiße Rose hin.<br />Schneeweiß wie ihre Haare.<br /><br /><a href="https://imageshack.com/i/poLD1pyDp" onclick="window.open(this.href);return false;" class="postlink"><img src="http://imagizer.imageshack.us/v2/xq90/924/LD1pyD.png" alt="Bild" /></a><br /><br />Dann drehte er sich um, und verließ den Ort.<br />Eine <span style="font-style: italic">Träne des Leidens</span> fiel dabei auf die Schwelle der Tür.</div>
+
+											<span class="postbody"><br />_________________<br />Für alles zu haben, zu nix zu gebrauchen!</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9276"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9276"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p926964"></a>
+				<b class="postauthor">ishtar&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein Suizid</div><div style="float: right;"><a href="./viewtopic.php?p=926964#p926964"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.07.16, 02:53&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=92_1517438496.jpg" width="80" height="150" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 9.12.01, 02:57<br /><b>Beiträge:</b> 1137<br /><b>Wohnort:</b> Berlin				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody"><div align="center"><span style="font-style: italic">Zu später Stund tritt eine Person aus den Nächtlichen Schatten der Strassen durch die Tür.<br />Ihre Kleidung ist Komplett in Weiß wie  auch die Kapuze die ihr Gesicht in Schatten hüllt.<br /><img src="https://c2.staticflickr.com/8/7559/27813071050_819beb5103_o.png" alt="Bild" /><br /></span><br />Sie bleibt eine Weile stehen ehe sie eine Schwarze Blume  hinlegt und leise ein Gebet Spricht.<br /><img src="https://c2.staticflickr.com/8/7329/28015447491_053c16d6b5_o.png" alt="Bild" /><br /><span style="font-style: italic">Leise Spricht sie danach mit einer Stimme die von Trauer zeugt</span><br /><br /><span style="font-weight: bold">&quot;Warum nur? &quot;</span><br /><span style="font-style: italic">Und schüttelt den Kopf</span><br /><span style="font-weight: bold">&quot;Es hätte andere Möglichkeiten gegeben als diese!&quot;</span><br /><span style="font-style: italic"><br />Ehe sie seufzt und ein gleichmäßiges Kreuz in der Luft zieht und einen Schreiben ablegt.<br /><br />Danach wendet sie sich ab und verlässt das Haus wieder und verschwindet in den Schatten der  verschlafenen Strassen aus der Sie gekommen war.</span><br /><br /><br /><span style="font-style: italic">Wer den Zettel sich anschaut wird folgendes darauf in einer Sauberen und gleichmässigen Schrift darauf lesen.</span></div><br /><div class="quotetitle"><b>Zitat:</b></div><div class="quotecontent"><div align="center"><span style="font-size: 150%; line-height: normal"><span style="font-weight: bold">Seht die Wahrheit!</span></span><br /> <br />Da Sehet wozu die Diener der Vier fähig sind!<br /><br />Erst tuen sie lieb und brav und Sorgen sich um euer Wohl!<br /><br />Doch sobald ihr ihnen vertraut kommt ihr wahres Gesicht zum Vorschein!<br /><br />Sie bedrohen euch und drohen euch das weg zu nehmen was euch am wichtigsten ist!<br /><br />Sehet das was sie anrichten!<br /><br />Sehet was sie mit dieser Dienerin des Herren angerichtet haben!<br /><br />Erst haben sie ihr Schutz und Hilfe angeboten.<br /><br />Dann brachten Sie sie dazu all das zu verraten was sie kannte!<br /><br />Dann kamen die Drohungen und sie bereute ihre Taten gegenüber den ihrigen!<br /><br />Zu guter letzt zwangen sie sie in den Tod!<br /><br />Sehet das Wahre Gesicht der Vier und ihrer Dienerr!<br /><br />Der Herr wird Sie zu sich holen auch wenn sie ihn für den Augenblick verraten hatte.<br />Denn sie hat ihren Fehler eingesehen und bereut!<br /><br />Möge ihre Seele unter seinen Schwingen weilen und nicht in die verlogenen Hallen Morsans gehen!<br /><span style="font-size: 150%; line-height: normal"><br /> ANGAMON VOBISCUM</span><br /><br /><span style="font-style: italic">*Darunter prangt folgendes Zeichen*</span><br /><img src="https://c2.staticflickr.com/8/7321/27683385380_0aeef7b863_o.png" alt="Bild" /></div></div></div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=92"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row2">
+			<td align="center" valign="middle">
+				<a name="p926968"></a>
+				<b class="postauthor" style="color: #string">Tendarion&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein Suizid</div><div style="float: right;"><a href="./viewtopic.php?p=926968#p926968"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.07.16, 09:49&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row2">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Edelbürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/4white.gif" alt="Edelbürger" title="Edelbürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=9201_1506633805.png" width="100" height="135" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 29.08.15, 23:47<br /><b>Beiträge:</b> 1813				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Das Glühwürmchen setzte sich ein letztes Mal auf Tendarions Knie ab. Es blieb verloschen.<br /><br />Tendarion hatte das Gefühl etwas ihm sehr zugeneigtes verloren zu haben. Was auch immer geschehen war, es hatte kein gutes Ende genommen.<br /><br />So vebrachte der Elf den dritten Tag in seinem Exil in stiller Trauer. <br /><br />Das Glühwürmchen verließ den Ort und eine der kleinen Qwns flatterte zu Tendarion und schmiegte sich an seine Seite. Ein betrübtes Lächeln wurde dem Elfen entlockt, als er dieses zarte Wesen, eine seiner kleinen Schwestern, mit einer Fingerkuppe sanft streichelte.<br /><br />Etwas war gegangen. Aber noch lebte auf Tare soviel, für dass es sich zu kämpfen lohnte.</div>
+
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row2">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> <a href="./memberlist.php?mode=email&amp;u=9201"><img src="./styles/siebenwind/imageset/de_x_sie/icon_contact_email.gif" alt="E-Mail senden" title="E-Mail senden" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr class="row1">
+			<td align="center" valign="middle">
+				<a name="p926969"></a>
+				<b class="postauthor">eJor&nbsp;<img src="./styles/siebenwind/imageset/de_x_sie/icon_user_offline.gif" alt="Offline" title="Offline" /></b>
+			</td>
+			<td width="100%" height="25">
+				<table width="100%" cellspacing="0">
+				<tr>
+									<td class="gensmall" width="100%"><div style="float: left;">&nbsp;<b>Betreff des Beitrags:</b> Re: Ein Suizid</div><div style="float: right;"><a href="./viewtopic.php?p=926969#p926969"><img src="./styles/siebenwind/imageset/icon_post_target.gif" width="12" height="9" alt="Beitrag" title="Beitrag" /></a><b>Verfasst:</b> 5.07.16, 10:10&nbsp;</div></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		
+		<tr class="row1">
+			<td valign="top" class="profile">
+				<table cellspacing="4" align="center" width="150">
+							<tr>
+					<td class="postdetails">Bürger</td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./images/ranks/2white.gif" alt="Bürger" title="Bürger" /></td>
+				</tr>
+							<tr>
+					<td class="postdetails"><img src="./download/file.php?avatar=4689_1486335943.gif" width="61" height="147" alt="Benutzeravatar" /></td>
+				</tr>
+							</table>
+
+				<span class="postdetails">
+					<br /><b>Registriert:</b> 25.06.04, 19:21<br /><b>Beiträge:</b> 354				</span>
+
+			</td>
+			<td valign="top">
+				<table width="100%" cellspacing="5">
+				<tr>
+					<td>
+					
+						<div class="postbody">Ein Mann sitzt an einem ziemlich leeren Tisch. Er hält die Beine überschlagen. Vor ihm steht ein Teller, in dessen Mitte ein Stück Brot mit Pflaumenmus gestrichen ruht. Er nimmt das Brot in die Hand und isst einen großen Bissen. Daraufhin tritt eine zierliche Frau in einer weissen Robe in den düsteren Raum und legt eine Notiz auf den Tisch. Der Mann greift nach der Notiz und überfliegt die Zeilen. Es ist zu lesen: &quot;A hat sich umgebracht&quot;. Er legt die Notiz zurück und greift wieder das Brot mit Pflaumenmus. &quot;Noch ein Brot mit Pflaumenmus&quot;, spricht er der bereits wieder gehenden Frau hinterher. &quot;Gutes Pflaumenmus&quot;, denkt der Mann am Tisch und beisst wieder in das Brot. Die Notiz scheint keine weitere Beachtung zu finden.</div>
+
+											<span class="postbody"><br />_________________<br />&quot;If we don't believe in freedom of expression for people we despise, we don't believe in it at all&quot;, Noam Chomsky</span>
+					<br clear="all" /><br />
+						<table width="100%" cellspacing="0">
+						<tr valign="middle">
+							<td class="gensmall" align="right">
+														</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+
+		<tr class="row1">
+			<td class="profile"><strong><a href="#wrapheader">Nach oben</a></strong></td>
+			<td><div class="gensmall" style="float: left;">&nbsp;<a href="./memberlist.php?mode=viewprofile&amp;u=4689"><img src="./styles/siebenwind/imageset/de_x_sie/icon_user_profile.gif" alt="Profil" title="Profil" /></a> &nbsp;</div> <div class="gensmall" style="float: right;">&nbsp;</div></td>
+			</tr>
+	</table>
+
+	<table width="100%" cellspacing="1" class="tablebg">
+	<tr align="center">
+		<td class="cat"><form name="viewtopic" method="post" action="./viewtopic.php?f=27&amp;t=105214&amp;start=0"><span class="gensmall">Beiträge der letzten Zeit anzeigen:</span> <select name="st" id="st"><option value="0" selected="selected">Alle Beiträge</option><option value="1">1 Tag</option><option value="7">7 Tage</option><option value="14">2 Wochen</option><option value="30">1 Monat</option><option value="90">3 Monate</option><option value="180">6 Monate</option><option value="365">1 Jahr</option></select>&nbsp;<span class="gensmall">Sortiere nach</span> <select name="sk" id="sk"><option value="a">Autor</option><option value="t" selected="selected">Erstellungsdatum</option><option value="s">Betreff</option></select> <select name="sd" id="sd"><option value="a" selected="selected">Aufsteigend</option><option value="d">Absteigend</option></select>&nbsp;<input class="btnlite" type="submit" value="Los" name="sort" /></form></td>
+	</tr>
+	</table>
+
+	<table width="100%" cellspacing="1">
+	<tr>
+		<td align="left" valign="middle" nowrap="nowrap">
+		<a href="./posting.php?mode=post&amp;f=27"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_new.gif" alt="Ein neues Thema erstellen" title="Ein neues Thema erstellen" /></a>&nbsp;<a href="./posting.php?mode=reply&amp;f=27&amp;t=105214"><img src="./styles/siebenwind/imageset/de_x_sie/button_topic_reply.gif" alt="Auf das Thema antworten" title="Auf das Thema antworten" /></a>		</td>
+					<td class="nav" valign="middle" nowrap="nowrap">&nbsp;Seite <strong>1</strong> von <strong>1</strong><br /></td>
+			<td class="gensmall" nowrap="nowrap">&nbsp;[ 11 Beiträge ]&nbsp;</td>
+			<td class="gensmall" width="100%" align="right" nowrap="nowrap"></td>
+			</tr>
+	</table>
+
+</div>
+
+<div id="pagefooter"></div>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php">Foren-Übersicht</a> &#187; <a href="./viewforum.php?f=461">Siebenwind Rollenspielforen</a> &#187; <a href="./viewforum.php?f=27">Geschichten aus dem Spiel</a></p>
+			<p class="datetime">Alle Zeiten sind UTC + 1 Stunde [ Sommerzeit ]</p>
+		</td>
+	</tr>
+	</table>	<br clear="all" />
+
+	<table class="tablebg" width="100%" cellspacing="1">
+	<tr>
+		<td class="cat"><h4>Wer ist online?</h4></td>
+	</tr>
+	<tr>
+		<td class="row1"><p class="gensmall">Mitglieder in diesem Forum: 0 Mitglieder und 3 Gäste</p></td>
+	</tr>
+	</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="1">
+<tr>
+	<td width="40%" valign="top" nowrap="nowrap" align="left"></td>
+	<td align="right" valign="top" nowrap="nowrap"><span class="gensmall">Sie dürfen <strong>keine</strong> neuen Themen in diesem Forum erstellen.<br />Sie dürfen <strong>keine</strong> Antworten zu Themen in diesem Forum erstellen.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> ändern.<br />Sie dürfen Ihre Beiträge in diesem Forum <strong>nicht</strong> löschen.<br /></span></td>
+</tr>
+</table>
+
+<br clear="all" />
+
+<table width="100%" cellspacing="0">
+<tr>
+	<td><form method="post" name="search" action="./search.php?t=105214"><span class="gensmall">Suche nach:</span> <input class="post" type="text" name="keywords" size="20" /> <input class="btnlite" type="submit" value="Los" /></form></td>
+	<td align="right">	<form method="post" name="jumpbox" action="./viewforum.php" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Gehe zu:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Wählen Sie ein Forum aus</option>
+		<option value="-1">------------------</option>			<option value="843">Siebenwind hilft und informiert</option>
+					<option value="1112">&nbsp; &nbsp;Newsticker</option>
+					<option value="6">&nbsp; &nbsp;Bekanntmachungen</option>
+					<option value="5">&nbsp; &nbsp;Hilfestellung für neue Spieler</option>
+					<option value="32">&nbsp; &nbsp;Technische Fragen oder Probleme</option>
+					<option value="26">&nbsp; &nbsp;Fehlermeldungen</option>
+					<option value="461">Siebenwind Rollenspielforen</option>
+					<option value="27" selected="selected">&nbsp; &nbsp;Geschichten aus dem Spiel</option>
+					<option value="982">&nbsp; &nbsp;Fiktive Geschichte</option>
+					<option value="85">&nbsp; &nbsp;Aushänge und Botschaften</option>
+					<option value="939">&nbsp; &nbsp;Suche/Biete Gegenstände/Handwerkerfähigkeiten</option>
+					<option value="248">&nbsp; &nbsp;IG-Bilder</option>
+					<option value="847">&nbsp; &nbsp;Events, Quests und Hintergründe</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Los" /></td>
+	</tr>
+	</table>
+
+	</form>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+	<br/><span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group
+	<br />Deutsche Übersetzung durch <a href="http://www.phpbb.de/">phpBB.de</a></span>
+</div>
+
+</body>
+</html>

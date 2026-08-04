@@ -24,3 +24,24 @@ Zu klären ist:
 3. Welche Ereignisse sind durch Boten-, Homepage- oder weitere Quellen bestätigbar?
 4. Welche bestehenden Seiten erhalten Ergänzungen, ohne neue Personen- oder Ereignisdubletten zu erzeugen?
 
+## Historikerbefund vom 30.07.2026
+
+### Quellenabgleich
+
+- Die Korrespondenz richtet sich zunächst an „Tendarion Silberglanz“, enthält zwei von „Tendarion“ gezeichnete Antworten und verwendet im letzten Brief die Anrede „Celetheyon“.
+- Der höherwertige **Siebenwind Bote 191** nennt die Person vollständig **Calator Tendarion Celedelair Celetheyon**. Der **Bote 188** belegt Celedelair bereits als Astraelgeweihten.
+- Die Namenskette verbindet den Empfänger mit hoher Wahrscheinlichkeit mit der bestehenden Seite `Celedelair.md`. Die genaue Bedeutung des Namens „Silberglanz“ und der Übergang vom Vitama- zum Astraelkontext bleiben ungeklärt.
+- Für die medizinischen, magischen und politischen Einzelberichte ergab der Abgleich keine höherwertige Bestätigung innerhalb dieses Falls.
+
+### Entscheidung
+
+1. **Identität:** Tendarion Silberglanz und Celedelair werden mit hoher Wahrscheinlichkeit als dieselbe Person behandelt; die verbleibende Unsicherheit wird ausdrücklich dokumentiert.
+2. **Perspektivgrenze:** Aussagen über Saranas Tod, zeitmagische Stase, schwarze Samen, Heiltränke, Fluchriten, Feeneier, Prozess- und Kriegsgeschehen bleiben Figurenberichte.
+3. **Zielseiten:** `Celedelair.md` erhält die vorsichtige Namens- und Lebensphasenzuordnung. Der gesamte Briefkomplex erhält wegen seines Umfangs und seiner eigenen literarischen Form einen eigenständigen Perspektivartikel.
+4. **Keine Sachartikel-Diffusion:** Medizinische und magische Behauptungen werden nicht in allgemeine Heil-, Magie- oder Chronikartikel übernommen.
+
+### Ergebnis
+
+- `docs/Siebenwind_Wiki/07_Persoenlichkeiten/Celedelair.md` quellengewichtet ergänzt.
+- `docs/Siebenwind_Wiki/06_Erzählungen/Briefe_an_einen_Vitamageweihten.md` als substanzieller Perspektivartikel angelegt.
+- Keine menschliche Eskalation erforderlich.

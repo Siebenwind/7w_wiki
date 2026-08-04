@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T16:27:02Z",
+  "generated_at": "2026-08-04T14:56:12Z",
   "records": [
     {
       "content_hash": "ec88e7591016db77",
@@ -954,18 +954,18 @@
       "size_bytes": 151
     },
     {
-      "content_hash": "f367a97e34c47c81",
-      "content_uuid": "",
+      "content_hash": "e7123befc4327c65",
+      "content_uuid": "8b8d4f6a-85a3-4d8a-9c65-1f5a2f0b47a1",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Ewigwacht.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-02T15:32:17Z",
       "rag_source": "wiki",
       "record_uuid": "bbecd5ec-15b7-5b35-ac2d-2b62123823ff",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Ewigwacht.md",
-      "size_bytes": 155
+      "size_bytes": 3432
     },
     {
       "content_hash": "4fe5cbc39ea60e3f",
@@ -2424,18 +2424,18 @@
       "size_bytes": 320
     },
     {
-      "content_hash": "fbdf95433a0e584c",
+      "content_hash": "bb8025c78af63668",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Organisationsregister.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-09T16:11:49Z",
+      "modified_at": "2026-08-02T17:44:15Z",
       "rag_source": "wiki",
       "record_uuid": "35cfc506-2f8e-55ae-97ef-86d8b818f759",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
-      "size_bytes": 4561
+      "size_bytes": 4687
     },
     {
       "content_hash": "e6d4b5a294ddbe32",
@@ -2494,18 +2494,18 @@
       "size_bytes": 308
     },
     {
-      "content_hash": "ac6dff6b735e325f",
+      "content_hash": "7db0df0d81b89491",
       "content_uuid": "d173e080-a2dd-42ec-b616-f7f614fa9368",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Personenregister.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-07-21T16:18:48Z",
+      "modified_at": "2026-08-02T17:34:21Z",
       "rag_source": "wiki",
       "record_uuid": "e7bdaa42-b817-5376-86e9-30f2fc1beed2",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
-      "size_bytes": 52490
+      "size_bytes": 52729
     },
     {
       "content_hash": "247ed94927b0340e",
@@ -3348,18 +3348,18 @@
       "size_bytes": 165
     },
     {
-      "content_hash": "2febe94a0a284aea",
-      "content_uuid": "",
+      "content_hash": "d0a5c5ffcf8051b0",
+      "content_uuid": "16f7fafb-ebe2-4c09-8352-fa5f860c7ecd",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Tra_avain.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-07-30T17:24:10Z",
       "rag_source": "wiki",
       "record_uuid": "2124b52b-28e1-53b1-8ad9-d1fa1237b273",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Tra_avain.md",
-      "size_bytes": 155
+      "size_bytes": 2426
     },
     {
       "content_hash": "cd4b7239f4b4bb20",
@@ -4048,18 +4048,18 @@
       "size_bytes": 2221
     },
     {
-      "content_hash": "06193e02f5a83199",
+      "content_hash": "6c9cca0fea5500cc",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Angamon.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T15:40:38Z",
+      "modified_at": "2026-08-02T17:31:54Z",
       "rag_source": "wiki",
       "record_uuid": "27f40032-420b-515b-b6a9-d0521e4e8fa1",
       "relative_path": "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md",
-      "size_bytes": 3344
+      "size_bytes": 3438
     },
     {
       "content_hash": "8bb38e7d45f83025",
@@ -4748,18 +4748,18 @@
       "size_bytes": 575
     },
     {
-      "content_hash": "6790bd48de797416",
-      "content_uuid": "",
+      "content_hash": "9522f2da9451085a",
+      "content_uuid": "b6ea7945-151d-41ba-bd5b-573793eeb368",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Brandenstein.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-17T15:42:46Z",
+      "modified_at": "2026-08-02T17:31:54Z",
       "rag_source": "wiki",
       "record_uuid": "4e576f0c-6f00-5f09-b49e-7ae385449da8",
       "relative_path": "docs/Siebenwind_Wiki/02_Geografie/Brandenstein.md",
-      "size_bytes": 2740
+      "size_bytes": 4765
     },
     {
       "content_hash": "7515dc1be97c4ebb",
@@ -4860,18 +4860,18 @@
       "size_bytes": 2426
     },
     {
-      "content_hash": "308a8510510fecbd",
-      "content_uuid": "",
+      "content_hash": "bc42e4a29fd04c97",
+      "content_uuid": "d12c3a4e-67f9-4b25-ae8c-7d3910f654b2",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Falkenwall.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-02T17:31:53Z",
       "rag_source": "wiki",
       "record_uuid": "2f3a056b-2baf-520b-90f5-b80de7d44a2d",
       "relative_path": "docs/Siebenwind_Wiki/02_Geografie/Falkenwall.md",
-      "size_bytes": 1215
+      "size_bytes": 4468
     },
     {
       "content_hash": "8ea5165ca9014766",
@@ -5532,6 +5532,20 @@
       "size_bytes": 1275
     },
     {
+      "content_hash": "a1b5070a45bf2a10",
+      "content_uuid": "37890c36-70de-4649-b19b-34362421d34e",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Akademie_zur_Linken.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-02T17:31:53Z",
+      "rag_source": "wiki",
+      "record_uuid": "b54c2fd7-1806-5baf-bb26-78acc8482314",
+      "relative_path": "docs/Siebenwind_Wiki/03_Gesellschaft/Akademie_zur_Linken.md",
+      "size_bytes": 3679
+    },
+    {
       "content_hash": "dde8db7392b7effd",
       "content_uuid": "",
       "corpus": "wiki",
@@ -5616,18 +5630,18 @@
       "size_bytes": 1081
     },
     {
-      "content_hash": "125b7570d815e380",
-      "content_uuid": "",
+      "content_hash": "814ce9c88c06f2fc",
+      "content_uuid": "a543ef6c-2eb5-4612-99b2-923b862d9332",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Bruderschaft_der_Tardukai.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-02T17:31:54Z",
       "rag_source": "wiki",
       "record_uuid": "5cd97cbe-713f-5c64-a32a-30b03c444794",
       "relative_path": "docs/Siebenwind_Wiki/03_Gesellschaft/Bruderschaft_der_Tardukai.md",
-      "size_bytes": 1988
+      "size_bytes": 7653
     },
     {
       "content_hash": "96c2fe3d8fb5e4dd",
@@ -6274,18 +6288,18 @@
       "size_bytes": 3239
     },
     {
-      "content_hash": "6759d7336d162575",
+      "content_hash": "8abbf46582044958",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T16:23:15Z",
+      "modified_at": "2026-08-02T17:45:48Z",
       "rag_source": "wiki",
       "record_uuid": "2480043a-3301-5efa-9b41-60c2e61c1296",
       "relative_path": "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",
-      "size_bytes": 2580
+      "size_bytes": 2647
     },
     {
       "content_hash": "299e46dc9e824b9d",
@@ -8332,6 +8346,20 @@
       "size_bytes": 924
     },
     {
+      "content_hash": "fdbc46498edda590",
+      "content_uuid": "ff370a8c-0cda-4481-8623-7d6ee1a98e3b",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Aschespuren_in_Luth_Chalid_und_Brandenstein.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-02T17:31:53Z",
+      "rag_source": "wiki",
+      "record_uuid": "8ffa4ada-27dc-5b9e-9148-515c5ef899de",
+      "relative_path": "docs/Siebenwind_Wiki/05_Geschichte/Aschespuren_in_Luth_Chalid_und_Brandenstein.md",
+      "size_bytes": 2825
+    },
+    {
       "content_hash": "8ee9a535e7042ea5",
       "content_uuid": "",
       "corpus": "wiki",
@@ -9144,6 +9172,20 @@
       "size_bytes": 635
     },
     {
+      "content_hash": "00b6748b34897246",
+      "content_uuid": "d1616881-5b33-4cb3-92d7-43ec8897577e",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Vor_dem_Westtor_in_Luth_Chalid.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-07-27T17:57:32Z",
+      "rag_source": "wiki",
+      "record_uuid": "3092e617-1a4f-5eaa-bd85-db22ca0c8e44",
+      "relative_path": "docs/Siebenwind_Wiki/05_Geschichte/Vor_dem_Westtor_in_Luth_Chalid.md",
+      "size_bytes": 1785
+    },
+    {
       "content_hash": "896efd85e78536f7",
       "content_uuid": "",
       "corpus": "wiki",
@@ -9186,18 +9228,18 @@
       "size_bytes": 610
     },
     {
-      "content_hash": "3409a0549987ac14",
+      "content_hash": "0ac467653debf5bd",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T16:25:42Z",
+      "modified_at": "2026-08-02T17:45:48Z",
       "rag_source": "wiki",
       "record_uuid": "0feab4a1-4844-5489-a720-57e9ab86eb2e",
       "relative_path": "docs/Siebenwind_Wiki/05_Geschichte/index.md",
-      "size_bytes": 3616
+      "size_bytes": 3729
     },
     {
       "content_hash": "bfe4c386b1af23ae",
@@ -9802,6 +9844,34 @@
       "size_bytes": 1998
     },
     {
+      "content_hash": "9d9d3416109b170a",
+      "content_uuid": "17697c72-d70a-4e10-a644-c21be1dc99fb",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Balians_Gesellschaftsentwurf.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-04T14:18:30Z",
+      "rag_source": "wiki",
+      "record_uuid": "234b35c3-bbda-5704-9f70-bd33bbf0e3db",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Balians_Gesellschaftsentwurf.md",
+      "size_bytes": 2045
+    },
+    {
+      "content_hash": "907237fff60e1016",
+      "content_uuid": "b8ba4405-1a0a-4d05-acc1-79062086d181",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Briefe_an_einen_Vitamageweihten.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-04T14:18:30Z",
+      "rag_source": "wiki",
+      "record_uuid": "0b105806-11c0-54ce-b1cc-22475bf219a2",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Briefe_an_einen_Vitamageweihten.md",
+      "size_bytes": 4031
+    },
+    {
       "content_hash": "b857bb6e69b46a3c",
       "content_uuid": "be5d5386-1396-482c-a665-3e3e86247973",
       "corpus": "wiki",
@@ -9844,6 +9914,20 @@
       "size_bytes": 1741
     },
     {
+      "content_hash": "ce6e712f65b5e009",
+      "content_uuid": "b4a3c984-4eaf-4a8e-a02d-43089b4f027a",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Die_Nacht_im_Hospiz_von_Brandenstein.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-04T14:19:27Z",
+      "rag_source": "wiki",
+      "record_uuid": "4e766bcc-0a05-56ae-921d-afa618293fd8",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Die_Nacht_im_Hospiz_von_Brandenstein.md",
+      "size_bytes": 2293
+    },
+    {
       "content_hash": "0ff6b13452a73024",
       "content_uuid": "n4m1kl3r1s-2026",
       "corpus": "wiki",
@@ -9856,6 +9940,20 @@
       "record_uuid": "76715240-d986-5c1a-ba7b-7cdd51013e17",
       "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Die_Namikleris.md",
       "size_bytes": 10777
+    },
+    {
+      "content_hash": "af2b39bc4104a473",
+      "content_uuid": "96f0d82b-71ca-4be4-8f35-2d64a9c7e103",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Die_Saeulen_des_Valkun.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-02T15:38:48Z",
+      "rag_source": "wiki",
+      "record_uuid": "b7e78e9d-37ae-58b7-bb90-3ded8cffc5c0",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Die_Saeulen_des_Valkun.md",
+      "size_bytes": 4128
     },
     {
       "content_hash": "3958cfed23dcb5fb",
@@ -9884,6 +9982,20 @@
       "record_uuid": "7ee746c7-195d-5488-aeb9-80279c8beaa4",
       "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Ein_Fuchs_streift_durch_die_Waelder.md",
       "size_bytes": 2069
+    },
+    {
+      "content_hash": "59c57fdc9837b0dd",
+      "content_uuid": "caffea0d-e944-4d59-bfdb-adeb7d70d205",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Ein_Raedchen_im_Uhrwerk.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-07-27T17:57:32Z",
+      "rag_source": "wiki",
+      "record_uuid": "df9d320f-4eb0-5341-8b9f-78e1646d5bd4",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Ein_Raedchen_im_Uhrwerk.md",
+      "size_bytes": 2017
     },
     {
       "content_hash": "ef8dd2f02c89dc0f",
@@ -9956,6 +10068,20 @@
       "size_bytes": 1398
     },
     {
+      "content_hash": "a213fbf1136e3be6",
+      "content_uuid": "9d0fbf61-01d5-4f14-9db3-2fd2c2d01342",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Im_starken_Schutz_des_Hoechsten.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-04T14:27:25Z",
+      "rag_source": "wiki",
+      "record_uuid": "cb87dae3-7a94-5bdc-8f31-155658a8a453",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Im_starken_Schutz_des_Hoechsten.md",
+      "size_bytes": 2230
+    },
+    {
       "content_hash": "925353cec96239c8",
       "content_uuid": "",
       "corpus": "wiki",
@@ -9982,6 +10108,20 @@
       "record_uuid": "fd582d18-8871-5b3a-9d23-3ad6dd6d7e0b",
       "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Myten_in_Falkensee.md",
       "size_bytes": 1698
+    },
+    {
+      "content_hash": "0af551188871368a",
+      "content_uuid": "c924906f-b9d6-4ad0-b01c-6200bd952689",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Saranas_Tod.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-04T14:18:30Z",
+      "rag_source": "wiki",
+      "record_uuid": "a75b05c0-2171-54f4-b432-3629fb0fcedf",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Saranas_Tod.md",
+      "size_bytes": 2795
     },
     {
       "content_hash": "257b96ff01f35111",
@@ -10054,18 +10194,18 @@
       "size_bytes": 1412
     },
     {
-      "content_hash": "9db440c1c2f269ea",
+      "content_hash": "7cb5699b052ced62",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-07-21T16:18:48Z",
+      "modified_at": "2026-08-04T14:19:27Z",
       "rag_source": "wiki",
       "record_uuid": "0b0e3065-8f7a-5c24-829c-2f762e24cebe",
       "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/index.md",
-      "size_bytes": 849
+      "size_bytes": 1239
     },
     {
       "content_hash": "ca6dff82819689cb",
@@ -11678,18 +11818,18 @@
       "size_bytes": 807
     },
     {
-      "content_hash": "8df74713b0ab6377",
-      "content_uuid": "",
+      "content_hash": "17088edda16318a5",
+      "content_uuid": "0bb59612-b73d-4236-a56a-8b985b2b7223",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Celedelair.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-17T15:50:36Z",
+      "modified_at": "2026-07-30T17:49:48Z",
       "rag_source": "wiki",
       "record_uuid": "64ea574f-ec14-5cf6-9ca8-bf06291c0ece",
       "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Celedelair.md",
-      "size_bytes": 1340
+      "size_bytes": 3157
     },
     {
       "content_hash": "b9a9366e3a39989b",
@@ -12252,18 +12392,18 @@
       "size_bytes": 751
     },
     {
-      "content_hash": "200e97cd44a7af1a",
-      "content_uuid": "",
+      "content_hash": "6d46c493b23a94f1",
+      "content_uuid": "4e9af1c7-32b6-4d8d-bf41-8a7c0e5d2193",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Enoah_Sullin.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-02T15:38:48Z",
       "rag_source": "wiki",
       "record_uuid": "3cd98e71-ff7d-568a-b4e1-42c279d51ead",
       "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Enoah_Sullin.md",
-      "size_bytes": 333
+      "size_bytes": 2458
     },
     {
       "content_hash": "f72cc7c5c1b1a05c",
@@ -13904,6 +14044,20 @@
       "size_bytes": 542
     },
     {
+      "content_hash": "4081de7298787be2",
+      "content_uuid": "bf9db52c-182e-41ac-9ca4-68d301339647",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Ibralosch_Goldfaust.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-02T17:31:53Z",
+      "rag_source": "wiki",
+      "record_uuid": "22f3228b-07bb-505f-be86-43294c0f7fbe",
+      "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ibralosch_Goldfaust.md",
+      "size_bytes": 3740
+    },
+    {
       "content_hash": "91fa6d0cce80abe0",
       "content_uuid": "",
       "corpus": "wiki",
@@ -15150,18 +15304,18 @@
       "size_bytes": 1892
     },
     {
-      "content_hash": "b10e700cc054f875",
-      "content_uuid": "",
+      "content_hash": "8af10e1c28920af0",
+      "content_uuid": "a8c0f763-2c25-451e-a1d7-f6c68e268aa1",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Lucy.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-04T14:18:30Z",
       "rag_source": "wiki",
       "record_uuid": "817e79b2-4a4b-5bde-aa4f-390b3ddbbfd6",
       "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lucy.md",
-      "size_bytes": 761
+      "size_bytes": 2285
     },
     {
       "content_hash": "50d6d254ef699029",
@@ -18272,6 +18426,20 @@
       "size_bytes": 1742
     },
     {
+      "content_hash": "0e2fc75a8beeae59",
+      "content_uuid": "e91cbf21-7d00-419d-9157-14e30ed0c172",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Zwilfy_Wyrfel.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-07-30T17:49:49Z",
+      "rag_source": "wiki",
+      "record_uuid": "0c4088fa-342a-5494-9a51-0f6c7d218dc5",
+      "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Zwilfy_Wyrfel.md",
+      "size_bytes": 3297
+    },
+    {
       "content_hash": "279321ad437e007e",
       "content_uuid": "",
       "corpus": "wiki",
@@ -18314,18 +18482,18 @@
       "size_bytes": 715
     },
     {
-      "content_hash": "269471bda18dc572",
+      "content_hash": "4bb2a2bb92f1bf7b",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-07-21T16:18:48Z",
+      "modified_at": "2026-08-02T17:45:48Z",
       "rag_source": "wiki",
       "record_uuid": "7451c124-c9bc-59bc-984e-17e9d6281b19",
       "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md",
-      "size_bytes": 20619
+      "size_bytes": 20718
     },
     {
       "content_hash": "9b56c36ad2d68f91",
@@ -19266,14 +19434,14 @@
       "size_bytes": 1446
     },
     {
-      "content_hash": "70dd3c1b6752aaa3",
+      "content_hash": "be37aad3037e272e",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Wiki_Statistiken.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-07-21T16:22:25Z",
+      "modified_at": "2026-07-30T17:08:22Z",
       "rag_source": "wiki",
       "record_uuid": "ed34a4e1-0284-56bd-b6b9-4352d97e1ff4",
       "relative_path": "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md",
@@ -30466,32 +30634,32 @@
       "size_bytes": 13827
     },
     {
-      "content_hash": "9982330114661472",
+      "content_hash": "107ff44c9952c562",
       "content_uuid": "",
       "corpus": "system",
       "extension": ".json",
       "filename": "ARCHIVREGISTER.json",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-07-21T16:26:29Z",
+      "modified_at": "2026-08-02T17:21:36Z",
       "rag_source": "",
       "record_uuid": "6c15edc2-e046-50fc-a98a-059d2b3709f3",
       "relative_path": "System/Archivregister/ARCHIVREGISTER.json",
-      "size_bytes": 1714382
+      "size_bytes": 1728680
     },
     {
-      "content_hash": "7e1c8738451569c8",
-      "content_uuid": "4a7eca1f-b8b0-4b9e-b367-a6955e04af68",
+      "content_hash": "d5f9087aee5fd6a4",
+      "content_uuid": "087f8e42-5d99-420f-ac1c-b6010fc0c8a4",
       "corpus": "system",
       "extension": ".md",
       "filename": "ARCHIVREGISTER.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-07-21T16:26:29Z",
+      "modified_at": "2026-08-02T17:21:36Z",
       "rag_source": "",
       "record_uuid": "5b36010b-8039-547b-a1d5-3dabf786d9a3",
       "relative_path": "System/Archivregister/ARCHIVREGISTER.md",
-      "size_bytes": 2925
+      "size_bytes": 2933
     },
     {
       "content_hash": "fc99a187814209c2",
@@ -32370,32 +32538,32 @@
       "size_bytes": 1030
     },
     {
-      "content_hash": "054f30f6d32cbf49",
+      "content_hash": "cc23dda6e8763daa",
       "content_uuid": "343df89e-e10b-4fc9-abfb-80238685ae40",
       "corpus": "system",
       "extension": ".md",
       "filename": "MSG-2026-0169_historian_triage_forum_110194_ibralosch_und_fall_des_walls.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-07-15T15:37:42Z",
+      "modified_at": "2026-08-02T17:46:16Z",
       "rag_source": "",
       "record_uuid": "e9f9ef0d-3584-580e-a706-e75fbc01f710",
       "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0169_historian_triage_forum_110194_ibralosch_und_fall_des_walls.md",
-      "size_bytes": 1275
+      "size_bytes": 1692
     },
     {
-      "content_hash": "040608a17d2f656a",
+      "content_hash": "71bec61c5cad9db6",
       "content_uuid": "ac9849b5-3cc2-4111-9292-b4918f3d43e4",
       "corpus": "system",
       "extension": ".md",
       "filename": "MSG-2026-0170_historian_triage_forum_109969_von_ewiger_treue.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-07-15T15:37:42Z",
+      "modified_at": "2026-08-02T15:47:22Z",
       "rag_source": "",
       "record_uuid": "b937f203-d908-5ba5-9a24-6a0cd07cc867",
       "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0170_historian_triage_forum_109969_von_ewiger_treue.md",
-      "size_bytes": 1244
+      "size_bytes": 1725
     },
     {
       "content_hash": "95bc50d75c111c46",
@@ -32468,32 +32636,32 @@
       "size_bytes": 1091
     },
     {
-      "content_hash": "2660851aa6bbe666",
+      "content_hash": "25947522e79b7747",
       "content_uuid": "d7a58af3-716b-4e04-9281-0eced32c7228",
       "corpus": "system",
       "extension": ".md",
       "filename": "MSG-2026-0176_historian_triage_forum_109948_die_s_ulen_des_valkun.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-07-15T20:03:48Z",
+      "modified_at": "2026-08-02T15:47:16Z",
       "rag_source": "",
       "record_uuid": "dba259ff-c9b8-5fee-a216-4e06d2751dda",
       "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0176_historian_triage_forum_109948_die_s_ulen_des_valkun.md",
-      "size_bytes": 1229
+      "size_bytes": 1701
     },
     {
-      "content_hash": "c332dabbe11ef6ce",
+      "content_hash": "7d1f73a587daa228",
       "content_uuid": "1fa134b4-8f06-4915-8c16-a8f5fc16923d",
       "corpus": "system",
       "extension": ".md",
       "filename": "MSG-2026-0177_historian_triage_forum_109946_in_der_kapelle_von_ewigwacht.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-07-15T20:03:48Z",
+      "modified_at": "2026-08-02T15:47:10Z",
       "rag_source": "",
       "record_uuid": "a09237ba-e087-5f46-909b-a9396c0e354e",
       "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0177_historian_triage_forum_109946_in_der_kapelle_von_ewigwacht.md",
-      "size_bytes": 1228
+      "size_bytes": 1651
     },
     {
       "content_hash": "98be4dda39b7bbf2",
@@ -32510,18 +32678,18 @@
       "size_bytes": 1249
     },
     {
-      "content_hash": "a5756d5456818f89",
+      "content_hash": "e0290d0abdfb044b",
       "content_uuid": "1a737361-c798-492b-9173-5a3ff3c72e55",
       "corpus": "system",
       "extension": ".md",
       "filename": "MSG-2026-0179_historian_triage_forum_103300_eine_ungew_hnliche_vagabundin.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-07-15T20:13:33Z",
+      "modified_at": "2026-07-30T18:01:23Z",
       "rag_source": "",
       "record_uuid": "efd78dad-4b1f-54cd-88cc-f7b783699c59",
       "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0179_historian_triage_forum_103300_eine_ungew_hnliche_vagabundin.md",
-      "size_bytes": 1321
+      "size_bytes": 1650
     },
     {
       "content_hash": "d480ccdea81dd4c6",
@@ -32564,6 +32732,468 @@
       "record_uuid": "2cbd2660-c545-5a78-9bf3-dc67c492dbb2",
       "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0182_frage_veralteter_audit_eintrag_k_004_im_konsistenzbericht.md",
       "size_bytes": 810
+    },
+    {
+      "content_hash": "ecce5c13a37588a4",
+      "content_uuid": "523b32f5-4806-46a4-ac6a-305410f2b01f",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0183_historian_triage_forum_105027_im_dunkeln_verborgen.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-30T18:01:21Z",
+      "rag_source": "",
+      "record_uuid": "2ad36a2e-795d-5672-9e5e-2c390c1c2a0f",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0183_historian_triage_forum_105027_im_dunkeln_verborgen.md",
+      "size_bytes": 1022
+    },
+    {
+      "content_hash": "1335772882490ab0",
+      "content_uuid": "5883b2e9-8d08-44e0-a000-a0b9c51e7400",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0184_historian_triage_forum_105420_elfensiedlung_in_brandenstein.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-30T17:25:57Z",
+      "rag_source": "",
+      "record_uuid": "149dae76-4728-594f-b02a-ab55178a69f8",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0184_historian_triage_forum_105420_elfensiedlung_in_brandenstein.md",
+      "size_bytes": 1110
+    },
+    {
+      "content_hash": "c3b75618ee336098",
+      "content_uuid": "b6478e37-a28c-4a97-888b-8df8f7421979",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0185_historian_triage_forum_105200_briefe_an_einen_vitamageweihte.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-30T18:01:22Z",
+      "rag_source": "",
+      "record_uuid": "d066cef1-47be-5275-98bb-54c485c799e7",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0185_historian_triage_forum_105200_briefe_an_einen_vitamageweihte.md",
+      "size_bytes": 1054
+    },
+    {
+      "content_hash": "db9e0d2ad01955af",
+      "content_uuid": "acb47866-1610-4154-9029-ecd25cf91c27",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0186_session_handover_sechster_forum_fuenferbatch_abgeschlossen.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-29T15:23:43Z",
+      "rag_source": "",
+      "record_uuid": "54488a5f-4879-5ab3-a51d-b3f0e73c734f",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0186_session_handover_sechster_forum_fuenferbatch_abgeschlossen.md",
+      "size_bytes": 867
+    },
+    {
+      "content_hash": "3abae292f7b776e4",
+      "content_uuid": "1be61859-3382-4654-9cb3-4d5d49b7f305",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0187_session_takeover_abgeschlossen_board_hygiene_frage.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-29T20:05:12Z",
+      "rag_source": "",
+      "record_uuid": "1b04d3ee-895e-5b07-b209-0d4989bee338",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0187_session_takeover_abgeschlossen_board_hygiene_frage.md",
+      "size_bytes": 1349
+    },
+    {
+      "content_hash": "6cf972d9265aaa5f",
+      "content_uuid": "be05408a-7803-473a-b037-de6550216d7b",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0188_gitignore_hygiene_geprueft_commit_scope_getrennt.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-29T20:11:35Z",
+      "rag_source": "",
+      "record_uuid": "5da3d2c7-992e-59d4-9314-36b6e75b4c37",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0188_gitignore_hygiene_geprueft_commit_scope_getrennt.md",
+      "size_bytes": 1252
+    },
+    {
+      "content_hash": "ee33f558b5d2329a",
+      "content_uuid": "b1f74d65-c258-4fab-9fec-0e582af84a56",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0189_session_handover_gitignore_hygiene_commit_abgeschlossen.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-29T20:46:31Z",
+      "rag_source": "",
+      "record_uuid": "d0c4d144-23f2-595a-9f89-456828be0d9f",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0189_session_handover_gitignore_hygiene_commit_abgeschlossen.md",
+      "size_bytes": 1050
+    },
+    {
+      "content_hash": "22fa3a65d4537950",
+      "content_uuid": "d1f1c206-4c4f-49c9-a68d-f555139e1dfb",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0190_test_fail_pages_full_smoke_timeout_nach_300s.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-30T17:13:36Z",
+      "rag_source": "",
+      "record_uuid": "1317df74-d75d-5142-97dd-6678c377e46a",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0190_test_fail_pages_full_smoke_timeout_nach_300s.md",
+      "size_bytes": 1308
+    },
+    {
+      "content_hash": "8852b4c9457fb859",
+      "content_uuid": "1d69bf13-1bb4-488b-af8e-0f20cc6f3d9c",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0191_session_handover_forum_catch_up_commit_abgeschlossen.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-30T17:19:15Z",
+      "rag_source": "",
+      "record_uuid": "6e33a203-5726-5612-a47d-04fee130e176",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0191_session_handover_forum_catch_up_commit_abgeschlossen.md",
+      "size_bytes": 864
+    },
+    {
+      "content_hash": "18807aebebdc7c2c",
+      "content_uuid": "cad0bf7f-d9cb-49da-94f0-1a0471b51be2",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0192_oracle_index_und_modellcache_fehlen_bei_historian_triage_018.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-30T17:22:05Z",
+      "rag_source": "",
+      "record_uuid": "769ff16e-6a8f-5b5f-99f1-e8ca70b7a20d",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0192_oracle_index_und_modellcache_fehlen_bei_historian_triage_018.md",
+      "size_bytes": 818
+    },
+    {
+      "content_hash": "98eeb8cfaac56b29",
+      "content_uuid": "b0c70a4a-3dd6-400c-884a-6044aa953887",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0193_session_handover_historikerfall_elfensiedlung_abgeschlossen.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-30T17:26:34Z",
+      "rag_source": "",
+      "record_uuid": "b519c4ce-c671-5ad0-ad95-3fc88f0c3c66",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0193_session_handover_historikerfall_elfensiedlung_abgeschlossen.md",
+      "size_bytes": 855
+    },
+    {
+      "content_hash": "854657783896d1cf",
+      "content_uuid": "6fd43294-018c-40f8-a00f-f108fffeb060",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0194_auditdefekt_nach_historikerf_llen_0183_0179.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-30T18:01:21Z",
+      "rag_source": "",
+      "record_uuid": "f080e0c8-22b9-5995-ba66-475f6deb799b",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0194_auditdefekt_nach_historikerf_llen_0183_0179.md",
+      "size_bytes": 1017
+    },
+    {
+      "content_hash": "fc23e32b134c2873",
+      "content_uuid": "f3815ae3-f766-48d4-b7b0-75da5f115a07",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0195_pages_strict_links_vollbuild_ohne_ausgabe_blockiert.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-30T17:59:43Z",
+      "rag_source": "",
+      "record_uuid": "23fce73a-548c-515c-83b2-6ff044b20a95",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0195_pages_strict_links_vollbuild_ohne_ausgabe_blockiert.md",
+      "size_bytes": 781
+    },
+    {
+      "content_hash": "002dbbb44d044c44",
+      "content_uuid": "2aca2dbc-08f4-423b-bee4-a12fda2f9fbf",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0196_session_handover_historikerf_lle_0183_0185_und_0179_abgeschl.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-07-30T18:02:29Z",
+      "rag_source": "",
+      "record_uuid": "0858e3ad-d2a7-593b-9049-57bf4f96999a",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0196_session_handover_historikerf_lle_0183_0185_und_0179_abgeschl.md",
+      "size_bytes": 949
+    },
+    {
+      "content_hash": "af475c4b7f98e96c",
+      "content_uuid": "acacf940-e57d-4746-92aa-bc9b52930376",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0197_frage_translate_runtime_findet_sprachdatens_tze_nicht.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-02T15:24:03Z",
+      "rag_source": "",
+      "record_uuid": "23a3d74b-9787-5a95-8a5e-35d639b9975c",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0197_frage_translate_runtime_findet_sprachdatens_tze_nicht.md",
+      "size_bytes": 938
+    },
+    {
+      "content_hash": "b9866139fa0318dd",
+      "content_uuid": "5adb2362-7c60-4a22-8929-b7d5dd5dcf14",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0198_session_handover_historikerf_lle_0177_0176_und_0170_abgeschl.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-02T15:49:53Z",
+      "rag_source": "",
+      "record_uuid": "43af016f-031d-5a50-9fb7-21d808e63dce",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0198_session_handover_historikerf_lle_0177_0176_und_0170_abgeschl.md",
+      "size_bytes": 998
+    },
+    {
+      "content_hash": "84e6ff82d68fa933",
+      "content_uuid": "177ed5a6-a10c-4620-818d-fca3ab0b3bf4",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0199_yen_usd_carry_trade_dossier_recherchiert.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-02T16:33:38Z",
+      "rag_source": "",
+      "record_uuid": "00ac09af-0aca-5fe0-944a-3e57cec512e4",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0199_yen_usd_carry_trade_dossier_recherchiert.md",
+      "size_bytes": 951
+    },
+    {
+      "content_hash": "d8336308ecc0b320",
+      "content_uuid": "85192b87-8bce-461c-9483-68eda62b56b1",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0200_historian_triage_forum_105411_wacht_f_r_angamon_und_ein_erst.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-02T17:46:16Z",
+      "rag_source": "",
+      "record_uuid": "8f491f9e-1661-5dd8-8b42-119562b371dd",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0200_historian_triage_forum_105411_wacht_f_r_angamon_und_ein_erst.md",
+      "size_bytes": 1091
+    },
+    {
+      "content_hash": "6c087073e3b92001",
+      "content_uuid": "8bf9ad07-7c70-41e8-9357-cab03e802aa0",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0201_historian_triage_forum_105233_hinter_dem_spiegel.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-02T17:46:17Z",
+      "rag_source": "",
+      "record_uuid": "b2876337-0034-5dd2-a6cb-87b31d901b15",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0201_historian_triage_forum_105233_hinter_dem_spiegel.md",
+      "size_bytes": 1051
+    },
+    {
+      "content_hash": "d78f4cac423d46ea",
+      "content_uuid": "9be4a720-7004-419e-8c33-f8873e052435",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0202_historian_triage_forum_105471_im_schloss_zu_brandenstein.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-02T17:46:17Z",
+      "rag_source": "",
+      "record_uuid": "f75fd46e-ce76-5407-ae49-492256bc1f3a",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0202_historian_triage_forum_105471_im_schloss_zu_brandenstein.md",
+      "size_bytes": 1045
+    },
+    {
+      "content_hash": "b1470e582684f4ed",
+      "content_uuid": "d8d5d068-96f8-4d95-bd43-b947e3f5b486",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0203_historian_triage_forum_105386_im_rathaus_luth_chalid_s.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-02T17:46:17Z",
+      "rag_source": "",
+      "record_uuid": "5b621854-d92c-5f0c-97eb-20098645eea6",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0203_historian_triage_forum_105386_im_rathaus_luth_chalid_s.md",
+      "size_bytes": 1021
+    },
+    {
+      "content_hash": "7a3505ecb57c5d2b",
+      "content_uuid": "eb04fe79-11a8-474d-8020-a0c2e18b9549",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0204_kanonfrage_angamon_wikiseite_widerspricht_aktueller_homepage.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-02T17:33:19Z",
+      "rag_source": "",
+      "record_uuid": "7891c667-9c52-520c-ab1e-baed271aea07",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0204_kanonfrage_angamon_wikiseite_widerspricht_aktueller_homepage.md",
+      "size_bytes": 1020
+    },
+    {
+      "content_hash": "ecef91b595429322",
+      "content_uuid": "12652b61-9e19-402f-bb87-0c5e7141ce9c",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0205_audit_defekt_ibralosch_goldfaust_als_verwaist_erkannt.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-02T17:34:39Z",
+      "rag_source": "",
+      "record_uuid": "6494bda6-88b3-5678-8f16-cdea2ae91bc3",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0205_audit_defekt_ibralosch_goldfaust_als_verwaist_erkannt.md",
+      "size_bytes": 1027
+    },
+    {
+      "content_hash": "1cc46906d92c829e",
+      "content_uuid": "67548f48-4647-413a-9d5e-262d2c110d2f",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0206_lektor_defekt_drei_beruehrte_kategorieindizes_mit_legacy_fro.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-02T17:46:02Z",
+      "rag_source": "",
+      "record_uuid": "181bad3d-1491-513c-990f-80c97d250f2a",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0206_lektor_defekt_drei_beruehrte_kategorieindizes_mit_legacy_fro.md",
+      "size_bytes": 1175
+    },
+    {
+      "content_hash": "7b63dc576c732365",
+      "content_uuid": "a95bb5f3-cc86-4e63-9686-77d1a4fd4415",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0207_session_handover_historikerfaelle_0169_und_0200_bis_0203_abg.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-02T17:47:50Z",
+      "rag_source": "",
+      "record_uuid": "a15dcb94-db80-5f03-acc6-c0271b65e535",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0207_session_handover_historikerfaelle_0169_und_0200_bis_0203_abg.md",
+      "size_bytes": 1032
+    },
+    {
+      "content_hash": "97ab8d049a389d6c",
+      "content_uuid": "8e24d4dd-1529-43f7-bf69-e4b52cd50d6c",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0208_forum_ingestion_105371_die_nacht_im_hospiz_von_brandenstein.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T14:34:20Z",
+      "rag_source": "",
+      "record_uuid": "5c6aacb2-15f9-5ef5-87d3-5a8ff26ad640",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0208_forum_ingestion_105371_die_nacht_im_hospiz_von_brandenstein.md",
+      "size_bytes": 1069
+    },
+    {
+      "content_hash": "1d1de4250ccbb6a4",
+      "content_uuid": "a2d4c543-3a4a-4dbb-bcb5-d7b8680c5dd7",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0209_forum_ingestion_105249_lucys_abschied.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T14:34:20Z",
+      "rag_source": "",
+      "record_uuid": "5cb465da-3cf7-50ef-aa45-0dcbf87a672e",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0209_forum_ingestion_105249_lucys_abschied.md",
+      "size_bytes": 976
+    },
+    {
+      "content_hash": "65c553fd7cf8c19e",
+      "content_uuid": "7039081d-e73d-4920-b9d8-8d6d70658e32",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0210_forum_ingestion_105164_im_starken_schutz_des_h_chsten.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T14:34:20Z",
+      "rag_source": "",
+      "record_uuid": "524bc6c2-6311-5e2c-942a-a2c779b48bc2",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0210_forum_ingestion_105164_im_starken_schutz_des_h_chsten.md",
+      "size_bytes": 1012
+    },
+    {
+      "content_hash": "5909d9c6872b70cf",
+      "content_uuid": "f2e29655-f158-4ed6-ad65-01ba88fd34f7",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0211_forum_ingestion_105219_balians_gesellschaftsentwurf.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T14:34:21Z",
+      "rag_source": "",
+      "record_uuid": "dcca434d-f272-5bc3-a612-e52afdde7315",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0211_forum_ingestion_105219_balians_gesellschaftsentwurf.md",
+      "size_bytes": 966
+    },
+    {
+      "content_hash": "6b0d43906c0d3f10",
+      "content_uuid": "d218b5da-b5e9-49e9-a4d4-a64e905b2cca",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0212_historian_triage_forum_105214_ein_suizid.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T14:34:21Z",
+      "rag_source": "",
+      "record_uuid": "48d7258e-3032-5191-a630-182252b9999c",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0212_historian_triage_forum_105214_ein_suizid.md",
+      "size_bytes": 1049
+    },
+    {
+      "content_hash": "b77651e3e2e4fcea",
+      "content_uuid": "1058ccc1-ee07-444f-9300-a8618733b985",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0213_lektor_defekt_hospizartikel_und_erz_hlungsindex.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T14:20:01Z",
+      "rag_source": "",
+      "record_uuid": "4ba11143-8a57-58ab-a04d-c6cfcfd8a913",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0213_lektor_defekt_hospizartikel_und_erz_hlungsindex.md",
+      "size_bytes": 1043
+    },
+    {
+      "content_hash": "00e5accf78b7f11b",
+      "content_uuid": "5776dc09-b1b8-4f15-a190-7eaf99987aa2",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0214_pages_defekt_ein_neuer_ungel_ster_zielname_im_historikerbatc.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T14:34:21Z",
+      "rag_source": "",
+      "record_uuid": "45f202fd-82fb-55ac-9d13-91f9d3baebe2",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0214_pages_defekt_ein_neuer_ungel_ster_zielname_im_historikerbatc.md",
+      "size_bytes": 1023
+    },
+    {
+      "content_hash": "10d8121c07fd921b",
+      "content_uuid": "73475831-40cf-4475-b0bc-409850c9564d",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0215_session_handover_forum_historikerf_lle_105371_bis_105214.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T14:37:24Z",
+      "rag_source": "",
+      "record_uuid": "c7995d96-c5db-52b7-ae62-45e4bb98486b",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0215_session_handover_forum_historikerf_lle_105371_bis_105214.md",
+      "size_bytes": 1130
     },
     {
       "content_hash": "4d8857b2c9153885",
@@ -34442,18 +35072,18 @@
       "size_bytes": 4964
     },
     {
-      "content_hash": "b6f476294be9ca17",
+      "content_hash": "31ed8ac97ef859a4",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "CHANGELOG.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-07-21T16:26:04Z",
+      "modified_at": "2026-08-04T14:35:00Z",
       "rag_source": "",
       "record_uuid": "a872f0ee-0342-54fe-98fb-e447cfbe42b5",
       "relative_path": "docs/CHANGELOG.md",
-      "size_bytes": 74956
+      "size_bytes": 83056
     },
     {
       "content_hash": "371ae9868c99ad61",
@@ -34498,18 +35128,18 @@
       "size_bytes": 2544
     },
     {
-      "content_hash": "81e80864d3b37553",
+      "content_hash": "d849ea21d11700b9",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "MASTER_TASK_LIST.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-07-21T16:26:04Z",
+      "modified_at": "2026-08-04T14:35:00Z",
       "rag_source": "",
       "record_uuid": "e24614b4-8eaf-5723-bf87-0df9978bcc1e",
       "relative_path": "docs/MASTER_TASK_LIST.md",
-      "size_bytes": 13827
+      "size_bytes": 14376
     },
     {
       "content_hash": "c116fb8f4bc37180",
@@ -40336,18 +40966,18 @@
       "size_bytes": 611
     },
     {
-      "content_hash": "5b3a2d8943a8a62d",
+      "content_hash": "0298575c61a116a9",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_briefe_an_einen_vitamageweihten.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-07-30T17:50:06Z",
       "rag_source": "",
       "record_uuid": "98754f62-f2a7-5536-aea3-e4c2e6c0d301",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_briefe_an_einen_vitamageweihten.md",
-      "size_bytes": 613
+      "size_bytes": 103666
     },
     {
       "content_hash": "d2802825e59b9ef7",
@@ -40700,32 +41330,32 @@
       "size_bytes": 589
     },
     {
-      "content_hash": "4ce56aa99f0c8f2f",
+      "content_hash": "94ec18ba03ceda8f",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_die_nacht_im_hospitz_von_brandenstein.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T14:20:39Z",
       "rag_source": "",
       "record_uuid": "df35eee7-ffd6-5b72-8230-927e3a94aa65",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_nacht_im_hospitz_von_brandenstein.md",
-      "size_bytes": 625
+      "size_bytes": 8772
     },
     {
-      "content_hash": "dbd7d88ec475c309",
+      "content_hash": "2fd91d72ea78c024",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_die_s_ulen_des_valkun.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-07-15T20:03:53Z",
+      "modified_at": "2026-08-02T15:33:20Z",
       "rag_source": "",
       "record_uuid": "f08433bf-e9d8-542c-aba1-73763345a6f5",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_s_ulen_des_valkun.md",
-      "size_bytes": 16182
+      "size_bytes": 16438
     },
     {
       "content_hash": "2084719de99e510d",
@@ -40812,18 +41442,18 @@
       "size_bytes": 577
     },
     {
-      "content_hash": "df789cd3546f91b9",
+      "content_hash": "74d41fa7d0348a7c",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_ein_abschied_auf_dauer.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T14:20:39Z",
       "rag_source": "",
       "record_uuid": "8fb649d9-9d42-5df8-b907-048fe442df1e",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_abschied_auf_dauer.md",
-      "size_bytes": 597
+      "size_bytes": 5506
     },
     {
       "content_hash": "d0ecfa63df581e32",
@@ -40966,18 +41596,18 @@
       "size_bytes": 623
     },
     {
-      "content_hash": "8f5d82bb1945cb7c",
+      "content_hash": "6d1db6d0c703de00",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_ein_r_dchen_im_uhrwerk.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-07-27T17:59:47Z",
       "rag_source": "",
       "record_uuid": "f96ba6c4-6932-55e8-990d-4e427d967ef6",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_r_dchen_im_uhrwerk.md",
-      "size_bytes": 597
+      "size_bytes": 4651
     },
     {
       "content_hash": "04b86bb6f52572b7",
@@ -40994,18 +41624,18 @@
       "size_bytes": 605
     },
     {
-      "content_hash": "a4654e6657dd82be",
+      "content_hash": "2d5f350d421bc850",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_ein_suizid.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T14:20:40Z",
       "rag_source": "",
       "record_uuid": "e2a89709-9a53-5d30-a1a8-6a010dfe9be4",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_suizid.md",
-      "size_bytes": 571
+      "size_bytes": 24616
     },
     {
       "content_hash": "eb94e979bb626df2",
@@ -41064,18 +41694,18 @@
       "size_bytes": 603
     },
     {
-      "content_hash": "02ee162120feb8f3",
+      "content_hash": "5656d1a259ed51d5",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_eine_gesellschaft.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T14:20:40Z",
       "rag_source": "",
       "record_uuid": "69e10cb5-a362-5d09-835e-0c4ee7d6d9ca",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_gesellschaft.md",
-      "size_bytes": 585
+      "size_bytes": 8380
     },
     {
       "content_hash": "3bfa48aabbeaf9c0",
@@ -41120,18 +41750,18 @@
       "size_bytes": 593
     },
     {
-      "content_hash": "d6c47af35c0bbd64",
+      "content_hash": "8b65f346321cd745",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_eine_ungew_hnliche_vagabundin.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-07-15T20:13:50Z",
+      "modified_at": "2026-07-30T17:50:06Z",
       "rag_source": "",
       "record_uuid": "f1438e95-c2a3-5b33-95de-fdc2069fca55",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_ungew_hnliche_vagabundin.md",
-      "size_bytes": 21903
+      "size_bytes": 22155
     },
     {
       "content_hash": "c1ce124f3787a288",
@@ -41148,18 +41778,18 @@
       "size_bytes": 4000
     },
     {
-      "content_hash": "4dbafc1a8bea9341",
+      "content_hash": "656f9da07e46f66a",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_erforschung_und_entdeckungen_in_der_neuen_heimat.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-07-15T15:38:38Z",
+      "modified_at": "2026-08-02T17:32:31Z",
       "rag_source": "",
       "record_uuid": "f7770b1a-591a-5828-8157-86f2513122af",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_erforschung_und_entdeckungen_in_der_neuen_heimat.md",
-      "size_bytes": 43874
+      "size_bytes": 44132
     },
     {
       "content_hash": "eaeef328e31715e4",
@@ -41456,18 +42086,18 @@
       "size_bytes": 594
     },
     {
-      "content_hash": "42d453ffa0b134e7",
+      "content_hash": "93c3aeb68a1f785a",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_hinter_dem_spiegel.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-02T17:33:02Z",
       "rag_source": "",
       "record_uuid": "db062ae0-ef45-5030-bd1c-4c21741f920c",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_hinter_dem_spiegel.md",
-      "size_bytes": 587
+      "size_bytes": 20388
     },
     {
       "content_hash": "c16e870a26d2d1be",
@@ -41568,18 +42198,18 @@
       "size_bytes": 615
     },
     {
-      "content_hash": "3e51601ef7a16e50",
+      "content_hash": "bf30df8d9e212e45",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_ig_vor_dem_westtor_in_luth_chalid.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-07-27T17:59:47Z",
       "rag_source": "",
       "record_uuid": "b440c354-db7f-50ad-86f5-99a3f5985451",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ig_vor_dem_westtor_in_luth_chalid.md",
-      "size_bytes": 625
+      "size_bytes": 2551
     },
     {
       "content_hash": "c6275b94efc31c11",
@@ -41610,60 +42240,60 @@
       "size_bytes": 589
     },
     {
-      "content_hash": "f55bc2080242f16c",
+      "content_hash": "0565de56b7f180ae",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_im_dunkeln_verborgen.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-07-30T17:50:06Z",
       "rag_source": "",
       "record_uuid": "24633c6c-cc98-5127-bc67-c16858b4eeae",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_dunkeln_verborgen.md",
-      "size_bytes": 591
+      "size_bytes": 25590
     },
     {
-      "content_hash": "86b36cfeb695636c",
+      "content_hash": "a6ec79557d222f14",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_im_rathaus_luth_chalid_s.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-02T17:33:02Z",
       "rag_source": "",
       "record_uuid": "11439cc8-05b3-5638-bb3a-7126731ad7fc",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_rathaus_luth_chalid_s.md",
-      "size_bytes": 605
+      "size_bytes": 2004
     },
     {
-      "content_hash": "75101d1f3baa1ae3",
+      "content_hash": "1e490dacbfd4b89e",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_im_schloss_zu_brandenstein.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-02T17:33:02Z",
       "rag_source": "",
       "record_uuid": "76526d27-45ae-5faa-851b-91b64137790e",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_schloss_zu_brandenstein.md",
-      "size_bytes": 603
+      "size_bytes": 1958
     },
     {
-      "content_hash": "b31b3b2dcccac7dd",
+      "content_hash": "b1d8b61b2b4dbdb2",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_im_starken_schutz_des_h_chsten.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T14:20:39Z",
       "rag_source": "",
       "record_uuid": "6be0a403-7fce-582f-90ca-3dd7e8e9449b",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_starken_schutz_des_h_chsten.md",
-      "size_bytes": 615
+      "size_bytes": 7551
     },
     {
       "content_hash": "5344290bd18c62b2",
@@ -41694,18 +42324,18 @@
       "size_bytes": 581
     },
     {
-      "content_hash": "fdc9ada6e61ef3f2",
+      "content_hash": "c67a207d61502e99",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_in_der_kapelle_von_ewigwacht.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-07-15T20:03:54Z",
+      "modified_at": "2026-08-02T15:33:11Z",
       "rag_source": "",
       "record_uuid": "5b2d82c8-6837-5bc1-afd2-3a1a5fe84e86",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_in_der_kapelle_von_ewigwacht.md",
-      "size_bytes": 20591
+      "size_bytes": 20831
     },
     {
       "content_hash": "987147e69ac705f8",
@@ -41974,18 +42604,18 @@
       "size_bytes": 643
     },
     {
-      "content_hash": "0fc5327f501733a3",
+      "content_hash": "c6ab195d717d40bb",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_mitmachthread_elfensiedlung_in_brandenstein.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-07-30T17:25:02Z",
       "rag_source": "",
       "record_uuid": "9882478f-bd7c-5617-9909-b3c58b9af919",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthread_elfensiedlung_in_brandenstein.md",
-      "size_bytes": 641
+      "size_bytes": 9743
     },
     {
       "content_hash": "af8b33675167f822",
@@ -42562,18 +43192,18 @@
       "size_bytes": 647
     },
     {
-      "content_hash": "3d93ceb694316727",
+      "content_hash": "e73c7cb4c24e3db8",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_von_ewiger_treue.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-07-15T15:38:38Z",
+      "modified_at": "2026-08-02T15:33:24Z",
       "rag_source": "",
       "record_uuid": "157c50b2-f675-58d1-a875-1514bc9670e0",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_ewiger_treue.md",
-      "size_bytes": 58682
+      "size_bytes": 58923
     },
     {
       "content_hash": "693ba3de889e1974",
@@ -42660,18 +43290,18 @@
       "size_bytes": 623
     },
     {
-      "content_hash": "211a3a4d55f97dd8",
+      "content_hash": "cbcd6bacd963ebbd",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_wacht_f_r_angamon_und_ein_erster_kontakt.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-02T17:33:01Z",
       "rag_source": "",
       "record_uuid": "4dc7bbca-4b40-542b-a6ee-5aed3d514bbb",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_wacht_f_r_angamon_und_ein_erster_kontakt.md",
-      "size_bytes": 633
+      "size_bytes": 5733
     },
     {
       "content_hash": "0f65f6162212986e",
@@ -48554,7 +49184,7 @@
       "size_bytes": 2963
     }
   ],
-  "register_uuid": "13e3723a-6f81-45d7-8dda-fd8863759714",
+  "register_uuid": "b3f5c21a-d95c-4dad-b8d9-4da0abfdceae",
   "repo_root": "/Users/alexandrerabe/siebenwind/7w_wiki",
   "stats": {
     "board_metrics": {
@@ -48578,10 +49208,10 @@
         "missing_uuid": 0,
         "status_counts": {
           "CLAIMED": 1,
-          "DONE": 0,
-          "OPEN": 123
+          "DONE": 23,
+          "OPEN": 133
         },
-        "total": 124
+        "total": 157
       },
       "inquisition": {
         "missing_uuid": 3,
@@ -48616,19 +49246,19 @@
     "by_corpus": {
       "docs": 1046,
       "quellen": 796,
-      "system": 247,
-      "wiki": 1379
+      "system": 280,
+      "wiki": 1391
     },
     "indexable_total": {
       "quellen": 796,
-      "wiki": 1379
+      "wiki": 1391
     },
     "inventur_progress": {
       "pending": 1,
       "processed": 50,
       "total": 51
     },
-    "overlap_records_skipped": 1379,
+    "overlap_records_skipped": 1391,
     "rag_progress": {
       "quellen": {
         "available": false,
@@ -48647,14 +49277,14 @@
         "collection": "siebenwind_wiki",
         "coverage_pct": 0.0,
         "error": "Collection [siebenwind_wiki] does not exist",
-        "indexable_files": 1379,
+        "indexable_files": 1391,
         "indexed_files": 0,
         "stale_examples": [],
         "stale_index_entries": 0
       }
     },
-    "total_records": 3468,
-    "uuid_coverage_pct": 13.12,
-    "with_content_uuid": 455
+    "total_records": 3513,
+    "uuid_coverage_pct": 14.46,
+    "with_content_uuid": 508
   }
 }

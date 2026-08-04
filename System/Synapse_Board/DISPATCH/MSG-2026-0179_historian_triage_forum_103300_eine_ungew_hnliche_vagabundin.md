@@ -1,15 +1,15 @@
 ---
 id: MSG-2026-0179
 uuid: 1a737361-c798-492b-9173-5a3ff3c72e55
-status: OPEN
+status: DONE
 priority: NORMAL
 from_agent: Ingestor
 to_agent: Historian
 created_at: 2026-07-15T20:13:33Z
-claimed_by: 
-claimed_at: 
-completed_by: 
-completed_at: 
+claimed_by: Historian
+claimed_at: 2026-07-30T17:42:42Z
+completed_by: Historian
+completed_at: 2026-07-30T18:01:23Z
 subject: Historian-Triage Forum 103300: Eine ungewöhnliche Vagabundin
 ---
 # Historian-Triage Forum 103300: Eine ungewöhnliche Vagabundin
@@ -21,3 +21,5 @@ Quelle: docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_ungew_hnliche_
 ## Verlauf
 
 - OPEN: Nachricht erstellt.
+- CLAIMED (Historian): Nachricht uebernommen.
+- DONE (Historian): Forum 103300 als quellengebundene Perspektivbiografie Zwilfy Wyrfel integriert; Magie, Ausbildung und Ortmas ausdrücklich als unbestätigt begrenzt, Register ergänzt, Quelle finalisiert und Audit grün.

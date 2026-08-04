@@ -1,26 +1,29 @@
 ---
+title: "[Mitmachthread] Elfensiedlung in Brandenstein"
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=105420"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=105420"
-title: "[Mitmachthread] Elfensiedlung in Brandenstein"
 date: 2016-08-18
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 105420
 content_status: fulltext_archived
-review_status: historian_required
-review_owner: Historian
-dispatch_ref: MSG-2026-0184
+review_status: integrated
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
 human_escalation_required: false
+integration_status: integrated
+integrated_target: "docs/Siebenwind_Wiki/02_Geografie/Brandenstein.md"
+ingestion_report: "Logs/Ingestion/2026-07-27_Historian_Triage_Forum_105420.md"
+integrated_at: "2026-07-30T17:25:02Z"
 archived_at: "2026-07-27T17:54:24Z"
 post_count: 6
 topic_pages_archived: 1
 raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105420.html"
+dispatch_ref: MSG-2026-0184
 ---
-
 # [Mitmachthread] Elfensiedlung in Brandenstein
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

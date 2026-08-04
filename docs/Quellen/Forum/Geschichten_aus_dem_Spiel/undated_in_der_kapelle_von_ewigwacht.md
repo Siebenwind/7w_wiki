@@ -1,26 +1,29 @@
 ---
+title: "In der Kapelle von Ewigwacht"
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=109946"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=109946"
-title: "In der Kapelle von Ewigwacht"
 date: 2023-01-06
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 109946
 content_status: fulltext_archived
-review_status: historian_required
-review_owner: Historian
-dispatch_ref: MSG-2026-0177
+review_status: integrated
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
 human_escalation_required: false
+integration_status: integrated
+integrated_target: "docs/Siebenwind_Wiki/00_Fundament/Ewigwacht.md"
+ingestion_report: "Logs/Ingestion/2026-08-02_Historian_Triage_Forum_109946.md"
+integrated_at: "2026-08-02T15:33:11Z"
 archived_at: "2026-07-15T19:59:59Z"
 post_count: 6
 topic_pages_archived: 1
 raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/109946.html"
+dispatch_ref: MSG-2026-0177
 ---
-
 # In der Kapelle von Ewigwacht
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

@@ -1,15 +1,15 @@
 ---
 id: MSG-2026-0169
 uuid: 343df89e-e10b-4fc9-abfb-80238685ae40
-status: OPEN
+status: DONE
 priority: NORMAL
 from_agent: Ingestor
 to_agent: Historian
 created_at: 2026-07-15T15:37:42Z
-claimed_by: 
-claimed_at: 
-completed_by: 
-completed_at: 
+claimed_by: Historian
+claimed_at: 2026-08-02T17:24:33Z
+completed_by: Historian
+completed_at: 2026-08-02T17:46:16Z
 subject: Historian-Triage Forum 110194: Ibralosch und Fall des Walls
 ---
 # Historian-Triage Forum 110194: Ibralosch und Fall des Walls
@@ -21,3 +21,5 @@ Quelle: docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_erforschung_und_ent
 ## Verlauf
 
 - OPEN: Nachricht erstellt.
+- CLAIMED (Historian): Nachricht uebernommen.
+- DONE (Historian): Forum 110194 integriert: Ibralosch Goldfaust als quellenkritische Personenseite angelegt und Falkenwall-Chronik um seine Perspektive ergänzt. Offizieller Patch bestätigt nur den Endzustand. Bericht: Logs/Ingestion/2026-08-02_Historian_Triage_Forum_110194.md. Audit 0; Pages-Full-Smoke PASS.

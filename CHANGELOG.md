@@ -1,5 +1,87 @@
 # Changelog
 
+#### [2026-08-04.02] - Forum-Historikerbatch zu Endophali, Bärenkampf, Balian und Waldhütte abgeschlossen
+### Prioritaet: P2
+### Hinzugefügt
+- `Die_Felsen_in_der_Brandung.md` bewahrt Sidras Schutzpraxis und die Spannungen um Jamar, Sarana und Valkun, ohne Figurenmagie oder Schuldzuweisungen zu kanonisieren.
+- `Im_Wuestensand.md` dokumentiert die Selbstprüfung eines namenlosen endophalischen Ratsführers; Autorenkonto und lokale Machtverhältnisse werden nicht als Identitäts- oder Kanonbeleg verwendet.
+- `Baerenkampf_westlich_von_Brandenstein.md` trennt vier zeitgleiche Threadbeiträge von einer unbelegten lückenlosen Kausalkette.
+- `Balian_Ruhnbert.md` führt Rückkehr, Handwerk und die nur plausible Verbindung zu Balians Gesellschaftsentwurf quellenkritisch zusammen.
+- `Eine_Huette_in_der_Wildnis.md` erschließt die offene Waldhütte, ohne Bewohnerin oder Besucher aus Forenkonto und Spuren zu erfinden.
+- Fünf Berichte dokumentieren Quellenabgleich und Zielentscheidungen für die Topics `105159`, `105188`, `105132`, `105060` und `105023`.
+### Geändert
+- `Balians_Gesellschaftsentwurf.md` und `Saranas_Tod.md` erhielten die jeweils zeitnahen ergänzenden Perspektivquellen.
+- Erzählungs-, Personen- und kanonisches Personenregister erschließen alle neuen Ziele.
+- Alle fünf Forumquellen und die Dispatches `MSG-2026-0216` bis `MSG-2026-0220` stehen auf `integrated` beziehungsweise `DONE`.
+### Beobachtet
+- `MSG-2026-0221`: Der vollständige Pages-Snapshot stieg global auf `625` unresolved / `623` unallowlisted, obwohl zielbezogene Dry-Runs für alle neuen Seiten und Register jeweils `0` Residuen melden. Die Abweichung ist an den Techniker geroutet; `drift_status = PASS`.
+### Validiert
+- `./7w_wiki.py audit --json`: `issues_found = 0`
+- Lektor und Sanitizer für alle produktiven Zielseiten: PASS
+- `forum-ingest-contract`, `historian-review-contract`, `content-contract`, `source-tree-contract`, `render-hygiene`, `bridge-placeholder-guard` und `clean-client-state`: PASS
+- `pages-full-smoke --timeout 360`: PASS; zielbezogene Historian-Dry-Runs ohne offene Verweise
+- `git diff --check`: PASS
+
+#### [2026-08-04.01] - Forum-Historikerbatch zu Hospiz, Lucy, Seefahrt, Gesellschaft und Sarana abgeschlossen
+### Prioritaet: P2
+### Hinzugefügt
+- `Die_Nacht_im_Hospiz_von_Brandenstein.md` bewahrt die mehrstimmige Krankenpflege-Erzählung, ohne die unbenannte Seuche mit dem Atmenden Tod gleichzusetzen.
+- `Im_starken_Schutz_des_Hoechsten.md` sichert die Kapitänserzählung; die motivische Nähe zu Lazalantin bleibt ausdrücklich ungeklärt.
+- `Balians_Gesellschaftsentwurf.md` dokumentiert Organisationsidee und Satzungsentwurf, ohne eine tatsächliche Gründung zu behaupten.
+- `Saranas_Tod.md` führt den elfteiligen Thread und die stützende Briefkorrespondenz quellenkritisch zusammen.
+- Fünf Berichte dokumentieren Quellenabgleich und Zielentscheidungen für die Topics `105371`, `105249`, `105164`, `105219` und `105214`.
+### Geändert
+- `Lucy.md` trennt den Botenbeleg zur späteren Vogtin von einer nur plausibel zugehörigen frühen Forumüberlieferung.
+- `Briefe_an_einen_Vitamageweihten.md` verweist nun auf den direkten Mehrperspektivthread zu Sarana; der Erzählungsindex erschließt alle vier neuen Seiten.
+- Alle fünf Forumquellen und die Dispatches `MSG-2026-0208` bis `MSG-2026-0212` stehen auf `integrated` beziehungsweise `DONE`.
+### Behoben
+- `MSG-2026-0213`: Forum-Ton des Hospizartikels und Legacy-Frontmatter/H1 des Erzählungsindex korrigiert.
+- `MSG-2026-0214`: Einen neu eingeführten, unbelegten `[[Rilamnor]]`-Link entfernt und den Pages-Zähler auf das Ausgangsniveau zurückgeführt.
+### Validiert
+- `./7w_wiki.py audit --json`: `issues_found = 0`
+- Lektor und Sanitizer für alle sieben berührten Zielseiten: PASS
+- `forum-ingest-contract`, `historian-review-contract`, `content-contract`, `source-tree-contract`, `render-hygiene`, `bridge-placeholder-guard` und `clean-client-state`: PASS
+- Finaler `pages-full-smoke --timeout 360`: PASS; Fast-Snapshot bei `624` unresolved / `622` unallowlisted und `drift_status = PASS`
+
+#### [2026-08-02.02] - Fünf Historikerfälle zu Falkenwall, Angamon und Aschespuren abgeschlossen
+### Prioritaet: P2
+### Hinzugefügt
+- `Ibralosch_Goldfaust.md` dokumentiert den Dwarschim-Krieger und seine Beteiligung an Belagerung und Fall des Falkenwalls als klar begrenzte Figurenperspektive.
+- `Akademie_zur_Linken.md` trennt den durch den Boten belegten Institutionsbestand von den parteilichen Führungs- und Kongressansprüchen der Forumquelle.
+- `Aschespuren_in_Luth_Chalid_und_Brandenstein.md` führt zwei auffällig ähnliche, aber ungeklärte Vorfälle zusammen, ohne Täter oder Motiv zu erfinden.
+- Fünf Historikerberichte sichern Quellenabgleich und Zielentscheidungen für die Topics `110194`, `105411`, `105233`, `105471` und `105386`.
+### Geändert
+- `Falkenwall.md` erhielt die Verteidigungs- und Fallchronologie aus Ibraloschs Sicht; der offiziell bestätigte Endzustand bleibt davon getrennt.
+- `Bruderschaft_der_Tardukai.md` ordnet „Hinter dem Spiegel“ als ergänzende Binnenperspektive zur schwarzen Festung ein; die geschilderte Buße wird nicht zur allgemeinen Ordensregel erklärt.
+- Personen-, Organisations- und Kategorieindizes wurden um die neuen Ziele ergänzt; alle fünf Forumquellen stehen auf `integrated`.
+### Behoben
+- Der zunächst verwaiste Personenartikel zu Ibralosch wurde quellenbezogen im Personenregister verankert (`MSG-2026-0205`).
+- Eine auftragsfremde Abweichung zwischen aktueller Angamon-Homepage und Wiki wurde nicht still verändert, sondern als Kanonfrage `MSG-2026-0204` geroutet.
+### Validiert
+- `./7w_wiki.py audit --json`: `issues_found = 0`
+- Lektor und Sanitizer für alle produktiven Zielseiten: PASS
+- `forum-ingest-contract`, `historian-review-contract`, `content-contract`, `source-tree-contract`, `render-hygiene`, `bridge-placeholder-guard` und `clean-client-state`: PASS
+- `pages-full-smoke --timeout 360`: PASS; Fast-Snapshot unverändert bei `624` unresolved / `622` unallowlisted und `drift_status = PASS`
+- Der direkte Pages-Vollbefehl blieb erneut ohne Ausgabe und wurde kontrolliert abgebrochen; die bekannte Runtime-Frage bleibt unter `MSG-2026-0195` offen.
+
+#### [2026-08-02.01] - Drei Historikerfälle zu Tardukai und Falkenwall abgeschlossen
+### Prioritaet: P2
+### Hinzugefügt
+- `Die_Saeulen_des_Valkun.md` dokumentiert den mehrstimmigen Forumkomplex als Perspektivquelle; die monoalphabetisch verschlüsselten Beiträge sind quellenkritisch eingeordnet.
+- Drei Historikerberichte sichern Entity-Manifeste, Quellenabgleich, Synthesegrenzen und Zielentscheidungen für die Topics `109946`, `109948` und `109969`.
+### Geändert
+- `Ewigwacht.md`, `Bruderschaft_der_Tardukai.md`, `Enoah_Sullin.md` und `Falkenwall.md` wurden um die belastbaren Ergebnisse der drei Fälle ergänzt.
+- Die offiziellen Angamon- und Patchquellen bleiben führend; Verträge, Rituale, Verratsvorwürfe und die behauptete Urheberschaft des „Archivars“ sind ausdrücklich als Forumsperspektive begrenzt.
+- `MSG-2026-0170`, `MSG-2026-0176` und `MSG-2026-0177` sowie die zugehörigen Forumquellen stehen auf `DONE` beziehungsweise `integrated`.
+### Behoben
+- Drei zunächst offene `[[Necris]]`-Links zeigen nun ohne Brückenseite auf das bestehende kanonische Ziel `[[Region_Morthum|Necris]]`.
+### Validiert
+- `./7w_wiki.py audit --json`: `issues_found = 0`
+- Lektor und Sanitizer für alle fünf berührten Wikiartikel: PASS
+- `forum-ingest-contract`, `historian-review-contract`, `content-contract`, `source-tree-contract`, `render-hygiene`, `bridge-placeholder-guard` und `clean-client-state`: PASS
+- `pages-full-smoke` mit angepasstem Zeitlimit: PASS; aktueller Pages-Snapshot wieder auf dem Ausgangsniveau `624` unresolved / `622` unallowlisted, `drift_status = PASS`
+- `git diff --check`: PASS
+
 #### [2026-07-30.01] - Pages-Full-Smoke-Zeitbudget stabilisiert
 ### Prioritaet: P2
 ### Behoben

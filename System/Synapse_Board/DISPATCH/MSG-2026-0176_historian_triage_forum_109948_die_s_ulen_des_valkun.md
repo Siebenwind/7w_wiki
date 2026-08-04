@@ -1,15 +1,15 @@
 ---
 id: MSG-2026-0176
 uuid: d7a58af3-716b-4e04-9281-0eced32c7228
-status: OPEN
+status: DONE
 priority: NORMAL
 from_agent: Ingestor
 to_agent: Historian
 created_at: 2026-07-15T20:03:48Z
-claimed_by: 
-claimed_at: 
-completed_by: 
-completed_at: 
+claimed_by: Historian
+claimed_at: 2026-08-02T15:19:23Z
+completed_by: Historian
+completed_at: 2026-08-02T15:47:16Z
 subject: Historian-Triage Forum 109948: Die Säulen des Valkun
 ---
 # Historian-Triage Forum 109948: Die Säulen des Valkun
@@ -21,3 +21,5 @@ Quelle: docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_s_ulen_des_valk
 ## Verlauf
 
 - OPEN: Nachricht erstellt.
+- CLAIMED (Historian): Nachricht uebernommen.
+- DONE (Historian): Forum 109948 integriert: Perspektivartikel Die Säulen des Valkun angelegt, Enoah Sullin ausgebaut, Geheimtexte als monoalphabetische Substitution eingeordnet und unsichere Stellen offen markiert. Translate-Runtime-Anomalie separat als MSG-2026-0197 gemeldet. Ingest integrated; Audit 0; Lektor, Sanitize und relevante Vertrags-/Pages-Tests grün.

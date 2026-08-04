@@ -1,8 +1,9 @@
 ---
 title: "Siebenwind Wiki - Geschichte"
+category: Geschichte
 ---
 
-# [[Siebenwind]] Wiki - Geschichte
+# Siebenwind Wiki - Geschichte
 Das Archiv der Geschichte.
 
 ## Inhalte
@@ -11,6 +12,7 @@ Das Archiv der Geschichte.
 *   [[Angriff_auf_Brandenstein_29_nH|Angriff auf Brandenstein (29 n.H.)]]
 *   [[Angriff_der_Schwarzmagier|Angriff der Schwarzmagier (18 n.H.)]]
 *   [[Anschlag_auf_den_Handelsbund|Anschlag auf den Handelsbund und Auflösung]]
+*   [[Aschespuren_in_Luth_Chalid_und_Brandenstein|Aschespuren in Luth Chalid und Brandenstein]]
 *   [[Aufbau_von_Greifenklipp|Aufbau von Greifenklipp]]
 *   [[Aufhebung_des_Toleranzedikts|Aufhebung des Toleranzedikts]]
 *   [[Aufstand_in_Wallenburg|Aufstand in Wallenburg]]

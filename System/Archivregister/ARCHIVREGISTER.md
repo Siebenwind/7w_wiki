@@ -2,8 +2,8 @@
 layout: wiki_page
 title: Archivregister
 category: System
-uuid: 13e3723a-6f81-45d7-8dda-fd8863759714
-letzter_check: 2026-07-21T16:27:02Z
+uuid: b3f5c21a-d95c-4dad-b8d9-4da0abfdceae
+letzter_check: 2026-08-04T14:56:12Z
 ---
 
 # Archivregister
@@ -12,16 +12,16 @@ letzter_check: 2026-07-21T16:27:02Z
 
 ## Überblick
 
-- Datensaetze gesamt: 3468
-- Ueberlappende Corpus-Treffer dedupliziert: 1379
-- Mit Content-UUID: 455 (13.12%)
-- Wiki indexierbar: 1379 | Quellen indexierbar: 796
+- Datensaetze gesamt: 3513
+- Ueberlappende Corpus-Treffer dedupliziert: 1391
+- Mit Content-UUID: 508 (14.46%)
+- Wiki indexierbar: 1391 | Quellen indexierbar: 796
 
 ## RAG-Fortschritt
 
 | Corpus | Indexierte Dateien | Indexierbare Dateien | Coverage | Chunks | Stale Index-Eintraege |
 |---|---:|---:|---:|---:|---:|
-| wiki | 0 | 1379 | 0.00% | 0 | 0 |
+| wiki | 0 | 1391 | 0.00% | 0 | 0 |
 | quellen | 0 | 300 | 0.00% | 0 | 0 |
 
 ## Ingestion-Fortschritt (Inventur)
@@ -32,7 +32,7 @@ letzter_check: 2026-07-21T16:27:02Z
 
 | Domain | Total | Status Breakdown | Missing UUID | Invalid Status Files |
 |---|---:|---|---:|---:|
-| Dispatch | 124 | CLAIMED=1, OPEN=123 | 0 | 0 |
+| Dispatch | 157 | CLAIMED=1, DONE=23, OPEN=133 | 0 | 0 |
 | research | 10 | COMPLETED=1, DEFERRED=1, OPEN_HISTORIAN=2, THEMATIC_BACKLOG=3 | 10 | 3 |
 | conflicts | 7 | AUTO_RESOLVED=1, NEEDS_REVIEW=4, RESOLVED=1 | 7 | 1 |
 | inquisition | 4 | COMPLETED=1, OPEN=1, UNSPECIFIED=2 | 3 | 0 |
@@ -41,9 +41,9 @@ letzter_check: 2026-07-21T16:27:02Z
 
 | Corpus | Dateien |
 |---|---:|
-| wiki | 1379 |
+| wiki | 1391 |
 | quellen | 796 |
-| system | 247 |
+| system | 280 |
 | docs | 1046 |
 
 ## Pflichtfelder je Datensatz
@@ -85,5 +85,5 @@ letzter_check: 2026-07-21T16:27:02Z
 - `docs/Siebenwind_Wiki/00_Fundament/Ausbildung.md`
 - `docs/Siebenwind_Wiki/00_Fundament/Avindhrell.md`
 - `docs/Siebenwind_Wiki/00_Fundament/Baronie_Siebenwind.md`
-- ... (+2976 weitere)
+- ... (+2968 weitere)
 

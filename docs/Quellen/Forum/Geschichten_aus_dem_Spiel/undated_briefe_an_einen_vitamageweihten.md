@@ -1,26 +1,29 @@
 ---
+title: "Briefe an einen Vitamageweihten"
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=105200"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=105200"
-title: "Briefe an einen Vitamageweihten"
 date: 2016-07-01
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 105200
 content_status: fulltext_archived
-review_status: historian_required
-review_owner: Historian
-dispatch_ref: MSG-2026-0185
+review_status: integrated
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
 human_escalation_required: false
+integration_status: integrated
+integrated_target: "docs/Siebenwind_Wiki/06_Erzählungen/Briefe_an_einen_Vitamageweihten.md"
+ingestion_report: "Logs/Ingestion/2026-07-27_Historian_Triage_Forum_105200.md"
+integrated_at: "2026-07-30T17:50:06Z"
 archived_at: "2026-07-27T17:54:24Z"
 post_count: 13
 topic_pages_archived: 1
 raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105200.html"
+dispatch_ref: MSG-2026-0185
 ---
-
 # Briefe an einen Vitamageweihten
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

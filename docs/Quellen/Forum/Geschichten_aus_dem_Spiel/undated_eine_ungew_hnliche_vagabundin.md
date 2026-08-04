@@ -1,26 +1,29 @@
 ---
+title: "Eine ungewöhnliche Vagabundin"
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=103300"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=103300"
-title: "Eine ungewöhnliche Vagabundin"
 date: 2015-08-31
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 103300
 content_status: fulltext_archived
-review_status: historian_required
-review_owner: Historian
-dispatch_ref: MSG-2026-0179
+review_status: integrated
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
 human_escalation_required: false
+integration_status: integrated
+integrated_target: "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Zwilfy_Wyrfel.md"
+ingestion_report: "Logs/Ingestion/2026-07-30_Historian_Triage_Forum_103300.md"
+integrated_at: "2026-07-30T17:50:06Z"
 archived_at: "2026-07-15T20:11:39Z"
 post_count: 6
 topic_pages_archived: 1
 raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/103300.html"
+dispatch_ref: MSG-2026-0179
 ---
-
 # Eine ungewöhnliche Vagabundin
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-30T17:08:11Z",
+  "generated_at": "2026-08-04T15:31:26Z",
   "version": 1,
   "pages_health": {
     "status": "WARN",
-    "unresolved_total": 624,
-    "unallowlisted_total": 622,
-    "last_validated_at": "2026-07-30T17:08:01Z"
+    "unresolved_total": 625,
+    "unallowlisted_total": 623,
+    "last_validated_at": "2026-08-04T15:16:48Z"
   },
   "contract": {
     "bridge_invalid": 0,
@@ -101,11 +101,13 @@
       "lane": "lane1",
       "auto_apply_allowed": true,
       "escalate_if": "lookup returns 0 or >1 plausible source files",
-      "count": 260,
+      "count": 264,
       "examples": [
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
+        "docs/Siebenwind_Wiki/02_Geografie/Brandenstein.md",
         "docs/Siebenwind_Wiki/02_Geografie/Feste_Seeberg.md",
         "docs/Siebenwind_Wiki/02_Geografie/Tal_der_Ahnen.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Akademie_zur_Linken.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Brandensteiner_Reiter.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Circus_Wendolyn.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Communis_Medici.md",
@@ -120,9 +122,7 @@
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_135.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_136.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_137.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_138.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_139.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_140.md"
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_138.md"
       ]
     },
     {

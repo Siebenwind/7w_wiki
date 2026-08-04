@@ -53,3 +53,4 @@ Hexenmeister und Nekromanten (die nicht den *[[Morsan]]*-Riten folgen) rufen oft
 - [[Die_Viere_Kirche]] verdammt ihn.
 - [[Magie_Grundlagen]] - Dunkle Magie
 - [[Kreaturen]] - [[Daemonen]]
+- [[Akademie_zur_Linken|Akademie zur Linken]] - historische Institution des Pfades zur Linken

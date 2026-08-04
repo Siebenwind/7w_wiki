@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-07-30 19:08
+**Stand:** 2026-08-04 17:31
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -15,12 +15,12 @@ category: Index
 
 | Kennzahl | Wert |
 | :--- | :--- |
-| Artikel | **1380** |
-| Worte | **193,826** |
-| Durchschnittliche Artikellaenge | **140 Worte** |
-| Interne Verweise (`[[...]]`) | **12,993** |
+| Artikel | **1395** |
+| Worte | **201,589** |
+| Durchschnittliche Artikellaenge | **145 Worte** |
+| Interne Verweise (`[[...]]`) | **13,175** |
 | Vernetzungsdichte | **9.4 Links/Artikel** |
-| Personenprofile | **587** |
+| Personenprofile | **590** |
 
 ---
 
@@ -28,9 +28,9 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Aktive Tage |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 0 | - | 0 |
-| Letzte 30 Tage | 6 | 3 | 2 |
-| Letzte 90 Tage | 6 | - | 3 |
+| Letzte 7 Tage | 29 | - | 1 |
+| Letzte 30 Tage | 30 | 10 | 2 |
+| Letzte 90 Tage | 34 | - | 4 |
 
 ---
 
@@ -38,16 +38,16 @@ category: Index
 
 ```mermaid
 pie title Artikel pro Sektion
-    "07_Persoenlichkeiten" : 587
+    "07_Persoenlichkeiten" : 590
     "05_Magie" : 41
     "08_Bestiarium" : 33
     "03_Wissen" : 57
-    "03_Gesellschaft" : 54
-    "05_Geschichte" : 68
+    "03_Gesellschaft" : 55
+    "05_Geschichte" : 69
     "02_Geografie" : 57
     "01_Pantheon" : 52
     "04_Chronik" : 83
-    "06_Erzählungen" : 22
+    "06_Erzählungen" : 32
     "09_Bibliothek" : 28
     "00_Fundament" : 286
 ```
@@ -57,7 +57,7 @@ pie title Artikel pro Sektion
 | Sektion | Artikel | Ø Worte/Artikel | Ø Links/Artikel |
 | :--- | ---: | ---: | ---: |
 | `01_Pantheon` | 52 | 410 | 11.2 |
-| `06_Erzählungen` | 22 | 284 | 10.3 |
+| `06_Erzählungen` | 32 | 298 | 9.4 |
 | `Root` | 1 | 283 | 1.0 |
 | `05_Magie` | 41 | 276 | 9.8 |
 | `04_Chronik` | 83 | 270 | 31.6 |
@@ -70,19 +70,19 @@ pie title Artikel pro Sektion
 ### Starke Knoten (gesamt)
 | Entitaet | Verweise |
 | :--- | ---: |
-| [[Falkensee]] | 534 |
-| [[Siebenwind]] | 508 |
-| [[Brandenstein]] | 488 |
+| [[Falkensee]] | 540 |
+| [[Brandenstein]] | 513 |
+| [[Siebenwind]] | 510 |
 | [[Bellum]] | 169 |
-| [[Astrael]] | 157 |
-| [[Nortraven]] | 146 |
-| [[Toran_Dur]] | 134 |
+| [[Astrael]] | 159 |
+| [[Nortraven]] | 147 |
+| [[Vitama]] | 140 |
 
 
 ### Praegende Persoenlichkeiten
 | Persoenlichkeit | Verweise |
 | :--- | ---: |
-| [[Toran_Dur]] | 134 |
+| [[Toran_Dur]] | 135 |
 | [[Custodias]] | 71 |
 | [[Waldemar_Delarie]] | 54 |
 | [[Dunvallo_Linari]] | 50 |
@@ -95,12 +95,12 @@ pie title Artikel pro Sektion
 | Ereignis | Verweise |
 | :--- | ---: |
 | [[Siebenwind_Bote_172]] | 20 |
+| [[Dunkeltief_29_nH]] | 19 |
 | [[Siebenwind_Bote_175]] | 19 |
 | [[Siebenwind_Bote_186]] | 19 |
 | [[Siebenwind_Bote_173]] | 18 |
 | [[Siebenwind_Bote_180]] | 18 |
 | [[Das_Ende_der_Zeit_der_Koenige]] | 17 |
-| [[Der_Putsch_von_Falkensee]] | 17 |
 
 
 ---
@@ -109,11 +109,11 @@ pie title Artikel pro Sektion
 
 | Qualitaetsindikator | Wert | Fortschritt |
 | :--- | :--- | :--- |
-| Frontmatter-Abdeckung | 1380/1380 | `##########` 100.0% |
-| Aufgeloeste Quellenangabe (`quelle`) | 464/1380 | `###-------` 33.6% |
-| Ingestion Tracking vollstaendig | 85/85 | `##########` 100.0% |
-| Ingestion Reports mit LQS | 83/85 | `##########` 97.6% |
-| `[UNGEKLAERT]`-Marker (gesamt) | 279 | Beobachtung |
+| Frontmatter-Abdeckung | 1395/1395 | `##########` 100.0% |
+| Aufgeloeste Quellenangabe (`quelle`) | 486/1395 | `###-------` 34.8% |
+| Ingestion Tracking vollstaendig | 90/90 | `##########` 100.0% |
+| Ingestion Reports mit LQS | 88/90 | `##########` 97.8% |
+| `[UNGEKLAERT]`-Marker (gesamt) | 300 | Beobachtung |
 
 ## 🔏 Drift & Provenance
 | Kennzahl | Wert |
@@ -126,10 +126,10 @@ pie title Artikel pro Sektion
 ## Epistemische Verteilung
 | Tag | Artikel |
 | :--- | ---: |
-| `#bote` | 589 |
+| `#bote` | 590 |
 | `#unbekannt` | 419 |
+| `#perspektive` | 139 |
 | `#canon` | 138 |
-| `#perspektive` | 125 |
 | `#ueberlieferung` | 108 |
 | `#news` | 1 |
 
@@ -188,7 +188,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_ce0efa31-b6cf-4f41-aad9-af854fc20925.txt`
+- Letzter Audit: `Logs/Archive/Audit_f963e700-dddf-465b-83ec-f04293449d93.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
 
 ---

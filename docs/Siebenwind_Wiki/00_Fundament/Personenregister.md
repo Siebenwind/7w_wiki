@@ -54,6 +54,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Argus_Ebonhart]] | Magier | [Kanon] | amtierend | #canon |
 | [[Armgard_Torenson]] | Kapitän / Entdecker | [Bote 137] | Legendär | #bote |
 | [[Arnim_Estragons]] | Stellv. Botenleitung / Lehensherr | [Bote 131] | ~15 n.H. | #bote |
+| [[Balian_Ruhnbert]] | Handwerksmeister / Geschäftsmann | Forum 105060 | 27 n.H. | #perspektive |
 | [[Beladriel_Blaettertanz]] | Heerführerin ([[Seeberg]]) / Truchsess | [Bote 165/174] | 18-20 n.H. | #bote |
 | [[Benjamin_Mondsilberhaar]] | Elf / Diener Vitamas | Forum 105537 | 27 n.H. | #perspektive |
 | [[Benion_Sandelholz]] | Hochgeweihter ([[Vitama]]) / Gründer (Tränenorden) | [Bote 130/140/149] | ~15-17 n.H. | #bote |
@@ -126,6 +127,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Hornstoß]] | General (Königliche Armee) | [Bote 142] | amtierend | #bote |
 | [[Huns_Siebzehnruebl]] | Bürger / "Unerschrockener" | [Bote 133] | 16 n.H. | #bote |
 | [[Isfaldia]] | Heilerin | [[Ecclesia_Elementorum]] / [Bote 169] | 19 n.H. | #bote |
+| [[Ibralosch_Goldfaust]] | Bra'Gar der Goldfaust / Verteidiger des [[Falkenwall]]s | Forum 110194 | 34 n.H. | #perspektive |
 | [[Iycheas_Vrahn]] | Kirchenvertreter | [Bote 187] | 23 n.H. | #bote |
 | [[Jabin]] | Leiter der [[Communis_Medici]] / Magister / Hospizleiter | [[Falkensee]] / [Bote 161] | 18 n.H. | #bote |
 | [[Himduir_III_ap_Vjer]] | Letzter König von Galadon / Untoter Heerfüher | [Bote 188] / [Kanon] | Historisch / 29 n.H. | #canon |
@@ -600,3 +602,4 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Birnbaum]] | Magister Extraordinarius | [Angamoniensis] | Historisch | #überlieferung |
 | [[Fogrim_Goldaxt]] | Schmied (Arkadons Schmiede) | [Bartanatomie] | Historisch | #überlieferung |
 | [[Allakath]] | Adeptus minor (ir hires ita'Glur) / Autor | [Magie - Etikette] | Historisch | #überlieferung |
+| [[Zwilfy_Wyrfel]] | Vagabundin / Musikerin / angehende Magierin | Forum 103300 | 26–27 n.H. | #perspektive |

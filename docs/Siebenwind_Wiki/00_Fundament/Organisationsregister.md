@@ -41,6 +41,7 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Handwerkshaus_Falkensee]] | Zunft / Ausbildung | [[Falkensee]] | #bote |
 | [[Schattenhand]] | Unterwelt / Diebesgilde | Unbekannt | #bote |
 | [[Bruderschaft_der_Tardukai]] | Orden des [[Angamon]] | [[Ewigwacht]] | #bote |
+| [[Akademie_zur_Linken]] | Institution des Pfades zur Linken | [[Finsterwangen]] / Kairodun (hist.) | #bote / #perspektive |
 | [[Terra_Dorotor]] | Kult (zerschlagen) | [[Brandenstein]] | #bote |
 | [[Magierturm_zu_Tiefenbach]] | Magische Ausbildung (Zerstört) | [[Tiefenbach]] (Hist.) | #canon |
 | [[Akademie_der_Schwarzen_Kuenste]] | Magische Ausbildung (Verboten) | Unbekannt | #canon |

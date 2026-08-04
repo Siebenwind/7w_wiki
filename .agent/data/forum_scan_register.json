@@ -307,8 +307,13 @@
       "post_count": 9,
       "fulltext_archived_at": "2026-07-15T15:33:20Z",
       "last_error": null,
-      "review_status": "historian_required",
-      "review_owner": "Historian"
+      "review_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integration_status": "integrated",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ibralosch_Goldfaust.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-02_Historian_Triage_Forum_110194.md",
+      "integrated_at": "2026-08-02T17:32:31Z"
     },
     {
       "board": "geschichten",
@@ -328,8 +333,13 @@
       "post_count": 8,
       "fulltext_archived_at": "2026-07-15T15:33:21Z",
       "last_error": null,
-      "review_status": "historian_required",
-      "review_owner": "Historian"
+      "review_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integration_status": "integrated",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/02_Geografie/Falkenwall.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-02_Historian_Triage_Forum_109969.md",
+      "integrated_at": "2026-08-02T15:33:24Z"
     },
     {
       "board": "geschichten",
@@ -556,7 +566,14 @@
       ],
       "post_count": 6,
       "fulltext_archived_at": "2026-07-15T20:00:06Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Die_Saeulen_des_Valkun.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-02_Historian_Triage_Forum_109948.md",
+      "integrated_at": "2026-08-02T15:33:20Z"
     },
     {
       "board": "geschichten",
@@ -575,7 +592,14 @@
       ],
       "post_count": 6,
       "fulltext_archived_at": "2026-07-15T19:59:59Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/00_Fundament/Ewigwacht.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-02_Historian_Triage_Forum_109946.md",
+      "integrated_at": "2026-08-02T15:33:11Z"
     },
     {
       "board": "geschichten",
@@ -2293,8 +2317,13 @@
       "post_count": 6,
       "fulltext_archived_at": "2026-07-15T20:11:39Z",
       "last_error": null,
-      "review_status": "historian_required",
-      "review_owner": "Historian"
+      "review_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integration_status": "integrated",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Zwilfy_Wyrfel.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-30_Historian_Triage_Forum_103300.md",
+      "integrated_at": "2026-07-30T17:50:06Z"
     },
     {
       "board": "geschichten",
@@ -2574,9 +2603,13 @@
       "post_count": 9,
       "fulltext_archived_at": "2026-07-27T17:54:24Z",
       "last_error": null,
-      "review_status": "historian_required",
-      "review_owner": "Historian",
-      "human_escalation_required": false
+      "review_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integration_status": "integrated",
+      "integrated_target": "docs/Siebenwind_Wiki/03_Gesellschaft/Bruderschaft_der_Tardukai.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-27_Historian_Triage_Forum_105027.md",
+      "integrated_at": "2026-07-30T17:50:06Z"
     },
     {
       "board": "geschichten",
@@ -2622,9 +2655,13 @@
       "post_count": 6,
       "fulltext_archived_at": "2026-07-27T17:54:24Z",
       "last_error": null,
-      "review_status": "historian_required",
-      "review_owner": "Historian",
-      "human_escalation_required": false
+      "review_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integration_status": "integrated",
+      "integrated_target": "docs/Siebenwind_Wiki/02_Geografie/Brandenstein.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-27_Historian_Triage_Forum_105420.md",
+      "integrated_at": "2026-07-30T17:25:02Z"
     },
     {
       "board": "geschichten",
@@ -2644,9 +2681,13 @@
       "post_count": 13,
       "fulltext_archived_at": "2026-07-27T17:54:24Z",
       "last_error": null,
-      "review_status": "historian_required",
-      "review_owner": "Historian",
-      "human_escalation_required": false
+      "review_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integration_status": "integrated",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Briefe_an_einen_Vitamageweihten.md",
+      "ingestion_report": "Logs/Ingestion/2026-07-27_Historian_Triage_Forum_105200.md",
+      "integrated_at": "2026-07-30T17:50:06Z"
     },
     {
       "board": "geschichten",
@@ -2654,11 +2695,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105411",
       "title": "Wacht für Angamon und ein erster Kontakt",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_wacht_f_r_angamon_und_ein_erster_kontakt.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_wacht_f_r_angamon_und_ein_erster_kontakt.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105411.html"
+      ],
+      "post_count": 6,
+      "fulltext_archived_at": "2026-08-02T17:24:03Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/03_Gesellschaft/Akademie_zur_Linken.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-02_Historian_Triage_Forum_105411.md",
+      "integrated_at": "2026-08-02T17:32:32Z"
     },
     {
       "board": "geschichten",
@@ -2666,11 +2721,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105233",
       "title": "Hinter dem Spiegel",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_hinter_dem_spiegel.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_hinter_dem_spiegel.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105233.html"
+      ],
+      "post_count": 7,
+      "fulltext_archived_at": "2026-08-02T17:24:04Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/03_Gesellschaft/Bruderschaft_der_Tardukai.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-02_Historian_Triage_Forum_105233.md",
+      "integrated_at": "2026-08-02T17:32:32Z"
     },
     {
       "board": "geschichten",
@@ -2678,11 +2747,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105471",
       "title": "Im Schloss zu Brandenstein",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_schloss_zu_brandenstein.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_schloss_zu_brandenstein.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105471.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-08-02T17:24:04Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/05_Geschichte/Aschespuren_in_Luth_Chalid_und_Brandenstein.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-02_Historian_Triage_Forum_105471.md",
+      "integrated_at": "2026-08-02T17:32:32Z"
     },
     {
       "board": "geschichten",
@@ -2690,11 +2773,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105386",
       "title": "Im Rathaus Luth Chalid's...",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_rathaus_luth_chalid_s.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_rathaus_luth_chalid_s.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105386.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-08-02T17:24:05Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/05_Geschichte/Aschespuren_in_Luth_Chalid_und_Brandenstein.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-02_Historian_Triage_Forum_105386.md",
+      "integrated_at": "2026-08-02T17:32:32Z"
     },
     {
       "board": "geschichten",
@@ -2702,11 +2799,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105371",
       "title": "Die Nacht im Hospitz von Brandenstein",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_nacht_im_hospitz_von_brandenstein.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_nacht_im_hospitz_von_brandenstein.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105371.html"
+      ],
+      "post_count": 5,
+      "fulltext_archived_at": "2026-08-04T14:10:01Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Die_Nacht_im_Hospiz_von_Brandenstein.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_105371_Die_Nacht_im_Hospiz_von_Brandenstein.md",
+      "integrated_at": "2026-08-04T14:20:39Z"
     },
     {
       "board": "geschichten",
@@ -2714,11 +2825,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105249",
       "title": "ein Abschied auf dauer?",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_abschied_auf_dauer.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_abschied_auf_dauer.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105249.html"
+      ],
+      "post_count": 3,
+      "fulltext_archived_at": "2026-08-04T14:10:02Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Lucy.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_105249_Lucys_Abschied.md",
+      "integrated_at": "2026-08-04T14:20:39Z"
     },
     {
       "board": "geschichten",
@@ -2726,11 +2851,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105164",
       "title": "Im starken Schutz des Höchsten.",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_starken_schutz_des_h_chsten.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_starken_schutz_des_h_chsten.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105164.html"
+      ],
+      "post_count": 2,
+      "fulltext_archived_at": "2026-08-04T14:10:02Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Im_starken_Schutz_des_Hoechsten.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_105164_Im_starken_Schutz_des_Hoechsten.md",
+      "integrated_at": "2026-08-04T14:20:39Z"
     },
     {
       "board": "geschichten",
@@ -2738,11 +2877,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105219",
       "title": "Eine Gesellschaft",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_gesellschaft.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_gesellschaft.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105219.html"
+      ],
+      "post_count": 1,
+      "fulltext_archived_at": "2026-08-04T14:10:03Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Balians_Gesellschaftsentwurf.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_105219_Balians_Gesellschaftsentwurf.md",
+      "integrated_at": "2026-08-04T14:20:40Z"
     },
     {
       "board": "geschichten",
@@ -2750,11 +2903,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105214",
       "title": "Ein Suizid",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_suizid.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_suizid.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105214.html"
+      ],
+      "post_count": 11,
+      "fulltext_archived_at": "2026-08-04T14:10:04Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Saranas_Tod.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Historian_Triage_Forum_105214.md",
+      "integrated_at": "2026-08-04T14:20:40Z"
     },
     {
       "board": "geschichten",
@@ -2762,11 +2929,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105159",
       "title": "Die Felsen in der Brandung",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_felsen_in_der_brandung.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_felsen_in_der_brandung.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105159.html"
+      ],
+      "post_count": 4,
+      "fulltext_archived_at": "2026-08-04T14:57:26Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Die_Felsen_in_der_Brandung.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_die_felsen_in_der_brandung.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-08-04T15:06:15Z"
     },
     {
       "board": "geschichten",
@@ -2774,11 +2955,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105188",
       "title": "Im Wüstensand",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_w_stensand.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_w_stensand.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105188.html"
+      ],
+      "post_count": 2,
+      "fulltext_archived_at": "2026-08-04T14:57:27Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Im_Wuestensand.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_im_wuestensand.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-08-04T15:06:16Z"
     },
     {
       "board": "geschichten",
@@ -2786,11 +2981,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105132",
       "title": "Bääääääääääärenkampf",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_b_renkampf.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_b_renkampf.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105132.html"
+      ],
+      "post_count": 4,
+      "fulltext_archived_at": "2026-08-04T14:57:27Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Baerenkampf_westlich_von_Brandenstein.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_baeaeaeaeaeaeaeaeaeaeaerenkampf.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-08-04T15:06:16Z"
     },
     {
       "board": "geschichten",
@@ -2798,11 +3007,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105060",
       "title": "Rückkehr eines Geschäftsmannes und Handwerkers",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_r_ckkehr_eines_gesch_ftsmannes_und_handwerkers.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_r_ckkehr_eines_gesch_ftsmannes_und_handwerkers.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105060.html"
+      ],
+      "post_count": 2,
+      "fulltext_archived_at": "2026-08-04T14:57:28Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Balian_Ruhnbert.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_rueckkehr_eines_geschaeftsmannes_und_handwerkers.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-08-04T15:06:16Z"
     },
     {
       "board": "geschichten",
@@ -2810,11 +3033,25 @@
       "scanned_at": "2026-07-27T17:54:16Z",
       "topic_id": "105023",
       "title": "Eine Hütte in der Wildnis",
-      "decision": "duplicate",
+      "decision": "archived_fulltext",
       "source_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_h_tte_in_der_wildnis.md",
       "dispatch_ref": null,
       "historian_comment": null,
-      "content_status": "metadata_only"
+      "content_status": "fulltext_archived",
+      "fulltext_ref": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_h_tte_in_der_wildnis.md",
+      "raw_html_refs": [
+        "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/105023.html"
+      ],
+      "post_count": 2,
+      "fulltext_archived_at": "2026-08-04T14:57:29Z",
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Eine_Huette_in_der_Wildnis.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-04_Forum_eine_huette_in_der_wildnis.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-08-04T15:06:16Z"
     },
     {
       "board": "geschichten",

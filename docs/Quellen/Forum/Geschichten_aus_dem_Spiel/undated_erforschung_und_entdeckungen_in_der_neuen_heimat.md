@@ -1,26 +1,29 @@
 ---
+title: "Erforschung und Entdeckungen in der neuen Heimat"
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=110194"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=110194"
-title: "Erforschung und Entdeckungen in der neuen Heimat"
 date: 2023-04-12
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 110194
 content_status: fulltext_archived
-review_status: historian_required
-review_owner: Historian
-dispatch_ref: MSG-2026-0169
+review_status: integrated
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
 human_escalation_required: false
+integration_status: integrated
+integrated_target: "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Ibralosch_Goldfaust.md"
+ingestion_report: "Logs/Ingestion/2026-08-02_Historian_Triage_Forum_110194.md"
+integrated_at: "2026-08-02T17:32:31Z"
 archived_at: "2026-07-15T15:33:20Z"
 post_count: 9
 topic_pages_archived: 1
 raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/110194.html"
+dispatch_ref: MSG-2026-0169
 ---
-
 # Erforschung und Entdeckungen in der neuen Heimat
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

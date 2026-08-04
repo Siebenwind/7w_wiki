@@ -1,8 +1,9 @@
 ---
 title: "Siebenwind Wiki - Persoenlichkeiten"
+category: Personen
 ---
 
-# [[Siebenwind]] Wiki - Persoenlichkeiten
+# Siebenwind Wiki - Persoenlichkeiten
 Das Archiv der Persoenlichkeiten.
 
 ## Inhalte
@@ -82,6 +83,7 @@ Das Archiv der Persoenlichkeiten.
 *   [[Ayk_Areson|Ayk Areson]]
 *   [[Azaris|Azaris]]
 *   [[Azgar_Kazanin|Azgar Kazanin]]
+*   [[Balian_Ruhnbert|Balian Ruhnbert]]
 *   [[Balean_Urs|Balean Urs]]
 *   [[Barad_Hael|Barad Hael]]
 *   [[Barath_Or|Barath Or]]
@@ -279,6 +281,7 @@ Das Archiv der Persoenlichkeiten.
 *   [[Hugo|Hugo]]
 *   [[Huns_Siebzehnruebl|Huns Siebzehnrübl]]
 *   [[Ian_Dejan|Ian Dejan]]
+*   [[Ibralosch_Goldfaust|Ibralosch Goldfaust]]
 *   [[Ignatius_von_Mendel|Ignatius von Mendel]]
 *   [[Ignaz_Moravio|Ignaz Moravio]]
 *   [[Igor|Igor]]
@@ -591,6 +594,7 @@ Das Archiv der Persoenlichkeiten.
 *   [[Zinnmännchen|Zinnmännchen]]
 *   [[Ziska_Himmelmann|Ziska Himmelmann]]
 *   [[Zoran_Gosh|Zoran Gosh]]
+*   [[Zwilfy_Wyrfel|Zwilfy Wyrfel]]
 *   [[Zyprian|Zyprian]]
 *   [[Zyraghlos_cé_Vegano|Zyraghlos cé Vegano]]
 *   [[al_Wechnett|al Wechnett]]

@@ -1,15 +1,15 @@
 ---
 id: MSG-2026-0170
 uuid: ac9849b5-3cc2-4111-9292-b4918f3d43e4
-status: OPEN
+status: DONE
 priority: NORMAL
 from_agent: Ingestor
 to_agent: Historian
 created_at: 2026-07-15T15:37:42Z
-claimed_by: 
-claimed_at: 
-completed_by: 
-completed_at: 
+claimed_by: Historian
+claimed_at: 2026-08-02T15:19:24Z
+completed_by: Historian
+completed_at: 2026-08-02T15:47:22Z
 subject: Historian-Triage Forum 109969: Von ewiger Treue
 ---
 # Historian-Triage Forum 109969: Von ewiger Treue
@@ -21,3 +21,5 @@ Quelle: docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_ewiger_treue.md
 ## Verlauf
 
 - OPEN: Nachricht erstellt.
+- CLAIMED (Historian): Nachricht uebernommen.
+- DONE (Historian): Forum 109969 integriert: Binnenperspektive auf Ewigwacht/Tardukai verteilt und Falkenwall chronologisch berichtigt. Offizielle Patchnotiz bestätigt Ronnoch-Folgen und weitgehenden Oger-Abtrag; behauptete Urheberschaft des Archivars bleibt unbestätigte Selbstdarstellung. Ingest integrated; Audit 0; Pages-Volltest grün, Linkbestand unverändert 624/622.

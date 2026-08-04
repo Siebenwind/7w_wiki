@@ -1,7 +1,7 @@
 ---
 uuid: 6af36c09-c985-4de8-9dc5-9680b9de9b5b
 status: ACTIVE
-updated_at: 2026-07-30T17:08:22Z
+updated_at: 2026-08-04T15:31:41Z
 epistemic: "#meta"
 ---
 
@@ -13,15 +13,20 @@ Zentrales Tracking fuer Ingestion-Auswertungen (wer/wann/wie + Scoreprofil).
 
 ## Snapshot
 
-- Reports gesamt: 85
-- Reports mit Tracking-Kernfeldern: 85
-- Reports mit LQS: 83
-- Dominante Score-Cluster: 2/2/4/2/4 (24), 5/5/5/4/4 (16), 4/4/5/4/4 (14)
+- Reports gesamt: 90
+- Reports mit Tracking-Kernfeldern: 90
+- Reports mit LQS: 88
+- Dominante Score-Cluster: 2/2/4/2/4 (29), 5/5/5/4/4 (16), 4/4/5/4/4 (14)
 
 ## Register
 
 | Report | Quelle | Ausgewertet von | Auswertungszeitpunkt (UTC) | Workflow/Skill | Dispatch | LQS | Profil |
 |---|---|---|---|---|---|---|---|
+| `Logs/Ingestion/2026-08-04_Forum_eine_huette_in_der_wildnis.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_h_tte_in_der_wildnis.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T15:01:16Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-08-04_Forum_baeaeaeaeaeaeaeaeaeaeaerenkampf.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_b_renkampf.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T15:01:15Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-08-04_Forum_im_wuestensand.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_w_stensand.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T15:01:15Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-08-04_Forum_rueckkehr_eines_geschaeftsmannes_und_handwerkers.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_r_ckkehr_eines_gesch_ftsmannes_und_handwerkers.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T15:01:15Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-08-04_Forum_die_felsen_in_der_brandung.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_felsen_in_der_brandung.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T15:01:14Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
 | `Logs/Ingestion/2026-07-27_Forum_ein_raedchen_im_uhrwerk.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_r_dchen_im_uhrwerk.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-27T17:56:29Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
 | `Logs/Ingestion/2026-07-27_Forum_ig_vor_dem_westtor_in_luth_chalid.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ig_vor_dem_westtor_in_luth_chalid.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-27T17:56:29Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
 | `Logs/Ingestion/2026-07-21_Forum_der_mann_in_ketten.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_mann_in_ketten.md | Codex / Scout + Ingestor + Wiki-Schmied + Time-Keeper | 2026-07-21T16:10:00Z | N/A | N/A | 4.2 | 2/2/4/3/4 |
