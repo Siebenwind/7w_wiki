@@ -22,6 +22,24 @@
             "reader-facing and machine-readable",
             "STATS_SNAPSHOT_latest\\.json"
           ]
+        },
+        {
+          "file": ".agent/scripts/generate_wiki_stats.py",
+          "must_include_regex": [
+            "BEGIN GENERATED PUBLIC ACTIVITY",
+            "collect_latest_historian_activity",
+            "sync_public_activity"
+          ]
+        },
+        {
+          "file": "docs/index.md",
+          "must_include_regex": [
+            "## Was geschieht\\?",
+            "BEGIN GENERATED PUBLIC ACTIVITY",
+            "Implementierte Neuerungen",
+            "Erkenntnisgewinn",
+            "Offen geblieben"
+          ]
         }
       ]
     },
@@ -46,6 +64,28 @@
             "\"ops_progress\"",
             "\"latest_tests\"",
             "\"generated_at_utc\""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reader-stats-pages-freshness",
+      "name": "Pages contract compares reader statistics with the current publication tree",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/scripts/pages_integrity.py",
+          "must_include_regex": [
+            "collect_publication_freshness",
+            "reader stats article count is stale",
+            "./7w_wiki\\.py stats",
+            "publication_freshness"
+          ]
+        },
+        {
+          "file": ".github/workflows/deploy.yml",
+          "must_include_regex": [
+            "./7w_wiki\\.py stats",
+            "pages validate --json --skip-audit"
           ]
         }
       ]

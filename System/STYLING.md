@@ -13,6 +13,7 @@ Dieses Dokument ist nur noch ein kurzer Operator-Hinweis.
 - `docs/Siebenwind_Wiki/` ist der einzige technische Edit- und Publishing-Baum fuer Wiki-Pages.
 - Das retired Root-Verzeichnis `Siebenwind_Wiki/` ist kein aktiver Edit-Pfad mehr.
 - UI- oder Theme-Aenderungen muessen gegen `docs/STYLING.md` und die Pages-Surface validiert werden.
+- `docs/assets/custom.css` ist der einzige geladene Bundle-Einstieg; direkte Parallelregistrierungen weiterer Theme-Dateien in `mkdocs.yml` erzeugen wieder eine geteilte Styling-Autoritaet.
 
 ---
 *Zuletzt aktualisiert: 09.04.2026 | Wave 2 Pages Surface Hardening*

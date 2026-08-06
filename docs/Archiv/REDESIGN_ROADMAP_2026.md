@@ -43,3 +43,10 @@ category: Archiv
 - Messpunkte: Aufrufzahlen der Einstiegsseiten, Suchnutzung, Sprungraten.
 - Quartalsweises UX-Review mit konkreten Anpassungsbeschluessen.
 - Dispatch-Loop fuer offene Design-, Lore- und Forschungsfragen.
+
+## Umsetzungsstand August 2026
+
+- Die mobile Startansicht ist verdichtet; Leserinnen und Leser erreichen Inhalt und Aktivitaet innerhalb des ersten Bildschirms.
+- `Was geschieht?` macht den letzten abgeschlossenen Historikerlauf als Umsetzung, Erkenntnisgewinn und offene Grenze sichtbar. Der Block wird mit `./7w_wiki.py stats` aus dem Changelog synchronisiert.
+- Breite Statistiktabellen und Mermaid-Grafiken bleiben auf schmalen Geraeten bedienbar, statt rechts abgeschnitten zu werden.
+- Der Pages-Vertrag prueft die Frische der sichtbaren Artikel-/Ingestion-Zahlen sowie einen Link-Ratchet. Der Altbestand darf schrittweise sinken, aber nicht durch neue Aenderungen wachsen.

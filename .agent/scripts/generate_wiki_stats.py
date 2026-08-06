@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import html
 import json
 import re
 import subprocess
@@ -19,6 +20,10 @@ INGESTION_REPORTS_DIR = LOGS_DIR / "Ingestion"
 TRACKING_REGISTER_FILE = LOGS_DIR / "INGESTION_TRACKING_REGISTER.md"
 STATS_SNAPSHOT_DIR = ARCHIVE_DIR
 STATS_SNAPSHOT_LATEST = STATS_SNAPSHOT_DIR / "STATS_SNAPSHOT_latest.json"
+PUBLIC_INDEX_FILE = PROJECT_ROOT / "docs" / "index.md"
+CHANGELOG_FILE = PROJECT_ROOT / "CHANGELOG.md"
+PUBLIC_ACTIVITY_START = "<!-- BEGIN GENERATED PUBLIC ACTIVITY -->"
+PUBLIC_ACTIVITY_END = "<!-- END GENERATED PUBLIC ACTIVITY -->"
 
 UNCLARIFIED_PATTERN = re.compile(r"\[UNGEKLAERT\]|\[UNGEKLÄRT\]", re.IGNORECASE)
 EPI_PATTERN = re.compile(
@@ -554,6 +559,104 @@ def weather_label(ops: dict, stats: dict) -> str:
     return "Klar: stabile Wissenslage mit kontrollierter Werkstattlast."
 
 
+def _activity_text(value: str, limit: int = 280) -> str:
+    value = re.sub(r"`([^`]+)`", r"\1", value)
+    value = re.sub(r"\[([^\]]+)\]\([^\)]+\)", r"\1", value)
+    value = re.sub(r"\s+", " ", value).strip()
+    if len(value) > limit:
+        value = value[: limit - 1].rsplit(" ", 1)[0] + "…"
+    return html.escape(value)
+
+
+def collect_latest_historian_activity() -> dict | None:
+    """Read the latest completed Historian changelog entry for the public landing page."""
+    if not CHANGELOG_FILE.exists():
+        return None
+    raw = CHANGELOG_FILE.read_text(encoding="utf-8")
+    entries = re.split(r"(?=^#### \[)", raw, flags=re.MULTILINE)
+    for entry in entries:
+        heading = re.match(r"^#### \[([^\]]+)\] - (.+)$", entry, flags=re.MULTILINE)
+        if not heading:
+            continue
+        title = heading.group(2).strip()
+        if "historiker" not in title.casefold() or "abgeschlossen" not in title.casefold():
+            continue
+        sections: dict[str, list[str]] = {}
+        current = ""
+        for line in entry.splitlines()[1:]:
+            section_match = re.match(r"^### (.+)$", line)
+            if section_match:
+                current = section_match.group(1).strip().casefold()
+                sections.setdefault(current, [])
+            elif current and line.startswith("- "):
+                sections[current].append(line[2:].strip())
+
+        additions = next((values for key, values in sections.items() if key.startswith("hinzu")), [])
+        changes = next((values for key, values in sections.items() if key.startswith("ge")), [])
+        insights = next((values for key, values in sections.items() if "erkenntnis" in key), [])
+        observations = next(
+            (values for key, values in sections.items() if key.startswith(("offen", "beobachtet"))),
+            [],
+        )
+        implementation = additions[:1] + changes[:1]
+        if not implementation:
+            implementation = (additions + changes)[:2]
+        return {
+            "id": heading.group(1).strip(),
+            "title": title,
+            "implementation": " ".join(implementation) or "Keine gesonderte Implementierung ausgewiesen.",
+            "insight": (insights or changes or additions or ["Kein gesonderter Erkenntnisgewinn ausgewiesen."])[0],
+            "open": (observations or insights[1:] or [
+                "Offene Unsicherheiten sind im vollständigen Historikerbericht dokumentiert."
+            ])[0],
+        }
+    return None
+
+
+def build_public_activity_block(activity: dict) -> str:
+    activity_id = html.escape(activity["id"])
+    title = html.escape(activity["title"])
+    return f"""{PUBLIC_ACTIVITY_START}
+<section class="public-activity" data-activity-id="{activity_id}" aria-label="Letzter Historikerlauf">
+  <p class="activity-meta"><strong>Stand {activity_id}</strong> · {title}</p>
+  <div class="activity-grid">
+    <article class="activity-card">
+      <h3>Implementierte Neuerungen</h3>
+      <p>{_activity_text(activity['implementation'])}</p>
+    </article>
+    <article class="activity-card">
+      <h3>Erkenntnisgewinn</h3>
+      <p>{_activity_text(activity['insight'])}</p>
+    </article>
+    <article class="activity-card activity-card-open">
+      <h3>Offen geblieben</h3>
+      <p>{_activity_text(activity['open'])}</p>
+    </article>
+  </div>
+  <p class="activity-more"><a href="CHANGELOG/">Vollständige Änderungschronik lesen</a></p>
+</section>
+{PUBLIC_ACTIVITY_END}"""
+
+
+def sync_public_activity() -> bool:
+    """Keep the reader-facing activity block coupled to the canonical stats run."""
+    activity = collect_latest_historian_activity()
+    if not activity or not PUBLIC_INDEX_FILE.exists():
+        return False
+    raw = PUBLIC_INDEX_FILE.read_text(encoding="utf-8")
+    pattern = re.compile(
+        re.escape(PUBLIC_ACTIVITY_START) + r".*?" + re.escape(PUBLIC_ACTIVITY_END),
+        flags=re.DOTALL,
+    )
+    if not pattern.search(raw):
+        raise RuntimeError("public activity markers missing in docs/index.md")
+    updated = pattern.sub(build_public_activity_block(activity), raw, count=1)
+    if updated == raw:
+        return False
+    PUBLIC_INDEX_FILE.write_text(updated, encoding="utf-8")
+    return True
+
+
 def generate_markdown(stats: dict, tracking: dict, ops: dict) -> str:
     source_coverage = percent(stats["files_with_resolved_quelle"], stats["total_files"])
     tracking_coverage = percent(tracking["with_core_tracking"], tracking["total_reports"])
@@ -803,6 +906,7 @@ if __name__ == "__main__":
     write_inventory(activity="stats", agent="generate_wiki_stats")
     markdown_content = generate_markdown(data, tracking, ops)
     snapshot = build_stats_snapshot(data, tracking, ops)
+    activity_updated = sync_public_activity()
     
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(markdown_content, encoding="utf-8")
@@ -816,3 +920,4 @@ if __name__ == "__main__":
         print(f"Tracking register updated at {TRACKING_REGISTER_FILE}")
         print(f"Stats snapshot written to {STATS_SNAPSHOT_LATEST}")
         print(f"Stats snapshot archived at {snapshot_path}")
+        print(f"Public activity block {'updated' if activity_updated else 'already current'} at {PUBLIC_INDEX_FILE}")

@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Configure Python
         uses: actions/setup-python@v5
@@ -39,10 +41,13 @@ jobs:
         run: |
           rm -rf docs/Quellen
           cp -rp Quellen docs/
+
+      - name: Synchronize reader surfaces
+        run: ./7w_wiki.py stats
       
-      - name: Build site
+      - name: Validate and build publication surface
         run: |
-          mkdocs build --clean
+          ./7w_wiki.py pages validate --json --skip-audit
           touch site/.nojekyll
 
       - name: Setup Pages

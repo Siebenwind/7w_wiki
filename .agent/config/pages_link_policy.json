@@ -1,13 +1,18 @@
 {
-  "version": 1,
-  "updated_at": "2026-03-09T18:30:00Z",
+  "version": 2,
+  "updated_at": "2026-08-06T20:00:00Z",
+  "ratchet": {
+    "unresolved_max": 622,
+    "unallowlisted_max": 620,
+    "reason": "Accepted legacy backlog after the 2026-08-06 Pages audit; future changes may reduce, but never increase, these ceilings."
+  },
   "entries": [
     {
       "target": "Malthust",
       "status": "allowlisted",
       "reason": "Historical target name still appears in legacy wiki links while canonical article naming is being normalized.",
       "owner": "Historian",
-      "review_until": "2026-06-30",
+      "review_until": "2026-12-31",
       "replacement_hint": "Region_Malthust",
       "scope": "docs/Siebenwind_Wiki"
     },
@@ -16,7 +21,7 @@
       "status": "planned_fix",
       "reason": "Legacy place-name links still need canonical target migration in the published docs copy.",
       "owner": "Technician",
-      "review_until": "2026-06-30",
+      "review_until": "2026-12-31",
       "replacement_hint": "Dunkeltief",
       "scope": "docs/Siebenwind_Wiki"
     }

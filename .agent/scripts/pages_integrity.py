@@ -29,6 +29,8 @@ WIKI_DIR = TECHNICAL_WIKI_ROOT
 PAGES_POLICY_PATH = REPO_ROOT / ".agent" / "config" / "pages_link_policy.json"
 PAGES_HEALTH_PATH = REPO_ROOT / ".agent" / "data" / "pages_health.json"
 VENV_MKDOCS = REPO_ROOT / ".venv" / "bin" / "mkdocs"
+READER_STATS_PATH = WIKI_DIR / "10_Archiv" / "Wiki_Statistiken.md"
+TRACKING_REGISTER_PATH = REPO_ROOT / "Logs" / "INGESTION_TRACKING_REGISTER.md"
 
 ROAMLINK_WARNING_RE = re.compile(
     r"RoamLinksPlugin unable to find (?P<target>.+?) in directory (?P<directory>.+)$"
@@ -122,6 +124,124 @@ def policy_entry_map() -> dict[str, dict]:
             continue
         mapped[normalize_key(target)] = entry
     return mapped
+
+
+def policy_expiry_summary(policy: dict | None = None) -> dict:
+    """Return expired policy entries so temporary exceptions cannot live forever."""
+    policy = policy or load_pages_link_policy()
+    today = datetime.now(timezone.utc).date()
+    expired_targets: list[str] = []
+    invalid_targets: list[str] = []
+    for entry in policy.get("entries", []):
+        target = str(entry.get("target", "")).strip()
+        raw_review_until = str(entry.get("review_until", "")).strip()
+        if not target or not raw_review_until:
+            invalid_targets.append(target or "<missing-target>")
+            continue
+        try:
+            if datetime.strptime(raw_review_until, "%Y-%m-%d").date() < today:
+                expired_targets.append(target)
+        except ValueError:
+            invalid_targets.append(target)
+    return {
+        "status": "PASS" if not expired_targets and not invalid_targets else "FAIL",
+        "expired_total": len(expired_targets),
+        "expired_targets": expired_targets,
+        "invalid_total": len(invalid_targets),
+        "invalid_targets": invalid_targets,
+    }
+
+
+def collect_link_ratchet(
+    unresolved_total: int | None,
+    unallowlisted_total: int | None,
+    *,
+    policy: dict | None = None,
+) -> dict:
+    """Compare the current legacy-link backlog with the accepted ceiling."""
+    policy = policy or load_pages_link_policy()
+    baseline = policy.get("ratchet", {})
+    unresolved_max = baseline.get("unresolved_max")
+    unallowlisted_max = baseline.get("unallowlisted_max")
+    expiry = policy_expiry_summary(policy)
+    reasons: list[str] = []
+
+    if unresolved_max is None or unallowlisted_max is None:
+        reasons.append("link ratchet baseline missing")
+    if unresolved_total is not None and unresolved_max is not None and unresolved_total > int(unresolved_max):
+        reasons.append(f"unresolved links increased: {unresolved_total} > {unresolved_max}")
+    if (
+        unallowlisted_total is not None
+        and unallowlisted_max is not None
+        and unallowlisted_total > int(unallowlisted_max)
+    ):
+        reasons.append(f"unallowlisted links increased: {unallowlisted_total} > {unallowlisted_max}")
+    if expiry["status"] == "FAIL":
+        reasons.append("link policy contains expired or invalid review dates")
+
+    if reasons:
+        status = "FAIL"
+    elif unresolved_total is None or unallowlisted_total is None:
+        status = "UNKNOWN"
+    else:
+        status = "PASS"
+    return {
+        "status": status,
+        "baseline": {
+            "unresolved_max": unresolved_max,
+            "unallowlisted_max": unallowlisted_max,
+        },
+        "actual": {
+            "unresolved_total": unresolved_total,
+            "unallowlisted_total": unallowlisted_total,
+        },
+        "policy_expiry": expiry,
+        "reasons": reasons,
+    }
+
+
+def _first_int(raw: str, pattern: str) -> int | None:
+    match = re.search(pattern, raw, flags=re.MULTILINE)
+    return int(match.group(1)) if match else None
+
+
+def collect_publication_freshness() -> dict:
+    """Check that reader-facing statistics match the current publishing tree."""
+    expected_articles = sum(
+        1
+        for path in WIKI_DIR.rglob("*.md")
+        if path.name != READER_STATS_PATH.name
+    ) if WIKI_DIR.exists() else 0
+    stats_raw = READER_STATS_PATH.read_text(encoding="utf-8") if READER_STATS_PATH.exists() else ""
+    register_raw = TRACKING_REGISTER_PATH.read_text(encoding="utf-8") if TRACKING_REGISTER_PATH.exists() else ""
+
+    published_articles = _first_int(stats_raw, r"^\| Artikel \| \*\*(\d+)\*\* \|$")
+    published_tracking_total = _first_int(
+        stats_raw,
+        r"^\| Ingestion Tracking vollstaendig \| \d+/(\d+) \|",
+    )
+    register_tracking_total = _first_int(register_raw, r"^- Reports gesamt: (\d+)$")
+    reasons: list[str] = []
+    if published_articles != expected_articles:
+        reasons.append(
+            f"reader stats article count is stale: {published_articles} != {expected_articles}"
+        )
+    if published_tracking_total != register_tracking_total:
+        reasons.append(
+            "reader stats ingestion total differs from the tracking register: "
+            f"{published_tracking_total} != {register_tracking_total}"
+        )
+    return {
+        "status": "FAIL" if reasons else "PASS",
+        "expected_articles": expected_articles,
+        "published_articles": published_articles,
+        "tracking_register_total": register_tracking_total,
+        "published_tracking_total": published_tracking_total,
+        "stats_page": str(READER_STATS_PATH.relative_to(REPO_ROOT)),
+        "tracking_register": str(TRACKING_REGISTER_PATH.relative_to(REPO_ROOT)),
+        "sync_command": "./7w_wiki.py stats",
+        "reasons": reasons,
+    }
 
 
 def load_pages_health_snapshot() -> dict | None:
@@ -379,6 +499,7 @@ def collect_pages_contract_report(config: str = "mkdocs.yml") -> dict:
     _, link_meta = build_docs_link_index(config=config, return_meta=True)
     _, canonical_meta = build_canonical_name_index(config=config, return_meta=True)
     root_state = legacy_root_status()
+    publication_freshness = collect_publication_freshness()
 
     pages_health = dict(snapshot.get("pages_health", {})) if snapshot else {}
     pages_health["canonical_wiki_root"] = str(TECHNICAL_WIKI_ROOT.relative_to(REPO_ROOT))
@@ -402,6 +523,11 @@ def collect_pages_contract_report(config: str = "mkdocs.yml") -> dict:
     }
     pages_health["snapshot_based"] = bool(snapshot)
     pages_health["snapshot_written"] = False
+    pages_health["publication_freshness"] = publication_freshness
+    pages_health["link_ratchet"] = collect_link_ratchet(
+        pages_health.get("unresolved_total") if snapshot else None,
+        pages_health.get("unallowlisted_total") if snapshot else None,
+    )
     pages_health.setdefault("targets", [])
     pages_health.setdefault("other_warnings", [])
     pages_health.setdefault(
@@ -430,6 +556,10 @@ def collect_pages_contract_report(config: str = "mkdocs.yml") -> dict:
         static_failures.append("docs dir missing")
     if drift["status"] == "FAIL":
         static_failures.append("retired root tree unexpectedly present")
+    if publication_freshness["status"] == "FAIL":
+        static_failures.extend(publication_freshness["reasons"])
+    if pages_health["link_ratchet"]["status"] == "FAIL":
+        static_failures.extend(pages_health["link_ratchet"]["reasons"])
 
     if static_failures:
         status = "FAIL"
@@ -470,6 +600,7 @@ def collect_pages_contract_report(config: str = "mkdocs.yml") -> dict:
 
 def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = False, *, fast: bool = False) -> dict:
     started_total = time.perf_counter()
+    publication_freshness = collect_publication_freshness()
     if fast:
         snapshot = load_pages_health_snapshot()
         drift, drift_meta = collect_tree_drift(config=config, return_meta=True)
@@ -534,7 +665,18 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
             "tree_drift": drift_meta,
         }
         pages_health["snapshot_based"] = True
-        pages_health["status"] = "FAIL" if drift["status"] == "FAIL" else pages_health.get("status", "UNKNOWN")
+        pages_health["publication_freshness"] = publication_freshness
+        pages_health["link_ratchet"] = collect_link_ratchet(
+            pages_health.get("unresolved_total"),
+            pages_health.get("unallowlisted_total"),
+        )
+        pages_health["status"] = (
+            "FAIL"
+            if drift["status"] == "FAIL"
+            or publication_freshness["status"] == "FAIL"
+            or pages_health["link_ratchet"]["status"] == "FAIL"
+            else pages_health.get("status", "UNKNOWN")
+        )
         pages_health.setdefault("other_warnings", [])
         pages_health["other_warnings"] = list(pages_health["other_warnings"]) + [
             "Fast precheck uses cached analyses and the latest Pages snapshot; run full validate for a hard gate."
@@ -671,6 +813,11 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
         )
     target_grouping_duration_ms = round((time.perf_counter() - grouping_started) * 1000, 2)
 
+    link_ratchet = collect_link_ratchet(
+        sum(item["count"] for item in targets),
+        unallowlisted_total,
+    )
+
     pages_status = "PASS"
     if proc.returncode != 0:
         pages_status = "FAIL"
@@ -682,6 +829,8 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
         pages_status = "FAIL"
     elif drift["status"] == "WARN" and pages_status == "PASS":
         pages_status = "WARN"
+    if publication_freshness["status"] == "FAIL" or link_ratchet["status"] == "FAIL":
+        pages_status = "FAIL"
 
     stdout_preview = "\n".join(proc.stdout.splitlines()[:20])
     stderr_preview = "\n".join(proc.stderr.splitlines()[:20])
@@ -731,6 +880,8 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
             "allowlisted_total": allowlisted_total,
             "planned_fix_total": planned_fix_total,
             "unallowlisted_total": unallowlisted_total,
+            "publication_freshness": publication_freshness,
+            "link_ratchet": link_ratchet,
             "classification_counts": classification_counts,
             "targets": targets,
             "other_warnings": other_warnings,

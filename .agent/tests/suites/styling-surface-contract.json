@@ -19,7 +19,24 @@
           "must_include_regex": [
             "docs/assets/themes/base\\.css",
             "docs/assets/themes/material\\.css",
+            "docs/assets/custom\\.css",
             "production-only"
+          ]
+        },
+        {
+          "file": "mkdocs.yml",
+          "must_include_regex": [
+            "extra_css:[\\s\\S]*assets/custom\\.css"
+          ]
+        },
+        {
+          "file": "docs/assets/custom.css",
+          "must_include_regex": [
+            "@import url\\(\"\\./themes/base\\.css\"\\)",
+            "@import url\\(\"\\./themes/material\\.css\"\\)",
+            "\\.md-typeset__table[\\s\\S]*overflow-x: auto",
+            "\\.activity-grid",
+            "min-height: 44px"
           ]
         }
       ]

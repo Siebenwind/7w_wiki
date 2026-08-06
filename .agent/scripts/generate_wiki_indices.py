@@ -30,6 +30,7 @@ def generate_indices(target_dir: Path) -> None:
         category_name = root_path.name
         category_title = category_name.split("_", 1)[-1] if "_" in category_name else category_name
         category_title = category_title.replace("_", " ")
+        page_title = f"{nexus_config.WORLD_NAME} Wiki - {category_title}"
         index_path = root_path / "index.md"
 
         md_files = [f for f in files if f.endswith(".md") and f != "index.md"]
@@ -37,11 +38,11 @@ def generate_indices(target_dir: Path) -> None:
 
         content = [
             "---",
-            f'title: "{category_title}"',
+            f'title: "{page_title}"',
             f"category: {category_title}",
             "---",
             "",
-            f"# [[{nexus_config.WORLD_NAME}]] Wiki - {category_title}",
+            f"# {page_title}",
             "",
             f"Indexseite fuer die Sektion {category_title}.",
             "",

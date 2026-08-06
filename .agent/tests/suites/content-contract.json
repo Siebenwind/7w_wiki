@@ -28,6 +28,20 @@
         "split_brain.files",
         "cache.inputs_fingerprint"
       ]
+    },
+    {
+      "id": "generated-index-title-contract",
+      "name": "Generated category indices use the same canonical title in frontmatter and H1",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/scripts/generate_wiki_indices.py",
+          "must_include_regex": [
+            "page_title = f\"\\{nexus_config\\.WORLD_NAME\\} Wiki - \\{category_title\\}\"",
+            "title: \\\"\\{page_title\\}\\\"",
+            "# \\{page_title\\}"
+          ]
+        }
+      ]
     }
   ]
 }

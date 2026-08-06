@@ -4,20 +4,40 @@ title: Siebenwind Archiv
 category: Index
 ---
 
-# Siebenwind Archiv
-
 <div class="hero-wrapper">
   <p class="hero-kicker">Wissens-Archiv der Siebenwind-Welt (Lore-Status: 30 n.H. / 2026)</p>
   <h1 class="hero-title">Siebenwind Archiv</h1>
-  <p class="hero-subtitle">Wissen, Chroniken und Quellen der Welt Siebenwind: KI-gestuetzt erschlossen, redaktionell geprueft und langfristig bewahrt. Ingestations-Fortschritt: Siebenwind Bote 194 erreicht.</p>
+  <p class="hero-subtitle">Wissen, Chroniken und Quellen der Welt Siebenwind – quellenkritisch erschlossen, redaktionell geprueft und dauerhaft bewahrt.</p>
   <div class="hero-actions">
     <a href="Siebenwind_Wiki/" class="hero-action hero-action-primary">Lesen starten</a>
     <a href="Siebenwind_Wiki/10_Archiv/Interessante_Artikel/" class="hero-action">Interessante Artikel</a>
-    <a href="Siebenwind_Wiki/04_Chronik/" class="hero-action">Zur Chronik</a>
   </div>
 </div>
 
-<p class="section-lead">Diese Startseite priorisiert Leserfuehrung. Produktions-Banner werden nach Freigabe als visuelle Ebene ergänzt.</p>
+## Was geschieht?
+
+Der letzte abgeschlossene Historikerlauf wird hier inhaltlich sichtbar – mit Umsetzung, Erkenntnis und bewusst offen gelassenen Fragen.
+
+<!-- BEGIN GENERATED PUBLIC ACTIVITY -->
+<section class="public-activity" data-activity-id="2026-08-04.03" aria-label="Letzter Historikerlauf">
+  <p class="activity-meta"><strong>Stand 2026-08-04.03</strong> · Forum-Historikerbatch zu Hadernblättern, Falkenwall, Avindhrell und Maichellis abgeschlossen</p>
+  <div class="activity-grid">
+    <article class="activity-card">
+      <h3>Implementierte Neuerungen</h3>
+      <p>Zwei neue Erzaehlungsseiten bewahren Lehrgeschichten und den Falkenseer Einbruch von 27 n.H. Bestehende Seiten zu Falkenwall, Auenelfen, Avindhrell und Maichellis wurden mit klar getrennten Quellenrängen erweitert.</p>
+    </article>
+    <article class="activity-card">
+      <h3>Erkenntnisgewinn</h3>
+      <p>Der Skelettangriff auf Falkenwall und Maichellis' belegte Rollen lassen sich dichter einordnen. Forumtexte ergaenzen dabei den amtlichen Wochenueberblick, ersetzen ihn aber nicht.</p>
+    </article>
+    <article class="activity-card activity-card-open">
+      <h3>Offen geblieben</h3>
+      <p>Taeter, Kartenzeichen und Verwandtschaft aus dem Falkenseer Einbruch bleiben unbelegt; die endophalischen Lehrgeschichten gelten weiterhin als Ueberlieferung, nicht als bestaetigte Chronik.</p>
+    </article>
+  </div>
+  <p class="activity-more"><a href="CHANGELOG/">Vollständige Änderungschronik lesen</a></p>
+</section>
+<!-- END GENERATED PUBLIC ACTIVITY -->
 
 ## Empfohlener Einstieg in 3 Minuten
 
@@ -67,8 +87,7 @@ category: Index
 
 ## Interessante Artikel
 
-Die Archivseite ist jetzt zweigeteilt: kuratierte Lesestrecken plus freigegebene Forschungsresultate.
-Aktuelle Rotation April 2026: **Unter dem Weissen Hochturm**. Laufende Historian-Faelle bleiben auf dem Research Board sichtbar und werden erst nach Klaerung als Neuveroeffentlichung gefeatured.
+Hier stehen kuratierte Lesestrecken und freigegebene Forschungsresultate. Laufende Historikerfaelle bleiben auf dem Research Board sichtbar und werden erst nach quellenkritischer Klaerung hervorgehoben.
 
 <div class="featured-grid">
   <a href="Archiv/Historian_Report_2026_003/" class="featured-card">

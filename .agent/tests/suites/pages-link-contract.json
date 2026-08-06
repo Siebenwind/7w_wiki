@@ -15,7 +15,16 @@
             "\"target\"",
             "\"status\"",
             "\"owner\"",
-            "\"review_until\""
+            "\"review_until\"",
+            "\"ratchet\"",
+            "\"unresolved_max\"",
+            "\"unallowlisted_max\""
+          ]
+        },
+        {
+          "file": ".agent/scripts/pages_tool.py",
+          "must_include_regex": [
+            "pages_health\\.get\\(\"status\"\\) == \"FAIL\"[\\s\\S]*exit_code = 1"
           ]
         }
       ]
@@ -49,6 +58,11 @@
         "pages_health.legacy_wiki_root",
         "pages_health.drift_status",
         "pages_health.drift_counts.docs_only_files",
+        "pages_health.publication_freshness.status",
+        "pages_health.link_ratchet.status",
+        "pages_health.link_ratchet.baseline.unresolved_max",
+        "pages_health.link_ratchet.baseline.unallowlisted_max",
+        "pages_health.link_ratchet.policy_expiry.status",
         "validation_timing_ms.total",
         "build.reason",
         "pages_health.analysis_cache.docs_link_index.path",
@@ -71,7 +85,9 @@
       },
       "expect_json_path_in": {
         "pages_health.status": ["PASS", "WARN", "FAIL"],
-        "pages_health.drift_status": ["PASS", "WARN", "FAIL"]
+        "pages_health.drift_status": ["PASS", "WARN", "FAIL"],
+        "pages_health.publication_freshness.status": ["PASS", "FAIL"],
+        "pages_health.link_ratchet.status": ["PASS", "UNKNOWN"]
       },
       "timeout_sec": 120
     },

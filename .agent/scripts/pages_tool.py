@@ -275,6 +275,9 @@ def _build_validate_report(args):
     elif pages_health.get("drift_status") == "FAIL":
         final_status = "FAIL"
         exit_code = 1
+    elif pages_health.get("status") == "FAIL":
+        final_status = "FAIL"
+        exit_code = 1
     elif args.strict and not args.fast and non_roamlink_warning_count > 0:
         final_status = "FAIL"
         exit_code = 1

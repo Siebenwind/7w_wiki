@@ -33,12 +33,17 @@ Kanonischer Vertrag fuer Drift-Praevention, Pages-Integritaet und epistemische P
 4. `./7w_wiki.py audit --pages` spiegelt denselben Site-Zustand im Audit.
 5. `./7w_wiki.py repair --fix-roamlinks --auto` ist der begrenzte Reparaturpfad fuer hohe Trefferwahrscheinlichkeit.
 6. Pages-Warnungen pruefen technischen Publishing-Drift; sie entscheiden keine Lore-Wahrheit gegen Homepage oder Quellen.
+7. Der in `.agent/config/pages_link_policy.json` gefuehrte Ratchet ist eine Obergrenze: Ein Commit darf `unresolved_total` oder `unallowlisted_total` nicht ueber den zuletzt akzeptierten Altbestand anheben. Verringerungen werden zur neuen Zielrichtung, nicht durch neue Links wieder aufgefuellt.
+8. Policy-Ausnahmen benoetigen ein gueltiges `review_until`; abgelaufene oder unlesbare Fristen machen die Pages-Pruefung rot.
+9. Die lesbare Statistikseite muss Artikelzahl und Ingestion-Gesamtstand des aktuellen Publishing-Baums wiedergeben. Bei Abweichung ist `./7w_wiki.py stats` auszufuehren, bevor Pages gebaut werden.
+10. `docs/index.md` enthaelt einen generierten Aktivitaetsblock. Derselbe Statistiklauf synchronisiert dort den juengsten abgeschlossenen Historikerlauf aus `CHANGELOG.md`.
 
 ## Traceability
 
 1. Maschinenlesbare Zustandsdaten leben in `.agent/data/wiki_inventory.json` und `.agent/data/pages_health.json`.
 2. Kontrollsummen, Timestamps und Klassifikationen sind Inventar-/Snapshot-Daten, keine Lore-Inhalte.
 3. Read-only-Pruefungen sollen keine globalen Schreib-Side-Effects erzeugen.
+4. GitHub Pages baut nur nach erfolgreichem `./7w_wiki.py pages validate --json --skip-audit`; ein blosser MkDocs-Bau ist kein ausreichender Freigabenachweis.
 
 ## Sync- und Doku-Regeln
 

@@ -1,5 +1,19 @@
 # Changelog
 
+#### [2026-08-06.02] - Pages-Pflegevertrag, Leserfokus und mobile Darstellung gehaertet
+### Prioritaet: P1
+### Hinzugefuegt
+- Die Startseite zeigt unter dem kompakten Hero den letzten abgeschlossenen Historikerlauf als `Implementierte Neuerungen`, `Erkenntnisgewinn` und `Offen geblieben`; `./7w_wiki.py stats` synchronisiert diesen Block aus dem Changelog.
+- Der Pages-Bericht vergleicht die sichtbare Artikel- und Ingestion-Zahl mit dem aktuellen Publishing-Baum und meldet veraltete statische Statistiken als Fehler.
+- Ein Link-Ratchet setzt den bekannten Altbestand auf hoechstens `622` unresolved und `620` unallowlisted Verweise; abgelaufene Policy-Ausnahmen sind nun ein harter Fehler.
+### Geaendert
+- Mobile Kartenraster sind einspaltig, der Hero ist deutlich kuerzer, Bedienelemente sind beruehrungsfreundlich und breite Tabellen beziehungsweise Mermaid-Grafiken bleiben horizontal erreichbar.
+- `docs/assets/custom.css` ist der einzige geladene Styling-Einstieg und importiert die portable Basis- sowie Material-Schicht in fester Reihenfolge.
+- GitHub Pages verwendet den kanonischen Pages-Validierungspfad statt eines ungesicherten direkten MkDocs-Baus; generierte Kategorieindizes erhalten kuenftig uebereinstimmende Titel und H1.
+### Validiert
+- `reader-stats-contract`: PASS (3/3); `styling-surface-contract`: PASS.
+- Pages-Vertrag, voller Pages-Bau, gerenderte Struktur-/Mobil-CSS-Pruefung und Commit-Hygiene: siehe zugehoerigen Session-Abschluss.
+
 #### [2026-08-04.05] - 41 Forumvolltexte archiviert und nächsten Historikerlauf vorbereitet
 ### Prioritaet: P2
 ### Hinzugefügt
