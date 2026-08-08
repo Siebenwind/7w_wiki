@@ -14,6 +14,7 @@ This adapter is generated from the canonical catalog. Runtime execution stays on
 `./7w_wiki.py test --suite clean-client-state`
 
 ## Follow-up Commands
+- `./7w_wiki.py test --suite historian-closeout-contract`
 - `./7w_wiki.py test --suite all`
 - `./7w_wiki.py test --suite adapter-surfaces-contract`
 

@@ -42,6 +42,12 @@ Der Erzählkomplex dokumentiert konkurrierende Selbstbilder innerhalb des Angamo
 
 Für die behauptete Schlacht des Jahres 28 n.H., die Gründungsmotive Angamonis und die Vorgänge im alten und neuen Hochturm fehlen in diesem Fall höherwertige Bestätigungen. Sie bleiben quellengebundene Überlieferungen.
 
+## Ergänzende Valkun-Überlieferung
+
+Der ältere Forumkomplex [[Dunkle_Tage_Lichte_Naechte|Dunkle Tage, Lichte Nächte]] schildert Valkuns Tod durch zwei Dämonen unmittelbar und lässt ihn dabei seine Rolle in Kairodun, Schattenhand und dem Fall Falkensees rückblickend rechtfertigen. Das stützt die erzählerische Kontinuität der späteren „Säulen“, ist aber keine unabhängige Bestätigung: Beide Texte gehören demselben parteilichen Überlieferungsumfeld an.
+
+Die ältere Quelle macht Valkuns Gesellschaftsentwurf und den Konflikt mit den Tardukai verständlicher. Sie zeigt zugleich, dass er Täuschung und unterschiedliche Bündnispartner bewusst als Werkzeuge behandelte. Seine späteren Selbsterklärungen gewinnen dadurch Kontext, nicht automatisch Wahrheit.
+
 ## Verlinkte Themen
 
 - [[Enoah_Sullin|Enoah Sullin]]
@@ -58,5 +64,8 @@ Für die behauptete Schlacht des Jahres 28 n.H., die Gründungsmotive Angamonis 
 - Primärquelle: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_s_ulen_des_valkun.md`
 - Raw HTML: `../../Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/109948.html`
 - Ergänzende Chronik zur Schattenhand: `../../Quellen/Zeitung 7w Bote/Siebenwind_Bote_180.md`
+- Ergänzende Valkun-Überlieferung: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_dunkle_tage_lichte_n_chte.md`
 
 > [!ABSTRACT] Prüfbericht verfügbar: `../../../Logs/Ingestion/2026-08-02_Historian_Triage_Forum_109948.md` (ID: d7a58af3-716b-4e04-9281-0eced32c7228)
+
+> [!ABSTRACT] Ergänzender Prüfbericht: `../../../Logs/Ingestion/2026-08-05_Forum_dunkle_tage_lichte_naechte.md` (ID: f8825a7c-e5b2-4414-85c2-915125efd699)

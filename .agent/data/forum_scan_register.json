@@ -53,7 +53,14 @@
       ],
       "post_count": 9,
       "fulltext_archived_at": "2026-04-19T14:38:31Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/03_Gesellschaft/Gefaengnissystem_in_Galadon.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_hintergrundexkurse.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-08-05T12:11:22Z"
     },
     {
       "board": "geschichten",
@@ -696,7 +703,14 @@
       ],
       "post_count": 2,
       "fulltext_archived_at": "2026-08-04T17:09:59Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_wahrste_Wahrheit_ueber_Orken.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_die_wahrste_wahrheit_ueber_orken.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-08-05T12:14:44Z"
     },
     {
       "board": "geschichten",
@@ -715,7 +729,14 @@
       ],
       "post_count": 1,
       "fulltext_archived_at": "2026-08-04T17:09:59Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/00_Fundament/Ewigwacht.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_ewigwacht.md",
+      "integrated_at": "2026-08-05T12:16:42Z"
     },
     {
       "board": "geschichten",
@@ -734,7 +755,14 @@
       ],
       "post_count": 16,
       "fulltext_archived_at": "2026-08-04T17:10:00Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Allerlei_aus_Finsterwangen.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_allerlei_aus_finsterwangen.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-08-05T12:19:45Z"
     },
     {
       "board": "geschichten",
@@ -753,7 +781,14 @@
       ],
       "post_count": 4,
       "fulltext_archived_at": "2026-08-04T17:10:00Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Neues_Chaos_auf_Tevras_Pfaden.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_neues_chaos_auf_tevras_pfaden.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-08-05T12:22:47Z"
     },
     {
       "board": "geschichten",
@@ -772,7 +807,14 @@
       ],
       "post_count": 6,
       "fulltext_archived_at": "2026-08-04T17:10:01Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Traumtagebuch.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_traumtagebuch.md",
+      "integrated_at": "2026-08-05T14:18:22Z"
     },
     {
       "board": "geschichten",
@@ -791,7 +833,14 @@
       ],
       "post_count": 6,
       "fulltext_archived_at": "2026-08-04T17:10:01Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Blutrache.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_blutrache.md",
+      "integrated_at": "2026-08-05T14:21:45Z"
     },
     {
       "board": "geschichten",
@@ -810,7 +859,14 @@
       ],
       "post_count": 3,
       "fulltext_archived_at": "2026-08-04T17:10:01Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Woelfe_bewegen_sich_gern_im_Rudel.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_woelfe_bewegen_sich_gern_im_rudel.md",
+      "integrated_at": "2026-08-05T14:25:54Z"
     },
     {
       "board": "geschichten",
@@ -829,7 +885,14 @@
       ],
       "post_count": 1,
       "fulltext_archived_at": "2026-08-04T17:10:02Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Von_Schiffen_und_Schmerzen.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_von_schiffen_und_schmerzen.md",
+      "integrated_at": "2026-08-05T14:29:11Z"
     },
     {
       "board": "geschichten",
@@ -848,7 +911,14 @@
       ],
       "post_count": 1,
       "fulltext_archived_at": "2026-08-04T17:10:02Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Reinigung_des_Morsanschreins.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_reinigung_des_morsanschreins.md",
+      "integrated_at": "2026-08-05T14:33:05Z"
     },
     {
       "board": "geschichten",
@@ -867,7 +937,14 @@
       ],
       "post_count": 1,
       "fulltext_archived_at": "2026-08-04T17:10:02Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Haus_9_in_Brandenstein.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_haus_9_in_brandenstein.md",
+      "integrated_at": "2026-08-05T15:45:07Z"
     },
     {
       "board": "geschichten",
@@ -886,7 +963,14 @@
       ],
       "post_count": 29,
       "fulltext_archived_at": "2026-08-04T17:10:03Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Dunkle_Tage_Lichte_Naechte.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_dunkle_tage_lichte_naechte.md",
+      "integrated_at": "2026-08-05T15:51:48Z"
     },
     {
       "board": "geschichten",
@@ -905,7 +989,14 @@
       ],
       "post_count": 6,
       "fulltext_archived_at": "2026-08-04T17:10:03Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Weg_in_den_Wahnsinn.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_weg_in_den_wahnsinn.md",
+      "integrated_at": "2026-08-05T15:53:28Z"
     },
     {
       "board": "geschichten",
@@ -924,7 +1015,14 @@
       ],
       "post_count": 1,
       "fulltext_archived_at": "2026-08-04T17:10:03Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Zelt_kaum_wetterfest.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_ein_zelt_kaum_wetterfest.md",
+      "integrated_at": "2026-08-05T15:54:52Z"
     },
     {
       "board": "geschichten",
@@ -943,7 +1041,14 @@
       ],
       "post_count": 1,
       "fulltext_archived_at": "2026-08-04T17:10:04Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Ein_Goblin_kommt_selten_allein.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-05_Forum_ein_goblin_kommt_selten_allein.md",
+      "integrated_at": "2026-08-05T15:56:59Z"
     },
     {
       "board": "geschichten",
@@ -962,7 +1067,14 @@
       ],
       "post_count": 1,
       "fulltext_archived_at": "2026-08-04T17:10:04Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Geruechte_ueber_einen_neuen_Riesen.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-06_Forum_geruechte_ueber_einen_neuen_riesen.md",
+      "integrated_at": "2026-08-06T19:25:34Z"
     },
     {
       "board": "geschichten",
@@ -981,7 +1093,14 @@
       ],
       "post_count": 1,
       "fulltext_archived_at": "2026-08-04T17:10:04Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Jeder_nur_einen_winzigen_Schluck.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-06_Forum_jeder_nur_einen_winzigen_schluck.md",
+      "integrated_at": "2026-08-06T19:25:35Z"
     },
     {
       "board": "geschichten",
@@ -1001,7 +1120,14 @@
       ],
       "post_count": 40,
       "fulltext_archived_at": "2026-08-04T17:10:06Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Im_Zwielicht.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-06_Forum_im_zwielicht.md",
+      "integrated_at": "2026-08-06T19:25:35Z"
     },
     {
       "board": "geschichten",
@@ -1020,7 +1146,14 @@
       ],
       "post_count": 12,
       "fulltext_archived_at": "2026-08-04T17:10:06Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Der_Weg_ist_das_Ziel.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-06_Forum_der_weg_ist_das_ziel.md",
+      "integrated_at": "2026-08-06T19:25:35Z"
     },
     {
       "board": "geschichten",
@@ -1039,7 +1172,14 @@
       ],
       "post_count": 13,
       "fulltext_archived_at": "2026-08-04T17:10:06Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/06_Erzählungen/Tabenbuch_vom_Huns_Siebzehnruebl.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-06_Forum_tabenbuch_vom_huns_siebzehnruebl.md",
+      "integrated_at": "2026-08-06T19:25:35Z"
     },
     {
       "board": "geschichten",

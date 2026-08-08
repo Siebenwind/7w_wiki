@@ -213,11 +213,13 @@ SKILL_Codex_ADAPTERS = {
             "Use historian review for structured Research Board review backlog before relying on ad-hoc Dispatch reading.",
             "Treat Pages needs_historian as a Historian-operable cluster lane; reserve needs_human for true maintainer escalation.",
             "Use Pages backlog --resolve for article, cluster, and run-all resolution runs; bulk semantic apply requires explicit warning acknowledgement.",
-            "Route unresolved contradictions through Dispatch or the Synapse Board with explicit evidence."
+            "Route unresolved contradictions through Dispatch or the Synapse Board with explicit evidence.",
+            "Every Historian run must end with a user-facing summary containing the separate headings Implementierte Neuerungen and Erkenntnisgewinn; explain content value and explicitly justify empty sections."
         ],
         "references": [
             ".agent/skills/lore_gelehrter/SKILL.md",
-            "System/Synapse_Board/LORE_RESEARCH_BOARD.md"
+            "System/Synapse_Board/LORE_RESEARCH_BOARD.md",
+            "System/Templates/HISTORIAN_CLOSEOUT_TEMPLATE.md"
         ],
     },
     "oracle": {
@@ -270,6 +272,7 @@ SKILL_Codex_ADAPTERS = {
     "test_waechter": {
         "primary_command": "./7w_wiki.py test --suite clean-client-state",
         "followup_commands": [
+            "./7w_wiki.py test --suite historian-closeout-contract",
             "./7w_wiki.py test --suite all",
             "./7w_wiki.py test --suite adapter-surfaces-contract"
         ],

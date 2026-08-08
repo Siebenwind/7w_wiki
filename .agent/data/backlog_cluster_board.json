@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-04T18:08:26Z",
+  "generated_at": "2026-08-08T15:40:34Z",
   "version": 1,
   "pages_health": {
     "status": "WARN",
-    "unresolved_total": 624,
-    "unallowlisted_total": 622,
-    "last_validated_at": "2026-08-04T16:57:08Z"
+    "unresolved_total": 622,
+    "unallowlisted_total": 620,
+    "last_validated_at": "2026-08-06T19:36:55Z"
   },
   "contract": {
     "bridge_invalid": 0,
@@ -52,7 +52,7 @@
             "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md",
             "docs/Siebenwind_Wiki/01_Pantheon/Ritus_der_Exercitio.md",
             "docs/Siebenwind_Wiki/02_Geografie/Brandenstein.md",
-            "docs/Siebenwind_Wiki/02_Geografie/Finsterwangen.md"
+            "docs/Siebenwind_Wiki/02_Geografie/Rohehafen.md"
           ]
         },
         {
@@ -101,28 +101,28 @@
       "lane": "lane1",
       "auto_apply_allowed": true,
       "escalate_if": "lookup returns 0 or >1 plausible source files",
-      "count": 265,
+      "count": 268,
       "examples": [
+        "docs/Siebenwind_Wiki/00_Fundament/Claiomhs_Wacht.md",
         "docs/Siebenwind_Wiki/00_Fundament/Dunkeltief.md",
         "docs/Siebenwind_Wiki/02_Geografie/Brandenstein.md",
         "docs/Siebenwind_Wiki/02_Geografie/Feste_Seeberg.md",
+        "docs/Siebenwind_Wiki/02_Geografie/Finsterwangen.md",
         "docs/Siebenwind_Wiki/02_Geografie/Tal_der_Ahnen.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Akademie_zur_Linken.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Brandensteiner_Reiter.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Circus_Wendolyn.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Communis_Medici.md",
-        "docs/Siebenwind_Wiki/03_Gesellschaft/Ersonter_Bund.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Graue_Garde.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Grosser_Rat.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Koenigliches_Gericht.md",
-        "docs/Siebenwind_Wiki/03_Gesellschaft/Pakt_der_Viereinigkeit.md",
+        "docs/Siebenwind_Wiki/03_Gesellschaft/Schattenhand.md",
         "docs/Siebenwind_Wiki/03_Gesellschaft/Terra_Dorotor.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_133.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_134.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_135.md",
         "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_136.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_137.md",
-        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_138.md"
+        "docs/Siebenwind_Wiki/04_Chronik/Siebenwind_Bote_137.md"
       ]
     },
     {

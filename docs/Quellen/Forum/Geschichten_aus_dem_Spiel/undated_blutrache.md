@@ -1,25 +1,28 @@
 ---
+title: "Blutrache"
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=109858"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=109858"
-title: "Blutrache"
 date: 2022-12-06
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 109858
 content_status: fulltext_archived
-review_status: triage_ready
-review_owner: Scout
+review_status: integrated
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
 human_escalation_required: false
+integration_status: integrated
+integrated_target: "docs/Siebenwind_Wiki/06_Erzählungen/Blutrache.md"
+ingestion_report: "Logs/Ingestion/2026-08-05_Forum_blutrache.md"
+integrated_at: "2026-08-05T14:21:45Z"
 archived_at: "2026-08-04T17:10:01Z"
 post_count: 6
 topic_pages_archived: 1
 raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/109858.html"
 ---
-
 # Blutrache
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

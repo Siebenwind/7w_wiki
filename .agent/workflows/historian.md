@@ -77,4 +77,10 @@ Fuer die groessere Department-Logik verweist es auf [lore_master.md](lore_master
 
 ## 4. Abschluss
 1. Poste einen Statusbericht mit `./7w_wiki.py mail done` oder `./7w_wiki.py mail post`.
-2. Nutze fuer groessere, mehrstufige Lore-Arbeit anschliessend den Department-Prozess in [lore_master.md](lore_master.md).
+2. Gib dem Nutzer nach **jedem** Historiker-Durchlauf eine verstaendliche Abschlusszusammenfassung nach [HISTORIAN_CLOSEOUT_TEMPLATE.md](../../System/Templates/HISTORIAN_CLOSEOUT_TEMPLATE.md). Sie enthaelt mindestens zwei klar getrennte Pflichtabschnitte:
+   - `## Implementierte Neuerungen`: angelegte, erweiterte, korrigierte oder entfernte Wiki-Seiten, Quellenstatus, Register, Berichte, Verknuepfungen und sonstige Artefakte samt ihrem inhaltlichen Nutzen.
+   - `## Erkenntnisgewinn`: neue historische oder lorebezogene Einsichten, korrigierte beziehungsweise differenzierte Annahmen und ausdruecklich offenbleibende Unsicherheiten.
+3. Zaehle nicht nur Mengen und Dateien auf. Erlaeutere, wie die Implementierung das Wiki verbessert und warum die gewonnenen Einsichten fuer das Loreverstaendnis relevant sind.
+4. Wenn ein Lauf keine Implementierung oder keinen Erkenntnisgewinn erzeugt, muss der jeweilige Pflichtabschnitt dies ausdruecklich und nachvollziehbar begruenden.
+5. Offene Punkte und Pruefstatus duerfen folgen, ersetzen aber niemals die beiden Pflichtabschnitte. Dispatch-Notiz und Session-Memory ersetzen die nutzergerichtete Zusammenfassung ebenfalls nicht.
+6. Nutze fuer groessere, mehrstufige Lore-Arbeit anschliessend den Department-Prozess in [lore_master.md](lore_master.md).

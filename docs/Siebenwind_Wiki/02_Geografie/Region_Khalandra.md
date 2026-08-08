@@ -17,5 +17,5 @@ Ein raues, kaltes Grenzland im Norden. Es wird als rückständig betrachtet.
 *   **Ruf:** "Dumme Prügelknaben", die nicht lesen/schreiben können.
 
 ## Verlinkte Themen
-*   [[Rasse Orken]]
+*   [[Orken]]
 *   [[Region Norland]]

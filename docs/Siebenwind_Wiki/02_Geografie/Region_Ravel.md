@@ -22,5 +22,5 @@ Ein wildes, kaum kontrollierbares Land an der Ostgrenze.
 *   **Krieg:** Ständige Scharmützel mit den [[Orken]].
 
 ## Verlinkte Themen
-*   [[Rasse Orken]]
+*   [[Orken]]
 *   [[Region_Ersont]]

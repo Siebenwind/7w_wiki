@@ -1,53 +1,62 @@
 ---
 title: Das Adelssystem
-category: Index
+category: Gesellschaft
 author: [[Siebenwind]] Chronicler
+status: gepflegt
+epistemic: "#canon #historisch"
+quelle: "../../Quellen/Hintergrund/Das Adelssystem in Galadon.md"
+lore_trust: 8
+report_id: be17cd47-df00-49e0-8dd9-32c617c4ee55
+updated_at: "2026-08-05T12:07:44Z"
 ---
-
 # Das Adelssystem
 
-**Epistemischer Status:** #canon
+## Überblick
 
-**Kategorie:** Gesellschaft / Politik
-**Struktur:** Hochadel, Blutsadel, Dienstadel
-**Herrscher:** König [[Hilgorad_I_ap_Mer]]
+Das [[Region_Galadon|Großreich Galadon]] ist feudal organisiert. Seine adelige Rangordnung unterscheidet zwischen **Hochadel**, **Blutsadel** und **Dienstadel**. Die Einzelheiten gelten als gelehrtes Hof- und Verwaltungswissen; für viele Bürger bleibt ein Adliger schlicht ein Adliger.
 
-## Einleitung
-Das Königreich Galadon ist feudal organisiert. Die Machtstruktur ist in drei klare Ebenen unterteilt, die jedem Bürger bekannt sein sollten (auch wenn die Details oft nur Gelehrten geläufig sind).
+## Hochadel und Königsgeschlechter
 
-## I. Hochadel & Blutsadel
+An der Spitze steht der König. Die alte Titelform `ap` beziehungsweise `ahm` mit dem Geschlechtsnamen verweist auf Königslinien, deren Ursprünge vor den Amulettkriegen liegen sollen. Überliefert sind neun Urgeschlechter: **Raan, Iames, Galad, Mer, Erson, Vjer, Senal, Arbam und Morn**. Vjer, Iames und Arbam gelten in der Quelle als durch Krieg, Attentate oder Heirat erloschen; damit verblieben sechs Königsgeschlechter.
 
-### 1. Der König
-An der Spitze steht der König (derzeit **[[Hilgorad_I_ap_Mer]]**). Er entstammt einer der 9 (vermeintlich 6 verbliebenen) Ur-Linien.
+Nur der regierende König führt den alten Geschlechtsnamen üblicherweise offen. Die übrigen Angehörigen tragen ihn „still“.
 
-### 2. Herzöge und Fürsten (Hochadel)
-Dies sind die mächtigsten Herrscher unter dem König.
-*   **Herzöge:** Entstammen der Familie des amtierenden Königs (derzeit **ap Mer**). Sie regieren die Herzogtümer Bernstein, [[Sae]], Savaro und Taras.
-*   **Fürsten:** Entstammen anderen alten Königslinien (Raan, Erson, Galad, Morn, Senal, etc.), die aktuell nicht die Krone tragen. Sie regieren Fürstentümer (z.B. Tiefenwald, Ossian, Herder, Malthust, Vandrien).
-*   **Titel:** Kinder von Herzögen/Fürsten gelten als Prinzen/Prinzessinnen.
+- **Herzöge** gehören dem Geschlecht des amtierenden Königs an. Im historischen Stand der Quelle zählen Bernstein, [[Region_Sae|Sae]], [[Region_Savaro|Savaro]] und Taras zur Linie ap Mer.
+- **Fürsten** gehören anderen fortbestehenden Königslinien an. Genannt werden Tiefenwald/Raan, [[Region_Vandrien|Vandrien]]/Senal, [[Region_Ossian|Ossian]]/Erson, [[Region_Herder|Herder]]/Galad und [[Region_Malthust|Malthust]]/Morn.
+- Kinder von Herzögen und Fürsten heißen Prinzen beziehungsweise Prinzessinnen; ein Kind des Königs trägt den Rang eines Kronprinzen oder einer Kronprinzessin.
 
-### 3. Grafen und Barone (Blutsadel)
-Der "wahre" Adel bezieht seine Legitimation aus uraltem Landbesitz. Ihre Titel sind **erblich**.
-*   **Erkennungszeichen:** Das "von" im Namen (z.B. "von Kettel").
-*   **Beispiele:** Grafschaft Lichtenfeld, Baronie Ravel, Baronie Kadamark.
+Da Herzogtum und Fürstentum von der jeweils regierenden Linie abhängen, konnten Lehen im Verlauf der Geschichte zwischen beiden Bezeichnungen wechseln.
 
-### 4. Junker
-Landlose oder "kleine" Adlige des Blutsadels, die oft als hohe Beamte dienen.
+## Blutsadel
 
-## II. Dienstadel
-Diese Schicht steht dem Volk näher und erlangt ihren Status durch Verdienste oder Ämter. Die Titel sind **nicht erblich** (werden aber manchmal aus Gewohnheit an Kinder weitergegeben).
-*   **Erkennungszeichen:** Das "zu" im Namen (z.B. "Ritter Kunibert zu [[Siebenwind]]").
+Grafen, Barone und Junker bilden den erblichen Blutsadel. Das Namenselement **„von“** kennzeichnet seine Herkunft aus einer alten Land- oder Burglinie.
 
-### 1. Ritter
-Jeder Ritterschlag erhebt in den Dienstadel.
+- **Grafen** regieren Grafschaften und stehen über den Baronen.
+- **Barone** regieren Baronien.
+- **Junker** sind landlose oder nachgeordnete Blutsadlige. Sie besitzen oft nur eine Burg oder ein kleines Schloss und dienen als hohe Hofbeamte oder Verwalter.
 
-### 2. Burggrafen / Landesbarone
-Dienstadlige, die Verwaltungsaufgaben übernehmen, welche denen eines echten Grafen/Barons ähneln.
+Die Titel des Blutsadels werden vererbt. Die historische Quelle nennt als Grafenhäuser Ersont, Lichtenfeld, Papin und Rothenschild sowie als Baronien Gerdenwald, Kettel, Kadamark, Morthum, Ravel und Wallenburg.
 
-### 3. Freiherren und Edle
-*   **Freiherr:** Ein angesehener Titel für verdiente Diener des Reiches (Verwalter, Händler, Berater).
-*   **Edler:** Die niedrigste Stufe, oft für lokale Beamte (Bürgermeister, Vögte).
+## Dienstadel
 
-## Verlinkte Themen
-*   [[Königreich Galadon]]
-*   [[Region_Bernstein]]
+Dienstadel entsteht durch Amt, Ritterschlag oder besondere Verdienste. Er ist am Namenselement **„zu“** erkennbar und grundsätzlich nicht erblich, auch wenn Nachkommen in der Praxis erneut erhoben werden können.
+
+Die Rangfolge lautet:
+
+1. Burggraf und Landesbaron,
+2. Ritter,
+3. Freiherr,
+4. Edler.
+
+Seltene Diensttitel wie Dienstherzog oder Landsfürst stehen noch darüber. Burggrafen und Landesbarone übernehmen Aufgaben, die jenen erblicher Grafen oder Barone ähneln, ohne selbst zum Blutsadel zu gehören. Freiherren und Edle stammen häufig aus Verwaltung, Gelehrsamkeit, Stadtführung oder Handel. Zusätze wie Vogt, Doge oder Patrizier bezeichnen eher Aufgaben und Repräsentation als eigene Rangstufen.
+
+## Referenzen
+
+- Hintergrundquelle: [Das Adelssystem in Galadon](../../Quellen/Hintergrund/Das%20Adelssystem%20in%20Galadon.md)
+- Archivierte Parallelfassung: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_hintergrundexkurse.md`, Beitrag 2
+- Prüfbericht: `../../../Logs/Ingestion/2026-08-05_Forum_hintergrundexkurse.md` (ID: `be17cd47-df00-49e0-8dd9-32c617c4ee55`)
+
+## Siehe auch
+
+- [[Adelskalender]]
+- [[Gefaengnissystem_in_Galadon]]

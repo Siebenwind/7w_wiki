@@ -13,7 +13,7 @@ Verbindlicher Standard fuer reproduzierbare Testdurchlaeufe, Defect-Kommunikatio
 
 ## Ziel
 
-1. Testlaeufe standardisieren (`clean-client-state`, `takeover-handover`, `interop-doc-links`, `interop-command-registry`, `workflow-matrix-contract`, `tool-manifest-contract`, `pages-contract-mode-contract`, `pages-full-smoke`, `root-tree-retirement-contract`, `styling-surface-contract`, `source-link-hygiene`, `process-dispatch-curiosity`, `bridge-placeholder-guard`, `reader-stats-contract`, `all` + optional `rag-relevance-smoke`).
+1. Testlaeufe standardisieren (`clean-client-state`, `takeover-handover`, `interop-doc-links`, `interop-command-registry`, `historian-closeout-contract`, `workflow-matrix-contract`, `tool-manifest-contract`, `pages-contract-mode-contract`, `pages-full-smoke`, `root-tree-retirement-contract`, `styling-surface-contract`, `source-link-hygiene`, `process-dispatch-curiosity`, `bridge-placeholder-guard`, `reader-stats-contract`, `all` + optional `rag-relevance-smoke`).
 2. Defects ohne stille Fixes behandeln.
 3. Fixes nur auf Basis kommunizierter Auftraege umsetzen.
 4. Technischen Drift frueh sichtbar machen (`content-contract`, `split-brain-guard`, `render-hygiene`) und epistemischen Drift getrennt behandeln. Der kanonische Volltext steht in [SY_DRIFT_PAGES_CONTRACT.md](SY_DRIFT_PAGES_CONTRACT.md).
@@ -25,6 +25,7 @@ Verbindlicher Standard fuer reproduzierbare Testdurchlaeufe, Defect-Kommunikatio
 - `./7w_wiki.py test --suite takeover-handover`
 - `./7w_wiki.py test --suite interop-doc-links`
 - `./7w_wiki.py test --suite interop-command-registry`
+- `./7w_wiki.py test --suite historian-closeout-contract`
 - `./7w_wiki.py test --suite workflow-matrix-contract`
 - `./7w_wiki.py test --suite tool-manifest-contract`
 - `./7w_wiki.py test --suite pages-contract-mode-contract`

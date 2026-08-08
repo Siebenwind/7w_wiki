@@ -1,40 +1,58 @@
 ---
+uuid: 39e32ae6-9c22-4a27-81b1-a678cbd2c612
 title: Morsan
-status: Kanon (Level 1)
-type: Religion
-tags: [Gott, Sahor, Tod, Traum, Ruhe, Winter]
+category: Religion
+status: gepflegt
+epistemic: "#homepage #canon #forum #perspektive"
+quelle: "../../Quellen/Hintergrund/Kirche der Viere | Siebenwind | Ultima Online Freeshard | Siebenwind.md"
+lore_trust: 10
+report_id: d07ccf3d-bf89-4cb4-bd32-5d5b5ec96a10
+updated_at: "2026-08-05T13:40:00Z"
 ---
-
 # Morsan
 
-**Epistemischer Status:** #canon
+## Wesen und Herrschaftsbereich
 
-**Morsan** ist einer der vier **Sahor**, die im Alltagsglauben meist zusammenfassend als die **Viere** bezeichnet werden. Er ist der Herr über Tod, Schlaf und Träume. Seine Domäne ist die ewige Ruhe, der Übergang vom Leben in das Jenseits (*Vidor*) und die Stille des Winters.
+**Morsan** ist einer der vier **Sahor** und der Gott des Todes, der Ruhe, des Schlafes und der Träume. Die ausführliche offizielle Kirchenquelle nennt ihn zudem den Herrn der Zeit, den Totengräber, den Träumenden, den Verhüllten, den Hüter der Seelen und den Schweigenden.
 
-## Aspekte und Prinzipien
-- **Jahreszeit:** Winter
-- **Element:** [[Geist]] / Dunkelheit (als Ruhepol)
-- **Assoziierter Mond:** Dorayon (Der kleine, dunkle Mond). In der Astronomie oft als Morsans Auge bezeichnet, wird sein Einfluss heute oft als durch [[Angamon]] korrumpiert gefürchtet.
-- **Tugenden:** Unendliche Gelassenheit, Akzeptanz der Vergänglichkeit, Innenschau.
-- **Symbole:** Die lautlose Sanduhr, die schwarze Kutte, der leere Thron.
+Morsan hütet die dritte Sphäre und nimmt die Geister der Verstorbenen in **Vidor** auf. Dort gelten Stand und Herkunft nicht mehr: Ritter, Verbrecher, Künstler und Handwerker treten gleichermaßen vor ihn. Manche Gläubige sehen ihn als milden Erlöser und Tröster, andere als unerbittlichen Herrscher, der keinen Aufschub gewährt.
 
-## Mythologie
-Morsan ist der lautlose Wächter über die Pforten des Todes. Er ist der Übergang selbst — die Schwelle zwischen dem pulsierenden Leben und dem Jenseits (**Vidor**). In den Dunklen Landen nimmt er die Seelen auf, um sie vom Ballast des irdischen Leids zu reinigen. Sein Schweigen ist kein Zeichen von Unmut, sondern die Gnade der vollkommenen Ruhe.
+## Schlaf, Traum und Meditation
 
-## Verehrung
-Die **[[Kirche_der_Viere]]** ehrt Morsan als den Tröster der Hinterbliebenen und den Bewahrer der Geheimnisse.
-- **Orden:** Der *Orden vom Ruhenden Hauche Morsans* ([[Ordo_Morsanes]]) kümmert sich um die Bestattungen, die Trauerarbeit und die Deutung von Träumen.
-- **Anhänger:** Bestatter, Wahrsager (Traumdeuter), jene, die den Tod nicht fürchten, sondern als Teil des Zyklus verstehen.
+Schlaf gilt als Morsans Gabe an Körper, Geist und Seele. Träume können nach kirchlicher Vorstellung Einsichten offenbaren, die der wache Verstand nicht erfasst. Auch tiefe Versenkung und Meditation werden Morsan zugerechnet. Daraus folgt nicht, dass jeder Traum prophetisch oder jede private Traumdeutung richtig ist.
 
-## Rolle im Alltag
-Morsan wird oft gefürchtet, aber auch als Erlöser von Schmerz und Altersschwäche gesehen. Sein Segen wird erbeten, um einen sanften Tod oder ruhigen Schlaf zu finden. In der dunklen Jahreszeit wird ihm besonders gedacht.
+Morsan wird angerufen, wenn Ruhe und Frieden gesucht werden. Friedhöfe, auch „Morsans Garten“ genannt, stehen unter seinem Schutz; sein Orden begleitet Bestattungen und die Seelsorge.
 
-## Beziehungen
-- **[[Vitama]]:** Seine Schwester des Lebens. Morsan weiß, dass sein Walten ohne ihr Geschenk bedeutungslos wäre. Ein Tod ohne vorheriges Leben ist Nichts.
-- **[[Astrael]]:** Sein Bruder des Wissens. Morsan birgt das Wissen, das jenseits des Verstandes liegt – das Mysterium des Endes.
-- **[[Bellum]]:** Sein Bruder des Kampfes. Morsan beendet jeden Kampf, sei es durch Sieg oder Niederlage. Am Ende finden alle Krieger Ruhe bei ihm.
+## Darstellung und Zeichen
 
-## Verwandte Themen
-- [[Religion_Übersicht]]
-- [[Die_Viere_Kirche]]
-- [[Sphaerenkunde]] - Vidor
+Ordensgeleitete Tempel stellen Morsan nach der offiziellen Quelle nicht bildlich dar. Volkstümliche Darstellungen zeigen eine verhüllte Gestalt in grauem Stoff, oft mit:
+
+- einem Hirtenstab als Zeichen der Seelenhüterschaft,
+- einer Sanduhr als Zeichen der Zeit,
+- Schlüsseln zum Reich der Träume,
+- seltener einem geschlossenen Buch als Bezug zu Astraels Buch und dem Ende des dritten Zeitalters.
+
+Seine Anhänger benötigen für Gebet und Anrufung keine festen Worte oder Gesten. Stille ist daher nicht bloß Abwesenheit von Liturgie, sondern kann selbst Ausdruck der Verehrung sein.
+
+## Der Brandensteiner Morsanschrein
+
+Forumquellen zeigen den [[Morsanschrein_in_Brandenstein|Morsanschrein in Brandenstein]] als Ort stiller Meditation, Schlafs und der persönlichen Traumbeobachtung. Das [[Traumtagebuch]] wird dort für einen vertrauten Leser hinterlegt. In [[Reinigung_des_Morsanschreins|Reinigung des Morsanschreins]] verbindet Rolosin Vadebor die vorsichtige Pflege von Altar und liturgischen Gegenständen mit anschließender wortloser Meditation.
+
+Diese Szenen veranschaulichen die offizielle Lehre, bleiben aber konkrete Figurenhandlungen. Sie begründen weder eine allgemeine Pflicht zur Traumdeutung noch eine verbindliche Reinigungszeremonie.
+
+## Verlinkte Themen
+
+- [[Kirche_der_Viere]]
+- [[Ordo_Morsanes]]
+- [[Morsanschrein_in_Brandenstein|Morsanschrein in Brandenstein]]
+- [[Traumtagebuch]]
+- [[Reinigung_des_Morsanschreins|Reinigung des Morsanschreins]]
+
+## Referenzen
+
+- Offizielle Kirchenlehre: `../../Quellen/Hintergrund/Kirche der Viere | Siebenwind | Ultima Online Freeshard | Siebenwind.md`
+- Offizielle Kurzbeschreibung: `../../Quellen/Hintergrund/Götterwelt | Siebenwind | Ultima Online Freeshard | Siebenwind.md`
+- Perspektivquelle zur Reinigung: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_reinigung_des_morsanschreins.md`
+- Perspektivquelle zu Traum und Schlaf: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_traumtagebuch.md`
+- Perspektivquelle zum Brandensteiner Schrein: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_honig_und_flauschefell.md`
+- Prüfbericht: `../../../Logs/Ingestion/2026-08-05_Forum_reinigung_des_morsanschreins.md` (ID: `d07ccf3d-bf89-4cb4-bd32-5d5b5ec96a10`)

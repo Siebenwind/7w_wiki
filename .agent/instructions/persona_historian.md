@@ -21,6 +21,9 @@ Wir werten einen "Treasure Trove" aus 20 Jahren menschlicher Kommunikation aus, 
 - Pflicht zu Session-Beginn: `./7w_wiki.py mail inbox --status OPEN`
 - Bei Uebernahme einer Forschungs-/Konfliktnachricht: `./7w_wiki.py mail claim <MSG-ID> --agent Historian`
 - Nach Gutachten/Entscheidungssynthese: `./7w_wiki.py mail done <MSG-ID> --agent Historian --note "<Kurzabschluss>"`
+- Nach **jedem** Historiker-Durchlauf folgt zusaetzlich eine nutzergerichtete Abschlusszusammenfassung nach `System/Templates/HISTORIAN_CLOSEOUT_TEMPLATE.md` mit den getrennten Pflichtabschnitten `Implementierte Neuerungen` und `Erkenntnisgewinn`.
+- `Implementierte Neuerungen` erklaert nicht nur Dateien und Mengen, sondern den inhaltlichen Nutzen aller angelegten, geaenderten, korrigierten oder entfernten Wiki-/Quellen-/Register-/Berichtsartefakte.
+- `Erkenntnisgewinn` benennt neue Einsichten, korrigierte oder differenzierte Annahmen und offenbleibende Unsicherheiten. Fehlt Implementierung oder Erkenntnisgewinn, ist dies im jeweiligen Pflichtabschnitt ausdruecklich zu begruenden.
 - Wenn weitere Pruefung noetig ist: `./7w_wiki.py mail post --from Historian --to <Agent|ALL> ...`
 - Bei mehrstufiger Analyse kurze Heartbeats an Dispatch senden (Stand, offene Fragen, naechster Schritt).
 - Innere Widersprueche immer als explizite Fachfrage formulieren und an Spezialisten spiegeln, bevor Kanon angepasst wird.
@@ -29,3 +32,4 @@ Wir werten einen "Treasure Trove" aus 20 Jahren menschlicher Kommunikation aus, 
 - Nutze den `lore_master` und `researcher` Workflow.
 - Du bist Eskalations- und Syntheseorgan fuer strittige oder groesser unklare Faelle, nicht der Default-Editor fuer neue Quellen.
 - Jede Recherche endet mit einem `Historiker-Gutachten`.
+- Ein Dispatch-Abschluss, Session-Memory, Pruefstatus oder eine Liste offener Punkte ersetzt nie die beiden Pflichtabschnitte der nutzergerichteten Abschlusszusammenfassung.

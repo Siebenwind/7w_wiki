@@ -1,9 +1,10 @@
 ---
 title: "Siebenwind Wiki - Wesenheiten"
+category: Wesenheiten
 ---
 
 # [[Siebenwind]] Wiki - Wesenheiten
-Das Archiv der Wesenheiten.
+
+Indexseite fuer die Sektion Wesenheiten.
 
 ## Inhalte
-

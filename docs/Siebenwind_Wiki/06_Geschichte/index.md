@@ -1,9 +1,10 @@
 ---
 title: "Siebenwind Wiki - Geschichte"
+category: Geschichte
 ---
 
 # [[Siebenwind]] Wiki - Geschichte
-Das Archiv der Geschichte.
+
+Indexseite fuer die Sektion Geschichte.
 
 ## Inhalte
-

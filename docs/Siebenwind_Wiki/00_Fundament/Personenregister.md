@@ -2,6 +2,7 @@
 uuid: d173e080-a2dd-42ec-b616-f7f614fa9368
 title: Personenregister
 category: Allgemein
+letzter_check: 2026-08-06
 ---
 # Personenregister
 
@@ -33,13 +34,13 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Aaron]] | Wegelagerer (frivol) / Ex-Anwärter (verhaftet) | [Bote 133/135] | 15-16 n.H. | #bote |
 | [[Cacama]] | Verbrecher / Ex-Malthuster (†) | [Bote 176] | † 21 n.H. | #bote |
 | [[Viktor_Menzer]] | Verbrecher / Ex-Malthuster (†) | [Bote 176] | † 21 n.H. | #bote |
-| [[Akassvae]] | Grüner Lindwurm | [Bote 191] | 30 n.H. | #bote |
+| [[Akassvae]] | Grüner Lindwurm / Vertragspartnerin der Baronie | [Bote 191/193/194] | ab 30 n.H. | #bote / #perspektive |
 | [[Akora]] | Bürgerin ([[Falkensee]]) / Turmbesitzerin | [[Nichts_und_ohne_Pointe]] | amtierend | #perspektive |
 | [[Amaris_Aurinas]] | Ritter / Sire / ehem. Knappe | [Bote 139/153] | 16-17 n.H. | #bote |
 | [[Anijane_Lavid]] | Lehenskämmerin / Finanzverwalterin (ehem. Salmoranes) | [Bote 128/139] | amtierend | #bote |
 | [[Abdolus_Nachengalle]] | Forscher / Mystiker | [[Draconis]] | 18 n.H. | #bote |
 | [[Adalbert_der_Heiler]] | Heiler | [Kanon] | amtierend | #canon |
-| [[Adhemar_Ravenforth]] | Kanzler | [Kanon] | amtierend | #canon |
+| [[Adhemar_Ravenforth]] | Großmeister / ehemaliger Kanzler des Inselrats | [Bote 192] | Amtsende im 12. Querlar, Jahr [UNGEKLÄRT] | #bote |
 | [[Agatha_Sumpfendotter]] | Autorin | [Bote 163] | 18 n.H. | #bote |
 | [[Althea_Danea]] | Magistra / Weißmagierin | [Kompendium d. Weißmagie] | Historisch | #überlieferung |
 | [[Albert_Metzler]] | Erfinder / Mechanikus / Ortsrat | [Bote 151/152] | 18 n.H. | #bote |
@@ -125,7 +126,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Herr_Distelstein]] | Bürger | [Bote 144] | ~15 n.H. | #bote |
 | [[Hilgorad_I_ap_Mer]] | Großkönig | [Kanon] | amtierend (15-30 n.H.) | #canon |
 | [[Hornstoß]] | General (Königliche Armee) | [Bote 142] | amtierend | #bote |
-| [[Huns_Siebzehnruebl]] | Bürger / "Unerschrockener" | [Bote 133] | 16 n.H. | #bote |
+| [[Huns_Siebzehnruebl]] | Bürger / Viehhalter / Selbsterzähler | [Bote 132/133] / [[Tabenbuch_vom_Huns_Siebzehnruebl]] | 16–30 n.H. | #bote / #forum / #perspektive |
 | [[Isfaldia]] | Heilerin | [[Ecclesia_Elementorum]] / [Bote 169] | 19 n.H. | #bote |
 | [[Ibralosch_Goldfaust]] | Bra'Gar der Goldfaust / Verteidiger des [[Falkenwall]]s | Forum 110194 | 34 n.H. | #perspektive |
 | [[Iycheas_Vrahn]] | Kirchenvertreter | [Bote 187] | 23 n.H. | #bote |
@@ -367,13 +368,14 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Celedelair]] | Geweihter ([[Astrael]]) | [Bote 188] | 29 n.H. | #bote |
 | [[Halvard]] | Ex-Jarl ([[Dunkeltief]]) | [Bote 188] | 29 n.H. (Rücktritt) | #bote |
 | [[Ayk_Areson]] | Jarl ([[Dunkeltief]]) | [Bote 189] | 29 n.H. | #bote |
-| [[Maichellis_Wanderstern]] | Vogt / Knappe (Oberbefehlshaber) | [Bote 189/194] | 36 n.H. | #bote |
+| [[Maichellis_Wanderstern]] | ehemaliger Marschall / Vogt / Knappe | [Bote 189/193/194] / [[Der_Weg_ist_das_Ziel]] | 29–36 n.H. | #bote / #perspektive |
 | [[Roland_Telvos]] | Adept ([[Weißer_Pfad]]) | [Bote 189] | 29 n.H. | #bote |
 | [[Zarna_Eschelwald]] | Priesterin ([[Rien]]) | [Bote 189] | 29 n.H. | #bote |
 | [[Decaras_Pelenus]] | Adept ([[Grauer_Pfad]]) | [Bote 189] | 29 n.H. | #bote |
 | [[Jasna]] | Bürgerin ([[Brandenstein]]) | [Bote 189] | 29 n.H. | #bote |
 | [[Lynn]] | Äbtissin ([[Ecclesia_Elementorum]]) | [Bote 189] | 29 n.H. | #bote |
 | [[Guntram_Sonnacker]] | Ex-Vizekanzler | [Bote 190] | 29 n.H. | #bote |
+| [[Volandur]] | Adept / „Stimme der Fey“ | [[Im_Zwielicht]] | 2019; Sonnenzirkeljahr [UNGEKLÄRT] | #forum / #perspektive |
 | [[Gero_von_Papin]] | Durchlaucht (Papin) | [Delaries Reise] | 21 n.H. | #perspektive |
 | [[Gerrion_Arres]] | Abenteurer / Entdecker | [Bote 136] | 16 n.H. | #bote |
 | [[Erich_Rosenquarz]] | Bankier zu [[Falkensee]] | [Bote 136] | 16 n.H. | #bote |
@@ -384,7 +386,7 @@ Dieses Register dient der Erfassung aller namentlich erwähnten oder relevanten 
 | [[Vex]] | Ex-Vogtin ([[Finsterwangen]]) | [Bote 190] | 29 n.H. | #bote |
 | [[Theobald_I]] | Gegenkönig ([[Cortan]]) | [Bote 190] | 29 n.H. | #bote |
 | [[Saphyriella]] | Finanzmagistratin | [Bote 120] | 15 n.H. | #bote |
-| [[Rolosin_Vadebor]] | Feldscher / Lehrmeister | [Bote 136] | 16 n.H. | #bote |
+| [[Rolosin_Vadebor]] | Feldscher / Lehrmeister; späterer Schreinpfleger aus Perspektivquelle | [Bote 136] / Forum 109818 | 16 n.H. / später undatiert | #bote #perspektive |
 | [[Regina_Gropp]] | Wirtin | [Bote 139] | 16 n.H. | #bote |
 | [[Ravia_Thyrandor]] | Elfe / Volksstreiterin | [Bote 120] | 15 n.H. | #bote |
 | [[Romualdo_Jakta]] | Schüler (Schwarzmagie) | [E. d. Zeit d. Könige] | 21 n.H. | #perspektive |

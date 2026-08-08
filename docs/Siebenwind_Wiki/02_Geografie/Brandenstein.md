@@ -4,13 +4,13 @@ title: Brandenstein
 category: Geografie
 quelle: "../../Quellen/Zeitung 7w Bote/Siebenwind Bote 188.md"
 lore_trust: 8
-letzter_check: 2026-07-30
-report_id: 5883b2e9-8d08-44e0-a000-a0b9c51e7400
+letzter_check: 2026-08-06
+report_id: ee733487-beef-4ae0-9adf-f82734264f11
 ---
 
 # Brandenstein
 
-**Epistemischer Status:** #bote
+**Epistemischer Status:** #bote / #forum / #perspektive
 
 **Brandenstein** ist die aufstrebende, junge Hauptstadt der Insel [[Siebenwind]]. Gegründet inmitten einer ehemals ungezähmten Waldlandschaft, markiert die Siedlung den unbändigen Willen der Siedler, sich gegen die Schatten der Wildnis zu behaupten. Überall prägt das rhythmische Geräusch von Äxten und das Kreischen der Sägemühlen die Atmosphäre, während der Geruch von frisch geschlagenem Harz und nasser Erde in den Straßen hängt.
 
@@ -40,12 +40,32 @@ Eine sechsteilige Forumüberlieferung berichtet, dass **Melerwen** im Querlar un
 
 Die spätere Existenz eines Elfenviertels ist dagegen im **Siebenwind Boten 188** belegt: Während des [[Dunkeltief_29_nH|Dunkeltiefs 29 n.H.]] werden das Brandensteiner Elfenviertel und Palisaden aus Tra'avain ausdrücklich genannt. Damit ist ein dauerhafter elfischer Bereich über den ursprünglichen Bauversuch hinaus belastbar, nicht jedoch jede Einzelheit der Gründungserzählung.
 
+### Trauerschiffe nach dem Tod des Königs
+
+Die Forumserzählung [[Von_Schiffen_und_Schmerzen]] berichtet, dass zwei Schiffe aus Bernstein mit Trauerflor den Hafen ansteuerten. [[Adhemar_Ravenforth]] ließ in der Burg Schlafplätze und Vorräte vorbereiten, das Hospital in Bereitschaft versetzen und den Abstand der Schiffe beobachten. Der Text zeigt Brandenstein damit als Empfangs- und Versorgungsort in einer politischen Übergangskrise.
+
+Eine zehn Tage später veröffentlichte Perspektivquelle meldet die Ankunft zweier Schiffe und eine anschließende Expedition. Es handelt sich wahrscheinlich um dieselben Schiffe; Besatzung und Auftrag werden jedoch in keiner der beiden Quellen vollständig genannt.
+
+### Haus BS 09
+
+Eine amtliche Pachtliste im **Siebenwind Boten 123** führt ein Anwesen `BS 09`. Eine spätere Forumüberlieferung verortet „Haus 9“ nahe der südlichen Hafenmauer und schildert für den 16. Carmar 33 n.H. einen gescheiterten gewaltsamen Zutrittsversuch. Drei unbenannte Männer hinterließen eine beschädigte Berghacke und eine Kerbe in der eisenbewehrten Tür; zugleich wurden kleine Spinnen am Gebäude beobachtet.
+
+Die ältere Pachtliste bestätigt nur die Hausbezeichnung. Lage, Bewohner, Täter und ein möglicher Zusammenhang der Spinnen bleiben **[UNGEKLÄRT]**.
+
+### Der unbekannte Kessel auf dem Markt
+
+Die kurze Forumüberlieferung [[Jeder_nur_einen_winzigen_Schluck]] berichtet, am 17. Dezember 2019 sei über Nacht ein großer Kessel auf dem Marktplatz erschienen. Er habe nach Rotwein, Rum, Kardamom, Zimt, Sternanis und Honig geduftet und frierende Bewohner zum Kosten eingeladen.
+
+Urheber, Anlass und Wirkung werden nicht genannt. Der Vorgang belegt daher eine atmosphärische Marktgeschichte, aber weder ein amtliches Fest noch ein magisches Ereignis oder einen Vergiftungsfall.
+
 ## Überlieferungen
 - [[Atmender_Tod]] (Chronik der Seuche)
 - [[Angriff_der_Schwarzmagier]] (Verteidigungsberichte)
 - [[Aschespuren_in_Luth_Chalid_und_Brandenstein|Aschespuren in Luth Chalid und Brandenstein]] (ungeklärte Vorfälle 27 n.H.)
 - [[Zeitstrahl]] (Historische Einordnung)
 - [[Der_Flug_der_Ente]] (Bardenlieder & Legenden)
+- [[Haus_9_in_Brandenstein|Haus 9 in Brandenstein]] (ungeklärter Vorfall 33 n.H.)
+- [[Ein_Zelt_kaum_wetterfest|Ein Zelt, kaum wetterfest]] (ungeklärtes Lager an einer alten Passstraße)
 
 ## Verlinkte Themen
 
@@ -58,8 +78,22 @@ Die spätere Existenz eines Elfenviertels ist dagegen im **Siebenwind Boten 188*
 - Kanonische Chronikquelle: `../../Quellen/Zeitung 7w Bote/Siebenwind Bote 188.md`
 - Perspektivquelle zur Gründung: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthread_elfensiedlung_in_brandenstein.md`
 - Ergänzende Perspektivquelle: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_honig_und_flauschefell.md`
+- Perspektivquelle zu den Trauerschiffen: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_schiffen_und_schmerzen.md`
+- Wahrscheinliche Fortsetzung: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_w_lfe_bewegen_sich_gern_im_rudel.md`
+- Amtliche Pachtliste mit `BS 09`: `../../Quellen/Zeitung 7w Bote/Siebenwind Bote 123.md`
+- Perspektivquelle zu Haus 9: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_haus_9_in_brandenstein.md`
+- Perspektivquelle zum Lager am alten Pass: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_zelt_kaum_wetterfest.md`
+- Perspektivquelle zum Kessel auf dem Marktplatz: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_jeder_nur_einen_winzigen_schluck.md`
 
 > [!ABSTRACT] Prüfbericht verfügbar: `Logs/Ingestion/2026-07-27_Historian_Triage_Forum_105420.md` (ID: 5883b2e9-8d08-44e0-a000-a0b9c51e7400)
+
+> [!ABSTRACT] Ergänzender Prüfbericht: `../../../Logs/Ingestion/2026-08-05_Forum_von_schiffen_und_schmerzen.md` (ID: a109496c-4fcf-4f7d-acde-1d83171549c9)
+
+> [!ABSTRACT] Ergänzender Prüfbericht: `../../../Logs/Ingestion/2026-08-05_Forum_haus_9_in_brandenstein.md` (ID: b0b976b4-e8c5-4371-942f-cf0d7af9a1c9)
+
+> [!ABSTRACT] Ergänzender Prüfbericht: `../../../Logs/Ingestion/2026-08-05_Forum_ein_zelt_kaum_wetterfest.md` (ID: 17966f31-1c14-462f-b6bc-9a03f661c5f2)
+
+> [!ABSTRACT] Ergänzender Prüfbericht: `../../../Logs/Ingestion/2026-08-06_Forum_jeder_nur_einen_winzigen_schluck.md` (ID: ee733487-beef-4ae0-9adf-f82734264f11)
 
 ---
 **Siehe auch:** [[Falkensee]], [[Geografie]], [[Personenregister]]

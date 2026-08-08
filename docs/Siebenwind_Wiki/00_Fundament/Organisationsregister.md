@@ -39,7 +39,7 @@ Dieses Register erfasst alle Gilden, Orden, religiöse Gemeinschaften und politi
 | [[Koenigliche_Kriegerakademie]] | Militärische Ausbildung | [[Seeberg]] | #bote |
 | [[Kuenstlerakademie]] | Kultur / Ausbildung | [[Falkensee]] | #bote |
 | [[Handwerkshaus_Falkensee]] | Zunft / Ausbildung | [[Falkensee]] | #bote |
-| [[Schattenhand]] | Unterwelt / Diebesgilde | Unbekannt | #bote |
+| [[Schattenhand]] | Angamonisches Netzwerk / ungeklärte Lehrtradition | Verborgene Zirkel | #bote / #perspektive |
 | [[Bruderschaft_der_Tardukai]] | Orden des [[Angamon]] | [[Ewigwacht]] | #bote |
 | [[Akademie_zur_Linken]] | Institution des Pfades zur Linken | [[Finsterwangen]] / Kairodun (hist.) | #bote / #perspektive |
 | [[Terra_Dorotor]] | Kult (zerschlagen) | [[Brandenstein]] | #bote |

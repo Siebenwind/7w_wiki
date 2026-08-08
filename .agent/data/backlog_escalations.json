@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T18:08:26Z",
+  "generated_at": "2026-08-08T15:40:34Z",
   "version": 1,
   "items": [
     {
@@ -10,17 +10,6 @@
         "Region_Auren"
       ],
       "proposed_decision": "Region_Auren",
-      "reason": "multiple or semantically non-identical canonical target candidates"
-    },
-    {
-      "cluster": "pages_target_ambiguous",
-      "source_page": "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md",
-      "current_target": "Das_Daimonicon",
-      "candidates": [
-        "Daimonicon",
-        "Das_Daimonicon_(Kulin_Lateal)"
-      ],
-      "proposed_decision": "",
       "reason": "multiple or semantically non-identical canonical target candidates"
     }
   ]

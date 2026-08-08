@@ -1,19 +1,22 @@
 ---
 title: "Siebenwind Wiki - Wissen"
+category: Wissen
 ---
 
 # [[Siebenwind]] Wiki - Wissen
-Das Archiv der Wissen.
+
+Indexseite fuer die Sektion Wissen.
 
 ## Inhalte
 
 ### Kategorien
-*   **[[Personen/index|Personen]]**
-*   **[[Recht/index|Recht]]**
-*   **[[Sprachen/index|Sprachen]]**
-*   **[[Werke/index|Werke]]**
+* **[[Personen/index|Personen]]**
+* **[[Recht/index|Recht]]**
+* **[[Sprachen/index|Sprachen]]**
+* **[[Werke/index|Werke]]**
 
 ### Artikel
-*   [[Dunkeleisen]]
-*   [[Magietheorie_nach_Dunvallo_Linari|Magietheorie nach Dunvallo Linari]]
-*   [[Sprache_Run|Die Sprache Run]]
+* [[Dunkeleisen|Dunkeleisen]]
+* [[Magietheorie_nach_Dunvallo_Linari|Magietheorie nach [[Dunvallo_Linari]]]]
+* [[Sprache_Run|[[Die_Sprache_Run]]]]
+* [[Werke|Werke]]

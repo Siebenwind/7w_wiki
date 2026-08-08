@@ -1,7 +1,7 @@
 ---
 uuid: 6af36c09-c985-4de8-9dc5-9680b9de9b5b
 status: ACTIVE
-updated_at: 2026-08-04T18:08:38Z
+updated_at: 2026-08-08T15:40:46Z
 epistemic: "#meta"
 ---
 
@@ -13,15 +13,35 @@ Zentrales Tracking fuer Ingestion-Auswertungen (wer/wann/wie + Scoreprofil).
 
 ## Snapshot
 
-- Reports gesamt: 95
-- Reports mit Tracking-Kernfeldern: 95
-- Reports mit LQS: 93
-- Dominante Score-Cluster: 2/2/4/2/4 (31), 5/5/5/4/4 (16), 4/4/5/4/4 (14)
+- Reports gesamt: 115
+- Reports mit Tracking-Kernfeldern: 115
+- Reports mit LQS: 113
+- Dominante Score-Cluster: 2/2/4/2/4 (35), 5/5/5/4/4 (16), 4/4/5/4/4 (14)
 
 ## Register
 
 | Report | Quelle | Ausgewertet von | Auswertungszeitpunkt (UTC) | Workflow/Skill | Dispatch | LQS | Profil |
 |---|---|---|---|---|---|---|---|
+| `Logs/Ingestion/2026-08-06_Forum_der_weg_ist_das_ziel.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_weg_ist_das_ziel.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-06T19:15:58Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 5.0 | 5/5/6/5/5 |
+| `Logs/Ingestion/2026-08-06_Forum_geruechte_ueber_einen_neuen_riesen.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ger_chte_ber_einen_neuen_riesen.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-06T19:15:58Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 2.0 | 2/2/2/1/3 |
+| `Logs/Ingestion/2026-08-06_Forum_im_zwielicht.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_zwielicht.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-06T19:15:58Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 4.0 | 4/4/4/3/5 |
+| `Logs/Ingestion/2026-08-06_Forum_jeder_nur_einen_winzigen_schluck.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_jeder_nur_einen_winzigen_schluck.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-06T19:15:58Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 3.0 | 3/3/3/2/3 |
+| `Logs/Ingestion/2026-08-06_Forum_tabenbuch_vom_huns_siebzehnruebl.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_tabenbuch_vom_huns_siebzehnr_bl.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-06T19:15:58Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 4.0 | 4/4/4/3/5 |
+| `Logs/Ingestion/2026-08-05_Forum_dunkle_tage_lichte_naechte.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_dunkle_tage_lichte_n_chte.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-05T15:44:00Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor + Orakel-Fallback | `MSG-2026-0192` für den bekannten Oracle-Ausfall | 4.5 | 4/4/5/3/4 |
+| `Logs/Ingestion/2026-08-05_Forum_ein_goblin_kommt_selten_allein.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthread_ein_goblin_kommt_selten_allein.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-05T15:44:00Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 3.0 | 3/2/3/2/5 |
+| `Logs/Ingestion/2026-08-05_Forum_ein_zelt_kaum_wetterfest.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_zelt_kaum_wetterfest.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-05T15:44:00Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 3.0 | 3/2/3/2/5 |
+| `Logs/Ingestion/2026-08-05_Forum_haus_9_in_brandenstein.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_haus_9_in_brandenstein.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-05T15:44:00Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 4.0 | 3/3/3/3/4 |
+| `Logs/Ingestion/2026-08-05_Forum_weg_in_den_wahnsinn.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_weg_in_den_wahnsinn.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-05T15:44:00Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 3.5 | 3/3/4/2/4 |
+| `Logs/Ingestion/2026-08-05_Forum_reinigung_des_morsanschreins.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_reinigung_des_morsanschreins.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-05T13:40:00Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 5.0 | 3/4/5/3/4 |
+| `Logs/Ingestion/2026-08-05_Forum_von_schiffen_und_schmerzen.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_schiffen_und_schmerzen.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-05T13:30:00Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 4.6 | 3/3/5/3/4 |
+| `Logs/Ingestion/2026-08-05_Forum_woelfe_bewegen_sich_gern_im_rudel.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_w_lfe_bewegen_sich_gern_im_rudel.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-05T13:20:00Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 4.4 | 2/3/5/3/4 |
+| `Logs/Ingestion/2026-08-05_Forum_blutrache.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_blutrache.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-05T13:10:00Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 4.2 | 2/3/4/3/4 |
+| `Logs/Ingestion/2026-08-05_Forum_traumtagebuch.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_traumtagebuch.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-05T13:00:00Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 4.0 | 2/3/4/2/4 |
+| `Logs/Ingestion/2026-08-05_Forum_neues_chaos_auf_tevras_pfaden.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_neues_chaos_auf_tevras_pfaden.md | Codex / Scanner + Historian + Kanon-Wächter + Wiki-Schmied | 2026-08-05T12:20:44Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-08-05_Forum_allerlei_aus_finsterwangen.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_allerlei_aus_finsterwangen.md | Codex / Scanner + Historian + Kanon-Wächter + Wiki-Schmied | 2026-08-05T12:19:48Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-08-05_Forum_ewigwacht.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ewigwacht.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied | 2026-08-05T12:16:00Z | N/A | N/A | 4.2 | 2/2/4/3/4 |
+| `Logs/Ingestion/2026-08-05_Forum_die_wahrste_wahrheit_ueber_orken.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_wahrste_wahrheit_ber_orken.md | Codex / Scanner + Historian + Kanon-Wächter + Wiki-Schmied | 2026-08-05T12:12:29Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
+| `Logs/Ingestion/2026-08-05_Forum_hintergrundexkurse.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_hintergrundexkurse.md | Codex / Scanner + Historian + Kanon-Wächter + Wiki-Schmied | 2026-08-05T12:07:44Z | N/A | N/A | 4.0 | 2/2/4/2/4 |
 | `Logs/Ingestion/2026-08-04_Forum_der_angriff_auf_den_wall.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_angriff_auf_den_wall.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T16:23:28Z | N/A | N/A | 4.2 | 2/2/4/3/4 |
 | `Logs/Ingestion/2026-08-04_Forum_die_bewohner_der_auen.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_bewohner_der_auen.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T16:23:28Z | N/A | N/A | 4.2 | 2/2/4/3/4 |
 | `Logs/Ingestion/2026-08-04_Forum_geschichten_auf_1001_hadernblatt.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_geschichten_auf_1001_hadernblatt.md | Codex / Scanner + Historian + Wiki-Schmied | 2026-08-04T16:23:28Z | N/A | N/A | 4.0 | 2/2/4/2/4 |

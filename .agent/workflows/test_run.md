@@ -10,6 +10,7 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
   - `7w_wiki.py test --suite takeover-handover`
   - `7w_wiki.py test --suite interop-doc-links`
   - `7w_wiki.py test --suite interop-command-registry`
+  - `7w_wiki.py test --suite historian-closeout-contract`
   - `7w_wiki.py test --suite catalog-contract`
   - `7w_wiki.py test --suite adapter-surfaces-contract`
   - `7w_wiki.py test --suite delegation-policy-contract`
@@ -74,25 +75,26 @@ description: Standardisierter Testdurchlauf fuer Interop, Takeover/Handover und 
 2. `./7w_wiki.py test --suite takeover-handover`
 3. `./7w_wiki.py test --suite interop-doc-links` (lokale Markdown-Links)
 4. `./7w_wiki.py test --suite interop-command-registry` (Live-CLI gegen Governance-Inventare)
-5. `./7w_wiki.py test --suite catalog-contract` (kanonischer Katalog + Schema + Pflichtsektionen)
-6. `./7w_wiki.py test --suite adapter-surfaces-contract` (Codex-Adapter, MCP-nahe Artefakte, keine Thin-Wrapper)
-7. `./7w_wiki.py test --suite delegation-policy-contract` (Delegationsrichtlinie + Thread-Limit + Profil-Mapping)
-8. `./7w_wiki.py test --suite repo-hygiene-contract` (Hot/Cold/Runtime/Build-Klassifikation und Schutzregeln)
-9. `./7w_wiki.py test --suite manifest-contract` (generiertes `lore_manifest.json` gegen Katalog und CLI)
-10. `./7w_wiki.py test --suite source-tree-contract` (aktiver Tree-Kanon fuer `docs/Siebenwind_Wiki/`)
-11. `./7w_wiki.py test --suite legacy-doc-contract` (keine Pflicht-Links mehr in `_archive` oder alte Singleton-Standards)
-12. `./7w_wiki.py test --suite asset-surface-contract` (aktive Docs/Skills zeigen nur auf kanonische Asset-Surfaces)
-13. `./7w_wiki.py test --suite workflow-matrix-contract` (generierte Matrix + Workflow-Referenzen)
-14. `./7w_wiki.py test --suite tool-manifest-contract` (typed tools.json + Alias-Kompatibilitaet)
-15. `./7w_wiki.py test --suite root-tree-retirement-contract` (retired Root-Baum bleibt entfernt; aktive Skripte/Workflows nutzen nur den Docs-Baum)
-16. `./7w_wiki.py test --suite styling-surface-contract` (nur eine aktive Styling-Autoritaet; `docs/assets/` bleibt production-only)
-17. `./7w_wiki.py test --suite pages-contract-mode-contract` (deterministischer Pages-/CI-Vertrag ohne Snapshot-Schreibseitenwirkungen)
-18. `./7w_wiki.py test --suite source-link-hygiene` (MkDocs-Strict-Risiken in Quellenlinks)
-19. `./7w_wiki.py test --suite backlog-repair-contract` (Backlog-Board + Lane-1-Repair-Surface)
-20. `./7w_wiki.py test --suite process-dispatch-curiosity` (Workflow-/Persona-Prozesslogik)
-21. `./7w_wiki.py test --suite bridge-placeholder-guard` (verhindert Rueckfall in Stub-/Bridge-Policy-Fehler)
-22. `./7w_wiki.py test --suite reader-stats-contract` (Reader-Stats-Contract + Snapshot-Schnittstelle)
-23. Optional Vollabgleich: `./7w_wiki.py test --suite all` (ohne RAG-Smoke; stabiler Standardlauf)
+5. `./7w_wiki.py test --suite historian-closeout-contract` (Pflichtabschnitte und inhaltlicher Nutzen jedes Historiker-Abschlusses)
+6. `./7w_wiki.py test --suite catalog-contract` (kanonischer Katalog + Schema + Pflichtsektionen)
+7. `./7w_wiki.py test --suite adapter-surfaces-contract` (Codex-Adapter, MCP-nahe Artefakte, keine Thin-Wrapper)
+8. `./7w_wiki.py test --suite delegation-policy-contract` (Delegationsrichtlinie + Thread-Limit + Profil-Mapping)
+9. `./7w_wiki.py test --suite repo-hygiene-contract` (Hot/Cold/Runtime/Build-Klassifikation und Schutzregeln)
+10. `./7w_wiki.py test --suite manifest-contract` (generiertes `lore_manifest.json` gegen Katalog und CLI)
+11. `./7w_wiki.py test --suite source-tree-contract` (aktiver Tree-Kanon fuer `docs/Siebenwind_Wiki/`)
+12. `./7w_wiki.py test --suite legacy-doc-contract` (keine Pflicht-Links mehr in `_archive` oder alte Singleton-Standards)
+13. `./7w_wiki.py test --suite asset-surface-contract` (aktive Docs/Skills zeigen nur auf kanonische Asset-Surfaces)
+14. `./7w_wiki.py test --suite workflow-matrix-contract` (generierte Matrix + Workflow-Referenzen)
+15. `./7w_wiki.py test --suite tool-manifest-contract` (typed tools.json + Alias-Kompatibilitaet)
+16. `./7w_wiki.py test --suite root-tree-retirement-contract` (retired Root-Baum bleibt entfernt; aktive Skripte/Workflows nutzen nur den Docs-Baum)
+17. `./7w_wiki.py test --suite styling-surface-contract` (nur eine aktive Styling-Autoritaet; `docs/assets/` bleibt production-only)
+18. `./7w_wiki.py test --suite pages-contract-mode-contract` (deterministischer Pages-/CI-Vertrag ohne Snapshot-Schreibseitenwirkungen)
+19. `./7w_wiki.py test --suite source-link-hygiene` (MkDocs-Strict-Risiken in Quellenlinks)
+20. `./7w_wiki.py test --suite backlog-repair-contract` (Backlog-Board + Lane-1-Repair-Surface)
+21. `./7w_wiki.py test --suite process-dispatch-curiosity` (Workflow-/Persona-Prozesslogik)
+22. `./7w_wiki.py test --suite bridge-placeholder-guard` (verhindert Rueckfall in Stub-/Bridge-Policy-Fehler)
+23. `./7w_wiki.py test --suite reader-stats-contract` (Reader-Stats-Contract + Snapshot-Schnittstelle)
+24. Optional Vollabgleich: `./7w_wiki.py test --suite all` (ohne RAG-Smoke; stabiler Standardlauf)
 
 ## 3. Failure-Protokoll
 

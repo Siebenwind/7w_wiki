@@ -1,11 +1,13 @@
 ---
 title: "Siebenwind Wiki - Sprachen"
+category: Sprachen
 ---
 
 # [[Siebenwind]] Wiki - Sprachen
-Das Archiv der Sprachen.
+
+Indexseite fuer die Sektion Sprachen.
 
 ## Inhalte
 
 ### Artikel
-*   [[Sprache_Yerredoni|Die Sprache Yerredoni]]
+* [[Sprache_Yerredoni|Die Sprache Yerredoni]]

@@ -1,7 +1,7 @@
 ---
 uuid: ff785c14-880c-4b2b-b674-c561e04a9ac7
 status: ACTIVE
-updated_at: 2026-02-16T22:18:33Z
+updated_at: 2026-08-05T12:55:00Z
 owners:
   - Historiker
   - Koordinator
@@ -94,6 +94,15 @@ Der Status soll aus zwei Perspektiven kommen:
 2. Entitaetsfokussiert:
    - Letzte Durchsicht, letzter relevanter Eingriff, Evidenzkette
    - Delta seit letzter Durchsicht (welche Dateien seitdem veraendert wurden)
+
+## Abschlussrueckmeldung fuer Historiker-Durchlaeufe
+
+Jeder Historiker-Durchlauf endet mit einer nutzergerichteten Zusammenfassung nach `System/Templates/HISTORIAN_CLOSEOUT_TEMPLATE.md`. Zwei klar getrennte Abschnitte sind verbindlich:
+
+1. `Implementierte Neuerungen`: Was wurde angelegt, erweitert, korrigiert oder entfernt, und welchen inhaltlichen Nutzen hat dies fuer das Wiki?
+2. `Erkenntnisgewinn`: Welche historischen oder lorebezogenen Einsichten kamen hinzu, welche Annahmen wurden korrigiert oder differenziert, und welche Unsicherheiten bleiben offen?
+
+Reine Mengen- oder Dateilisten genuegen nicht. Falls keine Implementierung oder kein Erkenntnisgewinn entstand, muss der jeweilige Pflichtabschnitt dies nachvollziehbar begruenden. Offene Punkte, Pruefstatus, Dispatch-Abschluss und Session-Memory sind zulaessige Ergaenzungen, aber kein Ersatz.
 
 ## Geplante Artefakte
 

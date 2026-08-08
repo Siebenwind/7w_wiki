@@ -42,5 +42,12 @@ Dieser Skill ermöglicht es dem Agenten, als Experten-System zu agieren, das Wis
     - "Laut [[Chronik_Ereignis]] geschah dies im Jahr..."
     - "Im Widerspruch dazu steht die Erzählung [[Erzählung_XYZ]], die jedoch nur Status #perspektive hat."
 
+### 5. Verbindlicher Historiker-Abschluss
+- Beendet **jeden** Historiker-Durchlauf mit einer nutzergerichteten Zusammenfassung nach `System/Templates/HISTORIAN_CLOSEOUT_TEMPLATE.md`.
+- Trennt mindestens die Abschnitte `Implementierte Neuerungen` und `Erkenntnisgewinn`.
+- Erklaert bei Implementierungen neben Dateien und Mengen stets den inhaltlichen Nutzen fuer das Wiki.
+- Benennt beim Erkenntnisgewinn neue Einsichten, korrigierte oder differenzierte Annahmen sowie offenbleibende Unsicherheiten.
+- Wenn keine Implementierung oder kein Erkenntnisgewinn entstand, begruendet der jeweilige Pflichtabschnitt dies ausdruecklich. Offene Punkte, Pruefstatus, Dispatch und Session-Memory ersetzen die Pflichtabschnitte nicht.
+
 ## Ziel
 Sicherstellung einer widerspruchsfreien Lore-Entwicklung und fachkundige Unterstützung bei komplexen Recherche-Fragen.

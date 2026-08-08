@@ -1,25 +1,28 @@
 ---
+title: "Tabenbuch vom Huns Siebzehnrübl"
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=108788"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=108788"
-title: "Tabenbuch vom Huns Siebzehnrübl"
 date: 2018-12-13
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 108788
 content_status: fulltext_archived
-review_status: triage_ready
-review_owner: Scout
+review_status: integrated
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
 human_escalation_required: false
+integration_status: integrated
+integrated_target: "docs/Siebenwind_Wiki/06_Erzählungen/Tabenbuch_vom_Huns_Siebzehnruebl.md"
+ingestion_report: "Logs/Ingestion/2026-08-06_Forum_tabenbuch_vom_huns_siebzehnruebl.md"
+integrated_at: "2026-08-06T19:25:35Z"
 archived_at: "2026-08-04T17:10:06Z"
 post_count: 13
 topic_pages_archived: 1
 raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/108788.html"
 ---
-
 # Tabenbuch vom Huns Siebzehnrübl
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

@@ -1,11 +1,13 @@
 ---
 title: "Siebenwind Wiki - Myten und Legenden"
+category: Myten und Legenden
 ---
 
 # [[Siebenwind]] Wiki - Myten und Legenden
-Das Archiv der Myten und Legenden.
+
+Indexseite fuer die Sektion Myten und Legenden.
 
 ## Inhalte
 
 ### Artikel
-*   [[Der_blinde_Maler|Der Blinde Maler]]
+* [[Der_Blinde_Maler|Der Blinde Maler]]

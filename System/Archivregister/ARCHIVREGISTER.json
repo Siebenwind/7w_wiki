@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T14:56:12Z",
+  "generated_at": "2026-08-06T19:11:03Z",
   "records": [
     {
       "content_hash": "ec88e7591016db77",
@@ -282,18 +282,18 @@
       "size_bytes": 962
     },
     {
-      "content_hash": "de609c5461ac26f9",
-      "content_uuid": "",
+      "content_hash": "f83fd3a8bce7e007",
+      "content_uuid": "d5223f14-50a3-4b39-9270-1fce49a7d945",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Auenelfen.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-04T16:27:25Z",
       "rag_source": "wiki",
       "record_uuid": "dace704c-4bd6-50ea-9d0d-1b6c00aff906",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Auenelfen.md",
-      "size_bytes": 155
+      "size_bytes": 2811
     },
     {
       "content_hash": "dca0775bc61c4b46",
@@ -324,18 +324,18 @@
       "size_bytes": 157
     },
     {
-      "content_hash": "7226ef015f20babb",
-      "content_uuid": "",
+      "content_hash": "caac73dfd758d9a8",
+      "content_uuid": "d5368a07-b546-4d44-9dd2-4bfee9cef66a",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Avindhrell.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-04T16:27:26Z",
       "rag_source": "wiki",
       "record_uuid": "6e67f9a4-56e7-5b0d-bb91-a8cea2ac22fc",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Avindhrell.md",
-      "size_bytes": 157
+      "size_bytes": 2985
     },
     {
       "content_hash": "3939b40c3f305d96",
@@ -954,18 +954,18 @@
       "size_bytes": 151
     },
     {
-      "content_hash": "e7123befc4327c65",
+      "content_hash": "078762bf331f4ef2",
       "content_uuid": "8b8d4f6a-85a3-4d8a-9c65-1f5a2f0b47a1",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Ewigwacht.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-08-02T15:32:17Z",
+      "modified_at": "2026-08-05T12:16:35Z",
       "rag_source": "wiki",
       "record_uuid": "bbecd5ec-15b7-5b35-ac2d-2b62123823ff",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Ewigwacht.md",
-      "size_bytes": 3432
+      "size_bytes": 4581
     },
     {
       "content_hash": "4fe5cbc39ea60e3f",
@@ -2046,18 +2046,18 @@
       "size_bytes": 149
     },
     {
-      "content_hash": "d1e8d9574e857856",
+      "content_hash": "c49c53e95b4df647",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Magie_Grundlagen.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-15T16:35:48Z",
+      "modified_at": "2026-08-05T12:10:17Z",
       "rag_source": "wiki",
       "record_uuid": "cfbac2bb-980a-585b-8f26-7d2b757abc47",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Magie_Grundlagen.md",
-      "size_bytes": 2791
+      "size_bytes": 3851
     },
     {
       "content_hash": "c3de4384221cf305",
@@ -2424,18 +2424,18 @@
       "size_bytes": 320
     },
     {
-      "content_hash": "bb8025c78af63668",
+      "content_hash": "1cfecd56c11731df",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Organisationsregister.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-08-02T17:44:15Z",
+      "modified_at": "2026-08-05T15:48:46Z",
       "rag_source": "wiki",
       "record_uuid": "35cfc506-2f8e-55ae-97ef-86d8b818f759",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Organisationsregister.md",
-      "size_bytes": 4687
+      "size_bytes": 4737
     },
     {
       "content_hash": "e6d4b5a294ddbe32",
@@ -2494,18 +2494,18 @@
       "size_bytes": 308
     },
     {
-      "content_hash": "7db0df0d81b89491",
+      "content_hash": "e0ea4214260d812d",
       "content_uuid": "d173e080-a2dd-42ec-b616-f7f614fa9368",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Personenregister.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-08-02T17:34:21Z",
+      "modified_at": "2026-08-05T14:32:26Z",
       "rag_source": "wiki",
       "record_uuid": "e7bdaa42-b817-5376-86e9-30f2fc1beed2",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Personenregister.md",
-      "size_bytes": 52729
+      "size_bytes": 52999
     },
     {
       "content_hash": "247ed94927b0340e",
@@ -2534,20 +2534,6 @@
       "record_uuid": "992ede7d-681d-5d3a-ba65-448bfa246d83",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Ras_Altanin.md",
       "size_bytes": 159
-    },
-    {
-      "content_hash": "c064d8b0c7addf63",
-      "content_uuid": "",
-      "corpus": "wiki",
-      "extension": ".md",
-      "filename": "Rasse Orken.md",
-      "has_content_uuid": false,
-      "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
-      "rag_source": "wiki",
-      "record_uuid": "efceafa1-7007-5f3d-b43a-d83806e282e2",
-      "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Rasse Orken.md",
-      "size_bytes": 306
     },
     {
       "content_hash": "69625330b8944785",
@@ -3264,18 +3250,18 @@
       "size_bytes": 151
     },
     {
-      "content_hash": "9f297b77aff11ca4",
+      "content_hash": "6612881b8c8dcc8a",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Tevra.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T14:18:09Z",
       "rag_source": "wiki",
       "record_uuid": "cf0481a9-9d84-5d7c-8606-887a867e2ffa",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/Tevra.md",
-      "size_bytes": 147
+      "size_bytes": 3208
     },
     {
       "content_hash": "8f7e87c8c7a879bc",
@@ -3978,18 +3964,18 @@
       "size_bytes": 177
     },
     {
-      "content_hash": "b95edc8ce44a2e9c",
+      "content_hash": "2e0b86bb2f000460",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-07-15T19:09:03Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "d5199550-6366-5e2c-a95a-278fc7d5cee5",
       "relative_path": "docs/Siebenwind_Wiki/00_Fundament/index.md",
-      "size_bytes": 8712
+      "size_bytes": 9644
     },
     {
       "content_hash": "d406dc285b9976b8",
@@ -4048,18 +4034,18 @@
       "size_bytes": 2221
     },
     {
-      "content_hash": "6c9cca0fea5500cc",
-      "content_uuid": "",
+      "content_hash": "e8e74c2f4205c99e",
+      "content_uuid": "4cf0e2c1-4f4e-4f4c-b358-186e6a06e964",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Angamon.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-08-02T17:31:54Z",
+      "modified_at": "2026-08-05T15:53:14Z",
       "rag_source": "wiki",
       "record_uuid": "27f40032-420b-515b-b6a9-d0521e4e8fa1",
       "relative_path": "docs/Siebenwind_Wiki/01_Pantheon/Angamon.md",
-      "size_bytes": 3438
+      "size_bytes": 5071
     },
     {
       "content_hash": "8bb38e7d45f83025",
@@ -4482,18 +4468,18 @@
       "size_bytes": 792
     },
     {
-      "content_hash": "b3d2f1172c2637c9",
-      "content_uuid": "",
+      "content_hash": "a05189184eb4e567",
+      "content_uuid": "39e32ae6-9c22-4a27-81b1-a678cbd2c612",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Morsan.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-17T15:40:38Z",
+      "modified_at": "2026-08-05T14:33:00Z",
       "rag_source": "wiki",
       "record_uuid": "9a6332b4-499e-594d-ab9b-2a13a59175b5",
       "relative_path": "docs/Siebenwind_Wiki/01_Pantheon/Morsan.md",
-      "size_bytes": 2454
+      "size_bytes": 3837
     },
     {
       "content_hash": "91b450c0995666ca",
@@ -4720,18 +4706,18 @@
       "size_bytes": 1640
     },
     {
-      "content_hash": "d9eff89e1734f4e8",
+      "content_hash": "e1f51dd6feed0624",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T16:25:42Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "8cc0fc3d-02d5-58e2-a3cd-956f1faa3a4c",
       "relative_path": "docs/Siebenwind_Wiki/01_Pantheon/index.md",
-      "size_bytes": 2267
+      "size_bytes": 2214
     },
     {
       "content_hash": "315dad0b87f53809",
@@ -4748,18 +4734,18 @@
       "size_bytes": 575
     },
     {
-      "content_hash": "9522f2da9451085a",
+      "content_hash": "c05379833f26117a",
       "content_uuid": "b6ea7945-151d-41ba-bd5b-573793eeb368",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Brandenstein.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-08-02T17:31:54Z",
+      "modified_at": "2026-08-05T15:54:25Z",
       "rag_source": "wiki",
       "record_uuid": "4e576f0c-6f00-5f09-b49e-7ae385449da8",
       "relative_path": "docs/Siebenwind_Wiki/02_Geografie/Brandenstein.md",
-      "size_bytes": 4765
+      "size_bytes": 7306
     },
     {
       "content_hash": "7515dc1be97c4ebb",
@@ -4846,32 +4832,32 @@
       "size_bytes": 503
     },
     {
-      "content_hash": "eb807b1a2cccf10d",
-      "content_uuid": "",
+      "content_hash": "0ffba1be40a89426",
+      "content_uuid": "55705f02-8403-4518-acec-6bb86cf1e241",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Falkensee.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-17T15:42:46Z",
+      "modified_at": "2026-08-05T15:50:42Z",
       "rag_source": "wiki",
       "record_uuid": "2f6581c0-1677-536c-98d8-ac8fc8034232",
       "relative_path": "docs/Siebenwind_Wiki/02_Geografie/Falkensee.md",
-      "size_bytes": 2426
+      "size_bytes": 4664
     },
     {
-      "content_hash": "bc42e4a29fd04c97",
+      "content_hash": "ace7dfbb1fb61539",
       "content_uuid": "d12c3a4e-67f9-4b25-ae8c-7d3910f654b2",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Falkenwall.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-08-02T17:31:53Z",
+      "modified_at": "2026-08-05T15:50:58Z",
       "rag_source": "wiki",
       "record_uuid": "2f3a056b-2baf-520b-90f5-b80de7d44a2d",
       "relative_path": "docs/Siebenwind_Wiki/02_Geografie/Falkenwall.md",
-      "size_bytes": 4468
+      "size_bytes": 8762
     },
     {
       "content_hash": "8ea5165ca9014766",
@@ -4916,18 +4902,18 @@
       "size_bytes": 855
     },
     {
-      "content_hash": "ff20128997f423d7",
+      "content_hash": "1e23c6f72c39cf16",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Finsterwangen.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T15:42:46Z",
+      "modified_at": "2026-08-05T12:19:06Z",
       "rag_source": "wiki",
       "record_uuid": "02a42898-c97e-5741-8a09-5b2321e3e7dc",
       "relative_path": "docs/Siebenwind_Wiki/02_Geografie/Finsterwangen.md",
-      "size_bytes": 1836
+      "size_bytes": 3830
     },
     {
       "content_hash": "89bcba6ac3471d23",
@@ -5014,18 +5000,32 @@
       "size_bytes": 394
     },
     {
-      "content_hash": "1803653aaaf4ae1f",
+      "content_hash": "a52f9b525359d682",
+      "content_uuid": "361011fb-b0cf-4da0-87a0-02fe079b8ba5",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Morsanschrein_in_Brandenstein.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T14:32:24Z",
+      "rag_source": "wiki",
+      "record_uuid": "cdacc102-f5a5-540a-bbd1-16754e5a7068",
+      "relative_path": "docs/Siebenwind_Wiki/02_Geografie/Morsanschrein_in_Brandenstein.md",
+      "size_bytes": 2907
+    },
+    {
+      "content_hash": "f0ab3beee61671fa",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Region_Auren.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T12:10:17Z",
       "rag_source": "wiki",
       "record_uuid": "59ddd4bd-38aa-555d-89b5-4d06fe011d66",
       "relative_path": "docs/Siebenwind_Wiki/02_Geografie/Region_Auren.md",
-      "size_bytes": 1250
+      "size_bytes": 2651
     },
     {
       "content_hash": "97b1263fdbe9a958",
@@ -5140,18 +5140,18 @@
       "size_bytes": 854
     },
     {
-      "content_hash": "9bcf82ecc570be11",
+      "content_hash": "c223b53c05f2f97e",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Region_Khalandra.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T15:42:25Z",
+      "modified_at": "2026-08-05T12:13:54Z",
       "rag_source": "wiki",
       "record_uuid": "d783416b-93c2-5c8f-be63-4182766e7339",
       "relative_path": "docs/Siebenwind_Wiki/02_Geografie/Region_Khalandra.md",
-      "size_bytes": 487
+      "size_bytes": 481
     },
     {
       "content_hash": "f98960b567e7a054",
@@ -5238,18 +5238,18 @@
       "size_bytes": 530
     },
     {
-      "content_hash": "4883317f0f29b7d0",
+      "content_hash": "07f6d1a103546f3e",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Region_Ravel.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T15:42:25Z",
+      "modified_at": "2026-08-05T12:13:54Z",
       "rag_source": "wiki",
       "record_uuid": "e0a1c457-3ffb-5a0d-86b9-f9a22ca2d000",
       "relative_path": "docs/Siebenwind_Wiki/02_Geografie/Region_Ravel.md",
-      "size_bytes": 805
+      "size_bytes": 799
     },
     {
       "content_hash": "51aa0e401f37efd4",
@@ -5504,18 +5504,18 @@
       "size_bytes": 404
     },
     {
-      "content_hash": "d984808112b9b654",
+      "content_hash": "c74cd4ef95815579",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T16:23:15Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "6f6532b7-7dba-504b-ad7b-1036f5894462",
       "relative_path": "docs/Siebenwind_Wiki/02_Geografie/index.md",
-      "size_bytes": 1992
+      "size_bytes": 2020
     },
     {
       "content_hash": "b477302d4face610",
@@ -5672,18 +5672,18 @@
       "size_bytes": 1406
     },
     {
-      "content_hash": "f427594b7048ddba",
+      "content_hash": "aa51d49fad8dcc84",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Das_Adelssystem.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T15:33:45Z",
+      "modified_at": "2026-08-05T12:10:17Z",
       "rag_source": "wiki",
       "record_uuid": "4371459a-6ad2-5d16-91d0-dca44e72dc8a",
       "relative_path": "docs/Siebenwind_Wiki/03_Gesellschaft/Das_Adelssystem.md",
-      "size_bytes": 2360
+      "size_bytes": 3794
     },
     {
       "content_hash": "630a036eefcbe23e",
@@ -5770,18 +5770,32 @@
       "size_bytes": 470
     },
     {
-      "content_hash": "3555fdc67a5eaf4c",
+      "content_hash": "8c6c9604daf4912f",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Ersonter_Bund.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T12:10:18Z",
       "rag_source": "wiki",
       "record_uuid": "cd702c86-2997-5298-a781-0a1ea1971182",
       "relative_path": "docs/Siebenwind_Wiki/03_Gesellschaft/Ersonter_Bund.md",
-      "size_bytes": 1162
+      "size_bytes": 2900
+    },
+    {
+      "content_hash": "947423646e5f9652",
+      "content_uuid": "cfb8793c-7473-4d5d-abe9-b28f0e30008e",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Gefaengnissystem_in_Galadon.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T12:10:16Z",
+      "rag_source": "wiki",
+      "record_uuid": "a97b589f-c8c1-5482-a81a-821293122f4e",
+      "relative_path": "docs/Siebenwind_Wiki/03_Gesellschaft/Gefaengnissystem_in_Galadon.md",
+      "size_bytes": 2810
     },
     {
       "content_hash": "eb541d05e35d7855",
@@ -6008,18 +6022,18 @@
       "size_bytes": 1246
     },
     {
-      "content_hash": "528eff6bd49bfacf",
+      "content_hash": "fa7ab13a2d2317d8",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Orken.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T15:33:45Z",
+      "modified_at": "2026-08-05T12:13:53Z",
       "rag_source": "wiki",
       "record_uuid": "3d3b1cb8-fa57-5b11-a6bd-7253bc4261df",
       "relative_path": "docs/Siebenwind_Wiki/03_Gesellschaft/Orken.md",
-      "size_bytes": 4041
+      "size_bytes": 4662
     },
     {
       "content_hash": "e74c650a8105c9d9",
@@ -6036,18 +6050,18 @@
       "size_bytes": 1430
     },
     {
-      "content_hash": "9d74f2d48c6467a1",
+      "content_hash": "36172a621aef3a2b",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Pakt_der_Viereinigkeit.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T12:10:17Z",
       "rag_source": "wiki",
       "record_uuid": "9742aa61-78b8-57e2-b6ea-62d0043606e3",
       "relative_path": "docs/Siebenwind_Wiki/03_Gesellschaft/Pakt_der_Viereinigkeit.md",
-      "size_bytes": 1199
+      "size_bytes": 2953
     },
     {
       "content_hash": "e4cea8a1669338ff",
@@ -6148,18 +6162,18 @@
       "size_bytes": 2245
     },
     {
-      "content_hash": "3e12a19514e613de",
-      "content_uuid": "",
+      "content_hash": "a085ae18c40d8181",
+      "content_uuid": "ea1fdef4-4743-4166-8a21-876d8fe5fc45",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Schattenhand.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T15:48:46Z",
       "rag_source": "wiki",
       "record_uuid": "200a50cf-097b-579a-b33c-6739899d56b8",
       "relative_path": "docs/Siebenwind_Wiki/03_Gesellschaft/Schattenhand.md",
-      "size_bytes": 751
+      "size_bytes": 2725
     },
     {
       "content_hash": "38d4c892723c2b5d",
@@ -6288,18 +6302,18 @@
       "size_bytes": 3239
     },
     {
-      "content_hash": "8abbf46582044958",
+      "content_hash": "e409e5ff30336ee4",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-08-02T17:45:48Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "2480043a-3301-5efa-9b41-60c2e61c1296",
       "relative_path": "docs/Siebenwind_Wiki/03_Gesellschaft/index.md",
-      "size_bytes": 2647
+      "size_bytes": 2593
     },
     {
       "content_hash": "299e46dc9e824b9d",
@@ -6330,18 +6344,18 @@
       "size_bytes": 8636
     },
     {
-      "content_hash": "f2518e0cb0d16504",
+      "content_hash": "3d1c6c9378b8c9e2",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "a8545a8d-5d38-5286-a6bf-cac18c236224",
       "relative_path": "docs/Siebenwind_Wiki/03_Wissen/Personen/index.md",
-      "size_bytes": 116
+      "size_bytes": 148
     },
     {
       "content_hash": "bb6770655e22bde1",
@@ -6358,18 +6372,18 @@
       "size_bytes": 3699
     },
     {
-      "content_hash": "fb71c63db522980c",
+      "content_hash": "dfe194b75c89c384",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T16:23:15Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "e49bc6bd-9515-5e76-9da7-11347d2af0db",
       "relative_path": "docs/Siebenwind_Wiki/03_Wissen/Recht/index.md",
-      "size_bytes": 165
+      "size_bytes": 197
     },
     {
       "content_hash": "0ad0d86696eb1a4e",
@@ -6400,18 +6414,18 @@
       "size_bytes": 2221
     },
     {
-      "content_hash": "61e0b78c44d031c7",
+      "content_hash": "34474bbf9b0c3b29",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "560278e9-8c49-5e13-9bb6-3cdae67e22a0",
       "relative_path": "docs/Siebenwind_Wiki/03_Wissen/Sprachen/index.md",
-      "size_bytes": 176
+      "size_bytes": 207
     },
     {
       "content_hash": "697da614c020aebf",
@@ -6678,6 +6692,20 @@
       "record_uuid": "6dfeeeeb-9347-54f7-819d-4ac4aac53d1f",
       "relative_path": "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_Sprache_Run_(Toran_Dur).md",
       "size_bytes": 1276
+    },
+    {
+      "content_hash": "629689c4eb76b3a1",
+      "content_uuid": "fe238658-afbc-4694-b550-f9a17f309bc7",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Die_wahrste_Wahrheit_ueber_Orken.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T12:13:53Z",
+      "rag_source": "wiki",
+      "record_uuid": "529ac398-b896-5a3e-a42d-d65ebaa44c21",
+      "relative_path": "docs/Siebenwind_Wiki/03_Wissen/Werke/Die_wahrste_Wahrheit_ueber_Orken.md",
+      "size_bytes": 3609
     },
     {
       "content_hash": "b49ed4e6940a022a",
@@ -7058,18 +7086,18 @@
       "size_bytes": 1803
     },
     {
-      "content_hash": "216b8511b51dd27a",
+      "content_hash": "37f87445509aa979",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T16:23:15Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "fea750b5-953e-59f5-ab84-9ec49bab9714",
       "relative_path": "docs/Siebenwind_Wiki/03_Wissen/Werke/index.md",
-      "size_bytes": 3603
+      "size_bytes": 3645
     },
     {
       "content_hash": "439d760583fb4bdd",
@@ -7086,18 +7114,18 @@
       "size_bytes": 435
     },
     {
-      "content_hash": "d90182974845a74d",
+      "content_hash": "ffe866f2cba117d3",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-06-11T15:23:39Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "fe3fd5e0-a8b7-56f6-9781-48ba24258531",
       "relative_path": "docs/Siebenwind_Wiki/03_Wissen/index.md",
-      "size_bytes": 402
+      "size_bytes": 457
     },
     {
       "content_hash": "dd2d4add91578c20",
@@ -8248,32 +8276,32 @@
       "size_bytes": 12277
     },
     {
-      "content_hash": "abc3a781963379f1",
+      "content_hash": "48c474e986030eee",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T16:23:15Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "566990bc-2117-5961-a535-d856a1ccde50",
       "relative_path": "docs/Siebenwind_Wiki/04_Chronik/index.md",
-      "size_bytes": 4058
+      "size_bytes": 4226
     },
     {
-      "content_hash": "877b3cc259fc0f4a",
+      "content_hash": "e3bc7334ebca47bc",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "234d7a92-87b2-5a06-89f5-44c5d302d401",
       "relative_path": "docs/Siebenwind_Wiki/04_Wesenheiten/index.md",
-      "size_bytes": 125
+      "size_bytes": 160
     },
     {
       "content_hash": "f4c2f4847dfbad74",
@@ -9228,18 +9256,18 @@
       "size_bytes": 610
     },
     {
-      "content_hash": "0ac467653debf5bd",
+      "content_hash": "586599ece726bf4e",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-08-02T17:45:48Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "0feab4a1-4844-5489-a720-57e9ab86eb2e",
       "relative_path": "docs/Siebenwind_Wiki/05_Geschichte/index.md",
-      "size_bytes": 3729
+      "size_bytes": 4315
     },
     {
       "content_hash": "bfe4c386b1af23ae",
@@ -9802,18 +9830,32 @@
       "size_bytes": 2535
     },
     {
-      "content_hash": "c0b08af750579b1a",
+      "content_hash": "01fea24b6edc0eb0",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T16:23:15Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "e8140711-c9af-5f72-831b-d69294be7515",
       "relative_path": "docs/Siebenwind_Wiki/05_Magie/index.md",
-      "size_bytes": 2374
+      "size_bytes": 2352
+    },
+    {
+      "content_hash": "dcca5e500605fe98",
+      "content_uuid": "efbb1234-b242-4a38-9f55-8c1f643a5d05",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Allerlei_aus_Finsterwangen.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T12:19:56Z",
+      "rag_source": "wiki",
+      "record_uuid": "e54fcaee-af09-5a79-aae8-454aecccf12c",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Allerlei_aus_Finsterwangen.md",
+      "size_bytes": 5353
     },
     {
       "content_hash": "0b4f10e5b15c7bbd",
@@ -9844,18 +9886,46 @@
       "size_bytes": 1998
     },
     {
-      "content_hash": "9d9d3416109b170a",
+      "content_hash": "4413325569351bf2",
+      "content_uuid": "9c6fca68-bee0-40c9-bf8d-92b005f20292",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Baerenkampf_westlich_von_Brandenstein.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-04T15:05:32Z",
+      "rag_source": "wiki",
+      "record_uuid": "bd767fd1-08cd-5d8b-8dca-d18775f2ee26",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Baerenkampf_westlich_von_Brandenstein.md",
+      "size_bytes": 1956
+    },
+    {
+      "content_hash": "9397e0928e1ff26a",
       "content_uuid": "17697c72-d70a-4e10-a644-c21be1dc99fb",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Balians_Gesellschaftsentwurf.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-08-04T14:18:30Z",
+      "modified_at": "2026-08-04T15:05:32Z",
       "rag_source": "wiki",
       "record_uuid": "234b35c3-bbda-5704-9f70-bd33bbf0e3db",
       "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Balians_Gesellschaftsentwurf.md",
-      "size_bytes": 2045
+      "size_bytes": 2518
+    },
+    {
+      "content_hash": "1ce70521fa8c2b0b",
+      "content_uuid": "7664cc30-e358-42ab-badc-f148fa798f99",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Blutrache.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T14:25:38Z",
+      "rag_source": "wiki",
+      "record_uuid": "09a489bc-c523-597b-a333-dcb6ee7c727d",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Blutrache.md",
+      "size_bytes": 4072
     },
     {
       "content_hash": "907237fff60e1016",
@@ -9900,6 +9970,20 @@
       "size_bytes": 2408
     },
     {
+      "content_hash": "f6d162de4ea860ae",
+      "content_uuid": "68abdc56-4bab-4d45-a14d-cf71268e232b",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Die_Felsen_in_der_Brandung.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-04T15:05:31Z",
+      "rag_source": "wiki",
+      "record_uuid": "7de5bef9-59f5-53dc-87aa-cfb6bc7ba3c6",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Die_Felsen_in_der_Brandung.md",
+      "size_bytes": 3033
+    },
+    {
       "content_hash": "6021f667c82af66b",
       "content_uuid": "6BFB4A6D-4C1A-4473-96BF-56A0CD8581E2",
       "corpus": "wiki",
@@ -9942,18 +10026,18 @@
       "size_bytes": 10777
     },
     {
-      "content_hash": "af2b39bc4104a473",
+      "content_hash": "1af1155851d8b9ea",
       "content_uuid": "96f0d82b-71ca-4be4-8f35-2d64a9c7e103",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Die_Saeulen_des_Valkun.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-08-02T15:38:48Z",
+      "modified_at": "2026-08-05T15:51:20Z",
       "rag_source": "wiki",
       "record_uuid": "b7e78e9d-37ae-58b7-bb90-3ded8cffc5c0",
       "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Die_Saeulen_des_Valkun.md",
-      "size_bytes": 4128
+      "size_bytes": 5187
     },
     {
       "content_hash": "3958cfed23dcb5fb",
@@ -9970,6 +10054,20 @@
       "size_bytes": 3529
     },
     {
+      "content_hash": "690539b663f32d26",
+      "content_uuid": "2bd2d6b1-95e1-4f7f-b8fe-d8b02de333fa",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Dunkle_Tage_Lichte_Naechte.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T15:50:28Z",
+      "rag_source": "wiki",
+      "record_uuid": "99088222-f43e-5b5c-aa36-e48ef6109005",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Dunkle_Tage_Lichte_Naechte.md",
+      "size_bytes": 5280
+    },
+    {
       "content_hash": "1e688e59fb544458",
       "content_uuid": "2e523c83-2a49-4865-af54-feffe1a2a2c7",
       "corpus": "wiki",
@@ -9982,6 +10080,20 @@
       "record_uuid": "7ee746c7-195d-5488-aeb9-80279c8beaa4",
       "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Ein_Fuchs_streift_durch_die_Waelder.md",
       "size_bytes": 2069
+    },
+    {
+      "content_hash": "34ad6a50233aa900",
+      "content_uuid": "ebefec94-ac4d-4148-bdf6-96ec50aec46d",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Ein_Goblin_kommt_selten_allein.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T15:56:42Z",
+      "rag_source": "wiki",
+      "record_uuid": "9e5d4971-02ba-5b5a-8cbd-9c304ea99327",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Ein_Goblin_kommt_selten_allein.md",
+      "size_bytes": 2390
     },
     {
       "content_hash": "59c57fdc9837b0dd",
@@ -9998,6 +10110,20 @@
       "size_bytes": 2017
     },
     {
+      "content_hash": "303052f4bab8ae67",
+      "content_uuid": "47b73b81-7581-4a9b-ae5b-fb56cd39908d",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Ein_Zelt_kaum_wetterfest.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T15:54:42Z",
+      "rag_source": "wiki",
+      "record_uuid": "78a7c22d-dd05-5bfe-8e75-2e85b184d05c",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Ein_Zelt_kaum_wetterfest.md",
+      "size_bytes": 2213
+    },
+    {
       "content_hash": "ef8dd2f02c89dc0f",
       "content_uuid": "d201db7b-4fbf-453b-8746-f4c1eaff9e74",
       "corpus": "wiki",
@@ -10010,6 +10136,20 @@
       "record_uuid": "ef9d3d9f-273d-54f9-b815-d2d2eab5be60",
       "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Ein_besonderer_Arbeitstag.md",
       "size_bytes": 1366
+    },
+    {
+      "content_hash": "ff4309d61f202a80",
+      "content_uuid": "5cb54112-9a24-43de-9156-f475ec70c00d",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Eine_Huette_in_der_Wildnis.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-04T15:05:32Z",
+      "rag_source": "wiki",
+      "record_uuid": "5104a07e-8321-526c-8148-83155fed981a",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Eine_Huette_in_der_Wildnis.md",
+      "size_bytes": 2229
     },
     {
       "content_hash": "d6d771bb55d81d5e",
@@ -10040,6 +10180,20 @@
       "size_bytes": 3024
     },
     {
+      "content_hash": "65b0827fb4fc8f4b",
+      "content_uuid": "5cc6c5b4-7f07-414b-a8af-3391bf17cb90",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Geschichten_auf_1001_Hadernblatt.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-04T16:27:24Z",
+      "rag_source": "wiki",
+      "record_uuid": "03c5952a-24db-5b44-bb14-2498a3580a04",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Geschichten_auf_1001_Hadernblatt.md",
+      "size_bytes": 3579
+    },
+    {
       "content_hash": "095301a7dfa0da7f",
       "content_uuid": "",
       "corpus": "wiki",
@@ -10054,6 +10208,20 @@
       "size_bytes": 2260
     },
     {
+      "content_hash": "27f1e17d26abaa6c",
+      "content_uuid": "479ce3b5-9676-406e-bef4-31470e27ef97",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Haus_9_in_Brandenstein.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T15:44:51Z",
+      "rag_source": "wiki",
+      "record_uuid": "b389cd44-eed7-5b14-a417-617c4dda20eb",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Haus_9_in_Brandenstein.md",
+      "size_bytes": 1972
+    },
+    {
       "content_hash": "cf44181d2390c5c7",
       "content_uuid": "",
       "corpus": "wiki",
@@ -10066,6 +10234,20 @@
       "record_uuid": "80b8f3b4-210f-5800-973e-72b8cf44eae2",
       "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Heimsuchung_der_Akademie.md",
       "size_bytes": 1398
+    },
+    {
+      "content_hash": "8c5725d4daa04f0c",
+      "content_uuid": "bf637885-da26-4551-8783-47924991e345",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Im_Wuestensand.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-04T15:05:31Z",
+      "rag_source": "wiki",
+      "record_uuid": "b08b6fa5-f28d-523c-9e69-bb3b915e33cd",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Im_Wuestensand.md",
+      "size_bytes": 2688
     },
     {
       "content_hash": "a213fbf1136e3be6",
@@ -10110,18 +10292,74 @@
       "size_bytes": 1698
     },
     {
-      "content_hash": "0af551188871368a",
+      "content_hash": "de058553745b1f94",
+      "content_uuid": "4a211f42-c6ee-4e19-9909-7bf55dbbe3f3",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Neues_Chaos_auf_Tevras_Pfaden.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T14:18:09Z",
+      "rag_source": "wiki",
+      "record_uuid": "2d828e8f-0579-5069-a42c-6eefaa0137cc",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Neues_Chaos_auf_Tevras_Pfaden.md",
+      "size_bytes": 4325
+    },
+    {
+      "content_hash": "181b2cee19259bf2",
+      "content_uuid": "1ca5af8b-122f-476a-ad5d-ef6a244bd7d7",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Reinigung_des_Morsanschreins.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T14:32:24Z",
+      "rag_source": "wiki",
+      "record_uuid": "1366389d-3e12-51be-b9f3-9b0faf670bf1",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Reinigung_des_Morsanschreins.md",
+      "size_bytes": 2546
+    },
+    {
+      "content_hash": "c6632a66dc2a84c0",
       "content_uuid": "c924906f-b9d6-4ad0-b01c-6200bd952689",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Saranas_Tod.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-08-04T14:18:30Z",
+      "modified_at": "2026-08-04T15:05:32Z",
       "rag_source": "wiki",
       "record_uuid": "a75b05c0-2171-54f4-b432-3629fb0fcedf",
       "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Saranas_Tod.md",
-      "size_bytes": 2795
+      "size_bytes": 3395
+    },
+    {
+      "content_hash": "776b7586449c283c",
+      "content_uuid": "6c9b04f8-d185-450c-a3d5-acde9d05e25f",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Traumtagebuch.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T14:41:42Z",
+      "rag_source": "wiki",
+      "record_uuid": "31a700cc-e641-59b7-9d46-424a53d08582",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Traumtagebuch.md",
+      "size_bytes": 3621
+    },
+    {
+      "content_hash": "a63d85a31ff3b1da",
+      "content_uuid": "130b5a91-41ae-4cdb-b0e3-2bb0d41092c7",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Von_Schiffen_und_Schmerzen.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T14:29:05Z",
+      "rag_source": "wiki",
+      "record_uuid": "f273438d-8bc2-50a5-8e55-bb2e1b071f89",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Von_Schiffen_und_Schmerzen.md",
+      "size_bytes": 3455
     },
     {
       "content_hash": "257b96ff01f35111",
@@ -10166,6 +10404,20 @@
       "size_bytes": 1643
     },
     {
+      "content_hash": "940c463df0db44f4",
+      "content_uuid": "981428de-e175-4607-86a2-67c5475c1baf",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Weg_in_den_Wahnsinn.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T15:53:13Z",
+      "rag_source": "wiki",
+      "record_uuid": "17be902d-f364-5cff-b731-83de8ca4b6a3",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Weg_in_den_Wahnsinn.md",
+      "size_bytes": 3110
+    },
+    {
       "content_hash": "9f0c65b555ae6cfb",
       "content_uuid": "9fc1b1e2-4fba-4624-9311-2506fac8162d",
       "corpus": "wiki",
@@ -10178,6 +10430,20 @@
       "record_uuid": "98b5a744-ef02-57b5-ba47-31b9449bc4f6",
       "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Welle_und_Brandung.md",
       "size_bytes": 1831
+    },
+    {
+      "content_hash": "463c8094142645b0",
+      "content_uuid": "d52df15b-3bcf-4ea8-b82f-17eeef7cb234",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Woelfe_bewegen_sich_gern_im_Rudel.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-05T14:28:44Z",
+      "rag_source": "wiki",
+      "record_uuid": "ddc6ab4e-4944-559a-8e9b-50f6bafffd6d",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Woelfe_bewegen_sich_gern_im_Rudel.md",
+      "size_bytes": 4955
     },
     {
       "content_hash": "ed31ffde5d8b2146",
@@ -10194,32 +10460,46 @@
       "size_bytes": 1412
     },
     {
-      "content_hash": "7cb5699b052ced62",
+      "content_hash": "09d53c89b243e40b",
+      "content_uuid": "55b9eb97-415d-4862-832f-0660c4899fe7",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Zaertliche_Cousinen.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-04T16:27:24Z",
+      "rag_source": "wiki",
+      "record_uuid": "238ee9ca-fc6c-53ee-89a4-51a0cfcbccc4",
+      "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/Zaertliche_Cousinen.md",
+      "size_bytes": 2242
+    },
+    {
+      "content_hash": "27ad53c726107849",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-08-04T14:19:27Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "0b0e3065-8f7a-5c24-829c-2f762e24cebe",
       "relative_path": "docs/Siebenwind_Wiki/06_Erz\u00e4hlungen/index.md",
-      "size_bytes": 1239
+      "size_bytes": 2723
     },
     {
-      "content_hash": "ca6dff82819689cb",
+      "content_hash": "9667f6942b6e8f44",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "fea5a86e-f293-521a-9ec8-80a9b819de61",
       "relative_path": "docs/Siebenwind_Wiki/06_Geschichte/index.md",
-      "size_bytes": 122
+      "size_bytes": 156
     },
     {
       "content_hash": "1f5e5a030a196db4",
@@ -10236,18 +10516,18 @@
       "size_bytes": 1649
     },
     {
-      "content_hash": "ee7cae9e10eb0b1f",
+      "content_hash": "79f09406dec2a9d3",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "a85fea67-aa02-511c-822c-d15818738bd3",
       "relative_path": "docs/Siebenwind_Wiki/06_Myten_und_Legenden/index.md",
-      "size_bytes": 200
+      "size_bytes": 241
     },
     {
       "content_hash": "611eab0de7326f70",
@@ -10334,18 +10614,18 @@
       "size_bytes": 486
     },
     {
-      "content_hash": "68503d5183e8ed4b",
-      "content_uuid": "",
+      "content_hash": "0207b94e5b2ce65c",
+      "content_uuid": "93bb5fd2-b6f1-42a9-8289-acde68a0229e",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Adhemar_Ravenforth.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T14:28:44Z",
       "rag_source": "wiki",
       "record_uuid": "d0215538-48e2-59e9-8d1a-b57a60b2cfa4",
       "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Adhemar_Ravenforth.md",
-      "size_bytes": 925
+      "size_bytes": 2480
     },
     {
       "content_hash": "c072669399e0a919",
@@ -11298,6 +11578,20 @@
       "record_uuid": "53814438-e7bd-5f05-badc-67ad55d2633c",
       "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Balean_Urs.md",
       "size_bytes": 835
+    },
+    {
+      "content_hash": "907d6051910be791",
+      "content_uuid": "40df6bb9-b36d-48eb-ab65-bead32f018fd",
+      "corpus": "wiki",
+      "extension": ".md",
+      "filename": "Balian_Ruhnbert.md",
+      "has_content_uuid": true,
+      "indexable": true,
+      "modified_at": "2026-08-04T15:05:32Z",
+      "rag_source": "wiki",
+      "record_uuid": "293ec8a5-0315-58c8-84c0-1ccbf916b195",
+      "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Balian_Ruhnbert.md",
+      "size_bytes": 2604
     },
     {
       "content_hash": "868f36bda5e4beb8",
@@ -12392,18 +12686,18 @@
       "size_bytes": 751
     },
     {
-      "content_hash": "6d46c493b23a94f1",
+      "content_hash": "e040adb255bc7f2b",
       "content_uuid": "4e9af1c7-32b6-4d8d-bf41-8a7c0e5d2193",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Enoah_Sullin.md",
       "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-08-02T15:38:48Z",
+      "modified_at": "2026-08-05T15:51:20Z",
       "rag_source": "wiki",
       "record_uuid": "3cd98e71-ff7d-568a-b4e1-42c279d51ead",
       "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Enoah_Sullin.md",
-      "size_bytes": 2458
+      "size_bytes": 3431
     },
     {
       "content_hash": "f72cc7c5c1b1a05c",
@@ -15542,18 +15836,18 @@
       "size_bytes": 411
     },
     {
-      "content_hash": "988da5c34bc99ed0",
-      "content_uuid": "",
+      "content_hash": "69eb2b29aa155caa",
+      "content_uuid": "0ea3acd2-d688-430c-86d6-88901e81676e",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Maichellis_Wanderstern.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-04T16:28:59Z",
       "rag_source": "wiki",
       "record_uuid": "58c5b1ee-46c2-5107-8c0a-c891666239e9",
       "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Maichellis_Wanderstern.md",
-      "size_bytes": 2034
+      "size_bytes": 2828
     },
     {
       "content_hash": "10a9d5ffb3788dca",
@@ -16718,18 +17012,18 @@
       "size_bytes": 871
     },
     {
-      "content_hash": "f9dd63843e150d55",
-      "content_uuid": "",
+      "content_hash": "ed0450c71ee185a4",
+      "content_uuid": "b8478f13-9a12-4685-b6df-c8645ea8283a",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Rolosin_Vadebor.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T14:33:00Z",
       "rag_source": "wiki",
       "record_uuid": "4bb12b7e-66d6-5559-b0ff-85724cdb4b0c",
       "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Rolosin_Vadebor.md",
-      "size_bytes": 986
+      "size_bytes": 1921
     },
     {
       "content_hash": "43d497584c31c1c4",
@@ -18482,18 +18776,18 @@
       "size_bytes": 715
     },
     {
-      "content_hash": "4bb2a2bb92f1bf7b",
+      "content_hash": "6139be0dc4a8a697",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-08-02T17:45:48Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "7451c124-c9bc-59bc-984e-17e9d6281b19",
       "relative_path": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/index.md",
-      "size_bytes": 20718
+      "size_bytes": 19723
     },
     {
       "content_hash": "9b56c36ad2d68f91",
@@ -18594,18 +18888,18 @@
       "size_bytes": 1582
     },
     {
-      "content_hash": "c03ab442930273d2",
+      "content_hash": "0533a94617661922",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Elementare.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T14:25:39Z",
       "rag_source": "wiki",
       "record_uuid": "d721a10a-7ed5-5399-a805-4ef611181af5",
       "relative_path": "docs/Siebenwind_Wiki/08_Bestiarium/Elementare.md",
-      "size_bytes": 1383
+      "size_bytes": 2280
     },
     {
       "content_hash": "4ad9b5f9f92eef64",
@@ -18650,18 +18944,18 @@
       "size_bytes": 1501
     },
     {
-      "content_hash": "109f73f4b0993b7f",
-      "content_uuid": "",
+      "content_hash": "43f6cb6efea37b06",
+      "content_uuid": "d0d0ad73-20f3-4fd2-9ca4-406f3aa80f6c",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Goblins.md",
-      "has_content_uuid": false,
+      "has_content_uuid": true,
       "indexable": true,
-      "modified_at": "2026-04-08T20:15:43Z",
+      "modified_at": "2026-08-05T15:56:42Z",
       "rag_source": "wiki",
       "record_uuid": "dd6b4493-6e1c-53f3-aca1-a0ee56f41fff",
       "relative_path": "docs/Siebenwind_Wiki/08_Bestiarium/Goblins.md",
-      "size_bytes": 672
+      "size_bytes": 3465
     },
     {
       "content_hash": "a171f05bfcfd3ab9",
@@ -18944,18 +19238,18 @@
       "size_bytes": 1057
     },
     {
-      "content_hash": "1a497058c8985f26",
+      "content_hash": "a6fb4f2cbf190cf8",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T16:23:15Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "94dfcd2b-bba9-5128-b7fb-af29d3f3cd0f",
       "relative_path": "docs/Siebenwind_Wiki/08_Bestiarium/index.md",
-      "size_bytes": 1120
+      "size_bytes": 1099
     },
     {
       "content_hash": "30c44a369ceed4df",
@@ -19336,18 +19630,18 @@
       "size_bytes": 2737
     },
     {
-      "content_hash": "ed48734d03090e20",
+      "content_hash": "4288b7c815d43026",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T16:23:15Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "ec1bd8a6-9038-549b-9365-b66e201db6bc",
       "relative_path": "docs/Siebenwind_Wiki/09_Bibliothek/index.md",
-      "size_bytes": 1715
+      "size_bytes": 1700
     },
     {
       "content_hash": "ebeb5c12bf7782ba",
@@ -19434,32 +19728,32 @@
       "size_bytes": 1446
     },
     {
-      "content_hash": "be37aad3037e272e",
+      "content_hash": "4d8ef8dfa8b31923",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "Wiki_Statistiken.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-07-30T17:08:22Z",
+      "modified_at": "2026-08-05T15:57:17Z",
       "rag_source": "wiki",
       "record_uuid": "ed34a4e1-0284-56bd-b6b9-4352d97e1ff4",
       "relative_path": "docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md",
-      "size_bytes": 5555
+      "size_bytes": 5608
     },
     {
-      "content_hash": "6c7229273dd7c8c0",
+      "content_hash": "2ce26d3c96b32ac2",
       "content_uuid": "",
       "corpus": "wiki",
       "extension": ".md",
       "filename": "index.md",
       "has_content_uuid": false,
       "indexable": true,
-      "modified_at": "2026-04-17T16:23:16Z",
+      "modified_at": "2026-08-05T15:57:52Z",
       "rag_source": "wiki",
       "record_uuid": "6a886841-bac0-5825-a72b-ff83d5541fc4",
       "relative_path": "docs/Siebenwind_Wiki/10_Archiv/index.md",
-      "size_bytes": 1175
+      "size_bytes": 611
     },
     {
       "content_hash": "4e4dbec5963be253",
@@ -30620,46 +30914,46 @@
       "size_bytes": 22039
     },
     {
-      "content_hash": "8cc5c33acbfc9900",
+      "content_hash": "c4f44b008d030ae7",
       "content_uuid": "1b3c8f24-7fb5-4ec3-9d43-7b1f17f69371",
       "corpus": "system",
       "extension": ".md",
       "filename": "AGENT_OPERATIONS_HANDBOOK.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-06-30T19:02:47Z",
+      "modified_at": "2026-08-05T12:51:20Z",
       "rag_source": "",
       "record_uuid": "4e76e03c-8153-596f-b8bb-8c59e1ad72e4",
       "relative_path": "System/AGENT_OPERATIONS_HANDBOOK.md",
-      "size_bytes": 13827
+      "size_bytes": 13887
     },
     {
-      "content_hash": "107ff44c9952c562",
+      "content_hash": "11780de27213b0ea",
       "content_uuid": "",
       "corpus": "system",
       "extension": ".json",
       "filename": "ARCHIVREGISTER.json",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-08-02T17:21:36Z",
+      "modified_at": "2026-08-04T14:56:12Z",
       "rag_source": "",
       "record_uuid": "6c15edc2-e046-50fc-a98a-059d2b3709f3",
       "relative_path": "System/Archivregister/ARCHIVREGISTER.json",
-      "size_bytes": 1728680
+      "size_bytes": 1742073
     },
     {
-      "content_hash": "d5f9087aee5fd6a4",
-      "content_uuid": "087f8e42-5d99-420f-ac1c-b6010fc0c8a4",
+      "content_hash": "df17e0188ff2006c",
+      "content_uuid": "b3f5c21a-d95c-4dad-b8d9-4da0abfdceae",
       "corpus": "system",
       "extension": ".md",
       "filename": "ARCHIVREGISTER.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-08-02T17:21:36Z",
+      "modified_at": "2026-08-04T14:56:12Z",
       "rag_source": "",
       "record_uuid": "5b36010b-8039-547b-a1d5-3dabf786d9a3",
       "relative_path": "System/Archivregister/ARCHIVREGISTER.md",
-      "size_bytes": 2933
+      "size_bytes": 2934
     },
     {
       "content_hash": "fc99a187814209c2",
@@ -30676,18 +30970,18 @@
       "size_bytes": 1595
     },
     {
-      "content_hash": "360b35512ab78799",
+      "content_hash": "75685af5ad30dc97",
       "content_uuid": "",
       "corpus": "system",
       "extension": ".md",
       "filename": "COORDINATION_HUB.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-06-11T14:38:40Z",
+      "modified_at": "2026-08-05T12:50:28Z",
       "rag_source": "",
       "record_uuid": "c89cae3c-48f3-5504-b5e0-dbb53c4fe49d",
       "relative_path": "System/COORDINATION_HUB.md",
-      "size_bytes": 11437
+      "size_bytes": 11727
     },
     {
       "content_hash": "3803d3a67c4a69d4",
@@ -33196,6 +33490,272 @@
       "size_bytes": 1130
     },
     {
+      "content_hash": "bbd98cf2287ff70e",
+      "content_uuid": "94e5647b-431b-4a37-88f8-42ec18efe434",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0216_forum_ingestion_105159_die_felsen_in_der_brandung.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T15:17:03Z",
+      "rag_source": "",
+      "record_uuid": "7c423944-239f-5dc0-b240-6af5472546ba",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0216_forum_ingestion_105159_die_felsen_in_der_brandung.md",
+      "size_bytes": 983
+    },
+    {
+      "content_hash": "97bb4aea83e970c2",
+      "content_uuid": "b1f3fb5a-3e59-4867-a660-d1ae50af78e2",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0217_forum_ingestion_105188_im_w_stensand.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T15:17:03Z",
+      "rag_source": "",
+      "record_uuid": "91d530c6-6179-5485-ac1b-cb33a405c4de",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0217_forum_ingestion_105188_im_w_stensand.md",
+      "size_bytes": 959
+    },
+    {
+      "content_hash": "ad5c3d17ee475bc7",
+      "content_uuid": "3fe7cb60-d219-49d6-8adf-4675340327e9",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0218_forum_ingestion_105132_b_renkampf_westlich_von_brandenstein.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T15:17:03Z",
+      "rag_source": "",
+      "record_uuid": "4350adbb-6901-55bf-a1ec-ab9c27287194",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0218_forum_ingestion_105132_b_renkampf_westlich_von_brandenstein.md",
+      "size_bytes": 950
+    },
+    {
+      "content_hash": "bfce429f97af6629",
+      "content_uuid": "10a86faa-b977-4938-bf8c-5539cbc37ad8",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0219_forum_ingestion_105060_balian_ruhnbert.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T15:17:04Z",
+      "rag_source": "",
+      "record_uuid": "8fed8506-95c8-5472-b5d7-920570205695",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0219_forum_ingestion_105060_balian_ruhnbert.md",
+      "size_bytes": 1001
+    },
+    {
+      "content_hash": "eceb3d845ba1a9dd",
+      "content_uuid": "b457bb2b-cf72-4e0b-886a-bc2494aefe2d",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0220_forum_ingestion_105023_eine_h_tte_in_der_wildnis.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T15:17:04Z",
+      "rag_source": "",
+      "record_uuid": "99eb485b-f40c-5707-aa0a-7a41aa316ab1",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0220_forum_ingestion_105023_eine_h_tte_in_der_wildnis.md",
+      "size_bytes": 914
+    },
+    {
+      "content_hash": "669647198990028f",
+      "content_uuid": "8f1c6f03-a5b6-4999-9268-82d4341dd55d",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0221_pages_anomalie_globaler_zielz_hler_1_ohne_residuum_im_histor.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T15:19:38Z",
+      "rag_source": "",
+      "record_uuid": "d70d60b2-dc1b-5b5d-933a-0633dcad952d",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0221_pages_anomalie_globaler_zielz_hler_1_ohne_residuum_im_histor.md",
+      "size_bytes": 907
+    },
+    {
+      "content_hash": "50bfe1c7af9034d1",
+      "content_uuid": "9d07cf53-e2ca-46f7-9a7a-5e5b15e2d7ef",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0222_session_handover_forum_historikerf_lle_105159_bis_105023.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T15:21:19Z",
+      "rag_source": "",
+      "record_uuid": "bd5190f6-bfbc-55f3-b0c4-87faf19da7fb",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0222_session_handover_forum_historikerf_lle_105159_bis_105023.md",
+      "size_bytes": 1276
+    },
+    {
+      "content_hash": "d418d9cc3354b557",
+      "content_uuid": "5ee5a277-6358-4c26-bc10-d7e541699f54",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0223_historikerbatches_commitbereit.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T15:36:48Z",
+      "rag_source": "",
+      "record_uuid": "e7a4cd49-2c39-59bf-a083-17c84d7a4e64",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0223_historikerbatches_commitbereit.md",
+      "size_bytes": 745
+    },
+    {
+      "content_hash": "ca6cb2333d190431",
+      "content_uuid": "3df1e441-d9fa-4b88-826c-a50472617745",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0224_quellenabgleich_der_letzten_historikerfaelle.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T17:00:08Z",
+      "rag_source": "",
+      "record_uuid": "fb6a9db7-e79f-5aa2-9db2-d9972b3be716",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0224_quellenabgleich_der_letzten_historikerfaelle.md",
+      "size_bytes": 942
+    },
+    {
+      "content_hash": "51eb5e51bcf680c1",
+      "content_uuid": "9aba5e2d-0101-4fd8-8736-7f8fece94d6d",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0225_f_nf_forum_historikerf_lle_104750_bis_104860_abgeschlossen.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T17:00:08Z",
+      "rag_source": "",
+      "record_uuid": "38740d4d-6fbb-5a75-919a-53e0c5602ac7",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0225_f_nf_forum_historikerf_lle_104750_bis_104860_abgeschlossen.md",
+      "size_bytes": 980
+    },
+    {
+      "content_hash": "2c94929f6be17970",
+      "content_uuid": "fda674b7-e048-470d-a723-5ee59f62d7a0",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0226_forum_ingestion_und_backlogstatus_commitbereit.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T17:00:09Z",
+      "rag_source": "",
+      "record_uuid": "092c1c08-53dc-5cbc-8df8-34d6e0b36e31",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0226_forum_ingestion_und_backlogstatus_commitbereit.md",
+      "size_bytes": 1018
+    },
+    {
+      "content_hash": "805f065871d127cb",
+      "content_uuid": "84d0daa0-0a9e-4ee0-97c9-b00843715973",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0227_forumstand_gepusht_weitere_volltext_ingestion_empfohlen.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T18:39:37Z",
+      "rag_source": "",
+      "record_uuid": "2cdca08f-ada6-598a-b541-0017e31a80e3",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0227_forumstand_gepusht_weitere_volltext_ingestion_empfohlen.md",
+      "size_bytes": 958
+    },
+    {
+      "content_hash": "636fb131d8f518c4",
+      "content_uuid": "dc4f012b-f4de-4d3a-bb73-3a6f72f5f551",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0228_41_forumvolltexte_archiviert_und_zur_triage_bereit.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T18:39:37Z",
+      "rag_source": "",
+      "record_uuid": "fa24d9c4-6941-50c8-8927-0e2f34beb145",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0228_41_forumvolltexte_archiviert_und_zur_triage_bereit.md",
+      "size_bytes": 1134
+    },
+    {
+      "content_hash": "f77f93584d4b4acc",
+      "content_uuid": "901836a6-1f2d-47b0-994a-7f0aee2bc741",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0229_naechster_forum_historikerlauf_fuenferpaket_31020_bis_109867.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-05T12:40:19Z",
+      "rag_source": "",
+      "record_uuid": "a8ea039e-52a9-576f-81df-a3c776e5a252",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0229_naechster_forum_historikerlauf_fuenferpaket_31020_bis_109867.md",
+      "size_bytes": 1891
+    },
+    {
+      "content_hash": "721a2dce56f3a45e",
+      "content_uuid": "3fd4a01d-1222-47f9-aea3-18edd29e142d",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0230_session_handover_41_forumvolltexte_und_historikerpaket_vorbe.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-04T18:39:37Z",
+      "rag_source": "",
+      "record_uuid": "ececfbd8-ba00-587d-b2c5-e13eac3cc96c",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0230_session_handover_41_forumvolltexte_und_historikerpaket_vorbe.md",
+      "size_bytes": 1084
+    },
+    {
+      "content_hash": "fc7b60ef4bdcd9cf",
+      "content_uuid": "07364848-381a-4719-9a92-d88cc6bcf113",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0231_globaler_lektorbestand_225_altbefunde_au_erhalb_msg_2026_022.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-05T12:40:11Z",
+      "rag_source": "",
+      "record_uuid": "7d10f787-437d-5b16-bf66-f493e9c1797e",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0231_globaler_lektorbestand_225_altbefunde_au_erhalb_msg_2026_022.md",
+      "size_bytes": 816
+    },
+    {
+      "content_hash": "c0abaaea726e9b4b",
+      "content_uuid": "663b01e5-87b0-4ee8-86cb-fc5e8aa1e705",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0232_historiker_abschlussvertrag_dauerhaft_kodifiziert.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-05T13:00:27Z",
+      "rag_source": "",
+      "record_uuid": "9e3f8eeb-f751-5ef6-aed1-32ddef06f71e",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0232_historiker_abschlussvertrag_dauerhaft_kodifiziert.md",
+      "size_bytes": 1178
+    },
+    {
+      "content_hash": "3e9c756c0e29eda7",
+      "content_uuid": "01eafc09-e782-4338-b1d4-832fb697700b",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0233_historikerlauf_109847_bis_109818_abgeschlossen.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-05T14:47:37Z",
+      "rag_source": "",
+      "record_uuid": "8aa1ff71-eeaa-5bd6-a8d5-07ff87ca4148",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0233_historikerlauf_109847_bis_109818_abgeschlossen.md",
+      "size_bytes": 1394
+    },
+    {
+      "content_hash": "8facc82cce8a6e2d",
+      "content_uuid": "a5e02bb5-76c8-4469-aa10-fa6934ab640f",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "MSG-2026-0234_historikerlauf_109785_bis_109574_abgeschlossen.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-05T16:07:38Z",
+      "rag_source": "",
+      "record_uuid": "18ae967f-c9f3-54b1-8113-0d42e99b4f2b",
+      "relative_path": "System/Synapse_Board/DISPATCH/MSG-2026-0234_historikerlauf_109785_bis_109574_abgeschlossen.md",
+      "size_bytes": 1456
+    },
+    {
       "content_hash": "4d8857b2c9153885",
       "content_uuid": "9f32f3bc-eea4-486a-9240-bb4ceab44bc9",
       "corpus": "system",
@@ -34260,18 +34820,18 @@
       "size_bytes": 2784
     },
     {
-      "content_hash": "bf8c9cf3d3988100",
+      "content_hash": "ff89eafe2573d22d",
       "content_uuid": "ff785c14-880c-4b2b-b674-c561e04a9ac7",
       "corpus": "system",
       "extension": ".md",
       "filename": "SY_HISTORIAN_TRACEABILITY.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-04-08T17:54:12Z",
+      "modified_at": "2026-08-05T12:49:34Z",
       "rag_source": "",
       "record_uuid": "71d6e18a-c565-58b1-854a-e09d7f1f9168",
       "relative_path": "System/Synapse_Board/SY_HISTORIAN_TRACEABILITY.md",
-      "size_bytes": 5633
+      "size_bytes": 6493
     },
     {
       "content_hash": "9cc8797516eef398",
@@ -34316,32 +34876,32 @@
       "size_bytes": 3404
     },
     {
-      "content_hash": "5e342320b430087d",
+      "content_hash": "2fb025bac3c539d3",
       "content_uuid": "9e6a6a7c-4ef6-4f73-96d7-967f21bf90e8",
       "corpus": "system",
       "extension": ".md",
       "filename": "SY_TESTING.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-04-09T15:07:33Z",
+      "modified_at": "2026-08-05T12:50:28Z",
       "rag_source": "",
       "record_uuid": "04a07fec-2441-5de2-b0ef-e077fa9ba332",
       "relative_path": "System/Synapse_Board/SY_TESTING.md",
-      "size_bytes": 4518
+      "size_bytes": 4607
     },
     {
-      "content_hash": "6c92489cc0aaa52c",
+      "content_hash": "7942148504a5d5dc",
       "content_uuid": "52af70d6-90f7-4201-9374-c6cc2ce0c57e",
       "corpus": "system",
       "extension": ".md",
       "filename": "SY_WORKFLOW_CLI_MATRIX.md",
       "has_content_uuid": true,
       "indexable": false,
-      "modified_at": "2026-06-30T19:02:47Z",
+      "modified_at": "2026-08-05T12:52:02Z",
       "rag_source": "",
       "record_uuid": "fec26a21-d582-5cc5-a9dc-578246a41710",
       "relative_path": "System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md",
-      "size_bytes": 9129
+      "size_bytes": 9183
     },
     {
       "content_hash": "ac236c28a761e755",
@@ -34412,6 +34972,20 @@
       "record_uuid": "43482140-a8cf-56fa-b7ca-b6fb49683959",
       "relative_path": "System/Synapse_Board/_resolved/RESEARCH-2026-009.md",
       "size_bytes": 1757
+    },
+    {
+      "content_hash": "709c7617e41c896f",
+      "content_uuid": "67c4789a-165d-49cc-a7fb-0fa9dc146046",
+      "corpus": "system",
+      "extension": ".md",
+      "filename": "HISTORIAN_CLOSEOUT_TEMPLATE.md",
+      "has_content_uuid": true,
+      "indexable": false,
+      "modified_at": "2026-08-05T12:49:33Z",
+      "rag_source": "",
+      "record_uuid": "dc7388b4-f0d7-56da-b5f8-21b464703621",
+      "relative_path": "System/Templates/HISTORIAN_CLOSEOUT_TEMPLATE.md",
+      "size_bytes": 1631
     },
     {
       "content_hash": "c80fb7e5704a42f9",
@@ -35072,18 +35646,18 @@
       "size_bytes": 4964
     },
     {
-      "content_hash": "31ed8ac97ef859a4",
+      "content_hash": "31c866cac0ac2a06",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "CHANGELOG.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-08-04T14:35:00Z",
+      "modified_at": "2026-08-05T16:05:11Z",
       "rag_source": "",
       "record_uuid": "a872f0ee-0342-54fe-98fb-e447cfbe42b5",
       "relative_path": "docs/CHANGELOG.md",
-      "size_bytes": 83056
+      "size_bytes": 97800
     },
     {
       "content_hash": "371ae9868c99ad61",
@@ -35128,18 +35702,18 @@
       "size_bytes": 2544
     },
     {
-      "content_hash": "d849ea21d11700b9",
+      "content_hash": "fe12488c598e5394",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "MASTER_TASK_LIST.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-08-04T14:35:00Z",
+      "modified_at": "2026-08-05T12:25:44Z",
       "rag_source": "",
       "record_uuid": "e24614b4-8eaf-5723-bf87-0df9978bcc1e",
       "relative_path": "docs/MASTER_TASK_LIST.md",
-      "size_bytes": 14376
+      "size_bytes": 14146
     },
     {
       "content_hash": "c116fb8f4bc37180",
@@ -40700,32 +41274,32 @@
       "size_bytes": 619
     },
     {
-      "content_hash": "04b633b33b71b5b4",
+      "content_hash": "bc8525b8726f5fee",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_allerlei_aus_finsterwangen.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T12:19:45Z",
       "rag_source": "",
       "record_uuid": "c16c1f2e-3bb7-55cf-8bc6-52cc44fee4b3",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_allerlei_aus_finsterwangen.md",
-      "size_bytes": 603
+      "size_bytes": 32247
     },
     {
-      "content_hash": "c13041778a879065",
+      "content_hash": "e196e691b8186161",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_am_teich_der_ruhe.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:21Z",
       "rag_source": "",
       "record_uuid": "f52d2382-6982-57ee-b330-7220afd91f1d",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_am_teich_der_ruhe.md",
-      "size_bytes": 585
+      "size_bytes": 5850
     },
     {
       "content_hash": "6d14c5b5f7ee3b03",
@@ -40826,18 +41400,18 @@
       "size_bytes": 607
     },
     {
-      "content_hash": "515fd955fc8446c9",
+      "content_hash": "0b839395a495db81",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_b_renkampf.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T15:06:16Z",
       "rag_source": "",
       "record_uuid": "3a9f479a-fa58-51e2-9b9e-7800f2bddaa3",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_b_renkampf.md",
-      "size_bytes": 613
+      "size_bytes": 3183
     },
     {
       "content_hash": "93978d8370860bba",
@@ -40882,18 +41456,18 @@
       "size_bytes": 593
     },
     {
-      "content_hash": "f2d0a1bfffbd74cb",
+      "content_hash": "e2af9349a561b3a3",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_blutrache.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T14:21:45Z",
       "rag_source": "",
       "record_uuid": "0d2672b7-07fb-589a-88d6-fc8873525386",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_blutrache.md",
-      "size_bytes": 569
+      "size_bytes": 17767
     },
     {
       "content_hash": "b3670e4f58a0932f",
@@ -41022,18 +41596,18 @@
       "size_bytes": 613
     },
     {
-      "content_hash": "ffd1e198f3834fd5",
+      "content_hash": "5b5b1322f6b4db67",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_das_licht_am_ende_des_tunnels.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:20Z",
       "rag_source": "",
       "record_uuid": "3ac82131-b0b4-5dd9-9016-a6ff3acf2da6",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_das_licht_am_ende_des_tunnels.md",
-      "size_bytes": 609
+      "size_bytes": 25616
     },
     {
       "content_hash": "9ce6eaaa7d292c24",
@@ -41078,18 +41652,18 @@
       "size_bytes": 2237
     },
     {
-      "content_hash": "b9330c6346b47712",
+      "content_hash": "db7d7ab85db265c6",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_der_alte_aktenschrank.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:07Z",
       "rag_source": "",
       "record_uuid": "1e754a07-313d-5eae-a003-c12840930ae4",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_alte_aktenschrank.md",
-      "size_bytes": 593
+      "size_bytes": 52255
     },
     {
       "content_hash": "11b9062b12fc1dec",
@@ -41106,18 +41680,18 @@
       "size_bytes": 607
     },
     {
-      "content_hash": "3279f8673affe7da",
+      "content_hash": "7bb3dc72e1377576",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_der_angriff_auf_den_wall.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T16:28:04Z",
       "rag_source": "",
       "record_uuid": "ff4e748a-81d7-5d39-8c56-36172b3b9ff3",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_angriff_auf_den_wall.md",
-      "size_bytes": 599
+      "size_bytes": 2484
     },
     {
       "content_hash": "4ea29defb7b3dd8d",
@@ -41218,18 +41792,18 @@
       "size_bytes": 587
     },
     {
-      "content_hash": "a339bcb41df8f2c1",
+      "content_hash": "5cbe3d85ef31d009",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_der_weg_ist_das_ziel.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:06Z",
       "rag_source": "",
       "record_uuid": "fa5ab307-dbe3-506e-974a-bc8ea76bd0d2",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_weg_ist_das_ziel.md",
-      "size_bytes": 591
+      "size_bytes": 54851
     },
     {
       "content_hash": "4e43b09af4232ea1",
@@ -41246,18 +41820,18 @@
       "size_bytes": 645
     },
     {
-      "content_hash": "f35b61a64ab1abf5",
+      "content_hash": "62b5173176b4f22c",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_die_bewohner_der_auen.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T16:28:04Z",
       "rag_source": "",
       "record_uuid": "8e962c5c-52c5-5e67-9136-23fd1cc6ba16",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_bewohner_der_auen.md",
-      "size_bytes": 593
+      "size_bytes": 4189
     },
     {
       "content_hash": "efa0946c502c4f83",
@@ -41274,32 +41848,32 @@
       "size_bytes": 619
     },
     {
-      "content_hash": "51c4c02304542787",
+      "content_hash": "ab2b8b463e3cb9ff",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_die_felsen_in_der_brandung.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T15:06:15Z",
       "rag_source": "",
       "record_uuid": "28827aef-1808-5bc7-adcb-d4493812c2d1",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_felsen_in_der_brandung.md",
-      "size_bytes": 603
+      "size_bytes": 16675
     },
     {
-      "content_hash": "849b8164a31a8d36",
+      "content_hash": "cc8a2a18610b302e",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_die_geschichte_von_huns_siebzehnr_bl.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:23Z",
       "rag_source": "",
       "record_uuid": "88c07e39-9924-564e-baab-c0cfd1e33a70",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_geschichte_von_huns_siebzehnr_bl.md",
-      "size_bytes": 625
+      "size_bytes": 15970
     },
     {
       "content_hash": "2b943cd8f71ab985",
@@ -41372,18 +41946,18 @@
       "size_bytes": 645
     },
     {
-      "content_hash": "bb06847a9e473f2b",
+      "content_hash": "070364f7be5dac46",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_die_wahrste_wahrheit_ber_orken.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T12:14:44Z",
       "rag_source": "",
       "record_uuid": "c8eda4ea-ebd1-55e6-8b60-1698e262f007",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_die_wahrste_wahrheit_ber_orken.md",
-      "size_bytes": 611
+      "size_bytes": 39841
     },
     {
       "content_hash": "a0dcd0dff9ae68f7",
@@ -41400,18 +41974,18 @@
       "size_bytes": 6737
     },
     {
-      "content_hash": "ac4544ce4bb6da49",
+      "content_hash": "0ddb2db736ba7148",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_dunkle_tage_lichte_n_chte.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T15:51:48Z",
       "rag_source": "",
       "record_uuid": "6eb37b9e-7687-5331-97d9-5523c5970642",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_dunkle_tage_lichte_n_chte.md",
-      "size_bytes": 605
+      "size_bytes": 118604
     },
     {
       "content_hash": "63b239623262cf75",
@@ -41526,18 +42100,18 @@
       "size_bytes": 599
     },
     {
-      "content_hash": "e7ed7f205766f49c",
+      "content_hash": "835208523d1de546",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_ein_gew_hnlicher_diener_der_viere.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:17Z",
       "rag_source": "",
       "record_uuid": "3107d7f2-28a6-529e-bec3-4e6a07315979",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_gew_hnlicher_diener_der_viere.md",
-      "size_bytes": 619
+      "size_bytes": 1391681
     },
     {
       "content_hash": "82f50d7049968f80",
@@ -41666,18 +42240,18 @@
       "size_bytes": 4013
     },
     {
-      "content_hash": "66bb2cd0cf82d41b",
+      "content_hash": "8c88f027476404d7",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_ein_zelt_kaum_wetterfest.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T15:54:52Z",
       "rag_source": "",
       "record_uuid": "8f2e00d8-e1dc-5648-9937-e89cc4e10ff9",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_zelt_kaum_wetterfest.md",
-      "size_bytes": 607
+      "size_bytes": 3125
     },
     {
       "content_hash": "f2fc443595c607a0",
@@ -41708,18 +42282,18 @@
       "size_bytes": 8380
     },
     {
-      "content_hash": "3bfa48aabbeaf9c0",
+      "content_hash": "a5a8760798d3fda4",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_eine_h_tte_in_der_wildnis.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T15:06:16Z",
       "rag_source": "",
       "record_uuid": "7047efdc-fc0a-5876-8593-35cdb7721ae7",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_eine_h_tte_in_der_wildnis.md",
-      "size_bytes": 603
+      "size_bytes": 3838
     },
     {
       "content_hash": "2d2725676a7c780f",
@@ -41848,18 +42422,18 @@
       "size_bytes": 4888
     },
     {
-      "content_hash": "14ab273477cf8754",
+      "content_hash": "680a6f0a303f1bba",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_ewigwacht.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T12:16:42Z",
       "rag_source": "",
       "record_uuid": "41ba6e96-715a-5810-8714-3f27b3a10c42",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ewigwacht.md",
-      "size_bytes": 569
+      "size_bytes": 2023
     },
     {
       "content_hash": "c0d45e3796bfb968",
@@ -41946,18 +42520,18 @@
       "size_bytes": 613
     },
     {
-      "content_hash": "a0d9acb370b8a851",
+      "content_hash": "720bd6f147c3d451",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_gedankeng_nge.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:22Z",
       "rag_source": "",
       "record_uuid": "79c1d2d0-e9f5-59eb-a0b7-a8884fd4e028",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_gedankeng_nge.md",
-      "size_bytes": 579
+      "size_bytes": 15083
     },
     {
       "content_hash": "3b2482a0eede45c6",
@@ -42016,32 +42590,32 @@
       "size_bytes": 579
     },
     {
-      "content_hash": "f6e03a5c3127bbb5",
+      "content_hash": "6b94277fb2407c19",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_ger_chte_ber_einen_neuen_riesen.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:04Z",
       "rag_source": "",
       "record_uuid": "00901888-86da-59cf-bb33-61958c6568f8",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ger_chte_ber_einen_neuen_riesen.md",
-      "size_bytes": 619
+      "size_bytes": 1421
     },
     {
-      "content_hash": "8dbedc5a4b4289be",
+      "content_hash": "d7f7265dae9a24ef",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_geschichten_auf_1001_hadernblatt.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T16:28:04Z",
       "rag_source": "",
       "record_uuid": "5e45ea66-d242-57e1-bdc4-72a49f90dee4",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_geschichten_auf_1001_hadernblatt.md",
-      "size_bytes": 615
+      "size_bytes": 11552
     },
     {
       "content_hash": "f79118ff6df4bd67",
@@ -42072,18 +42646,18 @@
       "size_bytes": 615
     },
     {
-      "content_hash": "91deb90bb6cc0183",
+      "content_hash": "5915a7dce5b2a7e7",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_haus_9_in_brandenstein.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:13:49Z",
+      "modified_at": "2026-08-05T15:45:07Z",
       "rag_source": "",
       "record_uuid": "312dec64-9726-5b62-8327-f78f4c635975",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_haus_9_in_brandenstein.md",
-      "size_bytes": 594
+      "size_bytes": 2020
     },
     {
       "content_hash": "93c3aeb68a1f785a",
@@ -42114,18 +42688,18 @@
       "size_bytes": 629
     },
     {
-      "content_hash": "fdf95f4ec6166698",
+      "content_hash": "392d5fc6f99574a7",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_hintergrundexkurse.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:38:31Z",
+      "modified_at": "2026-08-05T12:11:22Z",
       "rag_source": "",
       "record_uuid": "b2602ef6-2f52-5f79-abf7-2b26c3ca2f6a",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_hintergrundexkurse.md",
-      "size_bytes": 76422
+      "size_bytes": 76741
     },
     {
       "content_hash": "20d525091440de48",
@@ -42296,32 +42870,32 @@
       "size_bytes": 7551
     },
     {
-      "content_hash": "5344290bd18c62b2",
+      "content_hash": "ac7f9818cccc6ebd",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_im_w_stensand.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T15:06:16Z",
       "rag_source": "",
       "record_uuid": "ad684e07-05e4-5fc0-9ef0-d6102e2ad6af",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_w_stensand.md",
-      "size_bytes": 579
+      "size_bytes": 11201
     },
     {
-      "content_hash": "01ca9713e8217f51",
+      "content_hash": "89549164e218ed59",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_im_zwielicht.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:06Z",
       "rag_source": "",
       "record_uuid": "a3598a51-2c06-50a9-b05f-b9d5672515c9",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_zwielicht.md",
-      "size_bytes": 581
+      "size_bytes": 140277
     },
     {
       "content_hash": "c67a207d61502e99",
@@ -42366,18 +42940,18 @@
       "size_bytes": 603
     },
     {
-      "content_hash": "f6504d2a5f147ee2",
+      "content_hash": "a7dee29cf72ce114",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_jeder_nur_einen_winzigen_schluck.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:04Z",
       "rag_source": "",
       "record_uuid": "9ccf0a28-5ce3-53a2-8241-97883236bd04",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_jeder_nur_einen_winzigen_schluck.md",
-      "size_bytes": 621
+      "size_bytes": 1667
     },
     {
       "content_hash": "269ad09dc94fd1b5",
@@ -42394,60 +42968,60 @@
       "size_bytes": 617
     },
     {
-      "content_hash": "4c4d9fef2625cf63",
+      "content_hash": "6b955108cc011f81",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_kriegsschiff_thjareks_brecher.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:17Z",
       "rag_source": "",
       "record_uuid": "18a68e36-a607-5cc8-8e4f-78a59c78728b",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_kriegsschiff_thjareks_brecher.md",
-      "size_bytes": 609
+      "size_bytes": 26666
     },
     {
-      "content_hash": "185abd7d9668847c",
+      "content_hash": "e304469647bc5578",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_kulturschock_mit_den_augen_eines_vergangenen_dwarschim.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:21Z",
       "rag_source": "",
       "record_uuid": "63e5180d-769c-5abc-809c-7b58a398d9c5",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_kulturschock_mit_den_augen_eines_vergangenen_dwarschim.md",
-      "size_bytes": 663
+      "size_bytes": 5647
     },
     {
-      "content_hash": "d424f32af6f1d329",
+      "content_hash": "975d66ba51471cbc",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_lauten_und_anderer_l_rm.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:18Z",
       "rag_source": "",
       "record_uuid": "e47c8512-38c5-5127-8c83-fed4c1aaf13c",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_lauten_und_anderer_l_rm.md",
-      "size_bytes": 599
+      "size_bytes": 9869
     },
     {
-      "content_hash": "b0a03e7256e01965",
+      "content_hash": "4fbff03a333bff8e",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_lichter_im_dunklen.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:19Z",
       "rag_source": "",
       "record_uuid": "45a7334b-e9fa-5289-ab8d-bb9fa06feef8",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_lichter_im_dunklen.md",
-      "size_bytes": 591
+      "size_bytes": 64424
     },
     {
       "content_hash": "e0430cd6006dae42",
@@ -42590,18 +43164,18 @@
       "size_bytes": 657
     },
     {
-      "content_hash": "e3e626b4b2a63554",
+      "content_hash": "9e71ce22ea6afb3a",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_mitmachthread_ein_goblin_kommt_selten_allein.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T15:56:59Z",
       "rag_source": "",
       "record_uuid": "a5391218-8307-517d-a4db-089dcdd3a66d",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthread_ein_goblin_kommt_selten_allein.md",
-      "size_bytes": 643
+      "size_bytes": 2998
     },
     {
       "content_hash": "c6ab195d717d40bb",
@@ -42660,32 +43234,32 @@
       "size_bytes": 648
     },
     {
-      "content_hash": "5207c8cd8b67d27d",
+      "content_hash": "18a819fa76eb6abb",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_mitmachthread_vom_w_stenwinde_verweht.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:07Z",
       "rag_source": "",
       "record_uuid": "6ff09b97-da32-5040-86bb-963a5efe932a",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthread_vom_w_stenwinde_verweht.md",
-      "size_bytes": 631
+      "size_bytes": 7994
     },
     {
-      "content_hash": "1bc6a46982153129",
+      "content_hash": "493bc0421ba24b6c",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_mitmachthred_mein_erster_char.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:18Z",
       "rag_source": "",
       "record_uuid": "d95659c5-6249-55cf-babe-ffca960e20a9",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthred_mein_erster_char.md",
-      "size_bytes": 619
+      "size_bytes": 5440
     },
     {
       "content_hash": "88d14257d3f7d088",
@@ -42716,18 +43290,18 @@
       "size_bytes": 615
     },
     {
-      "content_hash": "863e92f3da78b88f",
+      "content_hash": "14c785dcf09e115e",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_nachts_auf_der_litheth.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:22Z",
       "rag_source": "",
       "record_uuid": "d9a5b168-0218-51ee-aaac-b387fdd7e869",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_nachts_auf_der_litheth.md",
-      "size_bytes": 603
+      "size_bytes": 2441
     },
     {
       "content_hash": "baaa0b8f6bff56ba",
@@ -42744,18 +43318,18 @@
       "size_bytes": 603
     },
     {
-      "content_hash": "60def1b5352792c0",
+      "content_hash": "052eb942278c9274",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_neues_chaos_auf_tevras_pfaden.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T12:22:47Z",
       "rag_source": "",
       "record_uuid": "547bb93d-22ca-5df3-87c4-24a02fd8a32a",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_neues_chaos_auf_tevras_pfaden.md",
-      "size_bytes": 609
+      "size_bytes": 15331
     },
     {
       "content_hash": "596bf491f27ba945",
@@ -42828,18 +43402,18 @@
       "size_bytes": 577
     },
     {
-      "content_hash": "eb0ce1a3ce0e9a20",
+      "content_hash": "d89896d2b73fee52",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_r_ckkehr_eines_gesch_ftsmannes_und_handwerkers.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T15:06:16Z",
       "rag_source": "",
       "record_uuid": "c84745de-5f06-578d-99cf-ee24ff30bf77",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_r_ckkehr_eines_gesch_ftsmannes_und_handwerkers.md",
-      "size_bytes": 647
+      "size_bytes": 2315
     },
     {
       "content_hash": "7ccaf66c561a1211",
@@ -42870,32 +43444,32 @@
       "size_bytes": 599
     },
     {
-      "content_hash": "e9de72ee692a47ae",
+      "content_hash": "af33caff915aa122",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_reinigung_des_morsanschreins.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T14:33:05Z",
       "rag_source": "",
       "record_uuid": "b53a4825-76eb-5108-bc6a-9b7d1fe786a4",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_reinigung_des_morsanschreins.md",
-      "size_bytes": 607
+      "size_bytes": 2308
     },
     {
-      "content_hash": "94fc0c9d16b36787",
+      "content_hash": "3c87ee108c6369da",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_reitunterricht.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T16:28:05Z",
       "rag_source": "",
       "record_uuid": "1a85f31c-01ba-500a-9884-cb683e2ea84b",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_reitunterricht.md",
-      "size_bytes": 579
+      "size_bytes": 8043
     },
     {
       "content_hash": "d879cab0b86fc302",
@@ -42926,32 +43500,32 @@
       "size_bytes": 575
     },
     {
-      "content_hash": "652be83df63a0e8f",
+      "content_hash": "10ec110cd7030db8",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_schild_des_lichts.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:18Z",
       "rag_source": "",
       "record_uuid": "9cda9e21-4399-53a9-8c8e-c8666c8088e2",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_schild_des_lichts.md",
-      "size_bytes": 585
+      "size_bytes": 2990
     },
     {
-      "content_hash": "95b1e09a22b614b7",
+      "content_hash": "3622b125c58e10b2",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_schneid_bericht_zur_neuen_insel.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:23Z",
       "rag_source": "",
       "record_uuid": "fb919a4b-396e-5166-87fa-13a83804840b",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_schneid_bericht_zur_neuen_insel.md",
-      "size_bytes": 613
+      "size_bytes": 1115
     },
     {
       "content_hash": "7a51f4180eef25e4",
@@ -42968,32 +43542,32 @@
       "size_bytes": 641
     },
     {
-      "content_hash": "816ed3cef20aea66",
+      "content_hash": "f598cc0f7f553810",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_schneids_bericht_wie_der_hauptmann_ins_bett_gekommen_ist.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:13:49Z",
+      "modified_at": "2026-08-04T17:10:23Z",
       "rag_source": "",
       "record_uuid": "81ffe89a-a851-5bc0-a661-4fbe34b01757",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_schneids_bericht_wie_der_hauptmann_ins_bett_gekommen_ist.md",
-      "size_bytes": 670
+      "size_bytes": 1202
     },
     {
-      "content_hash": "ec8acd8e814a6ecc",
+      "content_hash": "c0234ca56fd3d09a",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_schwarze_tage_wei_e_n_chte.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:22Z",
       "rag_source": "",
       "record_uuid": "150bf5c5-0956-5d0a-8316-2bf8dc041f3e",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_schwarze_tage_wei_e_n_chte.md",
-      "size_bytes": 609
+      "size_bytes": 32699
     },
     {
       "content_hash": "744b0482fd051250",
@@ -43066,32 +43640,32 @@
       "size_bytes": 581
     },
     {
-      "content_hash": "33a20709060316ce",
+      "content_hash": "4cf218f2498cd5c5",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_tabenbuch_vom_huns_siebzehnr_bl.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:06Z",
       "rag_source": "",
       "record_uuid": "c52d7b78-59ab-5b73-8ce8-c305189a76a5",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_tabenbuch_vom_huns_siebzehnr_bl.md",
-      "size_bytes": 615
+      "size_bytes": 27628
     },
     {
-      "content_hash": "d1fd95735a753198",
+      "content_hash": "148bbcfcbce62480",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_traumtagebuch.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T14:18:22Z",
       "rag_source": "",
       "record_uuid": "478f9525-b2ef-54f7-a902-9c50d84c9de8",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_traumtagebuch.md",
-      "size_bytes": 577
+      "size_bytes": 22474
     },
     {
       "content_hash": "c195710ab5c68913",
@@ -43122,18 +43696,18 @@
       "size_bytes": 643
     },
     {
-      "content_hash": "88bb969f73e23861",
+      "content_hash": "dc76d33e2090ba08",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_unter_der_w_stensonne_ras_altanin_s.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:19Z",
       "rag_source": "",
       "record_uuid": "9b049ee8-190d-54f3-bbce-e202d2ca2392",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_unter_der_w_stensonne_ras_altanin_s.md",
-      "size_bytes": 623
+      "size_bytes": 54236
     },
     {
       "content_hash": "aff96b8143d77097",
@@ -43206,32 +43780,32 @@
       "size_bytes": 58923
     },
     {
-      "content_hash": "693ba3de889e1974",
+      "content_hash": "fe7e1264d2c68f60",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_von_gr_nen_fl_geln_und_w_tenden_zwergen.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:08Z",
       "rag_source": "",
       "record_uuid": "40e25e69-01d8-5608-80de-8cb8fb77e10b",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_gr_nen_fl_geln_und_w_tenden_zwergen.md",
-      "size_bytes": 635
+      "size_bytes": 32946
     },
     {
-      "content_hash": "adc8d7bf757477e5",
+      "content_hash": "544c0dd54378b2f4",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_von_schiffen_und_schmerzen.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T14:29:11Z",
       "rag_source": "",
       "record_uuid": "0066ff01-dcce-50a9-b2ce-ee00e047ebd9",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_schiffen_und_schmerzen.md",
-      "size_bytes": 603
+      "size_bytes": 3394
     },
     {
       "content_hash": "5e469ec668acfebf",
@@ -43262,32 +43836,32 @@
       "size_bytes": 645
     },
     {
-      "content_hash": "96eada5006e42405",
+      "content_hash": "15b5504bf166f126",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_vorsichtige_schritte_auf_den_stufen.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:20Z",
       "rag_source": "",
       "record_uuid": "991d354d-7528-5342-a765-b4edfc87c810",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_vorsichtige_schritte_auf_den_stufen.md",
-      "size_bytes": 621
+      "size_bytes": 6246
     },
     {
-      "content_hash": "cdb9fa685bb4822d",
+      "content_hash": "2ee826d2f3da5f9f",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_w_lfe_bewegen_sich_gern_im_rudel.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T14:25:54Z",
       "rag_source": "",
       "record_uuid": "eb70a8f5-646d-5fa2-93b3-12ad52d95fda",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_w_lfe_bewegen_sich_gern_im_rudel.md",
-      "size_bytes": 623
+      "size_bytes": 8512
     },
     {
       "content_hash": "cbcd6bacd963ebbd",
@@ -43318,18 +43892,18 @@
       "size_bytes": 579
     },
     {
-      "content_hash": "d8aaa74647e14f44",
+      "content_hash": "e074df4dd6709518",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_weg_in_den_wahnsinn.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-05T15:53:28Z",
       "rag_source": "",
       "record_uuid": "4dce8e4f-114c-5410-b716-907c8b53145c",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_weg_in_den_wahnsinn.md",
-      "size_bytes": 585
+      "size_bytes": 13699
     },
     {
       "content_hash": "81bd1649dbb1fb07",
@@ -43346,18 +43920,18 @@
       "size_bytes": 5092
     },
     {
-      "content_hash": "ccec5bb66261dab5",
+      "content_hash": "9e078c178e2ded47",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_wer_trifft_hat_recht.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T17:10:19Z",
       "rag_source": "",
       "record_uuid": "fcd97484-580d-5c37-a47d-9f08b85b21f7",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_wer_trifft_hat_recht.md",
-      "size_bytes": 593
+      "size_bytes": 29736
     },
     {
       "content_hash": "1aa5c650490a35fd",
@@ -43388,18 +43962,18 @@
       "size_bytes": 10046
     },
     {
-      "content_hash": "89d3934e979d0c35",
+      "content_hash": "9ac9d7581a6edeee",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_z_rtliche_cousinen.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:14:10Z",
+      "modified_at": "2026-08-04T16:28:04Z",
       "rag_source": "",
       "record_uuid": "26e0daa5-7569-5767-b73c-8d4d10e99e5d",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_z_rtliche_cousinen.md",
-      "size_bytes": 589
+      "size_bytes": 7429
     },
     {
       "content_hash": "97332f43bfe73c10",
@@ -43444,18 +44018,18 @@
       "size_bytes": 2177
     },
     {
-      "content_hash": "7da7d53e604314db",
+      "content_hash": "1c25bf77e0a95999",
       "content_uuid": "",
       "corpus": "docs",
       "extension": ".md",
       "filename": "undated_zweifel_amp_sehnsucht.md",
       "has_content_uuid": false,
       "indexable": false,
-      "modified_at": "2026-04-19T14:13:49Z",
+      "modified_at": "2026-08-04T17:10:21Z",
       "rag_source": "",
       "record_uuid": "03fe4a00-7d9f-520b-a3fb-82eccef4ce94",
       "relative_path": "docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_zweifel_amp_sehnsucht.md",
-      "size_bytes": 596
+      "size_bytes": 6496
     },
     {
       "content_hash": "c96f67593731a3d0",
@@ -49184,7 +49758,7 @@
       "size_bytes": 2963
     }
   ],
-  "register_uuid": "b3f5c21a-d95c-4dad-b8d9-4da0abfdceae",
+  "register_uuid": "48e8c143-60dc-4780-952b-179e11b9ffe3",
   "repo_root": "/Users/alexandrerabe/siebenwind/7w_wiki",
   "stats": {
     "board_metrics": {
@@ -49208,10 +49782,10 @@
         "missing_uuid": 0,
         "status_counts": {
           "CLAIMED": 1,
-          "DONE": 23,
-          "OPEN": 133
+          "DONE": 29,
+          "OPEN": 146
         },
-        "total": 157
+        "total": 176
       },
       "inquisition": {
         "missing_uuid": 3,
@@ -49246,19 +49820,19 @@
     "by_corpus": {
       "docs": 1046,
       "quellen": 796,
-      "system": 280,
-      "wiki": 1391
+      "system": 300,
+      "wiki": 1412
     },
     "indexable_total": {
       "quellen": 796,
-      "wiki": 1391
+      "wiki": 1412
     },
     "inventur_progress": {
       "pending": 1,
       "processed": 50,
       "total": 51
     },
-    "overlap_records_skipped": 1391,
+    "overlap_records_skipped": 1412,
     "rag_progress": {
       "quellen": {
         "available": false,
@@ -49277,14 +49851,14 @@
         "collection": "siebenwind_wiki",
         "coverage_pct": 0.0,
         "error": "Collection [siebenwind_wiki] does not exist",
-        "indexable_files": 1391,
+        "indexable_files": 1412,
         "indexed_files": 0,
         "stale_examples": [],
         "stale_index_entries": 0
       }
     },
-    "total_records": 3513,
-    "uuid_coverage_pct": 14.46,
-    "with_content_uuid": 508
+    "total_records": 3554,
+    "uuid_coverage_pct": 15.76,
+    "with_content_uuid": 560
   }
 }

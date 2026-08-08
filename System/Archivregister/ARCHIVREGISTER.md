@@ -2,8 +2,8 @@
 layout: wiki_page
 title: Archivregister
 category: System
-uuid: b3f5c21a-d95c-4dad-b8d9-4da0abfdceae
-letzter_check: 2026-08-04T14:56:12Z
+uuid: 48e8c143-60dc-4780-952b-179e11b9ffe3
+letzter_check: 2026-08-06T19:11:03Z
 ---
 
 # Archivregister
@@ -12,16 +12,16 @@ letzter_check: 2026-08-04T14:56:12Z
 
 ## Überblick
 
-- Datensaetze gesamt: 3513
-- Ueberlappende Corpus-Treffer dedupliziert: 1391
-- Mit Content-UUID: 508 (14.46%)
-- Wiki indexierbar: 1391 | Quellen indexierbar: 796
+- Datensaetze gesamt: 3554
+- Ueberlappende Corpus-Treffer dedupliziert: 1412
+- Mit Content-UUID: 560 (15.76%)
+- Wiki indexierbar: 1412 | Quellen indexierbar: 796
 
 ## RAG-Fortschritt
 
 | Corpus | Indexierte Dateien | Indexierbare Dateien | Coverage | Chunks | Stale Index-Eintraege |
 |---|---:|---:|---:|---:|---:|
-| wiki | 0 | 1391 | 0.00% | 0 | 0 |
+| wiki | 0 | 1412 | 0.00% | 0 | 0 |
 | quellen | 0 | 300 | 0.00% | 0 | 0 |
 
 ## Ingestion-Fortschritt (Inventur)
@@ -32,7 +32,7 @@ letzter_check: 2026-08-04T14:56:12Z
 
 | Domain | Total | Status Breakdown | Missing UUID | Invalid Status Files |
 |---|---:|---|---:|---:|
-| Dispatch | 157 | CLAIMED=1, DONE=23, OPEN=133 | 0 | 0 |
+| Dispatch | 176 | CLAIMED=1, DONE=29, OPEN=146 | 0 | 0 |
 | research | 10 | COMPLETED=1, DEFERRED=1, OPEN_HISTORIAN=2, THEMATIC_BACKLOG=3 | 10 | 3 |
 | conflicts | 7 | AUTO_RESOLVED=1, NEEDS_REVIEW=4, RESOLVED=1 | 7 | 1 |
 | inquisition | 4 | COMPLETED=1, OPEN=1, UNSPECIFIED=2 | 3 | 0 |
@@ -41,9 +41,9 @@ letzter_check: 2026-08-04T14:56:12Z
 
 | Corpus | Dateien |
 |---|---:|
-| wiki | 1391 |
+| wiki | 1412 |
 | quellen | 796 |
-| system | 280 |
+| system | 300 |
 | docs | 1046 |
 
 ## Pflichtfelder je Datensatz
@@ -80,10 +80,10 @@ letzter_check: 2026-08-04T14:56:12Z
 - `docs/Siebenwind_Wiki/00_Fundament/Astraelorden.md`
 - `docs/Siebenwind_Wiki/00_Fundament/Astralnetz.md`
 - `docs/Siebenwind_Wiki/00_Fundament/Astreyon.md`
-- `docs/Siebenwind_Wiki/00_Fundament/Auenelfen.md`
 - `docs/Siebenwind_Wiki/00_Fundament/Aurora.md`
 - `docs/Siebenwind_Wiki/00_Fundament/Ausbildung.md`
-- `docs/Siebenwind_Wiki/00_Fundament/Avindhrell.md`
 - `docs/Siebenwind_Wiki/00_Fundament/Baronie_Siebenwind.md`
-- ... (+2968 weitere)
+- `docs/Siebenwind_Wiki/00_Fundament/Baronsgarde.md`
+- `docs/Siebenwind_Wiki/00_Fundament/Baumwesen.md`
+- ... (+2957 weitere)
 

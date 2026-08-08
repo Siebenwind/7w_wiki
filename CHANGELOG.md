@@ -14,6 +14,84 @@
 - `reader-stats-contract`: PASS (3/3); `styling-surface-contract`: PASS.
 - Pages-Vertrag, voller Pages-Bau, gerenderte Struktur-/Mobil-CSS-Pruefung und Commit-Hygiene: siehe zugehoerigen Session-Abschluss.
 
+#### [2026-08-06.01] - Historikerlauf zu Volandur, Maichellis, Akassvae und Huns abgeschlossen
+### Prioritaet: P2
+### Hinzugefuegt
+- Fuenf quellenkritische Erzaehlungsseiten erschliessen die Forumthemen `109571`, `109483`, `108944`, `109310` und `108788`; fuenf Ingestion-Berichte dokumentieren Quellenwert, Abgleich und offene Grenzen.
+- `Volandur.md` erschliesst erstmals den pfadlosen Adepten und die von ihm beanspruchte Rolle als „Stimme der Fey“, ohne Selbstaussagen zu frueheren Morden, Magistratsregeln oder Dunquell als unabhaengig bestaetigte Tatsachen auszugeben.
+### Geaendert
+- `Claiomhs_Wacht.md` wurde aus einem Platzhalter zu einer belegten Burgseite mit Burghof, Katapult, Pferdehaltung und dem Angriff Rotschuppes und Aschehorns ausgebaut.
+- `Maichellis_Wanderstern.md`, `Akassvae.md` und `Falkenwall.md` verbinden Maichellis' Forumchronik mit den Boten 191, 193 und 194. Akassvaes Jugend, Pferdejagd, Friedensverhandlungen und Umsiedlung sind nun nach Quellenrang getrennt; ihr Schlüpfen wird nicht mehr unbelegt auf einen exakten Zeitpunkt im Jahr 30 festgelegt.
+- `Huns_Siebzehnruebl.md` ordnet die Boten 132/133 und das Tabenbuch gemeinsam als bewusst unzuverlaessige Selbstchronik ein und erweitert seine belegte Aktivitaetszeit von 16 bis 30 n.H. `Brandenstein.md` bewahrt den unbekannten Gewuerzkessel als begrenzte Marktueberlieferung.
+- Alle fuenf Quellen stehen auf `integrated`; Personenregister, Forumregister, Ingestion-Tracking, Wiki-Inventar, Kategorieindizes und Leserstatistik wurden aktualisiert. Der Bestand umfasst 1.417 Wikiartikel und 115 abgeschlossene Ingestion-Berichte; 22 archivierte Volltexte warten noch auf fachliche Bearbeitung.
+### Erkenntnisse und Grenzen
+- „Geruechte ueber einen neuen Riesen“ belegt nur die Erzaehlung von einem sehr grossen Mann mit Hammer. Der Bestiariumsartikel zu Riesen wurde bewusst nicht veraendert, weil keine Volks- oder Artzugehoerigkeit nachweisbar ist.
+- Maichellis' Bericht zum Angriff auf Claiomhs Wacht wird durch Bote 193 in zentralen Punkten bestaetigt. Der sehr aehnliche Brandensteiner Tod Rotschuppes steht in Bote 194, dessen Ausgabenjahr 36 n.H. aber nicht bruchlos zur Forumchronologie von 2019 passt; die Datierung bleibt offen.
+- Volandurs Text ist stark fuer Selbstbild, Glaubenspraxis und persoenliche Entwicklung, aber einseitig fuer Tendarions Absichten, die Festnahme in Dunquell und Regeln des Magistrats.
+- Huns ist ueber vierzehn Sonnenzirkeljahre als Figur fassbar. Medizinische Milchwirkungen, Alchemierezepte, Hofanspruch und Identitaet seiner bereisten Insel bleiben humoristische oder alkoholbeeinflusste Perspektive.
+### Validiert
+- Lektor und Sanitizer fuer alle neuen und inhaltlich geaenderten Seiten: PASS.
+- `historian-closeout-contract`, `forum-ingest-contract`, `content-contract`, `source-tree-contract`, `render-hygiene`, `clean-client-state`, `reader-stats-contract`, `bridge-placeholder-guard` und `pages-full-smoke`: PASS.
+- `./7w_wiki.py audit --json`: `issues_found = 0`; eine durch die Indexerneuerung entstandene Huns-Registerdublette und 20 Titel-/H1-Abweichungen wurden vor dem finalen Audit bereinigt.
+- Voller MkDocs-Bau: Exit 0; Pages-Drift `PASS`. Der bekannte globale Altbacklog bleibt unveraendert bei `622` unresolved / `620` unallowlisted / `609` needs historian.
+- Repo-Hygiene klassifiziert `site/` als ignoriertes Buildprodukt; es ist kein Bestandteil der Wiki-Quelle. Die semantische Suche blieb wegen des bekannten fehlenden Modellcaches (`MSG-2026-0192`) nicht verfuegbar.
+
+#### [2026-08-05.03] - Historikerlauf zu Haus 9, Valkun, Angamon und Goblinmedizin abgeschlossen
+### Prioritaet: P2
+### Hinzugefuegt
+- Fuenf quellenkritische Erzaehlungsseiten erschliessen die Forumthemen `109785`, `106019`, `81975`, `109582` und `109574`; fuenf Ingestion-Berichte dokumentieren Quellenabgleich, Synthesegrenzen und Zielentscheidungen.
+- `Haus_9_in_Brandenstein.md` verbindet die amtlich belegte Hausnummer `BS 09` mit dem begrenzten Forumbericht ueber einen gescheiterten Einbruch und kleine Spinnen im Jahr 33 n.H., ohne Bewohner oder Zusammenhaenge mit anderen Plagen zu erfinden.
+### Geaendert
+- `Angamon.md` folgt nun wieder der aktuellen Homepage: Angamon will die Schoepfung beherrschen statt vernichten, unterwarf Daemonen und wird nach dem Goetterwandel nicht mehr automatisch als Haeresie verfolgt. Die Darstellung trennt zugleich seine uneinheitlichen Stroemungen und die selbstdienlichen Forumzeugnisse.
+- `Schattenhand.md` und das Organisationsregister fuehren die Schattenhand nicht mehr unbelegt als Diebesgilde. Sie unterscheiden den amtlich genannten Gruppennamen, den Propheten Schattenhand und Valkuns behaupteten inneren Kreis; ob diese Verwendungen dieselbe Organisation bezeichnen, bleibt offen.
+- `Falkensee.md`, `Falkenwall.md`, `Brandenstein.md`, `Enoah_Sullin.md`, `Die_Saeulen_des_Valkun.md` und `Goblins.md` erhielten neue, nach Quellenrang begrenzte Zusammenhaenge. Der Goblinartikel bewahrt nun auch medizinische und artuebergreifende Beziehungen, ohne die unbekannte Gestalt aus dem Zeltbericht zum Goblin zu erklaeren.
+- Alle fuenf Forumquellen stehen auf `integrated`; Forumregister, Ingestion-Tracking, Wiki-Inventar, Kategorieindizes und Leserstatistik wurden aktualisiert. Der Bestand umfasst nun 1.411 Wikiartikel und 110 abgeschlossene Ingestion-Berichte; 27 archivierte Volltexte warten noch auf Historikerbearbeitung.
+### Erkenntnisse und Grenzen
+- `Dunkle Tage, Lichte Naechte` verbindet Valkuns fruehe Angamonis-Zeit mit dem spaeteren Saeulenkomplex und ueberliefert seinen Tod durch zwei Daemonen. Seine Aussagen zu Toran Dur, Selanus, Kairodun, Seuchenratten und der Entweihung Falkensees bleiben jedoch eine selbstrechtfertigende Binnenperspektive.
+- Eine zweite Forumquelle behauptet nun ausdruecklich, Luth Chalid sei auf Falkensees Ruinen entstanden und nach Chalid Mez Tulameth benannt worden. Die Homepage bestaetigt Luth Chalid als zerstoerte Wuestenstadt, aber nicht die Identitaet mit Falkensee; die Rekonstruktion ist damit stark gestuetzt, nicht amtlich entschieden.
+- `Weg in den Wahnsinn` zeigt ueber elf Jahre hinweg Trauma, Erinnerungsluecken und einen spaeten Angamon-Ritus. Weder die Identitaet der Frau noch eine goettliche Ursache ihrer Stimmen und Traeume ist belegt.
+- Die beiden kurzen Mitmachthemen erweitern Alltagswissen: ein ungewoehnlich kraeftiger, maskierter Lagerbewohner bleibt trotz Rohdateinamen unidentifiziert; Kruras' chronische Krankheit und seine Suche nach dem Heiler Garub belegen goblinische Heilpraxis und Kontakte zu Echsen, Gruenorken, Schwarzorken und Trollen, aber weder Diagnose noch Heilung.
+### Validiert
+- Sanitizer und Lektor fuer alle neuen und inhaltlich geaenderten Seiten: PASS; nach der Indexerneuerung wurden 20 rein formale Titel-/H1-Abweichungen bereinigt.
+- `historian-closeout-contract`, `forum-ingest-contract`, `content-contract`, `source-tree-contract`, `render-hygiene`, `clean-client-state`, `reader-stats-contract`, `bridge-placeholder-guard` und `pages-full-smoke`: PASS.
+- `./7w_wiki.py audit --json`: `issues_found = 0`; zielbezogene Historian-Dry-Runs melden keine offenen Verweise. Nur das Organisationsregister fuehrt sieben bereits vorher offene Akademie-/Ordensziele ausserhalb dieses Laufs.
+- Pages-Vertrag: `drift_status = PASS`; der bekannte globale Altbacklog liegt bei `622` unresolved / `620` unallowlisted und damit unter dem vorherigen Stand. Die lokale semantische Suche blieb wegen des bereits gemeldeten fehlenden Modellcaches nicht verfuegbar; der Abgleich erfolgte direkt gegen Quellenbestand und Homepage.
+
+#### [2026-08-05.02] - Historikerlauf zu Traumtagebuch, Blutrache, Trauerschiffen und Morsanschrein abgeschlossen
+### Prioritaet: P2
+### Hinzugefuegt
+- Fuenf quellenkritische Erzaehlungsseiten erschliessen die Forumthemen `109847`, `109858`, `109841`, `109833` und `109818`; fuenf Ingestion-Berichte sichern Quellenabgleich, Synthesegrenzen und Zielentscheidungen.
+- `Morsanschrein_in_Brandenstein.md` fuehrt die verstreuten Perspektiven zu Lage, stiller Andacht, Schlaf und Traumbeobachtung an einem gemeinsamen Ortsziel zusammen.
+### Geaendert
+- `Falkensee.md` beschreibt die Stadt nach Abgleich mit Homepage und offiziellen Nachrichten nicht mehr als gegenwaertige Hauptstadt, sondern als ehemalige Hauptstadt und heutige Ruine.
+- `Morsan.md` wurde auf die offiziell belegten Aspekte Tod, Ruhe, Schlaf, Traeume und Zeit sowie die ueberlieferte stille Andacht ausgerichtet; die Forumgeschichte dient als begrenztes Praxisbeispiel.
+- `Falkenwall.md`, `Goblins.md`, `Elementare.md`, `Brandenstein.md`, `Tevra.md`, `Neues_Chaos_auf_Tevras_Pfaden.md`, `Adhemar_Ravenforth.md`, `Rolosin_Vadebor.md` und das Personenregister erhielten neue, quellenkritisch begrenzte Zusammenhaenge.
+- Alle fuenf Forumquellen stehen auf `integrated`; Forumregister, Ingestion-Tracking, Wiki-Inventar, Kategorieindizes und Leserstatistik wurden aktualisiert. Der Bestand umfasst nun 1.406 Wikiartikel und 105 Ingestion-Berichte.
+### Erkenntnisse und Grenzen
+- `109841` liefert den unmittelbaren Ausloeser fuer `109858`: Der Wolf toetet bei Falkenwall einen Goblin-Spaehtrupp samt Anfuehrer. Die Fortsetzung zeigt Blutrache als Frage von Stammesansehen, Stellvertretern und politischer Umdeutung; Identitaet des Wolfs und Bedeutung des „Kaezarbluts“ bleiben offen.
+- Die in `109833` aus Bernstein angekuendigten zwei Trauerschiffe entsprechen nach Zahl, Fahrtrichtung und Zeitabstand sehr wahrscheinlich den zehn Tage spaeter in `109841` eintreffenden Schiffen. Passagiere und eine Beteiligung der Museumselfen sind nicht belegt.
+- Das Traumtagebuch bildet eine Vorgeschichte zu Winnis spaeterer Tevra-Pilgerfahrt. Die Beziehung zwischen Sah'lien, Buochwin und Winni sowie der objektive Status der Traeume bleiben ausdruecklich ungeklaert.
+- Die Reinigungserzaehlung und weitere Forumquellen zeigen den Brandensteiner Morsanschrein als Ort stillen Dienstes, der Meditation, des Schlafs und der Traumbeobachtung. Ob alle Texte denselben Schrein meinen, ist plausibel, aber nicht bewiesen.
+### Validiert
+- Lektor und Sanitizer fuer alle beruehrten Inhaltsseiten: PASS.
+- `historian-closeout-contract`, `forum-ingest-contract`, `content-contract`, `source-tree-contract`, `render-hygiene`, `clean-client-state` und der Vertragstest zur Leserstatistik: PASS.
+- `./7w_wiki.py audit --json`: `issues_found = 0`; `pages-full-smoke`: PASS.
+- Zielbezogene Historian-Dry-Runs melden fuer alle neuen und geaenderten Seiten keine offenen Verweise. Der globale Pages-Stand bleibt bei bestandenem Drift-Vertrag wegen des bekannten Altbacklogs WARN; der letzte Vollsnapshot entstand noch vor der Korrektur zweier Maquira-Verweise.
+
+#### [2026-08-05.01] - Historiker-Abschlusszusammenfassung als Pflichtvertrag kodifiziert
+### Prioritaet: P2
+### Hinzugefuegt
+- `System/Templates/HISTORIAN_CLOSEOUT_TEMPLATE.md` definiert fuer jeden Historiker-Durchlauf die getrennten Pflichtabschnitte `Implementierte Neuerungen` und `Erkenntnisgewinn`.
+- `historian-closeout-contract` prueft Workflow, Persona, Lore-Gelehrter-Skill, Governance, Vorlage, Registrierung und generierten Codex-Adapter.
+### Geaendert
+- Historiker-Workflow, Persona und Lore-Gelehrter verlangen nun eine nutzergerichtete, inhaltlich erklaerende Abschlusszusammenfassung statt einer reinen Datei-/Mengenzaehlung.
+- Fehlende Implementierung oder fehlender Erkenntnisgewinn muessen im jeweiligen Pflichtabschnitt ausdruecklich begruendet werden; offene Punkte, Pruefstatus, Dispatch und Session-Memory sind nur Ergaenzungen.
+- Testdokumentation und Koordinationsregister fuehren den neuen Vertrag als kanonische Oberflaeche.
+### Validiert
+- `historian-closeout-contract`: PASS mit 4/4 Faellen.
+- Katalog, Codex-Skills und Workflow-Matrix wurden ueber die kanonischen `tech`-Synchronisationspfade aktualisiert.
+- `./7w_wiki.py test --suite all`: PASS einschliesslich Katalog-, Adapter-, Historian-, Dispatch- und Interop-Vertraegen.
+
 #### [2026-08-04.05] - 41 Forumvolltexte archiviert und nächsten Historikerlauf vorbereitet
 ### Prioritaet: P2
 ### Hinzugefügt

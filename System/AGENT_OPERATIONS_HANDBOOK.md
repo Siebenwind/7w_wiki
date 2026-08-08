@@ -119,25 +119,26 @@ Verbindlicher Einstieg:
 2. `./7w_wiki.py test --suite takeover-handover`
 3. `./7w_wiki.py test --suite interop-doc-links`
 4. `./7w_wiki.py test --suite interop-command-registry`
-5. `./7w_wiki.py test --suite workflow-matrix-contract`
-6. `./7w_wiki.py test --suite catalog-contract`
-7. `./7w_wiki.py test --suite adapter-surfaces-contract`
-8. `./7w_wiki.py test --suite delegation-policy-contract`
-9. `./7w_wiki.py test --suite repo-hygiene-contract`
-10. `./7w_wiki.py test --suite manifest-contract`
-11. `./7w_wiki.py test --suite source-tree-contract`
-12. `./7w_wiki.py test --suite legacy-doc-contract`
-13. `./7w_wiki.py test --suite asset-surface-contract`
-14. `./7w_wiki.py test --suite root-tree-retirement-contract`
-15. `./7w_wiki.py test --suite styling-surface-contract`
-16. `./7w_wiki.py test --suite tool-manifest-contract`
-17. `./7w_wiki.py test --suite pages-contract-mode-contract`
-18. `./7w_wiki.py test --suite source-link-hygiene`
-19. `./7w_wiki.py test --suite process-dispatch-curiosity`
-20. `./7w_wiki.py test --suite bridge-placeholder-guard`
-21. `./7w_wiki.py test --suite reader-stats-contract`
-22. Optional Gesamtlauf: `./7w_wiki.py test --suite all` (stabiler Standardlauf ohne RAG-Smoke)
-23. Optional Oracle-Diagnose: `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`
+5. `./7w_wiki.py test --suite historian-closeout-contract`
+6. `./7w_wiki.py test --suite workflow-matrix-contract`
+7. `./7w_wiki.py test --suite catalog-contract`
+8. `./7w_wiki.py test --suite adapter-surfaces-contract`
+9. `./7w_wiki.py test --suite delegation-policy-contract`
+10. `./7w_wiki.py test --suite repo-hygiene-contract`
+11. `./7w_wiki.py test --suite manifest-contract`
+12. `./7w_wiki.py test --suite source-tree-contract`
+13. `./7w_wiki.py test --suite legacy-doc-contract`
+14. `./7w_wiki.py test --suite asset-surface-contract`
+15. `./7w_wiki.py test --suite root-tree-retirement-contract`
+16. `./7w_wiki.py test --suite styling-surface-contract`
+17. `./7w_wiki.py test --suite tool-manifest-contract`
+18. `./7w_wiki.py test --suite pages-contract-mode-contract`
+19. `./7w_wiki.py test --suite source-link-hygiene`
+20. `./7w_wiki.py test --suite process-dispatch-curiosity`
+21. `./7w_wiki.py test --suite bridge-placeholder-guard`
+22. `./7w_wiki.py test --suite reader-stats-contract`
+23. Optional Gesamtlauf: `./7w_wiki.py test --suite all` (stabiler Standardlauf ohne RAG-Smoke)
+24. Optional Oracle-Diagnose: `./7w_wiki.py test --suite rag-relevance-smoke --timeout 30` oder `./7w_wiki.py test --suite all --include-rag`
 
 Bei Pages-/Navigationsaenderungen zusaetzlich:
 

@@ -1,0 +1,109 @@
+{
+  "suite": "historian-closeout-contract",
+  "description": "Guards the mandatory user-facing closeout summary after every Historian run.",
+  "cases": [
+    {
+      "id": "historian-closeout-canonical-surfaces",
+      "name": "Canonical Historian workflow, persona, skill and governance require both closeout sections",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/workflows/historian.md",
+          "must_include_regex": [
+            "HISTORIAN_CLOSEOUT_TEMPLATE\\.md",
+            "Implementierte Neuerungen",
+            "Erkenntnisgewinn",
+            "inhaltlichen Nutzen",
+            "ausdruecklich und nachvollziehbar begruenden"
+          ]
+        },
+        {
+          "file": ".agent/instructions/persona_historian.md",
+          "must_include_regex": [
+            "HISTORIAN_CLOSEOUT_TEMPLATE\\.md",
+            "Implementierte Neuerungen",
+            "Erkenntnisgewinn",
+            "inhaltlichen Nutzen",
+            "ausdruecklich zu begruenden"
+          ]
+        },
+        {
+          "file": ".agent/skills/lore_gelehrter/SKILL.md",
+          "must_include_regex": [
+            "Verbindlicher Historiker-Abschluss",
+            "HISTORIAN_CLOSEOUT_TEMPLATE\\.md",
+            "Implementierte Neuerungen",
+            "Erkenntnisgewinn",
+            "inhaltlichen Nutzen"
+          ]
+        },
+        {
+          "file": "System/Synapse_Board/SY_HISTORIAN_TRACEABILITY.md",
+          "must_include_regex": [
+            "Abschlussrueckmeldung fuer Historiker-Durchlaeufe",
+            "Implementierte Neuerungen",
+            "Erkenntnisgewinn",
+            "Reine Mengen- oder Dateilisten genuegen nicht"
+          ]
+        },
+        {
+          "file": "AGENTS.md",
+          "must_include_regex": [
+            "test --suite historian-closeout-contract"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historian-closeout-template-content",
+      "name": "Canonical closeout template explains value, uncertainty and empty-result handling",
+      "required_regex_by_file": [
+        {
+          "file": "System/Templates/HISTORIAN_CLOSEOUT_TEMPLATE.md",
+          "must_include_regex": [
+            "## Implementierte Neuerungen",
+            "## Erkenntnisgewinn",
+            "welchen Nutzen die Aenderungen fuer das Wiki haben",
+            "Keine Implementierung",
+            "Kein Erkenntnisgewinn",
+            "Unsicherheiten ausdruecklich offen bleiben"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historian-closeout-generated-adapter",
+      "name": "Generated Lore Scholar adapter retains the mandatory Historian closeout contract",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/scripts/generate_agent_catalog.py",
+          "must_include_regex": [
+            "Every Historian run must end with a user-facing summary",
+            "Implementierte Neuerungen and Erkenntnisgewinn",
+            "HISTORIAN_CLOSEOUT_TEMPLATE\\.md"
+          ]
+        },
+        {
+          "file": ".agents/skills/lore_gelehrter/SKILL.md",
+          "must_include_regex": [
+            "Every Historian run must end with a user-facing summary",
+            "Implementierte Neuerungen and Erkenntnisgewinn",
+            "HISTORIAN_CLOSEOUT_TEMPLATE\\.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historian-closeout-registered",
+      "name": "Closeout template and contract suite are registered in the coordination hub",
+      "required_regex_by_file": [
+        {
+          "file": "System/COORDINATION_HUB.md",
+          "must_include_regex": [
+            "Templates/HISTORIAN_CLOSEOUT_TEMPLATE\\.md",
+            "historian-closeout-contract\\.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

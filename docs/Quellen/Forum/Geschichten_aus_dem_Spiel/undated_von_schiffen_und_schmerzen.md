@@ -1,25 +1,28 @@
 ---
+title: "Von Schiffen und Schmerzen"
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=109833"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=109833"
-title: "Von Schiffen und Schmerzen"
 date: 2022-11-18
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 109833
 content_status: fulltext_archived
-review_status: triage_ready
-review_owner: Scout
+review_status: integrated
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
 human_escalation_required: false
+integration_status: integrated
+integrated_target: "docs/Siebenwind_Wiki/06_Erzählungen/Von_Schiffen_und_Schmerzen.md"
+ingestion_report: "Logs/Ingestion/2026-08-05_Forum_von_schiffen_und_schmerzen.md"
+integrated_at: "2026-08-05T14:29:11Z"
 archived_at: "2026-08-04T17:10:02Z"
 post_count: 1
 topic_pages_archived: 1
 raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/109833.html"
 ---
-
 # Von Schiffen und Schmerzen
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

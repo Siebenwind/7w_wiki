@@ -1,11 +1,13 @@
 ---
 title: "Siebenwind Wiki - Recht"
+category: Recht
 ---
 
 # [[Siebenwind]] Wiki - Recht
-Das Archiv der Recht.
+
+Indexseite fuer die Sektion Recht.
 
 ## Inhalte
 
 ### Artikel
-*   [[Iuribus_Siebenwind|Iuribus Siebenwind]]
+* [[Iuribus_Siebenwind|Iuribus [[Siebenwind]]]]

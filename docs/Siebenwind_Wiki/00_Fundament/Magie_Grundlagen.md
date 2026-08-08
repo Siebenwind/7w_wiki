@@ -1,6 +1,12 @@
 ---
 title: Magie Grundlagen
 category: Allgemein
+status: gepflegt
+epistemic: "#homepage #canon"
+quelle: "../../Quellen/Hintergrund/Magie | Siebenwind | Ultima Online Freeshard | Siebenwind.md"
+lore_trust: 10
+report_id: be17cd47-df00-49e0-8dd9-32c617c4ee55
+updated_at: "2026-08-05T12:07:44Z"
 ---
 
 # Magie Grundlagen
@@ -20,11 +26,18 @@ Die rohe Magie wird durch die vier **[[Die_Gohor|Ur-Elemente]]** und ihre elemen
 ### 2. Formierte Magie
 Über den Elementen steht die Geltung des **[[Astrael]]**. Er lehrt nicht die rohe Kraft, sondern die *Matrix* — die Fähigkeit, das arkane Geflecht durch Formeln, Siegel und Rituale zu ordnen.
 
-## Die drei Pfade
-In der Praxis der Gelehrten wird die Magie oft nach ihrer philosophischen Ausrichtung eingeteilt:
-- **[[Weissmagie|Weißer Pfad]]:** Fokus auf Heilung, Schutz und Bannung dämonischer Einflüsse. Eng verbunden mit dem [[Ordo_Vitamae]] und [[Ordo_Astraeli]].
-- **[[Graumagie|Grauer Pfad]]:** Der akademische Weg. Fokus auf Erkenntnis, Elementarmanipulation und die Erforschung der Weltgesetze (siehe [[Magietheorie_Toran_Dur]]).
-- **[[Schwarzmagie|Schwarzer Pfad]]:** Geächtete Praktiken der Nekromantie und Dämonologie, die oft den Einfluss von [[Angamon]] suchen.
+## Begabung und Ausbildung
+
+Magische Begabung ist angeboren und kann von Unbegabten so gut wie nicht erlernt werden. Bei jungen Magiern ist die Begabung zunächst ungeformt; erst die langjährige Ausbildung in der Tradition eines Pfades prägt, welche Art von Magie sie ausüben. Ein späterer Wechsel der erlernten Tradition gilt als nahezu unmöglich.
+
+## Die vier Pfade
+
+Die offizielle Hintergrundquelle unterscheidet vier akademische Pfade:
+
+- **[[Elementarpfad|Elementarer Pfad]]:** Umgang mit und Manipulation von Elementen.
+- **[[Weissmagie|Weißer Pfad]]:** Heilende und stärkende Magie sowie die Abwehr von Geistern und beschworenen Wesen.
+- **[[Graumagie|Grauer Pfad]]:** Kampfmagie, Verwandlung und Illusion.
+- **Schwarzer Pfad:** Zerstörende und schwächende Magie sowie die Beschwörung von Geistern und Dämonen. Er gilt in Galadon als geächtet; die verbreitete Gleichsetzung aller Schwarzmagier mit Angamon-Anhängern wird in der Quelle selbst als vereinfachende Volksauffassung relativiert.
 
 ## Astralenergie
 Die Fähigkeit, Magie zu wirken, entspringt der **Astralenergie** (AE) des Individuums. Während [[Rasse_Elfen|Elfen]] diese Kraft als natürlichen Teil ihres Seins empfinden, müssen andere Rassen sie durch jahrelanges Studium an den [[Akademie|Akademien]] (wie in [[Brandenstein]]) mühsam bündeln lernen.
@@ -44,3 +57,9 @@ Nach der Theorie von **[[Johannes_Klos]]** wird Magie nicht direkt, sondern übe
 
 ---
 **Siehe auch:** [[Magietheorie_Toran_Dur]], [[Sphaerenkunde]], [[Codex_Astraeli]], [[Astrael]]
+
+## Referenzen
+
+- Homepagequelle: [Magie](../../Quellen/Hintergrund/Magie%20%7C%20Siebenwind%20%7C%20Ultima%20Online%20Freeshard%20%7C%20Siebenwind.md)
+- Archivierte Vorfassung: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_hintergrundexkurse.md`, Beitrag 4
+- Prüfbericht: `../../../Logs/Ingestion/2026-08-05_Forum_hintergrundexkurse.md` (ID: `be17cd47-df00-49e0-8dd9-32c617c4ee55`)

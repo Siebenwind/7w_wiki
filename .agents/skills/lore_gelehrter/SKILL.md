@@ -31,7 +31,9 @@ This adapter is generated from the canonical catalog. Runtime execution stays on
 - Treat Pages needs_historian as a Historian-operable cluster lane; reserve needs_human for true maintainer escalation.
 - Use Pages backlog --resolve for article, cluster, and run-all resolution runs; bulk semantic apply requires explicit warning acknowledgement.
 - Route unresolved contradictions through Dispatch or the Synapse Board with explicit evidence.
+- Every Historian run must end with a user-facing summary containing the separate headings Implementierte Neuerungen and Erkenntnisgewinn; explain content value and explicitly justify empty sections.
 
 ## References
 - `.agent/skills/lore_gelehrter/SKILL.md`
 - `System/Synapse_Board/LORE_RESEARCH_BOARD.md`
+- `System/Templates/HISTORIAN_CLOSEOUT_TEMPLATE.md`

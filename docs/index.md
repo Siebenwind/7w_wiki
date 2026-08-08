@@ -19,20 +19,20 @@ category: Index
 Der letzte abgeschlossene Historikerlauf wird hier inhaltlich sichtbar – mit Umsetzung, Erkenntnis und bewusst offen gelassenen Fragen.
 
 <!-- BEGIN GENERATED PUBLIC ACTIVITY -->
-<section class="public-activity" data-activity-id="2026-08-04.03" aria-label="Letzter Historikerlauf">
-  <p class="activity-meta"><strong>Stand 2026-08-04.03</strong> · Forum-Historikerbatch zu Hadernblättern, Falkenwall, Avindhrell und Maichellis abgeschlossen</p>
+<section class="public-activity" data-activity-id="2026-08-06.01" aria-label="Letzter Historikerlauf">
+  <p class="activity-meta"><strong>Stand 2026-08-06.01</strong> · Historikerlauf zu Volandur, Maichellis, Akassvae und Huns abgeschlossen</p>
   <div class="activity-grid">
     <article class="activity-card">
       <h3>Implementierte Neuerungen</h3>
-      <p>Zwei neue Erzaehlungsseiten bewahren Lehrgeschichten und den Falkenseer Einbruch von 27 n.H. Bestehende Seiten zu Falkenwall, Auenelfen, Avindhrell und Maichellis wurden mit klar getrennten Quellenrängen erweitert.</p>
+      <p>Fuenf quellenkritische Erzaehlungsseiten erschliessen die Forumthemen 109571, 109483, 108944, 109310 und 108788; fuenf Ingestion-Berichte dokumentieren Quellenwert, Abgleich und offene Grenzen. Claiomhs_Wacht.md wurde aus einem Platzhalter zu einer belegten Burgseite mit…</p>
     </article>
     <article class="activity-card">
       <h3>Erkenntnisgewinn</h3>
-      <p>Der Skelettangriff auf Falkenwall und Maichellis' belegte Rollen lassen sich dichter einordnen. Forumtexte ergaenzen dabei den amtlichen Wochenueberblick, ersetzen ihn aber nicht.</p>
+      <p>„Geruechte ueber einen neuen Riesen“ belegt nur die Erzaehlung von einem sehr grossen Mann mit Hammer. Der Bestiariumsartikel zu Riesen wurde bewusst nicht veraendert, weil keine Volks- oder Artzugehoerigkeit nachweisbar ist.</p>
     </article>
     <article class="activity-card activity-card-open">
       <h3>Offen geblieben</h3>
-      <p>Taeter, Kartenzeichen und Verwandtschaft aus dem Falkenseer Einbruch bleiben unbelegt; die endophalischen Lehrgeschichten gelten weiterhin als Ueberlieferung, nicht als bestaetigte Chronik.</p>
+      <p>Maichellis&#x27; Bericht zum Angriff auf Claiomhs Wacht wird durch Bote 193 in zentralen Punkten bestaetigt. Der sehr aehnliche Brandensteiner Tod Rotschuppes steht in Bote 194, dessen Ausgabenjahr 36 n.H. aber nicht bruchlos zur Forumchronologie von 2019 passt; die Datierung bleibt…</p>
     </article>
   </div>
   <p class="activity-more"><a href="CHANGELOG/">Vollständige Änderungschronik lesen</a></p>

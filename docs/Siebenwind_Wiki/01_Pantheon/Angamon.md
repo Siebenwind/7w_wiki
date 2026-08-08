@@ -1,56 +1,70 @@
 ---
+uuid: 4cf0e2c1-4f4e-4f4c-b358-186e6a06e964
 title: Angamon
-status: Kanon (Level 1)
-type: Religion
-tags: [Gott, Antagonist, Böses, Zerstörung, Schatten]
+category: Religion
+status: gepflegt
+epistemic: "#homepage #forum #perspektive"
+quelle: "../../Quellen/Hintergrund/Angamon | Siebenwind | Ultima Online Freeshard | Siebenwind.md"
+lore_trust: 10
+letzter_check: 2026-08-05
+report_id: f8825a7c-e5b2-4414-85c2-915125efd699
 ---
 
 # Angamon
 
-**Epistemischer Status:** #canon
+## Herkunft und Ziel
 
-**Angamon** ist der Gegenpol zur Schöpfung und zu den *Vieren (Sahor)*. Er verkörpert das reine Böse, den Neid auf das Leben und den drängenden Wunsch, die Welt *[[Tare]]* zu vernichten.
+**Angamon**, auch „der Eine“ oder „der Namenlose“ und früher „Dämonenkönig“ genannt, ist nach aktueller offizieller Darstellung der geächtete Sohn [[Vitama]]s und [[Bellum]]s. Die Viere verbannten ihn in den letzten Winkel der zweiten Sphäre. Dort unterwarf er die Dämonen der Niederhöllen, um sie für seine eigenen Pläne zu gebrauchen.
 
-## Aspekte und Prinzipien
-- **Element:** Leere / Schatten
-- **Charakter:** Grenzenloser Hass, zehrender Neid, absolute Tyrannei.
-- **Zugehöriger Mond:** Dorayon (Der dritte, dunkle Mond — er beansprucht dessen Finsternis für sich).
-- **Symbole:** Das gebrochene Rad, die schwarze Sonne, die schneidende Klaue.
+Angamons Ziel darf nicht schlicht mit dem der Dämonen gleichgesetzt werden. Die Höllenfürsten würden die Schöpfung vernichten; Angamon will sie erobern und beherrschen. Dass er die Dämonen band, hinderte diese zugleich an der vollständigen Zerstörung dessen, was er selbst besitzen will.
 
-## Mythologie
-Die Legenden besagen, dass Angamon aus den Schatten entstand, die *Galamnor* (Materie) warf, als *Timanor* (Zeit) das erste Licht entzündete. Er ist der ewige Neider, der selbst nichts erschaffen kann, sondern nur das Vorhandene verzerren, korrumpieren oder zerstören will. Er erschuf die **[[Daemonen]]** als Spottbilder des Lebens.
+## Prinzipien
 
-## Die Neun Domänen (Scholastische Sicht)
-> **Warnung:** Das folgende Wissen stammt aus verbotenen Schriften (u.a. **[[Das_Daimonicon]]**) und wird von der Kirche der Viere als Ketzerei verfolgt.
+Angamon steht für Skrupellosigkeit, Selbstsucht und Machtgier. Seine Lehre stellt die traditionelle Einteilung in Gut und Böse zurück und folgt dem Gedanken, dass der Zweck die Mittel heiligt. Macht soll besitzen, wer fähig ist, sie zu erringen und zu bewahren.
 
-Arkanisten und Dämonologen unterteilen Angamons Reich, die zweite Sphäre (**[[Yerrodon]]**), in neun Herrschaftsbereiche (Domänen). Jede Domäne verzerrt einen Aspekt der Schöpfung:
+Anhänger formulieren dies als Aufforderung, das eigene Potenzial zu verwirklichen und sich keinen Regeln zu unterwerfen, die andere zur Begrenzung auferlegen. Diese Haltung steht der Viereinigkeit der Sahor entgegen.
 
-1.  **Ifri’gha’Sirrak (Das verzehrende Feuer):** Vulkane und Lava. Herrscher: *[[Irdirim]]*.
-2.  **Mysell Tangoris (Die verderbte Erde):** Säure-Pflanzen und Obsidian-Wüsten.
-3.  **Aiwenn Dâmahn (Der Pesthauch):** Krankheiten und giftige Dämpfe.
-4.  **El’ra’Khor (Das dunkle Blut):** Flüsse aus Blut und Fleisch-Magie.
-5.  **Kawôr (Der ewige Krieg):** Schwarzer Stahl und endlose Schlachten. Herrscher: *[[Shag_zor_Ga_Zul]]*.
-6.  **Kulmar Sanghûlis (Schmerz & Ekstase):** Folter und blutige Lust.
-7.  **Moghtor (Das Grab):** Das Reich der Rastlosen und Ursprung der Nekromantie.
-8.  **Agoth'ro'Hawenn (Der Wahnsinn):** Herrschaft durch Furcht und Alpträume. Diener: *[[Irahfar]]*.
-9.  **Mele Môrthere (Das verbotene Wissen):** Eine gigantische, schwarze Bibliothek, die alle Sünden speichert.
+## Rechts- und Glaubenswandel
 
-## Verehrung
-Die Verehrung Angamons ist im Königreich Galadon bei Todesstrafe verboten. Seine Anhänger agieren in geheimen Zirkeln.
-- **Dunkle Kulte:** Versprechen Macht um jeden Preis.
-- **Ziele:** Die Schwächung der *Viere* und die Vorbereitung der Welt auf die Herrschaft des Schattens.
+Die frühere Wiki-Darstellung einer ausnahmslos bei Todesstrafe verfolgten Ketzerei ist überholt. Seit dem Götterwandel und der Legitimierung durch **Argion**, den Zälaten der Vierekirche, wird der Angamonglaube nicht mehr allein als Ketzerei verfolgt. Angst, Misstrauen und soziale Ablehnung bestehen dennoch fort.
 
-## Die Dunkle Seite der Magie
-Hexenmeister und Nekromanten (die nicht den *[[Morsan]]*-Riten folgen) rufen oft Angamons Macht an, um [[Daemonen]] zu beschwören oder Flüche zu weben. Diese Magie fordert stets einen blutigen Preis.
+Eine einheitliche Kirche existiert nicht. Die Gemeinschaft umfasst verschiedene Fraktionen in [[Finsterwangen]] und [[Ewigwacht]], darunter die [[Bruderschaft_der_Tardukai|Tardukai]], sowie ungebundene Gläubige. Auch schwarze Magie und Dämonologie sind häufig mit Angamongläubigen verbunden; daraus folgt weder, dass jeder Gläubige Magier ist, noch dass jedes öffentliche Bekenntnis die tatsächliche Praxis offenlegt.
 
-## Beziehungen
-- **[[Bellum]]:** Sein erbittertster Feind. Wo [[Bellum]] loderndes Feuer gegen die Schatten führt, versucht Angamon, jede Flamme des Mutes zu ersticken.
-- **[[Vitama]]:** Sie ist der Inbegriff dessen, was er hasst. Er trachtet nicht danach, sie zu vernichten, sondern ihr Werk zu pervertieren.
-- **[[Astrael]]:** Das Licht des Wissens ist sein Gift. Astraels Klarheit bannt die Angst, in der Angamons Einflüsterungen gedeihen.
+## Wege in den Glauben
 
-## Verwandte Themen
-- [[Religion_Übersicht]]
-- [[Die_Viere_Kirche]] verdammt ihn.
-- [[Magie_Grundlagen]] - Dunkle Magie
-- [[Kreaturen]] - [[Daemonen]]
-- [[Akademie_zur_Linken|Akademie zur Linken]] - historische Institution des Pfades zur Linken
+Der offizielle Hintergrund nennt schwere, einschneidende Erlebnisse, ungewöhnliche Erziehung oder unwissentliche Götzenverehrung als mögliche Wege zu Angamon. Ein Glaubenswechsel soll eine längere Entwicklung sein, keine spontane Laune.
+
+Die Forumüberlieferung [[Weg_in_den_Wahnsinn|Weg in den Wahnsinn]] zeigt eine unbenannte Frau, die nach dem Feuertod ihres Vaters, Isolation, Erinnerungslücken und wiederkehrenden Leidensbildern immer tiefer in persönliche Angamonverehrung gerät. Der Text veranschaulicht den möglichen Zusammenhang von Trauma, Suche nach Freiheit und religiöser Bindung, belegt aber weder eine objektive göttliche Führung noch eine allgemeine Bekehrungsformel.
+
+## Historische Binnenperspektiven
+
+[[Dunkle_Tage_Lichte_Naechte|Dunkle Tage, Lichte Nächte]] dokumentiert eine ältere, heftig zerstrittene Angamongemeinschaft. Buße, direkte Gottessuche, Prophetenlehre, Tardukai-Ordnung und Valkuns machtpolitische Vision stehen dort gegeneinander. Diese Stimmen erklären historische Konflikte, sind aber keine verbindliche Darstellung des heutigen Glaubens.
+
+Ein Gläubiger darf nach aktueller Regel grundsätzlich Tempel der Viere betreten, kann sich besonders in Astrael- und Bellumschreinen jedoch unwillkommen fühlen. Die im Forum geschilderte körperliche Unfähigkeit eines Büßers, ein Heiligtum zu betreten, bleibt daher eine individuelle Erfahrung und keine allgemeine Regel.
+
+## Dämonologische Überlieferung
+
+Das [[Daimonicon]] beschreibt [[Yerrodon]] und neun Domänen der Niederhöllen aus gelehrter, in der Spielwelt umstrittener Perspektive. Diese Dämonologie ist von der offiziellen Beschreibung Angamons als Gott und Glaubensfigur zu trennen.
+
+## Verlinkte Themen
+
+- [[Bellum]]
+- [[Vitama]]
+- [[Die_Viere_Kirche|Kirche der Viere]]
+- [[Daemonen]]
+- [[Yerrodon]]
+- [[Finsterwangen]]
+- [[Ewigwacht]]
+- [[Schattenhand]]
+- [[Akademie_zur_Linken|Akademie zur Linken]]
+
+## Referenzen
+
+- Aktueller offizieller Hintergrund: `../../Quellen/Hintergrund/Angamon | Siebenwind | Ultima Online Freeshard | Siebenwind.md`
+- Perspektivquelle zum historischen Fraktionskonflikt: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_dunkle_tage_lichte_n_chte.md`
+- Perspektivquelle zu einem persönlichen Glaubensweg: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_weg_in_den_wahnsinn.md`
+- Dämonologische Überlieferung: `../../Quellen/Bibliothek Toran Dur/Kulin Lateal - Das_Daimonicon.md`
+
+> [!ABSTRACT] Prüfbericht verfügbar: `../../../Logs/Ingestion/2026-08-05_Forum_dunkle_tage_lichte_naechte.md` (ID: f8825a7c-e5b2-4414-85c2-915125efd699)
+
+> [!ABSTRACT] Ergänzender Prüfbericht: `../../../Logs/Ingestion/2026-08-05_Forum_weg_in_den_wahnsinn.md` (ID: 648461fd-10bd-4e47-947d-aecfb4ce059b)
