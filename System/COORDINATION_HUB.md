@@ -97,7 +97,7 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 - [x] [.agent/tests/suites/codex-workflow-bridges.json](../.agent/tests/suites/codex-workflow-bridges.json) (Deprecated Alias-Suite fuer `adapter-surfaces-contract`)
 - [x] [Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md](Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md) (Kanonischer Drift-/Pages-Vertrag)
 - [x] [.agent/config/pages_link_policy.json](../.agent/config/pages_link_policy.json) (Allowlist / planned-fix policy fuer unresolved Pages-Targets)
-- [x] [.agent/data/pages_health.json](../.agent/data/pages_health.json) (runtime-generated Pages snapshot fuer Advisor und Workflow-Hygiene)
+- [x] `.agent/data/pages_health.json` (runtime-generierter, nicht versionierter Pages-Snapshot fuer Advisor und Workflow-Hygiene)
 - [x] [.github/workflows/release-bundles.yml](../.github/workflows/release-bundles.yml) (Tag-basierter GitHub-Release-Build fuer Bundle-Assets; keine Repo-Versionierung der Bundles)
 - [x] [.codex/config.toml](../.codex/config.toml) (Projektweite Codex-Verdrahtung fuer MCP und Adapter-Skills)
 - [x] [System/_archive/README.md](_archive/README.md) (Archivhinweis fuer demotete System-Standards und historische Missions-/Sandbox-Artefakte)

@@ -1,5 +1,12 @@
 # Changelog
 
+#### [2026-08-23.02] - GitHub-Pages-Clean-Checkout wiederhergestellt
+### Prioritaet: P1
+### Behoben
+- `MSG-2026-0242` korrigiert den fehlgeschlagenen GitHub-Pages-Lauf `32663980650`: Das Dokumentenregister behandelt `.agent/data/pages_health.json` nun ausdruecklich als nicht versionierten Laufzeitsnapshot statt als aufloesbaren Repository-Link.
+### Validiert
+- Der fokussierte Linkvertrag bestand auch ohne den lokal vorhandenen Pages-Snapshot. Pages-Vertrag, Gesamttests und der vollstaendige lokale Pages-Bau wurden ebenfalls erfolgreich geprueft; der anschliessende GitHub-Pages-Lauf liefert den Live-Nachweis.
+
 #### [2026-08-23.01] - Handover, Pages-Vollsnapshot und Bridge-Restbestand
 ### Prioritaet: P1
 ### Hinzugefuegt
