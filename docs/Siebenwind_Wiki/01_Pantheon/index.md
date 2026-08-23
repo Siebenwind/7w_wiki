@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Pantheon"
 category: Pantheon
 ---
 
-# [[Siebenwind]] Wiki - Pantheon
+# Siebenwind Wiki - Pantheon
 
 Indexseite fuer die Sektion Pantheon.
 

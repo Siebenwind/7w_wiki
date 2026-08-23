@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Werke"
 category: Werke
 ---
 
-# [[Siebenwind]] Wiki - Werke
+# Siebenwind Wiki - Werke
 
 Indexseite fuer die Sektion Werke.
 

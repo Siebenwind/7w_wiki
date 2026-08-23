@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Fundament"
 category: Fundament
 ---
 
-# [[Siebenwind]] Wiki - Fundament
+# Siebenwind Wiki - Fundament
 
 Indexseite fuer die Sektion Fundament.
 

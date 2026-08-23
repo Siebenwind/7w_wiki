@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-08-23 21:02
+**Stand:** 2026-08-23 23:29
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -15,10 +15,10 @@ category: Index
 
 | Kennzahl | Wert |
 | :--- | :--- |
-| Artikel | **1417** |
-| Worte | **217,205** |
-| Durchschnittliche Artikellaenge | **153 Worte** |
-| Interne Verweise (`[[...]]`) | **13,457** |
+| Artikel | **1418** |
+| Worte | **218,863** |
+| Durchschnittliche Artikellaenge | **154 Worte** |
+| Interne Verweise (`[[...]]`) | **13,478** |
 | Vernetzungsdichte | **9.5 Links/Artikel** |
 | Personenprofile | **591** |
 
@@ -28,9 +28,9 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Aktive Tage |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 0 | - | 0 |
-| Letzte 30 Tage | 89 | 19 | 3 |
-| Letzte 90 Tage | 93 | - | 6 |
+| Letzte 7 Tage | 0 | - | 1 |
+| Letzte 30 Tage | 89 | 19 | 4 |
+| Letzte 90 Tage | 93 | - | 7 |
 
 ---
 
@@ -43,7 +43,7 @@ pie title Artikel pro Sektion
     "08_Bestiarium" : 33
     "03_Wissen" : 58
     "03_Gesellschaft" : 56
-    "05_Geschichte" : 69
+    "05_Geschichte" : 70
     "02_Geografie" : 58
     "01_Pantheon" : 52
     "04_Chronik" : 83
@@ -59,8 +59,8 @@ pie title Artikel pro Sektion
 | `01_Pantheon` | 52 | 415 | 11.1 |
 | `06_Erzählungen` | 51 | 345 | 9.3 |
 | `Root` | 1 | 283 | 1.0 |
-| `05_Magie` | 41 | 276 | 9.8 |
-| `04_Chronik` | 83 | 270 | 31.6 |
+| `05_Magie` | 41 | 276 | 9.7 |
+| `04_Chronik` | 83 | 271 | 31.6 |
 
 
 ---
@@ -70,13 +70,13 @@ pie title Artikel pro Sektion
 ### Starke Knoten (gesamt)
 | Entitaet | Verweise |
 | :--- | ---: |
-| [[Falkensee]] | 549 |
-| [[Brandenstein]] | 534 |
-| [[Siebenwind]] | 507 |
+| [[Falkensee]] | 550 |
+| [[Brandenstein]] | 541 |
+| [[Siebenwind]] | 487 |
 | [[Bellum]] | 168 |
-| [[Astrael]] | 160 |
+| [[Astrael]] | 161 |
 | [[Nortraven]] | 148 |
-| [[Vitama]] | 142 |
+| [[Vitama]] | 143 |
 
 
 ### Praegende Persoenlichkeiten
@@ -109,11 +109,11 @@ pie title Artikel pro Sektion
 
 | Qualitaetsindikator | Wert | Fortschritt |
 | :--- | :--- | :--- |
-| Frontmatter-Abdeckung | 1417/1417 | `##########` 100.0% |
-| Aufgeloeste Quellenangabe (`quelle`) | 526/1417 | `####------` 37.1% |
-| Ingestion Tracking vollstaendig | 115/115 | `##########` 100.0% |
-| Ingestion Reports mit LQS | 113/115 | `##########` 98.3% |
-| `[UNGEKLAERT]`-Marker (gesamt) | 333 | Beobachtung |
+| Frontmatter-Abdeckung | 1418/1418 | `##########` 100.0% |
+| Aufgeloeste Quellenangabe (`quelle`) | 531/1418 | `####------` 37.4% |
+| Ingestion Tracking vollstaendig | 120/120 | `##########` 100.0% |
+| Ingestion Reports mit LQS | 114/120 | `##########` 95.0% |
+| `[UNGEKLAERT]`-Marker (gesamt) | 335 | Beobachtung |
 
 ## 🔏 Drift & Provenance
 | Kennzahl | Wert |
@@ -126,12 +126,12 @@ pie title Artikel pro Sektion
 ## Epistemische Verteilung
 | Tag | Artikel |
 | :--- | ---: |
-| `#bote` | 596 |
-| `#unbekannt` | 412 |
+| `#bote` | 597 |
+| `#unbekannt` | 411 |
 | `#perspektive` | 162 |
 | `#canon` | 136 |
 | `#ueberlieferung` | 108 |
-| `#news` | 3 |
+| `#news` | 4 |
 
 
 ---
@@ -144,7 +144,7 @@ pie title Artikel pro Sektion
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 84 |
 | Davon ohne Ausnahme-Metadaten | 0 |
-| Test-Suiten PASS | 32 |
+| Test-Suiten PASS | 33 |
 | Test-Suiten FAIL | 0 |
 
 ### Letzte Test-Suites
@@ -169,6 +169,7 @@ pie title Artikel pro Sektion
 | `manifest-contract` | **PASS** | 2 | 0 | 0 |
 | `pages-backlog-historian-contract` | **PASS** | 11 | 0 | 0 |
 | `pages-contract-mode-contract` | **PASS** | 1 | 0 | 0 |
+| `pages-full-smoke` | **PASS** | 1 | 0 | 0 |
 | `pages-link-contract` | **PASS** | 5 | 0 | 0 |
 | `process-dispatch-curiosity` | **PASS** | 1 | 0 | 0 |
 | `reader-stats-contract` | **PASS** | 3 | 0 | 0 |
@@ -188,7 +189,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_28812d19-83f5-4030-967a-97e4b0882b23.txt`
+- Letzter Audit: `Logs/Archive/Audit_4b207559-a68a-40ab-b8ba-367884a0ccf3.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
 
 ---

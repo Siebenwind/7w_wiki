@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Geografie"
 category: Geografie
 ---
 
-# [[Siebenwind]] Wiki - Geografie
+# Siebenwind Wiki - Geografie
 
 Indexseite fuer die Sektion Geografie.
 

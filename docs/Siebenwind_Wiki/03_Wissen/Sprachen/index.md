@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Sprachen"
 category: Sprachen
 ---
 
-# [[Siebenwind]] Wiki - Sprachen
+# Siebenwind Wiki - Sprachen
 
 Indexseite fuer die Sektion Sprachen.
 

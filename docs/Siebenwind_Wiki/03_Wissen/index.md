@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Wissen"
 category: Wissen
 ---
 
-# [[Siebenwind]] Wiki - Wissen
+# Siebenwind Wiki - Wissen
 
 Indexseite fuer die Sektion Wissen.
 

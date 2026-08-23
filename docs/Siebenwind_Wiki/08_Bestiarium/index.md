@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Bestiarium"
 category: Bestiarium
 ---
 
-# [[Siebenwind]] Wiki - Bestiarium
+# Siebenwind Wiki - Bestiarium
 
 Indexseite fuer die Sektion Bestiarium.
 

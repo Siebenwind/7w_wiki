@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Geschichte"
 category: Geschichte
 ---
 
-# [[Siebenwind]] Wiki - Geschichte
+# Siebenwind Wiki - Geschichte
 
 Indexseite fuer die Sektion Geschichte.
 
@@ -67,6 +67,7 @@ Indexseite fuer die Sektion Geschichte.
 * [[Siebenwindakte|Die Siebenwindakte]]
 * [[Sternfall_bei_Rohehafen|Sternfall bei [[Rohehafen]]]]
 * [[Sturmflut_in_Vandrien|Sturmflut in Vandrien]]
+* [[Thjareks_Brecher|Thjareks Brecher]]
 * [[Tod_von_Tandrion_Intoma|Tod von [[Tandrion_Intoma]]]]
 * [[Treiben_im_Rathaus|Treiben im Rathaus]]
 * [[Trollkrieg_gegen_Brandenstein|Trollkrieg gegen [[Brandenstein]]]]

@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Recht"
 category: Recht
 ---
 
-# [[Siebenwind]] Wiki - Recht
+# Siebenwind Wiki - Recht
 
 Indexseite fuer die Sektion Recht.
 

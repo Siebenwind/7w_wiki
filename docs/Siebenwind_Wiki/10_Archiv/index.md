@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Archiv"
 category: Archiv
 ---
 
-# [[Siebenwind]] Wiki - Archiv
+# Siebenwind Wiki - Archiv
 
 Indexseite fuer die Sektion Archiv.
 

@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Erzählungen"
 category: Erzählungen
 ---
 
-# [[Siebenwind]] Wiki - Erzählungen
+# Siebenwind Wiki - Erzählungen
 
 Indexseite fuer die Sektion Erzählungen.
 

@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Chronik"
 category: Chronik
 ---
 
-# [[Siebenwind]] Wiki - Chronik
+# Siebenwind Wiki - Chronik
 
 Indexseite fuer die Sektion Chronik.
 
@@ -84,7 +84,7 @@ Indexseite fuer die Sektion Chronik.
 * [[Siebenwind_Bote_187|[[Siebenwind]] Bote 187]]
 * [[Siebenwind_Bote_188|[[Siebenwind]] Bote 188]]
 * [[Siebenwind_Bote_189|[[Siebenwind]] Bote 189]]
-* [[Siebenwind_Bote_190|[[Siebenwind]] Bote 190]]
+* [[Siebenwind_Bote_190|Siebenwind Bote 190]]
 * [[Siebenwind_Bote_191|[[Siebenwind]] Bote 191]]
 * [[Siebenwind_Bote_192|[[Siebenwind]] Bote 192]]
 * [[Siebenwind_Bote_193|[[Siebenwind]] Bote 193]]

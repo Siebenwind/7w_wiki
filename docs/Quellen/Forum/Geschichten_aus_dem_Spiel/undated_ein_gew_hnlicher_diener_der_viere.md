@@ -1,18 +1,22 @@
 ---
+title: "Ein gewöhnlicher Diener der Viere"
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=103341"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=103341"
-title: "Ein gewöhnlicher Diener der Viere"
 date: 2015-09-02
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 103341
 content_status: fulltext_archived
-review_status: triage_ready
-review_owner: Scout
+review_status: integrated
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
 human_escalation_required: false
+integration_status: integrated
+integrated_target: "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Celedelair.md"
+ingestion_report: "Logs/Ingestion/2026-08-23_Forum_ein_gewoehnlicher_diener_der_viere.md"
+integrated_at: "2026-08-23T21:05:29Z"
 archived_at: "2026-08-04T17:10:17Z"
 post_count: 292
 topic_pages_archived: 10
@@ -28,7 +32,6 @@ raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/103341_p9.html"
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/103341_p10.html"
 ---
-
 # Ein gewöhnlicher Diener der Viere
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

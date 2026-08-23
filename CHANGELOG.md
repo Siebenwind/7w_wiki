@@ -1,5 +1,24 @@
 # Changelog
 
+#### [2026-08-23.03] - Forum-Fuenferlauf zu Aktenchronik, Ras Altanin und Thjareks Brecher
+### Prioritaet: P2
+### Hinzugefuegt
+- `Thjareks_Brecher.md` erschliesst das nortravische Kriegsschiff erstmals als eigenstaendiges Lemma. Der Bote 190 bestaetigt die Schiffseinordnung; der Forumthread liefert den quellenkritisch begrenzten Bau- und Stationsverlauf.
+- Fuenf Ingestion-Berichte dokumentieren Entity-Manifeste, Kollisionspruefung, Quellenvergleich, Dry-Runs und Synthesegrenzen fuer die Topics `106975`, `109430`, `109411`, `103341` und `99477`.
+### Geaendert
+- `Maichellis_Wanderstern.md`, `Ras_Altanin.md`, `Erynnion_Comari.md` und `Celedelair.md` wurden bevorzugt erweitert. Die Artikel trennen bestaetigte Boten- und Newsbefunde von Amtsberichten, inneren Monologen, theologischen Selbstdeutungen und arkanen Hypothesen.
+- `Siebenwind_Bote_190.md` und `Zerstoerung_von_Westhever.md` behandeln den Brecher nicht mehr faelschlich als Siedlung. `Vänskap.md` und der Geschichtsindex verknuepfen Werft, Schiff und Westhever-Einsatz.
+- Alle fuenf Quellen stehen im Forumregister auf `integrated`; damit sind 79 der 101 volltextarchivierten Themen integriert und 17 noch fachlich offen.
+### Erkenntnisse und Grenzen
+- Die Aktenchronik bestaetigt Maichellis als militaerischen Ermittler und Einsatzleiter, erlaubt aber keine sichere Gleichsetzung der verschieden datierten roten Lindwuermer.
+- Die Langzeitchronik zu Tendarion enthaelt 292 archivierte Abschnitte, jedoch nur 172 eindeutige Post-IDs. Bote 191 und die Selbstbezeichnung „Silberglanz beziehungsweise Celetheyon“ stuetzen die Zuordnung zu Celedelair; Visionen und private Deutungen bleiben Perspektive.
+- Die semantische Suche, die dokumentierte Kollisionsoption, die Pagination und der Widerspruch zwischen Draft-Dry-Run und Apply wurden als `MSG-2026-0245`, `MSG-2026-0249`, `MSG-2026-0250` und `MSG-2026-0252` an den Technician gemeldet. Historian-Fragen liegen unter `MSG-2026-0246` bis `MSG-2026-0248` und der Korrektur `MSG-2026-0251`.
+### Validiert
+- Lektorpruefung der fuenf Zielartikel, Sanitizer und Inhaltsvertrag: PASS.
+- Vollstaendige Standardsuite: PASS; `forum-ingest-contract` bestaetigt Dry-Run-, Stil- und Finalisierungstore.
+- `./7w_wiki.py audit --json`: `issues_found = 0`; der anschliessende Pages-Audit bestaetigte denselben fehlerfreien Stand.
+- `pages-full-smoke`: PASS nach Korrektur von vier neu gesetzten Westhever-Linkzielen. Der volle Pages-Snapshot baut 1.418/1.418 Artikel und 120/120 Berichte, meldet `drift_status = PASS` und besteht den Link-Ratchet mit `621` unresolved / `619` unallowlisted. Der Gesamtstatus bleibt wegen des bekannten Altbestands `WARN`.
+
 #### [2026-08-23.02] - GitHub-Pages-Clean-Checkout wiederhergestellt
 ### Prioritaet: P1
 ### Behoben

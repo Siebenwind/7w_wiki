@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Magie"
 category: Magie
 ---
 
-# [[Siebenwind]] Wiki - Magie
+# Siebenwind Wiki - Magie
 
 Indexseite fuer die Sektion Magie.
 

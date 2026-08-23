@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Gesellschaft"
 category: Gesellschaft
 ---
 
-# [[Siebenwind]] Wiki - Gesellschaft
+# Siebenwind Wiki - Gesellschaft
 
 Indexseite fuer die Sektion Gesellschaft.
 

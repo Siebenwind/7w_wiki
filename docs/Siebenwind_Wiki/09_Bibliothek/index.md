@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Bibliothek"
 category: Bibliothek
 ---
 
-# [[Siebenwind]] Wiki - Bibliothek
+# Siebenwind Wiki - Bibliothek
 
 Indexseite fuer die Sektion Bibliothek.
 

@@ -3,7 +3,7 @@ title: "Siebenwind Wiki - Persoenlichkeiten"
 category: Persoenlichkeiten
 ---
 
-# [[Siebenwind]] Wiki - Persoenlichkeiten
+# Siebenwind Wiki - Persoenlichkeiten
 
 Indexseite fuer die Sektion Persoenlichkeiten.
 
