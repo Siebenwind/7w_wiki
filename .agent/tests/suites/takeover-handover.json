@@ -44,6 +44,20 @@
       ]
     },
     {
+      "id": "dispatch-id-allocation-includes-archive",
+      "name": "Dispatch IDs remain unique after DONE messages are rotated",
+      "required_regex_by_file": [
+        {
+          "file": ".agent/scripts/agent_mail.py",
+          "must_include_regex": [
+            "ARCHIVE_DIR = MAIL_ROOT / \"_archive\"",
+            "def all_message_id_paths\\(\\)",
+            "for path in all_message_id_paths\\(\\)"
+          ]
+        }
+      ]
+    },
+    {
       "id": "advisor-readiness",
       "name": "Advisor remains clean after workflow calls",
       "cmd": ["./7w_wiki.py", "advisor"],

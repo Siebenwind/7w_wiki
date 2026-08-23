@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** DEGRADED; lokaler Modell-/Indexcache fehlt, direkte Quellenprüfung bleibt der aktive Fallback (`MSG-2026-0192`).
-- **Last Handover**: 2026-08-04 (Codex → Next Agent)
-- **Status**: Der Forumprozess umfasst 201 registrierte Themen: 101 Volltexte sind archiviert, 74 davon integriert, fünf ohne Wikiänderung abgeschlossen und 22 warten auf fachliche Sichtung; 100 Themen liegen erst als Metadaten vor. Der aktuelle Wiki-Snapshot umfasst 1.417 Artikel und 115 vollständig getrackte Ingestion-Berichte. Der jüngste Historikerlauf ist in `Logs/Archive/SESSION_MEMORY_2026-08-06_HISTORIKERLAUF_109571_BIS_108788.md` dokumentiert; Audit und Pages-Drift sind sauber, der bekannte globale Linkaltbestand bleibt separat offen.
+- **Last Handover**: 2026-08-23 (Oberarchivar → Next Agent)
+- **Status**: Der Forumprozess umfasst 201 registrierte Themen: 101 Volltexte sind archiviert, 74 davon integriert, fünf ohne Wikiänderung abgeschlossen und 22 warten auf fachliche Sichtung; 100 Themen liegen erst als Metadaten vor. Der aktuelle Wiki-Snapshot umfasst 1.417 Artikel und 115 vollständig getrackte Ingestion-Berichte. Der Pages-Vollbau publiziert beide Zaehler vollstaendig und meldet bei sauberer Drift weiterhin `622` ungelöste beziehungsweise `620` nicht freigestellte Linkziele. Daneben bestehen `84` formal gueltige temporaere Bruecken mit ueberfaelligem Reviewdatum; der Handover und die naechsten Schritte stehen in `Logs/Archive/SESSION_MEMORY_2026-08-23_PAGES_AUDIT_UND_BRIDGE_RETIREMENT.md`.
 
 ---
 
@@ -16,7 +16,9 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 - [x] **Zeitstrahl Structural Repair**: `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md` wurde von einem strukturell korrumpierten Mischdokument auf eine kompakte Chronik-Uebersicht mit Verweisen auf `Historie & Aeren` und `Zeitleiste (15-30 n.H.)` zurueckgefuehrt.
 
-- [ ] **Semantic Pages Backlog Triage**: Die aktuelle Pages-Validierung meldet `624` unresolved Targets, `622` unallowlisted, `611 needs_historian` und `5 generic_term_conflict`; nur das Strict-Link-Gate bleibt hart. `drift_status = PASS`, und `repair --apply-lane1 --dry-run --json` plant aktuell `0` sichere mechanische Dateiedits. Der naechste Agent soll die bestehenden Board-/Backlog-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) als Arbeitsgrundlage verwenden und die semantische Begriffsarbeit strikt von mechanischen Reparaturen trennen.
+- [ ] **Semantic Pages Backlog Triage**: Die aktuelle Pages-Validierung meldet `622` unresolved Targets, `620` unallowlisted, `609 needs_historian` und `5 generic_term_conflict`; nur das Strict-Link-Gate bleibt hart. `drift_status = PASS`, und `repair --apply-lane1 --dry-run --json` plant aktuell `0` sichere mechanische Dateiedits. Der naechste Agent soll die bestehenden Board-/Backlog-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) als Arbeitsgrundlage verwenden und die semantische Begriffsarbeit strikt von mechanischen Reparaturen trennen.
+
+- [ ] **Bridge-Retirement statt Fristverlaengerung**: Der Audit zaehlt `84` temporaere Brueckenartikel; alle tragen noch `bridge_review_until: 2026-06-30`, gelten technisch aber als valide. In kleinen, semantisch eindeutigen Wellen sollen zuerst eingehende Links auf das kanonische `bridge_target` gehoben und danach die Bruecken entfernt werden. Unklare oder typveraendernde Ziele bleiben beim Historian/Coordinator; `MSG-2026-0240` klaert zusaetzlich, warum ueberfaellige Reviewdaten derzeit keinen Auditbefund erzeugen.
 
 - [x] **Forum-Ingestion v2 Pilot**: Die Forum-Volltextarchivierung und agentische Verarbeitung sind als Runtime-Pfad umgesetzt. Zwei Pilotquellen sind integriert (`Ergon` als Update, `Orkisches Handelskontor` als Neuanlage), das Forumregister bleibt bei `201` Eintraegen mit `2 integrated`, und die Draft-Stilregel verhindert kuenftig OOC-Formulierungen im Artikelkoerper.
 
@@ -24,7 +26,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 - [ ] **Pages-Linkbacklog nach `[[index]]`-Welle**: Nach der Platzhalterbereinigung ist der naechste operative Block der allgemeine Pages-Linkbacklog aus `./7w_wiki.py pages validate --contract --json`: zuerst `safe_exact_match` und `planned_fix`, dann `generic_term_conflict`, danach die `needs_historian`-Ziele.
 
-- [ ] **Review- und Scan-Restbestand schliessen**: `RESEARCH-2026-004` und `RESEARCH-2026-007` stehen weiter auf `IN_REVIEW_HISTORIAN`, waehrend der Forum-Scan fuer `2` allowlistete Boards als stale gilt. Der naechste Agent soll entscheiden, ob zuerst die Historian-Reviews publiziert/geschlossen oder die Foren-Pipeline reaktiviert wird.
+- [ ] **Review- und Scan-Restbestand schliessen**: `RESEARCH-2026-004` und `RESEARCH-2026-007` stehen weiter auf `IN_REVIEW_HISTORIAN`, waehrend der Forum-Scan fuer `3` allowlistete Boards als stale gilt. Der naechste Agent soll entscheiden, ob zuerst die Historian-Reviews publiziert/geschlossen oder die Foren-Pipeline reaktiviert wird.
 
 - [x] **Forum-Historikerlauf – fünf Quellen (`MSG-2026-0229`)**: Die Topics `31020`, `48524`, `109905`, `107595` und `109867` wurden in der festgelegten Reihenfolge quellenkritisch integriert. Vier neue Leserartikel entstanden, zwölf bestehende Seiten wurden inhaltlich oder als Linkziel aktualisiert und der abgelaufene Brückenplatzhalter `Rasse Orken.md` wurde nach Linkhebung entfernt. Alle fünf Quellen stehen im Forumregister auf `integrated`; Details stehen in `Logs/Archive/SESSION_MEMORY_2026-08-05_HISTORIKERLAUF_31020_BIS_109867.md`.
 - [x] **Forum-Historikerlauf – fünf Quellen (`109571` bis `108788`)**: Die Topics `109571`, `109483`, `108944`, `109310` und `108788` wurden quellenkritisch integriert. Fuenf Erzaehlungsartikel, die neue Personenseite Volandurs und substanzielle Aktualisierungen an Maichellis, Akassvae, Huns, Brandenstein, Falkenwall und Claiomhs Wacht verbinden Perspektivtexte mit den Boten 132/133 und 191/193/194. Details stehen in `Logs/Archive/SESSION_MEMORY_2026-08-06_HISTORIKERLAUF_109571_BIS_108788.md`.
@@ -37,7 +39,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 - [x] **Religions-Cluster Resolver Follow-Up**: Die Review-Grundlage liegt unter `.agent/data/religion_cluster_review.json` und `.agent/data/religion_cluster_escalations.json`. Der Folgeschritt ueber publizierte Ingestion-Reports und Maintainer-Doku ist erfolgt; Religions-Restziele wurden aus dem aktiven Repair-Fokus in dokumentierte Historie ueberfuehrt.
 
-- [x] **Bridge Lifecycle Cleanup**: Die `84` Single-Target-Kandidaten wurden gegen semantische Verluste geprueft und mit temporaerer Bridge-Metadatenhygiene versehen. Uebrig geblieben sind nur die `4` echten Eskalationen (`bridge_escalation`), die jetzt bei Historian/Coordinator liegen.
+- [x] **Bridge Lifecycle Metadata Cleanup**: Die `84` Kandidaten wurden gegen semantische Verluste geprueft und mit den vier Pflichtfeldern fuer temporaere Bridges versehen. Dieser abgeschlossene Schritt stellte nur formale Gueltigkeit her; er entfernte die Bruecken nicht. Die eigentliche Stilllegung ist deshalb wieder als eigener offener P1-Lauf aufgefuehrt.
 
 - [x] **Source Path Canonicalization fuer Quellen**: Die defekten Root-Symlinks fuer `Siebenwind Bote 176`, `178`-`182` und `185` wurden auf die kanonischen Rohquellen im Quellenbaum umgehoben. Der bekannte `strict-links`-Precheck scheitert damit nicht mehr an fehlenden Datei-Zielen, sondern nur noch an den vier semantischen Bridge-Resten.
 

@@ -1,6 +1,6 @@
 {
   "version": "catalog.v1",
-  "generated_at": "2026-08-08T15:40:36Z",
+  "generated_at": "2026-08-23T19:02:08Z",
   "runtime": {
     "entrypoint": "./7w_wiki.py",
     "help_json": "./7w_wiki.py --help-json",

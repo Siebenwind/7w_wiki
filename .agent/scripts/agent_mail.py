@@ -11,6 +11,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 MAIL_ROOT = REPO_ROOT / "System" / "Synapse_Board" / "DISPATCH"
 QUEUE_DIR = MAIL_ROOT
+ARCHIVE_DIR = MAIL_ROOT / "_archive"
 MSG_ID_RE = re.compile(r"^MSG-\d{4}-\d{4}$")
 RUNTIME_CONFIG_PATH = REPO_ROOT / ".agent" / "config" / "runtime.json"
 DEFAULT_PARALLEL_SETTLE_SECONDS = 30
@@ -96,11 +97,17 @@ def all_messages() -> list[Path]:
     return sorted(QUEUE_DIR.glob("MSG-*.md"))
 
 
+def all_message_id_paths() -> list[Path]:
+    """Return hot and archived messages for globally unique ID allocation."""
+    ensure_dirs()
+    return sorted([*QUEUE_DIR.glob("MSG-*.md"), *ARCHIVE_DIR.glob("MSG-*.md")])
+
+
 def next_id() -> str:
     year = dt.datetime.now(dt.timezone.utc).year
     prefix = f"MSG-{year}-"
     nums = []
-    for path in all_messages():
+    for path in all_message_id_paths():
         m = re.match(rf"{re.escape(prefix)}(\d{{4}})", path.stem)
         if m:
             nums.append(int(m.group(1)))

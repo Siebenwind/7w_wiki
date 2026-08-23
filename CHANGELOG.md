@@ -1,5 +1,19 @@
 # Changelog
 
+#### [2026-08-23.01] - Handover, Pages-Vollsnapshot und Bridge-Restbestand
+### Prioritaet: P1
+### Hinzugefuegt
+- Die Session-Memory `Logs/Archive/SESSION_MEMORY_2026-08-23_PAGES_AUDIT_UND_BRIDGE_RETIREMENT.md` uebergibt den aktuellen Pages-, Forum- und Historikerstand samt ausfuehrbaren Folgekommandos.
+- `MSG-2026-0240` fragt den Technician, warum 84 ueberfaellige Bridge-Reviewdaten im Audit nicht als Lifecycle-Befund erscheinen.
+### Geaendert
+- Der Dispatch-Zaehler beruecksichtigt bei der Vergabe neuer IDs nun auch rotierte Nachrichten unter `DISPATCH/_archive`; dadurch bleiben Message-IDs nach einer Archivrotation global eindeutig.
+- `MASTER_TASK_LIST.md` unterscheidet jetzt die abgeschlossene formale Bridge-Metadatenpflege von der weiterhin offenen Stilllegung der 84 temporaeren Bruecken.
+- Statistik, Wiki-Inventar, Ingestion-Tracking, Werkzeugmanifest und der kalte Archivbestand wurden ueber die kanonischen Handover-Kommandos aktualisiert.
+### Validiert
+- Vollstaendige Standardsuite: PASS; der zunaechst an der 300-Sekunden-Grenze abgebrochene `pages-link-contract` bestand im fokussierten Wiederholungslauf mit `5/5` und danach auch im erneuten Gesamtlauf.
+- Pages-Vollbau: Exit `0`, `drift_status = PASS`, Publikationsfrische `1417/1417` Artikel und `115/115` Ingestion-Berichte; Gesamtstatus `WARN` wegen des bekannten Linkaltbestands `622/620`.
+- Audit: `issues_found = 0`, `bridge_inventory.total = 84`, `bridge_inventory.invalid = 0`; die ueberfaelligen Reviewdaten bleiben als erklaerungsbeduerftige Vertragsluecke offen.
+
 #### [2026-08-06.02] - Pages-Pflegevertrag, Leserfokus und mobile Darstellung gehaertet
 ### Prioritaet: P1
 ### Hinzugefuegt
