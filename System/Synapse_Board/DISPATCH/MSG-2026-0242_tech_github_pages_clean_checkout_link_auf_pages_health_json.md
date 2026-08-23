@@ -1,15 +1,15 @@
 ---
 id: MSG-2026-0242
 uuid: 12bca43e-71a2-41a0-8eba-465883526cda
-status: CLAIMED
+status: DONE
 priority: HIGH
 from_agent: Test-Waechter
 to_agent: Technician
 created_at: 2026-08-23T20:20:15Z
 claimed_by: Technician
 claimed_at: 2026-08-23T20:20:20Z
-completed_by:
-completed_at:
+completed_by: Technician
+completed_at: 2026-08-23T20:38:35Z
 subject: [TECH] GitHub Pages: Clean-Checkout-Link auf pages_health.json
 ---
 # [TECH] GitHub Pages: Clean-Checkout-Link auf pages_health.json
@@ -24,3 +24,4 @@ GitHub-Actions-Lauf 32663980650 fuer Commit 34fcd1b0 scheitert in interop-doc-li
 
 - OPEN: Nachricht erstellt.
 - CLAIMED (Technician): Nachricht uebernommen.
+- DONE (Technician): Pages-Clean-Checkout repariert: nicht versionierten Laufzeitsnapshot aus Markdown-Link entfernt; interop-doc-links bestand auch ohne Snapshot, pages-contract-mode-contract, takeover-handover, Gesamttests und lokaler Vollbau bestanden. Commit fad39420 wurde gepusht. GitHub-Actions-Lauf 32664796254 sowie Live-Abruf https://siebenwind.github.io/7w_wiki/ (HTTP 200, last-modified 2026-08-23T20:37:54Z) erfolgreich.
