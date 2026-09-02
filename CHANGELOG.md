@@ -1,5 +1,18 @@
 # Changelog
 
+#### [2026-09-02.01] - Forum-Fuenferlauf kanonisch uebergeben
+### Prioritaet: P2
+### Geaendert
+- Der abgeschlossene Forum-Fuenferlauf aus Commit `318d94bc` wurde in eine neue Session-Memory uebernommen; Statistik, Ingestion-Tracking, Wiki-Inventar und Backlog-Snapshots wurden auf den geprueften Stand aktualisiert.
+- Die Archivrotation verschob zwei erledigte Dispatches in das Dispatch-Archiv und verdichtete 93 aeltere Audit-, Snapshot- und Sessiondateien in die ignorierten Betriebsarchive.
+- Die sachfremden, unversionierten Auftraege `MSG-2026-0199` sowie `MSG-2026-0254` bis `MSG-2026-0257` blieben ausserhalb des Handover-Commits.
+### Erkenntnisse und Grenzen
+- Dieser reine Uebergabelauf fuehrt keine neuen Loreaussagen ein. Er bestaetigt den quellenkritischen Stand des vorigen Fuenferlaufs und bewahrt dessen offene Historiker- und Technikfragen fuer getrennte Folgearbeiten.
+- Der Pages-Linkaltbestand bleibt mit `621` unresolved und `619` unallowlisted Verweisen sichtbar; der Ratchet besteht, der Gesamtstatus bleibt deshalb `WARN`.
+### Validiert
+- Der kanonische `handover --run` und die vollstaendige Standardsuite bestanden; Audit: `issues_found = 0`.
+- Pages-Bau: Exit `0`, Drift `PASS`, Publikationsfrische `1.418/1.418` Artikel und `120/120` Ingestion-Berichte; Link-Ratchet `PASS`.
+
 #### [2026-08-23.03] - Forum-Fuenferlauf zu Aktenchronik, Ras Altanin und Thjareks Brecher
 ### Prioritaet: P2
 ### Hinzugefuegt

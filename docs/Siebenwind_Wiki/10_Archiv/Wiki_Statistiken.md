@@ -5,7 +5,7 @@ category: Index
 
 # 📊 Siebenwind Kompass
 
-**Stand:** 2026-08-23 23:29
+**Stand:** 2026-09-02 19:02
 
 > Wissenswetter: **Windig: deutlich in Arbeit, noch sichtbar rau.**
 
@@ -28,9 +28,9 @@ category: Index
 
 | Zeitraum | Bearbeitete Wiki-Artikel | Neue Wiki-Artikel | Aktive Tage |
 | :--- | :--- | :--- | :--- |
-| Letzte 7 Tage | 0 | - | 1 |
-| Letzte 30 Tage | 89 | 19 | 4 |
-| Letzte 90 Tage | 93 | - | 7 |
+| Letzte 7 Tage | 0 | - | 0 |
+| Letzte 30 Tage | 68 | 10 | 3 |
+| Letzte 90 Tage | 98 | - | 7 |
 
 ---
 
@@ -144,7 +144,7 @@ pie title Artikel pro Sektion
 | Delta zum vorigen Audit | +0 |
 | Bridge-/Placeholder-Seiten | 84 |
 | Davon ohne Ausnahme-Metadaten | 0 |
-| Test-Suiten PASS | 33 |
+| Test-Suiten PASS | 32 |
 | Test-Suiten FAIL | 0 |
 
 ### Letzte Test-Suites
@@ -169,7 +169,6 @@ pie title Artikel pro Sektion
 | `manifest-contract` | **PASS** | 2 | 0 | 0 |
 | `pages-backlog-historian-contract` | **PASS** | 11 | 0 | 0 |
 | `pages-contract-mode-contract` | **PASS** | 1 | 0 | 0 |
-| `pages-full-smoke` | **PASS** | 1 | 0 | 0 |
 | `pages-link-contract` | **PASS** | 5 | 0 | 0 |
 | `process-dispatch-curiosity` | **PASS** | 1 | 0 | 0 |
 | `reader-stats-contract` | **PASS** | 3 | 0 | 0 |
@@ -189,7 +188,7 @@ pie title Artikel pro Sektion
 - Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
 - Change-Historie: `CHANGELOG.md`
 - Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `Logs/Archive/Audit_4b207559-a68a-40ab-b8ba-367884a0ccf3.txt`
+- Letzter Audit: `Logs/Archive/Audit_aff1b28b-814f-4d69-bc58-78dd948de969.txt`
 - Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
 
 ---
