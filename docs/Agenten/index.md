@@ -1,5 +1,7 @@
 # Agenten-Hub
 
+[Leserseiten betreiben und prüfen](leserseiten.md) · [Betrieb und Prüfstand](status.md)
+
 Technischer Bereich fuer Agentenbetrieb, Workflows und Interoperabilitaet.
 
 ## Schnellstart

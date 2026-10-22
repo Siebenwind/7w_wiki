@@ -17,7 +17,7 @@ author: "[[Aren_Remouldo]]"
 
 **Epistemischer Status:** #überlieferung (Theologische Magietheorie)
 
-Die *Horlafstrom-Theorie* von [[Aren_Remouldo]] (Adeptus Major des Ita’Il) verbindet das klassische [[Lehrbuch_Magietheorie#Astralnetz|Astralnetz]] mit mythologischen Elementen aus den Schriften der **[[Yehramnis]]**.
+Die *Horlafstrom-Theorie* von [[Aren_Remouldo]] (Adeptus Major des Ita’Il) verbindet das klassische [[Lehrbuch_Magietheorie#2-aufbau-des-astralnetzes|Astralnetz]] mit mythologischen Elementen aus den Schriften der **[[Yehramnis]]**.
 
 ## 1. Der Horlaf (Das Licht der Mächte)
 Zentrum dieser Theorie ist der **Horlaf**, der sich laut *Yehramnis* (Phan 20) in der zweiten Sphäre ([[Ashordon]]) befindet. Er wird als das "Licht der Mächte" und Herz von Horandon beschrieben.

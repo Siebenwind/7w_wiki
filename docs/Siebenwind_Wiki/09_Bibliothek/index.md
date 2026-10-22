@@ -3,9 +3,11 @@ title: "Siebenwind Wiki - Bibliothek"
 category: Bibliothek
 ---
 
-# [[Siebenwind]] Wiki - Bibliothek
+# Siebenwind Wiki - Bibliothek
 
-Indexseite fuer die Sektion Bibliothek.
+<!-- BEGIN EDITORIAL -->
+Schriften, Erinnerungen und Sagen zum Weiterlesen. Einstieg: [[Erinnerungen_eines_alternden_Zwergen]], [[Kleiner_Almanach_uebernatuerlicher_Wesen]] und [[Maid_vom_Greifenweiher|Die Maid vom Greifenweiher]].
+<!-- END EDITORIAL -->
 
 ## Inhalte
 
@@ -28,7 +30,7 @@ Indexseite fuer die Sektion Bibliothek.
 * [[Letzte_Vorbereitungen|Letzte Vorbereitungen]]
 * [[Logbuch_des_Kerkers|Logbuch des Kerkers]]
 * [[Maerchen_und_wie_man_sie_vermeidet|Märchen und wie man sie vermeidet]]
-* [[Maid_vom_Greifenweiher|Die Maid vom [[Greifenweiher]] (Sagenrolle)]]
+* [[Maid_vom_Greifenweiher|Die Maid vom Greifenweiher (Sagenrolle)]]
 * [[Nachts_im_Brandensteiner_Tempel|Nachts im Brandensteiner Tempel]]
 * [[Nichts_und_ohne_Pointe|Nichts und ohne Pointe]]
 * [[Pruefung_und_Entsagung|Prüfung und Entsagung]]

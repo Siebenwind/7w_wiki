@@ -568,80 +568,11 @@ def _activity_text(value: str, limit: int = 280) -> str:
     return html.escape(value)
 
 
-def collect_latest_historian_activity() -> dict | None:
-    """Read the latest completed Historian changelog entry for the public landing page."""
-    if not CHANGELOG_FILE.exists():
-        return None
-    raw = CHANGELOG_FILE.read_text(encoding="utf-8")
-    entries = re.split(r"(?=^#### \[)", raw, flags=re.MULTILINE)
-    for entry in entries:
-        heading = re.match(r"^#### \[([^\]]+)\] - (.+)$", entry, flags=re.MULTILINE)
-        if not heading:
-            continue
-        title = heading.group(2).strip()
-        if "historiker" not in title.casefold() or "abgeschlossen" not in title.casefold():
-            continue
-        sections: dict[str, list[str]] = {}
-        current = ""
-        for line in entry.splitlines()[1:]:
-            section_match = re.match(r"^### (.+)$", line)
-            if section_match:
-                current = section_match.group(1).strip().casefold()
-                sections.setdefault(current, [])
-            elif current and line.startswith("- "):
-                sections[current].append(line[2:].strip())
-
-        additions = next((values for key, values in sections.items() if key.startswith("hinzu")), [])
-        changes = next((values for key, values in sections.items() if key.startswith("ge")), [])
-        insights = next((values for key, values in sections.items() if "erkenntnis" in key), [])
-        observations = next(
-            (values for key, values in sections.items() if key.startswith(("offen", "beobachtet"))),
-            [],
-        )
-        implementation = additions[:1] + changes[:1]
-        if not implementation:
-            implementation = (additions + changes)[:2]
-        return {
-            "id": heading.group(1).strip(),
-            "title": title,
-            "implementation": " ".join(implementation) or "Keine gesonderte Implementierung ausgewiesen.",
-            "insight": (insights or changes or additions or ["Kein gesonderter Erkenntnisgewinn ausgewiesen."])[0],
-            "open": (observations or insights[1:] or [
-                "Offene Unsicherheiten sind im vollständigen Historikerbericht dokumentiert."
-            ])[0],
-        }
-    return None
-
-
-def build_public_activity_block(activity: dict) -> str:
-    activity_id = html.escape(activity["id"])
-    title = html.escape(activity["title"])
-    return f"""{PUBLIC_ACTIVITY_START}
-<section class="public-activity" data-activity-id="{activity_id}" aria-label="Letzter Historikerlauf">
-  <p class="activity-meta"><strong>Stand {activity_id}</strong> · {title}</p>
-  <div class="activity-grid">
-    <article class="activity-card">
-      <h3>Implementierte Neuerungen</h3>
-      <p>{_activity_text(activity['implementation'])}</p>
-    </article>
-    <article class="activity-card">
-      <h3>Erkenntnisgewinn</h3>
-      <p>{_activity_text(activity['insight'])}</p>
-    </article>
-    <article class="activity-card activity-card-open">
-      <h3>Offen geblieben</h3>
-      <p>{_activity_text(activity['open'])}</p>
-    </article>
-  </div>
-  <p class="activity-more"><a href="CHANGELOG/">Vollständige Änderungschronik lesen</a></p>
-</section>
-{PUBLIC_ACTIVITY_END}"""
-
-
 def sync_public_activity() -> bool:
     """Keep the reader-facing activity block coupled to the canonical stats run."""
-    activity = collect_latest_historian_activity()
-    if not activity or not PUBLIC_INDEX_FILE.exists():
+    from reader_catalog import sync_reader_catalog, activity_html
+    activity = sync_reader_catalog()
+    if not PUBLIC_INDEX_FILE.exists():
         return False
     raw = PUBLIC_INDEX_FILE.read_text(encoding="utf-8")
     pattern = re.compile(
@@ -650,11 +581,15 @@ def sync_public_activity() -> bool:
     )
     if not pattern.search(raw):
         raise RuntimeError("public activity markers missing in docs/index.md")
-    updated = pattern.sub(build_public_activity_block(activity), raw, count=1)
+    updated = pattern.sub(lambda _: activity_html(activity), raw, count=1)
     if updated == raw:
         return False
     PUBLIC_INDEX_FILE.write_text(updated, encoding="utf-8")
     return True
+
+
+def category_label(category: str) -> str:
+    return re.sub(r'^\d+_', '', category).replace('_', ' ').replace('Persoenlichkeiten', 'Persönlichkeiten').replace('Myten', 'Mythen').replace('Root', 'Einstieg')
 
 
 def generate_markdown(stats: dict, tracking: dict, ops: dict) -> str:
@@ -670,7 +605,7 @@ def generate_markdown(stats: dict, tracking: dict, ops: dict) -> str:
         top_dense_categories.append((category, avg_words, avg_links, count))
     top_dense_categories.sort(key=lambda x: x[1], reverse=True)
     pie_rows = "\n".join(
-        f'    "{category}" : {count}'
+        f'    "{category_label(category)}" : {count}'
         for category, count in stats["files_per_category"].items()
         if count > 10
     )
@@ -694,7 +629,7 @@ category: Index
 | :--- | :--- |
 | Artikel | **{stats['total_files']}** |
 | Worte | **{stats['total_word_count']:,}** |
-| Durchschnittliche Artikellaenge | **{stats['avg_words_per_article']} Worte** |
+| Durchschnittliche Artikellänge | **{stats['avg_words_per_article']} Worte** |
 | Interne Verweise (`[[...]]`) | **{stats['total_links']:,}** |
 | Vernetzungsdichte | **{stats['avg_links_per_article']} Links/Artikel** |
 | Personenprofile | **{stats['personalities_count']}** |
@@ -725,7 +660,7 @@ pie title Artikel pro Sektion
 """
 
     for category, avg_words, avg_links, count in top_dense_categories[:5]:
-        md += f"| `{category}` | {count} | {avg_words} | {avg_links} |\n"
+        md += f"| {category_label(category)} | {count} | {avg_words} | {avg_links} |\n"
 
     md += """
 
@@ -733,8 +668,8 @@ pie title Artikel pro Sektion
 
 ## 🏆 Entdecke die Welt
 
-### Starke Knoten (gesamt)
-| Entitaet | Verweise |
+### Häufig verlinkte Themen
+| Thema | Verweise |
 | :--- | ---: |
 """
 
@@ -744,8 +679,8 @@ pie title Artikel pro Sektion
 
     md += """
 
-### Praegende Persoenlichkeiten
-| Persoenlichkeit | Verweise |
+### Häufig verlinkte Persönlichkeiten
+| Persönlichkeit | Verweise |
 | :--- | ---: |
 """
 
@@ -755,7 +690,7 @@ pie title Artikel pro Sektion
 
     md += """
 
-### Praegende Ereignisse
+### Häufig verlinkte Ereignisse
 | Ereignis | Verweise |
 | :--- | ---: |
 """
@@ -794,45 +729,50 @@ pie title Artikel pro Sektion
     for tag, count in stats["epistemic_distribution"].most_common():
         md += f"| `#{tag}` | {count} |\n"
 
-    audit_delta = ops["latest_audit_problems"] - ops["previous_audit_problems"] if ops["previous_audit_file"] else 0
-    delta_text = f"{audit_delta:+d}" if ops["previous_audit_file"] else "n/a"
+    from reader_health import snapshot_health, bridge_lifecycle
+    health, lifecycle = snapshot_health(), bridge_lifecycle()
+    # A clean CI checkout has no local snapshot; missing measurements are not zero.
+    health = {key: 'Noch nicht gemessen' if value is None else value for key, value in health.items()}
+    operator = f"""# Betrieb und Prüfstand
 
-    md += f"""
+Erzeugt: {stats['timestamp']}. Diese Zahlen beschreiben den lokalen Stand.
 
----
-
-## 🛠️ Werkstattstatus (Transparenz)
-
-| Metrik | Stand |
+| Messung | Ergebnis |
 | :--- | :--- |
-| Letzter Audit-Problemtotal | {ops['latest_audit_problems']} |
-| Delta zum vorigen Audit | {delta_text} |
-| Bridge-/Placeholder-Seiten | {ops['latest_bridge_total']} |
-| Davon ohne Ausnahme-Metadaten | {ops['latest_bridge_without_exception']} |
-| Test-Suiten PASS | {ops['passing_suites']} |
-| Test-Suiten FAIL | {ops['failing_suites']} |
+| Pages-Snapshot | {health['measured_at']} |
+| Alter in Tagen | {health['age_days']} |
+| Messumfang | {health['scope']} |
+| Ungelöste Linkvorkommen | {health['unresolved_total']} |
+| Nicht freigestellte Linkvorkommen | {health['unallowlisted_total']} |
+| Überfällige Brücken | {lifecycle['expired_total']} |
+| Neue Lifecycle-Verstöße | {len(lifecycle['violations'])} |
+| Ingestion Tracking vollstaendig | {tracking['with_core_tracking']}/{tracking['total_reports']} |
+| Auditbefunde im letzten Audit | {ops['latest_audit_problems']} |
+| Tatsächliches Deployment geprüft | Nein |
 
-### Letzte Test-Suites
-| Suite | Ergebnis | PASS | FAIL | SKIP |
-| :--- | :--- | ---: | ---: | ---: |
+Suchindex und Buildkennung stehen im ausgelieferten `build-info.json`.
+Ein lokaler Bericht, ein erfolgreicher Build und eine geprüfte Veröffentlichung sind getrennte Nachweise.
+Die Brückenliste folgt MSG-2026-0240; der Quellen- und Linkrückstand bleibt Forschungsarbeit.
+Testberichte liegen im System-Temporärverzeichnis unter `7w_test_*`, Browserbilder unter `7w_reader_browser_*`.
 """
+    (PROJECT_ROOT / "docs/Agenten/status.md").write_text(operator, encoding="utf-8")
+    # Reader metrics describe coverage, not truth. Operational diagnostics have their own route.
+    md = md[:md.index("## ✅ Qualitaet & Vertrauen")] + f"""## Quellenlage und offene Fragen
 
-    for row in ops["latest_tests"]:
-        md += f"| `{row['suite']}` | **{row['result']}** | {row['pass']} | {row['fail']} | {row['skip']} |\n"
+{stats['files_with_resolved_quelle']} von {stats['total_files']} Artikeln ({source_coverage:.1f} %) haben ein aufgelöstes `quelle`-Metadatenfeld.
+Das misst Metadatenabdeckung, nicht den Anteil belegter Aussagen. Belege können auch im Text stehen.
+{stats['unclear_markers']} Ungeklärt-Markierungen zeigen offene Wissensfragen.
 
-    md += f"""
+Linkhäufigkeit beschreibt Vernetzung; LQS beschreibt formale Qualität. Beide sind kein Wahrheitsmaß.
+Auch die Tags sind keine neue Prüf- oder Vertrauenszusage.
+Bei Widersprüchen gilt Homepage > Quellen > Wiki Pages.
 
-## 📍 Fortschritt Live Verfolgen
-- Arbeitsprioritaeten: `MASTER_TASK_LIST.md`
-- Change-Historie: `CHANGELOG.md`
-- Tracking-Register: `Logs/INGESTION_TRACKING_REGISTER.md`
-- Letzter Audit: `{ops['latest_audit_file'] or 'n/a'}`
-- Letzte Testreports: `Logs/Archive/TEST_*.md` und `/tmp/7w_test_*/TEST_*.md`
-
----
-> [!NOTE]
-> Diese Seite ist leserzentriert. Technische Tiefendaten bleiben in den Log- und Board-Artefakten.
+[Quellen und Forschung](../../forschung.md) · [Neues im Archiv](../../neues.md) · [Betrieb und Prüfstand](../../Agenten/status.md)
 """
+    md = md.replace(f"> Wissenswetter: **{weather_label(ops, stats)}**", "> Umfang des erschlossenen Wissens. Offene Fragen und Quellenlage werden gesondert ausgewiesen.")
+    for old, new in {"Artikellaenge":"Artikellänge", "Entitaet":"Entität", "Praegende Persoenlichkeiten":"Häufig verlinkte Persönlichkeiten", "Persoenlichkeit":"Persönlichkeit", "Praegende Ereignisse":"Häufig verlinkte Ereignisse", "Starke Knoten (gesamt)":"Häufig verlinkte Themen"}.items():
+        md = md.replace(old,new)
+
     return md
 
 

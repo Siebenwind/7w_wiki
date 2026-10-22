@@ -198,13 +198,13 @@
     },
     {
       "id": "wiki_style_guide",
-      "name": "[Display Title]",
+      "name": "Wiki-Stil und Quellenbezug",
       "primary_command": "7w_wiki.py check"
     }
   ],
   "metadata": {
     "catalog": ".agent/catalog/catalog.v1.json",
-    "generatedAt": "2026-06-30T19:02:47Z",
+    "generatedAt": "2026-10-21T21:40:33Z",
     "phase": "phase1-codex-plus-mcp"
   }
 }

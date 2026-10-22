@@ -1,7 +1,7 @@
 ---
 uuid: 6af36c09-c985-4de8-9dc5-9680b9de9b5b
 status: ACTIVE
-updated_at: 2026-08-23T19:02:18Z
+updated_at: 2026-10-22T11:25:08Z
 epistemic: "#meta"
 ---
 
@@ -13,15 +13,20 @@ Zentrales Tracking fuer Ingestion-Auswertungen (wer/wann/wie + Scoreprofil).
 
 ## Snapshot
 
-- Reports gesamt: 115
-- Reports mit Tracking-Kernfeldern: 115
-- Reports mit LQS: 113
+- Reports gesamt: 120
+- Reports mit Tracking-Kernfeldern: 120
+- Reports mit LQS: 114
 - Dominante Score-Cluster: 2/2/4/2/4 (35), 5/5/5/4/4 (16), 4/4/5/4/4 (14)
 
 ## Register
 
 | Report | Quelle | Ausgewertet von | Auswertungszeitpunkt (UTC) | Workflow/Skill | Dispatch | LQS | Profil |
 |---|---|---|---|---|---|---|---|
+| `Logs/Ingestion/2026-08-23_Forum_ein_gewoehnlicher_diener_der_viere.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ein_gew_hnlicher_diener_der_viere.md | Ingestor / Scanner + quellenkritischer Zwei-Pass-Vergleich | 2026-08-23T23:00:00Z | N/A | N/A | N/A | N/A |
+| `Logs/Ingestion/2026-08-23_Forum_von_gruenen_fluegeln_und_wuetenden_zwergen.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_von_gr_nen_fl_geln_und_w_tenden_zwergen.md | Ingestor / Scanner + quellenkritischer Vergleich | 2026-08-23T22:55:00Z | N/A | `MSG-2026-0228` | N/A | N/A |
+| `Logs/Ingestion/2026-08-23_Forum_mitmachthread_vom_wuestenwinde_verweht.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthread_vom_w_stenwinde_verweht.md | Ingestor / Scanner + quellenkritischer Vergleich | 2026-08-23T22:50:00Z | N/A | `MSG-2026-0228` | N/A | N/A |
+| `Logs/Ingestion/2026-08-23_Forum_der_alte_aktenschrank.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_alte_aktenschrank.md | Ingestor / Scanner + quellenkritischer Vergleich | 2026-08-23T22:45:00Z | N/A | N/A | N/A | N/A |
+| `Logs/Ingestion/2026-08-23_Forum_kriegsschiff_thjareks_brecher.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_kriegsschiff_thjareks_brecher.md | Codex / Scanner + Wiki-Schmied | 2026-08-23T21:00:52Z | N/A | N/A | 7.0 | 3/5/7/7/7 |
 | `Logs/Ingestion/2026-08-06_Forum_der_weg_ist_das_ziel.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_der_weg_ist_das_ziel.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-06T19:15:58Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 5.0 | 5/5/6/5/5 |
 | `Logs/Ingestion/2026-08-06_Forum_geruechte_ueber_einen_neuen_riesen.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_ger_chte_ber_einen_neuen_riesen.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-06T19:15:58Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 2.0 | 2/2/2/1/3 |
 | `Logs/Ingestion/2026-08-06_Forum_im_zwielicht.md` | docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_im_zwielicht.md | Codex / Historian + Kanon-Wächter + Wiki-Schmied + Lektor | 2026-08-06T19:15:58Z | `/historian`, Lore-Gelehrter + Kanon-Wächter + Wiki-Schmied + Lektor | `N/A` | 4.0 | 4/4/4/3/5 |

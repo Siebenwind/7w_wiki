@@ -8,6 +8,8 @@ timestamp: 2026-02-14T22:53:00Z
 
 # 🕵️ Kritische Hinterfragung: Das Schweigen der Magier
 
+> **Historische Hypothesenakte vom 14. Februar 2026, eingeordnet am 21. Oktober 2026.** Die folgenden Behauptungen sind nicht quellenverifiziert und dürfen nicht als verborgener oder bestätigter Kanon in Wikiartikel übernommen werden. Der erhaltene Aktenstatus `OPEN` dokumentiert den damaligen Stand und ersetzt keinen aktuellen Forschungsauftrag. Ein erneuter Abgleich erfolgt über [Research Board](../LORE_RESEARCH_BOARD.md) und den [Drift-/Pages-Vertrag](../SY_DRIFT_PAGES_CONTRACT.md); ungeklärte Annahmen bleiben `[UNGEKLÄRT]`.
+
 ## ❓ Die Kritische Frage
 Warum fehlen in den offiziellen Berichten der *Akademie der Sieben Winde* (Batch 27) jegliche Details über die energetischen Rückkopplungen während der Vandrien-Krise, obwohl zeitgenössische Zeugenberichte (#perspektive) von "schwarzen Fäden am Himmel" sprachen?
 

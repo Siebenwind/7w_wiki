@@ -3,9 +3,11 @@ title: "Siebenwind Wiki - Gesellschaft"
 category: Gesellschaft
 ---
 
-# [[Siebenwind]] Wiki - Gesellschaft
+# Siebenwind Wiki - Gesellschaft
 
-Indexseite fuer die Sektion Gesellschaft.
+<!-- BEGIN EDITORIAL -->
+Völker, Gemeinschaften und Regeln des Zusammenlebens. Einstieg: [[Menschen]], [[Elfen]], [[Das_Adelssystem|Adel]] und [[Recht_Siebenwinds|Recht auf Siebenwind]].
+<!-- END EDITORIAL -->
 
 ## Inhalte
 
@@ -33,7 +35,7 @@ Indexseite fuer die Sektion Gesellschaft.
 * [[Gilde_der_Feinschmiede|Gilde der Feinschmiede]]
 * [[Graue_Garde|Graue Garde]]
 * [[Grosser_Rat|Großer Rat]]
-* [[Hafengilde_Brandenstein|Hafengilde [[Brandenstein]]]]
+* [[Hafengilde_Brandenstein|Hafengilde Brandenstein]]
 * [[Halblinge|Halblinge]]
 * [[Inselrat|Inselrat]]
 * [[Kaufmannsgilde|Kaufmannsgilde]]
@@ -49,19 +51,19 @@ Indexseite fuer die Sektion Gesellschaft.
 * [[Orkisches_Handelskontor|Orkisches Handelskontor]]
 * [[Pakt_der_Viereinigkeit|Pakt der Viereinigkeit]]
 * [[Persoenlichkeiten_Uebersicht|Persönlichkeiten]]
-* [[Rasse_Elfen|Rasse [[Elfen]]]]
-* [[Rasse_Menschen|Rasse [[Menschen]]]]
-* [[Rasse_Zwerge|Rasse [[Zwerge]]]]
+* [[Rasse_Elfen|Rasse Elfen]]
+* [[Rasse_Menschen|Rasse Menschen]]
+* [[Rasse_Zwerge|Rasse Zwerge]]
 * [[Recht_Siebenwinds|Recht Siebenwinds (De Iuribus)]]
 * [[Ring_des_Argionemes|Ring des Argionemes]]
 * [[Ritterehre_De_Itinere_Honoris|Ritterehre (De Itinere Honoris)]]
 * [[Schattenhand|Schattenhand]]
 * [[Schattenjaeger|Schattenjäger]]
 * [[Schwarze_Legion|Schwarze Legion]]
-* [[Siebenwind_Kronregiment|[[Siebenwind]] Kronregiment]]
-* [[Tempelwache_Falkensee|Tempelwache [[Falkensee]]]]
+* [[Siebenwind_Kronregiment|Siebenwind Kronregiment]]
+* [[Tempelwache_Falkensee|Tempelwache Falkensee]]
 * [[Terra_Dorotor|Terra'Dorotor]]
 * [[Ventusreiter|Ventusreiter]]
-* [[Warenhaus_Vela_und_Arn|Warenhaus [[Vela]] und [[Arn]]]]
+* [[Warenhaus_Vela_und_Arn|Warenhaus Vela und Arn]]
 * [[XIII_Kronregiment|XIII. Kronregiment]]
 * [[Zwerge|Zwerge]]

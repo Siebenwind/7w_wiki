@@ -1,0 +1,4 @@
+{
+  "description": "Reader acceptance: three engines, five widths, light/dark, search and keyboard. Requires pages build and pages setup --browsers.",
+  "cases": [{"id": "reader-browser", "name": "Responsive reader acceptance", "reader_browser": true}]
+}

@@ -67,4 +67,4 @@ Rituale erlauben es, das Astralnetz über einen größeren Bereich zu verändern
 **Siehe auch:**
 - [[Matrixtheorie_Linari]]
 - [[Illusionstheorie_Asanra]]
-- [[Personenregister#Toran_Dur]]
+- [[Toran_Dur]]

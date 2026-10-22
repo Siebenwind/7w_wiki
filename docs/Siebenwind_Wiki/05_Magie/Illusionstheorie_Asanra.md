@@ -26,7 +26,7 @@ Asanra unterteilt den Verstand in verschiedene "Fäden" (Fila):
 - **Fila sensoriae:** Die Verbindung zwischen den Sinnesorganen und der Seele (Wahrnehmungsfäden).
 
 ## 2. Subjektive Illusionistik (Primärillusion)
-Die subjektive Illusion greift direkt an den **Fila sensoriae** an. Sie manipuliert die Verbindung zwischen Sinne und [[Geist]], bevor die Information den [[Lehrbuch_Magietheorie#Zensor|Zensor]] erreicht.
+Die subjektive Illusion greift direkt an den **Fila sensoriae** an. Sie manipuliert die Verbindung zwischen Sinne und [[Geist]], bevor die Information den [[Lehrbuch_Magietheorie#3-der-geist-des-sterblichen-zensor-theorie|Zensor]] erreicht.
 
 ### Kategorien der Manipulation
 1. **Beschreibende Wahrnehmungen:** Komplexe Geflechte (Worte, Strukturen).

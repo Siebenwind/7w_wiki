@@ -53,7 +53,9 @@ graph TD
 2.  **Extraktion:** Fakten werden isoliert und in Kontext gesetzt.
 3.  **Wahrheits-Prüfung (Judikative):** Widerspricht das Neue dem Alten?
 4.  **Integration:** Das Wissen wird Teil des Fundaments.
-5.  **Abruf (Orakel):** Das Wissen steht sofort via Vektorsuche zur Verfügung.
+5.  **Abruf:** Die öffentliche Suche erhält ihren Pagefind-Index im Pages-Build. Das interne Orakel benötigt einen gesondert gepflegten Vektorindex und eine funktionsfähige ML-Umgebung.
+
+Für Widersprüche gilt **Homepage > Quellen > Wiki Pages**. Die öffentliche Suche bewertet Auffindbarkeit, keine Wahrheit. [Betrieb der Leserseiten](Agenten/leserseiten.md) beschreibt Suchbereiche, Buildnachweis und Browserprüfung.
 
 ---
 

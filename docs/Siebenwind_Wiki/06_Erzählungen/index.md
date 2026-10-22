@@ -3,9 +3,11 @@ title: "Siebenwind Wiki - Erzählungen"
 category: Erzählungen
 ---
 
-# [[Siebenwind]] Wiki - Erzählungen
+# Siebenwind Wiki - Erzählungen
 
-Indexseite fuer die Sektion Erzählungen.
+<!-- BEGIN EDITORIAL -->
+Persönliche Geschichten öffnen andere Blicke auf die Spielwelt. Einstieg: [[Allerlei_aus_Finsterwangen]], [[Blutrache]] und [[Der_Flug_der_Ente]]. Die Erzählperspektive ist keine allgemeine Tatsachenbestätigung.
+<!-- END EDITORIAL -->
 
 ## Inhalte
 
@@ -45,7 +47,7 @@ Indexseite fuer die Sektion Erzählungen.
 * [[Im_starken_Schutz_des_Hoechsten|Im starken Schutz des Höchsten]]
 * [[Jeder_nur_einen_winzigen_Schluck|Jeder nur einen winzigen Schluck]]
 * [[Jenseits_des_Walls|Jenseits des Walls]]
-* [[Myten_in_Falkensee|Die [[Myten]] in [[Falkensee]]]]
+* [[Myten_in_Falkensee|Die Myten in Falkensee]]
 * [[Neues_Chaos_auf_Tevras_Pfaden|Neues Chaos auf Tevras Pfaden]]
 * [[Reinigung_des_Morsanschreins|Reinigung des Morsanschreins]]
 * [[Saranas_Tod|Saranas Tod]]

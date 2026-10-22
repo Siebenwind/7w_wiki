@@ -12,6 +12,8 @@ Inter-agent messaging uses the existing Synapse-Board domain via:
 
 Each dispatch file is a markdown document with frontmatter and lifecycle state.
 
+`kind: TASK` is the default for actionable work, including legacy messages without a kind. `kind: INFO` records information with no follow-up action and is created as DONE. `mail inbox --kind TASK --status OPEN --json` and Advisor show the actionable queue. Use `mail classify ID --kind INFO --agent NAME --note "evidence and reason"` only after individually reading the message and checking its evidence. Uncertain follow-up work remains TASK. A missing historical report is not proof that its work was completed.
+
 ## Commands
 
 - `./7w_wiki.py mail post --from <agent> --to <agent|ALL> --subject "<text>" --body "<text>" [--priority LOW|NORMAL|HIGH]`

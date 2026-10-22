@@ -15,6 +15,31 @@ Dieses Dokument ist die "Single Source of Truth" für die projektinterne Koordin
 
 ## 🏗️ Boards & Archive
 
+### Leserzugang und Publikationsprüfung (2026-09-09)
+
+| Pfad | Zweck | Admin |
+| :--- | :--- | :--- |
+| `.agent/scripts/reader_surface.py` | MkDocs-Leserhinweise, Buildnachweis und Pagefind-Index | Technician |
+| `.agent/templates/main.html` | Einheitliche Suchleiste und Leserfußbereich | Technician |
+| `.agent/scripts/reader_catalog.py` | Neuigkeiten, A–Z und Dokumentationsinventar im Statistiklauf | Technician |
+| `.agent/scripts/generate_wiki_stats.py` | Kanonischer Produzent der gekoppelten Leser-, Betriebs- und Inventarausgaben | Technician |
+| `.agent/data/reader_updates.json` | Strukturierte freigegebene Leseränderungen | Redaktion |
+| `.agent/data/documentation_inventory.json` | Maschinenlesbares Dokumentationsinventar | Technician |
+| `System/DOCUMENTATION_INVENTORY.md` | Einordnung aktiver und historischer Techniktexte | Technician |
+| `.agent/scripts/reader_health.py` | Gemeinsame Snapshot-, Brücken- und HTML-Linkdiagnose | Technician |
+| `.agent/config/bridge_lifecycle_baseline.json` | Expliziter abgelaufener Brückenaltbestand zu MSG-2026-0240 | Technician |
+| `.agent/scripts/reader_browser.py` | Browserabnahme mit reproduzierbaren Bildern | Test-Waechter |
+| `.agent/scripts/reader_process_tests.py` | Isolierte Lifecycle-/Dispatch-/HTML-Regressionsfälle | Test-Waechter |
+| `.agent/tests/suites/reader-browser.json` | CLI-Einstieg Browserabnahme | Test-Waechter |
+| `.agent/tests/suites/reader-process-contract.json` | CLI-Einstieg Prozessregressionen | Test-Waechter |
+| `.agent/tests/suites/reader-rendered-links.json` | Gerenderte interne Links einschließlich Karten und Ankern | Test-Waechter |
+| `requirements-browser.txt` | Versionierte Browser-Testabhängigkeit | Technician |
+| `docs/assets/search.js` | Gemeinsame Suchlogik und barrierearme Bedienung | Technician |
+| `docs/suche.md`, `docs/themen.md`, `docs/neues.md`, `docs/forschung.md` | Leserzugänge | Redaktion |
+| `docs/Agenten/leserseiten.md`, `docs/Agenten/status.md` | Aktive Betriebsanleitung und Diagnose | Technician |
+| `task.md` | Umsetzung und Abnahme des Leserplans | Technician |
+| `System/READER_RELEASE_REVIEW_2026-09-12.md` | Abnahme, Quellenabgleich und verbleibende Grenzen des Leserplans | Technician |
+
 | Pfad | Zweck | Admin |
 |---|---|---|
 | [SY_REVIEW.md](Synapse_Board/SY_REVIEW.md) | Peer-Review & Qualitätskontrolle | Departments |

@@ -1,25 +1,28 @@
 ---
+title: "Der alte Aktenschrank"
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=106975"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=106975"
-title: "Der alte Aktenschrank"
 date: 2017-08-10
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 106975
 content_status: fulltext_archived
-review_status: triage_ready
-review_owner: Scout
+review_status: integrated
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
 human_escalation_required: false
+integration_status: integrated
+integrated_target: "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Maichellis_Wanderstern.md"
+ingestion_report: "Logs/Ingestion/2026-08-23_Forum_der_alte_aktenschrank.md"
+integrated_at: "2026-08-23T21:05:15Z"
 archived_at: "2026-08-04T17:10:07Z"
 post_count: 20
 topic_pages_archived: 1
 raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/106975.html"
 ---
-
 # Der alte Aktenschrank
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

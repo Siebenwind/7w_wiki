@@ -217,7 +217,7 @@ def collect_publication_freshness() -> dict:
 
     published_articles = _first_int(stats_raw, r"^\| Artikel \| \*\*(\d+)\*\* \|$")
     published_tracking_total = _first_int(
-        stats_raw,
+        (DOCS_DIR / 'Agenten/status.md').read_text(encoding='utf-8') if (DOCS_DIR / 'Agenten/status.md').exists() else stats_raw,
         r"^\| Ingestion Tracking vollstaendig \| \d+/(\d+) \|",
     )
     register_tracking_total = _first_int(register_raw, r"^- Reports gesamt: (\d+)$")
@@ -549,7 +549,12 @@ def collect_pages_contract_report(config: str = "mkdocs.yml") -> dict:
         ),
     ]))
 
+    from reader_health import bridge_lifecycle
+    lifecycle = bridge_lifecycle()
+    pages_health['bridge_lifecycle'] = lifecycle
     static_failures: list[str] = []
+    if lifecycle['violations']:
+        static_failures.append('bridge lifecycle regressed')
     if not config_path.exists():
         static_failures.append("mkdocs config missing")
     if not DOCS_DIR.exists():
@@ -833,7 +838,13 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
         pages_status = "FAIL"
 
     stdout_preview = "\n".join(proc.stdout.splitlines()[:20])
-    stderr_preview = "\n".join(proc.stderr.splitlines()[:20])
+    from reader_health import bridge_lifecycle
+    lifecycle = bridge_lifecycle()
+    if lifecycle["status"] == "FAIL":
+        pages_status = "FAIL"
+    elif lifecycle["status"] == "WARN" and pages_status == "PASS":
+        pages_status = "WARN"
+    stderr_preview = "\n".join(proc.stderr.splitlines()[-30:] if proc.returncode else proc.stderr.splitlines()[:20])
 
     return {
         "generated_at": now_iso(),
@@ -857,6 +868,7 @@ def collect_pages_build_report(config: str = "mkdocs.yml", no_clean: bool = Fals
         },
         "pages_health": {
             "status": pages_status,
+            "bridge_lifecycle": lifecycle,
             "canonical_wiki_root": str(TECHNICAL_WIKI_ROOT.relative_to(REPO_ROOT)),
             "legacy_wiki_root": root_state["legacy_wiki_root"],
             "legacy_root_status": root_state["legacy_root_status"],

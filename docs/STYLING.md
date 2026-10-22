@@ -29,7 +29,11 @@ Asset-Regel:
 
 ## Mobile Mindestregeln
 
-- Die Startseite zeigt nach dem kompakten Hero unmittelbar `Was geschieht?`.
+- Die Startseite zeigt bei 390 × 844 Pixeln Suche und mindestens einen konkreten Themeneinstieg ohne Scrollen.
 - Kartenraster werden auf schmalen Ansichten einspaltig.
 - Tabellen und Mermaid-Diagramme bleiben im Inhaltsbereich und erhalten bei Bedarf einen horizontalen Scrollbereich.
 - Primaere Bedienelemente bieten mindestens 44 Pixel Beruehrungshoehe.
+
+Gemeinsame Farbtokens stehen ausschließlich in `base.css`, jeweils getrennt für helle und dunkle Darstellung. `material.css` passt Inhaltsflächen und Tabellen an. `custom.css` begrenzt Regeln auf Leserkomponenten. Globale Positions-, Überschriften- und Ebenenregeln dürfen Suchvorschläge oder Navigation nicht verändern.
+
+Die Abnahme erfolgt über `./7w_wiki.py test --suite reader-browser`, ergänzt durch manuelle Tastatur-, Kontrast- und Geräteprüfung. Ein CSS-Mustercheck ersetzt keine Darstellungskontrolle.

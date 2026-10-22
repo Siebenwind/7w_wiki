@@ -3,17 +3,19 @@ title: "Siebenwind Wiki - Bestiarium"
 category: Bestiarium
 ---
 
-# [[Siebenwind]] Wiki - Bestiarium
+# Siebenwind Wiki - Bestiarium
 
-Indexseite fuer die Sektion Bestiarium.
+<!-- BEGIN EDITORIAL -->
+Wesen der Welt und Berichte über Begegnungen. Einstieg: [[Drachen]], [[Goblins]] und [[Feen]]. Vergleiche bei widersprüchlichen Überlieferungen die Quellenhinweise.
+<!-- END EDITORIAL -->
 
 ## Inhalte
 
 ### Artikel
-* [[Bestie_von_Brandenstein|Bestie von [[Brandenstein]]]]
+* [[Bestie_von_Brandenstein|Bestie von Brandenstein]]
 * [[Chimären|Chimären]]
 * [[Daemonen|Dämonen]]
-* [[Der_Grix|Der [[Grix]]]]
+* [[Der_Grix|Der Grix]]
 * [[Der_Hutmacher|Der Hutmacher]]
 * [[Der_blinde_Maler|Der blinde Maler]]
 * [[Drachen|Drachen]]

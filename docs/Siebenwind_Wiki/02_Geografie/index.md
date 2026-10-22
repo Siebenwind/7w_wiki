@@ -3,16 +3,18 @@ title: "Siebenwind Wiki - Geografie"
 category: Geografie
 ---
 
-# [[Siebenwind]] Wiki - Geografie
+# Siebenwind Wiki - Geografie
 
-Indexseite fuer die Sektion Geografie.
+<!-- BEGIN EDITORIAL -->
+Ein Einstieg ist [[Siebenwind|die Insel Siebenwind]]. [[Brandenstein]] und [[Draconis]] erschließen weitere Orte und ihre Geschichte.
+<!-- END EDITORIAL -->
 
 ## Inhalte
 
 ### Artikel
 * [[Aschene_Wüste|Aschene Wüste]]
 * [[Brandenstein|Brandenstein]]
-* [[Burg_Finianswacht|Burg [[Finianswacht]]]]
+* [[Burg_Finianswacht|Burg Finianswacht]]
 * [[Burg_Schwingenwacht|Burg Schwingenwacht]]
 * [[Draconis|Draconis]]
 * [[Drakenwald|Drakenwald]]
@@ -21,7 +23,7 @@ Indexseite fuer die Sektion Geografie.
 * [[Falkensee|Falkensee]]
 * [[Falkenwall|Der Falkenwall]]
 * [[Fenwald|Fenwald]]
-* [[Feste_Seeberg|Feste [[Seeberg]]]]
+* [[Feste_Seeberg|Feste Seeberg]]
 * [[Finianswacht|Finianswacht]]
 * [[Finsterwangen|Finsterwangen]]
 * [[Geografie|Geografie]]
@@ -49,7 +51,7 @@ Indexseite fuer die Sektion Geografie.
 * [[Region_Papin|Region Papin]]
 * [[Region_Ravel|Region Ravel]]
 * [[Region_Rothschild|Region Rothschild]]
-* [[Region_Sae|Region [[Sae]]]]
+* [[Region_Sae|Region Sae]]
 * [[Region_Savaro|Region Savaro]]
 * [[Region_Tiefenwald|Region Tiefenwald]]
 * [[Region_Vandrien|Region Vandrien]]

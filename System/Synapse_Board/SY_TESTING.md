@@ -47,13 +47,14 @@ Suite-Definitionen liegen in:
 - `.agent/tests/suites/*.json`
 
 Testberichte liegen in:
-- `Logs/Archive/TEST_<suite>_<timestamp>.md`
+- System-Temporärverzeichnis: `7w_test_*/TEST_<suite>_<timestamp>.md`. Historische oder ausdrücklich archivierte Berichte können weiterhin unter `Logs/Archive/` liegen.
+- Browser-Abnahme: `7w_reader_browser_*/results.json` und Vorher-/Nachher-Bilder des Prüflaufs.
 
 Stabilitaetsregel:
-- `--suite all` laesst `rag-relevance-smoke` standardmaessig aus.
+- `--suite all` lässt `rag-relevance-smoke`, `pages-full-smoke` und `reader-browser` aus. Die letzten beiden werden bei Leserseitenänderungen ausdrücklich zusätzlich ausgeführt.
 - RAG-Smoke nur als explizite Diagnose per `--include-rag` oder direktem Suite-Aufruf.
 - Pages-/Link-Suiten decken technischen Publishing-Drift ab; sie belegen keine epistemische Korrektheit gegen Homepage oder Quellen.
-- Fuer Pages-/Navigationsaenderungen zusaetzlich `./7w_wiki.py test --suite pages-full-smoke` oder den Operatorpfad `./7w_wiki.py pages validate --json` laufen lassen.
+- Für Pages-/Navigationsänderungen zusätzlich `./7w_wiki.py test --suite pages-full-smoke`, `./7w_wiki.py pages validate --json` und `./7w_wiki.py test --suite reader-browser` ausführen. Während der Arbeit gezielte Checks; die vollständige Abnahme einmal am finalen Stand. Fehlende reale iOS-/Android-Prüfung ausdrücklich als Freigabegrenze ausweisen.
 
 RAG-Diagnose- und Benchmarkdoku:
 - `docs/Archiv/RAG_DIAGNOSE_2026-02-16.md`

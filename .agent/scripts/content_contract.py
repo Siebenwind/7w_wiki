@@ -764,6 +764,7 @@ def _contract_scan_fingerprint(files: list[Path], *, scope: str) -> str:
 
 
 def scan_contract(target: Path | None = None, *, refresh_inventory: bool | None = None, use_cache: bool = True) -> dict:
+    from reader_health import bridge_lifecycle
     files = canonical_markdown_files(target)
     scope = canonical_target_scope(target)
     refresh_inventory = (scope == "canonical_root") if refresh_inventory is None else refresh_inventory
@@ -780,6 +781,10 @@ def scan_contract(target: Path | None = None, *, refresh_inventory: bool | None 
             cached_payload = cached.get("payload", {})
 
     report = cached_payload if cached_payload is not None else _scan_contract_uncached(files)
+    # Dates must be evaluated on every call, independently of content caches.
+    report = json.loads(json.dumps(report))
+    lifecycle = bridge_lifecycle()
+    report['bridge_lifecycle'] = lifecycle
 
     split_brain = detect_split_brain_files()
     inventory = (
@@ -798,6 +803,7 @@ def scan_contract(target: Path | None = None, *, refresh_inventory: bool | None 
             + report["bridge_inventory"]["invalid"]
             + len(split_brain)
             + traceability_issues
+            + len(lifecycle["violations"])
         ),
         "split_brain": {
             "issues": len(split_brain),

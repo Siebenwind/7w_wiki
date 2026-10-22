@@ -2,7 +2,9 @@
 description: Siebenwind Wiki Style Guide & Convention
 ---
 
-# [Display Title]
+# Wiki-Stil und Quellenbezug
+
+Aktive Anleitung, geprüft am 21. Oktober 2026. Maßgeblich sind der [Drift-/Pages-Vertrag](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md) und der Inhaltsvertrag in `.agent/scripts/content_contract.py`.
 
 ## Interop-Status
 - runtime_commands:
@@ -11,106 +13,50 @@ description: Siebenwind Wiki Style Guide & Convention
 - method_only:
   - `/wiki_style_guide`
 
-**Epistemischer Status:** #perspektive
+## Quellen vor Darstellung
 
-To ensure portability, consistency, and a high narrative standard across the Siebenwind Chronicles, all wiki entries must follow this strict structure. We aim for **"Roman-Qualität" (Novel Quality)**—entries should be immersive, providing context on motivations, surroundings, and social atmosphere.
+Die Präzedenz lautet **Homepage > Quellen > Wiki Pages**. Herkunftstags beschreiben den Belegtyp; sie ersetzen weder den Quellenvergleich noch eine Prüfung einzelner Aussagen. Ein Botenbericht oder eine persönliche Erzählung kann eine Sichtweise belegen, ohne sie zur allgemeingültigen Weltbeschreibung zu machen. Unterschiede in Zeit, Perspektive und Geltungsbereich ausdrücklich erklären. Nicht auflösbare Fragen als `[UNGEKLÄRT]` dokumentieren und über Dispatch weiterführen.
 
-## 1. YAML Frontmatter
-Every file must start with a YAML frontmatter block containing exactly these fields:
+Lesbar und anschaulich schreiben, aber keine Gerüche, Motive, Gefühle oder historischen Details ergänzen, die die Quellen nicht tragen. Stil, Linkhäufigkeit und Scores erzeugen keine neue fachliche Freigabe.
+
+## Metadaten und Überschriften
+
+Artikel liegen unter `docs/Siebenwind_Wiki/`. Reguläre neue Artikel erhalten eine konkrete Quelle und nachvollziehbare Berichtszuordnung. Beispiel mit auszufüllenden Werten:
 
 ```yaml
 ---
-layout: wiki_page
-title: [Display Title]
-category: [Persönlichkeit | Geschichte | Erzählung | Geografie | Religion | Magie | Forum | Periodika & Zeitzeugnisse]
-uuid: [UUID-v4]
-quelle: ../../Quellen/[Unterordner]/[Dateiname].md
-lore_trust: [0-10]
-letzter_check: [ISO-8601 Zeitstempel inkl. Uhrzeit]
+uuid: "<UUID-v4>"
+title: "<Artikeltitel>"
+category: "<Kategorie>"
+epistemic: "#bote"
+quelle: "../../Quellen/<Unterordner>/<Datei>.md"
+report_id: "<ID des Prüf- oder Ingestion-Berichts>"
+updated_at: "<ISO-8601-Zeitpunkt>"
 ---
 ```
 
-Guardrails:
-- Do not create placeholder pages with generic bridge text.
-- For new regular articles, `quelle:` must be a concrete relative source path, not `UNGEKLAERT`.
-- Temporary bridge exceptions are allowed only with explicit lifecycle metadata:
-  - `bridge_mode: temporary`
-  - `bridge_target: [[Canonical_Target_or_TODO]]`
-  - `bridge_ticket: MSG-YYYY-NNNN` (or task id)
-  - `bridge_review_until: YYYY-MM-DD`
+`layout` gehört nicht in neue Wikiartikel. `lore_trust` ist ein historisches, optionales Metadatenfeld und keine Freigabe. YAML-Werte mit `#` in Anführungszeichen setzen. Die H1 stimmt mit `title` überein; H2 gliedern Beschreibung, Geschichte und Quellen. Zusätzliche Felder nur mit belegtem Inhalt verwenden.
 
-## 2. Heading Structure
-- **H1 Header:** The first line after the frontmatter must be a Level 1 Heading (`# Title`) matching the `title` field in the YAML.
-- **H2 Headers:** Use for main sections (e.g., `## Beschreibung`, `## Wirken`, `## Quellen`).
+Kurze fachliche Metadaten können direkt unter der H1 als Material-Infoblock stehen:
 
-## 3. Metadata Section (Optional but recommended for NPCs)
-Directly under the H1, include key-value pairs for quick scanning:
-- **Titel:** [Official Title]
-- **Epistemischer Status:** [#canon | #bote | #perspektive | #überlieferung]
-- **Zugehörigkeit:** [Faction/Family]
-- **Zeitraum:** [Active Period in n.H.]
+```markdown
+!!! info "Metadaten"
+    **Zeitraum:** <belegter Zeitraum>
+    **Zugehörigkeit:** <belegte Verbindung>
+```
 
-## 3.1 Epistemisches System (Verlässlichkeitsränge)
+Ein vorhandener `report_id` benötigt eine nachvollziehbare Referenz auf den Bericht. Technische Verarbeitungshinweise gehören in Metadaten und Referenzen, nicht in die Orts- oder Personenbeschreibung.
 
-Die vier epistemischen Tags definieren die **Verlässlichkeit** einer Information.
-**Höherer Rang überschreibt niedrigeren Rang bei Widersprüchen.**
+## Gliederung und Verlinkung
 
-| Rang | Tag | Quellordner | Bedeutung | Vertrauen |
-|---|---|---|---|---|
-| 🥇 1 | `#canon` | `/Hintergrund/` | Offizieller Kanon, Spielleiter-Festlegung | Absolut |
-| 🥈 2 | `#bote` | `/Zeitung 7w Bote/` | Redaktionelle Berichterstattung (In-World) | Hoch |
-| 🥉 3 | `#überlieferung` | `/Bibliothek/` | In-World-Literatur, Mythen, Legenden | Mittel |
-| 4 | `#perspektive` | `/Spielergeschichten/`, `/Forum/` | Subjektive Erzählung, Aussagen, Foren-RP | Gering |
-| 5 | `#news` | `/News/` | OOC-Ankündigungen, Tech-Updates, Shard-News | OOC |
+Der erste Absatz erklärt ohne Vorwissen, worum es geht. Gegenwärtigen Zustand und historische Beschreibung trennen. Für Orte eignen sich Lage, heutiger Zustand und Geschichte; für Personen Wirken und belegte Beziehungen; für Ereignisse Hintergrund, Verlauf und Folgen. Überschriften nur verwenden, wenn dazu Quelleninhalt vorliegt.
 
-### Entscheidungsregeln
-1. **Widerspruch `#canon` vs. `#bote`:** `#canon` gewinnt immer.
-2. **Widerspruch `#bote` vs. `#perspektive`:** `#bote` gewinnt. Die Spielergeschichte wird ergänzend notiert, nicht als Fakt übernommen.
-3. **Neue Fakten nur aus `#perspektive`:** Dürfen ins Wiki, wenn sie dem Kanon nicht widersprechen. Müssen als `#perspektive` getaggt bleiben.
+- Wikiartikel mit `[[Seitenname|Lesbarer Titel]]` verlinken; keine verschachtelten WikiLinks in Anzeigetexten.
+- Technische Dokumentation repo-relativ verknüpfen, keine lokalen Datei-URLs.
+- Quellen über konkrete Referenzen identifizierbar halten; portable Quellpfade können als Code stehen, öffentliche Originalquellen als beschriftete Links.
+- Kategorieindizes erhalten ihre redaktionellen Einleitungen zwischen den `BEGIN EDITORIAL`-/`END EDITORIAL`-Markern.
+- Fehlende Links zuerst auf bestehende kanonische Ziele heben. Keine generischen Brücken als Reparaturabschluss. Temporäre Ausnahmen benötigen `bridge_mode`, `bridge_target`, `bridge_ticket` und `bridge_review_until`; überfällige Fristen nicht pauschal verlängern.
 
-### Zusätzliche Meta-Tags (KEINE Verlässlichkeitsränge)
-- `#meta` — Register, Index-Dateien, Übersichtsseiten.
-- `#news` — Out-of-Character Informationen (Shard-Entwicklung).
-- `#gemischt` — Artikel mit Informationen aus mehreren Verlässlichkeitsrängen.
-- `[Synapse]` — Markiert Abschnitte im Fließtext, die Gegenstand eines aktiven oder gelösten Tickets auf dem Synapse-Board sind.
+## Prüfung
 
-
-## 4. Standardized Headers per Category
-To maintain consistency, use these dedicated headers:
-### Bestiarium (Creatures)
-- `## Überblick` (Description & Type)
-- `## Biologie` (Anatomy & Senses)
-- `## Verhalten` (Habitat & Social patterns)
-
-### Gesellschaft (Guilds/Craft)
-- `## Sitz` (Location)
-- `## Führung` (Master/Board)
-- `## Aufgaben & Ziele` (Main trade or objective)
-
-### Geschichte (Events)
-- `## Hintergrund` (Cause)
-- `## Verlauf` (The Event)
-- `## Folgen` (Impact on the world)
-
-## 5. Narrative Content (Roman-Qualität)
-Don't just list facts. Describe:
-- **Atmosphere:** The smell of the forge, the cold of the North, the tension in a city.
-- **Motivations:** Why does an NPC act? What are their fears and goals?
-- **Social Context:** How is a person viewed by their peers? What is the social status of a region?
-
-## 4. Internal Linking
-- Use standard Wiki-brackets: `[[Page_Name]]`.
-- For source references, store portable relative paths as code literals (e.g. ``../../Quellen/source.md``) to avoid strict-build link noise.
-- If a source path or claim looks contradictory, raise a concrete specialist question via Dispatch/Synapse before changing canon content.
-
-## 5. Directory Mapping
-- `00_Fundament/`: Core laws and axioms.
-- `01_Pantheon/`: Gods and religion.
-- `02_Geografie/`: Regions and cities.
-- `03_Gesellschaft/`: Guilds, nobility, and races.
-- `04_Chronik/`: Timelines (n.H.).
-- `05_Geschichte/`: Major historical events and epochs.
-- `07_Persoenlichkeiten/`: NPC biographies.
-- `08_Bestiarium/`: Creatures and monsters.
-- `09_Bibliothek/`: Processed books and literature.
-- `10_Archiv/`: Official decrees and law.
+`./7w_wiki.py check <Artikel>` prüft Stil und Format; `./7w_wiki.py sanitize` zeigt Vertragsabweichungen. `sanitize --auto` verändert Dateien und ist nur bei beauftragter Korrektur einzusetzen. Quellenabgleich und fachliche Redaktion bleiben zusätzlich erforderlich. Nach Abschluss Änderungen und Prüfbericht über `mail done` beziehungsweise `mail post` dokumentieren.

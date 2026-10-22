@@ -1,25 +1,28 @@
 ---
+title: "[Mitmachthread] Vom Wüstenwinde verweht"
+status: archiviert
+epistemic: "#forum"
 source: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=109430"
 source_url: "http://schnellerwind.mind.de/Foren/phpBB3/viewtopic.php?f=27&t=109430"
-title: "[Mitmachthread] Vom Wüstenwinde verweht"
 date: 2019-10-17
 type: Forum Entry
-epistemic: "#forum"
-status: archiviert
 forum: "Geschichten aus dem Spiel"
 forum_id: 27
 topic_id: 109430
 content_status: fulltext_archived
-review_status: triage_ready
-review_owner: Scout
+review_status: integrated
+review_owner: Codex / Scanner + Historian + Wiki-Schmied
 human_escalation_required: false
+integration_status: integrated
+integrated_target: "docs/Siebenwind_Wiki/00_Fundament/Ras_Altanin.md"
+ingestion_report: "Logs/Ingestion/2026-08-23_Forum_mitmachthread_vom_wuestenwinde_verweht.md"
+integrated_at: "2026-08-23T21:05:19Z"
 archived_at: "2026-08-04T17:10:07Z"
 post_count: 3
 topic_pages_archived: 1
 raw_html_refs:
   - "docs/Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/109430.html"
 ---
-
 # [Mitmachthread] Vom Wüstenwinde verweht
 
 _Archivierter Volltext aus dem Siebenwind-Forum. Diese Quelle ist ein Forum-/Perspektivtext und nicht automatisch kanonisiert._

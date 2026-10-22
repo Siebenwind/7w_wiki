@@ -3,7 +3,7 @@ title: Siebenwind Bote 190
 category: Chronik
 ---
 
-# [[Siebenwind]] Bote 190
+# Siebenwind Bote 190
 
 !!! info "Metadaten"
     - **Epistemischer Status:** #bote
@@ -19,7 +19,7 @@ Nach drei Jahren der Ungewissheit wurde bestätigt: Seine Majestät **[[Hilgorad
 ### Krieg auf [[Siebenwind]]
 - **[[Brandenstein]]:** Ein massiver Angriff von Schwarzorken, [[Goblins]] und Ogern konnte nur knapp abgewehrt werden. Kanzler [[Tion_Altor]] verhängte das Kriegsrecht.
 - **Westhever:** Die Siedlung wurde zerstört, die Bewohner von Trollen getötet oder vertrieben.
-- **Brecher:** Die [[Nortraven]]-Siedlung "Brecher" wurde von Schwarzorken niedergebrannt. Flüchtlinge erreichten [[Brandenstein]].
+- **[[Thjareks_Brecher|Brecher der Nortraven]]:** Das Kriegsschiff wurde von Schwarzorken in Brand gesetzt. Die verbliebenen Streiter ruderten es in den Hafen von [[Brandenstein]].
 - **Malorns Hafen:** Von Piraten befreit, nun von Fischmenschen bewohnt (Expedition [[Lynn]]).
 
 ### Politik
@@ -33,4 +33,4 @@ Nach drei Jahren der Ungewissheit wurde bestätigt: Seine Majestät **[[Hilgorad
 
 ---
 **Quellen:** [[Siebenwind_Bote_190]] (Original)
-**Siehe auch:** [[Die_Chronik]], [[Zerstörung_von_Westhever]], [[Angriff_auf_Brandenstein_29_nH]]
+**Siehe auch:** [[Die_Chronik]], [[Zerstoerung_von_Westhever|Zerstörung von Westhever]], [[Thjareks_Brecher]], [[Angriff_auf_Brandenstein_29_nH]]

@@ -1,30 +1,11 @@
-# MISSION KICKOFF: SIEBENWIND WIKI RECONSTRUCTION
+# Einstieg für externe Mitarbeit
 
-Du wirst als externe Unterstützung für das **Siebenwind Wiki Projekt** eingesetzt. Deine Aufgabe ist die autonome Bearbeitung von Teilaufgaben, die dir von der Haupt-Instanz (Antigravity) zugewiesen werden.
+Aktive Anleitung, geprüft am 21. Oktober 2026. Bearbeite die ausdrücklich zugewiesene Aufgabe innerhalb ihrer Lese- und Schreibgrenzen. Der Auftrag gewährt keinen pauschalen Zugriff auf andere Aufgaben oder Dateien.
 
-## 🏰 Projekt-Vison & Architektur
-Wir rekonstruieren ein Lore-Wiki für ein Ultima Online Rollenspiel-Projekt.
-- **Speicherformat**: Reines Markdown (.md) mit YAML-Frontmatter.
-- **Wiki-System**: MkDocs (Material Theme).
-- **Struktur**:
-    - `00_Fundament`: Register (Personen, Orte, Orgs).
-    - `01_Urtugenden` bis `03_Gesellschaft`: Lore-Kategorien.
-    - `04_Chronik`: In-Game Zeitstrahl & OOC Timeline.
-    - `Quellen`: Rohdaten (Boten, Forum-Posts, Scans).
+1. Lies `AGENTS.md` und beginne mit `./7w_wiki.py start`, `./7w_wiki.py advisor --json` und der passenden Dispatch-Nachricht.
+2. Verwende ausschließlich `./7w_wiki.py` als Projektruntime. Entdecke aktuelle Befehle über `--help-json`; die generierten Adapter sind keine zweite Implementierung.
+3. Artikel werden in `docs/Siebenwind_Wiki/` gepflegt. `Quellen/` bewahrt Originalmaterial, `docs/Quellen/` dient seiner Veröffentlichung. Für fachliche Aussagen gilt **Homepage > Quellen > Wiki Pages**.
+4. Befolge den [aktuellen Stil- und Inhaltsvertrag](../workflows/wiki_style_guide.md): gültige Metadaten ohne Legacy-`layout`, belegte Quellen, verständliche Einleitung und portable Links. Keine Ausschmückung ohne Beleg.
+5. Prüfe gezielt, dokumentiere Ergebnis und Grenzen und schließe mit `mail done` oder `mail post` ab. Testdelegation und Modellvorgaben des Nutzers bleiben verbindlich.
 
-## 🛠️ Deine Werkzeuge & Befugnisse
-Du hast vollen Zugriff auf das Dateisystem im Workspace.
-- **Lesen**: Analysiere vorhandene Artikel und Register, um Konsistenz zu wahren.
-- **Schreiben**: Erstelle neue Artikel in den passenden Verzeichnissen.
-- **Register**: Aktualisiere `Personenregister.md` und `Organisationsregister.md` bei neuen Entdeckungen.
-
-## 📜 Konventionen (Mandatory)
-1. **Verlinkung**: Nutze ausschließlich relative WikiLinks: `[[Seitenname]]`.
-2. **Epistemik**: Jeder Artikel benötigt einen Status-Tag (z.B. `#canon`, `#überlieferung`, `#news`).
-3. **Metadaten**: Jeder neue Artikel braucht valide YAML-Frontmatter (layout, title, category, uuid).
-4. **Siebenwind Voice**: Schreibe in gehobenem, immersivem Stil ("Roman-Qualität"). Vermeide moderne Füllwörter.
-
-## 🎯 Aktueller Task: [TASK_NAME]
-Deine spezifische Aufgabe wird im nächsten Prompt detailliert beschrieben. Deine erste Amtshandlung nach diesem Kickoff ist die Bestätigung der Projekt-Awareness.
-
-**Bist du bereit, Archivar?**
+Der konkrete Arbeitsauftrag bestimmt Thema, Umfang, erlaubte Änderungen und Abnahmekriterien. Bereits autorisierte Arbeit fortsetzen; keine zusätzliche Bereitschaftsbestätigung als künstliche Freigabehürde einführen.

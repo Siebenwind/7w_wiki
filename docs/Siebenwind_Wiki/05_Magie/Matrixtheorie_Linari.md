@@ -12,7 +12,7 @@ letzter_check: 2026-02-16T18:45:00+01:00
 
 **Epistemischer Status:** #überlieferung (Technische Magietheorie)
 
-In den *Magietheoretischen Grundlagen zur Zauberwirkung* (oft kurz **Matrixtheorie**) vertieft [[Dunvallo_Linari]] sein Verständnis des [[Magietheorie_Linari#Thaumaturgisches_Gitter|Thaumaturgischen Gitters]].
+In den *Magietheoretischen Grundlagen zur Zauberwirkung* (oft kurz **Matrixtheorie**) vertieft [[Dunvallo_Linari]] sein Verständnis des [[Magietheorie_Linari#1-das-thaumaturgische-gitter|Thaumaturgischen Gitters]].
 
 ## 1. Das Konzept der Matrix
 Eine **Matrix** ist ein künstliches Gebilde aus arkaner Energie, das ein Magier vor dem eigentlichen Zauber in seinem [[Geist]] (oder im Äther) konstruiert. Sie dient als "Bauplan" für den Effekt.

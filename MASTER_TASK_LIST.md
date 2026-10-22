@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** DEGRADED; lokaler Modell-/Indexcache fehlt, direkte Quellenprüfung bleibt der aktive Fallback (`MSG-2026-0192`).
-- **Last Handover**: 2026-08-23 (Oberarchivar → Next Agent)
-- **Status**: Der Forumprozess umfasst 201 registrierte Themen: 101 Volltexte sind archiviert, 74 davon integriert, fünf ohne Wikiänderung abgeschlossen und 22 warten auf fachliche Sichtung; 100 Themen liegen erst als Metadaten vor. Der aktuelle Wiki-Snapshot umfasst 1.417 Artikel und 115 vollständig getrackte Ingestion-Berichte. Der Pages-Vollbau publiziert beide Zaehler vollstaendig und meldet bei sauberer Drift weiterhin `622` ungelöste beziehungsweise `620` nicht freigestellte Linkziele. Daneben bestehen `84` formal gueltige temporaere Bruecken mit ueberfaelligem Reviewdatum; der Handover und die naechsten Schritte stehen in `Logs/Archive/SESSION_MEMORY_2026-08-23_PAGES_AUDIT_UND_BRIDGE_RETIREMENT.md`.
+- **Last Handover**: 2026-10-21 (Leserrelease, technische Dokumentation und erneute Abnahme)
+- **Status**: Maßgeblich sind `./7w_wiki.py advisor --json` und `.agent/data/pages_health.json` mit Messdatum und Umfang. Leserzahlen kommen aus `./7w_wiki.py stats`; überfällige Brücken aus der gemeinsamen Lifecycle-Prüfung. Ein lokaler Vollbau bestätigt keine tatsächliche Veröffentlichung.
 
 ---
 
@@ -16,9 +16,11 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 - [x] **Zeitstrahl Structural Repair**: `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md` wurde von einem strukturell korrumpierten Mischdokument auf eine kompakte Chronik-Uebersicht mit Verweisen auf `Historie & Aeren` und `Zeitleiste (15-30 n.H.)` zurueckgefuehrt.
 
-- [ ] **Semantic Pages Backlog Triage**: Die aktuelle Pages-Validierung meldet `622` unresolved Targets, `620` unallowlisted, `609 needs_historian` und `5 generic_term_conflict`; nur das Strict-Link-Gate bleibt hart. `drift_status = PASS`, und `repair --apply-lane1 --dry-run --json` plant aktuell `0` sichere mechanische Dateiedits. Der naechste Agent soll die bestehenden Board-/Backlog-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) als Arbeitsgrundlage verwenden und die semantische Begriffsarbeit strikt von mechanischen Reparaturen trennen.
+- [ ] **Semantic Pages Backlog Triage**: Aktuelle Zahlen ausschließlich aus `.agent/data/pages_health.json` lesen; Berichtsalter beachten. Bestehende Board-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) verwenden. Semantische Begriffsarbeit bleibt getrennt von mechanischen Reparaturen.
 
-- [ ] **Bridge-Retirement statt Fristverlaengerung**: Der Audit zaehlt `84` temporaere Brueckenartikel; alle tragen noch `bridge_review_until: 2026-06-30`, gelten technisch aber als valide. In kleinen, semantisch eindeutigen Wellen sollen zuerst eingehende Links auf das kanonische `bridge_target` gehoben und danach die Bruecken entfernt werden. Unklare oder typveraendernde Ziele bleiben beim Historian/Coordinator; `MSG-2026-0240` klaert zusaetzlich, warum ueberfaellige Reviewdaten derzeit keinen Auditbefund erzeugen.
+- [ ] **Bridge-Retirement statt Fristverlängerung (`MSG-2026-0241`)**: Die 84 bekannten Brücken mit Reviewfrist 30. Juni werden nun als überfälliger Altbestand ausgewiesen. `MSG-2026-0240` ist technisch abgeschlossen; neue oder verschlechterte Fälle sperren die Abnahme. Eingehende Links zuerst auf belastbare kanonische Ziele heben, dann Brücken entfernen. Unklare Gleichsetzungen bleiben beim Historian/Coordinator.
+
+- [ ] **Verbleibende Leserabnahme**: Reale iOS-/Android-Geräte und ein echter Screenreader fehlen noch. Die 53 zunächst ungeprüften Dokumenteinträge wurden am 21. Oktober technisch abgeglichen und korrigiert; fachliche Lorefragen sind davon nicht freigegeben. Ergebnisse und Grenzen stehen in `System/READER_RELEASE_REVIEW_2026-09-12.md`.
 
 - [x] **Forum-Ingestion v2 Pilot**: Die Forum-Volltextarchivierung und agentische Verarbeitung sind als Runtime-Pfad umgesetzt. Zwei Pilotquellen sind integriert (`Ergon` als Update, `Orkisches Handelskontor` als Neuanlage), das Forumregister bleibt bei `201` Eintraegen mit `2 integrated`, und die Draft-Stilregel verhindert kuenftig OOC-Formulierungen im Artikelkoerper.
 
@@ -30,6 +32,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 - [x] **Forum-Historikerlauf – fünf Quellen (`MSG-2026-0229`)**: Die Topics `31020`, `48524`, `109905`, `107595` und `109867` wurden in der festgelegten Reihenfolge quellenkritisch integriert. Vier neue Leserartikel entstanden, zwölf bestehende Seiten wurden inhaltlich oder als Linkziel aktualisiert und der abgelaufene Brückenplatzhalter `Rasse Orken.md` wurde nach Linkhebung entfernt. Alle fünf Quellen stehen im Forumregister auf `integrated`; Details stehen in `Logs/Archive/SESSION_MEMORY_2026-08-05_HISTORIKERLAUF_31020_BIS_109867.md`.
 - [x] **Forum-Historikerlauf – fünf Quellen (`109571` bis `108788`)**: Die Topics `109571`, `109483`, `108944`, `109310` und `108788` wurden quellenkritisch integriert. Fuenf Erzaehlungsartikel, die neue Personenseite Volandurs und substanzielle Aktualisierungen an Maichellis, Akassvae, Huns, Brandenstein, Falkenwall und Claiomhs Wacht verbinden Perspektivtexte mit den Boten 132/133 und 191/193/194. Details stehen in `Logs/Archive/SESSION_MEMORY_2026-08-06_HISTORIKERLAUF_109571_BIS_108788.md`.
+- [x] **Forum-Ingestorlauf – fünf Quellen (`MSG-2026-0228`)**: Die Topics `106975`, `109430`, `109411`, `103341` und `99477` wurden in Registerreihenfolge quellenkritisch integriert. Maichellis, Ras Altanin, Erynnion und Celedelair erhielten belastbare Erweiterungen; `Thjareks Brecher` wurde als eigenständiges, durch Bote 190 bestätigtes Kriegsschiff erschlossen. Vier technische Laufzeitabweichungen sind an den Technician delegiert. Details stehen in `Logs/Archive/SESSION_MEMORY_2026-08-23_FORUM_FUENFERLAUF_106975_BIS_99477.md`.
 
 - [x] **Residual Bridge Decision Gate**: `MSG-2026-0089` ist abgeschlossen; `docs/Siebenwind_Wiki/00_Fundament/Arman_von_Draconis.md` verweist temporaer auf `[[Arman]]`, `bridge_inventory.invalid = 0`, und der fruehere P1-Blocker ist damit aus dem aktiven Fokus gefallen.
 
@@ -73,7 +76,7 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 - [x] **[MSG-2026-0034]** [P2][DEV] Workflow-Execute-Mode + Alias advisor: Integration von `--run` für start/takeover/handover und Alias-Normierung.
 - [x] **[MSG-2026-0040]** Test Suite Status: Tests in `/tmp` entkoppelt und JSON-Verträge etabliert.
 - [ ] **Massen-Ingestion**: Zwei offizielle Newsquellen stehen auf `pending`: `2025-10-30_Kuerbisschreck.md` und `2025-12-15_Ankuendigung_Dunkeltief.md`.
-- [ ] **Forum-Queue Batchweise verarbeiten**: Nach den Piloten weitere Forumquellen über `ingest forum-queue`, `forum-inspect`, `forum-draft` und `forum-finalize` bearbeiten. Aktueller Registerstand: `201` Themen, davon `101` volltextarchiviert, `74` integriert, `5` ohne Wikiänderung abgeschlossen, `22` Volltexte fachlich offen und `100` nur als Metadaten vorhanden. Das nächste Fünferpaket beginnt mit `106975` („Der alte Aktenschrank“), danach folgen `109430`, `109411`, `103341` und `99477`. Nächster zulässiger Metadatenkandidat bleibt Topic `108636` (`Pflicht`); Topic `104857` wird wegen seiner bestehenden Dublettenentscheidung korrekt übersprungen.
+- [ ] **Forum-Queue Batchweise verarbeiten**: Nach den Piloten weitere Forumquellen über `ingest forum-queue`, `forum-inspect`, `forum-draft` und `forum-finalize` bearbeiten. Aktueller Registerstand: `201` Themen, davon `101` volltextarchiviert, `79` integriert, `5` ohne Wikiänderung abgeschlossen, `17` Volltexte fachlich offen und `100` nur als Metadaten vorhanden. Das Paket `106975`, `109430`, `109411`, `103341` und `99477` ist abgeschlossen; der nächste Lauf muss seine Quellen erneut in der Reihenfolge des Forumregisters bestimmen. Nächster zulässiger Metadatenkandidat bleibt Topic `108636` (`Pflicht`); Topic `104857` wird wegen seiner bestehenden Dublettenentscheidung korrekt übersprungen.
 - [ ] **Lore Research Board**: Abarbeitung der offenen Ausschreibungen (Angamon, Ödland).
 
 ## 🔬 Aktuelle Lore-Ausschreibungen (Research Board)
@@ -107,6 +110,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ---
 
 ## 🗂️ Projekthistorie (neu → alt)
+
+- [x] **12. September 2026: Leserzugang und verlässlicher Betrieb**: Gemeinsame Pagefind-Suche, mobile Darstellung, Themenzugänge, Neuigkeiten und getrennte Betriebsdiagnose umgesetzt. Die ersten Leserwege wurden anhand von Homepage und Originalquellen korrigiert. `MSG-2026-0240` und `MSG-2026-0259` sind abgeschlossen; fünf alte Abschlussmeldungen wurden einzeln als INFO eingeordnet. Der veröffentlichte Commit wird separat über `pages verify-live` nachgewiesen.
 
 *Aktiver Drift-/Pages-Vertrag:* `System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md`
 

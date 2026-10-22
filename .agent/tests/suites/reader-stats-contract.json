@@ -27,7 +27,7 @@
           "file": ".agent/scripts/generate_wiki_stats.py",
           "must_include_regex": [
             "BEGIN GENERATED PUBLIC ACTIVITY",
-            "collect_latest_historian_activity",
+            "sync_reader_catalog",
             "sync_public_activity"
           ]
         },
@@ -36,9 +36,9 @@
           "must_include_regex": [
             "## Was geschieht\\?",
             "BEGIN GENERATED PUBLIC ACTIVITY",
-            "Implementierte Neuerungen",
-            "Erkenntnisgewinn",
-            "Offen geblieben"
+            "Neue Artikel",
+            "Lesetipps",
+            "Quellen"
           ]
         }
       ]
@@ -52,9 +52,9 @@
           "must_include_regex": [
             "## 🌍 Welt Heute",
             "## 🔄 Was sich bewegt",
-            "## ✅ Qualitaet & Vertrauen",
-            "## 🛠️ Werkstattstatus \\(Transparenz\\)",
-            "## 🔏 Drift & Provenance"
+            "## Quellenlage und offene Fragen",
+            "Metadatenabdeckung",
+            "kein Wahrheitsmaß"
           ]
         },
         {

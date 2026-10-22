@@ -3,22 +3,23 @@ title: "Siebenwind Wiki - Pantheon"
 category: Pantheon
 ---
 
-# [[Siebenwind]] Wiki - Pantheon
+# Siebenwind Wiki - Pantheon
 
-Indexseite fuer die Sektion Pantheon.
+<!-- BEGIN EDITORIAL -->
+Beginne mit [[Das_Pantheon|Das Pantheon]]. Einzelne Gottheiten wie [[Astrael]] und [[Bellum]] führen zu ihren Überlieferungen und ihrem Wirken.
+<!-- END EDITORIAL -->
 
 ## Inhalte
 
 ### Artikel
-* [[10_Angamon|10 Angamon]]
 * [[Aequilibrium|Aequilibrium]]
 * [[Aequitas|Aequitas]]
 * [[Angamon|Angamon]]
 * [[Astrael|Astrael]]
 * [[Bellum|Bellum]]
-* [[Brevier_Ordo_Belli|Brevier des [[Ordo_Belli]]]]
-* [[Brevier_Ordo_Morsanes|Brevier des [[Ordo_Morsanes]]]]
-* [[Brevier_Ordo_Vitamae|Brevier des [[Ordo_Vitamae]]]]
+* [[Brevier_Ordo_Belli|Brevier des Ordo_Belli]]
+* [[Brevier_Ordo_Morsanes|Brevier des Ordo_Morsanes]]
+* [[Brevier_Ordo_Vitamae|Brevier des Ordo_Vitamae]]
 * [[Brevier_des_Ordo_Astraeli|Brevier des Ordo Astraeli]]
 * [[Codex_Astraeli|Codex Astraeli]]
 * [[Codex_Iuris_Canonici|Codex Iuris Canonici]]
@@ -59,5 +60,5 @@ Indexseite fuer die Sektion Pantheon.
 * [[Ventus|Ventus]]
 * [[Vitama|Vitama]]
 * [[Von_dem_Boesen|Von dem Bösen]]
-* [[Von_den_Myten|Von den [[Myten]]]]
+* [[Von_den_Myten|Von den Myten]]
 * [[Xan|Xan]]

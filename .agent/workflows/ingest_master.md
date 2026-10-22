@@ -7,15 +7,14 @@ description: Universeller Master Workflow für Ingestion (Quellen -> Wiki)
 
 # Department: 🏛️ Lore-Archiv (/ingest_master)
 
-Dieser Workflow definiert den einzigen autorisierten Prozess, um rohes Wissen (HTML, DOCX, PDF, MD) aus dem `/Quellen/`-Verzeichnis in strukturierte Wiki-Artikel unter `docs/Siebenwind_Wiki/` zu ueberfuehren.
+Dieser Workflow beschreibt die Überführung von Originalmaterial aus `Quellen/` in Wikiartikel unter `docs/Siebenwind_Wiki/`. `docs/Quellen/` ist die Publikationsfläche der Quellen. Für Widersprüche gilt **Homepage > Quellen > Wiki Pages**, wie im [Drift-/Pages-Vertrag](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md) festgelegt.
 
-Er kombiniert Lese-, Verifikations- und Schreibprozesse (Read-Verify-Write) und garantiert, dass keine Entitäten übersehen werden.
+Er kombiniert Lesen, Quellenvergleich und Schreiben; das Entitätsmanifest macht den tatsächlichen Auswertungsumfang nachvollziehbar, garantiert aber keine vollständige Erfassung.
 
 ## Interop-Status
 - runtime_commands:
   - `7w_wiki.py advisor`
   - `7w_wiki.py search <query> --source wiki|quellen|all`
-  - `7w_wiki.py repair --check-collision "<Name>"`
   - `7w_wiki.py ingest <file>`
   - `7w_wiki.py ingest forum-queue --json`
   - `7w_wiki.py ingest forum-inspect --source <quellen-md> --json`
@@ -33,14 +32,10 @@ Er kombiniert Lese-, Verifikations- und Schreibprozesse (Read-Verify-Write) und 
 // turbo
 1. Öffne die [INVENTUR_QUELLEN.md](../../Logs/INVENTUR_QUELLEN.md) und wähle eine Datei mit Status "Pending".
    - Wenn du noch keine Quelle hast und gezielt neue Forenquellen finden musst, starte mit `/forum_search`.
-2. Bestimme die Epistemik (Wahrheitsgehalt):
-   - `/Quellen/Hintergrund/` -> `#canon` (🥇 Absolut)
-   - `/Quellen/Zeitung 7w Bote/` -> `#bote` (🥈 Hoch)
-   - `/Quellen/Bibliothek/` -> `#überlieferung` (🥉 Mittel)
-   - `/Quellen/Spielergeschichten/` -> `#perspektive` (Gering)
-3. Prüfe das `/System/Synapse_Board/` auf offene Konflikt- oder Historian-Faelle zum Thema.
+2. Bestimme Herkunft, Zeitstand und Perspektive. Hintergrundtexte, Boten, Bibliothekstexte und Spielergeschichten erhalten passende Herkunftstags; diese ersetzen nicht die Quellenpräzedenz oder den Abgleich einzelner Aussagen.
+3. Prüfe `System/Synapse_Board/` auf offene Konflikt- oder Historian-Fälle zum Thema.
 4. **Pre-Flight Check (Kollisionsprüfung):**
-   Führe `./7w_wiki.py repair --check-collision "Geplanter_Name"` aus, um Duplikate zu vermeiden.
+   Suche mit `./7w_wiki.py search "Geplanter_Name" --source wiki` nach bestehenden Artikeln und prüfe Titel, Aliasnamen und Zielkontext. Bei Oracle-Ausfall direkte Dateisuche und Quellenlektüre verwenden und den Ausfall dokumentieren. `repair --check-collision` ist nicht implementiert und darf nicht als ausgeführte Prüfung dokumentiert werden.
 
 ## 2. Ingestion: Der "Read-Verify-Write" Loop
 
@@ -118,7 +113,7 @@ Diese Pipeline erledigt derzeit:
 Wichtig: Ein dokumentierter `--move-to`-Automatismus ist aktuell nicht Runtime-real. Neue oder geaenderte Wiki-Artikel unter `docs/Siebenwind_Wiki/Zielordner` muessen nach dem Read-Verify-Write-Verfahren gezielt erstellt oder aktualisiert werden; die Quelle bleibt der nachvollziehbare Beleg, nicht automatisch kanonisierte Lore.
 
 ## 4. Abschluss & Register-Synchronisation
-Nach dem `--ingest`:
+Nach der Ingestion:
 1. **Register nachziehen**: Fuer Forumquellen erledigt `forum-finalize` das Quellenregister; fachliche Register wie `Personenregister.md` oder Organisationsseiten werden nur aktualisiert, wenn der neue Inhalt dies verlangt.
 2. **Logging [PFLICHT]**: Erstelle in `Logs/Ingestion/` einen Tracking-Report oder nutze den von `forum-draft --apply` erzeugten Report.
    - Trage Metadaten ein: `Auswertungs-ID`, `Ausgewertet von`, `Auswertungszeitpunkt`.

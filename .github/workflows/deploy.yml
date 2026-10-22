@@ -29,13 +29,12 @@ jobs:
       - name: Configure Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.12"
 
       - name: Install dependencies
         run: |
-          cat requirements.txt
-          cat mkdocs.yml
-          pip install -r requirements.txt
+          ./7w_wiki.py pages setup --browsers
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       - name: Physical Sync (Quellen → docs/)
         run: |
@@ -53,6 +52,12 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Reader browser acceptance
+        run: ./7w_wiki.py test --suite reader-browser
+
+      - name: Rendered internal links
+        run: ./7w_wiki.py test --suite reader-rendered-links
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -68,3 +73,13 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify delivered build identity
+        env:
+          EXPECTED_COMMIT: ${{ github.sha }}
+          PUBLIC_URL: ${{ steps.deployment.outputs.page_url }}
+        run: ./7w_wiki.py pages verify-live --url "$PUBLIC_URL" --commit "$EXPECTED_COMMIT"

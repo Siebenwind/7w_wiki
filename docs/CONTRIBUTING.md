@@ -6,13 +6,15 @@ Dieses Wiki ist ein Gemeinschaftsprojekt. Wir nutzen die Infrastruktur von GitHu
 
 Wir folgen dem **Git-Flow** Prinzip für Wissensdatenbanken:
 
-1.  **Issues**: Melde Fehler, Wiedersprüche oder Lücken über unsere [Issue-Templates](https://github.com/Siebenwind/7w_wiki/issues).
+1.  **Issues**: Melde Fehler, Widersprüche oder Lücken über unsere [Issue-Templates](https://github.com/Siebenwind/7w_wiki/issues).
 2.  **Pull Requests (PRs)**: 
     - Forke das Repository.
     - Erstelle einen Feature-Branch für deine Änderungen.
-    - Nutze den `/audit` Befehl lokal, um sicherzustellen, dass keine Links gebrochen sind.
+    - Prüfe lokal mit `./7w_wiki.py audit`. Für veröffentlichte Seiten gehören Pages-Validierung und Browser-Abnahme dazu; siehe [Betrieb der Leserseiten](Agenten/leserseiten.md).
     - Reiche den PR ein. Ein Agent oder Administrator wird die Änderungen prüfen.
-3.  **Review**: Alle Änderungen werden gegen den `#canon` geprüft. Widersprüche werden im `Synapse Board` diskutiert.
+3.  **Review**: Bei Widersprüchen gilt Homepage > Quellen > Wiki Pages. Ein Tag allein ist kein Prüfnachweis. Ungeklärte Aussagen bleiben gekennzeichnet.
+
+Du brauchst keine Entwicklungsumgebung, um einen Fehler zu melden. Unter jedem Artikel führt **Fehler melden** zu einem Formular mit der Artikeladresse. Beschreibe die Beobachtung und füge nach Möglichkeit eine Quelle hinzu.
 
 ## ⚖️ Lizenzen & Rechte
 

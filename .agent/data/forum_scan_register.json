@@ -1198,7 +1198,14 @@
       ],
       "post_count": 20,
       "fulltext_archived_at": "2026-08-04T17:10:07Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Maichellis_Wanderstern.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-23_Forum_der_alte_aktenschrank.md",
+      "integrated_at": "2026-08-23T21:05:15Z"
     },
     {
       "board": "geschichten",
@@ -1217,7 +1224,14 @@
       ],
       "post_count": 3,
       "fulltext_archived_at": "2026-08-04T17:10:07Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/00_Fundament/Ras_Altanin.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-23_Forum_mitmachthread_vom_wuestenwinde_verweht.md",
+      "integrated_at": "2026-08-23T21:05:19Z"
     },
     {
       "board": "geschichten",
@@ -1236,7 +1250,14 @@
       ],
       "post_count": 3,
       "fulltext_archived_at": "2026-08-04T17:10:08Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Erynnion_Comari.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-23_Forum_von_gruenen_fluegeln_und_wuetenden_zwergen.md",
+      "integrated_at": "2026-08-23T21:05:24Z"
     },
     {
       "board": "geschichten",
@@ -1264,7 +1285,14 @@
       ],
       "post_count": 292,
       "fulltext_archived_at": "2026-08-04T17:10:17Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "human_escalation_required": false,
+      "integrated_target": "docs/Siebenwind_Wiki/07_Persoenlichkeiten/Celedelair.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-23_Forum_ein_gewoehnlicher_diener_der_viere.md",
+      "integrated_at": "2026-08-23T21:05:29Z"
     },
     {
       "board": "geschichten",
@@ -1283,7 +1311,14 @@
       ],
       "post_count": 20,
       "fulltext_archived_at": "2026-08-04T17:10:17Z",
-      "last_error": null
+      "last_error": null,
+      "review_status": "integrated",
+      "integration_status": "integrated",
+      "review_owner": "Codex / Scanner + Historian + Wiki-Schmied",
+      "integrated_target": "docs/Siebenwind_Wiki/05_Geschichte/Thjareks_Brecher.md",
+      "ingestion_report": "Logs/Ingestion/2026-08-23_Forum_kriegsschiff_thjareks_brecher.md",
+      "human_escalation_required": false,
+      "integrated_at": "2026-08-23T21:05:34Z"
     },
     {
       "board": "geschichten",

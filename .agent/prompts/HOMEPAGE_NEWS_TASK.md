@@ -16,10 +16,11 @@ Du bist als **Netz-Wächter** beauftragt, das vollständige News-Archiv der Sieb
     - Unterscheide zwischen **IC-Lore** (Geschichten aus dem Shard) und **OOC-News** (Patches, Server-Updates).
 3.  **Speicherung**:
     - Erstelle für jeden Eintrag eine Datei in `Quellen/News/YYYY-MM-DD_Titel.md`.
-    - Nutze die standardisierte YAML-Frontmatter (layout, title, author, date, source).
+    - Nutze Metadaten für Titel, vorhandenen Autor, Datum, Quell-URL und Abrufnachweis; kein Legacy-`layout`. `docs/Quellen/` ist die Publikationsfläche des Quellenarchivs.
 4.  **Chronik-Update**:
-    - Füge technische Meilensteine (Patches, Team-News) chronologisch in die `04_Chronik/OOC_TIMELINE.md` ein.
+    - Füge belegte technische Meilensteine chronologisch in `docs/Siebenwind_Wiki/04_Chronik/OOC_TIMELINE.md` ein.
     - Achte darauf, keine Duplikate zu bereits vorhandenen Einträgen zu erstellen.
+5.  **Integration und Abschluss**: Archivierung ist keine automatische fachliche Integration. Übergebe IC-Material an den Ingestionsworkflow; es gilt **Homepage > Quellen > Wiki Pages**. Prüfbericht, bearbeitete Quellen, Zielartikel und offene Fragen über `mail done` oder `mail post` nachweisen.
 
 ## 🚀 Spezifischer Auftrag (Kickoff)
 Durchsuche die Homepage nach allen News-Artikeln ab dem Jahr 2010. Priorisiere technische Patchnotes und große Lore-Ankündigungen wie "Dunkeltief".

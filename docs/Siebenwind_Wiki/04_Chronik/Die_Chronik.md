@@ -42,4 +42,4 @@ Ereignisberichte und Erzählungen (Spielergeschichten):
 *   [[Das_Ende_der_Zeit_der_Koenige]] (Verschwörung / [[Ring_des_Argionemes]])
 
 ---
-*   [Zeitungsarchiv](../../Quellen/Zeitung%207w%20Bote/) - (Rohdaten des [[Siebenwind]] Boten)
+*   [Zeitungsarchiv durchsuchen](../../suche.md?q=Siebenwind%20Bote&bereich=quellen) - (Rohdaten des [[Siebenwind]] Boten)

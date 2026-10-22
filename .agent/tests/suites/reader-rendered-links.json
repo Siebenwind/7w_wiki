@@ -1,0 +1,1 @@
+{"description":"Inspect every emitted internal HTML href", "cases":[{"id":"reader-html-links","name":"Rendered HTML links including cards","reader_links":true}]}

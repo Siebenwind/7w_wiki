@@ -32,6 +32,6 @@ Anhänger des Elementaren Pfades, die sich Ignis verschreiben, können Feuerbäl
 - **[[Ventus]] (Luft):** Oft verbündet, da Luft das Feuer nährt.
 
 ## Verwandte Themen
-- [[01_Pantheon/index|Religion Übersicht]]
+- [[Religion_Übersicht|Religion Übersicht]]
 - [[Magie_Grundlagen]]
 - [[Bellum]] - Ignis respektiert die Schmiedekunst Bellums.

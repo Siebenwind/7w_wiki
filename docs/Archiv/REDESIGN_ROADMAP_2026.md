@@ -6,6 +6,8 @@ category: Archiv
 
 # Redesign Roadmap 2026
 
+> Historischer Planungsstand, zuletzt August 2026. Die damaligen Erfüllungsbehauptungen zur Mobilansicht wurden durch die Browserprüfung im September nicht bestätigt. Aktuelle Umsetzung und Abnahme: [Betrieb der Leserseiten](../Agenten/leserseiten.md). Dieser Bericht ist keine aktive Betriebsanleitung.
+
 ## Zielbild
 
 - Leserfokus: 85%
@@ -40,7 +42,7 @@ category: Archiv
 
 ## Phase 5 - Kontinuierliche Verbesserung
 
-- Messpunkte: Aufrufzahlen der Einstiegsseiten, Suchnutzung, Sprungraten.
+- Messpunkte des damaligen Plans: Aufrufzahlen, Suchnutzung, Sprungraten. Für die Umsetzung im September wird keine Besucherüberwachung eingerichtet; die Prüfung erfolgt mit reproduzierbaren Such- und Darstellungsfällen.
 - Quartalsweises UX-Review mit konkreten Anpassungsbeschluessen.
 - Dispatch-Loop fuer offene Design-, Lore- und Forschungsfragen.
 

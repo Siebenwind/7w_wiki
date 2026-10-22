@@ -2,6 +2,8 @@
 
 Agent-zu-Agent Kommunikation laeuft ueber `mail` und den Statusfluss `OPEN -> CLAIMED -> DONE`.
 
+`TASK` ist der Standard für einen Auftrag mit Folgeaktion. `INFO` dokumentiert eine reine Mitteilung und wird unmittelbar als abgeschlossen geführt. `./7w_wiki.py mail inbox --kind TASK --status OPEN --json` zeigt die Arbeitswarteschlange. Bestehende Nachrichten werden einzeln mit Nachweis über `mail classify` eingeordnet; unklare oder noch offene Folgeaktionen bleiben Aufträge.
+
 ## Standardablauf
 
 ```bash
