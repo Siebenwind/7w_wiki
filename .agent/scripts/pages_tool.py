@@ -6,6 +6,8 @@ import shutil
 import subprocess
 import sys
 import time
+import functools
+import http.server
 
 from pages_integrity import (
     collect_pages_build_report,
@@ -319,6 +321,13 @@ def main():
     subparsers = parser.add_subparsers(dest="subcommand", required=True)
 
     status_parser = subparsers.add_parser("status", help="Show build prerequisites")
+    setup_parser = subparsers.add_parser("setup", help="Install pinned Pages dependencies")
+    setup_parser.add_argument("--browsers", action="store_true")
+    live_parser = subparsers.add_parser("verify-live", help="Compare deployed build identity with the expected commit")
+    live_parser.add_argument("--url", default="https://siebenwind.github.io/7w_wiki/")
+    live_parser.add_argument("--commit", required=True)
+    serve_parser = subparsers.add_parser("serve", help="Serve built site at the publication subpath")
+    serve_parser.add_argument("--port", type=int, default=8765)
     status_parser.add_argument("--config", default="mkdocs.yml", help="mkdocs config path")
 
     build_parser = subparsers.add_parser("build", help="Run mkdocs build")
@@ -342,6 +351,45 @@ def main():
     validate_parser.add_argument("--config", default="mkdocs.yml", help="mkdocs config path")
 
     args = parser.parse_args()
+
+    if args.subcommand == "verify-live":
+        from urllib.request import urlopen, Request
+        from urllib.parse import urljoin
+        url = urljoin(args.url.rstrip('/')+'/', 'build-info.json')
+        report = {'scope':'actually delivered build manifest','url':url,'expected_commit':args.commit,'deployment_verified':False}
+        try:
+            from urllib.parse import urlencode
+            with urlopen(Request(url+'?'+urlencode({'commit':args.commit}),headers={'Cache-Control':'no-cache'}),timeout=30) as response:
+                observed=json.load(response)
+            report['observed']=observed
+            report['deployment_verified']=observed.get('commit')==args.commit and observed.get('search')=='PASS'
+        except Exception as error:
+            report['error']=str(error)
+        report['status']='PASS' if report['deployment_verified'] else 'FAIL'
+        print(json.dumps(report,ensure_ascii=False,indent=2))
+        sys.exit(0 if report['deployment_verified'] else 1)
+
+    if args.subcommand == "setup":
+        python = os.path.join(REPO_ROOT, ".venv", "bin", "python")
+        if not os.path.exists(python):
+            subprocess.run([sys.executable, "-m", "venv", os.path.join(REPO_ROOT, ".venv")], check=True)
+        subprocess.run([python, "-m", "pip", "install", "-r", "requirements.txt"], cwd=REPO_ROOT, check=True)
+        if args.browsers:
+            subprocess.run([python, "-m", "pip", "install", "-r", "requirements-browser.txt"], cwd=REPO_ROOT, check=True)
+            subprocess.run([python, "-m", "playwright", "install", *(["--with-deps"] if sys.platform == "linux" else []), "chromium", "firefox", "webkit"], check=True)
+        return
+    if args.subcommand == "serve":
+        class Handler(http.server.SimpleHTTPRequestHandler):
+            def translate_path(self, path):
+                from urllib.parse import urlsplit
+                path = urlsplit(path).path
+                if path.startswith("/7w_wiki/"):
+                    path = path[len("/7w_wiki"):]
+                return super().translate_path(path)
+        handler = functools.partial(Handler, directory=os.path.join(REPO_ROOT, "site"))
+        print(f"http://127.0.0.1:{args.port}/7w_wiki/", flush=True)
+        http.server.ThreadingHTTPServer(("127.0.0.1", args.port), handler).serve_forever()
+        return
 
     if args.subcommand == "status":
         sys.exit(cmd_status(args))

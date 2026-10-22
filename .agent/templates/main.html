@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block header %}
+{{ super() }}
+<div class="sw-search-bar" data-sw-root="{{ base_url }}/">
+  <form class="sw-search-form" action="{{ 'suche/' | url }}" role="search" aria-label="Wiki durchsuchen">
+    <label class="sw-visually-hidden" for="sw-query">Suchbegriff</label>
+    <input id="sw-query" name="q" type="search" placeholder="Die Welt durchsuchen …" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="sw-suggestions" aria-autocomplete="list">
+    <input type="hidden" name="bereich" value="wiki">
+    <button type="submit">Suchen</button>
+  </form>
+  <div class="sw-suggest-panel" hidden>
+    <p class="sw-search-status" role="status" aria-live="polite"></p>
+    <ul id="sw-suggestions" role="listbox" aria-label="Suchvorschläge"></ul>
+    <a class="sw-all-results" href="{{ 'suche/' | url }}">Alle Ergebnisse anzeigen</a>
+  </div>
+</div>
+{% endblock %}
+{% block footer %}
+<footer class="sw-footer">
+  <a href="{{ 'CONTRIBUTING/' | url }}">Mitwirken und Fehler melden</a>
+  <a href="{{ 'Agenten/' | url }}">Betrieb und Technik</a>
+  <a href="{{ 'Siebenwind_Wiki/10_Archiv/Wiki_Statistiken/' | url }}">Über das Archiv</a>
+  <p>Erstellt {{ config.extra.reader_build.date }} · Stand {{ config.extra.reader_build.commit }}{% if config.extra.reader_build.dirty %} (beim Bau aktualisierte Dateien){% endif %}</p>
+</footer>
+{{ super() }}
+{% endblock %}

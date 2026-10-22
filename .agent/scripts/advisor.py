@@ -345,6 +345,8 @@ def get_dispatch_status():
             continue
 
         status = meta.get("status", "").upper()
+        if meta.get("kind", "TASK") == "INFO":
+            continue
         if status in counts:
             counts[status] += 1
         else:
@@ -506,6 +508,7 @@ def recommend_action(phase, task, pending_sources, issues, dispatch_counts, top_
 
 def collect_advisor_data():
     """Sammelt alle Advisor-Daten in einem Dictionary."""
+    from reader_health import snapshot_health, bridge_lifecycle
     prio_counts, first_p1_task = get_priority_overview()
     last_change = get_last_changelog_entry()
     phase, next_task = get_next_task()
@@ -536,6 +539,7 @@ def collect_advisor_data():
 
     return {
         "priorities": prio_counts,
+        "reader_health": {"pages_snapshot": snapshot_health(), "bridge_lifecycle": bridge_lifecycle()},
         "first_p1_task": first_p1_task,
         "last_change": last_change,
         "current_phase": phase,

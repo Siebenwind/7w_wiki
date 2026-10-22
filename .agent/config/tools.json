@@ -332,6 +332,63 @@
   {
     "type": "function",
     "function": {
+      "name": "cli_pages_setup",
+      "description": "Build, validate, and inspect GitHub Pages documentation and backlog health. (setup). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "browsers": {
+            "type": "boolean",
+            "description": "Also install browser test dependencies and engines"
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_pages_serve",
+      "description": "Build, validate, and inspect GitHub Pages documentation and backlog health. (serve). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "port": {
+            "type": "integer",
+            "description": ""
+          }
+        },
+        "required": []
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_pages_verify_live",
+      "description": "Build, validate, and inspect GitHub Pages documentation and backlog health. (verify-live). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "description": ""
+          },
+          "commit": {
+            "type": "string",
+            "description": ""
+          }
+        },
+        "required": [
+          "commit"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
       "name": "cli_pages_build",
       "description": "Build, validate, and inspect GitHub Pages documentation and backlog health. (build). Structured subcommand interface.",
       "parameters": {
@@ -449,6 +506,9 @@
             "description": "Deprecated compatibility alias. Prefer the structured `cli_pages_*` tools.",
             "enum": [
               "status",
+              "setup",
+              "serve",
+              "verify-live",
               "build",
               "validate",
               "backlog"
@@ -795,6 +855,14 @@
             "type": "string",
             "description": ""
           },
+          "kind": {
+            "type": "string",
+            "description": "",
+            "enum": [
+              "TASK",
+              "INFO"
+            ]
+          },
           "priority": {
             "type": "string",
             "description": "",
@@ -825,6 +893,14 @@
           "agent": {
             "type": "string",
             "description": ""
+          },
+          "kind": {
+            "type": "string",
+            "description": "",
+            "enum": [
+              "TASK",
+              "INFO"
+            ]
           },
           "status": {
             "type": "string",
@@ -915,6 +991,44 @@
         "required": [
           "id",
           "agent"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cli_mail_classify",
+      "description": "Interact with the dispatch system using structured subcommands. (classify). Structured subcommand interface.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": ""
+          },
+          "kind": {
+            "type": "string",
+            "description": "",
+            "enum": [
+              "TASK",
+              "INFO"
+            ]
+          },
+          "agent": {
+            "type": "string",
+            "description": ""
+          },
+          "note": {
+            "type": "string",
+            "description": ""
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "agent",
+          "note"
         ]
       }
     }

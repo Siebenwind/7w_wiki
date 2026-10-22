@@ -12,7 +12,9 @@ report_id: ee733487-beef-4ae0-9adf-f82734264f11
 
 **Epistemischer Status:** #bote / #forum / #perspektive
 
-**Brandenstein** ist die aufstrebende, junge Hauptstadt der Insel [[Siebenwind]]. Gegründet inmitten einer ehemals ungezähmten Waldlandschaft, markiert die Siedlung den unbändigen Willen der Siedler, sich gegen die Schatten der Wildnis zu behaupten. Überall prägt das rhythmische Geräusch von Äxten und das Kreischen der Sägemühlen die Atmosphäre, während der Geruch von frisch geschlagenem Harz und nasser Erde in den Straßen hängt.
+**Brandenstein** ist eine Hafenstadt im Westen der Insel [[Siebenwind]]. Der offizielle Atlas beschreibt sie als älteste noch bestehende Stadt der Insel. Ihr Tiefseehafen verbindet Siebenwind mit dem Festland; Landwirtschaft, Handwerk und die wechselvolle Geschichte prägen den Ort.
+
+Die folgenden Abschnitte sammeln Belege aus unterschiedlichen Zeiten. Historische Einrichtungen, Amtsträger und einzelne Erzählungen beschreiben nicht automatisch den heutigen Zustand.
 
 ## Bergbau & Handwerk
 Die wirtschaftliche Grundlage der Stadt bildet der reiche Bergbau. In den nordöstlichen Minen werden hochwertige Erze wie Eisen und Quarz gefördert. 
@@ -32,7 +34,7 @@ Die wirtschaftliche Grundlage der Stadt bildet der reiche Bergbau. In den nordö
 - **7. Seker 12 n.H.**: Schwerer Angriff der "Anhänger des Einen" auf die Stadt. Unter Einsatz von zwei mächtigen [[Daemonen]] ([[Drachen]]-Niveau) wird die Verteidigung fast überrannt. Nur durch ein plötzliches Aufreißen der Wolkendecke und das Verschwinden der [[Daemonen]] wird die totale Vernichtung abgewendet.
 
 ### Die Zeit der Dunkelheit (um 14 n.H.)
-Brandenstein diente als letzte Bastion während der Krise um den [[Finsterwangen|Sphärenriss]]. In der Krypta wurde ein machtvoller Diamant-Artefakt mit hochkomprimierter Matrix geborgen, der heute im Turm der [[Custos_artis_Magicae]] die Stadt mit einer Schutzwellen-Matrix schirmt.
+Die magietheoretische Überlieferung beschreibt Brandenstein als letzte Bastion während der Krise um den [[Finsterwangen|Sphärenriss]]. Sie berichtet von einem in der Krypta geborgenen Diamant-Artefakt und einer Schutzmatrix im Turm der [[Custos_artis_Magicae]]. Ob dieser Schutz bis in die Gegenwart fortbesteht, ist hier **[UNGEKLÄRT]**.
 
 ### Das Elfenviertel (27–29 n.H.)
 
@@ -74,6 +76,8 @@ Urheber, Anlass und Wirkung werden nicht genannt. Der Vorgang belegt daher eine 
 - [[Dunkeltief_29_nH]]
 
 ## Referenzen
+
+- Einleitung: [Offizielle Ortsbeschreibung Brandenstein](https://www.siebenwind.de/hintergrund/atlas/die-insel-siebenwind/orte-auf-siebenwind/), geprüft am 12. September 2026.
 
 - Kanonische Chronikquelle: `../../Quellen/Zeitung 7w Bote/Siebenwind Bote 188.md`
 - Perspektivquelle zur Gründung: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_mitmachthread_elfensiedlung_in_brandenstein.md`

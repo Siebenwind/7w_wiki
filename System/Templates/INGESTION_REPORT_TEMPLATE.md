@@ -17,7 +17,7 @@
 | Kriterium | Score (0-5) | Notiz |
 |---|---|---|
 | **A: Abdeckung** | 0 | Vollständigkeit der Entitäts-Extraktion |
-| **T: Tiefe** | 0 | Motivation, Atmosphäre, Kausalität |
+| **T: Tiefe** | 0 | Quellenbelegte Zusammenhänge, Motivation und Kausalität; keine erfundene Atmosphäre |
 | **K: Kanon-Konsistenz** | 0 | Widerspruchsfreiheit zum Bestandskanon |
 | **B: Belegqualität** | 0 | Präzision und Nachvollziehbarkeit der Quellenbezüge |
 | **U: Unsicherheitsdisziplin** | 0 | Offene Punkte sauber als `[UNGEKLÄRT]` / Frage markiert |
@@ -25,6 +25,8 @@
 | **Gesamt (LQS 0-10)** | **0.0/10** | `round(Rohscore * 10 / 25, 1)` |
 
 > Bewertungsregel: Nur mit Notiz je Kriterium bewerten. Bei fehlender Evidenz max. `2`.
+
+> LQS beschreibt die dokumentierte Bearbeitung. Es ist weder ein Wahrheitsmaß noch eine redaktionelle Freigabe des Artikels. Quellenpräzedenz und Unsicherheiten bleiben unabhängig vom Score erhalten.
 
 ## 📋 Extraktions-Ergebnisse
 

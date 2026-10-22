@@ -1,5 +1,36 @@
 # Changelog
 
+#### [2026-10-22.01] - Leserrelease abschließen und Karamir berichtigen
+### Prioritaet: P1
+### Behoben
+- Die erneute Einstiegsprüfung fand im Karamir-Artikel eine unbelegte Begleiterbiografie. Der Artikel beschreibt jetzt die in Bote 123 erzählte Rolle als Schöpfer der Bestie, seine Reue und den anschließenden Dienst im Vitamaorden. Veröffentlichungsdatum und Zeit der Erzählung bleiben getrennt.
+- Arman verlinkt die korrigierte Figurenbeschreibung; die redaktionelle Nachprüfung bestätigte beide Artikel.
+### Abschluss
+- Auf ausdrücklichen Nutzerwunsch vom 22. Oktober erfolgen Commit, Push und Merge ohne weitere Testläufe. Die letzten Änderungen am Clean-Checkout-Fallback und an Karamir wurden nicht erneut durch die vollständige Testsuite geprüft; vorhandene frühere Nachweise und offene Geräteprüfungen bleiben im Übergabebericht getrennt ausgewiesen.
+
+#### [2026-10-21.01] - Leserrelease abschließen und aktive Anleitungen berichtigen
+### Prioritaet: P1
+### Geändert
+- Der noch unveröffentlichte Leserrelease vom September wird am aktuellen Stand erneut abgenommen. Artikelkontext verlinkt auflösbare Originalquellen; der Live-Vergleich umgeht alte zwischengespeicherte Buildmanifeste.
+- Alle 53 bislang ungeprüften Dokumenteinträge wurden einzeln mit CLI und Implementierung abgeglichen. Aktive Style-, Ingestions-, Scout-, Auskunfts- und Score-Anleitungen sind berichtigt; historische Hypothesen und Kickoff-Anweisungen klar abgegrenzt. Laufende Aufgaben- und Forschungsregister bleiben aktiv.
+- `repair --check-collision` wird nicht mehr als verfügbarer Befehl verlangt. `score` ist ausdrücklich als mutierende Metadatenheuristik dokumentiert. Ausschmückung, Tags und LQS erzeugen keine Quellenbestätigung.
+- Historische Changelog-Aufrufe mit `search --fast` sind alte Laufnotizen und keine aktuelle Anleitung: Der heutige Search-Adapter besitzt diese Option nicht. Frühere Einträge bleiben als historische Evidenz erhalten.
+- Ein frischer Checkout ohne lokalen Pages-Snapshot erzeugt vollständig gekennzeichnete unbekannte Messwerte statt eines Statistikabbruchs oder scheinbarer Nullfehler. Der Fall ist als Regression abgesichert.
+
+#### [2026-09-12.01] - Leserzugang, statische Suche und redaktionelle Einstiege
+### Prioritaet: P1
+### Hinzugefügt
+- Pagefind versorgt Suchvorschläge und vollständige Ergebnisse mit gemeinsamen Bereichsfiltern, Titel-/Aliasrangfolge und kanonischer Zusammenführung. Der Suchindex und gerenderte interne Verweise werden vor der Veröffentlichung geprüft.
+- Leserstart, Welt entdecken, Themen A–Z und strukturierte Neuigkeiten erschließen das Archiv. Betriebsdiagnose und Dokumentationsinventar sind von den Leserstatistiken getrennt; Bauzeit und Commitkennung machen Veröffentlichungen nachprüfbar.
+### Behoben
+- Mobile Suchflächen, Dunkelmodus, Tastaturzugang und Scrolltabellen wurden repariert. Redaktionelle Abschnitte bleiben bei der Indexerzeugung erhalten; Brücken verdrängen keine regulären Artikel in Such- oder Kategorielisten.
+- Die ersten Leserwege trennen aktuelle und historische Ortszustände, insbesondere Falkensee als Ruinenstadt. Quellenabgleiche korrigieren Brandenstein, Pantheon, Bellum, Zeitrechnung und die Verwechslung von Arman und Karamir.
+- MSG-2026-0240 und MSG-2026-0259 sind technisch abgeschlossen: Brückenfristen erscheinen als eigene Befunde, Statuszahlen verwenden dieselbe datierte Snapshotquelle. Fünf nachweislich abgeschlossene Meldungen wurden einzeln als Information eingeordnet.
+### Validiert
+- 33 Standardsuiten und der vollständige Pages-Smoke-Test bestanden; die Browserprüfung bestand 39 Fälle in Chromium, Firefox und WebKit bei fünf Breiten und beiden Farbschemata.
+- Die vollständige Pages-Validierung baut erfolgreich; der bekannte Linkaltbestand bleibt bei 621 ungelösten und 619 nicht freigestellten Zielen sichtbar. 84 überfällige Brücken bleiben ausdrücklich Altbestand.
+- Redaktioneller Umfang, Dokumentationsinventar und Abnahmegrenzen stehen in `System/READER_RELEASE_REVIEW_2026-09-12.md`. Reale Mobilgeräte, echte Screenreader und die verbleibende Bestandsredaktion sind noch offen. Der Live-Nachweis folgt dem veröffentlichten Commit über `pages verify-live`.
+
 #### [2026-09-02.01] - Forum-Fuenferlauf kanonisch uebergeben
 ### Prioritaet: P2
 ### Geaendert

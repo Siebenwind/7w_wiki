@@ -34,9 +34,14 @@
           "must_include_regex": [
             "@import url\\(\"\\./themes/base\\.css\"\\)",
             "@import url\\(\"\\./themes/material\\.css\"\\)",
-            "\\.md-typeset__table[\\s\\S]*overflow-x: auto",
             "\\.activity-grid",
             "min-height: 44px"
+          ]
+        },
+        {
+          "file": "docs/assets/themes/material.css",
+          "must_include_regex": [
+            "\\.md-typeset__table[\\s\\S]*overflow-x: auto"
           ]
         }
       ]

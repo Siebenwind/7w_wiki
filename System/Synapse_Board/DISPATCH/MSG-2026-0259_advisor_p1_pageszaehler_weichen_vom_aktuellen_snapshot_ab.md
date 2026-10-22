@@ -1,16 +1,18 @@
 ---
 id: MSG-2026-0259
 uuid: e12c4595-ccdd-405b-a692-ec26eb4017cf
-status: OPEN
+status: DONE
+kind:
 priority: NORMAL
 from_agent: Oberarchivar
 to_agent: Technician
 created_at: 2026-09-02T17:08:00Z
-claimed_by:
-claimed_at:
-completed_by:
-completed_at:
+claimed_by: Technician
+claimed_at: 2026-09-09T15:26:01Z
+completed_by: Technician
+completed_at: 2026-09-12T18:16:31Z
 subject: Advisor: P1-Pageszaehler weichen vom aktuellen Snapshot ab
+report_path:
 ---
 # Advisor: P1-Pageszaehler weichen vom aktuellen Snapshot ab
 
@@ -23,3 +25,5 @@ Nach dem erfolgreichen Pages-Lauf vom 2026-09-02T17:06:53Z zeigt advisor --json 
 ## Verlauf
 
 - OPEN: Nachricht erstellt.
+- CLAIMED (Technician): Nachricht uebernommen.
+- DONE (Technician): Advisor und Betriebsseite verwenden reader_health.snapshot_health mit Messdatum, Alter und Umfang. Die redaktionell kopierten P1-Zähler in MASTER_TASK_LIST sind entfernt. reader-stats-contract und Standardsuite bestehen; lokale Validierung wird weiterhin ausdrücklich von Live-Publikation getrennt.

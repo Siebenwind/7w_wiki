@@ -76,6 +76,7 @@ def render_frontmatter(meta: dict[str, str], body: str) -> str:
         "id",
         "uuid",
         "status",
+        "kind",
         "priority",
         "from_agent",
         "to_agent",
@@ -85,8 +86,9 @@ def render_frontmatter(meta: dict[str, str], body: str) -> str:
         "completed_by",
         "completed_at",
         "subject",
+        "report_path",
     ]:
-        lines.append(f"{key}: {meta.get(key, '')}")
+        lines.append(f"{key}: {meta.get(key, '')}".rstrip())
     lines.append("---")
     lines.append("")
     return "\n".join(lines) + body
@@ -198,7 +200,8 @@ def cmd_post(args: argparse.Namespace) -> int:
             meta = {
                 "id": msg_id,
                 "uuid": str(uuid.uuid4()),
-                "status": "OPEN",
+                "status": "DONE" if args.kind == "INFO" else "OPEN",
+                "kind": args.kind,
                 "priority": args.priority.upper(),
                 "from_agent": args.from_agent,
                 "to_agent": args.to_agent,
@@ -220,13 +223,13 @@ def cmd_post(args: argparse.Namespace) -> int:
                 [
                     f"# {args.subject}",
                     "",
-                    "## Auftrag",
+                    "## Information" if args.kind == "INFO" else "## Auftrag",
                     "",
                     final_body,
                     "",
                     "## Verlauf",
                     "",
-                    "- OPEN: Nachricht erstellt.",
+                    "- INFO: Dokumentiert, keine Folgeaktion." if args.kind == "INFO" else "- OPEN: Nachricht erstellt.",
                     "",
                 ]
             )
@@ -250,6 +253,9 @@ def cmd_inbox(args: argparse.Namespace) -> int:
         meta, _ = parse_frontmatter(raw)
         to_agent = meta.get("to_agent", "")
         status = meta.get("status", "")
+        meta.setdefault("kind", "TASK")
+        if args.kind and meta["kind"] != args.kind:
+            continue
         if args.agent and args.agent.lower() not in {to_agent.lower(), "all"}:
             continue
         if args.status and status != args.status:
@@ -368,6 +374,17 @@ def cmd_claim(args: argparse.Namespace) -> int:
     return _mutate_status(args.id, update)
 
 
+def cmd_classify(args: argparse.Namespace) -> int:
+    def update(meta, body):
+        if meta.get("status") == "CLAIMED" and meta.get("claimed_by") != args.agent:
+            raise ValueError("Klassifikation nur durch den Bearbeiter einer übernommenen Nachricht.")
+        meta["kind"] = args.kind
+        if args.kind == "INFO":
+            meta.update(status="DONE", completed_by=args.agent, completed_at=now_iso())
+        return append_verlauf(body, f"CLASSIFY {args.kind} ({args.agent}): {args.note}")
+    return _mutate_status(args.id, update)
+
+
 def cmd_done(args: argparse.Namespace) -> int:
     # Auto-Claim Check
     try:
@@ -419,11 +436,13 @@ def build_parser() -> argparse.ArgumentParser:
     post.add_argument("--subject", required=True)
     post.add_argument("--body", required=True)
     post.add_argument("--report-path", help="Pfad zum Report, Artefakt oder Snapshot (Link Method)")
+    post.add_argument("--kind", choices=["TASK", "INFO"], default="TASK")
     post.add_argument("--priority", default="NORMAL", choices=["LOW", "NORMAL", "HIGH"])
     post.set_defaults(fn=cmd_post)
 
     inbox = sub.add_parser("inbox", help="List messages")
     inbox.add_argument("--agent")
+    inbox.add_argument("--kind", choices=["TASK", "INFO"])
     inbox.add_argument("--status", choices=["OPEN", "CLAIMED", "DONE"], type=str.upper)
     inbox.add_argument("--json", action="store_true", help="Output raw JSON")
     inbox.set_defaults(fn=cmd_inbox)
@@ -443,6 +462,13 @@ def build_parser() -> argparse.ArgumentParser:
     done.add_argument("--agent", required=True)
     done.add_argument("--note")
     done.set_defaults(fn=cmd_done)
+
+    classify = sub.add_parser("classify", help="Classify a reviewed message with evidence")
+    classify.add_argument("id")
+    classify.add_argument("--kind", choices=["TASK", "INFO"], required=True)
+    classify.add_argument("--agent", required=True)
+    classify.add_argument("--note", required=True)
+    classify.set_defaults(fn=cmd_classify)
 
     return p
 

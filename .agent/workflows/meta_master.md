@@ -39,6 +39,11 @@ Halte das Wiki für Leser und Maschinen transparent.
 - `docs/Siebenwind_Wiki/10_Archiv/Wiki_Statistiken.md` (Leseransicht)
 - `Logs/INGESTION_TRACKING_REGISTER.md` (Technikdetail)
 - `Logs/Archive/STATS_SNAPSHOT_latest.json` (maschinenlesbare Schnittstelle)
+- `docs/Agenten/status.md` (datierte Betriebsdiagnose)
+- `docs/neues.md`, `docs/themen.md` und den Aktivitätsblock der Startseite (Leserzugänge)
+- `.agent/data/documentation_inventory.json` und `System/DOCUMENTATION_INVENTORY.md` (Dokumentationsinventar)
+
+Die Ausgaben beschreiben lokale Messungen; eine Veröffentlichung wird separat über `pages verify-live` nachgewiesen. Eine erfolgreiche Statistikgenerierung ist keine fachliche Freigabe aller Artikel.
 
 ## 3. Dokumentation & Boards (Daily Business)
 1. **Boards:** Halte die `MASTER_TASK_LIST.md` und `System/Synapse_Board/` aktuell. Räume erledigte Tasks auf.

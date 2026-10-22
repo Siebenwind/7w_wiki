@@ -1,6 +1,6 @@
 {
   "suite": "pages-link-contract",
-  "description": "Guard Pages integrity policy, machine snapshots, and advisor freshness signals.",
+  "description": "Guard Pages integrity policy, machine snapshots, and advisor freshness signals. Full build coverage lives in pages-full-smoke; this compatibility suite never rebuilds the site.",
   "cases": [
     {
       "id": "pages-policy-schema",
@@ -84,10 +84,24 @@
         "pages_health.snapshot_written": false
       },
       "expect_json_path_in": {
-        "pages_health.status": ["PASS", "WARN", "FAIL"],
-        "pages_health.drift_status": ["PASS", "WARN", "FAIL"],
-        "pages_health.publication_freshness.status": ["PASS", "FAIL"],
-        "pages_health.link_ratchet.status": ["PASS", "UNKNOWN"]
+        "pages_health.status": [
+          "PASS",
+          "WARN",
+          "FAIL"
+        ],
+        "pages_health.drift_status": [
+          "PASS",
+          "WARN",
+          "FAIL"
+        ],
+        "pages_health.publication_freshness.status": [
+          "PASS",
+          "FAIL"
+        ],
+        "pages_health.link_ratchet.status": [
+          "PASS",
+          "UNKNOWN"
+        ]
       },
       "timeout_sec": 120
     },
@@ -138,33 +152,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "audit-pages-json",
-      "name": "audit --pages reports the site integrity bucket and details",
-      "cmd": [
-        "./7w_wiki.py",
-        "audit",
-        "--pages",
-        "--json"
-      ],
-      "expect_exit_any": [0, 1],
-      "expect_valid_json": true,
-      "expect_json_keys": [
-        "report_id",
-        "categories",
-        "details"
-      ],
-      "expect_json_path_exists": [
-        "categories.site_integrity.issues",
-        "details.site_integrity.targets",
-        "timings_ms.total",
-        "timings_ms.content_contract",
-        "categories.render_hygiene.issues",
-        "categories.contract_violations.issues",
-        "categories.split_brain.issues"
-      ],
-      "timeout_sec": 300
     },
     {
       "id": "advisor-pages-health-json",

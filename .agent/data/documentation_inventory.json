@@ -1,0 +1,461 @@
+{
+  "date": "2026-10-22",
+  "scope": "System (ohne Dispatch/Forschung/Archivregister), aktive Agent-Dokumentation, öffentliche Technik- und Wurzelseiten",
+  "entries": [
+    {
+      "path": ".agent/docs/_archive/BATCH_PROZESS_V2.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": ".agent/docs/_archive/KANON_CHECKLISTE.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": ".agent/docs/_archive/LORE_ENGINE_SPEC.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": ".agent/docs/_archive/PROZESS_EVALUATION.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": ".agent/docs/_archive/Projektdossier_Siebenwind_Chroniken.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung; alte Workflow-Kurzform"
+    },
+    {
+      "path": ".agent/docs/_archive/SANDBOXING_PROTOCOL.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": ".agent/docs/_archive/SYNAPSEN_SYSTEM_SPEC.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": ".agent/docs/_archive/WORKFLOW_ANTIGRAVITY.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": ".agent/docs/_archive/WORKFLOW_ARCHITECTURE.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung; alte Workflow-Kurzform"
+    },
+    {
+      "path": ".agent/docs/_archive/handover_dossier.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": ".agent/prompts/Archivar.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/prompts/Auskunfts_Archivar.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/prompts/EXTERNAL_KICKOFF.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/prompts/EXTERNAL_SCOUT_TASK.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/prompts/HOMEPAGE_NEWS_TASK.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/prompts/Kickoff.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": ".agent/prompts/Oberarchivar.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": ".agent/workflows/antigravity.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/decide.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/delegate.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/forum_search.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/handover.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/herold.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/historian.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/ingest_master.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/lore_master.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/meta_master.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/qa_master.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/scout.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/start.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/takeover.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/tech_master.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/test_run.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/translate.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": ".agent/workflows/wiki_style_guide.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/AGENT_OPERATIONS_HANDBOOK.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/COORDINATION_HUB.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/MCP/README.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/PRODUCTION_PROTOCOL.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/STYLING.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "System/Synapse_Board/CORE_LORE_SCORE_GUIDE.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/LORE_RESEARCH_BOARD.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Astral_Web_Doubt.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "System/Synapse_Board/SILICON_INQUISITION/INQ-2026-001_Historian_Report.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "System/Synapse_Board/SILICON_INQUISITION/INQ-2026-002_Canon_Audit_Desires.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "System/Synapse_Board/SILICON_INQUISITION/MANIFEST.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/SY_BULLETIN.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/SY_DISPATCH.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/SY_HISTORIAN_TRACEABILITY.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/SY_INTEROP.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/SY_REVIEW.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/SY_STANDARDS.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/SY_TESTING.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/_TEMPLATE_AUDIT_REQUEST.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/_TEMPLATE_RESEARCH.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Synapse_Board/_TEMPLATE_TICKET.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Templates/HISTORIAN_CLOSEOUT_TEMPLATE.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/Templates/INGESTION_REPORT_TEMPLATE.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "System/_archive/DELEGATION_CODEX_PHASE_20.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "System/_archive/DELEGATION_STYLING_FIX.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "System/_archive/README.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "System/_archive/SYSTEM_INTEGRITY.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "System/_archive/Sandbox/Falkensee_Timeline.tmp.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "System/_archive/Sandbox/test_source.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "System/_archive/Sandbox/test_source_2.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "System/_archive/WORKFLOW_LORE_CONSISTENCY.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "docs/AGENT_OPERATIONS_HANDBOOK.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "docs/Agenten/dispatch.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "docs/Agenten/index.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "docs/Agenten/interop.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "docs/Agenten/leserseiten.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "docs/Agenten/status.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "docs/Agenten/workflows.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "docs/Archiv/QUALITAETSRAHMEN_2026.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "docs/Archiv/REDESIGN_ROADMAP_2026.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "docs/CONTRIBUTING.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "docs/COORDINATION_HUB.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "docs/LICENSE.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "docs/MASTER_TASK_LIST.md",
+      "status": "aktuell",
+      "reason": "Technischer CLI-, Pfad- und Vertragsabgleich, 2026-10-21; keine fachliche Lorefreigabe"
+    },
+    {
+      "path": "docs/OmniLore_Dossier_Generisches_Framework.md",
+      "status": "historisch",
+      "reason": "Zeitgebundener Bericht; keine aktive Betriebsanleitung"
+    },
+    {
+      "path": "docs/STYLING.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "docs/architecture.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "docs/forschung.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "docs/index.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "docs/neues.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "docs/setup_rag.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "docs/suche.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    },
+    {
+      "path": "docs/themen.md",
+      "status": "aktuell",
+      "reason": "Gegen Implementierung/CLI geprüft, 2026-09-12"
+    }
+  ]
+}

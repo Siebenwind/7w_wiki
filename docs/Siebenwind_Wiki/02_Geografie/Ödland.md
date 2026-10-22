@@ -14,7 +14,7 @@ Eine karge und gefährliche Region auf [[Siebenwind]], die von magischen Rückst
 *   **Spinnenplage:** Das Ödland gilt als Ursprung zahlreicher monströser Spinnenarten, die gelegentlich umliegende Siedlungen angreifen.
 
 ### Magische Resonanz (Aura Secundus)
-Das permanente Gefühl von Unbehagen und die Unwirtlichkeit des Landes werden magietheoretisch durch eine Prägung der **[[Magietheorie_Toran_Dur#Arkane_Wellenlehre|Aura Secundus]]** erklärt. Das traumatische Ereignis des Untergangs hinterließ einen disharmonischen "Abdruck" in der unbelebten Materie (Steine, totes Holz), der wie eine geistige Echo-Welle unaufhörlich auf die Aura Primus von Besuchern einwirkt.
+Das permanente Gefühl von Unbehagen und die Unwirtlichkeit des Landes werden magietheoretisch durch eine Prägung der **[[Magietheorie_Toran_Dur#arkane-wellenlehre-arcana_procella|Aura Secundus]]** erklärt. Das traumatische Ereignis des Untergangs hinterließ einen disharmonischen "Abdruck" in der unbelebten Materie (Steine, totes Holz), der wie eine geistige Echo-Welle unaufhörlich auf die Aura Primus von Besuchern einwirkt.
 
 ## Überlieferungen
 - [[Die_Tragödie_am_Wall]]: Erwähnung in der Überlieferung.

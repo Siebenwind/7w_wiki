@@ -4,6 +4,8 @@ title: Kickoff-Prompt
 category: Sonstiges
 ---
 
+> **Historischer Kickoff, abgelöst am 21. Oktober 2026.** Der ursprüngliche Entstehungstag ist nicht verzeichnet. Der folgende Text dokumentiert das frühere Antigravity-Setup und ist keine aktive Betriebsanleitung. Aktueller Einstieg: `./7w_wiki.py start` und [EXTERNAL_KICKOFF.md](EXTERNAL_KICKOFF.md).
+
 In **Google Antigravity** (oder ähnlichen Vertex AI Agent-Frameworks) gibt es oft kein klassisches "Einstellungsmenü" wie bei einer Web-App. Die Struktur wird meist über eine **System Instruction** oder einen **Initialisierungs-Prompt** definiert, der das Framework "bootstrappt".
 
 Wenn du vor einem "leeren" Antigravity-Fenster sitzt, ist dein erster Schritt, das System anzuweisen, sich selbst basierend auf deinen Dokumenten zu konfigurieren.

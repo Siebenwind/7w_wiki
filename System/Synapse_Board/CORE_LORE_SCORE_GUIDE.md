@@ -1,32 +1,19 @@
-# Siebenwind Lore Trust Score (0-10)
+# Qualitätskennzahlen richtig einordnen
 
-Dieses System bewertet die Verlässlichkeit jedes Wiki-Eintrags basierend auf **Quellgüte** und **Historiker-Audit**.
+Aktive Anleitung, geprüft am 21. Oktober 2026. Sie ersetzt das frühere Modell, das erzählerische Ausschmückung als Vertrauensgewinn behandelte. Maßgeblich bleibt [Homepage > Quellen > Wiki Pages](SY_DRIFT_PAGES_CONTRACT.md).
 
-## 1. Die Scoring-Matrix
+## Historisches Feld `lore_trust`
 
-| Score | Bezeichnung | Kriterium |
-|:---|:---|:---|
-| **10** | **Ultimativer Kanon** | Langfristig widerspruchsfrei, durch mehrere Audits bestätigt. |
-| **8-9** | **Hoher Kanon** | Offizielle Homepage/Hintergrunddaten (`#canon`), auditierte Botendaten. |
-| **6-7** | **Bestätigter Bote** | Informationen aus der Zeitung (`#bote`), durch Historiker-Audit verifiziert. |
-| **4-5** | **Primärquelle (Roh)** | Neu ingestierte Boten oder zuverlässige Bibliothekstexte. |
-| **2-3** | **Glaubhafte Überlieferung** | Mythen/Bücher (`#überlieferung`), die logisch passen. |
-| **1** | **Vage Perspektive** | Spielergeschichten (`#perspektive`) ohne Bestätigung. |
-| **0** | **Unbekannt / Konflikt** | Aktives Synapse-Ticket oder ungelöster Widerspruch. |
+`./7w_wiki.py score <Datei>` ist **kein rein lesender Prüfbefehl**. Die Implementierung `.agent/scripts/lore_score_manager.py` berechnet einen heuristischen Startwert aus Metadaten und kann `lore_trust` in der Datei ergänzen oder anheben. Höhere vorhandene Werte bleiben erhalten. Die Heuristik prüft weder einzelne Aussagen noch die aktuelle Homepage; auch ein hoher Wert ersetzt keinen Quellenbeleg.
 
-## 2. Das Verhältnis zu User-Entscheidungen (Wichtig!)
-User-Entscheidungen (`#user_canon`, `#user_speculation`) betreffen den **Geltungsanspruch** (Rang 0), aber nicht automatisch den **Faktischen Score**.
-- Eine User-Entscheidung löst einen Konflikt, erhöht aber den Score nur dann, wenn der Historiker die Lösung als "novel-quality" auditiert hat.
-- **Interventionen** werden intern markiert (z.B. `[Intervention: Rank 0]`), aber der Lore-Score bleibt ein Maß für die erzählerische und quellenkritische Tiefe.
+Den Befehl nur bei beauftragter Metadatenpflege ausführen und die Änderung prüfen. Nicht einsetzen, um eine redaktionelle Freigabe oder einen vermeintlichen Wahrheitswert zu erzeugen. Die frühere pauschale Bonusregel für Atmosphäre oder „Roman-Qualität“ gilt nicht mehr.
 
-## 3. Modifikatoren (Historiker-Audit)
-Der Historiker kann den Score manuell oder per Skript anpassen:
-- **+1 bis +2:** Interne Prüfung auf "Roman-Qualität" (sensorische Details, Atmosphäre).
-- **+1:** Cross-Check gegen komplementäre Quellen erfolgreich.
-- **-1 bis -2:** Vage Zeitangaben oder fehlende Provenienz (unbekannte Quelle).
+## LQS in Ingestion-Berichten
 
----
-**Dieses System ist ab sofort für alle neuen Ingestionen und Edits bindend.**
+Das Berichtsschema bewertet Abdeckung, Tiefe, Konsistenz, Belegqualität und Unsicherheitsdisziplin. Es beschreibt die dokumentierte Bearbeitung, nicht den Wahrheitsgehalt sämtlicher Aussagen im Zielartikel. Für jede Teilwertung ist eine nachvollziehbare Begründung erforderlich; Unsicherheiten und Perspektiven bleiben sichtbar.
 
----
-**Dieses System ist ab sofort für alle neuen Ingestionen bindend.**
+`ingest reports-calibrate --dry-run --json` zeigt geplante Profilkorrekturen an. Erst ein ausdrücklich beauftragtes `--apply` verändert Berichte. Eine Kalibrierung ist keine neue Quellenrecherche.
+
+## Leserstatistik
+
+Der Anteil aufgelöster `quelle`-Felder misst Metadatenabdeckung. Linkhäufigkeit misst Vernetzung. Beide Werte sowie LQS und `lore_trust` dürfen nicht als pauschaler Anteil belegter Aussagen oder abgeschlossener fachlicher Prüfungen bezeichnet werden.

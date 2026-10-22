@@ -34,8 +34,8 @@ Wenn du eine konkrete Lore-Frage beantworten oder Fakten prüfen musst:
 Wenn offizielle `#canon` Hintergrund-Dokumente verarbeitet oder alte Widersprüche gelöst werden müssen:
 1. **Quellen-Aggregation:** Führe eine holistische Suche über alle Layer aus.
 2. **Bestandsabgleich (Kanon-Upgrade):** 
-   - Kanon gewinnt **immer**. 
-   - Falls bestehende Wiki-Artikel auf niedrigeren Epistemiken (`#bote`, `#perspektive`) basieren, werte ihren Status auf `#canon` auf, aber behalte die bisherigen Infos bei (Erweiterung, nicht Ersetzung).
+   - Es gilt **Homepage > Quellen > Wiki Pages**; Tags ersetzen keinen Vergleich der konkreten Aussagen und Zeitstände.
+   - Bestätigte Aussagen mit Belegen ergänzen, Widersprüche berichtigen oder als historische beziehungsweise perspektivische Darstellung einordnen. Nicht sämtliche bisherigen Artikelbehauptungen durch eine pauschale Tagänderung zu Kanon erklären.
 3. **Rekonstruktion:** Erstelle eine chronologische Abfolge der Ereignisse. Identifiziere Anachronismen (z.B. Person gleichzeitig an zwei Orten).
 4. **Dokumentation:** Erstelle/Aktualisiere ein Ticket im `LORE_RESEARCH_BOARD.md` oder hinterlasse ein kursives *Historiker-Gutachten* im betroffenen Wiki-Artikel.
 
@@ -43,8 +43,8 @@ Wenn offizielle `#canon` Hintergrund-Dokumente verarbeitet oder alte Widersprüc
 Das Wiki soll kein trockenes Datenblatt sein. Werte Artikel (vor allem von oft genannten Charakteren) auf "Roman-Qualität" (Novel-Quality) auf:
 1. **Context & Deep Read:** Wühle in den Boten-Quellen nach Handlungen und Beziehungen (wer kämpft, wer verhandelt, mit wem).
 2. **Atmosphäre & Motivation:** Beschreibe die Szenen und frage nach dem *Warum* (Pflichtgefühl, Gier, Angst?).
-3. **Regeln:** Keine Fakten erfinden (Halluzinations-Verbot). Nur vorhandene Rohdaten extrapolieren. Nutze Zitate, falls verfügbar. Reduziere Figuren nicht auf rein technische Rollenbegriffe.
-4. **Score-Boost:** Nach der Aufwertung führe `./7w_wiki.py score <file>` aus, um den `lore_trust` manuell anzupassen.
+3. **Regeln:** Keine Fakten, Sinneseindrücke oder Motive ergänzen, die die Quelle nicht trägt. Deutungen als solche kennzeichnen. Reduziere Figuren nicht auf rein technische Rollenbegriffe.
+4. **Qualitätsprüfung:** Quellenbezug, Lesbarkeit und offene Fragen prüfen. `./7w_wiki.py score <file>` kann das historische Metadatenfeld `lore_trust` heuristisch verändern; es ist keine rein lesende Prüfung und keine redaktionelle Freigabe. Nur bei beauftragter Metadatenpflege ausführen.
 
 ## 4. Research Board Management
 - Prüfe regelmäßig das `System/Synapse_Board/LORE_RESEARCH_BOARD.md` auf aktive Historian-Faelle (`OPEN_HISTORIAN`, `IN_REVIEW_HISTORIAN`, `AWAITING_HUMAN_DECISION`).

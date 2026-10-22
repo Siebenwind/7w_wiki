@@ -1,22 +1,27 @@
 ---
 title: Draconis
 category: Geografie
+quelle: "https://www.siebenwind.de/hintergrund/atlas/region-galadon/"
+letzter_check: 2026-09-12
 lore_trust: 2
 ---
 
 # Draconis
 
-**Epistemischer Status:** #canon | #bote
+**Draconis** ist die Hauptstadt des galadonischen Reiches. Der offizielle Atlas beschreibt eine große Stadt am Drac, deren Inseln, Brücken und repräsentative Bauten die Macht des Reiches sichtbar machen.
 
-Die Hauptstadt des galadonischen Großreiches, bekannt als die **"Weiße Perle des Reiches"**.
+## Stadt am Fluss
 
-## [[Geografie]] & Architektur
-Draconis ist eine gigantische Metropole mit etwa 750.000 Einwohnern, die auf 58 Inseln im Drac-Fluss erbaut wurde. Sie ist das politische und religiöse Herz des Reiches.
-*   **Weißer Hochturm:** Der Sitz des Königs, der weithin sichtbar über die Stadt ragt.
-*   **Allerhöchster Tempel der Viere:** Das geistige Zentrum des Reiches, in dem die höchsten Würdenträger der [[Kirche_der_Viere]] residieren.
+Das Stadtgebiet umschließt eine Gruppe von 58 Inseln im Drac. Im inneren Bereich liegen Gärten, Adelssitze und Verwaltungsgebäude. Die eigentliche Stadt erstreckt sich beiderseits des Flusses. Der Atlas nennt ungefähr 750.000 Einwohner.
 
-## [[Gesellschaft]] & Kultur
-Die Stadt ist ein Schmelztiegel der Völker, wobei insbesondere die [[Menschen]] und eine beträchtliche Population von Stadtelfen das Stadtbild prägen. Sie gilt als Zentrum der Gelehrsamkeit, der Kunst und des Handels.
+Der **Weiße Hochturm** besteht aus einer kunstvoll verschachtelten Gruppe heller Rundtürme. Der **Allerhöchste Tempel der Viere** ist ein bedeutendes religiöses Zentrum. Handwerk, Handel und die Lebenswelt der Oberschicht prägen die Stadtbeschreibung.
 
-## [[Geschichte]] & Legenden
-Es wird berichtet, dass [[Angamon]] bei seinem Versuch, [[Tare]] zu vernichten, den **Stein der Macht** (den Ursprung Tares) angriff, der in engem Zusammenhang mit der Gründung der Stadt und ihrer mystischen Macht steht. Im Jahr 15 n.H. suchte der junge [[Arman|Arman von Draconis]] (später [[Arman]]) in dieser Metropole Zuflucht und schloss sich dem Orden der [[Vitama]] an ([[Siebenwind_Bote_123]]).
+## Eine Geschichte aus dem Boten
+
+Die Erzählung über [[Arman]] im [[Siebenwind_Bote_123]] endet mit der Reise des reuigen Magiers **Karamir** nach Draconis. Dort dient Karamir im Orden Vitamas. Arman selbst ist zuvor beim Bannversuch gegen die Bestie gestorben.
+
+## Quellen und Weiterlesen
+
+- [Offizieller Atlas: Region Galadon](https://www.siebenwind.de/hintergrund/atlas/region-galadon/), geprüft am 12. September 2026.
+- [[Siebenwind_Bote_123]]: religiöse Erzählung, keine allgemeine Stadtchronik.
+- [[Region_Galadon]] und [[Kirche_der_Viere]] erschließen den größeren Zusammenhang.

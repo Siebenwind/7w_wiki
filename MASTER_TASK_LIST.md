@@ -5,8 +5,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ## 📊 Status-Übersicht
 - **Wiki-Standard:** v3.0 (Inter-AI Compliant)
 - **RAG-Status (Orakel):** DEGRADED; lokaler Modell-/Indexcache fehlt, direkte Quellenprüfung bleibt der aktive Fallback (`MSG-2026-0192`).
-- **Last Handover**: 2026-08-23 (Oberarchivar → Next Agent)
-- **Status**: Der Forumprozess umfasst 201 registrierte Themen: 101 Volltexte sind archiviert, 79 davon integriert, fünf ohne Wikiänderung abgeschlossen und 17 warten auf fachliche Sichtung; 100 Themen liegen erst als Metadaten vor. Der aktuelle Wiki-Snapshot umfasst 1.418 Artikel und 120 vollständig getrackte Ingestion-Berichte. Der Pages-Vollbau publiziert beide Zaehler vollstaendig und meldet bei sauberer Drift `621` ungelöste beziehungsweise `619` nicht freigestellte Linkziele. Daneben bestehen `84` formal gueltige temporaere Bruecken mit ueberfaelligem Reviewdatum; der Handover und die naechsten Schritte stehen in `Logs/Archive/SESSION_MEMORY_2026-08-23_FORUM_FUENFERLAUF_106975_BIS_99477.md`.
+- **Last Handover**: 2026-10-21 (Leserrelease, technische Dokumentation und erneute Abnahme)
+- **Status**: Maßgeblich sind `./7w_wiki.py advisor --json` und `.agent/data/pages_health.json` mit Messdatum und Umfang. Leserzahlen kommen aus `./7w_wiki.py stats`; überfällige Brücken aus der gemeinsamen Lifecycle-Prüfung. Ein lokaler Vollbau bestätigt keine tatsächliche Veröffentlichung.
 
 ---
 
@@ -16,9 +16,11 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 
 - [x] **Zeitstrahl Structural Repair**: `docs/Siebenwind_Wiki/05_Geschichte/Zeitstrahl.md` wurde von einem strukturell korrumpierten Mischdokument auf eine kompakte Chronik-Uebersicht mit Verweisen auf `Historie & Aeren` und `Zeitleiste (15-30 n.H.)` zurueckgefuehrt.
 
-- [ ] **Semantic Pages Backlog Triage**: Die aktuelle Pages-Validierung meldet `622` unresolved Targets, `620` unallowlisted, `609 needs_historian` und `5 generic_term_conflict`; nur das Strict-Link-Gate bleibt hart. `drift_status = PASS`, und `repair --apply-lane1 --dry-run --json` plant aktuell `0` sichere mechanische Dateiedits. Der naechste Agent soll die bestehenden Board-/Backlog-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) als Arbeitsgrundlage verwenden und die semantische Begriffsarbeit strikt von mechanischen Reparaturen trennen.
+- [ ] **Semantic Pages Backlog Triage**: Aktuelle Zahlen ausschließlich aus `.agent/data/pages_health.json` lesen; Berichtsalter beachten. Bestehende Board-Artefakte (`.agent/data/backlog_cluster_board.json`, `.agent/data/backlog_escalations.json`, `RESEARCH-2026-018`) verwenden. Semantische Begriffsarbeit bleibt getrennt von mechanischen Reparaturen.
 
-- [ ] **Bridge-Retirement statt Fristverlaengerung**: Der Audit zaehlt `84` temporaere Brueckenartikel; alle tragen noch `bridge_review_until: 2026-06-30`, gelten technisch aber als valide. In kleinen, semantisch eindeutigen Wellen sollen zuerst eingehende Links auf das kanonische `bridge_target` gehoben und danach die Bruecken entfernt werden. Unklare oder typveraendernde Ziele bleiben beim Historian/Coordinator; `MSG-2026-0240` klaert zusaetzlich, warum ueberfaellige Reviewdaten derzeit keinen Auditbefund erzeugen.
+- [ ] **Bridge-Retirement statt Fristverlängerung (`MSG-2026-0241`)**: Die 84 bekannten Brücken mit Reviewfrist 30. Juni werden nun als überfälliger Altbestand ausgewiesen. `MSG-2026-0240` ist technisch abgeschlossen; neue oder verschlechterte Fälle sperren die Abnahme. Eingehende Links zuerst auf belastbare kanonische Ziele heben, dann Brücken entfernen. Unklare Gleichsetzungen bleiben beim Historian/Coordinator.
+
+- [ ] **Verbleibende Leserabnahme**: Reale iOS-/Android-Geräte und ein echter Screenreader fehlen noch. Die 53 zunächst ungeprüften Dokumenteinträge wurden am 21. Oktober technisch abgeglichen und korrigiert; fachliche Lorefragen sind davon nicht freigegeben. Ergebnisse und Grenzen stehen in `System/READER_RELEASE_REVIEW_2026-09-12.md`.
 
 - [x] **Forum-Ingestion v2 Pilot**: Die Forum-Volltextarchivierung und agentische Verarbeitung sind als Runtime-Pfad umgesetzt. Zwei Pilotquellen sind integriert (`Ergon` als Update, `Orkisches Handelskontor` als Neuanlage), das Forumregister bleibt bei `201` Eintraegen mit `2 integrated`, und die Draft-Stilregel verhindert kuenftig OOC-Formulierungen im Artikelkoerper.
 
@@ -108,6 +110,8 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 ---
 
 ## 🗂️ Projekthistorie (neu → alt)
+
+- [x] **12. September 2026: Leserzugang und verlässlicher Betrieb**: Gemeinsame Pagefind-Suche, mobile Darstellung, Themenzugänge, Neuigkeiten und getrennte Betriebsdiagnose umgesetzt. Die ersten Leserwege wurden anhand von Homepage und Originalquellen korrigiert. `MSG-2026-0240` und `MSG-2026-0259` sind abgeschlossen; fünf alte Abschlussmeldungen wurden einzeln als INFO eingeordnet. Der veröffentlichte Commit wird separat über `pages verify-live` nachgewiesen.
 
 *Aktiver Drift-/Pages-Vertrag:* `System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md`
 

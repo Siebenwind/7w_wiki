@@ -1,196 +1,36 @@
 ---
-layout: wiki_page
 title: Siebenwind Archiv
 category: Index
+hide: [toc, navigation]
 ---
 
 <div class="hero-wrapper">
-  <p class="hero-kicker">Wissens-Archiv der Siebenwind-Welt (Lore-Status: 30 n.H. / 2026)</p>
-  <h1 class="hero-title">Siebenwind Archiv</h1>
-  <p class="hero-subtitle">Wissen, Chroniken und Quellen der Welt Siebenwind – quellenkritisch erschlossen, redaktionell geprueft und dauerhaft bewahrt.</p>
-  <div class="hero-actions">
-    <a href="Siebenwind_Wiki/" class="hero-action hero-action-primary">Lesen starten</a>
-    <a href="Siebenwind_Wiki/10_Archiv/Interessante_Artikel/" class="hero-action">Interessante Artikel</a>
-  </div>
+  <p class="hero-kicker">Geschichten und Wissen aus vielen Jahren Siebenwind</p>
+  <h1 class="hero-title">Entdecke die Welt</h1>
+  <p class="hero-subtitle">Orte, Menschen, Götter und Chroniken. Finde einen Namen über die Suche oder beginne deine Reise mit einem Thema.</p>
+</div>
+
+## Dein Einstieg
+
+<div class="portal-grid">
+  <a class="portal-card" href="Siebenwind_Wiki/02_Geografie/Siebenwind/"><h3>Die Insel Siebenwind</h3><p>Ein erster Blick auf die Welt und ihre Orte.</p></a>
+  <a class="portal-card" href="Siebenwind_Wiki/01_Pantheon/Das_Pantheon/"><h3>Götter und Glaube</h3><p>Die Mächte, die das Leben der Bewohner prägen.</p></a>
+  <a class="portal-card" href="Siebenwind_Wiki/"><h3>Alle Themen entdecken</h3><p>Völker, Magie, Personen, Geschichte und Erzählungen.</p></a>
 </div>
 
 ## Was geschieht?
 
-Der letzte abgeschlossene Historikerlauf wird hier inhaltlich sichtbar – mit Umsetzung, Erkenntnis und bewusst offen gelassenen Fragen.
+Neue Artikel und Erweiterungen aus der Arbeit am Archiv. Die Quellen und noch offenen Fragen findest du in den verlinkten Artikeln.
 
 <!-- BEGIN GENERATED PUBLIC ACTIVITY -->
-<section class="public-activity" data-activity-id="2026-08-06.01" aria-label="Letzter Historikerlauf">
-  <p class="activity-meta"><strong>Stand 2026-08-06.01</strong> · Historikerlauf zu Volandur, Maichellis, Akassvae und Huns abgeschlossen</p>
-  <div class="activity-grid">
-    <article class="activity-card">
-      <h3>Implementierte Neuerungen</h3>
-      <p>Fuenf quellenkritische Erzaehlungsseiten erschliessen die Forumthemen 109571, 109483, 108944, 109310 und 108788; fuenf Ingestion-Berichte dokumentieren Quellenwert, Abgleich und offene Grenzen. Claiomhs_Wacht.md wurde aus einem Platzhalter zu einer belegten Burgseite mit…</p>
-    </article>
-    <article class="activity-card">
-      <h3>Erkenntnisgewinn</h3>
-      <p>„Geruechte ueber einen neuen Riesen“ belegt nur die Erzaehlung von einem sehr grossen Mann mit Hammer. Der Bestiariumsartikel zu Riesen wurde bewusst nicht veraendert, weil keine Volks- oder Artzugehoerigkeit nachweisbar ist.</p>
-    </article>
-    <article class="activity-card activity-card-open">
-      <h3>Offen geblieben</h3>
-      <p>Maichellis&#x27; Bericht zum Angriff auf Claiomhs Wacht wird durch Bote 193 in zentralen Punkten bestaetigt. Der sehr aehnliche Brandensteiner Tod Rotschuppes steht in Bote 194, dessen Ausgabenjahr 36 n.H. aber nicht bruchlos zur Forumchronologie von 2019 passt; die Datierung bleibt…</p>
-    </article>
-  </div>
-  <p class="activity-more"><a href="CHANGELOG/">Vollständige Änderungschronik lesen</a></p>
-</section>
+<div class="activity-grid"><article class="activity-card"><p class="activity-meta">2026-09-12</p><h3><a href="Siebenwind_Wiki/">Die Welt leichter entdecken</a></h3><p>Die Suche bietet Vorschläge und eine vollständige Ergebnisseite mit Bereichen. Neue Themeneinstiege und eine kompaktere mobile Darstellung erleichtern das Lesen.</p></article><article class="activity-card"><p class="activity-meta">2026-09-02</p><h3><a href="Siebenwind_Wiki/05_Geschichte/Thjareks_Brecher/">Neue Spuren von Reisenden und einem Kriegsschiff</a></h3><p>Fünf Forumquellen ergänzen die Artikel zu Maichellis, Ras Altanin, Erynnion und Celedelair. Thjareks Brecher wird als Kriegsschiff erschlossen.</p></article><article class="activity-card"><p class="activity-meta">2026-08-06</p><h3><a href="Siebenwind_Wiki/07_Persoenlichkeiten/Volandur/">Erzählungen zu Volandur und Claiomhs Wacht</a></h3><p>Persönliche Erzählungen werden mit den Boten verglichen. Offene Datierungen bleiben ausdrücklich als ungeklärt kenntlich.</p></article></div>
+<p><a href="neues/">Alle Neuigkeiten</a></p>
 <!-- END GENERATED PUBLIC ACTIVITY -->
 
-## Empfohlener Einstieg in 3 Minuten
+## Lesetipps
 
-<div class="quick-grid">
-  <a href="Siebenwind_Wiki/02_Geografie/Siebenwind/" class="quick-card">
-    <h3>1. Weltbild erfassen</h3>
-    <p>Geografischer und politischer Einstieg in die Inselwelt.</p>
-  </a>
-  <a href="Siebenwind_Wiki/00_Fundament/Zeitrechnung_(Der_Sonnenzirkel)/" class="quick-card">
-    <h3>2. Zeitrahmen verstehen</h3>
-    <p>Der Sonnenzirkel als gemeinsame Referenz fuer Chronik und Quellen.</p>
-  </a>
-  <a href="Siebenwind_Wiki/10_Archiv/Interessante_Artikel/" class="quick-card">
-    <h3>3. Kuratierte Vertiefung</h3>
-    <p>Ausgewählte Artikel mit redaktioneller Relevanz und Einstiegshinweisen.</p>
-  </a>
-</div>
+- [Draconis – die Hauptstadt des Reiches](Siebenwind_Wiki/02_Geografie/Draconis.md)
+- [Arman – eine Erzählung über Vertrauen und Opfer](Siebenwind_Wiki/07_Persoenlichkeiten/Arman.md)
+- [Weitere Lesestrecken](Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md)
 
-## Einstieg fuer Leserinnen und Leser
-
-<div class="portal-grid">
-  <a href="Siebenwind_Wiki/" class="portal-card">
-    <h3>Welten-Archiv</h3>
-    <p>Der zentrale Einstieg in Lore, Register und kanonische Grundlagen.</p>
-  </a>
-  <a href="Siebenwind_Wiki/04_Chronik/" class="portal-card">
-    <h3>Chronik der Zeit</h3>
-    <p>Ereignisse, Epochen und Zeitleisten der Inselgeschichte.</p>
-  </a>
-  <a href="Siebenwind_Wiki/07_Persoenlichkeiten/" class="portal-card">
-    <h3>Persoenlichkeiten</h3>
-    <p>Akteure, Fraktionen und Rollen im historischen Kontext.</p>
-  </a>
-  <a href="Siebenwind_Wiki/01_Pantheon/" class="portal-card">
-    <h3>Pantheon und Glaube</h3>
-    <p>Goetterbilder, Kulte und religioese Ordnungssysteme.</p>
-  </a>
-  <a href="Siebenwind_Wiki/02_Geografie/" class="portal-card">
-    <h3>Geografie und Orte</h3>
-    <p>Regionen, Staedte und Raumbilder der bekannten Welt.</p>
-  </a>
-  <a href="Siebenwind_Wiki/00_Fundament/Bestiarium_Register/" class="portal-card">
-    <h3>Bestiarium</h3>
-    <p>Wesen, Gefahren und Feldbeobachtungen aus den Quellen.</p>
-  </a>
-</div>
-
-## Interessante Artikel
-
-Hier stehen kuratierte Lesestrecken und freigegebene Forschungsresultate. Laufende Historikerfaelle bleiben auf dem Research Board sichtbar und werden erst nach quellenkritischer Klaerung hervorgehoben.
-
-<div class="featured-grid">
-  <a href="Archiv/Historian_Report_2026_003/" class="featured-card">
-    <h3>Neu: Historian Report 2026-003</h3>
-    <p>Tiefenbach, Finsterwangen und das Oedland als gebuendelte Forschungsveroeffentlichung.</p>
-  </a>
-  <a href="Archiv/RESEARCH-2026-009_Report/" class="featured-card">
-    <h3>Neu: Research Report 2026-009</h3>
-    <p>Gilden, Handwerk und staendische Ordnung als freigegebene Ergebnisdarstellung.</p>
-  </a>
-  <a href="Archiv/RESEARCH-2026-008_Report/" class="featured-card">
-    <h3>Neu: Research Report 2026-008</h3>
-    <p>Die Klaerung der Dur-Identitaet in kompakter, publizierter Berichtsform.</p>
-  </a>
-  <a href="Siebenwind_Wiki/02_Geografie/Draconis/" class="featured-card">
-    <h3>Draconis</h3>
-    <p>Die Weisse Perle des Reiches: Hauptstadt, Tempelzentrum und Ausgangspunkt fuer Macht, Glaube und Legende.</p>
-  </a>
-  <a href="Siebenwind_Wiki/01_Pantheon/Codex_Iuris_Canonici/" class="featured-card">
-    <h3>Codex Iuris Canonici</h3>
-    <p>Kirchenrecht als Machtinstrument: ein Blick auf die Ordnung zwischen Thron, Altar und geistlicher Disziplin.</p>
-  </a>
-  <a href="Siebenwind_Wiki/07_Persoenlichkeiten/Arman/" class="featured-card">
-    <h3>Arman</h3>
-    <p>Eine kleine Figur mit grosser Aussagekraft ueber Volksglauben, Misstrauen und die Naehe der Orden.</p>
-  </a>
-</div>
-
-Mehr kuratierte Einstiege und Neuveroeffentlichungen: [Zur Uebersicht Interessante Artikel](Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md)
-
-## Qualitaet und Verfahren
-
-<div class="method-grid">
-  <div class="method-card">
-    <h3>Ingestion</h3>
-    <p>Quellen werden systematisch erschlossen und strukturiert ins Wiki ueberfuehrt.</p>
-  </div>
-  <div class="method-card">
-    <h3>Bewertung</h3>
-    <p>Artikelqualitaet wird mit LQS und kuratorischer Kontrolle geprueft.</p>
-  </div>
-  <div class="method-card">
-    <h3>Bewahrung</h3>
-    <p>Historische Quellen, Reports und Entscheidungswege bleiben nachvollziehbar dokumentiert.</p>
-  </div>
-  <div class="method-card">
-    <h3>Forschung</h3>
-    <p>Nur strittige oder groesser unklare Faelle landen als Historian-Docket auf dem Research Board.</p>
-  </div>
-</div>
-
-- [Interessante Artikel (Kurationsverfahren)](Siebenwind_Wiki/10_Archiv/Interessante_Artikel.md)
-- [Qualitaetsrahmen 2026](Archiv/QUALITAETSRAHMEN_2026.md)
-- [Research Board](Archiv/Research_Board.md)
-- [Neueste freigegebene Research Reports](Archiv/Historian_Report_2026_003.md)
-- [Ingestion Reports](Archiv/Ingestion_Reports/index.md)
-
-## Fuer technisch Interessierte
-
-<div class="featured-grid">
-  <a href="architecture.md" class="featured-card">
-    <h3>Engine-Architektur</h3>
-    <p>Bausteine, Datenfluss und Trennung von Praesentation, Runtime und Governance.</p>
-  </a>
-  <a href="setup_rag.md" class="featured-card">
-    <h3>RAG und Oracle</h3>
-    <p>Indexierung, Source-Scopes und reproduzierbare Suche via <code>./7w_wiki.py search</code>.</p>
-  </a>
-  <a href="Agenten/dispatch.md" class="featured-card">
-    <h3>Dispatch-Bus</h3>
-    <p>Agentenkoordination, Statusfluss und Aufgabenrouting ueber Synapse Board.</p>
-  </a>
-  <a href="AGENT_OPERATIONS_HANDBOOK.md" class="featured-card">
-    <h3>Operations Handbook</h3>
-    <p>Betriebsregeln, Workflows, Skills und Test-/Defect-Protokolle.</p>
-  </a>
-</div>
-
-```bash
-# 2-Minuten Technik-Check
-./7w_wiki.py advisor
-./7w_wiki.py search "Dunvallo Linari" --source wiki
-./7w_wiki.py test --suite clean-client-state
-```
-
-## Menschlicher Leitpunkt
-
-Dein verbindlicher Steuerpunkt fuer Agentenentscheidungen (Prioritaeten, No-Gos, Eskalation):
-[Maintainer-Standpunkt](Archiv/MAINTAINER_STANDPUNKT.md)
-
-```bash
-./7w_wiki.py leitpunkt status
-./7w_wiki.py leitpunkt check
-```
-
-<details class="tech-details">
-  <summary>Technik, Betrieb und Mitwirkung (Transparenz)</summary>
-  <ul>
-    <li><a href="Archiv/MAINTAINER_STANDPUNKT.md">Maintainer-Standpunkt (Menschlicher Leitpunkt)</a></li>
-    <li><a href="CONTRIBUTING.md">Mitarbeit und Regeln</a></li>
-    <li><a href="MASTER_TASK_LIST.md">Master Task List</a></li>
-    <li><a href="CHANGELOG.md">Changelog</a></li>
-    <li><a href="Archiv/REDESIGN_ROADMAP_2026.md">Redesign Roadmap 2026</a></li>
-    <li><a href="Agenten/index.md">Agenten-Hub</a></li>
-  </ul>
-</details>
+Wie verlässlich ist eine Aussage? [Quellen und Forschung](forschung.md) erklären die unterschiedlichen Überlieferungen und die Arbeit am Archiv.

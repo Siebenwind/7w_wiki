@@ -720,11 +720,17 @@ def main():
     audit_data["categories"]["bridge_inventory"]["total"] = contract["bridge_inventory"]["total"]
     audit_data["categories"]["split_brain"]["issues"] = contract["split_brain"]["issues"]
     audit_data["categories"]["traceability_gaps"]["issues"] = contract["traceability_gaps"]["issues"]
+    from reader_health import bridge_lifecycle, snapshot_health
+    lifecycle = bridge_lifecycle()
+    audit_data['categories']['bridge_lifecycle'] = lifecycle
+    audit_data['pages_snapshot'] = snapshot_health()
+    issues_found += len(lifecycle['violations'])
+    audit_data['advisories'] = [f"{lifecycle['expired_total']} überfällige Brücken im dokumentierten Altbestand"] if lifecycle['expired_total'] else []
     audit_data["issues_found"] = issues_found
     log("=" * 60)
     log(f"  ERGEBNIS: {issues_found} Probleme gefunden.")
     if issues_found == 0:
-        log("  🎉 Das Wiki ist konsistent!")
+        log("  Keine neuen Fehler im geprüften Umfang; Pages-Linkaltbestand und Lifecycle-Hinweise separat beachten.")
     else:
         log("  → Siehe /audit Workflow für Bearbeitungsschritte.")
     log("=" * 60)

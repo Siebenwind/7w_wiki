@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "updates": [
+    {
+      "date": "2026-09-12",
+      "title": "Die Welt leichter entdecken",
+      "summary": "Die Suche bietet Vorschläge und eine vollständige Ergebnisseite mit Bereichen. Neue Themeneinstiege und eine kompaktere mobile Darstellung erleichtern das Lesen.",
+      "articles": ["Siebenwind_Wiki/index.md", "suche.md"],
+      "status": "published",
+      "evidence": "CHANGELOG.md, Eintrag 2026-09-12.01"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Neue Spuren von Reisenden und einem Kriegsschiff",
+      "summary": "Fünf Forumquellen ergänzen die Artikel zu Maichellis, Ras Altanin, Erynnion und Celedelair. Thjareks Brecher wird als Kriegsschiff erschlossen.",
+      "articles": ["Siebenwind_Wiki/05_Geschichte/Thjareks_Brecher.md", "Siebenwind_Wiki/07_Persoenlichkeiten/Maichellis_Wanderstern.md", "Siebenwind_Wiki/00_Fundament/Ras_Altanin.md", "Siebenwind_Wiki/07_Persoenlichkeiten/Erynnion_Comari.md", "Siebenwind_Wiki/07_Persoenlichkeiten/Celedelair.md"],
+      "status": "published",
+      "evidence": "Commit 0a9c99a8, Logs/Archive/SESSION_MEMORY_2026-09-02_FORUM_FUENFERLAUF_UEBERGABE.md"
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Erzählungen zu Volandur und Claiomhs Wacht",
+      "summary": "Persönliche Erzählungen werden mit den Boten verglichen. Offene Datierungen bleiben ausdrücklich als ungeklärt kenntlich.",
+      "articles": ["Siebenwind_Wiki/07_Persoenlichkeiten/Volandur.md", "Siebenwind_Wiki/00_Fundament/Claiomhs_Wacht.md"],
+      "status": "published",
+      "evidence": "CHANGELOG.md"
+    }
+  ]
+}

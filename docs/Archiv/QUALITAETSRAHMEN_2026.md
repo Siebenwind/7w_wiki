@@ -6,6 +6,8 @@ category: Archiv
 
 # Qualitaetsrahmen 2026
 
+Aktualisiert am 9. September 2026. Bei Widersprüchen gilt Homepage > Quellen > Wiki Pages. LQS und Linkhäufigkeit messen keine Wahrheit; ein Tag allein ist kein abgeschlossener Prüfnachweis.
+
 ## Zweck
 
 Dieser Rahmen beschreibt, wie das Siebenwind-Wiki in vier Schritten gepflegt wird:
@@ -75,7 +77,11 @@ Damit bleibt Forschung fuer Leser, Maintainer und Folgeagenten an derselben Stel
 - Registerkonsistenz:
   - `./7w_wiki.py audit`
 - Pages-Build:
-  - `./7w_wiki.py pages build --strict`
+  - `./7w_wiki.py pages validate --json`
+  - `./7w_wiki.py test --suite pages-full-smoke`
+  - `./7w_wiki.py test --suite reader-browser`
+
+Gerenderte HTML-Verweise, mobile Suche, Tastaturbedienung und beide Farbschemata gehören zur Publikationsprüfung. Reale iOS-/Android-Prüfungen ergänzen die Browser-Engines. Fehlende Abnahmen werden sichtbar dokumentiert. Lokale Prüfung, Buildkennung und tatsächlich veröffentlichter Stand sind getrennte Nachweise; siehe [Betrieb der Leserseiten](../Agenten/leserseiten.md).
 
 Hinweis: Falls `pages validate` wegen bestehender Audit-Altlasten faellt, ist der Build trotzdem separat zu dokumentieren.
 
@@ -91,6 +97,6 @@ Hinweis: Falls `pages validate` wegen bestehender Audit-Altlasten faellt, ist de
 
 ## Eskalation und Transparenz
 
-- Bei Unklarheit gilt `/antigravity`: auditieren, dokumentieren, dann handeln.
+- Bei Unklarheit gilt `./7w_wiki.py start`: prüfen, dokumentieren und den zuständigen Auftrag verwenden.
 - Kein stiller Eingriff ohne Changelog-Kontext.
 - Offene Punkte werden per Dispatch adressiert, nicht nur lokal notiert.

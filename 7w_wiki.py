@@ -579,6 +579,13 @@ def main():
     pages_parser = subparsers.add_parser("pages", help="Build and validate GitHub Pages documentation")
     pages_sub = pages_parser.add_subparsers(dest="pages_cmd")
     pages_sub.add_parser("status", help="Show mkdocs availability and pages build prerequisites")
+    pages_setup = pages_sub.add_parser("setup", help="Install pinned Pages dependencies in .venv")
+    pages_setup.add_argument("--browsers", action="store_true", help="Also install browser test dependencies and engines")
+    pages_serve = pages_sub.add_parser("serve", help="Serve the built site locally for review")
+    pages_serve.add_argument("--port", type=int, default=8765)
+    pages_live = pages_sub.add_parser("verify-live", help="Compare the delivered build with the expected commit")
+    pages_live.add_argument("--url", default="https://siebenwind.github.io/7w_wiki/")
+    pages_live.add_argument("--commit", required=True)
     pages_build = pages_sub.add_parser("build", help="Run mkdocs build via project-local tooling")
     pages_build.add_argument("--strict", action="store_true", help="Enable strict mode for mkdocs build")
     pages_build.add_argument("--no-clean", action="store_true", help="Skip mkdocs --clean")
@@ -681,9 +688,11 @@ def main():
     mail_post.add_argument("--subject", required=True)
     mail_post.add_argument("--body", required=True)
     mail_post.add_argument("--report-path")
+    mail_post.add_argument("--kind", choices=["TASK", "INFO"], default="TASK")
     mail_post.add_argument("--priority", default="NORMAL", choices=["LOW", "NORMAL", "HIGH"])
     mail_inbox = mail_sub.add_parser("inbox", help="List messages")
     mail_inbox.add_argument("--agent")
+    mail_inbox.add_argument("--kind", choices=["TASK", "INFO"])
     mail_inbox.add_argument("--status", choices=["OPEN", "CLAIMED", "DONE"], type=str.upper)
     mail_inbox.add_argument("--json", action="store_true", help="Output raw JSON")
     mail_read = mail_sub.add_parser("read", help="Read a message")
@@ -696,6 +705,11 @@ def main():
     mail_done.add_argument("id")
     mail_done.add_argument("--agent", required=True)
     mail_done.add_argument("--note")
+    mail_classify = mail_sub.add_parser("classify", help="Classify a reviewed message with evidence")
+    mail_classify.add_argument("id")
+    mail_classify.add_argument("--kind", choices=["TASK", "INFO"], required=True)
+    mail_classify.add_argument("--agent", required=True)
+    mail_classify.add_argument("--note", required=True)
 
     # Scout (Forum Crawler)
     scout_parser = subparsers.add_parser("scout", help="Deep Scan of external forums (allowlisted boards)")
@@ -914,6 +928,12 @@ def main():
             run_script(".agent/scripts/pages_backlog_workbench.py", list(args.args or []))
             return
         page_args = [args.pages_cmd]
+        if args.pages_cmd == "verify-live":
+            page_args.extend(["--url", args.url, "--commit", args.commit])
+        if getattr(args, "browsers", False):
+            page_args.append("--browsers")
+        if args.pages_cmd == "serve":
+            page_args.extend(["--port", str(args.port)])
         if hasattr(args, "fast") and args.fast:
             page_args.append("--fast")
         if hasattr(args, "contract") and args.contract:
@@ -1051,12 +1071,15 @@ def main():
             sys.exit(1)
         mail_args = [args.mail_cmd]
         if args.mail_cmd == "post":
+            mail_args.extend(["--kind", args.kind])
             mail_args.extend(["--from", args.from_agent, "--to", args.to_agent, "--subject", args.subject, "--body", args.body])
             if args.report_path:
                 mail_args.extend(["--report-path", args.report_path])
             if args.priority:
                 mail_args.extend(["--priority", args.priority])
         elif args.mail_cmd == "inbox":
+            if args.kind:
+                mail_args.extend(["--kind", args.kind])
             if args.agent:
                 mail_args.extend(["--agent", args.agent])
             if args.status:
@@ -1069,6 +1092,8 @@ def main():
             mail_args.extend([args.id, "--agent", args.agent])
             if args.force:
                 mail_args.append("--force")
+        elif args.mail_cmd == "classify":
+            mail_args.extend([args.id, "--kind", args.kind, "--agent", args.agent, "--note", args.note])
         elif args.mail_cmd == "done":
             mail_args.extend([args.id, "--agent", args.agent])
             if args.note:

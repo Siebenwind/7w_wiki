@@ -73,7 +73,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `audit` | Run consistency audit for duplicates, broken links, and orphaned content. | `.agent/scripts/register_check.py` |
 | `index` | Manage the semantic search index. | `.agent/skills/oracle/build_index.py` |
 | `index-pages` | Generate category index pages for the wiki. | `.agent/scripts/generate_wiki_indices.py` |
-| `pages <status|build|validate|backlog>` | Build, validate, and inspect GitHub Pages documentation and backlog health. | `.agent/scripts/pages_tool.py` |
+| `pages <status|setup|serve|verify-live|build|validate|backlog>` | Build, validate, and inspect GitHub Pages documentation and backlog health. | `.agent/scripts/pages_tool.py` |
 | `advisor` | Show system status and recommended next actions. | `System/Advisor` |
 | `inquisition` | Run batch ingestion of legacy sources. | `.agent/scripts/inquisition.py` |
 | `sanitize [target]` | Normalize structure, H1 usage, and frontmatter. | `.agent/scripts/wiki_sanitizer.py` |
@@ -85,7 +85,7 @@ Use `./7w_wiki.py <command>` for all operations.
 | `package` | Build archive-first install bundles for supported platforms. | `.agent/scripts/package_tool.py` |
 | `check [path]` | Run style and grammar checks. | `.agent/skills/lektor/style_checker.py` |
 | `archive <sync|rotate|unpack>` | Manage archive symlinks, rotation, and unpack operations. | `docs/Archiv` |
-| `mail <post|inbox|read|claim|done>` | Interact with the dispatch system using structured subcommands. | `System/Synapse_Board/SY_DISPATCH.md` |
+| `mail <post|inbox|read|claim|done|classify>` | Interact with the dispatch system using structured subcommands. | `System/Synapse_Board/SY_DISPATCH.md` |
 | `scout` | Promoted discovery entrypoint for external source scanning. | `.agent/scripts/forum_scanner.py` |
 | `tech` | Show the technician workflow or run interop maintenance helpers. | `.agent/workflows/tech_master.md` |
 | `version` | Show or bump the wiki standard version. | `.agent/scripts/version_manager.py` |

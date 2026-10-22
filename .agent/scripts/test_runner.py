@@ -23,7 +23,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SUITES_DIR = PROJECT_ROOT / ".agent" / "tests" / "suites"
 SYSTEM_TMP_DIR = Path(tempfile.gettempdir())
 MSG_ID_RE = re.compile(r"^(MSG-\d{4}-\d{4})\b")
-QUARANTINED_IN_ALL = {"rag-relevance-smoke", "pages-full-smoke"}
+QUARANTINED_IN_ALL = {"rag-relevance-smoke", "pages-full-smoke", "reader-browser", "reader-rendered-links"}
 
 
 @dataclass
@@ -446,6 +446,35 @@ def run_suite(suite_name: str, timeout: int) -> tuple[list[CaseResult], Path]:
         case_id = case.get("id", f"{suite_name}-{idx:03d}")
         name = case.get("name", case_id)
         print(f"[{suite_name}] case {idx}/{total_cases}: {case_id} - {name}", flush=True)
+        if case.get("reader_links"):
+            from reader_health import rendered_links
+            report = rendered_links(PROJECT_ROOT/'site', 'https://siebenwind.github.io/7w_wiki/')
+            (PROJECT_ROOT/'site/rendered-links.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+            reason = f"{len(report['missing'])} missing targets; site/rendered-links.json"
+            results.append(CaseResult(case_id,name,report['status'],[],int(bool(report['missing'])),reason,"","",0))
+            print(reason,flush=True)
+            continue
+        if case.get("reader_process"):
+            from reader_process_tests import run_checks
+            started = time.perf_counter()
+            try:
+                details = run_checks()
+                results.append(CaseResult(case_id,name,"PASS",[],0,details,"","",time.perf_counter()-started))
+            except Exception as e:
+                results.append(CaseResult(case_id,name,"FAIL",[],1,str(e),"","",time.perf_counter()-started))
+            continue
+        if case.get("reader_browser"):
+            import sys
+            python = PROJECT_ROOT / ".venv" / ("Scripts/python.exe" if sys.platform == "win32" else "bin/python")
+            cmd = [str(python) if python.exists() else sys.executable, str(PROJECT_ROOT / ".agent/scripts/reader_browser.py")]
+            started = time.perf_counter()
+            try:
+                proc = run_cmd(cmd, timeout=max(timeout, 600))
+                results.append(CaseResult(case_id, name, "PASS" if proc.returncode == 0 else "FAIL", cmd, proc.returncode, proc.stdout[-3000:] + proc.stderr[-1000:], proc.stdout, proc.stderr, time.perf_counter()-started))
+            except subprocess.TimeoutExpired:
+                results.append(CaseResult(case_id, name, "FAIL", cmd, None, "Browser acceptance timed out", "", "", time.perf_counter()-started))
+            print(results[-1].reason, flush=True)
+            continue
         skip_keys = case.get("skip_if_context_missing", [])
         if any(k not in context for k in skip_keys):
             results.append(

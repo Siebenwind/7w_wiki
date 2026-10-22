@@ -28,7 +28,7 @@ letzter_check: 2026-02-16T18:15:00+01:00
 [[Rohehafen]] ist die prächtige Hauptstadt [[Siebenwind]]s und gilt als größte und schönste Stadt der Insel. Sie befindet sich in einem ständigen Wandel, insbesondere hin zu einer Marmorstadt mit befestigter Stadtmauer. Sie gilt als erster Treffpunkt für alle höheren Herren und als beliebtester Bauplatz für neue Siedler.
 
 ## Bevölkerung
-[[Rohehafen]] ist ein Schmelztiegel aller Rassen. Neben [[Menschen]] haben sich hier auch viele [[Volkskunde#Hochelfen|Hochelfen]] niedergelassen. König [[Hilgorad_I_ap_Mer|Hilgorad]] ließ gezielt Häuser errichten, um Siedler aus Falandrien anzuziehen.
+[[Rohehafen]] ist ein Schmelztiegel aller Rassen. Neben [[Menschen]] haben sich hier auch viele [[Hochelfen]] niedergelassen. König [[Hilgorad_I_ap_Mer|Hilgorad]] ließ gezielt Häuser errichten, um Siedler aus Falandrien anzuziehen.
 
 ## Geographie und Wirtschaft
 * **Lage**: Im Süden und Nordwesten von Wald umgeben, im Osten eine weite Ebene. Im Nordosten befindet sich das Hochelfenviertel.

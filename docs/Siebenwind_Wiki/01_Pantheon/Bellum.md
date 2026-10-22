@@ -2,41 +2,30 @@
 title: Bellum
 category: Religion
 tags: [Gott, Sahor, Krieg, Handwerk, Ehre, Herbst]
+quelle: "https://www.siebenwind.de/hintergrund/gotterwelt/kirche-der-viere/"
+letzter_check: 2026-09-12
 ---
 
 # Bellum
 
-**Epistemischer Status:** #canon
+**Bellum** gehört zu den Vieren, auch Sahor genannt. Er wird als Gott des Kampfes, der Ehre, des Mutes und der Schmiedekunst verehrt. Kämpfer, Söldner und Schmiede zählen zu seinen Anhängern.
 
-**Glaube:** [[Bellum]] (Kampf), [[Ignis]] (Feuer), [[Vitama]] (Heilung)
+## Ehre und Gerechtigkeit
 
-**Bellum** ist einer der vier **Sahor**, die im Alltagsglauben meist zusammenfassend als die **Viere** bezeichnet werden. Er ist der Schmied des Schicksals und der Hüter der Ehre. Er verkörpert die notwendige Stärke, um das Gute zu schützen, und die Disziplin, die aus roher Gewalt eine ritterliche Kunst formt.
+Seine höchsten Ideale sind Ehre und Mut. In der kirchlichen Darstellung steht er für offene, entschlossene Taten und gegen Hinterlist. Gerechtigkeit kann für seine Anhänger wichtiger sein als die strenge Anwendung eines Gesetzes; darin liegt eine Spannung zum Recht [[Astrael]]s.
 
-## Aspekte und Prinzipien
-- **Jahreszeit:** Herbst
-- **Element:** Feuer / Erde (Schmiede)
-- **Assoziierter Mond:** Keiner direkt. Es heißt, er habe sein Leuchten geopfert, um die Sterne am Firmament als ewige Wachtfeuer gegen die Finsternis [[Angamon]]s zu entzünden.
-- **Tugenden:** Stoische Tapferkeit, unbestechliche Ehre, schöpferische Kraft.
-- **Symbole:** Der flammende Hammer, der gespaltene Fels, das aufrechte Schwert.
+## Schmiedekunst und Schöpfung
 
-## Mythologie
-Bellum ist der unermüdliche Krieger der Sahor. In den Äonen der Schöpfung schmiedete er die Waffen der Götter aus dem ersten Sternenmetall. In enger Verbundenheit mit **[[Rien]] (Erde)** formte er die **[[Rasse_Zwerge]]**, denen er die Standhaftigkeit des Berges und das Feuer der Esse in die Herzen legte.
+Gemeinsam mit [[Rien]] erschuf Bellum nach der Überlieferung das Volk der [[Rasse_Zwerge|Zwerge]]. Er lehrte die Dwarschim die Waffenschmiedekunst. Seine Verehrung reicht deshalb über Krieg und Schlacht hinaus.
 
 ## Verehrung
-Die **[[Kirche_der_Viere]]** ehrt Bellum als den Beschützer des Reiches.
-- **Orden:** Der *Orden des Heiligen Schwertes* ([[Ordo_Belli]]) ist der militärische Arm der Kirche, bestehend aus Paladinen und Kriegerpriestern.
-- **Anhänger:** Soldaten, Ritter, Schmiede, Handwerker und alle, die für eine gerechte Sache kämpfen.
 
-## Rolle im Alltag
-Bellum wird nicht nur vor der Schlacht angerufen, sondern auch bei jedem Hammerschlag in der Schmiede und bei jedem Richtspruch, der Härte erfordert. Er lehrt, dass Stärke ohne Ehre Tyrannei ist, und Ehre ohne Stärke nutzlos.
+Der [[Ordo_Belli|Orden vom Heiligen Schwerte Bellums]] gehört zur [[Kirche_der_Viere]]. Im galadonischen Jahreslauf trägt der Herbst den Namen Bellums.
 
-## Beziehungen
-- **[[Astrael]]:** Sein Bruder des Geistes. Bellum achtet das Gesetz Astraels, weiß aber, dass manchmal das Schwert nötig ist, um es durchzusetzen.
-- **[[Rien]]:** Seine engste Verbündete unter den *Elementarherren*. Ihre Zusammenarbeit bei der Schöpfung der [[Rasse_Zwerge]] ist legendär.
-- [[Angamon]]: Bellum ist der geschworene Feind des Namenlosen.
+## Quellen und Weiterlesen
 
-## Verwandte Themen
-- [[Religion_Übersicht]]
-- [[Die_Viere_Kirche]]
-- [[Rasse_Zwerge]]
-- [[Rien]]
+- [Offizielle Darstellung der Kirche der Viere](https://www.siebenwind.de/hintergrund/gotterwelt/kirche-der-viere/), Abschnitt Bellum.
+- [Offizielle Götterwelt](https://www.siebenwind.de/hintergrund/gotterwelt/), Zuordnung der Jahreszeit.
+- [[Brevier_Ordo_Belli]] für Gebete und [[Religion_Übersicht]] zur Einordnung.
+
+Quellenabgleich: 12. September 2026.

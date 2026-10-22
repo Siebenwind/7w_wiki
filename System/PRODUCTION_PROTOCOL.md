@@ -7,7 +7,7 @@ epistemic: "#meta"
 
 # PRODUCTION_PROTOCOL
 
-Verbindliches Protokoll: Alles, was erzeugt wird, wird persistiert.
+Verbindliches Protokoll, präzisiert am 21. Oktober 2026: Beauftragte, wiederverwendbare Ergebnisse werden innerhalb der ausdrücklich erlaubten Schreibgrenzen abgelegt. Reine Leseaufträge und temporäre Testartefakte erfordern keine zusätzlichen Repositorydateien.
 
 ## Ablagepflicht
 - Schlussfolgerungen -> `Logs/Conclusions/`
@@ -27,5 +27,5 @@ Verbindliches Protokoll: Alles, was erzeugt wird, wird persistiert.
 - ASCII bevorzugt fuer Dateinamen.
 
 ## Operative Regel
-- Keine fluechtigen Ergebnisse nur im Chat belassen.
-- Jede relevante Analyse wird als Datei abgelegt und referenzierbar gemacht.
+- Beauftragte Ergebnisse mit Quellen, Prüfstand und offenen Punkten nachvollziehbar übergeben; keine ungefragten dauerhaften Nebenartefakte anlegen.
+- Projektruntime ausschließlich über `./7w_wiki.py`; Abschluss mit Session-Memory und `mail done` oder `mail post` gemäß `AGENTS.md`. Zulässige temporäre Berichte können referenziert werden, ohne sie in das Repository zu übernehmen.

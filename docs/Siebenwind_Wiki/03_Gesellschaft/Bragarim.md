@@ -46,7 +46,7 @@ Die Bragarim operiert eng mit dem [[Orden_der_Wachenden_Löwen]] zusammen, was d
 
 ## Referenzen
 - Kanon: *Talzwerge* (Hintergrund) — Rangtabelle und Beschreibung des Kan'thrag
-- [Bote 182](Siebenwind_Bote_182) — [[Brogar]] als „Bragar krell Bragarim" beim Konvent
+- [[Siebenwind_Bote_182|Bote 182]] — [[Brogar]] als „Bragar krell Bragarim" beim Konvent
 - *[[Erinnerungen_eines_alternden_Zwergen]]* (Spielergeschichte) — Beschreibung des roten Umhangs und der Ränge Rogal/Bra'gar
 - *Feuerholz für das [[Dunkeltief]]* (Spielergeschichte) — Militäroperationen der Bragarim
 

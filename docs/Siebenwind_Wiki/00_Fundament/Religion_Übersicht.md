@@ -5,9 +5,7 @@ category: Allgemein
 
 # Religion Übersicht
 
-**Epistemischer Status:** #canon
-
-Basierend auf der Analyse von `www.siebenwind.de/hintergrund` und den Dateien in `/Quellen/Hintergrund/` habe ich mein Verständnis der Götterwelt korrigiert.
+Glaube ist auf [[Siebenwind]] Teil von Alltag, Herrschaft und persönlicher Geschichte. Einen kurzen Weg zu den wichtigsten Artikeln bietet [[Das_Pantheon|das Pantheon]]. Die folgende Übersicht ordnet die Begriffe ein.
 
 ## 1. Die Schöpfung (Gohor)
 Am Ursprung stehen die **Gohor**, kosmische Ur-[[Drachen]], die Raum und Zeit formten:
@@ -34,13 +32,9 @@ Die theologische Sammelbezeichnung lautet **Enhor**; im gebräuchlichen Sprachge
 - **[[Ventus]]:** Luft
 - **[[Xan]]:** Wasser
 
-## 4. Der Antagonist
-- **[[Angamon]]:** Das personifizierte Böse, Neid und Zerstörung.
-- **Mond:** Dorayon (Der dunkle, dritte Mond).
-- **Ziel:** Vernichtung der Schöpfung ([[Tare]]).
+## 4. Angamon und der Glaubenswandel
+**[[Angamon]]** ist der geächtete Sohn Vitamas und Bellums. Er will die Schöpfung beherrschen; ihn schlicht als deren Vernichter zu beschreiben, widerspricht dem aktuellen offiziellen Hintergrund. Seit dem Götterwandel und der Legitimierung durch Argion wird sein Glaube nicht mehr allein als Ketzerei verfolgt. Ältere Texte können eine andere Glaubensordnung wiedergeben.
 
-## 5. Korrektur früherer Annahmen
-- **Falsch:** Annahme, dass Elementarherren untergeordnet sind.
-- **Korrekt:** Sie sind gleichberechtigte Geschwister (Große Götter/Sahor vs. Elementarherren/Enhor), haben aber andere Zuständigkeitsbereiche ([[Geist]] vs. Materie).
-- **Falsch:** Standard "Gut vs. Böse" Dualismus.
-- **Korrekt:** Ein komplexeres Geflecht aus Ordnung (Viere), Elementargewalt ([[Die_Enhor|Enhor]]) und Zerstörung ([[Angamon]]), eingebettet in einen drachischen Schöpfungsmythos.
+## Quellen und Einordnung
+
+Der [offizielle Atlas](https://www.siebenwind.de/hintergrund/atlas/) erklärt die Schöpfungsordnung. Für den Glaubenswandel gilt der [offizielle Angamon-Hintergrund](https://www.siebenwind.de/hintergrund/gotterwelt/angamon/), geprüft am 12. September 2026. Die verlinkten Einzelartikel unterscheiden weitere Lehren und Überlieferungen.

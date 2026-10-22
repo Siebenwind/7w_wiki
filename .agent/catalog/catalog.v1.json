@@ -1,6 +1,6 @@
 {
   "version": "catalog.v1",
-  "generated_at": "2026-09-02T16:51:37Z",
+  "generated_at": "2026-10-21T21:44:53Z",
   "runtime": {
     "entrypoint": "./7w_wiki.py",
     "help_json": "./7w_wiki.py --help-json",
@@ -626,13 +626,75 @@
       },
       {
         "name": "pages",
-        "description": "usage: 7w_wiki.py pages [-h] {status,build,validate,backlog} ...",
+        "description": "usage: 7w_wiki.py pages [-h]\n                        {status,setup,serve,verify-live,build,validate,backlog} ...",
         "arguments": [],
         "subcommands": [
           {
             "name": "status",
             "description": "usage: 7w_wiki.py pages status [-h]",
             "arguments": []
+          },
+          {
+            "name": "setup",
+            "description": "usage: 7w_wiki.py pages setup [-h] [--browsers]",
+            "arguments": [
+              {
+                "name": "browsers",
+                "flags": [
+                  "--browsers"
+                ],
+                "help": "Also install browser test dependencies and engines",
+                "required": false,
+                "type": "boolean",
+                "kind": "flag",
+                "default": false,
+                "nargs": 0
+              }
+            ]
+          },
+          {
+            "name": "serve",
+            "description": "usage: 7w_wiki.py pages serve [-h] [--port PORT]",
+            "arguments": [
+              {
+                "name": "port",
+                "flags": [
+                  "--port"
+                ],
+                "help": "",
+                "required": false,
+                "type": "integer",
+                "kind": "option",
+                "default": 8765
+              }
+            ]
+          },
+          {
+            "name": "verify-live",
+            "description": "usage: 7w_wiki.py pages verify-live [-h] [--url URL] --commit COMMIT",
+            "arguments": [
+              {
+                "name": "url",
+                "flags": [
+                  "--url"
+                ],
+                "help": "",
+                "required": false,
+                "type": "string",
+                "kind": "option",
+                "default": "https://siebenwind.github.io/7w_wiki/"
+              },
+              {
+                "name": "commit",
+                "flags": [
+                  "--commit"
+                ],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "option"
+              }
+            ]
           },
           {
             "name": "build",
@@ -1251,12 +1313,12 @@
       },
       {
         "name": "mail",
-        "description": "usage: 7w_wiki.py mail [-h] {post,inbox,read,claim,done} ...",
+        "description": "usage: 7w_wiki.py mail [-h] {post,inbox,read,claim,done,classify} ...",
         "arguments": [],
         "subcommands": [
           {
             "name": "post",
-            "description": "usage: 7w_wiki.py mail post [-h] --from FROM_AGENT --to TO_AGENT\n                            --subject SUBJECT --body BODY\n                            [--report-path REPORT_PATH]\n                            [--priority {LOW,NORMAL,HIGH}]",
+            "description": "usage: 7w_wiki.py mail post [-h] --from FROM_AGENT --to TO_AGENT\n                            --subject SUBJECT --body BODY\n                            [--report-path REPORT_PATH] [--kind {TASK,INFO}]\n                            [--priority {LOW,NORMAL,HIGH}]",
             "arguments": [
               {
                 "name": "from_agent",
@@ -1309,6 +1371,21 @@
                 "kind": "option"
               },
               {
+                "name": "kind",
+                "flags": [
+                  "--kind"
+                ],
+                "help": "",
+                "required": false,
+                "type": "string",
+                "kind": "option",
+                "choices": [
+                  "TASK",
+                  "INFO"
+                ],
+                "default": "TASK"
+              },
+              {
                 "name": "priority",
                 "flags": [
                   "--priority"
@@ -1328,7 +1405,7 @@
           },
           {
             "name": "inbox",
-            "description": "usage: 7w_wiki.py mail inbox [-h] [--agent AGENT]\n                             [--status {OPEN,CLAIMED,DONE}] [--json]",
+            "description": "usage: 7w_wiki.py mail inbox [-h] [--agent AGENT] [--kind {TASK,INFO}]\n                             [--status {OPEN,CLAIMED,DONE}] [--json]",
             "arguments": [
               {
                 "name": "agent",
@@ -1339,6 +1416,20 @@
                 "required": false,
                 "type": "string",
                 "kind": "option"
+              },
+              {
+                "name": "kind",
+                "flags": [
+                  "--kind"
+                ],
+                "help": "",
+                "required": false,
+                "type": "string",
+                "kind": "option",
+                "choices": [
+                  "TASK",
+                  "INFO"
+                ]
               },
               {
                 "name": "status",
@@ -1448,6 +1539,54 @@
                 ],
                 "help": "",
                 "required": false,
+                "type": "string",
+                "kind": "option"
+              }
+            ]
+          },
+          {
+            "name": "classify",
+            "description": "usage: 7w_wiki.py mail classify [-h] --kind {TASK,INFO} --agent AGENT\n                                --note NOTE\n                                id",
+            "arguments": [
+              {
+                "name": "id",
+                "flags": [],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "positional"
+              },
+              {
+                "name": "kind",
+                "flags": [
+                  "--kind"
+                ],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "option",
+                "choices": [
+                  "TASK",
+                  "INFO"
+                ]
+              },
+              {
+                "name": "agent",
+                "flags": [
+                  "--agent"
+                ],
+                "help": "",
+                "required": true,
+                "type": "string",
+                "kind": "option"
+              },
+              {
+                "name": "note",
+                "flags": [
+                  "--note"
+                ],
+                "help": "",
+                "required": true,
                 "type": "string",
                 "kind": "option"
               }
@@ -2260,7 +2399,6 @@
         "runtime_commands": [
           "7w_wiki.py advisor",
           "7w_wiki.py search <query> --source wiki|quellen|all",
-          "7w_wiki.py repair --check-collision \"<Name>",
           "7w_wiki.py ingest <file>",
           "7w_wiki.py ingest forum-queue --json",
           "7w_wiki.py ingest forum-inspect --source <quellen-md> --json",
@@ -2612,7 +2750,7 @@
     },
     {
       "id": "wiki_style_guide",
-      "name": "[Display Title]",
+      "name": "Wiki-Stil und Quellenbezug",
       "description": "Siebenwind Wiki Style Guide & Convention",
       "source_path": ".agent/workflows/wiki_style_guide.md",
       "interop": {

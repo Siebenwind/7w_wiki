@@ -1,35 +1,41 @@
 ---
 title: Siebenwind
 category: Geografie
+quelle: "https://www.siebenwind.de/hintergrund/atlas/die-insel-siebenwind/"
+letzter_check: 2026-09-12
 ---
 
 # Siebenwind
 
-!!! info "Metadaten"
-    - **Typ:** Insel / Kronmark
-    - **Epistemischer Status:** #canon
+**Siebenwind** ist die Insel, deren Orte, Bewohner und Überlieferungen dieses Archiv erschließt. Hafenstädte, Siedlungen und Ruinen erzählen von wechselnden Herrschaften und den Kämpfen um die Insel.
 
+## Orte zum Entdecken
 
-## Überblick
-**Siebenwind** ist die zentrale Insel und das Herz der Welt. Sie ist geprägt von dichten Wäldern, schroffen Gebirgen und fruchtbaren Ebenen. Politisch ist die Insel als **Kronmark Siebenwind** organisiert und untersteht der Verwaltung der Krone (aktuell vertreten durch Baronin [[Beladriel_Blaettertanz]]).
+- **[[Brandenstein]]**: Hafenstadt im Westen mit Verbindung zum Festland und die älteste noch bestehende Stadt der Insel.
+- **[[Falkensee]]**: Ehemalige Hauptstadt, heute eine Ruinenstadt. Ältere Beschreibungen ihrer Verwaltung und Einrichtungen schildern vergangene Zustände.
+- **[[Rohehafen]]**: Ein untergegangener Ort im [[Ödland]].
+- **[[Grünland]]**: Landschaften und Siedlungsräume diesseits des Ödlands.
 
-## Wichtige Regionen
-- **[[Falkensee]]**: Die aktuelle Hauptstadt und das politische Zentrum der Kronmark.
-- **[[Brandenstein]]**: Aufstrebende Grenzstadt und Bollwerk.
-- **[[Rohehafen]]**: Die ehemalige Hauptstadt (Ruinen im [[Ödland]]).
-- **[[Grünland]]**: Das fruchtbare Hinterland.
+Die offizielle Inselübersicht nennt auch [[Südfall]] und Kesselklamm als Ruinen. Ein historischer Stadtartikel bedeutet daher nicht, dass der beschriebene Ort noch bewohnt ist.
 
-## [[Geschichte]]
-Die [[Geschichte]] der Insel ist geprägt von der Ankunft der [[Menschen]] unter König Hilgorad und dem mühsamen Aufbau einer Zivilisation inmitten wilder Gefahren. (Siehe auch [[Geschichte]])
+## Herrschaft im Wandel
 
----
-**Siehe auch:** [[Geografie]], [[Statut_der_Kronmark_Siebenwind]]
-**Quellen:** [Kanon], [[Die_Chronik]]
+Die offizielle Inselbeschreibung bezeichnet Siebenwind als Baronie mit Provinzen, Inselrat und Kanzler. Ältere Texte zur Kronmark und zu einzelnen Amtsträgern gehören in ihren jeweiligen historischen Zusammenhang; sie sind kein verlässliches Verzeichnis der heutigen Amtsinhaber.
+
+## Weiter durch die Geschichte
+
+[[Die_Chronik]] und die [Geschichtsübersicht](../05_Geschichte/index.md) führen zu Ereignissen und ihrer Überlieferung. Das [[Statut_der_Kronmark_Siebenwind]] dokumentiert eine historische Ordnung.
+
+## Quellen
+
+- [Offizielle Inselbeschreibung](https://www.siebenwind.de/hintergrund/atlas/die-insel-siebenwind/), geprüft am 12. September 2026.
+- [Offizielle Ortsbeschreibungen](https://www.siebenwind.de/hintergrund/atlas/die-insel-siebenwind/orte-auf-siebenwind/): Der Abschnitt zu Brandenstein beschreibt Hafen und Geschichte; die Falkensee-Passagen enthalten ältere Zustände.
 
 ## Überlieferungen
-- [[Atmender_Tod]]: Erwähnung in der Überlieferung.
-- [[Orkenaufstand_17_nH]]: Erwähnung in der Überlieferung.
-- [[Angriff_der_Schwarzmagier]]: Erwähnung in der Überlieferung.
-- [[Zeitstrahl]]: Erwähnung in der Überlieferung.
-- [[Waldemar_Delaries_Reise_nach_Papin]]: Erwähnung in der Überlieferung.
-- [[Heimsuchung_der_Akademie]]: Erwähnung in der Überlieferung.
+
+- [[Atmender_Tod]]
+- [[Orkenaufstand_17_nH]]
+- [[Angriff_der_Schwarzmagier]]
+- [[Zeitstrahl]]
+- [[Waldemar_Delaries_Reise_nach_Papin]]
+- [[Heimsuchung_der_Akademie]]
