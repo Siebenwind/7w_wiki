@@ -57,9 +57,9 @@ Stabilitaetsregel:
 - Für Pages-/Navigationsänderungen zusätzlich `./7w_wiki.py test --suite pages-full-smoke`, `./7w_wiki.py pages validate --json` und `./7w_wiki.py test --suite reader-browser` ausführen. Während der Arbeit gezielte Checks; die vollständige Abnahme einmal am finalen Stand. Fehlende reale iOS-/Android-Prüfung ausdrücklich als Freigabegrenze ausweisen.
 
 RAG-Diagnose- und Benchmarkdoku:
-- `docs/Archiv/RAG_DIAGNOSE_2026-02-16.md`
+- `System/_archive/Dossiers_2026-02/RAG_DIAGNOSE_2026-02-16.md`
 - `System/Archivregister/ARCHIVREGISTER.md` (wird durch `./7w_wiki.py index --status` aktualisiert)
-- `docs/Archiv/LESSONS_LEARNED_TEST_RUNNER_RAG_QUARANTINE_2026-02-18.md`
+- `System/_archive/Dossiers_2026-02/LESSONS_LEARNED_TEST_RUNNER_RAG_QUARANTINE_2026-02-18.md`
 
 ## Agentenmentalitaet
 

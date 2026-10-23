@@ -30,4 +30,3 @@ This adapter is generated from the canonical catalog. Runtime execution stays on
 ## References
 - `.agent/workflows/forum_search.md`
 - `Quellen/Forum/`
-- `docs/Quellen/Forum/`

@@ -7,7 +7,7 @@ description: Universeller Master Workflow für Ingestion (Quellen -> Wiki)
 
 # Department: 🏛️ Lore-Archiv (/ingest_master)
 
-Dieser Workflow beschreibt die Überführung von Originalmaterial aus `Quellen/` in Wikiartikel unter `docs/Siebenwind_Wiki/`. `docs/Quellen/` ist die Publikationsfläche der Quellen. Für Widersprüche gilt **Homepage > Quellen > Wiki Pages**, wie im [Drift-/Pages-Vertrag](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md) festgelegt.
+Dieser Workflow beschreibt die Überführung von Originalmaterial aus `Quellen/` in Wikiartikel unter `docs/Siebenwind_Wiki/`. `docs/Quellen/` entsteht erst beim Build als Kopie von `Quellen/` und wird nicht versioniert. Für Widersprüche gilt **Homepage > Quellen > Wiki Pages**, wie im [Drift-/Pages-Vertrag](../../System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md) festgelegt.
 
 Er kombiniert Lesen, Quellenvergleich und Schreiben; das Entitätsmanifest macht den tatsächlichen Auswertungsumfang nachvollziehbar, garantiert aber keine vollständige Erfassung.
 
@@ -74,7 +74,7 @@ Fuer archivierte Forumquellen ist der Runtime-Pfad agentisch:
 
 Neue Wiki-Artikel sind erlaubt, wenn die Quelle volltextarchiviert ist, kein kanonischer Zielartikel existiert, der Gegenstand eigenstaendig genug ist und der Artikel ohne erfundene Lore geschrieben werden kann. Forumquellen behalten eine niedrige epistemische Markierung (`#forum`, `#perspektive`). Menschliche Pruefung ist nur bei echter Kanonentscheidung, unloesbarem Widerspruch oder niedriger Evidenz erforderlich.
 
-Historian-Regel fuer `Geschichten aus dem Spiel`: Die archivierte Metaquelle `docs/Quellen/Forum/Geschichten_aus_dem_Spiel/undated_zweck_dieses_forums.md` dokumentiert, dass dieses Forum seit dem 11. Maerz 2015 fuer tatsaechlich geschehene Spielereignisse vorgesehen ist; rein fiktive Geschichten sollten in einem getrennten Forum stehen. Das hebt einzelne Forumtexte nicht auf #canon, erlaubt aber eine operative Erstannahme als gespielte Ereignisueberlieferung, solange keine hoeherwertige Quelle widerspricht.
+Historian-Regel fuer `Geschichten aus dem Spiel`: Die archivierte Metaquelle `Quellen/Forum/Geschichten_aus_dem_Spiel/undated_zweck_dieses_forums.md` dokumentiert, dass dieses Forum seit dem 11. Maerz 2015 fuer tatsaechlich geschehene Spielereignisse vorgesehen ist; rein fiktive Geschichten sollten in einem getrennten Forum stehen. Das hebt einzelne Forumtexte nicht auf #canon, erlaubt aber eine operative Erstannahme als gespielte Ereignisueberlieferung, solange keine hoeherwertige Quelle widerspricht.
 
 Stilregel fuer Forum-Drafts: Der Artikelkoerper bleibt im Wiki-Ton. Technische Hinweise wie "archivierte Forumquelle", Raw-HTML-Status oder Registerlogik gehoeren in Frontmatter, Referenzen und Ingestion-Report, nicht in die Beschreibung. Im Fliesstext werden niedrigere Quellenlagen als "Erzaehlueberlieferung", "weitere Ueberlieferung" oder mit sachlicher Distanz formuliert; die epistemische Markierung bleibt ueber Metadaten sichtbar.
 
@@ -82,10 +82,10 @@ Stilregel fuer Forum-Drafts: Der Artikelkoerper bleibt im Wiki-Ton. Technische H
 
 ```bash
 ./7w_wiki.py ingest forum-queue --json [--status fulltext_archived|integrated] [--limit N]
-./7w_wiki.py ingest forum-inspect --source docs/Quellen/Forum/.../<datei>.md --json
-./7w_wiki.py ingest forum-draft --source docs/Quellen/Forum/.../<datei>.md --action update --target docs/Siebenwind_Wiki/.../<ziel>.md --dry-run --json
-./7w_wiki.py ingest forum-draft --source docs/Quellen/Forum/.../<datei>.md --action create --target docs/Siebenwind_Wiki/.../<neuer_artikel>.md --apply --json
-./7w_wiki.py ingest forum-finalize --source docs/Quellen/Forum/.../<datei>.md --target docs/Siebenwind_Wiki/.../<ziel>.md --report Logs/Ingestion/<report>.md --status integrated --json
+./7w_wiki.py ingest forum-inspect --source Quellen/Forum/.../<datei>.md --json
+./7w_wiki.py ingest forum-draft --source Quellen/Forum/.../<datei>.md --action update --target docs/Siebenwind_Wiki/.../<ziel>.md --dry-run --json
+./7w_wiki.py ingest forum-draft --source Quellen/Forum/.../<datei>.md --action create --target docs/Siebenwind_Wiki/.../<neuer_artikel>.md --apply --json
+./7w_wiki.py ingest forum-finalize --source Quellen/Forum/.../<datei>.md --target docs/Siebenwind_Wiki/.../<ziel>.md --report Logs/Ingestion/<report>.md --status integrated --json
 ./7w_wiki.py ingest reports-calibrate --dry-run --json
 ```
 
@@ -103,7 +103,7 @@ Status- und Aktionswerte:
 
 Nutze die Ingest-Pipeline fuer den technischen Abschluss des bearbeiteten Quelldokuments:
 ```bash
-./7w_wiki.py ingest "docs/Quellen/Zielordner/Datei.md"
+./7w_wiki.py ingest "Quellen/Zielordner/Datei.md"
 ```
 Diese Pipeline erledigt derzeit:
 1. **Linting & Styling:** Wendet den Wiki Style Guide an.

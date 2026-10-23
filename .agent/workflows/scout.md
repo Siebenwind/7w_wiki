@@ -32,7 +32,7 @@ Dieser Workflow dient der regelmäßigen Prüfung der Siebenwind-Homepage auf ne
 - Wenn du stattdessen gezielt nach neuen Forenquellen jagst: route zu `/forum_search`.
 
 ### 3. Formatierung
-- Prüfe Original-URL und Datum auf Dubletten und archiviere neue Quellen unter `Quellen/News/[YYYY-MM-DD]_[TITEL].md`. `docs/Quellen/` ist die Publikationsfläche, kein zweiter unabhängig gepflegter Quellenbestand.
+- Prüfe Original-URL und Datum auf Dubletten und archiviere neue Quellen unter `Quellen/News/[YYYY-MM-DD]_[TITEL].md`. `docs/Quellen/` entsteht nur beim Build als Kopie und ist kein eigener Quellenbestand.
 - Füge den Standard-YAML-Header ein.
 - Stelle sicher, dass das Markdown sauber formatiert ist (H2 für Untertitel, korrekte Listen).
 

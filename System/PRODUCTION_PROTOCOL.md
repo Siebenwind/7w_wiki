@@ -10,10 +10,10 @@ epistemic: "#meta"
 Verbindliches Protokoll, präzisiert am 21. Oktober 2026: Beauftragte, wiederverwendbare Ergebnisse werden innerhalb der ausdrücklich erlaubten Schreibgrenzen abgelegt. Reine Leseaufträge und temporäre Testartefakte erfordern keine zusätzlichen Repositorydateien.
 
 ## Ablagepflicht
-- Schlussfolgerungen -> `Logs/Conclusions/`
-- Ideen & Hypothesen -> `Logs/Ideas/`
-- Artworks/Visual-Konzepte -> `Logs/Artworks/`
-- Praesentationen/Dossiers -> `Logs/Presentations/`
+- Berichte, Schlussfolgerungen, Ideen, Visual-Konzepte und Dossiers -> `Logs/Reports/`
+- Forschungsberichte -> `Logs/Research/`
+- Ingestionsnachweise -> `Logs/Ingestion/`
+- Die früheren Einzelordner (`Conclusions`, `Ideas`, `Artworks`, `Presentations`, `Batch`) liegen seit dem 23. Oktober 2026 unter `System/_archive/Logs_2026-02/`.
 
 ## Mindestmetadaten je Artefakt
 - `uuid`

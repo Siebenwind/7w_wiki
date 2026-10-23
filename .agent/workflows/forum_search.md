@@ -54,7 +54,7 @@ Standard-Tiefe: `--pages 3`, fuer Geschichten-Boards `--pages 5`
 2. Prüfe die gelisteten Titel/Topic-IDs gegen bestehende Quellen unter:
    - `Quellen/Forum/Bekanntmachungen/`
    - `Quellen/Forum/Newsticker/`
-   - `docs/Quellen/Forum/Geschichten_aus_dem_Spiel/`
+   - `Quellen/Forum/Geschichten_aus_dem_Spiel/`
 3. Wiederhole den Lauf bei Bedarf für `news` oder `geschichten`.
 4. Markiere einen Treffer nur dann als **neuen Quellenkandidaten**, wenn:
    - kein gleichwertiger Quelldatensatz bereits in `Quellen/Forum/...` vorhanden ist,
@@ -65,7 +65,7 @@ Standard-Tiefe: `--pages 3`, fuer Geschichten-Boards `--pages 5`
    - Volltext-Pilot: `./7w_wiki.py scout --forum geschichten --topic-id <id> --archive-fulltext --json`
    - Volltext-Batch: `./7w_wiki.py scout --forum geschichten --archive-fulltext --limit 5 --json`
    - Dry-Run vor groesseren Batches: `--dry-run --json`
-   - Raw HTML wird unter `docs/Quellen/_ARCHIV_ORIGINAL/Forum/...` sessionbereinigt abgelegt; lesbare Quellen entstehen unter `docs/Quellen/Forum/...`.
+   - Raw HTML wird unter `Quellen/_ARCHIV_ORIGINAL/Forum/...` sessionbereinigt abgelegt; lesbare Quellen entstehen unter `Quellen/Forum/...`.
 6. Uebergib verarbeitbare Volltexte an den Ingest-Pfad:
    - Queue: `./7w_wiki.py ingest forum-queue --json`
    - Einzelfall: `./7w_wiki.py ingest forum-inspect --source <quellen-md> --json`

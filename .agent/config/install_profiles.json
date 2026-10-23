@@ -6,7 +6,7 @@
     ".venv",
     "site",
     "dist",
-    "docs/Quellen/_ARCHIV_ORIGINAL",
+    "Quellen/_ARCHIV_ORIGINAL",
     "**/__pycache__"
   ],
   "platform_order": [
