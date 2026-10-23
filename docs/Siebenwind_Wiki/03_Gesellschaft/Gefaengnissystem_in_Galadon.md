@@ -29,7 +29,7 @@ Diese Angaben beschreiben ausdrücklich einen historischen Zustand um 16 n.H.; e
 
 ## Referenzen
 
-- Hintergrundquelle: [Das Gefängnissystem in Galadon](../../Quellen/Hintergrund/Das%20Gefa%CC%88ngnisssystem%20in%20Galadon.md)
+- Hintergrundquelle: [Das Gefängnissystem in Galadon](../../Quellen/Hintergrund/Das%20Gef%C3%A4ngnisssystem%20in%20Galadon.md)
 - Archivierte Parallelfassung: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_hintergrundexkurse.md`, Beitrag 1
 - Raw HTML: `../../Quellen/_ARCHIV_ORIGINAL/Forum/Geschichten_aus_dem_Spiel/31020.html`
 - Prüfbericht: `../../../Logs/Ingestion/2026-08-05_Forum_hintergrundexkurse.md` (ID: `be17cd47-df00-49e0-8dd9-32c617c4ee55`)

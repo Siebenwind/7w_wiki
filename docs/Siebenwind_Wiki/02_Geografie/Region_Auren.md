@@ -44,6 +44,6 @@ Die Mauer von Ma'ahn unterbindet Wanderungen einzelner Elfen nicht vollständig.
 
 ## Referenzen
 
-- Hintergrundquelle: [Auren und die Verbreitung der Elfenvölker](../../Quellen/Hintergrund/Auren%20und%20die%20Verbreitung%20der%20Elfenvo%CC%88lker.md)
+- Hintergrundquelle: [Auren und die Verbreitung der Elfenvölker](../../Quellen/Hintergrund/Auren%20und%20die%20Verbreitung%20der%20Elfenv%C3%B6lker.md)
 - Archivierte Parallelfassung: `../../Quellen/Forum/Geschichten_aus_dem_Spiel/undated_hintergrundexkurse.md`, Beitrag 3
 - Prüfbericht: `../../../Logs/Ingestion/2026-08-05_Forum_hintergrundexkurse.md` (ID: `be17cd47-df00-49e0-8dd9-32c617c4ee55`)
