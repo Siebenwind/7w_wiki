@@ -78,10 +78,10 @@ def main():
             page=browser.new_page(viewport={'width':390,'height':844})
             page.set_default_timeout(30000)
             try:
-                for q in ['Astrael','Bellum','Brandenstein','Toran Dur',alias[1],'König','keintrefferxyz98765']:
+                for q in ['Astrael','Bellum','Brandenstein','Toran Dur',alias[1],'König','qqqzzz']:
                     page.goto(base+'suche/?q='+quote(q)+'&bereich=wiki')
                     expect(page.locator('[data-sw-results] [role=status]')).not_to_have_text('Suche läuft …',timeout=30000)
-                    if q=='keintrefferxyz98765':
+                    if q=='qqqzzz':
                         expect(page.locator('[data-sw-results] [role=status]')).to_contain_text('Keine Ergebnisse')
                     elif q in ['Astrael','Bellum','Brandenstein','Toran Dur',alias[1]]:
                         expected = next(r for r in titles if r['kind']=='wiki' and any(a.casefold()==q.casefold() for a in [r['title'],*r['aliases']]))
