@@ -116,4 +116,4 @@ Dieses Dokument dient als agentenübergreifendes Gedächtnis. Es trennt den **ak
 *Aktiver Drift-/Pages-Vertrag:* `System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md`
 
 
-Die vollständige Projekthistorie (v1.0 bis v3.0) wurde archiviert unter: `docs/Archiv/PROJECT_HISTORY.md`
+Die vollständige Projekthistorie (v1.0 bis v3.0) wurde archiviert unter: `System/_archive/Dossiers_2026-02/PROJECT_HISTORY.md`

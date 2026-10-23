@@ -4,6 +4,9 @@ site_author: Siebenwind Gemeinschaft
 copyright: "© 2026 LeCorbeau & Siebenwind Gemeinschaft | Inhalte: Autoren & Projekt Siebenwind"
 docs_dir: docs
 site_dir: site
+# Roh-HTML-Originale bleiben Provenienz und werden nicht veröffentlicht.
+exclude_docs: |
+  Quellen/_ARCHIV_ORIGINAL/
 
 repo_name: Siebenwind/7w_wiki
 repo_url: https://github.com/Siebenwind/7w_wiki

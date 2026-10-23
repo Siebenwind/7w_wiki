@@ -43,6 +43,7 @@ htmlcov/
 !/Logs/Archive/AUDIT_CONSOLIDATION_INDEX_*.md
 !/Logs/Archive/AGENT_CHANGE_PACKET_*.md
 /site/
+/docs/Quellen/
 /dist/
 /.tmp/
 /missing_links.txt
@@ -54,7 +55,7 @@ htmlcov/
 *_backup
 
 # === Intentionally versioned evidence (do not ignore broadly) ===
-# - docs/Quellen/_ARCHIV_ORIGINAL/  (source provenance)
+# - Quellen/_ARCHIV_ORIGINAL/       (source provenance)
 # - Logs/Ingestion/                 (ingestion evidence)
 # - System/Synapse_Board/DISPATCH/ (coordination history)
 # - docs/Siebenwind_Wiki/           (canonical technical edit tree)
@@ -69,7 +70,8 @@ htmlcov/
 # Older tracked handover notes remain in git history.
 /System/Synapse_Board/DISPATCH/MSG-*_session_memory_*.md
 /System/Synapse_Board/DISPATCH/MSG-*_session_handover_*.md
-/.agent/data/wiki_inventory_history/wiki_inventory_*.json
+/.agent/data/wiki_inventory_history/
+/.agent/data/cold/
 
 # === Wissenswerk/v2 Runtime Residue ===
 # Standalone Wissenswerk output belongs to its own product surface, not this

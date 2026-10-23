@@ -72,7 +72,7 @@ Fuer die groessere Department-Logik verweist es auf [lore_master.md](lore_master
 4. Erzeuge semantische Entscheidungen mit `./7w_wiki.py pages backlog historian --cluster <cluster> --resolve --json` oder dateiweise mit `--article <path> --resolve --json`.
 5. Schreibe semantische Entscheidungen nur mit `--resolve --apply --yes`; der Vollautomat zusaetzlich nur mit `--run-all --resolve --apply --yes --i-understand-bulk-semantics`.
 6. Technische Format-/Wrapper-Cluster duerfen nur bei eindeutigem Replacement angewendet werden; semantische Cluster schreiben nur `replace`-Entscheidungen mit lokaler Evidenz.
-7. Rohquellen unter `docs/Quellen` bleiben read-only und werden hoechstens als Residuen notiert.
+7. Rohquellen unter `Quellen/` bleiben read-only und werden hoechstens als Residuen notiert.
 8. Nur echte Kanon-, Praezedenz- oder Zielkonflikte werden als `needs_human` eskaliert.
 
 ## 4. Abschluss

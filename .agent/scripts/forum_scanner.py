@@ -20,8 +20,8 @@ FORUM_ALLOWLIST = {
     "bekanntmachungen": {
         "forum_id": 6,
         "label": "Bekanntmachungen",
-        "docs_dir": REPO_ROOT / "docs" / "Quellen" / "Forum" / "Bekanntmachungen",
-        "raw_html_dir": REPO_ROOT / "docs" / "Quellen" / "_ARCHIV_ORIGINAL" / "Forum" / "Bekanntmachungen",
+        "docs_dir": REPO_ROOT / "Quellen" / "Forum" / "Bekanntmachungen",
+        "raw_html_dir": REPO_ROOT / "Quellen" / "_ARCHIV_ORIGINAL" / "Forum" / "Bekanntmachungen",
         "default_pages": 3,
         "human_escalation_default": False,
         "status": "archiviert",
@@ -29,8 +29,8 @@ FORUM_ALLOWLIST = {
     "news": {
         "forum_id": 1,
         "label": "Newsticker",
-        "docs_dir": REPO_ROOT / "docs" / "Quellen" / "Forum" / "Newsticker",
-        "raw_html_dir": REPO_ROOT / "docs" / "Quellen" / "_ARCHIV_ORIGINAL" / "Forum" / "Newsticker",
+        "docs_dir": REPO_ROOT / "Quellen" / "Forum" / "Newsticker",
+        "raw_html_dir": REPO_ROOT / "Quellen" / "_ARCHIV_ORIGINAL" / "Forum" / "Newsticker",
         "default_pages": 3,
         "human_escalation_default": False,
         "status": "archiviert",
@@ -38,8 +38,8 @@ FORUM_ALLOWLIST = {
     "geschichten": {
         "forum_id": 27,
         "label": "Geschichten aus dem Spiel",
-        "docs_dir": REPO_ROOT / "docs" / "Quellen" / "Forum" / "Geschichten_aus_dem_Spiel",
-        "raw_html_dir": REPO_ROOT / "docs" / "Quellen" / "_ARCHIV_ORIGINAL" / "Forum" / "Geschichten_aus_dem_Spiel",
+        "docs_dir": REPO_ROOT / "Quellen" / "Forum" / "Geschichten_aus_dem_Spiel",
+        "raw_html_dir": REPO_ROOT / "Quellen" / "_ARCHIV_ORIGINAL" / "Forum" / "Geschichten_aus_dem_Spiel",
         "default_pages": 5,
         "human_escalation_default": False,
         "status": "archiviert",
@@ -649,7 +649,7 @@ def topic_from_register_or_id(board_key: str, topic_id: str) -> dict:
 
 def archive_topic_fulltext(board_key: str, topic: dict, dry_run: bool, max_topic_pages: int) -> dict:
     cfg = FORUM_ALLOWLIST[board_key]
-    known_refs = existing_topic_refs(REPO_ROOT / "docs" / "Quellen" / "Forum")
+    known_refs = existing_topic_refs(REPO_ROOT / "Quellen" / "Forum")
     payload = load_register()
     _, entry = find_register_entry(payload.get("entries", []), board_key, topic["topic_id"])
     existing_ref = topic.get("source_ref") or (entry or {}).get("source_ref") or known_refs.get(topic["topic_id"])
@@ -762,7 +762,7 @@ def main() -> int:
         scan_results: list[dict] = []
     else:
         topics = scan_forum(board_key, max_pages=pages, verbose=not args.json)
-        known_topic_refs = existing_topic_refs(REPO_ROOT / "docs" / "Quellen" / "Forum")
+        known_topic_refs = existing_topic_refs(REPO_ROOT / "Quellen" / "Forum")
         scan_results = [] if args.dry_run else update_register(board_key, pages, topics, known_topic_refs, cfg)
 
     archive_results: list[dict] = []

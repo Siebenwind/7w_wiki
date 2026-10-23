@@ -24,7 +24,7 @@ REGISTER_PATH = REPO_ROOT / ".agent" / "data" / "forum_scan_register.json"
 REGISTER_LOCK_PATH = Path("/tmp/7w_wiki_forum_scan_register.lock")
 WIKI_ROOT = REPO_ROOT / "docs" / "Siebenwind_Wiki"
 INGESTION_REPORTS_DIR = REPO_ROOT / "Logs" / "Ingestion"
-FORUM_SOURCE_ROOT = REPO_ROOT / "docs" / "Quellen" / "Forum"
+FORUM_SOURCE_ROOT = REPO_ROOT / "Quellen" / "Forum"
 FORUM_ACTIONS = {
     "update_existing",
     "create_article",
@@ -470,6 +470,10 @@ def command_forum_inspect(args: argparse.Namespace) -> int:
 
 
 def source_rel_from_target(source: Path, target: Path) -> str:
+    # Quellen/ liegt im Repo-Root, wird beim Build aber nach docs/Quellen/ kopiert.
+    source = repo_path(source)
+    if source.is_relative_to(REPO_ROOT / "Quellen"):
+        source = REPO_ROOT / "docs" / source.relative_to(REPO_ROOT)
     return os.path.relpath(source, target.parent).replace(os.sep, "/")
 
 
@@ -759,7 +763,7 @@ def create_generic_forum_page(target: Path, source: dict, report_id: str, report
             "",
             "## Referenzen",
             f"- Forumquelle: `{source_rel_from_target(source['path'], target)}`",
-            f"- Raw HTML: `{os.path.relpath(repo_path(source['raw_html_refs'][0]), target.parent).replace(os.sep, '/') if source['raw_html_refs'] else '[UNGEKLÄRT]'}`",
+            f"- Raw HTML: `{source_rel_from_target(repo_path(source['raw_html_refs'][0]), target) if source['raw_html_refs'] else '[UNGEKLÄRT]'}`",
             f"- Prüfbericht: `{os.path.relpath(report_path, target.parent).replace(os.sep, '/')}` (ID: `{report_id}`)",
         ]
     )

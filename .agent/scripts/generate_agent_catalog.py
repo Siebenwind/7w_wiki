@@ -126,8 +126,7 @@ WORKFLOW_Codex_ADAPTERS = {
         ],
         "references": [
             ".agent/workflows/forum_search.md",
-            "Quellen/Forum/",
-            "docs/Quellen/Forum/"
+            "Quellen/Forum/"
         ],
     },
 }
