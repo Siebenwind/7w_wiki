@@ -113,12 +113,11 @@ def replace_section(content: str, start_regex: str, end_regex: str, new_block: s
 def sync_agents(commands: list[dict]) -> None:
     content = AGENTS_FILE.read_text(encoding="utf-8")
     table = build_agents_table(commands)
-    content = replace_section(
-        content,
-        r"(## 🛠️ Command Registry \(Executable Capabilities\)\n\nUse `\./7w_wiki\.py <command>` for all operations\.\n\n)",
-        r"(\n## 📂 Documentation Map)",
-        table,
-    )
+    start = content.find(TABLE_START)
+    end = content.find(TABLE_END)
+    if start == -1 or end < start:
+        raise RuntimeError("Command registry markers not found in AGENTS.md.")
+    content = content[:start] + table + content[end + len(TABLE_END):]
     AGENTS_FILE.write_text(content, encoding="utf-8")
 
 

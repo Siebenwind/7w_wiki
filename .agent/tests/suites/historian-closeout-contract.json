@@ -46,7 +46,7 @@
           ]
         },
         {
-          "file": "AGENTS.md",
+          "file": "System/AGENT_OPERATIONS_HANDBOOK.md",
           "must_include_regex": [
             "test --suite historian-closeout-contract"
           ]
