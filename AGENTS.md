@@ -1,47 +1,16 @@
-# 🤖 Siebenwind Wiki: Agent Protocols
+# Siebenwind Wiki: Instructions for the Archive's Agents
 
-> **Canonical Entry Point for Autonomous Agents**
-> *Compatible with: OpenAI Codex, MCP-capable IDEs/CLIs, legacy Antigravity alias*
+You are working in the archive of **Siebenwind**, a fantasy world built together by its players for more than twenty years. Treat it like an old library: preserve what the chroniclers wrote, keep the shelves in order, and never invent what the sources do not say.
 
-## 🎯 Mission Statement
-You are operating on the **Siebenwind Wiki**, a 20-year-old collaborative world-building project. Your goal is to preserve its history while modernizing its infrastructure.
-**Repository Root:** `.`
+## The Laws of the Archive
 
-## 📜 The Golden Rules (Non-Negotiable)
-
-1.  **Runtime Authority**: The **ONLY** executable interface is `./7w_wiki.py`. Do not create custom scripts or use `sed`/`awk` for complex logic.
-2.  **Epistemic Integrity**:
-    -   Never hallucinate lore. If information is missing, use tags like `[UNGEKLÄRT]`.
-    -   **Epistemic precedence is `Homepage > Quellen > Wiki Pages`.**
-    -   `docs/Siebenwind_Wiki/` is the technical edit tree and publishing-facing page tree, not the highest epistemic authority.
-    -   Die kanonische Vollregel fuer Drift, Pages und Praezedenz steht in [SY_DRIFT_PAGES_CONTRACT.md](System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
-3.  **Link Hygiene**:
-    -   **NO** absolute paths (`file://`).
-    -   Use `[[WikiLinks]]` for knowledge base articles.
-    -   Use repo-relative paths (`System/...`) for documentation.
-4.  **Coordination Central**:
-    -   Every new system file MUST be registered in `System/COORDINATION_HUB.md`.
-    -   Use `System/Synapse_Board/` for conflict resolution.
-5.  **Agent Interop**:
-    -   Respect the folder structure: `.agent/` is for internal logic.
-    -   Treat `.agent/catalog/catalog.v1.json` as the canonical discovery catalog.
-    -   Treat `lore_manifest.json` as a generated compatibility surface, never as the source of truth.
-    -   Treat `.agents/skills/` plus `.codex/config.toml` as the Codex adapter surface, not as the source of truth.
-    -   Use `.agent/config/tools.json` for machine-readable tool discovery (OpenAI-compatible schema).
-    -   Use `./7w_wiki.py --help-json` for dynamic CLI introspection.
-6.  **Mission Report Protocol**:
-    -   Every session or task MUST end with a status report via `mail done` (if working on a specific message) or `mail post` (for general updates).
-    -   Reports must be concise but include: What was done, what was verified, and what is next.
-7.  **Inquisitive Protocol**:
-    -   If you find an anomaly unrelated to your current task, **ASK**. Do not ignore it.
-    -   Use `mail post` to query the `Coordinator` or `Technician`.
-8.  **Machine-Readable First**:
-    -   When available, agents MUST use CLI commands with `--json` (e.g., `advisor --json`, `audit --json`) for reliable parsing.
-    -   Output parsing of human-readable text is discouraged if a JSON flag exists.
-9.  **No Bridge-Placeholders by Default**:
-    -   Fix links to canonical targets first.
-    -   Do not ship generic bridge/stub pages as final repairs.
-    -   Temporary bridge exceptions require lifecycle metadata (`bridge_mode`, `bridge_target`, `bridge_ticket`, `bridge_review_until`).
+1. **One runtime.** All operations go through `./7w_wiki.py`. Do not write ad-hoc scripts or `sed`/`awk` pipelines for logic the CLI already covers. Edit `7w_wiki.py` itself only when the task is about the tooling.
+2. **Truth flows downward.** Epistemic precedence is `Homepage > Quellen > Wiki Pages`. `docs/Siebenwind_Wiki/` is the edit and publishing tree, not the highest authority. When sources conflict, reconcile the wiki upward; mark gaps with `[UNGEKLÄRT]` instead of filling them. The full rule lives in [SY_DRIFT_PAGES_CONTRACT.md](System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
+3. **Clean links.** Use `[[WikiLinks]]` between articles and repo-relative paths (`System/...`) in documentation. Never use absolute or `file://` paths.
+4. **No Bridge-Placeholders by Default.** Repair a broken link by pointing it at the real target. Do not ship generic stub pages as a fix. A temporary bridge needs `bridge_mode`, `bridge_target`, `bridge_ticket` and `bridge_review_until` in its frontmatter.
+5. **Machine-readable first.** Prefer `--json` output (`advisor --json`, `audit --json`, `pages validate --json`) over parsing human text.
+6. **Ask, don't guess.** If you stumble on an anomaly outside your task, or sources contradict each other, raise it as a question instead of silently deciding (question-first).
+7. **Register new system files** in [COORDINATION_HUB.md](System/COORDINATION_HUB.md).
 
 <!-- BEGIN GENERATED DRIFT CONTRACT REFERENCE -->
 > Generated reference block. The surrounding narrative text remains manually maintained.
@@ -55,10 +24,17 @@ You are operating on the **Siebenwind Wiki**, a 20-year-old collaborative world-
 > - Generated command registries are synced by `./7w_wiki.py tech --sync-docs` / `--sync-interop`; narrative rules live in the canonical contract.
 <!-- END GENERATED DRIFT CONTRACT REFERENCE -->
 
-## 🛠️ Command Registry (Executable Capabilities)
+## How to Work Here
 
-Use `./7w_wiki.py <command>` for all operations.
+1. **Arrive.** Run `./7w_wiki.py start` and `./7w_wiki.py advisor`. For longer work, also check `./7w_wiki.py mail inbox --status OPEN` and read the latest `Logs/Archive/SESSION_MEMORY_*.md`.
+2. **Plan.** Open tasks live in `MASTER_TASK_LIST.md` and, if present, `task.md`.
+3. **Work.** Before editing lore, classify the drift (homepage, Quellen or wiki page) and check the higher source first. For research, run the Oracle with an explicit scope: `search <query> --source wiki|quellen|all`.
+4. **Verify.** Run `./7w_wiki.py audit` and `./7w_wiki.py test --suite all` before committing. If the published site or navigation changed, also run `./7w_wiki.py pages validate --json` and `./7w_wiki.py test --suite pages-full-smoke`.
+5. **Record.** Note notable changes in `CHANGELOG.md`. Multi-step campaigns (ingestion runs, Historian runs, releases) send status heartbeats via `mail post` while they run and close with `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md`. Small, self-contained tasks need neither.
 
+Build bundles under `dist/` are release artifacts and are never committed.
+
+## Command Registry
 
 <!-- BEGIN GENERATED COMMAND REGISTRY -->
 | Command | Purpose | Context |
@@ -95,71 +71,18 @@ Use `./7w_wiki.py <command>` for all operations.
 | `mcp` | Start the MCP server for structured agent access. | `System/MCP/server.py` |
 <!-- END GENERATED COMMAND REGISTRY -->
 
-## 📂 Documentation Map
+## Where Things Live
 
--   **Governance**: [SY_INTEROP.md](System/Synapse_Board/SY_INTEROP.md) (Interop Standards)
--   **Drift-/Pages-Vertrag**: [SY_DRIFT_PAGES_CONTRACT.md](System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md)
--   **Coordination**: [COORDINATION_HUB.md](System/COORDINATION_HUB.md) (Registry)
--   **Operations Overview**: [AGENT_OPERATIONS_HANDBOOK.md](System/AGENT_OPERATIONS_HANDBOOK.md) (Agents, Skills, Workflows, Dispatch)
--   **Testing Protocol**: [SY_TESTING.md](System/Synapse_Board/SY_TESTING.md) (Suites, Defect-Flow, Agent Mentality)
--   **Workflow-CLI Bridge**: [SY_WORKFLOW_CLI_MATRIX.md](System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md)
--   **Workflows**: `.agent/workflows/*.md` (Standard Operating Procedures)
--   **Personas**: `.agent/instructions/*.md` (Role definitions)
+- **Canonical core:** `.agent/` (scripts, skills, workflows, personas, data) and `./7w_wiki.py`.
+- **Discovery catalog:** `.agent/catalog/catalog.v1.json`. `lore_manifest.json` and `.agent/config/tools.json` are generated from it.
+- **Codex adapters:** `.agents/skills/` and `.codex/config.toml` are thin generated pointers into `.agent/`. Do not edit them by hand; regenerate with `./7w_wiki.py tech --sync-surfaces` (or `--sync-interop` for everything).
+- **MCP server:** `./7w_wiki.py mcp` exposes the CLI as typed tools plus the catalog as `wiki://` resources; clients find it via `mcp_config.json`. See [System/MCP/README.md](System/MCP/README.md). The `wiki_mail_quip` tool is there for in-character banter between agents; use it freely.
+- **Workflows and personas:** `.agent/workflows/*.md` and `.agent/instructions/*.md`.
 
-## 🧭 Adapter Surfaces
+Deeper reading, when a task needs it:
 
-Canonical layer model:
-
-- **Canonical core**: `.agent/` + `./7w_wiki.py`
-- **Open runtime surface**: MCP via `./7w_wiki.py mcp` and `mcp_config.json`
-- **Compatibility surface**: `lore_manifest.json`
-- **Codex adapter surface**: `.agents/skills/` + `.codex/config.toml`
-- **Future discovery surface**: `docs/.well-known/agent.json`
-
-Practical meaning:
-- Use `./7w_wiki.py start` as the canonical onboarding path. `antigravity` survives only as a deprecated compatibility alias.
-- Use `.agents/skills/` for Codex-native discoverability, but treat those files as generated adapters derived from the canonical catalog.
-- `/scout` remains the broad external discovery entrypoint; `/forum_search` is the dedicated operational path for board-first source discovery.
-
-Maintainer note:
-- Regenerate the canonical discovery and adapter surfaces with `./7w_wiki.py tech --sync-surfaces` or the full `./7w_wiki.py tech --sync-interop`.
-- Use `./7w_wiki.py tech --repo-hygiene [--apply] [--json]` for conservative hot/cold/runtime/build cleanup and retention.
-- `./7w_wiki.py tech --sync-bridges` remains only as a deprecated alias for old runbooks.
-
-## 🚀 How to Work Here (Standard Loop)
-
-1.  **Onboard**: Run `./7w_wiki.py start`, `./7w_wiki.py advisor`, and `./7w_wiki.py mail inbox --status OPEN` first. Read the latest `Logs/Archive/SESSION_MEMORY_*.md` before starting new work.
-2.  **Plan**: Check `MASTER_TASK_LIST.md` and `task.md` (if available).
-3.  **Execute**: Use `7w_wiki.py` tools. Do NOT edit `7w_wiki.py` unless assigned to "DevOps". Send status heartbeats via `mail post` on long tasks and route contradictions as specialist questions (question-first).
-    Classify lore drift before editing: homepage drift, Quellen drift, or wiki-page drift. Reconcile against higher-precedence sources first; only then treat wiki-page edits as resolved.
-    Bundle archives under `dist/` are release/build artifacts, not repo truth. Create them locally or via GitHub Releases, but do not commit them.
-4.  **Verify**: Run `./7w_wiki.py audit`, `./7w_wiki.py test --suite clean-client-state`, `./7w_wiki.py test --suite interop-command-registry`, `./7w_wiki.py test --suite historian-closeout-contract`, `./7w_wiki.py test --suite catalog-contract`, `./7w_wiki.py test --suite adapter-surfaces-contract`, `./7w_wiki.py test --suite delegation-policy-contract`, `./7w_wiki.py test --suite repo-hygiene-contract`, `./7w_wiki.py test --suite manifest-contract`, `./7w_wiki.py test --suite source-tree-contract`, `./7w_wiki.py test --suite legacy-doc-contract`, `./7w_wiki.py test --suite asset-surface-contract`, `./7w_wiki.py test --suite root-tree-retirement-contract`, `./7w_wiki.py test --suite styling-surface-contract`, `./7w_wiki.py test --suite workflow-matrix-contract`, `./7w_wiki.py test --suite tool-manifest-contract`, `./7w_wiki.py test --suite pages-contract-mode-contract`, `./7w_wiki.py test --suite bridge-placeholder-guard`, `./7w_wiki.py test --suite reader-stats-contract`, `./7w_wiki.py test --suite content-contract`, `./7w_wiki.py test --suite split-brain-guard`, and `./7w_wiki.py test --suite render-hygiene` before committing.
-   If the published site or docs navigation changed, also run `./7w_wiki.py test --suite pages-full-smoke` plus `./7w_wiki.py pages validate --json` and align the result with [SY_DRIFT_PAGES_CONTRACT.md](System/Synapse_Board/SY_DRIFT_PAGES_CONTRACT.md).
-5.  **Log**: Update `CHANGELOG.md` or `Logs/` as appropriate. End each session with `Logs/Archive/SESSION_MEMORY_YYYY-MM-DD_<THEMA>.md` and reference it via `./7w_wiki.py mail post`.
-
-## 🔎 Oracle Source Policy
-
-For any non-trivial research, run the Oracle with explicit source scope:
-- `--source wiki` for derived wiki pages in `docs/Siebenwind_Wiki/`
-- `--source quellen` for raw source corpus
-- `--source all` for combined cross-checking
-
-Rule: when factual conflicts exist, Homepage and Quellen govern. Wiki pages are maintained derivatives and must be reconciled upward, not treated as the tie-breaker.
-
----
-
-## 🔌 MCP Server (Model Context Protocol)
-
-The MCP server is the **canonical live interface** for external agents and IDEs. It wraps the CLI as structured tools and also exposes the canonical catalog as resources.
-
-- **Start**: `./7w_wiki.py mcp` (stdio) or `./7w_wiki.py mcp --transport streamable-http --port 7777` (network)
-- **Auto-Discovery**: `mcp_config.json` at repo root for MCP-capable clients
-- **Docs**: [System/MCP/README.md](System/MCP/README.md)
-- **Generated typed tools** auto-generated from `--help-json` — zero maintenance
-- **Catalog resources**: `wiki://catalog`, `wiki://workflows`, `wiki://skills`, `wiki://agents`
-- **`wiki_mail_quip`**: You ARE encouraged to use this tool for in-character interagency commentary, humor, and personality. See `[QUIP]` tag in [SY_DISPATCH.md](System/Synapse_Board/SY_DISPATCH.md).
-
-> **Dependency**: `pip install 'mcp[cli]'`
-
----
-*Generated: 2026-02-19 | Standard: v1.2 (MCP-Enabled)*
+- [AGENT_OPERATIONS_HANDBOOK.md](System/AGENT_OPERATIONS_HANDBOOK.md): agents, skills, dispatch, session memory
+- [SY_INTEROP.md](System/Synapse_Board/SY_INTEROP.md): interop standards
+- [SY_TESTING.md](System/Synapse_Board/SY_TESTING.md): test suites and defect flow
+- [SY_WORKFLOW_CLI_MATRIX.md](System/Synapse_Board/SY_WORKFLOW_CLI_MATRIX.md): which workflow maps to which command
+- [SY_DISPATCH.md](System/Synapse_Board/SY_DISPATCH.md): the mail/dispatch system
